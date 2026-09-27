@@ -13,7 +13,14 @@ beforeAll(async () => {
 	subject = await loadSubject(join(import.meta.dirname, '..', '..', 'subjects', 'western-civ'));
 });
 
-const page = () => render(Page, { props: { data: { subject } } as never });
+const askModels = {
+	choices: [
+		{ value: 'claude-sonnet-5', label: 'Sonnet 5' },
+		{ value: 'claude-opus-5-5', label: 'Opus 5.5' }
+	],
+	default: 'claude-sonnet-5'
+};
+const page = () => render(Page, { props: { data: { subject, askModels } } as never });
 
 /** Visible text: tags dropped, spaces collapsed. */
 const text = (html: string) => html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
@@ -66,11 +73,18 @@ describe('the shell', () => {
 		expect(page().body).toContain(`--background: ${subject.palettes.night.background}`);
 	});
 
-	it('offers a Sync Narrative control and a placeholder AI input', () => {
+	it('offers a Sync Narrative control and the Ask input', () => {
 		const body = text(page().body);
 		expect(body).toContain('Sync Narrative');
 		expect(body).toContain('Follow the spine');
-		expect(page().body).toContain('id="ai-input"');
+		expect(page().body).toMatch(/<textarea[^>]*id="ai-input"/);
+		expect(page().body).toMatch(/<label for="ai-input"[^>]*>Ask a question about this frame</);
+		expect(body).toContain('Send');
+	});
+
+	it('says in the hint bar that S and T act from the spine or narrative only', () => {
+		const hint = text(page().body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
+		expect(hint).toContain('S sync and T trail, in the spine or narrative');
 	});
 
 	it('opens on a start screen, with the shell inert behind it', () => {
@@ -110,6 +124,18 @@ describe('the settings control', () => {
 		expect(body).toMatch(/<option value="mixed"[^>]*selected/);
 		expect(text(body)).toContain('Dark');
 		expect(text(body)).toContain('Light');
+	});
+
+	it('offers the ask model as a drop-down of the app config’s models, Sonnet 5 by default', () => {
+		const { body } = page();
+		const id = [...body.matchAll(/<select[^>]*id="([^"]+)"/g)][1][1];
+		expect(body).toMatch(new RegExp(`<label for="${id}"[^>]*>Ask model</label>`));
+		const select = body.slice(
+			body.indexOf(`id="${id}"`),
+			body.indexOf('</select>', body.indexOf(`id="${id}"`))
+		);
+		expect(select).toMatch(/<option value="claude-sonnet-5"[^>]*selected[^>]*>Sonnet 5</);
+		expect(select).toMatch(/<option value="claude-opus-5-5"[^>]*>Opus 5.5</);
 	});
 });
 

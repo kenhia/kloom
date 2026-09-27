@@ -151,3 +151,12 @@ export async function readMedia(
 		throw e;
 	}
 }
+
+/**
+ * A frame's reading as authored (markdown), or null. The model is given this
+ * rather than the rendered HTML.
+ */
+export async function readReading(dir: string, frame: string): Promise<string | null> {
+	if (!/^[\w-]+$/.test(frame)) return null;
+	return text(join(dir, 'frames', frame, 'reading.md'));
+}

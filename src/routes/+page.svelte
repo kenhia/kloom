@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, untrack } from 'svelte';
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
-	import { paletteFor, paletteMode } from '$engine/settings';
+	import { ASK_MODEL, modelSetting, paletteFor, paletteMode } from '$engine/settings';
 	import { UserSettings } from '$engine/user-settings.svelte';
 	import { inscription, loomCredit } from '$lib/start/credit';
 	import type { PageProps } from './$types';
@@ -12,8 +12,16 @@
 	let started = $state(false);
 	let loom = $state<string | null>(null);
 
-	// The reader's settings: the palette mode for now; ask and grow add their models.
-	const settings = new UserSettings([paletteMode]);
+	// The reader's settings. The ask model's choices come from the app config,
+	// once per page load; grow will add its own model row the same way.
+	const settings = new UserSettings([
+		paletteMode,
+		modelSetting(
+			ASK_MODEL,
+			'Ask model',
+			untrack(() => data.askModels)
+		)
+	]);
 
 	// The start screen wears the first frame's palette, in the reader's mode.
 	const first = $derived(data.subject.frames[data.subject.spine.segments[0].frames[0]]);

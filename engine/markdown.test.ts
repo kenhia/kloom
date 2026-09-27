@@ -73,3 +73,13 @@ describe('imageRefs', () => {
 		]);
 	});
 });
+
+describe('markdown with images turned off', () => {
+	it('shows an image’s alt text instead of fetching it', () => {
+		const html = renderMarkdown('![a pixel](https://tracker.test/p.gif) text', {
+			image: () => null
+		});
+		expect(html).not.toContain('<img');
+		expect(html).toContain('a pixel text');
+	});
+});

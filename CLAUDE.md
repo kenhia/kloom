@@ -72,8 +72,9 @@ subject, AI. korg project `kloom` (id 72). Status: sprint 001 shipped the scaffo
 content model and three-pane shell; sprint 002 the curated POC content (16
 frames and a trail, with Chicago-style citations) and the loom start screen;
 sprint 003 user settings (a gear and pop-up over a settings registry, the
-Dark / Light / Mixed palette mode) and the staged scene entrance. No AI
-backend yet.
+Dark / Light / Mixed palette mode) and the staged scene entrance; sprint 004
+ask (the provider interface, a headless `claude -p` adapter, "keep this",
+the `kloom.config.json` app config and the ask-model setting). Grow is next.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

@@ -19,15 +19,17 @@
   [record](../003-user-settings.md). Ken signed off on the entrance timings
   as first set.
 
+- Sprint 004: ask (proposal 3368). A transient answer in the AI pane,
+  behind the provider interface, first adapter headless `claude -p`, with
+  "keep this" and the kept-answer format grow reads (3360). It added the app
+  config file (`kloom.config.json`) and the ask-model setting (Sonnet 5 by
+  default), and scoped S/T for WCAG 2.1.4 (3366) —
+  [record](../004-ask.md).
+
 ## Next
 
-In this order: ask, then grow. The curated frames are the bar grow is
-written against.
+The curated frames are the bar grow is written against.
 
-- Ask (proposal 3368): a transient answer in the AI pane, behind the
-  provider interface, first adapter headless `claude -p` (3360). It adds an
-  ask-model setting (default Sonnet 5) and the app config file listing the
-  available models.
 - Grow (proposal 3369): frames and trails written by the model, in the
   curated frames' style and with `citations` (3364), after the allowlist
   sanitiser (3365). It adds a grow-model setting (default Opus 5.5).

@@ -103,3 +103,22 @@ export function paletteFor(
 	if (own.scheme === mode || !own.counterpart) return own;
 	return subject.palettes[own.counterpart] ?? own;
 }
+
+/** The ask model's setting id; the AI pane reads the reader's pick under it. */
+export const ASK_MODEL = 'askModel';
+
+/**
+ * A model picker, built at runtime from the choices the server offers (the
+ * app config's models). The server re-checks whatever id comes back.
+ */
+export const modelSetting = (
+	id: string,
+	label: string,
+	offer: { choices: Choice[]; default: string }
+): Setting => ({
+	id,
+	label,
+	choices: offer.choices,
+	default: offer.default,
+	storageKey: `kloom.${id}`
+});
