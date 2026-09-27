@@ -1,0 +1,27 @@
+{
+	"id": "measure",
+	"title": "The measure of things",
+	"anchor": "eratosthenes",
+	"spine": {
+		"segments": [
+			{
+				"id": "bodies",
+				"title": "Bodies and rods",
+				"labelKind": "date",
+				"frames": ["royal-cubit"]
+			},
+			{
+				"id": "earth-and-sky",
+				"title": "Earth and sky",
+				"labelKind": "date",
+				"frames": ["harrison-chronometer", "metre-survey"]
+			},
+			{
+				"id": "constants",
+				"title": "Constants",
+				"labelKind": "date",
+				"frames": ["si-redefinition"]
+			}
+		]
+	}
+}

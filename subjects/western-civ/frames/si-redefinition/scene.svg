@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M110 58 L110 264"/>
+		<path pathLength="1" d="M90 210 L130 250 M130 210 L90 250"/>
+		<path pathLength="1" d="M90 202 L130 202 M90 198 L90 206 M130 198 L130 206 M140 210 L140 250 M136 210 L144 210 M136 250 L144 250"/>
+		<path pathLength="1" d="M220 150 a70 70 0 1 0 140 0 a70 70 0 1 0 -140 0"/>
+		<path pathLength="1" d="M290 150 L290 80 M290 150 L344.73 106.35 M290 150 L358.24 165.58 M290 150 L320.37 213.07 M290 150 L259.63 213.07 M290 150 L221.76 165.58 M290 150 L235.27 106.35"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 250 L180 250 M45 250 L45 258 L175 258 L175 250"/>
+		<path pathLength="1" d="M90 250 L90 210 M130 210 L130 250"/>
+		<path pathLength="1" d="M90 210 a20 5 0 1 0 40 0 a20 5 0 1 0 -40 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M70 250 L70 150 A40 40 0 0 1 150 150 L150 250"/>
+		<path pathLength="1" d="M106 110 L106 104 L114 104 L114 110"/>
+		<path pathLength="1" d="M55 250 L55 130 A55 55 0 0 1 165 130 L165 250"/>
+		<path pathLength="1" d="M105 75 L105 68 L115 68 L115 75"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M290 80 L344.73 106.35 L358.24 165.58 L320.37 213.07 L259.63 213.07 L221.76 165.58 L235.27 106.35 Z"/>
+		<path pathLength="1" d="M278 150 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M286 80 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0 M340.73 106.35 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0 M354.24 165.58 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0 M316.37 213.07 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0 M255.63 213.07 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0 M217.76 165.58 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0 M231.27 106.35 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="290" y="68" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">h</text>
+		<text x="356" y="100" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ΔνCs</text>
+		<text x="370" y="172" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">c</text>
+		<text x="326" y="230" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">e</text>
+		<text x="254" y="230" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">k</text>
+		<text x="210" y="172" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NA</text>
+		<text x="224" y="100" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Kcd</text>
+		<text x="290" y="153" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">kg</text>
+		<text x="110" y="276" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IPK · 1889–2019</text>
+	</g>
+</svg>

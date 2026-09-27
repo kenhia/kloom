@@ -1,0 +1,50 @@
+{
+	"id": "harrison-chronometer",
+	"position": {
+		"label": "AD 1761",
+		"sort": 1761
+	},
+	"scene": {
+		"headline": "Time told us",
+		"accent": "WHERE.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["LONDON · JOHN HARRISON", "H4 · HMS DEPTFORD · PORTSMOUTH TO JAMAICA"],
+		"counter": {
+			"value": "5",
+			"label": "seconds lost in 81 days at sea"
+		}
+	},
+	"sources": [
+		{
+			"title": "John Harrison — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/John_Harrison"
+		},
+		{
+			"title": "Longitude rewards — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Longitude_rewards"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "John Harrison",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Harrison&oldid=1376497394",
+			"accessed": "2026-09-27",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Longitude rewards",
+			"url": "https://en.wikipedia.org/w/index.php?title=Longitude_rewards&oldid=1352685630",
+			"accessed": "2026-09-27",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-05"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M36 150 L384 150"/>
+		<path pathLength="1" d="M125 46 L125 240"/>
+		<path pathLength="1" d="M300 70 L300 230"/>
+		<path pathLength="1" d="M300 150 L318.63 80.45 M300 150 L336 87.65 M300 150 L350.91 99.09 M300 150 L362.35 114 M300 150 L369.55 131.37 M300 150 L369.55 168.63 M300 150 L362.35 186 M300 150 L350.91 200.91 M300 150 L336 212.35 M300 150 L318.63 219.55 M300 150 L281.37 219.55 M300 150 L264 212.35 M300 150 L249.09 200.91 M300 150 L237.65 186 M300 150 L230.45 168.63 M300 150 L230.45 131.37 M300 150 L237.65 114 M300 150 L249.09 99.09 M300 150 L264 87.65 M300 150 L281.37 80.45"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M47 150 a78 78 0 1 0 156 0 a78 78 0 1 0 -156 0"/>
+		<path pathLength="1" d="M121 72 L121 65 L129 65 L129 72"/>
+		<path pathLength="1" d="M118 58 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M228 150 a72 72 0 1 0 144 0 a72 72 0 1 0 -144 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M55 150 a70 70 0 1 0 140 0 a70 70 0 1 0 -140 0"/>
+		<path pathLength="1" d="M125 88 L125 80 M156 96.31 L160 89.38 M178.69 119 L185.62 115 M187 150 L195 150 M178.69 181 L185.62 185 M156 203.69 L160 210.62 M125 212 L125 220 M94 203.69 L90 210.62 M71.31 181 L64.38 185 M63 150 L55 150 M71.31 119 L64.38 115 M94 96.31 L90 89.38"/>
+		<path pathLength="1" d="M113 185 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M125 150 L92.1 131"/>
+		<path pathLength="1" d="M125 150 L172.63 122.5"/>
+		<path pathLength="1" d="M125 185 L125 175"/>
+		<path pathLength="1" d="M300 150 L300 78 M300 150 L318.63 80.45"/>
+		<path pathLength="1" d="M300 110 A40 40 0 0 1 310.35 111.36"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="125" y="252" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">H4</text>
+		<text x="314" y="70" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">15° = 1 HOUR</text>
+		<text x="300" y="252" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">24 × 15° = 360°</text>
+	</g>
+</svg>

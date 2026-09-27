@@ -1,0 +1,68 @@
+{
+	"id": "metre-survey",
+	"position": {
+		"label": "AD 1792–1799",
+		"sort": 1792
+	},
+	"scene": {
+		"headline": "We measured the Earth",
+		"accent": "AGAIN.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["DUNKIRK · RODEZ · BARCELONA", "DELAMBRE · MÉCHAIN · THE PARIS MERIDIAN"],
+		"counter": {
+			"value": "10,000,000",
+			"label": "metres from pole to equator, by definition"
+		}
+	},
+	"sources": [
+		{
+			"title": "History of the metre — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/History_of_the_metre"
+		},
+		{
+			"title": "Jean Baptiste Joseph Delambre — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Jean_Baptiste_Joseph_Delambre"
+		},
+		{
+			"title": "Pierre Méchain — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Pierre_M%C3%A9chain"
+		},
+		{
+			"title": "Ken Alder, The Measure of All Things: The Seven-Year Odyssey and Hidden Error That Transformed the World (Free Press, 2002)",
+			"note": "The standard history of the Delambre–Méchain survey."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "History of the metre",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_the_metre&oldid=1370584883",
+			"accessed": "2026-09-27",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean Baptiste Joseph Delambre",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean_Baptiste_Joseph_Delambre&oldid=1372758280",
+			"accessed": "2026-09-27",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre Méchain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre_M%C3%A9chain&oldid=1371985280",
+			"accessed": "2026-09-27",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		}
+	]
+}
