@@ -2,3 +2,6 @@
 .env
 .sprint-defaults
 .korg-sprint-proposal
+node_modules/
+.svelte-kit/
+build/

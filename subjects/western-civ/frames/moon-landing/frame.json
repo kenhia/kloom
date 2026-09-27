@@ -1,0 +1,19 @@
+{
+	"id": "moon-landing",
+	"position": { "label": "AD 1969", "sort": 1969 },
+	"scene": {
+		"headline": "We left the",
+		"accent": "EARTH.",
+		"palette": "night",
+		"illustration": "scene.svg",
+		"metadata": ["APOLLO 11 · SEA OF TRANQUILITY", "20 JULY 1969"],
+		"counter": { "value": "384,400", "label": "km from home" }
+	},
+	"sources": [
+		{ "title": "Apollo 11 — Wikipedia", "url": "https://en.wikipedia.org/wiki/Apollo_11" },
+		{
+			"title": "Apollo 11 mission overview — NASA",
+			"url": "https://www.nasa.gov/mission/apollo-11/"
+		}
+	]
+}

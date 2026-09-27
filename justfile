@@ -6,15 +6,17 @@
 default:
     @just --list
 
-# This placeholder exits 1 deliberately. The managed block tells every agent
-# that `just check` runs the gates; a TODO that exits 0 would satisfy that
-# promise in the letter while asserting nothing — the "passes by not looking"
-# gate. Failing until it is written is the honest state. See the tooling
-# stanza in CLAUDE.md for how to decide what it should assert.
-
-# Run CI gates — TODO: write them, this repo has no stack to infer them from
+# Run type checks, formatting/lint checks and unit tests (content validation
+# included: the western-civ subject is loaded and validated by a test)
 check:
-    @echo "No gate yet. Ask what this repo can actually get wrong, add no"
-    @echo "dependency to check it, and prove the gate fails on a planted"
-    @echo "error before trusting it. Then replace this recipe."
-    @exit 1
+    npm run check
+    npm run lint
+    npm test
+
+# Serve locally on loopback
+dev:
+    npm run dev
+
+# Build the Node server
+build:
+    npm run build

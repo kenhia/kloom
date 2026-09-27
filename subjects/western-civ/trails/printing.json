@@ -1,0 +1,15 @@
+{
+	"id": "printing",
+	"title": "The printing press",
+	"anchor": "printing-press",
+	"spine": {
+		"segments": [
+			{
+				"id": "mainz",
+				"title": "Mainz",
+				"labelKind": "date",
+				"frames": ["gutenberg-bible"]
+			}
+		]
+	}
+}

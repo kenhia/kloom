@@ -8,7 +8,7 @@
 kloom is an interactive, growable timeline for learning a subject. Scrolling
 moves a cursor along a "spine" of richly illustrated frames; a reading pane
 holds the narrative, charts, images and sources for the frame you are on; and
-an AI pane lets you ask for more detail or *grow* the story — new frames on
+an AI pane lets you ask for more detail or _grow_ the story — new frames on
 the main spine, or a side trail to explore.
 
 The first subject is **the History of Western Civilization**. The longer aim
@@ -43,7 +43,20 @@ where it is going.
 
 This repo uses the [kprojects](https://github.com/kenhia/kprojects) minimal
 harness: `just` lists recipes, `just check` runs the gates. The app is
-SvelteKit + TypeScript (being scaffolded in sprint 001).
+SvelteKit + TypeScript on Node 22.13+ or 24:
+
+```sh
+npm ci
+just dev      # http://127.0.0.1:5173, loopback only
+just check    # types + a11y lints, prettier/eslint, unit tests, content validation
+just build    # Node server in build/; run with `node build`
+```
+
+Code lives in three places. `engine/` is the subject-agnostic model, loader,
+validation and UI. `subjects/<subject>/` holds one subject's content, one
+directory per frame. `src/` is the SvelteKit wiring that serves a subject
+(`KLOOM_SUBJECT`, default `western-civ`; `KLOOM_SUBJECTS_DIR`, default
+`subjects`).
 
 ## License
 

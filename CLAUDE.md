@@ -68,8 +68,8 @@ scroller (left), a narrative reading pane (right) and an AI pane (bottom) that
 answers questions (ask) or adds frames and side trails (grow). POC subject:
 the History of Western Civilization. Later: a framework (starter code, skills,
 instructions) that generates a kloom for any subject, proven on a second
-subject, AI. korg project `kloom` (id 72). Status: fresh scaffold — sprint 001
-builds the app.
+subject, AI. korg project `kloom` (id 72). Status: sprint 001 shipped the scaffold,
+content model and three-pane shell on placeholder content; no AI backend yet.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -79,8 +79,11 @@ rules — all decided, change the doc with the code), then
 
 **Stack:** SvelteKit (adapter-node) + TypeScript; toolchain modelled on
 `kai:~/src/tools/koverwatch` (its sprint 001 is the scaffold template).
-`just check` is the seeded failing placeholder until sprint 001 replaces it
-with svelte-check, prettier/eslint and vitest.
+`just check` runs svelte-check (warnings fail — that is where the a11y lints
+land), prettier + eslint, and vitest, which also loads and validates every
+frame of `subjects/western-civ`. Layout: `engine/` (model, loader,
+validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
+`src/` (SvelteKit wiring — the only code that picks a subject).
 
 **Rules that are easy to break:**
 
