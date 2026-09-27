@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M16 262 L384 262"/>
+		<path pathLength="1" d="M30 70 L162 246 M162 70 L30 246"/>
+		<path pathLength="1" d="M96 158 L240 92 M162 158 L339 92 M162 246 L339 224 M96 246 L240 224"/>
+		<path pathLength="1" d="M289.5 92 L289.5 224 M240 142 L339 142"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 70 L162 70 L162 246 L30 246 Z"/>
+		<path pathLength="1" d="M252 86 L252 80 L351 80 L351 212 L345 212"/>
+		<path pathLength="1" d="M246 92 L246 86 L345 86 L345 218 L339 218"/>
+		<path pathLength="1" d="M240 92 L339 92 L339 224 L240 224 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M96 70 L96 246 M30 158 L162 158"/>
+		<path pathLength="1" d="M60 84 L88 84 M38 92 L88 92 M38 100 L88 100 M38 108 L88 108 M38 116 L88 116 M38 124 L88 124 M38 132 L88 132 M38 140 L88 140 M38 148 L88 148"/>
+		<path pathLength="1" d="M126 84 L154 84 M104 92 L154 92 M104 100 L154 100 M104 108 L154 108 M104 116 L154 116 M104 124 L154 124 M104 132 L154 132 M104 140 L154 140 M104 148 L154 148"/>
+		<path pathLength="1" d="M38 172 L88 172 M38 180 L88 180 M38 188 L88 188 M38 196 L88 196 M38 204 L88 204 M38 212 L88 212 M38 220 L88 220 M38 228 L88 228 M38 236 L66 236"/>
+		<path pathLength="1" d="M100 162 L158 162 L158 242 L100 242 Z M108 170 L150 170 L150 234 L108 234 Z"/>
+		<path pathLength="1" d="M108 191.3 A21 21 0 0 1 150 191.3"/>
+		<path pathLength="1" d="M113.3 196.7 L144.7 196.7 M116 200.7 L142 200.7 M118.7 204.7 L139.3 204.7 M117.3 222 L140.3 222 M110.7 231.3 L147.3 231.3"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M246 98 L333 98 L333 218 L246 218 Z"/>
+		<path pathLength="1" d="M258 110 L321 110 L321 206 L258 206 Z"/>
+		<path pathLength="1" d="M258 142 A31.5 31.5 0 0 1 321 142"/>
+		<path pathLength="1" d="M280.5 128 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M120 216.7 L138 216.7"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M249.5 104 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M262 104 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M274.5 104 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M287 104 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M299.5 104 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M312 104 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M324.5 104 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M249.5 212 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M262 212 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M274.5 212 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M287 212 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M299.5 212 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M312 212 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M324.5 212 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M249.5 116 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M249.5 128 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M249.5 140 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M249.5 152 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M249.5 164 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M249.5 176 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M249.5 188 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M249.5 200 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M324.5 116 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M324.5 128 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M324.5 140 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M324.5 152 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M324.5 164 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M324.5 176 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M324.5 188 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M324.5 200 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M285.5 128 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M266 150 L313 150 M270 156 L309 156 M274 162 L305 162 M272 188 L307 188"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="289.5" y="180" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" letter-spacing="1">LUTHER</text>
+		<text x="289.5" y="202" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" fill="currentColor" stroke="none">WITTENBERG</text>
+		<text x="96" y="280" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" letter-spacing="1">ONE SHEET · TWO FOLDS</text>
+		<text x="289.5" y="280" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" letter-spacing="1">QUARTO PAMPHLET</text>
+	</g>
+</svg>
