@@ -7,3 +7,9 @@ import { env } from '$env/dynamic/private';
  */
 export const subjectDir = () =>
 	resolve(env.KLOOM_SUBJECTS_DIR ?? 'subjects', env.KLOOM_SUBJECT ?? 'western-civ');
+
+/**
+ * Where the app keeps what it writes that is not subject content, such as
+ * kept answers (`<dataDir>/<subject>/kept/`). Git-ignored.
+ */
+export const dataDir = () => resolve(env.KLOOM_DATA_DIR ?? 'data');

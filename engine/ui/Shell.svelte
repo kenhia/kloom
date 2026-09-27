@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import type { Subject, Trail } from '../model';
 	import { clamp, indexLabel, stops, WheelGate, type SyncMode } from '../navigation';
+	import { pageKey } from '../keys';
 	import { paletteFor, paletteMode } from '../settings';
 	import type { UserSettings } from '../user-settings.svelte';
 	import AiPane from './AiPane.svelte';
@@ -112,53 +113,42 @@
 		narrativeEl?.scrollBy({ top: direction * 80, behavior: reducedMotion() ? 'auto' : 'smooth' });
 	}
 
-	/** Page-wide keys (docs/design.md §Interaction); text fields keep their own. */
+	/** Page-wide keys: engine/keys.ts decides what a press means where focus is. */
 	function keydown(e: KeyboardEvent) {
 		if (!active || e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
-		const target = e.target as HTMLElement;
-		if (e.key === 'Escape' && target.closest('.ai')) {
-			e.preventDefault();
-			slider?.focus();
-			return;
-		}
-		if (
-			target.closest(
-				'input[type="text"], textarea, select, [contenteditable="true"], [data-own-keys]'
-			)
-		)
-			return;
-
-		switch (e.key) {
-			case 'ArrowRight':
+		const target = e.target instanceof Element ? e.target : null;
+		switch (pageKey(e.key, target)) {
+			case 'to-spine':
+				slider?.focus();
+				break;
+			case 'next':
 				step(1);
 				break;
-			case 'ArrowLeft':
+			case 'previous':
 				step(-1);
 				break;
-			case 'Home':
+			case 'first':
 				go(0);
 				break;
-			case 'End':
+			case 'last':
 				go(path.length - 1);
 				break;
-			case 'ArrowDown':
+			case 'scroll-down':
 				scrollNarrative(1);
 				break;
-			case 'ArrowUp':
+			case 'scroll-up':
 				scrollNarrative(-1);
 				break;
-			case 's':
-			case 'S':
+			case 'sync':
 				syncNarrative();
 				break;
-			case 't':
-			case 'T': {
+			case 'trail': {
 				const [first] = trail ? [] : trailsFrom(frame.id);
 				if (!first) return;
 				enter(first);
 				break;
 			}
-			case 'Escape':
+			case 'leave-trail':
 				if (!trail) return;
 				leave();
 				break;
@@ -211,7 +201,7 @@
 		{#snippet tools()}<Settings {settings} />{/snippet}
 	</Narrative>
 
-	<AiPane />
+	<AiPane frame={narrativeFrame} {trail} {settings} />
 </div>
 
 <style>

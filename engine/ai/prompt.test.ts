@@ -1,0 +1,30 @@
+import { describe, expect, it } from 'vitest';
+import { askPrompt, citedNumbers, references } from './prompt';
+import { context } from './fixture';
+
+describe('the ask prompt', () => {
+	it('numbers citations first, then only the sources no citation covers', () => {
+		const refs = references(context.frame);
+		expect(refs).toHaveLength(3);
+		expect('citation' in refs[0] && refs[0].citation.title).toBe('Press article');
+		expect('citation' in refs[1] && refs[1].citation.title).toBe('Ink');
+		expect('source' in refs[2] && refs[2].source.title).toBe('A book with no link');
+	});
+
+	it('carries where the reader is, the reading, the numbered sources and the question', () => {
+		const p = askPrompt({ ...context, trail: { id: 't', title: 'Ink trail' } }, '  Why?  ');
+		expect(p).toContain('Subject: A Subject');
+		expect(p).toContain('Renaissance › AD 1440 (on the side trail "Ink trail")');
+		expect(p).toContain('Frame: We printed WORDS.');
+		expect(p).toContain('Gutenberg built a press.');
+		expect(p).toMatch(/\[1\] .*Press article/);
+		expect(p).toContain('[3] A book with no link');
+		expect(p.endsWith('--- Question ---\nWhy?')).toBe(true);
+	});
+
+	it('reads the reference numbers an answer marks, in first-use order and in range', () => {
+		expect(citedNumbers('A [2]. B [1, 3]. C [2]. D [9]. E [1–2].', 3)).toEqual([2, 1, 3]);
+		expect(citedNumbers('No markers; [x] and [] too.', 3)).toEqual([]);
+		expect(citedNumbers('Range [1-3].', 3)).toEqual([1, 2, 3]);
+	});
+});

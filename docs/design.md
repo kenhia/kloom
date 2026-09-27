@@ -131,7 +131,110 @@ baked into the engine.
   content-writing skill; grow jobs are queued, async, and commit their files.
 - **Provider interface** — every model call goes through one interface, so a
   Claude API adapter (or another provider) is an additive change, not a
-  rewrite.
+  rewrite. Built in sprint 004; see §Ask.
+
+## Ask
+
+Built in sprint 004 (korg 3360).
+
+- **The Provider interface** (`engine/ai/provider.ts`). `ask(request)`
+  returns an async iterable of `{type: 'text', text}` chunks in order. A
+  failure is one `{type: 'error', message}`, after which it ends; the answer
+  is complete when the iterator ends. The request carries:
+  - an `AskContext`: the subject's title; the frame's id, title, position,
+    segment, reading markdown, sources and citations; and the trail, if any;
+  - the question;
+  - a model id the server has already checked;
+  - an `AbortSignal`.
+
+  The prompt (`engine/ai/prompt.ts`) is shared by every adapter. It numbers
+  the frame's citations, then any sources no citation covers, and asks the
+  model to mark what it drew on with `[n]`. A Claude API adapter is one more
+  class beside `ClaudeCliProvider`, chosen by `provider.kind` in the app
+  config.
+
+- **The server builds the context.** The client sends
+  `{frame, trail, question, model}` to `POST /api/ask`. The server reads the
+  frame's content from disk, never from the request, and refuses an unknown
+  frame, or a trail that does not hold the frame. Questions are capped at
+  2000 characters. The model is honoured only if the app config lists it;
+  anything else gets the default.
+- **The first adapter: `claude -p`** (`engine/ai/claude-cli.ts`). It uses the
+  host's logged-in subscription, as karc does. Measured with
+  Claude Code 2.1.283:
+  - spawned with an argv array, with no shell in between;
+  - run in an empty working directory (`$TMPDIR/kloom-ask`), so no project's
+    `CLAUDE.md` applies;
+  - `--tools ""`, because ask needs no tools; `--strict-mcp-config`,
+    `--setting-sources ""` and `--disable-slash-commands`, so no MCP server,
+    hook or skill loads; `--no-session-persistence`;
+  - kloom's own `--system-prompt`, with the prompt on stdin.
+
+  `--bare` is not usable: it takes only an API key, not the subscription.
+  A turn that runs past `provider.timeoutSeconds` (120) is killed and reported.
+
+- **Streaming works cleanly.** `--output-format stream-json --verbose
+--include-partial-messages` emits `content_block_delta`/`text_delta`
+  lines, and the adapter yields each one. The final `result` line decides
+  the outcome: `is_error: true` is an error (an unknown model reports
+  itself this way), and a result with nothing streamed before it becomes
+  the text. A short answer on Sonnet 5 took 4–8s.
+- **Wire format.** The endpoint responds with NDJSON `AskStreamEvent`s:
+  - `start` (the answer's id, the model, the frame);
+  - `queued`, if another turn is running;
+  - the text chunks;
+  - exactly one `done` or `error`.
+
+  When the reader closes the stream (Stop, a new question, or leaving the
+  page), the turn is aborted and the process killed.
+
+- **One turn at a time.** `TurnQueue` runs one turn on the host, lets three
+  wait (each told it is queued), and refuses a fifth with 503. A request
+  aborted while it waits leaves the queue.
+- **Moving the spine during a turn** neither stops the turn nor changes what
+  it is about. An answer belongs to the frame it was asked about, and its
+  heading names that frame ("About Knowledge went VIRAL. · Sonnet 5"). A new
+  question replaces the current one, cancelling it if it is still running.
+- **Which frame.** The question is about the frame in the reading pane, which
+  in manual sync can differ from the spine's: the reader is asking about
+  what they are reading. The trail is sent only if it holds that frame.
+- **Transient.** The answer shows in the AI pane, rendered with the reading's
+  markdown rules and with images turned off (a model's image would be a
+  request to anywhere). It is not stored, and a reload forgets it. The
+  answer scrolls in a focusable region marked `data-own-keys`, so the
+  arrows scroll it. A `role="status"` line announces asking, queued,
+  answering, ready, stopped and failed; the streaming text itself is not a
+  live region.
+- **Keep this.** Once an answer is done, "Keep this" sends only its id to
+  `POST /api/keep`. The server remembers finished answers (the last 50, for
+  an hour) and writes what it remembers, never text the client sends back.
+  The file goes to `<dataDir>/<subject>/kept/<id>.json`, where `dataDir` is
+  `$KLOOM_DATA_DIR` or `data/`, git-ignored. A kept answer is not subject
+  content, and asking never writes subject content.
+- **The kept-answer format** (`engine/ai/kept.ts`, for grow, korg 3364):
+
+  ```json
+  {
+  	"kind": "kloom.kept-answer",
+  	"version": 1,
+  	"id": "20260927T170911Z-bdded89b",
+  	"subject": "western-civ",
+  	"anchor": { "frame": "printing-press", "trail": null },
+  	"question": "Why did printing spread so fast?",
+  	"answer": "Markdown, as the model wrote it, [n] markers and all",
+  	"citations": ["the frame's citations the answer marked, first use first"],
+  	"sources": ["the frame's plain sources it marked"],
+  	"provider": "claude-cli",
+  	"model": "claude-sonnet-5",
+  	"askedAt": "2026-09-27T17:09:11.000Z",
+  	"keptAt": "2026-09-27T17:09:20.000Z"
+  }
+  ```
+
+  The `[n]` numbers refer to the frame's references in prompt order, and
+  `citations` carries exactly the ones used, in the §Citations shape. The id
+  is the ask time plus 8 random hex digits, safe as a file name. Grow should
+  check a file with `keptAnswerProblems` before reading it.
 
 ## Interaction
 
@@ -148,7 +251,14 @@ baked into the engine.
   ends); Up/Down scroll the narrative; S syncs the narrative; T enters the
   trail branching from the current frame and Esc leaves it; Tab moves into
   and out of the AI pane, and Esc anywhere in it returns to the spine. Keys
-  typed into a text field stay there. Visible focus, ARIA
+  typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
+  what a press means from where focus is, and the shell acts on it.
+- **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S
+  and T act only while focus is inside the spine or the narrative pane. They
+  do nothing in the AI pane, in the settings panel, or on the bare page.
+  The arrows, Home/End and Esc are not character keys, so they stay
+  page-wide, except in a text field or an element marked `data-own-keys`.
+  The hint bar says so. Visible focus, ARIA
   roles, `prefers-reduced-motion` honoured. Accessibility is a requirement
   from sprint 001, not polish.
 - **Trails.** Entering a trail swaps the scroller to it with a breadcrumb
@@ -219,7 +329,30 @@ Built in sprint 003 (korg 3373, 3372).
     write is wrapped so blocked storage costs only the memory.
   - **App settings** belong to the deployment. They live in a config file on
     the server, such as the models on offer and their ids. Readers never edit
-    them. The first one arrives with ask (3368).
+    them. They arrived with ask (3368).
+- **The app config** is `kloom.config.json` at the repo root, or
+  `$KLOOM_CONFIG`. It is committed, because it holds no secret, and is read
+  per request, so a renamed model is a file edit with no restart:
+
+  ```json
+  {
+  	"provider": { "kind": "claude-cli", "command": "claude", "timeoutSeconds": 120 },
+  	"models": [{ "id": "claude-sonnet-5", "label": "Sonnet 5" }, "…"],
+  	"ask": { "defaultModel": "claude-sonnet-5" }
+  }
+  ```
+
+  Validation (`src/lib/server/app-config.ts`) requires a non-empty model
+  list. Ids must be letters, digits, `.`, `-` and `_`, never starting with a
+  dash, so a hand edit cannot make one a CLI flag. The default must be
+  listed. Grow adds its own `grow.defaultModel` against the same list.
+
+- **The ask model** (sprint 004) is a user setting over that list. It is a
+  drop-down labelled "Ask model", Sonnet 5 by default, stored under
+  `kloom.askModel`. The page's server load serves the choices, and
+  `modelSetting` (`engine/settings.ts`) turns them into a row. The pick is
+  what `claude -p --model` gets. The server honours it only if the config
+  lists it, so a client string never reaches the command line.
 - **The registry.** `engine/settings.ts` defines a `Setting` as
   `{id, label, choices: [{value, label}], default, storageKey}`. Every
   setting is a pick from a fixed list, and there is no free-text kind. A

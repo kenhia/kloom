@@ -59,6 +59,12 @@ directory per frame. `src/` is the SvelteKit wiring that serves a subject
 `subjects`). `create-tools/` holds the authoring scripts that made the
 content (plates, citations, charts, traced art); see its README.
 
+Ask runs headless `claude -p` on the host, so the server needs a logged-in
+Claude Code on its `PATH`. The models on offer, and which one ask defaults
+to, are in the app config `kloom.config.json` (`KLOOM_CONFIG` to use
+another). Kept answers are written under `data/` (`KLOOM_DATA_DIR`), which is
+git-ignored.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
