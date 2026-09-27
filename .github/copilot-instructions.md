@@ -69,7 +69,9 @@ answers questions (ask) or adds frames and side trails (grow). POC subject:
 the History of Western Civilization. Later: a framework (starter code, skills,
 instructions) that generates a kloom for any subject, proven on a second
 subject, AI. korg project `kloom` (id 72). Status: sprint 001 shipped the scaffold,
-content model and three-pane shell on placeholder content; no AI backend yet.
+content model and three-pane shell; sprint 002 the curated POC content (16
+frames and a trail, with Chicago-style citations) and the loom start screen.
+No AI backend yet.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -83,14 +85,17 @@ rules — all decided, change the doc with the code), then
 land), prettier + eslint, and vitest, which also loads and validates every
 frame of `subjects/western-civ`. Layout: `engine/` (model, loader,
 validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
-`src/` (SvelteKit wiring — the only code that picks a subject).
+`src/` (SvelteKit wiring — the only code that picks a subject),
+`create-tools/` (authoring scripts: plates, citations, charts, traced art).
 
 **Rules that are easy to break:**
 
 - `engine/` never names a subject; subject content and theme live under
   `subjects/<subject>/`.
 - Don't assume the spine is time — segments carry their own label kind.
-- Every frame carries sources.
+- Every frame carries sources; every image or chart in a reading carries a
+  `media` citation with its licence, and Wikipedia is cited by revision
+  (`oldid=`).
 - Model calls go through the provider interface only; `claude -p` is one
   adapter, not the architecture.
 - Keyboard and screen-reader support are requirements; verify keyboard-only

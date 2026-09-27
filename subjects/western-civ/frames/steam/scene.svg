@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M10 282 L390 282"/>
+		<path pathLength="1" d="M170 282 L170 96 M230 282 L230 96 M164 96 L236 96"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M52 66 Q200 44 348 66 Q200 88 52 66 Z"/>
+		<path pathLength="1" d="M195 66 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M188 96 L200 66 L212 96"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M58 150 L106 150 L106 262 L58 262 Z"/>
+		<path pathLength="1" d="M52 150 L112 150"/>
+		<path pathLength="1" d="M52 262 L112 262"/>
+		<path pathLength="1" d="M82 150 L82 104"/>
+		<path pathLength="1" d="M82 104 L70 66"/>
+		<path pathLength="1" d="M82 104 L110 104 L100 70"/>
+		<path pathLength="1" d="M79.5 104 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M122 212 L148 212 L148 272 L122 272 Z"/>
+		<path pathLength="1" d="M106 240 L122 240"/>
+		<path pathLength="1" d="M135 212 L135 76"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M342 68 L331 195"/>
+		<path pathLength="1" d="M252 204 a62 62 0 1 0 124 0 a62 62 0 1 0 -124 0"/>
+		<path pathLength="1" d="M260 204 a54 54 0 1 0 108 0 a54 54 0 1 0 -108 0"/>
+		<path pathLength="1" d="M325.1 208.5 L364.1 224.2 M318.7 215 L335.1 253.7 M309.5 215.1 L293.8 254.1 M303 208.7 L264.3 225.1 M302.9 199.5 L263.9 183.8 M309.3 193 L292.9 154.3 M318.5 192.9 L334.2 153.9 M325 199.3 L363.7 182.9"/>
+		<path pathLength="1" d="M302 204 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M324 195 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M280 282 L314 204 L348 282"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M256 282 L256 140"/>
+		<path pathLength="1" d="M256 150 L236 176"/>
+		<path pathLength="1" d="M256 150 L276 176"/>
+		<path pathLength="1" d="M229 180 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M273 180 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M246 163 L256 184 L266 163"/>
+		<path pathLength="1" d="M250 184 L262 184"/>
+	</g>
+</svg>

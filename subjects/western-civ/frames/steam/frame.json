@@ -1,0 +1,76 @@
+{
+	"id": "steam",
+	"position": {
+		"label": "AD 1776",
+		"sort": 1776
+	},
+	"scene": {
+		"headline": "Then we put fire to",
+		"accent": "WORK.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["BOULTON & WATT · BIRMINGHAM", "SEPARATE CONDENSER · SUN-AND-PLANET · GOVERNOR"],
+		"counter": {
+			"value": "½",
+			"label": "the coal of a Newcomen engine"
+		}
+	},
+	"sources": [
+		{
+			"title": "Watt steam engine — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Watt_steam_engine"
+		},
+		{
+			"title": "James Watt — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/James_Watt"
+		},
+		{
+			"title": "Newcomen atmospheric engine — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Newcomen_atmospheric_engine"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Watt steam engine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Watt_steam_engine&oldid=1375893458",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Watt",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Watt&oldid=1370759179",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Newcomen atmospheric engine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Newcomen_atmospheric_engine&oldid=1375893238",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		}
+	]
+}

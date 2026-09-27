@@ -1,0 +1,223 @@
+/**
+ * Citations: stored as structured data, rendered in Chicago
+ * notes-bibliography style (docs/design.md §Citations). Because the storage
+ * is structured, another house style later is a new renderer here, not a
+ * content rewrite.
+ */
+
+/** What is being cited. `media` credits an image or chart a frame uses. */
+export const CITATION_KINDS = ['web', 'wikipedia', 'book', 'article', 'media'] as const;
+export type CitationKind = (typeof CITATION_KINDS)[number];
+
+/** A person (`family`, optionally `given`) or an organisation (`name`). */
+export type Author = { family: string; given?: string } | { name: string };
+
+export interface Citation {
+	kind: CitationKind;
+	title: string;
+	/** For Wikipedia, a permanent revision link (`oldid=`): articles change. */
+	url: string;
+	/** `YYYY-MM-DD`: when the page was read. */
+	accessed: string;
+	/** Authors, or for media the creator. Wikipedia: "Wikipedia contributors". */
+	authors?: Author[];
+	/** The site, book series or collection the item sits in. */
+	container?: string;
+	publisher?: string;
+	/** Place of publication, for books. */
+	place?: string;
+	/** Journal articles: where in the journal. */
+	volume?: string;
+	issue?: string;
+	pages?: string;
+	/** `YYYY`, `YYYY-MM` or `YYYY-MM-DD`; for Wikipedia, the revision's date. */
+	published?: string;
+	/** Media only: "Public domain", "CC BY-SA 4.0", … */
+	licence?: string;
+	/** Media only: the file this credits, in the frame's directory. */
+	file?: string;
+}
+
+/** One run of formatted text; the renderer decides the markup. */
+export interface Part {
+	text: string;
+	italic?: boolean;
+	/** Set on the URL run, so it can be a link. */
+	href?: string;
+}
+
+const MONTHS = [
+	'January',
+	'February',
+	'March',
+	'April',
+	'May',
+	'June',
+	'July',
+	'August',
+	'September',
+	'October',
+	'November',
+	'December'
+];
+
+const DATE = /^(\d{4})(?:-(0[1-9]|1[0-2])(?:-(0[1-9]|[12]\d|3[01]))?)?$/;
+
+/** "2026-09-26" → "September 26, 2026"; "1895" stays "1895". */
+export function chicagoDate(iso: string): string {
+	const m = DATE.exec(iso);
+	if (!m) return iso;
+	const [, y, mo, d] = m;
+	if (!mo) return y;
+	const month = MONTHS[Number(mo) - 1];
+	return d ? `${month} ${Number(d)}, ${y}` : `${month} ${y}`;
+}
+
+const inverted = (a: Author) =>
+	'name' in a ? a.name : a.given ? `${a.family}, ${a.given}` : a.family;
+const natural = (a: Author) =>
+	'name' in a ? a.name : a.given ? `${a.given} ${a.family}` : a.family;
+
+/** Bibliography order: the first author inverted, the rest as written. */
+export function chicagoAuthors(authors: Author[]): string {
+	const [first, ...rest] = authors;
+	if (!first) return '';
+	if (rest.length === 0) return inverted(first);
+	const others = rest.map(natural);
+	const last = others.pop()!;
+	return `${[inverted(first), ...others].join(', ')}, and ${last}`;
+}
+
+/** End an element with a period unless it already ends in punctuation. */
+const stop = (s: string) => (/[.?!]$/.test(s) ? s : `${s}.`);
+
+/**
+ * A title set in quotation marks: quotes inside it become single ones, and
+ * the period goes inside them too ("…the ‘Rise of the West.’").
+ */
+function quoted(title: string): string {
+	const inner = title.replace(/“/g, '‘').replace(/”/g, '’');
+	const closing = /’$/.test(inner) ? '’' : '';
+	return `“${stop(closing ? inner.slice(0, -1) : inner)}${closing}”`;
+}
+
+/**
+ * A bibliography entry in Chicago notes-bibliography style (17th ed.):
+ *
+ * - web: Author. "Title." Site. Publisher, Date. Accessed Date. URL.
+ * - wikipedia: Wikipedia contributors. "Title." Wikipedia. Wikimedia
+ *   Foundation. Last modified Date. Accessed Date. URL.
+ * - book: Author. _Title_. Place: Publisher, Year. Accessed Date. URL.
+ * - article: Author. "Title." _Journal_ Volume, no. Issue (Date): Pages.
+ *   Accessed Date. URL.
+ * - media: Creator. _Title_. Date. Collection. Licence. Accessed Date. URL.
+ */
+export function chicago(c: Citation): Part[] {
+	const parts: Part[] = [];
+	const add = (text: string, italic = false) => parts.push(italic ? { text, italic } : { text });
+
+	if (c.authors?.length) add(`${stop(chicagoAuthors(c.authors))} `);
+
+	const italicTitle = c.kind === 'book' || c.kind === 'media';
+	if (italicTitle) {
+		add(c.title, true);
+		add('. ');
+	} else add(`${quoted(c.title)} `);
+
+	const date = c.published ? chicagoDate(c.published) : undefined;
+	switch (c.kind) {
+		case 'book': {
+			const imprint = [c.place, c.publisher].filter(Boolean).join(': ');
+			const facts = [imprint, date].filter(Boolean).join(', ');
+			if (c.container) add(`${stop(c.container)} `);
+			if (facts) add(`${stop(facts)} `);
+			break;
+		}
+		case 'media':
+			if (date) add(`${stop(date)} `);
+			if (c.container) add(`${stop(c.container)} `);
+			if (c.publisher) add(`${stop(c.publisher)} `);
+			if (c.licence) add(`${stop(c.licence)} `);
+			break;
+		case 'article': {
+			if (c.container) add(c.container, true);
+			let where = [c.volume, c.issue && `no. ${c.issue}`].filter(Boolean).join(', ');
+			if (date) where += ` (${date})`;
+			if (c.pages) where += `: ${c.pages}`;
+			add(where ? ` ${stop(where.trim())} ` : '. ');
+			break;
+		}
+		case 'wikipedia':
+			if (c.container) add(`${stop(c.container)} `);
+			if (c.publisher) add(`${stop(c.publisher)} `);
+			if (date) add(`Last modified ${date}. `);
+			break;
+		case 'web': {
+			if (c.container) add(`${stop(c.container)} `);
+			const facts = [c.publisher, date].filter(Boolean).join(', ');
+			if (facts) add(`${stop(facts)} `);
+		}
+	}
+
+	add(`Accessed ${chicagoDate(c.accessed)}. `);
+	parts.push({ text: c.url, href: c.url });
+	add('.');
+	return parts;
+}
+
+/** The entry as plain text, for tests and screen-reader-friendly titles. */
+export const chicagoText = (c: Citation) =>
+	chicago(c)
+		.map((p) => p.text)
+		.join('');
+
+/** A licence that needs a credit beside the image, not only in the list. */
+export const needsCaption = (licence: string) => !/^(public domain|cc0\b|pd\b)/i.test(licence);
+
+/** The short caption credit: "Jane Doe / CC BY-SA 4.0". */
+export const captionCredit = (c: Citation) =>
+	[c.authors?.length ? c.authors.map(natural).join(', ') : undefined, c.licence]
+		.filter(Boolean)
+		.join(' / ');
+
+type Obj = Record<string, unknown>;
+const isObj = (v: unknown): v is Obj => typeof v === 'object' && v !== null && !Array.isArray(v);
+const isText = (v: unknown): v is string => typeof v === 'string' && v.trim() !== '';
+
+const isAuthor = (a: unknown) =>
+	isObj(a) && (isText(a.name) || (isText(a.family) && (a.given === undefined || isText(a.given))));
+
+/** Every problem with one citation, as bare messages (the caller adds where). */
+export function citationProblems(c: unknown): string[] {
+	if (!isObj(c)) return ['is not an object'];
+	const out: string[] = [];
+	if (!CITATION_KINDS.includes(c.kind as never))
+		out.push(`kind must be one of ${CITATION_KINDS.join(', ')}`);
+	if (!isText(c.title)) out.push('title is required');
+	if (!isText(c.url)) out.push('url is required');
+	else if (!/^https?:\/\//.test(c.url)) out.push('url must be http(s)');
+	else if (
+		(c.kind === 'wikipedia' || /^https?:\/\/[^/]*\bwikipedia\.org\//.test(c.url)) &&
+		!/[?&]oldid=\d+/.test(c.url)
+	)
+		out.push('a Wikipedia citation needs a permanent revision url (oldid=)');
+	if (!isText(c.accessed) || !/^\d{4}-\d{2}-\d{2}$/.test(c.accessed) || !DATE.test(c.accessed))
+		out.push('accessed date is required, as YYYY-MM-DD');
+	if (c.published !== undefined && !(isText(c.published) && DATE.test(c.published)))
+		out.push('published must be YYYY, YYYY-MM or YYYY-MM-DD');
+	if (c.authors !== undefined && !(Array.isArray(c.authors) && c.authors.every(isAuthor)))
+		out.push('authors must each have a family name or a name');
+	for (const k of ['container', 'publisher', 'place', 'volume', 'issue', 'pages'] as const)
+		if (c[k] !== undefined && !isText(c[k])) out.push(`${k} must be text`);
+	if (c.kind === 'media') {
+		if (!isText(c.licence)) out.push('a media citation needs a licence');
+		if (!isText(c.file)) out.push('a media citation needs the file it credits');
+	}
+	return out;
+}
+
+/** A bibliography's order: alphabetical by the entry as written. */
+export const bibliography = (citations: Citation[]) =>
+	[...citations].sort((a, b) =>
+		chicagoText(a).localeCompare(chicagoText(b), 'en', { sensitivity: 'base' })
+	);

@@ -1,9 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-	<path pathLength="1" d="M40 150 V14 M160 150 V14 M34 14 H166 M34 150 H166"/>
-	<path pathLength="1" d="M40 40 H160 M40 112 H160"/>
-	<path pathLength="1" d="M94 40 V64 M106 40 V64 M94 46 l12 6 M94 54 l12 6"/>
-	<path pathLength="1" d="M100 52 H144 M144 46 v12"/>
-	<path pathLength="1" d="M76 64 H124 V76 H76 Z"/>
-	<path pathLength="1" d="M62 90 H138 V104 H62 Z M70 94 h60 M70 98 h44"/>
-	<path pathLength="1" d="M28 104 H62 M138 104 H172"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M10 272 L390 272"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M70 272 L70 22"/>
+		<path pathLength="1" d="M90 272 L90 22"/>
+		<path pathLength="1" d="M190 272 L190 22"/>
+		<path pathLength="1" d="M210 272 L210 22"/>
+		<path pathLength="1" d="M60 22 L220 22 L220 10 L60 10 Z"/>
+		<path pathLength="1" d="M70 58 L210 58"/>
+		<path pathLength="1" d="M70 80 L210 80"/>
+		<path pathLength="1" d="M56 272 L104 272"/>
+		<path pathLength="1" d="M176 272 L224 272"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M132 80 L132 132"/>
+		<path pathLength="1" d="M148 80 L148 132"/>
+		<path pathLength="1" d="M132 84 L148 90 M132 92 L148 98 M132 100 L148 106 M132 108 L148 114 M132 116 L148 122 M132 124 L148 130"/>
+		<path pathLength="1" d="M140 104 L226 90"/>
+		<path pathLength="1" d="M225 89.5 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M120 132 L160 132 L160 144 L120 144 Z"/>
+		<path pathLength="1" d="M104 144 L176 144 L176 156 L104 156 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M56 176 L374 176"/>
+		<path pathLength="1" d="M56 184 L374 184"/>
+		<path pathLength="1" d="M100 168 L180 168 L180 176 L100 176 Z"/>
+		<path pathLength="1" d="M350 184 L350 272"/>
+		<path pathLength="1" d="M340 272 L360 272"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M106 170 L106 174 M112 170 L112 174 M118 170 L118 174 M124 170 L124 174 M130 170 L130 174 M136 170 L136 174 M142 170 L142 174 M148 170 L148 174 M154 170 L154 174 M160 170 L160 174 M166 170 L166 174 M172 170 L172 174 M178 170 L178 174"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M180 168 L258 110 L318 150 L240 168"/>
+		<path pathLength="1" d="M180 168 L240 168"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M200 150 L238 156 M207 144.8 L245 150.8 M214 139.6 L252 145.6 M221 134.4 L259 140.4 M228 129.2 L266 135.2 M235 124 L273 130 M242 118.8 L280 124.8"/>
+	</g>
 </svg>

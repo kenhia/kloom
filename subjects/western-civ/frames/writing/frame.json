@@ -1,19 +1,76 @@
 {
 	"id": "writing",
-	"position": { "label": "c. 3200 BC", "sort": -3200 },
+	"position": {
+		"label": "c. 3200 BC",
+		"sort": -3200
+	},
 	"scene": {
 		"headline": "We learned to",
 		"accent": "WRITE.",
 		"palette": "night",
 		"illustration": "scene.svg",
 		"metadata": ["URUK · SOUTHERN MESOPOTAMIA", "CLAY · REED STYLUS"],
-		"counter": { "value": "5,000+", "label": "years of written record" }
+		"counter": {
+			"value": "5,000+",
+			"label": "years of written record"
+		}
 	},
 	"sources": [
-		{ "title": "Cuneiform — Wikipedia", "url": "https://en.wikipedia.org/wiki/Cuneiform" },
+		{
+			"title": "Cuneiform — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Cuneiform"
+		},
 		{
 			"title": "History of writing — Wikipedia",
 			"url": "https://en.wikipedia.org/wiki/History_of_writing"
+		},
+		{
+			"title": "Uruk — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Uruk"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Cuneiform",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cuneiform&oldid=1375619608",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of writing",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_writing&oldid=1376743470",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Uruk",
+			"url": "https://en.wikipedia.org/w/index.php?title=Uruk&oldid=1374722909",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
 		}
 	]
 }

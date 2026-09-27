@@ -1,0 +1,94 @@
+{
+	"id": "greek-inquiry",
+	"position": {
+		"label": "c. 360 BC",
+		"sort": -360
+	},
+	"scene": {
+		"headline": "We asked",
+		"accent": "WHY.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["ATHENS · PLATO, TIMAEUS", "FIVE SOLIDS · FOUR ELEMENTS · ONE COSMOS"],
+		"counter": {
+			"value": "5",
+			"label": "regular solids, and no more"
+		}
+	},
+	"sources": [
+		{
+			"title": "Pre-Socratic philosophy — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Pre-Socratic_philosophy"
+		},
+		{
+			"title": "Timaeus (dialogue) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Timaeus_(dialogue)"
+		},
+		{
+			"title": "Platonic solid — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Platonic_solid"
+		},
+		{
+			"title": "Plato, Timaeus",
+			"url": "https://www.gutenberg.org/ebooks/1572",
+			"note": "Project Gutenberg"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Pre-Socratic philosophy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pre-Socratic_philosophy&oldid=1371554535",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Timaeus (dialogue)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Timaeus_(dialogue)&oldid=1373405450",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Platonic solid",
+			"url": "https://en.wikipedia.org/w/index.php?title=Platonic_solid&oldid=1376700773",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "book",
+			"title": "Timaeus",
+			"url": "https://www.gutenberg.org/ebooks/1572",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Plato"
+				}
+			],
+			"container": "Translated by Benjamin Jowett",
+			"publisher": "Project Gutenberg"
+		}
+	]
+}

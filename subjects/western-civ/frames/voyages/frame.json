@@ -1,0 +1,58 @@
+{
+	"id": "voyages",
+	"position": {
+		"label": "AD 1522",
+		"sort": 1522
+	},
+	"scene": {
+		"headline": "We sailed all the way",
+		"accent": "AROUND.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["MAGELLAN · ELCANO · 1519–1522", "FIVE SHIPS OUT · ONE HOME"],
+		"counter": {
+			"value": "18",
+			"label": "of ~270 came home"
+		}
+	},
+	"sources": [
+		{
+			"title": "Magellan expedition — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Magellan_expedition"
+		},
+		{
+			"title": "Juan Sebastián Elcano — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Juan_Sebasti%C3%A1n_Elcano"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Magellan expedition",
+			"url": "https://en.wikipedia.org/w/index.php?title=Magellan_expedition&oldid=1373778444",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Juan Sebastián Elcano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Juan_Sebasti%C3%A1n_Elcano&oldid=1375531874",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		}
+	]
+}

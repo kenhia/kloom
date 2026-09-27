@@ -1,0 +1,71 @@
+{
+	"id": "jwst",
+	"position": {
+		"label": "AD 2022",
+		"sort": 2022
+	},
+	"scene": {
+		"headline": "We looked",
+		"accent": "BACK.",
+		"palette": "night",
+		"illustration": "scene.svg",
+		"metadata": ["L2 · 1.5 MILLION KM FROM EARTH", "18 GOLD-COATED MIRRORS · 6.5 M"],
+		"counter": {
+			"value": "13,000,000,000",
+			"label": "years back in time"
+		}
+	},
+	"sources": [
+		{
+			"title": "James Webb Space Telescope — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+		},
+		{
+			"title": "Webb's First Deep Field — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Webb's_First_Deep_Field"
+		},
+		{
+			"title": "NASA’s Webb Delivers Deepest Infrared Image of Universe Yet",
+			"url": "https://www.nasa.gov/image-article/nasas-webb-delivers-deepest-infrared-image-of-universe-yet/",
+			"note": "NASA"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "James Webb Space Telescope",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Webb_Space_Telescope&oldid=1376832017",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Webb's First Deep Field",
+			"url": "https://en.wikipedia.org/w/index.php?title=Webb's_First_Deep_Field&oldid=1347364232",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-06"
+		},
+		{
+			"kind": "web",
+			"title": "NASA’s Webb Delivers Deepest Infrared Image of Universe Yet",
+			"url": "https://www.nasa.gov/image-article/nasas-webb-delivers-deepest-infrared-image-of-universe-yet/",
+			"accessed": "2026-09-26",
+			"container": "NASA",
+			"published": "2022-07-11"
+		}
+	]
+}

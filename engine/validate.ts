@@ -1,3 +1,5 @@
+import { citationProblems } from './citation';
+import { imageRefs } from './markdown';
 import { LABEL_KINDS, type Spine } from './model';
 
 /** One frame directory as read from disk, before anything is trusted. */
@@ -8,6 +10,8 @@ export interface RawFrame {
 	reading: string | null;
 	/** Every `.svg` in the directory, by file name. */
 	svgs: Record<string, string>;
+	/** Every media file the frame may serve (images, charts), by file name. */
+	media: string[];
 }
 
 /** A subject directory as read from disk, before anything is trusted. */
@@ -26,6 +30,9 @@ const isObj = (v: unknown): v is Obj => typeof v === 'object' && v !== null && !
 const isText = (v: unknown): v is string => typeof v === 'string' && v.trim() !== '';
 const COLOURS = ['background', 'ink', 'muted', 'accent', 'line'] as const;
 
+/** Files a frame may serve to the reading pane: a plain name, an image type. */
+export const MEDIA_FILE = /^[\w-][\w.-]*\.(png|jpe?g|webp|gif|svg)$/i;
+
 /**
  * Markup a line drawing never needs: active or embedding elements, links of
  * any kind, event handlers (after whitespace, `/` or a quote), `javascript:`
@@ -33,6 +40,18 @@ const COLOURS = ['background', 'ink', 'muted', 'accent', 'line'] as const;
  */
 const SVG_TRIPWIRE =
 	/<\/?\s*(script|style|foreignObject|embed|iframe|object|a|use|image|animate|set)\b|[\s/"']on[a-z]+\s*=|href\s*=|javascript:|&#/i;
+
+/**
+ * What is wrong with an SVG that will be inlined as a drawing, or null.
+ * A tripwire for honest mistakes, not a sanitiser: model-written SVG needs a
+ * real allowlist before grow may write one (korg 3360).
+ */
+export function illustrationProblem(svg: string): string | null {
+	if (!/^\s*<svg[\s>]/.test(svg)) return 'illustration must be an <svg> element';
+	if (SVG_TRIPWIRE.test(svg))
+		return 'illustration contains script, styles, links or event handlers';
+	return null;
+}
 
 /**
  * Every problem with a subject, as `where: what` lines. Empty means valid.
@@ -129,7 +148,7 @@ export function validate(raw: RawSubject): string[] {
 		checkSpine(where, trail.spine);
 	}
 
-	for (const [dir, { frame, reading, svgs }] of Object.entries(raw.frames)) {
+	for (const [dir, { frame, reading, svgs, media }] of Object.entries(raw.frames)) {
 		const where = `frames/${dir}`;
 		if (!placed.has(dir)) fail(where, 'is not on any spine');
 		if (!isObj(frame)) {
@@ -155,12 +174,11 @@ export function validate(raw: RawSubject): string[] {
 				const svg = isText(scene.illustration) ? svgs[scene.illustration] : undefined;
 				if (svg === undefined)
 					fail(where, `illustration "${String(scene.illustration)}" is not in the directory`);
-				else if (!/^\s*<svg[\s>]/.test(svg)) fail(where, 'illustration must be an <svg> element');
-				// Inlined into the page, so it must be a drawing and nothing more.
-				// A tripwire for honest mistakes, not a sanitiser: model-written
-				// SVG needs a real allowlist before grow may write one (korg 3360).
-				else if (SVG_TRIPWIRE.test(svg))
-					fail(where, 'illustration contains script, styles, links or event handlers');
+				else {
+					// Inlined into the page, so it must be a drawing and nothing more.
+					const problem = illustrationProblem(svg);
+					if (problem) fail(where, problem);
+				}
 			}
 		}
 
@@ -173,7 +191,28 @@ export function validate(raw: RawSubject): string[] {
 					fail(where, `source ${i} url must be http(s)`);
 			});
 
+		// Citations are optional, but an image or chart the reading uses is not
+		// shown without a media citation carrying its licence.
+		const credited = new Set<string>();
+		if (frame.citations !== undefined && !Array.isArray(frame.citations))
+			fail(where, 'citations must be a list');
+		else
+			(frame.citations ?? []).forEach((c: unknown, i: number) => {
+				for (const problem of citationProblems(c)) fail(`${where} citation ${i}`, problem);
+				if (!isObj(c) || c.kind !== 'media' || !isText(c.file)) return;
+				if (!media.includes(c.file))
+					fail(`${where} citation ${i}`, `credits "${c.file}", which is not in the directory`);
+				else if (isText(c.licence)) credited.add(c.file);
+			});
+
 		if (!isText(reading)) fail(where, 'reading.md is missing or empty');
+		else
+			for (const ref of imageRefs(reading)) {
+				if (!MEDIA_FILE.test(ref) || !media.includes(ref))
+					fail(where, `image "${ref}" must be an image file in the frame's directory`);
+				else if (!credited.has(ref))
+					fail(where, `image "${ref}" needs a media citation with a licence`);
+			}
 	}
 
 	return errors;

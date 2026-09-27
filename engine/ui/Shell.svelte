@@ -6,7 +6,13 @@
 	import Narrative from './Narrative.svelte';
 	import SpinePane from './SpinePane.svelte';
 
-	let { subject }: { subject: Subject } = $props();
+	interface Props {
+		subject: Subject;
+		/** False while something (the start screen) sits in front of the shell. */
+		active?: boolean;
+	}
+
+	let { subject, active = true }: Props = $props();
 
 	const SYNC_KEY = 'kloom.sync';
 
@@ -32,6 +38,13 @@
 	const announcement = $derived(
 		`${indexLabel(index, path.length)}, ${stop.segment.title}, ${frame.position.label}: ${frame.scene.headline} ${frame.scene.accent}`
 	);
+
+	// Coming forward (the start screen closed): the spine takes focus.
+	let wasActive: boolean | undefined;
+	$effect(() => {
+		if (active && wasActive === false) slider?.focus();
+		wasActive = active;
+	});
 
 	onMount(() => {
 		try {
@@ -94,7 +107,7 @@
 
 	/** Page-wide keys (docs/design.md §Interaction); text fields keep their own. */
 	function keydown(e: KeyboardEvent) {
-		if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
+		if (!active || e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
 		const target = e.target as HTMLElement;
 		if (e.key === 'Escape' && target.closest('.ai')) {
 			e.preventDefault();
@@ -148,6 +161,7 @@
 
 <div
 	class="shell"
+	inert={!active}
 	style:--background={palette.background}
 	style:--ink={palette.ink}
 	style:--muted={palette.muted}
@@ -187,6 +201,39 @@
 </div>
 
 <style>
+	/*
+	 * Registered so the palette itself interpolates. Unregistered custom
+	 * properties snap, so everything painted straight from a variable (accent
+	 * words, buttons, borders, SVG strokes) used to change at once while the
+	 * background faded behind it: a flash bulb (korg 3370). The initial values
+	 * are only fallbacks; each frame's palette sets them.
+	 */
+	@property --background {
+		syntax: '<color>';
+		inherits: true;
+		initial-value: #000;
+	}
+	@property --ink {
+		syntax: '<color>';
+		inherits: true;
+		initial-value: #fff;
+	}
+	@property --muted {
+		syntax: '<color>';
+		inherits: true;
+		initial-value: #888;
+	}
+	@property --accent {
+		syntax: '<color>';
+		inherits: true;
+		initial-value: #fff;
+	}
+	@property --line {
+		syntax: '<color>';
+		inherits: true;
+		initial-value: #fff;
+	}
+
 	.shell {
 		display: grid;
 		grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
@@ -194,9 +241,14 @@
 		height: 100dvh;
 		color: var(--ink);
 		background: var(--background);
+		/* One timing for every colour, so the whole page moves together. */
+		--palette-fade: 1.5s ease-in-out;
 		transition:
-			background-color 0.6s ease,
-			color 0.6s ease;
+			--background var(--palette-fade),
+			--ink var(--palette-fade),
+			--muted var(--palette-fade),
+			--accent var(--palette-fade),
+			--line var(--palette-fade);
 	}
 	.shell > :global(.ai) {
 		grid-column: 1 / -1;

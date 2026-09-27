@@ -1,17 +1,58 @@
 {
 	"id": "gutenberg-bible",
-	"position": { "label": "c. AD 1455", "sort": 1455 },
+	"position": {
+		"label": "c. AD 1455",
+		"sort": 1455
+	},
 	"scene": {
 		"headline": "We printed a",
 		"accent": "BOOK.",
 		"palette": "parchment",
-		"metadata": ["MAINZ", "42 LINES PER PAGE"],
-		"counter": { "value": "~180", "label": "copies printed" }
+		"illustration": "scene.svg",
+		"metadata": ["MAINZ", "42 LINES PER COLUMN"],
+		"counter": {
+			"value": "49",
+			"label": "copies survive"
+		}
 	},
 	"sources": [
 		{
 			"title": "Gutenberg Bible — Wikipedia",
 			"url": "https://en.wikipedia.org/wiki/Gutenberg_Bible"
+		},
+		{
+			"title": "Johannes Gutenberg — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Gutenberg Bible",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gutenberg_Bible&oldid=1374444893",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johannes Gutenberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johannes_Gutenberg&oldid=1371882719",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
 		}
 	]
 }

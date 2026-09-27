@@ -1,0 +1,58 @@
+{
+	"id": "eratosthenes",
+	"position": {
+		"label": "c. 240 BC",
+		"sort": -240
+	},
+	"scene": {
+		"headline": "Then we",
+		"accent": "MEASURED.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["ALEXANDRIA · SYENE", "ONE SHADOW · ONE DISTANCE · ONE WORLD"],
+		"counter": {
+			"value": "250,000",
+			"label": "stadia around the Earth"
+		}
+	},
+	"sources": [
+		{
+			"title": "Eratosthenes — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Eratosthenes"
+		},
+		{
+			"title": "Earth's circumference — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Earth's_circumference"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Eratosthenes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eratosthenes&oldid=1375970661",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Earth's circumference",
+			"url": "https://en.wikipedia.org/w/index.php?title=Earth's_circumference&oldid=1357654198",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-03"
+		}
+	]
+}

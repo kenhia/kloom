@@ -52,11 +52,12 @@ just check    # types + a11y lints, prettier/eslint, unit tests, content validat
 just build    # Node server in build/; run with `node build`
 ```
 
-Code lives in three places. `engine/` is the subject-agnostic model, loader,
+Code lives in four places. `engine/` is the subject-agnostic model, loader,
 validation and UI. `subjects/<subject>/` holds one subject's content, one
 directory per frame. `src/` is the SvelteKit wiring that serves a subject
 (`KLOOM_SUBJECT`, default `western-civ`; `KLOOM_SUBJECTS_DIR`, default
-`subjects`).
+`subjects`). `create-tools/` holds the authoring scripts that made the
+content (plates, citations, charts, traced art); see its README.
 
 ## License
 

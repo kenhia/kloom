@@ -1,0 +1,62 @@
+{
+	"id": "magna-carta",
+	"position": {
+		"label": "AD 1215",
+		"sort": 1215
+	},
+	"scene": {
+		"headline": "Even the king",
+		"accent": "BOWS.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["RUNNYMEDE · 15 JUNE 1215", "NO FREE MAN … EXCEPT BY THE LAW OF THE LAND"],
+		"counter": {
+			"value": "4",
+			"label": "1215 copies survive"
+		}
+	},
+	"sources": [
+		{
+			"title": "Magna Carta — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Magna_Carta"
+		},
+		{
+			"title": "Magna Carta 1214–1225",
+			"url": "https://www.nationalarchives.gov.uk/education/resources/magna-carta/british-library-magna-carta-1215-runnymede/",
+			"note": "The National Archives (UK)"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Magna Carta",
+			"url": "https://en.wikipedia.org/w/index.php?title=Magna_Carta&oldid=1376546703",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "web",
+			"title": "Magna Carta 1214–1225",
+			"url": "https://www.nationalarchives.gov.uk/education/resources/magna-carta/british-library-magna-carta-1215-runnymede/",
+			"accessed": "2026-09-26",
+			"container": "The National Archives (UK)"
+		},
+		{
+			"kind": "media",
+			"title": "Magna Carta (British Library Cotton MS Augustus II.106)",
+			"url": "https://commons.wikimedia.org/wiki/File:Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg",
+			"accessed": "2026-09-26",
+			"published": "1215",
+			"container": "British Library; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "magna-carta-1215.jpg"
+		}
+	]
+}

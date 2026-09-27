@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M98 205 a92 92 0 1 0 184 0 a92 92 0 1 0 -184 0"/>
+		<path pathLength="1" d="M78 205 L302 205"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M144.4 4 L144.4 102.7 M146 4 L146 124.2 M190 4 L190 113 M234 4 L234 124.2 M270 4 L270 159.6"/>
+		<path pathLength="1" d="M152.6 121 L144.4 120"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M98 205 a92 92 0 1 0 184 0 a92 92 0 1 0 -184 0"/>
+		<path pathLength="1" d="M190 205 L190 113"/>
+		<path pathLength="1" d="M190 205 L152.6 121"/>
+		<path pathLength="1" d="M152.6 121 L144.4 102.7"/>
+		<path pathLength="1" d="M185 107 L185 123 L195 123 L195 107"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M177.8 177.6 L178.5 177.3 L179.2 177 L180 176.7 L180.7 176.5 L181.5 176.2 L182.2 176 L183 175.8 L183.8 175.7 L184.5 175.5 L185.3 175.4 L186.1 175.3 L186.9 175.2 L187.6 175.1 L188.4 175 L189.2 175 L190 175"/>
+		<path pathLength="1" d="M151 117.3 L150.4 117.5 L149.9 117.7 L149.4 117.9 L148.9 118.1 L148.3 118.2 L147.8 118.3 L147.2 118.4 L146.7 118.5 L146.1 118.6 L145.6 118.6 L145 118.7 L144.4 118.7"/>
+		<path pathLength="1" d="M147.7 110 L149.7 109.1 L151.7 108.3 L153.7 107.5 L155.8 106.8 L157.9 106.1 L159.9 105.4 L162 104.8 L164.1 104.3 L166.3 103.7 L168.4 103.3 L170.5 102.8 L172.7 102.5 L174.8 102.1 L177 101.8 L179.1 101.6 L181.3 101.4 L183.5 101.2 L185.6 101.1 L187.8 101 L190 101"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M314 40 a16 16 0 1 0 32 0 a16 16 0 1 0 -32 0"/>
+		<path pathLength="1" d="M351 40 L358 40 M348.2 50.5 L354.2 54 M340.5 58.2 L344 64.2 M330 61 L330 68 M319.5 58.2 L316 64.2 M311.8 50.5 L305.8 54 M309 40 L302 40 M311.8 29.5 L305.8 26 M319.5 21.8 L316 15.8 M330 19 L330 12 M340.5 21.8 L344 15.8 M348.2 29.5 L354.2 26"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="200" y="135" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SYENE</text>
+		<text x="142.6" y="133" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ALEXANDRIA</text>
+		<text x="182" y="169" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">7°12′</text>
+	</g>
+</svg>
