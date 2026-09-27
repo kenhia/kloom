@@ -5,9 +5,9 @@
 
 ## Now — POC: History of Western Civilization
 
-- Sprint 001: SvelteKit + TypeScript scaffold with real gates (korg 3356),
-  the content model (3357) and the three-pane shell with keyboard control and
-  Sync Narrative (3358).
+- ~~Sprint 001~~: scaffold with real gates (korg 3356), content model (3357)
+  and the three-pane shell with keyboard control and Sync Narrative (3358) —
+  [record](../001-scaffold-three-pane-shell.md).
 
 ## Next
 

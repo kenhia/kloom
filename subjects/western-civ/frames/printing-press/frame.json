@@ -1,0 +1,21 @@
+{
+	"id": "printing-press",
+	"position": { "label": "c. AD 1440", "sort": 1440 },
+	"scene": {
+		"headline": "We learned to",
+		"accent": "COPY.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["MAINZ · HOLY ROMAN EMPIRE", "MOVABLE METAL TYPE · SCREW PRESS"]
+	},
+	"sources": [
+		{
+			"title": "Printing press — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Printing_press"
+		},
+		{
+			"title": "Johannes Gutenberg — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+		}
+	]
+}

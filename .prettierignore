@@ -1,0 +1,8 @@
+package-lock.json
+
+# Harness-managed blocks must remain verbatim.
+CLAUDE.md
+.github/copilot-instructions.md
+
+# Hand-drawn illustrations are content, not source.
+subjects/**/*.svg

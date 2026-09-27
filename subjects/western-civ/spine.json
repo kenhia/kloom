@@ -1,0 +1,16 @@
+{
+	"segments": [
+		{
+			"id": "antiquity",
+			"title": "Antiquity",
+			"labelKind": "date",
+			"frames": ["writing"]
+		},
+		{
+			"id": "print-to-orbit",
+			"title": "Print to orbit",
+			"labelKind": "date",
+			"frames": ["printing-press", "moon-landing"]
+		}
+	]
+}

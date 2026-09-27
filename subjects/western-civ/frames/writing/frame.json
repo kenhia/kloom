@@ -1,0 +1,19 @@
+{
+	"id": "writing",
+	"position": { "label": "c. 3200 BC", "sort": -3200 },
+	"scene": {
+		"headline": "We learned to",
+		"accent": "WRITE.",
+		"palette": "night",
+		"illustration": "scene.svg",
+		"metadata": ["URUK · SOUTHERN MESOPOTAMIA", "CLAY · REED STYLUS"],
+		"counter": { "value": "5,000+", "label": "years of written record" }
+	},
+	"sources": [
+		{ "title": "Cuneiform — Wikipedia", "url": "https://en.wikipedia.org/wiki/Cuneiform" },
+		{
+			"title": "History of writing — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/History_of_writing"
+		}
+	]
+}

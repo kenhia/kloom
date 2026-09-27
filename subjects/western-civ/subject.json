@@ -1,0 +1,21 @@
+{
+	"title": "The History of Western Civilization",
+	"palettes": {
+		"night": {
+			"scheme": "dark",
+			"background": "#0b0b0d",
+			"ink": "#ece4d0",
+			"muted": "#9a927f",
+			"accent": "#d9a441",
+			"line": "#d9a441"
+		},
+		"parchment": {
+			"scheme": "light",
+			"background": "#efe6d2",
+			"ink": "#241d14",
+			"muted": "#6c5f4b",
+			"accent": "#b3261e",
+			"line": "#3a3024"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"id": "gutenberg-bible",
+	"position": { "label": "c. AD 1455", "sort": 1455 },
+	"scene": {
+		"headline": "We printed a",
+		"accent": "BOOK.",
+		"palette": "parchment",
+		"metadata": ["MAINZ", "42 LINES PER PAGE"],
+		"counter": { "value": "~180", "label": "copies printed" }
+	},
+	"sources": [
+		{
+			"title": "Gutenberg Bible — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Gutenberg_Bible"
+		}
+	]
+}

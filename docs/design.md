@@ -38,19 +38,36 @@ start. The second subject (AI) will not be a clean timeline, so time is not
 baked into the engine.
 
 - **Spine** — an ordered list of frames. The scroller walks it.
-- **Segment** — a contiguous run of a spine with its own *label kind*. Western
+- **Segment** — a contiguous run of a spine with its own _label kind_. Western
   Civ is all dates; an AI subject might be dates until ~2012, then
   technologies ("Transformers", "Diffusion", "RLHF"). The HUD's position label
   comes from the segment.
 - **Frame** — two halves, one per pane:
-  - *scene*: headline, accent word, illustration (SVG), palette, metadata,
+  - _scene_: headline, accent word, illustration (SVG), palette, metadata,
     optional counter;
-  - *reading*: markdown narrative, charts, images, and **sources** —
+  - _reading_: markdown narrative, charts, images, and **sources** —
     required, because this is history written with an LLM.
 - **Trail** — a small spine anchored to one frame of its parent.
 - **Storage** — files in git, one directory per frame under
   `subjects/<subject>/`. The site builds from them; git is the history of how
   the subject grew, and its undo.
+- **Files** (sprint 001) — `subjects/<subject>/` holds `subject.json` (title
+  and named palettes: scheme, background, ink, muted, accent, line),
+  `spine.json` (segments, each `{id, title, labelKind, frames: [ids]}`),
+  `trails/<id>.json` (`{id, title, anchor, spine}`) and
+  `frames/<id>/{frame.json, reading.md, *.svg}`. `frame.json` carries
+  `position {label, sort?}`, `scene` and `sources`. Label kinds are `date`,
+  `category` and `technology`; only `date` segments need a `sort` and must be
+  non-decreasing. Every frame sits on exactly one spine, and a trail's
+  anchor must be a main-spine frame. Validation collects every problem in one
+  pass and the site refuses to serve an invalid subject. Reading markdown is
+  rendered with raw HTML escaped. Links and images are kept only for http(s)
+  or scheme-less URLs, judged after the entity and control-character
+  normalisation a browser applies. An illustration is inlined (so it can
+  draw itself on) behind a regex _tripwire_ for script, style, embeds, links
+  and handlers. That is not a sanitiser, and grow must not write an
+  illustration until a real allowlist sanitiser replaces it. Giving each
+  path `pathLength="1"` lets the draw-on animation work.
 - **Engine vs subject** — `engine/` code never names a subject;
   `subjects/<subject>/` holds content and theme. Extracting the framework later
   should be moving files, not untangling them.
@@ -77,8 +94,14 @@ baked into the engine.
 - **Narrative sync is a setting.** Default (Ken's preference): manual — scroll
   the spine, then "Sync Narrative" when something is worth diving into.
   Alternative: the narrative follows the spine.
-- **Keyboard first.** Left/Right move along the spine; Up/Down scroll the
-  narrative; Tab moves into and out of the AI pane. Visible focus, ARIA
+  The choice is remembered per browser.
+- **One gesture, one frame.** Wheel deltas over the spine accumulate to a
+  threshold, then a cooldown swallows the trackpad's inertia.
+- **Keyboard first.** Left/Right move along the spine (Home/End jump to its
+  ends); Up/Down scroll the narrative; S syncs the narrative; T enters the
+  trail branching from the current frame and Esc leaves it; Tab moves into
+  and out of the AI pane, and Esc anywhere in it returns to the spine. Keys
+  typed into a text field stay there. Visible focus, ARIA
   roles, `prefers-reduced-motion` honoured. Accessibility is a requirement
   from sprint 001, not polish.
 - **Trails.** Entering a trail swaps the scroller to it with a breadcrumb
@@ -95,5 +118,5 @@ baked into the engine.
 ## Start screen
 
 Idea: the public-domain "Modern Loose Reed Power Loom" (Marsden) drawing
-from Wikipedia's *Lancashire Loom* article, background removed and re-inked
+from Wikipedia's _Lancashire Loom_ article, background removed and re-inked
 gold on black, in the manner of the video's opening frame.
