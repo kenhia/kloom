@@ -1,16 +1,40 @@
 {
 	"segments": [
 		{
+			"id": "myth",
+			"title": "Myth",
+			"labelKind": "category",
+			"frames": ["prometheus"]
+		},
+		{
 			"id": "antiquity",
 			"title": "Antiquity",
 			"labelKind": "date",
-			"frames": ["writing"]
+			"frames": ["writing", "greek-inquiry", "eratosthenes", "pantheon"]
 		},
 		{
-			"id": "print-to-orbit",
-			"title": "Print to orbit",
+			"id": "middle-ages",
+			"title": "The long middle",
 			"labelKind": "date",
-			"frames": ["printing-press", "moon-landing"]
+			"frames": ["scriptorium", "magna-carta"]
+		},
+		{
+			"id": "rebirth",
+			"title": "Rebirth",
+			"labelKind": "date",
+			"frames": ["florence-dome", "printing-press", "voyages", "shakespeare"]
+		},
+		{
+			"id": "machines",
+			"title": "Machines and fields",
+			"labelKind": "date",
+			"frames": ["steam", "maxwell"]
+		},
+		{
+			"id": "code-and-cosmos",
+			"title": "Code and cosmos",
+			"labelKind": "date",
+			"frames": ["dna", "moon-landing", "jwst"]
 		}
 	]
 }

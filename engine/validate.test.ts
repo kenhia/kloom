@@ -14,7 +14,8 @@ const raw = (): RawSubject => {
 			sources: [{ title: 'A source', url: 'https://example.org/' }]
 		},
 		reading: `Reading for ${id}.`,
-		svgs: {}
+		svgs: {},
+		media: [] as string[]
 	});
 	return {
 		manifest: {
@@ -165,6 +166,60 @@ describe('validate', () => {
 		]);
 	});
 
+	const pd = {
+		kind: 'media',
+		title: 'A map',
+		url: 'https://commons.wikimedia.org/wiki/File:Map.png',
+		accessed: '2026-09-26',
+		licence: 'Public domain',
+		file: 'map.png'
+	};
+
+	it('accepts a credited image and names each citation problem', () => {
+		const r = raw();
+		r.frames.a.reading = 'See ![a map](map.png).';
+		r.frames.a.media = ['map.png'];
+		(r.frames.a.frame as Loose).citations = [pd];
+		expect(validate(r)).toEqual([]);
+
+		(r.frames.b.frame as Loose).citations = [
+			{
+				kind: 'wikipedia',
+				title: 'X',
+				url: 'https://en.wikipedia.org/wiki/X',
+				accessed: '2026-09-26'
+			}
+		];
+		expect(validate(r)).toEqual([
+			'frames/b citation 0: a Wikipedia citation needs a permanent revision url (oldid=)'
+		]);
+	});
+
+	it('fails an image without a media citation, or not in the directory', () => {
+		const r = raw();
+		r.frames.a.reading = '![one](map.png) ![two](https://example.org/x.png) ![three](../b/x.png)';
+		r.frames.a.media = ['map.png'];
+		expect(validate(r)).toEqual([
+			'frames/a: image "map.png" needs a media citation with a licence',
+			'frames/a: image "https://example.org/x.png" must be an image file in the frame\'s directory',
+			'frames/a: image "../b/x.png" must be an image file in the frame\'s directory'
+		]);
+	});
+
+	it('fails a media citation for a file that is not there, or without a licence', () => {
+		const r = raw();
+		r.frames.a.reading = '![a map](map.png)';
+		r.frames.a.media = ['map.png'];
+		const { licence, ...unlicensed } = pd;
+		void licence;
+		(r.frames.a.frame as Loose).citations = [unlicensed, { ...pd, file: 'gone.png' }];
+		expect(validate(r)).toEqual([
+			'frames/a citation 0: a media citation needs a licence',
+			'frames/a citation 1: credits "gone.png", which is not in the directory',
+			'frames/a: image "map.png" needs a media citation with a licence'
+		]);
+	});
+
 	it('refuses to build an invalid subject, listing every problem', () => {
 		const r = raw();
 		(r.frames.a.frame as Loose).sources = [];
@@ -189,15 +244,32 @@ describe('the western-civ subject', () => {
 		expect(validate(await readSubject(dir))).toEqual([]);
 	});
 
-	it('spans both palettes and carries one trail', () => {
+	it('spans both palettes, opens on a myth and carries one trail', () => {
 		const palettes = new Set(Object.values(subject.frames).map((f) => f.scene.palette));
 		expect([...palettes].sort()).toEqual(['night', 'parchment']);
+		expect(subject.spine.segments[0].labelKind).toBe('category');
 		expect(subject.trails.map((t) => `${t.id}@${t.anchor}`)).toEqual(['printing@printing-press']);
 	});
 
-	it('renders reading markdown and inlines illustrations', () => {
+	it('renders reading markdown and inlines every illustration', () => {
 		expect(subject.frames.writing.readingHtml).toContain('<strong>cuneiform</strong>');
-		expect(subject.frames.writing.svg).toMatch(/^<svg/);
-		expect(subject.frames['gutenberg-bible'].svg).toBeNull();
+		for (const frame of Object.values(subject.frames)) expect(frame.svg).toMatch(/^<svg/);
+	});
+
+	it('cites every frame, with Wikipedia pinned to a revision', () => {
+		for (const frame of Object.values(subject.frames)) {
+			expect(frame.citations?.length).toBeGreaterThan(0);
+			for (const c of frame.citations!)
+				if (c.kind === 'wikipedia') expect(c.url).toMatch(/oldid=\d+$/);
+		}
+	});
+
+	it('serves reading images from the frame, crediting the chart', () => {
+		const html = subject.frames['printing-press'].readingHtml;
+		expect(html).toContain('<img src="/media/printing-press/printing-shop-1499.jpg"');
+		// Public domain: no caption. The chart's MIT licence asks for one.
+		expect(html).toMatch(
+			/<span class="figure"><img src="\/media\/printing-press\/book-output.svg"[^>]*><span class="credit">kloom contributors \/ MIT<\/span>/
+		);
 	});
 });

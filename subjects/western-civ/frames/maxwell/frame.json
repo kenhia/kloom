@@ -1,0 +1,115 @@
+{
+	"id": "maxwell",
+	"position": {
+		"label": "AD 1865",
+		"sort": 1865
+	},
+	"scene": {
+		"headline": "Let there be",
+		"accent": "LIGHT.",
+		"palette": "night",
+		"illustration": "scene.svg",
+		"metadata": ["LONDON · ROYAL SOCIETY", "A DYNAMICAL THEORY OF THE ELECTROMAGNETIC FIELD"],
+		"counter": {
+			"value": "310,740",
+			"label": "km/s, by Maxwell’s arithmetic"
+		}
+	},
+	"sources": [
+		{
+			"title": "James Clerk Maxwell — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+		},
+		{
+			"title": "Maxwell's equations — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Maxwell's_equations"
+		},
+		{
+			"title": "A Dynamical Theory of the Electromagnetic Field — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field"
+		},
+		{
+			"title": "Michael Faraday — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Michael_Faraday"
+		},
+		{
+			"title": "James Clerk Maxwell, A Dynamical Theory of the Electromagnetic Field",
+			"url": "https://doi.org/10.1098/rstl.1865.0008",
+			"note": "Philosophical Transactions of the Royal Society of London"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "James Clerk Maxwell",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Clerk_Maxwell&oldid=1376370067",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maxwell's equations",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maxwell's_equations&oldid=1375267474",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A Dynamical Theory of the Electromagnetic Field",
+			"url": "https://en.wikipedia.org/w/index.php?title=A_Dynamical_Theory_of_the_Electromagnetic_Field&oldid=1324519170",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Michael Faraday",
+			"url": "https://en.wikipedia.org/w/index.php?title=Michael_Faraday&oldid=1376750184",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "article",
+			"title": "A Dynamical Theory of the Electromagnetic Field",
+			"url": "https://doi.org/10.1098/rstl.1865.0008",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"family": "Maxwell",
+					"given": "James Clerk"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "155",
+			"pages": "459–512",
+			"published": "1865"
+		}
+	]
+}

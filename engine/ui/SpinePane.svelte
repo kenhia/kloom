@@ -235,18 +235,50 @@
 	.illustration :global(svg) {
 		display: block;
 		width: auto;
-		max-width: min(60vw, 18rem);
-		height: min(28dvh, 14rem);
+		max-width: min(100%, 30rem);
+		height: min(38dvh, 20rem);
 	}
 	/* Each path carries pathLength="1", so one dash is the whole stroke. */
 	.illustration :global(svg *) {
 		stroke-dasharray: 1;
 		stroke-dashoffset: 1;
-		animation: draw 1.6s ease-out forwards;
+		animation: draw 1.4s ease-out forwards;
+	}
+	/*
+	 * The drawing's top-level groups draw one after another, in document
+	 * order: construction lines first, then the object, then its details.
+	 */
+	.illustration :global(svg > :nth-child(2) *) {
+		animation-delay: 0.25s;
+	}
+	.illustration :global(svg > :nth-child(3) *) {
+		animation-delay: 0.5s;
+	}
+	.illustration :global(svg > :nth-child(4) *) {
+		animation-delay: 0.75s;
+	}
+	.illustration :global(svg > :nth-child(5) *) {
+		animation-delay: 1s;
+	}
+	.illustration :global(svg > :nth-child(6) *) {
+		animation-delay: 1.25s;
+	}
+	.illustration :global(svg > :nth-child(n + 7) *) {
+		animation-delay: 1.5s;
+	}
+	/* Labels have no stroke to draw; they fade in once the lines are down. */
+	.illustration :global(svg text) {
+		opacity: 0;
+		animation: appear 0.6s ease-out 1.6s forwards;
 	}
 	@keyframes draw {
 		to {
 			stroke-dashoffset: 0;
+		}
+	}
+	@keyframes appear {
+		to {
+			opacity: 1;
 		}
 	}
 	.headline {
@@ -337,6 +369,10 @@
 		.illustration :global(svg *) {
 			animation: none;
 			stroke-dashoffset: 0;
+		}
+		.illustration :global(svg text) {
+			animation: none;
+			opacity: 1;
 		}
 		.cursor {
 			transition: none;

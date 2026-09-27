@@ -1,12 +1,19 @@
 {
 	"id": "printing-press",
-	"position": { "label": "c. AD 1440", "sort": 1440 },
+	"position": {
+		"label": "c. AD 1440",
+		"sort": 1440
+	},
 	"scene": {
-		"headline": "We learned to",
-		"accent": "COPY.",
+		"headline": "Knowledge went",
+		"accent": "VIRAL.",
 		"palette": "parchment",
 		"illustration": "scene.svg",
-		"metadata": ["MAINZ · HOLY ROMAN EMPIRE", "MOVABLE METAL TYPE · SCREW PRESS"]
+		"metadata": ["MAINZ · JOHANNES GUTENBERG", "MOVABLE METAL TYPE · OIL INK · SCREW PRESS"],
+		"counter": {
+			"value": "12,600,000",
+			"label": "books printed by 1500"
+		}
 	},
 	"sources": [
 		{
@@ -16,6 +23,110 @@
 		{
 			"title": "Johannes Gutenberg — Wikipedia",
 			"url": "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+		},
+		{
+			"title": "Global spread of the printing press — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Global_spread_of_the_printing_press"
+		},
+		{
+			"title": "Eltjo Buringh, Jan Luiten van Zanden, Charting the “Rise of the West”: Manuscripts and Printed Books in Europe, a Long-Term Perspective from the Sixth through Eighteenth Centuries",
+			"url": "https://doi.org/10.1017/S0022050709000837",
+			"note": "The Journal of Economic History"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Printing press",
+			"url": "https://en.wikipedia.org/w/index.php?title=Printing_press&oldid=1376640142",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johannes Gutenberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johannes_Gutenberg&oldid=1371882719",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Global spread of the printing press",
+			"url": "https://en.wikipedia.org/w/index.php?title=Global_spread_of_the_printing_press&oldid=1376193901",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "article",
+			"title": "Charting the “Rise of the West”: Manuscripts and Printed Books in Europe, a Long-Term Perspective from the Sixth through Eighteenth Centuries",
+			"url": "https://doi.org/10.1017/S0022050709000837",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"family": "Buringh",
+					"given": "Eltjo"
+				},
+				{
+					"family": "van Zanden",
+					"given": "Jan Luiten"
+				}
+			],
+			"container": "The Journal of Economic History",
+			"volume": "69",
+			"issue": "2",
+			"pages": "409–45",
+			"published": "2009"
+		},
+		{
+			"kind": "media",
+			"title": "Printing shop and bookseller, from the Danse macabre",
+			"url": "https://commons.wikimedia.org/wiki/File:Bookprinting_and_bookselling_1499.jpg",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Unknown artist"
+				}
+			],
+			"published": "1499",
+			"container": "Printed by Mathias Huss, Lyon; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "printing-shop-1499.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "European output of printed books by century, 1454–1800",
+			"url": "https://doi.org/10.1017/S0022050709000837",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Buringh and van Zanden (2009), table 2",
+			"licence": "MIT",
+			"file": "book-output.svg"
 		}
 	]
 }

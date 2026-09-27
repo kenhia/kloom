@@ -1,8 +1,9 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { basename, join } from 'node:path';
+import { captionCredit, needsCaption } from './citation';
 import { renderMarkdown } from './markdown';
 import type { Frame, FrameFile, Manifest, Spine, Subject, Trail } from './model';
-import { validate, type RawFrame, type RawSubject } from './validate';
+import { MEDIA_FILE, validate, type RawFrame, type RawSubject } from './validate';
 
 /** A subject that failed validation; `problems` lists every one found. */
 export class SubjectError extends Error {
@@ -56,12 +57,17 @@ export async function readSubject(dir: string): Promise<RawSubject> {
 		if (!e.isDirectory()) continue;
 		const at = join(dir, 'frames', e.name);
 		const svgs: RawFrame['svgs'] = {};
-		for (const f of await entries(at))
-			if (f.isFile() && f.name.endsWith('.svg')) svgs[f.name] = (await text(join(at, f.name)))!;
+		const media: string[] = [];
+		for (const f of await entries(at)) {
+			if (!f.isFile()) continue;
+			if (f.name.endsWith('.svg')) svgs[f.name] = (await text(join(at, f.name)))!;
+			if (MEDIA_FILE.test(f.name)) media.push(f.name);
+		}
 		frames[e.name] = {
 			frame: await json(join(at, 'frame.json')),
 			reading: await text(join(at, 'reading.md')),
-			svgs
+			svgs,
+			media: media.sort()
 		};
 	}
 
@@ -73,8 +79,14 @@ export async function readSubject(dir: string): Promise<RawSubject> {
 	};
 }
 
+export interface BuildOptions {
+	/** URL prefix a frame's media is served under: `<base>/<frame>/<file>`. */
+	mediaBase?: string;
+}
+
 /** Turn a raw subject into a renderable one; throws SubjectError if invalid. */
-export function buildSubject(id: string, raw: RawSubject): Subject {
+export function buildSubject(id: string, raw: RawSubject, options: BuildOptions = {}): Subject {
+	const base = options.mediaBase ?? '/media';
 	const problems = validate(raw);
 	if (problems.length) throw new SubjectError(id, problems);
 
@@ -82,9 +94,18 @@ export function buildSubject(id: string, raw: RawSubject): Subject {
 	const frames: Record<string, Frame> = {};
 	for (const [dir, r] of Object.entries(raw.frames)) {
 		const file = r.frame as FrameFile;
+		const media = new Map(
+			(file.citations ?? []).filter((c) => c.kind === 'media').map((c) => [c.file, c])
+		);
+		const image = (href: string) => {
+			const c = media.get(href);
+			if (!c) return null;
+			const src = `${base}/${encodeURIComponent(dir)}/${encodeURIComponent(href)}`;
+			return needsCaption(c.licence!) ? { src, credit: captionCredit(c) } : { src };
+		};
 		frames[dir] = {
 			...file,
-			readingHtml: renderMarkdown(r.reading!),
+			readingHtml: renderMarkdown(r.reading!, { image }),
 			svg: file.scene.illustration ? r.svgs[file.scene.illustration] : null
 		};
 	}
@@ -99,6 +120,34 @@ export function buildSubject(id: string, raw: RawSubject): Subject {
 }
 
 /** Load and validate `subjects/<id>/`-shaped content from `dir`. */
-export async function loadSubject(dir: string): Promise<Subject> {
-	return buildSubject(basename(dir), await readSubject(dir));
+export async function loadSubject(dir: string, options?: BuildOptions): Promise<Subject> {
+	return buildSubject(basename(dir), await readSubject(dir), options);
+}
+
+const MEDIA_TYPES: Record<string, string> = {
+	png: 'image/png',
+	jpg: 'image/jpeg',
+	jpeg: 'image/jpeg',
+	webp: 'image/webp',
+	gif: 'image/gif',
+	svg: 'image/svg+xml'
+};
+
+/**
+ * One media file from a frame's directory, or null. Both names are checked
+ * against the same rules validation uses, so no path can leave the subject.
+ */
+export async function readMedia(
+	dir: string,
+	frame: string,
+	file: string
+): Promise<{ body: Buffer; type: string } | null> {
+	if (!/^[\w-]+$/.test(frame) || !MEDIA_FILE.test(file)) return null;
+	try {
+		const body = await readFile(join(dir, 'frames', frame, file));
+		return { body, type: MEDIA_TYPES[file.split('.').pop()!.toLowerCase()] };
+	} catch (e) {
+		if ((e as NodeJS.ErrnoException).code === 'ENOENT') return null;
+		throw e;
+	}
 }

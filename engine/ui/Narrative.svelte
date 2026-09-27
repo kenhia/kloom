@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { bibliography, chicago } from '../citation';
 	import type { Frame, Trail } from '../model';
 	import type { SyncMode } from '../navigation';
 
@@ -96,6 +97,25 @@
 				</li>
 			{/each}
 		</ol>
+
+		{#if frame.citations?.length}
+			<details class="citations">
+				<summary>Citations ({frame.citations.length})</summary>
+				<ul>
+					{#each bibliography(frame.citations) as citation, i (i)}
+						<li>
+							{#each chicago(citation) as part, j (j)}
+								{#if part.href}
+									<!-- An external source, not an app route. -->
+									<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+									<a href={part.href} rel="noopener noreferrer">{part.text}</a>
+								{:else if part.italic}<i>{part.text}</i>{:else}{part.text}{/if}
+							{/each}
+						</li>
+					{/each}
+				</ul>
+			</details>
+		{/if}
 	</article>
 </section>
 
@@ -173,6 +193,76 @@
 	}
 	.body :global(a),
 	.sources a {
+		color: inherit;
+		text-decoration-color: var(--accent);
+	}
+	.body :global(h3) {
+		margin: 1.75rem 0 0.5rem;
+		font-family: var(--serif);
+		font-size: 1.25rem;
+		font-weight: normal;
+	}
+	.body :global(img) {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: 1rem auto 0.25rem;
+	}
+	.body :global(.figure) {
+		display: block;
+	}
+	.body :global(.credit) {
+		display: block;
+		font-size: 0.75rem;
+		text-align: center;
+		color: var(--muted);
+	}
+	.body :global(table) {
+		border-collapse: collapse;
+		font-size: 0.875rem;
+		margin: 0.5rem 0 1rem;
+	}
+	.body :global(th),
+	.body :global(td) {
+		padding: 0.2rem 0.75rem 0.2rem 0;
+		border-bottom: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
+		text-align: left;
+	}
+	.body :global(td:last-child),
+	.body :global(th:last-child) {
+		text-align: right;
+		font-variant-numeric: tabular-nums;
+	}
+	.body :global(blockquote) {
+		margin: 1rem 0;
+		padding-left: 1rem;
+		border-left: 2px solid var(--accent);
+		font-family: var(--serif);
+		font-style: italic;
+	}
+	.citations {
+		margin-top: 0.75rem;
+		font-size: 0.8rem;
+	}
+	.citations summary {
+		cursor: pointer;
+		width: fit-content;
+		font-family: var(--mono);
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--muted);
+	}
+	.citations ul {
+		padding-left: 1.25rem;
+	}
+	.citations li {
+		margin-bottom: 0.4rem;
+		padding-left: 1.5em;
+		text-indent: -1.5em;
+		list-style: none;
+		overflow-wrap: anywhere;
+	}
+	.citations a {
 		color: inherit;
 		text-decoration-color: var(--accent);
 	}

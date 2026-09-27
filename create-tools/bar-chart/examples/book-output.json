@@ -1,0 +1,23 @@
+{
+	"title": "European output of printed books by century, 1454–1800",
+	"description": "Bar chart. About 12.6 million copies in 1454–1500; 217 million in the 16th century; 532 million in the 17th; 984 million in the 18th. Data: Buringh and van Zanden 2009, table 2.",
+	"heading": "PRINTED BOOKS, WESTERN EUROPE · COPIES PER CENTURY",
+	"unit": "M",
+	"colours": { "background": "#efe6d2", "ink": "#241d14", "muted": "#6c5f4b", "accent": "#b3261e" },
+	"axis": {
+		"max": 1000,
+		"ticks": [
+			[0, "0"],
+			[250, "250M"],
+			[500, "500M"],
+			[750, "750M"],
+			[1000, "1B"]
+		]
+	},
+	"bars": [
+		{ "label": "15th c.", "sublabel": "1454–1500", "value": 12.6, "highlight": true },
+		{ "label": "16th c.", "sublabel": "1501–1600", "value": 217.4 },
+		{ "label": "17th c.", "sublabel": "1601–1700", "value": 531.9 },
+		{ "label": "18th c.", "sublabel": "1701–1800", "value": 983.9 }
+	]
+}

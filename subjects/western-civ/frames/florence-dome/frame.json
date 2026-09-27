@@ -1,0 +1,58 @@
+{
+	"id": "florence-dome",
+	"position": {
+		"label": "AD 1436",
+		"sort": 1436
+	},
+	"scene": {
+		"headline": "Then came",
+		"accent": "REBIRTH.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["FLORENCE · FILIPPO BRUNELLESCHI", "BUILT 1420–1436 WITHOUT CENTRING"],
+		"counter": {
+			"value": "4,000,000+",
+			"label": "bricks"
+		}
+	},
+	"sources": [
+		{
+			"title": "Florence Cathedral — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Florence_Cathedral"
+		},
+		{
+			"title": "Filippo Brunelleschi — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Filippo_Brunelleschi"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Florence Cathedral",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Cathedral&oldid=1372317847",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Filippo Brunelleschi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Filippo_Brunelleschi&oldid=1376364274",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		}
+	]
+}

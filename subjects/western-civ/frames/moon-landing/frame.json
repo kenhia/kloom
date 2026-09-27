@@ -1,19 +1,70 @@
 {
 	"id": "moon-landing",
-	"position": { "label": "AD 1969", "sort": 1969 },
+	"position": {
+		"label": "AD 1969",
+		"sort": 1969
+	},
 	"scene": {
 		"headline": "We left the",
 		"accent": "EARTH.",
 		"palette": "night",
 		"illustration": "scene.svg",
 		"metadata": ["APOLLO 11 · SEA OF TRANQUILITY", "20 JULY 1969"],
-		"counter": { "value": "384,400", "label": "km from home" }
+		"counter": {
+			"value": "384,400",
+			"label": "km from home"
+		}
 	},
 	"sources": [
-		{ "title": "Apollo 11 — Wikipedia", "url": "https://en.wikipedia.org/wiki/Apollo_11" },
 		{
-			"title": "Apollo 11 mission overview — NASA",
-			"url": "https://www.nasa.gov/mission/apollo-11/"
+			"title": "Apollo 11 — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Apollo_11"
+		},
+		{
+			"title": "Saturn V — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Saturn_V"
+		},
+		{
+			"title": "Apollo 11 Mission Overview",
+			"url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+			"note": "NASA"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Apollo 11",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apollo_11&oldid=1371120273",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Saturn V",
+			"url": "https://en.wikipedia.org/w/index.php?title=Saturn_V&oldid=1368745721",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "web",
+			"title": "Apollo 11 Mission Overview",
+			"url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+			"accessed": "2026-09-26",
+			"container": "NASA"
 		}
 	]
 }

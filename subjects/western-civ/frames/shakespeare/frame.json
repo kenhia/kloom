@@ -1,0 +1,76 @@
+{
+	"id": "shakespeare",
+	"position": {
+		"label": "AD 1623",
+		"sort": 1623
+	},
+	"scene": {
+		"headline": "We found new",
+		"accent": "WORDS.",
+		"palette": "night",
+		"illustration": "scene.svg",
+		"metadata": ["LONDON · THE GLOBE, BANKSIDE", "FIRST FOLIO · 36 PLAYS"],
+		"counter": {
+			"value": "18",
+			"label": "plays first printed in the Folio"
+		}
+	},
+	"sources": [
+		{
+			"title": "William Shakespeare — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/William_Shakespeare"
+		},
+		{
+			"title": "First Folio — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/First_Folio"
+		},
+		{
+			"title": "William Shakespeare, Shakespeare's First Folio",
+			"url": "https://www.gutenberg.org/ebooks/2270",
+			"note": "Project Gutenberg"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "William Shakespeare",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Shakespeare&oldid=1376797160",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "First Folio",
+			"url": "https://en.wikipedia.org/w/index.php?title=First_Folio&oldid=1376569466",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "book",
+			"title": "Shakespeare's First Folio",
+			"url": "https://www.gutenberg.org/ebooks/2270",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"family": "Shakespeare",
+					"given": "William"
+				}
+			],
+			"publisher": "Project Gutenberg"
+		}
+	]
+}

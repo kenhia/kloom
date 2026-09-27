@@ -1,0 +1,76 @@
+{
+	"id": "pantheon",
+	"position": {
+		"label": "c. AD 126",
+		"sort": 126
+	},
+	"scene": {
+		"headline": "Still",
+		"accent": "STANDING.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["ROME · HADRIAN", "UNREINFORCED CONCRETE · OPEN TO THE SKY"],
+		"counter": {
+			"value": "43 m",
+			"label": "across the dome"
+		}
+	},
+	"sources": [
+		{
+			"title": "Pantheon, Rome — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+		},
+		{
+			"title": "Roman concrete — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Roman_concrete"
+		},
+		{
+			"title": "Colosseum — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Colosseum"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Pantheon, Rome",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pantheon,_Rome&oldid=1376240168",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Roman concrete",
+			"url": "https://en.wikipedia.org/w/index.php?title=Roman_concrete&oldid=1358938062",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Colosseum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colosseum&oldid=1374578762",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		}
+	]
+}

@@ -1,0 +1,138 @@
+{
+	"id": "dna",
+	"position": {
+		"label": "AD 1953",
+		"sort": 1953
+	},
+	"scene": {
+		"headline": "The code of",
+		"accent": "LIFE.",
+		"palette": "night",
+		"illustration": "scene.svg",
+		"metadata": ["CAMBRIDGE · KING’S COLLEGE LONDON", "NATURE 171 · 25 APRIL 1953"],
+		"counter": {
+			"value": "4",
+			"label": "letters: A, C, G, T"
+		}
+	},
+	"sources": [
+		{
+			"title": "DNA — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/DNA"
+		},
+		{
+			"title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids%3A_A_Structure_for_Deoxyribose_Nucleic_Acid"
+		},
+		{
+			"title": "Photo 51 — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Photo_51"
+		},
+		{
+			"title": "Rosalind Franklin — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Rosalind_Franklin"
+		},
+		{
+			"title": "Human Genome Project — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Human_Genome_Project"
+		},
+		{
+			"title": "J. D. Watson, F. H. C. Crick, Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+			"url": "https://doi.org/10.1038/171737a0",
+			"note": "Nature"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "DNA",
+			"url": "https://en.wikipedia.org/w/index.php?title=DNA&oldid=1374720238",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+			"url": "https://en.wikipedia.org/w/index.php?title=Molecular_Structure_of_Nucleic_Acids%3A_A_Structure_for_Deoxyribose_Nucleic_Acid&oldid=1365732474",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Photo 51",
+			"url": "https://en.wikipedia.org/w/index.php?title=Photo_51&oldid=1375867939",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rosalind Franklin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rosalind_Franklin&oldid=1375888124",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Human Genome Project",
+			"url": "https://en.wikipedia.org/w/index.php?title=Human_Genome_Project&oldid=1376331013",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "article",
+			"title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+			"url": "https://doi.org/10.1038/171737a0",
+			"accessed": "2026-09-26",
+			"authors": [
+				{
+					"family": "Watson",
+					"given": "J. D."
+				},
+				{
+					"family": "Crick",
+					"given": "F. H. C."
+				}
+			],
+			"container": "Nature",
+			"volume": "171",
+			"issue": "4356",
+			"pages": "737–38",
+			"published": "1953-04-25"
+		}
+	]
+}

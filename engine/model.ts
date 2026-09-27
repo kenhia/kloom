@@ -1,3 +1,7 @@
+import type { Citation } from './citation';
+
+export type { Citation } from './citation';
+
 /**
  * The content model, engine-level and subject-agnostic (docs/design.md
  * §Content model). Nothing here assumes the spine is time: each segment says
@@ -65,6 +69,12 @@ export interface FrameFile {
 	scene: Scene;
 	/** Required and non-empty: this is history written with an LLM. */
 	sources: Source[];
+	/**
+	 * Where each piece of information and each image came from, structured and
+	 * rendered in Chicago style under Sources. Every image or chart the reading
+	 * uses needs a `media` entry here.
+	 */
+	citations?: Citation[];
 }
 
 /** A frame ready to render: both halves, markdown already turned to HTML. */

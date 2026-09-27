@@ -68,6 +68,44 @@ baked into the engine.
   and handlers. That is not a sanitiser, and grow must not write an
   illustration until a real allowlist sanitiser replaces it. Giving each
   path `pathLength="1"` lets the draw-on animation work.
+- **Citations** (sprint 002) — a frame may carry `citations`, stored as
+  structured data and rendered as a Chicago notes-bibliography entry,
+  alphabetised, in a collapsed _Citations_ control under Sources
+  (`<details>`, closed by default). The house style applies to Wikipedia and
+  every other site alike. Nothing appears in the narrative itself: no
+  footnote markers. The per-frame Sources list stays as it was, and stays
+  required.
+  - Fields: `kind` (`web`, `wikipedia`, `book`, `article`, `media`),
+    `title`, `url`,
+    `accessed` (`YYYY-MM-DD`), and optionally `authors` (`{family, given?}` or
+    `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`), `container`
+    (the site or collection), `publisher`, `place`, `published` (`YYYY`,
+    `YYYY-MM` or `YYYY-MM-DD`; for Wikipedia, the revision's date, rendered
+    "Last modified"), for journal articles `volume`, `issue` and `pages`, and
+    for media `licence` and `file`.
+  - Every citation needs a title, an http(s) url and an accessed date. Any
+    Wikipedia url must be a permanent revision link (`oldid=`), because
+    articles change.
+  - An image or chart in the reading is a file in the frame's directory
+    (served at `/media/<frame>/<file>` with a no-script policy), and it is
+    shown only with a `media` citation naming that `file` and a `licence`.
+    Where the licence needs attribution beside the work (anything but public
+    domain or CC0), the image carries a short caption credit. Scene
+    illustrations drawn for kloom need no citation; one traced or copied from
+    somewhere does.
+  - Content never reaches the page as HTML: the formatter emits text runs
+    (plain, italic, or the URL), and the renderer escapes them.
+  - Grow (3364) and the framework's authoring skill must emit `citations`
+    in this shape; ask's "keep this" (3360) should carry the ones its answer
+    used.
+- **Reading markdown** (sprint 002) — the frame's title is the reading
+  pane's `h2`, so the markdown's headings are set one level down: author
+  sections as `##` and they render as `h3`. A table under a chart carries its
+  numbers for screen readers.
+- **Authoring tools** (sprint 002) — `create-tools/` holds the scripts that
+  made the content (plates, Wikipedia citations, charts, traced art), one
+  directory per tool with its own README. Skills for new subjects and grow
+  point there; an agent creating a subject may add tools.
 - **Engine vs subject** — `engine/` code never names a subject;
   `subjects/<subject>/` holds content and theme. Extracting the framework later
   should be moving files, not untangling them.
@@ -117,6 +155,47 @@ baked into the engine.
 
 ## Start screen
 
-Idea: the public-domain "Modern Loose Reed Power Loom" (Marsden) drawing
-from Wikipedia's _Lancashire Loom_ article, background removed and re-inked
-gold on black, in the manner of the video's opening frame.
+Built in sprint 002 (korg 3359). The page opens on a modal start screen over
+an inert shell: the subject's title, a Begin button (focused; Enter or Esc
+begins) and, behind them, kloom's loom drawn on in the colours of the spine's
+first frame, over a slowly turning inscribed dial. The loom is the
+public-domain "Modern Loose Reed Power Loom" engraving from Richard Marsden's
+_Cotton Weaving_ (1895), traced to vector; its source, licence and how it was
+traced are in `src/lib/start/README.md`, and it is credited under the start
+screen's collapsed _Image credit_. It is kloom's mark rather than the
+subject's, so it lives in `src/`; the component is `engine/ui/StartScreen.svelte`.
+
+## Illustrations (what worked in sprint 002)
+
+The curated frames are the bar the grow skill is written against, so the
+way they were drawn is part of the design:
+
+- **Engineering plates, not pictures.** A section, elevation or diagram of
+  the thing, with its geometry showing: the Pantheon's inscribed sphere, the
+  _quinto acuto_ centres of Brunelleschi's dome, Eratosthenes' parallel rays
+  and angle, a Platonic solid in wireframe. Construction lines are what make
+  a drawing read like the video rather than clip-art.
+- **Three weights.** Construction lines thin and faint
+  (`stroke-width="0.6" opacity="0.55"`), secondary detail mid
+  (`0.9`/`0.8`), the object at the drawing's full weight (1.25 in a
+  400×300 viewBox). One colour: `currentColor`.
+- **Drawn in order.** Each top-level `<g>` draws after the one before it
+  (the engine staggers them), so order the groups as a draughtsman would:
+  construction, then the object, then its details and labels.
+- **Few labels.** Small monospace `<text>`, `fill="currentColor"
+stroke="none"`, fading in once the lines are down. Numbers that matter
+  belong in the scene's counter, not the drawing.
+- **Geometry is computed, not guessed.** Solids, globes, helices, gears and
+  waves were generated from their maths with `create-tools/draw-plates`,
+  which is far more convincing than hand-placed curves. The tool's output
+  is committed content and may be edited by hand.
+- Every path keeps `pathLength="1"`, and nothing the illustration tripwire
+  rejects.
+
+## Palette transitions
+
+The palette colours are registered custom properties (`@property`, syntax
+`<color>`) and transition together on the shell, 1.5s ease-in-out, so every
+consumer — accent words, buttons, borders, SVG strokes — fades with the
+background instead of snapping ahead of it (korg 3370). Reduced motion turns
+the transition off.

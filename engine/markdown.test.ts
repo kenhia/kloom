@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { renderMarkdown } from './markdown';
+import { imageRefs, renderMarkdown } from './markdown';
 
 describe('renderMarkdown', () => {
 	it('renders ordinary markdown', () => {
@@ -39,5 +39,37 @@ describe('renderMarkdown', () => {
 			'<img src="https://example.org/m.png" alt="a map">'
 		);
 		expect(renderMarkdown('![a map](map.png)')).toContain('<img src="map.png" alt="a map">');
+	});
+
+	// The frame's title is the pane's h2, so the reading's sections nest under it.
+	it('sets reading headings one level below the frame title', () => {
+		expect(renderMarkdown('# A\n\n## B\n\n###### C')).toBe('<h2>A</h2>\n<h3>B</h3>\n<h6>C</h6>\n');
+	});
+
+	it('resolves images through the resolver, with a credit when one is due', () => {
+		const image = (href: string) =>
+			href === 'pd.jpg'
+				? { src: '/media/f/pd.jpg' }
+				: href === 'by.jpg'
+					? { src: '/media/f/by.jpg', credit: 'A <b>Person</b> / CC BY 4.0' }
+					: null;
+		expect(renderMarkdown('![one](pd.jpg)', { image })).toBe(
+			'<p><img src="/media/f/pd.jpg" alt="one"></p>\n'
+		);
+		expect(renderMarkdown('![two](by.jpg)', { image })).toBe(
+			'<p><span class="figure"><img src="/media/f/by.jpg" alt="two">' +
+				'<span class="credit">A &lt;b&gt;Person&lt;/b&gt; / CC BY 4.0</span></span></p>\n'
+		);
+		expect(renderMarkdown('![three](gone.jpg)', { image })).toBe('<p>three</p>\n');
+	});
+});
+
+describe('imageRefs', () => {
+	it('lists every image, including ones inside other blocks', () => {
+		expect(imageRefs('![a](one.png)\n\n> quote ![b](two.svg)\n\n- [![c](three.jpg)](x)')).toEqual([
+			'one.png',
+			'two.svg',
+			'three.jpg'
+		]);
 	});
 });

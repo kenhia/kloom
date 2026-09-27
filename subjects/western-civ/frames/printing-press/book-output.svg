@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">European output of printed books by century, 1454–1800</title>
+<desc id="d">Bar chart. About 12.6 million copies in 1454–1500; 217 million in the 16th century; 532 million in the 17th; 984 million in the 18th. Data: Buringh and van Zanden 2009, table 2.</desc>
+<rect width="480" height="300" fill="#efe6d2"/>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#6c5f4b">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="#6c5f4b" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="196.5" y2="196.5" stroke="#6c5f4b" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">250M</text>
+<line x1="64" x2="460" y1="143.0" y2="143.0" stroke="#6c5f4b" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">500M</text>
+<line x1="64" x2="460" y1="89.5" y2="89.5" stroke="#6c5f4b" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">750M</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="#6c5f4b" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">1B</text>
+<rect x="85.5" y="247.3" width="56" height="2.7" fill="#b3261e" fill-opacity="1"/>
+<text x="113.5" y="241.3" text-anchor="middle" fill="#241d14">12.6M</text>
+<text x="113.5" y="266" text-anchor="middle" fill="#241d14">15th c.</text>
+<text x="113.5" y="280" text-anchor="middle" font-size="9">1454–1500</text>
+<rect x="184.5" y="203.5" width="56" height="46.5" fill="#241d14" fill-opacity="0.85"/>
+<text x="212.5" y="197.5" text-anchor="middle" fill="#241d14">217M</text>
+<text x="212.5" y="266" text-anchor="middle" fill="#241d14">16th c.</text>
+<text x="212.5" y="280" text-anchor="middle" font-size="9">1501–1600</text>
+<rect x="283.5" y="136.2" width="56" height="113.8" fill="#241d14" fill-opacity="0.85"/>
+<text x="311.5" y="130.2" text-anchor="middle" fill="#241d14">532M</text>
+<text x="311.5" y="266" text-anchor="middle" fill="#241d14">17th c.</text>
+<text x="311.5" y="280" text-anchor="middle" font-size="9">1601–1700</text>
+<rect x="382.5" y="39.4" width="56" height="210.6" fill="#241d14" fill-opacity="0.85"/>
+<text x="410.5" y="33.4" text-anchor="middle" fill="#241d14">984M</text>
+<text x="410.5" y="266" text-anchor="middle" fill="#241d14">18th c.</text>
+<text x="410.5" y="280" text-anchor="middle" font-size="9">1701–1800</text>
+<text x="64" y="20" font-size="12" fill="#241d14" letter-spacing="1">PRINTED BOOKS, WESTERN EUROPE · COPIES PER CENTURY</text>
+</g></svg>
