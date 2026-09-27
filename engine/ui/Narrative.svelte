@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { Snippet } from 'svelte';
 	import { bibliography, chicago } from '../citation';
 	import type { Frame, Trail } from '../model';
 	import type { SyncMode } from '../navigation';
@@ -15,6 +16,8 @@
 		onenter: (trail: Trail) => void;
 		/** The scrolling element, so the shell can drive it from the keyboard. */
 		element?: HTMLElement;
+		/** Extra controls at the end of the toolbar (the settings gear). */
+		tools?: Snippet;
 	}
 
 	let {
@@ -25,7 +28,8 @@
 		onsync,
 		onsyncmode,
 		onenter,
-		element = $bindable()
+		element = $bindable(),
+		tools
 	}: Props = $props();
 
 	const behind = $derived(frame.id !== spineFrame.id);
@@ -50,6 +54,7 @@
 			/>
 			Follow the spine
 		</label>
+		{@render tools?.()}
 		<p id="sync-state" class="state" aria-live="polite">
 			{#if behind}
 				Showing {frame.position.label}; the spine is at {spineFrame.position.label}.

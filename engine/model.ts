@@ -91,6 +91,12 @@ export interface Palette {
 	muted: string;
 	accent: string;
 	line: string;
+	/**
+	 * The palette of the other scheme that stands in for this one when the
+	 * reader picks an all-dark or all-light palette mode. Without one, this
+	 * palette is kept in every mode.
+	 */
+	counterpart?: string;
 }
 
 /** `subject.json`: the subject's own name and theme. */

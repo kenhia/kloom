@@ -3,6 +3,9 @@ import { render } from 'svelte/server';
 import { beforeAll, describe, expect, it } from 'vitest';
 import { loadSubject } from '$engine/load';
 import type { Subject } from '$engine/model';
+import { paletteMode } from '$engine/settings';
+import Shell from '$engine/ui/Shell.svelte';
+import { UserSettings } from '$engine/user-settings.svelte';
 import Page from './+page.svelte';
 
 let subject: Subject;
@@ -77,5 +80,59 @@ describe('the shell', () => {
 		expect(text(body)).toContain('Image credit');
 		expect(body).toMatch(/class="shell[^"]*"[^>]*inert/);
 		expect(body.indexOf('The History of Western Civilization</h2>')).toBeGreaterThan(0);
+	});
+});
+
+describe('the settings control', () => {
+	it('is a named disclosure button controlling a closed panel', () => {
+		const { body } = page();
+		const gear = body.match(/<button[^>]*class="gear[^"]*"[^>]*>[\s\S]*?<\/button>/)![0];
+		expect(gear).toContain('type="button"');
+		expect(gear).toContain('aria-expanded="false"');
+		expect(text(gear).trim()).toBe('Settings');
+		const panel = gear.match(/aria-controls="([^"]+)"/)![1];
+		const at = body.match(new RegExp(`<div[^>]*id="${panel}"[^>]*>`))![0];
+		expect(at).toContain('hidden');
+		expect(at).toContain('data-own-keys');
+		expect(at).toMatch(/role="group"/);
+	});
+
+	it('sits in the narrative toolbar, after Follow the spine, before the reading', () => {
+		const { body } = page();
+		expect(body.indexOf('Follow the spine')).toBeLessThan(body.indexOf('class="gear'));
+		expect(body.indexOf('class="gear')).toBeLessThan(body.indexOf('<article'));
+	});
+
+	it('renders each setting as a labelled select, starting at its default', () => {
+		const { body } = page();
+		const id = body.match(/<select[^>]*id="([^"]+)"/)![1];
+		expect(body).toMatch(new RegExp(`<label for="${id}"[^>]*>Palette</label>`));
+		expect(body).toMatch(/<option value="mixed"[^>]*selected/);
+		expect(text(body)).toContain('Dark');
+		expect(text(body)).toContain('Light');
+	});
+});
+
+describe('the palette mode', () => {
+	const shell = (mode: string) => {
+		const settings = new UserSettings([paletteMode], () => null);
+		settings.set('palette', mode);
+		return render(Shell, { props: { subject, settings } }).body;
+	};
+
+	it('paints the first frame (night) as itself in Mixed and Dark', () => {
+		expect(shell('mixed')).toContain(`--background: ${subject.palettes.night.background}`);
+		expect(shell('dark')).toContain(`--background: ${subject.palettes.night.background}`);
+	});
+
+	it('paints the first frame in its light counterpart in Light', () => {
+		const body = shell('light');
+		expect(body).toContain(`--background: ${subject.palettes.parchment.background}`);
+		expect(body).toContain('color-scheme: light');
+	});
+
+	it('gives every palette of the subject a counterpart of the other scheme', () => {
+		for (const p of Object.values(subject.palettes))
+			expect(subject.palettes[p.counterpart!].scheme).not.toBe(p.scheme);
 	});
 });

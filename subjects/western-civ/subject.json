@@ -7,7 +7,8 @@
 			"ink": "#ece4d0",
 			"muted": "#9a927f",
 			"accent": "#d9a441",
-			"line": "#d9a441"
+			"line": "#d9a441",
+			"counterpart": "parchment"
 		},
 		"parchment": {
 			"scheme": "light",
@@ -15,7 +16,8 @@
 			"ink": "#241d14",
 			"muted": "#6c5f4b",
 			"accent": "#b3261e",
-			"line": "#3a3024"
+			"line": "#3a3024",
+			"counterpart": "night"
 		}
 	}
 }

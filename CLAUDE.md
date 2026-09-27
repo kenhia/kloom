@@ -70,8 +70,10 @@ the History of Western Civilization. Later: a framework (starter code, skills,
 instructions) that generates a kloom for any subject, proven on a second
 subject, AI. korg project `kloom` (id 72). Status: sprint 001 shipped the scaffold,
 content model and three-pane shell; sprint 002 the curated POC content (16
-frames and a trail, with Chicago-style citations) and the loom start screen.
-No AI backend yet.
+frames and a trail, with Chicago-style citations) and the loom start screen;
+sprint 003 user settings (a gear and pop-up over a settings registry, the
+Dark / Light / Mixed palette mode) and the staged scene entrance. No AI
+backend yet.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

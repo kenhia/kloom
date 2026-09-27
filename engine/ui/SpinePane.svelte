@@ -78,7 +78,8 @@
 				</div>
 			{/if}
 			<p class="headline">
-				{frame.scene.headline} <em class="accent">{frame.scene.accent}</em>
+				<span class="words">{frame.scene.headline}</span>
+				<em class="accent">{frame.scene.accent}</em>
 			</p>
 			{#if frame.scene.metadata.length}
 				<ul class="metadata">
@@ -219,7 +220,18 @@
 		color: var(--ink);
 	}
 
+	/*
+	 * The staged entrance (docs/design.md §Scene entrance). The scene is keyed
+	 * by frame, so every move rebuilds it and the stages restart from zero: a
+	 * burst of ← → never leaves one half-faded. The small text and the HUD are
+	 * there at once and the drawing starts drawing on; then the headline, then
+	 * its accent word, landing just before the drawing's last group (~2.9s).
+	 */
 	.scene {
+		--headline-delay: 1s;
+		--headline-fade: 1s;
+		--accent-delay: 1.5s;
+		--accent-fade: 1s;
 		align-self: center;
 		display: grid;
 		justify-items: center;
@@ -292,6 +304,15 @@
 	.accent {
 		font-style: normal;
 		color: var(--accent);
+	}
+	.headline .words,
+	.headline .accent {
+		opacity: 0;
+		animation: appear var(--headline-fade) ease-in-out var(--headline-delay) forwards;
+	}
+	.headline .accent {
+		animation-duration: var(--accent-fade);
+		animation-delay: var(--accent-delay);
 	}
 	.metadata {
 		margin: 0;
@@ -370,7 +391,9 @@
 			animation: none;
 			stroke-dashoffset: 0;
 		}
-		.illustration :global(svg text) {
+		.illustration :global(svg text),
+		.headline .words,
+		.headline .accent {
 			animation: none;
 			opacity: 1;
 		}

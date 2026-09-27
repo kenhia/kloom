@@ -2,6 +2,8 @@
 	import { onMount } from 'svelte';
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
+	import { paletteFor, paletteMode } from '$engine/settings';
+	import { UserSettings } from '$engine/user-settings.svelte';
 	import { inscription, loomCredit } from '$lib/start/credit';
 	import type { PageProps } from './$types';
 
@@ -10,11 +12,18 @@
 	let started = $state(false);
 	let loom = $state<string | null>(null);
 
-	// The start screen wears the first frame's palette.
+	// The reader's settings: the palette mode for now; ask and grow add their models.
+	const settings = new UserSettings([paletteMode]);
+
+	// The start screen wears the first frame's palette, in the reader's mode.
 	const first = $derived(data.subject.frames[data.subject.spine.segments[0].frames[0]]);
+	const startPalette = $derived(
+		paletteFor(data.subject, first.scene.palette, settings.get(paletteMode.id)!)
+	);
 
 	// Large, so it arrives after the page as its own compressed chunk.
 	onMount(async () => {
+		settings.load();
 		loom = (await import('$lib/start/loom.svg?raw')).default;
 	});
 </script>
@@ -23,7 +32,7 @@
 	<title>kloom · {data.subject.title}</title>
 </svelte:head>
 
-<Shell subject={data.subject} active={started} />
+<Shell subject={data.subject} {settings} active={started} />
 
 {#if !started}
 	<StartScreen
@@ -32,7 +41,7 @@
 		{inscription}
 		art={loom}
 		credits={[loomCredit]}
-		palette={data.subject.palettes[first.scene.palette]}
+		palette={startPalette}
 		onbegin={() => (started = true)}
 	/>
 {/if}
