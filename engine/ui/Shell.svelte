@@ -2,17 +2,22 @@
 	import { onMount } from 'svelte';
 	import type { Subject, Trail } from '../model';
 	import { clamp, indexLabel, stops, WheelGate, type SyncMode } from '../navigation';
+	import { paletteFor, paletteMode } from '../settings';
+	import type { UserSettings } from '../user-settings.svelte';
 	import AiPane from './AiPane.svelte';
 	import Narrative from './Narrative.svelte';
+	import Settings from './Settings.svelte';
 	import SpinePane from './SpinePane.svelte';
 
 	interface Props {
 		subject: Subject;
+		/** The reader's settings; the page makes them and loads them on mount. */
+		settings: UserSettings;
 		/** False while something (the start screen) sits in front of the shell. */
 		active?: boolean;
 	}
 
-	let { subject, active = true }: Props = $props();
+	let { subject, settings, active = true }: Props = $props();
 
 	const SYNC_KEY = 'kloom.sync';
 
@@ -29,7 +34,9 @@
 	const path = $derived(stops(trail ? trail.spine : subject.spine));
 	const stop = $derived(path[clamp(index, path.length)]);
 	const frame = $derived(subject.frames[stop.frameId]);
-	const palette = $derived(subject.palettes[frame.scene.palette]);
+	const palette = $derived(
+		paletteFor(subject, frame.scene.palette, settings.get(paletteMode.id) ?? paletteMode.default)
+	);
 	const narrativeFrame = $derived(
 		sync === 'follow' || !pinned ? frame : (subject.frames[pinned] ?? frame)
 	);
@@ -114,7 +121,12 @@
 			slider?.focus();
 			return;
 		}
-		if (target.closest('input[type="text"], textarea, select, [contenteditable="true"]')) return;
+		if (
+			target.closest(
+				'input[type="text"], textarea, select, [contenteditable="true"], [data-own-keys]'
+			)
+		)
+			return;
 
 		switch (e.key) {
 			case 'ArrowRight':
@@ -195,7 +207,9 @@
 		onsyncmode={setSync}
 		onenter={enter}
 		bind:element={narrativeEl}
-	/>
+	>
+		{#snippet tools()}<Settings {settings} />{/snippet}
+	</Narrative>
 
 	<AiPane />
 </div>

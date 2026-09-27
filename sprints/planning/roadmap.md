@@ -13,15 +13,17 @@
   (3361) and the loom start screen (3359) —
   [record](../002-poc-content.md).
 
+- Sprint 003: user settings (proposal 3374). A gear and pop-up backed by
+  a settings registry (3373), the Dark / Light / Mixed palette mode and the
+  staged scene entrance (3372) —
+  [record](../003-user-settings.md). Ken signed off on the entrance timings
+  as first set.
+
 ## Next
 
-In this order: settings, then ask, then grow. The curated frames are the
-bar grow is written against.
+In this order: ask, then grow. The curated frames are the bar grow is
+written against.
 
-- User settings (proposal 3374): a settings control, a gear button and a
-  pop-up (3373). Its first row is the Dark / Light / Mixed palette mode,
-  which ships with the staged scene entrance on prev/next (3372). The
-  timings need Ken's eyeball check.
 - Ask (proposal 3368): a transient answer in the AI pane, behind the
   provider interface, first adapter headless `claude -p` (3360). It adds an
   ask-model setting (default Sonnet 5) and the app config file listing the

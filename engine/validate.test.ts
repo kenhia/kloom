@@ -129,6 +129,18 @@ describe('validate', () => {
 		]);
 	});
 
+	it('fails a palette counterpart that is unknown or of the same scheme', () => {
+		const r = raw();
+		const palettes = (r.manifest as Loose).palettes;
+		palettes.day = { ...palettes.night, scheme: 'light', counterpart: 'night' };
+		palettes.dusk = { ...palettes.night, counterpart: 'night' };
+		palettes.night.counterpart = 'noon';
+		expect(validate(r)).toEqual([
+			'subject.json palette night: unknown counterpart "noon"',
+			'subject.json palette dusk: counterpart "night" must be of the other scheme'
+		]);
+	});
+
 	it('fails an illustration that is missing or scripted', () => {
 		const r = raw();
 		(r.frames.a.frame as Loose).scene.illustration = 'gone.svg';

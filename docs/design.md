@@ -16,6 +16,8 @@ hook.
 - **Palette tracks the era.** Dark night + gold for the mythic and modern
   bookends; parchment + engineering line drawings for the long middle. The
   palette is a property of each frame and transitions as the cursor moves.
+  That is the _Mixed_ palette mode, the default; a reader may pick all-dark
+  or all-light instead (§Settings).
 - **Scene grammar.** A huge serif headline, usually in a collective "we"
   voice, with one accent word in red or gold ("BACK.", "VIRAL.", "WORK.",
   "LIFE."); one line illustration that draws itself on; small monospace
@@ -106,6 +108,13 @@ baked into the engine.
   made the content (plates, Wikipedia citations, charts, traced art), one
   directory per tool with its own README. Skills for new subjects and grow
   point there; an agent creating a subject may add tools.
+- **Palette counterparts** (sprint 003) — a palette may name a
+  `counterpart`: a palette of the other scheme that stands in for it when
+  the reader picks Dark or Light. Validation requires it to exist and to be
+  of the other scheme. Without one, a palette is kept in every mode. So the
+  subject decides its own dark and light looks, and the engine names none.
+  A subject with several dark palettes keeps their variety in Dark mode;
+  only the light ones are swapped.
 - **Engine vs subject** — `engine/` code never names a subject;
   `subjects/<subject>/` holds content and theme. Extracting the framework later
   should be moving files, not untangling them.
@@ -199,3 +208,77 @@ The palette colours are registered custom properties (`@property`, syntax
 consumer — accent words, buttons, borders, SVG strokes — fades with the
 background instead of snapping ahead of it (korg 3370). Reduced motion turns
 the transition off.
+
+## Settings
+
+Built in sprint 003 (korg 3373, 3372).
+
+- **Two kinds, kept apart** (Ken, 2026-09-26):
+  - **User settings** are one reader's choices. They are made in the settings
+    pop-up and remembered per browser in localStorage, where every read and
+    write is wrapped so blocked storage costs only the memory.
+  - **App settings** belong to the deployment. They live in a config file on
+    the server, such as the models on offer and their ids. Readers never edit
+    them. The first one arrives with ask (3368).
+- **The registry.** `engine/settings.ts` defines a `Setting` as
+  `{id, label, choices: [{value, label}], default, storageKey}`. Every
+  setting is a pick from a fixed list, and there is no free-text kind. A
+  stored value that is no longer a choice falls back to the default, which
+  covers a model that is dropped from the app config. The page builds the list
+  and hands it to a `UserSettings` store (`engine/user-settings.svelte.ts`),
+  so a row whose choices come from the server is built at runtime like any
+  other. Values start at the defaults and are loaded on mount, so the server
+  render and the first client render agree.
+- **One control kind: a native `<select>` with a visible `<label>`.** Model
+  rows must be drop-downs, so the palette mode is one too, for consistency
+  rather than a radio group. A select is compact at 390px and needs no custom
+  arrow-key handling.
+- **A disclosure, not a modal.** The gear is a `<button>` (named
+  "Settings", with `aria-expanded`/`aria-controls`) that shows a panel below
+  it. It is not a `<dialog>`, for two reasons. A setting like the palette
+  mode should show its effect live on the page behind the panel, which a
+  modal would dim and make inert. And a few selects do not need a focus
+  trap. Esc closes the panel and returns focus to the gear, and so does a
+  click outside it (without moving focus). Tab runs gear, then the panel's
+  controls, in document order.
+- **Page keys stand down inside it.** The panel carries `data-own-keys`,
+  and the shell ignores its page-wide keys (arrows, S, T, Esc) for any
+  target inside such an element. A closed gear is an ordinary button, so the
+  arrows still move the spine from it.
+- **Placement:** the end of the narrative's toolbar, beside the other user
+  setting. It is clear of the spine's corner brackets, and it wraps with the
+  toolbar at phone width.
+- **"Follow the spine" stays in the toolbar.** It is a user setting, but it
+  sits beside the Sync Narrative button it modifies, and a reader toggles it
+  while reading. Moving it behind the gear would cost a click and separate
+  it from its context. It keeps its own `kloom.sync` key.
+- **Palette mode:** Mixed (each frame's own palette, the default), Dark or
+  Light, stored under `kloom.palette`. The OS `prefers-color-scheme` is not
+  consulted. Mixed is the designed experience, the palette tracking the era,
+  and a single scheme is a reader's explicit choice rather than an inference.
+  The start screen follows the mode as well. It is server-rendered in the
+  default mode, so a reader with a remembered Light choice sees it switch
+  once on load.
+
+## Scene entrance
+
+Built in sprint 003 (korg 3372). The scene is keyed by frame, so every
+move along the spine rebuilds it and the stages restart from zero, and a
+burst of ← → never leaves a scene half-faded:
+
+- **0s:** the small text (metadata, and the HUD's position and counter)
+  appears at once, and the drawing starts drawing on. Top-level groups each
+  take 1.4s at 0.25s steps, capped at 1.5s, so the drawing is complete by
+  about 2.9s.
+- **1s:** the headline, without its accent word, fades in over 1s.
+- **1.5s:** the accent word fades in over 1s, so it is fully on screen at
+  2.5s, just before the drawing's last group lands.
+
+The numbers are four custom properties at the top of `.scene` in
+`SpinePane.svelte` (`--headline-delay`, `--headline-fade`, `--accent-delay`,
+`--accent-fade`). Ken signed off on them after the
+eyeball check (2026-09-27), so they ship as first set: 1s / 1s / 1.5s / 1s. The headline
+enters after the 1.5s palette fade is mostly done, so the words never arrive
+in the old frame's colours. The live-region announcement is unchanged, and
+screen readers get the whole headline at once. Reduced motion shows
+everything immediately.

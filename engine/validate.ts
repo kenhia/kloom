@@ -80,6 +80,22 @@ export function validate(raw: RawSubject): string[] {
 				for (const c of COLOURS)
 					if (!isText(palette[c])) fail(`subject.json palette ${name}`, `${c} is required`);
 			}
+		// Checked once every palette is known: a counterpart may come later in the file.
+		if (isObj(p))
+			for (const [name, palette] of Object.entries(p)) {
+				if (!isObj(palette) || palette.counterpart === undefined) continue;
+				const other = p[palette.counterpart as string];
+				if (!isText(palette.counterpart) || !isObj(other))
+					fail(
+						`subject.json palette ${name}`,
+						`unknown counterpart "${String(palette.counterpart)}"`
+					);
+				else if (other.scheme === palette.scheme)
+					fail(
+						`subject.json palette ${name}`,
+						`counterpart "${palette.counterpart}" must be of the other scheme`
+					);
+			}
 	}
 
 	// Which spine lists each frame; a frame belongs to exactly one.
