@@ -1,0 +1,95 @@
+<!-- kproject:begin — managed by kprojects; do not edit inside this block -->
+
+## kproject conventions
+
+This project uses the kproject minimal harness
+(<https://github.com/kenhia/kprojects>). Keep context small; prefer doing
+over ceremony.
+
+### Layout
+
+- `sprints/` — the project's evolution, one record per PR-sized unit of
+  work (a "sprint")
+  - `planning/` — planning docs; at minimum `roadmap.md` (the general plan)
+  - `review/` — more formal reviews as the project matures
+  - sprint records: `###-<short-name>.md` for small projects, or a
+    `###-<short-name>/` directory of files for larger/more formal ones
+  - a sprint record is one informal narrative: goal, decisions, what
+    shipped, follow-ups — written during the sprint, not after
+  - projects that deploy end the record with a `## Deployed` section:
+    what shipped, where, when, and what was verified live — appended
+    after the deploy, not predicted before it
+- `docs/` — project documentation, architecture, usage
+- `.scratch/` — git-ignored scratch space for user or agent ephemera;
+  use it instead of /tmp
+- `justfile` — dev recipes; default recipe is `@just --list`; `just check`
+  runs the CI gates; `just deploy` (or variants) if the project deploys
+- `.env` — git-ignored; tokens and environment vars
+
+### Workflow
+
+- One sprint ≈ one PR. Sprint proposals and work items are managed in
+  `korg`; durable cross-project knowledge goes in `klams`.
+- Mark each work item resolved as its work completes — don't batch the
+  resolutions into sprint-ship. A proposal's progress should be readable
+  while the sprint is running, which is the only time it is useful.
+- If the korg or klams MCP tools are unavailable in your session, say so
+  up front — don't silently work around missing infrastructure.
+- A few projects share contract surfaces with siblings and have a
+  **guiding plan** constraining how those change; most have none, and one
+  grep is the whole cost of finding out. Grep the `index.md` routing
+  table in `kai:~/src/tools/cross-project-planning` — a local path on
+  kai, read through kaed from any other host (`root: "kai:src"`, path
+  `tools/cross-project-planning/…`); don't clone a second copy. Not
+  listed → nothing applies. Listed → read the mapped plan folder before
+  planning sessions and before changing a contract surface it names, and
+  amend the plan in the same ship when what you build diverges from it.
+- TDD preferred: write the failing test first when practical.
+
+### Tooling preferences
+
+- No stack the harness could name, so `just check` is yours to write. Ask
+  what this repo can actually get wrong — a documents repo's failure mode is
+  a stale cross-reference, not a type error
+- Add no dependency to make a gate: a stdlib script or a shell one-liner
+  keeps a repo that had no dependencies still having none
+- Skip what isn't yours to verify — external URLs, machine-local paths
+- **Negative-test it.** Plant the error the gate exists to catch and watch it
+  exit 1. A gate never seen to fail is not a gate, and the seeded placeholder
+  fails on purpose until you replace it
+- License is MIT unless specifically directed otherwise
+
+<!-- kproject:end -->
+
+## Project
+
+kloom is an interactive, growable timeline for learning a subject: a spine
+scroller (left), a narrative reading pane (right) and an AI pane (bottom) that
+answers questions (ask) or adds frames and side trails (grow). POC subject:
+the History of Western Civilization. Later: a framework (starter code, skills,
+instructions) that generates a kloom for any subject, proven on a second
+subject, AI. korg project `kloom` (id 72). Status: fresh scaffold — sprint 001
+builds the app.
+
+Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
+
+**Read first:** `docs/design.md` (content model, ask vs grow, interaction
+rules — all decided, change the doc with the code), then
+`sprints/planning/roadmap.md`.
+
+**Stack:** SvelteKit (adapter-node) + TypeScript; toolchain modelled on
+`kai:~/src/tools/koverwatch` (its sprint 001 is the scaffold template).
+`just check` is the seeded failing placeholder until sprint 001 replaces it
+with svelte-check, prettier/eslint and vitest.
+
+**Rules that are easy to break:**
+
+- `engine/` never names a subject; subject content and theme live under
+  `subjects/<subject>/`.
+- Don't assume the spine is time — segments carry their own label kind.
+- Every frame carries sources.
+- Model calls go through the provider interface only; `claude -p` is one
+  adapter, not the architecture.
+- Keyboard and screen-reader support are requirements; verify keyboard-only
+  when you change interaction.
+- The repo is public.
