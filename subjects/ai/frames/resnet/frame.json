@@ -1,0 +1,115 @@
+{
+	"id": "resnet",
+	"position": {
+		"label": "Residual networks"
+	},
+	"scene": {
+		"headline": "We took a",
+		"accent": "SHORTCUT.",
+		"palette": "whitepaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MICROSOFT RESEARCH · KAIMING HE · 2015",
+			"SKIP CONNECTIONS · F(x) + x · BATCH NORMALISATION"
+		],
+		"counter": {
+			"value": "152",
+			"label": "layers in the ILSVRC 2015 winner"
+		}
+	},
+	"sources": [
+		{
+			"title": "Residual neural network — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Residual_neural_network"
+		},
+		{
+			"title": "Batch normalization — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Batch_normalization"
+		},
+		{
+			"title": "Kaiming He, Xiangyu Zhang, Shaoqing Ren et al., Deep Residual Learning for Image Recognition",
+			"url": "https://arxiv.org/abs/1512.03385",
+			"note": "arXiv:1512.03385; in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 770–78, 2015"
+		},
+		{
+			"title": "Sergey Ioffe, Christian Szegedy, Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+			"url": "https://proceedings.mlr.press/v37/ioffe15.html",
+			"note": "Proceedings of the 32nd International Conference on Machine Learning, PMLR 37, 2015"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Residual neural network",
+			"url": "https://en.wikipedia.org/w/index.php?title=Residual_neural_network&oldid=1376425875",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Batch normalization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Batch_normalization&oldid=1375137441",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "article",
+			"title": "Deep Residual Learning for Image Recognition",
+			"url": "https://arxiv.org/abs/1512.03385",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "He",
+					"given": "Kaiming"
+				},
+				{
+					"family": "Zhang",
+					"given": "Xiangyu"
+				},
+				{
+					"family": "Ren",
+					"given": "Shaoqing"
+				},
+				{
+					"family": "Sun",
+					"given": "Jian"
+				}
+			],
+			"container": "arXiv:1512.03385; in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 770–78",
+			"published": "2015-12-10"
+		},
+		{
+			"kind": "article",
+			"title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+			"url": "https://proceedings.mlr.press/v37/ioffe15.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Ioffe",
+					"given": "Sergey"
+				},
+				{
+					"family": "Szegedy",
+					"given": "Christian"
+				}
+			],
+			"container": "Proceedings of the 32nd International Conference on Machine Learning, PMLR 37",
+			"pages": "448–56",
+			"published": "2015"
+		}
+	]
+}

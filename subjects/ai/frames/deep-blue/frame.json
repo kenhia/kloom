@@ -1,0 +1,140 @@
+{
+	"id": "deep-blue",
+	"position": {
+		"label": "1997",
+		"sort": 1997
+	},
+	"scene": {
+		"headline": "A machine beat the",
+		"accent": "CHAMPION.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW YORK · IBM · FENG-HSIUNG HSU · MURRAY CAMPBELL",
+			"GARRY KASPAROV · SIX GAMES · MAY 1997",
+			"480 CHESS CHIPS · ALPHA–BETA SEARCH"
+		],
+		"counter": {
+			"value": "3½–2½",
+			"label": "Deep Blue v Kasparov, 1997"
+		}
+	},
+	"sources": [
+		{
+			"title": "Deep Blue (chess computer) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+		},
+		{
+			"title": "Deep Blue versus Garry Kasparov — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov"
+		},
+		{
+			"title": "Murray Campbell, A. Joseph Hoane, Feng-hsiung Hsu, Deep Blue",
+			"url": "https://doi.org/10.1016/S0004-3702(01)00129-1",
+			"note": "Artificial Intelligence, 2002"
+		},
+		{
+			"title": "IBM, Deep Blue",
+			"url": "https://www.ibm.com/history/deep-blue",
+			"note": "IBM Heritage"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Deep Blue (chess computer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deep_Blue_(chess_computer)&oldid=1375427728",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Deep Blue versus Garry Kasparov",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deep_Blue_versus_Garry_Kasparov&oldid=1376091868",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "article",
+			"title": "Deep Blue",
+			"url": "https://doi.org/10.1016/S0004-3702(01)00129-1",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Campbell",
+					"given": "Murray"
+				},
+				{
+					"family": "Hoane",
+					"given": "A. Joseph"
+				},
+				{
+					"family": "Hsu",
+					"given": "Feng-hsiung"
+				}
+			],
+			"container": "Artificial Intelligence",
+			"volume": "134",
+			"issue": "1–2",
+			"pages": "57–83",
+			"published": "2002"
+		},
+		{
+			"kind": "web",
+			"title": "Deep Blue",
+			"url": "https://www.ibm.com/history/deep-blue",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "IBM"
+				}
+			],
+			"container": "IBM Heritage",
+			"publisher": "IBM"
+		},
+		{
+			"kind": "media",
+			"title": "IBM Deep Blue at the Computer History Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:IBM_Deep_Blue_at_Computer_History_Museum_(9361685537).jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anton Chiang"
+				}
+			],
+			"published": "2011-05-07",
+			"container": "Photograph, Computer History Museum; via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "deep-blue-rack.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "One of Deep Blue's chess chips, on a Computer History Museum display panel",
+			"url": "https://commons.wikimedia.org/wiki/File:One_of_Deep_Blue%27s_processors_(2586060990).jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Erik Pitti"
+				}
+			],
+			"published": "2008-06-12",
+			"container": "Photograph, Computer History Museum; via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "chess-chip.jpg"
+		}
+	]
+}

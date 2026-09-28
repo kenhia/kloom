@@ -1,0 +1,251 @@
+{
+	"id": "alexnet",
+	"position": {
+		"label": "2012",
+		"sort": 2012
+	},
+	"scene": {
+		"headline": "Deep learning",
+		"accent": "WON.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TORONTO · KRIZHEVSKY · SUTSKEVER · HINTON",
+			"TWO GTX 580 GPUS · RELU · DROPOUT · 60 MILLION PARAMETERS"
+		],
+		"counter": {
+			"value": "15.3%",
+			"label": "top-5 error; the runner-up had 26.2%"
+		}
+	},
+	"sources": [
+		{
+			"title": "AlexNet — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/AlexNet"
+		},
+		{
+			"title": "ImageNet — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/ImageNet"
+		},
+		{
+			"title": "Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton, ImageNet Classification with Deep Convolutional Neural Networks",
+			"url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+			"note": "Advances in Neural Information Processing Systems 25, 2012"
+		},
+		{
+			"title": "Olga Russakovsky, Jia Deng, Hao Su et al., ImageNet Large Scale Visual Recognition Challenge",
+			"url": "https://doi.org/10.1007/s11263-015-0816-y",
+			"note": "International Journal of Computer Vision, 2015"
+		},
+		{
+			"title": "Kaiming He, Xiangyu Zhang, Shaoqing Ren et al., Deep Residual Learning for Image Recognition",
+			"url": "https://arxiv.org/abs/1512.03385",
+			"note": "arXiv:1512.03385; in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 770–78, 2015"
+		},
+		{
+			"title": "ImageNet, ILSVRC2016 Results",
+			"url": "https://image-net.org/challenges/LSVRC/2016/results.php",
+			"note": "ImageNet Large Scale Visual Recognition Challenge 2016, 2016"
+		},
+		{
+			"title": "ImageNet, ILSVRC2017 Results",
+			"url": "https://image-net.org/challenges/LSVRC/2017/results.php",
+			"note": "ImageNet Large Scale Visual Recognition Challenge 2017, 2017"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "AlexNet",
+			"url": "https://en.wikipedia.org/w/index.php?title=AlexNet&oldid=1375206767",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ImageNet",
+			"url": "https://en.wikipedia.org/w/index.php?title=ImageNet&oldid=1376581005",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "article",
+			"title": "ImageNet Classification with Deep Convolutional Neural Networks",
+			"url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Krizhevsky",
+					"given": "Alex"
+				},
+				{
+					"family": "Sutskever",
+					"given": "Ilya"
+				},
+				{
+					"family": "Hinton",
+					"given": "Geoffrey E."
+				}
+			],
+			"container": "Advances in Neural Information Processing Systems 25",
+			"published": "2012"
+		},
+		{
+			"kind": "article",
+			"title": "ImageNet Large Scale Visual Recognition Challenge",
+			"url": "https://doi.org/10.1007/s11263-015-0816-y",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Russakovsky",
+					"given": "Olga"
+				},
+				{
+					"family": "Deng",
+					"given": "Jia"
+				},
+				{
+					"family": "Su",
+					"given": "Hao"
+				},
+				{
+					"family": "Krause",
+					"given": "Jonathan"
+				},
+				{
+					"family": "Satheesh",
+					"given": "Sanjeev"
+				},
+				{
+					"family": "Ma",
+					"given": "Sean"
+				},
+				{
+					"family": "Huang",
+					"given": "Zhiheng"
+				},
+				{
+					"family": "Karpathy",
+					"given": "Andrej"
+				},
+				{
+					"family": "Khosla",
+					"given": "Aditya"
+				},
+				{
+					"family": "Bernstein",
+					"given": "Michael"
+				},
+				{
+					"family": "Berg",
+					"given": "Alexander C."
+				},
+				{
+					"family": "Fei-Fei",
+					"given": "Li"
+				}
+			],
+			"container": "International Journal of Computer Vision",
+			"volume": "115",
+			"issue": "3",
+			"pages": "211–52",
+			"published": "2015"
+		},
+		{
+			"kind": "article",
+			"title": "Deep Residual Learning for Image Recognition",
+			"url": "https://arxiv.org/abs/1512.03385",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "He",
+					"given": "Kaiming"
+				},
+				{
+					"family": "Zhang",
+					"given": "Xiangyu"
+				},
+				{
+					"family": "Ren",
+					"given": "Shaoqing"
+				},
+				{
+					"family": "Sun",
+					"given": "Jian"
+				}
+			],
+			"container": "arXiv:1512.03385; in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 770–78",
+			"published": "2015-12-10"
+		},
+		{
+			"kind": "web",
+			"title": "ILSVRC2016 Results",
+			"url": "https://image-net.org/challenges/LSVRC/2016/results.php",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "ImageNet"
+				}
+			],
+			"container": "ImageNet Large Scale Visual Recognition Challenge 2016",
+			"published": "2016"
+		},
+		{
+			"kind": "web",
+			"title": "ILSVRC2017 Results",
+			"url": "https://image-net.org/challenges/LSVRC/2017/results.php",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "ImageNet"
+				}
+			],
+			"container": "ImageNet Large Scale Visual Recognition Challenge 2017",
+			"published": "2017"
+		},
+		{
+			"kind": "media",
+			"title": "Nvidia GeForce GTX 580 (GF110), disassembled",
+			"url": "https://commons.wikimedia.org/wiki/File:NVIDIA@40nm@Fermi@GF110@GeForce_GTX_580@UA10B338_1041A1_N2Y540.000_GF110-375-A1_DSC04152_(27576804994).jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Fritzchens Fritz"
+				}
+			],
+			"published": "2016-07-09",
+			"container": "Photograph; via Flickr and Wikimedia Commons",
+			"licence": "CC0",
+			"file": "gtx-580.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "ILSVRC image classification: the winning top-5 error, 2010–2017",
+			"url": "https://doi.org/10.1007/s11263-015-0816-y",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Russakovsky et al. (2015), tables 5–7, He et al. (2015), and the ILSVRC 2016 and 2017 results pages",
+			"licence": "MIT",
+			"file": "ilsvrc-top5.svg"
+		}
+	]
+}

@@ -1,0 +1,407 @@
+{
+	"id": "alphago",
+	"position": {
+		"label": "Deep reinforcement learning"
+	},
+	"scene": {
+		"headline": "We lost at",
+		"accent": "GO.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DEEPMIND · ATARI 2013–15 · SEOUL, MARCH 2016",
+			"ALPHAGO v LEE SEDOL · MOVE 37 · MOVE 78"
+		],
+		"counter": {
+			"value": "4–1",
+			"label": "AlphaGo v Lee Sedol, March 2016"
+		}
+	},
+	"sources": [
+		{
+			"title": "AlphaGo versus Lee Sedol — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol"
+		},
+		{
+			"title": "AlphaGo — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/AlphaGo"
+		},
+		{
+			"title": "Deep reinforcement learning — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Deep_reinforcement_learning"
+		},
+		{
+			"title": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver et al., Playing Atari with Deep Reinforcement Learning",
+			"url": "https://arxiv.org/abs/1312.5602",
+			"note": "arXiv:1312.5602, 2013"
+		},
+		{
+			"title": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver et al., Human-Level Control through Deep Reinforcement Learning",
+			"url": "https://doi.org/10.1038/nature14236",
+			"note": "Nature, 2015"
+		},
+		{
+			"title": "David Silver, Aja Huang, Chris J. Maddison et al., Mastering the Game of Go with Deep Neural Networks and Tree Search",
+			"url": "https://doi.org/10.1038/nature16961",
+			"note": "Nature, 2016"
+		},
+		{
+			"title": "Google DeepMind, AlphaGo",
+			"url": "https://deepmind.google/research/alphago/",
+			"note": "Google DeepMind"
+		},
+		{
+			"title": "Ashish Vaswani, Noam Shazeer, Niki Parmar et al., Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"note": "arXiv:1706.03762, 2017"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "AlphaGo versus Lee Sedol",
+			"url": "https://en.wikipedia.org/w/index.php?title=AlphaGo_versus_Lee_Sedol&oldid=1373768070",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AlphaGo",
+			"url": "https://en.wikipedia.org/w/index.php?title=AlphaGo&oldid=1371513984",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Deep reinforcement learning",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deep_reinforcement_learning&oldid=1376156347",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "article",
+			"title": "Playing Atari with Deep Reinforcement Learning",
+			"url": "https://arxiv.org/abs/1312.5602",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Mnih",
+					"given": "Volodymyr"
+				},
+				{
+					"family": "Kavukcuoglu",
+					"given": "Koray"
+				},
+				{
+					"family": "Silver",
+					"given": "David"
+				},
+				{
+					"family": "Graves",
+					"given": "Alex"
+				},
+				{
+					"family": "Antonoglou",
+					"given": "Ioannis"
+				},
+				{
+					"family": "Wierstra",
+					"given": "Daan"
+				},
+				{
+					"family": "Riedmiller",
+					"given": "Martin"
+				}
+			],
+			"container": "arXiv:1312.5602",
+			"published": "2013-12-19"
+		},
+		{
+			"kind": "article",
+			"title": "Human-Level Control through Deep Reinforcement Learning",
+			"url": "https://doi.org/10.1038/nature14236",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Mnih",
+					"given": "Volodymyr"
+				},
+				{
+					"family": "Kavukcuoglu",
+					"given": "Koray"
+				},
+				{
+					"family": "Silver",
+					"given": "David"
+				},
+				{
+					"family": "Rusu",
+					"given": "Andrei A."
+				},
+				{
+					"family": "Veness",
+					"given": "Joel"
+				},
+				{
+					"family": "Bellemare",
+					"given": "Marc G."
+				},
+				{
+					"family": "Graves",
+					"given": "Alex"
+				},
+				{
+					"family": "Riedmiller",
+					"given": "Martin"
+				},
+				{
+					"family": "Fidjeland",
+					"given": "Andreas K."
+				},
+				{
+					"family": "Ostrovski",
+					"given": "Georg"
+				},
+				{
+					"family": "Petersen",
+					"given": "Stig"
+				},
+				{
+					"family": "Beattie",
+					"given": "Charles"
+				},
+				{
+					"family": "Sadik",
+					"given": "Amir"
+				},
+				{
+					"family": "Antonoglou",
+					"given": "Ioannis"
+				},
+				{
+					"family": "King",
+					"given": "Helen"
+				},
+				{
+					"family": "Kumaran",
+					"given": "Dharshan"
+				},
+				{
+					"family": "Wierstra",
+					"given": "Daan"
+				},
+				{
+					"family": "Legg",
+					"given": "Shane"
+				},
+				{
+					"family": "Hassabis",
+					"given": "Demis"
+				}
+			],
+			"container": "Nature",
+			"volume": "518",
+			"issue": "7540",
+			"pages": "529–33",
+			"published": "2015"
+		},
+		{
+			"kind": "article",
+			"title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+			"url": "https://doi.org/10.1038/nature16961",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Silver",
+					"given": "David"
+				},
+				{
+					"family": "Huang",
+					"given": "Aja"
+				},
+				{
+					"family": "Maddison",
+					"given": "Chris J."
+				},
+				{
+					"family": "Guez",
+					"given": "Arthur"
+				},
+				{
+					"family": "Sifre",
+					"given": "Laurent"
+				},
+				{
+					"family": "van den Driessche",
+					"given": "George"
+				},
+				{
+					"family": "Schrittwieser",
+					"given": "Julian"
+				},
+				{
+					"family": "Antonoglou",
+					"given": "Ioannis"
+				},
+				{
+					"family": "Panneershelvam",
+					"given": "Veda"
+				},
+				{
+					"family": "Lanctot",
+					"given": "Marc"
+				},
+				{
+					"family": "Dieleman",
+					"given": "Sander"
+				},
+				{
+					"family": "Grewe",
+					"given": "Dominik"
+				},
+				{
+					"family": "Nham",
+					"given": "John"
+				},
+				{
+					"family": "Kalchbrenner",
+					"given": "Nal"
+				},
+				{
+					"family": "Sutskever",
+					"given": "Ilya"
+				},
+				{
+					"family": "Lillicrap",
+					"given": "Timothy"
+				},
+				{
+					"family": "Leach",
+					"given": "Madeleine"
+				},
+				{
+					"family": "Kavukcuoglu",
+					"given": "Koray"
+				},
+				{
+					"family": "Graepel",
+					"given": "Thore"
+				},
+				{
+					"family": "Hassabis",
+					"given": "Demis"
+				}
+			],
+			"container": "Nature",
+			"volume": "529",
+			"issue": "7587",
+			"pages": "484–89",
+			"published": "2016"
+		},
+		{
+			"kind": "web",
+			"title": "AlphaGo",
+			"url": "https://deepmind.google/research/alphago/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Google DeepMind"
+				}
+			],
+			"container": "Google DeepMind"
+		},
+		{
+			"kind": "article",
+			"title": "Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Vaswani",
+					"given": "Ashish"
+				},
+				{
+					"family": "Shazeer",
+					"given": "Noam"
+				},
+				{
+					"family": "Parmar",
+					"given": "Niki"
+				},
+				{
+					"family": "Uszkoreit",
+					"given": "Jakob"
+				},
+				{
+					"family": "Jones",
+					"given": "Llion"
+				},
+				{
+					"family": "Gomez",
+					"given": "Aidan N."
+				},
+				{
+					"family": "Kaiser",
+					"given": "Łukasz"
+				},
+				{
+					"family": "Polosukhin",
+					"given": "Illia"
+				}
+			],
+			"container": "arXiv:1706.03762",
+			"published": "2017-06-12"
+		},
+		{
+			"kind": "media",
+			"title": "Lee Sedol (W) vs AlphaGo (B), game 2: the full game record",
+			"url": "https://commons.wikimedia.org/wiki/File:Lee_Sedol_(W)_vs_AlphaGo_(B)_-_Game_2.svg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wesalius"
+				}
+			],
+			"published": "2018-09-06",
+			"container": "Go diagram, rendered from SVG; via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "game-2.png"
+		},
+		{
+			"kind": "media",
+			"title": "Lee Sedol's move 78 in game 4 against AlphaGo",
+			"url": "https://commons.wikimedia.org/wiki/File:Lee-sedol-alphago-divine-move.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Axd"
+				}
+			],
+			"published": "2019-06-14",
+			"container": "Screenshot of the qGo board program, from the match record; via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "move-78.jpg"
+		}
+	]
+}

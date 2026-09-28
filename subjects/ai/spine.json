@@ -50,7 +50,21 @@
 			"labelKind": "date",
 			"frames": [
 				"lenet",
-				"lstm"
+				"lstm",
+				"deep-blue",
+				"imagenet",
+				"alexnet"
+			]
+		},
+		{
+			"id": "deep",
+			"title": "Deep learning",
+			"labelKind": "technology",
+			"frames": [
+				"word2vec",
+				"gans",
+				"resnet",
+				"alphago"
 			]
 		},
 		{
