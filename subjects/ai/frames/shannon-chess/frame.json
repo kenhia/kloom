@@ -15,31 +15,12 @@
 			"label": "variations from the first move"
 		}
 	},
-	"sources": [
-		{
-			"title": "Claude E. Shannon, Programming a Computer for Playing Chess",
-			"url": "https://doi.org/10.1080/14786445008521796",
-			"note": "Philosophical Magazine, ser. 7, 1950"
-		},
-		{
-			"title": "Shannon number — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Shannon_number"
-		},
-		{
-			"title": "Turochamp — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Turochamp"
-		},
-		{
-			"title": "David Silver, Thomas Hubert et al., Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
-			"url": "https://arxiv.org/abs/1712.01815",
-			"note": "arXiv, 2017"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Programming a Computer for Playing Chess",
-			"url": "https://doi.org/10.1080/14786445008521796",
+			"doi": "10.1080/14786445008521796",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -55,6 +36,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Shannon number",
 			"url": "https://en.wikipedia.org/w/index.php?title=Shannon_number&oldid=1373831044",
 			"accessed": "2026-09-27",
@@ -69,6 +51,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Turochamp",
 			"url": "https://en.wikipedia.org/w/index.php?title=Turochamp&oldid=1374470728",
 			"accessed": "2026-09-27",
@@ -83,6 +66,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
 			"url": "https://arxiv.org/abs/1712.01815",
 			"accessed": "2026-09-27",

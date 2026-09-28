@@ -19,47 +19,10 @@
 			"label": "errors on handwritten digits, 2006"
 		}
 	},
-	"sources": [
-		{
-			"title": "Deep belief network — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Deep_belief_network"
-		},
-		{
-			"title": "Geoffrey Hinton — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton"
-		},
-		{
-			"title": "Deep learning — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Deep_learning"
-		},
-		{
-			"title": "Canadian Institute for Advanced Research — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Canadian_Institute_for_Advanced_Research"
-		},
-		{
-			"title": "Geoffrey E. Hinton, Simon Osindero, Yee-Whye Teh, A Fast Learning Algorithm for Deep Belief Nets",
-			"url": "https://doi.org/10.1162/neco.2006.18.7.1527",
-			"note": "Neural Computation"
-		},
-		{
-			"title": "G. E. Hinton, R. R. Salakhutdinov, Reducing the Dimensionality of Data with Neural Networks",
-			"url": "https://doi.org/10.1126/science.1127647",
-			"note": "Science"
-		},
-		{
-			"title": "Kathleen Sandusky, Long-Time CIFAR Fellow Geoffrey Hinton Awarded 2024 Nobel Prize in Physics",
-			"url": "https://cifar.ca/cifarnews/2024/10/08/long-time-cifar-fellow-geoffrey-hinton-awarded-2024-nobel-prize-in-physics/",
-			"note": "CIFAR"
-		},
-		{
-			"title": "The Nobel Committee for Physics, Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
-			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
-			"note": "The Royal Swedish Academy of Sciences"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Deep belief network",
 			"url": "https://en.wikipedia.org/w/index.php?title=Deep_belief_network&oldid=1342493920",
 			"accessed": "2026-09-27",
@@ -74,6 +37,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Geoffrey Hinton",
 			"url": "https://en.wikipedia.org/w/index.php?title=Geoffrey_Hinton&oldid=1376212023",
 			"accessed": "2026-09-27",
@@ -88,6 +52,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Deep learning",
 			"url": "https://en.wikipedia.org/w/index.php?title=Deep_learning&oldid=1373512453",
 			"accessed": "2026-09-27",
@@ -102,6 +67,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Canadian Institute for Advanced Research",
 			"url": "https://en.wikipedia.org/w/index.php?title=Canadian_Institute_for_Advanced_Research&oldid=1370720026",
 			"accessed": "2026-09-27",
@@ -116,8 +82,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "A Fast Learning Algorithm for Deep Belief Nets",
-			"url": "https://doi.org/10.1162/neco.2006.18.7.1527",
+			"doi": "10.1162/neco.2006.18.7.1527",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -141,8 +108,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Reducing the Dimensionality of Data with Neural Networks",
-			"url": "https://doi.org/10.1126/science.1127647",
+			"doi": "10.1126/science.1127647",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -162,6 +130,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Long-Time CIFAR Fellow Geoffrey Hinton Awarded 2024 Nobel Prize in Physics",
 			"url": "https://cifar.ca/cifarnews/2024/10/08/long-time-cifar-fellow-geoffrey-hinton-awarded-2024-nobel-prize-in-physics/",
 			"accessed": "2026-09-27",
@@ -176,7 +145,8 @@
 			"published": "2024-10-08"
 		},
 		{
-			"kind": "web",
+			"kind": "report",
+			"key": true,
 			"title": "Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
 			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
 			"accessed": "2026-09-27",
@@ -185,14 +155,14 @@
 					"name": "The Nobel Committee for Physics"
 				}
 			],
-			"container": "NobelPrize.org",
 			"publisher": "The Royal Swedish Academy of Sciences",
-			"published": "2024-10-08"
+			"published": "2024-10-08",
+			"place": "Stockholm"
 		},
 		{
 			"kind": "media",
 			"title": "MNIST test error of learning methods with no knowledge of image geometry built in",
-			"url": "https://doi.org/10.1162/neco.2006.18.7.1527",
+			"doi": "10.1162/neco.2006.18.7.1527",
 			"accessed": "2026-09-27",
 			"authors": [
 				{

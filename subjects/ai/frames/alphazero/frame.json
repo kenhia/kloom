@@ -15,43 +15,10 @@
 			"label": "wins to losses against Stockfish, 1,000 games"
 		}
 	},
-	"sources": [
-		{
-			"title": "David Silver, Thomas Hubert et al., Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
-			"url": "https://arxiv.org/abs/1712.01815",
-			"note": "arXiv, 2017"
-		},
-		{
-			"title": "David Silver, Thomas Hubert et al., A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go through Self-Play",
-			"url": "https://doi.org/10.1126/science.aar6404",
-			"note": "Science, 2018"
-		},
-		{
-			"title": "AlphaZero: Shedding New Light on Chess, Shogi, and Go",
-			"url": "https://deepmind.google/discover/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/",
-			"note": "Google DeepMind, 2018"
-		},
-		{
-			"title": "AlphaZero — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/AlphaZero"
-		},
-		{
-			"title": "AlphaGo versus Lee Sedol — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol"
-		},
-		{
-			"title": "Julian Schrittwieser, Ioannis Antonoglou et al., Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
-			"url": "https://doi.org/10.1038/s41586-020-03051-4",
-			"note": "Nature, 2020"
-		},
-		{
-			"title": "MuZero — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/MuZero"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
 			"url": "https://arxiv.org/abs/1712.01815",
 			"accessed": "2026-09-27",
@@ -114,8 +81,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go through Self-Play",
-			"url": "https://doi.org/10.1126/science.aar6404",
+			"doi": "10.1126/science.aar6404",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -179,6 +147,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "AlphaZero: Shedding New Light on Chess, Shogi, and Go",
 			"url": "https://deepmind.google/discover/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/",
 			"accessed": "2026-09-27",
@@ -205,6 +174,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "AlphaZero",
 			"url": "https://en.wikipedia.org/w/index.php?title=AlphaZero&oldid=1368921653",
 			"accessed": "2026-09-27",
@@ -219,6 +189,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "AlphaGo versus Lee Sedol",
 			"url": "https://en.wikipedia.org/w/index.php?title=AlphaGo_versus_Lee_Sedol&oldid=1373768070",
 			"accessed": "2026-09-27",
@@ -233,8 +204,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
-			"url": "https://doi.org/10.1038/s41586-020-03051-4",
+			"doi": "10.1038/s41586-020-03051-4",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -294,6 +266,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "MuZero",
 			"url": "https://en.wikipedia.org/w/index.php?title=MuZero&oldid=1360320594",
 			"accessed": "2026-09-27",

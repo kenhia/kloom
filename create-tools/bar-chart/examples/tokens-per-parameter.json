@@ -2,7 +2,6 @@
 	"title": "Training tokens per parameter in four language models, 2020–2023",
 	"description": "Bar chart on a logarithmic scale. GPT-3 (175 billion parameters, 300 billion tokens): about 1.7 tokens per parameter. Gopher (280 billion, 300 billion): about 1.1. Chinchilla (70 billion, 1.4 trillion): 20. LLaMA 7B (6.7 billion, 1 trillion): about 150. Data: Hoffmann et al. 2022, table 1; Touvron et al. 2023, table 2.",
 	"heading": "TRAINING TOKENS PER PARAMETER · LOG SCALE",
-	"colours": { "background": "#f7f6f2", "ink": "#1b1a24", "muted": "#625f70", "accent": "#5236c9" },
 	"scale": "log",
 	"axis": {
 		"min": 0.5,

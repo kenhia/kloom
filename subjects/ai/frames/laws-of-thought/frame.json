@@ -15,41 +15,10 @@
 			"label": "numbers that obey x² = x: 0 and 1"
 		}
 	},
-	"sources": [
-		{
-			"title": "The Laws of Thought — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/The_Laws_of_Thought"
-		},
-		{
-			"title": "George Boole — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/George_Boole"
-		},
-		{
-			"title": "Claude Shannon — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Claude_Shannon"
-		},
-		{
-			"title": "A Symbolic Analysis of Relay and Switching Circuits — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits"
-		},
-		{
-			"title": "Switching circuit theory — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Switching_circuit_theory"
-		},
-		{
-			"title": "George Boole, An Investigation of the Laws of Thought, on Which Are Founded the Mathematical Theories of Logic and Probabilities",
-			"url": "https://www.gutenberg.org/ebooks/15114",
-			"note": "Walton and Maberly, 1854"
-		},
-		{
-			"title": "Claude E. Shannon, A Symbolic Analysis of Relay and Switching Circuits",
-			"url": "https://doi.org/10.1109/T-AIEE.1938.5057767",
-			"note": "Transactions of the American Institute of Electrical Engineers, 1938-12"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "The Laws of Thought",
 			"url": "https://en.wikipedia.org/w/index.php?title=The_Laws_of_Thought&oldid=1363083743",
 			"accessed": "2026-09-27",
@@ -64,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "George Boole",
 			"url": "https://en.wikipedia.org/w/index.php?title=George_Boole&oldid=1374150021",
 			"accessed": "2026-09-27",
@@ -78,6 +48,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Claude Shannon",
 			"url": "https://en.wikipedia.org/w/index.php?title=Claude_Shannon&oldid=1376657034",
 			"accessed": "2026-09-27",
@@ -92,6 +63,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "A Symbolic Analysis of Relay and Switching Circuits",
 			"url": "https://en.wikipedia.org/w/index.php?title=A_Symbolic_Analysis_of_Relay_and_Switching_Circuits&oldid=1352077364",
 			"accessed": "2026-09-27",
@@ -106,6 +78,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Switching circuit theory",
 			"url": "https://en.wikipedia.org/w/index.php?title=Switching_circuit_theory&oldid=1359255852",
 			"accessed": "2026-09-27",
@@ -120,6 +93,7 @@
 		},
 		{
 			"kind": "book",
+			"key": true,
 			"title": "An Investigation of the Laws of Thought, on Which Are Founded the Mathematical Theories of Logic and Probabilities",
 			"url": "https://www.gutenberg.org/ebooks/15114",
 			"accessed": "2026-09-27",
@@ -135,8 +109,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "A Symbolic Analysis of Relay and Switching Circuits",
-			"url": "https://doi.org/10.1109/T-AIEE.1938.5057767",
+			"doi": "10.1109/T-AIEE.1938.5057767",
 			"accessed": "2026-09-27",
 			"authors": [
 				{

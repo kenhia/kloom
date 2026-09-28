@@ -4,6 +4,15 @@ import { buildSubject, loadSubject, SubjectError } from './load';
 import type { RawSubject } from './validate';
 import { validate } from './validate';
 
+// Every frame's one key source.
+const source = {
+	kind: 'web',
+	key: true,
+	title: 'A source',
+	url: 'https://example.org/',
+	accessed: '2026-09-26'
+};
+
 // A small subject built in memory, so each test breaks exactly one thing.
 const raw = (): RawSubject => {
 	const frame = (id: string, sort: number, palette = 'night') => ({
@@ -11,7 +20,7 @@ const raw = (): RawSubject => {
 			id,
 			position: { label: String(sort), sort },
 			scene: { headline: 'We did', accent: `${id.toUpperCase()}.`, palette, metadata: [] },
-			sources: [{ title: 'A source', url: 'https://example.org/' }]
+			citations: [{ ...source }]
 		},
 		reading: `Reading for ${id}.`,
 		svgs: {},
@@ -72,18 +81,32 @@ describe('validate', () => {
 		expect(validate(r)).toEqual(['frames/b: accent "A" is already frames/a\'s']);
 	});
 
-	it('fails a frame with no sources', () => {
+	it('fails a frame that flags no key source', () => {
 		const r = raw();
-		(r.frames.b.frame as Loose).sources = [];
+		delete (r.frames.b.frame as Loose).citations[0].key;
+		(r.frames.c.frame as Loose).citations = [];
 		expect(validate(r)).toEqual([
-			'frames/b: sources are required — every frame carries at least one'
+			'frames/b: every frame flags at least one key-source citation ("key": true)',
+			'frames/c: every frame flags at least one key-source citation ("key": true)'
 		]);
 	});
 
-	it('fails a frame whose sources key is missing', () => {
+	it('fails a frame with no citations, or a hand-kept sources list', () => {
 		const r = raw();
-		delete (r.frames.b.frame as Loose).sources;
-		expect(validate(r).join('\n')).toMatch(/frames\/b: sources are required/);
+		delete (r.frames.b.frame as Loose).citations;
+		(r.frames.c.frame as Loose).sources = [{ title: 'A source', url: 'https://example.org/' }];
+		expect(validate(r)).toEqual([
+			'frames/b: citations are required, as a list',
+			'frames/c: sources is not written any more: flag the key citations with "key": true'
+		]);
+	});
+
+	it("lists the key citations as the frame's sources", () => {
+		const r = raw();
+		(r.frames.a.frame as Loose).citations.push({ ...source, key: false, url: 'https://x.test/' });
+		expect(buildSubject('test', r).frames.a.sources).toEqual([
+			{ title: 'A source', url: 'https://example.org/' }
+		]);
 	});
 
 	it('fails a trail anchored to an unknown frame', () => {
@@ -194,10 +217,10 @@ describe('validate', () => {
 	it('fails a missing reading and a non-http source url', () => {
 		const r = raw();
 		r.frames.a.reading = null;
-		(r.frames.b.frame as Loose).sources[0].url = 'javascript:alert(1)';
+		(r.frames.b.frame as Loose).citations[0].url = 'javascript:alert(1)';
 		expect(validate(r)).toEqual([
 			'frames/a: reading.md is missing or empty',
-			'frames/b: source 0 url must be http(s)'
+			'frames/b citation 0: url must be http(s)'
 		]);
 	});
 
@@ -214,19 +237,17 @@ describe('validate', () => {
 		const r = raw();
 		r.frames.a.reading = 'See ![a map](map.png).';
 		r.frames.a.media = ['map.png'];
-		(r.frames.a.frame as Loose).citations = [pd];
+		(r.frames.a.frame as Loose).citations.push(pd);
 		expect(validate(r)).toEqual([]);
 
-		(r.frames.b.frame as Loose).citations = [
-			{
-				kind: 'wikipedia',
-				title: 'X',
-				url: 'https://en.wikipedia.org/wiki/X',
-				accessed: '2026-09-26'
-			}
-		];
+		(r.frames.b.frame as Loose).citations.push({
+			kind: 'wikipedia',
+			title: 'X',
+			url: 'https://en.wikipedia.org/wiki/X',
+			accessed: '2026-09-26'
+		});
 		expect(validate(r)).toEqual([
-			'frames/b citation 0: a Wikipedia citation needs a permanent revision url (oldid=)'
+			'frames/b citation 1: a Wikipedia citation needs a permanent revision url (oldid=)'
 		]);
 	});
 
@@ -241,23 +262,37 @@ describe('validate', () => {
 		]);
 	});
 
+	it('fails an SVG image the illustration sanitiser refuses: it is inlined', () => {
+		const r = raw();
+		r.frames.a.reading = '![a chart](chart.svg)';
+		r.frames.a.media = ['chart.svg'];
+		r.frames.a.svgs = { 'chart.svg': '<svg xmlns="http://www.w3.org/2000/svg"><rect/></svg>' };
+		(r.frames.a.frame as Loose).citations.push({ ...pd, file: 'chart.svg', licence: 'MIT' });
+		expect(validate(r)).toEqual([]);
+		r.frames.a.svgs['chart.svg'] = '<svg><script>alert(1)</script><path style="x"/></svg>';
+		expect(validate(r)).toEqual([
+			'frames/a: image "chart.svg": <script> is not allowed in an illustration',
+			'frames/a: image "chart.svg": <path> attribute style is not allowed'
+		]);
+	});
+
 	it('fails a media citation for a file that is not there, or without a licence', () => {
 		const r = raw();
 		r.frames.a.reading = '![a map](map.png)';
 		r.frames.a.media = ['map.png'];
 		const { licence, ...unlicensed } = pd;
 		void licence;
-		(r.frames.a.frame as Loose).citations = [unlicensed, { ...pd, file: 'gone.png' }];
+		(r.frames.a.frame as Loose).citations.push(unlicensed, { ...pd, file: 'gone.png' });
 		expect(validate(r)).toEqual([
-			'frames/a citation 0: a media citation needs a licence',
-			'frames/a citation 1: credits "gone.png", which is not in the directory',
+			'frames/a citation 1: a media citation needs a licence',
+			'frames/a citation 2: credits "gone.png", which is not in the directory',
 			'frames/a: image "map.png" needs a media citation with a licence'
 		]);
 	});
 
 	it('refuses to build an invalid subject, listing every problem', () => {
 		const r = raw();
-		(r.frames.a.frame as Loose).sources = [];
+		(r.frames.a.frame as Loose).citations = [];
 		r.frames.b.reading = '';
 		expect(() => buildSubject('test', r)).toThrow(SubjectError);
 		try {
@@ -290,12 +325,22 @@ describe('the western-civ subject', () => {
 		expect(subject.frames.writing.readingHtml).toContain('<strong>cuneiform</strong>');
 	});
 
-	it('serves reading images from the frame, crediting the chart', () => {
+	it('serves reading images from the frame, and inlines the chart, crediting it', () => {
 		const html = subject.frames['printing-press'].readingHtml;
 		expect(html).toContain('<img src="/media/printing-press/printing-shop-1499.jpg"');
-		// Public domain: no caption. The chart's MIT licence asks for one.
+		// Public domain: no caption. The chart's MIT licence asks for one. The
+		// chart is inlined, named by the reading's alt text, its own ids prefixed.
 		expect(html).toMatch(
-			/<span class="figure"><img src="\/media\/printing-press\/book-output.svg"[^>]*><span class="credit">kloom contributors \/ MIT<\/span>/
+			/<span class="figure chart" role="img" aria-label="[^"]+"><svg [^>]*aria-hidden="true"[^>]*>.*<\/svg><\/span><span class="credit">kloom contributors \/ MIT<\/span>/s
 		);
+		expect(html).toContain('<title id="printing-press-book-output-t">');
+		expect(html).not.toContain('<img src="/media/printing-press/book-output.svg"');
+	});
+
+	it('derives the Sources list from the key citations', () => {
+		expect(subject.frames['printing-press'].sources[0]).toEqual({
+			title: 'Printing press — Wikipedia',
+			url: expect.stringContaining('oldid=')
+		});
 	});
 });

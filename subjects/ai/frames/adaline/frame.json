@@ -15,36 +15,10 @@
 			"label": "memistor weights in the largest MADALINE"
 		}
 	},
-	"sources": [
-		{
-			"title": "ADALINE — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/ADALINE"
-		},
-		{
-			"title": "Bernard Widrow — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Bernard_Widrow"
-		},
-		{
-			"title": "Marcian Hoff — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Marcian_Hoff"
-		},
-		{
-			"title": "Least mean squares filter — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Least_mean_squares_filter"
-		},
-		{
-			"title": "Echo suppression and cancellation — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Echo_suppression_and_cancellation"
-		},
-		{
-			"title": "Bernard Widrow, Michael A. Lehr, 30 Years of Adaptive Neural Networks: Perceptron, Madaline, and Backpropagation",
-			"url": "https://doi.org/10.1109/5.58323",
-			"note": "Proceedings of the IEEE"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "ADALINE",
 			"url": "https://en.wikipedia.org/w/index.php?title=ADALINE&oldid=1315790227",
 			"accessed": "2026-09-27",
@@ -59,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Bernard Widrow",
 			"url": "https://en.wikipedia.org/w/index.php?title=Bernard_Widrow&oldid=1372838042",
 			"accessed": "2026-09-27",
@@ -73,6 +48,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Marcian Hoff",
 			"url": "https://en.wikipedia.org/w/index.php?title=Marcian_Hoff&oldid=1375083194",
 			"accessed": "2026-09-27",
@@ -87,6 +63,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Least mean squares filter",
 			"url": "https://en.wikipedia.org/w/index.php?title=Least_mean_squares_filter&oldid=1367260916",
 			"accessed": "2026-09-27",
@@ -101,6 +78,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Echo suppression and cancellation",
 			"url": "https://en.wikipedia.org/w/index.php?title=Echo_suppression_and_cancellation&oldid=1376891725",
 			"accessed": "2026-09-27",
@@ -115,8 +93,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "30 Years of Adaptive Neural Networks: Perceptron, Madaline, and Backpropagation",
-			"url": "https://doi.org/10.1109/5.58323",
+			"doi": "10.1109/5.58323",
 			"accessed": "2026-09-27",
 			"authors": [
 				{

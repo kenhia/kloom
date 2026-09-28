@@ -18,30 +18,10 @@
 			"label": "images in ImageNet, April 2010"
 		}
 	},
-	"sources": [
-		{
-			"title": "ImageNet — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/ImageNet"
-		},
-		{
-			"title": "Jia Deng, Wei Dong, Richard Socher et al., ImageNet: A Large-Scale Hierarchical Image Database",
-			"url": "https://doi.org/10.1109/CVPR.2009.5206848",
-			"note": "2009 IEEE Conference on Computer Vision and Pattern Recognition, 2009"
-		},
-		{
-			"title": "Olga Russakovsky, Jia Deng, Hao Su et al., ImageNet Large Scale Visual Recognition Challenge",
-			"url": "https://doi.org/10.1007/s11263-015-0816-y",
-			"note": "International Journal of Computer Vision, 2015"
-		},
-		{
-			"title": "Kaiyu Yang, Klint Qinami, Li Fei-Fei et al., Towards Fairer Datasets: Filtering and Balancing the Distribution of the People Subtree in the ImageNet Hierarchy",
-			"url": "https://doi.org/10.1145/3351095.3375709",
-			"note": "Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, 2020"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "ImageNet",
 			"url": "https://en.wikipedia.org/w/index.php?title=ImageNet&oldid=1376581005",
 			"accessed": "2026-09-27",
@@ -55,9 +35,10 @@
 			"published": "2026-09-25"
 		},
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "ImageNet: A Large-Scale Hierarchical Image Database",
-			"url": "https://doi.org/10.1109/CVPR.2009.5206848",
+			"doi": "10.1109/CVPR.2009.5206848",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -91,8 +72,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "ImageNet Large Scale Visual Recognition Challenge",
-			"url": "https://doi.org/10.1007/s11263-015-0816-y",
+			"doi": "10.1007/s11263-015-0816-y",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -151,9 +133,10 @@
 			"published": "2015"
 		},
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Towards Fairer Datasets: Filtering and Balancing the Distribution of the People Subtree in the ImageNet Hierarchy",
-			"url": "https://doi.org/10.1145/3351095.3375709",
+			"doi": "10.1145/3351095.3375709",
 			"accessed": "2026-09-27",
 			"authors": [
 				{

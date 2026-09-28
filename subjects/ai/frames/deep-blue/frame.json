@@ -19,29 +19,10 @@
 			"label": "Deep Blue v Kasparov, 1997"
 		}
 	},
-	"sources": [
-		{
-			"title": "Deep Blue (chess computer) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
-		},
-		{
-			"title": "Deep Blue versus Garry Kasparov — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov"
-		},
-		{
-			"title": "Murray Campbell, A. Joseph Hoane, Feng-hsiung Hsu, Deep Blue",
-			"url": "https://doi.org/10.1016/S0004-3702(01)00129-1",
-			"note": "Artificial Intelligence, 2002"
-		},
-		{
-			"title": "IBM, Deep Blue",
-			"url": "https://www.ibm.com/history/deep-blue",
-			"note": "IBM Heritage"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Deep Blue (chess computer)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Deep_Blue_(chess_computer)&oldid=1375427728",
 			"accessed": "2026-09-27",
@@ -56,6 +37,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Deep Blue versus Garry Kasparov",
 			"url": "https://en.wikipedia.org/w/index.php?title=Deep_Blue_versus_Garry_Kasparov&oldid=1376091868",
 			"accessed": "2026-09-27",
@@ -70,8 +52,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Deep Blue",
-			"url": "https://doi.org/10.1016/S0004-3702(01)00129-1",
+			"doi": "10.1016/S0004-3702(01)00129-1",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -95,6 +78,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Deep Blue",
 			"url": "https://www.ibm.com/history/deep-blue",
 			"accessed": "2026-09-27",

@@ -5,8 +5,20 @@
  * content rewrite.
  */
 
-/** What is being cited. `media` credits an image or chart a frame uses. */
-export const CITATION_KINDS = ['web', 'wikipedia', 'book', 'article', 'media'] as const;
+/**
+ * What is being cited. `chapter` is a chapter or a paper in an edited volume,
+ * a proceedings or a symposium; `report` a technical or institutional report
+ * (sprint 008). `media` credits an image or chart a frame uses.
+ */
+export const CITATION_KINDS = [
+	'web',
+	'wikipedia',
+	'book',
+	'article',
+	'chapter',
+	'report',
+	'media'
+] as const;
 export type CitationKind = (typeof CITATION_KINDS)[number];
 
 /** A person (`family`, optionally `given`) or an organisation (`name`). */
@@ -15,8 +27,20 @@ export type Author = { family: string; given?: string } | { name: string };
 export interface Citation {
 	kind: CitationKind;
 	title: string;
-	/** For Wikipedia, a permanent revision link (`oldid=`): articles change. */
-	url: string;
+	/**
+	 * Where it was read. Required unless there is a `doi`. For Wikipedia, a
+	 * permanent revision link (`oldid=`): articles change.
+	 */
+	url?: string;
+	/** The bare DOI (`10.1109/5.58323`); the entry links it at doi.org. */
+	doi?: string;
+	/**
+	 * A key source: listed under Sources, the frame's short list, as well as
+	 * in the bibliography. Every frame flags at least one (sprint 008).
+	 */
+	key?: boolean;
+	/** A key source's remark in the Sources list: a page, why it matters. */
+	note?: string;
 	/** `YYYY-MM-DD`: when the page was read. */
 	accessed: string;
 	/** Authors, or for media the creator. Wikipedia: "Wikipedia contributors". */
@@ -27,8 +51,15 @@ export interface Citation {
 	 * up to ten, then the first seven).
 	 */
 	etAl?: boolean;
-	/** The site, book series or collection the item sits in. */
+	/**
+	 * The site, journal, book series or collection the item sits in; for a
+	 * chapter, the volume or proceedings it appears in.
+	 */
 	container?: string;
+	/** A chapter's editors, the volume's. */
+	editors?: Author[];
+	/** A report's number: "Technical Report 1234", "AD0236965". */
+	number?: string;
 	publisher?: string;
 	/** Place of publication, for books. */
 	place?: string;
@@ -38,6 +69,8 @@ export interface Citation {
 	pages?: string;
 	/** `YYYY`, `YYYY-MM` or `YYYY-MM-DD`; for Wikipedia, the revision's date. */
 	published?: string;
+	/** The date is approximate: rendered "ca. 1951". Needs `published`. */
+	circa?: boolean;
 	/** Media only: "Public domain", "CC BY-SA 4.0", … */
 	licence?: string;
 	/** Media only: the file this credits, in the frame's directory. */
@@ -67,22 +100,37 @@ const MONTHS = [
 	'December'
 ];
 
+const DOI = /^10\.\d{4,9}\/\S+$/;
 const DATE = /^(\d{4})(?:-(0[1-9]|1[0-2])(?:-(0[1-9]|[12]\d|3[01]))?)?$/;
 
-/** "2026-09-26" → "September 26, 2026"; "1895" stays "1895". */
-export function chicagoDate(iso: string): string {
+/** "2026-09-26" → "September 26, 2026"; "1895" stays "1895"; approximate, "ca. 1895". */
+export function chicagoDate(iso: string, circa = false): string {
 	const m = DATE.exec(iso);
 	if (!m) return iso;
 	const [, y, mo, d] = m;
-	if (!mo) return y;
-	const month = MONTHS[Number(mo) - 1];
-	return d ? `${month} ${Number(d)}, ${y}` : `${month} ${y}`;
+	const month = mo && MONTHS[Number(mo) - 1];
+	const date = !month ? y : d ? `${month} ${Number(d)}, ${y}` : `${month} ${y}`;
+	return circa ? `ca. ${date}` : date;
 }
+
+/** The link an entry carries: the DOI at doi.org when there is one, else the url. */
+export const citationHref = (c: Citation) => (c.doi ? `https://doi.org/${c.doi}` : c.url!);
 
 const inverted = (a: Author) =>
 	'name' in a ? a.name : a.given ? `${a.family}, ${a.given}` : a.family;
-const natural = (a: Author) =>
-	'name' in a ? a.name : a.given ? `${a.given} ${a.family}` : a.family;
+/** Natural order; a suffix written after the given names ("Mark U., Jr.") goes last. */
+function natural(a: Author): string {
+	if ('name' in a) return a.name;
+	if (!a.given) return a.family;
+	const [given, suffix] = a.given.split(/,\s*(?=(?:Jr|Sr)\.?$|[IVX]+$)/);
+	return suffix ? `${given} ${a.family} ${suffix}` : `${a.given} ${a.family}`;
+}
+
+/** "A", "A and B", "A, B, and C". */
+function series(names: string[]): string {
+	if (names.length < 3) return names.join(' and ');
+	return `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
+}
 
 /** Bibliography order: the first author inverted, the rest as written; `etAl` for more unlisted. */
 export function chicagoAuthors(authors: Author[], etAl = false): string {
@@ -117,7 +165,14 @@ function quoted(title: string): string {
  * - book: Author. _Title_. Place: Publisher, Year. Accessed Date. URL.
  * - article: Author. "Title." _Journal_ Volume, no. Issue (Date): Pages.
  *   Accessed Date. URL.
+ * - chapter: Author. "Title." In _Volume_, edited by Editor, Pages. Place:
+ *   Publisher, Year. Accessed Date. URL.
+ * - report: Author. _Title_. Number. Series. Place: Publisher, Date.
+ *   Accessed Date. URL.
  * - media: Creator. _Title_. Date. Collection. Licence. Accessed Date. URL.
+ *
+ * With a `doi`, the URL is the DOI at doi.org. An approximate date reads
+ * "ca. 1951".
  */
 export function chicago(c: Citation): Part[] {
 	const parts: Part[] = [];
@@ -125,21 +180,41 @@ export function chicago(c: Citation): Part[] {
 
 	if (c.authors?.length) add(`${stop(chicagoAuthors(c.authors, c.etAl))} `);
 
-	const italicTitle = c.kind === 'book' || c.kind === 'media';
+	const italicTitle = c.kind === 'book' || c.kind === 'report' || c.kind === 'media';
 	if (italicTitle) {
 		add(c.title, true);
 		add('. ');
 	} else add(`${quoted(c.title)} `);
 
-	const date = c.published ? chicagoDate(c.published) : undefined;
+	const date = c.published ? chicagoDate(c.published, c.circa) : undefined;
+	const imprint = () => {
+		const where = [c.place, c.publisher].filter(Boolean).join(': ');
+		const facts = [where, date].filter(Boolean).join(', ');
+		if (facts) add(`${stop(facts)} `);
+	};
 	switch (c.kind) {
-		case 'book': {
-			const imprint = [c.place, c.publisher].filter(Boolean).join(': ');
-			const facts = [imprint, date].filter(Boolean).join(', ');
+		case 'book':
 			if (c.container) add(`${stop(c.container)} `);
-			if (facts) add(`${stop(facts)} `);
+			imprint();
+			break;
+		case 'chapter': {
+			const rest = [
+				c.editors?.length && `edited by ${series(c.editors.map(natural))}`,
+				c.pages
+			].filter(Boolean);
+			if (c.container) {
+				add('In ');
+				add(c.container, true);
+				add(rest.length ? `, ${stop(rest.join(', '))} ` : '. ');
+			} else if (rest.length) add(`${stop(rest.join(', '))} `);
+			imprint();
 			break;
 		}
+		case 'report':
+			if (c.number) add(`${stop(c.number)} `);
+			if (c.container) add(`${stop(c.container)} `);
+			imprint();
+			break;
 		case 'media':
 			if (date) add(`${stop(date)} `);
 			if (c.container) add(`${stop(c.container)} `);
@@ -167,7 +242,8 @@ export function chicago(c: Citation): Part[] {
 	}
 
 	add(`Accessed ${chicagoDate(c.accessed)}. `);
-	parts.push({ text: c.url, href: c.url });
+	const href = citationHref(c);
+	parts.push({ text: href, href });
 	add('.');
 	return parts;
 }
@@ -190,6 +266,42 @@ export const captionCredit = (c: Citation) =>
 		.filter(Boolean)
 		.join(' / ');
 
+/** One entry of a frame's Sources list: derived from a key citation, never authored. */
+export interface Source {
+	title: string;
+	url: string;
+	note?: string;
+}
+
+/** Authors as the Sources list names them: "A and B", or "A et al." past three. */
+function shortAuthors(c: Citation): string | undefined {
+	const names = (c.authors ?? []).map(natural);
+	if (!names.length || (c.kind === 'wikipedia' && names.length === 1)) return undefined;
+	if (c.etAl || names.length > 3) return `${names[0]} et al.`;
+	return series(names);
+}
+
+/**
+ * A key citation as its Sources entry: "Authors, Title", linked, with where
+ * and when it appeared and the citation's own note. Wikipedia reads
+ * "Title — Wikipedia", as the curated frames always wrote it.
+ */
+export function keySource(c: Citation): Source {
+	const url = citationHref(c);
+	if (c.kind === 'wikipedia') return { title: `${c.title} — Wikipedia`, url };
+	const where =
+		c.kind === 'book' || c.kind === 'report' ? c.publisher : (c.container ?? c.publisher);
+	// An organisation that is also the site says so once: "Introducing X | Anthropic".
+	const who = where && shortAuthors(c) === where ? undefined : shortAuthors(c);
+	const date = c.published && chicagoDate(c.published, c.circa);
+	const facts = [where, date].filter(Boolean).join(', ');
+	const note = [facts, c.note].filter(Boolean).join('. ');
+	return { title: who ? `${who}, ${c.title}` : c.title, url, ...(note ? { note } : {}) };
+}
+
+/** A frame's Sources list: its key citations, in the order they are written. */
+export const keySources = (citations: Citation[]) => citations.filter((c) => c.key).map(keySource);
+
 type Obj = Record<string, unknown>;
 const isObj = (v: unknown): v is Obj => typeof v === 'object' && v !== null && !Array.isArray(v);
 const isText = (v: unknown): v is string => typeof v === 'string' && v.trim() !== '';
@@ -204,8 +316,13 @@ export function citationProblems(c: unknown): string[] {
 	if (!CITATION_KINDS.includes(c.kind as never))
 		out.push(`kind must be one of ${CITATION_KINDS.join(', ')}`);
 	if (!isText(c.title)) out.push('title is required');
-	if (!isText(c.url)) out.push('url is required');
-	else if (!/^https?:\/\//.test(c.url)) out.push('url must be http(s)');
+	if (c.doi !== undefined && !(isText(c.doi) && DOI.test(c.doi)))
+		out.push('doi must be a bare DOI, like 10.1109/5.58323');
+	if (c.url === undefined) {
+		if (c.doi === undefined) out.push('url is required, unless there is a doi');
+	} else if (!isText(c.url) || !/^https?:\/\//.test(c.url)) out.push('url must be http(s)');
+	else if (/^https?:\/\/(dx\.)?doi\.org\//i.test(c.url))
+		out.push('a doi.org url goes in doi, as the bare DOI');
 	else if (
 		(c.kind === 'wikipedia' || /^https?:\/\/[^/]*\bwikipedia\.org\//.test(c.url)) &&
 		!/[?&]oldid=\d+/.test(c.url)
@@ -215,12 +332,27 @@ export function citationProblems(c: unknown): string[] {
 		out.push('accessed date is required, as YYYY-MM-DD');
 	if (c.published !== undefined && !(isText(c.published) && DATE.test(c.published)))
 		out.push('published must be YYYY, YYYY-MM or YYYY-MM-DD');
-	if (c.authors !== undefined && !(Array.isArray(c.authors) && c.authors.every(isAuthor)))
-		out.push('authors must each have a family name or a name');
+	if (c.circa !== undefined && (typeof c.circa !== 'boolean' || c.published === undefined))
+		out.push('circa must be true or false, with a published date');
+	if (c.key !== undefined && typeof c.key !== 'boolean') out.push('key must be true or false');
+	for (const k of ['authors', 'editors'] as const)
+		if (c[k] !== undefined && !(Array.isArray(c[k]) && c[k].every(isAuthor)))
+			out.push(`${k} must each have a family name or a name`);
 	if (c.etAl !== undefined && (typeof c.etAl !== 'boolean' || !Array.isArray(c.authors)))
 		out.push('etAl must be true or false, with at least one author listed');
-	for (const k of ['container', 'publisher', 'place', 'volume', 'issue', 'pages'] as const)
+	for (const k of [
+		'container',
+		'publisher',
+		'place',
+		'volume',
+		'issue',
+		'pages',
+		'number',
+		'note'
+	] as const)
 		if (c[k] !== undefined && !isText(c[k])) out.push(`${k} must be text`);
+	if (c.kind === 'chapter' && !isText(c.container))
+		out.push('a chapter needs its container: the volume or proceedings it appears in');
 	if (c.kind === 'media') {
 		if (!isText(c.licence)) out.push('a media citation needs a licence');
 		if (!isText(c.file)) out.push('a media citation needs the file it credits');

@@ -14,28 +14,10 @@
 			"label": "years of kept fire"
 		}
 	},
-	"sources": [
-		{
-			"title": "Prometheus — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Prometheus"
-		},
-		{
-			"title": "Theogony — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Theogony"
-		},
-		{
-			"title": "Control of fire by early humans — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Control_of_fire_by_early_humans"
-		},
-		{
-			"title": "Hesiod, Theogony",
-			"url": "https://www.theoi.com/Text/HesiodTheogony.html",
-			"note": "Theoi Classical Texts Library"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Prometheus",
 			"url": "https://en.wikipedia.org/w/index.php?title=Prometheus&oldid=1376304740",
 			"accessed": "2026-09-26",
@@ -50,6 +32,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Theogony",
 			"url": "https://en.wikipedia.org/w/index.php?title=Theogony&oldid=1370286501",
 			"accessed": "2026-09-26",
@@ -64,6 +47,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Control of fire by early humans",
 			"url": "https://en.wikipedia.org/w/index.php?title=Control_of_fire_by_early_humans&oldid=1374975705",
 			"accessed": "2026-09-26",
@@ -78,6 +62,7 @@
 		},
 		{
 			"kind": "book",
+			"key": true,
 			"title": "Theogony",
 			"url": "https://www.theoi.com/Text/HesiodTheogony.html",
 			"accessed": "2026-09-26",

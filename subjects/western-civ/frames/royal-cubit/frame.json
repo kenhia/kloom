@@ -15,33 +15,33 @@
 			"label": "royal cubits along each side of the Great Pyramid"
 		}
 	},
-	"sources": [
-		{
-			"title": "Cubit — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Cubit"
-		},
-		{
-			"title": "Great Pyramid of Giza — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Cubit",
 			"url": "https://en.wikipedia.org/w/index.php?title=Cubit&oldid=1368543020",
 			"accessed": "2026-09-27",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-08-09"
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Great Pyramid of Giza",
 			"url": "https://en.wikipedia.org/w/index.php?title=Great_Pyramid_of_Giza&oldid=1376020884",
 			"accessed": "2026-09-27",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-21"

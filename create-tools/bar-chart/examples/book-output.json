@@ -3,7 +3,6 @@
 	"description": "Bar chart. About 12.6 million copies in 1454–1500; 217 million in the 16th century; 532 million in the 17th; 984 million in the 18th. Data: Buringh and van Zanden 2009, table 2.",
 	"heading": "PRINTED BOOKS, WESTERN EUROPE · COPIES PER CENTURY",
 	"unit": "M",
-	"colours": { "background": "#efe6d2", "ink": "#241d14", "muted": "#6c5f4b", "accent": "#b3261e" },
 	"axis": {
 		"max": 1000,
 		"ticks": [

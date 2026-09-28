@@ -18,78 +18,83 @@
 			"label": "printings of Luther's works, 1516–46"
 		}
 	},
-	"sources": [
-		{
-			"title": "Ninety-five Theses — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Ninety-five_Theses"
-		},
-		{
-			"title": "Sermon on Indulgences and Grace — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Sermon_on_Indulgences_and_Grace"
-		},
-		{
-			"title": "Martin Luther — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Martin_Luther"
-		},
-		{
-			"title": "Mark U. Edwards Jr., Printing, Propaganda, and Martin Luther",
-			"url": "https://publishing.cdlib.org/ucpressebooks/view?docId=ft3q2nb278",
-			"note": "University of California Press, 1994; the counts of printings and the 1,000-copy assumption"
-		},
-		{
-			"title": "Andrew Pettegree, Brand Luther: 1517, Printing, and the Making of the Reformation",
-			"url": "https://archive.org/details/brandluther1517p0000pett",
-			"note": "Penguin Press, 2015; Lotter, Cranach and the Wittenberg title page"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Ninety-five Theses",
 			"url": "https://en.wikipedia.org/w/index.php?title=Ninety-five_Theses&oldid=1375384647",
 			"accessed": "2026-09-27",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-17"
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Sermon on Indulgences and Grace",
 			"url": "https://en.wikipedia.org/w/index.php?title=Sermon_on_Indulgences_and_Grace&oldid=1253048512",
 			"accessed": "2026-09-27",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2024-10-24"
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Martin Luther",
 			"url": "https://en.wikipedia.org/w/index.php?title=Martin_Luther&oldid=1375456288",
 			"accessed": "2026-09-27",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-17"
 		},
 		{
 			"kind": "book",
+			"key": true,
 			"title": "Printing, Propaganda, and Martin Luther",
 			"url": "https://publishing.cdlib.org/ucpressebooks/view?docId=ft3q2nb278",
 			"accessed": "2026-09-27",
-			"authors": [{ "family": "Edwards", "given": "Mark U., Jr." }],
+			"authors": [
+				{
+					"family": "Edwards",
+					"given": "Mark U., Jr."
+				}
+			],
 			"publisher": "University of California Press",
-			"published": "1994"
+			"published": "1994",
+			"note": "The counts of printings and the 1,000-copy assumption"
 		},
 		{
 			"kind": "book",
+			"key": true,
 			"title": "Brand Luther: 1517, Printing, and the Making of the Reformation",
 			"url": "https://archive.org/details/brandluther1517p0000pett",
 			"accessed": "2026-09-27",
-			"authors": [{ "family": "Pettegree", "given": "Andrew" }],
+			"authors": [
+				{
+					"family": "Pettegree",
+					"given": "Andrew"
+				}
+			],
 			"publisher": "Penguin Press",
-			"published": "2015"
+			"published": "2015",
+			"note": "Lotter, Cranach and the Wittenberg title page"
 		}
 	]
 }

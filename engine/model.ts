@@ -1,6 +1,6 @@
-import type { Citation } from './citation';
+import type { Citation, Source } from './citation';
 
-export type { Citation } from './citation';
+export type { Citation, Source } from './citation';
 
 /**
  * The content model, engine-level and subject-agnostic (docs/design.md
@@ -42,12 +42,6 @@ export interface Position {
 	sort?: number;
 }
 
-export interface Source {
-	title: string;
-	url?: string;
-	note?: string;
-}
-
 /** The scene half of a frame: what the spine scroller shows. */
 export interface Scene {
 	headline: string;
@@ -67,14 +61,14 @@ export interface FrameFile {
 	id: string;
 	position: Position;
 	scene: Scene;
-	/** Required and non-empty: this is history written with an LLM. */
-	sources: Source[];
 	/**
 	 * Where each piece of information and each image came from, structured and
-	 * rendered in Chicago style under Sources. Every image or chart the reading
-	 * uses needs a `media` entry here.
+	 * rendered in Chicago style under Sources. Required, with at least one
+	 * flagged `key`: this is history written with an LLM, and the key
+	 * citations are the frame's Sources list (sprint 008). Every image or
+	 * chart the reading uses needs a `media` entry here.
 	 */
-	citations?: Citation[];
+	citations: Citation[];
 	/**
 	 * `YYYY-MM` or `YYYY-MM-DD`: when a time-sensitive frame (the current state
 	 * of something) was last true. Shown in the reading pane, and given to ask.
@@ -84,6 +78,8 @@ export interface FrameFile {
 
 /** A frame ready to render: both halves, markdown already turned to HTML. */
 export interface Frame extends FrameFile {
+	/** The Sources list, derived from the key citations. */
+	sources: Source[];
 	readingHtml: string;
 	/** The illustration's markup, inlined so it can draw itself on. */
 	svg: string | null;

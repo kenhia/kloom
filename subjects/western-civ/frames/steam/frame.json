@@ -15,23 +15,10 @@
 			"label": "the coal of a Newcomen engine"
 		}
 	},
-	"sources": [
-		{
-			"title": "Watt steam engine — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Watt_steam_engine"
-		},
-		{
-			"title": "James Watt — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/James_Watt"
-		},
-		{
-			"title": "Newcomen atmospheric engine — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Newcomen_atmospheric_engine"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Watt steam engine",
 			"url": "https://en.wikipedia.org/w/index.php?title=Watt_steam_engine&oldid=1375893458",
 			"accessed": "2026-09-26",
@@ -46,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "James Watt",
 			"url": "https://en.wikipedia.org/w/index.php?title=James_Watt&oldid=1370759179",
 			"accessed": "2026-09-26",
@@ -60,6 +48,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Newcomen atmospheric engine",
 			"url": "https://en.wikipedia.org/w/index.php?title=Newcomen_atmospheric_engine&oldid=1375893238",
 			"accessed": "2026-09-26",

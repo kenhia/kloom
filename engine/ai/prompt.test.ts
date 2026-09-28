@@ -3,12 +3,13 @@ import { askPrompt, citedNumbers, references, webReferences } from './prompt';
 import { context } from './fixture';
 
 describe('the ask prompt', () => {
-	it('numbers citations first, then only the sources no citation covers', () => {
+	it('numbers the citations as written: key sources and the rest alike', () => {
 		const refs = references(context.frame);
-		expect(refs).toHaveLength(3);
-		expect('citation' in refs[0] && refs[0].citation.title).toBe('Press article');
-		expect('citation' in refs[1] && refs[1].citation.title).toBe('Ink');
-		expect('source' in refs[2] && refs[2].source.title).toBe('A book with no link');
+		expect(refs.map((r) => r.citation.title)).toEqual([
+			'Press article',
+			'Ink',
+			'A book with a DOI'
+		]);
 	});
 
 	it('carries where the reader is, the reading, the numbered sources and the question', () => {
@@ -18,7 +19,7 @@ describe('the ask prompt', () => {
 		expect(p).toContain('Frame: We printed WORDS.');
 		expect(p).toContain('Gutenberg built a press.');
 		expect(p).toMatch(/\[1\] .*Press article/);
-		expect(p).toContain('[3] A book with no link');
+		expect(p).toMatch(/\[3\] _?A book with a DOI.* https:\/\/doi\.org\/10\.1000\/xyz\./);
 		expect(p.endsWith('--- Question ---\nWhy?')).toBe(true);
 	});
 

@@ -18,64 +18,10 @@
 			"label": "higher score than human players, without finishing"
 		}
 	},
-	"sources": [
-		{
-			"title": "Jack Clark and Dario Amodei, Faulty Reward Functions in the Wild",
-			"url": "https://openai.com/index/faulty-reward-functions/",
-			"note": "OpenAI, 2016-12-21"
-		},
-		{
-			"title": "Krakovna, Victoria, et al., Specification Gaming: The Flip Side of AI Ingenuity",
-			"url": "https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/",
-			"note": "Google DeepMind, 2020-04-21"
-		},
-		{
-			"title": "Amodei, Dario, et al., Concrete Problems in AI Safety",
-			"url": "https://arxiv.org/abs/1606.06565",
-			"note": "arXiv, 2016-06-21"
-		},
-		{
-			"title": "Sharma, Mrinank, et al., Towards Understanding Sycophancy in Language Models",
-			"url": "https://arxiv.org/abs/2310.13548",
-			"note": "arXiv, 2023-10-20"
-		},
-		{
-			"title": "Sycophancy in GPT-4o: What Happened and What We’re Doing about It",
-			"url": "https://openai.com/index/sycophancy-in-gpt-4o/",
-			"note": "OpenAI, 2025-04-29"
-		},
-		{
-			"title": "Baker, Bowen, et al., Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation",
-			"url": "https://arxiv.org/abs/2503.11926",
-			"note": "arXiv, 2025-03-14"
-		},
-		{
-			"title": "Sydney Von Arx, Lawrence Chan and Beth Barnes, Recent Frontier Models Are Reward Hacking",
-			"url": "https://metr.org/blog/2025-06-05-recent-reward-hacking/",
-			"note": "METR, 2025-06-05"
-		},
-		{
-			"title": "MacDiarmid, Monte, et al., Natural Emergent Misalignment from Reward Hacking in Production RL",
-			"url": "https://arxiv.org/abs/2511.18397",
-			"note": "arXiv, 2025-11-23"
-		},
-		{
-			"title": "The Hugging Face Incident and the Road Ahead",
-			"url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
-			"note": "OpenAI, 2026-08-26"
-		},
-		{
-			"title": "Reward hacking — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Reward_hacking"
-		},
-		{
-			"title": "Sycophancy (artificial intelligence) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Sycophancy_(artificial_intelligence)"
-		}
-	],
 	"citations": [
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Faulty Reward Functions in the Wild",
 			"url": "https://openai.com/index/faulty-reward-functions/",
 			"accessed": "2026-09-27",
@@ -94,6 +40,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Specification Gaming: The Flip Side of AI Ingenuity",
 			"url": "https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/",
 			"accessed": "2026-09-27",
@@ -109,6 +56,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Concrete Problems in AI Safety",
 			"url": "https://arxiv.org/abs/1606.06565",
 			"accessed": "2026-09-27",
@@ -124,6 +72,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Towards Understanding Sycophancy in Language Models",
 			"url": "https://arxiv.org/abs/2310.13548",
 			"accessed": "2026-09-27",
@@ -139,6 +88,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Sycophancy in GPT-4o: What Happened and What We’re Doing about It",
 			"url": "https://openai.com/index/sycophancy-in-gpt-4o/",
 			"accessed": "2026-09-27",
@@ -152,6 +102,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation",
 			"url": "https://arxiv.org/abs/2503.11926",
 			"accessed": "2026-09-27",
@@ -167,6 +118,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Recent Frontier Models Are Reward Hacking",
 			"url": "https://metr.org/blog/2025-06-05-recent-reward-hacking/",
 			"accessed": "2026-09-27",
@@ -189,6 +141,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
 			"url": "https://arxiv.org/abs/2511.18397",
 			"accessed": "2026-09-27",
@@ -204,6 +157,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "The Hugging Face Incident and the Road Ahead",
 			"url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
 			"accessed": "2026-09-27",
@@ -217,6 +171,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Reward hacking",
 			"url": "https://en.wikipedia.org/w/index.php?title=Reward_hacking&oldid=1375793450",
 			"accessed": "2026-09-27",
@@ -231,6 +186,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Sycophancy (artificial intelligence)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Sycophancy_(artificial_intelligence)&oldid=1375745819",
 			"accessed": "2026-09-27",

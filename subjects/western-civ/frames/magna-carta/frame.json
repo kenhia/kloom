@@ -15,20 +15,10 @@
 			"label": "1215 copies survive"
 		}
 	},
-	"sources": [
-		{
-			"title": "Magna Carta — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Magna_Carta"
-		},
-		{
-			"title": "Magna Carta 1214–1225",
-			"url": "https://www.nationalarchives.gov.uk/education/resources/magna-carta/british-library-magna-carta-1215-runnymede/",
-			"note": "The National Archives (UK)"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Magna Carta",
 			"url": "https://en.wikipedia.org/w/index.php?title=Magna_Carta&oldid=1376546703",
 			"accessed": "2026-09-26",
@@ -43,6 +33,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Magna Carta 1214–1225",
 			"url": "https://www.nationalarchives.gov.uk/education/resources/magna-carta/british-library-magna-carta-1215-runnymede/",
 			"accessed": "2026-09-26",

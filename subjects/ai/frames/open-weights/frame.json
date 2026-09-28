@@ -18,160 +18,10 @@
 			"label": "parameters in the largest open-weight model"
 		}
 	},
-	"sources": [
-		{
-			"title": "Stable Diffusion — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Stable_Diffusion"
-		},
-		{
-			"title": "Text-to-image model — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Text-to-image_model"
-		},
-		{
-			"title": "Llama (language model) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Llama_(language_model)"
-		},
-		{
-			"title": "Open-source artificial intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence"
-		},
-		{
-			"title": "Mistral AI — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Mistral_AI"
-		},
-		{
-			"title": "Artificial Intelligence Act — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act"
-		},
-		{
-			"title": "Hugo Touvron et al., LLaMA: Open and Efficient Foundation Language Models",
-			"url": "https://arxiv.org/abs/2302.13971",
-			"note": "arXiv, 2023-02-27"
-		},
-		{
-			"title": "Introducing LLaMA: A Foundational, 65-Billion-Parameter Language Model",
-			"url": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
-			"note": "Meta AI, 2023-02-24"
-		},
-		{
-			"title": "Facebook's Powerful Large Language Model Leaks Online",
-			"url": "https://www.vice.com/en/article/facebooks-powerful-large-language-model-leaks-online-4chan-llama/",
-			"note": "Vice, 2023-03-07"
-		},
-		{
-			"title": "Meta and Microsoft Introduce the Next Generation of Llama",
-			"url": "https://about.fb.com/news/2023/07/llama-2/",
-			"note": "Meta Newsroom, 2023-07-18"
-		},
-		{
-			"title": "Llama 2 Community License Agreement",
-			"url": "https://ai.meta.com/llama/license/",
-			"note": "Meta, 2023-07-18"
-		},
-		{
-			"title": "Open Source AI Is the Path Forward",
-			"url": "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/",
-			"note": "Meta Newsroom, 2024-07-23"
-		},
-		{
-			"title": "Mistral 7B",
-			"url": "https://mistral.ai/news/announcing-mistral-7b",
-			"note": "Mistral AI, 2023-09-27"
-		},
-		{
-			"title": "Gemma: Introducing New State-of-the-Art Open Models",
-			"url": "https://blog.google/technology/developers/gemma-open-models/",
-			"note": "The Keyword, Google, 2024-02-21"
-		},
-		{
-			"title": "DeepSeek-AI, DeepSeek-V3 Technical Report",
-			"url": "https://arxiv.org/abs/2412.19437",
-			"note": "arXiv, 2024-12-27"
-		},
-		{
-			"title": "DeepSeek-R1",
-			"url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-			"note": "Hugging Face, 2025-01"
-		},
-		{
-			"title": "Qwen3: Think Deeper, Act Faster",
-			"url": "https://qwenlm.github.io/blog/qwen3/",
-			"note": "Qwen, 2025-04-29"
-		},
-		{
-			"title": "Kimi Team, Kimi K2: Open Agentic Intelligence",
-			"url": "https://arxiv.org/abs/2507.20534",
-			"note": "arXiv, 2025-07"
-		},
-		{
-			"title": "OpenAI, gpt-oss-120b & gpt-oss-20b Model Card",
-			"url": "https://arxiv.org/abs/2508.10925",
-			"note": "arXiv, 2025-08-08"
-		},
-		{
-			"title": "Personal Superintelligence",
-			"url": "https://www.meta.com/superintelligence/",
-			"note": "Meta, 2025-07-30"
-		},
-		{
-			"title": "Meta Unveils Muse Spark",
-			"url": "https://www.fortune.com/2026/04/08/meta-unveils-muse-spark-mark-zuckerberg-ai-push",
-			"note": "Fortune, 2026-04-08"
-		},
-		{
-			"title": "Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device",
-			"url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-			"note": "Meta AI Research, 2026-08-10"
-		},
-		{
-			"title": "China's 2.8-Trillion-Parameter Kimi K3 Beats Claude Fable 5 in Frontend Code Arena Benchmark",
-			"url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3",
-			"note": "Tom's Hardware, 2026-07-17"
-		},
-		{
-			"title": "The Open Source AI Definition – 1.0",
-			"url": "https://opensource.org/ai/open-source-ai-definition",
-			"note": "Open Source Initiative, 2024-10-28"
-		},
-		{
-			"title": "Meta's LLaMa License Is Not Open Source",
-			"url": "https://opensource.org/blog/metas-llama-2-license-is-not-open-source",
-			"note": "Open Source Initiative, 2023-07-20"
-		},
-		{
-			"title": "Dual-Use Foundation Models with Widely Available Model Weights",
-			"url": "https://www.ntia.gov/issues/artificial-intelligence/open-model-weights-report",
-			"note": "National Telecommunications and Information Administration, 2024-07-30"
-		},
-		{
-			"title": "DeepSeek Unmasked: Exposing the CCP’s Latest Tool for Spying, Stealing, and Subverting U.S. Export Control Restrictions",
-			"url": "https://chinaselectcommittee.house.gov/media/reports/deepseek-unmasked-exposing-the-ccp-s-latest-tool-for-spying-stealing-and-subverting-us-export-control-restrictions",
-			"note": "House Select Committee on the CCP, 2025-04-16"
-		},
-		{
-			"title": "CAISI Evaluation of DeepSeek AI Models Finds Shortcomings and Risks",
-			"url": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks",
-			"note": "NIST, 2025-09-30"
-		},
-		{
-			"title": "Winning the Race: America's AI Action Plan",
-			"url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
-			"note": "The White House, 2025-07"
-		},
-		{
-			"title": "Nvidia, Microsoft, Meta Warn against 'Premature Restrictions' of Open-Weight Models",
-			"url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-			"note": "CNBC, 2026-07-24"
-		},
-		{
-			"title": "Open Models Lag State-of-the-Art Closed Models by 4 Months",
-			"url": "https://epoch.ai/data-insights/open-closed-eci-gap",
-			"note": "Epoch AI, 2026-05-29"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Stable Diffusion",
 			"url": "https://en.wikipedia.org/w/index.php?title=Stable_Diffusion&oldid=1372234199",
 			"accessed": "2026-09-27",
@@ -186,6 +36,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Text-to-image model",
 			"url": "https://en.wikipedia.org/w/index.php?title=Text-to-image_model&oldid=1366271711",
 			"accessed": "2026-09-27",
@@ -200,6 +51,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Llama (language model)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Llama_(language_model)&oldid=1377030657",
 			"accessed": "2026-09-27",
@@ -214,6 +66,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Open-source artificial intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=Open-source_artificial_intelligence&oldid=1374851202",
 			"accessed": "2026-09-27",
@@ -228,6 +81,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Mistral AI",
 			"url": "https://en.wikipedia.org/w/index.php?title=Mistral_AI&oldid=1374927640",
 			"accessed": "2026-09-27",
@@ -242,6 +96,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Artificial Intelligence Act",
 			"url": "https://en.wikipedia.org/w/index.php?title=Artificial_Intelligence_Act&oldid=1373680212",
 			"accessed": "2026-09-27",
@@ -256,6 +111,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "LLaMA: Open and Efficient Foundation Language Models",
 			"url": "https://arxiv.org/abs/2302.13971",
 			"accessed": "2026-09-27",
@@ -271,6 +127,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Introducing LLaMA: A Foundational, 65-Billion-Parameter Language Model",
 			"url": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
 			"accessed": "2026-09-27",
@@ -284,6 +141,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Facebook's Powerful Large Language Model Leaks Online",
 			"url": "https://www.vice.com/en/article/facebooks-powerful-large-language-model-leaks-online-4chan-llama/",
 			"accessed": "2026-09-27",
@@ -298,6 +156,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Meta and Microsoft Introduce the Next Generation of Llama",
 			"url": "https://about.fb.com/news/2023/07/llama-2/",
 			"accessed": "2026-09-27",
@@ -311,6 +170,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Llama 2 Community License Agreement",
 			"url": "https://ai.meta.com/llama/license/",
 			"accessed": "2026-09-27",
@@ -324,6 +184,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Open Source AI Is the Path Forward",
 			"url": "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/",
 			"accessed": "2026-09-27",
@@ -338,6 +199,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Mistral 7B",
 			"url": "https://mistral.ai/news/announcing-mistral-7b",
 			"accessed": "2026-09-27",
@@ -351,6 +213,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Gemma: Introducing New State-of-the-Art Open Models",
 			"url": "https://blog.google/technology/developers/gemma-open-models/",
 			"accessed": "2026-09-27",
@@ -368,7 +231,8 @@
 			"published": "2024-02-21"
 		},
 		{
-			"kind": "article",
+			"kind": "report",
+			"key": true,
 			"title": "DeepSeek-V3 Technical Report",
 			"url": "https://arxiv.org/abs/2412.19437",
 			"accessed": "2026-09-27",
@@ -382,6 +246,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "DeepSeek-R1",
 			"url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
 			"accessed": "2026-09-27",
@@ -395,6 +260,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Qwen3: Think Deeper, Act Faster",
 			"url": "https://qwenlm.github.io/blog/qwen3/",
 			"accessed": "2026-09-27",
@@ -408,6 +274,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Kimi K2: Open Agentic Intelligence",
 			"url": "https://arxiv.org/abs/2507.20534",
 			"accessed": "2026-09-27",
@@ -421,6 +288,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "gpt-oss-120b & gpt-oss-20b Model Card",
 			"url": "https://arxiv.org/abs/2508.10925",
 			"accessed": "2026-09-27",
@@ -434,6 +302,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Personal Superintelligence",
 			"url": "https://www.meta.com/superintelligence/",
 			"accessed": "2026-09-27",
@@ -448,6 +317,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Meta Unveils Muse Spark",
 			"url": "https://www.fortune.com/2026/04/08/meta-unveils-muse-spark-mark-zuckerberg-ai-push",
 			"accessed": "2026-09-27",
@@ -462,6 +332,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device",
 			"url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
 			"accessed": "2026-09-27",
@@ -475,6 +346,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "China's 2.8-Trillion-Parameter Kimi K3 Beats Claude Fable 5 in Frontend Code Arena Benchmark",
 			"url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3",
 			"accessed": "2026-09-27",
@@ -489,6 +361,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "The Open Source AI Definition – 1.0",
 			"url": "https://opensource.org/ai/open-source-ai-definition",
 			"accessed": "2026-09-27",
@@ -502,6 +375,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Meta's LLaMa License Is Not Open Source",
 			"url": "https://opensource.org/blog/metas-llama-2-license-is-not-open-source",
 			"accessed": "2026-09-27",
@@ -516,6 +390,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Dual-Use Foundation Models with Widely Available Model Weights",
 			"url": "https://www.ntia.gov/issues/artificial-intelligence/open-model-weights-report",
 			"accessed": "2026-09-27",
@@ -529,6 +404,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "DeepSeek Unmasked: Exposing the CCP’s Latest Tool for Spying, Stealing, and Subverting U.S. Export Control Restrictions",
 			"url": "https://chinaselectcommittee.house.gov/media/reports/deepseek-unmasked-exposing-the-ccp-s-latest-tool-for-spying-stealing-and-subverting-us-export-control-restrictions",
 			"accessed": "2026-09-27",
@@ -542,6 +418,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "CAISI Evaluation of DeepSeek AI Models Finds Shortcomings and Risks",
 			"url": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks",
 			"accessed": "2026-09-27",
@@ -555,6 +432,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Winning the Race: America's AI Action Plan",
 			"url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
 			"accessed": "2026-09-27",
@@ -568,6 +446,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Nvidia, Microsoft, Meta Warn against 'Premature Restrictions' of Open-Weight Models",
 			"url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
 			"accessed": "2026-09-27",
@@ -582,6 +461,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Open Models Lag State-of-the-Art Closed Models by 4 Months",
 			"url": "https://epoch.ai/data-insights/open-closed-eci-gap",
 			"accessed": "2026-09-27",

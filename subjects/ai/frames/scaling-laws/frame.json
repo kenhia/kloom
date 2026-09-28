@@ -17,39 +17,10 @@
 			"label": "training tokens per parameter"
 		}
 	},
-	"sources": [
-		{
-			"title": "Neural scaling law — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Neural_scaling_law"
-		},
-		{
-			"title": "Chinchilla (language model) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Chinchilla_(language_model)"
-		},
-		{
-			"title": "Kaplan et al., Scaling Laws for Neural Language Models",
-			"url": "https://arxiv.org/abs/2001.08361",
-			"note": "arXiv preprint 2001.08361, 2020"
-		},
-		{
-			"title": "Hoffmann et al., Training Compute-Optimal Large Language Models",
-			"url": "https://arxiv.org/abs/2203.15556",
-			"note": "arXiv preprint 2203.15556, 2022"
-		},
-		{
-			"title": "Touvron et al., LLaMA: Open and Efficient Foundation Language Models",
-			"url": "https://arxiv.org/abs/2302.13971",
-			"note": "arXiv preprint 2302.13971, 2023"
-		},
-		{
-			"title": "Besiroglu et al., Chinchilla Scaling: A replication attempt",
-			"url": "https://arxiv.org/abs/2404.10102",
-			"note": "Epoch AI; arXiv preprint 2404.10102, 2024"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Neural scaling law",
 			"url": "https://en.wikipedia.org/w/index.php?title=Neural_scaling_law&oldid=1376311545",
 			"accessed": "2026-09-27",
@@ -64,6 +35,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Chinchilla (language model)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Chinchilla_(language_model)&oldid=1360908667",
 			"accessed": "2026-09-27",
@@ -78,6 +50,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Scaling Laws for Neural Language Models",
 			"url": "https://arxiv.org/abs/2001.08361",
 			"accessed": "2026-09-27",
@@ -128,6 +101,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Training Compute-Optimal Large Language Models",
 			"url": "https://arxiv.org/abs/2203.15556",
 			"accessed": "2026-09-27",
@@ -151,6 +125,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "LLaMA: Open and Efficient Foundation Language Models",
 			"url": "https://arxiv.org/abs/2302.13971",
 			"accessed": "2026-09-27",
@@ -174,6 +149,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Chinchilla Scaling: A replication attempt",
 			"url": "https://arxiv.org/abs/2404.10102",
 			"accessed": "2026-09-27",

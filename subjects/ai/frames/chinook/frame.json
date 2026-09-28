@@ -18,35 +18,12 @@
 			"label": "positions in checkers"
 		}
 	},
-	"sources": [
-		{
-			"title": "Jonathan Schaeffer, Neil Burch et al., Checkers Is Solved",
-			"url": "https://doi.org/10.1126/science.1144079",
-			"note": "Science, 2007"
-		},
-		{
-			"title": "Chinook (computer program) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Chinook_(computer_program)"
-		},
-		{
-			"title": "Marion Tinsley — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Marion_Tinsley"
-		},
-		{
-			"title": "Solved game — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Solved_game"
-		},
-		{
-			"title": "Arthur Samuel's Legacy",
-			"url": "https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html",
-			"note": "Quoting Schaeffer, One Jump Ahead: Challenging Human Supremacy at Checkers (Springer, 1997)"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Checkers Is Solved",
-			"url": "https://doi.org/10.1126/science.1144079",
+			"doi": "10.1126/science.1144079",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -90,6 +67,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Chinook (computer program)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Chinook_(computer_program)&oldid=1336043862",
 			"accessed": "2026-09-27",
@@ -104,6 +82,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Marion Tinsley",
 			"url": "https://en.wikipedia.org/w/index.php?title=Marion_Tinsley&oldid=1360796214",
 			"accessed": "2026-09-27",
@@ -118,6 +97,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Solved game",
 			"url": "https://en.wikipedia.org/w/index.php?title=Solved_game&oldid=1369799045",
 			"accessed": "2026-09-27",
@@ -132,6 +112,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Arthur Samuel's Legacy",
 			"url": "https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html",
 			"accessed": "2026-09-27",
@@ -141,7 +122,8 @@
 					"given": "Jonathan"
 				}
 			],
-			"container": "Chinook project, University of Alberta"
+			"container": "Chinook project, University of Alberta",
+			"note": "Quoting Schaeffer, One Jump Ahead: Challenging Human Supremacy at Checkers (Springer, 1997)"
 		},
 		{
 			"kind": "media",

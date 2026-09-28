@@ -19,48 +19,10 @@
 			"label": "median learning cycles, 4-2-4 encoder"
 		}
 	},
-	"sources": [
-		{
-			"title": "Boltzmann machine — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Boltzmann_machine"
-		},
-		{
-			"title": "Restricted Boltzmann machine — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Restricted_Boltzmann_machine"
-		},
-		{
-			"title": "Terry Sejnowski — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Terry_Sejnowski"
-		},
-		{
-			"title": "David H. Ackley, Geoffrey E. Hinton, Terrence J. Sejnowski, A Learning Algorithm for Boltzmann Machines",
-			"url": "https://doi.org/10.1016/S0364-0213(85)80012-4",
-			"note": "Cognitive Science"
-		},
-		{
-			"title": "Geoffrey E. Hinton, Training Products of Experts by Minimizing Contrastive Divergence",
-			"url": "https://doi.org/10.1162/089976602760128018",
-			"note": "Neural Computation"
-		},
-		{
-			"title": "Bernard Widrow, Michael A. Lehr, 30 Years of Adaptive Neural Networks: Perceptron, Madaline, and Backpropagation",
-			"url": "https://doi.org/10.1109/5.58323",
-			"note": "Proceedings of the IEEE"
-		},
-		{
-			"title": "The Royal Swedish Academy of Sciences, They Used Physics to Find Patterns in Information: Popular Science Background to the Nobel Prize in Physics 2024",
-			"url": "https://www.nobelprize.org/uploads/2024/11/popular-physicsprize2024-3.pdf",
-			"note": "Text by Anna Davour"
-		},
-		{
-			"title": "The Nobel Committee for Physics, Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
-			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
-			"note": "The Royal Swedish Academy of Sciences"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Boltzmann machine",
 			"url": "https://en.wikipedia.org/w/index.php?title=Boltzmann_machine&oldid=1363781435",
 			"accessed": "2026-09-27",
@@ -75,6 +37,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Restricted Boltzmann machine",
 			"url": "https://en.wikipedia.org/w/index.php?title=Restricted_Boltzmann_machine&oldid=1365856341",
 			"accessed": "2026-09-27",
@@ -89,6 +52,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Terry Sejnowski",
 			"url": "https://en.wikipedia.org/w/index.php?title=Terry_Sejnowski&oldid=1372604402",
 			"accessed": "2026-09-27",
@@ -103,8 +67,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "A Learning Algorithm for Boltzmann Machines",
-			"url": "https://doi.org/10.1016/S0364-0213(85)80012-4",
+			"doi": "10.1016/S0364-0213(85)80012-4",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -128,8 +93,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Training Products of Experts by Minimizing Contrastive Divergence",
-			"url": "https://doi.org/10.1162/089976602760128018",
+			"doi": "10.1162/089976602760128018",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -145,8 +111,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "30 Years of Adaptive Neural Networks: Perceptron, Madaline, and Backpropagation",
-			"url": "https://doi.org/10.1109/5.58323",
+			"doi": "10.1109/5.58323",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -166,6 +133,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "They Used Physics to Find Patterns in Information: Popular Science Background to the Nobel Prize in Physics 2024",
 			"url": "https://www.nobelprize.org/uploads/2024/11/popular-physicsprize2024-3.pdf",
 			"accessed": "2026-09-27",
@@ -176,10 +144,12 @@
 			],
 			"container": "NobelPrize.org",
 			"publisher": "The Royal Swedish Academy of Sciences",
-			"published": "2024-10-08"
+			"published": "2024-10-08",
+			"note": "Text by Anna Davour"
 		},
 		{
-			"kind": "web",
+			"kind": "report",
+			"key": true,
 			"title": "Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
 			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
 			"accessed": "2026-09-27",
@@ -188,9 +158,9 @@
 					"name": "The Nobel Committee for Physics"
 				}
 			],
-			"container": "NobelPrize.org",
 			"publisher": "The Royal Swedish Academy of Sciences",
-			"published": "2024-10-08"
+			"published": "2024-10-08",
+			"place": "Stockholm"
 		}
 	]
 }

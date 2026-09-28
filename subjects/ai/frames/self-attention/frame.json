@@ -14,24 +14,10 @@
 			"label": "the scaling divisor in the 2017 transformer"
 		}
 	},
-	"sources": [
-		{
-			"title": "Ashish Vaswani et al., Attention Is All You Need",
-			"url": "https://arxiv.org/abs/1706.03762",
-			"note": "NeurIPS 2017"
-		},
-		{
-			"title": "Transformer (deep learning) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)"
-		},
-		{
-			"title": "Softmax function — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Softmax_function"
-		}
-	],
 	"citations": [
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Attention Is All You Need",
 			"url": "https://arxiv.org/abs/1706.03762",
 			"accessed": "2026-09-27",
@@ -75,6 +61,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Transformer (deep learning)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Transformer_(deep_learning)&oldid=1377087904",
 			"accessed": "2026-09-27",
@@ -89,6 +76,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Softmax function",
 			"url": "https://en.wikipedia.org/w/index.php?title=Softmax_function&oldid=1375000286",
 			"accessed": "2026-09-27",

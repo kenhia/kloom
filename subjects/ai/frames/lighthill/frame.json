@@ -18,41 +18,10 @@
 		},
 		"illustration": "scene.svg"
 	},
-	"sources": [
-		{
-			"title": "James Lighthill, Artificial Intelligence: A General Survey",
-			"url": "https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm",
-			"note": "Artificial Intelligence: A Paper Symposium (London: Science Research Council), 1973"
-		},
-		{
-			"title": "Artificial Intelligence Applications Institute, University of Edinburgh, Freddy Robot",
-			"url": "https://www.aiai.ed.ac.uk/project/freddy/",
-			"note": "University of Edinburgh"
-		},
-		{
-			"title": "Lighthill report — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Lighthill_report"
-		},
-		{
-			"title": "AI winter — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/AI_winter"
-		},
-		{
-			"title": "James Lighthill — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/James_Lighthill"
-		},
-		{
-			"title": "Mike Mansfield — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Mike_Mansfield"
-		},
-		{
-			"title": "History of artificial intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-		}
-	],
 	"citations": [
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Artificial Intelligence: A General Survey",
 			"url": "https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm",
 			"accessed": "2026-09-27",
@@ -62,11 +31,14 @@
 					"given": "James"
 				}
 			],
-			"container": "Artificial Intelligence: A Paper Symposium (London: Science Research Council)",
-			"published": "1973"
+			"container": "Artificial Intelligence: A Paper Symposium",
+			"published": "1973",
+			"place": "London",
+			"publisher": "Science Research Council"
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Freddy Robot",
 			"url": "https://www.aiai.ed.ac.uk/project/freddy/",
 			"accessed": "2026-09-27",
@@ -79,6 +51,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Lighthill report",
 			"url": "https://en.wikipedia.org/w/index.php?title=Lighthill_report&oldid=1359900597",
 			"accessed": "2026-09-27",
@@ -93,6 +66,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "AI winter",
 			"url": "https://en.wikipedia.org/w/index.php?title=AI_winter&oldid=1374895630",
 			"accessed": "2026-09-27",
@@ -107,6 +81,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "James Lighthill",
 			"url": "https://en.wikipedia.org/w/index.php?title=James_Lighthill&oldid=1372060075",
 			"accessed": "2026-09-27",
@@ -121,6 +96,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Mike Mansfield",
 			"url": "https://en.wikipedia.org/w/index.php?title=Mike_Mansfield&oldid=1364329705",
 			"accessed": "2026-09-27",
@@ -135,6 +111,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "History of artificial intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
 			"accessed": "2026-09-27",

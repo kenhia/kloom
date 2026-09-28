@@ -17,29 +17,10 @@
 			"label": "layers in the ILSVRC 2015 winner"
 		}
 	},
-	"sources": [
-		{
-			"title": "Residual neural network — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Residual_neural_network"
-		},
-		{
-			"title": "Batch normalization — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Batch_normalization"
-		},
-		{
-			"title": "Kaiming He, Xiangyu Zhang, Shaoqing Ren et al., Deep Residual Learning for Image Recognition",
-			"url": "https://arxiv.org/abs/1512.03385",
-			"note": "arXiv:1512.03385; in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 770–78, 2015"
-		},
-		{
-			"title": "Sergey Ioffe, Christian Szegedy, Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
-			"url": "https://proceedings.mlr.press/v37/ioffe15.html",
-			"note": "Proceedings of the 32nd International Conference on Machine Learning, PMLR 37, 2015"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Residual neural network",
 			"url": "https://en.wikipedia.org/w/index.php?title=Residual_neural_network&oldid=1376425875",
 			"accessed": "2026-09-27",
@@ -54,6 +35,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Batch normalization",
 			"url": "https://en.wikipedia.org/w/index.php?title=Batch_normalization&oldid=1375137441",
 			"accessed": "2026-09-27",
@@ -67,7 +49,8 @@
 			"published": "2026-09-16"
 		},
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Deep Residual Learning for Image Recognition",
 			"url": "https://arxiv.org/abs/1512.03385",
 			"accessed": "2026-09-27",
@@ -89,11 +72,13 @@
 					"given": "Jian"
 				}
 			],
-			"container": "arXiv:1512.03385; in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 770–78",
-			"published": "2015-12-10"
+			"container": "Proceedings of the 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+			"published": "2016",
+			"pages": "770–78"
 		},
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
 			"url": "https://proceedings.mlr.press/v37/ioffe15.html",
 			"accessed": "2026-09-27",

@@ -17,38 +17,10 @@
 			"label": "the discriminator's answer, at equilibrium"
 		}
 	},
-	"sources": [
-		{
-			"title": "Generative adversarial network — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Generative_adversarial_network"
-		},
-		{
-			"title": "StyleGAN — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/StyleGAN"
-		},
-		{
-			"title": "Deepfake — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Deepfake"
-		},
-		{
-			"title": "Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza et al., Generative Adversarial Nets",
-			"url": "https://papers.nips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html",
-			"note": "Advances in Neural Information Processing Systems 27, 2014"
-		},
-		{
-			"title": "Tero Karras, Timo Aila, Samuli Laine et al., Progressive Growing of GANs for Improved Quality, Stability, and Variation",
-			"url": "https://arxiv.org/abs/1710.10196",
-			"note": "arXiv:1710.10196, 2017"
-		},
-		{
-			"title": "Tero Karras, Samuli Laine, Timo Aila, A Style-Based Generator Architecture for Generative Adversarial Networks",
-			"url": "https://arxiv.org/abs/1812.04948",
-			"note": "arXiv:1812.04948, 2018"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Generative adversarial network",
 			"url": "https://en.wikipedia.org/w/index.php?title=Generative_adversarial_network&oldid=1376834250",
 			"accessed": "2026-09-27",
@@ -63,6 +35,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "StyleGAN",
 			"url": "https://en.wikipedia.org/w/index.php?title=StyleGAN&oldid=1342871161",
 			"accessed": "2026-09-27",
@@ -77,6 +50,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Deepfake",
 			"url": "https://en.wikipedia.org/w/index.php?title=Deepfake&oldid=1375875564",
 			"accessed": "2026-09-27",
@@ -90,7 +64,8 @@
 			"published": "2026-09-20"
 		},
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Generative Adversarial Nets",
 			"url": "https://papers.nips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html",
 			"accessed": "2026-09-27",
@@ -133,6 +108,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Progressive Growing of GANs for Improved Quality, Stability, and Variation",
 			"url": "https://arxiv.org/abs/1710.10196",
 			"accessed": "2026-09-27",
@@ -159,6 +135,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "A Style-Based Generator Architecture for Generative Adversarial Networks",
 			"url": "https://arxiv.org/abs/1812.04948",
 			"accessed": "2026-09-27",

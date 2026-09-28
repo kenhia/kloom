@@ -3,12 +3,6 @@
 	"description": "Bar chart. Five candidate next tokens for \"The cat sat on the\", with invented logits 4, 3, 2.5, 1.5 and 0, through softmax at temperatures 0.5, 1 and 2. mat: 84%, 59%, 40%. floor: 11%, 22%, 24%. sofa: 4%, 13%, 19%. roof: 0.6%, 5%, 11%. moon: 0.03%, 1%, 5%. Lower temperature concentrates probability on the top token; higher temperature flattens the distribution.",
 	"heading": "P(NEXT TOKEN) AFTER “THE CAT SAT ON THE” · T = 0.5, 1, 2",
 	"unit": "%",
-	"colours": {
-		"background": "#0c0b14",
-		"ink": "#ecebf6",
-		"muted": "#9a97b8",
-		"accent": "#ff6b4a"
-	},
 	"axis": {
 		"max": 100,
 		"ticks": [

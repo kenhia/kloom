@@ -15,19 +15,10 @@
 			"label": "stadia around the Earth"
 		}
 	},
-	"sources": [
-		{
-			"title": "Eratosthenes — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Eratosthenes"
-		},
-		{
-			"title": "Earth's circumference — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Earth's_circumference"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Eratosthenes",
 			"url": "https://en.wikipedia.org/w/index.php?title=Eratosthenes&oldid=1375970661",
 			"accessed": "2026-09-26",
@@ -42,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Earth's circumference",
 			"url": "https://en.wikipedia.org/w/index.php?title=Earth's_circumference&oldid=1357654198",
 			"accessed": "2026-09-26",

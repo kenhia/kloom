@@ -18,85 +18,10 @@
 			"label": "weekly ChatGPT users, by OpenAI’s count, Feb 2026"
 		}
 	},
-	"sources": [
-		{
-			"title": "ChatGPT — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/ChatGPT"
-		},
-		{
-			"title": "Claude (AI) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Claude_(AI)"
-		},
-		{
-			"title": "Claude Mythos — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Claude_Mythos"
-		},
-		{
-			"title": "Google Gemini — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Google_Gemini"
-		},
-		{
-			"title": "Llama (language model) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Llama_(language_model)"
-		},
-		{
-			"title": "Muse Spark — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Muse_Spark"
-		},
-		{
-			"title": "Mistral AI — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Mistral_AI"
-		},
-		{
-			"title": "Grok (chatbot) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Grok_(chatbot)"
-		},
-		{
-			"title": "DeepSeek — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/DeepSeek"
-		},
-		{
-			"title": "Qwen — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Qwen"
-		},
-		{
-			"title": "GPT-6 — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/GPT-6"
-		},
-		{
-			"title": "Milmo, ChatGPT reaches 100 million users two months after launch",
-			"url": "https://www.theguardian.com/technology/2023/feb/02/chatgpt-100-million-users-open-ai-fastest-growing-app",
-			"note": "The Guardian, 2023"
-		},
-		{
-			"title": "Jogia, OpenAI Hits 900 Million Weekly Users, Raises $110B in Fresh Funding",
-			"url": "https://www.newsweek.com/openai-hits-900-million-weekly-users-raises-110b-in-fresh-funding-11596631",
-			"note": "Newsweek, 2026"
-		},
-		{
-			"title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
-			"url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-			"note": "Anthropic, 2026"
-		},
-		{
-			"title": "Release notes, Gemini API",
-			"url": "https://ai.google.dev/gemini-api/docs/changelog",
-			"note": "Google AI for Developers, 2026"
-		},
-		{
-			"title": "Release notes",
-			"url": "https://docs.mistral.ai/resources/changelogs",
-			"note": "Mistral Docs, 2026"
-		},
-		{
-			"title": "Lanz, xAI Launches Grok 4.7. It’s Bigger, But Late to the AI Frontier Party",
-			"url": "https://tech.yahoo.com/ai/gemini/articles/xai-launches-grok-4-7-171603280.html",
-			"note": "Decrypt, via Yahoo Tech, 2026"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "ChatGPT",
 			"url": "https://en.wikipedia.org/w/index.php?title=ChatGPT&oldid=1377081012",
 			"accessed": "2026-09-27",
@@ -111,6 +36,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Claude (AI)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Claude_(AI)&oldid=1376435197",
 			"accessed": "2026-09-27",
@@ -125,6 +51,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Claude Mythos",
 			"url": "https://en.wikipedia.org/w/index.php?title=Claude_Mythos&oldid=1375596924",
 			"accessed": "2026-09-27",
@@ -139,6 +66,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Google Gemini",
 			"url": "https://en.wikipedia.org/w/index.php?title=Google_Gemini&oldid=1376465880",
 			"accessed": "2026-09-27",
@@ -153,6 +81,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Llama (language model)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Llama_(language_model)&oldid=1377030657",
 			"accessed": "2026-09-27",
@@ -167,6 +96,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Muse Spark",
 			"url": "https://en.wikipedia.org/w/index.php?title=Muse_Spark&oldid=1376656772",
 			"accessed": "2026-09-27",
@@ -181,6 +111,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Mistral AI",
 			"url": "https://en.wikipedia.org/w/index.php?title=Mistral_AI&oldid=1374927640",
 			"accessed": "2026-09-27",
@@ -195,6 +126,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Grok (chatbot)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Grok_(chatbot)&oldid=1376396809",
 			"accessed": "2026-09-27",
@@ -209,6 +141,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "DeepSeek",
 			"url": "https://en.wikipedia.org/w/index.php?title=DeepSeek&oldid=1376284129",
 			"accessed": "2026-09-27",
@@ -223,6 +156,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Qwen",
 			"url": "https://en.wikipedia.org/w/index.php?title=Qwen&oldid=1376656507",
 			"accessed": "2026-09-27",
@@ -237,6 +171,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "GPT-6",
 			"url": "https://en.wikipedia.org/w/index.php?title=GPT-6&oldid=1377028175",
 			"accessed": "2026-09-27",
@@ -251,6 +186,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "ChatGPT reaches 100 million users two months after launch",
 			"url": "https://www.theguardian.com/technology/2023/feb/02/chatgpt-100-million-users-open-ai-fastest-growing-app",
 			"accessed": "2026-09-27",
@@ -265,6 +201,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "OpenAI Hits 900 Million Weekly Users, Raises $110B in Fresh Funding",
 			"url": "https://www.newsweek.com/openai-hits-900-million-weekly-users-raises-110b-in-fresh-funding-11596631",
 			"accessed": "2026-09-27",
@@ -279,6 +216,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
 			"url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
 			"accessed": "2026-09-27",
@@ -287,6 +225,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Release notes, Gemini API",
 			"url": "https://ai.google.dev/gemini-api/docs/changelog",
 			"accessed": "2026-09-27",
@@ -295,6 +234,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Release notes",
 			"url": "https://docs.mistral.ai/resources/changelogs",
 			"accessed": "2026-09-27",
@@ -303,6 +243,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "xAI Launches Grok 4.7. It’s Bigger, But Late to the AI Frontier Party",
 			"url": "https://tech.yahoo.com/ai/gemini/articles/xai-launches-grok-4-7-171603280.html",
 			"accessed": "2026-09-27",

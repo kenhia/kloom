@@ -17,58 +17,10 @@
 			"label": "more parameters, GPT-1 to GPT-3"
 		}
 	},
-	"sources": [
-		{
-			"title": "GPT-1 — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/GPT-1"
-		},
-		{
-			"title": "GPT-2 — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/GPT-2"
-		},
-		{
-			"title": "BERT (language model) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/BERT_(language_model)"
-		},
-		{
-			"title": "Peters et al., Deep Contextualized Word Representations",
-			"url": "https://arxiv.org/abs/1802.05365",
-			"note": "Proceedings of NAACL-HLT 2018, 2018"
-		},
-		{
-			"title": "Radford et al., Improving Language Understanding by Generative Pre-Training",
-			"url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
-			"note": "OpenAI technical report, 2018"
-		},
-		{
-			"title": "Devlin et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-			"url": "https://arxiv.org/abs/1810.04805",
-			"note": "arXiv preprint 1810.04805, 2018"
-		},
-		{
-			"title": "Radford et al., Language Models are Unsupervised Multitask Learners",
-			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
-			"note": "OpenAI technical report, 2019"
-		},
-		{
-			"title": "Solaiman et al., Release Strategies and the Social Impacts of Language Models",
-			"url": "https://arxiv.org/abs/1908.09203",
-			"note": "OpenAI report; arXiv preprint 1908.09203, 2019"
-		},
-		{
-			"title": "Raffel et al., Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-			"url": "https://jmlr.org/papers/v21/20-074.html",
-			"note": "Journal of Machine Learning Research, 2020"
-		},
-		{
-			"title": "Brown et al., Language Models are Few-Shot Learners",
-			"url": "https://arxiv.org/abs/2005.14165",
-			"note": "arXiv preprint 2005.14165, 2020"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "GPT-1",
 			"url": "https://en.wikipedia.org/w/index.php?title=GPT-1&oldid=1372861673",
 			"accessed": "2026-09-27",
@@ -83,6 +35,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "GPT-2",
 			"url": "https://en.wikipedia.org/w/index.php?title=GPT-2&oldid=1376616202",
 			"accessed": "2026-09-27",
@@ -97,6 +50,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "BERT (language model)",
 			"url": "https://en.wikipedia.org/w/index.php?title=BERT_(language_model)&oldid=1371756067",
 			"accessed": "2026-09-27",
@@ -110,7 +64,8 @@
 			"published": "2026-08-28"
 		},
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Deep Contextualized Word Representations",
 			"url": "https://arxiv.org/abs/1802.05365",
 			"accessed": "2026-09-27",
@@ -148,7 +103,8 @@
 			"published": "2018"
 		},
 		{
-			"kind": "article",
+			"kind": "report",
+			"key": true,
 			"title": "Improving Language Understanding by Generative Pre-Training",
 			"url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
 			"accessed": "2026-09-27",
@@ -170,11 +126,12 @@
 					"given": "Ilya"
 				}
 			],
-			"container": "OpenAI technical report",
-			"published": "2018"
+			"published": "2018",
+			"publisher": "OpenAI"
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
 			"url": "https://arxiv.org/abs/1810.04805",
 			"accessed": "2026-09-27",
@@ -200,7 +157,8 @@
 			"published": "2018"
 		},
 		{
-			"kind": "article",
+			"kind": "report",
+			"key": true,
 			"title": "Language Models are Unsupervised Multitask Learners",
 			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
 			"accessed": "2026-09-27",
@@ -230,11 +188,12 @@
 					"given": "Ilya"
 				}
 			],
-			"container": "OpenAI technical report",
-			"published": "2019"
+			"published": "2019",
+			"publisher": "OpenAI"
 		},
 		{
-			"kind": "article",
+			"kind": "report",
+			"key": true,
 			"title": "Release Strategies and the Social Impacts of Language Models",
 			"url": "https://arxiv.org/abs/1908.09203",
 			"accessed": "2026-09-27",
@@ -257,11 +216,13 @@
 				}
 			],
 			"etAl": true,
-			"container": "OpenAI report; arXiv preprint 1908.09203",
-			"published": "2019-11"
+			"container": "ArXiv preprint 1908.09203",
+			"published": "2019-11",
+			"publisher": "OpenAI"
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
 			"url": "https://jmlr.org/papers/v21/20-074.html",
 			"accessed": "2026-09-27",
@@ -310,6 +271,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Language Models are Few-Shot Learners",
 			"url": "https://arxiv.org/abs/2005.14165",
 			"accessed": "2026-09-27",

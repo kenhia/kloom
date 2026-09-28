@@ -3,7 +3,6 @@
 	"description": "Bar chart of the lowest top-5 classification error in each year's ImageNet challenge, with the challenge's training data. 2010, NEC: 28.2%. 2011, XRCE: 25.8%. 2012, SuperVision (AlexNet): 16.4%. 2013, Clarifai: 11.7%. 2014, GoogLeNet: 6.7%. 2015, MSRA (ResNet): 3.57%. 2016, Trimps-Soushen: 2.99%. 2017, WMW: 2.25%. Data: Russakovsky et al. 2015, tables 5–7; He et al. 2015; the ILSVRC 2016 and 2017 results pages.",
 	"heading": "ILSVRC · WINNING TOP-5 ERROR, %",
 	"unit": "%",
-	"colours": { "background": "#0c0b14", "ink": "#ecebf6", "muted": "#9a97b8", "accent": "#ff6b4a" },
 	"barWidth": 40,
 	"axis": {
 		"max": 30,

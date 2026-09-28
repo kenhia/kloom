@@ -18,36 +18,10 @@
 			"label": "of the 1965 code in the 2024 revival"
 		}
 	},
-	"sources": [
-		{
-			"title": "ELIZA — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/ELIZA"
-		},
-		{
-			"title": "ELIZA effect — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/ELIZA_effect"
-		},
-		{
-			"title": "Joseph Weizenbaum — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Joseph_Weizenbaum"
-		},
-		{
-			"title": "Computer Power and Human Reason — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Computer_Power_and_Human_Reason"
-		},
-		{
-			"title": "History of artificial intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-		},
-		{
-			"title": "Joseph Weizenbaum, “ELIZA—A Computer Program for the Study of Natural Language Communication Between Man and Machine”",
-			"url": "https://doi.org/10.1145/365153.365168",
-			"note": "Communications of the ACM, January 1966; read in the scan at web.stanford.edu/class/cs124 and the transcription at csee.umbc.edu"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "ELIZA",
 			"url": "https://en.wikipedia.org/w/index.php?title=ELIZA&oldid=1374884270",
 			"accessed": "2026-09-27",
@@ -58,10 +32,12 @@
 			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
-			"published": "2026-09-14"
+			"published": "2026-09-14",
+			"note": "Read in the scan at web.stanford.edu/class/cs124 and the transcription at csee.umbc.edu"
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "ELIZA effect",
 			"url": "https://en.wikipedia.org/w/index.php?title=ELIZA_effect&oldid=1372640187",
 			"accessed": "2026-09-27",
@@ -72,10 +48,12 @@
 			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
-			"published": "2026-09-01"
+			"published": "2026-09-01",
+			"note": "Read in the scan at web.stanford.edu/class/cs124 and the transcription at csee.umbc.edu"
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Joseph Weizenbaum",
 			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Weizenbaum&oldid=1372834327",
 			"accessed": "2026-09-27",
@@ -90,6 +68,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Computer Power and Human Reason",
 			"url": "https://en.wikipedia.org/w/index.php?title=Computer_Power_and_Human_Reason&oldid=1338715216",
 			"accessed": "2026-09-27",
@@ -104,6 +83,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "History of artificial intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
 			"accessed": "2026-09-27",
@@ -118,8 +98,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "ELIZA—A Computer Program for the Study of Natural Language Communication Between Man and Machine",
-			"url": "https://doi.org/10.1145/365153.365168",
+			"doi": "10.1145/365153.365168",
 			"authors": [
 				{
 					"family": "Weizenbaum",
@@ -131,7 +112,8 @@
 			"issue": "1",
 			"pages": "36–45",
 			"published": "1966-01",
-			"accessed": "2026-09-27"
+			"accessed": "2026-09-27",
+			"note": "Read in the scan at web.stanford.edu/class/cs124 and the transcription at csee.umbc.edu"
 		},
 		{
 			"kind": "media",

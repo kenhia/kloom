@@ -18,46 +18,12 @@
 		},
 		"illustration": "scene.svg"
 	},
-	"sources": [
-		{
-			"title": "David E. Rumelhart, Geoffrey E. Hinton, Ronald J. Williams, Learning Representations by Back-Propagating Errors",
-			"url": "https://doi.org/10.1038/323533a0",
-			"note": "Nature, 1986"
-		},
-		{
-			"title": "Backpropagation — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Backpropagation"
-		},
-		{
-			"title": "David Rumelhart — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/David_Rumelhart"
-		},
-		{
-			"title": "Paul Werbos — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Paul_Werbos"
-		},
-		{
-			"title": "Seppo Linnainmaa — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Seppo_Linnainmaa"
-		},
-		{
-			"title": "Connectionism — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Connectionism"
-		},
-		{
-			"title": "AI winter — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/AI_winter"
-		},
-		{
-			"title": "History of artificial intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Learning Representations by Back-Propagating Errors",
-			"url": "https://doi.org/10.1038/323533a0",
+			"doi": "10.1038/323533a0",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -81,6 +47,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Backpropagation",
 			"url": "https://en.wikipedia.org/w/index.php?title=Backpropagation&oldid=1373673106",
 			"accessed": "2026-09-27",
@@ -95,6 +62,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "David Rumelhart",
 			"url": "https://en.wikipedia.org/w/index.php?title=David_Rumelhart&oldid=1371985654",
 			"accessed": "2026-09-27",
@@ -109,6 +77,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Paul Werbos",
 			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Werbos&oldid=1375521261",
 			"accessed": "2026-09-27",
@@ -123,6 +92,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Seppo Linnainmaa",
 			"url": "https://en.wikipedia.org/w/index.php?title=Seppo_Linnainmaa&oldid=1375521284",
 			"accessed": "2026-09-27",
@@ -137,6 +107,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Connectionism",
 			"url": "https://en.wikipedia.org/w/index.php?title=Connectionism&oldid=1371392536",
 			"accessed": "2026-09-27",
@@ -151,6 +122,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "AI winter",
 			"url": "https://en.wikipedia.org/w/index.php?title=AI_winter&oldid=1374895630",
 			"accessed": "2026-09-27",
@@ -165,6 +137,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "History of artificial intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
 			"accessed": "2026-09-27",

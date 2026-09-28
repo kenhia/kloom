@@ -18,42 +18,10 @@
 			"label": "photocells in the Mark I's retina"
 		}
 	},
-	"sources": [
-		{
-			"title": "Perceptron — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Perceptron"
-		},
-		{
-			"title": "Frank Rosenblatt — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Frank_Rosenblatt"
-		},
-		{
-			"title": "Mark I Perceptron — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Mark_I_Perceptron"
-		},
-		{
-			"title": "History of artificial intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-		},
-		{
-			"title": "Frank Rosenblatt, “The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain”",
-			"url": "https://doi.org/10.1037/h0042519",
-			"note": "Psychological Review, 1958"
-		},
-		{
-			"title": "“New Navy Device Learns by Doing; Psychologist Shows Embryo of Computer Designed to Read and Grow Wiser”",
-			"url": "https://aitopics.org/doc/news:C85C11EF",
-			"note": "The New York Times, 8 July 1958, p. 25 (UPI); via AITopics"
-		},
-		{
-			"title": "John C. Hay, Albert E. Murray, Mark I Perceptron Operators’ Manual (Project PARA)",
-			"url": "https://apps.dtic.mil/sti/tr/pdf/AD0236965.pdf",
-			"note": "Cornell Aeronautical Laboratory, 15 February 1960"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Perceptron",
 			"url": "https://en.wikipedia.org/w/index.php?title=Perceptron&oldid=1360590893",
 			"accessed": "2026-09-27",
@@ -68,6 +36,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Frank Rosenblatt",
 			"url": "https://en.wikipedia.org/w/index.php?title=Frank_Rosenblatt&oldid=1371260220",
 			"accessed": "2026-09-27",
@@ -82,6 +51,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Mark I Perceptron",
 			"url": "https://en.wikipedia.org/w/index.php?title=Mark_I_Perceptron&oldid=1368881971",
 			"accessed": "2026-09-27",
@@ -96,6 +66,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "History of artificial intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
 			"accessed": "2026-09-27",
@@ -110,8 +81,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
-			"url": "https://doi.org/10.1037/h0042519",
+			"doi": "10.1037/h0042519",
 			"authors": [
 				{
 					"family": "Rosenblatt",
@@ -127,6 +99,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "New Navy Device Learns by Doing; Psychologist Shows Embryo of Computer Designed to Read and Grow Wiser",
 			"url": "https://aitopics.org/doc/news:C85C11EF",
 			"authors": [
@@ -137,7 +110,28 @@
 			"container": "The New York Times",
 			"pages": "25",
 			"published": "1958-07-08",
-			"accessed": "2026-09-27"
+			"accessed": "2026-09-27",
+			"note": "P. 25 (UPI); via AITopics"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Mark I Perceptron Operators’ Manual (Project PARA)",
+			"url": "https://apps.dtic.mil/sti/tr/pdf/AD0236965.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Hay",
+					"given": "John C."
+				},
+				{
+					"family": "Murray",
+					"given": "Albert E."
+				}
+			],
+			"place": "Buffalo, NY",
+			"publisher": "Cornell Aeronautical Laboratory",
+			"published": "1960-02-15"
 		},
 		{
 			"kind": "media",

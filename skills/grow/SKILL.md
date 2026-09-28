@@ -1,6 +1,6 @@
 ---
 name: kloom-grow
-description: Write new frames and side trails into a kloom subject, in the house style of its curated frames, with mandatory sources and Chicago-style citations. Used by kloom's grow jobs (headless `claude -p`), and the seed of the framework's "generate a subject" skill.
+description: Write new frames and side trails into a kloom subject, in the house style of its curated frames, with Chicago-style citations and at least one flagged key source. Used by kloom's grow jobs (headless `claude -p`), and the seed of the framework's "generate a subject" skill.
 ---
 
 # Growing a kloom subject
@@ -26,7 +26,7 @@ subject.json            the subject's title and palettes     (read only)
 spine.json              the main spine's segments             (you may insert frames)
 trails/<id>.json        side trails                           (you may add or extend)
 frames/<id>/            one directory per frame               (you may add new ones)
-  frame.json            position, scene, sources, citations
+  frame.json            position, scene, citations
   reading.md            the reading
   scene.svg             the illustration
 reference/              kloom's design notes, for you to read  (ignored)
@@ -63,8 +63,9 @@ The job's prompt names one:
 
 If the job carries a **kept answer** (`request/kept-answer.json`), it is an
 answer a reader asked for and kept. Turn it into content. Its `citations`
-and `webCitations` are ready-made, and its `sources` are plain sources. Use
-them, and check its claims as you would any source; do not copy its prose.
+and `webCitations` are ready-made (its `sources` list is empty in answers
+kept since sprint 008; an older one's are plain sources). Use them, and
+check its claims as you would any source; do not copy its prose.
 
 ## Placing a frame
 
@@ -106,10 +107,19 @@ them, and check its claims as you would any source; do not copy its prose.
 		"metadata": ["MAINZ · JOHANNES GUTENBERG", "MOVABLE METAL TYPE · OIL INK · SCREW PRESS"],
 		"counter": { "value": "12,600,000", "label": "books printed by 1500" }
 	},
-	"sources": [
-		{ "title": "Printing press — Wikipedia", "url": "https://en.wikipedia.org/wiki/Printing_press" }
-	],
-	"citations": []
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Printing press",
+			"url": "https://en.wikipedia.org/w/index.php?title=Printing_press&oldid=1376640142",
+			"accessed": "2026-09-26",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		}
+	]
 }
 ```
 
@@ -201,25 +211,45 @@ start, and it is sometimes wrong: where a primary source disagrees with it,
 follow the source and say that they differ. For anything recent, your own
 knowledge is not a source.
 
-- `sources`: at least one, each `{"title", "url"?, "note"?}`, with the url
-  http(s). List what the reading draws on.
-- `citations`: the same works as structured data, rendered in Chicago
-  style. Each needs `kind` (`web`, `wikipedia`, `book`, `article`), `title`,
-  an http(s) `url` and `accessed` (today, `YYYY-MM-DD`). Add `authors`
+- `citations`: every work the reading draws on, as structured data,
+  rendered in Chicago style. Each needs `kind`, `title`, `accessed` (today,
+  `YYYY-MM-DD`) and an http(s) `url` or a `doi`. Add `authors`
   (`[{"family", "given"}]` or `[{"name"}]`), `container`, `publisher`,
-  `published` (`YYYY`, `YYYY-MM` or `YYYY-MM-DD`) and, for articles,
-  `volume`, `issue` and `pages` when you know them.
+  `place` and `published` (`YYYY`, `YYYY-MM` or `YYYY-MM-DD`) when you know
+  them. The kinds are `web`, `wikipedia`, `book`, `article`, `chapter`,
+  `report` and `media`.
+- **Key sources.** Mark the works the frame chiefly rests on with
+  `"key": true`: **at least one**, or validation fails. The reading pane's
+  Sources list is built from them ("Authors, Title", where and when); the
+  rest appear only in the full Citations list. There is no separate
+  `sources` list: writing one fails validation. A key citation may carry a
+  short `note` for that list, a page or why it matters
+  (`"note": "The postulate is on p. 62"`), never where or when it appeared,
+  which the list already says.
+- **A DOI goes in `doi`**, bare: `"doi": "10.1109/5.58323"`. Do not write
+  a doi.org url; the entry links the DOI itself. A `url` beside it is
+  allowed (where you read it) but the DOI wins.
 - **Many authors:** list the first (up to seven) and set `"etAl": true`.
   Never write "et al." into a name.
-- **Papers:** a journal or conference paper is `article`, with the journal
-  or proceedings as its `container`. An arXiv preprint is `article` with
-  `container` `"arXiv preprint arXiv:NNNN.NNNNN"`. If the preprint and the
-  published version differ in a number, cite the one you use and say so.
+- **Papers:** a journal paper is `article`, with the journal as its
+  `container` and `volume`, `issue` and `pages`. A paper in a proceedings
+  or a symposium volume, or a chapter in an edited book, is `chapter`, with
+  the volume or proceedings as its `container` (required) and, when known,
+  `editors`, `pages`, `place` and `publisher`. An arXiv preprint is
+  `article` with `container` `"arXiv preprint arXiv:NNNN.NNNNN"`. If the
+  preprint and the published version differ in a number, cite the one you
+  use and say so.
+- **Reports** (a technical report, a government or committee report, a
+  lab's system card) are `report`: the issuing body as `publisher`, and
+  `number` for a report number.
+- **An approximate date** is `published` with `"circa": true`
+  (`"published": "1951", "circa": true` renders "ca. 1951"). Never put
+  "c. 1951" into `container` or `title`.
 - **A page you could only read through an archive** (the site blocks
   fetches) is still cited by its own URL. The page is the source; the
   archive was only how you read it.
-- `media` citations credit an image's file. They go in `citations` only,
-  not in `sources`, and the page builds any caption credit from them.
+- `media` citations credit an image's file, and the page builds any
+  caption credit from them. They are not usually key sources.
 - **Wikipedia is cited by revision.** A Wikipedia url must be a permanent
   link, `https://en.wikipedia.org/w/index.php?title=Printing_press&oldid=1376640142`,
   or validation fails. To get the current revision, fetch
@@ -227,8 +257,9 @@ knowledge is not a source.
   and use `revid` as the `oldid`. Then write a citation of `kind`
   `wikipedia`, `authors` `[{"name": "Wikipedia contributors"}]`, `container`
   `"Wikipedia, The Free Encyclopedia"`, `publisher`
-  `"Wikimedia Foundation"`, and `published` set to the revision's date. The
-  plain `sources` entry may keep the ordinary `/wiki/` link.
+  `"Wikimedia Foundation"`, and `published` set to the revision's date. As
+  a key source it reads "Printing press — Wikipedia", linked to that
+  revision.
 - Without the web, cite what you know to be real and stable: a standard
   book, a well-known article, or a Wikipedia revision you are given in the
   kept answer or the existing frames. Never make up an `oldid`.
@@ -244,7 +275,8 @@ Check your own work against this list; the validator will:
   directory;
 - `scene.svg` uses only the allowed elements and attributes, and every path
   has `pathLength="1"`;
-- `sources` is not empty, every citation has a title, http(s) url and
+- at least one citation is `"key": true`, there is no `sources` list,
+  every citation has a title, an http(s) url or a bare `doi`, and an
   accessed date, and every Wikipedia url has `oldid=`;
 - no accent word repeats another in the subject, and any `asOf` is a
   `YYYY-MM-DD` date;
@@ -260,9 +292,20 @@ the web rather than by a grow job. What changes:
 - **Tools.** `create-tools/` holds `wiki-cite` (Wikipedia citations pinned
   to a revision), `commons-media` (a freely licensed image and its `media`
   citation), `bar-chart` (a chart, on a log scale when values span orders
-  of magnitude), `draw-plates` (plates from computed geometry) and
+  of magnitude), `draw-plates` (plates from computed geometry),
   `subject-plan` (the spine and trails from a plan, so a subject written
-  segment by segment, or by several authors, validates at every step).
+  segment by segment, or by several authors, validates at every step) and
+  `read-source` (a PDF's text, or its scanned pages as PNG). A grow job
+  can't run them: it has no shell.
+- **Read the primary source.** Many papers are PDFs, and older ones are
+  scans with no text layer. `uv run create-tools/read-source/read_source.py
+paper.pdf` prints the text and names the scanned pages; `--png DIR
+--pages …` renders those pages to read as images. Don't improvise a PDF
+  reader.
+- **Charts are inlined** into the reading, through the same sanitiser as a
+  scene, so they follow the reader's palette. Make them with `bar-chart`,
+  or draw one by hand in `currentColor` with the `muted` and `accent`
+  classes, and never with fixed colours or a background.
 - **Readings run 550–900 words, and every one scrolls.** They use images,
   charts and tables where those carry information. Look at every image
   before you use it: Commons licences and attributions are what uploaders

@@ -48,7 +48,9 @@ baked into the engine.
   - _scene_: headline, accent word, illustration (SVG), palette, metadata,
     optional counter;
   - _reading_: markdown narrative, charts, images, and **sources** —
-    required, because this is history written with an LLM.
+    required, because this is history written with an LLM. Since sprint
+    008 every frame flags at least one key-source citation, and the Sources
+    list is built from those (§Content model, Citations).
 - **Trail** — a small spine anchored to one frame of its parent.
 - **Storage** — files in git, one directory per frame under
   `subjects/<subject>/`. The site builds from them; git is the history of how
@@ -58,7 +60,7 @@ baked into the engine.
   `spine.json` (segments, each `{id, title, labelKind, frames: [ids]}`),
   `trails/<id>.json` (`{id, title, anchor, spine}`) and
   `frames/<id>/{frame.json, reading.md, *.svg}`. `frame.json` carries
-  `position {label, sort?}`, `scene` and `sources`. Label kinds are `date`,
+  `position {label, sort?}`, `scene` and `citations`. Label kinds are `date`,
   `category` and `technology`; only `date` segments need a `sort` and must be
   non-decreasing. Every frame sits on exactly one spine, and a trail's
   anchor must be a main-spine frame. No two frames of a subject share an
@@ -73,29 +75,52 @@ baked into the engine.
   draw itself on), so it passes an allowlist sanitiser (§Illustration
   sanitiser, sprint 005). Giving each path `pathLength="1"` lets the draw-on
   animation work. The loader skips hidden directories under `frames/`.
-- **Citations** (sprint 002) — a frame may carry `citations`, stored as
-  structured data and rendered as a Chicago notes-bibliography entry,
-  alphabetised, in a collapsed _Citations_ control under Sources
-  (`<details>`, closed by default). The house style applies to Wikipedia and
-  every other site alike. Nothing appears in the narrative itself: no
-  footnote markers. The per-frame Sources list stays as it was, and stays
-  required.
-  - Fields: `kind` (`web`, `wikipedia`, `book`, `article`, `media`),
-    `title`, `url`,
-    `accessed` (`YYYY-MM-DD`), and optionally `authors` (`{family, given?}` or
-    `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`), `container`
-    (the site or collection), `publisher`, `place`, `published` (`YYYY`,
-    `YYYY-MM` or `YYYY-MM-DD`; for Wikipedia, the revision's date, rendered
-    "Last modified"), for journal articles `volume`, `issue` and `pages`, and
-    for media `licence` and `file`. `etAl: true` ends a long author list
-    with "et al." in the entry and in a caption credit (sprint 006): a
-    paper with hundreds of authors lists the first.
-  - Every citation needs a title, an http(s) url and an accessed date. Any
-    Wikipedia url must be a permanent revision link (`oldid=`), because
-    articles change.
-  - An image or chart in the reading is a file in the frame's directory
-    (served at `/media/<subject>/<frame>/<file>` with a no-script policy), and it is
+- **Citations** (sprint 002; reshaped in sprint 008, korg 3405) — a
+  frame's `citations` are stored as structured data and rendered as Chicago
+  notes-bibliography entries, alphabetised, in a collapsed _Citations_
+  control under Sources (`<details>`, closed by default). The house style
+  applies to Wikipedia and every other site alike. Nothing appears in the
+  narrative itself: no footnote markers.
+  - **Sources are derived from citations** (Ken, sprint 008). A citation
+    carries `key: true` when the frame chiefly rests on it, and the frame's
+    Sources list is its key citations in the order written, each as
+    "Authors, Title" (Wikipedia: "Title — Wikipedia"), linked, with where
+    and when it appeared and the citation's own `note`. Every frame flags
+    at least one key-source citation, and validation enforces it. Authors
+    keep one list, not two. A `sources` field in `frame.json` is refused,
+    so content in the old form cannot go silently unshown. A key source
+    links the URL that was read, so a Wikipedia source links its pinned
+    revision, not the live article.
+  - Fields: `kind` (`web`, `wikipedia`, `book`, `article`, `chapter`,
+    `report`, `media`), `title`, `url` and/or `doi`, `accessed`
+    (`YYYY-MM-DD`), and optionally `key`, `note` (a key source's remark in
+    the Sources list: a page, why it matters), `authors` (`{family,
+given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
+    `container` (the site, journal or collection; for a chapter, the volume
+    or proceedings), `editors` (a chapter's), `publisher`, `place`,
+    `number` (a report's), `published` (`YYYY`, `YYYY-MM` or `YYYY-MM-DD`;
+    for Wikipedia, the revision's date, rendered "Last modified") with
+    `circa: true` for an approximate date ("ca. 1951"), for journal
+    articles `volume`, `issue` and `pages`, and for media `licence` and
+    `file`. `etAl: true` ends a long author list with "et al." in the entry
+    and in a caption credit (sprint 006): a paper with hundreds of authors
+    lists the first.
+  - **Kinds.** `chapter` is a chapter or a paper in an edited volume, a
+    proceedings or a symposium: "In _Volume_, edited by …, pages. Place:
+    Publisher, Year." It needs its `container`. `report` is a technical,
+    committee or institutional report, or a lab's system card: title in
+    italics, then its `number`, series, and "Place: Publisher, Date".
+  - **DOI.** `doi` holds the bare DOI (`10.1109/5.58323`) and the entry
+    links it at doi.org, in place of the url. A doi.org `url` is refused:
+    it goes in `doi`.
+  - Every citation needs a title, an http(s) url or a doi, and an accessed
+    date. Any Wikipedia url must be a permanent revision link (`oldid=`),
+    because articles change.
+  - An image or chart in the reading is a file in the frame's directory,
     shown only with a `media` citation naming that `file` and a `licence`.
+    A raster image is served at `/media/<subject>/<frame>/<file>` with a
+    no-script policy. An SVG is inlined through the illustration sanitiser
+    (§Charts, sprint 008).
     Where the licence needs attribution beside the work (anything but public
     domain or CC0), the image carries a short caption credit. Scene
     illustrations drawn for kloom need no citation; one traced or copied from
@@ -114,8 +139,11 @@ baked into the engine.
   directory per tool with its own README. Sprint 006 added `subject-plan`
   (the spine and trails from a plan, holding only the frames written so
   far), `commons-media` (a freely licensed image and its `media` citation)
-  and a log scale for `bar-chart`. Skills for new subjects and grow
-  point there; an agent creating a subject may add tools.
+  and a log scale for `bar-chart`. Sprint 008 added `read-source` (a PDF's
+  text, or its scanned pages as PNG), the first Python tool with a
+  non-stdlib dependency: Ken allowed one, declared inline for `uv run` and
+  kept out of the app. Skills for new subjects and grow point there; an
+  agent creating a subject may add tools.
 - **Palette counterparts** (sprint 003) — a palette may name a
   `counterpart`: a palette of the other scheme that stands in for it when
   the reader picks Dark or Light. Validation requires it to exist and to be
@@ -151,13 +179,13 @@ Built in sprint 004 (korg 3360).
   failure is one `{type: 'error', message}`, after which it ends; the answer
   is complete when the iterator ends. The request carries:
   - an `AskContext`: the subject's title; the frame's id, title, position,
-    segment, reading markdown, sources and citations; and the trail, if any;
+    segment, reading markdown and citations; and the trail, if any;
   - the question;
   - a model id the server has already checked;
   - an `AbortSignal`.
 
   The prompt (`engine/ai/prompt.ts`) is shared by every adapter. It numbers
-  the frame's citations, then any sources no citation covers, and asks the
+  the frame's citations (every source is one since sprint 008), and asks the
   model to mark what it drew on with `[n]`. A Claude API adapter is one more
   class beside `ClaudeCliProvider`, chosen by `provider.kind` in the app
   config.
@@ -235,7 +263,7 @@ Built in sprint 004 (korg 3360).
   	"question": "Why did printing spread so fast?",
   	"answer": "Markdown, as the model wrote it, [n] markers and all",
   	"citations": ["the frame's citations the answer marked, first use first"],
-  	"sources": ["the frame's plain sources it marked"],
+  	"sources": [],
   	"provider": "claude-cli",
   	"model": "claude-sonnet-5",
   	"askedAt": "2026-09-27T17:09:11.000Z",
@@ -248,6 +276,9 @@ Built in sprint 004 (korg 3360).
   is the ask time plus 8 random hex digits, safe as a file name. Grow checks
   a file with `keptAnswerProblems` before reading it. A web turn's pages
   are carried in an optional `webCitations` (§Web search for ask).
+  `sources` once held the plain sources an answer marked. Since sprint 008
+  every source is a citation, so it is always empty. It stays so the format,
+  and the answers already kept, remain version 1.
 
 ## Web search for ask
 
@@ -416,8 +447,8 @@ Built in sprint 005 (korg 3364).
 - **Illustration quality** is the biggest one: Claude-drawn SVG varies. The
   POC hand-curates its frames to set the bar; the generating skill is written
   against them.
-- **Accuracy**: sources are mandatory on every frame, and the grow skill must
-  produce them.
+- **Accuracy**: every frame flags at least one key-source citation, and
+  the grow skill must produce them.
 
 ## Who may write
 
@@ -592,9 +623,39 @@ radialGradient stop`. Attributes: geometry, presentation and ARIA. Never
 - **One path for everyone.** Validation reports each problem as
   `illustration: …`, and the loader inlines the output, so hand-written and
   model-written drawings are treated alike. Grow also runs every `.svg` it
-  writes through it, not only the scene's. A hand-written dependency was
+  writes through it, not only the scene's. An SVG image in a reading (a
+  chart) takes the same path (§Charts). A hand-written dependency was
   chosen over DOMPurify + jsdom (a DOM on the server) and sanitize-html
   (an HTML parser, where these files are case-sensitive XML).
+
+## Charts
+
+Built in sprint 008 (korg 3406; Ken chose inline SVG over one rendering per
+scheme). A chart used to be an `<img>` of a standalone SVG drawn in its
+frame's palette. An `<img>` can't inherit the page's CSS, so a chart on a
+dark frame stayed dark when the reader picked Light mode.
+
+- **Inlined, through the sanitiser.** An `.svg` image in a reading is
+  inlined in place of the `<img>`. Validation runs it through the
+  illustration allowlist and reports each problem as `image "x.svg": …`.
+  The loader inlines the re-serialised parse, never the file's text. This
+  relaxes sprint 002's "charts are media files served with a no-script
+  policy". An SVG from elsewhere (a Commons diagram) that the allowlist
+  refuses, usually for `style`, is converted to PNG instead.
+- **Palette hooks.** A chart draws in `currentColor`, which the reading
+  pane sets to `--ink`, and marks two classes that the pane colours: `muted`
+  (`--muted`: axis, ticks, sublabels) and `accent` (`--accent`: a
+  highlighted bar). It has no background. So it follows the palette mode and
+  fades with the page's palette transition. `create-tools/bar-chart` draws
+  this way.
+- **Named by the alt text.** The inlined drawing is wrapped in
+  `<span class="figure chart" role="img" aria-label="…">` carrying the
+  markdown image's alt text, exactly as the `<img>` was named. The SVG
+  inside is `aria-hidden`. Its ids, and every reference to them (`url(#…)`,
+  `aria-labelledby`), are prefixed `<frame>-<file>-`, so two drawings in
+  one page cannot collide. The chart's numbers are still in a table under
+  it (sprint 002's rule), and the caption credit follows it as before.
+- The `/media` route still serves the file, for anyone opening it alone.
 
 ## Palette transitions
 

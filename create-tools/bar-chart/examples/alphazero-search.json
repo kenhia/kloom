@@ -3,7 +3,6 @@
 	"description": "Bar chart on a logarithmic scale. Stockfish 8 searched about 70 million positions a second in chess and Elmo about 35 million in shogi; AlphaZero searched about 80 thousand in chess and 40 thousand in shogi. Data: Silver et al. 2017, arXiv:1712.01815, table S4.",
 	"heading": "POSITIONS SEARCHED PER SECOND · LOG SCALE",
 	"unit": "",
-	"colours": { "background": "#07120c", "ink": "#d3f5dc", "muted": "#7fa98a", "accent": "#ffb000" },
 	"scale": "log",
 	"axis": {
 		"min": 1e3,

@@ -48,6 +48,14 @@
   (3412) —
   [record](../007-service-on-kai.md), [operations](../../docs/deploying.md).
 
+- Sprint 008: the content model and authoring, before Feynman (proposal
+  3417). Citations gain `doi`, `chapter`/`report` kinds and `circa`, and a
+  frame's Sources list is derived from citations flagged `key` (3405).
+  Charts are inlined through the sanitiser, so they follow the palette mode
+  (3406). `create-tools/read-source` reads PDFs and scans (3404). Both
+  subjects are migrated —
+  [record](../008-content-model-authoring.md).
+
 ## Next
 
 - Layouts for the AI pane (korg 3377): it now holds ask and grow.

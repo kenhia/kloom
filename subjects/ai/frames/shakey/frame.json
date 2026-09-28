@@ -18,51 +18,10 @@
 			"label": "rooms in Shakey's world"
 		}
 	},
-	"sources": [
-		{
-			"title": "Shakey the robot — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Shakey_the_robot"
-		},
-		{
-			"title": "A* search algorithm — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/A*_search_algorithm"
-		},
-		{
-			"title": "Hough transform — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Hough_transform"
-		},
-		{
-			"title": "Stanford Research Institute Problem Solver — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver"
-		},
-		{
-			"title": "History of artificial intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-		},
-		{
-			"title": "Benjamin Kuipers, Edward A. Feigenbaum, Peter E. Hart, Nils J. Nilsson, “Shakey: From Conception to History”",
-			"url": "https://doi.org/10.1609/aimag.v38i1.2716",
-			"note": "AI Magazine, 2017"
-		},
-		{
-			"title": "Peter E. Hart, Nils J. Nilsson, Bertram Raphael, “A Formal Basis for the Heuristic Determination of Minimum Cost Paths”",
-			"url": "https://doi.org/10.1109/TSSC.1968.300136",
-			"note": "IEEE Transactions on Systems Science and Cybernetics, 1968"
-		},
-		{
-			"title": "Richard E. Fikes, Nils J. Nilsson, “STRIPS: A New Approach to the Application of Theorem Proving to Problem Solving”",
-			"url": "https://doi.org/10.1016/0004-3702(71)90010-5",
-			"note": "Artificial Intelligence, 1971"
-		},
-		{
-			"title": "Richard O. Duda, Peter E. Hart, “Use of the Hough Transformation to Detect Lines and Curves in Pictures”",
-			"url": "https://doi.org/10.1145/361237.361242",
-			"note": "Communications of the ACM, 1972"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Shakey the robot",
 			"url": "https://en.wikipedia.org/w/index.php?title=Shakey_the_robot&oldid=1340026653",
 			"accessed": "2026-09-27",
@@ -77,6 +36,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "A* search algorithm",
 			"url": "https://en.wikipedia.org/w/index.php?title=A%2A_search_algorithm&oldid=1374050155",
 			"accessed": "2026-09-27",
@@ -91,6 +51,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Hough transform",
 			"url": "https://en.wikipedia.org/w/index.php?title=Hough_transform&oldid=1367924421",
 			"accessed": "2026-09-27",
@@ -105,6 +66,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Stanford Research Institute Problem Solver",
 			"url": "https://en.wikipedia.org/w/index.php?title=Stanford_Research_Institute_Problem_Solver&oldid=1254516245",
 			"accessed": "2026-09-27",
@@ -119,6 +81,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "History of artificial intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
 			"accessed": "2026-09-27",
@@ -133,8 +96,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Shakey: From Conception to History",
-			"url": "https://doi.org/10.1609/aimag.v38i1.2716",
+			"doi": "10.1609/aimag.v38i1.2716",
 			"authors": [
 				{
 					"family": "Kuipers",
@@ -162,8 +126,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths",
-			"url": "https://doi.org/10.1109/TSSC.1968.300136",
+			"doi": "10.1109/TSSC.1968.300136",
 			"authors": [
 				{
 					"family": "Hart",
@@ -187,8 +152,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "STRIPS: A New Approach to the Application of Theorem Proving to Problem Solving",
-			"url": "https://doi.org/10.1016/0004-3702(71)90010-5",
+			"doi": "10.1016/0004-3702(71)90010-5",
 			"authors": [
 				{
 					"family": "Fikes",
@@ -208,8 +174,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Use of the Hough Transformation to Detect Lines and Curves in Pictures",
-			"url": "https://doi.org/10.1145/361237.361242",
+			"doi": "10.1145/361237.361242",
 			"authors": [
 				{
 					"family": "Duda",

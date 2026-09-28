@@ -18,33 +18,10 @@
 			"label": "the most an interrogator should get right, by 2000"
 		}
 	},
-	"sources": [
-		{
-			"title": "Computing Machinery and Intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence"
-		},
-		{
-			"title": "Turing test — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Turing_test"
-		},
-		{
-			"title": "Alan Turing — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Alan_Turing"
-		},
-		{
-			"title": "A. M. Turing, Computing Machinery and Intelligence",
-			"url": "https://doi.org/10.1093/mind/LIX.236.433",
-			"note": "Mind, 1950-10"
-		},
-		{
-			"title": "Cameron R. Jones, Benjamin K. Bergen, Large Language Models Pass the Turing Test",
-			"url": "https://arxiv.org/abs/2503.23674",
-			"note": "arXiv preprint 2503.23674, 2025-03-31"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Computing Machinery and Intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=Computing_Machinery_and_Intelligence&oldid=1374518767",
 			"accessed": "2026-09-27",
@@ -59,6 +36,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Turing test",
 			"url": "https://en.wikipedia.org/w/index.php?title=Turing_test&oldid=1374125371",
 			"accessed": "2026-09-27",
@@ -73,6 +51,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Alan Turing",
 			"url": "https://en.wikipedia.org/w/index.php?title=Alan_Turing&oldid=1377040312",
 			"accessed": "2026-09-27",
@@ -87,8 +66,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Computing Machinery and Intelligence",
-			"url": "https://doi.org/10.1093/mind/LIX.236.433",
+			"doi": "10.1093/mind/LIX.236.433",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -104,6 +84,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Large Language Models Pass the Turing Test",
 			"url": "https://arxiv.org/abs/2503.23674",
 			"accessed": "2026-09-27",
@@ -138,7 +119,7 @@
 		{
 			"kind": "media",
 			"title": "Storage capacity in Turing’s 1950 paper, in binary digits",
-			"url": "https://doi.org/10.1093/mind/LIX.236.433",
+			"doi": "10.1093/mind/LIX.236.433",
 			"accessed": "2026-09-27",
 			"authors": [
 				{

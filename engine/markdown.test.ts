@@ -64,6 +64,20 @@ describe('renderMarkdown', () => {
 	});
 });
 
+describe('an inlined drawing', () => {
+	it('stands in for the image, named by its alt text, with its credit after it', () => {
+		const image = () => ({
+			src: '/media/f/c.svg',
+			credit: 'kloom / MIT',
+			svg: '<svg aria-hidden="true"/>'
+		});
+		expect(renderMarkdown('![A <chart>](c.svg)', { image })).toBe(
+			'<p><span class="figure chart" role="img" aria-label="A &lt;chart&gt;"><svg aria-hidden="true"/></span>' +
+				'<span class="credit">kloom / MIT</span></p>\n'
+		);
+	});
+});
+
 describe('imageRefs', () => {
 	it('lists every image, including ones inside other blocks', () => {
 		expect(imageRefs('![a](one.png)\n\n> quote ![b](two.svg)\n\n- [![c](three.jpg)](x)')).toEqual([

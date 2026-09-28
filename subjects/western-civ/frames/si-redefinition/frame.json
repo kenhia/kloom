@@ -15,47 +15,48 @@
 			"label": "constants of nature fixed exactly"
 		}
 	},
-	"sources": [
-		{
-			"title": "2019 revision of the SI — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/2019_revision_of_the_SI"
-		},
-		{
-			"title": "International Prototype of the Kilogram — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/International_Prototype_of_the_Kilogram"
-		},
-		{
-			"title": "Kibble balance — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Kibble_balance"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "2019 revision of the SI",
 			"url": "https://en.wikipedia.org/w/index.php?title=2019_revision_of_the_SI&oldid=1376343345",
 			"accessed": "2026-09-27",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-23"
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "International Prototype of the Kilogram",
 			"url": "https://en.wikipedia.org/w/index.php?title=International_Prototype_of_the_Kilogram&oldid=1374575555",
 			"accessed": "2026-09-27",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-12"
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Kibble balance",
 			"url": "https://en.wikipedia.org/w/index.php?title=Kibble_balance&oldid=1373150893",
 			"accessed": "2026-09-27",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-04"

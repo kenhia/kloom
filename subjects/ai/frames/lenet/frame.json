@@ -18,39 +18,12 @@
 		},
 		"illustration": "scene.svg"
 	},
-	"sources": [
-		{
-			"title": "Y. LeCun et al., Backpropagation Applied to Handwritten Zip Code Recognition",
-			"url": "https://doi.org/10.1162/neco.1989.1.4.541",
-			"note": "Neural Computation, 1989"
-		},
-		{
-			"title": "Yann LeCun et al., Gradient-Based Learning Applied to Document Recognition",
-			"url": "https://doi.org/10.1109/5.726791",
-			"note": "Proceedings of the IEEE, 1998"
-		},
-		{
-			"title": "LeNet — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/LeNet"
-		},
-		{
-			"title": "MNIST database — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/MNIST_database"
-		},
-		{
-			"title": "Yann LeCun — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Yann_LeCun"
-		},
-		{
-			"title": "History of artificial intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Backpropagation Applied to Handwritten Zip Code Recognition",
-			"url": "https://doi.org/10.1162/neco.1989.1.4.541",
+			"doi": "10.1162/neco.1989.1.4.541",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -90,8 +63,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Gradient-Based Learning Applied to Document Recognition",
-			"url": "https://doi.org/10.1109/5.726791",
+			"doi": "10.1109/5.726791",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -119,6 +93,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "LeNet",
 			"url": "https://en.wikipedia.org/w/index.php?title=LeNet&oldid=1372994034",
 			"accessed": "2026-09-27",
@@ -133,6 +108,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "MNIST database",
 			"url": "https://en.wikipedia.org/w/index.php?title=MNIST_database&oldid=1374888496",
 			"accessed": "2026-09-27",
@@ -147,6 +123,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Yann LeCun",
 			"url": "https://en.wikipedia.org/w/index.php?title=Yann_LeCun&oldid=1376879334",
 			"accessed": "2026-09-27",
@@ -161,6 +138,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "History of artificial intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
 			"accessed": "2026-09-27",

@@ -14,34 +14,10 @@
 			"label": "attention heads per layer, Llama 3 405B"
 		}
 	},
-	"sources": [
-		{
-			"title": "Ashish Vaswani et al., Attention Is All You Need",
-			"url": "https://arxiv.org/abs/1706.03762",
-			"note": "NeurIPS 2017"
-		},
-		{
-			"title": "Nelson Elhage et al., A Mathematical Framework for Transformer Circuits",
-			"url": "https://transformer-circuits.pub/2021/framework/index.html",
-			"note": "Transformer Circuits Thread, 2021"
-		},
-		{
-			"title": "Catherine Olsson et al., In-context Learning and Induction Heads",
-			"url": "https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html",
-			"note": "Transformer Circuits Thread, 2022"
-		},
-		{
-			"title": "Llama Team, AI @ Meta, The Llama 3 Herd of Models",
-			"url": "https://arxiv.org/abs/2407.21783"
-		},
-		{
-			"title": "Transformer (deep learning) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)"
-		}
-	],
 	"citations": [
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Attention Is All You Need",
 			"url": "https://arxiv.org/abs/1706.03762",
 			"accessed": "2026-09-27",
@@ -85,6 +61,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "A Mathematical Framework for Transformer Circuits",
 			"url": "https://transformer-circuits.pub/2021/framework/index.html",
 			"accessed": "2026-09-27",
@@ -101,6 +78,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "In-context Learning and Induction Heads",
 			"url": "https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html",
 			"accessed": "2026-09-27",
@@ -117,6 +95,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "The Llama 3 Herd of Models",
 			"url": "https://arxiv.org/abs/2407.21783",
 			"accessed": "2026-09-27",
@@ -130,6 +109,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Transformer (deep learning)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Transformer_(deep_learning)&oldid=1377087904",
 			"accessed": "2026-09-27",

@@ -4,7 +4,6 @@
 	"heading": "FEATURES IN ONE DICTIONARY · LOG SCALE",
 	"unit": "",
 	"scale": "log",
-	"colours": { "background": "#f7f6f2", "ink": "#1b1a24", "muted": "#625f70", "accent": "#5236c9" },
 	"axis": {
 		"min": 100,
 		"max": 100000000,

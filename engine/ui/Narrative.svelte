@@ -186,6 +186,21 @@
 	.body :global(.figure) {
 		display: block;
 	}
+	/* An inlined chart draws in currentColor and names its palette hooks, so
+	   it follows the reader's palette mode and fades with the page. */
+	.body :global(.chart svg) {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: 1rem auto 0.25rem;
+		color: var(--ink);
+	}
+	.body :global(.chart .muted) {
+		color: var(--muted);
+	}
+	.body :global(.chart .accent) {
+		color: var(--accent);
+	}
 	.body :global(.credit) {
 		display: block;
 		font-size: 0.75rem;

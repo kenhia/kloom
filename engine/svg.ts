@@ -274,24 +274,63 @@ function check(el: Element, fail: (what: string) => void) {
 	for (const c of el.children) if (typeof c !== 'string') check(c, fail);
 }
 
-function serialise(el: Element): string {
-	const attrs = el.attributes.map(([k, v]) => ` ${k}="${escapeAttr(v)}"`).join('');
+type Rewrite = (key: string, value: string) => string;
+
+function serialise(el: Element, rewrite: Rewrite): string {
+	const attrs = el.attributes.map(([k, v]) => ` ${k}="${escapeAttr(rewrite(k, v))}"`).join('');
 	if (el.children.length === 0) return `<${el.name}${attrs}/>`;
-	const inner = el.children.map((c) => (typeof c === 'string' ? escapeText(c) : serialise(c)));
+	const inner = el.children.map((c) =>
+		typeof c === 'string' ? escapeText(c) : serialise(c, rewrite)
+	);
 	return `<${el.name}${attrs}>${inner.join('')}</${el.name}>`;
 }
+
+export interface InlineOptions {
+	/**
+	 * Prefixed to every id and to every reference to one (`url(#id)`,
+	 * `aria-labelledby`), so two drawings inlined in one page cannot collide.
+	 */
+	idPrefix?: string;
+	/**
+	 * Hide the drawing from assistive technology: the root gets
+	 * `aria-hidden="true"` and loses its role and labels, because the page
+	 * names it (a chart's wrapper carries the reading's alt text).
+	 */
+	decorative?: boolean;
+}
+
+const REFERENCES = new Set(['aria-labelledby', 'aria-describedby']);
 
 /**
  * Check an SVG against the allowlist, and return the markup to inline: the
  * parse, re-serialised. Problems are collected rather than thrown, so an
  * author (or a grow job) sees all of them at once.
  */
-export function sanitiseSvg(source: string): SanitisedSvg {
+export function sanitiseSvg(source: string, options: InlineOptions = {}): SanitisedSvg {
 	const problems: string[] = [];
 	const fail = (what: string) => {
 		if (!problems.includes(what)) problems.push(what);
 	};
 	const root = parse(source, fail);
 	if (root) check(root, fail);
-	return { svg: root && problems.length === 0 ? serialise(root) : null, problems };
+	if (!root || problems.length) return { svg: null, problems };
+
+	const prefix = options.idPrefix ?? '';
+	if (options.decorative) {
+		root.attributes = root.attributes.filter(([k]) => k !== 'role' && !k.startsWith('aria-'));
+		root.attributes.push(['aria-hidden', 'true']);
+	}
+	const rewrite: Rewrite = !prefix
+		? (_, v) => v
+		: (key, value) =>
+				key === 'id'
+					? prefix + value
+					: REFERENCES.has(key)
+						? value
+								.split(/\s+/)
+								.filter(Boolean)
+								.map((id) => prefix + id)
+								.join(' ')
+						: value.replace(/url\(\s*(['"]?)#/gi, `url($1#${prefix}`);
+	return { svg: serialise(root, rewrite), problems };
 }

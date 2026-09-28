@@ -18,32 +18,10 @@
 			"label": "asked of the Rockefeller Foundation"
 		}
 	},
-	"sources": [
-		{
-			"title": "Dartmouth workshop — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Dartmouth_workshop"
-		},
-		{
-			"title": "John McCarthy (computer scientist) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
-		},
-		{
-			"title": "Allen Newell — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Allen_Newell"
-		},
-		{
-			"title": "Logic Theorist — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Logic_Theorist"
-		},
-		{
-			"title": "J. McCarthy, M. L. Minsky, N. Rochester, C. E. Shannon, A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence (31 August 1955)",
-			"url": "http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
-			"note": "John McCarthy's web pages, Stanford University"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Dartmouth workshop",
 			"url": "https://en.wikipedia.org/w/index.php?title=Dartmouth_workshop&oldid=1360638286",
 			"accessed": "2026-09-27",
@@ -58,6 +36,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "John McCarthy (computer scientist)",
 			"url": "https://en.wikipedia.org/w/index.php?title=John_McCarthy_(computer_scientist)&oldid=1376004614",
 			"accessed": "2026-09-27",
@@ -72,6 +51,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Allen Newell",
 			"url": "https://en.wikipedia.org/w/index.php?title=Allen_Newell&oldid=1375521541",
 			"accessed": "2026-09-27",
@@ -86,6 +66,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Logic Theorist",
 			"url": "https://en.wikipedia.org/w/index.php?title=Logic_Theorist&oldid=1366443812",
 			"accessed": "2026-09-27",
@@ -100,6 +81,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
 			"url": "http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
 			"authors": [
