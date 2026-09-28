@@ -207,3 +207,23 @@ systemctl --user restart kloom.service && just verify
 ```
 
 The migration commit then rides along into Ken's eventual grow/kai PR.
+
+## Deployed
+
+- **2026-09-28, kai, `just deploy` from merged main `1d377c9`** (sprint-ship
+  Phase 7). As predicted in §Deploy, the recipe's `just verify` failed
+  after the restart: both doors returned 500 on read. `syncContent` had
+  rebased the unmerged Faraday commit onto the new main as `ee62767`, and
+  its old-form frame made western-civ invalid.
+- **The content-clone step, as Ken chose:** `sprints/008-migrate.py` over
+  the clone migrated 1 of 90 frames (`faraday-induction`), and Prettier
+  left it unchanged. Committed `2b14f34` on `grow/kai` as `kloom grow` and
+  pushed. Then the unit was restarted and `just verify` passed: both doors
+  read, the tailnet door refuses an anonymous write, and the ssh door lets
+  one through.
+- **The sprint's own behaviour, live on :4891.** western-civ inlines 1
+  chart and ai inlines 11, with no `<img>` of an SVG left. The Sources list
+  links pinned `oldid=` revisions (derived from key citations). The
+  migrated Faraday frame is served. `/media/ai/dartmouth/budget.svg` still
+  serves the file (200). The service was down for about a minute, between
+  the deploy's restart and the clone migration.
