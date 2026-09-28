@@ -196,8 +196,11 @@ Built in sprint 004 (korg 3360).
   heading names that frame ("About Knowledge went VIRAL. · Sonnet 5"). A new
   question replaces the current one, cancelling it if it is still running.
 - **Which frame.** The question is about the frame in the reading pane, which
-  in manual sync can differ from the spine's: the reader is asking about
-  what they are reading. The trail is sent only if it holds that frame.
+  can differ from the spine's when the reader has turned following off: they
+  are asking about what they are reading. The trail is sent only if it holds
+  that frame. With following on (the default), moving the spine mid-answer
+  moves the reading pane too, and the answer stays put: its heading names
+  its frame and a line under it says the reader has moved on.
 - **Transient.** The answer shows in the AI pane, rendered with the reading's
   markdown rules and with images turned off (a model's image would be a
   request to anywhere). It is not stored, and a reload forgets it. The
@@ -364,15 +367,20 @@ Built in sprint 005 (korg 3364).
 - **Scroll ownership.** The wheel over the spine pane moves along the spine;
   the wheel over the narrative scrolls the narrative. Never both — a good
   narrative is often longer than a screen.
-- **Narrative sync is a setting.** Default (Ken's preference): manual — scroll
-  the spine, then "Sync Narrative" when something is worth diving into.
-  Alternative: the narrative follows the spine.
-  The choice is remembered per browser.
+- **The narrative follows the spine** (Ken, 2026-09-27, sprint 006, korg
+  3391). Moving along the spine turns the reading to that frame. Separate
+  movement was the first default, with a "Sync Narrative" button, and it
+  proved the wrong one in use. Not following is a reader setting,
+  "Narrative: Stays until S", in the settings control (`kloom.followSpine`).
+  With it, the reading stays put until S brings it to the spine, and the
+  toolbar's status line says where each one is. The button is gone; S
+  remains.
 - **One gesture, one frame.** Wheel deltas over the spine accumulate to a
   threshold, then a cooldown swallows the trackpad's inertia.
 - **Keyboard first.** Left/Right move along the spine (Home/End jump to its
   ends); Up/Down scroll the narrative; S syncs the narrative; T enters the
-  trail branching from the current frame and Esc leaves it; Tab moves into
+  trail branching from the current frame and Esc leaves it (S matters only
+  when the reader has turned following off); Tab moves into
   and out of the AI pane, and Esc anywhere in it returns to the spine. Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
@@ -539,10 +547,11 @@ Built in sprint 003 (korg 3373, 3372).
 - **Placement:** the end of the narrative's toolbar, beside the other user
   setting. It is clear of the spine's corner brackets, and it wraps with the
   toolbar at phone width.
-- **"Follow the spine" stays in the toolbar.** It is a user setting, but it
-  sits beside the Sync Narrative button it modifies, and a reader toggles it
-  while reading. Moving it behind the gear would cost a click and separate
-  it from its context. It keeps its own `kloom.sync` key.
+- **Narrative following** (sprint 006, korg 3391) is a row in the registry,
+  "Narrative": _Follows the spine_ (the default) or _Stays until S_, stored
+  under `kloom.followSpine`. It sat in the toolbar as a checkbox beside the
+  Sync Narrative button until that button went. The old `kloom.sync` key is
+  not read, so everyone starts on the new default.
 - **Palette mode:** Mixed (each frame's own palette, the default), Dark or
   Light, stored under `kloom.palette`. The OS `prefers-color-scheme` is not
   consulted. Mixed is the designed experience, the palette tracking the era,

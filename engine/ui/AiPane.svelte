@@ -11,8 +11,9 @@
 
 	interface Props {
 		/**
-		 * The frame in the reading pane: what a question is asked about. In manual
-		 * sync it can differ from the spine's; the reader is asking about what they read.
+		 * The frame in the reading pane: what a question is asked about. When the
+		 * reader has turned following off it can differ from the spine's; they are
+		 * asking about what they read.
 		 */
 		frame: Frame;
 		trail: Trail | null;
@@ -348,6 +349,9 @@
 				<span aria-hidden="true">About</span>
 				{turn.about} · {turn.model}{turn.web ? ' · web' : ''}
 			</h3>
+			{#if turn.frame !== frame.id}
+				<p class="moved">You have moved on; this answer stays with the frame it was asked about.</p>
+			{/if}
 			<p class="question">{turn.question}</p>
 			{#if answerHtml}
 				<!-- Rendered by renderMarkdown: raw HTML escaped, unsafe links dropped, no images. -->
@@ -561,6 +565,11 @@
 	.question {
 		margin: 0.25rem 0 0;
 		font-style: italic;
+	}
+	.moved {
+		margin: 0.25rem 0 0;
+		font-size: 0.75rem;
+		color: var(--muted);
 	}
 	.text :global(p),
 	.text :global(ul),

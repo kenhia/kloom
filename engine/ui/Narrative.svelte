@@ -8,11 +8,10 @@
 		frame: Frame;
 		/** The frame under the spine cursor, to say when the two differ. */
 		spineFrame: Frame;
+		/** Whether the reading follows the spine (a reader setting). */
 		sync: SyncMode;
 		/** Trails that branch from the narrative's frame. */
 		trails: Trail[];
-		onsync: () => void;
-		onsyncmode: (mode: SyncMode) => void;
 		onenter: (trail: Trail) => void;
 		/** The scrolling element, so the shell can drive it from the keyboard. */
 		element?: HTMLElement;
@@ -20,17 +19,7 @@
 		tools?: Snippet;
 	}
 
-	let {
-		frame,
-		spineFrame,
-		sync,
-		trails,
-		onsync,
-		onsyncmode,
-		onenter,
-		element = $bindable(),
-		tools
-	}: Props = $props();
+	let { frame, spineFrame, sync, trails, onenter, element = $bindable(), tools }: Props = $props();
 
 	const behind = $derived(frame.id !== spineFrame.id);
 
@@ -43,25 +32,17 @@
 
 <section class="narrative" aria-label="Narrative">
 	<div class="controls">
-		<button type="button" class="sync" onclick={onsync} aria-describedby="sync-state">
-			Sync Narrative <kbd>S</kbd>
-		</button>
-		<label class="follow">
-			<input
-				type="checkbox"
-				checked={sync === 'follow'}
-				onchange={(e) => onsyncmode(e.currentTarget.checked ? 'follow' : 'manual')}
-			/>
-			Follow the spine
-		</label>
-		{@render tools?.()}
 		<p id="sync-state" class="state" aria-live="polite">
 			{#if behind}
-				Showing {frame.position.label}; the spine is at {spineFrame.position.label}.
+				Showing {frame.position.label}; the spine is at {spineFrame.position.label}. <kbd>S</kbd>
+				brings the reading here.
+			{:else if sync === 'follow'}
+				Following the spine.
 			{:else}
 				In step with the spine.
 			{/if}
 		</p>
+		{@render tools?.()}
 	</div>
 
 	<!-- Focusable because it scrolls: keyboard users must be able to reach it. -->
@@ -141,22 +122,8 @@
 		border-bottom: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
 		font-size: 0.875rem;
 	}
-	.sync {
-		font: inherit;
-		padding: 0.35rem 0.75rem;
-		color: var(--ink);
-		background: none;
-		border: 1px solid var(--accent);
-		border-radius: 0.25rem;
-		cursor: pointer;
-	}
-	.follow {
-		display: inline-flex;
-		gap: 0.35rem;
-		align-items: center;
-	}
 	.state {
-		flex-basis: 100%;
+		flex: 1;
 		margin: 0;
 		color: var(--muted);
 		font-size: 0.8rem;

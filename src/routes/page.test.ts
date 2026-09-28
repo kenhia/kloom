@@ -3,7 +3,7 @@ import { render } from 'svelte/server';
 import { beforeAll, describe, expect, it } from 'vitest';
 import { loadSubject } from '$engine/load';
 import type { Subject } from '$engine/model';
-import { paletteMode } from '$engine/settings';
+import { followSpine, paletteMode } from '$engine/settings';
 import Shell from '$engine/ui/Shell.svelte';
 import { UserSettings } from '$engine/user-settings.svelte';
 import Page from './+page.svelte';
@@ -75,10 +75,10 @@ describe('the shell', () => {
 		expect(page().body).toContain(`--background: ${subject.palettes.night.background}`);
 	});
 
-	it('offers a Sync Narrative control and the Ask input', () => {
+	it('has no Sync Narrative button, says it follows the spine, and offers the Ask input', () => {
 		const body = text(page().body);
-		expect(body).toContain('Sync Narrative');
-		expect(body).toContain('Follow the spine');
+		expect(body).not.toContain('Sync Narrative');
+		expect(body).toContain('Following the spine.');
 		expect(page().body).toMatch(/<textarea[^>]*id="ai-input"/);
 		expect(page().body).toMatch(/<label for="ai-input"[^>]*>Ask a question about this frame</);
 		expect(body).toContain('Send');
@@ -113,9 +113,9 @@ describe('the settings control', () => {
 		expect(at).toMatch(/role="group"/);
 	});
 
-	it('sits in the narrative toolbar, after Follow the spine, before the reading', () => {
+	it('sits in the narrative toolbar, after the sync state, before the reading', () => {
 		const { body } = page();
-		expect(body.indexOf('Follow the spine')).toBeLessThan(body.indexOf('class="gear'));
+		expect(body.indexOf('id="sync-state"')).toBeLessThan(body.indexOf('class="gear'));
 		expect(body.indexOf('class="gear')).toBeLessThan(body.indexOf('<article'));
 	});
 
@@ -130,14 +130,33 @@ describe('the settings control', () => {
 
 	it('offers the ask model as a drop-down of the app config’s models, Sonnet 5 by default', () => {
 		const { body } = page();
-		const id = [...body.matchAll(/<select[^>]*id="([^"]+)"/g)][1][1];
-		expect(body).toMatch(new RegExp(`<label for="${id}"[^>]*>Ask model</label>`));
+		const id = /<label for="([^"]+)"[^>]*>Ask model<\/label>/.exec(body)![1];
 		const select = body.slice(
 			body.indexOf(`id="${id}"`),
 			body.indexOf('</select>', body.indexOf(`id="${id}"`))
 		);
 		expect(select).toMatch(/<option value="claude-sonnet-5"[^>]*selected[^>]*>Sonnet 5</);
 		expect(select).toMatch(/<option value="claude-opus-5-5"[^>]*>Opus 5.5</);
+	});
+});
+
+describe('narrative following', () => {
+	it('is a setting, on by default', () => {
+		const { body } = page();
+		const id = /<label for="([^"]+)"[^>]*>Narrative<\/label>/.exec(body)?.[1];
+		expect(id).toBeDefined();
+		expect(body).toMatch(
+			new RegExp(`<select id="${id}"[^>]*>[\\s\\S]*?<option value="follow"[^>]*selected`)
+		);
+		expect(text(body)).toContain('Stays until S');
+	});
+
+	it('says the reading is in step when the reader has turned following off', () => {
+		const settings = new UserSettings([followSpine], () => null);
+		settings.set('followSpine', 'manual');
+		expect(text(render(Shell, { props: { subject, settings } }).body)).toContain(
+			'In step with the spine.'
+		);
 	});
 });
 

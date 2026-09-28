@@ -3,7 +3,14 @@
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
 	import { invalidateAll } from '$app/navigation';
-	import { ASK_MODEL, GROW_MODEL, modelSetting, paletteFor, paletteMode } from '$engine/settings';
+	import {
+		ASK_MODEL,
+		followSpine,
+		GROW_MODEL,
+		modelSetting,
+		paletteFor,
+		paletteMode
+	} from '$engine/settings';
 	import { UserSettings } from '$engine/user-settings.svelte';
 	import { inscription, loomCredit } from '$lib/start/credit';
 	import type { PageProps } from './$types';
@@ -18,6 +25,7 @@
 	const growModels = untrack(() => data.growModels);
 	const settings = new UserSettings([
 		paletteMode,
+		followSpine,
 		modelSetting(
 			ASK_MODEL,
 			'Ask model',
