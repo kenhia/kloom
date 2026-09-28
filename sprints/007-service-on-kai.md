@@ -147,3 +147,18 @@ later (3413 onward).
   start-up sync logged "grow/kai has 1 grow commit(s) waiting for a PR".
 - The deploy after the merge should run from `main`, so that `app/DEPLOYED`
   names a commit on main.
+
+### From merged main (sprint-ship)
+
+- **2026-09-28**: `just deploy` ran from `main` at `f2317b2` (the squash
+  merge of PR #7), declared as `recipe: deploy` in `.sprint-deploy`. Its
+  `just verify` passed all four checks, and `app/DEPLOYED` names
+  `f2317b2`.
+- **The start-up sync ran its rebase case for real.** Main had moved under
+  `grow/kai` with unrelated changes, so the Faraday grow commit was rebased
+  onto main as `6407ac8` and pushed with a lease. The journal said
+  "grow/kai's unmerged grow commits rebased onto origin/main". The rebased
+  commit kept its author, `Ken Hiatt <ken.hiatt@gmail.com>`. The clone is
+  clean, and one commit is ahead of main, waiting for its PR.
+- **Smoke test over ts.net:** cleo read the page (200), and kai, which is
+  tagged, got 401 on a write.
