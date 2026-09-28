@@ -1,0 +1,166 @@
+{
+	"id": "lighthill",
+	"position": {
+		"label": "1973",
+		"sort": 1973
+	},
+	"scene": {
+		"headline": "The money went",
+		"accent": "COLD.",
+		"palette": "terminal",
+		"metadata": [
+			"LONDON · SCIENCE RESEARCH COUNCIL · SIR JAMES LIGHTHILL",
+			"COMBINATORIAL EXPLOSION · MANSFIELD AMENDMENT, 1969"
+		],
+		"counter": {
+			"value": "2",
+			"label": "months of reading behind the report"
+		},
+		"illustration": "scene.svg"
+	},
+	"sources": [
+		{
+			"title": "James Lighthill, Artificial Intelligence: A General Survey",
+			"url": "https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm",
+			"note": "Artificial Intelligence: A Paper Symposium (London: Science Research Council), 1973"
+		},
+		{
+			"title": "Artificial Intelligence Applications Institute, University of Edinburgh, Freddy Robot",
+			"url": "https://www.aiai.ed.ac.uk/project/freddy/",
+			"note": "University of Edinburgh"
+		},
+		{
+			"title": "Lighthill report — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Lighthill_report"
+		},
+		{
+			"title": "AI winter — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/AI_winter"
+		},
+		{
+			"title": "James Lighthill — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/James_Lighthill"
+		},
+		{
+			"title": "Mike Mansfield — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Mike_Mansfield"
+		},
+		{
+			"title": "History of artificial intelligence — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Artificial Intelligence: A General Survey",
+			"url": "https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Lighthill",
+					"given": "James"
+				}
+			],
+			"container": "Artificial Intelligence: A Paper Symposium (London: Science Research Council)",
+			"published": "1973"
+		},
+		{
+			"kind": "web",
+			"title": "Freddy Robot",
+			"url": "https://www.aiai.ed.ac.uk/project/freddy/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Artificial Intelligence Applications Institute, University of Edinburgh"
+				}
+			],
+			"container": "University of Edinburgh"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lighthill report",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lighthill_report&oldid=1359900597",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AI winter",
+			"url": "https://en.wikipedia.org/w/index.php?title=AI_winter&oldid=1374895630",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Lighthill",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Lighthill&oldid=1372060075",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mike Mansfield",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mike_Mansfield&oldid=1364329705",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of artificial intelligence",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Freddy II, the Edinburgh hand–eye assembly robot, over its work table with parts for a toy assembly",
+			"url": "https://commons.wikimedia.org/wiki/File:Freddy-II-Robot.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "University of Edinburgh, Freddy II Project"
+				}
+			],
+			"published": "1973",
+			"container": "Photograph, Department of Machine Intelligence and Perception, University of Edinburgh; via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "freddy-ii.jpg"
+		}
+	]
+}

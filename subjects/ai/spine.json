@@ -34,6 +34,26 @@
 			]
 		},
 		{
+			"id": "winters",
+			"title": "Winters and booms",
+			"labelKind": "date",
+			"frames": [
+				"lighthill",
+				"expert-systems",
+				"backprop",
+				"lisp-collapse"
+			]
+		},
+		{
+			"id": "learning",
+			"title": "Learning from data",
+			"labelKind": "date",
+			"frames": [
+				"lenet",
+				"lstm"
+			]
+		},
+		{
 			"id": "frontier",
 			"title": "The frontier",
 			"labelKind": "technology",

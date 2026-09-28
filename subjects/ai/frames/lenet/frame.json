@@ -1,0 +1,192 @@
+{
+	"id": "lenet",
+	"position": {
+		"label": "1989",
+		"sort": 1989
+	},
+	"scene": {
+		"headline": "We taught it to",
+		"accent": "READ.",
+		"palette": "printout",
+		"metadata": [
+			"HOLMDEL, NEW JERSEY · AT&T BELL LABS · YANN LECUN",
+			"CONVOLUTION · SHARED WEIGHTS · 16 × 16 PIXELS"
+		],
+		"counter": {
+			"value": "20M",
+			"label": "cheques read a day by 2001 (est.)"
+		},
+		"illustration": "scene.svg"
+	},
+	"sources": [
+		{
+			"title": "Y. LeCun et al., Backpropagation Applied to Handwritten Zip Code Recognition",
+			"url": "https://doi.org/10.1162/neco.1989.1.4.541",
+			"note": "Neural Computation, 1989"
+		},
+		{
+			"title": "Yann LeCun et al., Gradient-Based Learning Applied to Document Recognition",
+			"url": "https://doi.org/10.1109/5.726791",
+			"note": "Proceedings of the IEEE, 1998"
+		},
+		{
+			"title": "LeNet — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/LeNet"
+		},
+		{
+			"title": "MNIST database — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/MNIST_database"
+		},
+		{
+			"title": "Yann LeCun — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Yann_LeCun"
+		},
+		{
+			"title": "History of artificial intelligence — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Backpropagation Applied to Handwritten Zip Code Recognition",
+			"url": "https://doi.org/10.1162/neco.1989.1.4.541",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "LeCun",
+					"given": "Y."
+				},
+				{
+					"family": "Boser",
+					"given": "B."
+				},
+				{
+					"family": "Denker",
+					"given": "J. S."
+				},
+				{
+					"family": "Henderson",
+					"given": "D."
+				},
+				{
+					"family": "Howard",
+					"given": "R. E."
+				},
+				{
+					"family": "Hubbard",
+					"given": "W."
+				},
+				{
+					"family": "Jackel",
+					"given": "L. D."
+				}
+			],
+			"container": "Neural Computation",
+			"volume": "1",
+			"issue": "4",
+			"pages": "541–51",
+			"published": "1989"
+		},
+		{
+			"kind": "article",
+			"title": "Gradient-Based Learning Applied to Document Recognition",
+			"url": "https://doi.org/10.1109/5.726791",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "LeCun",
+					"given": "Yann"
+				},
+				{
+					"family": "Bottou",
+					"given": "Léon"
+				},
+				{
+					"family": "Bengio",
+					"given": "Yoshua"
+				},
+				{
+					"family": "Haffner",
+					"given": "Patrick"
+				}
+			],
+			"container": "Proceedings of the IEEE",
+			"volume": "86",
+			"issue": "11",
+			"pages": "2278–2324",
+			"published": "1998-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "LeNet",
+			"url": "https://en.wikipedia.org/w/index.php?title=LeNet&oldid=1372994034",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "MNIST database",
+			"url": "https://en.wikipedia.org/w/index.php?title=MNIST_database&oldid=1374888496",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yann LeCun",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yann_LeCun&oldid=1376879334",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of artificial intelligence",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Samples of handwritten digits from the MNIST test set",
+			"url": "https://commons.wikimedia.org/wiki/File:MnistExamples.png",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Josef Steppan"
+				}
+			],
+			"published": "2017-12-14",
+			"container": "Image from the MNIST database; via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "mnist-examples.png"
+		}
+	]
+}
