@@ -4,10 +4,7 @@
 			"id": "dreams",
 			"title": "Dreams of thinking machines",
 			"labelKind": "category",
-			"frames": [
-				"talos",
-				"leibniz"
-			]
+			"frames": ["talos", "leibniz"]
 		},
 		{
 			"id": "foundations",
@@ -25,47 +22,25 @@
 			"id": "symbolic",
 			"title": "The symbolic age",
 			"labelKind": "date",
-			"frames": [
-				"dartmouth",
-				"logic-theorist",
-				"perceptron",
-				"eliza",
-				"shakey"
-			]
+			"frames": ["dartmouth", "logic-theorist", "perceptron", "eliza", "shakey"]
 		},
 		{
 			"id": "winters",
 			"title": "Winters and booms",
 			"labelKind": "date",
-			"frames": [
-				"lighthill",
-				"expert-systems",
-				"backprop",
-				"lisp-collapse"
-			]
+			"frames": ["lighthill", "expert-systems", "backprop", "lisp-collapse"]
 		},
 		{
 			"id": "learning",
 			"title": "Learning from data",
 			"labelKind": "date",
-			"frames": [
-				"lenet",
-				"lstm",
-				"deep-blue",
-				"imagenet",
-				"alexnet"
-			]
+			"frames": ["lenet", "lstm", "deep-blue", "imagenet", "alexnet"]
 		},
 		{
 			"id": "deep",
 			"title": "Deep learning",
 			"labelKind": "technology",
-			"frames": [
-				"word2vec",
-				"gans",
-				"resnet",
-				"alphago"
-			]
+			"frames": ["word2vec", "gans", "resnet", "alphago"]
 		},
 		{
 			"id": "transformers",
@@ -85,24 +60,13 @@
 			"id": "frontier",
 			"title": "The frontier",
 			"labelKind": "technology",
-			"frames": [
-				"multimodal",
-				"agents",
-				"reasoning-models",
-				"open-weights",
-				"compute"
-			]
+			"frames": ["multimodal", "agents", "reasoning-models", "open-weights", "compute"]
 		},
 		{
 			"id": "questions",
 			"title": "Open questions",
 			"labelKind": "category",
-			"frames": [
-				"alignment",
-				"interpretability",
-				"governance",
-				"where-we-are"
-			]
+			"frames": ["alignment", "interpretability", "governance", "where-we-are"]
 		}
 	]
 }

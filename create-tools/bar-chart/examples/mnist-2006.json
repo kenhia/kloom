@@ -14,7 +14,13 @@
 		]
 	},
 	"bars": [
-		{ "label": "Deep belief", "sublabel": "net, 2006", "value": 1.25, "display": "1.25%", "highlight": true },
+		{
+			"label": "Deep belief",
+			"sublabel": "net, 2006",
+			"value": 1.25,
+			"display": "1.25%",
+			"highlight": true
+		},
 		{ "label": "SVM", "sublabel": "degree-9 kernel", "value": 1.4, "display": "1.4%" },
 		{ "label": "Backprop", "sublabel": "500-300", "value": 1.51, "display": "1.51%" },
 		{ "label": "Backprop", "sublabel": "800", "value": 1.53, "display": "1.53%" },

@@ -21,6 +21,17 @@ describe.each(subjects)('the %s subject', (id) => {
 		expect(validate(await readSubject(dir))).toEqual([]);
 	});
 
+	// House style: the accent word is the frame's signature, so none repeats in a subject.
+	it('gives every frame its own accent word', async () => {
+		const subject = await loadSubject(dir);
+		const seen = new Map<string, string>();
+		for (const frame of Object.values(subject.frames)) {
+			const word = frame.scene.accent.toUpperCase().replace(/[.!?]+$/, '');
+			expect(seen.get(word), `${frame.id} repeats ${word}`).toBeUndefined();
+			seen.set(word, frame.id);
+		}
+	});
+
 	it('inlines every illustration, and cites every frame with Wikipedia pinned', async () => {
 		const subject = await loadSubject(dir);
 		for (const frame of Object.values(subject.frames)) {
