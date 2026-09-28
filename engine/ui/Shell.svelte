@@ -191,6 +191,7 @@
 	</Narrative>
 
 	<AiPane
+		subject={subject.id}
 		frame={narrativeFrame}
 		{trail}
 		{settings}

@@ -10,6 +10,8 @@
 	import type { UserSettings } from '../user-settings.svelte';
 
 	interface Props {
+		/** The subject's id: every API call names it. */
+		subject: string;
 		/**
 		 * The frame in the reading pane: what a question is asked about. When the
 		 * reader has turned following off it can differ from the spine's; they are
@@ -28,6 +30,7 @@
 	}
 
 	let {
+		subject,
 		frame,
 		trail,
 		settings,
@@ -108,6 +111,7 @@
 				method: 'POST',
 				headers: { 'content-type': 'application/json' },
 				body: JSON.stringify({
+					subject,
 					frame: frame.id,
 					trail: trailOf(frame.id),
 					question: q,
@@ -168,7 +172,7 @@
 			const res = await fetch('/api/keep', {
 				method: 'POST',
 				headers: { 'content-type': 'application/json' },
-				body: JSON.stringify({ id: t.id })
+				body: JSON.stringify({ subject, id: t.id })
 			});
 			const body = await res.json().catch(() => null);
 			if (!res.ok) throw new Error(body?.message ?? `status ${res.status}`);
@@ -244,7 +248,7 @@
 		clearTimeout(poll);
 		let next: GrowJob[];
 		try {
-			const res = await fetch('/api/grow');
+			const res = await fetch(`/api/grow?subject=${encodeURIComponent(subject)}`);
 			if (!res.ok) throw new Error(`status ${res.status}`);
 			next = (await res.json()).jobs;
 		} catch {
@@ -275,6 +279,7 @@
 				method: 'POST',
 				headers: { 'content-type': 'application/json' },
 				body: JSON.stringify({
+					subject,
 					verb,
 					frame: frame.id,
 					request,

@@ -44,3 +44,42 @@ in this order:
   answer stays with the frame it was asked about". Keep and Grow from this
   use the answer's own frame, as before.
 - `docs/design.md` §Interaction, §Settings and §Ask were rewritten for it.
+
+### Several subjects (3396)
+
+- **`/<subject>` for every subject, with `/` redirecting.** `src/routes/
+[subject]/` holds the page, and `src/routes/+server.ts` redirects `/` (307)
+  to `$KLOOM_SUBJECT`, or to the first served subject if that one is gone.
+  A subject is a directory under `$KLOOM_SUBJECTS_DIR` whose name matches
+  `[a-z0-9][a-z0-9-]*` and that holds a readable `subject.json`
+  (`listSubjects`, `src/lib/server/config.ts`). `subjectDirFor` checks an
+  id against that listing, not only the pattern, so `..`, a hidden
+  directory or an upper-case name is simply unknown: a 404.
+- **The chooser is the start screen.** It adds an "Or open" row of links
+  under Begin, inside the dialog and after Begin in tab order. The engine
+  component takes resolved `{title, href}` pairs, so it never builds an app
+  route. The page wraps the shell in `{#key}` by subject, and "begun" is
+  remembered per subject. Opening another subject, or going Back to one,
+  therefore starts at that subject's start screen with a fresh spine, not
+  at the old index.
+- **Every API names its subject explicitly**, in the body. The other option
+  was nesting the APIs under `/[subject]/api/…`. A body field keeps
+  subjects and fixed routes out of each other's namespace, and it matches
+  the item's wording. Ask builds its context from the named subject. Keep
+  refuses an answer asked under another subject (the negative test was
+  seen failing without the check). Grow's list takes `?subject=`. Media
+  moved to `/media/<subject>/<frame>/<file>`, and the loader's existing
+  `mediaBase` option carries the prefix into the rendered reading.
+- **Grow: a queue per subject, one runner slot for the host.** Each subject
+  keeps its jobs under `<dataDir>/<subject>/grow/` as before. Every served
+  subject's queue is loaded at start, so a restart resumes all of them. The
+  runners share one slot, so two subjects never run `claude -p` grow jobs
+  at once. A job waiting on another subject's job reports "waiting for
+  another subject's grow job". The subject gate (`exclusive`) stays
+  global, which is over-broad but harmless with one runner.
+- **Settings stay global.** None of palette mode, narrative following, ask
+  model or grow model is about a subject.
+- A second request for the answer-in-flight check (3391) was made live: an
+  ask on "We stole FIRE.", then → while it streamed. The answer kept its
+  heading and showed the "moved on" line, and the reading moved to
+  "We learned to WRITE.".

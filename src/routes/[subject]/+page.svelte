@@ -3,6 +3,7 @@
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
 	import { invalidateAll } from '$app/navigation';
+	import { resolve } from '$app/paths';
 	import {
 		ASK_MODEL,
 		followSpine,
@@ -17,7 +18,9 @@
 
 	let { data }: PageProps = $props();
 
-	let started = $state(false);
+	// Begun per subject: opening another one shows its start screen first.
+	let begun = $state<string | null>(null);
+	const started = $derived(begun === data.subject.id);
 	let loom = $state<string | null>(null);
 
 	// The reader's settings. The ask and grow models' choices come from the app
@@ -40,6 +43,13 @@
 		paletteFor(data.subject, first.scene.palette, settings.get(paletteMode.id)!)
 	);
 
+	// The chooser: every other subject the app serves.
+	const others = $derived(
+		data.subjects
+			.filter((s) => s.id !== data.subject.id)
+			.map((s) => ({ title: s.title, href: resolve('/[subject]', { subject: s.id }) }))
+	);
+
 	// Large, so it arrives after the page as its own compressed chunk.
 	onMount(async () => {
 		settings.load();
@@ -51,13 +61,16 @@
 	<title>kloom · {data.subject.title}</title>
 </svelte:head>
 
-<Shell
-	subject={data.subject}
-	{settings}
-	ai={{ web: data.askWeb, grow: !!data.growModels }}
-	ongrown={() => invalidateAll()}
-	active={started}
-/>
+<!-- Keyed by subject: moving to another subject starts its shell afresh, at its start screen. -->
+{#key data.subject.id}
+	<Shell
+		subject={data.subject}
+		{settings}
+		ai={{ web: data.askWeb, grow: !!data.growModels }}
+		ongrown={() => invalidateAll()}
+		active={started}
+	/>
+{/key}
 
 {#if !started}
 	<StartScreen
@@ -67,6 +80,7 @@
 		art={loom}
 		credits={[loomCredit]}
 		palette={startPalette}
-		onbegin={() => (started = true)}
+		{others}
+		onbegin={() => (begun = data.subject.id)}
 	/>
 {/if}

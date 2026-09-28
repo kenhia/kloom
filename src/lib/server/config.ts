@@ -1,12 +1,57 @@
-import { resolve } from 'node:path';
+import { readdir, readFile } from 'node:fs/promises';
+import { join, resolve } from 'node:path';
 import { env } from '$env/dynamic/private';
 
 /**
- * Which subject this app serves. The engine never names one; this is the
- * app's choice, overridable per deployment.
+ * Which subjects this app serves: every directory under `$KLOOM_SUBJECTS_DIR`
+ * (default `subjects/`) that holds a `subject.json`. The engine never names
+ * one; this is the app's choice. `$KLOOM_SUBJECT` names the landing subject,
+ * the one `/` opens on.
  */
-export const subjectDir = () =>
-	resolve(env.KLOOM_SUBJECTS_DIR ?? 'subjects', env.KLOOM_SUBJECT ?? 'western-civ');
+export const subjectsDir = () => resolve(env.KLOOM_SUBJECTS_DIR ?? 'subjects');
+
+/** The landing subject's id. */
+export const defaultSubject = () => env.KLOOM_SUBJECT ?? 'western-civ';
+
+/** What a subject id may look like: a plain directory name, never a path. */
+export const SUBJECT_ID = /^[a-z0-9][a-z0-9-]*$/;
+
+/** A served subject: its id (the directory name) and title (from `subject.json`). */
+export interface SubjectEntry {
+	id: string;
+	title: string;
+}
+
+/** Every subject served, in id order; one whose `subject.json` is unreadable is left out. */
+export async function listSubjects(): Promise<SubjectEntry[]> {
+	const root = subjectsDir();
+	const dirs = await readdir(root, { withFileTypes: true }).catch(() => []);
+	const found: SubjectEntry[] = [];
+	for (const d of dirs) {
+		if (!d.isDirectory() || !SUBJECT_ID.test(d.name)) continue;
+		try {
+			const manifest = JSON.parse(await readFile(join(root, d.name, 'subject.json'), 'utf8'));
+			found.push({
+				id: d.name,
+				title: typeof manifest?.title === 'string' ? manifest.title : d.name
+			});
+		} catch {
+			// Not a subject (or a broken one): nothing to offer.
+		}
+	}
+	return found.sort((a, b) => a.id.localeCompare(b.id));
+}
+
+/**
+ * A subject's directory, or null when `id` is not one of the served subjects.
+ * Checked against the listing, not just the pattern, so no request can name a
+ * directory the app does not serve.
+ */
+export async function subjectDirFor(id: unknown): Promise<string | null> {
+	if (typeof id !== 'string' || !SUBJECT_ID.test(id)) return null;
+	const known = await listSubjects();
+	return known.some((s) => s.id === id) ? join(subjectsDir(), id) : null;
+}
 
 /**
  * Where the app keeps what it writes that is not subject content, such as

@@ -54,9 +54,10 @@ just build    # Node server in build/; run with `node build`
 
 Code lives in four places. `engine/` is the subject-agnostic model, loader,
 validation and UI. `subjects/<subject>/` holds one subject's content, one
-directory per frame. `src/` is the SvelteKit wiring that serves a subject
-(`KLOOM_SUBJECT`, default `western-civ`; `KLOOM_SUBJECTS_DIR`, default
-`subjects`). `create-tools/` holds the authoring scripts that made the
+directory per frame. `src/` is the SvelteKit wiring that serves every
+subject under `KLOOM_SUBJECTS_DIR` (default `subjects`) at `/<subject>`;
+`/` opens `KLOOM_SUBJECT` (default `western-civ`), and the start screen
+links the others. `create-tools/` holds the authoring scripts that made the
 content (plates, citations, charts, traced art); see its README. `skills/`
 holds the instructions a model writes content by: `skills/grow/SKILL.md` is
 what grow jobs follow, and they commit to the git repository the subject

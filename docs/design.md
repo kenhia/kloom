@@ -88,7 +88,7 @@ baked into the engine.
     Wikipedia url must be a permanent revision link (`oldid=`), because
     articles change.
   - An image or chart in the reading is a file in the frame's directory
-    (served at `/media/<frame>/<file>` with a no-script policy), and it is
+    (served at `/media/<subject>/<frame>/<file>` with a no-script policy), and it is
     shown only with a `media` citation naming that `file` and a `licence`.
     Where the licence needs attribution beside the work (anything but public
     domain or CC0), the image carries a short caption credit. Scene
@@ -154,7 +154,7 @@ Built in sprint 004 (korg 3360).
   config.
 
 - **The server builds the context.** The client sends
-  `{frame, trail, question, model}` to `POST /api/ask`. The server reads the
+  `{subject, frame, trail, question, model}` to `POST /api/ask`. The server reads the
   frame's content from disk, never from the request, and refuses an unknown
   frame, or a trail that does not hold the frame. Questions are capped at
   2000 characters. The model is honoured only if the app config lists it;
@@ -209,7 +209,7 @@ Built in sprint 004 (korg 3360).
   answering, ready, stopped and failed; the streaming text itself is not a
   live region.
 - **Keep this.** Once an answer is done, "Keep this" sends only its id to
-  `POST /api/keep`. The server remembers finished answers (the last 50, for
+  `POST /api/keep`, with the subject. The server remembers finished answers (the last 50, for
   an hour) and writes what it remembers, never text the client sends back.
   The file goes to `<dataDir>/<subject>/kept/<id>.json`, where `dataDir` is
   `$KLOOM_DATA_DIR` or `data/`, git-ignored. A kept answer is not subject
@@ -345,7 +345,10 @@ Built in sprint 005 (korg 3364).
   ```
 
 - **The queue** (`GrowQueue`, `src/lib/server/grow.ts`) runs one job at a
-  time, separately from ask's turns, and lets ten wait. Each job is a
+  time, separately from ask's turns, and lets ten wait. There is one queue
+  per subject (sprint 006), and they share one runner slot, so the host
+  still runs one grow job at a time; a job waiting on another subject's
+  says so. Each job is a
   `kloom.grow-job` JSON file under `<dataDir>/<subject>/grow/`, rewritten
   atomically at each step. The queue is loaded at server start
   (`hooks.server.ts` `init`), so **a restart resumes it**. A `queued` job
@@ -355,8 +358,9 @@ Built in sprint 005 (korg 3364).
 - **The model** is the reader's "Grow model" setting (default Opus 5.5,
   `grow.defaultModel`), captured when the job is queued. The server honours
   it only if the config lists it. The job and the commit record it.
-- **API.** `POST /api/grow` `{verb, frame, request, kept, model}` returns
-  202 and the job. `GET /api/grow` lists the ten newest. The AI pane's Grow
+- **API.** `POST /api/grow` `{subject, verb, frame, request, kept, model}`
+  returns 202 and the job. `GET /api/grow?subject=` lists that subject's ten
+  newest. The AI pane's Grow
   row is a verb select, a request field and Queue, with a job list. It
   polls every 3s while a job is live, announces the outcome in the status
   line, and reloads the page's data when one lands. After "Keep this", a
@@ -402,6 +406,32 @@ Built in sprint 005 (korg 3364).
   against them.
 - **Accuracy**: sources are mandatory on every frame, and the grow skill must
   produce them.
+
+## Several subjects
+
+Built in sprint 006 (korg 3396). One running app serves every subject.
+
+- **A route per subject.** `/<subject>` serves `subjects/<subject>/`
+  (`$KLOOM_SUBJECTS_DIR`). A subject is a directory whose name is a plain id
+  (`[a-z0-9][a-z0-9-]*`) and that holds a readable `subject.json`. An id is
+  checked against that listing, not just the pattern, so no request can
+  name a path. An unknown one is a 404. `/` redirects to `$KLOOM_SUBJECT`
+  (default `western-civ`), or to the first subject if that one is gone.
+- **The chooser is the start screen.** Under Begin, "Or open" links every
+  other subject, in the dialog's tab order after Begin. The page is keyed
+  by subject, so opening another one starts its shell afresh at its own
+  start screen.
+- **Every API names its subject.** Ask, keep and grow take `subject` in the
+  body (grow's job list takes `?subject=`), and media is served at
+  `/media/<subject>/…`. Keep refuses an answer that was asked under
+  another subject. Kept answers and grow jobs were already filed under
+  `<dataDir>/<subject>/`, and a grow job commits to its own subject's
+  directory.
+- **Settings stay global.** Palette mode, narrative following and the
+  models are one reader's choices about reading, not about a subject. None
+  is clearly per-subject, so none is scoped.
+- The engine still never names a subject: the shell passes `subject.id`
+  through, and the page resolves the chooser's links.
 
 ## Start screen
 

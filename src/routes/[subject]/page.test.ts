@@ -10,7 +10,9 @@ import Page from './+page.svelte';
 
 let subject: Subject;
 beforeAll(async () => {
-	subject = await loadSubject(join(import.meta.dirname, '..', '..', 'subjects', 'western-civ'));
+	subject = await loadSubject(
+		join(import.meta.dirname, '..', '..', '..', 'subjects', 'western-civ')
+	);
 });
 
 const askModels = {
@@ -22,7 +24,13 @@ const askModels = {
 };
 const growModels = { ...askModels, default: 'claude-opus-5-5' };
 const page = (askWeb = 'allow', grow: typeof growModels | null = growModels) =>
-	render(Page, { props: { data: { subject, askModels, askWeb, growModels: grow } } as never });
+	render(Page, {
+		props: { data: { subject, subjects, askModels, askWeb, growModels: grow } } as never
+	});
+const subjects = [
+	{ id: 'ai', title: 'History and Current State of AI' },
+	{ id: 'western-civ', title: 'The History of Western Civilization' }
+];
 
 /** Visible text: tags dropped, spaces collapsed. */
 const text = (html: string) => html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
@@ -96,6 +104,29 @@ describe('the shell', () => {
 		expect(text(body)).toContain('Image credit');
 		expect(body).toMatch(/class="shell[^"]*"[^>]*inert/);
 		expect(body.indexOf('The History of Western Civilization</h2>')).toBeGreaterThan(0);
+	});
+});
+
+describe('the subject chooser', () => {
+	it('links every other subject from the start screen, and not this one', () => {
+		const { body } = page();
+		const nav = body.match(
+			/<nav class="others[^"]*" aria-label="Other subjects">[\s\S]*?<\/nav>/
+		)![0];
+		expect(nav).toContain('href="/ai"');
+		expect(text(nav)).toContain('History and Current State of AI');
+		expect(nav).not.toContain('href="/western-civ"');
+		// Inside the dialog, after Begin in tab order.
+		expect(body.indexOf('class="begin')).toBeLessThan(body.indexOf('aria-label="Other subjects"'));
+	});
+
+	it('is absent when the app serves one subject', () => {
+		const one = render(Page, {
+			props: {
+				data: { subject, subjects: [subjects[1]], askModels, askWeb: 'allow', growModels }
+			} as never
+		});
+		expect(one.body).not.toContain('Other subjects');
 	});
 });
 

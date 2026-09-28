@@ -1,15 +1,13 @@
 import { error } from '@sveltejs/kit';
-import { basename } from 'node:path';
 import { askContext } from '$engine/ai/context';
 import { readReading } from '$engine/load';
 import { loadAppConfig, resolveModel, resolveWeb } from '$lib/server/app-config';
 import { answers, askEvents, MAX_QUESTION, ndjson, providerFor, queue } from '$lib/server/ask';
-import { subjectDir } from '$lib/server/config';
-import { servedSubject } from '$lib/server/subject';
+import { requireSubjectDir, servedSubject } from '$lib/server/subject';
 import type { RequestHandler } from './$types';
 
 /**
- * Ask: `{frame, trail, question, model, web}` in, the answer out as NDJSON
+ * Ask: `{subject, frame, trail, question, model, web}` in, the answer out as NDJSON
  * (`AskStreamEvent`s). The frame's content comes from disk, not the client,
  * the model is honoured only if the app config lists it, and `web` only if
  * the config does not deny it.
@@ -21,8 +19,8 @@ export const POST: RequestHandler = async ({ request }) => {
 	if (question.length > MAX_QUESTION)
 		error(400, `Questions are limited to ${MAX_QUESTION} characters.`);
 
-	const dir = subjectDir();
-	const subject = await servedSubject();
+	const dir = await requireSubjectDir(body?.subject);
+	const subject = await servedSubject(body?.subject);
 	const frame = typeof body?.frame === 'string' ? body.frame : '';
 	const reading = Object.hasOwn(subject.frames, frame) ? await readReading(dir, frame) : null;
 	const context = reading === null ? null : askContext(subject, frame, body?.trail, reading);
@@ -33,7 +31,7 @@ export const POST: RequestHandler = async ({ request }) => {
 
 	const config = await loadAppConfig();
 	const turn = {
-		subject: basename(dir),
+		subject: subject.id,
 		context,
 		question,
 		model: resolveModel(config, body?.model),

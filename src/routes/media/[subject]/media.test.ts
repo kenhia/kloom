@@ -1,8 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import { GET } from './[frame]/[file]/+server';
 
-const get = (frame: string, file: string) =>
-	Promise.resolve(GET({ params: { frame, file } } as never)).catch((e: { status: number }) => e);
+const get = (frame: string, file: string, subject = 'western-civ') =>
+	Promise.resolve(GET({ params: { subject, frame, file } } as never)).catch(
+		(e: { status: number }) => e
+	);
 
 describe('the media route', () => {
 	it('refuses names that could leave the frame directory', async () => {
@@ -13,6 +15,11 @@ describe('the media route', () => {
 			['printing-press', '.hidden.png']
 		])
 			expect(await get(frame, file)).toMatchObject({ status: 404 });
+	});
+
+	it('refuses a subject the app does not serve', async () => {
+		for (const subject of ['..', 'nope', '.git', 'Western-Civ', 'western-civ/..'])
+			expect(await get('printing-press', 'scene.svg', subject)).toMatchObject({ status: 404 });
 	});
 
 	it('serves a frame image with a locked-down policy', async () => {

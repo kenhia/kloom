@@ -16,10 +16,21 @@
 		credits: Citation[];
 		/** The colours to use: the start screen wears the first frame's. */
 		palette: Palette;
+		/** Other subjects the app serves, as links the page has resolved: the chooser. */
+		others?: { title: string; href: string }[];
 		onbegin: () => void;
 	}
 
-	let { title, subtitle, inscription, art, credits, palette, onbegin }: Props = $props();
+	let {
+		title,
+		subtitle,
+		inscription,
+		art,
+		credits,
+		palette,
+		others = [],
+		onbegin
+	}: Props = $props();
 
 	let button = $state<HTMLButtonElement>();
 	let leaving = $state(false);
@@ -105,6 +116,18 @@
 		<button type="button" class="begin" bind:this={button} onclick={begin}>
 			Begin <kbd>Enter</kbd>
 		</button>
+		{#if others.length}
+			<nav class="others" aria-label="Other subjects">
+				<span>Or open</span>
+				<ul>
+					{#each others as other (other.href)}
+						<!-- The page resolved these app routes. -->
+						<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+						<li><a href={other.href}>{other.title}</a></li>
+					{/each}
+				</ul>
+			</nav>
+		{/if}
 	</div>
 
 	{#if credits.length}
@@ -242,6 +265,27 @@
 	.begin:focus-visible {
 		outline: 2px solid var(--start-accent);
 		outline-offset: 3px;
+	}
+	.others {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.25rem 0.75rem;
+		margin-top: 0.5rem;
+		font-size: 0.875rem;
+		color: var(--start-muted);
+	}
+	.others ul {
+		display: contents;
+		list-style: none;
+	}
+	.others a {
+		color: var(--start-ink);
+		text-decoration-color: var(--start-accent);
+	}
+	.others a:focus-visible {
+		outline: 2px solid var(--start-accent);
+		outline-offset: 2px;
 	}
 	kbd {
 		font-family: var(--mono);
