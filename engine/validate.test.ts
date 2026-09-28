@@ -10,7 +10,7 @@ const raw = (): RawSubject => {
 		frame: {
 			id,
 			position: { label: String(sort), sort },
-			scene: { headline: 'We did', accent: 'THINGS.', palette, metadata: [] },
+			scene: { headline: 'We did', accent: `${id.toUpperCase()}.`, palette, metadata: [] },
 			sources: [{ title: 'A source', url: 'https://example.org/' }]
 		},
 		reading: `Reading for ${id}.`,
@@ -64,6 +64,12 @@ describe('validate', () => {
 			(r.frames.c.frame as Loose).asOf = bad;
 			expect(validate(r)).toEqual(['frames/c: asOf must be YYYY-MM or YYYY-MM-DD']);
 		}
+	});
+
+	it('fails an accent word another frame already has, whatever its case or stop', () => {
+		const r = raw();
+		(r.frames.b.frame as Loose).scene.accent = 'a!';
+		expect(validate(r)).toEqual(['frames/b: accent "A" is already frames/a\'s']);
 	});
 
 	it('fails a frame with no sources', () => {
