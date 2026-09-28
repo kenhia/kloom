@@ -1,0 +1,307 @@
+{
+	"id": "where-we-are",
+	"position": {
+		"label": "The state of the field"
+	},
+	"asOf": "2026-09-27",
+	"scene": {
+		"headline": "The story is",
+		"accent": "UNFINISHED.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": ["SEPTEMBER 2026", "CAPABILITY · ADOPTION · INVESTMENT · RELIABILITY · TIMELINES"],
+		"counter": {
+			"value": "700,000,000+",
+			"label": "people using leading AI systems each week"
+		}
+	},
+	"sources": [
+		{
+			"title": "Bengio, Yoshua, et al., International AI Safety Report 2026: Extended Summary for Policymakers",
+			"url": "https://internationalaisafetyreport.org/publication/2026-report-extended-summary-policymakers",
+			"note": "International AI Safety Report, 2026-02-03"
+		},
+		{
+			"title": "Shana Lynch, Inside the AI Index: 12 Takeaways from the 2026 Report",
+			"url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
+			"note": "Stanford HAI, 2026-04-13"
+		},
+		{
+			"title": "Project Glasswing: Securing Critical Software for the AI Era",
+			"url": "https://www.anthropic.com/glasswing",
+			"note": "Anthropic, 2026-04-07"
+		},
+		{
+			"title": "GPT-6 Astra: A New Generation of Intelligence",
+			"url": "https://openai.com/index/gpt-6-astra/",
+			"note": "OpenAI, 2026-09-03"
+		},
+		{
+			"title": "Path to Astra: Critical Capabilities and Frontier Safeguards",
+			"url": "https://openai.com/index/path-to-astra/",
+			"note": "OpenAI, 2026-09-01"
+		},
+		{
+			"title": "The Hugging Face Incident and the Road Ahead",
+			"url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+			"note": "OpenAI, 2026-08-26"
+		},
+		{
+			"title": "Ryan Greenblatt, Ajeya Cotra and Hjalmar Wijk, Brief Independent Investigation of Agents’ Behavior, Reasoning and Collaboration in the OpenAI / Hugging Face Hacking Incident",
+			"url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+			"note": "METR, 2026-08-26"
+		},
+		{
+			"title": "Frontier Risk Report (February to March 2026)",
+			"url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
+			"note": "METR, 2026-05-19"
+		},
+		{
+			"title": "Insikt Group, The Hugging Face Incident Was a Governance Failure",
+			"url": "https://www.recordedfuture.com/blog/hugging-face-ai-safety",
+			"note": "Recorded Future, 2026"
+		},
+		{
+			"title": "Grace, Katja, et al., Thousands of AI Authors on the Future of AI",
+			"url": "https://arxiv.org/abs/2401.02843",
+			"note": "arXiv, 2024-01"
+		},
+		{
+			"title": "Kokotajlo, Daniel, et al., AI 2027",
+			"url": "https://ai-2027.com/",
+			"note": "AI Futures Project, 2025-04-03"
+		},
+		{
+			"title": "Arvind Narayanan and Sayash Kapoor, AI as Normal Technology",
+			"url": "https://knightcolumbia.org/content/ai-as-normal-technology",
+			"note": "Knight First Amendment Institute, 2025-04-15"
+		},
+		{
+			"title": "OpenAI–HuggingFace incident — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident"
+		},
+		{
+			"title": "Claude Mythos — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Claude_Mythos"
+		},
+		{
+			"title": "GPT-6 — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/GPT-6"
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"title": "International AI Safety Report 2026: Extended Summary for Policymakers",
+			"url": "https://internationalaisafetyreport.org/publication/2026-report-extended-summary-policymakers",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Bengio, Yoshua, et al."
+				}
+			],
+			"container": "International AI Safety Report",
+			"published": "2026-02-03"
+		},
+		{
+			"kind": "web",
+			"title": "Inside the AI Index: 12 Takeaways from the 2026 Report",
+			"url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Lynch",
+					"given": "Shana"
+				}
+			],
+			"container": "Stanford HAI",
+			"published": "2026-04-13"
+		},
+		{
+			"kind": "web",
+			"title": "Project Glasswing: Securing Critical Software for the AI Era",
+			"url": "https://www.anthropic.com/glasswing",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2026-04-07"
+		},
+		{
+			"kind": "web",
+			"title": "GPT-6 Astra: A New Generation of Intelligence",
+			"url": "https://openai.com/index/gpt-6-astra/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "web",
+			"title": "Path to Astra: Critical Capabilities and Frontier Safeguards",
+			"url": "https://openai.com/index/path-to-astra/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "web",
+			"title": "The Hugging Face Incident and the Road Ahead",
+			"url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "web",
+			"title": "Brief Independent Investigation of Agents’ Behavior, Reasoning and Collaboration in the OpenAI / Hugging Face Hacking Incident",
+			"url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Greenblatt",
+					"given": "Ryan"
+				},
+				{
+					"family": "Cotra",
+					"given": "Ajeya"
+				},
+				{
+					"family": "Wijk",
+					"given": "Hjalmar"
+				}
+			],
+			"container": "METR",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "web",
+			"title": "Frontier Risk Report (February to March 2026)",
+			"url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "METR"
+				}
+			],
+			"container": "METR",
+			"published": "2026-05-19"
+		},
+		{
+			"kind": "web",
+			"title": "The Hugging Face Incident Was a Governance Failure",
+			"url": "https://www.recordedfuture.com/blog/hugging-face-ai-safety",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Insikt Group"
+				}
+			],
+			"container": "Recorded Future",
+			"published": "2026"
+		},
+		{
+			"kind": "article",
+			"title": "Thousands of AI Authors on the Future of AI",
+			"url": "https://arxiv.org/abs/2401.02843",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Grace, Katja, et al."
+				}
+			],
+			"container": "arXiv",
+			"published": "2024-01"
+		},
+		{
+			"kind": "web",
+			"title": "AI 2027",
+			"url": "https://ai-2027.com/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Kokotajlo, Daniel, et al."
+				}
+			],
+			"container": "AI Futures Project",
+			"published": "2025-04-03"
+		},
+		{
+			"kind": "web",
+			"title": "AI as Normal Technology",
+			"url": "https://knightcolumbia.org/content/ai-as-normal-technology",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Narayanan",
+					"given": "Arvind"
+				},
+				{
+					"family": "Kapoor",
+					"given": "Sayash"
+				}
+			],
+			"container": "Knight First Amendment Institute",
+			"published": "2025-04-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "OpenAI–HuggingFace incident",
+			"url": "https://en.wikipedia.org/w/index.php?title=OpenAI%E2%80%93HuggingFace_incident&oldid=1376982731",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Claude Mythos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Claude_Mythos&oldid=1375596924",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GPT-6",
+			"url": "https://en.wikipedia.org/w/index.php?title=GPT-6&oldid=1377028175",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		}
+	]
+}

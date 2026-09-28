@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 262 L370 262 M40 223.3 L370 223.3 M40 184.7 L370 184.7 M40 146 L370 146 M40 107.3 L370 107.3 M40 68.7 L370 68.7 M40 30 L370 30"/>
+		<path pathLength="1" d="M40 262 L40 267 M70 262 L70 267 M100 262 L100 267 M130 262 L130 267 M160 262 L160 267 M190 262 L190 267 M220 262 L220 267 M250 262 L250 267 M280 262 L280 267 M310 262 L310 267 M340 262 L340 267 M370 262 L370 267"/>
+		<path pathLength="1" d="M40 252.3 L272.2 70.7"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 30 L40 262 L370 262"/>
+		<path pathLength="1" d="M272.2 262 L272.2 30"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M40.1 233.7 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M132.5 193.2 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M162.5 161.4 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M210.5 133.9 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M225.5 104.3 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M242.6 93.8 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M245 86.2 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M249.5 74.2 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M254.6 67.9 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M272.2 70.7 L313.9 30.4"/>
+		<path pathLength="1" d="M272.2 70.7 L326 48.9"/>
+		<path pathLength="1" d="M272.2 70.7 L330.2 70.7"/>
+	</g>
+	<g>
+		<text x="322.6" y="26" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">?</text>
+		<text x="337.1" y="48.4" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">?</text>
+		<text x="342.2" y="74.7" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">?</text>
+		<text x="272.2" y="22" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SEPT 2026</text>
+		<text x="40" y="280" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2019</text>
+		<text x="370" y="280" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2030</text>
+		<text x="115" y="179.6" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MEASURED</text>
+	</g>
+</svg>

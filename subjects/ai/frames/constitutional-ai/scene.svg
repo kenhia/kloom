@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 95 L380 95 M20 215 L380 215"/>
+		<path pathLength="1" d="M70 30 L70 275 M200 30 L200 275 M330 30 L330 275"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M170 18 L230 18 L230 62 L170 62 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M178 26 L222 26 M178 33 L212 33 M178 40 L222 40 M178 47 L212 47 M178 54 L222 54"/>
+		<path pathLength="1" d="M200 62 L200 70"/>
+		<path pathLength="1" d="M200 70 L202 65.4"/>
+		<path pathLength="1" d="M200 70 L198 65.4"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 81 L100 81 L100 109 L40 109 Z"/>
+		<path pathLength="1" d="M176 95 a24 24 0 1 0 48 0 a24 24 0 1 0 -48 0"/>
+		<path pathLength="1" d="M300 81 L360 81 L360 109 L300 109 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M100 95 L176 95"/>
+		<path pathLength="1" d="M176 95 L170.5 92.6"/>
+		<path pathLength="1" d="M176 95 L170.5 97.4"/>
+		<path pathLength="1" d="M224 95 L300 95"/>
+		<path pathLength="1" d="M300 95 L294.5 92.6"/>
+		<path pathLength="1" d="M300 95 L294.5 97.4"/>
+		<path pathLength="1" d="M330 109 C330 145 70 145 70 113"/>
+		<path pathLength="1" d="M72 121 L70 111"/>
+		<path pathLength="1" d="M70 111 L68.9 115.9"/>
+		<path pathLength="1" d="M70 111 L72.9 115.1"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 181 L100 181 L100 205 L40 205 Z"/>
+		<path pathLength="1" d="M40 225 L100 225 L100 249 L40 249 Z"/>
+		<path pathLength="1" d="M176 215 a24 24 0 1 0 48 0 a24 24 0 1 0 -48 0"/>
+		<path pathLength="1" d="M300 201 L360 201 L360 229 L300 229 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M100 193 L177 207"/>
+		<path pathLength="1" d="M177 207 L172 203.6"/>
+		<path pathLength="1" d="M177 207 L171.2 208.4"/>
+		<path pathLength="1" d="M100 237 L177 223"/>
+		<path pathLength="1" d="M177 223 L171.2 221.6"/>
+		<path pathLength="1" d="M177 223 L172 226.4"/>
+		<path pathLength="1" d="M224 215 L300 215"/>
+		<path pathLength="1" d="M300 215 L294.5 212.6"/>
+		<path pathLength="1" d="M300 215 L294.5 217.4"/>
+		<path pathLength="1" d="M330 229 C330 277 70 277 70 251"/>
+		<path pathLength="1" d="M71 259 L70 251"/>
+		<path pathLength="1" d="M70 251 L68.5 255.8"/>
+		<path pathLength="1" d="M70 251 L72.6 255.3"/>
+	</g>
+	<g>
+		<text x="200" y="12" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CONSTITUTION</text>
+		<text x="70" y="98" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ANSWER</text>
+		<text x="200" y="98" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CRITIQUE</text>
+		<text x="330" y="98" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">REVISE</text>
+		<text x="70" y="196" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="70" y="240" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="200" y="218" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AI JUDGE</text>
+		<text x="330" y="218" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PREFER</text>
+		<text x="200" y="279" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RL FROM AI FEEDBACK</text>
+	</g>
+</svg>

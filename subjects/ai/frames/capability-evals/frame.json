@@ -1,0 +1,238 @@
+{
+	"id": "capability-evals",
+	"position": {
+		"label": "Dangerous-capability evaluations"
+	},
+	"asOf": "2026-09-27",
+	"scene": {
+		"headline": "We tested it for",
+		"accent": "DANGER.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": [
+			"METR · UK AI SECURITY INSTITUTE · LAB RED TEAMS",
+			"BIOLOGY · CHEMISTRY · CYBER · AUTONOMY"
+		],
+		"counter": {
+			"value": "~129 days",
+			"label": "doubling time of AI task horizons since 2023"
+		}
+	},
+	"sources": [
+		{
+			"title": "Kwa, Thomas, et al., Measuring AI Ability to Complete Long Software Tasks",
+			"url": "https://arxiv.org/abs/2503.14499",
+			"note": "arXiv, 2025-03-18"
+		},
+		{
+			"title": "Task-Completion Time Horizons of Frontier AI Models",
+			"url": "https://metr.org/time-horizons/",
+			"note": "METR, 2026-05-08"
+		},
+		{
+			"title": "5 Key Findings from Our First Frontier AI Trends Report",
+			"url": "https://www.aisi.gov.uk/blog/5-key-findings-from-our-first-frontier-ai-trends-report",
+			"note": "AI Security Institute, 2025-12-18"
+		},
+		{
+			"title": "Activating AI Safety Level 3 Protections",
+			"url": "https://www.anthropic.com/news/activating-asl3-protections",
+			"note": "Anthropic, 2025-05-22"
+		},
+		{
+			"title": "ChatGPT Agent: Bridging Research and Action",
+			"url": "https://openai.com/index/introducing-chatgpt-agent/",
+			"note": "OpenAI, 2025-07-17"
+		},
+		{
+			"title": "Bengio, Yoshua, et al., International AI Safety Report 2026: Extended Summary for Policymakers",
+			"url": "https://internationalaisafetyreport.org/publication/2026-report-extended-summary-policymakers",
+			"note": "International AI Safety Report, 2026-02-03"
+		},
+		{
+			"title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
+			"url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+			"note": "Anthropic, 2026-02-24"
+		},
+		{
+			"title": "Frontier Risk Report (February to March 2026)",
+			"url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
+			"note": "METR, 2026-05-19"
+		},
+		{
+			"title": "OpenAI and Hugging Face Partner to Address Security Incident during Model Evaluation",
+			"url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+			"note": "OpenAI, 2026-07-21"
+		},
+		{
+			"title": "METR — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/METR"
+		},
+		{
+			"title": "OpenAI–HuggingFace incident — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Measuring AI Ability to Complete Long Software Tasks",
+			"url": "https://arxiv.org/abs/2503.14499",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Kwa, Thomas, et al."
+				}
+			],
+			"container": "arXiv",
+			"published": "2025-03-18"
+		},
+		{
+			"kind": "web",
+			"title": "Task-Completion Time Horizons of Frontier AI Models",
+			"url": "https://metr.org/time-horizons/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "METR"
+				}
+			],
+			"container": "METR",
+			"published": "2026-05-08"
+		},
+		{
+			"kind": "web",
+			"title": "5 Key Findings from Our First Frontier AI Trends Report",
+			"url": "https://www.aisi.gov.uk/blog/5-key-findings-from-our-first-frontier-ai-trends-report",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "AI Security Institute"
+				}
+			],
+			"container": "AI Security Institute",
+			"published": "2025-12-18"
+		},
+		{
+			"kind": "web",
+			"title": "Activating AI Safety Level 3 Protections",
+			"url": "https://www.anthropic.com/news/activating-asl3-protections",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2025-05-22"
+		},
+		{
+			"kind": "web",
+			"title": "ChatGPT Agent: Bridging Research and Action",
+			"url": "https://openai.com/index/introducing-chatgpt-agent/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2025-07-17"
+		},
+		{
+			"kind": "web",
+			"title": "International AI Safety Report 2026: Extended Summary for Policymakers",
+			"url": "https://internationalaisafetyreport.org/publication/2026-report-extended-summary-policymakers",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Bengio, Yoshua, et al."
+				}
+			],
+			"container": "International AI Safety Report",
+			"published": "2026-02-03"
+		},
+		{
+			"kind": "web",
+			"title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
+			"url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2026-02-24"
+		},
+		{
+			"kind": "web",
+			"title": "Frontier Risk Report (February to March 2026)",
+			"url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "METR"
+				}
+			],
+			"container": "METR",
+			"published": "2026-05-19"
+		},
+		{
+			"kind": "web",
+			"title": "OpenAI and Hugging Face Partner to Address Security Incident during Model Evaluation",
+			"url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "METR",
+			"url": "https://en.wikipedia.org/w/index.php?title=METR&oldid=1376799999",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "OpenAI–HuggingFace incident",
+			"url": "https://en.wikipedia.org/w/index.php?title=OpenAI%E2%80%93HuggingFace_incident&oldid=1376982731",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "METR 50% time horizons of selected frontier models, 2019–2026",
+			"url": "https://metr.org/time-horizons/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from METR, Time Horizon 1.1 benchmark results (updated May 8, 2026)",
+			"licence": "MIT",
+			"file": "time-horizons.svg"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"title": "METR 50% task-completion time horizons of selected frontier models, 2019–2026",
+	"description": "Bar chart on a logarithmic scale of the length of software tasks, measured by how long they take human experts, that each model completes half the time. GPT-2 (2019): about 3 seconds. GPT-3.5 (2022): 36 seconds. GPT-4 (2023): 4 minutes. Claude 3.5 Sonnet (October 2024): 21 minutes. o3 (April 2025): 2.0 hours. Gemini 3 Pro (November 2025): 3.7 hours. GPT-5.2 (December 2025): 5.9 hours. Claude Opus 4.6 (February 2026): 12 hours. Claude Mythos Preview (April 2026): about 17 hours, above the 16 hours METR says its tasks can reliably measure. Data: METR Time Horizon 1.1, May 2026.",
+	"heading": "50% TIME HORIZON · METR TH 1.1 · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"colours": { "background": "#0c0b14", "ink": "#ecebf6", "muted": "#9a97b8", "accent": "#ff6b4a" },
+	"axis": {
+		"min": 0.01,
+		"max": 3000,
+		"ticks": [
+			[0.0166667, "1 sec"],
+			[1, "1 min"],
+			[60, "1 hr"],
+			[1440, "1 day"]
+		]
+	},
+	"width": 680,
+	"height": 320,
+	"barWidth": 42,
+	"bars": [
+		{ "label": "GPT-2", "sublabel": "2019", "value": 0.053778, "display": "3 s" },
+		{ "label": "GPT-3.5", "sublabel": "2022", "value": 0.599247, "display": "36 s" },
+		{ "label": "GPT-4", "sublabel": "2023", "value": 3.987428, "display": "4 m" },
+		{ "label": "C3.5 Son.", "sublabel": "Oct 24", "value": 20.522872, "display": "21 m" },
+		{ "label": "o3", "sublabel": "Apr 25", "value": 119.732634, "display": "2.0 h" },
+		{ "label": "Gem. 3 Pro", "sublabel": "Nov 25", "value": 224.325884, "display": "3.7 h" },
+		{ "label": "GPT-5.2", "sublabel": "Dec 25", "value": 352.249302, "display": "5.9 h" },
+		{ "label": "Opus 4.6", "sublabel": "Feb 26", "value": 718.80683, "display": "12 h" },
+		{
+			"label": "Mythos Pr.",
+			"sublabel": "Apr 26",
+			"value": 1044.780145,
+			"display": "~17 h",
+			"highlight": true
+		}
+	]
+}

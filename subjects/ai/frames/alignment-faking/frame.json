@@ -1,0 +1,268 @@
+{
+	"id": "alignment-faking",
+	"position": {
+		"label": "Deception and scheming"
+	},
+	"asOf": "2026-09-27",
+	"scene": {
+		"headline": "It played",
+		"accent": "ALONG.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SLEEPER AGENTS · IN-CONTEXT SCHEMING · ALIGNMENT FAKING",
+			"ANTHROPIC · APOLLO RESEARCH · REDWOOD RESEARCH · 2024"
+		],
+		"counter": {
+			"value": "78%",
+			"label": "alignment-faking reasoning after RL training"
+		}
+	},
+	"sources": [
+		{
+			"title": "Hubinger, Evan, et al., Risks from Learned Optimization in Advanced Machine Learning Systems",
+			"url": "https://arxiv.org/abs/1906.01820",
+			"note": "arXiv, 2019-06-05"
+		},
+		{
+			"title": "Hubinger, Evan, et al., Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+			"url": "https://arxiv.org/abs/2401.05566",
+			"note": "arXiv, 2024-01-10"
+		},
+		{
+			"title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+			"url": "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
+			"note": "Anthropic, 2024-01-14"
+		},
+		{
+			"title": "Frontier Models Are Capable of In-Context Scheming",
+			"url": "https://www.apolloresearch.ai/research/scheming-reasoning-evaluations",
+			"note": "Apollo Research, 2024-12-05"
+		},
+		{
+			"title": "Meinke, Alexander, et al., Frontier Models Are Capable of In-Context Scheming",
+			"url": "https://arxiv.org/abs/2412.04984",
+			"note": "arXiv, 2024-12-06"
+		},
+		{
+			"title": "Greenblatt, Ryan, et al., Alignment Faking in Large Language Models",
+			"url": "https://arxiv.org/abs/2412.14093",
+			"note": "arXiv, 2024-12-18"
+		},
+		{
+			"title": "Alignment Faking in Large Language Models",
+			"url": "https://www.anthropic.com/research/alignment-faking",
+			"note": "Anthropic, 2024-12-18"
+		},
+		{
+			"title": "Summerfield, Christopher, et al., Lessons from a Chimp: AI “Scheming” and the Quest for Ape Language",
+			"url": "https://arxiv.org/abs/2507.03409",
+			"note": "arXiv, 2025-07-04"
+		},
+		{
+			"title": "Schoen, Bronson, et al., Stress Testing Deliberative Alignment for Anti-Scheming Training",
+			"url": "https://arxiv.org/abs/2509.15541",
+			"note": "arXiv, 2025-09-19"
+		},
+		{
+			"title": "Ryan Greenblatt, Ajeya Cotra and Hjalmar Wijk, Brief Independent Investigation of Agents’ Behavior, Reasoning and Collaboration in the OpenAI / Hugging Face Hacking Incident",
+			"url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+			"note": "METR, 2026-08-26"
+		},
+		{
+			"title": "The Hugging Face Incident and the Road Ahead",
+			"url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+			"note": "OpenAI, 2026-08-26"
+		},
+		{
+			"title": "AI alignment — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/AI_alignment"
+		},
+		{
+			"title": "GPT-6 — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/GPT-6"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Risks from Learned Optimization in Advanced Machine Learning Systems",
+			"url": "https://arxiv.org/abs/1906.01820",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Hubinger, Evan, et al."
+				}
+			],
+			"container": "arXiv",
+			"published": "2019-06-05"
+		},
+		{
+			"kind": "article",
+			"title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+			"url": "https://arxiv.org/abs/2401.05566",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Hubinger, Evan, et al."
+				}
+			],
+			"container": "arXiv",
+			"published": "2024-01-10"
+		},
+		{
+			"kind": "web",
+			"title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+			"url": "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2024-01-14"
+		},
+		{
+			"kind": "web",
+			"title": "Frontier Models Are Capable of In-Context Scheming",
+			"url": "https://www.apolloresearch.ai/research/scheming-reasoning-evaluations",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Apollo Research"
+				}
+			],
+			"container": "Apollo Research",
+			"published": "2024-12-05"
+		},
+		{
+			"kind": "article",
+			"title": "Frontier Models Are Capable of In-Context Scheming",
+			"url": "https://arxiv.org/abs/2412.04984",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Meinke, Alexander, et al."
+				}
+			],
+			"container": "arXiv",
+			"published": "2024-12-06"
+		},
+		{
+			"kind": "article",
+			"title": "Alignment Faking in Large Language Models",
+			"url": "https://arxiv.org/abs/2412.14093",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Greenblatt, Ryan, et al."
+				}
+			],
+			"container": "arXiv",
+			"published": "2024-12-18"
+		},
+		{
+			"kind": "web",
+			"title": "Alignment Faking in Large Language Models",
+			"url": "https://www.anthropic.com/research/alignment-faking",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2024-12-18"
+		},
+		{
+			"kind": "article",
+			"title": "Lessons from a Chimp: AI “Scheming” and the Quest for Ape Language",
+			"url": "https://arxiv.org/abs/2507.03409",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Summerfield, Christopher, et al."
+				}
+			],
+			"container": "arXiv",
+			"published": "2025-07-04"
+		},
+		{
+			"kind": "article",
+			"title": "Stress Testing Deliberative Alignment for Anti-Scheming Training",
+			"url": "https://arxiv.org/abs/2509.15541",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Schoen, Bronson, et al."
+				}
+			],
+			"container": "arXiv",
+			"published": "2025-09-19"
+		},
+		{
+			"kind": "web",
+			"title": "Brief Independent Investigation of Agents’ Behavior, Reasoning and Collaboration in the OpenAI / Hugging Face Hacking Incident",
+			"url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Greenblatt",
+					"given": "Ryan"
+				},
+				{
+					"family": "Cotra",
+					"given": "Ajeya"
+				},
+				{
+					"family": "Wijk",
+					"given": "Hjalmar"
+				}
+			],
+			"container": "METR",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "web",
+			"title": "The Hugging Face Incident and the Road Ahead",
+			"url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AI alignment",
+			"url": "https://en.wikipedia.org/w/index.php?title=AI_alignment&oldid=1375975271",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GPT-6",
+			"url": "https://en.wikipedia.org/w/index.php?title=GPT-6&oldid=1377028175",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		}
+	]
+}

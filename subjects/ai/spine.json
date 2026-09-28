@@ -92,6 +92,17 @@
 				"open-weights",
 				"compute"
 			]
+		},
+		{
+			"id": "questions",
+			"title": "Open questions",
+			"labelKind": "category",
+			"frames": [
+				"alignment",
+				"interpretability",
+				"governance",
+				"where-we-are"
+			]
 		}
 	]
 }
