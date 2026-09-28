@@ -1,0 +1,122 @@
+{
+	"id": "faraday-induction",
+	"position": {
+		"label": "AD 1831",
+		"sort": 1831
+	},
+	"scene": {
+		"headline": "We turned motion into",
+		"accent": "CURRENT.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · ROYAL INSTITUTION · MICHAEL FARADAY",
+			"IRON RING · TWO COILS · GALVANOMETER"
+		],
+		"counter": {
+			"value": "87",
+			"label": "days from the iron ring to the Royal Society"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Experimental Researches in Electricity",
+			"doi": "10.1098/rstl.1832.0006",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Faraday",
+					"given": "Michael"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "122",
+			"pages": "125–162",
+			"published": "1832"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Experimental Researches in Electricity, Volume 1",
+			"url": "https://www.gutenberg.org/files/14986/14986-h/14986-h.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Faraday",
+					"given": "Michael"
+				}
+			],
+			"publisher": "Project Gutenberg"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Michael Faraday's ring-coil apparatus",
+			"url": "https://www.rigb.org/explore-science/explore/collection/michael-faradays-ring-coil-apparatus",
+			"accessed": "2026-09-28",
+			"publisher": "Royal Institution"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Michael Faraday",
+			"url": "https://en.wikipedia.org/w/index.php?title=Michael_Faraday&oldid=1376750184",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Faraday's law of induction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Faraday's_law_of_induction&oldid=1375269873",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Electromagnetic induction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electromagnetic_induction&oldid=1374765887",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Homopolar generator",
+			"url": "https://en.wikipedia.org/w/index.php?title=Homopolar_generator&oldid=1364677180",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-17"
+		}
+	]
+}

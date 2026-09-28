@@ -43,7 +43,9 @@ describe('the shell', () => {
 	it('opens on the first frame with the HUD filled in', () => {
 		const body = text(page().body);
 		expect(body).toContain('Myth');
-		expect(body).toContain('01 / 18');
+		// Derived, not written in: every grown frame lengthens the spine.
+		const total = subject.spine.segments.reduce((n, s) => n + s.frames.length, 0);
+		expect(body).toContain(`01 / ${String(total).padStart(2, '0')}`);
 		expect(body).toContain('We stole FIRE.');
 		expect(body).toContain('~1,000,000 years of kept fire');
 	});
