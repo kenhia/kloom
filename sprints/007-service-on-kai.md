@@ -100,6 +100,8 @@ later (3413 onward).
 - `GrowJob.by`, the commit author and the `Requested-by:` trailer.
 - `deploy/kloom.service`, and the `just content-init`, `just deploy` and
   `just verify` recipes.
+- `.sprint-deploy` (`recipe: deploy`), so a sprint ship redeploys from merged
+  main.
 - Docs: `docs/deploying.md` (new), and `docs/design.md` §Who may write and
   §The content clone.
 
