@@ -9,7 +9,10 @@
 		"accent": "PUBLIC.",
 		"palette": "parchment",
 		"illustration": "scene.svg",
-		"metadata": ["WITTENBERG · MARTIN LUTHER", "95 THESES · GERMAN PAMPHLETS · WOODCUT TITLE PAGES"],
+		"metadata": [
+			"WITTENBERG · MARTIN LUTHER",
+			"95 THESES · GERMAN PAMPHLETS · WOODCUT TITLE PAGES"
+		],
 		"counter": {
 			"value": "3,183",
 			"label": "printings of Luther's works, 1516–46"
