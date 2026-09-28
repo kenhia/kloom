@@ -25,7 +25,7 @@ export const GET: RequestHandler = async ({ url }) => {
  * frame, or the kept answer's own frame; the model is honoured only if the
  * app config lists it, and is fixed for the job from here on.
  */
-export const POST: RequestHandler = async ({ request }) => {
+export const POST: RequestHandler = async ({ request, locals }) => {
 	const config = await loadAppConfig();
 	if (!config.grow) error(503, 'Grow is not configured.');
 	const body = (await request.json().catch(() => null)) as Record<string, unknown> | null;
@@ -60,7 +60,9 @@ export const POST: RequestHandler = async ({ request }) => {
 			kept,
 			provider: providerFor(config).name,
 			model: resolveModel(config, body?.model, config.grow.defaultModel),
-			web: config.grow.web
+			web: config.grow.web,
+			// The hook refused a request without a reader, so there is one.
+			...(locals.reader ? { by: locals.reader } : {})
 		});
 		return json({ job }, { status: 202 });
 	} catch (e) {

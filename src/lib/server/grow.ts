@@ -32,8 +32,14 @@ import { validate, type RawSubject } from '$engine/validate';
 
 const run = promisify(execFile);
 
-/** Who grow commits as. */
+/** Who grow commits as; a job's requester, when it has one, is the author. */
 export const GROW_AUTHOR = { name: 'kloom grow', email: 'grow@kloom.local' };
+
+/** `Name <login>` for git, with nothing in it that could break the ident. */
+export const requester = (by: NonNullable<GrowJob['by']>) => {
+	const clean = (s: string) => s.replace(/[<>\n\r]/g, '').trim();
+	return `${clean(by.name) || clean(by.login)} <${clean(by.login)}>`;
+};
 
 /** Status text for the AI pane. */
 const DOING: Record<ProviderStatus, string> = {
@@ -270,7 +276,8 @@ export function commitMessage(job: GrowJob, subject: string, growth: Growth, sum
 			: []),
 		...(job.kept ? [`Kept answer: ${job.kept}`] : []),
 		`Model: ${job.model} (${job.provider})`,
-		`Web: ${job.web ? 'yes' : 'no'}`
+		`Web: ${job.web ? 'yes' : 'no'}`,
+		...(job.by ? [`Requested-by: ${requester(job.by)} (${job.by.via})`] : [])
 	].join('\n');
 }
 
@@ -332,6 +339,7 @@ async function applyGrowth(
 			'commit',
 			'--quiet',
 			'--no-verify',
+			...(job.by ? [`--author=${requester(job.by)}`] : []),
 			'-m',
 			commitMessage(job, basename(subjectDir), growth, summary),
 			'--',

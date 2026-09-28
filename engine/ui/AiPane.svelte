@@ -237,7 +237,7 @@
 			case 'applying':
 				return 'committing';
 			case 'done':
-				return `added ${job.result?.frames.map(titleOf).join(', ')}`;
+				return `added ${job.result?.frames.map(titleOf).join(', ')}${job.result?.pushError ? ' (committed, not yet pushed)' : ''}`;
 			case 'failed':
 				return `failed: ${job.error}`;
 		}

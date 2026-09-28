@@ -116,6 +116,16 @@ describe('a grow job', () => {
 		expect(progress).toEqual(['starting', 'writing', 'committing']);
 	});
 
+	it('authors the commit as whoever asked, and says so', async () => {
+		const { provider } = fakeProvider(addLuther());
+		const by = { login: 'ken@github', name: 'Ken <Hiatt>', via: 'tailscale-serve' };
+		expect((await runGrowJob(job({ by }), host(provider))).ok).toBe(true);
+		expect(git(repo, 'log', '-1', '--format=%an <%ae>|%cn <%ce>')).toBe(
+			'Ken Hiatt <ken@github>|kloom grow <grow@kloom.local>'
+		);
+		expect(log()).toContain('Requested-by: Ken Hiatt <ken@github> (tailscale-serve)');
+	});
+
 	it('formats what it writes with the repo’s Prettier config', async () => {
 		// The subject's own repo config applies (kloom's: tabs, width 100).
 		await writeFile(join(repo, '.prettierrc'), '{"useTabs": true, "printWidth": 100}');
