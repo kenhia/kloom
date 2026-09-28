@@ -12,6 +12,10 @@ showing, in the style docs/design.md §Illustrations describes.
   small monospace label that fades in). `wire` draws a convex solid's
   wireframe from its vertices, and `SOLIDS` holds the five Platonic solids.
   `D.svg()` returns the markup and `D.save(path)` writes it.
+- `ai.py` and `ai_<part>.py` (sprint 006): the ai subject's plates. Each
+  `ai_<part>.py` exports `PLATES = {frame: function}`, where a function
+  returns its `D`. `ai.py` collects them and saves each one, so several
+  authors can draw at once without sharing a file.
 - `western_civ.py`: the 17 western-civ plates, one function per frame. It
   is the worked example: the Pantheon section, the globe with its route,
   the helix and the honeycomb show how the geometry is computed rather than

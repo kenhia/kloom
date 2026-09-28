@@ -22,6 +22,14 @@ describe('the ask prompt', () => {
 		expect(p.endsWith('--- Question ---\nWhy?')).toBe(true);
 	});
 
+	it('tells the model when a frame is dated, and says nothing when it is not', () => {
+		const dated = { ...context, frame: { ...context.frame, asOf: '2026-09' } };
+		expect(askPrompt(dated, 'Is this still true?')).toContain(
+			'the state of things as of 2026-09; say so if the answer may have changed since.'
+		);
+		expect(askPrompt(context, 'Why?')).not.toContain('as of');
+	});
+
 	it('reads the reference numbers an answer marks, in first-use order and in range', () => {
 		expect(citedNumbers('A [2]. B [1, 3]. C [2]. D [9]. E [1–2].', 3)).toEqual([2, 1, 3]);
 		expect(citedNumbers('No markers; [x] and [] too.', 3)).toEqual([]);

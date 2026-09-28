@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
-	import { bibliography, chicago } from '../citation';
+	import { bibliography, chicago, chicagoDate } from '../citation';
 	import type { Frame, Trail } from '../model';
 	import type { SyncMode } from '../navigation';
 
@@ -48,7 +48,10 @@
 	<!-- Focusable because it scrolls: keyboard users must be able to reach it. -->
 	<!-- svelte-ignore a11y_no_noninteractive_tabindex -->
 	<article class="reading" tabindex="0" aria-labelledby="reading-title" bind:this={element}>
-		<p class="position">{frame.position.label}</p>
+		<p class="position">
+			{frame.position.label}
+			{#if frame.asOf}<span class="as-of">· As of {chicagoDate(frame.asOf)}</span>{/if}
+		</p>
 		<h2 id="reading-title">{frame.scene.headline} <em>{frame.scene.accent}</em></h2>
 
 		<div class="body">

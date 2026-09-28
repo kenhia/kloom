@@ -1,0 +1,59 @@
+{
+	"title": "The History and Current State of AI",
+	"palettes": {
+		"blueprint": {
+			"scheme": "dark",
+			"background": "#0e2a47",
+			"ink": "#e8f0f8",
+			"muted": "#9bb4cf",
+			"accent": "#ffc857",
+			"line": "#bcd7f2",
+			"counterpart": "drafting"
+		},
+		"drafting": {
+			"scheme": "light",
+			"background": "#eef0ea",
+			"ink": "#1c2733",
+			"muted": "#56626e",
+			"accent": "#b8410f",
+			"line": "#2a3a4c",
+			"counterpart": "blueprint"
+		},
+		"terminal": {
+			"scheme": "dark",
+			"background": "#07120c",
+			"ink": "#d3f5dc",
+			"muted": "#7fa98a",
+			"accent": "#ffb000",
+			"line": "#7ee29a",
+			"counterpart": "printout"
+		},
+		"printout": {
+			"scheme": "light",
+			"background": "#f3f6ec",
+			"ink": "#18261c",
+			"muted": "#55685a",
+			"accent": "#1c6e35",
+			"line": "#2c3f31",
+			"counterpart": "terminal"
+		},
+		"neural": {
+			"scheme": "dark",
+			"background": "#0c0b14",
+			"ink": "#ecebf6",
+			"muted": "#9a97b8",
+			"accent": "#ff6b4a",
+			"line": "#a99cff",
+			"counterpart": "whitepaper"
+		},
+		"whitepaper": {
+			"scheme": "light",
+			"background": "#f7f6f2",
+			"ink": "#1b1a24",
+			"muted": "#625f70",
+			"accent": "#5236c9",
+			"line": "#2b2940",
+			"counterpart": "neural"
+		}
+	}
+}

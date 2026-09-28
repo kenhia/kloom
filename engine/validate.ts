@@ -178,6 +178,12 @@ export function validate(raw: RawSubject): string[] {
 			}
 		}
 
+		if (
+			frame.asOf !== undefined &&
+			!(isText(frame.asOf) && /^\d{4}-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?$/.test(frame.asOf))
+		)
+			fail(where, 'asOf must be YYYY-MM or YYYY-MM-DD');
+
 		if (!Array.isArray(frame.sources) || frame.sources.length === 0)
 			fail(where, 'sources are required — every frame carries at least one');
 		else

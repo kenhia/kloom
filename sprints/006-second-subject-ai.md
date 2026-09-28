@@ -47,9 +47,9 @@ in this order:
 
 ### Several subjects (3396)
 
-- **`/<subject>` for every subject, with `/` redirecting.** `src/routes/
-[subject]/` holds the page, and `src/routes/+server.ts` redirects `/` (307)
-  to `$KLOOM_SUBJECT`, or to the first served subject if that one is gone.
+- **`/<subject>` for every subject, with `/` redirecting.** The page
+  moved to `src/routes/[subject]/`, and `src/routes/+server.ts` redirects
+  `/` (307) to `$KLOOM_SUBJECT`, or to the first served subject if that one is gone.
   A subject is a directory under `$KLOOM_SUBJECTS_DIR` whose name matches
   `[a-z0-9][a-z0-9-]*` and that holds a readable `subject.json`
   (`listSubjects`, `src/lib/server/config.ts`). `subjectDirFor` checks an

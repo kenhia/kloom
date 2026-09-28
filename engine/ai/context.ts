@@ -31,6 +31,7 @@ export function askContext(
 			position: frame.position.label,
 			segment: segment.title,
 			reading,
+			...(frame.asOf ? { asOf: frame.asOf } : {}),
 			sources: frame.sources,
 			citations: frame.citations ?? []
 		},

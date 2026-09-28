@@ -33,6 +33,8 @@ export interface AskContext {
 		segment: string;
 		/** The reading as authored: markdown. */
 		reading: string;
+		/** When a time-sensitive frame was last true (`YYYY-MM[-DD]`), if it says. */
+		asOf?: string;
 		sources: Source[];
 		citations: Citation[];
 	};
