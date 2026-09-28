@@ -26,16 +26,19 @@ describe('page keys', () => {
 		expect(pageKey('ArrowDown', settingsSelect)).toBeNull();
 	});
 
-	it('acts on S and T only in the spine or the narrative (WCAG 2.1.4)', () => {
+	it('acts on S, T and B only in the spine or the narrative (WCAG 2.1.4)', () => {
 		for (const t of [slider, reading, gear]) {
 			expect(pageKey('s', t)).toBe('sync');
 			expect(pageKey('S', t)).toBe('sync');
 			expect(pageKey('t', t)).toBe('trail');
 			expect(pageKey('T', t)).toBe('trail');
+			expect(pageKey('b', t)).toBe('bookmark');
+			expect(pageKey('B', t)).toBe('bookmark');
 		}
 		for (const t of [askBox, sendButton, settingsSelect, body, null]) {
 			expect(pageKey('s', t)).toBeNull();
 			expect(pageKey('t', t)).toBeNull();
+			expect(pageKey('b', t)).toBeNull();
 		}
 	});
 

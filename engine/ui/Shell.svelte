@@ -1,11 +1,14 @@
 <script lang="ts">
+	import { untrack } from 'svelte';
 	import type { AiOffer } from '../ai/provider';
-	import type { Subject, Trail } from '../model';
+	import type { Frame, Subject, Trail } from '../model';
+	import type { JumpItem } from '../reader-data';
 	import { clamp, indexLabel, stops, WheelGate, type SyncMode } from '../navigation';
 	import { pageKey } from '../keys';
 	import { followSpine, paletteFor, paletteMode } from '../settings';
 	import type { UserSettings } from '../user-settings.svelte';
 	import AiPane from './AiPane.svelte';
+	import Bookmarks from './Bookmarks.svelte';
 	import Narrative from './Narrative.svelte';
 	import Settings from './Settings.svelte';
 	import SpinePane from './SpinePane.svelte';
@@ -20,14 +23,42 @@
 		ongrown?: () => void;
 		/** False while something (the start screen) sits in front of the shell. */
 		active?: boolean;
+		/** The frame to open on (a deep link); the first frame when absent. */
+		startAt?: string | null;
+		/** The frame on the spine changed: the page records the reader's place. */
+		onplace?: (frame: Frame) => void;
+		/** The reader's bookmarks; absent when there is no reader to keep them for. */
+		bookmarks?: BookmarkOffer | null;
 	}
 
-	let { subject, settings, ai = { web: 'deny' }, ongrown, active = true }: Props = $props();
+	/** What the page offers for bookmarks: the frames marked, the jump list, and the writes. */
+	interface BookmarkOffer {
+		/** Frame ids in this subject the reader has bookmarked. */
+		marked: Set<string>;
+		items: JumpItem[];
+		exportHref?: string;
+		ontoggle: (frame: Frame) => void;
+		onremove: (item: JumpItem) => void;
+	}
+
+	let {
+		subject,
+		settings,
+		ai = { web: 'deny' },
+		ongrown,
+		active = true,
+		startAt = null,
+		onplace,
+		bookmarks = null
+	}: Props = $props();
 
 	let trailId = $state<string | null>(null);
 	let index = $state(0);
 	/** What the narrative shows when it does not follow the spine. */
 	let pinned = $state<string | null>(null);
+
+	/** Said once when a bookmark is made or removed, so a B press is heard. */
+	let markNote = $state('');
 
 	let narrativeEl = $state<HTMLElement>();
 	let slider = $state<HTMLElement>();
@@ -46,9 +77,41 @@
 	);
 	const trailsFrom = (id: string) => subject.trails.filter((t) => t.anchor === id);
 	const branches = $derived(new Set(trail ? [] : subject.trails.map((t) => t.anchor)));
+	const marked = $derived(bookmarks?.marked ?? new Set<string>());
 	const announcement = $derived(
-		`${indexLabel(index, path.length)}, ${stop.segment.title}, ${frame.position.label}: ${frame.scene.headline} ${frame.scene.accent}`
+		`${indexLabel(index, path.length)}, ${stop.segment.title}, ${frame.position.label}: ${frame.scene.headline} ${frame.scene.accent}${marked.has(frame.id) ? ' Bookmarked.' : ''}`
 	);
+
+	/**
+	 * Move to a frame wherever it is: each frame sits on one spine, the main
+	 * one or a trail's, so the id alone says which. An unknown id is ignored.
+	 */
+	export function goTo(id: string) {
+		const main = stops(subject.spine).findIndex((s) => s.frameId === id);
+		if (main >= 0) {
+			trailId = null;
+			index = main;
+		} else {
+			const t = subject.trails.find((t) => stops(t.spine).some((s) => s.frameId === id));
+			if (!t) return;
+			trailId = t.id;
+			index = stops(t.spine).findIndex((s) => s.frameId === id);
+		}
+		pinned = id;
+	}
+
+	untrack(() => startAt && goTo(startAt));
+
+	$effect(() => onplace?.(frame));
+
+	function toggleMark() {
+		if (!bookmarks) return;
+		const on = !marked.has(frame.id);
+		bookmarks.ontoggle(frame);
+		markNote = on
+			? `Bookmarked: ${frame.scene.headline} ${frame.scene.accent}`
+			: `Bookmark removed: ${frame.scene.headline} ${frame.scene.accent}`;
+	}
 
 	// Coming forward (the start screen closed): the spine takes focus.
 	let wasActive: boolean | undefined;
@@ -93,6 +156,8 @@
 
 	const gate = new WheelGate();
 	function wheel(e: WheelEvent) {
+		// A pop-up over the spine (the bookmark list) scrolls as itself.
+		if (e.target instanceof Element && e.target.closest('[data-own-keys]')) return;
 		e.preventDefault();
 		const px = e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? 400 : 1;
 		const delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
@@ -143,6 +208,10 @@
 				if (!trail) return;
 				leave();
 				break;
+			case 'bookmark':
+				if (!bookmarks) return;
+				toggleMark();
+				break;
 			default:
 				return;
 		}
@@ -164,6 +233,7 @@
 >
 	<h1 class="visually-hidden">{subject.title}</h1>
 	<p class="visually-hidden" aria-live="polite" aria-atomic="true">{announcement}</p>
+	<p class="visually-hidden" role="status">{markNote}</p>
 
 	<SpinePane
 		{path}
@@ -171,13 +241,27 @@
 		{frame}
 		{trail}
 		{branches}
+		{marked}
 		frames={subject.frames}
 		onstep={step}
 		onjump={go}
 		onwheel={wheel}
 		onleave={leave}
 		bind:slider
-	/>
+	>
+		{#snippet tools()}
+			{#if bookmarks}
+				<Bookmarks
+					marked={marked.has(frame.id)}
+					items={bookmarks.items}
+					exportHref={bookmarks.exportHref}
+					ontoggle={toggleMark}
+					onjump={goTo}
+					onremove={bookmarks.onremove}
+				/>
+			{/if}
+		{/snippet}
+	</SpinePane>
 
 	<Narrative
 		frame={narrativeFrame}

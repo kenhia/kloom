@@ -11,7 +11,7 @@ import Page from './+page.svelte';
 let subject: Subject;
 beforeAll(async () => {
 	subject = await loadSubject(
-		join(import.meta.dirname, '..', '..', '..', 'subjects', 'western-civ')
+		join(import.meta.dirname, '..', '..', '..', '..', 'subjects', 'western-civ')
 	);
 });
 
@@ -97,9 +97,9 @@ describe('the shell', () => {
 		expect(body).toContain('Send');
 	});
 
-	it('says in the hint bar that S and T act from the spine or narrative only', () => {
+	it('says in the hint bar that S, T and B act from the spine or narrative only', () => {
 		const hint = text(page().body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
-		expect(hint).toContain('S sync and T trail, in the spine or narrative');
+		expect(hint).toContain('S sync, T trail and B bookmark, in the spine or narrative');
 	});
 
 	it('opens on a start screen, with the shell inert behind it', () => {
@@ -264,5 +264,92 @@ describe('the palette mode', () => {
 	it('gives every palette of the subject a counterpart of the other scheme', () => {
 		for (const p of Object.values(subject.palettes))
 			expect(subject.palettes[p.counterpart!].scheme).not.toBe(p.scheme);
+	});
+});
+
+describe('reader data on the page', () => {
+	const at = '2026-09-28T12:00:00.000Z';
+	const title = 'The History of Western Civilization';
+	const withReader = (readerData: object, frame: string | null = null) =>
+		render(Page, {
+			props: {
+				data: {
+					subject,
+					subjects,
+					askModels,
+					askWeb: 'allow',
+					growModels,
+					frame,
+					reader: { name: 'Ken' },
+					readerData: { here: null, last: null, bookmarks: [], ...readerData }
+				}
+			} as never
+		}).body;
+	const mark = (frame: string, s = 'western-civ', subjectTitle = title) => ({
+		subject: s,
+		frame,
+		label: `${frame} label`,
+		at,
+		subjectTitle
+	});
+
+	it('offers no bookmark controls without a reader', () => {
+		expect(page().body).not.toContain('Bookmark this frame');
+		expect(text(page().body)).not.toContain('Where you left off');
+	});
+
+	it('offers a bookmark toggle and a closed jump list to a reader, in the spine', () => {
+		const body = withReader({});
+		const toggle = body.match(/<button[^>]*aria-pressed="false"[^>]*>[\s\S]*?<\/button>/)![0];
+		expect(text(toggle)).toContain('Bookmark this frame');
+		expect(toggle).toContain('title="Bookmark this frame (B)"');
+		const list = body.match(/<button[^>]*aria-expanded="false"[^>]*>[\s\S]*?Bookmarks \(0\)/)![0];
+		const panel = list.match(/aria-controls="([^"]+)"/)![1];
+		expect(body).toMatch(new RegExp(`<div[^>]*id="${panel}"[^>]*data-own-keys[^>]*hidden`));
+		// Inside the spine pane, before the narrative.
+		const spine = body.indexOf('aria-label="Spine"');
+		expect(body.indexOf('Bookmark this frame')).toBeGreaterThan(spine);
+		expect(body.indexOf('Bookmark this frame')).toBeLessThan(
+			body.indexOf('aria-label="Narrative"')
+		);
+		expect(body).toContain('href="/api/reader/export"');
+	});
+
+	it('marks a bookmarked frame on the spine, in words as well as the mark', () => {
+		const body = withReader({ bookmarks: [mark('prometheus'), mark('alexnet', 'ai', 'AI')] });
+		expect(body).toMatch(/<button[^>]*aria-pressed="true"/);
+		expect(body).toMatch(/role="slider"[^>]*aria-valuetext="[^"]*, bookmarked"/);
+		expect(body).toMatch(/class="tick[^"]*\bmarked\b[^"]*"[^>]*title="[^"]*\(bookmarked\)"/);
+		expect(body).toContain('Bookmarks (2)');
+		// This subject's bookmark moves the shell; the other subject's is a link to it.
+		expect(body).toContain('href="/western-civ/prometheus"');
+		expect(body).toContain('href="/ai/alexnet"');
+		expect(text(body)).toContain('Remove bookmark: alexnet label');
+	});
+
+	it('offers to continue in this subject and to go back to the last one elsewhere', () => {
+		const body = withReader({
+			here: mark('printing-press'),
+			last: mark('alexnet', 'ai', 'History and Current State of AI')
+		});
+		const offers = body.match(
+			/<ul class="resume[^"]*" aria-label="Where you left off">[\s\S]*?<\/ul>/
+		)![0];
+		expect(text(offers)).toContain('Continue where you were');
+		expect(text(offers)).toContain(subject.frames['printing-press'].scene.headline);
+		expect(text(offers)).toContain('Last read · History and Current State of AI');
+		expect(offers).toContain('href="/ai/alexnet"');
+		// Offered, not forced: Begin is still first.
+		expect(body.indexOf('class="begin')).toBeLessThan(body.indexOf('class="resume'));
+	});
+
+	it('opens a deep link on its frame, past the start screen, and a trail frame on its trail', () => {
+		const body = withReader({}, 'printing-press');
+		expect(body).not.toMatch(/role="dialog"/);
+		expect(text(body)).toContain(subject.frames['printing-press'].scene.headline);
+		const trail = subject.trails[0];
+		const inTrail = withReader({}, trail.spine.segments[0].frames[0]);
+		expect(text(inTrail)).toContain('Main story');
+		expect(text(inTrail)).toContain(trail.title);
 	});
 });

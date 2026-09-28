@@ -428,8 +428,9 @@
 
 	<p class="status" role="status">{status}</p>
 	<p id="ai-hint" class="hint">
-		<kbd>←</kbd><kbd>→</kbd> spine · <kbd>↑</kbd><kbd>↓</kbd> narrative · <kbd>S</kbd> sync and
-		<kbd>T</kbd> trail, in the spine or narrative · <kbd>Tab</kbd> into and out of Ask ·
+		<kbd>←</kbd><kbd>→</kbd> spine · <kbd>↑</kbd><kbd>↓</kbd> narrative · <kbd>S</kbd> sync,
+		<kbd>T</kbd> trail and <kbd>B</kbd> bookmark, in the spine or narrative · <kbd>Tab</kbd> into
+		and out of Ask ·
 		<kbd>Esc</kbd> back to the spine
 	</p>
 </section>

@@ -18,7 +18,22 @@
 		palette: Palette;
 		/** Other subjects the app serves, as links the page has resolved: the chooser. */
 		others?: { title: string; href: string }[];
+		/**
+		 * Where the reader left off, offered under Begin and never forced. One
+		 * with `onpick` resumes in this subject; one with `href` opens another.
+		 */
+		resume?: Resume[];
 		onbegin: () => void;
+	}
+
+	interface Resume {
+		key: string;
+		/** What it does, e.g. "Continue here". */
+		action: string;
+		/** Where: the frame's title and position. */
+		label: string;
+		href?: string;
+		onpick?: () => void;
 	}
 
 	let {
@@ -29,6 +44,7 @@
 		credits,
 		palette,
 		others = [],
+		resume = [],
 		onbegin
 	}: Props = $props();
 
@@ -37,9 +53,11 @@
 
 	onMount(() => button?.focus());
 
-	function begin() {
+	/** Leave, then begin; `before` moves the shell first (a resume). */
+	function begin(before?: () => void) {
 		if (leaving) return;
 		leaving = true;
+		before?.();
 		const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 		setTimeout(onbegin, reduced ? 0 : 500);
 	}
@@ -113,9 +131,30 @@
 	<div class="copy">
 		<h2 id="start-title">{title}</h2>
 		{#if subtitle}<p id="start-subtitle" class="subtitle">{subtitle}</p>{/if}
-		<button type="button" class="begin" bind:this={button} onclick={begin}>
+		<button type="button" class="begin" bind:this={button} onclick={() => begin()}>
 			Begin <kbd>Enter</kbd>
 		</button>
+		{#if resume.length}
+			<ul class="resume" aria-label="Where you left off">
+				{#each resume as r (r.key)}
+					<li>
+						{#if r.onpick}
+							<button type="button" onclick={() => begin(r.onpick)}>
+								<span class="action">{r.action}</span>
+								<span class="where">{r.label}</span>
+							</button>
+						{:else}
+							<!-- The page resolved these app routes. -->
+							<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+							<a href={r.href}>
+								<span class="action">{r.action}</span>
+								<span class="where">{r.label}</span>
+							</a>
+						{/if}
+					</li>
+				{/each}
+			</ul>
+		{/if}
 		{#if others.length}
 			<nav class="others" aria-label="Other subjects">
 				<span>Or open</span>
@@ -265,6 +304,41 @@
 	.begin:focus-visible {
 		outline: 2px solid var(--start-accent);
 		outline-offset: 3px;
+	}
+	.resume {
+		display: grid;
+		justify-items: center;
+		gap: 0.35rem;
+		margin: 0.75rem 0 0;
+		padding: 0;
+		list-style: none;
+	}
+	.resume button,
+	.resume a {
+		display: grid;
+		justify-items: center;
+		font: 0.9rem var(--sans);
+		padding: 0.35rem 0.9rem;
+		color: var(--start-ink);
+		text-decoration: none;
+		background: none;
+		border: 1px solid color-mix(in srgb, var(--start-muted) 60%, transparent);
+		border-radius: 0.25rem;
+		cursor: pointer;
+	}
+	.resume button:hover,
+	.resume a:hover {
+		border-color: var(--start-accent);
+	}
+	.resume :focus-visible {
+		outline: 2px solid var(--start-accent);
+		outline-offset: 2px;
+	}
+	.resume .action {
+		font-size: 0.75rem;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--start-muted);
 	}
 	.others {
 		display: flex;

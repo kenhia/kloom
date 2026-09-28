@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { Snippet } from 'svelte';
 	import type { Frame, Trail } from '../model';
 	import { cursorAt, indexLabel, type Stop } from '../navigation';
 
@@ -10,6 +11,8 @@
 		trail: Trail | null;
 		/** Frame ids on this spine that have a trail branching from them. */
 		branches: Set<string>;
+		/** Frame ids the reader has bookmarked. */
+		marked?: Set<string>;
 		frames: Record<string, Frame>;
 		onstep: (delta: number) => void;
 		onjump: (index: number) => void;
@@ -17,6 +20,8 @@
 		onleave: () => void;
 		/** The timeline slider, so the shell can return focus to it. */
 		slider?: HTMLElement;
+		/** Controls beside the index (the bookmarks). */
+		tools?: Snippet;
 	}
 
 	let {
@@ -25,12 +30,14 @@
 		frame,
 		trail,
 		branches,
+		marked = new Set(),
 		frames,
 		onstep,
 		onjump,
 		onwheel,
 		onleave,
-		slider = $bindable()
+		slider = $bindable(),
+		tools
 	}: Props = $props();
 
 	const stop = $derived(path[index]);
@@ -65,7 +72,10 @@
 			{/if}
 			{chapter}
 		</p>
-		<p class="index" aria-hidden="true">{indexLabel(index, path.length)}</p>
+		<div class="corner">
+			{@render tools?.()}
+			<p class="index" aria-hidden="true">{indexLabel(index, path.length)}</p>
+		</div>
 	</div>
 
 	{#key frame.id}
@@ -118,7 +128,7 @@
 			aria-valuemin={1}
 			aria-valuemax={path.length}
 			aria-valuenow={index + 1}
-			aria-valuetext={`${index + 1} of ${path.length}: ${frame.position.label}, ${frame.scene.headline} ${frame.scene.accent}`}
+			aria-valuetext={`${index + 1} of ${path.length}: ${frame.position.label}, ${frame.scene.headline} ${frame.scene.accent}${marked.has(frame.id) ? ', bookmarked' : ''}`}
 			bind:this={slider}
 			onclick={jumpTo}
 		>
@@ -127,8 +137,9 @@
 					class="tick"
 					class:boundary={i > 0 && path[i - 1].segment !== s.segment}
 					class:branch={branches.has(s.frameId)}
+					class:marked={marked.has(s.frameId)}
 					style:left="{cursorAt(i, path.length) * 100}%"
-					title={frames[s.frameId].position.label}
+					title={frames[s.frameId].position.label + (marked.has(s.frameId) ? ' (bookmarked)' : '')}
 				></span>
 			{/each}
 			<span class="cursor" style:left="{cursorAt(index, path.length) * 100}%"></span>
@@ -193,6 +204,11 @@
 	}
 	.hud p {
 		margin: 0;
+	}
+	.corner {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
 	}
 	.crumb {
 		font: inherit;
@@ -378,6 +394,17 @@
 		height: 0.35rem;
 		border: 1px solid var(--accent);
 		border-radius: 50%;
+	}
+	/* A bookmark: a small filled flag under the line, where the branch ring sits above it. */
+	.tick.marked::before {
+		content: '';
+		position: absolute;
+		top: calc(100% + 0.15rem);
+		left: -0.2rem;
+		width: 0.4rem;
+		height: 0.5rem;
+		background: var(--accent);
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 70%, 0 100%);
 	}
 	.cursor {
 		width: 2px;
