@@ -1,0 +1,291 @@
+{
+	"id": "tokens",
+	"position": {
+		"label": "Tokenisation"
+	},
+	"scene": {
+		"headline": "We cut language into",
+		"accent": "SUBWORDS.",
+		"palette": "whitepaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"EDINBURGH · SENNRICH, HADDOW, BIRCH · 2016",
+			"BYTE-PAIR ENCODING · TEXT → INTEGER IDS"
+		],
+		"counter": {
+			"value": "50,257",
+			"label": "tokens in GPT-2’s vocabulary"
+		}
+	},
+	"sources": [
+		{
+			"title": "Rico Sennrich, Barry Haddow, Alexandra Birch, Neural Machine Translation of Rare Words with Subword Units",
+			"url": "https://aclanthology.org/P16-1162/",
+			"note": "ACL 2016"
+		},
+		{
+			"title": "Alec Radford et al., Language Models Are Unsupervised Multitask Learners (GPT-2)",
+			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+			"note": "OpenAI, 2019"
+		},
+		{
+			"title": "tiktoken: the GPT-2 tokeniser, used to compute the token ids shown",
+			"url": "https://github.com/openai/tiktoken"
+		},
+		{
+			"title": "Jacob Devlin et al., BERT",
+			"url": "https://aclanthology.org/N19-1423/",
+			"note": "NAACL 2019"
+		},
+		{
+			"title": "Hugo Touvron et al., Llama 2: Open Foundation and Fine-Tuned Chat Models",
+			"url": "https://arxiv.org/abs/2307.09288"
+		},
+		{
+			"title": "Llama Team, AI @ Meta, The Llama 3 Herd of Models",
+			"url": "https://arxiv.org/abs/2407.21783"
+		},
+		{
+			"title": "Ashish Vaswani et al., Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"note": "NeurIPS 2017"
+		},
+		{
+			"title": "Tairan Fu et al., Why Do Large Language Models (LLMs) Struggle to Count Letters?",
+			"url": "https://arxiv.org/abs/2412.18626"
+		},
+		{
+			"title": "Byte-pair encoding — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Byte-pair_encoding"
+		},
+		{
+			"title": "Transformer (deep learning) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Neural Machine Translation of Rare Words with Subword Units",
+			"url": "https://aclanthology.org/P16-1162/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Sennrich",
+					"given": "Rico"
+				},
+				{
+					"family": "Haddow",
+					"given": "Barry"
+				},
+				{
+					"family": "Birch",
+					"given": "Alexandra"
+				}
+			],
+			"published": "2016",
+			"container": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+			"pages": "1715–25"
+		},
+		{
+			"kind": "web",
+			"title": "Language Models Are Unsupervised Multitask Learners",
+			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Radford",
+					"given": "Alec"
+				},
+				{
+					"family": "Wu",
+					"given": "Jeffrey"
+				},
+				{
+					"family": "Child",
+					"given": "Rewon"
+				},
+				{
+					"family": "Luan",
+					"given": "David"
+				},
+				{
+					"family": "Amodei",
+					"given": "Dario"
+				},
+				{
+					"family": "Sutskever",
+					"given": "Ilya"
+				}
+			],
+			"publisher": "OpenAI",
+			"published": "2019"
+		},
+		{
+			"kind": "web",
+			"title": "tiktoken",
+			"url": "https://github.com/openai/tiktoken",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "GitHub"
+		},
+		{
+			"kind": "article",
+			"title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+			"url": "https://aclanthology.org/N19-1423/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Devlin",
+					"given": "Jacob"
+				},
+				{
+					"family": "Chang",
+					"given": "Ming-Wei"
+				},
+				{
+					"family": "Lee",
+					"given": "Kenton"
+				},
+				{
+					"family": "Toutanova",
+					"given": "Kristina"
+				}
+			],
+			"published": "2019",
+			"container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1",
+			"pages": "4171–86"
+		},
+		{
+			"kind": "article",
+			"title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+			"url": "https://arxiv.org/abs/2307.09288",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Touvron, Hugo, et al."
+				}
+			],
+			"published": "2023",
+			"container": "arXiv"
+		},
+		{
+			"kind": "article",
+			"title": "The Llama 3 Herd of Models",
+			"url": "https://arxiv.org/abs/2407.21783",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Llama Team, AI @ Meta"
+				}
+			],
+			"published": "2024",
+			"container": "arXiv"
+		},
+		{
+			"kind": "article",
+			"title": "Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Vaswani",
+					"given": "Ashish"
+				},
+				{
+					"family": "Shazeer",
+					"given": "Noam"
+				},
+				{
+					"family": "Parmar",
+					"given": "Niki"
+				},
+				{
+					"family": "Uszkoreit",
+					"given": "Jakob"
+				},
+				{
+					"family": "Jones",
+					"given": "Llion"
+				},
+				{
+					"family": "Gomez",
+					"given": "Aidan N."
+				},
+				{
+					"family": "Kaiser",
+					"given": "Łukasz"
+				},
+				{
+					"family": "Polosukhin",
+					"given": "Illia"
+				}
+			],
+			"published": "2017",
+			"container": "Advances in Neural Information Processing Systems 30",
+			"volume": "30"
+		},
+		{
+			"kind": "article",
+			"title": "Why Do Large Language Models (LLMs) Struggle to Count Letters?",
+			"url": "https://arxiv.org/abs/2412.18626",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Fu",
+					"given": "Tairan"
+				},
+				{
+					"family": "Ferrando",
+					"given": "Raquel"
+				},
+				{
+					"family": "Conde",
+					"given": "Javier"
+				},
+				{
+					"family": "Arriaga",
+					"given": "Carlos"
+				},
+				{
+					"family": "Reviriego",
+					"given": "Pedro"
+				}
+			],
+			"published": "2024",
+			"container": "arXiv"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Byte-pair encoding",
+			"url": "https://en.wikipedia.org/w/index.php?title=Byte-pair_encoding&oldid=1346605957",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transformer (deep learning)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transformer_(deep_learning)&oldid=1377087904",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		}
+	]
+}

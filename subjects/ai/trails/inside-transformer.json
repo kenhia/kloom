@@ -1,0 +1,22 @@
+{
+	"id": "inside-transformer",
+	"title": "Inside a transformer",
+	"anchor": "transformer",
+	"spine": {
+		"segments": [
+			{
+				"id": "mechanism",
+				"title": "The mechanism",
+				"labelKind": "technology",
+				"frames": [
+					"tokens",
+					"token-embeddings",
+					"self-attention",
+					"multi-head-attention",
+					"residual-stream",
+					"next-token"
+				]
+			}
+		]
+	}
+}

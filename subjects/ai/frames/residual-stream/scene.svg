@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 226 L370 226"/>
+		<path pathLength="1" d="M40 196 L370 196"/>
+		<path pathLength="1" d="M40 152 L370 152"/>
+		<path pathLength="1" d="M40 122 L370 122"/>
+		<path pathLength="1" d="M40 78 L370 78"/>
+		<path pathLength="1" d="M40 48 L370 48"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M96 272 L96 30"/>
+		<path pathLength="1" d="M84 272 L108 272"/>
+		<path pathLength="1" d="M84 30 L108 30"/>
+		<path pathLength="1" d="M170 272 L170 30"/>
+		<path pathLength="1" d="M158 272 L182 272"/>
+		<path pathLength="1" d="M158 30 L182 30"/>
+		<path pathLength="1" d="M244 272 L244 30"/>
+		<path pathLength="1" d="M232 272 L256 272"/>
+		<path pathLength="1" d="M232 30 L256 30"/>
+		<path pathLength="1" d="M318 272 L318 30"/>
+		<path pathLength="1" d="M306 272 L330 272"/>
+		<path pathLength="1" d="M306 30 L330 30"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M96 226 Q133.0 213 164 226"/>
+		<path pathLength="1" d="M170 226 Q244.0 208 312 226"/>
+		<path pathLength="1" d="M96 226 Q207.0 203 312 226"/>
+		<path pathLength="1" d="M165.5 226 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M239.5 226 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M313.5 226 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M96 152 Q170.0 134 238 152"/>
+		<path pathLength="1" d="M244 152 Q281.0 139 312 152"/>
+		<path pathLength="1" d="M170 152 Q207.0 139 238 152"/>
+		<path pathLength="1" d="M165.5 152 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M239.5 152 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M313.5 152 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M96 78 Q133.0 65 164 78"/>
+		<path pathLength="1" d="M170 78 Q244.0 60 312 78"/>
+		<path pathLength="1" d="M96 78 Q207.0 55 312 78"/>
+		<path pathLength="1" d="M165.5 78 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M239.5 78 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M313.5 78 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M96 210 L116 210 L116 202"/>
+		<path pathLength="1" d="M110 202 L122 202 L126 190 L106 190 Z"/>
+		<path pathLength="1" d="M116 190 L116 184 L100.5 184"/>
+		<path pathLength="1" d="M91.5 184 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M170 210 L190 210 L190 202"/>
+		<path pathLength="1" d="M184 202 L196 202 L200 190 L180 190 Z"/>
+		<path pathLength="1" d="M190 190 L190 184 L174.5 184"/>
+		<path pathLength="1" d="M165.5 184 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M244 210 L264 210 L264 202"/>
+		<path pathLength="1" d="M258 202 L270 202 L274 190 L254 190 Z"/>
+		<path pathLength="1" d="M264 190 L264 184 L248.5 184"/>
+		<path pathLength="1" d="M239.5 184 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M318 210 L338 210 L338 202"/>
+		<path pathLength="1" d="M332 202 L344 202 L348 190 L328 190 Z"/>
+		<path pathLength="1" d="M338 190 L338 184 L322.5 184"/>
+		<path pathLength="1" d="M313.5 184 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M96 136 L116 136 L116 128"/>
+		<path pathLength="1" d="M110 128 L122 128 L126 116 L106 116 Z"/>
+		<path pathLength="1" d="M116 116 L116 110 L100.5 110"/>
+		<path pathLength="1" d="M91.5 110 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M170 136 L190 136 L190 128"/>
+		<path pathLength="1" d="M184 128 L196 128 L200 116 L180 116 Z"/>
+		<path pathLength="1" d="M190 116 L190 110 L174.5 110"/>
+		<path pathLength="1" d="M165.5 110 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M244 136 L264 136 L264 128"/>
+		<path pathLength="1" d="M258 128 L270 128 L274 116 L254 116 Z"/>
+		<path pathLength="1" d="M264 116 L264 110 L248.5 110"/>
+		<path pathLength="1" d="M239.5 110 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M318 136 L338 136 L338 128"/>
+		<path pathLength="1" d="M332 128 L344 128 L348 116 L328 116 Z"/>
+		<path pathLength="1" d="M338 116 L338 110 L322.5 110"/>
+		<path pathLength="1" d="M313.5 110 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M96 62 L116 62 L116 54"/>
+		<path pathLength="1" d="M110 54 L122 54 L126 42 L106 42 Z"/>
+		<path pathLength="1" d="M116 42 L116 36 L100.5 36"/>
+		<path pathLength="1" d="M91.5 36 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M170 62 L190 62 L190 54"/>
+		<path pathLength="1" d="M184 54 L196 54 L200 42 L180 42 Z"/>
+		<path pathLength="1" d="M190 42 L190 36 L174.5 36"/>
+		<path pathLength="1" d="M165.5 36 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M244 62 L264 62 L264 54"/>
+		<path pathLength="1" d="M258 54 L270 54 L274 42 L254 42 Z"/>
+		<path pathLength="1" d="M264 42 L264 36 L248.5 36"/>
+		<path pathLength="1" d="M239.5 36 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M318 62 L338 62 L338 54"/>
+		<path pathLength="1" d="M332 54 L344 54 L348 42 L328 42 Z"/>
+		<path pathLength="1" d="M338 42 L338 36 L322.5 36"/>
+		<path pathLength="1" d="M313.5 36 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+	</g>
+	<g>
+		<text x="40" y="276" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EMBED</text>
+		<text x="40" y="22" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">UNEMBED</text>
+		<text x="40" y="222" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ATTN</text>
+		<text x="40" y="192" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MLP</text>
+	</g>
+</svg>

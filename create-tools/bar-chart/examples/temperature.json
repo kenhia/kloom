@@ -1,0 +1,112 @@
+{
+	"title": "Next-token probabilities at three temperatures",
+	"description": "Bar chart. Five candidate next tokens for \"The cat sat on the\", with invented logits 4, 3, 2.5, 1.5 and 0, through softmax at temperatures 0.5, 1 and 2. mat: 84%, 59%, 40%. floor: 11%, 22%, 24%. sofa: 4%, 13%, 19%. roof: 0.6%, 5%, 11%. moon: 0.03%, 1%, 5%. Lower temperature concentrates probability on the top token; higher temperature flattens the distribution.",
+	"heading": "P(NEXT TOKEN) AFTER “THE CAT SAT ON THE” · T = 0.5, 1, 2",
+	"unit": "%",
+	"colours": {
+		"background": "#0c0b14",
+		"ink": "#ecebf6",
+		"muted": "#9a97b8",
+		"accent": "#ff6b4a"
+	},
+	"axis": {
+		"max": 100,
+		"ticks": [
+			[0, "0"],
+			[25, "25%"],
+			[50, "50%"],
+			[75, "75%"],
+			[100, "100%"]
+		]
+	},
+	"width": 640,
+	"height": 300,
+	"barWidth": 26,
+	"bars": [
+		{
+			"label": "T 0.5",
+			"value": 83.87884209276686,
+			"display": "84%",
+			"highlight": true
+		},
+		{
+			"label": "T 1",
+			"value": 59.122262419923,
+			"display": "59%",
+			"sublabel": "mat"
+		},
+		{
+			"label": "T 2",
+			"value": 39.98820679720901,
+			"display": "40%"
+		},
+		{
+			"label": "T 0.5",
+			"value": 11.351766852183713,
+			"display": "11%",
+			"highlight": true
+		},
+		{
+			"label": "T 1",
+			"value": 21.749864859832638,
+			"display": "22%",
+			"sublabel": "floor"
+		},
+		{
+			"label": "T 2",
+			"value": 24.25407344943639,
+			"display": "24%"
+		},
+		{
+			"label": "T 0.5",
+			"value": 4.176081645889847,
+			"display": "4%",
+			"highlight": true
+		},
+		{
+			"label": "T 1",
+			"value": 13.191959882094913,
+			"display": "13%",
+			"sublabel": "sofa"
+		},
+		{
+			"label": "T 2",
+			"value": 18.889091395092432,
+			"display": "19%"
+		},
+		{
+			"label": "T 0.5",
+			"value": 0.5651711923657222,
+			"display": "1%",
+			"highlight": true
+		},
+		{
+			"label": "T 1",
+			"value": 4.8530508293811625,
+			"display": "5%",
+			"sublabel": "roof"
+		},
+		{
+			"label": "T 2",
+			"value": 11.456813065237641,
+			"display": "11%"
+		},
+		{
+			"label": "T 0.5",
+			"value": 0.028138216793859396,
+			"display": "&lt;1%",
+			"highlight": true
+		},
+		{
+			"label": "T 1",
+			"value": 1.082862008768289,
+			"display": "1%",
+			"sublabel": "moon"
+		},
+		{
+			"label": "T 2",
+			"value": 5.411815293024522,
+			"display": "5%"
+		}
+	]
+}
