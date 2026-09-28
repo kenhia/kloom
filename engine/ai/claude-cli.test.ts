@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import type { ChildProcessWithoutNullStreams } from 'node:child_process';
 import { describe, expect, it } from 'vitest';
-import { ClaudeCliProvider, claudeArgs, parseStreamLine } from './claude-cli';
+import { ClaudeCliProvider, claudeArgs, growArgs, parseStreamLine } from './claude-cli';
 import type { ProviderEvent } from './provider';
 import { context } from './fixture';
 
@@ -72,6 +72,45 @@ describe('the claude -p adapter', () => {
 		expect(args[args.indexOf('--output-format') + 1]).toBe('stream-json');
 	});
 
+	it('offers a web turn WebSearch and WebFetch, pre-approved, and nothing else', () => {
+		const args = claudeArgs('claude-sonnet-5', true);
+		expect(args[args.indexOf('--tools') + 1]).toBe('WebSearch,WebFetch');
+		expect(args[args.indexOf('--allowedTools') + 1]).toBe('WebSearch,WebFetch');
+		expect(args.filter((a) => a === '--tools')).toHaveLength(1);
+		expect(args[args.indexOf('--system-prompt') + 1]).toContain('[W1]');
+		expect(claudeArgs('claude-sonnet-5')).not.toContain('--allowedTools');
+	});
+
+	it('says searching when a tool starts, dropping the text before it', async () => {
+		const tool = JSON.stringify({
+			type: 'stream_event',
+			event: { type: 'content_block_start', content_block: { type: 'tool_use', name: 'WebSearch' } }
+		});
+		expect(parseStreamLine(tool)).toEqual({ kind: 'tool', name: 'WebSearch' });
+		const { spawn, calls } = fakeClaude([
+			delta('Let me look.'),
+			tool,
+			tool,
+			delta('Found [W1].'),
+			result('Found [W1].')
+		]);
+		const out: ProviderEvent[] = [];
+		for await (const e of new ClaudeCliProvider({ spawn, cwd }).ask({
+			context,
+			question: 'Why?',
+			model: 'claude-sonnet-5',
+			web: true
+		}))
+			out.push(e);
+		expect(out).toEqual([
+			{ type: 'text', text: 'Let me look.' },
+			{ type: 'status', status: 'searching' },
+			{ type: 'text', text: 'Found [W1].' }
+		]);
+		expect(calls[0].args).toContain('--allowedTools');
+		expect(calls[0].stdin).toContain('You may search the web');
+	});
+
 	it('reads text deltas and the result from stream-json, and ignores the rest', () => {
 		expect(parseStreamLine(delta('Hi'))).toEqual({ kind: 'text', text: 'Hi' });
 		expect(parseStreamLine(result('Hi'))).toEqual({ kind: 'result', ok: true, text: 'Hi' });
@@ -129,5 +168,53 @@ describe('the claude -p adapter', () => {
 		setTimeout(() => abort.abort(), 20);
 		const events = await collect(new ClaudeCliProvider({ spawn: fake.spawn, cwd }), abort.signal);
 		expect(events).toEqual([{ type: 'text', text: 'Part' }]);
+	});
+
+	it('gives grow file tools that write only in its directory, and no shell', () => {
+		const args = growArgs('claude-opus-5-5', 'INSTRUCTIONS');
+		expect(args[args.indexOf('--tools') + 1]).toBe('Read,Write,Edit,Glob,Grep');
+		expect(args[args.indexOf('--permission-mode') + 1]).toBe('acceptEdits');
+		const denied = args.slice(
+			args.indexOf('--disallowedTools') + 1,
+			args.indexOf('--strict-mcp-config')
+		);
+		expect(denied).toEqual(['Read(~/**)', 'Edit(~/**)', 'Write(~/**)']);
+		expect(args[args.indexOf('--system-prompt') + 1]).toBe('INSTRUCTIONS');
+		expect(args.join(' ')).not.toMatch(/Bash|dangerously|--add-dir/);
+		expect(args).not.toContain('--allowedTools');
+		const web = growArgs('claude-opus-5-5', 'I', true);
+		expect(web[web.indexOf('--tools') + 1]).toBe('Read,Write,Edit,Glob,Grep,WebSearch,WebFetch');
+		expect(web[web.indexOf('--allowedTools') + 1]).toBe('WebSearch,WebFetch');
+	});
+
+	it('runs grow in the job directory, reporting what the model is doing', async () => {
+		const assistant = (name: string) =>
+			JSON.stringify({ type: 'assistant', message: { content: [{ type: 'tool_use', name }] } });
+		const { spawn, calls } = fakeClaude([
+			assistant('Read'),
+			assistant('Glob'),
+			assistant('WebFetch'),
+			assistant('Write'),
+			assistant('Edit'),
+			result('Added a frame.')
+		]);
+		const out: ProviderEvent[] = [];
+		for await (const e of new ClaudeCliProvider({ spawn, cwd }).grow({
+			workDir: '/tmp/kloom-grow-x',
+			instructions: 'I',
+			prompt: 'Verb: frames',
+			model: 'claude-opus-5-5',
+			web: true,
+			timeoutMs: 1000
+		}))
+			out.push(e);
+		expect(out).toEqual([
+			{ type: 'status', status: 'reading' },
+			{ type: 'status', status: 'searching' },
+			{ type: 'status', status: 'writing' },
+			{ type: 'text', text: 'Added a frame.' }
+		]);
+		expect(calls[0].cwd).toBe('/tmp/kloom-grow-x');
+		expect(calls[0].stdin).toBe('Verb: frames');
 	});
 });

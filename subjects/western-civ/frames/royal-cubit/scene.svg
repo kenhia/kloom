@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M200 36 L200 204"/>
+		<path pathLength="1" d="M66 190 L334 190"/>
+		<path pathLength="1" d="M200 50 L326 50"/>
+		<path pathLength="1" d="M90 202 L200 202 M90 198 L90 206 M200 198 L200 206"/>
+		<path pathLength="1" d="M320 50 L320 190 M316 50 L324 50 M316 190 L324 190"/>
+		<path pathLength="1" d="M60 222 L60 256 M340 222 L340 256"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M90 190 L200 50 L310 190 Z"/>
+		<path pathLength="1" d="M60 228 L340 228 L340 250 L60 250 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M172.5 85 L227.5 85 M145 120 L255 120 M117.5 155 L282.5 155"/>
+		<path pathLength="1" d="M120 190 A30 30 0 0 0 108.53 166.41"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M100 228 L100 250 M140 228 L140 250 M180 228 L180 250 M220 228 L220 250 M260 228 L260 250 M300 228 L300 250"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M70 228 L70 235 M80 228 L80 235 M90 228 L90 235 M110 228 L110 235 M120 228 L120 235 M130 228 L130 235 M150 228 L150 235 M160 228 L160 235 M170 228 L170 235 M190 228 L190 235 M200 228 L200 235 M210 228 L210 235 M230 228 L230 235 M240 228 L240 235 M250 228 L250 235 M270 228 L270 235 M280 228 L280 235 M290 228 L290 235 M310 228 L310 235 M320 228 L320 235 M330 228 L330 235"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="126" y="182" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">51°50′</text>
+		<text x="60" y="267" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ROYAL CUBIT</text>
+		<text x="340" y="267" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">7 PALMS · 28 FINGERS</text>
+	</g>
+</svg>

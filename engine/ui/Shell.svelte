@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import type { AiOffer } from '../ai/provider';
 	import type { Subject, Trail } from '../model';
 	import { clamp, indexLabel, stops, WheelGate, type SyncMode } from '../navigation';
 	import { pageKey } from '../keys';
@@ -14,11 +15,15 @@
 		subject: Subject;
 		/** The reader's settings; the page makes them and loads them on mount. */
 		settings: UserSettings;
+		/** What the app config offers the AI pane. */
+		ai?: AiOffer;
+		/** A grow job finished: the page reloads the subject from disk. */
+		ongrown?: () => void;
 		/** False while something (the start screen) sits in front of the shell. */
 		active?: boolean;
 	}
 
-	let { subject, settings, active = true }: Props = $props();
+	let { subject, settings, ai = { web: 'deny' }, ongrown, active = true }: Props = $props();
 
 	const SYNC_KEY = 'kloom.sync';
 
@@ -201,7 +206,18 @@
 		{#snippet tools()}<Settings {settings} />{/snippet}
 	</Narrative>
 
-	<AiPane frame={narrativeFrame} {trail} {settings} />
+	<AiPane
+		frame={narrativeFrame}
+		{trail}
+		{settings}
+		offer={ai}
+		mainFrames={stops(subject.spine).map((s) => s.frameId)}
+		titleOf={(id) =>
+			subject.frames[id]
+				? `${subject.frames[id].scene.headline} ${subject.frames[id].scene.accent}`
+				: id}
+		{ongrown}
+	/>
 </div>
 
 <style>

@@ -3,6 +3,9 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { ClaudeCliProvider } from '$engine/ai/claude-cli';
 import { answerId, keptAnswer, type Answer, type KeptAnswer } from '$engine/ai/kept';
+import { webReferences } from '$engine/ai/prompt';
+import { pinWikipedia, wikipediaArticle, type Fetch } from '$engine/ai/wikipedia';
+import type { Citation } from '$engine/model';
 import type { AskContext, AskStreamEvent, Provider } from '$engine/ai/provider';
 import { QueueFull, TurnQueue } from '$engine/ai/queue';
 import type { AppConfig } from './app-config';
@@ -28,7 +31,8 @@ export function providerFor(config: AppConfig): Provider {
 			key,
 			provider: new ClaudeCliProvider({
 				command: config.provider.command,
-				timeoutMs: config.provider.timeoutSeconds * 1000
+				timeoutMs: config.provider.timeoutSeconds * 1000,
+				webTimeoutMs: (config.provider.webTimeoutSeconds ?? 180) * 1000
 			})
 		};
 	return cached.provider;
@@ -65,6 +69,8 @@ export interface AskTurn {
 	context: AskContext;
 	question: string;
 	model: string;
+	/** Already checked against the app config (`resolveWeb`). */
+	web?: boolean;
 	provider: Provider;
 	queue: TurnQueue;
 	answers: RecentAnswers;
@@ -93,11 +99,14 @@ export async function* askEvents(t: AskTurn): AsyncIterable<AskStreamEvent> {
 			context: t.context,
 			question: t.question,
 			model: t.model,
+			web: t.web ?? false,
 			signal: t.signal
 		})) {
 			yield event;
 			if (event.type === 'error') return;
-			text += event.text;
+			// Text before a search was thinking aloud; the answer starts after it.
+			if (event.type === 'status') text = '';
+			else text += event.text;
 		}
 	} finally {
 		release();
@@ -115,7 +124,8 @@ export async function* askEvents(t: AskTurn): AsyncIterable<AskStreamEvent> {
 		answer: text,
 		provider: t.provider.name,
 		model: t.model,
-		askedAt: askedAt.toISOString()
+		askedAt: askedAt.toISOString(),
+		web: t.web ?? false
 	});
 	yield { type: 'done' };
 }
@@ -145,11 +155,37 @@ export function ndjson(events: (signal: AbortSignal) => AsyncIterable<AskStreamE
 }
 
 /**
+ * The pages a web turn listed, as citations accessed on the day it was asked.
+ * A Wikipedia page is pinned to its current revision, and a failed lookup
+ * fails the keep rather than storing an unpinned link. Undefined for a turn
+ * that had no web.
+ */
+export async function webCitations(
+	answer: Answer,
+	fetcher?: Fetch
+): Promise<Citation[] | undefined> {
+	if (!answer.web) return undefined;
+	const accessed = answer.askedAt.slice(0, 10);
+	return Promise.all(
+		webReferences(answer.answer).map((r) =>
+			wikipediaArticle(r.url)
+				? pinWikipedia(r.url, accessed, fetcher)
+				: ({ kind: 'web', title: r.title, url: r.url, accessed } satisfies Citation)
+		)
+	);
+}
+
+/**
  * Write a kept answer to `<dataDir>/<subject>/kept/<id>.json`. Keeping the
  * same answer twice is not an error: the first file stands.
  */
-export async function keep(answer: Answer, dataDir: string, now = new Date()): Promise<KeptAnswer> {
-	const kept = keptAnswer(answer, now);
+export async function keep(
+	answer: Answer,
+	dataDir: string,
+	now = new Date(),
+	fetcher?: Fetch
+): Promise<KeptAnswer> {
+	const kept = keptAnswer(answer, now, await webCitations(answer, fetcher));
 	const dir = join(dataDir, answer.subject, 'kept');
 	await mkdir(dir, { recursive: true });
 	try {

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M200 30 L200 270"/>
+		<path pathLength="1" d="M80 30 L80 270"/>
+		<path pathLength="1" d="M320 30 L320 270"/>
+		<path pathLength="1" d="M60 30 L340 30"/>
+		<path pathLength="1" d="M60 270 L340 270"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M60 30 L60 270"/>
+		<path pathLength="1" d="M340 30 L340 270"/>
+		<path pathLength="1" d="M60 30 L340 30"/>
+		<path pathLength="1" d="M60 270 L340 270"/>
+		<path pathLength="1" d="M200 40 L200 260"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M75 60 L185 60"/>
+		<path pathLength="1" d="M75 70 L185 70"/>
+		<path pathLength="1" d="M75 80 L185 80"/>
+		<path pathLength="1" d="M75 90 L185 90"/>
+		<path pathLength="1" d="M75 100 L185 100"/>
+		<path pathLength="1" d="M75 110 L185 110"/>
+		<path pathLength="1" d="M75 120 L185 120"/>
+		<path pathLength="1" d="M75 130 L185 130"/>
+		<path pathLength="1" d="M75 140 L185 140"/>
+		<path pathLength="1" d="M75 150 L185 150"/>
+		<path pathLength="1" d="M75 160 L185 160"/>
+		<path pathLength="1" d="M75 170 L185 170"/>
+		<path pathLength="1" d="M75 180 L185 180"/>
+		<path pathLength="1" d="M75 190 L185 190"/>
+		<path pathLength="1" d="M75 200 L185 200"/>
+		<path pathLength="1" d="M75 210 L185 210"/>
+		<path pathLength="1" d="M75 220 L185 220"/>
+		<path pathLength="1" d="M75 230 L185 230"/>
+		<path pathLength="1" d="M215 60 L325 60"/>
+		<path pathLength="1" d="M215 70 L325 70"/>
+		<path pathLength="1" d="M215 80 L325 80"/>
+		<path pathLength="1" d="M215 90 L325 90"/>
+		<path pathLength="1" d="M215 100 L325 100"/>
+		<path pathLength="1" d="M215 110 L325 110"/>
+		<path pathLength="1" d="M215 120 L325 120"/>
+		<path pathLength="1" d="M215 130 L325 130"/>
+		<path pathLength="1" d="M215 140 L325 140"/>
+		<path pathLength="1" d="M215 150 L325 150"/>
+		<path pathLength="1" d="M215 160 L325 160"/>
+		<path pathLength="1" d="M215 170 L325 170"/>
+		<path pathLength="1" d="M215 180 L325 180"/>
+		<path pathLength="1" d="M215 190 L325 190"/>
+		<path pathLength="1" d="M215 200 L325 200"/>
+		<path pathLength="1" d="M215 210 L325 210"/>
+		<path pathLength="1" d="M215 220 L325 220"/>
+		<path pathLength="1" d="M215 230 L325 230"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M70 45 L70 250"/>
+		<path pathLength="1" d="M190 45 L190 250"/>
+		<path pathLength="1" d="M210 45 L210 250"/>
+		<path pathLength="1" d="M330 45 L330 250"/>
+		<path pathLength="1" d="M70 45 L190 45"/>
+		<path pathLength="1" d="M210 45 L330 45"/>
+		<path pathLength="1" d="M70 250 L190 250"/>
+		<path pathLength="1" d="M210 250 L330 250"/>
+	</g>
+	<g font-family="ui-monospace, monospace" font-size="8" fill="currentColor" stroke="none">
+		<text x="90" y="280" text-anchor="middle" pathLength="1">GREEK</text>
+		<text x="270" y="280" text-anchor="middle" pathLength="1">LATIN</text>
+	</g>
+</svg>

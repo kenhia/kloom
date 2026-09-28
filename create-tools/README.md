@@ -27,7 +27,7 @@ here.
   committed output byte for byte (sprint 002 checked all four this way).
   Keep it so when you change a tool, or say in the commit why the output
   changed.
-- Output still has to pass `just check`: illustrations the tripwire and
+- Output still has to pass `just check`: illustrations the sanitiser and
   `pathLength="1"`, media a `media` citation with a licence
   (docs/design.md §Citations, §Illustrations).
 
@@ -39,6 +39,7 @@ tree). Put general primitives in the tool and subject-specific use in a
 separate file, as `draw-plates` does with `plates.py` and `western_civ.py`,
 and add a row to the table above.
 
-Whether grow jobs may add or run tools is not decided. It would mean running
-model-written code on the host, so it belongs to grow's design (korg 3364)
-and its sanitiser (3365).
+Grow jobs do not run or add tools (decided in sprint 005, korg 3364). A
+grow job has no shell, because running model-written code on the host is
+not something a reader's request should be able to cause. Grow reads these
+READMEs and `plates.py` as references and computes its geometry itself.

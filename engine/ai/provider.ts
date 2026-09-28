@@ -6,6 +6,20 @@ import type { Citation, Source } from '../model';
  * `claude -p` (./claude-cli.ts) is one adapter, not the architecture.
  */
 
+/**
+ * Whether ask may search the web (korg 3376), an app setting: `allow` offers
+ * it checked, `offer` offers it unchecked, `deny` never adds the web tools.
+ */
+export const WEB_MODES = ['allow', 'offer', 'deny'] as const;
+export type WebMode = (typeof WEB_MODES)[number];
+
+/** What the app offers the AI pane, served by the page load from the app config. */
+export interface AiOffer {
+	web: WebMode;
+	/** Whether grow is configured; the AI pane shows its form only then. */
+	grow?: boolean;
+}
+
 /** What the reader is looking at when they ask. The server builds it from disk. */
 export interface AskContext {
 	subject: { title: string };
@@ -31,12 +45,46 @@ export interface AskRequest {
 	question: string;
 	/** A model id the server has already checked against the app config. */
 	model: string;
+	/**
+	 * Whether the model may search and read the web (WebSearch, WebFetch, and
+	 * nothing else). The server has already checked it against the app config.
+	 */
+	web?: boolean;
 	/** Aborting stops the turn (the reader pressed Stop, or went away). */
 	signal?: AbortSignal;
 }
 
-/** What a provider yields: the answer's text in order, or an error. */
-export type ProviderEvent = { type: 'text'; text: string } | { type: 'error'; message: string };
+/**
+ * What a provider yields: the answer's text in order, or an error. A
+ * `searching` status says the model went to the web; any text before it was
+ * the model thinking aloud, not the answer, and is dropped.
+ */
+export type ProviderEvent =
+	| { type: 'text'; text: string }
+	| { type: 'status'; status: ProviderStatus }
+	| { type: 'error'; message: string };
+
+/** What the model is doing between words: an ask only ever searches. */
+export type ProviderStatus = 'searching' | 'reading' | 'writing';
+
+/**
+ * One grow turn (docs/design.md §Grow): the model works on a copy of the
+ * subject in `workDir`, with file tools confined to it. The host checks and
+ * applies what it leaves there; the provider writes nothing else.
+ */
+export interface GrowRequest {
+	/** An absolute path, outside the home directory, holding the subject's copy. */
+	workDir: string;
+	/** The content-writing instructions (skills/grow/SKILL.md), as the system prompt. */
+	instructions: string;
+	/** The job: verb, anchor, the reader's words. */
+	prompt: string;
+	model: string;
+	/** WebSearch and WebFetch, for finding and pinning sources. */
+	web: boolean;
+	timeoutMs: number;
+	signal?: AbortSignal;
+}
 
 export interface Provider {
 	/** Recorded on kept answers, e.g. "claude-cli". */
@@ -47,6 +95,11 @@ export interface Provider {
 	 * subject content.
 	 */
 	ask(request: AskRequest): AsyncIterable<ProviderEvent>;
+	/**
+	 * Run one grow turn. Text is the model's account of what it did; a failure
+	 * is an `error` event. The files are the result, not the events.
+	 */
+	grow(request: GrowRequest): AsyncIterable<ProviderEvent>;
 }
 
 /**

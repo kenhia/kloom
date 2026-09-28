@@ -1,9 +1,12 @@
 <script lang="ts">
 	// Escape anywhere in this pane returns to the spine; the shell handles it.
+	import { onMount } from 'svelte';
 	import { readAskStream } from '../ai/client';
+	import type { GrowJob, GrowVerb } from '../ai/grow';
+	import type { AiOffer } from '../ai/provider';
 	import { renderMarkdown } from '../markdown';
 	import type { Frame, Trail } from '../model';
-	import { ASK_MODEL } from '../settings';
+	import { ASK_MODEL, GROW_MODEL } from '../settings';
 	import type { UserSettings } from '../user-settings.svelte';
 
 	interface Props {
@@ -14,9 +17,24 @@
 		frame: Frame;
 		trail: Trail | null;
 		settings: UserSettings;
+		offer: AiOffer;
+		/** The main spine's frame ids: a trail may only branch from one of these. */
+		mainFrames?: string[];
+		/** A frame's title (headline and accent), for the grow job list. */
+		titleOf?: (id: string) => string;
+		/** A grow job finished and committed: the page reloads the subject. */
+		ongrown?: () => void;
 	}
 
-	let { frame, trail, settings }: Props = $props();
+	let {
+		frame,
+		trail,
+		settings,
+		offer,
+		mainFrames = [],
+		titleOf = (id) => id,
+		ongrown
+	}: Props = $props();
 
 	type Phase = 'asking' | 'queued' | 'answering' | 'done' | 'stopped' | 'failed';
 
@@ -26,15 +44,20 @@
 	 */
 	interface Turn {
 		id: string | null;
+		/** The frame it was asked about. */
+		frame: string;
 		question: string;
 		about: string;
 		model: string;
 		text: string;
 		phase: Phase;
 		kept: 'no' | 'keeping' | 'kept';
+		web: boolean;
 	}
 
 	let question = $state('');
+	// "Include web": shown unless the app denies it, checked when it allows it.
+	let includeWeb = $derived(offer.web === 'allow');
 	let turn = $state<Turn | null>(null);
 	let status = $state('');
 	let controller: AbortController | null = null;
@@ -49,23 +72,26 @@
 	const trailOf = (id: string) =>
 		trail?.spine.segments.some((s) => s.frames.includes(id)) ? trail.id : null;
 
-	function modelLabel(id: string) {
-		const setting = settings.list.find((s) => s.id === ASK_MODEL);
-		return setting?.choices.find((c) => c.value === id)?.label ?? id;
+	function modelLabel(id: string, setting = ASK_MODEL) {
+		const s = settings.list.find((x) => x.id === setting);
+		return s?.choices.find((c) => c.value === id)?.label ?? id;
 	}
 
 	async function ask(q: string) {
 		controller?.abort();
 		const abort = (controller = new AbortController());
 		const model = settings.get(ASK_MODEL) ?? '';
+		const web = offer.web !== 'deny' && includeWeb;
 		turn = {
 			id: null,
+			frame: frame.id,
 			question: q,
 			about: `${frame.scene.headline} ${frame.scene.accent}`,
 			model: modelLabel(model),
 			text: '',
 			phase: 'asking',
-			kept: 'no'
+			kept: 'no',
+			web
 		};
 		// The reactive proxy; a later question replaces `turn` and this one goes quiet.
 		const mine = turn;
@@ -80,7 +106,13 @@
 			const res = await fetch('/api/ask', {
 				method: 'POST',
 				headers: { 'content-type': 'application/json' },
-				body: JSON.stringify({ frame: frame.id, trail: trailOf(frame.id), question: q, model }),
+				body: JSON.stringify({
+					frame: frame.id,
+					trail: trailOf(frame.id),
+					question: q,
+					model,
+					web
+				}),
 				signal: abort.signal
 			});
 			if (!res.ok || !res.body) {
@@ -93,6 +125,10 @@
 				else if (e.type === 'queued') {
 					mine.phase = 'queued';
 					status = 'Waiting for another question to finish…';
+				} else if (e.type === 'status') {
+					// Anything before a search was the model thinking aloud.
+					mine.text = '';
+					status = `${mine.model} is searching the web…`;
 				} else if (e.type === 'text') {
 					if (mine.phase !== 'answering') status = `${mine.model} is answering…`;
 					mine.phase = 'answering';
@@ -143,6 +179,131 @@
 		}
 	}
 
+	// --- Grow: queue a job, then follow it until it lands or fails. ---
+
+	const VERBS: { value: GrowVerb; label: string; placeholder: string }[] = [
+		{
+			value: 'frames',
+			label: 'New frames on the main spine',
+			placeholder: 'What the main story should add…'
+		},
+		{
+			value: 'trail',
+			label: 'A side trail from this frame',
+			placeholder: 'What the side trail should follow…'
+		},
+		{
+			value: 'both',
+			label: 'A new frame with its own trail',
+			placeholder: 'A new frame, and the trail it opens…'
+		}
+	];
+	const LIVE = ['queued', 'running', 'applying'];
+
+	let verb = $state<GrowVerb>('frames');
+	let growText = $state('');
+	/** A kept answer the next job turns into content. */
+	let growKept = $state<{ id: string; frame: string; about: string } | null>(null);
+	let growing = $state(false);
+	let jobs = $state<GrowJob[]>([]);
+	let growInput = $state<HTMLInputElement>();
+	let poll: ReturnType<typeof setTimeout> | undefined;
+
+	/** The frame a job would grow from: the kept answer's, or the one being read. */
+	const growAnchor = $derived(growKept?.frame ?? frame.id);
+	const anchorOnMain = $derived(mainFrames.includes(growAnchor));
+	const placeholder = $derived(VERBS.find((v) => v.value === verb)!.placeholder);
+
+	$effect(() => {
+		if (verb === 'trail' && !anchorOnMain) verb = 'frames';
+	});
+
+	onMount(() => {
+		if (offer.grow) refreshJobs(true);
+		return () => clearTimeout(poll);
+	});
+
+	function jobText(job: GrowJob) {
+		switch (job.status) {
+			case 'queued':
+				return 'waiting';
+			case 'running':
+				return job.progress ?? 'starting';
+			case 'applying':
+				return 'committing';
+			case 'done':
+				return `added ${job.result?.frames.map(titleOf).join(', ')}`;
+			case 'failed':
+				return `failed: ${job.error}`;
+		}
+	}
+
+	/** Fetch the job list; announce what finished since last time, and keep polling while any runs. */
+	async function refreshJobs(first = false) {
+		clearTimeout(poll);
+		let next: GrowJob[];
+		try {
+			const res = await fetch('/api/grow');
+			if (!res.ok) throw new Error(`status ${res.status}`);
+			next = (await res.json()).jobs;
+		} catch {
+			poll = setTimeout(refreshJobs, 10_000);
+			return;
+		}
+		if (!first) {
+			const was = new Map(jobs.map((j) => [j.id, j.status]));
+			for (const j of next) {
+				if (!LIVE.includes(was.get(j.id) ?? 'done')) continue;
+				if (j.status === 'done') {
+					status = `Grow ${jobText(j)}.`;
+					ongrown?.();
+				} else if (j.status === 'failed') status = `Grow ${jobText(j)}`;
+			}
+		}
+		jobs = next;
+		if (jobs.some((j) => LIVE.includes(j.status))) poll = setTimeout(refreshJobs, 3000);
+	}
+
+	async function queueGrow(e: SubmitEvent) {
+		e.preventDefault();
+		const request = growText.trim();
+		if (growing || (!request && !growKept)) return;
+		growing = true;
+		try {
+			const res = await fetch('/api/grow', {
+				method: 'POST',
+				headers: { 'content-type': 'application/json' },
+				body: JSON.stringify({
+					verb,
+					frame: frame.id,
+					request,
+					kept: growKept?.id ?? null,
+					model: settings.get(GROW_MODEL)
+				})
+			});
+			const body = await res.json().catch(() => null);
+			if (!res.ok) throw new Error(body?.message ?? `status ${res.status}`);
+			const job = body.job as GrowJob;
+			status = `Grow queued: ${VERBS.find((v) => v.value === job.verb)!.label.toLowerCase()}, on ${modelLabel(job.model, GROW_MODEL)}.`;
+			growText = '';
+			growKept = null;
+			jobs = [job, ...jobs.filter((j) => j.id !== job.id)];
+			refreshJobs();
+		} catch (err) {
+			status = `Could not queue it: ${(err as Error).message}`;
+		} finally {
+			growing = false;
+		}
+	}
+
+	/** After "Keep this": grow the kept answer into content, as a trail from its frame if it can be. */
+	function growFrom() {
+		if (!turn?.id || turn.kept !== 'kept') return;
+		growKept = { id: turn.id, frame: turn.frame, about: turn.about };
+		verb = mainFrames.includes(turn.frame) ? 'trail' : 'frames';
+		growInput?.focus();
+	}
+
 	function keydown(e: KeyboardEvent) {
 		if (e.key === 'Enter' && !e.shiftKey) {
 			e.preventDefault();
@@ -163,6 +324,12 @@
 			maxlength="2000"
 			bind:value={question}
 			onkeydown={keydown}></textarea>
+		{#if offer.web !== 'deny'}
+			<label class="web">
+				<input type="checkbox" bind:checked={includeWeb} />
+				Include web
+			</label>
+		{/if}
 		<button type="submit">{running ? 'Stop' : 'Send'}</button>
 	</form>
 
@@ -179,7 +346,7 @@
 			<h3 id="ai-answer-title" class="about">
 				<span class="visually-hidden">Answer about</span>
 				<span aria-hidden="true">About</span>
-				{turn.about} · {turn.model}
+				{turn.about} · {turn.model}{turn.web ? ' · web' : ''}
 			</h3>
 			<p class="question">{turn.question}</p>
 			{#if answerHtml}
@@ -193,8 +360,60 @@
 				<button type="button" onclick={keepThis} disabled={turn.kept !== 'no'}>
 					{turn.kept === 'kept' ? 'Kept' : turn.kept === 'keeping' ? 'Keeping…' : 'Keep this'}
 				</button>
+				{#if offer.grow && turn.kept === 'kept'}
+					<button type="button" onclick={growFrom}>Grow from this</button>
+				{/if}
 				<span class="note">Answers are not saved unless you keep them.</span>
 			</div>
+		{/if}
+	{/if}
+
+	{#if offer.grow}
+		<h3 id="grow-title" class="title grow-title">Grow</h3>
+		<form class="grow" onsubmit={queueGrow} aria-labelledby="grow-title">
+			<label for="grow-verb" class="visually-hidden">What to grow</label>
+			<select id="grow-verb" bind:value={verb}>
+				{#each VERBS as v (v.value)}
+					<option value={v.value} disabled={v.value === 'trail' && !anchorOnMain}>{v.label}</option>
+				{/each}
+			</select>
+			<label for="grow-input" class="visually-hidden">What grow should write</label>
+			<input
+				id="grow-input"
+				type="text"
+				maxlength="2000"
+				{placeholder}
+				bind:value={growText}
+				bind:this={growInput}
+			/>
+			<button type="submit" disabled={growing}>Queue</button>
+		</form>
+		{#if growKept}
+			<p class="kept-chip">
+				From your kept answer about {growKept.about}
+				<button type="button" class="link" onclick={() => (growKept = null)}>Don’t use it</button>
+			</p>
+		{/if}
+		{#if jobs.length}
+			<ul class="jobs" aria-label="Grow jobs">
+				{#each jobs as job (job.id)}
+					<li class={job.status}>
+						<span class="what">
+							{VERBS.find((v) => v.value === job.verb)?.label} · from {titleOf(job.anchor)} ·
+							{modelLabel(job.model, GROW_MODEL)}
+						</span>
+						<span class="state">{jobText(job)}</span>
+						{#if job.problems?.length}
+							<details>
+								<summary>What the validator found</summary>
+								<ul>
+									{#each job.problems as p, i (i)}<li>{p}</li>{/each}
+								</ul>
+							</details>
+						{/if}
+					</li>
+				{/each}
+			</ul>
 		{/if}
 	{/if}
 
@@ -209,7 +428,7 @@
 <style>
 	.ai {
 		display: grid;
-		grid-template-columns: auto 1fr;
+		grid-template-columns: auto minmax(0, 1fr);
 		align-items: center;
 		gap: 0.25rem 1rem;
 		padding: 0.75rem 1.5rem;
@@ -248,6 +467,14 @@
 		border-radius: 0.25rem;
 		cursor: pointer;
 	}
+	.web {
+		display: flex;
+		align-items: center;
+		gap: 0.3rem;
+		font-size: 0.8rem;
+		color: var(--muted);
+		white-space: nowrap;
+	}
 	button:disabled {
 		cursor: default;
 		opacity: 0.6;
@@ -255,9 +482,66 @@
 	.answer,
 	.actions,
 	.status,
-	.hint {
+	.hint,
+	.kept-chip,
+	.jobs {
 		grid-column: 2;
 		margin: 0;
+	}
+	.grow-title {
+		grid-column: 1;
+	}
+	.grow input,
+	.grow select {
+		font: inherit;
+		font-size: 0.85rem;
+		padding: 0.3rem 0.5rem;
+		color: var(--ink);
+		background: color-mix(in srgb, var(--ink) 6%, transparent);
+		border: 1px solid var(--muted);
+		border-radius: 0.25rem;
+	}
+	.grow input {
+		flex: 1;
+		min-width: 8rem;
+	}
+	.grow select {
+		max-width: 100%;
+	}
+	.grow {
+		flex-wrap: wrap;
+	}
+	.kept-chip {
+		font-size: 0.8rem;
+		color: var(--muted);
+	}
+	.link {
+		padding: 0;
+		color: var(--accent);
+		background: none;
+		text-decoration: underline;
+	}
+	.jobs {
+		list-style: none;
+		padding: 0;
+		font-size: 0.8rem;
+	}
+	.jobs > li {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0 0.75rem;
+		padding: 0.15rem 0;
+	}
+	.jobs .what {
+		color: var(--muted);
+	}
+	.jobs .failed .state {
+		color: var(--accent);
+	}
+	.jobs details {
+		flex-basis: 100%;
+		font-family: var(--mono);
+		font-size: 0.7rem;
 	}
 	.answer {
 		max-height: 35vh;
@@ -313,12 +597,15 @@
 	}
 	@media (max-width: 760px) {
 		.ai {
-			grid-template-columns: 1fr;
+			grid-template-columns: minmax(0, 1fr);
 		}
 		.answer,
 		.actions,
 		.status,
-		.hint {
+		.hint,
+		.kept-chip,
+		.jobs,
+		.grow-title {
 			grid-column: 1;
 		}
 	}

@@ -66,10 +66,9 @@ baked into the engine.
   rendered with raw HTML escaped. Links and images are kept only for http(s)
   or scheme-less URLs, judged after the entity and control-character
   normalisation a browser applies. An illustration is inlined (so it can
-  draw itself on) behind a regex _tripwire_ for script, style, embeds, links
-  and handlers. That is not a sanitiser, and grow must not write an
-  illustration until a real allowlist sanitiser replaces it. Giving each
-  path `pathLength="1"` lets the draw-on animation work.
+  draw itself on), so it passes an allowlist sanitiser (§Illustration
+  sanitiser, sprint 005). Giving each path `pathLength="1"` lets the draw-on
+  animation work. The loader skips hidden directories under `frames/`.
 - **Citations** (sprint 002) — a frame may carry `citations`, stored as
   structured data and rendered as a Chicago notes-bibliography entry,
   alphabetised, in a collapsed _Citations_ control under Sources
@@ -128,7 +127,8 @@ baked into the engine.
   - (b) create a trail anchored to a frame;
   - (c) both — a new frame with a trail.
 - **Runtime** — a backend on the host runs headless `claude -p` with a
-  content-writing skill; grow jobs are queued, async, and commit their files.
+  content-writing skill; grow jobs are queued, async, and commit their files
+  (§Grow).
 - **Provider interface** — every model call goes through one interface, so a
   Claude API adapter (or another provider) is an additive change, not a
   rewrite. Built in sprint 004; see §Ask.
@@ -233,8 +233,131 @@ Built in sprint 004 (korg 3360).
 
   The `[n]` numbers refer to the frame's references in prompt order, and
   `citations` carries exactly the ones used, in the §Citations shape. The id
-  is the ask time plus 8 random hex digits, safe as a file name. Grow should
-  check a file with `keptAnswerProblems` before reading it.
+  is the ask time plus 8 random hex digits, safe as a file name. Grow checks
+  a file with `keptAnswerProblems` before reading it. A web turn's pages
+  are carried in an optional `webCitations` (§Web search for ask).
+
+## Web search for ask
+
+Built in sprint 005 (korg 3376, Ken's decisions of 2026-09-27).
+
+- **An app setting.** `ask.web` is `allow` (committed), `offer` or `deny`,
+  and an absent `ask.web` means `deny`. The reader's control is an "Include
+  web" checkbox beside Send, shown unless the config is `deny`. It starts
+  checked under `allow` and unchecked under `offer`. It is a per-question
+  choice, not a remembered setting.
+- **The server enforces it.** A request's `web: true` is honoured only when
+  the config is not `deny` (`resolveWeb`), the same pattern as the model.
+- **Only WebSearch and WebFetch**, offered and pre-approved
+  (`--tools`/`--allowedTools`), with the rest of ask's lockdown unchanged.
+  Pages can carry prompt injection. With only these two tools the worst
+  case is a wrong answer, never an action. A web turn's timeout is
+  `provider.webTimeoutSeconds` (180).
+- **"Searching the web…"** A tool starting in the stream becomes a
+  `{type: 'status', status: 'searching'}` provider event, shown in the
+  status line. Text streamed before it was the model thinking aloud, so the
+  status also resets the answer, on the server and in the pane.
+- **Web sources.** The web prompt asks for `[W1] Title — URL` lines after
+  the answer, and "keep this" turns them into `webCitations`: `web`
+  citations accessed on the day asked. A Wikipedia page is pinned to its
+  current revision at keep time (`engine/ai/wikipedia.ts`, twin of
+  `create-tools/wiki-cite`), as a `wikipedia` citation. If the lookup fails,
+  the keep fails rather than store an unpinned link.
+
+## Grow
+
+Built in sprint 005 (korg 3364).
+
+- **Verbs.** `frames` adds one to three frames to the main spine. `trail`
+  adds a trail of two to four frames from the anchor, which must be a
+  main-spine frame (or extends the trail already branching from it). `both`
+  adds one main-spine frame and a trail from it. Any of them may turn a
+  kept answer into content, when the anchor becomes the kept answer's
+  frame.
+- **The instructions are a skill in the repo**, `skills/grow/SKILL.md`,
+  not prompt strings in code. It is the system prompt, frontmatter
+  stripped, and the seed of the framework's "generate a subject" skill. It
+  quotes §Illustrations and §Citations, and the job copies `docs/design.md`
+  and the create-tools READMEs (plus `plates.py`) into `reference/`. The
+  per-job prompt (`growPrompt`) names the verb, the anchor, the kept answer,
+  whether the web is available, and the reader's words.
+- **The sandbox.** The model never touches the subject. The job copies
+  `subject.json`, `spine.json`, `trails/` and `frames/` into its own
+  directory under `$TMPDIR` (`kloom-grow-<job>-…`), and `claude -p` runs
+  there:
+  - `--tools Read,Write,Edit,Glob,Grep` (plus WebSearch and WebFetch when
+    `grow.web` is true), and no shell, so no model-written code runs on the
+    host and create-tools are references, not tools, for grow;
+  - `--permission-mode acceptEdits`, so Write and Edit act inside the
+    working directory and a write anywhere else is refused (headless, a
+    prompt is a no);
+  - `--disallowedTools Read(~/**) Edit(~/**) Write(~/**)`, so the home
+    directory, reads included, is out of reach, and a page read on the web
+    cannot talk the model into reading a secret. The job refuses a work
+    directory inside the home directory;
+  - the rest of ask's lockdown: no MCP, settings, skills or session.
+
+  Measured with claude 2.1.283: a write in the working directory landed; a
+  write to `~` or `/tmp`, and a read of `~/.bashrc`, were refused.
+  The sandbox is outside `subjects/<subject>/` on purpose. A half-written
+  frame there would make the live subject fail validation mid-job, and a
+  directory inside the repo would pick up its `CLAUDE.md`. What reaches
+  the subject is still only files under `subjects/<subject>/`.
+
+- **What may come back** (`growthProblems`, `engine/ai/grow.ts`). Additions
+  only: `subject.json` and every existing frame unchanged; existing
+  segments, trails and frames kept, in order; new frame ids lowercase and
+  dashed; a new frame holding only `frame.json`, `reading.md` and `*.svg`,
+  each under 200 KB, every SVG passing the sanitiser; and the verb's own
+  shape. Then `validate()` over the whole copy.
+- **One repair turn.** If the first turn leaves problems, the model gets
+  one more turn over the same directory with the list (`repairPrompt`).
+- **A validation failure leaves no commit.** Nothing is copied into the
+  subject. The job fails with the problems (up to 20), which the AI pane
+  shows under "What the validator found". The work directory is kept for
+  inspection.
+- **Applying.** Under a gate that makes page loads and asks wait
+  (`src/lib/server/subject.ts`), the job refuses if the subject has
+  uncommitted changes or differs from the copy it started from ("queue it
+  again"). Otherwise it renames each new frame in from a hidden staging
+  directory, replaces the changed trail files and `spine.json`, and commits
+  exactly those paths. If anything fails, every file is put back and the
+  index reset. The running site shows the new frames on the next load, with
+  no rebuild.
+- **The commit.** Author and committer are `kloom grow <grow@kloom.local>`,
+  with `--no-verify`. The message:
+
+  ```
+  grow(<subject>): add <frame ids>[; trail <ids>]
+
+  <the model's two or three sentences>
+
+  Job: <id>
+  Verb: frames|trail|both
+  Anchor: <frame>
+  Request: <the reader's words>
+  Kept answer: <id>            (when one was used)
+  Model: <model id> (<provider>)
+  Web: yes|no
+  ```
+
+- **The queue** (`GrowQueue`, `src/lib/server/grow.ts`) runs one job at a
+  time, separately from ask's turns, and lets ten wait. Each job is a
+  `kloom.grow-job` JSON file under `<dataDir>/<subject>/grow/`, rewritten
+  atomically at each step. The queue is loaded at server start
+  (`hooks.server.ts` `init`), so **a restart resumes it**. A `queued` job
+  waits again. A `running` job is re-run from a fresh copy, once, since
+  nothing was applied. An `applying` job is failed with "check git status",
+  because the subject may be half-written.
+- **The model** is the reader's "Grow model" setting (default Opus 5.5,
+  `grow.defaultModel`), captured when the job is queued. The server honours
+  it only if the config lists it. The job and the commit record it.
+- **API.** `POST /api/grow` `{verb, frame, request, kept, model}` returns
+  202 and the job. `GET /api/grow` lists the ten newest. The AI pane's Grow
+  row is a verb select, a request field and Queue, with a job list. It
+  polls every 3s while a job is live, announces the outcome in the status
+  line, and reloads the page's data when one lands. After "Keep this", a
+  "Grow from this" button attaches the kept answer.
 
 ## Interaction
 
@@ -308,8 +431,34 @@ stroke="none"`, fading in once the lines are down. Numbers that matter
   waves were generated from their maths with `create-tools/draw-plates`,
   which is far more convincing than hand-placed curves. The tool's output
   is committed content and may be edited by hand.
-- Every path keeps `pathLength="1"`, and nothing the illustration tripwire
-  rejects.
+- Every path keeps `pathLength="1"`, and nothing the illustration
+  sanitiser rejects (§Illustration sanitiser).
+
+## Illustration sanitiser
+
+Built in sprint 005 (korg 3365). `engine/svg.ts` `sanitiseSvg()` replaced
+sprint 001's regex tripwire before grow could write a drawing.
+
+- **An allowlist over a parse, re-serialised.** The source is parsed as
+  XML. DOCTYPE, CDATA, processing instructions after the declaration,
+  undefined entities, a bare `&` and unquoted or slash-joined attributes are
+  refused. Every element and attribute must be on a list. The loader inlines
+  the parse **re-serialised** with every value escaped, never the file's own
+  text, so a spelling a browser reads differently from the parser (an
+  entity-spelled scheme, `<g/onclick>`, odd case) cannot reach the page.
+- **The list.** Elements: `svg g defs title desc path line polyline polygon
+rect circle ellipse text tspan clipPath marker linearGradient
+radialGradient stop`. Attributes: geometry, presentation and ARIA. Never
+  `style` (element or attribute), script, `a`, `use`, `image`,
+  `foreignObject`, animation, event handlers or any `href`. A `url(…)`
+  value may only name `#id` inside the drawing, judged after entities are
+  decoded; `xmlns` must be the SVG namespace; an `id` must be a plain name.
+- **One path for everyone.** Validation reports each problem as
+  `illustration: …`, and the loader inlines the output, so hand-written and
+  model-written drawings are treated alike. Grow also runs every `.svg` it
+  writes through it, not only the scene's. A hand-written dependency was
+  chosen over DOMPurify + jsdom (a DOM on the server) and sanitize-html
+  (an HTML parser, where these files are case-sensitive XML).
 
 ## Palette transitions
 
@@ -336,23 +485,32 @@ Built in sprint 003 (korg 3373, 3372).
 
   ```json
   {
-  	"provider": { "kind": "claude-cli", "command": "claude", "timeoutSeconds": 120 },
+  	"provider": {
+  		"kind": "claude-cli",
+  		"command": "claude",
+  		"timeoutSeconds": 120,
+  		"webTimeoutSeconds": 180
+  	},
   	"models": [{ "id": "claude-sonnet-5", "label": "Sonnet 5" }, "…"],
-  	"ask": { "defaultModel": "claude-sonnet-5" }
+  	"ask": { "defaultModel": "claude-sonnet-5", "web": "allow" },
+  	"grow": { "defaultModel": "claude-opus-5-5", "timeoutSeconds": 900, "web": true }
   }
   ```
 
   Validation (`src/lib/server/app-config.ts`) requires a non-empty model
   list. Ids must be letters, digits, `.`, `-` and `_`, never starting with a
   dash, so a hand edit cannot make one a CLI flag. The default must be
-  listed. Grow adds its own `grow.defaultModel` against the same list.
+  listed. `ask.web` is `allow`, `offer` or `deny`. `grow` is optional:
+  without it, grow is not offered. Its default model must be listed too.
 
 - **The ask model** (sprint 004) is a user setting over that list. It is a
   drop-down labelled "Ask model", Sonnet 5 by default, stored under
   `kloom.askModel`. The page's server load serves the choices, and
   `modelSetting` (`engine/settings.ts`) turns them into a row. The pick is
   what `claude -p --model` gets. The server honours it only if the config
-  lists it, so a client string never reaches the command line.
+  lists it, so a client string never reaches the command line. The **grow
+  model** (sprint 005) is a second row built the same way: "Grow model",
+  Opus 5.5 by default, `kloom.growModel`.
 - **The registry.** `engine/settings.ts` defines a `Setting` as
   `{id, label, choices: [{value, label}], default, storageKey}`. Every
   setting is a pick from a fixed list, and there is no free-text kind. A

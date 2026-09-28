@@ -6,3 +6,4 @@ node_modules/
 .svelte-kit/
 build/
 data/
+__pycache__/

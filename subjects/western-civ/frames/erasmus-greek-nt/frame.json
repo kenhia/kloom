@@ -1,0 +1,76 @@
+{
+	"id": "erasmus-greek-nt",
+	"position": {
+		"label": "AD 1516",
+		"sort": 1516
+	},
+	"scene": {
+		"headline": "Scholars returned to the",
+		"accent": "GREEK.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["BASEL · DESIDERIUS ERASMUS", "NOVUM INSTRUMENTUM OMNE · GREEK AND LATIN"],
+		"counter": {
+			"value": "5",
+			"label": "editions before Erasmus died"
+		}
+	},
+	"sources": [
+		{
+			"title": "Novum Instrumentum omne — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Novum_Instrumentum_omne"
+		},
+		{
+			"title": "Desiderius Erasmus — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Desiderius_Erasmus"
+		},
+		{
+			"title": "Textus Receptus — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Textus_Receptus"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Novum Instrumentum omne",
+			"url": "https://en.wikipedia.org/w/index.php?title=Novum_Instrumentum_omne&oldid=1376106922",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Desiderius Erasmus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Desiderius_Erasmus&oldid=1375127857",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Textus Receptus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Textus_Receptus&oldid=1372618703",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		}
+	]
+}

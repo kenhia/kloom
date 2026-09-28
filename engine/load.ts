@@ -2,6 +2,7 @@ import { readdir, readFile } from 'node:fs/promises';
 import { basename, join } from 'node:path';
 import { captionCredit, needsCaption } from './citation';
 import { renderMarkdown } from './markdown';
+import { sanitiseSvg } from './svg';
 import type { Frame, FrameFile, Manifest, Spine, Subject, Trail } from './model';
 import { MEDIA_FILE, validate, type RawFrame, type RawSubject } from './validate';
 
@@ -54,7 +55,8 @@ export async function readSubject(dir: string): Promise<RawSubject> {
 
 	const frames: RawSubject['frames'] = {};
 	for (const e of await entries(join(dir, 'frames'))) {
-		if (!e.isDirectory()) continue;
+		// A hidden directory is never a frame (grow stages a new one as `.grow-<id>`).
+		if (!e.isDirectory() || e.name.startsWith('.')) continue;
 		const at = join(dir, 'frames', e.name);
 		const svgs: RawFrame['svgs'] = {};
 		const media: string[] = [];
@@ -106,7 +108,8 @@ export function buildSubject(id: string, raw: RawSubject, options: BuildOptions 
 		frames[dir] = {
 			...file,
 			readingHtml: renderMarkdown(r.reading!, { image }),
-			svg: file.scene.illustration ? r.svgs[file.scene.illustration] : null
+			// The re-serialised parse, never the file's own text (engine/svg.ts).
+			svg: file.scene.illustration ? sanitiseSvg(r.svgs[file.scene.illustration]).svg : null
 		};
 	}
 	return {

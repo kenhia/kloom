@@ -148,24 +148,30 @@ describe('validate', () => {
 		r.frames.b.svgs['x.svg'] = '<svg onload="alert(1)"></svg>';
 		expect(validate(r)).toEqual([
 			'frames/a: illustration "gone.svg" is not in the directory',
-			'frames/b: illustration contains script, styles, links or event handlers'
+			'frames/b: illustration: <svg> attribute onload is not allowed'
 		]);
 	});
 
-	// Bypasses of the first regex found in pre-ship review (korg 3362).
+	// Bypasses of the first regex found in pre-ship review (korg 3362), now
+	// regression tests for the allowlist that replaced it (korg 3365).
 	it.each([
-		['a slash before the handler', '<svg><g/onclick=alert(1)></g></svg>'],
-		['an entity-spelled scheme', '<svg><a href="java&#x73;cript:alert(1)"><path/></a></svg>'],
-		['a style element', '<svg><style>body{display:none}</style></svg>'],
-		['an embed', '<svg><embed src="https://example.org/x"></svg>'],
-		['a use reference', '<svg><use href="https://example.org/x.svg#a"/></svg>']
-	])('trips on %s', (_, svg) => {
+		['a slash before the handler', '<svg><g/onclick=alert(1)></g></svg>', 'a malformed attribute'],
+		[
+			'an entity-spelled scheme',
+			'<svg><a href="java&#x73;cript:alert(1)"><path/></a></svg>',
+			'<a> is not allowed'
+		],
+		['a style element', '<svg><style>body{display:none}</style></svg>', '<style> is not allowed'],
+		['an embed', '<svg><embed src="https://example.org/x"/></svg>', '<embed> is not allowed'],
+		['a use reference', '<svg><use href="https://example.org/x.svg#a"/></svg>', '<use> is not']
+	])('refuses %s', (_, svg, problem) => {
 		const r = raw();
 		(r.frames.a.frame as Loose).scene.illustration = 'x.svg';
 		r.frames.a.svgs['x.svg'] = svg;
-		expect(validate(r)).toEqual([
-			'frames/a: illustration contains script, styles, links or event handlers'
-		]);
+		const errors = validate(r);
+		expect(errors.length).toBeGreaterThan(0);
+		expect(errors.join('\n')).toContain(problem);
+		expect(errors.every((e) => e.startsWith('frames/a: illustration: '))).toBe(true);
 	});
 
 	it('fails a missing reading and a non-http source url', () => {
@@ -256,11 +262,14 @@ describe('the western-civ subject', () => {
 		expect(validate(await readSubject(dir))).toEqual([]);
 	});
 
-	it('spans both palettes, opens on a myth and carries one trail', () => {
+	it('spans both palettes, opens on a myth and carries its trails', () => {
 		const palettes = new Set(Object.values(subject.frames).map((f) => f.scene.palette));
 		expect([...palettes].sort()).toEqual(['night', 'parchment']);
 		expect(subject.spine.segments[0].labelKind).toBe('category');
-		expect(subject.trails.map((t) => `${t.id}@${t.anchor}`)).toEqual(['printing@printing-press']);
+		expect(subject.trails.map((t) => `${t.id}@${t.anchor}`).sort()).toEqual([
+			'measure@eratosthenes',
+			'printing@printing-press'
+		]);
 	});
 
 	it('renders reading markdown and inlines every illustration', () => {

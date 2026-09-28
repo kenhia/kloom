@@ -107,6 +107,9 @@ export function paletteFor(
 /** The ask model's setting id; the AI pane reads the reader's pick under it. */
 export const ASK_MODEL = 'askModel';
 
+/** The grow model's setting id; a grow job is queued with the pick made at the time. */
+export const GROW_MODEL = 'growModel';
+
 /**
  * A model picker, built at runtime from the choices the server offers (the
  * app config's models). The server re-checks whatever id comes back.

@@ -1,6 +1,12 @@
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { appConfigProblems, loadAppConfig, resolveModel, type AppConfig } from './app-config';
+import {
+	appConfigProblems,
+	loadAppConfig,
+	resolveModel,
+	resolveWeb,
+	type AppConfig
+} from './app-config';
 
 const good: AppConfig = {
 	provider: { kind: 'claude-cli', command: 'claude', timeoutSeconds: 120 },
@@ -18,6 +24,8 @@ describe('the app config', () => {
 		);
 		expect(config.ask.defaultModel).toBe('claude-sonnet-5');
 		expect(config.models.find((m) => m.id === 'claude-sonnet-5')?.label).toBe('Sonnet 5');
+		expect(config.ask.web).toBe('allow');
+		expect(config.grow?.defaultModel).toBe('claude-opus-5-5');
 	});
 
 	it('finds every problem', () => {
@@ -40,6 +48,20 @@ describe('the app config', () => {
 			'models[2].id repeats a',
 			'ask.defaultModel must be one of the models'
 		]);
+		expect(
+			appConfigProblems({
+				...good,
+				provider: { ...good.provider, webTimeoutSeconds: -1 },
+				ask: { defaultModel: 'claude-sonnet-5', web: 'always' },
+				grow: { defaultModel: 'gpt', timeoutSeconds: '900', web: 'yes' }
+			})
+		).toEqual([
+			'provider.webTimeoutSeconds must be a positive number',
+			'ask.web must be one of allow, offer, deny',
+			'grow.defaultModel must be one of the models',
+			'grow.timeoutSeconds must be a positive number',
+			'grow.web must be true or false'
+		]);
 		expect(appConfigProblems({ ...good, provider: { kind: 'other' } })).toContain(
 			'provider.kind must be "claude-cli"'
 		);
@@ -51,5 +73,19 @@ describe('the app config', () => {
 		expect(resolveModel(good, 'claude-opus-5-5 --tools default')).toBe('claude-sonnet-5');
 		expect(resolveModel(good, undefined)).toBe('claude-sonnet-5');
 		expect(resolveModel(good, { id: 'claude-opus-5-5' })).toBe('claude-sonnet-5');
+	});
+
+	it('uses the web only when the reader asks and the config allows or offers it', () => {
+		const ask = (web?: 'allow' | 'offer' | 'deny') => ({ ...good, ask: { ...good.ask, web } });
+		expect(resolveWeb(ask('allow'), true)).toBe(true);
+		expect(resolveWeb(ask('offer'), true)).toBe(true);
+		expect(resolveWeb(ask('allow'), false)).toBe(false);
+		expect(resolveWeb(ask('deny'), true)).toBe(false);
+		expect(resolveWeb(ask(), true)).toBe(false);
+		expect(resolveWeb(ask('allow'), 'true')).toBe(false);
+	});
+
+	it('falls back to the grow default when asked to', () => {
+		expect(resolveModel(good, 'nope', 'claude-opus-5-5')).toBe('claude-opus-5-5');
 	});
 });

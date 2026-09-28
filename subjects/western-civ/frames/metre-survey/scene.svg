@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60 260 L300 260"/>
+		<path pathLength="1" d="M80 272 L80 44"/>
+		<path pathLength="1" d="M80 260 L205.78 104.5 M80 260 L230.14 127.88"/>
+		<path pathLength="1" d="M210.81 98.28 L324 48"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M280 260 A200 200 0 0 0 80 60"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M125.04 220.36 A60 60 0 0 0 117.73 213.35"/>
+		<path pathLength="1" d="M236.15 122.6 A208 208 0 0 0 210.81 98.28 M205.78 104.5 L210.81 98.28 M230.14 127.88 L236.15 122.6"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M324 48 L370 74"/>
+		<path pathLength="1" d="M370 74 L332 104 L362 130 L320 158 L374 184 L330 212 L366 236 M324 48 L332 104 L320 158 L330 212 M370 74 L362 130 L374 184 L366 236"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M322 48 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M368 74 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M330 104 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M360 130 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M318 158 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M372 184 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M328 212 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M364 236 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="88" y="56" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">POLE</text>
+		<text x="280" y="274" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EQUATOR</text>
+		<text x="192" y="114" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DUNKIRK</text>
+		<text x="244" y="134" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BARCELONA</text>
+		<text x="348" y="36" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BASE</text>
+	</g>
+</svg>
