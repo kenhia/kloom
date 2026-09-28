@@ -18,43 +18,12 @@
 			"label": "days from the iron ring to the Royal Society"
 		}
 	},
-	"sources": [
-		{
-			"title": "Michael Faraday, Experimental Researches in Electricity (First Series)",
-			"url": "https://doi.org/10.1098/rstl.1832.0006",
-			"note": "Philosophical Transactions of the Royal Society of London, read 24 November 1831"
-		},
-		{
-			"title": "Experimental Researches in Electricity, Volume 1 — Project Gutenberg",
-			"url": "https://www.gutenberg.org/files/14986/14986-h/14986-h.htm",
-			"note": "Full text of the First Series, quoted in the reading"
-		},
-		{
-			"title": "Michael Faraday's ring-coil apparatus — Royal Institution",
-			"url": "https://www.rigb.org/explore-science/explore/collection/michael-faradays-ring-coil-apparatus"
-		},
-		{
-			"title": "Michael Faraday — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Michael_Faraday"
-		},
-		{
-			"title": "Faraday's law of induction — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Faraday's_law_of_induction"
-		},
-		{
-			"title": "Electromagnetic induction — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Electromagnetic_induction"
-		},
-		{
-			"title": "Homopolar generator — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Homopolar_generator"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Experimental Researches in Electricity",
-			"url": "https://doi.org/10.1098/rstl.1832.0006",
+			"doi": "10.1098/rstl.1832.0006",
 			"accessed": "2026-09-28",
 			"authors": [
 				{
@@ -69,6 +38,7 @@
 		},
 		{
 			"kind": "book",
+			"key": true,
 			"title": "Experimental Researches in Electricity, Volume 1",
 			"url": "https://www.gutenberg.org/files/14986/14986-h/14986-h.htm",
 			"accessed": "2026-09-28",
@@ -82,6 +52,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Michael Faraday's ring-coil apparatus",
 			"url": "https://www.rigb.org/explore-science/explore/collection/michael-faradays-ring-coil-apparatus",
 			"accessed": "2026-09-28",
@@ -89,6 +60,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Michael Faraday",
 			"url": "https://en.wikipedia.org/w/index.php?title=Michael_Faraday&oldid=1376750184",
 			"accessed": "2026-09-28",
@@ -103,6 +75,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Faraday's law of induction",
 			"url": "https://en.wikipedia.org/w/index.php?title=Faraday's_law_of_induction&oldid=1375269873",
 			"accessed": "2026-09-28",
@@ -117,6 +90,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Electromagnetic induction",
 			"url": "https://en.wikipedia.org/w/index.php?title=Electromagnetic_induction&oldid=1374765887",
 			"accessed": "2026-09-28",
@@ -131,6 +105,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Homopolar generator",
 			"url": "https://en.wikipedia.org/w/index.php?title=Homopolar_generator&oldid=1364677180",
 			"accessed": "2026-09-28",
