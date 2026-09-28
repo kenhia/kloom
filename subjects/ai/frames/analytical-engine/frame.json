@@ -1,0 +1,183 @@
+{
+	"id": "analytical-engine",
+	"position": {
+		"label": "1843",
+		"sort": 1843
+	},
+	"scene": {
+		"headline": "We wove",
+		"accent": "ALGEBRA.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · CHARLES BABBAGE · ADA LOVELACE",
+			"STORE · MILL · PUNCHED CARDS · NOTE G"
+		],
+		"counter": {
+			"value": "1,000",
+			"label": "numbers in the store, 40 digits each"
+		}
+	},
+	"sources": [
+		{
+			"title": "Analytical engine — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Analytical_engine"
+		},
+		{
+			"title": "Ada Lovelace — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+		},
+		{
+			"title": "Note G — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Note_G"
+		},
+		{
+			"title": "Jacquard machine — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Jacquard_machine"
+		},
+		{
+			"title": "Charles Babbage — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Charles_Babbage"
+		},
+		{
+			"title": "Luigi Federico Menabrea, Ada Lovelace, Sketch of the Analytical Engine Invented by Charles Babbage, with Notes by the Translator",
+			"url": "https://www.fourmilab.ch/babbage/sketch.html",
+			"note": "Scientific Memoirs, 1843"
+		},
+		{
+			"title": "Babbage's Analytical Engine, 1834-1871. (Trial model)",
+			"url": "https://collection.sciencemuseumgroup.org.uk/objects/co62245/babbages-analytical-engine-1834-1871-trial-model-analytical-engine-mill",
+			"note": "Science Museum Group Collection"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Analytical engine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Analytical_engine&oldid=1362884716",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ada Lovelace",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ada_Lovelace&oldid=1376338287",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Note G",
+			"url": "https://en.wikipedia.org/w/index.php?title=Note_G&oldid=1369520548",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jacquard machine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jacquard_machine&oldid=1364469677",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Babbage",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Babbage&oldid=1371979131",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "article",
+			"title": "Sketch of the Analytical Engine Invented by Charles Babbage, with Notes by the Translator",
+			"url": "https://www.fourmilab.ch/babbage/sketch.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Menabrea",
+					"given": "Luigi Federico"
+				},
+				{
+					"family": "Lovelace",
+					"given": "Ada"
+				}
+			],
+			"container": "Scientific Memoirs",
+			"volume": "3",
+			"pages": "666–731",
+			"published": "1843"
+		},
+		{
+			"kind": "web",
+			"title": "Babbage's Analytical Engine, 1834-1871. (Trial model)",
+			"url": "https://collection.sciencemuseumgroup.org.uk/objects/co62245/babbages-analytical-engine-1834-1871-trial-model-analytical-engine-mill",
+			"accessed": "2026-09-27",
+			"container": "Science Museum Group Collection",
+			"publisher": "Science Museum Group"
+		},
+		{
+			"kind": "media",
+			"title": "Portion of the mill of the Analytical Engine, with printing mechanism: the trial model under construction at Babbage’s death (Science Museum, London, object 1878-3)",
+			"url": "https://commons.wikimedia.org/wiki/File:Analytical_engine_trial_model,_Charles_Babbage,_1834-1871_-_Science_Museum,_London_-_DSC05565.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Daderot"
+				}
+			],
+			"container": "Photograph; via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "engine-trial-model.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Ada King, Countess of Lovelace: watercolour portrait by Alfred Edward Chalon",
+			"url": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Chalon",
+					"given": "Alfred Edward"
+				}
+			],
+			"published": "1840",
+			"container": "Watercolour, c. 1840 (Science Museum Group); via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "lovelace-chalon.jpg"
+		}
+	]
+}

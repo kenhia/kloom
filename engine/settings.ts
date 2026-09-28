@@ -104,6 +104,22 @@ export function paletteFor(
 	return subject.palettes[own.counterpart] ?? own;
 }
 
+/**
+ * Whether the narrative follows the spine (docs/design.md §Interaction). On by
+ * default: moving along the spine turns the reading to that frame. Off, the
+ * reading stays where it is until S brings it to the spine.
+ */
+export const followSpine: Setting = {
+	id: 'followSpine',
+	label: 'Narrative',
+	choices: [
+		{ value: 'follow', label: 'Follows the spine' },
+		{ value: 'manual', label: 'Stays until S' }
+	],
+	default: 'follow',
+	storageKey: 'kloom.followSpine'
+};
+
 /** The ask model's setting id; the AI pane reads the reader's pick under it. */
 export const ASK_MODEL = 'askModel';
 

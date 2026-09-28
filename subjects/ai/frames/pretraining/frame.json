@@ -1,0 +1,380 @@
+{
+	"id": "pretraining",
+	"position": {
+		"label": "Pretraining"
+	},
+	"scene": {
+		"headline": "First, it read the",
+		"accent": "INTERNET.",
+		"palette": "whitepaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"OPENAI · GOOGLE · ALLEN INSTITUTE · 2018–2020",
+			"PRETRAIN ON RAW TEXT · FINE-TUNE FOR THE TASK"
+		],
+		"counter": {
+			"value": "1,500×",
+			"label": "more parameters, GPT-1 to GPT-3"
+		}
+	},
+	"sources": [
+		{
+			"title": "GPT-1 — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/GPT-1"
+		},
+		{
+			"title": "GPT-2 — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/GPT-2"
+		},
+		{
+			"title": "BERT (language model) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/BERT_(language_model)"
+		},
+		{
+			"title": "Peters et al., Deep Contextualized Word Representations",
+			"url": "https://arxiv.org/abs/1802.05365",
+			"note": "Proceedings of NAACL-HLT 2018, 2018"
+		},
+		{
+			"title": "Radford et al., Improving Language Understanding by Generative Pre-Training",
+			"url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+			"note": "OpenAI technical report, 2018"
+		},
+		{
+			"title": "Devlin et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+			"url": "https://arxiv.org/abs/1810.04805",
+			"note": "arXiv preprint 1810.04805, 2018"
+		},
+		{
+			"title": "Radford et al., Language Models are Unsupervised Multitask Learners",
+			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+			"note": "OpenAI technical report, 2019"
+		},
+		{
+			"title": "Solaiman et al., Release Strategies and the Social Impacts of Language Models",
+			"url": "https://arxiv.org/abs/1908.09203",
+			"note": "OpenAI report; arXiv preprint 1908.09203, 2019"
+		},
+		{
+			"title": "Raffel et al., Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+			"url": "https://jmlr.org/papers/v21/20-074.html",
+			"note": "Journal of Machine Learning Research, 2020"
+		},
+		{
+			"title": "Brown et al., Language Models are Few-Shot Learners",
+			"url": "https://arxiv.org/abs/2005.14165",
+			"note": "arXiv preprint 2005.14165, 2020"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "GPT-1",
+			"url": "https://en.wikipedia.org/w/index.php?title=GPT-1&oldid=1372861673",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GPT-2",
+			"url": "https://en.wikipedia.org/w/index.php?title=GPT-2&oldid=1376616202",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "BERT (language model)",
+			"url": "https://en.wikipedia.org/w/index.php?title=BERT_(language_model)&oldid=1371756067",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "article",
+			"title": "Deep Contextualized Word Representations",
+			"url": "https://arxiv.org/abs/1802.05365",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Peters",
+					"given": "Matthew E."
+				},
+				{
+					"family": "Neumann",
+					"given": "Mark"
+				},
+				{
+					"family": "Iyyer",
+					"given": "Mohit"
+				},
+				{
+					"family": "Gardner",
+					"given": "Matt"
+				},
+				{
+					"family": "Clark",
+					"given": "Christopher"
+				},
+				{
+					"family": "Lee",
+					"given": "Kenton"
+				},
+				{
+					"family": "Zettlemoyer",
+					"given": "Luke"
+				}
+			],
+			"container": "Proceedings of NAACL-HLT 2018",
+			"published": "2018"
+		},
+		{
+			"kind": "article",
+			"title": "Improving Language Understanding by Generative Pre-Training",
+			"url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Radford",
+					"given": "Alec"
+				},
+				{
+					"family": "Narasimhan",
+					"given": "Karthik"
+				},
+				{
+					"family": "Salimans",
+					"given": "Tim"
+				},
+				{
+					"family": "Sutskever",
+					"given": "Ilya"
+				}
+			],
+			"container": "OpenAI technical report",
+			"published": "2018"
+		},
+		{
+			"kind": "article",
+			"title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+			"url": "https://arxiv.org/abs/1810.04805",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Devlin",
+					"given": "Jacob"
+				},
+				{
+					"family": "Chang",
+					"given": "Ming-Wei"
+				},
+				{
+					"family": "Lee",
+					"given": "Kenton"
+				},
+				{
+					"family": "Toutanova",
+					"given": "Kristina"
+				}
+			],
+			"container": "arXiv preprint 1810.04805",
+			"published": "2018"
+		},
+		{
+			"kind": "article",
+			"title": "Language Models are Unsupervised Multitask Learners",
+			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Radford",
+					"given": "Alec"
+				},
+				{
+					"family": "Wu",
+					"given": "Jeffrey"
+				},
+				{
+					"family": "Child",
+					"given": "Rewon"
+				},
+				{
+					"family": "Luan",
+					"given": "David"
+				},
+				{
+					"family": "Amodei",
+					"given": "Dario"
+				},
+				{
+					"family": "Sutskever",
+					"given": "Ilya"
+				}
+			],
+			"container": "OpenAI technical report",
+			"published": "2019"
+		},
+		{
+			"kind": "article",
+			"title": "Release Strategies and the Social Impacts of Language Models",
+			"url": "https://arxiv.org/abs/1908.09203",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Solaiman",
+					"given": "Irene"
+				},
+				{
+					"family": "Brundage",
+					"given": "Miles"
+				},
+				{
+					"family": "Clark",
+					"given": "Jack"
+				},
+				{
+					"family": "Askell",
+					"given": "Amanda"
+				}
+			],
+			"etAl": true,
+			"container": "OpenAI report; arXiv preprint 1908.09203",
+			"published": "2019-11"
+		},
+		{
+			"kind": "article",
+			"title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+			"url": "https://jmlr.org/papers/v21/20-074.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Raffel",
+					"given": "Colin"
+				},
+				{
+					"family": "Shazeer",
+					"given": "Noam"
+				},
+				{
+					"family": "Roberts",
+					"given": "Adam"
+				},
+				{
+					"family": "Lee",
+					"given": "Katherine"
+				},
+				{
+					"family": "Narang",
+					"given": "Sharan"
+				},
+				{
+					"family": "Matena",
+					"given": "Michael"
+				},
+				{
+					"family": "Zhou",
+					"given": "Yanqi"
+				},
+				{
+					"family": "Li",
+					"given": "Wei"
+				},
+				{
+					"family": "Liu",
+					"given": "Peter J."
+				}
+			],
+			"container": "Journal of Machine Learning Research",
+			"volume": "21",
+			"pages": "1–67",
+			"published": "2020"
+		},
+		{
+			"kind": "article",
+			"title": "Language Models are Few-Shot Learners",
+			"url": "https://arxiv.org/abs/2005.14165",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Brown",
+					"given": "Tom B."
+				},
+				{
+					"family": "Mann",
+					"given": "Benjamin"
+				},
+				{
+					"family": "Ryder",
+					"given": "Nick"
+				},
+				{
+					"family": "Subbiah",
+					"given": "Melanie"
+				},
+				{
+					"family": "Kaplan",
+					"given": "Jared"
+				},
+				{
+					"family": "Dhariwal",
+					"given": "Prafulla"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint 2005.14165",
+			"published": "2020"
+		},
+		{
+			"kind": "media",
+			"title": "The architecture of a generative pre-trained transformer (GPT)",
+			"url": "https://commons.wikimedia.org/wiki/File:Full_GPT_architecture.svg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Marxav"
+				},
+				{
+					"name": "Mrmw"
+				}
+			],
+			"published": "2024-03-22",
+			"container": "Diagram by Marxav, vectorised by Mrmw; via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "gpt-architecture.png"
+		},
+		{
+			"kind": "media",
+			"title": "Parameters in five pretrained language models, 2018–2020",
+			"url": "https://arxiv.org/abs/2005.14165",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Radford et al. (2019), table 2; Devlin et al. (2018); Raffel et al. (2020); Brown et al. (2020)",
+			"licence": "MIT",
+			"file": "model-parameters.svg"
+		}
+	]
+}

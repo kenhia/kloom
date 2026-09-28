@@ -3,12 +3,20 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { sanitiseSvg } from './svg';
 
-const frames = join(import.meta.dirname, '..', 'subjects', 'western-civ', 'frames');
-const curated = readdirSync(frames).flatMap((dir) =>
-	readdirSync(join(frames, dir))
-		.filter((f) => f.endsWith('.svg'))
-		.map((f) => [`${dir}/${f}`, readFileSync(join(frames, dir, f), 'utf8')] as const)
-);
+// Every drawing in every subject: the curated bar grow is written against.
+const subjects = join(import.meta.dirname, '..', 'subjects');
+const curated = readdirSync(subjects)
+	.filter((s) => !s.startsWith('.'))
+	.flatMap((s) =>
+		readdirSync(join(subjects, s, 'frames')).flatMap((dir) =>
+			readdirSync(join(subjects, s, 'frames', dir))
+				.filter((f) => f.endsWith('.svg'))
+				.map(
+					(f) =>
+						[`${s}/${dir}/${f}`, readFileSync(join(subjects, s, 'frames', dir, f), 'utf8')] as const
+				)
+		)
+	);
 
 describe('the illustration sanitiser', () => {
 	it.each(curated)('passes the curated %s, and its output is stable', (_, svg) => {

@@ -1,0 +1,498 @@
+{
+	"id": "agents",
+	"position": {
+		"label": "Agents and tool use"
+	},
+	"asOf": "2026-09-27",
+	"scene": {
+		"headline": "We handed it the",
+		"accent": "KEYBOARD.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": [
+			"REACT · TOOLFORMER · FUNCTION CALLING · COMPUTER USE",
+			"MCP · CODING AGENTS · SWE-BENCH"
+		],
+		"counter": {
+			"value": "2,294",
+			"label": "real GitHub issues in SWE-bench"
+		}
+	},
+	"sources": [
+		{
+			"title": "Shunyu Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models",
+			"url": "https://arxiv.org/abs/2210.03629",
+			"note": "International Conference on Learning Representations (ICLR 2023), 2023"
+		},
+		{
+			"title": "Timo Schick et al., Toolformer: Language Models Can Teach Themselves to Use Tools",
+			"url": "https://arxiv.org/abs/2302.04761",
+			"note": "arXiv, 2023-02-09"
+		},
+		{
+			"title": "Function Calling and Other API Updates",
+			"url": "https://openai.com/index/function-calling-and-other-api-updates/",
+			"note": "OpenAI, 2023-06-13"
+		},
+		{
+			"title": "Introducing Computer Use, a New Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+			"url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+			"note": "Anthropic, 2024-10-22"
+		},
+		{
+			"title": "Computer-Using Agent",
+			"url": "https://openai.com/index/computer-using-agent/",
+			"note": "OpenAI, 2025-01-23"
+		},
+		{
+			"title": "Introducing the Model Context Protocol",
+			"url": "https://www.anthropic.com/news/model-context-protocol",
+			"note": "Anthropic, 2024-11-25"
+		},
+		{
+			"title": "Donating the Model Context Protocol and Establishing the Agentic AI Foundation",
+			"url": "https://anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+			"note": "Anthropic, 2025-12-09"
+		},
+		{
+			"title": "Linux Foundation Announces the Formation of the Agentic AI Foundation",
+			"url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
+			"note": "Linux Foundation, 2025-12-09"
+		},
+		{
+			"title": "Introducing Devin, the First AI Software Engineer",
+			"url": "https://cognition.com/blog/introducing-devin",
+			"note": "Cognition, 2024-03-12"
+		},
+		{
+			"title": "Claude 3.7 Sonnet and Claude Code",
+			"url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+			"note": "Anthropic, 2025-02-24"
+		},
+		{
+			"title": "Introducing Codex",
+			"url": "https://openai.com/index/introducing-codex/",
+			"note": "OpenAI, 2025-05-16"
+		},
+		{
+			"title": "GitHub Copilot Coding Agent in Public Preview",
+			"url": "https://github.blog/changelog/2025-05-19-github-copilot-coding-agent-in-public-preview/",
+			"note": "GitHub Changelog, 2025-05-19"
+		},
+		{
+			"title": "Build with Jules, Your Asynchronous Coding Agent",
+			"url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/jules/",
+			"note": "The Keyword, Google, 2025-05-20"
+		},
+		{
+			"title": "Carlos E. Jimenez et al., SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+			"url": "https://arxiv.org/abs/2310.06770",
+			"note": "International Conference on Learning Representations (ICLR 2024), 2024"
+		},
+		{
+			"title": "Introducing SWE-bench Verified",
+			"url": "https://openai.com/index/introducing-swe-bench-verified/",
+			"note": "OpenAI, 2024-08-13"
+		},
+		{
+			"title": "Reem Aleithan et al., SWE-Bench+: Enhanced Coding Benchmark for LLMs",
+			"url": "https://arxiv.org/abs/2410.06992",
+			"note": "arXiv, 2024-10-09"
+		},
+		{
+			"title": "Repo State Loopholes During Agentic Evaluation",
+			"url": "https://github.com/SWE-bench/SWE-bench/issues/465",
+			"note": "SWE-bench issue tracker, GitHub, 2025-09-03"
+		},
+		{
+			"title": "Why SWE-bench Verified No Longer Measures Frontier Coding Capabilities",
+			"url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+			"note": "OpenAI, 2026-02-23"
+		},
+		{
+			"title": "Xiang Deng et al., SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?",
+			"url": "https://arxiv.org/abs/2509.16941",
+			"note": "arXiv, 2025-09-21"
+		},
+		{
+			"title": "Introducing Claude 4",
+			"url": "https://www.anthropic.com/news/claude-4",
+			"note": "Anthropic, 2025-05-22"
+		},
+		{
+			"title": "Introducing GPT-5 for Developers",
+			"url": "https://openai.com/index/introducing-gpt-5-for-developers/",
+			"note": "OpenAI, 2025-08-07"
+		},
+		{
+			"title": "Introducing Claude Sonnet 4.5",
+			"url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+			"note": "Anthropic, 2025-09-29"
+		},
+		{
+			"title": "A New Era of Intelligence with Gemini 3",
+			"url": "https://blog.google/products/gemini/gemini-3/",
+			"note": "The Keyword, Google, 2025-11-18"
+		},
+		{
+			"title": "Claude Opus 4.6",
+			"url": "https://www.anthropic.com/news/claude-opus-4-6",
+			"note": "Anthropic, 2026-02-05"
+		},
+		{
+			"title": "Claude Opus 5 System Card",
+			"url": "https://www.anthropic.com/claude-opus-5-system-card",
+			"note": "Anthropic, 2026-07-24"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+			"url": "https://arxiv.org/abs/2210.03629",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Yao",
+					"given": "Shunyu"
+				}
+			],
+			"container": "International Conference on Learning Representations (ICLR 2023)",
+			"published": "2023",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+			"url": "https://arxiv.org/abs/2302.04761",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Schick",
+					"given": "Timo"
+				}
+			],
+			"container": "arXiv",
+			"published": "2023-02-09",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "Function Calling and Other API Updates",
+			"url": "https://openai.com/index/function-calling-and-other-api-updates/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2023-06-13"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing Computer Use, a New Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+			"url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2024-10-22"
+		},
+		{
+			"kind": "web",
+			"title": "Computer-Using Agent",
+			"url": "https://openai.com/index/computer-using-agent/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2025-01-23"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing the Model Context Protocol",
+			"url": "https://www.anthropic.com/news/model-context-protocol",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2024-11-25"
+		},
+		{
+			"kind": "web",
+			"title": "Donating the Model Context Protocol and Establishing the Agentic AI Foundation",
+			"url": "https://anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2025-12-09"
+		},
+		{
+			"kind": "web",
+			"title": "Linux Foundation Announces the Formation of the Agentic AI Foundation",
+			"url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Linux Foundation"
+				}
+			],
+			"container": "Linux Foundation",
+			"published": "2025-12-09"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing Devin, the First AI Software Engineer",
+			"url": "https://cognition.com/blog/introducing-devin",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Wu",
+					"given": "Scott"
+				}
+			],
+			"container": "Cognition",
+			"published": "2024-03-12"
+		},
+		{
+			"kind": "web",
+			"title": "Claude 3.7 Sonnet and Claude Code",
+			"url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2025-02-24"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing Codex",
+			"url": "https://openai.com/index/introducing-codex/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2025-05-16"
+		},
+		{
+			"kind": "web",
+			"title": "GitHub Copilot Coding Agent in Public Preview",
+			"url": "https://github.blog/changelog/2025-05-19-github-copilot-coding-agent-in-public-preview/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "GitHub"
+				}
+			],
+			"container": "GitHub Changelog",
+			"published": "2025-05-19"
+		},
+		{
+			"kind": "web",
+			"title": "Build with Jules, Your Asynchronous Coding Agent",
+			"url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/jules/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Korevec",
+					"given": "Kathy"
+				}
+			],
+			"container": "The Keyword, Google",
+			"published": "2025-05-20"
+		},
+		{
+			"kind": "article",
+			"title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+			"url": "https://arxiv.org/abs/2310.06770",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Jimenez",
+					"given": "Carlos E."
+				}
+			],
+			"container": "International Conference on Learning Representations (ICLR 2024)",
+			"published": "2024",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "Introducing SWE-bench Verified",
+			"url": "https://openai.com/index/introducing-swe-bench-verified/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Chowdhury",
+					"given": "Neil"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2024-08-13",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "SWE-Bench+: Enhanced Coding Benchmark for LLMs",
+			"url": "https://arxiv.org/abs/2410.06992",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Aleithan",
+					"given": "Reem"
+				}
+			],
+			"container": "arXiv",
+			"published": "2024-10-09",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "Repo State Loopholes During Agentic Evaluation",
+			"url": "https://github.com/SWE-bench/SWE-bench/issues/465",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "jacobkahn"
+				}
+			],
+			"container": "SWE-bench issue tracker, GitHub",
+			"published": "2025-09-03"
+		},
+		{
+			"kind": "web",
+			"title": "Why SWE-bench Verified No Longer Measures Frontier Coding Capabilities",
+			"url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2026-02-23"
+		},
+		{
+			"kind": "article",
+			"title": "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?",
+			"url": "https://arxiv.org/abs/2509.16941",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Deng",
+					"given": "Xiang"
+				}
+			],
+			"container": "arXiv",
+			"published": "2025-09-21",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "Introducing Claude 4",
+			"url": "https://www.anthropic.com/news/claude-4",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2025-05-22"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing GPT-5 for Developers",
+			"url": "https://openai.com/index/introducing-gpt-5-for-developers/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2025-08-07"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing Claude Sonnet 4.5",
+			"url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2025-09-29"
+		},
+		{
+			"kind": "web",
+			"title": "A New Era of Intelligence with Gemini 3",
+			"url": "https://blog.google/products/gemini/gemini-3/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Pichai",
+					"given": "Sundar"
+				},
+				{
+					"family": "Hassabis",
+					"given": "Demis"
+				},
+				{
+					"family": "Kavukcuoglu",
+					"given": "Koray"
+				}
+			],
+			"container": "The Keyword, Google",
+			"published": "2025-11-18"
+		},
+		{
+			"kind": "web",
+			"title": "Claude Opus 4.6",
+			"url": "https://www.anthropic.com/news/claude-opus-4-6",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2026-02-05"
+		},
+		{
+			"kind": "web",
+			"title": "Claude Opus 5 System Card",
+			"url": "https://www.anthropic.com/claude-opus-5-system-card",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2026-07-24"
+		}
+	]
+}

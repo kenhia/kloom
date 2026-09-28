@@ -1,0 +1,508 @@
+{
+	"id": "compute",
+	"position": {
+		"label": "Compute and hardware"
+	},
+	"asOf": "2026-09-27",
+	"scene": {
+		"headline": "We bought it by the",
+		"accent": "MEGAWATT.",
+		"palette": "whitepaper",
+		"illustration": "scene.svg",
+		"metadata": ["NVIDIA H100 · BLACKWELL · GOOGLE TPU", "CLUSTERS · POWER · EXPORT CONTROLS"],
+		"counter": {
+			"value": "~10²⁷",
+			"label": "FLOP to train a frontier model, 2026 (est.)"
+		}
+	},
+	"sources": [
+		{
+			"title": "Nvidia — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Nvidia"
+		},
+		{
+			"title": "Tensor Processing Unit — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Tensor_Processing_Unit"
+		},
+		{
+			"title": "NVIDIA Announces Hopper Architecture, the Next Generation of Accelerated Computing",
+			"url": "https://nvidianews.nvidia.com/news/nvidia-announces-hopper-architecture-the-next-generation-of-accelerated-computing",
+			"note": "NVIDIA Newsroom, 2022-03-22"
+		},
+		{
+			"title": "NVIDIA Blackwell Platform Arrives to Power a New Era of Computing",
+			"url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing",
+			"note": "NVIDIA Newsroom, 2024-03-18"
+		},
+		{
+			"title": "NVIDIA Vera Rubin Ramps into Full Production to Power Agentic AI Factories Worldwide",
+			"url": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory",
+			"note": "NVIDIA Newsroom, 2026-05-31"
+		},
+		{
+			"title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+			"url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm",
+			"note": "Form 8-K, exhibit 99.1, US Securities and Exchange Commission, 2026-02-25"
+		},
+		{
+			"title": "Google Supercharges Machine Learning Tasks with TPU Custom Chip",
+			"url": "https://cloud.google.com/blog/products/ai-machine-learning/google-supercharges-machine-learning-tasks-with-custom-chip",
+			"note": "Google Cloud Blog, 2016-05-18"
+		},
+		{
+			"title": "Norman P. Jouppi et al., In-Datacenter Performance Analysis of a Tensor Processing Unit",
+			"url": "https://arxiv.org/abs/1704.04760",
+			"note": "International Symposium on Computer Architecture (ISCA 2017), 2017"
+		},
+		{
+			"title": "Norman P. Jouppi et al., TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings",
+			"url": "https://arxiv.org/abs/2304.01433",
+			"note": "International Symposium on Computer Architecture (ISCA 2023), 2023"
+		},
+		{
+			"title": "Ironwood: The First Google TPU for the Age of Inference",
+			"url": "https://blog.google/products/google-cloud/ironwood-tpu-age-of-inference/",
+			"note": "The Keyword, Google, 2025-04-09"
+		},
+		{
+			"title": "Trainium3 UltraServers Now Available",
+			"url": "https://press.aboutamazon.com/2025/12/trainium3-ultraservers-now-available-enabling-customers-to-train-and-deploy-ai-models-faster-at-lower-cost",
+			"note": "Amazon, 2025-12-02"
+		},
+		{
+			"title": "Building Meta's GenAI Infrastructure",
+			"url": "https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/",
+			"note": "Engineering at Meta, 2024-03-12"
+		},
+		{
+			"title": "NVIDIA Ethernet Networking Accelerates World's Largest AI Supercomputer, Built by xAI",
+			"url": "https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus",
+			"note": "NVIDIA Newsroom, 2024-10-28"
+		},
+		{
+			"title": "Announcing The Stargate Project",
+			"url": "https://group.softbank/en/news/press/20250122",
+			"note": "SoftBank Group, 2025-01-22"
+		},
+		{
+			"title": "The Record for Computing Capacity in a Single Data Center Has Doubled Every 7 Months",
+			"url": "https://epoch.ai/data-insights/largest-data-center-compute",
+			"note": "Epoch AI, 2026-06-11"
+		},
+		{
+			"title": "Energy and AI: Executive Summary",
+			"url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+			"note": "International Energy Agency, 2025-04"
+		},
+		{
+			"title": "Data on AI Models",
+			"url": "https://epoch.ai/data/ai-models",
+			"note": "Epoch AI, 2026-09-26"
+		},
+		{
+			"title": "Training Compute of Frontier AI Models Grows by 4-5x per Year",
+			"url": "https://epoch.ai/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year",
+			"note": "Epoch AI, 2024-05-28"
+		},
+		{
+			"title": "Commerce Implements New Export Controls on Advanced Computing and Semiconductor Manufacturing Items to the PRC",
+			"url": "https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples",
+			"note": "Bureau of Industry and Security, 2022-10-07"
+		},
+		{
+			"title": "Commerce Strengthens Restrictions on Advanced Computing Semiconductors, Semiconductor Manufacturing Equipment",
+			"url": "https://www.bis.gov/press-release/commerce-strengthens-restrictions-advanced-computing-semiconductors-semiconductor-manufacturing-equipment",
+			"note": "Bureau of Industry and Security, 2023-10-17"
+		},
+		{
+			"title": "Form 8-K",
+			"url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm",
+			"note": "US Securities and Exchange Commission, 2025-04-15"
+		},
+		{
+			"title": "Department of Commerce Revises License Review Policy for Semiconductors Exported to China",
+			"url": "https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china",
+			"note": "Bureau of Industry and Security, 2026-01-13"
+		},
+		{
+			"title": "Form 10-Q for the Quarter Ended July 26, 2026",
+			"url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+			"note": "US Securities and Exchange Commission, 2026-08"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Nvidia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nvidia&oldid=1376564277",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tensor Processing Unit",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tensor_Processing_Unit&oldid=1373839690",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "web",
+			"title": "NVIDIA Announces Hopper Architecture, the Next Generation of Accelerated Computing",
+			"url": "https://nvidianews.nvidia.com/news/nvidia-announces-hopper-architecture-the-next-generation-of-accelerated-computing",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "NVIDIA"
+				}
+			],
+			"container": "NVIDIA Newsroom",
+			"published": "2022-03-22"
+		},
+		{
+			"kind": "web",
+			"title": "NVIDIA Blackwell Platform Arrives to Power a New Era of Computing",
+			"url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "NVIDIA"
+				}
+			],
+			"container": "NVIDIA Newsroom",
+			"published": "2024-03-18"
+		},
+		{
+			"kind": "web",
+			"title": "NVIDIA Vera Rubin Ramps into Full Production to Power Agentic AI Factories Worldwide",
+			"url": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "NVIDIA"
+				}
+			],
+			"container": "NVIDIA Newsroom",
+			"published": "2026-05-31"
+		},
+		{
+			"kind": "web",
+			"title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+			"url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "NVIDIA"
+				}
+			],
+			"container": "Form 8-K, exhibit 99.1, US Securities and Exchange Commission",
+			"published": "2026-02-25"
+		},
+		{
+			"kind": "web",
+			"title": "Google Supercharges Machine Learning Tasks with TPU Custom Chip",
+			"url": "https://cloud.google.com/blog/products/ai-machine-learning/google-supercharges-machine-learning-tasks-with-custom-chip",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Jouppi",
+					"given": "Norm"
+				}
+			],
+			"container": "Google Cloud Blog",
+			"published": "2016-05-18"
+		},
+		{
+			"kind": "article",
+			"title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+			"url": "https://arxiv.org/abs/1704.04760",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Jouppi",
+					"given": "Norman P."
+				}
+			],
+			"container": "International Symposium on Computer Architecture (ISCA 2017)",
+			"published": "2017",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings",
+			"url": "https://arxiv.org/abs/2304.01433",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Jouppi",
+					"given": "Norman P."
+				}
+			],
+			"container": "International Symposium on Computer Architecture (ISCA 2023)",
+			"published": "2023",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "Ironwood: The First Google TPU for the Age of Inference",
+			"url": "https://blog.google/products/google-cloud/ironwood-tpu-age-of-inference/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Vahdat",
+					"given": "Amin"
+				}
+			],
+			"container": "The Keyword, Google",
+			"published": "2025-04-09"
+		},
+		{
+			"kind": "web",
+			"title": "Trainium3 UltraServers Now Available",
+			"url": "https://press.aboutamazon.com/2025/12/trainium3-ultraservers-now-available-enabling-customers-to-train-and-deploy-ai-models-faster-at-lower-cost",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Amazon"
+				}
+			],
+			"container": "Amazon",
+			"published": "2025-12-02"
+		},
+		{
+			"kind": "web",
+			"title": "Building Meta's GenAI Infrastructure",
+			"url": "https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Lee",
+					"given": "Kevin"
+				},
+				{
+					"family": "Gangidi",
+					"given": "Adi"
+				},
+				{
+					"family": "Oldham",
+					"given": "Mathew"
+				}
+			],
+			"container": "Engineering at Meta",
+			"published": "2024-03-12"
+		},
+		{
+			"kind": "web",
+			"title": "NVIDIA Ethernet Networking Accelerates World's Largest AI Supercomputer, Built by xAI",
+			"url": "https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "NVIDIA"
+				}
+			],
+			"container": "NVIDIA Newsroom",
+			"published": "2024-10-28"
+		},
+		{
+			"kind": "web",
+			"title": "Announcing The Stargate Project",
+			"url": "https://group.softbank/en/news/press/20250122",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				},
+				{
+					"name": "SoftBank Group"
+				}
+			],
+			"container": "SoftBank Group",
+			"published": "2025-01-22"
+		},
+		{
+			"kind": "web",
+			"title": "The Record for Computing Capacity in a Single Data Center Has Doubled Every 7 Months",
+			"url": "https://epoch.ai/data-insights/largest-data-center-compute",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Cottier",
+					"given": "Ben"
+				}
+			],
+			"container": "Epoch AI",
+			"published": "2026-06-11"
+		},
+		{
+			"kind": "web",
+			"title": "Energy and AI: Executive Summary",
+			"url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"container": "International Energy Agency",
+			"published": "2025-04"
+		},
+		{
+			"kind": "web",
+			"title": "Data on AI Models",
+			"url": "https://epoch.ai/data/ai-models",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Epoch AI"
+				}
+			],
+			"container": "Epoch AI",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "web",
+			"title": "Training Compute of Frontier AI Models Grows by 4-5x per Year",
+			"url": "https://epoch.ai/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Sevilla",
+					"given": "Jaime"
+				},
+				{
+					"family": "Roldán",
+					"given": "Edu"
+				}
+			],
+			"container": "Epoch AI",
+			"published": "2024-05-28"
+		},
+		{
+			"kind": "web",
+			"title": "Commerce Implements New Export Controls on Advanced Computing and Semiconductor Manufacturing Items to the PRC",
+			"url": "https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "US Department of Commerce"
+				}
+			],
+			"container": "Bureau of Industry and Security",
+			"published": "2022-10-07"
+		},
+		{
+			"kind": "web",
+			"title": "Commerce Strengthens Restrictions on Advanced Computing Semiconductors, Semiconductor Manufacturing Equipment",
+			"url": "https://www.bis.gov/press-release/commerce-strengthens-restrictions-advanced-computing-semiconductors-semiconductor-manufacturing-equipment",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "US Department of Commerce"
+				}
+			],
+			"container": "Bureau of Industry and Security",
+			"published": "2023-10-17"
+		},
+		{
+			"kind": "web",
+			"title": "Form 8-K",
+			"url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "NVIDIA"
+				}
+			],
+			"container": "US Securities and Exchange Commission",
+			"published": "2025-04-15"
+		},
+		{
+			"kind": "web",
+			"title": "Department of Commerce Revises License Review Policy for Semiconductors Exported to China",
+			"url": "https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "US Department of Commerce"
+				}
+			],
+			"container": "Bureau of Industry and Security",
+			"published": "2026-01-13"
+		},
+		{
+			"kind": "web",
+			"title": "Form 10-Q for the Quarter Ended July 26, 2026",
+			"url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "NVIDIA"
+				}
+			],
+			"container": "US Securities and Exchange Commission",
+			"published": "2026-08"
+		},
+		{
+			"kind": "media",
+			"title": "A TPU v4 board with four liquid-cooled packages, each an ASIC with four HBM stacks",
+			"url": "https://commons.wikimedia.org/wiki/File:TPU_v4_(cropped).png",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Jouppi",
+					"given": "Norman P."
+				}
+			],
+			"published": "2023-04-04",
+			"container": "From Jouppi et al., \"TPU v4\" (arXiv 2304.01433), figure; via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "tpu-v4-board.jpg",
+			"etAl": true
+		},
+		{
+			"kind": "media",
+			"title": "Google Data Center, Council Bluffs, Iowa, aerial view",
+			"url": "https://commons.wikimedia.org/wiki/File:Google_Data_Center,_Council_Bluffs_Iowa_(49062863796).jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Davis",
+					"given": "Chad"
+				}
+			],
+			"published": "2017-02-18",
+			"container": "Photograph, via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "data-centre.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Training compute of notable AI models, 2012–2026 (log scale)",
+			"url": "https://epoch.ai/data/ai-models",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Epoch AI, \"Data on AI Models\" (CC BY 4.0), accessed 27 September 2026",
+			"licence": "MIT",
+			"file": "training-compute.svg"
+		}
+	]
+}

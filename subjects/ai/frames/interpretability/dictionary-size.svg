@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="t d">
+<title id="t">Largest sparse-autoencoder dictionaries in three studies, 2023–2024, against the 512 neurons they started from</title>
+<desc id="d">Bar chart on a logarithmic scale. A one-layer transformer's MLP layer had 512 neurons; Bricken et al. (October 2023) decomposed it into up to 131,072 features. Templeton et al. (May 2024) trained a dictionary of 33,554,432 features on Claude 3 Sonnet, and Gao et al. (June 2024) one of about 16 million latents on GPT-4. Sources: the three papers.</desc>
+<rect width="520" height="300" fill="#f7f6f2"/>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#625f70">
+<line x1="64" x2="500" y1="250.0" y2="250.0" stroke="#625f70" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">100</text>
+<line x1="64" x2="500" y1="178.7" y2="178.7" stroke="#625f70" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">10K</text>
+<line x1="64" x2="500" y1="107.3" y2="107.3" stroke="#625f70" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">1M</text>
+<line x1="64" x2="500" y1="36.0" y2="36.0" stroke="#625f70" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">100M</text>
+<rect x="88.5" y="224.7" width="60" height="25.3" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="118.5" y="218.7" text-anchor="middle" fill="#1b1a24">512</text>
+<text x="118.5" y="266" text-anchor="middle" fill="#1b1a24">Neurons</text>
+<text x="118.5" y="280" text-anchor="middle" font-size="9">1-layer MLP</text>
+<rect x="197.5" y="138.8" width="60" height="111.2" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="227.5" y="132.8" text-anchor="middle" fill="#1b1a24">131K</text>
+<text x="227.5" y="266" text-anchor="middle" fill="#1b1a24">Anthropic</text>
+<text x="227.5" y="280" text-anchor="middle" font-size="9">Oct 2023</text>
+<rect x="306.5" y="52.9" width="60" height="197.1" fill="#5236c9" fill-opacity="1"/>
+<text x="336.5" y="46.9" text-anchor="middle" fill="#1b1a24">34M</text>
+<text x="336.5" y="266" text-anchor="middle" fill="#1b1a24">Anthropic</text>
+<text x="336.5" y="280" text-anchor="middle" font-size="9">May 2024</text>
+<rect x="415.5" y="64.4" width="60" height="185.6" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="445.5" y="58.4" text-anchor="middle" fill="#1b1a24">~16M</text>
+<text x="445.5" y="266" text-anchor="middle" fill="#1b1a24">OpenAI</text>
+<text x="445.5" y="280" text-anchor="middle" font-size="9">Jun 2024</text>
+<text x="64" y="20" font-size="12" fill="#1b1a24" letter-spacing="1">FEATURES IN ONE DICTIONARY · LOG SCALE</text>
+</g></svg>

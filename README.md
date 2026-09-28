@@ -11,9 +11,14 @@ holds the narrative, charts, images and sources for the frame you are on; and
 an AI pane lets you ask for more detail or _grow_ the story — new frames on
 the main spine, or a side trail to explore.
 
-The first subject is **the History of Western Civilization**. The longer aim
-is a framework — starter code, agent skills and instructions — for generating
-a kloom on any subject.
+There are two subjects so far, both served by one app:
+
+- **the History of Western Civilization**, 18 frames and two trails;
+- **the History and Current State of AI**, 41 frames and four trails, on a
+  spine that runs from myths through dates to technologies.
+
+The longer aim is a framework (starter code, agent skills and instructions)
+for generating a kloom on any subject.
 
 ## Inspiration
 
@@ -54,9 +59,10 @@ just build    # Node server in build/; run with `node build`
 
 Code lives in four places. `engine/` is the subject-agnostic model, loader,
 validation and UI. `subjects/<subject>/` holds one subject's content, one
-directory per frame. `src/` is the SvelteKit wiring that serves a subject
-(`KLOOM_SUBJECT`, default `western-civ`; `KLOOM_SUBJECTS_DIR`, default
-`subjects`). `create-tools/` holds the authoring scripts that made the
+directory per frame. `src/` is the SvelteKit wiring that serves every
+subject under `KLOOM_SUBJECTS_DIR` (default `subjects`) at `/<subject>`;
+`/` opens `KLOOM_SUBJECT` (default `western-civ`), and the start screen
+links the others. `create-tools/` holds the authoring scripts that made the
 content (plates, citations, charts, traced art); see its README. `skills/`
 holds the instructions a model writes content by: `skills/grow/SKILL.md` is
 what grow jobs follow, and they commit to the git repository the subject

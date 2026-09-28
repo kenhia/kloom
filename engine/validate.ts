@@ -145,6 +145,9 @@ export function validate(raw: RawSubject): string[] {
 		checkSpine(where, trail.spine);
 	}
 
+	// The accent word is a frame's signature: no two in a subject share one.
+	const accents = new Map<string, string>();
+
 	for (const [dir, { frame, reading, svgs, media }] of Object.entries(raw.frames)) {
 		const where = `frames/${dir}`;
 		if (!placed.has(dir)) fail(where, 'is not on any spine');
@@ -161,6 +164,15 @@ export function validate(raw: RawSubject): string[] {
 		else {
 			if (!isText(scene.headline)) fail(where, 'scene.headline is required');
 			if (!isText(scene.accent)) fail(where, 'scene.accent is required');
+			else {
+				const word = scene.accent
+					.trim()
+					.toUpperCase()
+					.replace(/[.!?]+$/, '');
+				const other = accents.get(word);
+				if (other) fail(where, `accent "${word}" is already frames/${other}'s`);
+				else accents.set(word, dir);
+			}
 			if (!isText(scene.palette) || !palettes.has(scene.palette))
 				fail(where, `unknown palette "${String(scene.palette)}"`);
 			if (!Array.isArray(scene.metadata) || !scene.metadata.every((m) => typeof m === 'string'))
@@ -177,6 +189,12 @@ export function validate(raw: RawSubject): string[] {
 				}
 			}
 		}
+
+		if (
+			frame.asOf !== undefined &&
+			!(isText(frame.asOf) && /^\d{4}-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?$/.test(frame.asOf))
+		)
+			fail(where, 'asOf must be YYYY-MM or YYYY-MM-DD');
 
 		if (!Array.isArray(frame.sources) || frame.sources.length === 0)
 			fail(where, 'sources are required — every frame carries at least one');

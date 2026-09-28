@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 200 L370 200"/>
+		<path pathLength="1" d="M219.6 200 L219.6 255"/>
+		<path pathLength="1" d="M40 130 L370 130"/>
+		<path pathLength="1" d="M305.2 130 L305.2 255"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 35 L40 255 L370 255"/>
+		<path pathLength="1" d="M40 255 L46 254.1 L52 253.2 L58 252.3 L64 251.3 L70 250.3 L76 249.2 L82 248.1 L88 246.9 L94 245.6 L100 244.3 L106 243 L112 241.5 L118 240 L124 238.4 L130 236.8 L136 235 L142 233.2 L148 231.3 L154 229.3 L160 227.2 L166 225 L172 222.7 L178 220.3 L184 217.8 L190 215.1 L196 212.3 L202 209.4 L208 206.3 L214 203.1 L220 199.8 L226 196.2 L232 192.5 L238 188.7 L244 184.6 L250 180.3 L256 175.9 L262 171.2 L268 166.3 L274 161.1 L280 155.7 L286 150 L292 144.1 L298 137.9 L304 131.4 L310 124.5 L316 117.4 L322 109.8 L328 102 L334 93.7 L340 85 L346 75.9 L352 66.4 L358 56.4 L364 46 L370 35"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M40 240 L219.6 240 L219.6 195 L305.2 195 L305.2 125 L370 125"/>
+		<path pathLength="1" d="M215.6 200 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M301.2 130 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g>
+		<text x="46" y="194" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HIGH</text>
+		<text x="46" y="124" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CRITICAL</text>
+		<text x="340" y="45" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CAPABILITY</text>
+		<text x="46" y="234" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SAFEGUARDS</text>
+	</g>
+</svg>

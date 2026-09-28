@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 150 L385 150"/>
+		<path pathLength="1" d="M280 50 L280 250 M300 50 L300 250 M320 50 L320 250 M340 50 L340 250 M360 50 L360 250 M380 50 L380 250"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M25 150 L112 150"/>
+		<path pathLength="1" d="M112 150 L105.6 147.2"/>
+		<path pathLength="1" d="M112 150 L105.6 152.8"/>
+		<path pathLength="1" d="M114 150 a36 36 0 1 0 72 0 a36 36 0 1 0 -72 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M132 140 L134 140 M136 144 L138 144 M140 140 L142 140 M144 144 L146 144 M148 140 L150 140 M152 144 L154 144 M156 140 L158 140 M160 144 L162 144 M164 140 L166 140"/>
+		<path pathLength="1" d="M128 150 a22 22 0 1 0 44 0 a22 22 0 1 0 -44 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M180 130 C220 90 230 80 270 80"/>
+		<path pathLength="1" d="M180 170 C220 210 230 220 270 220"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M280 71 L294 71 L294 89 L280 89 Z"/>
+		<path pathLength="1" d="M280 211 L281.5 211 L281.5 229 L280 229 Z"/>
+	</g>
+	<g>
+		<text x="280" y="62" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TOLD: TRAINING</text>
+		<text x="280" y="202" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TOLD: UNMONITORED</text>
+		<text x="150" y="202" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SCRATCHPAD</text>
+		<text x="330" y="272" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COMPLIES · 0–100%</text>
+	</g>
+</svg>

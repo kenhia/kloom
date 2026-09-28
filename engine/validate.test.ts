@@ -1,6 +1,6 @@
 import { join } from 'node:path';
 import { beforeAll, describe, expect, it } from 'vitest';
-import { buildSubject, loadSubject, readSubject, SubjectError } from './load';
+import { buildSubject, loadSubject, SubjectError } from './load';
 import type { RawSubject } from './validate';
 import { validate } from './validate';
 
@@ -10,7 +10,7 @@ const raw = (): RawSubject => {
 		frame: {
 			id,
 			position: { label: String(sort), sort },
-			scene: { headline: 'We did', accent: 'THINGS.', palette, metadata: [] },
+			scene: { headline: 'We did', accent: `${id.toUpperCase()}.`, palette, metadata: [] },
 			sources: [{ title: 'A source', url: 'https://example.org/' }]
 		},
 		reading: `Reading for ${id}.`,
@@ -53,6 +53,23 @@ type Loose = any;
 describe('validate', () => {
 	it('accepts a well-formed subject', () => {
 		expect(validate(raw())).toEqual([]);
+	});
+
+	it('takes an asOf month or day on a time-sensitive frame, and nothing else', () => {
+		const r = raw();
+		(r.frames.a.frame as Loose).asOf = '2026-09';
+		(r.frames.b.frame as Loose).asOf = '2026-09-27';
+		expect(validate(r)).toEqual([]);
+		for (const bad of ['2026', 'September 2026', '2026-13', '2026-09-32', 20260927]) {
+			(r.frames.c.frame as Loose).asOf = bad;
+			expect(validate(r)).toEqual(['frames/c: asOf must be YYYY-MM or YYYY-MM-DD']);
+		}
+	});
+
+	it('fails an accent word another frame already has, whatever its case or stop', () => {
+		const r = raw();
+		(r.frames.b.frame as Loose).scene.accent = 'a!';
+		expect(validate(r)).toEqual(['frames/b: accent "A" is already frames/a\'s']);
 	});
 
 	it('fails a frame with no sources', () => {
@@ -258,10 +275,7 @@ describe('the western-civ subject', () => {
 		subject = await loadSubject(dir);
 	});
 
-	it('is valid', async () => {
-		expect(validate(await readSubject(dir))).toEqual([]);
-	});
-
+	// Validity, illustrations and citations for every subject: subjects.test.ts.
 	it('spans both palettes, opens on a myth and carries its trails', () => {
 		const palettes = new Set(Object.values(subject.frames).map((f) => f.scene.palette));
 		expect([...palettes].sort()).toEqual(['night', 'parchment']);
@@ -272,17 +286,8 @@ describe('the western-civ subject', () => {
 		]);
 	});
 
-	it('renders reading markdown and inlines every illustration', () => {
+	it('renders reading markdown', () => {
 		expect(subject.frames.writing.readingHtml).toContain('<strong>cuneiform</strong>');
-		for (const frame of Object.values(subject.frames)) expect(frame.svg).toMatch(/^<svg/);
-	});
-
-	it('cites every frame, with Wikipedia pinned to a revision', () => {
-		for (const frame of Object.values(subject.frames)) {
-			expect(frame.citations?.length).toBeGreaterThan(0);
-			for (const c of frame.citations!)
-				if (c.kind === 'wikipedia') expect(c.url).toMatch(/oldid=\d+$/);
-		}
 	});
 
 	it('serves reading images from the frame, crediting the chart', () => {

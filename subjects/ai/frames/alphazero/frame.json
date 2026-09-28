@@ -1,0 +1,325 @@
+{
+	"id": "alphazero",
+	"position": {
+		"label": "2017",
+		"sort": 2017
+	},
+	"scene": {
+		"headline": "We gave it only the",
+		"accent": "RULES.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": ["LONDON · DEEPMIND", "CHESS · SHOGI · GO · SELF-PLAY FROM RANDOM"],
+		"counter": {
+			"value": "155–6",
+			"label": "wins to losses against Stockfish, 1,000 games"
+		}
+	},
+	"sources": [
+		{
+			"title": "David Silver, Thomas Hubert et al., Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+			"url": "https://arxiv.org/abs/1712.01815",
+			"note": "arXiv, 2017"
+		},
+		{
+			"title": "David Silver, Thomas Hubert et al., A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go through Self-Play",
+			"url": "https://doi.org/10.1126/science.aar6404",
+			"note": "Science, 2018"
+		},
+		{
+			"title": "AlphaZero: Shedding New Light on Chess, Shogi, and Go",
+			"url": "https://deepmind.google/discover/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/",
+			"note": "Google DeepMind, 2018"
+		},
+		{
+			"title": "AlphaZero — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/AlphaZero"
+		},
+		{
+			"title": "AlphaGo versus Lee Sedol — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol"
+		},
+		{
+			"title": "Julian Schrittwieser, Ioannis Antonoglou et al., Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+			"url": "https://doi.org/10.1038/s41586-020-03051-4",
+			"note": "Nature, 2020"
+		},
+		{
+			"title": "MuZero — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/MuZero"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+			"url": "https://arxiv.org/abs/1712.01815",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Silver",
+					"given": "David"
+				},
+				{
+					"family": "Hubert",
+					"given": "Thomas"
+				},
+				{
+					"family": "Schrittwieser",
+					"given": "Julian"
+				},
+				{
+					"family": "Antonoglou",
+					"given": "Ioannis"
+				},
+				{
+					"family": "Lai",
+					"given": "Matthew"
+				},
+				{
+					"family": "Guez",
+					"given": "Arthur"
+				},
+				{
+					"family": "Lanctot",
+					"given": "Marc"
+				},
+				{
+					"family": "Sifre",
+					"given": "Laurent"
+				},
+				{
+					"family": "Kumaran",
+					"given": "Dharshan"
+				},
+				{
+					"family": "Graepel",
+					"given": "Thore"
+				},
+				{
+					"family": "Lillicrap",
+					"given": "Timothy"
+				},
+				{
+					"family": "Simonyan",
+					"given": "Karen"
+				},
+				{
+					"family": "Hassabis",
+					"given": "Demis"
+				}
+			],
+			"container": "arXiv preprint 1712.01815",
+			"published": "2017-12-05"
+		},
+		{
+			"kind": "article",
+			"title": "A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go through Self-Play",
+			"url": "https://doi.org/10.1126/science.aar6404",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Silver",
+					"given": "David"
+				},
+				{
+					"family": "Hubert",
+					"given": "Thomas"
+				},
+				{
+					"family": "Schrittwieser",
+					"given": "Julian"
+				},
+				{
+					"family": "Antonoglou",
+					"given": "Ioannis"
+				},
+				{
+					"family": "Lai",
+					"given": "Matthew"
+				},
+				{
+					"family": "Guez",
+					"given": "Arthur"
+				},
+				{
+					"family": "Lanctot",
+					"given": "Marc"
+				},
+				{
+					"family": "Sifre",
+					"given": "Laurent"
+				},
+				{
+					"family": "Kumaran",
+					"given": "Dharshan"
+				},
+				{
+					"family": "Graepel",
+					"given": "Thore"
+				},
+				{
+					"family": "Lillicrap",
+					"given": "Timothy"
+				},
+				{
+					"family": "Simonyan",
+					"given": "Karen"
+				},
+				{
+					"family": "Hassabis",
+					"given": "Demis"
+				}
+			],
+			"container": "Science",
+			"published": "2018-12-07",
+			"volume": "362",
+			"issue": "6419",
+			"pages": "1140–44"
+		},
+		{
+			"kind": "web",
+			"title": "AlphaZero: Shedding New Light on Chess, Shogi, and Go",
+			"url": "https://deepmind.google/discover/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Silver",
+					"given": "David"
+				},
+				{
+					"family": "Hubert",
+					"given": "Thomas"
+				},
+				{
+					"family": "Schrittwieser",
+					"given": "Julian"
+				},
+				{
+					"family": "Hassabis",
+					"given": "Demis"
+				}
+			],
+			"container": "Google DeepMind blog",
+			"published": "2018-12-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AlphaZero",
+			"url": "https://en.wikipedia.org/w/index.php?title=AlphaZero&oldid=1368921653",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AlphaGo versus Lee Sedol",
+			"url": "https://en.wikipedia.org/w/index.php?title=AlphaGo_versus_Lee_Sedol&oldid=1373768070",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "article",
+			"title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+			"url": "https://doi.org/10.1038/s41586-020-03051-4",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Schrittwieser",
+					"given": "Julian"
+				},
+				{
+					"family": "Antonoglou",
+					"given": "Ioannis"
+				},
+				{
+					"family": "Hubert",
+					"given": "Thomas"
+				},
+				{
+					"family": "Simonyan",
+					"given": "Karen"
+				},
+				{
+					"family": "Sifre",
+					"given": "Laurent"
+				},
+				{
+					"family": "Schmitt",
+					"given": "Simon"
+				},
+				{
+					"family": "Guez",
+					"given": "Arthur"
+				},
+				{
+					"family": "Lockhart",
+					"given": "Edward"
+				},
+				{
+					"family": "Hassabis",
+					"given": "Demis"
+				},
+				{
+					"family": "Graepel",
+					"given": "Thore"
+				},
+				{
+					"family": "Lillicrap",
+					"given": "Timothy"
+				},
+				{
+					"family": "Silver",
+					"given": "David"
+				}
+			],
+			"container": "Nature",
+			"published": "2020-12-23",
+			"volume": "588",
+			"issue": "7839",
+			"pages": "604–9"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "MuZero",
+			"url": "https://en.wikipedia.org/w/index.php?title=MuZero&oldid=1360320594",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-20"
+		},
+		{
+			"kind": "media",
+			"title": "Positions searched per second by AlphaZero, Stockfish and Elmo",
+			"url": "https://arxiv.org/abs/1712.01815",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from Silver et al. (2017), table S4",
+			"licence": "MIT",
+			"file": "search-speed.svg",
+			"published": "2026"
+		}
+	]
+}

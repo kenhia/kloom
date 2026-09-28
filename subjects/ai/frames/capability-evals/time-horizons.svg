@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" role="img" aria-labelledby="t d">
+<title id="t">METR 50% task-completion time horizons of selected frontier models, 2019–2026</title>
+<desc id="d">Bar chart on a logarithmic scale of the length of software tasks, measured by how long they take human experts, that each model completes half the time. GPT-2 (2019): about 3 seconds. GPT-3.5 (2022): 36 seconds. GPT-4 (2023): 4 minutes. Claude 3.5 Sonnet (October 2024): 21 minutes. o3 (April 2025): 2.0 hours. Gemini 3 Pro (November 2025): 3.7 hours. GPT-5.2 (December 2025): 5.9 hours. Claude Opus 4.6 (February 2026): 12 hours. Claude Mythos Preview (April 2026): about 17 hours, above the 16 hours METR says its tasks can reliably measure. Data: METR Time Horizon 1.1, May 2026.</desc>
+<rect width="680" height="320" fill="#0c0b14"/>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#9a97b8">
+<line x1="64" x2="660" y1="260.5" y2="260.5" stroke="#9a97b8" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="264.5" text-anchor="end">1 sec</text>
+<line x1="64" x2="660" y1="184.6" y2="184.6" stroke="#9a97b8" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="188.6" text-anchor="end">1 min</text>
+<line x1="64" x2="660" y1="108.6" y2="108.6" stroke="#9a97b8" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="112.6" text-anchor="end">1 hr</text>
+<line x1="64" x2="660" y1="49.6" y2="49.6" stroke="#9a97b8" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="53.6" text-anchor="end">1 day</text>
+<rect x="76.1" y="238.8" width="42" height="31.2" fill="#ecebf6" fill-opacity="0.85"/>
+<text x="97.1" y="232.8" text-anchor="middle" fill="#ecebf6">3 s</text>
+<text x="97.1" y="286" text-anchor="middle" fill="#ecebf6">GPT-2</text>
+<text x="97.1" y="300" text-anchor="middle" font-size="9">2019</text>
+<rect x="142.3" y="194.1" width="42" height="75.9" fill="#ecebf6" fill-opacity="0.85"/>
+<text x="163.3" y="188.1" text-anchor="middle" fill="#ecebf6">36 s</text>
+<text x="163.3" y="286" text-anchor="middle" fill="#ecebf6">GPT-3.5</text>
+<text x="163.3" y="300" text-anchor="middle" font-size="9">2022</text>
+<rect x="208.6" y="158.9" width="42" height="111.1" fill="#ecebf6" fill-opacity="0.85"/>
+<text x="229.6" y="152.9" text-anchor="middle" fill="#ecebf6">4 m</text>
+<text x="229.6" y="286" text-anchor="middle" fill="#ecebf6">GPT-4</text>
+<text x="229.6" y="300" text-anchor="middle" font-size="9">2023</text>
+<rect x="274.8" y="128.5" width="42" height="141.5" fill="#ecebf6" fill-opacity="0.85"/>
+<text x="295.8" y="122.5" text-anchor="middle" fill="#ecebf6">21 m</text>
+<text x="295.8" y="286" text-anchor="middle" fill="#ecebf6">C3.5 Son.</text>
+<text x="295.8" y="300" text-anchor="middle" font-size="9">Oct 24</text>
+<rect x="341.0" y="95.8" width="42" height="174.2" fill="#ecebf6" fill-opacity="0.85"/>
+<text x="362.0" y="89.8" text-anchor="middle" fill="#ecebf6">2.0 h</text>
+<text x="362.0" y="286" text-anchor="middle" fill="#ecebf6">o3</text>
+<text x="362.0" y="300" text-anchor="middle" font-size="9">Apr 25</text>
+<rect x="407.2" y="84.1" width="42" height="185.9" fill="#ecebf6" fill-opacity="0.85"/>
+<text x="428.2" y="78.1" text-anchor="middle" fill="#ecebf6">3.7 h</text>
+<text x="428.2" y="286" text-anchor="middle" fill="#ecebf6">Gem. 3 Pro</text>
+<text x="428.2" y="300" text-anchor="middle" font-size="9">Nov 25</text>
+<rect x="473.4" y="75.7" width="42" height="194.3" fill="#ecebf6" fill-opacity="0.85"/>
+<text x="494.4" y="69.7" text-anchor="middle" fill="#ecebf6">5.9 h</text>
+<text x="494.4" y="286" text-anchor="middle" fill="#ecebf6">GPT-5.2</text>
+<text x="494.4" y="300" text-anchor="middle" font-size="9">Dec 25</text>
+<rect x="539.7" y="62.5" width="42" height="207.5" fill="#ecebf6" fill-opacity="0.85"/>
+<text x="560.7" y="56.5" text-anchor="middle" fill="#ecebf6">12 h</text>
+<text x="560.7" y="286" text-anchor="middle" fill="#ecebf6">Opus 4.6</text>
+<text x="560.7" y="300" text-anchor="middle" font-size="9">Feb 26</text>
+<rect x="605.9" y="55.6" width="42" height="214.4" fill="#ff6b4a" fill-opacity="1"/>
+<text x="626.9" y="49.6" text-anchor="middle" fill="#ecebf6">~17 h</text>
+<text x="626.9" y="286" text-anchor="middle" fill="#ecebf6">Mythos Pr.</text>
+<text x="626.9" y="300" text-anchor="middle" font-size="9">Apr 26</text>
+<text x="64" y="20" font-size="12" fill="#ecebf6" letter-spacing="1">50% TIME HORIZON · METR TH 1.1 · LOG SCALE</text>
+</g></svg>

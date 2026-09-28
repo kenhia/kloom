@@ -10,9 +10,12 @@
 	import type { UserSettings } from '../user-settings.svelte';
 
 	interface Props {
+		/** The subject's id: every API call names it. */
+		subject: string;
 		/**
-		 * The frame in the reading pane: what a question is asked about. In manual
-		 * sync it can differ from the spine's; the reader is asking about what they read.
+		 * The frame in the reading pane: what a question is asked about. When the
+		 * reader has turned following off it can differ from the spine's; they are
+		 * asking about what they read.
 		 */
 		frame: Frame;
 		trail: Trail | null;
@@ -27,6 +30,7 @@
 	}
 
 	let {
+		subject,
 		frame,
 		trail,
 		settings,
@@ -107,6 +111,7 @@
 				method: 'POST',
 				headers: { 'content-type': 'application/json' },
 				body: JSON.stringify({
+					subject,
 					frame: frame.id,
 					trail: trailOf(frame.id),
 					question: q,
@@ -167,7 +172,7 @@
 			const res = await fetch('/api/keep', {
 				method: 'POST',
 				headers: { 'content-type': 'application/json' },
-				body: JSON.stringify({ id: t.id })
+				body: JSON.stringify({ subject, id: t.id })
 			});
 			const body = await res.json().catch(() => null);
 			if (!res.ok) throw new Error(body?.message ?? `status ${res.status}`);
@@ -243,7 +248,7 @@
 		clearTimeout(poll);
 		let next: GrowJob[];
 		try {
-			const res = await fetch('/api/grow');
+			const res = await fetch(`/api/grow?subject=${encodeURIComponent(subject)}`);
 			if (!res.ok) throw new Error(`status ${res.status}`);
 			next = (await res.json()).jobs;
 		} catch {
@@ -274,6 +279,7 @@
 				method: 'POST',
 				headers: { 'content-type': 'application/json' },
 				body: JSON.stringify({
+					subject,
 					verb,
 					frame: frame.id,
 					request,
@@ -348,6 +354,9 @@
 				<span aria-hidden="true">About</span>
 				{turn.about} · {turn.model}{turn.web ? ' · web' : ''}
 			</h3>
+			{#if turn.frame !== frame.id}
+				<p class="moved">You have moved on; this answer stays with the frame it was asked about.</p>
+			{/if}
 			<p class="question">{turn.question}</p>
 			{#if answerHtml}
 				<!-- Rendered by renderMarkdown: raw HTML escaped, unsafe links dropped, no images. -->
@@ -561,6 +570,11 @@
 	.question {
 		margin: 0.25rem 0 0;
 		font-style: italic;
+	}
+	.moved {
+		margin: 0.25rem 0 0;
+		font-size: 0.75rem;
+		color: var(--muted);
 	}
 	.text :global(p),
 	.text :global(ul),

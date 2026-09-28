@@ -1,0 +1,154 @@
+{
+	"id": "turing-test",
+	"position": {
+		"label": "1950",
+		"sort": 1950
+	},
+	"scene": {
+		"headline": "We made a game of",
+		"accent": "IMITATION.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MANCHESTER · ALAN TURING · MIND, OCTOBER 1950",
+			"INTERROGATOR · MACHINE · HUMAN · FIVE MINUTES"
+		],
+		"counter": {
+			"value": "70%",
+			"label": "the most an interrogator should get right, by 2000"
+		}
+	},
+	"sources": [
+		{
+			"title": "Computing Machinery and Intelligence — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence"
+		},
+		{
+			"title": "Turing test — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Turing_test"
+		},
+		{
+			"title": "Alan Turing — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Alan_Turing"
+		},
+		{
+			"title": "A. M. Turing, Computing Machinery and Intelligence",
+			"url": "https://doi.org/10.1093/mind/LIX.236.433",
+			"note": "Mind, 1950-10"
+		},
+		{
+			"title": "Cameron R. Jones, Benjamin K. Bergen, Large Language Models Pass the Turing Test",
+			"url": "https://arxiv.org/abs/2503.23674",
+			"note": "arXiv preprint 2503.23674, 2025-03-31"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Computing Machinery and Intelligence",
+			"url": "https://en.wikipedia.org/w/index.php?title=Computing_Machinery_and_Intelligence&oldid=1374518767",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Turing test",
+			"url": "https://en.wikipedia.org/w/index.php?title=Turing_test&oldid=1374125371",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alan Turing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alan_Turing&oldid=1377040312",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "article",
+			"title": "Computing Machinery and Intelligence",
+			"url": "https://doi.org/10.1093/mind/LIX.236.433",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Turing",
+					"given": "A. M."
+				}
+			],
+			"container": "Mind",
+			"volume": "59",
+			"issue": "236",
+			"pages": "433–60",
+			"published": "1950-10"
+		},
+		{
+			"kind": "web",
+			"title": "Large Language Models Pass the Turing Test",
+			"url": "https://arxiv.org/abs/2503.23674",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Cameron R."
+				},
+				{
+					"family": "Bergen",
+					"given": "Benjamin K."
+				}
+			],
+			"container": "arXiv preprint 2503.23674",
+			"published": "2025-03-31"
+		},
+		{
+			"kind": "media",
+			"title": "Alan Turing: studio portrait by Elliott & Fry, 29 March 1951",
+			"url": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951).jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Elliott & Fry"
+				}
+			],
+			"published": "1951-03-29",
+			"container": "Photograph; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "turing-1951.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Storage capacity in Turing’s 1950 paper, in binary digits",
+			"url": "https://doi.org/10.1093/mind/LIX.236.433",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Turing (1950), sections 5 and 6",
+			"licence": "MIT",
+			"file": "turing-storage.svg"
+		}
+	]
+}

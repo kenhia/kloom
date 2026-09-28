@@ -1,0 +1,350 @@
+{
+	"id": "interpretability",
+	"position": {
+		"label": "Interpretability"
+	},
+	"asOf": "2026-09-27",
+	"scene": {
+		"headline": "We put it under the",
+		"accent": "MICROSCOPE.",
+		"palette": "whitepaper",
+		"illustration": "scene.svg",
+		"metadata": ["FEATURES · CIRCUITS · SUPERPOSITION", "SPARSE AUTOENCODERS · ATTRIBUTION GRAPHS"],
+		"counter": {
+			"value": "33,554,432",
+			"label": "features in one dictionary, 2024"
+		}
+	},
+	"sources": [
+		{
+			"title": "Chris Olah, Alexander Mordvintsev and Ludwig Schubert, Feature Visualization",
+			"url": "https://doi.org/10.23915/distill.00007",
+			"note": "Distill, 2017-11-07"
+		},
+		{
+			"title": "Olah, Chris, et al., Zoom In: An Introduction to Circuits",
+			"url": "https://doi.org/10.23915/distill.00024.001",
+			"note": "Distill, 2020-03-10"
+		},
+		{
+			"title": "Cunningham, Hoagy, et al., Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+			"url": "https://arxiv.org/abs/2309.08600",
+			"note": "arXiv, 2023-09-15"
+		},
+		{
+			"title": "Bricken, Trenton, et al., Towards Monosemanticity: Decomposing Language Models With Dictionary Learning",
+			"url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html",
+			"note": "Transformer Circuits Thread, 2023-10-04"
+		},
+		{
+			"title": "Elhage, Nelson, et al., Toy Models of Superposition",
+			"url": "https://transformer-circuits.pub/2022/toy_model/index.html",
+			"note": "Transformer Circuits Thread, 2022-09-14"
+		},
+		{
+			"title": "Templeton, Adly, et al., Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
+			"url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+			"note": "Transformer Circuits Thread, 2024-05-21"
+		},
+		{
+			"title": "Gao, Leo, et al., Scaling and Evaluating Sparse Autoencoders",
+			"url": "https://arxiv.org/abs/2406.04093",
+			"note": "arXiv, 2024-06-06"
+		},
+		{
+			"title": "Lieberum, Tom, et al., Gemma Scope: Open Sparse Autoencoders Everywhere All At Once on Gemma 2",
+			"url": "https://arxiv.org/abs/2408.05147",
+			"note": "arXiv, 2024-08-09"
+		},
+		{
+			"title": "Lindsey, Jack, et al., On the Biology of a Large Language Model",
+			"url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
+			"note": "Transformer Circuits Thread, 2025-03-27"
+		},
+		{
+			"title": "Smith, Lewis, et al., Negative Results for SAEs On Downstream Tasks and Deprioritising SAE Research (GDM Mech Interp Team Progress Update #2)",
+			"url": "https://www.alignmentforum.org/posts/4uXCAJNuPKtKBsi28/negative-results-for-saes-on-downstream-tasks",
+			"note": "AI Alignment Forum, 2025-03-26"
+		},
+		{
+			"title": "Sharkey, Lee, et al., Open Problems in Mechanistic Interpretability",
+			"url": "https://arxiv.org/abs/2501.16496",
+			"note": "arXiv, 2025-01-27"
+		},
+		{
+			"title": "Dan Hendrycks and Laura Hiscott, The Misguided Quest for Mechanistic AI Interpretability",
+			"url": "https://ai-frontiers.org/articles/the-misguided-quest-for-mechanistic-ai-interpretability",
+			"note": "AI Frontiers, 2025-05-15"
+		},
+		{
+			"title": "Will Douglas Heaven, Mechanistic Interpretability: 10 Breakthrough Technologies 2026",
+			"url": "https://www.technologyreview.com/2026/01/12/1130003/mechanistic-interpretability-ai-research-models-2026-breakthrough-technologies/",
+			"note": "MIT Technology Review, 2026-01-12"
+		},
+		{
+			"title": "Mechanistic interpretability — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Mechanistic_interpretability"
+		},
+		{
+			"title": "Chris Olah — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Chris_Olah"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Feature Visualization",
+			"url": "https://doi.org/10.23915/distill.00007",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Olah",
+					"given": "Chris"
+				},
+				{
+					"family": "Mordvintsev",
+					"given": "Alexander"
+				},
+				{
+					"family": "Schubert",
+					"given": "Ludwig"
+				}
+			],
+			"container": "Distill",
+			"published": "2017-11-07",
+			"volume": "2",
+			"issue": "11"
+		},
+		{
+			"kind": "article",
+			"title": "Zoom In: An Introduction to Circuits",
+			"url": "https://doi.org/10.23915/distill.00024.001",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Olah",
+					"given": "Chris"
+				}
+			],
+			"container": "Distill",
+			"published": "2020-03-10",
+			"volume": "5",
+			"issue": "3",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+			"url": "https://arxiv.org/abs/2309.08600",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Cunningham",
+					"given": "Hoagy"
+				}
+			],
+			"container": "arXiv",
+			"published": "2023-09-15",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning",
+			"url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Bricken",
+					"given": "Trenton"
+				}
+			],
+			"container": "Transformer Circuits Thread",
+			"published": "2023-10-04",
+			"publisher": "Anthropic",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "Toy Models of Superposition",
+			"url": "https://transformer-circuits.pub/2022/toy_model/index.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Elhage",
+					"given": "Nelson"
+				}
+			],
+			"container": "Transformer Circuits Thread",
+			"published": "2022-09-14",
+			"publisher": "Anthropic",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
+			"url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Templeton",
+					"given": "Adly"
+				}
+			],
+			"container": "Transformer Circuits Thread",
+			"published": "2024-05-21",
+			"publisher": "Anthropic",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "Scaling and Evaluating Sparse Autoencoders",
+			"url": "https://arxiv.org/abs/2406.04093",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Gao",
+					"given": "Leo"
+				}
+			],
+			"container": "arXiv",
+			"published": "2024-06-06",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "Gemma Scope: Open Sparse Autoencoders Everywhere All At Once on Gemma 2",
+			"url": "https://arxiv.org/abs/2408.05147",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Lieberum",
+					"given": "Tom"
+				}
+			],
+			"container": "arXiv",
+			"published": "2024-08-09",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "On the Biology of a Large Language Model",
+			"url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Lindsey",
+					"given": "Jack"
+				}
+			],
+			"container": "Transformer Circuits Thread",
+			"published": "2025-03-27",
+			"publisher": "Anthropic",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "Negative Results for SAEs On Downstream Tasks and Deprioritising SAE Research (GDM Mech Interp Team Progress Update #2)",
+			"url": "https://www.alignmentforum.org/posts/4uXCAJNuPKtKBsi28/negative-results-for-saes-on-downstream-tasks",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Lewis"
+				}
+			],
+			"container": "AI Alignment Forum",
+			"published": "2025-03-26",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "Open Problems in Mechanistic Interpretability",
+			"url": "https://arxiv.org/abs/2501.16496",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Sharkey",
+					"given": "Lee"
+				}
+			],
+			"container": "arXiv",
+			"published": "2025-01-27",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "The Misguided Quest for Mechanistic AI Interpretability",
+			"url": "https://ai-frontiers.org/articles/the-misguided-quest-for-mechanistic-ai-interpretability",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Hendrycks",
+					"given": "Dan"
+				},
+				{
+					"family": "Hiscott",
+					"given": "Laura"
+				}
+			],
+			"container": "AI Frontiers",
+			"published": "2025-05-15"
+		},
+		{
+			"kind": "web",
+			"title": "Mechanistic Interpretability: 10 Breakthrough Technologies 2026",
+			"url": "https://www.technologyreview.com/2026/01/12/1130003/mechanistic-interpretability-ai-research-models-2026-breakthrough-technologies/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Heaven",
+					"given": "Will Douglas"
+				}
+			],
+			"container": "MIT Technology Review",
+			"published": "2026-01-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mechanistic interpretability",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mechanistic_interpretability&oldid=1374225961",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chris Olah",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chris_Olah&oldid=1373148434",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "media",
+			"title": "Largest sparse-autoencoder dictionaries, 2023–2024",
+			"url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Bricken et al. (2023), Templeton et al. (2024) and Gao et al. (2024)",
+			"licence": "MIT",
+			"file": "dictionary-size.svg"
+		}
+	]
+}

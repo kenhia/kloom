@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M22 44 L378 44 M22 94 L378 94 M22 144 L378 144 M22 194 L378 194 M22 244 L378 244"/>
+		<path pathLength="1" d="M208.8 20 L208.8 254"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M208.8 44 L61.6 94 M208.8 44 L226.4 94 M208.8 44 L338.4 94 M61.6 94 L41.9 144 M61.6 94 L61.6 144 M61.6 94 L81.4 144 M226.4 94 L160.5 144 M226.4 94 L239.5 144 M226.4 94 L279.1 144 M160.5 144 L120.9 194 M160.5 144 L160.5 194 M160.5 144 L200 194 M120.9 194 L101.2 244 M120.9 194 L120.9 244 M120.9 194 L140.7 244 M200 194 L180.2 244 M200 194 L200 244 M200 194 L219.8 244 M279.1 144 L259.3 194 M279.1 144 L279.1 194 M279.1 144 L298.8 194 M338.4 94 L318.6 144 M338.4 94 L338.4 144 M338.4 94 L358.1 144"/>
+		<path pathLength="1" d="M204.8 44 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M57.6 94 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M222.4 94 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M156.5 144 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M116.9 194 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M196 194 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M275.1 144 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M334.4 94 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M36.9 149 L46.9 149"/>
+		<path pathLength="1" d="M56.6 149 L66.6 149"/>
+		<path pathLength="1" d="M76.4 149 L86.4 149"/>
+		<path pathLength="1" d="M96.2 249 L106.2 249"/>
+		<path pathLength="1" d="M115.9 249 L125.9 249"/>
+		<path pathLength="1" d="M135.7 249 L145.7 249"/>
+		<path pathLength="1" d="M155.5 199 L165.5 199"/>
+		<path pathLength="1" d="M175.2 249 L185.2 249"/>
+		<path pathLength="1" d="M214.8 249 L224.8 249"/>
+		<path pathLength="1" d="M234.5 149 L244.5 149"/>
+		<path pathLength="1" d="M254.3 199 L264.3 199"/>
+		<path pathLength="1" d="M274.1 199 L284.1 199"/>
+		<path pathLength="1" d="M293.8 199 L303.8 199"/>
+		<path pathLength="1" d="M313.6 149 L323.6 149"/>
+		<path pathLength="1" d="M333.4 149 L343.4 149"/>
+		<path pathLength="1" d="M353.1 149 L363.1 149"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M208.8 44 L226.4 94 L160.5 144 L200 194 L200 244"/>
+		<path pathLength="1" d="M199.8 44 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M193 237 L207 237 L207 251 L193 251 Z"/>
+	</g>
+	<g>
+		<text x="224.8" y="32" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">*2·85</text>
+		<text x="200" y="268" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AXIOMS</text>
+		<text x="378" y="188" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SUBPROBLEMS</text>
+	</g>
+</svg>

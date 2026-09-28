@@ -1,0 +1,147 @@
+{
+	"id": "leibniz",
+	"position": {
+		"label": "Philosophy"
+	},
+	"scene": {
+		"headline": "We tried to calculate",
+		"accent": "THOUGHT.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": ["MAJORCA · RAMON LLULL · c. 1274–1308", "HANOVER · G. W. LEIBNIZ · 1666–1716"],
+		"counter": {
+			"value": "1666",
+			"label": "De Arte Combinatoria"
+		}
+	},
+	"sources": [
+		{
+			"title": "Ramon Llull — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Ramon_Llull"
+		},
+		{
+			"title": "Gottfried Wilhelm Leibniz — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+		},
+		{
+			"title": "Calculus ratiocinator — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Calculus_ratiocinator"
+		},
+		{
+			"title": "Stepped reckoner — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Stepped_reckoner"
+		},
+		{
+			"title": "History of artificial intelligence — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+		},
+		{
+			"title": "Thomas Hobbes, Leviathan (1651), part I, chapter 5",
+			"url": "https://www.gutenberg.org/ebooks/3207",
+			"note": "Project Gutenberg"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Ramon Llull",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ramon_Llull&oldid=1376358517",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gottfried Wilhelm Leibniz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gottfried_Wilhelm_Leibniz&oldid=1376722870",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Calculus ratiocinator",
+			"url": "https://en.wikipedia.org/w/index.php?title=Calculus_ratiocinator&oldid=1297184245",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stepped reckoner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stepped_reckoner&oldid=1338728624",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of artificial intelligence",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "book",
+			"title": "Leviathan",
+			"url": "https://www.gutenberg.org/ebooks/3207",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Hobbes",
+					"given": "Thomas"
+				}
+			],
+			"publisher": "Andrew Crooke",
+			"place": "London",
+			"published": "1651"
+		},
+		{
+			"kind": "media",
+			"title": "Rechenmaschine von Leibniz (1673, Hannover); Leibnizsche Rechenmaschine, geometrische Zeichnung",
+			"url": "https://commons.wikimedia.org/wiki/File:Leibniz_Stepped_Reckoner_drawing.png",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Meyer",
+					"given": "Hermann Julius"
+				}
+			],
+			"published": "1893",
+			"container": "In Meyers Konversations-Lexikon, 5th ed. (Leipzig: Bibliographisches Institut); via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "stepped-reckoner.png"
+		}
+	]
+}

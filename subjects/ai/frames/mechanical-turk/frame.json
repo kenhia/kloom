@@ -1,0 +1,102 @@
+{
+	"id": "mechanical-turk",
+	"position": {
+		"label": "1770",
+		"sort": 1770
+	},
+	"scene": {
+		"headline": "There was a man",
+		"accent": "INSIDE.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"VIENNA · WOLFGANG VON KEMPELEN · 1770",
+			"A CABINET, A FIGURE, A HIDDEN CHESS MASTER"
+		],
+		"counter": {
+			"value": "84",
+			"label": "years on show as an automaton"
+		}
+	},
+	"sources": [
+		{
+			"title": "Mechanical Turk — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Mechanical_Turk"
+		},
+		{
+			"title": "Edgar Allan Poe, Maelzel's Chess-Player",
+			"url": "https://www.eapoe.org/works/essays/maelzel.htm",
+			"note": "Southern Literary Messenger, April 1836; text from the Edgar Allan Poe Society of Baltimore"
+		},
+		{
+			"title": "Claude E. Shannon, Programming a Computer for Playing Chess",
+			"url": "https://doi.org/10.1080/14786445008521796",
+			"note": "Philosophical Magazine, ser. 7, 1950"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Mechanical Turk",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mechanical_Turk&oldid=1376154564",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "article",
+			"title": "Maelzel's Chess-Player",
+			"url": "https://www.eapoe.org/works/essays/maelzel.htm",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Poe",
+					"given": "Edgar Allan"
+				}
+			],
+			"container": "Southern Literary Messenger",
+			"published": "1836-04",
+			"volume": "2",
+			"pages": "318–26"
+		},
+		{
+			"kind": "article",
+			"title": "Programming a Computer for Playing Chess",
+			"url": "https://doi.org/10.1080/14786445008521796",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Shannon",
+					"given": "Claude E."
+				}
+			],
+			"container": "Philosophical Magazine, ser. 7",
+			"published": "1950-03",
+			"volume": "41",
+			"issue": "314",
+			"pages": "256–75"
+		},
+		{
+			"kind": "media",
+			"title": "The Turk with its hidden player, as Racknitz imagined him: plate III of his reconstruction",
+			"url": "https://commons.wikimedia.org/wiki/File:Racknitz_-_The_Turk_3.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Racknitz",
+					"given": "Joseph Friedrich"
+				}
+			],
+			"container": "In Racknitz, Ueber den Schachspieler des Herrn von Kempelen und dessen Nachbildung; Humboldt University Library, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "racknitz-turk.jpg",
+			"published": "1789"
+		}
+	]
+}

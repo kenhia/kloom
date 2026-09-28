@@ -1,0 +1,224 @@
+{
+	"id": "deep-belief-nets",
+	"position": {
+		"label": "2006",
+		"sort": 2006
+	},
+	"scene": {
+		"headline": "We went",
+		"accent": "DEEP.",
+		"palette": "whitepaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TORONTO · SINGAPORE",
+			"HINTON · OSINDERO · TEH",
+			"STACKED RBM LAYERS · GREEDY PRETRAINING · CIFAR"
+		],
+		"counter": {
+			"value": "1.25%",
+			"label": "errors on handwritten digits, 2006"
+		}
+	},
+	"sources": [
+		{
+			"title": "Deep belief network — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Deep_belief_network"
+		},
+		{
+			"title": "Geoffrey Hinton — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton"
+		},
+		{
+			"title": "Deep learning — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Deep_learning"
+		},
+		{
+			"title": "Canadian Institute for Advanced Research — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Canadian_Institute_for_Advanced_Research"
+		},
+		{
+			"title": "Geoffrey E. Hinton, Simon Osindero, Yee-Whye Teh, A Fast Learning Algorithm for Deep Belief Nets",
+			"url": "https://doi.org/10.1162/neco.2006.18.7.1527",
+			"note": "Neural Computation"
+		},
+		{
+			"title": "G. E. Hinton, R. R. Salakhutdinov, Reducing the Dimensionality of Data with Neural Networks",
+			"url": "https://doi.org/10.1126/science.1127647",
+			"note": "Science"
+		},
+		{
+			"title": "Kathleen Sandusky, Long-Time CIFAR Fellow Geoffrey Hinton Awarded 2024 Nobel Prize in Physics",
+			"url": "https://cifar.ca/cifarnews/2024/10/08/long-time-cifar-fellow-geoffrey-hinton-awarded-2024-nobel-prize-in-physics/",
+			"note": "CIFAR"
+		},
+		{
+			"title": "The Nobel Committee for Physics, Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
+			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
+			"note": "The Royal Swedish Academy of Sciences"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Deep belief network",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deep_belief_network&oldid=1342493920",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Geoffrey Hinton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Geoffrey_Hinton&oldid=1376212023",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Deep learning",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deep_learning&oldid=1373512453",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Canadian Institute for Advanced Research",
+			"url": "https://en.wikipedia.org/w/index.php?title=Canadian_Institute_for_Advanced_Research&oldid=1370720026",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "article",
+			"title": "A Fast Learning Algorithm for Deep Belief Nets",
+			"url": "https://doi.org/10.1162/neco.2006.18.7.1527",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Hinton",
+					"given": "Geoffrey E."
+				},
+				{
+					"family": "Osindero",
+					"given": "Simon"
+				},
+				{
+					"family": "Teh",
+					"given": "Yee-Whye"
+				}
+			],
+			"container": "Neural Computation",
+			"volume": "18",
+			"issue": "7",
+			"pages": "1527–54",
+			"published": "2006"
+		},
+		{
+			"kind": "article",
+			"title": "Reducing the Dimensionality of Data with Neural Networks",
+			"url": "https://doi.org/10.1126/science.1127647",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Hinton",
+					"given": "G. E."
+				},
+				{
+					"family": "Salakhutdinov",
+					"given": "R. R."
+				}
+			],
+			"container": "Science",
+			"volume": "313",
+			"issue": "5786",
+			"pages": "504–7",
+			"published": "2006-07-28"
+		},
+		{
+			"kind": "web",
+			"title": "Long-Time CIFAR Fellow Geoffrey Hinton Awarded 2024 Nobel Prize in Physics",
+			"url": "https://cifar.ca/cifarnews/2024/10/08/long-time-cifar-fellow-geoffrey-hinton-awarded-2024-nobel-prize-in-physics/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Sandusky",
+					"given": "Kathleen"
+				}
+			],
+			"container": "CIFAR News",
+			"publisher": "CIFAR",
+			"published": "2024-10-08"
+		},
+		{
+			"kind": "web",
+			"title": "Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
+			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "The Nobel Committee for Physics"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "The Royal Swedish Academy of Sciences",
+			"published": "2024-10-08"
+		},
+		{
+			"kind": "media",
+			"title": "MNIST test error of learning methods with no knowledge of image geometry built in",
+			"url": "https://doi.org/10.1162/neco.2006.18.7.1527",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Hinton, Osindero and Teh (2006), table 1",
+			"licence": "MIT",
+			"file": "mnist-error.svg"
+		},
+		{
+			"kind": "media",
+			"title": "Geoffrey Hinton at the 2024 Nobel Lectures, Stockholm University",
+			"url": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_at_the_2024_Nobel_Lectures.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Dixit",
+					"given": "Jay"
+				}
+			],
+			"published": "2024-12-08",
+			"container": "Photograph, WikiPortraits at the 2024 Nobel Prizes; via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "hinton-nobel-lecture.jpg"
+		}
+	]
+}

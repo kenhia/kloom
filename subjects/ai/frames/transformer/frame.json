@@ -1,0 +1,170 @@
+{
+	"id": "transformer",
+	"position": {
+		"label": "Transformers"
+	},
+	"scene": {
+		"headline": "We paid",
+		"accent": "ATTENTION.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GOOGLE BRAIN · GOOGLE RESEARCH · 2017",
+			"SELF-ATTENTION · NO RECURRENCE · EIGHT HEADS"
+		],
+		"counter": {
+			"value": "3.5",
+			"label": "days to train, on eight GPUs"
+		}
+	},
+	"sources": [
+		{
+			"title": "Attention Is All You Need — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need"
+		},
+		{
+			"title": "Vaswani et al., Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"note": "Advances in Neural Information Processing Systems 30 (NIPS 2017), 2017"
+		},
+		{
+			"title": "Bahdanau et al., Neural Machine Translation by Jointly Learning to Align and Translate",
+			"url": "https://arxiv.org/abs/1409.0473",
+			"note": "arXiv preprint 1409.0473, 2014"
+		},
+		{
+			"title": "Radford et al., Language Models are Unsupervised Multitask Learners",
+			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+			"note": "OpenAI technical report, 2019"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Attention Is All You Need",
+			"url": "https://en.wikipedia.org/w/index.php?title=Attention_Is_All_You_Need&oldid=1376556785",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "article",
+			"title": "Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Vaswani",
+					"given": "Ashish"
+				},
+				{
+					"family": "Shazeer",
+					"given": "Noam"
+				},
+				{
+					"family": "Parmar",
+					"given": "Niki"
+				},
+				{
+					"family": "Uszkoreit",
+					"given": "Jakob"
+				},
+				{
+					"family": "Jones",
+					"given": "Llion"
+				},
+				{
+					"family": "Gomez",
+					"given": "Aidan N."
+				},
+				{
+					"family": "Kaiser",
+					"given": "Łukasz"
+				},
+				{
+					"family": "Polosukhin",
+					"given": "Illia"
+				}
+			],
+			"container": "Advances in Neural Information Processing Systems 30 (NIPS 2017)",
+			"published": "2017"
+		},
+		{
+			"kind": "article",
+			"title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+			"url": "https://arxiv.org/abs/1409.0473",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Bahdanau",
+					"given": "Dzmitry"
+				},
+				{
+					"family": "Cho",
+					"given": "Kyunghyun"
+				},
+				{
+					"family": "Bengio",
+					"given": "Yoshua"
+				}
+			],
+			"container": "arXiv preprint 1409.0473",
+			"published": "2014"
+		},
+		{
+			"kind": "article",
+			"title": "Language Models are Unsupervised Multitask Learners",
+			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Radford",
+					"given": "Alec"
+				},
+				{
+					"family": "Wu",
+					"given": "Jeffrey"
+				},
+				{
+					"family": "Child",
+					"given": "Rewon"
+				},
+				{
+					"family": "Luan",
+					"given": "David"
+				},
+				{
+					"family": "Amodei",
+					"given": "Dario"
+				},
+				{
+					"family": "Sutskever",
+					"given": "Ilya"
+				}
+			],
+			"container": "OpenAI technical report",
+			"published": "2019"
+		},
+		{
+			"kind": "media",
+			"title": "The transformer’s full encoder–decoder architecture, from Illustrations for the Transformer and the attention mechanism",
+			"url": "https://commons.wikimedia.org/wiki/File:Transformer,_full_architecture.png",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "dvgodoy"
+				}
+			],
+			"published": "2021-06-06",
+			"container": "Diagram from the dl-visuals collection (github.com/dvgodoy/dl-visuals); via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "transformer-architecture.png"
+		}
+	]
+}

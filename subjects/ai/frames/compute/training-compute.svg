@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t d">
+<title id="t">Training compute of notable AI models, 2012–2026 (log scale)</title>
+<desc id="d">Bar chart on a logarithmic scale, in floating-point operations (FLOP). AlexNet (2012) 4.7e17; Seq2Seq LSTM (2014) 5.6e19; Transformer (2017) 7.4e18; AlphaGo Zero (2017) 6.5e20; BERT-Large (2018) 2.9e20; GPT-3 (2020) 3.1e23; PaLM (2022) 2.5e24; GPT-4 (2023) about 2.1e25; Llama 3.1 405B (2024) 3.8e25; Grok 3 (2025) about 3.5e26; GPT-6 Astra (2026) about 1e27. Data: Epoch AI, Data on AI models (CC BY 4.0), accessed 27 September 2026; several values are Epoch's estimates.</desc>
+<rect width="720" height="320" fill="#f7f6f2"/>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#625f70">
+<line x1="64" x2="700" y1="270.0" y2="270.0" stroke="#625f70" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="274.0" text-anchor="end">10¹⁶</text>
+<line x1="64" x2="700" y1="211.5" y2="211.5" stroke="#625f70" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="215.5" text-anchor="end">10¹⁹</text>
+<line x1="64" x2="700" y1="153.0" y2="153.0" stroke="#625f70" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="157.0" text-anchor="end">10²²</text>
+<line x1="64" x2="700" y1="94.5" y2="94.5" stroke="#625f70" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="98.5" text-anchor="end">10²⁵</text>
+<line x1="64" x2="700" y1="36.0" y2="36.0" stroke="#625f70" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">10²⁸</text>
+<rect x="75.9" y="237.4" width="34" height="32.6" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="92.9" y="231.4" text-anchor="middle" fill="#1b1a24">4.7e17</text>
+<text x="92.9" y="286" text-anchor="middle" fill="#1b1a24">AlexNet</text>
+<text x="92.9" y="300" text-anchor="middle" font-size="9">2012</text>
+<rect x="133.7" y="196.9" width="34" height="73.1" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="150.7" y="190.9" text-anchor="middle" fill="#1b1a24">5.6e19</text>
+<text x="150.7" y="286" text-anchor="middle" fill="#1b1a24">Seq2Seq</text>
+<text x="150.7" y="300" text-anchor="middle" font-size="9">2014</text>
+<rect x="191.5" y="214.0" width="34" height="56.0" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="208.5" y="208.0" text-anchor="middle" fill="#1b1a24">7.4e18</text>
+<text x="208.5" y="286" text-anchor="middle" fill="#1b1a24">Transf.</text>
+<text x="208.5" y="300" text-anchor="middle" font-size="9">2017</text>
+<rect x="249.4" y="176.1" width="34" height="93.9" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="266.4" y="170.1" text-anchor="middle" fill="#1b1a24">6.5e20</text>
+<text x="266.4" y="286" text-anchor="middle" fill="#1b1a24">AGZero</text>
+<text x="266.4" y="300" text-anchor="middle" font-size="9">2017</text>
+<rect x="307.2" y="183.1" width="34" height="86.9" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="324.2" y="177.1" text-anchor="middle" fill="#1b1a24">2.9e20</text>
+<text x="324.2" y="286" text-anchor="middle" fill="#1b1a24">BERT-L</text>
+<text x="324.2" y="300" text-anchor="middle" font-size="9">2018</text>
+<rect x="365.0" y="123.8" width="34" height="146.2" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="382.0" y="117.8" text-anchor="middle" fill="#1b1a24">3.1e23</text>
+<text x="382.0" y="286" text-anchor="middle" fill="#1b1a24">GPT-3</text>
+<text x="382.0" y="300" text-anchor="middle" font-size="9">2020</text>
+<rect x="422.8" y="106.1" width="34" height="163.9" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="439.8" y="100.1" text-anchor="middle" fill="#1b1a24">2.5e24</text>
+<text x="439.8" y="286" text-anchor="middle" fill="#1b1a24">PaLM</text>
+<text x="439.8" y="300" text-anchor="middle" font-size="9">2022</text>
+<rect x="480.6" y="88.2" width="34" height="181.8" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="497.6" y="82.2" text-anchor="middle" fill="#1b1a24">~2e25</text>
+<text x="497.6" y="286" text-anchor="middle" fill="#1b1a24">GPT-4</text>
+<text x="497.6" y="300" text-anchor="middle" font-size="9">2023</text>
+<rect x="538.5" y="83.2" width="34" height="186.8" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="555.5" y="77.2" text-anchor="middle" fill="#1b1a24">3.8e25</text>
+<text x="555.5" y="286" text-anchor="middle" fill="#1b1a24">Llama3.1</text>
+<text x="555.5" y="300" text-anchor="middle" font-size="9">2024</text>
+<rect x="596.3" y="64.4" width="34" height="205.6" fill="#1b1a24" fill-opacity="0.85"/>
+<text x="613.3" y="58.4" text-anchor="middle" fill="#1b1a24">~3e26</text>
+<text x="613.3" y="286" text-anchor="middle" fill="#1b1a24">Grok 3</text>
+<text x="613.3" y="300" text-anchor="middle" font-size="9">2025</text>
+<rect x="654.1" y="55.5" width="34" height="214.5" fill="#5236c9" fill-opacity="1"/>
+<text x="671.1" y="49.5" text-anchor="middle" fill="#1b1a24">~1e27</text>
+<text x="671.1" y="286" text-anchor="middle" fill="#1b1a24">GPT-6A</text>
+<text x="671.1" y="300" text-anchor="middle" font-size="9">2026</text>
+<text x="64" y="20" font-size="12" fill="#1b1a24" letter-spacing="1">TRAINING COMPUTE · FLOP · LOG SCALE</text>
+</g></svg>

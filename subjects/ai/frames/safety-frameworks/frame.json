@@ -1,0 +1,299 @@
+{
+	"id": "safety-frameworks",
+	"position": {
+		"label": "Frontier safety frameworks"
+	},
+	"asOf": "2026-09-27",
+	"scene": {
+		"headline": "We set our own",
+		"accent": "THRESHOLDS.",
+		"palette": "whitepaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SEOUL · MAY 2024 · FRONTIER AI SAFETY COMMITMENTS",
+			"RESPONSIBLE SCALING · PREPAREDNESS · FRONTIER SAFETY"
+		],
+		"counter": {
+			"value": "20",
+			"label": "companies signed the Seoul commitments"
+		}
+	},
+	"sources": [
+		{
+			"title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
+			"url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+			"note": "Anthropic, 2026-02-24"
+		},
+		{
+			"title": "Anthropic’s Responsible Scaling Policy: Updates",
+			"url": "https://www.anthropic.com/rsp-updates",
+			"note": "Anthropic, 2026-07-08"
+		},
+		{
+			"title": "Our Updated Preparedness Framework",
+			"url": "https://openai.com/index/updating-our-preparedness-framework/",
+			"note": "OpenAI, 2025-04-15"
+		},
+		{
+			"title": "Pacing Model Development in an Era of Cyber-Critical Capabilities",
+			"url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+			"note": "OpenAI, 2026-08-18"
+		},
+		{
+			"title": "Path to Astra: Critical Capabilities and Frontier Safeguards",
+			"url": "https://openai.com/index/path-to-astra/",
+			"note": "OpenAI, 2026-09-01"
+		},
+		{
+			"title": "Anca Dragan, Helen King and Allan Dafoe, Introducing the Frontier Safety Framework",
+			"url": "https://deepmind.google/blog/introducing-the-frontier-safety-framework/",
+			"note": "Google DeepMind, 2024-05-17"
+		},
+		{
+			"title": "Four Flynn, Helen King and Anca Dragan, Strengthening Our Frontier Safety Framework",
+			"url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/",
+			"note": "Google DeepMind, 2025-09-22"
+		},
+		{
+			"title": "Department for Science, Innovation and Technology, Frontier AI Safety Commitments, AI Seoul Summit 2024",
+			"url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+			"note": "GOV.UK, 2024-05-21"
+		},
+		{
+			"title": "Frontier AI Safety Policies",
+			"url": "https://metr.org/fsp",
+			"note": "METR, 2026"
+		},
+		{
+			"title": "Sophie Williams and Jonas Freund, Anthropic’s RSP v3.0: How It Works, What’s Changed, and Some Reflections",
+			"url": "https://www.governance.ai/analysis/anthropics-rsp-v3-0-how-it-works-whats-changed-and-some-reflections",
+			"note": "Centre for the Governance of AI, 2026-03-05"
+		},
+		{
+			"title": "Bengio, Yoshua, et al., International AI Safety Report 2026: Extended Summary for Policymakers",
+			"url": "https://internationalaisafetyreport.org/publication/2026-report-extended-summary-policymakers",
+			"note": "International AI Safety Report, 2026-02-03"
+		},
+		{
+			"title": "Regulation of artificial intelligence in the United States — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence_in_the_United_States"
+		},
+		{
+			"title": "AI Seoul Summit 2024 — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/AI_Seoul_Summit_2024"
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
+			"url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2026-02-24"
+		},
+		{
+			"kind": "web",
+			"title": "Anthropic’s Responsible Scaling Policy: Updates",
+			"url": "https://www.anthropic.com/rsp-updates",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2026-07-08"
+		},
+		{
+			"kind": "web",
+			"title": "Our Updated Preparedness Framework",
+			"url": "https://openai.com/index/updating-our-preparedness-framework/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2025-04-15"
+		},
+		{
+			"kind": "web",
+			"title": "Pacing Model Development in an Era of Cyber-Critical Capabilities",
+			"url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "web",
+			"title": "Path to Astra: Critical Capabilities and Frontier Safeguards",
+			"url": "https://openai.com/index/path-to-astra/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing the Frontier Safety Framework",
+			"url": "https://deepmind.google/blog/introducing-the-frontier-safety-framework/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Dragan",
+					"given": "Anca"
+				},
+				{
+					"family": "King",
+					"given": "Helen"
+				},
+				{
+					"family": "Dafoe",
+					"given": "Allan"
+				}
+			],
+			"container": "Google DeepMind",
+			"published": "2024-05-17"
+		},
+		{
+			"kind": "web",
+			"title": "Strengthening Our Frontier Safety Framework",
+			"url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Flynn",
+					"given": "Four"
+				},
+				{
+					"family": "King",
+					"given": "Helen"
+				},
+				{
+					"family": "Dragan",
+					"given": "Anca"
+				}
+			],
+			"container": "Google DeepMind",
+			"published": "2025-09-22"
+		},
+		{
+			"kind": "web",
+			"title": "Frontier AI Safety Commitments, AI Seoul Summit 2024",
+			"url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Department for Science, Innovation and Technology"
+				}
+			],
+			"container": "GOV.UK",
+			"published": "2024-05-21"
+		},
+		{
+			"kind": "web",
+			"title": "Frontier AI Safety Policies",
+			"url": "https://metr.org/fsp",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "METR"
+				}
+			],
+			"container": "METR",
+			"published": "2026"
+		},
+		{
+			"kind": "web",
+			"title": "Anthropic’s RSP v3.0: How It Works, What’s Changed, and Some Reflections",
+			"url": "https://www.governance.ai/analysis/anthropics-rsp-v3-0-how-it-works-whats-changed-and-some-reflections",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Williams",
+					"given": "Sophie"
+				},
+				{
+					"family": "Freund",
+					"given": "Jonas"
+				}
+			],
+			"container": "Centre for the Governance of AI",
+			"published": "2026-03-05"
+		},
+		{
+			"kind": "web",
+			"title": "International AI Safety Report 2026: Extended Summary for Policymakers",
+			"url": "https://internationalaisafetyreport.org/publication/2026-report-extended-summary-policymakers",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Bengio",
+					"given": "Yoshua"
+				}
+			],
+			"container": "International AI Safety Report",
+			"published": "2026-02-03",
+			"etAl": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Regulation of artificial intelligence in the United States",
+			"url": "https://en.wikipedia.org/w/index.php?title=Regulation_of_artificial_intelligence_in_the_United_States&oldid=1377064913",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AI Seoul Summit 2024",
+			"url": "https://en.wikipedia.org/w/index.php?title=AI_Seoul_Summit_2024&oldid=1377101179",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Michelle Donelan and Lee Jong-ho at the AI Seoul Summit, 22 May 2024",
+			"url": "https://commons.wikimedia.org/wiki/File:UK_Government_and_the_Republic_of_Korea_host_AI_Summit_in_Seoul,_Korea_on_22_May_2024_-_1.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Zoe-Rose Herbert / Department for Science, Innovation and Technology"
+				}
+			],
+			"published": "2024-05-22",
+			"container": "Department for Science, Innovation and Technology, Flickr; via Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "seoul-summit.jpg"
+		}
+	]
+}

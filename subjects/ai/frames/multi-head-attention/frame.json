@@ -1,0 +1,161 @@
+{
+	"id": "multi-head-attention",
+	"position": {
+		"label": "Multi-head attention"
+	},
+	"scene": {
+		"headline": "Some heads learned to",
+		"accent": "COPY.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": ["HEADS IN PARALLEL · INDUCTION HEADS", "COST GROWS AS n²"],
+		"counter": {
+			"value": "128",
+			"label": "attention heads per layer, Llama 3 405B"
+		}
+	},
+	"sources": [
+		{
+			"title": "Ashish Vaswani et al., Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"note": "NeurIPS 2017"
+		},
+		{
+			"title": "Nelson Elhage et al., A Mathematical Framework for Transformer Circuits",
+			"url": "https://transformer-circuits.pub/2021/framework/index.html",
+			"note": "Transformer Circuits Thread, 2021"
+		},
+		{
+			"title": "Catherine Olsson et al., In-context Learning and Induction Heads",
+			"url": "https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html",
+			"note": "Transformer Circuits Thread, 2022"
+		},
+		{
+			"title": "Llama Team, AI @ Meta, The Llama 3 Herd of Models",
+			"url": "https://arxiv.org/abs/2407.21783"
+		},
+		{
+			"title": "Transformer (deep learning) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Vaswani",
+					"given": "Ashish"
+				},
+				{
+					"family": "Shazeer",
+					"given": "Noam"
+				},
+				{
+					"family": "Parmar",
+					"given": "Niki"
+				},
+				{
+					"family": "Uszkoreit",
+					"given": "Jakob"
+				},
+				{
+					"family": "Jones",
+					"given": "Llion"
+				},
+				{
+					"family": "Gomez",
+					"given": "Aidan N."
+				},
+				{
+					"family": "Kaiser",
+					"given": "Łukasz"
+				},
+				{
+					"family": "Polosukhin",
+					"given": "Illia"
+				}
+			],
+			"published": "2017",
+			"container": "Advances in Neural Information Processing Systems 30",
+			"volume": "30"
+		},
+		{
+			"kind": "web",
+			"title": "A Mathematical Framework for Transformer Circuits",
+			"url": "https://transformer-circuits.pub/2021/framework/index.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Elhage",
+					"given": "Nelson"
+				}
+			],
+			"container": "Transformer Circuits Thread",
+			"publisher": "Anthropic",
+			"published": "2021-12-22",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "In-context Learning and Induction Heads",
+			"url": "https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Olsson",
+					"given": "Catherine"
+				}
+			],
+			"container": "Transformer Circuits Thread",
+			"publisher": "Anthropic",
+			"published": "2022-03-08",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "The Llama 3 Herd of Models",
+			"url": "https://arxiv.org/abs/2407.21783",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Llama Team, AI @ Meta"
+				}
+			],
+			"published": "2024",
+			"container": "arXiv"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transformer (deep learning)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transformer_(deep_learning)&oldid=1377087904",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Multi-headed attention, block diagram",
+			"url": "https://commons.wikimedia.org/wiki/File:Multiheaded_attention,_block_diagram.png",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "dvgodoy"
+				}
+			],
+			"published": "2021-06-06",
+			"container": "From the dl-visuals collection (github.com/dvgodoy/dl-visuals); via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "multi-head-diagram.png"
+		}
+	]
+}

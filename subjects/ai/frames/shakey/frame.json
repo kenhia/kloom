@@ -1,0 +1,246 @@
+{
+	"id": "shakey",
+	"position": {
+		"label": "1966–72",
+		"sort": 1966
+	},
+	"scene": {
+		"headline": "The robot became a",
+		"accent": "PLANNER.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MENLO PARK CA · STANFORD RESEARCH INSTITUTE",
+			"STRIPS · A* · HOUGH TRANSFORM · PLANEX"
+		],
+		"counter": {
+			"value": "6",
+			"label": "rooms in Shakey's world"
+		}
+	},
+	"sources": [
+		{
+			"title": "Shakey the robot — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Shakey_the_robot"
+		},
+		{
+			"title": "A* search algorithm — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/A*_search_algorithm"
+		},
+		{
+			"title": "Hough transform — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Hough_transform"
+		},
+		{
+			"title": "Stanford Research Institute Problem Solver — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver"
+		},
+		{
+			"title": "History of artificial intelligence — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+		},
+		{
+			"title": "Benjamin Kuipers, Edward A. Feigenbaum, Peter E. Hart, Nils J. Nilsson, “Shakey: From Conception to History”",
+			"url": "https://doi.org/10.1609/aimag.v38i1.2716",
+			"note": "AI Magazine, 2017"
+		},
+		{
+			"title": "Peter E. Hart, Nils J. Nilsson, Bertram Raphael, “A Formal Basis for the Heuristic Determination of Minimum Cost Paths”",
+			"url": "https://doi.org/10.1109/TSSC.1968.300136",
+			"note": "IEEE Transactions on Systems Science and Cybernetics, 1968"
+		},
+		{
+			"title": "Richard E. Fikes, Nils J. Nilsson, “STRIPS: A New Approach to the Application of Theorem Proving to Problem Solving”",
+			"url": "https://doi.org/10.1016/0004-3702(71)90010-5",
+			"note": "Artificial Intelligence, 1971"
+		},
+		{
+			"title": "Richard O. Duda, Peter E. Hart, “Use of the Hough Transformation to Detect Lines and Curves in Pictures”",
+			"url": "https://doi.org/10.1145/361237.361242",
+			"note": "Communications of the ACM, 1972"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Shakey the robot",
+			"url": "https://en.wikipedia.org/w/index.php?title=Shakey_the_robot&oldid=1340026653",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A* search algorithm",
+			"url": "https://en.wikipedia.org/w/index.php?title=A%2A_search_algorithm&oldid=1374050155",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hough transform",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hough_transform&oldid=1367924421",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stanford Research Institute Problem Solver",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stanford_Research_Institute_Problem_Solver&oldid=1254516245",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-10-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of artificial intelligence",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "article",
+			"title": "Shakey: From Conception to History",
+			"url": "https://doi.org/10.1609/aimag.v38i1.2716",
+			"authors": [
+				{
+					"family": "Kuipers",
+					"given": "Benjamin"
+				},
+				{
+					"family": "Feigenbaum",
+					"given": "Edward A."
+				},
+				{
+					"family": "Hart",
+					"given": "Peter E."
+				},
+				{
+					"family": "Nilsson",
+					"given": "Nils J."
+				}
+			],
+			"container": "AI Magazine",
+			"volume": "38",
+			"issue": "1",
+			"pages": "88–103",
+			"published": "2017",
+			"accessed": "2026-09-27"
+		},
+		{
+			"kind": "article",
+			"title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths",
+			"url": "https://doi.org/10.1109/TSSC.1968.300136",
+			"authors": [
+				{
+					"family": "Hart",
+					"given": "Peter E."
+				},
+				{
+					"family": "Nilsson",
+					"given": "Nils J."
+				},
+				{
+					"family": "Raphael",
+					"given": "Bertram"
+				}
+			],
+			"container": "IEEE Transactions on Systems Science and Cybernetics",
+			"volume": "4",
+			"issue": "2",
+			"pages": "100–107",
+			"published": "1968",
+			"accessed": "2026-09-27"
+		},
+		{
+			"kind": "article",
+			"title": "STRIPS: A New Approach to the Application of Theorem Proving to Problem Solving",
+			"url": "https://doi.org/10.1016/0004-3702(71)90010-5",
+			"authors": [
+				{
+					"family": "Fikes",
+					"given": "Richard E."
+				},
+				{
+					"family": "Nilsson",
+					"given": "Nils J."
+				}
+			],
+			"container": "Artificial Intelligence",
+			"volume": "2",
+			"issue": "3–4",
+			"pages": "189–208",
+			"published": "1971",
+			"accessed": "2026-09-27"
+		},
+		{
+			"kind": "article",
+			"title": "Use of the Hough Transformation to Detect Lines and Curves in Pictures",
+			"url": "https://doi.org/10.1145/361237.361242",
+			"authors": [
+				{
+					"family": "Duda",
+					"given": "Richard O."
+				},
+				{
+					"family": "Hart",
+					"given": "Peter E."
+				}
+			],
+			"container": "Communications of the ACM",
+			"volume": "15",
+			"issue": "1",
+			"pages": "11–15",
+			"published": "1972",
+			"accessed": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Shakey the robot, with its components labelled",
+			"url": "https://commons.wikimedia.org/wiki/File:SRI_Shakey_with_callouts.jpg",
+			"authors": [
+				{
+					"name": "SRI International"
+				}
+			],
+			"published": "1972",
+			"container": "Photograph, SRI International; via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "shakey-callouts.jpg",
+			"accessed": "2026-09-27"
+		}
+	]
+}

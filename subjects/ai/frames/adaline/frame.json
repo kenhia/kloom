@@ -1,0 +1,153 @@
+{
+	"id": "adaline",
+	"position": {
+		"label": "1960",
+		"sort": 1960
+	},
+	"scene": {
+		"headline": "We learned from our",
+		"accent": "ERRORS.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": ["STANFORD · BERNARD WIDROW · TED HOFF", "LMS · DELTA RULE · MEMISTOR"],
+		"counter": {
+			"value": "1,000",
+			"label": "memistor weights in the largest MADALINE"
+		}
+	},
+	"sources": [
+		{
+			"title": "ADALINE — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/ADALINE"
+		},
+		{
+			"title": "Bernard Widrow — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Bernard_Widrow"
+		},
+		{
+			"title": "Marcian Hoff — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Marcian_Hoff"
+		},
+		{
+			"title": "Least mean squares filter — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Least_mean_squares_filter"
+		},
+		{
+			"title": "Echo suppression and cancellation — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Echo_suppression_and_cancellation"
+		},
+		{
+			"title": "Bernard Widrow, Michael A. Lehr, 30 Years of Adaptive Neural Networks: Perceptron, Madaline, and Backpropagation",
+			"url": "https://doi.org/10.1109/5.58323",
+			"note": "Proceedings of the IEEE"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "ADALINE",
+			"url": "https://en.wikipedia.org/w/index.php?title=ADALINE&oldid=1315790227",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bernard Widrow",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bernard_Widrow&oldid=1372838042",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marcian Hoff",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marcian_Hoff&oldid=1375083194",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Least mean squares filter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Least_mean_squares_filter&oldid=1367260916",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Echo suppression and cancellation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Echo_suppression_and_cancellation&oldid=1376891725",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "article",
+			"title": "30 Years of Adaptive Neural Networks: Perceptron, Madaline, and Backpropagation",
+			"url": "https://doi.org/10.1109/5.58323",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Widrow",
+					"given": "Bernard"
+				},
+				{
+					"family": "Lehr",
+					"given": "Michael A."
+				}
+			],
+			"container": "Proceedings of the IEEE",
+			"volume": "78",
+			"issue": "9",
+			"pages": "1415–42",
+			"published": "1990"
+		},
+		{
+			"kind": "media",
+			"title": "The “Knobby ADALINE” at the Stanford Electronics Laboratories",
+			"url": "https://commons.wikimedia.org/wiki/File:Knobby_ADALINE.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Stanford Today"
+				}
+			],
+			"published": "1963-09",
+			"container": "Photograph in Stanford Today magazine (Stanford University), 1963; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "knobby-adaline.jpg"
+		}
+	]
+}

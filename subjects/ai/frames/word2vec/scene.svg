@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M100 40 L100 250 M130 40 L130 250 M160 40 L160 250 M190 40 L190 250 M220 40 L220 250 M250 40 L250 250 M280 40 L280 250 M310 40 L310 250 M340 40 L340 250 M370 40 L370 250 M70 220 L380 220 M70 190 L380 190 M70 160 L380 160 M70 130 L380 130 M70 100 L380 100 M70 70 L380 70 M70 40 L380 40"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M70 30 L70 250 L390 250"/>
+		<path pathLength="1" d="M66 36 L70 30 L74 36 M384 246 L390 250 L384 254"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M70 250 L150 200 M70 250 L205 150 M70 250 L285 170 M70 250 L340 120"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M150 200 L205 150 M202.1 156.4 L205 150 L198.4 152.3"/>
+		<path pathLength="1" d="M285 170 L344 123 M340.7 129.1 L344 123 L337.3 124.9"/>
+		<path pathLength="1" d="M150 200 L285 170"/>
+		<path pathLength="1" d="M205 150 L340 120"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M146 200 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M201 150 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M281 170 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M336 120 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M335 123 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+	</g>
+	<g>
+		<text x="142" y="216" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MAN</text>
+		<text x="189" y="140" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WOMAN</text>
+		<text x="291" y="186" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KING</text>
+		<text x="334" y="104" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">QUEEN</text>
+		<text x="70" y="22" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KING − MAN + WOMAN ≈ QUEEN</text>
+	</g>
+</svg>

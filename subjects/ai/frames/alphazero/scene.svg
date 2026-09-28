@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M34 150 L80 36 M80 36 L126 22 M80 36 L126 29 M80 36 L126 36 M80 36 L126 43 M80 36 L126 50 M34 150 L80 74 M80 74 L126 60 M80 74 L126 67 M80 74 L126 74 M80 74 L126 81 M80 74 L126 88 M34 150 L80 112 M80 112 L126 98 M80 112 L126 105 M80 112 L126 112 M80 112 L126 119 M80 112 L126 126 M34 150 L80 150 M80 150 L126 136 M80 150 L126 143 M80 150 L126 150 M80 150 L126 157 M80 150 L126 164 M34 150 L80 188 M80 188 L126 174 M80 188 L126 181 M80 188 L126 188 M80 188 L126 195 M80 188 L126 202 M34 150 L80 226 M80 226 L126 212 M80 226 L126 219 M80 226 L126 226 M80 226 L126 233 M80 226 L126 240 M34 150 L80 264 M80 264 L126 250 M80 264 L126 257 M80 264 L126 264 M80 264 L126 271 M80 264 L126 278"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M34 150 L62 112 L90 124 L118 118 L146 128 L174 124 L202 130 L230 127"/>
+		<path pathLength="1" d="M34 150 L62 188 L90 180 L118 194 L146 188"/>
+		<path pathLength="1" d="M31 150 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M59 112 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M87 124 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M115 118 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M143 128 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M171 124 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M199 130 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M227 127 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M59 188 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M87 180 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M115 194 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M143 188 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M34 150 L52 138 M62 112 L80 124 M90 124 L108 112 M118 118 L136 130 M146 128 L164 116 M174 124 L192 136 M202 130 L220 118 M90 180 L108 194"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M260 150 a58 58 0 1 0 116 0 a58 58 0 1 0 -116 0"/>
+		<path pathLength="1" d="M318 92 L318 134"/>
+		<path pathLength="1" d="M318 166 L318 208"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M296 134 L340 134 L340 166 L296 166 Z"/>
+		<path pathLength="1" d="M312 92 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0"/>
+		<path pathLength="1" d="M312 208 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M374.7 175.8 L368.2 179 L367.8 171.8"/>
+		<path pathLength="1" d="M261.3 124.2 L267.8 121 L268.2 128.2"/>
+		<path pathLength="1" d="M236 127 C260 127 258 150 296 150"/>
+	</g>
+	<g>
+		<text x="318" y="153" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">p, v</text>
+		<text x="318" y="80" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TRAIN</text>
+		<text x="318" y="226" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SELF-PLAY</text>
+	</g>
+</svg>

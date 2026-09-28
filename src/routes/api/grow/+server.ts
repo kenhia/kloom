@@ -1,27 +1,27 @@
 import { error, json } from '@sveltejs/kit';
-import { basename } from 'node:path';
 import { GROW_VERBS, type GrowVerb } from '$engine/ai/grow';
 import { ANSWER_ID } from '$engine/ai/kept';
 import { loadAppConfig, resolveModel } from '$lib/server/app-config';
 import { providerFor } from '$lib/server/ask';
-import { subjectDir } from '$lib/server/config';
 import { growQueue, readKept } from '$lib/server/grow-service';
 import { mainSpineFrames } from '$lib/server/grow';
-import { servedSubject } from '$lib/server/subject';
+import { requireSubjectDir, servedSubject } from '$lib/server/subject';
 import type { RequestHandler } from './$types';
 
 /** Longest request accepted, in characters. */
 const MAX_REQUEST = 2000;
 
-/** The recent grow jobs, newest first; the AI pane polls this while one runs. */
-export const GET: RequestHandler = async () => {
-	const queue = growQueue();
+/** A subject's recent grow jobs (`?subject=`), newest first; the AI pane polls this while one runs. */
+export const GET: RequestHandler = async ({ url }) => {
+	const name = url.searchParams.get('subject');
+	await requireSubjectDir(name);
+	const queue = growQueue(name!);
 	await queue.load();
 	return json({ jobs: queue.list(10) }, { headers: { 'cache-control': 'no-store' } });
 };
 
 /**
- * Queue a grow job: `{verb, frame, request, kept, model}`. The anchor is the
+ * Queue a grow job: `{subject, verb, frame, request, kept, model}`. The anchor is the
  * frame, or the kept answer's own frame; the model is honoured only if the
  * app config lists it, and is fixed for the job from here on.
  */
@@ -35,8 +35,8 @@ export const POST: RequestHandler = async ({ request }) => {
 	const text = typeof body?.request === 'string' ? body.request.trim() : '';
 	if (text.length > MAX_REQUEST) error(400, `Requests are limited to ${MAX_REQUEST} characters.`);
 
-	const subject = await servedSubject();
-	const name = basename(subjectDir());
+	const subject = await servedSubject(body?.subject);
+	const name = subject.id;
 	let anchor = typeof body?.frame === 'string' ? body.frame : '';
 	let kept: string | null = null;
 	if (body?.kept !== undefined && body.kept !== null) {
@@ -52,7 +52,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		error(400, 'A trail branches from a frame on the main spine.');
 
 	try {
-		const job = await growQueue().add({
+		const job = await growQueue(name).add({
 			subject: name,
 			verb,
 			anchor,

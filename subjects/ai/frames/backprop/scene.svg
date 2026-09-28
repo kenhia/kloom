@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 30 L40 270 M130 30 L130 270 M220 30 L220 270"/>
+		<path pathLength="1" d="M20 136 L240 136"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M40 52 L130 80 M40 52 L130 136 M40 52 L130 192 M40 108 L130 80 M40 108 L130 136 M40 108 L130 192 M40 164 L130 80 M40 164 L130 136 M40 164 L130 192 M40 220 L130 80 M40 220 L130 136 M40 220 L130 192 M130 80 L220 108 M130 80 L220 164 M130 136 L220 108 M130 136 L220 164 M130 192 L220 108 M130 192 L220 164"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M31 52 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M31 108 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M31 164 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M31 220 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M121 80 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M121 136 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M121 192 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M211 108 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M211 164 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M212 252 Q175.0 276 138 252"/>
+		<path pathLength="1" d="M143 252.4 L138 252"/>
+		<path pathLength="1" d="M140.1 256.5 L138 252"/>
+		<path pathLength="1" d="M122 252 Q85.0 276 48 252"/>
+		<path pathLength="1" d="M53 252.4 L48 252"/>
+		<path pathLength="1" d="M50.1 256.5 L48 252"/>
+		<path pathLength="1" d="M60 22 Q130 4 200 22"/>
+		<path pathLength="1" d="M195.1 22.9 L200 22"/>
+		<path pathLength="1" d="M196.8 18.2 L200 22"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M268 210 L380 210"/>
+		<path pathLength="1" d="M268 98 L380 98"/>
+		<path pathLength="1" d="M324 216 L324 92"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M268 209.7 L269.9 209.7 L271.7 209.6 L273.6 209.5 L275.5 209.4 L277.3 209.3 L279.2 209.1 L281.1 208.9 L282.9 208.6 L284.8 208.3 L286.7 208 L288.5 207.5 L290.4 207 L292.3 206.4 L294.1 205.6 L296 204.7 L297.9 203.6 L299.7 202.3 L301.6 200.7 L303.5 198.8 L305.3 196.6 L307.2 194.1 L309.1 191.2 L310.9 187.8 L312.8 184.1 L314.7 179.9 L316.5 175.3 L318.4 170.3 L320.3 165.1 L322.1 159.6 L324 154 L325.9 148.4 L327.7 142.9 L329.6 137.7 L331.5 132.7 L333.3 128.1 L335.2 123.9 L337.1 120.2 L338.9 116.8 L340.8 113.9 L342.7 111.4 L344.5 109.2 L346.4 107.3 L348.3 105.7 L350.1 104.4 L352 103.3 L353.9 102.4 L355.7 101.6 L357.6 101 L359.5 100.5 L361.3 100 L363.2 99.7 L365.1 99.4 L366.9 99.1 L368.8 98.9 L370.7 98.7 L372.5 98.6 L374.4 98.5 L376.3 98.4 L378.1 98.3 L380 98.3"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M280.7 260.1 L348.7 99.7"/>
+		<path pathLength="1" d="M312.2 179.9 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+	</g>
+	<g>
+		<text x="324" y="230" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">y = 1/(1+e⁻ˣ)</text>
+		<text x="324" y="86" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">y' = y(1−y)</text>
+		<text x="130" y="290" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">∂E/∂w · BACKWARD</text>
+		<text x="130" y="14" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FORWARD</text>
+		<text x="40" y="240" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IN</text>
+		<text x="130" y="240" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HIDDEN</text>
+		<text x="220" y="240" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OUT</text>
+	</g>
+</svg>

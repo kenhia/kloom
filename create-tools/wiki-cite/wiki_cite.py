@@ -6,7 +6,7 @@ Prints a JSON list, one kloom `wikipedia` citation per title, each pointing
 at the article's current revision (`oldid=`) and dated by it. Redirects are
 followed; a missing article is an error. Standard library only.
 """
-import argparse, datetime, json, sys, urllib.parse, urllib.request
+import argparse, datetime, json, sys, time, urllib.error, urllib.parse, urllib.request
 
 API = 'https://en.wikipedia.org/w/api.php'
 AGENT = 'kloom-create-tools/1.0 (https://github.com/kenhia/kloom)'
@@ -14,6 +14,18 @@ AGENT = 'kloom-create-tools/1.0 (https://github.com/kenhia/kloom)'
 
 def quote(title):
     return urllib.parse.quote(title.replace(' ', '_'), safe="_(),'")
+
+
+def get(url, tries=5):
+    """JSON from the API, waiting out a rate limit (429, honouring Retry-After) a few times."""
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': AGENT})
+            return json.load(urllib.request.urlopen(req, timeout=30))
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or attempt == tries - 1:
+                raise
+            time.sleep(float(e.headers.get('Retry-After') or 2 ** attempt))
 
 
 def revisions(titles):
@@ -25,8 +37,7 @@ def revisions(titles):
             'action': 'query', 'prop': 'revisions', 'rvprop': 'ids|timestamp',
             'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
         })
-        req = urllib.request.Request(f'{API}?{query}', headers={'User-Agent': AGENT})
-        data = json.load(urllib.request.urlopen(req, timeout=30))['query']
+        data = get(f'{API}?{query}')['query']
         renamed = {}
         for step in data.get('normalized', []) + data.get('redirects', []):
             renamed[step['from']] = step['to']

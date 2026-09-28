@@ -7,7 +7,7 @@ default:
     @just --list
 
 # Run type checks, formatting/lint checks and unit tests (content validation
-# included: the western-civ subject is loaded and validated by a test)
+# included: every subject under subjects/ is loaded and validated by a test)
 check:
     npm run check
     npm run lint

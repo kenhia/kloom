@@ -1,0 +1,32 @@
+{
+	"title": "Largest sparse-autoencoder dictionaries in three studies, 2023–2024, against the 512 neurons they started from",
+	"description": "Bar chart on a logarithmic scale. A one-layer transformer's MLP layer had 512 neurons; Bricken et al. (October 2023) decomposed it into up to 131,072 features. Templeton et al. (May 2024) trained a dictionary of 33,554,432 features on Claude 3 Sonnet, and Gao et al. (June 2024) one of about 16 million latents on GPT-4. Sources: the three papers.",
+	"heading": "FEATURES IN ONE DICTIONARY · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"colours": { "background": "#f7f6f2", "ink": "#1b1a24", "muted": "#625f70", "accent": "#5236c9" },
+	"axis": {
+		"min": 100,
+		"max": 100000000,
+		"ticks": [
+			[100, "100"],
+			[10000, "10K"],
+			[1000000, "1M"],
+			[100000000, "100M"]
+		]
+	},
+	"width": 520,
+	"barWidth": 60,
+	"bars": [
+		{ "label": "Neurons", "sublabel": "1-layer MLP", "value": 512, "display": "512" },
+		{ "label": "Anthropic", "sublabel": "Oct 2023", "value": 131072, "display": "131K" },
+		{
+			"label": "Anthropic",
+			"sublabel": "May 2024",
+			"value": 33554432,
+			"display": "34M",
+			"highlight": true
+		},
+		{ "label": "OpenAI", "sublabel": "Jun 2024", "value": 16000000, "display": "~16M" }
+	]
+}

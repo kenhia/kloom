@@ -1,0 +1,193 @@
+{
+	"id": "lstm",
+	"position": {
+		"label": "1997",
+		"sort": 1997
+	},
+	"scene": {
+		"headline": "We taught it to",
+		"accent": "REMEMBER.",
+		"palette": "printout",
+		"metadata": [
+			"MUNICH · LUGANO · SEPP HOCHREITER · JÜRGEN SCHMIDHUBER",
+			"CONSTANT ERROR CAROUSEL · GATES · THE VANISHING GRADIENT"
+		],
+		"counter": {
+			"value": "1,000",
+			"label": "time steps bridged"
+		},
+		"illustration": "scene.svg"
+	},
+	"sources": [
+		{
+			"title": "Sepp Hochreiter, Jürgen Schmidhuber, Long Short-Term Memory",
+			"url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+			"note": "Neural Computation, 1997"
+		},
+		{
+			"title": "Yonghui Wu et al., Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
+			"url": "https://arxiv.org/abs/1609.08144",
+			"note": "arXiv, 2016"
+		},
+		{
+			"title": "Haşim Sak et al., Google Voice Search: Faster and More Accurate",
+			"url": "https://research.google/blog/google-voice-search-faster-and-more-accurate/",
+			"note": "Google Research Blog, 2015"
+		},
+		{
+			"title": "Long short-term memory — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Long_short-term_memory"
+		},
+		{
+			"title": "Vanishing gradient problem — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Vanishing_gradient_problem"
+		},
+		{
+			"title": "Sepp Hochreiter — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Sepp_Hochreiter"
+		},
+		{
+			"title": "Deep Blue (chess computer) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Long Short-Term Memory",
+			"url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Hochreiter",
+					"given": "Sepp"
+				},
+				{
+					"family": "Schmidhuber",
+					"given": "Jürgen"
+				}
+			],
+			"container": "Neural Computation",
+			"volume": "9",
+			"issue": "8",
+			"pages": "1735–80",
+			"published": "1997-11"
+		},
+		{
+			"kind": "web",
+			"title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
+			"url": "https://arxiv.org/abs/1609.08144",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Wu",
+					"given": "Yonghui"
+				}
+			],
+			"container": "arXiv",
+			"published": "2016-09-26",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "Google Voice Search: Faster and More Accurate",
+			"url": "https://research.google/blog/google-voice-search-faster-and-more-accurate/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Sak",
+					"given": "Haşim"
+				},
+				{
+					"family": "Senior",
+					"given": "Andrew"
+				},
+				{
+					"family": "Rao",
+					"given": "Kanishka"
+				},
+				{
+					"family": "Beaufays",
+					"given": "Françoise"
+				},
+				{
+					"family": "Schalkwyk",
+					"given": "Johan"
+				}
+			],
+			"container": "Google Research Blog",
+			"published": "2015-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Long short-term memory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Long_short-term_memory&oldid=1368708291",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vanishing gradient problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vanishing_gradient_problem&oldid=1371947961",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sepp Hochreiter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sepp_Hochreiter&oldid=1373946247",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Deep Blue (chess computer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deep_Blue_(chess_computer)&oldid=1375427728",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Diagram of an LSTM cell with input, forget and output gates (the modern form)",
+			"url": "https://commons.wikimedia.org/wiki/File:NN_LSTM-Cell_v2.svg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Leouscin"
+				}
+			],
+			"published": "2025-12-12",
+			"container": "Diagram; via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "lstm-cell.png"
+		}
+	]
+}

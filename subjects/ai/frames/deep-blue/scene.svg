@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 44 L250 44 M20 108 L250 108 M20 172 L250 172 M20 236 L250 236"/>
+		<text x="16" y="111" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="16" y="175" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="16" y="239" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+	</g>
+	<g>
+		<path pathLength="1" d="M32.8 172 L24.3 236 M32.8 172 L32.8 236 M32.8 172 L41.3 236 M58.3 108 L32.8 172 M58.3 172 L49.8 236 M58.3 172 L58.3 236 M58.3 172 L66.9 236 M58.3 108 L58.3 172 M83.9 172 L75.4 236 M83.9 172 L83.9 236 M83.9 172 L92.4 236 M58.3 108 L83.9 172 M135 44 L58.3 108 M109.4 172 L100.9 236 M109.4 172 L109.4 236 M135 108 L109.4 172 M135 172 L126.5 236 M135 172 L135 236 M135 108 L135 172 M135 44 L135 108 M186.1 172 L177.6 236 M186.1 172 L186.1 236 M211.7 108 L186.1 172 M211.7 172 L203.1 236 M211.7 172 L211.7 236 M211.7 108 L211.7 172 M135 44 L211.7 108"/>
+		<path pathLength="1" d="M130 44 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M109.4 172 L118 236 M135 172 L143.5 236 M160.6 172 L152 236 M160.6 172 L160.6 236 M160.6 172 L169.1 236 M135 108 L160.6 172 M186.1 172 L194.6 236 M211.7 172 L220.2 236 M237.2 172 L228.7 236 M237.2 172 L237.2 236 M237.2 172 L245.7 236 M211.7 108 L237.2 172"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M106.9 194.6 L118.9 200.6 M132.4 194.6 L144.4 200.6 M139.2 130.6 L151.2 136.6 M183.5 194.6 L195.5 200.6 M209.1 194.6 L221.1 200.6 M215.9 130.6 L227.9 136.6"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M250 150 L386 150"/>
+		<path pathLength="1" d="M318 82 L318 218"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M266 98 L370 98 L370 202 L266 202 Z"/>
+		<path pathLength="1" d="M280.6 112.6 L355.4 112.6 L355.4 187.4 L280.6 187.4 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M289.9 112.6 L289.9 187.4 M299.3 112.6 L299.3 187.4 M308.6 112.6 L308.6 187.4 M318 112.6 L318 187.4 M327.4 112.6 L327.4 187.4 M336.7 112.6 L336.7 187.4 M346.1 112.6 L346.1 187.4 M280.6 121.9 L355.4 121.9 M280.6 131.3 L355.4 131.3 M280.6 140.6 L355.4 140.6 M280.6 150 L355.4 150 M280.6 159.4 L355.4 159.4 M280.6 168.7 L355.4 168.7 M280.6 178.1 L355.4 178.1"/>
+		<path pathLength="1" d="M271.2 98 L271.2 92 M271.2 202 L271.2 208 M266 103.2 L260 103.2 M370 103.2 L376 103.2 M281.6 98 L281.6 92 M281.6 202 L281.6 208 M266 113.6 L260 113.6 M370 113.6 L376 113.6 M292 98 L292 92 M292 202 L292 208 M266 124 L260 124 M370 124 L376 124 M302.4 98 L302.4 92 M302.4 202 L302.4 208 M266 134.4 L260 134.4 M370 134.4 L376 134.4 M312.8 98 L312.8 92 M312.8 202 L312.8 208 M266 144.8 L260 144.8 M370 144.8 L376 144.8 M323.2 98 L323.2 92 M323.2 202 L323.2 208 M266 155.2 L260 155.2 M370 155.2 L376 155.2 M333.6 98 L333.6 92 M333.6 202 L333.6 208 M266 165.6 L260 165.6 M370 165.6 L376 165.6 M344 98 L344 92 M344 202 L344 208 M266 176 L260 176 M370 176 L376 176 M354.4 98 L354.4 92 M354.4 202 L354.4 208 M266 186.4 L260 186.4 M370 186.4 L376 186.4 M364.8 98 L364.8 92 M364.8 202 L364.8 208 M266 196.8 L260 196.8 M370 196.8 L376 196.8"/>
+	</g>
+	<g>
+		<text x="135" y="262" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ALPHA–BETA · CUTOFFS</text>
+		<text x="318" y="236" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8×8 MOVE GENERATOR</text>
+		<text x="318" y="30" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">× 480 CHIPS</text>
+	</g>
+</svg>

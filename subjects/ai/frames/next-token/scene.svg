@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M24 191 L206 191 M24 146 L206 146 M24 101 L206 101 M24 56 L206 56"/>
+		<path pathLength="1" d="M30 236 L30 56 M64 236 L64 56 M98 236 L98 56 M132 236 L132 56 M166 236 L166 56 M200 236 L200 56"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M22 236 L208 236"/>
+		<path pathLength="1" d="M30 236 L30 85 L64 85 L64 215.6 L98 215.6 L98 228.5 L132 228.5 L132 235 L166 235 L166 235.9 L200 235.9 L200 236"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M30 236 L30 129.6 L64 129.6 L64 196.9 L98 196.9 L98 212.3 L132 212.3 L132 227.3 L166 227.3 L166 234.1 L200 234.1 L200 236"/>
+		<path pathLength="1" d="M30 236 L30 164 L64 164 L64 192.3 L98 192.3 L98 202 L132 202 L132 215.4 L166 215.4 L166 226.3 L200 226.3 L200 236"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M220 146 a82 82 0 1 0 164 0 a82 82 0 1 0 -164 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M232 146 a70 70 0 1 0 140 0 a70 70 0 1 0 -140 0"/>
+		<path pathLength="1" d="M302 146 L302 76 M302 146 L264 204.8 M302 146 L236.7 120.8 M302 146 L276.5 80.8 M302 146 L297.2 76.2"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M302 146 L366.1 206.2"/>
+		<path pathLength="1" d="M298 146 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g>
+		<text x="47" y="77" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">T 0.5</text>
+		<text x="183" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">moon</text>
+		<text x="47" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">mat</text>
+		<text x="302" y="248" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SAMPLE</text>
+	</g>
+</svg>

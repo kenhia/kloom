@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 256 L40 30 M104 256 L104 30 M168 256 L168 30 M232 256 L232 30 M296 256 L296 30 M360 256 L360 30"/>
+		<path pathLength="1" d="M40 216 L360 216 M40 182 L360 182 M40 148 L360 148 M40 114 L360 114 M40 80 L360 80 M40 46 L360 46"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M205.3 114 L205.3 105.5 M205.3 97 L205.3 88.5 M205.3 80 L213.3 80 M221.3 80 L229.3 80 M237.3 80 L245.3 80 M253.3 80 L261.3 80 M269.3 80 L269.3 71.5 M269.3 63 L269.3 54.5 M269.3 46 L278.5 46 M287.6 46 L296.8 46 M305.9 46 L315 46 M324.2 46 L333.3 46"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 250 L368 250"/>
+		<path pathLength="1" d="M77.3 250 L77.3 250 L77.3 216 L109.3 216 L109.3 182 L141.3 182 L141.3 148 L205.3 148 L205.3 114 L290.7 114 L290.7 80 L333.3 80 L333.3 46 L360 46"/>
+		<path pathLength="1" d="M74.3 216 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M106.3 182 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M138.3 148 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M202.3 114 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M287.7 80 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M330.3 46 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M209.3 72 L286.7 72"/>
+		<path pathLength="1" d="M286.7 72 L282.1 70"/>
+		<path pathLength="1" d="M286.7 72 L282.1 74"/>
+		<path pathLength="1" d="M273.3 38 L329.3 38"/>
+		<path pathLength="1" d="M329.3 38 L324.8 36"/>
+		<path pathLength="1" d="M329.3 38 L324.8 40"/>
+	</g>
+	<g>
+		<text x="72" y="266" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2024</text>
+		<text x="136" y="266" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2025</text>
+		<text x="200" y="266" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2026</text>
+		<text x="264" y="266" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2027</text>
+		<text x="328" y="266" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2028</text>
+		<text x="83.3" y="210" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IN FORCE</text>
+		<text x="115.3" y="176" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BANS</text>
+		<text x="147.3" y="142" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GPAI</text>
+		<text x="248" y="64" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DEFERRED</text>
+	</g>
+</svg>

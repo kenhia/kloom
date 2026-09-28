@@ -1,0 +1,192 @@
+{
+	"id": "turing-machine",
+	"position": {
+		"label": "1936",
+		"sort": 1936
+	},
+	"scene": {
+		"headline": "We built a machine of",
+		"accent": "PAPER.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · ALAN TURING · PRINCETON · ALONZO CHURCH",
+			"TAPE · SCANNED SQUARE · M-CONFIGURATIONS"
+		],
+		"counter": {
+			"value": "23",
+			"label": "Turing’s age when he sent the paper in"
+		}
+	},
+	"sources": [
+		{
+			"title": "Turing machine — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Turing_machine"
+		},
+		{
+			"title": "Turing's proof — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Turing's_proof"
+		},
+		{
+			"title": "Halting problem — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Halting_problem"
+		},
+		{
+			"title": "Church–Turing thesis — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis"
+		},
+		{
+			"title": "Alan Turing — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Alan_Turing"
+		},
+		{
+			"title": "Universal Turing machine — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Universal_Turing_machine"
+		},
+		{
+			"title": "A. M. Turing, On Computable Numbers, with an Application to the Entscheidungsproblem",
+			"url": "https://doi.org/10.1112/plms/s2-42.1.230",
+			"note": "Proceedings of the London Mathematical Society, 1937"
+		},
+		{
+			"title": "Alonzo Church, An Unsolvable Problem of Elementary Number Theory",
+			"url": "https://doi.org/10.2307/2371045",
+			"note": "American Journal of Mathematics, 1936-04"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Turing machine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Turing_machine&oldid=1373616450",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Turing's proof",
+			"url": "https://en.wikipedia.org/w/index.php?title=Turing's_proof&oldid=1365864943",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Halting problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Halting_problem&oldid=1374089520",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Church–Turing thesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Church%E2%80%93Turing_thesis&oldid=1375011838",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alan Turing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alan_Turing&oldid=1377040312",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Universal Turing machine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Universal_Turing_machine&oldid=1377070305",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "article",
+			"title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+			"url": "https://doi.org/10.1112/plms/s2-42.1.230",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Turing",
+					"given": "A. M."
+				}
+			],
+			"container": "Proceedings of the London Mathematical Society",
+			"volume": "s2-42",
+			"issue": "1",
+			"pages": "230–65",
+			"published": "1937"
+		},
+		{
+			"kind": "article",
+			"title": "An Unsolvable Problem of Elementary Number Theory",
+			"url": "https://doi.org/10.2307/2371045",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Church",
+					"given": "Alonzo"
+				}
+			],
+			"container": "American Journal of Mathematics",
+			"volume": "58",
+			"issue": "2",
+			"pages": "345–63",
+			"published": "1936-04"
+		},
+		{
+			"kind": "media",
+			"title": "Alan Turing at Princeton University, 1936",
+			"url": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1912-1954)_in_1936_at_Princeton_University.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Unknown photographer"
+				}
+			],
+			"published": "1936",
+			"container": "Photograph, Princeton University Archives; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "turing-1936.jpg"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 44 L360 44 M40 76 L360 76"/>
+		<path pathLength="1" d="M70 28 L70 82 M128 28 L128 82 M186 28 L186 82 M244 28 L244 82 M302 28 L302 82"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M70 44 L70 30 M128 44 L128 30 M186 44 L186 30 M244 44 L244 30 M302 44 L302 30 M79 76 L79 62 M137 76 L137 62 M195 76 L195 62 M253 76 L253 62 M311 76 L311 62"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M72 186 a16 16 0 1 0 32 0 a16 16 0 1 0 -32 0"/>
+		<path pathLength="1" d="M77.7 198.3 L62.3 216.6 M62.3 216.6 L60 227.4 M62.3 216.6 L52.1 220.8 M72 186 L48 186 M48 186 L38.3 191.2 M48 186 L38.3 180.8 M77.7 173.7 L62.3 155.4 M62.3 155.4 L52.1 151.2 M62.3 155.4 L60 144.6 M88 170 L88 146 M88 146 L82.8 136.3 M88 146 L93.2 136.3"/>
+		<path pathLength="1" d="M270 190 a22 22 0 1 0 44 0 a22 22 0 1 0 -44 0"/>
+		<path pathLength="1" d="M303 170.9 L315 150.2 M315 150.2 L315.4 139.2 M315 150.2 L324.3 144.3 M313.7 186.2 L337.3 182 M337.3 182 L346 175.2 M337.3 182 L347.8 185.4 M308.9 204.1 L327.2 219.6 M327.2 219.6 L338 221.9 M327.2 219.6 L331.4 229.8 M292 212 L292 236 M292 236 L297.2 245.7 M292 236 L286.8 245.7"/>
+		<path pathLength="1" d="M104 186 C158 160 182 212 260 188"/>
+		<path pathLength="1" d="M259.5 187 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M253.5 187 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M256 196 L222 228.1"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M162 250 a34 34 0 1 0 68 0 a34 34 0 1 0 -68 0"/>
+		<path pathLength="1" d="M215.8 279 L215.1 277.9 L214.6 276.8 L214 275.7 L213.4 274.5 L212.9 273.4 L212.4 272.2 L211.9 271 L211.5 269.8 L211.1 268.6 L210.7 267.4 L210.3 266.2 L210 265 L209.7 263.8 L209.4 262.6 L209.1 261.3 L208.9 260.1 L208.7 258.8 L208.5 257.6 L208.3 256.3 L208.2 255.1 L208.1 253.8 L208.1 252.5 L208 251.3 L208 250 L208 248.7 L208.1 247.5 L208.1 246.2 L208.2 244.9 L208.3 243.7 L208.5 242.4 L208.7 241.2 L208.9 239.9 L209.1 238.7 L209.4 237.4 L209.7 236.2 L210 235 L210.3 233.8 L210.7 232.6 L211.1 231.4 L211.5 230.2 L211.9 229 L212.4 227.8 L212.9 226.6 L213.4 225.5 L214 224.3 L214.6 223.2 L215.1 222.1 L215.8 221"/>
+		<path pathLength="1" d="M164 246 L186 246"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M190 240 L190.5 240 L191 240.1 L191.6 240.2 L192.1 240.3 L192.6 240.5 L193.1 240.8 L193.5 241 L194 241.3 L194.4 241.7 L194.9 242.1 L195.3 242.5 L195.7 242.9 L196 243.4 L196.3 243.9 L196.7 244.4 L196.9 245 L197.2 245.6 L197.4 246.2 L197.6 246.8 L197.7 247.4 L197.8 248 L197.9 248.7 L198 249.3 L198 250 L198 250.7 L197.9 251.3 L197.8 252 L197.7 252.6 L197.6 253.2 L197.4 253.8 L197.2 254.4 L196.9 255 L196.7 255.6 L196.3 256.1 L196 256.6 L195.7 257.1 L195.3 257.5 L194.9 257.9 L194.4 258.3 L194 258.7 L193.5 259 L193.1 259.2 L192.6 259.5 L192.1 259.7 L191.6 259.8 L191 259.9 L190.5 260 L190 260"/>
+		<path pathLength="1" d="M186 240 L190 240"/>
+		<path pathLength="1" d="M186 260 L190 260"/>
+	</g>
+	<g>
+		<text x="30" y="41" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="30" y="73" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="88" y="230" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CELL A</text>
+		<text x="322" y="248" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CELL B</text>
+		<text x="242" y="276" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KNOB GROWS</text>
+		<text x="360" y="96" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A FIRES JUST BEFORE B</text>
+	</g>
+</svg>

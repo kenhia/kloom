@@ -1,0 +1,268 @@
+{
+	"id": "next-token",
+	"position": {
+		"label": "Next-token prediction"
+	},
+	"scene": {
+		"headline": "Then it rolls the",
+		"accent": "DICE.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": ["LOGITS → SOFTMAX → SAMPLE", "CROSS-ENTROPY · KV CACHE · CONTEXT WINDOW"],
+		"counter": {
+			"value": "128K",
+			"label": "tokens of context, Llama 3 (2024)"
+		}
+	},
+	"sources": [
+		{
+			"title": "Ari Holtzman et al., The Curious Case of Neural Text Degeneration",
+			"url": "https://arxiv.org/abs/1904.09751",
+			"note": "ICLR 2020"
+		},
+		{
+			"title": "Ashish Vaswani et al., Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"note": "NeurIPS 2017"
+		},
+		{
+			"title": "Alec Radford et al., Language Models Are Unsupervised Multitask Learners (GPT-2)",
+			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+			"note": "OpenAI, 2019"
+		},
+		{
+			"title": "Tom B. Brown et al., Language Models Are Few-Shot Learners (GPT-3)",
+			"url": "https://arxiv.org/abs/2005.14165",
+			"note": "NeurIPS 2020"
+		},
+		{
+			"title": "Hugo Touvron et al., Llama 2: Open Foundation and Fine-Tuned Chat Models",
+			"url": "https://arxiv.org/abs/2307.09288"
+		},
+		{
+			"title": "Llama Team, AI @ Meta, The Llama 3 Herd of Models",
+			"url": "https://arxiv.org/abs/2407.21783"
+		},
+		{
+			"title": "Gemini Team, Google, Gemini 1.5: Unlocking Multimodal Understanding across Millions of Tokens of Context",
+			"url": "https://arxiv.org/abs/2403.05530"
+		},
+		{
+			"title": "Softmax function — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Softmax_function"
+		},
+		{
+			"title": "Transformer (deep learning) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "The Curious Case of Neural Text Degeneration",
+			"url": "https://arxiv.org/abs/1904.09751",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Holtzman",
+					"given": "Ari"
+				},
+				{
+					"family": "Buys",
+					"given": "Jan"
+				},
+				{
+					"family": "Du",
+					"given": "Li"
+				},
+				{
+					"family": "Forbes",
+					"given": "Maxwell"
+				},
+				{
+					"family": "Choi",
+					"given": "Yejin"
+				}
+			],
+			"published": "2020",
+			"container": "International Conference on Learning Representations (ICLR 2020)"
+		},
+		{
+			"kind": "article",
+			"title": "Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Vaswani",
+					"given": "Ashish"
+				},
+				{
+					"family": "Shazeer",
+					"given": "Noam"
+				},
+				{
+					"family": "Parmar",
+					"given": "Niki"
+				},
+				{
+					"family": "Uszkoreit",
+					"given": "Jakob"
+				},
+				{
+					"family": "Jones",
+					"given": "Llion"
+				},
+				{
+					"family": "Gomez",
+					"given": "Aidan N."
+				},
+				{
+					"family": "Kaiser",
+					"given": "Łukasz"
+				},
+				{
+					"family": "Polosukhin",
+					"given": "Illia"
+				}
+			],
+			"published": "2017",
+			"container": "Advances in Neural Information Processing Systems 30",
+			"volume": "30"
+		},
+		{
+			"kind": "web",
+			"title": "Language Models Are Unsupervised Multitask Learners",
+			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Radford",
+					"given": "Alec"
+				},
+				{
+					"family": "Wu",
+					"given": "Jeffrey"
+				},
+				{
+					"family": "Child",
+					"given": "Rewon"
+				},
+				{
+					"family": "Luan",
+					"given": "David"
+				},
+				{
+					"family": "Amodei",
+					"given": "Dario"
+				},
+				{
+					"family": "Sutskever",
+					"given": "Ilya"
+				}
+			],
+			"publisher": "OpenAI",
+			"published": "2019"
+		},
+		{
+			"kind": "article",
+			"title": "Language Models Are Few-Shot Learners",
+			"url": "https://arxiv.org/abs/2005.14165",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Brown",
+					"given": "Tom B."
+				}
+			],
+			"published": "2020",
+			"container": "Advances in Neural Information Processing Systems 33",
+			"volume": "33",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+			"url": "https://arxiv.org/abs/2307.09288",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Touvron",
+					"given": "Hugo"
+				}
+			],
+			"published": "2023",
+			"container": "arXiv",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "The Llama 3 Herd of Models",
+			"url": "https://arxiv.org/abs/2407.21783",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Llama Team, AI @ Meta"
+				}
+			],
+			"published": "2024",
+			"container": "arXiv"
+		},
+		{
+			"kind": "article",
+			"title": "Gemini 1.5: Unlocking Multimodal Understanding across Millions of Tokens of Context",
+			"url": "https://arxiv.org/abs/2403.05530",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Gemini Team, Google"
+				}
+			],
+			"published": "2024",
+			"container": "arXiv"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Softmax function",
+			"url": "https://en.wikipedia.org/w/index.php?title=Softmax_function&oldid=1375000286",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transformer (deep learning)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transformer_(deep_learning)&oldid=1377087904",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Softmax at three temperatures over five toy logits",
+			"url": "https://arxiv.org/abs/1904.09751",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom: invented logits, softmax with temperature as defined in Holtzman et al. (2020), §3.3",
+			"licence": "MIT",
+			"file": "temperature.svg"
+		}
+	]
+}

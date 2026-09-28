@@ -75,6 +75,11 @@ export interface FrameFile {
 	 * uses needs a `media` entry here.
 	 */
 	citations?: Citation[];
+	/**
+	 * `YYYY-MM` or `YYYY-MM-DD`: when a time-sensitive frame (the current state
+	 * of something) was last true. Shown in the reading pane, and given to ask.
+	 */
+	asOf?: string;
 }
 
 /** A frame ready to render: both halves, markdown already turned to HTML. */

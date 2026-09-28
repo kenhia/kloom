@@ -1,0 +1,141 @@
+{
+	"id": "mcculloch-pitts",
+	"position": {
+		"label": "1943",
+		"sort": 1943
+	},
+	"scene": {
+		"headline": "We drew the neuron as a",
+		"accent": "GATE.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CHICAGO · WARREN McCULLOCH · WALTER PITTS",
+			"FIRING OR QUIET · THRESHOLD · INHIBITORY VETO"
+		],
+		"counter": {
+			"value": "20",
+			"label": "Walter Pitts’s age when the paper appeared"
+		}
+	},
+	"sources": [
+		{
+			"title": "A Logical Calculus of the Ideas Immanent in Nervous Activity — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/A_Logical_Calculus_of_the_Ideas_Immanent_in_Nervous_Activity"
+		},
+		{
+			"title": "Artificial neuron — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Artificial_neuron"
+		},
+		{
+			"title": "Walter Pitts — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Walter_Pitts"
+		},
+		{
+			"title": "Warren Sturgis McCulloch — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Warren_Sturgis_McCulloch"
+		},
+		{
+			"title": "Warren S. McCulloch, Walter Pitts, A Logical Calculus of the Ideas Immanent in Nervous Activity",
+			"url": "https://doi.org/10.1007/BF02478259",
+			"note": "The Bulletin of Mathematical Biophysics, 1943-12"
+		},
+		{
+			"title": "Alan Turing — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Alan_Turing"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+			"url": "https://en.wikipedia.org/w/index.php?title=A_Logical_Calculus_of_the_Ideas_Immanent_in_Nervous_Activity&oldid=1360606199",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Artificial neuron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Artificial_neuron&oldid=1376065223",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Walter Pitts",
+			"url": "https://en.wikipedia.org/w/index.php?title=Walter_Pitts&oldid=1375521299",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Warren Sturgis McCulloch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Warren_Sturgis_McCulloch&oldid=1375521309",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "article",
+			"title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+			"url": "https://doi.org/10.1007/BF02478259",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "McCulloch",
+					"given": "Warren S."
+				},
+				{
+					"family": "Pitts",
+					"given": "Walter"
+				}
+			],
+			"container": "The Bulletin of Mathematical Biophysics",
+			"volume": "5",
+			"issue": "4",
+			"pages": "115–33",
+			"published": "1943-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alan Turing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alan_Turing&oldid=1377040312",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		}
+	]
+}

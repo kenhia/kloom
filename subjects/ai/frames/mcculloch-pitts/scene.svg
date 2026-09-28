@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 156 L380 156"/>
+		<path pathLength="1" d="M70 40 L70 262"/>
+		<path pathLength="1" d="M200 40 L200 262"/>
+		<path pathLength="1" d="M330 40 L330 262"/>
+		<path pathLength="1" d="M20 64 L380 64 M20 240 L380 240"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M50 156 a20 20 0 1 0 40 0 a20 20 0 1 0 -40 0"/>
+		<path pathLength="1" d="M70 176 L70 240"/>
+		<path pathLength="1" d="M67 234.8 L70 240 L73 234.8"/>
+		<path pathLength="1" d="M180 156 a20 20 0 1 0 40 0 a20 20 0 1 0 -40 0"/>
+		<path pathLength="1" d="M200 176 L200 240"/>
+		<path pathLength="1" d="M197 234.8 L200 240 L203 234.8"/>
+		<path pathLength="1" d="M310 156 a20 20 0 1 0 40 0 a20 20 0 1 0 -40 0"/>
+		<path pathLength="1" d="M330 176 L330 240"/>
+		<path pathLength="1" d="M327 234.8 L330 240 L333 234.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M36 64 L60 128.4"/>
+		<path pathLength="1" d="M55.4 124.5 L60 128.4 L61 122.5"/>
+		<path pathLength="1" d="M104 64 L80 128.4"/>
+		<path pathLength="1" d="M79 122.5 L80 128.4 L84.6 124.5"/>
+		<path pathLength="1" d="M166 64 L190 128.4"/>
+		<path pathLength="1" d="M185.4 124.5 L190 128.4 L191 122.5"/>
+		<path pathLength="1" d="M234 64 L210 128.4"/>
+		<path pathLength="1" d="M209 122.5 L210 128.4 L214.6 124.5"/>
+		<path pathLength="1" d="M330 64 L330 126"/>
+		<path pathLength="1" d="M326 130 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g>
+		<text x="70" y="160" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">θ = 2</text>
+		<text x="70" y="282" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AND</text>
+		<text x="200" y="160" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">θ = 1</text>
+		<text x="200" y="282" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OR</text>
+		<text x="330" y="160" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">θ = 0</text>
+		<text x="330" y="282" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NOT</text>
+		<text x="36" y="56" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x</text>
+		<text x="104" y="56" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">y</text>
+		<text x="166" y="56" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x</text>
+		<text x="234" y="56" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">y</text>
+		<text x="330" y="56" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x</text>
+		<text x="390" y="60" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t</text>
+		<text x="390" y="236" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t+1</text>
+	</g>
+</svg>

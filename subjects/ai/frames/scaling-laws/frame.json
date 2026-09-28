@@ -1,0 +1,217 @@
+{
+	"id": "scaling-laws",
+	"position": {
+		"label": "Scaling laws"
+	},
+	"scene": {
+		"headline": "We found the",
+		"accent": "CURVE.",
+		"palette": "whitepaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"OPENAI · 2020 · DEEPMIND · 2022",
+			"LOSS AS A POWER LAW · PARAMETERS · DATA · COMPUTE"
+		],
+		"counter": {
+			"value": "20",
+			"label": "training tokens per parameter"
+		}
+	},
+	"sources": [
+		{
+			"title": "Neural scaling law — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Neural_scaling_law"
+		},
+		{
+			"title": "Chinchilla (language model) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Chinchilla_(language_model)"
+		},
+		{
+			"title": "Kaplan et al., Scaling Laws for Neural Language Models",
+			"url": "https://arxiv.org/abs/2001.08361",
+			"note": "arXiv preprint 2001.08361, 2020"
+		},
+		{
+			"title": "Hoffmann et al., Training Compute-Optimal Large Language Models",
+			"url": "https://arxiv.org/abs/2203.15556",
+			"note": "arXiv preprint 2203.15556, 2022"
+		},
+		{
+			"title": "Touvron et al., LLaMA: Open and Efficient Foundation Language Models",
+			"url": "https://arxiv.org/abs/2302.13971",
+			"note": "arXiv preprint 2302.13971, 2023"
+		},
+		{
+			"title": "Besiroglu et al., Chinchilla Scaling: A replication attempt",
+			"url": "https://arxiv.org/abs/2404.10102",
+			"note": "Epoch AI; arXiv preprint 2404.10102, 2024"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Neural scaling law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neural_scaling_law&oldid=1376311545",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chinchilla (language model)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chinchilla_(language_model)&oldid=1360908667",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-24"
+		},
+		{
+			"kind": "article",
+			"title": "Scaling Laws for Neural Language Models",
+			"url": "https://arxiv.org/abs/2001.08361",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Kaplan",
+					"given": "Jared"
+				},
+				{
+					"family": "McCandlish",
+					"given": "Sam"
+				},
+				{
+					"family": "Henighan",
+					"given": "Tom"
+				},
+				{
+					"family": "Brown",
+					"given": "Tom B."
+				},
+				{
+					"family": "Chess",
+					"given": "Benjamin"
+				},
+				{
+					"family": "Child",
+					"given": "Rewon"
+				},
+				{
+					"family": "Gray",
+					"given": "Scott"
+				},
+				{
+					"family": "Radford",
+					"given": "Alec"
+				},
+				{
+					"family": "Wu",
+					"given": "Jeffrey"
+				},
+				{
+					"family": "Amodei",
+					"given": "Dario"
+				}
+			],
+			"container": "arXiv preprint 2001.08361",
+			"published": "2020"
+		},
+		{
+			"kind": "article",
+			"title": "Training Compute-Optimal Large Language Models",
+			"url": "https://arxiv.org/abs/2203.15556",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Hoffmann",
+					"given": "Jordan"
+				},
+				{
+					"family": "Borgeaud",
+					"given": "Sebastian"
+				},
+				{
+					"family": "Mensch",
+					"given": "Arthur"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint 2203.15556",
+			"published": "2022"
+		},
+		{
+			"kind": "article",
+			"title": "LLaMA: Open and Efficient Foundation Language Models",
+			"url": "https://arxiv.org/abs/2302.13971",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Touvron",
+					"given": "Hugo"
+				},
+				{
+					"family": "Lavril",
+					"given": "Thibaut"
+				},
+				{
+					"family": "Izacard",
+					"given": "Gautier"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint 2302.13971",
+			"published": "2023"
+		},
+		{
+			"kind": "article",
+			"title": "Chinchilla Scaling: A replication attempt",
+			"url": "https://arxiv.org/abs/2404.10102",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Besiroglu",
+					"given": "Tamay"
+				},
+				{
+					"family": "Erdil",
+					"given": "Ege"
+				},
+				{
+					"family": "Barnett",
+					"given": "Matthew"
+				},
+				{
+					"family": "You",
+					"given": "Josh"
+				}
+			],
+			"container": "Epoch AI; arXiv preprint 2404.10102",
+			"published": "2024"
+		},
+		{
+			"kind": "media",
+			"title": "Training tokens per parameter in four language models, 2020–2023",
+			"url": "https://arxiv.org/abs/2203.15556",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Hoffmann et al. (2022), table 1, and Touvron et al. (2023), table 2",
+			"licence": "MIT",
+			"file": "tokens-per-parameter.svg"
+		}
+	]
+}

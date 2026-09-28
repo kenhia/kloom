@@ -1,10 +1,9 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import type { AiOffer } from '../ai/provider';
 	import type { Subject, Trail } from '../model';
 	import { clamp, indexLabel, stops, WheelGate, type SyncMode } from '../navigation';
 	import { pageKey } from '../keys';
-	import { paletteFor, paletteMode } from '../settings';
+	import { followSpine, paletteFor, paletteMode } from '../settings';
 	import type { UserSettings } from '../user-settings.svelte';
 	import AiPane from './AiPane.svelte';
 	import Narrative from './Narrative.svelte';
@@ -25,12 +24,9 @@
 
 	let { subject, settings, ai = { web: 'deny' }, ongrown, active = true }: Props = $props();
 
-	const SYNC_KEY = 'kloom.sync';
-
 	let trailId = $state<string | null>(null);
 	let index = $state(0);
-	let sync = $state<SyncMode>('manual');
-	/** What the narrative shows in manual mode; follow mode ignores it. */
+	/** What the narrative shows when it does not follow the spine. */
 	let pinned = $state<string | null>(null);
 
 	let narrativeEl = $state<HTMLElement>();
@@ -40,6 +36,8 @@
 	const path = $derived(stops(trail ? trail.spine : subject.spine));
 	const stop = $derived(path[clamp(index, path.length)]);
 	const frame = $derived(subject.frames[stop.frameId]);
+	/** A reader setting (§Interaction): the narrative follows the spine unless they said not to. */
+	const sync = $derived<SyncMode>(settings.get(followSpine.id) === 'manual' ? 'manual' : 'follow');
 	const palette = $derived(
 		paletteFor(subject, frame.scene.palette, settings.get(paletteMode.id) ?? paletteMode.default)
 	);
@@ -59,12 +57,10 @@
 		wasActive = active;
 	});
 
-	onMount(() => {
-		try {
-			if (localStorage.getItem(SYNC_KEY) === 'follow') sync = 'follow';
-		} catch {
-			// Storage can be blocked; the default is fine.
-		}
+	// While following, the pin tracks the spine, so turning following off
+	// leaves the reading where it is rather than on some older frame.
+	$effect(() => {
+		if (sync === 'follow') pinned = stop.frameId;
 	});
 
 	const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -77,16 +73,6 @@
 
 	function syncNarrative() {
 		pinned = stop.frameId;
-	}
-
-	function setSync(mode: SyncMode) {
-		sync = mode;
-		pinned = stop.frameId;
-		try {
-			localStorage.setItem(SYNC_KEY, mode);
-		} catch {
-			// Not remembered, still applied.
-		}
 	}
 
 	function enter(t: Trail) {
@@ -198,8 +184,6 @@
 		spineFrame={frame}
 		{sync}
 		trails={trail ? [] : trailsFrom(narrativeFrame.id)}
-		onsync={syncNarrative}
-		onsyncmode={setSync}
 		onenter={enter}
 		bind:element={narrativeEl}
 	>
@@ -207,6 +191,7 @@
 	</Narrative>
 
 	<AiPane
+		subject={subject.id}
 		frame={narrativeFrame}
 		{trail}
 		{settings}

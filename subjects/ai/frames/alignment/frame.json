@@ -1,0 +1,231 @@
+{
+	"id": "alignment",
+	"position": {
+		"label": "Alignment"
+	},
+	"asOf": "2026-09-27",
+	"scene": {
+		"headline": "We had to choose its",
+		"accent": "PURPOSE.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MIT · NORBERT WIENER · SCIENCE, 1960",
+			"OUTER ALIGNMENT · INNER ALIGNMENT · DECEPTIVE ALIGNMENT"
+		],
+		"counter": {
+			"value": "1960",
+			"label": "Wiener's warning, in Science"
+		}
+	},
+	"sources": [
+		{
+			"title": "Norbert Wiener, Some Moral and Technical Consequences of Automation",
+			"url": "https://doi.org/10.1126/science.131.3410.1355",
+			"note": "Science, 1960-05-06"
+		},
+		{
+			"title": "Stuart Russell, Of Myths and Moonshine",
+			"url": "https://www.edge.org/conversation/the-myth-of-ai",
+			"note": "Edge: The Myth of AI, 2014"
+		},
+		{
+			"title": "Hubinger, Evan, et al., Risks from Learned Optimization in Advanced Machine Learning Systems",
+			"url": "https://arxiv.org/abs/1906.01820",
+			"note": "arXiv, 2019-06-05"
+		},
+		{
+			"title": "Amodei, Dario, et al., Concrete Problems in AI Safety",
+			"url": "https://arxiv.org/abs/1606.06565",
+			"note": "arXiv, 2016-06-21"
+		},
+		{
+			"title": "Statement on AI Risk",
+			"url": "https://aistatement.com/",
+			"note": "Center for AI Safety, 2023-05-30"
+		},
+		{
+			"title": "Grace, Katja, et al., Thousands of AI Authors on the Future of AI",
+			"url": "https://arxiv.org/abs/2401.02843",
+			"note": "arXiv, 2024-01"
+		},
+		{
+			"title": "AI alignment — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/AI_alignment"
+		},
+		{
+			"title": "Statement on AI Extinction Risk — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Statement_on_AI_Extinction_Risk"
+		},
+		{
+			"title": "Existential risk from artificial intelligence — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence"
+		},
+		{
+			"title": "El Ajedrecista — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/El_Ajedrecista"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Some Moral and Technical Consequences of Automation",
+			"url": "https://doi.org/10.1126/science.131.3410.1355",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Wiener",
+					"given": "Norbert"
+				}
+			],
+			"container": "Science",
+			"published": "1960-05-06",
+			"volume": "131",
+			"issue": "3410",
+			"pages": "1355–58"
+		},
+		{
+			"kind": "web",
+			"title": "Of Myths and Moonshine",
+			"url": "https://www.edge.org/conversation/the-myth-of-ai",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Russell",
+					"given": "Stuart"
+				}
+			],
+			"container": "Edge: The Myth of AI",
+			"published": "2014"
+		},
+		{
+			"kind": "article",
+			"title": "Risks from Learned Optimization in Advanced Machine Learning Systems",
+			"url": "https://arxiv.org/abs/1906.01820",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Hubinger",
+					"given": "Evan"
+				}
+			],
+			"container": "arXiv",
+			"published": "2019-06-05",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "Concrete Problems in AI Safety",
+			"url": "https://arxiv.org/abs/1606.06565",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Amodei",
+					"given": "Dario"
+				}
+			],
+			"container": "arXiv",
+			"published": "2016-06-21",
+			"etAl": true
+		},
+		{
+			"kind": "web",
+			"title": "Statement on AI Risk",
+			"url": "https://aistatement.com/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Center for AI Safety"
+				}
+			],
+			"container": "Center for AI Safety",
+			"published": "2023-05-30"
+		},
+		{
+			"kind": "article",
+			"title": "Thousands of AI Authors on the Future of AI",
+			"url": "https://arxiv.org/abs/2401.02843",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Grace",
+					"given": "Katja"
+				}
+			],
+			"container": "arXiv",
+			"published": "2024-01",
+			"etAl": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AI alignment",
+			"url": "https://en.wikipedia.org/w/index.php?title=AI_alignment&oldid=1375975271",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Statement on AI Extinction Risk",
+			"url": "https://en.wikipedia.org/w/index.php?title=Statement_on_AI_Extinction_Risk&oldid=1375375498",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Existential risk from artificial intelligence",
+			"url": "https://en.wikipedia.org/w/index.php?title=Existential_risk_from_artificial_intelligence&oldid=1376908847",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "El Ajedrecista",
+			"url": "https://en.wikipedia.org/w/index.php?title=El_Ajedrecista&oldid=1373281739",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "media",
+			"title": "Gonzalo Torres-Quevedo shows El Ajedrecista to Norbert Wiener",
+			"url": "https://commons.wikimedia.org/wiki/File:Gonzalo_showing_El_Ajedrecista_to_Norbert_Wiener.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Unknown photographer"
+				}
+			],
+			"published": "1951",
+			"container": "Photograph, c. 1951, from chessgraphics.net; via Wikimedia Commons",
+			"licence": "Public domain (United States)",
+			"file": "wiener-ajedrecista.jpg"
+		}
+	]
+}

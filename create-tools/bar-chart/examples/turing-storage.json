@@ -1,0 +1,29 @@
+{
+	"title": "Storage capacity in Turing's 1950 paper, in binary digits",
+	"description": "Bar chart on a logarithmic scale. Turing's three-state clicking wheel: about 1.6 binary digits. The Manchester computer in 1950: 174,380. A human computer's 100 sheets of 50 lines of 30 digits: about 498,000. Turing's prediction for about the year 2000: about 1,000,000,000 (10 to the 9th). Data: Turing 1950, sections 5 and 6.",
+	"heading": "STORAGE CAPACITY · BINARY DIGITS (LOG SCALE)",
+	"colours": { "background": "#0e2a47", "ink": "#e8f0f8", "muted": "#9bb4cf", "accent": "#ffc857" },
+	"scale": "log",
+	"axis": {
+		"min": 1,
+		"max": 10000000000,
+		"ticks": [
+			[1, "1"],
+			[1000, "10³"],
+			[1000000, "10⁶"],
+			[1000000000, "10⁹"]
+		]
+	},
+	"bars": [
+		{ "label": "Wheel", "sublabel": "3 states", "value": 1.6, "display": "1.6" },
+		{ "label": "Manchester", "sublabel": "1950", "value": 174380, "display": "174,380" },
+		{ "label": "100 pages", "sublabel": "of digits", "value": 498289, "display": "≈498,000" },
+		{
+			"label": "Prediction",
+			"sublabel": "c. 2000",
+			"value": 1000000000,
+			"display": "10⁹",
+			"highlight": true
+		}
+	]
+}

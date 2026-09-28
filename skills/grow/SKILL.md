@@ -71,12 +71,21 @@ them, and check its claims as you would any source; do not copy its prose.
 - An id is lowercase words joined by dashes (`printing-press`), unique in
   the subject, and it is the directory name and the `id` in `frame.json`.
 - Each segment in `spine.json` has a `labelKind`: `date`, `category` or
-  `technology`. Do not assume the spine is time.
+  `technology`. Do not assume the spine is time: a subject may run from
+  myths (`category`) through dates to technologies, as the AI subject does.
 - In a `date` segment every frame needs a numeric `position.sort` (a year;
   negative for BC), and sorts must not decrease along the segment. Insert a
-  new frame where its sort belongs.
-- `position.label` is what the HUD shows: "c. AD 1440", "44 BC",
-  "Transformers".
+  new frame where its sort belongs. For a span ("1966–72"), sort by the
+  year it began.
+- In a `technology` or `category` segment there is no `sort`. Frames go in
+  the order the story needs.
+- `position.label` is what the HUD shows: a date ("c. AD 1440", "44 BC",
+  "1966–72"), or the technology or category itself ("Transformers",
+  "Scaling laws", "Myth"). Keep it short.
+- A frame that describes the **current state** of something (a frontier, a
+  law in force, the best result so far) carries `"asOf": "YYYY-MM-DD"` in
+  `frame.json`, today's date. The reading pane shows it, and ask is told.
+  Say in the reading what was true as of when.
 - A frame belongs to exactly one spine: the main spine or one trail.
 - A trail file is `{"id", "title", "anchor", "spine": {"segments": [...]}}`.
   The file is `trails/<id>.json`, and the anchor is a **main-spine** frame.
@@ -107,13 +116,19 @@ them, and check its claims as you would any source; do not copy its prose.
 - **Headline:** short, usually in a collective "we" voice, and completed by
   the accent word, which is one word in capitals ending in a full stop
   ("We stole FIRE.", "Knowledge went VIRAL."). The headline and accent
-  together are the frame's title.
-- **Palette:** a name from `subject.json`. Follow the neighbours: the
-  palette tracks the era.
-- **Metadata:** one to three short upper-case lines: place, person, the
-  things that matter.
-- **Counter:** optional. It holds one number that matters, with a short
-  label. Numbers belong here, not in the drawing.
+  together are the frame's title. **No accent word may repeat another in
+  the subject**: grep every `frame.json` before you choose.
+- **Palette:** a name from `subject.json`. Follow the neighbours. Where the
+  palettes track an era, pick the one for the frame's era, and in a trail
+  that means the trail frame's own era, not its anchor's. Where
+  neighbouring frames alternate between a dark palette and its light
+  counterpart, keep alternating.
+- **Metadata:** one to three short upper-case lines: the place, people and
+  things that matter. For a paper or a technique, the lab, the authors and
+  the venue ("MIND · OCTOBER 1950") usually matter more than a place.
+- **Counter:** optional. It holds one value that matters, with a short
+  label: a count, a sum, a ratio, a percentage or an age ("12,600,000",
+  "$13,500", "38 of 52", "96%"). Numbers belong here, not in the drawing.
 
 ## The illustration
 
@@ -125,6 +140,10 @@ stroke. It passes a strict allowlist, so write it plainly.
   centres, rays, angles. Construction lines are what make a drawing read
   like the rest of the subject rather than clip-art. Compute the geometry
   (points on a circle, a helix, an arch) rather than guessing curves.
+- **An idea or a technique has a mechanism too.** Draw it: a search tree
+  with its pruned branches, a network's layers and weights, a feedback
+  loop with its arrows, a matrix of scores, a loss curve on log axes. The
+  AI subject's plates are examples (`create-tools/draw-plates/ai_*.py`).
 - **The frame:**
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">`.
 - **Three weights.** Construction lines in a group with
@@ -149,7 +168,9 @@ radialGradient stop`. Geometry and presentation attributes only. **Never**
 
 ## The reading
 
-`reading.md` is Markdown, 350–700 words, written for a curious adult.
+`reading.md` is Markdown, 350–700 words, written for a curious adult. (A
+subject authored with tools, not by grow, writes 550–900 words with images,
+charts and tables; see §Authoring with tools.)
 
 - The frame's title is already the pane's heading, so start with an
   opening paragraph, then sections as `##` headings (two to four of them).
@@ -157,16 +178,28 @@ radialGradient stop`. Geometry and presentation attributes only. **Never**
 - Be concrete: dates, places, names, numbers, and what changed because of
   it. Say where historians disagree or where a number is an estimate.
 - End with a sentence that points onward: to the next frame, or into the
-  trail.
+  trail. A trail's last frame points back to its anchor. Name a frame
+  rather than describe it: its facts are its own reading's to state.
+- Do not say where things are on screen ("the drawing on the left"). The
+  layout changes with the screen. Say "the drawing" or "the plate".
+- A table can stand on its own. A table under a chart carries the chart's
+  numbers for screen readers.
+- For a technical explainer, a worked example with invented numbers is
+  fine. Say that they are invented, and keep them apart from the sourced
+  facts.
 - No raw HTML. Links go only to http(s) pages. Do not add images: any image
   needs a file in the directory and a `media` citation with its licence,
   and you cannot write one.
 
 ## Sources and citations
 
-This is history written with a model, so **sources are mandatory and must
+This is a subject written with a model, so **sources are mandatory and must
 be real**. Never invent a source, a quotation, a date or a number. If you
-cannot source a claim, leave it out.
+cannot source a claim, leave it out. Prefer primary sources (the paper, the
+report, the announcement) over summaries of them. Wikipedia is a place to
+start, and it is sometimes wrong: where a primary source disagrees with it,
+follow the source and say that they differ. For anything recent, your own
+knowledge is not a source.
 
 - `sources`: at least one, each `{"title", "url"?, "note"?}`, with the url
   http(s). List what the reading draws on.
@@ -176,6 +209,17 @@ cannot source a claim, leave it out.
   (`[{"family", "given"}]` or `[{"name"}]`), `container`, `publisher`,
   `published` (`YYYY`, `YYYY-MM` or `YYYY-MM-DD`) and, for articles,
   `volume`, `issue` and `pages` when you know them.
+- **Many authors:** list the first (up to seven) and set `"etAl": true`.
+  Never write "et al." into a name.
+- **Papers:** a journal or conference paper is `article`, with the journal
+  or proceedings as its `container`. An arXiv preprint is `article` with
+  `container` `"arXiv preprint arXiv:NNNN.NNNNN"`. If the preprint and the
+  published version differ in a number, cite the one you use and say so.
+- **A page you could only read through an archive** (the site blocks
+  fetches) is still cited by its own URL. The page is the source; the
+  archive was only how you read it.
+- `media` citations credit an image's file. They go in `citations` only,
+  not in `sources`, and the page builds any caption credit from them.
 - **Wikipedia is cited by revision.** A Wikipedia url must be a permanent
   link, `https://en.wikipedia.org/w/index.php?title=Printing_press&oldid=1376640142`,
   or validation fails. To get the current revision, fetch
@@ -202,6 +246,30 @@ Check your own work against this list; the validator will:
   has `pathLength="1"`;
 - `sources` is not empty, every citation has a title, http(s) url and
   accessed date, and every Wikipedia url has `oldid=`;
+- no accent word repeats another in the subject, and any `asOf` is a
+  `YYYY-MM-DD` date;
 - no existing frame, and not `subject.json`, has changed.
 
 Then reply with two or three sentences: what you added, and where.
+
+## Authoring with tools
+
+A curated subject is written the same way, by an author with a shell and
+the web rather than by a grow job. What changes:
+
+- **Tools.** `create-tools/` holds `wiki-cite` (Wikipedia citations pinned
+  to a revision), `commons-media` (a freely licensed image and its `media`
+  citation), `bar-chart` (a chart, on a log scale when values span orders
+  of magnitude), `draw-plates` (plates from computed geometry) and
+  `subject-plan` (the spine and trails from a plan, so a subject written
+  segment by segment, or by several authors, validates at every step).
+- **Readings run 550–900 words, and every one scrolls.** They use images,
+  charts and tables where those carry information. Look at every image
+  before you use it: Commons licences and attributions are what uploaders
+  typed, and some are wrong.
+- **Validate** with `npx vitest --run engine/subjects.test.ts
+engine/svg.test.ts`, which loads every subject. Keep `npx prettier
+--check` clean.
+- **Rate limits.** Wikipedia and Commons throttle a burst of requests.
+  Send a descriptive User-Agent that names the project and never a
+  person, and wait when told to (`wiki-cite` does both).

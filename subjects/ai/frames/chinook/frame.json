@@ -1,0 +1,163 @@
+{
+	"id": "chinook",
+	"position": {
+		"label": "1994",
+		"sort": 1994
+	},
+	"scene": {
+		"headline": "Perfect play is a",
+		"accent": "DRAW.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": [
+			"EDMONTON · JONATHAN SCHAEFFER · MARION TINSLEY",
+			"SEARCH · OPENING BOOK · ENDGAME DATABASES"
+		],
+		"counter": {
+			"value": "5 × 10²⁰",
+			"label": "positions in checkers"
+		}
+	},
+	"sources": [
+		{
+			"title": "Jonathan Schaeffer, Neil Burch et al., Checkers Is Solved",
+			"url": "https://doi.org/10.1126/science.1144079",
+			"note": "Science, 2007"
+		},
+		{
+			"title": "Chinook (computer program) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Chinook_(computer_program)"
+		},
+		{
+			"title": "Marion Tinsley — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Marion_Tinsley"
+		},
+		{
+			"title": "Solved game — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Solved_game"
+		},
+		{
+			"title": "Arthur Samuel's Legacy",
+			"url": "https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html",
+			"note": "Quoting Schaeffer, One Jump Ahead: Challenging Human Supremacy at Checkers (Springer, 1997)"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Checkers Is Solved",
+			"url": "https://doi.org/10.1126/science.1144079",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Schaeffer",
+					"given": "Jonathan"
+				},
+				{
+					"family": "Burch",
+					"given": "Neil"
+				},
+				{
+					"family": "Björnsson",
+					"given": "Yngvi"
+				},
+				{
+					"family": "Kishimoto",
+					"given": "Akihiro"
+				},
+				{
+					"family": "Müller",
+					"given": "Martin"
+				},
+				{
+					"family": "Lake",
+					"given": "Robert"
+				},
+				{
+					"family": "Lu",
+					"given": "Paul"
+				},
+				{
+					"family": "Sutphen",
+					"given": "Steve"
+				}
+			],
+			"container": "Science",
+			"published": "2007-09-14",
+			"volume": "317",
+			"issue": "5844",
+			"pages": "1518–22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chinook (computer program)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chinook_(computer_program)&oldid=1336043862",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marion Tinsley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marion_Tinsley&oldid=1360796214",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Solved game",
+			"url": "https://en.wikipedia.org/w/index.php?title=Solved_game&oldid=1369799045",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "web",
+			"title": "Arthur Samuel's Legacy",
+			"url": "https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Schaeffer",
+					"given": "Jonathan"
+				}
+			],
+			"container": "Chinook project, University of Alberta"
+		},
+		{
+			"kind": "media",
+			"title": "Marion Tinsley at a checkerboard",
+			"url": "https://commons.wikimedia.org/wiki/File:Marion_Tinsley.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Foley",
+					"given": "Mark T."
+				}
+			],
+			"container": "State Archives of Florida, Florida Memory; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "marion-tinsley.jpg",
+			"published": "1988"
+		}
+	]
+}

@@ -1,0 +1,240 @@
+{
+	"id": "residual-stream",
+	"position": {
+		"label": "The residual stream"
+	},
+	"scene": {
+		"headline": "Every layer writes to one",
+		"accent": "STREAM.",
+		"palette": "whitepaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"RESIDUAL STREAM · ATTENTION · MLP",
+			"LAYER NORM · STACKED LAYERS · KEY–VALUE MEMORIES"
+		],
+		"counter": {
+			"value": "2/3",
+			"label": "of a transformer’s parameters sit in its MLP layers"
+		}
+	},
+	"sources": [
+		{
+			"title": "Nelson Elhage et al., A Mathematical Framework for Transformer Circuits",
+			"url": "https://transformer-circuits.pub/2021/framework/index.html",
+			"note": "Transformer Circuits Thread, 2021"
+		},
+		{
+			"title": "Mor Geva et al., Transformer Feed-Forward Layers Are Key-Value Memories",
+			"url": "https://aclanthology.org/2021.emnlp-main.446/",
+			"note": "EMNLP 2021"
+		},
+		{
+			"title": "Ashish Vaswani et al., Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"note": "NeurIPS 2017"
+		},
+		{
+			"title": "Alec Radford et al., Language Models Are Unsupervised Multitask Learners (GPT-2)",
+			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+			"note": "OpenAI, 2019"
+		},
+		{
+			"title": "Jimmy Lei Ba, Jamie Ryan Kiros, Geoffrey E. Hinton, Layer Normalization",
+			"url": "https://arxiv.org/abs/1607.06450"
+		},
+		{
+			"title": "Llama Team, AI @ Meta, The Llama 3 Herd of Models",
+			"url": "https://arxiv.org/abs/2407.21783"
+		},
+		{
+			"title": "Transformer (deep learning) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)"
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"title": "A Mathematical Framework for Transformer Circuits",
+			"url": "https://transformer-circuits.pub/2021/framework/index.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Elhage",
+					"given": "Nelson"
+				}
+			],
+			"container": "Transformer Circuits Thread",
+			"publisher": "Anthropic",
+			"published": "2021-12-22",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+			"url": "https://aclanthology.org/2021.emnlp-main.446/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Geva",
+					"given": "Mor"
+				},
+				{
+					"family": "Schuster",
+					"given": "Roei"
+				},
+				{
+					"family": "Berant",
+					"given": "Jonathan"
+				},
+				{
+					"family": "Levy",
+					"given": "Omer"
+				}
+			],
+			"published": "2021",
+			"container": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+			"pages": "5484–95"
+		},
+		{
+			"kind": "article",
+			"title": "Attention Is All You Need",
+			"url": "https://arxiv.org/abs/1706.03762",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Vaswani",
+					"given": "Ashish"
+				},
+				{
+					"family": "Shazeer",
+					"given": "Noam"
+				},
+				{
+					"family": "Parmar",
+					"given": "Niki"
+				},
+				{
+					"family": "Uszkoreit",
+					"given": "Jakob"
+				},
+				{
+					"family": "Jones",
+					"given": "Llion"
+				},
+				{
+					"family": "Gomez",
+					"given": "Aidan N."
+				},
+				{
+					"family": "Kaiser",
+					"given": "Łukasz"
+				},
+				{
+					"family": "Polosukhin",
+					"given": "Illia"
+				}
+			],
+			"published": "2017",
+			"container": "Advances in Neural Information Processing Systems 30",
+			"volume": "30"
+		},
+		{
+			"kind": "web",
+			"title": "Language Models Are Unsupervised Multitask Learners",
+			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Radford",
+					"given": "Alec"
+				},
+				{
+					"family": "Wu",
+					"given": "Jeffrey"
+				},
+				{
+					"family": "Child",
+					"given": "Rewon"
+				},
+				{
+					"family": "Luan",
+					"given": "David"
+				},
+				{
+					"family": "Amodei",
+					"given": "Dario"
+				},
+				{
+					"family": "Sutskever",
+					"given": "Ilya"
+				}
+			],
+			"publisher": "OpenAI",
+			"published": "2019"
+		},
+		{
+			"kind": "article",
+			"title": "Layer Normalization",
+			"url": "https://arxiv.org/abs/1607.06450",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Ba",
+					"given": "Jimmy Lei"
+				},
+				{
+					"family": "Kiros",
+					"given": "Jamie Ryan"
+				},
+				{
+					"family": "Hinton",
+					"given": "Geoffrey E."
+				}
+			],
+			"published": "2016",
+			"container": "arXiv"
+		},
+		{
+			"kind": "article",
+			"title": "The Llama 3 Herd of Models",
+			"url": "https://arxiv.org/abs/2407.21783",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Llama Team, AI @ Meta"
+				}
+			],
+			"published": "2024",
+			"container": "arXiv"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transformer (deep learning)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transformer_(deep_learning)&oldid=1377087904",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "The full architecture of a generative pre-trained transformer (GPT)",
+			"url": "https://commons.wikimedia.org/wiki/File:Full_GPT_architecture.svg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Marxav (original); Mrmw (vectorisation)"
+				}
+			],
+			"published": "2024-03-22",
+			"container": "Via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "gpt-architecture.png"
+		}
+	]
+}

@@ -1,0 +1,110 @@
+{
+	"id": "talos",
+	"position": {
+		"label": "Myth"
+	},
+	"scene": {
+		"headline": "We imagined minds of",
+		"accent": "BRONZE.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": ["CRETE · HEPHAESTUS · MEDEA", "ONE VEIN · ONE BRONZE NAIL · THREE CIRCUITS A DAY"],
+		"counter": {
+			"value": "3",
+			"label": "circuits of Crete, every day"
+		}
+	},
+	"sources": [
+		{
+			"title": "Talos — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Talos"
+		},
+		{
+			"title": "Automaton — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Automaton"
+		},
+		{
+			"title": "History of artificial intelligence — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+		},
+		{
+			"title": "Adrienne Mayor, Gods and Robots: Myths, Machines, and Ancient Dreams of Technology",
+			"url": "https://press.princeton.edu/books/hardcover/9780691183510/gods-and-robots",
+			"note": "Princeton University Press, 2018"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Talos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Talos&oldid=1377073327",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Automaton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Automaton&oldid=1376381196",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of artificial intelligence",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "book",
+			"title": "Gods and Robots: Myths, Machines, and Ancient Dreams of Technology",
+			"url": "https://press.princeton.edu/books/hardcover/9780691183510/gods-and-robots",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Mayor",
+					"given": "Adrienne"
+				}
+			],
+			"publisher": "Princeton University Press",
+			"place": "Princeton",
+			"published": "2018"
+		},
+		{
+			"kind": "media",
+			"title": "The death of Talos, on a red-figure volute krater by the Talos Painter (Ruvo di Puglia, Jatta National Archaeological Museum 36933)",
+			"url": "https://commons.wikimedia.org/wiki/File:Talos_Painter_-_ARV_1338_1_-_Dionysos_with_satyrs_and_maenads_-_death_of_Talos_-_Argonauts_and_gods_-_Ruvo_MANJ_36933_-_03.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "ArchaiOptix"
+				}
+			],
+			"published": "2023-07-23",
+			"container": "Photograph; via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "talos-krater.jpg"
+		}
+	]
+}

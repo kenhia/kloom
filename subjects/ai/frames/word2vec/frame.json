@@ -1,0 +1,184 @@
+{
+	"id": "word2vec",
+	"position": {
+		"label": "Embeddings"
+	},
+	"scene": {
+		"headline": "Words became",
+		"accent": "VECTORS.",
+		"palette": "whitepaper",
+		"illustration": "scene.svg",
+		"metadata": ["GOOGLE · TOMAS MIKOLOV · 2013", "SKIP-GRAM · CBOW · KING − MAN + WOMAN ≈ QUEEN"],
+		"counter": {
+			"value": "1.6 billion",
+			"label": "words of training text, read in under a day"
+		}
+	},
+	"sources": [
+		{
+			"title": "Word2Vec — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Word2Vec"
+		},
+		{
+			"title": "Tomas Mikolov, Kai Chen, Greg Corrado et al., Efficient Estimation of Word Representations in Vector Space",
+			"url": "https://arxiv.org/abs/1301.3781",
+			"note": "arXiv:1301.3781, 2013"
+		},
+		{
+			"title": "Tomas Mikolov, Ilya Sutskever, Kai Chen et al., Distributed Representations of Words and Phrases and their Compositionality",
+			"url": "https://papers.nips.cc/paper_files/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html",
+			"note": "Advances in Neural Information Processing Systems 26, 2013"
+		},
+		{
+			"title": "Tomas Mikolov, Wen-tau Yih, Geoffrey Zweig, Linguistic Regularities in Continuous Space Word Representations",
+			"url": "https://aclanthology.org/N13-1090/",
+			"note": "Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2013"
+		},
+		{
+			"title": "Tolga Bolukbasi, Kai-Wei Chang, James Zou et al., Man Is to Computer Programmer as Woman Is to Homemaker? Debiasing Word Embeddings",
+			"url": "https://papers.nips.cc/paper_files/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html",
+			"note": "Advances in Neural Information Processing Systems 29, 2016"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Word2Vec",
+			"url": "https://en.wikipedia.org/w/index.php?title=Word2Vec&oldid=1376791706",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "article",
+			"title": "Efficient Estimation of Word Representations in Vector Space",
+			"url": "https://arxiv.org/abs/1301.3781",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Mikolov",
+					"given": "Tomas"
+				},
+				{
+					"family": "Chen",
+					"given": "Kai"
+				},
+				{
+					"family": "Corrado",
+					"given": "Greg"
+				},
+				{
+					"family": "Dean",
+					"given": "Jeffrey"
+				}
+			],
+			"container": "arXiv:1301.3781",
+			"published": "2013-01-16"
+		},
+		{
+			"kind": "article",
+			"title": "Distributed Representations of Words and Phrases and their Compositionality",
+			"url": "https://papers.nips.cc/paper_files/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Mikolov",
+					"given": "Tomas"
+				},
+				{
+					"family": "Sutskever",
+					"given": "Ilya"
+				},
+				{
+					"family": "Chen",
+					"given": "Kai"
+				},
+				{
+					"family": "Corrado",
+					"given": "Greg"
+				},
+				{
+					"family": "Dean",
+					"given": "Jeffrey"
+				}
+			],
+			"container": "Advances in Neural Information Processing Systems 26",
+			"published": "2013"
+		},
+		{
+			"kind": "article",
+			"title": "Linguistic Regularities in Continuous Space Word Representations",
+			"url": "https://aclanthology.org/N13-1090/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Mikolov",
+					"given": "Tomas"
+				},
+				{
+					"family": "Yih",
+					"given": "Wen-tau"
+				},
+				{
+					"family": "Zweig",
+					"given": "Geoffrey"
+				}
+			],
+			"container": "Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+			"pages": "746–51",
+			"published": "2013"
+		},
+		{
+			"kind": "article",
+			"title": "Man Is to Computer Programmer as Woman Is to Homemaker? Debiasing Word Embeddings",
+			"url": "https://papers.nips.cc/paper_files/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Bolukbasi",
+					"given": "Tolga"
+				},
+				{
+					"family": "Chang",
+					"given": "Kai-Wei"
+				},
+				{
+					"family": "Zou",
+					"given": "James"
+				},
+				{
+					"family": "Saligrama",
+					"given": "Venkatesh"
+				},
+				{
+					"family": "Kalai",
+					"given": "Adam"
+				}
+			],
+			"container": "Advances in Neural Information Processing Systems 29",
+			"published": "2016"
+		},
+		{
+			"kind": "media",
+			"title": "T-SNE visualisation of word embeddings generated using 19th-century literature",
+			"url": "https://commons.wikimedia.org/wiki/File:T-SNE_visualisation_of_word_embeddings_generated_using_19th_century_literature.png",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Grayson",
+					"given": "Siobhán"
+				}
+			],
+			"published": "2017-06-19",
+			"container": "Research figure; via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "embedding-map.png"
+		}
+	]
+}

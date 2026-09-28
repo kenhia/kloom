@@ -1,0 +1,33 @@
+{
+	"title": "Parameters in five pretrained language models, 2018–2020",
+	"description": "Bar chart on a logarithmic scale. GPT-1 (2018): 117 million parameters. BERT-Large (2018): 340 million. GPT-2 (2019): 1.5 billion. T5 (2019): 11 billion. GPT-3 (2020): 175 billion. Data: each model's paper.",
+	"heading": "PARAMETERS · LOG SCALE",
+	"unit": "M",
+	"scale": "log",
+	"colours": { "background": "#f7f6f2", "ink": "#1b1a24", "muted": "#625f70", "accent": "#5236c9" },
+	"axis": {
+		"min": 10,
+		"max": 1000000,
+		"ticks": [
+			[10, "10M"],
+			[100, "100M"],
+			[1000, "1B"],
+			[10000, "10B"],
+			[100000, "100B"],
+			[1000000, "1T"]
+		]
+	},
+	"bars": [
+		{ "label": "GPT-1", "sublabel": "Jun 2018", "value": 117, "display": "117M" },
+		{ "label": "BERT-L", "sublabel": "Oct 2018", "value": 340, "display": "340M" },
+		{ "label": "GPT-2", "sublabel": "Feb 2019", "value": 1542, "display": "1.5B" },
+		{ "label": "T5", "sublabel": "Oct 2019", "value": 11000, "display": "11B" },
+		{
+			"label": "GPT-3",
+			"sublabel": "May 2020",
+			"value": 175000,
+			"display": "175B",
+			"highlight": true
+		}
+	]
+}

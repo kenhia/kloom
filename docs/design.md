@@ -61,7 +61,11 @@ baked into the engine.
   `position {label, sort?}`, `scene` and `sources`. Label kinds are `date`,
   `category` and `technology`; only `date` segments need a `sort` and must be
   non-decreasing. Every frame sits on exactly one spine, and a trail's
-  anchor must be a main-spine frame. Validation collects every problem in one
+  anchor must be a main-spine frame. No two frames of a subject share an
+  accent word, ignoring case and the full stop (sprint 006; grow is held to
+  it too). A time-sensitive frame may carry `asOf` (`YYYY-MM` or
+  `YYYY-MM-DD`): the reading pane shows "As of September 27, 2026" beside
+  the position, and ask's prompt says the frame is dated. Validation collects every problem in one
   pass and the site refuses to serve an invalid subject. Reading markdown is
   rendered with raw HTML escaped. Links and images are kept only for http(s)
   or scheme-less URLs, judged after the entity and control-character
@@ -83,12 +87,14 @@ baked into the engine.
     (the site or collection), `publisher`, `place`, `published` (`YYYY`,
     `YYYY-MM` or `YYYY-MM-DD`; for Wikipedia, the revision's date, rendered
     "Last modified"), for journal articles `volume`, `issue` and `pages`, and
-    for media `licence` and `file`.
+    for media `licence` and `file`. `etAl: true` ends a long author list
+    with "et al." in the entry and in a caption credit (sprint 006): a
+    paper with hundreds of authors lists the first.
   - Every citation needs a title, an http(s) url and an accessed date. Any
     Wikipedia url must be a permanent revision link (`oldid=`), because
     articles change.
   - An image or chart in the reading is a file in the frame's directory
-    (served at `/media/<frame>/<file>` with a no-script policy), and it is
+    (served at `/media/<subject>/<frame>/<file>` with a no-script policy), and it is
     shown only with a `media` citation naming that `file` and a `licence`.
     Where the licence needs attribution beside the work (anything but public
     domain or CC0), the image carries a short caption credit. Scene
@@ -105,7 +111,10 @@ baked into the engine.
   numbers for screen readers.
 - **Authoring tools** (sprint 002) — `create-tools/` holds the scripts that
   made the content (plates, Wikipedia citations, charts, traced art), one
-  directory per tool with its own README. Skills for new subjects and grow
+  directory per tool with its own README. Sprint 006 added `subject-plan`
+  (the spine and trails from a plan, holding only the frames written so
+  far), `commons-media` (a freely licensed image and its `media` citation)
+  and a log scale for `bar-chart`. Skills for new subjects and grow
   point there; an agent creating a subject may add tools.
 - **Palette counterparts** (sprint 003) — a palette may name a
   `counterpart`: a palette of the other scheme that stands in for it when
@@ -154,7 +163,7 @@ Built in sprint 004 (korg 3360).
   config.
 
 - **The server builds the context.** The client sends
-  `{frame, trail, question, model}` to `POST /api/ask`. The server reads the
+  `{subject, frame, trail, question, model}` to `POST /api/ask`. The server reads the
   frame's content from disk, never from the request, and refuses an unknown
   frame, or a trail that does not hold the frame. Questions are capped at
   2000 characters. The model is honoured only if the app config lists it;
@@ -196,8 +205,11 @@ Built in sprint 004 (korg 3360).
   heading names that frame ("About Knowledge went VIRAL. · Sonnet 5"). A new
   question replaces the current one, cancelling it if it is still running.
 - **Which frame.** The question is about the frame in the reading pane, which
-  in manual sync can differ from the spine's: the reader is asking about
-  what they are reading. The trail is sent only if it holds that frame.
+  can differ from the spine's when the reader has turned following off: they
+  are asking about what they are reading. The trail is sent only if it holds
+  that frame. With following on (the default), moving the spine mid-answer
+  moves the reading pane too, and the answer stays put: its heading names
+  its frame and a line under it says the reader has moved on.
 - **Transient.** The answer shows in the AI pane, rendered with the reading's
   markdown rules and with images turned off (a model's image would be a
   request to anywhere). It is not stored, and a reload forgets it. The
@@ -206,7 +218,7 @@ Built in sprint 004 (korg 3360).
   answering, ready, stopped and failed; the streaming text itself is not a
   live region.
 - **Keep this.** Once an answer is done, "Keep this" sends only its id to
-  `POST /api/keep`. The server remembers finished answers (the last 50, for
+  `POST /api/keep`, with the subject. The server remembers finished answers (the last 50, for
   an hour) and writes what it remembers, never text the client sends back.
   The file goes to `<dataDir>/<subject>/kept/<id>.json`, where `dataDir` is
   `$KLOOM_DATA_DIR` or `data/`, git-ignored. A kept answer is not subject
@@ -342,7 +354,10 @@ Built in sprint 005 (korg 3364).
   ```
 
 - **The queue** (`GrowQueue`, `src/lib/server/grow.ts`) runs one job at a
-  time, separately from ask's turns, and lets ten wait. Each job is a
+  time, separately from ask's turns, and lets ten wait. There is one queue
+  per subject (sprint 006), and they share one runner slot, so the host
+  still runs one grow job at a time; a job waiting on another subject's
+  says so. Each job is a
   `kloom.grow-job` JSON file under `<dataDir>/<subject>/grow/`, rewritten
   atomically at each step. The queue is loaded at server start
   (`hooks.server.ts` `init`), so **a restart resumes it**. A `queued` job
@@ -352,8 +367,9 @@ Built in sprint 005 (korg 3364).
 - **The model** is the reader's "Grow model" setting (default Opus 5.5,
   `grow.defaultModel`), captured when the job is queued. The server honours
   it only if the config lists it. The job and the commit record it.
-- **API.** `POST /api/grow` `{verb, frame, request, kept, model}` returns
-  202 and the job. `GET /api/grow` lists the ten newest. The AI pane's Grow
+- **API.** `POST /api/grow` `{subject, verb, frame, request, kept, model}`
+  returns 202 and the job. `GET /api/grow?subject=` lists that subject's ten
+  newest. The AI pane's Grow
   row is a verb select, a request field and Queue, with a job list. It
   polls every 3s while a job is live, announces the outcome in the status
   line, and reloads the page's data when one lands. After "Keep this", a
@@ -364,15 +380,20 @@ Built in sprint 005 (korg 3364).
 - **Scroll ownership.** The wheel over the spine pane moves along the spine;
   the wheel over the narrative scrolls the narrative. Never both — a good
   narrative is often longer than a screen.
-- **Narrative sync is a setting.** Default (Ken's preference): manual — scroll
-  the spine, then "Sync Narrative" when something is worth diving into.
-  Alternative: the narrative follows the spine.
-  The choice is remembered per browser.
+- **The narrative follows the spine** (Ken, 2026-09-27, sprint 006, korg
+  3391). Moving along the spine turns the reading to that frame. Separate
+  movement was the first default, with a "Sync Narrative" button, and it
+  proved the wrong one in use. Not following is a reader setting,
+  "Narrative: Stays until S", in the settings control (`kloom.followSpine`).
+  With it, the reading stays put until S brings it to the spine, and the
+  toolbar's status line says where each one is. The button is gone; S
+  remains.
 - **One gesture, one frame.** Wheel deltas over the spine accumulate to a
   threshold, then a cooldown swallows the trackpad's inertia.
 - **Keyboard first.** Left/Right move along the spine (Home/End jump to its
   ends); Up/Down scroll the narrative; S syncs the narrative; T enters the
-  trail branching from the current frame and Esc leaves it; Tab moves into
+  trail branching from the current frame and Esc leaves it (S matters only
+  when the reader has turned following off); Tab moves into
   and out of the AI pane, and Esc anywhere in it returns to the spine. Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
@@ -394,6 +415,54 @@ Built in sprint 005 (korg 3364).
   against them.
 - **Accuracy**: sources are mandatory on every frame, and the grow skill must
   produce them.
+
+## Several subjects
+
+Built in sprint 006 (korg 3396). One running app serves every subject.
+
+- **A route per subject.** `/<subject>` serves `subjects/<subject>/`
+  (`$KLOOM_SUBJECTS_DIR`). A subject is a directory whose name is a plain id
+  (`[a-z0-9][a-z0-9-]*`) and that holds a readable `subject.json`. An id is
+  checked against that listing, not just the pattern, so no request can
+  name a path. An unknown one is a 404. `/` redirects to `$KLOOM_SUBJECT`
+  (default `western-civ`), or to the first subject if that one is gone.
+- **The chooser is the start screen.** Under Begin, "Or open" links every
+  other subject, in the dialog's tab order after Begin. The page is keyed
+  by subject, so opening another one starts its shell afresh at its own
+  start screen.
+- **Every API names its subject.** Ask, keep and grow take `subject` in the
+  body (grow's job list takes `?subject=`), and media is served at
+  `/media/<subject>/…`. Keep refuses an answer that was asked under
+  another subject. Kept answers and grow jobs were already filed under
+  `<dataDir>/<subject>/`, and a grow job commits to its own subject's
+  directory.
+- **Settings stay global.** Palette mode, narrative following and the
+  models are one reader's choices about reading, not about a subject. None
+  is clearly per-subject, so none is scoped.
+- The engine still never names a subject: the shell passes `subject.id`
+  through, and the page resolves the chooser's links.
+
+## The second subject
+
+Built in sprint 006 (korg 3395): `subjects/ai`, the History and Current
+State of AI, with 41 main-spine frames and four trails. It was the Cutler
+rule's test, and it is described in its sprint record.
+
+- **The first mixed spine.** Its segments run `category` (myths and
+  philosophers), then `date` (1843–2012), then `technology` (from
+  embeddings to compute), then `category` (open questions). The engine
+  needed nothing new for it: the HUD shows each segment's own labels, and
+  the timeline marks segment boundaries with taller ticks and branch
+  points with rings. It held 41 stops at phone width.
+- **Its own look.** Three pairs of dark and light palettes, each the
+  other's counterpart: blueprint and drafting, terminal and printout,
+  neural and whitepaper. They follow the eras loosely, and they alternate
+  within a segment where western-civ's stay in one.
+- **Authored the way the framework will author.** A plan comes first
+  (`create-tools/subject-plan/ai.json`). Frames were written by following
+  `skills/grow/SKILL.md`, by several authors at once, and committed
+  segment by segment. Every place the skill assumed western-civ was
+  generalised in the skill (the record lists them).
 
 ## Start screen
 
@@ -539,10 +608,11 @@ Built in sprint 003 (korg 3373, 3372).
 - **Placement:** the end of the narrative's toolbar, beside the other user
   setting. It is clear of the spine's corner brackets, and it wraps with the
   toolbar at phone width.
-- **"Follow the spine" stays in the toolbar.** It is a user setting, but it
-  sits beside the Sync Narrative button it modifies, and a reader toggles it
-  while reading. Moving it behind the gear would cost a click and separate
-  it from its context. It keeps its own `kloom.sync` key.
+- **Narrative following** (sprint 006, korg 3391) is a row in the registry,
+  "Narrative": _Follows the spine_ (the default) or _Stays until S_, stored
+  under `kloom.followSpine`. It sat in the toolbar as a checkbox beside the
+  Sync Narrative button until that button went. The old `kloom.sync` key is
+  not read, so everyone starts on the new default.
 - **Palette mode:** Mixed (each frame's own palette, the default), Dark or
   Light, stored under `kloom.palette`. The OS `prefers-color-scheme` is not
   consulted. Mixed is the designed experience, the palette tracking the era,

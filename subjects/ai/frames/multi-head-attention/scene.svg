@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M48 92 L368 92"/>
+		<path pathLength="1" d="M70 88 L70 96 M116 88 L116 96 M162 88 L162 96 M208 88 L208 96 M254 88 L254 96 M300 88 L300 96 M346 88 L346 96"/>
+		<path pathLength="1" d="M48 176 L368 176"/>
+		<path pathLength="1" d="M70 172 L70 180 M116 172 L116 180 M162 172 L162 180 M208 172 L208 180 M254 172 L254 180 M300 172 L300 180 M346 172 L346 180"/>
+		<path pathLength="1" d="M48 260 L368 260"/>
+		<path pathLength="1" d="M70 256 L70 264 M116 256 L116 264 M162 256 L162 264 M208 256 L208 264 M254 256 L254 264 M300 256 L300 264 M346 256 L346 264"/>
+		<path pathLength="1" d="M70 32 L70 260 M116 32 L116 260 M162 32 L162 260 M208 32 L208 260 M254 32 L254 260 M300 32 L300 260 M346 32 L346 260"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M116.0 92 Q93.0 66.0 70.0 92"/>
+		<path pathLength="1" d="M162.0 92 Q139.0 66.0 116.0 92"/>
+		<path pathLength="1" d="M208.0 92 Q185.0 66.0 162.0 92"/>
+		<path pathLength="1" d="M254.0 92 Q231.0 66.0 208.0 92"/>
+		<path pathLength="1" d="M300.0 92 Q277.0 66.0 254.0 92"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M300.0 176 Q185.0 107.0 70.0 176"/>
+		<path pathLength="1" d="M300.0 176 Q208.0 118.0 116.0 176"/>
+		<path pathLength="1" d="M300.0 176 Q231.0 129.0 162.0 176"/>
+		<path pathLength="1" d="M300.0 176 Q254.0 140.0 208.0 176"/>
+		<path pathLength="1" d="M300.0 176 Q277.0 151.0 254.0 176"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M300.0 260 Q231.0 202.0 162.0 260"/>
+		<path pathLength="1" d="M162.0 260 Q254.0 226.0 346.0 260"/>
+		<path pathLength="1" d="M340 260 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M300.0 260 Q208.0 242.0 116.0 260"/>
+	</g>
+	<g>
+		<text x="70" y="278" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="116" y="278" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="162" y="278" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C</text>
+		<text x="208" y="278" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">D</text>
+		<text x="254" y="278" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="300" y="278" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="346" y="278" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">?</text>
+		<text x="40" y="95" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">H1</text>
+		<text x="40" y="179" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">H2</text>
+		<text x="40" y="263" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">H3</text>
+		<text x="346" y="230" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COPY</text>
+	</g>
+</svg>

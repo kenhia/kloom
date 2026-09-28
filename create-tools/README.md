@@ -5,12 +5,14 @@ frames, kept so their output can be regenerated, changed and imitated. The
 skills and instructions for creating a new subject, and for grow, point
 here.
 
-| Tool                        | What it makes                                                                                |
-| --------------------------- | -------------------------------------------------------------------------------------------- |
-| [draw-plates](draw-plates/) | Scene illustrations: engineering-plate line drawings as draw-on SVG, from computed geometry. |
-| [wiki-cite](wiki-cite/)     | `wikipedia` citations for a frame, pinned to each article's current revision (`oldid=`).     |
-| [bar-chart](bar-chart/)     | A reading-pane bar chart: a standalone, accessible SVG in the frame's colours.               |
-| [trace-art](trace-art/)     | A traced line engraving as banded draw-on SVG (the start screen's loom).                     |
+| Tool                            | What it makes                                                                                |
+| ------------------------------- | -------------------------------------------------------------------------------------------- |
+| [draw-plates](draw-plates/)     | Scene illustrations: engineering-plate line drawings as draw-on SVG, from computed geometry. |
+| [wiki-cite](wiki-cite/)         | `wikipedia` citations for a frame, pinned to each article's current revision (`oldid=`).     |
+| [bar-chart](bar-chart/)         | A reading-pane bar chart: a standalone, accessible SVG in the frame's colours.               |
+| [trace-art](trace-art/)         | A traced line engraving as banded draw-on SVG (the start screen's loom).                     |
+| [commons-media](commons-media/) | A freely licensed image from Wikimedia Commons, with its `media` citation.                   |
+| [subject-plan](subject-plan/)   | `spine.json` and trails from a plan, holding only the frames written so far.                 |
 
 ## Conventions
 

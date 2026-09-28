@@ -1,0 +1,21 @@
+{
+	"id": "safety",
+	"title": "Alignment and safety",
+	"anchor": "alignment",
+	"spine": {
+		"segments": [
+			{
+				"id": "problems",
+				"title": "Problems and practices",
+				"labelKind": "category",
+				"frames": [
+					"specification-gaming",
+					"constitutional-ai",
+					"capability-evals",
+					"safety-frameworks",
+					"alignment-faking"
+				]
+			}
+		]
+	}
+}

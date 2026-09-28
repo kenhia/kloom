@@ -51,6 +51,11 @@ export function askPrompt(context: AskContext, question: string, web = false): s
 		`Subject: ${subject.title}`,
 		`Where the reader is: ${where}${trail ? ` (on the side trail "${trail.title}")` : ''}`,
 		`Frame: ${frame.title}`,
+		...(frame.asOf
+			? [
+					`The frame describes the state of things as of ${frame.asOf}; say so if the answer may have changed since.`
+				]
+			: []),
 		'',
 		'--- Frame reading ---',
 		frame.reading.trim(),

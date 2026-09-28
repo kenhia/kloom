@@ -1,6 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import type { Palette } from './model';
-import { paletteFor, paletteMode, readSetting, writeSetting, type Setting } from './settings';
+import {
+	followSpine,
+	paletteFor,
+	paletteMode,
+	readSetting,
+	writeSetting,
+	type Setting
+} from './settings';
 import { UserSettings } from './user-settings.svelte';
 
 /** A Map-backed Storage, optionally one that throws like blocked storage. */
@@ -139,5 +146,20 @@ describe('paletteFor', () => {
 	it('keeps a palette with no counterpart, and treats an unknown mode as Mixed', () => {
 		expect(at('lone', 'dark')).toBe('lone');
 		expect(at('parchment', 'sepia')).toBe('parchment');
+	});
+});
+
+describe('followSpine', () => {
+	it('follows by default, under its own kloom.* key', () => {
+		expect(followSpine.default).toBe('follow');
+		expect(followSpine.storageKey).toBe('kloom.followSpine');
+		expect(readSetting(followSpine, null)).toBe('follow');
+	});
+
+	it('remembers a reader turning it off', () => {
+		const map = new Map<string, string>();
+		const storage = { getItem: (k: string) => map.get(k) ?? null, setItem: map.set.bind(map) };
+		expect(writeSetting(followSpine, 'manual', storage)).toBe(true);
+		expect(readSetting(followSpine, storage)).toBe('manual');
 	});
 });

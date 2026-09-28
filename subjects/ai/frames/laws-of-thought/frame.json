@@ -1,0 +1,184 @@
+{
+	"id": "laws-of-thought",
+	"position": {
+		"label": "1854",
+		"sort": 1854
+	},
+	"scene": {
+		"headline": "We wrote the laws of",
+		"accent": "LOGIC.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": ["LINCOLN · CORK · GEORGE BOOLE", "x² = x · 0 AND 1 · RELAYS (SHANNON, MIT, 1937)"],
+		"counter": {
+			"value": "2",
+			"label": "numbers that obey x² = x: 0 and 1"
+		}
+	},
+	"sources": [
+		{
+			"title": "The Laws of Thought — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/The_Laws_of_Thought"
+		},
+		{
+			"title": "George Boole — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/George_Boole"
+		},
+		{
+			"title": "Claude Shannon — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Claude_Shannon"
+		},
+		{
+			"title": "A Symbolic Analysis of Relay and Switching Circuits — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits"
+		},
+		{
+			"title": "Switching circuit theory — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Switching_circuit_theory"
+		},
+		{
+			"title": "George Boole, An Investigation of the Laws of Thought, on Which Are Founded the Mathematical Theories of Logic and Probabilities",
+			"url": "https://www.gutenberg.org/ebooks/15114",
+			"note": "Walton and Maberly, 1854"
+		},
+		{
+			"title": "Claude E. Shannon, A Symbolic Analysis of Relay and Switching Circuits",
+			"url": "https://doi.org/10.1109/T-AIEE.1938.5057767",
+			"note": "Transactions of the American Institute of Electrical Engineers, 1938-12"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "The Laws of Thought",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Laws_of_Thought&oldid=1363083743",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Boole",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Boole&oldid=1374150021",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Claude Shannon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Claude_Shannon&oldid=1376657034",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A Symbolic Analysis of Relay and Switching Circuits",
+			"url": "https://en.wikipedia.org/w/index.php?title=A_Symbolic_Analysis_of_Relay_and_Switching_Circuits&oldid=1352077364",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Switching circuit theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Switching_circuit_theory&oldid=1359255852",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-14"
+		},
+		{
+			"kind": "book",
+			"title": "An Investigation of the Laws of Thought, on Which Are Founded the Mathematical Theories of Logic and Probabilities",
+			"url": "https://www.gutenberg.org/ebooks/15114",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Boole",
+					"given": "George"
+				}
+			],
+			"publisher": "Walton and Maberly",
+			"place": "London",
+			"published": "1854"
+		},
+		{
+			"kind": "article",
+			"title": "A Symbolic Analysis of Relay and Switching Circuits",
+			"url": "https://doi.org/10.1109/T-AIEE.1938.5057767",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Shannon",
+					"given": "Claude E."
+				}
+			],
+			"container": "Transactions of the American Institute of Electrical Engineers",
+			"volume": "57",
+			"issue": "12",
+			"pages": "713–23",
+			"published": "1938-12"
+		},
+		{
+			"kind": "media",
+			"title": "George Boole: engraved portrait",
+			"url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Boole.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Unknown artist"
+				}
+			],
+			"container": "Engraving; AIP Emilio Segrè Visual Archives; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "boole-portrait.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Title page of Claude Shannon’s MIT master’s thesis, A Symbolic Analysis of Relay and Switching Circuits",
+			"url": "https://commons.wikimedia.org/wiki/File:Page_1_from_A_Symbolic_Analysis_of_Relay_and_Switching_Circuits.png",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Shannon",
+					"given": "Claude E."
+				}
+			],
+			"published": "1937",
+			"container": "Typescript thesis, Massachusetts Institute of Technology; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "shannon-thesis.png"
+		}
+	]
+}
