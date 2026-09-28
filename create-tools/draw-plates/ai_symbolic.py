@@ -57,7 +57,7 @@ def logic_theorist():
     top, dy = 44, 50
     # the expanded nodes, as paths of child indices from the root; every expanded node shows
     # all three children, and the proof runs 1, 0, 2, 1
-    expanded = {(), (0,), (1,), (2,), (1, 0), (1, 2), (1, 0, 2), (1, 0, 0)}
+    expanded = sorted({(), (0,), (1,), (2,), (1, 0), (1, 2), (1, 0, 2), (1, 0, 0)})  # sorted: a set's order varies by run
     proof = (1, 0, 2, 1)
     nodes = {()}
     for e in expanded:
