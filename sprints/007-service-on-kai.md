@@ -86,7 +86,8 @@ later (3413 onward).
   serve entry was created on the host with `tailscale serve --bg`, so the
   declaration and the state match. `bin/audit kai tailscale-serve` reports
   `ok`, and k-homelab's `just check` passes. The unit belongs to this repo's
-  deploy, as kfdc's did.
+  deploy, as kfdc's did. PR: k-homelab#112, open for Ken to merge. The kubs0
+  checkout was put back on `main` afterwards.
 
 ## What shipped
 
@@ -126,4 +127,21 @@ later (3413 onward).
 
 ## Follow-ups
 
-- The grown Faraday frame is waiting on `grow/kai` for Ken's review PR.
+- The grown Faraday frame is waiting on `grow/kai` for Ken to review in a
+  PR. It is the first real use of the way back.
+
+## Deployed
+
+- **2026-09-28, kai**, from this branch with `just deploy`:
+  - first at `4f12268`;
+  - then at `4a1ed1b` after the docs commit, a redeploy made to prove the
+    clone is left alone.
+- `kloom.service` is enabled and active. `tailscale serve` :4890 was added
+  on the host, and the k-homelab declaration is in PR #112.
+- `just verify` passes after each deploy: both doors read, the tailnet door
+  answers an anonymous write with 401, and the ssh door lets a write
+  through.
+- Across the redeploy the content clone stayed at `9c25d40`, clean, and the
+  start-up sync logged "grow/kai has 1 grow commit(s) waiting for a PR".
+- The deploy after the merge should run from `main`, so that `app/DEPLOYED`
+  names a commit on main.
