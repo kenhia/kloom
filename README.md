@@ -11,9 +11,14 @@ holds the narrative, charts, images and sources for the frame you are on; and
 an AI pane lets you ask for more detail or _grow_ the story — new frames on
 the main spine, or a side trail to explore.
 
-The first subject is **the History of Western Civilization**. The longer aim
-is a framework — starter code, agent skills and instructions — for generating
-a kloom on any subject.
+There are two subjects so far, both served by one app:
+
+- **the History of Western Civilization**, 18 frames and two trails;
+- **the History and Current State of AI**, 41 frames and four trails, on a
+  spine that runs from myths through dates to technologies.
+
+The longer aim is a framework (starter code, agent skills and instructions)
+for generating a kloom on any subject.
 
 ## Inspiration
 

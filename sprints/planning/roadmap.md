@@ -33,6 +33,14 @@
   grow-model setting (Opus 5.5 by default) —
   [record](../005-grow.md).
 
+- Sprint 006: a second subject (proposal 3400). The narrative follows the
+  spine by default (3391). One app serves several subjects, with a chooser
+  on the start screen (3396). The subject is the History and Current State
+  of AI (3395): 41 frames and four trails on a category → date →
+  technology → category spine, written by following the grow skill. The
+  skill's western-civ assumptions were generalised on the way —
+  [record](../006-second-subject-ai.md).
+
 ## Next
 
 - Run as a service on kai. Grow commits to the repo the service runs from,
@@ -43,10 +51,14 @@
 ## Later
 
 - **Framework**: turn the POC into starter code, skills and agent
-  instructions that generate a kloom for any subject.
-- **Explorations into AI**: the second subject, built with the framework —
-  tests the skills and the mixed-segment spine (dates, then technologies).
-- Drop the README's POC banner once both subjects and the skills hold up.
+  instructions that generate a kloom for any subject. Its input is sprint
+  006's list of what the grow skill assumed, and the authoring pipeline that
+  wrote the AI subject: a plan, parallel authors, and segment-by-segment
+  commits.
+- More subjects: Richard Feynman (korg 3397) and the History of Computing
+  (3398), and links between subjects (3399). Sprint 006 lists candidate
+  links.
+- Drop the README's POC banner once the framework has generated a subject.
 
 ## Ideas
 

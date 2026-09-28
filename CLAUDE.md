@@ -76,7 +76,10 @@ Dark / Light / Mixed palette mode) and the staged scene entrance; sprint 004
 ask (the provider interface, a headless `claude -p` adapter, "keep this",
 the `kloom.config.json` app config and the ask-model setting); sprint 005
 grow (queued jobs that commit frames and trails, written by a skill in
-`skills/grow/`), the allowlist SVG sanitiser, and optional web search for ask.
+`skills/grow/`), the allowlist SVG sanitiser, and optional web search for ask;
+sprint 006 the second subject, `subjects/ai` (66 frames), served beside
+western-civ at `/<subject>`, with the narrative following the spine by
+default.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -88,7 +91,7 @@ rules — all decided, change the doc with the code), then
 `kai:~/src/tools/koverwatch` (its sprint 001 is the scaffold template).
 `just check` runs svelte-check (warnings fail — that is where the a11y lints
 land), prettier + eslint, and vitest, which also loads and validates every
-frame of `subjects/western-civ`. Layout: `engine/` (model, loader,
+subject under `subjects/`. Layout: `engine/` (model, loader,
 validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
 `src/` (SvelteKit wiring — the only code that picks a subject),
 `create-tools/` (authoring scripts: plates, citations, charts, traced art),

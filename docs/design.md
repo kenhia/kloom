@@ -61,7 +61,11 @@ baked into the engine.
   `position {label, sort?}`, `scene` and `sources`. Label kinds are `date`,
   `category` and `technology`; only `date` segments need a `sort` and must be
   non-decreasing. Every frame sits on exactly one spine, and a trail's
-  anchor must be a main-spine frame. Validation collects every problem in one
+  anchor must be a main-spine frame. No two frames of a subject share an
+  accent word, ignoring case and the full stop (sprint 006; grow is held to
+  it too). A time-sensitive frame may carry `asOf` (`YYYY-MM` or
+  `YYYY-MM-DD`): the reading pane shows "As of September 27, 2026" beside
+  the position, and ask's prompt says the frame is dated. Validation collects every problem in one
   pass and the site refuses to serve an invalid subject. Reading markdown is
   rendered with raw HTML escaped. Links and images are kept only for http(s)
   or scheme-less URLs, judged after the entity and control-character
@@ -83,7 +87,9 @@ baked into the engine.
     (the site or collection), `publisher`, `place`, `published` (`YYYY`,
     `YYYY-MM` or `YYYY-MM-DD`; for Wikipedia, the revision's date, rendered
     "Last modified"), for journal articles `volume`, `issue` and `pages`, and
-    for media `licence` and `file`.
+    for media `licence` and `file`. `etAl: true` ends a long author list
+    with "et al." in the entry and in a caption credit (sprint 006): a
+    paper with hundreds of authors lists the first.
   - Every citation needs a title, an http(s) url and an accessed date. Any
     Wikipedia url must be a permanent revision link (`oldid=`), because
     articles change.
@@ -105,7 +111,10 @@ baked into the engine.
   numbers for screen readers.
 - **Authoring tools** (sprint 002) — `create-tools/` holds the scripts that
   made the content (plates, Wikipedia citations, charts, traced art), one
-  directory per tool with its own README. Skills for new subjects and grow
+  directory per tool with its own README. Sprint 006 added `subject-plan`
+  (the spine and trails from a plan, holding only the frames written so
+  far), `commons-media` (a freely licensed image and its `media` citation)
+  and a log scale for `bar-chart`. Skills for new subjects and grow
   point there; an agent creating a subject may add tools.
 - **Palette counterparts** (sprint 003) — a palette may name a
   `counterpart`: a palette of the other scheme that stands in for it when
@@ -432,6 +441,28 @@ Built in sprint 006 (korg 3396). One running app serves every subject.
   is clearly per-subject, so none is scoped.
 - The engine still never names a subject: the shell passes `subject.id`
   through, and the page resolves the chooser's links.
+
+## The second subject
+
+Built in sprint 006 (korg 3395): `subjects/ai`, the History and Current
+State of AI, with 41 main-spine frames and four trails. It was the Cutler
+rule's test, and it is described in its sprint record.
+
+- **The first mixed spine.** Its segments run `category` (myths and
+  philosophers), then `date` (1843–2012), then `technology` (from
+  embeddings to compute), then `category` (open questions). The engine
+  needed nothing new for it: the HUD shows each segment's own labels, and
+  the timeline marks segment boundaries with taller ticks and branch
+  points with rings. It held 41 stops at phone width.
+- **Its own look.** Three pairs of dark and light palettes, each the
+  other's counterpart: blueprint and drafting, terminal and printout,
+  neural and whitepaper. They follow the eras loosely, and they alternate
+  within a segment where western-civ's stay in one.
+- **Authored the way the framework will author.** A plan comes first
+  (`create-tools/subject-plan/ai.json`). Frames were written by following
+  `skills/grow/SKILL.md`, by several authors at once, and committed
+  segment by segment. Every place the skill assumed western-civ was
+  generalised in the skill (the record lists them).
 
 ## Start screen
 
