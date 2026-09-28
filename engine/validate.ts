@@ -196,22 +196,19 @@ export function validate(raw: RawSubject): string[] {
 		)
 			fail(where, 'asOf must be YYYY-MM or YYYY-MM-DD');
 
-		if (!Array.isArray(frame.sources) || frame.sources.length === 0)
-			fail(where, 'sources are required — every frame carries at least one');
-		else
-			frame.sources.forEach((s: unknown, i) => {
-				if (!isObj(s) || !isText(s.title)) fail(where, `source ${i} needs a title`);
-				else if (s.url !== undefined && !(isText(s.url) && /^https?:\/\//.test(s.url)))
-					fail(where, `source ${i} url must be http(s)`);
-			});
+		// Sources are derived from the key citations (sprint 008): a hand-kept
+		// list beside them is the old form, and would silently go unshown.
+		if (frame.sources !== undefined)
+			fail(where, 'sources is not written any more: flag the key citations with "key": true');
 
-		// Citations are optional, but an image or chart the reading uses is not
-		// shown without a media citation carrying its licence.
+		// Every frame flags at least one key source. An image or chart the
+		// reading uses is not shown without a media citation carrying its licence.
 		const credited = new Set<string>();
-		if (frame.citations !== undefined && !Array.isArray(frame.citations))
-			fail(where, 'citations must be a list');
-		else
-			(frame.citations ?? []).forEach((c: unknown, i: number) => {
+		if (!Array.isArray(frame.citations)) fail(where, 'citations are required, as a list');
+		else if (!frame.citations.some((c) => isObj(c) && c.key === true))
+			fail(where, 'every frame flags at least one key-source citation ("key": true)');
+		if (Array.isArray(frame.citations))
+			frame.citations.forEach((c: unknown, i: number) => {
 				for (const problem of citationProblems(c)) fail(`${where} citation ${i}`, problem);
 				if (!isObj(c) || c.kind !== 'media' || !isText(c.file)) return;
 				if (!media.includes(c.file))
@@ -224,8 +221,15 @@ export function validate(raw: RawSubject): string[] {
 			for (const ref of imageRefs(reading)) {
 				if (!MEDIA_FILE.test(ref) || !media.includes(ref))
 					fail(where, `image "${ref}" must be an image file in the frame's directory`);
-				else if (!credited.has(ref))
-					fail(where, `image "${ref}" needs a media citation with a licence`);
+				else {
+					if (!credited.has(ref))
+						fail(where, `image "${ref}" needs a media citation with a licence`);
+					// An SVG image is inlined (a chart takes the page's palette), so it
+					// passes the same allowlist as an illustration.
+					if (ref.endsWith('.svg'))
+						for (const problem of sanitiseSvg(svgs[ref] ?? '').problems)
+							fail(where, `image "${ref}": ${problem}`);
+				}
 			}
 	}
 

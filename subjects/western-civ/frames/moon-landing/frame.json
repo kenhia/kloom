@@ -15,24 +15,10 @@
 			"label": "km from home"
 		}
 	},
-	"sources": [
-		{
-			"title": "Apollo 11 — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Apollo_11"
-		},
-		{
-			"title": "Saturn V — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Saturn_V"
-		},
-		{
-			"title": "Apollo 11 Mission Overview",
-			"url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
-			"note": "NASA"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Apollo 11",
 			"url": "https://en.wikipedia.org/w/index.php?title=Apollo_11&oldid=1371120273",
 			"accessed": "2026-09-26",
@@ -47,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Saturn V",
 			"url": "https://en.wikipedia.org/w/index.php?title=Saturn_V&oldid=1368745721",
 			"accessed": "2026-09-26",
@@ -61,6 +48,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Apollo 11 Mission Overview",
 			"url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
 			"accessed": "2026-09-26",

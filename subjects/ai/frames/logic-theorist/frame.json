@@ -15,37 +15,10 @@
 			"label": "Principia theorems proved"
 		}
 	},
-	"sources": [
-		{
-			"title": "Logic Theorist — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Logic_Theorist"
-		},
-		{
-			"title": "General Problem Solver — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/General_Problem_Solver"
-		},
-		{
-			"title": "Herbert A. Simon — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Herbert_A._Simon"
-		},
-		{
-			"title": "History of artificial intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-		},
-		{
-			"title": "Allen Newell, Herbert A. Simon, “The Logic Theory Machine: A Complex Information Processing System”",
-			"url": "https://doi.org/10.1109/TIT.1956.1056797",
-			"note": "IRE Transactions on Information Theory, 1956"
-		},
-		{
-			"title": "Herbert A. Simon, Allen Newell, “Heuristic Problem Solving: The Next Advance in Operations Research”",
-			"url": "https://doi.org/10.1287/opre.6.1.1",
-			"note": "Operations Research, 1958"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Logic Theorist",
 			"url": "https://en.wikipedia.org/w/index.php?title=Logic_Theorist&oldid=1366443812",
 			"accessed": "2026-09-27",
@@ -60,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "General Problem Solver",
 			"url": "https://en.wikipedia.org/w/index.php?title=General_Problem_Solver&oldid=1339092741",
 			"accessed": "2026-09-27",
@@ -74,6 +48,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Herbert A. Simon",
 			"url": "https://en.wikipedia.org/w/index.php?title=Herbert_A._Simon&oldid=1372006310",
 			"accessed": "2026-09-27",
@@ -88,6 +63,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "History of artificial intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
 			"accessed": "2026-09-27",
@@ -102,8 +78,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "The Logic Theory Machine: A Complex Information Processing System",
-			"url": "https://doi.org/10.1109/TIT.1956.1056797",
+			"doi": "10.1109/TIT.1956.1056797",
 			"authors": [
 				{
 					"family": "Newell",
@@ -123,8 +100,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Heuristic Problem Solving: The Next Advance in Operations Research",
-			"url": "https://doi.org/10.1287/opre.6.1.1",
+			"doi": "10.1287/opre.6.1.1",
 			"authors": [
 				{
 					"family": "Simon",

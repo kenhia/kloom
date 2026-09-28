@@ -1,29 +1,22 @@
 import { chicagoText } from '../citation';
-import type { Citation, Source } from '../model';
+import type { Citation } from '../model';
 import type { AskContext } from './provider';
 
 /**
- * The ask prompt, shared by every adapter. The frame's citations and sources
- * are numbered so the model can mark what it drew on with `[n]`, and "keep
- * this" can carry exactly those (docs/design.md §Ask).
+ * The ask prompt, shared by every adapter. The frame's citations are
+ * numbered so the model can mark what it drew on with `[n]`, and "keep this"
+ * can carry exactly those (docs/design.md §Ask). Since sprint 008 a frame's
+ * Sources list is its key citations, so the citations are every reference.
  */
 
-/** One numbered reference: a structured citation, or a plain source. */
-export type Reference = { citation: Citation } | { source: Source };
+/** One numbered reference: a structured citation. */
+export type Reference = { citation: Citation };
 
-/** The frame's references in prompt order: citations, then sources not already cited. */
-export function references(frame: AskContext['frame']): Reference[] {
-	const cited = new Set(frame.citations.map((c) => c.url));
-	return [
-		...frame.citations.map((citation) => ({ citation })),
-		...frame.sources.filter((s) => !s.url || !cited.has(s.url)).map((source) => ({ source }))
-	];
-}
+/** The frame's references in prompt order: its citations as written. */
+export const references = (frame: AskContext['frame']): Reference[] =>
+	frame.citations.map((citation) => ({ citation }));
 
-const referenceLine = (r: Reference, n: number) =>
-	'citation' in r
-		? `[${n}] ${chicagoText(r.citation)}`
-		: `[${n}] ${r.source.title}${r.source.url ? ` — ${r.source.url}` : ''}${r.source.note ? ` (${r.source.note})` : ''}`;
+const referenceLine = (r: Reference, n: number) => `[${n}] ${chicagoText(r.citation)}`;
 
 const ASK_SYSTEM = `You answer a reader's question inside kloom, an interactive timeline for learning a subject. The reader is looking at one frame of it; the frame's reading and numbered sources come with the question.
 

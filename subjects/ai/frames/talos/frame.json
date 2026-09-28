@@ -14,28 +14,10 @@
 			"label": "circuits of Crete, every day"
 		}
 	},
-	"sources": [
-		{
-			"title": "Talos — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Talos"
-		},
-		{
-			"title": "Automaton — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Automaton"
-		},
-		{
-			"title": "History of artificial intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-		},
-		{
-			"title": "Adrienne Mayor, Gods and Robots: Myths, Machines, and Ancient Dreams of Technology",
-			"url": "https://press.princeton.edu/books/hardcover/9780691183510/gods-and-robots",
-			"note": "Princeton University Press, 2018"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Talos",
 			"url": "https://en.wikipedia.org/w/index.php?title=Talos&oldid=1377073327",
 			"accessed": "2026-09-27",
@@ -50,6 +32,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Automaton",
 			"url": "https://en.wikipedia.org/w/index.php?title=Automaton&oldid=1376381196",
 			"accessed": "2026-09-27",
@@ -64,6 +47,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "History of artificial intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
 			"accessed": "2026-09-27",
@@ -78,6 +62,7 @@
 		},
 		{
 			"kind": "book",
+			"key": true,
 			"title": "Gods and Robots: Myths, Machines, and Ancient Dreams of Technology",
 			"url": "https://press.princeton.edu/books/hardcover/9780691183510/gods-and-robots",
 			"accessed": "2026-09-27",

@@ -14,42 +14,10 @@
 			"label": "numbers in each token vector, Llama 3 405B"
 		}
 	},
-	"sources": [
-		{
-			"title": "Ashish Vaswani et al., Attention Is All You Need",
-			"url": "https://arxiv.org/abs/1706.03762",
-			"note": "NeurIPS 2017"
-		},
-		{
-			"title": "Alec Radford et al., Language Models Are Unsupervised Multitask Learners (GPT-2)",
-			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
-			"note": "OpenAI, 2019"
-		},
-		{
-			"title": "Jianlin Su et al., RoFormer: Enhanced Transformer with Rotary Position Embedding",
-			"url": "https://arxiv.org/abs/2104.09864",
-			"note": "Neurocomputing 568 (2024)"
-		},
-		{
-			"title": "Hugo Touvron et al., Llama 2: Open Foundation and Fine-Tuned Chat Models",
-			"url": "https://arxiv.org/abs/2307.09288"
-		},
-		{
-			"title": "Llama Team, AI @ Meta, The Llama 3 Herd of Models",
-			"url": "https://arxiv.org/abs/2407.21783"
-		},
-		{
-			"title": "Word embedding — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Word_embedding"
-		},
-		{
-			"title": "Transformer (deep learning) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)"
-		}
-	],
 	"citations": [
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Attention Is All You Need",
 			"url": "https://arxiv.org/abs/1706.03762",
 			"accessed": "2026-09-27",
@@ -92,7 +60,8 @@
 			"volume": "30"
 		},
 		{
-			"kind": "web",
+			"kind": "report",
+			"key": true,
 			"title": "Language Models Are Unsupervised Multitask Learners",
 			"url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
 			"accessed": "2026-09-27",
@@ -127,8 +96,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
-			"url": "https://doi.org/10.1016/j.neucom.2023.127063",
+			"doi": "10.1016/j.neucom.2023.127063",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -163,6 +133,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
 			"url": "https://arxiv.org/abs/2307.09288",
 			"accessed": "2026-09-27",
@@ -178,6 +149,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "The Llama 3 Herd of Models",
 			"url": "https://arxiv.org/abs/2407.21783",
 			"accessed": "2026-09-27",
@@ -191,6 +163,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Word embedding",
 			"url": "https://en.wikipedia.org/w/index.php?title=Word_embedding&oldid=1374850731",
 			"accessed": "2026-09-27",
@@ -205,6 +178,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Transformer (deep learning)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Transformer_(deep_learning)&oldid=1377087904",
 			"accessed": "2026-09-27",

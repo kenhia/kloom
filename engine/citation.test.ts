@@ -7,6 +7,8 @@ import {
 	chicagoDate,
 	chicagoText,
 	citationProblems,
+	keySource,
+	keySources,
 	needsCaption,
 	type Citation
 } from './citation';
@@ -45,7 +47,7 @@ const book: Citation = {
 const article: Citation = {
 	kind: 'article',
 	title: 'Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid',
-	url: 'https://doi.org/10.1038/171737a0',
+	doi: '10.1038/171737a0',
 	accessed: '2026-09-26',
 	authors: [
 		{ family: 'Watson', given: 'J. D.' },
@@ -56,6 +58,38 @@ const article: Citation = {
 	issue: '4356',
 	pages: '737–38',
 	published: '1953-04-25'
+};
+
+const chapter: Citation = {
+	kind: 'chapter',
+	title: 'Artificial Intelligence: A General Survey',
+	url: 'https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm',
+	accessed: '2026-09-27',
+	authors: [{ family: 'Lighthill', given: 'James' }],
+	container: 'Artificial Intelligence: A Paper Symposium',
+	editors: [
+		{ family: 'Smith', given: 'Ann' },
+		{ family: 'Jones', given: 'Bo' }
+	],
+	pages: '1–21',
+	place: 'London',
+	publisher: 'Science Research Council',
+	published: '1973'
+};
+
+const report: Citation = {
+	kind: 'report',
+	title: 'Mark I Perceptron Operators’ Manual (Project PARA)',
+	url: 'https://apps.dtic.mil/sti/tr/pdf/AD0236965.pdf',
+	accessed: '2026-09-27',
+	authors: [
+		{ family: 'Hay', given: 'John C.' },
+		{ family: 'Murray', given: 'Albert E.' }
+	],
+	number: 'Report VG-1196-G-5',
+	place: 'Buffalo, NY',
+	publisher: 'Cornell Aeronautical Laboratory',
+	published: '1960-02-15'
 };
 
 const image: Citation = {
@@ -104,6 +138,45 @@ describe('chicago', () => {
 				'Accessed September 26, 2026. https://doi.org/10.1038/171737a0.'
 		);
 		expect(chicago(article).filter((p) => p.italic)).toEqual([{ text: 'Nature', italic: true }]);
+	});
+
+	it('formats a chapter in a proceedings or symposium volume, volume in italics', () => {
+		expect(chicagoText(chapter)).toBe(
+			'Lighthill, James. “Artificial Intelligence: A General Survey.” In Artificial ' +
+				'Intelligence: A Paper Symposium, edited by Ann Smith and Bo Jones, 1–21. London: ' +
+				'Science Research Council, 1973. Accessed September 27, 2026. ' +
+				'https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm.'
+		);
+		expect(chicago(chapter).filter((p) => p.italic)).toEqual([
+			{ text: 'Artificial Intelligence: A Paper Symposium', italic: true }
+		]);
+		const { editors, pages, ...plain } = chapter;
+		void editors;
+		void pages;
+		expect(chicagoText(plain)).toContain(
+			'In Artificial Intelligence: A Paper Symposium. London: Science Research Council, 1973.'
+		);
+	});
+
+	it('formats a report, title in italics, with its number', () => {
+		expect(chicagoText(report)).toBe(
+			'Hay, John C., and Albert E. Murray. Mark I Perceptron Operators’ Manual (Project PARA). ' +
+				'Report VG-1196-G-5. Buffalo, NY: Cornell Aeronautical Laboratory, February 15, 1960. ' +
+				'Accessed September 27, 2026. https://apps.dtic.mil/sti/tr/pdf/AD0236965.pdf.'
+		);
+		expect(chicago(report).filter((p) => p.italic).length).toBe(1);
+	});
+
+	it('links a DOI at doi.org, in place of the url', () => {
+		const withBoth = { ...article, url: 'https://www.nature.com/articles/171737a0' };
+		expect(chicago(withBoth).filter((p) => p.href)).toEqual([
+			{ text: 'https://doi.org/10.1038/171737a0', href: 'https://doi.org/10.1038/171737a0' }
+		]);
+	});
+
+	it('dates an approximate date "ca."', () => {
+		expect(chicagoDate('1951', true)).toBe('ca. 1951');
+		expect(chicagoText({ ...image, circa: true })).toContain('Power Loom. ca. 1895. Wikimedia');
 	});
 
 	it('formats a public-domain image with its licence', () => {
@@ -160,6 +233,10 @@ describe('chicago parts', () => {
 		expect(chicagoAuthors([a, b])).toBe('Buringh, Eltjo, and Jan Luiten van Zanden');
 		expect(chicagoAuthors([a, b, c])).toBe('Buringh, Eltjo, Jan Luiten van Zanden, and Ann Smith');
 		expect(chicagoAuthors([{ name: 'NASA' }])).toBe('NASA');
+		// A suffix after the given names stays there inverted, and goes last in natural order.
+		const edwards = { family: 'Edwards', given: 'Mark U., Jr.' };
+		expect(chicagoAuthors([edwards, a])).toBe('Edwards, Mark U., Jr., and Eltjo Buringh');
+		expect(chicagoAuthors([a, edwards])).toBe('Buringh, Eltjo, and Mark U. Edwards Jr.');
 	});
 
 	it('ends a long author list with et al., without doubling the full stop', () => {
@@ -190,16 +267,84 @@ describe('chicago parts', () => {
 	});
 });
 
-describe('citationProblems', () => {
-	it('accepts every example', () => {
-		for (const c of [wikipedia, web, book, article, image]) expect(citationProblems(c)).toEqual([]);
+describe('key sources', () => {
+	it('names a key citation the way the Sources list always read', () => {
+		expect(keySource(wikipedia)).toEqual({
+			title: 'Printing press — Wikipedia',
+			url: wikipedia.url
+		});
+		expect(keySource(article)).toEqual({
+			title:
+				'J. D. Watson and F. H. C. Crick, Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid',
+			url: 'https://doi.org/10.1038/171737a0',
+			note: 'Nature, April 25, 1953'
+		});
+		expect(keySource({ ...book, note: 'The standard history' })).toEqual({
+			title: 'Elizabeth L. Eisenstein, The Printing Press as an Agent of Change',
+			url: book.url,
+			note: 'Cambridge University Press, 1979. The standard history'
+		});
+		expect(
+			keySource({ ...web, title: 'A page', container: undefined, published: undefined })
+		).toEqual({ title: 'A page', url: web.url });
 	});
 
-	it('requires title, url and accessed date', () => {
+	it('shortens more than three authors, or a list that runs on, to et al.', () => {
+		const four = ['A', 'B', 'C', 'D'].map((family) => ({ family }));
+		expect(keySource({ ...web, authors: four }).title).toBe('A et al., Apollo 11 Mission Overview');
+		expect(keySource({ ...web, authors: four.slice(0, 3) }).title).toBe(
+			'A, B, and C, Apollo 11 Mission Overview'
+		);
+		expect(keySource({ ...web, authors: four.slice(0, 1), etAl: true }).title).toBe(
+			'A et al., Apollo 11 Mission Overview'
+		);
+	});
+
+	it('lists only the key citations, in the order they are written', () => {
+		const list = keySources([web, { ...book, key: true }, image, { ...wikipedia, key: true }]);
+		expect(list.map((s) => s.url)).toEqual([book.url, wikipedia.url]);
+	});
+});
+
+describe('citationProblems', () => {
+	it('accepts every example', () => {
+		for (const c of [wikipedia, web, book, article, chapter, report, image])
+			expect(citationProblems(c)).toEqual([]);
+	});
+
+	it('requires title, url or doi, and accessed date', () => {
 		expect(citationProblems({ kind: 'web' })).toEqual([
 			'title is required',
-			'url is required',
+			'url is required, unless there is a doi',
 			'accessed date is required, as YYYY-MM-DD'
+		]);
+	});
+
+	it('takes a bare DOI, and wants a doi.org link written as one', () => {
+		expect(citationProblems({ ...article, doi: 'https://doi.org/10.1038/171737a0' })).toEqual([
+			'doi must be a bare DOI, like 10.1109/5.58323'
+		]);
+		expect(citationProblems({ ...web, url: 'https://doi.org/10.1038/171737a0' })).toEqual([
+			'a doi.org url goes in doi, as the bare DOI'
+		]);
+	});
+
+	it('takes circa only with a date, and key only as a flag', () => {
+		expect(citationProblems({ ...web, circa: true, key: true })).toEqual([]);
+		expect(citationProblems({ ...web, published: undefined, circa: true, key: 'yes' })).toEqual([
+			'circa must be true or false, with a published date',
+			'key must be true or false'
+		]);
+	});
+
+	it('needs a chapter’s volume, and well-formed editors, number and note', () => {
+		expect(
+			citationProblems({ ...chapter, container: undefined, editors: ['X'], number: 5, note: '' })
+		).toEqual([
+			'editors must each have a family name or a name',
+			'number must be text',
+			'note must be text',
+			'a chapter needs its container: the volume or proceedings it appears in'
 		]);
 	});
 
@@ -240,7 +385,7 @@ describe('citationProblems', () => {
 				authors: ['NASA']
 			})
 		).toEqual([
-			'kind must be one of web, wikipedia, book, article, media',
+			'kind must be one of web, wikipedia, book, article, chapter, report, media',
 			'url must be http(s)',
 			'accessed date is required, as YYYY-MM-DD',
 			'published must be YYYY, YYYY-MM or YYYY-MM-DD',

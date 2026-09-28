@@ -15,23 +15,10 @@
 			"label": "across the dome"
 		}
 	},
-	"sources": [
-		{
-			"title": "Pantheon, Rome — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Pantheon,_Rome"
-		},
-		{
-			"title": "Roman concrete — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Roman_concrete"
-		},
-		{
-			"title": "Colosseum — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Colosseum"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Pantheon, Rome",
 			"url": "https://en.wikipedia.org/w/index.php?title=Pantheon,_Rome&oldid=1376240168",
 			"accessed": "2026-09-26",
@@ -46,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Roman concrete",
 			"url": "https://en.wikipedia.org/w/index.php?title=Roman_concrete&oldid=1358938062",
 			"accessed": "2026-09-26",
@@ -60,6 +48,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Colosseum",
 			"url": "https://en.wikipedia.org/w/index.php?title=Colosseum&oldid=1374578762",
 			"accessed": "2026-09-26",

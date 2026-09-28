@@ -15,39 +15,10 @@
 			"label": "connections in the 1982 network"
 		}
 	},
-	"sources": [
-		{
-			"title": "Hopfield network — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Hopfield_network"
-		},
-		{
-			"title": "John Hopfield — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/John_Hopfield"
-		},
-		{
-			"title": "J. J. Hopfield, Neural Networks and Physical Systems with Emergent Collective Computational Abilities",
-			"url": "https://doi.org/10.1073/pnas.79.8.2554",
-			"note": "Proceedings of the National Academy of Sciences"
-		},
-		{
-			"title": "The Royal Swedish Academy of Sciences, The Nobel Prize in Physics 2024: Press release",
-			"url": "https://www.nobelprize.org/prizes/physics/2024/press-release/",
-			"note": "NobelPrize.org, 8 October 2024"
-		},
-		{
-			"title": "The Royal Swedish Academy of Sciences, They Used Physics to Find Patterns in Information: Popular Science Background to the Nobel Prize in Physics 2024",
-			"url": "https://www.nobelprize.org/uploads/2024/11/popular-physicsprize2024-3.pdf",
-			"note": "Text by Anna Davour"
-		},
-		{
-			"title": "The Nobel Committee for Physics, Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
-			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
-			"note": "The Royal Swedish Academy of Sciences"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Hopfield network",
 			"url": "https://en.wikipedia.org/w/index.php?title=Hopfield_network&oldid=1370183634",
 			"accessed": "2026-09-27",
@@ -62,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "John Hopfield",
 			"url": "https://en.wikipedia.org/w/index.php?title=John_Hopfield&oldid=1375521134",
 			"accessed": "2026-09-27",
@@ -76,8 +48,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Neural Networks and Physical Systems with Emergent Collective Computational Abilities",
-			"url": "https://doi.org/10.1073/pnas.79.8.2554",
+			"doi": "10.1073/pnas.79.8.2554",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -93,6 +66,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "The Nobel Prize in Physics 2024: Press release",
 			"url": "https://www.nobelprize.org/prizes/physics/2024/press-release/",
 			"accessed": "2026-09-27",
@@ -107,6 +81,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "They Used Physics to Find Patterns in Information: Popular Science Background to the Nobel Prize in Physics 2024",
 			"url": "https://www.nobelprize.org/uploads/2024/11/popular-physicsprize2024-3.pdf",
 			"accessed": "2026-09-27",
@@ -117,10 +92,12 @@
 			],
 			"container": "NobelPrize.org",
 			"publisher": "The Royal Swedish Academy of Sciences",
-			"published": "2024-10-08"
+			"published": "2024-10-08",
+			"note": "Text by Anna Davour"
 		},
 		{
-			"kind": "web",
+			"kind": "report",
+			"key": true,
 			"title": "Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
 			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
 			"accessed": "2026-09-27",
@@ -129,9 +106,9 @@
 					"name": "The Nobel Committee for Physics"
 				}
 			],
-			"container": "NobelPrize.org",
 			"publisher": "The Royal Swedish Academy of Sciences",
-			"published": "2024-10-08"
+			"published": "2024-10-08",
+			"place": "Stockholm"
 		},
 		{
 			"kind": "media",

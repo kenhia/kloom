@@ -2,10 +2,12 @@
 
     python3 create-tools/bar-chart/bar_chart.py spec.json out.svg
 
-The chart is shown with <img>, so it cannot inherit the page's palette: the
-spec names its colours (use the frame's palette). It carries <title> and
-<desc> for screen readers; put the same numbers in a markdown table under
-the image too. Standard library only. See README.md for the spec.
+The chart is inlined into the reading pane through the illustration
+sanitiser, so it takes the reader's palette: it draws in currentColor (the
+page's ink), and the page colours its `muted` and `accent` classes. It
+carries <title> and <desc> for anyone opening the file on its own; in the
+page, the markdown image's alt text names it. Put the same numbers in a
+markdown table under the image too. Standard library only. See README.md.
 """
 import json, math, sys
 from xml.sax.saxutils import escape
@@ -32,20 +34,20 @@ def scaler(spec, y0, y1):
 def chart(spec):
     W, H = spec.get('width', 480), spec.get('height', 300)
     x0, y0, x1, y1 = 64, 36, W - 20, H - 50
-    c = spec['colours']
     at = scaler(spec, y0, y1)
     base = spec['axis']['min'] if spec.get('scale') == 'log' else 0
     unit = spec.get('unit', '')
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">',
            f'<title id="t">{esc(spec["title"])}</title>',
            f'<desc id="d">{esc(spec["description"])}</desc>',
-           f'<rect width="{W}" height="{H}" fill="{c["background"]}"/>',
-           f'<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="{c["muted"]}">']
+           '<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">',
+           '<g class="muted">']
     for v, lab in spec['axis']['ticks']:
         y = at(v)
-        out.append(f'<line x1="{x0}" x2="{x1}" y1="{y:.1f}" y2="{y:.1f}" stroke="{c["muted"]}" '
+        out.append(f'<line x1="{x0}" x2="{x1}" y1="{y:.1f}" y2="{y:.1f}" stroke="currentColor" '
                    f'stroke-opacity="{0.9 if v == base else 0.3}" stroke-width="{1 if v == base else 0.6}"/>')
         out.append(f'<text x="{x0 - 8}" y="{y + 4:.1f}" text-anchor="end">{esc(lab)}</text>')
+    out.append('</g>')
     bars = spec['bars']
     bw = spec.get('barWidth', 56)
     slot = (x1 - x0) / len(bars)
@@ -55,12 +57,12 @@ def chart(spec):
         hi = b.get('highlight', False)
         shown = b.get('display', label(b['value'], unit))
         out.append(f'<rect x="{cx - bw / 2:.1f}" y="{y1 - h:.1f}" width="{bw}" height="{max(h, 1):.1f}" '
-                   f'fill="{c["accent"] if hi else c["ink"]}" fill-opacity="{1 if hi else 0.85}"/>')
-        out.append(f'<text x="{cx:.1f}" y="{y1 - h - 6:.1f}" text-anchor="middle" fill="{c["ink"]}">{esc(shown)}</text>')
-        out.append(f'<text x="{cx:.1f}" y="{y1 + 16}" text-anchor="middle" fill="{c["ink"]}">{esc(b["label"])}</text>')
+                   + ('class="accent" fill="currentColor"/>' if hi else 'fill-opacity="0.85"/>'))
+        out.append(f'<text x="{cx:.1f}" y="{y1 - h - 6:.1f}" text-anchor="middle">{esc(shown)}</text>')
+        out.append(f'<text x="{cx:.1f}" y="{y1 + 16}" text-anchor="middle">{esc(b["label"])}</text>')
         if b.get('sublabel'):
-            out.append(f'<text x="{cx:.1f}" y="{y1 + 30}" text-anchor="middle" font-size="9">{esc(b["sublabel"])}</text>')
-    out.append(f'<text x="{x0}" y="20" font-size="12" fill="{c["ink"]}" letter-spacing="1">{esc(spec["heading"])}</text>')
+            out.append(f'<text x="{cx:.1f}" y="{y1 + 30}" text-anchor="middle" font-size="9" class="muted" fill="currentColor">{esc(b["sublabel"])}</text>')
+    out.append(f'<text x="{x0}" y="20" font-size="12" letter-spacing="1">{esc(spec["heading"])}</text>')
     out.append('</g></svg>')
     return '\n'.join(out) + '\n'
 

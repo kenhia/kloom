@@ -15,19 +15,10 @@
 			"label": "bricks"
 		}
 	},
-	"sources": [
-		{
-			"title": "Florence Cathedral — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Florence_Cathedral"
-		},
-		{
-			"title": "Filippo Brunelleschi — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Filippo_Brunelleschi"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Florence Cathedral",
 			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Cathedral&oldid=1372317847",
 			"accessed": "2026-09-26",
@@ -42,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Filippo Brunelleschi",
 			"url": "https://en.wikipedia.org/w/index.php?title=Filippo_Brunelleschi&oldid=1376364274",
 			"accessed": "2026-09-26",

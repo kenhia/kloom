@@ -15,28 +15,10 @@
 			"label": "regular solids, and no more"
 		}
 	},
-	"sources": [
-		{
-			"title": "Pre-Socratic philosophy — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Pre-Socratic_philosophy"
-		},
-		{
-			"title": "Timaeus (dialogue) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Timaeus_(dialogue)"
-		},
-		{
-			"title": "Platonic solid — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Platonic_solid"
-		},
-		{
-			"title": "Plato, Timaeus",
-			"url": "https://www.gutenberg.org/ebooks/1572",
-			"note": "Project Gutenberg"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Pre-Socratic philosophy",
 			"url": "https://en.wikipedia.org/w/index.php?title=Pre-Socratic_philosophy&oldid=1371554535",
 			"accessed": "2026-09-26",
@@ -51,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Timaeus (dialogue)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Timaeus_(dialogue)&oldid=1373405450",
 			"accessed": "2026-09-26",
@@ -65,6 +48,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Platonic solid",
 			"url": "https://en.wikipedia.org/w/index.php?title=Platonic_solid&oldid=1376700773",
 			"accessed": "2026-09-26",
@@ -79,6 +63,7 @@
 		},
 		{
 			"kind": "book",
+			"key": true,
 			"title": "Timaeus",
 			"url": "https://www.gutenberg.org/ebooks/1572",
 			"accessed": "2026-09-26",

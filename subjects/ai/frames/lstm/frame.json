@@ -18,44 +18,12 @@
 		},
 		"illustration": "scene.svg"
 	},
-	"sources": [
-		{
-			"title": "Sepp Hochreiter, Jürgen Schmidhuber, Long Short-Term Memory",
-			"url": "https://doi.org/10.1162/neco.1997.9.8.1735",
-			"note": "Neural Computation, 1997"
-		},
-		{
-			"title": "Yonghui Wu et al., Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
-			"url": "https://arxiv.org/abs/1609.08144",
-			"note": "arXiv, 2016"
-		},
-		{
-			"title": "Haşim Sak et al., Google Voice Search: Faster and More Accurate",
-			"url": "https://research.google/blog/google-voice-search-faster-and-more-accurate/",
-			"note": "Google Research Blog, 2015"
-		},
-		{
-			"title": "Long short-term memory — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Long_short-term_memory"
-		},
-		{
-			"title": "Vanishing gradient problem — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Vanishing_gradient_problem"
-		},
-		{
-			"title": "Sepp Hochreiter — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Sepp_Hochreiter"
-		},
-		{
-			"title": "Deep Blue (chess computer) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Long Short-Term Memory",
-			"url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+			"doi": "10.1162/neco.1997.9.8.1735",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -75,6 +43,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
 			"url": "https://arxiv.org/abs/1609.08144",
 			"accessed": "2026-09-27",
@@ -90,6 +59,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Google Voice Search: Faster and More Accurate",
 			"url": "https://research.google/blog/google-voice-search-faster-and-more-accurate/",
 			"accessed": "2026-09-27",
@@ -120,6 +90,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Long short-term memory",
 			"url": "https://en.wikipedia.org/w/index.php?title=Long_short-term_memory&oldid=1368708291",
 			"accessed": "2026-09-27",
@@ -134,6 +105,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Vanishing gradient problem",
 			"url": "https://en.wikipedia.org/w/index.php?title=Vanishing_gradient_problem&oldid=1371947961",
 			"accessed": "2026-09-27",
@@ -148,6 +120,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Sepp Hochreiter",
 			"url": "https://en.wikipedia.org/w/index.php?title=Sepp_Hochreiter&oldid=1373946247",
 			"accessed": "2026-09-27",
@@ -162,6 +135,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Deep Blue (chess computer)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Deep_Blue_(chess_computer)&oldid=1375427728",
 			"accessed": "2026-09-27",

@@ -29,8 +29,9 @@ describe('kept answers', () => {
 			answer: answer.answer,
 			keptAt: '2026-09-27T17:06:00.000Z'
 		});
-		expect(kept.citations.map((c) => c.title)).toEqual(['Ink']);
-		expect(kept.sources.map((s) => s.title)).toEqual(['A book with no link']);
+		expect(kept.citations.map((c) => c.title)).toEqual(['Ink', 'A book with a DOI']);
+		// Sources are key citations now (sprint 008); the field stays, empty, for version 1.
+		expect(kept.sources).toEqual([]);
 		expect(keptAnswerProblems(kept)).toEqual([]);
 	});
 

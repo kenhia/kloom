@@ -15,32 +15,12 @@
 			"label": "hours of play to beat its author"
 		}
 	},
-	"sources": [
-		{
-			"title": "Arthur L. Samuel, Some Studies in Machine Learning Using the Game of Checkers",
-			"url": "https://doi.org/10.1147/rd.33.0210",
-			"note": "IBM Journal of Research and Development, 1959"
-		},
-		{
-			"title": "Arthur Samuel (computer scientist) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)"
-		},
-		{
-			"title": "Arthur Samuel's Legacy",
-			"url": "https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html",
-			"note": "Quoting Schaeffer, One Jump Ahead: Challenging Human Supremacy at Checkers (Springer, 1997)"
-		},
-		{
-			"title": "Jonathan Schaeffer, Neil Burch et al., Checkers Is Solved",
-			"url": "https://doi.org/10.1126/science.1144079",
-			"note": "Science, 2007"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Some Studies in Machine Learning Using the Game of Checkers",
-			"url": "https://doi.org/10.1147/rd.33.0210",
+			"doi": "10.1147/rd.33.0210",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -56,6 +36,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Arthur Samuel (computer scientist)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Arthur_Samuel_(computer_scientist)&oldid=1375068594",
 			"accessed": "2026-09-27",
@@ -70,6 +51,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Arthur Samuel's Legacy",
 			"url": "https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html",
 			"accessed": "2026-09-27",
@@ -79,12 +61,14 @@
 					"given": "Jonathan"
 				}
 			],
-			"container": "Chinook project, University of Alberta"
+			"container": "Chinook project, University of Alberta",
+			"note": "Quoting Schaeffer, One Jump Ahead: Challenging Human Supremacy at Checkers (Springer, 1997)"
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Checkers Is Solved",
-			"url": "https://doi.org/10.1126/science.1144079",
+			"doi": "10.1126/science.1144079",
 			"accessed": "2026-09-27",
 			"authors": [
 				{

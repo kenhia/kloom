@@ -17,11 +17,11 @@ export const context: AskContext = {
 		position: 'AD 1440',
 		segment: 'Renaissance',
 		reading: 'Gutenberg built a press.\n',
-		sources: [
-			{ title: 'Press article', url: 'https://example.org/press' },
-			{ title: 'A book with no link' }
-		],
-		citations: [cite('Press article', 'https://example.org/press'), cite('Ink', 'https://ink.test')]
+		citations: [
+			{ ...cite('Press article', 'https://example.org/press'), key: true },
+			cite('Ink', 'https://ink.test'),
+			{ kind: 'book', title: 'A book with a DOI', doi: '10.1000/xyz', accessed: '2026-09-26' }
+		]
 	},
 	trail: null
 };

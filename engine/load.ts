@@ -1,6 +1,6 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { basename, join } from 'node:path';
-import { captionCredit, needsCaption } from './citation';
+import { captionCredit, keySources, needsCaption } from './citation';
 import { renderMarkdown } from './markdown';
 import { sanitiseSvg } from './svg';
 import type { Frame, FrameFile, Manifest, Spine, Subject, Trail } from './model';
@@ -96,17 +96,24 @@ export function buildSubject(id: string, raw: RawSubject, options: BuildOptions 
 	const frames: Record<string, Frame> = {};
 	for (const [dir, r] of Object.entries(raw.frames)) {
 		const file = r.frame as FrameFile;
-		const media = new Map(
-			(file.citations ?? []).filter((c) => c.kind === 'media').map((c) => [c.file, c])
-		);
+		const media = new Map(file.citations.filter((c) => c.kind === 'media').map((c) => [c.file, c]));
 		const image = (href: string) => {
 			const c = media.get(href);
 			if (!c) return null;
 			const src = `${base}/${encodeURIComponent(dir)}/${encodeURIComponent(href)}`;
-			return needsCaption(c.licence!) ? { src, credit: captionCredit(c) } : { src };
+			const credit = needsCaption(c.licence!) ? { credit: captionCredit(c) } : {};
+			// An SVG is inlined, re-serialised, so a chart takes the reader's palette.
+			const svg = href.endsWith('.svg')
+				? sanitiseSvg(r.svgs[href], {
+						idPrefix: `${dir}-${href.slice(0, -'.svg'.length)}-`.replace(/[^\w-]/g, '-'),
+						decorative: true
+					}).svg
+				: undefined;
+			return { src, ...credit, ...(svg ? { svg } : {}) };
 		};
 		frames[dir] = {
 			...file,
+			sources: keySources(file.citations),
 			readingHtml: renderMarkdown(r.reading!, { image }),
 			// The re-serialised parse, never the file's own text (engine/svg.ts).
 			svg: file.scene.illustration ? sanitiseSvg(r.svgs[file.scene.illustration]).svg : null

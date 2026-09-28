@@ -18,41 +18,10 @@
 			"label": "numbers in the store, 40 digits each"
 		}
 	},
-	"sources": [
-		{
-			"title": "Analytical engine — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Analytical_engine"
-		},
-		{
-			"title": "Ada Lovelace — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Ada_Lovelace"
-		},
-		{
-			"title": "Note G — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Note_G"
-		},
-		{
-			"title": "Jacquard machine — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Jacquard_machine"
-		},
-		{
-			"title": "Charles Babbage — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Charles_Babbage"
-		},
-		{
-			"title": "Luigi Federico Menabrea, Ada Lovelace, Sketch of the Analytical Engine Invented by Charles Babbage, with Notes by the Translator",
-			"url": "https://www.fourmilab.ch/babbage/sketch.html",
-			"note": "Scientific Memoirs, 1843"
-		},
-		{
-			"title": "Babbage's Analytical Engine, 1834-1871. (Trial model)",
-			"url": "https://collection.sciencemuseumgroup.org.uk/objects/co62245/babbages-analytical-engine-1834-1871-trial-model-analytical-engine-mill",
-			"note": "Science Museum Group Collection"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Analytical engine",
 			"url": "https://en.wikipedia.org/w/index.php?title=Analytical_engine&oldid=1362884716",
 			"accessed": "2026-09-27",
@@ -67,6 +36,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Ada Lovelace",
 			"url": "https://en.wikipedia.org/w/index.php?title=Ada_Lovelace&oldid=1376338287",
 			"accessed": "2026-09-27",
@@ -81,6 +51,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Note G",
 			"url": "https://en.wikipedia.org/w/index.php?title=Note_G&oldid=1369520548",
 			"accessed": "2026-09-27",
@@ -95,6 +66,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Jacquard machine",
 			"url": "https://en.wikipedia.org/w/index.php?title=Jacquard_machine&oldid=1364469677",
 			"accessed": "2026-09-27",
@@ -109,6 +81,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Charles Babbage",
 			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Babbage&oldid=1371979131",
 			"accessed": "2026-09-27",
@@ -123,6 +96,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Sketch of the Analytical Engine Invented by Charles Babbage, with Notes by the Translator",
 			"url": "https://www.fourmilab.ch/babbage/sketch.html",
 			"accessed": "2026-09-27",
@@ -143,6 +117,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Babbage's Analytical Engine, 1834-1871. (Trial model)",
 			"url": "https://collection.sciencemuseumgroup.org.uk/objects/co62245/babbages-analytical-engine-1834-1871-trial-model-analytical-engine-mill",
 			"accessed": "2026-09-27",
@@ -175,9 +150,10 @@
 				}
 			],
 			"published": "1840",
-			"container": "Watercolour, c. 1840 (Science Museum Group); via Wikimedia Commons",
+			"container": "Watercolour (Science Museum Group); via Wikimedia Commons",
 			"licence": "Public domain",
-			"file": "lovelace-chalon.jpg"
+			"file": "lovelace-chalon.jpg",
+			"circa": true
 		}
 	]
 }

@@ -21,7 +21,11 @@ export interface KeptAnswer {
 	answer: string;
 	/** The frame's citations the answer marked, in first-use order. */
 	citations: Citation[];
-	/** The frame's plain sources the answer marked (those with no citation). */
+	/**
+	 * Before sprint 008, the frame's plain sources the answer marked. A frame's
+	 * sources are now its key citations, so this is always empty; it stays so
+	 * the format, and the files already kept, remain version 1.
+	 */
 	sources: Source[];
 	/**
 	 * The web pages a web turn listed (`[W1] Title — URL`), as `web`
@@ -62,8 +66,8 @@ export function keptAnswer(a: Answer, keptAt: Date, webCitations?: Citation[]): 
 		anchor: { frame: a.context.frame.id, trail: a.context.trail?.id ?? null },
 		question: a.question,
 		answer: a.answer,
-		citations: used.flatMap((r) => ('citation' in r ? [r.citation] : [])),
-		sources: used.flatMap((r) => ('source' in r ? [r.source] : [])),
+		citations: used.map((r) => r.citation),
+		sources: [],
 		...(webCitations ? { webCitations } : {}),
 		provider: a.provider,
 		model: a.model,

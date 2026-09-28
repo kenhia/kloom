@@ -76,7 +76,17 @@ Dark / Light / Mixed palette mode) and the staged scene entrance; sprint 004
 ask (the provider interface, a headless `claude -p` adapter, "keep this",
 the `kloom.config.json` app config and the ask-model setting); sprint 005
 grow (queued jobs that commit frames and trails, written by a skill in
-`skills/grow/`), the allowlist SVG sanitiser, and optional web search for ask.
+`skills/grow/`), the allowlist SVG sanitiser, and optional web search for ask;
+sprint 006 the second subject, `subjects/ai` (66 frames), served beside
+western-civ at `/<subject>`, with the narrative following the spine by
+default;
+sprint 007 the service on kai (`tailscale serve` :4890 with tailnet identity
+gating writes, an ssh door on :4891, and grow into a service-owned content
+clone that pushes `grow/kai`; `docs/deploying.md`);
+sprint 008 the content model for a paper-heavy subject (citations gain
+`doi`, `chapter`/`report` kinds and `circa`, and the Sources list is derived
+from citations flagged `key`), charts inlined so they follow the palette
+mode, and `create-tools/read-source` for PDFs and scans.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -88,7 +98,7 @@ rules — all decided, change the doc with the code), then
 `kai:~/src/tools/koverwatch` (its sprint 001 is the scaffold template).
 `just check` runs svelte-check (warnings fail — that is where the a11y lints
 land), prettier + eslint, and vitest, which also loads and validates every
-frame of `subjects/western-civ`. Layout: `engine/` (model, loader,
+subject under `subjects/`. Layout: `engine/` (model, loader,
 validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
 `src/` (SvelteKit wiring — the only code that picks a subject),
 `create-tools/` (authoring scripts: plates, citations, charts, traced art),
@@ -99,11 +109,14 @@ validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
 - `engine/` never names a subject; subject content and theme live under
   `subjects/<subject>/`.
 - Don't assume the spine is time — segments carry their own label kind.
-- Every frame carries sources; every image or chart in a reading carries a
-  `media` citation with its licence, and Wikipedia is cited by revision
-  (`oldid=`).
+- Every frame flags at least one key-source citation (`"key": true`; the
+  Sources list is built from them, never written); every image or chart in
+  a reading carries a `media` citation with its licence; Wikipedia is cited
+  by revision (`oldid=`) and a DOI goes in `doi`.
 - Model calls go through the provider interface only; `claude -p` is one
   adapter, not the architecture.
 - Keyboard and screen-reader support are requirements; verify keyboard-only
   when you change interaction.
+- Every request that is not a read needs a reader (`src/hooks.server.ts`); a
+  new write path goes through that gate, never around it.
 - The repo is public.

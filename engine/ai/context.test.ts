@@ -15,7 +15,7 @@ describe('the ask context', () => {
 		expect(c.subject.title).toBe(subject.title);
 		expect(c.frame.id).toBe('printing-press');
 		expect(c.frame.reading).toBe('the reading');
-		expect(c.frame.sources.length).toBeGreaterThan(0);
+		expect(c.frame.citations.some((x) => x.key)).toBe(true);
 		expect(c.trail).toBeNull();
 	});
 

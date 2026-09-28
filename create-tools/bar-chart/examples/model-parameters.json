@@ -4,7 +4,6 @@
 	"heading": "PARAMETERS · LOG SCALE",
 	"unit": "M",
 	"scale": "log",
-	"colours": { "background": "#f7f6f2", "ink": "#1b1a24", "muted": "#625f70", "accent": "#5236c9" },
 	"axis": {
 		"min": 10,
 		"max": 1000000,

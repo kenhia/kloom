@@ -26,6 +26,12 @@ export function safeUrl(url: string): boolean {
 export interface ResolvedImage {
 	src: string;
 	credit?: string;
+	/**
+	 * Sanitised SVG markup to inline in place of an `<img>`, so a chart
+	 * takes the page's palette (docs/design.md §Charts). The caller must have
+	 * run it through the allowlist sanitiser.
+	 */
+	svg?: string;
 }
 
 /** Maps an image reference in the markdown to its served URL, or null. */
@@ -73,8 +79,12 @@ function markdown(options: RenderOptions) {
 				if (!options.image) return safeUrl(href) ? img(href, text, title) : escape(text);
 				const found = options.image(href);
 				if (!found || !safeUrl(found.src)) return escape(text);
-				if (!found.credit) return img(found.src, text, title);
-				return `<span class="figure">${img(found.src, text, title)}<span class="credit">${escape(found.credit)}</span></span>`;
+				const credit = found.credit ? `<span class="credit">${escape(found.credit)}</span>` : '';
+				// An inlined drawing is named by the reading's alt text, as an <img> would be.
+				if (found.svg !== undefined)
+					return `<span class="figure chart" role="img" aria-label="${escape(text)}"${title ? ` title="${escape(title)}"` : ''}>${found.svg}</span>${credit}`;
+				if (!credit) return img(found.src, text, title);
+				return `<span class="figure">${img(found.src, text, title)}${credit}</span>`;
 			}
 		}
 	});

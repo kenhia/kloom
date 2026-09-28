@@ -15,47 +15,10 @@
 			"label": "cell-planes in every layer, 1980"
 		}
 	},
-	"sources": [
-		{
-			"title": "Neocognitron — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Neocognitron"
-		},
-		{
-			"title": "Kunihiko Fukushima — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Kunihiko_Fukushima"
-		},
-		{
-			"title": "Convolutional neural network — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-		},
-		{
-			"title": "Receptive field — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Receptive_field"
-		},
-		{
-			"title": "Kunihiko Fukushima, Neocognitron: A Self-Organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position",
-			"url": "https://doi.org/10.1007/BF00344251",
-			"note": "Biological Cybernetics"
-		},
-		{
-			"title": "Kunihiko Fukushima, Neocognitron",
-			"url": "https://doi.org/10.4249/scholarpedia.1717",
-			"note": "Scholarpedia"
-		},
-		{
-			"title": "D. H. Hubel, T. N. Wiesel, Receptive Fields of Single Neurones in the Cat's Striate Cortex",
-			"url": "https://doi.org/10.1113/jphysiol.1959.sp006308",
-			"note": "The Journal of Physiology"
-		},
-		{
-			"title": "The Nobel Committee for Physics, Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
-			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
-			"note": "The Royal Swedish Academy of Sciences"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Neocognitron",
 			"url": "https://en.wikipedia.org/w/index.php?title=Neocognitron&oldid=1372402395",
 			"accessed": "2026-09-27",
@@ -70,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Kunihiko Fukushima",
 			"url": "https://en.wikipedia.org/w/index.php?title=Kunihiko_Fukushima&oldid=1374858357",
 			"accessed": "2026-09-27",
@@ -84,6 +48,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Convolutional neural network",
 			"url": "https://en.wikipedia.org/w/index.php?title=Convolutional_neural_network&oldid=1372994421",
 			"accessed": "2026-09-27",
@@ -98,6 +63,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Receptive field",
 			"url": "https://en.wikipedia.org/w/index.php?title=Receptive_field&oldid=1356489302",
 			"accessed": "2026-09-27",
@@ -112,8 +78,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Neocognitron: A Self-Organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position",
-			"url": "https://doi.org/10.1007/BF00344251",
+			"doi": "10.1007/BF00344251",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -129,8 +96,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Neocognitron",
-			"url": "https://doi.org/10.4249/scholarpedia.1717",
+			"doi": "10.4249/scholarpedia.1717",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -146,8 +114,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Receptive Fields of Single Neurones in the Cat's Striate Cortex",
-			"url": "https://doi.org/10.1113/jphysiol.1959.sp006308",
+			"doi": "10.1113/jphysiol.1959.sp006308",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -166,7 +135,8 @@
 			"published": "1959"
 		},
 		{
-			"kind": "web",
+			"kind": "report",
+			"key": true,
 			"title": "Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
 			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
 			"accessed": "2026-09-27",
@@ -175,9 +145,9 @@
 					"name": "The Nobel Committee for Physics"
 				}
 			],
-			"container": "NobelPrize.org",
 			"publisher": "The Royal Swedish Academy of Sciences",
-			"published": "2024-10-08"
+			"published": "2024-10-08",
+			"place": "Stockholm"
 		}
 	]
 }

@@ -11,27 +11,10 @@
 		"illustration": "scene.svg",
 		"metadata": ["CAROLINGIAN SCRIPTORIA", "CAROLINE MINUSCULE · VELLUM · IRON-GALL INK"]
 	},
-	"sources": [
-		{
-			"title": "Scriptorium — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Scriptorium"
-		},
-		{
-			"title": "Carolingian Renaissance — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Carolingian_Renaissance"
-		},
-		{
-			"title": "Carolingian minuscule — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Carolingian_minuscule"
-		},
-		{
-			"title": "Alcuin — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Alcuin"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Scriptorium",
 			"url": "https://en.wikipedia.org/w/index.php?title=Scriptorium&oldid=1368367495",
 			"accessed": "2026-09-26",
@@ -46,6 +29,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Carolingian Renaissance",
 			"url": "https://en.wikipedia.org/w/index.php?title=Carolingian_Renaissance&oldid=1373654441",
 			"accessed": "2026-09-26",
@@ -60,6 +44,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Carolingian minuscule",
 			"url": "https://en.wikipedia.org/w/index.php?title=Carolingian_minuscule&oldid=1366673362",
 			"accessed": "2026-09-26",
@@ -74,6 +59,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Alcuin",
 			"url": "https://en.wikipedia.org/w/index.php?title=Alcuin&oldid=1375819742",
 			"accessed": "2026-09-26",

@@ -61,7 +61,10 @@ describe('the shell', () => {
 		const body = text(page().body);
 		expect(body).toContain('Wonderwerk Cave');
 		expect(body).toContain('Sources');
-		expect(page().body).toContain('href="https://en.wikipedia.org/wiki/Prometheus"');
+		// Derived from the key citations (sprint 008): the revision that was read.
+		expect(page().body).toMatch(
+			/<ol class="sources[^"]*">.*href="https:\/\/en\.wikipedia\.org\/w\/index\.php\?title=Prometheus&amp;oldid=\d+"/s
+		);
 	});
 
 	it('keeps citations in a closed control under Sources, in Chicago style', () => {

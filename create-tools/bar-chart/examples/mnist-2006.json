@@ -3,7 +3,6 @@
 	"description": "Bar chart of test error on the 10,000 MNIST test digits, permutation-invariant task. Deep belief net 1.25 per cent; support vector machine 1.4; backpropagation net 784-500-300-10, 1.51; backpropagation net 784-800-10, 1.53; nearest neighbour on all 60,000 examples, 2.8. Data: Hinton, Osindero and Teh 2006, table 1.",
 	"heading": "MNIST TEST ERROR · NO GEOMETRY BUILT IN",
 	"unit": "%",
-	"colours": { "background": "#f7f6f2", "ink": "#1b1a24", "muted": "#625f70", "accent": "#5236c9" },
 	"axis": {
 		"max": 3,
 		"ticks": [

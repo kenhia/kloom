@@ -3,7 +3,6 @@
 	"description": "Bar chart on a logarithmic scale, in floating-point operations (FLOP). AlexNet (2012) 4.7e17; Seq2Seq LSTM (2014) 5.6e19; Transformer (2017) 7.4e18; AlphaGo Zero (2017) 6.5e20; BERT-Large (2018) 2.9e20; GPT-3 (2020) 3.1e23; PaLM (2022) 2.5e24; GPT-4 (2023) about 2.1e25; Llama 3.1 405B (2024) 3.8e25; Grok 3 (2025) about 3.5e26; GPT-6 Astra (2026) about 1e27. Data: Epoch AI, Data on AI models (CC BY 4.0), accessed 27 September 2026; several values are Epoch's estimates.",
 	"heading": "TRAINING COMPUTE · FLOP · LOG SCALE",
 	"unit": "",
-	"colours": { "background": "#f7f6f2", "ink": "#1b1a24", "muted": "#625f70", "accent": "#5236c9" },
 	"scale": "log",
 	"width": 720,
 	"height": 320,

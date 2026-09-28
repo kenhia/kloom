@@ -18,25 +18,10 @@
 			"label": "years on show as an automaton"
 		}
 	},
-	"sources": [
-		{
-			"title": "Mechanical Turk — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Mechanical_Turk"
-		},
-		{
-			"title": "Edgar Allan Poe, Maelzel's Chess-Player",
-			"url": "https://www.eapoe.org/works/essays/maelzel.htm",
-			"note": "Southern Literary Messenger, April 1836; text from the Edgar Allan Poe Society of Baltimore"
-		},
-		{
-			"title": "Claude E. Shannon, Programming a Computer for Playing Chess",
-			"url": "https://doi.org/10.1080/14786445008521796",
-			"note": "Philosophical Magazine, ser. 7, 1950"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Mechanical Turk",
 			"url": "https://en.wikipedia.org/w/index.php?title=Mechanical_Turk&oldid=1376154564",
 			"accessed": "2026-09-27",
@@ -51,6 +36,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Maelzel's Chess-Player",
 			"url": "https://www.eapoe.org/works/essays/maelzel.htm",
 			"accessed": "2026-09-27",
@@ -63,12 +49,14 @@
 			"container": "Southern Literary Messenger",
 			"published": "1836-04",
 			"volume": "2",
-			"pages": "318–26"
+			"pages": "318–26",
+			"note": "Text from the Edgar Allan Poe Society of Baltimore"
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Programming a Computer for Playing Chess",
-			"url": "https://doi.org/10.1080/14786445008521796",
+			"doi": "10.1080/14786445008521796",
 			"accessed": "2026-09-27",
 			"authors": [
 				{

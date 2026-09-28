@@ -14,35 +14,10 @@
 			"label": "words of training text, read in under a day"
 		}
 	},
-	"sources": [
-		{
-			"title": "Word2Vec — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Word2Vec"
-		},
-		{
-			"title": "Tomas Mikolov, Kai Chen, Greg Corrado et al., Efficient Estimation of Word Representations in Vector Space",
-			"url": "https://arxiv.org/abs/1301.3781",
-			"note": "arXiv:1301.3781, 2013"
-		},
-		{
-			"title": "Tomas Mikolov, Ilya Sutskever, Kai Chen et al., Distributed Representations of Words and Phrases and their Compositionality",
-			"url": "https://papers.nips.cc/paper_files/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html",
-			"note": "Advances in Neural Information Processing Systems 26, 2013"
-		},
-		{
-			"title": "Tomas Mikolov, Wen-tau Yih, Geoffrey Zweig, Linguistic Regularities in Continuous Space Word Representations",
-			"url": "https://aclanthology.org/N13-1090/",
-			"note": "Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2013"
-		},
-		{
-			"title": "Tolga Bolukbasi, Kai-Wei Chang, James Zou et al., Man Is to Computer Programmer as Woman Is to Homemaker? Debiasing Word Embeddings",
-			"url": "https://papers.nips.cc/paper_files/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html",
-			"note": "Advances in Neural Information Processing Systems 29, 2016"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Word2Vec",
 			"url": "https://en.wikipedia.org/w/index.php?title=Word2Vec&oldid=1376791706",
 			"accessed": "2026-09-27",
@@ -57,6 +32,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Efficient Estimation of Word Representations in Vector Space",
 			"url": "https://arxiv.org/abs/1301.3781",
 			"accessed": "2026-09-27",
@@ -82,7 +58,8 @@
 			"published": "2013-01-16"
 		},
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Distributed Representations of Words and Phrases and their Compositionality",
 			"url": "https://papers.nips.cc/paper_files/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html",
 			"accessed": "2026-09-27",
@@ -112,7 +89,8 @@
 			"published": "2013"
 		},
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Linguistic Regularities in Continuous Space Word Representations",
 			"url": "https://aclanthology.org/N13-1090/",
 			"accessed": "2026-09-27",
@@ -135,7 +113,8 @@
 			"published": "2013"
 		},
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Man Is to Computer Programmer as Woman Is to Homemaker? Debiasing Word Embeddings",
 			"url": "https://papers.nips.cc/paper_files/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html",
 			"accessed": "2026-09-27",

@@ -14,36 +14,10 @@
 			"label": "De Arte Combinatoria"
 		}
 	},
-	"sources": [
-		{
-			"title": "Ramon Llull — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Ramon_Llull"
-		},
-		{
-			"title": "Gottfried Wilhelm Leibniz — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
-		},
-		{
-			"title": "Calculus ratiocinator — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Calculus_ratiocinator"
-		},
-		{
-			"title": "Stepped reckoner — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Stepped_reckoner"
-		},
-		{
-			"title": "History of artificial intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-		},
-		{
-			"title": "Thomas Hobbes, Leviathan (1651), part I, chapter 5",
-			"url": "https://www.gutenberg.org/ebooks/3207",
-			"note": "Project Gutenberg"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Ramon Llull",
 			"url": "https://en.wikipedia.org/w/index.php?title=Ramon_Llull&oldid=1376358517",
 			"accessed": "2026-09-27",
@@ -58,6 +32,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Gottfried Wilhelm Leibniz",
 			"url": "https://en.wikipedia.org/w/index.php?title=Gottfried_Wilhelm_Leibniz&oldid=1376722870",
 			"accessed": "2026-09-27",
@@ -72,6 +47,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Calculus ratiocinator",
 			"url": "https://en.wikipedia.org/w/index.php?title=Calculus_ratiocinator&oldid=1297184245",
 			"accessed": "2026-09-27",
@@ -86,6 +62,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Stepped reckoner",
 			"url": "https://en.wikipedia.org/w/index.php?title=Stepped_reckoner&oldid=1338728624",
 			"accessed": "2026-09-27",
@@ -100,6 +77,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "History of artificial intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
 			"accessed": "2026-09-27",
@@ -114,6 +92,7 @@
 		},
 		{
 			"kind": "book",
+			"key": true,
 			"title": "Leviathan",
 			"url": "https://www.gutenberg.org/ebooks/3207",
 			"accessed": "2026-09-27",
@@ -125,7 +104,8 @@
 			],
 			"publisher": "Andrew Crooke",
 			"place": "London",
-			"published": "1651"
+			"published": "1651",
+			"note": "Part I, chapter 5; read at Project Gutenberg"
 		},
 		{
 			"kind": "media",

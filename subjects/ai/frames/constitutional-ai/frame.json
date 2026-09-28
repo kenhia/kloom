@@ -18,71 +18,10 @@
 			"label": "Americans who drafted a public constitution, 2023"
 		}
 	},
-	"sources": [
-		{
-			"title": "Ouyang, Long, et al., Training Language Models to Follow Instructions with Human Feedback",
-			"url": "https://arxiv.org/abs/2203.02155",
-			"note": "arXiv, 2022-03-04"
-		},
-		{
-			"title": "Bai, Yuntao, et al., Constitutional AI: Harmlessness from AI Feedback",
-			"url": "https://arxiv.org/abs/2212.08073",
-			"note": "arXiv, 2022-12-15"
-		},
-		{
-			"title": "Claude’s Constitution",
-			"url": "https://www.anthropic.com/news/claudes-constitution",
-			"note": "Anthropic, 2023-05-09"
-		},
-		{
-			"title": "Collective Constitutional AI: Aligning a Language Model with Public Input",
-			"url": "https://www.anthropic.com/news/collective-constitutional-ai-aligning-a-language-model-with-public-input",
-			"note": "Anthropic, 2023-10-17"
-		},
-		{
-			"title": "Claude’s Constitution: Our Vision for Claude’s Character",
-			"url": "https://www.anthropic.com/constitution",
-			"note": "Anthropic, 2026-01-21"
-		},
-		{
-			"title": "Lee, Harrison, et al., RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback",
-			"url": "https://arxiv.org/abs/2309.00267",
-			"note": "arXiv, 2023-09-01"
-		},
-		{
-			"title": "Glaese, Amelia, et al., Improving Alignment of Dialogue Agents via Targeted Human Judgements",
-			"url": "https://arxiv.org/abs/2209.14375",
-			"note": "arXiv, 2022-09-28"
-		},
-		{
-			"title": "OpenAI Model Spec",
-			"url": "https://model-spec.openai.com/",
-			"note": "OpenAI, 2026-08-18"
-		},
-		{
-			"title": "OpenAI, Model Spec: Changelog",
-			"url": "https://github.com/openai/model_spec/blob/main/CHANGELOG.md",
-			"note": "GitHub, 2026-08-18"
-		},
-		{
-			"title": "Guan, Melody Y., et al., Deliberative Alignment: Reasoning Enables Safer Language Models",
-			"url": "https://arxiv.org/abs/2412.16339",
-			"note": "arXiv, 2024-12-20"
-		},
-		{
-			"title": "Sycophancy in GPT-4o: What Happened and What We’re Doing about It",
-			"url": "https://openai.com/index/sycophancy-in-gpt-4o/",
-			"note": "OpenAI, 2025-04-29"
-		},
-		{
-			"title": "Greenblatt, Ryan, et al., Alignment Faking in Large Language Models",
-			"url": "https://arxiv.org/abs/2412.14093",
-			"note": "arXiv, 2024-12-18"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Training Language Models to Follow Instructions with Human Feedback",
 			"url": "https://arxiv.org/abs/2203.02155",
 			"accessed": "2026-09-27",
@@ -98,6 +37,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Constitutional AI: Harmlessness from AI Feedback",
 			"url": "https://arxiv.org/abs/2212.08073",
 			"accessed": "2026-09-27",
@@ -113,6 +53,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Claude’s Constitution",
 			"url": "https://www.anthropic.com/news/claudes-constitution",
 			"accessed": "2026-09-27",
@@ -126,6 +67,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Collective Constitutional AI: Aligning a Language Model with Public Input",
 			"url": "https://www.anthropic.com/news/collective-constitutional-ai-aligning-a-language-model-with-public-input",
 			"accessed": "2026-09-27",
@@ -139,6 +81,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Claude’s Constitution: Our Vision for Claude’s Character",
 			"url": "https://www.anthropic.com/constitution",
 			"accessed": "2026-09-27",
@@ -152,6 +95,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback",
 			"url": "https://arxiv.org/abs/2309.00267",
 			"accessed": "2026-09-27",
@@ -167,6 +111,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Improving Alignment of Dialogue Agents via Targeted Human Judgements",
 			"url": "https://arxiv.org/abs/2209.14375",
 			"accessed": "2026-09-27",
@@ -182,6 +127,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "OpenAI Model Spec",
 			"url": "https://model-spec.openai.com/",
 			"accessed": "2026-09-27",
@@ -195,6 +141,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Model Spec: Changelog",
 			"url": "https://github.com/openai/model_spec/blob/main/CHANGELOG.md",
 			"accessed": "2026-09-27",
@@ -208,6 +155,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Deliberative Alignment: Reasoning Enables Safer Language Models",
 			"url": "https://arxiv.org/abs/2412.16339",
 			"accessed": "2026-09-27",
@@ -223,6 +171,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Sycophancy in GPT-4o: What Happened and What We’re Doing about It",
 			"url": "https://openai.com/index/sycophancy-in-gpt-4o/",
 			"accessed": "2026-09-27",
@@ -236,6 +185,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Alignment Faking in Large Language Models",
 			"url": "https://arxiv.org/abs/2412.14093",
 			"accessed": "2026-09-27",

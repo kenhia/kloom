@@ -18,59 +18,12 @@
 			"label": "Wiener's warning, in Science"
 		}
 	},
-	"sources": [
-		{
-			"title": "Norbert Wiener, Some Moral and Technical Consequences of Automation",
-			"url": "https://doi.org/10.1126/science.131.3410.1355",
-			"note": "Science, 1960-05-06"
-		},
-		{
-			"title": "Stuart Russell, Of Myths and Moonshine",
-			"url": "https://www.edge.org/conversation/the-myth-of-ai",
-			"note": "Edge: The Myth of AI, 2014"
-		},
-		{
-			"title": "Hubinger, Evan, et al., Risks from Learned Optimization in Advanced Machine Learning Systems",
-			"url": "https://arxiv.org/abs/1906.01820",
-			"note": "arXiv, 2019-06-05"
-		},
-		{
-			"title": "Amodei, Dario, et al., Concrete Problems in AI Safety",
-			"url": "https://arxiv.org/abs/1606.06565",
-			"note": "arXiv, 2016-06-21"
-		},
-		{
-			"title": "Statement on AI Risk",
-			"url": "https://aistatement.com/",
-			"note": "Center for AI Safety, 2023-05-30"
-		},
-		{
-			"title": "Grace, Katja, et al., Thousands of AI Authors on the Future of AI",
-			"url": "https://arxiv.org/abs/2401.02843",
-			"note": "arXiv, 2024-01"
-		},
-		{
-			"title": "AI alignment — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/AI_alignment"
-		},
-		{
-			"title": "Statement on AI Extinction Risk — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Statement_on_AI_Extinction_Risk"
-		},
-		{
-			"title": "Existential risk from artificial intelligence — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence"
-		},
-		{
-			"title": "El Ajedrecista — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/El_Ajedrecista"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Some Moral and Technical Consequences of Automation",
-			"url": "https://doi.org/10.1126/science.131.3410.1355",
+			"doi": "10.1126/science.131.3410.1355",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -86,6 +39,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Of Myths and Moonshine",
 			"url": "https://www.edge.org/conversation/the-myth-of-ai",
 			"accessed": "2026-09-27",
@@ -100,6 +54,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Risks from Learned Optimization in Advanced Machine Learning Systems",
 			"url": "https://arxiv.org/abs/1906.01820",
 			"accessed": "2026-09-27",
@@ -115,6 +70,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Concrete Problems in AI Safety",
 			"url": "https://arxiv.org/abs/1606.06565",
 			"accessed": "2026-09-27",
@@ -130,6 +86,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Statement on AI Risk",
 			"url": "https://aistatement.com/",
 			"accessed": "2026-09-27",
@@ -143,6 +100,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Thousands of AI Authors on the Future of AI",
 			"url": "https://arxiv.org/abs/2401.02843",
 			"accessed": "2026-09-27",
@@ -158,6 +116,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "AI alignment",
 			"url": "https://en.wikipedia.org/w/index.php?title=AI_alignment&oldid=1375975271",
 			"accessed": "2026-09-27",
@@ -172,6 +131,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Statement on AI Extinction Risk",
 			"url": "https://en.wikipedia.org/w/index.php?title=Statement_on_AI_Extinction_Risk&oldid=1375375498",
 			"accessed": "2026-09-27",
@@ -186,6 +146,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Existential risk from artificial intelligence",
 			"url": "https://en.wikipedia.org/w/index.php?title=Existential_risk_from_artificial_intelligence&oldid=1376908847",
 			"accessed": "2026-09-27",
@@ -200,6 +161,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "El Ajedrecista",
 			"url": "https://en.wikipedia.org/w/index.php?title=El_Ajedrecista&oldid=1373281739",
 			"accessed": "2026-09-27",
@@ -223,9 +185,10 @@
 				}
 			],
 			"published": "1951",
-			"container": "Photograph, c. 1951, from chessgraphics.net; via Wikimedia Commons",
+			"container": "Photograph, from chessgraphics.net; via Wikimedia Commons",
 			"licence": "Public domain (United States)",
-			"file": "wiener-ajedrecista.jpg"
+			"file": "wiener-ajedrecista.jpg",
+			"circa": true
 		}
 	]
 }

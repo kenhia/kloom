@@ -14,13 +14,13 @@ export const grownFrame = (id: string, sort: number, palette = 'parchment') => (
 				illustration: 'scene.svg',
 				metadata: ['WITTENBERG']
 			},
-			sources: [{ title: 'A source', url: 'https://example.org/source' }],
 			citations: [
 				{
 					kind: 'web',
 					title: 'A source',
 					url: 'https://example.org/source',
-					accessed: '2026-09-27'
+					accessed: '2026-09-27',
+					key: true
 				}
 			]
 		},

@@ -15,28 +15,10 @@
 			"label": "books printed by 1500"
 		}
 	},
-	"sources": [
-		{
-			"title": "Printing press — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Printing_press"
-		},
-		{
-			"title": "Johannes Gutenberg — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
-		},
-		{
-			"title": "Global spread of the printing press — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Global_spread_of_the_printing_press"
-		},
-		{
-			"title": "Eltjo Buringh, Jan Luiten van Zanden, Charting the “Rise of the West”: Manuscripts and Printed Books in Europe, a Long-Term Perspective from the Sixth through Eighteenth Centuries",
-			"url": "https://doi.org/10.1017/S0022050709000837",
-			"note": "The Journal of Economic History"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Printing press",
 			"url": "https://en.wikipedia.org/w/index.php?title=Printing_press&oldid=1376640142",
 			"accessed": "2026-09-26",
@@ -51,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Johannes Gutenberg",
 			"url": "https://en.wikipedia.org/w/index.php?title=Johannes_Gutenberg&oldid=1371882719",
 			"accessed": "2026-09-26",
@@ -65,6 +48,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Global spread of the printing press",
 			"url": "https://en.wikipedia.org/w/index.php?title=Global_spread_of_the_printing_press&oldid=1376193901",
 			"accessed": "2026-09-26",
@@ -79,8 +63,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Charting the “Rise of the West”: Manuscripts and Printed Books in Europe, a Long-Term Perspective from the Sixth through Eighteenth Centuries",
-			"url": "https://doi.org/10.1017/S0022050709000837",
+			"doi": "10.1017/S0022050709000837",
 			"accessed": "2026-09-26",
 			"authors": [
 				{
@@ -116,7 +101,7 @@
 		{
 			"kind": "media",
 			"title": "European output of printed books by century, 1454–1800",
-			"url": "https://doi.org/10.1017/S0022050709000837",
+			"doi": "10.1017/S0022050709000837",
 			"accessed": "2026-09-26",
 			"authors": [
 				{

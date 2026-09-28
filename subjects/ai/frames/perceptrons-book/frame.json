@@ -15,43 +15,10 @@
 			"label": "two-input functions one unit can compute"
 		}
 	},
-	"sources": [
-		{
-			"title": "Perceptrons (book) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Perceptrons_(book)"
-		},
-		{
-			"title": "AI winter — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/AI_winter"
-		},
-		{
-			"title": "Frank Rosenblatt — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Frank_Rosenblatt"
-		},
-		{
-			"title": "Marvin Minsky, Seymour Papert, Perceptrons: An Introduction to Computational Geometry",
-			"url": "https://archive.org/details/perceptronsintro00mins",
-			"note": "MIT Press, 1969; expanded edition 1988"
-		},
-		{
-			"title": "Mikel Olazaran, A Sociological Study of the Official History of the Perceptrons Controversy",
-			"url": "https://doi.org/10.1177/030631296026003005",
-			"note": "Social Studies of Science"
-		},
-		{
-			"title": "Bernard Widrow, Michael A. Lehr, 30 Years of Adaptive Neural Networks: Perceptron, Madaline, and Backpropagation",
-			"url": "https://doi.org/10.1109/5.58323",
-			"note": "Proceedings of the IEEE"
-		},
-		{
-			"title": "The Nobel Committee for Physics, Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
-			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
-			"note": "The Royal Swedish Academy of Sciences"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Perceptrons (book)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Perceptrons_(book)&oldid=1368696469",
 			"accessed": "2026-09-27",
@@ -62,10 +29,12 @@
 			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
-			"published": "2026-08-10"
+			"published": "2026-08-10",
+			"note": "Expanded edition 1988"
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "AI winter",
 			"url": "https://en.wikipedia.org/w/index.php?title=AI_winter&oldid=1374895630",
 			"accessed": "2026-09-27",
@@ -80,6 +49,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Frank Rosenblatt",
 			"url": "https://en.wikipedia.org/w/index.php?title=Frank_Rosenblatt&oldid=1371260220",
 			"accessed": "2026-09-27",
@@ -94,6 +64,7 @@
 		},
 		{
 			"kind": "book",
+			"key": true,
 			"title": "Perceptrons: An Introduction to Computational Geometry",
 			"url": "https://archive.org/details/perceptronsintro00mins",
 			"accessed": "2026-09-27",
@@ -109,12 +80,14 @@
 			],
 			"publisher": "MIT Press",
 			"place": "Cambridge, MA",
-			"published": "1969"
+			"published": "1969",
+			"note": "Expanded edition 1988"
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "A Sociological Study of the Official History of the Perceptrons Controversy",
-			"url": "https://doi.org/10.1177/030631296026003005",
+			"doi": "10.1177/030631296026003005",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -130,8 +103,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "30 Years of Adaptive Neural Networks: Perceptron, Madaline, and Backpropagation",
-			"url": "https://doi.org/10.1109/5.58323",
+			"doi": "10.1109/5.58323",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -150,7 +124,8 @@
 			"published": "1990"
 		},
 		{
-			"kind": "web",
+			"kind": "report",
+			"key": true,
 			"title": "Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
 			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
 			"accessed": "2026-09-27",
@@ -159,9 +134,9 @@
 					"name": "The Nobel Committee for Physics"
 				}
 			],
-			"container": "NobelPrize.org",
 			"publisher": "The Royal Swedish Academy of Sciences",
-			"published": "2024-10-08"
+			"published": "2024-10-08",
+			"place": "Stockholm"
 		},
 		{
 			"kind": "media",

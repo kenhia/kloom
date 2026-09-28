@@ -15,23 +15,10 @@
 			"label": "editions before Erasmus died"
 		}
 	},
-	"sources": [
-		{
-			"title": "Novum Instrumentum omne — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Novum_Instrumentum_omne"
-		},
-		{
-			"title": "Desiderius Erasmus — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Desiderius_Erasmus"
-		},
-		{
-			"title": "Textus Receptus — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Textus_Receptus"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Novum Instrumentum omne",
 			"url": "https://en.wikipedia.org/w/index.php?title=Novum_Instrumentum_omne&oldid=1376106922",
 			"accessed": "2026-09-27",
@@ -46,6 +33,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Desiderius Erasmus",
 			"url": "https://en.wikipedia.org/w/index.php?title=Desiderius_Erasmus&oldid=1375127857",
 			"accessed": "2026-09-27",
@@ -60,6 +48,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Textus Receptus",
 			"url": "https://en.wikipedia.org/w/index.php?title=Textus_Receptus&oldid=1372618703",
 			"accessed": "2026-09-27",

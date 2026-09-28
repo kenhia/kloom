@@ -14,35 +14,10 @@
 			"label": "parameters, preferred to 175B GPT-3"
 		}
 	},
-	"sources": [
-		{
-			"title": "Reinforcement learning from human feedback — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback"
-		},
-		{
-			"title": "Christiano et al., Deep Reinforcement Learning from Human Preferences",
-			"url": "https://arxiv.org/abs/1706.03741",
-			"note": "arXiv preprint 1706.03741, 2017"
-		},
-		{
-			"title": "Stiennon et al., Learning to Summarize from Human Feedback",
-			"url": "https://arxiv.org/abs/2009.01325",
-			"note": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020), 2020"
-		},
-		{
-			"title": "Ouyang et al., Training Language Models to Follow Instructions with Human Feedback",
-			"url": "https://arxiv.org/abs/2203.02155",
-			"note": "arXiv preprint 2203.02155, 2022"
-		},
-		{
-			"title": "Rafailov et al., Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
-			"url": "https://arxiv.org/abs/2305.18290",
-			"note": "arXiv preprint 2305.18290, 2023"
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Reinforcement learning from human feedback",
 			"url": "https://en.wikipedia.org/w/index.php?title=Reinforcement_learning_from_human_feedback&oldid=1376235007",
 			"accessed": "2026-09-27",
@@ -57,6 +32,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Deep Reinforcement Learning from Human Preferences",
 			"url": "https://arxiv.org/abs/1706.03741",
 			"accessed": "2026-09-27",
@@ -90,7 +66,8 @@
 			"published": "2017"
 		},
 		{
-			"kind": "article",
+			"kind": "chapter",
+			"key": true,
 			"title": "Learning to Summarize from Human Feedback",
 			"url": "https://arxiv.org/abs/2009.01325",
 			"accessed": "2026-09-27",
@@ -118,6 +95,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Training Language Models to Follow Instructions with Human Feedback",
 			"url": "https://arxiv.org/abs/2203.02155",
 			"accessed": "2026-09-27",
@@ -145,6 +123,7 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
 			"url": "https://arxiv.org/abs/2305.18290",
 			"accessed": "2026-09-27",

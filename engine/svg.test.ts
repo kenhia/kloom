@@ -83,6 +83,30 @@ describe('the illustration sanitiser', () => {
 		expect(problems).toEqual([]);
 	});
 
+	it('prefixes ids and every reference to one, for inlining beside other drawings', () => {
+		const { svg } = sanitiseSvg(
+			'<svg role="img" aria-labelledby="t d"><title id="t">T</title><desc id="d">D</desc>' +
+				'<defs><marker id="tip"><path d="M0 0"/></marker></defs>' +
+				'<path marker-end="url(#tip)" fill="url(\'#tip\')" d="M0 0"/></svg>',
+			{ idPrefix: 'f-c-' }
+		);
+		expect(svg).toBe(
+			'<svg role="img" aria-labelledby="f-c-t f-c-d"><title id="f-c-t">T</title><desc id="f-c-d">D</desc>' +
+				'<defs><marker id="f-c-tip"><path d="M0 0"/></marker></defs>' +
+				'<path marker-end="url(#f-c-tip)" fill="url(\'#f-c-tip\')" d="M0 0"/></svg>'
+		);
+	});
+
+	it('hides a decorative drawing: its root loses its role and labels', () => {
+		const { svg } = sanitiseSvg(
+			'<svg role="img" aria-labelledby="t"><title id="t">T</title></svg>',
+			{
+				decorative: true
+			}
+		);
+		expect(svg).toBe('<svg aria-hidden="true"><title id="t">T</title></svg>');
+	});
+
 	it('reports every problem in one pass', () => {
 		expect(sanitiseSvg('<svg onload="x"><script/><path style="a"/></svg>').problems).toEqual([
 			'<svg> attribute onload is not allowed',

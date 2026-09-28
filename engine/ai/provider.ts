@@ -1,4 +1,4 @@
-import type { Citation, Source } from '../model';
+import type { Citation } from '../model';
 
 /**
  * The provider interface (docs/design.md §AI). Every model call goes through
@@ -35,7 +35,7 @@ export interface AskContext {
 		reading: string;
 		/** When a time-sensitive frame was last true (`YYYY-MM[-DD]`), if it says. */
 		asOf?: string;
-		sources: Source[];
+		/** Every citation, key sources and the rest (the Sources list derives from them). */
 		citations: Citation[];
 	};
 	/** Set while the reader is on a trail. */

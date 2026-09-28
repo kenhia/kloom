@@ -15,54 +15,68 @@
 			"label": "metres from pole to equator, by definition"
 		}
 	},
-	"sources": [
-		{
-			"title": "History of the metre — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/History_of_the_metre"
-		},
-		{
-			"title": "Jean Baptiste Joseph Delambre — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Jean_Baptiste_Joseph_Delambre"
-		},
-		{
-			"title": "Pierre Méchain — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Pierre_M%C3%A9chain"
-		},
-		{
-			"title": "Ken Alder, The Measure of All Things: The Seven-Year Odyssey and Hidden Error That Transformed the World (Free Press, 2002)",
-			"note": "The standard history of the Delambre–Méchain survey."
-		}
-	],
 	"citations": [
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "History of the metre",
 			"url": "https://en.wikipedia.org/w/index.php?title=History_of_the_metre&oldid=1370584883",
 			"accessed": "2026-09-27",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-08-21"
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Jean Baptiste Joseph Delambre",
 			"url": "https://en.wikipedia.org/w/index.php?title=Jean_Baptiste_Joseph_Delambre&oldid=1372758280",
 			"accessed": "2026-09-27",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-02"
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Pierre Méchain",
 			"url": "https://en.wikipedia.org/w/index.php?title=Pierre_M%C3%A9chain&oldid=1371985280",
 			"accessed": "2026-09-27",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-08-29"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Measure of All Things: The Seven-Year Odyssey and Hidden Error That Transformed the World",
+			"url": "https://openlibrary.org/works/OL3279069W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Alder",
+					"given": "Ken"
+				}
+			],
+			"place": "New York",
+			"publisher": "Free Press",
+			"published": "2002",
+			"note": "The standard history of the Delambre–Méchain survey"
 		}
 	]
 }

@@ -4,7 +4,6 @@
 	"heading": "50% TIME HORIZON · METR TH 1.1 · LOG SCALE",
 	"unit": "",
 	"scale": "log",
-	"colours": { "background": "#0c0b14", "ink": "#ecebf6", "muted": "#9a97b8", "accent": "#ff6b4a" },
 	"axis": {
 		"min": 0.01,
 		"max": 3000,

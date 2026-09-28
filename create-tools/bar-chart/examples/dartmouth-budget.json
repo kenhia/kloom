@@ -3,12 +3,6 @@
 	"description": "Bar chart. The proposal's estimated expenses, totalling $13,500: six faculty salaries of $1,200 ($7,200); eight travel and rent allowances averaging $300 ($2,400); two graduate-student salaries of $700 ($1,400); secretarial and organisational expense ($850); additional travel ($600); contingencies ($550). Data: McCarthy, Minsky, Rochester and Shannon, A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence, 31 August 1955.",
 	"heading": "DARTMOUTH PROPOSAL · EXPENSES · $13,500",
 	"unit": "",
-	"colours": {
-		"background": "#07120c",
-		"ink": "#d3f5dc",
-		"muted": "#7fa98a",
-		"accent": "#ffb000"
-	},
 	"axis": {
 		"max": 8000,
 		"ticks": [

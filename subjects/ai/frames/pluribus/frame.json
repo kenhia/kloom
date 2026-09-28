@@ -19,88 +19,12 @@
 			"label": "players at the table"
 		}
 	},
-	"sources": [
-		{
-			"title": "Noam Brown, Tuomas Sandholm, Superhuman AI for Heads-Up No-Limit Poker: Libratus Beats Top Professionals",
-			"url": "https://doi.org/10.1126/science.aao1733",
-			"note": "Science, 2018"
-		},
-		{
-			"title": "Libratus — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Libratus"
-		},
-		{
-			"title": "Noam Brown, Tuomas Sandholm, Superhuman AI for Multiplayer Poker",
-			"url": "https://doi.org/10.1126/science.aay2400",
-			"note": "Science, 2019"
-		},
-		{
-			"title": "Facebook, Carnegie Mellon Build First AI That Beats Pros in 6-Player Poker",
-			"url": "https://ai.meta.com/blog/pluribus-first-ai-to-beat-pros-in-6-player-poker/",
-			"note": "Meta AI, 2019"
-		},
-		{
-			"title": "Pluribus (poker bot) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Pluribus_(poker_bot)"
-		},
-		{
-			"title": "Meta Fundamental AI Research Diplomacy Team (FAIR), Anton Bakhtin et al., Human-Level Play in the Game of Diplomacy by Combining Language Models with Strategic Reasoning",
-			"url": "https://doi.org/10.1126/science.ade9097",
-			"note": "Science, 2022"
-		},
-		{
-			"title": "Meta's Cicero Chatbot Can Probably Beat You at Diplomacy",
-			"url": "https://www.theregister.com/2022/11/23/metas_cicero_chatbot_can_probably/",
-			"note": "The Register, 2022"
-		},
-		{
-			"title": "Peter S. Park, Simon Goldstein et al., AI Deception: A Survey of Examples, Risks, and Potential Solutions",
-			"url": "https://doi.org/10.1016/j.patter.2024.100988",
-			"note": "Patterns, 2024"
-		},
-		{
-			"title": "Claude E. Shannon, Programming a Computer for Playing Chess",
-			"url": "https://doi.org/10.1080/14786445008521796",
-			"note": "Philosophical Magazine, ser. 7, 1950"
-		},
-		{
-			"title": "Arthur Samuel's Legacy",
-			"url": "https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html",
-			"note": "Quoting Schaeffer, One Jump Ahead: Challenging Human Supremacy at Checkers (Springer, 1997)"
-		},
-		{
-			"title": "Gerald Tesauro, Temporal Difference Learning and TD-Gammon",
-			"url": "https://doi.org/10.1145/203330.203343",
-			"note": "Communications of the ACM, 1995"
-		},
-		{
-			"title": "Jonathan Schaeffer, Neil Burch et al., Checkers Is Solved",
-			"url": "https://doi.org/10.1126/science.1144079",
-			"note": "Science, 2007"
-		},
-		{
-			"title": "Deep Blue versus Garry Kasparov — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov"
-		},
-		{
-			"title": "Deep Blue (chess computer) — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
-		},
-		{
-			"title": "AlphaGo versus Lee Sedol — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol"
-		},
-		{
-			"title": "David Silver, Thomas Hubert et al., A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go through Self-Play",
-			"url": "https://doi.org/10.1126/science.aar6404",
-			"note": "Science, 2018"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Superhuman AI for Heads-Up No-Limit Poker: Libratus Beats Top Professionals",
-			"url": "https://doi.org/10.1126/science.aao1733",
+			"doi": "10.1126/science.aao1733",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -120,6 +44,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Libratus",
 			"url": "https://en.wikipedia.org/w/index.php?title=Libratus&oldid=1376132293",
 			"accessed": "2026-09-27",
@@ -134,8 +59,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Superhuman AI for Multiplayer Poker",
-			"url": "https://doi.org/10.1126/science.aay2400",
+			"doi": "10.1126/science.aay2400",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -155,6 +81,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Facebook, Carnegie Mellon Build First AI That Beats Pros in 6-Player Poker",
 			"url": "https://ai.meta.com/blog/pluribus-first-ai-to-beat-pros-in-6-player-poker/",
 			"accessed": "2026-09-27",
@@ -168,6 +95,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Pluribus (poker bot)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Pluribus_(poker_bot)&oldid=1373518593",
 			"accessed": "2026-09-27",
@@ -182,8 +110,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Human-Level Play in the Game of Diplomacy by Combining Language Models with Strategic Reasoning",
-			"url": "https://doi.org/10.1126/science.ade9097",
+			"doi": "10.1126/science.ade9097",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -206,6 +135,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Meta's Cicero Chatbot Can Probably Beat You at Diplomacy",
 			"url": "https://www.theregister.com/2022/11/23/metas_cicero_chatbot_can_probably/",
 			"accessed": "2026-09-27",
@@ -220,8 +150,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "AI Deception: A Survey of Examples, Risks, and Potential Solutions",
-			"url": "https://doi.org/10.1016/j.patter.2024.100988",
+			"doi": "10.1016/j.patter.2024.100988",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -253,8 +184,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Programming a Computer for Playing Chess",
-			"url": "https://doi.org/10.1080/14786445008521796",
+			"doi": "10.1080/14786445008521796",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -270,6 +202,7 @@
 		},
 		{
 			"kind": "web",
+			"key": true,
 			"title": "Arthur Samuel's Legacy",
 			"url": "https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html",
 			"accessed": "2026-09-27",
@@ -279,12 +212,14 @@
 					"given": "Jonathan"
 				}
 			],
-			"container": "Chinook project, University of Alberta"
+			"container": "Chinook project, University of Alberta",
+			"note": "Quoting Schaeffer, One Jump Ahead: Challenging Human Supremacy at Checkers (Springer, 1997)"
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Temporal Difference Learning and TD-Gammon",
-			"url": "https://doi.org/10.1145/203330.203343",
+			"doi": "10.1145/203330.203343",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -300,8 +235,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Checkers Is Solved",
-			"url": "https://doi.org/10.1126/science.1144079",
+			"doi": "10.1126/science.1144079",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -345,6 +281,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Deep Blue versus Garry Kasparov",
 			"url": "https://en.wikipedia.org/w/index.php?title=Deep_Blue_versus_Garry_Kasparov&oldid=1376091868",
 			"accessed": "2026-09-27",
@@ -359,6 +296,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Deep Blue (chess computer)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Deep_Blue_(chess_computer)&oldid=1375427728",
 			"accessed": "2026-09-27",
@@ -373,6 +311,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "AlphaGo versus Lee Sedol",
 			"url": "https://en.wikipedia.org/w/index.php?title=AlphaGo_versus_Lee_Sedol&oldid=1373768070",
 			"accessed": "2026-09-27",
@@ -387,8 +326,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go through Self-Play",
-			"url": "https://doi.org/10.1126/science.aar6404",
+			"doi": "10.1126/science.aar6404",
 			"accessed": "2026-09-27",
 			"authors": [
 				{

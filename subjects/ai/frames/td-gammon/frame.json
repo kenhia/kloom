@@ -18,31 +18,12 @@
 			"label": "games against itself (version 2.1)"
 		}
 	},
-	"sources": [
-		{
-			"title": "Gerald Tesauro, Temporal Difference Learning and TD-Gammon",
-			"url": "https://doi.org/10.1145/203330.203343",
-			"note": "Communications of the ACM, 1995"
-		},
-		{
-			"title": "TD-Gammon — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/TD-Gammon"
-		},
-		{
-			"title": "Temporal difference learning — Wikipedia",
-			"url": "https://en.wikipedia.org/wiki/Temporal_difference_learning"
-		},
-		{
-			"title": "Arthur L. Samuel, Some Studies in Machine Learning Using the Game of Checkers",
-			"url": "https://doi.org/10.1147/rd.33.0210",
-			"note": "IBM Journal of Research and Development, 1959"
-		}
-	],
 	"citations": [
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Temporal Difference Learning and TD-Gammon",
-			"url": "https://doi.org/10.1145/203330.203343",
+			"doi": "10.1145/203330.203343",
 			"accessed": "2026-09-27",
 			"authors": [
 				{
@@ -58,6 +39,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "TD-Gammon",
 			"url": "https://en.wikipedia.org/w/index.php?title=TD-Gammon&oldid=1343006814",
 			"accessed": "2026-09-27",
@@ -72,6 +54,7 @@
 		},
 		{
 			"kind": "wikipedia",
+			"key": true,
 			"title": "Temporal difference learning",
 			"url": "https://en.wikipedia.org/w/index.php?title=Temporal_difference_learning&oldid=1375126803",
 			"accessed": "2026-09-27",
@@ -86,8 +69,9 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
 			"title": "Some Studies in Machine Learning Using the Game of Checkers",
-			"url": "https://doi.org/10.1147/rd.33.0210",
+			"doi": "10.1147/rd.33.0210",
 			"accessed": "2026-09-27",
 			"authors": [
 				{

@@ -32,7 +32,6 @@ export function askContext(
 			segment: segment.title,
 			reading,
 			...(frame.asOf ? { asOf: frame.asOf } : {}),
-			sources: frame.sources,
 			citations: frame.citations ?? []
 		},
 		trail: trail ? { id: trail.id, title: trail.title } : null
