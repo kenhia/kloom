@@ -2,7 +2,8 @@
 	import { onMount, untrack } from 'svelte';
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
-	import { ASK_MODEL, modelSetting, paletteFor, paletteMode } from '$engine/settings';
+	import { invalidateAll } from '$app/navigation';
+	import { ASK_MODEL, GROW_MODEL, modelSetting, paletteFor, paletteMode } from '$engine/settings';
 	import { UserSettings } from '$engine/user-settings.svelte';
 	import { inscription, loomCredit } from '$lib/start/credit';
 	import type { PageProps } from './$types';
@@ -12,15 +13,17 @@
 	let started = $state(false);
 	let loom = $state<string | null>(null);
 
-	// The reader's settings. The ask model's choices come from the app config,
-	// once per page load; grow will add its own model row the same way.
+	// The reader's settings. The ask and grow models' choices come from the app
+	// config, once per page load.
+	const growModels = untrack(() => data.growModels);
 	const settings = new UserSettings([
 		paletteMode,
 		modelSetting(
 			ASK_MODEL,
 			'Ask model',
 			untrack(() => data.askModels)
-		)
+		),
+		...(growModels ? [modelSetting(GROW_MODEL, 'Grow model', growModels)] : [])
 	]);
 
 	// The start screen wears the first frame's palette, in the reader's mode.
@@ -40,7 +43,13 @@
 	<title>kloom · {data.subject.title}</title>
 </svelte:head>
 
-<Shell subject={data.subject} {settings} active={started} />
+<Shell
+	subject={data.subject}
+	{settings}
+	ai={{ web: data.askWeb, grow: !!data.growModels }}
+	ongrown={() => invalidateAll()}
+	active={started}
+/>
 
 {#if !started}
 	<StartScreen

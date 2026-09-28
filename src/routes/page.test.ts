@@ -20,7 +20,9 @@ const askModels = {
 	],
 	default: 'claude-sonnet-5'
 };
-const page = () => render(Page, { props: { data: { subject, askModels } } as never });
+const growModels = { ...askModels, default: 'claude-opus-5-5' };
+const page = (askWeb = 'allow', grow: typeof growModels | null = growModels) =>
+	render(Page, { props: { data: { subject, askModels, askWeb, growModels: grow } } as never });
 
 /** Visible text: tags dropped, spaces collapsed. */
 const text = (html: string) => html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
@@ -33,7 +35,7 @@ describe('the shell', () => {
 	it('opens on the first frame with the HUD filled in', () => {
 		const body = text(page().body);
 		expect(body).toContain('Myth');
-		expect(body).toContain('01 / 16');
+		expect(body).toContain('01 / 18');
 		expect(body).toContain('We stole FIRE.');
 		expect(body).toContain('~1,000,000 years of kept fire');
 	});
@@ -136,6 +138,53 @@ describe('the settings control', () => {
 		);
 		expect(select).toMatch(/<option value="claude-sonnet-5"[^>]*selected[^>]*>Sonnet 5</);
 		expect(select).toMatch(/<option value="claude-opus-5-5"[^>]*>Opus 5.5</);
+	});
+});
+
+describe('grow in the AI pane', () => {
+	it('adds a Grow model drop-down, Opus 5.5 by default', () => {
+		const { body } = page();
+		const id = /<label for="([^"]+)"[^>]*>Grow model<\/label>/.exec(body)?.[1];
+		expect(id).toBeDefined();
+		expect(body).toMatch(
+			new RegExp(`<select id="${id}"[^>]*>[\\s\\S]*?<option value="claude-opus-5-5"[^>]*selected`)
+		);
+	});
+
+	it('offers the three verbs, a labelled request and Queue', () => {
+		const { body } = page();
+		expect(body).toContain('<label for="grow-verb" class="visually-hidden">What to grow</label>');
+		expect(body).toContain(
+			'<label for="grow-input" class="visually-hidden">What grow should write</label>'
+		);
+		for (const label of [
+			'New frames on the main spine',
+			'A side trail from this frame',
+			'A new frame with its own trail'
+		])
+			expect(text(body)).toContain(label);
+		expect(text(body)).toContain('Queue');
+	});
+
+	it('is absent when the app config has no grow', () => {
+		const { body } = page('allow', null);
+		expect(body).not.toContain('grow-verb');
+		expect(body).not.toContain('Grow model');
+	});
+});
+
+describe('the web switch in the AI pane', () => {
+	const box = (body: string) => /<label class="web[^"]*"><input type="checkbox"([^>]*)>/.exec(body);
+
+	it('offers "Include web", checked, when the app allows the web', () => {
+		const { body } = page('allow');
+		expect(text(body)).toContain('Include web');
+		expect(box(body)?.[1]).toContain('checked');
+	});
+
+	it('offers it unchecked under offer, and not at all under deny', () => {
+		expect(box(page('offer').body)?.[1]).not.toContain('checked');
+		expect(text(page('deny').body)).not.toContain('Include web');
 	});
 });
 

@@ -1,6 +1,7 @@
 import { citationProblems } from './citation';
 import { imageRefs } from './markdown';
 import { LABEL_KINDS, type Spine } from './model';
+import { sanitiseSvg } from './svg';
 
 /** One frame directory as read from disk, before anything is trusted. */
 export interface RawFrame {
@@ -32,26 +33,6 @@ const COLOURS = ['background', 'ink', 'muted', 'accent', 'line'] as const;
 
 /** Files a frame may serve to the reading pane: a plain name, an image type. */
 export const MEDIA_FILE = /^[\w-][\w.-]*\.(png|jpe?g|webp|gif|svg)$/i;
-
-/**
- * Markup a line drawing never needs: active or embedding elements, links of
- * any kind, event handlers (after whitespace, `/` or a quote), `javascript:`
- * and character references, which could spell any of these past a regex.
- */
-const SVG_TRIPWIRE =
-	/<\/?\s*(script|style|foreignObject|embed|iframe|object|a|use|image|animate|set)\b|[\s/"']on[a-z]+\s*=|href\s*=|javascript:|&#/i;
-
-/**
- * What is wrong with an SVG that will be inlined as a drawing, or null.
- * A tripwire for honest mistakes, not a sanitiser: model-written SVG needs a
- * real allowlist before grow may write one (korg 3360).
- */
-export function illustrationProblem(svg: string): string | null {
-	if (!/^\s*<svg[\s>]/.test(svg)) return 'illustration must be an <svg> element';
-	if (SVG_TRIPWIRE.test(svg))
-		return 'illustration contains script, styles, links or event handlers';
-	return null;
-}
 
 /**
  * Every problem with a subject, as `where: what` lines. Empty means valid.
@@ -192,8 +173,7 @@ export function validate(raw: RawSubject): string[] {
 					fail(where, `illustration "${String(scene.illustration)}" is not in the directory`);
 				else {
 					// Inlined into the page, so it must be a drawing and nothing more.
-					const problem = illustrationProblem(svg);
-					if (problem) fail(where, problem);
+					for (const problem of sanitiseSvg(svg).problems) fail(where, `illustration: ${problem}`);
 				}
 			}
 		}

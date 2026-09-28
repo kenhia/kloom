@@ -1,9 +1,15 @@
 {
-	"provider": { "kind": "claude-cli", "command": "claude", "timeoutSeconds": 120 },
+	"provider": {
+		"kind": "claude-cli",
+		"command": "claude",
+		"timeoutSeconds": 120,
+		"webTimeoutSeconds": 180
+	},
 	"models": [
 		{ "id": "claude-sonnet-5", "label": "Sonnet 5" },
 		{ "id": "claude-opus-5-5", "label": "Opus 5.5" },
 		{ "id": "claude-haiku-4-5-20251001", "label": "Haiku 4.5" }
 	],
-	"ask": { "defaultModel": "claude-sonnet-5" }
+	"ask": { "defaultModel": "claude-sonnet-5", "web": "allow" },
+	"grow": { "defaultModel": "claude-opus-5-5", "timeoutSeconds": 900, "web": true }
 }

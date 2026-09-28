@@ -14,6 +14,17 @@ export const POST: RequestHandler = async ({ request }) => {
 	if (typeof id !== 'string' || !ANSWER_ID.test(id)) error(400, 'An answer id is required.');
 	const answer = answers.get(id);
 	if (!answer) error(404, 'That answer is no longer held; ask again to keep it.');
-	const kept = await keep(answer, dataDir());
-	return json({ id: kept.id, citations: kept.citations.length, sources: kept.sources.length });
+	let kept;
+	try {
+		kept = await keep(answer, dataDir());
+	} catch (e) {
+		// A web page that could not be pinned (Wikipedia unreachable, say).
+		error(502, `Could not keep it: ${(e as Error).message}`);
+	}
+	return json({
+		id: kept.id,
+		citations: kept.citations.length,
+		sources: kept.sources.length,
+		web: kept.webCitations?.length ?? 0
+	});
 };

@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { citationProblems } from '$engine/citation';
-import { illustrationProblem } from '$engine/validate';
+import { sanitiseSvg } from '$engine/svg';
 import { loomCredit } from './credit';
 
 describe('the start screen art', () => {
@@ -14,7 +14,7 @@ describe('the start screen art', () => {
 	});
 
 	it('is a drawing and nothing more, ready to draw on', () => {
-		expect(illustrationProblem(svg)).toBeNull();
+		expect(sanitiseSvg(svg).problems).toEqual([]);
 		expect(svg.match(/<path pathLength="1"/g)).toHaveLength(8);
 	});
 });

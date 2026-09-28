@@ -10,6 +10,10 @@ import { askEvents, keep, ndjson, RecentAnswers } from './ask';
 
 const provider = (events: ProviderEvent[], gate?: Promise<void>): Provider => ({
 	name: 'fake',
+	// eslint-disable-next-line require-yield
+	async *grow() {
+		throw new Error('not in these tests');
+	},
 	async *ask() {
 		await gate;
 		yield* events;
@@ -100,6 +104,26 @@ describe('an ask turn', () => {
 		expect(answers.get('c', Date.parse(at) + 61 * 60 * 1000)).toBeUndefined();
 	});
 
+	it('drops text from before a web search, and remembers only the answer after it', async () => {
+		const answers = new RecentAnswers();
+		const events = await collect(
+			askEvents({
+				...turn(
+					provider([
+						{ type: 'text', text: 'Let me look.' },
+						{ type: 'status', status: 'searching' },
+						{ type: 'text', text: 'Found.' }
+					]),
+					undefined,
+					answers
+				),
+				web: true
+			})
+		);
+		const id = (events[0] as { id: string }).id;
+		expect(answers.get(id)).toMatchObject({ answer: 'Found.', web: true });
+	});
+
 	it('streams NDJSON', async () => {
 		const res = new Response(
 			ndjson(() => askEvents(turn(provider([{ type: 'text', text: 'x' }]))))
@@ -133,5 +157,49 @@ describe('keeping an answer', () => {
 		expect(keptAnswerProblems(file)).toEqual([]);
 		expect(file.answer).toBe('Ink [2].');
 		expect(file.citations.map((c: { title: string }) => c.title)).toEqual(['Ink']);
+		expect(file).not.toHaveProperty('webCitations');
+	});
+
+	it('carries a web turn’s pages as citations, Wikipedia pinned to a revision', async () => {
+		const data = await mkdtemp(join(tmpdir(), 'kloom-kept-'));
+		const answer = {
+			id: '20260927T170509Z-0a1b2c3d',
+			subject: 'western-civ',
+			context,
+			question: 'What is new?',
+			answer:
+				'New [W1][W2].\n\n[W1] A news page — https://news.test/a\n[W2] Printing press - Wikipedia — https://en.wikipedia.org/wiki/Printing_press',
+			provider: 'claude-cli',
+			model: 'claude-sonnet-5',
+			askedAt: '2026-09-27T17:05:09.000Z',
+			web: true
+		};
+		const wiki = async () =>
+			new Response(
+				JSON.stringify({
+					query: {
+						pages: {
+							'1': {
+								title: 'Printing press',
+								revisions: [{ revid: 42, timestamp: '2026-09-25T00:00:00Z' }]
+							}
+						}
+					}
+				})
+			);
+		const kept = await keep(answer, data, new Date(), wiki);
+		expect(keptAnswerProblems(kept)).toEqual([]);
+		expect(kept.webCitations).toEqual([
+			{ kind: 'web', title: 'A news page', url: 'https://news.test/a', accessed: '2026-09-27' },
+			expect.objectContaining({
+				kind: 'wikipedia',
+				url: 'https://en.wikipedia.org/w/index.php?title=Printing_press&oldid=42'
+			})
+		]);
+		const failing = async () => new Response('', { status: 503 });
+		await expect(
+			keep({ ...answer, id: '20260927T170509Z-0a1b2c3e' }, data, new Date(), failing)
+		).rejects.toThrow('503');
+		expect(await readdir(join(data, 'western-civ', 'kept'))).toHaveLength(1);
 	});
 });

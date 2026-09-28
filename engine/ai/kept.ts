@@ -23,6 +23,13 @@ export interface KeptAnswer {
 	citations: Citation[];
 	/** The frame's plain sources the answer marked (those with no citation). */
 	sources: Source[];
+	/**
+	 * The web pages a web turn listed (`[W1] Title — URL`), as `web`
+	 * citations, or as `wikipedia` ones pinned to a revision. Absent when the
+	 * turn did not use the web. Added in sprint 005 (korg 3376); optional, so
+	 * the format stays version 1.
+	 */
+	webCitations?: Citation[];
 	provider: string;
 	model: string;
 	/** ISO 8601 UTC. */
@@ -40,9 +47,11 @@ export interface Answer {
 	provider: string;
 	model: string;
 	askedAt: string;
+	/** Whether the turn was allowed the web. */
+	web?: boolean;
 }
 
-export function keptAnswer(a: Answer, keptAt: Date): KeptAnswer {
+export function keptAnswer(a: Answer, keptAt: Date, webCitations?: Citation[]): KeptAnswer {
 	const refs = references(a.context.frame);
 	const used = citedNumbers(a.answer, refs.length).map((n) => refs[n - 1]);
 	return {
@@ -55,6 +64,7 @@ export function keptAnswer(a: Answer, keptAt: Date): KeptAnswer {
 		answer: a.answer,
 		citations: used.flatMap((r) => ('citation' in r ? [r.citation] : [])),
 		sources: used.flatMap((r) => ('source' in r ? [r.source] : [])),
+		...(webCitations ? { webCitations } : {}),
 		provider: a.provider,
 		model: a.model,
 		askedAt: a.askedAt,
@@ -93,6 +103,13 @@ export function keptAnswerProblems(x: unknown): string[] {
 		k.citations.forEach((c, i) =>
 			citationProblems(c).forEach((p) => problems.push(`citations[${i}]: ${p}`))
 		);
+	if (k.webCitations !== undefined) {
+		if (!Array.isArray(k.webCitations)) problems.push('webCitations must be an array');
+		else
+			k.webCitations.forEach((c, i) =>
+				citationProblems(c).forEach((p) => problems.push(`webCitations[${i}]: ${p}`))
+			);
+	}
 	if (!Array.isArray(k.sources)) problems.push('sources must be an array');
 	else
 		k.sources.forEach((s, i) => {

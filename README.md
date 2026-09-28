@@ -57,7 +57,10 @@ validation and UI. `subjects/<subject>/` holds one subject's content, one
 directory per frame. `src/` is the SvelteKit wiring that serves a subject
 (`KLOOM_SUBJECT`, default `western-civ`; `KLOOM_SUBJECTS_DIR`, default
 `subjects`). `create-tools/` holds the authoring scripts that made the
-content (plates, citations, charts, traced art); see its README.
+content (plates, citations, charts, traced art); see its README. `skills/`
+holds the instructions a model writes content by: `skills/grow/SKILL.md` is
+what grow jobs follow, and they commit to the git repository the subject
+lives in.
 
 Ask runs headless `claude -p` on the host, so the server needs a logged-in
 Claude Code on its `PATH`. The models on offer, and which one ask defaults

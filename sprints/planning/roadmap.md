@@ -26,14 +26,19 @@
   default), and scoped S/T for WCAG 2.1.4 (3366) —
   [record](../004-ask.md).
 
+- Sprint 005: grow (proposal 3369). Queued jobs that add frames and trails
+  in the curated frames' style, check them and commit them (3364), written
+  by `skills/grow/SKILL.md`, after the allowlist SVG sanitiser (3365). Web
+  search for ask, with web sources carried into kept answers (3376), and a
+  grow-model setting (Opus 5.5 by default) —
+  [record](../005-grow.md).
+
 ## Next
 
-The curated frames are the bar grow is written against.
-
-- Grow (proposal 3369): frames and trails written by the model, in the
-  curated frames' style and with `citations` (3364), after the allowlist
-  sanitiser (3365). It adds a grow-model setting (default Opus 5.5).
-- Run as a service on kai.
+- Run as a service on kai. Grow commits to the repo the service runs from,
+  and neither ask nor grow is authenticated, so the service stays on
+  loopback until that is decided.
+- Layouts for the AI pane (korg 3377): it now holds ask and grow.
 
 ## Later
 
