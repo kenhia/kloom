@@ -116,3 +116,18 @@ annotations), and only places and bookmarks get tables now.
 - Nothing filed. Notes (3409), kept Q&A (3390) and annotations are already
   items, and they depend on this store. An import button in the UI waits
   on a reader wanting one, since the route covers backup and moving hosts.
+
+## Deployed
+
+- **2026-09-28, kai, `just deploy` from merged main `79036cf`** (sprint-ship
+  Phase 7, the `recipe: deploy` line). `npm ci` did not re-run, since the
+  lockfile was unchanged. The content clone was on `grow/kai` at main, and
+  the sync needed nothing. All six `just verify` checks passed, including
+  the two new ones: the tailnet door refuses an anonymous reader-data read
+  (401), and the ssh door serves its reader's (200).
+- **This sprint's behaviour, live on :4891.** `/western-civ/printing-press`
+  serves (200) with the bookmark toggle and no start-screen dialog, and
+  `/western-civ/nope` redirects (307) to `/western-civ`. A bookmark was
+  added, listed and deleted through `/api/reader/bookmarks`, leaving the
+  list empty. `~/.local/share/kloom/data/reader.db` was created on first use
+  (WAL), and the journal shows no errors.
