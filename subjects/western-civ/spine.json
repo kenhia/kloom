@@ -35,7 +35,7 @@
 			"id": "machines",
 			"title": "Machines and fields",
 			"labelKind": "date",
-			"frames": ["steam", "maxwell"]
+			"frames": ["steam", "faraday-induction", "maxwell"]
 		},
 		{
 			"id": "code-and-cosmos",

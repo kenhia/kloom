@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M96 140 L304 140 M200 44 L200 236"/>
+		<path pathLength="1" d="M131.5 140 a68.5 68.5 0 1 0 137 0 a68.5 68.5 0 1 0 -137 0"/>
+		<path pathLength="1" d="M200 140 L255.84 63.14 M200 140 L255.84 216.86 M200 140 L144.16 63.14 M200 140 L144.16 216.86"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M120 140 a80 80 0 1 0 160 0 a80 80 0 1 0 -160 0"/>
+		<path pathLength="1" d="M143 140 a57 57 0 1 0 114 0 a57 57 0 1 0 -114 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M231.74 96.31 L248.79 72.85 M236.13 99.87 L255.54 78.32 M240.13 103.87 L261.68 84.46 M243.69 108.26 L267.15 91.21 M246.77 113 L271.88 98.5 M249.33 118.04 L275.82 106.24 M251.36 123.31 L278.94 114.35 M252.82 128.77 L281.18 122.74 M253.7 134.36 L282.54 131.33 M254 140 L283 140 M253.7 145.64 L282.54 148.67 M252.82 151.23 L281.18 157.26 M251.36 156.69 L278.94 165.65 M249.33 161.96 L275.82 173.76 M246.77 167 L271.88 181.5 M243.69 171.74 L267.15 188.79 M240.13 176.13 L261.68 195.54 M236.13 180.13 L255.54 201.68 M231.74 183.69 L248.79 207.15"/>
+		<path pathLength="1" d="M168.26 96.31 L151.21 72.85 M163.87 99.87 L144.46 78.32 M159.87 103.87 L138.32 84.46 M156.31 108.26 L132.85 91.21 M153.23 113 L128.12 98.5 M150.67 118.04 L124.18 106.24 M148.64 123.31 L121.06 114.35 M147.18 128.77 L118.82 122.74 M146.3 134.36 L117.46 131.33 M146 140 L117 140 M146.3 145.64 L117.46 148.67 M147.18 151.23 L118.82 157.26 M148.64 156.69 L121.06 165.65 M150.67 161.96 L124.18 173.76 M153.23 167 L128.12 181.5 M156.31 171.74 L132.85 188.79 M159.87 176.13 L138.32 195.54 M163.87 180.13 L144.46 201.68 M168.26 183.69 L151.21 207.15"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M151.21 72.85 L60 72.85 L60 95 M60 95 L72 107 M60 112 L60 128"/>
+		<path pathLength="1" d="M58 112 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M58 95 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M44 128 L76 128 M52 136 L68 136 M44 144 L76 144 M52 152 L68 152"/>
+		<path pathLength="1" d="M60 152 L60 207.15 L151.21 207.15"/>
+		<path pathLength="1" d="M248.79 72.85 L380 72.85 L380 140 L369 140"/>
+		<path pathLength="1" d="M248.79 207.15 L345 207.15 L345 164"/>
+		<path pathLength="1" d="M321 140 a24 24 0 1 0 48 0 a24 24 0 1 0 -48 0"/>
+		<path pathLength="1" d="M332.14 124.68 A20 20 0 0 1 357.86 124.68"/>
+		<path pathLength="1" d="M332.14 124.68 L330.22 122.38 M338.16 121.21 L337.13 118.39 M345 120 L345 117 M351.84 121.21 L352.87 118.39 M357.86 124.68 L359.78 122.38"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M341.58 149.4 L351.16 123.09"/>
+		<path pathLength="1" d="M343 140 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M195 67.5 L200 71.5 L195 75.5 M205 204.5 L200 208.5 L205 212.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="100" y="143" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" fill="currentColor" stroke="none">A</text>
+		<text x="300" y="143" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" fill="currentColor" stroke="none">B</text>
+		<text x="345" y="186" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" fill="currentColor" stroke="none">G</text>
+		<text x="200" y="262" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" fill="currentColor" stroke="none">SOFT IRON · 6 IN. · 29 AUG 1831</text>
+	</g>
+</svg>
