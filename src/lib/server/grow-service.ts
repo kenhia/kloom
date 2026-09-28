@@ -5,6 +5,7 @@ import { keptAnswerProblems } from '$engine/ai/kept';
 import { loadAppConfig } from './app-config';
 import { providerFor } from './ask';
 import { dataDir, listSubjects, subjectDirFor } from './config';
+import { contentRepo, growBranch, offBranch, pushGrowBranch } from './content';
 import { GrowQueue, runGrowJob } from './grow';
 import { exclusive } from './subject';
 
@@ -56,7 +57,12 @@ async function runOne(job: GrowJob, progress: (text: string) => void) {
 	if (!config.grow) return { ok: false as const, error: 'Grow is no longer configured.' };
 	const kept = job.kept ? await readKept(job.subject, job.kept) : undefined;
 	if (kept === null) return { ok: false as const, error: 'The kept answer is gone or malformed.' };
-	return runGrowJob(
+	// A service grows only on its content clone's grow branch (content.ts).
+	const branch = growBranch();
+	const repo = branch ? await contentRepo() : null;
+	const off = repo && branch ? await offBranch(repo, branch) : null;
+	if (off) return { ok: false as const, error: off };
+	const outcome = await runGrowJob(
 		job,
 		{
 			subjectDir: dir,
@@ -71,6 +77,14 @@ async function runOne(job: GrowJob, progress: (text: string) => void) {
 		},
 		progress
 	);
+	if (outcome.ok && repo && branch)
+		try {
+			await pushGrowBranch(repo, branch);
+		} catch (e) {
+			console.error(`grow: could not push ${branch}`, e);
+			outcome.result.pushError = (e as Error).message.split('\n')[0];
+		}
+	return outcome;
 }
 
 const queues = new Map<string, GrowQueue>();

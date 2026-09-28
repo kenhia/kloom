@@ -35,6 +35,8 @@ export interface GrowJob {
 	/** Checked against the app config when queued, and fixed from then on. */
 	model: string;
 	web: boolean;
+	/** Who asked for it (the host's reader identity); the commit is authored as them. */
+	by?: { login: string; name: string; via: string };
 	status: GrowStatus;
 	/** Runs started; a job interrupted by a restart is retried once. */
 	attempts: number;
@@ -44,7 +46,14 @@ export interface GrowJob {
 	/** What the model is doing now, for the AI pane. */
 	progress?: string;
 	/** On success. */
-	result?: { frames: string[]; trails: string[]; commit: string | null; summary: string };
+	result?: {
+		frames: string[];
+		trails: string[];
+		commit: string | null;
+		summary: string;
+		/** Why the commit is not on the remote grow branch yet; the next push takes it. */
+		pushError?: string;
+	};
 	/** On failure: one line for the reader, and the validator's problems if any. */
 	error?: string;
 	problems?: string[];

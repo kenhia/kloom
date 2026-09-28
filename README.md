@@ -54,8 +54,11 @@ SvelteKit + TypeScript on Node 22.13+ or 24:
 npm ci
 just dev      # http://127.0.0.1:5173, loopback only
 just check    # types + a11y lints, prettier/eslint, unit tests, content validation
-just build    # Node server in build/; run with `node build`
+just build    # Node server in build/; run with `node serve.js`
 ```
+
+On kai it runs as a service behind `tailscale serve`, where ask, keep and
+grow need a signed-in tailnet user. See [docs/deploying.md](docs/deploying.md).
 
 Code lives in four places. `engine/` is the subject-agnostic model, loader,
 validation and UI. `subjects/<subject>/` holds one subject's content, one
@@ -66,7 +69,8 @@ links the others. `create-tools/` holds the authoring scripts that made the
 content (plates, citations, charts, traced art); see its README. `skills/`
 holds the instructions a model writes content by: `skills/grow/SKILL.md` is
 what grow jobs follow, and they commit to the git repository the subject
-lives in.
+lives in. As a service, that is the service's own content clone, on a grow
+branch that it pushes.
 
 Ask runs headless `claude -p` on the host, so the server needs a logged-in
 Claude Code on its `PATH`. The models on offer, and which one ask defaults

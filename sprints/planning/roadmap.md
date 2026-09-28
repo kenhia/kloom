@@ -41,11 +41,15 @@
   skill's western-civ assumptions were generalised on the way —
   [record](../006-second-subject-ai.md).
 
+- Sprint 007: kloom runs as a service on kai (proposal 3416). Ask, keep
+  and grow are gated on the tailnet identity behind `tailscale serve`, and
+  an ssh door stays open for kwork demos (3388). The service grows into its
+  own content clone and pushes `grow/kai`, and a PR brings the content back
+  (3412) —
+  [record](../007-service-on-kai.md), [operations](../../docs/deploying.md).
+
 ## Next
 
-- Run as a service on kai. Grow commits to the repo the service runs from,
-  and neither ask nor grow is authenticated, so the service stays on
-  loopback until that is decided.
 - Layouts for the AI pane (korg 3377): it now holds ask and grow.
 
 ## Later

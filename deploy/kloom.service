@@ -1,0 +1,30 @@
+# kloom — systemd USER unit, installed by `just deploy` (docs/deploying.md).
+#
+# Two loopback doors (serve.js): :4890 is fronted by `tailscale serve`
+# (declared in k-homelab manifests/kai.yml) and writes there need the tailnet
+# identity; :4891 is for ssh forwards and trusts the caller.
+#
+# The app runs from its deploy copy; subjects come from the service's own
+# content clone on its grow branch, which a deploy never touches (korg 3412).
+#
+# KillMode stays the default control-group: a grow job's `claude` child must
+# not outlive a stop (korg 3384).
+[Unit]
+Description=kloom — growable timelines (tailscale serve :4890, ssh door :4891)
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/.local/share/kloom/app
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+Environment=KLOOM_SUBJECTS_DIR=%h/.local/share/kloom/content/subjects
+Environment=KLOOM_DATA_DIR=%h/.local/share/kloom/data
+Environment=KLOOM_GROW_BRANCH=grow/%l
+Environment=KLOOM_TAILNET_PORT=4890
+Environment=KLOOM_LOCAL_PORT=4891
+ExecStart=/usr/bin/node serve.js
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
