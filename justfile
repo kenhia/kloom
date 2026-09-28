@@ -79,5 +79,8 @@ verify:
         "$(code -X POST -H 'content-type: application/json' -d '{}' http://127.0.0.1:4890/api/keep)" 401
     check "ssh door lets a write through" \
         "$(code -X POST -H 'content-type: application/json' -d '{}' http://127.0.0.1:4891/api/keep)" 400
+    check "tailnet door keeps reader data from an anonymous read" \
+        "$(code http://127.0.0.1:4890/api/reader/export)" 401
+    check "ssh door reads its reader's data" "$(code http://127.0.0.1:4891/api/reader/export)" 200
     echo "deployed $(cat "{{ home }}/app/DEPLOYED" | cut -c1-9); content $(git -C "{{ home }}/content" log -1 --format='%h on %D' | cut -c1-60)"
     exit $fail

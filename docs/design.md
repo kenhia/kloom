@@ -427,12 +427,13 @@ Built in sprint 005 (korg 3364).
 - **Keyboard first.** Left/Right move along the spine (Home/End jump to its
   ends); Up/Down scroll the narrative; S syncs the narrative; T enters the
   trail branching from the current frame and Esc leaves it (S matters only
-  when the reader has turned following off); Tab moves into
+  when the reader has turned following off); B bookmarks the frame on the
+  spine, or removes its bookmark (§Reader data); Tab moves into
   and out of the AI pane, and Esc anywhere in it returns to the spine. Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
-- **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S
-  and T act only while focus is inside the spine or the narrative pane. They
+- **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
+  T and B act only while focus is inside the spine or the narrative pane. They
   do nothing in the AI pane, in the settings panel, or on the bare page.
   The arrows, Home/End and Esc are not character keys, so they stay
   page-wide, except in a text field or an element marked `data-own-keys`.
@@ -474,8 +475,9 @@ Built in sprint 007 (korg 3384 decided it, 3388 built it). Operations are in
   trusts no mark without that key. With no mark, only `vite dev` is trusted.
   A plain `node build`, or `vite preview`, reads but never writes.
 - **The reader goes on the grow job** (`by`) and becomes the commit's
-  author. Keep does not record one yet; per-reader data comes later (korg
-  3413).
+  author. Keep does not record one yet. Reader data keys every row by the
+  reader (§Reader data), and its routes refuse a request with none, reads
+  included: a reader's places are nobody else's to read.
 
 ## The content clone
 
@@ -539,6 +541,12 @@ Built in sprint 006 (korg 3396). One running app serves every subject.
   is clearly per-subject, so none is scoped.
 - The engine still never names a subject: the shell passes `subject.id`
   through, and the page resolves the chooser's links.
+- **Deep links** (sprint 009, korg 3414). `/<subject>/<frame>` opens that
+  frame, past the start screen, on whichever spine holds it: every frame
+  sits on exactly one, so the frame id alone says whether it is on a trail.
+  As the reader moves, the URL follows (`replaceState`, so moving adds no
+  history), and a refresh keeps the place. A link to a frame the subject no
+  longer has, such as a stale bookmark, redirects to `/<subject>`.
 
 ## The second subject
 
@@ -561,6 +569,74 @@ rule's test, and it is described in its sprint record.
   `skills/grow/SKILL.md`, by several authors at once, and committed
   segment by segment. Every place the skill assumed western-civ was
   generalised in the skill (the record lists them).
+
+## Reader data
+
+Built in sprint 009 (korg 3413, 3414). What one reader does while reading
+is not subject content. Content is files in git and gets reviewed. Reader
+data belongs to one person, is written often, is never reviewed, and always
+has an author. So it lives in a database, not in the repo.
+
+- **A store behind an interface.** `ReaderStore` (`engine/reader-data.ts`)
+  is written in engine terms, with methods per kind of record. Its one
+  adapter is SQLite (`src/lib/server/reader-store.ts`): a single file,
+  `<dataDir>/reader.db`, in WAL mode. The methods are async although SQLite
+  answers at once, so a Postgres adapter (kubsdb) can be added later
+  without touching callers. It is not built.
+- **Every row carries a reader and a subject.** The reader is the
+  request's `Reader.login` (§Who may write): the tailnet login, or the
+  host's `user@host` for the ssh door and the dev server. So there is never
+  a row with no author, and sharing notes later has the authorship it
+  needs. A request with no reader keeps nothing and is offered nothing:
+  the bookmark controls and the resume offer are absent.
+- **`node:sqlite`, not better-sqlite3.** It is built into Node 22.13 and
+  later, which is already the engines floor, and it prints no experimental
+  warning on the Node 24 that kai runs. So the store adds no dependency and
+  no native build, and `just deploy`'s `npm ci` is unchanged.
+  better-sqlite3 would bring a compiled addon, rebuilt for every Node
+  upgrade, for nothing this store needs.
+- **Migrations** are a list of SQL scripts in the adapter. `PRAGMA
+user_version` counts how many a file has had, and opening it runs the
+  rest, each in a transaction. A shipped entry is never edited; a change is
+  a new entry. A file from a newer app is refused rather than guessed at.
+- **Frames only, never trails.** A record names a subject and a frame, and
+  the frame says which spine it is on (§Several subjects, deep links). Each
+  record also keeps the frame's title when it was written, so a list that
+  spans subjects can name a frame without loading another subject. The
+  current subject's live titles replace it where they can.
+- **Last visited.** One place per reader per subject, written 800ms after
+  the reader stops moving. The last place overall is the newest of them.
+  The start screen offers both under Begin, and never forces either. It
+  offers _Continue where you were_ for this subject, and _Last read · the
+  other subject's title_ when the newest place is in another subject. Begin
+  keeps the focus.
+- **Bookmarks.** A toggle in the spine's HUD (`aria-pressed`, "Bookmark
+  this frame") and the B key mark the frame on the spine. A role="status"
+  line says "Bookmarked: …" or "Bookmark removed: …", so a key press is
+  heard. On the timeline, a bookmarked frame's tick carries a small flag
+  under the line, where a branch ring sits above it. It is not shape alone:
+  the tick's title, the slider's `aria-valuetext` and the spine
+  announcement all say "bookmarked". The jump list beside the toggle is a
+  disclosure built like the settings pop-up (`data-own-keys`, Esc returns
+  to its button, and the wheel over it scrolls the list instead of stepping
+  the spine). It lists every bookmark across subjects, newest first. One in
+  this subject moves the shell, and one elsewhere is a deep link. Each has
+  a named remove button. Writes are optimistic and roll back if the server
+  refuses them.
+- **Routes** (`src/routes/api/reader/`). `POST place`, `GET`/`POST`/`DELETE
+bookmarks`, `GET export` and `POST import`. A place or bookmark must name
+  a served subject (404) and a frame that subject has on disk (400).
+- **Export and import.** The export is a versioned JSON file
+  (`kloom: "reader-data"`, `version: 1`) of every place and bookmark, and
+  it downloads from the jump list's _Export my reading data_. Import takes
+  that file as the body of `POST /api/reader/import`. It files the records
+  under whoever imports them, and where both hold a record, the newer one
+  wins. One bad record refuses the whole file. There is no import button
+  yet: it is for backup and for moving between hosts, not an everyday
+  action.
+- **Not yet on it:** notes (3409), kept answers (3390, moving
+  `<dataDir>/<subject>/kept/*.json` in), and annotations. Each gets its own
+  methods and its own migration, keyed the same way.
 
 ## Start screen
 

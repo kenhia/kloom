@@ -3,7 +3,7 @@
  * means, given where focus is. The shell listens on the window and acts on
  * the answer.
  *
- * S and T are single-character shortcuts, so WCAG 2.1.4 applies: they act
+ * S, T and B are single-character shortcuts, so WCAG 2.1.4 applies: they act
  * only while focus is in the spine or the narrative pane, never in the AI
  * pane, the settings panel or on the bare page (korg 3366).
  */
@@ -18,6 +18,7 @@ export type PageKey =
 	| 'sync'
 	| 'trail'
 	| 'leave-trail'
+	| 'bookmark'
 	| 'to-spine';
 
 /** The part of an element this needs: tests pass a stand-in. */
@@ -29,7 +30,7 @@ export interface KeyTarget {
 export const OWN_KEYS =
 	'input[type="text"], input[type="search"], textarea, select, [contenteditable="true"], [data-own-keys]';
 
-/** Where the character shortcuts (S, T) act. */
+/** Where the character shortcuts (S, T, B) act. */
 export const SHORTCUT_PANES = '.spine, .narrative';
 
 export function pageKey(key: string, target: KeyTarget | null): PageKey | null {
@@ -55,6 +56,9 @@ export function pageKey(key: string, target: KeyTarget | null): PageKey | null {
 		case 't':
 		case 'T':
 			return within(SHORTCUT_PANES) ? 'trail' : null;
+		case 'b':
+		case 'B':
+			return within(SHORTCUT_PANES) ? 'bookmark' : null;
 		case 'Escape':
 			return 'leave-trail';
 		default:

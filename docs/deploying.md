@@ -11,6 +11,7 @@ the operations side.
 | App (the deploy copy)   | `~/.local/share/kloom/app`                                     |
 | Content clone           | `~/.local/share/kloom/content`, on `grow/kai`                  |
 | Kept answers, grow jobs | `~/.local/share/kloom/data`                                    |
+| Reader data (SQLite)    | `~/.local/share/kloom/data/reader.db` (with `-wal`, `-shm`)    |
 | Unit                    | `deploy/kloom.service`, installed to `~/.config/systemd/user/` |
 | Serve entry             | k-homelab `manifests/kai.yml`, `tailscale_serve` port 4890     |
 
@@ -38,8 +39,15 @@ just deploy
 It refuses a dirty tree, because the app copy records the commit it came
 from (`app/DEPLOYED`). It re-runs `npm ci` only when `package-lock.json`
 changed, and it never touches the content clone. The restart makes the clone
-pick up merged main (below). `just verify` checks both doors, and that the
-tailnet door refuses an anonymous write.
+pick up merged main (below). `just verify` checks both doors, that the
+tailnet door refuses an anonymous write, and that reader data answers only
+a reader.
+
+`reader.db` holds every reader's places and bookmarks. It is the one piece
+of state that is not rebuildable from git. Copy it with the unit stopped,
+or with `sqlite3 reader.db ".backup copy.db"` while it runs. One reader can
+also save their own from the bookmark list (_Export my reading data_).
+Design: [design.md](design.md) §Reader data.
 
 `journalctl --user -u kloom` shows the doors, and a `content:` line saying
 what the start-up sync did.

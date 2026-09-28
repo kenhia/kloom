@@ -86,7 +86,10 @@ clone that pushes `grow/kai`; `docs/deploying.md`);
 sprint 008 the content model for a paper-heavy subject (citations gain
 `doi`, `chapter`/`report` kinds and `circa`, and the Sources list is derived
 from citations flagged `key`), charts inlined so they follow the palette
-mode, and `create-tools/read-source` for PDFs and scans.
+mode, and `create-tools/read-source` for PDFs and scans;
+sprint 009 reader data (a SQLite store behind `ReaderStore`, keyed by
+reader and subject, with export and import), the last place offered on the
+start screen, bookmarks, and deep links (`/<subject>/<frame>`).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -118,5 +121,10 @@ validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
 - Keyboard and screen-reader support are requirements; verify keyboard-only
   when you change interaction.
 - Every request that is not a read needs a reader (`src/hooks.server.ts`); a
-  new write path goes through that gate, never around it.
+  new write path goes through that gate, never around it. Reader data is
+  keyed by that reader, and its routes refuse a request with none, reads
+  included.
+- Reader data (places, bookmarks, later notes) goes through `ReaderStore`,
+  never straight to SQLite; a schema change is a new migration, never an
+  edit to a shipped one.
 - The repo is public.

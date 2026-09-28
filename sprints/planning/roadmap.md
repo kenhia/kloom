@@ -56,6 +56,14 @@
   subjects are migrated —
   [record](../008-content-model-authoring.md).
 
+- Sprint 009: reader data (proposal 3418). Each reader's own state has a
+  SQLite store behind a storage interface, keyed by reader and subject,
+  with JSON export and import (3413). Its first consumers are the last
+  place, overall and per subject, offered on the start screen, and
+  bookmarks, with a spine mark, a B key and a jump list across subjects
+  (3414). Deep links (`/<subject>/<frame>`) came with them —
+  [record](../009-reader-data.md).
+
 ## Next
 
 - Layouts for the AI pane (korg 3377): it now holds ask and grow.
