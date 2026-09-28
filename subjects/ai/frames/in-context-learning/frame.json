@@ -1,0 +1,209 @@
+{
+	"id": "in-context-learning",
+	"position": {
+		"label": "In-context learning"
+	},
+	"scene": {
+		"headline": "We taught it by",
+		"accent": "EXAMPLE.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": ["OPENAI · GPT-3 · MAY 2020", "ZERO-SHOT · FEW-SHOT · CHAIN OF THOUGHT"],
+		"counter": {
+			"value": "0",
+			"label": "gradient updates to learn a task"
+		}
+	},
+	"sources": [
+		{
+			"title": "GPT-3 — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/GPT-3"
+		},
+		{
+			"title": "Brown et al., Language Models are Few-Shot Learners",
+			"url": "https://arxiv.org/abs/2005.14165",
+			"note": "arXiv preprint 2005.14165, 2020"
+		},
+		{
+			"title": "Wei et al., Emergent Abilities of Large Language Models",
+			"url": "https://arxiv.org/abs/2206.07682",
+			"note": "Transactions on Machine Learning Research, 2022"
+		},
+		{
+			"title": "Schaeffer et al., Are Emergent Abilities of Large Language Models a Mirage?",
+			"url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/adc98a266f45005c403b8311ca7e8bd7-Abstract-Conference.html",
+			"note": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023), 2023"
+		},
+		{
+			"title": "Wei et al., Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+			"url": "https://arxiv.org/abs/2201.11903",
+			"note": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022), 2022"
+		},
+		{
+			"title": "Kojima et al., Large Language Models are Zero-Shot Reasoners",
+			"url": "https://arxiv.org/abs/2205.11916",
+			"note": "arXiv preprint 2205.11916, 2022"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "GPT-3",
+			"url": "https://en.wikipedia.org/w/index.php?title=GPT-3&oldid=1374345477",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "article",
+			"title": "Language Models are Few-Shot Learners",
+			"url": "https://arxiv.org/abs/2005.14165",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Brown",
+					"given": "Tom B."
+				},
+				{
+					"family": "Mann",
+					"given": "Benjamin"
+				},
+				{
+					"family": "Ryder",
+					"given": "Nick"
+				},
+				{
+					"family": "Subbiah",
+					"given": "Melanie"
+				},
+				{
+					"family": "Kaplan",
+					"given": "Jared"
+				},
+				{
+					"family": "Dhariwal",
+					"given": "Prafulla"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint 2005.14165",
+			"published": "2020"
+		},
+		{
+			"kind": "article",
+			"title": "Emergent Abilities of Large Language Models",
+			"url": "https://arxiv.org/abs/2206.07682",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Wei",
+					"given": "Jason"
+				},
+				{
+					"family": "Tay",
+					"given": "Yi"
+				},
+				{
+					"family": "Bommasani",
+					"given": "Rishi"
+				},
+				{
+					"family": "Raffel",
+					"given": "Colin"
+				},
+				{
+					"family": "Zoph",
+					"given": "Barret"
+				}
+			],
+			"etAl": true,
+			"container": "Transactions on Machine Learning Research",
+			"published": "2022"
+		},
+		{
+			"kind": "article",
+			"title": "Are Emergent Abilities of Large Language Models a Mirage?",
+			"url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/adc98a266f45005c403b8311ca7e8bd7-Abstract-Conference.html",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Schaeffer",
+					"given": "Rylan"
+				},
+				{
+					"family": "Miranda",
+					"given": "Brando"
+				},
+				{
+					"family": "Koyejo",
+					"given": "Sanmi"
+				}
+			],
+			"container": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)",
+			"published": "2023"
+		},
+		{
+			"kind": "article",
+			"title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+			"url": "https://arxiv.org/abs/2201.11903",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Wei",
+					"given": "Jason"
+				},
+				{
+					"family": "Wang",
+					"given": "Xuezhi"
+				},
+				{
+					"family": "Schuurmans",
+					"given": "Dale"
+				},
+				{
+					"family": "Bosma",
+					"given": "Maarten"
+				}
+			],
+			"etAl": true,
+			"container": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)",
+			"published": "2022"
+		},
+		{
+			"kind": "article",
+			"title": "Large Language Models are Zero-Shot Reasoners",
+			"url": "https://arxiv.org/abs/2205.11916",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Kojima",
+					"given": "Takeshi"
+				},
+				{
+					"family": "Gu",
+					"given": "Shixiang Shane"
+				},
+				{
+					"family": "Reid",
+					"given": "Machel"
+				},
+				{
+					"family": "Matsuo",
+					"given": "Yutaka"
+				},
+				{
+					"family": "Iwasawa",
+					"given": "Yusuke"
+				}
+			],
+			"container": "arXiv preprint 2205.11916",
+			"published": "2022"
+		}
+	]
+}

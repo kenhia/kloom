@@ -1,0 +1,196 @@
+{
+	"id": "rlhf",
+	"position": {
+		"label": "RL from human feedback"
+	},
+	"scene": {
+		"headline": "We taught it",
+		"accent": "MANNERS.",
+		"palette": "whitepaper",
+		"illustration": "scene.svg",
+		"metadata": ["OPENAI · DEEPMIND · 2017–2022", "COMPARE TWO ANSWERS · REWARD MODEL · REINFORCE"],
+		"counter": {
+			"value": "1.3B",
+			"label": "parameters, preferred to 175B GPT-3"
+		}
+	},
+	"sources": [
+		{
+			"title": "Reinforcement learning from human feedback — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback"
+		},
+		{
+			"title": "Christiano et al., Deep Reinforcement Learning from Human Preferences",
+			"url": "https://arxiv.org/abs/1706.03741",
+			"note": "arXiv preprint 1706.03741, 2017"
+		},
+		{
+			"title": "Stiennon et al., Learning to Summarize from Human Feedback",
+			"url": "https://arxiv.org/abs/2009.01325",
+			"note": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020), 2020"
+		},
+		{
+			"title": "Ouyang et al., Training Language Models to Follow Instructions with Human Feedback",
+			"url": "https://arxiv.org/abs/2203.02155",
+			"note": "arXiv preprint 2203.02155, 2022"
+		},
+		{
+			"title": "Rafailov et al., Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+			"url": "https://arxiv.org/abs/2305.18290",
+			"note": "arXiv preprint 2305.18290, 2023"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Reinforcement learning from human feedback",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reinforcement_learning_from_human_feedback&oldid=1376235007",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "article",
+			"title": "Deep Reinforcement Learning from Human Preferences",
+			"url": "https://arxiv.org/abs/1706.03741",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Christiano",
+					"given": "Paul"
+				},
+				{
+					"family": "Leike",
+					"given": "Jan"
+				},
+				{
+					"family": "Brown",
+					"given": "Tom B."
+				},
+				{
+					"family": "Martic",
+					"given": "Miljan"
+				},
+				{
+					"family": "Legg",
+					"given": "Shane"
+				},
+				{
+					"family": "Amodei",
+					"given": "Dario"
+				}
+			],
+			"container": "arXiv preprint 1706.03741",
+			"published": "2017"
+		},
+		{
+			"kind": "article",
+			"title": "Learning to Summarize from Human Feedback",
+			"url": "https://arxiv.org/abs/2009.01325",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Stiennon",
+					"given": "Nisan"
+				},
+				{
+					"family": "Ouyang",
+					"given": "Long"
+				},
+				{
+					"family": "Wu",
+					"given": "Jeff"
+				},
+				{
+					"family": "Ziegler",
+					"given": "Daniel M."
+				}
+			],
+			"etAl": true,
+			"container": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)",
+			"published": "2020"
+		},
+		{
+			"kind": "article",
+			"title": "Training Language Models to Follow Instructions with Human Feedback",
+			"url": "https://arxiv.org/abs/2203.02155",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Ouyang",
+					"given": "Long"
+				},
+				{
+					"family": "Wu",
+					"given": "Jeff"
+				},
+				{
+					"family": "Jiang",
+					"given": "Xu"
+				},
+				{
+					"family": "Almeida",
+					"given": "Diogo"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint 2203.02155",
+			"published": "2022"
+		},
+		{
+			"kind": "article",
+			"title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+			"url": "https://arxiv.org/abs/2305.18290",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Rafailov",
+					"given": "Rafael"
+				},
+				{
+					"family": "Sharma",
+					"given": "Archit"
+				},
+				{
+					"family": "Mitchell",
+					"given": "Eric"
+				},
+				{
+					"family": "Ermon",
+					"given": "Stefano"
+				},
+				{
+					"family": "Manning",
+					"given": "Christopher D."
+				},
+				{
+					"family": "Finn",
+					"given": "Chelsea"
+				}
+			],
+			"container": "arXiv preprint 2305.18290",
+			"published": "2023"
+		},
+		{
+			"kind": "media",
+			"title": "A high-level overview of reinforcement learning from human feedback",
+			"url": "https://commons.wikimedia.org/wiki/File:RLHF_diagram.svg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "PopoDameron"
+				}
+			],
+			"published": "2024-03-14",
+			"container": "Diagram; via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "rlhf-diagram.png"
+		}
+	]
+}

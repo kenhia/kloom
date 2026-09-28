@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M119 30 L119 250"/>
+		<path pathLength="1" d="M22 74 L208 74 M22 116 L208 116 M22 158 L208 158"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 33 L106 33 L106 63 L30 63 Z"/>
+		<path pathLength="1" d="M124 33 L200 33 L200 63 L124 63 Z"/>
+		<path pathLength="1" d="M30 75 L106 75 L106 105 L30 105 Z"/>
+		<path pathLength="1" d="M124 75 L200 75 L200 105 L124 105 Z"/>
+		<path pathLength="1" d="M30 117 L106 117 L106 147 L30 147 Z"/>
+		<path pathLength="1" d="M124 117 L200 117 L200 147 L124 147 Z"/>
+		<path pathLength="1" d="M30 171 L106 171 L106 201 L30 201 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M108 48 L122 48"/>
+		<path pathLength="1" d="M118.4 49.7 L122 48 L118.4 46.3"/>
+		<path pathLength="1" d="M108 90 L122 90"/>
+		<path pathLength="1" d="M118.4 91.7 L122 90 L118.4 88.3"/>
+		<path pathLength="1" d="M108 132 L122 132"/>
+		<path pathLength="1" d="M118.4 133.7 L122 132 L118.4 130.3"/>
+		<path pathLength="1" d="M108 186 L122 186"/>
+		<path pathLength="1" d="M118.4 187.7 L122 186 L118.4 184.3"/>
+		<path pathLength="1" d="M124 171 L130.3 171 M136.7 171 L143 171 M149.3 171 L155.7 171 M162 171 L168.3 171 M174.7 171 L181 171 M187.3 171 L193.7 171 M200 171 L200 177 M200 183 L200 189 M200 195 L200 201 M200 201 L193.7 201 M187.3 201 L181 201 M174.7 201 L168.3 201 M162 201 L155.7 201 M149.3 201 L143 201 M136.7 201 L130.3 201 M124 201 L124 195 M124 189 L124 183 M124 177 L124 171"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M236 40 L236 220 M271 40 L271 220 M306 40 L306 220 M341 40 L341 220 M376 40 L376 220"/>
+		<path pathLength="1" d="M236 202 L376 202"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M236 34 L236 220 L382 220"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M236 188.3 L238.8 187 L241.6 185.6 L244.4 184.1 L247.2 182.4 L250 180.7 L252.8 178.8 L255.6 176.8 L258.4 174.6 L261.2 172.4 L264 169.9 L266.8 167.4 L269.6 164.7 L272.4 161.8 L275.2 158.9 L278 155.8 L280.8 152.6 L283.6 149.3 L286.4 145.9 L289.2 142.5 L292 139 L294.8 135.4 L297.6 131.8 L300.4 128.2 L303.2 124.6 L306 121 L308.8 117.5 L311.6 114.1 L314.4 110.7 L317.2 107.4 L320 104.2 L322.8 101.1 L325.6 98.2 L328.4 95.3 L331.2 92.6 L334 90.1 L336.8 87.6 L339.6 85.4 L342.4 83.2 L345.2 81.2 L348 79.3 L350.8 77.6 L353.6 75.9 L356.4 74.4 L359.2 73 L362 71.7 L364.8 70.5 L367.6 69.4 L370.4 68.4 L373.2 67.5 L376 66.7"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M236 202 L238.8 202 L241.6 202 L244.4 202 L247.2 202 L250 202 L252.8 202 L255.6 202 L258.4 202 L261.2 202 L264 202 L266.8 202 L269.6 202 L272.4 201.9 L275.2 201.9 L278 201.8 L280.8 201.8 L283.6 201.7 L286.4 201.5 L289.2 201.3 L292 201 L294.8 200.6 L297.6 200.1 L300.4 199.4 L303.2 198.5 L306 197.5 L308.8 196.1 L311.6 194.5 L314.4 192.6 L317.2 190.4 L320 187.9 L322.8 185 L325.6 181.8 L328.4 178.2 L331.2 174.4 L334 170.2 L336.8 165.9 L339.6 161.3 L342.4 156.6 L345.2 151.8 L348 146.9 L350.8 142 L353.6 137.2 L356.4 132.4 L359.2 127.7 L362 123.1 L364.8 118.6 L367.6 114.4 L370.4 110.3 L373.2 106.4 L376 102.7"/>
+	</g>
+	<g>
+		<text x="68" y="189" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x</text>
+		<text x="162" y="189" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">?</text>
+		<text x="115" y="272" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">K = 3 EXAMPLES · NO UPDATES</text>
+		<text x="306" y="238" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SCALE (LOG)</text>
+		<text x="306" y="272" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SHARP OR SMOOTH?</text>
+	</g>
+</svg>

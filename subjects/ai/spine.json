@@ -68,6 +68,20 @@
 			]
 		},
 		{
+			"id": "transformers",
+			"title": "The transformer era",
+			"labelKind": "technology",
+			"frames": [
+				"transformer",
+				"pretraining",
+				"scaling-laws",
+				"in-context-learning",
+				"diffusion",
+				"rlhf",
+				"chat-assistants"
+			]
+		},
+		{
 			"id": "frontier",
 			"title": "The frontier",
 			"labelKind": "technology",

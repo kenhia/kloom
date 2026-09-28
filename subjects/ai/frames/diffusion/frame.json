@@ -1,0 +1,337 @@
+{
+	"id": "diffusion",
+	"position": {
+		"label": "Diffusion models"
+	},
+	"scene": {
+		"headline": "We painted from",
+		"accent": "NOISE.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": [
+			"STANFORD · BERKELEY · MUNICH · 2015–2022",
+			"ADD NOISE · LEARN TO REMOVE IT · LATENT SPACE"
+		],
+		"counter": {
+			"value": "1,000",
+			"label": "noising steps in DDPM"
+		}
+	},
+	"sources": [
+		{
+			"title": "Diffusion model — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Diffusion_model"
+		},
+		{
+			"title": "Stable Diffusion — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Stable_Diffusion"
+		},
+		{
+			"title": "DALL-E — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/DALL-E"
+		},
+		{
+			"title": "Sohl-Dickstein et al., Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+			"url": "https://arxiv.org/abs/1503.03585",
+			"note": "Proceedings of the 32nd International Conference on Machine Learning, PMLR, 2015"
+		},
+		{
+			"title": "Ho et al., Denoising Diffusion Probabilistic Models",
+			"url": "https://arxiv.org/abs/2006.11239",
+			"note": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020), 2020"
+		},
+		{
+			"title": "Rombach et al., High-Resolution Image Synthesis with Latent Diffusion Models",
+			"url": "https://arxiv.org/abs/2112.10752",
+			"note": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2022), 2022"
+		},
+		{
+			"title": "Ramesh et al., Hierarchical Text-Conditional Image Generation with CLIP Latents",
+			"url": "https://arxiv.org/abs/2204.06125",
+			"note": "arXiv preprint 2204.06125, 2022"
+		},
+		{
+			"title": "Saharia et al., Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+			"url": "https://arxiv.org/abs/2205.11487",
+			"note": "arXiv preprint 2205.11487, 2022"
+		},
+		{
+			"title": "Lopez, Stable Diffusion Public Release",
+			"url": "https://stability.ai/news-updates/stable-diffusion-public-release",
+			"note": "Stability AI, 2022"
+		},
+		{
+			"title": "Schor, Andersen v. Stability AI: The Landmark Case Unpacking the Copyright Risks of AI Image Generators",
+			"url": "https://jipel.law.nyu.edu/andersen-v-stability-ai-the-landmark-case-unpacking-the-copyright-risks-of-ai-image-generators/",
+			"note": "NYU Journal of Intellectual Property & Entertainment Law, 2024"
+		},
+		{
+			"title": "Getty Images v Stability AI [2025] EWHC 2863 (Ch)",
+			"url": "https://www.judiciary.uk/judgments/getty-images-v-stability-ai/",
+			"note": "Judgment of Mrs Justice Joanna Smith, High Court of England and Wales"
+		},
+		{
+			"title": "Getty Images v. Stability AI: English High Court Rejects Secondary Copyright Claim",
+			"url": "https://www.lw.com/en/insights/getty-images-v-stability-ai-english-high-court-rejects-secondary-copyright-claim",
+			"note": "Latham & Watkins, 2025"
+		},
+		{
+			"title": "Daniel and Jinks, Getty Images (US) Inc (and others) v Stability AI Limited",
+			"url": "https://www.squirepattonboggs.com/en/insights/publications/2025/11/getty-images-us-inc-and-others-v-stability-ai-limited",
+			"note": "Squire Patton Boggs, 2025"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Diffusion model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diffusion_model&oldid=1375484555",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stable Diffusion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stable_Diffusion&oldid=1372234199",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "DALL-E",
+			"url": "https://en.wikipedia.org/w/index.php?title=DALL-E&oldid=1376634171",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "article",
+			"title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+			"url": "https://arxiv.org/abs/1503.03585",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Sohl-Dickstein",
+					"given": "Jascha"
+				},
+				{
+					"family": "Weiss",
+					"given": "Eric A."
+				},
+				{
+					"family": "Maheswaranathan",
+					"given": "Niru"
+				},
+				{
+					"family": "Ganguli",
+					"given": "Surya"
+				}
+			],
+			"container": "Proceedings of the 32nd International Conference on Machine Learning, PMLR",
+			"volume": "37",
+			"published": "2015"
+		},
+		{
+			"kind": "article",
+			"title": "Denoising Diffusion Probabilistic Models",
+			"url": "https://arxiv.org/abs/2006.11239",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Ho",
+					"given": "Jonathan"
+				},
+				{
+					"family": "Jain",
+					"given": "Ajay"
+				},
+				{
+					"family": "Abbeel",
+					"given": "Pieter"
+				}
+			],
+			"container": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)",
+			"published": "2020"
+		},
+		{
+			"kind": "article",
+			"title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+			"url": "https://arxiv.org/abs/2112.10752",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Rombach",
+					"given": "Robin"
+				},
+				{
+					"family": "Blattmann",
+					"given": "Andreas"
+				},
+				{
+					"family": "Lorenz",
+					"given": "Dominik"
+				},
+				{
+					"family": "Esser",
+					"given": "Patrick"
+				},
+				{
+					"family": "Ommer",
+					"given": "Björn"
+				}
+			],
+			"container": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2022)",
+			"published": "2022"
+		},
+		{
+			"kind": "article",
+			"title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+			"url": "https://arxiv.org/abs/2204.06125",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Ramesh",
+					"given": "Aditya"
+				},
+				{
+					"family": "Dhariwal",
+					"given": "Prafulla"
+				},
+				{
+					"family": "Nichol",
+					"given": "Alex"
+				},
+				{
+					"family": "Chu",
+					"given": "Casey"
+				},
+				{
+					"family": "Chen",
+					"given": "Mark"
+				}
+			],
+			"container": "arXiv preprint 2204.06125",
+			"published": "2022"
+		},
+		{
+			"kind": "article",
+			"title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+			"url": "https://arxiv.org/abs/2205.11487",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Saharia",
+					"given": "Chitwan"
+				},
+				{
+					"family": "Chan",
+					"given": "William"
+				},
+				{
+					"family": "Saxena",
+					"given": "Saurabh"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint 2205.11487",
+			"published": "2022"
+		},
+		{
+			"kind": "web",
+			"title": "Stable Diffusion Public Release",
+			"url": "https://stability.ai/news-updates/stable-diffusion-public-release",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Lopez",
+					"given": "Joshua"
+				}
+			],
+			"container": "Stability AI",
+			"published": "2022-08-22"
+		},
+		{
+			"kind": "web",
+			"title": "Andersen v. Stability AI: The Landmark Case Unpacking the Copyright Risks of AI Image Generators",
+			"url": "https://jipel.law.nyu.edu/andersen-v-stability-ai-the-landmark-case-unpacking-the-copyright-risks-of-ai-image-generators/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Schor",
+					"given": "Zach"
+				}
+			],
+			"container": "NYU Journal of Intellectual Property & Entertainment Law",
+			"published": "2024-12-02"
+		},
+		{
+			"kind": "web",
+			"title": "Getty Images v Stability AI [2025] EWHC 2863 (Ch)",
+			"url": "https://www.judiciary.uk/judgments/getty-images-v-stability-ai/",
+			"accessed": "2026-09-27",
+			"container": "Courts and Tribunals Judiciary",
+			"published": "2025-11-04"
+		},
+		{
+			"kind": "web",
+			"title": "Getty Images v. Stability AI: English High Court Rejects Secondary Copyright Claim",
+			"url": "https://www.lw.com/en/insights/getty-images-v-stability-ai-english-high-court-rejects-secondary-copyright-claim",
+			"accessed": "2026-09-27",
+			"container": "Latham & Watkins",
+			"published": "2025-11"
+		},
+		{
+			"kind": "web",
+			"title": "Getty Images (US) Inc (and others) v Stability AI Limited",
+			"url": "https://www.squirepattonboggs.com/en/insights/publications/2025/11/getty-images-us-inc-and-others-v-stability-ai-limited",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Daniel",
+					"given": "Carlton"
+				},
+				{
+					"family": "Jinks",
+					"given": "Paul"
+				}
+			],
+			"container": "Squire Patton Boggs",
+			"published": "2025-11"
+		},
+		{
+			"kind": "media",
+			"title": "A European-style castle in Japan generated by Stable Diffusion v1.5, shown at ten steps of a 40-step DDIM denoising run",
+			"url": "https://commons.wikimedia.org/wiki/File:X-Y_plot_of_algorithmically-generated_AI_art_of_European-style_castle_in_Japan_demonstrating_DDIM_diffusion_steps.png",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Benlisquare"
+				}
+			],
+			"published": "2022-11-01",
+			"container": "Generated with Stable Diffusion v1.5 and arranged as an X/Y plot; via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "denoising-steps.jpg"
+		}
+	]
+}
