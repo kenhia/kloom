@@ -162,6 +162,23 @@ describe('chicago parts', () => {
 		expect(chicagoAuthors([{ name: 'NASA' }])).toBe('NASA');
 	});
 
+	it('ends a long author list with et al., without doubling the full stop', () => {
+		const radford = { family: 'Radford', given: 'Alec' };
+		expect(chicagoAuthors([radford], true)).toBe('Radford, Alec, et al.');
+		expect(chicagoAuthors([radford, { family: 'Wu', given: 'Jeffrey' }], true)).toBe(
+			'Radford, Alec, Jeffrey Wu, et al.'
+		);
+		const text = chicagoText({
+			kind: 'article',
+			title: 'Language Models are Unsupervised Multitask Learners',
+			url: 'https://example.org/gpt2.pdf',
+			accessed: '2026-09-27',
+			authors: [radford],
+			etAl: true
+		});
+		expect(text.startsWith('Radford, Alec, et al. “Language')).toBe(true);
+	});
+
 	it('asks for a caption credit only where the licence needs one', () => {
 		expect(needsCaption('Public domain')).toBe(false);
 		expect(needsCaption('CC0 1.0')).toBe(false);
@@ -199,6 +216,14 @@ describe('citationProblems', () => {
 			'a media citation needs a licence',
 			'a media citation needs the file it credits'
 		]);
+	});
+
+	it('takes etAl only as a flag on a listed author', () => {
+		expect(citationProblems({ ...web, authors: [{ name: 'A' }], etAl: true })).toEqual([]);
+		for (const bad of [{ etAl: 'yes', authors: [{ name: 'A' }] }, { etAl: true }])
+			expect(citationProblems({ ...web, authors: undefined, ...bad })).toEqual([
+				'etAl must be true or false, with at least one author listed'
+			]);
 	});
 
 	it('rejects a bad kind, url, dates and authors', () => {

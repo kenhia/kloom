@@ -21,6 +21,12 @@ export interface Citation {
 	accessed: string;
 	/** Authors, or for media the creator. Wikipedia: "Wikipedia contributors". */
 	authors?: Author[];
+	/**
+	 * More authors than are listed: the entry ends the list with "et al.". A
+	 * paper with dozens or hundreds of authors lists the first (Chicago lists
+	 * up to ten, then the first seven).
+	 */
+	etAl?: boolean;
 	/** The site, book series or collection the item sits in. */
 	container?: string;
 	publisher?: string;
@@ -78,10 +84,11 @@ const inverted = (a: Author) =>
 const natural = (a: Author) =>
 	'name' in a ? a.name : a.given ? `${a.given} ${a.family}` : a.family;
 
-/** Bibliography order: the first author inverted, the rest as written. */
-export function chicagoAuthors(authors: Author[]): string {
+/** Bibliography order: the first author inverted, the rest as written; `etAl` for more unlisted. */
+export function chicagoAuthors(authors: Author[], etAl = false): string {
 	const [first, ...rest] = authors;
 	if (!first) return '';
+	if (etAl) return [inverted(first), ...rest.map(natural), 'et al.'].join(', ');
 	if (rest.length === 0) return inverted(first);
 	const others = rest.map(natural);
 	const last = others.pop()!;
@@ -116,7 +123,7 @@ export function chicago(c: Citation): Part[] {
 	const parts: Part[] = [];
 	const add = (text: string, italic = false) => parts.push(italic ? { text, italic } : { text });
 
-	if (c.authors?.length) add(`${stop(chicagoAuthors(c.authors))} `);
+	if (c.authors?.length) add(`${stop(chicagoAuthors(c.authors, c.etAl))} `);
 
 	const italicTitle = c.kind === 'book' || c.kind === 'media';
 	if (italicTitle) {
@@ -176,7 +183,10 @@ export const needsCaption = (licence: string) => !/^(public domain|cc0\b|pd\b)/i
 
 /** The short caption credit: "Jane Doe / CC BY-SA 4.0". */
 export const captionCredit = (c: Citation) =>
-	[c.authors?.length ? c.authors.map(natural).join(', ') : undefined, c.licence]
+	[
+		c.authors?.length ? c.authors.map(natural).join(', ') + (c.etAl ? ' et al.' : '') : undefined,
+		c.licence
+	]
 		.filter(Boolean)
 		.join(' / ');
 
@@ -207,6 +217,8 @@ export function citationProblems(c: unknown): string[] {
 		out.push('published must be YYYY, YYYY-MM or YYYY-MM-DD');
 	if (c.authors !== undefined && !(Array.isArray(c.authors) && c.authors.every(isAuthor)))
 		out.push('authors must each have a family name or a name');
+	if (c.etAl !== undefined && (typeof c.etAl !== 'boolean' || !Array.isArray(c.authors)))
+		out.push('etAl must be true or false, with at least one author listed');
 	for (const k of ['container', 'publisher', 'place', 'volume', 'issue', 'pages'] as const)
 		if (c[k] !== undefined && !isText(c[k])) out.push(`${k} must be text`);
 	if (c.kind === 'media') {

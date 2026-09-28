@@ -1,7 +1,7 @@
 """Images from Wikimedia Commons for a reading, with their `media` citation.
 
     python3 create-tools/commons-media/commons_media.py search "Mark I perceptron"
-    python3 create-tools/commons-media/commons_media.py fetch "File:Name.jpg" FRAME_DIR [--as NAME] [--width 800]
+    python3 create-tools/commons-media/commons_media.py fetch "File:Name.jpg" FRAME_DIR [--as NAME] [--width 960]
 
 `search` lists matching file pages with their licence, so you can pick one
 you may use. `fetch` downloads a scaled copy into the frame's directory and
@@ -17,6 +17,10 @@ AGENT = 'kloom-create-tools/1.0 (https://github.com/kenhia/kloom)'
 # Licences a reading may carry without asking anyone (docs/design.md §Citations).
 # What the reading pane serves (engine/validate.ts MEDIA_FILE).
 MIME = {'image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/svg+xml'}
+# Commons serves thumbnails only at these widths, rounding a request up to the next one.
+STEPS = [120, 250, 330, 500, 960, 1280, 1920]
+# A reading's image larger than this is worth a smaller --width (sprint 006 kept them under it).
+LARGE = 350 * 1024
 FREE = re.compile(r'^(public domain|pd|cc0|cc by(-sa)? [0-9.]+|cc-by(-sa)?-[0-9.]+)', re.I)
 
 
@@ -60,8 +64,14 @@ def year(meta):
     return m.group(0) if m else None
 
 
-def fetch(title, frame_dir, name=None, width=800, accessed=None):
+def step(width):
+    """The widest thumbnail Commons will actually serve that is no wider than `width`."""
+    return max([w for w in STEPS if w <= width] or [STEPS[0]])
+
+
+def fetch(title, frame_dir, name=None, width=960, accessed=None):
     title = title if title.startswith('File:') else f'File:{title}'
+    width = step(width)
     (_, i), = info([title], width)
     if not i:
         sys.exit(f'commons_media: no file "{title}"')
@@ -96,6 +106,9 @@ def fetch(title, frame_dir, name=None, width=800, accessed=None):
     print(json.dumps(citation, ensure_ascii=False, indent='\t'))
     print(f'commons_media: wrote {file} ({len(body) // 1024} KB); credit line: {meta.get("Credit", "")[:120]}',
           file=sys.stderr)
+    if len(body) > LARGE:
+        print(f'commons_media: {file} is over {LARGE // 1024} KB; try a smaller --width '
+              f'(Commons serves {", ".join(map(str, STEPS))})', file=sys.stderr)
 
 
 if __name__ == '__main__':
@@ -107,7 +120,7 @@ if __name__ == '__main__':
     f.add_argument('title')
     f.add_argument('frame_dir')
     f.add_argument('--as', dest='name')
-    f.add_argument('--width', type=int, default=800)
+    f.add_argument('--width', type=int, default=960)
     f.add_argument('--accessed')
     a = ap.parse_args()
     if a.cmd == 'search':

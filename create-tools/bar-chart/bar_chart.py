@@ -8,6 +8,12 @@ spec names its colours (use the frame's palette). It carries <title> and
 the image too. Standard library only. See README.md for the spec.
 """
 import json, math, sys
+from xml.sax.saxutils import escape
+
+
+def esc(v):
+    """Spec text is plain text: escaped here, so a "<1%" label cannot break the SVG."""
+    return escape(str(v))
 
 
 def label(v, unit):
@@ -31,15 +37,15 @@ def chart(spec):
     base = spec['axis']['min'] if spec.get('scale') == 'log' else 0
     unit = spec.get('unit', '')
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">',
-           f'<title id="t">{spec["title"]}</title>',
-           f'<desc id="d">{spec["description"]}</desc>',
+           f'<title id="t">{esc(spec["title"])}</title>',
+           f'<desc id="d">{esc(spec["description"])}</desc>',
            f'<rect width="{W}" height="{H}" fill="{c["background"]}"/>',
            f'<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="{c["muted"]}">']
     for v, lab in spec['axis']['ticks']:
         y = at(v)
         out.append(f'<line x1="{x0}" x2="{x1}" y1="{y:.1f}" y2="{y:.1f}" stroke="{c["muted"]}" '
                    f'stroke-opacity="{0.9 if v == base else 0.3}" stroke-width="{1 if v == base else 0.6}"/>')
-        out.append(f'<text x="{x0 - 8}" y="{y + 4:.1f}" text-anchor="end">{lab}</text>')
+        out.append(f'<text x="{x0 - 8}" y="{y + 4:.1f}" text-anchor="end">{esc(lab)}</text>')
     bars = spec['bars']
     bw = spec.get('barWidth', 56)
     slot = (x1 - x0) / len(bars)
@@ -50,11 +56,11 @@ def chart(spec):
         shown = b.get('display', label(b['value'], unit))
         out.append(f'<rect x="{cx - bw / 2:.1f}" y="{y1 - h:.1f}" width="{bw}" height="{max(h, 1):.1f}" '
                    f'fill="{c["accent"] if hi else c["ink"]}" fill-opacity="{1 if hi else 0.85}"/>')
-        out.append(f'<text x="{cx:.1f}" y="{y1 - h - 6:.1f}" text-anchor="middle" fill="{c["ink"]}">{shown}</text>')
-        out.append(f'<text x="{cx:.1f}" y="{y1 + 16}" text-anchor="middle" fill="{c["ink"]}">{b["label"]}</text>')
+        out.append(f'<text x="{cx:.1f}" y="{y1 - h - 6:.1f}" text-anchor="middle" fill="{c["ink"]}">{esc(shown)}</text>')
+        out.append(f'<text x="{cx:.1f}" y="{y1 + 16}" text-anchor="middle" fill="{c["ink"]}">{esc(b["label"])}</text>')
         if b.get('sublabel'):
-            out.append(f'<text x="{cx:.1f}" y="{y1 + 30}" text-anchor="middle" font-size="9">{b["sublabel"]}</text>')
-    out.append(f'<text x="{x0}" y="20" font-size="12" fill="{c["ink"]}" letter-spacing="1">{spec["heading"]}</text>')
+            out.append(f'<text x="{cx:.1f}" y="{y1 + 30}" text-anchor="middle" font-size="9">{esc(b["sublabel"])}</text>')
+    out.append(f'<text x="{x0}" y="20" font-size="12" fill="{c["ink"]}" letter-spacing="1">{esc(spec["heading"])}</text>')
     out.append('</g></svg>')
     return '\n'.join(out) + '\n'
 
