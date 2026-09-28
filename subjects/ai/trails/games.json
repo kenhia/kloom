@@ -1,0 +1,23 @@
+{
+	"id": "games",
+	"title": "Machines at play",
+	"anchor": "deep-blue",
+	"spine": {
+		"segments": [
+			{
+				"id": "play",
+				"title": "Games",
+				"labelKind": "date",
+				"frames": [
+					"mechanical-turk",
+					"shannon-chess",
+					"samuel-checkers",
+					"td-gammon",
+					"chinook",
+					"alphazero",
+					"pluribus"
+				]
+			}
+		]
+	}
+}

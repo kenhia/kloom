@@ -1,0 +1,105 @@
+{
+	"id": "td-gammon",
+	"position": {
+		"label": "1992",
+		"sort": 1992
+	},
+	"scene": {
+		"headline": "The student taught the",
+		"accent": "EXPERTS.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": [
+			"IBM WATSON RESEARCH CENTER · GERALD TESAURO",
+			"BACKGAMMON · NEURAL NETWORK · TD(λ)"
+		],
+		"counter": {
+			"value": "1,500,000",
+			"label": "games against itself (version 2.1)"
+		}
+	},
+	"sources": [
+		{
+			"title": "Gerald Tesauro, Temporal Difference Learning and TD-Gammon",
+			"url": "https://doi.org/10.1145/203330.203343",
+			"note": "Communications of the ACM, 1995"
+		},
+		{
+			"title": "TD-Gammon — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/TD-Gammon"
+		},
+		{
+			"title": "Temporal difference learning — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Temporal_difference_learning"
+		},
+		{
+			"title": "Arthur L. Samuel, Some Studies in Machine Learning Using the Game of Checkers",
+			"url": "https://doi.org/10.1147/rd.33.0210",
+			"note": "IBM Journal of Research and Development, 1959"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Temporal Difference Learning and TD-Gammon",
+			"url": "https://doi.org/10.1145/203330.203343",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Tesauro",
+					"given": "Gerald"
+				}
+			],
+			"container": "Communications of the ACM",
+			"published": "1995-03",
+			"volume": "38",
+			"issue": "3",
+			"pages": "58–68"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "TD-Gammon",
+			"url": "https://en.wikipedia.org/w/index.php?title=TD-Gammon&oldid=1343006814",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Temporal difference learning",
+			"url": "https://en.wikipedia.org/w/index.php?title=Temporal_difference_learning&oldid=1375126803",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "article",
+			"title": "Some Studies in Machine Learning Using the Game of Checkers",
+			"url": "https://doi.org/10.1147/rd.33.0210",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Samuel",
+					"given": "Arthur L."
+				}
+			],
+			"container": "IBM Journal of Research and Development",
+			"published": "1959-07",
+			"volume": "3",
+			"issue": "3",
+			"pages": "210–29"
+		}
+	]
+}

@@ -1,0 +1,161 @@
+{
+	"id": "shannon-chess",
+	"position": {
+		"label": "1950",
+		"sort": 1950
+	},
+	"scene": {
+		"headline": "We scored the",
+		"accent": "BOARD.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": ["BELL LABS · CLAUDE SHANNON", "CAMBRIDGE · ALAN TURING · DAVID CHAMPERNOWNE"],
+		"counter": {
+			"value": "10¹²⁰",
+			"label": "variations from the first move"
+		}
+	},
+	"sources": [
+		{
+			"title": "Claude E. Shannon, Programming a Computer for Playing Chess",
+			"url": "https://doi.org/10.1080/14786445008521796",
+			"note": "Philosophical Magazine, ser. 7, 1950"
+		},
+		{
+			"title": "Shannon number — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Shannon_number"
+		},
+		{
+			"title": "Turochamp — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Turochamp"
+		},
+		{
+			"title": "David Silver, Thomas Hubert et al., Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+			"url": "https://arxiv.org/abs/1712.01815",
+			"note": "arXiv, 2017"
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Programming a Computer for Playing Chess",
+			"url": "https://doi.org/10.1080/14786445008521796",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Shannon",
+					"given": "Claude E."
+				}
+			],
+			"container": "Philosophical Magazine, ser. 7",
+			"published": "1950-03",
+			"volume": "41",
+			"issue": "314",
+			"pages": "256–75"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Shannon number",
+			"url": "https://en.wikipedia.org/w/index.php?title=Shannon_number&oldid=1373831044",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Turochamp",
+			"url": "https://en.wikipedia.org/w/index.php?title=Turochamp&oldid=1374470728",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "article",
+			"title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+			"url": "https://arxiv.org/abs/1712.01815",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Silver",
+					"given": "David"
+				},
+				{
+					"family": "Hubert",
+					"given": "Thomas"
+				},
+				{
+					"family": "Schrittwieser",
+					"given": "Julian"
+				},
+				{
+					"family": "Antonoglou",
+					"given": "Ioannis"
+				},
+				{
+					"family": "Lai",
+					"given": "Matthew"
+				},
+				{
+					"family": "Guez",
+					"given": "Arthur"
+				},
+				{
+					"family": "Lanctot",
+					"given": "Marc"
+				},
+				{
+					"family": "Sifre",
+					"given": "Laurent"
+				},
+				{
+					"family": "Kumaran",
+					"given": "Dharshan"
+				},
+				{
+					"family": "Graepel",
+					"given": "Thore"
+				},
+				{
+					"family": "Lillicrap",
+					"given": "Timothy"
+				},
+				{
+					"family": "Simonyan",
+					"given": "Karen"
+				},
+				{
+					"family": "Hassabis",
+					"given": "Demis"
+				}
+			],
+			"container": "arXiv preprint 1712.01815",
+			"published": "2017-12-05"
+		},
+		{
+			"kind": "media",
+			"title": "Claude Elwood Shannon, portrait photograph",
+			"url": "https://commons.wikimedia.org/wiki/File:C.E._Shannon._Tekniska_museet_43069_(cropped).jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Unknown photographer"
+				}
+			],
+			"container": "Tekniska museet, Stockholm, item 43069; via Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "claude-shannon.jpg"
+		}
+	]
+}
