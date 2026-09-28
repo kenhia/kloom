@@ -80,11 +80,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Yonghui Wu et al."
+					"family": "Wu",
+					"given": "Yonghui"
 				}
 			],
 			"container": "arXiv",
-			"published": "2016-09-26"
+			"published": "2016-09-26",
+			"etAl": true
 		},
 		{
 			"kind": "web",

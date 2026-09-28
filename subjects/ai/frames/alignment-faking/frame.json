@@ -91,11 +91,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Hubinger, Evan, et al."
+					"family": "Hubinger",
+					"given": "Evan"
 				}
 			],
 			"container": "arXiv",
-			"published": "2019-06-05"
+			"published": "2019-06-05",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -104,11 +106,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Hubinger, Evan, et al."
+					"family": "Hubinger",
+					"given": "Evan"
 				}
 			],
 			"container": "arXiv",
-			"published": "2024-01-10"
+			"published": "2024-01-10",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -143,11 +147,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Meinke, Alexander, et al."
+					"family": "Meinke",
+					"given": "Alexander"
 				}
 			],
 			"container": "arXiv",
-			"published": "2024-12-06"
+			"published": "2024-12-06",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -156,11 +162,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Greenblatt, Ryan, et al."
+					"family": "Greenblatt",
+					"given": "Ryan"
 				}
 			],
 			"container": "arXiv",
-			"published": "2024-12-18"
+			"published": "2024-12-18",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -182,11 +190,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Summerfield, Christopher, et al."
+					"family": "Summerfield",
+					"given": "Christopher"
 				}
 			],
 			"container": "arXiv",
-			"published": "2025-07-04"
+			"published": "2025-07-04",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -195,11 +205,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Schoen, Bronson, et al."
+					"family": "Schoen",
+					"given": "Bronson"
 				}
 			],
 			"container": "arXiv",
-			"published": "2025-09-19"
+			"published": "2025-09-19",
+			"etAl": true
 		},
 		{
 			"kind": "web",

@@ -171,12 +171,14 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Brown, Tom B., et al."
+					"family": "Brown",
+					"given": "Tom B."
 				}
 			],
 			"published": "2020",
 			"container": "Advances in Neural Information Processing Systems 33",
-			"volume": "33"
+			"volume": "33",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -185,11 +187,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Touvron, Hugo, et al."
+					"family": "Touvron",
+					"given": "Hugo"
 				}
 			],
 			"published": "2023",
-			"container": "arXiv"
+			"container": "arXiv",
+			"etAl": true
 		},
 		{
 			"kind": "article",

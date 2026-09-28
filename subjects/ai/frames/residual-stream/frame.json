@@ -59,12 +59,14 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Elhage, Nelson, et al."
+					"family": "Elhage",
+					"given": "Nelson"
 				}
 			],
 			"container": "Transformer Circuits Thread",
 			"publisher": "Anthropic",
-			"published": "2021-12-22"
+			"published": "2021-12-22",
+			"etAl": true
 		},
 		{
 			"kind": "article",

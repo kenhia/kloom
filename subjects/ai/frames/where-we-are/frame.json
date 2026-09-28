@@ -97,11 +97,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Bengio, Yoshua, et al."
+					"family": "Bengio",
+					"given": "Yoshua"
 				}
 			],
 			"container": "International AI Safety Report",
-			"published": "2026-02-03"
+			"published": "2026-02-03",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -224,11 +226,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Grace, Katja, et al."
+					"family": "Grace",
+					"given": "Katja"
 				}
 			],
 			"container": "arXiv",
-			"published": "2024-01"
+			"published": "2024-01",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -237,11 +241,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Kokotajlo, Daniel, et al."
+					"family": "Kokotajlo",
+					"given": "Daniel"
 				}
 			],
 			"container": "AI Futures Project",
-			"published": "2025-04-03"
+			"published": "2025-04-03",
+			"etAl": true
 		},
 		{
 			"kind": "web",

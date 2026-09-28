@@ -88,11 +88,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Ouyang, Long, et al."
+					"family": "Ouyang",
+					"given": "Long"
 				}
 			],
 			"container": "arXiv",
-			"published": "2022-03-04"
+			"published": "2022-03-04",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -101,11 +103,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Bai, Yuntao, et al."
+					"family": "Bai",
+					"given": "Yuntao"
 				}
 			],
 			"container": "arXiv",
-			"published": "2022-12-15"
+			"published": "2022-12-15",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -153,11 +157,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Lee, Harrison, et al."
+					"family": "Lee",
+					"given": "Harrison"
 				}
 			],
 			"container": "arXiv",
-			"published": "2023-09-01"
+			"published": "2023-09-01",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -166,11 +172,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Glaese, Amelia, et al."
+					"family": "Glaese",
+					"given": "Amelia"
 				}
 			],
 			"container": "arXiv",
-			"published": "2022-09-28"
+			"published": "2022-09-28",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -205,11 +213,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Guan, Melody Y., et al."
+					"family": "Guan",
+					"given": "Melody Y."
 				}
 			],
 			"container": "arXiv",
-			"published": "2024-12-20"
+			"published": "2024-12-20",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -231,11 +241,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Greenblatt, Ryan, et al."
+					"family": "Greenblatt",
+					"given": "Ryan"
 				}
 			],
 			"container": "arXiv",
-			"published": "2024-12-18"
+			"published": "2024-12-18",
+			"etAl": true
 		}
 	]
 }

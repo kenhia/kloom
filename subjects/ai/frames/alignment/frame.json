@@ -105,11 +105,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Hubinger, Evan, et al."
+					"family": "Hubinger",
+					"given": "Evan"
 				}
 			],
 			"container": "arXiv",
-			"published": "2019-06-05"
+			"published": "2019-06-05",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -118,11 +120,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Amodei, Dario, et al."
+					"family": "Amodei",
+					"given": "Dario"
 				}
 			],
 			"container": "arXiv",
-			"published": "2016-06-21"
+			"published": "2016-06-21",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -144,11 +148,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Grace, Katja, et al."
+					"family": "Grace",
+					"given": "Katja"
 				}
 			],
 			"container": "arXiv",
-			"published": "2024-01"
+			"published": "2024-01",
+			"etAl": true
 		},
 		{
 			"kind": "wikipedia",

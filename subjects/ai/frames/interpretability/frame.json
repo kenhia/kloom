@@ -122,13 +122,15 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Olah, Chris, et al."
+					"family": "Olah",
+					"given": "Chris"
 				}
 			],
 			"container": "Distill",
 			"published": "2020-03-10",
 			"volume": "5",
-			"issue": "3"
+			"issue": "3",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -137,11 +139,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Cunningham, Hoagy, et al."
+					"family": "Cunningham",
+					"given": "Hoagy"
 				}
 			],
 			"container": "arXiv",
-			"published": "2023-09-15"
+			"published": "2023-09-15",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -150,12 +154,14 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Bricken, Trenton, et al."
+					"family": "Bricken",
+					"given": "Trenton"
 				}
 			],
 			"container": "Transformer Circuits Thread",
 			"published": "2023-10-04",
-			"publisher": "Anthropic"
+			"publisher": "Anthropic",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -164,12 +170,14 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Elhage, Nelson, et al."
+					"family": "Elhage",
+					"given": "Nelson"
 				}
 			],
 			"container": "Transformer Circuits Thread",
 			"published": "2022-09-14",
-			"publisher": "Anthropic"
+			"publisher": "Anthropic",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -178,12 +186,14 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Templeton, Adly, et al."
+					"family": "Templeton",
+					"given": "Adly"
 				}
 			],
 			"container": "Transformer Circuits Thread",
 			"published": "2024-05-21",
-			"publisher": "Anthropic"
+			"publisher": "Anthropic",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -192,11 +202,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Gao, Leo, et al."
+					"family": "Gao",
+					"given": "Leo"
 				}
 			],
 			"container": "arXiv",
-			"published": "2024-06-06"
+			"published": "2024-06-06",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -205,11 +217,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Lieberum, Tom, et al."
+					"family": "Lieberum",
+					"given": "Tom"
 				}
 			],
 			"container": "arXiv",
-			"published": "2024-08-09"
+			"published": "2024-08-09",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -218,12 +232,14 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Lindsey, Jack, et al."
+					"family": "Lindsey",
+					"given": "Jack"
 				}
 			],
 			"container": "Transformer Circuits Thread",
 			"published": "2025-03-27",
-			"publisher": "Anthropic"
+			"publisher": "Anthropic",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -232,11 +248,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Smith, Lewis, et al."
+					"family": "Smith",
+					"given": "Lewis"
 				}
 			],
 			"container": "AI Alignment Forum",
-			"published": "2025-03-26"
+			"published": "2025-03-26",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -245,11 +263,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Sharkey, Lee, et al."
+					"family": "Sharkey",
+					"given": "Lee"
 				}
 			],
 			"container": "arXiv",
-			"published": "2025-01-27"
+			"published": "2025-01-27",
+			"etAl": true
 		},
 		{
 			"kind": "web",

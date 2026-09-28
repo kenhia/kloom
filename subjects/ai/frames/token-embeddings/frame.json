@@ -168,11 +168,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Touvron, Hugo, et al."
+					"family": "Touvron",
+					"given": "Hugo"
 				}
 			],
 			"published": "2023",
-			"container": "arXiv"
+			"container": "arXiv",
+			"etAl": true
 		},
 		{
 			"kind": "article",

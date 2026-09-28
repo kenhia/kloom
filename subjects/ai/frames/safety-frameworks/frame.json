@@ -244,11 +244,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Bengio, Yoshua, et al."
+					"family": "Bengio",
+					"given": "Yoshua"
 				}
 			],
 			"container": "International AI Safety Report",
-			"published": "2026-02-03"
+			"published": "2026-02-03",
+			"etAl": true
 		},
 		{
 			"kind": "wikipedia",

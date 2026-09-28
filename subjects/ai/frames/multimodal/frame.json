@@ -197,13 +197,15 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Radford, Alec, et al."
+					"family": "Radford",
+					"given": "Alec"
 				}
 			],
 			"container": "Proceedings of the 38th International Conference on Machine Learning (ICML 2021), PMLR",
 			"published": "2021",
 			"volume": "139",
-			"pages": "8748–63"
+			"pages": "8748–63",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -238,11 +240,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Ramesh, Aditya, et al."
+					"family": "Ramesh",
+					"given": "Aditya"
 				}
 			],
 			"container": "arXiv",
-			"published": "2022-04-13"
+			"published": "2022-04-13",
+			"etAl": true
 		},
 		{
 			"kind": "web",

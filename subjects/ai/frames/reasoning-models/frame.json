@@ -146,11 +146,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Wei, Jason, et al."
+					"family": "Wei",
+					"given": "Jason"
 				}
 			],
 			"container": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)",
-			"published": "2022"
+			"published": "2022",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -212,14 +214,16 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Guo, Daya, et al."
+					"family": "Guo",
+					"given": "Daya"
 				}
 			],
 			"container": "Nature",
 			"published": "2025-09-17",
 			"volume": "645",
 			"issue": "8081",
-			"pages": "633–38"
+			"pages": "633–38",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -388,11 +392,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Shojaee, Parshin, et al."
+					"family": "Shojaee",
+					"given": "Parshin"
 				}
 			],
 			"container": "arXiv",
-			"published": "2025-06-07"
+			"published": "2025-06-07",
+			"etAl": true
 		},
 		{
 			"kind": "article",

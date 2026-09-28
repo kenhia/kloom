@@ -153,11 +153,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Yao, Shunyu, et al."
+					"family": "Yao",
+					"given": "Shunyu"
 				}
 			],
 			"container": "International Conference on Learning Representations (ICLR 2023)",
-			"published": "2023"
+			"published": "2023",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -166,11 +168,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Schick, Timo, et al."
+					"family": "Schick",
+					"given": "Timo"
 				}
 			],
 			"container": "arXiv",
-			"published": "2023-02-09"
+			"published": "2023-02-09",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -324,11 +328,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Jimenez, Carlos E., et al."
+					"family": "Jimenez",
+					"given": "Carlos E."
 				}
 			],
 			"container": "International Conference on Learning Representations (ICLR 2024)",
-			"published": "2024"
+			"published": "2024",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -337,11 +343,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Chowdhury, Neil, et al."
+					"family": "Chowdhury",
+					"given": "Neil"
 				}
 			],
 			"container": "OpenAI",
-			"published": "2024-08-13"
+			"published": "2024-08-13",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -350,11 +358,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Aleithan, Reem, et al."
+					"family": "Aleithan",
+					"given": "Reem"
 				}
 			],
 			"container": "arXiv",
-			"published": "2024-10-09"
+			"published": "2024-10-09",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -389,11 +399,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Deng, Xiang, et al."
+					"family": "Deng",
+					"given": "Xiang"
 				}
 			],
 			"container": "arXiv",
-			"published": "2025-09-21"
+			"published": "2025-09-21",
+			"etAl": true
 		},
 		{
 			"kind": "web",

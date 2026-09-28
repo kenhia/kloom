@@ -184,6 +184,9 @@ describe('chicago parts', () => {
 		expect(needsCaption('CC0 1.0')).toBe(false);
 		expect(needsCaption('CC BY-SA 4.0')).toBe(true);
 		expect(captionCredit({ ...image, licence: 'CC BY 4.0' })).toBe('Richard Marsden / CC BY 4.0');
+		expect(captionCredit({ ...image, licence: 'CC BY 4.0', etAl: true })).toBe(
+			'Richard Marsden et al. / CC BY 4.0'
+		);
 	});
 });
 

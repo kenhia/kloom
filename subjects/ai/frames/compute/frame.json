@@ -232,11 +232,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Jouppi, Norman P., et al."
+					"family": "Jouppi",
+					"given": "Norman P."
 				}
 			],
 			"container": "International Symposium on Computer Architecture (ISCA 2017)",
-			"published": "2017"
+			"published": "2017",
+			"etAl": true
 		},
 		{
 			"kind": "article",
@@ -245,11 +247,13 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Jouppi, Norman P., et al."
+					"family": "Jouppi",
+					"given": "Norman P."
 				}
 			],
 			"container": "International Symposium on Computer Architecture (ISCA 2023)",
-			"published": "2023"
+			"published": "2023",
+			"etAl": true
 		},
 		{
 			"kind": "web",
@@ -459,13 +463,15 @@
 			"accessed": "2026-09-27",
 			"authors": [
 				{
-					"name": "Jouppi, Norman P., et al."
+					"family": "Jouppi",
+					"given": "Norman P."
 				}
 			],
 			"published": "2023-04-04",
 			"container": "From Jouppi et al., \"TPU v4\" (arXiv 2304.01433), figure; via Wikimedia Commons",
 			"licence": "CC BY 4.0",
-			"file": "tpu-v4-board.jpg"
+			"file": "tpu-v4-board.jpg",
+			"etAl": true
 		},
 		{
 			"kind": "media",
