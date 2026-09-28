@@ -1,0 +1,482 @@
+{
+	"id": "multimodal",
+	"position": {
+		"label": "Multimodality"
+	},
+	"asOf": "2026-09-27",
+	"scene": {
+		"headline": "It learned to see, hear and",
+		"accent": "SPEAK.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": ["CLIP · DALL·E · GPT-4V · GEMINI · GPT-4o", "IMAGE · AUDIO · VIDEO · IN AND OUT"],
+		"counter": {
+			"value": "400,000,000",
+			"label": "image–caption pairs behind CLIP"
+		}
+	},
+	"sources": [
+		{
+			"title": "Contrastive Language–Image Pre-training — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Contrastive_Language–Image_Pre-training"
+		},
+		{
+			"title": "Multimodal learning — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Multimodal_learning"
+		},
+		{
+			"title": "Text-to-image model — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Text-to-image_model"
+		},
+		{
+			"title": "Sora (text-to-video model) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)"
+		},
+		{
+			"title": "Alec Radford et al., Learning Transferable Visual Models From Natural Language Supervision",
+			"url": "https://arxiv.org/abs/2103.00020",
+			"note": "Proceedings of the 38th International Conference on Machine Learning (ICML 2021), PMLR, 2021"
+		},
+		{
+			"title": "CLIP: Connecting Text and Images",
+			"url": "https://openai.com/index/clip/",
+			"note": "OpenAI, 2021-01-05"
+		},
+		{
+			"title": "DALL·E: Creating Images from Text",
+			"url": "https://openai.com/index/dall-e/",
+			"note": "OpenAI, 2021-01-05"
+		},
+		{
+			"title": "Aditya Ramesh et al., Hierarchical Text-Conditional Image Generation with CLIP Latents",
+			"url": "https://arxiv.org/abs/2204.06125",
+			"note": "arXiv, 2022-04-13"
+		},
+		{
+			"title": "GPT-4V(ision) System Card",
+			"url": "https://cdn.openai.com/papers/GPTV_System_Card.pdf",
+			"note": "OpenAI, 2023-09-25"
+		},
+		{
+			"title": "Introducing Gemini: Our Largest and Most Capable AI Model",
+			"url": "https://blog.google/technology/ai/google-gemini-ai/",
+			"note": "The Keyword, Google, 2023-12-06"
+		},
+		{
+			"title": "Our Next-Generation Model: Gemini 1.5",
+			"url": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+			"note": "The Keyword, Google, 2024-02-15"
+		},
+		{
+			"title": "Introducing the Next Generation of Claude",
+			"url": "https://www.anthropic.com/news/claude-3-family",
+			"note": "Anthropic, 2024-03-04"
+		},
+		{
+			"title": "Vision",
+			"url": "https://platform.claude.com/docs/en/build-with-claude/vision",
+			"note": "Claude Docs, Anthropic"
+		},
+		{
+			"title": "Hello GPT-4o",
+			"url": "https://openai.com/index/hello-gpt-4o/",
+			"note": "OpenAI, 2024-05-13"
+		},
+		{
+			"title": "Video Generation Models as World Simulators",
+			"url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+			"note": "OpenAI, 2024-02-15"
+		},
+		{
+			"title": "Sora Is Here",
+			"url": "https://openai.com/index/sora-is-here/",
+			"note": "OpenAI, 2024-12-09"
+		},
+		{
+			"title": "Sora 2 Is Here",
+			"url": "https://openai.com/index/sora-2/",
+			"note": "OpenAI, 2025-09-30"
+		},
+		{
+			"title": "Fuel Your Creativity with New Generative Media Models and Tools",
+			"url": "https://blog.google/innovation-and-ai/products/generative-media-models-io-2025/",
+			"note": "The Keyword, Google, 2025-05-20"
+		},
+		{
+			"title": "Introducing 4o Image Generation",
+			"url": "https://openai.com/index/introducing-4o-image-generation/",
+			"note": "OpenAI, 2025-03-25"
+		},
+		{
+			"title": "Introducing Gemini 2.5 Flash Image, Our State-of-the-Art Image Model",
+			"url": "https://developers.googleblog.com/en/introducing-gemini-2-5-flash-image/",
+			"note": "Google Developers Blog, 2025-08-26"
+		},
+		{
+			"title": "Getty Images (US) Inc & Ors v Stability AI Ltd [2025] EWHC 2863 (Ch)",
+			"url": "https://www.judiciary.uk/judgments/getty-images-v-stability-ai/",
+			"note": "Courts and Tribunals Judiciary, 2025-11-04"
+		},
+		{
+			"title": "What to Know about the Sora Discontinuation",
+			"url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+			"note": "OpenAI Help Center, 2026"
+		},
+		{
+			"title": "Introducing Gemini Omni",
+			"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+			"note": "The Keyword, Google, 2026-05-19"
+		},
+		{
+			"title": "Models",
+			"url": "https://developers.openai.com/api/docs/models",
+			"note": "OpenAI API Docs, 2026"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Contrastive Language–Image Pre-training",
+			"url": "https://en.wikipedia.org/w/index.php?title=Contrastive_Language%E2%80%93Image_Pre-training&oldid=1359776164",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Multimodal learning",
+			"url": "https://en.wikipedia.org/w/index.php?title=Multimodal_learning&oldid=1374394684",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Text-to-image model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Text-to-image_model&oldid=1366271711",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sora (text-to-video model)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sora_(text-to-video_model)&oldid=1376484997",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "article",
+			"title": "Learning Transferable Visual Models From Natural Language Supervision",
+			"url": "https://arxiv.org/abs/2103.00020",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Radford, Alec, et al."
+				}
+			],
+			"container": "Proceedings of the 38th International Conference on Machine Learning (ICML 2021), PMLR",
+			"published": "2021",
+			"volume": "139",
+			"pages": "8748–63"
+		},
+		{
+			"kind": "web",
+			"title": "CLIP: Connecting Text and Images",
+			"url": "https://openai.com/index/clip/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2021-01-05"
+		},
+		{
+			"kind": "web",
+			"title": "DALL·E: Creating Images from Text",
+			"url": "https://openai.com/index/dall-e/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2021-01-05"
+		},
+		{
+			"kind": "article",
+			"title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+			"url": "https://arxiv.org/abs/2204.06125",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Ramesh, Aditya, et al."
+				}
+			],
+			"container": "arXiv",
+			"published": "2022-04-13"
+		},
+		{
+			"kind": "web",
+			"title": "GPT-4V(ision) System Card",
+			"url": "https://cdn.openai.com/papers/GPTV_System_Card.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2023-09-25"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing Gemini: Our Largest and Most Capable AI Model",
+			"url": "https://blog.google/technology/ai/google-gemini-ai/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Pichai",
+					"given": "Sundar"
+				},
+				{
+					"family": "Hassabis",
+					"given": "Demis"
+				}
+			],
+			"container": "The Keyword, Google",
+			"published": "2023-12-06"
+		},
+		{
+			"kind": "web",
+			"title": "Our Next-Generation Model: Gemini 1.5",
+			"url": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Pichai",
+					"given": "Sundar"
+				},
+				{
+					"family": "Hassabis",
+					"given": "Demis"
+				}
+			],
+			"container": "The Keyword, Google",
+			"published": "2024-02-15"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing the Next Generation of Claude",
+			"url": "https://www.anthropic.com/news/claude-3-family",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2024-03-04"
+		},
+		{
+			"kind": "web",
+			"title": "Vision",
+			"url": "https://platform.claude.com/docs/en/build-with-claude/vision",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Claude Docs, Anthropic"
+		},
+		{
+			"kind": "web",
+			"title": "Hello GPT-4o",
+			"url": "https://openai.com/index/hello-gpt-4o/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2024-05-13"
+		},
+		{
+			"kind": "web",
+			"title": "Video Generation Models as World Simulators",
+			"url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2024-02-15"
+		},
+		{
+			"kind": "web",
+			"title": "Sora Is Here",
+			"url": "https://openai.com/index/sora-is-here/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2024-12-09"
+		},
+		{
+			"kind": "web",
+			"title": "Sora 2 Is Here",
+			"url": "https://openai.com/index/sora-2/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2025-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Fuel Your Creativity with New Generative Media Models and Tools",
+			"url": "https://blog.google/innovation-and-ai/products/generative-media-models-io-2025/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Collins",
+					"given": "Eli"
+				}
+			],
+			"container": "The Keyword, Google",
+			"published": "2025-05-20"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing 4o Image Generation",
+			"url": "https://openai.com/index/introducing-4o-image-generation/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2025-03-25"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing Gemini 2.5 Flash Image, Our State-of-the-Art Image Model",
+			"url": "https://developers.googleblog.com/en/introducing-gemini-2-5-flash-image/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"container": "Google Developers Blog",
+			"published": "2025-08-26"
+		},
+		{
+			"kind": "web",
+			"title": "Getty Images (US) Inc & Ors v Stability AI Ltd [2025] EWHC 2863 (Ch)",
+			"url": "https://www.judiciary.uk/judgments/getty-images-v-stability-ai/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "High Court of Justice (England and Wales)"
+				}
+			],
+			"container": "Courts and Tribunals Judiciary",
+			"published": "2025-11-04"
+		},
+		{
+			"kind": "web",
+			"title": "What to Know about the Sora Discontinuation",
+			"url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI Help Center",
+			"published": "2026"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing Gemini Omni",
+			"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Kavukcuoglu",
+					"given": "Koray"
+				}
+			],
+			"container": "The Keyword, Google",
+			"published": "2026-05-19"
+		},
+		{
+			"kind": "web",
+			"title": "Models",
+			"url": "https://developers.openai.com/api/docs/models",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI API Docs",
+			"published": "2026"
+		},
+		{
+			"kind": "media",
+			"title": "A robot hand drawing a human hand, generated by DALL·E 2 from the prompt \"A photo of a robot hand drawing, digital art\"",
+			"url": "https://commons.wikimedia.org/wiki/File:DALL-E_2_%22A_photo_of_a_robot_hand_drawing,_digital_art%22.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "DALL·E 2 (OpenAI)"
+				}
+			],
+			"published": "2022-07-10",
+			"container": "AI-generated image, first posted on Instagram; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "robot-hand.jpg"
+		}
+	]
+}

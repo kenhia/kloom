@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M52.5 150 a147.5 112.1 0 1 0 295 0 a147.5 112.1 0 1 0 -295 0"/>
+		<path pathLength="1" d="M138 150 a62 62 0 1 0 124 0 a62 62 0 1 0 -124 0"/>
+		<path pathLength="1" d="M200 120 L200 37.9 M226 135 L327.7 94 M226 165 L327.7 206 M200 180 L200 262.1 M174 165 L72.3 206 M174 135 L72.3 93.9"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M170 132 L230 132 L230 168 L170 168 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M170 26.9 L230 26.9 L230 48.9 L170 48.9 Z"/>
+		<path pathLength="1" d="M297.7 83 L357.7 83 L357.7 105 L297.7 105 Z"/>
+		<path pathLength="1" d="M297.7 195 L357.7 195 L357.7 217 L297.7 217 Z"/>
+		<path pathLength="1" d="M170 251.1 L230 251.1 L230 273.1 L170 273.1 Z"/>
+		<path pathLength="1" d="M42.3 195 L102.3 195 L102.3 217 L42.3 217 Z"/>
+		<path pathLength="1" d="M42.3 82.9 L102.3 82.9 L102.3 104.9 L42.3 104.9 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M210.8 88.9 L214.3 89.7 L217.8 90.6 L221.2 91.7 L224.6 93.1 L227.8 94.6 L231 96.3 L234.1 98.2 L237 100.3 L239.9 102.5 L242.5 104.9 L245.1 107.5 L247.5 110.1 L249.7 113 L251.8 115.9 L253.7 119 L255.4 122.2 L256.9 125.4 L258.3 128.8 L259.4 132.2 L260.3 135.7 L261.1 139.2 L261.6 142.8 L261.9 146.4 L262 150 L261.9 153.6 L261.6 157.2 L261.1 160.8 L260.3 164.3 L259.4 167.8 L258.3 171.2"/>
+		<path pathLength="1" d="M264.4 166 L258.3 171.2 L256.9 163.3"/>
+		<path pathLength="1" d="M247.5 189.9 L245.1 192.5 L242.5 195.1 L239.9 197.5 L237 199.7 L234.1 201.8 L231 203.7 L227.8 205.4 L224.6 206.9 L221.2 208.3 L217.8 209.4 L214.3 210.3 L210.8 211.1 L207.2 211.6 L203.6 211.9 L200 212 L196.4 211.9 L192.8 211.6 L189.2 211.1 L185.7 210.3 L182.2 209.4 L178.8 208.3 L175.4 206.9 L172.2 205.4 L169 203.7 L165.9 201.8 L163 199.7 L160.1 197.5 L157.5 195.1 L154.9 192.5 L152.5 189.9"/>
+		<path pathLength="1" d="M153.9 197.8 L152.5 189.9 L160.1 192.6"/>
+		<path pathLength="1" d="M141.7 171.2 L140.6 167.8 L139.7 164.3 L138.9 160.8 L138.4 157.2 L138.1 153.6 L138 150 L138.1 146.4 L138.4 142.8 L138.9 139.2 L139.7 135.7 L140.6 132.2 L141.7 128.8 L143.1 125.4 L144.6 122.2 L146.3 119 L148.2 115.9 L150.3 113 L152.5 110.1 L154.9 107.5 L157.5 104.9 L160.1 102.5 L163 100.3 L165.9 98.2 L169 96.3 L172.2 94.6 L175.4 93.1 L178.8 91.7 L182.2 90.6 L185.7 89.7 L189.2 88.9"/>
+		<path pathLength="1" d="M181.6 86.2 L189.2 88.9 L183 94.1"/>
+	</g>
+	<g>
+		<text x="200" y="153" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MODEL</text>
+		<text x="200" y="40.9" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SHELL</text>
+		<text x="327.7" y="97" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EDITOR</text>
+		<text x="327.7" y="209" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TESTS</text>
+		<text x="200" y="265.1" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BROWSER</text>
+		<text x="72.3" y="209" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SEARCH</text>
+		<text x="72.3" y="96.9" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FILES</text>
+		<text x="272.4" y="115" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THINK</text>
+		<text x="200" y="229" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ACT</text>
+		<text x="127.6" y="115" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OBSERVE</text>
+	</g>
+</svg>

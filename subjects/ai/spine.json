@@ -20,6 +20,18 @@
 				"eliza",
 				"shakey"
 			]
+		},
+		{
+			"id": "frontier",
+			"title": "The frontier",
+			"labelKind": "technology",
+			"frames": [
+				"multimodal",
+				"agents",
+				"reasoning-models",
+				"open-weights",
+				"compute"
+			]
 		}
 	]
 }

@@ -1,0 +1,425 @@
+{
+	"id": "reasoning-models",
+	"position": {
+		"label": "Reasoning models"
+	},
+	"asOf": "2026-09-27",
+	"scene": {
+		"headline": "It learned to take its",
+		"accent": "TIME.",
+		"palette": "neural",
+		"illustration": "scene.svg",
+		"metadata": [
+			"OPENAI O1 · DEEPSEEK-R1 · EXTENDED THINKING",
+			"TEST-TIME COMPUTE · AIME · IMO · ARC-AGI"
+		],
+		"counter": {
+			"value": "35 / 42",
+			"label": "a gold-medal score at the 2025 IMO"
+		}
+	},
+	"sources": [
+		{
+			"title": "DeepSeek — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/DeepSeek"
+		},
+		{
+			"title": "Jason Wei et al., Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+			"url": "https://arxiv.org/abs/2201.11903",
+			"note": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022), 2022"
+		},
+		{
+			"title": "Learning to Reason with LLMs",
+			"url": "https://openai.com/index/learning-to-reason-with-llms/",
+			"note": "OpenAI, 2024-09-12"
+		},
+		{
+			"title": "OpenAI o1 System Card",
+			"url": "https://cdn.openai.com/o1-system-card-20241205.pdf",
+			"note": "OpenAI, 2024-12-05"
+		},
+		{
+			"title": "OpenAI o3 Breakthrough High Score on ARC-AGI-Pub",
+			"url": "https://arcprize.org/blog/oai-o3-pub-breakthrough",
+			"note": "ARC Prize, 2024-12-20"
+		},
+		{
+			"title": "DeepSeek-AI, DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+			"url": "https://arxiv.org/abs/2501.12948",
+			"note": "arXiv, 2025-01-22"
+		},
+		{
+			"title": "Daya Guo et al., DeepSeek-R1 Incentivizes Reasoning in LLMs through Reinforcement Learning",
+			"url": "https://doi.org/10.1038/s41586-025-09422-z",
+			"note": "Nature, 2025-09-17"
+		},
+		{
+			"title": "Gemini 2.5: Our Most Intelligent AI Model",
+			"url": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
+			"note": "The Keyword, Google, 2025-03-25"
+		},
+		{
+			"title": "Claude 3.7 Sonnet and Claude Code",
+			"url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+			"note": "Anthropic, 2025-02-24"
+		},
+		{
+			"title": "QwQ: Reflect Deeply on the Boundaries of the Unknown",
+			"url": "https://qwenlm.github.io/blog/qwq-32b-preview/",
+			"note": "Qwen, 2024-11-28"
+		},
+		{
+			"title": "GPT-5 System Card",
+			"url": "https://cdn.openai.com/gpt-5-system-card.pdf",
+			"note": "OpenAI, 2025-08-13"
+		},
+		{
+			"title": "Change Log",
+			"url": "https://api-docs.deepseek.com/updates/",
+			"note": "DeepSeek API Docs, 2026"
+		},
+		{
+			"title": "Claude Opus 4.6",
+			"url": "https://www.anthropic.com/news/claude-opus-4-6",
+			"note": "Anthropic, 2026-02-05"
+		},
+		{
+			"title": "Gemini 3 Deep Think",
+			"url": "https://blog.google/products/gemini/gemini-3-deep-think/",
+			"note": "The Keyword, Google, 2025-12-04"
+		},
+		{
+			"title": "Advanced Version of Gemini with Deep Think Officially Achieves Gold-Medal Standard at the International Mathematical Olympiad",
+			"url": "https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+			"note": "Google DeepMind, 2025-07-21"
+		},
+		{
+			"title": "OpenAI IMO 2025 Proofs",
+			"url": "https://github.com/aw31/openai-imo-2025-proofs",
+			"note": "GitHub, 2025-07"
+		},
+		{
+			"title": "Gemini Achieves Gold-Medal Level at the International Collegiate Programming Contest World Finals",
+			"url": "https://deepmind.google/blog/gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals/",
+			"note": "Google DeepMind, 2025-09-17"
+		},
+		{
+			"title": "Clarifying the Creation and Use of the FrontierMath Benchmark",
+			"url": "https://epoch.ai/latest/openai-and-frontiermath",
+			"note": "Epoch AI, 2025-01-23"
+		},
+		{
+			"title": "Parshin Shojaee et al., The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
+			"url": "https://arxiv.org/abs/2506.06941",
+			"note": "arXiv, 2025-06-07"
+		},
+		{
+			"title": "A. Lawsen, Comment on The Illusion of Thinking",
+			"url": "https://arxiv.org/abs/2506.09250",
+			"note": "arXiv, 2025-06-10"
+		},
+		{
+			"title": "Reasoning Models Don't Always Say What They Think",
+			"url": "https://www.anthropic.com/research/reasoning-models-dont-say-think",
+			"note": "Anthropic, 2025-04-03"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "DeepSeek",
+			"url": "https://en.wikipedia.org/w/index.php?title=DeepSeek&oldid=1376284129",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "article",
+			"title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+			"url": "https://arxiv.org/abs/2201.11903",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wei, Jason, et al."
+				}
+			],
+			"container": "Advances in Neural Information Processing Systems 35 (NeurIPS 2022)",
+			"published": "2022"
+		},
+		{
+			"kind": "web",
+			"title": "Learning to Reason with LLMs",
+			"url": "https://openai.com/index/learning-to-reason-with-llms/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2024-09-12"
+		},
+		{
+			"kind": "web",
+			"title": "OpenAI o1 System Card",
+			"url": "https://cdn.openai.com/o1-system-card-20241205.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2024-12-05"
+		},
+		{
+			"kind": "web",
+			"title": "OpenAI o3 Breakthrough High Score on ARC-AGI-Pub",
+			"url": "https://arcprize.org/blog/oai-o3-pub-breakthrough",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Chollet",
+					"given": "François"
+				}
+			],
+			"container": "ARC Prize",
+			"published": "2024-12-20"
+		},
+		{
+			"kind": "article",
+			"title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+			"url": "https://arxiv.org/abs/2501.12948",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "DeepSeek-AI"
+				}
+			],
+			"container": "arXiv",
+			"published": "2025-01-22"
+		},
+		{
+			"kind": "article",
+			"title": "DeepSeek-R1 Incentivizes Reasoning in LLMs through Reinforcement Learning",
+			"url": "https://doi.org/10.1038/s41586-025-09422-z",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Guo, Daya, et al."
+				}
+			],
+			"container": "Nature",
+			"published": "2025-09-17",
+			"volume": "645",
+			"issue": "8081",
+			"pages": "633–38"
+		},
+		{
+			"kind": "web",
+			"title": "Gemini 2.5: Our Most Intelligent AI Model",
+			"url": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Kavukcuoglu",
+					"given": "Koray"
+				}
+			],
+			"container": "The Keyword, Google",
+			"published": "2025-03-25"
+		},
+		{
+			"kind": "web",
+			"title": "Claude 3.7 Sonnet and Claude Code",
+			"url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2025-02-24"
+		},
+		{
+			"kind": "web",
+			"title": "QwQ: Reflect Deeply on the Boundaries of the Unknown",
+			"url": "https://qwenlm.github.io/blog/qwq-32b-preview/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Qwen Team"
+				}
+			],
+			"container": "Qwen",
+			"published": "2024-11-28"
+		},
+		{
+			"kind": "web",
+			"title": "GPT-5 System Card",
+			"url": "https://cdn.openai.com/gpt-5-system-card.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2025-08-13"
+		},
+		{
+			"kind": "web",
+			"title": "Change Log",
+			"url": "https://api-docs.deepseek.com/updates/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "DeepSeek"
+				}
+			],
+			"container": "DeepSeek API Docs",
+			"published": "2026"
+		},
+		{
+			"kind": "web",
+			"title": "Claude Opus 4.6",
+			"url": "https://www.anthropic.com/news/claude-opus-4-6",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2026-02-05"
+		},
+		{
+			"kind": "web",
+			"title": "Gemini 3 Deep Think",
+			"url": "https://blog.google/products/gemini/gemini-3-deep-think/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Doshi",
+					"given": "Tulsee"
+				}
+			],
+			"container": "The Keyword, Google",
+			"published": "2025-12-04"
+		},
+		{
+			"kind": "web",
+			"title": "Advanced Version of Gemini with Deep Think Officially Achieves Gold-Medal Standard at the International Mathematical Olympiad",
+			"url": "https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Luong",
+					"given": "Thang"
+				},
+				{
+					"family": "Lockhart",
+					"given": "Edward"
+				}
+			],
+			"container": "Google DeepMind",
+			"published": "2025-07-21"
+		},
+		{
+			"kind": "web",
+			"title": "OpenAI IMO 2025 Proofs",
+			"url": "https://github.com/aw31/openai-imo-2025-proofs",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "GitHub",
+			"published": "2025-07"
+		},
+		{
+			"kind": "web",
+			"title": "Gemini Achieves Gold-Medal Level at the International Collegiate Programming Contest World Finals",
+			"url": "https://deepmind.google/blog/gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Lin",
+					"given": "Hanzhao"
+				},
+				{
+					"family": "Cheng",
+					"given": "Heng-Tze"
+				}
+			],
+			"container": "Google DeepMind",
+			"published": "2025-09-17"
+		},
+		{
+			"kind": "web",
+			"title": "Clarifying the Creation and Use of the FrontierMath Benchmark",
+			"url": "https://epoch.ai/latest/openai-and-frontiermath",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Besiroglu",
+					"given": "Tamay"
+				},
+				{
+					"family": "Sevilla",
+					"given": "Jaime"
+				}
+			],
+			"container": "Epoch AI",
+			"published": "2025-01-23"
+		},
+		{
+			"kind": "article",
+			"title": "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
+			"url": "https://arxiv.org/abs/2506.06941",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Shojaee, Parshin, et al."
+				}
+			],
+			"container": "arXiv",
+			"published": "2025-06-07"
+		},
+		{
+			"kind": "article",
+			"title": "Comment on The Illusion of Thinking",
+			"url": "https://arxiv.org/abs/2506.09250",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Lawsen",
+					"given": "A."
+				}
+			],
+			"container": "arXiv",
+			"published": "2025-06-10"
+		},
+		{
+			"kind": "web",
+			"title": "Reasoning Models Don't Always Say What They Think",
+			"url": "https://www.anthropic.com/research/reasoning-models-dont-say-think",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "Anthropic",
+			"published": "2025-04-03"
+		}
+	]
+}
