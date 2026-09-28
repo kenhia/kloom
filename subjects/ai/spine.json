@@ -4,7 +4,22 @@
 			"id": "dreams",
 			"title": "Dreams of thinking machines",
 			"labelKind": "category",
-			"frames": ["talos", "leibniz"]
+			"frames": [
+				"talos",
+				"leibniz"
+			]
+		},
+		{
+			"id": "symbolic",
+			"title": "The symbolic age",
+			"labelKind": "date",
+			"frames": [
+				"dartmouth",
+				"logic-theorist",
+				"perceptron",
+				"eliza",
+				"shakey"
+			]
 		}
 	]
 }

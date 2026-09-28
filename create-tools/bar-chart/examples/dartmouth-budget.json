@@ -1,0 +1,63 @@
+{
+	"title": "Estimated expenses in the Dartmouth proposal, 1955",
+	"description": "Bar chart. The proposal's estimated expenses, totalling $13,500: six faculty salaries of $1,200 ($7,200); eight travel and rent allowances averaging $300 ($2,400); two graduate-student salaries of $700 ($1,400); secretarial and organisational expense ($850); additional travel ($600); contingencies ($550). Data: McCarthy, Minsky, Rochester and Shannon, A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence, 31 August 1955.",
+	"heading": "DARTMOUTH PROPOSAL · EXPENSES · $13,500",
+	"unit": "",
+	"colours": {
+		"background": "#07120c",
+		"ink": "#d3f5dc",
+		"muted": "#7fa98a",
+		"accent": "#ffb000"
+	},
+	"axis": {
+		"max": 8000,
+		"ticks": [
+			[0, "$0"],
+			[2000, "$2,000"],
+			[4000, "$4,000"],
+			[6000, "$6,000"],
+			[8000, "$8,000"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Salaries",
+			"sublabel": "6 × $1,200",
+			"value": 7200,
+			"display": "$7,200",
+			"highlight": true
+		},
+		{
+			"label": "Travel",
+			"sublabel": "8 × ~$300",
+			"value": 2400,
+			"display": "$2,400"
+		},
+		{
+			"label": "Students",
+			"sublabel": "2 × $700",
+			"value": 1400,
+			"display": "$1,400"
+		},
+		{
+			"label": "Office",
+			"sublabel": "secretary",
+			"value": 850,
+			"display": "$850"
+		},
+		{
+			"label": "Visitors",
+			"sublabel": "travel",
+			"value": 600,
+			"display": "$600"
+		},
+		{
+			"label": "Reserve",
+			"sublabel": "contingency",
+			"value": 550,
+			"display": "$550"
+		}
+	],
+	"barWidth": 44,
+	"width": 560
+}

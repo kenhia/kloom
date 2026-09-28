@@ -1,0 +1,158 @@
+{
+	"id": "dartmouth",
+	"position": {
+		"label": "1956",
+		"sort": 1956
+	},
+	"scene": {
+		"headline": "We gave it a",
+		"accent": "NAME.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HANOVER NH · DARTMOUTH COLLEGE · SUMMER 1956",
+			"McCARTHY · MINSKY · ROCHESTER · SHANNON"
+		],
+		"counter": {
+			"value": "$13,500",
+			"label": "asked of the Rockefeller Foundation"
+		}
+	},
+	"sources": [
+		{
+			"title": "Dartmouth workshop — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Dartmouth_workshop"
+		},
+		{
+			"title": "John McCarthy (computer scientist) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
+		},
+		{
+			"title": "Allen Newell — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Allen_Newell"
+		},
+		{
+			"title": "Logic Theorist — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Logic_Theorist"
+		},
+		{
+			"title": "J. McCarthy, M. L. Minsky, N. Rochester, C. E. Shannon, A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence (31 August 1955)",
+			"url": "http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+			"note": "John McCarthy's web pages, Stanford University"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Dartmouth workshop",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dartmouth_workshop&oldid=1360638286",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John McCarthy (computer scientist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_McCarthy_(computer_scientist)&oldid=1376004614",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Allen Newell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Allen_Newell&oldid=1375521541",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Logic Theorist",
+			"url": "https://en.wikipedia.org/w/index.php?title=Logic_Theorist&oldid=1366443812",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-28"
+		},
+		{
+			"kind": "web",
+			"title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+			"url": "http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+			"authors": [
+				{
+					"family": "McCarthy",
+					"given": "John"
+				},
+				{
+					"family": "Minsky",
+					"given": "Marvin L."
+				},
+				{
+					"family": "Rochester",
+					"given": "Nathaniel"
+				},
+				{
+					"family": "Shannon",
+					"given": "Claude E."
+				}
+			],
+			"container": "John McCarthy's web pages, Stanford University",
+			"published": "1955-08-31",
+			"accessed": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Estimated expenses in the Dartmouth proposal, 1955",
+			"url": "http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from the proposal's \"Estimated Expenses\"",
+			"licence": "MIT",
+			"file": "budget.svg",
+			"accessed": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "John McCarthy at Stanford, 13 May 2006",
+			"url": "https://commons.wikimedia.org/wiki/File:John_McCarthy_(computer_scientist)_Stanford_2006_(272020300).jpg",
+			"authors": [
+				{
+					"name": "null0"
+				}
+			],
+			"published": "2006-05-13",
+			"container": "Photograph, via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "mccarthy-2006.jpg",
+			"accessed": "2026-09-27"
+		}
+	]
+}

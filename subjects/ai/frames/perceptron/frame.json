@@ -1,0 +1,163 @@
+{
+	"id": "perceptron",
+	"position": {
+		"label": "1958",
+		"sort": 1958
+	},
+	"scene": {
+		"headline": "We built a",
+		"accent": "RETINA.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BUFFALO NY · CORNELL AERONAUTICAL LABORATORY",
+			"FRANK ROSENBLATT · PROJECT PARA · US NAVY"
+		],
+		"counter": {
+			"value": "400",
+			"label": "photocells in the Mark I's retina"
+		}
+	},
+	"sources": [
+		{
+			"title": "Perceptron — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Perceptron"
+		},
+		{
+			"title": "Frank Rosenblatt — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Frank_Rosenblatt"
+		},
+		{
+			"title": "Mark I Perceptron — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Mark_I_Perceptron"
+		},
+		{
+			"title": "History of artificial intelligence — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+		},
+		{
+			"title": "Frank Rosenblatt, “The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain”",
+			"url": "https://doi.org/10.1037/h0042519",
+			"note": "Psychological Review, 1958"
+		},
+		{
+			"title": "“New Navy Device Learns by Doing; Psychologist Shows Embryo of Computer Designed to Read and Grow Wiser”",
+			"url": "https://aitopics.org/doc/news:C85C11EF",
+			"note": "The New York Times, 8 July 1958, p. 25 (UPI); via AITopics"
+		},
+		{
+			"title": "John C. Hay, Albert E. Murray, Mark I Perceptron Operators’ Manual (Project PARA)",
+			"url": "https://apps.dtic.mil/sti/tr/pdf/AD0236965.pdf",
+			"note": "Cornell Aeronautical Laboratory, 15 February 1960"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Perceptron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Perceptron&oldid=1360590893",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frank Rosenblatt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frank_Rosenblatt&oldid=1371260220",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mark I Perceptron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mark_I_Perceptron&oldid=1368881971",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of artificial intelligence",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1376991989",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "article",
+			"title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+			"url": "https://doi.org/10.1037/h0042519",
+			"authors": [
+				{
+					"family": "Rosenblatt",
+					"given": "Frank"
+				}
+			],
+			"container": "Psychological Review",
+			"volume": "65",
+			"issue": "6",
+			"pages": "386–408",
+			"published": "1958",
+			"accessed": "2026-09-27"
+		},
+		{
+			"kind": "article",
+			"title": "New Navy Device Learns by Doing; Psychologist Shows Embryo of Computer Designed to Read and Grow Wiser",
+			"url": "https://aitopics.org/doc/news:C85C11EF",
+			"authors": [
+				{
+					"name": "United Press International"
+				}
+			],
+			"container": "The New York Times",
+			"pages": "25",
+			"published": "1958-07-08",
+			"accessed": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "The Mark I Perceptron, figure 2 of the Mark I Perceptron Operators’ Manual",
+			"url": "https://commons.wikimedia.org/wiki/File:Mark_I_Perceptron,_Figure_2_of_operator%27s_manual.png",
+			"authors": [
+				{
+					"family": "Hay",
+					"given": "John C."
+				},
+				{
+					"family": "Murray",
+					"given": "Albert E."
+				}
+			],
+			"published": "1960-02-15",
+			"container": "Mark I Perceptron Operators’ Manual (Project PARA), Cornell Aeronautical Laboratory, report prepared under ONR contract Nonr-2381(00); via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "mark-i.png",
+			"accessed": "2026-09-27"
+		}
+	]
+}

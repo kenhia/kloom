@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M96 42 L96 251 M130 42 L130 251 M164 42 L164 251 M198 42 L198 251 M232 42 L232 251 M266 42 L266 251 M300 42 L300 251 M334 42 L334 251 M368 42 L368 251"/>
+		<path pathLength="1" d="M88 58 L368 58 M88 75 L368 75 M88 92 L368 92 M88 109 L368 109 M88 126 L368 126 M88 143 L368 143 M88 160 L368 160 M88 177 L368 177 M88 194 L368 194 M88 211 L368 211 M88 228 L368 228 M88 245 L368 245"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M96 58 L368 58 L368 245 L96 245 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M100 62.5 L364 62.5 L364 70.5 L100 70.5 Z"/>
+		<path pathLength="1" d="M100 79.5 L364 79.5 L364 87.5 L100 87.5 Z"/>
+		<path pathLength="1" d="M100 96.5 L364 96.5 L364 104.5 L100 104.5 Z"/>
+		<path pathLength="1" d="M100 113.5 L364 113.5 L364 121.5 L100 121.5 Z"/>
+		<path pathLength="1" d="M100 130.5 L364 130.5 L364 138.5 L100 138.5 Z"/>
+		<path pathLength="1" d="M100 147.5 L364 147.5 L364 155.5 L100 155.5 Z"/>
+		<path pathLength="1" d="M100 164.5 L228 164.5 L228 172.5 L100 172.5 Z"/>
+		<path pathLength="1" d="M100 181.5 L228 181.5 L228 189.5 L100 189.5 Z"/>
+		<path pathLength="1" d="M100 198.5 L228 198.5 L228 206.5 L100 206.5 Z"/>
+		<path pathLength="1" d="M100 215.5 L160 215.5 L160 223.5 L100 223.5 Z"/>
+		<path pathLength="1" d="M100 232.5 L160 232.5 L160 240.5 L100 240.5 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M96 271 L368 271"/>
+		<path pathLength="1" d="M96 265 L96 277 M368 265 L368 277"/>
+		<path pathLength="1" d="M104 267 L96 271 L104 275 M360 267 L368 271 L360 275"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M86 61 L82 61 L82 157 L86 157"/>
+		<path pathLength="1" d="M86 163 L82 163 L82 208 L86 208"/>
+		<path pathLength="1" d="M86 214 L82 214 L82 242 L86 242"/>
+	</g>
+	<g>
+		<text x="113" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="147" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="181" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="215" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4</text>
+		<text x="249" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5</text>
+		<text x="283" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">6</text>
+		<text x="317" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">7</text>
+		<text x="351" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8</text>
+		<text x="76" y="112" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FULL</text>
+		<text x="76" y="188.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4 WK</text>
+		<text x="76" y="231" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2 WK</text>
+		<text x="232" y="287" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">JUNE 18 · HANOVER NH · AUGUST 17</text>
+		<text x="232" y="22" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SUMMER RESEARCH PROJECT · 1956</text>
+	</g>
+</svg>
