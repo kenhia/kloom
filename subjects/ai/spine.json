@@ -10,6 +10,18 @@
 			]
 		},
 		{
+			"id": "foundations",
+			"title": "Foundations",
+			"labelKind": "date",
+			"frames": [
+				"analytical-engine",
+				"laws-of-thought",
+				"turing-machine",
+				"mcculloch-pitts",
+				"turing-test"
+			]
+		},
+		{
 			"id": "symbolic",
 			"title": "The symbolic age",
 			"labelKind": "date",

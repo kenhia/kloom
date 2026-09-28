@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M0 206 L400 206"/>
+		<path pathLength="1" d="M0 232 L400 232"/>
+		<path pathLength="1" d="M229 146 L229 262"/>
+		<path pathLength="1" d="M146 88 a54 54 0 1 0 108 0 a54 54 0 1 0 -108 0"/>
+		<path pathLength="1" d="M132 88 L268 88"/>
+		<path pathLength="1" d="M200 20 L200 156"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M8 206 L8 232 M34 206 L34 232 M60 206 L60 232 M86 206 L86 232 M112 206 L112 232 M138 206 L138 232 M164 206 L164 232 M190 206 L190 232 M216 206 L216 232 M242 206 L242 232 M268 206 L268 232 M294 206 L294 232 M320 206 L320 232 M346 206 L346 232 M372 206 L372 232 M398 206 L398 232"/>
+		<path pathLength="1" d="M8 206 L398 206"/>
+		<path pathLength="1" d="M8 232 L398 232"/>
+		<path pathLength="1" d="M213 166 L245 166 L245 190 L229 200 L213 190 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M189 34 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M243 88 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M189 142 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M135 88 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M213.1 35.6 L215.4 36.2 L217.7 37 L220 37.8 L222.3 38.8 L224.4 39.9 L226.6 41 L228.7 42.2 L230.7 43.6 L232.7 45 L234.6 46.5 L236.4 48.1 L238.2 49.8 L239.9 51.6 L241.5 53.4 L243 55.3 L244.4 57.3 L245.8 59.3 L247 61.4 L248.1 63.6 L249.2 65.7 L250.2 68 L251 70.3 L251.8 72.6 L252.4 74.9"/>
+		<path pathLength="1" d="M248.9 71.3 L252.4 74.9 L253.8 70.1"/>
+		<path pathLength="1" d="M252.4 101.1 L251.8 103.4 L251 105.7 L250.2 108 L249.2 110.3 L248.1 112.4 L247 114.6 L245.8 116.7 L244.4 118.7 L243 120.7 L241.5 122.6 L239.9 124.4 L238.2 126.2 L236.4 127.9 L234.6 129.5 L232.7 131 L230.7 132.4 L228.7 133.8 L226.6 135 L224.4 136.1 L222.3 137.2 L220 138.2 L217.7 139 L215.4 139.8 L213.1 140.4"/>
+		<path pathLength="1" d="M216.7 136.9 L213.1 140.4 L217.9 141.8"/>
+		<path pathLength="1" d="M186.9 140.4 L184.6 139.8 L182.3 139 L180 138.2 L177.7 137.2 L175.6 136.1 L173.4 135 L171.3 133.8 L169.3 132.4 L167.3 131 L165.4 129.5 L163.6 127.9 L161.8 126.2 L160.1 124.4 L158.5 122.6 L157 120.7 L155.6 118.7 L154.2 116.7 L153 114.6 L151.9 112.4 L150.8 110.3 L149.8 108 L149 105.7 L148.2 103.4 L147.6 101.1"/>
+		<path pathLength="1" d="M151.1 104.7 L147.6 101.1 L146.2 105.9"/>
+		<path pathLength="1" d="M147.6 74.9 L148.2 72.6 L149 70.3 L149.8 68 L150.8 65.7 L151.9 63.6 L153 61.4 L154.2 59.3 L155.6 57.3 L157 55.3 L158.5 53.4 L160.1 51.6 L161.8 49.8 L163.6 48.1 L165.4 46.5 L167.3 45 L169.3 43.6 L171.3 42.2 L173.4 41 L175.6 39.9 L177.7 38.8 L180 37.8 L182.3 37 L184.6 36.2 L186.9 35.6"/>
+		<path pathLength="1" d="M183.3 39.1 L186.9 35.6 L182.1 34.2"/>
+		<path pathLength="1" d="M248 240 L262 240 M274 240 L288 240 M300 240 L314 240"/>
+	</g>
+	<g>
+		<text x="200" y="37" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">b</text>
+		<text x="254" y="91" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">c</text>
+		<text x="200" y="145" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">e</text>
+		<text x="146" y="91" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">f</text>
+		<text x="47" y="223" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="99" y="223" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="151" y="223" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="203" y="223" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="229" y="181" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">f</text>
+		<text x="200" y="16" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">P0,R · R · P1,R · R</text>
+		<text x="281" y="254" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">R</text>
+	</g>
+</svg>
