@@ -79,7 +79,10 @@ grow (queued jobs that commit frames and trails, written by a skill in
 `skills/grow/`), the allowlist SVG sanitiser, and optional web search for ask;
 sprint 006 the second subject, `subjects/ai` (66 frames), served beside
 western-civ at `/<subject>`, with the narrative following the spine by
-default.
+default;
+sprint 007 the service on kai (`tailscale serve` :4890 with tailnet identity
+gating writes, an ssh door on :4891, and grow into a service-owned content
+clone that pushes `grow/kai`; `docs/deploying.md`).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -109,4 +112,6 @@ validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
   adapter, not the architecture.
 - Keyboard and screen-reader support are requirements; verify keyboard-only
   when you change interaction.
+- Every request that is not a read needs a reader (`src/hooks.server.ts`); a
+  new write path goes through that gate, never around it.
 - The repo is public.

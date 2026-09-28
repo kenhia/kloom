@@ -336,8 +336,10 @@ Built in sprint 005 (korg 3364).
   exactly those paths. If anything fails, every file is put back and the
   index reset. The running site shows the new frames on the next load, with
   no rebuild.
-- **The commit.** Author and committer are `kloom grow <grow@kloom.local>`,
-  with `--no-verify`. The message:
+- **The commit.** The committer is `kloom grow <grow@kloom.local>`. The
+  author is whoever queued the job (§Who may write, sprint 007), or
+  `kloom grow` for a job that predates identities. The commit is made with
+  `--no-verify`. The message:
 
   ```
   grow(<subject>): add <frame ids>[; trail <ids>]
@@ -351,6 +353,7 @@ Built in sprint 005 (korg 3364).
   Kept answer: <id>            (when one was used)
   Model: <model id> (<provider>)
   Web: yes|no
+  Requested-by: <name> <<login>> (<via>)   (when the job has a requester)
   ```
 
 - **The queue** (`GrowQueue`, `src/lib/server/grow.ts`) runs one job at a
@@ -415,6 +418,70 @@ Built in sprint 005 (korg 3364).
   against them.
 - **Accuracy**: sources are mandatory on every frame, and the grow skill must
   produce them.
+
+## Who may write
+
+Built in sprint 007 (korg 3384 decided it, 3388 built it). Operations are in
+[deploying.md](deploying.md).
+
+- **Reads are open; writes need a reader.** Every request that is not a
+  read (ask, keep and grow are all POSTs) needs a `Reader`
+  (`src/lib/server/reader.ts`): a login, a name and how it was established.
+  Without one, the hook answers 401 before any route runs.
+- **Two loopback doors.** The service binds 127.0.0.1 only, on two ports
+  (`serve.js`). The **tailnet door** is fronted by `tailscale serve`, the one
+  network ingress, and its reader is the `Tailscale-User-Login` header that
+  serve injects. Serve strips a client-supplied copy, and a tagged node gets
+  none, so on this door no header means no writes. The **ssh door** is for
+  ssh forwards (kwork's demos). Reaching it took an ssh login on the host,
+  so its reader is the host's own user, and identity headers there are
+  ignored.
+- **Why two ports.** Both doors arrive from 127.0.0.1, so the app cannot
+  tell them apart by address, and a header sent straight to the loopback
+  port is not stripped by anyone. `serve.js` marks each request with its
+  door and a key made at start, overwriting any mark a client sent. The app
+  trusts no mark without that key. With no mark, only `vite dev` is trusted.
+  A plain `node build`, or `vite preview`, reads but never writes.
+- **The reader goes on the grow job** (`by`) and becomes the commit's
+  author. Keep does not record one yet; per-reader data comes later (korg
+  3413).
+
+## The content clone
+
+Built in sprint 007 (korg 3412). A service never grows into the checkout it
+was built from or developed in.
+
+- **Its own clone, on a grow branch.** The service reads subjects from, and
+  grows into, a clone under its state directory
+  (`~/.local/share/kloom/content`), checked out on `grow/<host>`
+  (`$KLOOM_GROW_BRANCH`). A grow commits there and pushes the branch. Content
+  comes back to main by an ordinary PR, reviewed like any other change.
+  Unset, as in dev, grow commits wherever the subjects are and pushes
+  nothing.
+- **One long-lived branch, not one per job.** Jobs build on each other: the
+  next one reads the subject the last one grew. The branch is the service's
+  own, so nobody else pushes to it. Review edits go into the PR's merge, or
+  onto main afterwards.
+- **Picking up main at start** (`syncContent`, `src/lib/server/content.ts`).
+  A deploy is a restart, so this runs on every deploy.
+  - If the branch is behind main (a merge-commit merge), it fast-forwards.
+  - If it is ahead (grown work waiting for its PR), it is left alone.
+  - If the grown work reached main another way (a squash or rebase merge),
+    main has some commit holding the grown paths exactly as the branch had
+    them, even if main edited them since. The branch is reset to main then,
+    or only its unmerged tail is rebased onto main.
+  - Anything else is rebased onto main. A rebase that conflicts is
+    abandoned, and the clone keeps serving as it was ("diverged" in the
+    journal) until a person sorts it out.
+  - A clone with uncommitted changes is left alone.
+  - The branch is pushed after every sync, with a lease after a rewrite.
+- **A grow refuses a clone that is off its branch**, and a push that fails
+  leaves the commit in place: the job still succeeds, the AI pane says "not
+  yet pushed", and the next push takes it.
+- **Deploys replace the app, never the clone.** `just deploy` copies the
+  build to `~/.local/share/kloom/app` and restarts the unit. The push uses
+  the host user's existing GitHub credential, since the service already runs
+  as that user; no new credential was minted.
 
 ## Several subjects
 
