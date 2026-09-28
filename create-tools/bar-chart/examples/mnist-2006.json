@@ -1,0 +1,23 @@
+{
+	"title": "MNIST test error of learning methods without built-in knowledge of image geometry, as reported by Hinton, Osindero and Teh (2006)",
+	"description": "Bar chart of test error on the 10,000 MNIST test digits, permutation-invariant task. Deep belief net 1.25 per cent; support vector machine 1.4; backpropagation net 784-500-300-10, 1.51; backpropagation net 784-800-10, 1.53; nearest neighbour on all 60,000 examples, 2.8. Data: Hinton, Osindero and Teh 2006, table 1.",
+	"heading": "MNIST TEST ERROR · NO GEOMETRY BUILT IN",
+	"unit": "%",
+	"colours": { "background": "#f7f6f2", "ink": "#1b1a24", "muted": "#625f70", "accent": "#5236c9" },
+	"axis": {
+		"max": 3,
+		"ticks": [
+			[0, "0"],
+			[1, "1%"],
+			[2, "2%"],
+			[3, "3%"]
+		]
+	},
+	"bars": [
+		{ "label": "Deep belief", "sublabel": "net, 2006", "value": 1.25, "display": "1.25%", "highlight": true },
+		{ "label": "SVM", "sublabel": "degree-9 kernel", "value": 1.4, "display": "1.4%" },
+		{ "label": "Backprop", "sublabel": "500-300", "value": 1.51, "display": "1.51%" },
+		{ "label": "Backprop", "sublabel": "800", "value": 1.53, "display": "1.53%" },
+		{ "label": "Nearest nbr", "sublabel": "all 60,000", "value": 2.8, "display": "2.8%" }
+	]
+}

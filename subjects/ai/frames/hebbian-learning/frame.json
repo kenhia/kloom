@@ -1,0 +1,157 @@
+{
+	"id": "hebbian-learning",
+	"position": {
+		"label": "1949",
+		"sort": 1949
+	},
+	"scene": {
+		"headline": "Cells that fire together",
+		"accent": "WIRE.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": ["MCGILL · DONALD O. HEBB", "THE ORGANIZATION OF BEHAVIOR · 1949 · PAGE 62"],
+		"counter": {
+			"value": "1992",
+			"label": "the slogan first in print"
+		}
+	},
+	"sources": [
+		{
+			"title": "Hebbian theory — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Hebbian_theory"
+		},
+		{
+			"title": "Donald O. Hebb — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Donald_O._Hebb"
+		},
+		{
+			"title": "Carla J. Shatz — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Carla_J._Shatz"
+		},
+		{
+			"title": "D. O. Hebb, The Organization of Behavior: A Neuropsychological Theory",
+			"url": "https://archive.org/details/in.ernet.dli.2015.97836",
+			"note": "Wiley, 1949; the postulate is on p. 62"
+		},
+		{
+			"title": "Carla J. Shatz, The Developing Brain",
+			"url": "https://www.scientificamerican.com/article/the-developing-brain/",
+			"note": "Scientific American 267, no. 3"
+		},
+		{
+			"title": "Mark Liberman, Firing and Wiring",
+			"url": "https://languagelog.ldc.upenn.edu/nll/?p=25194",
+			"note": "Language Log"
+		},
+		{
+			"title": "The Royal Swedish Academy of Sciences, They Used Physics to Find Patterns in Information: Popular Science Background to the Nobel Prize in Physics 2024",
+			"url": "https://www.nobelprize.org/uploads/2024/11/popular-physicsprize2024-3.pdf",
+			"note": "Text by Anna Davour"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Hebbian theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hebbian_theory&oldid=1373885912",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Donald O. Hebb",
+			"url": "https://en.wikipedia.org/w/index.php?title=Donald_O._Hebb&oldid=1374390561",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carla J. Shatz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carla_J._Shatz&oldid=1371978330",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "book",
+			"title": "The Organization of Behavior: A Neuropsychological Theory",
+			"url": "https://archive.org/details/in.ernet.dli.2015.97836",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Hebb",
+					"given": "D. O."
+				}
+			],
+			"publisher": "John Wiley & Sons",
+			"place": "New York",
+			"published": "1949"
+		},
+		{
+			"kind": "article",
+			"title": "The Developing Brain",
+			"url": "https://www.scientificamerican.com/article/the-developing-brain/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Shatz",
+					"given": "Carla J."
+				}
+			],
+			"container": "Scientific American",
+			"volume": "267",
+			"issue": "3",
+			"pages": "60",
+			"published": "1992-09"
+		},
+		{
+			"kind": "web",
+			"title": "Firing and Wiring",
+			"url": "https://languagelog.ldc.upenn.edu/nll/?p=25194",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Liberman",
+					"given": "Mark"
+				}
+			],
+			"container": "Language Log",
+			"publisher": "University of Pennsylvania",
+			"published": "2016-04-21"
+		},
+		{
+			"kind": "web",
+			"title": "They Used Physics to Find Patterns in Information: Popular Science Background to the Nobel Prize in Physics 2024",
+			"url": "https://www.nobelprize.org/uploads/2024/11/popular-physicsprize2024-3.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "The Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "The Royal Swedish Academy of Sciences",
+			"published": "2024-10-08"
+		}
+	]
+}

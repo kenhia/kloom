@@ -1,0 +1,23 @@
+{
+	"id": "neural-nets",
+	"title": "From perceptron to deep learning",
+	"anchor": "perceptron",
+	"spine": {
+		"segments": [
+			{
+				"id": "connectionism",
+				"title": "Connectionism",
+				"labelKind": "date",
+				"frames": [
+					"hebbian-learning",
+					"adaline",
+					"perceptrons-book",
+					"neocognitron",
+					"hopfield-network",
+					"boltzmann-machine",
+					"deep-belief-nets"
+				]
+			}
+		]
+	}
+}

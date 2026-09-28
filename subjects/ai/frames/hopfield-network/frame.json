@@ -1,0 +1,153 @@
+{
+	"id": "hopfield-network",
+	"position": {
+		"label": "1982",
+		"sort": 1982
+	},
+	"scene": {
+		"headline": "We stored memories in",
+		"accent": "VALLEYS.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": ["CALTECH · JOHN J. HOPFIELD", "ENERGY · SPIN · CONTENT-ADDRESSABLE MEMORY"],
+		"counter": {
+			"value": "435",
+			"label": "connections in the 1982 network"
+		}
+	},
+	"sources": [
+		{
+			"title": "Hopfield network — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Hopfield_network"
+		},
+		{
+			"title": "John Hopfield — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/John_Hopfield"
+		},
+		{
+			"title": "J. J. Hopfield, Neural Networks and Physical Systems with Emergent Collective Computational Abilities",
+			"url": "https://doi.org/10.1073/pnas.79.8.2554",
+			"note": "Proceedings of the National Academy of Sciences"
+		},
+		{
+			"title": "The Royal Swedish Academy of Sciences, The Nobel Prize in Physics 2024: Press release",
+			"url": "https://www.nobelprize.org/prizes/physics/2024/press-release/",
+			"note": "NobelPrize.org, 8 October 2024"
+		},
+		{
+			"title": "The Royal Swedish Academy of Sciences, They Used Physics to Find Patterns in Information: Popular Science Background to the Nobel Prize in Physics 2024",
+			"url": "https://www.nobelprize.org/uploads/2024/11/popular-physicsprize2024-3.pdf",
+			"note": "Text by Anna Davour"
+		},
+		{
+			"title": "The Nobel Committee for Physics, Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
+			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
+			"note": "The Royal Swedish Academy of Sciences"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Hopfield network",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hopfield_network&oldid=1370183634",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Hopfield",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Hopfield&oldid=1375521134",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "article",
+			"title": "Neural Networks and Physical Systems with Emergent Collective Computational Abilities",
+			"url": "https://doi.org/10.1073/pnas.79.8.2554",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Hopfield",
+					"given": "J. J."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences of the USA",
+			"volume": "79",
+			"issue": "8",
+			"pages": "2554–58",
+			"published": "1982-04"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physics 2024: Press release",
+			"url": "https://www.nobelprize.org/prizes/physics/2024/press-release/",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "The Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "2024-10-08"
+		},
+		{
+			"kind": "web",
+			"title": "They Used Physics to Find Patterns in Information: Popular Science Background to the Nobel Prize in Physics 2024",
+			"url": "https://www.nobelprize.org/uploads/2024/11/popular-physicsprize2024-3.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "The Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "The Royal Swedish Academy of Sciences",
+			"published": "2024-10-08"
+		},
+		{
+			"kind": "web",
+			"title": "Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
+			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "The Nobel Committee for Physics"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "The Royal Swedish Academy of Sciences",
+			"published": "2024-10-08"
+		},
+		{
+			"kind": "media",
+			"title": "John Hopfield at the 2024 Nobel Lectures, Stockholm University",
+			"url": "https://commons.wikimedia.org/wiki/File:John_Hopfield_at_the_2024_Nobel_Lectures.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Dixit",
+					"given": "Jay"
+				}
+			],
+			"published": "2024-12-08",
+			"container": "Photograph, WikiPortraits at the 2024 Nobel Prizes; via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "hopfield-nobel-lecture.jpg"
+		}
+	]
+}

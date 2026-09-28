@@ -1,0 +1,183 @@
+{
+	"id": "neocognitron",
+	"position": {
+		"label": "1980",
+		"sort": 1980
+	},
+	"scene": {
+		"headline": "We copied the cat's",
+		"accent": "CORTEX.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": ["TOKYO · NHK · KUNIHIKO FUKUSHIMA", "S-CELLS · C-CELLS · SHARED WEIGHTS"],
+		"counter": {
+			"value": "24",
+			"label": "cell-planes in every layer, 1980"
+		}
+	},
+	"sources": [
+		{
+			"title": "Neocognitron — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Neocognitron"
+		},
+		{
+			"title": "Kunihiko Fukushima — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Kunihiko_Fukushima"
+		},
+		{
+			"title": "Convolutional neural network — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+		},
+		{
+			"title": "Receptive field — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Receptive_field"
+		},
+		{
+			"title": "Kunihiko Fukushima, Neocognitron: A Self-Organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position",
+			"url": "https://doi.org/10.1007/BF00344251",
+			"note": "Biological Cybernetics"
+		},
+		{
+			"title": "Kunihiko Fukushima, Neocognitron",
+			"url": "https://doi.org/10.4249/scholarpedia.1717",
+			"note": "Scholarpedia"
+		},
+		{
+			"title": "D. H. Hubel, T. N. Wiesel, Receptive Fields of Single Neurones in the Cat's Striate Cortex",
+			"url": "https://doi.org/10.1113/jphysiol.1959.sp006308",
+			"note": "The Journal of Physiology"
+		},
+		{
+			"title": "The Nobel Committee for Physics, Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
+			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
+			"note": "The Royal Swedish Academy of Sciences"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Neocognitron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neocognitron&oldid=1372402395",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kunihiko Fukushima",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kunihiko_Fukushima&oldid=1374858357",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Convolutional neural network",
+			"url": "https://en.wikipedia.org/w/index.php?title=Convolutional_neural_network&oldid=1372994421",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Receptive field",
+			"url": "https://en.wikipedia.org/w/index.php?title=Receptive_field&oldid=1356489302",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-28"
+		},
+		{
+			"kind": "article",
+			"title": "Neocognitron: A Self-Organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position",
+			"url": "https://doi.org/10.1007/BF00344251",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Fukushima",
+					"given": "Kunihiko"
+				}
+			],
+			"container": "Biological Cybernetics",
+			"volume": "36",
+			"issue": "4",
+			"pages": "193–202",
+			"published": "1980"
+		},
+		{
+			"kind": "article",
+			"title": "Neocognitron",
+			"url": "https://doi.org/10.4249/scholarpedia.1717",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Fukushima",
+					"given": "Kunihiko"
+				}
+			],
+			"container": "Scholarpedia",
+			"volume": "2",
+			"issue": "1",
+			"pages": "1717",
+			"published": "2007"
+		},
+		{
+			"kind": "article",
+			"title": "Receptive Fields of Single Neurones in the Cat's Striate Cortex",
+			"url": "https://doi.org/10.1113/jphysiol.1959.sp006308",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Hubel",
+					"given": "D. H."
+				},
+				{
+					"family": "Wiesel",
+					"given": "T. N."
+				}
+			],
+			"container": "The Journal of Physiology",
+			"volume": "148",
+			"issue": "3",
+			"pages": "574–91",
+			"published": "1959"
+		},
+		{
+			"kind": "web",
+			"title": "Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
+			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "The Nobel Committee for Physics"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "The Royal Swedish Academy of Sciences",
+			"published": "2024-10-08"
+		}
+	]
+}

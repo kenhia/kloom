@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 250 L264 250 M50 260 L50 36"/>
+		<path pathLength="1" d="M145 250 L145 60 M50 155 L240 155"/>
+		<path pathLength="1" d="M5.7 104.3 L284.3 205.7 M-0.9 180.7 L290.9 129.3 M31.5 250.3 L258.5 59.7 M94.3 294.3 L195.7 15.7 M170.7 300.9 L119.3 9.1 M240.3 268.5 L49.7 41.5 M284.3 205.7 L5.7 104.3"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M50 250 L240 250 L240 60 L50 60 Z"/>
+		<path pathLength="1" d="M43 250 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M233 60 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M43 53 L57 67 M43 67 L57 53"/>
+		<path pathLength="1" d="M233 243 L247 257 M233 257 L247 243"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M284 170 L382 170 M290 176 L290 78"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M290 170 L370 170 L370 90 L290 90 Z"/>
+		<path pathLength="1" d="M285 170 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M365 170 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M285 90 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M365 85 L375 95 M365 95 L375 85"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M326 70 L390 134"/>
+	</g>
+	<g>
+		<text x="145" y="276" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">XOR · NO LINE SEPARATES</text>
+		<text x="330" y="194" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AND · ONE LINE DOES</text>
+		<text x="42" y="264" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="240" y="264" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="32" y="72" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+	</g>
+</svg>

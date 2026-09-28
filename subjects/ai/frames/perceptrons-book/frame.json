@@ -1,0 +1,182 @@
+{
+	"id": "perceptrons-book",
+	"position": {
+		"label": "1969",
+		"sort": 1969
+	},
+	"scene": {
+		"headline": "We proved its",
+		"accent": "LIMITS.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": ["MIT · MARVIN MINSKY · SEYMOUR PAPERT", "PARITY · CONNECTEDNESS · XOR"],
+		"counter": {
+			"value": "14 of 16",
+			"label": "two-input functions one unit can compute"
+		}
+	},
+	"sources": [
+		{
+			"title": "Perceptrons (book) — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Perceptrons_(book)"
+		},
+		{
+			"title": "AI winter — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/AI_winter"
+		},
+		{
+			"title": "Frank Rosenblatt — Wikipedia",
+			"url": "https://en.wikipedia.org/wiki/Frank_Rosenblatt"
+		},
+		{
+			"title": "Marvin Minsky, Seymour Papert, Perceptrons: An Introduction to Computational Geometry",
+			"url": "https://archive.org/details/perceptronsintro00mins",
+			"note": "MIT Press, 1969; expanded edition 1988"
+		},
+		{
+			"title": "Mikel Olazaran, A Sociological Study of the Official History of the Perceptrons Controversy",
+			"url": "https://doi.org/10.1177/030631296026003005",
+			"note": "Social Studies of Science"
+		},
+		{
+			"title": "Bernard Widrow, Michael A. Lehr, 30 Years of Adaptive Neural Networks: Perceptron, Madaline, and Backpropagation",
+			"url": "https://doi.org/10.1109/5.58323",
+			"note": "Proceedings of the IEEE"
+		},
+		{
+			"title": "The Nobel Committee for Physics, Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
+			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
+			"note": "The Royal Swedish Academy of Sciences"
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Perceptrons (book)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Perceptrons_(book)&oldid=1368696469",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AI winter",
+			"url": "https://en.wikipedia.org/w/index.php?title=AI_winter&oldid=1374895630",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frank Rosenblatt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frank_Rosenblatt&oldid=1371260220",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "book",
+			"title": "Perceptrons: An Introduction to Computational Geometry",
+			"url": "https://archive.org/details/perceptronsintro00mins",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Minsky",
+					"given": "Marvin"
+				},
+				{
+					"family": "Papert",
+					"given": "Seymour"
+				}
+			],
+			"publisher": "MIT Press",
+			"place": "Cambridge, MA",
+			"published": "1969"
+		},
+		{
+			"kind": "article",
+			"title": "A Sociological Study of the Official History of the Perceptrons Controversy",
+			"url": "https://doi.org/10.1177/030631296026003005",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Olazaran",
+					"given": "Mikel"
+				}
+			],
+			"container": "Social Studies of Science",
+			"volume": "26",
+			"issue": "3",
+			"pages": "611–59",
+			"published": "1996"
+		},
+		{
+			"kind": "article",
+			"title": "30 Years of Adaptive Neural Networks: Perceptron, Madaline, and Backpropagation",
+			"url": "https://doi.org/10.1109/5.58323",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"family": "Widrow",
+					"given": "Bernard"
+				},
+				{
+					"family": "Lehr",
+					"given": "Michael A."
+				}
+			],
+			"container": "Proceedings of the IEEE",
+			"volume": "78",
+			"issue": "9",
+			"pages": "1415–42",
+			"published": "1990"
+		},
+		{
+			"kind": "web",
+			"title": "Scientific Background to the Nobel Prize in Physics 2024: “For Foundational Discoveries and Inventions That Enable Machine Learning with Artificial Neural Networks”",
+			"url": "https://www.nobelprize.org/uploads/2024/11/advanced-physicsprize2024-3.pdf",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "The Nobel Committee for Physics"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "The Royal Swedish Academy of Sciences",
+			"published": "2024-10-08"
+		},
+		{
+			"kind": "media",
+			"title": "Marvin Minsky visiting the One Laptop per Child offices",
+			"url": "https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb.jpg",
+			"accessed": "2026-09-27",
+			"authors": [
+				{
+					"name": "Sethwoodworth"
+				}
+			],
+			"published": "2008-08-26",
+			"container": "Photograph; uploaded to English Wikipedia; via Wikimedia Commons",
+			"licence": "CC BY 3.0",
+			"file": "minsky-2008.jpg"
+		}
+	]
+}

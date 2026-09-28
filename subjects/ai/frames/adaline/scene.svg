@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M48 60 L100 60 M48 100 L100 100 M48 140 L100 140 M48 180 L100 180"/>
+		<path pathLength="1" d="M254 262 L346 262 M300 266 L300 186"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M33 60 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M100 60 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M33 100 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M100 100 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M33 140 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M100 140 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M33 180 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M100 180 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M166 120 a14 14 0 1 0 28 0 a14 14 0 1 0 -28 0"/>
+		<path pathLength="1" d="M236 106 L272 106 L272 134 L236 134 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M110 60 L114 53.1"/>
+		<path pathLength="1" d="M120 60 L169.4 129.1"/>
+		<path pathLength="1" d="M110 100 L117.3 96.6"/>
+		<path pathLength="1" d="M120 100 L166.5 123.8"/>
+		<path pathLength="1" d="M110 140 L117.9 141.4"/>
+		<path pathLength="1" d="M120 140 L166.5 116.2"/>
+		<path pathLength="1" d="M110 180 L115.7 185.7"/>
+		<path pathLength="1" d="M120 180 L169.4 110.9"/>
+		<path pathLength="1" d="M185 113 L174 113 L180 120 L174 127 L185 127"/>
+		<path pathLength="1" d="M244 126 L254 126 L254 114 L264 114"/>
+		<path pathLength="1" d="M194 120 L236 120"/>
+		<path pathLength="1" d="M231.5 122.2 L236 120 L231.5 117.8"/>
+		<path pathLength="1" d="M272 120 L306 120"/>
+		<path pathLength="1" d="M301.5 122.2 L306 120 L301.5 117.8"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M197 196 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M202 196 L210 196"/>
+		<path pathLength="1" d="M192 128 L201 189"/>
+		<path pathLength="1" d="M198.2 184.9 L201 189 L202.5 184.2"/>
+		<path pathLength="1" d="M206 240 L206 205"/>
+		<path pathLength="1" d="M208.2 209.5 L206 205 L203.8 209.5"/>
+		<path pathLength="1" d="M197 196 L110 196 L110 190"/>
+		<path pathLength="1" d="M96 86 L103 67"/>
+		<path pathLength="1" d="M103.4 71 L103 67 L100.1 69.8"/>
+		<path pathLength="1" d="M96 126 L103 107"/>
+		<path pathLength="1" d="M103.4 111 L103 107 L100.1 109.8"/>
+		<path pathLength="1" d="M96 166 L103 147"/>
+		<path pathLength="1" d="M103.4 151 L103 147 L100.1 149.8"/>
+		<path pathLength="1" d="M110 196 L96 196 L96 86"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M260 194 L264 205.8 L268 216.3 L272 225.6 L276 233.7 L280 240.5 L284 246.1 L288 250.4 L292 253.5 L296 255.4 L300 256 L304 255.4 L308 253.5 L312 250.4 L316 246.1 L320 240.5 L324 233.7 L328 225.6 L332 216.3 L336 205.8 L340 194"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M263.5 211.2 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M278.8 242.4 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M287.2 251.9 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M291.8 254.8 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M294.4 255.6 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M266 211.2 L281.3 242.4 M281.3 242.4 L289.7 251.9 M289.7 251.9 L294.3 254.8 M294.3 254.8 L296.9 255.6"/>
+	</g>
+	<g>
+		<text x="40" y="46" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x</text>
+		<text x="110" y="44" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">w</text>
+		<text x="254" y="98" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SGN</text>
+		<text x="220" y="199" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ε = d − s</text>
+		<text x="206" y="252" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">d</text>
+		<text x="300" y="280" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ERROR² · ONE WEIGHT</text>
+	</g>
+</svg>
