@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="t d">
+<title id="t">Hosts on the internet, 1981–2019 (log scale)</title>
+<desc id="d">Bar chart on a logarithmic scale of the number of internet hosts. August 1981, 213; August 1983, 562; February 1986, 2,308; January 1989, 80,000; January 1992, 727,000; January 1995, 4.85 million; January 2000, 72.4 million; January 2005, 318 million; January 2010, 733 million; January 2019, 1.01 billion. Data: to 1992, Lottor, RFC 1296 (host tables to 1986, then the ZONE program); from 1995, the Internet Systems Consortium's Domain Survey, whose method changed in 1998 and which ended in 2019.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="540" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">100</text>
+<line x1="64" x2="540" y1="196.5" y2="196.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">10⁴</text>
+<line x1="64" x2="540" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">10⁶</text>
+<line x1="64" x2="540" y1="89.5" y2="89.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">10⁸</text>
+<line x1="64" x2="540" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">10¹⁰</text>
+</g>
+<rect x="70.8" y="241.2" width="34" height="8.8" fill-opacity="0.85"/>
+<text x="87.8" y="235.2" text-anchor="middle">213</text>
+<text x="87.8" y="266" text-anchor="middle">1981</text>
+<rect x="118.4" y="229.9" width="34" height="20.1" fill-opacity="0.85"/>
+<text x="135.4" y="223.9" text-anchor="middle">562</text>
+<text x="135.4" y="266" text-anchor="middle">1983</text>
+<rect x="166.0" y="213.5" width="34" height="36.5" fill-opacity="0.85"/>
+<text x="183.0" y="207.5" text-anchor="middle">2,308</text>
+<text x="183.0" y="266" text-anchor="middle">1986</text>
+<rect x="213.6" y="172.3" width="34" height="77.7" fill-opacity="0.85"/>
+<text x="230.6" y="166.3" text-anchor="middle">80k</text>
+<text x="230.6" y="266" text-anchor="middle">1989</text>
+<rect x="261.2" y="146.7" width="34" height="103.3" fill-opacity="0.85"/>
+<text x="278.2" y="140.7" text-anchor="middle">727k</text>
+<text x="278.2" y="266" text-anchor="middle">1992</text>
+<rect x="308.8" y="124.7" width="34" height="125.3" fill-opacity="0.85"/>
+<text x="325.8" y="118.7" text-anchor="middle">4.9M</text>
+<text x="325.8" y="266" text-anchor="middle">1995</text>
+<rect x="356.4" y="93.3" width="34" height="156.7" fill-opacity="0.85"/>
+<text x="373.4" y="87.3" text-anchor="middle">72M</text>
+<text x="373.4" y="266" text-anchor="middle">2000</text>
+<rect x="404.0" y="76.1" width="34" height="173.9" fill-opacity="0.85"/>
+<text x="421.0" y="70.1" text-anchor="middle">318M</text>
+<text x="421.0" y="266" text-anchor="middle">2005</text>
+<rect x="451.6" y="66.4" width="34" height="183.6" fill-opacity="0.85"/>
+<text x="468.6" y="60.4" text-anchor="middle">733M</text>
+<text x="468.6" y="266" text-anchor="middle">2010</text>
+<rect x="499.2" y="62.6" width="34" height="187.4" class="accent" fill="currentColor"/>
+<text x="516.2" y="56.6" text-anchor="middle">1.0B</text>
+<text x="516.2" y="266" text-anchor="middle">2019</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">INTERNET HOSTS · LOG SCALE</text>
+</g></svg>

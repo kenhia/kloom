@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M61 182 L299 182 M61 142 L299 142 M61 102 L299 102 M61 62 L299 62"/>
+		<path pathLength="1" d="M68.9 202 L68.9 30 M100.7 202 L100.7 30 M132.4 202 L132.4 30 M164.1 202 L164.1 30 M195.9 202 L195.9 30 M227.6 202 L227.6 30 M259.3 202 L259.3 30 M291.1 202 L291.1 30"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M157.2 180.6 L98 112.8"/>
+		<path pathLength="1" d="M157.2 180.6 L134.8 173.8"/>
+		<path pathLength="1" d="M98 112.8 L134.8 173.8"/>
+		<path pathLength="1" d="M98 112.8 L261.7 46.8"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M152.2 175.6 L162.2 175.6 L162.2 185.6 L152.2 185.6 Z"/>
+		<path pathLength="1" d="M93 107.8 L103 107.8 L103 117.8 L93 117.8 Z"/>
+		<path pathLength="1" d="M129.8 168.8 L139.8 168.8 L139.8 178.8 L129.8 178.8 Z"/>
+		<path pathLength="1" d="M256.7 41.8 L266.7 41.8 L266.7 51.8 L256.7 51.8 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M162.2 180.6 L175.2 192.6"/>
+		<path pathLength="1" d="M171.2 192.6 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M93 112.8 L80 98.8"/>
+		<path pathLength="1" d="M76 98.8 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M129.8 173.8 L114.8 185.8"/>
+		<path pathLength="1" d="M110.8 185.8 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M266.7 46.8 L279.7 34.8"/>
+		<path pathLength="1" d="M275.7 34.8 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M30 226 L30 252 M72.5 226 L72.5 252 M115 226 L115 252 M157.5 226 L157.5 252 M200 226 L200 252 M242.5 226 L242.5 252 M285 226 L285 252 M327.5 226 L327.5 252 M370 226 L370 252"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M5.8 232 L26 232 L26 244 L5.8 244 Z"/>
+		<path pathLength="1" d="M30 232 L370 232 L370 244 L30 244 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M12.1 232 L12.1 244"/>
+		<path pathLength="1" d="M22.2 232 L22.2 244"/>
+		<path pathLength="1" d="M23.5 232 L23.5 244"/>
+		<path pathLength="1" d="M33 250 L69.5 250"/>
+		<path pathLength="1" d="M75.5 250 L112 250"/>
+		<path pathLength="1" d="M118 250 L154.5 250"/>
+		<path pathLength="1" d="M160.5 250 L197 250"/>
+		<path pathLength="1" d="M203 250 L239.5 250"/>
+		<path pathLength="1" d="M245.5 250 L282 250"/>
+		<path pathLength="1" d="M288 250 L324.5 250"/>
+		<path pathLength="1" d="M330.5 250 L367 250"/>
+	</g>
+	<g>
+		<text x="182.2" y="195.6" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">UCLA</text>
+		<text x="182.2" y="204.6" font-size="6" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SIGMA 7</text>
+		<text x="73" y="101.8" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SRI</text>
+		<text x="73" y="110.8" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SDS 940</text>
+		<text x="107.8" y="188.8" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">UCSB</text>
+		<text x="107.8" y="197.8" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">360/75</text>
+		<text x="286.7" y="37.8" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">UTAH</text>
+		<text x="286.7" y="46.8" font-size="6" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PDP-10</text>
+		<text x="143.6" y="148.7" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">L O</text>
+		<text x="30" y="20" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARPA NETWORK · DECEMBER 1969 · FOUR IMPS</text>
+		<text x="15.9" y="226" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HEADER</text>
+		<text x="200" y="222" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MESSAGE ≤ 8,080 BITS</text>
+		<text x="200" y="264" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EIGHT PACKETS OF ≤ 1,010 BITS · RFC 1, 7 APRIL 1969</text>
+	</g>
+</svg>

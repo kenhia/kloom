@@ -1,0 +1,31 @@
+{
+	"title": "Nodes on the ARPANET, December 1969 to July 1977",
+	"description": "Bar chart of the number of network nodes (IMPs and TIPs) on each of BBN's maps. December 1969, 4; June 1970, 9; December 1970, 13; September 1971, 18; March 1972, 23; August 1972, 29; September 1973, 40; June 1974, 46; July 1975, 57; July 1976, 58; July 1977, 58. Data: Heart, McKenzie, McQuillan and Walden, ARPANET Completion Report (BBN Report 4799), figure 16.",
+	"heading": "NODES ON THE ARPANET · BBN'S MAPS",
+	"unit": "",
+	"width": 560,
+	"height": 300,
+	"barWidth": 34,
+	"axis": {
+		"max": 60,
+		"ticks": [
+			[0, "0"],
+			[20, "20"],
+			[40, "40"],
+			[60, "60"]
+		]
+	},
+	"bars": [
+		{ "label": "Dec", "sublabel": "1969", "value": 4, "display": "4", "highlight": true },
+		{ "label": "Jun", "sublabel": "1970", "value": 9, "display": "9" },
+		{ "label": "Dec", "sublabel": "1970", "value": 13, "display": "13" },
+		{ "label": "Sep", "sublabel": "1971", "value": 18, "display": "18" },
+		{ "label": "Mar", "sublabel": "1972", "value": 23, "display": "23" },
+		{ "label": "Aug", "sublabel": "1972", "value": 29, "display": "29" },
+		{ "label": "Sep", "sublabel": "1973", "value": 40, "display": "40" },
+		{ "label": "Jun", "sublabel": "1974", "value": 46, "display": "46" },
+		{ "label": "Jul", "sublabel": "1975", "value": 57, "display": "57" },
+		{ "label": "Jul", "sublabel": "1976", "value": 58, "display": "58" },
+		{ "label": "Jul", "sublabel": "1977", "value": 58, "display": "58" }
+	]
+}

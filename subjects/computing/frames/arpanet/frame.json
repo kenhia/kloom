@@ -1,0 +1,202 @@
+{
+	"id": "arpanet",
+	"position": {
+		"label": "ARPANET"
+	},
+	"scene": {
+		"headline": "The first message was",
+		"accent": "LO.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ARPA · BBN, CAMBRIDGE · UCLA · SRI · UCSB · UTAH",
+			"LICKLIDER · TAYLOR · ROBERTS · HEART · KAHN",
+			"HONEYWELL DDP-516 IMPS · 50-KILOBIT LINES"
+		],
+		"counter": {
+			"value": "57",
+			"label": "nodes on the network by July 1975, from 4 in December 1969"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "A History of the ARPANET: The First Decade",
+			"url": "https://walden-family.com/bbn/arpanet-completion-report.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Heart",
+					"given": "F."
+				},
+				{
+					"family": "McKenzie",
+					"given": "A."
+				},
+				{
+					"family": "McQuillan",
+					"given": "J."
+				},
+				{
+					"family": "Walden",
+					"given": "D."
+				}
+			],
+			"number": "BBN Report 4799",
+			"publisher": "Bolt Beranek and Newman Inc.",
+			"place": "Cambridge, MA",
+			"published": "1981-04",
+			"note": "The ARPANET Completion Report, prepared in January 1978: the contract, the ICCC demonstration, network mail; node counts in figure 16"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Host Software",
+			"url": "https://www.rfc-editor.org/rfc/rfc1.txt",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Crocker",
+					"given": "Steve"
+				}
+			],
+			"number": "RFC 1",
+			"publisher": "Network Working Group",
+			"published": "1969-04-07",
+			"doi": "10.17487/RFC0001"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Memorandum for Members and Affiliates of the Intergalactic Computer Network",
+			"url": "http://www.kurzweilai.net/memorandum-for-members-and-affiliates-of-the-intergalactic-computer-network",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Licklider",
+					"given": "J. C. R."
+				}
+			],
+			"container": "KurzweilAI.net",
+			"published": "1963-04-23",
+			"note": "Advanced Research Projects Agency; reprinted online in 2001"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "ARPANET",
+			"url": "https://en.wikipedia.org/w/index.php?title=ARPANET&oldid=1372534218",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Interface Message Processor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Interface_Message_Processor&oldid=1374354199",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "J. C. R. Licklider",
+			"url": "https://en.wikipedia.org/w/index.php?title=J._C._R._Licklider&oldid=1368514924",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Larry Roberts (computer scientist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Larry_Roberts_(computer_scientist)&oldid=1372583190",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Taylor (computer scientist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Taylor_(computer_scientist)&oldid=1372647922",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ray Tomlinson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ray_Tomlinson&oldid=1351995396",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-01"
+		},
+		{
+			"kind": "media",
+			"title": "The UCLA IMP log for 29 October 1969, recording the first host-to-host connection with SRI",
+			"url": "https://commons.wikimedia.org/wiki/File:First-arpanet-imp-log.jpg",
+			"accessed": "2026-09-28",
+			"container": "UCLA Kleinrock Center for Internet Studies, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "imp-log.jpg",
+			"authors": [
+				{
+					"family": "Kline",
+					"given": "Charles S."
+				}
+			],
+			"published": "1969-10-29"
+		},
+		{
+			"kind": "media",
+			"title": "Nodes on the ARPANET, December 1969 to July 1977 (chart)",
+			"url": "https://walden-family.com/bbn/arpanet-completion-report.pdf",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from the ARPANET Completion Report, figure 16",
+			"licence": "MIT",
+			"file": "nodes.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

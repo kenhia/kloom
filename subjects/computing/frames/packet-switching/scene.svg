@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M52 44 L52 262 M98 44 L98 262 M144 44 L144 262 M190 44 L190 262"/>
+		<path pathLength="1" d="M46 56 L196 56 M46 78 L196 78 M46 100 L196 100 M46 122 L196 122 M46 144 L196 144 M46 166 L196 166 M46 188 L196 188 M46 210 L196 210 M46 232 L196 232 M46 254 L196 254"/>
+		<path pathLength="1" d="M232 44 L232 262 M278 44 L278 262 M324 44 L324 262 M370 44 L370 262"/>
+		<path pathLength="1" d="M226 56 L376 56 M226 78 L376 78 M226 100 L376 100 M226 122 L376 122 M226 144 L376 144 M226 166 L376 166 M226 188 L376 188 M226 210 L376 210 M226 232 L376 232 M226 254 L376 254"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M52 56 L98 64 L98 70 L144 78 L144 84 L190 92"/>
+		<path pathLength="1" d="M190 92 L144 100 L144 106 L98 114 L98 120 L52 128"/>
+		<path pathLength="1" d="M186.2 93.4 L190 92 L186.9 89.4"/>
+		<path pathLength="1" d="M55.1 125.4 L52 128 L55.8 129.4"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M52 132 L190 156 L190 222 L52 198 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M232 56 L278 64 L278 86 L232 78 Z"/>
+		<path pathLength="1" d="M278 86 L324 94 L324 116 L278 108 Z"/>
+		<path pathLength="1" d="M324 116 L370 124 L370 146 L324 138 Z"/>
+		<path pathLength="1" d="M232 78 L278 86 L278 108 L232 100 Z"/>
+		<path pathLength="1" d="M278 108 L324 116 L324 138 L278 130 Z"/>
+		<path pathLength="1" d="M324 138 L370 146 L370 168 L324 160 Z"/>
+		<path pathLength="1" d="M232 100 L278 108 L278 130 L232 122 Z"/>
+		<path pathLength="1" d="M278 130 L324 138 L324 160 L278 152 Z"/>
+		<path pathLength="1" d="M324 160 L370 168 L370 190 L324 182 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M190 222 L380 222"/>
+		<path pathLength="1" d="M370 190 L380 190"/>
+		<path pathLength="1" d="M377.4 223.5 L380 222 L377.4 220.5"/>
+		<path pathLength="1" d="M377.4 191.5 L380 190 L377.4 188.5"/>
+	</g>
+	<g>
+		<text x="52" y="38" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="98" y="38" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N₁</text>
+		<text x="144" y="38" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N₂</text>
+		<text x="190" y="38" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="232" y="38" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="278" y="38" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N₁</text>
+		<text x="324" y="38" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N₂</text>
+		<text x="370" y="38" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="121" y="28" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CIRCUIT SWITCHING</text>
+		<text x="301" y="28" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PACKET SWITCHING</text>
+		<text x="44" y="86" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SET UP</text>
+		<text x="44" y="168" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DATA</text>
+		<text x="242" y="71" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="242" y="93" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="242" y="115" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="200" y="284" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TIME RUNS DOWN · STORE, THEN FORWARD</text>
+	</g>
+</svg>

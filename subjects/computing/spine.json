@@ -45,6 +45,12 @@
 			"frames": ["microprocessor", "altair"]
 		},
 		{
+			"id": "networks",
+			"title": "Networks",
+			"labelKind": "technology",
+			"frames": ["packet-switching", "arpanet", "internet", "world-wide-web"]
+		},
+		{
 			"id": "shared-software",
 			"title": "Software, shared",
 			"labelKind": "technology",
@@ -60,7 +66,7 @@
 			"id": "open-questions",
 			"title": "Open questions",
 			"labelKind": "category",
-			"frames": ["where-computing-is"]
+			"frames": ["security", "where-computing-is"]
 		}
 	]
 }
