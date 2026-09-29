@@ -1,6 +1,6 @@
-On 21 October 1965 the Royal Swedish Academy of Sciences awarded the Nobel
-Prize in Physics to **Sin-Itiro Tomonaga**, **Julian Schwinger** and
-Richard Feynman, "for their fundamental work in quantum electrodynamics,
+On 21 October 1965 the Royal Swedish Academy of Sciences awarded the [Nobel
+Prize in Physics](kloom:e/nobel-prize-in-physics) to **[Sin-Itiro Tomonaga](kloom:e/shin-ichir-tomonaga)**, **[Julian Schwinger](kloom:e/julian-schwinger)** and
+[Richard Feynman](kloom:e/richard-feynman), "for their fundamental work in [quantum electrodynamics](kloom:e/quantum-electrodynamics),
 with deep-ploughing consequences for the physics of elementary particles".
 Each had a third of the $55,000. The work was seventeen years old.
 
@@ -15,7 +15,7 @@ woken, and when he told his wife she laughed and would not believe him,
 because he was always playing tricks on her.
 
 By half past ten he was facing radio, television and the newspapers in the
-Athenaeum, Caltech's faculty club, with Gweneth and their three-year-old
+Athenaeum, Caltech's faculty club, with [Gweneth](kloom:e/gweneth-feynman) and their three-year-old
 son Carl. Asked whether his work could be explained in lay terms, he said:
 "There certainly must be. But I don't know what it is." A photographer from
 _Time_ gave him a better answer while taking his picture: if it could be
@@ -57,7 +57,7 @@ of Quantum Electrodynamics", is unlike most. Journal papers, he began, are
 written to cover the tracks and hide the blind alleys; since the prize was
 personal, he would tell what he had actually done. He told it from his
 undergraduate idea at MIT that an electron should not act on itself, through
-**John Wheeler**'s waves running backward in time, a beer at the Nassau
+**[John Wheeler](kloom:e/john-archibald-wheeler)**'s waves running backward in time, a beer at the Nassau
 Tavern where he first heard of Dirac's paper, and a calculation with
 **Hans Bethe** that went wrong on a blackboard for reasons neither of them
 ever found.
@@ -76,8 +76,8 @@ fallen for as a young man to an old woman: no longer attractive, but a good
 mother, with children the Academy had just honoured.
 
 The dejection ended, in Goodstein's telling, at the University of Chicago's faculty club in
-February 1967, where Feynman sat up reading James Watson's manuscript of
-_The Double Helix_ and wrote one word on a notepad: "Disregard!" You have to
+February 1967, where Feynman sat up reading [James Watson](kloom:e/james-watson)'s manuscript of
+[_The Double Helix_](kloom:e/the-double-helix) and wrote one word on a notepad: "Disregard!" You have to
 worry about your own work, he said, and ignore what everyone else is doing.
 At first light he telephoned Gweneth to say he would be able to work again.
 The work he went back to was the inside of the proton.

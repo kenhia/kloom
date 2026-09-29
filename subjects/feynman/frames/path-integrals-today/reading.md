@@ -1,4 +1,4 @@
-Feynman published the sum over histories as a new way of saying what was
+[Feynman](kloom:e/richard-feynman) published the [sum over histories](kloom:e/path-integral-formulation) as a new way of saying what was
 already known. Seventy-eight years later it is how much of physics is
 actually calculated, and it is still, in the cases that matter most, not a
 well-defined piece of mathematics. This frame describes the state of things
@@ -6,16 +6,16 @@ as of 28 September 2026.
 
 ## Imaginary time
 
-The first to take it up was a mathematician. **Mark Kac**, Feynman's
+The first to take it up was a mathematician. **[Mark Kac](kloom:e/mark-kac)**, Feynman's
 colleague at Cornell, had read Feynman's unpublished Princeton thesis, and
 in a paper presented to the American Mathematical Society in October 1947
 and printed in 1949 he said that his results were strongly influenced by
 Feynman's derivation of the Schrödinger equation. Kac's version replaced
 Feynman's spinning arrows with real, positive weights. Where Feynman had
 e^(_iS_/_ħ_), Kac had a decaying exponential, and the paths became the
-random paths of Brownian motion, over which Norbert Wiener had already
-defined a genuine probability measure. The result, the **Feynman–Kac
-formula**, is a theorem: it solves the diffusion equation, the Schrödinger
+random paths of Brownian motion, over which [Norbert Wiener](kloom:e/norbert-wiener) had already
+defined a genuine probability measure. The result, the **[Feynman–Kac
+formula](kloom:e/feynmankac-formula)**, is a theorem: it solves the diffusion equation, the Schrödinger
 equation's cousin with time made imaginary, as an average over random paths.
 
 ![Mark Kac in later life, smiling at his desk behind a stack of papers, in a jacket and tie](kac.jpg)
@@ -23,7 +23,7 @@ equation's cousin with time made imaginary, as an average over random paths.
 The same trick connects quantum mechanics to heat. In imaginary time the
 path integral of a quantum system becomes its partition function, the sum
 that statistical mechanics uses to get every thermal property. In 1965
-Feynman and **Albert Hibbs** published the method as
+Feynman and **[Albert Hibbs](kloom:e/albert-hibbs)** published the method as
 a textbook, _Quantum Mechanics and Path Integrals_. In the 1970s the path
 integral became the common language of quantum field theory and of the
 statistical physics of phase transitions, and much of the unification of
@@ -31,20 +31,20 @@ the two ran through it.
 
 ## On the lattice
 
-In 1974 **Kenneth Wilson** wrote the theory of quarks and gluons on a grid
+In 1974 **[Kenneth Wilson](kloom:e/kenneth-g-wilson)** wrote the theory of quarks and gluons on a grid
 of points in space and time, with the gluon field living on the links
 between neighbouring points, as the plate draws, and a closed loop of links
 measuring the field inside it. On a lattice, in imaginary time, the path
 integral is an ordinary integral over a very large but finite number of
 variables, with positive weights, and it can be estimated by sampling. In
 1980 **Michael Creutz** did it by Monte Carlo for a simpler version of the
-theory. Today **lattice QCD** runs on the largest supercomputers: it has
+theory. Today **[lattice QCD](kloom:e/lattice-qcd)** runs on the largest supercomputers: it has
 computed the proton's mass to better than two per cent and the temperature,
 about 150 MeV, at which ordinary matter melts into a plasma of quarks and
 gluons.
 
 Its most visible recent result is about the muon. For years the muon's
-measured magnetic moment disagreed with the Standard Model's prediction,
+measured magnetic moment disagreed with the [Standard Model](kloom:e/standard-model)'s prediction,
 and the disagreement was taken as a possible sign of new physics. The
 hardest part of the prediction is the effect of quarks and gluons. In 2025
 the physicists who make the official prediction replaced the estimate taken

@@ -1,0 +1,9 @@
+{
+	"id": "feynman-diagram",
+	"wikidata": "Q386272",
+	"name": "Feynman diagram",
+	"aliases": ["Feynman diagrams", "diagrams"],
+	"kind": "idea",
+	"description": "A picture of particles' paths and meetings that stands for one term in a quantum field theory calculation, introduced by Feynman in 1949.",
+	"home": "feynman/diagrams"
+}

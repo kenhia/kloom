@@ -1,4 +1,4 @@
-From September 1951 to May 1952 Feynman lived in **Rio de Janeiro**, in a
+From September 1951 to May 1952 [Feynman](kloom:e/richard-feynman) lived in **[Rio de Janeiro](kloom:e/rio-de-janeiro)**, in a
 hotel on Copacabana beach, and taught physics in Portuguese. He called it
 ten months. It was the year Caltech had promised him, and he had arranged
 it for a reason he explained to Charles Weiner in 1966 with some
@@ -11,11 +11,11 @@ mostly faded. The affection for Brazil did not.
 ## A centre, a language and a band
 
 He had first visited in 1949, for six weeks, after sitting next to the
-Brazilian physicist **Jayme Tiomno** at a meeting of the American Physical
+Brazilian physicist **[Jayme Tiomno](kloom:e/jayme-tiomno)** at a meeting of the American Physical
 Society and saying he was thinking of South America. Tiomno arranged an
-invitation to the **Centro Brasileiro de Pesquisas Físicas** (CBPF), a
-research centre founded that January by Tiomno, **José Leite Lopes** and
-César Lattes, whose share in discovering the pion had made him a national
+invitation to the **[Centro Brasileiro de Pesquisas Físicas](kloom:e/centro-brasileiro-de-pesquisas-fisicas)** (CBPF), a
+research centre founded that January by Tiomno, **[José Leite Lopes](kloom:e/jose-leite-lopes)** and
+[César Lattes](kloom:e/cesar-lattes), whose share in discovering the pion had made him a national
 hero. The universities, Feynman said, would not easily take in physicists
 trained abroad, so the centre was set up outside them.
 
@@ -29,9 +29,9 @@ confirmed that he spoke it reasonably well and taught all year, at the
 university's Faculdade Nacional de Filosofia and at the centre.
 
 He did physics too. He worked with Leite Lopes on meson theory, wrote to
-Enrico Fermi from his hotel about pion scattering, and kept up with Caltech
+[Enrico Fermi](kloom:e/enrico-fermi) from his hotel about pion scattering, and kept up with Caltech
 through a radio amateur who patched him through to friends there. And he
-found the music. In his memoir _"Surely You're Joking, Mr. Feynman!"_ he
+found the music. In his memoir [_"Surely You're Joking, Mr. Feynman!"_](kloom:e/surely-youre-joking-mr-feynman) he
 tells how he joined a samba school's percussion and learned the
 _frigideira_, a small metal pan struck with a stick, well enough to play it
 in the Carnival parade. That is his telling, and the drumming that ran
@@ -43,7 +43,7 @@ through the rest of his life is another frame's story.
 
 What he is best remembered for in Brazil is a lecture. Teaching electricity
 and magnetism, he found that his students could recite laws perfectly and
-use none of them. His favourite example was **Brewster's angle**. Asked
+use none of them. His favourite example was **[Brewster's angle](kloom:e/brewsters-angle)**. Asked
 about it, they answered at once: light reflected from a material of index
 _n_ is completely polarised when the tangent of the angle equals _n_. Yet
 when he handed them a piece of Polaroid and told them to look at the light

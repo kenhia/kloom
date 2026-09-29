@@ -1,6 +1,6 @@
 In the late 1960s the question of what a proton is made of had no agreed
-answer. **Murray Gell-Mann**, whose office at Caltech was a few doors from
-Feynman's, had proposed **quarks** in 1964, and George Zweig had proposed
+answer. **[Murray Gell-Mann](kloom:e/murray-gell-mann)**, whose office at Caltech was a few doors from
+[Feynman](kloom:e/richard-feynman)'s, had proposed **[quarks](kloom:e/quark)** in 1964, and George Zweig had proposed
 the same scheme independently. Quarks sorted the zoo of particles into
 tidy families, but no one had ever knocked one loose, and most physicists
 treated them as bookkeeping. Then an experiment in California began to
@@ -9,10 +9,10 @@ his own.
 
 ## Two miles of accelerator
 
-The **Stanford Linear Accelerator Center** (SLAC) had just finished a
+The **[Stanford Linear Accelerator Center](kloom:e/slac-national-accelerator-laboratory)** (SLAC) had just finished a
 two-mile machine that drove electrons to 20 GeV. A collaboration from
-**MIT and SLAC**, led by **Jerome Friedman**, **Henry Kendall** and
-**Richard Taylor**, aimed the beam at liquid hydrogen and counted the
+**MIT and SLAC**, led by **[Jerome Friedman](kloom:e/jerome-isaac-friedman)**, **[Henry Kendall](kloom:e/henry-way-kendall)** and
+**[Richard Taylor](kloom:e/richard-e-taylor)**, aimed the beam at liquid hydrogen and counted the
 electrons that bounced off at large angles, in huge magnetic spectrometers
 that rolled on rails around the target. They had meant to study the
 proton's excited states. What they found, first reported at the Vienna
@@ -22,7 +22,7 @@ of charge.
 
 ![End Station A at SLAC around 1968: two huge spectrometers, one long girder of magnets and one massive shielded housing, mounted on curved rails around the target, with a man standing beside them for scale](end-station-a.jpg)
 
-**James Bjorken**, a SLAC theorist, had predicted something odder still,
+**[James Bjorken](kloom:e/james-bjorken)**, a SLAC theorist, had predicted something odder still,
 using the abstract machinery of current algebra: at high energy the
 results should depend not on the energy lost and the momentum transferred
 separately, but only on their ratio. The data showed this _scaling_.
@@ -33,7 +33,7 @@ Almost nobody, the experimenters included, could see why.
 Feynman had spent the summer of 1968 in Santa Barbara, walking the beach
 and trying to understand collisions between protons at very high energy.
 His working picture treated each proton as a swarm of point-like pieces,
-whatever they were, and he called them **partons**. In August he visited
+whatever they were, and he called them **[partons](kloom:e/parton-particle-physics)**. In August he visited
 SLAC, which was a few blocks from his sister Joan's house. In his account
 to the historian Charles Weiner in 1973, the experimenters showed him the
 data and asked him to explain Bjorken's scaling, since Bjorken was away.

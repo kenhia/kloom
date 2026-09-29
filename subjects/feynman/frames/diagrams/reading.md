@@ -1,12 +1,12 @@
-After Pocono, Feynman did what he had decided there: he wrote it down. Two
-papers went to the _Physical Review_ from the Department of Physics at
+After [Pocono](kloom:e/pocono-conference), [Feynman](kloom:e/richard-feynman) did what he had decided there: he wrote it down. Two
+papers went to the [_Physical Review_](kloom:e/physical-review) from the Department of Physics at
 Cornell in the spring of 1949. **"The Theory of Positrons"** was received
 on 8 April, and **"Space-Time Approach to Quantum Electrodynamics"** on 9
 May. Both appeared in the issue of 15 September 1949, on pages 749 and 769. They carried pictures that would change how physicists calculate.
 
 ## The problem they solved
 
-In quantum electrodynamics nearly every answer is a sum. An electron
+In [quantum electrodynamics](kloom:e/quantum-electrodynamics) nearly every answer is a sum. An electron
 scattering off another may exchange one quantum of light, or two, or emit
 one and reabsorb it on the way, and each possibility is a term in a series
 that runs in powers of a small number, about 1/137. In the methods of the
@@ -50,11 +50,11 @@ two terms.
 Its companion, "The Theory of Positrons", supplies the other ingredient:
 a positron is treated as an electron running backwards in time, so pair
 creation and annihilation need no separate machinery. The functions K₊
-are what physicists now call _propagators_. Feynman added a modification
+are what physicists now call [_propagators_](kloom:e/propagator). Feynman added a modification
 that kept nearly every integral finite, then showed that the physical answers do
 not depend on it once the electron's mass and charge are fixed at their
-measured values. The results, he wrote, agree with Schwinger's, and the
-paper points to **Freeman Dyson**'s proof, published earlier that year,
+measured values. The results, he wrote, agree with [Schwinger](kloom:e/julian-schwinger)'s, and the
+paper points to **[Freeman Dyson](kloom:e/freeman-dyson)**'s proof, published earlier that year,
 that the two methods are equivalent.
 
 ![A hand-coloured postcard of Rockefeller Hall on the Cornell campus, a large brick building with a low hipped roof behind a tree on a grassy slope, captioned "Rockefeller Hall, Department of Physics, Cornell University, Ithaca, N.Y."](rockefeller-hall.jpg)
@@ -70,9 +70,9 @@ momentum transfer left general, and showed him the next day that setting
 it to zero gave Slotnick's answers. He called it a moment like receiving
 the Nobel Prize.
 
-He never claimed the diagrams were a new theory. Most of the ideas he had
+He never claimed the [diagrams](kloom:e/feynman-diagram) were a new theory. Most of the ideas he had
 chased since Princeton, he said in the lecture, did not survive into the
 final result; what did was a much quicker way of getting answers everyone
 could check. Their spread, the positron running backwards and Dyson's part
 in it are the subject of the trail "The diagrams", which branches from
-here and begins with the Lamb shift.
+here and begins with the [Lamb shift](kloom:e/lamb-shift).

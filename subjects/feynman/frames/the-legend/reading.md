@@ -1,10 +1,10 @@
-When Feynman died, most Americans knew him from two things: the glass of ice water at the Challenger hearings, and a bestselling book of stories. Both were still new. The public Feynman grew after his death, and it grew mostly out of his own voice: films of him talking, books of his talk, then plays and films about him, and a cloud of sayings that he never said. The making of the memoirs themselves belongs to the frame _Surely you're joking_; this one follows what was built on them.
+When [Feynman](kloom:e/richard-feynman) died, most Americans knew him from two things: the glass of ice water at the [Challenger](kloom:e/space-shuttle-challenger-disaster) hearings, and a bestselling book of stories. Both were still new. The public Feynman grew after his death, and it grew mostly out of his own voice: films of him talking, books of his talk, then plays and films about him, and a cloud of sayings that he never said. The making of the memoirs themselves belongs to the frame _Surely you're joking_; this one follows what was built on them.
 
 ## Made from his own voice
 
 The first piece came before the books. In 1981 **Christopher Sykes** filmed him for the BBC's _Horizon_ talking about his father, Los Alamos, the Nobel Prize and why he did physics. _The Pleasure of Finding Things Out_ was broadcast in 1981 and later shown in America on _Nova_, and its transcript opens the 1999 collection of the same name. The two memoirs followed in 1985 and 1988.
 
-After his death the biographers came, and they faced the stories first. **James Gleick**, whose _Genius_ appeared in 1992, said he had tried not to lean on the Leighton books too heavily: they were, in his words, "mostly accurate, but strongly filtered." The physicist Philip Anderson praised the book for getting past the "self-created legend". Jagdish Mehra's _The Beat of a Different Drum_ (1994) did the same for the physics.
+After his death the biographers came, and they faced the stories first. **[James Gleick](kloom:e/james-gleick)**, whose [_Genius_](kloom:e/genius-the-life-and-science-of-richard-feynman) appeared in 1992, said he had tried not to lean on the [Leighton](kloom:e/ralph-leighton) books too heavily: they were, in his words, "mostly accurate, but strongly filtered." The physicist Philip Anderson praised the book for getting past the "self-created legend". Jagdish Mehra's _The Beat of a Different Drum_ (1994) did the same for the physics.
 
 | Year | Work                                                                 | Built from                      |
 | ---- | -------------------------------------------------------------------- | ------------------------------- |
@@ -15,7 +15,7 @@ After his death the biographers came, and they faced the stories first. **James 
 | 2009 | The 1964 Messenger Lectures put online by Bill Gates as Project Tuva | the BBC's films of the lectures |
 | 2023 | _Oppenheimer_, with Jack Quaid as the young Feynman at Los Alamos    | a biography of Oppenheimer      |
 
-_Infinity_ was written by Broderick's mother, Patricia, from the memoirs, and follows the story of Arline. _QED_ put Alda on the stage of the Mark Taper Forum and then Broadway as Feynman on one day in his office, talking to the audience about safecracking, drawing, Tuva and the cancer. The legend was now performed by other people, in his own words.
+[_Infinity_](kloom:e/infinity-1996-film) was written by Broderick's mother, Patricia, from the memoirs, and follows the story of Arline. [_QED_](kloom:e/qed-play) put [Alda](kloom:e/alan-alda) on the stage of the Mark Taper Forum and then Broadway as Feynman on one day in his office, talking to the audience about safecracking, drawing, Tuva and the cancer. The legend was now performed by other people, in his own words.
 
 ![A bronze bust of Feynman, smiling, on a stone plinth on the campus of National Tsing Hua University in Taiwan, with flowers left on its shoulders](bust.jpg)
 
@@ -37,7 +37,7 @@ The **Feynman technique** is a four-step study method: choose an idea, explain i
 
 ## The reckoning
 
-The memoirs also told stories about women, and they were told as jokes. In _"Surely You're Joking"_ he describes learning, in a bar, to treat women with contempt as a way of getting them into bed; pretending to be an undergraduate at Cornell to take out students; and doing his work and holding meetings in a strip club. His second marriage ended in 1956 in a divorce granted for "extreme cruelty". The _Los Angeles Times_ said in its obituary that he spent almost as much energy on his image as a womaniser as on physics.
+The memoirs also told stories about women, and they were told as jokes. In [_"Surely You're Joking"_](kloom:e/surely-youre-joking-mr-feynman) he describes learning, in a bar, to treat women with contempt as a way of getting them into bed; pretending to be an undergraduate at Cornell to take out students; and doing his work and holding meetings in a strip club. His second marriage ended in 1956 in a divorce granted for "extreme cruelty". The _Los Angeles Times_ said in its obituary that he spent almost as much energy on his image as a womaniser as on physics.
 
 In July 2014 an argument over this broke out among science writers. **Ashutosh Jogalekar**, in a _Scientific American_ blog post that the magazine removed, restored and has since removed again (it survives on his own blog), argued that Feynman was no more sexist than most men of his time and place, and that the anecdotes were cherry-picked: he championed his sister Joan's career in astrophysics, his letters to women show no bias, and he supported a woman professor's discrimination case at Caltech. The next day the physicist **Matthew Francis** answered that the facts were against the usual excuses, and that his behaviour had been passed around as a quirk. In January 2019, after the centenary, **Leila McNeill** wrote that he had "built his bad behavior into his own genius mythos".
 

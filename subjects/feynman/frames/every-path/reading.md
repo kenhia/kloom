@@ -1,6 +1,6 @@
-Feynman opened the third volume of his _Lectures on Physics_ with the
-experiment of two slits, which he said has in it the heart of quantum
-mechanics. It is also the easiest place to see what a sum over histories
+[Feynman](kloom:e/richard-feynman) opened the third volume of his [_Lectures on Physics_](kloom:e/the-feynman-lectures-on-physics) with the
+experiment of [two slits](kloom:e/double-slit-experiment), which he said has in it the heart of quantum
+mechanics. It is also the easiest place to see what a [sum over histories](kloom:e/path-integral-formulation)
 means, because with two slits there are only two histories to add. This
 frame works it through with numbers, then keeps adding slits.
 
@@ -37,7 +37,7 @@ The bands vanish.
 
 ![Thomas Young's drawing of interference: two sets of circular waves spreading from narrow openings at A and B cross each other, and where crests meet crests, lines of reinforcement run out to the points C, D, E and F on the right](young.png)
 
-**Thomas Young** showed the bands with light in London in 1803, and drew
+**[Thomas Young](kloom:e/thomas-young-scientist)** showed the bands with light in [London](kloom:e/london) in 1803, and drew
 them as crossing waves. The quantum version is stranger. In 1961 **Claus
 Jönsson** at Tübingen did the experiment with a beam of electrons, and in
 1974 **Pier Giorgio Merli**, **Gian Franco Missiroli** and **Giulio Pozzi**
@@ -61,14 +61,14 @@ source and wall. There are no screens any more. What remains is the rule:
 to get from the source to a point, the light, or the electron, takes every
 possible route through empty space, and the arrows of all of them are
 added. That is the path integral, arrived at without a formula. The telling
-is **A. Zee**'s, from the opening of his textbook _Quantum Field Theory in a
+is **[A. Zee](kloom:e/anthony-zee)**'s, from the opening of his textbook _Quantum Field Theory in a
 Nutshell_ (2003), where a student asks the professor what happens with more
 holes; the rule it arrives at is Feynman's second postulate.
 
 For a particle with mass the arrow of each path is turned by its action,
 not its length, but the arithmetic is the same. Feynman told the whole of
 quantum electrodynamics this way, with little arrows and no equations, in
-his 1985 book _QED_.
+his 1985 book [_QED_](kloom:e/qed-the-strange-theory-of-light-and-matter).
 
 The rule has a puzzle in it. A thrown ball also has every path open to it,
 yet it follows one. Why the others disappear is the classical limit.

@@ -1,4 +1,4 @@
-By the time he was eleven or twelve, Feynman had a laboratory. It began as junk on
+By the time he was eleven or twelve, [Feynman](kloom:e/richard-feynman) had a laboratory. It began as junk on
 his bedroom floor and moved into an old packing case that his father brought
 home, a crate from a radio about five feet long. In it went a storage
 battery, motors from an Erector set, a photoelectric cell, switches, lamp
@@ -11,7 +11,7 @@ He ran wires through the house so that he could plug his earphones into his
 radio from any room, and pipe sound the other way, to a loudspeaker
 upstairs, to broadcast to whoever was there. He built a burglar alarm while
 his parents were out for the day. He listened to _The Shadow_ all night
-on a **crystal set**, the simplest receiver there is: an aerial, a coil and a
+on a **[crystal set](kloom:e/crystal-radio)**, the simplest receiver there is: an aerial, a coil and a
 variable condenser to tune it, a crystal with a fine wire touching it to
 pull the sound out of the signal, and a pair of headphones. The plate draws
 one, with the resonance curve that tuning chooses. No battery is needed; the
@@ -26,9 +26,9 @@ and spending the money on more junk for the laboratory.
 
 ## The story he told
 
-In _"Surely You're Joking, Mr. Feynman!"_ (1985), the memoir made from
-Feynman's stories as Ralph Leighton recorded them, the first chapter is about this trade,
-and gives the frame its headline. During the Depression, he says, people
+In [_"Surely You're Joking, Mr. Feynman!"_](kloom:e/surely-youre-joking-mr-feynman) (1985), the memoir made from
+Feynman's stories as [Ralph Leighton](kloom:e/ralph-leighton) recorded them, the first chapter is about this trade,
+and gives the frame its headline. During the [Depression](kloom:e/great-depression), he says, people
 hired a boy because he was cheap. One man had a set that roared horribly
 for a moment every time it was switched on. Feynman walked up and down,
 thinking, while the man grew impatient at a boy who thought instead of
@@ -45,7 +45,7 @@ underlying habit.
 
 The habit showed in how he read formulas. A friend's book gave eight or so
 formulas for current, voltage, resistance and power. Feynman saw that most
-were restatements of each other: from Ohm's law and the rule that power is
+were restatements of each other: from [Ohm's law](kloom:e/ohms-law) and the rule that power is
 voltage times current, the rest follow. Nobody had taught him that letters
 could stand for amperes and volts. He worked it out.
 
@@ -65,6 +65,6 @@ interested, he said, in how mathematics connects to physics: that a formula
 means nothing unless there is some way to make something go.
 
 The circle was in time, not in the coil: the current swings back and
-forth, and one full swing is a turn of 2π in its phase. A teacher at Far
-Rockaway High was about to show him that physics could be written in a
+forth, and one full swing is a turn of 2π in its phase. A teacher at [Far
+Rockaway High](kloom:e/far-rockaway-high-school) was about to show him that physics could be written in a
 stranger way still.

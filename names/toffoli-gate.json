@@ -1,0 +1,8 @@
+{
+	"id": "toffoli-gate",
+	"wikidata": "Q2502619",
+	"name": "Toffoli gate",
+	"aliases": ["controlled controlled NOT", "CCNOT"],
+	"kind": "idea",
+	"description": "The reversible three-bit gate that flips one bit when both others are 1, universal for reversible computing and a staple of quantum circuits."
+}

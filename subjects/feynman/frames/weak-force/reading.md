@@ -1,4 +1,4 @@
-For most of his career Feynman had improved other people's laws. Quantum
+For most of his career [Feynman](kloom:e/richard-feynman) had improved other people's laws. Quantum
 electrodynamics, he said in 1966, was essentially the theory of Dirac and
 Pauli with better ways of calculating. In the summer of 1957 he found, for
 a night or two, a law of nature that he believed nobody else knew, and he
@@ -8,7 +8,7 @@ the credit was shared is still argued over.
 ## The mirror breaks
 
 The trouble began with two particles, the _theta_ and the _tau_, which had
-the same mass but decayed in ways that implied opposite **parity**, the
+the same mass but decayed in ways that implied opposite **[parity](kloom:e/parity-physics)**, the
 property that tells whether a process looks the same in a mirror. At the
 Rochester conference in April 1956 Feynman's room-mate, the experimenter
 **Martin Block**, asked him what would go wrong if parity were simply not
@@ -16,9 +16,9 @@ conserved. Feynman put the question to the meeting in Block's name; the
 proceedings record it. He thought it possible but unlikely, and by his own
 account he bet the physicist Norman Ramsey fifty to one against it.
 
-In October 1956 **Tsung-Dao Lee** and **Chen-Ning Yang** pointed out that
+In October 1956 **[Tsung-Dao Lee](kloom:e/tsung-dao-lee)** and **[Chen-Ning Yang](kloom:e/yang-chen-ning)** pointed out that
 parity conservation had never been tested in weak decays, and proposed
-experiments. **Chien-Shiung Wu** of Columbia did the first, at the National
+experiments. **[Chien-Shiung Wu](kloom:e/chien-shiung-wu)** of Columbia did the first, at the National
 Bureau of Standards in Washington with Ernest Ambler and his colleagues.
 They lined up the spins of cobalt-60 nuclei in a magnetic field at about
 0.01 kelvin and counted the electrons of their beta decay. The electrons
@@ -34,7 +34,7 @@ together on 15 February 1957. Lee and Yang had the Nobel Prize that year.
 
 ## Vector minus axial
 
-The question now was the form of the weak force. At the next Rochester
+The question now was the form of the [weak force](kloom:e/weak-interaction). At the next Rochester
 conference, in April 1957, Feynman stayed with his sister **Joan**, an
 astrophysicist in Syracuse, who told him to stop guessing and work through
 Lee and Yang's paper step by step. He saw another way to write it, from a
@@ -44,7 +44,7 @@ _vector_ and an _axial vector_ (V and A); the experiments of the day said
 _scalar_ and _tensor_. He dropped it.
 
 Back at Caltech that summer the beta-decay experimenters told him the data
-were a mess, and that **Murray Gell-Mann** thought it might even be vector
+were a mess, and that **[Murray Gell-Mann](kloom:e/murray-gell-mann)** thought it might even be vector
 after all. That released it, Feynman said. He worked through the night,
 found the muon's and the neutron's decay rates agreed with each other to
 within 9 per cent, then learned that a new measurement shifted the constant
@@ -61,8 +61,8 @@ wrong. Within a few years they had been redone and agreed.
 
 ## Two teams, one law
 
-**George Sudarshan**, a graduate student at Rochester, and his adviser
-**Robert Marshak** had reached V − A by the April 1957 conference, by
+**[George Sudarshan](kloom:e/e-c-george-sudarshan)**, a graduate student at Rochester, and his adviser
+**[Robert Marshak](kloom:e/robert-marshak)** had reached V − A by the April 1957 conference, by
 Marshak's account, but did not present it. In early July they explained it
 at a lunch at Caltech that Gell-Mann attended. Their paper for a conference
 at Padua and Venice in late September is dated, like the Feynman–Gell-Mann

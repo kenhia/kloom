@@ -1,6 +1,6 @@
-A day or so after the blackboard, Feynman remembered in his Nobel lecture,
+A day or so after the blackboard, [Feynman](kloom:e/richard-feynman) remembered in his Nobel lecture,
 he was lying in bed wondering how to carry a wave function not one short
-step forward but a long way. One factor of Dirac's exponential carried it
+step forward but a long way. One factor of [Dirac](kloom:e/paul-dirac)'s exponential carried it
 one step; another carried it the next. A product of exponentials is the
 exponential of a sum, and a sum of the Lagrangian over many small steps of
 time is the action. The amplitude to go from one place and time to another
@@ -11,9 +11,9 @@ directly in terms of the action.
 ## Two postulates
 
 He used the method in his thesis in 1942, and published it as "Space-Time Approach to Non-Relativistic Quantum Mechanics" in
-_Reviews of Modern Physics_ in April 1948, from **Cornell**. The paper's
+[_Reviews of Modern Physics_](kloom:e/reviews-of-modern-physics) in April 1948, from **[Cornell](kloom:e/cornell-university)**. The paper's
 first sentence recalls that quantum mechanics began with two quite
-different formulations, Schrödinger's and Heisenberg's; this, it says, is
+different formulations, Schrödinger's and [Heisenberg](kloom:e/werner-heisenberg)'s; this, it says, is
 essentially a third.
 
 It rests on two postulates. The first says that when an experiment could
@@ -31,12 +31,12 @@ To make "every path" mean something, he sliced time into steps of length
 ε, let a path be its positions at each step, integrated over all of them,
 and took ε to zero at the end. The sum over all paths arriving at a point
 from the past is the wave function. Expanding for one short step, as in the
-library at Princeton, shows that it obeys Schrödinger's equation, so the new
+library at Princeton, shows that it obeys [Schrödinger's equation](kloom:e/schrodinger-equation), so the new
 formulation predicts exactly what the old ones do. The paper then relates
 it to matrices and operators, and ends with what Feynman wanted it for: in
 a sum over paths, one part of a system can be integrated away. The field
 oscillators of electrodynamics could be removed, leaving charges acting on
-one another across time, as in the absorber theory.
+one another across time, as in the [absorber theory](kloom:e/wheelerfeynman-absorber-theory).
 
 | Formulation        | First published | What it describes                                        |
 | ------------------ | --------------- | -------------------------------------------------------- |
@@ -56,7 +56,7 @@ Feynman told the story of its publication to Charles Weiner in June 1966.
 He wrote it up while staying for some weeks with a friend in Pittsburgh,
 recasting it again and again until it rested on axioms, and sent it to the
 _Physical Review_. It came back: too long, and the first part, the
-editors said, was already well known. **Hans Bethe** showed him the trick of
+editors said, was already well known. **[Hans Bethe](kloom:e/hans-bethe)** showed him the trick of
 answering that: say plainly which parts are old and which are new, and
 shorten a little in the direction asked, rather than cutting the whole
 thing. The _Physical Review_ suggested _Reviews of Modern Physics_, and

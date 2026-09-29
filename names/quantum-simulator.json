@@ -1,0 +1,9 @@
+{
+	"id": "quantum-simulator",
+	"wikidata": "Q7269096",
+	"name": "Quantum simulator",
+	"aliases": ["quantum simulation"],
+	"kind": "idea",
+	"description": "A controllable quantum system used to imitate another, the use of quantum computers Feynman proposed in 1981.",
+	"home": "feynman/simulating-physics"
+}

@@ -1,0 +1,8 @@
+{
+	"id": "lattice-qcd",
+	"wikidata": "Q6166044",
+	"name": "Lattice QCD",
+	"aliases": ["lattice QCD"],
+	"kind": "idea",
+	"description": "The theory of quarks and gluons computed on a grid of points in space and time, by sampling the path integral on supercomputers."
+}

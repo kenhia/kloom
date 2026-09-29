@@ -1,20 +1,20 @@
 Censoring the mail of people inside the United States was not something
-the Army could simply order. At Los Alamos it began, according to the
+the Army could simply order. At [Los Alamos](kloom:e/los-alamos-national-laboratory) it began, according to the
 laboratory's official history, with a rumour in 1943 that letters were
-already being opened. The director protested to General Groves, whose
+already being opened. The director protested to General [Groves](kloom:e/leslie-groves), whose
 investigation found nothing; but by then many of the scientists wanted
 official censorship rather than a suspicion of the unofficial kind, and it
 began in **December 1943**. It was done by a standard military censorship
-office in Santa Fe, under the laboratory's intelligence officer, Captain
-**Peer de Silva**.
+office in [Santa Fe](kloom:e/santa-fe-new-mexico), under the laboratory's intelligence officer, Captain
+**[Peer de Silva](kloom:e/peer-de-silva)**.
 
 Because it was delicate, it was set up as a voluntary agreement. Outgoing
 letters were left unsealed; the censor sealed those that passed and sent
 back the rest, citing the paragraph they broke. Incoming letters could be
 opened and read but, the scientists were promised, not otherwise touched.
-Criticism of the administration was expressly allowed. Feynman told the
+Criticism of the administration was expressly allowed. [Feynman](kloom:e/richard-feynman) told the
 story of what happened next twice, in 1966 and in 1975, and it is the
-comic half of his letters with **Arline**, who wrote to him from her sanatorium
+comic half of his letters with **[Arline](kloom:e/arline-feynman)**, who wrote to him from her sanatorium
 bed as often as he wrote to her, several times a week.
 
 ## Codes without keys
@@ -61,7 +61,7 @@ full of powdered Pepto-Bismol, never sent.
 
 Being the censor's most frequent customer, he said, he knew better than
 anyone what would get through, and won bets on it. When one of his
-group's young men, **John Kemeny**, was woken at night and questioned by
+group's young men, **[John Kemeny](kloom:e/john-g-kemeny)**, was woken at night and questioned by
 Army security about his father, Feynman described it in a letter as a
 complaint about the administration, which was allowed. When he found holes
 in the outer fence that the construction workers used as short cuts, he
@@ -71,8 +71,8 @@ could not stop it without admitting the holes, so, he said, the only thing
 to do was mend them.
 
 The official history confirms the censorship and its date, and his
-letters to Arline from these years were published in 2005 in _Perfectly
-Reasonable Deviations from the Beaten Track_. The skirmishes are his
+letters to Arline from these years were published in 2005 in [_Perfectly
+Reasonable Deviations from the Beaten Track_](kloom:e/perfectly-reasonable-deviations-from-the-beaten-track). The skirmishes are his
 telling.
 Locks were his other way of making the same point, and the trail's next
 frame: **safecracking**.

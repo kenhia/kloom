@@ -1,20 +1,20 @@
-In September 1961 about 180 new Caltech students filed into the lecture
+In September 1961 about 180 new [Caltech](kloom:e/california-institute-of-technology) students filed into the lecture
 hall of the **Norman Bridge Laboratory of Physics** for the first physics
-lecture of their college lives, and found **Richard
-Feynman** at the bench. For two years, twice a week, he taught them all of
+lecture of their college lives, and found **[Richard
+Feynman](kloom:e/richard-feynman)** at the bench. For two years, twice a week, he taught them all of
 physics, from atoms to quantum mechanics. It was the only time he taught
-undergraduates a regular course, and the lectures became the most widely
+undergraduates a regular course, and the [lectures](kloom:e/the-feynman-lectures-on-physics) became the most widely
 read thing he made.
 
 ## Why Caltech asked him
 
 Caltech's introductory course was old-fashioned. It ran on a 1937 textbook
-by Millikan and two colleagues, had no lectures at all, and showed the
+by [Millikan](kloom:e/robert-millikan) and two colleagues, had no lectures at all, and showed the
 students almost nothing of twentieth-century physics in two years.
-**Matthew Sands**, who had known Feynman since Los Alamos, found that good
+**[Matthew Sands](kloom:e/matthew-sands)**, who had known Feynman since [Los Alamos](kloom:e/los-alamos-national-laboratory), found that good
 students were losing heart by then, and pushed the department to reform
 the course. The Ford Foundation paid for it, and a committee under
-**Robert Leighton** was to design it. Sands and Leighton could not agree on
+**[Robert Leighton](kloom:e/robert-b-leighton)** was to design it. Sands and Leighton could not agree on
 a syllabus: Leighton thought Sands's modern physics too much for freshmen.
 So Sands asked Feynman to give the lectures himself. Feynman asked whether
 a great physicist had ever taught freshmen, heard that Sands thought not,
@@ -64,7 +64,7 @@ Sands put at about 65 per cent, Feynman dictated a preface into Sands's
 Dictaphone that said, in one line, "I don't think I did very well by the
 students." A review in Caltech's _Engineering and Science_ in 1964 said that
 test results and letters to the student paper showed some freshmen were
-baffled. In a preface of 1989, **David Goodstein** and **Gerry Neugebauer**
+baffled. In a preface of 1989, **[David Goodstein](kloom:e/david-goodstein)** and **Gerry Neugebauer**
 wrote that attendance by registered students fell sharply while graduate
 students and faculty filled the seats. Sands, who sat at the back of nearly
 every lecture, answered in 2005 that perhaps a fifth stayed away, as in any

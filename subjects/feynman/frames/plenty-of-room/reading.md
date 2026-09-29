@@ -1,10 +1,10 @@
 On 29 December 1959, at the annual meeting of the American Physical Society,
-held that year at Caltech, Feynman gave a talk called **"There's Plenty of
-Room at the Bottom"**. Caltech's magazine _Engineering and Science_ printed
+held that year at [Caltech](kloom:e/california-institute-of-technology), [Feynman](kloom:e/richard-feynman) gave a talk called **"[There's Plenty of
+Room at the Bottom](kloom:e/theres-plenty-of-room-at-the-bottom)"**. Caltech's magazine _Engineering and Science_ printed
 a transcript in February 1960 under the subtitle "An invitation to enter a
 new field of physics". The field was the manipulation of matter on a very
 small scale, and he asked why nobody was doing it. Since the 1990s the talk
-has been called the founding text of **nanotechnology**. Whether it founded
+has been called the founding text of **[nanotechnology](kloom:e/nanotechnology)**. Whether it founded
 anything is another question.
 
 ## Pinheads and atoms
@@ -22,13 +22,13 @@ Then he went further. Written as a code in three dimensions, with a cube
 of 5 × 5 × 5 atoms for each bit, all the information in the world's books,
 some 10¹⁵ bits by his estimate, would fit in a speck of dust one
 two-hundredth of an inch wide. Biology already stored information like
-that, he pointed out, in DNA. The rest of the talk ranged over:
+that, he pointed out, in [DNA](kloom:e/dna). The rest of the talk ranged over:
 
 - **better electron microscopes**, a hundred times sharper, so that biologists
   could simply look at the order of the bases in DNA;
 - **computers** with wires ten or a hundred atoms across, and so many more
   elements that they might, like a brain, recognise a face;
-- a friend's idea, **Albert Hibbs**'s, of a surgeon you could swallow;
+- a friend's idea, **[Albert Hibbs](kloom:e/albert-hibbs)**'s, of a surgeon you could swallow;
 - sets of **mechanical hands**, each building a set a quarter its size, down
   to a billion tiny factories;
 - and, at the end, **arranging atoms one by one**, making any chemical
@@ -64,8 +64,8 @@ the chip. Feynman paid in November 1985.
 
 The anthropologist **Chris Toumey** asked that question in 2005 and
 answered it with a citation count. In the Science Citation Index he found
-three citations of the talk in the 1960s and four in the 1970s. **Eric
-Drexler** found it through a 1979 article in _Physics Today_ while writing
+three citations of the talk in the 1960s and four in the 1970s. **[Eric
+Drexler](kloom:e/k-eric-drexler)** found it through a 1979 article in _Physics Today_ while writing
 his 1981 paper on molecular engineering, cited it there, and made it famous in his 1986
 book _Engines of Creation_. Citations reached double figures in a year
 only in 1992.
@@ -79,14 +79,14 @@ only in 1992.
 | 13 years after Drexler's 1981 | 63              |
 
 Toumey also asked the inventors. Gerd Binnig and Heinrich Rohrer, whose
-scanning tunnelling microscope of the early 1980s first let people see and
+[scanning tunnelling microscope](kloom:e/scanning-tunneling-microscope) of the early 1980s first let people see and
 move single atoms, had not heard of the talk until after their work was
 recognised; Calvin Quate, of the atomic force microscope, had not read it.
 Don Eigler, who spelled "IBM" in xenon atoms in 1990, had read it years
 before but said it had not shaped his work. Toumey's conclusion was that the
 field grew from its instruments and was then given Feynman as a founder,
 largely through Drexler. Drexler, for his part, calls the talk the vision
-that launched nanotechnology. When President Clinton announced the
+that launched nanotechnology. When President [Clinton](kloom:e/bill-clinton) announced the
 National Nanotechnology Initiative at Caltech in January 2000, he quoted
 Feynman's question about arranging the atoms one by one.
 

@@ -1,15 +1,15 @@
-Most people who know one thing about Feynman know it from a book he did
-not exactly write. **_"Surely You're Joking, Mr. Feynman!" Adventures of
-a Curious Character_** was published by W. W. Norton in 1985 and became a
+Most people who know one thing about [Feynman](kloom:e/richard-feynman) know it from a book he did
+not exactly write. **[_"Surely You're Joking, Mr. Feynman!" Adventures of
+a Curious Character_](kloom:e/surely-youre-joking-mr-feynman)** was published by W. W. Norton in 1985 and became a
 surprise best-seller. Safecracking at Los Alamos, fixing radios by
 thinking, drumming in Rio, learning to draw: this subject keeps returning
 to it, and keeps saying "his telling". This frame is why.
 
 ## Made from tape
 
-The book is **Ralph Leighton**'s work as much as Feynman's. Leighton, the
-son of the Caltech physicist Robert Leighton who had turned the _Feynman
-Lectures_ into books, was Feynman's drumming partner. In his preface he
+The book is **[Ralph Leighton](kloom:e/ralph-leighton)**'s work as much as Feynman's. Leighton, the
+son of the Caltech physicist [Robert Leighton](kloom:e/robert-b-leighton) who had turned the [_Feynman
+Lectures_](kloom:e/the-feynman-lectures-on-physics) into books, was Feynman's drumming partner. In his preface he
 says the stories were collected intermittently and informally over seven
 years of drumming together. Feynman told them aloud; Leighton recorded
 and transcribed them; **Edward Hutchings**, long the editor of Caltech's
@@ -31,7 +31,7 @@ These are stories told for decades before they were taped, and they have
 the shape of stories that have been told many times: a setup, a clever
 turn, a line at the end. In nearly all of them Feynman is the plain man
 who sees through pretension. The science journalist George Johnson put it
-drily: Gell-Mann knew how to package ideas, while Feynman knew how to
+drily: [Gell-Mann](kloom:e/murray-gell-mann) knew how to package ideas, while Feynman knew how to
 "package himself".
 
 Some of it can be checked, and some cannot.
@@ -59,7 +59,7 @@ meet young women, and working on physics and drawing the dancers in a
 topless restaurant near his house.
 
 Criticism grew as the book became a shelf-staple of young scientists. In
-2014 the astrophysicist **Meg Urry**, writing on harassment in science,
+2014 the astrophysicist **[Meg Urry](kloom:e/meg-urry)**, writing on harassment in science,
 cited his tips for picking up women, and the same summer science writers
 argued in public over whether the era excused him; the frame _The legend_
 follows that argument. His defenders point to the chapter's own ending,
@@ -70,4 +70,4 @@ these are his own words, chosen for publication, and this subject reads
 them that way.
 
 In the same year the memoir appeared, he published a very different kind
-of book: _QED_, physics for a general audience, drawn in little arrows.
+of book: [_QED_](kloom:e/qed-the-strange-theory-of-light-and-matter), physics for a general audience, drawn in little arrows.

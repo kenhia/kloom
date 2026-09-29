@@ -3,19 +3,19 @@ is brought together, neutrons multiply through it faster and faster; the
 energy they release heats the metal and drives it outward; and as it
 expands the neutrons escape more easily, until the chain reaction stops.
 Everything the bomb will ever release happens in that short race. The
-first question Los Alamos had to answer was how much of the material would
+first question [Los Alamos](kloom:e/los-alamos-national-laboratory) had to answer was how much of the material would
 fission before the race was lost: the bomb's _efficiency_.
 
 ## From Serber's lectures to a formula
 
-In April 1943 **Robert Serber** gave the new laboratory five lectures on
-the bomb, typed up as its first report, the _Los Alamos Primer_. They
+In April 1943 **[Robert Serber](kloom:e/robert-serber)** gave the new laboratory five lectures on
+the bomb, typed up as its first report, the [_Los Alamos Primer_](kloom:e/los-alamos-primer). They
 included an estimate of the efficiency for an assembly only a little over
 critical, made at Berkeley the summer before. It was rough, and Serber
-later recalled Oppenheimer's displeasure with how casually it treated the
+later recalled [Oppenheimer](kloom:e/j-robert-oppenheimer)'s displeasure with how casually it treated the
 expansion.
 
-Through 1943 **Hans Bethe** and Feynman worked out something better. The
+Through 1943 **[Hans Bethe](kloom:e/hans-bethe)** and [Feynman](kloom:e/richard-feynman) worked out something better. The
 laboratory's official history, written in 1946 and 1947, describes the
 steps. Feynman's group, **T-4**, calculated efficiencies for masses far
 above critical, using results from Serber's group on how quickly the
@@ -50,8 +50,8 @@ supplied.
 
 The numbers are the 2021 paper's worked example, not a real weapon. It
 shows how little room there is: a swelling of a tenth of the radius ends
-the reaction. The same paper points out that **Otto Frisch** and **Rudolf
-Peierls** had written down a formula of the same shape in Birmingham in
+the reaction. The same paper points out that **[Otto Frisch](kloom:e/otto-robert-frisch)** and **[Rudolf
+Peierls](kloom:e/rudolf-peierls)** had written down a formula of the same shape in Birmingham in
 1940, and Serber's differed only in the number in front: about 0.2 for
 Frisch and Peierls, a third for Serber. There is no sign that Bethe and
 Feynman knew of the British memorandum, although Peierls later worked in
@@ -67,7 +67,7 @@ calculations took an inordinate share of their time that year. In his own
 account Feynman had taken the design on before he arrived, working out
 what it would take and what could be measured with it, and doing sums in a
 truck cab while he waited at the gate. The critical mass itself was
-**Robert Christy**'s calculation, and it was remarkably good.
+**[Robert Christy](kloom:e/robert-f-christy)**'s calculation, and it was remarkably good.
 
 | Water Boiler, grams of uranium-235 to go critical | Grams |
 | ------------------------------------------------- | ----- |
