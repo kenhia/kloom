@@ -1,0 +1,180 @@
+{
+	"id": "lectures-on-computation",
+	"position": {
+		"label": "1983–96",
+		"sort": 1996
+	},
+	"scene": {
+		"headline": "He asked what a bit",
+		"accent": "COSTS.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CALTECH · POTENTIALITIES AND LIMITATIONS OF COMPUTING MACHINES",
+			"EDITED BY TONY HEY AND ROBIN ALLEN · 1996"
+		],
+		"counter": {
+			"value": "kT ln 2",
+			"label": "the least heat to erase one bit: about 3 × 10⁻²¹ J at room temperature"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Feynman Lectures on Computation",
+			"url": "https://openlibrary.org/works/OL514615W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"publisher": "Addison-Wesley",
+			"place": "Reading, MA",
+			"published": "1996",
+			"note": "The course's dates and contents, from the publisher's description and the 2023 edition's table of contents",
+			"editors": [
+				{
+					"family": "Hey",
+					"given": "Anthony J. G."
+				},
+				{
+					"family": "Allen",
+					"given": "Robin W."
+				}
+			]
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Richard Feynman and Computation",
+			"doi": "10.1080/001075199181459",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hey",
+					"given": "Tony"
+				}
+			],
+			"container": "Contemporary Physics",
+			"volume": "40",
+			"issue": "4",
+			"pages": "257–265",
+			"published": "1999-07"
+		},
+		{
+			"kind": "web",
+			"title": "The Feynman Lectures on Computation (catalogue record and abstract)",
+			"url": "https://eprints.soton.ac.uk/251763/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hey",
+					"given": "A. J. G."
+				},
+				{
+					"family": "Allen",
+					"given": "R. W."
+				}
+			],
+			"container": "ePrints Soton",
+			"publisher": "University of Southampton",
+			"published": "1996"
+		},
+		{
+			"kind": "web",
+			"title": "Feynman Lectures on Computation: Anniversary Edition",
+			"url": "https://www.routledge.com/Feynman-Lectures-on-Computation-Anniversary-Edition/Hey/p/book/9780367857332",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hey",
+					"given": "Tony"
+				}
+			],
+			"container": "Routledge (Taylor & Francis)",
+			"published": "2023"
+		},
+		{
+			"kind": "article",
+			"title": "The Science and Legacy of Richard Phillips Feynman",
+			"url": "https://arxiv.org/abs/1810.07409",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dhar",
+					"given": "Avinash"
+				},
+				{
+					"family": "Patel",
+					"given": "Apoorva D."
+				},
+				{
+					"family": "Wadia",
+					"given": "Spenta R."
+				}
+			],
+			"container": "arXiv preprint arXiv:1810.07409",
+			"published": "2018-10"
+		},
+		{
+			"kind": "web",
+			"title": "Celebrating Richard Feynman at TEDxCaltech",
+			"url": "https://www.microsoft.com/en-us/research/blog/celebrating-richard-feynman-at-tedxcaltech/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hey",
+					"given": "Tony"
+				}
+			],
+			"container": "Microsoft Research Blog",
+			"publisher": "Microsoft",
+			"published": "2011-02-04"
+		},
+		{
+			"kind": "article",
+			"title": "Quantum Computing 40 Years Later",
+			"url": "https://arxiv.org/abs/2106.10522",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Preskill",
+					"given": "John"
+				}
+			],
+			"container": "arXiv preprint arXiv:2106.10522",
+			"published": "2021-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Landauer's principle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Landauer's_principle&oldid=1376477582",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reversible computing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reversible_computing&oldid=1376474147",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="t d">
+<title id="t">Estimated physical qubits needed to factor a 2048-bit RSA number, 2012–2025</title>
+<desc id="d">Bar chart on a logarithmic scale of published estimates, under comparable physical assumptions, of the number of noisy physical qubits a surface-code quantum computer would need to factor a 2048-bit RSA integer with Shor's algorithm. Jones et al. (2012): about 600 million. Fowler et al. (2012): about 1 billion. O'Gorman and Campbell (2017): about 230 million. Gheorghiu and Mosca (2019): about 170 million. Gidney and Ekerå (2019): 20 million. Gidney (2025): 897,864, in under a week. The first four values are read off Gidney's 2025 figure and are approximate. Data: Gidney, arXiv:2505.15917, figure 1 and section 3.2.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="540" y1="202.2" y2="202.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="206.2" text-anchor="end">1 M</text>
+<line x1="64" x2="540" y1="154.4" y2="154.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="158.4" text-anchor="end">10 M</text>
+<line x1="64" x2="540" y1="106.6" y2="106.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="110.6" text-anchor="end">100 M</text>
+<line x1="64" x2="540" y1="58.8" y2="58.8" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="62.8" text-anchor="end">1 bn</text>
+</g>
+<rect x="79.7" y="69.4" width="48" height="180.6" fill-opacity="0.85"/>
+<text x="103.7" y="63.4" text-anchor="middle">~600 M</text>
+<text x="103.7" y="266" text-anchor="middle">Jones</text>
+<text x="103.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2012</text>
+<rect x="159.0" y="58.8" width="48" height="191.2" fill-opacity="0.85"/>
+<text x="183.0" y="52.8" text-anchor="middle">~1 bn</text>
+<text x="183.0" y="266" text-anchor="middle">Fowler</text>
+<text x="183.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2012</text>
+<rect x="238.3" y="89.3" width="48" height="160.7" fill-opacity="0.85"/>
+<text x="262.3" y="83.3" text-anchor="middle">~230 M</text>
+<text x="262.3" y="266" text-anchor="middle">O'Gorman</text>
+<text x="262.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2017</text>
+<rect x="317.7" y="95.6" width="48" height="154.4" fill-opacity="0.85"/>
+<text x="341.7" y="89.6" text-anchor="middle">~170 M</text>
+<text x="341.7" y="266" text-anchor="middle">Gheorghiu</text>
+<text x="341.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2019</text>
+<rect x="397.0" y="140.0" width="48" height="110.0" fill-opacity="0.85"/>
+<text x="421.0" y="134.0" text-anchor="middle">20 M</text>
+<text x="421.0" y="266" text-anchor="middle">Gidney–Ekerå</text>
+<text x="421.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2019</text>
+<rect x="476.3" y="204.4" width="48" height="45.6" class="accent" fill="currentColor"/>
+<text x="500.3" y="198.4" text-anchor="middle">0.9 M</text>
+<text x="500.3" y="266" text-anchor="middle">Gidney</text>
+<text x="500.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2025</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">PHYSICAL QUBITS TO FACTOR RSA-2048 · MILLIONS · LOG SCALE</text>
+</g></svg>

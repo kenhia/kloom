@@ -1,0 +1,34 @@
+{
+	"title": "Estimated physical qubits needed to factor a 2048-bit RSA number, 2012–2025",
+	"description": "Bar chart on a logarithmic scale of published estimates, under comparable physical assumptions, of the number of noisy physical qubits a surface-code quantum computer would need to factor a 2048-bit RSA integer with Shor's algorithm. Jones et al. (2012): about 600 million. Fowler et al. (2012): about 1 billion. O'Gorman and Campbell (2017): about 230 million. Gheorghiu and Mosca (2019): about 170 million. Gidney and Ekerå (2019): 20 million. Gidney (2025): 897,864, in under a week. The first four values are read off Gidney's 2025 figure and are approximate. Data: Gidney, arXiv:2505.15917, figure 1 and section 3.2.",
+	"heading": "PHYSICAL QUBITS TO FACTOR RSA-2048 · MILLIONS · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 0.1,
+		"max": 3000,
+		"ticks": [
+			[1, "1 M"],
+			[10, "10 M"],
+			[100, "100 M"],
+			[1000, "1 bn"]
+		]
+	},
+	"width": 560,
+	"height": 300,
+	"barWidth": 48,
+	"bars": [
+		{ "label": "Jones", "sublabel": "2012", "value": 600, "display": "~600 M" },
+		{ "label": "Fowler", "sublabel": "2012", "value": 1000, "display": "~1 bn" },
+		{ "label": "O'Gorman", "sublabel": "2017", "value": 230, "display": "~230 M" },
+		{ "label": "Gheorghiu", "sublabel": "2019", "value": 170, "display": "~170 M" },
+		{ "label": "Gidney–Ekerå", "sublabel": "2019", "value": 20, "display": "20 M" },
+		{
+			"label": "Gidney",
+			"sublabel": "2025",
+			"value": 0.897864,
+			"display": "0.9 M",
+			"highlight": true
+		}
+	]
+}

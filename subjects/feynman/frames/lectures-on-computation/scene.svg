@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M14 140 L212 140"/>
+		<path pathLength="1" d="M107 78 L107 202"/>
+		<path pathLength="1" d="M257 234 L257 84 M282 234 L282 84 M307 234 L307 84 M332 234 L332 84 M357 234 L357 84 M382 234 L382 84"/>
+		<path pathLength="1" d="M232 204 L382 204 M232 174 L382 174 M232 144 L382 144 M232 114 L382 114 M232 84 L382 84"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M190 104 L24 104 L24 176 L190 176"/>
+		<path pathLength="1" d="M107 106 L107 174"/>
+		<path pathLength="1" d="M107 140 L208 140"/>
+		<path pathLength="1" d="M208 128 L208 152"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M51 132 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M56 132 L38 116 L80 112 L98 150 L44 168 L70 124 L92 118"/>
+		<path pathLength="1" d="M188 106 L188 174"/>
+		<path pathLength="1" d="M117.3 91.5 L113 94 L117.3 96.5"/>
+		<path pathLength="1" d="M113 94 L188 94"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M232 234 L388 234"/>
+		<path pathLength="1" d="M232 234 L232 76"/>
+		<path pathLength="1" d="M384.5 236 L388 234 L384.5 232"/>
+		<path pathLength="1" d="M234 79.5 L232 76 L230 79.5"/>
+		<path pathLength="1" d="M262 91.5 L263.5 98.3 L265 104.5 L266.5 110.1 L268 115.2 L269.5 120 L271 124.4 L272.5 128.4 L274 132.2 L275.5 135.7 L277 139 L278.5 142.1 L280 144.9 L281.5 147.6 L283 150.2 L284.5 152.6 L286 154.8 L287.5 157 L289 159 L290.5 160.9 L292 162.8 L293.5 164.5 L295 166.1 L296.5 167.7 L298 169.2 L299.5 170.7 L301 172 L302.5 173.4 L304 174.6 L305.5 175.8 L307 177 L308.5 178.1 L310 179.2 L311.5 180.2 L313 181.2 L314.5 182.2 L316 183.1 L317.5 184 L319 184.9 L320.5 185.7 L322 186.5 L323.5 187.3 L325 188 L326.5 188.8 L328 189.5 L329.5 190.2 L331 190.8 L332.5 191.5 L334 192.1 L335.5 192.7 L337 193.3 L338.5 193.9 L340 194.4 L341.5 195 L343 195.5 L344.5 196 L346 196.5 L347.5 197 L349 197.5 L350.5 197.9 L352 198.4 L353.5 198.8 L355 199.2 L356.5 199.7 L358 200.1 L359.5 200.5 L361 200.9 L362.5 201.2 L364 201.6 L365.5 202 L367 202.3 L368.5 202.7 L370 203 L371.5 203.4 L373 203.7 L374.5 204 L376 204.3 L377.5 204.6 L379 204.9 L380.5 205.2 L382 205.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M307 234 L307 177 M313.2 234 L313.2 181.4 M319.5 234 L319.5 185.1 M325.8 234 L325.8 188.4 M332 234 L332 191.2 M338.2 234 L338.2 193.8 M344.5 234 L344.5 196 M350.8 234 L350.8 198 M357 234 L357 199.8 M363.2 234 L363.2 201.4 M369.5 234 L369.5 202.9 M375.8 234 L375.8 204.3 M382 234 L382 205.5"/>
+	</g>
+	<g>
+		<text x="65.5" y="194" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="148.5" y="194" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="307" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">V/2</text>
+		<text x="382" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">V</text>
+		<text x="236" y="72" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PRESSURE</text>
+		<text x="352" y="159" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">W = kT ln 2</text>
+		<text x="107" y="74" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ERASE: PUSH THE BIT INTO 0</text>
+		<text x="200" y="282" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE MOLECULE · ONE BIT · THE LEAST HEAT TO FORGET IT</text>
+	</g>
+</svg>
