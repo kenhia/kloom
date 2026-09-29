@@ -37,6 +37,18 @@
 			"title": "Transistors and mainframes",
 			"labelKind": "date",
 			"frames": ["transistor", "whirlwind", "fortran", "time-sharing", "ibm-360", "minicomputer"]
+		},
+		{
+			"id": "shared-software",
+			"title": "Software, shared",
+			"labelKind": "technology",
+			"frames": ["unix", "free-software", "linux", "open-source"]
+		},
+		{
+			"id": "everywhere",
+			"title": "Computing everywhere",
+			"labelKind": "technology",
+			"frames": ["cloud"]
 		}
 	]
 }

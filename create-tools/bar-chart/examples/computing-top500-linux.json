@@ -1,0 +1,32 @@
+{
+	"title": "Systems on the TOP500 list of supercomputers running Linux, 1998–2026",
+	"description": "Bar chart of how many of the 500 systems on the TOP500 list ran an operating system of the Linux family, from TOP500's statistics by operating-system family. June 1998: 1. June 2000: 28. June 2002: 67. June 2003: 139. June 2005: 318. June 2008: 427. June 2013: 476. June 2017: 498. November 2017: 500. June 2026: 500. Data: TOP500.org, list statistics, operating system family.",
+	"heading": "TOP500 SUPERCOMPUTERS RUNNING LINUX · OF 500",
+	"unit": "",
+	"axis": {
+		"max": 500,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"],
+			[400, "400"],
+			[500, "500"]
+		]
+	},
+	"width": 560,
+	"height": 300,
+	"barWidth": 36,
+	"bars": [
+		{ "label": "1998", "sublabel": "Jun", "value": 1 },
+		{ "label": "2000", "sublabel": "Jun", "value": 28 },
+		{ "label": "2002", "sublabel": "Jun", "value": 67 },
+		{ "label": "2003", "sublabel": "Jun", "value": 139 },
+		{ "label": "2005", "sublabel": "Jun", "value": 318 },
+		{ "label": "2008", "sublabel": "Jun", "value": 427 },
+		{ "label": "2013", "sublabel": "Jun", "value": 476 },
+		{ "label": "2017", "sublabel": "Jun", "value": 498 },
+		{ "label": "2017", "sublabel": "Nov", "value": 500 },
+		{ "label": "2026", "sublabel": "Jun", "value": 500, "highlight": true }
+	]
+}

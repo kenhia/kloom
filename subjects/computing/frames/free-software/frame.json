@@ -1,0 +1,273 @@
+{
+	"id": "free-software",
+	"position": {
+		"label": "Free software"
+	},
+	"scene": {
+		"headline": "We kept the source",
+		"accent": "FREE.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MIT AI LAB · CAMBRIDGE, MASSACHUSETTS · RICHARD STALLMAN",
+			"GNU, 1983 · FREE SOFTWARE FOUNDATION, 1985 · GNU GPL, 1989"
+		],
+		"counter": {
+			"value": "4",
+			"label": "essential freedoms, numbered from 0"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Initial Announcement",
+			"url": "https://www.gnu.org/gnu/initial-announcement.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Stallman",
+					"given": "Richard"
+				}
+			],
+			"container": "GNU Project",
+			"publisher": "Free Software Foundation",
+			"published": "1983-09-27",
+			"note": "“Free Unix!”, the post that began GNU"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The GNU Project",
+			"url": "https://www.gnu.org/gnu/thegnuproject.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Stallman",
+					"given": "Richard"
+				}
+			],
+			"container": "GNU Project",
+			"publisher": "Free Software Foundation",
+			"note": "Stallman’s own history: the AI Lab, Emacs tapes, copyleft, the FSF"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "What is Free Software?",
+			"url": "https://www.gnu.org/philosophy/free-sw.html",
+			"accessed": "2026-09-28",
+			"container": "GNU Project",
+			"publisher": "Free Software Foundation",
+			"note": "The four freedoms, and why they are numbered from 0"
+		},
+		{
+			"kind": "web",
+			"title": "GNU General Public License, version 1",
+			"url": "https://www.gnu.org/licenses/old-licenses/gpl-1.0.html",
+			"accessed": "2026-09-28",
+			"container": "GNU Project",
+			"publisher": "Free Software Foundation",
+			"published": "1989-02"
+		},
+		{
+			"kind": "web",
+			"title": "The GNU Manifesto",
+			"url": "https://www.gnu.org/gnu/manifesto.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Stallman",
+					"given": "Richard"
+				}
+			],
+			"container": "GNU Project",
+			"publisher": "Free Software Foundation"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Free Software Definition",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Free_Software_Definition&oldid=1376418772",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24",
+			"note": "Dates the three freedoms to 1996"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "GNU General Public License",
+			"url": "https://en.wikipedia.org/w/index.php?title=GNU_General_Public_License&oldid=1377288856",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Stallman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Stallman&oldid=1376839187",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GNU Project",
+			"url": "https://en.wikipedia.org/w/index.php?title=GNU_Project&oldid=1375043896",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Free Software Foundation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Free_Software_Foundation&oldid=1376418131",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GNU Manifesto",
+			"url": "https://en.wikipedia.org/w/index.php?title=GNU_Manifesto&oldid=1373166133",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GNU Emacs",
+			"url": "https://en.wikipedia.org/w/index.php?title=GNU_Emacs&oldid=1371833995",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GNU Compiler Collection",
+			"url": "https://en.wikipedia.org/w/index.php?title=GNU_Compiler_Collection&oldid=1375188309",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GNU Debugger",
+			"url": "https://en.wikipedia.org/w/index.php?title=GNU_Debugger&oldid=1371515154",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Glibc",
+			"url": "https://en.wikipedia.org/w/index.php?title=Glibc&oldid=1376310519",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bash (Unix shell)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bash_(Unix_shell)&oldid=1375188436",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GNU Hurd",
+			"url": "https://en.wikipedia.org/w/index.php?title=GNU_Hurd&oldid=1376624483",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "Richard Stallman speaking at MIT at the launch of the first draft of GPL version 3, January 2006",
+			"url": "https://commons.wikimedia.org/wiki/File:Stallman_GPLv3_launch_MIT_060116.jpg",
+			"accessed": "2026-09-28",
+			"container": "MIT, Cambridge, Massachusetts, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.5",
+			"file": "stallman-gplv3.jpg",
+			"authors": [
+				{
+					"name": "Pingswept"
+				}
+			],
+			"published": "2006-01-16"
+		}
+	]
+}

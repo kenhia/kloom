@@ -1,0 +1,23 @@
+{
+	"title": "Worldwide spending on cloud infrastructure services in the second quarter, 2023–2026",
+	"description": "Bar chart, billions of US dollars spent on cloud infrastructure services (IaaS, PaaS and hosted private cloud) worldwide in April to June of each year, as estimated by Synergy Research Group. 2023: about 65 (derived from Synergy's 2024 figure and its stated growth). 2024: 79.1. 2025: 98.8. 2026: 143.4. Data: Synergy Research Group press releases of 1 August 2024, 31 July 2025 and 30 July 2026.",
+	"heading": "CLOUD INFRASTRUCTURE SPENDING · APRIL–JUNE · $ BILLION",
+	"unit": "",
+	"axis": {
+		"max": 150,
+		"ticks": [
+			[0, "0"],
+			[50, "50"],
+			[100, "100"],
+			[150, "150"]
+		]
+	},
+	"bars": [
+		{ "label": "2023", "sublabel": "Q2", "value": 65.0, "display": "~65" },
+		{ "label": "2024", "sublabel": "Q2", "value": 79.1, "display": "79.1" },
+		{ "label": "2025", "sublabel": "Q2", "value": 98.8, "display": "98.8" },
+		{ "label": "2026", "sublabel": "Q2", "value": 143.4, "display": "143.4", "highlight": true }
+	],
+	"barWidth": 56,
+	"width": 480
+}
