@@ -1,0 +1,254 @@
+{
+	"id": "ibm-360",
+	"position": {
+		"label": "1964",
+		"sort": 1964
+	},
+	"scene": {
+		"headline": "We made one computer in six",
+		"accent": "SIZES.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": [
+			"IBM · ANNOUNCED 7 APRIL 1964",
+			"AMDAHL · BLAAUW · BROOKS",
+			"ONE ARCHITECTURE · THE 8-BIT BYTE · MICROCODE · DISKS"
+		],
+		"counter": {
+			"value": "$5 billion",
+			"label": "IBM’s cost for the System/360 over four years, in its own account"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Architecture of the IBM System/360",
+			"url": "https://www.ece.ucdavis.edu/~vojin/CLASSES/EEC272/S2005/Papers/IBM360-Amdahl_april64.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Amdahl",
+					"given": "G. M."
+				},
+				{
+					"family": "Blaauw",
+					"given": "G. A."
+				},
+				{
+					"family": "Brooks",
+					"given": "F. P., Jr."
+				}
+			],
+			"container": "IBM Journal of Research and Development",
+			"volume": "8",
+			"issue": "2",
+			"pages": "87–101",
+			"published": "1964-04",
+			"note": "The definition of architecture is on p. 87; the six models are fig. 1, p. 90"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The IBM System/360",
+			"url": "https://www.ibm.com/history/system-360",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "IBM"
+				}
+			],
+			"container": "IBM Heritage",
+			"note": "The $5 billion cost and the orders in the first month"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "IBM System/360",
+			"url": "https://en.wikipedia.org/w/index.php?title=IBM_System%2F360&oldid=1375880223",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "History of IBM magnetic disk drives",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_IBM_magnetic_disk_drives&oldid=1371991419",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"note": "The 350, 2311 and 2314"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Historical Price of Computer Memory and Storage",
+			"url": "https://ourworldindata.org/grapher/historical-cost-of-computer-memory-and-storage",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Our World in Data"
+				}
+			],
+			"container": "Our World in Data",
+			"note": "John C. McCallum’s prices, adjusted to 2020 dollars; the chart’s data"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Microcode",
+			"url": "https://en.wikipedia.org/w/index.php?title=Microcode&oldid=1374485777",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Byte",
+			"url": "https://en.wikipedia.org/w/index.php?title=Byte&oldid=1376631008",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gerrit Blaauw",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gerrit_Blaauw&oldid=1373949740",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fred Brooks",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fred_Brooks&oldid=1371995442",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "OS/360 and successors",
+			"url": "https://en.wikipedia.org/w/index.php?title=OS%2F360_and_successors&oldid=1367877334",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Mythical Man-Month",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Mythical_Man-Month&oldid=1354227795",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hard disk drive",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hard_disk_drive&oldid=1375252035",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16",
+			"note": "The $9,200 per megabyte of 1956, from a 1961 survey"
+		},
+		{
+			"kind": "media",
+			"title": "An IBM System/360 Model 30 at the Computer History Museum, Mountain View",
+			"url": "https://commons.wikimedia.org/wiki/File:IBM_System-360_Model_30_at_Computer_History_Museum,_Mountain_View.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "s360.jpg",
+			"authors": [
+				{
+					"name": "Alexey Komarov"
+				}
+			],
+			"published": "2014"
+		},
+		{
+			"kind": "media",
+			"title": "The mechanism of an IBM 350 disk drive at the Computer History Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:IBM_350_RAMAC_disk_mechanism.agr.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "ramac.jpg",
+			"authors": [
+				{
+					"name": "ArnoldReinhold"
+				}
+			],
+			"published": "2012-01-28"
+		},
+		{
+			"kind": "media",
+			"title": "Cheapest disk storage per gigabyte, 1956–2023, in constant 2020 US dollars (log scale)",
+			"url": "https://ourworldindata.org/grapher/historical-cost-of-computer-memory-and-storage",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Our World in Data, “Historical price of computer memory and storage” (John C. McCallum; CC BY 4.0), accessed 28 September 2026",
+			"licence": "MIT",
+			"file": "disk-cost.svg"
+		}
+	]
+}

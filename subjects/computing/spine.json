@@ -17,6 +17,12 @@
 			"title": "Cards, gears and relays",
 			"labelKind": "date",
 			"frames": ["hollerith", "differential-analyzer", "z3"]
+		},
+		{
+			"id": "mainframes",
+			"title": "Transistors and mainframes",
+			"labelKind": "date",
+			"frames": ["fortran", "time-sharing", "ibm-360", "minicomputer"]
 		}
 	]
 }
