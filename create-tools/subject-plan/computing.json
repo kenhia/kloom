@@ -1,0 +1,178 @@
+{
+	"spine": {
+		"segments": [
+			{
+				"id": "counting",
+				"title": "Counting and gears",
+				"labelKind": "date",
+				"frames": ["abacus", "antikythera", "logarithms"]
+			},
+			{
+				"id": "engines",
+				"title": "Engines of arithmetic",
+				"labelKind": "date",
+				"frames": ["pascaline", "jacquard-loom", "difference-engine"]
+			},
+			{
+				"id": "cards-relays",
+				"title": "Cards, gears and relays",
+				"labelKind": "date",
+				"frames": ["hollerith", "differential-analyzer", "z3"]
+			},
+			{
+				"id": "electronic",
+				"title": "The electronic machine",
+				"labelKind": "date",
+				"frames": [
+					"colossus",
+					"harvard-mark-i",
+					"eniac",
+					"edvac-report",
+					"manchester-baby",
+					"edsac",
+					"univac"
+				]
+			},
+			{
+				"id": "mainframes",
+				"title": "Transistors and mainframes",
+				"labelKind": "date",
+				"frames": ["transistor", "whirlwind", "fortran", "time-sharing", "ibm-360", "minicomputer"]
+			},
+			{
+				"id": "microprocessor",
+				"title": "The microprocessor",
+				"labelKind": "date",
+				"frames": ["microprocessor", "altair"]
+			},
+			{
+				"id": "networks",
+				"title": "Networks",
+				"labelKind": "technology",
+				"frames": ["packet-switching", "arpanet", "internet", "world-wide-web"]
+			},
+			{
+				"id": "shared-software",
+				"title": "Software, shared",
+				"labelKind": "technology",
+				"frames": ["unix", "free-software", "linux", "open-source"]
+			},
+			{
+				"id": "everywhere",
+				"title": "Computing everywhere",
+				"labelKind": "technology",
+				"frames": ["arm", "smartphone", "cloud"]
+			},
+			{
+				"id": "open-questions",
+				"title": "Open questions",
+				"labelKind": "category",
+				"frames": ["security", "where-computing-is"]
+			}
+		]
+	},
+	"trails": [
+		{
+			"id": "babbages-engines",
+			"title": "Babbage's engines",
+			"anchor": "difference-engine",
+			"spine": {
+				"segments": [
+					{
+						"id": "engines",
+						"title": "The engines",
+						"labelKind": "date",
+						"frames": [
+							"prony-tables",
+							"clement-fragment",
+							"mill-and-barrels",
+							"scheutz-engine",
+							"difference-engine-2"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "bletchley",
+			"title": "Bletchley and Colossus",
+			"anchor": "colossus",
+			"spine": {
+				"segments": [
+					{
+						"id": "park",
+						"title": "Bletchley Park",
+						"labelKind": "date",
+						"frames": ["bombe", "tunny", "heath-robinson", "colossus-d-day", "the-silence"]
+					}
+				]
+			}
+		},
+		{
+			"id": "the-chip",
+			"title": "Transistor to Moore's law",
+			"anchor": "transistor",
+			"spine": {
+				"segments": [
+					{
+						"id": "chip",
+						"title": "The chip",
+						"labelKind": "date",
+						"frames": [
+							"silicon-valley",
+							"integrated-circuit",
+							"apollo-guidance",
+							"moores-law",
+							"end-of-scaling"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "personal-computer",
+			"title": "The personal computer",
+			"anchor": "altair",
+			"spine": {
+				"segments": [
+					{
+						"id": "pc",
+						"title": "On a desk",
+						"labelKind": "date",
+						"frames": ["xerox-alto", "apple-ii", "visicalc", "ibm-pc", "macintosh"]
+					}
+				]
+			}
+		},
+		{
+			"id": "internet-stack",
+			"title": "The internet stack",
+			"anchor": "internet",
+			"spine": {
+				"segments": [
+					{
+						"id": "layers",
+						"title": "Layers",
+						"labelKind": "technology",
+						"frames": ["ethernet", "ip-routing", "tcp", "dns", "tls"]
+					}
+				]
+			}
+		},
+		{
+			"id": "unix-and-c",
+			"title": "Unix and C",
+			"anchor": "unix",
+			"spine": {
+				"segments": [
+					{
+						"id": "bell-labs",
+						"title": "From Bell Labs",
+						"labelKind": "date",
+						"frames": ["multics", "c-language", "pipes", "bsd", "unix-wars"]
+					}
+				]
+			}
+		}
+	]
+}

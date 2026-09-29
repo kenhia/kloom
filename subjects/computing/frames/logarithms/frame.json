@@ -1,0 +1,170 @@
+{
+	"id": "logarithms",
+	"position": {
+		"label": "1614",
+		"sort": 1614
+	},
+	"scene": {
+		"headline": "We turned multiplying into",
+		"accent": "ADDING.",
+		"palette": "walnut",
+		"illustration": "scene.svg",
+		"metadata": [
+			"EDINBURGH · JOHN NAPIER · HENRY BRIGGS",
+			"LOGARITHM TABLES · GUNTER’S SCALE · THE SLIDE RULE"
+		],
+		"counter": {
+			"value": "20",
+			"label": "years Napier spent computing his tables"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Mirifici Logarithmorum Canonis Descriptio",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mirifici_Logarithmorum_Canonis_Descriptio&oldid=1354790624",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18",
+			"note": "Napier’s table for 19°, reproduced and compared with modern values"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Henry Briggs (mathematician)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Briggs_(mathematician)&oldid=1372803413",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Slide rule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Slide_rule&oldid=1372871397",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Napier",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Napier&oldid=1372532281",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jost Bürgi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jost_B%C3%BCrgi&oldid=1360326807",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-20",
+			"note": "Quoting Kepler’s introduction to the Rudolphine Tables (1627) on Bürgi"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rudolphine Tables",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rudolphine_Tables&oldid=1351798377",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edmund Gunter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edmund_Gunter&oldid=1327545372",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Oughtred",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Oughtred&oldid=1374788506",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "media",
+			"title": "Title page of Napier’s Mirifici Logarithmorum Canonis Descriptio",
+			"url": "https://commons.wikimedia.org/wiki/File:Mirifici_Logarithmorum_canonis_Descriptio.jpg",
+			"accessed": "2026-09-28",
+			"container": "Edinburgh: Andrew Hart, 1614, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "descriptio.jpg",
+			"authors": [
+				{
+					"name": "John Napier"
+				}
+			],
+			"published": "1614"
+		},
+		{
+			"kind": "media",
+			"title": "A Keuffel & Esser 20.5-inch slide rule, used by the CIA’s cartographers",
+			"url": "https://commons.wikimedia.org/wiki/File:Keuffel_%26_Esser_20.5-inch_Slide_Rule_(30245412953).jpg",
+			"accessed": "2026-09-28",
+			"container": "CIA Museum, via Flickr and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "slide-rule.jpg",
+			"authors": [
+				{
+					"name": "Central Intelligence Agency"
+				}
+			],
+			"published": "2016-11-09"
+		}
+	]
+}

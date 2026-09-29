@@ -18,6 +18,8 @@ showing, in the style docs/design.md §Illustrations describes.
   authors can draw at once without sharing a file.
 - `feynman.py` and `feynman_<part>.py` (sprint 014): the feynman subject's
   plates, collected the same way.
+- `computing.py` and `computing_<part>.py` (sprint 015): the computing
+  subject's plates, collected the same way.
 - `contact_sheet.py` (sprint 014): every plate of a subject, or the frames
   named, on one page in its own palette with its title under it; `--png`
   screenshots the page with a headless Chromium (Playwright's, or

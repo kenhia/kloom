@@ -1,13 +1,15 @@
 """Wikipedia citations pinned to a revision, for a frame's `citations`.
 
-    python3 create-tools/wiki-cite/wiki_cite.py [--accessed YYYY-MM-DD] Title ...
+    python3 create-tools/wiki-cite/wiki_cite.py [--accessed YYYY-MM-DD] [--text DIR] Title ...
 
 Prints a JSON list, one kloom `wikipedia` citation per title, each pointing
 at the article's current revision (`oldid=`) and dated by it. Redirects are
 followed. A missing article is named on stderr and exits 1, after the
-citations that were found are printed. Standard library only.
+citations that were found are printed. `--text DIR` also writes each cited
+revision's readable text to DIR/<Title>.txt, so what you read is the
+revision you cite. Standard library only.
 """
-import argparse, datetime, json, sys, time, urllib.error, urllib.parse, urllib.request
+import argparse, datetime, html.parser, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 
 API = 'https://en.wikipedia.org/w/api.php'
 AGENT = 'kloom-create-tools/1.0 (https://github.com/kenhia/kloom)'
@@ -56,6 +58,62 @@ def revisions(titles):
     return out
 
 
+class _Text(html.parser.HTMLParser):
+    """The readable text of a parsed article: headings, paragraphs, lists and table cells, without
+    footnote markers, edit links, styles or the reference list's own markup."""
+    SKIP = {'style', 'script'}
+    SKIP_CLASS = ('reference', 'mw-editsection', 'mw-cite-backlink', 'navbox', 'noprint')
+    BLOCK = {'p', 'li', 'tr', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'dd', 'dt', 'blockquote', 'caption', 'div', 'table'}
+    VOID = {'br', 'img', 'hr', 'meta', 'link', 'input', 'wbr', 'col', 'area', 'source'}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.out, self.stack, self.skipping = [], [], 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in self.VOID:
+            if tag == 'br':
+                self.out.append('\n')
+            return
+        cls = dict(attrs).get('class') or ''
+        skip = tag in self.SKIP or any(c in cls.split() for c in self.SKIP_CLASS)
+        self.stack.append((tag, skip))
+        self.skipping += skip
+        if not self.skipping:
+            if tag in self.BLOCK:
+                self.out.append('\n')
+            if tag in ('h2', 'h3', 'h4'):
+                self.out.append('#' * int(tag[1]) + ' ')
+            if tag in ('td', 'th'):
+                self.out.append(' | ')
+
+    def handle_endtag(self, tag):
+        while self.stack:
+            t, skip = self.stack.pop()
+            self.skipping -= skip
+            if t == tag:
+                break
+        if not self.skipping and tag in self.BLOCK:
+            self.out.append('\n')
+
+    def handle_data(self, data):
+        if not self.skipping:
+            self.out.append(data)
+
+    def text(self):
+        t = re.sub(r'[ \t]+', ' ', ''.join(self.out))
+        return re.sub(r'\n\s*\n+', '\n\n', t).strip() + '\n'
+
+
+def revision_text(revid):
+    """The readable text of one revision, from the API's parse of exactly that revision."""
+    query = urllib.parse.urlencode({'action': 'parse', 'oldid': revid, 'prop': 'text', 'format': 'json',
+                                    'disableeditsection': 1, 'disabletoc': 1})
+    p = _Text()
+    p.feed(get(f'{API}?{query}')['parse']['text']['*'])
+    return p.text()
+
+
 def citation(title, revid, date, accessed):
     return {
         'kind': 'wikipedia',
@@ -73,8 +131,18 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument('titles', nargs='+')
     ap.add_argument('--accessed', default=datetime.date.today().isoformat())
+    ap.add_argument('--text', metavar='DIR', help="also write each revision's readable text to DIR/<Title>.txt")
     a = ap.parse_args()
     revs = revisions(a.titles)
+    if a.text:
+        os.makedirs(a.text, exist_ok=True)
+        for t in a.titles:
+            if t in revs:
+                name, revid, _ = revs[t]
+                path = os.path.join(a.text, name.replace('/', '_') + '.txt')
+                with open(path, 'w') as fh:
+                    fh.write(f'{name} (revision {revid})\n\n' + revision_text(revid))
+                print(f'wiki_cite: wrote {path}', file=sys.stderr)
     print(json.dumps([citation(*revs[t], a.accessed) for t in a.titles if t in revs], indent='\t', ensure_ascii=False))
     if len(revs) < len(a.titles):
         sys.exit(1)  # the others are printed; a missing article is still an error
