@@ -1,0 +1,119 @@
+{
+	"id": "propagators",
+	"position": {
+		"label": "Propagators"
+	},
+	"scene": {
+		"headline": "Every line is a",
+		"accent": "PROPAGATOR.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": ["PHYSICAL REVIEW 76 · SEPTEMBER 1949", "LINES · VERTICES · ONE TERM EACH"],
+		"counter": {
+			"value": "1/137",
+			"label": "roughly what each extra pair of vertices costs"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Space-Time Approach to Quantum Electrodynamics",
+			"doi": "10.1103/PhysRev.76.769",
+			"url": "https://authors.library.caltech.edu/records/ppc9p-p4r89",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "76",
+			"issue": "6",
+			"pages": "769–789",
+			"published": "1949-09-15",
+			"key": true,
+			"note": "The rules, and the infinities confined to mass and charge"
+		},
+		{
+			"kind": "article",
+			"title": "Stick-Figure Realism: Conventions, Reification, and the Persistence of Feynman Diagrams, 1948–1964",
+			"doi": "10.1525/rep.2000.70.1.01p00694",
+			"url": "https://web.mit.edu/dikaiser/www/Kaiser.SFR.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Kaiser",
+					"given": "David"
+				}
+			],
+			"container": "Representations",
+			"volume": "70",
+			"pages": "49–86",
+			"published": "2000",
+			"key": true,
+			"note": "The rules as one-to-one translations, pp. 52–55"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Feynman diagram",
+			"url": "https://en.wikipedia.org/w/index.php?title=Feynman_diagram&oldid=1371495738",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "web",
+			"title": "The Development of the Space-Time View of Quantum Electrodynamics",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Nobel Lecture, 11 December 1965",
+			"publisher": "Nobel Foundation",
+			"published": "1965-12-11",
+			"note": "Signs settled by inventing rules and trying them"
+		},
+		{
+			"kind": "book",
+			"title": "QED: The Strange Theory of Light and Matter",
+			"url": "https://openlibrary.org/works/OL271757W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"publisher": "Princeton University Press",
+			"place": "Princeton, NJ",
+			"published": "1985",
+			"note": "The three basic actions, and the coupling of about −0.085"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fine-structure constant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fine-structure_constant&oldid=1377160501",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		}
+	]
+}

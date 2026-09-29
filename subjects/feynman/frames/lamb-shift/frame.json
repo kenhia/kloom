@@ -1,0 +1,164 @@
+{
+	"id": "lamb-shift",
+	"position": {
+		"label": "Lamb shift"
+	},
+	"scene": {
+		"headline": "A tiny shift tamed the",
+		"accent": "INFINITIES.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": ["SHELTER ISLAND · 2–4 JUNE 1947", "WILLIS LAMB · ROBERT RETHERFORD · HANS BETHE"],
+		"counter": {
+			"value": "1,040 MHz",
+			"label": "Bethe's estimate of the shift, worked out on a train"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "History and Some Aspects of the Lamb Shift",
+			"doi": "10.3390/physics2020008",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Maclay",
+					"given": "G. Jordan"
+				}
+			],
+			"container": "Physics",
+			"volume": "2",
+			"issue": "2",
+			"pages": "105–149",
+			"published": "2020",
+			"note": "Oppenheimer, Kramers, the conference, Bethe's train and the values since"
+		},
+		{
+			"kind": "web",
+			"title": "The Development of the Space-Time View of Quantum Electrodynamics",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Nobel Lecture, 11 December 1965",
+			"publisher": "Nobel Foundation",
+			"published": "1965-12-11",
+			"key": true,
+			"note": "Bethe's estimate as Feynman remembered it, and the call from Schenectady"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Shelter Island Conference",
+			"url": "https://en.wikipedia.org/w/index.php?title=Shelter_Island_Conference&oldid=1368987219",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "article",
+			"title": "Fine Structure of the Hydrogen Atom by a Microwave Method",
+			"doi": "10.1103/PhysRev.72.241",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Lamb",
+					"given": "Willis E., Jr."
+				},
+				{
+					"family": "Retherford",
+					"given": "Robert C."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "72",
+			"issue": "3",
+			"pages": "241–243",
+			"published": "1947-08-01"
+		},
+		{
+			"kind": "article",
+			"title": "The Electromagnetic Shift of Energy Levels",
+			"doi": "10.1103/PhysRev.72.339",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Bethe",
+					"given": "H. A."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "72",
+			"issue": "4",
+			"pages": "339–341",
+			"published": "1947-08-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lamb shift",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lamb_shift&oldid=1365847424",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hans Bethe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hans_Bethe&oldid=1373073839",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Renormalization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Renormalization&oldid=1376789959",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "The Ram's Head Inn, Shelter Island Heights, New York, where the conference met",
+			"url": "https://commons.wikimedia.org/wiki/File:Hybrid_-_20th_Century_(American_Colonial,_Shingle_Style)_-_Shelter_Island_Heights,_NY_-_Ram%27s_Head_Inn_(1).jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Bmzuckerman"
+				}
+			],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "rams-head-inn.jpg"
+		}
+	]
+}

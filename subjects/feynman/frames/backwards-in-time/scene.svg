@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 230 L380 230 M40 152 L380 152 M40 70 L380 70"/>
+		<path pathLength="1" d="M136 164 L216 244 M136 244 L216 164"/>
+		<path pathLength="1" d="M196 60 L276 140 M196 140 L276 60"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M300 252 L242.2 114.7 L240.9 112.1 L239.7 110 L238.3 108.5 L237 107.5 L235.6 107.2 L234.1 107.3 L232.6 108.1 L231.1 109.5 L229.6 111.4 L228 113.9 L184 190.1 L182.4 192.6 L180.9 194.5 L179.5 195.8 L178.2 196.6 L176.9 196.7 L175.7 196.3 L174.5 195.2 L173.4 193.6 L172.4 191.4 L171.5 188.6 L128 40"/>
+		<path pathLength="1" d="M276 187.2 L271.2 183.6 L270.5 189.6"/>
+		<path pathLength="1" d="M203 151.2 L203 157.2 L208.2 154.2"/>
+		<path pathLength="1" d="M153.9 117.9 L149.6 113.8 L148.2 119.6"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M287.5 230 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M254.7 152 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M202.8 152 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M157.6 152 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M133.6 70 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M24 252 L24 36"/>
+		<path pathLength="1" d="M26.5 40.3 L24 36 L21.5 40.3"/>
+		<path pathLength="1" d="M24 252 L384 252"/>
+		<path pathLength="1" d="M379.7 254.5 L384 252 L379.7 249.5"/>
+	</g>
+	<g>
+		<text x="200" y="20" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE LINE, READ ONE MOMENT AT A TIME</text>
+		<text x="32" y="42" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TIME</text>
+		<text x="380" y="266" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SPACE</text>
+		<text x="380" y="225" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE</text>
+		<text x="380" y="147" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THREE</text>
+		<text x="380" y="65" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE</text>
+		<text x="282" y="104" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2 · ANNIHILATION</text>
+		<text x="130" y="208" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1 · PAIR MADE</text>
+		<text x="288" y="206" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">e⁻</text>
+		<text x="214" y="160" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">e⁺</text>
+		<text x="138" y="110" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">e⁻</text>
+	</g>
+</svg>
