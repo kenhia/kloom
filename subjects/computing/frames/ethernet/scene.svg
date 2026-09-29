@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M70 44 L70 266 M330 44 L330 266"/>
+		<path pathLength="1" d="M12 62 L20 62 M12 97 L20 97 M12 132 L20 132 M12 167 L20 167 M12 202 L20 202 M12 237 L20 237 M12 272 L20 272"/>
+		<path pathLength="1" d="M16 62 L16 272"/>
+		<path pathLength="1" d="M291 44 L291 121.5 M40 121.5 L360 121.5"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 44 L370 44"/>
+		<path pathLength="1" d="M30 38 L30 50 M370 38 L370 50"/>
+		<path pathLength="1" d="M61 28 L79 28 L79 38 L61 38 Z"/>
+		<path pathLength="1" d="M70 38 L70 44"/>
+		<path pathLength="1" d="M321 28 L339 28 L339 38 L321 38 Z"/>
+		<path pathLength="1" d="M330 38 L330 44"/>
+		<path pathLength="1" d="M70 62 L70 191"/>
+		<path pathLength="1" d="M330 111 L330 142"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M70 62 L330 132 M70 62 L30 72.8 M330 111 L70 181 M330 111 L370 121.8 M70 191 L348.6 266 M330 142 L70 212"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M256 131.1 L305 148.2 M250 133 L299 150.1 M243 134.6 L292 151.7 M237 136.4 L286 153.6 M230 138 L279 155.1 M224 139.9 L273 157.1 M217 141.4 L267 158.9 M211 143.3 L260 160.5 M205 145.2 L254 162.4 M198 146.8 L247 163.9 M192 148.7 L241 165.8 M185 150.2 L234 167.4 M179 152.2 L228 169.3 M172 153.7 L221 170.8 M166 155.6 L215 172.8 M159 157.2 L208 174.3 M153 159.1 L202 176.2 M146 160.6 L195 177.8 M140 162.5 L189 179.7 M133 164.1 L183 181.6 M127 165.9 L176 183.1 M121 167.8 L170 185 M114 169.4 L163 186.6 M108 171.3 L157 188.4 M101 172.8 L150 190 M95 174.8 L144 191.9 M88 176.3 L137 193.4 M82 178.2 L131 195.3 M75 179.8 L124 196.9 M70 182 L118 198.8 M70 186 L111 200.3 M70 190 L82 194.2"/>
+	</g>
+	<g>
+		<text x="56" y="36" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="344" y="36" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="24" y="65" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="24" y="135" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">τ</text>
+		<text x="24" y="205" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2τ</text>
+		<text x="24" y="275" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3τ</text>
+		<text x="283" y="113.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FRONTS MEET</text>
+		<text x="336" y="135" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B HEARS A</text>
+		<text x="336" y="148" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">JAMS</text>
+		<text x="64" y="184" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A HEARS B</text>
+		<text x="64" y="197" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">JAMS</text>
+		<text x="262" y="178" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COLLISION</text>
+		<text x="336" y="103" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B SENDS</text>
+		<text x="76" y="58" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A SENDS</text>
+		<text x="200" y="26" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COAXIAL CABLE · SPACE ACROSS · TIME DOWN</text>
+		<text x="200" y="288" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CARRIER SENSE · COLLISION DETECT · BACK OFF</text>
+	</g>
+</svg>

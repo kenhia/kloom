@@ -1,0 +1,231 @@
+{
+	"id": "ip-routing",
+	"position": {
+		"label": "IP and routing"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "Every packet carried an",
+		"accent": "ADDRESS.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"RFC 791 · JON POSTEL · USC INFORMATION SCIENCES INSTITUTE",
+			"DATAGRAMS · PREFIXES · BGP · IPv6"
+		],
+		"counter": {
+			"value": "1,079,014",
+			"label": "IPv4 prefixes in the global routing table, 28 September 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Internet Protocol: DARPA Internet Program Protocol Specification",
+			"url": "https://www.rfc-editor.org/rfc/rfc791",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Postel",
+					"given": "Jon"
+				}
+			],
+			"number": "RFC 791",
+			"publisher": "RFC Editor",
+			"published": "1981-09",
+			"doi": "10.17487/RFC0791",
+			"note": "The scope of the protocol (section 1.2) and the header format (section 3.1)"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Requirements for IP Version 4 Routers",
+			"url": "https://www.rfc-editor.org/rfc/rfc1812",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Baker",
+					"given": "Fred"
+				}
+			],
+			"number": "RFC 1812",
+			"publisher": "RFC Editor",
+			"published": "1995-06",
+			"doi": "10.17487/RFC1812",
+			"note": "The longest-match rule and its example, section 5.2.4.3"
+		},
+		{
+			"kind": "report",
+			"title": "A Border Gateway Protocol (BGP)",
+			"url": "https://www.rfc-editor.org/rfc/rfc1105",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Lougheed",
+					"given": "Kirk"
+				},
+				{
+					"family": "Rekhter",
+					"given": "Yakov"
+				}
+			],
+			"number": "RFC 1105",
+			"publisher": "RFC Editor",
+			"published": "1989-06",
+			"doi": "10.17487/RFC1105"
+		},
+		{
+			"kind": "report",
+			"title": "Internet Protocol, Version 6 (IPv6) Specification",
+			"url": "https://www.rfc-editor.org/rfc/rfc8200",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Deering",
+					"given": "Stephen"
+				},
+				{
+					"family": "Hinden",
+					"given": "Robert"
+				}
+			],
+			"number": "RFC 8200",
+			"publisher": "RFC Editor",
+			"published": "2017-07",
+			"doi": "10.17487/RFC8200"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "IPv6 Adoption Statistics",
+			"url": "https://www.google.com/intl/en/ipv6/statistics.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"container": "Google IPv6",
+			"note": "The daily series to 27 September 2026, averaged here for each September"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "CIDR Report for 29 Sep 26",
+			"url": "https://www.cidr-report.org/as2.0/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Huston",
+					"given": "Geoff"
+				}
+			],
+			"container": "CIDR Report",
+			"published": "2026-09-29",
+			"note": "The table size for 28 September 2026 and the count of autonomous systems"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Internet Protocol",
+			"url": "https://en.wikipedia.org/w/index.php?title=Internet_Protocol&oldid=1376988550",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IPv4",
+			"url": "https://en.wikipedia.org/w/index.php?title=IPv4&oldid=1374869975",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Border Gateway Protocol",
+			"url": "https://en.wikipedia.org/w/index.php?title=Border_Gateway_Protocol&oldid=1376166621",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "IPv4 address exhaustion",
+			"url": "https://en.wikipedia.org/w/index.php?title=IPv4_address_exhaustion&oldid=1366743197",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IPv6",
+			"url": "https://en.wikipedia.org/w/index.php?title=IPv6&oldid=1376149931",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "media",
+			"title": "Cisco's Advanced Gateway Server (AGS) router of 1986, at the Computer History Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:Cisco_Advanced_Gateway_Server_(AGS)_router_(1986)_-_Computer_History_Museum.jpg",
+			"accessed": "2026-09-28",
+			"container": "Computer History Museum, Mountain View; photograph via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "ags.jpg",
+			"authors": [
+				{
+					"name": "Michael Hicks"
+				}
+			],
+			"published": "2013-11-03"
+		},
+		{
+			"kind": "media",
+			"title": "Bar chart of the share of users reaching Google over IPv6 each September, 2010–2026",
+			"url": "https://www.google.com/intl/en/ipv6/statistics.html",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from Google's IPv6 statistics",
+			"licence": "MIT",
+			"file": "ipv6-share.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

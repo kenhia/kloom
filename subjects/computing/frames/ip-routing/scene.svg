@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M64 64 L64 72 M73 68 L73 72 M82 68 L82 72 M91 68 L91 72 M100 68 L100 72 M109 68 L109 72 M118 68 L118 72 M127 68 L127 72 M136 64 L136 72 M145 68 L145 72 M154 68 L154 72 M163 68 L163 72 M172 68 L172 72 M181 68 L181 72 M190 68 L190 72 M199 68 L199 72 M208 64 L208 72 M217 68 L217 72 M226 68 L226 72 M235 68 L235 72 M244 68 L244 72 M253 68 L253 72 M262 68 L262 72 M271 68 L271 72 M280 64 L280 72 M289 68 L289 72 M298 68 L298 72 M307 68 L307 72 M316 68 L316 72 M325 68 L325 72 M334 68 L334 72 M343 68 L343 72 M352 64 L352 72"/>
+		<path pathLength="1" d="M136 72 L136 77 M136 104 L136 99 M136 104 L136 109 M136 136 L136 131 M136 136 L136 141 M136 168 L136 163 M136 168 L136 173 M136 200 L136 195 M136 200 L136 205 M136 232 L136 227 M208 72 L208 77 M208 104 L208 99 M208 104 L208 109 M208 136 L208 131 M208 136 L208 141 M208 168 L208 163 M208 168 L208 173 M208 200 L208 195 M208 200 L208 205 M208 232 L208 227 M280 72 L280 77 M280 104 L280 99 M280 104 L280 109 M280 136 L280 131 M280 136 L280 141 M280 168 L280 163 M280 168 L280 173 M280 200 L280 195 M280 200 L280 205 M280 232 L280 227"/>
+		<path pathLength="1" d="M50 72 L50 232"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M64 72 L352 72 L352 232 L64 232 Z"/>
+		<path pathLength="1" d="M64 104 L352 104 M64 136 L352 136 M64 168 L352 168 M64 200 L352 200"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M100 72 L100 104 M136 72 L136 104 M208 72 L208 104 M208 104 L208 136 M235 104 L235 136 M136 136 L136 168 M208 136 L208 168"/>
+		<path pathLength="1" d="M64 232 L64 262"/>
+		<path pathLength="1" d="M352 232 L352 262"/>
+		<path pathLength="1" d="M64 262 L72 262 M80 262 L88 262 M96 262 L104 262 M112 262 L120 262 M128 262 L136 262 M144 262 L152 262 M160 262 L168 262 M176 262 L184 262 M192 262 L200 262 M208 262 L216 262 M224 262 L232 262 M240 262 L248 262 M256 262 L264 262 M272 262 L280 262 M288 262 L296 262 M304 262 L312 262 M320 262 L328 262 M336 262 L344 262"/>
+	</g>
+	<g>
+		<text x="68.5" y="60" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="140.5" y="60" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8</text>
+		<text x="212.5" y="60" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">16</text>
+		<text x="284.5" y="60" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">24</text>
+		<text x="347.5" y="60" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">31</text>
+		<text x="82" y="91" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VER 4</text>
+		<text x="118" y="91" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IHL 5</text>
+		<text x="172" y="91" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TOS</text>
+		<text x="280" y="91" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TOTAL LENGTH</text>
+		<text x="136" y="123" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IDENTIFICATION</text>
+		<text x="221.5" y="123" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FLG</text>
+		<text x="293.5" y="123" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FRAGMENT OFFSET</text>
+		<text x="100" y="155" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TTL 64</text>
+		<text x="172" y="155" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PROTO 6</text>
+		<text x="280" y="155" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HEADER CHECKSUM</text>
+		<text x="208" y="187" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SOURCE 192.0.2.10</text>
+		<text x="208" y="219" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DESTINATION 198.51.100.7</text>
+		<text x="46" y="155" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">20 BYTES</text>
+		<text x="208" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DATA · A TCP SEGMENT</text>
+		<text x="208" y="32" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IPv4 HEADER · RFC 791 · 1981</text>
+		<text x="208" y="286" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TTL − 1 AT EVERY ROUTER · DROPPED AT 0</text>
+	</g>
+</svg>

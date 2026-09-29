@@ -1,0 +1,247 @@
+{
+	"id": "tls",
+	"position": {
+		"label": "TLS"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "The web learned to",
+		"accent": "WHISPER.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": ["NETSCAPE SSL · 1995 · IETF TLS 1.0–1.3", "CERTIFICATES · LET’S ENCRYPT · ML-KEM"],
+		"counter": {
+			"value": "65%",
+			"label": "and more of human traffic to Cloudflare post-quantum encrypted, April 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Transport Layer Security (TLS) Protocol Version 1.3",
+			"url": "https://www.rfc-editor.org/rfc/rfc8446",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Rescorla",
+					"given": "Eric"
+				}
+			],
+			"number": "RFC 8446",
+			"publisher": "RFC Editor",
+			"published": "2018-08",
+			"doi": "10.17487/RFC8446"
+		},
+		{
+			"kind": "report",
+			"title": "The Transport Layer Security (TLS) Protocol Version 1.3",
+			"url": "https://www.rfc-editor.org/rfc/rfc9846",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Rescorla",
+					"given": "Eric"
+				}
+			],
+			"number": "RFC 9846",
+			"publisher": "RFC Editor",
+			"published": "2026-07",
+			"doi": "10.17487/RFC9846"
+		},
+		{
+			"kind": "report",
+			"title": "The TLS Protocol Version 1.0",
+			"url": "https://www.rfc-editor.org/rfc/rfc2246",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dierks",
+					"given": "Tim"
+				},
+				{
+					"family": "Allen",
+					"given": "Christopher"
+				}
+			],
+			"number": "RFC 2246",
+			"publisher": "RFC Editor",
+			"published": "1999-01",
+			"doi": "10.17487/RFC2246"
+		},
+		{
+			"kind": "report",
+			"title": "Deprecating TLS 1.0 and TLS 1.1",
+			"url": "https://www.rfc-editor.org/rfc/rfc8996",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Moriarty",
+					"given": "Kathleen"
+				},
+				{
+					"family": "Farrell",
+					"given": "Stephen"
+				}
+			],
+			"number": "RFC 8996",
+			"publisher": "RFC Editor",
+			"published": "2021-03",
+			"doi": "10.17487/RFC8996"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Transport Layer Security",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transport_Layer_Security&oldid=1375356536",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Let's Encrypt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Let's_Encrypt&oldid=1367434863",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "HTTPS",
+			"url": "https://en.wikipedia.org/w/index.php?title=HTTPS&oldid=1376260548",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Public key certificate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Public_key_certificate&oldid=1372292741",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Post-quantum cryptography",
+			"url": "https://en.wikipedia.org/w/index.php?title=Post-quantum_cryptography&oldid=1375887531",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Let's Encrypt Stats",
+			"url": "https://letsencrypt.org/stats/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Let's Encrypt"
+				}
+			],
+			"container": "Let's Encrypt",
+			"publisher": "Internet Security Research Group",
+			"note": "Certificates issued and active to 27 September 2026, and Firefox’s HTTPS page loads, averaged here for each September"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "HTTPS by Default",
+			"url": "https://blog.google/security/https-by-defau/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Thompson",
+					"given": "Chris"
+				},
+				{
+					"family": "Acer",
+					"given": "Mustafa Emre"
+				},
+				{
+					"family": "Chen",
+					"given": "Serena"
+				},
+				{
+					"family": "DeBlasio",
+					"given": "Joe"
+				},
+				{
+					"family": "Stark",
+					"given": "Emily"
+				},
+				{
+					"family": "Adrian",
+					"given": "David"
+				}
+			],
+			"container": "Google Security Blog",
+			"publisher": "Google",
+			"published": "2025-10-28"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Cloudflare Targets 2029 for Full Post-Quantum Security",
+			"url": "https://blog.cloudflare.com/post-quantum-roadmap/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Westerbaan",
+					"given": "Bas"
+				}
+			],
+			"container": "The Cloudflare Blog",
+			"publisher": "Cloudflare",
+			"published": "2026-04-07"
+		},
+		{
+			"kind": "media",
+			"title": "Bar chart of the share of Firefox page loads made over HTTPS each September, 2014–2026",
+			"url": "https://letsencrypt.org/stats/",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from Let's Encrypt's statistics (Firefox telemetry)",
+			"licence": "MIT",
+			"file": "https-share.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Operational sites of each of the thirteen DNS root servers, September 2026",
+	"description": "Bar chart of the number of operational sites listed for each root server letter, A to M, on root-servers.org at the end of September 2026. A (Verisign) 56. B (USC Information Sciences Institute) 6. C (Cogent) 13. D (University of Maryland) 231. E (NASA) 328. F (Internet Systems Consortium) 386. G (US Defense Information Systems Agency) 6. H (US Army Research Lab) 12. I (Netnod) 92. J (Verisign) 147. K (RIPE NCC) 143. L (ICANN) 122. M (WIDE Project) 30. Data: Root Server Technical Operations Association, root-servers.org.",
+	"heading": "DNS ROOT SERVERS · OPERATIONAL SITES PER LETTER",
+	"unit": "",
+	"axis": {
+		"max": 400,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"],
+			[400, "400"]
+		]
+	},
+	"width": 560,
+	"height": 300,
+	"barWidth": 30,
+	"bars": [
+		{ "label": "A", "value": 56, "display": "56" },
+		{ "label": "B", "value": 6, "display": "6" },
+		{ "label": "C", "value": 13, "display": "13" },
+		{ "label": "D", "value": 231, "display": "231" },
+		{ "label": "E", "value": 328, "display": "328" },
+		{ "label": "F", "value": 386, "display": "386", "highlight": true },
+		{ "label": "G", "value": 6, "display": "6" },
+		{ "label": "H", "value": 12, "display": "12" },
+		{ "label": "I", "value": 92, "display": "92" },
+		{ "label": "J", "value": 147, "display": "147" },
+		{ "label": "K", "value": 143, "display": "143" },
+		{ "label": "L", "value": 122, "display": "122" },
+		{ "label": "M", "value": 30, "display": "30" }
+	]
+}

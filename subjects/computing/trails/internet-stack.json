@@ -1,0 +1,15 @@
+{
+	"id": "internet-stack",
+	"title": "The internet stack",
+	"anchor": "internet",
+	"spine": {
+		"segments": [
+			{
+				"id": "layers",
+				"title": "Layers",
+				"labelKind": "technology",
+				"frames": ["ethernet", "ip-routing", "tcp", "dns", "tls"]
+			}
+		]
+	}
+}

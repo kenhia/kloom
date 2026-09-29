@@ -1,0 +1,206 @@
+{
+	"id": "tcp",
+	"position": {
+		"label": "TCP"
+	},
+	"scene": {
+		"headline": "We built reliability out of",
+		"accent": "LOSS.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"RFC 793 · 1981 · SEQUENCE NUMBERS · ACKNOWLEDGEMENTS",
+			"VAN JACOBSON · MICHAEL KARELS · LBL AND BERKELEY"
+		],
+		"counter": {
+			"value": "40 bit/s",
+			"label": "LBL to Berkeley in the collapse of October 1986, down from 32 kbit/s"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Transmission Control Protocol: DARPA Internet Program Protocol Specification",
+			"url": "https://www.rfc-editor.org/rfc/rfc793",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Postel",
+					"given": "Jon"
+				}
+			],
+			"number": "RFC 793",
+			"publisher": "RFC Editor",
+			"published": "1981-09",
+			"doi": "10.17487/RFC0793",
+			"note": "Reliability and flow control (section 1.5), the handshake (figure 7) and the ISN clock (section 3.3)"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Congestion Avoidance and Control",
+			"url": "https://ee.lbl.gov/papers/congavoid.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Jacobson",
+					"given": "Van"
+				},
+				{
+					"family": "Karels",
+					"given": "Michael J."
+				}
+			],
+			"publisher": "Lawrence Berkeley Laboratory",
+			"published": "1988-11",
+			"note": "A slightly revised version of the SIGCOMM ’88 paper; the 1986 collapse is on p. 1"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "End-to-End Arguments in System Design",
+			"url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf",
+			"doi": "10.1145/357401.357402",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Saltzer",
+					"given": "J. H."
+				},
+				{
+					"family": "Reed",
+					"given": "D. P."
+				},
+				{
+					"family": "Clark",
+					"given": "D. D."
+				}
+			],
+			"container": "ACM Transactions on Computer Systems",
+			"volume": "2",
+			"issue": "4",
+			"pages": "277–288",
+			"published": "1984-11"
+		},
+		{
+			"kind": "report",
+			"title": "Specification of Internet Transmission Control Program",
+			"url": "https://www.rfc-editor.org/rfc/rfc675",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Cerf",
+					"given": "Vinton"
+				},
+				{
+					"family": "Dalal",
+					"given": "Yogen"
+				},
+				{
+					"family": "Sunshine",
+					"given": "Carl"
+				}
+			],
+			"number": "RFC 675",
+			"publisher": "RFC Editor",
+			"published": "1974-12",
+			"doi": "10.17487/RFC0675"
+		},
+		{
+			"kind": "report",
+			"title": "Transmission Control Protocol (TCP)",
+			"url": "https://www.rfc-editor.org/rfc/rfc9293",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Eddy",
+					"given": "Wesley"
+				}
+			],
+			"number": "RFC 9293",
+			"publisher": "RFC Editor",
+			"published": "2022-08",
+			"doi": "10.17487/RFC9293"
+		},
+		{
+			"kind": "report",
+			"title": "QUIC: A UDP-Based Multiplexed and Secure Transport",
+			"url": "https://www.rfc-editor.org/rfc/rfc9000",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Iyengar",
+					"given": "Jana"
+				},
+				{
+					"family": "Thomson",
+					"given": "Martin"
+				}
+			],
+			"number": "RFC 9000",
+			"publisher": "RFC Editor",
+			"published": "2021-05",
+			"doi": "10.17487/RFC9000"
+		},
+		{
+			"kind": "report",
+			"title": "HTTP/3",
+			"url": "https://www.rfc-editor.org/rfc/rfc9114",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Bishop",
+					"given": "Mike"
+				}
+			],
+			"number": "RFC 9114",
+			"publisher": "RFC Editor",
+			"published": "2022-06",
+			"doi": "10.17487/RFC9114"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transmission Control Protocol",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transmission_Control_Protocol&oldid=1374313347",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "TCP congestion control",
+			"url": "https://en.wikipedia.org/w/index.php?title=TCP_congestion_control&oldid=1374926943",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "End-to-end principle",
+			"url": "https://en.wikipedia.org/w/index.php?title=End-to-end_principle&oldid=1340005850",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-23"
+		}
+	]
+}

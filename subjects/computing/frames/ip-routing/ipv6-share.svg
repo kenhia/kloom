@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="t d">
+<title id="t">Share of users reaching Google over IPv6, each September, 2010–2026</title>
+<desc id="d">Bar chart of the percentage of users reaching Google over IPv6, averaged over 1 to 27 September of each year shown. 2010: 0.2 per cent. 2012: 0.8. 2014: 3.9. 2016: 11.8. 2018: 21.7. 2020: 30.8. 2022: 38.3. 2024: 43.4. 2026: 47.7. Weekends run a few points higher than weekdays. Data: Google IPv6 statistics, daily series, averaged for kloom.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="540" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="540" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">20</text>
+<line x1="64" x2="540" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">40</text>
+<line x1="64" x2="540" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">60</text>
+</g>
+<rect x="68.4" y="249.1" width="44" height="1.0" fill-opacity="0.85"/>
+<text x="90.4" y="243.1" text-anchor="middle">0.2</text>
+<text x="90.4" y="266" text-anchor="middle">2010</text>
+<rect x="121.3" y="247.1" width="44" height="2.9" fill-opacity="0.85"/>
+<text x="143.3" y="241.1" text-anchor="middle">0.8</text>
+<text x="143.3" y="266" text-anchor="middle">2012</text>
+<rect x="174.2" y="236.0" width="44" height="14.0" fill-opacity="0.85"/>
+<text x="196.2" y="230.0" text-anchor="middle">3.9</text>
+<text x="196.2" y="266" text-anchor="middle">2014</text>
+<rect x="227.1" y="208.0" width="44" height="42.0" fill-opacity="0.85"/>
+<text x="249.1" y="202.0" text-anchor="middle">11.8</text>
+<text x="249.1" y="266" text-anchor="middle">2016</text>
+<rect x="280.0" y="172.5" width="44" height="77.5" fill-opacity="0.85"/>
+<text x="302.0" y="166.5" text-anchor="middle">21.7</text>
+<text x="302.0" y="266" text-anchor="middle">2018</text>
+<rect x="332.9" y="140.2" width="44" height="109.8" fill-opacity="0.85"/>
+<text x="354.9" y="134.2" text-anchor="middle">30.8</text>
+<text x="354.9" y="266" text-anchor="middle">2020</text>
+<rect x="385.8" y="113.5" width="44" height="136.5" fill-opacity="0.85"/>
+<text x="407.8" y="107.5" text-anchor="middle">38.3</text>
+<text x="407.8" y="266" text-anchor="middle">2022</text>
+<rect x="438.7" y="95.1" width="44" height="154.9" fill-opacity="0.85"/>
+<text x="460.7" y="89.1" text-anchor="middle">43.4</text>
+<text x="460.7" y="266" text-anchor="middle">2024</text>
+<rect x="491.6" y="80.0" width="44" height="170.0" class="accent" fill="currentColor"/>
+<text x="513.6" y="74.0" text-anchor="middle">47.7</text>
+<text x="513.6" y="266" text-anchor="middle">2026</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">USERS REACHING GOOGLE OVER IPv6 · % · SEPTEMBER</text>
+</g></svg>
