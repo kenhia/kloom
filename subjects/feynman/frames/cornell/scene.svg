@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M26.4 232 L26.4 83.1 M58.6 232 L58.6 83.1 M90.7 232 L90.7 83.1 M122.9 232 L122.9 83.1 M155 232 L155 83.1 M187.1 232 L187.1 83.1 M219.3 232 L219.3 83.1 M251.4 232 L251.4 83.1 M283.6 232 L283.6 83.1 M315.7 232 L315.7 83.1 M347.9 232 L347.9 83.1 M380 232 L380 83.1"/>
+		<path pathLength="1" d="M20 232 L380 232 M20 190.6 L380 190.6 M20 149.3 L380 149.3 M20 107.9 L380 107.9"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M146.6 183.4 L228.2 132.5 L338.2 129.1"/>
+		<path pathLength="1" d="M188.7 160.7 L191.5 155.4 L185.5 155.6"/>
+		<path pathLength="1" d="M283.6 133.8 L288.7 130.6 L283.4 127.8"/>
+		<path pathLength="1" d="M143.1 183.4 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M224.7 132.5 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M332.2 129.1 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0"/>
+		<path pathLength="1" d="M335.7 129.1 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M41 166.9 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M44 166.9 L329.3 130.2"/>
+		<path pathLength="1" d="M326.1 132.7 L329.3 130.2 L325.6 128.7"/>
+		<path pathLength="1" d="M65.6 198.3 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M68.6 198.3 L329.5 131.3"/>
+		<path pathLength="1" d="M326.6 134.1 L329.5 131.3 L325.6 130.3"/>
+		<path pathLength="1" d="M347 146.4 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M350 146.4 L343.3 136.5"/>
+		<path pathLength="1" d="M346.9 138.3 L343.3 136.5 L343.6 140.5"/>
+	</g>
+	<g>
+		<text x="200" y="22" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LOS ALAMOS → IOWA STATE → ITHACA · AUTUMN 1945</text>
+		<text x="146.6" y="199.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LOS ALAMOS</text>
+		<text x="228.2" y="148.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AMES</text>
+		<text x="340.2" y="115.1" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ITHACA</text>
+		<text x="50" y="158.9" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BERKELEY</text>
+		<text x="74.6" y="212.3" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">UCLA</text>
+		<text x="350" y="162.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IAS</text>
+		<text x="195.4" y="171.9" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1,290 KM</text>
+		<text x="277.2" y="146.8" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1,410 KM</text>
+		<text x="200" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STRAIGHT LEGS, NOT THE RAILWAY · THIN LINES: OFFERS HE REFUSED</text>
+	</g>
+</svg>

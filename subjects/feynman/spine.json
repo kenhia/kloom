@@ -11,6 +11,12 @@
 			"title": "MIT and Princeton",
 			"labelKind": "date",
 			"frames": ["forces-in-molecules", "princeton", "absorber-theory", "thesis", "arline"]
+		},
+		{
+			"id": "cornell",
+			"title": "Cornell",
+			"labelKind": "date",
+			"frames": ["cornell", "wobbling-plate", "pocono", "diagrams"]
 		}
 	]
 }

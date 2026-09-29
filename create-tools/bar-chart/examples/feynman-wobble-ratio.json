@@ -1,0 +1,32 @@
+{
+	"title": "Wobbles per turn of the seal, for a spinning object with a small tilt",
+	"description": "Bar chart. For a symmetric object spinning freely with a small tilt, the tilt goes round I3/I1 times for each turn of a mark on its rim, where I3 is the moment of inertia about the symmetry axis and I1 about a diameter. Feynman's telling: 0.5. A thin disc: 2.00. A coin one-tenth as thick as its radius: 1.99. A hockey puck (25.4 mm thick, 76.2 mm across): 1.74. A cylinder as tall as its radius: 1.50. A cylinder whose height is 1.73 times its radius: 1.00. Computed for kloom from the moments of inertia of a uniform cylinder.",
+	"heading": "WOBBLES PER TURN OF THE SEAL · SMALL TILT",
+	"unit": "",
+	"axis": {
+		"max": 2,
+		"ticks": [
+			[0, "0"],
+			[0.5, "0.5"],
+			[1, "1"],
+			[1.5, "1.5"],
+			[2, "2"]
+		]
+	},
+	"bars": [
+		{ "label": "His telling", "sublabel": "as he told it", "value": 0.5, "display": "0.5" },
+		{
+			"label": "Thin disc",
+			"sublabel": "I₃ = 2 I₁",
+			"value": 2,
+			"display": "2.00",
+			"highlight": true
+		},
+		{ "label": "Coin", "sublabel": "h = R/10", "value": 1.993, "display": "1.99" },
+		{ "label": "Puck", "sublabel": "h = 2R/3", "value": 1.742, "display": "1.74" },
+		{ "label": "Cylinder", "sublabel": "h = R", "value": 1.5, "display": "1.50" },
+		{ "label": "Cylinder", "sublabel": "h = 1.73 R", "value": 1, "display": "1.00" }
+	],
+	"barWidth": 44,
+	"width": 560
+}

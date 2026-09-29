@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 62 L372 62 M40 91 L372 91 M40 120 L372 120 M40 149 L372 149 M40 178 L372 178 M40 207 L372 207 M40 236 L372 236"/>
+		<path pathLength="1" d="M98 132 L186 220 M98 220 L186 132"/>
+		<path pathLength="1" d="M214 84 L302 172 M214 172 L302 84"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M112 236 L142 176 L104 62"/>
+		<path pathLength="1" d="M128.8 208 L128.5 203 L124.3 205.8"/>
+		<path pathLength="1" d="M126.7 122.3 L123 119 L122 123.9"/>
+		<path pathLength="1" d="M298 236 L258 128 L296 62"/>
+		<path pathLength="1" d="M279.8 179.8 L276 176.6 L275.2 181.5"/>
+		<path pathLength="1" d="M277 100 L277 95 L272.7 97.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M142 176 L143.4 176.7 L144.8 177.4 L146.1 177.8 L147.3 177.9 L148.4 177.7 L149.3 177.1 L150 176.2 L150.6 175 L151.2 173.5 L151.7 172 L152.2 170.5 L152.7 169 L153.3 167.8 L154.1 166.9 L155 166.3 L156 166.1 L157.2 166.2 L158.5 166.6 L159.9 167.3 L161.3 168 L162.8 168.7 L164.2 169.4 L165.5 169.8 L166.7 169.9 L167.7 169.7 L168.6 169.1 L169.3 168.2 L170 167 L170.5 165.5 L171 164 L171.5 162.5 L172 161 L172.7 159.8 L173.4 158.9 L174.3 158.3 L175.3 158.1 L176.5 158.2 L177.8 158.6 L179.2 159.3 L180.7 160 L182.1 160.7 L183.5 161.4 L184.8 161.8 L186 161.9 L187 161.7 L187.9 161.1 L188.7 160.2 L189.3 159 L189.8 157.5 L190.3 156 L190.8 154.5 L191.4 153 L192 151.8 L192.7 150.9 L193.6 150.3 L194.7 150.1 L195.9 150.2 L197.2 150.6 L198.6 151.3 L200 152 L201.4 152.7 L202.8 153.4 L204.1 153.8 L205.3 153.9 L206.4 153.7 L207.3 153.1 L208 152.2 L208.6 151 L209.2 149.5 L209.7 148 L210.2 146.5 L210.7 145 L211.3 143.8 L212.1 142.9 L213 142.3 L214 142.1 L215.2 142.2 L216.5 142.6 L217.9 143.3 L219.3 144 L220.8 144.7 L222.2 145.4 L223.5 145.8 L224.7 145.9 L225.7 145.7 L226.6 145.1 L227.3 144.2 L228 143 L228.5 141.5 L229 140 L229.5 138.5 L230 137 L230.7 135.8 L231.4 134.9 L232.3 134.3 L233.3 134.1 L234.5 134.2 L235.8 134.6 L237.2 135.3 L238.7 136 L240.1 136.7 L241.5 137.4 L242.8 137.8 L244 137.9 L245 137.7 L245.9 137.1 L246.7 136.2 L247.3 135 L247.8 133.5 L248.3 132 L248.8 130.5 L249.4 129 L250 127.8 L250.7 126.9 L251.6 126.3 L252.7 126.1 L253.9 126.2 L255.2 126.6 L256.6 127.3 L258 128"/>
+		<path pathLength="1" d="M139.6 176 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M255.6 128 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M24 236 L24 58"/>
+		<path pathLength="1" d="M26.5 62.3 L24 58 L21.5 62.3"/>
+		<text x="32" y="58" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TIME</text>
+		<text x="200" y="22" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PHYS. REV. 76, 772 · FIG. 1 · ONE QUANTUM EXCHANGED</text>
+		<text x="104" y="240" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="306" y="240" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="96" y="62" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="304" y="62" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4</text>
+		<text x="133" y="178" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5</text>
+		<text x="267" y="134" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">6</text>
+		<text x="134" y="212" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">K₊(5,1)</text>
+		<text x="130" y="118" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">K₊(3,5)</text>
+		<text x="284" y="188" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">K₊(6,2)</text>
+		<text x="284" y="100" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">K₊(4,6)</text>
+		<text x="204" y="138" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">δ₊(s²₅₆)</text>
+		<text x="150" y="196" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">γμ</text>
+		<text x="250" y="148" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">γμ</text>
+		<text x="200" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">K(3,4;1,2) = −ie² ∫∫ K₊(3,5) K₊(4,6) γμ γμ</text>
+		<text x="200" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">× δ₊(s²₅₆) K₊(5,1) K₊(6,2) dτ₅ dτ₆</text>
+	</g>
+</svg>
