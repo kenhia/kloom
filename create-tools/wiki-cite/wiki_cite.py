@@ -4,7 +4,8 @@
 
 Prints a JSON list, one kloom `wikipedia` citation per title, each pointing
 at the article's current revision (`oldid=`) and dated by it. Redirects are
-followed; a missing article is an error. Standard library only.
+followed. A missing article is named on stderr and exits 1, after the
+citations that were found are printed. Standard library only.
 """
 import argparse, datetime, json, sys, time, urllib.error, urllib.parse, urllib.request
 
@@ -48,7 +49,8 @@ def revisions(titles):
                 name = renamed[name]
             page = pages.get(name)
             if not page or 'missing' in page:
-                sys.exit(f'wiki_cite: no article "{t}"')
+                print(f'wiki_cite: no article "{t}"', file=sys.stderr)
+                continue
             rev = page['revisions'][0]
             out[t] = (name, rev['revid'], rev['timestamp'][:10])
     return out
@@ -73,7 +75,9 @@ def main():
     ap.add_argument('--accessed', default=datetime.date.today().isoformat())
     a = ap.parse_args()
     revs = revisions(a.titles)
-    print(json.dumps([citation(*revs[t], a.accessed) for t in a.titles], indent='\t', ensure_ascii=False))
+    print(json.dumps([citation(*revs[t], a.accessed) for t in a.titles if t in revs], indent='\t', ensure_ascii=False))
+    if len(revs) < len(a.titles):
+        sys.exit(1)  # the others are printed; a missing article is still an error
 
 
 if __name__ == '__main__':

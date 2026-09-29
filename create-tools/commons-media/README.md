@@ -21,8 +21,10 @@ python3 create-tools/commons-media/commons_media.py fetch "File:Name.jpg" subjec
   file page's own metadata. Rewrite its `title` into a description of the
   work, and its `container` into where the work is from, as the curated
   frames do.
-- Anything but public domain or CC0 gets a caption credit in the reading
-  (docs/design.md §Citations).
+- Anything but public domain or CC0 gets a caption credit, which the page
+  builds from the `media` citation (docs/design.md §Citations). Write no
+  credit or caption line under the image yourself.
+- An unknown author is left out of the citation, not written as "Unknown".
 - Standard library only.
 
 Commons metadata is what uploaders typed. Open the file page and look at the
