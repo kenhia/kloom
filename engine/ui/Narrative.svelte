@@ -17,9 +17,22 @@
 		element?: HTMLElement;
 		/** Extra controls at the end of the toolbar (the settings gear). */
 		tools?: Snippet;
+		/** The tabs layout: the id of the tab this pane is the panel of. */
+		tab?: string | null;
+		hidden?: boolean;
 	}
 
-	let { frame, spineFrame, sync, trails, onenter, element = $bindable(), tools }: Props = $props();
+	let {
+		frame,
+		spineFrame,
+		sync,
+		trails,
+		onenter,
+		element = $bindable(),
+		tools,
+		tab = null,
+		hidden = false
+	}: Props = $props();
 
 	const behind = $derived(frame.id !== spineFrame.id);
 
@@ -30,7 +43,13 @@
 	});
 </script>
 
-<section class="narrative" aria-label="Narrative">
+<section
+	id="narrative-panel"
+	class="narrative"
+	aria-label="Narrative"
+	role={tab ? 'tabpanel' : undefined}
+	{hidden}
+>
 	<div class="controls">
 		<p id="sync-state" class="state" aria-live="polite">
 			{#if behind}
@@ -109,6 +128,9 @@
 </section>
 
 <style>
+	.narrative[hidden] {
+		display: none;
+	}
 	.narrative {
 		display: grid;
 		grid-template-rows: auto minmax(0, 1fr);

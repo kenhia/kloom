@@ -29,7 +29,62 @@ hook.
 
 ## Layout
 
-Three panes: **spine scroller** (left), **narrative** (right), **AI** (bottom).
+Three panes: the **spine scroller** on the left, and the **narrative** and the
+**AI** pane on the right. Where the AI pane sits is a reader setting, "Layout"
+(`kloom.layout`, sprint 010, korg 3377). Streamed answers in a bottom strip
+competed with the reading for height, so four layouts were built and compared:
+
+- **Two panes, Narrative and AI as tabs** (`tabs`): the default, and **Ken's
+  pick** (2026-09-28). The right-hand pane has two tabs, Narrative and AI. The
+  AI control (§The AI control) stays at the foot of the pane under **both**
+  tabs, so a reader can keep reading while they type a question. The AI tab
+  holds the results: the answer, its actions and the grow jobs. Sending does
+  not switch tabs. When a result lands while the Narrative tab is showing, the
+  AI tab gets a dot and the status line says "Answer ready, on the AI tab",
+  with a "Show it" link. Switching to the AI tab clears it. The settings gear
+  moves up into the tab row, so it stays reachable from either tab.
+- **Three columns** (`columns`): spine | narrative | AI. Ken's alternative,
+  kept as the switch away from tabs.
+- **AI along the bottom** (`strip`): the original layout.
+- **AI below the narrative** (`split`): the right-hand pane split vertically.
+
+The last two are still built so they can be compared. Dropping them is a
+settings-list edit (korg 3377's record).
+
+**Keyboard in the tabs layout** (the ARIA tabs pattern): Tab reaches the
+selected tab only (a roving tabindex). Left and Right move between the tabs
+and wrap, and Home and End jump to the first and last. They activate the tab
+as they move. The tab handles those keys itself (`engine/keys.ts` `tabKey`),
+so the spine does not move while focus is on a tab. The tab list sits in
+neither `.spine` nor `.narrative`, so S, T and B do nothing there. The AI tab's
+panel is the AI pane's results region, inside `.ai`: Esc from it returns to the
+spine, and S, T and B stand down there, as in every layout. S also brings the
+Narrative tab forward, because syncing the reading means wanting to see it.
+
+**Dividers** (sprint 010, Ken, 2026-09-28): the reader can drag the line
+between panes, to shrink the picture while deep in the reading, say. Every
+layout has one between the spine and the right-hand side. Three columns has a
+second, before the AI pane, and the split has one between the narrative and
+the AI pane. A divider follows the ARIA window-splitter pattern
+(`Splitter.svelte`): a focusable `role="separator"` with its value as a
+percentage. Left/Right (Up/Down for the split's) move it 2%, Home/End jump to
+its limits, and Enter or a double-click puts it back. It handles those keys
+itself (`splitKey`), so the spine stays put. The limits keep the spine
+between a quarter and three quarters of the width, the AI column between 15%
+and 45%, the narrative at least a fifth in three columns, and the split
+between 20% and 85% (`engine/panes.ts`). A divider shares its pane's grid
+cell, so every pane is placed explicitly and the divider cannot push one
+along. Sizes are remembered per layout in `kloom.panes`: a size is not a pick
+from a list, so it is kept beside the settings registry, not in it.
+
+**The keyboard help** is one bar along the foot of the whole page, below every
+pane in every layout (Ken, 2026-09-28). It was the last line of the AI pane,
+where it took room from the text box.
+
+**Phone width** (below 760px): every layout collapses to one column (spine,
+then narrative, then AI). The tabs layout keeps its tabs, with the AI tab's
+panel taking the narrative's height. There are no dividers.
+
 A collapsible left nav may come later, once trails give it something to list.
 
 ## Content model
@@ -240,9 +295,11 @@ Built in sprint 004 (korg 3360).
   its frame and a line under it says the reader has moved on.
 - **Transient.** The answer shows in the AI pane, rendered with the reading's
   markdown rules and with images turned off (a model's image would be a
-  request to anywhere). It is not stored, and a reload forgets it. The
-  answer scrolls in a focusable region marked `data-own-keys`, so the
-  arrows scroll it. A `role="status"` line announces asking, queued,
+  request to anywhere). It is not stored, and a reload forgets it; the pane
+  holds the latest answer only (no history; a taller pane did not change
+  that, sprint 010). The results (answer and grow jobs) scroll in one
+  focusable region, `#ai-results`, marked `data-own-keys`, so the arrows
+  scroll it. A `role="status"` line announces asking, queued,
   answering, ready, stopped and failed; the streaming text itself is not a
   live region.
 - **Keep this.** Once an answer is done, "Keep this" sends only its id to
@@ -285,8 +342,9 @@ Built in sprint 004 (korg 3360).
 Built in sprint 005 (korg 3376, Ken's decisions of 2026-09-27).
 
 - **An app setting.** `ask.web` is `allow` (committed), `offer` or `deny`,
-  and an absent `ask.web` means `deny`. The reader's control is an "Include
-  web" checkbox beside Send, shown unless the config is `deny`. It starts
+  and an absent `ask.web` means `deny`. The reader's control is a "Web"
+  checkbox stacked over the Ask button (sprint 010: it was "Include web",
+  beside Send), shown for the ask verb only and unless the config is `deny`. It starts
   checked under `allow` and unchecked under `offer`. It is a per-question
   choice, not a remembered setting.
 - **The server enforces it.** A request's `web: true` is honoured only when
@@ -403,11 +461,40 @@ Built in sprint 005 (korg 3364).
   it only if the config lists it. The job and the commit record it.
 - **API.** `POST /api/grow` `{subject, verb, frame, request, kept, model}`
   returns 202 and the job. `GET /api/grow?subject=` lists that subject's ten
-  newest. The AI pane's Grow
-  row is a verb select, a request field and Queue, with a job list. It
-  polls every 3s while a job is live, announces the outcome in the status
-  line, and reloads the page's data when one lands. After "Keep this", a
-  "Grow from this" button attaches the kept answer.
+  newest. Grow is asked for through the AI pane's one control (§The AI
+  control); its job list sits in the results. The pane polls every 3s while
+  a job is live, announces the outcome in the status line, and reloads the
+  page's data when one lands. After "Keep this", a "Grow from this" button
+  attaches the kept answer and picks a grow verb.
+
+## The AI control
+
+Ask and grow are one control (sprint 010, korg 3411): a verb, one text box
+and a send button, in that Tab order (the "Web" box sits between the text and
+the button when it shows). The verb has its own row; the text box takes the
+rest of the width beside a narrow column of Web over a small button, so a
+question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine/ai/control.ts`.
+
+- **The verb** is a native `<select>`. "Ask a question" is first and the
+  default. Grow's verbs follow ("Grow: new frames on the main spine", "Grow:
+  a side trail from this frame", "Grow: a new frame with its own trail") only
+  when the app config has grow. Without grow there is no select at all, only
+  the text box and Ask.
+- **What follows from the verb:** the button's word (Ask or Grow), the
+  placeholder, the text box's label, and the model setting that applies (Ask
+  model or Grow model). "Web" is offered for ask only; grow's web
+  access is the app config's `grow.web`.
+- **Grow reads as the bigger action**, without a confirm dialog. Its button
+  is outlined and bold, and a line under the control says the job runs on the
+  grow model and commits new content to the subject. A confirm was rejected:
+  the reader has already chosen a grow verb on purpose, and the verb resets
+  (next point), so an accidental grow takes two deliberate steps.
+- **The verb resets to Ask after each grow** is queued. Grow spends and
+  commits, so it is never the sticky choice. That reset is also the quick way
+  back to Ask, so there is no separate shortcut.
+- **Enter sends and Shift+Enter starts a new line**, for either verb. While
+  an answer streams, the Ask button reads Stop. Choosing a grow verb
+  mid-answer still queues the job; the answer carries on.
 
 ## Interaction
 
@@ -429,7 +516,9 @@ Built in sprint 005 (korg 3364).
   trail branching from the current frame and Esc leaves it (S matters only
   when the reader has turned following off); B bookmarks the frame on the
   spine, or removes its bookmark (§Reader data); Tab moves into
-  and out of the AI pane, and Esc anywhere in it returns to the spine. Keys
+  and out of the AI pane, and Esc anywhere in it returns to the spine. In the
+  tabs layout, the arrows on a tab move between the tabs, and on a divider
+  they move the divider (§Layout). Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
 - **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
@@ -784,6 +873,8 @@ Built in sprint 003 (korg 3373, 3372).
   lists it, so a client string never reaches the command line. The **grow
   model** (sprint 005) is a second row built the same way: "Grow model",
   Opus 5.5 by default, `kloom.growModel`.
+- **The layout** (sprint 010) is a row too: "Layout", two panes with tabs by
+  default, `kloom.layout` (§Layout).
 - **The registry.** `engine/settings.ts` defines a `Setting` as
   `{id, label, choices: [{value, label}], default, storageKey}`. Every
   setting is a pick from a fixed list, and there is no free-text kind. A

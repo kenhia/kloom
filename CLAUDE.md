@@ -89,7 +89,11 @@ from citations flagged `key`), charts inlined so they follow the palette
 mode, and `create-tools/read-source` for PDFs and scans;
 sprint 009 reader data (a SQLite store behind `ReaderStore`, keyed by
 reader and subject, with export and import), the last place offered on the
-start screen, bookmarks, and deep links (`/<subject>/<frame>`).
+start screen, bookmarks, and deep links (`/<subject>/<frame>`);
+sprint 010 the AI pane's layout as a reader setting (two panes with
+Narrative and AI tabs by default, three columns the alternative), draggable
+pane dividers, and one Ask/Grow control (a verb, one text box, a send
+button).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

@@ -58,7 +58,7 @@
 	}
 </script>
 
-<section class="spine" aria-label="Spine" bind:this={pane}>
+<section id="spine-pane" class="spine" aria-label="Spine" bind:this={pane}>
 	<span class="bracket tl" aria-hidden="true"></span>
 	<span class="bracket tr" aria-hidden="true"></span>
 	<span class="bracket bl" aria-hidden="true"></span>

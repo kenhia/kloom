@@ -120,6 +120,27 @@ export const followSpine: Setting = {
 	storageKey: 'kloom.followSpine'
 };
 
+/**
+ * Where the AI pane sits (docs/design.md §Layout, korg 3377). Ken's pick is
+ * two panes with tabs, and three columns is the alternative. The bottom strip
+ * and the right-hand split are kept so they can be compared side by side.
+ * Below 760px every layout collapses to one column; tabs keep their tabs.
+ */
+export const layout: Setting = {
+	id: 'layout',
+	label: 'Layout',
+	choices: [
+		{ value: 'tabs', label: 'Two panes, Narrative and AI as tabs' },
+		{ value: 'columns', label: 'Three columns' },
+		{ value: 'strip', label: 'AI along the bottom' },
+		{ value: 'split', label: 'AI below the narrative' }
+	],
+	default: 'tabs',
+	storageKey: 'kloom.layout'
+};
+
+export type Layout = 'tabs' | 'columns' | 'strip' | 'split';
+
 /** The ask model's setting id; the AI pane reads the reader's pick under it. */
 export const ASK_MODEL = 'askModel';
 

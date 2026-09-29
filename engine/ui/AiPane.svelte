@@ -2,11 +2,12 @@
 	// Escape anywhere in this pane returns to the spine; the shell handles it.
 	import { onMount } from 'svelte';
 	import { readAskStream } from '../ai/client';
-	import type { GrowJob, GrowVerb } from '../ai/grow';
+	import { aiVerbs, isGrow, type AiVerb } from '../ai/control';
+	import type { GrowJob } from '../ai/grow';
 	import type { AiOffer } from '../ai/provider';
 	import { renderMarkdown } from '../markdown';
 	import type { Frame, Trail } from '../model';
-	import { ASK_MODEL, GROW_MODEL } from '../settings';
+	import { ASK_MODEL, GROW_MODEL, type Layout } from '../settings';
 	import type { UserSettings } from '../user-settings.svelte';
 
 	interface Props {
@@ -27,6 +28,14 @@
 		titleOf?: (id: string) => string;
 		/** A grow job finished and committed: the page reloads the subject. */
 		ongrown?: () => void;
+		/** Where the shell puts this pane (§Layout); it decides how the results scroll. */
+		layout?: Layout;
+		/** False while the results are out of sight: the tabs layout, on the Narrative tab. */
+		showResults?: boolean;
+		/** Bring the results into sight (the tabs layout: the AI tab). */
+		onshow?: () => void;
+		/** What the tab can say about the pane changed: working, or a result not yet seen. */
+		onactivity?: (activity: 'idle' | 'working' | 'ready') => void;
 	}
 
 	let {
@@ -37,7 +46,11 @@
 		offer,
 		mainFrames = [],
 		titleOf = (id) => id,
-		ongrown
+		ongrown,
+		layout = 'strip',
+		showResults = true,
+		onshow,
+		onactivity
 	}: Props = $props();
 
 	type Phase = 'asking' | 'queued' | 'answering' | 'done' | 'stopped' | 'failed';
@@ -59,7 +72,8 @@
 		web: boolean;
 	}
 
-	let question = $state('');
+	/** The one text box: a question, or what grow should write. */
+	let text = $state('');
 	// "Include web": shown unless the app denies it, checked when it allows it.
 	let includeWeb = $derived(offer.web === 'allow');
 	let turn = $state<Turn | null>(null);
@@ -140,7 +154,8 @@
 					mine.text += e.text;
 				} else if (e.type === 'done') {
 					mine.phase = 'done';
-					status = 'Answer ready.';
+					status = showResults ? 'Answer ready.' : 'Answer ready, on the AI tab.';
+					if (!showResults) unseen = true;
 				} else if (e.type === 'error') fail(e.message);
 			});
 			if (['asking', 'queued', 'answering'].includes(mine.phase)) fail('The answer was cut off.');
@@ -151,10 +166,11 @@
 
 	function submit(e: SubmitEvent) {
 		e.preventDefault();
+		if (isGrow(verb)) return queueGrow();
 		if (running) return stop();
-		const q = question.trim();
+		const q = text.trim();
 		if (!q) return;
-		question = '';
+		text = '';
 		ask(q);
 	}
 
@@ -186,38 +202,32 @@
 
 	// --- Grow: queue a job, then follow it until it lands or fails. ---
 
-	const VERBS: { value: GrowVerb; label: string; placeholder: string }[] = [
-		{
-			value: 'frames',
-			label: 'New frames on the main spine',
-			placeholder: 'What the main story should add…'
-		},
-		{
-			value: 'trail',
-			label: 'A side trail from this frame',
-			placeholder: 'What the side trail should follow…'
-		},
-		{
-			value: 'both',
-			label: 'A new frame with its own trail',
-			placeholder: 'A new frame, and the trail it opens…'
-		}
-	];
+	const verbs = $derived(aiVerbs(!!offer.grow));
+	const verbOf = (v: AiVerb) => verbs.find((x) => x.value === v) ?? verbs[0];
 	const LIVE = ['queued', 'running', 'applying'];
 
-	let verb = $state<GrowVerb>('frames');
-	let growText = $state('');
+	/** Ask by default; back to ask after every grow, because grow spends and commits. */
+	let verb = $state<AiVerb>('ask');
+	const current = $derived(verbOf(verb));
 	/** A kept answer the next job turns into content. */
 	let growKept = $state<{ id: string; frame: string; about: string } | null>(null);
 	let growing = $state(false);
 	let jobs = $state<GrowJob[]>([]);
-	let growInput = $state<HTMLInputElement>();
+	let input = $state<HTMLTextAreaElement>();
+	/** A result arrived while out of sight. */
+	let unseen = $state(false);
 	let poll: ReturnType<typeof setTimeout> | undefined;
 
 	/** The frame a job would grow from: the kept answer's, or the one being read. */
 	const growAnchor = $derived(growKept?.frame ?? frame.id);
 	const anchorOnMain = $derived(mainFrames.includes(growAnchor));
-	const placeholder = $derived(VERBS.find((v) => v.value === verb)!.placeholder);
+
+	$effect(() => {
+		if (showResults) unseen = false;
+	});
+	$effect(() => {
+		onactivity?.(unseen ? 'ready' : running ? 'working' : 'idle');
+	});
 
 	$effect(() => {
 		if (verb === 'trail' && !anchorOnMain) verb = 'frames';
@@ -227,6 +237,9 @@
 		if (offer.grow) refreshJobs(true);
 		return () => clearTimeout(poll);
 	});
+
+	/** A grow verb's label without its "Grow: " prefix. */
+	const growLabel = (v: AiVerb) => verbOf(v).label.replace(/^Grow: /, '');
 
 	function jobText(job: GrowJob) {
 		switch (job.status) {
@@ -263,16 +276,17 @@
 					status = `Grow ${jobText(j)}.`;
 					ongrown?.();
 				} else if (j.status === 'failed') status = `Grow ${jobText(j)}`;
+				else continue;
+				if (!showResults) unseen = true;
 			}
 		}
 		jobs = next;
 		if (jobs.some((j) => LIVE.includes(j.status))) poll = setTimeout(refreshJobs, 3000);
 	}
 
-	async function queueGrow(e: SubmitEvent) {
-		e.preventDefault();
-		const request = growText.trim();
-		if (growing || (!request && !growKept)) return;
+	async function queueGrow() {
+		const request = text.trim();
+		if (growing || !isGrow(verb) || (!request && !growKept)) return;
 		growing = true;
 		try {
 			const res = await fetch('/api/grow', {
@@ -290,9 +304,10 @@
 			const body = await res.json().catch(() => null);
 			if (!res.ok) throw new Error(body?.message ?? `status ${res.status}`);
 			const job = body.job as GrowJob;
-			status = `Grow queued: ${VERBS.find((v) => v.value === job.verb)!.label.toLowerCase()}, on ${modelLabel(job.model, GROW_MODEL)}.`;
-			growText = '';
+			status = `Grow queued: ${growLabel(job.verb)}, on ${modelLabel(job.model, GROW_MODEL)}.`;
+			text = '';
 			growKept = null;
+			verb = 'ask';
 			jobs = [job, ...jobs.filter((j) => j.id !== job.id)];
 			refreshJobs();
 		} catch (err) {
@@ -307,7 +322,7 @@
 		if (!turn?.id || turn.kept !== 'kept') return;
 		growKept = { id: turn.id, frame: turn.frame, about: turn.about };
 		verb = mainFrames.includes(turn.frame) ? 'trail' : 'frames';
-		growInput?.focus();
+		input?.focus();
 	}
 
 	function keydown(e: KeyboardEvent) {
@@ -318,97 +333,63 @@
 	}
 </script>
 
-<section class="ai" aria-labelledby="ai-title">
-	<h2 id="ai-title" class="title">Ask</h2>
-	<form onsubmit={submit}>
-		<label for="ai-input" class="visually-hidden">Ask a question about this frame</label>
-		<textarea
-			id="ai-input"
-			rows="1"
-			placeholder="Ask about what you are reading…"
-			aria-describedby="ai-hint"
-			maxlength="2000"
-			bind:value={question}
-			onkeydown={keydown}></textarea>
-		{#if offer.web !== 'deny'}
-			<label class="web">
-				<input type="checkbox" bind:checked={includeWeb} />
-				Include web
-			</label>
-		{/if}
-		<button type="submit">{running ? 'Stop' : 'Send'}</button>
-	</form>
+<section id="ai-pane" class="ai {layout}" aria-labelledby="ai-title">
+	<h2 id="ai-title" class="title" class:visually-hidden={layout === 'tabs'}>AI</h2>
 
-	{#if turn}
-		<!-- Focusable because it scrolls; once focused the arrows scroll it, so the page's keys stand down. -->
-		<!-- svelte-ignore a11y_no_noninteractive_tabindex -->
-		<article
-			class="answer"
-			tabindex="0"
-			aria-labelledby="ai-answer-title"
-			aria-busy={running}
-			data-own-keys
-		>
-			<h3 id="ai-answer-title" class="about">
-				<span class="visually-hidden">Answer about</span>
-				<span aria-hidden="true">About</span>
-				{turn.about} · {turn.model}{turn.web ? ' · web' : ''}
-			</h3>
-			{#if turn.frame !== frame.id}
-				<p class="moved">You have moved on; this answer stays with the frame it was asked about.</p>
-			{/if}
-			<p class="question">{turn.question}</p>
-			{#if answerHtml}
-				<!-- Rendered by renderMarkdown: raw HTML escaped, unsafe links dropped, no images. -->
-				<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-				<div class="text">{@html answerHtml}</div>
-			{/if}
-		</article>
-		{#if turn.phase === 'done'}
-			<div class="actions">
-				<button type="button" onclick={keepThis} disabled={turn.kept !== 'no'}>
-					{turn.kept === 'kept' ? 'Kept' : turn.kept === 'keeping' ? 'Keeping…' : 'Keep this'}
-				</button>
-				{#if offer.grow && turn.kept === 'kept'}
-					<button type="button" onclick={growFrom}>Grow from this</button>
+	<!-- Focusable because it scrolls; once focused the arrows scroll it, so the page's keys stand down. -->
+	<!-- svelte-ignore a11y_no_noninteractive_tabindex -->
+	<div
+		id="ai-results"
+		class="results"
+		class:empty={!turn && !jobs.length}
+		role={layout === 'tabs' ? 'tabpanel' : 'region'}
+		aria-labelledby={layout === 'tabs' ? 'tab-ai' : undefined}
+		aria-label={layout === 'tabs' ? undefined : 'AI results'}
+		tabindex="0"
+		hidden={!showResults}
+		data-own-keys
+	>
+		{#if turn}
+			<article class="answer" aria-labelledby="ai-answer-title" aria-busy={running}>
+				<h3 id="ai-answer-title" class="about">
+					<span class="visually-hidden">Answer about</span>
+					<span aria-hidden="true">About</span>
+					{turn.about} · {turn.model}{turn.web ? ' · web' : ''}
+				</h3>
+				{#if turn.frame !== frame.id}
+					<p class="moved">
+						You have moved on; this answer stays with the frame it was asked about.
+					</p>
 				{/if}
-				<span class="note">Answers are not saved unless you keep them.</span>
-			</div>
+				<p class="question">{turn.question}</p>
+				{#if answerHtml}
+					<!-- Rendered by renderMarkdown: raw HTML escaped, unsafe links dropped, no images. -->
+					<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+					<div class="text">{@html answerHtml}</div>
+				{/if}
+			</article>
+			{#if turn.phase === 'done'}
+				<div class="actions">
+					<button type="button" onclick={keepThis} disabled={turn.kept !== 'no'}>
+						{turn.kept === 'kept' ? 'Kept' : turn.kept === 'keeping' ? 'Keeping…' : 'Keep this'}
+					</button>
+					{#if offer.grow && turn.kept === 'kept'}
+						<button type="button" onclick={growFrom}>Grow from this</button>
+					{/if}
+					<span class="note">Answers are not saved unless you keep them.</span>
+				</div>
+			{/if}
+		{:else if !jobs.length}
+			<p class="note">Answers{offer.grow ? ' and grow jobs' : ''} appear here.</p>
 		{/if}
-	{/if}
 
-	{#if offer.grow}
-		<h3 id="grow-title" class="title grow-title">Grow</h3>
-		<form class="grow" onsubmit={queueGrow} aria-labelledby="grow-title">
-			<label for="grow-verb" class="visually-hidden">What to grow</label>
-			<select id="grow-verb" bind:value={verb}>
-				{#each VERBS as v (v.value)}
-					<option value={v.value} disabled={v.value === 'trail' && !anchorOnMain}>{v.label}</option>
-				{/each}
-			</select>
-			<label for="grow-input" class="visually-hidden">What grow should write</label>
-			<input
-				id="grow-input"
-				type="text"
-				maxlength="2000"
-				{placeholder}
-				bind:value={growText}
-				bind:this={growInput}
-			/>
-			<button type="submit" disabled={growing}>Queue</button>
-		</form>
-		{#if growKept}
-			<p class="kept-chip">
-				From your kept answer about {growKept.about}
-				<button type="button" class="link" onclick={() => (growKept = null)}>Don’t use it</button>
-			</p>
-		{/if}
 		{#if jobs.length}
+			<h3 class="about">Grow jobs</h3>
 			<ul class="jobs" aria-label="Grow jobs">
 				{#each jobs as job (job.id)}
 					<li class={job.status}>
 						<span class="what">
-							{VERBS.find((v) => v.value === job.verb)?.label} · from {titleOf(job.anchor)} ·
+							{growLabel(job.verb)} · from {titleOf(job.anchor)} ·
 							{modelLabel(job.model, GROW_MODEL)}
 						</span>
 						<span class="state">{jobText(job)}</span>
@@ -424,24 +405,80 @@
 				{/each}
 			</ul>
 		{/if}
+	</div>
+
+	<form class="control" onsubmit={submit}>
+		{#if verbs.length > 1}
+			<label for="ai-verb" class="visually-hidden">What to do</label>
+			<select id="ai-verb" bind:value={verb}>
+				{#each verbs as v (v.value)}
+					<option value={v.value} disabled={v.value === 'trail' && !anchorOnMain}>{v.label}</option>
+				{/each}
+			</select>
+		{/if}
+		<label for="ai-input" class="visually-hidden">
+			{isGrow(verb) ? 'What grow should write' : 'Ask a question about this frame'}
+		</label>
+		<textarea
+			id="ai-input"
+			rows="1"
+			placeholder={current.placeholder}
+			aria-describedby="ai-hint"
+			maxlength="2000"
+			bind:value={text}
+			bind:this={input}
+			onkeydown={keydown}></textarea>
+		<div class="send">
+			{#if offer.web !== 'deny' && !isGrow(verb)}
+				<label class="web" title="Let the model search the web for this question">
+					<input type="checkbox" bind:checked={includeWeb} />
+					Web
+				</label>
+			{/if}
+			{#if isGrow(verb)}
+				<button type="submit" class="grow" disabled={growing}>{current.send}</button>
+			{:else}
+				<button type="submit">{running ? 'Stop' : current.send}</button>
+			{/if}
+		</div>
+	</form>
+	{#if isGrow(verb)}
+		<p class="note grow-note">
+			Grow queues a job on {modelLabel(settings.get(GROW_MODEL) ?? '', GROW_MODEL)} that writes new content
+			and commits it to this subject.
+		</p>
+		{#if growKept}
+			<p class="note">
+				From your kept answer about {growKept.about}
+				<button type="button" class="link" onclick={() => (growKept = null)}>Don’t use it</button>
+			</p>
+		{/if}
 	{/if}
 
-	<p class="status" role="status">{status}</p>
-	<p id="ai-hint" class="hint">
-		<kbd>←</kbd><kbd>→</kbd> spine · <kbd>↑</kbd><kbd>↓</kbd> narrative · <kbd>S</kbd> sync,
-		<kbd>T</kbd> trail and <kbd>B</kbd> bookmark, in the spine or narrative · <kbd>Tab</kbd> into
-		and out of Ask ·
-		<kbd>Esc</kbd> back to the spine
-	</p>
+	<div class="status-line">
+		<p class="status" role="status">{status}</p>
+		{#if !showResults && unseen}
+			<button type="button" class="link" onclick={onshow}>Show it</button>
+		{/if}
+	</div>
 </section>
 
 <style>
 	.ai {
-		display: grid;
-		grid-template-columns: auto minmax(0, 1fr);
-		align-items: center;
-		gap: 0.25rem 1rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.4rem;
+		min-height: 0;
 		padding: 0.75rem 1.5rem;
+	}
+	.strip {
+		border-top: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
+	}
+	.columns {
+		border-left: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
+	}
+	.split,
+	.tabs {
 		border-top: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
 	}
 	.title {
@@ -453,29 +490,75 @@
 		text-transform: uppercase;
 		color: var(--muted);
 	}
-	form {
+	/* A tall pane: the results take the height and scroll; the control stays at the foot. */
+	.results {
+		flex: 1 1 auto;
+		min-height: 0;
+		overflow-y: auto;
 		display: flex;
+		flex-direction: column;
 		gap: 0.5rem;
 	}
-	textarea {
-		flex: 1;
+	.results[hidden] {
+		display: none;
+	}
+	.strip .results {
+		flex: 0 1 auto;
+		max-height: 35vh;
+	}
+	.strip .results.empty {
+		display: none;
+	}
+	/* The verb on its own row; the text box beside a narrow column of Web over the button. */
+	.control {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		gap: 0.4rem 0.5rem;
+	}
+	.control select {
+		grid-column: 1 / -1;
+		justify-self: start;
+	}
+	.send {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: stretch;
+		gap: 0.25rem;
+	}
+	textarea,
+	select {
 		font: inherit;
-		resize: vertical;
-		min-height: 2.25rem;
-		padding: 0.4rem 0.6rem;
 		color: var(--ink);
 		background: color-mix(in srgb, var(--ink) 6%, transparent);
 		border: 1px solid var(--muted);
 		border-radius: 0.25rem;
 	}
+	textarea {
+		resize: vertical;
+		min-height: 2.25rem;
+		padding: 0.4rem 0.6rem;
+	}
+	select {
+		font-size: 0.85rem;
+		padding: 0.3rem 0.5rem;
+		max-width: 100%;
+	}
 	button {
 		font: inherit;
-		padding: 0 1rem;
+		font-size: 0.85rem;
+		padding: 0.2rem 0.6rem;
 		color: var(--background);
 		background: var(--accent);
 		border: 0;
 		border-radius: 0.25rem;
 		cursor: pointer;
+	}
+	/* Grow commits: its button reads as the bigger action. */
+	button.grow {
+		outline: 2px solid var(--accent);
+		outline-offset: 2px;
+		font-weight: bold;
 	}
 	.web {
 		display: flex;
@@ -489,42 +572,6 @@
 		cursor: default;
 		opacity: 0.6;
 	}
-	.answer,
-	.actions,
-	.status,
-	.hint,
-	.kept-chip,
-	.jobs {
-		grid-column: 2;
-		margin: 0;
-	}
-	.grow-title {
-		grid-column: 1;
-	}
-	.grow input,
-	.grow select {
-		font: inherit;
-		font-size: 0.85rem;
-		padding: 0.3rem 0.5rem;
-		color: var(--ink);
-		background: color-mix(in srgb, var(--ink) 6%, transparent);
-		border: 1px solid var(--muted);
-		border-radius: 0.25rem;
-	}
-	.grow input {
-		flex: 1;
-		min-width: 8rem;
-	}
-	.grow select {
-		max-width: 100%;
-	}
-	.grow {
-		flex-wrap: wrap;
-	}
-	.kept-chip {
-		font-size: 0.8rem;
-		color: var(--muted);
-	}
 	.link {
 		padding: 0;
 		color: var(--accent);
@@ -533,6 +580,7 @@
 	}
 	.jobs {
 		list-style: none;
+		margin: 0;
 		padding: 0;
 		font-size: 0.8rem;
 	}
@@ -554,8 +602,6 @@
 		font-size: 0.7rem;
 	}
 	.answer {
-		max-height: 35vh;
-		overflow-y: auto;
 		padding: 0.5rem 0.75rem;
 		border-left: 2px solid var(--accent);
 		background: color-mix(in srgb, var(--ink) 4%, transparent);
@@ -587,6 +633,7 @@
 	}
 	.actions {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 		gap: 0.75rem;
 	}
@@ -594,34 +641,20 @@
 		padding: 0.25rem 0.75rem;
 	}
 	.note,
-	.status,
-	.hint {
+	.status {
+		margin: 0;
 		font-size: 0.8rem;
 		color: var(--muted);
 	}
+	.status-line {
+		display: flex;
+		gap: 0.75rem;
+		align-items: baseline;
+	}
+	.status-line .link {
+		font-size: 0.8rem;
+	}
 	.status:empty {
 		display: none;
-	}
-	kbd {
-		font-family: var(--mono);
-		font-size: 0.7rem;
-		padding: 0 0.25rem;
-		margin-right: 0.1rem;
-		border: 1px solid var(--muted);
-		border-radius: 0.2rem;
-	}
-	@media (max-width: 760px) {
-		.ai {
-			grid-template-columns: minmax(0, 1fr);
-		}
-		.answer,
-		.actions,
-		.status,
-		.hint,
-		.kept-chip,
-		.jobs,
-		.grow-title {
-			grid-column: 1;
-		}
 	}
 </style>
