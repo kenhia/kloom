@@ -40,6 +40,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -62,8 +63,16 @@ def get(url, tries=5):
             time.sleep(float(e.headers.get('Retry-After') or 2 ** attempt))
 
 
+# Letters NFKD does not take apart into a base letter and an accent.
+LETTERS = str.maketrans({'Ø': 'O', 'ø': 'o', 'Æ': 'AE', 'æ': 'ae', 'Œ': 'OE', 'œ': 'oe', 'ß': 'ss',
+                         'Ł': 'L', 'ł': 'l', 'Đ': 'D', 'đ': 'd', 'Þ': 'Th', 'þ': 'th', 'ð': 'd'})
+
+
 def slug(title):
-    return re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
+    """An id from a title: accents and apostrophes dropped (Gödel -> godel, Moore's -> moores), & as and."""
+    plain = unicodedata.normalize('NFKD', title.translate(LETTERS)).encode('ascii', 'ignore').decode()
+    plain = re.sub(r"['’]", '', plain).replace('&', ' and ')
+    return re.sub(r'[^a-z0-9]+', '-', plain.lower()).strip('-')
 
 
 def lookup(titles):
@@ -76,11 +85,17 @@ def lookup(titles):
             'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
         })
         data = get(f'{API}?{query}')['query']
-        renamed = {}
-        for step in data.get('normalized', []) + data.get('redirects', []):
-            renamed[step['to']] = renamed.get(step['from'], step['from'])
-        for page in data.get('pages', {}).values():
-            asked = renamed.get(page['title'], page['title'])
+        # Follow each asked title to its page: several may land on one.
+        step = {x['from']: x['to'] for x in data.get('normalized', []) + data.get('redirects', [])}
+        redirect = {x['from'] for x in data.get('redirects', [])}
+        pages = {page['title']: page for page in data.get('pages', {}).values()}
+        for asked in batch:
+            title, seen = asked, set()
+            while title in step and title not in seen:
+                seen.add(title)
+                title = step[title]
+            moved = bool(seen & redirect)
+            page = pages.get(title, {'missing': ''})
             props = page.get('pageprops', {})
             if 'missing' in page or 'invalid' in page:
                 out[asked] = {'missing': asked}
@@ -90,7 +105,7 @@ def lookup(titles):
                 out[asked] = {'ambiguous': asked, 'page': page['title']}
                 continue
             out[asked] = {
-                **({'redirected': page['title']} if asked != page['title'] else {}),
+                **({'redirected': page['title']} if moved else {}),
                 'id': slug(page['title']),
                 'wikidata': props.get('wikibase_item'),
                 'name': page['title'],
