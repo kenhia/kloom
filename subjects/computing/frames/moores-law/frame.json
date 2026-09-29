@@ -1,0 +1,253 @@
+{
+	"id": "moores-law",
+	"position": {
+		"label": "1965",
+		"sort": 1965
+	},
+	"scene": {
+		"headline": "The count kept",
+		"accent": "DOUBLING.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ELECTRONICS · 19 APRIL 1965",
+			"GORDON MOORE · FAIRCHILD, THEN INTEL",
+			"ROBERT DENNARD · IBM · 1974"
+		],
+		"counter": {
+			"value": "27",
+			"label": "doublings of transistors per processor, Intel 4004 (1971) to Nvidia Rubin (2026)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Cramming More Components onto Integrated Circuits",
+			"url": "https://download.intel.com/newsroom/2023/manufacturing/moores-law-electronics.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Moore",
+					"given": "Gordon E."
+				}
+			],
+			"container": "Electronics",
+			"published": "1965-04-19",
+			"volume": "38",
+			"issue": "8",
+			"key": true,
+			"note": "The factor of two a year and the 65,000 components"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Progress in Digital Integrated Electronics",
+			"url": "https://www.lithoguru.com/scientist/CHE323/Moore1975.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Moore",
+					"given": "Gordon E."
+				}
+			],
+			"container": "International Electron Devices Meeting, Technical Digest 1975",
+			"publisher": "IEEE",
+			"published": "1975",
+			"pages": "11–13",
+			"note": "The revision to two years is in the conclusion"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Design of Ion-Implanted MOSFET's with Very Small Physical Dimensions",
+			"url": "http://stanford.edu/class/cs114/readings/dennard.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dennard",
+					"given": "Robert H."
+				},
+				{
+					"family": "Gaensslen",
+					"given": "Fritz H."
+				},
+				{
+					"family": "Yu",
+					"given": "Hwa-Nien"
+				},
+				{
+					"family": "Rideout",
+					"given": "V. Leo"
+				},
+				{
+					"family": "Bassous",
+					"given": "Ernest"
+				},
+				{
+					"family": "LeBlanc",
+					"given": "Andre R."
+				}
+			],
+			"container": "IEEE Journal of Solid-State Circuits",
+			"published": "1974-10",
+			"doi": "10.1109/JSSC.1974.1050511",
+			"volume": "SC-9",
+			"issue": "5",
+			"pages": "256–268",
+			"note": "Table I, p. 265"
+		},
+		{
+			"kind": "web",
+			"title": "Intel Microprocessor Quick Reference Guide: Product Family",
+			"url": "https://www.intel.com/pressroom/kits/quickreffam.htm",
+			"accessed": "2026-09-28",
+			"container": "Intel Press Room",
+			"publisher": "Intel Corporation"
+		},
+		{
+			"kind": "web",
+			"title": "Apple unleashes M1",
+			"url": "https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/",
+			"accessed": "2026-09-28",
+			"container": "Apple Newsroom",
+			"publisher": "Apple",
+			"published": "2020-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Apple unveils M3, M3 Pro, and M3 Max, the most advanced chips for a personal computer",
+			"url": "https://www.apple.com/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/",
+			"accessed": "2026-09-28",
+			"container": "Apple Newsroom",
+			"publisher": "Apple",
+			"published": "2023-10-30"
+		},
+		{
+			"kind": "web",
+			"title": "Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI",
+			"url": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Alvarez",
+					"given": "Eduardo"
+				},
+				{
+					"family": "Mehta",
+					"given": "Vishal"
+				},
+				{
+					"family": "Ghodsian",
+					"given": "Farshad"
+				}
+			],
+			"container": "NVIDIA Technical Blog",
+			"publisher": "NVIDIA",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "web",
+			"title": "A Better Way to Measure Progress in Semiconductors",
+			"url": "https://spectrum.ieee.org/a-better-way-to-measure-progress-in-semiconductors",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Moore",
+					"given": "Samuel K."
+				}
+			],
+			"container": "IEEE Spectrum",
+			"publisher": "IEEE",
+			"published": "2020-07-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Moore's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Moore's_law&oldid=1372775556",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transistor count",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transistor_count&oldid=1374935977",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dennard scaling",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dennard_scaling&oldid=1374499424",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "article",
+			"title": "There's Plenty of Room at the Bottom",
+			"url": "https://calteches.library.caltech.edu/1976/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Engineering and Science",
+			"published": "1960-02",
+			"volume": "23",
+			"issue": "5",
+			"pages": "22–36"
+		},
+		{
+			"kind": "media",
+			"title": "Transistors on one processor, 1971–2026",
+			"url": "https://www.intel.com/pressroom/kits/quickreffam.htm",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from Intel’s Microprocessor Quick Reference Guide, Apple Newsroom (2020, 2023) and the NVIDIA Technical Blog (2026)",
+			"licence": "MIT",
+			"file": "transistor-counts.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		},
+		{
+			"kind": "media",
+			"title": "Gordon Moore and Robert Noyce at Intel, 1970",
+			"url": "https://commons.wikimedia.org/wiki/File:Gordon_Moore_and_Robert_Noyce_at_Intel_in_1970.png",
+			"accessed": "2026-09-28",
+			"container": "Intel Free Press, via Flickr and Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "moore-noyce.png",
+			"authors": [
+				{
+					"name": "Intel Free Press"
+				}
+			],
+			"published": "1970"
+		}
+	]
+}

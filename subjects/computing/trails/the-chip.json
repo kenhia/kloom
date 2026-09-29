@@ -1,0 +1,21 @@
+{
+	"id": "the-chip",
+	"title": "Transistor to Moore's law",
+	"anchor": "transistor",
+	"spine": {
+		"segments": [
+			{
+				"id": "chip",
+				"title": "The chip",
+				"labelKind": "date",
+				"frames": [
+					"silicon-valley",
+					"integrated-circuit",
+					"apollo-guidance",
+					"moores-law",
+					"end-of-scaling"
+				]
+			}
+		]
+	}
+}

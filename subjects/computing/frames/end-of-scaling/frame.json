@@ -1,0 +1,207 @@
+{
+	"id": "end-of-scaling",
+	"position": {
+		"label": "2005–2026",
+		"sort": 2005
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "The free lunch was",
+		"accent": "EATEN.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"POWER WALL · MULTICORE · FINFET · EUV",
+			"GATE-ALL-AROUND · CHIPLETS",
+			"INTEL · TSMC · SAMSUNG · ASML"
+		],
+		"counter": {
+			"value": "13.5 nm",
+			"label": "the wavelength of the light that prints the finest chips"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Dennard scaling",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dennard_scaling&oldid=1374499424",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software",
+			"url": "http://www.gotw.ca/publications/concurrency-ddj.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Sutter",
+					"given": "Herb"
+				}
+			],
+			"container": "Dr. Dobb's Journal",
+			"published": "2005-03"
+		},
+		{
+			"kind": "web",
+			"title": "A Better Way to Measure Progress in Semiconductors",
+			"url": "https://spectrum.ieee.org/a-better-way-to-measure-progress-in-semiconductors",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Moore",
+					"given": "Samuel K."
+				}
+			],
+			"container": "IEEE Spectrum",
+			"publisher": "IEEE",
+			"published": "2020-07-21",
+			"key": true,
+			"note": "Node names against measured dimensions, and Gargini on the limits of lithography"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Moore's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Moore's_law&oldid=1372775556",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02",
+			"note": "Gelsinger and Huang are quoted there, not read at first hand"
+		},
+		{
+			"kind": "web",
+			"title": "2nm Technology",
+			"url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm",
+			"accessed": "2026-09-28",
+			"container": "TSMC",
+			"publisher": "Taiwan Semiconductor Manufacturing Company"
+		},
+		{
+			"kind": "web",
+			"title": "Samsung Begins Chip Production Using 3nm Process Technology With GAA Architecture",
+			"url": "https://news.samsung.com/global/samsung-begins-chip-production-using-3nm-process-technology-with-gaa-architecture",
+			"accessed": "2026-09-28",
+			"container": "Samsung Global Newsroom",
+			"publisher": "Samsung Electronics",
+			"published": "2022-06-30"
+		},
+		{
+			"kind": "web",
+			"title": "Intel 18A",
+			"url": "https://www.intel.com/content/www/us/en/foundry/process/18a.html",
+			"accessed": "2026-09-28",
+			"container": "Intel Foundry",
+			"publisher": "Intel Corporation"
+		},
+		{
+			"kind": "web",
+			"title": "Light and lasers",
+			"url": "https://www.asml.com/en/technology/lithography-principles/light-and-lasers",
+			"accessed": "2026-09-28",
+			"container": "Lithography principles",
+			"publisher": "ASML"
+		},
+		{
+			"kind": "web",
+			"title": "Intel Microprocessor Quick Reference Guide: Product Family",
+			"url": "https://www.intel.com/pressroom/kits/quickreffam.htm",
+			"accessed": "2026-09-28",
+			"container": "Intel Press Room",
+			"publisher": "Intel Corporation"
+		},
+		{
+			"kind": "web",
+			"title": "Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI",
+			"url": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Alvarez",
+					"given": "Eduardo"
+				},
+				{
+					"family": "Mehta",
+					"given": "Vishal"
+				},
+				{
+					"family": "Ghodsian",
+					"given": "Farshad"
+				}
+			],
+			"container": "NVIDIA Technical Blog",
+			"publisher": "NVIDIA",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "EUV lithography",
+			"url": "https://en.wikipedia.org/w/index.php?title=EUV_lithography&oldid=1375699554",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "2 nm process",
+			"url": "https://en.wikipedia.org/w/index.php?title=2_nm_process&oldid=1377211517",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transistor count",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transistor_count&oldid=1374935977",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chiplet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chiplet&oldid=1376885823",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		}
+	]
+}

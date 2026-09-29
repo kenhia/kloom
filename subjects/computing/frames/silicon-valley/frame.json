@@ -1,0 +1,126 @@
+{
+	"id": "silicon-valley",
+	"position": {
+		"label": "1957",
+		"sort": 1957
+	},
+	"scene": {
+		"headline": "We sealed the junctions under",
+		"accent": "GLASS.",
+		"palette": "console",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MOUNTAIN VIEW · PALO ALTO",
+			"SHOCKLEY SEMICONDUCTOR · FAIRCHILD SEMICONDUCTOR",
+			"JEAN HOERNI · THE PLANAR PROCESS"
+		],
+		"counter": {
+			"value": "8",
+			"label": "who resigned from Shockley’s laboratory on 18 September 1957"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "1956: Silicon Comes to Silicon Valley",
+			"url": "https://www.computerhistory.org/siliconengine/silicon-comes-to-silicon-valley/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "1959: Invention of the \"Planar\" Manufacturing Process",
+			"url": "https://www.computerhistory.org/siliconengine/invention-of-the-planar-manufacturing-process/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Traitorous eight",
+			"url": "https://en.wikipedia.org/w/index.php?title=Traitorous_eight&oldid=1374232042",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "web",
+			"title": "Method of Manufacturing Semiconductor Devices",
+			"url": "https://patents.google.com/patent/US3025589A/en",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hoerni",
+					"given": "Jean A."
+				}
+			],
+			"container": "US Patent 3,025,589",
+			"publisher": "United States Patent Office",
+			"published": "1962-03-20",
+			"note": "Filed 1 May 1959"
+		},
+		{
+			"kind": "web",
+			"title": "1955: Development of Oxide Masking",
+			"url": "https://www.computerhistory.org/siliconengine/development-of-oxide-masking/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "web",
+			"title": "1958: Silicon Mesa Transistors Enter Commercial Production",
+			"url": "https://www.computerhistory.org/siliconengine/silicon-mesa-transistors-enter-commercial-production/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "web",
+			"title": "1954: Silicon Transistors Offer Superior Operating Characteristics",
+			"url": "https://www.computerhistory.org/siliconengine/silicon-transistors-offer-superior-operating-characteristics/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Shockley",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Shockley&oldid=1377052638",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "The historical marker at 391 San Antonio Road, Mountain View, site of the Shockley Semiconductor Laboratory",
+			"url": "https://commons.wikimedia.org/wiki/File:ShockleyBldg.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "shockley-marker.jpg",
+			"authors": [
+				{
+					"name": "Dicklyon"
+				}
+			],
+			"published": "2006-07-17"
+		}
+	]
+}

@@ -1,0 +1,169 @@
+{
+	"id": "apollo-guidance",
+	"position": {
+		"label": "1962–69",
+		"sort": 1962
+	},
+	"scene": {
+		"headline": "We wove the program into",
+		"accent": "ROPE.",
+		"palette": "console",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MIT INSTRUMENTATION LABORATORY · RAYTHEON · FAIRCHILD",
+			"NOR GATES · CORE ROPE · THE EXECUTIVE",
+			"APOLLO 11 · 20 JULY 1969"
+		],
+		"counter": {
+			"value": "60%",
+			"label": "of US microcircuit output going into Apollo prototypes, summer 1963, by Tomayko"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Computers in Spaceflight: The NASA Experience",
+			"url": "https://ntrs.nasa.gov/api/citations/19880069935/downloads/19880069935_Optimized.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Tomayko",
+					"given": "James E."
+				}
+			],
+			"publisher": "National Aeronautics and Space Administration",
+			"published": "1988-03",
+			"number": "NASA-CR-182505",
+			"place": "Washington, DC",
+			"note": "Chapter 2; the NOR gates and the 60 per cent are on pp. 33–34, core rope on p. 38"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Tales From The Lunar Module Guidance Computer",
+			"url": "https://www.doneyles.com/LM/Tales.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Eyles",
+					"given": "Don"
+				}
+			],
+			"container": "27th Annual Guidance and Control Conference, American Astronautical Society",
+			"published": "2004-02-06",
+			"note": "The Executive, restart protection and the 1202 alarms"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Apollo Guidance Computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apollo_Guidance_Computer&oldid=1371949536",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "web",
+			"title": "1962: Aerospace systems are the first applications for ICs in computers",
+			"url": "https://www.computerhistory.org/siliconengine/aerospace-systems-are-first-the-applications-for-ics-in-computers/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "web",
+			"title": "Software woven into wire: Core rope and the Apollo Guidance Computer",
+			"url": "https://www.righto.com/2019/07/software-woven-into-wire-core-rope-and.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Shirriff",
+					"given": "Ken"
+				}
+			],
+			"container": "Ken Shirriff's blog",
+			"published": "2019-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Margaret Hamilton (software engineer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Margaret_Hamilton_(software_engineer)&oldid=1373706496",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"note": "Quoting her letter “Computer Got Loaded”, Datamation, 1971"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Core rope memory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Core_rope_memory&oldid=1368369654",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "article",
+			"title": "Cramming More Components onto Integrated Circuits",
+			"url": "https://download.intel.com/newsroom/2023/manufacturing/moores-law-electronics.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Moore",
+					"given": "Gordon E."
+				}
+			],
+			"container": "Electronics",
+			"published": "1965-04-19",
+			"volume": "38",
+			"issue": "8"
+		},
+		{
+			"kind": "media",
+			"title": "Flat-pack integrated circuits of the Block II Apollo Guidance Computer",
+			"url": "https://commons.wikimedia.org/wiki/File:Agc_flatp.jpg",
+			"accessed": "2026-09-28",
+			"container": "NASA, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "agc-flatpacks.jpg",
+			"authors": [
+				{
+					"name": "NASA"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "Margaret Hamilton beside the listings of the Apollo flight software",
+			"url": "https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_-_restoration.jpg",
+			"accessed": "2026-09-28",
+			"container": "Draper Laboratory, restored by Adam Cuerden, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "hamilton.jpg",
+			"authors": [
+				{
+					"name": "Draper Laboratory"
+				}
+			],
+			"published": "1969"
+		}
+	]
+}

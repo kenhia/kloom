@@ -1,0 +1,128 @@
+{
+	"id": "integrated-circuit",
+	"position": {
+		"label": "1958–59",
+		"sort": 1958
+	},
+	"scene": {
+		"headline": "We printed the",
+		"accent": "WIRING.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DALLAS · PALO ALTO",
+			"JACK KILBY · TEXAS INSTRUMENTS",
+			"ROBERT NOYCE · FAIRCHILD SEMICONDUCTOR"
+		],
+		"counter": {
+			"value": "$450",
+			"label": "for a Type 502 flip-flop, TI’s first integrated circuit, 1960"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "1958: All Semiconductor \"Solid Circuit\" is Demonstrated",
+			"url": "https://www.computerhistory.org/siliconengine/all-semiconductor-solid-circuit-is-demonstrated/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum",
+			"note": "Quotes Dummer, 1952"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "1959: Practical Monolithic Integrated Circuit Concept Patented",
+			"url": "https://www.computerhistory.org/siliconengine/practical-monolithic-integrated-circuit-concept-patented/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Invention of the integrated circuit",
+			"url": "https://en.wikipedia.org/w/index.php?title=Invention_of_the_integrated_circuit&oldid=1373477602",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06",
+			"note": "Lehovec, the cross-licence of 1966 and Japan"
+		},
+		{
+			"kind": "web",
+			"title": "1960: First Planar Integrated Circuit is Fabricated",
+			"url": "https://www.computerhistory.org/siliconengine/first-planar-integrated-circuit-is-fabricated/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "web",
+			"title": "Miniaturized Electronic Circuits",
+			"url": "https://patents.google.com/patent/US3138743A/en",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Kilby",
+					"given": "Jack S."
+				}
+			],
+			"container": "US Patent 3,138,743",
+			"publisher": "United States Patent Office",
+			"published": "1964-06-23",
+			"note": "Filed 6 February 1959"
+		},
+		{
+			"kind": "web",
+			"title": "Semiconductor Device-and-Lead Structure",
+			"url": "https://patents.google.com/patent/US2981877A/en",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Noyce",
+					"given": "Robert N."
+				}
+			],
+			"container": "US Patent 2,981,877",
+			"publisher": "United States Patent Office",
+			"published": "1961-04-25",
+			"note": "Filed 30 July 1959"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jack Kilby",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jack_Kilby&oldid=1372014760",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "A replica of Jack Kilby’s first integrated circuit",
+			"url": "https://commons.wikimedia.org/wiki/File:Replica_IC.png",
+			"accessed": "2026-09-28",
+			"container": "Heinz Nixdorf MuseumsForum, Paderborn; photograph via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "kilby-replica.png",
+			"authors": [
+				{
+					"name": "Florian Schäffer"
+				}
+			],
+			"published": "2015-04-05"
+		}
+	]
+}
