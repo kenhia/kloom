@@ -36,7 +36,7 @@
 			"id": "mainframes",
 			"title": "Transistors and mainframes",
 			"labelKind": "date",
-			"frames": ["whirlwind", "fortran", "time-sharing", "ibm-360", "minicomputer"]
+			"frames": ["transistor", "whirlwind", "fortran", "time-sharing", "ibm-360", "minicomputer"]
 		}
 	]
 }

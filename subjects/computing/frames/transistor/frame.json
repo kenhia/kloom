@@ -1,0 +1,194 @@
+{
+	"id": "transistor",
+	"position": {
+		"label": "1947",
+		"sort": 1947
+	},
+	"scene": {
+		"headline": "We made switches from",
+		"accent": "CRYSTALS.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MURRAY HILL · BELL TELEPHONE LABORATORIES",
+			"JOHN BARDEEN · WALTER BRATTAIN · WILLIAM SHOCKLEY",
+			"POINT-CONTACT GERMANIUM · 16 DECEMBER 1947"
+		],
+		"counter": {
+			"value": "0.005 cm",
+			"label": "between the two gold points, by Bardeen's estimate"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "1947: Invention of the Point-Contact Transistor",
+			"url": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Semiconductor Research Leading to the Point Contact Transistor",
+			"url": "https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Bardeen",
+					"given": "John"
+				}
+			],
+			"container": "Nobel Lectures, Physics 1942–1962",
+			"publisher": "Elsevier",
+			"published": "1964",
+			"place": "Amsterdam",
+			"pages": "318–341",
+			"note": "Nobel lecture, 11 December 1956; the gold wedge and the 0.005 cm are on p. 338"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "1948: Conception of the Junction Transistor",
+			"url": "https://www.computerhistory.org/siliconengine/conception-of-the-junction-transistor/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of the transistor",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_the_transistor&oldid=1375406020",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"note": "Quoting Brattain’s notebook and the 1948 naming ballot"
+		},
+		{
+			"kind": "web",
+			"title": "1951: First Grown-Junction Transistors Fabricated",
+			"url": "https://www.computerhistory.org/siliconengine/first-grown-junction-transistors-fabricated/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "web",
+			"title": "1952: Bell Labs Licenses Transistor Technology",
+			"url": "https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "web",
+			"title": "1953: Transistorized Computers Emerge",
+			"url": "https://www.computerhistory.org/siliconengine/transistorized-computers-emerge/",
+			"accessed": "2026-09-28",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physics 1956",
+			"url": "https://www.nobelprize.org/prizes/physics/1956/summary/",
+			"accessed": "2026-09-28",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Point-contact transistor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Point-contact_transistor&oldid=1337671185",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Shockley",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Shockley&oldid=1377052638",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transistor computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transistor_computer&oldid=1359241831",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "TRADIC",
+			"url": "https://en.wikipedia.org/w/index.php?title=TRADIC&oldid=1363019355",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-07"
+		},
+		{
+			"kind": "media",
+			"title": "John Bardeen, William Shockley and Walter Brattain at Bell Labs, 1948",
+			"url": "https://commons.wikimedia.org/wiki/File:Bardeen_Shockley_Brattain_1948.JPG",
+			"accessed": "2026-09-28",
+			"container": "Bell Telephone Laboratories publicity photograph, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "bell-trio.jpg",
+			"authors": [
+				{
+					"name": "AT&T"
+				}
+			],
+			"published": "1948"
+		},
+		{
+			"kind": "media",
+			"title": "A replica of the first point-contact transistor, beside a 2N43 transistor",
+			"url": "https://commons.wikimedia.org/wiki/File:A_replica_of_the_first_working_transistor_02.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "first-transistor.jpg",
+			"authors": [
+				{
+					"name": "Mister rf"
+				}
+			],
+			"published": "2019-02-23"
+		}
+	]
+}
