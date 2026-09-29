@@ -1,0 +1,15 @@
+{
+	"id": "beyond-counting",
+	"title": "Beyond counting",
+	"anchor": "abacus",
+	"spine": {
+		"segments": [
+			{
+				"id": "bead-arithmetic",
+				"title": "What beads can do",
+				"labelKind": "date",
+				"frames": ["jinkoki", "cranmer-abacus", "anzan"]
+			}
+		]
+	}
+}

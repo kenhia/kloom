@@ -1,0 +1,127 @@
+{
+	"id": "jinkoki",
+	"position": {
+		"label": "1592–1627",
+		"sort": 1592
+	},
+	"scene": {
+		"headline": "We pulled roots from",
+		"accent": "BEADS.",
+		"palette": "cardstock",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CHENG DAWEI · SUANFA TONGZONG · 1592",
+			"YOSHIDA MITSUYOSHI · JINKŌKI · 1627",
+			"MULTIPLICATION · DIVISION · SQUARE AND CUBE ROOTS"
+		],
+		"counter": {
+			"value": "400+",
+			"label": "editions of the Jinkōki by the Meiji era"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Suanfa tongzong",
+			"url": "https://en.wikipedia.org/w/index.php?title=Suanfa_tongzong&oldid=1286011366",
+			"accessed": "2026-09-29",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-04-17"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Cheng Dawei (1533–1606), biography",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cheng_Dawei/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{ "family": "O'Connor", "given": "J. J." },
+				{ "family": "Robertson", "given": "E. F." }
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Jinkoki",
+			"url": "https://www.ndl.go.jp/math/e/s2/1.html",
+			"accessed": "2026-09-29",
+			"container": "Japanese Mathematics in the Edo Period",
+			"publisher": "National Diet Library",
+			"note": "The soroban’s textbook through the Edo period"
+		},
+		{
+			"kind": "web",
+			"title": "Column: Influences from Chinese Mathematics",
+			"url": "https://www.ndl.go.jp/math/e/s1/c1.html",
+			"accessed": "2026-09-29",
+			"container": "Japanese Mathematics in the Edo Period",
+			"publisher": "National Diet Library"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Jinkōki",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jink%C5%8Dki&oldid=1375683913",
+			"accessed": "2026-09-29",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yoshida Mitsuyoshi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yoshida_Mitsuyoshi&oldid=1294149848",
+			"accessed": "2026-09-29",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cheng Dawei",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cheng_Dawei&oldid=1224213013",
+			"accessed": "2026-09-29",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-05-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Suanpan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Suanpan&oldid=1368513344",
+			"accessed": "2026-09-29",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "book",
+			"title": "Advanced Abacus: Japanese Theory and Practice",
+			"url": "https://archive.org/details/advancedabacusja0000taka",
+			"accessed": "2026-09-29",
+			"authors": [{ "family": "Kojima", "given": "Takashi" }],
+			"publisher": "Charles E. Tuttle",
+			"published": "1963"
+		},
+		{
+			"kind": "book",
+			"title": "Surely You’re Joking, Mr. Feynman!",
+			"url": "https://www.ecb.torontomu.ca/~elf/abacus/feynman.html",
+			"accessed": "2026-09-29",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1985",
+			"note": "The chapter “Lucky Numbers”, read in an excerpt on a Toronto Metropolitan University page"
+		}
+	]
+}

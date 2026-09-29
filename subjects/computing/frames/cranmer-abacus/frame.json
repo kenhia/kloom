@@ -1,0 +1,70 @@
+{
+	"id": "cranmer-abacus",
+	"position": {
+		"label": "Early 1960s",
+		"sort": 1962
+	},
+	"scene": {
+		"headline": "We read the beads by",
+		"accent": "TOUCH.",
+		"palette": "walnut",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KENTUCKY · TIM CRANMER · FRED GISSONI",
+			"AMERICAN PRINTING HOUSE FOR THE BLIND · LOUISVILLE",
+			"13 RODS · FELT BEHIND THE BEADS"
+		],
+		"counter": {
+			"value": "13",
+			"label": "rods, each with one bead above the bar and four below"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Using the Cranmer Abacus for the Blind",
+			"url": "https://archive.org/details/usingcranmerabac00byfr",
+			"accessed": "2026-09-29",
+			"authors": [{ "family": "Gissoni", "given": "Fred L." }],
+			"publisher": "American Printing House for the Blind",
+			"place": "Louisville, Ky.",
+			"published": "1964",
+			"note": "The frame, the unit marks and the operations, including roots"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "In Memoriam: T. V. Cranmer",
+			"url": "https://www.acb.org/memoriam-tv-cranmer",
+			"accessed": "2026-09-29",
+			"authors": [{ "family": "Gissoni", "given": "Fred" }],
+			"container": "The Braille Forum",
+			"publisher": "American Council of the Blind",
+			"published": "2002-01"
+		},
+		{
+			"kind": "article",
+			"title": "Access News",
+			"url": "https://afb.org/aw/3/1/14959",
+			"accessed": "2026-09-29",
+			"authors": [{ "family": "Kendrick", "given": "Deborah" }],
+			"container": "AccessWorld",
+			"publisher": "American Foundation for the Blind",
+			"published": "2002-01",
+			"note": "The notice of Tim Cranmer’s death"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Abacus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abacus&oldid=1373195087",
+			"accessed": "2026-09-29",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04",
+			"note": "The section on use by blind people"
+		}
+	]
+}

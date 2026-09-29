@@ -1,0 +1,118 @@
+{
+	"id": "anzan",
+	"position": {
+		"label": "1977–2016",
+		"sort": 1977
+	},
+	"scene": {
+		"headline": "We carried the abacus in our",
+		"accent": "HEADS.",
+		"palette": "cardstock",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ANZAN · MENTAL ABACUS · FLASH ANZAN",
+			"HATANO 1977 · STIGLER 1984 · FRANK & BARNER 2012",
+			"VADODARA · A THREE-YEAR CLASSROOM TRIAL"
+		],
+		"counter": {
+			"value": "204",
+			"label": "children in the Vadodara trial of mental abacus, 2010–13"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Performance of Expert Abacus Operators",
+			"doi": "10.1016/0010-0277(77)90016-6",
+			"url": "https://www.sciencedirect.com/science/article/abs/pii/0010027777900166",
+			"accessed": "2026-09-29",
+			"authors": [
+				{ "family": "Hatano", "given": "Giyoo" },
+				{ "family": "Miyake", "given": "Yoshio" },
+				{ "family": "Binks", "given": "Martin G." }
+			],
+			"container": "Cognition",
+			"volume": "5",
+			"issue": "1",
+			"pages": "47–55",
+			"published": "1977",
+			"note": "Read in its abstract"
+		},
+		{
+			"kind": "article",
+			"title": "“Mental Abacus”: The Effect of Abacus Training on Chinese Children’s Mental Calculation",
+			"doi": "10.1016/0010-0285(84)90006-9",
+			"url": "https://www.sciencedirect.com/science/article/abs/pii/0010028584900069",
+			"accessed": "2026-09-29",
+			"authors": [{ "family": "Stigler", "given": "James W." }],
+			"container": "Cognitive Psychology",
+			"volume": "16",
+			"issue": "2",
+			"pages": "145–176",
+			"published": "1984",
+			"note": "Read in its abstract"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Representing Exact Number Visually Using Mental Abacus",
+			"doi": "10.1037/a0024427",
+			"url": "https://langcog.stanford.edu/papers/FB-jepg2011.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{ "family": "Frank", "given": "Michael C." },
+				{ "family": "Barner", "given": "David" }
+			],
+			"container": "Journal of Experimental Psychology: General",
+			"volume": "141",
+			"issue": "1",
+			"pages": "134–149",
+			"published": "2012",
+			"note": "Read in its abstract"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Learning Mathematics in a Visuospatial Format: A Randomized, Controlled Trial of Mental Abacus Instruction",
+			"doi": "10.1111/cdev.12515",
+			"url": "https://academic.oup.com/chidev/article/87/4/1146/8258418",
+			"accessed": "2026-09-29",
+			"authors": [
+				{ "family": "Barner", "given": "David" },
+				{ "family": "Alvarez", "given": "George" },
+				{ "family": "Sullivan", "given": "Jessica" },
+				{ "family": "Brooks", "given": "Neon" },
+				{ "family": "Srinivasan", "given": "Mahesh" },
+				{ "family": "Frank", "given": "Michael C." }
+			],
+			"container": "Child Development",
+			"volume": "87",
+			"issue": "4",
+			"pages": "1146–1158",
+			"published": "2016"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Mental abacus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mental_abacus&oldid=1342372294",
+			"accessed": "2026-09-29",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-08",
+			"note": "Flash Anzan and Takeo Sasano, citing Alex Bellos in the Guardian, 2012"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Abacus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abacus&oldid=1373195087",
+			"accessed": "2026-09-29",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		}
+	]
+}

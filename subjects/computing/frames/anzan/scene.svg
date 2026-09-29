@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60 60 L340 60 L340 230 L60 230 Z"/>
+		<path pathLength="1" d="M60 110 L340 110 M60 116 L340 116"/>
+		<path pathLength="1" d="M80 60 L80 230 M110 60 L110 230 M140 60 L140 230 M170 60 L170 230 M200 60 L200 230 M230 60 L230 230"/>
+		<path pathLength="1" d="M67 68 L80 60 L93 68 L80 76 Z M67 174 L80 166 L93 174 L80 182 Z M67 190 L80 182 L93 190 L80 198 Z M67 206 L80 198 L93 206 L80 214 Z M67 222 L80 214 L93 222 L80 230 Z"/>
+		<path pathLength="1" d="M97 68 L110 60 L123 68 L110 76 Z M97 174 L110 166 L123 174 L110 182 Z M97 190 L110 182 L123 190 L110 198 Z M97 206 L110 198 L123 206 L110 214 Z M97 222 L110 214 L123 222 L110 230 Z"/>
+		<path pathLength="1" d="M127 68 L140 60 L153 68 L140 76 Z M127 174 L140 166 L153 174 L140 182 Z M127 190 L140 182 L153 190 L140 198 Z M127 206 L140 198 L153 206 L140 214 Z M127 222 L140 214 L153 222 L140 230 Z"/>
+		<path pathLength="1" d="M157 68 L170 60 L183 68 L170 76 Z M157 174 L170 166 L183 174 L170 182 Z M157 190 L170 182 L183 190 L170 198 Z M157 206 L170 198 L183 206 L170 214 Z M157 222 L170 214 L183 222 L170 230 Z"/>
+		<path pathLength="1" d="M187 68 L200 60 L213 68 L200 76 Z M187 174 L200 166 L213 174 L200 182 Z M187 190 L200 182 L213 190 L200 198 Z M187 206 L200 198 L213 206 L200 214 Z M187 222 L200 214 L213 222 L200 230 Z"/>
+		<path pathLength="1" d="M217 68 L230 60 L243 68 L230 76 Z M217 174 L230 166 L243 174 L230 182 Z M217 190 L230 182 L243 190 L230 198 Z M217 206 L230 198 L243 206 L230 214 Z M217 222 L230 214 L243 222 L230 230 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M245 48 L350 48 L350 240 L245 240 Z"/>
+		<path pathLength="1" d="M260 60 L260 110 M260 116 L260 230 M290 60 L290 110 M290 116 L290 230 M320 60 L320 110 M320 116 L320 230"/>
+		<path pathLength="1" d="M245 110 L350 110 M245 116 L350 116"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M247 102 L260 94 L273 102 L260 110 Z M247 124 L260 116 L273 124 L260 132 Z M247 140 L260 132 L273 140 L260 148 Z M247 206 L260 198 L273 206 L260 214 Z M247 222 L260 214 L273 222 L260 230 Z"/>
+		<path pathLength="1" d="M277 68 L290 60 L303 68 L290 76 Z M277 124 L290 116 L303 124 L290 132 Z M277 140 L290 132 L303 140 L290 148 Z M277 156 L290 148 L303 156 L290 164 Z M277 222 L290 214 L303 222 L290 230 Z"/>
+		<path pathLength="1" d="M307 102 L320 94 L333 102 L320 110 Z M307 174 L320 166 L333 174 L320 182 Z M307 190 L320 182 L333 190 L320 198 Z M307 206 L320 198 L333 206 L320 214 Z M307 222 L320 214 L333 222 L320 230 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M138.6 113 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0 M228.6 113 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0 M318.6 113 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0"/>
+		<path pathLength="1" d="M60 246 L60 252 L238 252 L238 246 M245 246 L245 252 L350 252 L350 246"/>
+	</g>
+	<g>
+		<text x="200" y="30" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" fill="currentColor" stroke="none">ANZAN · THE SOROBAN, IMAGINED</text>
+		<text x="148" y="264" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" fill="currentColor" stroke="none">IMAGINED FRAME</text>
+		<text x="299" y="264" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" fill="currentColor" stroke="none">COLUMNS AS UNITS</text>
+	</g>
+</svg>
