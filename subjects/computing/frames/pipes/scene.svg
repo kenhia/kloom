@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M12 140 L388 140"/>
+		<path pathLength="1" d="M69 162 L69 238 M193 162 L193 238 M317 162 L317 238"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M34 118 L104 118 L104 162 L34 162 Z"/>
+		<path pathLength="1" d="M158 118 L228 118 L228 162 L158 162 Z"/>
+		<path pathLength="1" d="M282 118 L352 118 L352 162 L282 162 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M104 133 L158 133"/>
+		<path pathLength="1" d="M104 147 L158 147"/>
+		<path pathLength="1" d="M153 140 a3 7 0 1 0 6 0 a3 7 0 1 0 -6 0"/>
+		<path pathLength="1" d="M228 133 L282 133"/>
+		<path pathLength="1" d="M228 147 L282 147"/>
+		<path pathLength="1" d="M277 140 a3 7 0 1 0 6 0 a3 7 0 1 0 -6 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M12 140 L34 140"/>
+		<path pathLength="1" d="M30.5 142 L34 140 L30.5 138"/>
+		<path pathLength="1" d="M24 238 L376 238 L376 256 L24 256 Z"/>
+		<path pathLength="1" d="M67 234.5 L69 238 L71 234.5"/>
+		<path pathLength="1" d="M191 234.5 L193 238 L195 234.5"/>
+		<path pathLength="1" d="M315 234.5 L317 238 L319 234.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M115 58 a16 16 0 1 0 32 0 a16 16 0 1 0 -32 0"/>
+		<path pathLength="1" d="M101 58 a30 30 0 1 0 60 0 a30 30 0 1 0 -60 0"/>
+		<path pathLength="1" d="M147 58 L161 58 M144.9 66 L157 73 M139 71.9 L146 84 M131 74 L131 88 M123 71.9 L116 84 M117.1 66 L105 73 M115 58 L101 58 M117.1 50 L105 43 M123 44.1 L116 32 M131 42 L131 28 M139 44.1 L146 32 M144.9 50 L157 43"/>
+		<path pathLength="1" d="M134 39.2 L135.2 31.3 M136.4 39.8 L138.7 32.1 M138.7 40.6 L142 33.3 M143 43.2 L148 37 M144.8 44.9 L150.6 39.4 M146.4 46.8 L152.8 42.1 M148.7 51.2 L156.2 48.3 M149.5 53.6 L157.3 51.7 M149.9 56 L157.9 55.2 M149.8 61 L157.7 62.2 M149.2 63.4 L156.9 65.7 M148.4 65.7 L155.7 69 M145.8 70 L152 75 M144.1 71.8 L149.6 77.6 M142.2 73.4 L146.9 79.8 M137.8 75.7 L140.7 83.2 M135.4 76.5 L137.3 84.3 M133 76.9 L133.8 84.9 M128 76.8 L126.8 84.7 M125.6 76.2 L123.3 83.9 M123.3 75.4 L120 82.7"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M121 88 L108 133"/>
+		<path pathLength="1" d="M141 88 L154 133"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M131 14 L131 26"/>
+		<path pathLength="1" d="M129.5 23.4 L131 26 L132.5 23.4"/>
+		<path pathLength="1" d="M109 96.1 L115 85.7"/>
+		<path pathLength="1" d="M115 88.7 L115 85.7 L112.4 87.2"/>
+	</g>
+	<g>
+		<text x="69" y="154" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">sort</text>
+		<text x="40" y="128" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="98" y="128" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="75" y="174" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="193" y="154" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">pr</text>
+		<text x="164" y="128" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="222" y="128" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="199" y="174" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="317" y="154" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">opr</text>
+		<text x="288" y="128" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="346" y="128" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="323" y="174" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="6" y="134" font-size="6" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">input</text>
+		<text x="200" y="250" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TERMINAL</text>
+		<text x="104" y="104.3" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WRITE</text>
+		<text x="137" y="12" font-size="6" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">READ</text>
+		<text x="300" y="50" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE KERNEL HOLDS</text>
+		<text x="300" y="61" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WHAT sort HAS WRITTEN</text>
+		<text x="300" y="72" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AND pr HAS NOT READ</text>
+		<text x="200" y="206" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">sort input | pr | opr</text>
+		<text x="200" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FIRST NOTATION: sort input &gt;pr&gt;opr&gt;</text>
+	</g>
+</svg>

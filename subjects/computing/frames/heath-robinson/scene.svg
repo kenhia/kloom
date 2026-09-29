@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 48 L132 40 L150 150 L98 212 L60 186 Z"/>
+		<path pathLength="1" d="M176 48 L262 36 L282 150 L234 212 L194 186 Z"/>
+		<path pathLength="1" d="M20 212 L300 212"/>
+		<path pathLength="1" d="M40 34 L40 62 M132 24 L132 56 M150 136 L150 164 M98 201 L98 223 M60 173 L60 199 M176 34 L176 62 M262 20 L262 52 M282 136 L282 164 M234 201 L234 223 M194 173 L194 199"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M24 22 L24 238 L300 238 L300 22 Z"/>
+		<path pathLength="1" d="M162 22 L162 238"/>
+		<path pathLength="1" d="M24 22 L300 22"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 48 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M38.5 48 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M120 40 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M130.5 40 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M140 150 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M148.5 150 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M91 212 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M96.5 212 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M51 186 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M58.5 186 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M166 48 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M174.5 48 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M250 36 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M260.5 36 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M272 150 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M280.5 150 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M227 212 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M232.5 212 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M185 186 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M192.5 186 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M105 212 L107.5 212 M104.1 215.5 L106.2 216.8 M101.5 218.1 L102.8 220.2 M98 219 L98 221.5 M94.5 218.1 L93.2 220.2 M91.9 215.5 L89.8 216.8 M91 212 L88.5 212 M91.9 208.5 L89.8 207.2 M94.5 205.9 L93.2 203.8 M98 205 L98 202.5 M101.5 205.9 L102.8 203.8 M104.1 208.5 L106.2 207.2"/>
+		<path pathLength="1" d="M241 212 L243.5 212 M240.1 215.5 L242.2 216.8 M237.5 218.1 L238.8 220.2 M234 219 L234 221.5 M230.5 218.1 L229.2 220.2 M227.9 215.5 L225.8 216.8 M227 212 L224.5 212 M227.9 208.5 L225.8 207.2 M230.5 205.9 L229.2 203.8 M234 205 L234 202.5 M237.5 205.9 L238.8 203.8 M240.1 208.5 L242.2 207.2"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M38.9 38.1 L130.7 28.1 M143.9 38.3 L159.9 148.6 M157.4 156.7 L103.2 216.7 M94.3 217.9 L55.2 193.6 M51.1 187.4 L30.1 49.5"/>
+		<path pathLength="1" d="M174.4 38.1 L260.1 24.2 M273.9 34.1 L291.9 148.4 M289.7 156.4 L239.4 216.5 M230.4 218 L189.4 193.7 M185.1 187.2 L166.1 49.4"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M65.8 199.8 L83.8 199.8 L83.8 211.8 L65.8 211.8 Z"/>
+		<path pathLength="1" d="M67.8 205.8 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0"/>
+		<path pathLength="1" d="M70.8 205.8 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0"/>
+		<path pathLength="1" d="M73.8 205.8 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0"/>
+		<path pathLength="1" d="M76.8 205.8 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0"/>
+		<path pathLength="1" d="M79.8 205.8 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0"/>
+		<path pathLength="1" d="M200.9 199.9 L218.9 199.9 L218.9 211.9 L200.9 211.9 Z"/>
+		<path pathLength="1" d="M202.9 205.9 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0"/>
+		<path pathLength="1" d="M205.9 205.9 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0"/>
+		<path pathLength="1" d="M208.9 205.9 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0"/>
+		<path pathLength="1" d="M211.9 205.9 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0"/>
+		<path pathLength="1" d="M214.9 205.9 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0"/>
+		<path pathLength="1" d="M316 96 L382 96 L382 136 L316 136 Z"/>
+		<path pathLength="1" d="M316 170 L382 170 L382 210 L316 210 Z"/>
+		<path pathLength="1" d="M74.8 199.8 L74.8 12 L349 12 L349 94"/>
+		<path pathLength="1" d="M209.9 199.9 L209.9 16 L345 16 L345 94"/>
+		<path pathLength="1" d="M347.5 92.4 L349 95 L350.5 92.4"/>
+		<path pathLength="1" d="M349 136 L349 168"/>
+		<path pathLength="1" d="M347.5 166.4 L349 169 L350.5 166.4"/>
+		<path pathLength="1" d="M325.5 196 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M338.5 196 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M351.5 196 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M364.5 196 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+	</g>
+	<g>
+		<text x="93" y="118" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Z</text>
+		<text x="229" y="114" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">χ</text>
+		<text x="349" y="112" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ΔZ₁⊕ΔZ₂</text>
+		<text x="349" y="124" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">⊕Δχ₁⊕Δχ₂</text>
+		<text x="349" y="184" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COUNT DOTS</text>
+		<text x="162" y="258" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MESSAGE LOOP · KEY LOOP ONE LETTER LONGER</text>
+		<text x="162" y="272" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SPROCKETS ON ONE SHAFT · 41 × 31 = 1,271 POSITIONS</text>
+	</g>
+</svg>

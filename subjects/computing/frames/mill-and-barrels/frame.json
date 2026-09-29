@@ -1,0 +1,180 @@
+{
+	"id": "mill-and-barrels",
+	"position": {
+		"label": "1834–47",
+		"sort": 1834
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "We taught the engine to",
+		"accent": "FORESEE.",
+		"palette": "walnut",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · THE ANALYTICAL ENGINE · PLANS 1 TO 28",
+			"STORE AND MILL · ANTICIPATING CARRIAGE · STUDDED BARRELS"
+		],
+		"counter": {
+			"value": "40",
+			"label": "decimal digits in every number, in the design of 1838"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Charles Babbage's Analytical Engine, 1838",
+			"accessed": "2026-09-28",
+			"doi": "10.1109/MAHC.1982.10028",
+			"authors": [
+				{
+					"family": "Bromley",
+					"given": "Allan G."
+				}
+			],
+			"container": "Annals of the History of Computing",
+			"volume": "4",
+			"issue": "3",
+			"pages": "196–217",
+			"published": "1982-07",
+			"note": "Anticipating carry, §4; microprogram control by barrels, §6"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Passages from the Life of a Philosopher",
+			"url": "https://www.gutenberg.org/ebooks/57532",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Babbage",
+					"given": "Charles"
+				}
+			],
+			"publisher": "Longman, Green, Longman, Roberts, & Green",
+			"place": "London",
+			"published": "1864",
+			"note": "Chapter 8, “Of the Analytical Engine”"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Analytical engine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Analytical_engine&oldid=1362884716",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-06"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Analytical Engine Project Report",
+			"url": "http://blog.plan28.org/2025/02/analytical-engine-project-report.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Swade",
+					"given": "Doron"
+				}
+			],
+			"container": "Plan 28 Blog",
+			"published": "2025-02-11",
+			"note": "The latest progress report as of September 2026"
+		},
+		{
+			"kind": "web",
+			"title": "The Analytical Engine: 28 Plans and Counting",
+			"url": "https://computerhistory.org/blog/the-analytical-engine-28-plans-and-counting/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Robinson",
+					"given": "Tim"
+				}
+			],
+			"container": "CHM Blog",
+			"publisher": "Computer History Museum",
+			"published": "2015-12-08"
+		},
+		{
+			"kind": "article",
+			"title": "How Charles Babbage Invented the Computer",
+			"url": "https://arxiv.org/abs/2311.04371",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Rojas",
+					"given": "Raúl"
+				}
+			],
+			"container": "arXiv preprint arXiv:2311.04371",
+			"published": "2023"
+		},
+		{
+			"kind": "article",
+			"title": "The Construction of Charles Babbage's Difference Engine No. 2",
+			"accessed": "2026-09-28",
+			"doi": "10.1109/MAHC.2005.45",
+			"authors": [
+				{
+					"family": "Swade",
+					"given": "Doron D."
+				}
+			],
+			"container": "IEEE Annals of the History of Computing",
+			"volume": "27",
+			"issue": "3",
+			"pages": "70–88",
+			"published": "2005-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Babbage",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Babbage&oldid=1371979131",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "The general plan of Babbage’s Analytical Engine, dated 6 August 1840, photographed at the Computer History Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:Babbage_Analytical_Engine_Plan_1840_CHM.agr.jpg",
+			"accessed": "2026-09-28",
+			"container": "Charles Babbage’s drawing of 1840; photograph by ArnoldReinhold, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "plan-1840.jpg",
+			"authors": [
+				{
+					"name": "ArnoldReinhold"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "Punched cards for programming the Analytical Engine, 1834–71, in the Science Museum, London",
+			"url": "https://commons.wikimedia.org/wiki/File:PunchedCardsAnalyticalEngine.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "cards.jpg",
+			"authors": [
+				{
+					"name": "Karoly Lorentey"
+				}
+			],
+			"published": "2004-12-20"
+		}
+	]
+}

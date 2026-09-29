@@ -1,0 +1,33 @@
+{
+	"title": "Hosts on the internet, 1981–2019 (log scale)",
+	"description": "Bar chart on a logarithmic scale of the number of internet hosts. August 1981, 213; August 1983, 562; February 1986, 2,308; January 1989, 80,000; January 1992, 727,000; January 1995, 4.85 million; January 2000, 72.4 million; January 2005, 318 million; January 2010, 733 million; January 2019, 1.01 billion. Data: to 1992, Lottor, RFC 1296 (host tables to 1986, then the ZONE program); from 1995, the Internet Systems Consortium's Domain Survey, whose method changed in 1998 and which ended in 2019.",
+	"heading": "INTERNET HOSTS · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"width": 560,
+	"height": 300,
+	"barWidth": 34,
+	"axis": {
+		"min": 100,
+		"max": 10000000000,
+		"ticks": [
+			[100, "100"],
+			[10000, "10⁴"],
+			[1000000, "10⁶"],
+			[100000000, "10⁸"],
+			[10000000000, "10¹⁰"]
+		]
+	},
+	"bars": [
+		{ "label": "1981", "value": 213, "display": "213" },
+		{ "label": "1983", "value": 562, "display": "562" },
+		{ "label": "1986", "value": 2308, "display": "2,308" },
+		{ "label": "1989", "value": 80000, "display": "80k" },
+		{ "label": "1992", "value": 727000, "display": "727k" },
+		{ "label": "1995", "value": 4852000, "display": "4.9M" },
+		{ "label": "2000", "value": 72398092, "display": "72M" },
+		{ "label": "2005", "value": 317646084, "display": "318M" },
+		{ "label": "2010", "value": 732740444, "display": "733M" },
+		{ "label": "2019", "value": 1012695272, "display": "1.0B", "highlight": true }
+	]
+}

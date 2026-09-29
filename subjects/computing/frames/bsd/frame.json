@@ -1,0 +1,166 @@
+{
+	"id": "bsd",
+	"position": {
+		"label": "1977–95",
+		"sort": 1977
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "Unix went to",
+		"accent": "COLLEGE.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"UC BERKELEY · BILL JOY · CSRG · DARPA",
+			"1BSD TO 4.4BSD-LITE · vi · csh · SOCKETS · TCP/IP"
+		],
+		"counter": {
+			"value": "1,000+",
+			"label": "site licences for 4.2BSD within eighteen months"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable",
+			"url": "https://www.oreilly.com/openbook/opensources/book/kirkmck.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "McKusick",
+					"given": "Marshall Kirk"
+				}
+			],
+			"container": "Open Sources: Voices from the Open Source Revolution",
+			"publisher": "O’Reilly & Associates",
+			"published": "1999-01",
+			"place": "Sebastopol, CA",
+			"note": "The releases, the copies shipped, DARPA, and Networking Releases 1 and 2"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Berkeley Software Distribution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Berkeley_Software_Distribution&oldid=1376195328",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Berkeley sockets",
+			"url": "https://en.wikipedia.org/w/index.php?title=Berkeley_sockets&oldid=1368670892",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bill Joy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bill_Joy&oldid=1376995221",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "FreeBSD",
+			"url": "https://en.wikipedia.org/w/index.php?title=FreeBSD&oldid=1376624774",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Darwin (operating system)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Darwin_(operating_system)&oldid=1376126411",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "web",
+			"title": "Release Information",
+			"url": "https://www.freebsd.org/releases/",
+			"accessed": "2026-09-28",
+			"container": "The FreeBSD Project",
+			"publisher": "The FreeBSD Foundation"
+		},
+		{
+			"kind": "web",
+			"title": "Announcing NetBSD 11.0",
+			"url": "https://www.netbsd.org/releases/formal-11/NetBSD-11.0.html",
+			"accessed": "2026-09-28",
+			"container": "The NetBSD Project",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "web",
+			"title": "OpenBSD",
+			"url": "https://www.openbsd.org/",
+			"accessed": "2026-09-28",
+			"container": "The OpenBSD Project"
+		},
+		{
+			"kind": "media",
+			"title": "A DEC VAX-11/780",
+			"url": "https://commons.wikimedia.org/wiki/File:VAX_11-780_intero.jpg",
+			"accessed": "2026-09-28",
+			"container": "Associazione Culturale VerdeBinario, via Italian Wikipedia and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "vax-11-780.jpg",
+			"authors": [
+				{
+					"name": "Emiliano Russo"
+				}
+			],
+			"published": "2008-09-18"
+		},
+		{
+			"kind": "media",
+			"title": "Copies of each Berkeley Software Distribution shipped, 1BSD to 4.2BSD",
+			"url": "https://www.oreilly.com/openbook/opensources/book/kirkmck.html",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from McKusick, “Twenty Years of Berkeley Unix” (1999)",
+			"licence": "MIT",
+			"file": "copies-shipped.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

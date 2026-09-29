@@ -19,7 +19,8 @@ def esc(v):
 
 
 def label(v, unit):
-    return f'{v:,.1f}{unit}' if v < 100 else f'{v:,.0f}{unit}'
+    """A value's label: one decimal under 100, unless it is a whole number (12, not 12.0)."""
+    return f'{v:,.1f}{unit}' if v < 100 and v != int(v) else f'{v:,.0f}{unit}'
 
 
 def scaler(spec, y0, y1):

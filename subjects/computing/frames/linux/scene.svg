@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M8 150 L13 150 M17 150 L22 150 M26 150 L31 150 M35 150 L40 150 M44 150 L49 150 M53 150 L58 150 M62 150 L67 150 M71 150 L76 150 M80 150 L85 150 M89 150 L94 150 M98 150 L103 150 M107 150 L112 150 M116 150 L121 150 M125 150 L130 150 M134 150 L139 150 M143 150 L148 150 M152 150 L157 150 M161 150 L166 150 M170 150 L175 150 M179 150 L184 150 M188 150 L193 150 M197 150 L202 150 M206 150 L211 150 M215 150 L220 150 M224 150 L229 150 M233 150 L238 150 M242 150 L247 150 M251 150 L256 150 M260 150 L265 150 M269 150 L274 150 M278 150 L283 150 M287 150 L292 150 M296 150 L301 150 M305 150 L310 150 M314 150 L319 150 M323 150 L328 150 M332 150 L337 150 M341 150 L346 150 M350 150 L355 150 M359 150 L364 150 M368 150 L373 150 M377 150 L382 150 M386 150 L391 150"/>
+		<path pathLength="1" d="M200 28 L200 272"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M24 60 L68 60 L68 92 L24 92 Z"/>
+		<path pathLength="1" d="M80 60 L124 60 L124 92 L80 92 Z"/>
+		<path pathLength="1" d="M136 60 L180 60 L180 92 L136 92 Z"/>
+		<path pathLength="1" d="M16 176 L186 176 L186 256 L16 256 Z"/>
+		<path pathLength="1" d="M218 60 L268 60 L268 92 L218 92 Z"/>
+		<path pathLength="1" d="M334 60 L384 60 L384 92 L334 92 Z"/>
+		<path pathLength="1" d="M218 104 L268 104 L268 136 L218 136 Z"/>
+		<path pathLength="1" d="M276 104 L326 104 L326 136 L276 136 Z"/>
+		<path pathLength="1" d="M334 104 L384 104 L384 136 L334 136 Z"/>
+		<path pathLength="1" d="M254 196 L344 196 L344 236 L254 236 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M23 206 L59 206 L59 244 L23 244 Z"/>
+		<path pathLength="1" d="M63 206 L99 206 L99 244 L63 244 Z"/>
+		<path pathLength="1" d="M103 206 L139 206 L139 244 L103 244 Z"/>
+		<path pathLength="1" d="M143 206 L179 206 L179 244 L143 244 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M102 92 L102 204"/>
+		<path pathLength="1" d="M100 200.5 L102 204 L104 200.5"/>
+		<path pathLength="1" d="M243 92 L269 196"/>
+		<path pathLength="1" d="M266.2 193.1 L269 196 L270.1 192.2"/>
+		<path pathLength="1" d="M269 196 L301 136"/>
+		<path pathLength="1" d="M301.1 140 L301 136 L297.6 138.1"/>
+		<path pathLength="1" d="M301 136 L299 196"/>
+		<path pathLength="1" d="M297.1 192.5 L299 196 L301.1 192.6"/>
+		<path pathLength="1" d="M299 196 L359 136"/>
+		<path pathLength="1" d="M358 139.9 L359 136 L355.1 137"/>
+	</g>
+	<g>
+		<text x="46" y="80" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">sh</text>
+		<text x="102" y="80" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">gcc</text>
+		<text x="158" y="80" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">bash</text>
+		<text x="243" y="80" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">sh</text>
+		<text x="359" y="80" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">cc</text>
+		<text x="243" y="124" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MM</text>
+		<text x="301" y="124" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FS</text>
+		<text x="359" y="124" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DISK</text>
+		<text x="41" y="228" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SCHED</text>
+		<text x="81" y="228" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MEMORY</text>
+		<text x="121" y="228" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FILES</text>
+		<text x="161" y="228" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DRIVERS</text>
+		<text x="299" y="219" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KERNEL</text>
+		<text x="101" y="34" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MONOLITHIC · LINUX</text>
+		<text x="299" y="34" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MICROKERNEL · MINIX</text>
+		<text x="392" y="146" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">USER</text>
+		<text x="392" y="160" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KERNEL</text>
+		<text x="108" y="172" font-size="6" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TRAP</text>
+		<text x="299" y="256" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MESSAGES</text>
+		<text x="101" y="272" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE PROGRAM, ONE ADDRESS SPACE</text>
+		<text x="299" y="272" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SERVERS OUTSIDE THE KERNEL</text>
+	</g>
+</svg>

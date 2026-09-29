@@ -1,0 +1,59 @@
+{
+	"title": "The History of Computing",
+	"palettes": {
+		"walnut": {
+			"scheme": "dark",
+			"background": "#1c150f",
+			"ink": "#f0e6d0",
+			"muted": "#b5a283",
+			"accent": "#e6b34f",
+			"line": "#dcc59b",
+			"counterpart": "cardstock"
+		},
+		"cardstock": {
+			"scheme": "light",
+			"background": "#f1e8cc",
+			"ink": "#29221a",
+			"muted": "#66583f",
+			"accent": "#1f6552",
+			"line": "#3a3024",
+			"counterpart": "walnut"
+		},
+		"console": {
+			"scheme": "dark",
+			"background": "#1a1f24",
+			"ink": "#e6ebee",
+			"muted": "#9fabb5",
+			"accent": "#ff9d42",
+			"line": "#c5d0d8",
+			"counterpart": "teletype"
+		},
+		"teletype": {
+			"scheme": "light",
+			"background": "#f4f1e6",
+			"ink": "#1d1c1a",
+			"muted": "#5b5850",
+			"accent": "#1f4aa8",
+			"line": "#2b2a27",
+			"counterpart": "console"
+		},
+		"circuit": {
+			"scheme": "dark",
+			"background": "#0e231b",
+			"ink": "#e8f2ec",
+			"muted": "#9dbbac",
+			"accent": "#e9c45c",
+			"line": "#bfdccd",
+			"counterpart": "schematic"
+		},
+		"schematic": {
+			"scheme": "light",
+			"background": "#f5f7f8",
+			"ink": "#131a22",
+			"muted": "#4f5b66",
+			"accent": "#b0205a",
+			"line": "#222d38",
+			"counterpart": "circuit"
+		}
+	}
+}

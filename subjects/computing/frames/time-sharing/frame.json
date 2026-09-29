@@ -1,0 +1,197 @@
+{
+	"id": "time-sharing",
+	"position": {
+		"label": "1961",
+		"sort": 1961
+	},
+	"scene": {
+		"headline": "We each had the machine to",
+		"accent": "OURSELVES.",
+		"palette": "console",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MIT COMPUTATION CENTER · DARTMOUTH COLLEGE",
+			"CORBATÓ · McCARTHY · STRACHEY · KEMENY · KURTZ",
+			"CTSS · IBM 7090 · DTSS · BASIC"
+		],
+		"counter": {
+			"value": "16 ms",
+			"label": "one quantum of CTSS’s scheduler on the 7090, as estimated in 1962"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "An Experimental Time-Sharing System",
+			"url": "https://cseweb.ucsd.edu/classes/wi19/cse221-a/papers/corbato62.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Corbató",
+					"given": "Fernando J."
+				},
+				{
+					"family": "Merwin-Daggett",
+					"given": "Marjorie"
+				},
+				{
+					"family": "Daley",
+					"given": "Robert C."
+				}
+			],
+			"container": "Proceedings of the Spring Joint Computer Conference, AFIPS vol. 21",
+			"pages": "335–344",
+			"published": "1962-05",
+			"note": "The four-user system on the 7090 and the multi-level scheduler, pp. 337–342"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Reminiscences on the History of Time Sharing",
+			"url": "http://www-formal.stanford.edu/jmc/history/timesharing/timesharing.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "McCarthy",
+					"given": "John"
+				}
+			],
+			"container": "John McCarthy’s home page, Stanford University",
+			"published": "1983",
+			"circa": true,
+			"note": "His 1959 memo, and Strachey’s 1974 letter to Knuth, printed as an appendix"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Compatible Time-Sharing System",
+			"url": "https://en.wikipedia.org/w/index.php?title=Compatible_Time-Sharing_System&oldid=1358745542",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-10"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Dartmouth Time-Sharing System",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dartmouth_Time-Sharing_System&oldid=1312667746",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Time-sharing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Time-sharing&oldid=1363156848",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Christopher Strachey",
+			"url": "https://en.wikipedia.org/w/index.php?title=Christopher_Strachey&oldid=1373632908",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "BASIC",
+			"url": "https://en.wikipedia.org/w/index.php?title=BASIC&oldid=1373603686",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Utility computing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Utility_computing&oldid=1340613648",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-26",
+			"note": "Quoting McCarthy at the MIT centennial, 1961"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IBM 7090",
+			"url": "https://en.wikipedia.org/w/index.php?title=IBM_7090&oldid=1376005080",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "An IBM 7090 console in use at the US Weather Bureau, 1965",
+			"url": "https://commons.wikimedia.org/wiki/File:IBM_7090_console_used_by_a_meteorologist,_1965.jpg",
+			"accessed": "2026-09-28",
+			"container": "U.S. Weather Bureau, Historic NWS Collection, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ibm-7090.jpg",
+			"authors": [
+				{
+					"name": "Credit: U. S. Weather Bureau"
+				}
+			],
+			"published": "1965"
+		},
+		{
+			"kind": "media",
+			"title": "A Teletype Model 33 ASR at the Computer History Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:ASR-33_at_CHM.agr.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "asr33.jpg",
+			"authors": [
+				{
+					"name": "ArnoldReinhold"
+				}
+			],
+			"published": "2014-02-02"
+		}
+	]
+}

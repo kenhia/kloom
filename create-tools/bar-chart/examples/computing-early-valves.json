@@ -1,0 +1,31 @@
+{
+	"title": "Valves (vacuum tubes) in the first electronic computing machines",
+	"description": "Bar chart. The Atanasoff–Berry Computer, tested in 1942, had about 300 valves; the Colossus Mark 1 of 1944 about 1,600 and the Mark 2 about 2,400; ENIAC, completed in 1945, 17,468 in the count most often given (Army histories say 18,000 or 19,000); EDVAC, delivered in 1949, 5,937. Data: the Wikipedia articles Atanasoff–Berry computer, Colossus computer and EDVAC.",
+	"heading": "VALVES IN THE FIRST ELECTRONIC MACHINES",
+	"unit": "",
+	"axis": {
+		"max": 20000,
+		"ticks": [
+			[0, "0"],
+			[5000, "5,000"],
+			[10000, "10,000"],
+			[15000, "15,000"],
+			[20000, "20,000"]
+		]
+	},
+	"bars": [
+		{ "label": "ABC", "sublabel": "1942", "value": 300, "display": "~300" },
+		{ "label": "Colossus", "sublabel": "Mk 1, 1944", "value": 1600, "display": "1,600" },
+		{ "label": "Colossus", "sublabel": "Mk 2, 1944", "value": 2400, "display": "2,400" },
+		{
+			"label": "ENIAC",
+			"sublabel": "1945",
+			"value": 17468,
+			"display": "17,468",
+			"highlight": true
+		},
+		{ "label": "EDVAC", "sublabel": "1949", "value": 5937, "display": "5,937" }
+	],
+	"barWidth": 52,
+	"width": 480
+}

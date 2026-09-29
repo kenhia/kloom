@@ -1,0 +1,198 @@
+{
+	"id": "abacus",
+	"position": {
+		"label": "c. 300 BC",
+		"sort": -300
+	},
+	"scene": {
+		"headline": "We counted with",
+		"accent": "PEBBLES.",
+		"palette": "walnut",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SALAMIS · ROME · WESTMINSTER · CANTON · TOKYO",
+			"COUNTING BOARDS · BEAD FRAMES · PLACE VALUE"
+		],
+		"counter": {
+			"value": "4 to 1",
+			"label": "the soroban against an electric calculator, Tokyo, 1946"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Abacus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abacus&oldid=1373195087",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Dialogue Concerning the Exchequer, circa 1180",
+			"url": "https://avalon.law.yale.edu/medieval/excheq.asp",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "FitzNeal",
+					"given": "Richard"
+				}
+			],
+			"container": "The Avalon Project",
+			"publisher": "Lillian Goldman Law Library, Yale Law School",
+			"note": "Ernest F. Henderson’s 1896 translation; the cloth and the calculator are in book I"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Soroban",
+			"url": "https://en.wikipedia.org/w/index.php?title=Soroban&oldid=1374364794",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11",
+			"note": "The Tokyo contest of 11 November 1946, quoting the Nippon Times and Stars and Stripes"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Salamis Tablet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Salamis_Tablet&oldid=1347295075",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Counting board",
+			"url": "https://en.wikipedia.org/w/index.php?title=Counting_board&oldid=1355248958",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Roman abacus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Roman_abacus&oldid=1361122213",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Calculus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Calculus&oldid=1376334098",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Exchequer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Exchequer&oldid=1363708952",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dialogus de Scaccario",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dialogus_de_Scaccario&oldid=1373256775",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Suanpan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Suanpan&oldid=1368513344",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "media",
+			"title": "The Salamis tablet, photographed for Wilhelm Kubitschek’s study of it",
+			"url": "https://commons.wikimedia.org/wiki/File:Salaminische_Tafel_Salamis_Tablet_nach_Wilhelm_Kubitschek_Numismatische_Zeitschrift_Bd_31_Wien_1899_p._394_ff.jpg",
+			"accessed": "2026-09-28",
+			"container": "Numismatische Zeitschrift 31 (Vienna, 1899), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "salamis-tablet.jpg",
+			"authors": [
+				{
+					"name": "Wilhelm Kubitschek"
+				}
+			],
+			"published": "1899"
+		},
+		{
+			"kind": "media",
+			"title": "A Chinese suanpan",
+			"url": "https://commons.wikimedia.org/wiki/File:Chinese_Suanpan_Abacus.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "suanpan.jpg",
+			"authors": [
+				{
+					"name": "Felix Winkelnkemper"
+				}
+			],
+			"published": "2019-04-11"
+		}
+	]
+}

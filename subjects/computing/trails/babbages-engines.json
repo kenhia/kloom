@@ -1,0 +1,21 @@
+{
+	"id": "babbages-engines",
+	"title": "Babbage's engines",
+	"anchor": "difference-engine",
+	"spine": {
+		"segments": [
+			{
+				"id": "engines",
+				"title": "The engines",
+				"labelKind": "date",
+				"frames": [
+					"prony-tables",
+					"clement-fragment",
+					"mill-and-barrels",
+					"scheutz-engine",
+					"difference-engine-2"
+				]
+			}
+		]
+	}
+}

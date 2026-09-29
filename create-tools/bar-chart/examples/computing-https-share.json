@@ -1,0 +1,30 @@
+{
+	"title": "Share of page loads in Firefox made over HTTPS, each September, 2014–2026",
+	"description": "Bar chart of the percentage of Firefox page loads that used HTTPS, averaged over September of each year shown (1 to 27 September in 2026), from Firefox telemetry as published by Let's Encrypt. 2014: 32 per cent. 2016: 46. 2017: 62. 2018: 75. 2020: 84. 2022: 82. 2024: 82. 2025: 86. 2026: 81. Data: Let's Encrypt statistics, from Mozilla's Firefox telemetry, averaged for kloom.",
+	"heading": "FIREFOX PAGE LOADS OVER HTTPS · % · SEPTEMBER",
+	"unit": "%",
+	"axis": {
+		"max": 100,
+		"ticks": [
+			[0, "0"],
+			[25, "25"],
+			[50, "50"],
+			[75, "75"],
+			[100, "100"]
+		]
+	},
+	"width": 560,
+	"height": 300,
+	"barWidth": 44,
+	"bars": [
+		{ "label": "2014", "value": 32.1, "display": "32" },
+		{ "label": "2016", "value": 45.8, "display": "46" },
+		{ "label": "2017", "value": 62.0, "display": "62" },
+		{ "label": "2018", "value": 75.3, "display": "75" },
+		{ "label": "2020", "value": 83.5, "display": "84" },
+		{ "label": "2022", "value": 82.2, "display": "82" },
+		{ "label": "2024", "value": 82.3, "display": "82" },
+		{ "label": "2025", "value": 85.9, "display": "86" },
+		{ "label": "2026", "value": 81.2, "display": "81", "highlight": true }
+	]
+}

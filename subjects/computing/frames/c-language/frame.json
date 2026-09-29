@@ -1,0 +1,112 @@
+{
+	"id": "c-language",
+	"position": {
+		"label": "1972",
+		"sort": 1972
+	},
+	"scene": {
+		"headline": "We wrote close to the",
+		"accent": "METAL.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BELL LABS · DENNIS RITCHIE · KEN THOMPSON",
+			"BCPL → B → C · PDP-11 · K&R 1978 · ANSI X3.159-1989"
+		],
+		"counter": {
+			"value": "8K",
+			"label": "bytes that B, “BCPL squeezed”, had to fit in on the PDP-7"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Development of the C Language",
+			"url": "https://www.bell-labs.com/usr/dmr/www/chist.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Ritchie",
+					"given": "Dennis M."
+				}
+			],
+			"container": "History of Programming Languages II",
+			"publisher": "ACM Press and Addison-Wesley",
+			"published": "1996",
+			"editors": [
+				{
+					"family": "Bergin",
+					"given": "Thomas J., Jr."
+				},
+				{
+					"family": "Gibson",
+					"given": "Richard G., Jr."
+				}
+			],
+			"place": "New York",
+			"note": "BCPL, B, NB and C; the array rule and the declarations are here"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "C (programming language)",
+			"url": "https://en.wikipedia.org/w/index.php?title=C_(programming_language)&oldid=1376768652",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"note": "The standards from C89 to C23"
+		},
+		{
+			"kind": "article",
+			"title": "The Evolution of the Unix Time-sharing System",
+			"url": "https://www.bell-labs.com/usr/dmr/www/hist.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Ritchie",
+					"given": "Dennis M."
+				}
+			],
+			"container": "AT&T Bell Laboratories Technical Journal",
+			"published": "1984-10",
+			"volume": "63",
+			"issue": "6, part 2",
+			"pages": "1577–93"
+		},
+		{
+			"kind": "report",
+			"title": "A Research UNIX Reader: Annotated Excerpts from the Programmer’s Manual, 1971–1986",
+			"url": "https://www.cs.dartmouth.edu/~doug/reader.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "McIlroy",
+					"given": "M. Douglas"
+				}
+			],
+			"publisher": "AT&T Bell Laboratories"
+		},
+		{
+			"kind": "media",
+			"title": "The cover of the first edition of The C Programming Language (1978), redrawn",
+			"url": "https://commons.wikimedia.org/wiki/File:The_C_Programming_Language,_First_Edition_Cover.svg",
+			"accessed": "2026-09-28",
+			"container": "Kernighan and Ritchie, The C Programming Language (Englewood Cliffs: Prentice Hall, 1978), redrawn for Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "k-and-r.png",
+			"authors": [
+				{
+					"name": "Julesmazur"
+				}
+			],
+			"published": "2013-02-16"
+		}
+	]
+}

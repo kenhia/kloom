@@ -1,0 +1,305 @@
+{
+	"id": "where-computing-is",
+	"position": {
+		"label": "Where we are"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "And still we are",
+		"accent": "COUNTING.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TOP500 · LINESHINE · SHENZHEN · JUNE 2026",
+			"IEA · DATA CENTRES · 485 TWH IN 2025",
+			"KOOMEY · LANDAUER"
+		],
+		"counter": {
+			"value": "2.198 × 10¹⁸",
+			"label": "operations a second, the fastest computer, June 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "TOP500 List, June 2026",
+			"url": "https://www.top500.org/lists/top500/2026/06/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "TOP500"
+				}
+			],
+			"container": "TOP500.org",
+			"published": "2026-06",
+			"note": "LineShine, El Capitan and the five exascale systems"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Key Questions on Energy and AI: Executive Summary",
+			"url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"container": "International Energy Agency",
+			"published": "2026-04",
+			"note": "Read through the Internet Archive"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Koomey's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Koomey's_law&oldid=1376476242",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Landauer's principle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Landauer's_principle&oldid=1376477582",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centre Electricity Use Surged in 2025, Even with Tightening Bottlenecks Driving a Scramble for Solutions",
+			"url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"container": "International Energy Agency",
+			"published": "2026-04-16"
+		},
+		{
+			"kind": "web",
+			"title": "Energy and AI: Executive Summary",
+			"url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"container": "International Energy Agency",
+			"published": "2025-04"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Arm Delivers Record-Breaking Quarter and Full-Year Results",
+			"url": "https://newsroom.arm.com/news/arm-q4-fye26-results",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Arm"
+				}
+			],
+			"container": "Arm Newsroom",
+			"published": "2026-05-06"
+		},
+		{
+			"kind": "web",
+			"title": "Number of Connected IoT Devices Growing 14% to 21.1 Billion",
+			"url": "https://iot-analytics.com/number-connected-iot-devices/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Sinha",
+					"given": "Satyajit"
+				}
+			],
+			"container": "IoT Analytics",
+			"published": "2025-10-28"
+		},
+		{
+			"kind": "web",
+			"title": "The Mobile Economy 2026",
+			"url": "https://www.gsmaintelligence.com/research/the-mobile-economy-2026",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "GSMA Intelligence"
+				}
+			],
+			"container": "GSMA Intelligence",
+			"published": "2026-03"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Worldwide Smartphone Market Grows 2.3% in Q4 2025, Driven by Strong Performances from Samsung and Apple, according to IDC",
+			"url": "https://www.idc.com/resource-center/press-releases/q425mobilephonetop5/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "IDC"
+				}
+			],
+			"container": "IDC",
+			"published": "2026-01-13"
+		},
+		{
+			"kind": "web",
+			"title": "2025 Holiday PC Shipments Exceed Expectations as Vendors Accelerate Inventory Purchases Amid Supply Concerns",
+			"url": "https://www.pressreleasepoint.com/2025-holiday-pc-shipments-exceed-expectations-vendors-accelerate-inventory-purchases-amid-supply",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "IDC"
+				}
+			],
+			"container": "PressReleasePoint",
+			"published": "2026-01-12"
+		},
+		{
+			"kind": "web",
+			"title": "TOP500 List, June 1993",
+			"url": "https://www.top500.org/lists/top500/1993/06/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "TOP500"
+				}
+			],
+			"container": "TOP500.org",
+			"published": "1993-06"
+		},
+		{
+			"kind": "web",
+			"title": "TOP500 List, June 2002",
+			"url": "https://www.top500.org/lists/top500/2002/06/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "TOP500"
+				}
+			],
+			"container": "TOP500.org",
+			"published": "2002-06"
+		},
+		{
+			"kind": "web",
+			"title": "TOP500 List, June 2008",
+			"url": "https://www.top500.org/lists/top500/2008/06/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "TOP500"
+				}
+			],
+			"container": "TOP500.org",
+			"published": "2008-06"
+		},
+		{
+			"kind": "web",
+			"title": "TOP500 List, June 2011",
+			"url": "https://www.top500.org/lists/top500/2011/06/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "TOP500"
+				}
+			],
+			"container": "TOP500.org",
+			"published": "2011-06"
+		},
+		{
+			"kind": "web",
+			"title": "TOP500 List, June 2016",
+			"url": "https://www.top500.org/lists/top500/2016/06/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "TOP500"
+				}
+			],
+			"container": "TOP500.org",
+			"published": "2016-06"
+		},
+		{
+			"kind": "web",
+			"title": "TOP500 List, June 2020",
+			"url": "https://www.top500.org/lists/top500/2020/06/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "TOP500"
+				}
+			],
+			"container": "TOP500.org",
+			"published": "2020-06"
+		},
+		{
+			"kind": "web",
+			"title": "TOP500 List, June 2022",
+			"url": "https://www.top500.org/lists/top500/2022/06/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "TOP500"
+				}
+			],
+			"container": "TOP500.org",
+			"published": "2022-06"
+		},
+		{
+			"kind": "web",
+			"title": "TOP500 List, November 2024",
+			"url": "https://www.top500.org/lists/top500/2024/11/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "TOP500"
+				}
+			],
+			"container": "TOP500.org",
+			"published": "2024-11"
+		},
+		{
+			"kind": "media",
+			"title": "The Frontier supercomputer at Oak Ridge National Laboratory",
+			"url": "https://commons.wikimedia.org/wiki/File:Frontier_Supercomputer_(1).jpg",
+			"accessed": "2026-09-28",
+			"container": "Oak Ridge Leadership Computing Facility, via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "frontier.jpg",
+			"authors": [
+				{
+					"name": "OLCF at ORNL"
+				}
+			],
+			"published": "2022-06-01"
+		},
+		{
+			"kind": "media",
+			"title": "Energy efficiency of the TOP500 No. 1 systems, 2002–2026",
+			"url": "https://www.top500.org/lists/top500/",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from the TOP500 lists, June 2002 to June 2026 (Rmax and power)",
+			"licence": "MIT",
+			"file": "flops-per-watt.svg"
+		}
+	]
+}

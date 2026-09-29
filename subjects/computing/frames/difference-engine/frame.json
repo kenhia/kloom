@@ -1,0 +1,119 @@
+{
+	"id": "difference-engine",
+	"position": {
+		"label": "1822",
+		"sort": 1822
+	},
+	"scene": {
+		"headline": "We tabulated by",
+		"accent": "DIFFERENCES.",
+		"palette": "cardstock",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · CHARLES BABBAGE",
+			"THE METHOD OF DIFFERENCES · FIGURE WHEELS · PRINTED TABLES"
+		],
+		"counter": {
+			"value": "13",
+			"label": "London log tables, 1633–1822, sharing the same six errors"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Passages from the Life of a Philosopher",
+			"url": "https://www.gutenberg.org/ebooks/57532",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Babbage",
+					"given": "Charles"
+				}
+			],
+			"publisher": "Longman, Green, Longman, Roberts, & Green",
+			"place": "London",
+			"published": "1864",
+			"note": "Chapter V, on the origin and method of the engine; chapter VI, the 1822 model and the grant"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Babbage’s Calculating Engine",
+			"url": "https://en.wikisource.org/w/index.php?title=Edinburgh_Review/Volume_59/Babbage%27s_Calculating_Engine&oldid=5473361",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Lardner",
+					"given": "Dionysius"
+				}
+			],
+			"container": "Edinburgh Review",
+			"volume": "59",
+			"issue": "120",
+			"published": "1834-07",
+			"note": "Unsigned, as the Review’s articles were; Babbage names Lardner. The errors in the tables"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Difference engine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Difference_engine&oldid=1366995256",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Babbage",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Babbage&oldid=1371979131",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "“A Correct Table” of zodiacal stars, from the Nautical Almanac for 1767",
+			"url": "https://commons.wikimedia.org/wiki/File:TableLatLongStarsMoonDistBradleyNautAlmanac1767.jpg",
+			"accessed": "2026-09-28",
+			"container": "The Nautical Almanac and Astronomical Ephemeris for the Year 1767, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "almanac-table.jpg",
+			"authors": [
+				{
+					"name": "Commissioners of Longitude"
+				},
+				{
+					"name": "Nevil Maskelyne"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "Errors found in British navigational tables, as reported in 1834",
+			"url": "https://en.wikisource.org/w/index.php?title=Edinburgh_Review/Volume_59/Babbage%27s_Calculating_Engine&oldid=5473361",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Lardner, “Babbage’s Calculating Engine” (1834)",
+			"licence": "MIT",
+			"file": "table-errors.svg"
+		}
+	]
+}

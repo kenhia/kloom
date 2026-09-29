@@ -1,0 +1,216 @@
+{
+	"id": "microprocessor",
+	"position": {
+		"label": "1971",
+		"sort": 1971
+	},
+	"scene": {
+		"headline": "We sold the computer as a",
+		"accent": "PART.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SANTA CLARA · BUSICOM · INTEL",
+			"HOFF · MAZOR · SHIMA · FAGGIN",
+			"4-BIT · SILICON GATE · 16 PINS"
+		],
+		"counter": {
+			"value": "2,300",
+			"label": "transistors on the 4004, by Intel’s count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Intel 4004",
+			"url": "https://en.wikipedia.org/w/index.php?title=Intel_4004&oldid=1373622649",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Oral History Panel on the Development and Promotion of the Intel 4004 Microprocessor",
+			"url": "https://archive.computerhistory.org/resources/access/text/2012/04/102658187-05-01-acc.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Faggin",
+					"given": "Federico"
+				},
+				{
+					"family": "Feeney",
+					"given": "Hal"
+				},
+				{
+					"family": "Hoff",
+					"given": "Ted"
+				},
+				{
+					"family": "Mazor",
+					"given": "Stan"
+				},
+				{
+					"family": "Shima",
+					"given": "Masatoshi"
+				}
+			],
+			"publisher": "Computer History Museum",
+			"published": "2007-04-25",
+			"place": "Mountain View, California",
+			"number": "CHM Reference X4024.2007",
+			"note": "Interviewed by Dave House; Shima’s transistor count is on p. 14"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Fun Facts: Intel 4004 Processor Celebrates 40th Anniversary",
+			"url": "https://download.intel.com/newsroom/kits/40thanniversary/pdfs/40_years_of_processors_facts.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Intel Corporation"
+				}
+			],
+			"container": "Intel Newsroom",
+			"published": "2011",
+			"note": "The 2,300-transistor count"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Surprising Story of the First Microprocessors",
+			"url": "https://spectrum.ieee.org/the-surprising-story-of-the-first-microprocessors",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Shirriff",
+					"given": "Ken"
+				}
+			],
+			"container": "IEEE Spectrum",
+			"published": "2016-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Federico Faggin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Federico_Faggin&oldid=1373498131",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Busicom",
+			"url": "https://en.wikipedia.org/w/index.php?title=Busicom&oldid=1362821475",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Masatoshi Shima",
+			"url": "https://en.wikipedia.org/w/index.php?title=Masatoshi_Shima&oldid=1369823179",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stanley Mazor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stanley_Mazor&oldid=1372491858",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Intel 8008",
+			"url": "https://en.wikipedia.org/w/index.php?title=Intel_8008&oldid=1364853219",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Intel 8080",
+			"url": "https://en.wikipedia.org/w/index.php?title=Intel_8080&oldid=1376379151",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "media",
+			"title": "A printed layout of the Intel 4004, on display at a museum",
+			"url": "https://commons.wikimedia.org/wiki/File:Intel_4004_Chip_Layout_(29983532570).jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Flickr and Wikimedia Commons",
+			"licence": "CC0",
+			"file": "4004-layout.jpg",
+			"authors": [
+				{
+					"name": "Wolfgang Stief"
+				}
+			],
+			"published": "2016-10-03"
+		},
+		{
+			"kind": "media",
+			"title": "The Busicom 141-PF printing calculator, 1971",
+			"url": "https://commons.wikimedia.org/wiki/File:Busicom_141_PF_1.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "busicom-141pf.jpg",
+			"authors": [
+				{
+					"name": "Christian Bassow"
+				}
+			]
+		}
+	]
+}

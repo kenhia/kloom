@@ -1,0 +1,236 @@
+{
+	"id": "open-source",
+	"position": {
+		"label": "Open source"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "We built in the",
+		"accent": "BAZAAR.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PALO ALTO · NETSCAPE · ERIC S. RAYMOND · BRUCE PERENS",
+			"APACHE · GIT, 2005 · GITHUB, 2008 · HEARTBLEED · XZ"
+		],
+		"counter": {
+			"value": "98%",
+			"label": "of 947 audited commercial codebases containing open source, 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "History of the OSI",
+			"url": "https://opensource.org/history",
+			"accessed": "2026-09-28",
+			"container": "Open Source Initiative",
+			"note": "The Palo Alto session of 3 February 1998 and the founding"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Netscape Announces Plans to Make Next-Generation Communicator Source Code Available Free on the Net",
+			"url": "http://home.netscape.com/newsref/pr/newsrelease558.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Netscape Communications Corporation"
+				}
+			],
+			"container": "Netscape press release",
+			"published": "1998-01-22",
+			"note": "Read through the Internet Archive"
+		},
+		{
+			"kind": "web",
+			"title": "The Cathedral and the Bazaar",
+			"url": "http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Raymond",
+					"given": "Eric S."
+				}
+			],
+			"container": "catb.org"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2026 Open Source Security and Risk Analysis Report",
+			"publisher": "Black Duck",
+			"url": "https://www.blackduck.com/content/dam/black-duck/en-us/reports/rep-ossra.pdf",
+			"accessed": "2026-09-28",
+			"published": "2026-02",
+			"note": "Open source in 98% of audited codebases (table 2)"
+		},
+		{
+			"kind": "web",
+			"title": "Octoverse: A new developer joins GitHub every second as AI leads TypeScript to #1",
+			"url": "https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/",
+			"accessed": "2026-09-28",
+			"container": "The GitHub Blog",
+			"publisher": "GitHub",
+			"published": "2025-10-28"
+		},
+		{
+			"kind": "web",
+			"title": "backdoor in upstream xz/liblzma leading to ssh server compromise",
+			"url": "https://www.openwall.com/lists/oss-security/2024/03/29/4",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Freund",
+					"given": "Andres"
+				}
+			],
+			"container": "oss-security mailing list",
+			"publisher": "Openwall",
+			"published": "2024-03-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Open Source Initiative",
+			"url": "https://en.wikipedia.org/w/index.php?title=Open_Source_Initiative&oldid=1364295367",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Cathedral and the Bazaar",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Cathedral_and_the_Bazaar&oldid=1375319064",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Free Software Definition",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Free_Software_Definition&oldid=1376418772",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mozilla Application Suite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mozilla_Application_Suite&oldid=1348474458",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Apache HTTP Server",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apache_HTTP_Server&oldid=1371397235",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Git",
+			"url": "https://en.wikipedia.org/w/index.php?title=Git&oldid=1373236942",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GitHub",
+			"url": "https://en.wikipedia.org/w/index.php?title=GitHub&oldid=1376673800",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Heartbleed",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heartbleed&oldid=1376361733",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Log4Shell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Log4Shell&oldid=1352063255",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-01"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "XZ Utils backdoor",
+			"url": "https://en.wikipedia.org/w/index.php?title=XZ_Utils_backdoor&oldid=1373296486",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		}
+	]
+}

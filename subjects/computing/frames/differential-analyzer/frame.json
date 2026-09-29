@@ -1,0 +1,163 @@
+{
+	"id": "differential-analyzer",
+	"position": {
+		"label": "1931",
+		"sort": 1931
+	},
+	"scene": {
+		"headline": "The equation became",
+		"accent": "SHAFTS.",
+		"palette": "cardstock",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MIT · VANNEVAR BUSH · HAROLD HAZEN",
+			"WHEEL-AND-DISC INTEGRATORS · TORQUE AMPLIFIERS · FIRING TABLES"
+		],
+		"counter": {
+			"value": "15 minutes",
+			"label": "for one 60-second trajectory, against about 20 hours by hand"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Instrumental Analysis",
+			"url": "https://www.ams.org/journals/bull/1936-42-10/S0002-9904-1936-06390-1/",
+			"accessed": "2026-09-28",
+			"doi": "10.1090/S0002-9904-1936-06390-1",
+			"authors": [
+				{
+					"family": "Bush",
+					"given": "Vannevar"
+				}
+			],
+			"container": "Bulletin of the American Mathematical Society",
+			"volume": "42",
+			"issue": "10",
+			"pages": "649–669",
+			"published": "1936-10",
+			"note": "The integrator and the torque amplifier on pp. 658–59; setting up a problem on p. 664"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "ENIAC: The Army-Sponsored Revolution",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/96summary/index.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Moye",
+					"given": "William T."
+				}
+			],
+			"container": "History of Computing Information",
+			"publisher": "U.S. Army Research Laboratory",
+			"published": "1996-01",
+			"note": "The Aberdeen and Moore School analyzers, and the trajectory times"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Differential analyser",
+			"url": "https://en.wikipedia.org/w/index.php?title=Differential_analyser&oldid=1365122996",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vannevar Bush",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vannevar_Bush&oldid=1374856187",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Douglas Hartree",
+			"url": "https://en.wikipedia.org/w/index.php?title=Douglas_Hartree&oldid=1376686401",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ballistic Research Laboratory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ballistic_Research_Laboratory&oldid=1376482348",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "media",
+			"title": "An integrator of the MIT differential analyzer, built by Vannevar Bush and Harold Hazen, 1928–31",
+			"url": "https://commons.wikimedia.org/wiki/File:Integrator_Unit,_Differential_Analyzer,_by_Vannevar_Bush_with_Harold_Hazen,_1928-1931_-_MIT_Museum_-_Cambridge,_MA_-_DSC09127.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Daderot"
+				}
+			],
+			"container": "Photograph at the MIT Museum, Cambridge, Massachusetts, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "mit-integrator.jpg",
+			"published": "2026-04-17"
+		},
+		{
+			"kind": "media",
+			"title": "Kay McNulty, Alyse Snyder and Sis Stump operating the differential analyzer in the basement of the Moore School",
+			"url": "https://commons.wikimedia.org/wiki/File:KayMcNultyAlyseSnyderSisStumpDifferentialAnalyzer.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "United States Government"
+				}
+			],
+			"container": "U.S. Government photograph, University of Pennsylvania, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "moore-da.jpg",
+			"published": "1942",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "Time to compute one 60-second trajectory, by hand, on the differential analyzer and on ENIAC",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/96summary/index.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from Moye, ENIAC: The Army-Sponsored Revolution (1996)",
+			"licence": "MIT",
+			"file": "trajectory-time.svg",
+			"published": "2026"
+		}
+	]
+}

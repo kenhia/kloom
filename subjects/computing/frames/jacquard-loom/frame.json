@@ -1,0 +1,154 @@
+{
+	"id": "jacquard-loom",
+	"position": {
+		"label": "1804",
+		"sort": 1804
+	},
+	"scene": {
+		"headline": "We wove with",
+		"accent": "HOLES.",
+		"palette": "walnut",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LYON · BOUCHON · FALCON · VAUCANSON · JACQUARD",
+			"PUNCHED CARDS · NEEDLES · HOOKS · THE GRIFFE"
+		],
+		"counter": {
+			"value": "1 card",
+			"label": "for every pass of the shuttle"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Jacquard machine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jacquard_machine&oldid=1364469677",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-16",
+			"note": "How the head works"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Joseph Marie Jacquard",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Marie_Jacquard&oldid=1377015302",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"note": "Bouchon, Falcon and Vaucanson before him, and the dates of his loom"
+		},
+		{
+			"kind": "web",
+			"title": "1801: Punched Cards Control Jacquard Loom",
+			"url": "https://www.computerhistory.org/storageengine/punched-cards-control-jacquard-loom/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Computer History Museum"
+				}
+			],
+			"container": "The Storage Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Basile Bouchon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Basile_Bouchon&oldid=1345151451",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jacques de Vaucanson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jacques_de_Vaucanson&oldid=1360953454",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Canut revolts",
+			"url": "https://en.wikipedia.org/w/index.php?title=Canut_revolts&oldid=1363506202",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Punched card",
+			"url": "https://en.wikipedia.org/w/index.php?title=Punched_card&oldid=1375205035",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "media",
+			"title": "A model of Basile Bouchon’s loom of 1725, with its band of punched paper",
+			"url": "https://commons.wikimedia.org/wiki/File:Basile_Bouchon_1725_loom.jpg",
+			"accessed": "2026-09-28",
+			"container": "Musée des arts et métiers, Paris; photograph via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "bouchon-loom.jpg",
+			"authors": [
+				{
+					"name": "Dogcow"
+				}
+			],
+			"published": "2010-11-18"
+		},
+		{
+			"kind": "media",
+			"title": "A Jacquard loom and its chain of punched cards",
+			"url": "https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg",
+			"accessed": "2026-09-28",
+			"container": "National Museum of Scotland, Edinburgh; photograph via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "jacquard-cards.jpg",
+			"authors": [
+				{
+					"name": "Stephencdickson"
+				}
+			],
+			"published": "2019-06-16"
+		}
+	]
+}

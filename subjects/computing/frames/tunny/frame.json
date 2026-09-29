@@ -1,0 +1,166 @@
+{
+	"id": "tunny",
+	"position": {
+		"label": "1941–42",
+		"sort": 1941
+	},
+	"scene": {
+		"headline": "We read a machine we had never",
+		"accent": "SEEN.",
+		"palette": "console",
+		"illustration": "scene.svg",
+		"metadata": [
+			"VIENNA · ATHENS · BLETCHLEY PARK",
+			"LORENZ SZ40/42 · TWELVE WHEELS · ADDITION MODULO 2"
+		],
+		"counter": {
+			"value": "3,976",
+			"label": "letters of key from one message sent twice"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "General Report on Tunny: With Emphasis on Statistical Methods",
+			"url": "https://www.codesandciphers.org.uk/documents/newman/newman.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Good",
+					"given": "I. J."
+				},
+				{
+					"family": "Michie",
+					"given": "Donald"
+				},
+				{
+					"family": "Timms",
+					"given": "Geoffrey"
+				}
+			],
+			"publisher": "Government Code and Cypher School",
+			"place": "Bletchley Park",
+			"published": "1945",
+			"note": "Read in Tony Sale’s 2001 transcript of the Newmanry chapters; the original is at The National Archives, HW 25/4 and HW 25/5"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Fish and I",
+			"url": "https://uwaterloo.ca/combinatorics-and-optimization/sites/ca.combinatorics-and-optimization/files/uploads/files/corr98-39.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Tutte",
+					"given": "W. T."
+				}
+			],
+			"number": "CORR 98-39",
+			"publisher": "Department of Combinatorics and Optimization, University of Waterloo",
+			"place": "Waterloo, Ontario",
+			"published": "1998",
+			"note": "Tutte’s own account, a lecture of 19 June 1998; read through the Internet Archive"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Lorenz cipher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lorenz_cipher&oldid=1376170667",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Cryptanalysis of the Lorenz cipher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cryptanalysis_of_the_Lorenz_cipher&oldid=1376878173",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Tiltman",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Tiltman&oldid=1352183874",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "W. T. Tutte",
+			"url": "https://en.wikipedia.org/w/index.php?title=W._T._Tutte&oldid=1372664138",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Turingery",
+			"url": "https://en.wikipedia.org/w/index.php?title=Turingery&oldid=1312263686",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Testery",
+			"url": "https://en.wikipedia.org/w/index.php?title=Testery&oldid=1375423811",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "A Lorenz SZ42 cipher attachment with its cover removed, at Bletchley Park",
+			"url": "https://commons.wikimedia.org/wiki/File:Lorenz-SZ42-2.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Matt Crypto"
+				}
+			],
+			"container": "Photograph at the Bletchley Park museum, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "lorenz-sz42.jpg"
+		}
+	]
+}

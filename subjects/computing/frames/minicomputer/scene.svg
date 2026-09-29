@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 28 L40 70 M66 28 L66 70 M92 28 L92 70 M118 28 L118 70 M144 28 L144 70 M170 28 L170 70 M196 28 L196 70 M222 28 L222 70 M248 28 L248 70 M274 28 L274 70 M300 28 L300 70 M326 28 L326 70 M352 28 L352 70"/>
+		<path pathLength="1" d="M40 70 L40 84 M118 70 L118 84 M196 70 L196 84 M274 70 L274 84 M352 70 L352 84"/>
+		<path pathLength="1" d="M32 150 L368 150 M32 176 L368 176 M32 202 L368 202 M32 228 L368 228 M32 254 L368 254"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 36 L352 36 L352 62 L40 62 Z"/>
+		<path pathLength="1" d="M118 36 L118 62 M144 36 L144 62 M170 36 L170 62"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M66 40 L66 58 M92 40 L92 58 M196 40 L196 58 M222 40 L222 58 M248 40 L248 58 M274 40 L274 58 M300 40 L300 58 M326 40 L326 58"/>
+		<path pathLength="1" d="M43 68 L43 72 L115 72 L115 68"/>
+		<path pathLength="1" d="M121 68 L121 72 L141 72 L141 68"/>
+		<path pathLength="1" d="M147 68 L147 72 L167 72 L167 68"/>
+		<path pathLength="1" d="M173 68 L173 72 L349 72 L349 68"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 150 L360 150 L360 254 L40 254 Z"/>
+		<path pathLength="1" d="M80 150 L80 254 M120 150 L120 254 M160 150 L160 254 M200 150 L200 254 M240 150 L240 254 M280 150 L280 254 M320 150 L320 254"/>
+		<path pathLength="1" d="M40 176 L360 176 M40 202 L360 202 M40 228 L360 228"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M44 153 L44 173 M50 153 L50 173 M56 153 L56 173 M62 153 L62 173 M68 153 L68 173 M74 153 L74 173"/>
+		<path pathLength="1" d="M244 179 L244 199 M250 179 L250 199 M256 179 L256 199 M262 179 L262 199 M268 179 L268 199 M274 179 L274 199"/>
+		<path pathLength="1" d="M157 74 L157 120 L60 120 L60 147"/>
+		<path pathLength="1" d="M58 143.5 L60 147 L62 143.5"/>
+		<path pathLength="1" d="M261 74 L261 128 L260 128 L260 173"/>
+		<path pathLength="1" d="M258 169.5 L260 173 L262 169.5"/>
+	</g>
+	<g>
+		<text x="53" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="79" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="105" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="131" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="157" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="183" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="209" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="235" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="261" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="287" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="313" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="339" y="52" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="53" y="24" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="339" y="24" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">11</text>
+		<text x="79" y="94" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OPCODE</text>
+		<text x="131" y="94" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">I</text>
+		<text x="157" y="94" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Z</text>
+		<text x="261" y="94" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ADDRESS</text>
+		<text x="200" y="20" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">12-BIT WORD · ONE INSTRUCTION</text>
+		<text x="60" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PAGE 0</text>
+		<text x="260" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THIS PAGE</text>
+		<text x="200" y="288" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4,096 WORDS = 32 PAGES × 128</text>
+	</g>
+</svg>

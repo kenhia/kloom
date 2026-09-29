@@ -1,0 +1,194 @@
+{
+	"id": "clement-fragment",
+	"position": {
+		"label": "1832",
+		"sort": 1832
+	},
+	"scene": {
+		"headline": "The engine taught us",
+		"accent": "PRECISION.",
+		"palette": "cardstock",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · JOSEPH CLEMENT’S WORKSHOP · 1823–1833",
+			"DIFFERENCE ENGINE NO. 1 · THE FINISHED PORTION"
+		],
+		"counter": {
+			"value": "£17,478",
+			"label": "spent by the Treasury on Difference Engine No. 1, to 1834"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Calculation and Tabulation in the Nineteenth Century: Airy versus Babbage",
+			"url": "https://discovery.ucl.ac.uk/id/eprint/10102065/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Swade",
+					"given": "Doron David"
+				}
+			],
+			"publisher": "University College London",
+			"place": "London",
+			"published": "2003",
+			"note": "Clement, Whitworth and the collapse of 1833, pp. 150–154 and 171–174; the Treasury’s total, p. 193"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Passages from the Life of a Philosopher",
+			"url": "https://www.gutenberg.org/ebooks/57532",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Babbage",
+					"given": "Charles"
+				}
+			],
+			"publisher": "Longman, Green, Longman, Roberts, & Green",
+			"place": "London",
+			"published": "1864",
+			"note": "Chapter 5 describes the finished portion; chapter 6 is the statement on the engine drawn up by Sir Harris Nicolas"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Joseph Clement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Clement&oldid=1361728969",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Difference engine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Difference_engine&oldid=1366995256",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Babbage",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Babbage&oldid=1371979131",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Whitworth",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Whitworth&oldid=1368513544",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "book",
+			"title": "On the Economy of Machinery and Manufactures",
+			"url": "https://www.gutenberg.org/ebooks/4238",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Babbage",
+					"given": "Charles"
+				}
+			],
+			"publisher": "Charles Knight",
+			"place": "London",
+			"published": "1832",
+			"note": "The note on the engine’s finished portion, in the edition Project Gutenberg follows"
+		},
+		{
+			"kind": "article",
+			"title": "The Construction of Charles Babbage's Difference Engine No. 2",
+			"accessed": "2026-09-28",
+			"doi": "10.1109/MAHC.2005.45",
+			"authors": [
+				{
+					"family": "Swade",
+					"given": "Doron D."
+				}
+			],
+			"container": "IEEE Annals of the History of Computing",
+			"volume": "27",
+			"issue": "3",
+			"pages": "70–88",
+			"published": "2005-07"
+		},
+		{
+			"kind": "article",
+			"title": "Charles Babbage's Analytical Engine, 1838",
+			"accessed": "2026-09-28",
+			"doi": "10.1109/MAHC.1982.10028",
+			"authors": [
+				{
+					"family": "Bromley",
+					"given": "Allan G."
+				}
+			],
+			"container": "Annals of the History of Computing",
+			"volume": "4",
+			"issue": "3",
+			"pages": "196–217",
+			"published": "1982-07"
+		},
+		{
+			"kind": "media",
+			"title": "Part of Difference Engine No. 1 as assembled in the 1830s, a woodcut after a drawing by Benjamin Herschel Babbage",
+			"url": "https://commons.wikimedia.org/wiki/File:Difference_engine_plate_1853.jpg",
+			"accessed": "2026-09-28",
+			"container": "Frontispiece to Babbage’s writings on the engine, via Google Books and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "woodcut-1853.jpg",
+			"authors": [
+				{
+					"name": "Benjamin Herschel Babbage"
+				}
+			],
+			"published": "1853"
+		},
+		{
+			"kind": "media",
+			"title": "What Difference Engine No. 1 cost, against a locomotive and the Scheutz copy",
+			"url": "https://discovery.ucl.ac.uk/id/eprint/10102065/",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from Swade, Calculation and Tabulation in the Nineteenth Century (2003)",
+			"licence": "MIT",
+			"file": "engine-costs.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

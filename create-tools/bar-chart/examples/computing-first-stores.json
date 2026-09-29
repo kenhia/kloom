@@ -1,0 +1,30 @@
+{
+	"title": "Main store of the first stored-program machines, in binary digits",
+	"description": "Bar chart on a logarithmic scale of each machine's main (random-access or delay-line) store in binary digits. Manchester Baby, 1948: 32 words of 32 bits, 1,024. EDSAC, 1949: 512 words of 17 bits, 8,704. Ferranti Mark 1, 1951: 8 pages of 64 lines of 20 bits, 10,240. UNIVAC I, 1951: 1,000 words of 12 six-bit characters, 72,000, not counting check pulses. IBM 701, 1952: 2,048 words of 36 bits, 73,728. Data: University of Manchester, University of Cambridge Computer Laboratory, Weik 1955.",
+	"heading": "MAIN STORE · BINARY DIGITS (LOG SCALE)",
+	"scale": "log",
+	"axis": {
+		"min": 100,
+		"max": 1000000,
+		"ticks": [
+			[100, "10²"],
+			[1000, "10³"],
+			[10000, "10⁴"],
+			[100000, "10⁵"],
+			[1000000, "10⁶"]
+		]
+	},
+	"bars": [
+		{ "label": "Baby", "sublabel": "1948", "value": 1024, "display": "1,024" },
+		{ "label": "EDSAC", "sublabel": "1949", "value": 8704, "display": "8,704" },
+		{ "label": "Ferranti", "sublabel": "1951", "value": 10240, "display": "10,240" },
+		{
+			"label": "UNIVAC I",
+			"sublabel": "1951",
+			"value": 72000,
+			"display": "72,000",
+			"highlight": true
+		},
+		{ "label": "IBM 701", "sublabel": "1952", "value": 73728, "display": "73,728" }
+	]
+}

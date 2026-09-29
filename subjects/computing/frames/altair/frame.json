@@ -1,0 +1,164 @@
+{
+	"id": "altair",
+	"position": {
+		"label": "1975",
+		"sort": 1975
+	},
+	"scene": {
+		"headline": "The computer came as a",
+		"accent": "KIT.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ALBUQUERQUE · MITS · ED ROBERTS",
+			"POPULAR ELECTRONICS · JANUARY 1975",
+			"INTEL 8080 · ALTAIR BASIC · HOMEBREW"
+		],
+		"counter": {
+			"value": "$397",
+			"label": "the complete kit, January 1975"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Altair 8800 Minicomputer, Part 1",
+			"url": "https://www.worldradiohistory.com/Archive-Poptronics/70s/1975/Poptronics-1975-01.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Roberts",
+					"given": "H. Edward"
+				},
+				{
+					"family": "Yates",
+					"given": "William"
+				}
+			],
+			"container": "Popular Electronics",
+			"published": "1975-01",
+			"volume": "7",
+			"issue": "1",
+			"pages": "33–38",
+			"note": "With the issue’s editorial, “The Home Computer Is Here!”, p. 4; prices in the parts list, p. 34"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Altair 8800",
+			"url": "https://en.wikipedia.org/w/index.php?title=Altair_8800&oldid=1374047192",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Altair BASIC",
+			"url": "https://en.wikipedia.org/w/index.php?title=Altair_BASIC&oldid=1377254367",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "An Open Letter to Hobbyists",
+			"url": "https://en.wikipedia.org/w/index.php?title=An_Open_Letter_to_Hobbyists&oldid=1332091111",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Homebrew Computer Club",
+			"url": "https://en.wikipedia.org/w/index.php?title=Homebrew_Computer_Club&oldid=1375312709",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of Microsoft",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_Microsoft&oldid=1377182560",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Intel 8080",
+			"url": "https://en.wikipedia.org/w/index.php?title=Intel_8080&oldid=1376379151",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "media",
+			"title": "MITS advertisement for the Altair 8800, “If Santa had an Altair…”",
+			"url": "https://commons.wikimedia.org/wiki/File:Altair_8800_-_Nov_1975_Byte_%22Santa%22_advert_01.jpg",
+			"accessed": "2026-09-28",
+			"container": "Byte, November 1975, via the Internet Archive and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "santa-advert.jpg",
+			"authors": [
+				{
+					"name": "Micro Instrumentation and Telemetry Systems"
+				}
+			],
+			"published": "1975-11"
+		},
+		{
+			"kind": "media",
+			"title": "An Altair 8800 at the Intel Museum, Santa Clara",
+			"url": "https://commons.wikimedia.org/wiki/File:Altair_8800_at_the_Intel_Museum_20131011.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "altair-8800.jpg",
+			"authors": [
+				{
+					"name": "othree"
+				}
+			],
+			"published": "2013-10-11"
+		}
+	]
+}

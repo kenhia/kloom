@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M42 118 a62 62 0 1 0 124 0 a62 62 0 1 0 -124 0"/>
+		<path pathLength="1" d="M104 118 L104 36 M104 118 L152.2 51.7 M104 118 L182 92.7 M104 118 L182 143.3 M104 118 L152.2 184.3 M104 118 L104 200 M104 118 L55.8 184.3 M104 118 L26 143.3 M104 118 L26 92.7 M104 118 L55.8 51.7"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M95 56 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M105 56 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M132.4 64.9 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M140.5 70.8 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M157.4 94.1 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M160.5 103.6 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M160.5 132.4 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M157.4 141.9 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M140.5 165.2 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M132.4 171.1 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M105 180 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M95 180 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M67.6 171.1 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M59.5 165.2 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M42.6 141.9 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M39.5 132.4 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M39.5 103.6 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M42.6 94.1 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M59.5 70.8 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M67.6 64.9 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M97 161.4 L95.9 161.2 L94.8 161 L93.7 160.8 L92.6 160.5 L91.5 160.2 L90.4 159.8 L89.3 159.5 L88.3 159.1 L87.2 158.7 L86.2 158.2 L85.2 157.8 L84.1 157.3"/>
+		<path pathLength="1" d="M87.1 157.1 L84.1 157.3 L85.8 159.8"/>
+		<path pathLength="1" d="M72.8 149 L72 148.2 L71.2 147.4 L70.5 146.5 L69.8 145.7 L69.1 144.8 L68.4 143.9 L67.8 142.9 L67.1 142 L66.5 141 L65.9 140.1 L65.4 139.1 L64.9 138.1"/>
+		<path pathLength="1" d="M67.4 139.7 L64.9 138.1 L64.7 141.1"/>
+		<path pathLength="1" d="M60.5 124.8 L60.4 123.6 L60.2 122.5 L60.1 121.4 L60.1 120.3 L60 119.1 L60 118 L60 116.9 L60.1 115.7 L60.1 114.6 L60.2 113.5 L60.4 112.4 L60.5 111.2"/>
+		<path pathLength="1" d="M61.6 114 L60.5 111.2 L58.7 113.6"/>
+		<path pathLength="1" d="M64.9 97.9 L65.4 96.9 L65.9 95.9 L66.5 95 L67.1 94 L67.8 93.1 L68.4 92.1 L69.1 91.2 L69.8 90.3 L70.5 89.5 L71.2 88.6 L72 87.8 L72.8 87"/>
+		<path pathLength="1" d="M72.1 89.9 L72.8 87 L69.9 87.8"/>
+		<path pathLength="1" d="M84.1 78.7 L85.2 78.2 L86.2 77.8 L87.2 77.3 L88.3 76.9 L89.3 76.5 L90.4 76.2 L91.5 75.8 L92.6 75.5 L93.7 75.2 L94.8 75 L95.9 74.8 L97 74.6"/>
+		<path pathLength="1" d="M94.7 76.5 L97 74.6 L94.2 73.5"/>
+		<path pathLength="1" d="M111 74.6 L112.1 74.8 L113.2 75 L114.3 75.2 L115.4 75.5 L116.5 75.8 L117.6 76.2 L118.7 76.5 L119.7 76.9 L120.8 77.3 L121.8 77.8 L122.8 78.2 L123.9 78.7"/>
+		<path pathLength="1" d="M120.9 78.9 L123.9 78.7 L122.2 76.2"/>
+		<path pathLength="1" d="M135.2 87 L136 87.8 L136.8 88.6 L137.5 89.5 L138.2 90.3 L138.9 91.2 L139.6 92.1 L140.2 93.1 L140.9 94 L141.5 95 L142.1 95.9 L142.6 96.9 L143.1 97.9"/>
+		<path pathLength="1" d="M140.6 96.3 L143.1 97.9 L143.3 94.9"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M101 193 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M172.3 94.8 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M104 48 L104 34 L250 34 L250 58"/>
+		<path pathLength="1" d="M248 54.5 L250 58 L252 54.5"/>
+		<path pathLength="1" d="M222 58 L278 58 L278 92 L222 92 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M248.6 63 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0"/>
+		<path pathLength="1" d="M255.7 65.3 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0"/>
+		<path pathLength="1" d="M260 71.3 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0"/>
+		<path pathLength="1" d="M260 78.7 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0"/>
+		<path pathLength="1" d="M255.7 84.7 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0"/>
+		<path pathLength="1" d="M248.6 87 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0"/>
+		<path pathLength="1" d="M241.5 84.7 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0"/>
+		<path pathLength="1" d="M237.2 78.7 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0"/>
+		<path pathLength="1" d="M237.2 71.3 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0"/>
+		<path pathLength="1" d="M241.5 65.3 a1.4 1.4 0 1 0 2.8 0 a1.4 1.4 0 1 0 -2.8 0"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M30 216 L30 256 M47 216 L47 256 M64 216 L64 256 M81 216 L81 256 M98 216 L98 256 M115 216 L115 256 M132 216 L132 256 M149 216 L149 256 M166 216 L166 256 M183 216 L183 256 M200 216 L200 256 M217 216 L217 256 M234 216 L234 256 M251 216 L251 256 M268 216 L268 256 M285 216 L285 256 M302 216 L302 256 M319 216 L319 256 M336 216 L336 256 M353 216 L353 256 M370 216 L370 256"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 250 L370 250"/>
+		<path pathLength="1" d="M35.5 250 L35.5 236 L41.5 236 L41.5 250 M52.5 250 L52.5 236 L58.5 236 L58.5 250 M69.5 250 L69.5 236 L75.5 236 L75.5 250 M86.5 250 L86.5 236 L92.5 236 L92.5 250 M103.5 250 L103.5 236 L109.5 236 L109.5 250 M120.5 250 L120.5 236 L126.5 236 L126.5 250 M137.5 250 L137.5 236 L143.5 236 L143.5 250"/>
+		<path pathLength="1" d="M222.5 250 L222.5 226 L228.5 226 L228.5 250"/>
+	</g>
+	<g>
+		<text x="104" y="31" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="156.9" y="48.2" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="189.6" y="93.2" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="189.6" y="148.8" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="156.9" y="193.8" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4</text>
+		<text x="104" y="211" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5</text>
+		<text x="51.1" y="193.8" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">6</text>
+		<text x="18.4" y="148.8" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">7</text>
+		<text x="18.4" y="93.2" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8</text>
+		<text x="51.1" y="48.2" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">9</text>
+		<text x="104" y="116" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5 + 7</text>
+		<text x="104" y="129" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">= 2, CARRY 1</text>
+		<text x="250" y="108" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NEXT DECADE</text>
+		<text x="180" y="28" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CARRY</text>
+		<text x="89.5" y="230" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">7 DIGIT PULSES</text>
+		<text x="225.5" y="222" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CARRY</text>
+		<text x="200" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">20 PULSE TIMES × 10 μs = ONE ADDITION TIME, 200 μs</text>
+		<text x="200" y="282" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5,000 ADDITIONS A SECOND</text>
+	</g>
+</svg>

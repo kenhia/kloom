@@ -1,0 +1,57 @@
+{
+	"title": "Three-rotor bombes available to Bletchley Park, December 1941 to May 1945",
+	"description": "Bar chart of the number of British three-rotor bombes available: 12 in December 1941, 40 in December 1942, 72 in June 1943, 87 in December 1943, 152 in December 1944 and 155 in May 1945. Data: Wikipedia, Bombe, revision 1371956337, table of three-rotor bombes available.",
+	"heading": "THREE-ROTOR BOMBES AVAILABLE",
+	"unit": "",
+	"axis": {
+		"max": 160,
+		"ticks": [
+			[0, "0"],
+			[40, "40"],
+			[80, "80"],
+			[120, "120"],
+			[160, "160"]
+		]
+	},
+	"bars": [
+		{
+			"label": "1941",
+			"sublabel": "Dec",
+			"value": 12,
+			"display": "12"
+		},
+		{
+			"label": "1942",
+			"sublabel": "Dec",
+			"value": 40,
+			"display": "40"
+		},
+		{
+			"label": "1943",
+			"sublabel": "Jun",
+			"value": 72,
+			"display": "72"
+		},
+		{
+			"label": "1943",
+			"sublabel": "Dec",
+			"value": 87,
+			"display": "87"
+		},
+		{
+			"label": "1944",
+			"sublabel": "Dec",
+			"value": 152,
+			"highlight": true,
+			"display": "152"
+		},
+		{
+			"label": "1945",
+			"sublabel": "May",
+			"value": 155,
+			"display": "155"
+		}
+	],
+	"barWidth": 48,
+	"width": 480
+}

@@ -1,0 +1,182 @@
+{
+	"id": "macintosh",
+	"position": {
+		"label": "1984",
+		"sort": 1984
+	},
+	"scene": {
+		"headline": "We published from the",
+		"accent": "DESKTOP.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CUPERTINO · THE MACINTOSH · ADOBE · ALDUS",
+			"MOTOROLA 68000 · 512 × 342 · POSTSCRIPT · 300 DPI"
+		],
+		"counter": {
+			"value": "$2,495",
+			"label": "the Macintosh, on sale 24 January 1984"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Macintosh 128K",
+			"url": "https://en.wikipedia.org/w/index.php?title=Macintosh_128K&oldid=1376350796",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "LaserWriter",
+			"url": "https://en.wikipedia.org/w/index.php?title=LaserWriter&oldid=1353269499",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-09"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "PostScript",
+			"url": "https://en.wikipedia.org/w/index.php?title=PostScript&oldid=1364826915",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1984 (advertisement)",
+			"url": "https://en.wikipedia.org/w/index.php?title=1984_(advertisement)&oldid=1374578974",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Apple Lisa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apple_Lisa&oldid=1374140866",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Xerox Star",
+			"url": "https://en.wikipedia.org/w/index.php?title=Xerox_Star&oldid=1368606439",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Desktop publishing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Desktop_publishing&oldid=1355897214",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Windows 1.0",
+			"url": "https://en.wikipedia.org/w/index.php?title=Windows_1.0&oldid=1376870004",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "article",
+			"title": "Creation Myth: Xerox PARC, Apple, and the Truth about Innovation",
+			"url": "https://www.newyorker.com/magazine/2011/05/16/creation-myth",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Gladwell",
+					"given": "Malcolm"
+				}
+			],
+			"container": "The New Yorker",
+			"published": "2011-05-16"
+		},
+		{
+			"kind": "media",
+			"title": "The Macintosh in January 1984, photographed by Bernard Gotfryd",
+			"url": "https://commons.wikimedia.org/wiki/File:Macintosh_128k_computer,_January_1984,_by_Bernard_Gotfryd_-_(cropped_to_remove_individual).jpg",
+			"accessed": "2026-09-28",
+			"container": "Bernard Gotfryd Collection, Library of Congress, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "mac128k.jpg",
+			"authors": [
+				{
+					"name": "Bernard Gotfryd"
+				}
+			],
+			"published": "1984-01"
+		},
+		{
+			"kind": "media",
+			"title": "The price of a graphical computer, 1981 to 1984",
+			"url": "https://en.wikipedia.org/w/index.php?title=Macintosh_128K&oldid=1376350796",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from the Wikipedia articles Xerox Star, Apple Lisa and Macintosh 128K",
+			"licence": "MIT",
+			"file": "gui-prices.svg",
+			"published": "2026"
+		}
+	]
+}

@@ -1,0 +1,139 @@
+{
+	"id": "edsac",
+	"position": {
+		"label": "1949",
+		"sort": 1949
+	},
+	"scene": {
+		"headline": "The machine opened for",
+		"accent": "SERVICE.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · MAURICE WILKES · WILLIAM RENWICK · DAVID WHEELER",
+			"MERCURY DELAY LINES · INITIAL ORDERS · SUBROUTINE LIBRARY"
+		],
+		"counter": {
+			"value": "87",
+			"label": "subroutines in its library by 1951"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "EDSAC",
+			"url": "https://en.wikipedia.org/w/index.php?title=EDSAC&oldid=1372096697",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Some EDSAC Statistics",
+			"url": "https://www.cl.cam.ac.uk/events/EDSAC99/statistics.html",
+			"accessed": "2026-09-28",
+			"container": "EDSAC 99",
+			"publisher": "University of Cambridge Computer Laboratory",
+			"published": "1999",
+			"note": "Quoting Wilkes and Renwick (1950) on the tanks; the clock, order times and initial orders"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "A Brief Informal History of the Computer Laboratory",
+			"url": "https://www.cl.cam.ac.uk/events/EDSAC99/history.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Spärck Jones",
+					"given": "Karen"
+				}
+			],
+			"container": "EDSAC 99",
+			"publisher": "University of Cambridge Computer Laboratory",
+			"published": "1999"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Cambridge’s Golden Jubilee",
+			"url": "https://www.computerconservationsociety.org/resurrection/res22.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Enticknap",
+					"given": "Nicholas"
+				}
+			],
+			"container": "Resurrection: The Bulletin of the Computer Conservation Society",
+			"publisher": "Computer Conservation Society",
+			"published": "1999",
+			"issue": "22",
+			"note": "Wilkes and Hartley at the Science Museum seminar of 10 May 1999"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Delay-line memory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Delay-line_memory&oldid=1365416787",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wheeler Jump",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wheeler_Jump&oldid=1353925985",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "LEO (computer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=LEO_(computer)&oldid=1371435546",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "media",
+			"title": "Maurice Wilkes with a battery of EDSAC’s mercury delay lines",
+			"url": "https://commons.wikimedia.org/wiki/File:EDSAC_(9).jpg",
+			"accessed": "2026-09-28",
+			"container": "University of Cambridge Computer Laboratory archive, via Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "edsac.jpg",
+			"authors": [
+				{
+					"name": "University of Cambridge Computer Laboratory"
+				}
+			]
+		}
+	]
+}

@@ -29,6 +29,8 @@ See `examples/book-output.json`, the printing-press chart.
 | `bars`                        | `label`, optional `sublabel`, `value`, optional `display` (the value's label), `highlight`.   |
 | `width`, `height`, `barWidth` | Optional; default 480, 300 and 56.                                                            |
 
+A value's label has one decimal under 100 unless the value is whole: 28, not 28.0 (sprint 015).
+
 The chart is media, so the frame needs a `media` citation for the file. Give
 it a licence (the repo's MIT for a chart drawn here), and put the data's
 source in the citation's `url` and `container`.
@@ -38,29 +40,55 @@ source in the citation's `url` and `container`.
 Each spec in `examples/` is the source of one committed chart. Re-running
 all of them reproduces the charts byte for byte:
 
-| Spec                              | Chart                                                            |
-| --------------------------------- | ---------------------------------------------------------------- |
-| `book-output.json`                | `subjects/western-civ/frames/printing-press/book-output.svg`     |
-| `alphazero-search.json`           | `subjects/ai/frames/alphazero/search-speed.svg`                  |
-| `feynman-diagrams-per-order.json` | `subjects/feynman/frames/magnetic-moment/diagrams-per-order.svg` |
-| `feynman-glass-reflection.json`   | `subjects/feynman/frames/qed-book/glass-reflection.svg`          |
-| `feynman-ibm-problems.json`       | `subjects/feynman/frames/punched-cards/problems-per-month.svg`   |
-| `feynman-muon-gap.json`           | `subjects/feynman/frames/path-integrals-today/muon-gap.svg`      |
-| `feynman-o-ring-distress.json`    | `subjects/feynman/frames/teleconference/o-ring-distress.svg`     |
-| `feynman-plenty-citations.json`   | `subjects/feynman/frames/plenty-of-room/citations.svg`           |
-| `feynman-roton-gap.json`          | `subjects/feynman/frames/superfluid-helium/roton-gap.svg`        |
-| `feynman-rsa-qubits.json`         | `subjects/feynman/frames/quantum-computing-now/rsa-qubits.svg`   |
-| `feynman-shuttle-odds.json`       | `subjects/feynman/frames/reliability/shuttle-odds.svg`           |
-| `feynman-state-memory.json`       | `subjects/feynman/frames/simulating-physics/state-memory.svg`    |
-| `feynman-trinity-yield.json`      | `subjects/feynman/frames/trinity/yield-estimates.svg`            |
-| `feynman-wobble-ratio.json`       | `subjects/feynman/frames/wobbling-plate/wobble-ratio.svg`        |
-| `dartmouth-budget.json`           | `subjects/ai/frames/dartmouth/budget.svg`                        |
-| `ilsvrc-top5.json`                | `subjects/ai/frames/alexnet/ilsvrc-top5.svg`                     |
-| `metr-time-horizons.json`         | `subjects/ai/frames/capability-evals/time-horizons.svg`          |
-| `mnist-2006.json`                 | `subjects/ai/frames/deep-belief-nets/mnist-error.svg`            |
-| `model-parameters.json`           | `subjects/ai/frames/pretraining/model-parameters.svg`            |
-| `sae-dictionary-size.json`        | `subjects/ai/frames/interpretability/dictionary-size.svg`        |
-| `temperature.json`                | `subjects/ai/frames/next-token/temperature.svg`                  |
-| `tokens-per-parameter.json`       | `subjects/ai/frames/scaling-laws/tokens-per-parameter.svg`       |
-| `training-compute.json`           | `subjects/ai/frames/compute/training-compute.svg`                |
-| `turing-storage.json`             | `subjects/ai/frames/turing-test/turing-storage.svg`              |
+| Spec                                 | Chart                                                                 |
+| ------------------------------------ | --------------------------------------------------------------------- |
+| `alphazero-search.json`              | `subjects/ai/frames/alphazero/search-speed.svg`                       |
+| `book-output.json`                   | `subjects/western-civ/frames/printing-press/book-output.svg`          |
+| `computing-arpanet-nodes.json`       | `subjects/computing/frames/arpanet/nodes.svg`                         |
+| `computing-bombes-available.json`    | `subjects/computing/frames/bombe/bombes-available.svg`                |
+| `computing-bsd-copies.json`          | `subjects/computing/frames/bsd/copies-shipped.svg`                    |
+| `computing-calculators-made.json`    | `subjects/computing/frames/pascaline/calculators-made.svg`            |
+| `computing-census-trial.json`        | `subjects/computing/frames/hollerith/census-trial.svg`                |
+| `computing-cloud-q2.json`            | `subjects/computing/frames/cloud/cloud-q2.svg`                        |
+| `computing-disk-cost.json`           | `subjects/computing/frames/ibm-360/disk-cost.svg`                     |
+| `computing-early-valves.json`        | `subjects/computing/frames/eniac/valves.svg`                          |
+| `computing-engine-costs.json`        | `subjects/computing/frames/clement-fragment/engine-costs.svg`         |
+| `computing-ethernet-speeds.json`     | `subjects/computing/frames/ethernet/ethernet-speeds.svg`              |
+| `computing-first-stores.json`        | `subjects/computing/frames/univac/first-stores.svg`                   |
+| `computing-flops-per-watt.json`      | `subjects/computing/frames/where-computing-is/flops-per-watt.svg`     |
+| `computing-gui-prices.json`          | `subjects/computing/frames/macintosh/gui-prices.svg`                  |
+| `computing-https-share.json`         | `subjects/computing/frames/tls/https-share.svg`                       |
+| `computing-internet-hosts.json`      | `subjects/computing/frames/internet/hosts.svg`                        |
+| `computing-ipv6-share.json`          | `subjects/computing/frames/ip-routing/ipv6-share.svg`                 |
+| `computing-life-table-pages.json`    | `subjects/computing/frames/scheutz-engine/life-table-pages.svg`       |
+| `computing-multiplication-time.json` | `subjects/computing/frames/edvac-report/multiplication-time.svg`      |
+| `computing-newmanry-staff.json`      | `subjects/computing/frames/heath-robinson/newmanry-staff.svg`         |
+| `computing-root-sites.json`          | `subjects/computing/frames/dns/root-sites.svg`                        |
+| `computing-table-errors.json`        | `subjects/computing/frames/difference-engine/table-errors.svg`        |
+| `computing-top500-linux.json`        | `subjects/computing/frames/linux/top500-linux.svg`                    |
+| `computing-trajectory-time.json`     | `subjects/computing/frames/differential-analyzer/trajectory-time.svg` |
+| `computing-transistor-counts.json`   | `subjects/computing/frames/moores-law/transistor-counts.svg`          |
+| `computing-tunny-reading-speed.json` | `subjects/computing/frames/colossus-d-day/reading-speed.svg`          |
+| `computing-web-sites.json`           | `subjects/computing/frames/world-wide-web/sites.svg`                  |
+| `dartmouth-budget.json`              | `subjects/ai/frames/dartmouth/budget.svg`                             |
+| `feynman-diagrams-per-order.json`    | `subjects/feynman/frames/magnetic-moment/diagrams-per-order.svg`      |
+| `feynman-glass-reflection.json`      | `subjects/feynman/frames/qed-book/glass-reflection.svg`               |
+| `feynman-ibm-problems.json`          | `subjects/feynman/frames/punched-cards/problems-per-month.svg`        |
+| `feynman-muon-gap.json`              | `subjects/feynman/frames/path-integrals-today/muon-gap.svg`           |
+| `feynman-o-ring-distress.json`       | `subjects/feynman/frames/teleconference/o-ring-distress.svg`          |
+| `feynman-plenty-citations.json`      | `subjects/feynman/frames/plenty-of-room/citations.svg`                |
+| `feynman-roton-gap.json`             | `subjects/feynman/frames/superfluid-helium/roton-gap.svg`             |
+| `feynman-rsa-qubits.json`            | `subjects/feynman/frames/quantum-computing-now/rsa-qubits.svg`        |
+| `feynman-shuttle-odds.json`          | `subjects/feynman/frames/reliability/shuttle-odds.svg`                |
+| `feynman-state-memory.json`          | `subjects/feynman/frames/simulating-physics/state-memory.svg`         |
+| `feynman-trinity-yield.json`         | `subjects/feynman/frames/trinity/yield-estimates.svg`                 |
+| `feynman-wobble-ratio.json`          | `subjects/feynman/frames/wobbling-plate/wobble-ratio.svg`             |
+| `ilsvrc-top5.json`                   | `subjects/ai/frames/alexnet/ilsvrc-top5.svg`                          |
+| `metr-time-horizons.json`            | `subjects/ai/frames/capability-evals/time-horizons.svg`               |
+| `mnist-2006.json`                    | `subjects/ai/frames/deep-belief-nets/mnist-error.svg`                 |
+| `model-parameters.json`              | `subjects/ai/frames/pretraining/model-parameters.svg`                 |
+| `sae-dictionary-size.json`           | `subjects/ai/frames/interpretability/dictionary-size.svg`             |
+| `temperature.json`                   | `subjects/ai/frames/next-token/temperature.svg`                       |
+| `tokens-per-parameter.json`          | `subjects/ai/frames/scaling-laws/tokens-per-parameter.svg`            |
+| `training-compute.json`              | `subjects/ai/frames/compute/training-compute.svg`                     |
+| `turing-storage.json`                | `subjects/ai/frames/turing-test/turing-storage.svg`                   |

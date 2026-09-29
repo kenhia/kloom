@@ -1,0 +1,218 @@
+{
+	"id": "arm",
+	"position": {
+		"label": "RISC and ARM"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "We made it simple, and it ran",
+		"accent": "COOL.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · ACORN · SOPHIE WILSON · STEVE FURBER",
+			"IBM 801 · BERKELEY RISC · STANFORD MIPS",
+			"ARM1 · 26 APRIL 1985 · UNDER 0.1 W"
+		],
+		"counter": {
+			"value": "350 billion",
+			"label": "Arm-based chips shipped, by Arm’s count, May 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Oral History of Steve Furber",
+			"url": "https://archive.computerhistory.org/resources/access/text/2012/05/102746196-05-01-acc.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Furber",
+					"given": "Steve"
+				}
+			],
+			"publisher": "Computer History Museum",
+			"published": "2012-02-03",
+			"place": "Mountain View, California",
+			"number": "CHM Reference X6409.2012",
+			"note": "Interviewed by Doug Fairbairn; the ARM1 and its power, pp. 12–17"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Case for the Reduced Instruction Set Computer",
+			"url": "https://people.eecs.berkeley.edu/~kubitron/cs252/handouts/papers/patterson80.pdf",
+			"doi": "10.1145/641914.641917",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Patterson",
+					"given": "David A."
+				},
+				{
+					"family": "Ditzel",
+					"given": "David R."
+				}
+			],
+			"container": "ACM SIGARCH Computer Architecture News",
+			"volume": "8",
+			"issue": "6",
+			"pages": "25–33",
+			"published": "1980"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "ARM architecture family",
+			"url": "https://en.wikipedia.org/w/index.php?title=ARM_architecture_family&oldid=1373070272",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Arm Delivers Record-Breaking Quarter and Full-Year Results",
+			"url": "https://newsroom.arm.com/news/arm-q4-fye26-results",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Arm"
+				}
+			],
+			"container": "Arm Newsroom",
+			"published": "2026-05-06"
+		},
+		{
+			"kind": "web",
+			"title": "Arm Delivers Record First-Quarter for Total Revenue",
+			"url": "https://newsroom.arm.com/news/arm-q1-fye27-results",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Arm"
+				}
+			],
+			"container": "Arm Newsroom",
+			"published": "2026-07-29"
+		},
+		{
+			"kind": "web",
+			"title": "Reverse Engineering the ARM1, Ancestor of the iPhone’s Processor",
+			"url": "http://www.righto.com/2015/12/reverse-engineering-arm1-ancestor-of.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Shirriff",
+					"given": "Ken"
+				}
+			],
+			"container": "Ken Shirriff’s Blog",
+			"published": "2015-12"
+		},
+		{
+			"kind": "web",
+			"title": "John Hennessy and David Patterson Receive 2017 Turing Award",
+			"url": "https://cra.org/john-hennessy-and-david-patterson-receive-2017-turing-award/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Computing Research Association"
+				}
+			],
+			"container": "CRA",
+			"published": "2018-03-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reduced instruction set computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reduced_instruction_set_computer&oldid=1372531511",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Berkeley RISC",
+			"url": "https://en.wikipedia.org/w/index.php?title=Berkeley_RISC&oldid=1377147118",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IBM 801",
+			"url": "https://en.wikipedia.org/w/index.php?title=IBM_801&oldid=1375606118",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IPhone (1st generation)",
+			"url": "https://en.wikipedia.org/w/index.php?title=IPhone_(1st_generation)&oldid=1376383850",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "web",
+			"title": "TOP500 List, June 2020",
+			"url": "https://www.top500.org/lists/top500/2020/06/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "TOP500"
+				}
+			],
+			"container": "TOP500.org",
+			"published": "2020-06"
+		},
+		{
+			"kind": "media",
+			"title": "An Acorn ARM Evaluation System board, with an ARM1 processor",
+			"url": "https://commons.wikimedia.org/wiki/File:Acorn-ARM-Evaluation-System.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "arm-evaluation.jpg",
+			"authors": [
+				{
+					"name": "Peter Howkins"
+				}
+			],
+			"published": "2011-10-27"
+		}
+	]
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="t d">
+<title id="t">Ethernet's fastest standard rate, 1973–2024</title>
+<desc id="d">Bar chart on a logarithmic scale of the top data rate of Ethernet at each step. The experimental Ethernet at Xerox PARC, 1973: 2.94 Mbit/s. IEEE 802.3 (10BASE5), approved 1983: 10 Mbit/s. 802.3u Fast Ethernet, 1995: 100 Mbit/s. 802.3z Gigabit Ethernet, 1998: 1 Gbit/s. 802.3ae, 2002: 10 Gbit/s. 802.3ba, 2010: 100 Gbit/s. 802.3bs, 2017: 400 Gbit/s. 802.3df, 2024: 800 Gbit/s. Dates are IEEE approval dates. Data: IEEE 802.3 and Ethernet, Wikipedia.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="540" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">1 Mb</text>
+<line x1="64" x2="540" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">100 Mb</text>
+<line x1="64" x2="540" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">10 Gb</text>
+<line x1="64" x2="540" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">1 Tb</text>
+</g>
+<rect x="71.8" y="233.3" width="44" height="16.7" fill-opacity="0.85"/>
+<text x="93.8" y="227.3" text-anchor="middle">2.94 Mb</text>
+<text x="93.8" y="266" text-anchor="middle">PARC</text>
+<text x="93.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1973</text>
+<rect x="131.2" y="214.3" width="44" height="35.7" fill-opacity="0.85"/>
+<text x="153.2" y="208.3" text-anchor="middle">10 Mb</text>
+<text x="153.2" y="266" text-anchor="middle">802.3</text>
+<text x="153.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1983</text>
+<rect x="190.8" y="178.7" width="44" height="71.3" fill-opacity="0.85"/>
+<text x="212.8" y="172.7" text-anchor="middle">100 Mb</text>
+<text x="212.8" y="266" text-anchor="middle">802.3u</text>
+<text x="212.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1995</text>
+<rect x="250.2" y="143.0" width="44" height="107.0" fill-opacity="0.85"/>
+<text x="272.2" y="137.0" text-anchor="middle">1 Gb</text>
+<text x="272.2" y="266" text-anchor="middle">802.3z</text>
+<text x="272.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1998</text>
+<rect x="309.8" y="107.3" width="44" height="142.7" fill-opacity="0.85"/>
+<text x="331.8" y="101.3" text-anchor="middle">10 Gb</text>
+<text x="331.8" y="266" text-anchor="middle">802.3ae</text>
+<text x="331.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2002</text>
+<rect x="369.2" y="71.7" width="44" height="178.3" fill-opacity="0.85"/>
+<text x="391.2" y="65.7" text-anchor="middle">100 Gb</text>
+<text x="391.2" y="266" text-anchor="middle">802.3ba</text>
+<text x="391.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2010</text>
+<rect x="428.8" y="50.2" width="44" height="199.8" fill-opacity="0.85"/>
+<text x="450.8" y="44.2" text-anchor="middle">400 Gb</text>
+<text x="450.8" y="266" text-anchor="middle">802.3bs</text>
+<text x="450.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2017</text>
+<rect x="488.2" y="39.5" width="44" height="210.5" class="accent" fill="currentColor"/>
+<text x="510.2" y="33.5" text-anchor="middle">800 Gb</text>
+<text x="510.2" y="266" text-anchor="middle">802.3df</text>
+<text x="510.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2024</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">ETHERNET'S TOP RATE · MBIT/S · LOG SCALE</text>
+</g></svg>

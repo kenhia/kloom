@@ -1,0 +1,149 @@
+{
+	"id": "ethernet",
+	"position": {
+		"label": "Ethernet"
+	},
+	"scene": {
+		"headline": "We all talked on one",
+		"accent": "CABLE.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"XEROX PARC · ROBERT METCALFE · DAVID BOGGS",
+			"CARRIER SENSE · COLLISION DETECTION · IEEE 802.3"
+		],
+		"counter": {
+			"value": "2.94 Mbit/s",
+			"label": "the first Ethernet, 11 November 1973"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ethernet: Distributed Packet Switching for Local Computer Networks",
+			"url": "https://www.cs.cornell.edu/courses/cs414/2001FA/papers/ethernet/ethernet.htm",
+			"doi": "10.1145/360248.360253",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Metcalfe",
+					"given": "Robert M."
+				},
+				{
+					"family": "Boggs",
+					"given": "David R."
+				}
+			],
+			"container": "Communications of the ACM",
+			"volume": "19",
+			"issue": "7",
+			"pages": "395–404",
+			"published": "1976-07",
+			"note": "Carrier detection, collision detection and binary exponential backoff, sections 3.5 and 4.4"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Ethernet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ethernet&oldid=1371134588",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "IEEE 802.3",
+			"url": "https://en.wikipedia.org/w/index.php?title=IEEE_802.3&oldid=1374874893",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"note": "The table of standards and their approval dates"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Metcalfe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Metcalfe&oldid=1374667913",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ALOHAnet",
+			"url": "https://en.wikipedia.org/w/index.php?title=ALOHAnet&oldid=1369046944",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carrier-sense multiple access with collision detection",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carrier-sense_multiple_access_with_collision_detection&oldid=1360442513",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-21"
+		},
+		{
+			"kind": "media",
+			"title": "Thick-cable (10BASE5) Ethernet transceivers, drop cable, coaxial cable with a vampire tap, and a tapping tool",
+			"url": "https://commons.wikimedia.org/wiki/File:10Base5transcievers.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.5",
+			"file": "transceivers.jpg",
+			"authors": [
+				{
+					"name": "Robert Harker"
+				}
+			],
+			"published": "2003-10"
+		},
+		{
+			"kind": "media",
+			"title": "Bar chart of Ethernet's fastest standard rate, 1973–2024",
+			"url": "https://en.wikipedia.org/w/index.php?title=IEEE_802.3&oldid=1374874893",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from the IEEE 802.3 and Ethernet articles, Wikipedia",
+			"licence": "MIT",
+			"file": "ethernet-speeds.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

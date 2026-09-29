@@ -323,27 +323,45 @@ the web rather than by a grow job. What changes:
   scans with no text layer. `uv run create-tools/read-source/read_source.py
 paper.pdf` prints the text and names the scanned pages; `--png DIR
 --pages …` renders those pages to read as images. Don't improvise a PDF
-  reader.
+  reader. Read the Wikipedia revision you cite, too: `wiki-cite --text
+DIR` writes its text. Old books and documents are often on Wikisource
+  and Project Gutenberg, and many sites that refuse a script (RAND, AMS,
+  Bell Labs' history pages) can be read through the Wayback Machine's
+  `id_` form (`https://web.archive.org/web/2024id_/<url>`); cite the page by
+  its own URL.
 - **Charts are inlined** into the reading, through the same sanitiser as a
   scene, so they follow the reader's palette. Make them with `bar-chart`,
   or draw one by hand in `currentColor` with the `muted` and `accent`
   classes, and never with fixed colours or a background.
-- **Readings run 550–900 words of prose, and every one scrolls.** Tables
-  and alt text are not counted. They use images, charts and tables where
+- **Readings run 550–900 words of prose, and every one scrolls.** Tables,
+  headings and alt text are not counted
+  (`create-tools/subject-plan/prose_words.py` counts them this way). They use images, charts and tables where
   those carry information. Look at every image before you use it: Commons
   licences, dates, authors and even file names are what uploaders typed,
-  and some are wrong. Grep the subject's `frame.json` files for an image's
+  and some are wrong: an old work's `published` may come out as the upload
+  date, and "public domain" may be claimed for a company's photograph. Grep the subject's `frame.json` files for an image's
   file page before you use it, so two frames do not show the same picture.
 - **An image that is not freely licensed** (an archive photograph) is not
   used: describe it in the reading and cite the archive's page as `web`.
 - **A book with editors** (an edited volume, a posthumous collection)
   carries `editors`, and the entry reads "Edited by …".
+- **Other kinds of source.** An RFC is a `report` with `number` "RFC 791",
+  the RFC Editor (or, for the early ones, the Network Working Group) as
+  `publisher`, and `doi` `10.17487/RFC0791`. A thesis is a `report` with
+  the university as `publisher`. A patent is `web`, its number in the
+  title. A work read in a copy (a transcript, a mirror, a later edition)
+  is cited as the work, with a `note` naming the copy you read.
+- **A number you worked out** from sourced figures (a ratio, an average,
+  a figure read off a graph) is yours, not the source's: say so in the
+  reading, as for a worked example.
 - **Validate** with `npx vitest --run engine/subjects.test.ts
 engine/svg.test.ts`, which loads every subject. While other authors are
   mid-frame, validate a copy holding only finished frames
   (`subject_plan.py … --complete DIR`, then the same tests with
-  `KLOOM_TEST_SUBJECTS=DIR`). Keep `npx prettier
---check` clean.
+  `KLOOM_TEST_SUBJECTS=DIR`). A trail frame whose anchor is not written
+  yet is left out of that copy; the subject-plan README says how to check
+  it against a stand-in. Keep `npx prettier --check` clean on your readings
+  and JSON (Prettier does not format Python).
 - **Rate limits.** Wikipedia and Commons throttle a burst of requests.
   Send a descriptive User-Agent that names the project and never a
   person, and wait when told to (`wiki-cite` does both).

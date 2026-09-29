@@ -1,0 +1,111 @@
+{
+	"id": "antikythera",
+	"position": {
+		"label": "2nd century BC",
+		"sort": -150
+	},
+	"scene": {
+		"headline": "We geared the",
+		"accent": "HEAVENS.",
+		"palette": "cardstock",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THE ANTIKYTHERA WRECK · FOUND 1901 · ATHENS",
+			"BRONZE GEARS · SPIRAL DIALS · A HAND CRANK"
+		],
+		"counter": {
+			"value": "30",
+			"label": "bronze gears survive, from about a third of the machine"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Antikythera mechanism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antikythera_mechanism&oldid=1377274051",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Model of the Cosmos in the ancient Greek Antikythera Mechanism",
+			"doi": "10.1038/s41598-021-84310-w",
+			"url": "https://www.nature.com/articles/s41598-021-84310-w",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Freeth",
+					"given": "Tony"
+				},
+				{
+					"family": "Higgon",
+					"given": "David"
+				},
+				{
+					"family": "Dacanalis",
+					"given": "Aris"
+				},
+				{
+					"family": "MacDonald",
+					"given": "Lindsay"
+				},
+				{
+					"family": "Georgakopoulou",
+					"given": "Myrto"
+				},
+				{
+					"family": "Wojcik",
+					"given": "Adam"
+				}
+			],
+			"container": "Scientific Reports",
+			"volume": "11",
+			"pages": "5821",
+			"published": "2021-03-12"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Antikythera Mechanism: A Computer Science Perspective",
+			"doi": "10.1109/MC.2008.166",
+			"url": "http://www.dmst.aueb.gr/dds/pubs/jrnl/2008-Computer-Antikythera/html/Spi08d.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Spinellis",
+					"given": "Diomidis"
+				}
+			],
+			"container": "Computer",
+			"volume": "41",
+			"issue": "5",
+			"pages": "22–27",
+			"published": "2008-05",
+			"note": "The gear trains, read as a program; read in the author’s HTML draft"
+		},
+		{
+			"kind": "media",
+			"title": "Fragment A of the Antikythera mechanism, front",
+			"url": "https://commons.wikimedia.org/wiki/File:Antikythera_Fragment_A_(Front).webp",
+			"accessed": "2026-09-28",
+			"container": "Photograph at the National Archaeological Museum, Athens, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "fragment-a.webp",
+			"authors": [
+				{
+					"name": "Logg Tandy"
+				}
+			],
+			"published": "2025"
+		}
+	]
+}

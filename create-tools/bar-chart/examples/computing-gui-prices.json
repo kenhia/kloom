@@ -1,0 +1,28 @@
+{
+	"title": "The price of a graphical computer, 1981 to 1984",
+	"description": "Bar chart of launch prices of three computers with a bitmapped screen, windows and a mouse: the Xerox Star 8010 workstation, $16,595 (1981); the Apple Lisa, $9,995 (1983); the Apple Macintosh, $2,495 (1984). Data: the Wikipedia articles Xerox Star, Apple Lisa and Macintosh 128K.",
+	"heading": "LAUNCH PRICE · US DOLLARS OF THE DAY",
+	"unit": "",
+	"axis": {
+		"max": 18000,
+		"ticks": [
+			[0, "$0"],
+			[5000, "$5,000"],
+			[10000, "$10,000"],
+			[15000, "$15,000"]
+		]
+	},
+	"bars": [
+		{ "label": "Xerox Star", "sublabel": "1981", "value": 16595, "display": "$16,595" },
+		{ "label": "Apple Lisa", "sublabel": "1983", "value": 9995, "display": "$9,995" },
+		{
+			"label": "Macintosh",
+			"sublabel": "1984",
+			"value": 2495,
+			"display": "$2,495",
+			"highlight": true
+		}
+	],
+	"width": 420,
+	"barWidth": 64
+}

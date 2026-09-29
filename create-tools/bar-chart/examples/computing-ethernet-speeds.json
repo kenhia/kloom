@@ -1,0 +1,36 @@
+{
+	"title": "Ethernet's fastest standard rate, 1973–2024",
+	"description": "Bar chart on a logarithmic scale of the top data rate of Ethernet at each step. The experimental Ethernet at Xerox PARC, 1973: 2.94 Mbit/s. IEEE 802.3 (10BASE5), approved 1983: 10 Mbit/s. 802.3u Fast Ethernet, 1995: 100 Mbit/s. 802.3z Gigabit Ethernet, 1998: 1 Gbit/s. 802.3ae, 2002: 10 Gbit/s. 802.3ba, 2010: 100 Gbit/s. 802.3bs, 2017: 400 Gbit/s. 802.3df, 2024: 800 Gbit/s. Dates are IEEE approval dates. Data: IEEE 802.3 and Ethernet, Wikipedia.",
+	"heading": "ETHERNET'S TOP RATE · MBIT/S · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 1,
+		"max": 1000000,
+		"ticks": [
+			[1, "1 Mb"],
+			[100, "100 Mb"],
+			[10000, "10 Gb"],
+			[1000000, "1 Tb"]
+		]
+	},
+	"width": 560,
+	"height": 300,
+	"barWidth": 44,
+	"bars": [
+		{ "label": "PARC", "sublabel": "1973", "value": 2.94, "display": "2.94 Mb" },
+		{ "label": "802.3", "sublabel": "1983", "value": 10, "display": "10 Mb" },
+		{ "label": "802.3u", "sublabel": "1995", "value": 100, "display": "100 Mb" },
+		{ "label": "802.3z", "sublabel": "1998", "value": 1000, "display": "1 Gb" },
+		{ "label": "802.3ae", "sublabel": "2002", "value": 10000, "display": "10 Gb" },
+		{ "label": "802.3ba", "sublabel": "2010", "value": 100000, "display": "100 Gb" },
+		{ "label": "802.3bs", "sublabel": "2017", "value": 400000, "display": "400 Gb" },
+		{
+			"label": "802.3df",
+			"sublabel": "2024",
+			"value": 800000,
+			"display": "800 Gb",
+			"highlight": true
+		}
+	]
+}

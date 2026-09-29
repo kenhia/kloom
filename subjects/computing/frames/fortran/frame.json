@@ -1,0 +1,216 @@
+{
+	"id": "fortran",
+	"position": {
+		"label": "1957",
+		"sort": 1957
+	},
+	"scene": {
+		"headline": "We let the machine write the",
+		"accent": "CODE.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": [
+			"IBM 704 · UNIVAC I · THE PENTAGON",
+			"JOHN BACKUS · GRACE HOPPER · CODASYL",
+			"A-0 · FORTRAN · FLOW-MATIC · COBOL · ALGOL 60"
+		],
+		"counter": {
+			"value": "18",
+			"label": "man-years to write the first FORTRAN compiler"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The History of FORTRAN I, II, and III",
+			"url": "https://www.softwarepreservation.org/projects/FORTRAN/paper/p165-backus.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Backus",
+					"given": "John"
+				}
+			],
+			"container": "ACM SIGPLAN Notices",
+			"volume": "13",
+			"issue": "8",
+			"pages": "165–180",
+			"published": "1978-08",
+			"note": "The economics of programming, the fear of slow code, and the April 1957 release"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The FORTRAN Automatic Coding System",
+			"url": "https://www.softwarepreservation.org/projects/FORTRAN/paper/BackusEtAl-FortranAutomaticCodingSystem-1957.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Backus",
+					"given": "J. W."
+				},
+				{
+					"family": "Beeber",
+					"given": "R. J."
+				},
+				{
+					"family": "Best",
+					"given": "S."
+				},
+				{
+					"family": "Goldberg",
+					"given": "R."
+				},
+				{
+					"family": "Haibt",
+					"given": "L. M."
+				},
+				{
+					"family": "Herrick",
+					"given": "H. L."
+				},
+				{
+					"family": "Nelson",
+					"given": "R. A."
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the Western Joint Computer Conference",
+			"pages": "188–198",
+			"published": "1957-02",
+			"note": "The quadratic-root example of the plate is on p. 189"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Fortran",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fortran&oldid=1377275200",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Grace Hopper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Grace_Hopper&oldid=1376194579",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "COBOL",
+			"url": "https://en.wikipedia.org/w/index.php?title=COBOL&oldid=1375366074",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"note": "The CODASYL meetings of 1959, and the argument over FLOW-MATIC"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A-0 System",
+			"url": "https://en.wikipedia.org/w/index.php?title=A-0_System&oldid=1317154130",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "FLOW-MATIC",
+			"url": "https://en.wikipedia.org/w/index.php?title=FLOW-MATIC&oldid=1351699170",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ALGOL 60",
+			"url": "https://en.wikipedia.org/w/index.php?title=ALGOL_60&oldid=1357420478",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IBM 704",
+			"url": "https://en.wikipedia.org/w/index.php?title=IBM_704&oldid=1370100018",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "media",
+			"title": "Commodore Grace M. Hopper, US Navy, official portrait",
+			"url": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered).jpg",
+			"accessed": "2026-09-28",
+			"container": "United States Navy, photograph DN-SC-84-05971, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "hopper.jpg",
+			"authors": [
+				{
+					"name": "James S. Davis"
+				}
+			],
+			"published": "1984-01-20"
+		},
+		{
+			"kind": "media",
+			"title": "A FORTRAN punched card of the European Space Operations Centre, Darmstadt",
+			"url": "https://commons.wikimedia.org/wiki/File:Fortran_punch_card_ESA.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "fortran-card.jpg",
+			"authors": [
+				{
+					"name": "Till Niermann"
+				}
+			]
+		}
+	]
+}

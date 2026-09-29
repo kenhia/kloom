@@ -1,0 +1,82 @@
+{
+	"title": "Cheapest disk storage per gigabyte, 1956–2023, in constant 2020 US dollars (log scale)",
+	"description": "Bar chart on a logarithmic scale of the lowest recorded price of hard-disk storage per gigabyte, adjusted for inflation to 2020 dollars. 1956 about $87.5 million; 1966 $8.4 million; 1975 $890,000; 1984 $93,000; 1990 $6,500; 1995 $363; 2000 $6.12; 2005 $0.54; 2010 $0.053; 2015 $0.031; 2023 $0.011. Data: John C. McCallum, adjusted for inflation by Our World in Data (CC BY 4.0), accessed 28 September 2026.",
+	"heading": "DISK STORAGE · 2020 US$ PER GIGABYTE · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"width": 720,
+	"height": 320,
+	"barWidth": 40,
+	"axis": {
+		"min": 0.001,
+		"max": 1000000000.0,
+		"ticks": [
+			[0.001, "0.1¢"],
+			[0.1, "10¢"],
+			[10, "$10"],
+			[1000, "$1K"],
+			[100000, "$100K"],
+			[10000000, "$10M"],
+			[1000000000.0, "$1B"]
+		]
+	},
+	"bars": [
+		{
+			"label": "1956",
+			"sublabel": "IBM 350",
+			"value": 87539016,
+			"display": "$88M",
+			"highlight": true
+		},
+		{
+			"label": "1966",
+			"value": 8365506.6,
+			"display": "$8.4M"
+		},
+		{
+			"label": "1975",
+			"value": 889963.5,
+			"display": "$890K"
+		},
+		{
+			"label": "1984",
+			"value": 93411.096,
+			"display": "$93K"
+		},
+		{
+			"label": "1990",
+			"value": 6473.7025,
+			"display": "$6.5K"
+		},
+		{
+			"label": "1995",
+			"value": 363.16103,
+			"display": "$363"
+		},
+		{
+			"label": "2000",
+			"value": 6.1195728,
+			"display": "$6.12"
+		},
+		{
+			"label": "2005",
+			"value": 0.5383613,
+			"display": "54¢"
+		},
+		{
+			"label": "2010",
+			"value": 0.05341057,
+			"display": "5.3¢"
+		},
+		{
+			"label": "2015",
+			"value": 0.030934978,
+			"display": "3.1¢"
+		},
+		{
+			"label": "2023",
+			"value": 0.010617382,
+			"display": "1.1¢"
+		}
+	]
+}

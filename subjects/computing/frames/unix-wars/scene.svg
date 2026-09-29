@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M39.3 40 L39.3 270 M105.6 40 L105.6 270 M171.9 40 L171.9 270 M238.1 40 L238.1 270 M304.4 40 L304.4 270 M370.7 40 L370.7 270"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M334.9 96 L358.1 96 L358.1 224 L334.9 224 Z"/>
+		<path pathLength="1" d="M334.9 96 L358.1 119.2 M334.9 104 L358.1 127.2 M334.9 112 L358.1 135.2 M334.9 120 L358.1 143.2 M334.9 128 L358.1 151.2 M334.9 136 L358.1 159.2 M334.9 144 L358.1 167.2 M334.9 152 L358.1 175.2 M334.9 160 L358.1 183.2 M334.9 168 L358.1 191.2 M334.9 176 L358.1 199.2 M334.9 184 L358.1 207.2 M334.9 192 L358.1 215.2 M334.9 200 L358.1 223.2 M334.9 208 L350.9 224 M334.9 216 L342.9 224"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M26 64 L301.8 64"/>
+		<path pathLength="1" d="M148 116 L377.4 116"/>
+		<path pathLength="1" d="M198.4 168 L384 168"/>
+		<path pathLength="1" d="M331 208 L384 208"/>
+		<path pathLength="1" d="M327 244 L384 244"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M110.9 64 L148 116"/>
+		<path pathLength="1" d="M144.3 114.3 L148 116 L147.6 112"/>
+		<path pathLength="1" d="M158.6 64 L198.4 168"/>
+		<path pathLength="1" d="M195.3 165.5 L198.4 168 L199 164.1"/>
+		<path pathLength="1" d="M219.6 116 L288.5 168"/>
+		<path pathLength="1" d="M284.6 167.5 L288.5 168 L287 164.3"/>
+		<path pathLength="1" d="M324.3 116 L331 208"/>
+		<path pathLength="1" d="M328.7 204.7 L331 208 L332.7 204.4"/>
+		<path pathLength="1" d="M364.1 116 L369.4 208"/>
+		<path pathLength="1" d="M367.2 204.7 L369.4 208 L371.2 204.4"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M108.5 64 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M156.2 64 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M145.6 116 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M217.2 116 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M255.6 116 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M295.4 116 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M321.9 116 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M361.7 116 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M196 168 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M209.2 168 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M286.1 168 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M328.6 208 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M348.5 208 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M324.6 244 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M26 270 L384 270"/>
+		<path pathLength="1" d="M39.3 270 L39.3 274 M105.6 270 L105.6 274 M171.9 270 L171.9 274 M238.1 270 L238.1 274 M304.4 270 L304.4 274 M370.7 270 L370.7 274"/>
+	</g>
+	<g>
+		<text x="39.3" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1970</text>
+		<text x="105.6" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1975</text>
+		<text x="171.9" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1980</text>
+		<text x="238.1" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1985</text>
+		<text x="304.4" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1990</text>
+		<text x="370.7" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1995</text>
+		<text x="26" y="56" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RESEARCH UNIX</text>
+		<text x="158.6" y="77" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">V7</text>
+		<text x="110.9" y="56" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">V6</text>
+		<text x="144" y="108" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BERKELEY</text>
+		<text x="219.6" y="129" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4.2</text>
+		<text x="297.8" y="129" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NET/1</text>
+		<text x="364.1" y="108" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LITE</text>
+		<text x="194.4" y="182" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AT&amp;T SYSTEM V</text>
+		<text x="288.5" y="160" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SVR4</text>
+		<text x="307.1" y="182" font-size="6" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OSF | UI</text>
+		<text x="327" y="222" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">386BSD · NETBSD · FREEBSD</text>
+		<text x="321" y="247" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LINUX · NO AT&amp;T CODE</text>
+		<text x="346.5" y="90" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">USL v. BSDi</text>
+		<text x="200" y="24" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE SYSTEM, MANY OWNERS · 1969–1995</text>
+	</g>
+</svg>

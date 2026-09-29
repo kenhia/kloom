@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t d">
+<title id="t">Energy efficiency of the world's fastest computer, 2002–2026 (log scale)</title>
+<desc id="d">Bar chart on a logarithmic scale of the energy efficiency, in billions of floating-point operations per second per watt (gigaflops per watt), of each TOP500 No. 1 system whose power was reported, in the list where it first took first place: Earth Simulator (June 2002) 0.011; Roadrunner (June 2008) 0.44; K computer (June 2011) 0.82; Sunway TaihuLight (June 2016) 6.1; Fugaku (June 2020) 14.7; Frontier (June 2022) 52.2; El Capitan (November 2024) 58.9; LineShine (June 2026) 52.1. Computed from each list's Rmax (HPL benchmark) and reported power. Data: TOP500.org.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="700" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0.001</text>
+<line x1="64" x2="700" y1="207.2" y2="207.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="211.2" text-anchor="end">0.01</text>
+<line x1="64" x2="700" y1="164.4" y2="164.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="168.4" text-anchor="end">0.1</text>
+<line x1="64" x2="700" y1="121.6" y2="121.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="125.6" text-anchor="end">1</text>
+<line x1="64" x2="700" y1="78.8" y2="78.8" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="82.8" text-anchor="end">10</text>
+<line x1="64" x2="700" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">100</text>
+</g>
+<rect x="80.8" y="205.1" width="46" height="44.9" fill-opacity="0.85"/>
+<text x="103.8" y="199.1" text-anchor="middle">0.011</text>
+<text x="103.8" y="266" text-anchor="middle">Earth Sim.</text>
+<text x="103.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2002</text>
+<rect x="160.2" y="137.0" width="46" height="113.0" fill-opacity="0.85"/>
+<text x="183.2" y="131.0" text-anchor="middle">0.44</text>
+<text x="183.2" y="266" text-anchor="middle">Roadrunner</text>
+<text x="183.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2008</text>
+<rect x="239.8" y="125.2" width="46" height="124.8" fill-opacity="0.85"/>
+<text x="262.8" y="119.2" text-anchor="middle">0.82</text>
+<text x="262.8" y="266" text-anchor="middle">K</text>
+<text x="262.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2011</text>
+<rect x="319.2" y="88.1" width="46" height="161.9" fill-opacity="0.85"/>
+<text x="342.2" y="82.1" text-anchor="middle">6.1</text>
+<text x="342.2" y="266" text-anchor="middle">TaihuLight</text>
+<text x="342.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2016</text>
+<rect x="398.8" y="71.7" width="46" height="178.3" fill-opacity="0.85"/>
+<text x="421.8" y="65.7" text-anchor="middle">14.7</text>
+<text x="421.8" y="266" text-anchor="middle">Fugaku</text>
+<text x="421.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2020</text>
+<rect x="478.2" y="48.1" width="46" height="201.9" fill-opacity="0.85"/>
+<text x="501.2" y="42.1" text-anchor="middle">52.2</text>
+<text x="501.2" y="266" text-anchor="middle">Frontier</text>
+<text x="501.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2022</text>
+<rect x="557.8" y="45.8" width="46" height="204.2" fill-opacity="0.85"/>
+<text x="580.8" y="39.8" text-anchor="middle">58.9</text>
+<text x="580.8" y="266" text-anchor="middle">El Capitan</text>
+<text x="580.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2024</text>
+<rect x="637.2" y="48.1" width="46" height="201.9" class="accent" fill="currentColor"/>
+<text x="660.2" y="42.1" text-anchor="middle">52.1</text>
+<text x="660.2" y="266" text-anchor="middle">LineShine</text>
+<text x="660.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2026</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">FASTEST MACHINE · GIGAFLOPS PER WATT · LOG SCALE</text>
+</g></svg>

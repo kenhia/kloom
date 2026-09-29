@@ -1,0 +1,50 @@
+{
+	"title": "Staff of Max Newman's section at Bletchley Park, April 1943 to April 1945",
+	"description": "Bar chart of the Newmanry's staff at six-monthly intervals: 18 in April 1943, 28 in September 1943, 93 in April 1944, 225 in September 1944 and 325 in April 1945, most of them Wrens (16, 16, 28, 180 and 273). Data: General Report on Tunny (1945), section 31B, in Tony Sale's transcript of the Newmanry history.",
+	"heading": "NEWMANRY STAFF · WRENS IN BRACKETS",
+	"unit": "",
+	"axis": {
+		"max": 350,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Apr 43",
+			"sublabel": "(16)",
+			"value": 18,
+			"display": "18"
+		},
+		{
+			"label": "Sep 43",
+			"sublabel": "(16)",
+			"value": 28,
+			"display": "28"
+		},
+		{
+			"label": "Apr 44",
+			"sublabel": "(28)",
+			"value": 93,
+			"display": "93"
+		},
+		{
+			"label": "Sep 44",
+			"sublabel": "(180)",
+			"value": 225,
+			"display": "225"
+		},
+		{
+			"label": "Apr 45",
+			"sublabel": "(273)",
+			"value": 325,
+			"highlight": true,
+			"display": "325"
+		}
+	],
+	"barWidth": 56,
+	"width": 480
+}

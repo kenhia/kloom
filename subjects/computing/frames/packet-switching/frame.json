@@ -1,0 +1,131 @@
+{
+	"id": "packet-switching",
+	"position": {
+		"label": "Packet switching"
+	},
+	"scene": {
+		"headline": "We cut messages into",
+		"accent": "PACKETS.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"RAND · SANTA MONICA · NPL · TEDDINGTON",
+			"PAUL BARAN · DONALD DAVIES · ROGER SCANTLEBURY",
+			"MESSAGE BLOCKS · STORE AND FORWARD · QUEUES"
+		],
+		"counter": {
+			"value": "1,024",
+			"label": "bits in Baran's standard message block, 1964"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "On Distributed Communications: I. Introduction to Distributed Communications Networks",
+			"url": "https://www.rand.org/pubs/research_memoranda/RM3420.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Baran",
+					"given": "Paul"
+				}
+			],
+			"number": "RM-3420-PR",
+			"publisher": "RAND Corporation",
+			"place": "Santa Monica, CA",
+			"published": "1964-08",
+			"note": "Survival of a mesh, fig. 4; the 1,024-bit message block, fig. 10; hot-potato routing, pp. 23–27"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Proposal for a Digital Communication Network",
+			"url": "http://www.dcs.gla.ac.uk/~wpc/grcs/Davies05.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Davies",
+					"given": "D. W."
+				}
+			],
+			"publisher": "National Physical Laboratory",
+			"place": "Teddington",
+			"published": "1966-06",
+			"note": "Packets, pp. 10–11; the response-time estimate from Kleinrock’s approximation, pp. 14–16"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Packet switching",
+			"url": "https://en.wikipedia.org/w/index.php?title=Packet_switching&oldid=1376334725",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"note": "The invention, and the dispute over Kleinrock’s part in it"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Baran",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Baran&oldid=1374667897",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Donald Davies",
+			"url": "https://en.wikipedia.org/w/index.php?title=Donald_Davies&oldid=1375701217",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "NPL network",
+			"url": "https://en.wikipedia.org/w/index.php?title=NPL_network&oldid=1376054577",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "A blue plaque to Donald Watts Davies at his birthplace, Treorchy",
+			"url": "https://commons.wikimedia.org/wiki/File:Donald_Watts_Davies_blue_plaque,_Treorchy_-_geograph.org.uk_-_6415017.jpg",
+			"accessed": "2026-09-28",
+			"container": "Geograph Britain and Ireland, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "davies-plaque.jpg",
+			"authors": [
+				{
+					"name": "Jaggery"
+				}
+			],
+			"published": "2020-03-14"
+		}
+	]
+}

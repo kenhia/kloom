@@ -1,0 +1,208 @@
+{
+	"id": "security",
+	"position": {
+		"label": "Security"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "We shared secrets with",
+		"accent": "STRANGERS.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CORNELL · MIT · CERT/CC · STANFORD · GCHQ",
+			"THE MORRIS WORM · PUBLIC-KEY CRYPTOGRAPHY",
+			"RANSOMWARE · SUPPLY-CHAIN ATTACKS"
+		],
+		"counter": {
+			"value": "$820M",
+			"label": "paid in ransoms in 2025, by Chainalysis’s count of payments on-chain"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Computer Security: Virus Highlights Need for Improved Internet Management",
+			"url": "https://www.gao.gov/products/imtec-89-57",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "United States General Accounting Office"
+				}
+			],
+			"number": "GAO/IMTEC-89-57",
+			"publisher": "US General Accounting Office",
+			"place": "Washington, DC",
+			"published": "1989-06-12",
+			"note": "The estimates of machines infected and of losses, p. 17; CERT, p. 24"
+		},
+		{
+			"kind": "report",
+			"title": "The Helminthiasis of the Internet",
+			"url": "https://www.rfc-editor.org/rfc/rfc1135.txt",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Reynolds",
+					"given": "J."
+				}
+			],
+			"number": "RFC 1135",
+			"publisher": "Network Working Group",
+			"published": "1989-12",
+			"doi": "10.17487/RFC1135"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "New Directions in Cryptography",
+			"url": "https://ee.stanford.edu/~hellman/publications/24.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Diffie",
+					"given": "Whitfield"
+				},
+				{
+					"family": "Hellman",
+					"given": "Martin E."
+				}
+			],
+			"container": "IEEE Transactions on Information Theory",
+			"volume": "IT-22",
+			"issue": "6",
+			"pages": "644–654",
+			"published": "1976-11",
+			"doi": "10.1109/TIT.1976.1055638"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Story of Non-Secret Encryption",
+			"url": "http://jya.com/ellisdoc.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Ellis",
+					"given": "J. H."
+				}
+			],
+			"container": "Cryptome",
+			"published": "1997-12-16",
+			"note": "Written in 1987 and released by CESG, GCHQ’s security arm, in December 1997"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Crypto Ransomware: 2026 Crypto Crime Report",
+			"url": "https://www.chainalysis.com/blog/crypto-ransomware-2026/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Chainalysis Team"
+				}
+			],
+			"container": "Chainalysis",
+			"published": "2026-02-26"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2025 IC3 Annual Report",
+			"url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
+			"accessed": "2026-09-28",
+			"publisher": "Federal Bureau of Investigation, Internet Crime Complaint Center",
+			"place": "Washington, DC",
+			"note": "Ransomware, p. 14; three-year complaint counts, p. 25"
+		},
+		{
+			"kind": "web",
+			"title": "Widespread Supply Chain Compromise Impacting npm Ecosystem",
+			"url": "https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem",
+			"accessed": "2026-09-28",
+			"container": "Cybersecurity and Infrastructure Security Agency",
+			"published": "2025-09-23"
+		},
+		{
+			"kind": "web",
+			"title": "Supply Chain Compromise Impacts Axios Node Package Manager",
+			"url": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
+			"accessed": "2026-09-28",
+			"container": "Cybersecurity and Infrastructure Security Agency",
+			"published": "2026-04-20"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Morris worm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Morris_worm&oldid=1376534515",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Public-key cryptography",
+			"url": "https://en.wikipedia.org/w/index.php?title=Public-key_cryptography&oldid=1375420479",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Diffie–Hellman key exchange",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diffie%E2%80%93Hellman_key_exchange&oldid=1376512836",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "RSA cryptosystem",
+			"url": "https://en.wikipedia.org/w/index.php?title=RSA_cryptosystem&oldid=1376868026",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "The Morris worm’s source code on a floppy disk, in a Computer History Museum display",
+			"url": "https://commons.wikimedia.org/wiki/File:Morris_Worm.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photographed at the Museum of Science, Boston; via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "morris-worm-disk.jpg",
+			"authors": [
+				{
+					"name": "Go Card USA"
+				}
+			],
+			"published": "2006-03-26"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"title": "Web sites, June 1993 to January 1996, and in July 2026 (log scale)",
+	"description": "Bar chart on a logarithmic scale of the number of web sites. June 1993, 130; December 1993, 623; June 1994, 2,738; December 1994, 10,022; June 1995, 23,500; January 1996, about 100,000; July 2026, 1,494,915,628. Data: to 1996, Matthew Gray's Wanderer; 2026, Netcraft's Web Server Survey, which counts every host name that answers, by a different method.",
+	"heading": "WEB SITES · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"width": 480,
+	"height": 300,
+	"barWidth": 40,
+	"axis": {
+		"min": 100,
+		"max": 10000000000,
+		"ticks": [
+			[100, "100"],
+			[10000, "10⁴"],
+			[1000000, "10⁶"],
+			[100000000, "10⁸"],
+			[10000000000, "10¹⁰"]
+		]
+	},
+	"bars": [
+		{ "label": "6/93", "value": 130, "display": "130" },
+		{ "label": "12/93", "value": 623, "display": "623" },
+		{ "label": "6/94", "value": 2738, "display": "2,738" },
+		{ "label": "12/94", "value": 10022, "display": "10k" },
+		{ "label": "6/95", "value": 23500, "display": "23.5k" },
+		{ "label": "1/96", "value": 100000, "display": "100k" },
+		{
+			"label": "7/26",
+			"sublabel": "Netcraft",
+			"value": 1494915628,
+			"display": "1.49B",
+			"highlight": true
+		}
+	]
+}

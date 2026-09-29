@@ -1,0 +1,179 @@
+{
+	"id": "the-silence",
+	"position": {
+		"label": "1945–2007",
+		"sort": 1945
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "We were sworn to",
+		"accent": "SILENCE.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GCHQ · NEWCASTLE · BLETCHLEY PARK",
+			"THE OFFICIAL SECRETS ACT · THE GENERAL REPORT · THE REBUILD"
+		],
+		"counter": {
+			"value": "55",
+			"label": "years before the General Report on Tunny was released"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Colossus computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colossus_computer&oldid=1371956527",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Colossus Rebuild",
+			"url": "https://www.codesandciphers.org.uk/lorenz/rebuild.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Sale",
+					"given": "Tony"
+				}
+			],
+			"container": "Codes and Ciphers in the Second World War",
+			"note": "Sale’s own account of the rebuild, 1993–1996"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "GCHQ celebrates 80 years of Colossus",
+			"url": "https://www.gchq.gov.uk/news/colossus-80",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "GCHQ"
+				}
+			],
+			"container": "GCHQ",
+			"publisher": "Government Communications Headquarters",
+			"published": "2024-01-18"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Colossus",
+			"url": "https://www.tnmoc.org/colossus",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "The National Museum of Computing"
+				}
+			],
+			"container": "The National Museum of Computing"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tommy Flowers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tommy_Flowers&oldid=1376959965",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Brian Randell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Brian_Randell&oldid=1372575057",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tony Sale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tony_Sale&oldid=1302095514",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Testery",
+			"url": "https://en.wikipedia.org/w/index.php?title=Testery&oldid=1375423811",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "web",
+			"title": "Tommy Flowers",
+			"url": "https://www.gchq.gov.uk/person/tommy-flowers",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "GCHQ"
+				}
+			],
+			"container": "GCHQ",
+			"publisher": "Government Communications Headquarters"
+		},
+		{
+			"kind": "web",
+			"title": "The Colossus",
+			"url": "https://www.codesandciphers.org.uk/lorenz/colossus.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Sale",
+					"given": "Tony"
+				}
+			],
+			"container": "Codes and Ciphers in the Second World War"
+		},
+		{
+			"kind": "media",
+			"title": "The Colossus rebuild at Bletchley Park in 2005",
+			"url": "https://commons.wikimedia.org/wiki/File:Colossus-rebuild.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Tom Yates"
+				}
+			],
+			"container": "Bletchley Park museum, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "colossus-rebuild.jpg",
+			"published": "2005-01-11"
+		}
+	]
+}

@@ -1,0 +1,228 @@
+{
+	"id": "xerox-alto",
+	"position": {
+		"label": "1973",
+		"sort": 1973
+	},
+	"scene": {
+		"headline": "We made the screen a",
+		"accent": "BITMAP.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"XEROX PARC · PALO ALTO · THACKER · LAMPSON · KAY",
+			"BITMAPPED SCREEN · MOUSE · BRAVO · SMALLTALK"
+		],
+		"counter": {
+			"value": "489,648",
+			"label": "dots on the Alto’s screen, each one bit of memory"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Xerox Alto",
+			"url": "https://en.wikipedia.org/w/index.php?title=Xerox_Alto&oldid=1374888960",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Alto: A Personal Computer System. Hardware Manual",
+			"url": "https://bitsavers.org/pdf/xerox/alto/Alto_Hardware_Manual_Aug76.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Xerox Palo Alto Research Center"
+				}
+			],
+			"publisher": "Xerox Palo Alto Research Center",
+			"place": "Palo Alto, CA",
+			"published": "1976-08",
+			"note": "The display, 606 × 808 dots from 30,704 words of memory, is in section 4; read in the scan at bitsavers.org"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "The Mother of All Demos",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Mother_of_All_Demos&oldid=1374644742",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Xerox PARC Visit",
+			"url": "https://web.stanford.edu/dept/SUL/sites/mac/parc.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Pang",
+					"given": "Alex Soojung-Kim"
+				}
+			],
+			"container": "Making the Macintosh: Technology and Culture in Silicon Valley",
+			"publisher": "Stanford University Libraries",
+			"note": "Why the story of the visit is wrong in most particulars"
+		},
+		{
+			"kind": "article",
+			"title": "Creation Myth: Xerox PARC, Apple, and the Truth about Innovation",
+			"url": "https://www.newyorker.com/magazine/2011/05/16/creation-myth",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Gladwell",
+					"given": "Malcolm"
+				}
+			],
+			"container": "The New Yorker",
+			"published": "2011-05-16",
+			"note": "The share deal, Tesler’s demonstration and Apple’s mouse"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Douglas Engelbart",
+			"url": "https://en.wikipedia.org/w/index.php?title=Douglas_Engelbart&oldid=1371987766",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "PARC (company)",
+			"url": "https://en.wikipedia.org/w/index.php?title=PARC_(company)&oldid=1376996541",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bravo (editor)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bravo_(editor)&oldid=1373493778",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Smalltalk",
+			"url": "https://en.wikipedia.org/w/index.php?title=Smalltalk&oldid=1376904110",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Laser printing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Laser_printing&oldid=1359913397",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Xerox Star",
+			"url": "https://en.wikipedia.org/w/index.php?title=Xerox_Star&oldid=1368606439",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Apple Inc.",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apple_Inc.&oldid=1376757568",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "A replica of the prototype mouse built for Douglas Engelbart about 1964",
+			"url": "https://commons.wikimedia.org/wiki/File:Replica_of_prototype_Engelbart_mouse,_circa_1964,_Computer_History_Museum.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph at the Computer History Museum, Mountain View, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "mouse.jpg",
+			"authors": [
+				{
+					"name": "The wub"
+				}
+			],
+			"published": "2023-07-15"
+		},
+		{
+			"kind": "media",
+			"title": "A Xerox Alto with its portrait screen, keyboard and mouse",
+			"url": "https://commons.wikimedia.org/wiki/File:Xerox_Alto_(2297944038).jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "alto.jpg",
+			"authors": [
+				{
+					"name": "Marcin Wichary"
+				}
+			],
+			"published": "2006-08-26"
+		}
+	]
+}

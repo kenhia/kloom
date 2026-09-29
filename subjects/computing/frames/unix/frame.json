@@ -1,0 +1,197 @@
+{
+	"id": "unix",
+	"position": {
+		"label": "Unix"
+	},
+	"scene": {
+		"headline": "We made everything a",
+		"accent": "FILE.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BELL LABS · MURRAY HILL · KEN THOMPSON · DENNIS RITCHIE",
+			"PDP-7 · PDP-11 · CACM, JULY 1974"
+		],
+		"counter": {
+			"value": "27",
+			"label": "lines of PDP-7 assembly in the first fork call"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The UNIX Time-Sharing System",
+			"authors": [
+				{
+					"family": "Ritchie",
+					"given": "Dennis M."
+				},
+				{
+					"family": "Thompson",
+					"given": "Ken"
+				}
+			],
+			"container": "Communications of the ACM",
+			"volume": "17",
+			"issue": "7",
+			"pages": "365–375",
+			"published": "1974-07",
+			"doi": "10.1145/361011.361061",
+			"url": "https://dsf.berkeley.edu/cs262/unix.pdf",
+			"accessed": "2026-09-28",
+			"note": "Read in Eric Brewer’s electronic recreation; special files are in §3.3"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Evolution of the Unix Time-sharing System",
+			"authors": [
+				{
+					"family": "Ritchie",
+					"given": "Dennis M."
+				}
+			],
+			"container": "Language Design and Programming Methodology",
+			"publisher": "Springer-Verlag",
+			"published": "1980",
+			"url": "https://www.bell-labs.com/usr/dmr/www/hist.html",
+			"accessed": "2026-09-28",
+			"note": "Ritchie’s own history; read in his web edition, from the 1984 reprint in the AT&T Bell Laboratories Technical Journal"
+		},
+		{
+			"kind": "web",
+			"title": "The UNIX Time-Sharing System (Bell System Technical Journal version)",
+			"url": "https://www.bell-labs.com/usr/dmr/www/cacm.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Ritchie",
+					"given": "Dennis M."
+				},
+				{
+					"family": "Thompson",
+					"given": "Ken"
+				}
+			],
+			"container": "Dennis Ritchie’s home page, Bell Labs",
+			"published": "1978",
+			"note": "The 1978 revision: the PDP-11/70, and over 600 installations"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "History of Unix",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_Unix&oldid=1370045844",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18",
+			"note": "The 1956 consent decree and the first licences"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Unix",
+			"url": "https://en.wikipedia.org/w/index.php?title=Unix&oldid=1377139403",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ken Thompson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ken_Thompson&oldid=1372019029",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dennis Ritchie",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dennis_Ritchie&oldid=1376995503",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "PDP-7",
+			"url": "https://en.wikipedia.org/w/index.php?title=PDP-7&oldid=1363874628",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "PDP-11",
+			"url": "https://en.wikipedia.org/w/index.php?title=PDP-11&oldid=1374388276",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "media",
+			"title": "A DEC PDP-7 minicomputer in Oslo",
+			"url": "https://commons.wikimedia.org/wiki/File:Pdp-7-oslo-2004.jpeg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "pdp-7.jpg",
+			"authors": [
+				{
+					"name": "Matiashf"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "Fifth Edition Unix running in the SIMH PDP-11 emulator",
+			"url": "https://commons.wikimedia.org/wiki/File:Version_5_Unix_SIMH_PDP11_Emulation.png",
+			"accessed": "2026-09-28",
+			"container": "Screenshot, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "v5-unix.png",
+			"authors": [
+				{
+					"name": "Huihermit"
+				}
+			],
+			"published": "2014-02-10"
+		}
+	]
+}

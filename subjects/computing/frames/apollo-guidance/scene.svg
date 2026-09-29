@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60 60 L60 226 M100 60 L100 226 M140 60 L140 226 M180 60 L180 226 M220 60 L220 226 M260 60 L260 226 M300 60 L300 226 M340 60 L340 226"/>
+		<path pathLength="1" d="M26 92 L374 92 M26 124 L374 124 M26 156 L374 156 M26 188 L374 188"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M49 140 a11 60 0 1 0 22 0 a11 60 0 1 0 -22 0"/>
+		<path pathLength="1" d="M54 140 a6 54 0 1 0 12 0 a6 54 0 1 0 -12 0"/>
+		<path pathLength="1" d="M89 140 a11 60 0 1 0 22 0 a11 60 0 1 0 -22 0"/>
+		<path pathLength="1" d="M94 140 a6 54 0 1 0 12 0 a6 54 0 1 0 -12 0"/>
+		<path pathLength="1" d="M129 140 a11 60 0 1 0 22 0 a11 60 0 1 0 -22 0"/>
+		<path pathLength="1" d="M134 140 a6 54 0 1 0 12 0 a6 54 0 1 0 -12 0"/>
+		<path pathLength="1" d="M169 140 a11 60 0 1 0 22 0 a11 60 0 1 0 -22 0"/>
+		<path pathLength="1" d="M174 140 a6 54 0 1 0 12 0 a6 54 0 1 0 -12 0"/>
+		<path pathLength="1" d="M209 140 a11 60 0 1 0 22 0 a11 60 0 1 0 -22 0"/>
+		<path pathLength="1" d="M214 140 a6 54 0 1 0 12 0 a6 54 0 1 0 -12 0"/>
+		<path pathLength="1" d="M249 140 a11 60 0 1 0 22 0 a11 60 0 1 0 -22 0"/>
+		<path pathLength="1" d="M254 140 a6 54 0 1 0 12 0 a6 54 0 1 0 -12 0"/>
+		<path pathLength="1" d="M289 140 a11 60 0 1 0 22 0 a11 60 0 1 0 -22 0"/>
+		<path pathLength="1" d="M294 140 a6 54 0 1 0 12 0 a6 54 0 1 0 -12 0"/>
+		<path pathLength="1" d="M329 140 a11 60 0 1 0 22 0 a11 60 0 1 0 -22 0"/>
+		<path pathLength="1" d="M334 140 a6 54 0 1 0 12 0 a6 54 0 1 0 -12 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M26 232 L374 232"/>
+		<path pathLength="1" d="M60 232 L60 200 M100 232 L100 200 M140 232 L140 200 M180 232 L180 200 M220 232 L220 200 M260 232 L260 200 M300 232 L300 200 M340 232 L340 200"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M26 92 L44 92 L76 92 L83 92 L87 57 L113 57 L117 92 L124 92 L156 92 L163 92 L167 57 L193 57 L197 92 L204 92 L236 92 L243 92 L247 57 L273 57 L277 92 L284 92 L316 92 L323 92 L327 57 L353 57 L357 92 L374 92"/>
+		<path pathLength="1" d="M26 124 L43 124 L47 62 L73 62 L77 124 L84 124 L116 124 L124 124 L156 124 L163 124 L167 62 L193 62 L197 124 L203 124 L207 62 L233 62 L237 124 L244 124 L276 124 L284 124 L316 124 L323 124 L327 62 L353 62 L357 124 L374 124"/>
+		<path pathLength="1" d="M26 156 L44 156 L76 156 L84 156 L116 156 L123 156 L127 218 L153 218 L157 156 L164 156 L196 156 L203 156 L207 218 L233 218 L237 156 L243 156 L247 218 L273 218 L277 156 L284 156 L316 156 L323 156 L327 218 L353 218 L357 156 L374 156"/>
+		<path pathLength="1" d="M26 188 L44 188 L76 188 L83 188 L87 223 L113 223 L117 188 L123 188 L127 223 L153 223 L157 188 L164 188 L196 188 L204 188 L236 188 L244 188 L276 188 L283 188 L287 223 L313 223 L317 188 L324 188 L356 188 L374 188"/>
+	</g>
+	<g>
+		<text x="60" y="262" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1011</text>
+		<text x="100" y="262" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0110</text>
+		<text x="140" y="262" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1100</text>
+		<text x="180" y="262" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0011</text>
+		<text x="220" y="262" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1001</text>
+		<text x="260" y="262" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0101</text>
+		<text x="300" y="262" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1110</text>
+		<text x="340" y="262" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0001</text>
+		<text x="386" y="95" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S0</text>
+		<text x="386" y="127" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S1</text>
+		<text x="386" y="159" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S2</text>
+		<text x="386" y="191" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S3</text>
+		<text x="14" y="235" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SET</text>
+		<text x="200" y="34" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THROUGH THE CORE = 1 · AROUND IT = 0</text>
+		<text x="200" y="286" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AGC: 192 SENSE WIRES, 12 WORDS PER CORE</text>
+	</g>
+</svg>

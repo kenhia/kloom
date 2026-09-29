@@ -1,0 +1,117 @@
+{
+	"id": "colossus",
+	"position": {
+		"label": "1944",
+		"sort": 1944
+	},
+	"scene": {
+		"headline": "We left the valves",
+		"accent": "ON.",
+		"palette": "console",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DOLLIS HILL · BLETCHLEY PARK · TOMMY FLOWERS",
+			"THYRATRON RINGS · PHOTOELECTRIC TAPE READER · SWITCH PANELS"
+		],
+		"counter": {
+			"value": "5,000",
+			"label": "characters a second read from a loop of paper tape"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Colossus computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colossus_computer&oldid=1371956527",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Colossus: Its Purpose and Operation",
+			"url": "https://www.codesandciphers.org.uk/lorenz/colossus.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Sale",
+					"given": "Tony"
+				}
+			],
+			"container": "Codes and Ciphers",
+			"note": "By the curator who led the rebuilding of Colossus at Bletchley Park"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Tommy Flowers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tommy_Flowers&oldid=1376959965",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Post Office Research Station",
+			"url": "https://en.wikipedia.org/w/index.php?title=Post_Office_Research_Station&oldid=1374412251",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "media",
+			"title": "A Colossus Mark 2 at Bletchley Park, operated by two Wrens",
+			"url": "https://commons.wikimedia.org/wiki/File:Colossus.jpg",
+			"accessed": "2026-09-28",
+			"container": "The National Archives (United Kingdom), FO 850/234, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "colossus-wrens.jpg",
+			"published": "1944",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "The selection panel of a Colossus",
+			"url": "https://commons.wikimedia.org/wiki/File:Colossus_computer_selection_panel.png",
+			"accessed": "2026-09-28",
+			"container": "General Report on Tunny (1945), Public Record Office HW 25/4 and HW 25/5, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "selection-panel.png",
+			"authors": [
+				{
+					"family": "Good",
+					"given": "Jack"
+				},
+				{
+					"family": "Michie",
+					"given": "Donald"
+				},
+				{
+					"family": "Timms",
+					"given": "Geoffrey"
+				}
+			],
+			"published": "1945"
+		}
+	]
+}

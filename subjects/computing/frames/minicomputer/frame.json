@@ -1,0 +1,174 @@
+{
+	"id": "minicomputer",
+	"position": {
+		"label": "1965",
+		"sort": 1965
+	},
+	"scene": {
+		"headline": "The computer moved into the",
+		"accent": "LAB.",
+		"palette": "console",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MAYNARD, MASSACHUSETTS · DIGITAL EQUIPMENT",
+			"KEN OLSEN · HARLAN ANDERSON · BEN GURLEY · EDSON DE CASTRO",
+			"PDP-1 · SPACEWAR! · PDP-8 · PDP-11"
+		],
+		"counter": {
+			"value": "$18,000",
+			"label": "a PDP-8 in 1965, the first computer under $20,000"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Digital Equipment Corporation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Digital_Equipment_Corporation&oldid=1377307150",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "PDP-8",
+			"url": "https://en.wikipedia.org/w/index.php?title=PDP-8&oldid=1369226406",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13",
+			"note": "The instruction format and the pages of memory"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "PDP-1",
+			"url": "https://en.wikipedia.org/w/index.php?title=PDP-1&oldid=1363873880",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-13"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Spacewar!",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spacewar%21&oldid=1377343741",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Minicomputer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Minicomputer&oldid=1369578921",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ken Olsen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ken_Olsen&oldid=1356799056",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harlan Anderson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harlan_Anderson&oldid=1356632755",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "PDP-11",
+			"url": "https://en.wikipedia.org/w/index.php?title=PDP-11&oldid=1374388276",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "media",
+			"title": "Spacewar! on the restored PDP-1 at the Computer History Museum, 2007",
+			"url": "https://commons.wikimedia.org/wiki/File:Spacewar!-PDP-1-20070512.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "spacewar.jpg",
+			"authors": [
+				{
+					"name": "Joi Ito from Inbamura, Japan"
+				}
+			],
+			"published": "2007-05-12"
+		},
+		{
+			"kind": "media",
+			"title": "The front panel of a DEC PDP-8 at a computer museum in Stuttgart",
+			"url": "https://commons.wikimedia.org/wiki/File:DEC_PDP-8,_Stuttgart,_cropped.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, cropped, via Flickr and Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "pdp-8.jpg",
+			"authors": [
+				{
+					"name": "Wolfgang Stief"
+				},
+				{
+					"name": "Morn"
+				}
+			],
+			"published": "2015-03-26"
+		}
+	]
+}

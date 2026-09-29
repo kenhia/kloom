@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M24 138 L24 186 M46 138 L46 186 M68 138 L68 186 M90 138 L90 186 M112 138 L112 186 M134 138 L134 186 M156 138 L156 186 M178 138 L178 186 M200 138 L200 186 M222 138 L222 186 M244 138 L244 186 M266 138 L266 186 M288 138 L288 186 M310 138 L310 186 M332 138 L332 186 M354 138 L354 186 M376 138 L376 186"/>
+		<path pathLength="1" d="M24 174 L24 214 M200 174 L200 214 M376 174 L376 214"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M24 150 L376 150 L376 174 L24 174 Z"/>
+		<path pathLength="1" d="M35 150 L35 174 M46 150 L46 174 M57 150 L57 174 M68 150 L68 174 M79 150 L79 174 M90 150 L90 174 M101 150 L101 174 M112 150 L112 174 M123 150 L123 174 M134 150 L134 174 M145 150 L145 174 M156 150 L156 174 M167 150 L167 174 M178 150 L178 174 M189 150 L189 174 M200 150 L200 174 M211 150 L211 174 M222 150 L222 174 M233 150 L233 174 M244 150 L244 174 M255 150 L255 174 M266 150 L266 174 M277 150 L277 174 M288 150 L288 174 M299 150 L299 174 M310 150 L310 174 M321 150 L321 174 M332 150 L332 174 M343 150 L343 174 M354 150 L354 174 M365 150 L365 174"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M25 146 L25 141 L32 141 L35 137 L38 141 L45 141 L45 146"/>
+		<path pathLength="1" d="M47 146 L47 141 L120 141 L123 137 L126 141 L199 141 L199 146"/>
+		<path pathLength="1" d="M201 146 L201 141 L208 141 L211 137 L214 141 L221 141 L221 146"/>
+		<path pathLength="1" d="M223 146 L223 141 L296 141 L299 137 L302 141 L375 141 L375 146"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M42 54 L78 54 L78 74 L42 74 Z"/>
+		<path pathLength="1" d="M60 74 L25 126"/>
+		<path pathLength="1" d="M25.3 122 L25 126 L28.6 124.2"/>
+		<path pathLength="1" d="M210 54 L246 54 L246 74 L210 74 Z"/>
+		<path pathLength="1" d="M228 74 L201 126"/>
+		<path pathLength="1" d="M200.8 122 L201 126 L204.4 123.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M24 206 L200 206"/>
+		<path pathLength="1" d="M27.5 204 L24 206 L27.5 208"/>
+		<path pathLength="1" d="M196.5 208 L200 206 L196.5 204"/>
+		<path pathLength="1" d="M200 206 L376 206"/>
+		<path pathLength="1" d="M372.5 208 L376 206 L372.5 204"/>
+	</g>
+	<g>
+		<text x="51.5" y="166" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">u</text>
+		<text x="62.5" y="166" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">n</text>
+		<text x="73.5" y="166" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">i</text>
+		<text x="84.5" y="166" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x</text>
+		<text x="95.5" y="166" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="35" y="185" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">inum</text>
+		<text x="123" y="134" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">name[14]</text>
+		<text x="227.5" y="166" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">b</text>
+		<text x="238.5" y="166" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">i</text>
+		<text x="249.5" y="166" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">n</text>
+		<text x="260.5" y="166" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="211" y="185" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">inum</text>
+		<text x="299" y="134" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">name[14]</text>
+		<text x="60" y="67" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">p</text>
+		<text x="228" y="67" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">p+1</text>
+		<text x="24" y="226" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="200" y="226" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">16</text>
+		<text x="376" y="226" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">32</text>
+		<text x="112" y="201" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">sizeof = 16</text>
+		<text x="288" y="201" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">d[1]</text>
+		<text x="200" y="26" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">struct { int inumber; char name[14]; } d[2], *p = d;</text>
+		<text x="200" y="250" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE UNIX DIRECTORY ENTRY: 2 BYTES OF I-NUMBER, 14 OF NAME</text>
+		<text x="200" y="264" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PDP-11 · 16-BIT WORDS, BYTE ADDRESSES</text>
+	</g>
+</svg>

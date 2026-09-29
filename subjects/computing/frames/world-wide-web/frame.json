@@ -1,0 +1,197 @@
+{
+	"id": "world-wide-web",
+	"position": {
+		"label": "The Web"
+	},
+	"scene": {
+		"headline": "We wove a",
+		"accent": "WEB.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CERN · GENEVA · NCSA · URBANA-CHAMPAIGN",
+			"TIM BERNERS-LEE · ROBERT CAILLIAU · MARC ANDREESSEN",
+			"URL · HTTP · HTML"
+		],
+		"counter": {
+			"value": "100,000",
+			"label": "web sites by January 1996, from 130 in June 1993"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Information Management: A Proposal",
+			"url": "https://www.w3.org/History/1989/proposal.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Berners-Lee",
+					"given": "Tim"
+				}
+			],
+			"container": "World Wide Web Consortium",
+			"published": "1989-03",
+			"note": "Redistributed in May 1990; the HTML version keeps the text unchanged"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The HTTP Protocol As Implemented In W3",
+			"url": "https://www.w3.org/Protocols/HTTP/AsImplemented.html",
+			"accessed": "2026-09-28",
+			"container": "World Wide Web Consortium",
+			"published": "1991",
+			"note": "HTTP 0.9"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Birth of the Web",
+			"url": "https://home.cern/science/computing/the-birth-of-the-web/",
+			"accessed": "2026-09-28",
+			"container": "CERN"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Web Growth Summary",
+			"url": "https://www.mit.edu/~mkgray/net/web-growth-summary.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Gray",
+					"given": "Matthew"
+				}
+			],
+			"published": "1996",
+			"note": "Web sites counted by the Wanderer, and NSFNET traffic by use"
+		},
+		{
+			"kind": "web",
+			"title": "July 2026 Web Server Survey",
+			"url": "https://www.netcraft.com/blog/july-2026-web-server-survey",
+			"accessed": "2026-09-28",
+			"container": "Netcraft",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Tim Berners-Lee",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tim_Berners-Lee&oldid=1377084615",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "WorldWideWeb",
+			"url": "https://en.wikipedia.org/w/index.php?title=WorldWideWeb&oldid=1375089839",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "CERN httpd",
+			"url": "https://en.wikipedia.org/w/index.php?title=CERN_httpd&oldid=1360049921",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "NCSA Mosaic",
+			"url": "https://en.wikipedia.org/w/index.php?title=NCSA_Mosaic&oldid=1365399091",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Netscape Navigator",
+			"url": "https://en.wikipedia.org/w/index.php?title=Netscape_Navigator&oldid=1371936674",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "The NeXT computer that was the first web server, with its \"do not power it down\" label, on display at CERN",
+			"url": "https://commons.wikimedia.org/wiki/File:First_Web_Server.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "first-server.jpg",
+			"authors": [
+				{
+					"name": "Coolcaesar"
+				}
+			],
+			"published": "2005-08-10"
+		},
+		{
+			"kind": "media",
+			"title": "NCSA Mosaic showing the NCSA home page, run in 2013",
+			"url": "https://commons.wikimedia.org/wiki/File:NCSA_Mosaic_Browser_Screenshot.png",
+			"accessed": "2026-09-28",
+			"container": "Screenshot, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "mosaic.png",
+			"authors": [
+				{
+					"family": "Severance",
+					"given": "Charles"
+				}
+			],
+			"published": "2013"
+		},
+		{
+			"kind": "media",
+			"title": "Web sites, 1993–1996 and 2026 (chart)",
+			"url": "https://www.mit.edu/~mkgray/net/web-growth-summary.html",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from Matthew Gray’s Web Growth Summary and Netcraft’s July 2026 survey",
+			"licence": "MIT",
+			"file": "sites.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

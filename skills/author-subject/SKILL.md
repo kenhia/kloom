@@ -1,6 +1,6 @@
 ---
 name: kloom-author-subject
-description: Author a whole new kloom subject — a plan, a theme, one segment written by hand, then parallel authors for the rest, reviewed and committed segment by segment. The procedure sprint 006 used for the AI subject, written down in sprint 014 and first followed for Richard Feynman. Use when a sprint creates a subject, not for adding a few frames (that is grow).
+description: Author a whole new kloom subject — a plan, a theme, one segment written by hand, then parallel authors for the rest, reviewed and committed segment by segment. The procedure sprint 006 used for the AI subject, written down in sprint 014, followed for Richard Feynman and, in sprint 015, the History of Computing. Use when a sprint creates a subject, not for adding a few frames (that is grow).
 ---
 
 # Authoring a kloom subject
@@ -85,19 +85,30 @@ Things authors working at once cannot see, so the brief settles them:
 - **Who owns a shared topic.** Where two frames touch one story (a thesis
   and the trail that explains it, a memoir and the frame on its
   reception), say which tells it and which points to it. Sprint 014 had
-  three overlaps the brief left open.
+  three overlaps the brief left open. Give an anchor's author a line on
+  what each of its trail frames covers, not only their ids (sprint 015's
+  `colossus` first retold two of its trail's frames), and say who owns a
+  figure two frames will want to chart.
+- **Each frame's palette.** Name it in the brief, so that dark and light
+  alternate along the spine however the frames are shared out.
 - **Accents and images** must not repeat across the subject. Tell authors
-  to grep before choosing, and settle clashes at review.
+  to grep before choosing and again before reporting, and settle clashes
+  at review: in sprint 015 two authors chose FREE within minutes.
 - **Order in a dated trail.** If the dates may not fit the plan's order,
   let the author say what order they need; change the plan, not the sorts.
 - **Validation while others work.** The live subject fails on anyone's
   half-written frame. Authors check theirs in a copy of finished frames
   (`subject_plan.py <plan> subjects/<subject> --complete DIR`, then the
   subject tests with `KLOOM_TEST_SUBJECTS=DIR`), and look at their plates
-  with `contact_sheet.py`, which shows a plate before its `frame.json`.
+  with `contact_sheet.py` (`--scale 2.5` to read labels), which shows a
+  plate before its `frame.json`. To check a draft before its `frame.json`
+  goes live, an author copies the draft's directory into the copy and
+  re-runs `subject_plan.py` on the copy, then writes the live `frame.json`
+  once it passes. `prose_words.py` checks the word counts.
 - **A trail needs its anchor.** A trail's frames are off the spine until the
   main-spine frame it hangs from exists. Commit anchors first, or tell the
-  trail's author to validate against a stand-in.
+  trail's author to validate against a stand-in (the subject-plan README
+  says how); the complete copy leaves such frames out and names them.
 
 ## 4. Review, validate and commit, segment by segment
 

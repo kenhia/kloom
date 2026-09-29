@@ -26,7 +26,12 @@ npx prettier --write subjects/ai
   mid-frame; this lets one author check their own finished frames:
   `KLOOM_TEST_SUBJECTS=DIR npx vitest --run engine/subjects.test.ts engine/svg.test.ts`
   (the two tests read their subjects from `$KLOOM_TEST_SUBJECTS` when it is
-  set). Sprint 014's authors each improvised this.
+  set). Sprint 014's authors each improvised this. A finished trail frame
+  whose anchor is not written yet is on no spine, so the copy leaves it out
+  and names it rather than failing every author on it (sprint 015). To
+  check such a trail before its anchor lands, copy any finished main-spine
+  frame into `DIR/<subject>/frames/<anchor>` as a stand-in (change its `id`
+  and accent) and re-run the tests on the copy.
 - Its JSON is not Prettier's layout, so run Prettier over the subject
   afterwards.
 - Standard library only.
@@ -34,3 +39,7 @@ npx prettier --write subjects/ai
 `ai.json` is the plan for `subjects/ai`. Once every frame is written, the
 plan and the subject's own files say the same thing. Grow edits
 `spine.json` directly and never reads a plan.
+
+`prose_words.py SUBJECT_DIR [FRAME …]` counts each reading's prose as the
+grow skill counts it (not tables, image lines, chart lines or headings), marks those
+outside 550–900 (`--min`, `--max`), and exits 1 if any is (sprint 015).

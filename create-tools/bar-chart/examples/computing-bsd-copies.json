@@ -1,0 +1,26 @@
+{
+	"title": "Copies of each Berkeley Software Distribution shipped, 1BSD to 4.2BSD",
+	"description": "Bar chart, copies or licences shipped per release, as Marshall Kirk McKusick gives them. 1BSD (1977–78): about 30. 2BSD (1978–79): nearly 75. 3BSD (December 1979): nearly 100. 4BSD (October 1980): nearly 150, on about 500 machines. 4.1BSD (June 1981): about 400 over its two years. 4.2BSD (August 1983): more than 1,000 site licences within eighteen months. Data: McKusick, Twenty Years of Berkeley Unix (1999).",
+	"heading": "BERKELEY UNIX · COPIES SHIPPED PER RELEASE",
+	"unit": "",
+	"axis": {
+		"max": 1000,
+		"ticks": [
+			[0, "0"],
+			[250, "250"],
+			[500, "500"],
+			[750, "750"],
+			[1000, "1,000"]
+		]
+	},
+	"bars": [
+		{ "label": "1BSD", "sublabel": "1977–78", "value": 30, "display": "~30" },
+		{ "label": "2BSD", "sublabel": "1978–79", "value": 75, "display": "~75" },
+		{ "label": "3BSD", "sublabel": "1979", "value": 100, "display": "~100" },
+		{ "label": "4BSD", "sublabel": "1980", "value": 150, "display": "~150" },
+		{ "label": "4.1BSD", "sublabel": "1981", "value": 400, "display": "~400" },
+		{ "label": "4.2BSD", "sublabel": "1983", "value": 1000, "display": "1,000+", "highlight": true }
+	],
+	"barWidth": 48,
+	"width": 480
+}

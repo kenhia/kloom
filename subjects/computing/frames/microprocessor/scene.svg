@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M84 30 L84 214 M150 30 L150 214 M216 30 L216 214 M290 30 L290 214 M352 30 L352 214"/>
+		<path pathLength="1" d="M20 128 L384 128"/>
+		<path pathLength="1" d="M58 222 L58 282 M96 222 L96 282 M134 222 L134 282 M172 222 L172 282 M210 222 L210 282 M248 222 L248 282 M286 222 L286 282 M324 222 L324 282 M362 222 L362 282"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M64 123.5 L372 123.5"/>
+		<path pathLength="1" d="M64 126.5 L372 126.5"/>
+		<path pathLength="1" d="M64 129.5 L372 129.5"/>
+		<path pathLength="1" d="M64 132.5 L372 132.5"/>
+		<path pathLength="1" d="M38 112 L64 112 L64 144 L38 144 Z"/>
+		<path pathLength="1" d="M20 119 L38 119 M20 125 L38 125 M20 131 L38 131 M20 137 L38 137"/>
+		<path pathLength="1" d="M70 78 L104 78 L104 96 L70 96 Z"/>
+		<path pathLength="1" d="M132 78 L166 78 L166 96 L132 96 Z"/>
+		<path pathLength="1" d="M80 34 L107.4 34 L118 41.8 L128.6 34 L156 34 L137 60 L99 60 Z"/>
+		<path pathLength="1" d="M176 44 L196 44 L196 58 L176 58 Z"/>
+		<path pathLength="1" d="M216 70 L272 70 L272 96 L216 96 Z"/>
+		<path pathLength="1" d="M216 36 L272 36 L272 60 L216 60 Z"/>
+		<path pathLength="1" d="M72 156 L144 156 L144 204 L72 204 Z"/>
+		<path pathLength="1" d="M164 156 L232 156 L232 204 L164 204 Z"/>
+		<path pathLength="1" d="M262 156 L366 156 L366 204 L262 204 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M96 156 L96 204 M120 156 L120 204 M72 168 L144 168 M72 180 L144 180 M72 192 L144 192"/>
+		<path pathLength="1" d="M198 156 L198 204 M164 162 L232 162 M164 168 L232 168 M164 174 L232 174 M164 180 L232 180 M164 186 L232 186 M164 192 L232 192 M164 198 L232 198"/>
+		<path pathLength="1" d="M87 96 L87 123 M149 96 L149 123 M87 78 L87 61 M149 78 L149 61 M118 60 L118 66 L60 66 L60 112 M196 51 L206 51 M244 96 L244 123 M244 70 L244 60 M108 156 L108 133 M198 156 L198 133 M314 156 L314 133 M272 48 L300 48 L300 140 L314 140 L314 156"/>
+		<path pathLength="1" d="M116.5 63.4 L118 66 L119.5 63.4"/>
+		<path pathLength="1" d="M88.5 63.6 L87 61 L85.5 63.6"/>
+		<path pathLength="1" d="M150.5 63.6 L149 61 L147.5 63.6"/>
+		<path pathLength="1" d="M245.5 62.6 L244 60 L242.5 62.6"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M58 244 L362 244"/>
+		<path pathLength="1" d="M58 262 L362 262"/>
+		<path pathLength="1" d="M58 262 L62 262 L62 272 L96 272 L96 272 L100 272 L100 272 L134 272 L134 272 L138 272 L138 272 L172 272 L172 272 L176 272 L176 272 L210 272 L210 272 L214 272 L214 272 L248 272 L248 272 L252 272 L252 272 L286 272 L286 272 L290 272 L290 272 L324 272 L324 272 L328 272 L328 272 L362 272"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M172 244 L172 262 M248 244 L248 262"/>
+	</g>
+	<g>
+		<text x="87" y="90" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ACC</text>
+		<text x="149" y="90" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TEMP</text>
+		<text x="118" y="30" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ALU</text>
+		<text x="186" y="40" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C</text>
+		<text x="244" y="87" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">INSTR REG</text>
+		<text x="244" y="51" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DECODE</text>
+		<text x="108" y="214" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PC + 3-LEVEL STACK</text>
+		<text x="198" y="214" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">16 × 4-BIT REGS</text>
+		<text x="314" y="184" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TIMING · CONTROL</text>
+		<text x="22" y="110" font-size="6" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">D0–D3</text>
+		<text x="77" y="256" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A1</text>
+		<text x="115" y="256" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A2</text>
+		<text x="153" y="256" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A3</text>
+		<text x="191" y="256" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">M1</text>
+		<text x="229" y="256" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">M2</text>
+		<text x="267" y="256" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">X1</text>
+		<text x="305" y="256" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">X2</text>
+		<text x="343" y="256" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">X3</text>
+		<text x="115" y="239" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ADDRESS 3 × 4 BITS</text>
+		<text x="210" y="239" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">INSTRUCTION</text>
+		<text x="305" y="239" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EXECUTE</text>
+		<text x="54" y="272" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SYNC</text>
+	</g>
+</svg>

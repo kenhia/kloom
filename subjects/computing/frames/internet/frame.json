@@ -1,0 +1,228 @@
+{
+	"id": "internet",
+	"position": {
+		"label": "TCP/IP"
+	},
+	"scene": {
+		"headline": "We made a network of",
+		"accent": "NETWORKS.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"STANFORD · DARPA · BBN · UCL · NSF",
+			"VINT CERF · BOB KAHN · JON POSTEL",
+			"GATEWAYS · END TO END · 1 JANUARY 1983"
+		],
+		"counter": {
+			"value": "256",
+			"label": "networks the 1974 address allowed, \"sufficient for the foreseeable future\""
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Protocol for Packet Network Intercommunication",
+			"url": "https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Cerf",
+					"given": "Vinton G."
+				},
+				{
+					"family": "Kahn",
+					"given": "Robert E."
+				}
+			],
+			"container": "IEEE Transactions on Communications",
+			"volume": "22",
+			"issue": "5",
+			"pages": "637–648",
+			"published": "1974-05",
+			"doi": "10.1109/TCOM.1974.1092259"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "End-to-End Arguments in System Design",
+			"url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Saltzer",
+					"given": "J. H."
+				},
+				{
+					"family": "Reed",
+					"given": "D. P."
+				},
+				{
+					"family": "Clark",
+					"given": "D. D."
+				}
+			],
+			"container": "ACM Transactions on Computer Systems",
+			"volume": "2",
+			"issue": "4",
+			"pages": "277–288",
+			"published": "1984-11",
+			"doi": "10.1145/357401.357402",
+			"note": "First given at a conference in Paris in April 1981"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "NCP/TCP Transition Plan",
+			"url": "https://www.rfc-editor.org/rfc/rfc801.txt",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Postel",
+					"given": "J."
+				}
+			],
+			"number": "RFC 801",
+			"publisher": "Network Working Group",
+			"published": "1981-11",
+			"doi": "10.17487/RFC0801"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Internet Growth (1981–1991)",
+			"url": "https://www.rfc-editor.org/rfc/rfc1296.txt",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Lottor",
+					"given": "M."
+				}
+			],
+			"number": "RFC 1296",
+			"publisher": "Network Working Group",
+			"published": "1992-01",
+			"doi": "10.17487/RFC1296"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Internet Domain Survey, January 2019",
+			"url": "https://downloads.isc.org/www/survey/reports/current/",
+			"accessed": "2026-09-28",
+			"container": "Internet Systems Consortium",
+			"note": "Host counts, 1993–2019"
+		},
+		{
+			"kind": "web",
+			"title": "Internet Domain Survey",
+			"url": "https://www.isc.org/survey/",
+			"accessed": "2026-09-28",
+			"container": "Internet Systems Consortium",
+			"note": "Why the survey ended"
+		},
+		{
+			"kind": "web",
+			"title": "Facts and Figures 2025: Internet Use",
+			"url": "https://www.itu.int/itu-d/reports/statistics/2025/10/15/ff25-internet-use/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "International Telecommunication Union"
+				}
+			],
+			"container": "ITU",
+			"published": "2025-10-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ARPANET",
+			"url": "https://en.wikipedia.org/w/index.php?title=ARPANET&oldid=1372534218",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "National Science Foundation Network",
+			"url": "https://en.wikipedia.org/w/index.php?title=National_Science_Foundation_Network&oldid=1362589064",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Flag day (computing)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Flag_day_(computing)&oldid=1360952306",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Packet switching",
+			"url": "https://en.wikipedia.org/w/index.php?title=Packet_switching&oldid=1376334725",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "media",
+			"title": "Inbound traffic on the NSFNET T1 backbone in September 1991, visualised over a map of the United States",
+			"url": "https://commons.wikimedia.org/wiki/File:NSFNET-traffic-visualization-1991.jpg",
+			"accessed": "2026-09-28",
+			"container": "National Center for Supercomputing Applications, University of Illinois, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "nsfnet-1991.jpg",
+			"authors": [
+				{
+					"family": "Cox",
+					"given": "Donna"
+				},
+				{
+					"family": "Patterson",
+					"given": "Robert"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "Hosts on the internet, 1981–2019 (chart)",
+			"url": "https://downloads.isc.org/www/survey/reports/current/",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from RFC 1296 and the ISC Domain Survey",
+			"licence": "MIT",
+			"file": "hosts.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

@@ -1,0 +1,177 @@
+{
+	"id": "dns",
+	"position": {
+		"label": "DNS"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "We gave every machine a",
+		"accent": "NAME.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SRI NIC · HOSTS.TXT · PAUL MOCKAPETRIS · USC–ISI",
+			"RFCs 882–883 · 1983 · ZONES · RESOLVERS · ROOT SERVERS"
+		],
+		"counter": {
+			"value": "2,045",
+			"label": "root server instances, end of September 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Domain Names: Concepts and Facilities",
+			"url": "https://www.rfc-editor.org/rfc/rfc882",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Mockapetris",
+					"given": "Paul"
+				}
+			],
+			"number": "RFC 882",
+			"publisher": "RFC Editor",
+			"published": "1983-11",
+			"doi": "10.17487/RFC0882",
+			"note": "The HOSTS.TXT problem, in the introduction"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Domain Names: Concepts and Facilities",
+			"url": "https://www.rfc-editor.org/rfc/rfc1034",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Mockapetris",
+					"given": "Paul"
+				}
+			],
+			"number": "RFC 1034",
+			"publisher": "RFC Editor",
+			"published": "1987-11",
+			"doi": "10.17487/RFC1034",
+			"note": "Recursive and iterative resolution, section 2.2"
+		},
+		{
+			"kind": "report",
+			"title": "Domain Names: Implementation and Specification",
+			"url": "https://www.rfc-editor.org/rfc/rfc883",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Mockapetris",
+					"given": "Paul"
+				}
+			],
+			"number": "RFC 883",
+			"publisher": "RFC Editor",
+			"published": "1983-11",
+			"doi": "10.17487/RFC0883"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Root Servers",
+			"url": "https://root-servers.org/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Root Server Technical Operations Association"
+				}
+			],
+			"container": "root-servers.org",
+			"note": "The count of operational instances and each letter’s sites, read at the end of September 2026"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Domain Name System",
+			"url": "https://en.wikipedia.org/w/index.php?title=Domain_Name_System&oldid=1376778695",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hosts (file)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hosts_(file)&oldid=1364369425",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Mockapetris",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Mockapetris&oldid=1374373805",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Root name server",
+			"url": "https://en.wikipedia.org/w/index.php?title=Root_name_server&oldid=1375218422",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "media",
+			"title": "The K root server’s instance at the Amsterdam Internet Exchange, 2006",
+			"url": "https://commons.wikimedia.org/wiki/File:Ams-ix.k.root-servers.net.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "k-root.jpg",
+			"authors": [
+				{
+					"name": "Bas van Schaik"
+				}
+			],
+			"published": "2006-04-12"
+		},
+		{
+			"kind": "media",
+			"title": "Bar chart of operational sites for each DNS root server letter, September 2026",
+			"url": "https://root-servers.org/",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from root-servers.org",
+			"licence": "MIT",
+			"file": "root-sites.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

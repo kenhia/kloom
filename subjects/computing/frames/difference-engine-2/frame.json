@@ -1,0 +1,109 @@
+{
+	"id": "difference-engine-2",
+	"position": {
+		"label": "1991–2002",
+		"sort": 1991
+	},
+	"scene": {
+		"headline": "We built it, and it",
+		"accent": "WORKED.",
+		"palette": "walnut",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SCIENCE MUSEUM, LONDON · DORON SWADE · REG CRICK · BARRIE HOLLOWAY",
+			"DRAWINGS OF 1846–49 · FIRST TABLE 1991 · PRINTER 2002"
+		],
+		"counter": {
+			"value": "8,000",
+			"label": "parts, weighing five tonnes"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Construction of Charles Babbage's Difference Engine No. 2",
+			"accessed": "2026-09-28",
+			"doi": "10.1109/MAHC.2005.45",
+			"authors": [
+				{
+					"family": "Swade",
+					"given": "Doron D."
+				}
+			],
+			"container": "IEEE Annals of the History of Computing",
+			"volume": "27",
+			"issue": "3",
+			"pages": "70–88",
+			"published": "2005-07",
+			"note": "Read in a copy at ed-thelen.org/bab/DoronSwadeIEEE.pdf"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "A Modern Sequel",
+			"url": "https://www.computerhistory.org/babbage/modernsequel/",
+			"accessed": "2026-09-28",
+			"container": "The Babbage Engine",
+			"publisher": "Computer History Museum"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Difference engine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Difference_engine&oldid=1366995256",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Doron Swade",
+			"url": "https://en.wikipedia.org/w/index.php?title=Doron_Swade&oldid=1344044323",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Babbage",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Babbage&oldid=1371979131",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "The printing apparatus of the Difference Engine No. 2 built for Nathan Myhrvold, at the Computer History Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:Difference_Engine_No._2_(printer_closeup_view)_(2586136250).jpg",
+			"accessed": "2026-09-28",
+			"container": "Computer History Museum, Mountain View; photograph via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "de2-printer.jpg",
+			"authors": [
+				{
+					"name": "Erik Pitti"
+				}
+			],
+			"published": "2008-06-12"
+		}
+	]
+}

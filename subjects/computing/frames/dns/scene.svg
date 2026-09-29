@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M120 54 L390 54 M120 128 L390 128 M120 192 L390 192 M120 252 L390 252"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M264 54 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M265.7 58.9 L182.3 123.1"/>
+		<path pathLength="1" d="M168 128 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M268.2 61 L235.8 121"/>
+		<path pathLength="1" d="M224 128 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M273.1 61.9 L280.9 120.1"/>
+		<path pathLength="1" d="M274 128 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M276.9 60.3 L325.1 121.7"/>
+		<path pathLength="1" d="M322 128 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M278.5 58.7 L367.5 123.3"/>
+		<path pathLength="1" d="M366 128 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M176 136 L176 184"/>
+		<path pathLength="1" d="M168 192 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M176 200 L176 246"/>
+		<path pathLength="1" d="M170 252 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0"/>
+		<path pathLength="1" d="M26 86 L90 86 L90 114 L26 114 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M89.4 91.1 L259.6 53.6"/>
+		<path pathLength="1" d="M257.1 56 L259.6 53.6 L256.3 52.6"/>
+		<path pathLength="1" d="M260.9 59.5 L90.6 96.9"/>
+		<path pathLength="1" d="M93.2 94.6 L90.6 96.9 L94 98"/>
+		<path pathLength="1" d="M90.9 97.1 L165.5 121.4"/>
+		<path pathLength="1" d="M162.1 122.2 L165.5 121.4 L163.2 118.8"/>
+		<path pathLength="1" d="M163.7 127.1 L89.1 102.9"/>
+		<path pathLength="1" d="M92.5 102.1 L89.1 102.9 L91.4 105.5"/>
+		<path pathLength="1" d="M92.1 103.9 L169.6 181.4"/>
+		<path pathLength="1" d="M166.3 180.5 L169.6 181.4 L168.7 178"/>
+		<path pathLength="1" d="M165.4 185.6 L87.9 108.1"/>
+		<path pathLength="1" d="M91.3 109 L87.9 108.1 L88.8 111.5"/>
+	</g>
+	<g>
+		<text x="272" y="40" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">“.” ROOT</text>
+		<text x="162" y="148" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">org</text>
+		<text x="232" y="148" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">com</text>
+		<text x="282" y="148" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">edu</text>
+		<text x="330" y="148" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">net</text>
+		<text x="374" y="148" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">uk</text>
+		<text x="190" y="195" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">example</text>
+		<text x="188" y="255" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">www</text>
+		<text x="58" y="103" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RESOLVER</text>
+		<text x="58" y="128" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">www.example.org?</text>
+		<text x="171.1" y="67.3" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1 · 2</text>
+		<text x="123.3" y="126.1" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3 · 4</text>
+		<text x="124.8" y="158.8" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5 · 6</text>
+		<text x="390" y="50" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ROOT ZONE</text>
+		<text x="390" y="162" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TOP LEVEL</text>
+		<text x="390" y="188" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SECOND LEVEL</text>
+		<text x="200" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A NAME IS READ RIGHT TO LEFT, ONE REFERRAL PER DOT</text>
+	</g>
+</svg>

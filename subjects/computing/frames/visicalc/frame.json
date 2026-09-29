@@ -1,0 +1,146 @@
+{
+	"id": "visicalc",
+	"position": {
+		"label": "1979",
+		"sort": 1979
+	},
+	"scene": {
+		"headline": "The ledger learned to",
+		"accent": "RECALCULATE.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ARLINGTON, MASS. · DAN BRICKLIN · BOB FRANKSTON",
+			"SOFTWARE ARTS · PERSONAL SOFTWARE · APPLE II"
+		],
+		"counter": {
+			"value": "700,000",
+			"label": "copies of VisiCalc sold in its first six years"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "VisiCalc",
+			"url": "https://en.wikipedia.org/w/index.php?title=VisiCalc&oldid=1377226778",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Idea",
+			"url": "http://www.bricklin.com/history/saiidea.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Bricklin",
+					"given": "Dan"
+				}
+			],
+			"container": "Dan Bricklin’s Web Site: History",
+			"note": "His own account, with the first Apple II prototype of 8 October 1978"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Implementing VisiCalc",
+			"url": "https://www.frankston.com/public/?name=ImplementingVisiCalc",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Frankston",
+					"given": "Bob"
+				}
+			],
+			"container": "Frankston.com",
+			"note": "Why it recalculated in row or column order; read through the Internet Archive"
+		},
+		{
+			"kind": "web",
+			"title": "Early Days",
+			"url": "http://www.bricklin.com/history/saiearly.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Bricklin",
+					"given": "Dan"
+				}
+			],
+			"container": "Dan Bricklin’s Web Site: History"
+		},
+		{
+			"kind": "web",
+			"title": "Ben Rosen’s Reaction",
+			"url": "http://www.bricklin.com/history/rosenletter.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Bricklin",
+					"given": "Dan"
+				}
+			],
+			"container": "Dan Bricklin’s Web Site: History"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spreadsheet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spreadsheet&oldid=1376895772",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dan Bricklin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dan_Bricklin&oldid=1372237409",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lotus 1-2-3",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lotus_1-2-3&oldid=1366192332",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26"
+		},
+		{
+			"kind": "media",
+			"title": "VisiCalc running on an Apple II",
+			"url": "https://commons.wikimedia.org/wiki/File:Visicalc.png",
+			"accessed": "2026-09-28",
+			"container": "Screenshot, from apple2history.org, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "visicalc.png",
+			"published": "2005-09"
+		}
+	]
+}

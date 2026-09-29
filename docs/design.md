@@ -922,6 +922,24 @@ first subject built on a person, and the first written by following
   and vellum for Los Alamos, Challenger and the machines. The lowest
   contrast is 5.4:1.
 
+## The fourth subject
+
+Built in sprint 015 (korg 3398): `subjects/computing`, the History of
+Computing, the second subject written by following
+`skills/author-subject/SKILL.md`. It is described in its sprint record.
+
+- **Dates, then technologies.** 37 main-spine frames: six `date` segments
+  from counting boards to the Altair, three `technology` segments
+  (networks, shared software, computing everywhere), and a closing
+  `category` segment. Six trails of five frames, five by date and one, the
+  internet stack, by layer. The engine needed nothing new.
+- **It complements the AI subject.** Where both touch a story (Babbage and
+  Lovelace, Turing, the Manchester machines, Lisp machines, GPUs), this
+  subject's frame tells the machine and gives the other side a sentence.
+- **Its own look.** Three dark/light pairs by era: walnut and cardstock for
+  gears and cards, console and teletype for valves and mainframes, circuit
+  and schematic from the microprocessor on. The lowest contrast is 5.6:1.
+
 ## Start screen
 
 Built in sprint 002 (korg 3359). The page opens on a modal start screen over

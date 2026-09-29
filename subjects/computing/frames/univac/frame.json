@@ -1,0 +1,261 @@
+{
+	"id": "univac",
+	"position": {
+		"label": "1951",
+		"sort": 1951
+	},
+	"scene": {
+		"headline": "The machine called the",
+		"accent": "ELECTION.",
+		"palette": "console",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PHILADELPHIA · J. PRESPER ECKERT · JOHN MAUCHLY · REMINGTON RAND",
+			"MERCURY DELAY LINES · UNISERVO TAPE · CBS, 4 NOVEMBER 1952"
+		],
+		"counter": {
+			"value": "438",
+			"label": "electoral votes it forecast for Eisenhower at 9:15 pm; he won 442"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "UNIVAC I",
+			"url": "https://en.wikipedia.org/w/index.php?title=UNIVAC_I&oldid=1374059791",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "UNIVAC I",
+			"url": "https://www.census.gov/about/history/bureau-history/census-innovations/technology/univac-i.html",
+			"accessed": "2026-09-28",
+			"container": "History",
+			"publisher": "U.S. Census Bureau"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Univac Unveiled at Philadelphia Dedication",
+			"url": "https://www2.census.gov/about/history/agency-history/innovations/technology/univac/census-bulletin-univac.pdf",
+			"accessed": "2026-09-28",
+			"container": "Census Bulletin",
+			"publisher": "U.S. Census Bureau",
+			"published": "1951-06-22"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Automatic Computers on Election Night",
+			"url": "https://archive.org/details/sim_computers-and-people_1953-01_2_1",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Murphy",
+					"given": "Eugene F."
+				},
+				{
+					"family": "Berkeley",
+					"given": "Edmund C."
+				}
+			],
+			"container": "The Computing Machinery Field",
+			"publisher": "Berkeley Enterprises",
+			"published": "1953-01",
+			"volume": "2",
+			"issue": "1",
+			"pages": "27–28",
+			"note": "The printout at 9:15 and the forecasts through the night"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "A Survey of Domestic Electronic Digital Computing Systems",
+			"url": "https://ed-thelen.org/comp-hist/BRL.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Weik",
+					"given": "Martin H."
+				}
+			],
+			"publisher": "Ballistic Research Laboratories, US Army",
+			"published": "1955-12",
+			"number": "BRL Report 971",
+			"place": "Aberdeen Proving Ground, MD",
+			"note": "The ENIAC, UNIVAC and IBM-701 entries; read in Ed Thelen’s transcription"
+		},
+		{
+			"kind": "web",
+			"title": "UNIVAC I Operating Manual",
+			"url": "http://bitsavers.org/pdf/univac/univac1/UNIVAC1_Operating_Manual_1954.pdf",
+			"accessed": "2026-09-28",
+			"container": "bitsavers.org",
+			"publisher": "Remington Rand",
+			"published": "1954",
+			"note": "Excess-three, zones and the check pulse; tape blocks and gaps"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eckert–Mauchly Computer Corporation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eckert%E2%80%93Mauchly_Computer_Corporation&oldid=1333678558",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "UNISERVO I",
+			"url": "https://en.wikipedia.org/w/index.php?title=UNISERVO_I&oldid=1330664884",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1952 United States presidential election",
+			"url": "https://en.wikipedia.org/w/index.php?title=1952_United_States_presidential_election&oldid=1373592986",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IBM 701",
+			"url": "https://en.wikipedia.org/w/index.php?title=IBM_701&oldid=1367768891",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Manchester Baby",
+			"url": "https://en.wikipedia.org/w/index.php?title=Manchester_Baby&oldid=1375332732",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ferranti Mark 1",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ferranti_Mark_1&oldid=1360658600",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "web",
+			"title": "Manchester Baby Computer",
+			"url": "https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/mark1/new.baby.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Napper",
+					"given": "Brian"
+				}
+			],
+			"container": "Computer 50: The University of Manchester Celebrates the Birth of the Modern Computer",
+			"publisher": "The University of Manchester",
+			"published": "1998"
+		},
+		{
+			"kind": "web",
+			"title": "Ferranti Mark 1",
+			"url": "https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/mark1/FM1.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Napper",
+					"given": "Brian"
+				}
+			],
+			"container": "Computer 50: The University of Manchester Celebrates the Birth of the Modern Computer",
+			"publisher": "The University of Manchester",
+			"published": "1998"
+		},
+		{
+			"kind": "web",
+			"title": "Some EDSAC Statistics",
+			"url": "https://www.cl.cam.ac.uk/events/EDSAC99/statistics.html",
+			"accessed": "2026-09-28",
+			"container": "EDSAC 99",
+			"publisher": "University of Cambridge Computer Laboratory",
+			"published": "1999"
+		},
+		{
+			"kind": "media",
+			"title": "UNIVAC I at its dedication for the Census Bureau, Eckert–Mauchly plant, Philadelphia",
+			"url": "https://commons.wikimedia.org/wiki/File:Univac_I_Census_dedication.jpg",
+			"accessed": "2026-09-28",
+			"container": "U.S. Census Bureau, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "census-dedication.jpg",
+			"authors": [
+				{
+					"name": "U.S. Census Bureau"
+				}
+			],
+			"published": "1951-06-14"
+		},
+		{
+			"kind": "media",
+			"title": "Main store of the first stored-program machines, in binary digits",
+			"url": "https://ed-thelen.org/comp-hist/BRL.html",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from Weik (1955) and the Manchester and Cambridge histories",
+			"licence": "MIT",
+			"file": "first-stores.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			]
+		}
+	]
+}

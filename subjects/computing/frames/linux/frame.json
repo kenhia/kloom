@@ -1,0 +1,239 @@
+{
+	"id": "linux",
+	"position": {
+		"label": "Linux"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "We built a kernel in",
+		"accent": "PUBLIC.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HELSINKI · LINUS TORVALDS · COMP.OS.MINIX",
+			"THE GNU GPL · DISTRIBUTIONS · ANDROID · THE TOP500"
+		],
+		"counter": {
+			"value": "500 of 500",
+			"label": "TOP500 supercomputers running Linux, June 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "History of Linux",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_Linux&oldid=1376434794",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24",
+			"note": "Quotes the announcement of 25 August 1991 and the first licence"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Release Notes for Linux v0.12",
+			"url": "https://www.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0.12",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Torvalds",
+					"given": "Linus"
+				}
+			],
+			"container": "The Linux Kernel Archives",
+			"published": "1992-01",
+			"note": "The move to the GNU copyleft"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Tanenbaum–Torvalds debate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tanenbaum%E2%80%93Torvalds_debate&oldid=1369261750",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "List statistics: operating system family",
+			"url": "https://top500.org/statistics/list/",
+			"accessed": "2026-09-28",
+			"container": "TOP500",
+			"note": "Lists of June 1998 to June 2026"
+		},
+		{
+			"kind": "web",
+			"title": "Operating system market share, mobile and desktop, worldwide",
+			"url": "https://gs.statcounter.com/os-market-share/mobile/worldwide",
+			"accessed": "2026-09-28",
+			"container": "StatCounter Global Stats",
+			"published": "2026-08",
+			"note": "August 2026"
+		},
+		{
+			"kind": "web",
+			"title": "Usage statistics of Linux for websites",
+			"url": "https://w3techs.com/technologies/details/os-linux",
+			"accessed": "2026-09-28",
+			"container": "W3Techs",
+			"published": "2026-09"
+		},
+		{
+			"kind": "web",
+			"title": "Linux kernel releases",
+			"url": "https://www.kernel.org/",
+			"accessed": "2026-09-28",
+			"container": "The Linux Kernel Archives"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linux kernel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linux_kernel&oldid=1376362386",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linux kernel version history",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linux_kernel_version_history&oldid=1377204444",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linus Torvalds",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linus_Torvalds&oldid=1377236357",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Minix",
+			"url": "https://en.wikipedia.org/w/index.php?title=Minix&oldid=1376789913",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linux distribution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linux_distribution&oldid=1376664552",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Debian",
+			"url": "https://en.wikipedia.org/w/index.php?title=Debian&oldid=1376654760",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Red Hat",
+			"url": "https://en.wikipedia.org/w/index.php?title=Red_Hat&oldid=1374411449",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Android (operating system)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Android_(operating_system)&oldid=1377019996",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: TOP500 supercomputers running Linux, 1998–2026, drawn for kloom from TOP500 statistics",
+			"url": "https://top500.org/statistics/list/",
+			"accessed": "2026-09-28",
+			"container": "TOP500 list statistics, by operating-system family",
+			"licence": "MIT",
+			"file": "top500-linux.svg"
+		},
+		{
+			"kind": "media",
+			"title": "Linus Torvalds at LinuxWorld in New York, February 2000",
+			"url": "https://commons.wikimedia.org/wiki/File:Linus_torvalds_bh.jpg",
+			"accessed": "2026-09-28",
+			"container": "LinuxWorld Conference and Expo, New York, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "torvalds-2000.jpg",
+			"authors": [
+				{
+					"name": "Brian Hankins"
+				}
+			],
+			"published": "2000-02-03"
+		}
+	]
+}

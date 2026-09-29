@@ -1,0 +1,208 @@
+{
+	"id": "multics",
+	"position": {
+		"label": "1965–69",
+		"sort": 1965
+	},
+	"scene": {
+		"headline": "We planned a computing",
+		"accent": "UTILITY.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MIT PROJECT MAC · GENERAL ELECTRIC · BELL LABS",
+			"GE-645 · PL/I · SEGMENTS · RINGS · A TREE OF FILES"
+		],
+		"counter": {
+			"value": "35",
+			"label": "years from the design papers of 1965 to the last site’s shutdown, Halifax, 2000"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Multics History",
+			"url": "https://www.multicians.org/history.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Van Vleck",
+					"given": "Tom"
+				}
+			],
+			"container": "Multicians.org",
+			"note": "The partners, the GE-645, the dates from 1964 to 2000"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Introduction and Overview of the Multics System",
+			"url": "https://www.multicians.org/fjcc1.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Corbató",
+					"given": "F. J."
+				},
+				{
+					"family": "Vyssotsky",
+					"given": "V. A."
+				}
+			],
+			"container": "Proceedings of the Fall Joint Computer Conference, 1965",
+			"published": "1965",
+			"note": "The computer utility, segments and dynamic linking, as designed"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Hardware Architecture for Implementing Protection Rings",
+			"url": "https://www.multicians.org/protection.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Schroeder",
+					"given": "Michael D."
+				},
+				{
+					"family": "Saltzer",
+					"given": "Jerome H."
+				}
+			],
+			"container": "Communications of the ACM",
+			"published": "1972-03",
+			"volume": "15",
+			"issue": "3",
+			"note": "The eight rings, their brackets and gates"
+		},
+		{
+			"kind": "web",
+			"title": "Myths about Multics",
+			"url": "https://www.multicians.org/myths.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Van Vleck",
+					"given": "Tom"
+				}
+			],
+			"container": "Multicians.org",
+			"note": "Bell Labs’ withdrawal in April 1969"
+		},
+		{
+			"kind": "web",
+			"title": "Multics Features",
+			"url": "https://www.multicians.org/features.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Van Vleck",
+					"given": "Tom"
+				}
+			],
+			"container": "Multicians.org"
+		},
+		{
+			"kind": "article",
+			"title": "The Evolution of the Unix Time-sharing System",
+			"url": "https://www.bell-labs.com/usr/dmr/www/hist.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Ritchie",
+					"given": "Dennis M."
+				}
+			],
+			"container": "AT&T Bell Laboratories Technical Journal",
+			"published": "1984-10",
+			"volume": "63",
+			"issue": "6, part 2",
+			"pages": "1577–93"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Development of the C Language",
+			"url": "https://www.bell-labs.com/usr/dmr/www/chist.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Ritchie",
+					"given": "Dennis M."
+				}
+			],
+			"container": "History of Programming Languages II",
+			"publisher": "ACM Press and Addison-Wesley",
+			"published": "1996",
+			"editors": [
+				{
+					"family": "Bergin",
+					"given": "Thomas J., Jr."
+				},
+				{
+					"family": "Gibson",
+					"given": "Richard G., Jr."
+				}
+			],
+			"place": "New York"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Multics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Multics&oldid=1359128887",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GE 645",
+			"url": "https://en.wikipedia.org/w/index.php?title=GE_645&oldid=1376639183",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "MIT Computer Science and Artificial Intelligence Laboratory",
+			"url": "https://en.wikipedia.org/w/index.php?title=MIT_Computer_Science_and_Artificial_Intelligence_Laboratory&oldid=1375700907",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "media",
+			"title": "A session with Multics release 12.8, run in the DPS8M emulator in 2026",
+			"url": "https://commons.wikimedia.org/wiki/File:DPS8M_emulator_running_Multics_screenshot.webp",
+			"accessed": "2026-09-28",
+			"container": "Screenshot of Multics (MIT, Bull HN Information Systems, Bull SAS) in the DPS8M emulator, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "multics-session.webp",
+			"authors": [
+				{
+					"name": "VulcanSphere"
+				}
+			],
+			"published": "2026-01-23"
+		}
+	]
+}

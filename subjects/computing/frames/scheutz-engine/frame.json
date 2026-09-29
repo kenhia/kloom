@@ -1,0 +1,146 @@
+{
+	"id": "scheutz-engine",
+	"position": {
+		"label": "1853",
+		"sort": 1853
+	},
+	"scene": {
+		"headline": "The engine set its own",
+		"accent": "TYPE.",
+		"palette": "cardstock",
+		"illustration": "scene.svg",
+		"metadata": [
+			"STOCKHOLM · GEORG AND EDVARD SCHEUTZ · J. W. BERGSTRÖM",
+			"PARIS 1855 · ALBANY · SOMERSET HOUSE"
+		],
+		"counter": {
+			"value": "28 of 600",
+			"label": "pages of the 1864 English Life Table set wholly by the engine"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Georg Scheutz and the First Printing Calculator",
+			"url": "https://www.govinfo.gov/app/details/GOVPUB-SI-PURL-gpo20587",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Merzbach",
+					"given": "Uta C."
+				}
+			],
+			"publisher": "Smithsonian Institution Press",
+			"place": "Washington",
+			"published": "1977",
+			"number": "Smithsonian Studies in History and Technology 36",
+			"note": "Its abstract dates the British patent 1834, for 1854; Babbage’s letter of 1856 is quoted on p. 22"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Calculation and Tabulation in the Nineteenth Century: Airy versus Babbage",
+			"url": "https://discovery.ucl.ac.uk/id/eprint/10102065/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Swade",
+					"given": "Doron David"
+				}
+			],
+			"publisher": "University College London",
+			"place": "London",
+			"published": "2003",
+			"note": "Chapter 5, on the Scheutz engines, Farr and the General Register Office, pp. 242–282"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Per Georg Scheutz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Per_Georg_Scheutz&oldid=1372599434",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Difference engine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Difference_engine&oldid=1366995256",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Martin Wiberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Martin_Wiberg&oldid=1362216959",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02"
+		},
+		{
+			"kind": "book",
+			"title": "Passages from the Life of a Philosopher",
+			"url": "https://www.gutenberg.org/ebooks/57532",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Babbage",
+					"given": "Charles"
+				}
+			],
+			"publisher": "Longman, Green, Longman, Roberts, & Green",
+			"place": "London",
+			"published": "1864",
+			"note": "Chapter 5, on Deacon and Scheutz"
+		},
+		{
+			"kind": "media",
+			"title": "The Scheutz difference engine built by Bryan Donkin for the General Register Office, 1859, in the Science Museum, London",
+			"url": "https://commons.wikimedia.org/wiki/File:Scheutz_difference_engine,_1859_-_Science_Museum,_London_-_DSC05531.jpg",
+			"accessed": "2026-09-28",
+			"container": "Science Museum, London; photograph via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "gro-engine.jpg",
+			"authors": [
+				{
+					"name": "Daderot"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "How the pages of the English Life Table of 1864 were set",
+			"url": "https://discovery.ucl.ac.uk/id/eprint/10102065/",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from Swade, Calculation and Tabulation in the Nineteenth Century (2003), p. 279",
+			"licence": "MIT",
+			"file": "life-table-pages.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

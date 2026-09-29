@@ -1,0 +1,267 @@
+{
+	"id": "cloud",
+	"position": {
+		"label": "The cloud"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "We bought computing by the",
+		"accent": "HOUR.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE, MASS. · PALO ALTO · SEATTLE · NORTHERN VIRGINIA",
+			"CP-67 · VMWARE · S3 AND EC2, 2006 · HYPERSCALE"
+		],
+		"counter": {
+			"value": "$143.4 bn",
+			"label": "spent on cloud infrastructure services, April–June 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Q2 Cloud Market Passes $143 Billion; Highest Growth Rate in Eight Years",
+			"url": "https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years",
+			"accessed": "2026-09-28",
+			"container": "Synergy Research Group",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Amazon EC2 Beta",
+			"url": "https://aws.amazon.com/blogs/aws/amazon_ec2_beta/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Barr",
+					"given": "Jeff"
+				}
+			],
+			"container": "AWS News Blog",
+			"publisher": "Amazon Web Services",
+			"published": "2006-08-25"
+		},
+		{
+			"kind": "web",
+			"title": "Amazon Web Services Launches",
+			"url": "https://press.aboutamazon.com/2006/3/amazon-web-services-launches",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Amazon.com"
+				}
+			],
+			"container": "Amazon press release",
+			"published": "2006-03-14",
+			"note": "Amazon S3 and its prices"
+		},
+		{
+			"kind": "report",
+			"title": "The NIST Definition of Cloud Computing",
+			"authors": [
+				{
+					"family": "Mell",
+					"given": "Peter"
+				},
+				{
+					"family": "Grance",
+					"given": "Timothy"
+				}
+			],
+			"number": "Special Publication 800-145",
+			"publisher": "National Institute of Standards and Technology",
+			"place": "Gaithersburg, MD",
+			"published": "2011-09",
+			"url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "web",
+			"title": "Hyperscale Operators to Account for 67% of All Data Center Capacity by 2031",
+			"url": "https://www.srgresearch.com/articles/hyperscale-operators-to-account-for-67-of-all-data-center-capacity-by-2031",
+			"accessed": "2026-09-28",
+			"container": "Synergy Research Group",
+			"published": "2026-04-07"
+		},
+		{
+			"kind": "web",
+			"title": "US Rises Again as Synergy Updates Its Ranking of Hyperscale Data Center Locations",
+			"url": "https://www.srgresearch.com/articles/us-rises-again-as-synergy-updates-its-ranking-of-hyperscale-data-center-locations",
+			"accessed": "2026-09-28",
+			"container": "Synergy Research Group",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "web",
+			"title": "Q2 Cloud Market Nears $100 Billion Milestone – and It’s Still Growing by 25% Year over Year",
+			"url": "https://www.srgresearch.com/articles/q2-cloud-market-nears-100-billion-milestone-and-its-still-growing-by-25-year-over-year",
+			"accessed": "2026-09-28",
+			"container": "Synergy Research Group",
+			"published": "2025-07-31"
+		},
+		{
+			"kind": "web",
+			"title": "Cloud Market Growth Stays Strong in Q2 While Amazon, Google and Oracle Nudge Higher",
+			"url": "https://www.srgresearch.com/articles/cloud-market-growth-stays-strong-in-q2-while-amazon-google-and-oracle-nudge-higher",
+			"accessed": "2026-09-28",
+			"container": "Synergy Research Group",
+			"published": "2024-08-01"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "CP/CMS",
+			"url": "https://en.wikipedia.org/w/index.php?title=CP%2FCMS&oldid=1377023983",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IBM CP-40",
+			"url": "https://en.wikipedia.org/w/index.php?title=IBM_CP-40&oldid=1353234619",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-09"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "VMware",
+			"url": "https://en.wikipedia.org/w/index.php?title=VMware&oldid=1374152224",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Amazon S3",
+			"url": "https://en.wikipedia.org/w/index.php?title=Amazon_S3&oldid=1376922881",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Amazon Elastic Compute Cloud",
+			"url": "https://en.wikipedia.org/w/index.php?title=Amazon_Elastic_Compute_Cloud&oldid=1373965305",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cloud computing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cloud_computing&oldid=1373605538",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Google Cloud Platform",
+			"url": "https://en.wikipedia.org/w/index.php?title=Google_Cloud_Platform&oldid=1376127038",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Microsoft Azure",
+			"url": "https://en.wikipedia.org/w/index.php?title=Microsoft_Azure&oldid=1374996907",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: second-quarter spending on cloud infrastructure services, 2023–2026, drawn for kloom from Synergy Research Group’s estimates",
+			"url": "https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years",
+			"accessed": "2026-09-28",
+			"container": "Synergy Research Group press releases of 2024, 2025 and 2026",
+			"licence": "MIT",
+			"file": "cloud-q2.svg"
+		},
+		{
+			"kind": "media",
+			"title": "Mike Alexander at the console of the University of Michigan’s IBM System/360 Model 67",
+			"url": "https://commons.wikimedia.org/wiki/File:IBM360-67AtUmichWithMikeAlexander.jpg",
+			"accessed": "2026-09-28",
+			"container": "University of Michigan Computing Center, Ann Arbor, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "s360-67.jpg",
+			"authors": [
+				{
+					"name": "Dave Mills"
+				}
+			],
+			"published": "1969"
+		},
+		{
+			"kind": "media",
+			"title": "A Microsoft data centre at Middenmeer, the Netherlands",
+			"url": "https://commons.wikimedia.org/wiki/File:Microsoft_Data_Center_Middenmeer,_the_Netherlands_-_1.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "middenmeer.jpg",
+			"authors": [
+				{
+					"name": "Hay Kranen"
+				}
+			],
+			"published": "2023-09-23"
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"segments": [
+		{
+			"id": "counting",
+			"title": "Counting and gears",
+			"labelKind": "date",
+			"frames": ["abacus", "antikythera", "logarithms"]
+		},
+		{
+			"id": "engines",
+			"title": "Engines of arithmetic",
+			"labelKind": "date",
+			"frames": ["pascaline", "jacquard-loom", "difference-engine"]
+		},
+		{
+			"id": "cards-relays",
+			"title": "Cards, gears and relays",
+			"labelKind": "date",
+			"frames": ["hollerith", "differential-analyzer", "z3"]
+		},
+		{
+			"id": "electronic",
+			"title": "The electronic machine",
+			"labelKind": "date",
+			"frames": [
+				"colossus",
+				"harvard-mark-i",
+				"eniac",
+				"edvac-report",
+				"manchester-baby",
+				"edsac",
+				"univac"
+			]
+		},
+		{
+			"id": "mainframes",
+			"title": "Transistors and mainframes",
+			"labelKind": "date",
+			"frames": ["transistor", "whirlwind", "fortran", "time-sharing", "ibm-360", "minicomputer"]
+		},
+		{
+			"id": "microprocessor",
+			"title": "The microprocessor",
+			"labelKind": "date",
+			"frames": ["microprocessor", "altair"]
+		},
+		{
+			"id": "networks",
+			"title": "Networks",
+			"labelKind": "technology",
+			"frames": ["packet-switching", "arpanet", "internet", "world-wide-web"]
+		},
+		{
+			"id": "shared-software",
+			"title": "Software, shared",
+			"labelKind": "technology",
+			"frames": ["unix", "free-software", "linux", "open-source"]
+		},
+		{
+			"id": "everywhere",
+			"title": "Computing everywhere",
+			"labelKind": "technology",
+			"frames": ["arm", "smartphone", "cloud"]
+		},
+		{
+			"id": "open-questions",
+			"title": "Open questions",
+			"labelKind": "category",
+			"frames": ["security", "where-computing-is"]
+		}
+	]
+}
