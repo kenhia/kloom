@@ -1,0 +1,209 @@
+{
+	"id": "edvac-report",
+	"position": {
+		"label": "1945",
+		"sort": 1945
+	},
+	"scene": {
+		"headline": "We stored the orders as",
+		"accent": "NUMBERS.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MOORE SCHOOL · JOHN VON NEUMANN · 30 JUNE 1945",
+			"CA · CC · M · I · O · DELAY-LINE MEMORY"
+		],
+		"counter": {
+			"value": "8,192",
+			"label": "32-digit words of memory the report asked for"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "First Draft of a Report on the EDVAC",
+			"url": "https://www.wiley.com/legacy/wileychi/wang_archi/supp/appendix_a.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "von Neumann",
+					"given": "John"
+				}
+			],
+			"publisher": "Moore School of Electrical Engineering, University of Pennsylvania",
+			"place": "Philadelphia",
+			"number": "Contract No. W-670-ORD-4926",
+			"published": "1945-06-30",
+			"note": "Read in Michael D. Godfrey’s corrected 1992 transcription; the memory is in sections 12–13"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "First Draft of a Report on the EDVAC",
+			"url": "https://en.wikipedia.org/w/index.php?title=First_Draft_of_a_Report_on_the_EDVAC&oldid=1376567758",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Von Neumann architecture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Von_Neumann_architecture&oldid=1377227460",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "report",
+			"title": "ENIAC: The Army-Sponsored Revolution",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/96summary/index.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Moye",
+					"given": "William T."
+				}
+			],
+			"publisher": "U.S. Army Research Laboratory",
+			"place": "Aberdeen Proving Ground, MD",
+			"published": "1996-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "EDVAC",
+			"url": "https://en.wikipedia.org/w/index.php?title=EDVAC&oldid=1349161407",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Automatic Computing Engine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Automatic_Computing_Engine&oldid=1373702992",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Delay-line memory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Delay-line_memory&oldid=1365416787",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Honeywell, Inc. v. Sperry Rand Corp.",
+			"url": "https://en.wikipedia.org/w/index.php?title=Honeywell,_Inc._v._Sperry_Rand_Corp.&oldid=1337951244",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harvard Mark I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harvard_Mark_I&oldid=1373485002",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ENIAC",
+			"url": "https://en.wikipedia.org/w/index.php?title=ENIAC&oldid=1376553089",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "media",
+			"title": "Samuel N. Alexander’s copy of the First Draft of a Report on the EDVAC",
+			"url": "https://commons.wikimedia.org/wiki/File:Firstdraftofrepo00vonn_0003.jpg",
+			"accessed": "2026-09-28",
+			"container": "Moore School of Electrical Engineering, 1945; Internet Archive scan, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "first-draft.jpg",
+			"authors": [
+				{
+					"family": "von Neumann",
+					"given": "John"
+				}
+			],
+			"published": "1945"
+		},
+		{
+			"kind": "media",
+			"title": "The EDVAC at the Ballistic Research Laboratory",
+			"url": "https://commons.wikimedia.org/wiki/File:ARL_EDVAC_01.png",
+			"accessed": "2026-09-28",
+			"container": "U.S. Army photograph, from Karl Kempf, Electronic Computers Within the Ordnance Corps (1961), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "edvac.png",
+			"authors": [
+				{
+					"name": "U.S. Army"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "Time for one multiplication, from desk calculators to the EDVAC",
+			"url": "https://www.wiley.com/legacy/wileychi/wang_archi/supp/appendix_a.pdf",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from the First Draft (sections 5.4–5.5) and the Wikipedia articles Harvard Mark I, ENIAC and EDVAC",
+			"licence": "MIT",
+			"file": "multiplication-time.svg"
+		}
+	]
+}

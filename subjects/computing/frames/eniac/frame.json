@@ -1,0 +1,247 @@
+{
+	"id": "eniac",
+	"position": {
+		"label": "1945",
+		"sort": 1945
+	},
+	"scene": {
+		"headline": "We programmed it with",
+		"accent": "CABLES.",
+		"palette": "console",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MOORE SCHOOL · PHILADELPHIA · MAUCHLY · ECKERT",
+			"MCNULTY · JENNINGS · SNYDER · WESCOFF · BILAS · LICHTERMAN"
+		],
+		"counter": {
+			"value": "30 s",
+			"label": "for a trajectory that took twenty hours by hand"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "ENIAC: The Army-Sponsored Revolution",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/96summary/index.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Moye",
+					"given": "William T."
+				}
+			],
+			"publisher": "U.S. Army Research Laboratory",
+			"place": "Aberdeen Proving Ground, MD",
+			"published": "1996-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The ENIAC Story",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/eniac-story.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Weik",
+					"given": "Martin H."
+				}
+			],
+			"container": "Ordnance",
+			"published": "1961",
+			"note": "By a Ballistic Research Laboratories engineer; hosted by the Army Research Laboratory"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "ENIAC",
+			"url": "https://en.wikipedia.org/w/index.php?title=ENIAC&oldid=1376553089",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "report",
+			"title": "Electronic Computers Within the Ordnance Corps",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/61ordnance/chap2.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Kempf",
+					"given": "Karl"
+				}
+			],
+			"publisher": "U.S. Army Ordnance Corps",
+			"place": "Aberdeen Proving Ground, MD",
+			"published": "1961"
+		},
+		{
+			"kind": "report",
+			"title": "A Logical Coding System Applied to the ENIAC",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/48eniac-coding/index.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Clippinger",
+					"given": "R. F."
+				}
+			],
+			"publisher": "Ballistic Research Laboratories",
+			"place": "Aberdeen Proving Ground, MD",
+			"number": "Report No. 673",
+			"published": "1948-09-29"
+		},
+		{
+			"kind": "web",
+			"title": "Important ENIAC Dates",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/dates.html",
+			"accessed": "2026-09-28",
+			"container": "History of Computing Information",
+			"publisher": "U.S. Army Research Laboratory"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Honeywell, Inc. v. Sperry Rand Corp.",
+			"url": "https://en.wikipedia.org/w/index.php?title=Honeywell,_Inc._v._Sperry_Rand_Corp.&oldid=1337951244",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atanasoff–Berry computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atanasoff%E2%80%93Berry_computer&oldid=1344474093",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kathleen Antonelli",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kathleen_Antonelli&oldid=1370920821",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean Bartik",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean_Bartik&oldid=1372200656",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Betty Holberton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Betty_Holberton&oldid=1368789495",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Colossus computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colossus_computer&oldid=1371956527",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "EDVAC",
+			"url": "https://en.wikipedia.org/w/index.php?title=EDVAC&oldid=1349161407",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-16"
+		},
+		{
+			"kind": "media",
+			"title": "Betty Jennings and Frances Bilas setting up ENIAC at its main control panel at the Moore School",
+			"url": "https://commons.wikimedia.org/wiki/File:Two_women_operating_ENIAC.gif",
+			"accessed": "2026-09-28",
+			"container": "U.S. Army photograph, ARL Technical Library, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "programmers.gif",
+			"authors": [
+				{
+					"name": "United States Army"
+				}
+			],
+			"published": "1946",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "Ester Gerston and Gloria Gordon Bolotsky wiring a new program into ENIAC",
+			"url": "https://commons.wikimedia.org/wiki/File:Reprogramming_ENIAC.png",
+			"accessed": "2026-09-28",
+			"container": "U.S. Army photograph, ARL Technical Library, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "reprogramming.png",
+			"authors": [
+				{
+					"name": "U.S. Army"
+				}
+			],
+			"published": "1946"
+		},
+		{
+			"kind": "media",
+			"title": "Valves in the first electronic computing machines",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colossus_computer&oldid=1371956527",
+			"accessed": "2026-09-28",
+			"container": "Chart drawn for kloom from the Wikipedia articles Atanasoff–Berry computer, Colossus computer and EDVAC",
+			"licence": "MIT",
+			"file": "valves.svg"
+		}
+	]
+}

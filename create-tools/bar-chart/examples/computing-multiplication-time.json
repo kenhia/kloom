@@ -1,0 +1,36 @@
+{
+	"title": "Time for one multiplication, from desk calculators to the EDVAC (log scale)",
+	"description": "Bar chart on a logarithmic scale, seconds. The First Draft of a Report on the EDVAC gives 10 seconds for a fast desk calculating machine and 6 seconds for a standard IBM multiplier, and estimates 1 to 1.5 milliseconds for its own design. The Harvard Mark I took about 6 seconds, ENIAC about 2.8 milliseconds for ten digits by ten, and the EDVAC as built averaged 2.9 milliseconds. The machines worked to different numbers of digits. Data: von Neumann, First Draft (1945), sections 5.4–5.5; the Wikipedia articles Harvard Mark I, ENIAC and EDVAC.",
+	"heading": "ONE MULTIPLICATION · SECONDS, LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 0.0001,
+		"max": 100,
+		"ticks": [
+			[0.0001, "0.1 ms"],
+			[0.001, "1 ms"],
+			[0.01, "10 ms"],
+			[0.1, "0.1 s"],
+			[1, "1 s"],
+			[10, "10 s"],
+			[100, "100 s"]
+		]
+	},
+	"bars": [
+		{ "label": "Desk", "sublabel": "machine", "value": 10, "display": "10 s" },
+		{ "label": "IBM", "sublabel": "multiplier", "value": 6, "display": "6 s" },
+		{ "label": "Mark I", "sublabel": "1944", "value": 6, "display": "6 s" },
+		{ "label": "ENIAC", "sublabel": "1945", "value": 0.0028, "display": "2.8 ms" },
+		{
+			"label": "Draft",
+			"sublabel": "1945 estimate",
+			"value": 0.00125,
+			"display": "1–1.5 ms",
+			"highlight": true
+		},
+		{ "label": "EDVAC", "sublabel": "as built", "value": 0.0029, "display": "2.9 ms" }
+	],
+	"barWidth": 48,
+	"width": 480
+}

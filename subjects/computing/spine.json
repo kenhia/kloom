@@ -19,6 +19,12 @@
 			"frames": ["hollerith", "differential-analyzer", "z3"]
 		},
 		{
+			"id": "electronic",
+			"title": "The electronic machine",
+			"labelKind": "date",
+			"frames": ["colossus", "harvard-mark-i", "eniac", "edvac-report"]
+		},
+		{
 			"id": "mainframes",
 			"title": "Transistors and mainframes",
 			"labelKind": "date",

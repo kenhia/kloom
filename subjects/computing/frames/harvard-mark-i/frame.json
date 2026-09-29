@@ -1,0 +1,138 @@
+{
+	"id": "harvard-mark-i",
+	"position": {
+		"label": "1944",
+		"sort": 1944
+	},
+	"scene": {
+		"headline": "We wrote the orders on",
+		"accent": "TAPE.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HARVARD · IBM ENDICOTT · HOWARD AIKEN · GRACE HOPPER",
+			"RELAYS · COUNTER WHEELS · 24-HOLE CONTROL TAPE"
+		],
+		"counter": {
+			"value": "6 s",
+			"label": "for one multiplication"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Manual of Operation for the Automatic Sequence Controlled Calculator",
+			"url": "http://www.bitsavers.org/pdf/harvard/MarkI_operMan_1946.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Staff of the Computation Laboratory"
+				}
+			],
+			"container": "Annals of the Computation Laboratory of Harvard University, vol. 1",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1946",
+			"note": "The description of the calculator and the coding examples are in chapter II, pp. 10–20; Aiken’s preface names Hopper as its chief author and editor"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Harvard Mark I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harvard_Mark_I&oldid=1373485002",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Howard H. Aiken",
+			"url": "https://en.wikipedia.org/w/index.php?title=Howard_H._Aiken&oldid=1375530771",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Grace Hopper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Grace_Hopper&oldid=1376194579",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Software bug",
+			"url": "https://en.wikipedia.org/w/index.php?title=Software_bug&oldid=1375088996",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "web",
+			"title": "The Bug in the Computer Bug Story",
+			"url": "https://daily.jstor.org/the-bug-in-the-computer-bug-story/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Wills",
+					"given": "Matthew"
+				}
+			],
+			"container": "JSTOR Daily",
+			"publisher": "ITHAKA",
+			"published": "2022-05-03",
+			"note": "Quoting the Smithsonian’s description of the log book"
+		},
+		{
+			"kind": "media",
+			"title": "The Harvard Mark I on display in Harvard University’s Science Center",
+			"url": "https://commons.wikimedia.org/wiki/File:Aiken-IBM_Automatic_Sequence_Controlled_Calculator.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "ascc.jpg",
+			"authors": [
+				{
+					"name": "Capvideo"
+				}
+			],
+			"published": "2018"
+		},
+		{
+			"kind": "media",
+			"title": "A page of the Harvard Mark II log for 9 September 1947, with the moth taped to it",
+			"url": "https://commons.wikimedia.org/wiki/File:First_Computer_Bug,_1947.jpg",
+			"accessed": "2026-09-28",
+			"container": "Naval Surface Warfare Center, Dahlgren, via the U.S. Naval History and Heritage Command and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "moth-log.jpg",
+			"published": "1947-09-09"
+		}
+	]
+}
