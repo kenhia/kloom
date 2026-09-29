@@ -898,6 +898,30 @@ read again, not only grow's to consume.
   answer is still what the reader asked, and the link shows where it went.
 - **Remove** (with a question first) forgets a kept answer.
 
+## The third subject
+
+Built in sprint 014 (korg 3397): `subjects/feynman`, Richard Feynman, the
+first subject built on a person, and the first written by following
+`skills/author-subject/SKILL.md`, which sprint 014 wrote down from sprint
+006's method. It is described in its sprint record.
+
+- **A life on dated segments, the depth in trails.** 34 main-spine frames in
+  seven `date` segments from Far Rockaway to the last years, and a closing
+  `category` segment for the legend and the legacy. Five trails of five or
+  six frames: two labelled by idea (`technology`: the path integral, the
+  diagrams) and three by date (Los Alamos, computing, the Challenger
+  commission). The engine needed nothing new.
+- **The voice is "he"**, where the other subjects speak as "we". The grow
+  skill now says the voice is the subject's.
+- **His stories are his telling.** Frames that rest on the memoirs say so,
+  and put documented accounts beside them; where the records correct him
+  (the wobbling plate, the IBM throughput at Los Alamos), the reading says
+  so.
+- **Its own look.** Three dark/light pairs: lamplight and manila for the
+  life, chalkboard and graphpaper for the physics and teaching, blueprint
+  and vellum for Los Alamos, Challenger and the machines. The lowest
+  contrast is 5.4:1.
+
 ## Start screen
 
 Built in sprint 002 (korg 3359). The page opens on a modal start screen over

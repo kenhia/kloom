@@ -11,11 +11,14 @@ holds the narrative, charts, images and sources for the frame you are on; and
 an AI pane lets you ask for more detail or _grow_ the story — new frames on
 the main spine, or a side trail to explore.
 
-There are two subjects so far, both served by one app:
+There are three subjects so far, all served by one app:
 
 - **the History of Western Civilization**, 18 frames and two trails;
 - **the History and Current State of AI**, 41 frames and four trails, on a
-  spine that runs from myths through dates to technologies.
+  spine that runs from myths through dates to technologies;
+- **Richard Feynman**, a life on 34 dated frames with five trails (the path
+  integral, the diagrams, Los Alamos, computing and the Challenger
+  commission), written with the author-subject skill.
 
 The longer aim is a framework (starter code, agent skills and instructions)
 for generating a kloom on any subject.

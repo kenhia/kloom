@@ -89,9 +89,15 @@
   scales it past two subjects, and the selected subject's own illustrations
   ring the loom (3424) — [record](../013-start-screen.md).
 
+- Sprint 014: the third subject, Richard Feynman (proposal 3426). The
+  method sprint 006 used, written down as `skills/author-subject/SKILL.md`
+  and followed: a plan, a segment by hand, eleven parallel authors, review
+  and a commit per segment. 62 frames, a life on a dated spine with five
+  trails (3397) — [record](../014-third-subject-feynman.md).
+
 ## Next
 
-- Nothing queued in korg for kloom after the start screen; the framework
+- Nothing queued in korg for kloom after the Feynman subject; the framework
   (below) is the next large step.
 
 ## Later
@@ -99,11 +105,11 @@
 - **Framework**: turn the POC into starter code, skills and agent
   instructions that generate a kloom for any subject. Its input is sprint
   006's list of what the grow skill assumed, and the authoring pipeline that
-  wrote the AI subject: a plan, parallel authors, and segment-by-segment
-  commits.
-- More subjects: Richard Feynman (korg 3397) and the History of Computing
-  (3398), and links between subjects (3399). Sprint 006 lists candidate
-  links.
+  wrote the AI subject, now written down as `skills/author-subject/SKILL.md`
+  and tested on Feynman in sprint 014.
+- More subjects: the History of Computing (3398), the second test of the
+  author-subject skill, and links between subjects (3399). Sprints 006 and
+  014 list candidate links.
 - Drop the README's POC banner once the framework has generated a subject.
 
 ## Ideas
