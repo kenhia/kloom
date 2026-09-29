@@ -104,9 +104,9 @@ describe('the shell', () => {
 		expect(page().body).toMatch(/<button type="submit"[^>]*>\s*Ask\s*<\/button>/);
 	});
 
-	it('says in the hint bar that S and T act from the spine or narrative only', () => {
+	it('says in the hint bar that S, T and C act from the spine or narrative only', () => {
 		const hint = said(page().body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
-		expect(hint).toContain('S sync and T trail, in the spine or narrative');
+		expect(hint).toContain('S sync, T trail and C contents, in the spine or narrative');
 	});
 
 	it('opens on a start screen, with the shell inert behind it', () => {
@@ -436,6 +436,86 @@ describe('reader data on the page', () => {
 	});
 });
 
+describe('the table of contents', () => {
+	const panelOf = (body: string) => {
+		const button = body.match(/<button[^>]*title="Contents \(C\)"[^>]*>/)![0];
+		const id = button.match(/aria-controls="([^"]+)"/)![1];
+		const at = body.indexOf(`id="${id}"`);
+		return {
+			button,
+			panel: body.slice(body.lastIndexOf('<div', at), body.indexOf('</ul></div>', at))
+		};
+	};
+
+	it('is a closed pop-up in the spine, left of the bookmark, with or without a reader', () => {
+		const { body } = page();
+		const { button, panel } = panelOf(body);
+		expect(button).toContain('aria-expanded="false"');
+		expect(panel).toMatch(/^<div[^>]*role="group"[^>]*data-own-keys[^>]*hidden/);
+		const spine = body.indexOf('aria-label="Spine"');
+		expect(body.indexOf('title="Contents (C)"')).toBeGreaterThan(spine);
+		expect(body.indexOf('title="Contents (C)"')).toBeLessThan(body.indexOf('class="index'));
+		const reader = render(Page, {
+			props: {
+				data: {
+					subject,
+					subjects,
+					askModels,
+					askWeb: 'allow',
+					growModels,
+					frame: null,
+					reader: { name: 'Ken' },
+					readerData: { places: {}, last: null, bookmarks: [] }
+				}
+			} as never
+		}).body;
+		expect(reader.indexOf('title="Contents (C)"')).toBeLessThan(
+			reader.indexOf('Bookmark this frame')
+		);
+	});
+
+	it('lists every frame under its segment, linked, with the current one marked', () => {
+		const { panel } = panelOf(page().body);
+		for (const seg of subject.spine.segments) expect(text(panel)).toContain(seg.title);
+		for (const id of Object.keys(subject.frames))
+			expect(panel).toContain(`href="/western-civ/${id}"`);
+		const first = subject.spine.segments[0].frames[0];
+		expect(panel).toMatch(new RegExp(`<a href="/western-civ/${first}" aria-current="page"`));
+		expect(panel.match(/aria-current=/g)).toHaveLength(1);
+		expect(panel).toContain('placeholder="Filter by title or position"');
+	});
+
+	it('puts each trail, collapsed, under the frame it branches from', () => {
+		const { panel } = panelOf(page().body);
+		const trail = subject.trails.find((t) => t.anchor === 'printing-press')!;
+		const anchor = panel.indexOf('href="/western-civ/printing-press"');
+		const disclosure = panel.indexOf(`Trail: ${trail.title}`);
+		expect(disclosure).toBeGreaterThan(anchor);
+		const button = panel.slice(panel.lastIndexOf('<button', disclosure), disclosure);
+		expect(button).toContain('aria-expanded="false"');
+		const list = button.match(/aria-controls="([^"]+)"/)![1];
+		expect(panel).toMatch(new RegExp(`<ul id="${list}"[^>]*hidden`));
+	});
+
+	it('says the reader’s marks on a frame in words', () => {
+		const settings = new UserSettings([layout], () => null);
+		const body = render(Shell, {
+			props: {
+				subject,
+				settings,
+				bookmarks: {
+					marked: new Set(['prometheus']),
+					items: [],
+					ontoggle: () => {},
+					onremove: () => {}
+				}
+			}
+		}).body;
+		const at = body.indexOf('href="#prometheus"');
+		expect(text(body.slice(at, body.indexOf('</a>', at)))).toContain('bookmarked');
+	});
+});
+
 describe('the layout', () => {
 	const shell = (shape: string) => {
 		const settings = new UserSettings([layout], () => null);
@@ -522,7 +602,7 @@ describe('the reader’s keys', () => {
 
 	it('name the reader’s letters in the help, and leave out one turned off', () => {
 		const hint = said(shell({ sync: 'y', trail: 'off' }).match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
-		expect(hint).toContain('Y sync, in the spine or narrative');
+		expect(hint).toContain('Y sync and C contents, in the spine or narrative');
 		expect(hint).not.toContain('T trail');
 	});
 
@@ -626,7 +706,7 @@ describe('the reader’s layer on a frame', () => {
 	it('says N adds a note, in the help and on the Add button', () => {
 		const body = shell(layer());
 		expect(said(body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0])).toContain(
-			'S sync, T trail, N note and A annotate, in the spine, narrative or notes'
+			'S sync, T trail, N note, A annotate and C contents, in the spine, narrative or notes'
 		);
 		expect(said(body)).toContain('Add a note N');
 	});

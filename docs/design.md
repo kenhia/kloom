@@ -527,19 +527,21 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   trail branching from the current frame and Esc leaves it (S matters only
   when the reader has turned following off); B bookmarks the frame on the
   spine, or removes its bookmark (§Reader data); N adds a note (§Notes);
-  A annotates words of the reading (§Annotations); Tab moves into
+  A annotates words of the reading (§Annotations); C opens the table of
+  contents (§Contents); Tab moves into
   and out of the AI pane, and Esc anywhere in it returns to the spine. In the
   tabs layout, the arrows on a tab move between the tabs, and on a divider
   they move the divider (§Layout). Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
 - **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
-  T, B, N and A act only while focus is inside the spine, the narrative or the
+  T, B, N, A and C act only while focus is inside the spine, the narrative or the
   notes. They do nothing in the AI pane, in the settings panel, in the note
   editor, or on the bare page.
 - **And remappable** (WCAG 2.1.4's other remedy, sprint 011, korg 3363).
   Each character shortcut is a setting under "Keys": any letter, or Off
-  (`kloom.key.sync`, `.trail`, `.bookmark`, `.note`, `.annotate`). `keymapOf` turns the
+  (`kloom.key.sync`, `.trail`, `.bookmark`, `.note`, `.annotate`,
+  `.contents`). `keymapOf` turns the
   settings into a keymap and `pageKey` reads it. The help bar, the Add a note
   button, the trail buttons and the sync line all show the reader's letters,
   and leave a key out when it is off. A letter given to two shortcuts is
@@ -555,6 +557,47 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   from sprint 001, not polish.
 - **Trails.** Entering a trail swaps the scroller to it with a breadcrumb
   ("Main story > Printing press"); the parent spine shows a branch marker.
+
+## Contents
+
+Random access for long subjects (sprint 016, korg 3433). Stepping the spine,
+the timeline bar and the bookmarks were the only ways to move. That is
+slow in the AI subject's 66 frames. `engine/contents.ts` decides what is
+listed and `engine/ui/Contents.svelte` draws it.
+
+- **Where.** An icon button in the spine's HUD, left of the bookmark,
+  in `IconButton`'s look. It is there with or without a reader. C opens
+  it too: a remappable character shortcut, scoped like the others
+  (§Interaction).
+- **What.** The main spine's frames under their segment titles, each with
+  its title and position label, linked to its deep link. Each trail sits
+  under the frame it branches from, as a disclosure button ("Trail: The
+  printing press, 1 frame"). Collapsed, and expanded its frames are
+  indented under a rule. It opens with the trail the reader is on
+  expanded, or the trails branching from their frame. The frame on the
+  spine is marked with `aria-current="page"` and the accent. The reader's
+  marks on a frame are said in words after its position, in the same
+  words as the spine's marks (`marksText`).
+- **A filter** at the top matches titles and position labels, ignoring
+  case. A frame stays when a trail under it matches, a trail whose title
+  matches stays whole, and matched trails show open as plain labels.
+  A status line says how many frames match.
+- **A popover, not a dialog**, like the gear's settings and the bookmarks.
+  Focus is not trapped: Tab leaves it, a click outside closes it, and Esc
+  closes it and returns focus to its button. It opens focused on the
+  current frame, scrolled to the middle of the list. Picking a frame goes
+  there (into its trail if it is on one), closes the list and returns focus
+  to the button, so the shortcuts still act.
+- **Nested lists, not a treeview.** Each segment is a list labelled by its
+  title, and each trail a list under a disclosure button. A treeview would
+  make every entry an option to arrow through and announce as a tree, but
+  these entries are links. The lists read correctly to a screen reader, and
+  links still open in a new tab. The treeview's keys are added on top: ↑/↓
+  move between the filter box, the entries and the disclosures in reading
+  order, Home/End go to the ends outside the box, and →/← open and close
+  a trail. The panel is `data-own-keys`, so the page's arrows stand down.
+- **On a phone** (below 40rem) it is a sheet over the whole screen. Its
+  title, close button and filter stay at the top while the list scrolls.
 
 ## Risks
 
@@ -723,9 +766,14 @@ user_version` counts how many a file has had, and opening it runs the
   The start screen offers the selected subject's place under Begin as
   _Continue where you were_, and never forces it. The list marks the
   subject of the newest place _Last read_ (sprint 013; before it, a second
-  offer named the other subject). Once the reader has begun the subject
-  behind the start screen, its offer is left out, because Begin already
-  returns them to where they are. Begin keeps the focus.
+  offer named the other subject). The subject behind the start screen gets
+  its offer too, after Home as much as on arrival (Ken, sprint 016, korg
+  3432): Begin starts that subject from its first frame, so _Continue_ is
+  the way back and the two never mean the same thing. The page keeps each
+  subject's place as a live mirror of the store. The load fills it, and each
+  move updates it at once, before the debounced write, so the offer never
+  names where the reader was at page load. A later load keeps whichever copy
+  is newer (`newerPlaces`). Begin keeps the focus.
 - **Bookmarks.** A toggle in the spine's HUD (`aria-pressed`, "Bookmark
   this frame") and the B key mark the frame on the spine. A role="status"
   line says "Bookmarked: …" or "Bookmark removed: …", so a key press is
@@ -958,9 +1006,10 @@ past two subjects:
 - **Home.** A house icon to the left of the settings gear opens the start
   screen over the subject, with that subject selected. The shell is not
   remounted: it goes inert behind the dialog, so the reader's place, the
-  narrative and any unsaved note all survive. Begin or Esc returns to
-  exactly where the reader was, focus goes back to Home, and the URL never
-  moves. Opening another subject from there is a navigation, so an unsaved
+  narrative and any unsaved note all survive. Esc returns to exactly where
+  the reader was, and so does _Continue where you were_. Begin starts the
+  subject from its first frame (sprint 016, korg 3432, §Reader data). Focus
+  goes back to Home, and the URL moves only if the reader does. Opening another subject from there is a navigation, so an unsaved
   note meets the usual guard (§Notes), and a cancelled one leaves the start
   screen as it was. The gear and Home share `engine/ui/IconButton.svelte`.
   Home's icon and the four runners-up (loom, shuttle, return, title card)

@@ -34,6 +34,12 @@
 		resume?: Resume[];
 		/** Close the start screen over `current`. */
 		onbegin: () => void;
+		/**
+		 * Begin on `current` starts it from its first frame (korg 3432): the
+		 * shell moves there first. Esc only closes, leaving the reader where
+		 * they were.
+		 */
+		onfirst?: () => void;
 		/** Open another subject, from its selection in the list. */
 		onopen: (id: string) => void;
 	}
@@ -60,6 +66,7 @@
 		ring = [],
 		resume = [],
 		onbegin,
+		onfirst,
 		onopen
 	}: Props = $props();
 
@@ -82,12 +89,12 @@
 	}
 
 	/**
-	 * Begin on the selection: back into the subject behind, or open another.
+	 * Begin on the selection: the subject behind from its first frame, or open another.
 	 * Opening another stays put until the page moves, so a navigation the
 	 * reader cancels (an unsaved note) leaves the start screen where it was.
 	 */
 	function go() {
-		if (selected === current) begin();
+		if (selected === current) begin(onfirst);
 		else onopen(selected);
 	}
 

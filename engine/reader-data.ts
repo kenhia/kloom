@@ -29,6 +29,22 @@ export interface Place {
 	at: string;
 }
 
+/**
+ * Each subject's place, the newer of two copies (korg 3432): the page's own,
+ * moved as the reader moves, and one loaded fresh from the store, which may
+ * not have the last move yet (its write waits for the reader to stop). A tie
+ * goes to the load.
+ */
+export function newerPlaces<P extends Place>(
+	page: Record<string, P>,
+	loaded: Record<string, P>
+): Record<string, P> {
+	const out = { ...page };
+	for (const [subject, p] of Object.entries(loaded))
+		if (!out[subject] || p.at >= out[subject].at) out[subject] = p;
+	return out;
+}
+
 /** A frame a reader marked to come back to. */
 export interface Bookmark {
 	subject: string;
