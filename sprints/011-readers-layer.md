@@ -185,3 +185,23 @@ remappable.
 - Ken wanted to try notes "and see how it feels before calling it settled"
   (3409). The editor-in-the-scene, the guard's wording and the marks'
   shapes are the things to judge.
+
+## Deployed
+
+2026-09-29 02:48 UTC, on kai. `just deploy` (the `recipe: deploy` line in
+`.sprint-deploy`) ran from merged `main` at `30ae945`. It built the app,
+restarted `kloom.service`, and passed all eight of `just verify`'s door
+checks, including the two new ones: the tailnet door refuses an anonymous
+notes read (401), and the ssh door serves its reader's notes (200). No content
+changed: the content clone is still on `grow/kai`.
+
+- **The migration, before and after:** `reader.db` went from schema 1 to 2,
+  with 2 places before and after, 0 bookmarks, and the new `note` and `kept`
+  tables empty. No kept-answer files existed on kai, so nothing moved, and
+  the journal has no `kept answers` line and no errors.
+- **Checked live on the ssh door (`127.0.0.1:4891`):**
+  - a flagged note POSTed to `/api/reader/notes` came back
+    `review: "flagged"`, was listed, deleted, and the list was empty again;
+  - `/api/reader/kept` answers 200;
+  - `/western-civ/printing-press` serves the Notes tab and the Keys group in
+    the settings.
