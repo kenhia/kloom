@@ -80,9 +80,24 @@ Each author gets:
   of, where sources disagreed and what it did, and every place the grow
   skill misled it.
 
-Accents must be unique across the subject, and authors working at once
-cannot see each other's. Give each author a reserved list, or collect and
-settle clashes at review.
+Things authors working at once cannot see, so the brief settles them:
+
+- **Who owns a shared topic.** Where two frames touch one story (a thesis
+  and the trail that explains it, a memoir and the frame on its
+  reception), say which tells it and which points to it. Sprint 014 had
+  three overlaps the brief left open.
+- **Accents and images** must not repeat across the subject. Tell authors
+  to grep before choosing, and settle clashes at review.
+- **Order in a dated trail.** If the dates may not fit the plan's order,
+  let the author say what order they need; change the plan, not the sorts.
+- **Validation while others work.** The live subject fails on anyone's
+  half-written frame. Authors check theirs in a copy of finished frames
+  (`subject_plan.py <plan> subjects/<subject> --complete DIR`, then the
+  subject tests with `KLOOM_TEST_SUBJECTS=DIR`), and look at their plates
+  with `contact_sheet.py`, which shows a plate before its `frame.json`.
+- **A trail needs its anchor.** A trail's frames are off the spine until the
+  main-spine frame it hangs from exists. Commit anchors first, or tell the
+  trail's author to validate against a stand-in.
 
 ## 4. Review, validate and commit, segment by segment
 
@@ -96,6 +111,10 @@ As each author reports:
    check the surprising ones. Fix or cut; never keep a claim because it is
    good.
 4. Commit that segment on its own, so a bad one can be reverted alone.
+   Stage it with `create-tools/subject-plan/stage_segment.py`, which stages
+   the frames with a spine and trails holding only committed frames (the
+   working tree's spine names everyone's), and validate the index before
+   committing.
 
 When all are in: `subject_plan.py --check` names nothing still to write,
 `just check` is green, and a keyboard-only pass in the browser walks the

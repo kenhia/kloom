@@ -77,7 +77,9 @@ check its claims as you would any source; do not copy its prose.
 - In a `date` segment every frame needs a numeric `position.sort` (a year;
   negative for BC), and sorts must not decrease along the segment. Insert a
   new frame where its sort belongs. For a span ("1966–72"), sort by the
-  year it began.
+  year it began, unless that would put it before a frame it follows in the
+  story (a trail frame on 1977–86 after one on 1986): then sort by the year
+  its story lands, and let the label carry the span.
 - In a `technology` or `category` segment there is no `sort`. Frames go in
   the order the story needs.
 - `position.label` is what the HUD shows: a date ("c. AD 1440", "44 BC",
@@ -123,9 +125,12 @@ check its claims as you would any source; do not copy its prose.
 }
 ```
 
-- **Headline:** short, usually in a collective "we" voice, and completed by
+- **Headline:** short, in the subject's voice, and completed by
   the accent word, which is one word in capitals ending in a full stop
-  ("We stole FIRE.", "Knowledge went VIRAL."). The headline and accent
+  ("We stole FIRE.", "Knowledge went VIRAL."). A civilisation or a field
+  speaks as a collective "we"; a subject built on a person speaks of them
+  ("He fixed radios by THINKING."), and a frame about a thing may make the
+  thing its subject. Follow the existing frames. The headline and accent
   together are the frame's title. **No accent word may repeat another in
   the subject**: grep every `frame.json` before you choose.
 - **Palette:** a name from `subject.json`. Follow the neighbours. Where the
@@ -189,11 +194,13 @@ charts and tables; see §Authoring with tools.)
   it. Say where historians disagree or where a number is an estimate.
 - End with a sentence that points onward: to the next frame, or into the
   trail. A trail's last frame points back to its anchor. Name a frame
-  rather than describe it: its facts are its own reading's to state.
+  rather than describe it (by its subject, "the Pocono conference", or its
+  title): its facts are its own reading's to state.
 - Do not say where things are on screen ("the drawing on the left"). The
   layout changes with the screen. Say "the drawing" or "the plate".
 - A table can stand on its own. A table under a chart carries the chart's
   numbers for screen readers.
+- Mathematics is written in Unicode (_α_/2π, 2ᴺ, _F_₂); there is no TeX.
 - For a technical explainer, a worked example with invented numbers is
   fine. Say that they are invented, and keep them apart from the sourced
   facts.
@@ -211,6 +218,20 @@ report, the announcement) over summaries of them. Wikipedia is a place to
 start, and it is sometimes wrong: where a primary source disagrees with it,
 follow the source and say that they differ. For anything recent, your own
 knowledge is not a source.
+
+- **Where sources disagree, say so** in the reading, with both versions,
+  rather than choosing silently. That includes the subject disagreeing with
+  himself (two tellings of one story), and the subject being wrong on a
+  checkable fact: say it gently, and show the right answer with its source.
+- **A person's own stories** (memoirs, interviews, anecdotes told for
+  decades) are that person's telling. Say so where a frame rests on them
+  ("in his telling"), and put documented accounts beside them.
+- **A source you saw only quoted in another** is cited as what you read:
+  the work that quotes it, with a `note` ("quoting Gleick, _Genius_,
+  p. 247"). Never cite the original as if you had read it.
+- **Quotations** from work in copyright are a sentence at most. A US
+  government record (a report, a hearing transcript) is public domain,
+  but quote it no more than the reading needs.
 
 - `citations`: every work the reading draws on, as structured data,
   rendered in Chicago style. Each needs `kind`, `title`, `accessed` (today,
@@ -307,12 +328,21 @@ paper.pdf` prints the text and names the scanned pages; `--png DIR
   scene, so they follow the reader's palette. Make them with `bar-chart`,
   or draw one by hand in `currentColor` with the `muted` and `accent`
   classes, and never with fixed colours or a background.
-- **Readings run 550–900 words, and every one scrolls.** They use images,
-  charts and tables where those carry information. Look at every image
-  before you use it: Commons licences and attributions are what uploaders
-  typed, and some are wrong.
+- **Readings run 550–900 words of prose, and every one scrolls.** Tables
+  and alt text are not counted. They use images, charts and tables where
+  those carry information. Look at every image before you use it: Commons
+  licences, dates, authors and even file names are what uploaders typed,
+  and some are wrong. Grep the subject's `frame.json` files for an image's
+  file page before you use it, so two frames do not show the same picture.
+- **An image that is not freely licensed** (an archive photograph) is not
+  used: describe it in the reading and cite the archive's page as `web`.
+- **A book with editors** (an edited volume, a posthumous collection)
+  carries `editors`, and the entry reads "Edited by …".
 - **Validate** with `npx vitest --run engine/subjects.test.ts
-engine/svg.test.ts`, which loads every subject. Keep `npx prettier
+engine/svg.test.ts`, which loads every subject. While other authors are
+  mid-frame, validate a copy holding only finished frames
+  (`subject_plan.py … --complete DIR`, then the same tests with
+  `KLOOM_TEST_SUBJECTS=DIR`). Keep `npx prettier
 --check` clean.
 - **Rate limits.** Wikipedia and Commons throttle a burst of requests.
   Send a descriptive User-Agent that names the project and never a
