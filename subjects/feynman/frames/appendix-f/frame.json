@@ -1,0 +1,118 @@
+{
+	"id": "appendix-f",
+	"position": {
+		"label": "1986",
+		"sort": 1986
+	},
+	"scene": {
+		"headline": "Nature cannot be",
+		"accent": "FOOLED.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"REPORT OF THE PRESIDENTIAL COMMISSION · VOL. 2 · APPENDIX F",
+			"SOLID ROCKETS · MAIN ENGINES · AVIONICS"
+		],
+		"counter": {
+			"value": "No. 23",
+			"label": "the draft of his report he insisted be printed unchanged"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v2appf.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Vol. 2, Appendix F: Personal Observations on Reliability of Shuttle, by R. P. Feynman",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06",
+			"note": "The engines, the avionics and the last sentence"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mr. Feynman Goes to Washington",
+			"url": "https://calteches.library.caltech.edu/3570/1/Feynman.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "51",
+			"issue": "1",
+			"pages": "6–22",
+			"published": "1987",
+			"note": "The fight over the appendix and the tenth recommendation, pp. 19–21"
+		},
+		{
+			"kind": "report",
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v1recomm.htm",
+			"accessed": "2026-09-28",
+			"container": "Recommendations",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06"
+		},
+		{
+			"kind": "book",
+			"title": "What Do You Care What Other People Think? Further Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514628W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Ralph"
+				}
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1988",
+			"note": "Part two, “Mr. Feynman Goes to Washington”, is his telling of the investigation"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rogers Commission Report",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rogers_Commission_Report&oldid=1365816449",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "media",
+			"title": "The shuttle’s general-purpose computers: the original two-box IBM AP-101 and the single-box model that replaced it in 1991",
+			"url": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_General_Purpose_Computer.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "NASA"
+				}
+			],
+			"container": "NASA photograph; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "shuttle-computers.jpg"
+		}
+	]
+}

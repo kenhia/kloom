@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M118.9 94.3 L324.7 94.3"/>
+		<path pathLength="1" d="M118.9 124 L324.7 124"/>
+		<path pathLength="1" d="M118.9 190 L324.7 190"/>
+		<path pathLength="1" d="M170 12 L170 290"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M170 12 L170 239.8 L203 239.8 L203 12"/>
+		<path pathLength="1" d="M204.3 58 L204.3 242.8 L168.7 242.8 L168.7 58 L148.9 58 L148.9 259.3 L170 292.3 L170 292"/>
+		<path pathLength="1" d="M204.3 58 L234.7 58 L234.7 259.3 L203 292.3 L203 292"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M204.3 83.1 L217.5 83.1 L217.5 105.5 L204.3 105.5"/>
+		<path pathLength="1" d="M202.8 94.3 a9.2 9.2 0 1 0 18.5 0 a9.2 9.2 0 1 0 -18.5 0"/>
+		<path pathLength="1" d="M204.3 112.8 L217.5 112.8 L217.5 135.2 L204.3 135.2"/>
+		<path pathLength="1" d="M202.8 124 a9.2 9.2 0 1 0 18.5 0 a9.2 9.2 0 1 0 -18.5 0"/>
+		<path pathLength="1" d="M144.9 176.8 L218.8 176.8 L218.8 203.2 L144.9 203.2 Z"/>
+		<path pathLength="1" d="M136.9 163.6 L144.9 163.6 L144.9 216.4 L136.9 216.4 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M203 50 L230.7 50 L230.7 12"/>
+		<path pathLength="1" d="M234.7 58 L262.4 58 L262.4 292"/>
+		<path pathLength="1" d="M266.7 12 L266.7 292"/>
+		<path pathLength="1" d="M205 54 L207.3 56.1 L209.6 55.1 L211.9 52.5 L214.2 52.1 L216.5 54.5 L218.8 56.2 L221.2 54.7 L223.5 52.2 L225.8 52.3 L228.1 54.9 L230.4 56.2 L232.7 54.2 L235 52 L237.3 52.7 L239.6 55.3 L241.9 56 L244.2 53.8 L246.5 51.8 L248.9 53.1 L251.2 55.7 L253.5 55.8 L255.8 53.3 L258.1 51.8 L260.4 53.5"/>
+		<path pathLength="1" d="M322.4 54 L208.3 54 L202.3 83.1"/>
+		<path pathLength="1" d="M200.7 78.3 L202.3 83.1 L205.6 79.3"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M215.6 57.5 L204.3 258.5 L234.7 260.1 L245.9 59.2 Z"/>
+		<path pathLength="1" d="M203 94.3 L213.5 94.3"/>
+	</g>
+	<g>
+		<text x="118.9" y="22" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OUTSIDE</text>
+		<text x="280.7" y="26" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PROPELLANT</text>
+		<text x="162" y="44" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TANG</text>
+		<text x="142.9" y="268.8" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CLEVIS</text>
+		<text x="306.4" y="97.3" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PRIMARY</text>
+		<text x="306.4" y="127" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SECONDARY</text>
+		<text x="306.4" y="193" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PIN</text>
+		<text x="306.4" y="57" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PUTTY</text>
+		<text x="218.3" y="78.3" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GAP</text>
+	</g>
+</svg>

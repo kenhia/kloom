@@ -28,7 +28,7 @@
 			"id": "last-years",
 			"title": "The last years",
 			"labelKind": "date",
-			"frames": ["last-days"]
+			"frames": ["challenger", "last-days"]
 		},
 		{
 			"id": "afterlife",

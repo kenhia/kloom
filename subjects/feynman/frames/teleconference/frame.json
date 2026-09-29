@@ -1,0 +1,133 @@
+{
+	"id": "teleconference",
+	"position": {
+		"label": "1986",
+		"sort": 1986
+	},
+	"scene": {
+		"headline": "The engineers were",
+		"accent": "OVERRULED.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WASATCH · MARSHALL · KENNEDY · 27 JANUARY 1986",
+			"ROGER BOISJOLY · ARNOLD THOMPSON · ROBERT LUND · LAWRENCE MULLOY"
+		],
+		"counter": {
+			"value": "53°F",
+			"label": "the engineers’ limit: the coldest launch before"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v1ch5.htm",
+			"accessed": "2026-09-28",
+			"container": "Vol. 1, chapter 5: The Contributing Cause of the Accident",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06",
+			"note": "The teleconference, hour by hour, with testimony"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v1ch6.htm",
+			"accessed": "2026-09-28",
+			"container": "Vol. 1, chapter 6: An Accident Rooted in History",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06",
+			"note": "Figures 6 and 7: O-ring distress against temperature"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Columbia Accident Investigation Board Report, Volume I",
+			"url": "https://www.nasa.gov/wp-content/uploads/2025/04/caib-report.pdf",
+			"accessed": "2026-09-28",
+			"publisher": "Columbia Accident Investigation Board",
+			"place": "Washington, DC",
+			"published": "2003-08",
+			"note": "Chapter 8.5 compares the teleconference with Columbia"
+		},
+		{
+			"kind": "article",
+			"title": "Mr. Feynman Goes to Washington",
+			"url": "https://calteches.library.caltech.edu/3570/1/Feynman.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "51",
+			"issue": "1",
+			"pages": "6–22",
+			"published": "1987"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Roger Boisjoly",
+			"url": "https://en.wikipedia.org/w/index.php?title=Roger_Boisjoly&oldid=1371991723",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Space Shuttle Challenger disaster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Space_Shuttle_Challenger_disaster&oldid=1375891267",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "media",
+			"title": "Icicles on the launch tower at Kennedy Space Center on the morning of Challenger’s launch",
+			"url": "https://commons.wikimedia.org/wiki/File:Ice_on_the_Pad_on_the_Day_of_STS-51-L%27s_Launch_-_GPN-2004-00011.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "NASA"
+				}
+			],
+			"container": "NASA photograph GPN-2004-00011, 28 January 1986; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ice-on-pad.jpg",
+			"published": "1986-01-28"
+		},
+		{
+			"kind": "media",
+			"title": "Shuttle flights with O-ring thermal distress, by joint temperature at launch, 1981–85",
+			"url": "https://history.nasa.gov/rogersrep/v1ch6.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from the commission’s report, vol. 1, chapter 6, figures 6 and 7",
+			"licence": "MIT",
+			"file": "o-ring-distress.svg",
+			"published": "2026"
+		}
+	]
+}
