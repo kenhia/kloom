@@ -61,5 +61,15 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-05"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/gutenberg-bible",
+			"why": "Gutenberg printed Jerome's Latin Vulgate; sixty years later Erasmus printed the Greek beside a corrected Latin, and the Vulgate had a rival."
+		},
+		{
+			"to": "western-civ/scriptorium",
+			"why": "Every hand copy risked a skipped line or a copyist's 'correction'; Erasmus compared the Greek manuscripts to recover the original, the method of biblical scholarship since."
+		}
 	]
 }

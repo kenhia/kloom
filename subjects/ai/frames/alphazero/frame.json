@@ -294,5 +294,11 @@
 			"file": "search-speed.svg",
 			"published": "2026"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/shannon-chess",
+			"why": "AlphaZero's authors called its narrow search 'arguably a more human-like approach… as originally proposed by Shannon', and it learned from its games, as Shannon had wondered."
+		}
 	]
 }

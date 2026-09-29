@@ -166,5 +166,11 @@
 			"licence": "CC BY-SA 4.0",
 			"file": "mnist-examples.png"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/neocognitron",
+			"why": "LeNet's shared-weight detectors descend from Fukushima's neocognitron, which the 1989 paper cites; LeCun trained by backpropagation what Fukushima's layers had learned locally."
+		}
 	]
 }

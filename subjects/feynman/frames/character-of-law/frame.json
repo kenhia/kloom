@@ -164,5 +164,11 @@
 			"file": "principia-proposition-1.png",
 			"published": "1687"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/greek-inquiry",
+			"why": "Kepler, failing to fit the planets between Plato's solids, found the laws Newton explained; Feynman's lost lecture derived them again from the inverse square, with plane geometry."
+		}
 	]
 }

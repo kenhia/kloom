@@ -493,5 +493,11 @@
 			"licence": "Public domain",
 			"file": "astronaut.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/open-source",
+			"why": "The Open Source Initiative, founded in 1998 with the Open Source Definition, set out in 2024 what open AI requires; few open-weight releases meet it."
+		}
 	]
 }

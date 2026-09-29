@@ -119,6 +119,10 @@
 		{
 			"to": "ai/capability-evals",
 			"why": "Feynman asked for honest estimates of rare failures and checks by people independent of the builders, as capability evaluations must."
+		},
+		{
+			"to": "feynman/cargo-cult",
+			"why": "'Nature cannot be fooled', the appendix's last words, turned the commencement address's rule, that you must not fool yourself, on an institution."
 		}
 	]
 }

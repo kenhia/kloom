@@ -1,6 +1,9 @@
 {
 	"id": "oak-ridge",
-	"position": { "label": "1944–45", "sort": 1944 },
+	"position": {
+		"label": "1944–45",
+		"sort": 1944
+	},
 	"scene": {
 		"headline": "He taught Oak Ridge about",
 		"accent": "NEUTRONS.",
@@ -10,7 +13,10 @@
 			"CLINTON ENGINEER WORKS · Y-12 · OAK RIDGE, TENNESSEE",
 			"EMILIO SEGRÈ · ROBERT CHRISTY · JULIAN WEBB"
 		],
-		"counter": { "value": "2", "label": "valves that had to stick before anything could pile up" }
+		"counter": {
+			"value": "2",
+			"label": "valves that had to stick before anything could pile up"
+		}
 	},
 	"citations": [
 		{
@@ -19,7 +25,12 @@
 			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
 			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
 			"accessed": "2026-09-28",
-			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
 			"container": "Oral History Interviews, Niels Bohr Library & Archives",
 			"publisher": "American Institute of Physics",
 			"place": "College Park, MD",
@@ -32,7 +43,12 @@
 			"title": "Los Alamos from Below: Reminiscences of 1943–1945",
 			"url": "https://calteches.library.caltech.edu/34/3/FeynmanLosAlamos.htm",
 			"accessed": "2026-09-28",
-			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
 			"container": "Engineering and Science",
 			"volume": "39",
 			"issue": "2",
@@ -45,7 +61,12 @@
 			"title": "Manhattan District History, Project Y, the Los Alamos Project, Vol. I: Inception until August 1945",
 			"url": "https://www.osti.gov/opennet/manhattan-project-history/publications/LANLMDHProjectYPart1.pdf",
 			"accessed": "2026-09-28",
-			"authors": [{ "family": "Hawkins", "given": "David" }],
+			"authors": [
+				{
+					"family": "Hawkins",
+					"given": "David"
+				}
+			],
 			"publisher": "Los Alamos Scientific Laboratory",
 			"place": "Los Alamos, NM",
 			"number": "LAMS-2532 (Vol. I)",
@@ -57,7 +78,12 @@
 			"title": "Physics Genius Showed Oak Ridge How to Be Safe",
 			"url": "http://smithdray1.net/historicallyspeaking/2014/11-3-14%20Richard%20Feynman.pdf",
 			"accessed": "2026-09-28",
-			"authors": [{ "family": "Krause", "given": "Carolyn" }],
+			"authors": [
+				{
+					"family": "Krause",
+					"given": "Carolyn"
+				}
+			],
 			"container": "Historically Speaking, The Oak Ridger",
 			"published": "2014-11-03"
 		},
@@ -66,7 +92,11 @@
 			"title": "Clinton Engineer Works",
 			"url": "https://en.wikipedia.org/w/index.php?title=Clinton_Engineer_Works&oldid=1346232250",
 			"accessed": "2026-09-28",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-03-30"
@@ -76,7 +106,11 @@
 			"title": "Y-12 National Security Complex",
 			"url": "https://en.wikipedia.org/w/index.php?title=Y-12_National_Security_Complex&oldid=1364676141",
 			"accessed": "2026-09-28",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-07-17"
@@ -86,7 +120,11 @@
 			"title": "Nuclear criticality safety",
 			"url": "https://en.wikipedia.org/w/index.php?title=Nuclear_criticality_safety&oldid=1334541385",
 			"accessed": "2026-09-28",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-01-24"
@@ -96,7 +134,11 @@
 			"title": "Richard Feynman",
 			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
 			"accessed": "2026-09-28",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-17"
@@ -106,12 +148,23 @@
 			"title": "Operators at the calutron control panels of the Y-12 plant",
 			"url": "https://commons.wikimedia.org/wiki/File:Calutrons_at_Oak_Ridge.jpg",
 			"accessed": "2026-09-28",
-			"authors": [{ "family": "Westcott", "given": "Ed" }],
+			"authors": [
+				{
+					"family": "Westcott",
+					"given": "Ed"
+				}
+			],
 			"container": "Manhattan Engineer District photograph, via the American Museum of Science and Energy and Wikimedia Commons",
 			"licence": "Public domain",
 			"file": "calutron-operators.jpg",
 			"published": "1944",
 			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/princeton",
+			"why": "Wilson's isotron, which took Feynman away from his thesis, was abandoned for Lawrence's calutron: the machines that enriched uranium at Oak Ridge's Y-12 plant."
 		}
 	]
 }

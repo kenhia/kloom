@@ -137,5 +137,11 @@
 			"licence": "CC BY 4.0",
 			"file": "multi-head-diagram.png"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/in-context-learning",
+			"why": "Anthropic's researchers argued that induction heads, pairs of attention heads that complete repeated patterns, are behind much of in-context learning."
+		}
 	]
 }

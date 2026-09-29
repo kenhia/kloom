@@ -214,6 +214,10 @@
 		{
 			"to": "computing/arpanet",
 			"why": "Shakey was built at SRI with ARPA money, and SRI was the second node of ARPA's network."
+		},
+		{
+			"to": "ai/logic-theorist",
+			"why": "Shakey's planner, STRIPS, combined the means–ends analysis of Newell and Simon's General Problem Solver with theorem proving."
 		}
 	]
 }

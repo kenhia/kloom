@@ -173,5 +173,11 @@
 			],
 			"published": "2026"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/arpanet",
+			"why": "For the ARPANET's first dozen years its names were one file, HOSTS.TXT, kept at SRI, the network's second node, until the growing table forced DNS."
+		}
 	]
 }

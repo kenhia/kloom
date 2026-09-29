@@ -165,5 +165,11 @@
 			],
 			"published": "1969"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/moon-landing",
+			"why": "The program alarms that sounded as Eagle descended were the guidance computer's 1202s: its Executive shed lesser jobs, kept the guidance running, and Houston called go."
+		}
 	]
 }

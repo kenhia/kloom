@@ -139,6 +139,10 @@
 		{
 			"to": "feynman/punched-cards",
 			"why": "Von Neumann had implosion problems for the bomb run on the Mark I in 1944, the work Feynman's card machines were doing at Los Alamos."
+		},
+		{
+			"to": "computing/mill-and-barrels",
+			"why": "Aiken wrote the Analytical Engine into his proposal, the Mark I's manual likened its counters to the mill and store, and its relays carried carries as Babbage's mechanism did."
 		}
 	]
 }

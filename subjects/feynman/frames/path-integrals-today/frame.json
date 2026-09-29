@@ -327,6 +327,10 @@
 		{
 			"to": "ai/diffusion",
 			"why": "The Feynman–Kac formula writes a diffusion's expectations as averages over random paths, the mathematics under noising and denoising."
+		},
+		{
+			"to": "feynman/superfluid-helium",
+			"why": "An early use of path-integral Monte Carlo was liquid helium, the problem Feynman had attacked with path integrals from 1953."
 		}
 	]
 }

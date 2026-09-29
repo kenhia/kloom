@@ -190,5 +190,11 @@
 			"file": "wiener-ajedrecista.jpg",
 			"circa": true
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/samuel-checkers",
+			"why": "Wiener's 1960 warning began from checkers programs that beat their own programmers after 10 to 20 hours of play: Samuel's claim for his."
+		}
 	]
 }

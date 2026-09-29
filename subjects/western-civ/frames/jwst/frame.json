@@ -55,5 +55,11 @@
 			"container": "NASA",
 			"published": "2022-07-11"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/maxwell",
+			"why": "Webb sees the first galaxies in infrared, part of the spectrum beyond visible light that Maxwell's equations opened."
+		}
 	]
 }
