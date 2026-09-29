@@ -22,7 +22,17 @@
 			"id": "caltech",
 			"title": "Caltech",
 			"labelKind": "date",
-			"frames": ["gweneth", "lectures", "character-of-law", "nobel"]
+			"frames": [
+				"caltech",
+				"brazil",
+				"superfluid-helium",
+				"weak-force",
+				"plenty-of-room",
+				"gweneth",
+				"lectures",
+				"character-of-law",
+				"nobel"
+			]
 		},
 		{
 			"id": "last-years",

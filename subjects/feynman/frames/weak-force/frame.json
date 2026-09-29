@@ -1,0 +1,281 @@
+{
+	"id": "weak-force",
+	"position": {
+		"label": "1957",
+		"sort": 1957
+	},
+	"scene": {
+		"headline": "He found the weak force is",
+		"accent": "LEFT-HANDED.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CALTECH · PHYSICAL REVIEW 109 · 1 JANUARY 1958",
+			"FEYNMAN · GELL-MANN · SUDARSHAN · MARSHAK"
+		],
+		"counter": {
+			"value": "2%",
+			"label": "the muon's lifetime, against his law"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Theory of the Fermi Interaction",
+			"doi": "10.1103/PhysRev.109.193",
+			"url": "https://authors.library.caltech.edu/records/fnnbe-rx189",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				},
+				{
+					"family": "Gell-Mann",
+					"given": "M."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "109",
+			"issue": "1",
+			"pages": "193–198",
+			"published": "1958-01-01",
+			"note": "Received 16 September 1957; Gell-Mann thanks Marshak and Sudarshan on p. 198",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Neutrino, Parity Violation, V-A: A Historical Survey",
+			"url": "https://arxiv.org/abs/1812.11629",
+			"authors": [
+				{
+					"family": "Hadjiivanov",
+					"given": "Ludmil"
+				}
+			],
+			"container": "arXiv preprint arXiv:1812.11629",
+			"published": "2018-12-30",
+			"note": "The chronology of both teams' work, §5",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session IV",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-4",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-28",
+			"key": true,
+			"note": "Block's question, the bet, the night of the 9 per cent, and priority"
+		},
+		{
+			"kind": "article",
+			"title": "Question of Parity Conservation in Weak Interactions",
+			"doi": "10.1103/PhysRev.104.254",
+			"authors": [
+				{
+					"family": "Lee",
+					"given": "T. D."
+				},
+				{
+					"family": "Yang",
+					"given": "C. N."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "104",
+			"issue": "1",
+			"pages": "254–258",
+			"published": "1956-10-01",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"title": "Experimental Test of Parity Conservation in Beta Decay",
+			"doi": "10.1103/PhysRev.105.1413",
+			"authors": [
+				{
+					"family": "Wu",
+					"given": "C. S."
+				},
+				{
+					"family": "Ambler",
+					"given": "E."
+				},
+				{
+					"family": "Hayward",
+					"given": "R. W."
+				},
+				{
+					"family": "Hoppes",
+					"given": "D. D."
+				},
+				{
+					"family": "Hudson",
+					"given": "R. P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "105",
+			"issue": "4",
+			"pages": "1413–1415",
+			"published": "1957-02-15",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"title": "Observations of the Failure of Conservation of Parity and Charge Conjugation in Meson Decays: The Magnetic Moment of the Free Muon",
+			"doi": "10.1103/PhysRev.105.1415",
+			"authors": [
+				{
+					"family": "Garwin",
+					"given": "Richard L."
+				},
+				{
+					"family": "Lederman",
+					"given": "Leon M."
+				},
+				{
+					"family": "Weinrich",
+					"given": "Marcel"
+				}
+			],
+			"container": "Physical Review",
+			"volume": "105",
+			"issue": "4",
+			"pages": "1415–1417",
+			"published": "1957-02-15",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"title": "Chirality Invariance and the Universal Fermi Interaction",
+			"doi": "10.1103/PhysRev.109.1860.2",
+			"authors": [
+				{
+					"family": "Sudarshan",
+					"given": "E. C. G."
+				},
+				{
+					"family": "Marshak",
+					"given": "R. E."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "109",
+			"issue": "5",
+			"pages": "1860–1862",
+			"published": "1958-03-01",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wu experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wu_experiment&oldid=1375909997",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Weak interaction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Weak_interaction&oldid=1376560013",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "E. C. George Sudarshan",
+			"url": "https://en.wikipedia.org/w/index.php?title=E._C._George_Sudarshan&oldid=1376752233",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Marshak",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Marshak&oldid=1377328169",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Parity apparatus at the National Bureau of Standards: a Dewar flask fitted over the cobalt-60 sample",
+			"url": "https://commons.wikimedia.org/wiki/File:Wu_experiment_at_Bureau_of_Standards.jpg",
+			"authors": [
+				{
+					"name": "National Bureau of Standards"
+				}
+			],
+			"container": "Photograph in the Annual Report of the National Bureau of Standards for 1957; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "wu-apparatus.jpg",
+			"published": "1957",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "George Sudarshan, informal portrait",
+			"url": "https://commons.wikimedia.org/wiki/File:George_Sudarshan.jpg",
+			"authors": [
+				{
+					"family": "Segrè",
+					"given": "Emilio"
+				}
+			],
+			"container": "Photograph, AIP Emilio Segrè Visual Archives, Segrè Collection; via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "sudarshan.jpg",
+			"accessed": "2026-09-28"
+		}
+	]
+}
