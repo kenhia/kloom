@@ -90,7 +90,8 @@ As each author reports:
 
 1. Run `subject_plan.py <plan> subjects/<subject>` and Prettier, then
    `npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
-2. Look at the plates on a contact sheet, in their palettes.
+2. Look at the plates on a contact sheet, in their palettes
+   (`create-tools/draw-plates/contact_sheet.py <subject> --png …`).
 3. Read the report's unsure claims against the cited sources, and spot
    check the surprising ones. Fix or cut; never keep a claim because it is
    good.

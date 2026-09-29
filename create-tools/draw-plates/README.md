@@ -16,6 +16,12 @@ showing, in the style docs/design.md §Illustrations describes.
   `ai_<part>.py` exports `PLATES = {frame: function}`, where a function
   returns its `D`. `ai.py` collects them and saves each one, so several
   authors can draw at once without sharing a file.
+- `feynman.py` and `feynman_<part>.py` (sprint 014): the feynman subject's
+  plates, collected the same way.
+- `contact_sheet.py` (sprint 014): every plate of a subject, or the frames
+  named, on one page in its own palette with its title under it; `--png`
+  screenshots the page with a headless Chromium (Playwright's, or
+  `$CHROME`). `python3 create-tools/draw-plates/contact_sheet.py feynman --png .scratch/sheet.png`.
 - `western_civ.py`: the 17 western-civ plates, one function per frame. It
   is the worked example: the Pantheon section, the globe with its route,
   the helix and the honeycomb show how the geometry is computed rather than
@@ -33,9 +39,10 @@ Standard library only.
 
 ## Drawing a new subject
 
-Start a `<subject>.py` beside `western_civ.py` that imports from `plates`.
-Iterate on a contact sheet — screenshot every plate at once, in its
-palette's colours — rather than one at a time in the app. Look for:
+Start a `<subject>.py` collector beside `ai.py` and `feynman.py`, with a
+`<subject>_<part>.py` module per author that imports from `plates`.
+Iterate on a contact sheet (`contact_sheet.py`) rather than one plate at a
+time in the app. Look for:
 
 - a lone object with nothing to measure it against (clip-art)
 - edges that coincide at an unlucky projection angle
