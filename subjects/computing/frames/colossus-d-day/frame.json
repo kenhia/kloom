@@ -1,0 +1,158 @@
+{
+	"id": "colossus-d-day",
+	"position": {
+		"label": "1944",
+		"sort": 1944
+	},
+	"scene": {
+		"headline": "We read Berlin before the",
+		"accent": "LANDINGS.",
+		"palette": "console",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BLETCHLEY PARK · BLOCKS F AND H · 1 JUNE 1944",
+			"COLOSSUS MARK 2 · FIVE PROCESSORS · A SHIFT REGISTER"
+		],
+		"counter": {
+			"value": "63,000,000",
+			"label": "characters of German traffic decrypted by May 1945"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Colossus computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colossus_computer&oldid=1371956527",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "General Report on Tunny: With Emphasis on Statistical Methods",
+			"url": "https://www.codesandciphers.org.uk/documents/newman/newman.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Good",
+					"given": "I. J."
+				},
+				{
+					"family": "Michie",
+					"given": "Donald"
+				},
+				{
+					"family": "Timms",
+					"given": "Geoffrey"
+				}
+			],
+			"publisher": "Government Code and Cypher School",
+			"place": "Bletchley Park",
+			"published": "1945",
+			"note": "Read in Tony Sale’s 2001 transcript of the Newmanry chapters; the original is at The National Archives, HW 25/4 and HW 25/5"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Colossus",
+			"url": "https://www.codesandciphers.org.uk/lorenz/colossus.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Sale",
+					"given": "Tony"
+				}
+			],
+			"container": "Codes and Ciphers in the Second World War"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "GCHQ celebrates 80 years of Colossus",
+			"url": "https://www.gchq.gov.uk/news/colossus-80",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "GCHQ"
+				}
+			],
+			"container": "GCHQ",
+			"publisher": "Government Communications Headquarters",
+			"published": "2024-01-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tommy Flowers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tommy_Flowers&oldid=1376959965",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"note": "Quoting Flowers, “D-Day at Bletchley Park”, in Copeland, Colossus (2006)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cryptanalysis of the Lorenz cipher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cryptanalysis_of_the_Lorenz_cipher&oldid=1376878173",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "web",
+			"title": "Colossus",
+			"url": "https://www.tnmoc.org/colossus",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "The National Museum of Computing"
+				}
+			],
+			"container": "The National Museum of Computing"
+		},
+		{
+			"kind": "media",
+			"title": "Letters examined per second by the Tunny-breaking machines",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colossus_computer&oldid=1371956527",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from the General Report on Tunny (1945) and Wikipedia, Colossus computer",
+			"licence": "MIT",
+			"file": "reading-speed.svg",
+			"published": "2026"
+		},
+		{
+			"kind": "media",
+			"title": "Colossus 10, with its long bedstead, in Block H at Bletchley Park, 1945",
+			"url": "https://commons.wikimedia.org/wiki/File:Wartime_photo_of_Colossus_10.png",
+			"accessed": "2026-09-28",
+			"container": "General Report on Tunny (1945), The National Archives HW 25/4–5, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "colossus-10.png",
+			"published": "1945"
+		}
+	]
+}

@@ -1,0 +1,92 @@
+{
+	"id": "bombe",
+	"position": {
+		"label": "1940",
+		"sort": 1940
+	},
+	"scene": {
+		"headline": "The machine hunted for",
+		"accent": "CONTRADICTIONS.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": ["BLETCHLEY PARK · LETCHWORTH · WARSAW", "CRIBS · MENUS · THE DIAGONAL BOARD"],
+		"counter": {
+			"value": "17,576",
+			"label": "rotor positions tried for each wheel order"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Solving the Enigma: History of the Cryptanalytic Bombe",
+			"url": "https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/historical-figures-publications/publications/wwii/solving_enigma.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Wilcox",
+					"given": "Jennifer"
+				}
+			],
+			"publisher": "Center for Cryptologic History, National Security Agency",
+			"place": "Fort George G. Meade, Maryland",
+			"published": "2006",
+			"note": "Revised edition; the bomba and the British bombe are on pp. 7–12"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Bombe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bombe&oldid=1371956337",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"note": "The menu example, Turing’s table of stops and the counts of bombes"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bomba (cryptography)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bomba_(cryptography)&oldid=1368684287",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "media",
+			"title": "A British bombe at Bletchley Park, photographed during the war",
+			"url": "https://commons.wikimedia.org/wiki/File:Wartime_picture_of_a_Bletchley_Park_Bombe.jpg",
+			"accessed": "2026-09-28",
+			"container": "Wartime photographs of GC&CS at Bletchley Park, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "bombe-wartime.jpg",
+			"published": "1945"
+		},
+		{
+			"kind": "media",
+			"title": "Three-rotor bombes available to Bletchley Park, 1941–1945",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bombe&oldid=1371956337",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from Wikipedia, Bombe (table of three-rotor bombes available)",
+			"licence": "MIT",
+			"file": "bombes-available.svg",
+			"published": "2026"
+		}
+	]
+}

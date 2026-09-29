@@ -1,0 +1,181 @@
+{
+	"id": "heath-robinson",
+	"position": {
+		"label": "1943",
+		"sort": 1943
+	},
+	"scene": {
+		"headline": "Two tapes would not keep",
+		"accent": "STEP.",
+		"palette": "teletype",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THE NEWMANRY · DOLLIS HILL · MALVERN",
+			"TUTTE’S STATISTICS · TWO TAPE LOOPS · THE BEDSTEAD"
+		],
+		"counter": {
+			"value": "1,271",
+			"label": "settings of two chi wheels to try on every message"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "General Report on Tunny: With Emphasis on Statistical Methods",
+			"url": "https://www.codesandciphers.org.uk/documents/newman/newman.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Good",
+					"given": "I. J."
+				},
+				{
+					"family": "Michie",
+					"given": "Donald"
+				},
+				{
+					"family": "Timms",
+					"given": "Geoffrey"
+				}
+			],
+			"publisher": "Government Code and Cypher School",
+			"place": "Bletchley Park",
+			"published": "1945",
+			"note": "Read in Tony Sale’s 2001 transcript of the Newmanry chapters; the original is at The National Archives, HW 25/4 and HW 25/5"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Fish and I",
+			"url": "https://uwaterloo.ca/combinatorics-and-optimization/sites/ca.combinatorics-and-optimization/files/uploads/files/corr98-39.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Tutte",
+					"given": "W. T."
+				}
+			],
+			"number": "CORR 98-39",
+			"publisher": "Department of Combinatorics and Optimization, University of Waterloo",
+			"place": "Waterloo, Ontario",
+			"published": "1998",
+			"note": "Tutte’s own account, a lecture of 19 June 1998; read through the Internet Archive"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Heath Robinson (codebreaking machine)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heath_Robinson_(codebreaking_machine)&oldid=1312245036",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cryptanalysis of the Lorenz cipher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cryptanalysis_of_the_Lorenz_cipher&oldid=1376878173",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Max Newman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Max_Newman&oldid=1371973857",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tommy Flowers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tommy_Flowers&oldid=1376959965",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Colossus computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colossus_computer&oldid=1371956527",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "web",
+			"title": "GCHQ celebrates 80 years of Colossus",
+			"url": "https://www.gchq.gov.uk/news/colossus-80",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "GCHQ"
+				}
+			],
+			"container": "GCHQ",
+			"publisher": "Government Communications Headquarters",
+			"published": "2024-01-18"
+		},
+		{
+			"kind": "media",
+			"title": "The working replica of Heath Robinson at the National Museum of Computing",
+			"url": "https://commons.wikimedia.org/wiki/File:Working_Heath_Robinson_TNMOC_April_2019.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "TedColes"
+				}
+			],
+			"container": "The National Museum of Computing, Bletchley Park, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "robinson-replica.jpg",
+			"published": "2019-04-06"
+		},
+		{
+			"kind": "media",
+			"title": "Staff of the Newmanry, April 1943 to April 1945",
+			"url": "https://www.codesandciphers.org.uk/documents/newman/newman.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from the General Report on Tunny (1945), section 31B",
+			"licence": "MIT",
+			"file": "newmanry-staff.svg",
+			"published": "2026"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Three-rotor bombes available to Bletchley Park, December 1941 to May 1945</title>
+<desc id="d">Bar chart of the number of British three-rotor bombes available: 12 in December 1941, 40 in December 1942, 72 in June 1943, 87 in December 1943, 152 in December 1944 and 155 in May 1945. Data: Wikipedia, Bombe, revision 1371956337, table of three-rotor bombes available.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="196.5" y2="196.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">40</text>
+<line x1="64" x2="460" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">80</text>
+<line x1="64" x2="460" y1="89.5" y2="89.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">120</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">160</text>
+</g>
+<rect x="73.0" y="233.9" width="48" height="16.1" fill-opacity="0.85"/>
+<text x="97.0" y="227.9" text-anchor="middle">12</text>
+<text x="97.0" y="266" text-anchor="middle">1941</text>
+<text x="97.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Dec</text>
+<rect x="139.0" y="196.5" width="48" height="53.5" fill-opacity="0.85"/>
+<text x="163.0" y="190.5" text-anchor="middle">40</text>
+<text x="163.0" y="266" text-anchor="middle">1942</text>
+<text x="163.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Dec</text>
+<rect x="205.0" y="153.7" width="48" height="96.3" fill-opacity="0.85"/>
+<text x="229.0" y="147.7" text-anchor="middle">72</text>
+<text x="229.0" y="266" text-anchor="middle">1943</text>
+<text x="229.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Jun</text>
+<rect x="271.0" y="133.6" width="48" height="116.4" fill-opacity="0.85"/>
+<text x="295.0" y="127.6" text-anchor="middle">87</text>
+<text x="295.0" y="266" text-anchor="middle">1943</text>
+<text x="295.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Dec</text>
+<rect x="337.0" y="46.7" width="48" height="203.3" class="accent" fill="currentColor"/>
+<text x="361.0" y="40.7" text-anchor="middle">152</text>
+<text x="361.0" y="266" text-anchor="middle">1944</text>
+<text x="361.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Dec</text>
+<rect x="403.0" y="42.7" width="48" height="207.3" fill-opacity="0.85"/>
+<text x="427.0" y="36.7" text-anchor="middle">155</text>
+<text x="427.0" y="266" text-anchor="middle">1945</text>
+<text x="427.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">May</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">THREE-ROTOR BOMBES AVAILABLE</text>
+</g></svg>

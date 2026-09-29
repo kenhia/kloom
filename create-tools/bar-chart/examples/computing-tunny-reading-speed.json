@@ -1,0 +1,40 @@
+{
+	"title": "Letters of cipher text examined per second by the Tunny-breaking machines",
+	"description": "Bar chart, letters examined per second: Heath Robinson, 1,000 to 2,000 (2,000 at best, on short tapes); Colossus Mark 1, 5,000; Colossus Mark 2, 5,000 read and, with five processors testing five positions at once, an effective 25,000. Data: General Report on Tunny (1945), sections 53B and 54C; Wikipedia, Colossus computer, revision cited.",
+	"heading": "LETTERS EXAMINED PER SECOND",
+	"unit": "",
+	"axis": {
+		"max": 25000,
+		"ticks": [
+			[0, "0"],
+			[5000, "5k"],
+			[10000, "10k"],
+			[15000, "15k"],
+			[20000, "20k"],
+			[25000, "25k"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Robinson",
+			"sublabel": "1943",
+			"value": 2000,
+			"display": "2,000"
+		},
+		{
+			"label": "Mark 1",
+			"sublabel": "Feb 1944",
+			"value": 5000,
+			"display": "5,000"
+		},
+		{
+			"label": "Mark 2",
+			"sublabel": "1944, effective",
+			"value": 25000,
+			"display": "25,000",
+			"highlight": true
+		}
+	],
+	"barWidth": 64,
+	"width": 480
+}

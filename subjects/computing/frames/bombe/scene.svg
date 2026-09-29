@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M153.6 162.5 L232.4 162.5 L232.4 225.5 L153.6 225.5 Z"/>
+		<path pathLength="1" d="M265 139.5 L286.3 91.9 L320.4 140.5 Z"/>
+		<path pathLength="1" d="M233.7 136.1 L152.3 136 L123.3 77.3 L191 58 L264.7 77.2 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M127 150 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M237 150 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M237 238 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M127 238 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M93 72 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M179 38 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M273 72 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M327 150 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M35 150 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M349 238 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M133.6 139.9 L124.6 119.3 M117.4 102.7 L108.4 82.1 M259 150 L284 150 M302 150 L327 150 M252.6 140 L262.2 119.2 M269.8 102.8 L279.4 82 M127 150 L101 150 M83 150 L57 150 M200.3 41.7 L228.5 51.9 M245.5 58.1 L273.7 68.3 M149 238 L184 238 M202 238 L237 238 M138 161 L138 185 M138 203 L138 227 M248 161 L248 185 M248 203 L248 227 M357.3 227.3 L351.2 202.7 M346.8 185.3 L340.7 160.7 M149 150 L184 150 M202 150 L237 150 M114.2 68 L138.6 58.3 M155.4 51.7 L179.8 42 M290.3 81 L305.9 103.6 M316.1 118.4 L331.7 141"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M112 111 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M121 111 L121 104"/>
+		<path pathLength="1" d="M284 150 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M293 150 L294.7 143.2"/>
+		<path pathLength="1" d="M257 111 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M266 111 L269.3 104.8"/>
+		<path pathLength="1" d="M83 150 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M92 150 L96.6 144.8"/>
+		<path pathLength="1" d="M228 55 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M237 55 L242.8 51"/>
+		<path pathLength="1" d="M184 238 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M193 238 L199.5 235.5"/>
+		<path pathLength="1" d="M129 194 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M138 194 L144.9 193.2"/>
+		<path pathLength="1" d="M239 194 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M248 194 L254.9 194.8"/>
+		<path pathLength="1" d="M340 194 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M349 194 L355.5 196.5"/>
+		<path pathLength="1" d="M184 150 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M193 150 L198.8 154"/>
+		<path pathLength="1" d="M138 55 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M147 55 L151.6 60.2"/>
+		<path pathLength="1" d="M302 111 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M311 111 L314.3 117.2"/>
+	</g>
+	<g>
+		<text x="138" y="153.5" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="248" y="153.5" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">T</text>
+		<text x="248" y="241.5" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">L</text>
+		<text x="138" y="241.5" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">K</text>
+		<text x="104" y="75.5" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">W</text>
+		<text x="190" y="41.5" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C</text>
+		<text x="284" y="75.5" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N</text>
+		<text x="338" y="153.5" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S</text>
+		<text x="46" y="153.5" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">P</text>
+		<text x="360" y="241.5" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">D</text>
+		<text x="135.7" y="107.6" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="293" y="169" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="280.5" y="120.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="92" y="137" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4</text>
+		<text x="231.6" y="73" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5</text>
+		<text x="193" y="257" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">6</text>
+		<text x="122" y="197" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">7</text>
+		<text x="232" y="197" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8</text>
+		<text x="364.5" y="193.1" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">9</text>
+		<text x="193" y="169" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10</text>
+		<text x="152.9" y="72.9" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">11</text>
+		<text x="297.8" y="123.1" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">12</text>
+		<text x="200" y="278" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CRIB ATTACKATDAWN · CIPHER WSNPNLKLSTCS</text>
+		<text x="200" y="291" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THREE LOOPS: ATLK · TNS · TAWCN</text>
+	</g>
+</svg>
