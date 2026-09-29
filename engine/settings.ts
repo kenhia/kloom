@@ -1,3 +1,4 @@
+import { SHORTCUTS, type Keymap, type Shortcut } from './keys';
 import type { Palette, Subject } from './model';
 
 /**
@@ -25,6 +26,8 @@ export interface Setting {
 	default: string;
 	/** The localStorage key it is remembered under. */
 	storageKey: string;
+	/** A heading the pop-up gathers it under, with the rest of its group. */
+	group?: string;
 }
 
 /** The part of `Storage` a setting needs; tests pass a Map-backed one. */
@@ -107,14 +110,14 @@ export function paletteFor(
 /**
  * Whether the narrative follows the spine (docs/design.md §Interaction). On by
  * default: moving along the spine turns the reading to that frame. Off, the
- * reading stays where it is until S brings it to the spine.
+ * reading stays where it is until the sync key (S) brings it to the spine.
  */
 export const followSpine: Setting = {
 	id: 'followSpine',
 	label: 'Narrative',
 	choices: [
 		{ value: 'follow', label: 'Follows the spine' },
-		{ value: 'manual', label: 'Stays until S' }
+		{ value: 'manual', label: 'Stays until synced' }
 	],
 	default: 'follow',
 	storageKey: 'kloom.followSpine'
@@ -162,3 +165,35 @@ export const modelSetting = (
 	default: offer.default,
 	storageKey: `kloom.${id}`
 });
+
+const LETTERS: Choice[] = [...'abcdefghijklmnopqrstuvwxyz'].map((l) => ({
+	value: l,
+	label: l.toUpperCase()
+}));
+
+/** What a key setting stores for a shortcut turned off. */
+export const KEY_OFF = 'off';
+
+/**
+ * A character shortcut's key (korg 3363, WCAG 2.1.4): any letter, or off.
+ * Each is a pick from a fixed list like every other setting, and the pop-up
+ * gathers them under "Keys".
+ */
+export const keySettings: Setting[] = SHORTCUTS.map((s) => ({
+	id: `key.${s.action}`,
+	label: s.label[0].toUpperCase() + s.label.slice(1),
+	choices: [...LETTERS, { value: KEY_OFF, label: 'Off' }],
+	default: s.key,
+	storageKey: `kloom.key.${s.action}`,
+	group: 'Keys'
+}));
+
+/** The reader's keymap, from their key settings; a shortcut with no setting keeps its letter. */
+export function keymapOf(get: (id: string) => string | undefined): Keymap {
+	const keys = {} as Keymap;
+	for (const s of SHORTCUTS) {
+		const v = get(`key.${s.action}`) ?? s.key;
+		keys[s.action as Shortcut] = v === KEY_OFF ? null : v;
+	}
+	return keys;
+}

@@ -11,10 +11,12 @@
  *
  * The store is an interface so that its adapter is a choice: SQLite now
  * (`src/lib/server/reader-store.ts`), Postgres possibly later. Its methods
- * are async for that reason, though SQLite answers at once. Notes,
- * annotations and kept answers arrive as their own methods and tables on the
- * same interface, each keyed the same way.
+ * are async for that reason, though SQLite answers at once. Each kind of
+ * record (places, bookmarks, notes, kept answers, later annotations) has its
+ * own methods and table on the same interface, keyed the same way.
  */
+
+import { keptAnswerProblems, type KeptAnswer } from './ai/kept';
 
 /** Where a reader last was in a subject. */
 export interface Place {
@@ -34,6 +36,55 @@ export interface Bookmark {
 	at: string;
 }
 
+/**
+ * Whether a note is flagged for an agent to look at (korg 3409): none, flagged
+ * by the reader ("Agent review"), or handled by the agent, which says what it
+ * did in `response`.
+ */
+export type Review = 'none' | 'flagged' | 'handled';
+
+/** A reader's note on a frame (docs/design.md §Notes). Plain text, never rendered as markup. */
+export interface Note {
+	/** Made by the store; unique per reader. */
+	id: string;
+	subject: string;
+	frame: string;
+	/** The frame's title when the note was last saved. */
+	label: string;
+	text: string;
+	review: Review;
+	/** What the agent that handled it did, in its own words; null until then. */
+	response: string | null;
+	created: string;
+	updated: string;
+}
+
+/** A note as a reader writes it: no id for a new one. `flag` is the "Agent review" box. */
+export interface NoteInput {
+	id?: string;
+	subject: string;
+	frame: string;
+	label: string;
+	text: string;
+	flag: boolean;
+}
+
+/** A flagged note, for the review skill: which reader it belongs to comes with it. */
+export type ReviewNote = Note & { reader: string };
+
+/**
+ * A kept answer as the reader's store holds it (korg 3390): the answer in its
+ * own format, which grow reads, and the frames grow made of it, if it has.
+ */
+export interface Kept {
+	answer: KeptAnswer;
+	/** Frame ids a grow job made from it, in the order it listed them; null until one does. */
+	grown: string[] | null;
+}
+
+/** Longest note accepted, in characters. */
+export const NOTE_MAX = 10_000;
+
 export interface ReaderStore {
 	/** Record that `reader` is on this frame now: their place in its subject. */
 	visit(reader: string, place: Omit<Place, 'at'>): Promise<void>;
@@ -44,21 +95,62 @@ export interface ReaderStore {
 	/** Mark a frame; marking it again only refreshes its label. */
 	bookmark(reader: string, mark: Omit<Bookmark, 'at'>): Promise<void>;
 	unbookmark(reader: string, subject: string, frame: string): Promise<void>;
+
+	/** Their notes in `subject`, oldest first. */
+	notes(reader: string, subject: string): Promise<Note[]>;
+	/**
+	 * Write a note: a new one without an id, or an edit of theirs with one
+	 * (null when they have no such note). An edit keeps the note's frame.
+	 */
+	saveNote(reader: string, note: NoteInput): Promise<Note | null>;
+	/** Delete a note of theirs; false when there was none. */
+	deleteNote(reader: string, id: string): Promise<boolean>;
+	/** Every flagged note, oldest first: one reader's, or, with none named, every reader's. */
+	flaggedNotes(reader?: string): Promise<ReviewNote[]>;
+	/** The agent dealt with a flagged note: it is handled, with what was done. */
+	handleNote(reader: string, id: string, response: string): Promise<boolean>;
+
+	/** Keep an answer for them. Keeping the same answer twice keeps the first. */
+	keep(reader: string, answer: KeptAnswer): Promise<void>;
+	/** How many answers they kept on each frame of `subject`, for the spine's marks. */
+	keptCounts(reader: string, subject: string): Promise<Record<string, number>>;
+	/** Their kept answers on one frame, oldest first. */
+	keptOn(reader: string, subject: string, frame: string): Promise<Kept[]>;
+	/** One of their kept answers, by id (what grow reads), or null. */
+	kept(reader: string, subject: string, id: string): Promise<KeptAnswer | null>;
+	/** A grow job made frames of a kept answer. */
+	grew(reader: string, subject: string, id: string, frames: string[]): Promise<void>;
+	/** Remove one of their kept answers; false when there was none. */
+	forget(reader: string, subject: string, id: string): Promise<boolean>;
+
 	/** Everything the store holds for `reader`, to back up or carry elsewhere. */
 	exportData(reader: string): Promise<ReaderExport>;
 	/** Merge an export in as `reader`'s; the newer of two records wins. */
-	importData(reader: string, data: ReaderExport): Promise<{ places: number; bookmarks: number }>;
+	importData(reader: string, data: ReaderExport): Promise<ImportCounts>;
 }
 
-/** The export format: versioned, so an older file can still be read. */
+export interface ImportCounts {
+	places: number;
+	bookmarks: number;
+	notes: number;
+	kept: number;
+}
+
+/**
+ * The export format: versioned, so an older file can still be read. Version
+ * 2 (sprint 011) added notes and kept answers; a version 1 file reads as one
+ * with neither.
+ */
 export interface ReaderExport {
 	kloom: 'reader-data';
-	version: 1;
+	version: 2;
 	/** Who it was exported for; an import files it under whoever imports it. */
 	reader: string;
 	exported: string;
 	places: Place[];
 	bookmarks: Bookmark[];
+	notes: Note[];
+	kept: Kept[];
 }
 
 /** One bookmark in the jump list (`engine/ui/Bookmarks.svelte`); the page resolves where it goes. */
@@ -100,7 +192,7 @@ export function parseExport(v: unknown): ReaderExport | { error: string } {
 	if (typeof v !== 'object' || v === null) return { error: 'not a JSON object' };
 	const d = v as Record<string, unknown>;
 	if (d.kloom !== 'reader-data') return { error: 'not a kloom reader-data export' };
-	if (d.version !== 1) return { error: `unknown version ${String(d.version)}` };
+	if (d.version !== 1 && d.version !== 2) return { error: `unknown version ${String(d.version)}` };
 	if (!Array.isArray(d.places) || !Array.isArray(d.bookmarks))
 		return { error: 'places and bookmarks must be lists' };
 	const records = (list: unknown[], what: string) => {
@@ -117,12 +209,80 @@ export function parseExport(v: unknown): ReaderExport | { error: string } {
 	if (typeof places === 'string') return { error: places };
 	const bookmarks = records(d.bookmarks, 'bookmark');
 	if (typeof bookmarks === 'string') return { error: bookmarks };
+	const notes: Note[] = [];
+	const kept: Kept[] = [];
+	if (d.version === 2) {
+		if (!Array.isArray(d.notes) || !Array.isArray(d.kept))
+			return { error: 'notes and kept must be lists' };
+		for (const [i, item] of d.notes.entries()) {
+			const n = noteOf(item);
+			if (!n) return { error: `note ${i} is not a valid note` };
+			notes.push(n);
+		}
+		for (const [i, item] of d.kept.entries()) {
+			const k = item as Record<string, unknown> | null;
+			const grown = k?.grown;
+			if (
+				!k ||
+				keptAnswerProblems(k.answer).length ||
+				!(grown === null || (Array.isArray(grown) && grown.every((f) => isId(f))))
+			)
+				return { error: `kept answer ${i} is not a valid kept answer` };
+			kept.push({ answer: k.answer as KeptAnswer, grown: grown as string[] | null });
+		}
+	}
 	return {
 		kloom: 'reader-data',
-		version: 1,
+		version: 2,
 		reader: isText(d.reader) ? d.reader : '',
 		exported: isTime(d.exported) ? d.exported : new Date(0).toISOString(),
 		places,
-		bookmarks
+		bookmarks,
+		notes,
+		kept
 	};
+}
+
+const isId = (v: unknown): v is string => isText(v) && RECORD_ID.test(v);
+const REVIEWS: Review[] = ['none', 'flagged', 'handled'];
+
+/** A note from an export file, checked; null if it is not one. */
+function noteOf(v: unknown): Note | null {
+	const r = recordOf(v);
+	if (!r) return null;
+	const n = v as Record<string, unknown>;
+	if (!isText(n.id) || !/^[\w-]{1,64}$/.test(n.id)) return null;
+	if (!isText(n.text) || n.text.length > NOTE_MAX) return null;
+	if (!REVIEWS.includes(n.review as Review)) return null;
+	if (n.response !== null && !isText(n.response)) return null;
+	if (!isTime(n.created) || !isTime(n.updated)) return null;
+	return {
+		...r,
+		id: n.id,
+		text: n.text,
+		review: n.review as Review,
+		response: n.response as string | null,
+		created: new Date(n.created).toISOString(),
+		updated: new Date(n.updated).toISOString()
+	};
+}
+
+/**
+ * What the page offers the shell for the reader's layer on a frame (korg
+ * 3409, 3390): this subject's notes and kept-answer counts, and the calls
+ * that change them. Absent when there is no reader to keep them for.
+ */
+export interface ReaderLayer {
+	/** This subject's notes, oldest first. */
+	notes: Note[];
+	/** Kept answers per frame id, in this subject. */
+	kept: Record<string, number>;
+	/** Write a note (the page fills in the subject); null when it failed. */
+	saveNote(note: Omit<NoteInput, 'subject'>): Promise<Note | null>;
+	deleteNote(id: string): Promise<boolean>;
+	/** The kept answers on a frame, fetched when the Q&A section opens; null when that failed. */
+	keptOn(frame: string): Promise<Kept[] | null>;
+	forget(frame: string, id: string): Promise<boolean>;
+	/** An answer was just kept on this frame. */
+	onkept(frame: string): void;
 }

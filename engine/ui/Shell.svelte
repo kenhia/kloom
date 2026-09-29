@@ -2,9 +2,10 @@
 	import { onMount, untrack } from 'svelte';
 	import type { AiOffer } from '../ai/provider';
 	import type { Frame, Subject, Trail } from '../model';
-	import type { JumpItem } from '../reader-data';
+	import type { JumpItem, Note, ReaderLayer } from '../reader-data';
 	import { clamp, indexLabel, stops, WheelGate, type SyncMode } from '../navigation';
-	import { pageKey, tabKey } from '../keys';
+	import { keyClashes, keyName, pageKey, SHORTCUTS, tabKey } from '../keys';
+	import { marksText, type FrameMarks } from '../marks';
 	import {
 		bounds,
 		defaultPanes,
@@ -18,6 +19,7 @@
 	import {
 		browserStorage,
 		followSpine,
+		keymapOf,
 		layout,
 		paletteFor,
 		paletteMode,
@@ -26,7 +28,9 @@
 	import type { UserSettings } from '../user-settings.svelte';
 	import AiPane from './AiPane.svelte';
 	import Bookmarks from './Bookmarks.svelte';
-	import Narrative from './Narrative.svelte';
+	import Narrative, { type QaOffer } from './Narrative.svelte';
+	import NoteEditor from './NoteEditor.svelte';
+	import Notes from './Notes.svelte';
 	import Settings from './Settings.svelte';
 	import SpinePane from './SpinePane.svelte';
 	import Splitter from './Splitter.svelte';
@@ -47,6 +51,8 @@
 		onplace?: (frame: Frame) => void;
 		/** The reader's bookmarks; absent when there is no reader to keep them for. */
 		bookmarks?: BookmarkOffer | null;
+		/** The reader's notes and kept answers; absent when there is no reader. */
+		layer?: ReaderLayer | null;
 	}
 
 	/** What the page offers for bookmarks: the frames marked, the jump list, and the writes. */
@@ -67,7 +73,8 @@
 		active = true,
 		startAt = null,
 		onplace,
-		bookmarks = null
+		bookmarks = null,
+		layer = null
 	}: Props = $props();
 
 	let trailId = $state<string | null>(null);
@@ -78,9 +85,12 @@
 	/** Said once when a bookmark is made or removed, so a B press is heard. */
 	let markNote = $state('');
 
-	/** The tabs layout (§Layout): which of Narrative and AI the right-hand pane shows. */
-	const TABS = ['narrative', 'ai'] as const;
-	let tab = $state<(typeof TABS)[number]>('narrative');
+	/**
+	 * The right-hand pane's tabs (§Layout): Narrative, then Notes when there is
+	 * a reader to keep them for, then AI in the tabs layout.
+	 */
+	type Tab = 'narrative' | 'notes' | 'ai';
+	let tab = $state<Tab>('narrative');
 	const tabEls: HTMLButtonElement[] = [];
 	/** What the AI pane reports for its tab: working, or a result not yet seen. */
 	let aiActivity = $state<'idle' | 'working' | 'ready'>('idle');
@@ -96,10 +106,35 @@
 	const sync = $derived<SyncMode>(settings.get(followSpine.id) === 'manual' ? 'manual' : 'follow');
 	const shape = $derived((settings.get(layout.id) ?? layout.default) as Layout);
 	const tabbed = $derived(shape === 'tabs');
+	const tabs = $derived<Tab[]>([
+		...(layer || tabbed ? ['narrative' as const] : []),
+		...(layer ? ['notes' as const] : []),
+		...(tabbed ? ['ai' as const] : [])
+	]);
+	// A tab that went away (the layout changed) hands back to the narrative.
+	$effect(() => {
+		if (!tabs.includes(tab)) tab = 'narrative';
+	});
+	const TAB_LABEL: Record<Tab, string> = { narrative: 'Narrative', notes: 'Notes', ai: 'AI' };
+	const TAB_PANEL: Record<Tab, string> = {
+		narrative: 'narrative-panel',
+		notes: 'notes-panel',
+		ai: 'ai-results'
+	};
 
+	/** The reader's keys (korg 3363): their letter for each shortcut, or none. */
+	const keys = $derived(keymapOf((id) => settings.get(id)));
+	const shown = (k: string | null) => (k ? keyName(k) : null);
+	const clashes = $derived(
+		keyClashes(keys).map(({ key, actions }) => {
+			const [first, ...rest] = actions.map((a) => SHORTCUTS.find((s) => s.action === a)!.label);
+			return `${keyName(key)} is set for ${[first, ...rest].join(' and ')}; it will ${first}.`;
+		})
+	);
 	// Pane sizes (§Layout): dragged at the dividers, remembered per layout.
 	let saved = $state<SavedPanes>({});
 	let panesEl = $state<HTMLElement>();
+	let tabRowEl = $state<HTMLElement>();
 	onMount(() => (saved = readPanes(browserStorage())));
 	const panes = $derived(panesFor(saved, shape));
 	const fr = (...parts: number[]) => parts.map((p) => `minmax(0, ${p}fr)`).join(' ');
@@ -117,7 +152,9 @@
 		const r = panesEl!.getBoundingClientRect();
 		if (d === 'spine') return (e.clientX - r.left) / r.width;
 		if (d === 'ai') return (r.right - e.clientX) / r.width;
-		return (e.clientY - r.top) / r.height;
+		// The split's rows start under the tab row.
+		const top = tabRowEl?.getBoundingClientRect().bottom ?? r.top;
+		return (e.clientY - top) / (r.bottom - top);
 	}
 	/** The dividers this layout has. */
 	const dividers = $derived<{ id: Divider; label: string; controls: string }[]>([
@@ -138,8 +175,151 @@
 	const trailsFrom = (id: string) => subject.trails.filter((t) => t.anchor === id);
 	const branches = $derived(new Set(trail ? [] : subject.trails.map((t) => t.anchor)));
 	const marked = $derived(bookmarks?.marked ?? new Set<string>());
-	const announcement = $derived(
-		`${indexLabel(index, path.length)}, ${stop.segment.title}, ${frame.position.label}: ${frame.scene.headline} ${frame.scene.accent}${marked.has(frame.id) ? ' Bookmarked.' : ''}`
+	/** Notes per frame, for the marks and the tab. */
+	const noteCounts = $derived(
+		(layer?.notes ?? []).reduce<Record<string, number>>((c, n) => {
+			c[n.frame] = (c[n.frame] ?? 0) + 1;
+			return c;
+		}, {})
+	);
+	const marksOf = (id: string): FrameMarks => ({
+		bookmarked: marked.has(id),
+		kept: layer?.kept[id] ?? 0,
+		notes: noteCounts[id] ?? 0
+	});
+	const titleOf = (f: Frame) => `${f.scene.headline} ${f.scene.accent}`;
+	const announcement = $derived.by(() => {
+		const said = marksText(marksOf(frame.id));
+		const tail = said.length ? ` ${said.join(', ')}.`.replace(/ (\w)/, (m) => m.toUpperCase()) : '';
+		return `${indexLabel(index, path.length)}, ${stop.segment.title}, ${frame.position.label}: ${titleOf(frame)}${tail}`;
+	});
+
+	/**
+	 * A note being written (docs/design.md §Notes, korg 3409). While there is
+	 * one, the scene is its editor. It stays on the frame it was started on.
+	 */
+	interface Draft {
+		id?: string;
+		frame: Frame;
+		text: string;
+		flag: boolean;
+		/** What it was when the editor opened: anything else is unsaved. */
+		was: { text: string; flag: boolean };
+		/** Where focus goes back to when the editor closes. */
+		from: HTMLElement | null;
+	}
+	let draft = $state<Draft | null>(null);
+	let saving = $state(false);
+	let saveError = $state('');
+	const dirty = $derived(
+		!!draft && (draft.text !== draft.was.text || draft.flag !== draft.was.flag)
+	);
+	const frameNotes = $derived((layer?.notes ?? []).filter((n) => n.frame === narrativeFrame.id));
+
+	/** Whether a note has changes not saved yet; the page asks before it navigates. */
+	export const hasUnsavedNote = () => dirty;
+	/** Close the editor without saving: the page already asked. */
+	export function discardNote() {
+		draft = null;
+	}
+
+	/**
+	 * Leaving the frame closes the editor. With unsaved changes, the reader is
+	 * asked first; false when they chose to stay.
+	 */
+	function mayLeave(): boolean {
+		if (!draft) return true;
+		if (dirty && !confirm('This note has changes that are not saved. Discard them?')) return false;
+		draft = null;
+		saveError = '';
+		return true;
+	}
+
+	const focused = () =>
+		document.activeElement instanceof HTMLElement ? document.activeElement : null;
+
+	function startNote(from: HTMLElement | null = focused()) {
+		if (!layer) return;
+		if (draft && !draft.id) return; // already writing a new one: the editor has focus
+		if (!mayLeave()) return;
+		draft = { frame: narrativeFrame, text: '', flag: false, was: { text: '', flag: false }, from };
+	}
+
+	function editNote(note: Note, from: HTMLElement) {
+		if (draft?.id === note.id || !mayLeave()) return;
+		const frame = subject.frames[note.frame] ?? narrativeFrame;
+		draft = {
+			id: note.id,
+			frame,
+			text: note.text,
+			flag: note.review === 'flagged',
+			was: { text: note.text, flag: note.review === 'flagged' },
+			from
+		};
+	}
+
+	function closeEditor() {
+		const back = draft?.from;
+		draft = null;
+		saveError = '';
+		(back?.isConnected ? back : slider)?.focus();
+	}
+
+	async function saveNote() {
+		if (!draft || !layer || saving || !draft.text.trim()) return;
+		saving = true;
+		const d = draft;
+		const saved = await layer.saveNote({
+			...(d.id ? { id: d.id } : {}),
+			frame: d.frame.id,
+			label: titleOf(d.frame),
+			text: d.text,
+			flag: d.flag
+		});
+		saving = false;
+		if (draft !== d) return;
+		if (!saved) {
+			saveError = 'Could not save the note. Your text is still here; try again.';
+			return;
+		}
+		markNote = `Note saved on ${titleOf(d.frame)}.`;
+		closeEditor();
+	}
+
+	function cancelNote() {
+		if (mayLeave()) closeEditor();
+	}
+
+	async function deleteNote(note: Note) {
+		if (!layer || !confirm('Delete this note? This cannot be undone.')) return;
+		if (draft?.id === note.id) draft = null;
+		markNote = (await layer.deleteNote(note.id)) ? 'Note deleted.' : 'Could not delete the note.';
+	}
+
+	/** The shortcuts the help bar names: the reader's keys, for what this page can do. */
+	const hints = $derived(
+		SHORTCUTS.filter(
+			(s) =>
+				keys[s.action] && (s.action !== 'bookmark' || bookmarks) && (s.action !== 'note' || layer)
+		).map((s, i, all) => ({
+			action: s.action,
+			/** What comes before it: nothing, a comma, or "and" before the last. */
+			lead: i === 0 ? '' : i === all.length - 1 ? ' and ' : ', ',
+			key: keyName(keys[s.action]!),
+			label: { sync: 'sync', trail: 'trail', bookmark: 'bookmark', note: 'note' }[s.action]
+		}))
+	);
+
+	const qa = $derived<QaOffer | null>(
+		layer
+			? {
+					count: (id) => layer.kept[id] ?? 0,
+					load: (id) => layer.keptOn(id),
+					forget: (id, answer) => layer.forget(id, answer),
+					titleOf: (id) => (subject.frames[id] ? titleOf(subject.frames[id]) : null),
+					ongoto: (id) => goTo(id)
+				}
+			: null
 	);
 
 	/**
@@ -147,6 +327,7 @@
 	 * one or a trail's, so the id alone says which. An unknown id is ignored.
 	 */
 	export function goTo(id: string) {
+		if (!mayLeave()) return;
 		const main = stops(subject.spine).findIndex((s) => s.frameId === id);
 		if (main >= 0) {
 			trailId = null;
@@ -168,9 +349,7 @@
 		if (!bookmarks) return;
 		const on = !marked.has(frame.id);
 		bookmarks.ontoggle(frame);
-		markNote = on
-			? `Bookmarked: ${frame.scene.headline} ${frame.scene.accent}`
-			: `Bookmark removed: ${frame.scene.headline} ${frame.scene.accent}`;
+		markNote = on ? `Bookmarked: ${titleOf(frame)}` : `Bookmark removed: ${titleOf(frame)}`;
 	}
 
 	// Coming forward (the start screen closed): the spine takes focus.
@@ -189,8 +368,10 @@
 	const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 	function go(i: number) {
+		const to = clamp(i, path.length);
+		if (to === clamp(index, path.length) || !mayLeave()) return;
 		if (pinned === null) pinned = stop.frameId;
-		index = clamp(i, path.length);
+		index = to;
 	}
 	const step = (delta: number) => go(index + delta);
 
@@ -200,15 +381,16 @@
 	}
 
 	function tabKeydown(e: KeyboardEvent, i: number) {
-		const to = tabKey(e.key, i, TABS.length);
+		const to = tabKey(e.key, i, tabs.length);
 		if (to === null) return;
 		// Handled here, so the page's arrows (the spine) stand down.
 		e.preventDefault();
-		tab = TABS[to];
+		tab = tabs[to];
 		tabEls[to]?.focus();
 	}
 
 	function enter(t: Trail) {
+		if (!mayLeave()) return;
 		trailId = t.id;
 		index = 0;
 		if (sync === 'manual')
@@ -216,7 +398,7 @@
 	}
 
 	function leave() {
-		if (!trail) return;
+		if (!trail || !mayLeave()) return;
 		const anchor = trail.anchor;
 		trailId = null;
 		index = stops(subject.spine).findIndex((s) => s.frameId === anchor);
@@ -243,7 +425,7 @@
 	function keydown(e: KeyboardEvent) {
 		if (!active || e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
 		const target = e.target instanceof Element ? e.target : null;
-		switch (pageKey(e.key, target)) {
+		switch (pageKey(e.key, target, keys)) {
 			case 'to-spine':
 				slider?.focus();
 				break;
@@ -282,6 +464,10 @@
 				if (!bookmarks) return;
 				toggleMark();
 				break;
+			case 'note':
+				if (!layer) return;
+				startNote();
+				break;
 			default:
 				return;
 		}
@@ -290,6 +476,22 @@
 </script>
 
 <svelte:window onkeydown={keydown} />
+
+<!-- In the scene's place while a note is written (§Notes). -->
+{#snippet noteEditor()}
+	{#if draft}
+		<NoteEditor
+			editing={!!draft.id}
+			title={titleOf(draft.frame)}
+			bind:text={draft.text}
+			bind:flag={draft.flag}
+			{saving}
+			error={saveError}
+			onsave={saveNote}
+			oncancel={cancelNote}
+		/>
+	{/if}
+{/snippet}
 
 <div
 	class="shell"
@@ -318,7 +520,8 @@
 			{frame}
 			{trail}
 			{branches}
-			{marked}
+			{marksOf}
+			editor={draft ? noteEditor : undefined}
 			frames={subject.frames}
 			onstep={step}
 			onjump={go}
@@ -340,22 +543,26 @@
 			{/snippet}
 		</SpinePane>
 
-		{#if tabbed}
-			<div class="tab-row">
+		<div class="tab-row" bind:this={tabRowEl}>
+			{#if tabs.length > 1}
 				<div role="tablist" aria-label="Right-hand pane">
-					{#each TABS as t, i (t)}
+					{#each tabs as t, i (t)}
 						<button
 							type="button"
 							role="tab"
 							id="tab-{t}"
 							aria-selected={tab === t}
-							aria-controls={t === 'ai' ? 'ai-results' : 'narrative-panel'}
+							aria-controls={TAB_PANEL[t]}
 							tabindex={tab === t ? 0 : -1}
 							onclick={() => (tab = t)}
 							onkeydown={(e) => tabKeydown(e, i)}
 							bind:this={tabEls[i]}
 						>
-							{t === 'ai' ? 'AI' : 'Narrative'}
+							{TAB_LABEL[t]}
+							{#if t === 'notes' && frameNotes.length}
+								<span class="count" aria-hidden="true">{frameNotes.length}</span>
+								<span class="visually-hidden">, {frameNotes.length} on this frame</span>
+							{/if}
 							{#if t === 'ai' && aiActivity !== 'idle'}
 								<span class="badge {aiActivity}" aria-hidden="true"
 									>{aiActivity === 'ready' ? '●' : '…'}</span
@@ -367,22 +574,36 @@
 						</button>
 					{/each}
 				</div>
-				<Settings {settings} />
-			</div>
-		{/if}
+			{/if}
+			<Settings {settings} warnings={clashes} />
+		</div>
 
 		<Narrative
-			tab={tabbed ? 'tab-narrative' : null}
-			hidden={tabbed && tab !== 'narrative'}
+			tab={tabs.length > 1 ? 'tab-narrative' : null}
+			hidden={tab !== 'narrative'}
 			frame={narrativeFrame}
 			spineFrame={frame}
 			{sync}
 			trails={trail ? [] : trailsFrom(narrativeFrame.id)}
 			onenter={enter}
+			keys={{ sync: shown(keys.sync), trail: shown(keys.trail) }}
+			{qa}
 			bind:element={narrativeEl}
-		>
-			{#snippet tools()}{#if !tabbed}<Settings {settings} />{/if}{/snippet}
-		</Narrative>
+		/>
+
+		{#if layer}
+			<Notes
+				tab="tab-notes"
+				hidden={tab !== 'notes'}
+				title={titleOf(narrativeFrame)}
+				notes={frameNotes}
+				editing={draft?.id ?? null}
+				key={shown(keys.note)}
+				onadd={(from) => startNote(from)}
+				onedit={editNote}
+				ondelete={deleteNote}
+			/>
+		{/if}
 
 		<AiPane
 			subject={subject.id}
@@ -391,15 +612,13 @@
 			{settings}
 			offer={ai}
 			mainFrames={stops(subject.spine).map((s) => s.frameId)}
-			titleOf={(id) =>
-				subject.frames[id]
-					? `${subject.frames[id].scene.headline} ${subject.frames[id].scene.accent}`
-					: id}
+			titleOf={(id) => (subject.frames[id] ? titleOf(subject.frames[id]) : id)}
 			{ongrown}
 			layout={shape}
 			showResults={!tabbed || tab === 'ai'}
 			onshow={() => (tab = 'ai')}
 			onactivity={(a) => (aiActivity = a)}
+			onkept={(id) => layer?.onkept(id)}
 		/>
 
 		{#each dividers as d (d.id)}
@@ -420,10 +639,14 @@
 	</div>
 
 	<p id="ai-hint" class="hint">
-		<kbd>←</kbd><kbd>→</kbd> spine · <kbd>↑</kbd><kbd>↓</kbd> narrative · <kbd>S</kbd> sync,
-		<kbd>T</kbd> trail and <kbd>B</kbd> bookmark, in the spine or narrative · <kbd>Tab</kbd> into
-		and out of the AI pane · <kbd>Esc</kbd> back to the spine · drag a divider, or focus it and use the
-		arrows
+		<kbd>←</kbd><kbd>→</kbd> spine · <kbd>↑</kbd><kbd>↓</kbd> narrative
+		{#if hints.length}
+			·
+			<!-- prettier-ignore -->
+			<span>{#each hints as h (h.action)}{h.lead}<kbd>{h.key}</kbd>&nbsp;{h.label}{/each}, in the spine{layer ? ', narrative or notes' : ' or narrative'}</span>
+		{/if}
+		· <kbd>Tab</kbd> into and out of the AI pane · <kbd>Esc</kbd> back to the spine · drag a divider,
+		or focus it and use the arrows
 	</p>
 </div>
 
@@ -487,14 +710,21 @@
 		min-height: 0;
 		display: grid;
 		grid-template-columns: var(--cols);
+		grid-template-rows: auto minmax(0, 1fr);
 	}
 	.panes > :global(.spine) {
 		grid-column: 1;
 		grid-row: 1 / -1;
 	}
-	.panes > :global(.narrative) {
+	/* The tab row heads the right-hand pane in every layout; the gear sits in it. */
+	.panes > .tab-row {
 		grid-column: 2;
 		grid-row: 1;
+	}
+	.panes > :global(.narrative),
+	.panes > :global(.notes) {
+		grid-column: 2;
+		grid-row: 2;
 	}
 	.panes > :global(.at-spine) {
 		grid-column: 1;
@@ -503,48 +733,42 @@
 		margin-right: -5px;
 	}
 	.strip {
-		grid-template-rows: minmax(0, 1fr) auto;
+		grid-template-rows: auto minmax(0, 1fr) auto;
 	}
 	.strip > :global(.spine),
 	.strip > :global(.at-spine) {
-		grid-row: 1;
+		grid-row: 1 / 3;
 	}
 	.strip > :global(.ai) {
 		grid-column: 1 / -1;
-		grid-row: 2;
-	}
-	.columns {
-		grid-template-rows: minmax(0, 1fr);
+		grid-row: 3;
 	}
 	.columns > :global(.ai) {
 		grid-column: 3;
-		grid-row: 1;
+		grid-row: 1 / -1;
 	}
 	.columns > :global(.at-ai) {
 		grid-column: 3;
-		grid-row: 1;
+		grid-row: 1 / -1;
 		justify-self: start;
 		margin-left: -5px;
 	}
 	.split {
-		grid-template-rows: var(--rows);
+		grid-template-rows: auto var(--rows);
 	}
 	.split > :global(.ai) {
 		grid-column: 2;
-		grid-row: 2;
+		grid-row: 3;
 		border-left: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
 	}
 	.split > :global(.at-upper) {
 		grid-column: 2;
-		grid-row: 1;
+		grid-row: 2;
 		align-self: end;
 		margin-bottom: -5px;
 	}
 	.tabs {
 		grid-template-rows: auto minmax(0, 1fr) auto;
-	}
-	.tabs > :global(.narrative) {
-		grid-row: 2;
 	}
 	.tabs > :global(.ai) {
 		grid-column: 2;
@@ -571,8 +795,6 @@
 		border-radius: 0.2rem;
 	}
 	.tab-row {
-		grid-column: 2;
-		grid-row: 1;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -600,7 +822,8 @@
 		color: var(--ink);
 		border-bottom-color: var(--accent);
 	}
-	.badge {
+	.badge,
+	.count {
 		margin-left: 0.25rem;
 		color: var(--accent);
 	}

@@ -93,7 +93,12 @@ start screen, bookmarks, and deep links (`/<subject>/<frame>`);
 sprint 010 the AI pane's layout as a reader setting (two panes with
 Narrative and AI tabs by default, three columns the alternative), draggable
 pane dividers, and one Ask/Grow control (a verb, one text box, a send
-button).
+button);
+sprint 011 the reader's layer on a frame: notes written in place of the
+scene (a Notes tab, an unsaved-changes guard, and an "Agent review" flag
+that `skills/review-notes/` works through), kept answers moved into the
+reader store and shown again (a spine mark and a Q&A section), and
+remappable character shortcuts (S, T, B and the new N).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -109,7 +114,8 @@ subject under `subjects/`. Layout: `engine/` (model, loader,
 validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
 `src/` (SvelteKit wiring — the only code that picks a subject),
 `create-tools/` (authoring scripts: plates, citations, charts, traced art),
-`skills/` (content-writing instructions: `grow/SKILL.md`).
+`skills/` (agent instructions: `grow/SKILL.md` writes content,
+`review-notes/SKILL.md` works through flagged notes).
 
 **Rules that are easy to break:**
 
@@ -128,7 +134,7 @@ validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
   new write path goes through that gate, never around it. Reader data is
   keyed by that reader, and its routes refuse a request with none, reads
   included.
-- Reader data (places, bookmarks, later notes) goes through `ReaderStore`,
+- Reader data (places, bookmarks, notes, kept answers) goes through `ReaderStore`,
   never straight to SQLite; a schema change is a new migration, never an
   edit to a shipped one.
 - The repo is public.

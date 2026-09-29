@@ -1,15 +1,15 @@
 import { error, json } from '@sveltejs/kit';
 import { ANSWER_ID } from '$engine/ai/kept';
 import { answers, keep } from '$lib/server/ask';
-import { dataDir } from '$lib/server/config';
+import { readerStore } from '$lib/server/reader-store';
 import type { RequestHandler } from './$types';
 
 /**
  * Keep this: `{subject, id}` of an answer the server streamed in the last
  * hour, about that subject. The server writes what it remembers, never text
- * the client sends back.
+ * the client sends back, into the reader's own store.
  */
-export const POST: RequestHandler = async ({ request }) => {
+export const POST: RequestHandler = async ({ request, locals }) => {
 	const body = (await request.json().catch(() => null)) as Record<string, unknown> | null;
 	const id = body?.id;
 	if (typeof id !== 'string' || !ANSWER_ID.test(id)) error(400, 'An answer id is required.');
@@ -18,7 +18,8 @@ export const POST: RequestHandler = async ({ request }) => {
 		error(404, 'That answer is no longer held; ask again to keep it.');
 	let kept;
 	try {
-		kept = await keep(answer, dataDir());
+		// The hook refused a write without a reader, so there is one.
+		kept = await keep(answer, locals.reader!.login, readerStore());
 	} catch (e) {
 		// A web page that could not be pinned (Wikipedia unreachable, say).
 		error(502, `Could not keep it: ${(e as Error).message}`);

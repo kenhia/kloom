@@ -82,5 +82,9 @@ verify:
     check "tailnet door keeps reader data from an anonymous read" \
         "$(code http://127.0.0.1:4890/api/reader/export)" 401
     check "ssh door reads its reader's data" "$(code http://127.0.0.1:4891/api/reader/export)" 200
+    check "tailnet door keeps notes from an anonymous read" \
+        "$(code 'http://127.0.0.1:4890/api/reader/notes?subject=western-civ')" 401
+    check "ssh door reads its reader's notes" \
+        "$(code 'http://127.0.0.1:4891/api/reader/notes?subject=western-civ')" 200
     echo "deployed $(cat "{{ home }}/app/DEPLOYED" | cut -c1-9); content $(git -C "{{ home }}/content" log -1 --format='%h on %D' | cut -c1-60)"
     exit $fail

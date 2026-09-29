@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
+	import { hasMarks, marksText, NO_MARKS, type FrameMarks } from '../marks';
 	import type { Frame, Trail } from '../model';
 	import { cursorAt, indexLabel, type Stop } from '../navigation';
 
@@ -11,8 +12,8 @@
 		trail: Trail | null;
 		/** Frame ids on this spine that have a trail branching from them. */
 		branches: Set<string>;
-		/** Frame ids the reader has bookmarked. */
-		marked?: Set<string>;
+		/** The reader's marks on a frame: bookmark, kept answers, notes. */
+		marksOf?: (frame: string) => FrameMarks;
 		frames: Record<string, Frame>;
 		onstep: (delta: number) => void;
 		onjump: (index: number) => void;
@@ -22,6 +23,8 @@
 		slider?: HTMLElement;
 		/** Controls beside the index (the bookmarks). */
 		tools?: Snippet;
+		/** Shown in the scene's place while the reader writes a note. */
+		editor?: Snippet;
 	}
 
 	let {
@@ -30,15 +33,22 @@
 		frame,
 		trail,
 		branches,
-		marked = new Set(),
+		marksOf = () => NO_MARKS,
 		frames,
 		onstep,
 		onjump,
 		onwheel,
 		onleave,
 		slider = $bindable(),
-		tools
+		tools,
+		editor
 	}: Props = $props();
+
+	/** The frame's marks in words, after a comma, for its value text and title. */
+	const said = (id: string) =>
+		marksText(marksOf(id))
+			.map((m) => `, ${m}`)
+			.join('');
 
 	const stop = $derived(path[index]);
 	const chapter = $derived(trail ? `${trail.title} · ${stop.segment.title}` : stop.segment.title);
@@ -78,26 +88,30 @@
 		</div>
 	</div>
 
-	{#key frame.id}
-		<div class="scene">
-			{#if frame.svg}
-				<div class="illustration" aria-hidden="true">
-					<!-- Validated on load: a line drawing, no script or handlers. -->
-					<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-					{@html frame.svg}
-				</div>
-			{/if}
-			<p class="headline">
-				<span class="words">{frame.scene.headline}</span>
-				<em class="accent">{frame.scene.accent}</em>
-			</p>
-			{#if frame.scene.metadata.length}
-				<ul class="metadata">
-					{#each frame.scene.metadata as line (line)}<li>{line}</li>{/each}
-				</ul>
-			{/if}
-		</div>
-	{/key}
+	{#if editor}
+		{@render editor()}
+	{:else}
+		{#key frame.id}
+			<div class="scene">
+				{#if frame.svg}
+					<div class="illustration" aria-hidden="true">
+						<!-- Validated on load: a line drawing, no script or handlers. -->
+						<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+						{@html frame.svg}
+					</div>
+				{/if}
+				<p class="headline">
+					<span class="words">{frame.scene.headline}</span>
+					<em class="accent">{frame.scene.accent}</em>
+				</p>
+				{#if frame.scene.metadata.length}
+					<ul class="metadata">
+						{#each frame.scene.metadata as line (line)}<li>{line}</li>{/each}
+					</ul>
+				{/if}
+			</div>
+		{/key}
+	{/if}
 
 	<div class="hud bottom">
 		<p class="position">{frame.position.label}</p>
@@ -128,19 +142,28 @@
 			aria-valuemin={1}
 			aria-valuemax={path.length}
 			aria-valuenow={index + 1}
-			aria-valuetext={`${index + 1} of ${path.length}: ${frame.position.label}, ${frame.scene.headline} ${frame.scene.accent}${marked.has(frame.id) ? ', bookmarked' : ''}`}
+			aria-valuetext={`${index + 1} of ${path.length}: ${frame.position.label}, ${frame.scene.headline} ${frame.scene.accent}${said(frame.id)}`}
 			bind:this={slider}
 			onclick={jumpTo}
 		>
 			{#each path as s, i (s.frameId)}
+				{@const m = marksOf(s.frameId)}
 				<span
 					class="tick"
 					class:boundary={i > 0 && path[i - 1].segment !== s.segment}
 					class:branch={branches.has(s.frameId)}
-					class:marked={marked.has(s.frameId)}
 					style:left="{cursorAt(i, path.length) * 100}%"
-					title={frames[s.frameId].position.label + (marked.has(s.frameId) ? ' (bookmarked)' : '')}
-				></span>
+					title={frames[s.frameId].position.label + said(s.frameId)}
+				>
+					{#if hasMarks(m)}
+						<!-- The reader's layer, under the line: each kind in its own place and shape. -->
+						<span class="marks" aria-hidden="true">
+							{#if m.bookmarked}<span class="mark bookmark"></span>{/if}
+							{#if m.kept}<span class="mark kept"></span>{/if}
+							{#if m.notes}<span class="mark note"></span>{/if}
+						</span>
+					{/if}
+				</span>
 			{/each}
 			<span class="cursor" style:left="{cursorAt(index, path.length) * 100}%"></span>
 		</div>
@@ -346,6 +369,8 @@
 		align-items: center;
 		gap: 0.75rem;
 		margin-top: 0.75rem;
+		/* Room for the reader's marks under the line. */
+		padding-bottom: 1rem;
 	}
 	.step {
 		font: 1.25rem/1 var(--serif);
@@ -395,16 +420,40 @@
 		border: 1px solid var(--accent);
 		border-radius: 50%;
 	}
-	/* A bookmark: a small filled flag under the line, where the branch ring sits above it. */
-	.tick.marked::before {
-		content: '';
+	/*
+	 * The reader's layer (docs/design.md §Marks), under the line where the
+	 * branch ring sits above it. Each kind keeps its own row whether or not the
+	 * others are there: a bookmark's flag first, then a kept answer's dot, then
+	 * a note's lines.
+	 */
+	.marks {
 		position: absolute;
 		top: calc(100% + 0.15rem);
 		left: -0.2rem;
+		display: grid;
+		grid-template-rows: repeat(3, 0.45rem);
+		row-gap: 0.12rem;
 		width: 0.4rem;
-		height: 0.5rem;
+	}
+	.mark {
+		display: block;
+		width: 0.4rem;
+	}
+	.bookmark {
+		grid-row: 1;
 		background: var(--accent);
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 70%, 0 100%);
+	}
+	.kept {
+		grid-row: 2;
+		height: 0.4rem;
+		border-radius: 50%;
+		background: var(--accent);
+	}
+	.note {
+		grid-row: 3;
+		border-top: 1px solid var(--accent);
+		border-bottom: 1px solid var(--accent);
 	}
 	.cursor {
 		width: 2px;

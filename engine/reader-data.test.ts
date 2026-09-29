@@ -35,6 +35,33 @@ describe('an export file', () => {
 		expect(parsed).toMatchObject({ places: [{ at: '2026-09-28T12:00:00.000Z' }] });
 	});
 
+	it('reads a version 1 file as one with no notes or kept answers', () => {
+		expect(parseExport(good)).toMatchObject({ version: 2, notes: [], kept: [] });
+	});
+
+	it('reads version 2’s notes, and refuses a bad one', () => {
+		const n = {
+			id: 'a1',
+			subject: 'ai',
+			frame: 'turing',
+			label: 'Turing',
+			text: 'look again',
+			review: 'flagged',
+			response: null,
+			created: '2026-09-28T12:00:00Z',
+			updated: '2026-09-28T12:00:00Z'
+		};
+		const v2 = { ...good, version: 2, notes: [n], kept: [] };
+		expect(parseExport(v2)).toMatchObject({ notes: [{ id: 'a1', review: 'flagged' }] });
+		expect(parseExport({ ...v2, notes: [{ ...n, review: 'maybe' }] })).toEqual({
+			error: 'note 0 is not a valid note'
+		});
+		expect(parseExport({ ...v2, kept: [{ answer: {}, grown: null }] })).toEqual({
+			error: 'kept answer 0 is not a valid kept answer'
+		});
+		expect(parseExport({ ...v2, notes: undefined })).toMatchObject({ error: /lists/ });
+	});
+
 	it('refuses the whole file for one bad record', () => {
 		expect(parseExport({ ...good, bookmarks: [{ subject: 'ai' }] })).toEqual({
 			error: 'bookmark 0 is not a valid record'
@@ -46,7 +73,7 @@ describe('an export file', () => {
 
 	it('refuses something that is not an export, or a version it does not know', () => {
 		expect(parseExport([])).toMatchObject({ error: 'not a kloom reader-data export' });
-		expect(parseExport({ ...good, version: 2 })).toEqual({ error: 'unknown version 2' });
+		expect(parseExport({ ...good, version: 3 })).toEqual({ error: 'unknown version 3' });
 		expect(parseExport({ ...good, places: 'x' })).toMatchObject({ error: /lists/ });
 	});
 });

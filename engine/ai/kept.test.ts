@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { ANSWER_ID, answerId, keptAnswer, keptAnswerProblems, type Answer } from './kept';
+import {
+	ANSWER_ID,
+	answerId,
+	keptAnswer,
+	keptAnswerProblems,
+	keptReferences,
+	type Answer
+} from './kept';
 import { context } from './fixture';
 
 const answer: Answer = {
@@ -48,5 +55,24 @@ describe('kept answers', () => {
 			/^citations\[0\]/
 		);
 		expect(keptAnswerProblems(null)).toEqual(['not an object']);
+	});
+});
+
+describe('a kept answer’s references, for showing it again', () => {
+	it('gets back the number the answer marks each citation by', () => {
+		const k = keptAnswer(
+			{ ...answer, answer: 'A book [3], then ink [2], ink again [2].' },
+			new Date()
+		);
+		expect(keptReferences(k, 3).map((r) => [r.n, r.citation.title])).toEqual([
+			[3, 'A book with a DOI'],
+			[2, 'Ink']
+		]);
+	});
+
+	it('leaves them unnumbered when the frame’s list no longer pairs with them', () => {
+		const k = keptAnswer(answer, new Date());
+		// The frame now has one citation: [2] and [3] are no longer references.
+		expect(keptReferences(k, 1).map((r) => r.n)).toEqual([null, null]);
 	});
 });

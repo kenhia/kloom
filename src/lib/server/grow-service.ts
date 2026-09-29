@@ -1,12 +1,13 @@
 import { readFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import type { GrowJob } from '$engine/ai/grow';
-import { keptAnswerProblems } from '$engine/ai/kept';
+import { keptAnswerProblems, type KeptAnswer } from '$engine/ai/kept';
 import { loadAppConfig } from './app-config';
 import { providerFor } from './ask';
 import { dataDir, listSubjects, subjectDirFor } from './config';
 import { contentRepo, growBranch, offBranch, pushGrowBranch } from './content';
 import { GrowQueue, runGrowJob } from './grow';
+import { readerStore } from './reader-store';
 import { exclusive } from './subject';
 
 /**
@@ -27,14 +28,20 @@ const REFERENCE: Record<string, string> = {
 	'create-tools/wiki-cite/README.md': 'create-tools/wiki-cite/README.md'
 };
 
-/** A kept answer by id, checked; null when it is missing or malformed. */
-export async function readKept(subject: string, id: string): Promise<unknown | null> {
+/**
+ * One of a reader's kept answers by id, from their store, checked; null when
+ * it is missing or malformed. A reader grows from their own kept answers only.
+ */
+export async function readKept(
+	reader: string,
+	subject: string,
+	id: string
+): Promise<KeptAnswer | null> {
 	try {
-		const kept = JSON.parse(
-			await readFile(join(dataDir(), subject, 'kept', `${id}.json`), 'utf8')
-		) as { subject?: string };
-		return keptAnswerProblems(kept).length === 0 && kept.subject === subject ? kept : null;
-	} catch {
+		const kept = await readerStore().kept(reader, subject, id);
+		return kept && keptAnswerProblems(kept).length === 0 && kept.subject === subject ? kept : null;
+	} catch (e) {
+		console.error('grow: could not read the kept answer', e);
 		return null;
 	}
 }
@@ -55,7 +62,12 @@ async function runOne(job: GrowJob, progress: (text: string) => void) {
 	if (!dir) return { ok: false as const, error: `The subject "${job.subject}" is not served.` };
 	const config = await loadAppConfig();
 	if (!config.grow) return { ok: false as const, error: 'Grow is no longer configured.' };
-	const kept = job.kept ? await readKept(job.subject, job.kept) : undefined;
+	// A job from before sprint 007 names no reader, and so no store to read.
+	const kept = job.kept
+		? job.by
+			? await readKept(job.by.login, job.subject, job.kept)
+			: null
+		: undefined;
 	if (kept === null) return { ok: false as const, error: 'The kept answer is gone or malformed.' };
 	// A service grows only on its content clone's grow branch (content.ts).
 	const branch = growBranch();
@@ -77,6 +89,11 @@ async function runOne(job: GrowJob, progress: (text: string) => void) {
 		},
 		progress
 	);
+	// The kept answer now says what it grew into (docs/design.md §Kept answers).
+	if (outcome.ok && job.kept && job.by)
+		await readerStore()
+			.grew(job.by.login, job.subject, job.kept, outcome.result.frames)
+			.catch((e) => console.error('grow: could not record what the kept answer grew into', e));
 	if (outcome.ok && repo && branch)
 		try {
 			await pushGrowBranch(repo, branch);
