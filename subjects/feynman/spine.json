@@ -19,6 +19,12 @@
 			"frames": ["cornell", "wobbling-plate", "pocono", "diagrams"]
 		},
 		{
+			"id": "caltech",
+			"title": "Caltech",
+			"labelKind": "date",
+			"frames": ["gweneth", "lectures", "character-of-law", "nobel"]
+		},
+		{
 			"id": "last-years",
 			"title": "The last years",
 			"labelKind": "date",

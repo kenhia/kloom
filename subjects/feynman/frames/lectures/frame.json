@@ -1,0 +1,167 @@
+{
+	"id": "lectures",
+	"position": {
+		"label": "1961–63",
+		"sort": 1961
+	},
+	"scene": {
+		"headline": "He taught physics to",
+		"accent": "FRESHMEN.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CALTECH · NORMAN BRIDGE LABORATORY · 1961–63",
+			"ROBERT LEIGHTON · MATTHEW SANDS · ADDISON-WESLEY"
+		],
+		"counter": {
+			"value": "10–20 h",
+			"label": "of a physicist's editing for each lecture, by Leighton's count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Capturing the Wisdom of Feynman",
+			"doi": "10.1063/1.1955479",
+			"url": "https://physicstoday.aip.org/features/capturing-the-wisdom-of-feynman",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Sands",
+					"given": "Matthew"
+				}
+			],
+			"container": "Physics Today",
+			"volume": "58",
+			"issue": "4",
+			"pages": "49–55",
+			"published": "2005-04",
+			"key": true,
+			"note": "How the course and the books were made, by one of the three authors"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session IV",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-4",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-28",
+			"note": "His rules for the course, and his discouragement, in his words of 1966"
+		},
+		{
+			"kind": "book",
+			"title": "The Feynman Lectures on Physics, Vol. I: Mainly Mechanics, Radiation, and Heat",
+			"url": "https://www.feynmanlectures.caltech.edu/I_22.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Robert B."
+				},
+				{
+					"family": "Sands",
+					"given": "Matthew"
+				}
+			],
+			"publisher": "Addison-Wesley",
+			"place": "Reading, MA",
+			"published": "1963",
+			"note": "Chapter 22, “Algebra”, and Feynman's preface of June 1963"
+		},
+		{
+			"kind": "article",
+			"title": "Feynman's Lost Lecture: The Motion of Planets Around the Sun",
+			"url": "https://calteches.library.caltech.edu/3822/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Goodstein",
+					"given": "David L."
+				},
+				{
+					"family": "Goodstein",
+					"given": "Judith R."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "59",
+			"issue": "3",
+			"pages": "14–21",
+			"published": "1996"
+		},
+		{
+			"kind": "article",
+			"title": "The Feynman Lectures on Physics",
+			"url": "https://calteches.library.caltech.edu/2277/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Blanford",
+					"given": "Robert R."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "27",
+			"issue": "5",
+			"pages": "19",
+			"published": "1964-02"
+		},
+		{
+			"kind": "web",
+			"title": "Feynman's Nobel Year",
+			"url": "https://www.caltech.edu/about/news/feynmans-nobel-year-48524",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Douglas"
+				}
+			],
+			"container": "Caltech News",
+			"publisher": "California Institute of Technology",
+			"published": "2015-10-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Feynman Lectures on Physics",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Feynman_Lectures_on_Physics&oldid=1377314831",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "The arcade of the Norman Bridge Laboratory of Physics, Caltech",
+			"url": "https://commons.wikimedia.org/wiki/File:Bridge_Laboratory_Caltech_2017.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Antony-22"
+				}
+			],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "bridge-laboratory.jpg",
+			"published": "2017-05-21"
+		}
+	]
+}
