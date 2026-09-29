@@ -1,0 +1,162 @@
+{
+	"id": "forces-in-molecules",
+	"position": {
+		"label": "1939",
+		"sort": 1939
+	},
+	"scene": {
+		"headline": "He showed the bond was plain",
+		"accent": "ELECTROSTATICS.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MIT · JOHN SLATER · MANUEL VALLARTA",
+			"FORCES IN MOLECULES · PHYSICAL REVIEW 56 · 1939"
+		],
+		"counter": {
+			"value": "1 of 5",
+			"label": "Putnam Fellows named for 1939"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05",
+			"note": "MIT, Vallarta's problem, Slater's thesis problem and the Putnam, in his words of 1966"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Forces in Molecules",
+			"doi": "10.1103/PhysRev.56.340",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "56",
+			"issue": "4",
+			"pages": "340–343",
+			"published": "1939-08-15",
+			"note": "The senior thesis's theorem: the force on a nucleus is the electrostatic pull of the electron cloud"
+		},
+		{
+			"kind": "article",
+			"title": "The Scattering of Cosmic Rays by the Stars of a Galaxy",
+			"doi": "10.1103/PhysRev.55.506.2",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Vallarta",
+					"given": "M. S."
+				},
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "55",
+			"issue": "5",
+			"pages": "506–507",
+			"published": "1939-03-01"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Hellmann–Feynman theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hellmann%E2%80%93Feynman_theorem&oldid=1360980698",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hans Hellmann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hans_Hellmann&oldid=1377188709",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Manuel Sandoval Vallarta",
+			"url": "https://en.wikipedia.org/w/index.php?title=Manuel_Sandoval_Vallarta&oldid=1371966136",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Putnam Competition",
+			"url": "https://en.wikipedia.org/w/index.php?title=Putnam_Competition&oldid=1376918444",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Richard Feynman's senior portrait",
+			"url": "https://commons.wikimedia.org/wiki/File:Richard_Feynman_1939_MIT_yearbook_portrait.jpg",
+			"accessed": "2026-09-28",
+			"container": "Technique, the MIT yearbook, 1939; MIT Distinctive Collections, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "mit-yearbook-1939.jpg",
+			"published": "1939"
+		}
+	]
+}

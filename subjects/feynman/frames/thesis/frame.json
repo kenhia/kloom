@@ -1,0 +1,168 @@
+{
+	"id": "thesis",
+	"position": {
+		"label": "1942",
+		"sort": 1942
+	},
+	"scene": {
+		"headline": "He wrote quantum mechanics without a",
+		"accent": "HAMILTONIAN.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PRINCETON · JOHN WHEELER · HERBERT JEHLE",
+			"THE PRINCIPLE OF LEAST ACTION IN QUANTUM MECHANICS"
+		],
+		"counter": {
+			"value": "24",
+			"label": "his age when the PhD was conferred, June 1942"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05",
+			"note": "The quantum problem, Jehle, the leave from war work and the degree, in his words of 1966"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Feynman's Thesis: A New Approach to Quantum Theory",
+			"doi": "10.1142/5852",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"editors": [
+				{
+					"family": "Brown",
+					"given": "Laurie M."
+				}
+			],
+			"publisher": "World Scientific",
+			"place": "Singapore",
+			"published": "2005",
+			"note": "The 1942 thesis, first printed"
+		},
+		{
+			"kind": "web",
+			"title": "The Development of the Space-Time View of Quantum Electrodynamics",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Nobel Lecture, 11 December 1965",
+			"publisher": "Nobel Foundation",
+			"published": "1965-12-11",
+			"note": "The Nassau Tavern, Jehle and Dirac's paper"
+		},
+		{
+			"kind": "article",
+			"title": "Space-Time Approach to Non-Relativistic Quantum Mechanics",
+			"doi": "10.1103/RevModPhys.20.367",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Reviews of Modern Physics",
+			"volume": "20",
+			"issue": "2",
+			"pages": "367–387",
+			"published": "1948-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Path-integral formulation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Path-integral_formulation&oldid=1375876216",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Herbert Jehle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Herbert_Jehle&oldid=1356049762",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Palmer Physical Laboratory, Princeton University, from the front",
+			"url": "https://commons.wikimedia.org/wiki/File:Palmer_Physical_Laboratory_front.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "David Keddie"
+				}
+			],
+			"container": "Photograph, via Wikimedia Commons; the building is now part of the Frist Campus Center",
+			"licence": "CC BY-SA 4.0",
+			"file": "palmer-laboratory.jpg",
+			"published": "2015-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frist Campus Center",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frist_Campus_Center&oldid=1373293592",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		}
+	]
+}
