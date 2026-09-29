@@ -146,3 +146,22 @@ find its words again, or say it cannot, and never sit on the wrong ones.
   before the colon. It reads fine, but it is sprint 011's pattern and a
   one-line change for all three if Ken wants it tidier. Not filed: it is
   cosmetic and no decision hangs on it.
+
+## Deployed
+
+2026-09-29 03:36 UTC, on kai. `just deploy` (the `recipe: deploy` line in
+`.sprint-deploy`) ran from merged `main` at `4245c42`. It built the app,
+restarted `kloom.service`, and passed all eight of `just verify`'s door
+checks. No content changed: the content clone is still on `grow/kai`.
+
+- **The migration, before and after** (read-only counts): `reader.db` went
+  from schema 2 to 3, and `note` gained its `anchor` column. It held 2
+  places, 0 bookmarks, 0 notes and 0 kept answers before and after. The
+  journal has no errors.
+- **Checked live on the ssh door (`127.0.0.1:4891`):**
+  - a flagged annotation POSTed to `/api/reader/notes` came back with its
+    anchor, was listed with its quoted words, and was deleted, leaving the
+    list empty;
+  - a malformed anchor is refused (400);
+  - `/western-civ/printing-press` serves the Annotate button and the
+    "Annotate the reading" key setting.
