@@ -1,0 +1,89 @@
+{
+	"id": "safecracking",
+	"position": { "label": "1943–46", "sort": 1943 },
+	"scene": {
+		"headline": "He opened the safes by",
+		"accent": "PRACTICE.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WOODEN CABINETS · PADLOCKS · MOSLER COMBINATION LOCKS",
+			"EDWARD TELLER · FREDERIC DE HOFFMANN"
+		],
+		"counter": { "value": "8,000", "label": "combinations, if a number within two will do" }
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05",
+			"note": "The locks, the method and the Oak Ridge safes, as he told them in 1966"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Los Alamos from Below: Reminiscences of 1943–1945",
+			"url": "https://calteches.library.caltech.edu/34/3/FeynmanLosAlamos.htm",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "Engineering and Science",
+			"volume": "39",
+			"issue": "2",
+			"published": "1976-01",
+			"note": "The 1975 telling, with the 8,000 combinations and de Hoffmann's safe"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Richard P. Feynman: Safecracking, Cipher-Creating, and ‘the Most Brilliant Young Physicist’",
+			"url": "https://www.lanl.gov/media/publications/the-vault/1023-richard-feynman",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Templeton", "given": "Patty" }],
+			"container": "The Vault",
+			"publisher": "Los Alamos National Laboratory, National Security Research Center",
+			"published": "2023-10-10",
+			"note": "Quotes his letter to Arline of April 1945 about locks"
+		},
+		{
+			"kind": "book",
+			"title": "“Surely You're Joking, Mr. Feynman!” Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514629W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Feynman", "given": "Richard P." },
+				{ "family": "Leighton", "given": "Ralph" }
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1985"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "The Mosler Safe Company's factory at Hamilton, Ohio, from its 1937 catalogue",
+			"url": "https://commons.wikimedia.org/wiki/File:Mosler_Safe_Company_Catalog_1932_-_Page_18.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Mosler Safe Company" }],
+			"container": "Mosler Safe Company catalogue no. 1502-A, page 18; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "mosler-catalogue.jpg",
+			"published": "1937"
+		}
+	]
+}

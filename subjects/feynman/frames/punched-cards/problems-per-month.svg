@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Implosion problems finished per month by the Los Alamos punched-card group, as Feynman told it and as the records show</title>
+<desc id="d">Bar chart, problems per month. In Feynman's telling, three problems in nine months before he took over (0.33 a month) and nine in three months after (3 a month). In the laboratory's records as Lewis and Archer read them, eight problems between April and December 1944 (about 0.9 a month) and twelve between April and July 1945 (3 a month). Data: Feynman, Los Alamos from Below (1976); Lewis, Trinity by the Numbers (2021); Archer, The Los Alamos Computing Facility during the Manhattan Project (2021).</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="196.5" y2="196.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">1</text>
+<line x1="64" x2="460" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">2</text>
+<line x1="64" x2="460" y1="89.5" y2="89.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">3</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">4</text>
+</g>
+<rect x="85.5" y="232.3" width="56" height="17.7" fill-opacity="0.85"/>
+<text x="113.5" y="226.3" text-anchor="middle">3 in 9 mo</text>
+<text x="113.5" y="266" text-anchor="middle">Before</text>
+<text x="113.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">his telling</text>
+<rect x="184.5" y="202.4" width="56" height="47.6" fill-opacity="0.85"/>
+<text x="212.5" y="196.4" text-anchor="middle">8 in 9 mo</text>
+<text x="212.5" y="266" text-anchor="middle">1944</text>
+<text x="212.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Apr–Dec</text>
+<rect x="283.5" y="89.5" width="56" height="160.5" fill-opacity="0.85"/>
+<text x="311.5" y="83.5" text-anchor="middle">9 in 3 mo</text>
+<text x="311.5" y="266" text-anchor="middle">After</text>
+<text x="311.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">his telling</text>
+<rect x="382.5" y="89.5" width="56" height="160.5" class="accent" fill="currentColor"/>
+<text x="410.5" y="83.5" text-anchor="middle">12 in 4 mo</text>
+<text x="410.5" y="266" text-anchor="middle">1945</text>
+<text x="410.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Apr–Jul</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">IBM GROUP · PROBLEMS FINISHED PER MONTH</text>
+</g></svg>

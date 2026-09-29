@@ -13,6 +13,12 @@
 			"frames": ["forces-in-molecules", "princeton", "absorber-theory", "thesis", "arline"]
 		},
 		{
+			"id": "los-alamos",
+			"title": "Los Alamos",
+			"labelKind": "date",
+			"frames": ["los-alamos", "arline-death", "trinity"]
+		},
+		{
 			"id": "cornell",
 			"title": "Cornell",
 			"labelKind": "date",

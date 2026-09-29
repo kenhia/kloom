@@ -1,0 +1,30 @@
+{
+	"title": "Implosion problems finished per month by the Los Alamos punched-card group, as Feynman told it and as the records show",
+	"description": "Bar chart, problems per month. In Feynman's telling, three problems in nine months before he took over (0.33 a month) and nine in three months after (3 a month). In the laboratory's records as Lewis and Archer read them, eight problems between April and December 1944 (about 0.9 a month) and twelve between April and July 1945 (3 a month). Data: Feynman, Los Alamos from Below (1976); Lewis, Trinity by the Numbers (2021); Archer, The Los Alamos Computing Facility during the Manhattan Project (2021).",
+	"heading": "IBM GROUP · PROBLEMS FINISHED PER MONTH",
+	"unit": "",
+	"axis": {
+		"max": 4,
+		"ticks": [
+			[0, "0"],
+			[1, "1"],
+			[2, "2"],
+			[3, "3"],
+			[4, "4"]
+		]
+	},
+	"bars": [
+		{ "label": "Before", "sublabel": "his telling", "value": 0.33, "display": "3 in 9 mo" },
+		{ "label": "1944", "sublabel": "Apr–Dec", "value": 0.89, "display": "8 in 9 mo" },
+		{ "label": "After", "sublabel": "his telling", "value": 3, "display": "9 in 3 mo" },
+		{
+			"label": "1945",
+			"sublabel": "Apr–Jul",
+			"value": 3,
+			"display": "12 in 4 mo",
+			"highlight": true
+		}
+	],
+	"barWidth": 56,
+	"width": 480
+}

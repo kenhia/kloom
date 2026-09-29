@@ -1,0 +1,118 @@
+{
+	"id": "punched-cards",
+	"position": { "label": "1943–45", "sort": 1943 },
+	"scene": {
+		"headline": "He ran the cards as a",
+		"accent": "PIPELINE.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"T-5 COMPUTATIONS · T-6 IBM COMPUTATIONS",
+			"MARCHANT · IBM 601 · FRANKEL · METROPOLIS · LIVESAY"
+		],
+		"counter": { "value": "12", "label": "implosion problems finished, April to July 1945" }
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Trinity by the Numbers: The Computing Effort that Made Trinity Possible",
+			"url": "https://arxiv.org/abs/2103.06211",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Lewis", "given": "Nicholas" }],
+			"container": "arXiv preprint arXiv:2103.06211",
+			"published": "2021-03",
+			"note": "The human computers and the punched-card group, from the laboratory's archives; in Nuclear Technology 207 (2021)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Los Alamos Computing Facility during the Manhattan Project",
+			"url": "https://arxiv.org/abs/2103.05705",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Archer", "given": "B. J." }],
+			"container": "arXiv preprint arXiv:2103.05705",
+			"published": "2021-02-17",
+			"note": "The machines, their dates and their operators; in Nuclear Technology 207 (2021)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Los Alamos from Below: Reminiscences of 1943–1945",
+			"url": "https://calteches.library.caltech.edu/34/3/FeynmanLosAlamos.htm",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "Engineering and Science",
+			"volume": "39",
+			"issue": "2",
+			"published": "1976-01",
+			"note": "His account of the machines, the operators and the coloured decks"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05"
+		},
+		{
+			"kind": "web",
+			"title": "Richard P. Feynman: Safecracking, Cipher-Creating, and ‘the Most Brilliant Young Physicist’",
+			"url": "https://www.lanl.gov/media/publications/the-vault/1023-richard-feynman",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Templeton", "given": "Patty" }],
+			"container": "The Vault",
+			"publisher": "Los Alamos National Laboratory, National Security Research Center",
+			"published": "2023-10-10"
+		},
+		{
+			"kind": "article",
+			"title": "Richard Feynman and the Connection Machine",
+			"doi": "10.1063/1.881196",
+			"url": "https://longnow.org/essays/richard-feynman-connection-machine/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Hillis", "given": "W. Daniel" }],
+			"container": "Physics Today",
+			"volume": "42",
+			"issue": "2",
+			"pages": "78–83",
+			"published": "1989-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stan Frankel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stan_Frankel&oldid=1336309951",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-03"
+		},
+		{
+			"kind": "media",
+			"title": "An IBM 601 multiplying punch",
+			"url": "https://commons.wikimedia.org/wiki/File:IBM_601_-_MfK_Bern.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Sandstein" }],
+			"container": "Photograph at the Museum für Kommunikation, Bern, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "ibm-601.jpg",
+			"published": "2011-09-02"
+		},
+		{
+			"kind": "media",
+			"title": "Implosion problems finished per month, as Feynman told it and as the records show",
+			"url": "https://arxiv.org/abs/2103.06211",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "kloom contributors" }],
+			"container": "Chart drawn for kloom from Feynman (1976), Lewis (2021) and Archer (2021)",
+			"licence": "MIT",
+			"file": "problems-per-month.svg",
+			"published": "2026"
+		}
+	]
+}

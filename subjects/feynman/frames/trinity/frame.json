@@ -1,0 +1,114 @@
+{
+	"id": "trinity",
+	"position": { "label": "1945", "sort": 1945 },
+	"scene": {
+		"headline": "He watched it through a",
+		"accent": "WINDSHIELD.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": ["JORNADA DEL MUERTO · COMPANIA HILL", "16 JULY 1945 · 5:29 AM · THE GADGET"],
+		"counter": { "value": "95 s", "label": "for the sound to cross twenty miles" }
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Los Alamos from Below: Reminiscences of 1943–1945",
+			"url": "https://calteches.library.caltech.edu/34/3/FeynmanLosAlamos.htm",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "Engineering and Science",
+			"volume": "39",
+			"issue": "2",
+			"published": "1976-01",
+			"note": "His 1975 account of the test, the windshield and the celebrations"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05",
+			"note": "The telegram, the radio, the flash and the sound, in 1966"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session III",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-3",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-27"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Thirty Minutes Before the Dawn—Trinity",
+			"url": "https://arxiv.org/abs/2103.05722",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Carr", "given": "Alan B." }],
+			"container": "arXiv preprint arXiv:2103.05722",
+			"published": "2021-03",
+			"note": "Los Alamos's historian on the test's plan, observers and yield; published in Nuclear Technology 207"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Trinity (nuclear test)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Trinity_(nuclear_test)&oldid=1377282559",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atomic bombings of Hiroshima and Nagasaki",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atomic_bombings_of_Hiroshima_and_Nagasaki&oldid=1375714163",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "The Trinity fireball 0.016 seconds after the explosion",
+			"url": "https://commons.wikimedia.org/wiki/File:Trinity_Test_Fireball_16ms.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Brixner", "given": "Berlyn" }],
+			"container": "Los Alamos National Laboratory photograph PA-98-0520, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "trinity-fireball.jpg",
+			"published": "1945-07-16"
+		},
+		{
+			"kind": "media",
+			"title": "Estimates of the Trinity test's yield, 1945 to 2021",
+			"url": "https://arxiv.org/abs/2103.05722",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "kloom contributors" }],
+			"container": "Chart drawn for kloom from Carr (2021) and Wikipedia's Trinity (nuclear test)",
+			"licence": "MIT",
+			"file": "yield-estimates.svg",
+			"published": "2026"
+		}
+	]
+}

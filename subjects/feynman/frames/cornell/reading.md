@@ -34,13 +34,10 @@ that liked to have a faculty member in the house.
 
 He came to Cornell a widower. His wife **Arline** had died of tuberculosis
 in Albuquerque that June, and the bomb he had helped to build had been
-used on two cities in August. By his own account in _"Surely You're
-Joking, Mr. Feynman!"_ (1985), for a long time afterwards he would look at
-people building bridges and roads in New York and think it pointless: the
-bombs would come, and it was all going to be destroyed. His father died on
-8 October 1946. Nine days later Feynman wrote a letter to Arline, telling
-her how much he loved her, and put it away unsent; it was found after his
-own death.
+used on two cities in August. He brought with him the sense, which the
+Trinity frame tells, that anything built would soon be destroyed, and in
+October 1946, after his father's death, he wrote to Arline the letter he
+never sent.
 
 ## Burned out
 

@@ -1,0 +1,15 @@
+{
+	"id": "the-hill",
+	"title": "The Hill",
+	"anchor": "los-alamos",
+	"spine": {
+		"segments": [
+			{
+				"id": "project-y",
+				"title": "Project Y",
+				"labelKind": "date",
+				"frames": ["bethe-feynman", "punched-cards", "censorship", "safecracking", "oak-ridge"]
+			}
+		]
+	}
+}
