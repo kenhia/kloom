@@ -1,0 +1,26 @@
+{
+	"title": "Errors found in British navigational tables, as reported in 1834",
+	"description": "Bar chart. One page of Hutton's multiplication table, recomputed: about 40 errors. The solar and lunar tables behind the Nautical Almanac, checked by Francis Baily: more than 500. The first edition of the Tables Requisite, checked by one reader: more than 1,000. The printed errata to the Board of Longitude's lunar-distance tables: more than 1,100. Data: Dionysius Lardner, Babbage's Calculating Engine, Edinburgh Review 59 (1834).",
+	"heading": "ERRORS FOUND, AS LARDNER REPORTED THEM IN 1834",
+	"axis": {
+		"max": 1200,
+		"ticks": [
+			[0, "0"],
+			[400, "400"],
+			[800, "800"],
+			[1200, "1,200"]
+		]
+	},
+	"bars": [
+		{ "label": "One page", "sublabel": "Hutton", "value": 40, "display": "≈40" },
+		{ "label": "Almanac", "sublabel": "sources", "value": 500, "display": "500+" },
+		{ "label": "Requisite", "sublabel": "1st ed.", "value": 1000, "display": "1,000+" },
+		{
+			"label": "Errata",
+			"sublabel": "lunar tables",
+			"value": 1100,
+			"display": "1,100+",
+			"highlight": true
+		}
+	]
+}

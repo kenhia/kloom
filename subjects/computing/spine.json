@@ -7,6 +7,12 @@
 			"frames": ["abacus", "antikythera", "logarithms"]
 		},
 		{
+			"id": "engines",
+			"title": "Engines of arithmetic",
+			"labelKind": "date",
+			"frames": ["pascaline", "jacquard-loom", "difference-engine"]
+		},
+		{
 			"id": "cards-relays",
 			"title": "Cards, gears and relays",
 			"labelKind": "date",

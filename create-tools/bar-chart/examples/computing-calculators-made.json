@@ -1,0 +1,29 @@
+{
+	"title": "Mechanical calculators made, from Leibniz to the arithmometer",
+	"description": "Bar chart on a logarithmic scale. Leibniz's stepped reckoner: 2 machines. Pascal's calculator: about 20, by 1654. Thomas de Colmar's arithmometer: about 1,000 by his death in 1870, and about 5,500 in all, 1851 to 1915. Data: the Wikipedia articles Pascaline, Stepped reckoner, Charles Xavier Thomas and Arithmometer.",
+	"heading": "MACHINES MADE (LOG SCALE)",
+	"scale": "log",
+	"axis": {
+		"min": 1,
+		"max": 10000,
+		"ticks": [
+			[1, "1"],
+			[10, "10"],
+			[100, "100"],
+			[1000, "1,000"],
+			[10000, "10,000"]
+		]
+	},
+	"bars": [
+		{ "label": "Leibniz", "sublabel": "1694–1706", "value": 2, "display": "2" },
+		{ "label": "Pascal", "sublabel": "to 1654", "value": 20, "display": "≈20" },
+		{ "label": "Thomas", "sublabel": "to 1870", "value": 1000, "display": "≈1,000" },
+		{
+			"label": "Arithmometer",
+			"sublabel": "1851–1915",
+			"value": 5500,
+			"display": "≈5,500",
+			"highlight": true
+		}
+	]
+}

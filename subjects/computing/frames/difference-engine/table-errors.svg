@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Errors found in British navigational tables, as reported in 1834</title>
+<desc id="d">Bar chart. One page of Hutton's multiplication table, recomputed: about 40 errors. The solar and lunar tables behind the Nautical Almanac, checked by Francis Baily: more than 500. The first edition of the Tables Requisite, checked by one reader: more than 1,000. The printed errata to the Board of Longitude's lunar-distance tables: more than 1,100. Data: Dionysius Lardner, Babbage's Calculating Engine, Edinburgh Review 59 (1834).</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">400</text>
+<line x1="64" x2="460" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">800</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">1,200</text>
+</g>
+<rect x="85.5" y="242.9" width="56" height="7.1" fill-opacity="0.85"/>
+<text x="113.5" y="236.9" text-anchor="middle">≈40</text>
+<text x="113.5" y="266" text-anchor="middle">One page</text>
+<text x="113.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Hutton</text>
+<rect x="184.5" y="160.8" width="56" height="89.2" fill-opacity="0.85"/>
+<text x="212.5" y="154.8" text-anchor="middle">500+</text>
+<text x="212.5" y="266" text-anchor="middle">Almanac</text>
+<text x="212.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">sources</text>
+<rect x="283.5" y="71.7" width="56" height="178.3" fill-opacity="0.85"/>
+<text x="311.5" y="65.7" text-anchor="middle">1,000+</text>
+<text x="311.5" y="266" text-anchor="middle">Requisite</text>
+<text x="311.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1st ed.</text>
+<rect x="382.5" y="53.8" width="56" height="196.2" class="accent" fill="currentColor"/>
+<text x="410.5" y="47.8" text-anchor="middle">1,100+</text>
+<text x="410.5" y="266" text-anchor="middle">Errata</text>
+<text x="410.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">lunar tables</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">ERRORS FOUND, AS LARDNER REPORTED THEM IN 1834</text>
+</g></svg>

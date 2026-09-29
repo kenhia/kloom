@@ -1,0 +1,186 @@
+{
+	"id": "pascaline",
+	"position": {
+		"label": "1642",
+		"sort": 1642
+	},
+	"scene": {
+		"headline": "The machine could",
+		"accent": "CARRY.",
+		"palette": "cardstock",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ROUEN · PARIS · BLAISE PASCAL",
+			"THE SAUTOIR · NINE’S COMPLEMENTS · THE STEPPED DRUM"
+		],
+		"counter": {
+			"value": "50+",
+			"label": "models Pascal made before the machine he sold"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Pascaline",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pascaline&oldid=1376633828",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"note": "The sautoir, the nine’s-complement subtraction and the surviving machines"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Advis nécessaire à ceux qui auront curiosité de voir la Machine arithmétique, et de s’en servir",
+			"url": "https://fr.wikisource.org/w/index.php?title=%C5%92uvres_de_Blaise_Pascal/Lettre_D%C3%A9dicatoire_de_la_Machine_Arithm%C3%A9tique_et_Avis_n%C3%A9cessaire/Avis&oldid=15362969",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Pascal",
+					"given": "Blaise"
+				}
+			],
+			"container": "Œuvres de Blaise Pascal, vol. 1",
+			"editors": [
+				{
+					"family": "Brunschvicg",
+					"given": "Léon"
+				},
+				{
+					"family": "Boutroux",
+					"given": "Pierre"
+				}
+			],
+			"publisher": "Hachette",
+			"place": "Paris",
+			"published": "1923",
+			"pages": "303–14",
+			"note": "Written in 1645; read in French on Wikisource, and translated here"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Wilhelm Schickard",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wilhelm_Schickard&oldid=1352580866",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-05"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Arithmometer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arithmometer&oldid=1374356890",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11",
+			"note": "Quoting The Gentleman’s Magazine, January 1857, on its speed"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stepped reckoner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stepped_reckoner&oldid=1338728624",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leibniz wheel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leibniz_wheel&oldid=1371417986",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Xavier Thomas",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Xavier_Thomas&oldid=1371980467",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "A Pascaline without sols or deniers: six decimal wheels, signed by Pascal",
+			"url": "https://commons.wikimedia.org/wiki/File:Arts_et_Metiers_Pascaline_dsc03869.jpg",
+			"accessed": "2026-09-28",
+			"container": "Musée des arts et métiers, Paris; photograph via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "pascaline.jpg",
+			"authors": [
+				{
+					"name": "David Monniaux"
+				}
+			],
+			"published": "2005"
+		},
+		{
+			"kind": "media",
+			"title": "Schickard’s drawing of his calculating machine",
+			"url": "https://commons.wikimedia.org/wiki/File:Rechenmaschine_wilhelm_schickard.png",
+			"accessed": "2026-09-28",
+			"container": "Reproduced in Friedrich Seck, ed., Wilhelm Schickard 1592–1635 (Tübingen, 1978), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "schickard-sketch.png",
+			"authors": [
+				{
+					"name": "Wilhelm Schickard"
+				}
+			],
+			"published": "1624"
+		},
+		{
+			"kind": "media",
+			"title": "Mechanical calculators made, from Leibniz to the arithmometer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arithmometer&oldid=1374356890",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from the Wikipedia articles Pascaline, Stepped reckoner, Charles Xavier Thomas and Arithmometer",
+			"licence": "MIT",
+			"file": "calculators-made.svg"
+		}
+	]
+}
