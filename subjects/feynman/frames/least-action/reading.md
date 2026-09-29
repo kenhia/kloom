@@ -57,12 +57,10 @@ A teacher sent him to the back of the room with a book called _Advanced
 Calculus_ and told him to come back when he knew what was in it. He won the
 New York University mathematics championship in his last year.
 
-![Far Rockaway High School from above: a large pale-brick building of three and four storeys among houses and trees, with Jamaica Bay beyond](far-rockaway-high-school.jpg)
+![Far Rockaway High School from above in 2019: the pale-brick building of three and four storeys, finished in 1929, among houses and trees, with Jamaica Bay beyond](far-rockaway-high-school.jpg)
 
-_The building Feynman attended, finished in 1929, photographed in 2019. Photograph by Arachniphobe, CC BY-SA 4.0._
-
-The school, which opened in 1897 and closed in 2011, taught three future
-Nobel laureates: Feynman, **Burton Richter** and **Baruch Blumberg**.
+The school, which opened in 1897 and closed in 2011, moved into the building
+Feynman knew in 1929. It taught three future Nobel laureates: Feynman, **Burton Richter** and **Baruch Blumberg**.
 
 ## Columbia says no
 

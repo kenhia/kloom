@@ -17,9 +17,7 @@ pull the sound out of the signal, and a pair of headphones. The plate draws
 one, with the resonance curve that tuning chooses. No battery is needed; the
 radio station's own signal drives the phones.
 
-![A crystal radio on a wooden base: a coil of fine wire wound on a tube, with brass contacts for the aerial and the ground, and a glass-domed crystal detector](crystal-radio.jpg)
-
-_A crystal set of the kind boys built between the wars. The uploader dates it to the 1920s. Photograph by Joe Haupt, CC BY-SA 2.0._
+![A crystal radio of the kind boys built between the wars, on a wooden base: a coil of fine wire wound on a tube, brass contacts for the aerial and the ground, and a glass-domed crystal detector](crystal-radio.jpg)
 
 His first repairs were the easy kind, he told an interviewer in 1966: a wire
 hanging loose, a bad connection. The rest he learned by going deeper into

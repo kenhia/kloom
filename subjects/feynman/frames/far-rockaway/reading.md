@@ -35,9 +35,7 @@ through. The plate draws that sum. Feynman called the habit a disease he
 caught for good: whenever he read something, he tried to turn it into what
 it really meant.
 
-![A tinted postcard of Grand View Avenue, Far Rockaway: large frame houses with porches on both sides of a wide unpaved road, around 1913](grand-view-avenue.jpg)
-
-_Grand View Avenue, Far Rockaway, on a postcard postmarked in 1913._
+![A tinted postcard of Grand View Avenue, Far Rockaway, postmarked in 1913: large frame houses with porches on both sides of a wide unpaved road](grand-view-avenue.jpg)
 
 The same lessons appear, more polished, in the chapter "The Making of a
 Scientist" in his 1988 book _What Do You Care What Other People Think?_,
