@@ -103,6 +103,9 @@ sprint 012 annotations: notes on selected words of a narrative, anchored by
 a W3C text-quote selector so they find their words again after an edit and
 show as detached when they cannot, made with A (a selection, or words chosen
 with the keyboard) and listed with the notes.
+Sprint 013 the start screen as a place to come back to: a Home button
+left of the gear, a keyboard subject list, and the selected subject's
+illustrations in a ring around the loom.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

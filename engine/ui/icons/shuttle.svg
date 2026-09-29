@@ -1,0 +1,6 @@
+<!-- A weaving shuttle trailing its thread: back to the loom, without drawing the whole loom. -->
+<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+	<path d="M2 9.5 L7 6.5 H17 L22 9.5 L17 12.5 H7 Z" stroke-width="1.5" />
+	<line x1="9.5" y1="9.5" x2="14.5" y2="9.5" stroke-width="2.5" />
+	<path d="M12 12.5 C12 16 7 15.5 5 19 S9 21 12 20.5" stroke-width="1.25" />
+</svg>

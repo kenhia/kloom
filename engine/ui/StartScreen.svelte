@@ -4,8 +4,16 @@
 	import type { Palette } from '../model';
 
 	interface Props {
-		/** The subject's title, set large. */
-		title: string;
+		/**
+		 * Every subject the app serves, in the order to list them; a list is
+		 * shown when there is more than one. `note` is said after the title
+		 * ("last read").
+		 */
+		subjects: { id: string; title: string; note?: string }[];
+		/** The subject selected in the list, whose title and ring are shown. */
+		selected: string;
+		/** The subject open behind the start screen: Begin on it, or Esc, returns there. */
+		current: string;
 		/** A line under the title. */
 		subtitle?: string;
 		/** Set around the rotating dial, one letter at a time. */
@@ -14,21 +22,25 @@
 		art: string | null;
 		/** Where the art came from; shown collapsed at the foot. */
 		credits: Citation[];
-		/** The colours to use: the start screen wears the first frame's. */
+		/** The colours to use: the selected subject's first frame's. */
 		palette: Palette;
-		/** Other subjects the app serves, as links the page has resolved: the chooser. */
-		others?: { title: string; href: string }[];
+		/** The selected subject's own illustrations, drawn small around the loom. */
+		ring?: string[];
 		/**
-		 * Where the reader left off, offered under Begin and never forced. One
-		 * with `onpick` resumes in this subject; one with `href` opens another.
+		 * Where the reader left off in the selected subject, offered under Begin
+		 * and never forced. One with `onpick` resumes in this subject; one with
+		 * `href` opens another.
 		 */
 		resume?: Resume[];
+		/** Close the start screen over `current`. */
 		onbegin: () => void;
+		/** Open another subject, from its selection in the list. */
+		onopen: (id: string) => void;
 	}
 
 	interface Resume {
 		key: string;
-		/** What it does, e.g. "Continue here". */
+		/** What it does, e.g. "Continue where you were". */
 		action: string;
 		/** Where: the frame's title and position. */
 		label: string;
@@ -37,19 +49,26 @@
 	}
 
 	let {
-		title,
+		subjects,
+		selected = $bindable(),
+		current,
 		subtitle,
 		inscription,
 		art,
 		credits,
 		palette,
-		others = [],
+		ring = [],
 		resume = [],
-		onbegin
+		onbegin,
+		onopen
 	}: Props = $props();
 
+	const id = $props.id();
 	let button = $state<HTMLButtonElement>();
+	let list = $state<HTMLElement>();
 	let leaving = $state(false);
+	const title = $derived(subjects.find((s) => s.id === selected)?.title ?? '');
+	const index = $derived(subjects.findIndex((s) => s.id === selected));
 
 	onMount(() => button?.focus());
 
@@ -62,14 +81,56 @@
 		setTimeout(onbegin, reduced ? 0 : 500);
 	}
 
+	/**
+	 * Begin on the selection: back into the subject behind, or open another.
+	 * Opening another stays put until the page moves, so a navigation the
+	 * reader cancels (an unsaved note) leaves the start screen where it was.
+	 */
+	function go() {
+		if (selected === current) begin();
+		else onopen(selected);
+	}
+
 	/** Keys stop here: the shell behind must not move while this is open. */
 	function keydown(e: KeyboardEvent) {
 		e.stopPropagation();
 		if (e.key === 'Escape') {
 			e.preventDefault();
+			selected = current;
 			begin();
 		}
 	}
+
+	/** The subject list: arrows (either way, as it lies flat on a phone), Home, End; Enter begins. */
+	function listKeys(e: KeyboardEvent) {
+		const last = subjects.length - 1;
+		const to = (
+			{
+				ArrowDown: index + 1,
+				ArrowRight: index + 1,
+				ArrowUp: index - 1,
+				ArrowLeft: index - 1,
+				Home: 0,
+				End: last
+			} as Record<string, number>
+		)[e.key];
+		if (e.key !== 'Enter' && to === undefined) return;
+		// Handled once, by an option or the list around it.
+		e.preventDefault();
+		e.stopPropagation();
+		if (e.key === 'Enter') go();
+		else {
+			selected = subjects[Math.min(Math.max(to, 0), last)].id;
+		}
+	}
+
+	/** Where the ring's i-th drawing sits, as a percentage of the dial, clockwise from the top. */
+	const place = (i: number, n: number) => {
+		const a = (2 * Math.PI * i) / n - Math.PI / 2;
+		return { left: `${50 + RING_R * Math.cos(a)}%`, top: `${50 + RING_R * Math.sin(a)}%` };
+	};
+	/** Just outside the dial's rim (204 of 220 in its viewBox, 46%). */
+	const RING_R = 54;
 
 	const R = 190;
 	const ticks = Array.from({ length: 120 }, (_, i) => i * 3);
@@ -82,8 +143,8 @@
 	class:leaving
 	role="dialog"
 	aria-modal="true"
-	aria-labelledby="start-title"
-	aria-describedby="start-subtitle"
+	aria-labelledby="{id}-title"
+	aria-describedby="{id}-subtitle"
 	tabindex="-1"
 	style:--start-background={palette.background}
 	style:--start-ink={palette.ink}
@@ -119,6 +180,18 @@
 				{/each}
 			</g>
 		</svg>
+		{#key ring}
+			<div class="ring">
+				{#each ring as svg, i (i)}
+					{@const at = place(i, ring.length)}
+					<div class="thumb" style:left={at.left} style:top={at.top} style:--i={i}>
+						<!-- The subject's illustrations, sanitised by the loader (engine/svg.ts). -->
+						<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+						{@html svg}
+					</div>
+				{/each}
+			</div>
+		{/key}
 		{#if art}
 			<div class="art">
 				<!-- The app's own drawing, from the repository (src/lib/start). -->
@@ -129,9 +202,38 @@
 	</div>
 
 	<div class="copy">
-		<h2 id="start-title">{title}</h2>
-		{#if subtitle}<p id="start-subtitle" class="subtitle">{subtitle}</p>{/if}
-		<button type="button" class="begin" bind:this={button} onclick={() => begin()}>
+		{#if subjects.length > 1}
+			<!-- Selection follows the arrows; Enter, or Begin, opens the selection. -->
+			<div
+				class="subjects"
+				role="listbox"
+				tabindex="0"
+				aria-label="Subjects"
+				aria-activedescendant="{id}-{selected}"
+				bind:this={list}
+				onkeydown={listKeys}
+			>
+				{#each subjects as s (s.id)}
+					<div
+						id="{id}-{s.id}"
+						role="option"
+						aria-selected={s.id === selected}
+						tabindex="-1"
+						onclick={() => {
+							selected = s.id;
+							list?.focus();
+						}}
+						onkeydown={listKeys}
+						ondblclick={go}
+					>
+						{s.title}{#if s.note}<span class="note">{s.note}</span>{/if}
+					</div>
+				{/each}
+			</div>
+		{/if}
+		<h2 id="{id}-title">{title}</h2>
+		{#if subtitle}<p id="{id}-subtitle" class="subtitle">{subtitle}</p>{/if}
+		<button type="button" class="begin" bind:this={button} onclick={go}>
 			Begin <kbd>Enter</kbd>
 		</button>
 		{#if resume.length}
@@ -154,18 +256,6 @@
 					</li>
 				{/each}
 			</ul>
-		{/if}
-		{#if others.length}
-			<nav class="others" aria-label="Other subjects">
-				<span>Or open</span>
-				<ul>
-					{#each others as other (other.href)}
-						<!-- The page resolved these app routes. -->
-						<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
-						<li><a href={other.href}>{other.title}</a></li>
-					{/each}
-				</ul>
-			</nav>
 		{/if}
 	</div>
 
@@ -228,6 +318,33 @@
 	.inscription {
 		font-family: var(--mono);
 		letter-spacing: 0.1em;
+	}
+	/* The selected subject's drawings, riding just outside the dial's rim. */
+	.ring {
+		grid-area: 1 / 1;
+		position: relative;
+		width: min(100%, 64dvh);
+		aspect-ratio: 1;
+		animation: turn 240s linear infinite;
+	}
+	.thumb {
+		position: absolute;
+		width: 13%;
+		translate: -50% -50%;
+		color: var(--start-line);
+		opacity: 0;
+		animation:
+			appear 0.6s ease-out calc(0.4s + var(--i) * 0.08s) forwards,
+			turn 240s linear infinite reverse;
+	}
+	.thumb :global(svg) {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	/* Labels are noise this small. */
+	.thumb :global(text) {
+		display: none;
 	}
 	.art {
 		grid-area: 1 / 1;
@@ -340,26 +457,54 @@
 		text-transform: uppercase;
 		color: var(--start-muted);
 	}
-	.others {
+	/* A list down the left beside the loom; above the title on a narrow screen. */
+	.subjects {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		gap: 0.25rem 0.75rem;
-		margin-top: 0.5rem;
-		font-size: 0.875rem;
+		gap: 0.25rem;
+		max-width: 36rem;
+		margin-bottom: 0.5rem;
+		font: 0.875rem var(--sans);
+		border-radius: 0.25rem;
+	}
+	.subjects:focus-visible {
+		outline: 2px solid var(--start-accent);
+		outline-offset: 3px;
+	}
+	[role='option'] {
+		padding: 0.3rem 0.75rem;
+		color: var(--start-muted);
+		border: 1px solid transparent;
+		border-radius: 0.25rem;
+		cursor: pointer;
+	}
+	[role='option']:hover {
+		color: var(--start-ink);
+	}
+	[role='option'][aria-selected='true'] {
+		color: var(--start-ink);
+		border-color: var(--start-accent);
+	}
+	.note {
+		display: block;
+		font: 0.65rem var(--mono);
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
 		color: var(--start-muted);
 	}
-	.others ul {
-		display: contents;
-		list-style: none;
-	}
-	.others a {
-		color: var(--start-ink);
-		text-decoration-color: var(--start-accent);
-	}
-	.others a:focus-visible {
-		outline: 2px solid var(--start-accent);
-		outline-offset: 2px;
+	@media (min-width: 60rem) {
+		.subjects {
+			position: absolute;
+			top: 50%;
+			left: clamp(1rem, 4vw, 3rem);
+			flex-direction: column;
+			align-items: stretch;
+			width: clamp(10rem, 18vw, 15rem);
+			margin: 0;
+			text-align: left;
+			translate: 0 -50%;
+		}
 	}
 	kbd {
 		font-family: var(--mono);
@@ -405,6 +550,11 @@
 			transform: rotate(360deg);
 		}
 	}
+	@keyframes appear {
+		to {
+			opacity: 0.7;
+		}
+	}
 	@keyframes draw {
 		to {
 			stroke-dashoffset: 0;
@@ -419,9 +569,14 @@
 	@media (prefers-reduced-motion: reduce) {
 		.start,
 		.dial,
+		.ring,
 		.art {
 			transition: none;
 			animation: none;
+		}
+		.thumb {
+			animation: none;
+			opacity: 0.7;
 		}
 		.art :global(path) {
 			animation: none;

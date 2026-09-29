@@ -33,6 +33,8 @@
 	import NoteEditor from './NoteEditor.svelte';
 	import Notes from './Notes.svelte';
 	import Settings from './Settings.svelte';
+	import IconButton from './IconButton.svelte';
+	import homeIcon from './icons/home.svg?raw';
 	import SpinePane from './SpinePane.svelte';
 	import Splitter from './Splitter.svelte';
 
@@ -54,6 +56,8 @@
 		bookmarks?: BookmarkOffer | null;
 		/** The reader's notes and kept answers; absent when there is no reader. */
 		layer?: ReaderLayer | null;
+		/** Back to the start screen (the Home button, left of the gear); none without it. */
+		onhome?: () => void;
 	}
 
 	/** What the page offers for bookmarks: the frames marked, the jump list, and the writes. */
@@ -75,7 +79,8 @@
 		startAt = null,
 		onplace,
 		bookmarks = null,
-		layer = null
+		layer = null,
+		onhome
 	}: Props = $props();
 
 	let trailId = $state<string | null>(null);
@@ -92,7 +97,7 @@
 	 */
 	type Tab = 'narrative' | 'notes' | 'ai';
 	let tab = $state<Tab>('narrative');
-	const tabEls: HTMLButtonElement[] = [];
+	const tabEls = $state<HTMLButtonElement[]>([]);
 	/** What the AI pane reports for its tab: working, or a result not yet seen. */
 	let aiActivity = $state<'idle' | 'working' | 'ready'>('idle');
 
@@ -416,12 +421,24 @@
 		markNote = on ? `Bookmarked: ${titleOf(frame)}` : `Bookmark removed: ${titleOf(frame)}`;
 	}
 
-	// Coming forward (the start screen closed): the spine takes focus.
+	// Coming forward (the start screen closed): the spine takes focus, or Home
+	// does when that is where the reader went to the start screen from.
 	let wasActive: boolean | undefined;
+	let homeButton = $state<IconButton>();
+	let fromHome = false;
 	$effect(() => {
-		if (active && wasActive === false) slider?.focus();
+		if (active && wasActive === false) {
+			if (fromHome) homeButton?.focus();
+			else slider?.focus();
+			fromHome = false;
+		}
 		wasActive = active;
 	});
+
+	function goHome() {
+		fromHome = true;
+		onhome?.();
+	}
 
 	// While following, the pin tracks the spine, so turning following off
 	// leaves the reading where it is rather than on some older frame.
@@ -645,7 +662,22 @@
 					{/each}
 				</div>
 			{/if}
-			<Settings {settings} warnings={clashes} />
+			<div class="corner">
+				{#if onhome}
+					<IconButton
+						class="home"
+						label="Home"
+						title="Home: the start screen"
+						bind:this={homeButton}
+						onclick={goHome}
+					>
+						<!-- kloom's own icon, from the repository (engine/ui/icons). -->
+						<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+						{@html homeIcon}
+					</IconButton>
+				{/if}
+				<Settings {settings} warnings={clashes} />
+			</div>
 		</div>
 
 		<Narrative
@@ -877,6 +909,11 @@
 		gap: 0.5rem;
 		padding: 0.5rem 1.5rem 0;
 		border-left: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
+	}
+	.corner {
+		display: flex;
+		gap: 0.25rem;
+		margin-left: auto;
 	}
 	[role='tablist'] {
 		display: flex;

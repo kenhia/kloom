@@ -4,7 +4,7 @@
 	import type { Bookmark, JumpItem, Kept, Note, ReaderLayer } from '$engine/reader-data';
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
-	import { beforeNavigate, invalidateAll, replaceState } from '$app/navigation';
+	import { beforeNavigate, goto, invalidateAll, replaceState } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import {
 		ASK_MODEL,
@@ -16,6 +16,7 @@
 		paletteFor,
 		paletteMode
 	} from '$engine/settings';
+	import { startLook, type StartLook } from '$engine/start';
 	import { UserSettings } from '$engine/user-settings.svelte';
 	import { inscription, loomCredit } from '$lib/start/credit';
 	import type { PageProps } from './$types';
@@ -44,18 +45,53 @@
 		...keySettings
 	]);
 
-	// The start screen wears the first frame's palette, in the reader's mode.
-	const first = $derived(data.subject.frames[data.subject.spine.segments[0].frames[0]]);
-	const startPalette = $derived(
-		paletteFor(data.subject, first.scene.palette, settings.get(paletteMode.id)!)
+	// The start screen's subject list (korg 3424): the selection shows its
+	// title, its place and its own drawings, and wears its first frame's
+	// palette, in the reader's mode. This subject's look is at hand; another's
+	// is fetched when it is first selected, and kept.
+	let selected = $state(untrack(() => data.subject.id));
+	let looks = $state<Record<string, StartLook>>({});
+	const look = $derived(
+		selected === data.subject.id ? startLook(data.subject) : (looks[selected] ?? null)
+	);
+	$effect(() => {
+		const id = selected;
+		if (id === data.subject.id || untrack(() => looks[id])) return;
+		fetch(resolve('/api/start/[subject]', { subject: id }))
+			.then((res) => (res.ok ? res.json() : Promise.reject(res.status)))
+			.then((l: StartLook) => (looks = { ...looks, [id]: l }))
+			.catch((e) => console.warn(`start look: ${id} failed`, e));
+	});
+	const startPalette = $derived.by(() => {
+		const l = look ?? startLook(data.subject);
+		return paletteFor(l, l.palette, settings.get(paletteMode.id)!);
+	});
+
+	// Arriving in another subject selects it.
+	$effect.pre(() => {
+		const id = data.subject.id;
+		untrack(() => (selected = id));
+	});
+
+	const listed = $derived(
+		data.subjects.map((s) => ({
+			id: s.id,
+			title: s.title,
+			note: data.readerData?.last?.subject === s.id ? 'Last read' : undefined
+		}))
 	);
 
-	// The chooser: every other subject the app serves.
-	const others = $derived(
-		data.subjects
-			.filter((s) => s.id !== data.subject.id)
-			.map((s) => ({ title: s.title, href: resolve('/[subject]/[[frame]]', { subject: s.id }) }))
-	);
+	/** Back to the start screen over this subject, where Begin or Esc returns. */
+	function home() {
+		selected = data.subject.id;
+		begun = null;
+	}
+
+	/** Open another subject from the list: begun already, as the reader chose it there. */
+	function open(id: string) {
+		begun = id;
+		goto(resolve('/[subject]/[[frame]]', { subject: id }));
+	}
 
 	// The reader's own data (docs/design.md §Reader data, korg 3413, 3414).
 	// Absent when there is no reader: nothing is kept, nothing is offered.
@@ -218,27 +254,29 @@
 			marks = before;
 	}
 
-	// Offered on the start screen: this subject's place, and the last place
-	// anywhere when that was another subject.
+	// Offered on the start screen: the selected subject's place. This
+	// subject's only until the reader has begun it, when Begin itself returns
+	// them to where they are.
+	let seen = $state<string | null>(null);
+	$effect(() => {
+		if (started) seen = data.subject.id;
+	});
 	const resume = $derived.by(() => {
-		const r = data.readerData;
-		const offers = [];
-		const f = r?.here && data.subject.frames[r.here.frame];
-		if (f)
-			offers.push({
+		const p = data.readerData?.places?.[selected];
+		if (!p) return [];
+		const action = 'Continue where you were';
+		if (selected !== data.subject.id)
+			return [{ key: 'here', action, label: p.label, href: frameHref(p.subject, p.frame) }];
+		const f = data.subject.frames[p.frame];
+		if (!f || seen === data.subject.id) return [];
+		return [
+			{
 				key: 'here',
-				action: 'Continue where you were',
+				action,
 				label: `${titleOf(f)} · ${f.position.label}`,
 				onpick: () => shell?.goTo(f.id)
-			});
-		if (r?.last)
-			offers.push({
-				key: 'last',
-				action: `Last read · ${r.last.subjectTitle}`,
-				label: r.last.label,
-				href: frameHref(r.last.subject, r.last.frame)
-			});
-		return offers;
+			}
+		];
 	});
 
 	// Large, so it arrives after the page as its own compressed chunk.
@@ -265,19 +303,23 @@
 		onplace={(f) => (current = f)}
 		bookmarks={bookmarkOffer}
 		{layer}
+		onhome={home}
 	/>
 {/key}
 
 {#if !started}
 	<StartScreen
-		title={data.subject.title}
+		subjects={listed}
+		bind:selected
+		current={data.subject.id}
 		subtitle="A timeline you can read, question and grow"
 		{inscription}
 		art={loom}
 		credits={[loomCredit]}
 		palette={startPalette}
-		{others}
+		ring={look?.illustrations ?? []}
 		{resume}
 		onbegin={() => (begun = data.subject.id)}
+		onopen={open}
 	/>
 {/if}

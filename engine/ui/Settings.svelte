@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { UserSettings } from '../user-settings.svelte';
+	import IconButton from './IconButton.svelte';
 
 	interface Props {
 		settings: UserSettings;
@@ -12,7 +13,7 @@
 	const id = $props.id();
 	let open = $state(false);
 	let root = $state<HTMLElement>();
-	let gear = $state<HTMLButtonElement>();
+	let gear = $state<IconButton>();
 
 	function close(refocus: boolean) {
 		open = false;
@@ -40,9 +41,9 @@
 <svelte:window onpointerdown={outside} />
 
 <div class="settings" bind:this={root}>
-	<button
-		type="button"
+	<IconButton
 		class="gear"
+		label="Settings"
 		aria-expanded={open}
 		aria-controls="{id}-panel"
 		bind:this={gear}
@@ -63,8 +64,7 @@
 				/>
 			{/each}
 		</svg>
-		<span class="visually-hidden">Settings</span>
-	</button>
+	</IconButton>
 
 	<!-- The page's own keys (arrows and the shortcuts) stand down in here: data-own-keys. -->
 	<div
@@ -103,27 +103,6 @@
 	.settings {
 		position: relative;
 		margin-left: auto;
-	}
-	.gear {
-		display: grid;
-		place-items: center;
-		width: 2rem;
-		height: 2rem;
-		padding: 0;
-		color: var(--muted);
-		background: none;
-		border: 1px solid transparent;
-		border-radius: 0.25rem;
-		cursor: pointer;
-	}
-	.gear:hover,
-	.gear[aria-expanded='true'] {
-		color: var(--ink);
-		border-color: var(--muted);
-	}
-	.gear svg {
-		width: 1.25rem;
-		height: 1.25rem;
 	}
 	.panel {
 		position: absolute;

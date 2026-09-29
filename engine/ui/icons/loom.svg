@@ -1,0 +1,9 @@
+<!-- A frame loom: warp threads with a woven band at the foot, kloom's own mark. -->
+<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+	<rect x="3.75" y="3.25" width="16.5" height="17.5" rx="1" stroke-width="1.5" />
+	<line x1="8" y1="3.25" x2="8" y2="20.75" stroke-width="1.25" />
+	<line x1="12" y1="3.25" x2="12" y2="20.75" stroke-width="1.25" />
+	<line x1="16" y1="3.25" x2="16" y2="20.75" stroke-width="1.25" />
+	<line x1="3.75" y1="14" x2="20.25" y2="14" stroke-width="2.5" />
+	<line x1="3.75" y1="17.5" x2="20.25" y2="17.5" stroke-width="2.5" />
+</svg>
