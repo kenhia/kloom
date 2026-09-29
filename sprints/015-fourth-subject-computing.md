@@ -337,3 +337,19 @@ candidate links go to korg 3399 as a comment. The AI subject shows two
 Commons images twice each (`Full_GPT_architecture.svg`, and a t-SNE plot
 of word embeddings). Sprint 014 noted that reuse can be deliberate, so
 they are left as they are.
+
+## Deployed
+
+2026-09-29, by `just deploy` (the `recipe: deploy` in `.sprint-deploy`),
+from merged `main` at `2709e06`, to the kloom service on kai. The
+service's content clone is at the same commit.
+
+- `just verify` passed all eight door checks. The tailnet door refuses
+  anonymous writes and reader-data reads, and the ssh door lets its reader
+  through.
+- **The sprint's work, live on both doors (:4890 and :4891), each 200:**
+  - `/computing`;
+  - `/computing/abacus` (main spine), whose page carries "PEBBLES.";
+  - `/computing/tls` (a trail frame), whose page carries "WHISPER.";
+  - `/media/computing/abacus/suanpan.jpg`;
+  - `/api/start/computing` (the start screen's look).
