@@ -192,3 +192,23 @@ the same link from each end. Here is where they went:
   lacks, so phase 2 has one decision to make: may grow add names, or only
   mark existing ones? That is in a comment on 3440.
 - The map (phase 3, 3441) and Physics (3428, phase 4) are filed.
+
+## Deployed
+
+2026-09-29, `just deploy` (the `recipe: deploy` in `.sprint-deploy`) from
+merged main `69fe689` to the kloom service on kai. The recipe built the app,
+restarted `kloom.service`, and `just verify` passed all eight door checks.
+The content clone synced to `69fe689` on `grow/kai`, so the service reads
+the new `names/` beside its subjects.
+
+Verified live on the ssh door (:4891), on this sprint's own behaviour:
+
+- `/ai/eliza` carries the Project MAC mark, `data-name="project-mac"`.
+- `/computing/multics` carries Project MAC's card: the description, for
+  "Appears in…".
+- `/computing/where-computing-is` renders a Connections section.
+- `/feynman/connection-machine` carries the incoming connection from
+  Computing: "Connection Machine CM-5 at Los Alamos".
+- Western-civ's readings render their name marks.
+- The service is active, with no `names:` or error lines in its journal
+  since the restart.
