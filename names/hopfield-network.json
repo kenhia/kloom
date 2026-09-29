@@ -1,0 +1,9 @@
+{
+	"id": "hopfield-network",
+	"wikidata": "Q1407668",
+	"name": "Hopfield network",
+	"aliases": ["Hopfield net"],
+	"kind": "idea",
+	"description": "John Hopfield's 1982 network in which memories are low points of an energy, recalled by settling from a partial pattern.",
+	"home": "ai/hopfield-network"
+}

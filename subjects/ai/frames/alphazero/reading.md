@@ -1,26 +1,26 @@
-The strongest chess and shogi programs of 2017 carried their makers' knowledge: evaluation functions refined by experts over decades, opening books, endgame tables. On
-5 December 2017 DeepMind described a program that was given the rules of
-chess, shogi and Go and nothing else, and within a day played each of them
+The strongest [chess](kloom:e/chess) and shogi programs of 2017 carried their makers' knowledge: evaluation functions refined by experts over decades, opening books, endgame tables. On
+5 December 2017 [DeepMind](kloom:e/google-deepmind) described a program that was given the rules of
+chess, shogi and [Go](kloom:e/go-game) and nothing else, and within a day played each of them
 better than any program before it.
 
 ## One network, one search, three games
 
-**AlphaZero** generalised _AlphaGo Zero_, the self-taught successor of the
-AlphaGo that had beaten Lee Sedol at Go in 2016. The preprint by **David
-Silver** and colleagues put the claim plainly: "Starting from random play,
+**[AlphaZero](kloom:e/alphazero)** generalised _AlphaGo Zero_, the self-taught successor of the
+AlphaGo that had beaten Lee Sedol at Go in 2016. The preprint by **[David
+Silver](kloom:e/david-silver-computer-scientist)** and colleagues put the claim plainly: "Starting from random play,
 and given no domain knowledge except the game rules, AlphaZero achieved
 within 24 hours a superhuman level of play in the games of chess and shogi
-(Japanese chess) as well as Go." In Shannon's terms it is a program that
+(Japanese chess) as well as Go." In [Shannon](kloom:e/claude-shannon)'s terms it is a program that
 learns by its mistakes, and it learns its own evaluation.
 
 A single neural network takes a position and returns two things: _p_, a
 probability for each legal move, and _v_, an estimate of who will win. A
-_Monte Carlo tree search_ uses p to decide which moves to look at and v to
+[_Monte Carlo tree search_](kloom:e/monte-carlo-tree-search) uses p to decide which moves to look at and v to
 judge where it stops, and so goes deep along a few lines instead of wide
 along all of them. The program plays itself with that search, and the
 network is trained on the games, to predict the moves the search chose and
 the results the games reached. That is the loop in the drawing. For chess,
-5,000 first-generation TPUs generated the self-play games and 64
+5,000 first-generation [TPUs](kloom:e/tensor-processing-unit) generated the self-play games and 64
 second-generation TPUs trained the network; the chess run took nine hours
 and 44 million games.
 
@@ -39,13 +39,13 @@ by Shannon":
 
 These are the 2017 preprint's figures. The final paper, with different
 hardware, gives about 60 thousand for AlphaZero and 60 million for
-Stockfish.
+[Stockfish](kloom:e/stockfish-chess).
 
 ## The argument about Stockfish
 
 In the preprint, AlphaZero played 100 games against **Stockfish 8** at one
 minute a move and won 28, drew 72 and lost none; against the shogi program
-**Elmo** it won 90 of 100; against AlphaGo Zero it won 60 of 100. The chess
+**Elmo** it won 90 of 100; against [AlphaGo Zero](kloom:e/alphago-zero) it won 60 of 100. The chess
 result drew objections. Stockfish had 64 threads and a 1 GB hash table,
 which Stockfish's **Tord Romstad** called suboptimal; it was a year old;
 it had no opening book; and it is not built for a fixed time per move. The
@@ -62,7 +62,7 @@ seconds a move. Over 1,000 games AlphaZero won 155, lost 6 and drew 839.
 The engine developer **Larry Kaufman** still judged that AlphaZero would
 probably lose to the newer Stockfish 10 under the conditions of the Top
 Chess Engine Championship. AlphaZero itself was never released, but an open
-reimplementation, **Leela Chess Zero**, went on to contest championships
+reimplementation, **[Leela Chess Zero](kloom:e/leela-chess-zero)**, went on to contest championships
 against Stockfish.
 
 ## Without the rules

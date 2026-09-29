@@ -1,22 +1,22 @@
-In 1989 a team at the University of Alberta set out to build a checkers
+In 1989 a team at the [University of Alberta](kloom:e/university-of-alberta) set out to build a [checkers](kloom:e/checkers)
 program that could beat the world champion. The champion was the greatest
 player the game had known, and the contest between them ended not with a
 win but with a proof.
 
 ## The program and the champion
 
-**Chinook** was the work of **Jonathan Schaeffer** and a small team (Rob
+**[Chinook](kloom:e/chinook-computer-program)** was the work of **[Jonathan Schaeffer](kloom:e/jonathan-schaeffer)** and a small team (Rob
 Lake, Paul Lu, Martin Bryant and Norman Treloar). It had an opening book
 built from grandmasters' games, a deep search, a hand-written evaluation
 function (piece count, kings, trapped kings, runaway checkers and more),
 and databases of every endgame with eight or fewer pieces. None of it was learned: every piece of its knowledge was programmed by its makers.
 
-Its opponent was **Marion Tinsley**, a professor of mathematics in Florida
+Its opponent was **[Marion Tinsley](kloom:e/marion-tinsley)**, a professor of mathematics in Florida
 who had been world champion from 1955 to 1958 and again from 1975, and who
 never lost a world championship match. Sources count his losses between
 1950 and his death differently (Chinook's team says three to 1991;
 Wikipedia's count to 1995 is seven, two of them to Chinook), but it was a
-handful in some forty-five years. **Derek Oldbury**, sometimes ranked the second-best player ever, said Tinsley was "to checkers what Leonardo da Vinci was to science, what
+handful in some forty-five years. **[Derek Oldbury](kloom:e/derek-oldbury)**, sometimes ranked the second-best player ever, said Tinsley was "to checkers what Leonardo da Vinci was to science, what
 Michelangelo was to art and what Beethoven was to music."
 
 ![Marion Tinsley, in glasses and a tie, resting his chin on his fists behind a checkerboard, 1988](marion-tinsley.jpg)
@@ -60,6 +60,6 @@ it has in a _strongly_ solved game. The paper called it "roughly one
 million times as complex as Connect Four", and the most challenging popular
 game solved to that date.
 
-It also ended an argument that Samuel's single win of 1962 had started.
+It also ended an argument that [Samuel](kloom:e/arthur-samuel-computer-scientist)'s single win of 1962 had started.
 Checkers had been called solved for forty-five years; now it was, in a
-sense that could be checked. Chess, with far more positions, has been solved only for endgames of up to seven pieces, and may never be solved in full. Its best programs still play by search and judgement, and since 2017 that judgement can be learned by self-play, as the next frame shows.
+sense that could be checked. [Chess](kloom:e/chess), with far more positions, has been solved only for endgames of up to seven pieces, and may never be solved in full. Its best programs still play by search and judgement, and since 2017 that judgement can be learned by self-play, as the next frame shows.

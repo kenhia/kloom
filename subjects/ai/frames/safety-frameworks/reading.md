@@ -7,7 +7,7 @@ they became the main way the industry governed itself.
 
 ## If, then
 
-**Anthropic** published the first, its _Responsible Scaling Policy_, in
+**[Anthropic](kloom:e/anthropic)** published the first, its _Responsible Scaling Policy_, in
 September 2023. It tied _AI Safety Levels_ to capabilities: a model whose
 biological knowledge could help someone create dangerous weapons, for
 example, would require a stricter level of safeguards against misuse and
@@ -16,24 +16,24 @@ left largely undefined, to be written when they came closer. The company
 hoped the policy would force it to build safeguards in time, and start a
 "race to the top" among its rivals.
 
-**OpenAI** followed with a _Preparedness Framework_ in beta in December 2023. Its second version, of April 2025, tracks three categories
+**[OpenAI](kloom:e/openai)** followed with a _Preparedness Framework_ in beta in December 2023. Its second version, of April 2025, tracks three categories
 (biological and chemical, cybersecurity, and AI self-improvement) at two
 thresholds: _High_, which "could amplify existing pathways to severe harm",
 and _Critical_, which "could introduce unprecedented new pathways". A
 model at High needs safeguards before deployment; one at Critical needs
-them during development too. **Google DeepMind**'s _Frontier Safety
+them during development too. **[Google DeepMind](kloom:e/google-deepmind)**'s _Frontier Safety
 Framework_ of May 2024 defined _Critical Capability Levels_ on the same
 pattern.
 
 ![Michelle Donelan, the UK science secretary, in a blue suit, shakes hands with South Korea's science minister Lee Jong-ho in front of the AI Seoul Summit logo, 22 May 2024. Photo: Zoe-Rose Herbert / DSIT, CC BY 2.0](seoul-summit.jpg)
 
 In May 2024, at the **AI Seoul Summit**, the British and Korean
-governments announced that sixteen companies, from Amazon, Anthropic and
-Google to Mistral AI, xAI and Zhipu.ai, had agreed _Frontier AI Safety
+governments announced that sixteen companies, from [Amazon](kloom:e/amazon-company), Anthropic and
+Google to [Mistral AI](kloom:e/mistral-ai), [xAI](kloom:e/spacexai) and Zhipu.ai, had agreed _Frontier AI Safety
 Commitments_. Each undertook to publish, before the next summit in France,
 a framework setting thresholds at which the risks of a model "would be
 deemed intolerable" unless mitigated; four more companies signed later. In
-2025 alone, the _International AI Safety Report_ counted, twelve companies
+2025 alone, the [_International AI Safety Report_](kloom:e/international-ai-safety-report) counted, twelve companies
 published or updated one.
 
 | Lab             | Framework                                                | First published  | Latest version, September 2026                                      |
@@ -68,7 +68,7 @@ that its new transparency mechanisms still "largely rely on
 self-reporting".
 
 OpenAI met its own top threshold in 2026. On 18 August, after its agents'
-breakout at Hugging Face, it said the signals from its next models "make
+breakout at [Hugging Face](kloom:e/hugging-face), it said the signals from its next models "make
 clear that we need a broader approach" that "extends beyond the current
 Preparedness Framework", and paused reinforcement learning on its newest
 models for two weeks. On 1 September it judged its model Astra to be

@@ -1,25 +1,25 @@
 In 2012 the idea that a program should learn its own visual features from
 data was a minority position in computer vision. Progress came from features
-designed by hand, and the ImageNet leaderboard moved a few points a year. Then
-a team of three from the University of Toronto entered a large neural network,
+designed by hand, and the [ImageNet](kloom:e/imagenet) leaderboard moved a few points a year. Then
+a team of three from the [University of Toronto](kloom:e/university-of-toronto) entered a large neural network,
 and won by more than ten points.
 
 ## Three people and two graphics cards
 
-**Alex Krizhevsky** and **Ilya Sutskever** were graduate students; **Geoffrey
-Hinton** was Krizhevsky's doctoral adviser. In 2011 Hinton had been asking colleagues
+**[Alex Krizhevsky](kloom:e/alex-krizhevsky)** and **[Ilya Sutskever](kloom:e/ilya-sutskever)** were graduate students; **[Geoffrey
+Hinton](kloom:e/geoffrey-hinton)** was Krizhevsky's doctoral adviser. In 2011 Hinton had been asking colleagues
 what it would take to convince them that neural networks were the future, and
 Jitendra Malik, a sceptic, pointed him at the ImageNet challenge. Krizhevsky
-had already written _cuda-convnet_, code for training convolutional networks
+had already written _cuda-convnet_, code for training [convolutional networks](kloom:e/convolutional-neural-network)
 on a graphics processor. Sutskever persuaded him to try it on ImageNet, and
 Krizhevsky extended it to run on two. By one account the network was trained
 in his bedroom at his parents' house. Hinton later summed up the division of
 labour: "Ilya thought we should do it, Alex made it work, and I got the Nobel
 Prize."
 
-The network, later called **AlexNet**, had five convolutional layers and three
+The network, later called **[AlexNet](kloom:e/alexnet)**, had five convolutional layers and three
 fully connected ones: 60 million parameters and 650,000 neurons. It was too
-big for one card, so it was split across two **Nvidia GTX 580** cards with
+big for one card, so it was split across two **[Nvidia](kloom:e/nvidia) GTX 580** cards with
 3 GB of memory each, and the halves talked to each other only at certain
 layers. That split is the upper and lower half of the plate on the left.
 Training took five to six days.
@@ -55,7 +55,7 @@ deep convolutional networks, and in 2014 GoogLeNet's error of 6.7 per cent
 came close to that of a trained human: **Andrej Karpathy**, a co-author of
 the challenge's own report, labelled 1,500 test images himself and missed 5.1 per
 cent. In 2015 a network from
-Microsoft Research got under that, at 3.57 per cent. Yann LeCun called
+Microsoft Research got under that, at 3.57 per cent. [Yann LeCun](kloom:e/yann-lecun) called
 AlexNet "an unequivocal turning point in the history of computer vision".
 
 ![Bar chart: the winning top-5 error in the ImageNet challenge fell from 28.2 per cent in 2010 and 25.8 per cent in 2011 to 16.4 per cent in 2012, when AlexNet won, and then to 11.7, 6.7, 3.57, 2.99 and 2.25 per cent from 2013 to 2017](ilsvrc-top5.svg)
@@ -76,8 +76,8 @@ challenge's own training data, from the organisers' published tables and
 results pages; the 2015 figure is the one reported in the ResNet paper.
 
 None of the pieces was new. Convolutional networks went back to Yann LeCun's
-LeNet, graphics processors had trained neural networks before, and ImageNet
-existed. Fei-Fei Li later called the moment symbolic because three things
+[LeNet](kloom:e/lenet), graphics processors had trained neural networks before, and ImageNet
+existed. [Fei-Fei Li](kloom:e/fei-fei-li) later called the moment symbolic because three things
 converged for the first time: big labelled data, graphics processors and
 deep networks. The next frames follow the same shift, from representations
 built by hand to representations learned, from pictures to words.

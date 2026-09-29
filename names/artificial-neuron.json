@@ -1,0 +1,8 @@
+{
+	"id": "artificial-neuron",
+	"wikidata": "Q177058",
+	"name": "Artificial neuron",
+	"kind": "idea",
+	"description": "A simple mathematical model of a nerve cell that sums weighted inputs against a threshold, first proposed by McCulloch and Pitts in 1943.",
+	"home": "ai/mcculloch-pitts"
+}

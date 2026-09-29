@@ -1,12 +1,12 @@
 Pretraining had a second step: to teach a model a task, you fine-tuned it on
-thousands of labelled examples. In May 2020 OpenAI showed that a large enough
+thousands of labelled examples. In May 2020 [OpenAI](kloom:e/openai) showed that a large enough
 model could often skip that step. You wrote a few examples of the task into
 the prompt, and it carried on the pattern, its weights untouched.
 
 ## Few-shot learners
 
 The paper, _Language Models are Few-Shot Learners_, had 31 authors, led by
-**Tom Brown**, and introduced **GPT-3**: a decoder-only transformer with 175
+**Tom Brown**, and introduced **[GPT-3](kloom:e/gpt-3)**: a decoder-only [transformer](kloom:e/transformer-deep-learning) with 175
 billion parameters, ten times more than any earlier language model that was
 not sparse. The authors tested it in three settings. _Zero-shot_ gave the
 model only a description of the task; _one-shot_ added one worked example;
@@ -36,7 +36,7 @@ underlying model exclusively.
 ## Emergent, or a mirage?
 
 GPT-3 made scale look like a source of surprises. In 2022 **Jason Wei** and
-colleagues at Google, Stanford and elsewhere named them. An ability is
+colleagues at [Google](kloom:e/google), Stanford and elsewhere named them. An ability is
 _emergent_, they wrote, "if it is not present in smaller models but is
 present in larger models", and so cannot be predicted by extrapolating from
 small models. Their examples looked like a switch: on a test of three-digit
@@ -67,7 +67,7 @@ at Google published _chain-of-thought prompting_: instead of examples that
 jump from question to answer, show examples that write out the intermediate
 steps ("Roger started with 5 balls. 2 cans of 3 tennis balls each is 6
 tennis balls. 5 + 6 = 11."). With just eight such examples, Google's
-540-billion-parameter PaLM went from solving 17.9% of the GSM8K
+540-billion-parameter [PaLM](kloom:e/palm) went from solving 17.9% of the GSM8K
 grade-school maths problems to 56.9%, a new best. The trick only helped
 models of around 100 billion parameters and up; smaller ones produced
 fluent but illogical chains. A few months later **Takeshi Kojima** and

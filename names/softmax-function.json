@@ -1,0 +1,8 @@
+{
+	"id": "softmax-function",
+	"wikidata": "Q7554146",
+	"name": "Softmax",
+	"aliases": ["softmax"],
+	"kind": "idea",
+	"description": "The function that turns a list of scores into probabilities summing to one; the Boltzmann distribution under another name."
+}

@@ -1,7 +1,7 @@
-On 30 November 2022 OpenAI put a chat window on the web in front of a
+On 30 November 2022 [OpenAI](kloom:e/openai) put a chat window on the web in front of a
 fine-tuned GPT-3.5, trained with the supervised examples and human feedback
 of the previous frame. Its engineers later said they had not expected it to
-be very successful. Within two months **ChatGPT** was, for a time, the
+be very successful. Within two months **[ChatGPT](kloom:e/chatgpt)** was, for a time, the
 fastest-growing internet application on record, and the other laboratories
 were racing to answer it. This frame describes the field as of 27 September 2026.
 
@@ -26,16 +26,16 @@ independently audited.
 
 ## The field that followed
 
-The other laboratories moved quickly. Meta released the first **Llama**
+The other laboratories moved quickly. [Meta](kloom:e/meta-platforms) released the first **[Llama](kloom:e/llama-language-model)**
 models on 24 February 2023, to researchers only; the weights leaked and were
 shared by BitTorrent, and later versions came with licences that allowed
 some commercial use.
-Google opened a waitlist for **Bard** on 21 March 2023 and renamed it
-**Gemini** in February 2024. Anthropic released **Claude** in March 2023. xAI previewed **Grok** to paying users of
-X in November 2023. In Paris, **Arthur Mensch**, **Guillaume Lample** and
-**Timothée Lacroix** founded Mistral AI in April 2023 and launched the
-chatbot Le Chat in February 2024. In China, Alibaba put **Qwen** into beta in
-April 2023, and in January 2025 **DeepSeek** launched its app with its R1
+[Google](kloom:e/google) opened a waitlist for **Bard** on 21 March 2023 and renamed it
+**[Gemini](kloom:e/gemini-language-model)** in February 2024. [Anthropic](kloom:e/anthropic) released **[Claude](kloom:e/claude-ai)** in March 2023. [xAI](kloom:e/spacexai) previewed **[Grok](kloom:e/grok-chatbot)** to paying users of
+X in November 2023. In [Paris](kloom:e/paris), **[Arthur Mensch](kloom:e/arthur-mensch)**, **Guillaume Lample** and
+**Timothée Lacroix** founded [Mistral AI](kloom:e/mistral-ai) in April 2023 and launched the
+chatbot Le Chat in February 2024. In China, [Alibaba](kloom:e/alibaba-group) put **[Qwen](kloom:e/qwen)** into beta in
+April 2023, and in January 2025 **[DeepSeek](kloom:e/deepseek)** launched its app with its R1
 model; within a week it was the most downloaded free app on the US App
 Store, and Nvidia's share price fell 18%.
 

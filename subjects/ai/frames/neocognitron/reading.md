@@ -1,10 +1,10 @@
-The convolutional network that reads your photographs has a grandparent
+The [convolutional network](kloom:e/convolutional-neural-network) that reads your photographs has a grandparent
 that was built to understand a cat's eye. It came from a Japanese broadcast
 engineer, a decade before anyone could train such a thing well.
 
 ## Simple cells and complex cells
 
-In 1959 **David Hubel** and **Torsten Wiesel** published "Receptive fields of
+In 1959 **[David Hubel](kloom:e/david-h-hubel)** and **[Torsten Wiesel](kloom:e/torsten-wiesel)** published "Receptive fields of
 single neurones in the cat's striate cortex". Recording from single cells in
 the visual cortex, they found that each responds only to a small patch of
 the visual field, its _receptive field_. In that paper and the work that
@@ -17,12 +17,12 @@ Medicine in 1981.
 
 ## Fukushima's layers
 
-**Kunihiko Fukushima** (born 1936) studied electronics at Kyoto University
-and worked at the research laboratories of NHK, Japan's public broadcaster.
+**[Kunihiko Fukushima](kloom:e/kunihiko-fukushima)** (born 1936) studied electronics at Kyoto University
+and worked at the research laboratories of [NHK](kloom:e/nhk), Japan's public broadcaster.
 In 1969 he published a layered network for picking out visual features,
 modelled on Hubel and Wiesel. "All the elements in one layer have the same
 set of interconnecting coefficients," he wrote. Its connections were designed
-by hand; the same paper introduced the _rectified linear unit_, now the most
+by hand; the same paper introduced the [_rectified linear unit_](kloom:e/rectified-linear-unit), now the most
 common activation function in deep learning. In 1975 came the _cognitron_,
 which organised itself by learning but took a pattern in a new position for
 a different pattern. Its successor, first reported in 1979, was published in
@@ -30,7 +30,7 @@ _Biological Cybernetics_ in 1980 under the title "Neocognitron: A
 self-organizing neural network model for a mechanism of pattern recognition
 unaffected by shift in position".
 
-The **neocognitron** alternates two kinds of layer, named for Hubel and
+The **[neocognitron](kloom:e/neocognitron)** alternates two kinds of layer, named for Hubel and
 Wiesel's cells. _S-cells_ extract features: their input connections are
 learned, and each comes to respond to one pattern, such as a line at one
 angle, in its small receptive field. _C-cells_ tolerate shifts: each has
@@ -70,9 +70,9 @@ settings. More cell-planes would help, he wrote, but that had not been tried
 ## The ancestry of convolution
 
 What the neocognitron lacked was a way to train every layer towards a goal.
-Its learning was local and unsupervised. In 1989 **Yann LeCun** and his
+Its learning was local and unsupervised. In 1989 **[Yann LeCun](kloom:e/yann-lecun)** and his
 colleagues trained the weights of a convolutional network directly from
-images of handwritten digits by backpropagation, and the Nobel Committee for
+images of handwritten digits by [backpropagation](kloom:e/backpropagation), and the Nobel Committee for
 Physics, writing in 2024, traced that architecture's roots to the
 neocognitron, and through it to Hubel and Wiesel. LeCun's networks were
 reading handwritten digits on cheques for several American banks from the

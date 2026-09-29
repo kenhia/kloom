@@ -2,16 +2,16 @@ A pretrained language model continues text; it does not, by itself, try to
 help. Asked a question, it might answer, or add more questions, or drift
 into something untrue or offensive, because all of those continue text.
 "Making language models bigger does not inherently make them better at
-following a user's intent," OpenAI's researchers wrote in 2022. The fix that
+following a user's intent," [OpenAI](kloom:e/openai)'s researchers wrote in 2022. The fix that
 turned these models into assistants was a way of training on human
-judgement: _reinforcement learning from human feedback_, or **RLHF**.
+judgement: [_reinforcement learning from human feedback_](kloom:e/reinforcement-learning-from-human-feedback), or **RLHF**.
 
 ## Easier to judge than to specify
 
-Reinforcement learning trains an agent to maximise a reward, but for many
-tasks nobody can write the reward down. In June 2017 **Paul Christiano**,
-**Jan Leike**, **Tom Brown**, **Miljan Martic**, **Shane Legg** and **Dario
-Amodei**, from OpenAI and DeepMind, proposed learning it instead. Show a
+[Reinforcement learning](kloom:e/reinforcement-learning) trains an agent to maximise a reward, but for many
+tasks nobody can write the reward down. In June 2017 **[Paul Christiano](kloom:e/paul-christiano)**,
+**Jan Leike**, **Tom Brown**, **Miljan Martic**, **[Shane Legg](kloom:e/shane-legg)** and **[Dario
+Amodei](kloom:e/dario-amodei)**, from OpenAI and [DeepMind](kloom:e/google-deepmind), proposed learning it instead. Show a
 person two short clips of what the agent did, ask which is better, and fit a
 _reward model_ to predict those choices; then train the agent against the
 reward model. People gave feedback on less than one per cent of the agent's
@@ -21,7 +21,7 @@ written a reward function.
 
 In 2020 **Nisan Stiennon**, **Long Ouyang** and colleagues at OpenAI applied
 the method to language. They collected human comparisons between summaries
-of Reddit posts (they released more than 64,000 of them), trained a
+of [Reddit](kloom:e/reddit) posts (they released more than 64,000 of them), trained a
 reward model on them, and optimised a summariser against it. Its summaries
 were preferred to the human-written reference summaries, and to those of
 much larger models trained only to imitate. They also found the failure that
@@ -34,7 +34,7 @@ is a measure, and a measure pursued too hard stops measuring.
 
 In March 2022 Ouyang, **Jeff Wu** and colleagues published the version that
 the chat assistants would use. OpenAI hired a team of about 40 contractors,
-chosen by a screening test, and ran three steps on GPT-3:
+chosen by a screening test, and ran three steps on [GPT-3](kloom:e/gpt-3):
 
 1. **Supervised fine-tuning.** The labellers wrote good answers to about
    13,000 prompts, many of them sent by customers of OpenAI's API, and GPT-3
@@ -78,7 +78,7 @@ simply replaced RLHF, which still wins on some benchmarks, and other
 variants followed: some learn from a single thumbs-up or thumbs-down rather
 than a pair, and _reinforcement learning from AI feedback_ replaces the
 human judges with a model that checks answers against written principles,
-as in Anthropic's _constitutional AI_.
+as in [Anthropic](kloom:e/anthropic)'s [_constitutional AI_](kloom:e/constitutional-ai).
 
 InstructGPT was the recipe. In November 2022 OpenAI put a model trained
 this way behind a chat box, and the world noticed.

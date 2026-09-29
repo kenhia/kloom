@@ -1,11 +1,11 @@
-In March 1950 a mathematician at Bell Telephone Laboratories published the
-plan that every chess program for the next half-century would follow. It
+In March 1950 a mathematician at [Bell Telephone Laboratories](kloom:e/bell-labs) published the
+plan that every [chess](kloom:e/chess) program for the next half-century would follow. It
 had no computer to run on, and it said plainly why a perfect chess machine
 could never be built.
 
 ## Why chess
 
-**Claude Shannon** wrote "Programming a Computer for Playing Chess", first given as a talk in March
+**[Claude Shannon](kloom:e/claude-shannon)** wrote "Programming a Computer for Playing Chess", first given as a talk in March
 1949 and printed in the _Philosophical Magazine_. He said the problem was
 "perhaps of no practical importance" but a "wedge" into others: designing
 circuits, routing telephone calls, translating languages. Chess suited
@@ -16,7 +16,7 @@ further restrict our concept of 'thinking'".
 
 ![Claude Shannon, in a portrait photograph from the Tekniska museet in Stockholm](claude-shannon.jpg)
 
-He began with the Turk, and with Poe's argument that a real machine would
+He began with [the Turk](kloom:e/mechanical-turk), and with [Poe](kloom:e/edgar-allan-poe)'s argument that a real machine would
 always win, which he called "a clear 'non sequitur'".
 
 ## Too many games
@@ -28,7 +28,7 @@ moves, so a move and a reply give about a thousand possibilities, and a
 game of forty moves gives about 10¹²⁰ variations. A machine checking one
 variation a microsecond "would require over 10⁹⁰ years to calculate the
 first move!" This figure, a deliberately rough lower bound, is now called
-the _Shannon number_.
+the [_Shannon number_](kloom:e/shannon-number).
 
 So a machine must judge a position without playing it out, with an
 _evaluation function_ f(P). Shannon's example counted material, with small
@@ -55,7 +55,7 @@ Its opponent is assumed to pick the reply that is worst for the machine, so
 the machine takes the _minimum_ over each set of replies and then the
 _maximum_ over its own moves. The drawing is Shannon's own figure 2: three
 moves for White, three replies to each, minimums of +1, −7 and −6, and so the
-first move, worth +1. Repeated deeper, this is _minimax_.
+first move, worth +1. Repeated deeper, this is [_minimax_](kloom:e/minimax).
 
 Searching every variation to a fixed depth Shannon called a **type A**
 strategy, and he saw that it would be both slow and weak: about a billion
@@ -68,18 +68,18 @@ weighed sixteen variations, 44 positions in all, before choosing a move.
 
 ## The paper machine
 
-Across the Atlantic, **Alan Turing** and **David Champernowne** had written
-a chess program in 1948, _Turochamp_, too complex for any computer then
+Across the Atlantic, **[Alan Turing](kloom:e/alan-turing)** and **[David Champernowne](kloom:e/d-g-champernowne)** had written
+a chess program in 1948, [_Turochamp_](kloom:e/turochamp), too complex for any computer then
 built. Champernowne's wife played it and lost. In 1952 Turing played it
 against **Alick Glennie** by working out each move by hand, up to thirty
 minutes a move; the paper machine lost in 29 moves. It never ran on a
-computer in Turing's life. A reconstruction played **Garry Kasparov** at
+computer in Turing's life. A reconstruction played **[Garry Kasparov](kloom:e/garry-kasparov)** at
 the Turing centenary in 2012 and lost in 16.
 
 Shannon ended with the weakness that mattered most: "the machine will not
 learn by mistakes. The only way to improve its play is by improving the
 program." He wondered whether a program might adjust its own coefficients
-from the results of its games. Sixty-seven years later, AlphaZero's authors
+from the results of its games. Sixty-seven years later, [AlphaZero](kloom:e/alphazero)'s authors
 called their selective search "arguably a more 'human-like' approach to
 search, as originally proposed by Shannon". The first program to learn from
-its own games played checkers, at IBM.
+its own games played checkers, at [IBM](kloom:e/ibm).

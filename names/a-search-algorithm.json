@@ -1,0 +1,8 @@
+{
+	"id": "a-search-algorithm",
+	"wikidata": "Q277680",
+	"name": "A* search algorithm",
+	"aliases": ["A*"],
+	"kind": "idea",
+	"description": "Best-first pathfinding algorithm published by Hart, Nilsson and Raphael in 1968 for the Shakey robot, still widely used to find shortest routes."
+}

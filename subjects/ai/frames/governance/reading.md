@@ -1,13 +1,13 @@
 For most of its history AI was governed, if at all, by laws written for
 something else: privacy, product safety, copyright, export controls. After
-ChatGPT that changed quickly. Between 2023 and 2026 governments wrote
+[ChatGPT](kloom:e/chatgpt) that changed quickly. Between 2023 and 2026 governments wrote
 AI-specific laws, signed declarations, founded institutes to test models,
 and in the United States wrote rules and then rewrote them. Courts began to
 answer the question of what training on other people's work is worth.
 
 ## Brussels: a law by risk
 
-The **European Union**'s _Artificial Intelligence Act_, first proposed by the
+The **[European Union](kloom:e/european-union)**'s [_Artificial Intelligence Act_](kloom:e/artificial-intelligence-act), first proposed by the
 Commission in April 2021, was approved by the Council in May 2024, published
 in the Official Journal on 12 July 2024 and entered into force on 1 August 2024. It sorts AI by the risk of harm into four levels (unacceptable, high,
 limited and minimal) and adds a category for general-purpose models such as
@@ -30,10 +30,10 @@ material, applying from December 2026.
 ## Washington: orders and counter-orders
 
 The United States passed no comprehensive AI law. Policy came by executive
-order. On 30 October 2023 President Biden signed Executive Order 14110,
+order. On 30 October 2023 President [Biden](kloom:e/joe-biden) signed Executive Order 14110,
 which among other things required AI developers to share safety test
 results with the government. On 20 January 2025
-President Trump revoked it, and three days later signed EO 14179, _Removing
+President [Trump](kloom:e/donald-trump) revoked it, and three days later signed EO 14179, _Removing
 Barriers to American Leadership in Artificial Intelligence_, which called for
 an "AI Action Plan". In December 2025 EO 14365 directed agencies to
 challenge state AI laws that conflicted with a national framework, with
@@ -53,12 +53,12 @@ declaration, agreed by the governments present, the United States, China
 and the European Union among them, warned of risks "at the 'frontier' of AI", including "unintended issues of
 control relating to alignment with human intent". Britain and the United
 States each founded an _AI Safety Institute_ to test models. The series
-drifted from safety toward opportunity: Seoul in May 2024, then the Paris
+drifted from safety toward opportunity: [Seoul](kloom:e/seoul) in May 2024, then the [Paris](kloom:e/paris)
 _AI Action Summit_ in February 2025, where the US and UK declined to sign
-the final statement and US Vice President **JD Vance** warned that
+the final statement and US Vice President **[JD Vance](kloom:e/jd-vance)** warned that
 "excessive regulation" could "kill a transformative sector", then New Delhi
-in February 2026. In February 2025 the UK renamed its institute the _AI
-Security Institute_; in June the US one became the _Center for AI Standards
+in February 2026. In February 2025 the UK renamed its institute the [_AI
+Security Institute_](kloom:e/ai-security-institute); in June the US one became the _Center for AI Standards
 and Innovation_.
 
 | Jurisdiction   | Instrument                                  | Date                 | Status, September 2026                                                                |
@@ -78,13 +78,13 @@ and Innovation_.
 The copyright cases moved more slowly than the models. In February 2025 a
 US judge ruled against Ross Intelligence, which had trained a legal search
 tool on Westlaw's headnotes, though that system was not generative. Authors
-suing **Anthropic** won a partial ruling: training on books the company had
+suing **[Anthropic](kloom:e/anthropic)** won a partial ruling: training on books the company had
 bought was fair use, but pirated copies went to trial, and on 20 July 2026
 a federal judge gave final approval to a $1.5 billion settlement, about
 $3,000 per work. In London, the High Court ruled on 4 November 2025 that
-Stable Diffusion was not an "infringing copy" of the Getty Images photographs
-it was trained on, after Getty had dropped its main training claim. _The New
-York Times_ sued OpenAI and Microsoft in December 2023, one of many suits
+[Stable Diffusion](kloom:e/stable-diffusion) was not an "infringing copy" of the [Getty Images](kloom:e/getty-images) photographs
+it was trained on, after Getty had dropped its main training claim. [_The New
+York Times_](kloom:e/the-new-york-times) sued [OpenAI](kloom:e/openai) and Microsoft in December 2023, one of many suits
 brought by publishers, authors, artists and musicians.
 
 Laws, summits and courts set the outer limits. The last frame on this spine

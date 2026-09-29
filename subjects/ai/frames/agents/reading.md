@@ -15,23 +15,23 @@ which APIs to call, when, and with what arguments; its tools were a
 calculator, a question-answering system, two search engines, a translator
 and a calendar.
 
-Products followed. On 13 June 2023 **OpenAI** added _function calling_ to
+Products followed. On 13 June 2023 **[OpenAI](kloom:e/openai)** added _function calling_ to
 its API: a developer describes functions, and the model replies with a JSON
 object of arguments instead of prose. Every major lab soon offered the same
-thing. On 22 October 2024 **Anthropic** released _computer use_ in public
-beta, letting Claude 3.5 Sonnet work a desktop from screenshots, moving the
+thing. On 22 October 2024 **[Anthropic](kloom:e/anthropic)** released _computer use_ in public
+beta, letting [Claude](kloom:e/claude-ai) 3.5 Sonnet work a desktop from screenshots, moving the
 pointer and typing. On the _OSWorld_ benchmark of computer tasks it scored
 14.9%, against 7.8% for the next-best system. OpenAI's Computer-Using Agent,
 behind its Operator preview of January 2025, reported 38.1%; the human score
 on the same benchmark was 72.4%.
 
 Each tool once needed its own integration. In November 2024 Anthropic
-published the **Model Context Protocol** (MCP), an open standard for
+published the **[Model Context Protocol](kloom:e/model-context-protocol)** (MCP), an open standard for
 connecting assistants to data and tools: one protocol, many servers, the
-spokes of the drawing. By December 2025, Anthropic said, ChatGPT, Gemini,
+spokes of the drawing. By December 2025, Anthropic said, [ChatGPT](kloom:e/chatgpt), Gemini,
 Microsoft Copilot and VS Code all used it, and that month Anthropic gave it to the **Agentic AI Foundation**, a new Linux
 Foundation body whose founding projects also included Block's _goose_ and
-OpenAI's _AGENTS.md_, and whose members included Google, Microsoft and
+OpenAI's _AGENTS.md_, and whose members included [Google](kloom:e/google), Microsoft and
 OpenAI.
 
 ## Agents in the repository
@@ -39,12 +39,12 @@ OpenAI.
 Code suited agents: the work is text, and tests say whether it worked.
 Cognition announced **Devin**, "the first AI software engineer", in March 2024. Anthropic's **Claude Code**, a terminal agent that reads code, edits
 files, runs tests and commits, followed in February 2025; OpenAI's cloud
-agent **Codex** in May 2025, with GitHub's Copilot coding agent and Google's
+agent **Codex** in May 2025, with [GitHub](kloom:e/github)'s Copilot coding agent and Google's
 **Jules** within days of it.
 
 The yardstick was **SWE-bench** (October 2023), by **Carlos Jimenez** and
 colleagues: 2,294 real
-GitHub issues from 12 Python projects. A model is given the repository and
+GitHub issues from 12 [Python](kloom:e/python-programming-language) projects. A model is given the repository and
 the issue, and its patch counts only if the project's own tests pass. The
 best model in the paper, Claude 2, solved 1.96%. In August 2024 OpenAI and
 the benchmark's authors published **SWE-bench Verified**, 500 problems

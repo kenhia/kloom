@@ -1,0 +1,7 @@
+{
+	"id": "mnist-database",
+	"wikidata": "Q17069496",
+	"name": "MNIST",
+	"kind": "artifact",
+	"description": "Dataset of 70,000 handwritten digits built from NIST collections in 1994, long the standard first test for image classifiers."
+}

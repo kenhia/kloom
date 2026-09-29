@@ -1,0 +1,9 @@
+{
+	"id": "expert-system",
+	"wikidata": "Q184609",
+	"name": "Expert system",
+	"aliases": ["expert systems"],
+	"kind": "idea",
+	"description": "A program that answers questions in a narrow field from rules drawn out of human experts; the commercial form of AI in the 1980s.",
+	"home": "ai/expert-systems"
+}

@@ -1,0 +1,8 @@
+{
+	"id": "exclusive-or",
+	"wikidata": "Q498186",
+	"name": "Exclusive or",
+	"aliases": ["XOR"],
+	"kind": "idea",
+	"description": "The logical operation that is true when exactly one of two inputs is true; a single perceptron cannot compute it."
+}

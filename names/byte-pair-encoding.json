@@ -1,0 +1,9 @@
+{
+	"id": "byte-pair-encoding",
+	"wikidata": "Q860962",
+	"name": "Byte-pair encoding",
+	"aliases": ["BPE"],
+	"kind": "idea",
+	"description": "A compression method from 1994, adapted in 2016 to split text into subword tokens for language models.",
+	"home": "ai/tokens"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "reinforcement-learning-from-human-feedback",
+	"wikidata": "Q115570683",
+	"name": "Reinforcement learning from human feedback",
+	"aliases": ["RLHF"],
+	"kind": "idea",
+	"description": "Training a model against a reward model learned from people's comparisons of its outputs; the method behind the chat assistants.",
+	"home": "ai/rlhf"
+}

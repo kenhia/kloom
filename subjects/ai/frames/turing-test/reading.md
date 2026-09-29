@@ -1,5 +1,5 @@
 "I propose to consider the question, 'Can machines think?'" So begins the
-paper that **Alan Turing**, by then at the University of Manchester, published
+paper that **[Alan Turing](kloom:e/alan-turing)**, by then at the [University of Manchester](kloom:e/university-of-manchester), published
 in the philosophy journal _Mind_ in October 1950. In the next paragraph he
 declines to answer it, because words like "machine" and "think" cannot be
 settled by asking how people use them, and puts a game in its place.
@@ -39,7 +39,7 @@ contrary to his own:
 |   8 | Informality of behaviour         | no set of rules can cover every circumstance               |
 |   9 | Extrasensory perception          | telepathy would give a human player away                   |
 
-The sixth goes back to Ada Lovelace's note on Babbage's engine, that it "has
+The sixth goes back to [Ada Lovelace](kloom:e/ada-lovelace)'s note on [Babbage](kloom:e/charles-babbage)'s engine, that it "has
 no pretensions to originate anything". Turing restated it as the claim that
 a machine can never "take us by surprise", and replied: "Machines take me by
 surprise with great frequency." The ninth is the oddest to a modern reader:
@@ -80,14 +80,14 @@ that needs to be done."
 
 ## The test since
 
-The game became the _Turing test_, and a target for critics. In 1980 the
-philosopher **John Searle** argued, with his _Chinese room_, that a program
+The game became the [_Turing test_](kloom:e/turing-test), and a target for critics. In 1980 the
+philosopher **[John Searle](kloom:e/john-searle)** argued, with his [_Chinese room_](kloom:e/chinese-room), that a program
 could pass by manipulating symbols it did not understand, so passing could
 not show that a machine thinks. The Loebner Prize ran contests from 1991 to
 2019; its first winner succeeded partly by imitating human typing errors. In a preprint of March 2025, Cameron Jones and Benjamin Bergen
 reported randomised three-party tests with five-minute conversations: told
 to adopt a human persona, GPT-4.5 was picked as the human 73 per
-cent of the time, more often than the real humans, while ELIZA managed 23
+cent of the time, more often than the real humans, while [ELIZA](kloom:e/eliza) managed 23
 per cent. They called it the first empirical evidence that an artificial
 system passes a standard three-party Turing test. Whether that shows
 thinking is exactly the question Searle's argument says the test cannot

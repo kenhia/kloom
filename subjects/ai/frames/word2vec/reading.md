@@ -1,6 +1,6 @@
 Many language systems of the early 2010s treated words as atomic units, with no notion
 of similarity between them: "cat" and "kitten" were as different as "cat"
-and "carburettor". In 2013 a small team at Google
+and "carburettor". In 2013 a small team at [Google](kloom:e/google)
 published a quick way to give every word a position in a space of a few
 hundred dimensions, learned from nothing but the text around it. Words used in
 similar ways ended up close together, and some of the directions between them
@@ -9,11 +9,11 @@ turned out to mean something.
 ## You shall know a word by its neighbours
 
 The idea behind it is old. Linguists call it the _distributional hypothesis_,
-associated with J. R. Firth: words that occur in similar contexts have
+associated with [J. R. Firth](kloom:e/john-rupert-firth): words that occur in similar contexts have
 similar meanings. Neural networks had been used to learn word vectors before,
-notably by **Yoshua Bengio** and colleagues in 2003, but training them was
-slow. In January 2013 **Tomas Mikolov**, Kai Chen, Greg Corrado and Jeffrey
-Dean at Google described two much simpler architectures. _Continuous
+notably by **[Yoshua Bengio](kloom:e/yoshua-bengio)** and colleagues in 2003, but training them was
+slow. In January 2013 **[Tomas Mikolov](kloom:e/tomas-mikolov)**, Kai Chen, Greg Corrado and [Jeffrey
+Dean](kloom:e/jeff-dean) at Google described two much simpler architectures. _Continuous
 bag-of-words_ predicts a word from the words around it, as in a
 fill-in-the-blank test. _Skip-gram_ does the reverse, predicting the
 neighbours from the word. Both are shallow networks, and the vector each word
@@ -22,12 +22,12 @@ is given along the way is what is kept.
 What made the method matter was speed. The paper reported learning
 high-quality vectors from 1.6 billion words of text in less than a day, and
 trained its largest models on a Google News corpus of about 6 billion words
-with a vocabulary of a million. A second paper that October, with **Ilya
-Sutskever** added, sped training up by subsampling frequent words, introduced
+with a vocabulary of a million. A second paper that October, with **[Ilya
+Sutskever](kloom:e/ilya-sutskever)** added, sped training up by subsampling frequent words, introduced
 _negative sampling_, a simpler alternative to the usual output layer, and
 added a way to learn phrases, so that "Air Canada" could have a vector of its
 own rather than being the sum of "Air" and "Canada". The method became known as
-_word2vec_, and the second paper later received the NeurIPS Test of Time
+[_word2vec_](kloom:e/word2vec), and the second paper later received the [NeurIPS](kloom:e/conference-on-neural-information-processing-systems) Test of Time
 Award, in 2023.
 
 ## King − man + woman
@@ -49,7 +49,7 @@ point for systems that search, classify and translate text.
 ## What the text carried
 
 How the words were used included how people used them. In 2016 **Tolga
-Bolukbasi** and colleagues at Boston University and Microsoft Research took
+Bolukbasi** and colleagues at Boston University and [Microsoft Research](kloom:e/microsoft-research) took
 the widely used word2vec vectors trained on Google News, 300 dimensions for 3
 million words and phrases, and asked the same analogy question with
 professions. The embedding completed "man is to computer programmer as woman
@@ -70,7 +70,7 @@ and it learns the corpus's habits along with its grammar.
 
 Word2vec's vectors are _static_: each word gets one vector, whatever sentence
 it is in, so "bank" means the same beside a river as beside a loan. Later
-models, ELMo and then transformer models such as BERT, made the vector depend
+models, [ELMo](kloom:e/elmo) and then [transformer](kloom:e/transformer-deep-learning) models such as [BERT](kloom:e/bert-language-model), made the vector depend
 on the context, and by 2022 word2vec was being described as dated. But the
 idea that meaning can be learned as geometry carried on in them. The
 next frame turns from learning to describe data to learning to make it.

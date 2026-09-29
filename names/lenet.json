@@ -1,0 +1,9 @@
+{
+	"id": "lenet",
+	"wikidata": "Q94694243",
+	"name": "LeNet",
+	"aliases": ["LeNet-5"],
+	"kind": "artifact",
+	"description": "Yann LeCun's convolutional networks for reading handwritten digits, from 1989 to LeNet-5 in 1998, used to read cheques.",
+	"home": "ai/lenet"
+}

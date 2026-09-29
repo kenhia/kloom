@@ -1,0 +1,7 @@
+{
+	"id": "contrastive-language-image-pre-training",
+	"wikidata": "Q124169113",
+	"name": "CLIP",
+	"kind": "artifact",
+	"description": "OpenAI's 2021 model that learns images and captions in one shared space from 400 million pairs taken from the web."
+}

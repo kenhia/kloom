@@ -1,0 +1,8 @@
+{
+	"id": "imagenet",
+	"wikidata": "Q24901201",
+	"name": "ImageNet",
+	"kind": "artifact",
+	"description": "Dataset of over fourteen million labelled images organised by WordNet, and the challenge on it that AlexNet won in 2012.",
+	"home": "ai/imagenet"
+}

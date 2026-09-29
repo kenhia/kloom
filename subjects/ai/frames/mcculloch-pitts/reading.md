@@ -1,28 +1,28 @@
-Turing had imagined a machine modelled on a person doing sums. In 1943 a
+[Turing](kloom:e/alan-turing) had imagined a machine modelled on a person doing sums. In 1943 a
 psychiatrist and a teenage logician in Chicago went the other way: they
 modelled the brain as a machine, and showed that a net of idealised neurons
 could compute anything logic can express. Their paper is where the idea of
-the _artificial neuron_, and so of every neural network since, begins.
+the [_artificial neuron_](kloom:e/artificial-neuron), and so of every neural network since, begins.
 
 ## An unlikely pair
 
-**Warren McCulloch**, born in 1898, was a neurophysiologist who had spent
+**[Warren McCulloch](kloom:e/warren-sturgis-mcculloch)**, born in 1898, was a neurophysiologist who had spent
 years looking for what he called a _psychon_: the least psychic event, a binary
 atom of thought that could be combined with others into logical
 propositions. In 1929 he noticed that such atoms might correspond to the
 all-or-nothing firing of neurons. In 1941 he moved to Chicago as professor of
 psychiatry at the University of Illinois.
 
-**Walter Pitts** was born in Detroit in 1923 and taught himself logic and
+**[Walter Pitts](kloom:e/walter-pitts)** was born in Detroit in 1923 and taught himself logic and
 mathematics. Friends told of him spending three days in a library, at
-twelve, reading Russell and Whitehead's _Principia Mathematica_. At fifteen
+twelve, reading [Russell](kloom:e/bertrand-russell) and Whitehead's [_Principia Mathematica_](kloom:e/principia-mathematica). At fifteen
 he left home for Chicago, where he sat in on lectures without enrolling,
-walked into the logician **Rudolf Carnap**'s office with corrections to
+walked into the logician **[Rudolf Carnap](kloom:e/rudolf-carnap)**'s office with corrections to
 Carnap's latest book, and joined Nicolas Rashevsky's seminars in
 mathematical biophysics. He was homeless. In early 1942 McCulloch took him,
 and his friend Jerome Lettvin, into his family's house, and in the evenings
 the two worked on whether the nervous system could be treated as a kind of
-universal computing device, the question Leibniz had raised.
+universal computing device, the question [Leibniz](kloom:e/gottfried-wilhelm-leibniz) had raised.
 
 ## A logical calculus
 
@@ -53,22 +53,22 @@ loops correspond exactly to a class of logical formulas about times; nets
 _with_ loops can hold activity in a circle, and so remember, and can express
 statements such as "there was some _x_ such that _x_ was a ψ." Given a tape,
 scanners and a way to write, they noted, such a net is equivalent to a
-Turing machine. They wrote it all in Carnap's formal "Language II", with
+[Turing machine](kloom:e/turing-machine). They wrote it all in Carnap's formal "Language II", with
 notation from _Principia_.
 
 ## What it started
 
-The paper was cited by **John von Neumann**. The logician Stephen Kleene
+The paper was cited by **[John von Neumann](kloom:e/john-von-neumann)**. The logician Stephen Kleene
 studied what such nets can recognise, and in 1951 named the answer the
-_regular_ events, a term computer science still uses. Marvin Minsky
+_regular_ events, a term computer science still uses. [Marvin Minsky](kloom:e/marvin-minsky)
 built an early neural-network machine, SNARC, in 1951. McCulloch chaired
-the Macy conferences of 1946–53 at which _cybernetics_ took shape, and Frank
-Rosenblatt's perceptron, fifteen years later, was a threshold unit with
+the [Macy conferences](kloom:e/macy-conferences) of 1946–53 at which [_cybernetics_](kloom:e/cybernetics) took shape, and [Frank
+Rosenblatt](kloom:e/frank-rosenblatt)'s [perceptron](kloom:e/perceptron), fifteen years later, was a threshold unit with
 adjustable weights, built into machines that learned.
 
 For Pitts, the story ended badly. He received an Associate of
 Arts degree from Chicago for the paper (his only earned degree), and moved to MIT
-to work with Norbert Wiener. In 1959 he, McCulloch, Lettvin and Humberto
+to work with [Norbert Wiener](kloom:e/norbert-wiener). In 1959 he, McCulloch, Lettvin and Humberto
 Maturana published _What the Frog's Eye Tells the Frog's Brain_, which showed
 the eye doing much of its interpretation by analogue processes rather than
 neuron-by-neuron logic. Pitts burned his unpublished dissertation, withdrew,

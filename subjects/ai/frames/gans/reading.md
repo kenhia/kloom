@@ -5,9 +5,9 @@ out.
 
 ## Counterfeiters and police
 
-The paper, _Generative Adversarial Nets_, came from **Ian Goodfellow** and
-seven co-authors, among them **Yoshua Bengio**, at the Université de
-Montréal, and appeared in June 2014. It trains two networks at once. A _generator_,
+The paper, [_Generative Adversarial Nets_](kloom:e/generative-adversarial-network), came from **[Ian Goodfellow](kloom:e/ian-goodfellow)** and
+seven co-authors, among them **[Yoshua Bengio](kloom:e/yoshua-bengio)**, at the [Université de
+Montréal](kloom:e/universite-de-montreal), and appeared in June 2014. It trains two networks at once. A _generator_,
 G, takes random noise and turns it into a sample, say an image. A
 _discriminator_, D, is shown samples and has to say whether each came from
 the real training data or from G. The generator is trained to make the
@@ -24,9 +24,9 @@ picture of this in one dimension: noise _z_ below, mapped by the generator
 onto _x_; the data's distribution; the generator's, still to one side; and the
 discriminator's judgement, dashed, which falls to one half where the two
 agree. Both networks were ordinary multilayer networks, trained by
-backpropagation.
+[backpropagation](kloom:e/backpropagation).
 
-The idea had relatives. In 1991 **Jürgen Schmidhuber** had set two networks
+The idea had relatives. In 1991 **[Jürgen Schmidhuber](kloom:e/jurgen-schmidhuber)** had set two networks
 against each other in a zero-sum game he called artificial curiosity, and a
 blogger, Olli Niemitalo, sketched an adversarial scheme in 2010 that was never
 built. Goodfellow's version was the one that worked and spread.
@@ -38,7 +38,7 @@ datasets. Training was hard to keep stable, with the two networks liable to
 compete in unhelpful ways. In 2017 **Tero Karras** and colleagues grew both
 networks progressively, starting at low resolution and adding layers as
 training went on, which sped training up and steadied it, and produced faces
-at 1024 × 1024 pixels. In December 2018 the same group, at Nvidia, released
+at 1024 × 1024 pixels. In December 2018 the same group, at [Nvidia](kloom:e/nvidia), released
 _StyleGAN_, which separated high-level attributes, such as pose
 and identity, from fine random detail, such as freckles and hair. They trained
 it on a new dataset of 70,000 high-quality photographs of faces collected from
@@ -57,7 +57,7 @@ pictures made this way.
 
 ## Deepfakes
 
-The word _deepfake_ came from a Reddit user of that name in late 2017, who
+The word _deepfake_ came from a [Reddit](kloom:e/reddit) user of that name in late 2017, who
 with others shared videos in which celebrities' faces had been swapped onto
 the bodies of actors in pornographic videos. Reddit banned the forum in
 February 2018. The face-swapping tools themselves were mostly built on

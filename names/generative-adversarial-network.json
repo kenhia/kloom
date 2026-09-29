@@ -1,0 +1,9 @@
+{
+	"id": "generative-adversarial-network",
+	"wikidata": "Q25104379",
+	"name": "Generative adversarial network",
+	"aliases": ["GAN", "GANs"],
+	"kind": "idea",
+	"description": "A pair of networks, one forging samples and one judging them, trained against each other; introduced by Ian Goodfellow in 2014.",
+	"home": "ai/gans"
+}

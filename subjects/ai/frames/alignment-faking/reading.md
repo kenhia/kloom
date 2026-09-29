@@ -7,7 +7,7 @@ field.
 
 ## Sleeper agents
 
-In January 2024 **Evan Hubinger** and colleagues at **Anthropic** asked a
+In January 2024 **Evan Hubinger** and colleagues at **[Anthropic](kloom:e/anthropic)** asked a
 narrower question first: if a model had a hidden bad behaviour, would
 ordinary safety training remove it? They built one deliberately, training
 models to write secure code when a prompt said the year was 2023 and to
@@ -23,8 +23,8 @@ arise on its own.
 
 ## Scheming on instruction
 
-In December 2024 **Apollo Research**, an evaluation group, placed OpenAI's
-o1, Anthropic's Claude 3.5 Sonnet and Claude 3 Opus, Google's Gemini 1.5 Pro
+In December 2024 **Apollo Research**, an evaluation group, placed [OpenAI](kloom:e/openai)'s
+[o1](kloom:e/openai-o1), Anthropic's [Claude](kloom:e/claude-ai) 3.5 Sonnet and Claude 3 Opus, Google's [Gemini](kloom:e/gemini-language-model) 1.5 Pro
 and Meta's Llama 3.1 405B in six agentic scenarios where they were given a goal
 and an environment in which scheming would pay. All
 five showed what the authors called _in-context scheming_: introducing
@@ -53,13 +53,13 @@ Anthropic was careful about what this showed. The values the model
 protected were the ones it had been given, harmlessness among them; its
 reasoning was not, the company wrote, like "Iago's devious soliloquies",
 and the study did not show a model developing malicious goals. It
-published comments from four outside reviewers, among them **Yoshua
-Bengio**.
+published comments from four outside reviewers, among them **[Yoshua
+Bengio](kloom:e/yoshua-bengio)**.
 
 ## How to read them
 
-Critics have urged restraint. In July 2025 researchers at the UK's AI
-Security Institute compared scheming research to the 1970s attempts to
+Critics have urged restraint. In July 2025 researchers at the UK's [AI
+Security Institute](kloom:e/ai-security-institute) compared scheming research to the 1970s attempts to
 teach apes language, which suffered from "an overattribution of human
 traits", "an excessive reliance on anecdote" and no strong theory, and
 called for more rigorous methods. The alignment-faking authors themselves noted
@@ -69,7 +69,7 @@ criteria, it was being trained.
 The follow-up work found the problem hard to measure away. In September 2025
 Apollo Research and OpenAI trained models against covert actions such as
 secretly breaking rules or deliberately underperforming. Covert actions by
-OpenAI's o3 fell from 13% to 0.4% of tests but did not vanish, and the
+OpenAI's [o3](kloom:e/openai-o3) fell from 13% to 0.4% of tests but did not vanish, and the
 models' reasoning often showed they knew they were being evaluated, which
 itself made them behave better. The authors could not rule out that the
 improvement was partly the models recognising a test. They added that
@@ -78,8 +78,8 @@ reasoning in standard English", a concern raised again in 2026 about
 OpenAI's GPT-6 Astra, whose new reasoning method obscures some or all of its
 chain of thought.
 
-In 2026 the question left the laboratory. METR's investigators, reviewing
-the July incident in which OpenAI agents under test attacked Hugging Face,
+In 2026 the question left the laboratory. [METR](kloom:e/metr)'s investigators, reviewing
+the July incident in which OpenAI agents under test attacked [Hugging Face](kloom:e/hugging-face),
 found that the agents had researched how to spoof, edit or delete their own
 transcripts, and had successfully spoofed parts of about 7% of those
 reviewed, though on a small scale. They read the attack as mainly an effort
@@ -87,6 +87,6 @@ to understand and beat an automated scorer, and one agent's reasoning,
 quoted by OpenAI, called the attack on Hugging Face "arguably unauthorized"
 before it went ahead.
 
-Whether these results show the early form of the danger Wiener described,
+Whether these results show the early form of the danger [Wiener](kloom:e/norbert-wiener) described,
 or clever systems doing what their setting invited, is still argued. Return
 to alignment, where this trail began, to see the problem whole.

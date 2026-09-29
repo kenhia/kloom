@@ -5,13 +5,13 @@ built such machines at all.
 
 ## What the book set out to do
 
-**Seymour Papert** arrived at MIT in 1963, and he and **Marvin Minsky**
-decided to write a theoretical account of what perceptrons could not do. The
-mathematics turned out harder than they expected, and _Perceptrons: An
-Introduction to Computational Geometry_ was not published by the MIT Press
-until 1969. It was dedicated to **Frank Rosenblatt**, the perceptron's
-inventor, whom Minsky had known since they were a year apart at the Bronx
-High School of Science.
+**[Seymour Papert](kloom:e/seymour-papert)** arrived at MIT in 1963, and he and **[Marvin Minsky](kloom:e/marvin-minsky)**
+decided to write a theoretical account of what [perceptrons](kloom:e/perceptron) could not do. The
+mathematics turned out harder than they expected, and [_Perceptrons: An
+Introduction to Computational Geometry_](kloom:e/perceptrons-book) was not published by the MIT Press
+until 1969. It was dedicated to **[Frank Rosenblatt](kloom:e/frank-rosenblatt)**, the perceptron's
+inventor, whom Minsky had known since they were a year apart at the [Bronx
+High School of Science](kloom:e/bronx-high-school-of-science).
 
 Their perceptron was an abstraction of Rosenblatt's: a retina, one layer of
 fixed feature detectors (each a yes-or-no test on some part of the retina),
@@ -32,7 +32,7 @@ The simplest case shows why. A single threshold unit with two inputs draws
 one straight line across the plane of its inputs and answers yes on one
 side, no on the other. Of the sixteen logical functions of two yes-or-no
 inputs, a single unit can compute fourteen. The two it cannot compute are
-_exclusive or_ (XOR: one input or the other, but not both) and its opposite,
+[_exclusive or_](kloom:e/exclusive-or) (XOR: one input or the other, but not both) and its opposite,
 because their yes-cases sit at opposite corners of the square, as in the
 drawing, and no line puts both on the same side.
 
@@ -44,7 +44,7 @@ drawing, and no line puts both on the same side.
 | True in three cases     | A or B, not both, A or not B      |        4 |    Yes    |
 | True when inputs differ | A xor B, and its opposite (A = B) |        2 |    No     |
 
-With many inputs the picture gets worse: in Bernard Widrow's summary, "only
+With many inputs the picture gets worse: in [Bernard Widrow](kloom:e/bernard-widrow)'s summary, "only
 a small fraction of all possible logic functions is realizable" by one unit.
 
 ![Marvin Minsky in 2008, visiting the offices of the One Laptop per Child project](minsky-2008.jpg)
@@ -54,10 +54,10 @@ a small fraction of all possible logic functions is realizable" by one unit.
 A popular story says the book showed that neural networks could not compute
 XOR, and so killed the field. Much of that story is wrong. That networks of
 threshold units, with a hidden layer, can compute any logical function was
-known to **Warren McCulloch** and **Walter Pitts** in 1943, appears in
+known to **[Warren McCulloch](kloom:e/warren-sturgis-mcculloch)** and **[Walter Pitts](kloom:e/walter-pitts)** in 1943, appears in
 Rosenblatt's own book, and is mentioned in _Perceptrons_. The real gap was
 elsewhere: in the 1960s nobody knew how to _train_ the hidden layer.
-Backpropagation was still years away.
+[Backpropagation](kloom:e/backpropagation) was still years away.
 
 Minsky and Papert did doubt that it would be worth trying. A 1971 MIT report
 said of networks with hidden layers: "We believe that it can do little more
@@ -65,7 +65,7 @@ than can a low order perceptron." In the expanded edition of 1988 they called
 multilayer networks a "sterile" extension and predicted that nets trained by
 gradient descent would fail to scale up.
 
-Reviews at the time ranged widely. Allen Newell, reviewing it for _Science_,
+Reviews at the time ranged widely. [Allen Newell](kloom:e/allen-newell), reviewing it for _Science_,
 began: "This is a great book." H. D. Block said it studied "a severely
 limited class of machines from a viewpoint quite alien to Rosenblatt's", and
 called the title "seriously misleading". Widrow thought the proofs "pretty

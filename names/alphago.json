@@ -1,0 +1,8 @@
+{
+	"id": "alphago",
+	"wikidata": "Q22329209",
+	"name": "AlphaGo",
+	"kind": "artifact",
+	"description": "DeepMind's Go program, which combined deep networks with tree search and beat Lee Sedol 4–1 in Seoul in March 2016.",
+	"home": "ai/alphago"
+}

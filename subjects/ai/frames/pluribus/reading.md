@@ -1,12 +1,12 @@
-Chess, checkers, backgammon and Go all show both players the whole board.
-Poker does not. A player must act without knowing the other hands, and must
+[Chess](kloom:e/chess), [checkers](kloom:e/checkers), [backgammon](kloom:e/backgammon) and [Go](kloom:e/go-game) all show both players the whole board.
+[Poker](kloom:e/poker) does not. A player must act without knowing the other hands, and must
 play so that their own hand cannot be read from their bets. For a machine
 that meant learning, among other things, to bluff.
 
 ## Heads-up: Libratus
 
-At **Carnegie Mellon University**, **Tuomas Sandholm** and his student
-**Noam Brown** built **Libratus** for heads-up (two-player) no-limit Texas
+At **[Carnegie Mellon University](kloom:e/carnegie-mellon-university)**, **[Tuomas Sandholm](kloom:e/tuomas-sandholm)** and his student
+**[Noam Brown](kloom:e/noam-brown)** built **[Libratus](kloom:e/libratus)** for heads-up (two-player) no-limit Texas
 hold'em. It did not work from a fixed strategy but computed one, with a
 variant of _counterfactual regret minimization_ (CFR+), an algorithm that
 plays the game against itself over and over and shifts its choices toward
@@ -27,8 +27,8 @@ before, under different conditions.
 ## Six players: Pluribus
 
 Two-player poker is a zero-sum game, and programs win it by approximating a
-_Nash equilibrium_. With three or more players that approach does not work.
-**Pluribus**, built by Brown and Sandholm with Facebook AI and published in
+[_Nash equilibrium_](kloom:e/nash-equilibrium). With three or more players that approach does not work.
+**[Pluribus](kloom:e/pluribus-poker-bot)**, built by Brown and Sandholm with Facebook AI and published in
 _Science_ in August 2019, used one that has no such guarantee but works in
 practice. It first computed a _blueprint_ strategy by playing against five
 copies of itself, with Monte Carlo CFR. It followed the blueprint only in
@@ -50,7 +50,7 @@ online games.
 
 ## Talking: Cicero
 
-In 2022 Meta's **Cicero** played _Diplomacy_, a game for seven players that turns on negotiation in plain language and on coordinating moves. It joined a
+In 2022 [Meta](kloom:e/meta-platforms)'s **Cicero** played [_Diplomacy_](kloom:e/diplomacy-game), a game for seven players that turns on negotiation in plain language and on coordinating moves. It joined a
 language model to a strategic planner, so that what it said to other
 players followed from its plans. Playing anonymously in 40 games of an
 online blitz league between August and October 2022, it scored more than
@@ -77,4 +77,4 @@ building a false alliance to leave a human player undefended.
 
 The trail began with a man hidden in a cabinet and ends with a program
 that hides its hand. For the match that made the world pay attention, when
-a machine beat the world chess champion, go back to Deep Blue.
+a machine beat the world chess champion, go back to [Deep Blue](kloom:e/deep-blue-chess-computer).

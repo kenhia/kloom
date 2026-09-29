@@ -1,0 +1,7 @@
+{
+	"id": "minimax",
+	"wikidata": "Q751319",
+	"name": "Minimax",
+	"kind": "idea",
+	"description": "The rule of choosing the move whose worst outcome is best, assuming the opponent replies as well as possible; the core of game-tree search."
+}

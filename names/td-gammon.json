@@ -1,0 +1,8 @@
+{
+	"id": "td-gammon",
+	"wikidata": "Q7669824",
+	"name": "TD-Gammon",
+	"kind": "artifact",
+	"description": "Gerald Tesauro's backgammon program of 1992, a neural network that taught itself to play near the level of the best humans.",
+	"home": "ai/td-gammon"
+}

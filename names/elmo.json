@@ -1,0 +1,7 @@
+{
+	"id": "elmo",
+	"wikidata": "Q100952135",
+	"name": "ELMo",
+	"kind": "artifact",
+	"description": "The Allen Institute's 2018 language model whose word vectors changed with their sentence, an early step in pretraining."
+}

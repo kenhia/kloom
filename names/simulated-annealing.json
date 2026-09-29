@@ -1,0 +1,7 @@
+{
+	"id": "simulated-annealing",
+	"wikidata": "Q863783",
+	"name": "Simulated annealing",
+	"kind": "idea",
+	"description": "An optimisation method that starts hot, accepting worse moves at random, and cools slowly, borrowed from the annealing of metals."
+}

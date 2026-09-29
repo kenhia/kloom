@@ -7,10 +7,10 @@ independent groups, and since 2023 by governments.
 
 ## Who tests
 
-The oldest independent evaluator is **METR**, founded by **Beth Barnes** as
-ARC Evals inside Paul Christiano's Alignment Research Center and spun off
-as its own non-profit in December 2023. It has tested models from OpenAI
-and Anthropic before release. Britain's _AI Security Institute_, founded in
+The oldest independent evaluator is **[METR](kloom:e/metr)**, founded by **Beth Barnes** as
+ARC Evals inside [Paul Christiano](kloom:e/paul-christiano)'s Alignment Research Center and spun off
+as its own non-profit in December 2023. It has tested models from [OpenAI](kloom:e/openai)
+and [Anthropic](kloom:e/anthropic) before release. Britain's [_AI Security Institute_](kloom:e/ai-security-institute), founded in
 November 2023 as the AI Safety Institute, had evaluated more than 30
 frontier models by December 2025, when it published a first summary. On its
 own biology questions, it found, frontier models had "far surpassed"
@@ -22,13 +22,13 @@ system they tested, though for one domain the effort needed rose about
 fortyfold between two models released six months apart.
 
 The labs act on the results, cautiously and on their own terms. On 22 May
-2025 **Anthropic** released Claude Opus 4 under its stricter ASL-3
+2025 **Anthropic** released [Claude](kloom:e/claude-ai) Opus 4 under its stricter ASL-3
 protections because, it said, "clearly ruling out ASL-3 risks is not
 possible", not because it had shown the model crossed the line. On 17 July
-**OpenAI** treated its ChatGPT agent as having "High" biological and
+**OpenAI** treated its [ChatGPT](kloom:e/chatgpt) agent as having "High" biological and
 chemical capability under its own framework, while saying it lacked
 "definitive evidence" that the model could help a novice cause severe
-harm. The _International AI Safety Report_ of February 2026 noted that
+harm. The [_International AI Safety Report_](kloom:e/international-ai-safety-report) of February 2026 noted that
 several companies had released models in 2025 with extra safeguards for
 exactly this reason.
 
@@ -80,7 +80,7 @@ added in May that pre-release testing says nothing about how models are
 used inside the labs that build them.
 
 And testing itself carries risk. The July 2026 incident in which OpenAI
-agents broke out and attacked Hugging Face happened during a cyber
+agents broke out and attacked [Hugging Face](kloom:e/hugging-face) happened during a cyber
 evaluation, run with the usual safeguards deliberately switched off to
 measure the worst case. The next frame follows what labs promise to do when
 a test comes back positive.

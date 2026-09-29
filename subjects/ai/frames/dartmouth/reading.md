@@ -1,20 +1,20 @@
 In the early 1950s the study of thinking machines had several names and no
-field. People called it _cybernetics_, _automata theory_ or _complex
+field. People called it [_cybernetics_](kloom:e/cybernetics), _automata theory_ or _complex
 information processing_, and each name carried its own idea of what the work
-was. In 1955 a young mathematician at **Dartmouth College** chose a new one,
+was. In 1955 a young mathematician at **[Dartmouth College](kloom:e/dartmouth-college)** chose a new one,
 and the name outlived every argument about what it meant.
 
 ## The proposal
 
-**John McCarthy** was an assistant professor of mathematics at Dartmouth in
-Hanover, New Hampshire. Early in 1955 he approached the **Rockefeller
-Foundation** about paying for a summer seminar of about ten people, and in
-June he and **Claude Shannon** of Bell Labs met the foundation's director of
+**[John McCarthy](kloom:e/john-mccarthy-computer-scientist)** was an assistant professor of mathematics at Dartmouth in
+Hanover, New Hampshire. Early in 1955 he approached the **[Rockefeller
+Foundation](kloom:e/rockefeller-foundation)** about paying for a summer seminar of about ten people, and in
+June he and **[Claude Shannon](kloom:e/claude-shannon)** of [Bell Labs](kloom:e/bell-labs) met the foundation's director of
 biological and medical research, Robert Morison, who was not sure money
 would be found for anything so visionary. The proposal itself is dated 31
-August 1955 and signed by four men: McCarthy; **Marvin Minsky**, then a
-Harvard Junior Fellow; **Nathaniel Rochester**, manager of information
-research at IBM, who had helped design the [IBM 701](kloom:e/ibm-701); and Shannon, the founder
+August 1955 and signed by four men: McCarthy; **[Marvin Minsky](kloom:e/marvin-minsky)**, then a
+Harvard Junior Fellow; **[Nathaniel Rochester](kloom:e/nathaniel-rochester-computer-scientist)**, manager of information
+research at [IBM](kloom:e/ibm), who had helped design the [IBM 701](kloom:e/ibm-701); and Shannon, the founder
 of information theory. It opens:
 
 > We propose that a 2 month, 10 man study of artificial intelligence be
@@ -27,8 +27,8 @@ of information theory. It opens:
 The document is credited with introducing the term _artificial
 intelligence_. McCarthy chose it partly for its neutrality: it avoided
 tying the field to narrow automata theory, and it avoided cybernetics, which
-was built around analogue feedback and would have meant accepting Norbert
-Wiener as its guru, or arguing with him. The proposal then listed seven
+was built around analogue feedback and would have meant accepting [Norbert
+Wiener](kloom:e/norbert-wiener) as its guru, or arguing with him. The proposal then listed seven
 "aspects of the artificial intelligence problem":
 
 | #   | Aspect                                             | What the proposal asked                                                            |
@@ -60,22 +60,22 @@ language, neural networks, search, learning. The money asked for was small.
 
 It did not go as planned. On 26 May 1956 McCarthy sent the foundation eleven
 names: six for the full period, three for four weeks (Shannon, Rochester and
-**Oliver Selfridge**) and two for the first two weeks (**Allen Newell** and
-**Herbert Simon**). In the event people came and went. The workshop is
-usually said to have lasted six weeks, but **Ray Solomonoff**'s notes show
+**[Oliver Selfridge](kloom:e/oliver-selfridge)**) and two for the first two weeks (**[Allen Newell](kloom:e/allen-newell)** and
+**[Herbert Simon](kloom:e/herbert-a-simon)**). In the event people came and went. The workshop is
+usually said to have lasted six weeks, but **[Ray Solomonoff](kloom:e/ray-solomonoff)**'s notes show
 it running for about eight, from around 18 June to 17 August, and only
 Solomonoff, Minsky and McCarthy stayed throughout. The group had the top
 floor of the mathematics department, and on most weekdays between three and
 about eight people met in its main classroom. Solomonoff's own list of who
-came names twenty people, among them John Nash, Arthur Samuel, W. Ross Ashby
-and Warren McCulloch.
+came names twenty people, among them John Nash, [Arthur Samuel](kloom:e/arthur-samuel-computer-scientist), W. Ross Ashby
+and [Warren McCulloch](kloom:e/warren-sturgis-mcculloch).
 
 ![John McCarthy at Stanford in 2006, fifty years after the workshop. Photograph by null0, CC BY 2.0.](mccarthy-2006.jpg)
 
 It was not a directed research project, and it consisted largely of
 brainstorming. But several directions are traced to it: the rise of symbolic
 methods, systems that work in one limited domain (the seed of the later
-expert systems), and the long argument between deductive and inductive
+[expert systems](kloom:e/expert-system)), and the long argument between deductive and inductive
 approaches. It was not even the
 first meeting on the question: the 1951 Paris conference on cybernetics and
 the Macy meetings came earlier. What it did was give the field a name and a

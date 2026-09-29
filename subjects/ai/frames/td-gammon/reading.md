@@ -1,12 +1,12 @@
-At IBM's Watson Research Center in the early 1990s, **Gerald Tesauro** set a
-neural network to play backgammon against itself, starting from random
+At [IBM](kloom:e/ibm)'s Watson Research Center in the early 1990s, **[Gerald Tesauro](kloom:e/gerald-tesauro)** set a
+neural network to play [backgammon](kloom:e/backgammon) against itself, starting from random
 weights and no knowledge of the game. It came close to the best players in the world, and the experts changed how they played.
 
 ## Learning from the next guess
 
 Tesauro had already built **Neurogammon**, a network trained on positions
 that human experts had scored; it won the Computer Olympiad in 1989. Its
-successor, **TD-Gammon**, learned from no expert at all. It used _TD(λ)_, a _temporal-difference_ method invented by **Richard Sutton** on the foundation of Samuel's work: adjust each prediction to match the later, better-informed prediction that follows it.
+successor, **[TD-Gammon](kloom:e/td-gammon)**, learned from no expert at all. It used _TD(λ)_, a [_temporal-difference_](kloom:e/temporal-difference-learning) method invented by **[Richard Sutton](kloom:e/richard-s-sutton)** on the foundation of [Samuel](kloom:e/arthur-samuel-computer-scientist)'s work: adjust each prediction to match the later, better-informed prediction that follows it.
 
 The network watches one game from the opening to the end. For each
 position x_t it outputs Y_t, four numbers estimating the chances of each
@@ -61,6 +61,6 @@ calculation, and it had been trained without the doubling cube. In a
 Champions, it lost by eight points, mostly on one doubling blunder.
 TD-Gammon itself was never sold, but commercial neural-network programs
 such as JellyFish and Snowie followed, and the papers on deep Q-learning
-and AlphaGo cited it.
+and [AlphaGo](kloom:e/alphago) cited it.
 
 TD-Gammon found its knowledge for itself. The next machine in this trail was the opposite: everything it knew was put there by hand, and it was built to beat one man.

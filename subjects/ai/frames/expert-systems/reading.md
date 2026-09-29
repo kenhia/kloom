@@ -1,7 +1,7 @@
 The lesson AI took from the 1970s was that cleverness was not enough. A
 program that searched well but knew nothing drowned in possibilities; a
 program that knew a great deal about one narrow subject might not need to
-search much at all. By 1980 that idea had a name, the _expert system_, and a
+search much at all. By 1980 that idea had a name, the [_expert system_](kloom:e/expert-system), and a
 first commercial success.
 
 ## Knowledge is power
@@ -13,17 +13,17 @@ to fire, adds what it concludes, and repeats. Because the reasoning is a chain
 of named rules, the system can say which rules led to its answer, and why it is
 asking a question.
 
-The approach came out of Stanford. **Edward Feigenbaum**, often called the
+The approach came out of [Stanford](kloom:e/stanford-university). **[Edward Feigenbaum](kloom:e/edward-feigenbaum)**, often called the
 "father of expert systems", led the Heuristic Programming Project, and put its
 principle in one sentence: "intelligent systems derive their power from the
 knowledge they possess rather than from the specific formalisms and inference
-schemes they use." The first system was **DENDRAL**, begun in the mid-1960s
-(accounts give 1964 or 1965) with **Joshua Lederberg**, **Carl Djerassi** and
+schemes they use." The first system was **[DENDRAL](kloom:e/dendral)**, begun in the mid-1960s
+(accounts give 1964 or 1965) with **[Joshua Lederberg](kloom:e/joshua-lederberg)**, **[Carl Djerassi](kloom:e/carl-djerassi)** and
 **Bruce Buchanan**. Given the mass spectrum of
 an unknown organic compound, it used rules of chemistry to cut the number of
 possible molecular structures down to a few a chemist could check by hand.
 
-**MYCIN**, written in Lisp in the early 1970s as **Edward Shortliffe**'s
+**[MYCIN](kloom:e/mycin)**, written in [Lisp](kloom:e/lisp-programming-language) in the early 1970s as **Edward Shortliffe**'s
 doctoral work, diagnosed severe bacterial infections such as bacteraemia and
 meningitis and recommended antibiotics, with the dose adjusted for the
 patient's weight. It held about 600 rules. In an evaluation at Stanford's
@@ -45,12 +45,12 @@ in, on a time-shared computer, before there were personal computers.
 
 ## R1 goes to work
 
-The system that turned the idea into business was **R1**, known inside
-Digital Equipment Corporation as **XCON**. A [VAX](kloom:e/vax) computer was not sold in a
+The system that turned the idea into business was **[R1](kloom:e/xcon)**, known inside
+[Digital Equipment Corporation](kloom:e/digital-equipment-corporation) as **XCON**. A [VAX](kloom:e/vax) computer was not sold in a
 box: every cabinet, cable, board and piece of software was ordered separately,
 and salespeople who were not engineers often sold systems that lacked a
 cable or a driver, which meant delays, angry customers and sometimes lawsuits.
-**John McDermott** of Carnegie Mellon wrote R1 in the rule language OPS5 in
+**John McDermott** of [Carnegie Mellon](kloom:e/carnegie-mellon-university) wrote R1 in the rule language OPS5 in
 1978, drawing on DEC's own engineers, who sometimes disagreed about the right
 configuration. It went into use in 1980 at DEC's plant in Salem, New
 Hampshire. It eventually held about 2,500 rules; by 1986 it had processed

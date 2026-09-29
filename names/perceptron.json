@@ -1,0 +1,9 @@
+{
+	"id": "perceptron",
+	"wikidata": "Q690207",
+	"name": "Perceptron",
+	"aliases": ["perceptrons"],
+	"kind": "idea",
+	"description": "Frank Rosenblatt's learning machine of 1957–58, a network whose weights adjust from its errors; the ancestor of neural networks.",
+	"home": "ai/perceptron"
+}

@@ -1,7 +1,7 @@
-Self-attention is the one operation that lets tokens exchange information. In
+[Self-attention](kloom:e/attention-machine-learning) is the one operation that lets tokens exchange information. In
 a single step, every token looks at the tokens around it, decides which ones
 matter to it, and takes a blend of what they carry. The 2017 paper's title
-claimed this was _all you need_; the rest of the transformer is there to
+claimed this was _all you need_; the rest of the [transformer](kloom:e/transformer-deep-learning) is there to
 support it.
 
 ## Queries, keys and values
@@ -17,7 +17,7 @@ To decide how much token _i_ should attend to token _j_, take the _dot
 product_ of _i_'s query with _j_'s key: multiply them number by number and
 add up. A large result means a good match. Divide every score by the square
 root of the key's length, √*dₖ*; turn the row of scores into weights with the
-**softmax** function, which makes them all positive and sum to 1; and output
+**[softmax](kloom:e/softmax-function)** function, which makes them all positive and sum to 1; and output
 the weighted sum of the values. In the paper's notation:
 
 > Attention(_Q_, _K_, _V_) = softmax(_QK_ᵀ / √*dₖ*) _V_
@@ -27,8 +27,8 @@ random vectors their variance equals _dₖ_), which pushes the softmax into
 regions where, the authors wrote, "it has extremely small gradients", and
 learning stalls. The 2017 model used _dₖ_ = 64, so it divided by 8.
 
-The softmax is older than the transformer. As the _Boltzmann distribution_ it
-goes back to Ludwig Boltzmann's statistical mechanics of 1868; the name
+The softmax is older than the transformer. As the [_Boltzmann distribution_](kloom:e/boltzmann-distribution) it
+goes back to [Ludwig Boltzmann](kloom:e/ludwig-boltzmann)'s statistical mechanics of 1868; the name
 "softmax" is credited to **John S. Bridle** in two conference papers of 1989.
 
 ## A worked example

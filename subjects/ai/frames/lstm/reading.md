@@ -1,4 +1,4 @@
-Backpropagation could train a network to look at one thing at a time. Much
+[Backpropagation](kloom:e/backpropagation) could train a network to look at one thing at a time. Much
 of what matters, speech, handwriting, language, arrives as a sequence, where
 the meaning of the present depends on something that happened a long time
 ago. Networks with loops in them could in principle remember the past. In
@@ -12,22 +12,22 @@ at each moment carries a trace of what came before. To train one, the network
 is unrolled in time into a very deep layered network, one layer per time step,
 and the error is propagated backwards through all of them. That is where it
 goes wrong. On the way back, the error signal is multiplied again and again,
-once for every step, and as **Sepp Hochreiter** showed in his 1991 diploma
+once for every step, and as **[Sepp Hochreiter](kloom:e/sepp-hochreiter)** showed in his 1991 diploma
 thesis, its size depends exponentially
 on the size of the weights. If the factors are larger than one it blows up; if
 they are smaller, as they usually are, it _vanishes_. The curve at the bottom
 of the drawing is what happens to a signal scaled by 0.9 at each step: after
 sixty steps less than one five-hundredth of it is left, and whatever caused the
 error that far back can no longer be learned. This became known as the
-_vanishing gradient problem_, and it afflicts deep layered networks as well as
+[_vanishing gradient problem_](kloom:e/vanishing-gradient-problem), and it afflicts deep layered networks as well as
 recurrent ones.
 
 ## A constant error carousel
 
-Hochreiter and his supervisor, **Jürgen Schmidhuber** of the IDSIA
+Hochreiter and his supervisor, **[Jürgen Schmidhuber](kloom:e/jurgen-schmidhuber)** of the IDSIA
 laboratory in Lugano, published their remedy in _Neural Computation_ in
 November 1997, after a technical report in 1995 and a conference paper in 1996.
-They called it **Long Short-Term Memory**, because it gives a network's
+They called it **[Long Short-Term Memory](kloom:e/long-short-term-memory)**, because it gives a network's
 short-term memory, held in its activity, a very long reach.
 
 The idea is in the drawing on the left. At the centre of each _memory cell_ is
@@ -56,10 +56,10 @@ For a decade LSTM was mostly a research tool. Then it began to win. In 2009 an
 LSTM network trained by **Alex Graves**'s team won an international
 competition in connected handwriting recognition, the first time a recurrent
 network had won such a contest. In 2013 Graves, **Abdel-rahman Mohamed** and
-Geoffrey Hinton used LSTM to reach a record phoneme error rate of 17.7 per
+[Geoffrey Hinton](kloom:e/geoffrey-hinton) used LSTM to reach a record phoneme error rate of 17.7 per
 cent on TIMIT, a standard benchmark of recorded speech.
 
-Industry followed. In September 2015 Google's speech team described the new
+Industry followed. In September 2015 [Google](kloom:e/google)'s speech team described the new
 acoustic models behind voice search: LSTM recurrent networks, trained with a
 method called _connectionist temporal classification_, that were "more
 accurate, robust to noise, and faster to respond". A year later Google
@@ -71,13 +71,13 @@ sentences. For a few years LSTMs sat inside much of the
 speech recognition and translation that people used every day.
 
 Their reign was short. A 2020 study of scaling found that on text the
-transformer, the architecture of the next era, improves with size faster than
+[transformer](kloom:e/transformer-deep-learning), the architecture of the next era, improves with size faster than
 the LSTM does. But the idea outlived the network. In 2015 _highway networks_
 borrowed LSTM's gates to train feedforward networks hundreds of layers deep,
-and ResNet, developed at the same time, amounts to a highway network with its
+and [ResNet](kloom:e/residual-neural-network), developed at the same time, amounts to a highway network with its
 gates held open: the same trick of carrying a signal across a long gap without
 letting it fade, applied to depth instead of time.
 
 The same year the LSTM paper appeared, a very different kind of machine made
-the news: IBM's Deep Blue beat the
+the news: IBM's [Deep Blue](kloom:e/deep-blue-chess-computer) beat the
 reigning world chess champion, Garry Kasparov, in a six-game match.

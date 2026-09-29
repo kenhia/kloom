@@ -1,13 +1,13 @@
 By 2019 bigger language models were plainly better, but "bigger" was a
-feeling, not a plan. In January 2020 a team at OpenAI turned it into
-arithmetic. Their result, and the correction DeepMind made to it two years
+feeling, not a plan. In January 2020 a team at [OpenAI](kloom:e/openai) turned it into
+arithmetic. Their result, and the correction [DeepMind](kloom:e/google-deepmind) made to it two years
 later, told the laboratories how to spend their compute, and made the growth
 of AI something people could forecast.
 
 ## Kaplan's power laws
 
-**Jared Kaplan**, of Johns Hopkins University and OpenAI, **Sam
-McCandlish** and eight colleagues trained transformer language models of
+**[Jared Kaplan](kloom:e/jared-kaplan)**, of [Johns Hopkins University](kloom:e/johns-hopkins-university) and OpenAI, **Sam
+McCandlish** and eight colleagues trained [transformer](kloom:e/transformer-deep-learning) language models of
 many sizes, on different amounts of data, for different
 lengths of time, and measured one thing: the _loss_, how surprised the model
 was by text it had not seen. Their _Scaling Laws for Neural Language
@@ -28,13 +28,13 @@ The paper also said how to divide a budget. As compute grows, most of it
 should go on a larger model, whose optimal size grew as _C_ to the power
 0.73, with comparatively little more data, "stopping significantly before
 convergence". The large models of the next two years followed that advice:
-GPT-3 (175 billion parameters), Jurassic-1 (178 billion) and DeepMind's own
+[GPT-3](kloom:e/gpt-3) (175 billion parameters), Jurassic-1 (178 billion) and DeepMind's own
 Gopher (280 billion) were all trained on about 300 billion tokens.
 
 ## Chinchilla
 
-In March 2022 **Jordan Hoffmann**, **Sebastian Borgeaud**, **Arthur
-Mensch** and colleagues at DeepMind published _Training Compute-Optimal Large
+In March 2022 **Jordan Hoffmann**, **Sebastian Borgeaud**, **[Arthur
+Mensch](kloom:e/arthur-mensch)** and colleagues at DeepMind published _Training Compute-Optimal Large
 Language Models_. They trained more than 400 models, from 70 million to over
 16 billion parameters on 5 to 500 billion tokens, fitted the results three
 different ways, and got the same answer each time: parameters and data
@@ -43,13 +43,13 @@ By that rule the models of the day were, in the paper's word,
 "undertrained".
 
 They tested it with the compute budget that had trained Gopher. The new
-model, **Chinchilla**, had a quarter of the parameters (70 billion) and four
+model, **[Chinchilla](kloom:e/chinchilla-language-model)**, had a quarter of the parameters (70 billion) and four
 times the data (1.4 trillion tokens), and it beat Gopher, GPT-3, Jurassic-1
 and the 530-billion-parameter Megatron-Turing NLG on a large range of tasks,
 reaching 67.5% on the MMLU benchmark. Seventy billion parameters and 1.4
 trillion tokens is 20 tokens for each parameter, and "20 tokens per
 parameter" became the field's rule of thumb. It survived a check: in 2024
-**Tamay Besiroglu** and colleagues at Epoch AI found that one of the paper's
+**Tamay Besiroglu** and colleagues at [Epoch AI](kloom:e/epoch-ai) found that one of the paper's
 three fits was inconsistent with the other two, but their own refit again
 came out at around 20. Why Kaplan's answer differed is still discussed; one
 account is that his team counted parameters differently and studied smaller
@@ -68,7 +68,7 @@ models.
 
 "Compute-optimal" meant optimal for the cost of _training_. A model that is
 put into service then answers queries for a long time, and a smaller model
-is cheaper for every one of them. In February 2023 Meta's **LLaMA** paper said so
+is cheaper for every one of them. In February 2023 Meta's **[LLaMA](kloom:e/llama-language-model)** paper said so
 directly: Chinchilla's rule "disregards the inference budget", and where
 Hoffmann's fit recommended training a 10-billion-parameter model on 200
 billion tokens, Meta found a 7-billion-parameter model "continues to

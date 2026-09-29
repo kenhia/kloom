@@ -1,0 +1,9 @@
+{
+	"id": "turing-test",
+	"wikidata": "Q189223",
+	"name": "Turing test",
+	"aliases": ["imitation game"],
+	"kind": "idea",
+	"description": "Alan Turing's 1950 imitation game, in which a machine tries to pass for a person in typed conversation.",
+	"home": "ai/turing-test"
+}
