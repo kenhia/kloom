@@ -121,6 +121,10 @@ Sprint 017 connections, phase 1: a name registry (`names/`, keyed by
 Wikidata ID) whose first mentions in a reading open a card, connections
 from frame to frame with a _why_ shown on both ends, and jumps across
 subjects with the browser's Back and a "↩ Back to…" chip (R).
+Sprint 018 connections, phase 2: names marked across every subject (1,111
+in the registry), 62 more connections (21 touching western-civ), grow
+and author-subject writing names and connections (grow may add names but
+never change one), and `names.py add` and `density`.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
