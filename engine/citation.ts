@@ -56,7 +56,7 @@ export interface Citation {
 	 * chapter, the volume or proceedings it appears in.
 	 */
 	container?: string;
-	/** A chapter's editors, the volume's. */
+	/** A chapter's editors (the volume's), or an edited book's. */
 	editors?: Author[];
 	/** A report's number: "Technical Report 1234", "AD0236965". */
 	number?: string;
@@ -162,7 +162,8 @@ function quoted(title: string): string {
  * - web: Author. "Title." Site. Publisher, Date. Accessed Date. URL.
  * - wikipedia: Wikipedia contributors. "Title." Wikipedia. Wikimedia
  *   Foundation. Last modified Date. Accessed Date. URL.
- * - book: Author. _Title_. Place: Publisher, Year. Accessed Date. URL.
+ * - book: Author. _Title_. Edited by Editor. Place: Publisher, Year.
+ *   Accessed Date. URL.
  * - article: Author. "Title." _Journal_ Volume, no. Issue (Date): Pages.
  *   Accessed Date. URL.
  * - chapter: Author. "Title." In _Volume_, edited by Editor, Pages. Place:
@@ -194,6 +195,7 @@ export function chicago(c: Citation): Part[] {
 	};
 	switch (c.kind) {
 		case 'book':
+			if (c.editors?.length) add(`Edited by ${stop(series(c.editors.map(natural)))} `);
 			if (c.container) add(`${stop(c.container)} `);
 			imprint();
 			break;

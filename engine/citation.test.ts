@@ -131,6 +131,29 @@ describe('chicago', () => {
 		]);
 	});
 
+	it("names an edited book's editors after its title", () => {
+		const edited: Citation = {
+			kind: 'book',
+			title: 'Feynman Lectures on Computation',
+			url: 'https://openlibrary.org/works/OL514615W',
+			accessed: '2026-09-28',
+			authors: [{ family: 'Feynman', given: 'Richard P.' }],
+			editors: [
+				{ family: 'Hey', given: 'Anthony J. G.' },
+				{ family: 'Allen', given: 'Robin W.' }
+			],
+			place: 'Reading, MA',
+			publisher: 'Addison-Wesley',
+			published: '1996'
+		};
+		expect(chicagoText(edited)).toBe(
+			'Feynman, Richard P. Feynman Lectures on Computation. ' +
+				'Edited by Anthony J. G. Hey and Robin W. Allen. ' +
+				'Reading, MA: Addison-Wesley, 1996. Accessed September 28, 2026. ' +
+				'https://openlibrary.org/works/OL514615W.'
+		);
+	});
+
 	it('formats a journal article, journal in italics', () => {
 		expect(chicagoText(article)).toBe(
 			'Watson, J. D., and F. H. C. Crick. “Molecular Structure of Nucleic Acids: A Structure ' +

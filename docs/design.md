@@ -160,7 +160,7 @@ baked into the engine.
     the Sources list: a page, why it matters), `authors` (`{family,
 given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
     `container` (the site, journal or collection; for a chapter, the volume
-    or proceedings), `editors` (a chapter's), `publisher`, `place`,
+    or proceedings), `editors` (a chapter's, or an edited book's), `publisher`, `place`,
     `number` (a report's), `published` (`YYYY`, `YYYY-MM` or `YYYY-MM-DD`;
     for Wikipedia, the revision's date, rendered "Last modified") with
     `circa: true` for an approximate date ("ca. 1951"), for journal
