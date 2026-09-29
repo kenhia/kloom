@@ -116,5 +116,11 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-27"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/edvac-report",
+			"why": "Von Neumann's First Draft builds the EDVAC's circuits out of McCulloch–Pitts neurons."
+		}
 	]
 }

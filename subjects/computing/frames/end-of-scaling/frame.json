@@ -203,5 +203,11 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-26"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/compute",
+			"why": "With clock speeds flat, performance came from parallel chips, and AI training became their largest customer."
+		}
 	]
 }

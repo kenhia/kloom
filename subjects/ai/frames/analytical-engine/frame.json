@@ -155,5 +155,19 @@
 			"file": "lovelace-chalon.jpg",
 			"circa": true
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/jacquard-loom",
+			"why": "Lovelace wrote that the Engine weaves algebraic patterns just as Jacquard's loom weaves flowers and leaves."
+		},
+		{
+			"to": "computing/mill-and-barrels",
+			"why": "The same machine from the workshop side: the Mill, the Store and the barrels behind Lovelace's notes."
+		},
+		{
+			"to": "computing/hollerith",
+			"why": "Punched cards again: Babbage took them from Jacquard for the Engine's program, Hollerith for the census's data."
+		}
 	]
 }

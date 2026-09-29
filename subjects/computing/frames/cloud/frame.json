@@ -263,5 +263,11 @@
 			],
 			"published": "2023-09-23"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/compute",
+			"why": "Frontier models are trained on rented data centres: computing bought by the hour, at the scale of power stations."
+		}
 	]
 }

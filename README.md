@@ -69,7 +69,9 @@ grow need a signed-in tailnet user. See [docs/deploying.md](docs/deploying.md).
 
 Code lives in four places. `engine/` is the subject-agnostic model, loader,
 validation and UI. `subjects/<subject>/` holds one subject's content, one
-directory per frame. `src/` is the SvelteKit wiring that serves every
+directory per frame, and `names/` the people, places and things the subjects
+share, one file each (`KLOOM_NAMES_DIR`, by default beside the subjects).
+`src/` is the SvelteKit wiring that serves every
 subject under `KLOOM_SUBJECTS_DIR` (default `subjects`) at `/<subject>`;
 `/` opens `KLOOM_SUBJECT` (default `western-civ`), and the start screen
 links the others. `create-tools/` holds the authoring scripts that made the

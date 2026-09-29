@@ -98,6 +98,6 @@ character, without check pulses.
 
 Remington Rand's price rose from $159,000 in the first contracts to a
 million dollars and more. The 1955 survey counted 22 UNIVACs built;
-Wikipedia gives 46 in all. IBM, whose 701 was announced in May 1952,
+Wikipedia gives 46 in all. IBM, whose [701](kloom:e/ibm-701) was announced in May 1952,
 installed 19 of those. Every machine in the table ran on valves. The device that would replace them had already
 been made, at Bell Labs in 1947.

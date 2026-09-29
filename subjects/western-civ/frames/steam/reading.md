@@ -5,8 +5,8 @@ lit — and the world started to change faster than it ever had.
 
 ## A pump for flooded mines
 
-The first practical steam engine was built to solve one problem: water in
-coal mines. In 1712 **Thomas Newcomen**, an ironmonger from Dartmouth, set up
+The first practical [steam engine](kloom:e/steam-engine) was built to solve one problem: water in
+coal mines. In 1712 **[Thomas Newcomen](kloom:e/thomas-newcomen)**, an ironmonger from Dartmouth, set up
 an engine at a colliery near Dudley. Steam filled a large cylinder under a
 piston; a jet of cold water condensed it, creating a partial vacuum, and the
 pressure of the atmosphere pushed the piston down. A great wooden beam,
@@ -19,7 +19,7 @@ was nearly free, and ruinous almost anywhere else.
 
 ## The separate condenser
 
-In 1763 **James Watt**, an instrument maker at the University of Glasgow, was
+In 1763 **[James Watt](kloom:e/james-watt)**, an instrument maker at the University of Glasgow, was
 asked to repair a model Newcomen engine. He worked out where the heat was
 going, and in 1765 he had the answer: condense the steam in a _separate_
 vessel, kept cold, while the cylinder itself stayed hot. He patented the
@@ -29,7 +29,7 @@ Turning it into a machine took another seven years, a bankrupt first
 partner, and a new one: **Matthew Boulton**, a Birmingham manufacturer with
 money, workshops and ambition. It also needed a cylinder bored truly round,
 which John Wilkinson's new cannon-boring machine could make. In 1776 the
-first Boulton & Watt engines went to work, pumping a colliery at Tipton and
+first [Boulton & Watt](kloom:e/boulton-and-watt) engines went to work, pumping a colliery at Tipton and
 blowing the furnaces of Wilkinson's ironworks. With Watt's refinements they
 used about half as much coal as a Newcomen engine for the same work.
 
@@ -42,8 +42,8 @@ out. Later he added a **centrifugal governor**, adapted from windmills:
 spinning weights that rose as the engine sped up and closed the steam valve,
 one of the first automatic feedback controls. To sell his engines he needed a
 way to compare them with the horses they replaced, so he defined the
-**horsepower**. The unit of power, the watt, is named after him.
+**[horsepower](kloom:e/horsepower)**. The unit of power, the [watt](kloom:e/watt), is named after him.
 
 Rotary steam power moved industry out of river valleys and into towns. It
-drove textile mills, then locomotives and ships. The first Industrial
-Revolution was many things, but at its heart was this: we put fire to work.
+drove textile mills, then locomotives and ships. The first [Industrial
+Revolution](kloom:e/industrial-revolution) was many things, but at its heart was this: we put fire to work.

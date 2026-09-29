@@ -87,7 +87,7 @@ a hundred companies made minicomputers between 1965 and 1985, many of
 them along Route 128 outside Boston; de Castro left DEC to found one of
 them, Data General. DEC's own 16-bit
 **PDP-11** of 1970, with its Unibus for attaching devices, sold about
-600,000, and was succeeded by the VAX.
+600,000, and was succeeded by the [VAX](kloom:e/vax).
 
 Every one of these machines still had a processor built from many
 separate circuits. The next step put a whole processor on one chip.

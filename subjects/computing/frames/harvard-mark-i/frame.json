@@ -134,5 +134,11 @@
 			"file": "moth-log.jpg",
 			"published": "1947-09-09"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/punched-cards",
+			"why": "Von Neumann had implosion problems for the bomb run on the Mark I in 1944, the work Feynman's card machines were doing at Los Alamos."
+		}
 	]
 }

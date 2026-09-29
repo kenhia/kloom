@@ -178,5 +178,11 @@
 			"licence": "CC BY 3.0",
 			"file": "freeman-dyson.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/edvac-report",
+			"why": "Dyson reached the Institute for Advanced Study in 1948, where von Neumann was building the computer the First Draft led to."
+		}
 	]
 }

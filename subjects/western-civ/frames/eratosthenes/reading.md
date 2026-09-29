@@ -1,16 +1,16 @@
-Around 240 BC, **Eratosthenes of Cyrene** — poet, geographer, mathematician,
-and chief librarian at Alexandria — measured the size of the Earth with a
+Around 240 BC, **[Eratosthenes of Cyrene](kloom:e/eratosthenes)** — poet, geographer, mathematician,
+and chief librarian at [Alexandria](kloom:e/alexandria) — measured the size of the [Earth](kloom:e/earth) with a
 stick, a well, and a piece of reasoning.
 
 By then educated Greeks already knew the Earth was round. Aristotle had
-pointed out that its shadow on the Moon during an eclipse is always curved,
+pointed out that its shadow on the [Moon](kloom:e/moon) during an eclipse is always curved,
 and that travellers going south see new stars rise above the horizon. The
 open question was how big it was.
 
 ## The measurement
 
 The account that survives comes from a later writer, Cleomedes, and it goes
-like this. At **Syene**, in the south of Egypt, on the summer solstice, the
+like this. At **[Syene](kloom:e/syene)**, in the south of [Egypt](kloom:e/ancient-egypt), on the summer solstice, the
 Sun at noon stood directly overhead: it shone straight down a well and a
 vertical post cast no shadow. At the same moment in **Alexandria**, to the
 north, an upright gnomon did cast a short shadow. The angle it made was about
@@ -22,7 +22,7 @@ cities at the centre of the Earth. If Alexandria and Syene are one-fiftieth
 of the way around, the whole circumference is fifty times the distance
 between them.
 
-The distance was reported to be about 5,000 stadia, measured by professional
+The distance was reported to be about 5,000 [stadia](kloom:e/stadion), measured by professional
 surveyors who paced out routes. Fifty times 5,000 is **250,000 stadia**. Other
 ancient sources give 252,000, a figure that divides neatly by sixty.
 

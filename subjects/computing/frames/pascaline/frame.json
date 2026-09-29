@@ -182,5 +182,11 @@
 			"licence": "MIT",
 			"file": "calculators-made.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/leibniz",
+			"why": "Leibniz saw Pascal's machine and built his stepped reckoner to multiply as well as add."
+		}
 	]
 }

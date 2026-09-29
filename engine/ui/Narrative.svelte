@@ -1,6 +1,20 @@
 <script module lang="ts">
 	import type { Anchor } from '../anchor';
+	import type { FrameLink, NameCard as Card } from '../graph';
 	import type { Kept, Note } from '../reader-data';
+
+	/** What the shell offers for connections and names (docs/design.md §Connections). */
+	export interface LinksOffer {
+		/** The reading's frame's connections, both ways. */
+		connections: FrameLink[];
+		/** The cards of the names this subject's readings mark. */
+		names: Record<string, Card>;
+		/** The subject the reader is in. */
+		subject: string;
+		hrefOf: (subject: string, frame: string) => string;
+		/** A jump: to a frame here or in another subject, with a way back. */
+		onfollow: (subject: string, frame: string) => void;
+	}
 
 	/** What the shell offers for the frame's kept answers (korg 3390). */
 	export interface QaOffer {
@@ -29,6 +43,7 @@
 	import type { Frame, Trail } from '../model';
 	import type { SyncMode } from '../navigation';
 	import KeptQa from './KeptQa.svelte';
+	import NameCard from './NameCard.svelte';
 	import {
 		clearHighlights,
 		highlight,
@@ -61,6 +76,8 @@
 		annotations?: Note[];
 		/** The ids of annotations whose words the reading no longer has. */
 		detached?: string[];
+		/** Connections and name cards; absent, names are plain words. */
+		links?: LinksOffer | null;
 	}
 
 	let {
@@ -76,7 +93,8 @@
 		hidden = false,
 		annotating = null,
 		annotations = [],
-		detached = $bindable([])
+		detached = $bindable([]),
+		links = null
 	}: Props = $props();
 
 	const behind = $derived(frame.id !== spineFrame.id);
@@ -142,6 +160,58 @@
 		root.addEventListener('click', click);
 		return () => root.removeEventListener('click', click);
 	});
+
+	/**
+	 * A name's card (§Connections), open beside its mark. A mark is a button
+	 * in the reading, so Enter and Space open it as a click does.
+	 */
+	let naming = $state<{
+		id: string;
+		label: string;
+		button: HTMLElement;
+		top: number;
+		left: number;
+	} | null>(null);
+	$effect(() => {
+		void frame.id;
+		naming = null;
+	});
+	$effect(() => {
+		const root = body;
+		if (!root || !links) return;
+		const click = (e: MouseEvent) => {
+			const button =
+				e.target instanceof Element ? e.target.closest<HTMLElement>('button.name') : null;
+			if (!button || !element) return;
+			if (naming?.button === button) return closeName(false);
+			const at = button.getBoundingClientRect();
+			const box = element.getBoundingClientRect();
+			naming?.button.setAttribute('aria-expanded', 'false');
+			button.setAttribute('aria-expanded', 'true');
+			naming = {
+				id: button.dataset.name ?? '',
+				label: button.textContent ?? '',
+				button,
+				top: at.bottom - box.top + element.scrollTop + 4,
+				left: Math.max(0, Math.min(at.left - box.left, box.width - 22 * 16 - 32))
+			};
+		};
+		root.addEventListener('click', click);
+		return () => root.removeEventListener('click', click);
+	});
+
+	function closeName(refocus: boolean) {
+		const button = naming?.button;
+		button?.setAttribute('aria-expanded', 'false');
+		naming = null;
+		if (refocus) button?.focus();
+	}
+
+	function follow(e: MouseEvent, c: FrameLink) {
+		if (!links || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+		e.preventDefault();
+		links.onfollow(c.subject, c.frame);
+	}
 
 	/** Move focus to an annotation's button in the reading; false when it is detached. */
 	export function show(id: string): boolean {
@@ -325,6 +395,37 @@
 			</ul>
 		{/if}
 
+		{#if links?.connections.length}
+			<h3>Connections</h3>
+			<ul class="connections">
+				{#each links.connections as c (`${c.direction} ${c.subject}/${c.frame}`)}
+					<li>
+						{#if c.detached}
+							<span class="to">{c.subject}/{c.frame}</span>
+							<span class="context">Not found: the frame is not served, or has moved.</span>
+						{:else}
+							<!-- The page resolved this app route. A connection stored on the
+							     other frame says so to a screen reader. -->
+							<!-- eslint-disable svelte/no-navigation-without-resolve -->
+							<a
+								class="to"
+								href={links.hrefOf(c.subject, c.frame)}
+								aria-label={c.direction === 'in' ? `From ${c.title}` : undefined}
+								onclick={(e) => follow(e, c)}>{c.title}</a
+							>
+							<!-- eslint-enable svelte/no-navigation-without-resolve -->
+							<span class="context"
+								>{c.subject === links.subject ? '' : `${c.subjectTitle} · `}{c.label}{c.trail
+									? ` · ${c.trail}`
+									: ''}</span
+							>
+						{/if}
+						<span class="why">{c.why}</span>
+					</li>
+				{/each}
+			</ul>
+		{/if}
+
 		{#if qa && qa.count(frame.id) > 0}
 			<!-- Remounted when the count changes, so a new kept answer is fetched. -->
 			{#key `${frame.id}:${qa.count(frame.id)}`}
@@ -354,6 +455,23 @@
 				</li>
 			{/each}
 		</ol>
+
+		{#if naming && links}
+			<!-- Each opening is its own card: it takes focus, and keeps its name. -->
+			{#key naming}
+				<NameCard
+					card={links.names[naming.id] ?? null}
+					label={naming.label}
+					anchor={naming.button}
+					top={naming.top}
+					left={naming.left}
+					here={{ subject: links.subject, frame: frame.id }}
+					hrefOf={links.hrefOf}
+					onfollow={links.onfollow}
+					onclose={closeName}
+				/>
+			{/key}
+		{/if}
 
 		{#if frame.citations?.length}
 			<details class="citations">
@@ -446,6 +564,7 @@
 	}
 
 	.reading {
+		position: relative;
 		overflow-y: auto;
 		overscroll-behavior: contain;
 		padding: 1.25rem 1.5rem 2rem;
@@ -568,6 +687,44 @@
 	.citations a {
 		color: inherit;
 		text-decoration-color: var(--accent);
+	}
+	/* A name's mark: its own words, underlined in the accent, a button. */
+	.body :global(button.name) {
+		font: inherit;
+		line-height: inherit;
+		padding: 0;
+		color: inherit;
+		background: none;
+		border: 0;
+		border-bottom: 1px dotted var(--accent);
+		cursor: pointer;
+	}
+	.body :global(button.name:hover),
+	.body :global(button.name[aria-expanded='true']) {
+		border-bottom-style: solid;
+		color: var(--accent);
+	}
+	.connections {
+		display: grid;
+		gap: 0.6rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 0.9rem;
+	}
+	.connections li {
+		display: grid;
+	}
+	.connections .to {
+		color: var(--ink);
+		text-decoration-color: var(--accent);
+	}
+	.connections .context {
+		font-size: 0.75rem;
+		color: var(--muted);
+	}
+	.connections .why {
+		font-size: 0.85rem;
 	}
 	.trails {
 		margin: 0;

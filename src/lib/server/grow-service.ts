@@ -2,9 +2,10 @@ import { readFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import type { GrowJob } from '$engine/ai/grow';
 import { keptAnswerProblems, type KeptAnswer } from '$engine/ai/kept';
+import { loadNames } from '$engine/load';
 import { loadAppConfig } from './app-config';
 import { providerFor } from './ask';
-import { dataDir, listSubjects, subjectDirFor } from './config';
+import { dataDir, listSubjects, namesDir, subjectDirFor } from './config';
 import { contentRepo, growBranch, offBranch, pushGrowBranch } from './content';
 import { GrowQueue, runGrowJob } from './grow';
 import { readerStore } from './reader-store';
@@ -84,6 +85,7 @@ async function runOne(job: GrowJob, progress: (text: string) => void) {
 				Object.entries(REFERENCE).map(([to, from]) => [to, resolve(from)])
 			),
 			kept,
+			names: new Set(Object.keys((await loadNames(namesDir())).names)),
 			timeoutMs: config.grow.timeoutSeconds * 1000,
 			exclusive
 		},

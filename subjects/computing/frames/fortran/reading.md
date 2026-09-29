@@ -33,7 +33,7 @@ translate formulas into code as fast as a good programmer's.
 
 That was the bet Backus made. He proposed the project to his manager,
 Cuthbert Hurd, in a letter of late 1953 whose exact date he later could not
-find. The target was IBM's new **704**, which had floating-point arithmetic
+find. The target was IBM's new **[704](kloom:e/ibm-704)**, which had floating-point arithmetic
 and index registers built in. Earlier automatic systems had slowed a
 machine five or ten times, but the time they lost had hidden inside slow
 floating-point subroutines; the 704, Backus wrote, left "inefficiencies

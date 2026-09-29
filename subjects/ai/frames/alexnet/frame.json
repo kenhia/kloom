@@ -220,5 +220,11 @@
 			"licence": "MIT",
 			"file": "ilsvrc-top5.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/end-of-scaling",
+			"why": "AlexNet trained on two gaming GPUs: the parallel chips that took over once single processors stopped getting faster."
+		}
 	]
 }

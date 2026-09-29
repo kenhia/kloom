@@ -1,17 +1,17 @@
-For roughly a thousand years after the western Roman Empire fell apart, most
+For roughly a thousand years after the [western Roman Empire](kloom:e/western-roman-empire) fell apart, most
 of what Europe knew survived because someone sat at a desk and copied it out
 by hand.
 
-The room where that happened in a monastery was the **scriptorium**. The idea
+The room where that happened in a monastery was the **[scriptorium](kloom:e/scriptorium)**. The idea
 goes back at least to the sixth century, when the Roman statesman
-**Cassiodorus** retired to found a monastery, Vivarium, in southern Italy,
+**[Cassiodorus](kloom:e/cassiodorus)** retired to found a monastery, Vivarium, in southern Italy,
 and made the copying of books — sacred and classical alike — part of the
 monks' work. The Rule of Saint Benedict, written in the same century, set
 aside hours each day for reading, and reading needed books.
 
 ## Copying as labour
 
-A book began as animal skin. Parchment, or the finer vellum made from
+A book began as animal skin. [Parchment](kloom:e/parchment), or the finer [vellum](kloom:e/vellum) made from
 calfskin, was soaked, scraped, stretched and dried; a large volume took the
 hides of a whole herd. The scribe ruled the page with a stylus, cut a goose
 quill to a fine edge, and wrote in ink made from oak galls and iron salts,
@@ -26,13 +26,13 @@ last manuscript rotted, burned or was scraped clean for reuse.
 
 ## The Carolingian rescue
 
-Around AD 800 the emperor **Charlemagne** set out to raise the standard of
+Around AD 800 the emperor **[Charlemagne](kloom:e/charlemagne)** set out to raise the standard of
 learning in his realm. He gathered scholars at his court, among them
 **Alcuin of York**, who later became abbot of Saint Martin at Tours, and
 pressed monasteries and cathedrals to correct their books and teach reading.
 
-Two things came out of that effort. The first is a script, **Caroline
-minuscule**: clear, rounded letters with separate words and sensible
+Two things came out of that effort. The first is a script, **[Caroline
+minuscule](kloom:e/carolingian-minuscule)**: clear, rounded letters with separate words and sensible
 spacing, easy to read and quick to write. Six hundred years later Italian
 humanists admired it so much that they revived it, believing it to be
 ancient Roman handwriting — and their version became the model for the

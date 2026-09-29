@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onMount, untrack } from 'svelte';
+	import { onMount, tick, untrack } from 'svelte';
 	import type { Frame } from '$engine/model';
 	import {
 		newerPlaces,
@@ -12,8 +12,15 @@
 	} from '$engine/reader-data';
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
-	import { beforeNavigate, goto, invalidateAll, replaceState } from '$app/navigation';
+	import {
+		afterNavigate,
+		beforeNavigate,
+		goto,
+		invalidateAll,
+		replaceState
+	} from '$app/navigation';
 	import { resolve } from '$app/paths';
+	import { page } from '$app/state';
 	import {
 		ASK_MODEL,
 		followSpine,
@@ -215,7 +222,8 @@
 		const subject = data.subject.id;
 		untrack(() => {
 			const href = frameHref(subject, f.id);
-			if (location.pathname !== href) replaceState(href, {});
+			// The jumps that led here stay with the entry (§Connections).
+			if (location.pathname !== href) replaceState(href, page.state);
 			if (!data.reader) return;
 			const label = titleOf(f);
 			const at = new Date().toISOString();
@@ -228,6 +236,35 @@
 				write(resolve('/api/reader/place'), 'POST', { subject, frame: f.id, label });
 			}, 800);
 		});
+	});
+
+	// Jumps (docs/design.md §Connections, korg 3439): following a connection
+	// or a name adds a history entry, where stepping the spine replaces it.
+	// Each entry carries the jumps that led to it, so the Back chip and the
+	// browser's Back always agree: the chip is the browser's Back.
+	function follow(subject: string, frame: string) {
+		const f = current;
+		const from = f
+			? [{ subject: data.subject.id, frame: f.id, title: titleOf(f), subjectTitle: here.title }]
+			: [];
+		jumped = true;
+		goto(frameHref(subject, frame), { state: { back: [...(page.state.back ?? []), ...from] } });
+	}
+	// The link followed is gone (a card closes, the list is another frame's),
+	// so focus lands on the spine, where the new frame is announced. Back,
+	// the chip's or the browser's, lands there too.
+	let jumped = false;
+	afterNavigate(async (nav) => {
+		if (!jumped && nav.type !== 'popstate') return;
+		jumped = false;
+		await tick();
+		shell?.focusSpine();
+	});
+	const backOffer = $derived.by(() => {
+		const stack = page.state.back ?? [];
+		return stack.length
+			? { to: stack[stack.length - 1], depth: stack.length, onback: () => history.back() }
+			: null;
 	});
 
 	const marked = $derived(
@@ -322,6 +359,10 @@
 		{layer}
 		onhome={home}
 		hrefOf={(frame) => frameHref(data.subject.id, frame)}
+		links={data.links}
+		hrefTo={frameHref}
+		onfollow={follow}
+		back={backOffer}
 	/>
 {/key}
 

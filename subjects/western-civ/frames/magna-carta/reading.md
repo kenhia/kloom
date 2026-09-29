@@ -1,5 +1,5 @@
-On 15 June 1215, in a water-meadow called **Runnymede** beside the Thames,
-King John of England set his seal to a charter drawn up by barons who had
+On 15 June 1215, in a water-meadow called **[Runnymede](kloom:e/runnymede)** beside the [Thames](kloom:e/river-thames),
+[King John](kloom:e/king-john) of England set his seal to a charter drawn up by barons who had
 rebelled against him. It was a peace treaty, and it failed within weeks. It
 is also one of the most famous legal documents ever written.
 
@@ -8,7 +8,7 @@ is also one of the most famous legal documents ever written.
 John's reign had gone badly. He had lost Normandy and most of his family's
 lands in France, and to pay for the wars he squeezed his barons with heavy
 taxes, arbitrary fines and the sale of justice. In the spring of 1215 a group
-of them renounced their allegiance and took London. Negotiations followed,
+of them renounced their allegiance and took [London](kloom:e/london). Negotiations followed,
 and the result was a long charter of promises the king made to "all the free
 men of our kingdom".
 
@@ -38,15 +38,15 @@ of England. Three of its clauses remain in force in England and Wales today.
 
 ## The idea that outlived the document
 
-For centuries Magna Carta was more symbol than statute. In the seventeenth
+For centuries [Magna Carta](kloom:e/magna-carta) was more symbol than statute. In the seventeenth
 century, lawyers such as Sir Edward Coke used it against the Stuart kings,
-reading into it a guarantee of trial by jury and of the rule of law. From
-there it crossed the Atlantic, into colonial charters and the American Bill
-of Rights, and into the idea of "due process of law".
+reading into it a guarantee of trial by jury and of the [rule of law](kloom:e/rule-of-law). From
+there it crossed the Atlantic, into colonial charters and the [American Bill
+of Rights](kloom:e/united-states-bill-of-rights), and into the idea of "due process of law".
 
 Four copies of the 1215 charter survive: two at the British Library, one at
 Lincoln Castle and one at Salisbury Cathedral. They are written in dense,
-abbreviated Latin on a single sheet of parchment. The principle they carry
+abbreviated Latin on a single sheet of [parchment](kloom:e/parchment). The principle they carry
 is simpler than their script: the ruler is under the law, not above it.
 
 ![The 1215 Magna Carta, British Library Cotton MS Augustus II.106: a single sheet of parchment covered in dense medieval Latin script](magna-carta-1215.jpg)

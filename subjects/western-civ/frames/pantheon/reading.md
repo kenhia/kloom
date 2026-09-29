@@ -1,4 +1,4 @@
-Walk into the Pantheon in Rome today and you are inside a building that has
+Walk into the [Pantheon](kloom:e/pantheon-rome) in [Rome](kloom:e/rome) today and you are inside a building that has
 been in continuous use for nineteen centuries. Above you is a concrete dome
 43 metres across, and at its centre an open circle, the **oculus**, nine
 metres wide, through which the sky — and occasionally the rain — comes in.
@@ -9,7 +9,7 @@ The first temple on the site was built under Augustus by his general Marcus
 Agrippa, whose name is still carved across the front: M·AGRIPPA·L·F·COS·TERTIVM·FECIT,
 "Marcus Agrippa, son of Lucius, made this when consul for the third time".
 That building burned. The one standing now was completed under the emperor
-**Hadrian**, around AD 126, and he kept the old inscription.
+**[Hadrian](kloom:e/hadrian)**, around AD 126, and he kept the old inscription.
 
 Its geometry is simple and radical. The height from the floor to the top of
 the oculus is the same as the diameter of the rotunda, 43 metres, so a
@@ -19,7 +19,7 @@ dome.
 
 ## Roman concrete
 
-The dome is made of **Roman concrete**, _opus caementicium_: lime mortar,
+The dome is made of **[Roman concrete](kloom:e/roman-concrete)**, _opus caementicium_: lime mortar,
 volcanic ash and chunks of rock or brick, laid in layers rather than poured.
 Its builders graded the aggregate as they went up, so the dome gets lighter
 the higher it rises: travertine at the base, then broken tile, then tufa and
@@ -41,7 +41,7 @@ it did. When the western empire fragmented in the fifth century, the
 knowledge of how to build like this faded in the west, but the buildings
 remained, as puzzles and as challenges.
 
-A thousand years later, when Florence needed a dome larger than anyone had
-built since, its architects looked to Rome. Filippo Brunelleschi is said to
+A thousand years later, when [Florence](kloom:e/florence) needed a dome larger than anyone had
+built since, its architects looked to Rome. [Filippo Brunelleschi](kloom:e/filippo-brunelleschi) is said to
 have studied the ancient ruins there as a young man, though the visit is not
 documented. What survived in stone could teach people who had lost the book.

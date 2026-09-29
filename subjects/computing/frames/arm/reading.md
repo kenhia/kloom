@@ -21,7 +21,7 @@ Laboratories published "The Case for the Reduced Instruction Set Computer",
 and gave the idea its name, _RISC_. Their evidence of the opposite trend
 was the size of the microcode that interpreted each instruction inside the
 processor: in Digital Equipment's machines it had grown from 256 words of 56
-bits in the PDP-11/40 to 5,120 words of 96 bits in the VAX-11/780.
+bits in the PDP-11/40 to 5,120 words of 96 bits in the [VAX-11/780](kloom:e/vax).
 Patterson's students built _RISC I_, working in 1982, with about 44,000
 transistors: 44,420 in one Wikipedia article, 44,500 in another, which also
 counts 31 instructions to the first's 32. At Stanford from 1981 **John

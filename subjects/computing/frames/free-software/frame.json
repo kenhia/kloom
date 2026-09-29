@@ -269,5 +269,11 @@
 			],
 			"published": "2006-01-16"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/lisp-collapse",
+			"why": "Stallman's GNU project began after Symbolics hired most of the MIT AI Lab's Lisp machine hackers away."
+		}
 	]
 }

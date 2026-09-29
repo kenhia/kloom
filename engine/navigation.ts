@@ -59,3 +59,16 @@ export class WheelGate {
 		return step;
 	}
 }
+
+/**
+ * Where a jump left from (docs/design.md §Connections): the frame on the
+ * spine when the reader followed a connection or a name. Jumps stack, one
+ * per history entry, and the Back chip names the top one.
+ */
+export interface BackStop {
+	subject: string;
+	frame: string;
+	/** The frame's title, and its subject's, as the chip says them. */
+	title: string;
+	subjectTitle: string;
+}

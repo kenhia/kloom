@@ -2,7 +2,8 @@ import { redirect } from '@sveltejs/kit';
 import { loadAppConfig, webMode } from '$lib/server/app-config';
 import { listSubjects } from '$lib/server/config';
 import { readerStore } from '$lib/server/reader-store';
-import { servedSubject } from '$lib/server/subject';
+import { servedGraph, servedSubject } from '$lib/server/subject';
+import { linksFor } from '$engine/graph';
 import type { Bookmark, Place } from '$engine/reader-data';
 import type { PageServerLoad } from './$types';
 
@@ -14,10 +15,11 @@ export type Placed<T> = T & { subjectTitle: string };
 // `/<subject>/<frame>` is a deep link; one to a frame the subject no longer
 // has (a stale bookmark, say) opens the subject instead.
 export const load: PageServerLoad = async ({ params, locals }) => {
-	const [subject, config, subjects] = await Promise.all([
+	const [subject, config, subjects, graph] = await Promise.all([
 		servedSubject(params.subject),
 		loadAppConfig(),
-		listSubjects()
+		listSubjects(),
+		servedGraph()
 	]);
 	if (params.frame && !subject.frames[params.frame]) redirect(307, `/${subject.id}`);
 
@@ -62,6 +64,8 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 	return {
 		subject,
 		subjects,
+		// Connections and name cards (§Connections), for this subject's frames.
+		links: linksFor(graph, subject.id),
 		frame: params.frame ?? null,
 		reader: locals.reader ? { name: locals.reader.name } : null,
 		readerData,

@@ -13,7 +13,7 @@ its settings for itself instead, by gradient descent on the mean squared
 error. He also attended the 1956 Dartmouth workshop, and came away wanting to
 work on artificial intelligence.
 
-In 1959 his first graduate student, **Marcian "Ted" Hoff**, joined him. That
+In 1959 his first graduate student, **[Marcian "Ted" Hoff](kloom:e/marcian-hoff)**, joined him. That
 year they turned the adaptive filter into a rule that took one small step
 after every example. They published it in 1960 as "Adaptive switching
 circuits", a few months after Rosenblatt first presented his perceptron rule;

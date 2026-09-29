@@ -209,5 +209,11 @@
 			"file": "shakey-callouts.jpg",
 			"accessed": "2026-09-27"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/arpanet",
+			"why": "Shakey was built at SRI with ARPA money, and SRI was the second node of ARPA's network."
+		}
 	]
 }

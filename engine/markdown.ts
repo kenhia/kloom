@@ -1,4 +1,5 @@
 import { Marked } from 'marked';
+import { NAME_HREF } from './names';
 
 const escape = (s: string) =>
 	s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -46,6 +47,13 @@ export interface RenderOptions {
 	image?: ImageResolver;
 }
 
+/**
+ * A name's mark (docs/design.md §Connections): a button that opens the name's
+ * card, never a navigation link. The reading's own words are its label.
+ */
+const nameButton = (id: string, label: string) =>
+	`<button type="button" class="name" data-name="${escape(id)}" aria-haspopup="dialog" aria-expanded="false">${label}</button>`;
+
 const img = (src: string, text: string, title: string | null | undefined) =>
 	`<img src="${escape(src)}" alt="${escape(text)}"${title ? ` title="${escape(title)}"` : ''}>`;
 
@@ -55,6 +63,9 @@ const img = (src: string, text: string, title: string | null | undefined) =>
  * only to http(s), in-page anchors or relative paths.
  */
 function markdown(options: RenderOptions) {
+	// Only a name's first mention in a reading is marked; a later mark is
+	// its words alone (validation warns about it).
+	const named = new Set<string>();
 	return new Marked({
 		gfm: true,
 		renderer: {
@@ -65,9 +76,15 @@ function markdown(options: RenderOptions) {
 				return `<h${h}>${this.parser.parseInline(tokens)}</h${h}>\n`;
 			},
 			// A scheme other than http(s) (javascript:, data:, …) drops the link,
-			// keeping its text.
+			// keeping its text. `kloom:e/<id>` marks a name.
 			link({ href, title, tokens }) {
 				const label = this.parser.parseInline(tokens);
+				const name = NAME_HREF.exec(href)?.[1];
+				if (name) {
+					if (named.has(name)) return label;
+					named.add(name);
+					return nameButton(name, label);
+				}
 				if (!safeUrl(href)) return label;
 				const t = title ? ` title="${escape(title)}"` : '';
 				const external = /^https?:/i.test(href) ? ' rel="noopener noreferrer"' : '';
@@ -92,8 +109,28 @@ function markdown(options: RenderOptions) {
 
 const plain = markdown({});
 
-export function renderMarkdown(source: string, options?: RenderOptions): string {
-	return (options ? markdown(options) : plain).parse(source, { async: false });
+/** A reading as HTML. Each call renders afresh, so first mentions are counted per reading. */
+export function renderMarkdown(source: string, options: RenderOptions = {}): string {
+	return markdown(options).parse(source, { async: false });
+}
+
+/** Every name a reading marks, in order, repeats included, for validation and the graph. */
+export function nameRefs(source: string): string[] {
+	const refs: string[] = [];
+	plain.walkTokens(plain.lexer(source), (t) => {
+		const id = t.type === 'link' ? NAME_HREF.exec(t.href)?.[1] : undefined;
+		if (id) refs.push(id);
+	});
+	return refs;
+}
+
+/** Every link in a reading that uses the `kloom:` scheme, for validation. */
+export function kloomRefs(source: string): string[] {
+	const refs: string[] = [];
+	plain.walkTokens(plain.lexer(source), (t) => {
+		if ((t.type === 'link' || t.type === 'image') && /^\s*kloom:/i.test(t.href)) refs.push(t.href);
+	});
+	return refs;
 }
 
 /** Every image reference in a reading, in order, for validation. */

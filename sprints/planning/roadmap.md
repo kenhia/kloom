@@ -109,11 +109,20 @@
   comes from a live mirror of the reader's places (3432) —
   [record](../016-navigation-toc-continue.md).
 
+- Sprint 017: connections, phase 1 (proposal 3443). A name registry shared
+  by every subject, keyed by Wikidata ID, with first-mention marks that
+  open a card ("Appears in…"). Connections from frame to frame, each with
+  a _why_, shown on both ends. Jumps across subjects that land on the
+  frame, with the browser's Back and a stacking "↩ Back to…" chip. 45
+  connections from the recorded candidates, and western-civ's names as
+  the proof (3439) — [record](../017-connections.md).
+
 ## Next
 
-- Nothing queued in korg for kloom after navigation; links
-  between subjects (3399) and the framework (below) are the next large
-  steps.
+- Connections, phase 2 (3440): mark names across AI, Feynman and
+  Computing, and have grow and author-subject emit names and connections.
+  Phase 3 is the map, a graph view of the connections; phase 4 is Physics
+  (3428), the first subject written with links.
 
 ## Later
 
@@ -122,8 +131,6 @@
   006's list of what the grow skill assumed, and the authoring pipeline that
   wrote the AI subject, now written down as `skills/author-subject/SKILL.md`
   and tested on Feynman in sprint 014.
-- Links between subjects (3399). Sprints 006, 014 and 015 list candidate
-  links.
 - Drop the README's POC banner once the framework has generated a subject.
 
 ## Ideas

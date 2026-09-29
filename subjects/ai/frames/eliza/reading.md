@@ -7,7 +7,7 @@ his life warning people about what they had read into it.
 
 Weizenbaum, born in Berlin in 1923, had escaped Nazi Germany with his family
 in 1936. He came to MIT in 1963 on the strength of **SLIP**, a list-processing
-language he had written. ELIZA ran on Project MAC's time-sharing system, in
+language he had written. ELIZA ran on [Project MAC](kloom:e/project-mac)'s time-sharing system, in
 MAD-SLIP on an IBM 7094, and a user talked to it from a remote typewriter
 terminal. (The user could not type a question mark: the system read it as
 "delete this line".) He named it after Eliza Doolittle in Shaw's

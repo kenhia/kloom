@@ -1,7 +1,9 @@
 import { error } from '@sveltejs/kit';
-import { loadSubject } from '$engine/load';
+import { buildGraph, type Graph } from '$engine/graph';
+import { loadNames, loadSubject, readGraphSubject } from '$engine/load';
 import type { Subject } from '$engine/model';
-import { subjectDirFor } from './config';
+import { listSubjects, namesDir, subjectDirFor, subjectsDir } from './config';
+import { join } from 'node:path';
 
 /**
  * A served subject, read per request, and a gate a grow job holds while it
@@ -23,6 +25,25 @@ export async function servedSubject(id: unknown): Promise<Subject> {
 	const dir = await requireSubjectDir(id);
 	await gate;
 	return loadSubject(dir, { mediaBase: `/media/${id}` });
+}
+
+/**
+ * The graph index across every served subject (docs/design.md
+ * §Connections), rebuilt per request from a light read of each: content
+ * written to disk shows at once, as the subjects themselves do. A name file
+ * that is invalid is left out, and said in the log.
+ */
+export async function servedGraph(): Promise<Graph> {
+	await gate;
+	const [subjects, { names, problems }] = await Promise.all([
+		listSubjects(),
+		loadNames(namesDir())
+	]);
+	if (problems.length) console.error(`names: ${problems.join('; ')}`);
+	const read = await Promise.all(
+		subjects.map((s) => readGraphSubject(join(subjectsDir(), s.id), s.id))
+	);
+	return buildGraph(read, names);
 }
 
 /** Run `fn` while the gate is held; readers wait for it. */

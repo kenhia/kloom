@@ -1,13 +1,13 @@
 For four thousand years every copy of a text had been made by hand. In the
-middle of the fifteenth century a goldsmith from **Mainz** found a way to make
+middle of the fifteenth century a goldsmith from **[Mainz](kloom:e/mainz)** found a way to make
 them by machine, and within fifty years the number of books in Europe had
 changed beyond recognition.
 
 ## The invention
 
-**Johannes Gutenberg** worked on his "enterprise and art" in Strasbourg in the
+**[Johannes Gutenberg](kloom:e/johannes-gutenberg)** worked on his "enterprise and art" in Strasbourg in the
 late 1430s and early 1440s, and by about 1450 he was printing in Mainz, on
-money borrowed from a merchant, Johann Fust. None of the pieces was new on
+money borrowed from a merchant, [Johann Fust](kloom:e/johann-fust). None of the pieces was new on
 its own. Movable type had been made in China by the eleventh century, and
 Korean printers were casting it in metal before Gutenberg was born. What
 Gutenberg put together was a _system_ suited to the Latin alphabet:
@@ -56,12 +56,12 @@ corrections.
 
 ## What it changed
 
-The press made reputations and revolutions. Some 750,000 copies of Erasmus's
-works are thought to have sold in his lifetime. When Martin Luther challenged
+The press made reputations and revolutions. Some 750,000 copies of [Erasmus](kloom:e/erasmus)'s
+works are thought to have sold in his lifetime. When [Martin Luther](kloom:e/martin-luther) challenged
 the Church in 1517, printers across Germany turned his writings into the
 first mass media campaign: around 300,000 copies of his works between 1518
 and 1520 alone. Scientific books, maps, grammars, almanacs and ballads
-followed. The Reformation, the Scientific Revolution and the rise of vernacular
+followed. The [Reformation](kloom:e/reformation), the Scientific Revolution and the rise of vernacular
 literature all ran on paper and ink.
 
 Follow the trail from here into Gutenberg's workshop, and the book that

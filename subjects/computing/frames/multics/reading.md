@@ -9,7 +9,7 @@ to telephone or power systems".
 
 ## Three partners
 
-The project was MIT's **Project MAC**, founded in July 1963 with a
+The project was MIT's **[Project MAC](kloom:e/project-mac)**, founded in July 1963 with a
 $2 million grant from ARPA. MAC chose General Electric's proposal for the
 machine in May 1964, over IBM's; GE would build the **GE-645**, its 635
 with paging, segmentation and an associative memory added for the purpose.

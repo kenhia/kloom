@@ -155,5 +155,15 @@
 			"licence": "Public domain",
 			"file": "shannon-thesis.png"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/differential-analyzer",
+			"why": "Shannon ran Bush's differential analyzer at MIT, and its relay controls led him to Boole's algebra for switching circuits."
+		},
+		{
+			"to": "computing/z3",
+			"why": "The Z3 did its arithmetic in relay switching logic: Boole's algebra built in hardware."
+		}
 	]
 }

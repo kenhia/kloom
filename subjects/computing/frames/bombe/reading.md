@@ -78,7 +78,7 @@ another Wren tested the stop on a checking machine and passed it to the
 cryptanalysts. Changing the wheel order took about ten minutes and setting up
 a new menu thirty-five to fifty. The machines went out to outstations at
 Adstock, Gayhurst and Wavendon, and later Eastcote and Stanmore, in case
-Bletchley was bombed.
+[Bletchley](kloom:e/bletchley-park) was bombed.
 
 ![Bar chart of three-rotor bombes available: 12 in December 1941, 40 in December 1942, 72 in June 1943, 87 in December 1943, 152 in December 1944 and 155 in May 1945](bombes-available.svg)
 

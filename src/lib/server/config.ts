@@ -10,6 +10,13 @@ import { env } from '$env/dynamic/private';
  */
 export const subjectsDir = () => resolve(env.KLOOM_SUBJECTS_DIR ?? 'subjects');
 
+/**
+ * The name registry every subject shares (docs/design.md §Connections):
+ * `$KLOOM_NAMES_DIR`, by default `names/` beside the subjects directory, so
+ * the service's content clone carries its own.
+ */
+export const namesDir = () => resolve(env.KLOOM_NAMES_DIR ?? join(subjectsDir(), '..', 'names'));
+
 /** The landing subject's id. */
 export const defaultSubject = () => env.KLOOM_SUBJECT ?? 'western-civ';
 

@@ -160,5 +160,19 @@
 			"licence": "Public domain",
 			"file": "turing-1936.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/edvac-report",
+			"why": "The First Draft's stored program made one machine that runs any list of instructions, Turing's universal machine, into an engineering plan."
+		},
+		{
+			"to": "computing/z3",
+			"why": "Rojas showed in 1998 that the Z3, with no conditional branch, was still universal in principle."
+		},
+		{
+			"to": "feynman/lectures-on-computation",
+			"why": "Feynman's Lectures on Computation start from Turing machines, then ask what a step of computing costs in energy."
+		}
 	]
 }

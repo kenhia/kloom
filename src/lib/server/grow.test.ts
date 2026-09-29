@@ -2,11 +2,11 @@ import { execFileSync } from 'node:child_process';
 import { cp, mkdtemp, readdir, readFile, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeAll, beforeEach, describe, expect, it } from 'vitest';
 import { editJson, grownFrame, writeFrame } from '$engine/ai/grow-fixture';
 import type { GrowJob } from '$engine/ai/grow';
 import type { GrowRequest, Provider, ProviderEvent } from '$engine/ai/provider';
-import { loadSubject } from '$engine/load';
+import { loadNames, loadSubject } from '$engine/load';
 import type { Spine } from '$engine/model';
 import { commitMessage, GrowQueue, runGrowJob, stripFrontmatter, type GrowHost } from './grow';
 
@@ -16,6 +16,11 @@ const git = (cwd: string, ...args: string[]) =>
 
 let repo: string;
 let subject: string;
+// The registry beside the subjects, as the service passes it (§Connections).
+let names: Set<string>;
+beforeAll(async () => {
+	names = new Set(Object.keys((await loadNames(join(source, '..', '..', 'names'))).names));
+});
 beforeEach(async () => {
 	repo = await mkdtemp(join(tmpdir(), 'kloom-grow-repo-'));
 	subject = join(repo, 'subjects', 'western-civ');
@@ -79,6 +84,7 @@ const host = (provider: Provider, over: Partial<GrowHost> = {}): GrowHost => ({
 	instructions: '---\nname: x\n---\n\n# Growing',
 	reference: { 'design.md': join(source, '..', '..', 'docs', 'design.md') },
 	timeoutMs: 60_000,
+	names,
 	...over
 });
 
@@ -168,6 +174,21 @@ describe('a grow job', () => {
 		expect(!outcome.ok && outcome.problems?.join('\n')).toContain('out of order');
 		expect(git(repo, 'rev-parse', 'HEAD')).toBe(head);
 		expect(git(repo, 'status', '--porcelain')).toBe('');
+	});
+
+	it('refuses a grown reading that marks a name the registry lacks', async () => {
+		const mark = async (req: GrowRequest) => {
+			const reading = join(req.workDir, 'frames', 'luther-theses', 'reading.md');
+			await writeFile(reading, 'Then [Tetzel](kloom:e/johann-tetzel) sold indulgences.\n');
+		};
+		const { provider } = fakeProvider(async (req) => {
+			await addLuther()(req);
+			await mark(req);
+		}, mark);
+		const outcome = await runGrowJob(job(), host(provider));
+		expect(!outcome.ok && outcome.problems?.join('\n')).toContain(
+			'"johann-tetzel" is not in the name registry'
+		);
 	});
 
 	it('reports a model error, and writes nothing', async () => {

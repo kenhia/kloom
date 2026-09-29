@@ -204,5 +204,11 @@
 			],
 			"published": "2006-03-26"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/quantum-computing-now",
+			"why": "Shor's algorithm on a large enough quantum computer would break both RSA and elliptic-curve keys."
+		}
 	]
 }

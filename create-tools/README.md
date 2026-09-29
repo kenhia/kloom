@@ -14,6 +14,7 @@ here.
 | [commons-media](commons-media/) | A freely licensed image from Wikimedia Commons, with its `media` citation.                   |
 | [subject-plan](subject-plan/)   | `spine.json` and trails from a plan, holding only the frames written so far.                 |
 | [read-source](read-source/)     | A PDF source's text, or its scanned pages as PNG, to read before citing it.                  |
+| [names](names/)                 | Name files for the shared registry (Wikidata IDs), and a reading's first mentions marked.    |
 
 ## Conventions
 

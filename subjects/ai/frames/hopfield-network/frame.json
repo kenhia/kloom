@@ -126,5 +126,11 @@
 			"licence": "CC BY-SA 4.0",
 			"file": "hopfield-nobel-lecture.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/physics-of-computation",
+			"why": "Hopfield taught the Physics of Computation at Caltech with Feynman and Mead from 1981."
+		}
 	]
 }

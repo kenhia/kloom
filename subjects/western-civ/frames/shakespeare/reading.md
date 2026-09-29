@@ -1,7 +1,7 @@
-In 1599 a company of London actors, short of a theatre, took the timbers of
-their old playhouse across the Thames and built a new one on the south bank
-at Bankside. They called it the **Globe**. One of the company's shareholders,
-its leading playwright and an occasional actor, was **William Shakespeare**,
+In 1599 a company of [London](kloom:e/london) actors, short of a theatre, took the timbers of
+their old playhouse across the [Thames](kloom:e/river-thames) and built a new one on the south bank
+at Bankside. They called it the **[Globe](kloom:e/globe-theatre)**. One of the company's shareholders,
+its leading playwright and an occasional actor, was **[William Shakespeare](kloom:e/william-shakespeare)**,
 then in his mid-thirties, from the market town of Stratford-upon-Avon.
 
 ## The wooden O
@@ -15,7 +15,7 @@ the audience to imagine whole armies inside "this wooden O".
 
 Over roughly twenty-five years Shakespeare wrote or co-wrote some thirty-nine
 plays and more than 150 sonnets. The plays written in and around the Globe
-years include _Hamlet_, _Othello_, _King Lear_ and _Macbeth_.
+years include [_Hamlet_](kloom:e/hamlet), _Othello_, _King Lear_ and _Macbeth_.
 
 ## New words for new things
 
@@ -37,7 +37,7 @@ they were.
 
 Shakespeare died in 1616. In 1623 two of his fellow actors, **John Heminges**
 and **Henry Condell**, collected thirty-six of his plays into one large
-volume, known as the **First Folio**. About 750 copies may have been printed;
+volume, known as the **[First Folio](kloom:e/first-folio)**. About 750 copies may have been printed;
 some 235 are known to survive.
 
 Eighteen of those plays, including _Macbeth_, _Twelfth Night_, _Julius

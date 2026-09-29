@@ -243,5 +243,11 @@
 			"licence": "MIT",
 			"file": "valves.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/punched-cards",
+			"why": "The implosion problems Los Alamos ran on punched-card machines went on to ENIAC, one of its first large calculations."
+		}
 	]
 }

@@ -301,5 +301,15 @@
 			"licence": "MIT",
 			"file": "flops-per-watt.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/lectures-on-computation",
+			"why": "Landauer's bound, the least energy erasing a bit can cost, which Feynman's lectures work through, is the floor under every chip's power."
+		},
+		{
+			"to": "feynman/connection-machine",
+			"why": "The first No. 1 of the TOP500 list, in June 1993, was a Connection Machine CM-5 at Los Alamos."
+		}
 	]
 }

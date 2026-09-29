@@ -1,7 +1,7 @@
-Eratosthenes found the size of the Earth from an angle and a distance. Two
+[Eratosthenes](kloom:e/eratosthenes) found the size of the [Earth](kloom:e/earth) from an angle and a distance. Two
 thousand years later, sailors still could not reliably say where on it they
 were. Latitude was easy: measure the height of the Sun at noon or of the Pole
-Star at night. **Longitude**, how far east or west you are, was the problem,
+Star at night. **[Longitude](kloom:e/longitude)**, how far east or west you are, was the problem,
 and the answer turned out to be a measurement of time.
 
 ## Longitude is a clock
@@ -20,7 +20,7 @@ degree, £15,000 for forty minutes of arc and £20,000 for thirty.
 
 ## A joiner's watch
 
-**John Harrison**, born in Foulby in Yorkshire in 1693, was a joiner by trade
+**[John Harrison](kloom:e/john-harrison)**, born in Foulby in Yorkshire in 1693, was a joiner by trade
 and a self-taught clockmaker. He spent most of his working life on the
 problem. His first sea clock, **H1**, a large brass machine, was tried on a
 voyage to Lisbon aboard HMS _Centurion_ in 1736. H2 followed, and H3 took him
@@ -37,16 +37,16 @@ longitude.
 ## Proof is not a prize
 
 The Board of Longitude did not simply pay up. Its astronomers were backing a
-rival method, _lunar distances_, which read the time from the Moon's position
-among the stars, and **Nevil Maskelyne**, later Astronomer Royal, reported
+rival method, _lunar distances_, which read the time from the [Moon](kloom:e/moon)'s position
+among the stars, and **[Nevil Maskelyne](kloom:e/nevil-maskelyne)**, later Astronomer Royal, reported
 unfavourably on H4, suggesting its errors had happened to cancel out. The
 Board also wanted to know that a watch like it could be made again, by other
 hands, not only once by its inventor. Harrison received £10,000 in 1765 and a
 further £8,750 from Parliament in 1773, when he was eighty; he never received
-the prize itself, which was never awarded to anyone. He died in London in 1776.
+the prize itself, which was never awarded to anyone. He died in [London](kloom:e/london) in 1776.
 
 The copies answered the Board's question. **Larcum Kendall**'s copy of H4,
-called K1, went with **James Cook** on his second and third voyages, and
+called K1, went with **[James Cook](kloom:e/james-cook)** on his second and third voyages, and
 Cook's log praises it; his charts of the South Pacific were remarkably
 accurate. Harrison's watches are now at the Royal Observatory, Greenwich.
 

@@ -16,7 +16,7 @@ youngest, **Masatoshi Shima**. How many chips it called for is told two
 ways: seven in Wikipedia's account, while Shima remembered planning nine,
 then eight.
 
-Intel gave the job of liaison to **Ted Hoff**, its twelfth employee. He
+Intel gave the job of liaison to **[Ted Hoff](kloom:e/marcian-hoff)**, its twelfth employee. He
 thought the design too complex for a company that had few people able to
 lay out such chips, and too costly in pins and packages to meet Busicom's
 price. Robert Noyce told him to pursue any idea that simplified it. Hoff's

@@ -62,6 +62,8 @@ export interface GrowHost {
 	timeoutMs: number;
 	/** Where job directories go; must not be under the home directory. */
 	workRoot?: string;
+	/** The name registry's ids: a grown reading may mark only these (§Connections). */
+	names?: ReadonlySet<string>;
 	/** Runs while the subject's files are rewritten, so no reader sees them half-written. */
 	exclusive?: <T>(fn: () => Promise<T>) => Promise<T>;
 	now?: () => Date;
@@ -109,7 +111,8 @@ async function grownFiles(work: string, ids: string[]): Promise<GrownFiles> {
 async function check(
 	work: string,
 	before: RawSubject,
-	job: GrowJob
+	job: GrowJob,
+	names?: ReadonlySet<string>
 ): Promise<{ problems: string[]; growth: Growth; after: RawSubject | null }> {
 	let after: RawSubject;
 	try {
@@ -126,7 +129,12 @@ async function check(
 		job.verb,
 		job.anchor
 	);
-	return { problems: [...problems, ...validate(after)], growth, after };
+	// A grown reading may mark only names the registry has (§Connections).
+	return {
+		problems: [...problems, ...validate(after, { names })],
+		growth,
+		after
+	};
 }
 
 /**
@@ -189,7 +197,7 @@ export async function runGrowJob(
 				else summary += event.text;
 			}
 			if (host.signal?.aborted) return { ok: false, error: 'Stopped.' };
-			checked = await check(work, before, job);
+			checked = await check(work, before, job, host.names);
 			if (checked.problems.length === 0) break;
 			prompt = repairPrompt(checked.problems);
 		}

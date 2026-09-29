@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { imageRefs, renderMarkdown } from './markdown';
+import { imageRefs, kloomRefs, nameRefs, renderMarkdown } from './markdown';
 
 describe('renderMarkdown', () => {
 	it('renders ordinary markdown', () => {
@@ -95,5 +95,35 @@ describe('markdown with images turned off', () => {
 		});
 		expect(html).not.toContain('<img');
 		expect(html).toContain('a pixel text');
+	});
+});
+
+describe('name marks', () => {
+	it('renders a name as a button, not a link', () => {
+		expect(renderMarkdown('[Alan *Turing*](kloom:e/alan-turing) wrote.')).toBe(
+			'<p><button type="button" class="name" data-name="alan-turing" aria-haspopup="dialog" aria-expanded="false">Alan <em>Turing</em></button> wrote.</p>\n'
+		);
+	});
+
+	it('marks only the first mention in a reading', () => {
+		const html = renderMarkdown('[Turing](kloom:e/alan-turing), then [he](kloom:e/alan-turing).');
+		expect(html.match(/<button/g)).toHaveLength(1);
+		expect(html).toContain(', then he.');
+	});
+
+	it('counts first mentions per reading, not across readings', () => {
+		renderMarkdown('[Turing](kloom:e/alan-turing)');
+		expect(renderMarkdown('[Turing](kloom:e/alan-turing)')).toContain('<button');
+	});
+
+	it('drops any other kloom: link to its words', () => {
+		expect(renderMarkdown('[x](kloom:ai/turing-machine)')).toBe('<p>x</p>\n');
+		expect(renderMarkdown('[x](kloom:e/Not_An_Id)')).toBe('<p>x</p>\n');
+	});
+
+	it('lists the names a reading marks, and every kloom: link', () => {
+		const md = '[A](kloom:e/a) [B](kloom:e/b) [A again](kloom:e/a) [c](kloom:x) [w](https://x.org)';
+		expect(nameRefs(md)).toEqual(['a', 'b', 'a']);
+		expect(kloomRefs(md)).toEqual(['kloom:e/a', 'kloom:e/b', 'kloom:e/a', 'kloom:x']);
 	});
 });

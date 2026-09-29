@@ -1,0 +1,8 @@
+{
+	"id": "vax",
+	"wikidata": "Q960616",
+	"name": "VAX",
+	"aliases": ["VAX-11/780"],
+	"kind": "artifact",
+	"description": "DEC's 32-bit minicomputer line from 1977, on which BSD Unix grew up and XCON configured orders."
+}
