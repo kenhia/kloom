@@ -1,0 +1,112 @@
+{
+	"id": "cargo-cult",
+	"position": { "label": "1974", "sort": 1974 },
+	"scene": {
+		"headline": "The easiest person to fool is",
+		"accent": "YOURSELF.",
+		"palette": "manila",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CALTECH COMMENCEMENT · JUNE 1974",
+			"ENGINEERING AND SCIENCE · MILLIKAN'S DROPS · MR. YOUNG'S RATS"
+		],
+		"counter": { "value": "0.6%", "label": "how far Millikan's charge on the electron fell short" }
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Cargo Cult Science",
+			"url": "https://calteches.library.caltech.edu/51/2/CargoCult.pdf",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "Engineering and Science",
+			"volume": "37",
+			"issue": "7",
+			"pages": "10–13",
+			"publisher": "California Institute of Technology",
+			"published": "1974-06",
+			"note": "The commencement address as printed that month"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Feynman's Maze-Running Story",
+			"url": "https://gwern.net/maze",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Gwern Branwen" }],
+			"container": "Gwern.net",
+			"published": "2023-05-03",
+			"note": "The search for Mr. Young, ending at Quin Fischer Curtis"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Measurements of the Electron Charge over Time",
+			"url": "https://scipython.com/blog/measurements-of-the-electron-charge-over-time/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Hill", "given": "Christian" }],
+			"container": "Learning Scientific Programming with Python",
+			"published": "2021-03-29",
+			"note": "The published values from 1913 to 1951, with their methods"
+		},
+		{
+			"kind": "article",
+			"title": "On the Elementary Electrical Charge and the Avogadro Constant",
+			"doi": "10.1103/PhysRev.2.109",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Millikan", "given": "R. A." }],
+			"container": "Physical Review",
+			"volume": "2",
+			"issue": "2",
+			"pages": "109–143",
+			"published": "1913-08"
+		},
+		{
+			"kind": "book",
+			"title": "“Surely You're Joking, Mr. Feynman!” Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514629W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Feynman", "given": "Richard P." },
+				{ "family": "Leighton", "given": "Ralph" }
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1985",
+			"note": "“Cargo Cult Science” is its last chapter"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cargo cult",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cargo_cult&oldid=1370820650",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "media",
+			"title": "Feynman giving the Caltech commencement address, 1974",
+			"url": "https://commons.wikimedia.org/wiki/File:Richard_Feynman_1974.png",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Unknown photographer" }],
+			"container": "The Big T, the yearbook of the California Institute of Technology, 1974; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "commencement-1974.jpg",
+			"published": "1974"
+		},
+		{
+			"kind": "media",
+			"title": "Millikan's oil-drop apparatus, c. 1916, used by Robert Millikan and Harvey Fletcher",
+			"url": "https://commons.wikimedia.org/wiki/File:Millikan%27s_Oil_Drop_apparatus,_c._1916,_used_by_Robert_Millikan_and_Harvey_Fletcher_in_several_experiments_to_measure_an_electron%27s_charge_-_Museum_of_Science_and_Industry_(Chicago)_-_DSC06505.JPG",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Daderot" }],
+			"container": "Photograph at the Museum of Science and Industry, Chicago; via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "millikan-apparatus.jpg",
+			"published": "2014-08-22"
+		}
+	]
+}

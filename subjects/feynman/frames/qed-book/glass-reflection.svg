@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Light reflected by a sheet of glass, as the back-surface arrow turns</title>
+<desc id="d">Bar chart. Feynman's rule in QED: each surface of the glass contributes an arrow 0.2 long, the front one reversed; the reflected fraction is the square of their sum. As the extra turn of the back arrow goes from 0 to 360 degrees in steps of 45, the reflection is 0, 2.3, 8, 13.7, 16, 13.7, 8, 2.3 and 0 percent. The arithmetic is this frame's.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="202.4" y2="202.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="206.4" text-anchor="end">4%</text>
+<line x1="64" x2="460" y1="154.9" y2="154.9" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="158.9" text-anchor="end">8%</text>
+<line x1="64" x2="460" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">12%</text>
+<line x1="64" x2="460" y1="59.8" y2="59.8" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="63.8" text-anchor="end">16%</text>
+</g>
+<rect x="69.0" y="250.0" width="34" height="1.0" fill-opacity="0.85"/>
+<text x="86.0" y="244.0" text-anchor="middle">0%</text>
+<text x="86.0" y="266" text-anchor="middle">0°</text>
+<rect x="113.0" y="222.2" width="34" height="27.8" fill-opacity="0.85"/>
+<text x="130.0" y="216.2" text-anchor="middle">2.3%</text>
+<text x="130.0" y="266" text-anchor="middle">45°</text>
+<rect x="157.0" y="154.9" width="34" height="95.1" fill-opacity="0.85"/>
+<text x="174.0" y="148.9" text-anchor="middle">8%</text>
+<text x="174.0" y="266" text-anchor="middle">90°</text>
+<rect x="201.0" y="87.6" width="34" height="162.4" fill-opacity="0.85"/>
+<text x="218.0" y="81.6" text-anchor="middle">13.7%</text>
+<text x="218.0" y="266" text-anchor="middle">135°</text>
+<rect x="245.0" y="59.8" width="34" height="190.2" class="accent" fill="currentColor"/>
+<text x="262.0" y="53.8" text-anchor="middle">16%</text>
+<text x="262.0" y="266" text-anchor="middle">180°</text>
+<rect x="289.0" y="87.6" width="34" height="162.4" fill-opacity="0.85"/>
+<text x="306.0" y="81.6" text-anchor="middle">13.7%</text>
+<text x="306.0" y="266" text-anchor="middle">225°</text>
+<rect x="333.0" y="154.9" width="34" height="95.1" fill-opacity="0.85"/>
+<text x="350.0" y="148.9" text-anchor="middle">8%</text>
+<text x="350.0" y="266" text-anchor="middle">270°</text>
+<rect x="377.0" y="222.2" width="34" height="27.8" fill-opacity="0.85"/>
+<text x="394.0" y="216.2" text-anchor="middle">2.3%</text>
+<text x="394.0" y="266" text-anchor="middle">315°</text>
+<rect x="421.0" y="250.0" width="34" height="1.0" fill-opacity="0.85"/>
+<text x="438.0" y="244.0" text-anchor="middle">0%</text>
+<text x="438.0" y="266" text-anchor="middle">360°</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">REFLECTED, % · BY THE BACK ARROW'S EXTRA TURN</text>
+</g></svg>

@@ -1,0 +1,118 @@
+{
+	"id": "simulating-physics",
+	"position": { "label": "1981", "sort": 1981 },
+	"scene": {
+		"headline": "He said nature isn't",
+		"accent": "CLASSICAL.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ENDICOTT HOUSE · DEDHAM · 6–8 MAY 1981",
+			"PHYSICS OF COMPUTATION · INT. J. THEOR. PHYS. 21, 467"
+		],
+		"counter": {
+			"value": "¾ > ⅔",
+			"label": "the agreement at 30° that no local classical machine can reach"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Simulating Physics with Computers",
+			"doi": "10.1007/BF02650179",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "International Journal of Theoretical Physics",
+			"volume": "21",
+			"issue": "6–7",
+			"pages": "467–488",
+			"published": "1982-06",
+			"note": "The keynote of May 1981, received 7 May; the two-thirds argument is in §8"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Tomorrow's Computer, Yesterday",
+			"url": "https://www.technologyreview.com/2021/04/27/1021714/tomorrows-computer-yesterday/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Garfinkel", "given": "Simson" }],
+			"container": "MIT Technology Review",
+			"published": "2021-04-27",
+			"note": "The Endicott House meeting, forty years on"
+		},
+		{
+			"kind": "web",
+			"title": "The Physics of Computation Conference",
+			"url": "https://mitendicotthouse.org/physics-computation-conference/",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "MIT Endicott House" }],
+			"container": "MIT Endicott House",
+			"published": "2018-03-21"
+		},
+		{
+			"kind": "article",
+			"title": "The Computer as a Physical System: A Microscopic Quantum Mechanical Hamiltonian Model of Computers as Represented by Turing Machines",
+			"doi": "10.1007/BF01011339",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Benioff", "given": "Paul" }],
+			"container": "Journal of Statistical Physics",
+			"volume": "22",
+			"issue": "5",
+			"pages": "563–591",
+			"published": "1980"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum simulator",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_simulator&oldid=1369620256",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum computing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_computing&oldid=1377133559",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Benioff",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Benioff&oldid=1369114852",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13"
+		},
+		{
+			"kind": "media",
+			"title": "Bytes needed to store every amplitude of N spins",
+			"url": "https://link.springer.com/article/10.1007/BF02650179",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "kloom contributors" }],
+			"container": "Chart drawn for kloom: 2ᴺ amplitudes at 16 bytes each, after the argument in Feynman 1982, §3",
+			"licence": "MIT",
+			"file": "state-memory.svg",
+			"published": "2026"
+		},
+		{
+			"kind": "media",
+			"title": "Endicott House, MIT's conference centre in Dedham, Massachusetts",
+			"url": "https://commons.wikimedia.org/wiki/File:Endicott_House,_Dedham_MA.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "John Phelan" }],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "endicott-house.jpg",
+			"published": "2010-06-02"
+		}
+	]
+}

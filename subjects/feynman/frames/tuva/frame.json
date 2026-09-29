@@ -1,0 +1,174 @@
+{
+	"id": "tuva",
+	"position": { "label": "1977–88", "sort": 1977 },
+	"scene": {
+		"headline": "He had to see a capital spelled",
+		"accent": "KYZYL.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TANNU TUVA · ALTADENA · RALPH LEIGHTON",
+			"STAMPS · THROAT SINGING · BONGOS · OFEY"
+		],
+		"counter": {
+			"value": "11 years",
+			"label": "from the question at dinner to his death, without a visa"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Tuva or Bust! Richard Feynman's Last Journey",
+			"url": "https://openlibrary.org/works/OL4474024W",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Leighton", "given": "Ralph" }],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1991",
+			"note": "Leighton's account of the quest, from the dinner in 1977"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Tuva or Bust!",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tuva_or_Bust%21&oldid=1332436385",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-11"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Postage stamps and postal history of Tannu Tuva",
+			"url": "https://en.wikipedia.org/w/index.php?title=Postage_stamps_and_postal_history_of_Tannu_Tuva&oldid=1345274327",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-25"
+		},
+		{
+			"kind": "web",
+			"title": "Tuva or Bust!",
+			"url": "http://feynman.com/fun/tuva/tuva-or-bust/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Leighton", "given": "Ralph" }],
+			"container": "Richard Feynman (feynman.com), an excerpt from the book",
+			"note": "The dinner in the summer of 1977 and the purple splotch on the map"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tuvan throat singing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tuvan_throat_singing&oldid=1350241570",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tuvan People's Republic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tuvan_People's_Republic&oldid=1376469781",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ralph Leighton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ralph_Leighton&oldid=1366877046",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genghis Blues",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genghis_Blues&oldid=1364062550",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "web",
+			"title": "Friends of Tuva",
+			"url": "https://www.fotuva.org/",
+			"accessed": "2026-09-28",
+			"container": "Friends of Tuva"
+		},
+		{
+			"kind": "book",
+			"title": "“Surely You're Joking, Mr. Feynman!” Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514629W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Feynman", "given": "Richard P." },
+				{ "family": "Leighton", "given": "Ralph" }
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1985",
+			"note": "“But Is It Art?”: Zorthian, the lessons and the name Ofey, in his telling"
+		},
+		{
+			"kind": "web",
+			"title": "The Art of Richard Feynman: The Great Physicist's Little-Known Sketches and Drawings, Collected by His Daughter",
+			"url": "https://www.themarginalian.org/2013/01/17/richard-feynman-ofey-sketches-drawings/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Popova", "given": "Maria" }],
+			"container": "The Marginalian",
+			"published": "2013-01-17"
+		},
+		{
+			"kind": "book",
+			"title": "The Art of Richard P. Feynman: Images by a Curious Character",
+			"url": "https://openlibrary.org/works/OL514580W",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"publisher": "GB Science Publishers",
+			"place": "Basel",
+			"published": "1995"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jirayr Zorthian",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jirayr_Zorthian&oldid=1364536337",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-17"
+		},
+		{
+			"kind": "media",
+			"title": "A Tuvan stamp of 1936: a camel racing a locomotive",
+			"url": "https://commons.wikimedia.org/wiki/File:Tuva1935.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Tuvan People's Republic postal issue" }],
+			"container": "Postage stamp, scanned from a used copy; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "camel-and-train.jpg",
+			"published": "1936"
+		}
+	]
+}

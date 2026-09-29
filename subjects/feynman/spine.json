@@ -35,6 +35,12 @@
 			]
 		},
 		{
+			"id": "wider",
+			"title": "The wider world",
+			"labelKind": "date",
+			"frames": ["partons", "cargo-cult", "tuva", "simulating-physics", "surely-joking", "qed-book"]
+		},
+		{
 			"id": "last-years",
 			"title": "The last years",
 			"labelKind": "date",

@@ -1,0 +1,204 @@
+{
+	"id": "partons",
+	"position": { "label": "1968–69", "sort": 1968 },
+	"scene": {
+		"headline": "He looked inside the proton and saw",
+		"accent": "PARTONS.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SLAC · END STATION A · MIT–SLAC COLLABORATION",
+			"BJORKEN SCALING · PHYS. REV. LETT. 23, 1415 (1969)"
+		],
+		"counter": {
+			"value": "≈ ½",
+			"label": "of the proton's momentum carried by neutral partons: gluons"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session V",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-5",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1973-02-04",
+			"note": "Santa Barbara, the visit to SLAC and the night in the motel, in his words of 1973"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Very High-Energy Collisions of Hadrons",
+			"doi": "10.1103/PhysRevLett.23.1415",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "Physical Review Letters",
+			"volume": "23",
+			"issue": "24",
+			"pages": "1415–1417",
+			"published": "1969-12-15",
+			"note": "The parton paper: hadron collisions, with no word on what partons are"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Deep Inelastic Scattering: Experiments on the Proton and the Observation of Scaling",
+			"doi": "10.1103/RevModPhys.63.597",
+			"url": "https://www.nobelprize.org/uploads/2018/06/kendall-lecture-1.pdf",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Kendall", "given": "Henry W." }],
+			"container": "Reviews of Modern Physics",
+			"volume": "63",
+			"issue": "3",
+			"pages": "597–614",
+			"published": "1991-07",
+			"note": "Nobel lecture, 8 December 1990; Feynman's visits of August and October 1968"
+		},
+		{
+			"kind": "article",
+			"title": "Deep Inelastic Scattering: Comparisons with the Quark Model",
+			"doi": "10.1103/RevModPhys.63.615",
+			"url": "https://www.nobelprize.org/uploads/2018/06/friedman-lecture.pdf",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Friedman", "given": "Jerome I." }],
+			"container": "Reviews of Modern Physics",
+			"volume": "63",
+			"issue": "3",
+			"pages": "615–627",
+			"published": "1991-07"
+		},
+		{
+			"kind": "article",
+			"title": "Observed Behavior of Highly Inelastic Electron-Proton Scattering",
+			"doi": "10.1103/PhysRevLett.23.935",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Breidenbach", "given": "M." },
+				{ "family": "Friedman", "given": "J. I." },
+				{ "family": "Kendall", "given": "H. W." },
+				{ "family": "Bloom", "given": "E. D." },
+				{ "family": "Coward", "given": "D. H." },
+				{ "family": "DeStaebler", "given": "H." },
+				{ "family": "Drees", "given": "J." }
+			],
+			"etAl": true,
+			"container": "Physical Review Letters",
+			"volume": "23",
+			"issue": "16",
+			"pages": "935–939",
+			"published": "1969-10-20"
+		},
+		{
+			"kind": "article",
+			"title": "Asymptotic Sum Rules at Infinite Momentum",
+			"doi": "10.1103/PhysRev.179.1547",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Bjorken", "given": "J. D." }],
+			"container": "Physical Review",
+			"volume": "179",
+			"issue": "5",
+			"pages": "1547–1553",
+			"published": "1969-03-25"
+		},
+		{
+			"kind": "article",
+			"title": "Inelastic Electron-Proton and γ-Proton Scattering and the Structure of the Nucleon",
+			"doi": "10.1103/PhysRev.185.1975",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Bjorken", "given": "J. D." },
+				{ "family": "Paschos", "given": "E. A." }
+			],
+			"container": "Physical Review",
+			"volume": "185",
+			"issue": "5",
+			"pages": "1975–1982",
+			"published": "1969-09-25"
+		},
+		{
+			"kind": "article",
+			"title": "A Schematic Model of Baryons and Mesons",
+			"doi": "10.1016/S0031-9163(64)92001-3",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Gell-Mann", "given": "M." }],
+			"container": "Physics Letters",
+			"volume": "8",
+			"issue": "3",
+			"pages": "214–215",
+			"published": "1964-02"
+		},
+		{
+			"kind": "article",
+			"title": "How I Got to Work with Feynman on the Covariant Quark Model",
+			"url": "https://arxiv.org/abs/1411.0509",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Ravndal", "given": "Finn" }],
+			"container": "arXiv preprint arXiv:1411.0509",
+			"published": "2014-11-03"
+		},
+		{
+			"kind": "book",
+			"title": "Photon-Hadron Interactions",
+			"url": "https://openlibrary.org/works/OL25208468W",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"publisher": "W. A. Benjamin",
+			"place": "Reading, MA",
+			"published": "1972"
+		},
+		{
+			"kind": "web",
+			"title": "Memories from Caltech",
+			"url": "https://cerncourier.com/a/memories-from-caltech/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Wolfram", "given": "Stephen" }],
+			"container": "CERN Courier",
+			"published": "2019-07-11"
+		},
+		{
+			"kind": "article",
+			"title": "The Jaguar and the Fox",
+			"url": "https://www.theatlantic.com/magazine/archive/2000/07/the-jaguar-and-the-fox/378264/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Johnson", "given": "George" }],
+			"container": "The Atlantic",
+			"published": "2000-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Parton (particle physics)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Parton_(particle_physics)&oldid=1366076401",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Deep inelastic scattering",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deep_inelastic_scattering&oldid=1335510399",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-29"
+		},
+		{
+			"kind": "media",
+			"title": "The two large spectrometers on their rails in End Station A, SLAC",
+			"url": "https://commons.wikimedia.org/wiki/File:HD.6B.483_(11325807793).jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "U.S. Department of Energy" }],
+			"container": "Photograph, c. 1968, via the Department of Energy's Flickr and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "end-station-a.jpg",
+			"published": "1968",
+			"circa": true
+		}
+	]
+}

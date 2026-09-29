@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Memory to store the quantum state of N spins, in bytes</title>
+<desc id="d">Bar chart on a logarithmic scale. Storing every amplitude of N spin-one-half particles takes 2 to the N complex numbers; at 16 bytes each that is 16 kilobytes for 10 spins, 17 megabytes for 20, 17 gigabytes for 30, 18 terabytes for 40, 18 petabytes for 50 and 18 exabytes for 60. A worked example: the arithmetic is this frame's.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">10³</text>
+<line x1="64" x2="460" y1="212.2" y2="212.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="216.2" text-anchor="end">10⁶</text>
+<line x1="64" x2="460" y1="174.5" y2="174.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="178.5" text-anchor="end">10⁹</text>
+<line x1="64" x2="460" y1="136.7" y2="136.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="140.7" text-anchor="end">10¹²</text>
+<line x1="64" x2="460" y1="98.9" y2="98.9" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="102.9" text-anchor="end">10¹⁵</text>
+<line x1="64" x2="460" y1="61.2" y2="61.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="65.2" text-anchor="end">10¹⁸</text>
+</g>
+<rect x="75.0" y="234.7" width="44" height="15.3" fill-opacity="0.85"/>
+<text x="97.0" y="228.7" text-anchor="middle">16 KB</text>
+<text x="97.0" y="266" text-anchor="middle">10 spins</text>
+<rect x="141.0" y="196.8" width="44" height="53.2" fill-opacity="0.85"/>
+<text x="163.0" y="190.8" text-anchor="middle">17 MB</text>
+<text x="163.0" y="266" text-anchor="middle">20 spins</text>
+<rect x="207.0" y="158.9" width="44" height="91.1" fill-opacity="0.85"/>
+<text x="229.0" y="152.9" text-anchor="middle">17 GB</text>
+<text x="229.0" y="266" text-anchor="middle">30 spins</text>
+<rect x="273.0" y="121.0" width="44" height="129.0" fill-opacity="0.85"/>
+<text x="295.0" y="115.0" text-anchor="middle">18 TB</text>
+<text x="295.0" y="266" text-anchor="middle">40 spins</text>
+<rect x="339.0" y="83.1" width="44" height="166.9" fill-opacity="0.85"/>
+<text x="361.0" y="77.1" text-anchor="middle">18 PB</text>
+<text x="361.0" y="266" text-anchor="middle">50 spins</text>
+<rect x="405.0" y="45.2" width="44" height="204.8" class="accent" fill="currentColor"/>
+<text x="427.0" y="39.2" text-anchor="middle">18 EB</text>
+<text x="427.0" y="266" text-anchor="middle">60 spins</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">BYTES TO STORE 2ᴺ AMPLITUDES (LOG SCALE)</text>
+</g></svg>
