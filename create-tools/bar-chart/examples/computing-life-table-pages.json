@@ -1,0 +1,29 @@
+{
+	"title": "How the 600 pages of the English Life Table of 1864 were set",
+	"description": "Bar chart, pages. Of about 600 pages of printed tables, 28 were composed entirely by the Scheutz engine at the General Register Office, 216 partly, and the rest, about 356, were typeset by hand. Data: Swade, Calculation and Tabulation in the Nineteenth Century (2003), from Farr's English Life Table (1864).",
+	"heading": "ENGLISH LIFE TABLE, 1864 · PAGES",
+	"unit": "",
+	"axis": {
+		"max": 400,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"],
+			[400, "400"]
+		]
+	},
+	"bars": [
+		{
+			"label": "By the engine",
+			"sublabel": "wholly",
+			"value": 28,
+			"display": "28",
+			"highlight": true
+		},
+		{ "label": "Partly", "sublabel": "engine and hand", "value": 216, "display": "216" },
+		{ "label": "By hand", "sublabel": "the rest", "value": 356, "display": "about 356" }
+	],
+	"barWidth": 64,
+	"width": 480
+}

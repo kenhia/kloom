@@ -1,0 +1,142 @@
+{
+	"id": "prony-tables",
+	"position": {
+		"label": "1791",
+		"sort": 1791
+	},
+	"scene": {
+		"headline": "We made logarithms like",
+		"accent": "PINS.",
+		"palette": "walnut",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · BUREAU DU CADASTRE · GASPARD DE PRONY",
+			"THREE SECTIONS · THE METHOD OF DIFFERENCES · 1791–1801"
+		],
+		"counter": {
+			"value": "60–80",
+			"label": "computers in the third section, who only added and subtracted"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Gaspard de Prony",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gaspard_de_Prony&oldid=1366327900",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "On the Economy of Machinery and Manufactures",
+			"url": "https://www.gutenberg.org/ebooks/4238",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Babbage",
+					"given": "Charles"
+				}
+			],
+			"publisher": "Charles Knight",
+			"place": "London",
+			"published": "1832",
+			"note": "Chapter 20, on the division of mental labour, quoting the Paris pamphlet of 1829 on Prony’s tables"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Enlightenment Calculations",
+			"url": "https://sites.tufts.edu/models/files/2019/03/daston-tables.pdf",
+			"accessed": "2026-09-28",
+			"doi": "10.1086/448745",
+			"authors": [
+				{
+					"family": "Daston",
+					"given": "Lorraine"
+				}
+			],
+			"container": "Critical Inquiry",
+			"volume": "21",
+			"issue": "1",
+			"pages": "182–202",
+			"published": "1994",
+			"note": "The contents of the tables, and the sources of the hairdresser story, pp. 186–190"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Calculation and Tabulation in the Nineteenth Century: Airy versus Babbage",
+			"url": "https://discovery.ucl.ac.uk/id/eprint/10102065/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Swade",
+					"given": "Doron David"
+				}
+			],
+			"publisher": "University College London",
+			"place": "London",
+			"published": "2003",
+			"note": "Chapter 1 on de Prony, pp. 57–60, after Grattan-Guinness (1990)"
+		},
+		{
+			"kind": "web",
+			"title": "Gaspard de Prony (1755–1839), biography",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Prony/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Babbage",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Babbage&oldid=1371979131",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "A plate on pin-making (Épinglier), designed by Goussier and engraved by Defehrt",
+			"url": "https://commons.wikimedia.org/wiki/File:Defehrt_epinglier_pl2.jpg",
+			"accessed": "2026-09-28",
+			"container": "Diderot and d’Alembert, Encyclopédie, plates (1762), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "pin-factory.jpg",
+			"authors": [
+				{
+					"name": "Louis-Jacques Goussier"
+				},
+				{
+					"name": "Robert Bénard Defehrt"
+				}
+			],
+			"published": "1762"
+		}
+	]
+}
