@@ -41,13 +41,20 @@ describe('the review-notes script', () => {
 		const flagged = (await store.saveNote('ken@github', note('Confusing wording.', true)))!;
 		await store.saveNote('ada@github', note('Hers.', true));
 		await store.saveNote('ken@github', note('Just a note.', false));
+		const words = { exact: 'eight layers', prefix: 'It had ', suffix: '.', start: 7 };
+		await store.saveNote('ada@github', { ...note('Which eight?', true), anchor: words });
 		store.close();
 
 		const listed = JSON.parse(run(dir, 'list', '--json'));
 		expect(listed.map((n: { reader: string; text: string }) => [n.reader, n.text])).toEqual([
 			['ken@github', 'Confusing wording.'],
-			['ada@github', 'Hers.']
+			['ada@github', 'Hers.'],
+			['ada@github', 'Which eight?']
 		]);
+		expect(listed[2].anchor).toEqual(words);
+		const hers = run(dir, 'list', '--reader', 'ada@github');
+		expect(hers).toMatch(/\(annotation\)\n[\s\S]*\n {2}> eight layers\n {2}\| Which eight\?/);
+		expect(hers.split('(annotation)')).toHaveLength(2);
 		expect(run(dir, 'list', '--reader', 'ken@github')).toContain(
 			'content: subjects/ai/frames/alexnet/'
 		);

@@ -500,6 +500,7 @@ describe('the reader’s layer on a frame', () => {
 		frame: first,
 		label: 'We stole FIRE.',
 		text: 'Why a liver?',
+		anchor: null,
 		review: 'none',
 		response: null,
 		created: at,
@@ -582,8 +583,31 @@ describe('the reader’s layer on a frame', () => {
 	it('says N adds a note, in the help and on the Add button', () => {
 		const body = shell(layer());
 		expect(said(body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0])).toContain(
-			'S sync, T trail and N note, in the spine, narrative or notes'
+			'S sync, T trail, N note and A annotate, in the spine, narrative or notes'
 		);
 		expect(said(body)).toContain('Add a note N');
+	});
+
+	it('offers Annotate in the narrative with a reader, and not without', () => {
+		const body = shell(layer());
+		expect(body).toMatch(
+			/<button type="button" class="annotate[^"]*" aria-describedby="annotate-how"/
+		);
+		expect(said(body)).toContain('Annotate A');
+		expect(said(body)).toContain('Annotates the words selected in the reading');
+		const none = shell(null, 'columns');
+		expect(none).not.toContain('class="annotate');
+		expect(said(none)).not.toContain('A annotate');
+	});
+
+	it('lists an annotation with the words it is on, and a way to them in the reading', () => {
+		const anchor = { exact: 'kept fire', prefix: 'years of ', suffix: '.', start: 40 };
+		const body = shell(layer({ notes: [note({ id: 'a1', text: 'How do we know?', anchor })] }));
+		const panel = said(body.slice(body.indexOf('id="notes-panel"')));
+		expect(panel).toMatch(/On the words: kept fire How do we know\?/);
+		expect(panel).toContain('Show in reading: kept fire');
+		expect(said(body)).toContain('Notes 1, 1 on this frame');
+		// A plain note has neither.
+		expect(said(shell(layer({ notes: [note()] })))).not.toContain('Show in reading');
 	});
 });

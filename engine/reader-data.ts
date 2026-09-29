@@ -12,10 +12,11 @@
  * The store is an interface so that its adapter is a choice: SQLite now
  * (`src/lib/server/reader-store.ts`), Postgres possibly later. Its methods
  * are async for that reason, though SQLite answers at once. Each kind of
- * record (places, bookmarks, notes, kept answers, later annotations) has its
+ * record (places, bookmarks, notes and annotations, kept answers) has its
  * own methods and table on the same interface, keyed the same way.
  */
 
+import { anchorOf, type Anchor } from './anchor';
 import { keptAnswerProblems, type KeptAnswer } from './ai/kept';
 
 /** Where a reader last was in a subject. */
@@ -43,7 +44,11 @@ export interface Bookmark {
  */
 export type Review = 'none' | 'flagged' | 'handled';
 
-/** A reader's note on a frame (docs/design.md §Notes). Plain text, never rendered as markup. */
+/**
+ * A reader's note on a frame (docs/design.md §Notes). Plain text, never
+ * rendered as markup. With an anchor it is an annotation (§Annotations, korg
+ * 3415): a note on some words of the frame's reading.
+ */
 export interface Note {
 	/** Made by the store; unique per reader. */
 	id: string;
@@ -52,6 +57,8 @@ export interface Note {
 	/** The frame's title when the note was last saved. */
 	label: string;
 	text: string;
+	/** The words it is on, for an annotation; null for a note on the whole frame. */
+	anchor: Anchor | null;
 	review: Review;
 	/** What the agent that handled it did, in its own words; null until then. */
 	response: string | null;
@@ -59,7 +66,11 @@ export interface Note {
 	updated: string;
 }
 
-/** A note as a reader writes it: no id for a new one. `flag` is the "Agent review" box. */
+/**
+ * A note as a reader writes it: no id for a new one. `flag` is the "Agent
+ * review" box. An anchor is given when an annotation is made; an edit keeps
+ * the one it has.
+ */
 export interface NoteInput {
 	id?: string;
 	subject: string;
@@ -67,6 +78,7 @@ export interface NoteInput {
 	label: string;
 	text: string;
 	flag: boolean;
+	anchor?: Anchor | null;
 }
 
 /** A flagged note, for the review skill: which reader it belongs to comes with it. */
@@ -100,7 +112,8 @@ export interface ReaderStore {
 	notes(reader: string, subject: string): Promise<Note[]>;
 	/**
 	 * Write a note: a new one without an id, or an edit of theirs with one
-	 * (null when they have no such note). An edit keeps the note's frame.
+	 * (null when they have no such note). An edit keeps the note's frame and
+	 * anchor.
 	 */
 	saveNote(reader: string, note: NoteInput): Promise<Note | null>;
 	/** Delete a note of theirs; false when there was none. */
@@ -138,12 +151,13 @@ export interface ImportCounts {
 
 /**
  * The export format: versioned, so an older file can still be read. Version
- * 2 (sprint 011) added notes and kept answers; a version 1 file reads as one
- * with neither.
+ * 2 (sprint 011) added notes and kept answers, and version 3 (sprint 012)
+ * notes' anchors. A version 1 file reads as one with no notes or kept
+ * answers, and a version 2 file's notes have no anchors.
  */
 export interface ReaderExport {
 	kloom: 'reader-data';
-	version: 2;
+	version: 3;
 	/** Who it was exported for; an import files it under whoever imports it. */
 	reader: string;
 	exported: string;
@@ -192,7 +206,8 @@ export function parseExport(v: unknown): ReaderExport | { error: string } {
 	if (typeof v !== 'object' || v === null) return { error: 'not a JSON object' };
 	const d = v as Record<string, unknown>;
 	if (d.kloom !== 'reader-data') return { error: 'not a kloom reader-data export' };
-	if (d.version !== 1 && d.version !== 2) return { error: `unknown version ${String(d.version)}` };
+	if (d.version !== 1 && d.version !== 2 && d.version !== 3)
+		return { error: `unknown version ${String(d.version)}` };
 	if (!Array.isArray(d.places) || !Array.isArray(d.bookmarks))
 		return { error: 'places and bookmarks must be lists' };
 	const records = (list: unknown[], what: string) => {
@@ -211,11 +226,11 @@ export function parseExport(v: unknown): ReaderExport | { error: string } {
 	if (typeof bookmarks === 'string') return { error: bookmarks };
 	const notes: Note[] = [];
 	const kept: Kept[] = [];
-	if (d.version === 2) {
+	if (d.version !== 1) {
 		if (!Array.isArray(d.notes) || !Array.isArray(d.kept))
 			return { error: 'notes and kept must be lists' };
 		for (const [i, item] of d.notes.entries()) {
-			const n = noteOf(item);
+			const n = noteOf(item, d.version === 3);
 			if (!n) return { error: `note ${i} is not a valid note` };
 			notes.push(n);
 		}
@@ -233,7 +248,7 @@ export function parseExport(v: unknown): ReaderExport | { error: string } {
 	}
 	return {
 		kloom: 'reader-data',
-		version: 2,
+		version: 3,
 		reader: isText(d.reader) ? d.reader : '',
 		exported: isTime(d.exported) ? d.exported : new Date(0).toISOString(),
 		places,
@@ -246,8 +261,8 @@ export function parseExport(v: unknown): ReaderExport | { error: string } {
 const isId = (v: unknown): v is string => isText(v) && RECORD_ID.test(v);
 const REVIEWS: Review[] = ['none', 'flagged', 'handled'];
 
-/** A note from an export file, checked; null if it is not one. */
-function noteOf(v: unknown): Note | null {
+/** A note from an export file, checked; null if it is not one. Anchors came in version 3. */
+function noteOf(v: unknown, anchored: boolean): Note | null {
 	const r = recordOf(v);
 	if (!r) return null;
 	const n = v as Record<string, unknown>;
@@ -256,10 +271,13 @@ function noteOf(v: unknown): Note | null {
 	if (!REVIEWS.includes(n.review as Review)) return null;
 	if (n.response !== null && !isText(n.response)) return null;
 	if (!isTime(n.created) || !isTime(n.updated)) return null;
+	const anchor = anchored && n.anchor != null ? anchorOf(n.anchor) : null;
+	if (anchored && n.anchor != null && !anchor) return null;
 	return {
 		...r,
 		id: n.id,
 		text: n.text,
+		anchor,
 		review: n.review as Review,
 		response: n.response as string | null,
 		created: new Date(n.created).toISOString(),

@@ -1,5 +1,6 @@
 <script module lang="ts">
-	import type { Kept } from '../reader-data';
+	import type { Anchor } from '../anchor';
+	import type { Kept, Note } from '../reader-data';
 
 	/** What the shell offers for the frame's kept answers (korg 3390). */
 	export interface QaOffer {
@@ -10,13 +11,32 @@
 		titleOf: (frame: string) => string | null;
 		ongoto: (frame: string) => void;
 	}
+
+	/** What the shell offers for annotations (korg 3415). */
+	export interface AnnotationOffer {
+		/** The annotate key as the reader has it; null when it is off. */
+		key: string | null;
+		/** Words were chosen: write an annotation on them. */
+		onannotate: (anchor: Anchor, from: HTMLElement | null) => void;
+		/** An annotation was opened from its highlight. */
+		onopen: (note: Note, from: HTMLElement) => void;
+	}
 </script>
 
 <script lang="ts">
+	import { findQuote, moveEnd, moveStart, quoteOf, sentences, words, type Span } from '../anchor';
 	import { bibliography, chicago, chicagoDate } from '../citation';
 	import type { Frame, Trail } from '../model';
 	import type { SyncMode } from '../navigation';
 	import KeptQa from './KeptQa.svelte';
+	import {
+		clearHighlights,
+		highlight,
+		rangeOf,
+		readingText,
+		spanOf,
+		type ReadingText
+	} from './reading-text';
 
 	interface Props {
 		frame: Frame;
@@ -36,6 +56,11 @@
 		/** The id of the tab this pane is the panel of, when it is one. */
 		tab?: string | null;
 		hidden?: boolean;
+		/** The reader's annotations on this frame; absent when there is no reader. */
+		annotating?: AnnotationOffer | null;
+		annotations?: Note[];
+		/** The ids of annotations whose words the reading no longer has. */
+		detached?: string[];
 	}
 
 	let {
@@ -48,7 +73,10 @@
 		keys = { sync: 'S', trail: 'T' },
 		qa = null,
 		tab = null,
-		hidden = false
+		hidden = false,
+		annotating = null,
+		annotations = [],
+		detached = $bindable([])
 	}: Props = $props();
 
 	const behind = $derived(frame.id !== spineFrame.id);
@@ -58,6 +86,157 @@
 		void frame.id;
 		element?.scrollTo({ top: 0 });
 	});
+
+	let body = $state<HTMLElement>();
+
+	const detachedSaid = $derived(
+		detached.length === 1
+			? 'One of your annotations here no longer finds its words in the reading. It is on the Notes tab, with the words it quoted.'
+			: `${detached.length} of your annotations here no longer find their words in the reading. They are on the Notes tab, with the words they quoted.`
+	);
+
+	/**
+	 * Annotations (docs/design.md §Annotations): each finds its words in the
+	 * reading as it is now and highlights them, with a button after them that
+	 * opens it. One that cannot find them is detached, and said to be.
+	 */
+	$effect(() => {
+		void frame.readingHtml;
+		const root = body;
+		if (!root) return;
+		choice = null;
+		clearHighlights(root);
+		const lost: string[] = [];
+		for (const note of annotations) {
+			const at = note.anchor && findQuote(readingText(root).text, note.anchor);
+			const marks = at ? highlight(root, at, note.id) : [];
+			if (!marks.length) {
+				lost.push(note.id);
+				continue;
+			}
+			const ref = document.createElement('button');
+			ref.type = 'button';
+			ref.className = 'annotation-ref';
+			ref.dataset.note = note.id;
+			ref.setAttribute('aria-label', `Your annotation: ${note.text.slice(0, 80)}`);
+			marks.at(-1)!.after(ref);
+		}
+		if (lost.join() !== detached.join()) detached = lost;
+	});
+
+	// A highlight, or the button after it, opens its annotation. Not while
+	// the reader is selecting words, which may start on a highlight.
+	$effect(() => {
+		const root = body;
+		if (!root || !annotating) return;
+		const offer = annotating;
+		const click = (e: MouseEvent) => {
+			const el = e.target instanceof Element ? e.target.closest<HTMLElement>('[data-note]') : null;
+			if (!el || !getSelection()?.isCollapsed) return;
+			const note = annotations.find((n) => n.id === el.dataset.note);
+			const ref = root.querySelector<HTMLElement>(
+				`.annotation-ref[data-note="${CSS.escape(el.dataset.note ?? '')}"]`
+			);
+			if (note) offer.onopen(note, ref ?? el);
+		};
+		root.addEventListener('click', click);
+		return () => root.removeEventListener('click', click);
+	});
+
+	/** Move focus to an annotation's button in the reading; false when it is detached. */
+	export function show(id: string): boolean {
+		const ref = body?.querySelector<HTMLElement>(`.annotation-ref[data-note="${CSS.escape(id)}"]`);
+		ref?.scrollIntoView({ block: 'center' });
+		ref?.focus();
+		return !!ref;
+	}
+
+	/**
+	 * Words being chosen with the keyboard: a sentence to start with, then
+	 * moved by sentence and trimmed by word. The choice is the page's real
+	 * selection, so it looks and reads like one.
+	 */
+	let choice = $state<{ t: ReadingText; sentences: Span[]; words: Span[]; span: Span } | null>(
+		null
+	);
+	let chosen = $state('');
+
+	/**
+	 * Annotate (the A key, or the button): the words selected in the reading
+	 * if there are some, else choose them with the keyboard.
+	 */
+	export function annotate(from: HTMLElement | null) {
+		if (!body || !element || !annotating) return;
+		const sel = getSelection();
+		if (sel && !sel.isCollapsed && sel.rangeCount && sel.getRangeAt(0).intersectsNode(body)) {
+			const t = readingText(body);
+			const span = spanOf(t, sel.getRangeAt(0));
+			const anchor = span && quoteOf(t.text, span.start, span.end);
+			if (anchor) {
+				sel.removeAllRanges();
+				choice = null;
+				annotating.onannotate(anchor, from);
+				return;
+			}
+		}
+		const t = readingText(body);
+		const all = sentences(t.text, t.blocks);
+		if (!all.length) return;
+		// The first sentence in view, so the reader starts where they are reading.
+		const top = element.getBoundingClientRect().top;
+		const first = all.find((s) => (rangeOf(t, s)?.getBoundingClientRect().bottom ?? 0) > top);
+		choice = { t, sentences: all, words: words(t.text), span: first ?? all[0] };
+		element.focus();
+		select();
+	}
+
+	/** Show the choice as the selection, in view, and say it. */
+	function select() {
+		if (!choice) return;
+		const range = rangeOf(choice.t, choice.span);
+		const sel = getSelection();
+		if (!range || !sel) return;
+		sel.removeAllRanges();
+		sel.addRange(range);
+		range.startContainer.parentElement?.scrollIntoView({ block: 'nearest' });
+		chosen = `“${choice.t.text.slice(choice.span.start, choice.span.end).replace(/\s+/g, ' ')}”`;
+	}
+
+	function stopChoosing() {
+		choice = null;
+		chosen = '';
+		getSelection()?.removeAllRanges();
+	}
+
+	/** Keys while choosing: the reading's own, so the page's stand down. */
+	function chooseKey(e: KeyboardEvent) {
+		if (!choice || e.altKey || e.ctrlKey || e.metaKey) return;
+		const { span, sentences: all, words: ws } = choice;
+		switch (e.key) {
+			case 'ArrowDown':
+				choice.span = all.find((s) => s.start >= span.end) ?? span;
+				break;
+			case 'ArrowUp':
+				choice.span = all.findLast((s) => s.end <= span.start) ?? span;
+				break;
+			case 'ArrowLeft':
+				choice.span = e.shiftKey ? moveEnd(ws, span, -1) : moveStart(ws, span, -1);
+				break;
+			case 'ArrowRight':
+				choice.span = e.shiftKey ? moveEnd(ws, span, 1) : moveStart(ws, span, 1);
+				break;
+			case 'Enter':
+				annotate(element ?? null);
+				break;
+			case 'Escape':
+				stopChoosing();
+				break;
+			default:
+				return;
+		}
+		e.preventDefault();
+		if (choice) select();
+	}
 </script>
 
 <section
@@ -78,22 +257,59 @@
 				In step with the spine.
 			{/if}
 		</p>
+		{#if annotating}
+			<!-- Pressing it must not take the selection it is about to use. -->
+			<button
+				type="button"
+				class="annotate"
+				aria-describedby="annotate-how"
+				onmousedown={(e) => e.preventDefault()}
+				onclick={(e) => annotate(e.currentTarget)}
+				>Annotate {#if annotating.key}<kbd>{annotating.key}</kbd>{/if}</button
+			>
+			<span id="annotate-how" class="visually-hidden"
+				>Annotates the words selected in the reading, or lets you choose them with the keyboard.</span
+			>
+		{/if}
+		{#if choice}
+			<p id="choosing" class="choosing">
+				Choosing words: <kbd>↑</kbd><kbd>↓</kbd> sentence · <kbd>←</kbd><kbd>→</kbd> start ·
+				<kbd>Shift</kbd> <kbd>←</kbd><kbd>→</kbd> end · <kbd>Enter</kbd> annotate ·
+				<kbd>Esc</kbd> cancel
+			</p>
+		{/if}
+		<p class="visually-hidden" role="status">{chosen}</p>
 	</div>
 
-	<!-- Focusable because it scrolls: keyboard users must be able to reach it. -->
-	<!-- svelte-ignore a11y_no_noninteractive_tabindex -->
-	<article class="reading" tabindex="0" aria-labelledby="reading-title" bind:this={element}>
+	<!-- Focusable because it scrolls: keyboard users must be able to reach it.
+	     Its keys are its own only while words are being chosen in it. -->
+	<!-- svelte-ignore a11y_no_noninteractive_tabindex, a11y_no_noninteractive_element_interactions -->
+	<article
+		class="reading"
+		tabindex="0"
+		aria-labelledby="reading-title"
+		aria-describedby={choice ? 'choosing' : undefined}
+		bind:this={element}
+		onkeydown={chooseKey}
+		onfocusout={(e) => {
+			if (choice && !element?.contains(e.relatedTarget as Node | null)) stopChoosing();
+		}}
+	>
 		<p class="position">
 			{frame.position.label}
 			{#if frame.asOf}<span class="as-of">· As of {chicagoDate(frame.asOf)}</span>{/if}
 		</p>
 		<h2 id="reading-title">{frame.scene.headline} <em>{frame.scene.accent}</em></h2>
 
-		<div class="body">
+		<div class="body" bind:this={body}>
 			<!-- Rendered on load with raw HTML escaped and unsafe links dropped. -->
 			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 			{@html frame.readingHtml}
 		</div>
+
+		{#if detached.length}
+			<p class="detached">{detachedSaid}</p>
+		{/if}
 
 		{#if trails.length}
 			<h3>Trails from here</h3>
@@ -179,6 +395,48 @@
 		padding: 0.75rem 1.5rem;
 		border-bottom: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
 		font-size: 0.875rem;
+	}
+	.annotate {
+		font: inherit;
+		font-size: 0.8rem;
+		padding: 0.2rem 0.7rem;
+		color: var(--ink);
+		background: none;
+		border: 1px solid var(--muted);
+		border-radius: 0.25rem;
+		cursor: pointer;
+	}
+	.choosing {
+		flex-basis: 100%;
+		margin: 0;
+		font-size: 0.75rem;
+		color: var(--ink);
+	}
+	.detached {
+		margin: 1.25rem 0 0;
+		font-size: 0.8rem;
+		color: var(--muted);
+	}
+	.body :global(mark.annotation) {
+		color: inherit;
+		background: color-mix(in srgb, var(--accent) 28%, transparent);
+		border-bottom: 1px solid var(--accent);
+		cursor: pointer;
+	}
+	.body :global(.annotation-ref) {
+		font: inherit;
+		font-size: 0.75em;
+		vertical-align: super;
+		line-height: 1;
+		margin: 0 0 0 0.1em;
+		padding: 0 0.15em;
+		color: var(--accent);
+		background: none;
+		border: 0;
+		cursor: pointer;
+	}
+	.body :global(.annotation-ref)::after {
+		content: '✎' / '';
 	}
 	.state {
 		flex: 1;

@@ -527,19 +527,19 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   trail branching from the current frame and Esc leaves it (S matters only
   when the reader has turned following off); B bookmarks the frame on the
   spine, or removes its bookmark (§Reader data); N adds a note (§Notes);
-  Tab moves into
+  A annotates words of the reading (§Annotations); Tab moves into
   and out of the AI pane, and Esc anywhere in it returns to the spine. In the
   tabs layout, the arrows on a tab move between the tabs, and on a divider
   they move the divider (§Layout). Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
 - **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
-  T, B and N act only while focus is inside the spine, the narrative or the
+  T, B, N and A act only while focus is inside the spine, the narrative or the
   notes. They do nothing in the AI pane, in the settings panel, in the note
   editor, or on the bare page.
 - **And remappable** (WCAG 2.1.4's other remedy, sprint 011, korg 3363).
   Each character shortcut is a setting under "Keys": any letter, or Off
-  (`kloom.key.sync`, `.trail`, `.bookmark`, `.note`). `keymapOf` turns the
+  (`kloom.key.sync`, `.trail`, `.bookmark`, `.note`, `.annotate`). `keymapOf` turns the
   settings into a keymap and `pageKey` reads it. The help bar, the Add a note
   button, the trail buttons and the sync line all show the reader's letters,
   and leave a key out when it is off. A letter given to two shortcuts is
@@ -548,7 +548,8 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   character keys, so 2.1.4 does not reach them, and they are the slider's,
   tabs' and splitter's own ARIA keys, which assistive technology expects.
   The arrows, Home/End and Esc are not character keys, so they stay
-  page-wide, except in a text field or an element marked `data-own-keys`.
+  page-wide, except in a text field, an element marked `data-own-keys`, or
+  the reading while words are being chosen in it (§Annotations).
   The hint bar says so. Visible focus, ARIA
   roles, `prefers-reduced-motion` honoured. Accessibility is a requirement
   from sprint 001, not polish.
@@ -740,18 +741,20 @@ bookmarks`, `GET`/`POST`/`DELETE notes`, `GET`/`DELETE kept`, `GET export`
   and `POST import`. A place, bookmark or note must name a served subject
   (404) and a frame that subject has on disk (400).
 - **Export and import.** The export is a versioned JSON file
-  (`kloom: "reader-data"`, `version: 2`) of every place, bookmark, note and
-  kept answer, and it downloads from the jump list's _Export my reading
-  data_. A version 1 file (sprint 009's) still imports, as one with no
-  notes or kept answers. Import takes
+  (`kloom: "reader-data"`, `version: 3`) of every place, bookmark, note
+  (annotations included) and kept answer, and it downloads from the jump
+  list's _Export my reading data_. A version 1 file (sprint 009's) still
+  imports, as one with no notes or kept answers, and a version 2 file
+  (sprint 011's) as one whose notes have no anchors. Import takes
   that file as the body of `POST /api/reader/import`. It files the records
   under whoever imports them, and where both hold a record, the newer one
   wins. One bad record refuses the whole file. There is no import button
   yet: it is for backup and for moving between hosts, not an everyday
   action.
 - **On it since sprint 011:** notes (§Notes) and kept answers (§Kept
-  answers), each with its own table, added by the second migration. Still to
-  come: annotations (korg 3415), keyed the same way.
+  answers), each with its own table, added by the second migration. The
+  third (sprint 012) gave a note an `anchor` column, which makes it an
+  annotation (§Annotations).
 - **The adapter loads under plain Node.** `sqlite-reader-store.ts` imports
   only `node:` modules and types, so Node's type stripping can load it
   outside the app. The review-notes skill's script does that (§Notes), and so
@@ -783,8 +786,8 @@ frame, kept per reader in the reader store. It is never rendered as markup.
   (in the spine, narrative or notes) replaces the scene with a text box, on
   the frame in the reading pane. The HUD and the timeline stay, and so does
   the right-hand pane: the reader can still scroll the narrative, or read
-  their other notes on the Notes tab. Saving brings the picture back and
-  returns focus to where the editor was opened from. Ctrl (or Cmd) with
+  their other notes on the Notes tab. Saving or cancelling brings the
+  picture back and returns focus to where the editor was opened from. Ctrl (or Cmd) with
   Enter saves; Esc cancels. The editor is marked `data-own-keys`, so every
   key typed there stays there.
 - **The Notes tab** lists the frame's notes, oldest first, each with its
@@ -806,6 +809,61 @@ frame, kept per reader in the reader store. It is never rendered as markup.
   flagged note unflags it. A handled note stays handled.
 - **An edit keeps its frame.** A note belongs to the frame it was written
   on. It also keeps the frame's title as its label, like a bookmark.
+
+## Annotations
+
+Built in sprint 012 (korg 3415). An annotation is a note on some words of a
+frame's narrative: a note (§Notes) that also records the words it is on, in
+an `anchor`. Everything else is a note's: the same row in the reader store,
+the same editor, the Notes tab, the "Agent review" flag and the review-notes
+skill, which quotes the words.
+
+- **The anchor survives edits.** Grow and later sprints change readings, so
+  an annotation never stores character offsets alone. It stores the W3C Web
+  Annotation text-quote selector: the quoted words (`exact`), up to 32
+  characters on each side (`prefix`, `suffix`), and where they were
+  (`start`) as a tie-breaker (`engine/anchor.ts`). It works on the
+  reading's text as its text nodes give it (inlined charts left out), with
+  runs of whitespace collapsed, so a re-wrapped paragraph reads the same.
+- **Found again, or detached; never silently wrong.** Each time the reading
+  is shown, the annotation looks for its words. They must be there exactly,
+  give or take whitespace. Where they appear more than once, the place whose
+  context agrees most wins, then the nearest. A place is taken only when at
+  least 8 characters of context still agree, or the words are 24 characters
+  or more and appear once. So a paragraph inserted above, or a reworded
+  neighbouring sentence, leaves it in place, and a deleted or reworded quote
+  detaches it. So does a short quote whose surroundings all changed, rather
+  than landing on a "the" somewhere else. There is no fuzzy match: changed
+  words are not the words the reader wrote about. A detached annotation
+  keeps its words and its note. The reading says how many on this frame
+  are detached, the Notes tab marks each one, and its editor says so.
+- **Making one.** A (or the Annotate button in the narrative's toolbar)
+  annotates the words selected in the reading. The button does not take
+  focus on a mouse press, so the selection survives the click. With nothing
+  selected, it starts **choosing words with the keyboard**: the first
+  sentence in view is selected, ↑/↓ move by sentence (sentences are found
+  per paragraph, heading or list item, with `Intl.Segmenter`), ←/→ move the
+  start by a word, Shift with ←/→ the end, Enter annotates and Esc (or
+  leaving the reading) cancels. The choice is the page's real selection, so
+  it looks like one. A status line says the words each time they change, and
+  the toolbar shows the keys while choosing. A again annotates the choice,
+  as Enter does. Then the editor opens in the scene's place, as for a note,
+  headed "New annotation" and quoting the words.
+- **Seeing them.** Each annotation's words are wrapped in `<mark>`s, which
+  assistive technology announces as highlighted, followed by a small ✎
+  button named "Your annotation: <its opening words>". The buttons are in
+  the tab order, which is how the keyboard moves between annotations.
+  The button, or a click on the highlight (not while selecting), opens the
+  annotation in the editor. Closing it returns focus to the button. The
+  highlights are drawn onto the rendered reading after it is shown, and
+  redrawn when it or the annotations change. Only the reading's own
+  elements are touched, never the nodes Svelte placed.
+- **On the Notes tab** an annotation is listed with its notes, oldest first,
+  quoting its words above its text, with **Show in reading** (which brings
+  the narrative forward and focuses its button) when it is not detached.
+  It counts as a note on the spine's marks and the tab.
+- **An edit keeps its anchor**, as it keeps its frame. The words an
+  annotation is on are fixed when it is made.
 
 ## Kept answers
 

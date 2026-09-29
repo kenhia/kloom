@@ -7,6 +7,10 @@
 		editing: boolean;
 		/** The frame it is on: headline and accent. */
 		title: string;
+		/** The words an annotation is on; absent for a note on the whole frame. */
+		quote?: string | null;
+		/** An annotation whose words the reading no longer has. */
+		detached?: boolean;
 		text: string;
 		/** The "Agent review" box. */
 		flag: boolean;
@@ -20,6 +24,8 @@
 	let {
 		editing,
 		title,
+		quote = null,
+		detached = false,
 		text = $bindable(),
 		flag = $bindable(),
 		saving = false,
@@ -60,13 +66,27 @@
 		onsave();
 	}}
 >
-	<h2 id="{id}-title">{editing ? 'Editing a note' : 'New note'} <span>on {title}</span></h2>
-	<label class="visually-hidden" for="{id}-text">Note</label>
+	<div class="head">
+		<h2 id="{id}-title">
+			{editing ? 'Editing' : 'New'}
+			{quote ? (editing ? 'an annotation' : 'annotation') : editing ? 'a note' : 'note'}
+			<span>on {title}</span>
+		</h2>
+		{#if quote}
+			<blockquote id="{id}-quote" class="quote">
+				<span class="visually-hidden">On the words: </span>{quote}
+			</blockquote>
+			{#if detached}
+				<p class="hint">These words are no longer in the reading.</p>
+			{/if}
+		{/if}
+	</div>
+	<label class="visually-hidden" for="{id}-text">{quote ? 'Annotation' : 'Note'}</label>
 	<textarea
 		id="{id}-text"
 		bind:value={text}
 		bind:this={box}
-		aria-describedby="{id}-keys"
+		aria-describedby="{quote ? `${id}-quote ` : ''}{id}-keys"
 		maxlength={NOTE_MAX}></textarea>
 	<div class="row">
 		<label class="flag">
@@ -108,6 +128,21 @@
 	}
 	h2 span {
 		color: var(--ink);
+	}
+	.quote {
+		margin: 0.5rem 0 0;
+		padding-left: 0.75rem;
+		/* Long quotes are cut to four lines on screen; a screen reader reads them whole. */
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 4;
+		line-clamp: 4;
+		overflow: hidden;
+		border-left: 2px solid var(--accent);
+		font: italic 0.9rem/1.45 var(--serif);
+	}
+	.head .hint {
+		margin: 0.35rem 0 0;
 	}
 	textarea {
 		font: 1rem/1.5 var(--serif);

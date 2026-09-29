@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Flagged notes (korg 3409): list the notes readers ticked "Agent review" on,
-// and mark one handled with what was done. Run from the repo with plain Node
+// annotations (3415) with the words they are on, and mark one handled with
+// what was done. Run from the repo with plain Node
 // 24+, which strips the adapter's types; it opens the reader store through
 // that adapter, never around it. See SKILL.md beside this file.
 //
@@ -47,10 +48,11 @@ try {
 			for (const n of notes)
 				console.log(
 					[
-						`${n.reader}  ${n.id}`,
+						`${n.reader}  ${n.id}${n.anchor ? '  (annotation)' : ''}`,
 						`  frame:   ${n.subject}/${n.frame} — ${n.label}`,
 						`  content: subjects/${n.subject}/frames/${n.frame}/`,
 						`  written: ${n.created}${n.updated !== n.created ? ` (edited ${n.updated})` : ''}`,
+						...(n.anchor ? [`  on the words, in reading.md:`, `  > ${n.anchor.exact}`] : []),
 						...n.text.split('\n').map((l) => `  | ${l}`),
 						''
 					].join('\n')
