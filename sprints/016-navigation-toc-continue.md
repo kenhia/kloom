@@ -133,3 +133,17 @@ Made in the sprint:
 ## Follow-ups
 
 - None filed.
+
+## Deployed
+
+2026-09-29, `just deploy` (declared as `recipe: deploy` in `.sprint-deploy`),
+from merged main `2f348e0` (PR #18) to the kloom service on kai. The recipe's
+own `just verify` passed all eight door checks, and it reported
+`deployed 2f348e034`. What this sprint added, checked live on the ssh door
+(:4891):
+
+- Each of `/western-civ`, `/ai`, `/feynman` and `/computing` serves the
+  Contents button (`title="Contents (C)"`) and one `aria-current="page"`
+  entry. The contents link 24, 66, 62 and 67 frames, one per frame on the
+  subject's spine and trails.
+- The help bar names C contents.
