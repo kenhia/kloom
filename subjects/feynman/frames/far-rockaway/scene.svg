@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 240 L384 240"/>
+		<path pathLength="1" d="M372 240 L378 240 M372 230.8 L378 230.8 M372 221.6 L378 221.6 M372 212.4 L378 212.4 M372 203.2 L378 203.2 M372 194 L378 194 M372 184.8 L378 184.8 M372 175.6 L378 175.6 M372 166.4 L378 166.4 M372 157.2 L378 157.2 M372 148 L378 148 M372 138.8 L378 138.8 M372 129.6 L378 129.6 M372 120.4 L378 120.4 M372 111.2 L378 111.2 M372 102 L378 102 M372 92.8 L378 92.8 M372 83.6 L378 83.6 M372 74.4 L378 74.4 M372 65.2 L378 65.2 M372 56 L378 56 M372 46.8 L378 46.8 M372 37.6 L378 37.6 M372 28.4 L378 28.4 M372 19.2 L378 19.2"/>
+		<path pathLength="1" d="M375 240 L375 19.2"/>
+		<path pathLength="1" d="M44 148 L352 148 M44 56 L352 56"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M214 240 L214 56 L352 56 L352 240"/>
+		<path pathLength="1" d="M206 56 L283 10 L360 56"/>
+		<path pathLength="1" d="M214 148 L352 148"/>
+		<path pathLength="1" d="M244 132 L244 90 L288 90 L288 132 Z"/>
+		<path pathLength="1" d="M266 90 L266 132"/>
+		<path pathLength="1" d="M244 111 L288 111"/>
+		<path pathLength="1" d="M318 240 L318 206 L338 206 L338 240"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M208 82 L200 70 L184 62 L156 58 L132 64 L122 76 L124 94 L140 100 L174 96 L202 92 L208 82"/>
+		<path pathLength="1" d="M202 86 L170 88"/>
+		<path pathLength="1" d="M198 86 L196 91 M192 86 L190 91 M186 86 L184 91 M180 86 L178 91 M174 86 L172 91"/>
+		<path pathLength="1" d="M145 72 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M130 96 L114 126 L106 156"/>
+		<path pathLength="1" d="M126 68 L98 100 L82 136"/>
+		<path pathLength="1" d="M106 156 L102 180 L84 196 L54 192 L24 184 L4 172"/>
+		<path pathLength="1" d="M82 136 L64 152 L34 160 L4 172"/>
+		<path pathLength="1" d="M102 166 L114 176 L118 184"/>
+		<path pathLength="1" d="M64 192 L70 210 L82 232 L98 240"/>
+		<path pathLength="1" d="M42 188 L44 212 L54 234 L68 240"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M30 240 L30 240 M30 62 L30 62"/>
+		<path pathLength="1" d="M30 240 L30 62"/>
+		<path pathLength="1" d="M28 236.5 L30 240 L32 236.5"/>
+		<path pathLength="1" d="M32 65.5 L30 62 L28 65.5"/>
+		<path pathLength="1" d="M354 240 L337.2 240 M354 148 L337.2 148"/>
+		<path pathLength="1" d="M340 240 L340 148"/>
+		<path pathLength="1" d="M338 236.5 L340 240 L342 236.5"/>
+		<path pathLength="1" d="M342 151.5 L340 148 L338 151.5"/>
+	</g>
+	<g>
+		<text x="36" y="178" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">20 FT</text>
+		<text x="338" y="197" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10 FT</text>
+		<text x="266" y="84" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BEDROOM</text>
+		<text x="200" y="272" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ENCYCLOPAEDIA BRITANNICA · READ ALOUD</text>
+	</g>
+</svg>

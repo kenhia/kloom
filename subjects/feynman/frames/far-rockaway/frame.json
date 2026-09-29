@@ -1,0 +1,76 @@
+{
+	"id": "far-rockaway",
+	"position": { "label": "1918", "sort": 1918 },
+	"scene": {
+		"headline": "His father taught him to",
+		"accent": "TRANSLATE.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"FAR ROCKAWAY · QUEENS · NEW YORK",
+			"MELVILLE FEYNMAN · LUCILLE PHILLIPS · JOAN FEYNMAN"
+		],
+		"counter": { "value": "20 ft", "label": "a dinosaur's height, read as a second-floor window" }
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session I",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-1",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-04",
+			"note": "His own recollection of his childhood, recorded at forty-seven"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "book",
+			"title": "What Do You Care What Other People Think? Further Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514628W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Feynman", "given": "Richard P." },
+				{ "family": "Leighton", "given": "Ralph" }
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1988",
+			"note": "“The Making of a Scientist”, his telling of his father's lessons"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Far Rockaway, Queens",
+			"url": "https://en.wikipedia.org/w/index.php?title=Far_Rockaway&oldid=1377344265",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "Grand View Ave., Far Rockaway, N.Y.",
+			"url": "https://commons.wikimedia.org/wiki/File:Grand_View_Ave,_Far_Rockaway,_New_York.png",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "S. Hirshberg" }],
+			"container": "Postcard, published at Rockaway Beach and postmarked 1913; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "grand-view-avenue.jpg",
+			"published": "1913"
+		}
+	]
+}

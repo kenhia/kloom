@@ -1,0 +1,59 @@
+{
+	"title": "Richard Feynman",
+	"palettes": {
+		"lamplight": {
+			"scheme": "dark",
+			"background": "#1d1610",
+			"ink": "#f1e6d2",
+			"muted": "#b8a68a",
+			"accent": "#f0a04b",
+			"line": "#e3c79a",
+			"counterpart": "manila"
+		},
+		"manila": {
+			"scheme": "light",
+			"background": "#f2e8d5",
+			"ink": "#2a2118",
+			"muted": "#6b5a45",
+			"accent": "#a4380f",
+			"line": "#3b2f22",
+			"counterpart": "lamplight"
+		},
+		"chalkboard": {
+			"scheme": "dark",
+			"background": "#1f2b26",
+			"ink": "#eef1e8",
+			"muted": "#a9b8ae",
+			"accent": "#f5d76e",
+			"line": "#d8e3da",
+			"counterpart": "graphpaper"
+		},
+		"graphpaper": {
+			"scheme": "light",
+			"background": "#f4f7f2",
+			"ink": "#17231d",
+			"muted": "#50635a",
+			"accent": "#1f5fa0",
+			"line": "#24342c",
+			"counterpart": "chalkboard"
+		},
+		"blueprint": {
+			"scheme": "dark",
+			"background": "#102a4c",
+			"ink": "#e9f1fb",
+			"muted": "#9fb7d6",
+			"accent": "#ff8a5b",
+			"line": "#bcd6f5",
+			"counterpart": "vellum"
+		},
+		"vellum": {
+			"scheme": "light",
+			"background": "#eef1f4",
+			"ink": "#16202c",
+			"muted": "#525f6e",
+			"accent": "#b3261e",
+			"line": "#26344a",
+			"counterpart": "blueprint"
+		}
+	}
+}
