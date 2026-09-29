@@ -380,3 +380,22 @@ Reciprocal to sprint 006's list from the AI side:
 
 None filed. Every finding above was fixed here or is noted with its reason.
 The candidate links go to korg 3399 as a comment.
+
+## Deployed
+
+2026-09-28, by `just deploy` (the `recipe: deploy` in `.sprint-deploy`),
+from merged `main` at `ca28af6`, to the kloom service on kai. The
+service's content clone is at the same commit.
+
+- `just verify` passed all eight door checks. The tailnet door refuses
+  anonymous writes and reader-data reads, and the ssh door lets its reader
+  through.
+- **The sprint's work, live on both doors (:4890 and :4891), each 200:**
+  - `/feynman`;
+  - `/feynman/least-action` (main spine), whose page carries "least
+    ACTION.";
+  - `/feynman/magnetic-moment` (a trail frame);
+  - `/media/feynman/far-rockaway/grand-view-avenue.jpg`;
+  - `/api/start/feynman` (the start screen's look).
+
+  The start page lists Richard Feynman among the subjects.
