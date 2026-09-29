@@ -92,17 +92,21 @@ def fetch(title, frame_dir, name=None, width=960, accessed=None):
     os.makedirs(frame_dir, exist_ok=True)
     with open(os.path.join(frame_dir, file), 'wb') as fh:
         fh.write(body)
-    artist = meta.get('Artist') or 'Unknown'
+    artist = meta.get('Artist') or ''
+    # Commons' {{Unknown|author}} template renders its text twice ("Unknown authorUnknown author").
+    doubled = re.fullmatch(r'(.+?)\1', artist)
+    artist = doubled.group(1) if doubled else artist
     citation = {
         'kind': 'media',
         'title': meta.get('ObjectName') or os.path.splitext(title[5:])[0],
         'url': i['descriptionurl'],
         'accessed': accessed or datetime.date.today().isoformat(),
-        'authors': [{'name': artist}],
         'container': 'Via Wikimedia Commons',
         'licence': 'Public domain' if re.match(r'^(public domain|pd)', lic, re.I) else lic,
         'file': file,
     }
+    if artist and not re.match(r'unknown', artist, re.I):
+        citation['authors'] = [{'name': artist}]
     if year(meta):
         citation['published'] = year(meta)
     print(json.dumps(citation, ensure_ascii=False, indent='\t'))

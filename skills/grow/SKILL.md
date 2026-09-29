@@ -197,9 +197,10 @@ charts and tables; see §Authoring with tools.)
 - For a technical explainer, a worked example with invented numbers is
   fine. Say that they are invented, and keep them apart from the sourced
   facts.
-- No raw HTML. Links go only to http(s) pages. Do not add images: any image
-  needs a file in the directory and a `media` citation with its licence,
-  and you cannot write one.
+- No raw HTML. Links go only to http(s) pages. A grow job adds no images:
+  any image needs a file in the directory and a `media` citation with its
+  licence, and a job cannot fetch one. (An author with tools can; see
+  §Authoring with tools.)
 
 ## Sources and citations
 
