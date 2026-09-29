@@ -161,3 +161,16 @@ layout, and for draggable dividers if they were cheap:
   page above). If tabs and three columns are the keepers, drop `strip` and
   `split` from the `layout` choices. A stored value that is no longer a
   choice falls back to the default, so readers need no migration.
+
+## Deployed
+
+2026-09-29 00:55 UTC, on kai. `just deploy` (the `recipe: deploy` line in
+`.sprint-deploy`) ran from merged `main` at `7a952ad`. It built the app,
+restarted `kloom.service`, and passed all six of `just verify`'s door checks.
+No content changed: the content clone is still on `grow/kai`.
+
+Checked live with the ssh door (`127.0.0.1:4891/western-civ`). The page
+renders the tab list, the one control (`#ai-verb` with "Ask a question"),
+the spine divider (`role="separator"`, "Resize the spine"), the page-foot
+hint bar (`#ai-hint`), the "Layout" row in the settings, and the "Web"
+checkbox. The tailnet door answers 200.
