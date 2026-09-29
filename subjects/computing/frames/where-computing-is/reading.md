@@ -24,22 +24,22 @@ factory sensor, that nobody thinks of as a computer.
 
 ## The fastest
 
-At the other end is the supercomputer. The TOP500 list, compiled twice a
+At the other end is the supercomputer. The [TOP500](kloom:e/top500) list, compiled twice a
 year since 1993 by timing each machine on the same dense linear-algebra
 benchmark, had a new leader in June 2026. **LineShine**, at the National
 Supercomputing Centre in Shenzhen, ran it at 2.198 exaflops, 2.198 × 10¹⁸
 floating-point operations a second, on 13,789,440 processor cores. It uses
 no graphics accelerators, only custom 304-core LX2 processors,
-and it is the first Chinese machine at the top since Sunway TaihuLight in 2017. The American **El Capitan**, at Lawrence Livermore, is second at
+and it is the first Chinese machine at the top since [Sunway TaihuLight](kloom:e/sunway-taihulight) in 2017. The American [**El Capitan**](kloom:e/el-capitan-supercomputer), at [Lawrence Livermore](kloom:e/lawrence-livermore-national-laboratory), is second at
 1.809 exaflops. Five machines on the list now reach an exaflop. The first
-list's leader, in June 1993, a Connection Machine CM-5 at Los Alamos, ran
+list's leader, in June 1993, a [Connection Machine](kloom:e/connection-machine) CM-5 at [Los Alamos](kloom:e/los-alamos-national-laboratory), ran
 the benchmark at 59.7 gigaflops, about 37 million times slower.
 
 ![Two black cabinets of the Frontier supercomputer at Oak Ridge National Laboratory, with a long aisle of racks between them under yellow cable trays](frontier.jpg)
 
 ## What it costs in energy
 
-Speed is bought with electricity. **Jonathan Koomey** and colleagues
+Speed is bought with electricity. **[Jonathan Koomey](kloom:e/jonathan-koomey)** and colleagues
 showed in 2010 that the number of computations done per unit of energy had
 doubled about every 1.57 years since the 1950s; he and Sam Naffziger found
 in 2016 that after 2000 the doubling had slowed to about every 2.6 years.
@@ -72,14 +72,14 @@ The chips, clusters and power of AI itself are a subject of their own.
 
 ## How far down
 
-Physics sets a floor. **Rolf Landauer** argued in 1961 that erasing one bit
+Physics sets a floor. **[Rolf Landauer](kloom:e/rolf-landauer)** argued in 1961 that erasing one bit
 of information must give off at least _kT_ ln 2 of heat: at room
 temperature, about 2.9 × 10⁻²¹ joules. LineShine spends about 1.9 × 10⁻¹¹
 joules on each floating-point operation, roughly ten thousand million
 times more, as the plate draws, though a floating-point operation erases
 far more than one bit, so the true margin is smaller. Computers that erase
 nothing, reversible ones, escape even that bound in principle, and
-quantum computers, still experimental, compute in another way altogether.
+[quantum computers](kloom:e/quantum-computing), still experimental, compute in another way altogether.
 
 ## The whole story
 

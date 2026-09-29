@@ -1,0 +1,8 @@
+{
+	"id": "amazon-s3",
+	"wikidata": "Q2593067",
+	"name": "Amazon S3",
+	"aliases": ["S3"],
+	"kind": "artifact",
+	"description": "Amazon's storage service of 2006, which keeps files for anyone over the web and charges by the gigabyte."
+}

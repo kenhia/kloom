@@ -1,10 +1,10 @@
-On 11 October 1964 **Doug McIlroy** of Bell Labs finished a memo with a
+On 11 October 1964 **[Doug McIlroy](kloom:e/douglas-mcilroy)** of [Bell Labs](kloom:e/bell-labs) finished a memo with a
 summary of what mattered most to him. The first point asked for ways of
 "connecting programs like garden hose", screwing in another segment
 whenever data had to be massaged another way. At the time Bell Labs did its
 computing in batch, on IBM 7090 and 7094 machines fed with tape. Years later
-**Dennis Ritchie** kept that page, yellowed, stuck by a magnet to his
-office wall. It took eight or nine years, and Unix, for the hose to be
+**[Dennis Ritchie](kloom:e/dennis-ritchie)** kept that page, yellowed, stuck by a magnet to his
+office wall. It took eight or nine years, and [Unix](kloom:e/unix), for the hose to be
 built.
 
 ## An idea on a blackboard
@@ -23,7 +23,7 @@ of imagination!" Ritchie wrote afterwards.
 ## One feverish night
 
 McIlroy persisted; Ritchie says he very nearly used his authority as their
-manager to get pipes in. In McIlroy's telling, **Ken Thompson** finally
+manager to get [pipes](kloom:e/pipeline-unix) in. In McIlroy's telling, **[Ken Thompson](kloom:e/ken-thompson)** finally
 agreed and, "in one feverish night", wrote the `pipe`
 system call, added pipes to the shell, and changed several programs,
 among them `pr` and `ov`, to work as _filters_. "The next day saw an
@@ -57,9 +57,9 @@ fills the buffer waits, and so does a reader that empties it. None of the
 programs knows. It reads and writes as if to files.
 
 The genius of it, Ritchie thought, was that it used the very same commands
-people typed alone every day. Multics could splice processing modules into
+people typed alone every day. [Multics](kloom:e/multics) could splice processing modules into
 an input or output stream, but only modules written for the purpose.
-Dartmouth's time-sharing system had _communication files_ that did very
+[Dartmouth's time-sharing system](kloom:e/dartmouth-time-sharing-system) had _communication files_ that did very
 nearly what pipes did, though Bell Labs did not know of them.
 
 ## A worked pipeline
@@ -96,6 +96,6 @@ begins: "Expect the output of every program to become the input to
 another, as yet unknown, program." Pipes, McIlroy wrote, changed how they
 thought about program design more than redirection ever had.
 
-By the 1980s some thought the tools were growing too many options. Brian
-Kernighan and Rob Pike said so in 1984, naming two new Unixes as examples:
-AT&T's System V, and Berkeley's 4.2BSD, whose story is next.
+By the 1980s some thought the tools were growing too many options. [Brian
+Kernighan](kloom:e/brian-kernighan) and [Rob Pike](kloom:e/rob-pike) said so in 1984, naming two new Unixes as examples:
+AT&T's System V, and Berkeley's [4.2BSD](kloom:e/berkeley-software-distribution), whose story is next.

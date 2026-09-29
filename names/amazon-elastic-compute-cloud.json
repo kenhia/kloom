@@ -1,0 +1,8 @@
+{
+	"id": "amazon-elastic-compute-cloud",
+	"wikidata": "Q2072356",
+	"name": "Amazon Elastic Compute Cloud",
+	"aliases": ["EC2"],
+	"kind": "artifact",
+	"description": "Amazon's service, opened in 2006, that rents virtual machines by the hour, the start of cloud computing as a business."
+}

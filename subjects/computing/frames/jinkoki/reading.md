@@ -1,20 +1,20 @@
 A bead frame only holds a number, but a trained hand can make it do far
-more than add. By the early seventeenth century the bead abacus had its
+more than add. By the early seventeenth century the bead [abacus](kloom:e/abacus) had its
 own textbooks, and they taught multiplication, division and the extraction
 of square and cube roots, by sequences of bead moves learnt by heart.
 
 ## A merchant's arithmetic
 
-In China, the Suanpan article says, **Wang Wensu** and **Cheng Dawei**
+In China, the Suanpan article says, **Wang Wensu** and **[Cheng Dawei](kloom:e/cheng-dawei)**
 gathered and refined the bead methods in the sixteenth century. Cheng's
-book was the _Suanfa tongzong_,
+book was the [_Suanfa tongzong_](kloom:e/suanfa-tongzong),
 "General source of computational methods", published in 1592; Cheng was
 a local official rather than a professional mathematician. It is,
 in effect, a general arithmetic for the abacus, with 595 problems. Sources
 differ on how they are divided: the MacTutor biography and one Wikipedia
 article give twelve chapters, another Wikipedia article seventeen. Many of
 its formulas were set in verse, to be learnt by rote. Division on the
-suanpan leans, in several of its methods, on a memorised _division
+[suanpan](kloom:e/suanpan) leans, in several of its methods, on a memorised _division
 table_, and the methods explain the suanpan's extra beads: the topmost
 and bottommost beads on each rod are rarely touched in addition, but some
 multiplication methods and the division method need them. Cheng's book
@@ -23,9 +23,9 @@ he published an abridgement.
 
 ## The Jinkōki
 
-In Japan the equivalent was the _Jinkōki_, published in 1627 by
-**Yoshida Mitsuyoshi** and used as the soroban's textbook throughout the
-Edo period. Japan's National Diet Library says he modelled it on the _Suanfa tongzong_, which a relative,
+In Japan the equivalent was the [_Jinkōki_](kloom:e/jinkoki), published in 1627 by
+**[Yoshida Mitsuyoshi](kloom:e/yoshida-mitsuyoshi)** and used as the [soroban](kloom:e/soroban)'s textbook throughout the
+[Edo period](kloom:e/edo-period). Japan's National Diet Library says he modelled it on the _Suanfa tongzong_, which a relative,
 Suminokura Soan, had told him about; Wikipedia says only that it rests
 partly on Yuan-dynasty Chinese works. Its first volume taught
 multiplication and division on the soroban; the rest mixed practical
@@ -53,8 +53,8 @@ Abacus_ (1963) gave square roots a chapter.
 
 ## Twelve point oh oh two
 
-The best-known story of a root on an abacus is **Richard Feynman**'s,
-told in _Surely You're Joking, Mr. Feynman!_. In his telling, an abacus
+The best-known story of a root on an abacus is **[Richard Feynman](kloom:e/richard-feynman)**'s,
+told in [_Surely You're Joking, Mr. Feynman!_](kloom:e/surely-youre-joking-mr-feynman). In his telling, an abacus
 salesman in a Brazilian restaurant beat him at addition and
 multiplication and tied him at division, then challenged him to a cube
 root: 1729.03. Feynman happened to know that a cubic foot is 1,728 cubic
@@ -62,5 +62,5 @@ inches, so the root was a shade over 12, and he had 12.002 while the
 beads were still moving. It is one man's anecdote, and it makes his own
 point: the abacus man knew the procedure, and Feynman knew the numbers.
 
-The beads never needed eyes, either. The next frame, the Cranmer abacus,
+The beads never needed eyes, either. The next frame, the [Cranmer abacus](kloom:e/cranmer-abacus),
 made the soroban for the fingers alone.

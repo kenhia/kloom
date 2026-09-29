@@ -1,0 +1,9 @@
+{
+	"id": "lorenz-cipher",
+	"wikidata": "Q695493",
+	"name": "Lorenz cipher",
+	"aliases": ["Tunny"],
+	"kind": "artifact",
+	"description": "The German teleprinter cipher machine of the Second World War that Bletchley called Tunny, broken with the help of Colossus.",
+	"home": "computing/tunny"
+}

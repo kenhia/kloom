@@ -1,17 +1,17 @@
 By 1947 the stored-program computer was fully described on paper and
 built nowhere. The design wanted a memory that could hold instructions and
 numbers alike and hand any of them back at electronic speed, and nobody
-had one. The first that worked came out of wartime radar, in a Manchester
+had one. The first that worked came out of wartime radar, in a [Manchester](kloom:e/manchester)
 laboratory, and the machine built to test it became the first to run a
 program from its own memory.
 
 ## A bit on a screen
 
-**Frederic C. Williams**, a radar engineer at the Telecommunications
+**[Frederic C. Williams](kloom:e/frederic-c-williams)**, a radar engineer at the Telecommunications
 Research Establishment (TRE) at Malvern, began trying to store information
 on a cathode-ray tube after a visit to the United States in June 1946. By
 the autumn he could hold a single bit, and he filed a provisional patent in
-December, the month he moved to a chair at Manchester. **Tom Kilburn**,
+December, the month he moved to a chair at Manchester. **[Tom Kilburn](kloom:e/tom-kilburn)**,
 from his TRE group, was seconded to Manchester to carry on, and by
 December 1947 the pair were holding 2,048 bits for hours on one standard
 six-inch tube.
@@ -32,7 +32,7 @@ screened from passing trams and motorcycles.
 
 ![A Williams–Kilburn tube on display: a long cylindrical cathode-ray tube lying on its side in a green metal frame, its round face towards the viewer, with the hinged metal pick-up plate assembly swung open below it](williams-tube.jpg)
 
-The Americans called it the _Williams tube_. Manchester's own history
+The Americans called it the [_Williams tube_](kloom:e/williams-tube). Manchester's own history
 prefers _Williams–Kilburn_: every patent after the first bore both names,
 and Kilburn did most of the 1947 work.
 
@@ -40,8 +40,8 @@ and Kilburn did most of the 1947 work.
 
 A store is only proved inside a computer, and the pair could change bits
 by hand at about one a second. So in the first half of 1948 Kilburn and
-**Geoff Tootill** built the smallest computer they could around one tube:
-the _Small-Scale Experimental Machine_, soon called the **Baby**. Its store
+**[Geoff Tootill](kloom:e/geoff-tootill)** built the smallest computer they could around one tube:
+the [_Small-Scale Experimental Machine_](kloom:e/manchester-baby), soon called the **Baby**. Its store
 was 32 words of 32 binary digits. A second tube held the accumulator, a
 third the current instruction and its address, and a fourth displayed any
 of them. It had about 550 valves, and its only arithmetic was subtraction
@@ -76,8 +76,8 @@ operations.
 ![The Baby's replica in Manchester's Science and Industry Museum: a row of tall grey open steel racks crowded with valves and chassis, with visitors reading the panels in front](baby-replica.jpg)
 
 When that run happened is told two ways. The usual account, Wikipedia's
-among them, puts the 52-minute run on 21 June itself. The University of
-Manchester's history says the first success used a small number and 2¹⁸
+among them, puts the 52-minute run on 21 June itself. The [University of
+Manchester](kloom:e/university-of-manchester)'s history says the first success used a small number and 2¹⁸
 followed within days. Fifty years on, Tootill and Kilburn reconstructed the
 program from Tootill's notebook and the operating notes. They concluded
 that the runs of 21 June were on small numbers, and that the 52-minute run
@@ -96,18 +96,18 @@ Either way the store held, and the program in it ran.
 
 ## From Baby to Ferranti
 
-The Baby grew into the **Manchester Mark 1**: 40-bit words, a magnetic drum
+The Baby grew into the **[Manchester Mark 1](kloom:e/manchester-mark-1)**: 40-bit words, a magnetic drum
 behind the tubes, and the first _index registers_, called B-lines. It ran a
 search for Mersenne primes without error for nine hours on the night of
 16–17 June 1949. In October 1948 the government's chief scientist had
 already given the Manchester firm **Ferranti** a contract to build it to
-Williams's design. The first **Ferranti Mark 1** reached
+Williams's design. The first **[Ferranti Mark 1](kloom:e/ferranti-mark-1)** reached
 the university in February 1951, the first general-purpose computer sold
 as a product. Its store was eight tubes of 64 twenty-bit lines, with a
 512-page drum behind them, and Ferranti sold nine of the Mark 1 and its
-successor between 1951 and 1957. (Alan Turing had written the Baby's
+successor between 1951 and 1957. ([Alan Turing](kloom:e/alan-turing) had written the Baby's
 third program, a long division, which Tootill
-tested in July 1948.) IBM licensed the tube for its 701.
+tested in July 1948.) IBM licensed the tube for its [701](kloom:e/ibm-701).
 
 The Baby proved a memory. Less than a year later, in Cambridge, a machine
 built to serve its users rather than to test a store ran its first

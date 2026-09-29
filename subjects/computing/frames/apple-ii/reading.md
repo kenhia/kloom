@@ -1,9 +1,9 @@
-On 10 June 1977 a small company in Cupertino, California, began selling a
-computer that needed no soldering. The **Apple II** came assembled, in a
+On 10 June 1977 a small company in [Cupertino](kloom:e/cupertino-california), California, began selling a
+computer that needed no soldering. The **[Apple II](kloom:e/apple-ii)** came assembled, in a
 moulded plastic case like a kitchen appliance, with a keyboard, a
 programming language in its memory chips and a video output that a monitor,
-or a television through a small modulator, could show. It drew in colour. Its designer, **Steve Wozniak**, opened his
-description of it in _Byte_ that May with his creed: a personal computer
+or a television through a small modulator, could show. It drew in colour. Its designer, **[Steve Wozniak](kloom:e/steve-wozniak)**, opened his
+description of it in [_Byte_](kloom:e/byte-magazine) that May with his creed: a personal computer
 should be small, reliable, convenient to use and inexpensive. The Apple II
 kept that promise for sixteen years.
 
@@ -11,7 +11,7 @@ kept that promise for sixteen years.
 
 Wozniak's design is a study in doing several jobs with one part. A single
 crystal oscillator at 14.318 MHz set every rhythm in the machine. Divided by
-fourteen, it clocked the 6502 microprocessor at 1.023 MHz. Divided by four,
+fourteen, it clocked the [6502](kloom:e/mos-technology-6502) microprocessor at 1.023 MHz. Divided by four,
 it gave 3.58 MHz, the frequency at which an American colour television
 expects its colour signal. The plate draws two processor cycles of that
 timing.
@@ -32,7 +32,7 @@ dots in even columns showed violet, dots in odd columns green, and two side
 by side white. There was no colour circuitry to speak of; the colour was in
 the arithmetic of the clock. A coarser mode gave a grid of 40 by 48 blocks
 in fifteen colours. Wozniak had designed the arcade game _Breakout_ in
-hardware for Atari, and said later that he put paddles, sound and colour
+hardware for [Atari](kloom:e/atari-inc), and said later that he put paddles, sound and colour
 into the Apple II so that it could be written in BASIC instead.
 
 ## Slots and a disk
@@ -41,7 +41,7 @@ The motherboard had eight expansion slots, each decoded for its own card, so
 that other companies could build printers, modems, memory and even other
 processors onto the machine. The _Red Book_, the reference manual of
 January 1978, printed the full schematic and the listing of the machine's
-built-in monitor program. In June 1978 came the **Disk II**, a five-and-a-
+built-in monitor program. In June 1978 came the **[Disk II](kloom:e/disk-ii)**, a five-and-a-
 quarter-inch floppy drive whose controller Wozniak designed over the
 Christmas holidays with about a tenth of the chips other controllers used,
 and which, by a denser way of coding the bits, fitted thirteen sectors on
@@ -50,8 +50,8 @@ system was bought in: Shepardson Microsystems wrote Apple DOS for $13,000.
 
 ## A company and a price
 
-**Steve Jobs**, Wozniak's partner, persuaded **Jerry Manock** to design the
-case. The money and the business sense came from **Mike Markkula**, a
+**[Steve Jobs](kloom:e/steve-jobs)**, Wozniak's partner, persuaded **Jerry Manock** to design the
+case. The money and the business sense came from **[Mike Markkula](kloom:e/mike-markkula)**, a
 marketing manager who had retired rich from Fairchild and Intel at 33, and with him Apple was incorporated on
 3 January 1977. How much he put in is told two ways: $250,000, in one
 account; in another, $80,000 to $92,000 of his own money and a Bank of

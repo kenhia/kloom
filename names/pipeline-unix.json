@@ -1,0 +1,9 @@
+{
+	"id": "pipeline-unix",
+	"wikidata": "Q1196672",
+	"name": "Pipeline (Unix)",
+	"aliases": ["pipes"],
+	"kind": "idea",
+	"description": "Joining programs so the output of one becomes the input of the next, added to Unix in 1973.",
+	"home": "computing/pipes"
+}

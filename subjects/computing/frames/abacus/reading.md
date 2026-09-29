@@ -6,9 +6,9 @@ computing, and it outlived almost every machine in this story.
 
 ## Pebbles on a board
 
-The oldest counting board known is the **Salamis tablet**, a slab of white
+The oldest counting board known is the **[Salamis tablet](kloom:e/salamis-tablet)**, a slab of white
 marble about 150 by 75 centimetres, dated to around 300 BC and now in the
-Epigraphical Museum in Athens. It carries two sets of ruled lines, one of
+Epigraphical Museum in [Athens](kloom:e/athens). It carries two sets of ruled lines, one of
 five lines and one of eleven, with a crack between them, and rows of Greek
 numeral signs along its edges. Nobody wrote down how it was used; the usual
 reading is that counters on a line counted units of a power of ten and
@@ -22,7 +22,7 @@ from, and calls it more likely a gaming board.
 The Romans reckoned the same way, and called their counters _calculi_,
 "little stones". To reckon was _calculos ponere_, "to place pebbles", and
 _calculate_ comes from it. They also
-made a pocket version. The **Roman hand abacus** was a metal plate with
+made a pocket version. The **[Roman hand abacus](kloom:e/roman-abacus)** was a metal plate with
 beads held in slots: for each of seven decimal columns, four beads in a
 long slot counted ones, and one in a short slot above counted five. It is a
 _bi-quinary_ code, five and one, and the pattern comes back below.
@@ -30,8 +30,8 @@ _bi-quinary_ code, five and one, and the pattern comes back below.
 ## The Exchequer's cloth
 
 Counting boards ran governments. England's treasury took its name from one.
-The _Dialogue Concerning the Exchequer_, written around 1180 by the
-treasurer **Richard FitzNeal**, describes a table ten feet by five, with a
+The [_Dialogue Concerning the Exchequer_](kloom:e/dialogus-de-scaccario), written around 1180 by the
+treasurer **[Richard FitzNeal](kloom:e/richard-fitzneal)**, describes a table ten feet by five, with a
 rim four fingers high so that nothing rolled off, covered with a black
 cloth striped a hand's breadth apart. Twice a year each sheriff sat across
 it from the treasurer to account for the king's revenue, and a
@@ -43,14 +43,14 @@ so the table, and then the whole court, was called the _exchequer_.
 
 ## Beads on rods
 
-The bead frame spread widest in East Asia. A bead abacus is plain on an
+The bead frame spread widest in East Asia. A bead [abacus](kloom:e/abacus) is plain on an
 apothecary's counter in Zhang Zeduan's twelfth-century scroll _Along the
-River During the Qingming Festival_. The Chinese **suanpan** settled, in
+River During the Qingming Festival_. The Chinese **[suanpan](kloom:e/suanpan)** settled, in
 the late Ming dynasty, into two beads above the beam and five below, which
 lets one rod hold up to fifteen, enough for the old Chinese weights,
 which were counted in sixteens.
 Japan took the abacus from China in the fourteenth century as the
-**soroban**, and in the 1940s trimmed it to one bead above and four below,
+**[soroban](kloom:e/soroban)**, and in the 1940s trimmed it to one bead above and four below,
 the Roman proportion again.
 
 ![A Chinese suanpan in a black wooden frame: thirteen rods of reddish wooden beads, two above the crossbar and five below on each rod](suanpan.jpg)

@@ -1,6 +1,6 @@
 On 12 August 1981, at the Waldorf Hotel in New York, the company that sold
-the world its mainframes announced a personal computer. The **IBM Personal
-Computer**, model 5150, started at $1,565. An analyst had said that IBM
+the world its mainframes announced a personal computer. The **[IBM Personal
+Computer](kloom:e/ibm-personal-computer)**, model 5150, started at $1,565. An analyst had said that [IBM](kloom:e/ibm)
 making a personal computer would be like teaching an elephant to tap dance.
 It did, in a year, by breaking almost every rule it had.
 
@@ -14,7 +14,7 @@ IBM's laboratory at Boca Raton, Florida, proposed the machine to the top of
 the company. IBM's own history says that the chief executive, **Frank
 Cary**, gave him a month for a prototype and a year for a product; another
 account has the president, John Opel, setting up the unit. The project,
-code-named _Chess_, passed to **Don Estridge**, who was allowed to run it
+code-named _Chess_, passed to **[Don Estridge](kloom:e/philip-don-estridge)**, who was allowed to run it
 outside IBM's normal procedures, with up to 150 people.
 
 A new IBM product usually took four or five years. The team designed the
@@ -38,10 +38,10 @@ Nearly everything else was bought:
 
 The team weighed Motorola's 68000, the best chip but not yet in production,
 and a Texas Instruments part that could address only 64 KB. It chose
-Intel's **8088**, which computes internally in 16 bits but talks to memory
+[Intel](kloom:e/intel)'s **[8088](kloom:e/intel-8088)**, which computes internally in 16 bits but talks to memory
 over 8 bits, because Intel offered it more cheaply and in quantity, and the
 narrower bus made the rest of the machine cheaper. Its 4.77 MHz is a
-14.318 MHz crystal, the Apple II's frequency, divided by three.
+14.318 MHz crystal, the [Apple II](kloom:e/apple-ii)'s frequency, divided by three.
 
 The 8088 had 20 address lines, enough for a megabyte, but registers of 16
 bits. It makes an address, as the plate draws, by taking a _segment_
@@ -55,17 +55,17 @@ software lived with for years.
 
 ## The operating system
 
-IBM went first to Digital Research, whose CP/M ran most business
+IBM went first to Digital Research, whose [CP/M](kloom:e/cp-m) ran most business
 microcomputers. What happened there has been retold and argued over ever
 since; in the usual account the talks stalled, first over IBM's
 non-disclosure agreement and then over IBM's offer of $250,000 outright
 where Digital Research wanted royalties.
-Microsoft, already supplying BASIC, knew of **86-DOS**, a CP/M-like system
+[Microsoft](kloom:e/microsoft), already supplying BASIC, knew of **86-DOS**, a CP/M-like system
 that **Tim Paterson** had written at Seattle Computer Products, known
 inside as QDOS. Microsoft licensed it in December 1980 for $25,000, hired
 Paterson to adapt it to the PC, and bought it outright in July 1981 for
 $50,000. It shipped as PC DOS 1.0, and Microsoft kept the right to sell it
-to other makers. When Gary Kildall found that it copied CP/M's programming
+to other makers. When [Gary Kildall](kloom:e/gary-kildall) found that it copied CP/M's programming
 interface, he persuaded IBM to offer CP/M-86 for the PC as well.
 
 ## The clones
@@ -73,7 +73,7 @@ interface, he persuaded IBM to offer CP/M-86 for the PC as well.
 IBM published a technical reference with the circuit diagrams and the BIOS
 listing, so that others could build cards and software. The BIOS was the
 one part it owned. **Columbia Data Products** sold the first compatible
-machine in June 1982. **Compaq**, founded that February by three managers
+machine in June 1982. **[Compaq](kloom:e/compaq)**, founded that February by three managers
 from Texas Instruments, announced a portable in November 1982 and shipped it
 in March 1983, at $2,995. Its engineers had rebuilt the BIOS by _clean-room_
 design, one team describing what IBM's code did and another, which had

@@ -1,11 +1,11 @@
-In 1834, cut off from his drawings by the quarrel with Clement, Babbage
-went back to the fragment of the Difference Engine and asked what else it
+In 1834, cut off from his drawings by the quarrel with [Clement](kloom:e/joseph-clement), [Babbage](kloom:e/charles-babbage)
+went back to the fragment of the [Difference Engine](kloom:e/difference-engine) and asked what else it
 could do. Arranging its columns round a ring of large central wheels, so
 that results could be fed back in, he saw "the whole of arithmetic" come
 within reach of mechanism. By 1836 he had a workable design for a machine
 that did not tabulate one kind of function but carried out any sequence of
-operations it was given: the **Analytical Engine**. It was never built.
-This is the machine itself; Ada Lovelace's notes of 1843 on it are
+operations it was given: the **[Analytical Engine](kloom:e/analytical-engine)**. It was never built.
+This is the machine itself; [Ada Lovelace](kloom:e/ada-lovelace)'s notes of 1843 on it are
 another story.
 
 ## Store and mill
@@ -13,7 +13,7 @@ another story.
 Babbage took his names from the textile trade. The _store_ held numbers,
 each on a column of figure wheels, one wheel to a digit. The _mill_ did
 the arithmetic, and every quantity to be worked on was brought to it and
-the result sent back. Allan Bromley, who decoded the drawings from 1979, found that the carry
+the result sent back. [Allan Bromley](kloom:e/allan-g-bromley), who decoded the drawings from 1979, found that the carry
 mechanism, the most complex in the machine, was what first led Babbage to
 separate memory from processor and keep the arithmetic in one place.
 
@@ -46,7 +46,7 @@ wires only when the wheel stands at nine. A carry from below lifts the
 fixed wire, and through every nine above it the lift passes straight on,
 so all the carries in a column are made in one movement. Each nine completes
 the chain, Bromley notes, like a logical AND, and the closest modern kin
-are the relay contacts that carried carries in the Harvard Mark I and the
+are the relay contacts that carried carries in the [Harvard Mark I](kloom:e/harvard-mark-i) and the
 pass transistors of a VLSI adder. Babbage reckoned an addition of any
 length at nine units of time for the digits and one for all the carries.
 The plate draws it adding 5 to 4,997.
@@ -62,12 +62,12 @@ verticals. Sectors with one, two and four teeth moved it on by up to seven
 verticals, forward or back, and a carry out of the top of a column, which
 signals a change of sign, could lengthen the jump: a conditional branch
 inside the machine. Bromley describes the barrels as microprogram stores
-and a vertical as a microprogram word. Doron Swade warns that the
+and a vertical as a microprogram word. [Doron Swade](kloom:e/doron-swade) warns that the
 vocabulary is ours, not Babbage's, and fraught with the hazard of reading
 the present into the past.
 
 Above the barrels sat the user's program. Around 1836 Babbage replaced a
-top-level barrel with the punched cards of the Jacquard loom: _operation
+top-level barrel with the punched cards of the [Jacquard loom](kloom:e/jacquard-machine): _operation
 cards_ naming what the mill should do, and _variable cards_ naming which
 columns of the store to use. Every set of cards could be kept and run again, so the engine would
 have, he wrote, "a library of its own".
@@ -86,7 +86,7 @@ some cost in speed.
 
 ## Plan 28 today
 
-In 2010 John Graham-Cumming began a campaign, named after
+In 2010 [John Graham-Cumming](kloom:e/john-graham-cumming) began a campaign, named after
 that plan, to study the drawings and then build an engine, and hoped to
 finish by 2021, the 150th anniversary of Babbage's death. As of 28 September
 2026 no engine had been built. The project's latest published report,

@@ -2,13 +2,13 @@ A business plan on paper is a grid of numbers in which most of the numbers
 depend on others. Change one assumption, the price or the growth rate, and
 every figure downstream has to be worked out and written in again, by hand.
 In 1979 two programmers in Massachusetts put that grid on the screen of an
-Apple II and made it redo its own arithmetic. They called it **VisiCalc**,
+[Apple II](kloom:e/apple-ii) and made it redo its own arithmetic. They called it [**VisiCalc**](kloom:e/visicalc),
 the visible calculator, and it was the first program people bought a
 personal computer in order to run.
 
 ## A calculator with a screen
 
-**Dan Bricklin** was studying for an MBA at Harvard Business School in the
+**[Dan Bricklin](kloom:e/dan-bricklin)** was studying for an MBA at Harvard Business School in the
 spring of 1978. The usual account has a professor building a financial model
 on a blackboard ruled like ledger paper, and erasing a column of entries each
 time a number changed. Bricklin's own telling starts with a daydream in
@@ -20,8 +20,8 @@ machine borrowed from the publisher **Dan Fylstra**, is dated 8 October 1978
 in his journal. The Apple's game paddle proved too sluggish to steer the
 cursor, so he used its two arrow keys.
 
-His friend **Bob Frankston** wrote the program itself, from November 1978,
-in 6502 assembly language, using an assembler on MIT's Multics time-sharing
+His friend **[Bob Frankston](kloom:e/bob-frankston)** wrote the program itself, from November 1978,
+in 6502 assembly language, using an assembler on MIT's [Multics](kloom:e/multics) time-sharing
 system at night, when an hour cost a dollar. The two founded **Software
 Arts** on 2 January 1979, working from the attic of Frankston's flat in
 Arlington, and Fylstra's **Personal Software** agreed to publish it for a
@@ -80,12 +80,12 @@ computer dog." It was demonstrated at the West Coast Computer Faire and
 launched at the National Computer Conference on 4 June 1979; Frankston dates
 the first production copy to 17 October. It cost under $100 and needed an
 Apple II of about $2,000, and buyers took both: more than a quarter of the
-Apple IIs sold in 1979 were reportedly bought for it, and Wozniak said small
+Apple IIs sold in 1979 were reportedly bought for it, and [Wozniak](kloom:e/steve-wozniak) said small
 businesses, not hobbyists, bought nine in ten. Nothing on the larger
 machines worked like it. More than 700,000 copies sold in six years.
 
 It could not be patented, since software then could not be, and rivals came.
-**Lotus 1-2-3**, written by **Mitch Kapor** for the IBM PC's larger memory
+[**Lotus 1-2-3**](kloom:e/lotus-1-2-3), written by **[Mitch Kapor](kloom:e/mitch-kapor)** for the [IBM PC](kloom:e/ibm-personal-computer)'s larger memory
 and eighty-column screen, took the market from 1983, and Lotus bought
 Software Arts in 1985. VisiCalc was already on the IBM PC among its
 first programs: the machine that business bought next.

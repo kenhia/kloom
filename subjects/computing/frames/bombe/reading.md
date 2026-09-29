@@ -1,4 +1,4 @@
-The German armed forces enciphered their radio traffic on the **Enigma**, a
+The German armed forces enciphered their radio traffic on the [**Enigma**](kloom:e/enigma-machine), a
 rotor machine with a keyboard and a board of lamps. Reading it meant finding,
 every day and for every network, how the machine had been set up. By 1940
 that search was being done by a machine: a wall of spinning drums that tried
@@ -16,8 +16,8 @@ the rotors, which made the cipher its own inverse and meant that no letter
 could ever be enciphered as itself. That one flaw is the thread the whole
 attack pulled on.
 
-The first machine to search the settings was Polish. **Marian Rejewski** of
-the Polish Cipher Bureau had worked out the wiring of the military rotors
+The first machine to search the settings was Polish. **[Marian Rejewski](kloom:e/marian-rejewski)** of
+the [Polish Cipher Bureau](kloom:e/cipher-bureau-poland) had worked out the wiring of the military rotors
 from mathematics and the Germans' habit of sending each message key twice.
 Around October 1938 he designed the _bomba_: six were built in Warsaw, each in
 effect six Enigmas driven by an electric motor, and by mid-November they found
@@ -40,17 +40,17 @@ _menu_. The plate draws the example Wikipedia gives: ATTACKATDAWN set against
 WSNPNLKLSTCS, twelve pairings among ten letters, closing three loops.
 
 Each pairing became an Enigma equivalent, a triplet of drums wired like the
-rotors and turned on by as many steps as its place in the crib. The bombe's
+rotors and turned on by as many steps as its place in the crib. The [bombe](kloom:e/bombe)'s
 logic was reasoning by contradiction. Suppose A is plugged to Y. At crib
 position 10 the drums say what T must then be plugged to; position 8 carries
 that on to L, position 6 to K, and position 7 back to A. If A comes back as
 anything but Y, the guess was wrong at that rotor position. The machine made
 every such deduction at once, as current flowing round cables wired to the
-menu, and stopped only at positions where some guess survived. **Gordon
-Welchman** added the _diagonal board_, which used the fact that a plug lead
+menu, and stopped only at positions where some guess survived. **[Gordon
+Welchman](kloom:e/gordon-welchman)** added the _diagonal board_, which used the fact that a plug lead
 is two-way: if A goes to Y, Y goes to A. It let each deduction feed others and
-cut the false stops sharply. Loops mattered as much as length, as Alan
-Turing's own estimates of stops per wheel order showed:
+cut the false stops sharply. Loops mattered as much as length, as [Alan
+Turing](kloom:e/alan-turing)'s own estimates of stops per wheel order showed:
 
 | Loops in the menu | 8 letters | 10 letters | 12 letters | 14 letters |
 | ----------------: | --------: | ---------: | ---------: | ---------: |
@@ -61,7 +61,7 @@ Turing's own estimates of stops per wheel order showed:
 
 ## Built by the ton, run by the Wrens
 
-**Harold "Doc" Keen** of the British Tabulating Machine Company at Letchworth
+**Harold "Doc" Keen** of the [British Tabulating Machine Company](kloom:e/british-tabulating-machine-company) at Letchworth
 engineered it. Each bombe stood about 6½ feet high and 7 feet wide, weighed
 about a ton, and carried 36 Enigma equivalents, 108 drums. The sources
 disagree on when the first ran. Wikipedia has _Victory_, without a diagonal
@@ -72,7 +72,7 @@ in the NSA's history, which says it really turned at about 100, and 120 rpm
 in later models on Wikipedia's account, when a run through 17,576 positions
 took about twenty minutes.
 
-Members of the Women's Royal Naval Service, the **Wrens**, ran them. When a
+Members of the Women's Royal Naval Service, the **[Wrens](kloom:e/womens-royal-naval-service)**, ran them. When a
 bombe stopped, the operator noted the drum positions and restarted it;
 another Wren tested the stop on a checking machine and passed it to the
 cryptanalysts. Changing the wheel order took about ten minutes and setting up

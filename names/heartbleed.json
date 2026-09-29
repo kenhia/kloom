@@ -1,0 +1,7 @@
+{
+	"id": "heartbleed",
+	"wikidata": "Q16244272",
+	"name": "Heartbleed",
+	"kind": "event",
+	"description": "A flaw in the OpenSSL encryption library, disclosed in 2014, that let attackers read servers' memory."
+}

@@ -1,19 +1,19 @@
 In the autumn of 1965, at the Fall Joint Computer Conference, six papers
-described an operating system that did not yet exist. MIT's Compatible
-Time-Sharing System had already shown that many people could share one
-machine from their own terminals. **Multics**, the Multiplexed Information
+described an operating system that did not yet exist. [MIT](kloom:e/massachusetts-institute-of-technology)'s [Compatible
+Time-Sharing System](kloom:e/compatible-time-sharing-system) had already shown that many people could share one
+machine from their own terminals. **[Multics](kloom:e/multics)**, the Multiplexed Information
 and Computing Service, was to go much further: a _computer utility_, in the
-words of **Fernando Corbató** and **Victor Vyssotsky**'s overview, run
+words of **[Fernando Corbató](kloom:e/fernando-j-corbato)** and **Victor Vyssotsky**'s overview, run
 "continuously and reliably 7 days a week, 24 hours a day in a way similar
 to telephone or power systems".
 
 ## Three partners
 
 The project was MIT's **[Project MAC](kloom:e/project-mac)**, founded in July 1963 with a
-$2 million grant from ARPA. MAC chose General Electric's proposal for the
+$2 million grant from ARPA. MAC chose [General Electric](kloom:e/general-electric)'s proposal for the
 machine in May 1964, over IBM's; GE would build the **GE-645**, its 635
 with paging, segmentation and an associative memory added for the purpose.
-**Bell Telephone Laboratories** came in as the third partner. The
+**[Bell Telephone Laboratories](kloom:e/bell-labs)** came in as the third partner. The
 Multicians' own history puts that in November 1964, while their page of
 myths says 1965, quoting Vyssotsky on a "murky process". Each partner sent
 one member to the committee that ran the work: Corbató for MIT, Ed Vance for
@@ -44,7 +44,7 @@ part-time.
   access-control list on every entry. **Jerome Saltzer** thinks it was the
   first hierarchical file system anywhere. Its paths ran from `>`, the root, as in
   `>user_dir_dir>SysEng`.
-- **Rings of protection.** The plate draws them. A process ran in one of
+- **[Rings of protection](kloom:e/protection-ring).** The plate draws them. A process ran in one of
   eight nested rings, the supervisor in ring 0; each segment carried
   _brackets_ saying which rings could read, write or execute it, and a
   call inward was allowed only through a segment's _gates_. The GE-645 had
@@ -52,7 +52,7 @@ part-time.
   software trapping on every inward call; the Honeywell 6180 of 1973 did
   it in hardware, as **Michael Schroeder** and Saltzer described in 1972.
 - **A high-level language.** Nearly all of Multics was to be written in
-  **PL/I**, then a new proposal from IBM, so that it could outlive its
+  **[PL/I](kloom:e/pl-i)**, then a new proposal from IBM, so that it could outlive its
   hardware. No PL/I compiler was ready, and Bell Labs' **Doug McIlroy** and
   **Bob Morris** wrote a quick one for a subset, EPL, using a
   compiler-writing language called TMG. Multics was not the first system
@@ -65,7 +65,7 @@ part-time.
 The GE-645 was late. GE had planned it for 1965 and announced and then
 withdrew it; the first reached MIT in January 1967. Bell Labs was paying
 rent on its own 645 and lending some of its best people with no end in
-sight, and in April 1969 it withdrew. **Dennis Ritchie**, one of the last
+sight, and in April 1969 it withdrew. **[Dennis Ritchie](kloom:e/dennis-ritchie)**, one of the last
 Bell Labs people still working on it, later wrote of "the increasing
 obviousness of the failure of Multics to deliver promptly any sort of
 usable system". The Multicians answer that the project did not fail in
@@ -83,7 +83,7 @@ Canadian Department of National Defence in Halifax, Nova Scotia, went dark
 at the end of October 2000. Its source was freed in 2006 and 2007, and an
 emulator has run it since 2014, with a new release as late as August 2023.
 
-The people who left in 1969 took some of it with them. Ken Thompson later
+The people who left in 1969 took some of it with them. [Ken Thompson](kloom:e/ken-thompson) later
 said the parts he liked enough to take were the tree of files and a shell
 that was just another process; Ritchie counted the process, the file tree,
 the command interpreter as a user program and device access among them. And

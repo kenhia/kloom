@@ -1,21 +1,21 @@
-Manchester built a computer to prove a memory. Cambridge built one to be
-used. On 6 May 1949 the University Mathematical Laboratory's **EDSAC**, the
+Manchester built a computer to prove a memory. [Cambridge](kloom:e/university-of-cambridge) built one to be
+used. On 6 May 1949 the University Mathematical Laboratory's **[EDSAC](kloom:e/edsac)**, the
 _Electronic Delay Storage Automatic Calculator_, printed a table of the
 squares of 0 to 99 in 2 minutes 35 seconds, and soon research students
 from across the university were running their own problems on it. The
 laboratory's history calls it the first fully operational stored-program
 computer in regular service; Wikipedia's article puts it second, after the
-Manchester Mark 1, open to other departments from April 1949.
+[Manchester Mark 1](kloom:e/manchester-mark-1), open to other departments from April 1949.
 
 ## Sound in mercury
 
-**Maurice Wilkes**, the laboratory's director, attended the last weeks of
+**[Maurice Wilkes](kloom:e/maurice-wilkes)**, the laboratory's director, attended the last weeks of
 the Moore School lectures in Philadelphia in August 1946 and, in his
 telling, began sketching EDSAC on the _Queen Mary_ on the way home. His
-rules were modest: simple, serial, modelled on the EDVAC design, and built
+rules were modest: simple, serial, modelled on the [EDVAC](kloom:e/edvac) design, and built
 from tried parts, so that programming could start early. He ran it at
 500 kHz where others aimed at a megahertz. For the store he took the
-_mercury delay line_, which he later said was Eckert's suggestion and "the
+[_mercury delay line_](kloom:e/delay-line-memory), which he later said was Eckert's suggestion and "the
 only sort of memory that offered itself".
 
 ![Maurice Wilkes crouching beside a battery of EDSAC's mercury delay lines: a long trough holding two rows of steel tubes, capped at each end by a box of terminals](edsac.jpg)
@@ -57,7 +57,7 @@ letters and decimal numbers from paper tape and assembled it into binary.
 A second version of August 1949 filled 41 words and could place a piece of
 code wherever it landed in the store.
 
-That made a **library** possible. **David Wheeler**, a research student,
+That made a **library** possible. **[David Wheeler](kloom:e/david-wheeler-computer-scientist)**, a research student,
 devised the _closed subroutine_: the calling program put its own address
 in the accumulator and jumped to the routine, whose first orders used that
 address to plant a return jump at its own end. The trick is still called
@@ -82,13 +82,13 @@ course in computing, a one-year diploma. The machine was switched off on
 
 ## LEO
 
-In 1947 the catering and food firm **J. Lyons and Co.** gave the laboratory a grant with no conditions attached: £3,000
+In 1947 the catering and food firm **[J. Lyons and Co.](kloom:e/j-lyons-and-co)** gave the laboratory a grant with no conditions attached: £3,000
 in the laboratory's own history, £2,500 in the Wikipedia article on LEO.
 Once EDSAC worked, Lyons built its own machine on the design, led by John
 Pinkerton, with four times the store and buffered input and output for
-clerical work. **LEO I**, the _Lyons Electronic Office_, ran the first
+clerical work. **[LEO I](kloom:e/leo-computer)**, the _Lyons Electronic Office_, ran the first
 routine business job on any computer, _Bakery Valuations_, costing the
 ingredients of its bread and cakes, first on 5 September 1951.
 
 Business computing on the other side of the Atlantic began with a machine
-built for a census: UNIVAC.
+built for a census: [UNIVAC](kloom:e/univac-i).

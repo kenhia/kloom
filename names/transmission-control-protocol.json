@@ -1,0 +1,9 @@
+{
+	"id": "transmission-control-protocol",
+	"wikidata": "Q8803",
+	"name": "Transmission Control Protocol",
+	"aliases": ["TCP", "Transmission Control Program"],
+	"kind": "artifact",
+	"description": "The protocol that turns IP's packets into a reliable stream between two computers, designed by Cerf and Kahn in 1974.",
+	"home": "computing/tcp"
+}

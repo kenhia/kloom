@@ -1,18 +1,18 @@
-ENIAC was not finished before the people building it knew how the next
+[ENIAC](kloom:e/eniac) was not finished before the people building it knew how the next
 machine should work. Its program lived in cables and switches, and it had
 room for only twenty numbers. The answer they arrived at was to keep the
 program in the machine's memory, beside the numbers it worked on. It was
 written down for the first time in a typescript of 101 pages dated 30 June
-1945, the _First Draft of a Report on the EDVAC_, and it carried one name:
-**John von Neumann**'s.
+1945, the [_First Draft of a Report on the EDVAC_](kloom:e/first-draft-of-a-report-on-the-edvac), and it carried one name:
+**[John von Neumann](kloom:e/john-von-neumann)**'s.
 
 ## The organs of a computer
 
-Von Neumann, a mathematician at the Institute for Advanced Study in
-Princeton and a consultant to Los Alamos, met Herman Goldstine on the
+Von Neumann, a mathematician at the [Institute for Advanced Study](kloom:e/institute-for-advanced-study) in
+Princeton and a consultant to [Los Alamos](kloom:e/los-alamos-national-laboratory), met Herman Goldstine on the
 platform at Aberdeen station in August 1944 and was soon a regular visitor
 at the Moore School, where the ENIAC team was already planning a successor.
-The Army funded it in October 1944 as the EDVAC. Von Neumann wrote the
+The Army funded it in October 1944 as the [EDVAC](kloom:e/edvac). Von Neumann wrote the
 report by hand, reportedly on trains to Los Alamos, and mailed it to
 Philadelphia to be typed.
 
@@ -20,7 +20,7 @@ He divided a "very high speed automatic digital computing system" into
 parts he called _organs_: a central arithmetic part, **CA**; a central
 control, **CC**; a memory, **M**; input, **I**, and output, **O**; and the
 outside recording medium, **R**, such as punched cards or tape. He
-described them in the language of neurons, citing McCulloch and Pitts, and
+described them in the language of neurons, citing [McCulloch](kloom:e/warren-sturgis-mcculloch) and [Pitts](kloom:e/walter-pitts), and
 built his circuits from idealised _E-elements_ that fire or do not. The
 decisive sentence is in section 2.5: it is "tempting to treat the entire
 memory as one organ". Numbers and orders would share it, and the control
@@ -74,7 +74,7 @@ January 1944.
 ## Whose idea
 
 The typescript went to 24 people on 25 June, and Goldstine sent copies far
-beyond them. **J. Presper Eckert** and **John Mauchly** were angry to find
+beyond them. **[J. Presper Eckert](kloom:e/j-presper-eckert)** and **[John Mauchly](kloom:e/john-mauchly)** were angry to find
 their names nowhere in it: they had been designing a stored-program machine
 before von Neumann arrived, and saw the report as their work put into his
 logical language. Historians still argue over the shares. What is not in
@@ -83,11 +83,11 @@ build from it, and in 1973 a federal court held that it had counted as
 publication, one of its reasons for voiding the ENIAC patent. Eckert and Mauchly left the Moore School in
 March 1946, and the EDVAC reached the Army's laboratory only in 1949.
 
-In London the same idea was being drawn up at the National Physical
-Laboratory by **Alan Turing**, whose 1936 paper had already imagined one
+In London the same idea was being drawn up at the [National Physical
+Laboratory](kloom:e/national-physical-laboratory-united-kingdom) by **[Alan Turing](kloom:e/alan-turing)**, whose 1936 paper had already imagined one
 machine reading another's table from its tape. He began work there on 1
-October 1945, and his _Proposed Electronic Calculator_, for an _Automatic
-Computing Engine_, went to the laboratory's executive committee on 19
+October 1945, and his _Proposed Electronic Calculator_, for an [_Automatic
+Computing Engine_](kloom:e/automatic-computing-engine), went to the laboratory's executive committee on 19
 February 1946: a more complete design, with detailed circuit diagrams, a
 cost of £11,200 and subroutines. The smaller Pilot ACE built from it in 1950
 kept its words in mercury delay lines. He could

@@ -10,7 +10,7 @@ a mesh of switches that store each one and pass it on.
 
 ## A network that survives damage
 
-**Paul Baran** joined the RAND Corporation in 1959 and took on a Cold War
+**[Paul Baran](kloom:e/paul-baran)** joined the [RAND Corporation](kloom:e/rand-corporation) in 1959 and took on a [Cold War](kloom:e/cold-war)
 problem for the US Air Force: a communications network that could still
 work after a nuclear attack. He briefed the Air Force in the summer of 1961
 (briefing B-265), wrote it up as RAND paper P-2626, and in August 1964
@@ -33,7 +33,7 @@ had lately seen arriving from each station on each of its links, and sent
 traffic back towards that station on the best one. He called it
 _hot-potato_ routing, and likened it to a postman who learns the quickest
 road to San Francisco from the postmarks on letters coming from there. No
-central controller was left for an attack to destroy. AT&T's engineers
+central controller was left for an attack to destroy. [AT&T](kloom:e/at-and-t)'s engineers
 scoffed at voice without dedicated circuits, and the military never built
 it.
 
@@ -41,7 +41,7 @@ it.
 
 ## A packet, and a name
 
-**Donald Davies**, at the National Physical Laboratory (NPL) in Teddington,
+**[Donald Davies](kloom:e/donald-davies)**, at the [National Physical Laboratory](kloom:e/national-physical-laboratory-united-kingdom) (NPL) in Teddington,
 came to the same idea in 1965 from the other side. After visiting MIT's
 time-sharing projects he saw that computer traffic is _bursty_, and that
 keeping a telephone line open for each user was the waste. He lectured on
@@ -53,15 +53,15 @@ packet was to hold at most 128 characters, about 16 of them "red tape"
 second. Only later in 1966 did someone from the Ministry of Defence tell
 him of Baran. The NPL built a network of its own, partly live in early 1969
 and fully working in January 1970, and ran it until 1986. At a symposium in
-Gatlinburg, Tennessee, in October 1967, Davies's colleague **Roger
-Scantlebury** presented the design to the people planning the ARPANET, and
+Gatlinburg, Tennessee, in October 1967, Davies's colleague **[Roger
+Scantlebury](kloom:e/roger-scantlebury)** presented the design to the people planning the [ARPANET](kloom:e/arpanet), and
 they adopted packets.
 
 ## Queues
 
 Davies had to show that a packet would not wait too long in the queues at
 each switch. For that he borrowed an approximation from _Communication
-Nets_ (1964), the book of **Leonard Kleinrock**'s MIT thesis on _message
+Nets_ (1964), the book of **[Leonard Kleinrock](kloom:e/leonard-kleinrock)**'s MIT thesis on _message
 switching_, which treats each queue as independent. A packet takes a time
 _t_ to send down one link (680 microseconds, for his packet and line), and
 if a switch is busy a fraction ρ of the time, the mean wait is
@@ -85,9 +85,9 @@ entering a link as the one before leaves it.
 
 ## Who invented it
 
-Credit is argued. From the late 1990s Kleinrock and Larry Roberts, who ran
+Credit is argued. From the late 1990s Kleinrock and [Larry Roberts](kloom:e/larry-roberts-computer-scientist), who ran
 the ARPANET project, said that his early-1960s queueing work had held the
-idea of packet switching. Davies, in a paper published in 2001, the year
+idea of [packet switching](kloom:e/packet-switching). Davies, in a paper published in 2001, the year
 after his death, found "no evidence" that Kleinrock had understood its principles,
 and other pioneers, Baran among them, sided with him. In 2023 Kleinrock
 acknowledged that his early work was about message switching. Historians

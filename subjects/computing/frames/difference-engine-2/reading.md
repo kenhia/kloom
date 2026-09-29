@@ -1,13 +1,13 @@
-For a century and a half the standard verdict on Babbage was that he had
+For a century and a half the standard verdict on [Babbage](kloom:e/charles-babbage) was that he had
 asked too much of Victorian engineering: his engines failed because they
-could not have been made. In 1985 the Science Museum in London set out to
+could not have been made. In 1985 the [Science Museum](kloom:e/science-museum-london) in [London](kloom:e/london) set out to
 test that by building one, from his own drawings, to the precision his
 own workshop could reach.
 
 ## A better engine on paper
 
 Between 1846 and 1849 (Swade's article says 1848), with the main work on
-the Analytical Engine done, Babbage designed **Difference Engine No. 2**. It used what the larger
+the [Analytical Engine](kloom:e/analytical-engine) done, Babbage designed **[Difference Engine No. 2](kloom:e/difference-engine)**. It used what the larger
 machine had taught him, and needed about 8,000 parts where the first
 engine's design had needed 25,000 for similar work. Eight columns of 31
 figure wheels hold a table value and seven orders of differences, so it
@@ -23,9 +23,9 @@ declined, and the 20 main drawings stayed on paper.
 
 ## Reading the drawings
 
-The proposal came in May 1985 from **Allan Bromley**, the Australian
+The proposal came in May 1985 from **[Allan Bromley](kloom:e/allan-g-bromley)**, the Australian
 computer scientist who had spent years decoding Babbage's papers, to
-**Doron Swade**, the museum's new curator of computing. The drawings show
+**[Doron Swade](kloom:e/doron-swade)**, the museum's new curator of computing. The drawings show
 every part's shape and nominal size, but nothing of materials, finish,
 precision or the order of assembly, and they are not free of error:
 
@@ -47,7 +47,7 @@ closed had he built it.
 
 The rule was to be able to answer the charge, as Swade put it, "Yes, you
 built the engine, but Babbage could not have." Bromley and Michael Wright had measured parts of the first engine
-and found Clement's repeated parts made to within two-thousandths of an
+and found [Clement](kloom:e/joseph-clement)'s repeated parts made to within two-thousandths of an
 inch, so no repeated part was made more precisely than that. Imperial
 College analysed the gunmetal of Babbage's surviving loose parts, and a
 close modern bronze was found. The engineer **Reg Crick** turned the 20
@@ -69,9 +69,9 @@ seconds.
 
 ## The printer, and a second engine
 
-There had been no money for the output apparatus. In 1995 Bill Gates
+There had been no money for the output apparatus. In 1995 [Bill Gates](kloom:e/bill-gates)
 turned the engine's handle at a press launch, and through his staff Swade
-reached **Nathan Myhrvold**, then at Microsoft, who in 1997 offered to pay
+reached **[Nathan Myhrvold](kloom:e/nathan-myhrvold)**, then at Microsoft, who in 1997 offered to pay
 for the printer and for a complete second engine for himself. The printing
 and stereotyping apparatus, another 4,000 parts and about two and a half
 tonnes, took more than twice the year allowed. It needed a clutch so that
@@ -79,7 +79,7 @@ it could be run apart from the calculating section, and a stronger lock
 to line up the punches. All its functions worked for the first time in
 March 2002, just under seventeen years after Bromley's proposal. The
 finished machine is eleven feet long, seven feet high and weighs five
-tonnes. Myhrvold's copy was shown at the Computer History Museum in
+tonnes. Myhrvold's copy was shown at the [Computer History Museum](kloom:e/computer-history-museum) in
 Mountain View from 2008 to 2016, and then went to Seattle.
 
 Swade drew the conclusion carefully: none of the faults touched the

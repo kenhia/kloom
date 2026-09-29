@@ -1,17 +1,17 @@
-By the early 1960s IBM sold five lines of computers, each with its own
+By the early 1960s [IBM](kloom:e/ibm) sold five lines of computers, each with its own
 instructions, and none would run another's programs. A customer who
 outgrew an accounting machine such as the 1401 and wanted a scientific one
 such as the 7040 had to rewrite everything, and might as well buy from
 someone else. In 1961 a task force called SPREAD, meeting at a motel in
 Greenwich, Connecticut, proposed replacing them all with one design. IBM
-announced it on **7 April 1964** as **System/360**, named for the full
+announced it on **7 April 1964** as **[System/360](kloom:e/ibm-system-360)**, named for the full
 circle of users it meant to serve: six processor models spanning a
 fiftyfold range of performance, all able to run the same programs.
 
 ## Architecture
 
-The design's three authors were **Gene Amdahl**, its chief architect,
-**Gerrit Blaauw** and **Fred Brooks**, who managed the project. Their
+The design's three authors were **[Gene Amdahl](kloom:e/gene-amdahl)**, its chief architect,
+**[Gerrit Blaauw](kloom:e/gerrit-blaauw)** and **[Fred Brooks](kloom:e/fred-brooks)**, who managed the project. Their
 paper in the _IBM Journal_ that April used a word that stuck. They defined
 _architecture_ as "the attributes of a system as seen by the programmer,
 i.e., the conceptual structure and functional behavior, as distinct from
@@ -35,7 +35,7 @@ and 64 in the largest.
 |    62 |           256–512 K |                  64 |              64 | read-only store     |
 |    70 |           256–512 K |                  64 |              64 | conventional wiring |
 
-What made that affordable was **microcode**, Maurice Wilkes's idea of
+What made that affordable was **microcode**, [Maurice Wilkes](kloom:e/maurice-wilkes)'s idea of
 1951: each machine instruction is carried out by a little program of
 simpler steps, held in a read-only store. A Model 30 adds two 32-bit
 numbers a byte at a time over several cycles; a larger model does it at
@@ -61,8 +61,8 @@ IBM put the cost at **$5 billion** over four years and called it
 bet-the-business: the new line would replace every computer IBM made.
 Orders, in IBM's account, passed a thousand in the first month. The
 machines shipped from mid-1965. The software was later. Brooks also ran
-the operating system, **OS/360**, whose first version came out on 31 March
-1966, and he drew the lesson in _The Mythical Man-Month_ (1975): adding
+the operating system, **[OS/360](kloom:e/os-360-and-successors)**, whose first version came out on 31 March
+1966, and he drew the lesson in [_The Mythical Man-Month_](kloom:e/the-mythical-man-month) (1975): adding
 people to a late software project makes it later, because they must be
 taught and every pair must talk. Fifty programmers have 1,225 pairs.
 

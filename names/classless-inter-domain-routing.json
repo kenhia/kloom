@@ -1,0 +1,7 @@
+{
+	"id": "classless-inter-domain-routing",
+	"wikidata": "Q646589",
+	"name": "Classless Inter-Domain Routing",
+	"kind": "idea",
+	"description": "The scheme, from 1993, that lets internet address blocks be any size, written with a slash, and routed by the longest match."
+}

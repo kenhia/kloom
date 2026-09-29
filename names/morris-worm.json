@@ -1,0 +1,9 @@
+{
+	"id": "morris-worm",
+	"wikidata": "Q831351",
+	"name": "Morris worm",
+	"aliases": ["worm"],
+	"kind": "event",
+	"description": "The self-copying program Robert Tappan Morris released in November 1988, which disabled thousands of internet hosts.",
+	"home": "computing/security"
+}

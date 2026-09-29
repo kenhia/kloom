@@ -1,5 +1,5 @@
-For its first fifteen years Unix belonged to a company barred from the
-computer business. A consent decree of 1956 kept AT&T out of it. Unix was
+For its first fifteen years [Unix](kloom:e/unix) belonged to a company barred from the
+computer business. A consent decree of 1956 kept [AT&T](kloom:e/at-and-t) out of it. Unix was
 licensed to universities cheaply, source and all, and they built on it.
 That changed with the break-up of the Bell System. The settlement signed
 on 8 January 1982 freed AT&T from the old decree, and on 1 January 1984 it
@@ -9,7 +9,7 @@ its family fell out.
 
 ## A product, and a price
 
-AT&T's System III came in 1982, and **System V** in January 1983. The
+AT&T's System III came in 1982, and [**System V**](kloom:e/unix-system-v) in January 1983. The
 Research Unix of the 1970s had cost a university $150 and anyone else $20,000;
 the licence for System V, Release 2 cost a company $43,000 for its first
 processor.
@@ -23,7 +23,7 @@ processor.
 | Berkeley's Networking Release 1 or 2  | 1989, 1991 | $1,000 a tape, then free to copy  |
 | BSDI's BSD/386, source and binaries   |       1992 | $995                              |
 
-Meanwhile Berkeley's 4.2BSD had networking and System V did not. At a
+Meanwhile Berkeley's [4.2BSD](kloom:e/berkeley-software-distribution) had networking and System V did not. At a
 USENIX conference in the mid-1980s AT&T's staff wore buttons reading
 "System V: Consider it Standard", and there were posters reading
 "4.2 > V". Each vendor's Unix drifted from the next: by the late 1980s the
@@ -32,12 +32,12 @@ systems.
 
 ## Two camps
 
-In 1987 AT&T and Sun, the leading vendor of Berkeley Unix, set out to merge
+In 1987 AT&T and [Sun](kloom:e/sun-microsystems), the leading vendor of Berkeley Unix, set out to merge
 the two into one, released in 1988 as **System V Release 4**. Other
 licensees feared that Sun would own the future. In January 1988 Armando
 Stettner of DEC proposed a joint development group to the rival vendors;
 Apollo, Bull, DEC, Hewlett-Packard, IBM, Nixdorf and Siemens founded the
-**Open Software Foundation** that year. Sun's Scott McNealy said the
+[**Open Software Foundation**](kloom:e/open-software-foundation) that year. Sun's Scott McNealy said the
 letters stood for "Oppose Sun Forever". AT&T answered with **Unix
 International**. One analyst took comfort that "Two Unixes are a lot better
 than 225".
@@ -49,22 +49,22 @@ New Hampshire's motto and carrying Bell Labs' trademark notice. The drawing
 sets the family out as lanes on a time line, with the branches, the merger
 and the two years of the lawsuit.
 
-Standards offered a neutral ground. The IEEE's **POSIX** project began in
-1984, from work by the users' group /usr/group; Richard Stallman suggested
+Standards offered a neutral ground. The IEEE's [**POSIX**](kloom:e/posix) project began in
+1984, from work by the users' group /usr/group; [Richard Stallman](kloom:e/richard-stallman) suggested
 the name. Its first standard, IEEE 1003.1-1988, defined a programmer's
 interface that System V and BSD, and some systems that were not Unix at
 all, could meet with reasonable effort. The parts of the Unix C library
 that could not travel had been handed to it by the C standard's committee.
 In 1993 the camps made peace in the Common Open Software Environment:
 Wikipedia's article on the wars dates it to March, its article on Unix
-International to May. That summer AT&T sold its Unix business, Unix System
-Laboratories (USL), to Novell (in June, says one Wikipedia article; in July,
+International to May. That summer AT&T sold its Unix business, [Unix System
+Laboratories](kloom:e/unix-system-laboratories) (USL), to Novell (in June, says one Wikipedia article; in July,
 another), and Novell passed the Unix trademark to the standards group
 X/Open in October. In 1996 the OSF and X/Open merged as the Open Group.
 
 ## USL v. BSDi
 
-In January 1992 a new company, Berkeley Software Design, began selling
+In January 1992 a new company, [Berkeley Software Design](kloom:e/berkeley-software-design), began selling
 BSD/386: Berkeley's free Networking Release 2 with six missing files
 written by Bill Jolitz, for $995, with the telephone number 1-800-ITS-UNIX.
 USL sued. When the judge would hear the case only on the six files, USL
@@ -88,8 +88,8 @@ it.
 
 For nearly two years nobody could be sure the free BSDs were legal to
 ship. In those years a Finnish student's kernel, announced on 25 August
-1991 and containing no AT&T code, met the GNU project's tools. Linus
-Torvalds later said that if 386BSD, or GNU's own kernel, had been available
+1991 and containing no AT&T code, met the GNU project's tools. [Linus
+Torvalds](kloom:e/linus-torvalds) later said that if 386BSD, or GNU's own kernel, had been available
 when he started, he would probably not have written his. The free Unix that
 took the open ground was the one that owed Bell Labs nothing but its ideas.
 

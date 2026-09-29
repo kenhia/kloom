@@ -1,0 +1,9 @@
+{
+	"id": "arm-architecture-family",
+	"wikidata": "Q16980",
+	"name": "ARM architecture family",
+	"aliases": ["ARM", "ARM1"],
+	"kind": "artifact",
+	"description": "A family of simple, low-power processor designs begun at Acorn in 1983, now inside nearly every phone.",
+	"home": "computing/arm"
+}

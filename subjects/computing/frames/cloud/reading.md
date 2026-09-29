@@ -8,12 +8,12 @@ owners' own services. What follows was true as of
 
 ## One machine, many machines
 
-The idea is older than the word. The pioneers of time-sharing imagined
+The idea is older than the word. The pioneers of [time-sharing](kloom:e/time-sharing) imagined
 computing sold like electricity or the telephone, as a public utility, and
 by the early 1970s companies were selling time on shared mainframes. What
-made the modern version possible is the _virtual machine_. At IBM's
+made the modern version possible is the [_virtual machine_](kloom:e/virtual-machine). At [IBM](kloom:e/ibm)'s
 Cambridge Scientific Center, **CP-40** went into production use early in
-1967, and its successor **CP-67** ran on the System/360 Model 67, released
+1967, and its successor **CP-67** ran on the [System/360](kloom:e/ibm-system-360) Model 67, released
 to customers from 1968. Its _control program_ gave each user what looked
 like a whole System/360 of their own, on which they could run any
 operating system. The trick is the one the plate draws. The guest system
@@ -28,7 +28,7 @@ as **VM/370**, whose descendants still run on its mainframes.
 
 The personal computer's processor was harder. Seventeen of the x86's
 instructions behaved differently with and without privilege but did not
-trap, so the classic method failed. **VMware**, founded in 1998 by the Stanford professor **Mendel
+trap, so the classic method failed. **[VMware](kloom:e/vmware)**, founded in 1998 by the Stanford professor **Mendel
 Rosenblum**, **Diane Greene** and three others, ran user code directly
 and rewrote the guest's kernel code on the fly (_binary translation_). Its
 first product, VMware Workstation, shipped in May 1999. Broadcom bought
@@ -36,17 +36,17 @@ VMware for $69 billion in 2023.
 
 ## Storage and computers by the hour
 
-Amazon had built a large infrastructure for its own shop, and began to sell
-it. On **14 March 2006** it launched **S3**, a storage service reached
+[Amazon](kloom:e/amazon-company) had built a large infrastructure for its own shop, and began to sell
+it. On **14 March 2006** it launched **[S3](kloom:e/amazon-s3)**, a storage service reached
 through a simple web interface, at $0.15 per gigabyte per month and $0.20
 per gigabyte transferred. On **25 August 2006** it opened a beta of
-**EC2**. As Amazon's announcement described it, each "virtual CPU" was the
+**[EC2](kloom:e/amazon-elastic-compute-cloud)**. As Amazon's announcement described it, each "virtual CPU" was the
 equivalent of a 1.7 GHz Xeon with 1.75 GB of memory and 160 GB of disk,
 at 10 cents an hour, as many as you needed (up to 20 during the beta);
-the machines ran Linux on the open-source hypervisor Xen. Amazon's pitch
+the machines ran [Linux](kloom:e/linux) on the open-source hypervisor Xen. Amazon's pitch
 was the developer in a dorm room, who no longer had to buy servers for
 the traffic they hoped for.
-Google announced App Engine in April 2008, and Microsoft what became Azure
+[Google](kloom:e/google) announced App Engine in April 2008, and [Microsoft](kloom:e/microsoft) what became Azure
 that October. In 2011 the US National Institute of Standards and
 Technology wrote the definition still used: on-demand self-service, broad
 network access, pooled resources, rapid elasticity and measured service.

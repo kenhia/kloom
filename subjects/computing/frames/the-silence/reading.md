@@ -1,5 +1,5 @@
 When the war in Europe ended, the fastest computing machines in the world
-were ten Colossi in two blocks at [Bletchley Park](kloom:e/bletchley-park), and almost no one could be
+were ten [Colossi](kloom:e/colossus-computer) in two blocks at [Bletchley Park](kloom:e/bletchley-park), and almost no one could be
 told. For thirty years the people who had built and run them said nothing,
 and histories of the computer were written without them. The story came out
 in pieces: photographs in 1975, a technical history in 2000, and a working
@@ -8,9 +8,9 @@ photographs.
 
 ## Broken up, and two kept
 
-Eight of the ten were dismantled, GCHQ says, so that their parts could be
+Eight of the ten were dismantled, [GCHQ](kloom:e/gchq) says, so that their parts could be
 reused; some of the parts, sanitised, went to Max Newman's new computing
-laboratory at Manchester. Two Colossi and two Tunny machines went with the
+laboratory at Manchester. Two Colossi and two [Tunny](kloom:e/lorenz-cipher) machines went with the
 codebreakers to GCHQ's new headquarters at Eastcote in April 1946, and to
 Cheltenham between 1952 and 1954. There they were put to other work, among it
 counting characters on one-time pad tape to test it for randomness. The dates
@@ -21,36 +21,36 @@ dismantled in 1959 and the other in the 1960s; its Flowers article says
 decade, with a few circuit diagrams and no handbook.
 
 The paper went too, though the tellings differ here as well. In the account
-Wikipedia quotes, **Tommy Flowers** was told to destroy the records and burnt
+Wikipedia quotes, **[Tommy Flowers](kloom:e/tommy-flowers)** was told to destroy the records and burnt
 the drawings in a furnace, and called it "a terrible mistake". GCHQ says he
-was ordered to hand the documentation over to GCHQ. **Tony Sale** wrote that
+was ordered to hand the documentation over to GCHQ. **[Tony Sale](kloom:e/tony-sale)** wrote that
 the original machine drawings were burnt in 1960.
 
 ## The Official Secrets Act
 
-Everyone who had worked on Tunny had signed the Official Secrets Act, and
+Everyone who had worked on Tunny had signed the [Official Secrets Act](kloom:e/official-secrets-act), and
 kept it. Flowers went back to telephone exchanges. The government paid him
 £1,000, which did not cover what he had spent of his own money, and he shared
 much of it with his team. When he later asked the Bank of England for a loan
 to build a machine like Colossus, he was refused, because the bank did not
 believe such a machine could work, and he could not tell it that he had
-already built ten. Meanwhile the American ENIAC of 1946 was taken for the first
+already built ten. Meanwhile the American [ENIAC](kloom:e/eniac) of 1946 was taken for the first
 large electronic computer, which Sale later called a myth; in 1972 **Herman Goldstine**,
 who knew nothing of Colossus, wondered how Britain had so quickly produced so
 many good computer projects after the war.
 
-The silence broke from outside. **Brian Randell**, a computer scientist at
+The silence broke from outside. **[Brian Randell](kloom:e/brian-randell)**, a computer scientist at
 Newcastle, wrote to the Prime Minister, Edward Heath, in 1972 about the
 wartime work and got the first official admission that the organisation had
 existed. F. W. Winterbotham's _The Ultra Secret_ of 1974 told the Enigma
 story. In October 1975 the government released a set of captioned
 photographs of Colossus, and in June 1976 Randell presented a paper on it at
-a conference on the history of computing at Los Alamos, with **Allen
+a conference on the history of computing at [Los Alamos](kloom:e/los-alamos-national-laboratory), with **Allen
 Coombs** answering questions beside him. The Tunny story itself stayed
 classified. In 1995 the NSA released some 5,000 wartime documents,
 among them the American **Albert Small**'s _Special Fish Report_ of 1944,
 which described how Colossus was used; and in October 2000 GCHQ released the
-_General Report on Tunny_ to the Public Record Office. GCHQ, in 2024, dated
+[_General Report on Tunny_](kloom:e/general-report-on-tunny) to the Public Record Office. GCHQ, in 2024, dated
 the revelation of Colossus's existence to "the early 2000s"; the museum at
 Bletchley dates the first declassification to 1975.
 
@@ -91,7 +91,7 @@ software engineer, with a program of his own, found all twelve wheel settings in
 count, and less than a minute by Wikipedia's. His laptop, he said, read
 ciphertext 240 times faster than Colossus.
 
-As of September 2026 the rebuild stands in Block H at the National Museum of
-Computing, in the place Colossus 9 once occupied. How the first of the
+As of September 2026 the rebuild stands in Block H at the [National Museum of
+Computing](kloom:e/the-national-museum-of-computing), in the place Colossus 9 once occupied. How the first of the
 machines was built, its valves and its tape reader, is the story of the
 Colossus frame on the main spine.

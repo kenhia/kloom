@@ -1,0 +1,9 @@
+{
+	"id": "internet-protocol",
+	"wikidata": "Q8795",
+	"name": "Internet Protocol",
+	"aliases": ["IP"],
+	"kind": "artifact",
+	"description": "The protocol that gives every internet host an address and carries packets between networks, specified in 1981.",
+	"home": "computing/ip-routing"
+}

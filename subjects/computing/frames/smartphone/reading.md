@@ -1,14 +1,14 @@
 A telephone, a diary and a postbox had been separate things; a pocket
 computer, from the 1990s, joined them. It took fifteen years, several false
 starts and one theatrical launch, and the result was a computer that more
-people carry than any other. This frame describes the smartphone as of 28
+people carry than any other. This frame describes the [smartphone](kloom:e/smartphone) as of 28
 September 2026.
 
 ## Phones that did more
 
-The first was a brick. **IBM** showed a prototype, code-named Sweetspot, at
+The first was a brick. [**IBM**](kloom:e/ibm) showed a prototype, code-named Sweetspot, at
 the COMDEX trade show in Las Vegas in November 1992, the idea of its
-engineer **Frank Canova**. As the **Simon Personal Communicator**, made
+engineer **Frank Canova**. As the [**Simon Personal Communicator**](kloom:e/ibm-simon), made
 by Mitsubishi Electric, it went on sale through BellSouth on 16 August 1994:
 a mobile phone with a touch screen worked by a stylus, a calendar, an
 address book, fax and email, on an x86 processor, for $899 with a two-year
@@ -18,7 +18,7 @@ before it was withdrawn in February 1995.
 ![The IBM Simon in a museum case: a black handset like a brick, with a greyscale touch screen filling most of its face, beside a panel showing its screen of icons](ibm-simon.jpg)
 
 Business took up the idea from Canada. **Research In Motion** of Waterloo,
-Ontario, launched the first **BlackBerry** in 1999, a two-way pager for
+Ontario, launched the first [**BlackBerry**](kloom:e/blackberry) in 1999, a two-way pager for
 email with a keyboard, and in 2002 the 5810, which was also a phone.
 Its email arrived by itself, and it spread through offices in the United
 States and Canada. At
@@ -26,12 +26,12 @@ its peak, in September 2011, BlackBerry had 85 million subscribers.
 
 ## The iPhone, the App Store and Android
 
-On 9 January 2007 **Apple** announced the **iPhone**, as, in its words, three
+On 9 January 2007 [**Apple**](kloom:e/apple-inc) announced the [**iPhone**](kloom:e/iphone), as, in its words, three
 products in one: a mobile phone, a widescreen iPod and an internet device
 with desktop-class email and web browsing. It had no keyboard. It was
 worked with the fingers, on a 3.5-inch _multi-touch_ screen. It went on
 sale in the United States on 29 June 2007, at $499 for 4 GB and $599 for 8
-GB with a two-year contract, and ran on a Samsung-made ARM processor
+GB with a two-year contract, and ran on a Samsung-made [ARM](kloom:e/arm-architecture-family) processor
 slowed to 412 MHz to save the battery. The original model sold about 6.1
 million before it was replaced a year later.
 
@@ -42,14 +42,14 @@ two sets of transparent electrodes, rows and columns, crossing without
 touching; each crossing is a small capacitor. The controller drives the
 rows in turn and measures the columns, and a finger near a crossing draws
 off some of the field and lowers the capacitance there. Two fingers make
-two separate dips in the map, which is what lets a phone see a pinch. CERN
+two separate dips in the map, which is what lets a phone see a pinch. [CERN](kloom:e/cern)
 engineers built a mutual-capacitance screen of this kind in 1977.
 
 At first the iPhone ran only Apple's programs. The **App Store** opened on
 10 July 2008 with about 500 applications. By 14 July, Apple said, users had
 downloaded more than ten million, and more than 800 were on offer.
 
-Google had bought **Android**, a start-up founded by **Andy Rubin**, in 2005. Its early prototype looked like a BlackBerry, with a keyboard and no
+[Google](kloom:e/google) had bought [**Android**](kloom:e/android-operating-system), a start-up founded by **Andy Rubin**, in 2005. Its early prototype looked like a BlackBerry, with a keyboard and no
 touch screen; after the iPhone, it went back to the drawing board. The Open
 Handset Alliance of Google, handset makers, carriers and chip makers
 announced it on 5 November 2007, and the first Android phone, HTC's Dream,
@@ -84,5 +84,5 @@ StatCounter measured 49.4 per cent of web traffic in August 2026 coming
 from mobiles and 49.1 from desktops.
 
 A phone does not work alone. Its maps, mail, photographs and messages live
-in buildings full of servers far away, and the cloud is the next frame's
+in buildings full of servers far away, and the [cloud](kloom:e/cloud-computing) is the next frame's
 subject.

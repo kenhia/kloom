@@ -1,6 +1,6 @@
-A skilled soroban user can put the frame away and keep calculating. The
+A skilled [soroban](kloom:e/soroban) user can put the frame away and keep calculating. The
 Japanese call it _anzan_, mental calculation; in English it is the
-_mental abacus_. The operator pictures the beads and moves them in the
+[_mental abacus_](kloom:e/mental-abacus). The operator pictures the beads and moves them in the
 mind's eye, and writes down only the answer. It is taught to children in
 Japan, China, Singapore, South Korea, Thailand and Malaysia, and since the
 1970s psychologists have tried to work out what it is.
@@ -55,7 +55,7 @@ pass; the Wikipedia article, citing a 2012 _Guardian_ report, records the
 champion **Takeo Sasano** adding fifteen three-digit numbers in 1.7
 seconds.
 
-It is the same place-value code that was ruled into the Salamis
-tablet, with the board, and then the beads, taken away. The trail returns
+It is the same place-value code that was ruled into the [Salamis
+tablet](kloom:e/salamis-tablet), with the board, and then the beads, taken away. The trail returns
 to where it began: to the counting board, and the frame that asked us to
 count with pebbles.

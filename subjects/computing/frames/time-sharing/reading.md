@@ -1,8 +1,8 @@
 By 1960 a large computer ran in _batch_. Programmers punched their decks,
 handed them in, and came back for the printout; operators fed the jobs
 through one after another so that the expensive machine never waited. The
-machine was used well and the people badly. Fernando Corbató and his
-colleagues at MIT wrote in 1962 that under batch monitors each bug usually
+machine was used well and the people badly. [Fernando Corbató](kloom:e/fernando-j-corbato) and his
+colleagues at [MIT](kloom:e/massachusetts-institute-of-technology) wrote in 1962 that under batch monitors each bug usually
 took "several hours to eliminate, if not a complete day".
 
 ## The idea, twice over
@@ -10,9 +10,9 @@ took "several hours to eliminate, if not a complete day".
 The cure was to let many people use one machine at once, each at a
 typewriter, while the machine switched among them faster than they could
 notice. Two people are credited with it, and they meant different things.
-**Christopher Strachey** filed a British patent application for "time
+**[Christopher Strachey](kloom:e/christopher-strachey)** filed a British patent application for "time
 sharing" in February 1959 and read a paper, "Time Sharing in Large Fast
-Computers", in Paris that June. **John McCarthy** wrote a memo at MIT
+Computers", in Paris that June. **[John McCarthy](kloom:e/john-mccarthy-computer-scientist)** wrote a memo at MIT
 proposing to time-share the Computation Center's expected "transistorized
 IBM 709", dated 1 January 1959, though he later allowed that it might have
 been written a year later. In McCarthy's telling, Strachey's idea was not
@@ -45,19 +45,19 @@ program ran at least as long as it took to swap, so the machine never
 spent more than half its time swapping. For the 7090 they estimated a
 quantum of 16 milliseconds and, with the disk then available, only about
 four users with a worst reply to a trivial command of 32 seconds; a fast
-drum might serve 120. CTSS went into routine service in 1963, and a second
-copy ran MIT's [Project MAC](kloom:e/project-mac), whose successor system, Multics, is a story of
+drum might serve 120. [CTSS](kloom:e/compatible-time-sharing-system) went into routine service in 1963, and a second
+copy ran MIT's [Project MAC](kloom:e/project-mac), whose successor system, [Multics](kloom:e/multics), is a story of
 its own. It had the first password logins and early messages between
 users.
 
 ## Dartmouth, and BASIC
 
-At Dartmouth College, **John Kemeny** and **Thomas Kurtz** wanted every
+At [Dartmouth College](kloom:e/dartmouth-college), **[John Kemeny](kloom:e/john-g-kemeny)** and **[Thomas Kurtz](kloom:e/thomas-e-kurtz)** wanted every
 student to use a computer, not only scientists. McCarthy told Kurtz to try
-time-sharing. With a National Science Foundation grant they bought a
+[time-sharing](kloom:e/time-sharing). With a National Science Foundation grant they bought a
 **GE-225**, with a separate **Datanet-30** to scan the terminal lines, and
 a dozen undergraduates wrote the system. It began work at 4 a.m. on 1 May
-1964, running Kemeny's new language, **BASIC**, and that autumn hundreds
+1964, running Kemeny's new language, [**BASIC**](kloom:e/basic), and that autumn hundreds
 of freshmen used it from twenty Teletypes. BASIC was FORTRAN made
 forgiving:
 

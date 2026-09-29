@@ -1,15 +1,15 @@
 By 1820 a navy, an observatory or an insurance office ran on printed
-tables: logarithms, sines, the Moon's place night by night, interest and
+tables: [logarithms](kloom:e/logarithm), sines, the [Moon](kloom:e/moon)'s place night by night, interest and
 mortality. Every figure in them had been worked out by hand, copied out,
 set in type by a compositor and printed, and a mistake could come in at any
-of the four. A London mathematician, **Charles Babbage**, proposed to take
+of the four. A [London](kloom:e/london) mathematician, **[Charles Babbage](kloom:e/charles-babbage)**, proposed to take
 people out of all four: a machine that would compute a table and set it in
 type itself.
 
 ## "A correct table"
 
-How bad the tables were was put to the public in 1834 by **Dionysius
-Lardner**, in a long article in the _Edinburgh Review_ written with
+How bad the tables were was put to the public in 1834 by **[Dionysius
+Lardner](kloom:e/dionysius-lardner)**, in a long article in the _Edinburgh Review_ written with
 Babbage's help. His examples came from the tables a British navigator
 used:
 
@@ -28,7 +28,7 @@ The errata themselves had errors. Worse, errors were copied. A check made
 for the survey of Ireland found six errors shared by thirteen tables of
 logarithms printed in London between 1633 and 1822, and by tables from
 Paris, Gouda, Avignon, Berlin and Florence, and by a Chinese edition: all
-descended from **Adriaan Vlacq**'s logarithms of 1628. Nor did computing
+descended from **[Adriaan Vlacq](kloom:e/adriaan-vlacq)**'s logarithms of 1628. Nor did computing
 everything twice catch them all, since two computers working apart could
 make the same slip.
 
@@ -37,8 +37,8 @@ dates the first thought to 1812 or 1813, dozing at Cambridge over an open
 table of logarithms and saying he was "thinking that all these Tables
 might be calculated by machinery", though he had the anecdote from a
 friend's memory, not his own. His other telling, as Wikipedia gives it,
-starts with the Astronomical Society's wish to improve the _Nautical
-Almanac_: in 1821 or 1822 he and **John Herschel** oversaw a trial
+starts with the Astronomical Society's wish to improve the [_Nautical
+Almanac_](kloom:e/the-nautical-almanac): in 1821 or 1822 he and **[John Herschel](kloom:e/john-herschel)** oversaw a trial
 recomputation of some of its tables, and the results disagreed.
 
 ## Tables by addition
@@ -77,8 +77,8 @@ through notches would check, and moulds for stereotype plates.
 
 Babbage built a small model between 1820 and June 1822, working to six
 figures with two orders of differences, and announced it to the
-Astronomical Society on 14 June 1822. In a letter to Sir **Humphry Davy**,
-president of the Royal Society, published on 3 July, he said a larger
+Astronomical Society on 14 June 1822. In a letter to Sir **[Humphry Davy](kloom:e/humphry-davy)**,
+president of the [Royal Society](kloom:e/royal-society), published on 3 July, he said a larger
 engine would depend on "the nature of the encouragement I may receive".
 The Treasury asked the Royal Society, which reported on 1 May 1823 that he was "highly
 deserving of public encouragement". The first grant was £1,500 in the
@@ -87,6 +87,6 @@ work to six orders of differences and about twenty figures; by 1830 the
 design had about 25,000 parts and would have weighed four tons.
 
 It was never finished. The building of it, the quarrel with its engineer,
-**Joseph Clement**, and the government's withdrawal in 1842 are the trail
+**[Joseph Clement](kloom:e/joseph-clement)**, and the government's withdrawal in 1842 are the trail
 _Babbage's engines_, which begins with the French tables that showed him
 arithmetic done as manufacture.

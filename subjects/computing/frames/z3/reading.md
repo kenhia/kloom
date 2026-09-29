@@ -1,5 +1,5 @@
-**Konrad Zuse** was a civil engineer at the Henschel aircraft works outside
-Berlin in the mid-1930s, and his job was calculating: the same long
+**[Konrad Zuse](kloom:e/konrad-zuse)** was a civil engineer at the Henschel aircraft works outside
+[Berlin](kloom:e/berlin) in the mid-1930s, and his job was calculating: the same long
 sequences of arithmetic on structural problems, over and over. He decided a
 machine should do them, quit, and began to build one in his parents' living
 room in Kreuzberg. By the usual reckoning his third machine, finished in
@@ -8,12 +8,12 @@ automatic, and it was built out of telephone relays.
 
 ## Binary, in sheet metal
 
-His first machine, the **Z1**, built from 1936 to 1938, had no relays at
+His first machine, the [**Z1**](kloom:e/z1-computer), built from 1936 to 1938, had no relays at
 all. It was mechanical, cut from thin metal sheets with a jigsaw by Zuse and
 his friends: some 20,000 parts by one count, 30,000 metal parts by another,
 driven by an electric motor. The design was the remarkable part. It worked
 in binary, turning numbers into decimal only at the keyboard and the
-display, and in _floating point_, a number held as a significand and a
+display, and in [_floating point_](kloom:e/floating-point-arithmetic), a number held as a significand and a
 binary exponent, which Zuse called "semilogarithmic". Its program came on punched 35 mm
 cinema film, one instruction to a row. It never worked reliably: the sheets
 did not move together precisely enough. The **Z2** of 1940 kept the
@@ -25,7 +25,7 @@ win part of the money for a third machine.
 
 ## The Z3
 
-Zuse built the **Z3** from 1938 and showed it to an audience from the DVL on
+Zuse built the [**Z3**](kloom:e/z3-computer) from 1938 and showed it to an audience from the DVL on
 12 May 1941. It was the Z1's design in relays: about 2,600 of them in one
 account, 2,000 in another, 1,400 of those holding the memory's 64 words. A
 word was 22 bits: a sign, an exponent of seven bits running from −64 to 63,
@@ -51,7 +51,7 @@ memory, adds a third, stores the result and shows it.
 | Lu          | read the keyboard   | 01 110000 |   9–41 |
 | Ld          | display the result  | 01 111000 |   9–41 |
 
-The opcodes are as the historian **Raúl Rojas** read them from Zuse's patent
+The opcodes are as the historian **[Raúl Rojas](kloom:e/raul-rojas)** read them from Zuse's patent
 application of 1941. Zuse gave three seconds for a multiplication, which
 puts the clock at about five cycles a second. A program to compute a complex
 matrix, for the flutter of aircraft wings, was written and used on it, but
@@ -80,18 +80,18 @@ often acrimoniously, as Rojas put it; in Germany the usual answer is Zuse.
 
 ## Relays elsewhere, and after
 
-Zuse was not alone with relays. At Bell Labs **George Stibitz** built a
+Zuse was not alone with relays. At [Bell Labs](kloom:e/bell-labs) **[George Stibitz](kloom:e/george-stibitz)** built a
 binary adder of relays in 1937, on his kitchen table as the story goes, and his **Complex
 Number Calculator** went into service in 1940. In September that year, at
 Dartmouth College, he ran it from a teletype over telegraph lines to New
 York: the first computing done at a distance. Zuse, for his part, knew
-nothing of Shannon's switching algebra, and worked out his own.
+nothing of [Shannon](kloom:e/claude-shannon)'s switching algebra, and worked out his own.
 
 His **Z4**, begun in 1942, was moved out of Berlin in February 1945 and
 reached the Alps on an army truck. Rented to ETH Zurich from 1950, with a
 conditional jump added, it was in 1950 and 1951 the only working digital
 computer in Central Europe, and it survives. Between 1942 and 1945 Zuse also
-designed _Plankalkül_, a programming language with loops and branches:
+designed [_Plankalkül_](kloom:e/plankalkul), a programming language with loops and branches:
 excerpts appeared in 1948, the whole in 1972, and the first implementation
 in 1975.
 

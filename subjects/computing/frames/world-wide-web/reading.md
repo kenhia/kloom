@@ -1,17 +1,17 @@
-By 1989 the internet could carry a file or a letter to almost any
+By 1989 the [internet](kloom:e/internet) could carry a file or a letter to almost any
 research machine, but only to someone who already knew where to look.
-CERN, the particle physics laboratory outside Geneva, had the problem in
+[CERN](kloom:e/cern), the particle physics laboratory outside Geneva, had the problem in
 miniature: several thousand people, many staying two years or so, and
 their knowledge leaving with them. "Often, the information has been
 recorded," one of its staff wrote, "it just cannot be found."
 
 ## Vague but exciting
 
-**Tim Berners-Lee** wrote "Information Management: A Proposal" in March
+**[Tim Berners-Lee](kloom:e/tim-berners-lee)** wrote "Information Management: A Proposal" in March
 1989 and sent it round again, unchanged but for the date, in May 1990. It
 argued that CERN's real working structure was not its organisation chart
 but "a multiply connected 'web' whose interconnections evolve with time",
-and that its documents should be linked the same way: _hypertext_, text
+and that its documents should be linked the same way: [_hypertext_](kloom:e/hypertext), text
 whose words lead to other texts, spread across many computers "without
 requiring any central control or coordination". The only name he had for it then was "Mesh". His manager **Mike
 Sendall** called it "vague, but exciting", and accepted it. **Robert
@@ -33,7 +33,7 @@ The web needed three things, and each was kept small.
 - An **address**, later the URL, naming how to fetch a document, from
   which machine, and where on it:
   `http://info.cern.ch/hypertext/WWW/TheProject.html`.
-- A **protocol**, HTTP. In its first form, of 1991, a browser opened a TCP
+- A **protocol**, [HTTP](kloom:e/http). In its first form, of 1991, a browser opened a TCP
   connection to the server, on port 80 unless told otherwise, and sent one
   line: the word `GET`, a space and the document's path. The server sent
   back the document and closed the connection, which marked the end. There
@@ -50,13 +50,13 @@ internet's layers.
 
 ## Given away
 
-On 30 April 1993 CERN put the World Wide Web software in the public
+On 30 April 1993 CERN put the [World Wide Web](kloom:e/world-wide-web) software in the public
 domain. By then others were writing browsers.
-At the National Center for Supercomputing Applications (NCSA) in Illinois,
-**Marc Andreessen** and **Eric Bina** released **Mosaic** in January 1993,
+At the [National Center for Supercomputing Applications](kloom:e/national-center-for-supercomputing-applications) (NCSA) in Illinois,
+**[Marc Andreessen](kloom:e/marc-andreessen)** and **Eric Bina** released [**Mosaic**](kloom:e/ncsa-mosaic) in January 1993,
 the first browser to show pictures in the page among the text rather than
 in a separate window. Andreessen left with **Jim Clark** of Silicon
-Graphics to found the company that became Netscape, whose Navigator, out in
+Graphics to found the company that became [Netscape](kloom:e/netscape), whose Navigator, out in
 December 1994, drew a page while it was still downloading and was free for
 non-commercial use. Microsoft licensed a Mosaic of its own, from Spyglass,
 to make Internet Explorer.
