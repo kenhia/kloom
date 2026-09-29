@@ -24,7 +24,8 @@ showing, in the style docs/design.md §Illustrations describes.
 - `contact_sheet.py` (sprint 014): every plate of a subject, or the frames
   named, on one page in its own palette with its title under it; `--png`
   screenshots the page with a headless Chromium (Playwright's, or
-  `$CHROME`). `python3 create-tools/draw-plates/contact_sheet.py feynman --png .scratch/sheet.png`.
+  `$CHROME`). `python3 create-tools/draw-plates/contact_sheet.py feynman --png .scratch/sheet.png`. `--scale 2.5`
+  renders it large enough to read the labels (sprint 015).
 - `western_civ.py`: the 17 western-civ plates, one function per frame. It
   is the worked example: the Pantheon section, the globe with its route,
   the helix and the honeycomb show how the geometry is computed rather than

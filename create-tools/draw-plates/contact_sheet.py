@@ -1,12 +1,13 @@
 """A contact sheet of a subject's plates, each in its own palette (sprint 014).
 
-    python3 create-tools/draw-plates/contact_sheet.py SUBJECT [frame ...] [--out FILE] [--png FILE]
+    python3 create-tools/draw-plates/contact_sheet.py SUBJECT [frame ...] [--out FILE] [--png FILE] [--scale N]
 
 Writes an HTML page (default `.scratch/contact-<subject>.html`) showing each
 frame's scene.svg in its palette's background, line and accent colours, with
 its headline and accent word under it. With `--png`, a headless Chromium
 screenshots the page: the one Playwright installed under
-~/.cache/ms-playwright, or `$CHROME`. Standard library only.
+~/.cache/ms-playwright, or `$CHROME`. `--scale 2.5` renders the PNG at that
+many device pixels per CSS pixel, to read a plate's labels (sprint 015). Standard library only.
 """
 import argparse, glob, html, json, os, subprocess, sys
 
@@ -28,6 +29,7 @@ def main():
     ap.add_argument('frames', nargs='*')
     ap.add_argument('--out')
     ap.add_argument('--png')
+    ap.add_argument('--scale', type=float, default=1, help='device pixels per CSS pixel in the PNG')
     a = ap.parse_args()
     sdir = os.path.join(ROOT, 'subjects', a.subject)
     palettes = json.load(open(os.path.join(sdir, 'subject.json')))['palettes']
@@ -62,7 +64,7 @@ def main():
     if a.png:
         rows = (len(cells) + 3) // 4
         subprocess.run([chrome(), '--headless', '--no-sandbox', '--disable-gpu', '--hide-scrollbars',
-                        f'--window-size=1636,{rows * 352 + 12}', f'--screenshot={os.path.abspath(a.png)}',
+                        f'--window-size=1636,{rows * 352 + 12}', f'--force-device-scale-factor={a.scale:g}', f'--screenshot={os.path.abspath(a.png)}',
                         'file://' + os.path.abspath(out)], check=True, capture_output=True)
         print(f'contact_sheet: → {a.png}')
 
