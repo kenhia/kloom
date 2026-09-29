@@ -4,16 +4,16 @@ kloom runs on kai as a systemd user unit, `kloom.service`. The design is in
 [design.md](design.md) §Who may write and §The content clone. This page is
 the operations side.
 
-| What                    | Where                                                          |
-| ----------------------- | -------------------------------------------------------------- |
-| Tailnet URL             | `https://kai.encke-wahoo.ts.net:4890`                          |
-| ssh door                | `127.0.0.1:4891` on kai, for `ssh -L`                          |
-| App (the deploy copy)   | `~/.local/share/kloom/app`                                     |
-| Content clone           | `~/.local/share/kloom/content`, on `grow/kai`                  |
-| Kept answers, grow jobs | `~/.local/share/kloom/data`                                    |
-| Reader data (SQLite)    | `~/.local/share/kloom/data/reader.db` (with `-wal`, `-shm`)    |
-| Unit                    | `deploy/kloom.service`, installed to `~/.config/systemd/user/` |
-| Serve entry             | k-homelab `manifests/kai.yml`, `tailscale_serve` port 4890     |
+| What                  | Where                                                          |
+| --------------------- | -------------------------------------------------------------- |
+| Tailnet URL           | `https://kai.encke-wahoo.ts.net:4890`                          |
+| ssh door              | `127.0.0.1:4891` on kai, for `ssh -L`                          |
+| App (the deploy copy) | `~/.local/share/kloom/app`                                     |
+| Content clone         | `~/.local/share/kloom/content`, on `grow/kai`                  |
+| Grow jobs             | `~/.local/share/kloom/data`                                    |
+| Reader data (SQLite)  | `~/.local/share/kloom/data/reader.db` (with `-wal`, `-shm`)    |
+| Unit                  | `deploy/kloom.service`, installed to `~/.config/systemd/user/` |
+| Serve entry           | k-homelab `manifests/kai.yml`, `tailscale_serve` port 4890     |
 
 ## First time on a host
 
@@ -43,11 +43,21 @@ pick up merged main (below). `just verify` checks both doors, that the
 tailnet door refuses an anonymous write, and that reader data answers only
 a reader.
 
-`reader.db` holds every reader's places and bookmarks. It is the one piece
-of state that is not rebuildable from git. Copy it with the unit stopped,
+`reader.db` holds every reader's places, bookmarks, notes and kept answers.
+It is the one piece of state that is not rebuildable from git. Copy it with the unit stopped,
 or with `sqlite3 reader.db ".backup copy.db"` while it runs. One reader can
 also save their own from the bookmark list (_Export my reading data_).
 Design: [design.md](design.md) §Reader data.
+
+Kept answers were files under `data/<subject>/kept/` before sprint 011. A
+start moves any it finds into `reader.db`, under `KLOOM_KEPT_OWNER` if the
+unit sets it, else the host's own reader (`user@host`), and leaves each file
+in `kept-migrated/` beside it. The journal says how many moved. kai had none
+when that shipped.
+
+Flagged notes are worked through with the review-notes skill, from a
+checkout: `node skills/review-notes/review-notes.mjs --data
+~/.local/share/kloom/data list` (`skills/review-notes/SKILL.md`).
 
 `journalctl --user -u kloom` shows the doors, and a `content:` line saying
 what the start-up sync did.

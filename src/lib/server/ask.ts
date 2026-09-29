@@ -1,12 +1,11 @@
 import { randomBytes } from 'node:crypto';
-import { mkdir, writeFile } from 'node:fs/promises';
-import { join } from 'node:path';
 import { ClaudeCliProvider } from '$engine/ai/claude-cli';
 import { answerId, keptAnswer, type Answer, type KeptAnswer } from '$engine/ai/kept';
 import { webReferences } from '$engine/ai/prompt';
 import { pinWikipedia, wikipediaArticle, type Fetch } from '$engine/ai/wikipedia';
 import type { Citation } from '$engine/model';
 import type { AskContext, AskStreamEvent, Provider } from '$engine/ai/provider';
+import type { ReaderStore } from '$engine/reader-data';
 import { QueueFull, TurnQueue } from '$engine/ai/queue';
 import type { AppConfig } from './app-config';
 
@@ -176,24 +175,17 @@ export async function webCitations(
 }
 
 /**
- * Write a kept answer to `<dataDir>/<subject>/kept/<id>.json`. Keeping the
- * same answer twice is not an error: the first file stands.
+ * Keep an answer for `reader`, in their store (docs/design.md §Reader data).
+ * Keeping the same answer twice is not an error: the first one stands.
  */
 export async function keep(
 	answer: Answer,
-	dataDir: string,
+	reader: string,
+	store: ReaderStore,
 	now = new Date(),
 	fetcher?: Fetch
 ): Promise<KeptAnswer> {
 	const kept = keptAnswer(answer, now, await webCitations(answer, fetcher));
-	const dir = join(dataDir, answer.subject, 'kept');
-	await mkdir(dir, { recursive: true });
-	try {
-		await writeFile(join(dir, `${answer.id}.json`), `${JSON.stringify(kept, null, '\t')}\n`, {
-			flag: 'wx'
-		});
-	} catch (e) {
-		if ((e as NodeJS.ErrnoException).code !== 'EEXIST') throw e;
-	}
+	await store.keep(reader, kept);
 	return kept;
 }

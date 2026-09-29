@@ -1,15 +1,16 @@
 <script lang="ts">
 	import { onMount, untrack } from 'svelte';
 	import type { Frame } from '$engine/model';
-	import type { Bookmark, JumpItem } from '$engine/reader-data';
+	import type { Bookmark, JumpItem, Kept, Note, ReaderLayer } from '$engine/reader-data';
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
-	import { invalidateAll, replaceState } from '$app/navigation';
+	import { beforeNavigate, invalidateAll, replaceState } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import {
 		ASK_MODEL,
 		followSpine,
 		GROW_MODEL,
+		keySettings,
 		layout,
 		modelSetting,
 		paletteFor,
@@ -39,7 +40,8 @@
 			'Ask model',
 			untrack(() => data.askModels)
 		),
-		...(growModels ? [modelSetting(GROW_MODEL, 'Grow model', growModels)] : [])
+		...(growModels ? [modelSetting(GROW_MODEL, 'Grow model', growModels)] : []),
+		...keySettings
 	]);
 
 	// The start screen wears the first frame's palette, in the reader's mode.
@@ -68,15 +70,78 @@
 
 	/** Write to the reader's store; a failure is logged, and the reading goes on. */
 	async function write(path: string, method: string, body: object) {
+		return !!(await send(path, method, body));
+	}
+
+	/** A reader-data request: the response, or null (and a warning) when it failed. */
+	async function send(path: string, method: string, body?: object) {
 		const res = await fetch(path, {
 			method,
-			headers: { 'content-type': 'application/json' },
-			body: JSON.stringify(body),
-			keepalive: true
+			...(body
+				? {
+						headers: { 'content-type': 'application/json' },
+						body: JSON.stringify(body),
+						keepalive: true
+					}
+				: {})
 		}).catch(() => null);
 		if (!res?.ok) console.warn(`reader data: ${method} ${path} failed`, res?.status);
-		return !!res?.ok;
+		return res?.ok ? res : null;
 	}
+
+	// The reader's layer on a frame (korg 3409, 3390): this subject's notes,
+	// and how many answers were kept on each frame. Derived from the load, so
+	// another subject brings its own, and written over as the reader acts.
+	let notes = $derived<Note[]>(data.readerData?.notes ?? []);
+	let keptCounts = $derived<Record<string, number>>(data.readerData?.kept ?? {});
+	const layer = $derived<ReaderLayer | null>(
+		data.reader
+			? {
+					notes,
+					kept: keptCounts,
+					saveNote: async (n) => {
+						const res = await send(resolve('/api/reader/notes'), 'POST', {
+							...n,
+							subject: data.subject.id
+						});
+						const saved: Note | null = res ? await res.json() : null;
+						if (saved)
+							notes = n.id ? notes.map((x) => (x.id === saved.id ? saved : x)) : [...notes, saved];
+						return saved;
+					},
+					deleteNote: async (id) => {
+						if (!(await write(resolve('/api/reader/notes'), 'DELETE', { id }))) return false;
+						notes = notes.filter((n) => n.id !== id);
+						return true;
+					},
+					keptOn: async (frame) => {
+						const q = new URLSearchParams({ subject: data.subject.id, frame });
+						const res = await send(`${resolve('/api/reader/kept')}?${q}`, 'GET');
+						return res ? ((await res.json()) as Kept[]) : null;
+					},
+					forget: async (frame, id) => {
+						const ok = await write(resolve('/api/reader/kept'), 'DELETE', {
+							subject: data.subject.id,
+							id
+						});
+						if (ok)
+							keptCounts = { ...keptCounts, [frame]: Math.max(0, (keptCounts[frame] ?? 1) - 1) };
+						return ok;
+					},
+					onkept: (frame) => (keptCounts = { ...keptCounts, [frame]: (keptCounts[frame] ?? 0) + 1 })
+				}
+			: null
+	);
+
+	// A note with unsaved changes: leaving the subject, or the page, asks first.
+	// Leaving for good (a reload, closing the tab) gets the browser's own question.
+	beforeNavigate((nav) => {
+		if (!shell?.hasUnsavedNote()) return;
+		if (nav.willUnload) nav.cancel();
+		else if (confirm('This note has changes that are not saved. Discard them?'))
+			shell.discardNote();
+		else nav.cancel();
+	});
 
 	// A deep link followed inside the app (the start screen's last-read offer,
 	// say) opens on its frame too: the page is reused, so this runs on each.
@@ -199,6 +264,7 @@
 		startAt={data.frame}
 		onplace={(f) => (current = f)}
 		bookmarks={bookmarkOffer}
+		{layer}
 	/>
 {/key}
 

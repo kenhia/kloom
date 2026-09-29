@@ -4,7 +4,12 @@ import { openReaderStore, useReaderStore } from '$lib/server/reader-store';
 import { DELETE as unmark, GET as marks, POST as mark } from './bookmarks/+server';
 import { GET as exportData } from './export/+server';
 import { POST as importData } from './import/+server';
+import { DELETE as forget, GET as keptOn } from './kept/+server';
+import { DELETE as dropNote, GET as notes, POST as saveNote } from './notes/+server';
 import { POST as visit } from './place/+server';
+import { keptAnswer } from '$engine/ai/kept';
+import { context } from '$engine/ai/fixture';
+import { readerStore } from '$lib/server/reader-store';
 
 /** A handler's response, or the error it threw (SvelteKit's `error()` throws). */
 const call = (handler: (e: never) => unknown, event: object) =>
@@ -20,6 +25,10 @@ const send = (method: string, body: unknown, reader: Reader | null = ken) => ({
 	locals: { reader }
 });
 const read = (reader: Reader | null = ken) => ({ locals: { reader } });
+const get = (query: string, reader: Reader | null = ken) => ({
+	url: new URL(`http://x/${query}`),
+	locals: { reader }
+});
 const body = async (r: unknown) => (r as Response).json();
 
 const first = { subject: 'western-civ', frame: 'prometheus', label: 'We stole FIRE.' };
@@ -34,6 +43,13 @@ describe('reader data needs a reader', () => {
 		expect(await call(marks, read(null))).toMatchObject({ status: 401 });
 		expect(await call(exportData, read(null))).toMatchObject({ status: 401 });
 		expect(await call(importData, send('POST', {}, null))).toMatchObject({ status: 401 });
+		expect(await call(notes, get('?subject=ai', null))).toMatchObject({ status: 401 });
+		expect(await call(saveNote, send('POST', {}, null))).toMatchObject({ status: 401 });
+		expect(await call(dropNote, send('DELETE', {}, null))).toMatchObject({ status: 401 });
+		expect(await call(keptOn, get('?subject=ai&frame=turing', null))).toMatchObject({
+			status: 401
+		});
+		expect(await call(forget, send('DELETE', {}, null))).toMatchObject({ status: 401 });
 	});
 });
 
@@ -73,11 +89,13 @@ describe('export and import', () => {
 			/^attachment; filename="kloom-reader-data-\d{4}-\d{2}-\d{2}\.json"$/
 		);
 		const file = await res.json();
-		expect(file).toMatchObject({ kloom: 'reader-data', version: 1, reader: 'ken@github' });
+		expect(file).toMatchObject({ kloom: 'reader-data', version: 2, reader: 'ken@github' });
 
 		expect(await body(await call(importData, send('POST', file, ada)))).toEqual({
 			places: 1,
-			bookmarks: 1
+			bookmarks: 1,
+			notes: 0,
+			kept: 0
 		});
 		expect(await body(await call(marks, read(ada)))).toMatchObject([{ frame: 'prometheus' }]);
 	});
@@ -87,5 +105,78 @@ describe('export and import', () => {
 			status: 400,
 			body: { message: 'Not an export kloom can read: not a kloom reader-data export.' }
 		});
+	});
+});
+
+const aNote = { subject: 'ai', frame: 'alexnet', label: 'AlexNet', text: 'Why GPUs?', flag: true };
+
+describe('notes', () => {
+	it('are written, listed, edited and deleted, each reader their own', async () => {
+		const saved = await body(await call(saveNote, send('POST', aNote)));
+		expect(saved).toMatchObject({ frame: 'alexnet', text: 'Why GPUs?', review: 'flagged' });
+		expect(await body(await call(notes, get('?subject=ai')))).toEqual([saved]);
+		expect(await body(await call(notes, get('?subject=ai', ada)))).toEqual([]);
+
+		const edit = { ...aNote, id: saved.id, text: 'Why GPUs, really?', flag: false };
+		expect(await body(await call(saveNote, send('POST', edit)))).toMatchObject({
+			id: saved.id,
+			text: 'Why GPUs, really?',
+			review: 'none'
+		});
+		expect(await call(saveNote, send('POST', edit, ada))).toMatchObject({ status: 404 });
+		expect(await call(dropNote, send('DELETE', { id: saved.id }, ada))).toMatchObject({
+			status: 404
+		});
+		await call(dropNote, send('DELETE', { id: saved.id }));
+		expect(await body(await call(notes, get('?subject=ai')))).toEqual([]);
+	});
+
+	it('refuse an empty or oversized note, a bad id, and a frame the subject lacks', async () => {
+		for (const bad of [
+			{ ...aNote, text: '  ' },
+			{ ...aNote, text: 'x'.repeat(10_001) },
+			{ ...aNote, id: '../x' },
+			{ ...aNote, frame: 'no-such-frame' }
+		])
+			expect(await call(saveNote, send('POST', bad))).toMatchObject({ status: 400 });
+		expect(await call(notes, get('?subject=nope'))).toMatchObject({ status: 404 });
+	});
+});
+
+describe('kept answers', () => {
+	const id = '20260927T170509Z-0a1b2c3d';
+	beforeEach(() =>
+		readerStore().keep(
+			ken.login,
+			keptAnswer(
+				{
+					id,
+					subject: 'western-civ',
+					context,
+					question: 'Why?',
+					answer: 'Ink [2].',
+					provider: 'claude-cli',
+					model: 'claude-sonnet-5',
+					askedAt: '2026-09-27T17:05:09.000Z'
+				},
+				new Date()
+			)
+		)
+	);
+	const where = `?subject=western-civ&frame=${context.frame.id}`;
+
+	it('are listed per frame for their reader only, and forgotten on request', async () => {
+		expect(await body(await call(keptOn, get(where)))).toMatchObject([
+			{ answer: { id, question: 'Why?' }, grown: null }
+		]);
+		expect(await body(await call(keptOn, get(where, ada)))).toEqual([]);
+		expect(await call(keptOn, get('?subject=western-civ&frame=../x'))).toMatchObject({
+			status: 400
+		});
+		expect(await call(forget, send('DELETE', { subject: 'western-civ', id }, ada))).toMatchObject({
+			status: 404
+		});
+		await call(forget, send('DELETE', { subject: 'western-civ', id }));
+		expect(await body(await call(keptOn, get(where)))).toEqual([]);
 	});
 });

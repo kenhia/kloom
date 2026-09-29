@@ -1,8 +1,22 @@
+<script module lang="ts">
+	import type { Kept } from '../reader-data';
+
+	/** What the shell offers for the frame's kept answers (korg 3390). */
+	export interface QaOffer {
+		/** How many were kept on a frame. */
+		count: (frame: string) => number;
+		load: (frame: string) => Promise<Kept[] | null>;
+		forget: (frame: string, id: string) => Promise<boolean>;
+		titleOf: (frame: string) => string | null;
+		ongoto: (frame: string) => void;
+	}
+</script>
+
 <script lang="ts">
-	import type { Snippet } from 'svelte';
 	import { bibliography, chicago, chicagoDate } from '../citation';
 	import type { Frame, Trail } from '../model';
 	import type { SyncMode } from '../navigation';
+	import KeptQa from './KeptQa.svelte';
 
 	interface Props {
 		frame: Frame;
@@ -15,9 +29,11 @@
 		onenter: (trail: Trail) => void;
 		/** The scrolling element, so the shell can drive it from the keyboard. */
 		element?: HTMLElement;
-		/** Extra controls at the end of the toolbar (the settings gear). */
-		tools?: Snippet;
-		/** The tabs layout: the id of the tab this pane is the panel of. */
+		/** The sync and trail keys as the reader has them; null when turned off. */
+		keys?: { sync: string | null; trail: string | null };
+		/** The reader's kept answers; absent when there is no reader. */
+		qa?: QaOffer | null;
+		/** The id of the tab this pane is the panel of, when it is one. */
 		tab?: string | null;
 		hidden?: boolean;
 	}
@@ -29,7 +45,8 @@
 		trails,
 		onenter,
 		element = $bindable(),
-		tools,
+		keys = { sync: 'S', trail: 'T' },
+		qa = null,
 		tab = null,
 		hidden = false
 	}: Props = $props();
@@ -53,15 +70,14 @@
 	<div class="controls">
 		<p id="sync-state" class="state" aria-live="polite">
 			{#if behind}
-				Showing {frame.position.label}; the spine is at {spineFrame.position.label}. <kbd>S</kbd>
-				brings the reading here.
+				Showing {frame.position.label}; the spine is at {spineFrame.position.label}.
+				{#if keys.sync}<kbd>{keys.sync}</kbd> brings the reading here.{/if}
 			{:else if sync === 'follow'}
 				Following the spine.
 			{:else}
 				In step with the spine.
 			{/if}
 		</p>
-		{@render tools?.()}
 	</div>
 
 	<!-- Focusable because it scrolls: keyboard users must be able to reach it. -->
@@ -84,10 +100,27 @@
 			<ul class="trails">
 				{#each trails as trail (trail.id)}
 					<li>
-						<button type="button" onclick={() => onenter(trail)}>{trail.title} <kbd>T</kbd></button>
+						<button type="button" onclick={() => onenter(trail)}
+							>{trail.title}
+							{#if keys.trail}<kbd>{keys.trail}</kbd>{/if}</button
+						>
 					</li>
 				{/each}
 			</ul>
+		{/if}
+
+		{#if qa && qa.count(frame.id) > 0}
+			<!-- Remounted when the count changes, so a new kept answer is fetched. -->
+			{#key `${frame.id}:${qa.count(frame.id)}`}
+				<KeptQa
+					count={qa.count(frame.id)}
+					citations={frame.citations?.length ?? 0}
+					load={() => qa.load(frame.id)}
+					onforget={(id) => qa.forget(frame.id, id)}
+					titleOf={qa.titleOf}
+					ongoto={qa.ongoto}
+				/>
+			{/key}
 		{/if}
 
 		<h3>Sources</h3>

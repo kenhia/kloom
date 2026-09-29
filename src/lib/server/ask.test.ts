@@ -1,12 +1,10 @@
-import { mkdtemp, readdir, readFile } from 'node:fs/promises';
-import { tmpdir } from 'node:os';
-import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { context } from '$engine/ai/fixture';
 import { keptAnswerProblems } from '$engine/ai/kept';
 import type { AskStreamEvent, Provider, ProviderEvent } from '$engine/ai/provider';
 import { TurnQueue } from '$engine/ai/queue';
 import { askEvents, keep, ndjson, RecentAnswers } from './ask';
+import { openReaderStore } from './reader-store';
 
 const provider = (events: ProviderEvent[], gate?: Promise<void>): Provider => ({
 	name: 'fake',
@@ -137,8 +135,8 @@ describe('an ask turn', () => {
 });
 
 describe('keeping an answer', () => {
-	it('writes one valid kept-answer file per answer, under the data directory', async () => {
-		const data = await mkdtemp(join(tmpdir(), 'kloom-kept-'));
+	it('stores one valid kept answer per answer, in the reader’s store', async () => {
+		const store = openReaderStore(':memory:');
 		const answer = {
 			id: '20260927T170509Z-0a1b2c3d',
 			subject: 'western-civ',
@@ -149,11 +147,11 @@ describe('keeping an answer', () => {
 			model: 'claude-sonnet-5',
 			askedAt: '2026-09-27T17:05:09.000Z'
 		};
-		await keep(answer, data);
-		await keep({ ...answer, answer: 'changed' }, data);
-		const dir = join(data, 'western-civ', 'kept');
-		expect(await readdir(dir)).toEqual(['20260927T170509Z-0a1b2c3d.json']);
-		const file = JSON.parse(await readFile(join(dir, '20260927T170509Z-0a1b2c3d.json'), 'utf8'));
+		await keep(answer, 'ken@github', store);
+		await keep({ ...answer, answer: 'changed' }, 'ken@github', store);
+		const kept = await store.keptOn('ken@github', 'western-civ', context.frame.id);
+		expect(kept).toHaveLength(1);
+		const file = kept[0].answer;
 		expect(keptAnswerProblems(file)).toEqual([]);
 		expect(file.answer).toBe('Ink [2].');
 		expect(file.citations.map((c: { title: string }) => c.title)).toEqual(['Ink']);
@@ -161,7 +159,7 @@ describe('keeping an answer', () => {
 	});
 
 	it('carries a web turn’s pages as citations, Wikipedia pinned to a revision', async () => {
-		const data = await mkdtemp(join(tmpdir(), 'kloom-kept-'));
+		const store = openReaderStore(':memory:');
 		const answer = {
 			id: '20260927T170509Z-0a1b2c3d',
 			subject: 'western-civ',
@@ -187,7 +185,7 @@ describe('keeping an answer', () => {
 					}
 				})
 			);
-		const kept = await keep(answer, data, new Date(), wiki);
+		const kept = await keep(answer, 'ken@github', store, new Date(), wiki);
 		expect(keptAnswerProblems(kept)).toEqual([]);
 		expect(kept.webCitations).toEqual([
 			{ kind: 'web', title: 'A news page', url: 'https://news.test/a', accessed: '2026-09-27' },
@@ -198,8 +196,8 @@ describe('keeping an answer', () => {
 		]);
 		const failing = async () => new Response('', { status: 503 });
 		await expect(
-			keep({ ...answer, id: '20260927T170509Z-0a1b2c3e' }, data, new Date(), failing)
+			keep({ ...answer, id: '20260927T170509Z-0a1b2c3e' }, 'ken@github', store, new Date(), failing)
 		).rejects.toThrow('503');
-		expect(await readdir(join(data, 'western-civ', 'kept'))).toHaveLength(1);
+		expect(await store.keptCounts('ken@github', 'western-civ')).toEqual({ [context.frame.id]: 1 });
 	});
 });

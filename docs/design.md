@@ -51,15 +51,23 @@ competed with the reading for height, so four layouts were built and compared:
 The last two are still built so they can be compared. Dropping them is a
 settings-list edit (korg 3377's record).
 
+**The tab row heads the right-hand pane in every layout** (sprint 011, korg
+3409). Its tabs are Narrative, then **Notes** when there is a reader
+(§Notes), then AI in the tabs layout. The settings gear sits at its end, in
+every layout. A layout with only one tab (no reader, not the tabs layout)
+shows no tab list, just the gear. The Notes tab says how many notes the frame
+has ("Notes 2", and ", 2 on this frame" to a screen reader).
+
 **Keyboard in the tabs layout** (the ARIA tabs pattern): Tab reaches the
 selected tab only (a roving tabindex). Left and Right move between the tabs
 and wrap, and Home and End jump to the first and last. They activate the tab
 as they move. The tab handles those keys itself (`engine/keys.ts` `tabKey`),
 so the spine does not move while focus is on a tab. The tab list sits in
-neither `.spine` nor `.narrative`, so S, T and B do nothing there. The AI tab's
-panel is the AI pane's results region, inside `.ai`: Esc from it returns to the
-spine, and S, T and B stand down there, as in every layout. S also brings the
-Narrative tab forward, because syncing the reading means wanting to see it.
+none of `.spine`, `.narrative` and `.notes`, so the character shortcuts do
+nothing there. The AI tab's panel is the AI pane's results region, inside
+`.ai`: Esc from it returns to the spine, and the shortcuts stand down there,
+as in every layout. S also brings the Narrative tab forward, because syncing
+the reading means wanting to see it.
 
 **Dividers** (sprint 010, Ken, 2026-09-28): the reader can drag the line
 between panes, to shrink the picture while deep in the reading, say. Every
@@ -82,7 +90,7 @@ pane in every layout (Ken, 2026-09-28). It was the last line of the AI pane,
 where it took room from the text box.
 
 **Phone width** (below 760px): every layout collapses to one column (spine,
-then narrative, then AI). The tabs layout keeps its tabs, with the AI tab's
+then the tab row, then narrative or notes, then AI). The tabs layout keeps its tabs, with the AI tab's
 panel taking the narrative's height. There are no dividers.
 
 A collapsible left nav may come later, once trails give it something to list.
@@ -305,8 +313,9 @@ Built in sprint 004 (korg 3360).
 - **Keep this.** Once an answer is done, "Keep this" sends only its id to
   `POST /api/keep`, with the subject. The server remembers finished answers (the last 50, for
   an hour) and writes what it remembers, never text the client sends back.
-  The file goes to `<dataDir>/<subject>/kept/<id>.json`, where `dataDir` is
-  `$KLOOM_DATA_DIR` or `data/`, git-ignored. A kept answer is not subject
+  Since sprint 011 it goes into the reader's store, under the reader who
+  kept it (§Kept answers). Before that it was a file,
+  `<dataDir>/<subject>/kept/<id>.json`. A kept answer is not subject
   content, and asking never writes subject content.
 - **The kept-answer format** (`engine/ai/kept.ts`, for grow, korg 3364):
 
@@ -331,7 +340,7 @@ Built in sprint 004 (korg 3360).
   The `[n]` numbers refer to the frame's references in prompt order, and
   `citations` carries exactly the ones used, in the §Citations shape. The id
   is the ask time plus 8 random hex digits, safe as a file name. Grow checks
-  a file with `keptAnswerProblems` before reading it. A web turn's pages
+  one with `keptAnswerProblems` before reading it. A web turn's pages
   are carried in an optional `webCitations` (§Web search for ask).
   `sources` once held the plain sources an answer marked. Since sprint 008
   every source is a citation, so it is always empty. It stays so the format,
@@ -374,7 +383,9 @@ Built in sprint 005 (korg 3364).
   main-spine frame (or extends the trail already branching from it). `both`
   adds one main-spine frame and a trail from it. Any of them may turn a
   kept answer into content, when the anchor becomes the kept answer's
-  frame.
+  frame. A reader grows from their own kept answers: the job reads it from
+  the store of the reader who queued it (`by`), and once the job commits,
+  the kept answer records the frames it grew into (§Kept answers).
 - **The instructions are a skill in the repo**, `skills/grow/SKILL.md`,
   not prompt strings in code. It is the system prompt, frontmatter
   stripped, and the seed of the framework's "generate a subject" skill. It
@@ -505,7 +516,7 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   3391). Moving along the spine turns the reading to that frame. Separate
   movement was the first default, with a "Sync Narrative" button, and it
   proved the wrong one in use. Not following is a reader setting,
-  "Narrative: Stays until S", in the settings control (`kloom.followSpine`).
+  "Narrative: Stays until synced", in the settings control (`kloom.followSpine`).
   With it, the reading stays put until S brings it to the spine, and the
   toolbar's status line says where each one is. The button is gone; S
   remains.
@@ -515,15 +526,27 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   ends); Up/Down scroll the narrative; S syncs the narrative; T enters the
   trail branching from the current frame and Esc leaves it (S matters only
   when the reader has turned following off); B bookmarks the frame on the
-  spine, or removes its bookmark (§Reader data); Tab moves into
+  spine, or removes its bookmark (§Reader data); N adds a note (§Notes);
+  Tab moves into
   and out of the AI pane, and Esc anywhere in it returns to the spine. In the
   tabs layout, the arrows on a tab move between the tabs, and on a divider
   they move the divider (§Layout). Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
 - **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
-  T and B act only while focus is inside the spine or the narrative pane. They
-  do nothing in the AI pane, in the settings panel, or on the bare page.
+  T, B and N act only while focus is inside the spine, the narrative or the
+  notes. They do nothing in the AI pane, in the settings panel, in the note
+  editor, or on the bare page.
+- **And remappable** (WCAG 2.1.4's other remedy, sprint 011, korg 3363).
+  Each character shortcut is a setting under "Keys": any letter, or Off
+  (`kloom.key.sync`, `.trail`, `.bookmark`, `.note`). `keymapOf` turns the
+  settings into a keymap and `pageKey` reads it. The help bar, the Add a note
+  button, the trail buttons and the sync line all show the reader's letters,
+  and leave a key out when it is off. A letter given to two shortcuts is
+  allowed: the first in `SHORTCUTS` order acts, and the settings panel says
+  which. The arrows, Home/End, Esc and Tab are not remappable. They are not
+  character keys, so 2.1.4 does not reach them, and they are the slider's,
+  tabs' and splitter's own ARIA keys, which assistive technology expects.
   The arrows, Home/End and Esc are not character keys, so they stay
   page-wide, except in a text field or an element marked `data-own-keys`.
   The hint bar says so. Visible focus, ARIA
@@ -668,7 +691,7 @@ has an author. So it lives in a database, not in the repo.
 
 - **A store behind an interface.** `ReaderStore` (`engine/reader-data.ts`)
   is written in engine terms, with methods per kind of record. Its one
-  adapter is SQLite (`src/lib/server/reader-store.ts`): a single file,
+  adapter is SQLite (`src/lib/server/sqlite-reader-store.ts`): a single file,
   `<dataDir>/reader.db`, in WAL mode. The methods are async although SQLite
   answers at once, so a Postgres adapter (kubsdb) can be added later
   without touching callers. It is not built.
@@ -713,19 +736,106 @@ user_version` counts how many a file has had, and opening it runs the
   a named remove button. Writes are optimistic and roll back if the server
   refuses them.
 - **Routes** (`src/routes/api/reader/`). `POST place`, `GET`/`POST`/`DELETE
-bookmarks`, `GET export` and `POST import`. A place or bookmark must name
-  a served subject (404) and a frame that subject has on disk (400).
+bookmarks`, `GET`/`POST`/`DELETE notes`, `GET`/`DELETE kept`, `GET export`
+  and `POST import`. A place, bookmark or note must name a served subject
+  (404) and a frame that subject has on disk (400).
 - **Export and import.** The export is a versioned JSON file
-  (`kloom: "reader-data"`, `version: 1`) of every place and bookmark, and
-  it downloads from the jump list's _Export my reading data_. Import takes
+  (`kloom: "reader-data"`, `version: 2`) of every place, bookmark, note and
+  kept answer, and it downloads from the jump list's _Export my reading
+  data_. A version 1 file (sprint 009's) still imports, as one with no
+  notes or kept answers. Import takes
   that file as the body of `POST /api/reader/import`. It files the records
   under whoever imports them, and where both hold a record, the newer one
   wins. One bad record refuses the whole file. There is no import button
   yet: it is for backup and for moving between hosts, not an everyday
   action.
-- **Not yet on it:** notes (3409), kept answers (3390, moving
-  `<dataDir>/<subject>/kept/*.json` in), and annotations. Each gets its own
-  methods and its own migration, keyed the same way.
+- **On it since sprint 011:** notes (§Notes) and kept answers (§Kept
+  answers), each with its own table, added by the second migration. Still to
+  come: annotations (korg 3415), keyed the same way.
+- **The adapter loads under plain Node.** `sqlite-reader-store.ts` imports
+  only `node:` modules and types, so Node's type stripping can load it
+  outside the app. The review-notes skill's script does that (§Notes), and so
+  reaches the store through its adapter, never around it. `reader-store.ts`
+  holds the app's shared instance. A test runs the script, so an adapter
+  that stops loading this way fails the gate.
+
+## Marks
+
+The reader's own layer on the spine (sprint 011). The content's mark, a ring
+for a trail branching from a frame, sits **above** the line. The reader's
+marks sit **below** it, each kind in a fixed row and shape, whether or not
+the others are there:
+
+1. a **bookmark**: a small filled flag;
+2. **kept answers**: a filled dot;
+3. **notes**: two short lines, like ruled paper.
+
+A mark is never shape alone. `marksText` (`engine/marks.ts`) says the same
+facts in words ("bookmarked", "2 kept answers", "1 note"), and the tick's
+title, the slider's `aria-valuetext` and the spine announcement all use it.
+
+## Notes
+
+Built in sprint 011 (korg 3409). A note is plain text a reader writes on a
+frame, kept per reader in the reader store. It is never rendered as markup.
+
+- **The scene becomes the editor.** "Add a note" (on the Notes tab) or N
+  (in the spine, narrative or notes) replaces the scene with a text box, on
+  the frame in the reading pane. The HUD and the timeline stay, and so does
+  the right-hand pane: the reader can still scroll the narrative, or read
+  their other notes on the Notes tab. Saving brings the picture back and
+  returns focus to where the editor was opened from. Ctrl (or Cmd) with
+  Enter saves; Esc cancels. The editor is marked `data-own-keys`, so every
+  key typed there stays there.
+- **The Notes tab** lists the frame's notes, oldest first, each with its
+  date, an Edit and a Delete button (named with the note's opening words),
+  and its review state. Edit opens the note in the editor. Delete asks
+  first. The list says which note is in the editor.
+- **Unsaved changes are guarded.** With changes not saved, moving along the
+  spine (a key, a click on the timeline, the wheel, a bookmark jump),
+  entering or leaving a trail, or opening another note asks "Discard
+  them?". The answer No stays put. Leaving the subject asks the same, and a
+  reload or closing the tab gets the browser's own question
+  (`beforeNavigate`). A clean editor closes without asking.
+- **"Agent review".** A box in the editor flags the note for an agent. The
+  **review-notes skill** (`skills/review-notes/SKILL.md`) finds every
+  flagged note with its reader, subject, frame and text
+  (`review-notes.mjs list`), deals with it, and marks it handled with what
+  it did (`handle`). The reader sees that response under the note. Ticking
+  the box again flags it afresh and clears the old response. Unticking a
+  flagged note unflags it. A handled note stays handled.
+- **An edit keeps its frame.** A note belongs to the frame it was written
+  on. It also keeps the frame's title as its label, like a bookmark.
+
+## Kept answers
+
+Built in sprint 011 (korg 3390). An answer the reader kept is theirs to
+read again, not only grow's to consume.
+
+- **In the reader store**, one row per reader and answer, holding the
+  kept-answer format (§Ask) whole, so grow reads exactly what it read
+  before. A kept answer belongs to whoever kept it. Grow reads one only for
+  the reader who queued the job.
+- **Moved in once.** At server start, any `<dataDir>/<subject>/kept/*.json`
+  from before sprint 011 moves in under `$KLOOM_KEPT_OWNER`, or the host's
+  own reader (`user@host`), because the files never said who kept them.
+  Each moved file goes to `kept-migrated/` beside it. A file that is not a
+  valid kept answer stays and is logged. A finished grow job that used one
+  says what it grew into, and that comes too.
+- **Seen again, on the spine and in the reading.** A frame with kept answers
+  gets the dot under the line (§Marks). The reading gets a **Q&A** section
+  after its trails: a native `<details>`, closed by default, labelled with
+  the count. The page load brings only the counts per frame. The answers
+  are fetched (`GET /api/reader/kept?subject=&frame=`) when the section is
+  first opened. Each shows its question and its answer, rendered as ask
+  renders one (no images), and the frame citations it drew on. They are
+  numbered by the `[n]` the answer marks them with, recovered by pairing the
+  answer's first-use order with the stored citations (`keptReferences`).
+  When the frame's list no longer pairs up, they are listed unnumbered.
+- **After grow.** A kept answer that grow turned into content **stays** in
+  the Q&A, marked "Grown into" with a link to each frame it made. The
+  answer is still what the reader asked, and the link shows where it went.
+- **Remove** (with a question first) forgets a kept answer.
 
 ## Start screen
 
@@ -875,6 +985,9 @@ Built in sprint 003 (korg 3373, 3372).
   Opus 5.5 by default, `kloom.growModel`.
 - **The layout** (sprint 010) is a row too: "Layout", two panes with tabs by
   default, `kloom.layout` (§Layout).
+- **Keys** (sprint 011): one row per character shortcut, gathered under a
+  "Keys" heading (a setting's optional `group`), each any letter or Off
+  (§Interaction). The panel scrolls when it outgrows the window.
 - **The registry.** `engine/settings.ts` defines a `Setting` as
   `{id, label, choices: [{value, label}], default, storageKey}`. Every
   setting is a pick from a fixed list, and there is no free-text kind. A
@@ -897,14 +1010,14 @@ Built in sprint 003 (korg 3373, 3372).
   click outside it (without moving focus). Tab runs gear, then the panel's
   controls, in document order.
 - **Page keys stand down inside it.** The panel carries `data-own-keys`,
-  and the shell ignores its page-wide keys (arrows, S, T, Esc) for any
+  and the shell ignores its page-wide keys (arrows, the shortcuts, Esc) for any
   target inside such an element. A closed gear is an ordinary button, so the
   arrows still move the spine from it.
-- **Placement:** the end of the narrative's toolbar, beside the other user
-  setting. It is clear of the spine's corner brackets, and it wraps with the
-  toolbar at phone width.
+- **Placement:** the end of the tab row at the head of the right-hand pane,
+  in every layout (§Layout; it sat at the end of the narrative's toolbar
+  until sprint 011). It is clear of the spine's corner brackets.
 - **Narrative following** (sprint 006, korg 3391) is a row in the registry,
-  "Narrative": _Follows the spine_ (the default) or _Stays until S_, stored
+  "Narrative": _Follows the spine_ (the default) or _Stays until synced_, stored
   under `kloom.followSpine`. It sat in the toolbar as a checkbox beside the
   Sync Narrative button until that button went. The old `kloom.sync` key is
   not read, so everyone starts on the new default.

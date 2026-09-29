@@ -21,8 +21,10 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 	]);
 	if (params.frame && !subject.frames[params.frame]) redirect(307, `/${subject.id}`);
 
-	// The reader's own data (korg 3413, 3414). Records naming a subject that
-	// is no longer served, or a frame this subject no longer has, are left out.
+	// The reader's own data (korg 3413, 3414, 3409, 3390). Records naming a
+	// subject that is no longer served, or a frame this subject no longer has,
+	// are left out. Notes come whole; kept answers only as counts per frame,
+	// for the spine's marks, and their bodies when the Q&A section opens.
 	// A store that fails costs the reader their places, never the page.
 	const titleOf = new Map(subjects.map((s) => [s.id, s.title]));
 	const live = <T extends Place | Bookmark>(r: T | null): Placed<T> | null =>
@@ -34,15 +36,20 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		try {
 			const store = readerStore();
 			const login = locals.reader.login;
-			const [here, last, marks] = await Promise.all([
+			const [here, last, marks, notes, kept] = await Promise.all([
 				store.lastVisited(login, subject.id),
 				store.lastVisited(login),
-				store.bookmarks(login)
+				store.bookmarks(login),
+				store.notes(login, subject.id),
+				store.keptCounts(login, subject.id)
 			]);
+			const onFrame = (id: string) => Object.hasOwn(subject.frames, id);
 			readerData = {
 				here: live(here),
 				last: last?.subject === subject.id ? null : live(last),
-				bookmarks: marks.map(live).filter((b) => b !== null)
+				bookmarks: marks.map(live).filter((b) => b !== null),
+				notes: notes.filter((n) => onFrame(n.frame)),
+				kept: Object.fromEntries(Object.entries(kept).filter(([id]) => onFrame(id)))
 			};
 		} catch (e) {
 			console.error('reader data: could not read the store', e);

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { pageKey, splitKey, tabKey, type KeyTarget } from './keys';
+import { DEFAULT_KEYS, keyClashes, pageKey, splitKey, tabKey, type KeyTarget } from './keys';
 
 /** A stand-in element whose ancestors (itself included) match these selectors. */
 const at = (...matches: string[]): KeyTarget => ({
@@ -8,6 +8,7 @@ const at = (...matches: string[]): KeyTarget => ({
 
 const slider = at('.spine');
 const reading = at('.narrative');
+const notes = at('.notes');
 const gear = at('.narrative', 'button');
 const askBox = at('.ai', 'textarea');
 const sendButton = at('.ai', 'button');
@@ -26,8 +27,10 @@ describe('page keys', () => {
 		expect(pageKey('ArrowDown', settingsSelect)).toBeNull();
 	});
 
-	it('acts on S, T and B only in the spine or the narrative (WCAG 2.1.4)', () => {
-		for (const t of [slider, reading, gear]) {
+	it('acts on S, T, B and N only in the spine, the narrative or the notes (WCAG 2.1.4)', () => {
+		for (const t of [slider, reading, gear, notes]) {
+			expect(pageKey('n', t)).toBe('note');
+			expect(pageKey('N', t)).toBe('note');
 			expect(pageKey('s', t)).toBe('sync');
 			expect(pageKey('S', t)).toBe('sync');
 			expect(pageKey('t', t)).toBe('trail');
@@ -39,7 +42,26 @@ describe('page keys', () => {
 			expect(pageKey('s', t)).toBeNull();
 			expect(pageKey('t', t)).toBeNull();
 			expect(pageKey('b', t)).toBeNull();
+			expect(pageKey('n', t)).toBeNull();
 		}
+	});
+
+	it('follows the reader’s keymap: a letter moved, and one turned off (korg 3363)', () => {
+		const keys = { ...DEFAULT_KEYS, sync: 'y', bookmark: null };
+		expect(pageKey('y', slider, keys)).toBe('sync');
+		expect(pageKey('Y', slider, keys)).toBe('sync');
+		expect(pageKey('s', slider, keys)).toBeNull();
+		expect(pageKey('b', slider, keys)).toBeNull();
+		expect(pageKey('t', slider, keys)).toBe('trail');
+		// Still scoped: a remapped key types in the AI pane.
+		expect(pageKey('y', askBox, keys)).toBeNull();
+	});
+
+	it('names a letter given to two shortcuts, and the first one acts', () => {
+		const keys = { ...DEFAULT_KEYS, note: 'b' };
+		expect(keyClashes(DEFAULT_KEYS)).toEqual([]);
+		expect(keyClashes(keys)).toEqual([{ key: 'b', actions: ['bookmark', 'note'] }]);
+		expect(pageKey('b', slider, keys)).toBe('bookmark');
 	});
 
 	it('sends Esc from anywhere in the AI pane back to the spine, text box included', () => {

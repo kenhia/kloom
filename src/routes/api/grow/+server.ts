@@ -42,7 +42,8 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 	if (body?.kept !== undefined && body.kept !== null) {
 		if (typeof body.kept !== 'string' || !ANSWER_ID.test(body.kept))
 			error(400, 'kept must be a kept answer id.');
-		const file = (await readKept(name, body.kept)) as { anchor: { frame: string } } | null;
+		// The hook refused a write without a reader, so there is one.
+		const file = await readKept(locals.reader!.login, name, body.kept);
 		if (!file) error(404, 'That kept answer is gone or malformed.');
 		kept = body.kept;
 		anchor = file.anchor.frame;

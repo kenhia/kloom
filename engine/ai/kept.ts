@@ -76,6 +76,23 @@ export function keptAnswer(a: Answer, keptAt: Date, webCitations?: Citation[]): 
 	};
 }
 
+/**
+ * The frame citations a kept answer drew on, each with the number the answer
+ * marks it by. Keeping stored them in the order the answer first marked them,
+ * so pairing that order with the numbers the answer marks gives each one its
+ * number back. `count` is how many citations the frame has (numbers past it
+ * were never references). When the two do not pair up (the frame's list has
+ * changed since), the numbers are null and the list is shown unnumbered.
+ */
+export function keptReferences(
+	k: Pick<KeptAnswer, 'answer' | 'citations'>,
+	count: number
+): { n: number | null; citation: Citation }[] {
+	const numbers = citedNumbers(k.answer, count);
+	const paired = numbers.length === k.citations.length;
+	return k.citations.map((citation, i) => ({ n: paired ? numbers[i] : null, citation }));
+}
+
 /** An answer id: when it was asked, and a random tail. Safe as a file name. */
 export const ANSWER_ID = /^\d{8}T\d{6}Z-[0-9a-f]{8}$/;
 

@@ -3,9 +3,11 @@
  * means, given where focus is. The shell listens on the window and acts on
  * the answer.
  *
- * S, T and B are single-character shortcuts, so WCAG 2.1.4 applies: they act
- * only while focus is in the spine or the narrative pane, never in the AI
- * pane, the settings panel or on the bare page (korg 3366).
+ * S, T, B and N are single-character shortcuts, so WCAG 2.1.4 applies. They
+ * act only while focus is in the spine, the narrative or the notes (korg
+ * 3366), never in the AI pane, the settings panel or on the bare page. And
+ * the reader can remap each to another letter or turn it off (korg 3363):
+ * the keymap is theirs, from the settings.
  */
 
 export type PageKey =
@@ -19,7 +21,40 @@ export type PageKey =
 	| 'trail'
 	| 'leave-trail'
 	| 'bookmark'
+	| 'note'
 	| 'to-spine';
+
+/** The character shortcuts: the page keys a reader may remap or turn off. */
+export type Shortcut = 'sync' | 'trail' | 'bookmark' | 'note';
+
+/** Each shortcut, what it does in a few words, and its letter out of the box. */
+export const SHORTCUTS: { action: Shortcut; label: string; key: string }[] = [
+	{ action: 'sync', label: 'sync the narrative', key: 's' },
+	{ action: 'trail', label: 'enter a trail', key: 't' },
+	{ action: 'bookmark', label: 'bookmark', key: 'b' },
+	{ action: 'note', label: 'add a note', key: 'n' }
+];
+
+/** Which lower-case letter does what; null is turned off. */
+export type Keymap = Record<Shortcut, string | null>;
+
+export const DEFAULT_KEYS = Object.fromEntries(SHORTCUTS.map((s) => [s.action, s.key])) as Keymap;
+
+/** A key as the reader sees it written: the letter in capitals. */
+export const keyName = (key: string) => key.toUpperCase();
+
+/**
+ * Letters the keymap gives to more than one shortcut. The first in
+ * `SHORTCUTS` order acts; the settings say so.
+ */
+export function keyClashes(keys: Keymap): { key: string; actions: Shortcut[] }[] {
+	const by = new Map<string, Shortcut[]>();
+	for (const { action } of SHORTCUTS) {
+		const k = keys[action];
+		if (k) by.set(k, [...(by.get(k) ?? []), action]);
+	}
+	return [...by].filter(([, a]) => a.length > 1).map(([key, actions]) => ({ key, actions }));
+}
 
 /** The part of an element this needs: tests pass a stand-in. */
 export interface KeyTarget {
@@ -30,13 +65,22 @@ export interface KeyTarget {
 export const OWN_KEYS =
 	'input[type="text"], input[type="search"], textarea, select, [contenteditable="true"], [data-own-keys]';
 
-/** Where the character shortcuts (S, T, B) act. */
-export const SHORTCUT_PANES = '.spine, .narrative';
+/** Where the character shortcuts act. */
+export const SHORTCUT_PANES = '.spine, .narrative, .notes';
 
-export function pageKey(key: string, target: KeyTarget | null): PageKey | null {
+export function pageKey(
+	key: string,
+	target: KeyTarget | null,
+	keys: Keymap = DEFAULT_KEYS
+): PageKey | null {
 	const within = (selectors: string) => !!target?.closest(selectors);
 	if (key === 'Escape' && within('.ai')) return 'to-spine';
 	if (within(OWN_KEYS)) return null;
+	if (key.length === 1) {
+		const letter = key.toLowerCase();
+		const action = SHORTCUTS.find((s) => keys[s.action] === letter)?.action;
+		return action && within(SHORTCUT_PANES) ? action : null;
+	}
 	switch (key) {
 		case 'ArrowRight':
 			return 'next';
@@ -50,15 +94,6 @@ export function pageKey(key: string, target: KeyTarget | null): PageKey | null {
 			return 'scroll-down';
 		case 'ArrowUp':
 			return 'scroll-up';
-		case 's':
-		case 'S':
-			return within(SHORTCUT_PANES) ? 'sync' : null;
-		case 't':
-		case 'T':
-			return within(SHORTCUT_PANES) ? 'trail' : null;
-		case 'b':
-		case 'B':
-			return within(SHORTCUT_PANES) ? 'bookmark' : null;
 		case 'Escape':
 			return 'leave-trail';
 		default:

@@ -36,6 +36,8 @@
 		onshow?: () => void;
 		/** What the tab can say about the pane changed: working, or a result not yet seen. */
 		onactivity?: (activity: 'idle' | 'working' | 'ready') => void;
+		/** An answer was kept, on this frame: its Q&A and spine mark count it. */
+		onkept?: (frame: string) => void;
 	}
 
 	let {
@@ -50,7 +52,8 @@
 		layout = 'strip',
 		showResults = true,
 		onshow,
-		onactivity
+		onactivity,
+		onkept
 	}: Props = $props();
 
 	type Phase = 'asking' | 'queued' | 'answering' | 'done' | 'stopped' | 'failed';
@@ -193,7 +196,8 @@
 			const body = await res.json().catch(() => null);
 			if (!res.ok) throw new Error(body?.message ?? `status ${res.status}`);
 			t.kept = 'kept';
-			status = 'Kept. Grow can turn it into content.';
+			onkept?.(t.frame);
+			status = 'Kept, in the frame’s Q&A. Grow can turn it into content.';
 		} catch (e) {
 			t.kept = 'no';
 			status = `Could not keep it: ${(e as Error).message}`;

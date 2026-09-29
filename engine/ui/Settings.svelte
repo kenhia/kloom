@@ -3,9 +3,11 @@
 
 	interface Props {
 		settings: UserSettings;
+		/** Things to say about the choices as they stand (two shortcuts on one key, say). */
+		warnings?: string[];
 	}
 
-	let { settings }: Props = $props();
+	let { settings, warnings = [] }: Props = $props();
 
 	const id = $props.id();
 	let open = $state(false);
@@ -64,7 +66,7 @@
 		<span class="visually-hidden">Settings</span>
 	</button>
 
-	<!-- The page's own keys (arrows, S, T) stand down in here: data-own-keys. -->
+	<!-- The page's own keys (arrows and the shortcuts) stand down in here: data-own-keys. -->
 	<div
 		id="{id}-panel"
 		class="panel"
@@ -74,7 +76,10 @@
 		hidden={!open}
 	>
 		<p id="{id}-title" class="title">Settings</p>
-		{#each settings.list as setting (setting.id)}
+		{#each settings.list as setting, i (setting.id)}
+			{#if setting.group && setting.group !== settings.list[i - 1]?.group}
+				<p class="group">{setting.group}</p>
+			{/if}
 			<label for="{id}-{setting.id}">{setting.label}</label>
 			<select
 				id="{id}-{setting.id}"
@@ -86,6 +91,9 @@
 					<option value={choice.value}>{choice.label}</option>
 				{/each}
 			</select>
+		{/each}
+		{#each warnings as w (w)}
+			<p class="warning" role="status">{w}</p>
 		{/each}
 		<p class="note">Remembered in this browser.</p>
 	</div>
@@ -128,6 +136,8 @@
 		gap: 0.5rem 0.75rem;
 		width: max-content;
 		max-width: min(22rem, calc(100vw - 2rem));
+		max-height: min(32rem, calc(100dvh - 6rem));
+		overflow-y: auto;
 		padding: 0.75rem 1rem;
 		color: var(--ink);
 		background: var(--background);
@@ -139,11 +149,23 @@
 		display: none;
 	}
 	.title,
-	.note {
+	.group,
+	.note,
+	.warning {
 		grid-column: 1 / -1;
 		margin: 0;
 	}
-	.title {
+	.group {
+		margin-top: 0.35rem;
+		padding-top: 0.5rem;
+		border-top: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
+	}
+	.warning {
+		font-size: 0.8rem;
+		color: var(--accent);
+	}
+	.title,
+	.group {
 		font-family: var(--mono);
 		font-size: 0.75rem;
 		letter-spacing: 0.12em;

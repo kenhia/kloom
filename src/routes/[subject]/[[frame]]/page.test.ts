@@ -3,7 +3,8 @@ import { render } from 'svelte/server';
 import { beforeAll, describe, expect, it } from 'vitest';
 import { loadSubject } from '$engine/load';
 import type { Subject } from '$engine/model';
-import { followSpine, layout, paletteMode } from '$engine/settings';
+import { followSpine, keySettings, layout, paletteMode } from '$engine/settings';
+import type { Note, ReaderLayer } from '$engine/reader-data';
 import Shell from '$engine/ui/Shell.svelte';
 import { UserSettings } from '$engine/user-settings.svelte';
 import Page from './+page.svelte';
@@ -33,7 +34,13 @@ const subjects = [
 ];
 
 /** Visible text: tags dropped, spaces collapsed. */
-const text = (html: string) => html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
+const text = (html: string) =>
+	html
+		.replace(/<[^>]*>/g, ' ')
+		.replace(/&nbsp;/g, ' ')
+		.replace(/\s+/g, ' ');
+/** Visible text as it reads: a tag boundary before punctuation adds no space. */
+const said = (html: string) => text(html).replace(/ ([,:.;])/g, '$1');
 
 describe('the shell', () => {
 	it('titles the page after the subject', () => {
@@ -97,9 +104,9 @@ describe('the shell', () => {
 		expect(page().body).toMatch(/<button type="submit"[^>]*>\s*Ask\s*<\/button>/);
 	});
 
-	it('says in the hint bar that S, T and B act from the spine or narrative only', () => {
-		const hint = text(page().body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
-		expect(hint).toContain('S sync, T trail and B bookmark, in the spine or narrative');
+	it('says in the hint bar that S and T act from the spine or narrative only', () => {
+		const hint = said(page().body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
+		expect(hint).toContain('S sync and T trail, in the spine or narrative');
 	});
 
 	it('opens on a start screen, with the shell inert behind it', () => {
@@ -155,12 +162,26 @@ describe('the settings control', () => {
 		expect(body.indexOf('class="gear')).toBeLessThan(body.indexOf('id="sync-state"'));
 	});
 
-	it('sits in the narrative toolbar, after the sync state, in the other layouts', () => {
+	it('sits in the row heading the right-hand pane in the other layouts too', () => {
 		const settings = new UserSettings([layout], () => null);
 		settings.set('layout', 'columns');
 		const { body } = render(Shell, { props: { subject, settings } });
-		expect(body.indexOf('id="sync-state"')).toBeLessThan(body.indexOf('class="gear'));
-		expect(body.indexOf('class="gear')).toBeLessThan(body.indexOf('<article'));
+		expect(body.indexOf('class="tab-row')).toBeLessThan(body.indexOf('class="gear'));
+		expect(body.indexOf('class="gear')).toBeLessThan(body.indexOf('id="sync-state"'));
+	});
+
+	it('gathers the shortcut keys under Keys, each a letter or off (korg 3363)', () => {
+		const { body } = page();
+		expect(body).toMatch(/<p class="group[^"]*">Keys<\/p>/);
+		for (const label of ['Sync the narrative', 'Enter a trail', 'Bookmark', 'Add a note'])
+			expect(body).toMatch(new RegExp(`<label for="[^"]+"[^>]*>${label}</label>`));
+		const id = /<label for="([^"]+)"[^>]*>Add a note<\/label>/.exec(body)![1];
+		const select = body.slice(
+			body.indexOf(`id="${id}"`),
+			body.indexOf('</select>', body.indexOf(`id="${id}"`))
+		);
+		expect(select).toMatch(/<option value="n"[^>]*selected[^>]*>N</);
+		expect(select).toMatch(/<option value="off"[^>]*>Off</);
 	});
 
 	it('renders each setting as a labelled select, starting at its default', () => {
@@ -192,7 +213,7 @@ describe('narrative following', () => {
 		expect(body).toMatch(
 			new RegExp(`<select id="${id}"[^>]*>[\\s\\S]*?<option value="follow"[^>]*selected`)
 		);
-		expect(text(body)).toContain('Stays until S');
+		expect(text(body)).toContain('Stays until synced');
 	});
 
 	it('says the reading is in step when the reader has turned following off', () => {
@@ -335,7 +356,9 @@ describe('reader data on the page', () => {
 		const body = withReader({ bookmarks: [mark('prometheus'), mark('alexnet', 'ai', 'AI')] });
 		expect(body).toMatch(/<button[^>]*aria-pressed="true"/);
 		expect(body).toMatch(/role="slider"[^>]*aria-valuetext="[^"]*, bookmarked"/);
-		expect(body).toMatch(/class="tick[^"]*\bmarked\b[^"]*"[^>]*title="[^"]*\(bookmarked\)"/);
+		expect(body).toMatch(
+			/class="tick[^"]*"[^>]*title="[^"]*, bookmarked"[^>]*>(<!--[^>]*-->)*<span class="marks[^"]*" aria-hidden="true">(<!--[^>]*-->)*<span class="mark bookmark/
+		);
 		expect(body).toContain('Bookmarks (2)');
 		// This subject's bookmark moves the shell; the other subject's is a link to it.
 		expect(body).toContain('href="/western-civ/prometheus"');
@@ -444,5 +467,123 @@ describe('the layout', () => {
 		const hint = body.indexOf('<p id="ai-hint"');
 		expect(hint).toBeGreaterThan(body.lastIndexOf('role="separator"'));
 		expect(text(body.slice(hint))).toContain('drag a divider');
+	});
+});
+
+describe('the reader’s keys', () => {
+	const shell = (keys: Record<string, string>) => {
+		const settings = new UserSettings([layout, ...keySettings], () => null);
+		for (const [k, v] of Object.entries(keys)) settings.set(`key.${k}`, v);
+		return render(Shell, { props: { subject, settings } }).body;
+	};
+
+	it('name the reader’s letters in the help, and leave out one turned off', () => {
+		const hint = said(shell({ sync: 'y', trail: 'off' }).match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
+		expect(hint).toContain('Y sync, in the spine or narrative');
+		expect(hint).not.toContain('T trail');
+	});
+
+	it('say in the settings when one letter is set for two shortcuts', () => {
+		expect(said(shell({ trail: 's' }))).toContain(
+			'S is set for sync the narrative and enter a trail; it will sync the narrative.'
+		);
+		expect(shell({})).not.toContain('class="warning');
+	});
+});
+
+describe('the reader’s layer on a frame', () => {
+	const at = '2026-09-28T12:00:00.000Z';
+	const first = 'prometheus';
+	const note = (over: Partial<Note> = {}): Note => ({
+		id: 'n1',
+		subject: 'western-civ',
+		frame: first,
+		label: 'We stole FIRE.',
+		text: 'Why a liver?',
+		review: 'none',
+		response: null,
+		created: at,
+		updated: at,
+		...over
+	});
+	const layer = (over: Partial<ReaderLayer> = {}): ReaderLayer => ({
+		notes: [],
+		kept: {},
+		saveNote: async () => null,
+		deleteNote: async () => false,
+		keptOn: async () => [],
+		forget: async () => false,
+		onkept: () => {},
+		...over
+	});
+	const shell = (l: ReaderLayer | null, shape = 'tabs') => {
+		const settings = new UserSettings([layout], () => null);
+		settings.set('layout', shape);
+		return render(Shell, { props: { subject, settings, layer: l } }).body;
+	};
+
+	it('adds a Notes tab beside Narrative, in every layout, when there is a reader', () => {
+		for (const shape of ['tabs', 'columns', 'strip', 'split']) {
+			const body = shell(layer(), shape);
+			expect(body).toMatch(
+				/role="tab" id="tab-notes" aria-selected="false" aria-controls="notes-panel"/
+			);
+			expect(body).toMatch(
+				/<div id="notes-panel" class="notes[^"]*" role="tabpanel" aria-labelledby="tab-notes" hidden/
+			);
+		}
+		expect(shell(layer())).toMatch(/id="tab-narrative"[\s\S]*id="tab-notes"[\s\S]*id="tab-ai"/);
+	});
+
+	it('has no Notes tab, panel or note key without a reader', () => {
+		const body = shell(null, 'columns');
+		expect(body).not.toContain('notes-panel');
+		expect(body).not.toContain('role="tablist"');
+		expect(said(body)).not.toContain('N note');
+	});
+
+	it('lists the frame’s notes, flagged and handled ones saying so, and counts them on the tab', () => {
+		const body = shell(
+			layer({
+				notes: [
+					note(),
+					note({ id: 'n2', text: 'Reword this.', review: 'flagged' }),
+					note({ id: 'n3', text: 'Odd date.', review: 'handled', response: 'Fixed the date.' }),
+					note({ id: 'n4', frame: 'printing-press', text: 'Not this frame.' })
+				]
+			})
+		);
+		const panel = said(body.slice(body.indexOf('id="notes-panel"')));
+		expect(panel).toContain('Why a liver?');
+		expect(panel).toContain('flagged for agent review');
+		expect(panel).toContain('Agent: Fixed the date.');
+		expect(panel).not.toContain('Not this frame.');
+		expect(panel).toContain('Edit: Why a liver?');
+		expect(panel).toContain('Delete: Why a liver?');
+		expect(said(body)).toContain('Notes 3, 3 on this frame');
+	});
+
+	it('marks kept answers and notes under the line, and says so in words', () => {
+		const body = shell(layer({ notes: [note()], kept: { [first]: 2 } }));
+		expect(body).toMatch(/role="slider"[^>]*aria-valuetext="[^"]*, 2 kept answers, 1 note"/);
+		expect(body).toMatch(
+			/title="[^"]*, 2 kept answers, 1 note"[^>]*>(<!--[^>]*-->)*<span class="marks[^"]*" aria-hidden="true">(<!--[^>]*-->|\s)*<span class="mark kept[^"]*"><\/span>(<!--[^>]*-->|\s)*<span class="mark note/
+		);
+		expect(said(body)).toContain('2 kept answers, 1 note.');
+	});
+
+	it('offers the frame’s kept answers as a closed Q&A section, only where there are some', () => {
+		const body = shell(layer({ kept: { [first]: 2 } }));
+		expect(body).toMatch(/<details class="qa[^"]*">\s*<summary[^>]*>Q&amp;A \(2\)<\/summary>/);
+		expect(body).not.toMatch(/<details class="qa[^"]*"[^>]*\bopen/);
+		expect(shell(layer())).not.toContain('class="qa');
+	});
+
+	it('says N adds a note, in the help and on the Add button', () => {
+		const body = shell(layer());
+		expect(said(body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0])).toContain(
+			'S sync, T trail and N note, in the spine, narrative or notes'
+		);
+		expect(said(body)).toContain('Add a note N');
 	});
 });

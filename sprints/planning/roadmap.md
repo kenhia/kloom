@@ -64,9 +64,23 @@
   (3414). Deep links (`/<subject>/<frame>`) came with them —
   [record](../009-reader-data.md).
 
+- Sprint 010: the AI pane's layout (proposal 3419). Four layouts built and
+  compared as a reader setting; Ken's pick is two panes with Narrative and
+  AI tabs, three columns the alternative (3377). Draggable pane dividers,
+  and one Ask/Grow control (3411) —
+  [record](../010-ai-pane-layout-one-control.md).
+
+- Sprint 011: the reader's layer on a frame (proposal 3420). Notes written
+  in place of the scene, with a Notes tab, an unsaved-changes guard and an
+  "Agent review" flag the review-notes skill works through (3409). Kept
+  answers move into the reader store and are seen again, as a spine mark and
+  a Q&A section (3390). The character shortcuts become remappable (3363) —
+  [record](../011-readers-layer.md).
+
 ## Next
 
-- Layouts for the AI pane (korg 3377): it now holds ask and grow.
+- Annotations: notes on a selected range of a reading, with the same
+  agent-review flag (korg 3415).
 
 ## Later
 
