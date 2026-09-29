@@ -3,7 +3,7 @@
  * means, given where focus is. The shell listens on the window and acts on
  * the answer.
  *
- * S, T, B and N are single-character shortcuts, so WCAG 2.1.4 applies. They
+ * S, T, B, N and A are single-character shortcuts, so WCAG 2.1.4 applies. They
  * act only while focus is in the spine, the narrative or the notes (korg
  * 3366), never in the AI pane, the settings panel or on the bare page. And
  * the reader can remap each to another letter or turn it off (korg 3363):
@@ -22,17 +22,19 @@ export type PageKey =
 	| 'leave-trail'
 	| 'bookmark'
 	| 'note'
+	| 'annotate'
 	| 'to-spine';
 
 /** The character shortcuts: the page keys a reader may remap or turn off. */
-export type Shortcut = 'sync' | 'trail' | 'bookmark' | 'note';
+export type Shortcut = 'sync' | 'trail' | 'bookmark' | 'note' | 'annotate';
 
 /** Each shortcut, what it does in a few words, and its letter out of the box. */
 export const SHORTCUTS: { action: Shortcut; label: string; key: string }[] = [
 	{ action: 'sync', label: 'sync the narrative', key: 's' },
 	{ action: 'trail', label: 'enter a trail', key: 't' },
 	{ action: 'bookmark', label: 'bookmark', key: 'b' },
-	{ action: 'note', label: 'add a note', key: 'n' }
+	{ action: 'note', label: 'add a note', key: 'n' },
+	{ action: 'annotate', label: 'annotate the reading', key: 'a' }
 ];
 
 /** Which lower-case letter does what; null is turned off. */

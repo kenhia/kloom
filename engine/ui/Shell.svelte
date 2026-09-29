@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { onMount, untrack } from 'svelte';
+	import { onMount, tick, untrack } from 'svelte';
 	import type { AiOffer } from '../ai/provider';
+	import type { Anchor } from '../anchor';
 	import type { Frame, Subject, Trail } from '../model';
 	import type { JumpItem, Note, ReaderLayer } from '../reader-data';
 	import { clamp, indexLabel, stops, WheelGate, type SyncMode } from '../navigation';
@@ -28,7 +29,7 @@
 	import type { UserSettings } from '../user-settings.svelte';
 	import AiPane from './AiPane.svelte';
 	import Bookmarks from './Bookmarks.svelte';
-	import Narrative, { type QaOffer } from './Narrative.svelte';
+	import Narrative, { type AnnotationOffer, type QaOffer } from './Narrative.svelte';
 	import NoteEditor from './NoteEditor.svelte';
 	import Notes from './Notes.svelte';
 	import Settings from './Settings.svelte';
@@ -96,6 +97,9 @@
 	let aiActivity = $state<'idle' | 'working' | 'ready'>('idle');
 
 	let narrativeEl = $state<HTMLElement>();
+	let narrative = $state<ReturnType<typeof Narrative>>();
+	/** Annotations on the reading's frame that no longer find their words. */
+	let detached = $state<string[]>([]);
 	let slider = $state<HTMLElement>();
 
 	const trail = $derived(trailId ? (subject.trails.find((t) => t.id === trailId) ?? null) : null);
@@ -203,6 +207,8 @@
 		frame: Frame;
 		text: string;
 		flag: boolean;
+		/** The words it is on, for an annotation (§Annotations). */
+		anchor: Anchor | null;
 		/** What it was when the editor opened: anything else is unsaved. */
 		was: { text: string; flag: boolean };
 		/** Where focus goes back to when the editor closes. */
@@ -242,8 +248,52 @@
 		if (!layer) return;
 		if (draft && !draft.id) return; // already writing a new one: the editor has focus
 		if (!mayLeave()) return;
-		draft = { frame: narrativeFrame, text: '', flag: false, was: { text: '', flag: false }, from };
+		draft = {
+			frame: narrativeFrame,
+			text: '',
+			flag: false,
+			anchor: null,
+			was: { text: '', flag: false },
+			from
+		};
 	}
+
+	/** Write an annotation on words the reader chose in the reading (korg 3415). */
+	function startAnnotation(anchor: Anchor, from: HTMLElement | null) {
+		if (!layer || !mayLeave()) return;
+		draft = {
+			frame: narrativeFrame,
+			text: '',
+			flag: false,
+			anchor,
+			was: { text: '', flag: false },
+			from
+		};
+	}
+
+	/** Annotate: the narrative's words, so it comes forward first. */
+	async function annotate(from: HTMLElement | null = focused()) {
+		if (!layer) return;
+		tab = 'narrative';
+		await tick();
+		narrative?.annotate(from);
+	}
+
+	async function showAnnotation(note: Note) {
+		tab = 'narrative';
+		await tick();
+		narrative?.show(note.id);
+	}
+
+	const annotating = $derived<AnnotationOffer | null>(
+		layer
+			? {
+					key: shown(keys.annotate),
+					onannotate: startAnnotation,
+					onopen: (note, from) => editNote(note, from)
+				}
+			: null
+	);
 
 	function editNote(note: Note, from: HTMLElement) {
 		if (draft?.id === note.id || !mayLeave()) return;
@@ -253,13 +303,13 @@
 			frame,
 			text: note.text,
 			flag: note.review === 'flagged',
+			anchor: note.anchor,
 			was: { text: note.text, flag: note.review === 'flagged' },
 			from
 		};
 	}
 
-	function closeEditor() {
-		const back = draft?.from;
+	function closeEditor(back = draft?.from) {
 		draft = null;
 		saveError = '';
 		(back?.isConnected ? back : slider)?.focus();
@@ -274,7 +324,8 @@
 			frame: d.frame.id,
 			label: titleOf(d.frame),
 			text: d.text,
-			flag: d.flag
+			flag: d.flag,
+			...(d.id ? {} : { anchor: d.anchor })
 		});
 		saving = false;
 		if (draft !== d) return;
@@ -282,31 +333,44 @@
 			saveError = 'Could not save the note. Your text is still here; try again.';
 			return;
 		}
-		markNote = `Note saved on ${titleOf(d.frame)}.`;
+		markNote = `${d.anchor ? 'Annotation' : 'Note'} saved on ${titleOf(d.frame)}.`;
 		closeEditor();
 	}
 
 	function cancelNote() {
-		if (mayLeave()) closeEditor();
+		// Read first: leaving clears the draft, and with it where to go back to.
+		const back = draft?.from;
+		if (mayLeave()) closeEditor(back);
 	}
 
 	async function deleteNote(note: Note) {
-		if (!layer || !confirm('Delete this note? This cannot be undone.')) return;
+		const what = note.anchor ? 'annotation' : 'note';
+		if (!layer || !confirm(`Delete this ${what}? This cannot be undone.`)) return;
 		if (draft?.id === note.id) draft = null;
-		markNote = (await layer.deleteNote(note.id)) ? 'Note deleted.' : 'Could not delete the note.';
+		markNote = (await layer.deleteNote(note.id))
+			? `${what[0].toUpperCase()}${what.slice(1)} deleted.`
+			: `Could not delete the ${what}.`;
 	}
 
 	/** The shortcuts the help bar names: the reader's keys, for what this page can do. */
 	const hints = $derived(
 		SHORTCUTS.filter(
 			(s) =>
-				keys[s.action] && (s.action !== 'bookmark' || bookmarks) && (s.action !== 'note' || layer)
+				keys[s.action] &&
+				(s.action !== 'bookmark' || bookmarks) &&
+				((s.action !== 'note' && s.action !== 'annotate') || layer)
 		).map((s, i, all) => ({
 			action: s.action,
 			/** What comes before it: nothing, a comma, or "and" before the last. */
 			lead: i === 0 ? '' : i === all.length - 1 ? ' and ' : ', ',
 			key: keyName(keys[s.action]!),
-			label: { sync: 'sync', trail: 'trail', bookmark: 'bookmark', note: 'note' }[s.action]
+			label: {
+				sync: 'sync',
+				trail: 'trail',
+				bookmark: 'bookmark',
+				note: 'note',
+				annotate: 'annotate'
+			}[s.action]
 		}))
 	);
 
@@ -468,6 +532,10 @@
 				if (!layer) return;
 				startNote();
 				break;
+			case 'annotate':
+				if (!layer) return;
+				annotate();
+				break;
 			default:
 				return;
 		}
@@ -483,6 +551,8 @@
 		<NoteEditor
 			editing={!!draft.id}
 			title={titleOf(draft.frame)}
+			quote={draft.anchor?.exact ?? null}
+			detached={!!draft.id && detached.includes(draft.id)}
 			bind:text={draft.text}
 			bind:flag={draft.flag}
 			{saving}
@@ -588,7 +658,11 @@
 			onenter={enter}
 			keys={{ sync: shown(keys.sync), trail: shown(keys.trail) }}
 			{qa}
+			{annotating}
+			annotations={frameNotes.filter((n) => n.anchor)}
+			bind:detached
 			bind:element={narrativeEl}
+			bind:this={narrative}
 		/>
 
 		{#if layer}
@@ -598,10 +672,12 @@
 				title={titleOf(narrativeFrame)}
 				notes={frameNotes}
 				editing={draft?.id ?? null}
+				{detached}
 				key={shown(keys.note)}
 				onadd={(from) => startNote(from)}
 				onedit={editNote}
 				ondelete={deleteNote}
+				onshow={showAnnotation}
 			/>
 		{/if}
 

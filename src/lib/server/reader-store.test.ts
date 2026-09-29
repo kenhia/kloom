@@ -125,6 +125,32 @@ describe('notes', () => {
 	});
 });
 
+const words = { exact: 'the second paragraph', prefix: 'Read ', suffix: ' again.', start: 5 };
+
+describe('annotations', () => {
+	it('keep the words they are on, through edits, flags and the review list', async () => {
+		const store = openReaderStore(':memory:', clock());
+		const a = (await store.saveNote(ken, { ...note('turing', 'which?', true), anchor: words }))!;
+		expect(a).toMatchObject({ anchor: words, review: 'flagged' });
+		expect((await store.saveNote(ken, note('turing', 'a plain note')))!.anchor).toBeNull();
+
+		// An edit keeps the anchor it has, whatever it is sent.
+		const moved = { ...words, exact: 'other words' };
+		const edited = await store.saveNote(ken, {
+			...note('turing', 'now clear'),
+			id: a.id,
+			anchor: moved
+		});
+		expect(edited).toMatchObject({ text: 'now clear', anchor: words });
+
+		await store.saveNote(ken, { ...note('turing', 'still?', true), id: a.id });
+		expect((await store.flaggedNotes(ken)).map((f) => [f.text, f.anchor])).toEqual([
+			['still?', words]
+		]);
+		expect((await store.notes(ken, 'ai')).map((n) => n.anchor)).toEqual([words, null]);
+	});
+});
+
 const answer = (id: string, frame = context.frame.id) => ({
 	...keptAnswer(
 		{
@@ -180,14 +206,15 @@ describe('export and import', () => {
 	it('carries notes and kept answers through the export format', async () => {
 		const from = openReaderStore(':memory:', clock());
 		const n = (await from.saveNote(ken, note('turing', 'look again', true)))!;
+		const a = (await from.saveNote(ken, { ...note('turing', 'these words'), anchor: words }))!;
 		await from.keep(ken, answer('20260927T170509Z-00000001'));
 		await from.grew(ken, 'western-civ', '20260927T170509Z-00000001', ['luther-theses']);
 		const parsed = parseExport(JSON.parse(JSON.stringify(await from.exportData(ken))));
 		if ('error' in parsed) throw new Error(parsed.error);
 
 		const to = openReaderStore(':memory:', clock());
-		expect(await to.importData(ada, parsed)).toMatchObject({ notes: 1, kept: 1 });
-		expect(await to.notes(ada, 'ai')).toEqual([n]);
+		expect(await to.importData(ada, parsed)).toMatchObject({ notes: 2, kept: 1 });
+		expect(await to.notes(ada, 'ai')).toEqual([n, a]);
 		expect(await to.keptOn(ada, 'western-civ', context.frame.id)).toMatchObject([
 			{ grown: ['luther-theses'] }
 		]);
@@ -224,7 +251,7 @@ describe('export and import', () => {
 		await store.visit(ken, at('ai', 'transformer'));
 		await store.importData(ken, {
 			kloom: 'reader-data',
-			version: 2,
+			version: 3,
 			reader: ken,
 			exported: '2026-01-01T00:00:00.000Z',
 			places: [{ ...at('ai', 'turing'), at: '2026-01-01T00:00:00.000Z' }],
@@ -276,6 +303,32 @@ describe('the file', () => {
 		expect(await store.saveNote(ken, note('turing', 'new table'))).toMatchObject({
 			text: 'new table'
 		});
+		store.close();
+	});
+
+	it('moves a file made at schema 2 forward: its notes are notes on the whole frame', async () => {
+		dir = mkdtempSync(join(tmpdir(), 'kloom-reader-'));
+		const path = join(dir, 'reader.db');
+		// Sprint 011's schema, as it shipped (indexes left out).
+		const raw = new DatabaseSync(path);
+		raw.exec(`CREATE TABLE place (reader TEXT NOT NULL, subject TEXT NOT NULL, frame TEXT NOT NULL,
+			label TEXT NOT NULL, at TEXT NOT NULL, PRIMARY KEY (reader, subject));
+		CREATE TABLE bookmark (reader TEXT NOT NULL, subject TEXT NOT NULL, frame TEXT NOT NULL,
+			label TEXT NOT NULL, at TEXT NOT NULL, PRIMARY KEY (reader, subject, frame));
+		CREATE TABLE kept (reader TEXT NOT NULL, subject TEXT NOT NULL, id TEXT NOT NULL,
+			frame TEXT NOT NULL, answer TEXT NOT NULL, grown TEXT, kept_at TEXT NOT NULL,
+			PRIMARY KEY (reader, id));
+		CREATE TABLE note (reader TEXT NOT NULL, id TEXT NOT NULL, subject TEXT NOT NULL,
+			frame TEXT NOT NULL, label TEXT NOT NULL, text TEXT NOT NULL,
+			review TEXT NOT NULL DEFAULT 'none' CHECK (review IN ('none', 'flagged', 'handled')),
+			response TEXT, created TEXT NOT NULL, updated TEXT NOT NULL, PRIMARY KEY (reader, id));
+		INSERT INTO note VALUES ('ken@github', 'n1', 'ai', 'turing', 'Turing', 'old', 'flagged', NULL,
+			'2026-09-28T12:00:00.000Z', '2026-09-28T12:00:00.000Z');
+		PRAGMA user_version = 2;`);
+		raw.close();
+		const store = openReaderStore(path, clock());
+		expect(await store.notes(ken, 'ai')).toMatchObject([{ id: 'n1', text: 'old', anchor: null }]);
+		expect((await store.flaggedNotes())[0]).toMatchObject({ id: 'n1', anchor: null });
 		store.close();
 	});
 

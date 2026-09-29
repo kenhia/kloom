@@ -1,4 +1,5 @@
 import { error, json } from '@sveltejs/kit';
+import { anchorOf } from '$engine/anchor';
 import { NOTE_MAX } from '$engine/reader-data';
 import { readerStore } from '$lib/server/reader-store';
 import { requireReader, requireRecord } from '$lib/server/reader-data';
@@ -18,13 +19,17 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 
 /**
  * Write a note: `{subject, frame, label, text, flag}`, plus `id` to edit one
- * of theirs. `flag` is the "Agent review" box. Returns the note as stored.
+ * of theirs. `flag` is the "Agent review" box, and a new note may carry an
+ * `anchor`, the words it is on, which makes it an annotation (an edit keeps
+ * the anchor it has). Returns the note as stored.
  */
 export const POST: RequestHandler = async ({ request, locals }) => {
 	const reader = requireReader(locals.reader);
 	const body = (await request.json().catch(() => null)) as Record<string, unknown> | null;
 	const record = await requireRecord(body);
 	const { id, text, flag } = body!;
+	const anchor = body!.anchor == null ? null : anchorOf(body!.anchor);
+	if (body!.anchor != null && !anchor) error(400, 'An annotation’s anchor is malformed.');
 	if (id !== undefined && (typeof id !== 'string' || !NOTE_ID.test(id)))
 		error(400, 'A note id is malformed.');
 	if (typeof text !== 'string' || !text.trim()) error(400, 'A note needs some text.');
@@ -33,7 +38,8 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 		...record,
 		...(id === undefined ? {} : { id }),
 		text,
-		flag: flag === true
+		flag: flag === true,
+		anchor
 	});
 	if (!note) error(404, 'No such note.');
 	return json(note);

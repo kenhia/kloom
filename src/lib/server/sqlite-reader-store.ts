@@ -71,7 +71,9 @@ const MIGRATIONS = [
 		kept_at TEXT NOT NULL,
 		PRIMARY KEY (reader, id)
 	);
-	CREATE INDEX kept_frame ON kept (reader, subject, frame);`
+	CREATE INDEX kept_frame ON kept (reader, subject, frame);`,
+	// Sprint 012: annotations (korg 3415), notes with an anchor (JSON).
+	`ALTER TABLE note ADD COLUMN anchor TEXT;`
 ];
 
 export const SCHEMA_VERSION = MIGRATIONS.length;
@@ -134,15 +136,15 @@ export function openReaderStore(
 	// Notes. An edit keeps its frame and creation date. The "Agent review" box
 	// flags a note (again) when ticked; unticked, a flagged note is unflagged
 	// and a handled one stays handled.
-	const noteCols = 'id, subject, frame, label, text, review, response, created, updated';
+	const noteCols = 'id, subject, frame, label, text, anchor, review, response, created, updated';
 	const notesIn = db.prepare(
 		`SELECT ${noteCols} FROM note WHERE reader = ? AND subject = ? ORDER BY created, id`
 	);
 	const allNotes = db.prepare(`SELECT ${noteCols} FROM note WHERE reader = ? ORDER BY created, id`);
 	const noteById = db.prepare(`SELECT ${noteCols} FROM note WHERE reader = ? AND id = ?`);
 	const addNote = db.prepare(
-		`INSERT INTO note (reader, id, subject, frame, label, text, review, created, updated)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`
+		`INSERT INTO note (reader, id, subject, frame, label, text, anchor, review, created, updated)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
 	);
 	const editNote = db.prepare(
 		`UPDATE note SET label = ?, text = ?, updated = ?,
@@ -161,8 +163,8 @@ export function openReaderStore(
 		`UPDATE note SET review = 'handled', response = ? WHERE reader = ? AND id = ? AND review = 'flagged'`
 	);
 	const importNote = db.prepare(
-		`INSERT INTO note (reader, id, subject, frame, label, text, review, response, created, updated)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		`INSERT INTO note (reader, id, subject, frame, label, text, anchor, review, response, created, updated)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		 ON CONFLICT (reader, id) DO UPDATE SET label = excluded.label, text = excluded.text,
 		 review = excluded.review, response = excluded.response, updated = excluded.updated
 		 WHERE excluded.updated > note.updated`
@@ -192,6 +194,12 @@ export function openReaderStore(
 
 	const stamp = () => now().toISOString();
 	const row = <T>(r: unknown) => (r ? ({ ...(r as object) } as T) : null);
+	/** A note row: its anchor is stored as JSON. */
+	const note = <T extends Note>(r: unknown): T | null => {
+		const n = row<T & { anchor: string | null }>(r);
+		return n && { ...n, anchor: n.anchor ? JSON.parse(n.anchor) : null };
+	};
+	const anchorText = (a: Note['anchor'] | undefined) => (a ? JSON.stringify(a) : null);
 	const kept = (r: unknown): Kept => {
 		const { answer, grown } = r as { answer: string; grown: string | null };
 		return { answer: JSON.parse(answer), grown: grown ? JSON.parse(grown) : null };
@@ -236,25 +244,26 @@ export function openReaderStore(
 		},
 
 		async notes(reader, subject) {
-			return notesIn.all(reader, subject).map((r) => row<Note>(r)!);
+			return notesIn.all(reader, subject).map((r) => note<Note>(r)!);
 		},
 		async saveNote(reader, n) {
 			const at = stamp();
 			if (n.id === undefined) {
 				const id = randomUUID();
 				const review = n.flag ? 'flagged' : 'none';
-				addNote.run(reader, id, n.subject, n.frame, n.label, n.text, review, at, at);
-				return row<Note>(noteById.get(reader, id));
+				const anchor = anchorText(n.anchor);
+				addNote.run(reader, id, n.subject, n.frame, n.label, n.text, anchor, review, at, at);
+				return note<Note>(noteById.get(reader, id));
 			}
 			const flag = n.flag ? 1 : 0;
 			const { changes } = editNote.run(n.label, n.text, at, flag, flag, reader, n.id);
-			return changes ? row<Note>(noteById.get(reader, n.id)) : null;
+			return changes ? note<Note>(noteById.get(reader, n.id)) : null;
 		},
 		async deleteNote(reader, id) {
 			return dropNote.run(reader, id).changes > 0;
 		},
 		async flaggedNotes(reader) {
-			return (reader ? flaggedBy.all(reader) : flagged.all()).map((r) => row<ReviewNote>(r)!);
+			return (reader ? flaggedBy.all(reader) : flagged.all()).map((r) => note<ReviewNote>(r)!);
 		},
 		async handleNote(reader, id, response) {
 			return handle.run(response, reader, id).changes > 0;
@@ -286,12 +295,12 @@ export function openReaderStore(
 		async exportData(reader): Promise<ReaderExport> {
 			return {
 				kloom: 'reader-data',
-				version: 2,
+				version: 3,
 				reader,
 				exported: stamp(),
 				places: places.all(reader).map((r) => row<Place>(r)!),
 				bookmarks: marks.all(reader).map((r) => row<Bookmark>(r)!),
-				notes: allNotes.all(reader).map((r) => row<Note>(r)!),
+				notes: allNotes.all(reader).map((r) => note<Note>(r)!),
 				kept: allKept.all(reader).map(kept)
 			};
 		},
@@ -307,6 +316,7 @@ export function openReaderStore(
 						n.frame,
 						n.label,
 						n.text,
+						anchorText(n.anchor),
 						n.review,
 						n.response,
 						n.created,

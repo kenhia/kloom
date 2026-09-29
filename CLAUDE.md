@@ -98,7 +98,11 @@ sprint 011 the reader's layer on a frame: notes written in place of the
 scene (a Notes tab, an unsaved-changes guard, and an "Agent review" flag
 that `skills/review-notes/` works through), kept answers moved into the
 reader store and shown again (a spine mark and a Q&A section), and
-remappable character shortcuts (S, T, B and the new N).
+remappable character shortcuts (S, T, B and the new N);
+sprint 012 annotations: notes on selected words of a narrative, anchored by
+a W3C text-quote selector so they find their words again after an edit and
+show as detached when they cannot, made with A (a selection, or words chosen
+with the keyboard) and listed with the notes.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

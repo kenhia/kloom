@@ -77,10 +77,17 @@
   a Q&A section (3390). The character shortcuts become remappable (3363) —
   [record](../011-readers-layer.md).
 
+- Sprint 012: annotations (proposal 3421). A note on selected words of the
+  narrative, anchored by a W3C text-quote selector so it finds its words
+  after grow or an edit and shows as detached when it cannot. The A key and
+  an Annotate button take the selection or let the keyboard choose it, and
+  the Notes tab and the review-notes skill carry the quoted words (3415) —
+  [record](../012-annotations.md).
+
 ## Next
 
-- Annotations: notes on a selected range of a reading, with the same
-  agent-review flag (korg 3415).
+- Nothing queued in korg for kloom after annotations; the framework (below)
+  is the next large step.
 
 ## Later
 

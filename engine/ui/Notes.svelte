@@ -8,6 +8,8 @@
 		notes: Note[];
 		/** The note in the editor now, if it is one of these. */
 		editing?: string | null;
+		/** Annotations whose words the reading no longer has. */
+		detached?: string[];
 		/** The add-note key, when it is on. */
 		key?: string | null;
 		/** The tab this is the panel of. */
@@ -16,18 +18,22 @@
 		onadd: (from: HTMLElement) => void;
 		onedit: (note: Note, from: HTMLElement) => void;
 		ondelete: (note: Note) => void;
+		/** Take the reader to an annotation's words in the reading. */
+		onshow: (note: Note) => void;
 	}
 
 	let {
 		title,
 		notes,
 		editing = null,
+		detached = [],
 		key = null,
 		tab,
 		hidden = false,
 		onadd,
 		onedit,
-		ondelete
+		ondelete,
+		onshow
 	}: Props = $props();
 
 	const when = (iso: string) =>
@@ -49,17 +55,32 @@
 			<ol>
 				{#each notes as note (note.id)}
 					<li class:current={note.id === editing}>
+						{#if note.anchor}
+							<blockquote class="quote">
+								<span class="visually-hidden">On the words: </span>{note.anchor.exact}
+							</blockquote>
+						{/if}
 						<p class="text">{note.text}</p>
 						<p class="meta">
 							{when(note.updated)}
 							{#if note.id === editing}· <strong>in the editor</strong>{/if}
 							{#if note.review === 'flagged'}· <span class="flagged">flagged for agent review</span
 								>{/if}
+							{#if note.anchor && detached.includes(note.id)}· <span class="flagged"
+									>detached: the reading no longer has these words</span
+								>{/if}
 						</p>
 						{#if note.review === 'handled'}
 							<p class="response"><span class="who">Agent:</span> {note.response}</p>
 						{/if}
 						<p class="actions">
+							{#if note.anchor && !detached.includes(note.id)}
+								<button type="button" onclick={() => onshow(note)}
+									>Show in reading<span class="visually-hidden"
+										>: {note.anchor.exact.slice(0, 40)}</span
+									></button
+								>
+							{/if}
 							<button type="button" onclick={(e) => onedit(note, e.currentTarget)}
 								>Edit<span class="visually-hidden">: {note.text.slice(0, 40)}</span></button
 							>
@@ -72,7 +93,8 @@
 			</ol>
 		{:else}
 			<p class="empty">
-				No notes on this frame yet. Add one and the picture becomes the page you write on.
+				No notes on this frame yet. Add one and the picture becomes the page you write on, or
+				annotate some words of the narrative.
 			</p>
 		{/if}
 	</div>
@@ -126,6 +148,18 @@
 	li.current {
 		border-left: 2px solid var(--accent);
 		padding-left: 0.75rem;
+	}
+	.quote {
+		margin: 0 0 0.4rem;
+		padding-left: 0.6rem;
+		border-left: 2px solid var(--accent);
+		font: italic 0.85rem/1.45 var(--serif);
+		color: var(--muted);
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 3;
+		line-clamp: 3;
+		overflow: hidden;
 	}
 	.text {
 		margin: 0;

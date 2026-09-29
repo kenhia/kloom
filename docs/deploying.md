@@ -43,10 +43,11 @@ pick up merged main (below). `just verify` checks both doors, that the
 tailnet door refuses an anonymous write, and that reader data answers only
 a reader.
 
-`reader.db` holds every reader's places, bookmarks, notes and kept answers.
-It is the one piece of state that is not rebuildable from git. Copy it with the unit stopped,
-or with `sqlite3 reader.db ".backup copy.db"` while it runs. One reader can
-also save their own from the bookmark list (_Export my reading data_).
+`reader.db` holds every reader's places, bookmarks, notes (annotations
+among them) and kept answers. It is the one piece of state that is not
+rebuildable from git. Copy it with the unit stopped, or with
+`sqlite3 reader.db ".backup copy.db"` while it runs. One reader can also
+save their own from the bookmark list (_Export my reading data_).
 Design: [design.md](design.md) §Reader data.
 
 Kept answers were files under `data/<subject>/kept/` before sprint 011. A

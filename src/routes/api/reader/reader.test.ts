@@ -89,7 +89,7 @@ describe('export and import', () => {
 			/^attachment; filename="kloom-reader-data-\d{4}-\d{2}-\d{2}\.json"$/
 		);
 		const file = await res.json();
-		expect(file).toMatchObject({ kloom: 'reader-data', version: 2, reader: 'ken@github' });
+		expect(file).toMatchObject({ kloom: 'reader-data', version: 3, reader: 'ken@github' });
 
 		expect(await body(await call(importData, send('POST', file, ada)))).toEqual({
 			places: 1,
@@ -136,10 +136,23 @@ describe('notes', () => {
 			{ ...aNote, text: '  ' },
 			{ ...aNote, text: 'x'.repeat(10_001) },
 			{ ...aNote, id: '../x' },
-			{ ...aNote, frame: 'no-such-frame' }
+			{ ...aNote, frame: 'no-such-frame' },
+			{ ...aNote, anchor: { exact: '', prefix: '', suffix: '', start: 0 } },
+			{ ...aNote, anchor: 'the words' }
 		])
 			expect(await call(saveNote, send('POST', bad))).toMatchObject({ status: 400 });
 		expect(await call(notes, get('?subject=nope'))).toMatchObject({ status: 404 });
+	});
+});
+
+describe('annotations', () => {
+	it('are notes that keep the words they are on', async () => {
+		const anchor = { exact: 'on GPUs', prefix: 'trained ', suffix: '.', start: 20 };
+		const saved = await body(await call(saveNote, send('POST', { ...aNote, anchor })));
+		expect(saved).toMatchObject({ text: 'Why GPUs?', anchor, review: 'flagged' });
+		expect(await body(await call(notes, get('?subject=ai')))).toEqual([saved]);
+		const edit = { ...aNote, id: saved.id, text: 'Now I see.' };
+		expect(await body(await call(saveNote, send('POST', edit)))).toMatchObject({ anchor });
 	});
 });
 
