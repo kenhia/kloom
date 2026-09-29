@@ -134,16 +134,20 @@ def main():
     ap.add_argument('--text', metavar='DIR', help="also write each revision's readable text to DIR/<Title>.txt")
     a = ap.parse_args()
     revs = revisions(a.titles)
+    seen, found = set(), []  # titles that redirect to one article give one citation
+    for t in a.titles:
+        if t in revs and revs[t][0] not in seen:
+            seen.add(revs[t][0])
+            found.append(t)
     if a.text:
         os.makedirs(a.text, exist_ok=True)
-        for t in a.titles:
-            if t in revs:
-                name, revid, _ = revs[t]
-                path = os.path.join(a.text, name.replace('/', '_') + '.txt')
-                with open(path, 'w') as fh:
-                    fh.write(f'{name} (revision {revid})\n\n' + revision_text(revid))
-                print(f'wiki_cite: wrote {path}', file=sys.stderr)
-    print(json.dumps([citation(*revs[t], a.accessed) for t in a.titles if t in revs], indent='\t', ensure_ascii=False))
+        for t in found:
+            name, revid, _ = revs[t]
+            path = os.path.join(a.text, name.replace('/', '_') + '.txt')
+            with open(path, 'w') as fh:
+                fh.write(f'{name} (revision {revid})\n\n' + revision_text(revid))
+            print(f'wiki_cite: wrote {path}', file=sys.stderr)
+    print(json.dumps([citation(*revs[t], a.accessed) for t in found], indent='\t', ensure_ascii=False))
     if len(revs) < len(a.titles):
         sys.exit(1)  # the others are printed; a missing article is still an error
 

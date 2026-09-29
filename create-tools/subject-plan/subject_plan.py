@@ -13,7 +13,9 @@ once) validates at every step, and the plan says what is still to come.
 
 `--check` writes nothing and lists the planned frames not yet written.
 `--complete DIR` writes the spine into a copy of the subject at
-DIR/<subject> that holds only the frames with a `frame.json`, so one author
+DIR/<subject> that holds only the frames with a `frame.json` that land on a
+spine (a trail frame whose anchor is not written yet is left out, and named),
+so one author
 can validate their frames while others are mid-write:
 `KLOOM_TEST_SUBJECTS=DIR npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
 Standard library only.
@@ -89,6 +91,14 @@ def main():
         name = f'{t["id"]}.json'
         if name not in wanted and os.path.exists(os.path.join(trails_dir, name)):
             os.remove(os.path.join(trails_dir, name))
+    if a.complete:
+        # In a copy, a finished frame on no spine (its trail's anchor is not written yet) would fail
+        # validation for every author, so it is left out of the copy and named.
+        placed = on_main | {f for t in plan.get('trails', []) if f'{t["id"]}.json' in wanted
+                            for s in keep(t['spine'], have)['segments'] for f in s['frames']}
+        for f in sorted(have - placed):
+            shutil.rmtree(os.path.join(frames_dir, f))
+            print(f'subject_plan: left {f} out of the copy: it is on no spine yet (is its trail\'s anchor written?)')
     print(f'subject_plan: {len(planned) - len(missing)} of {len(planned)} planned frames on the spine and trails')
 
 

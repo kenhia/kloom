@@ -26,7 +26,12 @@ npx prettier --write subjects/ai
   mid-frame; this lets one author check their own finished frames:
   `KLOOM_TEST_SUBJECTS=DIR npx vitest --run engine/subjects.test.ts engine/svg.test.ts`
   (the two tests read their subjects from `$KLOOM_TEST_SUBJECTS` when it is
-  set). Sprint 014's authors each improvised this.
+  set). Sprint 014's authors each improvised this. A finished trail frame
+  whose anchor is not written yet is on no spine, so the copy leaves it out
+  and names it rather than failing every author on it (sprint 015). To
+  check such a trail before its anchor lands, copy any finished main-spine
+  frame into `DIR/<subject>/frames/<anchor>` as a stand-in (change its `id`
+  and accent) and re-run the tests on the copy.
 - Its JSON is not Prettier's layout, so run Prettier over the subject
   afterwards.
 - Standard library only.
