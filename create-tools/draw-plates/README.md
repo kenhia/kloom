@@ -9,7 +9,8 @@ showing, in the style docs/design.md §Illustrations describes.
   opacity), `'mid'` (secondary detail) or the default, the object at full
   weight. Then add paths with `line`, `lines` (many polylines as one
   stroke), `circle`, `ellipse`, `arc`, `curve` (raw path data) and `text` (a
-  small monospace label that fades in). `wire` draws a convex solid's
+  small monospace label that fades in; write it as plain text, since `&`, `<`
+  and `>` are escaped for you). `wire` draws a convex solid's
   wireframe from its vertices, and `SOLIDS` holds the five Platonic solids.
   `D.svg()` returns the markup and `D.save(path)` writes it.
 - `ai.py` and `ai_<part>.py` (sprint 006): the ai subject's plates. Each

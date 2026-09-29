@@ -7,6 +7,7 @@ and 'main' (the object). See README.md and docs/design.md §Illustrations.
 Standard library only.
 """
 import math, os
+from xml.sax.saxutils import escape
 
 def f(v):
     s = f'{v:.1f}'
@@ -27,7 +28,8 @@ class D:
         self.cur.append(('path', d, cls))
 
     def text(self, x, y, s, size=9, anchor='middle'):
-        self.cur.append(('text', (x, y, s, size, anchor), None))
+        """A label, written as plain text: `&`, `<` and `>` are escaped here (sprint 015)."""
+        self.cur.append(('text', (x, y, escape(s), size, anchor), None))
 
     # primitives -------------------------------------------------------
     def line(self, *pts, closed=False, cls=None):

@@ -203,7 +203,7 @@ def pipes():
     d.text(300, 61, 'WHAT sort HAS WRITTEN', size=7)
     d.text(300, 72, 'AND pr HAS NOT READ', size=7)
     d.text(200, 206, 'sort input | pr | opr', size=9)
-    d.text(200, 284, 'FIRST NOTATION: sort input &gt;pr&gt;opr&gt;', size=7)
+    d.text(200, 284, 'FIRST NOTATION: sort input >pr>opr>', size=7)
     return d
 
 
@@ -307,11 +307,11 @@ def unix_wars():
     d.text(X(1983.6), lanes['bsd'] + 13, '4.2', size=6)
     d.text(X(1989.5), lanes['bsd'] + 13, 'NET/1', size=6)
     d.text(X(1994.5), lanes['bsd'] - 8, 'LITE', size=6)
-    d.text(X(1982) - 4, lanes['sysv'] + 14, 'AT&amp;T SYSTEM V', size=7, anchor='start')
+    d.text(X(1982) - 4, lanes['sysv'] + 14, 'AT&T SYSTEM V', size=7, anchor='start')
     d.text(X(1988.8), lanes['sysv'] - 8, 'SVR4', size=6)
     d.text(X(1990.2), lanes['sysv'] + 14, 'OSF | UI', size=6, anchor='start')
     d.text(X(1992) - 4, lanes['free'] + 14, '386BSD · NETBSD · FREEBSD', size=6, anchor='end')
-    d.text(X(1991.7) - 6, lanes['linux'] + 3, 'LINUX · NO AT&amp;T CODE', size=7, anchor='end')
+    d.text(X(1991.7) - 6, lanes['linux'] + 3, 'LINUX · NO AT&T CODE', size=7, anchor='end')
     d.text((a + b) / 2, 90, 'USL v. BSDi', size=6)
     d.text(200, 24, 'ONE SYSTEM, MANY OWNERS · 1969–1995', size=8)
     return d
