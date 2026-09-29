@@ -1,24 +1,37 @@
 #!/usr/bin/env python3
 """Name the people, places and things a subject mentions (docs/design.md §Connections).
 
-Two commands:
+Five commands:
 
   lookup   Wikipedia titles -> the name files' skeletons: the Wikidata item each
            article is about, and Wikidata's own one-line description, to start
            from (rewrite it in the house style). A title that redirects says so
            (`redirected`): the article it lands on may be about something wider
            (Project MAC lands on CSAIL), so look the item up on Wikidata instead.
+           A title that lands on a disambiguation page says `ambiguous`, and
+           gives no item: choose the article that is meant and look that up.
+  add      Write name files into the registry, from JSON files or directories
+           of them. A new name is written; one already there is left alone
+           unless --update is given; a name whose Wikidata item another file
+           already holds is refused, naming that file. Nothing is written if
+           anything is refused.
   mark     Mark each name's first mention in a frame's reading, from a spec:
            {"<subject>/<frame>": [["words as the reading writes them", "<name id>"], ...]}.
            The first occurrence in prose is marked: never inside a heading, a
            table row, an image's alt text or another link. Words may wrap across
            lines. A name already marked in the frame is left alone.
 
+  density  Names and connections per frame, by subject: what the map's
+           defaults are set from.
+
   names.py lookup "Johannes Gutenberg" "Printing press"
+  names.py add drafts/ [--names names] [--update] [--check]
   names.py mark examples/western-civ.json [--root subjects] [--check]
+  names.py density [--root subjects]
 
 `mark --check` changes nothing, and exits 1 if any mark would be missing or cannot be
 placed, so a spec can be kept as the record of what was marked and checked again.
+`add --check` changes nothing, and exits 1 if anything would be refused.
 Standard library only.
 """
 
@@ -59,7 +72,7 @@ def lookup(titles):
     for i in range(0, len(titles), 50):
         batch = titles[i:i + 50]
         query = urllib.parse.urlencode({
-            'action': 'query', 'prop': 'pageprops', 'ppprop': 'wikibase_item|wikibase-shortdesc',
+            'action': 'query', 'prop': 'pageprops', 'ppprop': 'wikibase_item|wikibase-shortdesc|disambiguation',
             'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
         })
         data = get(f'{API}?{query}')['query']
@@ -69,6 +82,13 @@ def lookup(titles):
         for page in data.get('pages', {}).values():
             asked = renamed.get(page['title'], page['title'])
             props = page.get('pageprops', {})
+            if 'missing' in page or 'invalid' in page:
+                out[asked] = {'missing': asked}
+                continue
+            if 'disambiguation' in props:
+                # A disambiguation page is a list of meanings, not one of them.
+                out[asked] = {'ambiguous': asked, 'page': page['title']}
+                continue
             out[asked] = {
                 **({'redirected': page['title']} if asked != page['title'] else {}),
                 'id': slug(page['title']),
@@ -97,11 +117,119 @@ def mark(reading, words, name):
     return None
 
 
+NAME_ID = re.compile(r'^[a-z0-9][a-z0-9-]*$')
+KINDS = ('person', 'place', 'org', 'artifact', 'idea', 'event')
+
+
+def name_problems(name):
+    """What is wrong with one name file's content, as engine/names.ts sees it (its form only)."""
+    if not isinstance(name, dict):
+        return ['not an object']
+    problems = []
+    if not isinstance(name.get('id'), str) or not NAME_ID.match(name['id']):
+        problems.append('id must be lower case, digits and -')
+    w = name.get('wikidata', 'absent')
+    if not (w is None or (isinstance(w, str) and re.fullmatch(r'Q\d+', w))):
+        problems.append('wikidata must be a Wikidata item id (Q...) or null')
+    for field in ('name', 'description'):
+        if not isinstance(name.get(field), str) or not name[field].strip():
+            problems.append(f'{field} is required')
+    if name.get('kind') not in KINDS:
+        problems.append(f'kind must be one of {", ".join(KINDS)}')
+    return problems
+
+
+def drafts(paths):
+    """Every name file under the given files and directories, in order."""
+    for p in map(Path, paths):
+        yield from sorted(p.glob('*.json')) if p.is_dir() else [p]
+
+
+def add(paths, names_dir, update=False, check=False):
+    """Write drafts into the registry; returns the lines refused (empty means all written)."""
+    names_dir = Path(names_dir)
+    held = {}  # wikidata item -> the id holding it
+    for f in sorted(names_dir.glob('*.json')):
+        item = json.loads(f.read_text()).get('wikidata')
+        if item:
+            held[item] = f.stem
+    refused, writes = [], []
+    for f in drafts(paths):
+        name = json.loads(f.read_text())
+        problems = name_problems(name)
+        if problems:
+            refused += [f'{f}: {p}' for p in problems]
+            continue
+        target = names_dir / f"{name['id']}.json"
+        other = name['wikidata'] and held.get(name['wikidata'])
+        if other and other != name['id']:
+            refused.append(f"{f}: {name['wikidata']} is already names/{other}.json")
+            continue
+        if target.exists() and not update:
+            continue
+        if name['wikidata']:
+            held[name['wikidata']] = name['id']
+        writes.append((target, name))
+    if refused or check:
+        return refused
+    names_dir.mkdir(parents=True, exist_ok=True)
+    for target, name in writes:
+        # Tabs, like Prettier writes the repo's JSON.
+        target.write_text(json.dumps(name, indent='\t', ensure_ascii=False) + '\n')
+        print(f'wrote {target}')
+    return []
+
+
+MARK = re.compile(r'\]\(kloom:e/([a-z0-9][a-z0-9-]*)\)')
+
+
+def density(root):
+    """Per subject: frames, marks, distinct names, connections stored and touching, per frame."""
+    root = Path(root)
+    frames = {}  # subject -> frame ids
+    stored = {}  # subject -> connections stored on its frames
+    touching = {}  # subject -> connections with an end on its frames
+    for s in sorted(p for p in root.iterdir() if (p / 'subject.json').exists()):
+        frames[s.name] = [f.name for f in sorted((s / 'frames').iterdir()) if (f / 'frame.json').exists()]
+    for subject, ids in frames.items():
+        for fid in ids:
+            for c in json.loads((root / subject / 'frames' / fid / 'frame.json').read_text()).get('connections', []):
+                stored[subject] = stored.get(subject, 0) + 1
+                ends = {subject, c['to'].split('/')[0]}
+                for end in ends:
+                    touching[end] = touching.get(end, 0) + 1
+    rows = []
+    for subject, ids in frames.items():
+        marks, distinct, bare = 0, set(), 0
+        for fid in ids:
+            found = set(MARK.findall((root / subject / 'frames' / fid / 'reading.md').read_text()))
+            marks += len(found)
+            distinct |= found
+            bare += not found
+        n = len(ids) or 1
+        rows.append({
+            'subject': subject, 'frames': len(ids), 'marks': marks, 'names': len(distinct),
+            'marks_per_frame': round(marks / n, 2), 'frames_unmarked': bare,
+            'connections_stored': stored.get(subject, 0),
+            'connections_touching': touching.get(subject, 0),
+            'connections_per_frame': round(touching.get(subject, 0) / n, 2),
+        })
+    return rows
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest='command', required=True)
     lk = sub.add_parser('lookup', help='Wikipedia titles to name-file skeletons')
     lk.add_argument('titles', nargs='+')
+    ad = sub.add_parser('add', help='write name files into the registry')
+    ad.add_argument('drafts', nargs='+', help='name files, or directories of them')
+    ad.add_argument('--names', default='names', help='the registry directory')
+    ad.add_argument('--update', action='store_true', help='rewrite names already there')
+    ad.add_argument('--check', action='store_true', help='change nothing; exit 1 if any is refused')
+    dn = sub.add_parser('density', help='names and connections per frame, by subject')
+    dn.add_argument('--root', default='subjects', help='the subjects directory')
+    dn.add_argument('--json', action='store_true', help='one JSON line per subject')
     mk = sub.add_parser('mark', help="mark names' first mentions from a spec")
     mk.add_argument('spec')
     mk.add_argument('--root', default='subjects', help='the subjects directory')
@@ -112,6 +240,24 @@ def main():
         found = lookup(args.titles)
         for t in args.titles:
             print(json.dumps(found.get(t, {'missing': t}), ensure_ascii=False))
+        return 0
+
+    if args.command == 'add':
+        refused = add(args.drafts, args.names, args.update, args.check)
+        for line in refused:
+            print(line, file=sys.stderr)
+        return 1 if refused else 0
+
+    if args.command == 'density':
+        rows = density(args.root)
+        if args.json:
+            for r in rows:
+                print(json.dumps(r))
+        else:
+            cols = list(rows[0]) if rows else []
+            print(' | '.join(cols))
+            for r in rows:
+                print(' | '.join(str(r[c]) for c in cols))
         return 0
 
     spec = json.loads(Path(args.spec).read_text())

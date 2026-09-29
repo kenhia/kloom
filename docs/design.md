@@ -394,9 +394,11 @@ Built in sprint 005 (korg 3364).
   per-job prompt (`growPrompt`) names the verb, the anchor, the kept answer,
   whether the web is available, and the reader's words.
 - **The sandbox.** The model never touches the subject. The job copies
-  `subject.json`, `spine.json`, `trails/` and `frames/` into its own
-  directory under `$TMPDIR` (`kloom-grow-<job>-…`), and `claude -p` runs
-  there:
+  `subject.json`, `spine.json`, `trails/` and `frames/`, and the name
+  registry as `names/`, into its own directory under `$TMPDIR`
+  (`kloom-grow-<job>-…`), writes `reference/frames.md` (every served frame
+  a connection may name, with its title and position), and `claude -p`
+  runs there:
   - `--tools Read,Write,Edit,Glob,Grep` (plus WebSearch and WebFetch when
     `grow.web` is true), and no shell, so no model-written code runs on the
     host and create-tools are references, not tools, for grow;
@@ -421,7 +423,17 @@ Built in sprint 005 (korg 3364).
   segments, trails and frames kept, in order; new frame ids lowercase and
   dashed; a new frame holding only `frame.json`, `reading.md` and `*.svg`,
   each under 200 KB, every SVG passing the sanitiser; and the verb's own
-  shape. Then `validate()` over the whole copy.
+  shape. Then `validate()` over the whole copy, against the registry as
+  the job left it.
+- **Names and connections** (sprint 018, korg 3440; `linkGrowthProblems`).
+  A grown reading marks names as any reading does (§Connections), and **a
+  job may add names** (Ken, on 3440) **but change none**: an existing name
+  file must come back as it went, and a new one must be valid, hold no
+  Wikidata item another name holds, and be marked in a frame the job
+  wrote. A new frame's connections, and a new name's home, must name a
+  frame in `reference/frames.md` or one the job added, never itself. A
+  connection is stored on the new frame, since existing frames are
+  unchanged, and shows on both ends as every connection does.
 - **One repair turn.** If the first turn leaves problems, the model gets
   one more turn over the same directory with the list (`repairPrompt`).
 - **A validation failure leaves no commit.** Nothing is copied into the
@@ -432,8 +444,11 @@ Built in sprint 005 (korg 3364).
   (`src/lib/server/subject.ts`), the job refuses if the subject has
   uncommitted changes or differs from the copy it started from ("queue it
   again"). Otherwise it renames each new frame in from a hidden staging
-  directory, replaces the changed trail files and `spine.json`, and commits
-  exactly those paths. If anything fails, every file is put back and the
+  directory, replaces the changed trail files and `spine.json`, writes the
+  new name files into the registry (refusing, "queue it again", if the
+  registry changed while the job ran), and commits exactly those paths.
+  The registry must be in the subject's repository, as it is in the
+  checkout and the service's content clone. If anything fails, every file is put back and the
   index reset. The running site shows the new frames on the next load, with
   no rebuild.
 - **The commit.** The committer is `kloom grow <grow@kloom.local>`. The
@@ -451,6 +466,7 @@ Built in sprint 005 (korg 3364).
   Anchor: <frame>
   Request: <the reader's words>
   Kept answer: <id>            (when one was used)
+  Names: <name ids>            (when it added names)
   Model: <model id> (<provider>)
   Web: yes|no
   Requested-by: <name> <<login>> (<via>)   (when the job has a requester)
@@ -657,7 +673,8 @@ printing press). kloom has a layer for each. The graph view is phase 3.
   own: it validates every subject against the registry, and
   `graphProblems` refuses a connection to no frame, to itself, or stored
   on both ends, a home that is no frame, and a mark on an unregistered
-  name. Grow validates against the registry too.
+  name. Grow validates against the registry too, and may add names to it
+  but not change them (§Grow).
 - **Jumps.** Following a card's entry or a connection is a jump: it lands
   on the frame, past the start screen, on whichever spine holds it (into
   its trail if need be), in that subject's palette. A jump adds a browser

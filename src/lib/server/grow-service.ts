@@ -2,14 +2,13 @@ import { readFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import type { GrowJob } from '$engine/ai/grow';
 import { keptAnswerProblems, type KeptAnswer } from '$engine/ai/kept';
-import { loadNames } from '$engine/load';
 import { loadAppConfig } from './app-config';
 import { providerFor } from './ask';
 import { dataDir, listSubjects, namesDir, subjectDirFor } from './config';
 import { contentRepo, growBranch, offBranch, pushGrowBranch } from './content';
 import { GrowQueue, runGrowJob } from './grow';
 import { readerStore } from './reader-store';
-import { exclusive } from './subject';
+import { exclusive, servedGraph } from './subject';
 
 /**
  * One grow queue per subject. Jobs are persisted under
@@ -85,7 +84,8 @@ async function runOne(job: GrowJob, progress: (text: string) => void) {
 				Object.entries(REFERENCE).map(([to, from]) => [to, resolve(from)])
 			),
 			kept,
-			names: new Set(Object.keys((await loadNames(namesDir())).names)),
+			namesDir: namesDir(),
+			frames: framesOf(await servedGraph()),
 			timeoutMs: config.grow.timeoutSeconds * 1000,
 			exclusive
 		},
@@ -105,6 +105,15 @@ async function runOne(job: GrowJob, progress: (text: string) => void) {
 		}
 	return outcome;
 }
+
+/** Every served frame a grown connection may name, with its title and position. */
+const framesOf = (graph: Awaited<ReturnType<typeof servedGraph>>) =>
+	Object.fromEntries(
+		[...graph.frames].map(([ref, f]) => [
+			ref,
+			`${f.title} (${f.label}${f.trail ? `; trail "${f.trail}"` : ''}; ${graph.subjects[f.subject] ?? f.subject})`
+		])
+	);
 
 const queues = new Map<string, GrowQueue>();
 

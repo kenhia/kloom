@@ -1,5 +1,7 @@
 import { isDeepStrictEqual } from 'node:util';
+import { nameRefs } from '../markdown';
 import type { Spine, Trail } from '../model';
+import { buildNames } from '../names';
 import { sanitiseSvg } from '../svg';
 import type { RawSubject } from '../validate';
 
@@ -49,6 +51,8 @@ export interface GrowJob {
 	result?: {
 		frames: string[];
 		trails: string[];
+		/** Names it added to the registry. */
+		names?: string[];
 		commit: string | null;
 		summary: string;
 		/** Why the commit is not on the remote grow branch yet; the next push takes it. */
@@ -136,6 +140,8 @@ export interface Growth {
 	trailFrames: string[];
 	/** Trail files that are new or changed. */
 	trails: string[];
+	/** Names added to the registry, by id; the host fills it in (`linkGrowthProblems`). */
+	names?: string[];
 }
 
 /** The files in each new frame directory, as the host read them. */
@@ -237,4 +243,59 @@ export function growthProblems(
 	}
 
 	return { problems, growth: { frames, trailFrames, trails } };
+}
+
+/**
+ * Every way the names and connections a job wrote break §Connections' rules
+ * for grow, as `where: what` lines; and the names it added. The registry
+ * (`before` and `after` are its files by stem) may only grow: an existing
+ * name stays as it was, and a new one must be a valid name for a thing the
+ * registry does not already hold, marked in a frame the job wrote. A
+ * connection or a new name's home must name a frame that is there: one of
+ * `targets` (every served frame, as `<subject>/<frame>`) or one the job added.
+ */
+export function linkGrowthProblems(
+	subject: string,
+	before: Record<string, unknown>,
+	after: Record<string, unknown>,
+	grown: RawSubject,
+	added: string[],
+	targets: ReadonlySet<string>
+): { problems: string[]; names: string[] } {
+	const problems: string[] = [];
+	const fail = (where: string, what: string) => problems.push(`${where}: ${what}`);
+	const exists = (ref: string) =>
+		targets.has(ref) || added.some((id) => ref === `${subject}/${id}`);
+
+	for (const [stem, name] of Object.entries(before)) {
+		if (!(stem in after)) fail(`names/${stem}.json`, 'an existing name was removed');
+		else if (!isDeepStrictEqual(name, after[stem]))
+			fail(`names/${stem}.json`, 'an existing name was changed; grow may only add names');
+	}
+	const names = Object.keys(after).filter((stem) => !(stem in before));
+	// The registry's own rules, the existing names first so a clash is the new one's.
+	const ordered = { ...before, ...Object.fromEntries(names.map((s) => [s, after[s]])) };
+	for (const p of buildNames(ordered).problems)
+		if (names.some((stem) => p.startsWith(`names/${stem}.json:`))) problems.push(p);
+
+	const marked = new Set(added.flatMap((id) => nameRefs(grown.frames[id]?.reading ?? '')));
+	for (const stem of names) {
+		if (!marked.has(stem))
+			fail(`names/${stem}.json`, 'a name grow adds must be marked in a frame it wrote');
+		const home = (after[stem] as { home?: unknown } | null)?.home;
+		if (typeof home === 'string' && !exists(home))
+			fail(`names/${stem}.json`, `home ${home} is not a frame (see reference/frames.md)`);
+	}
+
+	for (const id of added) {
+		const frame = grown.frames[id]?.frame as { connections?: unknown } | undefined;
+		if (!Array.isArray(frame?.connections)) continue;
+		for (const c of frame.connections as { to?: unknown }[]) {
+			if (typeof c?.to !== 'string') continue;
+			if (c.to === `${subject}/${id}`) fail(`frames/${id}`, 'connects to itself');
+			else if (!exists(c.to))
+				fail(`frames/${id}`, `connects to ${c.to}, not a frame (see reference/frames.md)`);
+		}
+	}
+	return { problems, names };
 }
