@@ -36,12 +36,14 @@ def main():
     for fid in frames:
         fdir = os.path.join(sdir, 'frames', fid)
         try:
-            frame = json.load(open(os.path.join(fdir, 'frame.json')))
-            svg = open(os.path.join(fdir, frame['scene']['illustration'])).read()
+            if os.path.exists(os.path.join(fdir, 'frame.json')):
+                s = json.load(open(os.path.join(fdir, 'frame.json')))['scene']
+            else:  # a frame still being written: its plate, in the first palette, untitled
+                s = {'illustration': 'scene.svg', 'palette': next(iter(palettes)), 'headline': '(no frame.json yet)', 'accent': ''}
+            svg = open(os.path.join(fdir, s['illustration'])).read()
         except (OSError, KeyError, ValueError) as e:
             print(f'contact_sheet: skipping {fid}: {e}', file=sys.stderr)
             continue
-        s = frame['scene']
         p = palettes[s['palette']]
         cells.append(
             f'<figure style="background:{p["background"]};color:{p["line"]}">{svg}'
