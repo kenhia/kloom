@@ -121,3 +121,18 @@ Made in the sprint:
 
 - None filed. The four runner-up icons are in the repo for later use, as
   3424 asked. Nothing uses them yet.
+
+## Deployed
+
+2026-09-28, `just deploy` (declared as `recipe: deploy` in `.sprint-deploy`),
+from merged main `0792029` (PR #15) to the kloom service on kai. The recipe's
+own `just verify` passed all eight door checks (reads, the anonymous-write
+refusal, and reader data and notes kept from an anonymous read), and it
+reported `deployed 079202962`. What this sprint added, checked live on the ssh
+door (:4891):
+
+- `GET /api/start/ai` returns 10 illustrations and the `blueprint` palette,
+  which is one of its palettes.
+- `GET /api/start/nope` is a 404.
+- `/western-civ` serves the subject listbox, the Home button and a ring of
+  10 thumbnails.
