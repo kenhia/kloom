@@ -22,13 +22,21 @@
 			"id": "electronic",
 			"title": "The electronic machine",
 			"labelKind": "date",
-			"frames": ["colossus", "harvard-mark-i", "eniac", "edvac-report"]
+			"frames": [
+				"colossus",
+				"harvard-mark-i",
+				"eniac",
+				"edvac-report",
+				"manchester-baby",
+				"edsac",
+				"univac"
+			]
 		},
 		{
 			"id": "mainframes",
 			"title": "Transistors and mainframes",
 			"labelKind": "date",
-			"frames": ["fortran", "time-sharing", "ibm-360", "minicomputer"]
+			"frames": ["whirlwind", "fortran", "time-sharing", "ibm-360", "minicomputer"]
 		}
 	]
 }

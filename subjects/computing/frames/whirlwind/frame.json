@@ -1,0 +1,127 @@
+{
+	"id": "whirlwind",
+	"position": {
+		"label": "1951–58",
+		"sort": 1951
+	},
+	"scene": {
+		"headline": "We threaded memory through",
+		"accent": "CORES.",
+		"palette": "console",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MIT · JAY FORRESTER · ROBERT EVERETT · WILLIAM PAPIAN",
+			"MAGNETIC CORES · CAPE COD · SAGE AN/FSQ-7"
+		],
+		"counter": {
+			"value": "9 µs",
+			"label": "to reach a word in core, against 25 µs in the tubes it replaced, 1953"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Whirlwind I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Whirlwind_I&oldid=1367599007",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "SAGE: Semi-Automatic Ground Environment Air Defense System",
+			"url": "https://www.ll.mit.edu/about/history/sage-semi-automatic-ground-environment-air-defense-system",
+			"accessed": "2026-09-28",
+			"container": "History",
+			"publisher": "MIT Lincoln Laboratory",
+			"note": "Whirlwind, core memory, the Cape Cod system and the AN/FSQ-7"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Project Whirlwind Summary Report No. 35, Third Quarter 1953",
+			"url": "http://bitsavers.org/pdf/mit/whirlwind/Project_Whirlwind_Summary_Report_No_35_Third_Quarter_1953.pdf",
+			"accessed": "2026-09-28",
+			"publisher": "Digital Computer Laboratory, Massachusetts Institute of Technology",
+			"published": "1953",
+			"number": "Summary Report No. 35",
+			"place": "Cambridge, MA",
+			"note": "The two core banks of 8 August and 5 September 1953, in the review and section 3.1"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Magnetic-core memory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Magnetic-core_memory&oldid=1366725612",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-29"
+		},
+		{
+			"kind": "web",
+			"title": "SAGE",
+			"url": "https://www.ibm.com/history/sage",
+			"accessed": "2026-09-28",
+			"container": "IBM Heritage",
+			"publisher": "IBM"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AN/FSQ-7 Combat Direction Central",
+			"url": "https://en.wikipedia.org/w/index.php?title=AN%2FFSQ-7_Combat_Direction_Central&oldid=1365012086",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-19"
+		},
+		{
+			"kind": "media",
+			"title": "A core memory unit, Bank C, from Project Whirlwind, 1953–59",
+			"url": "https://commons.wikimedia.org/wiki/File:Core_Memory_Unit,_Bank_C,_Project_Whirlwind,_1953-1959,_view_1_-_MIT_Museum_-_Cambridge,_MA_-_DSC09119.jpg",
+			"accessed": "2026-09-28",
+			"container": "MIT Museum, Cambridge, Massachusetts, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "core-bank.jpg",
+			"authors": [
+				{
+					"name": "Daderot"
+				}
+			],
+			"published": "2026-04-17"
+		},
+		{
+			"kind": "media",
+			"title": "A SAGE weapons director’s console with its light gun",
+			"url": "https://commons.wikimedia.org/wiki/File:SAGE_console_and_light_gun_at_CHM.jpg",
+			"accessed": "2026-09-28",
+			"container": "Computer History Museum, Mountain View, California, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "sage-console.jpg",
+			"authors": [
+				{
+					"name": "Tomwsulcer"
+				}
+			],
+			"published": "2015-12-24"
+		}
+	]
+}

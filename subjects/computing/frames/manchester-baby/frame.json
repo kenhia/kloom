@@ -1,0 +1,193 @@
+{
+	"id": "manchester-baby",
+	"position": {
+		"label": "1948",
+		"sort": 1948
+	},
+	"scene": {
+		"headline": "We kept the program on a",
+		"accent": "SCREEN.",
+		"palette": "console",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MANCHESTER · F. C. WILLIAMS · TOM KILBURN · GEOFF TOOTILL",
+			"WILLIAMS–KILBURN TUBE · 32 WORDS · 7 INSTRUCTIONS"
+		],
+		"counter": {
+			"value": "52 min",
+			"label": "to find the highest factor of 2¹⁸, June 1948"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Manchester Baby",
+			"url": "https://en.wikipedia.org/w/index.php?title=Manchester_Baby&oldid=1375332732",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Manchester Baby Computer",
+			"url": "https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/mark1/new.baby.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Napper",
+					"given": "Brian"
+				}
+			],
+			"container": "Computer 50: The University of Manchester Celebrates the Birth of the Modern Computer",
+			"publisher": "The University of Manchester",
+			"published": "1998",
+			"note": "The first run on a small number, 2¹⁸ within days; Williams on the first success"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Original Original Program",
+			"url": "https://www.computerconservationsociety.org/resurrection/res20.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Tootill",
+					"given": "Geoff"
+				}
+			],
+			"container": "Resurrection: The Bulletin of the Computer Conservation Society",
+			"publisher": "Computer Conservation Society",
+			"published": "1998",
+			"issue": "20",
+			"note": "The reconstruction of the first program and its runs; quotes the 1948 letter to Nature from Lavington"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Williams Tube",
+			"url": "https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/kgill/williams/williams.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Napper",
+					"given": "Brian"
+				}
+			],
+			"container": "Computer 50: The University of Manchester Celebrates the Birth of the Modern Computer",
+			"publisher": "The University of Manchester",
+			"published": "1998",
+			"note": "The dot-dash method, after D. B. G. Edwards"
+		},
+		{
+			"kind": "article",
+			"title": "Computing’s Golden Jubilee",
+			"url": "https://www.computerconservationsociety.org/resurrection/res20.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Enticknap",
+					"given": "Nicholas"
+				}
+			],
+			"container": "Resurrection: The Bulletin of the Computer Conservation Society",
+			"publisher": "Computer Conservation Society",
+			"published": "1998",
+			"issue": "20"
+		},
+		{
+			"kind": "web",
+			"title": "Ferranti Mark 1",
+			"url": "https://curation.cs.manchester.ac.uk/computer50/www.computer50.org/mark1/FM1.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Napper",
+					"given": "Brian"
+				}
+			],
+			"container": "Computer 50: The University of Manchester Celebrates the Birth of the Modern Computer",
+			"publisher": "The University of Manchester",
+			"published": "1998"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Williams tube",
+			"url": "https://en.wikipedia.org/w/index.php?title=Williams_tube&oldid=1369816839",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Manchester Mark 1",
+			"url": "https://en.wikipedia.org/w/index.php?title=Manchester_Mark_1&oldid=1367974152",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ferranti Mark 1",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ferranti_Mark_1&oldid=1360658600",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "media",
+			"title": "A Williams–Kilburn tube store, its pick-up plate assembly swung open",
+			"url": "https://commons.wikimedia.org/wiki/File:Williams_Tube_memory_TNMOC-CP.jpg",
+			"accessed": "2026-09-28",
+			"container": "The National Museum of Computing, Bletchley Park, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "williams-tube.jpg",
+			"authors": [
+				{
+					"name": "BadgersCP"
+				}
+			],
+			"published": "2024-10-14"
+		},
+		{
+			"kind": "media",
+			"title": "The replica of the Manchester Baby built for its fiftieth anniversary",
+			"url": "https://commons.wikimedia.org/wiki/File:SSEM_Manchester_museum.jpg",
+			"accessed": "2026-09-28",
+			"container": "Museum of Science and Industry, Manchester, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "baby-replica.jpg",
+			"authors": [
+				{
+					"name": "Parrot of Doom"
+				}
+			],
+			"published": "2009-11-01"
+		}
+	]
+}
