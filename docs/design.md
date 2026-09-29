@@ -528,20 +528,20 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   when the reader has turned following off); B bookmarks the frame on the
   spine, or removes its bookmark (§Reader data); N adds a note (§Notes);
   A annotates words of the reading (§Annotations); C opens the table of
-  contents (§Contents); Tab moves into
+  contents (§Contents); R goes back after a jump (§Connections); Tab moves into
   and out of the AI pane, and Esc anywhere in it returns to the spine. In the
   tabs layout, the arrows on a tab move between the tabs, and on a divider
   they move the divider (§Layout). Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
 - **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
-  T, B, N, A and C act only while focus is inside the spine, the narrative or the
+  T, B, N, A, C and R act only while focus is inside the spine, the narrative or the
   notes. They do nothing in the AI pane, in the settings panel, in the note
   editor, or on the bare page.
 - **And remappable** (WCAG 2.1.4's other remedy, sprint 011, korg 3363).
   Each character shortcut is a setting under "Keys": any letter, or Off
   (`kloom.key.sync`, `.trail`, `.bookmark`, `.note`, `.annotate`,
-  `.contents`). `keymapOf` turns the
+  `.contents`, `.back`). `keymapOf` turns the
   settings into a keymap and `pageKey` reads it. The help bar, the Add a note
   button, the trail buttons and the sync line all show the reader's letters,
   and leave a key out when it is off. A letter given to two shortcuts is
@@ -598,6 +598,81 @@ listed and `engine/ui/Contents.svelte` draws it.
   a trail. The panel is `data-own-keys`, so the page's arrows stand down.
 - **On a phone** (below 40rem) it is a sheet over the whole screen. Its
   title, close button and filter stay at the top while the list scrolls.
+
+## Connections
+
+Phase 1 of the connections design (sprint 017, korg 3439; the decisions are
+Ken's, in the 2026-09-29 comment on korg 3399). The subjects touch each
+other everywhere, in two ways: the same thing appears in two subjects (the
+IBM 704, Project MAC, Bletchley Park), and an idea connects two frames
+(softmax is the Boltzmann distribution; desktop publishing is the next
+printing press). kloom has a layer for each. The graph view is phase 3.
+
+- **Names.** A registry shared by every subject: `names/<id>.json` at the
+  repository's top level, beside `subjects/` and never inside one
+  (`$KLOOM_NAMES_DIR`, by default `names/` beside `$KLOOM_SUBJECTS_DIR`,
+  so the service's content clone carries its own). Each file has `id` (the
+  stem), `wikidata` (an item id, or `null` when there is none), `name`,
+  optional `aliases`, `kind` (person, place, org, artifact, idea, event), a
+  one-line `description`, and an optional `home` frame
+  (`<subject>/<frame>`) chiefly about it. The Wikidata ID is the key that
+  holds across repositories, so subjects kept apart (korg 3387) agree on
+  who "Turing" is without sharing a file; two names may not share one.
+  `engine/names.ts` checks a file.
+- **Name marks.** A reading marks a name as a markdown link with the
+  `kloom:` scheme: `[Alan Turing](kloom:e/alan-turing)`. Only the first
+  mention in a frame is marked, the Wikipedia convention: a later mark
+  renders as its words, and validation warns about it. `kloom:e/<id>` is
+  the only `kloom:` link; any other fails validation and renders as its
+  words. A mark renders as a button (`aria-haspopup="dialog"`), never a
+  navigation link, with a dotted accent underline. `create-tools/names`
+  marks first mentions from a spec, and looks up Wikidata IDs.
+- **The name card.** Clicking a mark, or Enter or Space on it, opens a
+  card beside it: the kind and description; the home frame, if any, as
+  "Chiefly"; then "Appears in…", every frame that marks the name, grouped
+  by subject with the reader's own subject first. The frame the reader is
+  on is listed as "you are here", not linked; every other entry is a link
+  that jumps. A popover, not a modal, like the contents: it takes focus,
+  its keys are its own (`data-own-keys`), and Esc, a click outside or
+  focus leaving it closes it, Esc returning focus to the mark. A mark on
+  a name the registry lacks opens a card saying so.
+- **Connections.** In `frame.json`: `connections: [{to:
+"<subject>/<frame>", why}]`, to a frame in this subject or another. The
+  `why` is required: a sentence on what connects them. A connection is
+  stored on one frame and shown on both: backlinks are derived, never
+  written. The narrative lists them under **Connections**, above Sources,
+  each linked with the other frame's subject (when it is another), title,
+  position and trail, and its _why_.
+- **The graph index.** `engine/graph.ts` builds it at load from every
+  served subject: frames, names, mentions and connections. It reads each
+  subject lightly (`readGraphSubject`: titles, positions, connections and
+  marked names; nothing rendered), about 40 ms for four subjects, per
+  request, beside the subject's own load, so content written to disk
+  shows at once. No cache yet: add one when the subjects make it slow.
+- **Detached, never a failure.** A connection whose target is not a frame
+  shows as "Not found", and a home that is not a frame is left off the
+  card. Subjects may be kept apart and change on their own, so a missing
+  target must never stop a page. Serving validates marks for their form
+  only, for the same reason. The gate is strict about the repository's
+  own: it validates every subject against the registry, and
+  `graphProblems` refuses a connection to no frame, to itself, or stored
+  on both ends, a home that is no frame, and a mark on an unregistered
+  name. Grow validates against the registry too.
+- **Jumps.** Following a card's entry or a connection is a jump: it lands
+  on the frame, past the start screen, on whichever spine holds it (into
+  its trail if need be), in that subject's palette. A jump adds a browser
+  history entry; stepping the spine still replaces the entry. Focus lands
+  on the spine, where the frame is announced, after a jump and after Back.
+- **The Back chip.** After a jump, "↩ Back to <frame> · <subject>" sits in
+  the spine's HUD, left of the contents. Each history entry carries the
+  jumps that led to it (SvelteKit's `page.state.back`, kept through the
+  spine's `replaceState`), so the chip is simply the browser's Back:
+  the two can never disagree, and Forward brings the chip back. Jumps
+  stack; the chip names the latest and shows how many more wait (+1). R
+  goes back too: the seventh character shortcut, remappable and scoped
+  like the others (§Interaction).
+- **Duplication across subjects stays** (Ken): each subject must read on
+  its own, and a connection turns a retelling into the other angle.
 
 ## Risks
 

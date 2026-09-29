@@ -5,19 +5,19 @@ argument than the machine that carried it.
 
 ## A disputation, in Latin
 
-In 1515 **Pope Leo X** granted a plenary indulgence to pay for rebuilding
-**St Peter's Basilica** in Rome. In 1517 the Dominican preacher **Johann
-Tetzel** was selling it in towns near Wittenberg, and Wittenbergers went to
-buy. **Martin Luther**, an Augustinian friar who taught at the university,
+In 1515 **[Pope Leo X](kloom:e/pope-leo-x)** granted a plenary [indulgence](kloom:e/indulgence) to pay for rebuilding
+**[St Peter's Basilica](kloom:e/st-peters-basilica)** in [Rome](kloom:e/rome). In 1517 the Dominican preacher **Johann
+Tetzel** was selling it in towns near [Wittenberg](kloom:e/wittenberg), and Wittenbergers went to
+buy. **[Martin Luther](kloom:e/martin-luther)**, an Augustinian friar who taught at the university,
 thought the trade misled the faithful about sin and forgiveness.
 
 On 31 October 1517 he wrote to **Albert of Brandenburg**, Archbishop of
-Mainz, whose agents ran the campaign, and enclosed ninety-five propositions
-for debate: the _Ninety-five Theses_. They were written in Latin, in the
+[Mainz](kloom:e/mainz), whose agents ran the campaign, and enclosed ninety-five propositions
+for debate: the [_Ninety-five Theses_](kloom:e/ninety-five-theses). They were written in Latin, in the
 form of a university _disputation_, for other theologians.
 
 The famous picture of Luther nailing them to the door of the Castle Church
-comes from **Philip Melanchthon**, who was not yet in Wittenberg at the
+comes from **[Philip Melanchthon](kloom:e/philipp-melanchthon)**, who was not yet in Wittenberg at the
 time. Luther himself always said he had gone through the proper channels,
 and since the Catholic historian **Erwin Iserloh** questioned the story in
 1961, scholars have argued over whether the posting happened at all. What is
@@ -28,7 +28,7 @@ not in doubt is what happened next.
 Nobody in Wittenberg planned a campaign. Printers elsewhere saw a text
 people wanted. Before the year was out the Latin theses had been printed as
 placards in **Leipzig** and **Nuremberg** and as a four-page pamphlet in
-**Basel**, and in Nuremberg **Kaspar Nützel** had put them into German.
+**[Basel](kloom:e/basel)**, and in Nuremberg **Kaspar Nützel** had put them into German.
 
 Luther learned fast. In the spring of 1518 he published a _Sermon on
 Indulgences and Grace_: about 1,500 words, in plain German rather than
@@ -59,7 +59,7 @@ million copies from one author.
 
 Rome's answer came by other means. Luther burned the papal
 bull that threatened him, was excommunicated in 1521 and refused to recant
-before the emperor at the **Diet of Worms**. Hidden afterwards in the
-Wartburg castle, he translated the New Testament into German; it came off
+before the emperor at the **[Diet of Worms](kloom:e/diet-of-worms)**. Hidden afterwards in the
+Wartburg castle, he translated the [New Testament](kloom:e/new-testament) into German; it came off
 the press in September 1522, the same month that one battered ship limped
 home to Spain from the first voyage around the world.

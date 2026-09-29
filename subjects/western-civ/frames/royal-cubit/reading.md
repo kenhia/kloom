@@ -1,7 +1,7 @@
-Every system of measurement began with a body. The **cubit** was the length
+Every system of measurement began with a body. The **[cubit](kloom:e/cubit)** was the length
 of a forearm, from the elbow to the tip of the middle finger, and it was
 handy because everyone carried one. The trouble was that no two forearms
-agree. Egypt's answer, more than two thousand years before Eratosthenes, was
+agree. [Egypt](kloom:e/ancient-egypt)'s answer, more than two thousand years before [Eratosthenes](kloom:e/eratosthenes), was
 to make one forearm official and copy it.
 
 ## The royal cubit
@@ -25,7 +25,7 @@ of measuring as about the everyday tools of a building site.
 
 ## A pyramid in cubits
 
-The **Great Pyramid of Giza**, built around 2600 BC over about twenty-six
+The **[Great Pyramid of Giza](kloom:e/great-pyramid-of-giza)**, built around 2600 BC over about twenty-six
 years, shows what a shared unit could do. Its plan works out in round
 numbers of royal cubits: 440 along each side of the base, about 230.33
 metres, and an original height of 280. Half the base against the height is
@@ -51,5 +51,5 @@ copies sent out — lasted, in one form or another, until 2019.
 
 The Greeks inherited the idea with their own units, which is why
 Eratosthenes' answer comes in _stadia_ and why nobody can quite say how long
-his stadion was. The next step along this trail is a different kind of
+his [stadion](kloom:e/stadion) was. The next step along this trail is a different kind of
 measuring altogether: finding where you are at sea by keeping time.

@@ -9,7 +9,7 @@ the evening of 2 November 1988 a program showed what that trust was worth.
 
 **Robert Tappan Morris**, a graduate student at Cornell, released it at
 about 8.30 that evening from a machine at MIT. The _worm_, a program that
-copies itself from machine to machine by its own effort, attacked VAX
+copies itself from machine to machine by its own effort, attacked [VAX](kloom:e/vax)
 computers and Sun-3 workstations running Berkeley Unix. It got in through
 a debugging mode left in the `sendmail` mail program, a buffer overflow in
 the `finger` service, machines that trusted one another, and guessed

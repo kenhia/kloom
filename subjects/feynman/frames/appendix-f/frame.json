@@ -114,5 +114,11 @@
 			"licence": "Public domain",
 			"file": "shuttle-computers.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/capability-evals",
+			"why": "Feynman asked for honest estimates of rare failures and checks by people independent of the builders, as capability evaluations must."
+		}
 	]
 }

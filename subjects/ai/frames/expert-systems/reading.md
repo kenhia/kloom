@@ -46,7 +46,7 @@ in, on a time-shared computer, before there were personal computers.
 ## R1 goes to work
 
 The system that turned the idea into business was **R1**, known inside
-Digital Equipment Corporation as **XCON**. A VAX computer was not sold in a
+Digital Equipment Corporation as **XCON**. A [VAX](kloom:e/vax) computer was not sold in a
 box: every cabinet, cable, board and piece of software was ordered separately,
 and salespeople who were not engineers often sold systems that lacked a
 cable or a driver, which meant delays, angry customers and sometimes lawsuits.

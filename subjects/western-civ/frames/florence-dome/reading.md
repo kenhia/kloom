@@ -1,5 +1,5 @@
-In 1418 Florence had a problem the size of a hole in the sky. Its new
-cathedral, **Santa Maria del Fiore**, begun in 1296, had been built up to the
+In 1418 [Florence](kloom:e/florence) had a problem the size of a hole in the sky. Its new
+cathedral, **[Santa Maria del Fiore](kloom:e/florence-cathedral)**, begun in 1296, had been built up to the
 base of an enormous octagonal crossing — almost 42 metres across — and the
 design called for a dome over it. Nobody knew how to build one that large.
 
@@ -15,7 +15,7 @@ enough to support the whole weight at that height.
 
 In 1418 the wool merchants' guild, which ran the building works, announced a
 competition. Two goldsmiths emerged as the main contenders: Lorenzo Ghiberti
-and **Filippo Brunelleschi**. Brunelleschi claimed he could build the dome
+and **[Filippo Brunelleschi](kloom:e/filippo-brunelleschi)**. Brunelleschi claimed he could build the dome
 without centring and, famously, would not say how. He and Ghiberti were
 appointed jointly; within a few years the work was effectively his.
 
@@ -43,7 +43,7 @@ was finished after his death.
 
 ## Rebirth
 
-The dome is the emblem of the period later called the **Renaissance**, the
+The dome is the emblem of the period later called the **[Renaissance](kloom:e/renaissance)**, the
 "rebirth" of learning modelled on Greece and Rome. It was not a copy of
 anything ancient. It was what people who had studied the ancients could do
 next — a technical problem solved with mathematics, craft and nerve.

@@ -39,7 +39,7 @@ in north London, by **Frank Morrell**, with **Tommy Flowers** designing the
 _combining unit_ that did the logic, and with electronic counters by
 **C. E. Wynn-Williams** of the Telecommunications Research Establishment at
 Malvern. Construction began in January 1943. Wikipedia has the prototype
-delivered to Bletchley in June; the _General Report on Tunny_, written by
+delivered to [Bletchley](kloom:e/bletchley-park) in June; the _General Report on Tunny_, written by
 the section itself, says the first machines, "pilot models of somewhat
 uncertain behaviour", arrived in April. The Wrens who ran it named it
 **Heath Robinson**, after the cartoonist of absurd contraptions.

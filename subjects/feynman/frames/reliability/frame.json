@@ -99,5 +99,11 @@
 			"file": "shuttle-odds.svg",
 			"published": "2026"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/capability-evals",
+			"why": "Managers put shuttle failure at 1 in 100,000 and engineers at about 1 in 100: estimating a rare disaster before it happens is an evaluator's problem too."
+		}
 	]
 }

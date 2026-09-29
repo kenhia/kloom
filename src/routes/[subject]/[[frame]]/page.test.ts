@@ -1,6 +1,6 @@
 import { join } from 'node:path';
 import { render } from 'svelte/server';
-import { beforeAll, describe, expect, it } from 'vitest';
+import { beforeAll, describe, expect, it, vi } from 'vitest';
 import { loadSubject } from '$engine/load';
 import type { Subject } from '$engine/model';
 import { followSpine, keySettings, layout, paletteMode } from '$engine/settings';
@@ -8,6 +8,16 @@ import type { Note, ReaderLayer } from '$engine/reader-data';
 import Shell from '$engine/ui/Shell.svelte';
 import { UserSettings } from '$engine/user-settings.svelte';
 import Page from './+page.svelte';
+
+// The page reads the history entry's state for the Back chip (§Connections).
+const navState = vi.hoisted(() => ({ back: [] as unknown[] }));
+vi.mock('$app/state', () => ({
+	page: {
+		get state() {
+			return navState;
+		}
+	}
+}));
 
 let subject: Subject;
 beforeAll(async () => {
@@ -24,9 +34,13 @@ const askModels = {
 	default: 'claude-sonnet-5'
 };
 const growModels = { ...askModels, default: 'claude-opus-5-5' };
-const page = (askWeb = 'allow', grow: typeof growModels | null = growModels) =>
+const page = (
+	askWeb = 'allow',
+	grow: typeof growModels | null = growModels,
+	extra: Record<string, unknown> = {}
+) =>
 	render(Page, {
-		props: { data: { subject, subjects, askModels, askWeb, growModels: grow } } as never
+		props: { data: { subject, subjects, askModels, askWeb, growModels: grow, ...extra } } as never
 	});
 const subjects = [
 	{ id: 'ai', title: 'History and Current State of AI' },
@@ -732,5 +746,83 @@ describe('the reader’s layer on a frame', () => {
 		expect(said(body)).toContain('Notes 1, 1 on this frame');
 		// A plain note has neither.
 		expect(said(shell(layer({ notes: [note()] })))).not.toContain('Show in reading');
+	});
+});
+
+describe('connections and names (§Connections)', () => {
+	const links = {
+		connections: {
+			prometheus: [
+				{
+					direction: 'out',
+					why: 'Fire, then fire put to work.',
+					subject: 'western-civ',
+					subjectTitle: 'The History of Western Civilization',
+					frame: 'steam',
+					title: 'Then we put fire to WORK.',
+					label: 'AD 1776',
+					trail: null,
+					detached: false
+				},
+				{
+					direction: 'in',
+					why: 'Myths of made minds.',
+					subject: 'ai',
+					subjectTitle: 'History and Current State of AI',
+					frame: 'talos',
+					title: 'We imagined minds of BRONZE.',
+					label: 'Myth',
+					trail: null,
+					detached: false
+				},
+				{
+					direction: 'out',
+					why: 'A subject not served.',
+					subject: 'physics',
+					subjectTitle: 'physics',
+					frame: 'fire',
+					detached: true
+				}
+			]
+		},
+		names: {}
+	};
+
+	it("lists a frame's connections above its Sources, each with its why", () => {
+		const html = page('allow', growModels, { links }).body;
+		const at = html.search(/<h3[^>]*>Connections<\/h3>/);
+		const sources = html.search(/<h3[^>]*>Sources<\/h3>/);
+		expect(at).toBeGreaterThan(0);
+		expect(at).toBeLessThan(sources);
+		const list = said(html.slice(at, sources));
+		expect(list).toContain('Then we put fire to WORK. AD 1776 Fire, then fire put to work.');
+		// Another subject's frame names its subject; one stored there says so.
+		expect(list).toContain('History and Current State of AI · Myth');
+		expect(html).toContain('href="/ai/talos" aria-label="From We imagined minds of BRONZE."');
+		// A missing target is detached, never a failure.
+		expect(list).toContain('physics/fire Not found');
+	});
+
+	it("marks a name's first mention in the reading as a button, not a link", () => {
+		expect(page('allow', growModels, { links }).body).toMatch(
+			/<button type="button" class="name" data-name="prometheus" aria-haspopup="dialog" aria-expanded="false">/
+		);
+	});
+
+	it('shows no Back chip without a jump, and names the last jump with one', () => {
+		expect(page().body).not.toContain('class="back');
+		navState.back = [
+			{ subject: 'ai', frame: 'talos', title: 'We imagined minds of BRONZE.', subjectTitle: 'AI' },
+			{ subject: 'ai', frame: 'eliza', title: 'We saw ourselves in a MIRROR.', subjectTitle: 'AI' }
+		];
+		try {
+			const html = page().body;
+			expect(html).toContain(
+				'aria-label="Back to We saw ourselves in a MIRROR., AI, and 1 more before it"'
+			);
+			expect(said(html)).toContain('R back');
+		} finally {
+			navState.back = [];
+		}
 	});
 });

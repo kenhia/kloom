@@ -5,7 +5,7 @@ than he could.
 ## A checkers player at IBM
 
 **Arthur Samuel** joined IBM at Poughkeepsie in 1949 and wrote a checkers
-program for the company's first commercial computer, the **IBM 701**. It
+program for the company's first commercial computer, the **[IBM 701](kloom:e/ibm-701)**. It
 was shown on television on 24 February 1956. IBM's president, **Thomas
 Watson**, arranged a showing for shareholders and predicted that IBM's stock
 would rise fifteen points; according to the checkers researcher Jonathan
@@ -13,8 +13,8 @@ Schaeffer, it did.
 
 Samuel chose checkers over chess because its simpler rules let him
 concentrate on learning. His 1959 paper, "Some Studies in Machine Learning
-Using the Game of Checkers", describes the program on the faster **IBM
-704**. The board fitted the machine neatly: each of the 32 playing squares
+Using the Game of Checkers", describes the program on the faster **[IBM
+704](kloom:e/ibm-704)**. The board fitted the machine neatly: each of the 32 playing squares
 was one bit of a 36-bit word, so four words held a position. The program
 looked a few moves ahead, backed up the scores by minimax as Shannon had
 proposed, and scored the positions it reached with a _scoring polynomial_:

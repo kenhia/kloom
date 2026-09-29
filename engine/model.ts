@@ -56,6 +56,17 @@ export interface Scene {
 	counter?: { value: string; label?: string };
 }
 
+/**
+ * A connection from one frame to another, in this subject or another
+ * (docs/design.md §Connections). Stored on one side and shown on both.
+ */
+export interface Connection {
+	/** `<subject>/<frame>`. */
+	to: string;
+	/** What connects them, in a sentence: required. */
+	why: string;
+}
+
 /** A frame as authored in `frame.json`; the reading lives in `reading.md`. */
 export interface FrameFile {
 	id: string;
@@ -74,6 +85,7 @@ export interface FrameFile {
 	 * of something) was last true. Shown in the reading pane, and given to ask.
 	 */
 	asOf?: string;
+	connections?: Connection[];
 }
 
 /** A frame ready to render: both halves, markdown already turned to HTML. */

@@ -318,5 +318,15 @@
 			"file": "muon-gap.svg",
 			"published": "2026"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/next-token",
+			"why": "In imaginary time the path integral weights each history like a Boltzmann factor; sampling a token weights each choice by the same exponential, with a temperature."
+		},
+		{
+			"to": "ai/diffusion",
+			"why": "The Feynman–Kac formula writes a diffusion's expectations as averages over random paths, the mathematics under noising and denoising."
+		}
 	]
 }

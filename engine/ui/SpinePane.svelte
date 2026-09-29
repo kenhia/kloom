@@ -230,8 +230,14 @@
 	}
 	.corner {
 		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
 		align-items: center;
-		gap: 0.75rem;
+		gap: 0.35rem 0.75rem;
+	}
+	/* The index never wraps, however much the corner holds (the Back chip). */
+	.index {
+		white-space: nowrap;
 	}
 	.crumb {
 		font: inherit;

@@ -154,5 +154,11 @@
 			"licence": "CC BY-SA 2.0",
 			"file": "symbolics-chm.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/xerox-alto",
+			"why": "Lisp machines were personal workstations of the Alto's kind, and general workstations from Sun and others overtook them."
+		}
 	]
 }

@@ -14,7 +14,7 @@ neuroscience, he became fascinated by what large groups of simple neurons
 might do together. In 1980 he left Princeton's physics department for a
 chair in chemistry and biology at Caltech, where he had computers he could
 use freely. There, from 1981 to 1983, he taught a course called "The Physics
-of Computation" with **Richard Feynman** and **Carver Mead**.
+of Computation" with **Richard Feynman** and **[Carver Mead](kloom:e/carver-mead)**.
 
 ## Memory as a landscape
 

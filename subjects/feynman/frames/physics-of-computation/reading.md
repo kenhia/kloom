@@ -1,5 +1,5 @@
 In the early 1980s three Caltech professors from three different trades
-put their names on one course. **Carver Mead** designed chips. **John
+put their names on one course. **[Carver Mead](kloom:e/carver-mead)** designed chips. **John
 Hopfield**, a physicist who had moved to Caltech's chemistry and biology
 divisions in 1980, was asking how networks of neurons compute.
 **Feynman** wanted to know what the laws of physics allow a computer to

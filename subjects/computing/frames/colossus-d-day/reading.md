@@ -1,4 +1,4 @@
-The first Colossus proved itself in February 1944, and Bletchley at once
+The first Colossus proved itself in February 1944, and [Bletchley](kloom:e/bletchley-park) at once
 wanted more, and better. Four of an improved design were ordered in March,
 twelve by the end of April, and the Post Office engineers at Dollis Hill were
 told to have the first working by 1 June. The invasion of France was coming,

@@ -145,5 +145,11 @@
 			],
 			"published": "2026"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/xerox-alto",
+			"why": "Ethernet was made at PARC to connect the Altos to each other and to the laser printer."
+		}
 	]
 }

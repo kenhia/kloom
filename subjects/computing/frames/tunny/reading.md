@@ -3,7 +3,7 @@ traffic: not Morse but the rapid warble of a teleprinter. In the summer of
 1941 an experimental link between Vienna and Athens began carrying it, and in
 time it carried messages between the German High Command and army commands
 across occupied Europe, enciphered by a machine nobody in Britain had seen.
-Bletchley called such traffic _Fish_, and the first link, and then the
+[Bletchley](kloom:e/bletchley-park) called such traffic _Fish_, and the first link, and then the
 machine behind it, **Tunny**. Early in 1942 its codebreakers worked out how
 the machine was built, on paper, from the key it produced.
 

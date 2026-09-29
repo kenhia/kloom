@@ -1,6 +1,6 @@
 On 25 April 1953 the journal _Nature_ printed a one-page letter from two
-researchers in Cambridge, **James Watson** and **Francis Crick**. It proposed
-a structure for deoxyribose nucleic acid, **DNA**, and it ended with one of
+researchers in Cambridge, **[James Watson](kloom:e/james-watson)** and **[Francis Crick](kloom:e/francis-crick)**. It proposed
+a structure for deoxyribose nucleic acid, **[DNA](kloom:e/dna)**, and it ended with one of
 the most famous understatements in science:
 
 > It has not escaped our notice that the specific pairing we have postulated
@@ -18,10 +18,10 @@ itself.
 
 ## Photo 51
 
-At King's College London, **Rosalind Franklin**, an expert in X-ray
+At King's College London, **[Rosalind Franklin](kloom:e/rosalind-franklin)**, an expert in X-ray
 crystallography, and her student **Raymond Gosling** were photographing DNA
 fibres with X-rays. In May 1952 they took an exceptionally clear image of the
-hydrated form of DNA, later known as **Photo 51**. Its distinctive X-shaped
+hydrated form of DNA, later known as **[Photo 51](kloom:e/photo-51)**. Its distinctive X-shaped
 pattern is the signature of a helix, and its spacings give the helix's
 dimensions: a full turn every 3.4 nanometres.
 

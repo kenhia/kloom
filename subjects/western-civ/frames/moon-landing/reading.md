@@ -1,6 +1,6 @@
 At 9:32 in the morning on 16 July 1969, at the Kennedy Space Center in
-Florida, a **Saturn V** rocket lifted Apollo 11 off the pad. Four days later,
-two people stood on the Moon.
+Florida, a **[Saturn V](kloom:e/saturn-v)** rocket lifted [Apollo 11](kloom:e/apollo-11) off the pad. Four days later,
+two people stood on the [Moon](kloom:e/moon).
 
 ## The machine
 
@@ -14,14 +14,14 @@ service module, and folded inside the adapter below them, the lunar module
 
 Getting there took the work of hundreds of thousands of people across
 government, industry and universities, and eight years of flights, failures
-and fixes since President Kennedy had set the goal in 1961. It also took a
+and fixes since [President Kennedy](kloom:e/john-f-kennedy) had set the goal in 1961. It also took a
 fire, in January 1967, that killed the three astronauts of Apollo 1 during a
 ground test, and led to a redesign of the spacecraft.
 
 ## The landing
 
-On 20 July 1969, **Neil Armstrong** and **Buzz Aldrin** undocked in _Eagle_
-and descended towards the Sea of Tranquility, while **Michael Collins**
+On 20 July 1969, **[Neil Armstrong](kloom:e/neil-armstrong)** and **[Buzz Aldrin](kloom:e/buzz-aldrin)** undocked in _Eagle_
+and descended towards the Sea of Tranquility, while **[Michael Collins](kloom:e/michael-collins-astronaut)**
 stayed in orbit aboard _Columbia_. Near the end of the descent, program alarms
 sounded and the computer's chosen landing spot turned out to be a field of
 boulders; Armstrong took manual control and flew on to find level ground.
@@ -40,7 +40,7 @@ audience estimated at hundreds of millions.
 All three men returned safely on 24 July. Ten more astronauts walked on the
 Moon on the missions that followed, the last in December 1972. The most
 lasting image from the programme may not be of the Moon at all, but of the
-Earth: a small blue sphere hanging in the dark above a grey horizon. The
+[Earth](kloom:e/earth): a small blue sphere hanging in the dark above a grey horizon. The
 long story of learning — the counting, measuring, copying, printing and
 calculating that fill this timeline — had taken its authors off the planet
 where it began.

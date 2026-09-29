@@ -46,7 +46,7 @@ spent more than half its time swapping. For the 7090 they estimated a
 quantum of 16 milliseconds and, with the disk then available, only about
 four users with a worst reply to a trivial command of 32 seconds; a fast
 drum might serve 120. CTSS went into routine service in 1963, and a second
-copy ran MIT's Project MAC, whose successor system, Multics, is a story of
+copy ran MIT's [Project MAC](kloom:e/project-mac), whose successor system, Multics, is a story of
 its own. It had the first password logins and early messages between
 users.
 

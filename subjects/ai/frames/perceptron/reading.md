@@ -8,7 +8,7 @@ subject.
 
 Rosenblatt (1928–1971) took his doctorate at Cornell in 1956 and moved to
 the **Cornell Aeronautical Laboratory** in Buffalo, New York. In 1957 he
-simulated a perceptron on an IBM 704 there, and in 1958 he set the idea out
+simulated a perceptron on an [IBM 704](kloom:e/ibm-704) there, and in 1958 he set the idea out
 in _Psychological Review_: a network of three kinds of units, _sensory_ (S),
 _association_ (A) and _response_ (R). Its neuron was, in his words, "a direct
 descendant" of the one McCulloch and Pitts had proposed in 1943, but the

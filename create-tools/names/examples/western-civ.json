@@ -1,0 +1,222 @@
+{
+	"western-civ/dna": [
+		["James Watson", "james-watson"],
+		["Francis Crick", "francis-crick"],
+		["DNA", "dna"],
+		["Rosalind Franklin", "rosalind-franklin"],
+		["Photo 51", "photo-51"]
+	],
+	"western-civ/erasmus-greek-nt": [
+		["New Testament", "new-testament"],
+		["_Vulgate_", "vulgate"],
+		["Desiderius Erasmus", "erasmus"],
+		["Basel", "basel"],
+		["_Novum Instrumentum omne_", "novum-instrumentum-omne"],
+		["Reformation", "reformation"],
+		["Martin Luther", "martin-luther"],
+		["Renaissance", "renaissance"],
+		["Wittenberg", "wittenberg"],
+		["printing press", "printing-press"]
+	],
+	"western-civ/eratosthenes": [
+		["Eratosthenes of Cyrene", "eratosthenes"],
+		["Alexandria", "alexandria"],
+		["Earth", "earth"],
+		["Moon", "moon"],
+		["Syene", "syene"],
+		["Egypt", "ancient-egypt"],
+		["stadia", "stadion"]
+	],
+	"western-civ/faraday-induction": [
+		["Royal Institution", "royal-institution"],
+		["London", "london"],
+		["Michael Faraday", "michael-faraday"],
+		["Hans Christian Ørsted", "hans-christian-orsted"],
+		["_Faraday's law of induction_", "faradays-law-of-induction"]
+	],
+	"western-civ/florence-dome": [
+		["Florence", "florence"],
+		["Santa Maria del Fiore", "florence-cathedral"],
+		["Filippo Brunelleschi", "filippo-brunelleschi"],
+		["Renaissance", "renaissance"]
+	],
+	"western-civ/greek-inquiry": [
+		["Thales", "thales-of-miletus"],
+		["Plato", "plato"],
+		["Euclid's _Elements_", "euclids-elements"],
+		["Alexandria", "alexandria"],
+		["Johannes Kepler", "johannes-kepler"],
+		["Platonic solids", "platonic-solid"]
+	],
+	"western-civ/gutenberg-bible": [
+		["Johannes Gutenberg", "johannes-gutenberg"],
+		["Mainz", "mainz"],
+		["Gutenberg Bible", "gutenberg-bible"],
+		["Vulgate", "vulgate"],
+		["vellum", "vellum"],
+		["Johann Fust", "johann-fust"]
+	],
+	"western-civ/harrison-chronometer": [
+		["Eratosthenes", "eratosthenes"],
+		["Earth", "earth"],
+		["Longitude", "longitude"],
+		["John Harrison", "john-harrison"],
+		["Moon", "moon"],
+		["Nevil Maskelyne", "nevil-maskelyne"],
+		["London", "london"],
+		["James Cook", "james-cook"]
+	],
+	"western-civ/jwst": [
+		["James Webb Space Telescope", "james-webb-space-telescope"],
+		["infrared", "infrared"],
+		["Earth", "earth"],
+		["Moon", "moon"],
+		["Webb's First Deep Field", "webbs-first-deep-field"],
+		["Eratosthenes", "eratosthenes"],
+		["Maxwell", "james-clerk-maxwell"]
+	],
+	"western-civ/magna-carta": [
+		["Runnymede", "runnymede"],
+		["Thames", "river-thames"],
+		["King John", "king-john"],
+		["London", "london"],
+		["Magna Carta", "magna-carta"],
+		["rule of law", "rule-of-law"],
+		["American Bill of Rights", "united-states-bill-of-rights"],
+		["parchment", "parchment"]
+	],
+	"western-civ/maxwell": [
+		["James Clerk Maxwell", "james-clerk-maxwell"],
+		["Michael Faraday", "michael-faraday"],
+		["speed of light", "speed-of-light"],
+		["Heinrich Hertz", "heinrich-hertz"],
+		["infrared", "infrared"]
+	],
+	"western-civ/metre-survey": [
+		["Earth", "earth"],
+		["Eratosthenes", "eratosthenes"],
+		["Revolution", "french-revolution"],
+		["metre", "metre"],
+		["Paris", "paris"],
+		["Jean-Baptiste Delambre", "jean-baptiste-delambre"],
+		["Pierre Méchain", "pierre-mechain"],
+		["Metre Convention", "metre-convention"],
+		["kilogram", "kilogram"]
+	],
+	"western-civ/moon-landing": [
+		["Saturn V", "saturn-v"],
+		["Apollo 11", "apollo-11"],
+		["Moon", "moon"],
+		["President Kennedy", "john-f-kennedy"],
+		["Neil Armstrong", "neil-armstrong"],
+		["Buzz Aldrin", "buzz-aldrin"],
+		["Michael Collins", "michael-collins-astronaut"],
+		["Earth", "earth"]
+	],
+	"western-civ/ninety-five-theses": [
+		["Pope Leo X", "pope-leo-x"],
+		["indulgence", "indulgence"],
+		["St Peter's Basilica", "st-peters-basilica"],
+		["Rome", "rome"],
+		["Wittenberg", "wittenberg"],
+		["Martin Luther", "martin-luther"],
+		["Mainz", "mainz"],
+		["_Ninety-five Theses_", "ninety-five-theses"],
+		["Philip Melanchthon", "philipp-melanchthon"],
+		["Basel", "basel"],
+		["Diet of Worms", "diet-of-worms"],
+		["New Testament", "new-testament"]
+	],
+	"western-civ/pantheon": [
+		["Pantheon", "pantheon-rome"],
+		["Rome", "rome"],
+		["Hadrian", "hadrian"],
+		["Roman concrete", "roman-concrete"],
+		["Florence", "florence"],
+		["Filippo Brunelleschi", "filippo-brunelleschi"]
+	],
+	"western-civ/printing-press": [
+		["Mainz", "mainz"],
+		["Johannes Gutenberg", "johannes-gutenberg"],
+		["Johann Fust", "johann-fust"],
+		["Erasmus", "erasmus"],
+		["Martin Luther", "martin-luther"],
+		["Reformation", "reformation"]
+	],
+	"western-civ/prometheus": [
+		["Hesiod", "hesiod"],
+		["Prometheus", "prometheus"],
+		["Zeus", "zeus"],
+		["_Prometheus Bound_", "prometheus-bound"],
+		["Wonderwerk Cave", "wonderwerk-cave"]
+	],
+	"western-civ/royal-cubit": [
+		["cubit", "cubit"],
+		["Egypt", "ancient-egypt"],
+		["Eratosthenes", "eratosthenes"],
+		["Great Pyramid of Giza", "great-pyramid-of-giza"],
+		["stadion", "stadion"]
+	],
+	"western-civ/scriptorium": [
+		["western Roman Empire", "western-roman-empire"],
+		["scriptorium", "scriptorium"],
+		["Cassiodorus", "cassiodorus"],
+		["Parchment", "parchment"],
+		["vellum", "vellum"],
+		["Charlemagne", "charlemagne"],
+		["Caroline minuscule", "carolingian-minuscule"]
+	],
+	"western-civ/shakespeare": [
+		["London", "london"],
+		["Thames", "river-thames"],
+		["Globe", "globe-theatre"],
+		["William Shakespeare", "william-shakespeare"],
+		["_Hamlet_", "hamlet"],
+		["First Folio", "first-folio"]
+	],
+	"western-civ/si-redefinition": [
+		["kilogram", "kilogram"],
+		["Paris", "paris"],
+		["International System", "international-system-of-units"],
+		["metre", "metre"],
+		["International Prototype of the Kilogram", "international-prototype-of-the-kilogram"],
+		[
+			"International Bureau of Weights and Measures",
+			"international-bureau-of-weights-and-measures"
+		],
+		["cubit", "cubit"],
+		["Metre Convention", "metre-convention"],
+		["speed of light", "speed-of-light"],
+		["Planck constant", "planck-constant"],
+		["Kibble balance", "kibble-balance"],
+		["Eratosthenes", "eratosthenes"],
+		["Alexandria", "alexandria"]
+	],
+	"western-civ/steam": [
+		["Industrial Revolution", "industrial-revolution"],
+		["steam engine", "steam-engine"],
+		["Thomas Newcomen", "thomas-newcomen"],
+		["James Watt", "james-watt"],
+		["Boulton & Watt", "boulton-and-watt"],
+		["horsepower", "horsepower"],
+		["watt", "watt"]
+	],
+	"western-civ/voyages": [
+		["Ferdinand Magellan", "ferdinand-magellan"],
+		["Spice Islands", "maluku-islands"],
+		["Strait of Magellan", "strait-of-magellan"],
+		["Pacific", "pacific-ocean"],
+		["Victoria", "victoria-ship"],
+		["Juan Sebastián Elcano", "juan-sebastian-elcano"],
+		["International Date Line", "international-date-line"],
+		["Earth", "earth"]
+	],
+	"western-civ/writing": [
+		["Mesopotamia", "mesopotamia"],
+		["Uruk", "uruk"],
+		["cuneiform", "cuneiform"],
+		["Egyptian hieroglyphs", "egyptian-hieroglyphs"],
+		["_Epic of Gilgamesh_", "epic-of-gilgamesh"],
+		["Mainz", "mainz"]
+	]
+}

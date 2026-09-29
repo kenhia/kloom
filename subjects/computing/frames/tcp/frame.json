@@ -202,5 +202,11 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-02-23"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/bsd",
+			"why": "BSD's TCP/IP, paid for by DARPA, is the implementation that carried the protocols across the ARPANET and beyond."
+		}
 	]
 }

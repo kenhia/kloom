@@ -117,6 +117,10 @@ Sprint 016 navigation: a table of contents in the spine's HUD (frames by
 segment, trails under their anchors, the reader's marks, a filter, C to
 open it), and the start screen's Continue fed by a live mirror of the
 reader's places, with Begin starting from the first frame.
+Sprint 017 connections, phase 1: a name registry (`names/`, keyed by
+Wikidata ID) whose first mentions in a reading open a card, connections
+from frame to frame with a _why_ shown on both ends, and jumps across
+subjects with the browser's Back and a "↩ Back to…" chip (R).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -131,6 +135,7 @@ land), prettier + eslint, and vitest, which also loads and validates every
 subject under `subjects/`. Layout: `engine/` (model, loader,
 validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
 `src/` (SvelteKit wiring — the only code that picks a subject),
+`names/` (the name registry every subject shares),
 `create-tools/` (authoring scripts: plates, citations, charts, traced art),
 `skills/` (agent instructions: `grow/SKILL.md` writes content,
 `author-subject/SKILL.md` authors a whole subject, `review-notes/SKILL.md`
@@ -141,6 +146,9 @@ works through flagged notes).
 - `engine/` never names a subject; subject content and theme live under
   `subjects/<subject>/`.
 - Don't assume the spine is time — segments carry their own label kind.
+- A reading marks a name's first mention only (`[words](kloom:e/<id>)`),
+  and only a name in `names/`; a connection names `<subject>/<frame>`, is
+  stored on one end, and says why. The gate refuses a dangling one.
 - Every frame flags at least one key-source citation (`"key": true`; the
   Sources list is built from them, never written); every image or chart in
   a reading carries a `media` citation with its licence; Wikipedia is cited

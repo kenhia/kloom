@@ -224,5 +224,11 @@
 			],
 			"published": "2006-08-26"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/physics-of-computation",
+			"why": "Lynn Conway, Mead's co-author on the VLSI method taught in that course, worked at Xerox PARC, the Alto's home."
+		}
 	]
 }

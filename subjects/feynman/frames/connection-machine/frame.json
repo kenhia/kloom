@@ -120,5 +120,11 @@
 			"file": "cm1.jpg",
 			"published": "2007-11-10"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/hopfield-network",
+			"why": "Feynman had Hopfield give Thinking Machines' first seminar, then worked out how to run Hopfield's network on the CM-1."
+		}
 	]
 }

@@ -108,5 +108,19 @@
 			"file": "millikan-apparatus.jpg",
 			"published": "2014-08-22"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/capability-evals",
+			"why": "\"The first principle is that you must not fool yourself\": the discipline an evaluation needs when a benchmark can look like a test and stop measuring."
+		},
+		{
+			"to": "ai/alignment-faking",
+			"why": "A model that behaves well only when it thinks it is watched fools its testers, the failure Feynman told scientists to guard against in themselves."
+		},
+		{
+			"to": "ai/reasoning-models",
+			"why": "A chain of thought can read like reasoning without being how the answer was reached: Feynman's warning about convincing appearances."
+		}
 	]
 }

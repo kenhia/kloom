@@ -61,7 +61,7 @@ had structures, and given up. The rewrite made the system's structure, in
 Ritchie's words, "much more rational", and it made the system portable. In
 1977 Ritchie, Thompson and **Steve Johnson** moved Unix to the Interdata
 8/32, a quite different machine, using Johnson's portable compiler, and Tom
-London and John Reiser then moved it to DEC's VAX.
+London and John Reiser then moved it to DEC's [VAX](kloom:e/vax).
 
 ![The cover of the first edition of The C Programming Language: a large pale blue letter C under the word THE, with PROGRAMMING LANGUAGE below it and the authors' names, Brian W. Kernighan and Dennis M. Ritchie](k-and-r.png)
 

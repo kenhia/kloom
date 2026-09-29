@@ -1,5 +1,5 @@
 On 18 January 1944 a machine from a telephone laboratory in north London
-was delivered to Bletchley Park, and the codebreakers there named it for its
+was delivered to [Bletchley Park](kloom:e/bletchley-park), and the codebreakers there named it for its
 size. Colossus is usually counted the first programmable electronic digital
 computer: fifteen or sixteen hundred valves switching in step, reading a
 loop of paper tape at 5,000 characters a second. It was built by telephone

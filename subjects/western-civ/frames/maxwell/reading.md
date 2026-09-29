@@ -1,4 +1,4 @@
-In 1865 a Scottish physicist, **James Clerk Maxwell**, published a paper with
+In 1865 a Scottish physicist, **[James Clerk Maxwell](kloom:e/james-clerk-maxwell)**, published a paper with
 a modest title, "A Dynamical Theory of the Electromagnetic Field". It
 explained what light is.
 
@@ -6,7 +6,7 @@ explained what light is.
 
 By the middle of the nineteenth century electricity and magnetism were
 known to be linked. A current moving through a wire deflects a compass
-needle; a moving magnet makes a current flow. **Michael Faraday**, a brilliant
+needle; a moving magnet makes a current flow. **[Michael Faraday](kloom:e/michael-faraday)**, a brilliant
 experimenter with little mathematics, pictured the space around magnets and
 currents as filled with "lines of force", and argued that the action happened
 in that space, not at a distance.
@@ -27,7 +27,7 @@ The equations also said how fast such a wave must travel, and the speed came
 from two constants measured in ordinary electrical experiments, with coils
 and capacitors, not with light at all. Using the measurements of his day,
 Maxwell calculated about 310,740 kilometres per second. Measured values for
-the speed of light were very close. He concluded:
+the [speed of light](kloom:e/speed-of-light) were very close. He concluded:
 
 > The agreement of the results seems to show that light and magnetism are
 > affections of the same substance, and that light is an electromagnetic
@@ -36,11 +36,11 @@ the speed of light were very close. He concluded:
 ## The spectrum opened
 
 If visible light was one electromagnetic wave, there could be others, with
-longer and shorter wavelengths. In the late 1880s Heinrich Hertz generated and
+longer and shorter wavelengths. In the late 1880s [Heinrich Hertz](kloom:e/heinrich-hertz) generated and
 detected radio waves in his laboratory, confirming Maxwell's prediction after
 Maxwell himself had died. Radio, radar, television, microwave ovens,
 X-ray imaging and the phone in your pocket all rest on these equations. So
-does the telescope at the end of this timeline, which sees in infrared.
+does the telescope at the end of this timeline, which sees in [infrared](kloom:e/infrared).
 
 Maxwell's original equations were many and cumbersome; Oliver Heaviside later
 rewrote them in the compact vector form of four equations familiar to physics

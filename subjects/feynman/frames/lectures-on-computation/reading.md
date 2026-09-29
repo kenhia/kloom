@@ -10,7 +10,7 @@ The dates vary a little with the source. The Caltech record, as the book's
 editor **Tony Hey** reports it, has the course starting in the autumn of
 1983, and the publisher gives 1983 to 1986; Hey's own abstract of the
 book, from 1996, says 1984 to 1986. Hey writes that Feynman lectured on
-computation first with Hopfield and Mead, and then with **Gerald Jay
+computation first with Hopfield and [Mead](kloom:e/carver-mead), and then with **Gerald Jay
 Sussman**, a computer scientist from MIT. Guest speakers included
 **Marvin Minsky**, **Charles Bennett** and Hopfield again.
 

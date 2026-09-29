@@ -48,7 +48,7 @@ took effect on 1 January 2026, and New York's RAISE Act, signed in December
 ![A panel of four seated speakers in front of a banner reading AI Safety Summit, hosted by the UK, 1–2 November 2023; Michelle Donelan, the UK science secretary, is on the right. Photo: Marcel Grabowski / UK Government, CC BY 2.0](bletchley-summit.jpg)
 
 In November 2023 the British government brought governments and
-companies to **Bletchley Park**, the wartime codebreaking centre. Its
+companies to **[Bletchley Park](kloom:e/bletchley-park)**, the wartime codebreaking centre. Its
 declaration, agreed by the governments present, the United States, China
 and the European Union among them, warned of risks "at the 'frontier' of AI", including "unintended issues of
 control relating to alignment with human intent". Britain and the United

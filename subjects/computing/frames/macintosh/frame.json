@@ -178,5 +178,11 @@
 			"file": "gui-prices.svg",
 			"published": "2026"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/printing-press",
+			"why": "Desktop publishing put type, layout and printing on one desk: the next great cheapening of print after Gutenberg."
+		}
 	]
 }

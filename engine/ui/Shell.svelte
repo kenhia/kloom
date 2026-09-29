@@ -2,10 +2,11 @@
 	import { onMount, tick, untrack } from 'svelte';
 	import type { AiOffer } from '../ai/provider';
 	import type { Anchor } from '../anchor';
+	import type { SubjectLinks } from '../graph';
 	import type { Frame, Subject, Trail } from '../model';
 	import type { JumpItem, Note, ReaderLayer } from '../reader-data';
 	import { contentsOf, openTrails } from '../contents';
-	import { clamp, indexLabel, stops, WheelGate, type SyncMode } from '../navigation';
+	import { clamp, indexLabel, stops, WheelGate, type BackStop, type SyncMode } from '../navigation';
 	import { keyClashes, keyName, pageKey, SHORTCUTS, tabKey } from '../keys';
 	import { marksText, type FrameMarks } from '../marks';
 	import {
@@ -31,7 +32,12 @@
 	import AiPane from './AiPane.svelte';
 	import Bookmarks from './Bookmarks.svelte';
 	import Contents from './Contents.svelte';
-	import Narrative, { type AnnotationOffer, type QaOffer } from './Narrative.svelte';
+	import BackChip from './BackChip.svelte';
+	import Narrative, {
+		type AnnotationOffer,
+		type LinksOffer,
+		type QaOffer
+	} from './Narrative.svelte';
 	import NoteEditor from './NoteEditor.svelte';
 	import Notes from './Notes.svelte';
 	import Settings from './Settings.svelte';
@@ -62,6 +68,14 @@
 		onhome?: () => void;
 		/** A frame's own address, for the contents' links; the page resolves it. */
 		hrefOf?: (frame: string) => string;
+		/** Connections and name cards for this subject's frames (§Connections). */
+		links?: SubjectLinks | null;
+		/** Any frame's address, in any subject; the page resolves it. */
+		hrefTo?: (subject: string, frame: string) => string;
+		/** A jump to a frame, here or in another subject: the page navigates, with a way back. */
+		onfollow?: (subject: string, frame: string) => void;
+		/** Where the last jump left from, and how many are stacked; null when there is none. */
+		back?: { to: BackStop; depth: number; onback: () => void } | null;
 	}
 
 	/** What the page offers for bookmarks: the frames marked, the jump list, and the writes. */
@@ -85,7 +99,11 @@
 		bookmarks = null,
 		layer = null,
 		onhome,
-		hrefOf
+		hrefOf,
+		links = null,
+		hrefTo,
+		onfollow,
+		back = null
 	}: Props = $props();
 
 	let trailId = $state<string | null>(null);
@@ -371,7 +389,8 @@
 			(s) =>
 				keys[s.action] &&
 				(s.action !== 'bookmark' || bookmarks) &&
-				((s.action !== 'note' && s.action !== 'annotate') || layer)
+				((s.action !== 'note' && s.action !== 'annotate') || layer) &&
+				(s.action !== 'back' || back)
 		).map((s, i, all) => ({
 			action: s.action,
 			/** What comes before it: nothing, a comma, or "and" before the last. */
@@ -383,9 +402,22 @@
 				bookmark: 'bookmark',
 				note: 'note',
 				annotate: 'annotate',
-				contents: 'contents'
+				contents: 'contents',
+				back: 'back'
 			}[s.action]
 		}))
+	);
+
+	const linksOffer = $derived<LinksOffer | null>(
+		links && hrefTo && onfollow
+			? {
+					connections: links.connections[narrativeFrame.id] ?? [],
+					names: links.names,
+					subject: subject.id,
+					hrefOf: hrefTo,
+					onfollow
+				}
+			: null
 	);
 
 	const qa = $derived<QaOffer | null>(
@@ -399,6 +431,11 @@
 				}
 			: null
 	);
+
+	/** Focus the spine: where a jump lands the keyboard, as the frame is announced there. */
+	export function focusSpine() {
+		slider?.focus();
+	}
 
 	/**
 	 * Move to a frame wherever it is: each frame sits on one spine, the main
@@ -565,6 +602,10 @@
 			case 'contents':
 				contentsEl?.show();
 				break;
+			case 'back':
+				if (!back) return;
+				back.onback();
+				break;
 			default:
 				return;
 		}
@@ -629,6 +670,9 @@
 			bind:slider
 		>
 			{#snippet tools()}
+				{#if back}
+					<BackChip to={back.to} depth={back.depth} key={shown(keys.back)} onback={back.onback} />
+				{/if}
 				<Contents
 					{contents}
 					current={frame.id}
@@ -714,6 +758,7 @@
 			{qa}
 			{annotating}
 			annotations={frameNotes.filter((n) => n.anchor)}
+			links={linksOffer}
 			bind:detached
 			bind:element={narrativeEl}
 			bind:this={narrative}

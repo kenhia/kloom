@@ -1,4 +1,4 @@
-In the same months that Colossus was counting at Bletchley, a much slower
+In the same months that Colossus was counting at [Bletchley](kloom:e/bletchley-park), a much slower
 machine went to work at Harvard, and was announced to the world. It had
 no valves at all. It was built from IBM's relays, counter wheels and cams,
 turned by one long shaft, and it did whatever a strip of paper

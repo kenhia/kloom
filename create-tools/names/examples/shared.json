@@ -1,0 +1,33 @@
+{
+	"ai/adaline": [["Marcian \"Ted\" Hoff", "marcian-hoff"]],
+	"ai/dartmouth": [["IBM 701", "ibm-701"]],
+	"ai/eliza": [["Project MAC", "project-mac"]],
+	"ai/expert-systems": [["VAX", "vax"]],
+	"ai/governance": [["Bletchley Park", "bletchley-park"]],
+	"ai/hopfield-network": [["Carver Mead", "carver-mead"]],
+	"ai/perceptron": [["IBM 704", "ibm-704"]],
+	"ai/samuel-checkers": [
+		["IBM 701", "ibm-701"],
+		["IBM 704", "ibm-704"]
+	],
+	"computing/arm": [["VAX-11/780", "vax"]],
+	"computing/bombe": [["Bletchley", "bletchley-park"]],
+	"computing/bsd": [["VAX", "vax"]],
+	"computing/c-language": [["VAX", "vax"]],
+	"computing/colossus": [["Bletchley Park", "bletchley-park"]],
+	"computing/colossus-d-day": [["Bletchley", "bletchley-park"]],
+	"computing/fortran": [["704", "ibm-704"]],
+	"computing/harvard-mark-i": [["Bletchley", "bletchley-park"]],
+	"computing/heath-robinson": [["Bletchley", "bletchley-park"]],
+	"computing/microprocessor": [["Ted Hoff", "marcian-hoff"]],
+	"computing/minicomputer": [["VAX", "vax"]],
+	"computing/moores-law": [["Carver Mead", "carver-mead"]],
+	"computing/multics": [["Project MAC", "project-mac"]],
+	"computing/security": [["VAX", "vax"]],
+	"computing/the-silence": [["Bletchley Park", "bletchley-park"]],
+	"computing/time-sharing": [["Project MAC", "project-mac"]],
+	"computing/tunny": [["Bletchley", "bletchley-park"]],
+	"computing/univac": [["701", "ibm-701"]],
+	"feynman/lectures-on-computation": [["Mead", "carver-mead"]],
+	"feynman/physics-of-computation": [["Carver Mead", "carver-mead"]]
+}

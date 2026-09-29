@@ -1,12 +1,12 @@
 The first major book printed in Europe with movable metal type was a Bible.
-Johannes Gutenberg's workshop in Mainz finished it around 1455, after about
+[Johannes Gutenberg](kloom:e/johannes-gutenberg)'s workshop in [Mainz](kloom:e/mainz) finished it around 1455, after about
 three years of work. It is known as the **42-line Bible**, after the number
-of lines in most of its columns, or simply as the **Gutenberg Bible**.
+of lines in most of its columns, or simply as the **[Gutenberg Bible](kloom:e/gutenberg-bible)**.
 
 ## Proof of the method
 
 A Bible was the most ambitious book Gutenberg could have chosen: 1,288
-pages, usually bound in two volumes, in Latin, the text of the Vulgate. To print it the
+pages, usually bound in two volumes, in Latin, the text of the [Vulgate](kloom:e/vulgate). To print it the
 workshop needed tens of thousands of pieces of type — not just the letters
 of the alphabet but a whole family of joined and abbreviated forms, so the
 printed page would look as dense and dark as the finest handwritten books of
@@ -21,8 +21,8 @@ bought each copy, so no two surviving copies look quite alike.
 ## Copies and survivors
 
 Somewhere between 158 and 180 copies were printed, about three-quarters of
-them on paper and the rest on vellum. The venture was not a
-financial success for Gutenberg: his backer, Johann Fust, sued to recover
+them on paper and the rest on [vellum](kloom:e/vellum). The venture was not a
+financial success for Gutenberg: his backer, [Johann Fust](kloom:e/johann-fust), sued to recover
 his loans, won, and took over much of the equipment, which he ran with
 Gutenberg's former assistant, Peter Schöffer.
 

@@ -81,6 +81,56 @@ describe('validate', () => {
 		expect(validate(r)).toEqual(['frames/b: accent "A" is already frames/a\'s']);
 	});
 
+	it('takes connections to a frame anywhere, each with a why', () => {
+		const r = raw();
+		(r.frames.a.frame as Loose).connections = [
+			{ to: 'other/some-frame', why: 'Because.' },
+			{ to: 'test/b', why: 'Within the subject too.' }
+		];
+		expect(validate(r)).toEqual([]);
+	});
+
+	it('fails a connection without a why, to no frame ref, or named twice', () => {
+		const r = raw();
+		(r.frames.a.frame as Loose).connections = [
+			{ to: 'other/x', why: ' ' },
+			{ to: 'just-a-frame', why: 'Why.' },
+			{ to: 'other/x', why: 'Again.' }
+		];
+		(r.frames.b.frame as Loose).connections = { to: 'other/x' };
+		expect(validate(r)).toEqual([
+			'frames/a connection 0: why is required: a sentence on what connects them',
+			'frames/a connection 1: to must be "<subject>/<frame>"',
+			'frames/a connection 2: other/x is already a connection of this frame',
+			'frames/b: connections must be a list'
+		]);
+	});
+
+	it('fails a mark on a name the registry lacks, or a kloom: link that is not a mark', () => {
+		const r = raw();
+		r.frames.a.reading = '[Turing](kloom:e/alan-turing) and [Hopper](kloom:e/grace-hopper).';
+		r.frames.b.reading = 'See [there](kloom:ai/turing-machine).';
+		const names = new Set(['alan-turing']);
+		expect(validate(r, { names })).toEqual([
+			'frames/a: "grace-hopper" is not in the name registry',
+			'frames/b: "kloom:ai/turing-machine" is not a name mark (kloom:e/<name id>)'
+		]);
+		// Without a registry, a mark is checked for its form only.
+		expect(validate(r)).toEqual([
+			'frames/b: "kloom:ai/turing-machine" is not a name mark (kloom:e/<name id>)'
+		]);
+	});
+
+	it('warns, and does not fail, when a name is marked twice in a frame', () => {
+		const r = raw();
+		r.frames.a.reading = '[Turing](kloom:e/alan-turing), then [Turing](kloom:e/alan-turing).';
+		const warnings: string[] = [];
+		expect(validate(r, { names: new Set(['alan-turing']), warnings })).toEqual([]);
+		expect(warnings).toEqual([
+			'frames/a: "alan-turing" is marked again; only its first mention needs it'
+		]);
+	});
+
 	it('fails a frame that flags no key source', () => {
 		const r = raw();
 		delete (r.frames.b.frame as Loose).citations[0].key;
@@ -321,8 +371,10 @@ describe('the western-civ subject', () => {
 		]);
 	});
 
-	it('renders reading markdown', () => {
-		expect(subject.frames.writing.readingHtml).toContain('<strong>cuneiform</strong>');
+	it('renders reading markdown, with its names marked (§Connections)', () => {
+		expect(subject.frames.writing.readingHtml).toMatch(
+			/<strong><button type="button" class="name" data-name="cuneiform"[^>]*>cuneiform<\/button><\/strong>/
+		);
 	});
 
 	it('serves reading images from the frame, and inlines the chart, crediting it', () => {

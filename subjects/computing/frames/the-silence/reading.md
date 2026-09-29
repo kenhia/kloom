@@ -1,5 +1,5 @@
 When the war in Europe ended, the fastest computing machines in the world
-were ten Colossi in two blocks at Bletchley Park, and almost no one could be
+were ten Colossi in two blocks at [Bletchley Park](kloom:e/bletchley-park), and almost no one could be
 told. For thirty years the people who had built and run them said nothing,
 and histories of the computer were written without them. The story came out
 in pieces: photographs in 1975, a technical history in 2000, and a working

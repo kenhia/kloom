@@ -203,5 +203,15 @@
 			"file": "census-trial.svg",
 			"published": "2026"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/punched-cards",
+			"why": "The IBM tabulators and multipliers Feynman's team ran at Los Alamos descended from Hollerith's census machines."
+		},
+		{
+			"to": "computing/jacquard-loom",
+			"why": "Hollerith's cards held data as Jacquard's held a weave: the punched card moves from the loom to the census."
+		}
 	]
 }

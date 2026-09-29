@@ -2,7 +2,7 @@ Around 600 BC, in the Greek cities on the coast of Asia Minor, a handful of
 thinkers started asking a new kind of question. Not "which god did this?" but
 "what is everything made of, and why does it behave the way it does?"
 
-**Thales** of Miletus proposed that everything was, at root, water. His
+**[Thales](kloom:e/thales-of-miletus)** of Miletus proposed that everything was, at root, water. His
 successor Anaximander answered with something boundless and undefined;
 Anaximenes said air. Heraclitus saw a world of constant change, like fire;
 Parmenides argued that change was an illusion. Empedocles settled on four
@@ -15,7 +15,7 @@ something that could be tested against other claims, and against the world.
 
 ## Plato's five solids
 
-In the _Timaeus_, written around 360 BC, **Plato** tells a story of how a
+In the _Timaeus_, written around 360 BC, **[Plato](kloom:e/plato)** tells a story of how a
 divine craftsman built the cosmos out of mathematics. He took Empedocles'
 four elements and gave each a shape: the five regular solids, the only
 polyhedra whose faces are identical regular polygons meeting the same way at
@@ -35,11 +35,11 @@ fifth element, the _aether_.
 
 None of this is chemistry. But the conviction behind it — that the world is
 built on mathematical order, and that the order can be found by reasoning —
-became one of the most productive ideas in history. Euclid's _Elements_,
-written in Alexandria a generation or two later, ends by proving that there
+became one of the most productive ideas in history. [Euclid's _Elements_](kloom:e/euclids-elements),
+written in [Alexandria](kloom:e/alexandria) a generation or two later, ends by proving that there
 are exactly five such solids and no more. Two thousand years after Plato,
-Johannes Kepler tried to fit the orbits of the planets between nested
-Platonic solids. He failed, and in failing found the laws of planetary motion
+[Johannes Kepler](kloom:e/johannes-kepler) tried to fit the orbits of the planets between nested
+[Platonic solids](kloom:e/platonic-solid). He failed, and in failing found the laws of planetary motion
 that Newton would explain.
 
 "We asked" is the whole of it. The next frame shows what happened when the

@@ -1,6 +1,7 @@
 import { citationProblems } from './citation';
-import { imageRefs } from './markdown';
+import { imageRefs, kloomRefs, nameRefs } from './markdown';
 import { LABEL_KINDS, type Spine } from './model';
+import { FRAME_REF, NAME_HREF } from './names';
 import { sanitiseSvg } from './svg';
 
 /** One frame directory as read from disk, before anything is trusted. */
@@ -34,13 +35,26 @@ const COLOURS = ['background', 'ink', 'muted', 'accent', 'line'] as const;
 /** Files a frame may serve to the reading pane: a plain name, an image type. */
 export const MEDIA_FILE = /^[\w-][\w.-]*\.(png|jpe?g|webp|gif|svg)$/i;
 
+export interface ValidateOptions {
+	/**
+	 * The name registry's ids (docs/design.md §Connections). Given, a reading
+	 * that marks a name the registry lacks is invalid; the gate and grow give
+	 * it. Absent, marks are checked for their form only, so serving a subject
+	 * never depends on a registry that is kept apart from it.
+	 */
+	names?: ReadonlySet<string>;
+	/** Collects what is worth an author's attention but is not wrong. */
+	warnings?: string[];
+}
+
 /**
  * Every problem with a subject, as `where: what` lines. Empty means valid.
  * Collects rather than throws, so one pass shows an author everything.
  */
-export function validate(raw: RawSubject): string[] {
+export function validate(raw: RawSubject, options: ValidateOptions = {}): string[] {
 	const errors: string[] = [];
 	const fail = (where: string, what: string) => errors.push(`${where}: ${what}`);
+	const warn = (where: string, what: string) => options.warnings?.push(`${where}: ${what}`);
 
 	const palettes = new Set<string>();
 	if (!isObj(raw.manifest)) fail('subject.json', 'missing or not an object');
@@ -196,6 +210,24 @@ export function validate(raw: RawSubject): string[] {
 		)
 			fail(where, 'asOf must be YYYY-MM or YYYY-MM-DD');
 
+		// Connections (§Connections): to a frame anywhere, each saying why. A
+		// missing target is not checked here: it is shown detached, and the
+		// gate checks the repository's own across subjects (engine/graph.ts).
+		if (frame.connections !== undefined) {
+			if (!Array.isArray(frame.connections)) fail(where, 'connections must be a list');
+			else {
+				const to = new Set<string>();
+				frame.connections.forEach((c: unknown, i: number) => {
+					const at = `${where} connection ${i}`;
+					if (!isObj(c)) return fail(at, 'not an object');
+					if (!isText(c.to) || !FRAME_REF.test(c.to)) fail(at, 'to must be "<subject>/<frame>"');
+					else if (to.has(c.to)) fail(at, `${c.to} is already a connection of this frame`);
+					else to.add(c.to);
+					if (!isText(c.why)) fail(at, 'why is required: a sentence on what connects them');
+				});
+			}
+		}
+
 		// Sources are derived from the key citations (sprint 008): a hand-kept
 		// list beside them is the old form, and would silently go unshown.
 		if (frame.sources !== undefined)
@@ -217,7 +249,20 @@ export function validate(raw: RawSubject): string[] {
 			});
 
 		if (!isText(reading)) fail(where, 'reading.md is missing or empty');
-		else
+		else {
+			// Name marks (§Connections): the only kloom: link, on a known name,
+			// and once per frame, on its first mention.
+			for (const href of kloomRefs(reading))
+				if (!NAME_HREF.test(href)) fail(where, `"${href}" is not a name mark (kloom:e/<name id>)`);
+			const named = new Set<string>();
+			for (const id of nameRefs(reading)) {
+				if (named.has(id)) warn(where, `"${id}" is marked again; only its first mention needs it`);
+				else if (options.names && !options.names.has(id))
+					fail(where, `"${id}" is not in the name registry`);
+				named.add(id);
+			}
+		}
+		if (isText(reading))
 			for (const ref of imageRefs(reading)) {
 				if (!MEDIA_FILE.test(ref) || !media.includes(ref))
 					fail(where, `image "${ref}" must be an image file in the frame's directory`);

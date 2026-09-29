@@ -26,7 +26,7 @@ about seventy-five tapes.
 In 1978 the department bought one of DEC's new 32-bit VAX-11/780s for
 Richard Fateman's algebra system, Macsyma. Bell Labs' port of Unix to it,
 32/V, swapped whole programs in and out, so no program could be larger than
-the VAX's 1 megabyte of memory. **Özalp Babaoğlu**, a student of Domenico
+the [VAX](kloom:e/vax)'s 1 megabyte of memory. **Özalp Babaoğlu**, a student of Domenico
 Ferrari's, wrote a paging system for it, though the VAX lacked the
 reference bits that paging usually relies on, and Joy helped him fit it
 into the kernel. Over the Christmas break of 1978 users found themselves

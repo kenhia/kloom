@@ -1,5 +1,5 @@
-On 29 August 1831, in a basement laboratory at the Royal Institution in
-London, **Michael Faraday** closed a circuit and watched a needle twitch. The
+On 29 August 1831, in a basement laboratory at the [Royal Institution](kloom:e/royal-institution) in
+[London](kloom:e/london), **[Michael Faraday](kloom:e/michael-faraday)** closed a circuit and watched a needle twitch. The
 twitch was brief, and it meant that magnetism could make electricity. Every
 generator and transformer on the grid today works by the effect he saw.
 
@@ -12,7 +12,7 @@ Davy**, sent Davy a bound volume of notes on them, and the next year was taken
 on as his assistant. His mathematics, by most accounts, never went beyond
 simple algebra. He made up for it with experiment.
 
-In 1820 the Danish physicist **Hans Christian Ørsted** showed that an electric
+In 1820 the Danish physicist **[Hans Christian Ørsted](kloom:e/hans-christian-orsted)** showed that an electric
 current deflects a compass needle: electricity makes magnetism. In 1821
 Faraday built devices in which a wire carrying a current turned continuously
 around a magnet, an early form of electric motor. The obvious question was
@@ -48,7 +48,7 @@ first generator, and it pointed the way to the dynamos that followed.
 Faraday read his results to the Royal Society on 24 November 1831, as the
 first of his _Experimental Researches in Electricity_, printed in the
 _Philosophical Transactions_ in 1832. In modern terms, what he found is
-_Faraday's law of induction_: the voltage driven around a closed circuit
+[_Faraday's law of induction_](kloom:e/faradays-law-of-induction): the voltage driven around a closed circuit
 equals the rate at which the magnetic flux through it changes. **Joseph
 Henry** in America found the same effect independently and published in 1832;
 Faraday published first. In 1834 **Emil Lenz** gave the rule for which way

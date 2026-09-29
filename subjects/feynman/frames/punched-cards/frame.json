@@ -114,5 +114,11 @@
 			"file": "problems-per-month.svg",
 			"published": "2026"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/analytical-engine",
+			"why": "Cards as instructions: Babbage planned Jacquard's cards to drive the Engine, and Feynman's team drove IBM card machines as a pipeline."
+		}
 	]
 }

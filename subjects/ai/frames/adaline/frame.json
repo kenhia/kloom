@@ -128,5 +128,11 @@
 			"licence": "Public domain",
 			"file": "knobby-adaline.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/whirlwind",
+			"why": "Before ADALINE, Widrow worked on magnetic core memory for Whirlwind at MIT's Lincoln Laboratory."
+		}
 	]
 }

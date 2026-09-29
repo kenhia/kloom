@@ -1,9 +1,11 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { basename, join } from 'node:path';
 import { captionCredit, keySources, needsCaption } from './citation';
-import { renderMarkdown } from './markdown';
+import type { GraphSubject } from './graph';
+import { nameRefs, renderMarkdown } from './markdown';
+import { buildNames, type Name } from './names';
 import { sanitiseSvg } from './svg';
-import type { Frame, FrameFile, Manifest, Spine, Subject, Trail } from './model';
+import type { Connection, Frame, FrameFile, Manifest, Spine, Subject, Trail } from './model';
 import { MEDIA_FILE, validate, type RawFrame, type RawSubject } from './validate';
 
 /** A subject that failed validation; `problems` lists every one found. */
@@ -84,12 +86,14 @@ export async function readSubject(dir: string): Promise<RawSubject> {
 export interface BuildOptions {
 	/** URL prefix a frame's media is served under: `<base>/<frame>/<file>`. */
 	mediaBase?: string;
+	/** The name registry's ids: given, a mark on any other name is invalid. */
+	names?: ReadonlySet<string>;
 }
 
 /** Turn a raw subject into a renderable one; throws SubjectError if invalid. */
 export function buildSubject(id: string, raw: RawSubject, options: BuildOptions = {}): Subject {
 	const base = options.mediaBase ?? '/media';
-	const problems = validate(raw);
+	const problems = validate(raw, { names: options.names });
 	if (problems.length) throw new SubjectError(id, problems);
 
 	const manifest = raw.manifest as Manifest;
@@ -132,6 +136,80 @@ export function buildSubject(id: string, raw: RawSubject, options: BuildOptions 
 /** Load and validate `subjects/<id>/`-shaped content from `dir`. */
 export async function loadSubject(dir: string, options?: BuildOptions): Promise<Subject> {
 	return buildSubject(basename(dir), await readSubject(dir), options);
+}
+
+/**
+ * The name registry: every `<id>.json` in `dir` (docs/design.md
+ * §Connections). A missing directory is an empty registry. A file that is
+ * invalid is left out and named in `problems`.
+ */
+export async function loadNames(
+	dir: string
+): Promise<{ names: Record<string, Name>; problems: string[] }> {
+	const files: Record<string, unknown> = {};
+	const problems: string[] = [];
+	for (const e of await entries(dir)) {
+		if (!e.isFile() || !e.name.endsWith('.json')) continue;
+		try {
+			files[e.name.slice(0, -'.json'.length)] = await json(join(dir, e.name));
+		} catch (err) {
+			problems.push((err as Error).message);
+		}
+	}
+	const built = buildNames(files);
+	return { names: built.names, problems: [...problems, ...built.problems] };
+}
+
+type Obj = Record<string, unknown>;
+const isObj = (v: unknown): v is Obj => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/**
+ * What the graph index needs from a subject (engine/graph.ts), read lightly:
+ * each frame's title, position, connections and marked names, in spine
+ * order, main spine first. Nothing is rendered or validated, so another
+ * subject's page costs little; a frame that cannot be read is left out.
+ */
+export async function readGraphSubject(dir: string, id = basename(dir)): Promise<GraphSubject> {
+	const manifest = (await json(join(dir, 'subject.json')).catch(() => undefined)) as
+		Obj | undefined;
+	const spines: [string | null, unknown][] = [
+		[null, await json(join(dir, 'spine.json')).catch(() => undefined)]
+	];
+	for (const e of await entries(join(dir, 'trails')))
+		if (e.isFile() && e.name.endsWith('.json')) {
+			const t = (await json(join(dir, 'trails', e.name)).catch(() => undefined)) as Obj;
+			if (isObj(t)) spines.push([typeof t.title === 'string' ? t.title : null, t.spine]);
+		}
+	const frames: GraphSubject['frames'] = [];
+	for (const [trail, spine] of spines) {
+		const segments = isObj(spine) && Array.isArray(spine.segments) ? spine.segments : [];
+		for (const seg of segments)
+			for (const frame of isObj(seg) && Array.isArray(seg.frames) ? seg.frames : []) {
+				if (typeof frame !== 'string' || !/^[\w-]+$/.test(frame)) continue;
+				const at = join(dir, 'frames', frame);
+				const file = (await json(join(at, 'frame.json')).catch(() => undefined)) as Obj;
+				if (!isObj(file) || !isObj(file.scene) || !isObj(file.position)) continue;
+				const reading = (await text(join(at, 'reading.md'))) ?? '';
+				frames.push({
+					subject: id,
+					frame,
+					title: `${file.scene.headline} ${file.scene.accent}`,
+					label: String(file.position.label),
+					trail,
+					connections: Array.isArray(file.connections)
+						? (file.connections as Connection[]).filter(
+								(c) => isObj(c) && typeof c.to === 'string' && typeof c.why === 'string'
+							)
+						: [],
+					names: [...new Set(nameRefs(reading))]
+				});
+			}
+	}
+	return {
+		id,
+		title: isObj(manifest) && typeof manifest.title === 'string' ? manifest.title : id,
+		frames
+	};
 }
 
 const MEDIA_TYPES: Record<string, string> = {

@@ -249,5 +249,11 @@
 			],
 			"published": "1970"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/plenty-of-room",
+			"why": "Feynman's 1959 talk imagined computing with wires a few atoms wide, six years before Moore's doubling was named."
+		}
 	]
 }

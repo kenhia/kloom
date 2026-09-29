@@ -14,7 +14,7 @@ biological and medical research, Robert Morison, who was not sure money
 would be found for anything so visionary. The proposal itself is dated 31
 August 1955 and signed by four men: McCarthy; **Marvin Minsky**, then a
 Harvard Junior Fellow; **Nathaniel Rochester**, manager of information
-research at IBM, who had helped design the IBM 701; and Shannon, the founder
+research at IBM, who had helped design the [IBM 701](kloom:e/ibm-701); and Shannon, the founder
 of information theory. It opens:
 
 > We propose that a 2 month, 10 man study of artificial intelligence be

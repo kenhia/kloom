@@ -35,7 +35,7 @@ he split the gain into bigger chips, smaller features and what he called
 "circuit and device cleverness", and the last, he judged, was nearly used
 up. The slope might approximate "a doubling every two years, rather than
 every year, by the end of the decade". The name _Moore's law_ came later: the
-Caltech professor Carver Mead popularised it.
+Caltech professor [Carver Mead](kloom:e/carver-mead) popularised it.
 
 ![Gordon Moore, seated with a pen over papers, and Robert Noyce, standing and looking down at them, at Intel in 1970](moore-noyce.png)
 

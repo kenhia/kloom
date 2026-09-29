@@ -243,5 +243,11 @@
 			],
 			"published": "2026"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/quantum-computing-now",
+			"why": "A large quantum computer running Shor's algorithm would recover TLS's keys, so the web is moving to post-quantum key exchange."
+		}
 	]
 }
