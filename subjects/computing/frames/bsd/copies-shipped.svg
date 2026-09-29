@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Copies of each Berkeley Software Distribution shipped, 1BSD to 4.2BSD</title>
+<desc id="d">Bar chart, copies or licences shipped per release, as Marshall Kirk McKusick gives them. 1BSD (1977–78): about 30. 2BSD (1978–79): nearly 75. 3BSD (December 1979): nearly 100. 4BSD (October 1980): nearly 150, on about 500 machines. 4.1BSD (June 1981): about 400 over its two years. 4.2BSD (August 1983): more than 1,000 site licences within eighteen months. Data: McKusick, Twenty Years of Berkeley Unix (1999).</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="196.5" y2="196.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">250</text>
+<line x1="64" x2="460" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">500</text>
+<line x1="64" x2="460" y1="89.5" y2="89.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">750</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">1,000</text>
+</g>
+<rect x="73.0" y="243.6" width="48" height="6.4" fill-opacity="0.85"/>
+<text x="97.0" y="237.6" text-anchor="middle">~30</text>
+<text x="97.0" y="266" text-anchor="middle">1BSD</text>
+<text x="97.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1977–78</text>
+<rect x="139.0" y="233.9" width="48" height="16.1" fill-opacity="0.85"/>
+<text x="163.0" y="227.9" text-anchor="middle">~75</text>
+<text x="163.0" y="266" text-anchor="middle">2BSD</text>
+<text x="163.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1978–79</text>
+<rect x="205.0" y="228.6" width="48" height="21.4" fill-opacity="0.85"/>
+<text x="229.0" y="222.6" text-anchor="middle">~100</text>
+<text x="229.0" y="266" text-anchor="middle">3BSD</text>
+<text x="229.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1979</text>
+<rect x="271.0" y="217.9" width="48" height="32.1" fill-opacity="0.85"/>
+<text x="295.0" y="211.9" text-anchor="middle">~150</text>
+<text x="295.0" y="266" text-anchor="middle">4BSD</text>
+<text x="295.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1980</text>
+<rect x="337.0" y="164.4" width="48" height="85.6" fill-opacity="0.85"/>
+<text x="361.0" y="158.4" text-anchor="middle">~400</text>
+<text x="361.0" y="266" text-anchor="middle">4.1BSD</text>
+<text x="361.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1981</text>
+<rect x="403.0" y="36.0" width="48" height="214.0" class="accent" fill="currentColor"/>
+<text x="427.0" y="30.0" text-anchor="middle">1,000+</text>
+<text x="427.0" y="266" text-anchor="middle">4.2BSD</text>
+<text x="427.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1983</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">BERKELEY UNIX · COPIES SHIPPED PER RELEASE</text>
+</g></svg>

@@ -1,0 +1,256 @@
+{
+	"id": "unix-wars",
+	"position": {
+		"label": "1984–94",
+		"sort": 1984
+	},
+	"scene": {
+		"headline": "Unix fought a civil",
+		"accent": "WAR.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"AT&T · USL · BERKELEY · BSDI · OSF · UNIX INTERNATIONAL",
+			"SYSTEM V · 4.2BSD · POSIX · NET/2 · 4.4BSD-LITE"
+		],
+		"counter": {
+			"value": "3 of 18,000",
+			"label": "files removed from Berkeley’s release to settle USL v. BSDi"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Unix wars",
+			"url": "https://en.wikipedia.org/w/index.php?title=Unix_wars&oldid=1349247132",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-16"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable",
+			"url": "https://www.oreilly.com/openbook/opensources/book/kirkmck.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "McKusick",
+					"given": "Marshall Kirk"
+				}
+			],
+			"container": "Open Sources: Voices from the Open Source Revolution",
+			"publisher": "O’Reilly & Associates",
+			"published": "1999-01",
+			"place": "Sebastopol, CA",
+			"note": "The lawsuit, from BSDI’s advertisements to the settlement, by one of the deposed"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "UNIX System Laboratories, Inc. v. Berkeley Software Design, Inc.",
+			"url": "https://en.wikipedia.org/w/index.php?title=UNIX_System_Laboratories,_Inc._v._Berkeley_Software_Design,_Inc.&oldid=1370025657",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Breakup of the Bell System",
+			"url": "https://en.wikipedia.org/w/index.php?title=Breakup_of_the_Bell_System&oldid=1374624173",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "UNIX System V",
+			"url": "https://en.wikipedia.org/w/index.php?title=UNIX_System_V&oldid=1371569122",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Research Unix",
+			"url": "https://en.wikipedia.org/w/index.php?title=Research_Unix&oldid=1374078095",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Open Software Foundation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Open_Software_Foundation&oldid=1363691075",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Unix International",
+			"url": "https://en.wikipedia.org/w/index.php?title=Unix_International&oldid=1309128861",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "POSIX",
+			"url": "https://en.wikipedia.org/w/index.php?title=POSIX&oldid=1377064574",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Armando Stettner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Armando_Stettner&oldid=1373083178",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Berkeley Software Distribution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Berkeley_Software_Distribution&oldid=1376195328",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "C (programming language)",
+			"url": "https://en.wikipedia.org/w/index.php?title=C_(programming_language)&oldid=1376768652",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of Linux",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_Linux&oldid=1376434794",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "386BSD",
+			"url": "https://en.wikipedia.org/w/index.php?title=386BSD&oldid=1376624518",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "The UNIX “Live Free or Die” licence plate, in New Hampshire’s style",
+			"url": "https://commons.wikimedia.org/wiki/File:Actual_DEC_UNIX_License_Plate_DSC_0317.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph of the licence plate designed by Armando Stettner at DEC, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "unix-plate.jpg",
+			"authors": [
+				{
+					"name": "Armandops"
+				}
+			],
+			"published": "2013-03-07"
+		},
+		{
+			"kind": "report",
+			"title": "Network UNIX",
+			"url": "https://www.rfc-editor.org/rfc/rfc681",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Holmgren",
+					"given": "S."
+				}
+			],
+			"publisher": "Network Working Group",
+			"number": "RFC 681",
+			"published": "1975-03-18",
+			"note": "Bell’s licence fees: $150 to a university, $20,000 to others"
+		}
+	]
+}

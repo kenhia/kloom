@@ -1,0 +1,154 @@
+{
+	"id": "pipes",
+	"position": {
+		"label": "1973",
+		"sort": 1973
+	},
+	"scene": {
+		"headline": "We connected programs like garden",
+		"accent": "HOSE.",
+		"palette": "schematic",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BELL LABS · DOUG McILROY · KEN THOMPSON",
+			"pipe() · STANDARD INPUT, OUTPUT AND ERROR · FILTERS"
+		],
+		"counter": {
+			"value": "1",
+			"label": "feverish night, in McIlroy’s telling, to write pipe() and plumb the shell"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Prophetic Petroglyphs: Advice from Doug McIlroy",
+			"url": "https://www.bell-labs.com/usr/dmr/www/mdmpipe.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Ritchie",
+					"given": "Dennis M."
+				}
+			],
+			"container": "Dennis Ritchie’s home page, Bell Labs",
+			"note": "The memo of 11 October 1964, retyped, with Ritchie’s notes"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "A Research UNIX Reader: Annotated Excerpts from the Programmer’s Manual, 1971–1986",
+			"url": "https://www.cs.dartmouth.edu/~doug/reader.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "McIlroy",
+					"given": "M. Douglas"
+				}
+			],
+			"publisher": "AT&T Bell Laboratories",
+			"note": "The feverish night, the first notation, and v3 and v4"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Evolution of the Unix Time-sharing System",
+			"url": "https://www.bell-labs.com/usr/dmr/www/hist.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Ritchie",
+					"given": "Dennis M."
+				}
+			],
+			"container": "AT&T Bell Laboratories Technical Journal",
+			"published": "1984-10",
+			"volume": "63",
+			"issue": "6, part 2",
+			"pages": "1577–93",
+			"note": "The blackboard, the objections, and the notation that lasted a couple of months"
+		},
+		{
+			"kind": "article",
+			"title": "UNIX Time-Sharing System: Foreword",
+			"url": "https://archive.org/details/bstj57-6-1899",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "McIlroy",
+					"given": "M. D."
+				},
+				{
+					"family": "Pinson",
+					"given": "E. N."
+				},
+				{
+					"family": "Tague",
+					"given": "B. A."
+				}
+			],
+			"container": "The Bell System Technical Journal",
+			"published": "1978-07",
+			"volume": "57",
+			"issue": "6",
+			"pages": "1899–1904"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pipeline (Unix)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pipeline_(Unix)&oldid=1369091022",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Research Unix",
+			"url": "https://en.wikipedia.org/w/index.php?title=Research_Unix&oldid=1374078095",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Unix philosophy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Unix_philosophy&oldid=1365516372",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "media",
+			"title": "Doug McIlroy in 2011",
+			"url": "https://commons.wikimedia.org/wiki/File:Douglas_McIlroy.jpeg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "mcilroy.jpg",
+			"authors": [
+				{
+					"name": "Denise Panyik-Dale"
+				}
+			],
+			"published": "2011-05-19"
+		}
+	]
+}

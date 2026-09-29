@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 60 L360 60 M40 80 L360 80 M40 100 L360 100 M40 120 L360 120 M40 140 L360 140 M40 160 L360 160 M40 180 L360 180 M40 200 L360 200 M40 220 L360 220 M40 240 L360 240 M40 260 L360 260"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M68 22 L140 22 L140 40 L68 40 Z"/>
+		<path pathLength="1" d="M104 40 L104 266"/>
+		<path pathLength="1" d="M260 22 L332 22 L332 40 L260 40 Z"/>
+		<path pathLength="1" d="M296 40 L296 266"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M98 66 L110 66"/>
+		<path pathLength="1" d="M98 86 L110 86"/>
+		<path pathLength="1" d="M98 106 L110 106"/>
+		<path pathLength="1" d="M98 132 L110 132"/>
+		<path pathLength="1" d="M98 184 L110 184"/>
+		<path pathLength="1" d="M98 208 L110 208"/>
+		<path pathLength="1" d="M98 246 L110 246"/>
+		<path pathLength="1" d="M290 112 L302 112"/>
+		<path pathLength="1" d="M290 132 L302 132"/>
+		<path pathLength="1" d="M290 176 L302 176"/>
+		<path pathLength="1" d="M290 216 L302 216"/>
+		<path pathLength="1" d="M290 250 L302 250"/>
+		<path pathLength="1" d="M101 132 L101 158 L107 158 L107 132 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M290 132 L110 156"/>
+		<path pathLength="1" d="M113.2 153.6 L110 156 L113.7 157.5"/>
+		<path pathLength="1" d="M110 160 L290 164"/>
+		<path pathLength="1" d="M286.5 165.9 L290 164 L286.6 161.9"/>
+		<path pathLength="1" d="M290 176 L110 184"/>
+		<path pathLength="1" d="M113.4 181.8 L110 184 L113.5 185.8"/>
+		<path pathLength="1" d="M110 208 L290 216"/>
+		<path pathLength="1" d="M286.5 217.8 L290 216 L286.6 213.8"/>
+	</g>
+	<g>
+		<text x="104" y="34" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SERVER</text>
+		<text x="296" y="34" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CLIENT</text>
+		<text x="92" y="69" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">socket()</text>
+		<text x="92" y="89" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">bind()</text>
+		<text x="92" y="109" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">listen()</text>
+		<text x="92" y="135" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">accept()</text>
+		<text x="92" y="187" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">read()</text>
+		<text x="92" y="211" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">write()</text>
+		<text x="92" y="249" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">close()</text>
+		<text x="308" y="115" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">socket()</text>
+		<text x="308" y="135" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">connect()</text>
+		<text x="308" y="179" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">write()</text>
+		<text x="308" y="219" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">read()</text>
+		<text x="308" y="253" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">close()</text>
+		<text x="92" y="146" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">(BLOCKS)</text>
+		<text x="92" y="156" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NEW FD</text>
+		<text x="200" y="136" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CONNECT</text>
+		<text x="200" y="176" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BYTES</text>
+		<text x="200" y="206" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BYTES</text>
+		<text x="200" y="286" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4.2BSD · 1983 · A CONNECTION IS A FILE DESCRIPTOR</text>
+	</g>
+</svg>

@@ -1,0 +1,15 @@
+{
+	"id": "unix-and-c",
+	"title": "Unix and C",
+	"anchor": "unix",
+	"spine": {
+		"segments": [
+			{
+				"id": "bell-labs",
+				"title": "From Bell Labs",
+				"labelKind": "date",
+				"frames": ["multics", "c-language", "pipes", "bsd", "unix-wars"]
+			}
+		]
+	}
+}
