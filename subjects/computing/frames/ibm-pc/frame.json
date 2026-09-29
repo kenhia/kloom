@@ -1,0 +1,210 @@
+{
+	"id": "ibm-pc",
+	"position": {
+		"label": "1981",
+		"sort": 1981
+	},
+	"scene": {
+		"headline": "The PC became the",
+		"accent": "STANDARD.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BOCA RATON · DON ESTRIDGE · PROJECT CHESS",
+			"INTEL 8088 · PC DOS · AN OPEN DESIGN · MODEL 5150"
+		],
+		"counter": {
+			"value": "$1,565",
+			"label": "the IBM PC’s starting price, 12 August 1981"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "IBM Personal Computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=IBM_Personal_Computer&oldid=1374134150",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The IBM PC",
+			"url": "https://www.ibm.com/history/personal-computer",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "IBM"
+				}
+			],
+			"container": "IBM Heritage",
+			"publisher": "IBM",
+			"note": "The company’s own history: Lowe, Cary, the Waldorf launch and Time"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "86-DOS",
+			"url": "https://en.wikipedia.org/w/index.php?title=86-DOS&oldid=1373601475",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Compaq",
+			"url": "https://en.wikipedia.org/w/index.php?title=Compaq&oldid=1377005852",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Philip Don Estridge",
+			"url": "https://en.wikipedia.org/w/index.php?title=Philip_Don_Estridge&oldid=1371984609",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Compaq Portable",
+			"url": "https://en.wikipedia.org/w/index.php?title=Compaq_Portable&oldid=1374754682",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IBM PC compatible",
+			"url": "https://en.wikipedia.org/w/index.php?title=IBM_PC_compatible&oldid=1371096861",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phoenix Technologies",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phoenix_Technologies&oldid=1372788868",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "X86 memory segmentation",
+			"url": "https://en.wikipedia.org/w/index.php?title=X86_memory_segmentation&oldid=1346824848",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reset vector",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reset_vector&oldid=1322178068",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Conventional memory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Conventional_memory&oldid=1374883071",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Time Person of the Year",
+			"url": "https://en.wikipedia.org/w/index.php?title=Time_Person_of_the_Year&oldid=1377337383",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "An IBM PC 5150 with its monitor and keyboard",
+			"url": "https://commons.wikimedia.org/wiki/File:Ibm_computer_pc_5150_(6049156797).jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Flickr and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ibm-pc.jpg",
+			"authors": [
+				{
+					"name": "Fried Dough"
+				}
+			],
+			"published": "2011-08-16"
+		}
+	]
+}

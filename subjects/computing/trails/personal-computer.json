@@ -1,0 +1,15 @@
+{
+	"id": "personal-computer",
+	"title": "The personal computer",
+	"anchor": "altair",
+	"spine": {
+		"segments": [
+			{
+				"id": "pc",
+				"title": "On a desk",
+				"labelKind": "date",
+				"frames": ["xerox-alto", "apple-ii", "visicalc", "ibm-pc", "macintosh"]
+			}
+		]
+	}
+}

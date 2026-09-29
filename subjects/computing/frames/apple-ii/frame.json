@@ -1,0 +1,173 @@
+{
+	"id": "apple-ii",
+	"position": {
+		"label": "1977",
+		"sort": 1977
+	},
+	"scene": {
+		"headline": "The computer came in",
+		"accent": "COLOUR.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CUPERTINO · STEVE WOZNIAK · STEVE JOBS · MIKE MARKKULA",
+			"MOS 6502 · COLOUR GRAPHICS · EIGHT SLOTS · DISK II"
+		],
+		"counter": {
+			"value": "6 million",
+			"label": "Apple IIs of every model sold, 1977–93"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "System Description: The Apple-II",
+			"url": "https://archive.org/details/byte-magazine-1977-05",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Wozniak",
+					"given": "Stephen"
+				}
+			],
+			"container": "Byte",
+			"volume": "2",
+			"issue": "5",
+			"published": "1977-05",
+			"note": "The designer’s own account of the shared timing, the colour and the slots; read in the scan at the Internet Archive"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Apple II",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apple_II&oldid=1376244735",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Apple II (original)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apple_II_(original)&oldid=1375369060",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Apple II graphics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apple_II_graphics&oldid=1375165961",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Disk II",
+			"url": "https://en.wikipedia.org/w/index.php?title=Disk_II&oldid=1375131788",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mike Markkula",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mike_Markkula&oldid=1372483664",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Apple Inc.",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apple_Inc.&oldid=1376757568",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Commodore PET",
+			"url": "https://en.wikipedia.org/w/index.php?title=Commodore_PET&oldid=1375791989",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "TRS-80",
+			"url": "https://en.wikipedia.org/w/index.php?title=TRS-80&oldid=1375317971",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "The 1977 trinity: a Commodore PET 2001, an Apple II and a TRS-80 Model I",
+			"url": "https://commons.wikimedia.org/wiki/File:Home_or_Personal_Computers_from_1977_-_Commodore_PET_2001,_Apple_II,_TRS-80_Model_I,_together_called_%27Trinity77%27_(edited_image).jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "trinity.jpg",
+			"authors": [
+				{
+					"name": "Tim Colegrove"
+				},
+				{
+					"name": "Pittigrilli"
+				}
+			],
+			"published": "2019-05-25"
+		}
+	]
+}
