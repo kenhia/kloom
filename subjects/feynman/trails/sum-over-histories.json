@@ -1,0 +1,22 @@
+{
+	"id": "sum-over-histories",
+	"title": "Sum over histories",
+	"anchor": "thesis",
+	"spine": {
+		"segments": [
+			{
+				"id": "paths",
+				"title": "Paths",
+				"labelKind": "technology",
+				"frames": [
+					"principle-of-least-action",
+					"dirac-hint",
+					"path-integral",
+					"every-path",
+					"classical-limit",
+					"path-integrals-today"
+				]
+			}
+		]
+	}
+}

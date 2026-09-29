@@ -1,0 +1,110 @@
+{
+	"id": "principle-of-least-action",
+	"position": {
+		"label": "Least action"
+	},
+	"scene": {
+		"headline": "Nature, they said, was",
+		"accent": "THRIFTY.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": ["HERO · FERMAT · MAUPERTUIS · EULER", "LAGRANGE · HAMILTON · 1662–1834"],
+		"counter": {
+			"value": "10.885 ns",
+			"label": "the true ray, the quickest of every route from A to B"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "History of variational principles in physics",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_variational_principles_in_physics&oldid=1374750323",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Fermat's principle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fermat's_principle&oldid=1365714751",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On a General Method in Dynamics; by Which the Study of the Motions of All Free Systems of Attracting or Repelling Points Is Reduced to the Search and Differentiation of One Central Relation, or Characteristic Function",
+			"doi": "10.1098/rstl.1834.0017",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hamilton",
+					"given": "William Rowan"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "124",
+			"pages": "247–308",
+			"published": "1834",
+			"note": "The first of his two essays; the second followed in 1835"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Action principles",
+			"url": "https://en.wikipedia.org/w/index.php?title=Action_principles&oldid=1371224554",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre Louis Maupertuis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre_Louis_Maupertuis&oldid=1372772732",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "media",
+			"title": "Pierre-Louis Moreau de Maupertuis, in the dress of his Lapland expedition",
+			"url": "https://commons.wikimedia.org/wiki/File:Pierre-Louis_Moreau_de_Maupertuis_(Levrac-Tourni%C3%A8res).jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Robert Tournières"
+				}
+			],
+			"container": "Oil painting, about 1740; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "maupertuis.jpg",
+			"published": "1740"
+		}
+	]
+}

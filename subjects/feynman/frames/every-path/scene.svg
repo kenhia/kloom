@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M30 130 L360 118"/>
+		<path pathLength="1" d="M102 100 L118 100 M102 160 L118 160"/>
+		<path pathLength="1" d="M172 85 L188 85 M172 130 L188 130 M172 175 L188 175"/>
+		<path pathLength="1" d="M242 70 L258 70 M242 100 L258 100 M242 130 L258 130 M242 160 L258 160 M242 190 L258 190"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M30 130 L110 100 L180 130 L250 100 L360 118"/>
+		<path pathLength="1" d="M30 130 L110 100 L180 175 L250 160 L360 118"/>
+		<path pathLength="1" d="M30 130 L110 160 L180 85 L250 70 L360 118"/>
+		<path pathLength="1" d="M30 130 L110 160 L180 130 L250 70 L360 118"/>
+		<path pathLength="1" d="M30 130 L110 160 L180 175 L250 190 L360 118"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M110 40 L110 95 M110 105 L110 155 M110 165 L110 220"/>
+		<path pathLength="1" d="M180 40 L180 80 M180 90 L180 125 M180 135 L180 170 M180 180 L180 220"/>
+		<path pathLength="1" d="M250 40 L250 65 M250 75 L250 95 M250 105 L250 125 M250 135 L250 155 M250 165 L250 185 M250 195 L250 220"/>
+		<path pathLength="1" d="M26.5 130 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M356.5 118 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M30 130 L110 100 L180 85 L250 130 L360 118"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M60 262 L82 262"/>
+		<path pathLength="1" d="M79 263.8 L82 262 L79 260.2"/>
+		<path pathLength="1" d="M82 262 L104 262"/>
+		<path pathLength="1" d="M101 263.8 L104 262 L101 260.2"/>
+		<path pathLength="1" d="M180 262 L202 262"/>
+		<path pathLength="1" d="M199 263.8 L202 262 L199 260.2"/>
+		<path pathLength="1" d="M202 265 L180 265"/>
+		<path pathLength="1" d="M183 263.2 L180 265 L183 266.8"/>
+	</g>
+	<g>
+		<text x="200" y="24" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MORE SCREENS, MORE HOLES, UNTIL THERE IS NO SCREEN</text>
+		<text x="30" y="146" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S</text>
+		<text x="360" y="134" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">D</text>
+		<text x="82" y="280" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BRIGHT</text>
+		<text x="191" y="280" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DARK</text>
+		<text x="330" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SUM OF ARROWS</text>
+	</g>
+</svg>

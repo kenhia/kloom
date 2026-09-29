@@ -1,0 +1,105 @@
+{
+	"id": "every-path",
+	"position": {
+		"label": "Every path"
+	},
+	"scene": {
+		"headline": "Drill enough holes and there is no",
+		"accent": "SCREEN.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": ["TWO SLITS · MANY SLITS · NO SCREEN", "A WORKED EXAMPLE IN ARROWS"],
+		"counter": {
+			"value": "4×",
+			"label": "a bright band, against one slit open alone"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "The Feynman Lectures on Physics, Vol. III: Quantum Mechanics",
+			"url": "https://www.feynmanlectures.caltech.edu/III_01.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Robert B."
+				},
+				{
+					"family": "Sands",
+					"given": "Matthew"
+				}
+			],
+			"publisher": "Addison-Wesley",
+			"place": "Reading, MA",
+			"published": "1965",
+			"note": "Chapter 1, “Quantum Behavior”: the experiment with two slits",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Quantum Field Theory in a Nutshell",
+			"url": "https://openlibrary.org/works/OL485889W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Zee",
+					"given": "A."
+				}
+			],
+			"publisher": "Princeton University Press",
+			"place": "Princeton, NJ",
+			"published": "2003",
+			"note": "Chapter I.2 drills the holes until no screen is left"
+		},
+		{
+			"kind": "book",
+			"title": "QED: The Strange Theory of Light and Matter",
+			"url": "https://openlibrary.org/works/OL271757W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"publisher": "Princeton University Press",
+			"place": "Princeton, NJ",
+			"published": "1985"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Double-slit experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Double-slit_experiment&oldid=1377185258",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Thomas Young's drawing of the interference of waves from two slits",
+			"url": "https://commons.wikimedia.org/wiki/File:Young_Diffraction.png",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Thomas Young"
+				}
+			],
+			"container": "Drawing, early nineteenth century; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "young.png"
+		}
+	]
+}

@@ -1,0 +1,322 @@
+{
+	"id": "path-integrals-today",
+	"position": {
+		"label": "Today"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "Still unproven, it runs on a",
+		"accent": "LATTICE.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KAC 1949 · FEYNMAN & HIBBS 1965 · WILSON 1974",
+			"LATTICE QCD · PATH-INTEGRAL MONTE CARLO"
+		],
+		"counter": {
+			"value": "0.9%",
+			"label": "precision of the lattice average used for the muon in 2025"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On Distributions of Certain Wiener Functionals",
+			"doi": "10.1090/S0002-9947-1949-0027960-X",
+			"accessed": "2026-09-28",
+			"url": "https://www.ams.org/journals/tran/1949-065-01/S0002-9947-1949-0027960-X/",
+			"authors": [
+				{
+					"family": "Kac",
+					"given": "M."
+				}
+			],
+			"container": "Transactions of the American Mathematical Society",
+			"volume": "65",
+			"issue": "1",
+			"pages": "1–13",
+			"published": "1949",
+			"note": "Credits Feynman’s unpublished thesis, p. 1"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Confinement of Quarks",
+			"doi": "10.1103/PhysRevD.10.2445",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Wilson",
+					"given": "Kenneth G."
+				}
+			],
+			"container": "Physical Review D",
+			"volume": "10",
+			"issue": "8",
+			"pages": "2445–2459",
+			"published": "1974-10-15"
+		},
+		{
+			"kind": "article",
+			"title": "Monte Carlo Study of Quantized SU(2) Gauge Theory",
+			"doi": "10.1103/PhysRevD.21.2308",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Creutz",
+					"given": "Michael"
+				}
+			],
+			"container": "Physical Review D",
+			"volume": "21",
+			"issue": "8",
+			"pages": "2308–2315",
+			"published": "1980-04-15"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Anomalous Magnetic Moment of the Muon in the Standard Model: An Update",
+			"url": "https://arxiv.org/abs/2505.21476",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Aliberti",
+					"given": "R."
+				},
+				{
+					"family": "Aoyama",
+					"given": "T."
+				},
+				{
+					"family": "Balzani",
+					"given": "E."
+				},
+				{
+					"family": "Bashir",
+					"given": "A."
+				},
+				{
+					"family": "Benton",
+					"given": "G."
+				},
+				{
+					"family": "Bijnens",
+					"given": "J."
+				},
+				{
+					"family": "Biloshytskyi",
+					"given": "V."
+				}
+			],
+			"etAl": true,
+			"container": "Physics Reports",
+			"volume": "1143",
+			"pages": "1–158",
+			"published": "2025",
+			"note": "The lattice average of 0.9% and the difference of 38(63) × 10⁻¹¹"
+		},
+		{
+			"kind": "article",
+			"title": "Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm",
+			"doi": "10.1103/PhysRevLett.126.141801",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Muon g−2 Collaboration"
+				}
+			],
+			"container": "Physical Review Letters",
+			"volume": "126",
+			"pages": "141801",
+			"published": "2021-04-07"
+		},
+		{
+			"kind": "article",
+			"title": "Path Integrals in the Theory of Condensed Helium",
+			"doi": "10.1103/RevModPhys.67.279",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Ceperley",
+					"given": "D. M."
+				}
+			],
+			"container": "Reviews of Modern Physics",
+			"volume": "67",
+			"issue": "2",
+			"pages": "279–355",
+			"published": "1995-04"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Path Integral: Mathematical Aspects",
+			"doi": "10.4249/scholarpedia.8832",
+			"url": "http://www.scholarpedia.org/article/Path_integral:_mathematical_aspects",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Albeverio",
+					"given": "Sergio"
+				},
+				{
+					"family": "Mazzucchi",
+					"given": "Sonia"
+				}
+			],
+			"container": "Scholarpedia",
+			"volume": "6",
+			"issue": "1",
+			"pages": "8832",
+			"published": "2011",
+			"note": "Cameron’s 1960 theorem, and the rigorous definitions since"
+		},
+		{
+			"kind": "article",
+			"title": "Space-Time Approach to Non-Relativistic Quantum Mechanics",
+			"doi": "10.1103/RevModPhys.20.367",
+			"url": "https://authors.library.caltech.edu/records/9h858-5hv71",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Reviews of Modern Physics",
+			"volume": "20",
+			"issue": "2",
+			"pages": "367–387",
+			"published": "1948-04",
+			"note": "Footnote 10, on the complex measure and Cavalieri"
+		},
+		{
+			"kind": "book",
+			"title": "Quantum Mechanics and Path Integrals",
+			"url": "https://openlibrary.org/works/OL10477081W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Hibbs",
+					"given": "A. R."
+				}
+			],
+			"publisher": "McGraw-Hill",
+			"place": "New York",
+			"published": "1965"
+		},
+		{
+			"kind": "web",
+			"title": "Yang–Mills & the Mass Gap",
+			"url": "https://www.claymath.org/millennium/yang-mills-the-maths-gap/",
+			"accessed": "2026-09-28",
+			"container": "Millennium Prize Problems",
+			"publisher": "Clay Mathematics Institute"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Feynman–Kac formula",
+			"url": "https://en.wikipedia.org/w/index.php?title=Feynman%E2%80%93Kac_formula&oldid=1375825664",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lattice QCD",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lattice_QCD&oldid=1374104037",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lattice gauge theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lattice_gauge_theory&oldid=1358175689",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Path integral Monte Carlo",
+			"url": "https://en.wikipedia.org/w/index.php?title=Path_integral_Monte_Carlo&oldid=1315999424",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Path-integral formulation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Path-integral_formulation&oldid=1375876216",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "media",
+			"title": "Mark Kac at his desk",
+			"url": "https://commons.wikimedia.org/wiki/File:Mark_Kac.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Konrad Jacobs"
+				}
+			],
+			"container": "Photograph, Oberwolfach Photo Collection (Mathematisches Forschungsinstitut Oberwolfach); via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0 de",
+			"file": "kac.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Measured minus predicted magnetic anomaly of the muon, 2021 and 2025",
+			"url": "https://arxiv.org/abs/2505.21476",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from Physical Review Letters 126, 141801 (2021) and Physics Reports 1143 (2025)",
+			"licence": "MIT",
+			"file": "muon-gap.svg",
+			"published": "2026"
+		}
+	]
+}

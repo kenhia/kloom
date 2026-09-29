@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 150 L206 150"/>
+		<path pathLength="1" d="M128.8 78 L128.8 228"/>
+		<path pathLength="1" d="M250.5 232 L250.5 92 M269 232 L269 92 M287.5 232 L287.5 92 M306 232 L306 92 M324.5 232 L324.5 92 M343 232 L343 92 M361.5 232 L361.5 92 M380 232 L380 92"/>
+		<path pathLength="1" d="M232 197 L380 197 M232 162 L380 162 M232 127 L380 127 M232 92 L380 92"/>
+		<path pathLength="1" d="M75 150 L75 156 M110 150 L110 156 M152 150 L152 156 M180 150 L180 156"/>
+		<path pathLength="1" d="M20 166 L28 166 M20 188 L28 188 M20 210 L28 210 M32 166 L40 166 M32 188 L40 188 M32 210 L40 210 M44 166 L52 166 M44 188 L52 188 M44 210 L52 210 M56 166 L64 166 M56 188 L64 188 M56 210 L64 210 M68 166 L76 166 M68 188 L76 188 M68 210 L76 210 M80 166 L88 166 M80 188 L88 188 M80 210 L88 210 M92 166 L100 166 M92 188 L100 188 M92 210 L100 210 M104 166 L112 166 M104 188 L112 188 M104 210 L112 210 M116 166 L124 166 M116 188 L124 188 M116 210 L124 210 M128 188 L136 188 M128 210 L136 210 M140 188 L148 188 M140 210 L148 210 M152 166 L160 166 M152 188 L160 188 M152 210 L160 210 M164 166 L172 166 M164 188 L172 188 M164 210 L172 210 M176 166 L184 166 M176 188 L184 188 M176 210 L184 210 M188 166 L196 166 M188 188 L196 188 M188 210 L196 210"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M40 80 L75 150 L180 220"/>
+		<path pathLength="1" d="M40 80 L110 150 L180 220"/>
+		<path pathLength="1" d="M40 80 L152 150 L180 220"/>
+		<path pathLength="1" d="M40 80 L180 150 L180 220"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 80 L128.8 150 L180 220"/>
+		<path pathLength="1" d="M36.5 80 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M176.5 220 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M108.4 133.9 L109 133.1 L109.6 132.4 L110.3 131.7 L111 131 L111.7 130.4 L112.5 129.7 L113.3 129.1 L114.1 128.6 L114.9 128 L115.7 127.5 L116.6 127 L117.4 126.6 L118.3 126.2 L119.2 125.8 L120.2 125.5 L121.1 125.2 L122 124.9 L123 124.7 L123.9 124.5 L124.9 124.3 L125.9 124.2 L126.8 124.1 L127.8 124 L128.8 124"/>
+		<path pathLength="1" d="M144.1 171 L143.6 171.4 L143 171.8 L142.4 172.1 L141.9 172.5 L141.3 172.8 L140.6 173.1 L140 173.4 L139.4 173.7 L138.8 174 L138.2 174.3 L137.5 174.5 L136.9 174.7 L136.2 174.9 L135.6 175.1 L134.9 175.3 L134.2 175.4 L133.6 175.6 L132.9 175.7 L132.2 175.8 L131.5 175.9 L130.8 175.9 L130.2 176 L129.5 176 L128.8 176"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M232 232 L386 232"/>
+		<path pathLength="1" d="M232 232 L232 86"/>
+		<path pathLength="1" d="M381.7 234.5 L386 232 L381.7 229.5"/>
+		<path pathLength="1" d="M234.5 90.3 L232 86 L229.5 90.3"/>
+		<path pathLength="1" d="M232 96.6 L233.8 101.7 L235.7 106.7 L237.6 111.6 L239.4 116.4 L241.2 121 L243.1 125.6 L244.9 130 L246.8 134.3 L248.7 138.4 L250.5 142.5 L252.3 146.4 L254.2 150.2 L256.1 153.9 L257.9 157.5 L259.8 161 L261.6 164.4 L263.4 167.6 L265.3 170.8 L267.1 173.8 L269 176.7 L270.9 179.6 L272.7 182.3 L274.6 184.9 L276.4 187.5 L278.2 189.9 L280.1 192.3 L281.9 194.5 L283.8 196.6 L285.6 198.7 L287.5 200.7 L289.4 202.5 L291.2 204.3 L293.1 206 L294.9 207.6 L296.8 209.1 L298.6 210.6 L300.4 211.9 L302.3 213.1 L304.1 214.3 L306 215.4 L307.9 216.3 L309.7 217.2 L311.6 218 L313.4 218.7 L315.2 219.3 L317.1 219.8 L318.9 220.3 L320.8 220.6 L322.6 220.8 L324.5 220.9 L326.4 220.9 L328.2 220.9 L330.1 220.7 L331.9 220.4 L333.8 220 L335.6 219.5 L337.4 218.9 L339.3 218.1 L341.1 217.3 L343 216.3 L344.9 215.2 L346.7 214 L348.6 212.6 L350.4 211.1 L352.2 209.5 L354.1 207.8 L355.9 205.9 L357.8 203.8 L359.6 201.7 L361.5 199.4 L363.4 196.9 L365.2 194.3 L367 191.5 L368.9 188.6 L370.8 185.6 L372.6 182.3 L374.5 179 L376.3 175.5 L378.1 171.8 L380 167.9"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M266.5 176.7 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M303.5 215.4 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M347.9 211.1 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M377.5 167.9 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M321.9 221 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M325.9 221 L325.9 232"/>
+	</g>
+	<g>
+		<text x="210" y="24" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIGHT TAKES THE PATH OF LEAST TIME</text>
+		<text x="32" y="72" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="190" y="224" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="26" y="144" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AIR</text>
+		<text x="26" y="214" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WATER</text>
+		<text x="122.8" y="118" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">θ₁</text>
+		<text x="136.8" y="190" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">θ₂</text>
+		<text x="306" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WHERE IT CROSSES</text>
+		<text x="238" y="88" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TIME</text>
+		<text x="210" y="284" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">sin θ₁ / sin θ₂ = 1.33</text>
+	</g>
+</svg>

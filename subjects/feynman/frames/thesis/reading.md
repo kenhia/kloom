@@ -12,9 +12,13 @@ The absorber theory had left him with a classical electrodynamics written as a s
 
 He tried models first, two harmonic oscillators coupled with a delay, and could quantise those, but they were too simple to show the general rule.
 
-## A beer at the Nassau Tavern
+## The key
 
-The key came from **Herbert Jehle**, newly arrived from Europe, who sat down beside him at a beer party in the Nassau Tavern and, asked whether he knew any way to get quantum mechanics from an action, pointed him to a 1933 paper by **Paul Dirac**, "The Lagrangian in Quantum Mechanics". The next day, in a small room in the Princeton library, Feynman turned Dirac's remark that two quantities were _analogous_ into a statement that they were proportional, and got the Schrödinger equation out of it on the blackboard while Jehle copied it down. How that became a sum over every path a particle might take is the story of the trail that begins here.
+The key came in 1941 from **Herbert Jehle**, newly arrived from Europe, who
+showed him a 1933 paper by **Paul Dirac** in which the action appeared in
+quantum mechanics, and Feynman made the most of one word in it. How that
+became a sum over every path a particle might take is the story of the
+trail that begins here.
 
 ![The front of Palmer Physical Laboratory, Princeton's physics building in Feynman's day: a long two-storey range of red brick with stone trim and tall chimneys, behind a stone colonnade and a lawn](palmer-laboratory.jpg)
 

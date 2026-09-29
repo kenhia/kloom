@@ -1,0 +1,137 @@
+{
+	"id": "path-integral",
+	"position": {
+		"label": "Path integral"
+	},
+	"scene": {
+		"headline": "Quantum mechanics became a sum over",
+		"accent": "HISTORIES.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"REVIEWS OF MODERN PHYSICS 20, 367 · APRIL 1948",
+			"R. P. FEYNMAN · CORNELL UNIVERSITY"
+		],
+		"counter": {
+			"value": "2",
+			"label": "postulates, from which the rest of quantum mechanics follows"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Space-Time Approach to Non-Relativistic Quantum Mechanics",
+			"doi": "10.1103/RevModPhys.20.367",
+			"url": "https://authors.library.caltech.edu/records/9h858-5hv71",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Reviews of Modern Physics",
+			"volume": "20",
+			"issue": "2",
+			"pages": "367–387",
+			"published": "1948-04",
+			"key": true,
+			"note": "The two postulates are on p. 371"
+		},
+		{
+			"kind": "web",
+			"title": "The Development of the Space-Time View of Quantum Electrodynamics",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Nobel Lecture, 11 December 1965",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1965-12-11",
+			"key": true,
+			"note": "Chaining the short-time factors into the action"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session III",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-3",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-27",
+			"note": "Sent to the Physical Review, returned, and published in Reviews of Modern Physics"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session IV",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-4",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-28",
+			"note": "Asked whether he ever had a paper rejected"
+		},
+		{
+			"kind": "article",
+			"title": "Path Integral Methods and Applications",
+			"url": "https://arxiv.org/abs/quant-ph/0004090",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "MacKenzie",
+					"given": "Richard"
+				}
+			],
+			"container": "arXiv preprint arXiv:quant-ph/0004090",
+			"published": "2000-04-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Path-integral formulation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Path-integral_formulation&oldid=1375876216",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "media",
+			"title": "Erwin Schrödinger in 1933",
+			"url": "https://commons.wikimedia.org/wiki/File:Erwin_Schr%C3%B6dinger_-_Narodowe_Archiwum_Cyfrowe_(1-E-939).jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Unknown photographer"
+				}
+			],
+			"container": "Photograph, National Digital Archive of Poland (1-E-939); via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "schrodinger.jpg",
+			"published": "1933"
+		}
+	]
+}
