@@ -17,6 +17,18 @@
 			"title": "Cornell",
 			"labelKind": "date",
 			"frames": ["cornell", "wobbling-plate", "pocono", "diagrams"]
+		},
+		{
+			"id": "last-years",
+			"title": "The last years",
+			"labelKind": "date",
+			"frames": ["last-days"]
+		},
+		{
+			"id": "afterlife",
+			"title": "Afterlife",
+			"labelKind": "category",
+			"frames": ["the-legend", "legacy"]
 		}
 	]
 }

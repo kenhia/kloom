@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M34 44 L34 262 M83.4 44 L83.4 262 M132.9 44 L132.9 262 M182.3 44 L182.3 262 M231.7 44 L231.7 262 M281.1 44 L281.1 262 M330.6 44 L330.6 262 M380 44 L380 262"/>
+		<path pathLength="1" d="M34 262 L34 266 M58.7 262 L58.7 266 M83.4 262 L83.4 266 M108.1 262 L108.1 266 M132.9 262 L132.9 266 M157.6 262 L157.6 266 M182.3 262 L182.3 266 M207 262 L207 266 M231.7 262 L231.7 266 M256.4 262 L256.4 266 M281.1 262 L281.1 266 M305.9 262 L305.9 266 M330.6 262 L330.6 266 M355.3 262 L355.3 266 M380 262 L380 266"/>
+		<path pathLength="1" d="M34 74 L380 74 M34 142 L380 142 M34 210 L380 210"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M34 262 L386 262"/>
+		<path pathLength="1" d="M382.5 264 L386 262 L382.5 260"/>
+		<path pathLength="1" d="M221.8 36 L221.8 262"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M62.7 74 L212.9 74"/>
+		<path pathLength="1" d="M209.4 76 L212.9 74 L209.4 72"/>
+		<path pathLength="1" d="M220.9 74 L267.3 74"/>
+		<path pathLength="1" d="M263.8 76 L267.3 74 L263.8 72"/>
+		<path pathLength="1" d="M54.7 74 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M212.9 74 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M267.3 74 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M230.8 142 L296.9 142"/>
+		<path pathLength="1" d="M293.5 144 L296.9 142 L293.5 140"/>
+		<path pathLength="1" d="M222.8 142 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M296.9 142 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M331.5 210 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M276.2 74 L355.3 76.9 M276.2 74 L339.9 81.2 M276.2 74 L330.3 88.2 M276.2 74 L340.6 90.8 M276.2 74 L294.9 97.1 M276.2 74 L311.9 100.1 M256.4 142 L326.4 146.8 M256.4 142 L286.8 149.6 M256.4 142 L291.6 153.8 M256.4 142 L318.9 159.2 M256.4 142 L308.9 163.6 M256.4 142 L296.5 169 M340.5 210 L365.9 212.9 M340.5 210 L367.4 219.3 M340.5 210 L355.4 223.9 M340.5 210 L369.3 226.2 M340.5 210 L363.6 233.4 M340.5 210 L360.1 237.4"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M353.7 76.9 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M338.3 81.2 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M328.7 88.2 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M339 90.8 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M293.3 97.1 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M310.3 100.1 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M324.8 146.8 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M285.2 149.6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M290 153.8 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M317.3 159.2 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M307.3 163.6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M294.9 169 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M364.3 212.9 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M365.8 219.3 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M353.8 223.9 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M367.7 226.2 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M362 233.4 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M358.5 237.4 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+	</g>
+	<g>
+		<text x="225.8" y="30" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">D. 1988</text>
+		<text x="34" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1950</text>
+		<text x="83.4" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1960</text>
+		<text x="132.9" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1970</text>
+		<text x="182.3" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1980</text>
+		<text x="231.7" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1990</text>
+		<text x="281.1" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2000</text>
+		<text x="330.6" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2010</text>
+		<text x="380" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2020</text>
+		<text x="58.7" y="64" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NEWMAN</text>
+		<text x="214.9" y="64" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WEINBERG</text>
+		<text x="273.3" y="62" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KITCHER</text>
+		<text x="34" y="96" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">“ORNITHOLOGY … BIRDS”</text>
+		<text x="220.8" y="132" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MERMIN</text>
+		<text x="306.9" y="132" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MERMIN</text>
+		<text x="34" y="164" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">“SHUT UP AND CALCULATE”</text>
+		<text x="329.5" y="200" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">YOUNG</text>
+		<text x="34" y="232" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">“THE FEYNMAN TECHNIQUE”</text>
+	</g>
+</svg>
