@@ -110,6 +110,9 @@ Sprint 014 the third subject, `subjects/feynman` (62 frames: a life on a
 dated spine, five trails), written by following the new
 `skills/author-subject/SKILL.md` (plan, a segment by hand, parallel authors,
 review and commit per segment).
+Sprint 015 the fourth subject, `subjects/computing` (67 frames: dates giving
+way to technologies, six trails), the author-subject skill's second test,
+written to complement the AI subject rather than repeat it.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

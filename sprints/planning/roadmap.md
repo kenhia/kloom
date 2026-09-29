@@ -95,10 +95,17 @@
   and a commit per segment. 62 frames, a life on a dated spine with five
   trails (3397) — [record](../014-third-subject-feynman.md).
 
+- Sprint 015: the fourth subject, the History of Computing (proposal
+  3427). The author-subject skill's second test: a segment by hand,
+  fourteen parallel authors, review and a commit per segment. 67 frames,
+  dates giving way to technologies, with six trails, complementing the AI
+  subject (3398) — [record](../015-fourth-subject-computing.md).
+
 ## Next
 
-- Nothing queued in korg for kloom after the Feynman subject; the framework
-  (below) is the next large step.
+- Nothing queued in korg for kloom after the computing subject; links
+  between subjects (3399) and the framework (below) are the next large
+  steps.
 
 ## Later
 
@@ -107,9 +114,8 @@
   006's list of what the grow skill assumed, and the authoring pipeline that
   wrote the AI subject, now written down as `skills/author-subject/SKILL.md`
   and tested on Feynman in sprint 014.
-- More subjects: the History of Computing (3398), the second test of the
-  author-subject skill, and links between subjects (3399). Sprints 006 and
-  014 list candidate links.
+- Links between subjects (3399). Sprints 006, 014 and 015 list candidate
+  links.
 - Drop the README's POC banner once the framework has generated a subject.
 
 ## Ideas
