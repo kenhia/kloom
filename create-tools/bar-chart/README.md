@@ -29,6 +29,8 @@ See `examples/book-output.json`, the printing-press chart.
 | `bars`                        | `label`, optional `sublabel`, `value`, optional `display` (the value's label), `highlight`.   |
 | `width`, `height`, `barWidth` | Optional; default 480, 300 and 56.                                                            |
 
+A value's label has one decimal under 100 unless the value is whole: 28, not 28.0 (sprint 015).
+
 The chart is media, so the frame needs a `media` citation for the file. Give
 it a licence (the repo's MIT for a chart drawn here), and put the data's
 source in the citation's `url` and `container`.
