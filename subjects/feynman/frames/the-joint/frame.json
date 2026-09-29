@@ -1,0 +1,122 @@
+{
+	"id": "the-joint",
+	"position": {
+		"label": "1986",
+		"sort": 1986
+	},
+	"scene": {
+		"headline": "The O-rings had to race the",
+		"accent": "GAP.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MORTON THIOKOL · WASATCH, UTAH · MARSHALL SPACE FLIGHT CENTER",
+			"TANG · CLEVIS · TWO O-RINGS · ZINC CHROMATE PUTTY"
+		],
+		"counter": {
+			"value": "0.280 in",
+			"label": "the O-rings’ thickness, on a circle twelve feet across"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v1ch4.htm",
+			"accessed": "2026-09-28",
+			"container": "Vol. 1, chapter 4: The Cause of the Accident",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06",
+			"note": "The joint, joint rotation, the leak check and the smoke at lift-off"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v1ch6.htm",
+			"accessed": "2026-09-28",
+			"container": "Vol. 1, chapter 6: An Accident Rooted in History",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06",
+			"note": "The joint’s history from 1977 to 1985"
+		},
+		{
+			"kind": "article",
+			"title": "Mr. Feynman Goes to Washington",
+			"url": "https://calteches.library.caltech.edu/3570/1/Feynman.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "51",
+			"issue": "1",
+			"pages": "6–22",
+			"published": "1987"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Space Shuttle Solid Rocket Booster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Space_Shuttle_Solid_Rocket_Booster&oldid=1375891095",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Space Shuttle Challenger disaster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Space_Shuttle_Challenger_disaster&oldid=1375891267",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "media",
+			"title": "The solid rocket booster field joint in section: tang, clevis, pin, O-rings and putty",
+			"url": "https://commons.wikimedia.org/wiki/File:RogersCommission-v1p57_cropped.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Presidential Commission on the Space Shuttle Challenger Accident"
+				}
+			],
+			"container": "Figure from the commission’s report, vol. 1, p. 57; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "field-joint.jpg",
+			"published": "1986-06-06"
+		},
+		{
+			"kind": "media",
+			"title": "Smoke from the right booster at the lift-off of Challenger, pad camera",
+			"url": "https://commons.wikimedia.org/wiki/File:STS-51-L_grey_smoke_on_SRB.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "NASA"
+				}
+			],
+			"container": "NASA photograph STS51L-10144, 28 January 1986; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "smoke-at-lift-off.jpg",
+			"published": "1986-01-28"
+		}
+	]
+}

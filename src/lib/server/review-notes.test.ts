@@ -30,7 +30,10 @@ afterEach(() => {
 describe('the review-notes script', () => {
 	it('lists flagged notes across readers, and marks one handled', async () => {
 		dir = mkdtempSync(join(tmpdir(), 'kloom-review-'));
-		const store = openReaderStore(join(dir, 'reader.db'));
+		// A clock a second apart per write: notes saved in one millisecond would
+		// otherwise tie on `created` and list in their random ids' order.
+		let t = Date.parse('2026-09-28T12:00:00Z');
+		const store = openReaderStore(join(dir, 'reader.db'), () => new Date((t += 1000)));
 		const note = (text: string, flag: boolean) => ({
 			subject: 'ai',
 			frame: 'alexnet',

@@ -1,0 +1,22 @@
+{
+	"id": "the-diagrams",
+	"title": "The diagrams",
+	"anchor": "diagrams",
+	"spine": {
+		"segments": [
+			{
+				"id": "qed",
+				"title": "Quantum electrodynamics",
+				"labelKind": "technology",
+				"frames": [
+					"lamb-shift",
+					"propagators",
+					"backwards-in-time",
+					"dyson",
+					"magnetic-moment",
+					"diagrams-spread"
+				]
+			}
+		]
+	}
+}

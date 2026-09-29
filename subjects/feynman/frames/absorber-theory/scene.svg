@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M62.5 150 L337.5 150"/>
+		<path pathLength="1" d="M62.5 282 L66.9 282 M62.5 260 L66.9 260 M62.5 238 L66.9 238 M62.5 216 L66.9 216 M62.5 194 L66.9 194 M62.5 172 L66.9 172 M62.5 150 L66.9 150 M62.5 128 L66.9 128 M62.5 106 L66.9 106 M62.5 84 L66.9 84 M62.5 62 L66.9 62 M62.5 40 L66.9 40 M62.5 18 L66.9 18"/>
+		<path pathLength="1" d="M68 14.7 L68 19.1 M90 14.7 L90 19.1 M112 14.7 L112 19.1 M134 14.7 L134 19.1 M156 14.7 L156 19.1 M178 14.7 L178 19.1 M200 14.7 L200 19.1 M222 14.7 L222 19.1 M244 14.7 L244 19.1 M266 14.7 L266 19.1 M288 14.7 L288 19.1 M310 14.7 L310 19.1 M332 14.7 L332 19.1"/>
+		<path pathLength="1" d="M90 282 L76.8 268.8 M90 271 L76.8 257.8 M90 260 L76.8 246.8 M90 249 L76.8 235.8 M90 238 L76.8 224.8 M90 227 L76.8 213.8 M90 216 L76.8 202.8 M90 205 L76.8 191.8 M90 194 L76.8 180.8 M90 183 L76.8 169.8 M90 172 L76.8 158.8 M90 161 L76.8 147.8 M90 150 L76.8 136.8 M90 139 L76.8 125.8 M90 128 L76.8 114.8 M90 117 L76.8 103.8 M90 106 L76.8 92.8 M90 95 L76.8 81.8 M90 84 L76.8 70.8 M90 73 L76.8 59.8 M90 62 L76.8 48.8 M90 51 L76.8 37.8 M90 40 L76.8 26.8"/>
+		<path pathLength="1" d="M310 282 L323.2 268.8 M310 271 L323.2 257.8 M310 260 L323.2 246.8 M310 249 L323.2 235.8 M310 238 L323.2 224.8 M310 227 L323.2 213.8 M310 216 L323.2 202.8 M310 205 L323.2 191.8 M310 194 L323.2 180.8 M310 183 L323.2 169.8 M310 172 L323.2 158.8 M310 161 L323.2 147.8 M310 150 L323.2 136.8 M310 139 L323.2 125.8 M310 128 L323.2 114.8 M310 117 L323.2 103.8 M310 106 L323.2 92.8 M310 95 L323.2 81.8 M310 84 L323.2 70.8 M310 73 L323.2 59.8 M310 62 L323.2 48.8 M310 51 L323.2 37.8 M310 40 L323.2 26.8"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M200 287.5 L200 12.5"/>
+		<path pathLength="1" d="M310 287.5 L310 12.5"/>
+		<path pathLength="1" d="M90 287.5 L90 12.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M211 287.5 L211 12.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M200 150 L310 40 M200 150 L90 40"/>
+		<path pathLength="1" d="M200 150 L310 260 M200 150 L90 260"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M310 40 L200 150"/>
+		<path pathLength="1" d="M90 40 L211 161"/>
+		<path pathLength="1" d="M196.5 150 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M208.2 161 a2.8 2.8 0 1 0 5.6 0 a2.8 2.8 0 1 0 -5.6 0"/>
+		<path pathLength="1" d="M208.2 139 a2.8 2.8 0 1 0 5.6 0 a2.8 2.8 0 1 0 -5.6 0"/>
+		<path pathLength="1" d="M307.6 40 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M87.6 40 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+	</g>
+	<g>
+		<text x="83.4" y="284.2" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ABSORBER</text>
+		<text x="316.6" y="284.2" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ABSORBER</text>
+		<text x="224.2" y="167.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t = −1  CANCEL</text>
+		<text x="224.2" y="136.8" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t = +1  ADD</text>
+		<text x="194.5" y="143.4" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SOURCE</text>
+		<text x="200" y="297.4" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">½ RETARDED + ½ ADVANCED</text>
+	</g>
+</svg>

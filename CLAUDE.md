@@ -106,6 +106,10 @@ with the keyboard) and listed with the notes.
 Sprint 013 the start screen as a place to come back to: a Home button
 left of the gear, a keyboard subject list, and the selected subject's
 illustrations in a ring around the loom.
+Sprint 014 the third subject, `subjects/feynman` (62 frames: a life on a
+dated spine, five trails), written by following the new
+`skills/author-subject/SKILL.md` (plan, a segment by hand, parallel authors,
+review and commit per segment).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -122,7 +126,8 @@ validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
 `src/` (SvelteKit wiring — the only code that picks a subject),
 `create-tools/` (authoring scripts: plates, citations, charts, traced art),
 `skills/` (agent instructions: `grow/SKILL.md` writes content,
-`review-notes/SKILL.md` works through flagged notes).
+`author-subject/SKILL.md` authors a whole subject, `review-notes/SKILL.md`
+works through flagged notes).
 
 **Rules that are easy to break:**
 

@@ -1,0 +1,103 @@
+{
+	"id": "reliability",
+	"position": {
+		"label": "1986",
+		"sort": 1986
+	},
+	"scene": {
+		"headline": "Management’s odds were",
+		"accent": "FANTASY.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"APPENDIX F · MARSHALL · KENNEDY RANGE SAFETY",
+			"1 IN 100 · 1 IN 100,000 · 24 FLIGHTS"
+		],
+		"counter": {
+			"value": "1,000×",
+			"label": "how much safer managers thought the shuttle than its engineers did"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v2appf.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Vol. 2, Appendix F: Personal Observations on Reliability of Shuttle, by R. P. Feynman",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06",
+			"note": "The estimates, the safety factor and the conclusion"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mr. Feynman Goes to Washington",
+			"url": "https://calteches.library.caltech.edu/3570/1/Feynman.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "51",
+			"issue": "1",
+			"pages": "6–22",
+			"published": "1987",
+			"note": "The slips of paper at Marshall, and Ullian, in his telling"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rogers Commission Report",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rogers_Commission_Report&oldid=1365816449",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Space Shuttle Challenger disaster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Space_Shuttle_Challenger_disaster&oldid=1375891267",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "media",
+			"title": "Estimates of the chance of losing a Space Shuttle, 1986, against the record (log scale)",
+			"url": "https://history.nasa.gov/rogersrep/v2appf.htm",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from Feynman’s Appendix F to the commission’s report (1986) and the program’s record of 135 flights",
+			"licence": "MIT",
+			"file": "shuttle-odds.svg",
+			"published": "2026"
+		}
+	]
+}

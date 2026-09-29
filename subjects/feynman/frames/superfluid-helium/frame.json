@@ -1,0 +1,212 @@
+{
+	"id": "superfluid-helium",
+	"position": {
+		"label": "1953–57",
+		"sort": 1953
+	},
+	"scene": {
+		"headline": "He explained Landau's",
+		"accent": "ROTONS.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": ["LIQUID HELIUM · BELOW 2.2 K", "LANDAU · ONSAGER · MICHAEL COHEN"],
+		"counter": {
+			"value": "19.1 K",
+			"label": "his first roton energy; the data needed 9.6 K"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Atomic Theory of the Two-Fluid Model of Liquid Helium",
+			"doi": "10.1103/PhysRev.94.262",
+			"url": "https://authors.library.caltech.edu/records/gkw7k-gwm02",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "94",
+			"issue": "2",
+			"pages": "262–277",
+			"published": "1954-04-15",
+			"note": "E(k) = ħ²k²/2mS(k), and the roton as the dip",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Energy Spectrum of the Excitations in Liquid Helium",
+			"doi": "10.1103/PhysRev.102.1189",
+			"url": "https://authors.library.caltech.edu/records/j9m5e-eqv07",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				},
+				{
+					"family": "Cohen",
+					"given": "Michael"
+				}
+			],
+			"container": "Physical Review",
+			"volume": "102",
+			"issue": "5",
+			"pages": "1189–1204",
+			"published": "1956-06-01",
+			"note": "The abstract gives 19.1 K, 11.5 K and 9.6 K",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session IV",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-4",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-28",
+			"key": true,
+			"note": "How he came to helium, the diffraction ring, the vortex lines"
+		},
+		{
+			"kind": "article",
+			"title": "Atomic Theory of the λ Transition in Helium",
+			"doi": "10.1103/PhysRev.91.1291",
+			"url": "https://authors.library.caltech.edu/records/zxd44-n8607",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "91",
+			"issue": "6",
+			"pages": "1291–1301",
+			"published": "1953-09-15",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"title": "Theory of Inelastic Scattering of Cold Neutrons from Liquid Helium",
+			"doi": "10.1103/PhysRev.107.13",
+			"url": "https://authors.library.caltech.edu/records/ka8xm-5n231",
+			"authors": [
+				{
+					"family": "Cohen",
+					"given": "M."
+				},
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "107",
+			"issue": "1",
+			"pages": "13–24",
+			"published": "1957",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"title": "Statistical Hydrodynamics",
+			"doi": "10.1007/BF02780991",
+			"authors": [
+				{
+					"family": "Onsager",
+					"given": "L."
+				}
+			],
+			"container": "Il Nuovo Cimento",
+			"volume": "6",
+			"pages": "279–287",
+			"published": "1949",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"title": "The Detection of Single Quanta of Circulation in Liquid Helium II",
+			"doi": "10.1098/rspa.1961.0029",
+			"authors": [
+				{
+					"family": "Vinen",
+					"given": "W. F."
+				}
+			],
+			"container": "Proceedings of the Royal Society of London. Series A",
+			"volume": "260",
+			"issue": "1301",
+			"pages": "218–236",
+			"published": "1961-02-21",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Superfluid helium-4",
+			"url": "https://en.wikipedia.org/w/index.php?title=Superfluid_helium-4&oldid=1369644505",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum vortex",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_vortex&oldid=1375857680",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "media",
+			"title": "Liquid helium in its superfluid phase, in a glass vacuum flask",
+			"url": "https://commons.wikimedia.org/wiki/File:Liquid_helium_superfluid_phase.jpg",
+			"authors": [
+				{
+					"name": "Bmatulis"
+				}
+			],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "superfluid-flask.jpg",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "The roton energy gap: Feynman's estimates against the data",
+			"url": "https://authors.library.caltech.edu/records/j9m5e-eqv07",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from the abstract of Feynman and Cohen, Physical Review 102 (1956)",
+			"licence": "MIT",
+			"file": "roton-gap.svg",
+			"published": "2026",
+			"accessed": "2026-09-28"
+		}
+	]
+}

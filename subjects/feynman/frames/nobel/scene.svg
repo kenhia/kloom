@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60.5 185.5 L200 46 M60.5 203.5 L218 46 M60.5 221.5 L236 46 M60.5 239.5 L254 46 M60.5 257.5 L272 46 M74 262 L290 46 M74 262 L60.5 248.5 M92 262 L308 46 M92 262 L60.5 230.5 M110 262 L326 46 M110 262 L60.5 212.5 M128 262 L339.5 50.5 M128 262 L60.5 194.5 M146 262 L339.5 68.5 M146 262 L60.5 176.5 M164 262 L339.5 86.5 M164 262 L60.5 158.5 M182 262 L339.5 104.5 M182 262 L60.5 140.5 M200 262 L339.5 122.5 M200 262 L60.5 122.5 M218 262 L339.5 140.5 M218 262 L60.5 104.5 M236 262 L339.5 158.5 M236 262 L60.5 86.5 M254 262 L339.5 176.5 M254 262 L60.5 68.5 M272 262 L339.5 194.5 M272 262 L60.5 50.5 M290 262 L339.5 212.5 M290 262 L74 46 M308 262 L339.5 230.5 M308 262 L92 46 M326 262 L339.5 248.5 M326 262 L110 46 M339.5 257.5 L128 46 M339.5 239.5 L146 46 M339.5 221.5 L164 46 M339.5 203.5 L182 46 M339.5 185.5 L200 46"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M52 262 L352 262"/>
+		<path pathLength="1" d="M347.7 264.5 L352 262 L347.7 259.5"/>
+		<path pathLength="1" d="M60 270 L60 28"/>
+		<path pathLength="1" d="M62.5 32.3 L60 28 L57.5 32.3"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M200 262 L182 244 L164 226 L146 208 L164 190 L182 172 L200 154 L218 136 L236 118 L218 100 L200 82 L182 64 L200 46"/>
+		<path pathLength="1" d="M143.6 208 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M233.6 118 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M179.6 64 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M200 262 L218 244 L236 226 L218 208 L200 190 L182 172 L200 154 L218 136 L236 118 L218 100 L200 82 L218 64 L200 46"/>
+		<path pathLength="1" d="M233 226 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M179 172 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M233 118 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M197 82 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M215 64 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M196.5 262 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M196.5 46 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<text x="352" y="276" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x</text>
+		<text x="52" y="30" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t</text>
+		<text x="208" y="276" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="208" y="42" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="200" y="16" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AMPLITUDE OF A PATH = (iε)^R  ·  R = REVERSALS</text>
+		<text x="200" y="290" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE SPACE DIMENSION: IT GIVES DIRAC. IN THREE, HE NEVER FOUND IT</text>
+	</g>
+</svg>

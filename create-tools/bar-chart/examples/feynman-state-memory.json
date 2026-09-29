@@ -1,0 +1,53 @@
+{
+	"title": "Memory to store the quantum state of N spins, in bytes",
+	"description": "Bar chart on a logarithmic scale. Storing every amplitude of N spin-one-half particles takes 2 to the N complex numbers; at 16 bytes each that is 16 kilobytes for 10 spins, 17 megabytes for 20, 17 gigabytes for 30, 18 terabytes for 40, 18 petabytes for 50 and 18 exabytes for 60. A worked example: the arithmetic is this frame's.",
+	"heading": "BYTES TO STORE 2ᴺ AMPLITUDES (LOG SCALE)",
+	"scale": "log",
+	"axis": {
+		"min": 1000,
+		"max": 1e20,
+		"ticks": [
+			[1000, "10³"],
+			[1000000.0, "10⁶"],
+			[1000000000.0, "10⁹"],
+			[1000000000000.0, "10¹²"],
+			[1000000000000000.0, "10¹⁵"],
+			[1e18, "10¹⁸"]
+		]
+	},
+	"bars": [
+		{
+			"label": "10 spins",
+			"value": 16384,
+			"display": "16 KB"
+		},
+		{
+			"label": "20 spins",
+			"value": 16777216,
+			"display": "17 MB"
+		},
+		{
+			"label": "30 spins",
+			"value": 17179869184,
+			"display": "17 GB"
+		},
+		{
+			"label": "40 spins",
+			"value": 17592186044416,
+			"display": "18 TB"
+		},
+		{
+			"label": "50 spins",
+			"value": 18014398509481984,
+			"display": "18 PB",
+			"highlight": false
+		},
+		{
+			"label": "60 spins",
+			"value": 18446744073709551616,
+			"display": "18 EB",
+			"highlight": true
+		}
+	],
+	"barWidth": 44
+}

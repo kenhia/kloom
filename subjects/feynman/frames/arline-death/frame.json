@@ -1,0 +1,96 @@
+{
+	"id": "arline-death",
+	"position": { "label": "1945", "sort": 1945 },
+	"scene": {
+		"headline": "He wrote to Arline after she",
+		"accent": "DIED.",
+		"palette": "manila",
+		"illustration": "scene.svg",
+		"metadata": ["ALBUQUERQUE · THE PRESBYTERIAN SANATORIUM", "ARLINE FEYNMAN · 16 JUNE 1945"],
+		"counter": { "value": "9:22", "label": "the hour of her death, and of the stopped clock" }
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05",
+			"note": "The visits, the drive, her death and the clock, told twenty-one years on"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Los Alamos from Below: Reminiscences of 1943–1945",
+			"url": "https://calteches.library.caltech.edu/34/3/FeynmanLosAlamos.htm",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "Engineering and Science",
+			"volume": "39",
+			"issue": "2",
+			"published": "1976-01",
+			"note": "The 1975 telling of the drive in Fuchs's car"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Perfectly Reasonable Deviations from the Beaten Track: The Letters of Richard P. Feynman",
+			"url": "https://openlibrary.org/works/OL514604W",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"publisher": "Basic Books",
+			"place": "New York",
+			"published": "2005",
+			"note": "Edited by Michelle Feynman; prints his letter to Arline of 17 October 1946"
+		},
+		{
+			"kind": "book",
+			"title": "What Do You Care What Other People Think? Further Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514628W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Feynman", "given": "Richard P." },
+				{ "family": "Leighton", "given": "Ralph" }
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1988"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Klaus Fuchs",
+			"url": "https://en.wikipedia.org/w/index.php?title=Klaus_Fuchs&oldid=1375493280",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "media",
+			"title": "The Presbyterian sanatorium in Albuquerque, 1911",
+			"url": "https://commons.wikimedia.org/wiki/File:Southwest_Presbyterian_Sanatorium_(Albuquerque,_1911).png",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Unknown photographer" }],
+			"container": "Photograph in the Center for Southwest Research, University of New Mexico; via UNM Digital Libraries and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "presbyterian-sanatorium.jpg",
+			"published": "1911"
+		}
+	]
+}

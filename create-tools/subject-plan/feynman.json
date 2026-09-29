@@ -1,0 +1,175 @@
+{
+	"spine": {
+		"segments": [
+			{
+				"id": "far-rockaway",
+				"title": "Far Rockaway",
+				"labelKind": "date",
+				"frames": ["far-rockaway", "radio-boy", "least-action"]
+			},
+			{
+				"id": "mit-princeton",
+				"title": "MIT and Princeton",
+				"labelKind": "date",
+				"frames": ["forces-in-molecules", "princeton", "absorber-theory", "thesis", "arline"]
+			},
+			{
+				"id": "los-alamos",
+				"title": "Los Alamos",
+				"labelKind": "date",
+				"frames": ["los-alamos", "arline-death", "trinity"]
+			},
+			{
+				"id": "cornell",
+				"title": "Cornell",
+				"labelKind": "date",
+				"frames": ["cornell", "wobbling-plate", "pocono", "diagrams"]
+			},
+			{
+				"id": "caltech",
+				"title": "Caltech",
+				"labelKind": "date",
+				"frames": [
+					"caltech",
+					"brazil",
+					"superfluid-helium",
+					"weak-force",
+					"plenty-of-room",
+					"gweneth",
+					"lectures",
+					"character-of-law",
+					"nobel"
+				]
+			},
+			{
+				"id": "wider",
+				"title": "The wider world",
+				"labelKind": "date",
+				"frames": [
+					"partons",
+					"cargo-cult",
+					"tuva",
+					"simulating-physics",
+					"surely-joking",
+					"qed-book"
+				]
+			},
+			{
+				"id": "last-years",
+				"title": "The last years",
+				"labelKind": "date",
+				"frames": ["challenger", "last-days"]
+			},
+			{
+				"id": "afterlife",
+				"title": "Afterlife",
+				"labelKind": "category",
+				"frames": ["the-legend", "legacy"]
+			}
+		]
+	},
+	"trails": [
+		{
+			"id": "sum-over-histories",
+			"title": "Sum over histories",
+			"anchor": "thesis",
+			"spine": {
+				"segments": [
+					{
+						"id": "paths",
+						"title": "Paths",
+						"labelKind": "technology",
+						"frames": [
+							"principle-of-least-action",
+							"dirac-hint",
+							"path-integral",
+							"every-path",
+							"classical-limit",
+							"path-integrals-today"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "the-diagrams",
+			"title": "The diagrams",
+			"anchor": "diagrams",
+			"spine": {
+				"segments": [
+					{
+						"id": "qed",
+						"title": "Quantum electrodynamics",
+						"labelKind": "technology",
+						"frames": [
+							"lamb-shift",
+							"propagators",
+							"backwards-in-time",
+							"dyson",
+							"magnetic-moment",
+							"diagrams-spread"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "the-hill",
+			"title": "The Hill",
+			"anchor": "los-alamos",
+			"spine": {
+				"segments": [
+					{
+						"id": "project-y",
+						"title": "Project Y",
+						"labelKind": "date",
+						"frames": ["bethe-feynman", "punched-cards", "censorship", "safecracking", "oak-ridge"]
+					}
+				]
+			}
+		},
+		{
+			"id": "computing",
+			"title": "Computing",
+			"anchor": "simulating-physics",
+			"spine": {
+				"segments": [
+					{
+						"id": "machines",
+						"title": "Machines",
+						"labelKind": "date",
+						"frames": [
+							"physics-of-computation",
+							"connection-machine",
+							"quantum-computers",
+							"lectures-on-computation",
+							"quantum-computing-now"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "the-commission",
+			"title": "The commission",
+			"anchor": "challenger",
+			"spine": {
+				"segments": [
+					{
+						"id": "inquiry",
+						"title": "The inquiry",
+						"labelKind": "date",
+						"frames": [
+							"rogers-commission",
+							"the-joint",
+							"teleconference",
+							"reliability",
+							"appendix-f",
+							"return-to-flight"
+						]
+					}
+				]
+			}
+		}
+	]
+}

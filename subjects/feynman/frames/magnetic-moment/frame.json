@@ -1,0 +1,295 @@
+{
+	"id": "magnetic-moment",
+	"position": {
+		"label": "Magnetic moment"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "Theory matched it to a part in a",
+		"accent": "TRILLION.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SCHWINGER 1948 · KINOSHITA · VOLKOV · GABRIELSE 2023",
+			"g/2 = 1.001 159 652 180 59 (13)"
+		],
+		"counter": {
+			"value": "12,672",
+			"label": "Feynman diagrams at the fifth order"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Measurement of the Electron Magnetic Moment",
+			"doi": "10.1103/PhysRevLett.130.071801",
+			"url": "https://arxiv.org/abs/2209.13084",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Fan",
+					"given": "X."
+				},
+				{
+					"family": "Myers",
+					"given": "T. G."
+				},
+				{
+					"family": "Sukra",
+					"given": "B. A. D."
+				},
+				{
+					"family": "Gabrielse",
+					"given": "G."
+				}
+			],
+			"container": "Physical Review Letters",
+			"volume": "130",
+			"issue": "7",
+			"pages": "071801",
+			"published": "2023-02-13",
+			"note": "The measured value, and the 5.5σ split between the α measurements"
+		},
+		{
+			"kind": "article",
+			"title": "Theory of the Anomalous Magnetic Moment of the Electron",
+			"doi": "10.3390/atoms7010028",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Aoyama",
+					"given": "Tatsumi"
+				},
+				{
+					"family": "Kinoshita",
+					"given": "Toichiro"
+				},
+				{
+					"family": "Nio",
+					"given": "Makiko"
+				}
+			],
+			"container": "Atoms",
+			"volume": "7",
+			"issue": "1",
+			"pages": "28",
+			"published": "2019-02-22",
+			"key": true,
+			"note": "The diagrams at each order, 1, 7, 72, 891, 12,672 (p. 8)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Verification of the Tenth-Order QED Contribution to the Anomalous Magnetic Moment of the Electron from Diagrams without Fermion Loops",
+			"doi": "10.1103/PhysRevD.111.L031902",
+			"url": "https://arxiv.org/abs/2412.06473",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Aoyama",
+					"given": "Tatsumi"
+				},
+				{
+					"family": "Hayakawa",
+					"given": "Masashi"
+				},
+				{
+					"family": "Hirayama",
+					"given": "Akira"
+				},
+				{
+					"family": "Nio",
+					"given": "Makiko"
+				}
+			],
+			"container": "Physical Review D",
+			"volume": "111",
+			"issue": "3",
+			"pages": "L031902",
+			"published": "2025",
+			"note": "The five-sigma discrepancy traced and resolved"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Measured Lepton Magnetic Moments",
+			"url": "https://arxiv.org/abs/2507.11268",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Gabrielse",
+					"given": "Gerald"
+				},
+				{
+					"family": "Venanzoni",
+					"given": "Graziano"
+				}
+			],
+			"container": "arXiv preprint arXiv:2507.11268",
+			"published": "2026-02-15",
+			"note": "Version 2; the α discrepancy and the new Northwestern apparatus"
+		},
+		{
+			"kind": "article",
+			"title": "Lepton Anomalous Magnetic Moments: Theory",
+			"url": "https://arxiv.org/abs/2512.18382",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Wittig",
+					"given": "Hartmut"
+				}
+			],
+			"container": "arXiv preprint arXiv:2512.18382",
+			"published": "2025-12"
+		},
+		{
+			"kind": "article",
+			"title": "Calculation of the Total 10th Order QED Contribution to the Electron Magnetic Moment",
+			"doi": "10.1103/PhysRevD.110.036001",
+			"url": "https://arxiv.org/abs/2404.00649",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Volkov",
+					"given": "Sergey"
+				}
+			],
+			"container": "Physical Review D",
+			"volume": "110",
+			"issue": "3",
+			"pages": "036001",
+			"published": "2024"
+		},
+		{
+			"kind": "article",
+			"title": "On Quantum-Electrodynamics and the Magnetic Moment of the Electron",
+			"doi": "10.1103/PhysRev.73.416",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Schwinger",
+					"given": "Julian"
+				}
+			],
+			"container": "Physical Review",
+			"volume": "73",
+			"issue": "4",
+			"pages": "416–417",
+			"published": "1948-02-15"
+		},
+		{
+			"kind": "article",
+			"title": "The Magnetic Moment of the Electron",
+			"doi": "10.1103/PhysRev.74.250",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Kusch",
+					"given": "P."
+				},
+				{
+					"family": "Foley",
+					"given": "H. M."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "74",
+			"issue": "3",
+			"pages": "250–263",
+			"published": "1948"
+		},
+		{
+			"kind": "article",
+			"title": "Physics and Feynman's Diagrams",
+			"doi": "10.1511/2005.52.957",
+			"url": "https://web.mit.edu/dikaiser/www/FdsAmSci.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Kaiser",
+					"given": "David"
+				}
+			],
+			"container": "American Scientist",
+			"volume": "93",
+			"issue": "2",
+			"pages": "156–165",
+			"published": "2005-03",
+			"note": "Karplus and Kroll's calculation with Dyson, pp. 162–163"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anomalous magnetic dipole moment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anomalous_magnetic_dipole_moment&oldid=1355520625",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polykarp Kusch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polykarp_Kusch&oldid=1372448026",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fine-structure constant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fine-structure_constant&oldid=1377160501",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Julian Schwinger's headstone at Mount Auburn Cemetery, Cambridge, Massachusetts",
+			"url": "https://commons.wikimedia.org/wiki/File:Julian_Schwinger_headstone.JPG",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Jacob Bourjaily"
+				}
+			],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "schwinger-headstone.jpg",
+			"published": "2013-04-15"
+		},
+		{
+			"kind": "media",
+			"title": "Feynman diagrams for the electron's magnetic moment at each order of QED",
+			"url": "https://www.mdpi.com/2218-2004/7/1/28",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Aoyama, Kinoshita and Nio (2019), eq. 28",
+			"licence": "MIT",
+			"file": "diagrams-per-order.svg"
+		}
+	]
+}

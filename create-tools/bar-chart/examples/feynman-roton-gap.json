@@ -1,0 +1,39 @@
+{
+	"title": "The roton energy gap: Feynman's estimates against the value the data required",
+	"description": "Bar chart. The minimum energy of a roton in liquid helium, in kelvin. Feynman's 1954 estimate from his trial wave function, 19.1 K; the Feynman and Cohen 1956 estimate from an improved wave function, 11.5 K; the value required by thermodynamic data, as quoted by Feynman and Cohen, 9.6 K. Data: R. P. Feynman and M. Cohen, Energy Spectrum of the Excitations in Liquid Helium, Physical Review 102 (1956), abstract.",
+	"heading": "ROTON ENERGY GAP Δ · KELVIN",
+	"unit": " K",
+	"axis": {
+		"max": 20,
+		"ticks": [
+			[0, "0"],
+			[5, "5"],
+			[10, "10"],
+			[15, "15"],
+			[20, "20 K"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Feynman",
+			"sublabel": "1954",
+			"value": 19.1,
+			"display": "19.1 K"
+		},
+		{
+			"label": "Feynman–Cohen",
+			"sublabel": "1956",
+			"value": 11.5,
+			"display": "11.5 K"
+		},
+		{
+			"label": "Data",
+			"sublabel": "thermodynamic",
+			"value": 9.6,
+			"display": "9.6 K",
+			"highlight": true
+		}
+	],
+	"barWidth": 64,
+	"width": 480
+}

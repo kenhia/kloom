@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M22 214 L27 214 M22 200.3 L27 200.3 M22 186.7 L27 186.7 M22 173 L27 173 M22 159.3 L27 159.3 M22 145.6 L27 145.6 M22 132 L27 132 M22 118.3 L27 118.3 M22 104.6 L27 104.6 M22 90.9 L27 90.9 M22 77.3 L27 77.3 M22 63.6 L27 63.6"/>
+		<path pathLength="1" d="M24 220 L24 52"/>
+		<path pathLength="1" d="M128 64 L186 64 M128 214 L186 214 M128 214 L186 199.5"/>
+		<path pathLength="1" d="M180 189.5 L276 189.5 L276 222 L180 222 Z"/>
+		<path pathLength="1" d="M276 189.5 L296 149.2 M276 222 L296 260"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M48 64 L128 64"/>
+		<path pathLength="1" d="M48 214 L128 214"/>
+		<path pathLength="1" d="M186 64 L266 64"/>
+		<path pathLength="1" d="M186 214 L266 214"/>
+		<path pathLength="1" d="M186 199.5 L266 199.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M300 250 L382 250"/>
+		<path pathLength="1" d="M300 163.2 L382 163.2"/>
+		<path pathLength="1" d="M322 165.2 L321.1 165.9 L320.2 166.6 L319.6 167.3 L319.1 168 L319 168.7 L319.1 169.3 L319.6 170 L320.2 170.7 L321.1 171.4 L322 172.1 L322.9 172.8 L323.8 173.5 L324.4 174.2 L324.9 174.9 L325 175.6 L324.9 176.2 L324.4 176.9 L323.8 177.6 L322.9 178.3 L322 179 L321.1 179.7 L320.2 180.4 L319.6 181.1 L319.1 181.8 L319 182.5 L319.1 183.1 L319.6 183.8 L320.2 184.5 L321.1 185.2 L322 185.9 L322.9 186.6 L323.8 187.3 L324.4 188 L324.9 188.7 L325 189.4 L324.9 190 L324.4 190.7 L323.8 191.4 L322.9 192.1 L322 192.8 L321.1 193.5 L320.2 194.2 L319.6 194.9 L319.1 195.6 L319 196.3 L319.1 196.9 L319.6 197.6 L320.2 198.3 L321.1 199 L322 199.7 L322.9 200.4 L323.8 201.1 L324.4 201.8 L324.9 202.5 L325 203.2 L324.9 203.8 L324.4 204.5 L323.8 205.2 L322.9 205.9 L322 206.6 L321.1 207.3 L320.2 208 L319.6 208.7 L319.1 209.4 L319 210.1 L319.1 210.7 L319.6 211.4 L320.2 212.1 L321.1 212.8 L322 213.5 L322.9 214.2 L323.8 214.9 L324.4 215.6 L324.9 216.3 L325 217 L324.9 217.6 L324.4 218.3 L323.8 219 L322.9 219.7 L322 220.4 L321.1 221.1 L320.2 221.8 L319.6 222.5 L319.1 223.2 L319 223.9 L319.1 224.5 L319.6 225.2 L320.2 225.9 L321.1 226.6 L322 227.3 L322.9 228 L323.8 228.7 L324.4 229.4 L324.9 230.1 L325 230.8 L324.9 231.4 L324.4 232.1 L323.8 232.8 L322.9 233.5 L322 234.2 L321.1 234.9 L320.2 235.6 L319.6 236.3 L319.1 237 L319 237.7 L319.1 238.3 L319.6 239 L320.2 239.7 L321.1 240.4 L322 241.1 L322.9 241.8 L323.8 242.5 L324.4 243.2 L324.9 243.9 L325 244.6 L324.9 245.2 L324.4 245.9 L323.8 246.6 L322.9 247.3 L322 248"/>
+		<path pathLength="1" d="M320 244.5 L322 248 L324 244.5"/>
+		<path pathLength="1" d="M358 250 L358 163.2"/>
+		<path pathLength="1" d="M360 166.7 L358 163.2 L356 166.7"/>
+		<path pathLength="1" d="M356 246.5 L358 250 L360 246.5"/>
+		<path pathLength="1" d="M340 250 L340 284"/>
+		<path pathLength="1" d="M338 280.5 L340 284 L342 280.5"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M272 199.5 L272 214"/>
+	</g>
+	<g>
+		<text x="200" y="20" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HYDROGEN · n = 2 · TO SCALE</text>
+		<text x="88" y="44" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DIRAC 1928</text>
+		<text x="226" y="44" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MEASURED 1947</text>
+		<text x="88" y="59" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2P3/2</text>
+		<text x="226" y="59" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2P3/2</text>
+		<text x="88" y="226" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2S1/2 = 2P1/2</text>
+		<text x="226" y="194.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2S1/2</text>
+		<text x="226" y="226" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2P1/2</text>
+		<text x="32" y="142" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10,969 MHz</text>
+		<text x="341" y="157.2" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">× 6</text>
+		<text x="382" y="157.2" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2S1/2</text>
+		<text x="382" y="261" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2P1/2</text>
+		<text x="362" y="209.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1,058</text>
+		<text x="336" y="292" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TO 1S</text>
+	</g>
+</svg>

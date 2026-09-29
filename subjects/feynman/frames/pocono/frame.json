@@ -1,0 +1,146 @@
+{
+	"id": "pocono",
+	"position": {
+		"label": "1948",
+		"sort": 1948
+	},
+	"scene": {
+		"headline": "Dirac asked if it was",
+		"accent": "UNITARY.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"POCONO MANOR INN · PENNSYLVANIA · 30 MARCH–1 APRIL 1948",
+			"SCHWINGER · BOHR · DIRAC · TELLER · OPPENHEIMER"
+		],
+		"counter": {
+			"value": "28",
+			"label": "physicists at Pocono Manor"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session III",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-3",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-27",
+			"note": "Shelter Island, Pocono and Schwinger, in his words of 1966"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Pocono Conference",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pocono_Conference&oldid=1272768162",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-01-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Shelter Island Conference",
+			"url": "https://en.wikipedia.org/w/index.php?title=Shelter_Island_Conference&oldid=1368987219",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oldstone Conference",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oldstone_Conference&oldid=1347704585",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "report",
+			"title": "Conference on Physics, Pocono Manor, Pennsylvania, 30 March–1 April, 1948",
+			"url": "https://books.google.com/books/about/Conference_on_Physics_Pocono_Manor_Penns.html?id=Y1X4X5mubzsC",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Wheeler",
+					"given": "J. A."
+				}
+			],
+			"published": "1948"
+		},
+		{
+			"kind": "article",
+			"title": "The Theory of Positrons",
+			"doi": "10.1103/PhysRev.76.749",
+			"url": "https://authors.library.caltech.edu/records/vysv7-c2b63",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "76",
+			"issue": "6",
+			"pages": "749–759",
+			"published": "1949-09-15",
+			"note": "The exclusion principle need not be taken into account in intermediate states"
+		},
+		{
+			"kind": "media",
+			"title": "The east front of the Pocono Manor Inn",
+			"url": "https://commons.wikimedia.org/wiki/File:East_Front,_Pocono_Manor_Inn_(NBY_23266).jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Detroit Publishing Company"
+				}
+			],
+			"container": "Hand-coloured postcard, Detroit Publishing Company Collection, Newberry Library; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "pocono-manor.jpg",
+			"published": "1915",
+			"circa": true
+		}
+	]
+}

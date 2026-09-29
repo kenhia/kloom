@@ -1,0 +1,189 @@
+{
+	"id": "physics-of-computation",
+	"position": {
+		"label": "1981–83",
+		"sort": 1981
+	},
+	"scene": {
+		"headline": "He shared a course on chips and",
+		"accent": "BRAINS.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": ["CALTECH · THE PHYSICS OF COMPUTATION", "FEYNMAN · JOHN HOPFIELD · CARVER MEAD"],
+		"counter": {
+			"value": "3",
+			"label": "courses the one course split into"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Caltech Celebrates 30 Years of its Computation and Neural Systems Option",
+			"url": "https://www.caltech.edu/about/news/caltech-celebrates-30-years-its-computation-and-neural-systems-option-79528",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Perkins",
+					"given": "Robert"
+				}
+			],
+			"container": "Caltech News",
+			"publisher": "California Institute of Technology",
+			"place": "Pasadena, CA",
+			"published": "2017-09-06",
+			"note": "The course of 1981–82 and the programme it seeded"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Science and Legacy of Richard Phillips Feynman",
+			"url": "https://arxiv.org/abs/1810.07409",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dhar",
+					"given": "Avinash"
+				},
+				{
+					"family": "Patel",
+					"given": "Apoorva D."
+				},
+				{
+					"family": "Wadia",
+					"given": "Spenta R."
+				}
+			],
+			"container": "arXiv preprint arXiv:1810.07409",
+			"published": "2018-10",
+			"note": "The course remembered from the student benches, and its split into three"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Neural Networks and Physical Systems with Emergent Collective Computational Abilities",
+			"doi": "10.1073/pnas.79.8.2554",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hopfield",
+					"given": "J. J."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences of the USA",
+			"volume": "79",
+			"issue": "8",
+			"pages": "2554–2558",
+			"published": "1982-04"
+		},
+		{
+			"kind": "web",
+			"title": "The Roots of Neural Networks: How Caltech Research Paved the Way to Modern AI",
+			"url": "https://magazine.caltech.edu/post/ai-machine-learning-history",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Clavin",
+					"given": "Whitney"
+				}
+			],
+			"container": "Caltech Magazine",
+			"publisher": "California Institute of Technology",
+			"published": "2025"
+		},
+		{
+			"kind": "web",
+			"title": "The Feynman Lectures on Computation (catalogue record and abstract)",
+			"url": "https://eprints.soton.ac.uk/251763/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hey",
+					"given": "A. J. G."
+				},
+				{
+					"family": "Allen",
+					"given": "R. W."
+				}
+			],
+			"container": "ePrints Soton",
+			"publisher": "University of Southampton",
+			"published": "1996"
+		},
+		{
+			"kind": "article",
+			"title": "Richard Feynman and the Connection Machine",
+			"doi": "10.1063/1.881196",
+			"url": "https://longnow.org/essays/richard-feynman-connection-machine/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hillis",
+					"given": "W. Daniel"
+				}
+			],
+			"container": "Physics Today",
+			"volume": "42",
+			"issue": "2",
+			"pages": "78–83",
+			"published": "1989-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Hopfield",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Hopfield&oldid=1375521134",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carver Mead",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carver_Mead&oldid=1375968601",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Computation and Neural Systems",
+			"url": "https://en.wikipedia.org/w/index.php?title=Computation_and_Neural_Systems&oldid=1323589190",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-22"
+		},
+		{
+			"kind": "media",
+			"title": "Carver Mead speaking at the Computer History Museum, April 2005",
+			"url": "https://commons.wikimedia.org/wiki/File:Carver_Mead_at_CHM_Apr-2005.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Dick Lyon"
+				}
+			],
+			"container": "Photograph, at the launch of George Gilder's The Silicon Eye, Mountain View, CA; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "mead.jpg",
+			"published": "2005-04"
+		}
+	]
+}

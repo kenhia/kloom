@@ -1,0 +1,88 @@
+{
+	"id": "least-action",
+	"position": { "label": "c. 1934", "sort": 1934 },
+	"scene": {
+		"headline": "A teacher showed him the principle of least",
+		"accent": "ACTION.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"FAR ROCKAWAY HIGH SCHOOL · ABRAM BADER",
+			"CALCULUS MADE EASY · ADVANCED CALCULUS · CLASS OF 1935"
+		],
+		"counter": { "value": "3", "label": "Nobel laureates from Far Rockaway High" }
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session I",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-1",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-04",
+			"note": "Bader, the calculus books and the encyclopedia, in his words of 1966"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Feynman Lectures on Physics, Vol. II: Mainly Electromagnetism and Matter",
+			"url": "https://www.feynmanlectures.caltech.edu/II_19.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Feynman", "given": "Richard P." },
+				{ "family": "Leighton", "given": "Robert B." },
+				{ "family": "Sands", "given": "Matthew" }
+			],
+			"publisher": "Addison-Wesley",
+			"place": "Reading, MA",
+			"published": "1964",
+			"note": "Chapter 19, “The Principle of Least Action”, opens with Mr. Bader"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Action principles",
+			"url": "https://en.wikipedia.org/w/index.php?title=Action_principles&oldid=1371224554",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Far Rockaway High School",
+			"url": "https://en.wikipedia.org/w/index.php?title=Far_Rockaway_High_School&oldid=1368106978",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "media",
+			"title": "Far Rockaway High School, seen from above",
+			"url": "https://commons.wikimedia.org/wiki/File:Far_Rockaway_High_School.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Arachniphobe" }],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "far-rockaway-high-school.jpg",
+			"published": "2019-11-30"
+		}
+	]
+}

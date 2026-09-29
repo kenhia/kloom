@@ -9,7 +9,9 @@ import { validate } from './validate';
  * grow job) runs after each segment. Subject-specific checks live beside
  * this, one describe per subject.
  */
-const root = join(import.meta.dirname, '..', 'subjects');
+// KLOOM_TEST_SUBJECTS points at another directory of subjects: a copy holding only
+// finished frames, from subject_plan.py --complete, while authors are mid-write.
+const root = process.env.KLOOM_TEST_SUBJECTS || join(import.meta.dirname, '..', 'subjects');
 const subjects = readdirSync(root, { withFileTypes: true })
 	.filter((d) => d.isDirectory() && !d.name.startsWith('.'))
 	.map((d) => d.name);

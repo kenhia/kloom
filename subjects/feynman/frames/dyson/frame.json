@@ -1,0 +1,182 @@
+{
+	"id": "dyson",
+	"position": {
+		"label": "Dyson"
+	},
+	"scene": {
+		"headline": "Dyson wrote down the",
+		"accent": "RULES.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CORNELL · ANN ARBOR · PRINCETON · 1947–49",
+			"PHYSICAL REVIEW 75 · FEBRUARY AND JUNE 1949"
+		],
+		"counter": {
+			"value": "1,800 miles",
+			"label": "Cleveland to Albuquerque with Feynman, in three and a half days"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Another Side of Feynman",
+			"url": "https://nautil.us/another-side-of-feynman-237062",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dyson",
+					"given": "Freeman"
+				}
+			],
+			"container": "Nautilus",
+			"published": "2018-04-23",
+			"note": "Letters of 1947–49 and 1965, adapted from Maker of Patterns"
+		},
+		{
+			"kind": "article",
+			"title": "The Radiation Theories of Tomonaga, Schwinger, and Feynman",
+			"doi": "10.1103/PhysRev.75.486",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dyson",
+					"given": "F. J."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "75",
+			"issue": "3",
+			"pages": "486–502",
+			"published": "1949-02-01",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Physics and Feynman's Diagrams",
+			"doi": "10.1511/2005.52.957",
+			"url": "https://web.mit.edu/dikaiser/www/FdsAmSci.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Kaiser",
+					"given": "David"
+				}
+			],
+			"container": "American Scientist",
+			"volume": "93",
+			"issue": "2",
+			"pages": "156–165",
+			"published": "2005-03",
+			"key": true,
+			"note": "Dyson at Cornell, Ann Arbor and the Institute, pp. 161–163"
+		},
+		{
+			"kind": "book",
+			"title": "Maker of Patterns: An Autobiography through Letters",
+			"url": "https://openlibrary.org/works/OL19742493W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dyson",
+					"given": "Freeman"
+				}
+			],
+			"publisher": "Liveright",
+			"place": "New York",
+			"published": "2018"
+		},
+		{
+			"kind": "article",
+			"title": "The S Matrix in Quantum Electrodynamics",
+			"doi": "10.1103/PhysRev.75.1736",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dyson",
+					"given": "F. J."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "75",
+			"issue": "11",
+			"pages": "1736–1755",
+			"published": "1949-06-01"
+		},
+		{
+			"kind": "article",
+			"title": "Spreading the Tools of Theory: Feynman Diagrams in the USA, Japan, and the Soviet Union",
+			"doi": "10.1177/0306312704046628",
+			"url": "https://web.mit.edu/dikaiser/www/Kaiser.SpreadingTools.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Kaiser",
+					"given": "David"
+				},
+				{
+					"family": "Ito",
+					"given": "Kenji"
+				},
+				{
+					"family": "Hall",
+					"given": "Karl"
+				}
+			],
+			"container": "Social Studies of Science",
+			"volume": "34",
+			"issue": "6",
+			"pages": "879–922",
+			"published": "2004-12",
+			"note": "The Institute's postdocs in one room, and the 1951 notes"
+		},
+		{
+			"kind": "article",
+			"title": "Space-Time Approach to Quantum Electrodynamics",
+			"doi": "10.1103/PhysRev.76.769",
+			"url": "https://authors.library.caltech.edu/records/ppc9p-p4r89",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "76",
+			"issue": "6",
+			"pages": "769–789",
+			"published": "1949-09-15",
+			"note": "Two time orders of one exchange as one term, p. 769"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Freeman Dyson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Freeman_Dyson&oldid=1376809540",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "Freeman Dyson at Harvard",
+			"url": "https://commons.wikimedia.org/wiki/File:Freeman_Dyson_at_Harvard.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Lumidek"
+				}
+			],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY 3.0",
+			"file": "freeman-dyson.jpg"
+		}
+	]
+}

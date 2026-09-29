@@ -1,0 +1,168 @@
+{
+	"id": "character-of-law",
+	"position": {
+		"label": "1964",
+		"sort": 1964
+	},
+	"scene": {
+		"headline": "A new law, he said, begins with a",
+		"accent": "GUESS.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CORNELL · MESSENGER LECTURES · NOVEMBER 1964",
+			"CALTECH · 13 MARCH 1964 · THE LOST LECTURE"
+		],
+		"counter": {
+			"value": "7",
+			"label": "lectures at Cornell, filmed by the BBC"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Feynman's Lost Lecture: The Motion of Planets Around the Sun",
+			"url": "https://calteches.library.caltech.edu/3822/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Goodstein",
+					"given": "David L."
+				},
+				{
+					"family": "Goodstein",
+					"given": "Judith R."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "59",
+			"issue": "3",
+			"pages": "14–21",
+			"published": "1996",
+			"key": true,
+			"note": "How the lecture was lost and found, and the start of the book"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Character of Physical Law",
+			"url": "https://openlibrary.org/works/OL271750W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"publisher": "British Broadcasting Corporation",
+			"place": "London",
+			"published": "1965",
+			"note": "The seven Messenger Lectures; “Seeking New Laws” is the last"
+		},
+		{
+			"kind": "book",
+			"title": "Feynman's Lost Lecture: The Motion of Planets Around the Sun",
+			"url": "https://openlibrary.org/works/OL2108763W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Goodstein",
+					"given": "David L."
+				},
+				{
+					"family": "Goodstein",
+					"given": "Judith R."
+				}
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1996"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Feynman's Lost Lecture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Feynman's_Lost_Lecture&oldid=1369618442",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Character of Physical Law",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Character_of_Physical_Law&oldid=1358287975",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Messenger Lectures",
+			"url": "https://en.wikipedia.org/w/index.php?title=Messenger_Lectures&oldid=1374601684",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hodograph",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hodograph&oldid=1301968566",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Newton's figure for the first proposition of Book I: equal areas swept in equal times",
+			"url": "https://commons.wikimedia.org/wiki/File:Principia1686_010.png",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Newton",
+					"given": "Isaac"
+				}
+			],
+			"container": "Philosophiae Naturalis Principia Mathematica, London, 1687; from Project Gutenberg eBook 28233, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "principia-proposition-1.png",
+			"published": "1687"
+		}
+	]
+}

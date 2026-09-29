@@ -1,0 +1,106 @@
+{
+	"id": "los-alamos",
+	"position": { "label": "1943", "sort": 1943 },
+	"scene": {
+		"headline": "He went west to the",
+		"accent": "MESA.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": ["LOS ALAMOS · NEW MEXICO · PROJECT Y", "T DIVISION · HANS BETHE · GROUP T-4"],
+		"counter": { "value": "25", "label": "his age when he was given group T-4" }
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05",
+			"note": "The move west, the mesa, Bethe and the group, in his words of 1966"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Los Alamos from Below: Reminiscences of 1943–1945",
+			"url": "https://calteches.library.caltech.edu/34/3/FeynmanLosAlamos.htm",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "Engineering and Science",
+			"volume": "39",
+			"issue": "2",
+			"published": "1976-01",
+			"note": "His 1975 Santa Barbara talk: the tickets, the arrival, Bethe's arithmetic"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Manhattan District History, Project Y, the Los Alamos Project, Vol. I: Inception until August 1945",
+			"url": "https://www.osti.gov/opennet/manhattan-project-history/publications/LANLMDHProjectYPart1.pdf",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Hawkins", "given": "David" }],
+			"publisher": "Los Alamos Scientific Laboratory",
+			"place": "Los Alamos, NM",
+			"number": "LAMS-2532 (Vol. I)",
+			"published": "1961-12-01",
+			"note": "The laboratory's official history, written 1946–47; T Division's groups are §5.2"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Project Y",
+			"url": "https://en.wikipedia.org/w/index.php?title=Project_Y&oldid=1372281784",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Los Alamos Primer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Los_Alamos_Primer&oldid=1369796237",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "media",
+			"title": "Map of the Los Alamos technical area as planned in December 1942",
+			"url": "https://commons.wikimedia.org/wiki/File:Los_Alamos_-_Technical_area_map.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "United States Army" }],
+			"container": "From the Manhattan District History, Project Y (LAMS-2532), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "technical-area.jpg",
+			"published": "1942-12"
+		},
+		{
+			"kind": "media",
+			"title": "Richard Feynman's Los Alamos identity-badge photograph",
+			"url": "https://commons.wikimedia.org/wiki/File:Richard_Feynman_Los_Alamos_ID_badge.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "United States Army" }],
+			"container": "Los Alamos Laboratory security photograph, via the Atomic Heritage Foundation and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "feynman-badge.jpg",
+			"published": "1943",
+			"circa": true
+		}
+	]
+}

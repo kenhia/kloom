@@ -1,0 +1,126 @@
+{
+	"id": "caltech",
+	"position": {
+		"label": "1950",
+		"sort": 1950
+	},
+	"scene": {
+		"headline": "He left the snow for",
+		"accent": "PASADENA.",
+		"palette": "manila",
+		"illustration": "scene.svg",
+		"metadata": ["CALTECH · PASADENA · CALIFORNIA", "ROBERT BACHER · MARY LOUISE BELL"],
+		"counter": {
+			"value": "38",
+			"label": "years on Caltech's faculty, 1950–88"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session III",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-3",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-27",
+			"key": true,
+			"note": "Bacher's offer, the two piles of hay, the chains on the tyres, in his words of 1966"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session IV",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-4",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-28"
+		},
+		{
+			"kind": "web",
+			"title": "Richard P. Feynman – Biographical",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/biographical/",
+			"accessed": "2026-09-28",
+			"container": "Nobel Lectures, Physics 1963–1970",
+			"publisher": "The Nobel Foundation",
+			"published": "1965",
+			"key": true,
+			"note": "Visiting professor, then professor of theoretical physics, 1950"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Bacher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Bacher&oldid=1373073829",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "article",
+			"title": "Feynman e suas conferências sobre o ensino de física no Brasil",
+			"doi": "10.1590/1806-9126-RBEF-2017-0374",
+			"url": "https://www.scielo.br/j/rbef/a/R9wHVCTd3D37cKHmYH88CVk/?lang=pt",
+			"authors": [
+				{
+					"family": "Moreira",
+					"given": "Ildeu de Castro"
+				}
+			],
+			"container": "Revista Brasileira de Ensino de Física",
+			"volume": "40",
+			"issue": "4",
+			"published": "2018",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "The Norman Bridge Laboratory of Physics, Caltech, in 1944",
+			"url": "https://commons.wikimedia.org/wiki/File:Bridge_Laboratory_1944.png",
+			"authors": [
+				{
+					"name": "Unknown photographer"
+				}
+			],
+			"container": "Photograph in The Big T, the Caltech yearbook; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "bridge-laboratory-1944.jpg",
+			"published": "1944",
+			"accessed": "2026-09-28"
+		}
+	]
+}

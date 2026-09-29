@@ -1,0 +1,62 @@
+{
+	"segments": [
+		{
+			"id": "far-rockaway",
+			"title": "Far Rockaway",
+			"labelKind": "date",
+			"frames": ["far-rockaway", "radio-boy", "least-action"]
+		},
+		{
+			"id": "mit-princeton",
+			"title": "MIT and Princeton",
+			"labelKind": "date",
+			"frames": ["forces-in-molecules", "princeton", "absorber-theory", "thesis", "arline"]
+		},
+		{
+			"id": "los-alamos",
+			"title": "Los Alamos",
+			"labelKind": "date",
+			"frames": ["los-alamos", "arline-death", "trinity"]
+		},
+		{
+			"id": "cornell",
+			"title": "Cornell",
+			"labelKind": "date",
+			"frames": ["cornell", "wobbling-plate", "pocono", "diagrams"]
+		},
+		{
+			"id": "caltech",
+			"title": "Caltech",
+			"labelKind": "date",
+			"frames": [
+				"caltech",
+				"brazil",
+				"superfluid-helium",
+				"weak-force",
+				"plenty-of-room",
+				"gweneth",
+				"lectures",
+				"character-of-law",
+				"nobel"
+			]
+		},
+		{
+			"id": "wider",
+			"title": "The wider world",
+			"labelKind": "date",
+			"frames": ["partons", "cargo-cult", "tuva", "simulating-physics", "surely-joking", "qed-book"]
+		},
+		{
+			"id": "last-years",
+			"title": "The last years",
+			"labelKind": "date",
+			"frames": ["challenger", "last-days"]
+		},
+		{
+			"id": "afterlife",
+			"title": "Afterlife",
+			"labelKind": "category",
+			"frames": ["the-legend", "legacy"]
+		}
+	]
+}

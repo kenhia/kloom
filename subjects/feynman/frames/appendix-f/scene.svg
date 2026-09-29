@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M66 70 L148 70 M66 70 L148 110 M66 70 L148 150 M66 70 L148 190 M66 110 L148 70 M66 110 L148 110 M66 110 L148 150 M66 110 L148 190 M66 150 L148 70 M66 150 L148 110 M66 150 L148 150 M66 150 L148 190 M66 190 L148 70 M66 190 L148 110 M66 190 L148 150 M66 190 L148 190"/>
+		<path pathLength="1" d="M192 70 L256 130 M192 110 L256 130 M192 150 L256 130 M192 190 L256 130"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M41 70 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M148 58 L192 58 L192 82 L148 82 Z"/>
+		<path pathLength="1" d="M41 110 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M148 98 L192 98 L192 122 L148 122 Z"/>
+		<path pathLength="1" d="M41 150 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M148 138 L192 138 L192 162 L148 162 Z"/>
+		<path pathLength="1" d="M41 190 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M148 178 L192 178 L192 202 L148 202 Z"/>
+		<path pathLength="1" d="M256 130 L272 112 L288 130 L272 148 Z"/>
+		<path pathLength="1" d="M288 130 L336 130"/>
+		<path pathLength="1" d="M331.7 132.5 L336 130 L331.7 127.5"/>
+		<path pathLength="1" d="M338 130 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M148 236 L192 236 L192 260 L148 260 Z"/>
+		<path pathLength="1" d="M66 70 L148 248 M66 110 L148 248 M66 150 L148 248 M66 190 L148 248"/>
+		<path pathLength="1" d="M192 248 L272 248 L272 148"/>
+		<path pathLength="1" d="M154 142 L186 158"/>
+		<path pathLength="1" d="M154 158 L186 142"/>
+	</g>
+	<g>
+		<text x="50" y="40" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SENSORS</text>
+		<text x="170" y="40" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOUR GPC</text>
+		<text x="272" y="104" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VOTE</text>
+		<text x="350" y="104" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ACT</text>
+		<text x="170" y="278" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BACKUP</text>
+		<text x="200" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOUR COMPUTERS · ONE VOTE · A FIFTH IN RESERVE</text>
+	</g>
+</svg>

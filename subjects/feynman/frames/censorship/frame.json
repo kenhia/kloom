@@ -1,0 +1,86 @@
+{
+	"id": "censorship",
+	"position": { "label": "1943–45", "sort": 1943 },
+	"scene": {
+		"headline": "He played games with the",
+		"accent": "CENSOR.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MILITARY CENSOR · SANTA FE · PARAGRAPH 17B",
+			"ARLINE FEYNMAN · MELVILLE FEYNMAN · JOHN KEMENY"
+		],
+		"counter": { "value": "1/243", "label": "the fraction the censor took for a code" }
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Los Alamos from Below: Reminiscences of 1943–1945",
+			"url": "https://calteches.library.caltech.edu/34/3/FeynmanLosAlamos.htm",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "Engineering and Science",
+			"volume": "39",
+			"issue": "2",
+			"published": "1976-01",
+			"note": "The censorship stories as he told them in 1975"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05",
+			"note": "The same stories nine years earlier, with the fence and the bets"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Manhattan District History, Project Y, the Los Alamos Project, Vol. I: Inception until August 1945",
+			"url": "https://www.osti.gov/opennet/manhattan-project-history/publications/LANLMDHProjectYPart1.pdf",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Hawkins", "given": "David" }],
+			"publisher": "Los Alamos Scientific Laboratory",
+			"place": "Los Alamos, NM",
+			"number": "LAMS-2532 (Vol. I)",
+			"published": "1961-12-01",
+			"note": "How and when censorship began, §3.36"
+		},
+		{
+			"kind": "book",
+			"title": "Perfectly Reasonable Deviations from the Beaten Track: The Letters of Richard P. Feynman",
+			"url": "https://openlibrary.org/works/OL514604W",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"publisher": "Basic Books",
+			"place": "New York",
+			"published": "2005"
+		},
+		{
+			"kind": "web",
+			"title": "Richard P. Feynman: Safecracking, Cipher-Creating, and ‘the Most Brilliant Young Physicist’",
+			"url": "https://www.lanl.gov/media/publications/the-vault/1023-richard-feynman",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Templeton", "given": "Patty" }],
+			"container": "The Vault",
+			"publisher": "Los Alamos National Laboratory, National Security Research Center",
+			"published": "2023-10-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Project Y",
+			"url": "https://en.wikipedia.org/w/index.php?title=Project_Y&oldid=1372281784",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		}
+	]
+}

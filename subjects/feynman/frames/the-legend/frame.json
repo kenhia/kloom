@@ -1,0 +1,214 @@
+{
+	"id": "the-legend",
+	"position": { "label": "The legend" },
+	"scene": {
+		"headline": "His stories hardened into a",
+		"accent": "LEGEND.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HORIZON 1981 · GENIUS 1992 · INFINITY 1996 · QED 2001",
+			"MISATTRIBUTED SAYINGS · A STUDY METHOD · A RECKONING"
+		],
+		"counter": {
+			"value": "2011",
+			"label": "the year the “Feynman technique” was named, 23 years after his death"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"note": "The sections “Popular legacy” and “Allegations of sexism”"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Could Feynman Have Said This?",
+			"doi": "10.1063/1.1768652",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Mermin", "given": "N. David" }],
+			"container": "Physics Today",
+			"volume": "57",
+			"issue": "5",
+			"pages": "10–11",
+			"published": "2004-05",
+			"note": "“Shut up and calculate!” traced to Mermin's own 1989 column"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Quote Origin: The Philosophy of Science Is As Useful To Scientists As Ornithology Is To Birds",
+			"url": "https://quoteinvestigator.com/2023/04/09/science-birds/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "O'Toole", "given": "Garson" }],
+			"container": "Quote Investigator",
+			"published": "2023-04-09"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Learn Faster with the Feynman Technique",
+			"url": "https://www.scotthyoung.com/blog/2011/09/01/learn-faster/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Young", "given": "Scott H." }],
+			"container": "Scott H. Young",
+			"published": "2011-09-01",
+			"note": "The earliest use of the name: a video for a free email course"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The problem of Richard Feynman",
+			"url": "https://galileospendulum.org/2014/07/13/the-problem-of-richard-feynman/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Francis", "given": "Matthew R." }],
+			"container": "Galileo's Pendulum",
+			"published": "2014-07-13"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Richard Feynman, sexism and changing perceptions of a scientific icon",
+			"url": "http://wavefunction.fieldofscience.com/2014/07/richard-feynman-sexism-and-changing.html",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Jogalekar", "given": "Ashutosh" }],
+			"container": "The Curious Wavefunction",
+			"published": "2014-07",
+			"note": "First posted at Scientific American's blog network, 11 July 2014"
+		},
+		{
+			"kind": "article",
+			"title": "Surely You're a Creep, Mr. Feynman",
+			"url": "https://thebaffler.com/outbursts/surely-youre-a-creep-mr-feynman-mcneill",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "McNeill", "given": "Leila" }],
+			"container": "The Baffler",
+			"issue": "43",
+			"published": "2019-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genius: The Life and Science of Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genius%3A_The_Life_and_Science_of_Richard_Feynman&oldid=1343781295",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-16"
+		},
+		{
+			"kind": "book",
+			"title": "“Surely You're Joking, Mr. Feynman!” Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514629W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Feynman", "given": "Richard P." },
+				{ "family": "Leighton", "given": "Ralph" }
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1985",
+			"note": "The chapter “You Just Ask Them?”"
+		},
+		{
+			"kind": "book",
+			"title": "The Character of Physical Law",
+			"url": "https://openlibrary.org/works/OL271750W",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"publisher": "BBC",
+			"place": "London",
+			"published": "1965",
+			"note": "Chapter 6, “Probability and Uncertainty”: nobody understands quantum mechanics"
+		},
+		{
+			"kind": "article",
+			"title": "Nobel Physicist R. P. Feynman of Caltech Dies",
+			"url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Feynman_LA_Times/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Dye", "given": "Lee" }],
+			"container": "Los Angeles Times",
+			"published": "1988-02-16"
+		},
+		{
+			"kind": "web",
+			"title": "Richard Feynman",
+			"url": "https://en.wikiquote.org/w/index.php?title=Richard_Feynman&oldid=3976084",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikiquote contributors" }],
+			"container": "Wikiquote",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30",
+			"note": "The section “Disputed and/or attributed”"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Pleasure of Finding Things Out",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Pleasure_of_Finding_Things_Out&oldid=1375382180",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Infinity (1996 film)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Infinity_(1996_film)&oldid=1359963486",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "QED (play)",
+			"url": "https://en.wikipedia.org/w/index.php?title=QED_(play)&oldid=1366325009",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Project Tuva",
+			"url": "https://en.wikipedia.org/w/index.php?title=Project_Tuva&oldid=1267361832",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-01-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oppenheimer (film)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oppenheimer_(film)&oldid=1377301114",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Bust of Richard Feynman, National Tsing Hua University",
+			"url": "https://commons.wikimedia.org/wiki/File:Richard-Feynman-bust-NTHU-campus.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Oxir" }],
+			"container": "Photograph taken at Hsinchu, Taiwan; via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "bust.jpg",
+			"published": "2023-04-03"
+		}
+	]
+}

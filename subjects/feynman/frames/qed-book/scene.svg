@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M110 30 L110 250"/>
+		<path pathLength="1" d="M30 176 L66 170 M30 182 L72 170 M30 188 L78 170 M30 194 L84 170 M30 200 L90 170 M30 206 L96 170 M30 212 L102 170"/>
+		<path pathLength="1" d="M36 214 L80 170 M42 214 L86 170 M48 214 L92 170 M54 214 L98 170 M60 214 L104 170 M66 214 L110 170 M72 214 L116 170 M78 214 L122 170 M84 214 L128 170 M90 214 L134 170 M96 214 L140 170 M102 214 L146 170 M108 214 L152 170 M114 214 L158 170 M120 214 L164 170 M126 214 L170 170 M132 214 L176 170 M138 214 L182 170 M144 214 L188 170 M150 214 L194 170 M156 214 L196 170"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 170 L196 170 L196 214 L30 214 Z"/>
+		<path pathLength="1" d="M65 40 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M141 33 L159 33 L159 45 L141 45 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M70 40 L106 170 L150 40"/>
+		<path pathLength="1" d="M73 44 L114 214 L147 44"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M224 150 a38 38 0 1 0 76 0 a38 38 0 1 0 -76 0"/>
+		<path pathLength="1" d="M216 150 L308 150"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M300 150 L262 150"/>
+		<path pathLength="1" d="M267.2 147 L262 150 L267.2 153"/>
+		<path pathLength="1" d="M262 150 L244.2 116.4"/>
+		<path pathLength="1" d="M249.2 119.6 L244.2 116.4 L244 122.4"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M300 150 L244.2 116.4"/>
+		<path pathLength="1" d="M250.2 116.6 L244.2 116.4 L247.1 121.7"/>
+	</g>
+	<g>
+		<text x="70" y="30" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S</text>
+		<text x="150" y="28" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="192" y="228" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GLASS</text>
+		<text x="281" y="164" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FRONT 0.2</text>
+		<text x="243.1" y="133.2" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BACK 0.2</text>
+		<text x="262" y="208" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SUM: 0 TO 0.4</text>
+		<text x="262" y="220" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SQUARED: 0 TO 16%</text>
+		<text x="200" y="284" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PARTIAL REFLECTION · ADD THE ARROWS, THEN SQUARE</text>
+	</g>
+</svg>

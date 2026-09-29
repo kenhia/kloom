@@ -1,0 +1,22 @@
+{
+	"title": "Shuttle flights with O-ring thermal distress, by joint temperature at launch, 1981–85",
+	"description": "Bar chart of the share of the 24 shuttle flights before Challenger on which the booster O-rings showed thermal distress (erosion, blow-by or excessive heating), grouped by the O-ring temperature at launch. At 66°F or above: 3 of 20 flights, 15%. At 63°F or below: 4 of 4 flights, 100%. Challenger's joint was estimated at about 28°F. Data: Report of the Presidential Commission on the Space Shuttle Challenger Accident (1986), vol. 1, chapter 6, figures 6 and 7.",
+	"heading": "FLIGHTS WITH O-RING DISTRESS · %",
+	"unit": "%",
+	"width": 420,
+	"barWidth": 64,
+	"axis": {
+		"max": 112,
+		"ticks": [
+			[0, "0"],
+			[25, "25%"],
+			[50, "50%"],
+			[75, "75%"],
+			[100, "100%"]
+		]
+	},
+	"bars": [
+		{ "label": "66°F+", "sublabel": "3 of 20", "value": 15, "display": "15%" },
+		{ "label": "≤63°F", "sublabel": "4 of 4", "value": 100, "display": "100%", "highlight": true }
+	]
+}

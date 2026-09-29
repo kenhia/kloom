@@ -1,0 +1,264 @@
+{
+	"id": "legacy",
+	"position": { "label": "Legacy" },
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "Physics still runs on his",
+		"accent": "TOOLKIT.",
+		"palette": "manila",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DIAGRAMS · PATH INTEGRALS · PARTONS · V − A",
+			"THE LECTURES ONLINE · FEYNMAN PRIZES · QUANTUM SIMULATION"
+		],
+		"counter": {
+			"value": "$250,000",
+			"label": "the Feynman Grand Prize for a nanoscale robot arm, still unclaimed"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Science and Legacy of Richard Phillips Feynman",
+			"url": "https://arxiv.org/abs/1810.07409",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Dhar", "given": "Avinash" },
+				{ "family": "Patel", "given": "Apoorva D." },
+				{ "family": "Wadia", "given": "Spenta R." }
+			],
+			"container": "arXiv preprint arXiv:1810.07409",
+			"published": "2018-10",
+			"note": "A centenary survey; the path integral as the “defining formulation”"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Feynman Prizes",
+			"url": "https://foresight.org/prizes/feyman-prize/",
+			"accessed": "2026-09-28",
+			"publisher": "Foresight Institute",
+			"note": "The 2025 winners, and the Grand Prize still open"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Richard P. Feynman Prize for Excellence in Teaching",
+			"url": "https://provost.caltech.edu/programs-and-resources/feynmanteachingprize",
+			"accessed": "2026-09-28",
+			"publisher": "California Institute of Technology, Office of the Provost"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Simulating Physics with Computers",
+			"doi": "10.1007/BF02650179",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "International Journal of Theoretical Physics",
+			"volume": "21",
+			"issue": "6–7",
+			"pages": "467–488",
+			"published": "1982"
+		},
+		{
+			"kind": "article",
+			"title": "Space-Time Approach to Non-Relativistic Quantum Mechanics",
+			"doi": "10.1103/RevModPhys.20.367",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "R. P." }],
+			"container": "Reviews of Modern Physics",
+			"volume": "20",
+			"issue": "2",
+			"pages": "367–387",
+			"published": "1948"
+		},
+		{
+			"kind": "article",
+			"title": "Space-Time Approach to Quantum Electrodynamics",
+			"doi": "10.1103/PhysRev.76.769",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "R. P." }],
+			"container": "Physical Review",
+			"volume": "76",
+			"issue": "6",
+			"pages": "769–789",
+			"published": "1949"
+		},
+		{
+			"kind": "article",
+			"title": "Theory of the Fermi Interaction",
+			"doi": "10.1103/PhysRev.109.193",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Feynman", "given": "R. P." },
+				{ "family": "Gell-Mann", "given": "M." }
+			],
+			"container": "Physical Review",
+			"volume": "109",
+			"issue": "1",
+			"pages": "193–198",
+			"published": "1958"
+		},
+		{
+			"kind": "article",
+			"title": "Very High-Energy Collisions of Hadrons",
+			"doi": "10.1103/PhysRevLett.23.1415",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "Physical Review Letters",
+			"volume": "23",
+			"issue": "24",
+			"pages": "1415–1417",
+			"published": "1969"
+		},
+		{
+			"kind": "article",
+			"title": "Tenth-Order QED Contribution to the Electron g−2 and an Improved Value of the Fine Structure Constant",
+			"doi": "10.1103/PhysRevLett.109.111807",
+			"url": "https://arxiv.org/abs/1205.5368",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Aoyama", "given": "Tatsumi" },
+				{ "family": "Hayakawa", "given": "Masashi" },
+				{ "family": "Kinoshita", "given": "Toichiro" },
+				{ "family": "Nio", "given": "Makiko" }
+			],
+			"container": "Physical Review Letters",
+			"volume": "109",
+			"issue": "11",
+			"published": "2012",
+			"note": "The 12,672 diagrams of the tenth-order term"
+		},
+		{
+			"kind": "article",
+			"title": "The Amplituhedron",
+			"doi": "10.1007/JHEP10(2014)030",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Arkani-Hamed", "given": "Nima" },
+				{ "family": "Trnka", "given": "Jaroslav" }
+			],
+			"container": "Journal of High Energy Physics",
+			"volume": "2014",
+			"issue": "10",
+			"pages": "30",
+			"published": "2014"
+		},
+		{
+			"kind": "article",
+			"title": "The Computer as a Physical System: A Microscopic Quantum Mechanical Hamiltonian Model of Computers as Represented by Turing Machines",
+			"doi": "10.1007/BF01011339",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Benioff", "given": "Paul" }],
+			"container": "Journal of Statistical Physics",
+			"volume": "22",
+			"issue": "5",
+			"pages": "563–591",
+			"published": "1980"
+		},
+		{
+			"kind": "article",
+			"title": "Richard Feynman Dead at 69; Leading Theoretical Physicist",
+			"url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Feynman_NY_Times/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Gleick", "given": "James" }],
+			"container": "The New York Times",
+			"published": "1988-02-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Feynman Lectures on Physics",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Feynman_Lectures_on_Physics&oldid=1377314831",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Feynman Prize in Nanotechnology",
+			"url": "https://en.wikipedia.org/w/index.php?title=Feynman_Prize_in_Nanotechnology&oldid=1338670867",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Feynman diagram",
+			"url": "https://en.wikipedia.org/w/index.php?title=Feynman_diagram&oldid=1371495738",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Path-integral formulation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Path-integral_formulation&oldid=1375876216",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lattice QCD",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lattice_QCD&oldid=1374104037",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Amplituhedron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Amplituhedron&oldid=1347778618",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-08"
+		},
+		{
+			"kind": "media",
+			"title": "The Feynman Computing Center, Fermilab",
+			"url": "https://commons.wikimedia.org/wiki/File:U.S._Department_of_Energy_-_Science_-_270_128_001_(29678470275).jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "U.S. Department of Energy" }],
+			"container": "Photograph, U.S. Department of Energy, via Flickr and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "feynman-computing-center.jpg",
+			"published": "2013-05-30"
+		},
+		{
+			"kind": "media",
+			"title": "The Feynman Lectures on Physics, the definitive edition of 2005, in its slipcase",
+			"url": "https://commons.wikimedia.org/wiki/File:The_Feynman_Lectures_on_Physics.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Barak Sh" }],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "lectures.jpg",
+			"published": "2008-05-08"
+		}
+	]
+}

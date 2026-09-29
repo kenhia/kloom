@@ -1,0 +1,154 @@
+{
+	"id": "wobbling-plate",
+	"position": {
+		"label": "c. 1947",
+		"sort": 1947
+	},
+	"scene": {
+		"headline": "He decided just to",
+		"accent": "PLAY.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CORNELL · THE STUDENTS' CAFETERIA",
+			"A THIN DISC · EULER'S EQUATIONS · I₃ = 2 I₁"
+		],
+		"counter": {
+			"value": "2 : 1",
+			"label": "wobble to spin for a thin disc; he told it the other way round"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session III",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-3",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-27",
+			"note": "The plate, Bethe's question and the return to work, in his words of 1966"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "“Surely You're Joking, Mr. Feynman!” Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514629W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Ralph"
+				}
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1985",
+			"note": "“The Dignified Professor”: the plate and its ratio, his telling"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Feynman's wobbling plate",
+			"doi": "10.1119/1.2402156",
+			"url": "https://physedu.science.upjs.sk/modelovanie/files/feynman_plate_2007.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Tuleja",
+					"given": "Slavomir"
+				},
+				{
+					"family": "Gazovic",
+					"given": "Boris"
+				},
+				{
+					"family": "Tomori",
+					"given": "Alexander"
+				},
+				{
+					"family": "Hanc",
+					"given": "Jozef"
+				}
+			],
+			"container": "American Journal of Physics",
+			"volume": "75",
+			"issue": "3",
+			"pages": "240–244",
+			"published": "2007-03",
+			"note": "Wobble twice as fast as spin; note 3 on Feynman's reversal"
+		},
+		{
+			"kind": "article",
+			"title": "Feynman's Dining Hall Dynamics",
+			"doi": "10.1063/1.2810900",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Chao",
+					"given": "Benjamin Fong"
+				}
+			],
+			"container": "Physics Today",
+			"volume": "42",
+			"issue": "2",
+			"pages": "15",
+			"published": "1989-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "List of moments of inertia",
+			"url": "https://en.wikipedia.org/w/index.php?title=List_of_moments_of_inertia&oldid=1376326951",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Wobbles per turn of the seal, for a spinning object with a small tilt",
+			"url": "https://en.wikipedia.org/w/index.php?title=List_of_moments_of_inertia&oldid=1376326951",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart computed for kloom from the moments of inertia of a uniform cylinder",
+			"licence": "MIT",
+			"file": "wobble-ratio.svg"
+		}
+	]
+}

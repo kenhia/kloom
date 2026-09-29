@@ -12,9 +12,13 @@ missing. So a subject authored segment by segment (or by several authors at
 once) validates at every step, and the plan says what is still to come.
 
 `--check` writes nothing and lists the planned frames not yet written.
+`--complete DIR` writes the spine into a copy of the subject at
+DIR/<subject> that holds only the frames with a `frame.json`, so one author
+can validate their frames while others are mid-write:
+`KLOOM_TEST_SUBJECTS=DIR npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
 Standard library only.
 """
-import argparse, json, os, sys
+import argparse, json, os, shutil, sys
 
 
 def keep(spine, have):
@@ -38,7 +42,18 @@ def main():
     ap.add_argument('plan')
     ap.add_argument('subject')
     ap.add_argument('--check', action='store_true')
+    ap.add_argument('--complete', metavar='DIR',
+                    help='write a copy holding only the finished frames to DIR/<subject>, to validate one author\'s work while others are still writing')
     a = ap.parse_args()
+    if a.complete:
+        src = a.subject
+        a.subject = os.path.join(a.complete, os.path.basename(os.path.normpath(src)))
+        shutil.rmtree(a.subject, ignore_errors=True)
+        os.makedirs(os.path.join(a.subject, 'frames'))
+        shutil.copy(os.path.join(src, 'subject.json'), a.subject)
+        for d in os.listdir(os.path.join(src, 'frames')):
+            if not d.startswith('.') and os.path.isfile(os.path.join(src, 'frames', d, 'frame.json')):
+                shutil.copytree(os.path.join(src, 'frames', d), os.path.join(a.subject, 'frames', d))
     with open(a.plan) as fh:
         plan = json.load(fh)
     frames_dir = os.path.join(a.subject, 'frames')

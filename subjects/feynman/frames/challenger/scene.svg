@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M104 40 L104 264"/>
+		<path pathLength="1" d="M34 104 L174 104"/>
+		<path pathLength="1" d="M258 236 L258 86 M288 236 L288 86 M318 236 L318 86 M348 236 L348 86 M378 236 L378 86"/>
+		<path pathLength="1" d="M228 198.5 L378 198.5 M228 161 L378 161 M228 123.5 L378 123.5 M228 86 L378 86"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M46 74 L58 252"/>
+		<path pathLength="1" d="M162 74 L150 252"/>
+		<path pathLength="1" d="M46 74 a58 7 0 1 0 116 0 a58 7 0 1 0 -116 0"/>
+		<path pathLength="1" d="M150 252 L149.9 252.4 L149.6 252.8 L149.1 253.2 L148.4 253.6 L147.6 253.9 L146.5 254.3 L145.3 254.7 L143.8 255 L142.2 255.3 L140.5 255.7 L138.6 256 L136.5 256.2 L134.3 256.5 L132 256.8 L129.6 257 L127 257.2 L124.3 257.4 L121.6 257.5 L118.8 257.7 L115.9 257.8 L113 257.9 L110 257.9 L107 258 L104 258 L101 258 L98 257.9 L95 257.9 L92.1 257.8 L89.2 257.7 L86.4 257.5 L83.7 257.4 L81 257.2 L78.4 257 L76 256.8 L73.7 256.5 L71.5 256.2 L69.4 256 L67.5 255.7 L65.8 255.3 L64.2 255 L62.7 254.7 L61.5 254.3 L60.4 253.9 L59.6 253.6 L58.9 253.2 L58.4 252.8 L58.1 252.4 L58 252"/>
+		<path pathLength="1" d="M48 104 a56 6 0 1 0 112 0 a56 6 0 1 0 -112 0"/>
+		<path pathLength="1" d="M82 132 L134 132 L134 222 L82 222"/>
+		<path pathLength="1" d="M82 132 L82 140 L126 140 L126 214 L82 214 L82 222"/>
+		<path pathLength="1" d="M87 48 L87 192"/>
+		<path pathLength="1" d="M93 48 L93 192"/>
+		<path pathLength="1" d="M81 192 L99 192 L99 197 L81 197 Z"/>
+		<path pathLength="1" d="M68 48 L112 48"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M77 205.5 a13 8.5 0 1 0 26 0 a13 8.5 0 1 0 -26 0"/>
+		<path pathLength="1" d="M82.2 197.5 L85.2 213.5 M87.4 197.5 L90.4 213.5 M92.6 197.5 L95.6 213.5 M97.8 197.5 L100.8 213.5"/>
+		<path pathLength="1" d="M87 56 L93 59 M87 64 L93 67 M87 72 L93 75 M87 80 L93 83 M87 88 L93 91 M87 96 L93 99 M87 104 L93 107 M87 112 L93 115 M87 120 L93 123 M87 128 L93 131 M87 136 L93 139 M87 144 L93 147 M87 152 L93 155 M87 160 L93 163 M87 168 L93 171 M87 176 L93 179 M87 184 L93 187"/>
+		<path pathLength="1" d="M61.8 101.8 L74.2 105.8 L70.2 118.2 L57.8 114.2 Z"/>
+		<path pathLength="1" d="M140.1 113 L151 108.1 L155.9 119 L145 123.9 Z"/>
+		<path pathLength="1" d="M69.3 136.3 L77.7 143.3 L70.7 151.7 L62.3 144.7 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M228 236 L384 236"/>
+		<path pathLength="1" d="M228 236 L228 78"/>
+		<path pathLength="1" d="M379.7 238.5 L384 236 L379.7 233.5"/>
+		<path pathLength="1" d="M230.5 82.3 L228 78 L225.5 82.3"/>
+		<path pathLength="1" d="M228 236 L229.5 221.7 L231 208.8 L232.5 197.1 L234 186.5 L235.5 177 L237 168.3 L238.5 160.5 L240 153.4 L241.5 147 L243 141.2 L244.5 135.9 L246 131.2 L247.5 126.9 L249 123 L250.5 119.5 L252 116.3 L253.5 113.4 L255 110.8 L256.5 108.4 L258 106.3 L259.5 104.4 L261 102.6 L262.5 101 L264 99.6 L265.5 98.3 L267 97.1 L268.5 96.1 L270 95.1 L271.5 94.3 L273 93.5 L274.5 92.8 L276 92.1 L277.5 91.5 L279 91 L280.5 90.5 L282 90.1 L283.5 89.7 L285 89.4 L286.5 89 L288 88.7 L289.5 88.5 L291 88.2 L292.5 88 L294 87.8 L295.5 87.7 L297 87.5 L298.5 87.4 L300 87.2 L301.5 87.1 L303 87 L304.5 86.9 L306 86.8 L307.5 86.7 L309 86.7 L310.5 86.6 L312 86.6 L313.5 86.5 L315 86.5 L316.5 86.4 L318 86.4 L319.5 86.3 L321 86.3 L322.5 86.3 L324 86.2 L325.5 86.2 L327 86.2 L328.5 86.2 L330 86.2 L331.5 86.2 L333 86.1 L334.5 86.1 L336 86.1 L337.5 86.1 L339 86.1 L340.5 86.1 L342 86.1 L343.5 86.1 L345 86.1 L346.5 86.1 L348 86.1 L349.5 86 L351 86 L352.5 86 L354 86 L355.5 86 L357 86 L358.5 86 L360 86 L361.5 86 L363 86 L364.5 86 L366 86 L367.5 86 L369 86 L370.5 86 L372 86 L373.5 86 L375 86 L376.5 86 L378 86"/>
+		<path pathLength="1" d="M228 236 L229.5 233 L231 230.1 L232.5 227.3 L234 224.5 L235.5 221.7 L237 219 L238.5 216.4 L240 213.8 L241.5 211.3 L243 208.8 L244.5 206.4 L246 204 L247.5 201.7 L249 199.4 L250.5 197.1 L252 194.9 L253.5 192.8 L255 190.7 L256.5 188.6 L258 186.5 L259.5 184.6 L261 182.6 L262.5 180.7 L264 178.8 L265.5 177 L267 175.2 L268.5 173.4 L270 171.7 L271.5 170 L273 168.3 L274.5 166.7 L276 165.1 L277.5 163.5 L279 162 L280.5 160.5 L282 159 L283.5 157.6 L285 156.1 L286.5 154.8 L288 153.4 L289.5 152.1 L291 150.8 L292.5 149.5 L294 148.2 L295.5 147 L297 145.8 L298.5 144.6 L300 143.4 L301.5 142.3 L303 141.2 L304.5 140.1 L306 139 L307.5 138 L309 136.9 L310.5 135.9 L312 134.9 L313.5 134 L315 133 L316.5 132.1 L318 131.2 L319.5 130.3 L321 129.4 L322.5 128.5 L324 127.7 L325.5 126.9 L327 126.1 L328.5 125.3 L330 124.5 L331.5 123.7 L333 123 L334.5 122.3 L336 121.5 L337.5 120.8 L339 120.1 L340.5 119.5 L342 118.8 L343.5 118.2 L345 117.5 L346.5 116.9 L348 116.3 L349.5 115.7 L351 115.1 L352.5 114.5 L354 114 L355.5 113.4 L357 112.9 L358.5 112.3 L360 111.8 L361.5 111.3 L363 110.8 L364.5 110.3 L366 109.8 L367.5 109.4 L369 108.9 L370.5 108.4 L372 108 L373.5 107.6 L375 107.1 L376.5 106.7 L378 106.3"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M246 236 L246 82"/>
+	</g>
+	<g>
+		<text x="261" y="81.5" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">75°F</text>
+		<text x="333" y="167.5" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">32°F</text>
+		<text x="303" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TIME · SECONDS</text>
+		<text x="234" y="72" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SPRING-BACK</text>
+		<text x="249" y="228" font-size="6" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GAP OPENS</text>
+		<text x="104" y="282" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C-CLAMP · O-RING · ICE WATER</text>
+	</g>
+</svg>

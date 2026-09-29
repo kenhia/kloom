@@ -1,0 +1,170 @@
+{
+	"id": "brazil",
+	"position": {
+		"label": "1951–52",
+		"sort": 1951
+	},
+	"scene": {
+		"headline": "In Rio he found physics learned by",
+		"accent": "ROTE.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"RIO DE JANEIRO · CBPF · FACULDADE NACIONAL DE FILOSOFIA",
+			"JAYME TIOMNO · JOSÉ LEITE LOPES · CÉSAR LATTES"
+		],
+		"counter": {
+			"value": "53.1°",
+			"label": "Brewster's angle for water, which his students could recite"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Feynman e suas conferências sobre o ensino de física no Brasil",
+			"doi": "10.1590/1806-9126-RBEF-2017-0374",
+			"url": "https://www.scielo.br/j/rbef/a/R9wHVCTd3D37cKHmYH88CVk/?lang=pt",
+			"authors": [
+				{
+					"family": "Moreira",
+					"given": "Ildeu de Castro"
+				}
+			],
+			"container": "Revista Brasileira de Ensino de Física",
+			"volume": "40",
+			"issue": "4",
+			"published": "2018",
+			"note": "The dates of his visits and the documented 1952 lecture",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session III",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-3",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-27",
+			"key": true,
+			"note": "Why he went, learning Portuguese, the centre and the radio link"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session IV",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-4",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-28"
+		},
+		{
+			"kind": "book",
+			"title": "“Surely You're Joking, Mr. Feynman!” Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514629W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Ralph"
+				}
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1985",
+			"key": true,
+			"note": "“O Americano, Outra Vez!”: the samba school and the lecture, in his telling"
+		},
+		{
+			"kind": "article",
+			"title": "The Problem of Teaching Physics in Latin America",
+			"url": "https://calteches.library.caltech.edu/2255/",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "27",
+			"issue": "2",
+			"pages": "21–30",
+			"published": "1963",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Centro Brasileiro de Pesquisas Físicas",
+			"url": "https://en.wikipedia.org/w/index.php?title=Centro_Brasileiro_de_Pesquisas_F%C3%ADsicas&oldid=1337357663",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "José Leite Lopes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Leite_Lopes&oldid=1372213690",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "media",
+			"title": "Copacabana seen from the hills above Botafogo",
+			"url": "https://commons.wikimedia.org/wiki/File:Panorama_de_Copacabana;_a_partir_de_Botafogo_(007A5P4F02-050).jpg",
+			"authors": [
+				{
+					"name": "Unknown photographer"
+				}
+			],
+			"container": "Photograph, undated, in the collection of the Instituto Moreira Salles; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "copacabana.jpg",
+			"accessed": "2026-09-28"
+		}
+	]
+}

@@ -1,0 +1,138 @@
+{
+	"id": "challenger",
+	"position": {
+		"label": "1986",
+		"sort": 1986
+	},
+	"scene": {
+		"headline": "He showed the rubber had no",
+		"accent": "RESILIENCE.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WASHINGTON · 11 FEBRUARY 1986 · ROGERS COMMISSION",
+			"STS-51-L · AN O-RING · A C-CLAMP · ICE WATER"
+		],
+		"counter": {
+			"value": "36°F",
+			"label": "the air at lift-off, colder than any launch before"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v4part4.htm",
+			"accessed": "2026-09-28",
+			"container": "Vol. 4: Hearings of the Presidential Commission, February 11, 1986 session",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06",
+			"note": "Transcript pp. 679–80: his remark to Mulloy after the recess"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mr. Feynman Goes to Washington",
+			"url": "https://calteches.library.caltech.edu/3570/1/Feynman.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "51",
+			"issue": "1",
+			"pages": "6–22",
+			"published": "1987",
+			"note": "His own telling, a talk at Caltech edited by Ralph Leighton"
+		},
+		{
+			"kind": "report",
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v1ch4.htm",
+			"accessed": "2026-09-28",
+			"container": "Vol. 1, chapter 4: The Cause of the Accident",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06"
+		},
+		{
+			"kind": "report",
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v1ch2.htm",
+			"accessed": "2026-09-28",
+			"container": "Vol. 1, chapter 2: Events Leading Up to the Challenger Mission",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06"
+		},
+		{
+			"kind": "book",
+			"title": "What Do You Care What Other People Think? Further Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514628W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Ralph"
+				}
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1988",
+			"note": "Part two, “Mr. Feynman Goes to Washington”, is his telling of the investigation"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Space Shuttle Challenger disaster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Space_Shuttle_Challenger_disaster&oldid=1375891267",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "The break-up of Challenger, 73 seconds after lift-off, photographed from the ground",
+			"url": "https://commons.wikimedia.org/wiki/File:Challenger_explosion.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Kennedy Space Center"
+				}
+			],
+			"container": "NASA photograph, 28 January 1986; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "breakup.jpg",
+			"published": "1986-01-28"
+		}
+	]
+}

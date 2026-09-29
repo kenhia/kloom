@@ -1,0 +1,134 @@
+{
+	"id": "diagrams-spread",
+	"position": {
+		"label": "Dispersion"
+	},
+	"scene": {
+		"headline": "The diagrams travelled by postdoc",
+		"accent": "CASCADE.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"INSTITUTE FOR ADVANCED STUDY · 1948–54",
+			"COLUMBIA · CORNELL · IOWA · BERKELEY · STANFORD"
+		],
+		"counter": {
+			"value": "114",
+			"label": "authors using the diagrams in the Physical Review, 1949–54"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Physics and Feynman's Diagrams",
+			"doi": "10.1511/2005.52.957",
+			"url": "https://web.mit.edu/dikaiser/www/FdsAmSci.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Kaiser",
+					"given": "David"
+				}
+			],
+			"container": "American Scientist",
+			"volume": "93",
+			"issue": "2",
+			"pages": "156–165",
+			"published": "2005-03",
+			"key": true,
+			"note": "The postdocs, the counts and the nuclear uses, pp. 161–165"
+		},
+		{
+			"kind": "article",
+			"title": "Spreading the Tools of Theory: Feynman Diagrams in the USA, Japan, and the Soviet Union",
+			"doi": "10.1177/0306312704046628",
+			"url": "https://web.mit.edu/dikaiser/www/Kaiser.SpreadingTools.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Kaiser",
+					"given": "David"
+				},
+				{
+					"family": "Ito",
+					"given": "Kenji"
+				},
+				{
+					"family": "Hall",
+					"given": "Karl"
+				}
+			],
+			"container": "Social Studies of Science",
+			"volume": "34",
+			"issue": "6",
+			"pages": "879–922",
+			"published": "2004-12",
+			"key": true,
+			"note": "139 papers, 114 authors, and the USA, Japan and the Soviet Union compared"
+		},
+		{
+			"kind": "article",
+			"title": "Stick-Figure Realism: Conventions, Reification, and the Persistence of Feynman Diagrams, 1948–1964",
+			"doi": "10.1525/rep.2000.70.1.01p00694",
+			"url": "https://web.mit.edu/dikaiser/www/Kaiser.SFR.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Kaiser",
+					"given": "David"
+				}
+			],
+			"container": "Representations",
+			"volume": "70",
+			"pages": "49–86",
+			"published": "2000",
+			"key": true,
+			"note": "Chew's S-matrix diagrams and Mattuck's map, pp. 55–58"
+		},
+		{
+			"kind": "book",
+			"title": "Drawing Theories Apart: The Dispersion of Feynman Diagrams in Postwar Physics",
+			"url": "https://openlibrary.org/works/OL8104710W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Kaiser",
+					"given": "David"
+				}
+			],
+			"publisher": "University of Chicago Press",
+			"place": "Chicago",
+			"published": "2005",
+			"note": "The book the three articles come from"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Feynman diagram",
+			"url": "https://en.wikipedia.org/w/index.php?title=Feynman_diagram&oldid=1371495738",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "media",
+			"title": "Fuld Hall, Institute for Advanced Study, Princeton, New Jersey",
+			"url": "https://commons.wikimedia.org/wiki/File:Fuld_Hall,_Institute_for_Advanced_Study,_Princeton,_NJ.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Zeete"
+				}
+			],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "fuld-hall.jpg",
+			"published": "2023-07-23"
+		}
+	]
+}

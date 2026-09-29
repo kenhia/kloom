@@ -1,0 +1,165 @@
+{
+	"id": "last-days",
+	"position": { "label": "1988", "sort": 1988 },
+	"scene": {
+		"headline": "His last blackboard listed what he had yet to",
+		"accent": "LEARN.",
+		"palette": "manila",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CALTECH · UCLA MEDICAL CENTER · ALTADENA",
+			"LIPOSARCOMA 1978 · WALDENSTRÖM 1986 · 15 FEBRUARY 1988"
+		],
+		"counter": { "value": "10 years", "label": "from his first cancer operation to his death" }
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Richard Feynman Dead at 69; Leading Theoretical Physicist",
+			"url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Feynman_NY_Times/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Gleick", "given": "James" }],
+			"container": "The New York Times",
+			"published": "1988-02-17",
+			"note": "The obituary, by his future biographer; read in MacTutor's transcription"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"note": "The section “Death”: the diagnoses, the operations and the last weeks"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Richard Feynman and the Connection Machine",
+			"doi": "10.1063/1.881196",
+			"url": "https://longnow.org/essays/richard-feynman-connection-machine/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Hillis", "given": "W. Daniel" }],
+			"container": "Physics Today",
+			"volume": "42",
+			"issue": "2",
+			"pages": "78–83",
+			"published": "1989-02",
+			"note": "The walk above Pasadena, and the evolution model, in its last section"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Richard Feynman's blackboard at time of his death",
+			"url": "https://digital.archives.caltech.edu/collections/Images/1.10-29/",
+			"accessed": "2026-09-28",
+			"container": "Caltech Images Collection",
+			"publisher": "Caltech Archives and Special Collections",
+			"place": "Pasadena, CA",
+			"published": "1988",
+			"note": "The photograph described in the reading; not freely licensed"
+		},
+		{
+			"kind": "article",
+			"title": "Nobel Physicist R. P. Feynman of Caltech Dies",
+			"url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Feynman_LA_Times/",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Dye", "given": "Lee" }],
+			"container": "Los Angeles Times",
+			"published": "1988-02-16"
+		},
+		{
+			"kind": "article",
+			"title": "Richard Feynman and the Pleasure Principle",
+			"url": "https://www.thenewatlantis.com/publications/richard-feynman-and-the-pleasure-principle",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Valiunas", "given": "Algis" }],
+			"container": "The New Atlantis",
+			"issue": "55",
+			"pages": "61–84",
+			"published": "2018"
+		},
+		{
+			"kind": "web",
+			"title": "Feynman's Last Blackboard: From Bethe Ansatz to Langlands Duality",
+			"url": "https://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Frenkel.pdf",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Frenkel", "given": "Edward" }],
+			"container": "Slides of a talk at Strings 2023, Perimeter Institute",
+			"published": "2023-07-25"
+		},
+		{
+			"kind": "chapter",
+			"title": "Difficulties in Applying the Variational Principle to Quantum Field Theories",
+			"doi": "10.1142/9789814390187_0003",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"container": "Variational Calculations in Quantum Field Theory",
+			"editors": [
+				{ "family": "Polley", "given": "L." },
+				{ "family": "Pottinger", "given": "D. E. L." }
+			],
+			"publisher": "World Scientific",
+			"place": "Singapore",
+			"pages": "28–40",
+			"published": "1988"
+		},
+		{
+			"kind": "web",
+			"title": "Richard Feynman",
+			"url": "https://en.wikiquote.org/w/index.php?title=Richard_Feynman&oldid=3976084",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikiquote contributors" }],
+			"container": "Wikiquote",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30",
+			"note": "The two versions of his last words, with Gleick's and Sykes's pages"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Liposarcoma",
+			"url": "https://en.wikipedia.org/w/index.php?title=Liposarcoma&oldid=1372014739",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Waldenström macroglobulinemia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Waldenstr%C3%B6m_macroglobulinemia&oldid=1377193157",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Richard Feynman in his office at Caltech",
+			"url": "https://commons.wikimedia.org/wiki/File:Richard_Feynman_1988.png",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Unknown photographer" }],
+			"container": "The Big T, the yearbook of the California Institute of Technology, 1986; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "feynman-1986.jpg",
+			"published": "1986"
+		},
+		{
+			"kind": "media",
+			"title": "The grave of Richard P. and Gweneth M. Feynman, Mountain View Cemetery, Altadena",
+			"url": "https://commons.wikimedia.org/wiki/File:Richard_P._Feynman%E2%80%99s_Grave.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "CSRedPanda" }],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "grave.jpg",
+			"published": "2024-02-10"
+		}
+	]
+}

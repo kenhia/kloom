@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 106 L360 106"/>
+		<path pathLength="1" d="M92 48 L92 164"/>
+		<path pathLength="1" d="M92 106 L103.4 63.5 M92 106 L123.1 74.9 M92 106 L134.5 94.6 M92 106 L134.5 117.4 M92 106 L123.1 137.1 M92 106 L103.4 148.5 M92 106 L80.6 148.5 M92 106 L60.9 137.1 M92 106 L49.5 117.4 M92 106 L49.5 94.6 M92 106 L60.9 74.9 M92 106 L80.6 63.5"/>
+		<path pathLength="1" d="M200 62 L200 150"/>
+		<path pathLength="1" d="M200 106 L215 80 M200 106 L230 106 M200 106 L215 132 M200 106 L185 132 M200 106 L170 106 M200 106 L185 80"/>
+		<path pathLength="1" d="M290 54 L290 158"/>
+		<path pathLength="1" d="M290 106 L301.7 69.9 M290 106 L320.7 83.7 M290 106 L328 106 M290 106 L320.7 128.3 M290 106 L301.7 142.1 M290 106 L278.3 142.1 M290 106 L259.3 128.3 M290 106 L252 106 M290 106 L259.3 83.7 M290 106 L278.3 69.9"/>
+		<path pathLength="1" d="M92 62 L92 196 M200 76 L200 196 M290 68 L290 196"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M103.4 63.5 L123.1 74.9 L134.5 94.6 L134.5 117.4 L123.1 137.1 L103.4 148.5 L80.6 148.5 L60.9 137.1 L49.5 117.4 L49.5 94.6 L60.9 74.9 L80.6 63.5 Z"/>
+		<path pathLength="1" d="M88 106 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M215 80 L230 106 L215 132 L185 132 L170 106 L185 80 Z"/>
+		<path pathLength="1" d="M196 106 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M301.7 69.9 L320.7 83.7 L328 106 L320.7 128.3 L301.7 142.1 L278.3 142.1 L259.3 128.3 L252 106 L259.3 83.7 L278.3 69.9 Z"/>
+		<path pathLength="1" d="M286 106 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M146 124 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M160 124 L164 124 M156.5 130.1 L158.5 133.5 M149.5 130.1 L147.5 133.5 M146 124 L142 124 M149.5 117.9 L147.5 114.5 M156.5 117.9 L158.5 114.5"/>
+		<path pathLength="1" d="M234 124 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M248 124 L252 124 M244.5 130.1 L246.5 133.5 M237.5 130.1 L235.5 133.5 M234 124 L230 124 M237.5 117.9 L235.5 114.5 M244.5 117.9 L246.5 114.5"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M50 196 L350 196 L350 262 L50 262 Z"/>
+		<path pathLength="1" d="M78 206 L322 206 L322 252 L78 252 Z"/>
+		<path pathLength="1" d="M82 214 L102 214 M102 214 L102 229 M102 229 L102 244 M82 244 L102 244 M82 214 L82 229 M82 229 L102 229"/>
+		<path pathLength="1" d="M190 214 L210 214 M210 214 L210 229 M190 229 L210 229 M190 229 L190 244 M190 244 L210 244"/>
+		<path pathLength="1" d="M280 214 L300 214 M300 214 L300 229 M280 229 L300 229 M280 229 L280 244 M280 244 L300 244"/>
+		<path pathLength="1" d="M143.8 220 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M143.8 238 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+	</g>
+	<g>
+		<text x="92" y="42" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HOURS</text>
+		<text x="200" y="42" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TENS</text>
+		<text x="290" y="42" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MINUTES</text>
+		<text x="200" y="284" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A CLOCK OF TURNING NUMBERS · STOPPED AT 9:22</text>
+	</g>
+</svg>

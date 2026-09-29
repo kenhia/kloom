@@ -1,0 +1,304 @@
+{
+	"id": "quantum-computing-now",
+	"position": {
+		"label": "2026",
+		"sort": 2026
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "The machine he asked for is still",
+		"accent": "ARRIVING.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": ["AS OF 28 SEPTEMBER 2026", "SHOR 1994 · WILLOW · HELIOS · HERON"],
+		"counter": {
+			"value": "0.143%",
+			"label": "logical error per cycle, Google's distance-7 code (2024)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Quantum Computing 40 Years Later",
+			"url": "https://arxiv.org/abs/2106.10522",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Preskill",
+					"given": "John"
+				}
+			],
+			"container": "arXiv preprint arXiv:2106.10522",
+			"published": "2021-06",
+			"note": "Shor, the threshold theorem and the case for simulation, as of 2021"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Quantum Error Correction below the Surface Code Threshold",
+			"doi": "10.1038/s41586-024-08449-y",
+			"url": "https://arxiv.org/abs/2408.13687",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Google Quantum AI and Collaborators"
+				}
+			],
+			"container": "Nature",
+			"volume": "638",
+			"issue": "8052",
+			"pages": "920–926",
+			"published": "2024-12-09",
+			"note": "Λ = 2.14; the distance-7 memory at 0.143% per cycle"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "How to Factor 2048 Bit RSA Integers with Less than a Million Noisy Qubits",
+			"url": "https://arxiv.org/abs/2505.15917",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Gidney",
+					"given": "Craig"
+				}
+			],
+			"container": "arXiv preprint arXiv:2505.15917",
+			"published": "2025-05-21",
+			"note": "897,864 qubits in about five days; figure 1 gives the earlier estimates"
+		},
+		{
+			"kind": "chapter",
+			"title": "Algorithms for Quantum Computation: Discrete Logarithms and Factoring",
+			"doi": "10.1109/SFCS.1994.365700",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Shor",
+					"given": "Peter W."
+				}
+			],
+			"container": "Proceedings 35th Annual Symposium on Foundations of Computer Science",
+			"pages": "124–134",
+			"publisher": "IEEE Computer Society",
+			"published": "1994"
+		},
+		{
+			"kind": "article",
+			"title": "Scheme for Reducing Decoherence in Quantum Computer Memory",
+			"doi": "10.1103/PhysRevA.52.R2493",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Shor",
+					"given": "Peter W."
+				}
+			],
+			"container": "Physical Review A",
+			"volume": "52",
+			"issue": "4",
+			"pages": "R2493–R2496",
+			"published": "1995-10"
+		},
+		{
+			"kind": "article",
+			"title": "Observation of Constructive Interference at the Edge of Quantum Ergodicity",
+			"doi": "10.1038/s41586-025-09526-6",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Google Quantum AI and Collaborators"
+				}
+			],
+			"container": "Nature",
+			"volume": "646",
+			"issue": "8086",
+			"pages": "825–830",
+			"published": "2025-10-22"
+		},
+		{
+			"kind": "web",
+			"title": "A Verifiable Quantum Advantage",
+			"url": "https://research.google/blog/a-verifiable-quantum-advantage/",
+			"accessed": "2026-09-28",
+			"container": "Google Research Blog",
+			"publisher": "Google",
+			"published": "2025-10-22"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing Helios: The Most Accurate Quantum Computer in the World",
+			"url": "https://www.quantinuum.com/blog/introducing-helios-the-most-accurate-quantum-computer-in-the-world",
+			"accessed": "2026-09-28",
+			"container": "Quantinuum Blog",
+			"publisher": "Quantinuum",
+			"published": "2025-11-05"
+		},
+		{
+			"kind": "article",
+			"title": "Superconducting Pairing Correlations on a Trapped-Ion Quantum Computer",
+			"url": "https://arxiv.org/abs/2511.02125",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Granet",
+					"given": "Etienne"
+				},
+				{
+					"family": "Lin",
+					"given": "Sheng-Hsuan"
+				},
+				{
+					"family": "Hémery",
+					"given": "Kevin"
+				},
+				{
+					"family": "Haghshenas",
+					"given": "Reza"
+				},
+				{
+					"family": "Andres-Martinez",
+					"given": "Pablo"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint arXiv:2511.02125",
+			"published": "2025-11-03"
+		},
+		{
+			"kind": "article",
+			"title": "A Tweezer Array with 6,100 Highly Coherent Atomic Qubits",
+			"doi": "10.1038/s41586-025-09641-4",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Manetsch",
+					"given": "Hannah J."
+				},
+				{
+					"family": "Nomura",
+					"given": "Gyohei"
+				},
+				{
+					"family": "Bataille",
+					"given": "Elie"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "647",
+			"pages": "60–67",
+			"published": "2025-09-24"
+		},
+		{
+			"kind": "web",
+			"title": "Infleqtion's 30 Logical Qubits Rely on Error Detection",
+			"url": "https://postquantum.com/industry-news/infleqtion-30-logical-qubits/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Ivezic",
+					"given": "Marin"
+				}
+			],
+			"container": "PostQuantum",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "web",
+			"title": "IBM and Algorithmiq Demonstrate Quantum Advantage, Establishing a Framework for Trusted Quantum Computation beyond Classical Verification",
+			"url": "https://newsroom.ibm.com/2026-07-30-ibm-and-algorithmiq-demonstrate-quantum-advantage,-establishing-a-framework-for-trusted-quantum-computation-beyond-classical-verification",
+			"accessed": "2026-09-28",
+			"container": "IBM Newsroom",
+			"publisher": "IBM",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "web",
+			"title": "IBM Declares a “Quantum Advantage Era.” The Three Papers Make Different Claims",
+			"url": "https://postquantum.com/industry-news/ibm-three-quantum-advantage-papers/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Ivezic",
+					"given": "Marin"
+				}
+			],
+			"container": "PostQuantum",
+			"published": "2026-08-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Willow processor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Willow_processor&oldid=1371360534",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Shor's algorithm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Shor's_algorithm&oldid=1364068984",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum error correction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_error_correction&oldid=1348841887",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-14"
+		},
+		{
+			"kind": "media",
+			"title": "Bar chart of estimated physical qubits needed to factor a 2048-bit RSA number, 2012–2025",
+			"url": "https://arxiv.org/abs/2505.15917",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from Gidney (2025), figure 1 and section 3.2",
+			"licence": "MIT",
+			"file": "rsa-qubits.svg",
+			"published": "2026"
+		},
+		{
+			"kind": "media",
+			"title": "IBM Quantum System One on display at O'Hare International Airport",
+			"url": "https://commons.wikimedia.org/wiki/File:IBM_Quantum_System_One_on_display_at_O%27Hare_International_Airport.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Brainandforce"
+				}
+			],
+			"container": "Photograph, Terminal 1, Chicago O'Hare International Airport; via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "ibm-ohare.jpg",
+			"published": "2026-09-13"
+		}
+	]
+}

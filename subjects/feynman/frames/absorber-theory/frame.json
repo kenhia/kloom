@@ -1,0 +1,172 @@
+{
+	"id": "absorber-theory",
+	"position": {
+		"label": "1941",
+		"sort": 1941
+	},
+	"scene": {
+		"headline": "Half the wave came from the",
+		"accent": "FUTURE.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PRINCETON · JOHN WHEELER · RICHARD FEYNMAN",
+			"RADIATION RESISTANCE · ADVANCED WAVES · THE ABSORBER"
+		],
+		"counter": {
+			"value": "½ + ½",
+			"label": "retarded and advanced waves, in equal parts"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Development of the Space-Time View of Quantum Electrodynamics",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Nobel Lecture, 11 December 1965",
+			"publisher": "Nobel Foundation",
+			"published": "1965-12-11",
+			"note": "The absorber, the ten-light-second example and Wheeler's telephone call, in his words"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05",
+			"note": "The idea's origin, the colloquium and its audience, and the papers, in his words of 1966"
+		},
+		{
+			"kind": "article",
+			"title": "Interaction with the Absorber as the Mechanism of Radiation",
+			"doi": "10.1103/RevModPhys.17.157",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Wheeler",
+					"given": "John Archibald"
+				},
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Reviews of Modern Physics",
+			"volume": "17",
+			"issue": "2–3",
+			"pages": "157–181",
+			"published": "1945-04",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Classical Electrodynamics in Terms of Direct Interparticle Action",
+			"doi": "10.1103/RevModPhys.21.425",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Wheeler",
+					"given": "John Archibald"
+				},
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Reviews of Modern Physics",
+			"volume": "21",
+			"issue": "3",
+			"pages": "425–433",
+			"published": "1949-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wheeler–Feynman absorber theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wheeler%E2%80%93Feynman_absorber_theory&oldid=1358120776",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "One-electron universe",
+			"url": "https://en.wikipedia.org/w/index.php?title=One-electron_universe&oldid=1370379667",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hoyle–Narlikar theory of gravity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hoyle%E2%80%93Narlikar_theory_of_gravity&oldid=1333690248",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Albert Einstein, portrait by Orren Jack Turner",
+			"url": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_1947.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Orren Jack Turner"
+				}
+			],
+			"container": "Photograph, Princeton; Library of Congress, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "einstein-1947.jpg",
+			"published": "1947"
+		}
+	]
+}

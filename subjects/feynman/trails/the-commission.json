@@ -1,0 +1,22 @@
+{
+	"id": "the-commission",
+	"title": "The commission",
+	"anchor": "challenger",
+	"spine": {
+		"segments": [
+			{
+				"id": "inquiry",
+				"title": "The inquiry",
+				"labelKind": "date",
+				"frames": [
+					"rogers-commission",
+					"the-joint",
+					"teleconference",
+					"reliability",
+					"appendix-f",
+					"return-to-flight"
+				]
+			}
+		]
+	}
+}

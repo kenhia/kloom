@@ -1,0 +1,132 @@
+{
+	"id": "backwards-in-time",
+	"position": {
+		"label": "Backwards in time"
+	},
+	"scene": {
+		"headline": "A positron is an electron running",
+		"accent": "BACKWARDS.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": ["CORNELL · RECEIVED 8 APRIL 1949", "DIRAC'S SEA · STÜCKELBERG · WHEELER"],
+		"counter": {
+			"value": "3",
+			"label": "roads a bombardier sees, that are one switchback"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "The Theory of Positrons",
+			"doi": "10.1103/PhysRev.76.749",
+			"url": "https://authors.library.caltech.edu/3520/1/FEYpr49b.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "76",
+			"issue": "6",
+			"pages": "749–759",
+			"published": "1949-09-15",
+			"key": true,
+			"note": "The abstract, the bombardier (p. 749) and the Stückelberg footnote (p. 753)"
+		},
+		{
+			"kind": "web",
+			"title": "The Development of the Space-Time View of Quantum Electrodynamics",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Nobel Lecture, 11 December 1965",
+			"publisher": "Nobel Foundation",
+			"published": "1965-12-11",
+			"key": true,
+			"note": "Wheeler's idea, and the backward electron as convenient but not necessary"
+		},
+		{
+			"kind": "article",
+			"title": "Remarque à propos de la création de paires de particules en théorie de relativité",
+			"doi": "10.5169/seals-111201",
+			"url": "https://archive-ouverte.unige.ch/unige:161864",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Stueckelberg",
+					"given": "E. C. G."
+				}
+			],
+			"container": "Helvetica Physica Acta",
+			"volume": "14",
+			"issue": "7",
+			"pages": "588–594",
+			"published": "1941"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antiparticle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antiparticle&oldid=1375869876",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "One-electron universe",
+			"url": "https://en.wikipedia.org/w/index.php?title=One-electron_universe&oldid=1370379667",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Positron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Positron&oldid=1374830978",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "media",
+			"title": "Carl Anderson's cloud-chamber photograph of a positron crossing a 6 mm lead plate",
+			"url": "https://commons.wikimedia.org/wiki/File:PositronDiscovery.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Anderson",
+					"given": "Carl D."
+				}
+			],
+			"container": "Photograph, published in “The Positive Electron”, Physical Review 43 (1933); via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "positron-track.jpg",
+			"published": "1932"
+		}
+	]
+}

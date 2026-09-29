@@ -1,0 +1,156 @@
+{
+	"id": "rogers-commission",
+	"position": {
+		"label": "1986",
+		"sort": 1986
+	},
+	"scene": {
+		"headline": "A general handed him the",
+		"accent": "CLUE.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"EXECUTIVE ORDER 12546 · 3 FEBRUARY 1986",
+			"WILLIAM P. ROGERS · DONALD KUTYNA · SALLY RIDE"
+		],
+		"counter": {
+			"value": "120",
+			"label": "days the commission gave itself to report"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mr. Feynman Goes to Washington",
+			"url": "https://calteches.library.caltech.edu/3570/1/Feynman.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "51",
+			"issue": "1",
+			"pages": "6–22",
+			"published": "1987",
+			"note": "His telling of his first weeks on the commission, pp. 9–14"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v1appa.htm",
+			"accessed": "2026-09-28",
+			"container": "Appendix A: Commission Activities",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06"
+		},
+		{
+			"kind": "report",
+			"title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+			"url": "https://history.nasa.gov/rogersrep/v1comm.htm",
+			"accessed": "2026-09-28",
+			"container": "Presidential Commission on the Space Shuttle Challenger Accident (members)",
+			"publisher": "Presidential Commission on the Space Shuttle Challenger Accident",
+			"place": "Washington, DC",
+			"published": "1986-06-06"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "An Oral History of the Space Shuttle Challenger Disaster",
+			"url": "https://www.popularmechanics.com/space/a18616/an-oral-history-of-the-space-shuttle-challenger-disaster/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dean",
+					"given": "Margaret Lazarus"
+				}
+			],
+			"container": "Popular Mechanics",
+			"published": "2016-01-28",
+			"note": "General Kutyna on Sally Ride and the carburettor"
+		},
+		{
+			"kind": "book",
+			"title": "What Do You Care What Other People Think? Further Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514628W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Ralph"
+				}
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1988",
+			"note": "Part two, “Mr. Feynman Goes to Washington”, is his telling of the investigation"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rogers Commission Report",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rogers_Commission_Report&oldid=1365816449",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Donald Kutyna",
+			"url": "https://en.wikipedia.org/w/index.php?title=Donald_Kutyna&oldid=1359060443",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Robert Graham",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Robert_Graham&oldid=1333340700",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-17"
+		},
+		{
+			"kind": "media",
+			"title": "Alton Keel, the commission’s executive director, and William Rogers arriving for a briefing at Kennedy Space Center, 7 March 1986",
+			"url": "https://commons.wikimedia.org/wiki/File:Rogers_Commission_members_arrive_at_Kennedy_Space_Center.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "NASA"
+				}
+			],
+			"container": "NASA photograph, Kennedy Space Center; via Flickr and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "commission-arrives.jpg",
+			"published": "1986-03-07"
+		}
+	]
+}

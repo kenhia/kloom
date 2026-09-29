@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M14 124 L386 124"/>
+		<path pathLength="1" d="M14 262 L386 262"/>
+		<path pathLength="1" d="M115 140 L151 140 M175 140 L235 140 M255 140 L385 140 M101 152 L155 152 M171 152 L239 152 M251 152 L385 152 M99 164 L157 164 M169 164 L385 164 M97 176 L159 176 M167 176 L385 176 M95 188 L385 188 M93 200 L385 200 M91 212 L385 212 M87 224 L385 224 M77 236 L385 236 M15 248 L385 248 M15 260 L385 260"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M14 236 L40 238 L58 240 L70 236 L84 228 L92 204 L96 170 L100 146 L108 138 L132 134 L150 132 L156 150 L160 176 L166 178 L170 150 L176 128 L214 124 L232 122 L238 142 L242 160 L248 161 L252 142 L258 118 L294 112 L318 104 L336 86 L350 64 L362 48 L372 42 L386 46"/>
+		<path pathLength="1" d="M14 262 L14 236"/>
+		<path pathLength="1" d="M386 262 L386 46"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M44 238 L48 243 L54 238 M52 238 L56 243 L62 238"/>
+		<path pathLength="1" d="M72 234 L90 222 L80 214 L93 198 L84 188 L96 172 L90 160 L100 148 L110 138"/>
+		<path pathLength="1" d="M184 124 L184 116 L192 116 L192 124"/>
+		<path pathLength="1" d="M196 124 L196 116 L204 116 L204 124"/>
+		<path pathLength="1" d="M208 124 L208 116 L216 116 L216 124"/>
+		<path pathLength="1" d="M220 124 L220 116 L228 116 L228 124"/>
+		<path pathLength="1" d="M186 116 L190 112 L194 116"/>
+		<path pathLength="1" d="M178 124 L178 110 L230 110 L230 122"/>
+		<path pathLength="1" d="M178 108 L182 112 M186 108 L190 112 M194 108 L198 112 M202 108 L206 112 M210 108 L214 112 M218 108 L222 112 M226 108 L230 112"/>
+		<path pathLength="1" d="M178 112 L182 108 M186 112 L190 108 M194 112 L198 108 M202 112 L206 108 M210 112 L214 108 M218 112 L222 108 M226 112 L230 108"/>
+		<path pathLength="1" d="M118 136.3 L118 127.3"/>
+		<path pathLength="1" d="M115 132.3 L118 125.3 L121 132.3"/>
+		<path pathLength="1" d="M126 135 L126 126"/>
+		<path pathLength="1" d="M123 131 L126 124 L129 131"/>
+		<path pathLength="1" d="M140 133.1 L140 124.1"/>
+		<path pathLength="1" d="M137 129.1 L140 122.1 L143 129.1"/>
+		<path pathLength="1" d="M268 116.3 L268 107.3"/>
+		<path pathLength="1" d="M265 112.3 L268 105.3 L271 112.3"/>
+		<path pathLength="1" d="M280 114.3 L280 105.3"/>
+		<path pathLength="1" d="M277 110.3 L280 103.3 L283 110.3"/>
+		<path pathLength="1" d="M300 110 L300 101"/>
+		<path pathLength="1" d="M297 106 L300 99 L303 106"/>
+		<path pathLength="1" d="M312 106 L312 97"/>
+		<path pathLength="1" d="M309 102 L312 95 L315 102"/>
+	</g>
+	<g>
+		<text x="46" y="256" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RIO GRANDE</text>
+		<text x="204" y="100" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LOS ALAMOS</text>
+		<text x="204" y="146" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">7,300 FT</text>
+		<text x="160" y="194" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CANYON</text>
+		<text x="250" y="178" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CANYON</text>
+		<text x="352" y="34" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">JEMEZ</text>
+		<text x="200" y="286" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PAJARITO PLATEAU · SECTION · NOT TO SCALE</text>
+	</g>
+</svg>

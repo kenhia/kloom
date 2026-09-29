@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M32 150 a64 64 0 1 0 128 0 a64 64 0 1 0 -128 0"/>
+		<path pathLength="1" d="M18 150 a78 78 0 1 0 156 0 a78 78 0 1 0 -156 0"/>
+		<path pathLength="1" d="M96 214 L96 86"/>
+		<path pathLength="1" d="M64 205.4 L128 94.6"/>
+		<path pathLength="1" d="M40.6 182 L151.4 118"/>
+		<path pathLength="1" d="M32 150 L160 150"/>
+		<path pathLength="1" d="M40.6 118 L151.4 182"/>
+		<path pathLength="1" d="M64 94.6 L128 205.4"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M91 86 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M91 214 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M123 94.6 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M59 205.4 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M146.4 118 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M149.4 118 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M35.6 182 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M38.6 182 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M155 150 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M27 150 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M146.4 182 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M149.4 182 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M35.6 118 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M38.6 118 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M123 205.4 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M126 205.4 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M59 94.6 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M62 94.6 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M96 72 L99.4 72.1 L102.8 72.3 L106.2 72.7 L109.5 73.2 L112.9 73.8 L116.2 74.7 L119.5 75.6 L122.7 76.7 L125.8 77.9 L129 79.3 L132 80.8 L135 82.5"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M267.3 236 L267.3 80 M320.7 236 L320.7 80 M374 236 L374 80"/>
+		<path pathLength="1" d="M214 198.5 L374 198.5 M214 161 L374 161 M214 123.5 L374 123.5 M214 86 L374 86"/>
+		<path pathLength="1" d="M267.3 136 L210 136"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M214 236 L382 236"/>
+		<path pathLength="1" d="M214 236 L214 76"/>
+		<path pathLength="1" d="M214 86 L217.6 86.2 L221.1 86.7 L224.7 87.6 L228.2 88.9 L231.8 90.5 L235.3 92.5 L238.9 94.8 L242.4 97.4 L246 100.3 L249.6 103.5 L253.1 107 L256.7 110.8 L260.2 114.8 L263.8 119.1 L267.3 123.5 L270.9 128.1 L274.4 132.9 L278 137.8 L281.6 142.9 L285.1 148 L288.7 153.2 L292.2 158.4 L295.8 163.6 L299.3 168.8 L302.9 174 L306.4 179.1 L310 184.2 L313.6 189.1 L317.1 193.9 L320.7 198.5 L324.2 202.9 L327.8 207.2 L331.3 211.2 L334.9 215 L338.4 218.5 L342 221.7 L345.6 224.6 L349.1 227.2 L352.7 229.5 L356.2 231.5 L359.8 233.1 L363.3 234.4 L366.9 235.3 L370.4 235.8 L374 236"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M214 86 L374 236"/>
+		<path pathLength="1" d="M263.8 123.5 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M263.8 136 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+	</g>
+	<g>
+		<text x="96" y="44" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O OR E, FIXED AT EVERY 30°</text>
+		<text x="126" y="66" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">30°</text>
+		<text x="274.3" y="117.5" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">cos²30° = 3/4</text>
+		<text x="206" y="139" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2/3</text>
+		<text x="206" y="89" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="294" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ANGLE BETWEEN CALCITES</text>
+		<text x="220" y="72" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">P(AGREE)</text>
+		<text x="200" y="286" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">QUANTUM 3/4 · ANY LOCAL CLASSICAL SCHEME ≤ 2/3</text>
+	</g>
+</svg>

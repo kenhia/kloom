@@ -13,7 +13,8 @@ python3 create-tools/wiki-cite/wiki_cite.py --accessed 2026-09-26 "Pantheon, Rom
   `published` date is the revision's date, rendered "Last modified". The
   `accessed` date defaults to today.
 - Redirects and title normalisation are followed, and the canonical title is
-  used. A missing article exits 1.
+  used. A missing article is named on stderr and exits 1,
+  after the citations that were found are printed.
 - Standard library only; it queries the MediaWiki API at en.wikipedia.org.
 
 Read the revision you cite. The citation says you took the facts from that

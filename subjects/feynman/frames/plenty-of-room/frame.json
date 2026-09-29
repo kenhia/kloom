@@ -1,0 +1,145 @@
+{
+	"id": "plenty-of-room",
+	"position": {
+		"label": "1959",
+		"sort": 1959
+	},
+	"scene": {
+		"headline": "He said there was plenty of room at the",
+		"accent": "BOTTOM.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"AMERICAN PHYSICAL SOCIETY · CALTECH · 29 DECEMBER 1959",
+			"ENGINEERING AND SCIENCE · FEBRUARY 1960"
+		],
+		"counter": {
+			"value": "$1,000",
+			"label": "each of two prizes, claimed in 1960 and 1985"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "There's Plenty of Room at the Bottom",
+			"url": "https://calteches.library.caltech.edu/1976/",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "23",
+			"issue": "5",
+			"pages": "22–36",
+			"published": "1960-02",
+			"note": "The pinhead sum is on p. 22; the prizes on p. 36",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Apostolic Succession",
+			"url": "https://calteches.library.caltech.edu/706/",
+			"authors": [
+				{
+					"family": "Toumey",
+					"given": "Chris"
+				}
+			],
+			"container": "Engineering & Science",
+			"volume": "68",
+			"issue": "1/2",
+			"pages": "16–23",
+			"published": "2005",
+			"note": "The citation count and the inventors' replies",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"title": "The World's Smallest Motor",
+			"url": "https://calteches.library.caltech.edu/207/1/themonth.pdf",
+			"container": "Engineering and Science",
+			"published": "1960-12",
+			"note": "McLellan's motor and the unplanned prize",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "web",
+			"title": "The Encyclopedia Britannica on the Head of a Pin?",
+			"url": "https://library.caltech.edu/c.php?g=1245983&p=9125763",
+			"container": "Engineering & Applied Science Exhibits",
+			"publisher": "Caltech Library",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "web",
+			"title": "Stanford writes in world's smallest letters",
+			"url": "https://www.eurekalert.org/news-releases/630333",
+			"publisher": "Stanford University",
+			"container": "EurekAlert!",
+			"published": "2009-01-29",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "There's Plenty of Room at the Bottom",
+			"url": "https://en.wikipedia.org/w/index.php?title=There's_Plenty_of_Room_at_the_Bottom&oldid=1377032390",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tom Newman (scientist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tom_Newman_(scientist)&oldid=1334206610",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-22"
+		},
+		{
+			"kind": "media",
+			"title": "Richard Feynman, about 1960",
+			"url": "https://commons.wikimedia.org/wiki/File:Richard_Feynman_circa_1960.jpg",
+			"authors": [
+				{
+					"name": "Unknown photographer"
+				}
+			],
+			"container": "Photograph in Engineering and Science, February 1960; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "feynman-1960.jpg",
+			"published": "1960",
+			"accessed": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Citations of \"There's Plenty of Room at the Bottom\", by period",
+			"url": "https://calteches.library.caltech.edu/706/",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from Toumey's citation counts in \"Apostolic Succession\" (2005)",
+			"licence": "MIT",
+			"file": "citations.svg",
+			"published": "2026",
+			"accessed": "2026-09-28"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M50 246 L300 246 M50 212 L300 212 M50 178 L300 178 M50 144 L300 144 M50 110 L300 110 M50 76 L300 76 M50 42 L300 42"/>
+		<path pathLength="1" d="M50 246 L50 42 M75 246 L75 42 M100 246 L100 42 M125 246 L125 42 M150 246 L150 42 M175 246 L175 42 M200 246 L200 42 M225 246 L225 42 M250 246 L250 42 M275 246 L275 42 M300 246 L300 42"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M175 178 L75 144 M175 178 L100 144 M175 178 L125 144 M175 178 L150 144 M175 178 L175 144 M175 178 L200 144 M175 178 L225 144 M175 178 L250 144 M175 178 L275 144"/>
+		<path pathLength="1" d="M100 246 L125 212 L175 178 L150 144 L200 110 L200 76 L250 42"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M100 246 L150 212 L175 178 L225 144 L200 110 L225 76 L250 42"/>
+		<path pathLength="1" d="M96.5 246 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M246.5 42 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M147.8 212 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M172.8 178 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M222.8 144 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M197.8 110 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M222.8 76 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M172 178 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M36 260 L314 260"/>
+		<path pathLength="1" d="M309.7 262.5 L314 260 L309.7 257.5"/>
+		<path pathLength="1" d="M36 260 L36 24"/>
+		<path pathLength="1" d="M38.5 28.3 L36 24 L33.5 28.3"/>
+	</g>
+	<g>
+		<text x="200" y="24" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">K(x′, x) ∝ exp(iεL/ħ)</text>
+		<text x="310" y="249" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t</text>
+		<text x="310" y="215" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t+ε</text>
+		<text x="310" y="181" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t+2ε</text>
+		<text x="310" y="147" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t+3ε</text>
+		<text x="310" y="113" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t+4ε</text>
+		<text x="310" y="79" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t+5ε</text>
+		<text x="310" y="45" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t+6ε</text>
+		<text x="310" y="274" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x</text>
+		<text x="28" y="20" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TIME</text>
+		<text x="167" y="191" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x</text>
+		<text x="279" y="138" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x′</text>
+	</g>
+</svg>

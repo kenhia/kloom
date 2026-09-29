@@ -1,0 +1,103 @@
+{
+	"id": "cornell",
+	"position": {
+		"label": "1945",
+		"sort": 1945
+	},
+	"scene": {
+		"headline": "He was sure he was",
+		"accent": "FINISHED.",
+		"palette": "manila",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ITHACA · CORNELL UNIVERSITY · HANS BETHE",
+			"MATHEMATICAL METHODS OF PHYSICS · THE ARABIAN NIGHTS"
+		],
+		"counter": {
+			"value": "$3,900",
+			"label": "a year, Cornell's salary, matching Berkeley's offer"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session III",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-3",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-27",
+			"note": "The move, the first course, the burnout and the offers, in his words of 1966"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "“Surely You're Joking, Mr. Feynman!” Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514629W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Ralph"
+				}
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1985",
+			"note": "“The Dignified Professor” and “Los Alamos from Below”: his telling"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"note": "The offers, their dates and the salary, from Mehra's biography"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hans Bethe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hans_Bethe&oldid=1373073839",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "media",
+			"title": "Hans Bethe's identity-badge photograph at Los Alamos",
+			"url": "https://commons.wikimedia.org/wiki/File:Hans_Bethe_ID_badge.png",
+			"accessed": "2026-09-28",
+			"container": "Wartime identity badge, Los Alamos Laboratory; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "bethe-badge.png",
+			"published": "1943",
+			"circa": true
+		}
+	]
+}

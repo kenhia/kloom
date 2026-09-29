@@ -1,0 +1,164 @@
+{
+	"id": "princeton",
+	"position": {
+		"label": "1939",
+		"sort": 1939
+	},
+	"scene": {
+		"headline": "Princeton asked whether he was",
+		"accent": "JEWISH.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PRINCETON · HENRY SMYTH · JOHN WHEELER",
+			"THE GRADUATE COLLEGE · FRANKFORD ARSENAL · THE ISOTRON"
+		],
+		"counter": {
+			"value": "28",
+			"label": "John Wheeler's age when Feynman arrived"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05",
+			"note": "Arrival, Wheeler, the qualifying exam, Frankford Arsenal and Wilson's project, in his words of 1966"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"note": "The examination scores and the Smyth–Morse letters, citing Gleick"
+		},
+		{
+			"kind": "book",
+			"title": "Genius: The Life and Science of Richard Feynman",
+			"url": "https://openlibrary.org/works/OL15898W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Gleick",
+					"given": "James"
+				}
+			],
+			"publisher": "Pantheon Books",
+			"place": "New York",
+			"published": "1992",
+			"note": "The Smyth–Morse exchange, p. 84, as Wikipedia cites it"
+		},
+		{
+			"kind": "book",
+			"title": "“Surely You're Joking, Mr. Feynman!” Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514629W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Ralph"
+				}
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1985",
+			"note": "The dean's tea that gave the book its title: his telling"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry DeWolf Smyth",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_DeWolf_Smyth&oldid=1374344896",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Archibald Wheeler",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Archibald_Wheeler&oldid=1373518403",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert R. Wilson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_R._Wilson&oldid=1371991005",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frankford Arsenal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frankford_Arsenal&oldid=1373291145",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "media",
+			"title": "The Graduate College, Princeton University, with Cleveland Tower",
+			"url": "https://commons.wikimedia.org/wiki/File:Graduate_College.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Grantluther10"
+				}
+			],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "graduate-college.jpg",
+			"published": "2016"
+		}
+	]
+}

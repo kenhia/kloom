@@ -1,0 +1,28 @@
+{
+	"title": "Citations of \"There's Plenty of Room at the Bottom\" in the scientific literature, by period",
+	"description": "Bar chart. Citations of Feynman's talk found by Chris Toumey in the Science Citation Index: 3 in the 1960s, 4 in the 1970s, and 63 in the thirteen years after Drexler's 1981 paper. Data: Chris Toumey, Apostolic Succession, Engineering & Science 68, no. 1/2 (2005).",
+	"heading": "CITATIONS OF \"PLENTY OF ROOM\"",
+	"unit": "",
+	"axis": {
+		"max": 70,
+		"ticks": [
+			[0, "0"],
+			[20, "20"],
+			[40, "40"],
+			[60, "60"]
+		]
+	},
+	"bars": [
+		{ "label": "1960s", "sublabel": "10 years", "value": 3, "display": "3" },
+		{ "label": "1970s", "sublabel": "10 years", "value": 4, "display": "4" },
+		{
+			"label": "From 1981",
+			"sublabel": "13 years",
+			"value": 63,
+			"display": "63",
+			"highlight": true
+		}
+	],
+	"barWidth": 64,
+	"width": 480
+}

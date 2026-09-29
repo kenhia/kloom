@@ -1,0 +1,33 @@
+{
+	"title": "The muon's magnetic anomaly: measurement minus Standard Model prediction",
+	"description": "Bar chart. The measured magnetic anomaly of the muon minus the Standard Model prediction, in units of 10^-11. In 2021 the Fermilab and Brookhaven average exceeded the 2020 White Paper prediction by 251 ± 59, a tension of 4.2 standard deviations. With the 2025 White Paper prediction, which took the leading hadronic term from a lattice-QCD average, and the final Fermilab average, the difference is 38 ± 63, no tension. Data: Muon g-2 Collaboration, Phys. Rev. Lett. 126, 141801 (2021); Aliberti et al., Phys. Rept. 1143 (2025).",
+	"heading": "MUON g−2 · MEASURED MINUS PREDICTED · UNITS OF 10⁻¹¹",
+	"unit": "",
+	"axis": {
+		"max": 300,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"]
+		]
+	},
+	"bars": [
+		{
+			"label": "2021",
+			"sublabel": "dispersive HVP",
+			"value": 251,
+			"display": "251 ± 59"
+		},
+		{
+			"label": "2025",
+			"sublabel": "lattice HVP",
+			"value": 38,
+			"display": "38 ± 63",
+			"highlight": true
+		}
+	],
+	"barWidth": 64,
+	"width": 400,
+	"height": 280
+}

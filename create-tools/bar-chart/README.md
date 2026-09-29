@@ -38,17 +38,29 @@ source in the citation's `url` and `container`.
 Each spec in `examples/` is the source of one committed chart. Re-running
 all of them reproduces the charts byte for byte:
 
-| Spec                        | Chart                                                        |
-| --------------------------- | ------------------------------------------------------------ |
-| `book-output.json`          | `subjects/western-civ/frames/printing-press/book-output.svg` |
-| `alphazero-search.json`     | `subjects/ai/frames/alphazero/search-speed.svg`              |
-| `dartmouth-budget.json`     | `subjects/ai/frames/dartmouth/budget.svg`                    |
-| `ilsvrc-top5.json`          | `subjects/ai/frames/alexnet/ilsvrc-top5.svg`                 |
-| `metr-time-horizons.json`   | `subjects/ai/frames/capability-evals/time-horizons.svg`      |
-| `mnist-2006.json`           | `subjects/ai/frames/deep-belief-nets/mnist-error.svg`        |
-| `model-parameters.json`     | `subjects/ai/frames/pretraining/model-parameters.svg`        |
-| `sae-dictionary-size.json`  | `subjects/ai/frames/interpretability/dictionary-size.svg`    |
-| `temperature.json`          | `subjects/ai/frames/next-token/temperature.svg`              |
-| `tokens-per-parameter.json` | `subjects/ai/frames/scaling-laws/tokens-per-parameter.svg`   |
-| `training-compute.json`     | `subjects/ai/frames/compute/training-compute.svg`            |
-| `turing-storage.json`       | `subjects/ai/frames/turing-test/turing-storage.svg`          |
+| Spec                              | Chart                                                            |
+| --------------------------------- | ---------------------------------------------------------------- |
+| `book-output.json`                | `subjects/western-civ/frames/printing-press/book-output.svg`     |
+| `alphazero-search.json`           | `subjects/ai/frames/alphazero/search-speed.svg`                  |
+| `feynman-diagrams-per-order.json` | `subjects/feynman/frames/magnetic-moment/diagrams-per-order.svg` |
+| `feynman-glass-reflection.json`   | `subjects/feynman/frames/qed-book/glass-reflection.svg`          |
+| `feynman-ibm-problems.json`       | `subjects/feynman/frames/punched-cards/problems-per-month.svg`   |
+| `feynman-muon-gap.json`           | `subjects/feynman/frames/path-integrals-today/muon-gap.svg`      |
+| `feynman-o-ring-distress.json`    | `subjects/feynman/frames/teleconference/o-ring-distress.svg`     |
+| `feynman-plenty-citations.json`   | `subjects/feynman/frames/plenty-of-room/citations.svg`           |
+| `feynman-roton-gap.json`          | `subjects/feynman/frames/superfluid-helium/roton-gap.svg`        |
+| `feynman-rsa-qubits.json`         | `subjects/feynman/frames/quantum-computing-now/rsa-qubits.svg`   |
+| `feynman-shuttle-odds.json`       | `subjects/feynman/frames/reliability/shuttle-odds.svg`           |
+| `feynman-state-memory.json`       | `subjects/feynman/frames/simulating-physics/state-memory.svg`    |
+| `feynman-trinity-yield.json`      | `subjects/feynman/frames/trinity/yield-estimates.svg`            |
+| `feynman-wobble-ratio.json`       | `subjects/feynman/frames/wobbling-plate/wobble-ratio.svg`        |
+| `dartmouth-budget.json`           | `subjects/ai/frames/dartmouth/budget.svg`                        |
+| `ilsvrc-top5.json`                | `subjects/ai/frames/alexnet/ilsvrc-top5.svg`                     |
+| `metr-time-horizons.json`         | `subjects/ai/frames/capability-evals/time-horizons.svg`          |
+| `mnist-2006.json`                 | `subjects/ai/frames/deep-belief-nets/mnist-error.svg`            |
+| `model-parameters.json`           | `subjects/ai/frames/pretraining/model-parameters.svg`            |
+| `sae-dictionary-size.json`        | `subjects/ai/frames/interpretability/dictionary-size.svg`        |
+| `temperature.json`                | `subjects/ai/frames/next-token/temperature.svg`                  |
+| `tokens-per-parameter.json`       | `subjects/ai/frames/scaling-laws/tokens-per-parameter.svg`       |
+| `training-compute.json`           | `subjects/ai/frames/compute/training-compute.svg`                |
+| `turing-storage.json`             | `subjects/ai/frames/turing-test/turing-storage.svg`              |

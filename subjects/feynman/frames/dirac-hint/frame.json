@@ -1,0 +1,119 @@
+{
+	"id": "dirac-hint",
+	"position": {
+		"label": "Dirac's hint"
+	},
+	"scene": {
+		"headline": "He made Dirac's analogy",
+		"accent": "EQUAL.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PHYSIKALISCHE ZEITSCHRIFT DER SOWJETUNION · 1933",
+			"P. A. M. DIRAC · HERBERT JEHLE · NASSAU TAVERN"
+		],
+		"counter": {
+			"value": "9",
+			"label": "pages in Dirac's paper, 64 to 72"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "The Lagrangian in Quantum Mechanics",
+			"url": "https://www.informationphilosopher.com/solutions/scientists/dirac/Lagrangian_1933.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dirac",
+					"given": "P. A. M."
+				}
+			],
+			"container": "Physikalische Zeitschrift der Sowjetunion",
+			"volume": "3",
+			"issue": "1",
+			"pages": "64–72",
+			"published": "1933",
+			"key": true,
+			"note": "The short-time amplitude “corresponds to” exp(iεL/ħ); the classical limit on p. 69"
+		},
+		{
+			"kind": "web",
+			"title": "The Development of the Space-Time View of Quantum Electrodynamics",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Nobel Lecture, 11 December 1965",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1965-12-11",
+			"key": true,
+			"note": "The Nassau Tavern, Jehle and “analogous”, in his own telling"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05",
+			"note": "The same story told three months after the Nobel lecture"
+		},
+		{
+			"kind": "article",
+			"title": "Dirac and the Path Integral",
+			"url": "https://arxiv.org/abs/2003.12683",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hari Dass",
+					"given": "N. D."
+				}
+			],
+			"container": "arXiv preprint arXiv:2003.12683",
+			"published": "2020-03-28",
+			"key": true,
+			"note": "Whether the two are proportional; quotes Gleick on Dirac’s “Are they?”"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Herbert Jehle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Herbert_Jehle&oldid=1356049762",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-25"
+		},
+		{
+			"kind": "media",
+			"title": "Paul Dirac, photographed in Cambridge in the early 1930s",
+			"url": "https://commons.wikimedia.org/wiki/File:Paul_Dirac,_1933,_head_and_shoulders_portrait,_bw.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Cavendish Laboratory, University of Cambridge"
+				}
+			],
+			"container": "Photograph, via the MacTutor History of Mathematics archive and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "dirac.jpg"
+		}
+	]
+}

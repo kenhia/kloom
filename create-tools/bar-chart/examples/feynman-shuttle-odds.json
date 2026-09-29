@@ -1,0 +1,32 @@
+{
+	"title": "Estimates of the chance of losing a Space Shuttle, 1986, against the record (log scale)",
+	"description": "Bar chart on a logarithmic scale of the odds against losing a shuttle, as 1 in N; a taller bar is a more confident estimate. From Feynman's Appendix F to the Rogers Commission report (1986): solid rockets of all kinds, the range safety officer's count, 1 in 25; mature solid rockets, his estimate, 1 in 50; working engineers, roughly 1 in 100; Marshall engineers on the main engines, 1 in 300; Feynman's own floor for engine surprises, 1 in 500; Rocketdyne engineers on the engines, 1 in 10,000; NASA management, 1 in 100,000. The record of the shuttle program, 1981–2011: 2 losses in 135 flights, about 1 in 68.",
+	"heading": "CHANCE OF LOSING A SHUTTLE · 1 IN N · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"width": 640,
+	"height": 320,
+	"barWidth": 38,
+	"axis": {
+		"min": 10,
+		"max": 1000000,
+		"ticks": [
+			[10, "10"],
+			[100, "100"],
+			[1000, "1,000"],
+			[10000, "10⁴"],
+			[100000, "10⁵"],
+			[1000000, "10⁶"]
+		]
+	},
+	"bars": [
+		{ "label": "All SRBs", "sublabel": "Ullian", "value": 25, "display": "25" },
+		{ "label": "Mature", "sublabel": "solids", "value": 50, "display": "50" },
+		{ "label": "Engineers", "sublabel": "~1%", "value": 100, "display": "100" },
+		{ "label": "Marshall", "sublabel": "engines", "value": 300, "display": "300" },
+		{ "label": "Feynman", "sublabel": "engines", "value": 500, "display": "500" },
+		{ "label": "Rocketdyne", "sublabel": "engines", "value": 10000, "display": "10,000" },
+		{ "label": "Managers", "sublabel": "NASA", "value": 100000, "display": "100,000" },
+		{ "label": "Record", "sublabel": "2 in 135", "value": 67.5, "display": "68", "highlight": true }
+	]
+}

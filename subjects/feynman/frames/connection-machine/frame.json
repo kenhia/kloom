@@ -1,0 +1,124 @@
+{
+	"id": "connection-machine",
+	"position": {
+		"label": "1983",
+		"sort": 1983
+	},
+	"scene": {
+		"headline": "He sized the router's",
+		"accent": "BUFFERS.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THINKING MACHINES · WALTHAM, MASSACHUSETTS",
+			"W. DANIEL HILLIS · CM-1 · 65,536 PROCESSORS"
+		],
+		"counter": {
+			"value": "5",
+			"label": "buffers per router chip; the engineers' analysis said 7"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Richard Feynman and the Connection Machine",
+			"doi": "10.1063/1.881196",
+			"url": "https://longnow.org/essays/richard-feynman-connection-machine/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hillis",
+					"given": "W. Daniel"
+				}
+			],
+			"container": "Physics Today",
+			"volume": "42",
+			"issue": "2",
+			"pages": "78–83",
+			"published": "1989-02",
+			"note": "The router, the buffers, the logarithm and the lattice QCD program, as Hillis remembered them"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Connection Machine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Connection_Machine&oldid=1373290079",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "article",
+			"title": "The Science and Legacy of Richard Phillips Feynman",
+			"url": "https://arxiv.org/abs/1810.07409",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dhar",
+					"given": "Avinash"
+				},
+				{
+					"family": "Patel",
+					"given": "Apoorva D."
+				},
+				{
+					"family": "Wadia",
+					"given": "Spenta R."
+				}
+			],
+			"container": "arXiv preprint arXiv:1810.07409",
+			"published": "2018-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Danny Hillis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Danny_Hillis&oldid=1371983981",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Richard Feynman in the woods of the Robert Treat Paine Estate, 1984",
+			"url": "https://commons.wikimedia.org/wiki/File:RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Tamiko Thiel"
+				}
+			],
+			"container": "Photograph, taken while Feynman and the photographer worked at Thinking Machines on the Connection Machine, Waltham, MA; via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "feynman-1984.jpg",
+			"published": "1984"
+		},
+		{
+			"kind": "media",
+			"title": "Connection Machine CM-1 (1985) at the Computer History Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:Connection_Machine_CM-1_(1985)_-_Computer_History_Museum_(2007-11-10_22.57.53_by_Carlo_Nardone).jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Carlo Nardone"
+				}
+			],
+			"container": "Photograph, Computer History Museum, Mountain View, CA; via Flickr and Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "cm1.jpg",
+			"published": "2007-11-10"
+		}
+	]
+}

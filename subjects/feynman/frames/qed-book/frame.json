@@ -1,0 +1,81 @@
+{
+	"id": "qed-book",
+	"position": { "label": "1985", "sort": 1985 },
+	"scene": {
+		"headline": "He explained light with little",
+		"accent": "ARROWS.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PRINCETON UNIVERSITY PRESS · 1985",
+			"ALIX G. MAUTNER MEMORIAL LECTURES · UCLA 1983 · AUCKLAND 1979"
+		],
+		"counter": {
+			"value": "0–16%",
+			"label": "the light two surfaces of glass reflect; one reflects 4%"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "QED: The Strange Theory of Light and Matter",
+			"url": "https://openlibrary.org/works/OL271757W",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard P." }],
+			"publisher": "Princeton University Press",
+			"place": "Princeton, NJ",
+			"published": "1985",
+			"note": "Partial reflection by glass is the worked example of chapters 1 and 2"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Richard Feynman's Popular Lectures on Quantum Electrodynamics: The 1979 Robb Lectures at Auckland University",
+			"doi": "10.1119/1.18234",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Dudley", "given": "J. M." },
+				{ "family": "Kwan", "given": "A. M." }
+			],
+			"container": "American Journal of Physics",
+			"volume": "64",
+			"issue": "6",
+			"pages": "694–698",
+			"published": "1996-06"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "QED: The Strange Theory of Light and Matter",
+			"url": "https://en.wikipedia.org/w/index.php?title=QED%3A_The_Strange_Theory_of_Light_and_Matter&oldid=1329977939",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-28"
+		},
+		{
+			"kind": "media",
+			"title": "Light reflected by a sheet of glass as the back surface's arrow turns",
+			"url": "https://openlibrary.org/works/OL271757W",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "kloom contributors" }],
+			"container": "Chart drawn for kloom from the rule in Feynman's QED (1985), chapter 1",
+			"licence": "MIT",
+			"file": "glass-reflection.svg",
+			"published": "2026"
+		},
+		{
+			"kind": "media",
+			"title": "A horizontal soap film draining and breaking up",
+			"url": "https://commons.wikimedia.org/wiki/File:Soap_Film.jpg",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "KarlGaff" }],
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "soap-film.jpg",
+			"published": "2025-02-03"
+		}
+	]
+}

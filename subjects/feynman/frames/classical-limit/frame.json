@@ -1,0 +1,125 @@
+{
+	"id": "classical-limit",
+	"position": {
+		"label": "Classical limit"
+	},
+	"scene": {
+		"headline": "Away from the true path, the arrows",
+		"accent": "CANCEL.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"STATIONARY PHASE · FRESNEL 1818 · CORNU 1874",
+			"WHEN THE ACTION IS HUGE COMPARED WITH ħ"
+		],
+		"counter": {
+			"value": "2.7 × 10³²",
+			"label": "radians between a thrown ball’s path and one bent 34 cm"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "The Feynman Lectures on Physics, Vol. II: Mainly Electromagnetism and Matter",
+			"url": "https://www.feynmanlectures.caltech.edu/II_19.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Robert B."
+				},
+				{
+					"family": "Sands",
+					"given": "Matthew"
+				}
+			],
+			"publisher": "Addison-Wesley",
+			"place": "Reading, MA",
+			"published": "1964",
+			"note": "Chapter 19, “The Principle of Least Action”: why quantum mechanics gives it",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "The Lagrangian in Quantum Mechanics",
+			"url": "https://www.informationphilosopher.com/solutions/scientists/dirac/Lagrangian_1933.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Dirac",
+					"given": "P. A. M."
+				}
+			],
+			"container": "Physikalische Zeitschrift der Sowjetunion",
+			"volume": "3",
+			"issue": "1",
+			"pages": "64–72",
+			"published": "1933",
+			"note": "The classical limit by stationary phase, p. 69"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Stationary phase approximation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stationary_phase_approximation&oldid=1353017507",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-07"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Euler spiral",
+			"url": "https://en.wikipedia.org/w/index.php?title=Euler_spiral&oldid=1315489173",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "QED: The Strange Theory of Light and Matter",
+			"url": "https://openlibrary.org/works/OL271757W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"publisher": "Princeton University Press",
+			"place": "Princeton, NJ",
+			"published": "1985",
+			"note": "Chapter 2: the mirror, and the grating"
+		},
+		{
+			"kind": "media",
+			"title": "Alfred Cornu, photographed in the late nineteenth century",
+			"url": "https://commons.wikimedia.org/wiki/File:Alfred_Cornu.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Unknown photographer"
+				}
+			],
+			"container": "Photograph; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "cornu.jpg"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"id": "computing",
+	"title": "Computing",
+	"anchor": "simulating-physics",
+	"spine": {
+		"segments": [
+			{
+				"id": "machines",
+				"title": "Machines",
+				"labelKind": "date",
+				"frames": [
+					"physics-of-computation",
+					"connection-machine",
+					"quantum-computers",
+					"lectures-on-computation",
+					"quantum-computing-now"
+				]
+			}
+		]
+	}
+}

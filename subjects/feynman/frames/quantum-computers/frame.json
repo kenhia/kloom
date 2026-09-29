@@ -1,0 +1,204 @@
+{
+	"id": "quantum-computers",
+	"position": {
+		"label": "1985",
+		"sort": 1985
+	},
+	"scene": {
+		"headline": "He built a computer around a",
+		"accent": "CURSOR.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CLEO/IQEC PLENARY 1984 · OPTICS NEWS · FEBRUARY 1985",
+			"BENNETT · FREDKIN · TOFFOLI · DEUTSCH"
+		],
+		"counter": {
+			"value": "6 × 10⁻¹⁵ s",
+			"label": "one step of his cursor, by his estimate"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Quantum Mechanical Computers",
+			"doi": "10.1364/ON.11.2.000011",
+			"url": "https://www.cs.princeton.edu/courses/archive/fall05/frs119/papers/feynman85_optics_letters.pdf",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Optics News",
+			"volume": "11",
+			"issue": "2",
+			"pages": "11–20",
+			"published": "1985-02",
+			"note": "The reversible gates, the full adder and the cursor Hamiltonian"
+		},
+		{
+			"kind": "article",
+			"title": "Quantum Mechanical Computers",
+			"doi": "10.1007/BF01886518",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Foundations of Physics",
+			"volume": "16",
+			"issue": "6",
+			"pages": "507–531",
+			"published": "1986-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Quantum Theory, the Church–Turing Principle and the Universal Quantum Computer",
+			"doi": "10.1098/rspa.1985.0070",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Deutsch",
+					"given": "David"
+				}
+			],
+			"container": "Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences",
+			"volume": "400",
+			"issue": "1818",
+			"pages": "97–117",
+			"published": "1985-07"
+		},
+		{
+			"kind": "article",
+			"title": "Irreversibility and Heat Generation in the Computing Process",
+			"doi": "10.1147/rd.53.0183",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Landauer",
+					"given": "Rolf"
+				}
+			],
+			"container": "IBM Journal of Research and Development",
+			"volume": "5",
+			"issue": "3",
+			"pages": "183–191",
+			"published": "1961-07"
+		},
+		{
+			"kind": "article",
+			"title": "Logical Reversibility of Computation",
+			"doi": "10.1147/rd.176.0525",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Bennett",
+					"given": "C. H."
+				}
+			],
+			"container": "IBM Journal of Research and Development",
+			"volume": "17",
+			"issue": "6",
+			"pages": "525–532",
+			"published": "1973-11"
+		},
+		{
+			"kind": "article",
+			"title": "Conservative Logic",
+			"doi": "10.1007/BF01857727",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Fredkin",
+					"given": "Edward"
+				},
+				{
+					"family": "Toffoli",
+					"given": "Tommaso"
+				}
+			],
+			"container": "International Journal of Theoretical Physics",
+			"volume": "21",
+			"issue": "3–4",
+			"pages": "219–253",
+			"published": "1982-04"
+		},
+		{
+			"kind": "article",
+			"title": "Quantum Computing 40 Years Later",
+			"url": "https://arxiv.org/abs/2106.10522",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Preskill",
+					"given": "John"
+				}
+			],
+			"container": "arXiv preprint arXiv:2106.10522",
+			"published": "2021-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reversible computing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reversible_computing&oldid=1376474147",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Toffoli gate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Toffoli_gate&oldid=1369583605",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "David Deutsch",
+			"url": "https://en.wikipedia.org/w/index.php?title=David_Deutsch&oldid=1372655672",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "media",
+			"title": "The Fredkin–Toffoli billiard-ball model of an AND gate",
+			"url": "https://commons.wikimedia.org/wiki/File:Toffoli_BilliardBall-en.svg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Д. Ильин"
+				}
+			],
+			"container": "Diagram, vectorised from an earlier drawing on English Wikipedia; via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "billiard.png",
+			"published": "2023-08-15"
+		}
+	]
+}

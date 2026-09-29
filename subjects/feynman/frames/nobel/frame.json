@@ -1,0 +1,206 @@
+{
+	"id": "nobel",
+	"position": {
+		"label": "1965",
+		"sort": 1965
+	},
+	"scene": {
+		"headline": "In Stockholm he told how he went",
+		"accent": "WRONG.",
+		"palette": "manila",
+		"illustration": "scene.svg",
+		"metadata": ["STOCKHOLM · 10–11 DECEMBER 1965", "TOMONAGA · SCHWINGER · FEYNMAN"],
+		"counter": {
+			"value": "3:45 a.m.",
+			"label": "when a reporter's call woke him with the news"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"title": "Nobel Lecture: The Development of the Space-Time View of Quantum Electrodynamics",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
+			"accessed": "2026-09-28",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1965-12-11",
+			"key": true,
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"note": "His account of the dead ends, given in Stockholm"
+		},
+		{
+			"kind": "article",
+			"title": "Richard P. Feynman: Nobel Prizewinner",
+			"url": "https://calteches.library.caltech.edu/2398/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hendrickson",
+					"given": "Tim"
+				},
+				{
+					"family": "Galley",
+					"given": "Stuart"
+				},
+				{
+					"family": "Lamb",
+					"given": "Fred"
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "29",
+			"issue": "2",
+			"pages": "10–12",
+			"published": "1965-11",
+			"key": true,
+			"note": "The day of the announcement, hour by hour"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session IV",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-4",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-28",
+			"note": "His reaction to the prize, in his words of June 1966"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physics 1965",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/summary/",
+			"accessed": "2026-09-28",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach"
+		},
+		{
+			"kind": "web",
+			"title": "Richard P. Feynman's Speech at the Nobel Banquet",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/speech/",
+			"accessed": "2026-09-28",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1965-12-10",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			]
+		},
+		{
+			"kind": "web",
+			"title": "Award Ceremony Speech, Nobel Prize in Physics 1965",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/ceremony-speech/",
+			"accessed": "2026-09-28",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1965-12-10",
+			"authors": [
+				{
+					"family": "Waller",
+					"given": "Ivar"
+				}
+			]
+		},
+		{
+			"kind": "web",
+			"title": "Sin-Itiro Tomonaga – Facts",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/tomonaga/facts/",
+			"accessed": "2026-09-28",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach"
+		},
+		{
+			"kind": "web",
+			"title": "Julian Schwinger – Facts",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/schwinger/facts/",
+			"accessed": "2026-09-28",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach"
+		},
+		{
+			"kind": "article",
+			"title": "Feynman's Lost Lecture: The Motion of Planets Around the Sun",
+			"url": "https://calteches.library.caltech.edu/3822/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Goodstein",
+					"given": "David L."
+				},
+				{
+					"family": "Goodstein",
+					"given": "Judith R."
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "59",
+			"issue": "3",
+			"pages": "14–21",
+			"published": "1996"
+		},
+		{
+			"kind": "book",
+			"title": "“Surely You're Joking, Mr. Feynman!” Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514629W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Ralph"
+				}
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1985",
+			"note": "“Alfred Nobel's Other Mistake”, his telling"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Sin-Itiro Tomonaga at his desk",
+			"url": "https://commons.wikimedia.org/wiki/File:Tomonaga_Shin%27ichiro_1949.JPG",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Asahi Shimbun"
+				}
+			],
+			"container": "Asahi Graph, 4 May 1949; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "tomonaga-1949.jpg",
+			"published": "1949-05-04"
+		}
+	]
+}

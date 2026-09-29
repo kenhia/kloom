@@ -1,0 +1,96 @@
+{
+	"id": "diagrams",
+	"position": {
+		"label": "1949",
+		"sort": 1949
+	},
+	"scene": {
+		"headline": "He turned the algebra into",
+		"accent": "PICTURES.",
+		"palette": "chalkboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PHYSICAL REVIEW 76 · 15 SEPTEMBER 1949",
+			"THE THEORY OF POSITRONS · SPACE-TIME APPROACH TO QED"
+		],
+		"counter": {
+			"value": "1 evening",
+			"label": "for a sum that had taken Slotnick six months"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Space-Time Approach to Quantum Electrodynamics",
+			"doi": "10.1103/PhysRev.76.769",
+			"url": "https://authors.library.caltech.edu/records/ppc9p-p4r89",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "76",
+			"issue": "6",
+			"pages": "769–789",
+			"published": "1949-09-15",
+			"note": "Fig. 1 and equation (4) are on p. 772; the momentum rules on pp. 775–776"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Theory of Positrons",
+			"doi": "10.1103/PhysRev.76.749",
+			"url": "https://authors.library.caltech.edu/records/vysv7-c2b63",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "R. P."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "76",
+			"issue": "6",
+			"pages": "749–759",
+			"published": "1949-09-15",
+			"note": "The positron as an electron running backwards in time"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Development of the Space-Time View of Quantum Electrodynamics",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Nobel Lecture",
+			"publisher": "Nobel Foundation",
+			"place": "Stockholm",
+			"published": "1965-12-11",
+			"note": "Bethe's lecture, the rules found by guessing, and Slotnick"
+		},
+		{
+			"kind": "media",
+			"title": "Rockefeller Hall, the Department of Physics, Cornell University",
+			"url": "https://commons.wikimedia.org/wiki/File:Cornell_University_-_Rockefeller_Hall,_Dept._of_Physics.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Taylor & Carpenter"
+				}
+			],
+			"container": "Hand-coloured postcard, published in Ithaca; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "rockefeller-hall.jpg",
+			"published": "1909"
+		}
+	]
+}

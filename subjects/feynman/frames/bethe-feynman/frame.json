@@ -1,0 +1,100 @@
+{
+	"id": "bethe-feynman",
+	"position": { "label": "1943", "sort": 1943 },
+	"scene": {
+		"headline": "He and Bethe estimated the",
+		"accent": "YIELD.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"T DIVISION · GROUP T-4 · DIFFUSION PROBLEMS",
+			"HANS BETHE · ROBERT SERBER · THE WATER BOILER"
+		],
+		"counter": {
+			"value": "0.10",
+			"label": "the swelling, as a share of the radius, that ends the worked example"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Manhattan District History, Project Y, the Los Alamos Project, Vol. I: Inception until August 1945",
+			"url": "https://www.osti.gov/opennet/manhattan-project-history/publications/LANLMDHProjectYPart1.pdf",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Hawkins", "given": "David" }],
+			"publisher": "Los Alamos Scientific Laboratory",
+			"place": "Los Alamos, NM",
+			"number": "LAMS-2532 (Vol. I)",
+			"published": "1961-12-01",
+			"note": "The efficiency work and the Bethe–Feynman formula are §§5.30–5.36; the “Feynman experiment” §5.61"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Comparison between Historic Nuclear Explosion Yield Formulas",
+			"url": "https://arxiv.org/abs/2103.06209",
+			"accessed": "2026-09-28",
+			"authors": [
+				{ "family": "Lestone", "given": "J. P." },
+				{ "family": "Rosen", "given": "M. D." }
+			],
+			"container": "arXiv preprint arXiv:2103.06209",
+			"published": "2021-01-20",
+			"note": "The formula's published form and its kinship with Frisch–Peierls and Serber; in Nuclear Technology 207 (2021)"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session II",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-2",
+			"accessed": "2026-09-28",
+			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-05"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Project Y",
+			"url": "https://en.wikipedia.org/w/index.php?title=Project_Y&oldid=1372281784",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31",
+			"note": "The Water Boiler and the uranium hydride bomb"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bethe–Feynman formula",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bethe%E2%80%93Feynman_formula&oldid=1233634357",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-07-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Los Alamos Primer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Los_Alamos_Primer&oldid=1369796237",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hans Bethe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hans_Bethe&oldid=1373073839",
+			"accessed": "2026-09-28",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		}
+	]
+}

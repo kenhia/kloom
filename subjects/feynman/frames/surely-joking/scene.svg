@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M133.1 56 L133.1 213 M266.9 56 L266.9 213 M48 142.4 L352 142.4"/>
+		<path pathLength="1" d="M66.1 142.4 a66.9 66.9 0 1 0 133.9 0 a66.9 66.9 0 1 0 -133.9 0"/>
+		<path pathLength="1" d="M200 142.4 a66.9 66.9 0 1 0 133.9 0 a66.9 66.9 0 1 0 -133.9 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 50 L360 50 L360 253 L40 253 Z"/>
+		<path pathLength="1" d="M84 253 L100 223 L300 223 L316 253"/>
+		<path pathLength="1" d="M157.1 122.4 L242.9 122.4 L242.9 162.4 L157.1 162.4 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M72.5 142.4 a60.6 60.6 0 1 0 121.1 0 a60.6 60.6 0 1 0 -121.1 0"/>
+		<path pathLength="1" d="M99.1 142.4 a33.9 33.9 0 1 0 67.9 0 a33.9 33.9 0 1 0 -67.9 0"/>
+		<path pathLength="1" d="M167 142.4 L163 142.4 M150 171.8 L148 168.4 M116.1 171.8 L118.1 168.4 M99.1 142.4 L103.1 142.4 M116.1 113 L118.1 116.5 M150 113 L148 116.5"/>
+		<path pathLength="1" d="M225.5 142.4 a41.4 41.4 0 1 0 82.9 0 a41.4 41.4 0 1 0 -82.9 0"/>
+		<path pathLength="1" d="M233 142.4 a33.9 33.9 0 1 0 67.9 0 a33.9 33.9 0 1 0 -67.9 0"/>
+		<path pathLength="1" d="M300.9 142.4 L296.9 142.4 M283.9 171.8 L281.9 168.4 M250 171.8 L252 168.4 M233 142.4 L237 142.4 M250 113 L252 116.5 M283.9 113 L281.9 116.5"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M72.9 136 L62 237 L338 237 L306.7 130.7"/>
+		<path pathLength="1" d="M62 233 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M330 233 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M278.5 244 a3.5 3.5 0 1 0 7 0 a3.5 3.5 0 1 0 -7 0"/>
+		<path pathLength="1" d="M276 231 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0"/>
+		<path pathLength="1" d="M188 238 L212 238 L209 253 L191 253 Z"/>
+		<path pathLength="1" d="M140 265 L260 265"/>
+		<path pathLength="1" d="M256.5 267 L260 265 L256.5 263"/>
+	</g>
+	<g>
+		<text x="133.1" y="42" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SUPPLY</text>
+		<text x="266.9" y="42" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TAKE-UP</text>
+		<text x="200" y="281" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HEAD · CAPSTAN · 1⅞ IN/S</text>
+		<text x="200" y="24" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A VOICE ON TAPE, TOLD AND RETOLD</text>
+	</g>
+</svg>

@@ -1,0 +1,143 @@
+{
+	"id": "surely-joking",
+	"position": {
+		"label": "1985",
+		"sort": 1985
+	},
+	"scene": {
+		"headline": "He told his life in",
+		"accent": "ANECDOTES.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"W. W. NORTON · 1985 · RALPH LEIGHTON · EDWARD HUTCHINGS",
+			"TAPES · DRUMS · A SURPRISE BEST-SELLER"
+		],
+		"counter": {
+			"value": "7 years",
+			"label": "of drumming, over which Leighton collected the stories"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "“Surely You're Joking, Mr. Feynman!” Adventures of a Curious Character",
+			"url": "https://openlibrary.org/works/OL514629W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Ralph"
+				}
+			],
+			"editors": [
+				{
+					"family": "Hutchings",
+					"given": "Edward"
+				}
+			],
+			"publisher": "W. W. Norton",
+			"place": "New York",
+			"published": "1985",
+			"note": "Leighton's preface, Hibbs's introduction, and the chapters named here"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Jaguar and the Fox",
+			"url": "https://www.theatlantic.com/magazine/archive/2000/07/the-jaguar-and-the-fox/378264/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Johnson",
+					"given": "George"
+				}
+			],
+			"container": "The Atlantic",
+			"published": "2000-07",
+			"note": "The book's reception, and Gell-Mann's threat to sue"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Surely You're Joking, Mr. Feynman!",
+			"url": "https://en.wikipedia.org/w/index.php?title=Surely_You're_Joking,_Mr._Feynman%21&oldid=1367443773",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "web",
+			"title": "The Feynman Tapes, Volume 1",
+			"url": "https://kongar-olondar.bandcamp.com/album/the-feynman-tapes-volume-1",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				},
+				{
+					"family": "Leighton",
+					"given": "Ralph"
+				}
+			],
+			"container": "TuvaMuch Records",
+			"published": "2013-05-11"
+		},
+		{
+			"kind": "web",
+			"title": "Male Scientists, Don't Harass Young Female Colleagues",
+			"url": "https://www.cnn.com/2014/08/09/opinion/urry-women-science",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Urry",
+					"given": "Meg"
+				}
+			],
+			"container": "CNN",
+			"published": "2014-08-09"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session I",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-1",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-03-04"
+		}
+	]
+}

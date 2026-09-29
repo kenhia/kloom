@@ -1,0 +1,168 @@
+{
+	"id": "gweneth",
+	"position": {
+		"label": "1960",
+		"sort": 1960
+	},
+	"scene": {
+		"headline": "He met Gweneth on a beach at",
+		"accent": "GENEVA.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": ["GENEVA · ALTADENA · PASADENA", "GWENETH HOWARTH · CARL · MICHELLE"],
+		"counter": {
+			"value": "$20",
+			"label": "a week, the wage he offered her to keep his house"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Interview of Richard Feynman by Charles Weiner, Session IV",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-4",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1966-06-28",
+			"note": "Meeting her in Geneva, and his son's age, in his words of 1966"
+		},
+		{
+			"kind": "article",
+			"title": "Richard P. Feynman: Nobel Prizewinner",
+			"url": "https://calteches.library.caltech.edu/2398/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hendrickson",
+					"given": "Tim"
+				},
+				{
+					"family": "Galley",
+					"given": "Stuart"
+				},
+				{
+					"family": "Lamb",
+					"given": "Fred"
+				}
+			],
+			"container": "Engineering and Science",
+			"volume": "29",
+			"issue": "2",
+			"pages": "10–12",
+			"published": "1965-11"
+		},
+		{
+			"kind": "article",
+			"title": "Capturing the Wisdom of Feynman",
+			"doi": "10.1063/1.1955479",
+			"url": "https://physicstoday.aip.org/features/capturing-the-wisdom-of-feynman",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Sands",
+					"given": "Matthew"
+				}
+			],
+			"container": "Physics Today",
+			"volume": "58",
+			"issue": "4",
+			"pages": "49–55",
+			"published": "2005-04"
+		},
+		{
+			"kind": "web",
+			"title": "Richard P. Feynman – Biographical",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/biographical/",
+			"accessed": "2026-09-28",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach"
+		},
+		{
+			"kind": "book",
+			"title": "Genius: The Life and Science of Richard Feynman",
+			"url": "https://openlibrary.org/works/OL15898W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Gleick",
+					"given": "James"
+				}
+			],
+			"publisher": "Pantheon Books",
+			"place": "New York",
+			"published": "1992",
+			"note": "pp. 339–347, the source Wikipedia gives for the courtship"
+		},
+		{
+			"kind": "article",
+			"title": "An Outsider's Inside View of the Challenger Inquiry",
+			"doi": "10.1063/1.881143",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "Physics Today",
+			"volume": "41",
+			"issue": "2",
+			"pages": "26–37",
+			"published": "1988-02"
+		},
+		{
+			"kind": "web",
+			"title": "Interview of Richard Feynman by Charles Weiner, Session V",
+			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-5",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
+			"container": "Oral History Interviews, Niels Bohr Library & Archives",
+			"publisher": "American Institute of Physics",
+			"place": "College Park, MD",
+			"published": "1973-02-04"
+		},
+		{
+			"kind": "media",
+			"title": "The Huntington Hotel, Pasadena: northwest elevation",
+			"url": "https://commons.wikimedia.org/wiki/File:Huntington_Hotel,_1401_South_Oak_Knoll_Avenue,_Pasadena,_Los_Angeles_County,_CA_HABS_CAL,19-PASA,12-_(sheet_11_of_15).png",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Serena Yee"
+				}
+			],
+			"container": "Measured drawing for the Historic American Buildings Survey (HABS CA-2251, sheet 11 of 15), Library of Congress; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "huntington-hotel.png",
+			"published": "1987"
+		}
+	]
+}

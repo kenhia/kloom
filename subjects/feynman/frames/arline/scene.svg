@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M-32.2 280.5 L-32.2 10.8"/>
+		<path pathLength="1" d="M23.1 280.5 L23.1 10.8"/>
+		<path pathLength="1" d="M78.4 280.5 L78.4 10.8"/>
+		<path pathLength="1" d="M133.6 280.5 L133.6 10.8"/>
+		<path pathLength="1" d="M188.9 280.5 L188.9 10.8"/>
+		<path pathLength="1" d="M244.2 280.5 L244.2 10.8"/>
+		<path pathLength="1" d="M299.5 280.5 L299.5 10.8"/>
+		<path pathLength="1" d="M354.8 280.5 L354.8 10.8"/>
+		<path pathLength="1" d="M410.1 280.5 L410.1 10.8"/>
+		<path pathLength="1" d="M23.1 237 L343.8 237"/>
+		<path pathLength="1" d="M23.1 164.5 L343.8 164.5"/>
+		<path pathLength="1" d="M23.1 92 L343.8 92"/>
+		<path pathLength="1" d="M23.1 19.5 L343.8 19.5"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M298.4 61.4 L228 50.3 L114.8 243.5"/>
+		<path pathLength="1" d="M295.2 61.4 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M95.3 135.9 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M224.8 50.3 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M111.6 243.5 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M98.5 135.9 L114.8 243.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M262 256 L304 256"/>
+		<path pathLength="1" d="M262 252 L262 260 M304 252 L304 260 M283 253 L283 259"/>
+		<path pathLength="1" d="M362 70 L362 34"/>
+		<path pathLength="1" d="M365 39.2 L362 34 L359 39.2"/>
+	</g>
+	<g>
+		<text x="292.4" y="51.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FAR ROCKAWAY</text>
+		<text x="90.5" y="138.9" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PRINCETON</text>
+		<text x="230" y="40.3" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STATEN ISLAND</text>
+		<text x="122.8" y="246.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DEBORAH</text>
+		<text x="98.7" y="189.7" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">26 MI</text>
+		<text x="283" y="270" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10 MI</text>
+		<text x="362" y="84" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N</text>
+		<text x="200" y="292" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AS THE CROW FLIES · 29 JUNE 1942</text>
+	</g>
+</svg>

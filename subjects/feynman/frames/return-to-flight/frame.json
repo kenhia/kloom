@@ -1,0 +1,132 @@
+{
+	"id": "return-to-flight",
+	"position": {
+		"label": "1988–2003",
+		"sort": 1988
+	},
+	"scene": {
+		"headline": "The joint was fixed, but the pattern",
+		"accent": "RETURNED.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"STS-26 · DISCOVERY · 29 SEPTEMBER 1988",
+			"REDESIGNED SOLID ROCKET MOTOR · COLUMBIA ACCIDENT INVESTIGATION BOARD"
+		],
+		"counter": {
+			"value": "975",
+			"label": "days without a shuttle flight after Challenger"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Implementation of the Recommendations of the Presidential Commission on the Space Shuttle Challenger Accident: Report to the President",
+			"url": "https://history.nasa.gov/rogersrep/v6ch1.htm",
+			"accessed": "2026-09-28",
+			"container": "Part 1, Recommendation I: Design",
+			"publisher": "National Aeronautics and Space Administration",
+			"place": "Washington, DC",
+			"published": "1987-06",
+			"note": "The redesigned field joint, figures 2 and 3"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Columbia Accident Investigation Board Report, Volume I",
+			"url": "https://www.nasa.gov/wp-content/uploads/2025/04/caib-report.pdf",
+			"accessed": "2026-09-28",
+			"publisher": "Columbia Accident Investigation Board",
+			"place": "Washington, DC",
+			"published": "2003-08",
+			"note": "Chapter 8, “History as Cause”, and the normalization of deviance, p. 130"
+		},
+		{
+			"kind": "book",
+			"title": "The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA",
+			"url": "https://openlibrary.org/works/OL2962391W",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Vaughan",
+					"given": "Diane"
+				}
+			],
+			"publisher": "University of Chicago Press",
+			"place": "Chicago",
+			"published": "1996"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "STS-26",
+			"url": "https://en.wikipedia.org/w/index.php?title=STS-26&oldid=1369858613",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Space Shuttle Solid Rocket Booster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Space_Shuttle_Solid_Rocket_Booster&oldid=1375891095",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Columbia Accident Investigation Board",
+			"url": "https://en.wikipedia.org/w/index.php?title=Columbia_Accident_Investigation_Board&oldid=1352934603",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Normalization of deviance",
+			"url": "https://en.wikipedia.org/w/index.php?title=Normalization_of_deviance&oldid=1362313767",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "media",
+			"title": "Discovery lifting off on STS-26, the return to flight, from pad 39B",
+			"url": "https://commons.wikimedia.org/wiki/File:STS-26_launch.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "NASA"
+				}
+			],
+			"container": "NASA photograph, Kennedy Space Center, 29 September 1988; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "sts-26-launch.jpg",
+			"published": "1988-09-29"
+		}
+	]
+}
