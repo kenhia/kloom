@@ -1,0 +1,37 @@
+{
+	"title": "Hours taken in the Census Office's 1888 trial of tabulating methods, on 1880 returns from four districts of St. Louis",
+	"description": "Bar chart, hours. Capturing the data: the two rival methods took 144.5 and 100.5 hours, Hollerith's punched cards 72.5 hours. Preparing it for tabulation: the rivals took 44.5 and 55.5 hours, Hollerith's machine 5.5 hours. Data: U.S. Census Bureau, The Hollerith Machine.",
+	"heading": "1888 TRIAL · HOURS, ST. LOUIS RETURNS",
+	"unit": " h",
+	"axis": {
+		"max": 150,
+		"ticks": [
+			[0, "0"],
+			[50, "50"],
+			[100, "100"],
+			[150, "150"]
+		]
+	},
+	"bars": [
+		{ "label": "Rival", "sublabel": "capture", "value": 144.5, "display": "144.5" },
+		{ "label": "Rival", "sublabel": "capture", "value": 100.5, "display": "100.5" },
+		{
+			"label": "Hollerith",
+			"sublabel": "capture",
+			"value": 72.5,
+			"display": "72.5",
+			"highlight": true
+		},
+		{ "label": "Rival", "sublabel": "tabulate", "value": 44.5, "display": "44.5" },
+		{ "label": "Rival", "sublabel": "tabulate", "value": 55.5, "display": "55.5" },
+		{
+			"label": "Hollerith",
+			"sublabel": "tabulate",
+			"value": 5.5,
+			"display": "5.5",
+			"highlight": true
+		}
+	],
+	"barWidth": 44,
+	"width": 480
+}

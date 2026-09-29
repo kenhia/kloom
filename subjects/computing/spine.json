@@ -5,6 +5,12 @@
 			"title": "Counting and gears",
 			"labelKind": "date",
 			"frames": ["abacus", "antikythera", "logarithms"]
+		},
+		{
+			"id": "cards-relays",
+			"title": "Cards, gears and relays",
+			"labelKind": "date",
+			"frames": ["hollerith", "differential-analyzer", "z3"]
 		}
 	]
 }

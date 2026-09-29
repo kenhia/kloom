@@ -1,0 +1,178 @@
+{
+	"id": "z3",
+	"position": {
+		"label": "1941",
+		"sort": 1941
+	},
+	"scene": {
+		"headline": "We programmed relays with",
+		"accent": "FILM.",
+		"palette": "walnut",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERLIN · KONRAD ZUSE · 12 MAY 1941",
+			"TELEPHONE RELAYS · BINARY FLOATING POINT · PUNCHED FILM"
+		],
+		"counter": {
+			"value": "3 seconds",
+			"label": "for one multiplication: sixteen cycles of its clock"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Konrad Zuse’s Legacy: The Architecture of the Z1 and Z3",
+			"url": "http://ed-thelen.org/comp-hist/Zuse_Z1_and_Z3.pdf",
+			"accessed": "2026-09-28",
+			"doi": "10.1109/85.586067",
+			"authors": [
+				{
+					"family": "Rojas",
+					"given": "Raúl"
+				}
+			],
+			"container": "IEEE Annals of the History of Computing",
+			"volume": "19",
+			"issue": "2",
+			"pages": "5–16",
+			"published": "1997",
+			"note": "The word format and the instruction set, with opcodes and cycles, on p. 7"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "How to Make Zuse’s Z3 a Universal Computer",
+			"url": "http://www.inf.fu-berlin.de/inst/ag-ki/rojas_home/documents/1997/Universal_Computer.pdf",
+			"accessed": "2026-09-28",
+			"doi": "10.1109/85.707574",
+			"authors": [
+				{
+					"family": "Rojas",
+					"given": "Raúl"
+				}
+			],
+			"container": "IEEE Annals of the History of Computing",
+			"volume": "20",
+			"issue": "3",
+			"pages": "51–54",
+			"published": "1998",
+			"note": "Read in the author’s preprint of 5 September 1997"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Z3 (computer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Z3_(computer)&oldid=1358835257",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Konrad Zuse",
+			"url": "https://en.wikipedia.org/w/index.php?title=Konrad_Zuse&oldid=1372020235",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Z1 (computer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Z1_(computer)&oldid=1371140384",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Z4 (computer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Z4_(computer)&oldid=1358557971",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plankalkül",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plankalk%C3%BCl&oldid=1371795752",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Stibitz",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Stibitz&oldid=1372634322",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "media",
+			"title": "The program tape punch of Zuse’s Z1, as rebuilt in the 1980s",
+			"url": "https://commons.wikimedia.org/wiki/File:Zuse_Z1_Replica,_Berlin_-_Flickr_-_AlexJLowry.jpg",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Alex J. Lowry"
+				}
+			],
+			"container": "Photograph at the Deutsches Technikmuseum, Berlin, via Flickr and Wikimedia Commons",
+			"licence": "CC0",
+			"file": "z1.jpg",
+			"published": "2024-10-11"
+		},
+		{
+			"kind": "media",
+			"title": "The 1961 replica of the Z3",
+			"url": "https://commons.wikimedia.org/wiki/File:Z3_Deutsches_Museum.JPG",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Venusianer"
+				}
+			],
+			"container": "Photograph at the Deutsches Museum, Munich, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "z3.jpg",
+			"published": "2006-09-20"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"title": "Time to compute one 60-second artillery trajectory: by hand, on the Bush differential analyzer, and on ENIAC",
+	"description": "Bar chart on a logarithmic scale, seconds. A skilled person with a desk calculator took about 20 hours (72,000 seconds); the Bush differential analyzer about 15 minutes (900 seconds); ENIAC about 30 seconds. Data: William T. Moye, ENIAC: The Army-Sponsored Revolution (Army Research Laboratory, 1996).",
+	"heading": "ONE 60-SECOND TRAJECTORY · SECONDS, LOG SCALE",
+	"unit": " s",
+	"scale": "log",
+	"axis": {
+		"min": 10,
+		"max": 100000,
+		"ticks": [
+			[10, "10 s"],
+			[100, "100 s"],
+			[1000, "1,000 s"],
+			[10000, "10⁴ s"],
+			[100000, "10⁵ s"]
+		]
+	},
+	"bars": [
+		{ "label": "By hand", "sublabel": "desk calculator", "value": 72000, "display": "20 h" },
+		{
+			"label": "Analyzer",
+			"sublabel": "Bush type",
+			"value": 900,
+			"display": "15 min",
+			"highlight": true
+		},
+		{ "label": "ENIAC", "sublabel": "1946", "value": 30, "display": "30 s" }
+	],
+	"barWidth": 64,
+	"width": 480
+}

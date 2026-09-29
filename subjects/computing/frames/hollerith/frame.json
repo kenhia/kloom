@@ -1,0 +1,207 @@
+{
+	"id": "hollerith",
+	"position": {
+		"label": "1890",
+		"sort": 1890
+	},
+	"scene": {
+		"headline": "We tallied a nation on",
+		"accent": "CARDS.",
+		"palette": "walnut",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WASHINGTON · HERMAN HOLLERITH · THE CENSUS OFFICE",
+			"PUNCHED CARDS · MERCURY CUPS · ELECTRIC COUNTERS"
+		],
+		"counter": {
+			"value": "5.5 hours",
+			"label": "Hollerith’s tabulating time in the 1888 trial, against 44.5 and 55.5"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Hollerith Machine",
+			"url": "https://www.census.gov/about/history/bureau-history/census-innovations/technology/hollerith-machine.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "U.S. Census Bureau"
+				}
+			],
+			"container": "Census Bureau Innovations",
+			"publisher": "U.S. Census Bureau",
+			"published": "2024-08-14",
+			"note": "The 1888 trial and the parts of the 1890 tabulator"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Electric Tabulating System",
+			"url": "http://www.columbia.edu/cu/computinghistory/hh/index.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"family": "Hollerith",
+					"given": "Herman"
+				}
+			],
+			"container": "The Quarterly, Columbia University School of Mines",
+			"volume": "10",
+			"issue": "16",
+			"pages": "238–255",
+			"published": "1889-04",
+			"note": "Read in Frank da Cruz’s transcription for Columbia University Computing History"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Tabulating machine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tabulating_machine&oldid=1357272297",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-01"
+		},
+		{
+			"kind": "web",
+			"title": "Tabulation and Processing",
+			"url": "https://www.census.gov/about/history/bureau-history/census-innovations/technology/tabulation-and-processing.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "U.S. Census Bureau"
+				}
+			],
+			"container": "Census Bureau Innovations",
+			"publisher": "U.S. Census Bureau",
+			"published": "2024-10-09"
+		},
+		{
+			"kind": "web",
+			"title": "Early Census Processing and the Seaton Device",
+			"url": "https://www.census.gov/about/history/bureau-history/census-innovations/technology/early-census-processing-and-the-seaton-device.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "U.S. Census Bureau"
+				}
+			],
+			"container": "Census Bureau Innovations",
+			"publisher": "U.S. Census Bureau",
+			"published": "2024-08-14"
+		},
+		{
+			"kind": "web",
+			"title": "Notable Alumni: Herman Hollerith",
+			"url": "https://www.census.gov/library/photos/1880/herman-hollerith.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "U.S. Census Bureau"
+				}
+			],
+			"container": "Census Bureau Library",
+			"publisher": "U.S. Census Bureau",
+			"published": "2025-02-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Herman Hollerith",
+			"url": "https://en.wikipedia.org/w/index.php?title=Herman_Hollerith&oldid=1340206722",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-24",
+			"note": "Quoting Carroll D. Wright’s report of 1895 on the eleventh census"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1890 United States census",
+			"url": "https://en.wikipedia.org/w/index.php?title=1890_United_States_census&oldid=1375281694",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Punched card",
+			"url": "https://en.wikipedia.org/w/index.php?title=Punched_card&oldid=1375205035",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Computing-Tabulating-Recording Company",
+			"url": "https://en.wikipedia.org/w/index.php?title=Computing-Tabulating-Recording_Company&oldid=1377253344",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "A Hollerith punched card of twelve rows and twenty-four columns, as printed in 1895",
+			"url": "https://commons.wikimedia.org/wiki/File:Hollerith_Punched_Card.jpg",
+			"accessed": "2026-09-28",
+			"container": "Library of Congress, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "card.jpg",
+			"published": "1895"
+		},
+		{
+			"kind": "media",
+			"title": "Clerks at Hollerith’s electrical counting machines for the 1890 census",
+			"url": "https://commons.wikimedia.org/wiki/File:1890_Census_Hollerith_Electrical_Counting_Machines_Sci_Amer.jpg",
+			"accessed": "2026-09-28",
+			"container": "Scientific American, 30 August 1890, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "sciam.jpg",
+			"published": "1890-08-30"
+		},
+		{
+			"kind": "media",
+			"title": "Hours taken in the Census Office’s 1888 trial of tabulating methods",
+			"url": "https://www.census.gov/about/history/bureau-history/census-innovations/technology/hollerith-machine.html",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"container": "Chart drawn for kloom from U.S. Census Bureau, The Hollerith Machine",
+			"licence": "MIT",
+			"file": "census-trial.svg",
+			"published": "2026"
+		}
+	]
+}
