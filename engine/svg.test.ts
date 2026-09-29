@@ -4,7 +4,9 @@ import { describe, expect, it } from 'vitest';
 import { sanitiseSvg } from './svg';
 
 // Every drawing in every subject: the curated bar grow is written against.
-const subjects = join(import.meta.dirname, '..', 'subjects');
+// KLOOM_TEST_SUBJECTS points at another directory of subjects: a copy holding only
+// finished frames, from subject_plan.py --complete, while authors are mid-write.
+const subjects = process.env.KLOOM_TEST_SUBJECTS || join(import.meta.dirname, '..', 'subjects');
 const curated = readdirSync(subjects)
 	.filter((s) => !s.startsWith('.'))
 	.flatMap((s) =>

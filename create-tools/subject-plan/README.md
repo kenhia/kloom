@@ -20,6 +20,13 @@ npx prettier --write subjects/ai
 - `--check` writes nothing. It counts the frames written and lists the
   planned frames still to write, plus any frame directory the plan does not
   name.
+- `--complete DIR` writes a copy of the subject at `DIR/<subject>` holding
+  only the frames that have a `frame.json`, with its spine and trails. With
+  several authors at work, the live subject fails validation on whoever is
+  mid-frame; this lets one author check their own finished frames:
+  `KLOOM_TEST_SUBJECTS=DIR npx vitest --run engine/subjects.test.ts engine/svg.test.ts`
+  (the two tests read their subjects from `$KLOOM_TEST_SUBJECTS` when it is
+  set). Sprint 014's authors each improvised this.
 - Its JSON is not Prettier's layout, so run Prettier over the subject
   afterwards.
 - Standard library only.
