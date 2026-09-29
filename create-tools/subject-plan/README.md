@@ -39,3 +39,7 @@ npx prettier --write subjects/ai
 `ai.json` is the plan for `subjects/ai`. Once every frame is written, the
 plan and the subject's own files say the same thing. Grow edits
 `spine.json` directly and never reads a plan.
+
+`prose_words.py SUBJECT_DIR [FRAME …]` counts each reading's prose as the
+grow skill counts it (not tables, image lines, chart lines or headings), marks those
+outside 550–900 (`--min`, `--max`), and exits 1 if any is (sprint 015).
