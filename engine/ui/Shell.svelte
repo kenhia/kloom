@@ -4,6 +4,7 @@
 	import type { Anchor } from '../anchor';
 	import type { Frame, Subject, Trail } from '../model';
 	import type { JumpItem, Note, ReaderLayer } from '../reader-data';
+	import { contentsOf, openTrails } from '../contents';
 	import { clamp, indexLabel, stops, WheelGate, type SyncMode } from '../navigation';
 	import { keyClashes, keyName, pageKey, SHORTCUTS, tabKey } from '../keys';
 	import { marksText, type FrameMarks } from '../marks';
@@ -29,6 +30,7 @@
 	import type { UserSettings } from '../user-settings.svelte';
 	import AiPane from './AiPane.svelte';
 	import Bookmarks from './Bookmarks.svelte';
+	import Contents from './Contents.svelte';
 	import Narrative, { type AnnotationOffer, type QaOffer } from './Narrative.svelte';
 	import NoteEditor from './NoteEditor.svelte';
 	import Notes from './Notes.svelte';
@@ -58,6 +60,8 @@
 		layer?: ReaderLayer | null;
 		/** Back to the start screen (the Home button, left of the gear); none without it. */
 		onhome?: () => void;
+		/** A frame's own address, for the contents' links; the page resolves it. */
+		hrefOf?: (frame: string) => string;
 	}
 
 	/** What the page offers for bookmarks: the frames marked, the jump list, and the writes. */
@@ -80,7 +84,8 @@
 		onplace,
 		bookmarks = null,
 		layer = null,
-		onhome
+		onhome,
+		hrefOf
 	}: Props = $props();
 
 	let trailId = $state<string | null>(null);
@@ -182,6 +187,9 @@
 		sync === 'follow' || !pinned ? frame : (subject.frames[pinned] ?? frame)
 	);
 	const trailsFrom = (id: string) => subject.trails.filter((t) => t.anchor === id);
+	/** The table of contents (§Contents, korg 3433): rebuilt when a grow adds frames. */
+	const contents = $derived(contentsOf(subject));
+	let contentsEl = $state<ReturnType<typeof Contents>>();
 	const branches = $derived(new Set(trail ? [] : subject.trails.map((t) => t.anchor)));
 	const marked = $derived(bookmarks?.marked ?? new Set<string>());
 	/** Notes per frame, for the marks and the tab. */
@@ -374,7 +382,8 @@
 				trail: 'trail',
 				bookmark: 'bookmark',
 				note: 'note',
-				annotate: 'annotate'
+				annotate: 'annotate',
+				contents: 'contents'
 			}[s.action]
 		}))
 	);
@@ -553,6 +562,9 @@
 				if (!layer) return;
 				annotate();
 				break;
+			case 'contents':
+				contentsEl?.show();
+				break;
 			default:
 				return;
 		}
@@ -617,6 +629,16 @@
 			bind:slider
 		>
 			{#snippet tools()}
+				<Contents
+					{contents}
+					current={frame.id}
+					startOpen={openTrails(subject, frame.id, trailId)}
+					{marksOf}
+					{hrefOf}
+					key={shown(keys.contents)}
+					onjump={goTo}
+					bind:this={contentsEl}
+				/>
 				{#if bookmarks}
 					<Bookmarks
 						marked={marked.has(frame.id)}

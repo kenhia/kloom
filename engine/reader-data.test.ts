@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { LABEL_MAX, parseExport, recordOf } from './reader-data';
+import { LABEL_MAX, newerPlaces, parseExport, recordOf, type Place } from './reader-data';
 
 const good = {
 	kloom: 'reader-data',
@@ -99,5 +99,29 @@ describe('an export file', () => {
 		expect(parseExport([])).toMatchObject({ error: 'not a kloom reader-data export' });
 		expect(parseExport({ ...good, version: 4 })).toEqual({ error: 'unknown version 4' });
 		expect(parseExport({ ...good, places: 'x' })).toMatchObject({ error: /lists/ });
+	});
+});
+
+describe('places kept on the page', () => {
+	const at = (subject: string, frame: string, when: string): Place => ({
+		subject,
+		frame,
+		label: frame,
+		at: `2026-09-29T10:00:${when}.000Z`
+	});
+
+	it('keeps the newer place per subject, from either copy', () => {
+		const page = { a: at('a', 'moved', '30'), b: at('b', 'old', '10') };
+		const loaded = { a: at('a', 'stale', '20'), b: at('b', 'new', '40'), c: at('c', 'only', '00') };
+		expect(newerPlaces(page, loaded)).toEqual({
+			a: page.a,
+			b: loaded.b,
+			c: loaded.c
+		});
+	});
+
+	it('prefers the fresh load when the two agree on the time', () => {
+		const loaded = { a: { ...at('a', 'x', '30'), label: 'renamed' } };
+		expect(newerPlaces({ a: at('a', 'x', '30') }, loaded).a.label).toBe('renamed');
 	});
 });

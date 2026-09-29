@@ -1,7 +1,15 @@
 <script lang="ts">
 	import { onMount, untrack } from 'svelte';
 	import type { Frame } from '$engine/model';
-	import type { Bookmark, JumpItem, Kept, Note, ReaderLayer } from '$engine/reader-data';
+	import {
+		newerPlaces,
+		type Bookmark,
+		type JumpItem,
+		type Kept,
+		type Note,
+		type Place,
+		type ReaderLayer
+	} from '$engine/reader-data';
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
 	import { beforeNavigate, goto, invalidateAll, replaceState } from '$app/navigation';
@@ -20,6 +28,7 @@
 	import { UserSettings } from '$engine/user-settings.svelte';
 	import { inscription, loomCredit } from '$lib/start/credit';
 	import type { PageProps } from './$types';
+	import type { Placed } from './+page.server';
 
 	let { data }: PageProps = $props();
 
@@ -195,6 +204,11 @@
 	// shared, and kept as their place a moment after they stop moving.
 	let current = $state<Frame | null>(null);
 	let placeTimer: ReturnType<typeof setTimeout> | undefined;
+	// Each subject's place as the reader's store has it (korg 3432): loaded
+	// with the page, and moved here at once as the reader moves, so the start
+	// screen never waits on the write. A later load keeps whichever is newer.
+	let moved = $state<Record<string, Placed<Place>>>({});
+	const places = $derived(newerPlaces(moved, data.readerData?.places ?? {}));
 	$effect(() => {
 		const f = current;
 		if (!started || !f) return;
@@ -203,9 +217,15 @@
 			const href = frameHref(subject, f.id);
 			if (location.pathname !== href) replaceState(href, {});
 			if (!data.reader) return;
+			const label = titleOf(f);
+			const at = new Date().toISOString();
+			moved = {
+				...moved,
+				[subject]: { subject, frame: f.id, label, at, subjectTitle: here.title }
+			};
 			clearTimeout(placeTimer);
 			placeTimer = setTimeout(() => {
-				write(resolve('/api/reader/place'), 'POST', { subject, frame: f.id, label: titleOf(f) });
+				write(resolve('/api/reader/place'), 'POST', { subject, frame: f.id, label });
 			}, 800);
 		});
 	});
@@ -254,21 +274,17 @@
 			marks = before;
 	}
 
-	// Offered on the start screen: the selected subject's place. This
-	// subject's only until the reader has begun it, when Begin itself returns
-	// them to where they are.
-	let seen = $state<string | null>(null);
-	$effect(() => {
-		if (started) seen = data.subject.id;
-	});
+	// Offered on the start screen: the selected subject's place, this subject's
+	// included (korg 3432). Begin starts from the first frame, so Continue is
+	// the only way back to where the reader was, and never names the same place.
 	const resume = $derived.by(() => {
-		const p = data.readerData?.places?.[selected];
+		const p = places[selected];
 		if (!p) return [];
 		const action = 'Continue where you were';
 		if (selected !== data.subject.id)
 			return [{ key: 'here', action, label: p.label, href: frameHref(p.subject, p.frame) }];
 		const f = data.subject.frames[p.frame];
-		if (!f || seen === data.subject.id) return [];
+		if (!f) return [];
 		return [
 			{
 				key: 'here',
@@ -278,6 +294,7 @@
 			}
 		];
 	});
+	const first = $derived(data.subject.spine.segments[0].frames[0]);
 
 	// Large, so it arrives after the page as its own compressed chunk.
 	onMount(async () => {
@@ -304,6 +321,7 @@
 		bookmarks={bookmarkOffer}
 		{layer}
 		onhome={home}
+		hrefOf={(frame) => frameHref(data.subject.id, frame)}
 	/>
 {/key}
 
@@ -320,6 +338,7 @@
 		ring={look?.illustrations ?? []}
 		{resume}
 		onbegin={() => (begun = data.subject.id)}
+		onfirst={() => shell?.goTo(first)}
 		onopen={open}
 	/>
 {/if}

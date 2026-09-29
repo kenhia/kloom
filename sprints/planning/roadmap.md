@@ -101,9 +101,17 @@
   dates giving way to technologies, with six trails, complementing the AI
   subject (3398) — [record](../015-fourth-subject-computing.md).
 
+- Sprint 016: navigation (proposal 3434). A table of contents in the spine's
+  HUD, left of the bookmark: frames by segment, trails collapsed under their
+  anchors, the reader's marks, a filter, and C to open it (3433). This was
+  the "collapsible nav" idea, made as a popover. The start screen's
+  _Continue_ now continues: Begin starts from the first frame, and Continue
+  comes from a live mirror of the reader's places (3432) —
+  [record](../016-navigation-toc-continue.md).
+
 ## Next
 
-- Nothing queued in korg for kloom after the computing subject; links
+- Nothing queued in korg for kloom after navigation; links
   between subjects (3399) and the framework (below) are the next large
   steps.
 
@@ -120,5 +128,4 @@
 
 ## Ideas
 
-- Collapsible left nav listing chapters and trails.
 - A Claude API provider adapter (streamed ask answers).

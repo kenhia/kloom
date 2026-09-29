@@ -113,6 +113,10 @@ review and commit per segment).
 Sprint 015 the fourth subject, `subjects/computing` (67 frames: dates giving
 way to technologies, six trails), the author-subject skill's second test,
 written to complement the AI subject rather than repeat it.
+Sprint 016 navigation: a table of contents in the spine's HUD (frames by
+segment, trails under their anchors, the reader's marks, a filter, C to
+open it), and the start screen's Continue fed by a live mirror of the
+reader's places, with Begin starting from the first frame.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
