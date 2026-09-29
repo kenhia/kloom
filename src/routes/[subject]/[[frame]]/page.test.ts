@@ -119,17 +119,34 @@ describe('the shell', () => {
 	});
 });
 
-describe('the subject chooser', () => {
-	it('links every other subject from the start screen, and not this one', () => {
+describe('the subject list', () => {
+	it('lists every subject as a listbox in the dialog, this one selected', () => {
 		const { body } = page();
-		const nav = body.match(
-			/<nav class="others[^"]*" aria-label="Other subjects">[\s\S]*?<\/nav>/
-		)![0];
-		expect(nav).toContain('href="/ai"');
-		expect(text(nav)).toContain('History and Current State of AI');
-		expect(nav).not.toContain('href="/western-civ"');
-		// Inside the dialog, after Begin in tab order.
-		expect(body.indexOf('class="begin')).toBeLessThan(body.indexOf('aria-label="Other subjects"'));
+		const at = body.indexOf('<div class="subjects');
+		const list = body.slice(at, body.indexOf('<h2', at));
+		expect(list).toMatch(/^<div class="subjects[^"]*" role="listbox"/);
+		expect(list).toContain('aria-label="Subjects"');
+		expect(list).toContain('tabindex="0"');
+		const options = [...list.matchAll(/<div id="([^"]+)" role="option" aria-selected="(\w+)"/g)];
+		expect(options).toHaveLength(2);
+		const chosen = options.find((o) => o[2] === 'true')!;
+		expect(chosen[1]).toMatch(/-western-civ$/);
+		expect(list).toContain(`aria-activedescendant="${chosen[1]}"`);
+		expect(text(list)).toContain('History and Current State of AI');
+		// Above the title, and the title is the selection's.
+		expect(body.indexOf('role="listbox"')).toBeLessThan(
+			body.indexOf('The History of Western Civilization</h2>')
+		);
+	});
+
+	it('draws the selected subject’s illustrations in a ring around the loom', () => {
+		const { body } = page();
+		const ring = body.slice(body.indexOf('class="ring'), body.indexOf('class="copy'));
+		expect(ring.match(/class="thumb/g)!.length).toBeGreaterThan(1);
+		expect(ring).toContain('<svg');
+		expect(body.slice(0, body.indexOf('class="ring'))).toMatch(
+			/class="stage[^"]*" aria-hidden="true"/
+		);
 	});
 
 	it('is absent when the app serves one subject', () => {
@@ -138,14 +155,37 @@ describe('the subject chooser', () => {
 				data: { subject, subjects: [subjects[1]], askModels, askWeb: 'allow', growModels }
 			} as never
 		});
-		expect(one.body).not.toContain('Other subjects');
+		expect(one.body).not.toContain('role="listbox"');
+	});
+});
+
+describe('the Home control', () => {
+	it('is a named button left of the gear, in the gear’s style', () => {
+		const { body } = page();
+		const home = body.match(
+			/<button[^>]*class="icon-button home[^"]*"[^>]*>[\s\S]*?<\/button>/
+		)![0];
+		expect(home).toContain('type="button"');
+		expect(text(home).trim()).toBe('Home');
+		expect(home).toContain('aria-hidden="true"');
+		expect(body).toMatch(/class="icon-button gear/);
+		expect(body.indexOf('class="icon-button home')).toBeLessThan(
+			body.indexOf('class="icon-button gear')
+		);
+	});
+
+	it('is not offered by a shell with nowhere to go home to', () => {
+		const settings = new UserSettings([layout], () => null);
+		expect(render(Shell, { props: { subject, settings } }).body).not.toContain('Home');
 	});
 });
 
 describe('the settings control', () => {
 	it('is a named disclosure button controlling a closed panel', () => {
 		const { body } = page();
-		const gear = body.match(/<button[^>]*class="gear[^"]*"[^>]*>[\s\S]*?<\/button>/)![0];
+		const gear = body.match(
+			/<button[^>]*class="icon-button gear[^"]*"[^>]*>[\s\S]*?<\/button>/
+		)![0];
 		expect(gear).toContain('type="button"');
 		expect(gear).toContain('aria-expanded="false"');
 		expect(text(gear).trim()).toBe('Settings');
@@ -158,16 +198,16 @@ describe('the settings control', () => {
 
 	it('sits in the tab row, after the tabs, in the tabs layout (the default)', () => {
 		const { body } = page();
-		expect(body.indexOf('role="tablist"')).toBeLessThan(body.indexOf('class="gear'));
-		expect(body.indexOf('class="gear')).toBeLessThan(body.indexOf('id="sync-state"'));
+		expect(body.indexOf('role="tablist"')).toBeLessThan(body.indexOf('icon-button gear'));
+		expect(body.indexOf('icon-button gear')).toBeLessThan(body.indexOf('id="sync-state"'));
 	});
 
 	it('sits in the row heading the right-hand pane in the other layouts too', () => {
 		const settings = new UserSettings([layout], () => null);
 		settings.set('layout', 'columns');
 		const { body } = render(Shell, { props: { subject, settings } });
-		expect(body.indexOf('class="tab-row')).toBeLessThan(body.indexOf('class="gear'));
-		expect(body.indexOf('class="gear')).toBeLessThan(body.indexOf('id="sync-state"'));
+		expect(body.indexOf('class="tab-row')).toBeLessThan(body.indexOf('icon-button gear'));
+		expect(body.indexOf('icon-button gear')).toBeLessThan(body.indexOf('id="sync-state"'));
 	});
 
 	it('gathers the shortcut keys under Keys, each a letter or off (korg 3363)', () => {
@@ -318,7 +358,7 @@ describe('reader data on the page', () => {
 					growModels,
 					frame,
 					reader: { name: 'Ken' },
-					readerData: { here: null, last: null, bookmarks: [], ...readerData }
+					readerData: { places: {}, last: null, bookmarks: [], ...readerData }
 				}
 			} as never
 		}).body;
@@ -366,9 +406,9 @@ describe('reader data on the page', () => {
 		expect(text(body)).toContain('Remove bookmark: alexnet label');
 	});
 
-	it('offers to continue in this subject and to go back to the last one elsewhere', () => {
+	it('offers to continue where the reader was in the selected subject, and marks the last read', () => {
 		const body = withReader({
-			here: mark('printing-press'),
+			places: { 'western-civ': mark('printing-press'), ai: mark('alexnet', 'ai', 'AI') },
 			last: mark('alexnet', 'ai', 'History and Current State of AI')
 		});
 		const offers = body.match(
@@ -376,8 +416,11 @@ describe('reader data on the page', () => {
 		)![0];
 		expect(text(offers)).toContain('Continue where you were');
 		expect(text(offers)).toContain(subject.frames['printing-press'].scene.headline);
-		expect(text(offers)).toContain('Last read · History and Current State of AI');
-		expect(offers).toContain('href="/ai/alexnet"');
+		// Only the selection's place: the other subject's waits for its selection.
+		expect(offers).not.toContain('href="/ai/alexnet"');
+		const at = body.indexOf('role="listbox"');
+		const list = body.slice(at, body.indexOf('<h2', at));
+		expect(text(list)).toMatch(/History and Current State of AI\s*Last read/);
 		// Offered, not forced: Begin is still first.
 		expect(body.indexOf('class="begin')).toBeLessThan(body.indexOf('class="resume'));
 	});

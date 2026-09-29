@@ -84,10 +84,15 @@
   the Notes tab and the review-notes skill carry the quoted words (3415) —
   [record](../012-annotations.md).
 
+- Sprint 013: the start screen (proposal 3425). A Home button left of the
+  gear goes back to it without leaving the reader's place. A subject list
+  scales it past two subjects, and the selected subject's own illustrations
+  ring the loom (3424) — [record](../013-start-screen.md).
+
 ## Next
 
-- Nothing queued in korg for kloom after annotations; the framework (below)
-  is the next large step.
+- Nothing queued in korg for kloom after the start screen; the framework
+  (below) is the next large step.
 
 ## Later
 

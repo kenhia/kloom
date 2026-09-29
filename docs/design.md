@@ -639,10 +639,11 @@ Built in sprint 006 (korg 3396). One running app serves every subject.
   checked against that listing, not just the pattern, so no request can
   name a path. An unknown one is a 404. `/` redirects to `$KLOOM_SUBJECT`
   (default `western-civ`), or to the first subject if that one is gone.
-- **The chooser is the start screen.** Under Begin, "Or open" links every
-  other subject, in the dialog's tab order after Begin. The page is keyed
-  by subject, so opening another one starts its shell afresh at its own
-  start screen.
+- **The chooser is the start screen** (sprint 013, korg 3424). A subject
+  list (§Start screen) selects any served subject, and Begin opens the
+  selection, already begun because the reader chose it there. The page is
+  keyed by subject, so opening another one starts its shell afresh. A link
+  to a bare `/<subject>` from outside still opens on its start screen.
 - **Every API names its subject.** Ask, keep and grow take `subject` in the
   body (grow's job list takes `?subject=`), and media is served at
   `/media/<subject>/…`. Keep refuses an answer that was asked under
@@ -719,10 +720,12 @@ user_version` counts how many a file has had, and opening it runs the
   current subject's live titles replace it where they can.
 - **Last visited.** One place per reader per subject, written 800ms after
   the reader stops moving. The last place overall is the newest of them.
-  The start screen offers both under Begin, and never forces either. It
-  offers _Continue where you were_ for this subject, and _Last read · the
-  other subject's title_ when the newest place is in another subject. Begin
-  keeps the focus.
+  The start screen offers the selected subject's place under Begin as
+  _Continue where you were_, and never forces it. The list marks the
+  subject of the newest place _Last read_ (sprint 013; before it, a second
+  offer named the other subject). Once the reader has begun the subject
+  behind the start screen, its offer is left out, because Begin already
+  returns them to where they are. Begin keeps the focus.
 - **Bookmarks.** A toggle in the spine's HUD (`aria-pressed`, "Bookmark
   this frame") and the B key mark the frame on the spine. A role="status"
   line says "Bookmarked: …" or "Bookmark removed: …", so a key press is
@@ -906,6 +909,37 @@ _Cotton Weaving_ (1895), traced to vector; its source, licence and how it was
 traced are in `src/lib/start/README.md`, and it is credited under the start
 screen's collapsed _Image credit_. It is kloom's mark rather than the
 subject's, so it lives in `src/`; the component is `engine/ui/StartScreen.svelte`.
+
+Sprint 013 (korg 3424) made it a place to come back to, and made it scale
+past two subjects:
+
+- **Home.** A house icon to the left of the settings gear opens the start
+  screen over the subject, with that subject selected. The shell is not
+  remounted: it goes inert behind the dialog, so the reader's place, the
+  narrative and any unsaved note all survive. Begin or Esc returns to
+  exactly where the reader was, focus goes back to Home, and the URL never
+  moves. Opening another subject from there is a navigation, so an unsaved
+  note meets the usual guard (§Notes), and a cancelled one leaves the start
+  screen as it was. The gear and Home share `engine/ui/IconButton.svelte`.
+  Home's icon and the four runners-up (loom, shuttle, return, title card)
+  are in `engine/ui/icons/`. They are kloom's UI, not a subject's.
+- **The subject list** is a listbox (`aria-activedescendant`, selection
+  follows the arrows, Home/End, Enter begins, a click selects and a
+  double-click begins). It is in the dialog before the title, so Shift+Tab
+  from Begin reaches it. On a wide screen it stands down the left of the
+  loom. Below 60rem it lies flat above the title, and ←/→ work as well as
+  ↑/↓. With one subject served there is no list.
+- **The selection's look.** The title, the _Continue_ offer, the palette
+  (the selected subject's first frame's, in the reader's palette mode) and
+  a ring of its own illustrations around the loom all follow the
+  selection. The ring is a sample of about ten (`engine/start.ts`, spread
+  evenly along the main spine, first frame first). The drawings sit just
+  outside the dial's rim, turn with it slowly and fade in one after
+  another, with their labels hidden at that size. They are the loader's
+  already-sanitised markup, so there is no new sanitiser path. This
+  subject's look is computed on the page. Another's comes from
+  `GET /api/start/<subject>`, a read open like the page, and is kept once
+  fetched. Reduced motion stops the turning and the fade.
 
 ## Illustrations (what worked in sprint 002)
 

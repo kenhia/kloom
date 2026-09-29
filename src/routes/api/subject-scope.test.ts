@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { POST as ask } from './ask/+server';
 import { GET as jobs, POST as grow } from './grow/+server';
 import { POST as keep } from './keep/+server';
+import { GET as startLook } from './start/[subject]/+server';
 import { answers } from '$lib/server/ask';
 
 /** A handler's response, or the error it threw (SvelteKit's `error()` throws). */
@@ -49,6 +50,15 @@ describe('every API names its subject', () => {
 		});
 		for (const subject of ['ai', undefined])
 			expect(await call(keep, post({ subject, id }))).toMatchObject({ status: 404 });
+	});
+
+	it('the start look refuses one, and serves a served subject’s', async () => {
+		for (const subject of unknown)
+			expect(await call(startLook, { params: { subject } })).toMatchObject({ status: 404 });
+		const res = (await call(startLook, { params: { subject: 'ai' } })) as Response;
+		const look = await res.json();
+		expect(look.illustrations.length).toBeGreaterThan(0);
+		expect(look.palettes[look.palette]).toBeDefined();
 	});
 
 	it('ask takes a served subject past the subject check', async () => {
