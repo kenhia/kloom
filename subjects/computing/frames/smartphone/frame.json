@@ -1,0 +1,246 @@
+{
+	"id": "smartphone",
+	"position": {
+		"label": "The smartphone"
+	},
+	"asOf": "2026-09-28",
+	"scene": {
+		"headline": "The computer moved into our",
+		"accent": "POCKETS.",
+		"palette": "circuit",
+		"illustration": "scene.svg",
+		"metadata": [
+			"IBM SIMON · BLACKBERRY · IPHONE · ANDROID",
+			"MULTI-TOUCH · APP STORE · 1994–2008"
+		],
+		"counter": {
+			"value": "1.26 billion",
+			"label": "smartphones shipped in 2025, by IDC’s count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "IBM Simon",
+			"url": "https://en.wikipedia.org/w/index.php?title=IBM_Simon&oldid=1368914996",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Apple Reinvents the Phone with iPhone",
+			"url": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Apple"
+				}
+			],
+			"container": "Apple Newsroom",
+			"published": "2007-01-09"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "IPhone (1st generation)",
+			"url": "https://en.wikipedia.org/w/index.php?title=IPhone_(1st_generation)&oldid=1376383850",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Worldwide Smartphone Market Grows 2.3% in Q4 2025, Driven by Strong Performances from Samsung and Apple, according to IDC",
+			"url": "https://www.idc.com/resource-center/press-releases/q425mobilephonetop5/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "IDC"
+				}
+			],
+			"container": "IDC",
+			"published": "2026-01-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "BlackBerry",
+			"url": "https://en.wikipedia.org/w/index.php?title=BlackBerry&oldid=1375637470",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "web",
+			"title": "iPhone App Store Downloads Top 10 Million in First Weekend",
+			"url": "https://www.apple.com/newsroom/2008/07/14iPhone-App-Store-Downloads-Top-10-Million-in-First-Weekend/",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Apple"
+				}
+			],
+			"container": "Apple Newsroom",
+			"published": "2008-07-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "App Store (Apple)",
+			"url": "https://en.wikipedia.org/w/index.php?title=App_Store_(Apple)&oldid=1374497289",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Android (operating system)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Android_(operating_system)&oldid=1377019996",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "HTC Dream",
+			"url": "https://en.wikipedia.org/w/index.php?title=HTC_Dream&oldid=1374895724",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Touchscreen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Touchscreen&oldid=1373335247",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "web",
+			"title": "2025 Holiday PC Shipments Exceed Expectations as Vendors Accelerate Inventory Purchases Amid Supply Concerns",
+			"url": "https://www.pressreleasepoint.com/2025-holiday-pc-shipments-exceed-expectations-vendors-accelerate-inventory-purchases-amid-supply",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "IDC"
+				}
+			],
+			"container": "PressReleasePoint",
+			"published": "2026-01-12"
+		},
+		{
+			"kind": "web",
+			"title": "Mobile Operating System Market Share Worldwide",
+			"url": "https://gs.statcounter.com/os-market-share/mobile/worldwide",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "StatCounter"
+				}
+			],
+			"container": "StatCounter Global Stats",
+			"published": "2026-08"
+		},
+		{
+			"kind": "web",
+			"title": "Desktop vs Mobile vs Tablet Market Share Worldwide",
+			"url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "StatCounter"
+				}
+			],
+			"container": "StatCounter Global Stats",
+			"published": "2026-08"
+		},
+		{
+			"kind": "web",
+			"title": "The Mobile Economy 2026",
+			"url": "https://www.gsmaintelligence.com/research/the-mobile-economy-2026",
+			"accessed": "2026-09-28",
+			"authors": [
+				{
+					"name": "GSMA Intelligence"
+				}
+			],
+			"container": "GSMA Intelligence",
+			"published": "2026-03"
+		},
+		{
+			"kind": "media",
+			"title": "The IBM Simon Personal Communicator on display at the Computer History Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator_(1993)_-_the_first_smartphone_-_Computer_History_Museum.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Flickr and Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "ibm-simon.jpg",
+			"authors": [
+				{
+					"name": "Michael Hicks"
+				}
+			],
+			"published": "2013-11-03"
+		},
+		{
+			"kind": "media",
+			"title": "The first iPhone on display at Macworld, San Francisco, January 2007",
+			"url": "https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg",
+			"accessed": "2026-09-28",
+			"container": "Photograph, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "iphone-2007.jpg",
+			"authors": [
+				{
+					"name": "Arnold Reinhold"
+				}
+			],
+			"published": "2007-01-09"
+		}
+	]
+}

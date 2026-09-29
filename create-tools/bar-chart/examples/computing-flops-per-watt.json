@@ -1,0 +1,38 @@
+{
+	"title": "Energy efficiency of the world's fastest computer, 2002–2026 (log scale)",
+	"description": "Bar chart on a logarithmic scale of the energy efficiency, in billions of floating-point operations per second per watt (gigaflops per watt), of each TOP500 No. 1 system whose power was reported, in the list where it first took first place: Earth Simulator (June 2002) 0.011; Roadrunner (June 2008) 0.44; K computer (June 2011) 0.82; Sunway TaihuLight (June 2016) 6.1; Fugaku (June 2020) 14.7; Frontier (June 2022) 52.2; El Capitan (November 2024) 58.9; LineShine (June 2026) 52.1. Computed from each list's Rmax (HPL benchmark) and reported power. Data: TOP500.org.",
+	"heading": "FASTEST MACHINE · GIGAFLOPS PER WATT · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 0.001,
+		"max": 100,
+		"ticks": [
+			[0.001, "0.001"],
+			[0.01, "0.01"],
+			[0.1, "0.1"],
+			[1, "1"],
+			[10, "10"],
+			[100, "100"]
+		]
+	},
+	"width": 720,
+	"height": 300,
+	"barWidth": 46,
+	"bars": [
+		{ "label": "Earth Sim.", "sublabel": "2002", "value": 0.0112, "display": "0.011" },
+		{ "label": "Roadrunner", "sublabel": "2008", "value": 0.4375, "display": "0.44" },
+		{ "label": "K", "sublabel": "2011", "value": 0.8245, "display": "0.82" },
+		{ "label": "TaihuLight", "sublabel": "2016", "value": 6.051, "display": "6.1" },
+		{ "label": "Fugaku", "sublabel": "2020", "value": 14.665, "display": "14.7" },
+		{ "label": "Frontier", "sublabel": "2022", "value": 52.23, "display": "52.2" },
+		{ "label": "El Capitan", "sublabel": "2024", "value": 58.89, "display": "58.9" },
+		{
+			"label": "LineShine",
+			"sublabel": "2026",
+			"value": 52.07,
+			"display": "52.1",
+			"highlight": true
+		}
+	]
+}

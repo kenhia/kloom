@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M64 250 L372 250 M64 223.2 L372 223.2 M64 196.5 L372 196.5 M64 169.8 L372 169.8 M64 143 L372 143 M64 116.2 L372 116.2 M64 89.5 L372 89.5 M64 62.8 L372 62.8 M64 36 L372 36"/>
+		<path pathLength="1" d="M64 36 L64 250 M115.3 36 L115.3 250 M166.7 36 L166.7 250 M218 36 L218 250 M269.3 36 L269.3 250 M320.7 36 L320.7 250 M372 36 L372 250"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M64 36 L64 250 L372 250"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M64 230.5 L372 230.5"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M89.7 50 L151.3 71.3 L182.1 75 L233.4 86.6 L274.5 91.7 L295 99.1 L319.6 99.8 L336.1 99.1"/>
+		<path pathLength="1" d="M87.1 50 a2.6 2.6 0 1 0 5.2 0 a2.6 2.6 0 1 0 -5.2 0"/>
+		<path pathLength="1" d="M148.7 71.3 a2.6 2.6 0 1 0 5.2 0 a2.6 2.6 0 1 0 -5.2 0"/>
+		<path pathLength="1" d="M179.5 75 a2.6 2.6 0 1 0 5.2 0 a2.6 2.6 0 1 0 -5.2 0"/>
+		<path pathLength="1" d="M230.8 86.6 a2.6 2.6 0 1 0 5.2 0 a2.6 2.6 0 1 0 -5.2 0"/>
+		<path pathLength="1" d="M271.9 91.7 a2.6 2.6 0 1 0 5.2 0 a2.6 2.6 0 1 0 -5.2 0"/>
+		<path pathLength="1" d="M292.4 99.1 a2.6 2.6 0 1 0 5.2 0 a2.6 2.6 0 1 0 -5.2 0"/>
+		<path pathLength="1" d="M317 99.8 a2.6 2.6 0 1 0 5.2 0 a2.6 2.6 0 1 0 -5.2 0"/>
+		<path pathLength="1" d="M333.5 99.1 a2.6 2.6 0 1 0 5.2 0 a2.6 2.6 0 1 0 -5.2 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M356.6 99.1 L356.6 230.5"/>
+		<path pathLength="1" d="M358.1 101.7 L356.6 99.1 L355.1 101.7"/>
+		<path pathLength="1" d="M355.1 227.9 L356.6 230.5 L358.1 227.9"/>
+	</g>
+	<g>
+		<text x="59" y="253" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10⁻²²</text>
+		<text x="59" y="199.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10⁻¹⁸</text>
+		<text x="59" y="146" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10⁻¹⁴</text>
+		<text x="59" y="92.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10⁻¹⁰</text>
+		<text x="59" y="39" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10⁻⁶</text>
+		<text x="64" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2000</text>
+		<text x="166.7" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2010</text>
+		<text x="269.3" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2020</text>
+		<text x="372" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2030</text>
+		<text x="68" y="28" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">JOULES PER FLOP · TOP500 NO. 1</text>
+		<text x="74.3" y="225.5" font-size="6" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">kT ln 2 AT 300 K · ONE BIT ERASED</text>
+		<text x="352.6" y="164.8" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">~10 DECADES</text>
+		<text x="93.7" y="44" font-size="6" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EARTH SIMULATOR</text>
+		<text x="332.1" y="91.1" font-size="6" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LINESHINE</text>
+	</g>
+</svg>

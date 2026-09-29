@@ -39,6 +39,12 @@
 			"frames": ["transistor", "whirlwind", "fortran", "time-sharing", "ibm-360", "minicomputer"]
 		},
 		{
+			"id": "microprocessor",
+			"title": "The microprocessor",
+			"labelKind": "date",
+			"frames": ["microprocessor", "altair"]
+		},
+		{
 			"id": "shared-software",
 			"title": "Software, shared",
 			"labelKind": "technology",
@@ -48,7 +54,13 @@
 			"id": "everywhere",
 			"title": "Computing everywhere",
 			"labelKind": "technology",
-			"frames": ["cloud"]
+			"frames": ["arm", "smartphone", "cloud"]
+		},
+		{
+			"id": "open-questions",
+			"title": "Open questions",
+			"labelKind": "category",
+			"frames": ["where-computing-is"]
 		}
 	]
 }
