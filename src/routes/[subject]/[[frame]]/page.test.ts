@@ -3,7 +3,7 @@ import { render } from 'svelte/server';
 import { beforeAll, describe, expect, it } from 'vitest';
 import { loadSubject } from '$engine/load';
 import type { Subject } from '$engine/model';
-import { followSpine, paletteMode } from '$engine/settings';
+import { followSpine, layout, paletteMode } from '$engine/settings';
 import Shell from '$engine/ui/Shell.svelte';
 import { UserSettings } from '$engine/user-settings.svelte';
 import Page from './+page.svelte';
@@ -94,7 +94,7 @@ describe('the shell', () => {
 		expect(body).toContain('Following the spine.');
 		expect(page().body).toMatch(/<textarea[^>]*id="ai-input"/);
 		expect(page().body).toMatch(/<label for="ai-input"[^>]*>Ask a question about this frame</);
-		expect(body).toContain('Send');
+		expect(page().body).toMatch(/<button type="submit"[^>]*>\s*Ask\s*<\/button>/);
 	});
 
 	it('says in the hint bar that S, T and B act from the spine or narrative only', () => {
@@ -149,8 +149,16 @@ describe('the settings control', () => {
 		expect(at).toMatch(/role="group"/);
 	});
 
-	it('sits in the narrative toolbar, after the sync state, before the reading', () => {
+	it('sits in the tab row, after the tabs, in the tabs layout (the default)', () => {
 		const { body } = page();
+		expect(body.indexOf('role="tablist"')).toBeLessThan(body.indexOf('class="gear'));
+		expect(body.indexOf('class="gear')).toBeLessThan(body.indexOf('id="sync-state"'));
+	});
+
+	it('sits in the narrative toolbar, after the sync state, in the other layouts', () => {
+		const settings = new UserSettings([layout], () => null);
+		settings.set('layout', 'columns');
+		const { body } = render(Shell, { props: { subject, settings } });
 		expect(body.indexOf('id="sync-state"')).toBeLessThan(body.indexOf('class="gear'));
 		expect(body.indexOf('class="gear')).toBeLessThan(body.indexOf('<article'));
 	});
@@ -206,40 +214,48 @@ describe('grow in the AI pane', () => {
 		);
 	});
 
-	it('offers the three verbs, a labelled request and Queue', () => {
+	it('is one control: a verb, a labelled text box and a send button', () => {
 		const { body } = page();
-		expect(body).toContain('<label for="grow-verb" class="visually-hidden">What to grow</label>');
-		expect(body).toContain(
-			'<label for="grow-input" class="visually-hidden">What grow should write</label>'
+		expect(body).toContain('<label for="ai-verb" class="visually-hidden">What to do</label>');
+		const at = body.indexOf('id="ai-verb"');
+		const select = body.slice(at, body.indexOf('</select>', at));
+		expect(select).toMatch(
+			/^id="ai-verb"[^>]*>(<!--\[-->)?<option value="ask"[^>]*selected[^>]*>Ask a question</
 		);
 		for (const label of [
-			'New frames on the main spine',
-			'A side trail from this frame',
-			'A new frame with its own trail'
+			'Grow: new frames on the main spine',
+			'Grow: a side trail from this frame',
+			'Grow: a new frame with its own trail'
 		])
-			expect(text(body)).toContain(label);
-		expect(text(body)).toContain('Queue');
+			expect(text(select)).toContain(label);
+		expect(text(body)).toContain('Ask a question about this frame');
+		expect(body).toMatch(/<button type="submit"[^>]*>\s*Ask\s*<\/button>/);
+		expect(body).not.toContain('grow-verb');
 	});
 
 	it('is absent when the app config has no grow', () => {
 		const { body } = page('allow', null);
-		expect(body).not.toContain('grow-verb');
+		expect(body).not.toContain('ai-verb');
+		expect(body).not.toContain('Grow:');
 		expect(body).not.toContain('Grow model');
+		expect(body).toMatch(/<textarea id="ai-input"/);
 	});
 });
 
 describe('the web switch in the AI pane', () => {
-	const box = (body: string) => /<label class="web[^"]*"><input type="checkbox"([^>]*)>/.exec(body);
+	const box = (body: string) =>
+		/<label class="web[^"]*"[^>]*><input type="checkbox"([^>]*)>/.exec(body);
 
-	it('offers "Include web", checked, when the app allows the web', () => {
+	it('offers "Web", checked, when the app allows the web', () => {
 		const { body } = page('allow');
-		expect(text(body)).toContain('Include web');
+		expect(box(body)).not.toBeNull();
+		expect(text(body)).toMatch(/ Web /);
 		expect(box(body)?.[1]).toContain('checked');
 	});
 
 	it('offers it unchecked under offer, and not at all under deny', () => {
 		expect(box(page('offer').body)?.[1]).not.toContain('checked');
-		expect(text(page('deny').body)).not.toContain('Include web');
+		expect(box(page('deny').body)).toBeNull();
 	});
 });
 
@@ -351,5 +367,82 @@ describe('reader data on the page', () => {
 		const inTrail = withReader({}, trail.spine.segments[0].frames[0]);
 		expect(text(inTrail)).toContain('Main story');
 		expect(text(inTrail)).toContain(trail.title);
+	});
+});
+
+describe('the layout', () => {
+	const shell = (shape: string) => {
+		const settings = new UserSettings([layout], () => null);
+		settings.set('layout', shape);
+		return render(Shell, { props: { subject, settings } }).body;
+	};
+
+	it('is a setting, two panes with tabs by default', () => {
+		const { body } = page();
+		const id = /<label for="([^"]+)"[^>]*>Layout<\/label>/.exec(body)?.[1];
+		expect(id).toBeDefined();
+		expect(body).toMatch(
+			new RegExp(`<select id="${id}"[^>]*>[\\s\\S]*?<option value="tabs"[^>]*selected`)
+		);
+	});
+
+	it('puts Narrative and AI in a tab list, Narrative selected, each tab controlling its panel', () => {
+		const body = shell('tabs');
+		expect(body).toMatch(/<div role="tablist" aria-label="Right-hand pane"/);
+		expect(body).toMatch(
+			/role="tab" id="tab-narrative" aria-selected="true" aria-controls="narrative-panel" tabindex="0"/
+		);
+		expect(body).toMatch(
+			/role="tab" id="tab-ai" aria-selected="false" aria-controls="ai-results" tabindex="-1"/
+		);
+		expect(body).toMatch(/<section id="narrative-panel"[^>]*role="tabpanel"/);
+		expect(body).toMatch(
+			/<div id="ai-results"[^>]*role="tabpanel"[^>]*aria-labelledby="tab-ai"[^>]*hidden/
+		);
+	});
+
+	it('keeps the AI control in sight on the Narrative tab, so a question can be typed while reading', () => {
+		const body = shell('tabs');
+		expect(body).toMatch(/<textarea id="ai-input"/);
+		expect(body.slice(body.indexOf('id="ai-results"'))).toMatch(/<form class="control/);
+	});
+
+	it('has no tabs in the other layouts, and shows the results as a region', () => {
+		for (const shape of ['columns', 'strip', 'split']) {
+			const body = shell(shape);
+			expect(body).toContain(`class="panes ${shape}`);
+			expect(body).not.toContain('role="tablist"');
+			expect(body).toMatch(/<div id="ai-results"[^>]*role="region"[^>]*aria-label="AI results"/);
+			expect(body).not.toMatch(/<section id="narrative-panel"[^>]*role="tabpanel"/);
+		}
+	});
+
+	it('puts a divider on the spine in every layout, and one more where a layout has a third pane', () => {
+		const seps = (shape: string) =>
+			[...shell(shape).matchAll(/<div[^>]*role="separator"[^>]*>/g)].map((m) => m[0]);
+		for (const shape of ['tabs', 'strip']) {
+			expect(seps(shape)).toHaveLength(1);
+			expect(seps(shape)[0]).toMatch(/aria-orientation="vertical"/);
+			expect(seps(shape)[0]).toMatch(/aria-label="Resize the spine"/);
+			expect(seps(shape)[0]).toMatch(/aria-controls="spine-pane"/);
+			expect(seps(shape)[0]).toMatch(
+				/aria-valuenow="60"[^>]*aria-valuemin="25"[^>]*aria-valuemax="75"/
+			);
+			expect(seps(shape)[0]).toMatch(/tabindex="0"/);
+		}
+		expect(seps('columns').map((s) => /aria-label="([^"]+)"/.exec(s)![1])).toEqual([
+			'Resize the spine',
+			'Resize the AI pane'
+		]);
+		expect(seps('split')[1]).toMatch(
+			/aria-orientation="horizontal"[^>]*aria-label="Resize the narrative"/
+		);
+	});
+
+	it('puts the keyboard help in a bar under the whole page, outside every pane', () => {
+		const body = shell('columns');
+		const hint = body.indexOf('<p id="ai-hint"');
+		expect(hint).toBeGreaterThan(body.lastIndexOf('role="separator"'));
+		expect(text(body.slice(hint))).toContain('drag a divider');
 	});
 });

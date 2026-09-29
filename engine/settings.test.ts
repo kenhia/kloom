@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import type { Palette } from './model';
 import {
 	followSpine,
+	layout,
 	paletteFor,
 	paletteMode,
 	readSetting,
@@ -161,5 +162,17 @@ describe('followSpine', () => {
 		const storage = { getItem: (k: string) => map.get(k) ?? null, setItem: map.set.bind(map) };
 		expect(writeSetting(followSpine, 'manual', storage)).toBe(true);
 		expect(readSetting(followSpine, storage)).toBe('manual');
+	});
+});
+
+describe('layout', () => {
+	it('is two panes with tabs by default, under its own kloom.* key', () => {
+		expect(layout.default).toBe('tabs');
+		expect(layout.storageKey).toBe('kloom.layout');
+		expect(readSetting(layout, null)).toBe('tabs');
+	});
+
+	it('offers the three-column layout, and the two kept for comparison', () => {
+		expect(layout.choices.map((c) => c.value)).toEqual(['tabs', 'columns', 'strip', 'split']);
 	});
 });

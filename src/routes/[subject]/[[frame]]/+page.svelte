@@ -10,6 +10,7 @@
 		ASK_MODEL,
 		followSpine,
 		GROW_MODEL,
+		layout,
 		modelSetting,
 		paletteFor,
 		paletteMode
@@ -32,6 +33,7 @@
 	const settings = new UserSettings([
 		paletteMode,
 		followSpine,
+		layout,
 		modelSetting(
 			ASK_MODEL,
 			'Ask model',

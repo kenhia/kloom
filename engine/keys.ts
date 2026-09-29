@@ -65,3 +65,51 @@ export function pageKey(key: string, target: KeyTarget | null): PageKey | null {
 			return null;
 	}
 }
+
+/**
+ * A key on a tab in a tab list (the ARIA tabs pattern): the tab it moves to,
+ * or null when the key is not the tab list's. Left and Right wrap. The tab
+ * handles the key and prevents its default, so the page's arrows stand down.
+ */
+export function tabKey(key: string, index: number, count: number): number | null {
+	switch (key) {
+		case 'ArrowRight':
+			return (index + 1) % count;
+		case 'ArrowLeft':
+			return (index - 1 + count) % count;
+		case 'Home':
+			return 0;
+		case 'End':
+			return count - 1;
+		default:
+			return null;
+	}
+}
+
+/**
+ * A key on a pane divider (the ARIA window-splitter pattern): a step toward
+ * the start (-1) or the end (1) along its own axis, a jump to a limit, or a
+ * reset to the layout's own proportions. The divider prevents the key's
+ * default, as a tab does.
+ */
+export function splitKey(
+	key: string,
+	orientation: 'vertical' | 'horizontal'
+): -1 | 1 | 'min' | 'max' | 'reset' | null {
+	const [back, forward] =
+		orientation === 'vertical' ? ['ArrowLeft', 'ArrowRight'] : ['ArrowUp', 'ArrowDown'];
+	switch (key) {
+		case back:
+			return -1;
+		case forward:
+			return 1;
+		case 'Home':
+			return 'min';
+		case 'End':
+			return 'max';
+		case 'Enter':
+			return 'reset';
+		default:
+			return null;
+	}
+}

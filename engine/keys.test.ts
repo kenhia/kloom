@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { pageKey, type KeyTarget } from './keys';
+import { pageKey, splitKey, tabKey, type KeyTarget } from './keys';
 
 /** A stand-in element whose ancestors (itself included) match these selectors. */
 const at = (...matches: string[]): KeyTarget => ({
@@ -56,5 +56,40 @@ describe('page keys', () => {
 	it('ignores other keys', () => {
 		expect(pageKey('x', slider)).toBeNull();
 		expect(pageKey('Enter', slider)).toBeNull();
+	});
+});
+
+describe('tab keys', () => {
+	it('moves between tabs with the arrows, wrapping, and jumps with Home and End', () => {
+		expect(tabKey('ArrowRight', 0, 2)).toBe(1);
+		expect(tabKey('ArrowRight', 1, 2)).toBe(0);
+		expect(tabKey('ArrowLeft', 0, 2)).toBe(1);
+		expect(tabKey('ArrowLeft', 1, 3)).toBe(0);
+		expect(tabKey('Home', 2, 3)).toBe(0);
+		expect(tabKey('End', 0, 3)).toBe(2);
+	});
+
+	it('leaves every other key to the page', () => {
+		for (const key of ['ArrowUp', 'ArrowDown', 'Escape', 's', 'Enter', ' ']) {
+			expect(tabKey(key, 0, 2)).toBeNull();
+		}
+	});
+});
+
+describe('divider keys', () => {
+	it('moves a side-by-side divider with Left and Right, a stacked one with Up and Down', () => {
+		expect(splitKey('ArrowLeft', 'vertical')).toBe(-1);
+		expect(splitKey('ArrowRight', 'vertical')).toBe(1);
+		expect(splitKey('ArrowUp', 'horizontal')).toBe(-1);
+		expect(splitKey('ArrowDown', 'horizontal')).toBe(1);
+		expect(splitKey('ArrowUp', 'vertical')).toBeNull();
+		expect(splitKey('ArrowLeft', 'horizontal')).toBeNull();
+	});
+
+	it('jumps with Home and End, and resets with Enter', () => {
+		expect(splitKey('Home', 'vertical')).toBe('min');
+		expect(splitKey('End', 'horizontal')).toBe('max');
+		expect(splitKey('Enter', 'vertical')).toBe('reset');
+		expect(splitKey('s', 'vertical')).toBeNull();
 	});
 });
