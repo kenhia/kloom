@@ -1,0 +1,333 @@
+{
+	"id": "gravitational-waves",
+	"topic": "Gravitational waves detected",
+	"position": {
+		"label": "Gravitational waves"
+	},
+	"asOf": "2026-09-29",
+	"scene": {
+		"headline": "We heard spacetime",
+		"accent": "CHIRP.",
+		"palette": "deepfield",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HANFORD · LIVINGSTON · 14 SEPTEMBER 2015",
+			"LIGO · VIRGO · KAGRA · GW150914 · GW170817"
+		],
+		"counter": {
+			"value": "390",
+			"label": "gravitational-wave signals in the catalogue, as of GWTC-5.0 (May 2026)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Gravitational wave",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gravitational_wave&oldid=1376792255",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+			"doi": "10.1103/PhysRevLett.116.061102",
+			"url": "https://arxiv.org/abs/1602.03837",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Abbott",
+					"given": "B. P."
+				}
+			],
+			"container": "Physical Review Letters",
+			"volume": "116",
+			"issue": "6",
+			"pages": "061102",
+			"published": "2016-02-11",
+			"etAl": true,
+			"note": "The discovery paper; the figures are from its abstract"
+		},
+		{
+			"kind": "article",
+			"title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
+			"doi": "10.1103/PhysRevLett.119.161101",
+			"url": "https://arxiv.org/abs/1710.05832",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Abbott",
+					"given": "B. P."
+				}
+			],
+			"container": "Physical Review Letters",
+			"volume": "119",
+			"issue": "16",
+			"pages": "161101",
+			"published": "2017-10-16",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "Gravitational Waves and Gamma-rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A",
+			"doi": "10.3847/2041-8213/aa920c",
+			"url": "https://arxiv.org/abs/1710.05834",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "LIGO Scientific Collaboration"
+				},
+				{
+					"name": "Virgo Collaboration"
+				},
+				{
+					"name": "Fermi Gamma-ray Burst Monitor"
+				},
+				{
+					"name": "INTEGRAL"
+				}
+			],
+			"container": "The Astrophysical Journal Letters",
+			"volume": "848",
+			"issue": "2",
+			"pages": "L13",
+			"published": "2017-10-20"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "GWTC-5.0: Observations from the Second Part of the Fourth LIGO-Virgo-KAGRA Observing Run and Updates to the Gravitational-Wave Transient Catalog",
+			"url": "https://arxiv.org/abs/2605.27225",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "LIGO Scientific Collaboration"
+				},
+				{
+					"name": "Virgo Collaboration"
+				},
+				{
+					"name": "KAGRA Collaboration"
+				}
+			],
+			"container": "arXiv preprint arXiv:2605.27225",
+			"published": "2026-05-26",
+			"note": "The 390 signals are in the abstract"
+		},
+		{
+			"kind": "web",
+			"title": "The new LIGO–Virgo–KAGRA catalog sets records in precision gravitational-wave astronomy",
+			"url": "https://www.mpg.de/26537089/the-new-ligo-virgo-kagra-catalog-sets-records-in-precision-gravitational-wave-astronomy",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Max Planck Society"
+				}
+			],
+			"container": "Max-Planck-Gesellschaft",
+			"published": "2026-05-26",
+			"note": "The 68 O4c candidates"
+		},
+		{
+			"kind": "article",
+			"title": "Relativistic Measurements from Timing the Binary Pulsar PSR B1913+16",
+			"doi": "10.3847/0004-637X/829/1/55",
+			"url": "https://arxiv.org/abs/1606.02744",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Weisberg",
+					"given": "Joel M."
+				},
+				{
+					"family": "Huang",
+					"given": "Yuping"
+				}
+			],
+			"container": "The Astrophysical Journal",
+			"volume": "829",
+			"issue": "1",
+			"pages": "55",
+			"published": "2016"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "An Expanded Version of the Remarks by R. P. Feynman on the Reality of Gravitational Waves",
+			"url": "https://edition-open-sources.org/sources/5/34/index.html",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				}
+			],
+			"container": "The Role of Gravitation in Physics: Report from the 1957 Chapel Hill Conference",
+			"editors": [
+				{
+					"family": "DeWitt",
+					"given": "Cécile M."
+				},
+				{
+					"family": "Rickles",
+					"given": "Dean"
+				}
+			],
+			"place": "Berlin",
+			"publisher": "Edition Open Access, Max Planck Research Library for the History and Development of Knowledge",
+			"published": "2011"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sticky bead argument",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sticky_bead_argument&oldid=1344411713",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chapel Hill Conference",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chapel_Hill_Conference&oldid=1364573087",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hulse–Taylor pulsar",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hulse%E2%80%93Taylor_pulsar&oldid=1377084851",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "First observation of gravitational waves",
+			"url": "https://en.wikipedia.org/w/index.php?title=First_observation_of_gravitational_waves&oldid=1359302569",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GW170817",
+			"url": "https://en.wikipedia.org/w/index.php?title=GW170817&oldid=1372984451",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "LIGO",
+			"url": "https://en.wikipedia.org/w/index.php?title=LIGO&oldid=1373324601",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Weber",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Weber&oldid=1376163199",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "List of gravitational wave observations",
+			"url": "https://en.wikipedia.org/w/index.php?title=List_of_gravitational_wave_observations&oldid=1363942223",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-13"
+		},
+		{
+			"kind": "media",
+			"title": "The GW150914 signal at the Hanford and Livingston detectors, compared with the waveform predicted for merging black holes",
+			"url": "https://commons.wikimedia.org/wiki/File:LIGO_measurement_of_gravitational_waves.png",
+			"accessed": "2026-09-29",
+			"container": "Physical Review Letters 116, 061102 (2016), figure 1, via Wikimedia Commons",
+			"licence": "CC BY 3.0",
+			"file": "gw150914-signal.png",
+			"authors": [
+				{
+					"family": "Abbott",
+					"given": "B. P."
+				}
+			],
+			"etAl": true,
+			"published": "2016-02-11"
+		},
+		{
+			"kind": "media",
+			"title": "Gravitational-wave signals in the LIGO–Virgo–KAGRA catalogue at each release",
+			"url": "https://arxiv.org/abs/2605.27225",
+			"accessed": "2026-09-29",
+			"container": "Chart drawn for kloom from the abstracts of GWTC-1, GWTC-3, GWTC-4.0 and GWTC-5.0",
+			"licence": "MIT",
+			"file": "catalogue.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

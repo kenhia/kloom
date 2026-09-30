@@ -23,6 +23,12 @@
 			"title": "Cracks in the classical",
 			"labelKind": "date",
 			"frames": ["michelson-morley", "x-rays", "electron"]
+		},
+		{
+			"id": "relativity",
+			"title": "Relativity",
+			"labelKind": "category",
+			"frames": ["general-relativity", "black-holes", "gravitational-waves"]
 		}
 	]
 }

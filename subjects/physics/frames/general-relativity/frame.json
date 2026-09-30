@@ -1,0 +1,300 @@
+{
+	"id": "general-relativity",
+	"topic": "General relativity",
+	"position": {
+		"label": "General relativity"
+	},
+	"scene": {
+		"headline": "Gravity became",
+		"accent": "GEOMETRY.",
+		"palette": "deepfield",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERN · ZURICH · BERLIN · ALBERT EINSTEIN",
+			"EQUIVALENCE · CURVED SPACETIME · NOVEMBER 1915"
+		],
+		"counter": {
+			"value": "43″",
+			"label": "a century: the creep of Mercury's perihelion that Newton could not account for, and Einstein could"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "General relativity",
+			"url": "https://en.wikipedia.org/w/index.php?title=General_relativity&oldid=1375724181",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Not Only Because of Theory: Dyson, Eddington, and the Competing Myths of the 1919 Eclipse Expedition",
+			"doi": "10.1007/978-0-8176-4940-1_9",
+			"url": "https://arxiv.org/abs/0709.0685",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Kennefick",
+					"given": "Daniel"
+				}
+			],
+			"container": "Einstein and the Changing Worldviews of Physics",
+			"editors": [
+				{
+					"family": "Lehner",
+					"given": "Christoph"
+				},
+				{
+					"family": "Renn",
+					"given": "Jürgen"
+				},
+				{
+					"family": "Schemmel",
+					"given": "Matthias"
+				}
+			],
+			"pages": "201–232",
+			"place": "Boston",
+			"publisher": "Birkhäuser",
+			"published": "2012",
+			"note": "Read in the arXiv version; Harvey's 1979 remeasurement and Everitt's and Earman and Glymour's charge"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "General relativity priority dispute",
+			"url": "https://en.wikipedia.org/w/index.php?title=General_relativity_priority_dispute&oldid=1374260731",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10",
+			"note": "The November 1915 chronology, Hilbert's proofs, Corry, Renn and Stachel, and Winterberg"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Relativity in the Global Positioning System",
+			"doi": "10.12942/lrr-2003-1",
+			"url": "https://link.springer.com/article/10.12942/lrr-2003-1",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Ashby",
+					"given": "Neil"
+				}
+			],
+			"container": "Living Reviews in Relativity",
+			"volume": "6",
+			"issue": "1",
+			"published": "2003-01-28",
+			"note": "The clock offset is equations 35 and 36"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of general relativity",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_general_relativity&oldid=1333303507",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Equivalence principle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Equivalence_principle&oldid=1370775293",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "article",
+			"title": "Einstein's Happiest Moment: The Equivalence Principle",
+			"url": "https://arxiv.org/abs/2209.13781",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Worden",
+					"given": "Paul"
+				},
+				{
+					"family": "Overduin",
+					"given": "James"
+				}
+			],
+			"container": "arXiv preprint arXiv:2209.13781",
+			"published": "2022"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marcel Grossmann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marcel_Grossmann&oldid=1372363219",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Einstein field equations",
+			"url": "https://en.wikipedia.org/w/index.php?title=Einstein_field_equations&oldid=1374672993",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tests of general relativity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tests_of_general_relativity&oldid=1376635968",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eddington experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eddington_experiment&oldid=1372869403",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pound–Rebka experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pound%E2%80%93Rebka_experiment&oldid=1372969236",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Error analysis for the Global Positioning System",
+			"url": "https://en.wikipedia.org/w/index.php?title=Error_analysis_for_the_Global_Positioning_System&oldid=1377400056",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lunar Laser Ranging experiments",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lunar_Laser_Ranging_experiments&oldid=1370261051",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "media",
+			"title": "A photograph of the total solar eclipse of 29 May 1919, from Dyson, Eddington and Davidson's report of the expeditions",
+			"url": "https://commons.wikimedia.org/wiki/File:1919_eclipse_positive.jpg",
+			"accessed": "2026-09-29",
+			"container": "Philosophical Transactions of the Royal Society A 220 (1920), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "eclipse-1919.jpg",
+			"authors": [
+				{
+					"family": "Dyson",
+					"given": "F. W."
+				},
+				{
+					"family": "Eddington",
+					"given": "A. S."
+				},
+				{
+					"family": "Davidson",
+					"given": "C."
+				}
+			],
+			"published": "1920"
+		},
+		{
+			"kind": "media",
+			"title": "The deflection of starlight at the Sun's limb: the predictions and the 1919 eclipse plates",
+			"url": "https://arxiv.org/abs/0709.0685",
+			"accessed": "2026-09-29",
+			"container": "Chart drawn for kloom from Kennefick, quoting Harvey (1979) and Everitt (1980)",
+			"licence": "MIT",
+			"file": "deflection.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/jwst",
+			"why": "Webb's First Deep Field sees distant galaxies magnified by the mass of the cluster SMACS 0723, the bending of light by gravity that general relativity predicted and the 1919 eclipse expeditions first measured at the Sun."
+		},
+		{
+			"to": "western-civ/moon-landing",
+			"why": "The laser reflector Apollo 11 left at Tranquility Base has been ranged from Earth ever since, and shows that the Earth and the Moon fall towards the Sun alike, as general relativity's equivalence principle requires."
+		}
+	]
+}
