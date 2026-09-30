@@ -30,6 +30,9 @@ def main():
     ap.add_argument('--out')
     ap.add_argument('--png')
     ap.add_argument('--scale', type=float, default=1, help='device pixels per CSS pixel in the PNG')
+    ap.add_argument('--charts', action='store_true',
+                    help="also show each frame's other SVGs (its inlined charts), in the frame's palette")
+    ap.add_argument('--palette', help='the palette for a plate whose frame.json is not written yet')
     a = ap.parse_args()
     sdir = os.path.join(ROOT, 'subjects', a.subject)
     palettes = json.load(open(os.path.join(sdir, 'subject.json')))['palettes']
@@ -41,22 +44,30 @@ def main():
             if os.path.exists(os.path.join(fdir, 'frame.json')):
                 s = json.load(open(os.path.join(fdir, 'frame.json')))['scene']
             else:  # a frame still being written: its plate, in the first palette, untitled
-                s = {'illustration': 'scene.svg', 'palette': next(iter(palettes)), 'headline': '(no frame.json yet)', 'accent': ''}
-            svg = open(os.path.join(fdir, s['illustration'])).read()
+                s = {'illustration': 'scene.svg', 'palette': a.palette or next(iter(palettes)),
+                     'headline': '(no frame.json yet)', 'accent': ''}
+            svgs = [(s['illustration'], open(os.path.join(fdir, s['illustration'])).read())]
+            if a.charts:  # sprint 021: authors had no way to see a chart before its frame went live
+                svgs += [(f, open(os.path.join(fdir, f)).read()) for f in sorted(os.listdir(fdir))
+                         if f.endswith('.svg') and f != s['illustration']]
         except (OSError, KeyError, ValueError) as e:
             print(f'contact_sheet: skipping {fid}: {e}', file=sys.stderr)
             continue
         p = palettes[s['palette']]
-        cells.append(
-            f'<figure style="background:{p["background"]};color:{p["line"]}">{svg}'
-            f'<figcaption style="color:{p["ink"]}">{html.escape(s["headline"])} '
-            f'<b style="color:{p["accent"]}">{html.escape(s["accent"])}</b>'
-            f'<small style="color:{p["muted"]}">{html.escape(fid)} · {html.escape(s["palette"])}</small></figcaption></figure>')
+        for name, svg in svgs:
+            title = (f'{html.escape(s["headline"])} <b style="color:{p["accent"]}">{html.escape(s["accent"])}</b>'
+                     if name == s['illustration'] else html.escape(name))
+            cells.append(
+                f'<figure style="background:{p["background"]};color:{p["line"]};--muted:{p["muted"]};--accent:{p["accent"]}">{svg}'
+                f'<figcaption style="color:{p["ink"]}">{title}'
+                f'<small style="color:{p["muted"]}">{html.escape(fid)} · {html.escape(s["palette"])}</small></figcaption></figure>')
     page = ('<!doctype html><meta charset="utf-8"><style>body{margin:0;background:#888;display:grid;'
             'grid-template-columns:repeat(4,400px);gap:6px;padding:6px;font:13px system-ui}'
             'figure{margin:0;padding:8px}svg{width:384px;height:288px;display:block}'
-            'figcaption b{font-weight:800}small{display:block;margin-top:2px}</style>' + ''.join(cells))
-    out = a.out or os.path.join(ROOT, '.scratch', f'contact-{a.subject}.html')
+            'figcaption b{font-weight:800}small{display:block;margin-top:2px}'
+            '.muted{color:var(--muted)}.accent{color:var(--accent)}</style>' + ''.join(cells))
+    # Beside its PNG by default, so authors drawing at once don't overwrite one page (sprint 021).
+    out = a.out or (os.path.splitext(a.png)[0] + '.html' if a.png else os.path.join(ROOT, '.scratch', f'contact-{a.subject}.html'))
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
     with open(out, 'w') as fh:
         fh.write(page)

@@ -25,7 +25,11 @@ showing, in the style docs/design.md §Illustrations describes.
   named, on one page in its own palette with its title under it; `--png`
   screenshots the page with a headless Chromium (Playwright's, or
   `$CHROME`). `python3 create-tools/draw-plates/contact_sheet.py feynman --png .scratch/sheet.png`. `--scale 2.5`
-  renders it large enough to read the labels (sprint 015).
+  renders it large enough to read the labels (sprint 015). `--charts` adds
+  each frame's other SVGs, its inlined charts, in the frame's palette;
+  `--palette` names the palette for a plate whose `frame.json` is not
+  written yet; and the page is written beside its PNG, so authors working
+  at once don't overwrite one another's (sprint 021).
 - `western_civ.py`: the 17 western-civ plates, one function per frame. It
   is the worked example: the Pantheon section, the globe with its route,
   the helix and the honeycomb show how the geometry is computed rather than
