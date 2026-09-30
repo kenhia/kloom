@@ -213,5 +213,11 @@
 			],
 			"published": "1831"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/euclid-elements",
+			"why": "Euclid's fifth postulate, stated in the Elements, is the one that non-Euclidean geometry drops."
+		}
 	]
 }

@@ -198,6 +198,14 @@
 		{
 			"to": "ai/backprop",
 			"why": "Backpropagation is the chain rule applied layer by layer, and the chain rule is Leibniz's, written first in a memoir of 1676."
+		},
+		{
+			"to": "mathematics/madhava",
+			"why": "The Kerala school had series for π, sine and cosine two centuries before Gregory, Newton and Leibniz found them again."
+		},
+		{
+			"to": "mathematics/descartes-geometry",
+			"why": "Newton learned his mathematics from van Schooten's Latin edition of Descartes's Géométrie."
 		}
 	]
 }

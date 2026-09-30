@@ -163,6 +163,10 @@
 		{
 			"to": "physics/copernicus",
 			"why": "The Sand Reckoner, Archimedes' count of the grains that would fill the universe, is where he reports Aristarchus's Sun-centred cosmos, the forerunner Copernicus named and then struck from his manuscript."
+		},
+		{
+			"to": "mathematics/rhind-papyrus",
+			"why": "Ahmes gave the circle a rule, 256/81; Archimedes proved π lies between 3 10/71 and 3 1/7."
 		}
 	]
 }

@@ -312,6 +312,14 @@
 		{
 			"to": "ai/self-attention",
 			"why": "Self-attention is matrix algebra: each token's vector is multiplied by three learned matrices, and the scores are the product of the query and key matrices, QKᵀ."
+		},
+		{
+			"to": "mathematics/nine-chapters",
+			"why": "The Nine Chapters solved simultaneous equations by eliminating on a counting board, column by column, the method later named for Gauss and now done with matrices."
+		},
+		{
+			"to": "mathematics/noether",
+			"why": "Cayley's algebra of matrices, where AB need not equal BA, was an early system with rules of its own, the kind of structure Noether's abstract algebra studied in general."
 		}
 	]
 }

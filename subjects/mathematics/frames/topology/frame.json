@@ -144,5 +144,19 @@
 			],
 			"published": "1758"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/konigsberg",
+			"why": "Euler called his 1736 bridges problem a question of the \"geometry of position\", the first name of topology."
+		},
+		{
+			"to": "mathematics/riemann-geometry",
+			"why": "Riemann's surfaces of the 1850s made how a surface is connected, its holes, a question of its own."
+		},
+		{
+			"to": "mathematics/poincare-conjecture",
+			"why": "Poincaré's Analysis Situs and its supplements founded topology and ended, in 1904, with the question that became his conjecture."
+		}
 	]
 }

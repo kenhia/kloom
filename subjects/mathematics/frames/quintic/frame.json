@@ -175,5 +175,11 @@
 			],
 			"published": "1832-05-29"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/cardano-cubic",
+			"why": "The cubic and quartic were solved by formula in the 1540s; the quintic never was, and Abel and Galois showed why."
+		}
 	]
 }

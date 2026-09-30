@@ -142,6 +142,10 @@
 		{
 			"to": "physics/falling-bodies",
 			"why": "The same book's third day needs the infinite too: a stone falling from rest passes through infinitely many degrees of speed, Salviati answers, because it stays at each for only an instant."
+		},
+		{
+			"to": "mathematics/cantor",
+			"why": "Cantor made Galileo's pairing of numbers with their squares the definition of equal size, and reversed his conclusion."
 		}
 	]
 }

@@ -219,6 +219,14 @@
 		{
 			"to": "feynman/quantum-computers",
 			"why": "Deutsch's 1985 paper argued that the Church–Turing thesis hides a claim about physics, restated it as a principle, and defined the universal quantum computer against it."
+		},
+		{
+			"to": "mathematics/godel",
+			"why": "Gödel's theorems left Hilbert's decision problem open; Church and Turing closed it in 1936, with no."
+		},
+		{
+			"to": "mathematics/computer-proof",
+			"why": "Turing's machines could not decide every statement, but they can check a proof step by step, which is what proof assistants now do."
 		}
 	]
 }

@@ -187,6 +187,10 @@
 		{
 			"to": "feynman/path-integrals-today",
 			"why": "Kac's 1947 formula, taken from the derivation in Feynman's unpublished thesis, averages over the Brownian paths that carry Wiener's measure; the feynman frame follows it into lattice calculations."
+		},
+		{
+			"to": "mathematics/markov-chains",
+			"why": "Brownian motion is a random walk whose steps shrink without end, a Markov process in continuous time."
 		}
 	]
 }

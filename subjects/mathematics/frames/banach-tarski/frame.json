@@ -131,5 +131,11 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-02"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/frege-russell",
+			"why": "Banach and Tarski's paradox rests on the axiom of choice, one of the axioms Zermelo gave set theory in 1908 after Russell's paradox."
+		}
 	]
 }

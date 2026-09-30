@@ -172,5 +172,15 @@
 			"file": "descent-note.jpg",
 			"published": "1670"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/diophantus",
+			"why": "Fermat's note stands in the margin of Bachet's Diophantus, beside problem II.8."
+		},
+		{
+			"to": "mathematics/fibonacci",
+			"why": "Fibonacci stated in 1225 that no right triangle with whole sides has a square area, the theorem Fermat later proved by descent."
+		}
 	]
 }

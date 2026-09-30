@@ -178,6 +178,10 @@
 		{
 			"to": "computing/abacus",
 			"why": "The Liber Abaci, for all its name, taught Europe to reckon in written figures instead of on the counting boards and cloths the abacus frame describes; Italy's 'abacus' manuals never show a board."
+		},
+		{
+			"to": "mathematics/al-khwarizmi",
+			"why": "Al-Khwarizmi's book on calculating with the Indian numerals survives in Latin and gave us the word algorithm; Fibonacci learned the same nine figures of the Indians and taught them to Europe's merchants."
 		}
 	]
 }

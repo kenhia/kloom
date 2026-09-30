@@ -237,6 +237,18 @@
 		{
 			"to": "physics/quarks",
 			"why": "Gell-Mann's Eightfold Way sorted the hadrons by the symmetry of the Lie group SU(3), and the empty place in one of its families predicted the omega minus, found in 1964."
+		},
+		{
+			"to": "mathematics/quintic",
+			"why": "Galois used the groups of shuffles of an equation's roots; Cayley made group a definition of its own."
+		},
+		{
+			"to": "mathematics/matrices",
+			"why": "The Lie groups of physics are groups of matrices, whose algebra Cayley also set out."
+		},
+		{
+			"to": "mathematics/non-euclidean",
+			"why": "Klein's Erlangen programme sorted geometries, the non-Euclidean among them, by the groups of motions that leave each unchanged."
 		}
 	]
 }

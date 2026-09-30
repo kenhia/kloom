@@ -177,6 +177,10 @@
 		{
 			"to": "computing/security",
 			"why": "The Diffie–Hellman exchange worked there modulo 23 uses a safe prime, 2 × 11 + 1, with 11 a Sophie Germain prime; the finite-field groups TLS standardised in 2016 all use safe primes."
+		},
+		{
+			"to": "mathematics/disquisitiones",
+			"why": "Sophie Germain read the Disquisitiones and wrote to Gauss about it as Monsieur Le Blanc."
 		}
 	]
 }

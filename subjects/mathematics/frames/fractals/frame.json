@@ -206,5 +206,15 @@
 				}
 			]
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/chaos",
+			"why": "The Lorenz attractor and the other strange sets that chaos leaves behind are fractals."
+		},
+		{
+			"to": "mathematics/cantor",
+			"why": "Cantor's middle-thirds set is the first fractal most mathematicians meet, of dimension log 2 / log 3."
+		}
 	]
 }

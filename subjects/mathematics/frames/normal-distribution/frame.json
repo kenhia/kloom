@@ -220,6 +220,10 @@
 		{
 			"to": "physics/maxwells-demon",
 			"why": "The spread of molecular speeds Maxwell printed in 1860 gives each component of a molecule's velocity the normal law, the astronomers' curve of errors found in a gas."
+		},
+		{
+			"to": "mathematics/large-numbers",
+			"why": "De Moivre's curve gave a far better estimate than Bernoulli's own bound of how many draws make an average near certain."
 		}
 	]
 }

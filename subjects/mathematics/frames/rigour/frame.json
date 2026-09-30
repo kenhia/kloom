@@ -274,6 +274,22 @@
 		{
 			"to": "physics/atoms-real",
 			"why": "Perrin saw that each step of a Brownian grain's tracing, marked more often, would be as tangled as the whole: the path is continuous with a slope nowhere, like Weierstrass's function of 1872."
+		},
+		{
+			"to": "mathematics/calculus",
+			"why": "Berkeley's attack on fluxions as \"ghosts of departed quantities\" was answered only when Cauchy and Weierstrass defined the limit."
+		},
+		{
+			"to": "mathematics/cantor",
+			"why": "Dedekind's cuts, published in 1872, built the real numbers; two years later Cantor proved there are more of them than there are whole numbers."
+		},
+		{
+			"to": "mathematics/gradient-descent",
+			"why": "Cauchy, who gave the limit its first careful form, used the derivative in 1847 to walk downhill."
+		},
+		{
+			"to": "mathematics/fractals",
+			"why": "Weierstrass's function, continuous and nowhere smooth, looks as rough at every scale: a fractal before the word."
 		}
 	]
 }

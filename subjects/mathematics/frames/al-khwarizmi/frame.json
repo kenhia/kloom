@@ -117,5 +117,11 @@
 			],
 			"published": "1342"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/brahmagupta-zero",
+			"why": "Indian astronomy reached the caliph's court at Baghdad, where al-Khwarizmi wrote his book on reckoning with the Indian numerals and their zero."
+		}
 	]
 }

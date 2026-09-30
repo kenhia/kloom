@@ -215,5 +215,11 @@
 			"licence": "MIT",
 			"file": "gap-bounds.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/euclid-elements",
+			"why": "Euclid proved the primes never end; whether pairs of primes two apart never end is still open."
+		}
 	]
 }

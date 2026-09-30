@@ -394,6 +394,18 @@
 		{
 			"to": "ai/where-we-are",
 			"why": "OpenAI's Navier–Stokes proof was checked in Lean by GPT-6 Astra, the model that frame reports OpenAI released on 3 September 2026."
+		},
+		{
+			"to": "mathematics/computer-proof",
+			"why": "Hales's proof of the Kepler conjecture needed a computer and a decade of formal checking; Viazovska's proof for eight dimensions fits in a short paper."
+		},
+		{
+			"to": "mathematics/poincare-conjecture",
+			"why": "The Poincaré conjecture is the one Millennium Problem solved, by Perelman, who refused the prize."
+		},
+		{
+			"to": "mathematics/riemann-hypothesis",
+			"why": "The Riemann hypothesis is one of the Millennium Problems still open."
 		}
 	]
 }

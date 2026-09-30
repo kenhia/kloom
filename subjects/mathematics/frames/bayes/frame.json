@@ -231,6 +231,14 @@
 		{
 			"to": "computing/bombe",
 			"why": "Turing's Banburismus scored naval Enigma messages in decibans, Bayes's rule in logarithms, to pick the likeliest wheels and save the bombes' running time."
+		},
+		{
+			"to": "mathematics/large-numbers",
+			"why": "Bernoulli went from causes to frequencies; Bayes and Price asked the converse question, from frequencies to causes."
+		},
+		{
+			"to": "mathematics/markov-chains",
+			"why": "Bayes weighed evidence from independent observations; Markov's chains let each observation depend on the last."
 		}
 	]
 }

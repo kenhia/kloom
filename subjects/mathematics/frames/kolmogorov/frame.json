@@ -166,5 +166,19 @@
 			],
 			"published": "2012-05-16"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/hilbert-problems",
+			"why": "Hilbert's sixth problem asked for axioms for probability; Kolmogorov's Grundbegriffe gave them in 1933."
+		},
+		{
+			"to": "mathematics/large-numbers",
+			"why": "Kolmogorov was among those who sharpened Bernoulli's law of large numbers into its weak and strong forms."
+		},
+		{
+			"to": "mathematics/wiener-measure",
+			"why": "In Kolmogorov's axioms an event can have probability zero, as a Brownian path having a slope anywhere does."
+		}
 	]
 }

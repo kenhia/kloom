@@ -229,6 +229,14 @@
 		{
 			"to": "computing/manchester-baby",
 			"why": "In June 1950 Turing searched for zeros off Riemann's line on the Manchester Mark 1, the machine the Baby grew into."
+		},
+		{
+			"to": "mathematics/sieve-of-eratosthenes",
+			"why": "Euler's product for the zeta function is proved by striking out each prime's multiples in turn, as in the sieve."
+		},
+		{
+			"to": "mathematics/hilbert-problems",
+			"why": "The Riemann hypothesis is part of the eighth of Hilbert's 1900 problems."
 		}
 	]
 }

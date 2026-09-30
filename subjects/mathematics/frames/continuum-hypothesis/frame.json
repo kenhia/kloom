@@ -164,5 +164,15 @@
 			],
 			"published": "1878"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/hilbert-problems",
+			"why": "Cantor's continuum hypothesis was the first of Hilbert's 23 problems in 1900."
+		},
+		{
+			"to": "mathematics/godel",
+			"why": "Gödel proved in 1938–40 that the continuum hypothesis cannot be disproved from the axioms of set theory."
+		}
 	]
 }

@@ -287,6 +287,10 @@
 		{
 			"to": "ai/backprop",
 			"why": "Backpropagation computes the gradient of a layered network's error in one backward sweep; gradient descent, Cauchy's method of 1847, then takes the step."
+		},
+		{
+			"to": "mathematics/normal-distribution",
+			"why": "Cauchy's 1847 method minimises a sum of squares, the quantity whose least value Legendre and Gauss argued over."
 		}
 	]
 }

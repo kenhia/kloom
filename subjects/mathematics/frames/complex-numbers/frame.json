@@ -242,6 +242,10 @@
 		{
 			"to": "physics/matrix-mechanics",
 			"why": "Born's rule pq − qp = h/2πi put the imaginary unit into the foundations of quantum mechanics."
+		},
+		{
+			"to": "mathematics/cardano-cubic",
+			"why": "Bombelli's rules for √−1, made to finish Cardano's cubic formula, were the first arithmetic of complex numbers."
 		}
 	]
 }

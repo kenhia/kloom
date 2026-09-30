@@ -219,6 +219,10 @@
 		{
 			"to": "computing/abacus",
 			"why": "The Nine Chapters was worked with counting rods in columns on a board, place value held in a layout like the Greek and Roman counting boards, and the bead abacus later replaced the rods everywhere but Japan."
+		},
+		{
+			"to": "mathematics/archimedes-circle",
+			"why": "Liu Hui bounded π with polygons of ever more sides in 263, the method Archimedes had used with the 96-gon five centuries before."
 		}
 	]
 }

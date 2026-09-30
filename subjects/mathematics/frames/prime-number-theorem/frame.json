@@ -151,5 +151,11 @@
 			],
 			"published": "1808"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/riemann-hypothesis",
+			"why": "The 1896 proofs of the prime number theorem rest on Riemann's zeta function having no zeros on the line Re s = 1."
+		}
 	]
 }

@@ -205,6 +205,14 @@
 		{
 			"to": "ai/logic-theorist",
 			"why": "Whitehead and Russell built Principia Mathematica on logic to escape the paradox; in 1956 the Logic Theorist proved 38 of the first 52 theorems of its second chapter."
+		},
+		{
+			"to": "mathematics/cantor",
+			"why": "Russell found his paradox by probing Cantor's proof that there is no largest infinity."
+		},
+		{
+			"to": "mathematics/hilbert-problems",
+			"why": "After the paradox, Hilbert set out to prove mathematics consistent by finite means."
 		}
 	]
 }

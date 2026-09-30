@@ -102,5 +102,11 @@
 			"licence": "MIT",
 			"file": "draws.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/problem-of-points",
+			"why": "The first part of Bernoulli's Ars Conjectandi reworks Huygens's expectation, the tool Pascal and Fermat's problem made."
+		}
 	]
 }

@@ -171,5 +171,11 @@
 			],
 			"published": "1771"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/kummer-ideals",
+			"why": "Euler's proof for cubes assumed unique factorisation; Lamé's 1847 proof failed at the same step, and Kummer showed why."
+		}
 	]
 }

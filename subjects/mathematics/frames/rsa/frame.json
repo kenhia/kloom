@@ -316,6 +316,14 @@
 		{
 			"to": "feynman/quantum-computing-now",
 			"why": "Shor's 1994 algorithm would let a large quantum computer factor RSA's modulus; that frame charts the estimates of how many qubits a 2048-bit key would take."
+		},
+		{
+			"to": "mathematics/prime-number-theorem",
+			"why": "RSA needs large primes, and the prime number theorem says how many there are: near 2¹⁰²⁴ about one number in 710."
+		},
+		{
+			"to": "mathematics/disquisitiones",
+			"why": "RSA runs on congruences modulo n, the arithmetic Gauss set out in the Disquisitiones."
 		}
 	]
 }

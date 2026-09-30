@@ -1,7 +1,10 @@
 {
 	"id": "sieve-of-eratosthenes",
 	"topic": "The sieve of Eratosthenes",
-	"position": { "label": "c. 240 BC", "sort": -240 },
+	"position": {
+		"label": "c. 240 BC",
+		"sort": -240
+	},
 	"scene": {
 		"headline": "We caught the primes in a",
 		"accent": "SIEVE.",
@@ -11,7 +14,10 @@
 			"ALEXANDRIA · ERATOSTHENES OF CYRENE",
 			"TOLD BY NICOMACHUS · C. AD 100 · STRIKE FROM THE SQUARE"
 		],
-		"counter": { "value": "25", "label": "primes left standing below 100" }
+		"counter": {
+			"value": "25",
+			"label": "primes left standing below 100"
+		}
 	},
 	"citations": [
 		{
@@ -20,7 +26,11 @@
 			"title": "Sieve of Eratosthenes",
 			"url": "https://en.wikipedia.org/w/index.php?title=Sieve_of_Eratosthenes&oldid=1376646978",
 			"accessed": "2026-09-30",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-25"
@@ -29,7 +39,11 @@
 			"kind": "book",
 			"key": true,
 			"title": "Introduction to Arithmetic",
-			"authors": [{ "name": "Nicomachus of Gerasa" }],
+			"authors": [
+				{
+					"name": "Nicomachus of Gerasa"
+				}
+			],
 			"publisher": "Macmillan",
 			"place": "New York",
 			"published": "1926",
@@ -41,7 +55,12 @@
 			"kind": "article",
 			"key": true,
 			"title": "Κόσκινον Ἐρατοσθένους, or, The Sieve of Eratosthenes. Being an Account of His Method of Finding All the Prime Numbers",
-			"authors": [{ "family": "Horsley", "given": "Samuel" }],
+			"authors": [
+				{
+					"family": "Horsley",
+					"given": "Samuel"
+				}
+			],
 			"container": "Philosophical Transactions of the Royal Society of London",
 			"volume": "62",
 			"pages": "327–347",
@@ -55,7 +74,11 @@
 			"title": "Nicomachus",
 			"url": "https://en.wikipedia.org/w/index.php?title=Nicomachus&oldid=1369889503",
 			"accessed": "2026-09-30",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-08-17"
@@ -63,7 +86,12 @@
 		{
 			"kind": "web",
 			"title": "Variae observationes circa series infinitas (E72)",
-			"authors": [{ "family": "Euler", "given": "Leonhard" }],
+			"authors": [
+				{
+					"family": "Euler",
+					"given": "Leonhard"
+				}
+			],
 			"container": "Euler Archive",
 			"publisher": "University of the Pacific",
 			"url": "https://scholarlycommons.pacific.edu/euler-works/72/",
@@ -73,7 +101,12 @@
 		{
 			"kind": "web",
 			"title": "primesieve",
-			"authors": [{ "family": "Walisch", "given": "Kim" }],
+			"authors": [
+				{
+					"family": "Walisch",
+					"given": "Kim"
+				}
+			],
 			"container": "GitHub",
 			"url": "https://github.com/kimwalisch/primesieve",
 			"accessed": "2026-09-30"
@@ -81,7 +114,12 @@
 		{
 			"kind": "web",
 			"title": "Records Set Using primecount",
-			"authors": [{ "family": "Walisch", "given": "Kim" }],
+			"authors": [
+				{
+					"family": "Walisch",
+					"given": "Kim"
+				}
+			],
 			"container": "primecount, GitHub",
 			"url": "https://github.com/kimwalisch/primecount/blob/master/doc/Records.md",
 			"accessed": "2026-09-30"
@@ -89,7 +127,12 @@
 		{
 			"kind": "report",
 			"title": "Efficient Computation of the Hard Special Leaves in the Combinatorial Prime Counting Algorithms",
-			"authors": [{ "family": "Walisch", "given": "Kim" }],
+			"authors": [
+				{
+					"family": "Walisch",
+					"given": "Kim"
+				}
+			],
 			"publisher": "primecount project",
 			"published": "2025-06-13",
 			"url": "https://github.com/kimwalisch/primecount/blob/master/doc/Hard-Special-Leaves.pdf",
@@ -103,7 +146,12 @@
 			"container": "Philosophical Transactions of the Royal Society, via Wikimedia Commons",
 			"licence": "Public domain",
 			"file": "horsley-sieve.png",
-			"authors": [{ "family": "Horsley", "given": "Samuel" }],
+			"authors": [
+				{
+					"family": "Horsley",
+					"given": "Samuel"
+				}
+			],
 			"published": "1772"
 		}
 	],
@@ -111,6 +159,10 @@
 		{
 			"to": "western-civ/eratosthenes",
 			"why": "The librarian who measured the Earth with a shadow and a distance also devised the sieve for primes that still bears his name."
+		},
+		{
+			"to": "mathematics/euclid-elements",
+			"why": "The sieve lists the primes that Euclid proved never end."
 		}
 	]
 }

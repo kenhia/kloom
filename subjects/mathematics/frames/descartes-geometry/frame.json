@@ -169,5 +169,11 @@
 			],
 			"published": "1637"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/apollonius-conics",
+			"why": "Descartes showed his method on Pappus's problem, which Apollonius had left unfinished; its answers are the conics, the curves of the second degree."
+		}
 	]
 }

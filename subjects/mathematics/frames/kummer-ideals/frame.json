@@ -245,5 +245,11 @@
 			],
 			"published": "1847"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/noether",
+			"why": "Kummer's ideal numbers became Dedekind's ideals, and Noether's 1921 paper on ideals in rings recast algebra around them."
+		}
 	]
 }

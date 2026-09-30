@@ -133,6 +133,10 @@
 		{
 			"to": "physics/aristotle-motion",
 			"why": "Zeno's arguments against motion survive because Aristotle stated and answered them in the sixth book of his Physics: time, he replied, is divisible just as a distance is."
+		},
+		{
+			"to": "mathematics/rigour",
+			"why": "Cauchy's limits answer the mathematician's half of Zeno: an infinite sum can have a finite value."
 		}
 	]
 }

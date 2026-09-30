@@ -201,6 +201,10 @@
 		{
 			"to": "ai/next-token",
 			"why": "A model that draws each token from probabilities computed on a fixed window of preceding text is a Markov chain whose state is the window: Markov's vowel-after-consonant count, grown to a vocabulary and a context."
+		},
+		{
+			"to": "mathematics/large-numbers",
+			"why": "Markov built his chains to show that Bernoulli's law of large numbers holds without independence."
 		}
 	]
 }

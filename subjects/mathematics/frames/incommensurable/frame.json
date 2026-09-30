@@ -189,6 +189,10 @@
 		{
 			"to": "mathematics/ybc-7289",
 			"why": "The Babylonian scribe wrote the root of two to within a part in two million; the Greeks proved that no ratio of whole numbers, however fine, could ever be exact."
+		},
+		{
+			"to": "mathematics/euclid-elements",
+			"why": "Book X of the Elements holds the Greek theory of incommensurable magnitudes, and a later copyist added the odd-and-even proof for the diagonal."
 		}
 	]
 }

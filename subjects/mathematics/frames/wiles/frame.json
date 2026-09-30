@@ -253,6 +253,14 @@
 		{
 			"to": "ai/agents",
 			"why": "In August 2026 dozens of Claude agents, run by a harness built on Claude Code, wrote the first complete machine-checked proof of Fermat's Last Theorem in eleven days."
+		},
+		{
+			"to": "mathematics/diophantus",
+			"why": "Fermat's claim was written beside problem II.8 of Diophantus's Arithmetica; Wiles proved it 358 years later."
+		},
+		{
+			"to": "mathematics/computer-proof",
+			"why": "In 2026 a proof of Fermat's Last Theorem was checked in the proof assistant Lean."
 		}
 	]
 }

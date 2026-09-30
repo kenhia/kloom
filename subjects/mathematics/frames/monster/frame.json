@@ -247,5 +247,15 @@
 			],
 			"published": "1993"
 		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/groups",
+			"why": "The finite simple groups are the atoms of every finite group, and the Monster is the largest of the sporadic ones."
+		},
+		{
+			"to": "mathematics/computer-proof",
+			"why": "The classification of finite simple groups is one of the longest proofs ever written, and parts of it have been checked by machine: Feit–Thompson in Coq in 2012."
+		}
 	]
 }
