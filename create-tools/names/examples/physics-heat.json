@@ -1,0 +1,35 @@
+{
+	"physics/young-slits": [
+		["Thomas Young", "thomas-young-scientist"],
+		["Royal Institution", "royal-institution"],
+		["corpuscular theory of light", "corpuscular-theory-of-light"],
+		["double-slit experiment", "double-slit-experiment"],
+		["Augustin Fresnel", "augustin-jean-fresnel"],
+		["Siméon Denis Poisson", "simeon-denis-poisson"],
+		["Arago spot", "arago-spot"]
+	],
+	"physics/carnot": [
+		["_Réflexions sur la puissance motrice du feu_", "reflections-on-the-motive-power-of-fire"],
+		["Sadi Carnot", "nicolas-leonard-sadi-carnot"],
+		["caloric theory", "caloric-theory"],
+		["Carnot cycle", "carnot-cycle"],
+		["Émile Clapeyron", "emile-clapeyron"]
+	],
+	"physics/energy": [
+		["first law of thermodynamics", "first-law-of-thermodynamics"],
+		["Julius Robert Mayer", "julius-von-mayer"],
+		["James Prescott Joule", "james-prescott-joule"],
+		["Hermann von Helmholtz", "hermann-von-helmholtz"],
+		["conservation of energy", "conservation-of-energy"]
+	],
+	"physics/spectra": [
+		["Joseph von Fraunhofer", "joseph-von-fraunhofer"],
+		["Fraunhofer lines", "fraunhofer-lines"],
+		["Robert Bunsen", "robert-bunsen"],
+		["Gustav Kirchhoff", "gustav-kirchhoff"],
+		["caesium", "caesium"],
+		["Norman Lockyer", "norman-lockyer"],
+		["helium", "helium"],
+		["Johann Jakob Balmer", "johann-jakob-balmer"]
+	]
+}
