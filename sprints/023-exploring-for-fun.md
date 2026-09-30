@@ -167,3 +167,36 @@ dice that jump to a random frame, in this subject or anywhere.
 ## Follow-ups
 
 - None filed.
+
+## Deployed
+
+2026-09-30, by `just deploy` (`recipe: deploy` in `.sprint-deploy`) from
+merged `main` (`e2d0b7b`, PR #27) to the kloom service on kai. The lock
+file changed, so the deploy ran `npm ci` in the app copy. `just verify`
+passed all eight door checks, and the content clone is at `e2d0b7b` on
+`grow/kai`.
+
+Verified live on the ssh door (:4891), in Chromium, rerunning the branch's
+walks against the service:
+
+- **Random.**
+  - D, 25 times in Physics, gave 23 distinct frames, never stayed put and
+    never left the subject.
+  - R and the browser's Back returned along the jumps, with the "↩ Back
+    to…" chip.
+  - W landed in Computing, AI, Feynman and Physics.
+  - Both dice work by click.
+  - The hint bar names D and W.
+- **3D.**
+  - The switch loads three chunks (`Dvuw0TL_`, `CHVpAPmZ`, `C0bjjnfp`),
+    only when turned, and is ready in about 1.1 s.
+  - Under reduced motion there is no "Turn slowly", and two shots are
+    identical.
+  - The canvas is no tab stop, and a pick flies to the node.
+  - "Show on the 2D map" centres the 2D map there, and Esc returns focus
+    to Map.
+  - It was checked at 1400×900 and 390×844, with no sideways scroll and no
+    page errors.
+
+The walks ran as the ssh door's reader, so that reader's last places now
+point at wherever the random jumps ended.
