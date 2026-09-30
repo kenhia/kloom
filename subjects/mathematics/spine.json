@@ -31,6 +31,12 @@
 			"frames": ["gradient-descent", "chaos"]
 		},
 		{
+			"id": "geometry",
+			"title": "Geometry",
+			"labelKind": "category",
+			"frames": ["topology", "poincare-conjecture", "fractals"]
+		},
+		{
 			"id": "logic",
 			"title": "Logic and foundations",
 			"labelKind": "category",

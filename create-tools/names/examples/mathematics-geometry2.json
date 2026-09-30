@@ -1,0 +1,32 @@
+{
+	"mathematics/topology": [
+		["Leonhard Euler", "leonhard-euler"],
+		["topology", "topology"],
+		["Platonic solids", "platonic-solid"],
+		["Euler characteristic", "euler-characteristic"],
+		["Johann Benedict Listing", "johann-benedict-listing"],
+		["Möbius strip", "mobius-strip"],
+		["Bernhard Riemann", "bernhard-riemann"],
+		["Henri Poincaré", "henri-poincare"]
+	],
+	"mathematics/poincare-conjecture": [
+		["Henri Poincaré", "henri-poincare"],
+		["Poincaré conjecture", "poincare-conjecture"],
+		["Clay Mathematics Institute", "clay-mathematics-institute"],
+		["Richard Hamilton", "richard-s-hamilton"],
+		["Grigori Perelman", "grigori-perelman"],
+		["arXiv", "arxiv"],
+		["Fields Medal", "fields-medal"],
+		["Millennium Prizes", "millennium-prize-problems"]
+	],
+	"mathematics/fractals": [
+		["Benoit Mandelbrot", "benoit-mandelbrot"],
+		["IBM", "ibm"],
+		["Georg Cantor", "georg-cantor"],
+		["Helge von Koch", "helge-von-koch"],
+		["Felix Hausdorff", "felix-hausdorff"],
+		["Lewis Fry Richardson", "lewis-fry-richardson"],
+		["Gaston Julia", "gaston-julia"],
+		["Mandelbrot set", "mandelbrot-set"]
+	]
+}

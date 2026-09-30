@@ -1,0 +1,173 @@
+{
+	"id": "poincare-conjecture",
+	"topic": "The Poincaré conjecture",
+	"position": {
+		"label": "The Poincaré conjecture"
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "Every loop could",
+		"accent": "SHRINK.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS 1904 · ST PETERSBURG 2002–03",
+			"POINCARÉ · SMALE · FREEDMAN · THURSTON · HAMILTON · PERELMAN"
+		],
+		"counter": {
+			"value": "$1,000,000",
+			"label": "the Clay prize Perelman declined, 2010"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Poincaré Conjecture",
+			"authors": [
+				{
+					"family": "Milnor",
+					"given": "John"
+				}
+			],
+			"container": "Millennium Prize Problems",
+			"publisher": "Clay Mathematics Institute",
+			"published": "2004-06",
+			"url": "https://www.claymath.org/wp-content/uploads/2022/06/poincare.pdf",
+			"accessed": "2026-09-30",
+			"note": "Poincaré's 1900 error and 1904 question, Smale, Freedman, Thurston and Hamilton; written 2000, revised 2004"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Poincaré conjecture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Poincar%C3%A9_conjecture&oldid=1374518675",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12",
+			"note": "The 1900 and 1904 supplements, the verification of 2006, the smooth four-dimensional case"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Grigori Perelman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Grigori_Perelman&oldid=1376914790",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"note": "The Fields Medal in 2006, the Millennium Prize refused in 2010 (via Interfax), Cao and Zhu"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Entropy Formula for the Ricci Flow and Its Geometric Applications",
+			"authors": [
+				{
+					"family": "Perelman",
+					"given": "Grisha"
+				}
+			],
+			"container": "arXiv preprint arXiv:math/0211159",
+			"published": "2002-11-11",
+			"url": "https://arxiv.org/abs/math/0211159",
+			"accessed": "2026-09-30",
+			"note": "The introduction and its footnote on personal savings"
+		},
+		{
+			"kind": "article",
+			"title": "Ricci Flow with Surgery on Three-Manifolds",
+			"authors": [
+				{
+					"family": "Perelman",
+					"given": "Grisha"
+				}
+			],
+			"container": "arXiv preprint arXiv:math/0303109",
+			"published": "2003-03-10",
+			"url": "https://arxiv.org/abs/math/0303109",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Finite Extinction Time for the Solutions to the Ricci Flow on Certain Three-Manifolds",
+			"authors": [
+				{
+					"family": "Perelman",
+					"given": "Grisha"
+				}
+			],
+			"container": "arXiv preprint arXiv:math/0307245",
+			"published": "2003-07-17",
+			"url": "https://arxiv.org/abs/math/0307245",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "report",
+			"title": "First Clay Mathematics Institute Millennium Prize Announced Today: Prize for Resolution of the Poincaré Conjecture Awarded to Dr. Grigoriy Perelman",
+			"publisher": "Clay Mathematics Institute",
+			"published": "2010-03-18",
+			"url": "https://www.claymath.org/wp-content/uploads/2022/06/Poincare-press-release.pdf",
+			"accessed": "2026-09-30",
+			"note": "Press release"
+		},
+		{
+			"kind": "web",
+			"title": "Poincaré Conjecture",
+			"container": "Millennium Prize Problems",
+			"publisher": "Clay Mathematics Institute",
+			"url": "https://www.claymath.org/millennium/poincare-conjecture/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Maths Genius Declines Top Prize",
+			"container": "BBC News",
+			"published": "2006-08-22",
+			"url": "http://news.bbc.co.uk/2/hi/science/nature/5274040.stm",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Ricci flow on a surface of revolution, computed at eight moments",
+			"url": "https://commons.wikimedia.org/wiki/File:Ricci_flow.png",
+			"accessed": "2026-09-30",
+			"container": "Made with J. Hyam Rubinstein and Robert Sinclair's software, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ricci-flow.png",
+			"authors": [
+				{
+					"name": "CBM"
+				}
+			],
+			"published": "2009-12-30"
+		},
+		{
+			"kind": "media",
+			"title": "Grigori Perelman at Berkeley, September 1993",
+			"url": "https://commons.wikimedia.org/wiki/File:Grigori_Perelman,_1993_(re-scanned)_(cropped).jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "perelman-1993.jpg",
+			"authors": [
+				{
+					"family": "Bergman",
+					"given": "George"
+				}
+			],
+			"published": "1993-09"
+		}
+	]
+}
