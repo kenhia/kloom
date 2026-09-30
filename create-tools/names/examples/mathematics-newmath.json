@@ -1,0 +1,40 @@
+{
+	"mathematics/cardano-cubic": [
+		["Scipione del Ferro", "scipione-del-ferro"],
+		["Niccolò Tartaglia", "nicolo-tartaglia"],
+		["Gerolamo Cardano", "gerolamo-cardano"],
+		["Lodovico Ferrari", "lodovico-ferrari"],
+		["_Ars Magna_", "ars-magna-cardano-book"],
+		["Johannes Petreius", "johannes-petreius"],
+		["Rafael Bombelli", "rafael-bombelli"],
+		["complex numbers", "complex-number"]
+	],
+	"mathematics/descartes-geometry": [
+		["René Descartes", "rene-descartes"],
+		["_Discourse on the Method_", "discourse-on-the-method"],
+		["_La Géométrie_", "la-geometrie"],
+		["Pappus of Alexandria", "pappus-of-alexandria"],
+		["Apollonius", "apollonius-of-perga"],
+		["analytic geometry", "analytic-geometry"],
+		["Frans van Schooten", "frans-van-schooten"],
+		["Pierre de Fermat", "pierre-de-fermat"]
+	],
+	"mathematics/calculus": [
+		["Isaac Newton", "isaac-newton"],
+		["Isaac Barrow", "isaac-barrow"],
+		["James Gregory", "james-gregory-mathematician"],
+		["fundamental theorem of calculus", "fundamental-theorem-of-calculus"],
+		["Nicole Oresme", "nicole-oresme"],
+		["Gottfried Wilhelm Leibniz", "gottfried-wilhelm-leibniz"],
+		["_Acta Eruditorum_", "acta-eruditorum"],
+		["Royal Society", "royal-society"]
+	],
+	"mathematics/konigsberg": [
+		["Königsberg", "konigsberg"],
+		["Leonhard Euler", "leonhard-euler"],
+		["Gottfried Wilhelm Leibniz", "gottfried-wilhelm-leibniz"],
+		["Carl Hierholzer", "carl-hierholzer"],
+		["graph theory", "graph-theory"],
+		["topology", "topology"]
+	]
+}

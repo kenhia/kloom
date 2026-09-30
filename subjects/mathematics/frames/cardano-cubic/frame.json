@@ -1,0 +1,262 @@
+{
+	"id": "cardano-cubic",
+	"topic": "Cardano's Ars Magna and the cubic",
+	"position": {
+		"label": "AD 1545",
+		"sort": 1545
+	},
+	"scene": {
+		"headline": "We solved the",
+		"accent": "CUBIC.",
+		"palette": "quarto",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BOLOGNA · VENICE · MILAN · NUREMBERG",
+			"DEL FERRO · TARTAGLIA · CARDANO · FERRARI · BOMBELLI"
+		],
+		"counter": {
+			"value": "√−121",
+			"label": "the root Bombelli passed through to reach 4"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Artis magnae, sive de regulis algebraicis, liber unus",
+			"authors": [
+				{
+					"family": "Cardano",
+					"given": "Girolamo"
+				}
+			],
+			"publisher": "Johannes Petreius",
+			"place": "Nuremberg",
+			"published": "1545",
+			"doi": "10.3931/e-rara-9159",
+			"url": "https://www.e-rara.ch/zut/doi/10.3931/e-rara-9159",
+			"accessed": "2026-09-30",
+			"note": "Chapter XII, the rule for a cube equal to things and a number, and its limit. Read in the ETH-Bibliothek Zürich copy on e-rara"
+		},
+		{
+			"kind": "web",
+			"title": "Tartaglia versus Cardan",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Tartaglia_v_Cardan/",
+			"accessed": "2026-09-30",
+			"key": true,
+			"published": "2005-09",
+			"note": "The contest, the oath, the verse and the letter of August 1539, in the participants' own words from Tartaglia's Quesiti (1546), in translation"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Ars Magna (Cardano book)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ars_Magna_(Cardano_book)&oldid=1292450498",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-05-27",
+			"note": "Cardano's √−15 and the \"common misconception\" that it came from a cubic"
+		},
+		{
+			"kind": "web",
+			"title": "Rafael Bombelli",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bombelli/",
+			"accessed": "2026-09-30",
+			"key": true,
+			"published": "2000-01"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Rafael Bombelli's Algebra (1572) and a New Mathematical \"Object\": A Semiotic Analysis",
+			"authors": [
+				{
+					"family": "Bagni",
+					"given": "Giorgio T."
+				}
+			],
+			"container": "Proceedings of CERME 6, January 28th–February 1st 2009, Lyon France",
+			"publisher": "INRP",
+			"place": "Lyon",
+			"published": "2010",
+			"pages": "440–448",
+			"url": "https://ife.ens-lyon.fr/publications/edition-electronique/cerme6/wg4-03-bagni.pdf",
+			"accessed": "2026-09-30",
+			"note": "Bombelli's working of x³ = 15x + 4, from p. 294 of his Algebra"
+		},
+		{
+			"kind": "web",
+			"title": "Niccolò Tartaglia",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Tartaglia/",
+			"accessed": "2026-09-30",
+			"published": "2005-09"
+		},
+		{
+			"kind": "web",
+			"title": "Girolamo Cardano",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cardan/",
+			"accessed": "2026-09-30",
+			"published": "1998-06"
+		},
+		{
+			"kind": "web",
+			"title": "Quadratic, cubic and quartic equations",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Quadratic_etc_equations/",
+			"accessed": "2026-09-30",
+			"published": "1996-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nicolo Tartaglia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicolo_Tartaglia&oldid=1359619759",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Scipione del Ferro",
+			"url": "https://en.wikipedia.org/w/index.php?title=Scipione_del_Ferro&oldid=1371994846",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lodovico Ferrari",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lodovico_Ferrari&oldid=1371963454",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rafael Bombelli",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rafael_Bombelli&oldid=1359216447",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Imaginary number",
+			"url": "https://en.wikipedia.org/w/index.php?title=Imaginary_number&oldid=1377723890",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "A page of Cardano's Ars Magna (Nuremberg, 1545), chapter XII, with the rule for a cube equal to things and a number",
+			"url": "https://commons.wikimedia.org/wiki/File:Ars_Magna_Cardanische_Formel.png",
+			"accessed": "2026-09-30",
+			"container": "ETH-Bibliothek Zürich (e-rara), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ars-magna-rule.jpg",
+			"authors": [
+				{
+					"family": "Cardano",
+					"given": "Girolamo"
+				}
+			],
+			"published": "1545",
+			"note": "Converted to greyscale JPEG from the Commons PNG"
+		}
+	]
+}

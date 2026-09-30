@@ -25,6 +25,12 @@
 			"frames": ["nine-chapters", "brahmagupta-zero", "al-khwarizmi", "fibonacci", "madhava"]
 		},
 		{
+			"id": "new-mathematics",
+			"title": "The new mathematics",
+			"labelKind": "date",
+			"frames": ["cardano-cubic", "descartes-geometry", "calculus", "konigsberg"]
+		},
+		{
 			"id": "algebra",
 			"title": "Algebra",
 			"labelKind": "category",
