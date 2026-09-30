@@ -1,0 +1,25 @@
+{
+	"title": "Fermi's countdown to criticality as Chicago Pile-1 was built, November 1942",
+	"description": "Bar chart of Fermi's measure, the square of the pile's radius divided by the neutron intensity, which falls towards 1 as the pile nears a self-sustaining chain reaction: 390 at the 15th layer, 320 at the 19th, 270 at the 25th and 149 at the 36th. Fermi calculated that it would reach 1 between the 56th and 57th layers; the pile stopped at the 57th. Data: Wikipedia, Chicago Pile-1.",
+	"heading": "CHICAGO PILE-1 · FERMI'S COUNTDOWN · R² ÷ INTENSITY",
+	"unit": "",
+	"axis": {
+		"max": 400,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"],
+			[400, "400"]
+		]
+	},
+	"bars": [
+		{ "label": "Layer 15", "value": 390 },
+		{ "label": "Layer 19", "value": 320 },
+		{ "label": "Layer 25", "value": 270 },
+		{ "label": "Layer 36", "value": 149 },
+		{ "label": "Layer 57", "sublabel": "predicted", "value": 1, "display": "1", "highlight": true }
+	],
+	"barWidth": 48,
+	"width": 500
+}

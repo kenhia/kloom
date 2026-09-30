@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" role="img" aria-labelledby="t d">
+<title id="t">What the Manhattan Project cost, by site, to the end of 1945</title>
+<desc id="d">Bar chart in millions of 1945 dollars: Oak Ridge 1,188; Hanford 390; special operating materials 103; Los Alamos 74; research and development 70; government overhead 37; heavy water plants 27; in all 1,890. Data: Wikipedia, Manhattan Project, from the project's own accounts.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="600" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="600" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">400</text>
+<line x1="64" x2="600" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">800</text>
+<line x1="64" x2="600" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">1,200</text>
+</g>
+<rect x="80.3" y="38.1" width="44" height="211.9" fill-opacity="0.85"/>
+<text x="102.3" y="32.1" text-anchor="middle">1,188</text>
+<text x="102.3" y="266" text-anchor="middle">Oak Ridge</text>
+<text x="102.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">uranium</text>
+<rect x="156.9" y="180.4" width="44" height="69.6" fill-opacity="0.85"/>
+<text x="178.9" y="174.4" text-anchor="middle">390</text>
+<text x="178.9" y="266" text-anchor="middle">Hanford</text>
+<text x="178.9" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">plutonium</text>
+<rect x="233.4" y="231.6" width="44" height="18.4" fill-opacity="0.85"/>
+<text x="255.4" y="225.6" text-anchor="middle">103</text>
+<text x="255.4" y="266" text-anchor="middle">Materials</text>
+<text x="255.4" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">special</text>
+<rect x="310.0" y="236.8" width="44" height="13.2" class="accent" fill="currentColor"/>
+<text x="332.0" y="230.8" text-anchor="middle">74</text>
+<text x="332.0" y="266" text-anchor="middle">Los Alamos</text>
+<text x="332.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">the bombs</text>
+<rect x="386.6" y="237.5" width="44" height="12.5" fill-opacity="0.85"/>
+<text x="408.6" y="231.5" text-anchor="middle">70</text>
+<text x="408.6" y="266" text-anchor="middle">R&amp;D</text>
+<rect x="463.1" y="243.4" width="44" height="6.6" fill-opacity="0.85"/>
+<text x="485.1" y="237.4" text-anchor="middle">37</text>
+<text x="485.1" y="266" text-anchor="middle">Overhead</text>
+<rect x="539.7" y="245.2" width="44" height="4.8" fill-opacity="0.85"/>
+<text x="561.7" y="239.2" text-anchor="middle">27</text>
+<text x="561.7" y="266" text-anchor="middle">Heavy water</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">MANHATTAN PROJECT · COST TO 31 DEC 1945 · $ MILLIONS (1945)</text>
+</g></svg>

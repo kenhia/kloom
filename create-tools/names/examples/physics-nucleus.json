@@ -1,0 +1,42 @@
+{
+	"physics/nucleus": [
+		["Ernest Rutherford", "ernest-rutherford"],
+		["University of\nManchester", "university-of-manchester"],
+		["Hans Geiger", "hans-geiger"],
+		["Ernest Marsden", "ernest-marsden"],
+		["nucleus", "atomic-nucleus"],
+		["proton", "proton"],
+		["James\nChadwick", "james-chadwick"],
+		["neutron", "neutron"]
+	],
+	"physics/fission": [
+		["Enrico Fermi", "enrico-fermi"],
+		["Lise Meitner", "lise-meitner"],
+		["Otto Hahn", "otto-hahn"],
+		["Fritz\nStrassmann", "fritz-strassmann"],
+		["Otto Frisch", "otto-robert-frisch"],
+		["fission", "nuclear-fission"],
+		["Leo Szilard", "leo-szilard"],
+		["Chicago Pile-1", "chicago-pile-1"]
+	],
+	"physics/manhattan-project": [
+		["Einstein–Szilard letter", "einstein-szilard-letter"],
+		["Manhattan Project", "manhattan-project"],
+		["Hanford Site", "hanford-site"],
+		["Los Alamos", "los-alamos-national-laboratory"],
+		["J. Robert Oppenheimer", "j-robert-oppenheimer"],
+		["Trinity", "trinity-nuclear-test"],
+		["Hiroshima", "atomic-bombings-of-hiroshima-and-nagasaki"],
+		["Franck Report", "franck-report"]
+	],
+	"physics/fusion": [
+		["Arthur\nEddington", "arthur-eddington"],
+		["Hans Bethe", "hans-bethe"],
+		["CNO cycle", "cno-cycle"],
+		["Ivy Mike", "ivy-mike"],
+		["tokamak", "tokamak"],
+		["Joint European Torus", "joint-european-torus"],
+		["National\nIgnition Facility", "national-ignition-facility"],
+		["ITER", "iter"]
+	]
+}
