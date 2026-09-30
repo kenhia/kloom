@@ -346,11 +346,14 @@ def main():
                 print(f'{ref}: marks {name}, which the spec does not list', file=sys.stderr)
                 failed += 1
         if reading != before:
+            # Say what would land, so a clean check is seen to place every mark (sprint 024).
+            placed = len(MARK.findall(reading)) - len(MARK.findall(before))
             if args.check:
-                print(f'{ref}: not marked yet', file=sys.stderr)
+                print(f'{ref}: not marked yet ({placed} marks would place)', file=sys.stderr)
                 failed += 1
             else:
                 path.write_text(reading)
+                print(f'{ref}: marked {placed}')
     return 1 if failed else 0
 
 
