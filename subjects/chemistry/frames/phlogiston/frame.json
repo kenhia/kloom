@@ -1,0 +1,174 @@
+{
+	"id": "phlogiston",
+	"topic": "The phlogiston theory",
+	"position": {
+		"label": "1667–1723",
+		"sort": 1703
+	},
+	"scene": {
+		"headline": "We thought burning let fire",
+		"accent": "ESCAPE.",
+		"palette": "filter",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HALLE · JOHANN JOACHIM BECHER · GEORG ERNST STAHL",
+			"TERRA PINGUIS · PHLOGISTON · THE CALX THAT WEIGHED MORE"
+		],
+		"counter": {
+			"value": "+27%",
+			"label": "the weight tin gains as it burns to a calx"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Essays of Jean Rey, Doctor of Medicine, on an Enquiry into the Cause Wherefore Tin and Lead Increase in Weight on Calcination",
+			"authors": [
+				{
+					"family": "Rey",
+					"given": "Jean"
+				}
+			],
+			"place": "Edinburgh",
+			"publisher": "Alembic Club",
+			"published": "1895",
+			"url": "https://archive.org/details/essaysjeanreydo00reygoog",
+			"accessed": "2026-09-30",
+			"note": "Alembic Club Reprints no. 11, a translation of the Essays of 1630; Brun's tin is in Essay XVI"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "New Experiments to make Fire and Flame Stable and Ponderable",
+			"authors": [
+				{
+					"family": "Boyle",
+					"given": "Robert"
+				}
+			],
+			"place": "London",
+			"published": "1673",
+			"url": "https://archive.org/details/boyleworks03",
+			"accessed": "2026-09-30",
+			"note": "Read in The Works of the Honourable Robert Boyle, vol. 3 (London, 1744); the sealed tin and the air that rushed in"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Chemistry",
+			"container": "Encyclopædia Britannica, 11th edition, vol. 6 (1911), via Wikisource",
+			"authors": [
+				{
+					"family": "Everitt",
+					"given": "Charles"
+				}
+			],
+			"published": "1911",
+			"url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Chemistry",
+			"accessed": "2026-09-30",
+			"note": "The history section: Stahl's system, charcoal as phlogiston, and levity"
+		},
+		{
+			"kind": "book",
+			"title": "Physica subterranea … et Specimen Beccherianum",
+			"authors": [
+				{
+					"family": "Becher",
+					"given": "Johann Joachim"
+				}
+			],
+			"editors": [
+				{
+					"family": "Stahl",
+					"given": "Georg Ernst"
+				}
+			],
+			"place": "Leipzig",
+			"publisher": "Johann Ludwig Gleditsch",
+			"published": "1703",
+			"url": "https://archive.org/details/bub_gb_covAIw32HC4C",
+			"accessed": "2026-09-30",
+			"note": "Stahl's edition; consulted for Becher's terra pinguis"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phlogiston theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phlogiston_theory&oldid=1376062306",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johann Joachim Becher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johann_Joachim_Becher&oldid=1377664406",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Georg Ernst Stahl",
+			"url": "https://en.wikipedia.org/w/index.php?title=Georg_Ernst_Stahl&oldid=1371997652",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean Rey (physician)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean_Rey_(physician)&oldid=1360666030",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "media",
+			"title": "Title page of the 1738 Leipzig edition of Becher's Physica subterranea, with Stahl's Specimen Beccherianum",
+			"url": "https://commons.wikimedia.org/wiki/File:Becher,_Johann_Joachim_%E2%80%93_Physica_subterranea,_1738_%E2%80%93_BEIC_8793369.jpg",
+			"accessed": "2026-09-30",
+			"container": "Biblioteca Europea di Informazione e Cultura (BEIC), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "physica-subterranea.jpg",
+			"authors": [
+				{
+					"family": "Becher",
+					"given": "Johann Joachim"
+				}
+			],
+			"published": "1738"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/copper-smelting",
+			"why": "Stahl's theory read the smelter's work backwards: charcoal gives its phlogiston to the calx, where the modern account has carbon take oxygen from the copper ore."
+		}
+	]
+}

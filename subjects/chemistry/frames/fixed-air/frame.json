@@ -1,0 +1,170 @@
+{
+	"id": "fixed-air",
+	"topic": "Black's fixed air",
+	"position": {
+		"label": "1756",
+		"sort": 1756
+	},
+	"scene": {
+		"headline": "We found air hiding in a",
+		"accent": "POWDER.",
+		"palette": "retort",
+		"illustration": "scene.svg",
+		"metadata": [
+			"EDINBURGH AND GLASGOW · JOSEPH BLACK · HENRY CAVENDISH",
+			"MAGNESIA ALBA · FIXED AIR · INFLAMMABLE AIR"
+		],
+		"counter": {
+			"value": "7/12",
+			"label": "of an ounce of magnesia alba lost in the fire"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Experiments upon Magnesia Alba, Quicklime, and some other Alcaline Substances",
+			"authors": [
+				{
+					"family": "Black",
+					"given": "Joseph"
+				}
+			],
+			"container": "Essays and Observations, Physical and Literary, vol. 2",
+			"pages": "157–225",
+			"place": "Edinburgh",
+			"published": "1756",
+			"url": "https://www.gutenberg.org/ebooks/24591",
+			"accessed": "2026-09-30",
+			"note": "Read in the Alembic Club's reprint of 1898 (Alembic Club Reprints no. 1), via Project Gutenberg"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Three Papers, Containing Experiments on Factitious Air",
+			"authors": [
+				{
+					"family": "Cavendish",
+					"given": "Henry"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "56",
+			"pages": "141–184",
+			"published": "1766",
+			"doi": "10.1098/rstl.1766.0019",
+			"url": "https://archive.org/details/philtrans07266204",
+			"accessed": "2026-09-30",
+			"note": "Zinc's 356 ounce measures, the density of inflammable and fixed air"
+		},
+		{
+			"kind": "report",
+			"title": "Dissertatio medica inauguralis, de humore acido a cibis orto, et magnesia alba",
+			"authors": [
+				{
+					"family": "Black",
+					"given": "Joseph"
+				}
+			],
+			"publisher": "University of Edinburgh",
+			"place": "Edinburgh",
+			"published": "1754",
+			"url": "https://archive.org/details/b30353816",
+			"accessed": "2026-09-30",
+			"note": "Black's MD thesis"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Black",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Black&oldid=1375715726",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Latent heat",
+			"url": "https://en.wikipedia.org/w/index.php?title=Latent_heat&oldid=1377175610",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Magnesium carbonate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Magnesium_carbonate&oldid=1377316719",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Cavendish",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Cavendish&oldid=1372414833",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Watt",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Watt&oldid=1370759179",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "media",
+			"title": "Plate VII of Cavendish's Three Papers on factitious air (1766): his apparatus for making, collecting and weighing gases",
+			"url": "https://commons.wikimedia.org/wiki/File:Apparatus_regarding_factitious_air,_Henry_Cavendish._1766_Wellcome_L0002927.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wellcome Collection, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "cavendish-apparatus.jpg",
+			"authors": [
+				{
+					"family": "Cavendish",
+					"given": "Henry"
+				}
+			],
+			"published": "1766"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/steam",
+			"why": "Joseph Black found latent heat at the University of Glasgow, where his friend James Watt, the university's instrument maker, was working out where a steam engine's heat went, and Black lent him money for the engine."
+		}
+	]
+}

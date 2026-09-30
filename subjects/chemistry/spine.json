@@ -13,6 +13,12 @@
 			"frames": ["jabir", "gunpowder", "mineral-acids"]
 		},
 		{
+			"id": "revolution",
+			"title": "The chemical revolution",
+			"labelKind": "date",
+			"frames": ["boyle", "phlogiston", "fixed-air"]
+		},
+		{
 			"id": "atoms",
 			"title": "Atoms and the table",
 			"labelKind": "date",
