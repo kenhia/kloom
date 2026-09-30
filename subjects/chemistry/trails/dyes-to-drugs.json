@@ -1,0 +1,15 @@
+{
+	"id": "dyes-to-drugs",
+	"title": "From dyes to drugs",
+	"anchor": "mauveine",
+	"spine": {
+		"segments": [
+			{
+				"id": "dyes-to-drugs",
+				"title": "From dyes to drugs",
+				"labelKind": "date",
+				"frames": ["synthetic-indigo", "aspirin", "salvarsan"]
+			}
+		]
+	}
+}

@@ -1,0 +1,131 @@
+{
+	"id": "synthetic-indigo",
+	"topic": "Synthetic indigo",
+	"position": {
+		"label": "1880–97",
+		"sort": 1880
+	},
+	"scene": {
+		"headline": "We made indigo without the",
+		"accent": "PLANT.",
+		"palette": "coaltar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MUNICH · LUDWIGSHAFEN · CHAMPARAN",
+			"ADOLF VON BAEYER · BASF · INDIGO PURE B.A.S.F."
+		],
+		"counter": {
+			"value": "18,000,000",
+			"label": "gold marks spent before BASF's first sale, 1897"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Indigo – 100 Jahre industrielle Synthese",
+			"authors": [
+				{
+					"family": "Schmidt",
+					"given": "Helmut"
+				}
+			],
+			"container": "Chemie in unserer Zeit",
+			"volume": "31",
+			"issue": "3",
+			"pages": "121–128",
+			"published": "1997",
+			"doi": "10.1002/ciuz.19970310304",
+			"url": "http://asso-acit.fr/wp-content/uploads/2018/12/BASF-100-ans-de-synth%C3%A8se-industrielle-INDIGO.pdf",
+			"accessed": "2026-09-30",
+			"note": "Read in its English version, \"Indigo – 100 years of industrial synthesis\": Baeyer's routes and letter to Caro, Heumann, the thermometer, the launch, prices and India's hectares"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "An Autobiography, or The Story of My Experiments with Truth",
+			"authors": [
+				{
+					"family": "Gandhi",
+					"given": "Mohandas K."
+				}
+			],
+			"editors": [
+				{
+					"family": "Desai",
+					"given": "Mahadev"
+				}
+			],
+			"place": "Ahmedabad",
+			"publisher": "Navajivan",
+			"published": "1929",
+			"url": "https://www.mkgandhi.org/autobio/chap136.php",
+			"accessed": "2026-09-30",
+			"note": "Part V, \"The Stain of Indigo\" to \"When a Governor Is Good\"; translated from the Gujarati by Mahadev Desai"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Indigo dye",
+			"url": "https://en.wikipedia.org/w/index.php?title=Indigo_dye&oldid=1368165838",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Adolf von Baeyer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Adolf_von_Baeyer&oldid=1375375674",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Champaran Satyagraha",
+			"url": "https://en.wikipedia.org/w/index.php?title=Champaran_Satyagraha&oldid=1376038418",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "Indigo cultivation in Tirhoot, Bengal: five scenes of the planting season",
+			"url": "https://commons.wikimedia.org/wiki/File:Indigo_Cultivation_in_Tirhoot,_Bengal.jpg",
+			"accessed": "2026-09-30",
+			"container": "The Graphic, 12 February 1881, p. 165, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "indigo-tirhut.jpg",
+			"authors": [
+				{
+					"name": "The Graphic"
+				}
+			],
+			"published": "1881-02-12"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/tyrian-purple",
+			"why": "Tyrian purple is 6,6′-dibromoindigo: the molecule of indigo, whose structure Baeyer wrote down in 1883, with a bromine atom on each half."
+		}
+	]
+}

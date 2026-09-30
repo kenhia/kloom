@@ -1,0 +1,26 @@
+{
+	"title": "The electrospray mass spectrum of Salvarsan, by ring size",
+	"description": "Bar chart of the relative intensity of the peaks for arsenic rings (RAs)n in the electrospray mass spectrum of Salvarsan dissolved in water, as Lloyd, Morgan, Nicholson and Ronimus reported in 2005: three arsenic atoms (m/z 550) 100, four (733) 43, five (916) 90, six (1099) 18, seven (1282) 4 and eight (1465) 2. Rings of three and five dominate; the authors warn that the heights are a qualitative guide to the amounts.",
+	"heading": "SALVARSAN IN WATER · PEAK HEIGHT BY RING SIZE",
+	"unit": "",
+	"axis": {
+		"max": 110,
+		"ticks": [
+			[0, "0"],
+			[25, "25"],
+			[50, "50"],
+			[75, "75"],
+			[100, "100"]
+		]
+	},
+	"bars": [
+		{ "label": "3 As", "sublabel": "m/z 550", "value": 100, "highlight": true },
+		{ "label": "4 As", "sublabel": "m/z 733", "value": 43 },
+		{ "label": "5 As", "sublabel": "m/z 916", "value": 90, "highlight": true },
+		{ "label": "6 As", "sublabel": "m/z 1099", "value": 18 },
+		{ "label": "7 As", "sublabel": "m/z 1282", "value": 4 },
+		{ "label": "8 As", "sublabel": "m/z 1465", "value": 2 }
+	],
+	"barWidth": 44,
+	"width": 520
+}

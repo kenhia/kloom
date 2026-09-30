@@ -1,0 +1,193 @@
+{
+	"id": "salvarsan",
+	"topic": "Ehrlich's Salvarsan",
+	"position": {
+		"label": "1909",
+		"sort": 1909
+	},
+	"scene": {
+		"headline": "We aimed a molecule like a",
+		"accent": "BULLET.",
+		"palette": "coaltar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"FRANKFURT · GEORG-SPEYER-HAUS · HOECHST",
+			"PAUL EHRLICH · SAHACHIRO HATA · ALFRED BERTHEIM"
+		],
+		"counter": {
+			"value": "606",
+			"label": "the compound's number in Ehrlich's series"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Die experimentelle Chemotherapie der Spirillosen (Syphilis, Rückfallfieber, Hühnerspirillose, Frambösie)",
+			"authors": [
+				{
+					"family": "Ehrlich",
+					"given": "Paul"
+				},
+				{
+					"family": "Hata",
+					"given": "Sahachiro"
+				}
+			],
+			"place": "Berlin",
+			"publisher": "Julius Springer",
+			"published": "1910",
+			"url": "https://archive.org/details/dieexperimentell00ehrl",
+			"accessed": "2026-09-30",
+			"note": "Hata's rabbit protocols and doses, pp. 58–81; 592 and 606, p. 21"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Composition of Ehrlich's Salvarsan: Resolution of a Century-Old Debate",
+			"authors": [
+				{
+					"family": "Lloyd",
+					"given": "Nicholas C."
+				},
+				{
+					"family": "Morgan",
+					"given": "Hugh W."
+				},
+				{
+					"family": "Nicholson",
+					"given": "Brian K."
+				},
+				{
+					"family": "Ronimus",
+					"given": "Ron S."
+				}
+			],
+			"container": "Angewandte Chemie International Edition",
+			"volume": "44",
+			"issue": "6",
+			"pages": "941–944",
+			"published": "2005",
+			"doi": "10.1002/anie.200461471",
+			"url": "https://researchcommons.waikato.ac.nz/bitstreams/514f2ee6-dac5-4577-9898-ef5f2a742459/download",
+			"accessed": "2026-09-30",
+			"note": "The electrospray spectrum, its peak table and the rings; read in the authors' manuscript"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Introduction of 'Chemotherapy' Using Arsphenamine: The First Magic Bullet",
+			"authors": [
+				{
+					"family": "Williams",
+					"given": "K. J."
+				}
+			],
+			"container": "Journal of the Royal Society of Medicine",
+			"volume": "102",
+			"issue": "8",
+			"pages": "343–348",
+			"published": "2009",
+			"doi": "10.1258/jrsm.2009.09k036",
+			"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2726818/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "The Contributions of Paul Ehrlich to Pharmacology: A Tribute on the Occasion of the Centenary of His Nobel Prize",
+			"authors": [
+				{
+					"family": "Bosch",
+					"given": "Fèlix"
+				},
+				{
+					"family": "Rosich",
+					"given": "Laia"
+				}
+			],
+			"container": "Pharmacology",
+			"volume": "82",
+			"issue": "3",
+			"pages": "171–179",
+			"published": "2008",
+			"doi": "10.1159/000149583",
+			"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2790789/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arsphenamine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arsphenamine&oldid=1363153022",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-08",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Magic bullet (medicine)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Magic_bullet_(medicine)&oldid=1365169846",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sahachiro Hata",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sahachiro_Hata&oldid=1372378028",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Ehrlich",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Ehrlich&oldid=1371982230",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Paul Ehrlich and Sahachiro Hata",
+			"url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Paul_Ehrlich_and_Sahachiro_Hata_Wellcome_M0013258.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wellcome Collection, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "ehrlich-hata.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "The electrospray mass spectrum of Salvarsan, by ring size",
+			"url": "https://researchcommons.waikato.ac.nz/bitstreams/514f2ee6-dac5-4577-9898-ef5f2a742459/download",
+			"accessed": "2026-09-30",
+			"container": "Chart drawn for kloom from Lloyd, Morgan, Nicholson and Ronimus (2005), Table 1",
+			"licence": "MIT",
+			"file": "ring-sizes.svg"
+		}
+	]
+}

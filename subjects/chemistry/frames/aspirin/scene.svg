@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M68 128 a20 20 0 1 0 40 0 a20 20 0 1 0 -40 0"/>
+		<path pathLength="1" d="M242 128 a20 20 0 1 0 40 0 a20 20 0 1 0 -40 0"/>
+		<path pathLength="1" d="M20 214 L380 214"/>
+		<path pathLength="1" d="M150 128 L200 128"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M88 108 L105.3 118 L105.3 138 L88 148 L70.7 138 L70.7 118 Z"/>
+		<path pathLength="1" d="M262 108 L279.3 118 L279.3 138 L262 148 L244.7 138 L244.7 118 Z"/>
+		<path pathLength="1" d="M88 108 L88 88"/>
+		<path pathLength="1" d="M88.8 86.6 L71.5 76.6 M87.2 89.4 L69.9 79.4"/>
+		<path pathLength="1" d="M88 88 L105.3 78"/>
+		<path pathLength="1" d="M105.3 118 L122.6 108"/>
+		<path pathLength="1" d="M262 108 L262 88"/>
+		<path pathLength="1" d="M262.8 86.6 L245.5 76.6 M261.2 89.4 L243.9 79.4"/>
+		<path pathLength="1" d="M262 88 L279.3 78"/>
+		<path pathLength="1" d="M279.3 118 L296.6 108"/>
+		<path pathLength="1" d="M296.6 108 L314 118 L331.3 108"/>
+		<path pathLength="1" d="M312.4 118 L312.4 138 M315.6 118 L315.6 138"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M89.5 112.6 L100.6 119 M100.6 137 L89.5 143.4 M73.9 134.4 L73.9 121.6"/>
+		<path pathLength="1" d="M263.5 112.6 L274.6 119 M274.6 137 L263.5 143.4 M247.9 134.4 L247.9 121.6"/>
+		<path pathLength="1" d="M152 128 L198 128 M193.5 130.2 L198 128 L193.5 125.8"/>
+		<path pathLength="1" d="M65 236 L155 236"/>
+		<path pathLength="1" d="M65 232 L65 240 M155 232 L155 240"/>
+		<path pathLength="1" d="M222.5 236 L357.5 236"/>
+		<path pathLength="1" d="M222.5 232 L222.5 240 M357.5 232 L357.5 240"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="63.8" y="74" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="113.1" y="73.5" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OH</text>
+		<text x="131.3" y="103" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OH</text>
+		<text x="237.8" y="74" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="287.1" y="73.5" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OH</text>
+		<text x="296.6" y="102" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="314" y="148" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="341.7" y="102" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CH₃</text>
+		<text x="175" y="118" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">(CH₃CO)₂O</text>
+		<text x="88" y="186" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C₇H₆O₃ · 138</text>
+		<text x="262" y="186" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C₉H₈O₄ · 180</text>
+		<text x="110" y="256" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">50 PARTS</text>
+		<text x="290" y="256" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">75 PARTS</text>
+		<text x="200" y="280" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2 HOURS AT 150 °C · US PATENT 644,077</text>
+	</g>
+</svg>
