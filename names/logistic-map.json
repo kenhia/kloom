@@ -1,0 +1,8 @@
+{
+	"id": "logistic-map",
+	"wikidata": "Q587182",
+	"name": "Logistic map",
+	"aliases": ["logistic difference equation"],
+	"kind": "idea",
+	"description": "The iteration x → rx(1 − x), a model of a population that runs from steady to periodic to chaotic behaviour as r grows."
+}

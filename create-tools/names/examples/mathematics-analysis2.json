@@ -1,0 +1,21 @@
+{
+	"mathematics/gradient-descent": [
+		["Augustin-Louis Cauchy", "augustin-louis-cauchy"],
+		["gradient descent", "gradient-descent"],
+		["Pierre de Fermat", "pierre-de-fermat"],
+		["Joseph-Louis Lagrange", "joseph-louis-lagrange"],
+		["Herbert Robbins", "herbert-robbins"],
+		["Bernard Widrow", "bernard-widrow"],
+		["backpropagation", "backpropagation"]
+	],
+	"mathematics/chaos": [
+		["three-body problem", "three-body-problem"],
+		["Henri Poincaré", "henri-poincare"],
+		["Edward Lorenz", "edward-norton-lorenz"],
+		["LGP-30", "lgp-30"],
+		["butterfly effect", "butterfly-effect"],
+		["Robert May", "robert-may-baron-may-of-oxford"],
+		["logistic map", "logistic-map"],
+		["Mitchell Feigenbaum", "mitchell-feigenbaum"]
+	]
+}

@@ -25,6 +25,12 @@
 			"frames": ["matrices", "monster"]
 		},
 		{
+			"id": "analysis",
+			"title": "Analysis",
+			"labelKind": "category",
+			"frames": ["gradient-descent", "chaos"]
+		},
+		{
 			"id": "logic",
 			"title": "Logic and foundations",
 			"labelKind": "category",
