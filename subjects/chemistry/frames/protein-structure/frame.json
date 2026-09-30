@@ -1,0 +1,224 @@
+{
+	"id": "protein-structure",
+	"topic": "Protein sequence and structure",
+	"position": {
+		"label": "Proteins"
+	},
+	"scene": {
+		"headline": "We folded the chain into a",
+		"accent": "HELIX.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": ["CALTECH · CAMBRIDGE", "PAULING, COREY AND BRANSON · SANGER · KENDREW AND PERUTZ"],
+		"counter": {
+			"value": "3.6",
+			"label": "amino acids in each turn of the α-helix"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "The Structure of Proteins: Two Hydrogen-Bonded Helical Configurations of the Polypeptide Chain",
+			"authors": [
+				{
+					"family": "Pauling",
+					"given": "Linus"
+				},
+				{
+					"family": "Corey",
+					"given": "Robert B."
+				},
+				{
+					"family": "Branson",
+					"given": "H. R."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "37",
+			"issue": "4",
+			"pages": "205–211",
+			"published": "1951-04",
+			"doi": "10.1073/pnas.37.4.205",
+			"accessed": "2026-09-30",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1063337/",
+			"key": true,
+			"note": "3.69 residues a turn, 1.47 Å a residue and 5.44 Å a turn, on p. 209"
+		},
+		{
+			"kind": "article",
+			"title": "The Discovery of the α-Helix and β-Sheet, the Principal Structural Features of Proteins",
+			"authors": [
+				{
+					"family": "Eisenberg",
+					"given": "David"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "100",
+			"issue": "20",
+			"pages": "11207–11210",
+			"published": "2003-09-30",
+			"doi": "10.1073/pnas.2034522100",
+			"accessed": "2026-09-30",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC208735/",
+			"key": true,
+			"note": "Pauling's Oxford telling, quoted from Serafini (1989), and Perutz's horse hair, quoted from Perutz (1998)"
+		},
+		{
+			"kind": "web",
+			"title": "The Chemistry of Insulin",
+			"authors": [
+				{
+					"family": "Sanger",
+					"given": "Frederick"
+				}
+			],
+			"container": "Nobel Lectures",
+			"publisher": "Nobel Foundation",
+			"published": "1958-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/sanger-lecture.pdf",
+			"accessed": "2026-09-30",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Myoglobin and the Structure of Proteins",
+			"authors": [
+				{
+					"family": "Kendrew",
+					"given": "John C."
+				}
+			],
+			"container": "Nobel Lectures",
+			"publisher": "Nobel Foundation",
+			"published": "1962-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/kendrew-lecture.pdf",
+			"accessed": "2026-09-30",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "X-ray Analysis of Haemoglobin",
+			"authors": [
+				{
+					"family": "Perutz",
+					"given": "Max F."
+				}
+			],
+			"container": "Nobel Lectures",
+			"publisher": "Nobel Foundation",
+			"published": "1962-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/perutz-lecture.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alpha helix",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alpha_helix&oldid=1376016024",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Beta sheet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Beta_sheet&oldid=1371639921",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linus Pauling",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linus_Pauling&oldid=1374355649",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frederick Sanger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frederick_Sanger&oldid=1373608640",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Max Perutz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Max_Perutz&oldid=1374213793",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Kendrew",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Kendrew&oldid=1372023765",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Model of sperm whale myoglobin by J. C. Kendrew and H. C. Watson, MRC Laboratory of Molecular Biology, Cambridge",
+			"url": "https://commons.wikimedia.org/wiki/File:Myoglobin_protein_model,_created_by_Dr._John_Kendrew_and_technician_at_Cambridge_University,_1965_-_National_Museum_of_American_History_-_DSC00018.jpg",
+			"accessed": "2026-09-30",
+			"container": "National Museum of American History, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "myoglobin-model.jpg",
+			"authors": [
+				{
+					"name": "Daderot"
+				}
+			],
+			"published": "2015-03-27"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/dna",
+			"why": "Watson and Crick found the double helix by building models from bond lengths and angles, as Pauling had found the α-helix, months after Pauling's own triple helix for DNA went wrong."
+		},
+		{
+			"to": "computing/edsac",
+			"why": "Kendrew's maps of myoglobin, the first protein structure, were computed from their first stage on EDSAC, whose early users included X-ray crystallographers."
+		}
+	]
+}

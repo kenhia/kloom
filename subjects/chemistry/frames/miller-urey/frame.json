@@ -1,0 +1,237 @@
+{
+	"id": "miller-urey",
+	"topic": "The Miller–Urey experiment",
+	"position": {
+		"label": "Origins"
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We cooked amino acids with",
+		"accent": "LIGHTNING.",
+		"palette": "agar",
+		"illustration": "scene.svg",
+		"metadata": ["UNIVERSITY OF CHICAGO · 1952–53", "STANLEY MILLER · HAROLD UREY · SCIENCE 117"],
+		"counter": {
+			"value": "2 : 2 : 1",
+			"label": "methane, ammonia and hydrogen, by pressure"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "A Production of Amino Acids Under Possible Primitive Earth Conditions",
+			"authors": [
+				{
+					"family": "Miller",
+					"given": "Stanley L."
+				}
+			],
+			"container": "Science",
+			"volume": "117",
+			"issue": "3046",
+			"pages": "528–529",
+			"published": "1953-05-15",
+			"doi": "10.1126/science.117.3046.528",
+			"accessed": "2026-09-30",
+			"url": "https://archive.org/details/miller480763",
+			"key": true,
+			"note": "The apparatus, the gases and the amino acids found; read in a scan on the Internet Archive"
+		},
+		{
+			"kind": "article",
+			"title": "The Miller Volcanic Spark Discharge Experiment",
+			"authors": [
+				{
+					"family": "Johnson",
+					"given": "Adam P."
+				},
+				{
+					"family": "Cleaves",
+					"given": "H. James"
+				},
+				{
+					"family": "Dworkin",
+					"given": "Jason P."
+				},
+				{
+					"family": "Glavin",
+					"given": "Daniel P."
+				},
+				{
+					"family": "Lazcano",
+					"given": "Antonio"
+				},
+				{
+					"family": "Bada",
+					"given": "Jeffrey L."
+				}
+			],
+			"container": "Science",
+			"volume": "322",
+			"issue": "5900",
+			"pages": "404",
+			"published": "2008-10-17",
+			"doi": "10.1126/science.1161527",
+			"accessed": "2026-09-30",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18927386/",
+			"note": "Read in its abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Primordial Synthesis of Amines and Amino Acids in a 1958 Miller H₂S-Rich Spark Discharge Experiment",
+			"authors": [
+				{
+					"family": "Parker",
+					"given": "Eric T."
+				},
+				{
+					"family": "Cleaves",
+					"given": "Henderson J."
+				},
+				{
+					"family": "Dworkin",
+					"given": "Jason P."
+				},
+				{
+					"family": "Glavin",
+					"given": "Daniel P."
+				},
+				{
+					"family": "Callahan",
+					"given": "Michael"
+				},
+				{
+					"family": "Aubrey",
+					"given": "Andrew"
+				},
+				{
+					"family": "Lazcano",
+					"given": "Antonio"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "108",
+			"issue": "14",
+			"pages": "5526–5531",
+			"published": "2011-04-05",
+			"doi": "10.1073/pnas.1019191108",
+			"accessed": "2026-09-30",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3078417/",
+			"etAl": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Miller–Urey experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Miller%E2%80%93Urey_experiment&oldid=1375759428",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stanley Miller",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stanley_Miller&oldid=1376752060",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harold Urey",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harold_Urey&oldid=1376855767",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Primordial soup",
+			"url": "https://en.wikipedia.org/w/index.php?title=Primordial_soup&oldid=1373841427",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Strecker amino acid synthesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Strecker_amino_acid_synthesis&oldid=1367977654",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "RNA world",
+			"url": "https://en.wikipedia.org/w/index.php?title=RNA_world&oldid=1373528112",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Abiogenesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abiogenesis&oldid=1376735019",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "The Murchison meteorite, which fell in Victoria, Australia, in 1969",
+			"url": "https://commons.wikimedia.org/wiki/File:Murchison_meteorite_-_Naturmuseum_Freiburg_-_DSC06761.jpg",
+			"accessed": "2026-09-30",
+			"container": "Naturmuseum Freiburg, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "murchison.jpg",
+			"authors": [
+				{
+					"name": "Daderot"
+				}
+			],
+			"published": "2011-04-29"
+		}
+	]
+}
