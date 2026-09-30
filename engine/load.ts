@@ -190,10 +190,13 @@ export async function readGraphSubject(dir: string, id = basename(dir)): Promise
 				const file = (await json(join(at, 'frame.json')).catch(() => undefined)) as Obj;
 				if (!isObj(file) || !isObj(file.scene) || !isObj(file.position)) continue;
 				const reading = (await text(join(at, 'reading.md'))) ?? '';
+				const title = `${file.scene.headline} ${file.scene.accent}`;
 				frames.push({
 					subject: id,
 					frame,
-					title: `${file.scene.headline} ${file.scene.accent}`,
+					title,
+					// A frame from before topics (a content clone behind) names itself by its title.
+					topic: typeof file.topic === 'string' && file.topic.trim() ? file.topic.trim() : title,
 					label: String(file.position.label),
 					trail,
 					connections: Array.isArray(file.connections)

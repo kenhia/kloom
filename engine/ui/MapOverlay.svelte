@@ -56,6 +56,11 @@
 	let asList = $state<boolean | null>(null);
 	/** The node with focus (or the pointer): the one the details describe. */
 	let active = $state<string | null>(null);
+	/** The node under the pointer, and the node with visible (keyboard) focus. */
+	let hovered = $state<string | null>(null);
+	let focused = $state<string | null>(null);
+	/** The node whose links are brought forward; none at rest, when every line is dimmed. */
+	const hot = $derived(hovered ?? focused);
 	let width = $state(0);
 	let height = $state(0);
 
@@ -98,9 +103,9 @@
 							x: p.x,
 							y: p.y,
 							r: Math.max(12, n.size),
-							// About the width of the label at 0.75rem.
-							width: n.label.length * 6.6 + 8,
-							height: 18,
+							// About the size of the label at 0.75rem, with its plate.
+							width: Math.max(...n.lines.map((l) => l.length)) * 6.6 + 10,
+							height: 18 * n.lines.length,
 							priority: priority(n)
 						};
 					}),
@@ -109,14 +114,28 @@
 			: new Map()
 	);
 
-	/** The edges touching the active node, drawn over the rest. */
-	const lit = $derived(
+	/** The hot node's neighbours on this map: marked, where the rest dim. */
+	const near = $derived(
 		new Set(
 			view?.edges
-				.filter((e) => active && (e.a === active || e.b === active))
-				.flatMap((e) => [e.a, e.b]) ?? []
+				.filter((e) => hot && (e.a === hot || e.b === hot))
+				.map((e) => (e.a === hot ? e.b : e.a)) ?? []
 		)
 	);
+	const isLit = (e: { a: string; b: string }) => !!hot && (e.a === hot || e.b === hot);
+	/** The edges, the hot node's last, so they are drawn over the rest. */
+	const edges = $derived(
+		view ? [...view.edges].sort((x, y) => Number(isLit(x)) - Number(isLit(y))) : []
+	);
+	/** How many a node is linked to on this map: said in the details. */
+	const linkedTo = (node: string) =>
+		view?.edges.filter((e) => e.a === node || e.b === node).length ?? 0;
+
+	/** Focus from the keyboard brings a node forward, as the pointer does. */
+	function focusNode(e: FocusEvent, node: string) {
+		active = node;
+		focused = (e.currentTarget as HTMLElement).matches(':focus-visible') ? node : null;
+	}
 
 	/** Open the map on a view. */
 	export async function show(o: MapOpen) {
@@ -139,6 +158,7 @@
 	/** After the view changes: focus its centre (or its first entry), and describe it. */
 	async function settle() {
 		active = view?.center ?? null;
+		hovered = focused = null;
 		await tick();
 		const first = asList
 			? dialog?.querySelector<HTMLElement>('.list [data-stop]')
@@ -456,13 +476,13 @@
 				onkeydown={mapKeys}
 			>
 				{#if fit}
-					<svg class="edges" {width} {height} aria-hidden="true">
-						{#each view.edges as e (`${e.a} ${e.b}`)}
+					<svg class="edges" class:emphasis={!!hot} {width} {height} aria-hidden="true">
+						{#each edges as e (`${e.a} ${e.b}`)}
 							{@const a = screen.get(e.a)!}
 							{@const b = screen.get(e.b)!}
 							<line
 								class="edge {e.kind}"
-								class:lit={lit.has(e.a) && lit.has(e.b) && (e.a === active || e.b === active)}
+								class:lit={isLit(e)}
 								x1={a.x}
 								y1={a.y}
 								x2={b.x}
@@ -482,20 +502,27 @@
 							class:centre={n.id === view.center && view.target.view !== 'library'}
 							class:here={n.id === `f:${here}`}
 							class:active={n.id === active}
+							class:hot={n.id === hot}
+							class:near={near.has(n.id)}
+							class:far={!!hot && n.id !== hot && !near.has(n.id)}
 							style:left="{p.x}px"
 							style:top="{p.y}px"
+							style:--slot={slotStyle(n)}
 							tabindex={n.id === active ? 0 : -1}
 							data-node={n.id}
 							aria-label={said(n)}
 							onclick={() => (n.id === view.center ? (active = n.id) : centre(n.id))}
 							ondblclick={() => enter(n.id)}
-							onfocus={() => (active = n.id)}
-							onpointerenter={() => (active = n.id)}
+							onfocus={(e) => focusNode(e, n.id)}
+							onblur={() => (focused = null)}
+							onpointerenter={() => (active = hovered = n.id)}
+							onpointerleave={() => (hovered = null)}
 						>
 							{@render glyph(n, n.size)}
 							<span
 								class="label {side ?? (p.x > width / 2 ? 'hidden to-left' : 'hidden')}"
-								aria-hidden="true">{n.label}</span
+								aria-hidden="true"
+								>{#each n.lines as line, i (i)}<span>{line}</span>{/each}</span
 							>
 						</button>
 					{/each}
@@ -509,7 +536,8 @@
 					{#if detail}
 						<p class="what">
 							<strong>{detail.n.full}</strong>
-							<span class="context">{detail.n.detail}</span>
+							<span class="context">{detail.n.detail} · linked to {linkedTo(detail.n.id)} here</span
+							>
 						</p>
 						{#if detail.why}<p class="why">{detail.why}</p>{/if}
 						{#if detail.about}<p class="why">{detail.about}</p>{/if}
@@ -694,29 +722,38 @@
 		color: var(--map-muted);
 	}
 
+	/* A double-click on a node goes: it must not select its label's words.
+	   The details and the list stay selectable. */
 	.canvas {
 		position: relative;
 		overflow: hidden;
+		user-select: none;
+		-webkit-user-select: none;
 	}
 	.edges {
 		position: absolute;
 		inset: 0;
 	}
+	/* At rest every line is dimmed toward the surface (sprint 020); the hot
+	   node's lines come forward in full ink, and the rest recede further. */
 	.edge {
 		stroke: var(--map-line);
 		stroke-width: 1.25;
+		opacity: 0.7;
 	}
-	.edge.connection {
+	.edge.connection,
+	.edge.between {
 		stroke: var(--map-muted);
 		stroke-width: 1.5;
+		opacity: 0.35;
 	}
 	.edge.mention {
 		stroke-dasharray: 2 3;
 	}
-	.edge.between {
-		stroke: var(--map-muted);
+	.emphasis .edge {
+		opacity: 0.18;
 	}
-	.edge.lit {
+	.emphasis .edge.lit {
 		stroke: var(--map-ink);
 		opacity: 1;
 	}
@@ -743,6 +780,7 @@
 		filter: drop-shadow(0 0 0 var(--map-ink));
 	}
 	.node.active::after,
+	.node.near::after,
 	.node.here::before {
 		content: '';
 		position: absolute;
@@ -755,13 +793,45 @@
 		border-style: dashed;
 		inset: -7px;
 	}
+	/* The hot node's neighbours: outlined, their labels ruled in their subject's colour. */
+	.node.near::after {
+		inset: -3px;
+		border-width: 1px;
+	}
+	.node.far {
+		opacity: 0.35;
+	}
+	.node.hot,
+	.node.near {
+		z-index: 1;
+	}
+	/* On a plate of the surface, so no line runs through the words. */
 	.label {
 		position: absolute;
+		display: grid;
+		justify-items: start;
+		padding: 0 0.2rem;
 		white-space: nowrap;
 		font-size: 0.75rem;
 		line-height: 18px;
 		color: var(--map-ink);
+		background: var(--map-surface);
+		border-radius: 0.2rem;
 		pointer-events: none;
+	}
+	.label.left {
+		justify-items: end;
+	}
+	.label.above,
+	.label.below {
+		justify-items: center;
+	}
+	.node.near .label > span {
+		text-decoration: underline 2px var(--slot);
+		text-underline-offset: 3px;
+	}
+	.node.hot .label {
+		font-weight: 600;
 	}
 	.node.name .label {
 		color: var(--map-muted);
@@ -806,11 +876,14 @@
 		left: auto;
 		right: calc(100% + 4px);
 	}
-	.node.active {
+	.node.active,
+	.node.hot {
 		z-index: 2;
 	}
-	.node.active .label.hidden {
-		display: block;
+	.node.active .label.hidden,
+	.node.hot .label.hidden,
+	.node.near .label.hidden {
+		display: grid;
 	}
 
 	footer {
@@ -820,13 +893,29 @@
 		border-top: 1px solid var(--map-line);
 		font-size: 0.85rem;
 	}
+	/* One height for every state, empty or full, so the graph above never
+	   resizes as the pointer moves (sprint 020): the lines are clamped, and
+	   the list has them whole. */
 	.details {
 		display: grid;
+		align-content: start;
 		gap: 0.25rem;
-		min-height: 3.5rem;
+		/* One line of what, two of why, a row of buttons. */
+		height: 6rem;
+		overflow: hidden;
 	}
 	.details p {
 		margin: 0;
+		line-height: 1.35;
+	}
+	.details .what {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.details .why {
+		max-height: 2.7em;
+		overflow: hidden;
 	}
 	.context {
 		color: var(--map-muted);
@@ -943,6 +1032,17 @@
 		}
 		footer {
 			padding: 0.5rem 0.75rem;
+		}
+		.details {
+			/* Two lines of what, one of why, buttons that may wrap. */
+			height: 8.2rem;
+		}
+		.details .what {
+			white-space: normal;
+			max-height: 2.7em;
+		}
+		.details .why {
+			max-height: 1.35em;
 		}
 		.list {
 			padding: 0.25rem 0.75rem 1rem;

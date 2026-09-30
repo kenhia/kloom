@@ -27,7 +27,10 @@ import type { NameKind } from './names';
 export interface MapFrame {
 	/** `<subject>/<frame>`. */
 	key: string;
+	/** Headline and accent: said in the details, after the topic. */
 	title: string;
+	/** What it is about: its name on the map (sprint 020). */
+	topic: string;
 	label: string;
 	trail: string | null;
 }
@@ -72,6 +75,7 @@ export function mapDataOf(graph: Graph): MapData {
 		frames: [...graph.frames].map(([key, f]) => ({
 			key,
 			title: f.title,
+			topic: f.topic,
 			label: f.label,
 			trail: f.trail
 		})),
@@ -127,8 +131,8 @@ export interface MapNode {
 	/** `f:<subject>/<frame>`, `n:<name>` or `s:<subject>`. */
 	id: string;
 	kind: MapNodeKind;
-	/** On the map: cut short when long. */
-	label: string;
+	/** On the map: the whole of it, in one line or two (`labelLines`). */
+	lines: string[];
 	/** Whole, for lists, the details and screen readers. */
 	full: string;
 	/** Said after the label: a position, a subject, a count. */
@@ -191,9 +195,23 @@ export const subjectNode = (id: string) => `s:${id}`;
  */
 export const SHARED_CAP = 8;
 
-/** A title as the start of a sentence's clause: its closing stop dropped. */
-const clause = (s: string) => s.replace(/[.!?]$/, '');
-const truncate = (s: string, n = 30) => (s.length > n ? `${s.slice(0, n - 1).trimEnd()}…` : s);
+/** Past this many characters a label takes two lines. */
+const LINE = 22;
+
+/**
+ * A label on the map, whole: one line when it is short, else two about as
+ * long as each other, broken at a space. Never cut, and never inside a word.
+ */
+export function labelLines(s: string): string[] {
+	if (s.length <= LINE) return [s];
+	let best: string[] = [s];
+	for (let i = s.indexOf(' '); i > 0; i = s.indexOf(' ', i + 1)) {
+		const pair = [s.slice(0, i), s.slice(i + 1)];
+		if (Math.max(...pair.map((l) => l.length)) < Math.max(...best.map((l) => l.length)))
+			best = pair;
+	}
+	return best;
+}
 const plural = (n: number, one: string, many = `${one}s`) =>
 	n === 0 ? `no ${many}` : `${n} ${n === 1 ? one : many}`;
 
@@ -224,9 +242,9 @@ class Builder {
 			this.nodes.set(id, {
 				id,
 				kind: 'frame',
-				label: truncate(f.title),
-				full: f.title,
-				detail: [f.label, s === here ? null : this.index.subjectTitle(s)]
+				lines: labelLines(f.topic),
+				full: f.topic,
+				detail: [f.title, f.label, s === here ? null : this.index.subjectTitle(s)]
 					.filter(Boolean)
 					.join(' · '),
 				subject: s,
@@ -245,7 +263,7 @@ class Builder {
 			this.nodes.set(node, {
 				id: node,
 				kind: 'name',
-				label: truncate(n.name),
+				lines: labelLines(n.name),
 				full: n.name,
 				detail: `${n.kind}, in ${plural(reach, 'frame')}`,
 				subject: null,
@@ -353,7 +371,7 @@ function neighbourhood(index: MapIndex, key: string, steps: 1 | 2): MapView {
 	const nameList = (ids: string[]) => ids.map((id) => index.data.names[id].name).join(', ');
 	return b.done(
 		{ view: 'frame', key, steps },
-		`Around ${f.title}`,
+		`Around ${f.topic}`,
 		center,
 		[
 			{
@@ -363,7 +381,7 @@ function neighbourhood(index: MapIndex, key: string, steps: 1 | 2): MapView {
 			{
 				title: 'Two steps away',
 				items: second.map((s) =>
-					b.item(frameNode(s.key), `Through ${clause(index.frames.get(s.via)!.title)}: ${s.why}`)
+					b.item(frameNode(s.key), `Through ${index.frames.get(s.via)!.topic}: ${s.why}`)
 				)
 			},
 			{
@@ -393,7 +411,7 @@ function library(index: MapIndex): MapView {
 		b.nodes.set(subjectNode(s.id), {
 			id: subjectNode(s.id),
 			kind: 'subject',
-			label: truncate(s.title, 36),
+			lines: labelLines(s.title),
 			full: s.title,
 			detail: plural(n, 'frame'),
 			subject: s.id,
@@ -445,7 +463,7 @@ function subjectView(index: MapIndex, id: string): MapView {
 	b.nodes.set(center, {
 		id: center,
 		kind: 'subject',
-		label: truncate(index.subjectTitle(id), 36),
+		lines: labelLines(index.subjectTitle(id)),
 		full: index.subjectTitle(id),
 		detail: plural(own.length, 'frame'),
 		subject: id,
@@ -476,7 +494,7 @@ function subjectView(index: MapIndex, id: string): MapView {
 						frameNode(f.key),
 						index.connected
 							.get(f.key)!
-							.map((c) => index.frames.get(c.key)!.title)
+							.map((c) => index.frames.get(c.key)!.topic)
 							.join('; ')
 					)
 				)
@@ -485,9 +503,7 @@ function subjectView(index: MapIndex, id: string): MapView {
 				title: `In ${index.subjectTitle(o)}`,
 				items: out
 					.filter((x) => subjectOf(x.key) === o)
-					.map((x) =>
-						b.item(frameNode(x.key), `From ${clause(index.frames.get(x.from)!.title)}: ${x.why}`)
-					)
+					.map((x) => b.item(frameNode(x.key), `From ${index.frames.get(x.from)!.topic}: ${x.why}`))
 			}))
 		],
 		own.length > linked.length

@@ -32,6 +32,12 @@ const isObj = (v: unknown): v is Obj => typeof v === 'object' && v !== null && !
 const isText = (v: unknown): v is string => typeof v === 'string' && v.trim() !== '';
 const COLOURS = ['background', 'ink', 'muted', 'accent', 'line'] as const;
 
+/**
+ * The longest a frame's topic may be: a map label, a list line. Set from the
+ * backfill (sprint 020), whose longest topic fits with room to spare.
+ */
+export const TOPIC_MAX = 40;
+
 /** Files a frame may serve to the reading pane: a plain name, an image type. */
 export const MEDIA_FILE = /^[\w-][\w.-]*\.(png|jpe?g|webp|gif|svg)$/i;
 
@@ -161,6 +167,8 @@ export function validate(raw: RawSubject, options: ValidateOptions = {}): string
 
 	// The accent word is a frame's signature: no two in a subject share one.
 	const accents = new Map<string, string>();
+	// A topic names a frame plainly, so no two in a subject share one either.
+	const topics = new Map<string, string>();
 
 	for (const [dir, { frame, reading, svgs, media }] of Object.entries(raw.frames)) {
 		const where = `frames/${dir}`;
@@ -172,6 +180,28 @@ export function validate(raw: RawSubject, options: ValidateOptions = {}): string
 		if (frame.id !== dir) fail(where, `id must match the directory name ("${dir}")`);
 		if (!isObj(frame.position) || !isText(frame.position.label))
 			fail(where, 'position.label is required');
+
+		// The topic (sprint 020): what the frame is about, in a plain title, where
+		// the headline is evocative and the position label may be a date.
+		if (!isText(frame.topic)) fail(where, 'topic is required');
+		else {
+			const topic = frame.topic.trim();
+			const accent =
+				isObj(frame.scene) && isText(frame.scene.accent)
+					? frame.scene.accent.trim().replace(/[.!?]+$/, '')
+					: '';
+			if (topic.length > TOPIC_MAX)
+				fail(where, `topic is ${topic.length} characters; at most ${TOPIC_MAX}`);
+			else if (/[.!]$/.test(topic)) fail(where, 'topic is a title: no closing "." or "!"');
+			else if (
+				accent.length > 1 &&
+				new RegExp(`(^|\\W)${accent.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(\\W|$)`).test(topic)
+			)
+				fail(where, `topic must say what the frame is about, not repeat its accent "${accent}"`);
+			const other = topics.get(topic.toLowerCase());
+			if (other) fail(where, `topic "${topic}" is already frames/${other}'s`);
+			else topics.set(topic.toLowerCase(), dir);
+		}
 
 		const scene = frame.scene;
 		if (!isObj(scene)) fail(where, 'scene is required');

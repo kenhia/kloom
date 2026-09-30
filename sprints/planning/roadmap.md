@@ -128,6 +128,13 @@
   a name's frames; a seeded layout that never moves, keyboard moves between
   neighbours, and "Show as list" (3441) — [record](../019-connections-3-the-map.md).
 
+- Sprint 020: a map you can read (proposal 3450). A `topic` on every
+  frame, backfilled across the four subjects and written by grow and
+  author-subject (3446); map labels by topic, shown whole, lines dimmed at
+  rest and brought forward for the hovered or focused node, and a details
+  panel that never resizes the graph (3447); no text selected on a
+  double-click (3448) — [record](../020-a-map-you-can-read.md).
+
 ## Next
 
 - Connections, phase 4: Physics (3428), the first subject written with

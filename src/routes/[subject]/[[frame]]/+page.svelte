@@ -247,7 +247,7 @@
 	function follow(subject: string, frame: string) {
 		const f = current;
 		const from = f
-			? [{ subject: data.subject.id, frame: f.id, title: titleOf(f), subjectTitle: here.title }]
+			? [{ subject: data.subject.id, frame: f.id, title: f.topic, subjectTitle: here.title }]
 			: [];
 		jumped = true;
 		goto(frameHref(subject, frame), { state: { back: [...(page.state.back ?? []), ...from] } });
@@ -306,7 +306,7 @@
 								: m.label,
 						context:
 							m.subject === data.subject.id && data.subject.frames[m.frame]
-								? data.subject.frames[m.frame].position.label
+								? `${data.subject.frames[m.frame].position.label} · ${data.subject.frames[m.frame].topic}`
 								: m.subjectTitle,
 						href: frameHref(m.subject, m.frame),
 						frame: m.subject === data.subject.id ? m.frame : undefined

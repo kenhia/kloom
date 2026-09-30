@@ -6,6 +6,7 @@ export const grownFrame = (id: string, sort: number, palette = 'parchment') => (
 	'frame.json': JSON.stringify(
 		{
 			id,
+			topic: `The ${id} frame`,
 			position: { label: `AD ${sort}`, sort },
 			scene: {
 				headline: 'We nailed',

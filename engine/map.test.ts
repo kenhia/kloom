@@ -1,6 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 import { buildGraph, type GraphSubject } from './graph';
 import {
+	labelLines,
 	layoutView,
 	mapDataOf,
 	MapIndex,
@@ -18,6 +19,7 @@ const frame = (subject: string, id: string, extra: Partial<F> = {}): F => ({
 	subject,
 	frame: id,
 	title: `We did ${id.toUpperCase()}.`,
+	topic: `Topic ${id}`,
 	label: id,
 	trail: null,
 	connections: [],
@@ -108,8 +110,8 @@ describe('a neighbourhood', () => {
 		expect(v.sections.map((s) => s.title)).toEqual(['Connections', 'Names on this frame']);
 		expect(v.sections[0].items[1]).toEqual({
 			node: 'f:b/one',
-			label: 'We did ONE.',
-			detail: 'one · Beta',
+			label: 'Topic one',
+			detail: 'We did ONE. · one · Beta',
 			note: 'Across.'
 		});
 	});
@@ -128,7 +130,7 @@ describe('a neighbourhood', () => {
 		expect(v.edges).toContainEqual(expect.objectContaining({ a: 'f:b/three', b: 'n:rare' }));
 		expect(v.sections[1]).toEqual({
 			title: 'Two steps away',
-			items: [expect.objectContaining({ node: 'f:b/two', note: 'Through We did ONE: Further.' })]
+			items: [expect.objectContaining({ node: 'f:b/two', note: 'Through Topic one: Further.' })]
 		});
 	});
 
@@ -237,6 +239,33 @@ describe('labels', () => {
 	});
 });
 
+describe('labels', () => {
+	it('name a frame by its topic, whole, with its headline said after it', () => {
+		const n = viewOf(fixture(), { view: 'frame', key: 'a/one', steps: 1 })!.nodes[0];
+		expect(n).toMatchObject({ lines: ['Topic one'], full: 'Topic one' });
+		expect(n.detail).toBe('We did ONE. · one');
+	});
+
+	it('break a long one into two even lines at a space, never inside a word', () => {
+		expect(labelLines('The transistor')).toEqual(['The transistor']);
+		expect(labelLines("Dirac's Lagrangian in quantum mechanics")).toEqual([
+			"Dirac's Lagrangian",
+			'in quantum mechanics'
+		]);
+		expect(labelLines('Colossus: secrecy and the rebuild')).toEqual([
+			'Colossus: secrecy',
+			'and the rebuild'
+		]);
+		const one = 'Supercalifragilisticexpialidocious';
+		expect(labelLines(one)).toEqual([one]);
+		for (const s of [
+			'Llull, Leibniz and mechanical reasoning',
+			'The Morris worm and network security'
+		])
+			expect(labelLines(s).join(' ')).toBe(s);
+	});
+});
+
 describe('arrow keys', () => {
 	const v: MapView = {
 		target: { view: 'library' },
@@ -245,7 +274,7 @@ describe('arrow keys', () => {
 		nodes: ['m', 'e', 'far-e', 'n', 'w'].map((id) => ({
 			id,
 			kind: 'frame' as const,
-			label: id,
+			lines: [id],
 			full: id,
 			detail: '',
 			subject: null,

@@ -130,6 +130,11 @@ HUD beside the contents) on a frame's neighbourhood, the library of
 subjects, a subject's connected frames or a name's frames; a seeded layout
 that never moves (`engine/map.ts`), arrow keys between neighbours, and
 "Show as list".
+Sprint 020 a map you can read: a plain `topic` on every frame (required,
+backfilled, written by grow and author-subject; design.md §Topics says
+which surfaces name a frame by it), map labels by topic and whole, lines
+dimmed at rest and brought forward for the node under the pointer or
+focus, and a details panel of one height.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

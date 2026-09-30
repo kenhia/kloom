@@ -116,7 +116,7 @@
 
 <svelte:window onpointerdown={outside} />
 
-{#snippet entry(f: { id: string; title: string; position: string })}
+{#snippet entry(f: { id: string; title: string; position: string; topic: string })}
 	{@const marks = marksText(marksOf(f.id))}
 	<!-- The page resolved these app routes. -->
 	<!-- eslint-disable svelte/no-navigation-without-resolve -->
@@ -128,7 +128,8 @@
 	>
 		<span class="label">{f.title}</span>
 		<span class="context"
-			>{f.position}{#if marks.length}<span class="marks">· {marks.join(', ')}</span>{/if}</span
+			>{f.position} · {f.topic}{#if marks.length}<span class="marks">· {marks.join(', ')}</span
+				>{/if}</span
 		>
 	</a>
 	<!-- eslint-enable svelte/no-navigation-without-resolve -->
@@ -181,7 +182,7 @@
 			<input
 				id="{id}-filter"
 				type="search"
-				placeholder="Filter by title or position"
+				placeholder="Filter by title, position or topic"
 				autocomplete="off"
 				aria-describedby="{id}-found"
 				data-stop

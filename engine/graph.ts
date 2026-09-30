@@ -18,6 +18,8 @@ export interface GraphFrame {
 	frame: string;
 	/** Headline and accent. */
 	title: string;
+	/** What it is about, plainly (sprint 020). */
+	topic: string;
 	/** The position label. */
 	label: string;
 	/** The trail it is on, by title; null on the main spine. */
@@ -107,8 +109,9 @@ export interface FrameLink {
 	subject: string;
 	subjectTitle: string;
 	frame: string;
-	/** The other frame's title and position; absent when it is detached. */
+	/** The other frame's title, topic and position; absent when it is detached. */
 	title?: string;
+	topic?: string;
 	label?: string;
 	trail?: string | null;
 	/** Its target is not a frame (any more). */
@@ -146,7 +149,7 @@ function linkTo(graph: Graph, key: string, direction: FrameLink['direction'], wh
 		subject,
 		subjectTitle: graph.subjects[subject] ?? subject,
 		frame,
-		...(f ? { title: f.title, label: f.label, trail: f.trail } : {}),
+		...(f ? { title: f.title, topic: f.topic, label: f.label, trail: f.trail } : {}),
 		detached: !f
 	};
 }

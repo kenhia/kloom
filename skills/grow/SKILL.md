@@ -26,7 +26,7 @@ subject.json            the subject's title and palettes     (read only)
 spine.json              the main spine's segments             (you may insert frames)
 trails/<id>.json        side trails                           (you may add or extend)
 frames/<id>/            one directory per frame               (you may add new ones)
-  frame.json            position, scene, citations
+  frame.json            topic, position, scene, citations
   reading.md            the reading
   scene.svg             the illustration
 names/<id>.json         the name registry, shared by every subject (you may add names)
@@ -103,6 +103,7 @@ check its claims as you would any source; do not copy its prose.
 ```json
 {
 	"id": "printing-press",
+	"topic": "Gutenberg's printing press",
 	"position": { "label": "c. AD 1440", "sort": 1440 },
 	"scene": {
 		"headline": "Knowledge went",
@@ -128,6 +129,15 @@ check its claims as you would any source; do not copy its prose.
 }
 ```
 
+- **Topic:** what the frame is about, in a plain title of at most 40
+  characters: the name a reader would search for ("Gutenberg's printing
+  press", "Alignment faking", "IBM tabulators at Los Alamos"). The headline
+  is evocative and the position may be a date, so the topic is what names
+  the frame where it stands alone: on the map, in a name card, in another
+  frame's connections. Sentence case, keeping proper names and titles of
+  works; no closing full stop; not the accent word in capitals; no other
+  frame in the subject has it. `reference/frames.md` lists every served
+  frame's topic first.
 - **Headline:** short, in the subject's voice, and completed by
   the accent word, which is one word in capitals ending in a full stop
   ("We stole FIRE.", "Knowledge went VIRAL."). A civilisation or a field
@@ -358,6 +368,9 @@ Check your own work against this list; the validator will:
 - at least one citation is `"key": true`, there is no `sources` list,
   every citation has a title, an http(s) url or a bare `doi`, and an
   accessed date, and every Wikipedia url has `oldid=`;
+- every new frame has a `topic` of at most 40 characters, with no closing
+  "." or "!", not repeating its accent word in capitals, and not another
+  frame's topic in the subject;
 - no accent word repeats another in the subject, and any `asOf` is a
   `YYYY-MM-DD` date;
 - every name mark (`kloom:e/<id>`) names a file in `names/`, once per

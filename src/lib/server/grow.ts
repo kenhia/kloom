@@ -117,7 +117,7 @@ const framesReference = (frames: Record<string, string>) =>
 	[
 		'# Frames a connection may name',
 		'',
-		'Every frame kloom serves, as `<subject>/<frame>`: its title and position.',
+		'Every frame kloom serves, as `<subject>/<frame>`: its topic, title and position.',
 		"A connection's `to` must be one of these, or a frame you add.",
 		'',
 		...Object.entries(frames).map(([ref, title]) => `- \`${ref}\` ${title}`)

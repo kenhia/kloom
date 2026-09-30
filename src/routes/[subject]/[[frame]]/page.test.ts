@@ -510,7 +510,7 @@ describe('the table of contents', () => {
 		const first = subject.spine.segments[0].frames[0];
 		expect(panel).toMatch(new RegExp(`<a href="/western-civ/${first}" aria-current="page"`));
 		expect(panel.match(/aria-current=/g)).toHaveLength(1);
-		expect(panel).toContain('placeholder="Filter by title or position"');
+		expect(panel).toContain('placeholder="Filter by title, position or topic"');
 	});
 
 	it('puts each trail, collapsed, under the frame it branches from', () => {
@@ -774,6 +774,7 @@ describe('connections and names (§Connections)', () => {
 					subjectTitle: 'The History of Western Civilization',
 					frame: 'steam',
 					title: 'Then we put fire to WORK.',
+					topic: "Watt's steam engine",
 					label: 'AD 1776',
 					trail: null,
 					detached: false
@@ -785,6 +786,7 @@ describe('connections and names (§Connections)', () => {
 					subjectTitle: 'History and Current State of AI',
 					frame: 'talos',
 					title: 'We imagined minds of BRONZE.',
+					topic: 'Talos and ancient automata',
 					label: 'Myth',
 					trail: null,
 					detached: false
@@ -809,10 +811,10 @@ describe('connections and names (§Connections)', () => {
 		expect(at).toBeGreaterThan(0);
 		expect(at).toBeLessThan(sources);
 		const list = said(html.slice(at, sources));
-		expect(list).toContain('Then we put fire to WORK. AD 1776 Fire, then fire put to work.');
+		expect(list).toContain("Watt's steam engine AD 1776 Fire, then fire put to work.");
 		// Another subject's frame names its subject; one stored there says so.
 		expect(list).toContain('History and Current State of AI · Myth');
-		expect(html).toContain('href="/ai/talos" aria-label="From We imagined minds of BRONZE."');
+		expect(html).toContain('href="/ai/talos" aria-label="From Talos and ancient automata"');
 		// A missing target is detached, never a failure.
 		expect(list).toContain('physics/fire Not found');
 	});

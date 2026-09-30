@@ -13,6 +13,8 @@ export interface ContentsFrame {
 	title: string;
 	/** The position label: a date, a category, a technology. */
 	position: string;
+	/** What it is about, plainly: said beside the position, and found by the filter. */
+	topic: string;
 }
 
 export interface ContentsTrail {
@@ -35,7 +37,8 @@ export interface ContentsSegment {
 const entryOf = (f: Frame): ContentsFrame => ({
 	id: f.id,
 	title: `${f.scene.headline} ${f.scene.accent}`,
-	position: f.position.label
+	position: f.position.label,
+	topic: f.topic
 });
 
 const trailOf = (t: Trail, frames: Subject['frames']): ContentsTrail => ({
@@ -57,7 +60,7 @@ export function contentsOf(subject: Subject): ContentsSegment[] {
 
 /**
  * The contents narrowed to what `query` names, ignoring case: a frame whose
- * title or position has it, and a trail whose title has it, whole. A frame
+ * title, position or topic has it, and a trail whose title has it, whole. A frame
  * stays when a trail under it matches, so the trail has somewhere to hang.
  * An empty query changes nothing.
  */
@@ -65,7 +68,7 @@ export function filterContents(contents: ContentsSegment[], query: string): Cont
 	const q = query.trim().toLowerCase();
 	if (!q) return contents;
 	const has = (s: string) => s.toLowerCase().includes(q);
-	const hit = (f: ContentsFrame) => has(f.title) || has(f.position);
+	const hit = (f: ContentsFrame) => has(f.title) || has(f.position) || has(f.topic);
 	return contents
 		.map((s) => ({
 			...s,
