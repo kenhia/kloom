@@ -1,0 +1,53 @@
+{
+	"title": "What the Manhattan Project cost, by site, to the end of 1945",
+	"description": "Bar chart in millions of 1945 dollars: Oak Ridge 1,188; Hanford 390; special operating materials 103; Los Alamos 74; research and development 70; government overhead 37; heavy water plants 27; in all 1,890. Data: Wikipedia, Manhattan Project, from the project's own accounts.",
+	"heading": "MANHATTAN PROJECT · COST TO 31 DEC 1945 · $ MILLIONS (1945)",
+	"unit": "",
+	"axis": {
+		"max": 1200,
+		"ticks": [
+			[0, "0"],
+			[400, "400"],
+			[800, "800"],
+			[1200, "1,200"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Oak Ridge",
+			"sublabel": "uranium",
+			"value": 1188,
+			"display": "1,188"
+		},
+		{
+			"label": "Hanford",
+			"sublabel": "plutonium",
+			"value": 390
+		},
+		{
+			"label": "Materials",
+			"sublabel": "special",
+			"value": 103
+		},
+		{
+			"label": "Los Alamos",
+			"sublabel": "the bombs",
+			"value": 74,
+			"highlight": true
+		},
+		{
+			"label": "R&D",
+			"value": 70
+		},
+		{
+			"label": "Overhead",
+			"value": 37
+		},
+		{
+			"label": "Heavy water",
+			"value": 27
+		}
+	],
+	"barWidth": 44,
+	"width": 620
+}
