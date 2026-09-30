@@ -232,6 +232,40 @@ def density(root):
     return rows
 
 
+def reach(root, source, steps=2):
+    """Frames of each other subject within `steps` connections of any frame of `source`.
+
+    Connections are shown on both ends, so the graph is undirected, and a path
+    may pass through any subject (a bridge subject's frames count as steps)."""
+    root = Path(root)
+    adj, frames = {}, {}
+    for s in sorted(p for p in root.iterdir() if (p / 'subject.json').exists()):
+        for f in sorted((s / 'frames').iterdir()):
+            if not (f / 'frame.json').exists():
+                continue
+            here = f'{s.name}/{f.name}'
+            frames.setdefault(s.name, set()).add(here)
+            adj.setdefault(here, set())
+            for c in json.loads((f / 'frame.json').read_text()).get('connections', []):
+                adj[here].add(c['to'])
+                adj.setdefault(c['to'], set()).add(here)
+    seen = set(frames.get(source, ()))
+    edge, rows = set(seen), []
+    within = {}
+    for step in range(1, steps + 1):
+        edge = {n for e in edge for n in adj.get(e, ())} - seen
+        seen |= edge
+        within[step] = set(seen)
+    for subject in sorted(frames):
+        if subject == source:
+            continue
+        row = {'from': source, 'to': subject, 'frames': len(frames[subject])}
+        for step in range(1, steps + 1):
+            row[f'within_{step}'] = len(within[step] & frames[subject])
+        rows.append(row)
+    return rows
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest='command', required=True)
@@ -245,10 +279,18 @@ def main():
     dn = sub.add_parser('density', help='names and connections per frame, by subject')
     dn.add_argument('--root', default='subjects', help='the subjects directory')
     dn.add_argument('--json', action='store_true', help='one JSON line per subject')
+    rc = sub.add_parser('reach', help="other subjects' frames within N connections of a subject")
+    rc.add_argument('subject')
+    rc.add_argument('--steps', type=int, default=2)
+    rc.add_argument('--root', default='subjects', help='the subjects directory')
+    rc.add_argument('--json', action='store_true', help='one JSON line per subject')
     mk = sub.add_parser('mark', help="mark names' first mentions from a spec")
     mk.add_argument('spec')
     mk.add_argument('--root', default='subjects', help='the subjects directory')
     mk.add_argument('--check', action='store_true', help='change nothing; exit 1 if a mark is missing')
+    mk.add_argument('--names', default='names', help='the registry directory')
+    mk.add_argument('--drafts', action='append', default=[],
+                    help='a directory of name drafts not yet added, whose ids count as known (repeatable)')
     args = p.parse_args()
 
     if args.command == 'lookup':
@@ -263,8 +305,8 @@ def main():
             print(line, file=sys.stderr)
         return 1 if refused else 0
 
-    if args.command == 'density':
-        rows = density(args.root)
+    if args.command in ('density', 'reach'):
+        rows = density(args.root) if args.command == 'density' else reach(args.root, args.subject, args.steps)
         if args.json:
             for r in rows:
                 print(json.dumps(r))
@@ -277,7 +319,13 @@ def main():
 
     spec = json.loads(Path(args.spec).read_text())
     failed = 0
+    # A mark on a name no file holds fails the gate; say so here, not at vitest (sprint 021).
+    known = {f.stem for d in [args.names, *args.drafts] if Path(d).is_dir() for f in Path(d).glob('*.json')}
     for ref, pairs in spec.items():
+        for words, name in pairs:
+            if name not in known:
+                print(f'{ref}: {name} is not in the registry or a draft', file=sys.stderr)
+                failed += 1
         path = Path(args.root) / ref.split('/')[0] / 'frames' / ref.split('/')[1] / 'reading.md'
         reading = before = path.read_text()
         for words, name in pairs:
