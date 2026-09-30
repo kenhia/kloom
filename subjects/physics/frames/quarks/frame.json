@@ -1,0 +1,176 @@
+{
+	"id": "quarks",
+	"topic": "Quarks",
+	"position": {
+		"label": "1964",
+		"sort": 1964
+	},
+	"scene": {
+		"headline": "Inside the proton we found",
+		"accent": "THREE.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CALTECH · CERN · SLAC · BROOKHAVEN · FERMILAB",
+			"GELL-MANN · ZWEIG · THE EIGHTFOLD WAY"
+		],
+		"counter": {
+			"value": "6",
+			"label": "quarks, the last found in 1995"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Quark",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quark&oldid=1376610404",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"note": "The history from 1964 to the top quark, and Gell-Mann on the name"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Memories of Murray and the Quark Model",
+			"url": "https://arxiv.org/abs/1007.0494",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Zweig",
+					"given": "George"
+				}
+			],
+			"container": "arXiv preprint arXiv:1007.0494",
+			"published": "2010-06-30",
+			"note": "Zweig's aces, and the closing lines of Gell-Mann's 1964 paper, which it quotes"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Eightfold way (physics)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eightfold_way_(physics)&oldid=1374853683",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quark model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quark_model&oldid=1374227254",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Zweig",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Zweig&oldid=1375040903",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Deep inelastic scattering",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deep_inelastic_scattering&oldid=1335510399",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "J/psi meson",
+			"url": "https://en.wikipedia.org/w/index.php?title=J%2Fpsi_meson&oldid=1377085479",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bottom quark",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bottom_quark&oldid=1362438138",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Top quark",
+			"url": "https://en.wikipedia.org/w/index.php?title=Top_quark&oldid=1374300347",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "media",
+			"title": "The Stanford linear accelerator from the air, February 2018",
+			"url": "https://commons.wikimedia.org/wiki/File:Stanford_Linear_Accelerator_aerial_view,_February_2018.JPG",
+			"accessed": "2026-09-29",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "slac-aerial.jpg",
+			"authors": [
+				{
+					"name": "Pi.1415926535"
+				}
+			],
+			"published": "2018-02"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/partons",
+			"why": "The SLAC–MIT experiments of 1968–69 that first saw hard points inside the proton are the results Feynman explained with partons, which were later identified with Gell-Mann's and Zweig's quarks."
+		}
+	]
+}

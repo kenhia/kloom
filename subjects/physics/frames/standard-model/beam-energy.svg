@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="t d">
+<title id="t">Proton beam energy of record accelerators, 1931–2022</title>
+<desc id="d">Bar chart on a logarithmic scale of the energy to which each machine accelerated protons, per proton. Lawrence and Livingston's first cyclotron, 1931: 80 keV. Lawrence's 60-inch cyclotron, 1939: 16 MeV. CERN's Super Proton Synchrotron, 1976: 400 GeV. Fermilab's Tevatron, 1986: 900 GeV. The Large Hadron Collider, 2022: 6.8 TeV per beam. The last two are colliders, whose two beams meet head on. Data: the Cyclotron, Super Proton Synchrotron, Tevatron and Large Hadron Collider articles, Wikipedia.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="500" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">10 keV</text>
+<line x1="64" x2="500" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">10 MeV</text>
+<line x1="64" x2="500" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">10 GeV</text>
+<line x1="64" x2="500" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">10 TeV</text>
+</g>
+<rect x="81.6" y="228.5" width="52" height="21.5" fill-opacity="0.85"/>
+<text x="107.6" y="222.5" text-anchor="middle">80 keV</text>
+<text x="107.6" y="266" text-anchor="middle">Cyclotron</text>
+<text x="107.6" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1931</text>
+<rect x="168.8" y="173.8" width="52" height="76.2" fill-opacity="0.85"/>
+<text x="194.8" y="167.8" text-anchor="middle">16 MeV</text>
+<text x="194.8" y="266" text-anchor="middle">60-inch</text>
+<text x="194.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1939</text>
+<rect x="256.0" y="69.2" width="52" height="180.8" fill-opacity="0.85"/>
+<text x="282.0" y="63.2" text-anchor="middle">400 GeV</text>
+<text x="282.0" y="266" text-anchor="middle">SPS</text>
+<text x="282.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1976</text>
+<rect x="343.2" y="60.9" width="52" height="189.1" fill-opacity="0.85"/>
+<text x="369.2" y="54.9" text-anchor="middle">900 GeV</text>
+<text x="369.2" y="266" text-anchor="middle">Tevatron</text>
+<text x="369.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1986</text>
+<rect x="430.4" y="40.0" width="52" height="210.0" class="accent" fill="currentColor"/>
+<text x="456.4" y="34.0" text-anchor="middle">6.8 TeV</text>
+<text x="456.4" y="266" text-anchor="middle">LHC</text>
+<text x="456.4" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2022</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">PROTON BEAM ENERGY · LOG SCALE</text>
+</g></svg>

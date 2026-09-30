@@ -1,0 +1,15 @@
+{
+	"id": "standard-model",
+	"title": "The Standard Model",
+	"anchor": "standard-model",
+	"spine": {
+		"segments": [
+			{
+				"id": "building",
+				"title": "Building the model",
+				"labelKind": "date",
+				"frames": ["neutrino", "quarks"]
+			}
+		]
+	}
+}

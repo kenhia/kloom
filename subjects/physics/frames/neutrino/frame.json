@@ -1,0 +1,307 @@
+{
+	"id": "neutrino",
+	"topic": "The neutrino",
+	"position": {
+		"label": "1930",
+		"sort": 1930
+	},
+	"scene": {
+		"headline": "We balanced the books with a",
+		"accent": "GHOST.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ZURICH · SAVANNAH RIVER · HOMESTAKE · KAMIOKA · SUDBURY",
+			"PAULI · FERMI · COWAN AND REINES · DAVIS"
+		],
+		"counter": {
+			"value": "3",
+			"label": "neutrinos an hour caught at Savannah River, 1956"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Neutrino",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neutrino&oldid=1377108493",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"note": "Pauli's proposal, Fermi's name, the flavours, and KATRIN's limit on the mass"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Majorana, the Neutron, and the Neutrino: Some Elementary Historical Memories",
+			"url": "https://arxiv.org/abs/1712.02209",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Recami",
+					"given": "Erasmo"
+				}
+			],
+			"container": "Hadronic Journal",
+			"volume": "40",
+			"pages": "149",
+			"published": "2017",
+			"note": "Quotes Pauli's letter of 4 December 1930 in English translation; read in the arXiv version"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Cowan–Reines neutrino experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cowan%E2%80%93Reines_neutrino_experiment&oldid=1330953718",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-03"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Evidence for Oscillation of Atmospheric Neutrinos",
+			"doi": "10.1103/PhysRevLett.81.1562",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Fukuda",
+					"given": "Y."
+				},
+				{
+					"family": "Hayakawa",
+					"given": "T."
+				},
+				{
+					"family": "Ichihara",
+					"given": "E."
+				},
+				{
+					"family": "Inoue",
+					"given": "K."
+				},
+				{
+					"family": "Ishihara",
+					"given": "K."
+				},
+				{
+					"family": "Ishino",
+					"given": "H."
+				},
+				{
+					"family": "Itow",
+					"given": "Y."
+				}
+			],
+			"etAl": true,
+			"container": "Physical Review Letters",
+			"volume": "81",
+			"issue": "8",
+			"pages": "1562–1567",
+			"published": "1998-08-24",
+			"note": "The up-down asymmetry of muon-like events, −0.296 ± 0.048 ± 0.01"
+		},
+		{
+			"kind": "article",
+			"title": "Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in the Sudbury Neutrino Observatory",
+			"doi": "10.1103/PhysRevLett.89.011301",
+			"url": "https://arxiv.org/abs/nucl-ex/0204008",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Ahmad",
+					"given": "Q. R."
+				},
+				{
+					"family": "Allen",
+					"given": "R. C."
+				},
+				{
+					"family": "Andersen",
+					"given": "T. C."
+				},
+				{
+					"family": "Anglin",
+					"given": "J. D."
+				},
+				{
+					"family": "Barton",
+					"given": "J. C."
+				},
+				{
+					"family": "Beier",
+					"given": "E. W."
+				},
+				{
+					"family": "Bercovitch",
+					"given": "M."
+				}
+			],
+			"etAl": true,
+			"container": "Physical Review Letters",
+			"volume": "89",
+			"issue": "1",
+			"pages": "011301",
+			"published": "2002-06-13",
+			"note": "The three fluxes in the table"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Beta decay",
+			"url": "https://en.wikipedia.org/w/index.php?title=Beta_decay&oldid=1371600374",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fermi's interaction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fermi's_interaction&oldid=1374256933",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Homestake experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Homestake_experiment&oldid=1318789153",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Solar neutrino problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Solar_neutrino_problem&oldid=1353759366",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Super-Kamiokande",
+			"url": "https://en.wikipedia.org/w/index.php?title=Super-Kamiokande&oldid=1372338922",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sudbury Neutrino Observatory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sudbury_Neutrino_Observatory&oldid=1375982874",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frederick Reines",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frederick_Reines&oldid=1371995780",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clyde Cowan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clyde_Cowan&oldid=1372290658",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "media",
+			"title": "Clyde Cowan and Frederick Reines, from the Savannah River Site's history of the neutrino experiment",
+			"url": "https://commons.wikimedia.org/wiki/File:Clyde_Cowan_and_Frederick_Reines.jpg",
+			"accessed": "2026-09-29",
+			"container": "Savannah River Site, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "cowan-reines.jpg",
+			"authors": [
+				{
+					"name": "Savannah River Site"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "The tank of Brookhaven's solar neutrino experiment in the Homestake gold mine, South Dakota",
+			"url": "https://commons.wikimedia.org/wiki/File:U.S._Department_of_Energy_-_Science_-_390_002_007_(9952118384).jpg",
+			"accessed": "2026-09-29",
+			"container": "U.S. Department of Energy, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "homestake-tank.jpg",
+			"authors": [
+				{
+					"name": "U.S. Department of Energy"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/weak-force",
+			"why": "Fermi's 1933 theory of beta decay, built on Pauli's neutrino, is the interaction whose form Feynman and Gell-Mann settled in 1957 as V − A, acting only on left-handed particles."
+		}
+	]
+}

@@ -50,6 +50,12 @@
 			"frames": ["quantum-mechanics", "entanglement"]
 		},
 		{
+			"id": "particles",
+			"title": "Particles",
+			"labelKind": "category",
+			"frames": ["antimatter", "standard-model"]
+		},
+		{
 			"id": "cosmos",
 			"title": "The cosmos",
 			"labelKind": "category",

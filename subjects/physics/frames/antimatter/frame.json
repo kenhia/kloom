@@ -1,0 +1,271 @@
+{
+	"id": "antimatter",
+	"topic": "Antimatter and the positron",
+	"position": {
+		"label": "Antimatter"
+	},
+	"scene": {
+		"headline": "We met our",
+		"accent": "OPPOSITE.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · PASADENA · BERKELEY · GENEVA",
+			"DIRAC · ANDERSON · THE BEVATRON · ALPHA"
+		],
+		"counter": {
+			"value": "15 of 1,300",
+			"label": "Anderson's photographs that showed a positive electron"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Quantised Singularities in the Electromagnetic Field",
+			"doi": "10.1098/rspa.1931.0130",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Dirac",
+					"given": "P. A. M."
+				}
+			],
+			"container": "Proceedings of the Royal Society of London, Series A",
+			"volume": "133",
+			"issue": "821",
+			"pages": "60–72",
+			"published": "1931-09",
+			"note": "The anti-electron and the anti-proton are predicted on p. 61; read in the Royal Society's PDF through the Wayback Machine"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Positive Electron",
+			"doi": "10.1103/PhysRev.43.491",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Anderson",
+					"given": "Carl D."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "43",
+			"issue": "6",
+			"pages": "491–494",
+			"published": "1933-03-15",
+			"note": "15 positrons in 1,300 photographs, and the 63 and 23 MeV track"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Observation of the effect of gravity on the motion of antimatter",
+			"doi": "10.1038/s41586-023-06527-1",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10533407/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Anderson",
+					"given": "E. K."
+				},
+				{
+					"family": "Baker",
+					"given": "C. J."
+				},
+				{
+					"family": "Bertsche",
+					"given": "W."
+				},
+				{
+					"family": "Bhatt",
+					"given": "N. M."
+				},
+				{
+					"family": "Bonomi",
+					"given": "G."
+				},
+				{
+					"family": "Capra",
+					"given": "A."
+				},
+				{
+					"family": "Carli",
+					"given": "I."
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "621",
+			"issue": "7980",
+			"pages": "716–722",
+			"published": "2023-09-27",
+			"note": "The ALPHA-g measurement: 0.75 g, with its uncertainties"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Antimatter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antimatter&oldid=1375824670",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Positron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Positron&oldid=1374830978",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antiproton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antiproton&oldid=1377206680",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bevatron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bevatron&oldid=1311603447",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antihydrogen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antihydrogen&oldid=1369012977",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ALPHA experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=ALPHA_experiment&oldid=1369610050",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gravitational interaction of antimatter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gravitational_interaction_of_antimatter&oldid=1370776609",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Baryon asymmetry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Baryon_asymmetry&oldid=1375429573",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "article",
+			"title": "Matter and Antimatter in the Universe",
+			"doi": "10.1088/1367-2630/14/9/095012",
+			"url": "https://arxiv.org/abs/1204.4186",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Canetti",
+					"given": "Laurent"
+				},
+				{
+					"family": "Drewes",
+					"given": "Marco"
+				},
+				{
+					"family": "Shaposhnikov",
+					"given": "Mikhail"
+				}
+			],
+			"container": "New Journal of Physics",
+			"volume": "14",
+			"issue": "9",
+			"pages": "095012",
+			"published": "2012",
+			"note": "The baryon-to-photon ratio, about 6 × 10⁻¹⁰"
+		},
+		{
+			"kind": "media",
+			"title": "The Antiproton Decelerator at CERN, the 'antimatter factory', in 2019",
+			"url": "https://commons.wikimedia.org/wiki/File:CERN_Antimatter_factory_-_antiproton_decelerator.jpg",
+			"accessed": "2026-09-29",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "antiproton-decelerator.jpg",
+			"authors": [
+				{
+					"name": "Suaudeau"
+				}
+			],
+			"published": "2019-08-19"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/backwards-in-time",
+			"why": "Dirac's full sea of negative-energy electrons predicted the positron; Feynman's 1949 paper reached the same answers by treating the positron as an electron running backwards in time, with no sea at all."
+		},
+		{
+			"to": "feynman/dirac-hint",
+			"why": "Both come from Dirac's effort to fit quantum mechanics to relativity: the equation of 1928, whose negative energies led him to the anti-electron, and the Lagrangian paper of 1932, which he favoured because the action is the same for every observer."
+		}
+	]
+}
