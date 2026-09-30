@@ -1,5 +1,5 @@
 One attention head blends the tokens it finds most relevant, but it can only
-have one idea of "relevant" at a time. A transformer layer therefore runs many
+have one idea of "relevant" at a time. A [transformer](kloom:e/transformer-deep-learning) layer therefore runs many
 heads side by side, each with its own queries, keys and values, and the
 research of the last few years has begun to show what some of them are
 doing.
@@ -27,7 +27,7 @@ Models have since grown wider and deeper, but the recipe is the same:
 | Llama 3 70B (2024)       |     80 |  8,192 |              64 |                 128 |
 | Llama 3 405B (2024)      |    126 | 16,384 |             128 |                 128 |
 
-(The 2017 model had six encoder and six decoder layers; the Llama per-head
+(The 2017 model had six encoder and six decoder layers; the [Llama](kloom:e/llama-language-model) per-head
 figure is width divided by heads.)
 
 ## What heads do
@@ -37,7 +37,7 @@ to perform different tasks", many of them apparently tracking the syntactic
 and semantic structure of the sentence. Later studies found heads that mostly look at the next word,
 and heads that look from a verb to its object.
 
-In 2021 **Nelson Elhage**, **Chris Olah** and colleagues at **Anthropic**
+In 2021 **Nelson Elhage**, **[Chris Olah](kloom:e/chris-olah)** and colleagues at **[Anthropic](kloom:e/anthropic)**
 published _A Mathematical Framework for Transformer Circuits_, an attempt to
 reverse-engineer small transformers the way a programmer might turn a
 compiled binary back into readable source code. In their account the "fundamental

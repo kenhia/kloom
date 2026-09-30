@@ -141,5 +141,11 @@
 			"published": "2026",
 			"accessed": "2026-09-28"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/dna",
+			"why": "Feynman's 1959 talk pointed to DNA as information already stored at the scale of atoms, and asked for electron microscopes sharp enough to read the order of its bases."
+		}
 	]
 }

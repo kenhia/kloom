@@ -1,0 +1,8 @@
+{
+	"id": "xz-utils-backdoor",
+	"wikidata": "Q125219823",
+	"name": "XZ Utils backdoor",
+	"aliases": ["xz backdoor"],
+	"kind": "event",
+	"description": "A backdoor hidden in the xz compression library by a trusted maintainer, found in March 2024 before wide release."
+}

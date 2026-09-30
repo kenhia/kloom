@@ -1,4 +1,4 @@
-In January 1956, before the field had a name, **Herbert Simon** told a
+In January 1956, before the field had a name, **[Herbert Simon](kloom:e/herbert-a-simon)** told a
 graduate class: "Over Christmas, Al
 Newell and I invented a thinking machine." The machine was a program, and it
 proved theorems of logic.
@@ -7,18 +7,18 @@ proved theorems of logic.
 
 Simon was a political scientist who studied how organisations make
 decisions; his theory of _bounded rationality_ would later win him the
-Nobel Memorial Prize in Economic Sciences, in 1978. Consulting at the **RAND
-Corporation** in Santa Monica in the early 1950s, he watched a printer type
+Nobel Memorial Prize in Economic Sciences, in 1978. Consulting at the **[RAND
+Corporation](kloom:e/rand-corporation)** in Santa Monica in the early 1950s, he watched a printer type
 out a map using ordinary letters and punctuation as symbols, and saw that a
 machine that manipulates symbols might simulate decision-making, and perhaps
-thought. The map program was by **Allen Newell**, a RAND scientist, whose
-own moment came in 1954 at a talk by Oliver Selfridge on pattern matching:
+thought. The map program was by **[Allen Newell](kloom:e/allen-newell)**, a RAND scientist, whose
+own moment came in 1954 at a talk by [Oliver Selfridge](kloom:e/oliver-selfridge) on pattern matching:
 "It all happened in one afternoon," he said later.
 
-They chose a hard, well-defined target: the theorems of Whitehead and
-Russell's _Principia Mathematica_, and brought in RAND's programmer **Cliff
-Shaw** ("the genuine computer scientist of the three", in Newell's words).
-Before it ran on a computer, the **Logic Theorist** was run by hand. Simon
+They chose a hard, well-defined target: the theorems of [Whitehead](kloom:e/alfred-north-whitehead) and
+[Russell](kloom:e/bertrand-russell)'s [_Principia Mathematica_](kloom:e/principia-mathematica), and brought in RAND's programmer **[Cliff
+Shaw](kloom:e/cliff-shaw)** ("the genuine computer scientist of the three", in Newell's words).
+Before it ran on a computer, the **[Logic Theorist](kloom:e/logic-theorist)** was run by hand. Simon
 recalled:
 
 > In January 1956, we assembled my wife and three children together with some
@@ -54,10 +54,10 @@ unlikely to lead anywhere. They called these _heuristics_, a word taken from
 George Pólya's _How to Solve It_ (Newell had taken Pólya's courses at
 Stanford). Reasoning as search, and heuristics to tame the _combinatorial
 explosion_, became central ideas of AI, and remain so. To write the program the
-three also invented a language, **IPL**, whose symbolic list processing
-later formed the basis of McCarthy's Lisp.
+three also invented a language, **[IPL](kloom:e/information-processing-language)**, whose symbolic list processing
+later formed the basis of [McCarthy](kloom:e/john-mccarthy-computer-scientist)'s [Lisp](kloom:e/lisp-programming-language).
 
-They generalised it in 1957 as the **General Problem Solver**, the first
+They generalised it in 1957 as the **[General Problem Solver](kloom:e/general-problem-solver)**, the first
 program to keep its knowledge of a problem apart from its strategy for
 solving it. GPS used _means–ends analysis_, setting subgoals that close the
 gap between where it is and where it wants to be. It solved tidy puzzles
@@ -72,7 +72,7 @@ and that create", and predicted that within ten years a computer would be
 world chess champion, would discover and prove an important new
 mathematical theorem, would write music that critics valued, and that most
 theories in psychology would take the form of computer programs. The chess
-prediction took about forty years: IBM's Deep Blue beat the reigning world
+prediction took about forty years: IBM's [Deep Blue](kloom:e/deep-blue-chess-computer) beat the reigning world
 champion, Garry Kasparov, in 1997. In 1965 Simon went further, predicting
 that "machines will be capable, within twenty years, of doing any work a man
 can do." Optimism on this scale raised public expectations impossibly high,

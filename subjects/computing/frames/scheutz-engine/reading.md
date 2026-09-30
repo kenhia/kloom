@@ -1,14 +1,14 @@
-The first difference engine to be finished, sold and put to work was not
-Babbage's. It was built in Stockholm by a publisher and his son, from a
+The first [difference engine](kloom:e/difference-engine) to be finished, sold and put to work was not
+[Babbage](kloom:e/charles-babbage)'s. It was built in Stockholm by a publisher and his son, from a
 magazine article, and it went to work in two places that wanted tables:
 an observatory in upstate New York and the office that counted England's
 dead.
 
 ## From a review
 
-In July 1834 the _Edinburgh Review_ carried **Dionysius Lardner**'s long
+In July 1834 the _Edinburgh Review_ carried **[Dionysius Lardner](kloom:e/dionysius-lardner)**'s long
 account of Babbage's engine. It explained the method of differences
-clearly and the mechanism only in outline. In Stockholm, **Georg Scheutz**, a
+clearly and the mechanism only in outline. In Stockholm, **[Georg Scheutz](kloom:e/per-georg-scheutz)**, a
 lawyer turned publisher, translator and inventor, read it and set out to
 build one of his own design. His son **Edvard** began the work in 1837, at
 fifteen, as a student at the Royal Technological Institute. Their
@@ -32,11 +32,11 @@ figures; Merzbach's history gives fifteen.)
 
 The engine came to London in 1854, was patented and examined by a
 committee of the Royal Society, and in 1855 was shown at the Universal
-Exposition in Paris, where it won a gold medal. Babbage, who might have
+Exposition in [Paris](kloom:e/paris), where it won a gold medal. Babbage, who might have
 been its rival, championed it: in 1856 he wrote that honour "must always
 be given to Sweden" as the country that first built a machine to print
-the results of calculation. At the Paris Observatory, though, Urbain Le
-Verrier advised against buying it: it did, he said, only a fifth of the
+the results of calculation. At the [Paris Observatory](kloom:e/paris-observatory), though, [Urbain Le
+Verrier](kloom:e/urbain-le-verrier) advised against buying it: it did, he said, only a fifth of the
 work of making a table, and that fifth more slowly than a human
 calculator. It was sold for £1,000 to the new Dudley Observatory at
 Albany, New York, with money from a local merchant, John F. Rathbone:
@@ -47,7 +47,7 @@ rarely used, and in time it went to the Smithsonian Institution.
 
 ## Somerset House
 
-In England the engine's champion was **William Farr**, the statistician of
+In England the engine's champion was **[William Farr](kloom:e/william-farr)**, the statistician of
 the General Register Office at Somerset House, which counted births and
 deaths. He wanted a larger English Life Table, the table of how many die
 at each age from which insurance is priced. In November 1857 the Treasury
@@ -75,10 +75,10 @@ Its share of the printed volume was small:
 
 The Stationery Office reckoned that had the machine set the whole volume
 it would have saved only a tenth of the cost. Swade concludes that the
-Astronomer Royal, George Airy, who had long doubted the value of such
+Astronomer Royal, [George Airy](kloom:e/george-biddell-airy), who had long doubted the value of such
 engines, was vindicated, at least on usefulness and cost. Yet Airy,
 after inspecting this one on 31 August 1859, wrote to Donkin the next day
-to ask whether it could be adapted for the _Nautical Almanac_.
+to ask whether it could be adapted for the [_Nautical Almanac_](kloom:e/the-nautical-almanac).
 
 ## Wiberg's small engine
 

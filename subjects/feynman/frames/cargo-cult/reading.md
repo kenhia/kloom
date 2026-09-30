@@ -1,6 +1,6 @@
-In June 1974 Feynman gave the commencement address at Caltech, under a
+In June 1974 [Feynman](kloom:e/richard-feynman) gave the commencement address at [Caltech](kloom:e/california-institute-of-technology), under a
 tent on the lawn, to the graduating class. It was printed that month in
-Caltech's magazine _Engineering and Science_ as **"Cargo Cult Science"**,
+Caltech's magazine _Engineering and Science_ as **"[Cargo Cult Science](kloom:e/cargo-cult-science)"**,
 and it has been read and quoted, by scientists and by their critics, ever
 since. It is the plainest statement he made of what he thought science
 demanded of a person.
@@ -39,7 +39,7 @@ public honestly that a piece of astronomy has no application.
 
 He gave examples, and two of them have been checked since.
 
-**Millikan's electron.** Robert Millikan measured the charge on the
+**[Millikan](kloom:e/robert-millikan)'s electron.** Robert Millikan measured the charge on the
 electron with falling oil drops, the plate's first drawing, and got it
 slightly too low because he used a wrong value for the viscosity of air.
 Feynman said that later values crept up from Millikan's a step at a time,
@@ -73,7 +73,7 @@ the corridor, and finally found that the rats heard the floor, which he
 cured by laying the corridor in sand. Later experimenters ignored his
 care. For decades nobody could find the paper. In 2023 the writer Gwern
 Branwen, with a reader's help, traced the work to **Quin Fischer Curtis**,
-whose theses at the University of Michigan in 1931 and 1936 controlled the
+whose theses at the [University of Michigan](kloom:e/university-of-michigan) in 1931 and 1936 controlled the
 rats' floor cues in exactly this way, sand included, in a research
 programme that published little. The name and date in the talk were
 wrong; the experiment was real.
@@ -82,8 +82,8 @@ wrong; the experiment was real.
 
 The talk ended with a wish: that the graduates find a place where they
 were free to keep this kind of integrity without being forced to trade it
-for their jobs or their funding. It became the last chapter of _"Surely
-You're Joking, Mr. Feynman!"_ in 1985, and his work on the Challenger
+for their jobs or their funding. It became the last chapter of [_"Surely
+You're Joking, Mr. Feynman!"_](kloom:e/surely-youre-joking-mr-feynman) in 1985, and his work on the [Challenger](kloom:e/space-shuttle-challenger-disaster)
 commission would test the same standard against an institution.
 
 His next passion had nothing to do with physics: a country on an old

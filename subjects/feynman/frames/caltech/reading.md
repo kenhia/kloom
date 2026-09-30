@@ -1,5 +1,5 @@
-In 1950 Feynman accepted a professorship at the **California Institute of
-Technology** in Pasadena, and he never moved again. He was on its faculty
+In 1950 [Feynman](kloom:e/richard-feynman) accepted a professorship at the **[California Institute of
+Technology](kloom:e/california-institute-of-technology)** in [Pasadena](kloom:e/pasadena-california), and he never moved again. He was on its faculty
 for thirty-eight years, from his early thirties until his death in 1988,
 far longer than he had spent anywhere else. It was not an easy decision,
 by his own account, and the reasons he gave were a mixture of the serious,
@@ -7,12 +7,12 @@ the personal and the meteorological.
 
 ## Bacher's offer
 
-The man who brought him was **Robert Bacher**, a nuclear physicist he knew
-from Cornell and from Los Alamos, where the two of them had gone walking and
-climbing with Hans Bethe. In 1949 Bacher left the Atomic Energy Commission to
+The man who brought him was **[Robert Bacher](kloom:e/robert-bacher)**, a nuclear physicist he knew
+from [Cornell](kloom:e/cornell-university) and from [Los Alamos](kloom:e/los-alamos-national-laboratory), where the two of them had gone walking and
+climbing with [Hans Bethe](kloom:e/hans-bethe). In 1949 Bacher left the Atomic Energy Commission to
 chair Caltech's Division of Physics, Mathematics and Astronomy. The division
 then had seventeen professors, nine of them physicists, and a chair that had
-stood empty since Robert Millikan retired in 1945. Bacher set out to build
+stood empty since [Robert Millikan](kloom:e/robert-millikan) retired in 1945. Bacher set out to build
 it up, and the physicist he wanted most was Feynman. He offered a large
 salary and a paid year away, which Feynman wanted to spend in Brazil.
 

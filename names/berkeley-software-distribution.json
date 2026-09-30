@@ -1,0 +1,9 @@
+{
+	"id": "berkeley-software-distribution",
+	"wikidata": "Q34264",
+	"name": "Berkeley Software Distribution",
+	"aliases": ["4.2BSD", "Berkeley Unix"],
+	"kind": "artifact",
+	"description": "The University of California, Berkeley's version of Unix, from 1977 to 1995, which carried TCP/IP and sockets into wide use.",
+	"home": "computing/bsd"
+}

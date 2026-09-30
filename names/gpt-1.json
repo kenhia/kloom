@@ -1,0 +1,8 @@
+{
+	"id": "gpt-1",
+	"wikidata": "Q95726718",
+	"name": "GPT-1",
+	"aliases": ["GPT"],
+	"kind": "artifact",
+	"description": "OpenAI's first generative pre-trained transformer, of June 2018, which showed that pretraining on plain text helps many tasks."
+}

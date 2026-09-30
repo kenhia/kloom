@@ -11,30 +11,30 @@ that prompting a model to write "a series of
 intermediate reasoning steps", a _chain of thought_, given a few worked
 examples, improved its performance on arithmetic, commonsense and symbolic
 reasoning. That was a prompt. What changed in 2024 was
-training models, with _reinforcement learning_, to produce and use such
+training models, with [_reinforcement learning_](kloom:e/reinforcement-learning), to produce and use such
 chains themselves.
 
-On 12 September 2024 **OpenAI** released **o1**. "o1 thinks before it
+On 12 September 2024 **[OpenAI](kloom:e/openai)** released **[o1](kloom:e/openai-o1)**. "o1 thinks before it
 answers," its announcement said; its performance "consistently improves with
 more reinforcement learning (train-time compute) and with more time spent
 thinking (test-time compute)", the straight line on a log axis in the
 drawing. On the 2024 AIME, a qualifier for the USA Mathematical
-Olympiad, GPT-4o solved 12% of problems on average; o1 solved 74% with one
+Olympiad, [GPT-4o](kloom:e/gpt-4o) solved 12% of problems on average; o1 solved 74% with one
 attempt per problem and 83% taking a consensus of 64. On _GPQA Diamond_, hard
 physics, biology and chemistry questions, OpenAI reported that o1 beat PhD experts it recruited,
 while cautioning that this did not make it "more capable than a PhD in all
 respects".
 
-In December 2024 OpenAI's o3 scored 75.7% on the _ARC-AGI_ puzzle benchmark
+In December 2024 OpenAI's [o3](kloom:e/openai-o3) scored 75.7% on the _ARC-AGI_ puzzle benchmark
 within the ARC Prize's cost limit, and 87.5% using 172 times the compute. The
-benchmark's creator, **François Chollet**, called it a breakthrough, noted
+benchmark's creator, **[François Chollet](kloom:e/francois-chollet)**, called it a breakthrough, noted
 that it cost several times more per task than paying a person, and wrote "I don't
 think o3 is AGI yet."
 
 ## Open recipes
 
 OpenAI did not publish how o1 was trained. In January 2025 the Chinese lab
-**DeepSeek** did, for **DeepSeek-R1**, and released the weights under the MIT
+**[DeepSeek](kloom:e/deepseek)** did, for **DeepSeek-R1**, and released the weights under the MIT
 licence. Its striking result was _R1-Zero_, trained by reinforcement learning
 alone, rewarded only for correct answers, with no human-written examples of
 reasoning first. Its score on AIME 2024 rose during training from 15.6% to
@@ -45,18 +45,18 @@ and a revision of the paper put the cost of the reasoning stage at about
 $294,000 of rented GPU time, on top of the cost of the base model it started
 from.
 
-Other labs followed. Google called Gemini 2.5 (March 2025) "a thinking
-model"; Anthropic's Claude 3.7 Sonnet (February 2025) was a hybrid that could
-answer at once or think for a budget the user sets; Alibaba's Qwen team had
+Other labs followed. Google called [Gemini](kloom:e/gemini-language-model) 2.5 (March 2025) "a thinking
+model"; [Anthropic](kloom:e/anthropic)'s [Claude](kloom:e/claude-ai) 3.7 Sonnet (February 2025) was a hybrid that could
+answer at once or think for a budget the user sets; Alibaba's [Qwen](kloom:e/qwen) team had
 released QwQ in November 2024. By 2026 thinking was a setting rather than a separate kind of model:
-OpenAI's GPT-5 (August 2025) routed between a fast model and a reasoning one,
+OpenAI's [GPT-5](kloom:e/gpt-5) (August 2025) routed between a fast model and a reasoning one,
 DeepSeek and Anthropic let users set how hard a model thinks, and Google
 offered a _Deep Think_ mode.
 
 ## Medals, and doubts
 
 In July 2025 an advanced Gemini with _Deep Think_ scored 35 of 42 at the
-International Mathematical Olympiad, graded by the IMO's own coordinators: a
+[International Mathematical Olympiad](kloom:e/international-mathematical-olympiad), graded by the IMO's own coordinators: a
 gold-medal score, written in natural language within the students' time
 limit. OpenAI announced that an experimental model of its own had reached the same
 level, and published its proofs. In September
@@ -65,7 +65,7 @@ at a gold-medal level.
 
 What these results measure is contested. Benchmarks can leak into training
 data. It emerged in January 2025 that OpenAI had commissioned _FrontierMath_, a
-hard mathematics benchmark, from Epoch AI, and had access to its problems
+hard mathematics benchmark, from [Epoch AI](kloom:e/epoch-ai), and had access to its problems
 and solutions apart from a holdout set. Apple researchers reported in June 2025
 that reasoning models' accuracy "collapses" beyond a certain puzzle
 complexity; a reply posted to arXiv argued that some of those puzzles were

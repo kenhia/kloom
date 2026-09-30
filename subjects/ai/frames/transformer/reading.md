@@ -1,17 +1,17 @@
-In June 2017 eight researchers at Google posted a paper to arXiv with a
-Beatles joke for a title, _Attention Is All You Need_. It proposed a network
+In June 2017 eight researchers at [Google](kloom:e/google) posted a paper to [arXiv](kloom:e/arxiv) with a
+Beatles joke for a title, [_Attention Is All You Need_](kloom:e/attention-is-all-you-need). It proposed a network
 for translating sentences that threw out the machinery every serious
 translation system then used, and kept only one part of it. Almost everything
-in the rest of this story runs on the result: the **transformer**.
+in the rest of this story runs on the result: the **[transformer](kloom:e/transformer-deep-learning)**.
 
 ## Reading everything at once
 
 Before 2017 the standard way to model a sentence was a _recurrent_ network,
-usually an LSTM, which reads one token at a time and carries what it has seen
+usually an [LSTM](kloom:e/long-short-term-memory), which reads one token at a time and carries what it has seen
 forward in a hidden state. Translation systems paired two of them, an
 _encoder_ that read the source sentence and a _decoder_ that wrote the
-target. In 2014 **Dzmitry Bahdanau**, **Kyunghyun Cho** and **Yoshua Bengio**
-added _attention_: at each step the decoder could look back over every
+target. In 2014 **Dzmitry Bahdanau**, **Kyunghyun Cho** and **[Yoshua Bengio](kloom:e/yoshua-bengio)**
+added [_attention_](kloom:e/attention-machine-learning): at each step the decoder could look back over every
 encoded word and weigh which ones mattered, instead of relying on a single
 summary vector squeezed out of the whole sentence.
 
@@ -61,18 +61,18 @@ bill that long-context models are still paying.
 On the 2014 WMT benchmarks the big model scored 28.4 BLEU on English to
 German, more than 2 points above the best previous results, ensembles
 included, and 41.8 on English to French, a new best for a single model. It
-trained for 3.5 days on one machine with eight NVIDIA P100 GPUs; the base
+trained for 3.5 days on one machine with eight [NVIDIA](kloom:e/nvidia) P100 GPUs; the base
 model took twelve hours. The authors also tried it on parsing English
 sentences, where it did well without being tuned for the task.
 
 ## Eight authors
 
-The paper lists **Ashish Vaswani**, **Noam Shazeer**, **Niki Parmar**,
-Jakob Uszkoreit, **Llion Jones**, **Aidan Gomez**, **Łukasz Kaiser** and
+The paper lists **[Ashish Vaswani](kloom:e/ashish-vaswani)**, **[Noam Shazeer](kloom:e/noam-shazeer)**, **Niki Parmar**,
+Jakob Uszkoreit, **Llion Jones**, **[Aidan Gomez](kloom:e/aidan-gomez)**, **Łukasz Kaiser** and
 **Illia Polosukhin**, and says they contributed equally and were listed in
-random order. Gomez was at the University of Toronto, working at Google
-Brain; the name was chosen because Uszkoreit liked the sound of it. The
-paper was published in the proceedings of NIPS 2017. By 2026 it had
+random order. Gomez was at the University of Toronto, working at [Google
+Brain](kloom:e/google-brain); the name was chosen because Uszkoreit liked the sound of it. The
+paper was published in the proceedings of [NIPS](kloom:e/conference-on-neural-information-processing-systems) 2017. By 2026 it had
 been cited more than 250,000 times, and every one of the eight had left
 Google, for other companies or for startups of their own.
 

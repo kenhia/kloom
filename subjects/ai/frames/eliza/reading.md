@@ -1,5 +1,5 @@
 The first program that people talked to as if it were a person was written
-to show how little it took. **Joseph Weizenbaum** built **ELIZA** at MIT
+to show how little it took. **[Joseph Weizenbaum](kloom:e/joseph-weizenbaum)** built **[ELIZA](kloom:e/eliza)** at [MIT](kloom:e/massachusetts-institute-of-technology)
 between 1964 and 1967, published it in 1966, and spent much of the rest of
 his life warning people about what they had read into it.
 
@@ -8,7 +8,7 @@ his life warning people about what they had read into it.
 Weizenbaum, born in Berlin in 1923, had escaped Nazi Germany with his family
 in 1936. He came to MIT in 1963 on the strength of **SLIP**, a list-processing
 language he had written. ELIZA ran on [Project MAC](kloom:e/project-mac)'s time-sharing system, in
-MAD-SLIP on an IBM 7094, and a user talked to it from a remote typewriter
+MAD-SLIP on an [IBM 7094](kloom:e/ibm-7090), and a user talked to it from a remote typewriter
 terminal. (The user could not type a question mark: the system read it as
 "delete this line".) He named it after Eliza Doolittle in Shaw's
 _Pygmalion_, because, like her, it could be taught to speak better,
@@ -81,6 +81,6 @@ and in December 2024 Rupert Lane and several other engineers ran it again
 on an emulated 7094, rebuilt from about 96 per cent of the 1965 code, and reproduced the
 paper's conversations almost exactly.
 
-ELIZA lived entirely in words. At the Stanford Research Institute in Menlo
+ELIZA lived entirely in words. At the [Stanford Research Institute](kloom:e/sri-international) in Menlo
 Park, California, a team was building a machine that had to find its way
 through real rooms.

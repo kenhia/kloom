@@ -1,9 +1,9 @@
-Almost everything known about Feynman the safecracker comes from Feynman.
+Almost everything known about [Feynman](kloom:e/richard-feynman) the safecracker comes from Feynman.
 He told the stories to Charles Weiner in 1966, to an audience at Santa
 Barbara in 1975, and in the chapter "Safecracker Meets Safecracker" of
-_"Surely You're Joking, Mr. Feynman!"_ (1985), and they grew in the
-telling. What can be checked is that he really did take up locks at Los
-Alamos: in April 1945 he wrote to Arline that his interest was probably
+[_"Surely You're Joking, Mr. Feynman!"_](kloom:e/surely-youre-joking-mr-feynman) (1985), and they grew in the
+telling. What can be checked is that he really did take up locks at [Los
+Alamos](kloom:e/los-alamos-national-laboratory): in April 1945 he wrote to [Arline](kloom:e/arline-feynman) that his interest was probably
 because he liked puzzles so much, and that each lock was "just like a
 puzzle you have to open without forcing it."
 
@@ -18,7 +18,7 @@ cabinet back, and the papers could be pulled out through a gap under the
 bottom drawer. He kept demonstrating it, by quietly borrowing reports, to
 get better cabinets bought.
 
-The best of the stories is about **Edward Teller**, and it is the same in
+The best of the stories is about **[Edward Teller](kloom:e/edward-teller)**, and it is the same in
 1966 and 1975. At a meeting on security Teller said he kept his important
 papers in his desk drawer instead. Feynman slipped out before the end,
 found that he could reach under the back of the drawer and draw the papers
@@ -30,7 +30,7 @@ fooling a man that quick.
 ## Twenty numbers a wheel
 
 The new cabinets had a combination lock on the top drawer, made, in his
-1966 account, by the **Mosler Safe Company**. Behind the dial are three
+1966 account, by the **[Mosler Safe Company](kloom:e/mosler-safe-company)**. Behind the dial are three
 wheels, each with a notch, the _gate_. Dialling the right three numbers
 lines up the gates so that a bar, the _fence_, can drop into them; the
 plate draws the dial and the wheel pack. This design gave no click or give
@@ -56,18 +56,18 @@ twenty minutes or so before emerging, so that no one would think it easy.
 
 ## The safes of Oak Ridge, and after
 
-On his trips to **Oak Ridge** he opened, by his account, a manager's safe
+On his trips to **[Oak Ridge](kloom:e/oak-ridge-tennessee)** he opened, by his account, a manager's safe
 on a Sunday when only an absent secretary knew the combination, using two
 numbers he had half remembered from a visit weeks before, and a colonel's
 big double-doored safe, whose lock turned out to be the same mechanism as
 the cabinets', in seven minutes while the colonel read a magazine. After
 the war, back at Los Alamos in 1946 to finish some papers, he opened the
-filing cabinets of **Frederic de Hoffmann**, which held a copy of every
+filing cabinets of **[Frederic de Hoffmann](kloom:e/frederic-de-hoffmann)**, which held a copy of every
 document in the laboratory's library, by guessing that a physicist would
 use a mathematical constant: π failed, but _e_, 27-18-28, worked. All of
 de Hoffmann's cabinets had the same combination.
 
-Others did notice at the time. When Klaus Fuchs was later asked who at Los
+Others did notice at the time. When [Klaus Fuchs](kloom:e/klaus-fuchs) was later asked who at Los
 Alamos might be a spy, he pointed to Feynman's safecracking and his
 frequent trips to Albuquerque. Feynman's own point, in every telling, was
 that security was only as good as its locks and the people using them;

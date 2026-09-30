@@ -153,5 +153,11 @@
 			"file": "mark-i.png",
 			"accessed": "2026-09-27"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/mcculloch-pitts",
+			"why": "Rosenblatt called his neuron 'a direct descendant' of McCulloch and Pitts's threshold unit, with weights that changed with experience."
+		}
 	]
 }

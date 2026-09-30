@@ -6,8 +6,8 @@ that worked, and was sold.
 
 ## A clock that calculated, and burned
 
-Twenty years earlier, in 1623 and 1624, **Wilhelm Schickard**, professor of
-Hebrew at Tübingen, wrote to Kepler about an _arithmeticum organum_ he had
+Twenty years earlier, in 1623 and 1624, **[Wilhelm Schickard](kloom:e/wilhelm-schickard)**, professor of
+Hebrew at Tübingen, wrote to [Kepler](kloom:e/johannes-kepler) about an _arithmeticum organum_ he had
 built: a six-digit adding machine in the base, rotatable Napier's bones
 above it to help with multiplying, and a bell that rang when a sum
 overflowed. The finished copy, which a clockmaker named Johann Pfister was
@@ -26,7 +26,7 @@ adding 1 to 9,999. It could, though, subtract simply by turning backwards.
 
 ## The falling carry
 
-**Blaise Pascal** built his machine for his father, **Étienne Pascal**, the
+**[Blaise Pascal](kloom:e/blaise-pascal)** built his machine for his father, **Étienne Pascal**, the
 supervisor of taxes in Rouen, whose accounts ran to long columns
 of livres, sols and deniers. By his own account, in the _Advis nécessaire_
 printed with the machine in 1645, he made more than fifty models, "some of
@@ -53,7 +53,7 @@ wheels would turn as easily as one. To clear the machine you set every
 wheel to 9 and added 1, and the carry ran through all of them; every reset
 tested the mechanism.
 
-The wheels turned only one way, so the Pascaline added. To subtract, the
+The wheels turned only one way, so the [Pascaline](kloom:e/pascaline) added. To subtract, the
 operator slid a bar to show a second row of windows, holding each digit's
 complement to 9, entered the first number's complement, and added the
 second:
@@ -72,20 +72,20 @@ beside the decimal ones.
 
 ## Leibniz's drum, and a machine made in numbers
 
-**Gottfried Wilhelm Leibniz** wanted multiplication. He showed a wooden
-model to the Royal Society in London on 1 February 1673, and built his
+**[Gottfried Wilhelm Leibniz](kloom:e/gottfried-wilhelm-leibniz)** wanted multiplication. He showed a wooden
+model to the [Royal Society](kloom:e/royal-society) in London on 1 February 1673, and built his
 _stepped reckoner_ around a new part: a drum with nine teeth of increasing
 length, so that a sliding gear meets from none to nine of them in a turn
-and adds that digit. (His dream of a calculus of reasoning is another
+and adds that digit. (His dream of a [calculus of reasoning](kloom:e/calculus-ratiocinator) is another
 story.) The reckoner's carry was flawed. Two machines were built, but the
 sources disagree: one dates them 1694 and 1706 and says the first
 survives; another has them built in 1686–94 and 1690–1720 and says the
 survivor is the later. Sent to Göttingen for repair in 1775, it was
 forgotten in an attic there until workmen found it in 1876.
 
-The stepped drum made its fortune in Paris. **Thomas de Colmar**, who began
+The stepped drum made its fortune in [Paris](kloom:e/paris). **[Thomas de Colmar](kloom:e/charles-xavier-thomas)**, who began
 while in charge of supplies for the French army, patented his
-_arithmometer_ on 18 November 1820. Production began only in 1851 (1852,
+[_arithmometer_](kloom:e/arithmometer) on 18 November 1820. Production began only in 1851 (1852,
 says one account), and from then to 1890 it was the only calculator in
 commercial production. By 1915 about 5,500 had been built, for banks,
 insurers, observatories and government offices, and some twenty firms made

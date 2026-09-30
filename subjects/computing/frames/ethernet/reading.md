@@ -1,5 +1,5 @@
 The bottom of the stack is a wire, and the question of who may talk on it.
-Ethernet's answer, worked out at Xerox's Palo Alto Research Center in 1973,
+[Ethernet](kloom:e/ethernet)'s answer, worked out at Xerox's [Palo Alto Research Center](kloom:e/parc-company) in 1973,
 was to have no one in charge: every station listens, speaks when the line is
 quiet, and backs off at random when two speak at once. Fifty years on, the
 name covers links more than a quarter of a million times faster, and the collisions
@@ -7,8 +7,8 @@ it was built to survive no longer happen.
 
 ## From Hawaii to Palo Alto
 
-The idea came from radio. At the University of Hawaii, **Norman Abramson**
-and **Franklin Kuo** built _ALOHAnet_, in operation from June 1971, which
+The idea came from radio. At the University of Hawaii, **[Norman Abramson](kloom:e/norman-abramson)**
+and **Franklin Kuo** built [_ALOHAnet_](kloom:e/alohanet), in operation from June 1971, which
 linked terminals on several islands to one computer over a shared radio
 channel. A terminal simply sent its packet; if no acknowledgement came, it
 waited a random time and sent again. The cost was waste: when traffic is
@@ -16,13 +16,13 @@ heavy, pure ALOHA delivers at best 18.4 per cent of the channel, and the
 slotted version 36.8 per cent. (Wikipedia's articles disagree on ALOHAnet's
 speed, 4,800 or 9,600 bit/s; the article on ALOHAnet itself says 9,600.)
 
-**Robert Metcalfe**, a Harvard graduate student whose thesis on the ARPANET
+**[Robert Metcalfe](kloom:e/robert-metcalfe)**, a Harvard graduate student whose thesis on the ARPANET
 had been rejected, read about ALOHA, fixed what he saw as flaws in its
 analysis and added them to the thesis, which Harvard then accepted. At PARC he
-was asked to connect the new Alto workstations to each other and to a laser
+was asked to connect the new [Alto](kloom:e/xerox-alto) workstations to each other and to a laser
 printer. On 22 May 1973 he circulated a memo called "Alto Ethernet", named
-for the luminiferous ether once thought to carry light. With **David
-Boggs** he had it running on 11 November 1973, at 2.94 Mbit/s; Boggs
+for the [luminiferous ether](kloom:e/luminiferous-aether) once thought to carry light. With **[David
+Boggs](kloom:e/david-boggs)** he had it running on 11 November 1973, at 2.94 Mbit/s; Boggs
 counted that day, not the memo's, as Ethernet's birth.
 
 ![Parts of a thick-cable Ethernet: a black transceiver box, two smaller adapters, a grey drop cable, a length of yellow coaxial cable with a tap clamped on it, terminators and an orange coring tool for drilling the cable](transceivers.jpg)
@@ -86,8 +86,8 @@ in 2011.
 | 2024 | 802.3df           | 800 Gbit/s  |
 
 Ethernet's 48-bit station addresses were adopted across the IEEE's other
-network standards, Wi-Fi among them. In 2023 Metcalfe received the Turing Award for 2022. A 1.6 Tbit/s
+network standards, Wi-Fi among them. In 2023 Metcalfe received the [Turing Award](kloom:e/turing-award) for 2022. A 1.6 Tbit/s
 standard, 802.3dj, was scheduled for the autumn of 2026. Each link is fast,
 but it ends where its cable ends; to go further a packet needs an address
-that means something on every network, which is the Internet Protocol's
+that means something on every network, which is the [Internet Protocol](kloom:e/internet-protocol)'s
 job.

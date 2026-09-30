@@ -1,0 +1,9 @@
+{
+	"id": "dennard-scaling",
+	"wikidata": "Q17008889",
+	"name": "Dennard scaling",
+	"aliases": ["Dennard's scaling"],
+	"kind": "idea",
+	"description": "The rule, from 1974, that smaller transistors use proportionally less power, so chips got faster without getting hotter until about 2005.",
+	"home": "computing/end-of-scaling"
+}

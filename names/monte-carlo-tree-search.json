@@ -1,0 +1,7 @@
+{
+	"id": "monte-carlo-tree-search",
+	"wikidata": "Q11785332",
+	"name": "Monte Carlo tree search",
+	"kind": "idea",
+	"description": "A game-tree search that samples play-outs to decide which moves to explore; used by AlphaGo and AlphaZero."
+}

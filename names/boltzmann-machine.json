@@ -1,0 +1,8 @@
+{
+	"id": "boltzmann-machine",
+	"wikidata": "Q194706",
+	"name": "Boltzmann machine",
+	"kind": "idea",
+	"description": "A stochastic neural network, devised by Hinton and Sejnowski in 1983–85, that learns the probabilities of its examples.",
+	"home": "ai/boltzmann-machine"
+}

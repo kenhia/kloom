@@ -1,17 +1,17 @@
 Attention heads and the other half of each layer do not pass their results
 from hand to hand. Each token has one running vector, and every part of every
 layer reads from it and adds its own contribution back in. Researchers call
-that running vector the **residual stream**, and seeing a transformer as a
+that running vector the **residual stream**, and seeing a [transformer](kloom:e/transformer-deep-learning) as a
 stack of writers around one shared channel is the easiest way to understand
 its layers.
 
 ## One channel, many writers
 
 The 2017 transformer wrapped every sub-layer in a _residual connection_, an
-idea taken from image networks (the main spine's ResNet frame): instead of
+idea taken from image networks (the main spine's [ResNet](kloom:e/residual-neural-network) frame): instead of
 replacing its input _x_, a sub-layer computes something and adds it, giving
 _x_ + Sublayer(_x_). Stack dozens of these and the vector for each token
-becomes a running total. As **Nelson Elhage** and his co-authors at Anthropic put it in 2021, the
+becomes a running total. As **Nelson Elhage** and his co-authors at [Anthropic](kloom:e/anthropic) put it in 2021, the
 residual stream "is simply the sum of the output of all the previous layers
 and the original embedding".
 
@@ -37,9 +37,9 @@ into the stream by the layers in between.
 After attention, each layer applies a small two-layer neural network, the
 _feed-forward_ or **MLP** block, to every token's vector separately. Its
 middle layer is wider than the stream: 2,048 against 512 in the 2017 model,
-and four times the width in GPT-2 and BERT. So although attention gets the
+and four times the width in [GPT-2](kloom:e/gpt-2) and [BERT](kloom:e/bert-language-model). So although attention gets the
 attention, most of the weights are here. In 2021 **Mor Geva** and colleagues
-at Tel Aviv University and the Allen Institute counted the MLP layers as
+at Tel Aviv University and the [Allen Institute](kloom:e/allen-institute-for-ai) counted the MLP layers as
 "two-thirds of a transformer model's parameters", and showed what they seem
 to hold.
 
@@ -67,7 +67,7 @@ mix of many of them, refined by the layers above.
 
 A running sum over dozens of layers can grow or drift, so transformers also
 use **layer normalisation**, proposed by Jimmy Lei Ba, Jamie Ryan Kiros and
-Geoffrey Hinton in 2016: rescale each vector using its own mean and variance.
+[Geoffrey Hinton](kloom:e/geoffrey-hinton) in 2016: rescale each vector using its own mean and variance.
 The 2017 model normalised _after_ each addition. GPT-2 moved the
 normalisation "to the input of each sub-block", added one more after the last
 block, and scaled down the weights of the residual layers at the start of
@@ -78,7 +78,7 @@ original needed, and it is what the diagram below shows.
 ![The full architecture of a GPT model: token embedding plus positional encoding at the bottom, a stack of transformer blocks, then a final layer norm, a linear layer and softmax; one block is expanded to show layer norm, multi-head masked attention and an add back into the residual path, then layer norm, a two-layer MLP with GELU and a second add](gpt-architecture.png)
 
 Stacking is how models grew. The 2017 model had six layers on each side;
-GPT-2 came in four sizes; Llama 3 405B has 126 layers.
+GPT-2 came in four sizes; [Llama](kloom:e/llama-language-model) 3 405B has 126 layers.
 
 | GPT-2 size | Layers | Width |
 | ---------- | -----: | ----: |

@@ -1,0 +1,9 @@
+{
+	"id": "parton-particle-physics",
+	"wikidata": "Q117483",
+	"name": "Parton",
+	"aliases": ["partons"],
+	"kind": "idea",
+	"description": "Feynman's 1969 name for the point-like pieces inside a proton, later identified as quarks and gluons.",
+	"home": "feynman/partons"
+}

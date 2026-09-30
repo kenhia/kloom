@@ -1,0 +1,7 @@
+{
+	"id": "vanishing-gradient-problem",
+	"wikidata": "Q18358230",
+	"name": "Vanishing gradient problem",
+	"kind": "idea",
+	"description": "The tendency of error signals to shrink exponentially as they pass back through many layers or time steps, stalling learning."
+}

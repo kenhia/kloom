@@ -1,0 +1,8 @@
+{
+	"id": "conways-game-of-life",
+	"wikidata": "Q244615",
+	"name": "Conway's Game of Life",
+	"aliases": ["Life", "Game of Life"],
+	"kind": "idea",
+	"description": "John Conway's 1970 cellular automaton, in which cells on a grid live or die by a few rules and yet produce patterns that move and compute."
+}

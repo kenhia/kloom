@@ -1,22 +1,22 @@
-Shannon's chess machine could not learn from its mistakes. Within a decade
-an engineer at IBM had a program that did, and that played checkers better
+[Shannon](kloom:e/claude-shannon)'s chess machine could not learn from its mistakes. Within a decade
+an engineer at [IBM](kloom:e/ibm) had a program that did, and that played [checkers](kloom:e/checkers) better
 than he could.
 
 ## A checkers player at IBM
 
-**Arthur Samuel** joined IBM at Poughkeepsie in 1949 and wrote a checkers
+**[Arthur Samuel](kloom:e/arthur-samuel-computer-scientist)** joined IBM at Poughkeepsie in 1949 and wrote a checkers
 program for the company's first commercial computer, the **[IBM 701](kloom:e/ibm-701)**. It
-was shown on television on 24 February 1956. IBM's president, **Thomas
-Watson**, arranged a showing for shareholders and predicted that IBM's stock
-would rise fifteen points; according to the checkers researcher Jonathan
-Schaeffer, it did.
+was shown on television on 24 February 1956. IBM's president, **[Thomas
+Watson](kloom:e/thomas-j-watson)**, arranged a showing for shareholders and predicted that IBM's stock
+would rise fifteen points; according to the checkers researcher [Jonathan
+Schaeffer](kloom:e/jonathan-schaeffer), it did.
 
 Samuel chose checkers over chess because its simpler rules let him
 concentrate on learning. His 1959 paper, "Some Studies in Machine Learning
 Using the Game of Checkers", describes the program on the faster **[IBM
 704](kloom:e/ibm-704)**. The board fitted the machine neatly: each of the 32 playing squares
 was one bit of a 36-bit word, so four words held a position. The program
-looked a few moves ahead, backed up the scores by minimax as Shannon had
+looked a few moves ahead, backed up the scores by [minimax](kloom:e/minimax) as Shannon had
 proposed, and scored the positions it reached with a _scoring polynomial_:
 a weighted sum of features such as the piece advantage, with kings worth
 three men to two.
@@ -51,7 +51,7 @@ out a term whenever it had been least useful eight times.
 The paper's abstract claimed that a computer could learn "to play a better
 game of checkers than can be played by the person who wrote the program",
 in "8 or 10 hours of machine-playing time". Samuel is widely credited with
-coining the term _machine learning_ in 1959. The paper uses it in its
+coining the term [_machine learning_](kloom:e/machine-learning) in 1959. The paper uses it in its
 title, but also says that "for some years the writer has devoted his spare
 time to the subject of machine learning", a subject he had been working
 on for years.
@@ -66,10 +66,10 @@ blundered at move 16, and pointed out that Nealey was not yet a state
 champion; he won that title in 1966. (Schaeffer's 2007 paper in _Science_
 dates the match to 1963.)
 
-A rematch the next year, six games played by post against an **IBM 7094**,
+A rematch the next year, six games played by post against an **[IBM 7094](kloom:e/ibm-7090)**,
 went to Nealey with one win and five draws. In 1966 the program lost all
 eight games it played against the world championship finalists Walter
-Hellman and Derek Oldbury. But the single win of 1962 had become a legend
+Hellman and [Derek Oldbury](kloom:e/derek-oldbury). But the single win of 1962 had become a legend
 that "checkers was a 'solved' game", and for over twenty-five years, by
 Schaeffer's account, researchers largely ignored checkers and turned to
 chess.

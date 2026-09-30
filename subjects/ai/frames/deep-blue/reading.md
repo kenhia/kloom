@@ -1,24 +1,24 @@
-Ever since an IBM mathematician, Alex Bernstein, wrote the first complete
-chess program in 1957, chess had been the test that computing set itself: a
+Ever since an [IBM](kloom:e/ibm) mathematician, Alex Bernstein, wrote the first complete
+[chess](kloom:e/chess) program in 1957, chess had been the test that computing set itself: a
 game that takes a lifetime to master, with clear rules and a clear result. In
 May 1997, in New York, a machine built by **IBM** beat the reigning world
 champion over a six-game match.
 
 ## Chess chips
 
-The machine began as a student project. In 1985 **Feng-hsiung Hsu**, a
-doctoral student at Carnegie Mellon University, started building a chess
+The machine began as a student project. In 1985 **[Feng-hsiung Hsu](kloom:e/feng-hsiung-hsu)**, a
+doctoral student at [Carnegie Mellon University](kloom:e/carnegie-mellon-university), started building a chess
 machine called _ChipTest_, which won the North American Computer Chess
 Championship in 1987. Its successor, _Deep Thought_, lost two games to
-**Garry Kasparov** in 1989. That year Hsu and **Murray Campbell** joined IBM
-Research, and the project was renamed _Deep Blue_, a play on the company's
+**[Garry Kasparov](kloom:e/garry-kasparov)** in 1989. That year Hsu and **[Murray Campbell](kloom:e/murray-campbell)** joined IBM
+Research, and the project was renamed [_Deep Blue_](kloom:e/deep-blue-chess-computer), a play on the company's
 nickname, Big Blue.
 
 Deep Blue was a search engine in the literal sense. It looked ahead through
 the tree of possible moves and replies, scored the positions at the end of
 each line with an _evaluation function_, and backed the best score up the
 tree. The plate on the left shows the trick that makes this affordable,
-_alpha–beta pruning_: once one reply is found that refutes a move, the rest of
+[_alpha–beta pruning_](kloom:e/alphabeta-pruning): once one reply is found that refutes a move, the rest of
 that branch need not be searched at all. Its strength came from doing this
 very fast. Deep Blue's own designers described the 1997 machine as a 30-node
 IBM RS/6000 SP computer carrying **480 custom chess chips**, sixteen to a
@@ -68,10 +68,10 @@ Deep Blue "as intelligent as your alarm clock".
 
 There was a quieter argument about what had been proved. Deep Blue did not
 learn: it searched, with rules that people wrote and tuned. It could play
-chess and nothing else. Chess engines such as Leela Chess Zero now use neural networks
+chess and nothing else. Chess engines such as [Leela Chess Zero](kloom:e/leela-chess-zero) now use neural networks
 that train themselves by play, and the next frames follow the idea that
 replaced hand-written knowledge: learning it from data.
 
 Follow the trail from here into the long history of machines at play, from an
 eighteenth-century chess hoax to programs that taught themselves. On the main spine, the next step was not a
-faster search but a bigger dataset: ImageNet.
+faster search but a bigger dataset: [ImageNet](kloom:e/imagenet).

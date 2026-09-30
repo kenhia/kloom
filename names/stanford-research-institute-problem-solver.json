@@ -1,0 +1,7 @@
+{
+	"id": "stanford-research-institute-problem-solver",
+	"wikidata": "Q996052",
+	"name": "STRIPS",
+	"kind": "artifact",
+	"description": "Fikes and Nilsson's 1971 planner for Shakey, whose way of writing actions as preconditions and effects most planners still use."
+}

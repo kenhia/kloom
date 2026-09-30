@@ -310,6 +310,10 @@
 		{
 			"to": "feynman/connection-machine",
 			"why": "The first No. 1 of the TOP500 list, in June 1993, was a Connection Machine CM-5 at Los Alamos."
+		},
+		{
+			"to": "ai/compute",
+			"why": "The IEA put the world's data centres at about 415 terawatt-hours in 2024, 1.5 per cent of all electricity, and expects AI to roughly double that by 2030."
 		}
 	]
 }

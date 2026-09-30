@@ -231,5 +231,11 @@
 			"licence": "MIT",
 			"file": "temperature.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/boltzmann-machine",
+			"why": "The softmax that chooses the next token is Boltzmann's distribution, and its temperature does what it does in the Boltzmann machine: hot flattens the odds, cold sharpens them."
+		}
 	]
 }

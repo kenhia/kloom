@@ -96,5 +96,11 @@
 			"pages": "448–56",
 			"published": "2015"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/lstm",
+			"why": "Highway networks borrowed LSTM's gates to train very deep networks; a residual network is a highway network with its gates held open."
+		}
 	]
 }

@@ -1,0 +1,8 @@
+{
+	"id": "gnu-compiler-collection",
+	"wikidata": "Q178940",
+	"name": "GNU Compiler Collection",
+	"aliases": ["GCC"],
+	"kind": "artifact",
+	"description": "The GNU project's compiler, first released in 1987, used to build Linux and much other free software."
+}

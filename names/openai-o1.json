@@ -1,0 +1,9 @@
+{
+	"id": "openai-o1",
+	"wikidata": "Q130288245",
+	"name": "OpenAI o1",
+	"aliases": ["o1"],
+	"kind": "artifact",
+	"description": "OpenAI's model of September 2024, trained to reason at length before answering, the first widely used reasoning model.",
+	"home": "ai/reasoning-models"
+}

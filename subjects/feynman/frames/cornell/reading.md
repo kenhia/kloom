@@ -1,6 +1,6 @@
-In the autumn of 1945 Feynman left Los Alamos for **Cornell University**
+In the autumn of 1945 [Feynman](kloom:e/richard-feynman) left Los Alamos for **[Cornell University](kloom:e/cornell-university)**
 in Ithaca, New York, one of the first group leaders to go. He went because
-of one man. **Hans Bethe**, head of the Theoretical Division at Los Alamos
+of one man. **[Hans Bethe](kloom:e/hans-bethe)**, head of the Theoretical Division at Los Alamos
 and a Cornell professor, had recommended him to Cornell's physics
 department as early as October 1943, and Cornell made him an offer in
 August 1944, which he accepted. When Berkeley tried to take him in May
@@ -32,7 +32,7 @@ that liked to have a faculty member in the house.
 
 ## Grief
 
-He came to Cornell a widower. His wife **Arline** had died of tuberculosis
+He came to Cornell a widower. His wife **[Arline](kloom:e/arline-feynman)** had died of tuberculosis
 in Albuquerque that June, and the bomb he had helped to build had been
 used on two cities in August. He brought with him the sense, which the
 Trinity frame tells, that anything built would soon be destroyed, and in
@@ -59,19 +59,19 @@ made things worse: everyone else's opinion of him rose as his own fell.
 | University of California, Los Angeles      | Cornell years | Refused                         |
 | Institute for Advanced Study and Princeton | c. 1946–47    | Refused, and it broke the spell |
 
-The last was the best. The **Institute for Advanced Study**, where Einstein
+The last was the best. The **[Institute for Advanced Study](kloom:e/institute-for-advanced-study)**, where [Einstein](kloom:e/albert-einstein)
 worked, offered him a place with a half-time professorship at Princeton
 University attached, so that he would have students as well as time. He
 was shaving, he said, when it struck him how absurd it was. They thought
 he was good; he was not; and he was under no obligation to live up to
-anyone else's idea of him. The guilt lifted. Within a day or so **Robert
-Wilson**, head of Cornell's Laboratory of Nuclear Studies, called him in
+anyone else's idea of him. The guilt lifted. Within a day or so **[Robert
+Wilson](kloom:e/robert-r-wilson)**, head of Cornell's Laboratory of Nuclear Studies, called him in
 and told him, unprompted, that when a university hires a professor the
 risk is the university's, not his: plenty of professors only teach, and
 that is fine.
 
 These are Feynman's tellings, in the 1966 interview and in the chapter of
-_"Surely You're Joking"_ called "The Dignified Professor", and they agree
+[_"Surely You're Joking"_](kloom:e/surely-youre-joking-mr-feynman) called "The Dignified Professor", and they agree
 in outline. What the documents add is the offers' dates and money, which
 the table takes from Jagdish Mehra's biography as the Wikipedia article
 reports it. The date of the Institute's offer is not fixed there; the

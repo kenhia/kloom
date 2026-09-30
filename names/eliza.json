@@ -1,0 +1,8 @@
+{
+	"id": "eliza",
+	"wikidata": "Q580318",
+	"name": "ELIZA",
+	"kind": "artifact",
+	"description": "Joseph Weizenbaum's 1966 program at MIT that held typed conversations by keyword and template, most famously as a therapist.",
+	"home": "ai/eliza"
+}

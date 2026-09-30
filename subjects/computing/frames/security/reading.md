@@ -7,8 +7,8 @@ the evening of 2 November 1988 a program showed what that trust was worth.
 
 ## The worm
 
-**Robert Tappan Morris**, a graduate student at Cornell, released it at
-about 8.30 that evening from a machine at MIT. The _worm_, a program that
+**[Robert Tappan Morris](kloom:e/robert-tappan-morris)**, a graduate student at Cornell, released it at
+about 8.30 that evening from a machine at MIT. The [_worm_](kloom:e/morris-worm), a program that
 copies itself from machine to machine by its own effort, attacked [VAX](kloom:e/vax)
 computers and Sun-3 workstations running Berkeley Unix. It got in through
 a debugging mode left in the `sendmail` mail program, a buffer overflow in
@@ -39,7 +39,7 @@ University.
 Cryptography had an older problem that a network makes worse. Two people
 who want to talk in secret must first share a key, and handing keys round
 in advance does not work between millions of strangers. In November 1976
-**Whitfield Diffie** and **Martin Hellman** of Stanford began "New
+**[Whitfield Diffie](kloom:e/whitfield-diffie)** and **[Martin Hellman](kloom:e/martin-hellman)** of Stanford began "New
 Directions in Cryptography" with "We stand today on the brink of a
 revolution in cryptography." They showed how two parties could agree on a
 secret key by exchanging messages that an eavesdropper sees in full. Each
@@ -57,18 +57,18 @@ small numbers invented for it:
 | Sent in the open           | 5⁶ mod 23 = 8      | 5¹⁵ mod 23 = 19    |
 | Computes from what arrives | 19⁶ mod 23 = **2** | 8¹⁵ mod 23 = **2** |
 
-In 1977 **Ron Rivest**, **Adi Shamir** and **Leonard Adleman** at MIT
+In 1977 **[Ron Rivest](kloom:e/ron-rivest)**, **Adi Shamir** and **Leonard Adleman** at MIT
 published a scheme in which anyone can encrypt with a published key and
 only its owner, who knows how it was made from two large primes, can
-decrypt. Together these are _public-key_
-cryptography, and the protocol that carries them across the web today is
-the last frame of the trail on the internet's layers. (Quantum computers, if large enough ones are built, could break both, and
+decrypt. Together these are [_public-key_
+cryptography](kloom:e/public-key-cryptography), and the protocol that carries them across the web today is
+the last frame of the trail on the internet's layers. ([Quantum computers](kloom:e/quantum-computing), if large enough ones are built, could break both, and
 quantum-resistant schemes are being developed to replace them.)
 
 It had been done before, in secret. At Britain's signals intelligence
-agency, GCHQ, **James Ellis** showed in January 1970 that "non-secret
-encryption" was possible in principle; **Clifford Cocks** found a way to
-do it in November 1973 that Ellis called "essentially the RSA algorithm";
+agency, [GCHQ](kloom:e/gchq), **James Ellis** showed in January 1970 that "non-secret
+encryption" was possible in principle; **[Clifford Cocks](kloom:e/clifford-cocks)** found a way to
+do it in November 1973 that Ellis called "essentially the [RSA algorithm](kloom:e/rsa-cryptosystem)";
 and **Malcolm Williamson** wrote up a three-pass scheme in January 1974.
 The two tellings of Williamson's key exchange differ. Wikipedia dates it
 to 1974; Ellis's own history, written in 1987, says Williamson put it on

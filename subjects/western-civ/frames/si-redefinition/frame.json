@@ -61,5 +61,15 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-04"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/faraday-induction",
+			"why": "The Kibble balance weighs a kilogram partly by moving a coil through a magnetic field and measuring the voltage it induces: Faraday's induction."
+		},
+		{
+			"to": "western-civ/royal-cubit",
+			"why": "The kilogram's prototype was the cubit rod's system at its most refined, a master kept safe and copies sent out, with the same weakness; 2019 replaced it with constants."
+		}
 	]
 }

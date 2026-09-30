@@ -1,7 +1,7 @@
-After AlexNet the lesson seemed simple: deeper networks see better. AlexNet
+After [AlexNet](kloom:e/alexnet) the lesson seemed simple: deeper networks see better. AlexNet
 had eight layers; the VGG networks of 2014 had nineteen. But past a point,
 adding layers made networks worse, and not in the way anyone expected. In
-December 2015 four researchers at Microsoft Research published a fix so
+December 2015 four researchers at [Microsoft Research](kloom:e/microsoft-research) published a fix so
 simple it fits in one line, and it has been part of deep networks ever
 since.
 
@@ -10,15 +10,15 @@ since.
 A deeper network ought to be able to do at least as well as a shallower one.
 Take a good shallow network, add layers that simply pass their input through
 unchanged, and the deeper network computes exactly the same thing. Yet when
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren and Jian Sun trained plain
+**[Kaiming He](kloom:e/kaiming-he)**, Xiangyu Zhang, Shaoqing Ren and Jian Sun trained plain
 networks of increasing depth, the deeper ones had _higher_ error, and not
 only on new images: they were worse on the very images they were trained on.
 So this was not overfitting. The optimiser simply could not find the
 solution that was known to exist.
 
-Their own comparison on ImageNet shows it. In the table below, adding sixteen
+Their own comparison on [ImageNet](kloom:e/imagenet) shows it. In the table below, adding sixteen
 layers to a plain network made its error worse; adding the same layers to a
-residual network made it better.
+[residual network](kloom:e/residual-neural-network) made it better.
 
 | Layers | Plain network | Residual network |
 | -----: | ------------: | ---------------: |
@@ -28,7 +28,7 @@ residual network made it better.
 _Top-1 error on the ImageNet validation set, 10-crop testing (He et al.,
 table 2)._
 
-It was not the old problem of _vanishing gradients_, they argued. Their plain
+It was not the old problem of [_vanishing gradients_](kloom:e/vanishing-gradient-problem), they argued. Their plain
 networks used **batch normalisation**, a technique published that February
 by Sergey Ioffe and Christian Szegedy at Google, which rescales the inputs to
 each layer over every mini-batch of training examples. Ioffe and Szegedy had
@@ -69,7 +69,7 @@ Shortcuts were not new. Skip-layer connections appear in networks of the
 held open. What the paper showed, at scale, was that the plain identity shortcut was
 enough, and it made the pattern widely popular.
 
-It has stayed so. Residual connections run through AlphaGo Zero and
-AlphaFold, and through the transformer models, BERT and GPT among them, that
+It has stayed so. Residual connections run through [AlphaGo Zero](kloom:e/alphago-zero) and
+[AlphaFold](kloom:e/alphafold), and through the [transformer](kloom:e/transformer-deep-learning) models, [BERT](kloom:e/bert-language-model) and GPT among them, that
 come later on this spine. The next frame returns
 to games, where deep networks met another way of learning: from reward.

@@ -1,11 +1,11 @@
 Between 1947 and 1949 the **National Academy of Sciences** brought the
 leading theoretical physicists in America together three times, for a few
-days each, at country inns, with **J. Robert Oppenheimer** leading the
+days each, at country inns, with **[J. Robert Oppenheimer](kloom:e/j-robert-oppenheimer)** leading the
 talk. They were small meetings by design, two or three dozen people,
-and Feynman said afterwards that no conference he went to later ever felt
-as important. The second, in the Pocono Mountains of Pennsylvania in the
+and [Feynman](kloom:e/richard-feynman) said afterwards that no conference he went to later ever felt
+as important. The second, in the [Pocono Mountains](kloom:e/pocono-conference) of Pennsylvania in the
 spring of 1948, was where he first showed the world his way of doing
-quantum electrodynamics, and where almost nobody understood it.
+[quantum electrodynamics](kloom:e/quantum-electrodynamics), and where almost nobody understood it.
 
 | Conference     | When                  | Where                                   | Physicists |
 | -------------- | --------------------- | --------------------------------------- | ---------- |
@@ -21,7 +21,7 @@ hydrogen that Dirac's theory said should be equal, and **Isidor Rabi**'s
 group had evidence that the electron's magnetism was slightly larger than
 Dirac's value. Both pointed at the infinities that had stalled the theory
 for fifteen years. Feynman explained his path integrals informally when the
-discussion ran dry. Within months, following **Hans Bethe**'s lead on the
+discussion ran dry. Within months, following **[Hans Bethe](kloom:e/hans-bethe)**'s lead on the
 Lamb shift, he had turned his private methods into a way of calculating;
 the trail "The diagrams" tells that part.
 
@@ -30,8 +30,8 @@ the trail "The diagrams" tells that part.
 ![A hand-coloured postcard of the Pocono Manor Inn in the 1910s: a long hotel of several storeys with steep roofs and dormers on a wooded hilltop, with steps climbing to it through the trees](pocono-manor.jpg)
 
 Twenty-eight came to the Pocono Manor Inn, among them, for the first time,
-**Niels Bohr** and his son **Aage**, **Paul Dirac** and **Eugene Wigner**.
-**Julian Schwinger** of Harvard, the rising star, spoke first, and at
+**[Niels Bohr](kloom:e/niels-bohr)** and his son **Aage**, **Paul Dirac** and **Eugene Wigner**.
+**[Julian Schwinger](kloom:e/julian-schwinger)** of Harvard, the rising star, spoke first, and at
 enormous length, most of a day, deriving his results from the standard
 formalism with a rigour that exhausted his audience but that they could
 check line by line. Feynman followed with what he called an alternative
@@ -68,11 +68,11 @@ Away from the sessions, Feynman and Schwinger compared answers term by
 term and found they agreed, though neither followed the other's method.
 Weeks later they sorted out the missing terms of the closed loop between
 them by telephone. On his return to Princeton, Oppenheimer found word
-from **Sin-Itiro Tomonaga** in Tokyo of a third route to the same
+from **[Sin-Itiro Tomonaga](kloom:e/shin-ichir-tomonaga)** in Tokyo of a third route to the same
 results.
 
 A year later, at **Oldstone** on the Hudson, the talk was of Feynman's
-approach, and a young Englishman, **Freeman Dyson**, showed that the three
+approach, and a young Englishman, **[Freeman Dyson](kloom:e/freeman-dyson)**, showed that the three
 methods were the same theory. By then Feynman had done as he decided at
 Pocono. His two papers of 1949 are the next frame, "He turned the algebra
 into PICTURES."

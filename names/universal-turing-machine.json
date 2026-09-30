@@ -1,0 +1,8 @@
+{
+	"id": "universal-turing-machine",
+	"wikidata": "Q2703890",
+	"name": "Universal Turing machine",
+	"aliases": ["universal machine"],
+	"kind": "idea",
+	"description": "A Turing machine that can imitate any other from its description on the tape: the idea of the stored-program computer."
+}

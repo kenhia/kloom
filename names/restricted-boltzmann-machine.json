@@ -1,0 +1,7 @@
+{
+	"id": "restricted-boltzmann-machine",
+	"wikidata": "Q7316287",
+	"name": "Restricted Boltzmann machine",
+	"kind": "idea",
+	"description": "A Boltzmann machine with connections only between a visible and a hidden layer; stacked, it trained the first deep belief nets."
+}

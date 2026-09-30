@@ -200,5 +200,15 @@
 			"file": "billiard.png",
 			"published": "2023-08-15"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/dna",
+			"why": "Feynman measured the energy cost of computing against the cell copying its DNA, about 100 kT a bit: the copying that Watson and Crick's base pairing explained."
+		},
+		{
+			"to": "ai/turing-machine",
+			"why": "Deutsch defined a universal quantum computer as precisely as Turing had defined his universal machine, in a paper named for the Church–Turing principle."
+		}
 	]
 }

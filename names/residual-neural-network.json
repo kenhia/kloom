@@ -1,0 +1,9 @@
+{
+	"id": "residual-neural-network",
+	"wikidata": "Q43744058",
+	"name": "Residual network",
+	"aliases": ["ResNet"],
+	"kind": "idea",
+	"description": "A deep network whose blocks learn a change added to their input through a shortcut, introduced in 2015; used in almost every deep model since.",
+	"home": "ai/resnet"
+}

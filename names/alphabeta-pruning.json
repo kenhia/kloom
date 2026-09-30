@@ -1,0 +1,7 @@
+{
+	"id": "alphabeta-pruning",
+	"wikidata": "Q570496",
+	"name": "Alpha–beta pruning",
+	"kind": "idea",
+	"description": "A way of cutting branches from a minimax game-tree search that cannot change the result, used by chess programs including Deep Blue."
+}

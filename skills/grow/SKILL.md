@@ -29,13 +29,16 @@ frames/<id>/            one directory per frame               (you may add new o
   frame.json            position, scene, citations
   reading.md            the reading
   scene.svg             the illustration
+names/<id>.json         the name registry, shared by every subject (you may add names)
 reference/              kloom's design notes, for you to read  (ignored)
+  frames.md             every frame a connection may name
 request/                what the reader asked for              (ignored)
 ```
 
-**Never change an existing frame, `subject.json`, or the order of existing
-frames.** You may add new frame directories, insert their ids into
-`spine.json` or a trail, add segments, and add or extend trail files.
+**Never change an existing frame, `subject.json`, the order of existing
+frames, or an existing name.** You may add new frame directories, insert
+their ids into `spine.json` or a trail, add segments, add or extend trail
+files, and add name files.
 
 **Read before you write.** Read `subject.json`, `spine.json`, every file in
 `trails/`, and at least two existing frames in full (`frame.json`,
@@ -209,6 +212,61 @@ charts and tables; see §Authoring with tools.)
   licence, and a job cannot fetch one. (An author with tools can; see
   §Authoring with tools.)
 
+## Names and connections
+
+kloom links its subjects two ways (`reference/design.md` §Connections). Do
+both as you write.
+
+- **Mark names.** In a new reading, mark the **first mention in prose** of
+  each person, place, organisation, named thing, work, idea or event that
+  matters to the frame: `[Martin Luther](kloom:e/martin-luther)`. Four to
+  eight a frame is usual. Only the first mention: a second mark of the same
+  name is an error. Not in a heading, a table or an image's alt text, and
+  never inside another link. The mark opens a card listing every frame, in
+  every subject, that marks the same name, so a name that recurs is the
+  one most worth marking.
+- **Use the registry first.** `names/` holds a file per name. Grep it (by
+  name, surname, alias and Wikidata ID) before you add one: Turing is
+  `alan-turing` everywhere, and a second file for him is refused.
+- **Add a name** only for something the registry lacks, and only one your
+  frame marks. Write `names/<id>.json`:
+
+  ```json
+  {
+  	"id": "johann-tetzel",
+  	"wikidata": "Q76873",
+  	"name": "Johann Tetzel",
+  	"aliases": ["Tetzel"],
+  	"kind": "person",
+  	"description": "Dominican friar whose sale of indulgences in 1517 provoked Luther's theses."
+  }
+  ```
+
+  The `id` is the English Wikipedia article's title, lower case, with
+  dashes (`Johann Tetzel` → `johann-tetzel`). `kind` is `person`, `place`,
+  `org`, `artifact`, `idea` or `event`. The `description` is one plain
+  sentence on what it is and why it matters, for any subject's reader: it
+  is shared. `home` (optional) is the `<subject>/<frame>` chiefly about
+  it. **The Wikidata ID must be real.** With the web, read it from the
+  Wikidata item (or the article's "Wikidata item" link) and check the item
+  is the thing you mean. Without the web, or if you cannot confirm it,
+  write `"wikidata": null`. Never guess one: a wrong ID merges two things.
+
+- **Never change an existing name file**, even to fix it. Say what is wrong
+  in your reply instead.
+- **Connect frames.** When your frame and another genuinely share an idea,
+  person, event or artifact, and a reader moving between them would learn
+  something, add a connection to your new frame's `frame.json`:
+  `"connections": [{"to": "computing/eniac", "why": "…"}]`. The `why` is
+  one sentence, specific and sourced by one of the two readings (read the
+  other frame's `reading.md` if it is in this subject; for another subject,
+  rely only on what its title and your sources say). `to` must be a frame
+  listed in `reference/frames.md` or one you add. A connection is stored on
+  one end and shown on both, so store it on your new frame. A thematic
+  rhyme ("both were revolutions") is not a connection, and a name both
+  frames mention is a mark, not a connection. None is fine; one or two is
+  usual.
+
 ## Sources and citations
 
 This is a subject written with a model, so **sources are mandatory and must
@@ -302,7 +360,11 @@ Check your own work against this list; the validator will:
   accessed date, and every Wikipedia url has `oldid=`;
 - no accent word repeats another in the subject, and any `asOf` is a
   `YYYY-MM-DD` date;
-- no existing frame, and not `subject.json`, has changed.
+- every name mark (`kloom:e/<id>`) names a file in `names/`, once per
+  frame; every name you added is marked in a frame you wrote and holds no
+  Wikidata ID another file holds; every connection names a frame in
+  `reference/frames.md` (or one you added) and says why;
+- no existing frame, no existing name, and not `subject.json`, has changed.
 
 Then reply with two or three sentences: what you added, and where.
 
@@ -316,9 +378,16 @@ the web rather than by a grow job. What changes:
   citation), `bar-chart` (a chart, on a log scale when values span orders
   of magnitude), `draw-plates` (plates from computed geometry),
   `subject-plan` (the spine and trails from a plan, so a subject written
-  segment by segment, or by several authors, validates at every step) and
-  `read-source` (a PDF's text, or its scanned pages as PNG). A grow job
-  can't run them: it has no shell.
+  segment by segment, or by several authors, validates at every step),
+  `read-source` (a PDF's text, or its scanned pages as PNG) and `names`
+  (Wikidata IDs from Wikipedia titles, name files into the registry, and
+  first-mention marks from a spec). A grow job can't run them: it has no
+  shell.
+- **Names by the tool.** `names.py lookup` gives the Wikidata ID from the
+  article title and says when a title redirects or is ambiguous; `names.py
+add` writes name files and refuses one whose Wikidata ID the registry
+  already holds; `names.py mark` places the marks from a spec, which is
+  kept in `create-tools/names/examples/` as the record.
 - **Read the primary source.** Many papers are PDFs, and older ones are
   scans with no text layer. `uv run create-tools/read-source/read_source.py
 paper.pdf` prints the text and names the scanned pages; `--png DIR

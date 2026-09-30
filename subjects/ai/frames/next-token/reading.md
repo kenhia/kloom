@@ -6,9 +6,9 @@ to the text, and the whole thing runs again.
 ## From vector to probabilities
 
 The last step, the _un-embedding_, is a single learned matrix with one column
-per vocabulary token (in the 2017 transformer, the same matrix as the input
+per vocabulary token (in the 2017 [transformer](kloom:e/transformer-deep-learning), the same matrix as the input
 embedding, turned around). Multiplying the final vector by it gives one score
-per token, called a **logit**: 50,257 of them for GPT-2. A softmax, the same
+per token, called a **logit**: 50,257 of them for [GPT-2](kloom:e/gpt-2). A [softmax](kloom:e/softmax-function), the same
 function attention uses, turns the logits into probabilities that sum to 1.
 
 Suppose the text so far is "The cat sat on the", and, keeping just five
@@ -25,7 +25,7 @@ the probabilities is _sampling_: the wheel in the drawing, with a sector for
 each token.
 
 Before sampling, the logits can be divided by a **temperature** _T_, a term
-from physics: the softmax is the _Boltzmann distribution_ of statistical
+from physics: the softmax is the [_Boltzmann distribution_](kloom:e/boltzmann-distribution) of statistical
 mechanics. Below 1 the distribution sharpens toward the top token, and as _T_
 approaches zero it becomes greedy; above 1 it flattens, and more unlikely
 words get through.
@@ -61,7 +61,7 @@ If the text really continued " mat", the loss is −ln 0.59 ≈ 0.53; if it
 continued " roof", −ln 0.049 ≈ 3.0. A model guessing evenly among GPT-2's
 50,257 tokens would score ln 50,257 ≈ 10.8 on every token. Training nudges
 every weight in the model to lower the average, over trillions of tokens.
-The GPT-3 team measured progress in exactly this loss, and found it fell
+The [GPT-3](kloom:e/gpt-3) team measured progress in exactly this loss, and found it fell
 smoothly as training compute grew, the regularity the main spine's scaling
 laws frame is about.
 
@@ -72,7 +72,7 @@ earlier token's keys and values are unchanged. So servers keep them in a
 **KV cache** and compute them once. Processing the prompt to fill the cache
 is called _prefill_; the token-by-token part after it is _decoding_.
 
-The cache is large. For Llama 3 405B (126 layers, eight key–value heads of
+The cache is large. For [Llama](kloom:e/llama-language-model) 3 405B (126 layers, eight key–value heads of
 128 dimensions each), our own arithmetic at two bytes a number gives about
 0.5 MB per token, or about 66 GB for a 128,000-token context. With a separate
 key and value for each of the 128 query heads, it would be sixteen times that,

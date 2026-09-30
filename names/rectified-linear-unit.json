@@ -1,0 +1,8 @@
+{
+	"id": "rectified-linear-unit",
+	"wikidata": "Q7303176",
+	"name": "Rectified linear unit",
+	"aliases": ["ReLU"],
+	"kind": "idea",
+	"description": "The activation function max(0, x), introduced by Fukushima in 1969, which became standard after AlexNet."
+}

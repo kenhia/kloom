@@ -163,5 +163,11 @@
 			"file": "bridge-laboratory.jpg",
 			"published": "2017-05-21"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/radio-boy",
+			"why": "The boy puzzled over the 2π in a tuned circuit's formula; the freshman lecture on algebra climbed to e^iθ, the circle behind every oscillation, where that 2π comes from."
+		}
 	]
 }

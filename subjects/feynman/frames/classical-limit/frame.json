@@ -121,5 +121,11 @@
 			"licence": "Public domain",
 			"file": "cornu.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/least-action",
+			"why": "The classical limit takes Bader's humped path as its first example: its neighbours' arrows cancel, which is why the ball follows the path of least action."
+		}
 	]
 }

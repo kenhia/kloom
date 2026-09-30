@@ -202,5 +202,15 @@
 			"file": "tomonaga-1949.jpg",
 			"published": "1949-05-04"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/wobbling-plate",
+			"why": "Paths zigzagging at light speed in one dimension gave Dirac's equation: where the wobbling plate led him at Cornell, and the Nobel lecture's example of what never worked in three."
+		},
+		{
+			"to": "western-civ/dna",
+			"why": "Feynman's slump after the Nobel ended the night he read the manuscript of The Double Helix, Watson's own account of the race to the structure."
+		}
 	]
 }

@@ -1,5 +1,5 @@
 Before there were electronic computers, a _computer_ was a person, and
-Los Alamos's first computers were mostly women. In the spring of 1943 the
+[Los Alamos](kloom:e/los-alamos-national-laboratory)'s first computers were mostly women. In the spring of 1943 the
 Theoretical Division's hand-computing room began with about a dozen
 volunteers, many of them scientists' wives: **Mici Teller**, Betty Inglis,
 Jean Bacher, Kay Manley and Beatrice Langer among them. **Mary Frankel**
@@ -12,16 +12,16 @@ Flanders** became its leader, group **T-5**, and standardised it on
 ten-digit Marchant calculators.
 
 The Marchants broke under the load, and sending them to Santa Fe or
-Albuquerque for repair held the work up. Feynman and **Nicholas Metropolis** took the covers off,
+Albuquerque for repair held the work up. [Feynman](kloom:e/richard-feynman) and **[Nicholas Metropolis](kloom:e/nicholas-metropolis)** took the covers off,
 against the rules, and ran a repair service from their office.
 
 ## An assembly line of people
 
 The big problem was the implosion bomb: how a sphere of metal squeezed by
 explosives moves, time step by time step. It was far too much for hand
-computing, and at the turn of 1944 the laboratory ordered **IBM punched-card
-accounting machines**, business machines that added, multiplied, sorted
-and printed numbers punched on cards. **Stanley Frankel** and **Eldred
+computing, and at the turn of 1944 the laboratory ordered **[IBM](kloom:e/ibm) [punched-card
+accounting machines](kloom:e/unit-record-equipment)**, business machines that added, multiplied, sorted
+and printed numbers punched on cards. **[Stanley Frankel](kloom:e/stan-frankel)** and **Eldred
 Nelson** planned how to set the equations on them. In March 1944, before
 the machines came, Frankel, Nelson and Feynman tested the plan with the
 human computers (Feynman remembered doing it with Metropolis): each woman did one operation, cubing a number or taking a
@@ -54,7 +54,7 @@ the numbers meant. Frankel, in Feynman's diagnosis, had caught the
 "computer disease" and was playing with what the machines could do; in
 January 1945 he moved to another group. Feynman took over the running of
 the machines under the group leader, Nelson, with Metropolis as deputy. The
-mathematician **Naomi Livesay** programmed the machines and supervised
+mathematician **[Naomi Livesay](kloom:e/naomi-livesay)** programmed the machines and supervised
 their operators throughout.
 
 Feynman's first change, with Oppenheimer's permission, was to tell the
@@ -81,8 +81,8 @@ three. And the story is usually told as Feynman's, though the machines
 were Frankel and Nelson's project and Livesay ran them. The hand computers,
 the historian Nicholas Lewis notes, were never told what they were for.
 
-The room also trained **John Kemeny**, one of the soldier-operators and
-later a creator of BASIC, and **Richard Hamming**, who went on to invent the
+The room also trained **[John Kemeny](kloom:e/john-g-kemeny)**, one of the soldier-operators and
+later a creator of [BASIC](kloom:e/basic), and **[Richard Hamming](kloom:e/richard-hamming)**, who went on to invent the
 Hamming code at Bell Labs. Feynman also worked out at Los Alamos a quick way to compute
 logarithms, by factors of the form 1 + 2⁻ᵏ, which he used again forty years
 later on the Connection Machine. The trail goes on to the mail, and his

@@ -1,16 +1,16 @@
 Nothing in the layers below keeps a secret. An Ethernet frame is heard by
 every station on its segment, an IP packet can be read by every router it
-crosses, and a DNS answer can be forged. Transport Layer Security wraps a
+crosses, and a DNS answer can be forged. [Transport Layer Security](kloom:e/transport-layer-security) wraps a
 TCP connection so that it proves who is at the other end, encrypts
-everything in between, and detects any tampering. Its tools are public-key
-cryptography, invented in the 1970s, and certificates. This frame describes
+everything in between, and detects any tampering. Its tools are [public-key
+cryptography](kloom:e/public-key-cryptography), invented in the 1970s, and certificates. This frame describes
 TLS as it stood on 28 September 2026.
 
 ## From Netscape's layer to the IETF's
 
-It began as a product feature. Netscape Communications created HTTPS in
+It began as a product feature. [Netscape Communications](kloom:e/netscape) created HTTPS in
 1994 for its Navigator browser, carried over its own _Secure Sockets
-Layer_, whose design is credited to its chief scientist **Taher Elgamal**.
+Layer_, whose design is credited to its chief scientist **[Taher Elgamal](kloom:e/taher-elgamal)**.
 Version 1.0 was never released. Version 2.0, shipped in February 1995, had serious flaws:
 it used the same keys for encryption and for authenticating messages, and
 nothing protected the opening handshake from an attacker in the middle.
@@ -43,7 +43,7 @@ trip long. RFC 9846, published in July 2026, replaced both it and the TLS
 
 Encryption with a stranger is no use if the stranger is an impostor. A
 _certificate_ binds a name, such as `example.org`, to a public key, and is
-signed by a _certificate authority_. The plate draws the chain a browser
+signed by a [_certificate authority_](kloom:e/certificate-authority). The plate draws the chain a browser
 checks: the site's certificate is signed by an intermediate authority,
 whose certificate is signed by a root authority, whose key the browser or
 operating system already holds in its trust store. The site proves it
@@ -51,7 +51,7 @@ holds the private key that matches its certificate, and the handshake
 derives fresh keys for the session.
 
 For twenty years certificates cost money and effort, and most sites did
-without. **Let's Encrypt**, begun in 2012 by **Josh Aas** and **Eric
+without. **[Let's Encrypt](kloom:e/lets-encrypt)**, begun in 2012 by **Josh Aas** and **Eric
 Rescorla** of Mozilla, **Peter Eckersley** of the Electronic Frontier
 Foundation and **J. Alex Halderman** of the University of Michigan, gave
 them away. It issued its first certificate on 14 September 2015 and opened
@@ -81,9 +81,9 @@ user's permission before first loading any public site without HTTPS.
 ## Against a future computer
 
 A recording of encrypted traffic can be kept for decades. If a large
-quantum computer is ever built, Shor's algorithm would recover the keys
+[quantum computer](kloom:e/quantum-computing) is ever built, [Shor's algorithm](kloom:e/shors-algorithm) would recover the keys
 from today's key exchanges, so an attacker can harvest now and decrypt
-later. The answer is already deployed. NIST standardised **ML-KEM**, a key
+later. The answer is already deployed. NIST standardised [**ML-KEM**](kloom:e/ml-kem), a key
 exchange based on lattice problems, as FIPS 203 in August 2024, and TLS 1.3
 now runs it alongside the classical exchange, X25519, so the session stays
 safe while either one holds; the plate draws the two feeding one key

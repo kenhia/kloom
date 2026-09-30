@@ -4,15 +4,15 @@ traffic: not Morse but the rapid warble of a teleprinter. In the summer of
 time it carried messages between the German High Command and army commands
 across occupied Europe, enciphered by a machine nobody in Britain had seen.
 [Bletchley](kloom:e/bletchley-park) called such traffic _Fish_, and the first link, and then the
-machine behind it, **Tunny**. Early in 1942 its codebreakers worked out how
+machine behind it, [**Tunny**](kloom:e/lorenz-cipher). Early in 1942 its codebreakers worked out how
 the machine was built, on paper, from the key it produced.
 
 ## Letters as five bits
 
 A teleprinter sends each character as five on-or-off impulses in the
-international teleprinter code, ITA2, a descendant of **Émile Baudot**'s
+international teleprinter code, ITA2, a descendant of **[Émile Baudot](kloom:e/emile-baudot)**'s
 five-unit code: thirty-two characters in all, written at Bletchley as dots
-and crosses. In 1917 the Bell engineer **Gilbert Vernam** had shown how to
+and crosses. In 1917 the Bell engineer **[Gilbert Vernam](kloom:e/gilbert-vernam)** had shown how to
 encipher such a stream: add a key to it, impulse by impulse, modulo 2, so that
 dot plus dot is dot, cross plus cross is dot, and dot plus cross is cross.
 Adding the same key again gives the plain text back. Vernam's key was a
@@ -44,11 +44,11 @@ A stream cipher has one fatal weakness: two messages sent on the same key.
 Add the two cipher texts and the key cancels, leaving the sum of two plain
 texts, which a skilled reader can pull apart. Tunny's operators sent a
 twelve-letter _indicator_ in clear with each message, giving the wheel
-settings, so a repeated setting was visible. On 30 August 1941, the _General
-Report on Tunny_ records, two very long messages went out with the same
+settings, so a repeated setting was visible. On 30 August 1941, the [_General
+Report on Tunny_](kloom:e/general-report-on-tunny) records, two very long messages went out with the same
 indicator, HQIBPEXEZMUG: the same message typed twice by hand, with different
 spacing, misspellings and corrections. (Two Wikipedia articles give the date
-as 31 August.) **John Tiltman**, a veteran of the Research Section, read the
+as 31 August.) **[John Tiltman](kloom:e/john-tiltman)**, a veteran of the Research Section, read the
 pair, and from them reconstructed 3,976 letters of key. The Germans may have
 noticed: the traffic almost stopped for a few days, and no more true depths
 were recorded that year.
@@ -68,7 +68,7 @@ The last row is exactly the sum of the two plain texts, with no key in it.
 
 ## A machine reconstructed from its key
 
-For months the key resisted analysis. **Bill Tutte**, a young Cambridge
+For months the key resisted analysis. **[Bill Tutte](kloom:e/w-t-tutte)**, a young Cambridge
 chemist and mathematician, was handed a copy by Major Gerry Morgan, head of
 the Research Section: "see what you can do with this", in his telling.
 He wrote out the first impulse of the key in rows of 575 letters, 23 × 25,
@@ -86,13 +86,13 @@ exaggeration. He blamed two German mistakes together, the long depth and
 poor psi patterns, and thought either alone would have been survivable.
 Nobody at Bletchley saw a Lorenz machine until 1945.
 
-Knowing the structure was not reading the traffic. In July 1942 Alan Turing
+Knowing the structure was not reading the traffic. In July 1942 [Alan Turing](kloom:e/alan-turing)
 spent a few weeks in the Research Section and devised _Turingery_, a hand
 method of recovering the cam patterns from a length of key by _differencing_,
 adding each character to the next. That month a new section under Major
-**Ralph Tester**, the **Testery**, began breaking messages by hand; by the end
+**Ralph Tester**, the [**Testery**](kloom:e/testery), began breaking messages by hand; by the end
 of the war it had 118 staff working three shifts. In October 1942 the
 Germans replaced the twelve-letter indicators with numbers from a book, and
 depths became rare. Something faster than hand work was needed, and the
-answer began with Tutte's statistics and a machine the Wrens named after a
+answer began with Tutte's statistics and a machine the [Wrens](kloom:e/womens-royal-naval-service) named after a
 cartoonist.

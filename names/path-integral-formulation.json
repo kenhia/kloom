@@ -1,0 +1,9 @@
+{
+	"id": "path-integral-formulation",
+	"wikidata": "Q898323",
+	"name": "Path integral",
+	"aliases": ["path integral", "sum over histories", "path integrals"],
+	"kind": "idea",
+	"description": "Feynman's formulation of quantum mechanics as a sum over every path a system could take, each weighted by its action.",
+	"home": "feynman/path-integral"
+}

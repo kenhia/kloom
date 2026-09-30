@@ -1,0 +1,8 @@
+{
+	"id": "openai-o3",
+	"wikidata": "Q131535482",
+	"name": "OpenAI o3",
+	"aliases": ["o3"],
+	"kind": "artifact",
+	"description": "OpenAI's reasoning model announced in December 2024, the successor to o1."
+}

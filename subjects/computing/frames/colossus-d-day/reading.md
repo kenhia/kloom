@@ -1,19 +1,19 @@
-The first Colossus proved itself in February 1944, and [Bletchley](kloom:e/bletchley-park) at once
+The first [Colossus](kloom:e/colossus-computer) proved itself in February 1944, and [Bletchley](kloom:e/bletchley-park) at once
 wanted more, and better. Four of an improved design were ordered in March,
 twelve by the end of April, and the Post Office engineers at Dollis Hill were
 told to have the first working by 1 June. The invasion of France was coming,
-and Tunny carried the German High Command's own view of it.
+and [Tunny](kloom:e/lorenz-cipher) carried the German High Command's own view of it.
 
 ## The Mark 2
 
 The first **Mark 2 Colossus** went to work at Bletchley at eight in the
-morning of 1 June 1944, five days before the landings in Normandy. **Allen
+morning of 1 June 1944, five days before the landings in [Normandy](kloom:e/normandy-landings). **Allen
 Coombs** led its production. It had about 2,400 valves by Wikipedia's count;
-GCHQ and the National Museum of Computing give about 2,500 for Colossus.
+[GCHQ](kloom:e/gchq) and the National Museum of Computing give about 2,500 for Colossus.
 It read its tape as fast as the first machine did, 5,000 characters a
 second, and yet it did the work five times faster.
 
-The trick was to read each character once and use it five times. Flowers's
+The trick was to read each character once and use it five times. [Flowers](kloom:e/tommy-flowers)'s
 design held the last few characters from the tape in what would now be called
 a _shift register_, a chain of stores through which each character moved one
 place at every sprocket hole. Five processing units, each able to evaluate a
@@ -33,18 +33,18 @@ five processors, each with its counter.
 
 For Tutte's first test, setting the first two chi wheels, that cut the passes
 of the tape from 1,271 to 255, and a run of about eight minutes on an average
-message to under two. The _General Report on Tunny_ calls the second machine
+message to under two. The [_General Report on Tunny_](kloom:e/general-report-on-tunny) calls the second machine
 "the prototype of all later Colossi": it had quintuple testing from the first,
 two tape frames so that one tape could be loaded while another ran, and
 _spanning_, which confined a count to part of a tape and was soon found
 indispensable. Most runs still went as the cryptanalyst on duty decided, but
-Newman and then **Jack Good** and **Donald Michie** wrote decision trees that
+Newman and then **[Jack Good](kloom:e/i-j-good)** and **[Donald Michie](kloom:e/donald-michie)** wrote decision trees that
 let the Wren operators choose the next run themselves.
 
 ## What the decrypts said
 
 What Colossus contributed to D-Day is told in more than one register. **Tony
-Sale**, who later rebuilt one, wrote that the decrypts showed Hitler had
+Sale**, who later rebuilt one, wrote that the decrypts showed [Hitler](kloom:e/adolf-hitler) had
 swallowed the Allies' deception, the phantom army in the south of England,
 was convinced the attack would come across the Pas de Calais, and was
 keeping Panzer divisions in Belgium.
@@ -52,7 +52,7 @@ GCHQ's own account is more careful: planning for D-Day was well advanced by
 the time Colossus arrived, and it was one of the machines that helped show
 Hitler had been convinced the invasion would come by the Pas de Calais.
 **Tommy Flowers**, in his telling, went further: a note summarising a Colossus
-decrypt was handed to Eisenhower at a staff meeting on 5 June, confirming that
+decrypt was handed to [Eisenhower](kloom:e/dwight-d-eisenhower) at a staff meeting on 5 June, confirming that
 Hitler wanted no more troops moved to Normandy, and Eisenhower said "We go
 tomorrow"; an earlier decrypt of a report by Rommel, he said, moved an
 American parachute drop away from a German tank division. Those are his
@@ -70,7 +70,7 @@ about one a month.
 
 By the German surrender in May 1945 there were ten Colossi at Bletchley and
 an eleventh being assembled: seven for setting wheels and three for breaking
-them. The first had been rebuilt as a Mark 2. Max Newman's section had grown
+them. The first had been rebuilt as a Mark 2. [Max Newman](kloom:e/max-newman)'s section had grown
 to 26 cryptographers, 28 engineers and 273 Wrens, with three Robinsons and
 three Tunny machines beside the Colossi, and the report records 358 messages set on
 their chi wheels in the single week ending 31 March. By Sale's figures and the museum's, 63 million characters of

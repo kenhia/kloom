@@ -1,6 +1,6 @@
-This frame describes quantum computing as of 28 September 2026, forty-five
-years after Feynman asked for a computer built from quantum parts to
-simulate nature. Machines of about a hundred good qubits now exist, error
+This frame describes [quantum computing](kloom:e/quantum-computing) as of 28 September 2026, forty-five
+years after [Feynman](kloom:e/richard-feynman) asked for a computer built from quantum parts to
+simulate nature. Machines of about a hundred good [qubits](kloom:e/qubit) now exist, error
 correction works in the laboratory, and several groups claim to have
 computed things no ordinary computer can check in reasonable time. No
 quantum computer has yet done a piece of useful physics or chemistry that
@@ -8,13 +8,13 @@ classical computers demonstrably cannot.
 
 ## Shor, and the fear of errors
 
-For a decade the idea stayed a curiosity. Then in 1994 **Peter Shor** of
+For a decade the idea stayed a curiosity. Then in 1994 **[Peter Shor](kloom:e/peter-shor)** of
 Bell Labs found quantum algorithms for discrete logarithms and for
 factoring large numbers, which would break the public-key cryptography
 the internet runs on. Interest soared, and so did doubt: physicists
 including Rolf Landauer argued that noise would destroy any large quantum
-computation. Shor answered again, with the first quantum error-correcting
-code in 1995. By the end of 1996 a _threshold theorem_ was in place: if
+computation. Shor answered again, with the first [quantum error-correcting
+code](kloom:e/quantum-error-correction) in 1995. By the end of 1996 a _threshold theorem_ was in place: if
 each operation fails rarely enough, many noisy physical qubits can be
 bundled into one reliable _logical_ qubit, and computations can run as
 long as needed.
@@ -40,8 +40,8 @@ largest arrays hold a few thousand atoms.
 
 ## Below threshold
 
-The plate draws what changed in December 2024. Google's 105-qubit
-**Willow** processor stored one logical qubit in square patches of 9, 25
+The plate draws what changed in December 2024. [Google](kloom:e/google)'s 105-qubit
+**[Willow](kloom:e/willow-processor)** processor stored one logical qubit in square patches of 9, 25
 and 49 data qubits, with measure qubits between them checking for errors.
 Each step up in size cut the logical error rate by a factor of 2.14, the
 first clear sign in hardware of the suppression the threshold theorem
@@ -68,12 +68,12 @@ supercomputer about 13,000 times longer, and which a second quantum
 computer could check. A follow-up on real molecules, by NMR, was not yet
 beyond classical reach. Quantinuum measured superconducting pairing in
 Fermi–Hubbard models on Helios, the first time a quantum computer had
-seen it. On 30 July 2026 IBM and partners posted three papers claiming
+seen it. On 30 July 2026 [IBM](kloom:e/ibm) and partners posted three papers claiming
 quantum advantage on its Heron processors, among them simulations of
 disordered and laser-driven materials on 56 and 74 qubits. They were not
 yet peer reviewed; one analyst judged the new verification methods real
 but the three papers' claims different in strength.
 
-John Preskill, writing in 2021, still thought simulating quantum systems
+[John Preskill](kloom:e/john-preskill), writing in 2021, still thought simulating quantum systems
 the use most likely to change the world. That is where this trail began, with
 the 1981 talk "Simulating Physics with Computers" and the problem it set.

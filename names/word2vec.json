@@ -1,0 +1,9 @@
+{
+	"id": "word2vec",
+	"wikidata": "Q22673982",
+	"name": "word2vec",
+	"aliases": ["Word2Vec"],
+	"kind": "artifact",
+	"description": "Google's 2013 method for learning word vectors from text, whose geometry captured analogies such as king − man + woman ≈ queen.",
+	"home": "ai/word2vec"
+}

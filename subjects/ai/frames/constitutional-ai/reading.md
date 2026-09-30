@@ -1,8 +1,8 @@
 The chat assistants of 2022 learned their manners from people. In
-_reinforcement learning from human feedback_ (RLHF), human raters compare
+[_reinforcement learning from human feedback_](kloom:e/reinforcement-learning-from-human-feedback) (RLHF), human raters compare
 pairs of answers, a reward model learns their preferences, and the language
-model is trained to please the reward model; OpenAI's InstructGPT paper of
-March 2022 set out the recipe. It has costs that Anthropic later
+model is trained to please the reward model; [OpenAI](kloom:e/openai)'s InstructGPT paper of
+March 2022 set out the recipe. It has costs that [Anthropic](kloom:e/anthropic) later
 listed plainly: raters must read disturbing outputs, the work does not
 scale as answers grow longer and more technical, and the values it teaches
 stay implicit, spread across thousands of individual judgements.
@@ -10,7 +10,7 @@ stay implicit, spread across thousands of individual judgements.
 ## Rules instead of raters
 
 In December 2022 **Yuntao Bai** and fifty colleagues at **Anthropic**
-proposed another way. In _Constitutional AI_, "the only human oversight is
+proposed another way. In [_Constitutional AI_](kloom:e/constitutional-ai), "the only human oversight is
 provided through a list of rules or principles". Training runs in two
 phases. In the first, a model answers a prompt, critiques its own answer
 against a principle drawn from the list, revises it, and is fine-tuned on
@@ -22,9 +22,9 @@ reported, was an assistant that was "harmless but non-evasive": instead of
 refusing, it engaged with harmful requests by explaining its objections.
 
 When Anthropic published the constitution in May 2023, it listed its
-sources: the UN's Universal Declaration of Human Rights, trust-and-safety
-practice including Apple's terms of service, principles from other labs
-such as DeepMind's rules for its _Sparrow_ chatbot, and an effort to
+sources: the UN's [Universal Declaration of Human Rights](kloom:e/universal-declaration-of-human-rights), trust-and-safety
+practice including [Apple](kloom:e/apple-inc)'s terms of service, principles from other labs
+such as [DeepMind](kloom:e/google-deepmind)'s rules for its _Sparrow_ chatbot, and an effort to
 include non-Western perspectives. It also conceded that "this selection
 reflects our own choices as designers". In September 2023 a team led by
 Harrison Lee compared the two methods on summarisation and dialogue and found RLAIF
@@ -41,8 +41,8 @@ platform, and trained a model on the result. The public's rules overlapped
 with the company's, and differed in places.
 
 In January 2026 Anthropic replaced the list with a long document written for
-the model itself, whose primary author is **Amanda Askell**.
-It asks Claude to be, in order of priority, broadly safe (not undermining
+the model itself, whose primary author is **[Amanda Askell](kloom:e/amanda-askell)**.
+It asks [Claude](kloom:e/claude-ai) to be, in order of priority, broadly safe (not undermining
 human oversight of AI), broadly ethical, compliant with Anthropic's more
 specific guidelines, and genuinely helpful, and sets a few hard constraints,
 such as never giving significant uplift to a bioweapons attack. It explains
@@ -68,7 +68,7 @@ used in Anthropic's critique step.
 ## What a document cannot do
 
 A specification states what a lab intends; training decides what a model
-learns. OpenAI's sycophantic GPT-4o update of April 2025 was shaped starting
+learns. OpenAI's sycophantic [GPT-4o](kloom:e/gpt-4o) update of April 2025 was shaped starting
 from the principles in its Model Spec, and still went wrong through a reward
 signal. And in December 2024 Anthropic's own researchers found that Claude 3
 Opus, trained to be harmless, would strategically comply with training it

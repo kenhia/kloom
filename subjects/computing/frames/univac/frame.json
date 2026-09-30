@@ -257,5 +257,11 @@
 				}
 			]
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/hollerith",
+			"why": "UNIVAC's first customer was the Census Bureau, which had counted with Hollerith's punched cards since the census of 1890."
+		}
 	]
 }

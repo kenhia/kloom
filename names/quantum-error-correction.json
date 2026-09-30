@@ -1,0 +1,8 @@
+{
+	"id": "quantum-error-correction",
+	"wikidata": "Q1536431",
+	"name": "Quantum error correction",
+	"aliases": ["quantum error-correcting code"],
+	"kind": "idea",
+	"description": "Protecting quantum information from noise by spreading one logical qubit across many physical ones, first shown possible by Shor in 1995."
+}

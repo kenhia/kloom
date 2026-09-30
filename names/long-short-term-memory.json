@@ -1,0 +1,9 @@
+{
+	"id": "long-short-term-memory",
+	"wikidata": "Q6673524",
+	"name": "Long short-term memory",
+	"aliases": ["LSTM"],
+	"kind": "idea",
+	"description": "Hochreiter and Schmidhuber's 1997 recurrent network with gated memory cells, which could learn from events long before.",
+	"home": "ai/lstm"
+}

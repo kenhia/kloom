@@ -253,5 +253,11 @@
 			"note": "Bell’s licence fees: $150 to a university, $20,000 to others",
 			"doi": "10.17487/RFC0681"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/linux",
+			"why": "While AT&T's lawsuit left the free BSDs in doubt, Linux, with no AT&T code, took the open ground; Torvalds said he would not have written it had 386BSD been available."
+		}
 	]
 }

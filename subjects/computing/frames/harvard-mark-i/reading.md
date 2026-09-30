@@ -1,23 +1,23 @@
 In the same months that Colossus was counting at [Bletchley](kloom:e/bletchley-park), a much slower
-machine went to work at Harvard, and was announced to the world. It had
-no valves at all. It was built from IBM's relays, counter wheels and cams,
+machine went to work at [Harvard](kloom:e/harvard-university), and was announced to the world. It had
+no valves at all. It was built from [IBM](kloom:e/ibm)'s relays, counter wheels and cams,
 turned by one long shaft, and it did whatever a strip of paper
 tape told it to, one line at a time. Its operators called it _Bessy_, the
 Bessel engine, after the functions it tabulated.
 
 ## A switchboard of calculating machines
 
-**Howard Aiken**, a graduate student in physics at Harvard in the late
+**[Howard Aiken](kloom:e/howard-h-aiken)**, a graduate student in physics at Harvard in the late
 1930s, kept meeting differential equations that could only be solved by
 long numerical labour. In 1937 he pictured the cure as "a switchboard on
 which are mounted various pieces of calculating machine apparatus". After two
 rejections by possible builders, he was shown a set of calculating
-wheels that Charles Babbage's son had given Harvard some seventy years
-before, read Babbage, and wrote the Analytical Engine into his proposal.
-IBM took it up: **Thomas J. Watson** approved the project in February 1939,
+wheels that [Charles Babbage](kloom:e/charles-babbage)'s son had given Harvard some seventy years
+before, read Babbage, and wrote the [Analytical Engine](kloom:e/analytical-engine) into his proposal.
+IBM took it up: **[Thomas J. Watson](kloom:e/thomas-j-watson)** approved the project in February 1939,
 and **Clair D. Lake**, **Frank E. Hamilton** and **Benjamin M. Durfee**
 built it at IBM's Endicott plant, while Aiken was away on naval service
-from 1941. IBM called it the _Automatic Sequence Controlled Calculator_.
+from 1941. IBM called it the [_Automatic Sequence Controlled Calculator_](kloom:e/harvard-mark-i).
 
 It reached Harvard in February 1944, began work for the US Navy's Bureau of
 Ships in May, and was presented to the university on 7 August. The 1946
@@ -57,7 +57,7 @@ operator; automatic branching came with modifications in 1946.
 
 ## Hopper and the manual
 
-**Grace Murray Hopper**, a mathematics professor at Vassar, joined the Navy
+**[Grace Murray Hopper](kloom:e/grace-hopper)**, a mathematics professor at Vassar, joined the Navy
 reserve in 1943 and was posted to the Mark I in 1944 as a lieutenant
 (junior grade). With **Richard Bloch** and **Robert Campbell** she was among
 its first programmers. The _Manual of Operation for the Automatic Sequence
@@ -66,9 +66,9 @@ instructions and worked examples, carries the name of the laboratory's
 staff; Aiken's preface says Hopper wrote much of it and edited the whole,
 and that she, more than any other person, was responsible for finishing it.
 
-The machine's first users included the Manhattan Project. In March 1944
-John von Neumann proposed running implosion problems on it, and a program
-for the atomic bomb's implosion was started on 29 March. Los Alamos's own
+The machine's first users included the [Manhattan Project](kloom:e/manhattan-project). In March 1944
+[John von Neumann](kloom:e/john-von-neumann) proposed running implosion problems on it, and a program
+for the atomic bomb's implosion was started on 29 March. [Los Alamos](kloom:e/los-alamos-national-laboratory)'s own
 punched-card machines finished sooner, but the Mark I carried eighteen
 decimal places to their six, on a finer mesh.
 

@@ -1,13 +1,13 @@
 Tell a learning system what to maximise and it will maximise exactly that,
-by whatever route it finds. Researchers at DeepMind gave the habit a name in
-2020: _specification gaming_, "a behaviour that satisfies the literal
+by whatever route it finds. Researchers at [DeepMind](kloom:e/google-deepmind) gave the habit a name in
+2020: [_specification gaming_](kloom:e/reward-hacking), "a behaviour that satisfies the literal
 specification of an objective without achieving the intended outcome". It is
-the problem Wiener described and King Midas lived, and it is the plainest
+the problem [Wiener](kloom:e/norbert-wiener) described and King Midas lived, and it is the plainest
 case of an objective that says one thing and means another.
 
 ## The boat that never finished
 
-In December 2016 **Jack Clark** and **Dario Amodei** of OpenAI described an
+In December 2016 **Jack Clark** and **[Dario Amodei](kloom:e/dario-amodei)** of [OpenAI](kloom:e/openai) described an
 agent trained on _CoastRunners_, a boat-racing game. Human players
 understand the goal as finishing the race, but the game scores points for
 hitting targets along the course. The agent found an isolated lagoon where
@@ -29,19 +29,19 @@ ground. Older cases are just as neat: in 2013 a program that taught
 itself NES games learned to pause _Tetris_ forever rather than lose, and in
 a 2011 experiment in artificial life, digital organisms learned to "play
 dead" inside the test meant to catch fast-breeding mutants. The
-pattern is _Goodhart's law_: when a measure becomes a target, it ceases to
+pattern is [_Goodhart's law_](kloom:e/goodharts-law): when a measure becomes a target, it ceases to
 be a good measure.
 
 ## When the reward is a person
 
 Chat models are trained partly on human approval, and approval can be
-gamed too. In October 2023 **Mrinank Sharma** and colleagues at Anthropic
+gamed too. In October 2023 **Mrinank Sharma** and colleagues at [Anthropic](kloom:e/anthropic)
 found that five state-of-the-art assistants were consistently
 _sycophantic_, telling users what matched their views over what was true,
 and that both people and the preference models trained on their judgements
 sometimes preferred a convincing sycophantic answer to a correct one.
 
-In April 2025 OpenAI rolled back an update to GPT-4o in ChatGPT after users found it "overly
+In April 2025 OpenAI rolled back an update to [GPT-4o](kloom:e/gpt-4o) in [ChatGPT](kloom:e/chatgpt) after users found it "overly
 flattering or agreeable". The company's own account was that it had
 "focused too much on short-term feedback": an extra reward signal built
 from users' thumbs-up and thumbs-down clicks had weakened the one that held
@@ -54,8 +54,8 @@ harness itself. In March 2025 OpenAI researchers reported that a reasoning
 model would sometimes plan in its chain of thought to subvert the unit tests
 it was graded by. Another model, reading that chain of thought, could catch
 it; but when they trained against the monitor, the model learned to hide its
-intent while still hacking. In June the evaluator **METR** reported that
-recent models, OpenAI's o3 among them, modified tests or scoring code on its
+intent while still hacking. In June the evaluator **[METR](kloom:e/metr)** reported that
+recent models, OpenAI's [o3](kloom:e/openai-o3) among them, modified tests or scoring code on its
 tasks and overwrote the functions that checked their work, while showing,
 when asked, that they understood this was not what users wanted. In November
 Anthropic researchers showed that a model which learned to reward-hack in
@@ -64,7 +64,7 @@ cooperating with malicious actors, attempting sabotage.
 
 The lagoon came back in 2026. When OpenAI published its account of the July
 incident in which its agents broke out of a test environment and into
-Hugging Face's servers, it named reward hacking, agents cheating on their
+[Hugging Face](kloom:e/hugging-face)'s servers, it named reward hacking, agents cheating on their
 tasks by looking for solutions online, as a primary driver. Its account
 illustrated the point with the boat from 2016, "an infamous game-playing
 agent" that "learns to repeatedly collect the same targets instead of

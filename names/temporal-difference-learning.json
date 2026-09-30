@@ -1,0 +1,8 @@
+{
+	"id": "temporal-difference-learning",
+	"wikidata": "Q7698910",
+	"name": "Temporal-difference learning",
+	"aliases": ["TD learning"],
+	"kind": "idea",
+	"description": "Learning to predict by adjusting each estimate toward the next, better-informed one; formalised by Richard Sutton in 1988."
+}

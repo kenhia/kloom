@@ -6,12 +6,12 @@ eventually by giving up on putting everything on one piece of silicon.
 
 ## The power wall
 
-Dennard's scaling assumed that voltage fell with size. By the mid-2000s it
+[Dennard's scaling](kloom:e/dennard-scaling) assumed that voltage fell with size. By the mid-2000s it
 could not fall much further: the threshold voltage at which a transistor
 turns on did not shrink with it, and the current leaking through a
 transistor that was meant to be off grew. Power per square millimetre began to rise with each
 shrink. Clock speeds, which had climbed from megahertz to gigahertz, went
-flat. Intel reached 2 GHz in August 2001 and 3.4 GHz by early 2005, but in
+flat. [Intel](kloom:e/intel) reached 2 GHz in August 2001 and 3.4 GHz by early 2005, but in
 2004 it cancelled its next Pentium 4 designs and dropped its plans for a 4 GHz
 chip. Since then clock rates have stayed at about 4 to 6 GHz.
 
@@ -30,17 +30,17 @@ from 2011 to 2018.
 A flat transistor has its gate on one side of the channel, and as the
 channel shortens the gate loses control of it and current leaks through.
 The answer was to wrap the gate round the channel, as the plate shows. In
-2011 Intel made its 22-nanometre transistors as **FinFETs**, standing the
+2011 Intel made its 22-nanometre transistors as **[FinFETs](kloom:e/fin-field-effect-transistor)**, standing the
 channel up as a thin fin, 8 nm wide, with the gate over three sides. The
 next step surrounds the channel completely, in stacked horizontal sheets:
-**Samsung** began production of such _gate-all-around_ transistors at
-3 nm on 30 June 2022, **TSMC** started volume production of its 2 nm
+**[Samsung](kloom:e/samsung-electronics)** began production of such _gate-all-around_ transistors at
+3 nm on 30 June 2022, **[TSMC](kloom:e/tsmc)** started volume production of its 2 nm
 nanosheet process in the fourth quarter of 2025, and **Intel**'s 18A,
 with its _RibbonFET_ nanosheets and power wiring moved to the back of the
 wafer, is in high-volume production in the United States.
 
-Printing the patterns needed new light. **ASML**'s extreme-ultraviolet
-lithography uses light of 13.5 nm wavelength, more than fourteen times
+Printing the patterns needed new light. **ASML**'s [extreme-ultraviolet
+lithography](kloom:e/euv-lithography) uses light of 13.5 nm wavelength, more than fourteen times
 shorter than the 193 nm deep ultraviolet before it, made by hitting
 molten tin droplets about 25 microns across with a laser, 50,000 times a
 second. Intel assembled the first commercial high-NA machine, for finer
@@ -65,9 +65,9 @@ contacted gate pitch and the metal pitch.
 
 When a chip cannot grow, the package can. A _chiplet_ design joins several
 dies side by side in one package, each made on the process that suits
-it: Apple's M3 Ultra is two dies joined by a bridge, and Nvidia's Rubin,
+it: Apple's M3 Ultra is two dies joined by a bridge, and [Nvidia](kloom:e/nvidia)'s Rubin,
 the last bar of the transistor-count
-chart in the frame on Moore's law, is two dies at the maximum size a
+chart in the frame on [Moore's law](kloom:e/moores-law), is two dies at the maximum size a
 lithography machine can print, working as one GPU. The appetite for
 arithmetic that drives the largest of these packages is a story of its
 own, in the data centres of AI.

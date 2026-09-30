@@ -1,6 +1,6 @@
 The commission's first recommendation was that the booster joint be
 redesigned, under the eye of an independent panel, before the shuttle flew
-again. NASA and Morton Thiokol spent more than two years doing it, with a
+again. NASA and [Morton Thiokol](kloom:e/thiokol) spent more than two years doing it, with a
 National Research Council panel chaired by **H. Guyford Stever** looking
 over their shoulders. The shuttle did not fly for 975 days.
 
@@ -31,12 +31,12 @@ place, had used a similar double tang.
 
 ## Discovery, 1988
 
-**STS-26** lifted off from Kennedy at 11:37 a.m. on 29 September 1988:
+**[STS-26](kloom:e/sts-26)** lifted off from Kennedy at 11:37 a.m. on 29 September 1988:
 **Discovery**, with a crew of five who had all flown before, in pressure
-suits and with a way to bail out, neither of which Challenger's crew had
+suits and with a way to bail out, neither of which [Challenger](kloom:e/space-shuttle-challenger-disaster)'s crew had
 had. It deployed a tracking and data relay satellite, the twin of one
 lost with Challenger, and landed four days later. When the boosters
-were recovered, the new joints showed no sign of leakage or overheating. Feynman did not live to see it; he had died in
+were recovered, the new joints showed no sign of leakage or overheating. [Feynman](kloom:e/richard-feynman) did not live to see it; he had died in
 February.
 
 ![Discovery lifting off from pad 39B on 29 September 1988, the orange external tank and the two white boosters rising past the launch tower on columns of flame, clouds of exhaust billowing to both sides](sts-26-launch.jpg)
@@ -46,7 +46,7 @@ were never again the cause of a loss.
 
 ## Columbia, 2003
 
-On 1 February 2003 **Columbia** broke up as it came home, and its crew of
+On 1 February 2003 **[Columbia](kloom:e/space-shuttle-columbia-disaster)** broke up as it came home, and its crew of
 seven were killed. Eighty-two seconds after its launch a piece of foam
 insulation had fallen from the external tank and holed the leading edge of
 the left wing, and on re-entry hot gas got in. Foam had come off the tank
@@ -54,14 +54,14 @@ on flight after flight since the program began. It was never supposed to,
 and at first it was treated as a hazard; over the years it came to be
 logged as a maintenance matter, until hardly anyone saw it as a threat.
 
-The **Columbia Accident Investigation Board** called this, borrowing a
-term from the sociologist **Diane Vaughan**, the _normalization of
-deviance_: an event that is not supposed to happen becomes, by happening
+The **[Columbia Accident Investigation Board](kloom:e/columbia-accident-investigation-board)** called this, borrowing a
+term from the sociologist **[Diane Vaughan](kloom:e/diane-vaughan)**, the [_normalization of
+deviance_](kloom:e/normalization-of-deviance): an event that is not supposed to happen becomes, by happening
 without disaster, the normal state of things. Vaughan had coined it in
 _The Challenger Launch Decision_ (1996), her study of how NASA came to
 accept the eroding O-rings. The board quoted Feynman's appendix on the
 seals and the slowly loosening criteria, and called the parallels
-striking. **Sally Ride**, the one member of both investigations, spoke of
+striking. **[Sally Ride](kloom:e/sally-ride)**, the one member of both investigations, spoke of
 echoes of Challenger in Columbia. The board's conclusion was blunt: history
 is cause, and despite all the changes since 1986, the causes of the
 institutional failure responsible for Challenger had not been fixed.

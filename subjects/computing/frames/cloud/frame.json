@@ -268,6 +268,10 @@
 		{
 			"to": "ai/compute",
 			"why": "Frontier models are trained on rented data centres: computing bought by the hour, at the scale of power stations."
+		},
+		{
+			"to": "computing/time-sharing",
+			"why": "The cloud is the utility the time-sharing pioneers foresaw: McCarthy said in 1961 that computing might be sold like the telephone, though three companies now sell most of it."
 		}
 	]
 }

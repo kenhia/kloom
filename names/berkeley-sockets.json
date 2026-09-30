@@ -1,0 +1,8 @@
+{
+	"id": "berkeley-sockets",
+	"wikidata": "Q12562646",
+	"name": "Berkeley sockets",
+	"aliases": ["socket"],
+	"kind": "idea",
+	"description": "The programming interface for network connections introduced in 4.2BSD in 1983, now offered by nearly every operating system."
+}

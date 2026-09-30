@@ -1,29 +1,29 @@
 Deep networks had learned to recognise images from millions of labelled
 examples. Much of what an intelligent agent has to do comes with no labels:
 it has to act, and find out afterwards whether it did well. That is
-_reinforcement learning_, learning from reward. Between 2013 and 2016 a
-London company, **DeepMind**, joined it to deep learning, and used the result
+[_reinforcement learning_](kloom:e/reinforcement-learning), learning from reward. Between 2013 and 2016 a
+London company, **[DeepMind](kloom:e/google-deepmind)**, joined it to deep learning, and used the result
 to beat a champion at the classic game long thought hardest for machines.
 
 ## Pixels and a score
 
 In December 2013 **Volodymyr Mnih** and colleagues at DeepMind described a
 convolutional network, trained by a variant of _Q-learning_, that learned to
-play Atari 2600 video games from the raw pixels on the screen, with the
+play [Atari 2600](kloom:e/atari-2600) video games from the raw pixels on the screen, with the
 score as its reward. It beat all previous approaches on six of the seven
 games they tried, and surpassed a human expert on three. In February 2015
-the team, by then part of Google, reported in _Nature_
+the team, by then part of [Google](kloom:e/google), reported in _Nature_
 that the same program, the **deep Q-network**, with one architecture and one
 set of settings, reached a level comparable to a professional human games
 tester across 49 games. Nobody told it what a paddle or a spaceship was.
 
 ## Go
 
-Go had long been the game that computers could not play well. On a 19 × 19
+[Go](kloom:e/go-game) had long been the game that computers could not play well. On a 19 × 19
 board the space of possible games is enormous, and a position is hard to
 judge at all. Before 2015 the best programs reached only amateur dan level.
 
-**AlphaGo**, described in _Nature_ in January 2016 by **David Silver** and
+**[AlphaGo](kloom:e/alphago)**, described in _Nature_ in January 2016 by **[David Silver](kloom:e/david-silver-computer-scientist)** and
 colleagues, used two deep networks. A _policy network_ proposed promising
 moves; a _value network_ estimated who was winning. They were trained first
 on about 30 million moves from 160,000 games by strong amateurs on an
@@ -36,9 +36,9 @@ a feat the paper said had been thought at least a decade away.
 
 ## Five games in Seoul
 
-The challenge match against **Lee Sedol**, a Korean professional of the
+The challenge match against **[Lee Sedol](kloom:e/lee-sedol)**, a Korean professional of the
 highest rank with 18 international titles, was played at the Four Seasons
-Hotel in Seoul from 9 to 15 March 2016, for a prize of a million dollars.
+Hotel in [Seoul](kloom:e/seoul) from 9 to 15 March 2016, for a prize of a million dollars.
 Lee predicted he would win. DeepMind's Aja Huang placed the stones for
 AlphaGo, which ran on Google's cloud with its servers in the United States.
 How much hardware it used is reported differently: about what it had used
@@ -61,14 +61,14 @@ the fifth game, and the match, **4–1**. The prize went to charities.
 
 ![The board in game 4 just after Lee Sedol's move 78, the white stone marked 78 at L11, wedged between black stones in the centre](move-78.jpg)
 
-Lee said the defeat was his own, "not a defeat of mankind". Murray Campbell,
-one of Deep Blue's designers, called the result "the end of an era... board
+Lee said the defeat was his own, "not a defeat of mankind". [Murray Campbell](kloom:e/murray-campbell),
+one of [Deep Blue](kloom:e/deep-blue-chess-computer)'s designers, called the result "the end of an era... board
 games are more or less done". In 2017 a stronger AlphaGo beat the
 world number one, Ke Jie, and a version that learned without any human
-games, AlphaGo Zero, beat the Lee Sedol version 100 games to 0. In November
+games, [AlphaGo Zero](kloom:e/alphago-zero), beat the Lee Sedol version 100 games to 0. In November
 2019 Lee retired from professional play, calling the programs "an entity
 that cannot be defeated".
 
 AlphaGo's successors are followed on the games trail from Deep Blue. On the
 main spine the next step came from a different direction, in a 2017 paper
-with a confident title: "Attention is all you need".
+with a confident title: "[Attention is all you need](kloom:e/attention-is-all-you-need)".

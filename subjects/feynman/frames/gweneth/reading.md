@@ -1,7 +1,7 @@
-In September 1958 the United States sent Feynman to Geneva, to the second
+In September 1958 the United States sent [Feynman](kloom:e/richard-feynman) to [Geneva](kloom:e/geneva), to the second
 United Nations conference on the peaceful uses of atomic energy. His divorce
 from **Mary Louise Bell** had become final that May, after a marriage of
-four quarrelsome years. On the beach at Geneva he met **Gweneth Howarth**,
+four quarrelsome years. On the beach at Geneva he met **[Gweneth Howarth](kloom:e/gweneth-feynman)**,
 a young Englishwoman from **Ripponden**, in the West Riding of Yorkshire, who was working in Switzerland as an _au pair_. When Charles
 Weiner asked him about the trip in 1966, meeting her was the thing he
 remembered, though he could not put a year to it.
@@ -11,9 +11,9 @@ remembered, though he could not put a year to it.
 The story of what came next is told in James Gleick's biography and
 summarised in Wikipedia. Gweneth was earning about $25 a month. Feynman
 offered her $20 a week to come to California and keep house for him. He
-knew how it would look, and his friend **Matthew Sands** acted as her
+knew how it would look, and his friend **[Matthew Sands](kloom:e/matthew-sands)** acted as her
 sponsor rather than he. She told him she already had two boyfriends, and
-took the job anyway. She arrived at his house in **Altadena**, the foothill
+took the job anyway. She arrived at his house in **[Altadena](kloom:e/altadena-california)**, the foothill
 town above Pasadena, in June 1959, and made a point of going out with other
 men. Early in 1960 he asked her to marry him.
 
@@ -38,9 +38,9 @@ earth.
 | 1962 | Their son, **Carl**, is born                   | Wikipedia; _Engineering and Science_, 1965   |
 | 1968 | They adopt a daughter, **Michelle**            | Wikipedia; Nobel Foundation (born 13 August) |
 
-Carl's year is the one place the sources disagree. The biographical note
+[Carl](kloom:e/carl-feynman)'s year is the one place the sources disagree. The biographical note
 the Nobel Foundation printed in 1965 gives his son's birth as 22
-April 1961. Caltech's _Engineering and Science_, reporting the Nobel
+April 1961. [Caltech](kloom:e/california-institute-of-technology)'s _Engineering and Science_, reporting the Nobel
 announcement in October 1965, called Carl three years old, and Feynman told
 Weiner in June 1966 that his boy was four. Both fit 1962, the year the
 biographies give, and this frame follows them.
@@ -58,11 +58,11 @@ knew the house as a place to stay: Sands, after he left for Stanford in
 ## The steadier years
 
 The fifteen years before had been unsettled ones: his first wife
-**Arline**'s death in 1945, a failed second marriage, and, Wikipedia says
+**[Arline](kloom:e/arline-feynman)**'s death in 1945, a failed second marriage, and, Wikipedia says
 after Gleick, a turbulent love life after the divorce. After 1960 his life
 at home was steady, and his public life grew around it: the lectures, the
 Nobel Prize, the books of stories. Twenty-five years on, in 1986, he did not
-want to join the commission on the _Challenger_ disaster, because it meant
+want to join the commission on the [_Challenger_](kloom:e/space-shuttle-challenger-disaster) disaster, because it meant
 Washington. By his own account in _Physics Today_, it was Gweneth who
 persuaded him that he would bring something to it that nobody else would,
 and he believed her.

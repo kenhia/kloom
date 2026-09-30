@@ -7,9 +7,9 @@ that stuck.
 ## Four pages in Nature
 
 "Learning representations by back-propagating errors" was written by
-**David Rumelhart** and **Ronald Williams** of the Institute for Cognitive
-Science at the University of California, San Diego, and **Geoffrey Hinton**,
-then at Carnegie Mellon in Pittsburgh. Its abstract describes the whole
+**[David Rumelhart](kloom:e/david-rumelhart)** and **[Ronald Williams](kloom:e/ronald-j-williams)** of the Institute for Cognitive
+Science at the University of California, San Diego, and **[Geoffrey Hinton](kloom:e/geoffrey-hinton)**,
+then at [Carnegie Mellon](kloom:e/carnegie-mellon-university) in Pittsburgh. Its abstract describes the whole
 method in one sentence: a procedure that "repeatedly adjusts the weights of the
 connections in the network so as to minimize a measure of the difference
 between the actual output vector of the net and the desired output vector."
@@ -48,20 +48,20 @@ input said so.
 
 ## Who invented it
 
-The Nature paper popularised backpropagation; it did not originate it, and
-the history is tangled. The chain rule itself goes back to **Leibniz** in 1676. **Frank Rosenblatt** used the phrase "back-propagating error correction"
-in 1962 without having a way to do it. In 1970 the Finnish student **Seppo
-Linnainmaa** described the _reverse mode of automatic differentiation_ in his
+The Nature paper popularised [backpropagation](kloom:e/backpropagation); it did not originate it, and
+the history is tangled. The chain rule itself goes back to **[Leibniz](kloom:e/gottfried-wilhelm-leibniz)** in 1676. **[Frank Rosenblatt](kloom:e/frank-rosenblatt)** used the phrase "back-propagating error correction"
+in 1962 without having a way to do it. In 1970 the Finnish student **[Seppo
+Linnainmaa](kloom:e/seppo-linnainmaa)** described the _reverse mode of automatic differentiation_ in his
 master's thesis, which is the same calculation for any network of
 differentiable functions, though he did not apply it to neural networks. The
-American **Paul Werbos** described training neural networks by
+American **[Paul Werbos](kloom:e/paul-werbos)** described training neural networks by
 backpropagation in his 1974 dissertation, and in 1982 applied it to layered
 networks in the way that became standard. Rumelhart worked the method out
 independently in the spring of 1982, and the 1986 authors did not cite the
 earlier work because they did not know of it.
 
 The Nature letter itself credited independent variants by **David
-Parker** and **Yann LeCun**. Acceptance took time. Gradient descent offered no
+Parker** and **[Yann LeCun](kloom:e/yann-lecun)**. Acceptance took time. Gradient descent offered no
 guarantee of finding the best weights rather than merely a local minimum, a
 drawback the authors admitted, and physiologists
 "knew" that real neurons fired all or nothing, which leaves no gradient to
@@ -69,11 +69,11 @@ follow. What won the argument was results: in 1987 **NETtalk** learned to
 pronounce English text and appeared on the _Today_ show, and in 1989 a
 network trained this way began reading handwritten postcodes.
 
-The paper arrived with a movement. The same year Rumelhart, **James
-McClelland** and the **PDP Research Group** published _Parallel Distributed
-Processing_, two volumes from MIT Press that set out _connectionism_, the view
+The paper arrived with a movement. The same year Rumelhart, **[James
+McClelland](kloom:e/james-mcclelland-psychologist)** and the **PDP Research Group** published _Parallel Distributed
+Processing_, two volumes from MIT Press that set out [_connectionism_](kloom:e/connectionism), the view
 that cognition emerges from many simple units working at once, against the
-symbol-processing AI of the expert systems. Hinton shared the 2024 Nobel Prize
-in Physics for his work on neural networks. The rule-based systems, meanwhile,
+symbol-processing AI of the expert systems. Hinton shared the 2024 [Nobel Prize
+in Physics](kloom:e/nobel-prize-in-physics) for his work on neural networks. The rule-based systems, meanwhile,
 were about to lose the machines built to run them: the next frame is the
 collapse of the Lisp machine market.

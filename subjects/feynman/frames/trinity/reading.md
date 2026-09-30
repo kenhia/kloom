@@ -1,7 +1,7 @@
 At 5:29 in the morning of 16 July 1945, on the desert floor of the
-Jornada del Muerto in southern New Mexico, Los Alamos set off the first
+[Jornada del Muerto](kloom:e/jornada-del-muerto) in southern New Mexico, [Los Alamos](kloom:e/los-alamos-national-laboratory) set off the first
 nuclear explosion, a plutonium implosion device called the Gadget, on top
-of a hundred-foot steel tower. The test was named **Trinity**. Feynman
+of a hundred-foot steel tower. The test was named **[Trinity](kloom:e/trinity-nuclear-test)**. [Feynman](kloom:e/richard-feynman)
 watched it from twenty miles away, and his account of what he saw is one
 of the best known.
 
@@ -9,7 +9,7 @@ of the best known.
 
 After Arline's death, and once his IBM group had finished, against the
 clock, its calculation of the energy the tested design should release, he
-was sent home to New York for a short rest. Hans Bethe had
+was sent home to New York for a short rest. [Hans Bethe](kloom:e/hans-bethe) had
 promised to warn him, and a telegram came saying that "the baby is
 expected" on a certain day. He flew back, reached the laboratory as the
 buses were leaving, and went straight out without changing his clothes.
@@ -39,8 +39,8 @@ Then, after a silence of about a minute and a half, came a sharp crack and
 a long rumble. That, he said, was what convinced him. The arithmetic bears
 his memory out. Sound in air travels at about 340 metres a second, and
 twenty miles is 32 kilometres, so the crack should have taken about 95
-seconds. The man beside him, the _New York Times_ reporter **William
-Laurence**, asked what it was.
+seconds. The man beside him, the _New York Times_ reporter **[William
+Laurence](kloom:e/william-l-laurence)**, asked what it was.
 
 He claimed afterwards to be about the only person who looked at the
 explosion with the naked eye. It is a claim that others' accounts
@@ -49,7 +49,7 @@ had watched with one eye covered by welder's glass and the other open.
 
 ## What it measured
 
-The explosion was far bigger than T Division's forecast. **Enrico Fermi**
+The explosion was far bigger than T Division's forecast. **[Enrico Fermi](kloom:e/enrico-fermi)**
 dropped scraps of paper as the blast went by and paced out how far they
 flew: about ten thousand tons of TNT, he estimated. The radiochemists who
 analysed the soil in the crater put it at 18.6 kilotons; the official
@@ -70,10 +70,10 @@ in 2021 at 24.8, give or take 2.
 ## Afterwards
 
 Back on the Hill there were parties. Feynman sat on the end of a jeep
-beating a drum. The one person he remembered not celebrating was Robert
-Wilson, who had brought him into the project, and who said "It's a
+beating a drum. The one person he remembered not celebrating was [Robert
+Wilson](kloom:e/robert-r-wilson), who had brought him into the project, and who said "It's a
 terrible thing that we made." Three weeks later a uranium bomb destroyed
-Hiroshima, on 6 August, and a plutonium bomb like the Gadget destroyed
+[Hiroshima](kloom:e/atomic-bombings-of-hiroshima-and-nagasaki), on 6 August, and a plutonium bomb like the Gadget destroyed
 Nagasaki on 9 August. Looking back in 1975, Feynman said that they had all
 begun for a good reason and then, in the pleasure of the work, simply
 stopped thinking; Wilson was the only one still thinking at that moment.

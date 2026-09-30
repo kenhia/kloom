@@ -242,5 +242,11 @@
 			],
 			"published": "2007-01-09"
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/linux",
+			"why": "Android, built on the Linux kernel and given away as open source, put Linux in about two-thirds of the world's phones."
+		}
 	]
 }

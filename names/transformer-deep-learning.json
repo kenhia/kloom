@@ -1,0 +1,9 @@
+{
+	"id": "transformer-deep-learning",
+	"wikidata": "Q85810444",
+	"name": "Transformer",
+	"aliases": ["transformer"],
+	"kind": "idea",
+	"description": "The neural-network architecture built on attention, introduced by Google in 2017, behind nearly every large language model.",
+	"home": "ai/transformer"
+}

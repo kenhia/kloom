@@ -1,0 +1,8 @@
+{
+	"id": "alexnet",
+	"wikidata": "Q28325009",
+	"name": "AlexNet",
+	"kind": "artifact",
+	"description": "The deep convolutional network, trained on two graphics cards, that won the 2012 ImageNet challenge by a wide margin and set off the deep-learning boom.",
+	"home": "ai/alexnet"
+}

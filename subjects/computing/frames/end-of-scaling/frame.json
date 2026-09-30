@@ -208,6 +208,10 @@
 		{
 			"to": "ai/compute",
 			"why": "With clock speeds flat, performance came from parallel chips, and AI training became their largest customer."
+		},
+		{
+			"to": "feynman/plenty-of-room",
+			"why": "In 1959 Feynman imagined computers with wires ten or a hundred atoms across; scaling ended with transistors built in sheets of silicon a few atoms thick."
 		}
 	]
 }

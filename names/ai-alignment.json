@@ -1,0 +1,9 @@
+{
+	"id": "ai-alignment",
+	"wikidata": "Q24882728",
+	"name": "AI alignment",
+	"aliases": ["alignment"],
+	"kind": "idea",
+	"description": "The problem of making AI systems pursue the goals and values their makers intend, rather than a proxy that merely looks like them.",
+	"home": "ai/alignment"
+}

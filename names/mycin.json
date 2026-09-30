@@ -1,0 +1,8 @@
+{
+	"id": "mycin",
+	"wikidata": "Q644624",
+	"name": "MYCIN",
+	"aliases": ["Mycin"],
+	"kind": "artifact",
+	"description": "Stanford's expert system of the early 1970s that diagnosed bacterial infections and recommended antibiotics from about 600 rules."
+}

@@ -138,5 +138,11 @@
 			],
 			"published": "1762"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/metre-survey",
+			"why": "Prony's tables served the same revolutionary reform as the metre: the new system was to divide the right angle into a hundred grades, and no existing sines or logarithms fitted."
+		}
 	]
 }

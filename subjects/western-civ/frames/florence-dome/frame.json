@@ -46,5 +46,11 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-23"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/pantheon",
+			"why": "Florence needed a dome larger than any built since the Pantheon's 43 metres; Brunelleschi, said to have studied Rome's ruins, raised one almost 42 metres across without centring."
+		}
 	]
 }

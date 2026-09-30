@@ -1,4 +1,4 @@
-In May 1960 **Norbert Wiener**, the MIT mathematician and author of
+In May 1960 **[Norbert Wiener](kloom:e/norbert-wiener)**, the MIT mathematician and author of
 _Cybernetics_, published a short essay in _Science_ about machines that learn.
 The checkers programs of the day, he noted, could beat the people who had
 programmed them "after from 10 to 20 playing hours", and his subtitle put the
@@ -21,18 +21,18 @@ The magic in each, he wrote, is "literal-minded", and a machine may be too:
 ![Two men in suits stand on either side of a wooden table carrying an electromechanical chessboard; the man on the left moves a piece while Norbert Wiener, in glasses, watches from the right](wiener-ajedrecista.jpg)
 
 Wiener knew such machines at first hand. In the photograph above, from about
-1951, **Gonzalo Torres-Quevedo** shows him _El Ajedrecista_, the chess machine his
-father, **Leonardo Torres Quevedo**, completed in 1912 and rebuilt in 1920.
+1951, **Gonzalo Torres-Quevedo** shows him [_El Ajedrecista_](kloom:e/el-ajedrecista), the chess machine his
+father, **[Leonardo Torres Quevedo](kloom:e/leonardo-torres-quevedo)**, completed in 1912 and rebuilt in 1920.
 It played a king-and-rook endgame by itself, and in 1951 it was shown at a
 Paris symposium on calculating machines and human thought.
 
-In 2014 the Berkeley computer scientist **Stuart Russell** restated the
+In 2014 the Berkeley computer scientist **[Stuart Russell](kloom:e/stuart-j-russell)** restated the
 problem for modern systems. A machine optimising an objective that leaves
 out something we care about "will often set the remaining unconstrained
 variables to extreme values". It is, he wrote, "the old story of the genie in
 the lamp, or the sorcerer's apprentice, or King Midas: you get exactly what
 you ask for, not what you want." The field now calls the problem
-_alignment_: steering AI systems toward the goals, preferences or principles
+[_alignment_](kloom:e/ai-alignment): steering AI systems toward the goals, preferences or principles
 their makers intend.
 
 ## Outer and inner
@@ -56,24 +56,24 @@ surest way to avoid being changed.
 ## Who worries, and how much
 
 Alignment began as the concern of a handful of researchers. _Concrete
-Problems in AI Safety_ (2016), by **Dario Amodei**, **Chris Olah** and four
+Problems in AI Safety_ (2016), by **[Dario Amodei](kloom:e/dario-amodei)**, **[Chris Olah](kloom:e/chris-olah)** and four
 colleagues, turned it into engineering problems, reward hacking among them.
 A decade later the large labs published alignment research of their own,
 and so did government institutes and non-profits.
 
-On 30 May 2023 the **Center for AI Safety** published a single sentence:
+On 30 May 2023 the **[Center for AI Safety](kloom:e/center-for-ai-safety)** published a single sentence:
 "Mitigating the risk of extinction from AI should be a global priority
 alongside other societal-scale risks such as pandemics and nuclear war."
-**Geoffrey Hinton** and **Yoshua Bengio** signed it, as did the chief
+**[Geoffrey Hinton](kloom:e/geoffrey-hinton)** and **[Yoshua Bengio](kloom:e/yoshua-bengio)** signed it, as did the chief
 executives of OpenAI, Google DeepMind and Anthropic. In a survey of 2,778
 researchers who had published at top AI venues, reported in January 2024,
 between 38% and 51% gave at least a 10% chance to advanced AI leading to
 outcomes as bad as human extinction, while 68.3% thought good outcomes more
 likely than bad.
 
-Others disagree. **Yann LeCun** argues that a superintelligent machine would
+Others disagree. **[Yann LeCun](kloom:e/yann-lecun)** argues that a superintelligent machine would
 have no drive to preserve itself unless it were built to have one, and
-researchers such as **François Chollet** and **Gary Marcus** have argued that
+researchers such as **[François Chollet](kloom:e/francois-chollet)** and **Gary Marcus** have argued that
 general AI is far off, or that it will not be hard to align. Critics of the
 2023 statement, **Timnit Gebru** and Human Rights Watch among them, said
 that talk of extinction distracted from harms already here, and noted that

@@ -115,5 +115,19 @@
 			"licence": "MIT",
 			"file": "table-errors.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/harrison-chronometer",
+			"why": "Lunar distances, the method the Board of Longitude backed against Harrison's watch, needed printed tables, and the Board's own lunar-distance tables carried over 1,100 printed errata."
+		},
+		{
+			"to": "western-civ/printing-press",
+			"why": "Print spread errors as surely as texts: six slips in Vlacq's logarithms of 1628 recurred in tables printed across Europe until 1822, so Babbage designed his engine to set its own type."
+		},
+		{
+			"to": "computing/logarithms",
+			"why": "Babbage's engine was to replace tables like Briggs's and Vlacq's: built by the method of differences, and copied with their errors for two centuries."
+		}
 	]
 }

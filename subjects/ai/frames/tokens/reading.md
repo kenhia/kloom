@@ -1,4 +1,4 @@
-A transformer never sees a letter. Before any of the machinery on the main
+A [transformer](kloom:e/transformer-deep-learning) never sees a letter. Before any of the machinery on the main
 spine can run, text has to be turned into a list of whole numbers, and the
 way that is done shapes what a language model finds easy and what it finds
 strangely hard.
@@ -12,7 +12,7 @@ _vocabulary_. Finally each token is replaced by its position in that list, its
 **token id**. The mapping runs both ways, so a model's output ids can be
 turned back into text.
 
-Here is the sentence "The cat sat on the mat." as the GPT-2 tokeniser splits
+Here is the sentence "The cat sat on the mat." as the [GPT-2](kloom:e/gpt-2) tokeniser splits
 it. Notice that the space belongs to the start of the following token, so
 " cat" with its space is a different token from "cat" without one.
 
@@ -33,17 +33,17 @@ five tokens, " ant", "idis", "establishment", "arian" and "ism".
 ## Byte-pair encoding
 
 The method most models use to choose their vocabulary began as a compression
-trick. **Philip Gage** described _byte-pair encoding_ (BPE) in 1994: find the
+trick. **Philip Gage** described [_byte-pair encoding_](kloom:e/byte-pair-encoding) (BPE) in 1994: find the
 most common pair of adjacent bytes, replace it with a new symbol, and repeat.
 In 2016 **Rico Sennrich**, **Barry Haddow** and **Alexandra Birch** at the
-University of Edinburgh adapted it to split words for neural machine
+[University of Edinburgh](kloom:e/university-of-edinburgh) adapted it to split words for neural machine
 translation. Start with single characters, plus a mark `·` for the end of a
 word; count every adjacent pair, weighted by how often each word occurs; merge
 the most frequent pair into a new symbol; and repeat. The number of merges is
 the only setting, and the vocabulary is the starting characters plus one new
 symbol per merge.
 
-Their paper gives the algorithm as about twenty lines of Python, run on a toy
+Their paper gives the algorithm as about twenty lines of [Python](kloom:e/python-programming-language), run on a toy
 dictionary: _low_ five times, _lower_ twice, _newest_ six times and _widest_
 three times. Running it gives these merges, ties going to the pair seen first:
 
@@ -65,7 +65,7 @@ out of smaller pieces, down to single characters; only a character never
 seen in training can be unknown.
 
 **GPT-2** (OpenAI, 2019) removed even that. It ran BPE on raw _bytes_ rather than characters, so its
-base vocabulary is just 256 symbols and it can encode any Unicode text, where a
+base vocabulary is just 256 symbols and it can encode any [Unicode](kloom:e/unicode) text, where a
 character-level base would need more than 130,000. Because plain BPE wasted
 slots on variants such as "dog." "dog!" and "dog?", GPT-2 stopped merges from
 crossing character categories, except for spaces. Its vocabulary came to
@@ -84,7 +84,7 @@ first and last layers bigger. Real models have chosen differently:
 | Llama 2             | 2023 | BPE (SentencePiece)  |          32k |
 | Llama 3             | 2024 | BPE (tiktoken + 28K) |      128,000 |
 
-Meta reports that Llama 3's bigger vocabulary raised compression on a sample
+Meta reports that [Llama](kloom:e/llama-language-model) 3's bigger vocabulary raised compression on a sample
 of English from 3.17 to 3.94 characters per token, so the model "reads" more
 text for the same compute.
 

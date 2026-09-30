@@ -5,16 +5,16 @@ people he hired and could not keep.
 
 ## Shockley's laboratory
 
-In September 1955 **William Shockley** and the instrument maker **Arnold
-Beckman** agreed to found the **Shockley Semiconductor Laboratory**, a
+In September 1955 **[William Shockley](kloom:e/william-shockley)** and the instrument maker **Arnold
+Beckman** agreed to found the **[Shockley Semiconductor Laboratory](kloom:e/shockley-semiconductor-laboratory)**, a
 division of Beckman Instruments. Shockley rented a building at 391 South
 San Antonio Road in Mountain View, California, near Palo Alto, where he
 had grown up and where his mother still lived. He advertised in the East
 Coast papers and recruited young physicists, chemists and engineers, among
-them **Robert Noyce** from Philco and **Gordon Moore** from Johns Hopkins.
+them **[Robert Noyce](kloom:e/robert-noyce)** from Philco and **[Gordon Moore](kloom:e/gordon-moore)** from Johns Hopkins.
 By September 1956 the laboratory had 32 people.
 
-It went wrong quickly. Shockley shared the Nobel Prize that December, and
+It went wrong quickly. Shockley shared the [Nobel Prize](kloom:e/nobel-prize-in-physics) that December, and
 the staff found him secretive and suspicious: calls were recorded, and at
 one point he asked the whole laboratory to take a lie-detector test. His
 research choice worried them more. Rather than make silicon transistors,
@@ -27,13 +27,13 @@ by Moore asked Beckman to replace him and was refused.
 ## The eight
 
 On 18 September 1957 eight of them resigned: **Julius Blank**, **Victor
-Grinich**, **Jean Hoerni**, **Eugene Kleiner**, **Jay Last**, Moore, Noyce
+Grinich**, **[Jean Hoerni](kloom:e/jean-hoerni)**, **[Eugene Kleiner](kloom:e/eugene-kleiner)**, **[Jay Last](kloom:e/jay-last)**, Moore, Noyce
 and **Sheldon Roberts**. Kleiner had gone to New York to look for money, and
 **Arthur Rock** of the bank Hayden, Stone found them a backer in Sherman
-Fairchild's Fairchild Camera and Instrument. It lent the new **Fairchild
-Semiconductor** $1.38 million, with the right to buy the founders out,
+Fairchild's Fairchild Camera and Instrument. It lent the new **[Fairchild
+Semiconductor](kloom:e/fairchild-semiconductor)** $1.38 million, with the right to buy the founders out,
 which it did in 1959. Shockley called the departure a betrayal, and the
-group became known as the "traitorous eight", though no one knows who
+group became known as the ["traitorous eight"](kloom:e/traitorous-eight), though no one knows who
 coined the name. His own company never made a profit and was sold in 1960.
 
 Fairchild set up in Palo Alto and had its first order early in 1958: 100
@@ -56,7 +56,7 @@ then stripped it off, as everyone did, leaving a raised _mesa_ with its
 junctions bare at the edges. Particles flaking inside the metal can could
 short them.
 
-**Jean Hoerni** saw that the oxide could stay. His planar process diffuses
+**Jean Hoerni** saw that the oxide could stay. His [planar process](kloom:e/planar-process) diffuses
 the base and then the emitter through windows in the oxide, and the
 impurity spreads sideways under the edge of each window as well as down,
 so every junction ends under the oxide that masked it, as
@@ -85,4 +85,4 @@ naming him.
 
 The planar process did more than seal a transistor. A flat, insulated
 surface is a place to lay wires, and within months Noyce saw what could be
-built on it: the integrated circuit.
+built on it: the [integrated circuit](kloom:e/integrated-circuit).

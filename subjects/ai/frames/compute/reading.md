@@ -7,23 +7,23 @@ allowed to buy it, had become a question of industrial policy.
 
 Machine learning runs on linear algebra, and graphics chips have many
 cores that can do it in parallel.
-**Nvidia**'s CUDA software, which let programmers use those cores for
-general computing, made its GPUs the default: AlexNet was trained on two of
+**[Nvidia](kloom:e/nvidia)**'s [CUDA](kloom:e/cuda) software, which let programmers use those cores for
+general computing, made its GPUs the default: [AlexNet](kloom:e/alexnet) was trained on two of
 its GTX 580 cards in 2012, and by 2025 Nvidia held more than 80% of the
 market for GPUs used to train and run AI models. In March 2022 Nvidia announced the
 **H100** of its _Hopper_ architecture: 80 billion transistors,
-made by TSMC. Its successor, **Blackwell** (March 2024), has 208 billion,
+made by [TSMC](kloom:e/tsmc). Its successor, **Blackwell** (March 2024), has 208 billion,
 and Nvidia said in May 2026 that the next, _Vera Rubin_, was ramping into
 full production. Nvidia's data-centre revenue in its
 2026 financial year was $193.7 billion, up 68% on the year before.
 
-**Google** took another route. In May 2016 it revealed the **Tensor
-Processing Unit**, at heart a matrix-multiplication engine designed for
+**[Google](kloom:e/google)** took another route. In May 2016 it revealed the **[Tensor
+Processing Unit](kloom:e/tensor-processing-unit)**, at heart a matrix-multiplication engine designed for
 neural networks, which it had
 already been running in its data centres for more than a year. Its
 engineers reported the first TPU to be 15 to 30 times faster than
 contemporary GPUs and CPUs on their workloads. By 2025 Google was on its
-seventh generation, _Ironwood_, in pods of 9,216 chips; Amazon designs its own,
+seventh generation, _Ironwood_, in pods of 9,216 chips; [Amazon](kloom:e/amazon-company) designs its own,
 _Trainium_.
 
 ![A TPU v4 board: four liquid-cooled chip packages, each a chip with four stacks of high-bandwidth memory, joined by coloured coolant hoses to a manifold, with network connectors along the edge. From Jouppi et al. (2023), CC BY 4.0](tpu-v4-board.jpg)
@@ -31,11 +31,11 @@ _Trainium_.
 ## Clusters and power
 
 The frontier is trained on tens or hundreds of thousands of such chips at
-once. Meta described two clusters of 24,576 H100s each in March 2024. In
-2024 **xAI** built _Colossus_ in Memphis, 100,000 Hopper GPUs, in 122 days.
-In January 2025 OpenAI, SoftBank, Oracle and MGX announced _Stargate_, which
+once. [Meta](kloom:e/meta-platforms) described two clusters of 24,576 H100s each in March 2024. In
+2024 **[xAI](kloom:e/spacexai)** built _Colossus_ in Memphis, 100,000 Hopper GPUs, in 122 days.
+In January 2025 [OpenAI](kloom:e/openai), SoftBank, Oracle and MGX announced _Stargate_, which
 intended to invest $500 billion over four years in AI infrastructure for
-OpenAI in the United States. Epoch AI reported in June 2026 that the record
+OpenAI in the United States. [Epoch AI](kloom:e/epoch-ai) reported in June 2026 that the record
 for computing capacity in a single data centre had doubled every seven
 months since 2024.
 

@@ -1,0 +1,8 @@
+{
+	"id": "entscheidungsproblem",
+	"wikidata": "Q11030584",
+	"name": "Entscheidungsproblem",
+	"aliases": ["decision problem"],
+	"kind": "idea",
+	"description": "Hilbert's decision problem: whether a procedure can decide whether any statement of logic is provable. Church and Turing showed in 1936 that none can."
+}

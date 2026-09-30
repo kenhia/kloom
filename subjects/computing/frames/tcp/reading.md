@@ -1,12 +1,12 @@
-IP delivers packets when it can. Programs want something else: a
+[IP](kloom:e/internet-protocol) delivers packets when it can. Programs want something else: a
 conversation, a file or a web page that arrives complete, in order and
-exactly once. The Transmission Control Protocol builds that out of IP's
+exactly once. The [Transmission Control Protocol](kloom:e/transmission-control-protocol) builds that out of IP's
 unreliable packets, using nothing but the two computers at the ends. It
 does it with numbers, a timer and, since 1988, a sense of when to slow down.
 
 ## A number on every byte
 
-TCP's first specification, **RFC 675** of December 1974 by **Vint Cerf**,
+TCP's first specification, **RFC 675** of December 1974 by **[Vint Cerf](kloom:e/vint-cerf)**,
 **Yogen Dalal** and **Carl Sunshine**, described one program that did
 everything; the version standardised as **RFC 793** in September 1981 left
 addressing and routing to IP. Its method takes a few sentences of RFC 793.
@@ -42,13 +42,13 @@ Retransmission has a danger in it. When a router's queue overflows it drops
 packets, senders time out and send again, and the extra traffic makes the
 queues longer still. In October 1986 the Internet had the first of what
 became a series of _congestion collapses_: between Lawrence Berkeley
-Laboratory and the University of California at Berkeley, 400 yards and two
+Laboratory and the [University of California at Berkeley](kloom:e/university-of-california-berkeley), 400 yards and two
 IMP hops apart, throughput fell from 32 kbit/s to 40 bit/s, a factor of
 about a thousand.
 
-**Van Jacobson** of LBL and **Michael Karels** of Berkeley traced the
+**[Van Jacobson](kloom:e/van-jacobson)** of LBL and **Michael Karels** of Berkeley traced the
 fault to how TCP was implemented, not to the protocol, and by 1988 had put
-seven new algorithms into Berkeley Unix's TCP. Their principle was
+seven new algorithms into [Berkeley Unix](kloom:e/berkeley-software-distribution)'s TCP. Their principle was
 _conservation of packets_: a connection in equilibrium should put a new
 packet into the network only as an old one leaves. Two rules did most of the
 work, both governed by a _congestion window_ that caps how much a sender
@@ -63,17 +63,17 @@ has in flight:
 Slow start, despite its name, doubles the window every round trip until it
 finds the path's limit. The halving and the slow growth after it are
 _additive increase, multiplicative decrease_, a policy the paper takes
-from **Raj Jain**, K. K. Ramakrishnan and Dah-Ming Chiu at Digital
-Equipment. Jacobson and Karels also noted that slow start closely
+from **Raj Jain**, K. K. Ramakrishnan and Dah-Ming Chiu at [Digital
+Equipment](kloom:e/digital-equipment-corporation). Jacobson and Karels also noted that slow start closely
 resembles Jain's CUTE, which had preceded it by several months without
 their knowing.
 
 ## The ends decide
 
-Why put all this in the hosts rather than the network? **Jerome Saltzer**,
-**David Reed** and **David Clark** of MIT's Laboratory for Computer Science
+Why put all this in the hosts rather than the network? **[Jerome Saltzer](kloom:e/jerry-saltzer)**,
+**[David Reed](kloom:e/david-p-reed)** and **[David Clark](kloom:e/david-d-clark)** of MIT's Laboratory for Computer Science
 gave the reason a name in 1981,
-published in its best-known form in 1984: the _end-to-end argument_. A
+published in its best-known form in 1984: the [_end-to-end argument_](kloom:e/end-to-end-principle). A
 function, they wrote, "can completely and correctly be implemented only with
 the knowledge and help of the application standing at the end points of the
 communication system." Their example is a careful file transfer: however
@@ -86,7 +86,7 @@ that argument built.
 TCP has kept evolving at the ends. In August 2022 **RFC 9293** gathered
 four decades of amendments into one document and retired RFC 793. Linux
 has used a newer congestion rule, CUBIC, by default since 2006, and Google
-introduced BBR, which models the path instead of waiting for losses, in 2016. **QUIC**, standardised in May 2021, rebuilds reliable streams on top
+introduced BBR, which models the path instead of waiting for losses, in 2016. [**QUIC**](kloom:e/quic), standardised in May 2021, rebuilds reliable streams on top
 of UDP with encryption built in, and HTTP/3 runs over it. A reliable
 connection still needs an address to connect to, and people remember names
 instead, which is the next layer's work.

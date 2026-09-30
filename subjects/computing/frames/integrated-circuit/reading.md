@@ -13,12 +13,12 @@ History Museum quotes, electronic equipment "in a solid block with no
 connecting wires". Several laboratories built pieces of it; none made a
 general method.
 
-**Jack Kilby** was a new engineer at **Texas Instruments** in Dallas in
+**[Jack Kilby](kloom:e/jack-kilby)** was a new engineer at **[Texas Instruments](kloom:e/texas-instruments)** in Dallas in
 the summer of 1958, too new to take the company's summer holiday. He spent
 it on the tyranny of numbers and concluded that every component, resistors
 and capacitors included, could be made of the same semiconductor as the
 transistors, so that a whole circuit could come from one crystal. On 12 September 1958 he showed a phase-shift
-oscillator on a sliver of germanium about 10 by 1.6 millimetres, cut from a
+oscillator on a sliver of [germanium](kloom:e/germanium) about 10 by 1.6 millimetres, cut from a
 standard wafer of mesa transistors: a transistor, a capacitor and
 resistors, all germanium, joined by fine gold wires bonded between them in
 the air. A week later he showed an amplifier. TI announced the _solid
@@ -34,9 +34,9 @@ flip-flop at $450 each, for customers to evaluate.
 
 ## Noyce's layer of metal
 
-At Fairchild, **Jean Hoerni**'s planar process had just left transistors
+At [Fairchild](kloom:e/fairchild-semiconductor), **[Jean Hoerni](kloom:e/jean-hoerni)**'s [planar process](kloom:e/planar-process) had just left transistors
 sealed under a flat layer of silicon oxide. Pressed by the company's
-patent attorney to think of other uses for it, **Robert Noyce** wrote down
+patent attorney to think of other uses for it, **[Robert Noyce](kloom:e/robert-noyce)** wrote down
 his idea in January 1959: make every component in one chip of silicon by
 diffusing it through windows in the oxide, then lay aluminium over
 the oxide and let it drop through small openings to the contacts. The oxide
@@ -45,7 +45,7 @@ one printing step with the rest. The plate sets the two side by side.
 
 Noyce filed his patent, _Semiconductor Device-and-Lead Structure_, on 30
 July 1959. Components on one chip also had to be kept from shorting through
-the silicon between them, and **Kurt Lehovec** of Sprague Electric had
+the silicon between them, and **[Kurt Lehovec](kloom:e/kurt-lehovec)** of Sprague Electric had
 patented the answer, reverse-biased p-n junctions, in April 1959. At
 Fairchild a team under **Jay Last** had the first working chips on 26 May
 1960, isolated by etched channels filled with epoxy, and chips with
@@ -73,7 +73,7 @@ Credit was settled more generously than the patents. Both men received
 the National Medal of Science and are usually named co-inventors: Kilby
 for the first circuit made wholly of semiconductor, Noyce for the metal
 over oxide that made it manufacturable. Some historians would add Lehovec
-and Hoerni. Kilby shared the Nobel Prize in Physics in 2000; Noyce had died
+and Hoerni. Kilby shared the [Nobel Prize in Physics](kloom:e/nobel-prize-in-physics) in 2000; Noyce had died
 in 1990.
 
 ## Why planar won
@@ -82,6 +82,6 @@ Planar was a photographic process. The whole wiring pattern of a chip was
 exposed at once, for every chip on a wafer at once, so adding connections did not add
 hand work, and making the features smaller put more circuits on each
 wafer. Kilby's bonded wires could not
-scale that way. Every integrated circuit since has been a planar chip. Its
+scale that way. Every [integrated circuit](kloom:e/integrated-circuit) since has been a planar chip. Its
 first large customer needed thousands of identical logic gates for a
-computer that would fly to the Moon.
+computer that would fly to the [Moon](kloom:e/moon).

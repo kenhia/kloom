@@ -1,4 +1,4 @@
-A soroban's beads slide at a touch, which is what makes it fast, and also
+A [soroban](kloom:e/soroban)'s beads slide at a touch, which is what makes it fast, and also
 what makes it useless to anyone who reads it with their fingers: feel the
 number, and you move it. In the early 1960s a blind man in Kentucky
 fixed that with a layer of felt, and gave blind children and workers a
@@ -8,7 +8,7 @@ calculator they could read.
 
 **Tim Cranmer** (Terrence V. Cranmer, 1925–2001) had been blind since the
 age of nine. He taught himself physics, chemistry and computer science
-largely from braille books, and was, as his abacus manual put it,
+largely from [braille](kloom:e/braille) books, and was, as his [abacus](kloom:e/abacus) manual put it,
 "extremely interested in radio and electronics". He worked as a piano
 technician, and invented a key-levelling tool that sighted technicians
 used too; from 1952 he worked for Kentucky's services for the blind,
@@ -17,11 +17,11 @@ behind the beads he laid a soft backing, felt or rubber, that holds each
 bead where it is put. A finger can then run down the rods and read every
 digit without disturbing it.
 
-The **American Printing House for the Blind**, in Louisville, took it up,
-and in 1964 published **Fred Gissoni**'s manual, _Using the Cranmer
-Abacus for the Blind_. It describes a frame small enough for a pocket or
+The **[American Printing House for the Blind](kloom:e/american-printing-house-for-the-blind)**, in Louisville, took it up,
+and in 1964 published **Fred Gissoni**'s manual, _Using the [Cranmer
+Abacus](kloom:e/cranmer-abacus) for the Blind_. It describes a frame small enough for a pocket or
 a purse, with thirteen rods, each carrying one bead above a bar and four
-below: the soroban's proportions, and the Roman hand abacus's before it.
+below: the soroban's proportions, and the [Roman hand abacus](kloom:e/roman-abacus)'s before it.
 Beads count only when they are moved against the bar. Raised dots along
 the bottom edge mark every third rod, so that fingers can find the units
 and the thousands; the plate draws them, with a section through the box
@@ -53,5 +53,5 @@ directory for switchboard operators, and he worked with Deane Blazie on
 the Braille 'n Speak. He retired in 1982 and spent his last years on a
 unified braille code. His best-known work is still the abacus.
 
-The beads could leave the hand as well as the eye. In _anzan_, the next
+The beads could leave the hand as well as the eye. In [_anzan_](kloom:e/mental-abacus), the next
 frame, the soroban is only imagined.

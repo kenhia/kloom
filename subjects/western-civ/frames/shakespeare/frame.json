@@ -60,5 +60,11 @@
 			],
 			"publisher": "Project Gutenberg"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/printing-press",
+			"why": "Eighteen of Shakespeare's plays survive because the First Folio printed them: a printed text could no longer be lost with a single copy."
+		}
 	]
 }

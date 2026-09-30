@@ -168,5 +168,11 @@
 			"file": "einstein-1947.jpg",
 			"published": "1947"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/maxwell",
+			"why": "Maxwell's equations allow waves travelling out into the future and waves coming in from it; Wheeler and Feynman built the absorber theory on the kind everyone discarded."
+		}
 	]
 }

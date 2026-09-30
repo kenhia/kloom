@@ -1,7 +1,7 @@
-In 1985, the year of his memoir, Feynman published a book of real
-physics for readers with no mathematics at all: **_QED: The Strange Theory
-of Light and Matter_**, from Princeton University Press. It explains
-quantum electrodynamics, the theory that won him the Nobel Prize, with
+In 1985, the year of his memoir, [Feynman](kloom:e/richard-feynman) published a book of real
+physics for readers with no mathematics at all: **[_QED: The Strange Theory
+of Light and Matter_](kloom:e/qed-the-strange-theory-of-light-and-matter)**, from Princeton University Press. It explains
+[quantum electrodynamics](kloom:e/quantum-electrodynamics), the theory that won him the Nobel Prize, with
 nothing more than little arrows, and it does not cheat. A reader who
 follows the rules can work out, correctly, how much light a sheet of glass
 reflects.
@@ -9,13 +9,13 @@ reflects.
 ## From Auckland to UCLA
 
 The book began as lectures. In 1979 Feynman gave the **Sir Douglas Robb
-lectures** at the University of Auckland in New Zealand, four talks on QED
+lectures** at the [University of Auckland](kloom:e/university-of-auckland) in New Zealand, four talks on QED
 for the public, which were videotaped. In 1983 he gave a new set at UCLA
 as the first **Alix G. Mautner Memorial Lectures**. Alix Mautner had long
 asked him to explain the physics of small particles in a way she could
 follow; her husband, **Leonard Mautner**, had been Feynman's friend since
 their boyhood in Far Rockaway, and the lecture series was founded in her
-memory after her death. Ralph Leighton transcribed and edited the UCLA talks, and
+memory after her death. [Ralph Leighton](kloom:e/ralph-leighton) transcribed and edited the UCLA talks, and
 Feynman's acknowledgement notes that the manuscript was then considerably
 reworked. In 1996 two physicists at Auckland, J. M. Dudley and A. M.
 Kwan, compared the book with the Auckland tapes, listed where they
@@ -34,7 +34,7 @@ go in. Light comes in lumps: a detector clicks, photon by photon, and
 nothing predicts which photon will be one of the four. Now use a sheet
 with two surfaces. The reflection is not 8%, as common sense expects.
 Depending on the exact thickness, it is anything from 0% to 16%, cycling
-up and down as the glass gets thicker. Newton saw this in his rings and
+up and down as the glass gets thicker. [Newton](kloom:e/isaac-newton) saw this in his rings and
 could not explain it.
 
 Feynman's explanation, in the book's terms: every way the photon can go
@@ -72,8 +72,8 @@ emits or absorbs a photon. Every effect of light and electrons is those
 three, combined in every possible way, with the arrows added. The book
 ends by sketching what lies beyond QED, the quarks and gluons that his
 partons became, and its famously precise agreement with experiment. It
-is still in print, with a new introduction by **Anthony Zee** since 2006.
+is still in print, with a new introduction by **[Anthony Zee](kloom:e/anthony-zee)** since 2006.
 
 The trail **Sum over histories** follows the arrows further, through the
-double slit to the path integral. The main spine goes on to January 1986,
+double slit to the [path integral](kloom:e/path-integral-formulation). The main spine goes on to January 1986,
 and the space shuttle _Challenger_.

@@ -46,5 +46,11 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-08-29"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/scriptorium",
+			"why": "Gutenberg matched the finest handwritten books page for page, in a type made to look like a scribe's hand, with initials and borders still painted by hand."
+		}
 	]
 }

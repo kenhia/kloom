@@ -1,0 +1,8 @@
+{
+	"id": "convolutional-neural-network",
+	"wikidata": "Q17084460",
+	"name": "Convolutional neural network",
+	"aliases": ["convolutional network", "CNN"],
+	"kind": "idea",
+	"description": "A neural network that sweeps the same small learned detector across an image; the design behind LeNet, AlexNet and modern vision."
+}

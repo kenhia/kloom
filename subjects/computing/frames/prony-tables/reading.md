@@ -1,7 +1,7 @@
-In 1791 revolutionary France was measuring itself anew. The metric system
+In 1791 [revolutionary France](kloom:e/french-revolution) was measuring itself anew. The [metric system](kloom:e/metric-system)
 was to divide the right angle into a hundred grades, and a surveyor working
 in grades needed logarithms and sines that no existing table gave. The
-work fell to **Gaspard de Prony**, an engineer who directed the _cadastre_,
+work fell to **[Gaspard de Prony](kloom:e/gaspard-de-prony)**, an engineer who directed the _cadastre_,
 the land survey that was to map the country down to its smallest
 property. He was to make tables that would leave nothing to be desired in
 exactness and would be, as a pamphlet on them put it, "the vastest and most
@@ -9,10 +9,10 @@ imposing monument of calculation" ever carried out or even conceived.
 
 ## Logarithms like pins
 
-The story of how he set about it was printed in Paris in 1829, and
-**Charles Babbage** reprinted it in 1832. Prony reckoned that even with
+The story of how he set about it was printed in [Paris](kloom:e/paris) in 1829, and
+**[Charles Babbage](kloom:e/charles-babbage)** reprinted it in 1832. Prony reckoned that even with
 three or four able colleagues he would not live to finish. Then, outside a
-bookshop, he saw the fine London edition of **Adam Smith**'s _Wealth of
+bookshop, he saw the fine London edition of **[Adam Smith](kloom:e/adam-smith)**'s _Wealth of
 Nations_, opened it at random, and fell on the first chapter, on the
 division of labour, with its famous example of the making of pins. He
 conceived at once the plan of manufacturing his logarithms as one
@@ -25,7 +25,7 @@ calculations separately, each a check on the other.
 ![A plate on pin-making from Diderot's Encyclopédie of 1762: above, a workshop with wheels, benches and workers drawing and cutting wire; below, the tools of the trade drawn one by one](pin-factory.jpg)
 
 The anecdote came from a pamphlet written to win money for printing the
-tables, and Doron Swade notes, after Ivor Grattan-Guinness, that its
+tables, and [Doron Swade](kloom:e/doron-swade) notes, after Ivor Grattan-Guinness, that its
 grandeur may have been doing promotional work. The organisation it
 describes is not in doubt. Babbage's account gives three sections:
 
@@ -59,7 +59,7 @@ is not documented; the hairdressers are a good story with one early teller.
 ## A monument never printed
 
 The tables were finished in 1801. Two manuscript copies were made, one now
-at the Paris Observatory and one at the library of the Institut de France.
+at the [Paris Observatory](kloom:e/paris-observatory) and one at the library of the Institut de France.
 Accounts of their size differ: seventeen large folio volumes in Babbage,
 seventeen plus a volume of instructions in Daston, eighteen in Swade,
 nineteen in Wikipedia. Daston lists what they hold:
@@ -89,4 +89,4 @@ proofs of his own logarithm tables against them. In 1832, in _On the
 Economy of Machinery and Manufactures_, he drew the conclusion: once a
 calculating engine was finished, it would take the place of the whole
 third section. Making that engine fell to a London workshop, and to its
-master, Joseph Clement.
+master, [Joseph Clement](kloom:e/joseph-clement).

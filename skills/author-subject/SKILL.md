@@ -43,8 +43,11 @@ Decide the whole shape before writing a frame.
 - **The voice.** Decide the headline voice once. western-civ and ai use a
   collective "we"; a subject built on a person may need "he" or "she", or
   the person's own name.
-- Grep the other subjects' sprint records for **candidate links** to this
-  one, and note the reciprocal ones as you plan.
+- **Links to the other subjects.** Read the other subjects' spines and
+  `names/`, and note the frames this one will connect to and the names it
+  will share (docs/design.md §Connections). Connections are written with
+  the frames, not saved up for a later sprint: sprints 006, 014 and 015
+  could only list theirs, and 64 waited for sprint 017.
 
 ## 2. The first segment, by hand
 
@@ -73,9 +76,20 @@ Each author gets:
   are particular to this subject; and the accents already taken;
 - the hand-written frames, to read in full before writing;
 - **its own files only**: its frame directories, its own plate module, its
-  own chart specs in `create-tools/bar-chart/examples/`. Nothing shared, so
-  nothing collides. The author does not touch `spine.json`, the trails, the
-  plan or `subject.json`;
+  own chart specs in `create-tools/bar-chart/examples/`, and its own names
+  drafts (below). Nothing shared, so nothing collides. The author does not
+  touch `spine.json`, the trails, the plan, `subject.json` or `names/`;
+- **names and connections**, as the grow skill's §Names and connections
+  says, with one difference: the registry is shared, so an author does
+  not write into `names/` and does not mark by hand. It drafts the name
+  files the registry lacks into a directory of its own
+  (`.scratch/names/<subject>-<segment>/`, Wikidata IDs from `names.py
+lookup`, never from memory; the id is lookup's, so two authors reach the
+  same id for the same thing), and writes a mark spec,
+  `create-tools/names/examples/<subject>-<segment>.json`, checked with
+  `names.py mark <spec> --check` until nothing but "not marked yet" is
+  left. Its frames' `frame.json` carry their connections, each checked
+  against the other frame's reading;
 - the instruction to **report**: what it wrote, every claim it is unsure
   of, where sources disagreed and what it did, and every place the grow
   skill misled it.
@@ -121,19 +135,29 @@ As each author reports:
 3. Read the report's unsure claims against the cited sources, and spot
    check the surprising ones. Fix or cut; never keep a claim because it is
    good.
-4. Commit that segment on its own, so a bad one can be reverted alone.
+4. **Names.** `names.py add <drafts>` writes the author's new names into the
+   registry, and refuses one whose Wikidata item is already there under
+   another id: use that id in the spec instead. Where two authors drafted
+   the same id, keep one file. Then `names.py mark <spec>` places the
+   marks. Read a sample of the new name files: the description is shared
+   by every subject, so it must not be written from this one's angle
+   only, and the Wikidata item must be the thing meant.
+5. Commit that segment on its own, so a bad one can be reverted alone.
    Stage it with `create-tools/subject-plan/stage_segment.py`, which stages
    the frames with a spine and trails holding only committed frames (the
    working tree's spine names everyone's), and validate the index before
-   committing.
+   committing, with its new names and its mark spec.
 
 When all are in: `subject_plan.py --check` names nothing still to write,
-`just check` is green, and a keyboard-only pass in the browser walks the
-main spine and every trail.
+`names.py mark` finds every spec's marks, `just check` is green (its links
+test refuses a connection to no frame and a mark on no name), and a
+keyboard-only pass in the browser walks the main spine and every trail.
 
 ## 5. Write it down
 
 In the sprint record: the plan's shape and why, the theme and its contrast
 numbers, what the authors reported and what you did about it, the grow
 skill's assumptions you found (generalise each in the grow skill or this
-one, or say why not), and the candidate links to other subjects.
+one, or say why not), the connections made to other subjects and any left
+unmade (with the reason), and the density: `names.py density` prints names
+and connections per frame for every subject.

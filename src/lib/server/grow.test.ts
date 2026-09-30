@@ -2,11 +2,11 @@ import { execFileSync } from 'node:child_process';
 import { cp, mkdtemp, readdir, readFile, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { beforeAll, beforeEach, describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it } from 'vitest';
 import { editJson, grownFrame, writeFrame } from '$engine/ai/grow-fixture';
 import type { GrowJob } from '$engine/ai/grow';
 import type { GrowRequest, Provider, ProviderEvent } from '$engine/ai/provider';
-import { loadNames, loadSubject } from '$engine/load';
+import { loadSubject } from '$engine/load';
 import type { Spine } from '$engine/model';
 import { commitMessage, GrowQueue, runGrowJob, stripFrontmatter, type GrowHost } from './grow';
 
@@ -14,17 +14,18 @@ const source = join(import.meta.dirname, '..', '..', '..', 'subjects', 'western-
 const git = (cwd: string, ...args: string[]) =>
 	execFileSync('git', args, { cwd, encoding: 'utf8' }).trim();
 
+const registry = join(source, '..', '..', 'names');
+
 let repo: string;
 let subject: string;
-// The registry beside the subjects, as the service passes it (§Connections).
-let names: Set<string>;
-beforeAll(async () => {
-	names = new Set(Object.keys((await loadNames(join(source, '..', '..', 'names'))).names));
-});
+// The registry beside the subjects, as the service's content clone has it (§Connections).
+let namesDir: string;
 beforeEach(async () => {
 	repo = await mkdtemp(join(tmpdir(), 'kloom-grow-repo-'));
 	subject = join(repo, 'subjects', 'western-civ');
+	namesDir = join(repo, 'names');
 	await cp(source, subject, { recursive: true });
+	await cp(registry, namesDir, { recursive: true });
 	git(repo, 'init', '-q', '-b', 'main');
 	git(repo, 'add', '.');
 	git(repo, '-c', 'user.name=t', '-c', 'user.email=t@t', 'commit', '-q', '-m', 'start');
@@ -84,9 +85,24 @@ const host = (provider: Provider, over: Partial<GrowHost> = {}): GrowHost => ({
 	instructions: '---\nname: x\n---\n\n# Growing',
 	reference: { 'design.md': join(source, '..', '..', 'docs', 'design.md') },
 	timeoutMs: 60_000,
-	names,
+	namesDir,
+	frames: {
+		'western-civ/printing-press': 'Knowledge went VIRAL. (c. AD 1440; Western Civilization)',
+		'computing/eniac': 'A title (1945; Computing)'
+	},
 	...over
 });
+
+/** A name file for a thing the registry lacks. */
+const tetzel = (over: Record<string, unknown> = {}) =>
+	JSON.stringify({
+		id: 'johann-tetzel',
+		wikidata: 'Q76873',
+		name: 'Johann Tetzel',
+		kind: 'person',
+		description: 'Dominican friar whose sale of indulgences provoked Luther’s theses.',
+		...over
+	});
 
 const log = () => git(repo, 'log', '--format=%an <%ae>%n%B', '-1');
 
@@ -191,6 +207,77 @@ describe('a grow job', () => {
 		);
 	});
 
+	it('lets a job add a name it marks, and commits it with the frame', async () => {
+		const { provider } = fakeProvider(async (req) => {
+			await addLuther()(req);
+			await writeFile(
+				join(req.workDir, 'frames', 'luther-theses', 'reading.md'),
+				'Then [Tetzel](kloom:e/johann-tetzel) sold [indulgences](kloom:e/indulgence).\n'
+			);
+			await writeFile(join(req.workDir, 'names', 'johann-tetzel.json'), tetzel());
+		});
+		const outcome = await runGrowJob(job(), host(provider));
+		expect(outcome).toMatchObject({ ok: true, result: { names: ['johann-tetzel'] } });
+		expect(git(repo, 'show', '--name-only', '--format=', 'HEAD').split('\n')).toContain(
+			'names/johann-tetzel.json'
+		);
+		expect(log()).toContain('Names: johann-tetzel');
+		expect(JSON.parse(await readFile(join(namesDir, 'johann-tetzel.json'), 'utf8'))).toMatchObject({
+			wikidata: 'Q76873'
+		});
+		expect(git(repo, 'status', '--porcelain')).toBe('');
+	});
+
+	it('refuses a name changed, one not marked, or one the registry already holds', async () => {
+		const { provider } = fakeProvider(
+			async (req) => {
+				await addLuther()(req);
+				await editJson<{ description: string }>(
+					join(req.workDir, 'names', 'martin-luther.json'),
+					(n) => (n.description = 'Rewritten.')
+				);
+				await writeFile(join(req.workDir, 'names', 'johann-tetzel.json'), tetzel());
+				// Gutenberg again, under another id.
+				await writeFile(
+					join(req.workDir, 'names', 'gutenberg.json'),
+					tetzel({ id: 'gutenberg', wikidata: 'Q8958' })
+				);
+			},
+			async () => {}
+		);
+		const outcome = await runGrowJob(job(), host(provider));
+		const problems = (!outcome.ok && outcome.problems?.join('\n')) || '';
+		expect(problems).toContain('names/martin-luther.json: an existing name was changed');
+		expect(problems).toContain(
+			'names/johann-tetzel.json: a name grow adds must be marked in a frame it wrote'
+		);
+		expect(problems).toContain('names/gutenberg.json: Q8958 is already names/johannes-gutenberg');
+		expect(await readdir(namesDir)).not.toContain('johann-tetzel.json');
+	});
+
+	it('lets a new frame connect to a served frame, and refuses one that is not there', async () => {
+		let listed = '';
+		const connect = (to: string) => async (req: GrowRequest) => {
+			// The job is told which frames a connection may name.
+			listed = await readFile(join(req.workDir, 'reference', 'frames.md'), 'utf8');
+			await addLuther()(req);
+			await editJson<Record<string, unknown>>(
+				join(req.workDir, 'frames', 'luther-theses', 'frame.json'),
+				(f) => (f.connections = [{ to, why: 'Because.' }])
+			);
+		};
+		const missing = await runGrowJob(
+			job(),
+			host(fakeProvider(connect('computing/no-such'), async () => {}).provider)
+		);
+		expect(!missing.ok && missing.problems?.join('\n')).toContain(
+			'frames/luther-theses: connects to computing/no-such, not a frame'
+		);
+		const { provider } = fakeProvider(connect('computing/eniac'));
+		expect((await runGrowJob(job(), host(provider))).ok).toBe(true);
+		expect(listed).toContain('- `computing/eniac` A title (1945; Computing)');
+	});
+
 	it('reports a model error, and writes nothing', async () => {
 		const provider: Provider = {
 			name: 'fake',
@@ -231,6 +318,11 @@ describe('a grow job', () => {
 		const spine = await readFile(join(subject, 'spine.json'), 'utf8');
 		const { provider } = fakeProvider(async (req) => {
 			await addLuther()(req);
+			await writeFile(
+				join(req.workDir, 'frames', 'luther-theses', 'reading.md'),
+				'Then [Tetzel](kloom:e/johann-tetzel) sold indulgences.\n'
+			);
+			await writeFile(join(req.workDir, 'names', 'johann-tetzel.json'), tetzel());
 			// git refuses to add while another process holds the index.
 			await writeFile(join(repo, '.git', 'index.lock'), '');
 		});
@@ -239,6 +331,7 @@ describe('a grow job', () => {
 		expect(git(repo, 'rev-parse', 'HEAD')).toBe(head);
 		expect(await readFile(join(subject, 'spine.json'), 'utf8')).toBe(spine);
 		expect(await readdir(join(subject, 'frames'))).not.toContain('luther-theses');
+		expect(await readdir(namesDir)).not.toContain('johann-tetzel.json');
 	});
 
 	it('writes the commit message from the job', () => {

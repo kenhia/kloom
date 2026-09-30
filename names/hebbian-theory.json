@@ -1,0 +1,9 @@
+{
+	"id": "hebbian-theory",
+	"wikidata": "Q1277874",
+	"name": "Hebbian learning",
+	"aliases": ["Hebb's rule", "Hebbian theory"],
+	"kind": "idea",
+	"description": "The principle that a connection between two neurons strengthens when one repeatedly helps fire the other; used as a learning rule for networks.",
+	"home": "ai/hebbian-learning"
+}

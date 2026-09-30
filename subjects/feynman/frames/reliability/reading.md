@@ -1,9 +1,9 @@
-How likely was it that a shuttle would be lost? Feynman put the question to
+How likely was it that a shuttle would be lost? [Feynman](kloom:e/richard-feynman) put the question to
 everyone he met, and the answers differed by a factor of a thousand. His
 report opens with it. The estimates, he wrote, ran from roughly 1 in 100
 to 1 in 100,000, the higher odds of failure coming from the working
 engineers and the very low ones from management. At 1 in 100,000, he
-pointed out, NASA could launch a shuttle every day for three hundred years
+pointed out, [NASA](kloom:e/nasa) could launch a shuttle every day for three hundred years
 and expect to lose one. He asked what lay behind management's "fantastic
 faith in the machinery".
 
@@ -25,13 +25,13 @@ that it ought to be?
 
 ## Write it down
 
-At Marshall, by his own account, he tried an experiment on the engine team.
+At [Marshall](kloom:e/marshall-space-flight-center), by his own account, he tried an experiment on the engine team.
 He asked three engineers and their manager each to write down, on a slip
-of paper, the chance that a flight would fail through the main engines.
+of paper, the chance that a flight would fail through the [main engines](kloom:e/rs-25).
 The engineers wrote, in their various ways, about 1 in 200. The manager
 first wrote that it could not be quantified, then, pressed, said one in
 100,000. In the appendix he gave the full spread for the engines: 1 in
-300 from Marshall's engineers, 1 in 10,000 from Rocketdyne's, 1 in 100,000
+300 from Marshall's engineers, 1 in 10,000 from [Rocketdyne](kloom:e/rocketdyne)'s, 1 in 100,000
 from NASA management, and one or two in a hundred from an independent
 engineer who consulted on them. His own reasoning from the engines'
 record, about sixteen serious failures in 250,000 seconds of firing, most
@@ -67,11 +67,11 @@ He found the same habit in a phrase. After flight 51-C a ring had come back erod
 a depth of a third of its radius; tests had shown it could lose a full
 radius and still hold, so officials called that a safety factor of three. A safety factor, he wrote, is the margin you build in so that a
 beam never cracks; a beam that cracks a third of the way through under the
-expected load has no safety factor at all. The O-rings were not designed to
+expected load has no safety factor at all. The [O-rings](kloom:e/o-ring) were not designed to
 erode, and erosion was a warning, not a margin.
 
 His conclusion was that the shuttle flew with a chance of failure of the
-order of a percent. The program's record bears him out: Challenger in
-1986, and Columbia in 2003, two vehicles lost in 135 flights. He wrote all
+order of a percent. The program's record bears him out: [Challenger](kloom:e/space-shuttle-challenger-disaster) in
+1986, and [Columbia](kloom:e/space-shuttle-columbia-disaster) in 2003, two vehicles lost in 135 flights. He wrote all
 this into his own report, and the next frame is the fight to get it
 printed.

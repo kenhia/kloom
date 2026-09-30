@@ -96,5 +96,11 @@
 			"published": "2015",
 			"note": "Lotter, Cranach and the Wittenberg title page"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/printing-press",
+			"why": "Luther's quarrel became Europe's loudest because printers took it up: some 3,183 printings in his lifetime, the first mass media campaign."
+		}
 	]
 }

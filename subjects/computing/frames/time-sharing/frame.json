@@ -193,5 +193,15 @@
 			],
 			"published": "2014-02-02"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/punched-cards",
+			"why": "John Kemeny ran IBM card machines at Los Alamos as a soldier; at Dartmouth he later wrote BASIC and built a time-sharing system for every student."
+		},
+		{
+			"to": "ai/dartmouth",
+			"why": "John McCarthy, who named artificial intelligence in the Dartmouth proposal, also proposed time-sharing MIT's computer and foresaw computing sold as a public utility."
+		}
 	]
 }

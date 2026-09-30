@@ -1,6 +1,6 @@
 On 18 January 1944 a machine from a telephone laboratory in north London
 was delivered to [Bletchley Park](kloom:e/bletchley-park), and the codebreakers there named it for its
-size. Colossus is usually counted the first programmable electronic digital
+size. [Colossus](kloom:e/colossus-computer) is usually counted the first programmable electronic digital
 computer: fifteen or sixteen hundred valves switching in step, reading a
 loop of paper tape at 5,000 characters a second. It was built by telephone
 engineers, and it worked because one of them knew something about valves
@@ -8,8 +8,8 @@ that almost nobody else believed.
 
 ## Valves that were never switched off
 
-**Tommy Flowers** was head of the switching group at the **Post Office
-Research Station** at Dollis Hill. From 1934 he had been putting valves
+**[Tommy Flowers](kloom:e/tommy-flowers)** was head of the switching group at the **[Post Office
+Research Station](kloom:e/post-office-research-station)** at Dollis Hill. From 1934 he had been putting valves
 into telephone exchanges, and by 1939 equipment of his using three to four
 thousand of them was in limited service. Most engineers of the day thought
 a valve too fragile to trust in thousands: the most complicated electronic
@@ -18,7 +18,7 @@ failed mostly from the heat stress of being switched on and off; left
 running, with their heaters brought up slowly and the valves soldered in
 rather than plugged, they almost never did.
 
-That knowledge was what **Max Newman**'s section at Bletchley needed in 1943. Its counting machine compared two loops of paper tape and could not
+That knowledge was what **[Max Newman](kloom:e/max-newman)**'s section at Bletchley needed in 1943. Its counting machine compared two loops of paper tape and could not
 keep them in step; Flowers proposed to generate one of them electronically,
 which meant a thousand or two valves working together, and he built it at
 Dollis Hill against the codebreakers' doubts, with a team of about fifty
@@ -28,8 +28,8 @@ The first Colossus ran at Dollis Hill in late 1943, was taken apart,
 shipped to Bletchley and reassembled, and broke its first message on 5
 February 1944. The sources do not agree on its details: the
 Wikipedia article on Colossus says it had 1,600 valves and first ran on 8
-December, its article on Flowers says 1,500 valves and November, and **Tony
-Sale**, who led the rebuilding of the machine at Bletchley, also gave 1,500.
+December, its article on Flowers says 1,500 valves and November, and **[Tony
+Sale](kloom:e/tony-sale)**, who led the rebuilding of the machine at Bletchley, also gave 1,500.
 
 ![A wartime photograph of a Colossus: racks of valves and switches filling one wall, a woman at a sloping control panel, and to the right a tall open frame of pulleys carrying a loop of paper tape, tended by a second woman](colossus-wrens.jpg)
 
@@ -63,11 +63,11 @@ chose where the ring started.
 
 ## What it counted
 
-Colossus did not decipher anything. It counted. The cipher, called _Tunny_
+Colossus did not decipher anything. It counted. The cipher, called [_Tunny_](kloom:e/lorenz-cipher)
 at Bletchley, added a stream of key characters to the message bit by bit,
 and the codebreakers had found that the key's regularities showed through
 when each character was combined with the one after it (the _delta_, Δ).
-**Bill Tutte** turned that into a statistical test. For a
+**[Bill Tutte](kloom:e/w-t-tutte)** turned that into a statistical test. For a
 trial pair of start positions of the first two χ wheels, Colossus ran the
 whole tape past the rings and counted how often ΔZ₁ ⊕ ΔZ₂ ⊕ Δχ₁ ⊕ Δχ₂ came
 out as zero, where Z is the cipher text. A count well above chance, over a
@@ -91,4 +91,4 @@ Wrens and 27 men.
 
 How Tunny was broken without a captured machine, and what Colossus went on
 to do, is the trail that starts here: it begins with the machine
-Bletchley built against the other German cipher, Enigma.
+Bletchley built against the other German cipher, [Enigma](kloom:e/enigma-machine).

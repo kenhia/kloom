@@ -1,6 +1,6 @@
-Each of the shuttle's two **solid rocket boosters** was a steel tube twelve
-feet across, built by **Morton Thiokol** in Utah in four segments, shipped
-by rail and stacked at Kennedy. That made three **field joints** in each
+Each of the shuttle's two **[solid rocket boosters](kloom:e/space-shuttle-solid-rocket-booster)** was a steel tube twelve
+feet across, built by **[Morton Thiokol](kloom:e/thiokol)** in Utah in four segments, shipped
+by rail and stacked at [Kennedy](kloom:e/kennedy-space-center). That made three **field joints** in each
 booster, and every one of them had to hold in burning gas at around 900 pounds per
 square inch for two minutes. The commission's
 first finding was that one of them, the aft field joint of the right
@@ -12,7 +12,7 @@ The joint is a plug in a socket. The bottom of the upper segment ends in a
 _tang_, a lip that slides down into a U-shaped channel, the _clevis_, cut
 into the top of the segment below. Steel pins through the outer leg of the
 clevis and the tang hold the two together. The seal was two rubber
-**O-rings**, 0.280 inches thick, sitting in grooves in the clevis's inner
+**[O-rings](kloom:e/o-ring)**, 0.280 inches thick, sitting in grooves in the clevis's inner
 leg and pressed against the tang. Inboard of them, zinc chromate **putty**
 filled the gap in the rocket's insulation.
 
@@ -36,7 +36,7 @@ ignition. The
 plate draws it enlarged: the inner leg swung away, and the gap between.
 To seal, the rubber had to spring out and follow the moving metal faster
 than the gap opened. Thiokol's engineers thought that acceptable; engineers
-at NASA's **Marshall Space Flight Center**, which managed the boosters,
+at [NASA](kloom:e/nasa)'s **[Marshall Space Flight Center](kloom:e/marshall-space-flight-center)**, which managed the boosters,
 wrote memos from 1977 into 1979 calling the design unacceptable.
 
 It flew. In November 1980 NASA listed the joint as _Criticality 1R_,
@@ -66,7 +66,7 @@ and heat damage on a secondary, the first time a second ring had been
 touched. In April, on flight 51-B, a primary ring in a nozzle joint never
 sealed at all, and the secondary behind it eroded. Marshall declared a
 _launch constraint_ on the problem and then waived it for every flight
-that followed. That July, Thiokol's **Roger Boisjoly** warned his vice
+that followed. That July, Thiokol's **[Roger Boisjoly](kloom:e/roger-boisjoly)** warned his vice
 president of engineering that if a field joint failed the result would be
 "a catastrophe of the highest order".
 

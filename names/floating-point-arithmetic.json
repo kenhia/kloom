@@ -1,0 +1,8 @@
+{
+	"id": "floating-point-arithmetic",
+	"wikidata": "Q117879",
+	"name": "Floating-point arithmetic",
+	"aliases": ["floating point"],
+	"kind": "idea",
+	"description": "Representing numbers as a significand and an exponent, so a computer can handle very large and very small values."
+}

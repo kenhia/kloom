@@ -1,6 +1,6 @@
-In the 1830s a London mathematician who had failed to finish one
+In the 1830s a [London](kloom:e/london) mathematician who had failed to finish one
 calculating machine designed a second, far more ambitious one: a machine that
-could be told, on punched cards, what to calculate. It was never built. But a
+could be told, on [punched cards](kloom:e/punched-card), what to calculate. It was never built. But a
 translation of a lecture about it, published in 1843 with long notes by a
 twenty-seven-year-old countess, holds the first published program for a
 computer, and the first argument about whether such a machine could ever
@@ -8,18 +8,18 @@ think for itself.
 
 ## A loom for numbers
 
-**Charles Babbage**'s first machine, the _Difference Engine_, was built to
+**[Charles Babbage](kloom:e/charles-babbage)**'s first machine, the [_Difference Engine_](kloom:e/difference-engine), was built to
 tabulate functions by the method of finite differences. It was never
 completed: Babbage quarrelled with his chief engineer, Joseph Clement, and the
 British government withdrew its funding. While working on it, around 1833, he
 saw that a much more general machine was possible, and he first described
-the **Analytical Engine** in 1837.
+the **[Analytical Engine](kloom:e/analytical-engine)** in 1837.
 
 Its design has the shape of a modern computer. A _store_ was to hold 1,000
 numbers of 40 decimal digits each. A _mill_ would perform the four
 arithmetic operations, and comparisons, on numbers brought from the store.
 The instructions and the data came in on **punched cards**, an idea
-borrowed openly from the silk industry. In 1804 **Joseph Marie Jacquard** had
+borrowed openly from the silk industry. In 1804 **[Joseph Marie Jacquard](kloom:e/joseph-marie-jacquard)** had
 patented a loom attachment driven by a chain of punched cards laced
 together, one card for each row of the pattern; change the cards and the
 same loom wove a different design. Babbage's engine had separate cards for
@@ -32,16 +32,16 @@ and 1840.
 
 Only fragments were made. The trial model above, a portion of the mill with
 its printing mechanism, was still under construction when Babbage died in
-1871; it is now in the Science Museum in London. In 1878 a committee of the
+1871; it is now in the [Science Museum](kloom:e/science-museum-london) in London. In 1878 a committee of the
 British Association called the engine "a marvel of mechanical ingenuity",
 and recommended that it not be built.
 
 ## Lovelace's notes
 
 In 1840 Babbage explained the engine in a seminar at Turin, the only public
-account he ever gave of it. A young engineer, **Luigi Menabrea**, wrote it up
-in French, and **Charles Wheatstone** asked **Ada Lovelace** (Augusta Ada
-King, Countess of Lovelace, the daughter of Lord Byron) to translate it.
+account he ever gave of it. A young engineer, **[Luigi Menabrea](kloom:e/luigi-federico-menabrea)**, wrote it up
+in French, and **[Charles Wheatstone](kloom:e/charles-wheatstone)** asked **[Ada Lovelace](kloom:e/ada-lovelace)** (Augusta Ada
+King, Countess of Lovelace, the daughter of [Lord Byron](kloom:e/lord-byron)) to translate it.
 She added seven notes, lettered A to G, about three times as long as the
 article itself. They appeared in 1843 in Taylor's _Scientific Memoirs_,
 signed only "A.A.L."
@@ -58,7 +58,7 @@ engine's power to repeat a set of cards (a loop) would save most of them.
 
 ![Watercolour portrait of Ada Lovelace by Alfred Edward Chalon, about 1840: a young woman in a lilac dress and a black lace shawl, holding a closed fan](lovelace-chalon.jpg)
 
-Note G works one problem in full: computing the **Bernoulli numbers**, a
+Note G works one problem in full: computing the **[Bernoulli numbers](kloom:e/bernoulli-number)**, a
 sequence used in analysis, each from the ones before it. She set it out as a
 table of operations, each naming the variable columns (_V_) it reads and
 writes. Twenty-five operation cards, she showed, would compute every number
@@ -92,7 +92,7 @@ Note G opens with a warning against expecting too much:
 > analysis; but it has no power of anticipating any analytical relations or
 > truths.
 
-A century later Alan Turing called this "Lady Lovelace's Objection" and made
+A century later [Alan Turing](kloom:e/alan-turing) called this "Lady Lovelace's Objection" and made
 it one of the questions any thinking machine would have to answer. The
 engine could follow analysis. To follow _reasoning_, a machine would first
 need reasoning written as algebra, and a self-taught schoolmaster from

@@ -1,23 +1,23 @@
 Routers need numbers; people remember names. Something has to turn one
 into the other, billions of times a day, for names that change by the
-minute and are owned by millions of different people. For the ARPANET's
+minute and are owned by millions of different people. For the [ARPANET](kloom:e/arpanet)'s
 first dozen years that something was one text file, kept by hand. Its
-replacement, the Domain Name System, is a distributed database with no
-single copy of the whole, and it still runs every lookup on the Internet.
+replacement, the [Domain Name System](kloom:e/domain-name-system), is a distributed database with no
+single copy of the whole, and it still runs every lookup on the [Internet](kloom:e/internet).
 This frame gives its root servers as they stood at the end of September 2026.
 
 ## One file for the whole network
 
 In 1971 **Peggy Karp** of MITRE proposed a standard list of short names for
 the network's hosts, RFC 226, and the list grew into a file, `HOSTS.TXT`,
-kept at the Network Information Center at the Stanford Research Institute.
-The NIC was directed by **Elizabeth "Jake" Feinler**, whose team ran the
+kept at the Network Information Center at the [Stanford Research Institute](kloom:e/sri-international).
+The NIC was directed by **[Elizabeth "Jake" Feinler](kloom:e/elizabeth-j-feinler)**, whose team ran the
 host registry from 1972 to 1989. A new host was registered by telephone,
 during business hours, and every site fetched the file and copied it into
 its own tables. Names were flat:
 `USC-ISIF` was one host, and its address was 10.2.0.52.
 
-By 1983 this was failing. **Paul Mockapetris**'s first specification, RFC
+By 1983 this was failing. **[Paul Mockapetris](kloom:e/paul-mockapetris)**'s first specification, RFC
 882, uses that very pair as its example and puts the problem in a sentence:
 "The size of this table, and especially the frequency of updates to the
 table are near the limit of manageability." Mail was worse, since a mail
@@ -26,7 +26,7 @@ everyone.
 
 ## A tree of zones
 
-Jon Postel had asked Mockapetris, at the Information Sciences Institute, to
+[Jon Postel](kloom:e/jon-postel) had asked Mockapetris, at the [Information Sciences Institute](kloom:e/usc-information-sciences-institute), to
 settle between five competing proposals. He designed a new one instead,
 published in November 1983 as RFCs 882 and 883 and revised in November
 1987 as RFCs 1034 and 1035, which still define it. Names became paths in a
@@ -63,7 +63,7 @@ limit of 512 bytes on a DNS reply carried in one UDP datagram, which the
 list of servers had to fit. They are run by twelve independent
 organisations: Verisign, which runs two, and Cogent; the University of
 Maryland and USC's Information Sciences Institute; NASA and two arms of the
-US military; the Internet Systems Consortium; ICANN; Europe's RIPE NCC and
+US military; the Internet Systems Consortium; [ICANN](kloom:e/icann); Europe's RIPE NCC and
 Sweden's Netnod; and Japan's WIDE Project.
 
 Behind each name, though, are many machines. With _anycast_, the same

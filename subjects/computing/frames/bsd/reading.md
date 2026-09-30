@@ -1,6 +1,6 @@
-Late in 1973 Ken Thompson and Dennis Ritchie gave the first talk on
-Unix, at a symposium at Purdue. **Bob Fabry**, a professor at the
-University of California, Berkeley, was in the audience and wanted a copy.
+Late in 1973 [Ken Thompson](kloom:e/ken-thompson) and [Dennis Ritchie](kloom:e/dennis-ritchie) gave the first talk on
+[Unix](kloom:e/unix), at a symposium at Purdue. **Bob Fabry**, a professor at the
+[University of California, Berkeley](kloom:e/university-of-california-berkeley), was in the audience and wanted a copy.
 In January 1974 a Fourth Edition tape arrived, and a graduate student put
 it on a PDP-11/45 that Computer Science shared with Mathematics and
 Statistics, who wanted DEC's own system; Unix got eight hours of every
@@ -11,10 +11,10 @@ years after, the university was Unix's second home.
 ## Joy's tapes
 
 Thompson spent a year at Berkeley from the autumn of 1975, and brought up
-the Sixth Edition there. Two new graduate students, **Bill Joy** and Chuck
+the Sixth Edition there. Two new graduate students, **[Bill Joy](kloom:e/bill-joy)** and Chuck
 Haley, improved the Pascal system he had started and wrote a line editor,
 `ex`. Other universities asked for the Pascal system, and Joy put together
-the first **Berkeley Software Distribution**, an add-on to Unix rather
+the first **[Berkeley Software Distribution](kloom:e/berkeley-software-distribution)**, an add-on to Unix rather
 than a system of its own. Marshall Kirk McKusick, who later ran the
 project, dates it to early 1977; Wikipedia gives its release as 9 March 1978. Joy sent out about thirty free copies. With screen terminals arriving,
 he wrote `vi`, and to drive the many kinds of terminal, a description file,
@@ -37,20 +37,20 @@ in December Joy shipped 3BSD, a whole system, to nearly a hundred sites.
 
 ## DARPA's network
 
-DARPA wanted the research sites it funded to share one operating system
+[DARPA](kloom:e/darpa) wanted the research sites it funded to share one operating system
 across their many kinds of computer, and chose Unix for its portability.
 In April 1980 Fabry won an eighteen-month contract, founded the **Computer
 Systems Research Group**, and Joy asked to run the software. Its first
 release, 4BSD in October 1980, came with the Franz Lisp system. A second
 contract, almost five times the first, called for a faster file system and
 for networking that would let every machine join the ARPANET. Joy took an
-early version of the TCP/IP protocols from Rob Gurwitz of Bolt, Beranek
+early version of the [TCP/IP](kloom:e/internet-protocol-suite) protocols from Rob Gurwitz of Bolt, Beranek
 and Newman, tuned it, and restructured the kernel so that several network
-protocols could run at once. Joy left for Sun Microsystems in 1982, Sam
+protocols could run at once. Joy left for [Sun Microsystems](kloom:e/sun-microsystems) in 1982, Sam
 Leffler finished the work, and **4.2BSD** shipped in August 1983.
 
 Its lasting part was the interface a program uses to talk over a network,
-the _socket_. The plate draws the calls: a server makes a socket, binds it
+the [_socket_](kloom:e/berkeley-sockets). The plate draws the calls: a server makes a socket, binds it
 to an address, listens and accepts; a client makes one and connects. What
 each then holds is an ordinary file descriptor, so reading from the network
 is like reading a file. The protocol under it, TCP, has its own story.
@@ -97,6 +97,6 @@ Its descendants are alive. As of 28 September 2026:
 | Darwin  | 2000, Apple            | 27.0.0, 14 September 2026 |
 
 Darwin is the core of macOS and iOS, and its kernel takes its process
-model, network stack and file-system layer from FreeBSD. And every modern
+model, network stack and file-system layer from [FreeBSD](kloom:e/freebsd). And every modern
 operating system, in Wikipedia's account, offers some version of
 Berkeley's socket interface.

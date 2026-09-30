@@ -1,13 +1,13 @@
 In the 2000s most artificial intelligence research was about models and
-algorithms. An assistant professor at Princeton bet on something else: that
+algorithms. An assistant professor at [Princeton](kloom:e/princeton-university) bet on something else: that
 machines learning to see needed, above all, far more to look at.
 
 ## A picture for every noun
 
-**Fei-Fei Li** began working on the idea in 2006. In 2007 she met **Christiane
-Fellbaum**, one of the creators of _WordNet_, a database that sorts English
+**[Fei-Fei Li](kloom:e/fei-fei-li)** began working on the idea in 2006. In 2007 she met **Christiane
+Fellbaum**, one of the creators of [_WordNet_](kloom:e/wordnet), a database that sorts English
 words into sets of synonyms, _synsets_, arranged in a hierarchy from general
-to particular (in ImageNet it runs nine levels deep, from _mammal_ down to
+to particular (in [ImageNet](kloom:e/imagenet) it runs nine levels deep, from _mammal_ down to
 _German shepherd_). Li decided to build an image database on that skeleton, starting from WordNet's
 roughly 22,000 nouns, and to fill each synset with hundreds of photographs.
 The plate on the left is that design: a tree of concepts, and a stack of
@@ -28,7 +28,7 @@ The candidates came from image search engines, queried with each synset's
 synonyms and their translations into Chinese, Spanish, Dutch and Italian.
 Deciding which of them really showed the thing named was the expensive part,
 far beyond what a small group of annotators could do. The team turned to
-**Amazon Mechanical Turk**, an online marketplace for small paid tasks.
+**[Amazon Mechanical Turk](kloom:e/amazon-mechanical-turk)**, an online marketplace for small paid tasks.
 Several workers judged each image independently, and it was kept only with a
 convincing majority. The majority needed depended on the synset: a few votes
 settle "cat", but the paper found that "Burmese cat" could take five. The
@@ -63,7 +63,7 @@ error_: how often the right answer was not among them.
 Eleven teams entered the first year. The winner, a team from NEC Labs
 America, the University of Illinois and Rutgers, combined hand-designed image
 features (SIFT and LBP) with a
-support vector machine, and it missed on 28.2 per cent of the test images.
+[support vector machine](kloom:e/support-vector-machine), and it missed on 28.2 per cent of the test images.
 In 2011 the best entry, from Xerox Research Centre Europe, got that down to
 25.8 per cent.
 
@@ -78,5 +78,5 @@ faces in the challenge images were blurred. Studies have also estimated that mor
 the labels in the challenge's validation set are wrong.
 
 None of this was visible yet in 2011. What was visible was a leaderboard,
-improving by a few points a year. In 2012 a team from Toronto entered a
+improving by a few points a year. In 2012 a team from [Toronto](kloom:e/university-of-toronto) entered a
 neural network, and cut the winning error by nearly ten points at once.

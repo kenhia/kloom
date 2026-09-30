@@ -1,0 +1,8 @@
+{
+	"id": "alphazero",
+	"wikidata": "Q44860007",
+	"name": "AlphaZero",
+	"kind": "artifact",
+	"description": "DeepMind's 2017 program that taught itself chess, shogi and Go from the rules alone and beat the strongest programs at each.",
+	"home": "ai/alphazero"
+}

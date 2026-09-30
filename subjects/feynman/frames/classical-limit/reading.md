@@ -1,14 +1,14 @@
 If a thrown ball takes every path at once, why do we only ever see it on
-one? The sum over histories answers the question that the principle of
-least action had left open since Fermat: not why nature should be thrifty,
+one? The [sum over histories](kloom:e/path-integral-formulation) answers the question that the [principle of
+least action](kloom:e/action-principles) had left open since [Fermat](kloom:e/pierre-de-fermat): not why nature should be thrifty,
 but why it looks as if it were. The answer is a piece of nineteenth-century
-mathematics called **stationary phase**, and Dirac had already sketched it
+mathematics called **[stationary phase](kloom:e/stationary-phase-approximation)**, and Dirac had already sketched it
 in 1933.
 
 ## Arrows that agree
 
 Each path contributes an arrow turned by its action divided by _ħ_, the
-reduced Planck constant, about 1.05 × 10⁻³⁴ joule-seconds. Take a family of
+reduced [Planck constant](kloom:e/planck-constant), about 1.05 × 10⁻³⁴ joule-seconds. Take a family of
 paths, each bent a little more than the last. Near the classical path the
 action is stationary: bending the path changes the action only to second
 order, so the arrows of all the nearby paths point almost the same way and
@@ -41,8 +41,8 @@ each band two units of _u_ wide. The units are the drawing's own.
 The band around the true path gives more than the whole sum; everything
 else only winds it back a little. That is why the true path appears to be
 the one taken, and why it is the path of stationary action: stationary is
-exactly the condition for the neighbours to agree. Feynman made this
-argument in the _Lectures on Physics_, in the chapter that begins with
+exactly the condition for the neighbours to agree. [Feynman](kloom:e/richard-feynman) made this
+argument in the [_Lectures on Physics_](kloom:e/the-feynman-lectures-on-physics), in the chapter that begins with
 Mr. Bader.
 
 ![Alfred Cornu, photographed in the late nineteenth century: a man with receding hair, a moustache and a pointed beard, in a dark suit with a watch chain](cornu.jpg)
@@ -76,8 +76,8 @@ Feynman told the same story for light in _QED_ (1985). Every piece of a
 flat mirror reflects, but the arrows from the ends of the mirror curl and
 cancel, and only the part near where the angles are equal, the path of least
 time, gives the light we see. Scrape away the strips whose arrows point the
-wrong way and the ends reflect after all: a diffraction grating. Fermat's
-principle and Hamilton's are both what is left of the sum over histories
+wrong way and the ends reflect after all: a diffraction grating. [Fermat's
+principle](kloom:e/fermats-principle) and Hamilton's are both what is left of the sum over histories
 when the arrows turn fast.
 
 Where the method went after 1948, into statistics, fields and

@@ -248,6 +248,14 @@
 		{
 			"to": "feynman/punched-cards",
 			"why": "The implosion problems Los Alamos ran on punched-card machines went on to ENIAC, one of its first large calculations."
+		},
+		{
+			"to": "computing/differential-analyzer",
+			"why": "ENIAC was built for the firing tables the Moore School's differential analyzer could not keep up with: a trajectory in 30 seconds against the analyzer's 15 minutes."
+		},
+		{
+			"to": "computing/colossus",
+			"why": "Valves failed mostly as they were switched on and off: Flowers built Colossus on that knowledge, and ENIAC's engineers learned it too and kept the machine running."
 		}
 	]
 }

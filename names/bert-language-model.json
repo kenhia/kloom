@@ -1,0 +1,7 @@
+{
+	"id": "bert-language-model",
+	"wikidata": "Q61726893",
+	"name": "BERT",
+	"kind": "artifact",
+	"description": "Google's 2018 transformer language model, trained to fill in hidden words, which set records on many language tasks and was used in search."
+}

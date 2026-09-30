@@ -1,0 +1,9 @@
+{
+	"id": "attention-machine-learning",
+	"wikidata": "Q103701642",
+	"name": "Attention",
+	"aliases": ["self-attention"],
+	"kind": "idea",
+	"description": "A neural-network mechanism that lets each position weigh and blend information from all the others; the core of the transformer.",
+	"home": "ai/self-attention"
+}

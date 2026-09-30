@@ -46,5 +46,11 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-05-05"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/voyages",
+			"why": "Magellan's survivors lost a day by sailing west with the Sun all the way round: the tie between time and longitude that let Harrison's watch find a ship's position."
+		}
 	]
 }

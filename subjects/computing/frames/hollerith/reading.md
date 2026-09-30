@@ -8,13 +8,13 @@ census three years away.
 
 ## A record a machine could read
 
-**Herman Hollerith**, a Columbia mining engineer born in Buffalo in 1860,
+**[Herman Hollerith](kloom:e/herman-hollerith)**, a [Columbia](kloom:e/columbia-university) mining engineer born in Buffalo in 1860,
 worked on the 1880 census as a young statistician under his professor, and
 decided the job needed a machine. Where the idea came from is told two ways.
 In one telling he took it from railway conductors, who punched a rough
-description of each passenger into a ticket; the Census Bureau's own
-history says his mentor **John Shaw Billings** suggested something like the
-Jacquard loom's punched cards.
+description of each passenger into a ticket; the [Census Bureau](kloom:e/united-states-census-bureau)'s own
+history says his mentor **[John Shaw Billings](kloom:e/john-shaw-billings)** suggested something like the
+[Jacquard loom](kloom:e/jacquard-machine)'s punched cards.
 
 Hollerith described his system in 1889 in _An Electric Tabulating System_,
 the paper that became his Columbia doctorate. Written records would not do,
@@ -85,15 +85,15 @@ Hollerith's machines went to the censuses of Canada, Norway and Austria in
 1910; its engineer James Powers patented them and left in 1911 to found a
 rival company. That year the financier **Charles Flint** merged Hollerith's
 firm with makers of time clocks, scales and meat slicers into the
-**Computing-Tabulating-Recording Company**. Thomas J. Watson became its
+**[Computing-Tabulating-Recording Company](kloom:e/computing-tabulating-recording-company)**. [Thomas J. Watson](kloom:e/thomas-j-watson) became its
 president (in 1914, the Census Bureau says; 1915, in other accounts), and in
-1924 renamed it International Business Machines.
+1924 renamed it [International Business Machines](kloom:e/ibm).
 
 In 1928 IBM gave the card the form it kept: rectangular holes in 80 columns,
 on a card 7⅜ by 3¼ inches, with two more rows added in 1930 that later
 carried letters. The IBM card held payrolls, bills and inventories for half
 a century, and its eighty columns became the width of a line on many
-terminals. At Los Alamos in 1944 the same kind of machines, multipliers and
+terminals. At [Los Alamos](kloom:e/los-alamos-national-laboratory) in 1944 the same kind of machines, multipliers and
 tabulators, were set to simulating the implosion bomb. A card could count,
 sort and add; it could not solve an equation. For that, in 1931, an
 engineer at MIT built a machine of shafts and discs.

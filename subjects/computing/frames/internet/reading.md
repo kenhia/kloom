@@ -1,15 +1,15 @@
-By the mid-1970s ARPA was paying for three kinds of packet network. The
-ARPANET ran over leased telephone lines; a packet radio network sent its
+By the mid-1970s [ARPA](kloom:e/darpa) was paying for three kinds of packet network. The
+[ARPANET](kloom:e/arpanet) ran over leased telephone lines; a packet radio network sent its
 packets through the air; a satellite network reached across the Atlantic
 to Norway and London. Each worked, and none
 could speak to another: they differed in how they addressed a machine, how
 big a packet they carried, how fast they were and how they failed. Making
 them one network was called _internetworking_, and the answer is the
-_internet_.
+[_internet_](kloom:e/internet).
 
 ## Gateways
 
-**Bob Kahn**, who had moved from BBN to ARPA, and **Vint Cerf**, then on the faculty at Stanford and chair of an
+**[Bob Kahn](kloom:e/robert-kahn-computer-scientist)**, who had moved from BBN to ARPA, and **[Vint Cerf](kloom:e/vint-cerf)**, then on the faculty at Stanford and chair of an
 international working group on the problem, published their design in May 1974 as "A Protocol
 for Packet Network Intercommunication". Its central device is a _gateway_,
 a computer with a foot in two networks. A host wraps every piece of its
@@ -25,14 +25,14 @@ gateways, and one packet crossing them.
 
 Their address had 8 bits for the network and 16 for the host's TCP.
 Two hundred and fifty-six networks, they wrote, "seems sufficient for the
-foreseeable future." The paper thanked, among others, **Donald Davies**
-and **Louis Pouzin**, whose French network CYCLADES had already made its
+foreseeable future." The paper thanked, among others, **[Donald Davies](kloom:e/donald-davies)**
+and **[Louis Pouzin](kloom:e/louis-pouzin)**, whose French network CYCLADES had already made its
 hosts, not the network, responsible for delivering data reliably. Cerf,
 Yogen Dalal and Carl Sunshine wrote the first full specification of the
-_Transmission Control Program_ as RFC 675 in December 1974. Stanford, BBN
+[_Transmission Control Program_](kloom:e/transmission-control-protocol) as RFC 675 in December 1974. Stanford, BBN
 and University College London ran it against each other from 1975, and in
 1977 the radio, ARPANET and satellite networks were joined in one
-demonstration. In 1978 the single program was split in two layers: IP,
+demonstration. In 1978 the single program was split in two layers: [IP](kloom:e/internet-protocol),
 which carries packets between networks and promises nothing, and TCP,
 which runs on top in the hosts and makes a reliable stream of them.
 
@@ -41,8 +41,8 @@ which runs on top in the hosts and makes a reliable stream of them.
 ## End to end
 
 Where to put the work was the real decision. In 1981 **Jerome Saltzer**,
-**David Reed** and **David Clark** of MIT named it the _end-to-end
-argument_: a function such as reliable delivery "can completely and
+**David Reed** and **David Clark** of MIT named it the [_end-to-end
+argument_](kloom:e/end-to-end-principle): a function such as reliable delivery "can completely and
 correctly be implemented only with the knowledge and help of the
 application standing at the end points". A network that tries to do it
 too only duplicates the work, except as a help to performance. So the
@@ -52,14 +52,14 @@ built without changing the network at all.
 
 ## The switch-over
 
-In November 1981 **Jon Postel** published RFC 801, the _NCP/TCP Transition
+In November 1981 **[Jon Postel](kloom:e/jon-postel)** published RFC 801, the _NCP/TCP Transition
 Plan_: every ARPANET host was to implement IP and TCP, and the goal was "a complete switch over" from the old Network Control
 Program by 1 January 1983. It happened on the day. Every host had to
 convert at once or be left with makeshift relays: a _flag day_. In 1984 the military sites left for a network of their own, MILNET,
 taking 68 of the ARPANET's 113 nodes.
 
 The academic internet grew on the National Science Foundation's
-**NSFNET**. It began in 1986 as six sites joined at 56 kilobits a second,
+**[NSFNET](kloom:e/national-science-foundation-network)**. It began in 1986 as six sites joined at 56 kilobits a second,
 became thirteen nodes at 1.5 megabits by July 1988 and a 45-megabit
 backbone in 1991, while its traffic doubled about every seven months. Its
 rules allowed only research and education. The ARPANET was switched off in

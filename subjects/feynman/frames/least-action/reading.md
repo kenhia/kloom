@@ -1,9 +1,9 @@
-At **Far Rockaway High School** Feynman was bored in physics class, and his
+At **[Far Rockaway High School](kloom:e/far-rockaway-high-school)** [Feynman](kloom:e/richard-feynman) was bored in physics class, and his
 teacher noticed. One day after class, in the room where the laboratory was,
-**Abram Bader** told him about something he thought the boy would find
+**[Abram Bader](kloom:e/abram-bader)** told him about something he thought the boy would find
 interesting. Feynman remembered where the blackboard was and where each of
-them stood for the rest of his life. It was the **principle of least
-action**, and he counted it among the greatest things he ever learned.
+them stood for the rest of his life. It was the **[principle of least
+action](kloom:e/action-principles)**, and he counted it among the greatest things he ever learned.
 
 ## A law about the whole path
 
@@ -39,7 +39,7 @@ What caught Feynman was the change in point of view: instead of a
 differential equation, a property of the whole path. In 1966 he told an
 interviewer that he had played with the action, one way or another, in all
 his work ever since. He opened the
-chapter on it in _The Feynman Lectures on Physics_, thirty years later, with
+chapter on it in [_The Feynman Lectures on Physics_](kloom:e/the-feynman-lectures-on-physics), thirty years later, with
 Mr. Bader calling him down after class.
 
 ## Teaching himself
@@ -60,11 +60,11 @@ New York University mathematics championship in his last year.
 ![Far Rockaway High School from above in 2019: the pale-brick building of three and four storeys, finished in 1929, among houses and trees, with Jamaica Bay beyond](far-rockaway-high-school.jpg)
 
 The school, which opened in 1897 and closed in 2011, moved into the building
-Feynman knew in 1929. It taught three future Nobel laureates: Feynman, **Burton Richter** and **Baruch Blumberg**.
+Feynman knew in 1929. It taught three future Nobel laureates: Feynman, **[Burton Richter](kloom:e/burton-richter)** and **[Baruch Blumberg](kloom:e/baruch-samuel-blumberg)**.
 
 ## Columbia says no
 
-In 1935 he applied to Columbia and was turned down. The usual explanation is
+In 1935 he applied to [Columbia](kloom:e/columbia-university) and was turned down. The usual explanation is
 Columbia's quota on Jewish students, and Princeton's head of physics would
 ask the same question about him four years later. Feynman himself, in 1966,
 remembered only taking Columbia's entrance examination, losing the fifteen

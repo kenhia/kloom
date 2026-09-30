@@ -1,0 +1,9 @@
+{
+	"id": "connection-machine",
+	"wikidata": "Q1126252",
+	"name": "Connection Machine",
+	"aliases": ["CM-1"],
+	"kind": "artifact",
+	"description": "Thinking Machines' massively parallel supercomputer of the late 1980s, with up to 65,536 simple processors; Feynman worked on its router.",
+	"home": "feynman/connection-machine"
+}

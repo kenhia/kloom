@@ -1,6 +1,9 @@
 {
 	"id": "radio-boy",
-	"position": { "label": "c. 1930", "sort": 1930 },
+	"position": {
+		"label": "c. 1930",
+		"sort": 1930
+	},
 	"scene": {
 		"headline": "He fixed radios by",
 		"accent": "THINKING.",
@@ -10,7 +13,10 @@
 			"FAR ROCKAWAY · A LABORATORY IN A PACKING CASE",
 			"CRYSTAL SETS · TUBES · A BURGLAR ALARM"
 		],
-		"counter": { "value": "2π", "label": "the circle he went looking for in a radio formula" }
+		"counter": {
+			"value": "2π",
+			"label": "the circle he went looking for in a radio formula"
+		}
 	},
 	"citations": [
 		{
@@ -19,7 +25,12 @@
 			"title": "Interview of Richard Feynman by Charles Weiner, Session I",
 			"url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-1",
 			"accessed": "2026-09-28",
-			"authors": [{ "family": "Feynman", "given": "Richard" }],
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard"
+				}
+			],
 			"container": "Oral History Interviews, Niels Bohr Library & Archives",
 			"publisher": "American Institute of Physics",
 			"place": "College Park, MD",
@@ -33,8 +44,14 @@
 			"url": "https://openlibrary.org/works/OL514629W",
 			"accessed": "2026-09-28",
 			"authors": [
-				{ "family": "Feynman", "given": "Richard P." },
-				{ "family": "Leighton", "given": "Ralph" }
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Ralph"
+				}
 			],
 			"publisher": "W. W. Norton",
 			"place": "New York",
@@ -46,7 +63,11 @@
 			"title": "Richard Feynman",
 			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
 			"accessed": "2026-09-28",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-17"
@@ -56,7 +77,11 @@
 			"title": "Crystal radio",
 			"url": "https://en.wikipedia.org/w/index.php?title=Crystal_radio&oldid=1364759103",
 			"accessed": "2026-09-28",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-07-18"
@@ -66,11 +91,21 @@
 			"title": "Crystal radio with a Grewol detector and an ICA tuner",
 			"url": "https://commons.wikimedia.org/wiki/File:Vintage_1920s-Era_Crystal_Radio_With_Grewol_Detector_And_ICA_Radio_Tuner_(15401164517).jpg",
 			"accessed": "2026-09-28",
-			"authors": [{ "name": "Joe Haupt" }],
+			"authors": [
+				{
+					"name": "Joe Haupt"
+				}
+			],
 			"container": "Photograph, via Flickr and Wikimedia Commons",
 			"licence": "CC BY-SA 2.0",
 			"file": "crystal-radio.jpg",
 			"published": "2014-10-20"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/maxwell",
+			"why": "The crystal set the boy listened to all night picked radio waves out of the air: the waves Maxwell's equations predicted and Hertz first made."
 		}
 	]
 }

@@ -5,7 +5,7 @@ arguments altogether.
 
 ## Llull's Art
 
-**Ramon Llull** (c. 1232–1316), born in Palma de Mallorca, spent his life
+**[Ramon Llull](kloom:e/ramon-llull)** (c. 1232–1316), born in Palma de Mallorca, spent his life
 trying to convert Muslims and Jews by reason rather than force. His tool was
 what he called the _Art_: a set of basic principles, each given a letter,
 and diagrams that combined them. In its final form, the _Ars generalis
@@ -27,11 +27,11 @@ being copied, and from 1499 they were printed.
 
 ## "Let us calculate"
 
-At nineteen, in 1666, **Gottfried Wilhelm Leibniz** wrote _De Arte
+At nineteen, in 1666, **[Gottfried Wilhelm Leibniz](kloom:e/gottfried-wilhelm-leibniz)** wrote _De Arte
 Combinatoria_, inspired by Llull. He spent the rest of his life returning to
-two linked ideas: a _characteristica universalis_, an alphabet of human
-thought in which every basic concept had its own sign, and a _calculus
-ratiocinator_, a method of reckoning with those signs. If arguments could be
+two linked ideas: a [_characteristica universalis_](kloom:e/characteristica-universalis), an alphabet of human
+thought in which every basic concept had its own sign, and a [_calculus
+ratiocinator_](kloom:e/calculus-ratiocinator), a method of reckoning with those signs. If arguments could be
 written that way, he wrote, disputes would be settled like sums:
 
 > The only way to rectify our reasonings is to make them as tangible as those
@@ -39,10 +39,10 @@ written that way, he wrote, disputes would be settled like sums:
 > there are disputes among persons, we can simply say: Let us calculate,
 > without further ado, to see who is right.
 
-He was not alone. **Thomas Hobbes** had written in _Leviathan_ (1651) that
+He was not alone. **[Thomas Hobbes](kloom:e/thomas-hobbes)** had written in [_Leviathan_](kloom:e/leviathan-hobbes-book) (1651) that
 reason "is nothing but reckoning, that is adding and subtracting". What set
-Leibniz apart is that he also built machines. His **stepped reckoner**,
-shown to the Royal Society as a wooden model on 1 February 1673, was the
+Leibniz apart is that he also built machines. His **[stepped reckoner](kloom:e/stepped-reckoner)**,
+shown to the [Royal Society](kloom:e/royal-society) as a wooden model on 1 February 1673, was the
 first calculator designed for all four arithmetic operations. Its stepped
 drum, the _Staffelwalze_ (on the right of the drawing above), has nine teeth
 of increasing length, so turning it adds any digit from one to nine.
@@ -56,7 +56,7 @@ the metalwork of the time and its carry mechanism was flawed, though the
 stepped drum itself was used in calculators for two hundred years, into the
 1970s. The universal characteristic was never written. But the programme
 outlived both men: reasoning as symbol manipulation, and a machine to carry
-it out. The cybernetician **Norbert Wiener** later called the modern
+it out. The cybernetician **[Norbert Wiener](kloom:e/norbert-wiener)** later called the modern
 computer "nothing but a mechanization of Leibniz's calculus ratiocinator".
 The next step was a machine that could do more than arithmetic, and it was
-designed in London in the 1830s.
+designed in [London](kloom:e/london) in the 1830s.

@@ -1,12 +1,12 @@
 In May 1981 about fifty physicists and computer scientists spent three
-days at **Endicott House**, MIT's conference centre in a mansion in
+days at **[Endicott House](kloom:e/endicott-house)**, MIT's conference centre in a mansion in
 Dedham, Massachusetts, at a meeting called the **Physics of
-Computation**. It was organised by **Ed Fredkin** of MIT, **Rolf
-Landauer** of IBM and **Tommaso Toffoli**, and its question was what the
-laws of physics allow a computer to do. Feynman gave the keynote. His
+Computation**. It was organised by **[Ed Fredkin](kloom:e/edward-fredkin)** of MIT, **[Rolf
+Landauer](kloom:e/rolf-landauer)** of IBM and **[Tommaso Toffoli](kloom:e/tommaso-toffoli)**, and its question was what the
+laws of physics allow a computer to do. [Feynman](kloom:e/richard-feynman) gave the keynote. His
 talk, printed the next year as **"Simulating Physics with Computers"** in
 the _International Journal of Theoretical Physics_, is now read as the
-founding statement of quantum simulation.
+founding statement of [quantum simulation](kloom:e/quantum-simulator).
 
 ![Endicott House in Dedham in 2010: a three-storey brick mansion with a steep slate roof, dormer windows and tall chimneys, a flag by the entrance and a lawn in front](endicott-house.jpg)
 
@@ -58,7 +58,7 @@ chance that neighbouring angles agree can never exceed two thirds. Three
 quarters is more than two thirds, and no local classical machine can make
 up the difference. He had squeezed the strangeness of quantum mechanics,
 he said, into one number being bigger than another. It is, in effect,
-John Bell's theorem of 1964, which the talk does not name.
+John [Bell's theorem](kloom:e/bells-theorem) of 1964, which the talk does not name.
 
 ## Let the computer be quantum
 
@@ -69,8 +69,8 @@ asked what a _universal quantum simulator_ would be, and ended with the
 line people still quote: nature isn't classical, and a simulation of it
 had better be quantum mechanical.
 
-He was not the first to think of quantum computing. **Paul Benioff** had
-described a quantum-mechanical Turing machine in 1980, and spoke at the
+He was not the first to think of quantum computing. **[Paul Benioff](kloom:e/paul-benioff)** had
+described a quantum-mechanical [Turing machine](kloom:e/turing-machine) in 1980, and spoke at the
 same meeting, and **Yuri Manin** had suggested the idea in Russian the
 same year. What Feynman added was the reason to want one: a job
 classical machines cannot do without an exponential cost.

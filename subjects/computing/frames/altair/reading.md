@@ -8,14 +8,14 @@ programming language had started a software company.
 
 ## A kit from Albuquerque
 
-**Micro Instrumentation and Telemetry Systems** (MITS) was a small firm in
-Albuquerque, New Mexico, founded in 1969 in **Ed Roberts**'s garage by Roberts, Forrest Mims and
+**[Micro Instrumentation and Telemetry Systems](kloom:e/micro-instrumentation-and-telemetry-systems)** (MITS) was a small firm in
+Albuquerque, New Mexico, founded in 1969 in **[Ed Roberts](kloom:e/ed-roberts-computer-engineer)**'s garage by Roberts, Forrest Mims and
 two others, to sell kits for model rockets. It
 moved on to calculator kits, until Texas Instruments began selling finished
 calculators at less than half the price, and by 1974 Roberts owed about a
 quarter of a million dollars. The magazine's editors wanted a computer
 project for January, a complete kit in a proper case, and **Les Solomon**
-knew Roberts was building one around Intel's new 8080. Intel sold that chip
+knew Roberts was building one around [Intel](kloom:e/intel)'s new [8080](kloom:e/intel-8080). Intel sold that chip
 for $360; Roberts, used to buying calculator chips in bulk, got it for $75.
 
 He and **Bill Yates** finished the prototype in October 1974 and sent it
@@ -43,7 +43,7 @@ delivered by the end of May and more than 5,000 by August.
 
 ## Switches and lamps
 
-The basic Altair had 256 bytes of memory and no keyboard or screen. Its
+The basic [Altair](kloom:e/altair-8800) had 256 bytes of memory and no keyboard or screen. Its
 front panel, modelled on Data General's Nova minicomputer, carried 36
 lamps, sixteen for the address, eight for data and twelve for the
 processor's status, and sixteen address switches, the low eight of which
@@ -60,8 +60,8 @@ threes because programmers read and wrote them in octal.
 
 ## BASIC, and a club
 
-In Cambridge, Massachusetts, **Paul Allen** saw the magazine and took it to
-**Bill Gates**, then a Harvard student. They told Roberts they had a BASIC
+In Cambridge, Massachusetts, **[Paul Allen](kloom:e/paul-allen)** saw the magazine and took it to
+**[Bill Gates](kloom:e/bill-gates)**, then a Harvard student. They told Roberts they had a BASIC
 for his machine; they had not, and no Altair either. Allen adapted a
 simulator of Intel's 8008 that he had written for their earlier venture,
 Traf-O-Data, to imitate the 8080 on Harvard's PDP-10, and a third student,
@@ -69,11 +69,11 @@ Traf-O-Data, to imitate the 8080 on Harvard's PDP-10, and a third student,
 with its own line editor, fitted in four kilobytes. In March 1975 Allen flew
 to Albuquerque with it on paper tape, writing the loader that would read
 the tape into memory on the plane. It worked first time. Gates and Allen
-founded **Micro-Soft**, later Microsoft, in Albuquerque; its founding is
+founded **[Micro-Soft](kloom:e/microsoft)**, later Microsoft, in Albuquerque; its founding is
 dated 4 April 1975. MITS signed their contract on 22 July: $3,000 at
 signing and a royalty on each copy, capped at $180,000.
 
-Hobbyists copied it. The **Homebrew Computer Club** first met on 5 March
+Hobbyists copied it. The **[Homebrew Computer Club](kloom:e/homebrew-computer-club)** first met on 5 March
 1975 in **Gordon French**'s garage in Menlo Park, California, on the arrival
 of an Altair sent there for review. In June a pre-release tape of BASIC went
 missing at a MITS seminar and reappeared at the club as a box of paper-tape

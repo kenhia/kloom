@@ -7,6 +7,7 @@ import { isDeepStrictEqual, promisify } from 'node:util';
 import {
 	growPrompt,
 	growthProblems,
+	linkGrowthProblems,
 	repairPrompt,
 	type GrowAnchor,
 	type GrownFiles,
@@ -17,6 +18,7 @@ import { answerId } from '$engine/ai/kept';
 import type { Provider, ProviderStatus } from '$engine/ai/provider';
 import { readSubject } from '$engine/load';
 import type { Spine, Trail } from '$engine/model';
+import { buildNames } from '$engine/names';
 import { validate, type RawSubject } from '$engine/validate';
 
 /**
@@ -62,8 +64,18 @@ export interface GrowHost {
 	timeoutMs: number;
 	/** Where job directories go; must not be under the home directory. */
 	workRoot?: string;
-	/** The name registry's ids: a grown reading may mark only these (§Connections). */
-	names?: ReadonlySet<string>;
+	/**
+	 * The name registry's directory (§Connections). The job gets a copy as
+	 * `names/`: its readings may mark only names there, and it may add names
+	 * but change none. What it adds is committed with its frames. Absent,
+	 * marks are checked for their form only.
+	 */
+	namesDir?: string;
+	/**
+	 * Every frame a connection may name, `<subject>/<frame>`, with how to list
+	 * it (its title and position). The job reads them in `reference/frames.md`.
+	 */
+	frames?: Record<string, string>;
 	/** Runs while the subject's files are rewritten, so no reader sees them half-written. */
 	exclusive?: <T>(fn: () => Promise<T>) => Promise<T>;
 	now?: () => Date;
@@ -79,6 +91,37 @@ export const stripFrontmatter = (md: string) => md.replace(/^---\n[\s\S]*?\n---\
 
 const git = async (cwd: string, args: string[]) =>
 	(await run('git', args, { cwd, maxBuffer: 1 << 20 })).stdout.trim();
+
+/** A registry directory's name files, parsed, by stem; a file that is not JSON is a problem. */
+async function readNameFiles(
+	dir: string
+): Promise<{ files: Record<string, unknown>; problems: string[] }> {
+	const files: Record<string, unknown> = {};
+	const problems: string[] = [];
+	const found = await readdir(dir, { withFileTypes: true }).catch(() => []);
+	for (const e of found.sort((a, b) => a.name.localeCompare(b.name))) {
+		if (!e.isFile() || !e.name.endsWith('.json')) continue;
+		try {
+			files[e.name.slice(0, -'.json'.length)] = JSON.parse(
+				await readFile(join(dir, e.name), 'utf8')
+			);
+		} catch {
+			problems.push(`names/${e.name}: not valid JSON`);
+		}
+	}
+	return { files, problems };
+}
+
+/** The frames a connection may name, as the job reads them. */
+const framesReference = (frames: Record<string, string>) =>
+	[
+		'# Frames a connection may name',
+		'',
+		'Every frame kloom serves, as `<subject>/<frame>`: its title and position.',
+		"A connection's `to` must be one of these, or a frame you add.",
+		'',
+		...Object.entries(frames).map(([ref, title]) => `- \`${ref}\` ${title}`)
+	].join('\n') + '\n';
 
 /** Where the anchor sits: the main spine, or which trail. */
 function anchorOf(raw: RawSubject, id: string): GrowAnchor | null {
@@ -112,7 +155,8 @@ async function check(
 	work: string,
 	before: RawSubject,
 	job: GrowJob,
-	names?: ReadonlySet<string>
+	host: Pick<GrowHost, 'namesDir' | 'frames'>,
+	namesBefore: Record<string, unknown>
 ): Promise<{ problems: string[]; growth: Growth; after: RawSubject | null }> {
 	let after: RawSubject;
 	try {
@@ -129,10 +173,27 @@ async function check(
 		job.verb,
 		job.anchor
 	);
-	// A grown reading may mark only names the registry has (§Connections).
+	if (!host.namesDir) return { problems: [...problems, ...validate(after)], growth, after };
+	// A grown reading may mark only names the registry has, and it may add
+	// names and connections by §Connections' rules.
+	const namesAfter = await readNameFiles(join(work, 'names'));
+	const links = linkGrowthProblems(
+		job.subject,
+		namesBefore,
+		namesAfter.files,
+		after,
+		added,
+		new Set(Object.keys(host.frames ?? {}))
+	);
+	const names = new Set(Object.keys(buildNames(namesAfter.files).names));
 	return {
-		problems: [...problems, ...validate(after, { names })],
-		growth,
+		problems: [
+			...problems,
+			...namesAfter.problems,
+			...links.problems,
+			...validate(after, { names })
+		],
+		growth: { ...growth, names: links.names },
 		after
 	};
 }
@@ -156,6 +217,12 @@ export async function runGrowJob(
 			await cp(join(host.subjectDir, f), join(work, f), { recursive: true }).catch((e) => {
 				if (f !== 'trails' || e.code !== 'ENOENT') throw e;
 			});
+		if (host.namesDir) await cp(host.namesDir, join(work, 'names'), { recursive: true });
+		const namesBefore = host.namesDir ? (await readNameFiles(join(work, 'names'))).files : {};
+		if (host.frames) {
+			await mkdir(join(work, 'reference'), { recursive: true });
+			await writeFile(join(work, 'reference', 'frames.md'), framesReference(host.frames));
+		}
 		for (const [name, from] of Object.entries(host.reference)) {
 			await mkdir(dirname(join(work, 'reference', name)), { recursive: true });
 			await cp(from, join(work, 'reference', name));
@@ -197,7 +264,7 @@ export async function runGrowJob(
 				else summary += event.text;
 			}
 			if (host.signal?.aborted) return { ok: false, error: 'Stopped.' };
-			checked = await check(work, before, job, host.names);
+			checked = await check(work, before, job, host, namesBefore);
 			if (checked.problems.length === 0) break;
 			prompt = repairPrompt(checked.problems);
 		}
@@ -213,13 +280,14 @@ export async function runGrowJob(
 		await formatGrown(work, host.subjectDir, checked.growth);
 		progress('committing');
 		const apply = () =>
-			applyGrowth(job, host.subjectDir, work, before, checked!.after!, checked!.growth, summary);
+			applyGrowth(job, host, work, before, namesBefore, checked!.after!, checked!.growth, summary);
 		const commit = await (host.exclusive ? host.exclusive(apply) : apply());
 		return {
 			ok: true,
 			result: {
 				frames: [...checked.growth.frames, ...checked.growth.trailFrames],
 				trails: checked.growth.trails,
+				...(checked.growth.names?.length ? { names: checked.growth.names } : {}),
 				commit,
 				summary: summary.trim().slice(0, 1000)
 			}
@@ -255,7 +323,9 @@ export async function formatGrown(work: string, subjectDir: string, growth: Grow
 		...[...growth.frames, ...growth.trailFrames].flatMap((id) => [
 			join('frames', id, 'frame.json'),
 			join('frames', id, 'reading.md')
-		])
+		]),
+		// Resolved beside the subject too: the registry is in the same repository.
+		...(growth.names ?? []).map((id) => join('names', `${id}.json`))
 	];
 	for (const f of files) {
 		const path = join(work, f);
@@ -283,6 +353,7 @@ export function commitMessage(job: GrowJob, subject: string, growth: Growth, sum
 			? [`Request: ${job.request.trim().replace(/\s+/g, ' ').slice(0, 500)}`]
 			: []),
 		...(job.kept ? [`Kept answer: ${job.kept}`] : []),
+		...(growth.names?.length ? [`Names: ${growth.names.join(', ')}`] : []),
 		`Model: ${job.model} (${job.provider})`,
 		`Web: ${job.web ? 'yes' : 'no'}`,
 		...(job.by ? [`Requested-by: ${requester(job.by)} (${job.by.via})`] : [])
@@ -297,13 +368,15 @@ export function commitMessage(job: GrowJob, subject: string, growth: Growth, sum
  */
 async function applyGrowth(
 	job: GrowJob,
-	subjectDir: string,
+	host: Pick<GrowHost, 'subjectDir' | 'namesDir'>,
 	work: string,
 	before: RawSubject,
+	namesBefore: Record<string, unknown>,
 	after: RawSubject,
 	growth: Growth,
 	summary: string
 ): Promise<string> {
+	const { subjectDir, namesDir } = host;
 	let repo: string;
 	try {
 		repo = await git(subjectDir, ['rev-parse', '--show-toplevel']);
@@ -316,6 +389,9 @@ async function applyGrowth(
 		);
 	if (!isDeepStrictEqual(await readSubject(subjectDir), before))
 		throw new Error('The subject changed while this job ran; queue it again.');
+	const newNames = namesDir ? (growth.names ?? []) : [];
+	if (newNames.length && !isDeepStrictEqual((await readNameFiles(namesDir!)).files, namesBefore))
+		throw new Error('The name registry changed while this job ran; queue it again.');
 
 	const newFrames = [...growth.frames, ...growth.trailFrames];
 	const trailFiles = growth.trails.map((id) => join('trails', `${id}.json`));
@@ -324,9 +400,13 @@ async function applyGrowth(
 	const saved = new Map<string, string | null>();
 	for (const f of files)
 		saved.set(f, await readFile(join(subjectDir, f), 'utf8').catch(() => null));
+	const nameFiles = newNames.map((id) => join(namesDir!, `${id}.json`));
 
 	const paths = [...newFrames.map((id) => join('frames', id)), ...files];
-	const inRepo = paths.map((p) => relative(repo, join(subjectDir, p)));
+	const inRepo = [
+		...paths.map((p) => relative(repo, join(subjectDir, p))),
+		...nameFiles.map((p) => relative(repo, p))
+	];
 	try {
 		for (const id of newFrames) {
 			// Staged beside the subject, then renamed in: a frame appears whole.
@@ -339,6 +419,11 @@ async function applyGrowth(
 			const tmp = join(subjectDir, `${f}.grow-tmp`);
 			await cp(join(work, f), tmp);
 			await rename(tmp, join(subjectDir, f));
+		}
+		for (const [i, id] of newNames.entries()) {
+			const tmp = `${nameFiles[i]}.grow-tmp`;
+			await cp(join(work, 'names', `${id}.json`), tmp);
+			await rename(tmp, nameFiles[i]);
 		}
 		const who = ['-c', `user.name=${GROW_AUTHOR.name}`, '-c', `user.email=${GROW_AUTHOR.email}`];
 		await git(repo, ['add', '--', ...inRepo]);
@@ -359,6 +444,10 @@ async function applyGrowth(
 		for (const id of newFrames) {
 			await rm(join(subjectDir, 'frames', id), { recursive: true, force: true });
 			await rm(join(subjectDir, 'frames', `.grow-${id}`), { recursive: true, force: true });
+		}
+		for (const f of nameFiles) {
+			await rm(f, { force: true });
+			await rm(`${f}.grow-tmp`, { force: true });
 		}
 		for (const [f, text] of saved)
 			if (text === null) await rm(join(subjectDir, f), { force: true });

@@ -1,6 +1,6 @@
-For the two years Feynman spent at Los Alamos, **Arline Feynman** lay in a
-sanatorium in Albuquerque, about a hundred miles to the south by his
-reckoning. Oppenheimer had found her the bed, in the Presbyterian
+For the two years [Feynman](kloom:e/richard-feynman) spent at [Los Alamos](kloom:e/los-alamos-national-laboratory), **[Arline Feynman](kloom:e/arline-feynman)** lay in a
+sanatorium in [Albuquerque](kloom:e/albuquerque-new-mexico), about a hundred miles to the south by his
+reckoning. [Oppenheimer](kloom:e/j-robert-oppenheimer) had found her the bed, in the Presbyterian
 sanatorium; she was moved to another hospital once or twice. There was no
 cure for tuberculosis yet. He was twenty-four.
 
@@ -9,7 +9,7 @@ cure for tuberculosis yet. He was twenty-four.
 He went down every weekend. How he got there depends on who tells it. In
 his 1966 interview with Charles Weiner he said he hitchhiked and found
 whatever rides he could, and that he had arranged in advance with two
-friends who owned cars, **Klaus Fuchs** and **Paul Olum**, to borrow one
+friends who owned cars, **[Klaus Fuchs](kloom:e/klaus-fuchs)** and **Paul Olum**, to borrow one
 in an emergency. Later accounts, Wikipedia's among them, drawing on James
 Gleick's biography, have him borrowing Fuchs's Buick for the ordinary
 weekends as well. Money was tight: his salary, $380 a month, covered about
@@ -29,7 +29,7 @@ censor from the end of 1943, are the story of the trail frame
 
 ## 16 June 1945
 
-In June 1945 his IBM group was racing to finish a calculation for the test
+In June 1945 his [IBM](kloom:e/ibm) group was racing to finish a calculation for the test
 of the bomb when the hospital telephoned. He borrowed Fuchs's car and drove
 south with some soldiers he had picked up. The tyres gave out on the way:
 four flats in the 1966 telling, three in the 1975 one. The soldiers talked
@@ -53,8 +53,8 @@ clock worked; the plate draws numbers on turning drums.
 
 ## Keeping a straight face
 
-Back at Los Alamos he dreaded condolences. His friends **Nicholas
-Metropolis** and Julius Ashkin, he said, understood at once and simply
+Back at Los Alamos he dreaded condolences. His friends **[Nicholas
+Metropolis](kloom:e/nicholas-metropolis)** and Julius Ashkin, he said, understood at once and simply
 stayed near him, and hardly anyone put on a long face. Fuchs took him
 visiting, and he sat eating grapes in a psychologist's house, wondering
 whether anyone so observant could tell what he felt, if he chose not to
@@ -75,4 +75,4 @@ since he did not know her new address.
 
 Her death came a month before the test she had never been told about. He
 was on leave in New York when the telegram came calling him back for
-**Trinity**.
+**[Trinity](kloom:e/trinity-nuclear-test)**.

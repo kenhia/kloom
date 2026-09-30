@@ -1,16 +1,16 @@
 Much of physics and engineering is written in differential equations: how a
 shell falls through the air, how current surges down a power line, how a
 bridge sways. Most of them have no solution in a formula, and solving them
-step by step by hand took weeks. In 1931 **Vannevar Bush** described a
-machine at MIT that solved them by turning shafts, and called it the
-_differential analyzer_.
+step by step by hand took weeks. In 1931 **[Vannevar Bush](kloom:e/vannevar-bush)** described a
+machine at [MIT](kloom:e/massachusetts-institute-of-technology) that solved them by turning shafts, and called it the
+[_differential analyzer_](kloom:e/differential-analyser).
 
 ## Integration by wheel and disc
 
 The analyzer was built at MIT between 1928 and 1931 by **Harold Hazen** and
 Bush, with six integrators; from 1936 one of the research assistants who ran
-it was Claude Shannon. The integrator is an old idea: James Thomson
-described one in 1876, and his brother, Lord Kelvin, showed the same year
+it was [Claude Shannon](kloom:e/claude-shannon). The integrator is an old idea: James Thomson
+described one in 1876, and his brother, [Lord Kelvin](kloom:e/lord-kelvin), showed the same year
 that integrators coupled together could solve differential equations. Bush wrote in his
 autobiography that he did not know of Kelvin's work until the first analyzer
 was running.
@@ -54,7 +54,7 @@ wrote, how complicated a coefficient was, so long as it could be plotted.
 
 ## Meccano in Manchester
 
-The physicist **Douglas Hartree** visited Bush in 1933, and at Manchester
+The physicist **[Douglas Hartree](kloom:e/douglas-hartree)** visited Bush in 1933, and at Manchester
 built a model analyzer with his student **Arthur Porter** in 1934, largely of
 Meccano, the children's construction set. It proved accurate enough for real
 work, and in March 1935 the university acquired a full-size machine built by
@@ -82,8 +82,8 @@ trajectory to compute. The
 Army's ballisticians at Aberdeen, Maryland, looked at Bush's machine in
 1932 and had one built there in 1935, as a Depression relief project. In
 June 1942 the Army also took over the somewhat faster analyzer in the
-basement of the University of Pennsylvania's Moore School, with Lieutenant
-**Herman Goldstine** supervising its computing and training there.
+basement of the University of Pennsylvania's [Moore School](kloom:e/moore-school-of-electrical-engineering), with Lieutenant
+**[Herman Goldstine](kloom:e/herman-goldstine)** supervising its computing and training there.
 
 ![Kay McNulty, Alyse Snyder and Sis Stump at the differential analyzer in the Moore School's basement: one woman seated at an output table on the left, two standing at input tables on the right, among long rows of shafts](moore-da.jpg)
 
@@ -98,8 +98,8 @@ basement of the University of Pennsylvania's Moore School, with Lieutenant
 It was not enough. Even with both analyzers and nearly a hundred women
 graduates trained to compute by hand, the laboratory could not keep up with
 requests coming in at about six tables a day, by the Army historian's count.
-At the Moore School, in the autumn of 1942, John Mauchly wrote a memorandum,
-worked out with Presper Eckert, sketching an electronic machine that could
+At the Moore School, in the autumn of 1942, [John Mauchly](kloom:e/john-mauchly) wrote a memorandum,
+worked out with [Presper Eckert](kloom:e/j-presper-eckert), sketching an electronic machine that could
 do the same work far faster. Their machine would be named, like
 Bush's, for what it did: an _integrator_.
 

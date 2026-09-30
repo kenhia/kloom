@@ -6,8 +6,8 @@ wants what we meant, interpretability asks whether we could ever check.
 
 ## Features and circuits
 
-Much of the modern programme began with **Chris Olah**, who worked on it at
-Google Brain, then OpenAI, then Anthropic, which he co-founded, and who
+Much of the modern programme began with **[Chris Olah](kloom:e/chris-olah)**, who worked on it at
+[Google Brain](kloom:e/google-brain), then [OpenAI](kloom:e/openai), then [Anthropic](kloom:e/anthropic), which he co-founded, and who
 published with colleagues in the online journal _Distill_, which he had also
 co-founded. _Feature Visualization_ (2017) showed what parts of an image
 network "are looking for" by generating idealised examples that excite
@@ -50,12 +50,12 @@ Then the dictionaries grew.
 | Templeton et al., Anthropic, May 2024 | Claude 3 Sonnet       |                 33,554,432 |
 | Gao et al., OpenAI, Jun 2024          | GPT-4                 |           about 16 million |
 
-In May 2024 _Scaling Monosemanticity_ found features in Claude 3 Sonnet for
+In May 2024 _Scaling Monosemanticity_ found features in [Claude](kloom:e/claude-ai) 3 Sonnet for
 things as specific as the Golden Gate Bridge, and for safety-relevant ideas
 such as deception, sycophancy and bias. Features could be used to steer:
 clamped to ten times its maximum activation, the Golden Gate Bridge feature
 made the model start to identify as the bridge. OpenAI trained a 16-million
-latent autoencoder on GPT-4 in June, and in August **Google DeepMind**
+latent autoencoder on [GPT-4](kloom:e/gpt-4) in June, and in August **[Google DeepMind](kloom:e/google-deepmind)**
 released _Gemma Scope_, open autoencoders for every layer of its Gemma 2 2B
 and 9B models, so that researchers outside the labs could do the same work.
 
@@ -77,7 +77,7 @@ for detecting harmful intent, simple linear probes beat autoencoder
 features, and said the field was "somewhat over invested" in them. A review
 of open problems, written in January 2025 by 29 researchers from many
 groups, concluded that the methods still need conceptual and practical
-improvement, and that the field has yet to work out how best to use them. **Dan Hendrycks** and
+improvement, and that the field has yet to work out how best to use them. **[Dan Hendrycks](kloom:e/dan-hendrycks)** and
 Laura Hiscott argued in May 2025 that the bottom-up project is misguided,
 and that complex systems are better studied from the top down.
 

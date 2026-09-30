@@ -1,6 +1,6 @@
 In the early 1950s a computer was programmed in its own numbers: an
 operation code and an address for every step, loops and addresses worked
-out by hand. **John Backus** of IBM reckoned that by 1954 a computer
+out by hand. **[John Backus](kloom:e/john-backus)** of [IBM](kloom:e/ibm) reckoned that by 1954 a computer
 centre spent at least as much on its programmers as on its machine, and
 that a quarter to a half of the machine's time went on debugging, so that
 programming cost up to three-quarters of the bill. The machines were
@@ -8,7 +8,7 @@ getting cheaper; the programmers were not.
 
 ## Hopper's compilers
 
-At Remington Rand, which built the UNIVAC I, **Grace Hopper** attacked the
+At [Remington Rand](kloom:e/remington-rand), which built the [UNIVAC I](kloom:e/univac-i), **[Grace Hopper](kloom:e/grace-hopper)** attacked the
 problem first. Her **A-0** system, written in 1951 and 1952, took a program
 written as a list of numbered subroutines and their arguments and produced
 the machine code that joined them. Today it would be called a linker or a
@@ -22,9 +22,9 @@ were invited to send their improvements back.
 ![Grace Hopper in 1984, a commodore of the US Navy in dress blues and cap, arms folded, in front of an American flag](hopper.jpg)
 
 Who wrote the first compiler depends on what counts. Backus gave the title
-of the first working algebraic compiler to **J. Halcombe Laning** and
-Zierler's system for MIT's Whirlwind, which took equations as they were
-written; Donald Knuth and Luis Trabb Pardo gave it to Alick Glennie's
+of the first working algebraic compiler to **[J. Halcombe Laning](kloom:e/j-halcombe-laning)** and
+Zierler's system for MIT's [Whirlwind](kloom:e/whirlwind-i), which took equations as they were
+written; [Donald Knuth](kloom:e/donald-knuth) and Luis Trabb Pardo gave it to Alick Glennie's
 Autocode, and Backus could not see how
 Glennie's sample program was "algebraic" at all. What nobody had done was
 translate formulas into code as fast as a good programmer's.
@@ -63,7 +63,7 @@ A statement went on a card, one line to a card: columns 1 to 5 for its
 number, 6 to mark a continuation, 7 to 72 for the statement. Columns 73 to
 80 were ignored, because the 704's card reader read only 72 columns, into
 twenty-four 36-bit words. A survey in April 1958 found that over half of
-twenty-six 704 installations used FORTRAN for more than half of their
+twenty-six 704 installations used [FORTRAN](kloom:e/fortran) for more than half of their
 problems. By 1963 more than forty FORTRAN compilers existed, for other
 makers' machines too.
 
@@ -76,7 +76,7 @@ In May 1959 the Pentagon hosted 41 people from makers, users and
 government who wanted one business language for every machine: the
 Defense Department alone ran 225 computers and had 175 more on order. The
 committees, soon called **CODASYL**, drew mostly on FLOW-MATIC, IBM's
-COMTRAN and AIMACO, and produced **COBOL**. Hopper advised them. How much
+COMTRAN and AIMACO, and produced **[COBOL](kloom:e/cobol)**. Hopper advised them. How much
 COBOL owes her is argued: she said in 1980 that COBOL 60 was "95%
 FLOW-MATIC"; Jean Sammet, one of its designers, said Hopper was not its
 mother, creator or developer.

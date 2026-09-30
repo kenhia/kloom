@@ -120,5 +120,11 @@
 			"licence": "CC BY 2.0",
 			"file": "chess-chip.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "ai/logic-theorist",
+			"why": "Newell and Simon predicted in 1958 that a computer would be world chess champion within ten years; it took Deep Blue nearly forty."
+		}
 	]
 }

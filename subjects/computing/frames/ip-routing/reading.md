@@ -1,6 +1,6 @@
 One layer up, the question is no longer who may talk on a wire but how a
 packet crosses thousands of networks that know nothing of each other. The
-Internet Protocol's answer is deliberately small: give every host an
+[Internet Protocol](kloom:e/internet-protocol)'s answer is deliberately small: give every host an
 address, put the address on every packet, and let each router along the
 way make one decision, where to send it next. This frame describes the
 protocol, and where its two versions stood on 28 September 2026.
@@ -9,8 +9,8 @@ protocol, and where its two versions stood on 28 September 2026.
 
 The internetworking design this trail hangs from was split in two in its
 fourth version, in 1978, and the lower half became IP. Its specification, **RFC 791**,
-edited by **Jon Postel** at the University of Southern California's
-Information Sciences Institute and published in September 1981, describes
+edited by **[Jon Postel](kloom:e/jon-postel)** at the University of Southern California's
+[Information Sciences Institute](kloom:e/usc-information-sciences-institute) and published in September 1981, describes
 the carrying of "blocks of data called datagrams" between hosts identified
 by fixed-length addresses. It is equally clear about what IP leaves out:
 "There are no mechanisms to augment end-to-end data reliability, flow
@@ -19,7 +19,7 @@ protocols." Packets may be lost, duplicated or delivered out of order, and
 IP does not notice. This is _best-effort_ delivery, and it is the point:
 anything more is left to the hosts at the two ends.
 
-The plate lays out the header every IPv4 packet carries, five 32-bit words
+The plate lays out the header every [IPv4](kloom:e/ipv4) packet carries, five 32-bit words
 before any data, filled in for an invented example (the two addresses are
 from the blocks reserved for documentation).
 
@@ -40,8 +40,8 @@ from the blocks reserved for documentation).
 
 A router does not know where every host is. It knows _prefixes_: the
 leading bits of an address, which name a network. Since 1993 a prefix can
-be any length, written after a slash, under **classless inter-domain
-routing** (CIDR), which replaced fixed classes of network. A router's rule,
+be any length, written after a slash, under **[classless inter-domain
+routing](kloom:e/classless-inter-domain-routing)** (CIDR), which replaced fixed classes of network. A router's rule,
 as the 1995 requirements for IPv4 routers put it, is the **longest match**.
 Their example: for a packet to 10.144.2.5, with routes to 10.0.0.0/8,
 10.144.0.0/16 and 10.144.2.0/24, the router uses the /24, the most specific
@@ -50,9 +50,9 @@ route that fits. It then lowers the time to live, and passes the packet on.
 ![Cisco's Advanced Gateway Server router of 1986 in a museum case: an open metal chassis with circuit boards stacked in slots and grey ribbon cables looping out of them](ags.jpg)
 
 Inside one organisation, routers learn their prefixes from each other.
-Between organisations, the tables are built by the **Border Gateway
-Protocol**. In January 1989, at an IETF meeting in Austin, **Yakov
-Rekhter**, **Kirk Lougheed** and **Len Bosack** sketched it on two napkins;
+Between organisations, the tables are built by the **[Border Gateway
+Protocol](kloom:e/border-gateway-protocol)**. In January 1989, at an IETF meeting in Austin, **Yakov
+Rekhter**, **Kirk Lougheed** and **[Len Bosack](kloom:e/leonard-bosack)** sketched it on two napkins;
 it was published that year as RFC 1105. Each independently run network, an
 _autonomous system_, tells its neighbours which prefixes it can reach and
 through which chain of networks, and each neighbour chooses by its own
@@ -73,7 +73,7 @@ the five regional registries, one each; the Asia-Pacific registry ran down
 to its final block on 15 April 2011, and the other four followed over the
 next decade.
 
-The successor was ready long before. **IPv6**, first specified in December
+The successor was ready long before. **[IPv6](kloom:e/ipv6)**, first specified in December
 1995 and made a full Internet Standard as RFC 8200 in July 2017, has
 128-bit addresses, about 3.4 × 10³⁸ of them. It cannot talk to IPv4
 directly, so the two run side by side. Google counts the share of its
@@ -90,4 +90,4 @@ each September. Weekends run higher, when people are on home and mobile
 networks: 50.99 per cent on Saturday 26 September 2026, 45.87 on Monday
 the 14th. Fifteen years after the addresses ran out, about half of
 Google's users still reach it over the old protocol. What IP delivers is packets, some of them lost; a
-reliable conversation is built on top of it, by TCP.
+reliable conversation is built on top of it, by [TCP](kloom:e/transmission-control-protocol).

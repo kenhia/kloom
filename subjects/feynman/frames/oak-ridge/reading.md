@@ -1,5 +1,5 @@
-The uranium for the bomb was enriched at the **Clinton Engineer Works** in
-Tennessee, the secret town of Oak Ridge. At its **Y-12** plant, managed
+The uranium for the bomb was enriched at the **[Clinton Engineer Works](kloom:e/clinton-engineer-works)** in
+Tennessee, the secret town of [Oak Ridge](kloom:e/oak-ridge-tennessee). At its **[Y-12](kloom:e/y-12-national-security-complex)** plant, managed
 for the Army by Tennessee Eastman, the calutrons separated uranium-235
 electromagnetically, and chemical departments recovered and purified the
 product between stages. Y-12 sent its first few hundred grams, enriched to
@@ -10,11 +10,11 @@ Alamos how the plant worked.
 ## Won't it explode?
 
 The assays did not agree. Oak Ridge's figures for its enrichment would not
-match Los Alamos's measurements, and in the end **Emilio Segrè** was
+match Los Alamos's measurements, and in the end **[Emilio Segrè](kloom:e/emilio-segre)** was
 allowed to go and see how the plant did its tests. Walking through, he saw
 workers wheeling large bottles of green water, uranium nitrate solution,
 and asked whether they meant to handle the enriched product like that. He
-asked, in Feynman's retelling, whether it would not explode.
+asked, in [Feynman](kloom:e/richard-feynman)'s retelling, whether it would not explode.
 
 Oak Ridge had been told how much uranium a bomb needed, and since so much
 would never be in one place, it had been assured there was no danger. That
@@ -26,7 +26,7 @@ not a bomb but a burst of neutrons and radiation through the room. The
 plate draws a neutron slowing in a drum of solution.
 
 Los Alamos stopped much of its theoretical work for a couple of weeks,
-Feynman said, to work out safe limits. **Robert Christy**'s group took the
+Feynman said, to work out safe limits. **[Robert Christy](kloom:e/robert-f-christy)**'s group took the
 solutions and Feynman's group the dry salts in boxes, the harder case;
 because they needed only safe bounds, not exact critical amounts, they
 could be generous. Christy was to take the answers east, caught pneumonia,
@@ -44,7 +44,7 @@ other side of the same wall. A wall does not stop neutrons; the plate
 draws both rooms.
 
 Before the meeting an officer passed on that the colonel in charge, whom
-Feynman in 1966 called Colonel Nichols (presumably **Kenneth Nichols**, the
+Feynman in 1966 called Colonel Nichols (presumably **[Kenneth Nichols](kloom:e/kenneth-nichols)**, the
 district engineer), wanted him to say only what was safe, not why. Feynman replied that rules nobody understood would not
 be kept. The colonel looked out of the window for a few minutes and agreed.
 So Feynman lectured the plant's managers and engineers on neutrons, on
@@ -73,9 +73,9 @@ story was true, and called it luck.
 ## The record and the date
 
 The laboratory's official history, written in 1946 and 1947, credits the
-safety calculations for Y-12 and the K-25 plant to **Edward Teller**'s
-group, which Teller led until June 1944, and names Teller as the Manhattan
-District's consultant on the danger; it does not mention Feynman. The date
+safety calculations for Y-12 and the K-25 plant to **[Edward Teller](kloom:e/edward-teller)**'s
+group, which Teller led until June 1944, and names Teller as the [Manhattan
+District](kloom:e/manhattan-project)'s consultant on the danger; it does not mention Feynman. The date
 of the first visit is uncertain too. An Oak Ridge historian's column gives
 April 1944, and Feynman's own order of events puts it before he took over
 the punched-card machines in early 1945. The rule the engineers

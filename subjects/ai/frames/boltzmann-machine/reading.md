@@ -1,5 +1,5 @@
-Hopfield's network remembers by rolling downhill. Geoffrey Hinton and Terry
-Sejnowski asked what happens if you let it roll uphill now and then, and
+[Hopfield](kloom:e/john-hopfield)'s network remembers by rolling downhill. [Geoffrey Hinton](kloom:e/geoffrey-hinton) and [Terry
+Sejnowski](kloom:e/terry-sejnowski) asked what happens if you let it roll uphill now and then, and
 found a way for a network to learn, from examples alone, what its world is
 like.
 
@@ -8,24 +8,24 @@ like.
 **Geoffrey Hinton**, born in London in 1947, had studied experimental
 psychology and artificial intelligence in England and Scotland and taken his
 doctorate at Edinburgh in 1978. When Hopfield's paper appeared he was at
-Carnegie Mellon University in Pittsburgh. **Terrence Sejnowski**, a physicist
+[Carnegie Mellon University](kloom:e/carnegie-mellon-university) in Pittsburgh. **Terrence Sejnowski**, a physicist
 who had written his doctorate under Hopfield at Princeton, was at Johns
 Hopkins in Baltimore. Between 1983 and 1985, with **David Ackley** and others,
 they built a stochastic version of Hopfield's network and named it after
-**Ludwig Boltzmann**, the nineteenth-century physicist whose equation it uses.
+**[Ludwig Boltzmann](kloom:e/ludwig-boltzmann)**, the nineteenth-century physicist whose equation it uses.
 The main paper, "A Learning Algorithm for Boltzmann Machines", appeared in
 _Cognitive Science_ in 1985.
 
-In a **Boltzmann machine** a unit does not simply switch to whichever state
+In a **[Boltzmann machine](kloom:e/boltzmann-machine)** a unit does not simply switch to whichever state
 lowers the energy. It switches on with a _probability_ that depends on how
 much energy that would save and on a setting called the _temperature_. Run
 long enough at a fixed temperature, the network wanders through its states
 in a particular way: the chance of finding it in any state depends only on
 that state's energy, falling off exponentially as the energy rises. That is
-Boltzmann's distribution, written in the drawing as p ∝ e^(−E/T). When the
+[Boltzmann's distribution](kloom:e/boltzmann-distribution), written in the drawing as p ∝ e^(−E/T). When the
 network is hot, high-energy states are almost as likely as low ones, and it
 roams freely; when cold, it keeps to the valleys. Starting hot and cooling
-slowly, called _simulated annealing_ after the annealing of physical systems,
+slowly, called [_simulated annealing_](kloom:e/simulated-annealing) after the annealing of physical systems,
 lets it climb out of shallow valleys before it settles into a deep one.
 
 ## Learning in two phases
@@ -43,7 +43,7 @@ run freely and measure the same thing. Then change each weight in proportion
 to the difference. "A surprising feature of this rule," the authors wrote,
 "is that it uses only locally available information": each connection needs
 to know only what its own two units did, even though the change improves a
-measure of the whole network. It is Hebb's rule with a correction built in.
+measure of the whole network. It is [Hebb](kloom:e/donald-o-hebb)'s rule with a correction built in.
 
 Their test was the _encoder problem_: two groups of four visible units that
 could talk only through two hidden units, so the machine had to invent a
@@ -55,7 +55,7 @@ Because it can run freely and produce new patterns like its examples, the
 Boltzmann machine was an early _generative model_. It was also slow: every
 learning step needed long simulations to reach equilibrium twice, and the
 Nobel Committee for Physics judged it "initially of limited use". When
-backpropagation was popularised in 1986, it took the field's attention.
+[backpropagation](kloom:e/backpropagation) was popularised in 1986, it took the field's attention.
 
 ## Restricted
 
@@ -65,10 +65,10 @@ backpropagation was popularised in 1986, it took the field's attention.
 | Boltzmann machine (1985)            | visible and hidden            | any pair, in principle      | slowly, by two phases           |
 | Restricted Boltzmann machine (1986) | one visible layer, one hidden | only between the two layers | fast, by contrastive divergence |
 
-The version that lasted was thinned out. In 1986 **Paul Smolensky** proposed
+The version that lasted was thinned out. In 1986 **[Paul Smolensky](kloom:e/paul-smolensky)** proposed
 a network, which he called a _harmonium_, with connections only between the
 visible layer and the hidden layer, never within either: the bipartite graph
-in the drawing. Now called a _restricted Boltzmann machine_, it came into its
+in the drawing. Now called a [_restricted Boltzmann machine_](kloom:e/restricted-boltzmann-machine), it came into its
 own after 2002, when Hinton published a fast approximate way to train it,
 _contrastive divergence_, which the Nobel committee called "much faster" than
 the original. Restricted Boltzmann machines were later used, among other

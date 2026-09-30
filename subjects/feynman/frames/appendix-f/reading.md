@@ -1,25 +1,25 @@
-The commission handed its report to President Reagan in the Rose Garden,
+The commission handed its report to President [Reagan](kloom:e/ronald-reagan) in the Rose Garden,
 and it was made public on 9 June 1986: a first volume of
 findings and nine recommendations, and four more of appendices and
-testimony. **Appendix F**, in the second volume, is signed by Feynman alone:
+testimony. **Appendix F**, in the second volume, is signed by [Feynman](kloom:e/richard-feynman) alone:
 "Personal Observations on Reliability of Shuttle".
 
 ## Version 23
 
-How it got there is his story, told in a talk at Caltech in 1987. He wrote
+How it got there is his story, told in a talk at [Caltech](kloom:e/california-institute-of-technology) in 1987. He wrote
 it while the panels drafted their chapters, and sent it to
 **Alton Keel**, the commission's executive director, who said he would show
 it to everybody. Later Feynman found that no commissioner had seen it. When they did, they liked it, but the meetings were spent polishing
 the main report's wording, so he agreed that it should go in as an
 appendix. Keel then marked whole sections for deletion as repetitious.
 
-At the last minute Rogers proposed a tenth recommendation, never discussed
-at a meeting, that NASA should continue to have the nation's support.
+At the last minute [Rogers](kloom:e/william-p-rogers) proposed a tenth recommendation, never discussed
+at a meeting, that [NASA](kloom:e/nasa) should continue to have the nation's support.
 Feynman thought it read like the NASA summaries he had found at the start,
 listing every trouble and concluding that flying could continue. He sent
 Rogers a telegram: take my signature off the report unless there is no
 tenth recommendation and my report appears unchanged from its 23rd
-version. General Kutyna was sent to talk him round and began, by Feynman's
+version. General [Kutyna](kloom:e/donald-kutyna) was sent to talk him round and began, by Feynman's
 telling, by saying that he was on Feynman's side. They settled on a
 compromise: the tenth recommendation became a concluding thought, and
 where it had strongly recommended, it now only urged. He signed, and the
@@ -29,7 +29,7 @@ appendix went in.
 
 He had asked himself whether the booster's failures were a local disease or
 a general one, and so he looked at the two other systems he had time for.
-The **main engines**, he found, were remarkable machines, with more thrust
+The **[main engines](kloom:e/rs-25)**, he found, were remarkable machines, with more thrust
 for their weight than any before, and good engineering went into them. But
 they had been designed all at once, top down, rather than built up from
 tested parts, so each fault was expensive to diagnose and hard to fix
@@ -66,7 +66,7 @@ flew with a chance of failure of the order of a percent, while management
 claimed a thousand times less, whether to reassure Congress or because they
 did not hear their own engineers. Ordinary citizens had been invited to fly
 as if it were an airliner. The astronauts, like test pilots, should know
-their risks; he honoured their courage, and wrote that Christa McAuliffe had
+their risks; he honoured their courage, and wrote that [Christa McAuliffe](kloom:e/christa-mcauliffe) had
 shown the same courage, closer to knowing the true risk than NASA
 management would have had the public believe. NASA owed the public
 frankness, so that they could decide how to spend what they had. Then his

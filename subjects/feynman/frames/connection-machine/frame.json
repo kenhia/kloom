@@ -125,6 +125,14 @@
 		{
 			"to": "ai/hopfield-network",
 			"why": "Feynman had Hopfield give Thinking Machines' first seminar, then worked out how to run Hopfield's network on the CM-1."
+		},
+		{
+			"to": "feynman/punched-cards",
+			"why": "The logarithm routine Feynman gave the Connection Machine, built from factors of the form 1 + 2⁻ᵏ, was one he had worked out at Los Alamos."
+		},
+		{
+			"to": "feynman/path-integrals-today",
+			"why": "Feynman wrote a lattice QCD program for the CM-1 and ran it by hand; lattice QCD, the path integral sampled on a grid, now runs on the largest supercomputers."
 		}
 	]
 }

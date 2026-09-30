@@ -106,5 +106,11 @@
 			"file": "maupertuis.jpg",
 			"published": "1740"
 		}
+	],
+	"connections": [
+		{
+			"to": "feynman/least-action",
+			"why": "The principle Bader showed Feynman was Hamilton's form of an idea that ran from Hero and Fermat through Maupertuis and Euler."
+		}
 	]
 }

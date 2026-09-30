@@ -135,5 +135,11 @@
 				}
 			]
 		}
+	],
+	"connections": [
+		{
+			"to": "computing/edvac-report",
+			"why": "Wilkes modelled EDSAC on the EDVAC design after the Moore School lectures, and kept its program and numbers in the delay lines the First Draft had planned."
+		}
 	]
 }

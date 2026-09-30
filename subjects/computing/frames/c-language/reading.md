@@ -1,25 +1,25 @@
 Unix began in assembly language, and its authors did not want to stay
-there. The language they built instead grew in three steps: **BCPL**, then
-**B**, then **C**. In
-**Dennis Ritchie**'s own history, C "came into being in the years
+there. The language they built instead grew in three steps: **[BCPL](kloom:e/bcpl)**, then
+**[B](kloom:e/b-programming-language)**, then **[C](kloom:e/c-programming-language)**. In
+**[Dennis Ritchie](kloom:e/dennis-ritchie)**'s own history, C "came into being in the years
 1969–1973", and its most creative year was 1972.
 
 ## BCPL and B: one type, the word
 
 **Martin Richards** designed BCPL in the mid-1960s while visiting MIT, and
-Bell Labs people carried it onto Multics and GE's mainframes, where it
+[Bell Labs](kloom:e/bell-labs) people carried it onto Multics and GE's mainframes, where it
 became the language of choice for the group that would make Unix. BCPL was
 typeless: it had one kind of value, the machine word, and memory was a
 row of words. A pointer was just a word's index in that row, so if `p`
 pointed at one word, `p+1` pointed at the next, and an array was a pointer
 to its first word.
 
-**Ken Thompson** squeezed BCPL into the PDP-7, a machine with 8K 18-bit
+**[Ken Thompson](kloom:e/ken-thompson)** squeezed BCPL into the PDP-7, a machine with 8K 18-bit
 words, and called the result B. Ritchie called it "BCPL squeezed into 8K
 bytes of memory and filtered through Thompson's brain". B compiled to
 _threaded code_, a list of addresses of small routines, which was compact
 but slow. It gave C the `++` and `--` operators. People often guess that
-they copied the PDP-11's auto-increment addressing; Ritchie points out that
+they copied the [PDP-11](kloom:e/pdp-11)'s auto-increment addressing; Ritchie points out that
 this is impossible, since there was no PDP-11 when B was written.
 
 ## New B, then C
@@ -65,8 +65,8 @@ London and John Reiser then moved it to DEC's [VAX](kloom:e/vax).
 
 ![The cover of the first edition of The C Programming Language: a large pale blue letter C under the word THE, with PROGRAMMING LANGUAGE below it and the authors' names, Brian W. Kernighan and Dennis M. Ritchie](k-and-r.png)
 
-In 1978 **Brian Kernighan** and Ritchie published _The C Programming
-Language_, known by their initials as _K&R_. Kernighan wrote nearly all the
+In 1978 **[Brian Kernighan](kloom:e/brian-kernighan)** and Ritchie published [_The C Programming
+Language_](kloom:e/the-c-programming-language), known by their initials as _K&R_. Kernighan wrote nearly all the
 text; Ritchie wrote the reference manual in its appendix and the chapter on
 Unix. For more than ten years it was the nearest thing to a standard.
 
@@ -77,7 +77,7 @@ Standards Institute set up a committee, X3J11, to write one. Its standard
 came at the end of 1989, and ISO adopted it in 1990. Ritchie counted one
 change as truly important: a function's declaration now named its
 arguments' types, so `double sin();` became `double sin(double);`, a form
-borrowed from C++. The rest, `const` and `volatile` among it, was smaller:
+borrowed from [C++](kloom:e/c-plus-plus). The rest, `const` and `volatile` among it, was smaller:
 the standard wrote down the language in use rather than inventing one.
 
 | Name  | Standard                             | Year |

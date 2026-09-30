@@ -1,0 +1,9 @@
+{
+	"id": "adaline",
+	"wikidata": "Q348261",
+	"name": "ADALINE",
+	"aliases": ["Adaline"],
+	"kind": "artifact",
+	"description": "Widrow and Hoff's adaptive linear neuron of 1960, trained by the least-mean-squares rule, a forerunner of gradient descent in neural networks.",
+	"home": "ai/adaline"
+}

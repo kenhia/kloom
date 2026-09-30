@@ -1,0 +1,9 @@
+{
+	"id": "lisp-machine",
+	"wikidata": "Q1653376",
+	"name": "Lisp machine",
+	"aliases": ["Lisp machines"],
+	"kind": "artifact",
+	"description": "A computer built to run Lisp programs fast, made at MIT from 1973 and sold by Symbolics and others until the market collapsed in 1987.",
+	"home": "ai/lisp-collapse"
+}

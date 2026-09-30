@@ -1,0 +1,7 @@
+{
+	"id": "chinchilla-language-model",
+	"wikidata": "Q116470626",
+	"name": "Chinchilla",
+	"kind": "artifact",
+	"description": "DeepMind's 2022 language model that showed models should grow their training data with their size, about 20 tokens per parameter."
+}

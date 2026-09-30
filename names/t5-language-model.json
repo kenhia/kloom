@@ -1,0 +1,7 @@
+{
+	"id": "t5-language-model",
+	"wikidata": "Q125510562",
+	"name": "T5",
+	"kind": "artifact",
+	"description": "Google's 2019 transformer that treated every language task as turning one text into another."
+}

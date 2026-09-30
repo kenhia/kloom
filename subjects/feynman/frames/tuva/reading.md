@@ -1,6 +1,6 @@
-In the summer of 1977, at dinner in his house in Altadena, Feynman asked
-his friend **Ralph Leighton**, then a young mathematics teacher, a
-geography question: whatever happened to **Tannu Tuva**? Leighton, who
+In the summer of 1977, at dinner in his house in Altadena, [Feynman](kloom:e/richard-feynman) asked
+his friend **[Ralph Leighton](kloom:e/ralph-leighton)**, then a young mathematics teacher, a
+geography question: whatever happened to **[Tannu Tuva](kloom:e/tuva)**? Leighton, who
 knew Feynman's reputation for pranks, assumed the place was made up. It
 was not. Feynman remembered it from his stamp album, a purple patch on the
 map north-west of Mongolia, and from a set of stamps shaped like triangles
@@ -13,7 +13,7 @@ Tuva had been a nominally independent country, the Tuvan People's
 Republic, from 1921 until the Soviet Union absorbed it in October 1944.
 By 1977 it was an autonomous republic deep inside the USSR, on the upper
 Yenisei, closed to almost every Western visitor. When the two men found
-that its capital was spelled **Kyzyl**, with no proper vowel in sight,
+that its capital was spelled **[Kyzyl](kloom:e/kyzyl)**, with no proper vowel in sight,
 they decided that any place spelled like that had to be visited.
 
 ![A diamond-shaped Tuvan stamp of 1936, printed in purple: a Bactrian camel racing a steam train across the steppe, with "POSTA TOUVA" along the upper edges and the dates 1921 and 1936 in the corners](camel-and-train.jpg)
@@ -22,12 +22,12 @@ The stamps he remembered were real. Tuva issued stamps from 1926, in
 triangles and diamonds from 1927, and in the mid-1930s a flood of large,
 exotic ones that were designed and printed in Moscow and sold abroad to
 collectors. Not all of them showed Tuva as it was: the camel racing a
-locomotive runs beside a railway Tuva has never had. What followed, as Leighton tells it in _Tuva or Bust!_
+locomotive runs beside a railway Tuva has never had. What followed, as Leighton tells it in [_Tuva or Bust!_](kloom:e/tuva-or-bust)
 (1991), was ten years of letters, phrasebooks, embassies and Soviet
 bureaucracy. They learned what Tuvan they could from dictionaries and
 phrasebooks, wrote to Kyzyl, and waited months for answers. Leighton founded the
 informal **Friends of Tuva** in 1981. And they found the thing Tuva is
-now famous for: **throat singing**.
+now famous for: **[throat singing](kloom:e/tuvan-throat-singing)**.
 
 ## One voice, two notes
 
@@ -54,8 +54,8 @@ The quest ran alongside his cancer, which was diagnosed in 1978, and his
 work on the Challenger commission in 1986. The invitation that would have
 let him go came only after his death. Accounts differ on how soon after:
 the day after, several days, or weeks. Leighton went to Kyzyl without him.
-Tuvan singers later came to America, Kongar-ol Ondar among them, and the
-Oscar-nominated documentary _Genghis Blues_ (1999), for which Leighton was
+Tuvan singers later came to America, [Kongar-ol Ondar](kloom:e/kongar-ool-ondar) among them, and the
+Oscar-nominated documentary [_Genghis Blues_](kloom:e/genghis-blues) (1999), for which Leighton was
 an associate producer, followed an American blues singer to Tuva to sing
 with them.
 
@@ -67,7 +67,7 @@ the rhythms; those tapes became his memoirs. Feynman had learned samba
 percussion in Brazil, and played in the pit for student musicals.
 
 He also drew. In the early 1960s, in his forties, he argued so often with
-the Pasadena artist **Jirayr Zorthian** about art and science that they
+the Pasadena artist **[Jirayr Zorthian](kloom:e/jirayr-zorthian)** about art and science that they
 agreed to swap lessons on alternate Sundays, physics for drawing. By
 Feynman's telling, Zorthian learned little physics, while Feynman drew
 constantly, took life classes, and sold drawings under the name **Ofey**,

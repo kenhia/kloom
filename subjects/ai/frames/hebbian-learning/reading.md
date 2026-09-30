@@ -4,14 +4,14 @@ used gets stronger. He could not show that it was true, and he said so.
 
 ## A psychologist's postulate
 
-**Donald Olding Hebb** (1904–1985) was born in Chester, Nova Scotia, and
+**[Donald Olding Hebb](kloom:e/donald-o-hebb)** (1904–1985) was born in Chester, Nova Scotia, and
 set out to be a novelist before he turned to psychology. He studied under
-**Karl Lashley** at Chicago and Harvard, worked with the neurosurgeon
-**Wilder Penfield** at the Montreal Neurological Institute on what brain
+**[Karl Lashley](kloom:e/karl-lashley)** at Chicago and [Harvard](kloom:e/harvard-university), worked with the neurosurgeon
+**[Wilder Penfield](kloom:e/wilder-penfield)** at the Montreal Neurological Institute on what brain
 surgery did to thinking, and wrote his book while working with Lashley again
-at the Yerkes primate laboratories in Florida. _The Organization of
-Behavior: A Neuropsychological Theory_ came out from Wiley in New York in
-1949, after he had returned to McGill as a professor. Its aim was to explain
+at the Yerkes primate laboratories in Florida. [_The Organization of
+Behavior](kloom:e/organization-of-behavior): A Neuropsychological Theory_ came out from Wiley in New York in
+1949, after he had returned to [McGill](kloom:e/mcgill-university) as a professor. Its aim was to explain
 behaviour and thought in terms of what the brain's cells actually do.
 
 On page 62 is the passage everyone quotes. Hebb introduced it as an
@@ -42,7 +42,7 @@ physicist builds a network that completes patterns in just this way.
 ## The slogan he didn't write
 
 The summary everyone knows, "cells that fire together wire together", is not
-Hebb's. It is usually credited to the neurobiologist **Carla Shatz**, who
+Hebb's. It is usually credited to the neurobiologist **[Carla Shatz](kloom:e/carla-j-shatz)**, who
 wrote in _Scientific American_ in September 1992, describing how the visual
 system wires itself before birth: "In a sense, then, cells that fire
 together wire together." A similar line, "neurons wire together if they fire
@@ -62,10 +62,10 @@ show it: each spike on A's line is followed, a moment later, by one on B's.
 
 ## From synapse to weight
 
-In a machine, Hebb's rule becomes arithmetic. The weight between two units
+In a machine, [Hebb's rule](kloom:e/hebbian-theory) becomes arithmetic. The weight between two units
 grows when both are active together; in its simplest form it is the product
 of their activities, averaged over the patterns to be learned. Biology later
-found support for Hebb-like strengthening: work in **Eric Kandel**'s
+found support for Hebb-like strengthening: work in **[Eric Kandel](kloom:e/eric-kandel)**'s
 laboratory on the sea slug _Aplysia_ found that Hebbian long-term
 potentiation is one of the mechanisms its synapses need to learn. When the
 Nobel Committee for Physics explained the 2024 prize for neural networks, it
@@ -74,5 +74,5 @@ basic rules for updating artificial networks".
 
 What Hebb's rule does not do is correct itself. It strengthens whatever
 happens together, whether or not it was the right answer. The next step came
-from two engineers at Stanford in 1960, with a rule that learns from its
+from two engineers at [Stanford](kloom:e/stanford-university) in 1960, with a rule that learns from its
 mistakes.

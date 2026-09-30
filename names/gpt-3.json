@@ -1,0 +1,8 @@
+{
+	"id": "gpt-3",
+	"wikidata": "Q95726734",
+	"name": "GPT-3",
+	"kind": "artifact",
+	"description": "OpenAI's 175-billion-parameter language model of 2020, which could learn a task from a few examples in its prompt.",
+	"home": "ai/in-context-learning"
+}

@@ -6,20 +6,20 @@ where in the text it stands. Everything after this happens to those vectors.
 
 The swap is a table lookup. The model holds an **embedding matrix** with one
 row for every token in the vocabulary and one column for every dimension of
-the model; token id 3797 (" cat" for GPT-2) simply picks out row 3797.
+the model; token id 3797 (" cat" for [GPT-2](kloom:e/gpt-2)) simply picks out row 3797.
 Written as algebra, it multiplies a _one-hot_ vector, all zeros except a
 single 1 at the token's id, by the matrix, which comes to the same thing.
 
 The sizes are large. The smallest **GPT-2** has a model width of 768, so its
 matrix is 50,257 rows by 768 columns: 38,597,376 numbers, about a third of
-the 117 million in the model. The original **transformer** of 2017 used 512
-dimensions. Meta's **Llama 3 405B** (2024) uses 16,384 numbers for every token.
+the 117 million in the model. The original **[transformer](kloom:e/transformer-deep-learning)** of 2017 used 512
+dimensions. Meta's **[Llama](kloom:e/llama-language-model) 3 405B** (2024) uses 16,384 numbers for every token.
 
 Nobody writes those numbers: they are learned, like every other weight in
 the model. What comes out is a geometry. A vector is a point in a space of
 hundreds or thousands of dimensions, and the aim of an embedding is that
 words close together in that space are similar in meaning. The idea is older
-than neural networks: the linguist **J. R. Firth** wrote in 1957 that "a word
+than neural networks: the linguist **[J. R. Firth](kloom:e/john-rupert-firth)** wrote in 1957 that "a word
 is characterized by the company it keeps", and words that keep the same
 company end up as neighbours.
 
@@ -29,7 +29,7 @@ The map above shows that effect in word vectors made from nineteenth-century
 literature by **Siobhán Grayson**, flattened to two dimensions with the
 _t-SNE_ method. Verbs, adjectives, nouns and the novels' characters gather in
 regions of their own. These are stand-alone word vectors of the older kind
-(the main spine's word2vec frame tells that story), not a transformer's, but
+(the main spine's [word2vec](kloom:e/word2vec) frame tells that story), not a transformer's, but
 a transformer's input embeddings start from the same idea.
 
 The 2017 transformer shares one matrix between the input embedding and the
@@ -66,7 +66,7 @@ training.
 
 **Learned.** Give each position its own trainable vector, like a second
 embedding matrix. The 2017 authors found this "produced nearly identical
-results", and BERT and GPT-2 used learned positions, which fixes the longest
+results", and [BERT](kloom:e/bert-language-model) and GPT-2 used learned positions, which fixes the longest
 text the model can read.
 
 **Rotary.** In 2021 **Jianlin Su** and colleagues at Zhuiyi Technology in

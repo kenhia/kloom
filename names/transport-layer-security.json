@@ -1,0 +1,8 @@
+{
+	"id": "transport-layer-security",
+	"wikidata": "Q206494",
+	"name": "Transport Layer Security",
+	"kind": "artifact",
+	"description": "The protocol, descended from Netscape's SSL, that encrypts and authenticates connections on the web.",
+	"home": "computing/tls"
+}

@@ -1,12 +1,12 @@
 The first computers were built by universities and governments for
-themselves. **UNIVAC**, the _Universal Automatic Computer_, was built by a
-company to sell. Its first customer was the United States Census Bureau,
+themselves. [**UNIVAC**](kloom:e/univac-i), the _Universal Automatic Computer_, was built by a
+company to sell. Its first customer was the [United States Census Bureau](kloom:e/united-states-census-bureau),
 which had counted with punched cards since 1890, and its fame came from a
 single night of television.
 
 ## A company from the ENIAC
 
-**J. Presper Eckert** and **John Mauchly**, who had built the ENIAC, left
+**[J. Presper Eckert](kloom:e/j-presper-eckert)** and **[John Mauchly](kloom:e/john-mauchly)**, who had built the [ENIAC](kloom:e/eniac), left
 the University of Pennsylvania in March 1946 after a dispute over who would
 own their patents, and started their own firm in Philadelphia. A National
 Bureau of Standards study contract, on the Census Bureau's behalf, became
@@ -15,9 +15,9 @@ The money never lasted. The firm took on a small machine, BINAC, for
 Northrop to earn cash, and was rescued in 1948 by $500,000 from American
 Totalisator, the racetrack-machine company, whose vice-president Harry
 Straus became its chairman. Straus died in a plane crash in October 1949,
-his board withdrew, and on 15 February 1950 **Remington Rand**, the
-typewriter and office-machine maker, bought the Eckert–Mauchly Computer
-Corporation.
+his board withdrew, and on 15 February 1950 **[Remington Rand](kloom:e/remington-rand)**, the
+typewriter and office-machine maker, bought the [Eckert–Mauchly Computer
+Corporation](kloom:e/eckertmauchly-computer-corporation).
 
 The first UNIVAC passed its acceptance tests for the Census Bureau on 31
 March 1951, and was dedicated on 14 June at the Eckert–Mauchly plant in Philadelphia, where the
@@ -34,14 +34,14 @@ population census and all of the 1954 economic census.
 ## Decimal, duplicated, on tape
 
 UNIVAC was built for business records, not ballistics, and it worked in
-decimal. Its 1,000 words of twelve characters were held in mercury delay
-lines, a hundred channels of ten words, in seven tanks. Each digit was six
+decimal. Its 1,000 words of twelve characters were held in [mercury delay
+lines](kloom:e/delay-line-memory), a hundred channels of ten words, in seven tanks. Each digit was six
 bits: four in _excess-three_ code, the digit plus three, and two zone bits
 that turned digits into letters, with a check pulse added to make the count
 of ones odd. Every arithmetic operation was done twice, in duplicate
 circuits, and the results compared.
 
-Its great novelty was the **UNISERVO**, the first tape drive sold with a
+Its great novelty was the [**UNISERVO**](kloom:e/uniservo-i), the first tape drive sold with a
 computer. It ran half-inch tape of nickel-plated phosphor bronze, up to
 1,500 feet a reel, at 100 inches a second, recording 128 digits to the inch
 across eight channels: six for the character, one for the check pulse and
@@ -72,7 +72,7 @@ factor" from 40 per cent to 4 and ran it again; the 9:54 forecast, 268 to
 263, was the one broadcast. By 10:32 the returns had shown the 40 per cent
 figure to be closer, and a Remington Rand executive went on air to
 explain. The figures here are from a report of January 1953; the popular
-vote is given as 32,915,949 in some later accounts, and Eisenhower's actual
+vote is given as 32,915,949 in some later accounts, and [Eisenhower](kloom:e/dwight-d-eisenhower)'s actual
 total differs by 500 between two Wikipedia articles.
 
 ## The first generation compared

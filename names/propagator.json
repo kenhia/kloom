@@ -1,0 +1,9 @@
+{
+	"id": "propagator",
+	"wikidata": "Q302518",
+	"name": "Propagator",
+	"aliases": ["propagators"],
+	"kind": "idea",
+	"description": "The amplitude for a particle to travel from one point to another, the factor a line contributes in a Feynman diagram.",
+	"home": "feynman/propagators"
+}

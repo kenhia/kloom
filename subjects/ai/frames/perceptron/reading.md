@@ -1,27 +1,27 @@
 The symbolic programs of the 1950s did what their authors told them.
-**Frank Rosenblatt**, a psychologist, wanted a machine that would be shown
+**[Frank Rosenblatt](kloom:e/frank-rosenblatt)**, a psychologist, wanted a machine that would be shown
 examples and find its own rules, as he believed a brain does. He called it
-the **perceptron**, and it is the ancestor of every neural network in this
+the **[perceptron](kloom:e/perceptron)**, and it is the ancestor of every neural network in this
 subject.
 
 ## A model of a brain
 
 Rosenblatt (1928–1971) took his doctorate at Cornell in 1956 and moved to
-the **Cornell Aeronautical Laboratory** in Buffalo, New York. In 1957 he
+the **[Cornell Aeronautical Laboratory](kloom:e/calspan)** in [Buffalo](kloom:e/buffalo-new-york), New York. In 1957 he
 simulated a perceptron on an [IBM 704](kloom:e/ibm-704) there, and in 1958 he set the idea out
 in _Psychological Review_: a network of three kinds of units, _sensory_ (S),
 _association_ (A) and _response_ (R). Its neuron was, in his words, "a direct
-descendant" of the one McCulloch and Pitts had proposed in 1943, but the
+descendant" of the one [McCulloch](kloom:e/warren-sturgis-mcculloch) and Pitts had proposed in 1943, but the
 perceptron's connections into its response units carried _weights_ that
 changed with experience. When it answered wrongly, the
 weights were adjusted, and if the problem could be solved at all by a single
 dividing line through the space of inputs, the adjustments were guaranteed
 to arrive at one: Rosenblatt's convergence theorem.
 
-The money came from the US Office of Naval Research (ONR), under a
+The money came from the US [Office of Naval Research](kloom:e/office-of-naval-research) (ONR), under a
 contract called **Project PARA** ("Perceiving and Recognition Automata"),
 and from the Rome Air Development Center. The sums were modest. ONR's
-research manager, Marvin Denicoff, later said ONR rather than ARPA funded
+research manager, Marvin Denicoff, later said ONR rather than [ARPA](kloom:e/darpa) funded
 the project because it was unlikely to produce technological results in the
 near or medium term: ONR grants were of the order of $10,000, where ARPA's
 ran to millions.
@@ -38,14 +38,14 @@ ran the story on page 25 as "New Navy Device Learns by Doing", and it began:
 > conscious of its existence.
 
 What Rosenblatt said caused a heated controversy in the young AI
-community. He had been a schoolmate of **Marvin Minsky** at the Bronx High
-School of Science, and Minsky became a staunch objector to pure
-_connectionist_ AI, built from networks like this one. The competition for
+community. He had been a schoolmate of **[Marvin Minsky](kloom:e/marvin-minsky)** at the [Bronx High
+School of Science](kloom:e/bronx-high-school-of-science), and Minsky became a staunch objector to pure
+[_connectionist_](kloom:e/connectionism) AI, built from networks like this one. The competition for
 government funding ended with symbolic AI the winner.
 
 ## The Mark I
 
-Rosenblatt wanted a machine, not a program. The **Mark I Perceptron** was a
+Rosenblatt wanted a machine, not a program. The **[Mark I Perceptron](kloom:e/mark-i-perceptron)** was a
 custom analogue computer. Its retina was a 20 × 20 grid of 400 photocells.
 Each could connect to up to 40 of 512 association units, wired at random
 through a plugboard according to a table of random numbers, because
@@ -72,9 +72,9 @@ and how narrow the tasks were:
 
 The CIA's photographic division studied it from 1960 to 1964 for picking out
 planes and ships in aerial photographs. In 1967 the machine went to the
-Smithsonian, where it is now in the National Museum of American History.
+Smithsonian, where it is now in the [National Museum of American History](kloom:e/national-museum-of-american-history).
 
-In 1969 Minsky and Seymour Papert's book _Perceptrons_ showed that a
+In 1969 Minsky and [Seymour Papert](kloom:e/seymour-papert)'s book [_Perceptrons_](kloom:e/perceptrons-book) showed that a
 single-layer perceptron cannot learn some simple functions, such as
 exclusive-or. The book was widely, and often wrongly, cited as proof that
 perceptrons in general were limited, and interest and funding for neural

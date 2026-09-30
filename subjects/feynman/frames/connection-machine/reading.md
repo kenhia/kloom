@@ -1,10 +1,10 @@
-In 1983 a graduate student at MIT's Artificial Intelligence Lab, **W.
-Daniel Hillis**, told Feynman over lunch that he was starting a company
+In 1983 a graduate student at MIT's Artificial Intelligence Lab, **[W.
+Daniel Hillis](kloom:e/danny-hillis)**, told [Feynman](kloom:e/richard-feynman) over lunch that he was starting a company
 to build a computer out of a million small processors. Feynman called it
 "positively the dopiest idea I ever heard", Hillis recalled, and by the
 end of the meal had agreed to spend the summer working there. They knew
-each other through Feynman's son **Carl**, an MIT undergraduate who had
-helped with Hillis's thesis project, the **Connection Machine**.
+each other through Feynman's son **[Carl](kloom:e/carl-feynman)**, an MIT undergraduate who had
+helped with Hillis's thesis project, the **[Connection Machine](kloom:e/connection-machine)**.
 
 The main source for what followed is Hillis's own account, "Richard
 Feynman and the Connection Machine", published in _Physics Today_ a year
@@ -13,7 +13,7 @@ this frame rests on it.
 
 ## Reporting for duty
 
-The company, **Thinking Machines Corporation**, had just been
+The company, **[Thinking Machines Corporation](kloom:e/thinking-machines-corporation)**, had just been
 incorporated and had rented an old mansion outside Boston, on the Robert
 Treat Paine estate in Waltham. Feynman arrived the next day, saluted, and
 asked for his assignment. Nobody had one ready, so they sent him to buy
@@ -47,9 +47,9 @@ the buffers to five, and they built it that way. It worked.
 
 ## A logarithm from Los Alamos
 
-Feynman invited his Caltech friend **John Hopfield** to give the
-company's first seminar, and then worked out how to run Hopfield's neural
-network on the machine, one processor for each neuron. The part he was
+Feynman invited his Caltech friend **[John Hopfield](kloom:e/john-hopfield)** to give the
+company's first seminar, and then worked out how to run Hopfield's [neural
+network](kloom:e/hopfield-network) on the machine, one processor for each neuron. The part he was
 proudest of, Hillis says, was a routine for logarithms that he had
 invented at Los Alamos. Any number between 1 and 2 can be written as a
 product of factors of the form 1 + 2⁻ᵏ, and testing each factor in binary
@@ -75,9 +75,9 @@ company toward numerical simulation.
 
 ![A Connection Machine CM-1 of 1985 at the Computer History Museum: a black cube of cubes, one panel open on racks of green circuit boards](cm1.jpg)
 
-The first program to run on the machine, in April 1985, was Conway's game
-of **Life**, a cellular automaton. Feynman wondered aloud whether physics
-at the bottom might be one, and when Stephen Wolfram used the machine to
+The first program to run on the machine, in April 1985, was [Conway's game
+of **Life**](kloom:e/conways-game-of-life), a cellular automaton. Feynman wondered aloud whether physics
+at the bottom might be one, and when [Stephen Wolfram](kloom:e/stephen-wolfram) used the machine to
 simulate fluids as imaginary ball bearings on a hexagonal grid, Feynman
 gave the company the plain explanation it used from then on.
 

@@ -1,0 +1,8 @@
+{
+	"id": "tensor-processing-unit",
+	"wikidata": "Q25106376",
+	"name": "Tensor Processing Unit",
+	"aliases": ["TPU", "TPUs"],
+	"kind": "artifact",
+	"description": "Google's chip for neural-network arithmetic, in use in its data centres from 2015."
+}

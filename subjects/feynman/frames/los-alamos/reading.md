@@ -1,8 +1,8 @@
-In the spring of 1943 Robert Wilson's isotope-separation group at Princeton
+In the spring of 1943 [Robert Wilson](kloom:e/robert-r-wilson)'s isotope-separation group at Princeton
 was wound up, and its young men were sent west to a laboratory that did not
-yet exist. Feynman, his doctorate not yet a year old, went with them. On 28 March
-he and **Arline**, ill with tuberculosis, left on the train for New Mexico,
-in a private compartment he paid extra for. **J. Robert Oppenheimer** had
+yet exist. [Feynman](kloom:e/richard-feynman), his doctorate not yet a year old, went with them. On 28 March
+he and **[Arline](kloom:e/arline-feynman)**, ill with tuberculosis, left on the train for New Mexico,
+in a private compartment he paid extra for. **[J. Robert Oppenheimer](kloom:e/j-robert-oppenheimer)** had
 telephoned him long distance from Chicago to say that he had found her a
 bed in a Presbyterian sanatorium in Albuquerque; Feynman, who had never had
 a long-distance call from so far, never forgot it.
@@ -15,14 +15,14 @@ shipping crates of apparatus to Albuquerque for weeks.
 
 ## The Hill
 
-The laboratory, **Project Y**, was put on the **Pajarito Plateau**, a mesa
+The laboratory, **[Project Y](kloom:e/los-alamos-national-laboratory)**, was put on the **Pajarito Plateau**, a mesa
 of volcanic tuff at 7,300 feet cut into fingers by canyons, where the Army
 had taken over the Los Alamos Ranch School. The plate draws a section
 through it. The Princeton group arrived before the place was ready and
 lived at first in rented ranch houses, driving up each morning. Feynman
 remembered the road up the cliff as the most impressive thing he had seen,
 an Easterner's first sight of the West. At the gate he found his assistant
-**Paul Olum** with a clipboard, checking in trucks of lumber, and inside
+**[Paul Olum](kloom:e/paul-olum)** with a clipboard, checking in trucks of lumber, and inside
 the one finished building an experimental physicist he knew from his
 papers, **John Williams**, in his shirtsleeves over blueprints, directing the
 builders. The experimenters had nothing to do until their laboratories
@@ -33,13 +33,13 @@ existed, so they helped build them.
 The theorists could start at once, so they were moved up onto the mesa: to
 bunks in the old school's buildings, then to beds lined along a balcony,
 with a chart telling each man which bathroom to change in. There was one
-blackboard, on wheels, and in April **Robert Serber** used it to give the
+blackboard, on wheels, and in April **[Robert Serber](kloom:e/robert-serber)** used it to give the
 newcomers five lectures on what was known about the bomb; typed up, they
-became the laboratory's first report, the _Los Alamos Primer_.
+became the laboratory's first report, the [_Los Alamos Primer_](kloom:e/los-alamos-primer).
 
 ## The battleship and the mosquito boat
 
-The Theoretical Division, T Division, was led by **Hans Bethe**. In
+The Theoretical Division, T Division, was led by **[Hans Bethe](kloom:e/hans-bethe)**. In
 Feynman's account their partnership began by accident. In his second or
 third week every senior theorist but Bethe happened to be away, and Bethe,
 who liked to test an idea by arguing it out loud, wandered into Feynman's

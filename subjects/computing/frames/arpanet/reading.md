@@ -1,5 +1,5 @@
-By 1966 **Bob Taylor**, who ran the computing office of the Pentagon's
-Advanced Research Projects Agency (ARPA), had three terminals in his room:
+By 1966 **[Bob Taylor](kloom:e/robert-taylor-computer-scientist)**, who ran the computing office of the Pentagon's
+[Advanced Research Projects Agency](kloom:e/darpa) (ARPA), had three terminals in his room:
 one to the System Development Corporation's Q-32 in Santa Monica, one to
 Project Genie at Berkeley, one to Multics at MIT. Each had its own
 commands, and to talk to someone on another machine he had to get up and
@@ -8,7 +8,7 @@ be one terminal that goes anywhere you want to go."
 
 ## The intergalactic network
 
-The idea was older than Taylor's office. **J. C. R. Licklider**, the
+The idea was older than Taylor's office. **[J. C. R. Licklider](kloom:e/j-c-r-licklider)**, the
 psychologist who headed it from October 1962, sent a memorandum on 23 April
 1963 to the research groups ARPA funded, addressed to the "Members and
 Affiliates of the Intergalactic Computer Network". Most of it is a user's
@@ -20,12 +20,12 @@ problem a _protocol_ solves.
 
 Taylor persuaded ARPA's director, **Charles Herzfeld**, to fund a network
 in February 1966; a million dollars was moved from missile defence. He
-recruited **Larry Roberts** from MIT's Lincoln Laboratory, who arrived in
-December 1966 (or January 1967, as the ARPANET's own history gives it).
+recruited **[Larry Roberts](kloom:e/larry-roberts-computer-scientist)** from MIT's Lincoln Laboratory, who arrived in
+December 1966 (or January 1967, as the [ARPANET](kloom:e/arpanet)'s own history gives it).
 Roberts first meant the big host computers to be joined to one another
 directly. The sites objected to giving up their machines to network work,
 and **Wesley Clark** suggested a small computer at each site between the
-host and the lines. Roberts named it the _Interface Message Processor_,
+host and the lines. Roberts named it the [_Interface Message Processor_](kloom:e/interface-message-processor),
 the IMP. After the Gatlinburg symposium of October 1967 the IMPs would
 switch packets, and the planned lines went from 2.4 to 50 kilobits a
 second.
@@ -33,14 +33,14 @@ second.
 ## BBN's IMPs
 
 ARPA's request for quotations went out in July 1968; twelve firms bid, and
-in the week before Christmas the contract went to **Bolt Beranek and
-Newman** (BBN) in Cambridge, Massachusetts, whose team under **Frank
+in the week before Christmas the contract went to **[Bolt Beranek and
+Newman](kloom:e/rtx-bbn-technologies)** (BBN) in Cambridge, Massachusetts, whose team under **Frank
 Heart** began work on 2 January 1969. An IMP was a ruggedised Honeywell
 DDP-516 minicomputer with core memory, special interfaces and about six
 thousand words of hand-written assembly code. Senator Edward Kennedy's
 telegram of congratulation thanked BBN for its "Interfaith Message
 Processor". The first IMP reached UCLA on 30 August 1969, the second the
-Stanford Research Institute (SRI) on 1 October, then Santa Barbara on
+[Stanford Research Institute](kloom:e/sri-international) (SRI) on 1 October, then Santa Barbara on
 1 November and the University of Utah in December.
 
 On 7 April 1969 a UCLA graduate student, **Steve Crocker**, had circulated
@@ -89,12 +89,12 @@ wired directly, with no host at all.
 | July 1977      |    58 |
 
 The network's debut came in October 1972, at the first International
-Conference on Computer Communication, in the Washington Hilton. **Bob
-Kahn** of BBN spent a year preparing it; leased lines ran to a TIP in the
+Conference on Computer Communication, in the Washington Hilton. **[Bob
+Kahn](kloom:e/robert-kahn-computer-scientist)** of BBN spent a year preparing it; leased lines ran to a TIP in the
 hotel, terminal makers plugged in their machines, and visitors used
 programs on hosts across the country. BBN's completion report says the
-demonstration forced every site to debug its software and gave packet
-switching, which "had been viewed largely with scepticism", international
+demonstration forced every site to debug its software and gave [packet
+switching](kloom:e/packet-switching), which "had been viewed largely with scepticism", international
 visibility.
 
 The use nobody planned was mail. In 1971 **Ray Tomlinson** at BBN
@@ -107,4 +107,4 @@ network mail."
 
 The ARPANET was one network, and by the mid-1970s ARPA had others, over
 radio and satellite, that could not speak to it. Joining them is the story
-of TCP/IP.
+of [TCP/IP](kloom:e/internet-protocol-suite).

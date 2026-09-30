@@ -113,5 +113,11 @@
 			"licence": "MIT",
 			"file": "book-output.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/writing",
+			"why": "Writing let a record outlive its maker; for four thousand years every copy was then made by hand, until a goldsmith in Mainz made them by machine."
+		}
 	]
 }
