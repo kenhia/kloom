@@ -1,0 +1,106 @@
+{
+	"id": "large-numbers",
+	"topic": "Bernoulli and the law of large numbers",
+	"position": {
+		"label": "Large numbers"
+	},
+	"scene": {
+		"headline": "We became morally",
+		"accent": "CERTAIN.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": ["BASEL · JACOB BERNOULLI", "ARS CONJECTANDI · 1713 · PART FOUR"],
+		"counter": {
+			"value": "25,550",
+			"label": "draws Bernoulli's bound asked, to be a thousand times surer of the urn"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "On the Law of Large Numbers",
+			"authors": [
+				{
+					"family": "Bernoulli",
+					"given": "Jakob"
+				}
+			],
+			"publisher": "NG Verlag",
+			"place": "Berlin",
+			"published": "2005",
+			"url": "http://www.sheynin.de/download/bernoulli.pdf",
+			"accessed": "2026-09-30",
+			"note": "Part four of Ars Conjectandi (1713), translated by Oscar Sheynin, with his foreword; the urn is in chapter 4, the 25,550 draws at the end of chapter 5. Read through the Wayback Machine"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Law of large numbers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Law_of_large_numbers&oldid=1365847896",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24",
+			"note": "The golden theorem, and Poisson's name for it"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ars Conjectandi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ars_Conjectandi&oldid=1373926431",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jacob Bernoulli",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jacob_Bernoulli&oldid=1375412975",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "The title page of Jacob Bernoulli's Ars Conjectandi, Basel, 1713",
+			"url": "https://commons.wikimedia.org/wiki/File:Jacob_Bernoulli_-_Ars_Conjectandi.gif",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ars-conjectandi.gif",
+			"authors": [
+				{
+					"family": "Bernoulli",
+					"given": "Jacob"
+				}
+			],
+			"published": "1713"
+		},
+		{
+			"kind": "media",
+			"title": "Draws needed from Bernoulli's urn: his bound and the exact count",
+			"url": "http://www.sheynin.de/download/bernoulli.pdf",
+			"accessed": "2026-09-30",
+			"container": "Bernoulli's figures from Ars Conjectandi, in Sheynin's translation; the exact counts computed for kloom",
+			"licence": "MIT",
+			"file": "draws.svg"
+		}
+	]
+}

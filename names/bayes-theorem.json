@@ -1,0 +1,9 @@
+{
+	"id": "bayes-theorem",
+	"wikidata": "Q182505",
+	"name": "Bayes' theorem",
+	"aliases": ["Bayes's theorem", "Bayes' rule"],
+	"kind": "idea",
+	"description": "The rule for updating the probability of a hypothesis in the light of evidence, from the prior odds and the likelihood of the evidence.",
+	"home": "mathematics/bayes"
+}

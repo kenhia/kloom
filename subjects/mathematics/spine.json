@@ -56,6 +56,12 @@
 			]
 		},
 		{
+			"id": "probability",
+			"title": "Probability",
+			"labelKind": "category",
+			"frames": ["problem-of-points", "large-numbers", "normal-distribution", "bayes"]
+		},
+		{
 			"id": "logic",
 			"title": "Logic and foundations",
 			"labelKind": "category",
