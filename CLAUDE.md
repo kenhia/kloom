@@ -145,6 +145,10 @@ Sprint 022 About kloom: the library counted live from the narratives
 (`engine/stats.ts`, `/api/stats`, `just stats`: about 819 pages at 275
 words a page), and the start screen's corner, with About (the book, the
 stats, credits and the build) and the settings gear.
+Sprint 023 exploring for fun: the whole library as a 3D force graph
+(the map's "3D" switch; `3d-force-graph` and three.js loaded only when
+it opens, decorative, with the 2D map as the accessible route), and two
+dice for a random frame in this subject (D) or anywhere (W).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

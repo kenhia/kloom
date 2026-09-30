@@ -118,9 +118,11 @@ describe('the shell', () => {
 		expect(page().body).toMatch(/<button type="submit"[^>]*>\s*Ask\s*<\/button>/);
 	});
 
-	it('says in the hint bar that S, T, C and M act from the spine or narrative only', () => {
+	it('says in the hint bar that S, T, C, M, D and W act from the spine or narrative only', () => {
 		const hint = said(page().body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
-		expect(hint).toContain('S sync, T trail, C contents and M map, in the spine or narrative');
+		expect(hint).toContain(
+			'S sync, T trail, C contents, M map, D random and W anywhere, in the spine or narrative'
+		);
 	});
 
 	it('opens on a start screen, with the shell inert behind it', () => {

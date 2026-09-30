@@ -142,6 +142,17 @@
   western-civ's reach into the tech cluster raised from 21 to 27 frames in
   two steps and 27 to 47 in three — [record](../021-fifth-subject-physics.md).
 
+- Sprint 022: About kloom (proposal 3457). The library counted live from
+  the narratives (`engine/stats.ts`, `/api/stats`, `just stats`: about 819
+  pages at 275 words a page) (3455), and the start screen's corner, with
+  About and the settings gear (3456) — [record](../022-about-kloom.md).
+
+- Sprint 023: exploring for fun (proposal 3452). The whole library as a 3D
+  force graph behind the map's "3D" switch, `3d-force-graph` loaded only
+  when it opens (3449), and two dice: a random frame in this subject (D)
+  and anywhere in the library (W), never the one you are on (3437) —
+  [record](../023-exploring-for-fun.md).
+
 ## Next
 
 - Whatever the korg Planning queue holds for project kloom (72).

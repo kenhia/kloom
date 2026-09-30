@@ -14,6 +14,10 @@ function build(): string {
 
 export default defineConfig({
 	define: { __KLOOM_BUILD__: JSON.stringify(build()) },
+	// SvelteKit's dev server serves only its own directories; a module the
+	// engine imports lazily (the 3D view) is requested on its own, so the
+	// engine is allowed too.
+	server: { fs: { allow: ['engine'] } },
 	plugins: [
 		sveltekit({
 			compilerOptions: {

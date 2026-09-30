@@ -10,7 +10,8 @@
 		type Place,
 		type ReaderLayer
 	} from '$engine/reader-data';
-	import type { MapData } from '$engine/map';
+	import { subjectOf, type MapData } from '$engine/map';
+	import { pickOther, walkedFrames } from '$engine/random';
 	import MapOverlay, { type MapOpen } from '$engine/ui/MapOverlay.svelte';
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
@@ -284,6 +285,25 @@
 		}
 	}
 
+	// Random jumps (docs/design.md §Random, korg 3437): a jump like any other,
+	// so the Back chip and the browser's Back return from one. Anywhere in the
+	// library reads the frames from the map's data, fetched once.
+	async function random(scope: 'subject' | 'library') {
+		const f = current;
+		if (!f) return false;
+		if (scope === 'subject') {
+			const to = pickOther(walkedFrames(data.subject), f.id);
+			if (to) follow(data.subject.id, to);
+			return !!to;
+		}
+		const frames = await loadMap()
+			.then((d) => d.frames.map((x) => x.key))
+			.catch(() => null);
+		const to = frames && pickOther(frames, `${data.subject.id}/${f.id}`);
+		if (to) follow(subjectOf(to), to.slice(to.indexOf('/') + 1));
+		return !!to;
+	}
+
 	const backOffer = $derived.by(() => {
 		const stack = page.state.back ?? [];
 		return stack.length
@@ -395,6 +415,7 @@
 		onfollow={follow}
 		back={backOffer}
 		onmap={openMap}
+		onrandom={random}
 	/>
 {/key}
 
