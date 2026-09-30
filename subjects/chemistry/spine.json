@@ -11,6 +11,18 @@
 			"title": "Industry",
 			"labelKind": "category",
 			"frames": ["chemical-warfare", "polymers", "leaded-petrol"]
+		},
+		{
+			"id": "materials",
+			"title": "Materials",
+			"labelKind": "category",
+			"frames": ["photolithography", "lithium-battery"]
+		},
+		{
+			"id": "now",
+			"title": "Chemistry now",
+			"labelKind": "category",
+			"frames": ["ozone-hole"]
 		}
 	]
 }

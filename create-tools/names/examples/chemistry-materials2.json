@@ -1,0 +1,32 @@
+{
+	"chemistry/photolithography": [
+		["photoresist", "photoresist"],
+		["Nicéphore Niépce", "nicephore-niepce"],
+		["Eastman Kodak", "kodak"],
+		["Jay Lathrop", "jay-w-lathrop"],
+		["photolithography", "photolithography"],
+		["IBM", "ibm"],
+		["C. Grant Willson", "c-grant-willson"],
+		["Extreme-ultraviolet lithography", "euv-lithography"]
+	],
+	"chemistry/lithium-battery": [
+		["Lithium", "lithium"],
+		["lithium-ion battery", "lithium-ion-battery"],
+		["M. Stanley Whittingham", "m-stanley-whittingham"],
+		["John B. Goodenough", "john-b-goodenough"],
+		["Akira Yoshino", "akira-yoshino"],
+		["Sony", "sony"],
+		["smartphone", "smartphone"],
+		["Nobel Prize in Chemistry", "nobel-prize-in-chemistry"]
+	],
+	"chemistry/ozone-hole": [
+		["ozone depletion", "ozone-depletion"],
+		["Chlorofluorocarbons", "chlorofluorocarbon"],
+		["Thomas Midgley Jr.", "thomas-midgley-jr"],
+		["Mario Molina", "mario-molina"],
+		["F. Sherwood Rowland", "f-sherwood-rowland"],
+		["Joe Farman", "joe-farman"],
+		["Halley", "halley-research-station"],
+		["Montreal Protocol", "montreal-protocol"]
+	]
+}

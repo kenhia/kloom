@@ -1,0 +1,198 @@
+{
+	"id": "lithium-battery",
+	"topic": "The lithium-ion battery",
+	"position": {
+		"label": "Batteries"
+	},
+	"scene": {
+		"headline": "We tamed",
+		"accent": "LITHIUM.",
+		"palette": "enamel",
+		"illustration": "scene.svg",
+		"metadata": ["EXXON · OXFORD · ASAHI KASEI · SONY", "TiS₂ · LiCoO₂ · CARBON · LiFePO₄"],
+		"counter": {
+			"value": "274 mAh/g",
+			"label": "LiCoO₂'s theoretical capacity, by our arithmetic"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Lithium-Ion Batteries: Scientific Background on the Nobel Prize in Chemistry 2019",
+			"authors": [
+				{
+					"family": "Ramström",
+					"given": "Olof"
+				}
+			],
+			"publisher": "Royal Swedish Academy of Sciences",
+			"place": "Stockholm",
+			"published": "2019-10-09",
+			"url": "https://www.nobelprize.org/uploads/2019/10/advanced-chemistryprize2019.pdf",
+			"accessed": "2026-09-30",
+			"note": "Whittingham's TiS₂ cell, Goodenough's LiₓCoO₂, Yoshino's coke anode, and Sony's 1991 cell"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Reflection on Lithium-Ion Battery Cathode Chemistry",
+			"authors": [
+				{
+					"family": "Manthiram",
+					"given": "Arumugam"
+				}
+			],
+			"container": "Nature Communications",
+			"volume": "11",
+			"pages": "1550",
+			"published": "2020-03-25",
+			"doi": "10.1038/s41467-020-15355-0",
+			"accessed": "2026-09-30",
+			"note": "Why an oxide gives about 4 volts, and LiCoO₂'s practical limit of about 140 mAh/g"
+		},
+		{
+			"kind": "article",
+			"title": "Re-examining Rates of Lithium-Ion Battery Technology Improvement and Cost Decline",
+			"authors": [
+				{
+					"family": "Ziegler",
+					"given": "Micah S."
+				},
+				{
+					"family": "Trancik",
+					"given": "Jessika E."
+				}
+			],
+			"container": "Energy & Environmental Science",
+			"volume": "14",
+			"issue": "4",
+			"pages": "1635–1651",
+			"published": "2021",
+			"doi": "10.1039/D0EE02681F",
+			"url": "https://arxiv.org/abs/2007.13920",
+			"accessed": "2026-09-30",
+			"note": "Read in the arXiv preprint"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lithium-ion battery",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lithium-ion_battery&oldid=1376464734",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John B. Goodenough",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_B._Goodenough&oldid=1372869629",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "M. Stanley Whittingham",
+			"url": "https://en.wikipedia.org/w/index.php?title=M._Stanley_Whittingham&oldid=1375679426",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Akira Yoshino",
+			"url": "https://en.wikipedia.org/w/index.php?title=Akira_Yoshino&oldid=1355936861",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lithium cobalt oxide",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lithium_cobalt_oxide&oldid=1369463410",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lithium iron phosphate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lithium_iron_phosphate&oldid=1374784380",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "media",
+			"title": "Royal Society of Chemistry National Chemical Landmark plaque at Oxford's Inorganic Chemistry Laboratory, unveiled 30 November 2010",
+			"url": "https://commons.wikimedia.org/wiki/File:Inorganic-chemistry-lab-Oxford-plaque.jpg",
+			"accessed": "2026-09-30",
+			"container": "Oxford, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "plaque.jpg",
+			"authors": [
+				{
+					"name": "Kastrel"
+				}
+			],
+			"published": "2014-03-10"
+		},
+		{
+			"kind": "media",
+			"title": "A cylindrical lithium-ion cell taken apart: can, cap and rolled electrodes",
+			"url": "https://commons.wikimedia.org/wiki/File:Lithium-Ion_Cell_cylindric.JPG",
+			"accessed": "2026-09-30",
+			"container": "Via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "cell.jpg",
+			"authors": [
+				{
+					"name": "RudolfSimon"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/smartphone",
+			"why": "The smartphone runs on a lithium-ion cell; lithium cobalt oxide, found at Oxford in 1980, is the usual cathode of handheld electronics."
+		}
+	]
+}
