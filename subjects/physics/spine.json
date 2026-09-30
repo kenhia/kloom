@@ -72,7 +72,13 @@
 			"id": "cosmos",
 			"title": "The cosmos",
 			"labelKind": "category",
-			"frames": ["expanding-universe", "cmb", "dark-matter"]
+			"frames": ["expanding-universe", "cmb", "dark-matter", "dark-energy", "cosmology-now"]
+		},
+		{
+			"id": "open",
+			"title": "Open questions",
+			"labelKind": "category",
+			"frames": ["where-physics-is"]
 		}
 	]
 }

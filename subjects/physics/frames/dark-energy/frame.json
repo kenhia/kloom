@@ -1,0 +1,404 @@
+{
+	"id": "dark-energy",
+	"topic": "Dark energy",
+	"asOf": "2026-09-29",
+	"position": {
+		"label": "Dark energy"
+	},
+	"scene": {
+		"headline": "We caught the universe",
+		"accent": "ACCELERATING.",
+		"palette": "deepfield",
+		"illustration": "scene.svg",
+		"metadata": ["BERKELEY · MOUNT STROMLO · KITT PEAK", "TYPE IA SUPERNOVAE · Λ · DESI"],
+		"counter": {
+			"value": "68%",
+			"label": "of the universe's energy, as dark energy (Planck 2018)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+			"doi": "10.1086/300499",
+			"url": "https://arxiv.org/abs/astro-ph/9805201",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Riess",
+					"given": "Adam G."
+				},
+				{
+					"family": "Filippenko",
+					"given": "Alexei V."
+				},
+				{
+					"family": "Challis",
+					"given": "Peter"
+				},
+				{
+					"family": "Clocchiatti",
+					"given": "Alejandro"
+				},
+				{
+					"family": "Diercks",
+					"given": "Alan"
+				},
+				{
+					"family": "Garnavich",
+					"given": "Peter M."
+				},
+				{
+					"family": "Gilliland",
+					"given": "Ron L."
+				}
+			],
+			"etAl": true,
+			"container": "The Astronomical Journal",
+			"volume": "116",
+			"issue": "3",
+			"pages": "1009–1038",
+			"published": "1998",
+			"note": "The high-redshift supernovae are \"10% to 15% farther than expected\""
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Measurements of Ω and Λ from 42 High-Redshift Supernovae",
+			"doi": "10.1086/307221",
+			"url": "https://arxiv.org/abs/astro-ph/9812133",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Perlmutter",
+					"given": "S."
+				},
+				{
+					"family": "Aldering",
+					"given": "G."
+				},
+				{
+					"family": "Goldhaber",
+					"given": "G."
+				},
+				{
+					"family": "Knop",
+					"given": "R. A."
+				},
+				{
+					"family": "Nugent",
+					"given": "P."
+				},
+				{
+					"family": "Castro",
+					"given": "P. G."
+				},
+				{
+					"family": "Deustua",
+					"given": "S."
+				}
+			],
+			"etAl": true,
+			"container": "The Astrophysical Journal",
+			"volume": "517",
+			"issue": "2",
+			"pages": "565–586",
+			"published": "1999"
+		},
+		{
+			"kind": "article",
+			"title": "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints",
+			"doi": "10.1103/tr6y-kpc6",
+			"url": "https://arxiv.org/abs/2503.14738",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "DESI Collaboration"
+				}
+			],
+			"container": "Physical Review D",
+			"volume": "112",
+			"pages": "083515",
+			"published": "2025",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Dark Energy Survey Supernova Program: A Reanalysis Of Cosmology Results And Evidence For Evolving Dark Energy With An Updated Type Ia Supernova Calibration",
+			"doi": "10.1093/mnras/stag632",
+			"url": "https://arxiv.org/abs/2511.07517",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Popovic",
+					"given": "B."
+				},
+				{
+					"family": "Shah",
+					"given": "P."
+				},
+				{
+					"family": "Kenworthy",
+					"given": "W. D."
+				},
+				{
+					"family": "Kessler",
+					"given": "R."
+				},
+				{
+					"family": "Davis",
+					"given": "T. M."
+				}
+			],
+			"etAl": true,
+			"container": "Monthly Notices of the Royal Astronomical Society",
+			"published": "2026"
+		},
+		{
+			"kind": "article",
+			"title": "Constraints on Dynamical Dark Energy from Multiple Probes in the Full Dark Energy Survey",
+			"url": "https://arxiv.org/abs/2605.27221",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "DES Collaboration"
+				}
+			],
+			"container": "arXiv preprint arXiv:2605.27221",
+			"published": "2026-05"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Cosmological constant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cosmological_constant&oldid=1373989200",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Cosmological constant problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cosmological_constant_problem&oldid=1373994027",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "article",
+			"title": "Interrogating the Legend of Einstein’s “Biggest Blunder”",
+			"doi": "10.1007/s00016-018-0228-9",
+			"url": "https://arxiv.org/abs/1804.06768",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "O’Raifeartaigh",
+					"given": "Cormac"
+				},
+				{
+					"family": "Mitton",
+					"given": "Simon"
+				}
+			],
+			"container": "Physics in Perspective",
+			"volume": "20",
+			"issue": "4",
+			"pages": "318–341",
+			"published": "2018"
+		},
+		{
+			"kind": "article",
+			"title": "The Cosmological Constant Problems",
+			"url": "https://arxiv.org/abs/astro-ph/0005265",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Weinberg",
+					"given": "Steven"
+				}
+			],
+			"container": "arXiv preprint arXiv:astro-ph/0005265",
+			"published": "2000",
+			"note": "A talk given at Dark Matter 2000; read at the NASA/IPAC Extragalactic Database copy"
+		},
+		{
+			"kind": "article",
+			"title": "Everything You Always Wanted To Know About The Cosmological Constant Problem (But Were Afraid To Ask)",
+			"doi": "10.1016/j.crhy.2012.04.008",
+			"url": "https://arxiv.org/abs/1205.3365",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Martin",
+					"given": "Jérôme"
+				}
+			],
+			"container": "Comptes Rendus Physique",
+			"volume": "13",
+			"issue": "6–7",
+			"published": "2012"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physics 2011: Press release",
+			"url": "https://www.nobelprize.org/prizes/physics/2011/press-release/",
+			"accessed": "2026-09-29",
+			"container": "NobelPrize.org",
+			"publisher": "The Royal Swedish Academy of Sciences",
+			"published": "2011-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "This massive 3D map of 47 million galaxies could unlock dark energy secrets",
+			"url": "https://www.sciencedaily.com/releases/2026/04/260427050604.htm",
+			"accessed": "2026-09-29",
+			"container": "ScienceDaily",
+			"published": "2026-04-28",
+			"note": "From Ohio State University"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dark energy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1374853204",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Accelerating expansion of the universe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Accelerating_expansion_of_the_universe&oldid=1377489475",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dark Energy Spectroscopic Instrument",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dark_Energy_Spectroscopic_Instrument&oldid=1371075329",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "High-Z Supernova Search Team",
+			"url": "https://en.wikipedia.org/w/index.php?title=High-Z_Supernova_Search_Team&oldid=1364797777",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Supernova Cosmology Project",
+			"url": "https://en.wikipedia.org/w/index.php?title=Supernova_Cosmology_Project&oldid=1360896973",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Einstein's static universe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Einstein's_static_universe&oldid=1375463982",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Supernova 1994D, at lower left, in the galaxy NGC 4526, photographed by the Hubble Space Telescope",
+			"url": "https://commons.wikimedia.org/wiki/File:Supernova_1994D_in_the_galaxy_NGC_4526_(ann11014a).jpg",
+			"accessed": "2026-09-29",
+			"container": "ESA/Hubble (ann11014a), via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "sn1994d.jpg",
+			"authors": [
+				{
+					"family": "NASA/ESA",
+					"given": "The Hubble Key Project Team and The High-Z Supernova Search Team"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "DESI installed on the Nicholas U. Mayall 4-meter Telescope, Kitt Peak",
+			"url": "https://commons.wikimedia.org/wiki/File:DESI_installed_on_the_Mayall_4-meter_telescope_(noirlab-mayall-desi-5).jpg",
+			"accessed": "2026-09-29",
+			"container": "NOIRLab (noirlab-mayall-desi-5), via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "desi-mayall.jpg",
+			"authors": [
+				{
+					"name": "KPNO/NOIRLab/NSF/AURA/P. Marenfeld"
+				}
+			],
+			"published": "2020"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: the preference for evolving dark energy over a cosmological constant, drawn for kloom",
+			"url": "https://arxiv.org/abs/2503.14738",
+			"accessed": "2026-09-29",
+			"container": "Data from DESI Collaboration (2025), Popovic et al. (2026) and the DES Collaboration (2026)",
+			"licence": "MIT",
+			"file": "significance.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/cosmology-now",
+			"why": "Whether dark energy changes, as DESI's data hint, is a question the surveys that frame describes, Euclid, Rubin and Roman, were built to answer."
+		}
+	]
+}

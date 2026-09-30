@@ -1,0 +1,324 @@
+{
+	"id": "where-physics-is",
+	"topic": "Physics today",
+	"asOf": "2026-09-29",
+	"position": {
+		"label": "Open questions"
+	},
+	"scene": {
+		"headline": "The frontier is still",
+		"accent": "OPEN.",
+		"palette": "deepfield",
+		"illustration": "scene.svg",
+		"metadata": ["CERN · FERMILAB · KARLSRUHE · STOCKHOLM", "c · G · ħ"],
+		"counter": {
+			"value": "0.5σ",
+			"label": "between the muon's measured g − 2 and the Standard Model, April 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Quantum gravity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_gravity&oldid=1375223127",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "CGh physics",
+			"url": "https://en.wikipedia.org/w/index.php?title=CGh_physics&oldid=1370753874",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "String theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=String_theory&oldid=1375698670",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Loop quantum gravity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Loop_quantum_gravity&oldid=1364003498",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-13"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Hierarchy problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hierarchy_problem&oldid=1377489741",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Physics beyond the Standard Model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Physics_beyond_the_Standard_Model&oldid=1374115489",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Large Hadron Collider",
+			"url": "https://en.wikipedia.org/w/index.php?title=Large_Hadron_Collider&oldid=1376796660",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "High Luminosity Large Hadron Collider",
+			"url": "https://en.wikipedia.org/w/index.php?title=High_Luminosity_Large_Hadron_Collider&oldid=1376292225",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "CERN Council updates the European Strategy",
+			"url": "https://cerncourier.com/a/cern-council-updates-the-european-strategy/",
+			"accessed": "2026-09-29",
+			"container": "CERN Courier",
+			"publisher": "CERN",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Neutrino oscillation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neutrino_oscillation&oldid=1377099479",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "article",
+			"title": "Direct neutrino-mass measurement based on 259 days of KATRIN data",
+			"doi": "10.1126/science.adq9592",
+			"url": "https://arxiv.org/abs/2406.13516",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "KATRIN Collaboration"
+				}
+			],
+			"container": "Science",
+			"volume": "388",
+			"issue": "6743",
+			"pages": "180–185",
+			"published": "2025-04-11"
+		},
+		{
+			"kind": "article",
+			"title": "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints",
+			"doi": "10.1103/tr6y-kpc6",
+			"url": "https://arxiv.org/abs/2503.14738",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "DESI Collaboration"
+				}
+			],
+			"container": "Physical Review D",
+			"volume": "112",
+			"pages": "083515",
+			"published": "2025"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Measurement of the Positive Muon Anomalous Magnetic Moment to 127 ppb",
+			"url": "https://arxiv.org/abs/2506.03069",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Muon g-2 Collaboration"
+				}
+			],
+			"container": "arXiv preprint arXiv:2506.03069",
+			"published": "2025-06-03"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Hybrid calculation of hadronic vacuum polarization in muon g − 2 to 0.48%",
+			"doi": "10.1038/s41586-026-10449-z",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Boccaletti",
+					"given": "A."
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"published": "2026-04-22",
+			"note": "Read through the CNRS summary, \"Reconciling the Standard Model with the muon anomaly\", and arXiv:2603.03835"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Muon g-2",
+			"url": "https://en.wikipedia.org/w/index.php?title=Muon_g-2&oldid=1369629058",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Measurement problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Measurement_problem&oldid=1372264965",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "KATRIN",
+			"url": "https://en.wikipedia.org/w/index.php?title=KATRIN&oldid=1339840991",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Nobel Prize in Physics 2024: Press release",
+			"url": "https://www.nobelprize.org/prizes/physics/2024/press-release/",
+			"accessed": "2026-09-29",
+			"container": "NobelPrize.org",
+			"publisher": "The Royal Swedish Academy of Sciences",
+			"published": "2024-10-08"
+		},
+		{
+			"kind": "media",
+			"title": "The LHC tunnel at CERN, with its superconducting magnets",
+			"url": "https://commons.wikimedia.org/wiki/File:CERN_LHC_Tunnel1.jpg",
+			"accessed": "2026-09-29",
+			"container": "Via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "lhc-tunnel.jpg",
+			"authors": [
+				{
+					"name": "Julian Herzog"
+				}
+			],
+			"published": "2008"
+		},
+		{
+			"kind": "media",
+			"title": "The Muon g−2 (E989) storage ring at Fermilab",
+			"url": "https://commons.wikimedia.org/wiki/File:Fermilab_g-2_(E989)_ring.jpg",
+			"accessed": "2026-09-29",
+			"container": "Fermilab, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "g2-ring.jpg",
+			"authors": [
+				{
+					"family": "Hahn",
+					"given": "Reidar"
+				}
+			],
+			"published": "2017-03-31"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/hopfield-network",
+			"why": "Hopfield's half of the 2024 Nobel Prize in Physics, this frame's example of physics reaching outside itself, was for the network that frame describes, whose energy is written like that of a magnet's atomic spins."
+		},
+		{
+			"to": "ai/boltzmann-machine",
+			"why": "The Nobel committee named the Boltzmann machine, which learns with Boltzmann's distribution from statistical physics, as Hinton's contribution to the 2024 physics prize."
+		},
+		{
+			"to": "feynman/path-integrals-today",
+			"why": "The muon g − 2 disagreement this frame reports closed was closed by lattice QCD, the path integral summed on supercomputers that frame describes."
+		},
+		{
+			"to": "feynman/magnetic-moment",
+			"why": "The muon's g − 2, measured at Fermilab, is the same quantity for a heavier particle as the electron's g-factor that frame follows, the most precisely measured and calculated quantity in physics."
+		}
+	]
+}
