@@ -1,0 +1,161 @@
+{
+	"id": "displacement-current",
+	"topic": "Maxwell's displacement current",
+	"position": {
+		"label": "1861–1862",
+		"sort": 1861
+	},
+	"scene": {
+		"headline": "We built the aether out of",
+		"accent": "GEARS.",
+		"palette": "gaslight",
+		"illustration": "scene.svg",
+		"metadata": ["KING'S COLLEGE LONDON · JAMES CLERK MAXWELL", "PHILOSOPHICAL MAGAZINE · 1861–62"],
+		"counter": {
+			"value": "1.3%",
+			"label": "between Weber and Kohlrausch's ratio of units and Fizeau's speed of light, as Maxwell printed them"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "On Physical Lines of Force",
+			"url": "https://archive.org/details/scientificpapers01maxwuoft",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Maxwell",
+					"given": "James Clerk"
+				}
+			],
+			"container": "The Scientific Papers of James Clerk Maxwell, vol. 1",
+			"editors": [
+				{
+					"family": "Niven",
+					"given": "W. D."
+				}
+			],
+			"pages": "451–513",
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1890",
+			"note": "First printed in the Philosophical Magazine, 1861–62; idle wheels p. 468, the speed of the waves pp. 499–500"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Maxwell, Measurement, and the Modes of Electromagnetic Theory",
+			"doi": "10.1525/hsns.2015.45.2.303",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Hunt",
+					"given": "Bruce J."
+				}
+			],
+			"container": "Historical Studies in the Natural Sciences",
+			"volume": "45",
+			"issue": "2",
+			"pages": "303–339",
+			"published": "2015",
+			"note": "The summer at Glenlair, the letter to Faraday, Weber's view of the ratio and Maxwell's miscopying of Fizeau"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "On Physical Lines of Force",
+			"url": "https://en.wikipedia.org/w/index.php?title=On_Physical_Lines_of_Force&oldid=1348555157",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Displacement current density",
+			"url": "https://en.wikipedia.org/w/index.php?title=Displacement_current_density&oldid=1355828946",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of Maxwell's equations",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_Maxwell's_equations&oldid=1360135498",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wilhelm Eduard Weber",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wilhelm_Eduard_Weber&oldid=1375099646",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rudolf Kohlrausch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rudolf_Kohlrausch&oldid=1326563023",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-09"
+		},
+		{
+			"kind": "media",
+			"title": "Maxwell's figure of the medium: vortex cells and the particles between them, from \"On Physical Lines of Force\", Part II",
+			"url": "https://commons.wikimedia.org/wiki/File:On-physical-lines-of-force-p38.png",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Maxwell",
+					"given": "James Clerk"
+				}
+			],
+			"container": "Philosophical Magazine, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "vortices-plate.png",
+			"published": "1861"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/maxwell",
+			"why": "The 310,740 kilometres a second that Maxwell's 1865 paper compares with light was first worked out here, in 1861–62, from Weber and Kohlrausch's measurement, with the waves running in a medium of vortices and idle wheels."
+		},
+		{
+			"to": "physics/faraday-lines",
+			"why": "Maxwell built his vortex medium to give Faraday's lines of force a mechanism, and used it in the paper's fourth part to explain the Faraday effect."
+		}
+	]
+}

@@ -1,0 +1,148 @@
+{
+	"id": "hertz",
+	"topic": "Hertz's radio waves",
+	"position": {
+		"label": "1886–1888",
+		"sort": 1886
+	},
+	"scene": {
+		"headline": "We made light no eye could",
+		"accent": "SEE.",
+		"palette": "foolscap",
+		"illustration": "scene.svg",
+		"metadata": ["KARLSRUHE · HEINRICH HERTZ", "SPARK GAP · RING DETECTOR · ZINC MIRROR"],
+		"counter": {
+			"value": "4.8 m",
+			"label": "half a wave, measured in a Karlsruhe lecture room, March 1888"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Electric Waves: Being Researches on the Propagation of Electric Action with Finite Velocity through Space",
+			"url": "https://archive.org/details/electricwavesbe00hertgoog",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Hertz",
+					"given": "Heinrich"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "London",
+			"published": "1893",
+			"note": "Translated by D. E. Jones; the introduction (1892) on the spirals, the speed and Sarasin and de la Rive; papers VII, VIII, XI and XIII"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Heinrich Hertz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heinrich_Hertz&oldid=1377186537",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oliver Heaviside",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oliver_Heaviside&oldid=1375860835",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Francis FitzGerald",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Francis_FitzGerald&oldid=1371998356",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oliver Lodge",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oliver_Lodge&oldid=1372061486",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Guglielmo Marconi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Guglielmo_Marconi&oldid=1377526967",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "web",
+			"title": "Heinrich Hertz",
+			"url": "https://en.wikiquote.org/wiki/Heinrich_Hertz",
+			"accessed": "2026-09-29",
+			"container": "Wikiquote",
+			"publisher": "Wikimedia Foundation",
+			"note": "The \"no use whatsoever\" line, quoted from Andrew Norton, Dynamic Fields and Waves (2000), p. 83"
+		},
+		{
+			"kind": "media",
+			"title": "Hertz's figure of his apparatus for the speed of electrical action: oscillator, induction coil, wire and secondary circuits",
+			"url": "https://commons.wikimedia.org/wiki/File:Hertz_expt_apparatus.png",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Hertz",
+					"given": "Heinrich"
+				}
+			],
+			"container": "Electric Waves, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "hertz-expt.png",
+			"published": "1888"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/displacement-current",
+			"why": "The displacement current is what lets a wave cross empty space; Maxwell's model predicted such waves in 1862, and Hertz made and measured them in 1887–88."
+		},
+		{
+			"to": "western-civ/maxwell",
+			"why": "Maxwell's frame ends with Hertz confirming his waves and Heaviside writing his equations as four; this one tells how the waves were made and the equations cut down."
+		},
+		{
+			"to": "feynman/radio-boy",
+			"why": "Hertz's ring detector answered best when it was tuned to his oscillator; the crystal set Feynman built as a boy picks out a station by the same resonance, in waves of the kind Hertz first made."
+		}
+	]
+}
