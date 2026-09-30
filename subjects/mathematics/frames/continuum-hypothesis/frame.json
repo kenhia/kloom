@@ -1,0 +1,168 @@
+{
+	"id": "continuum-hypothesis",
+	"topic": "The continuum hypothesis",
+	"position": {
+		"label": "1878–1963",
+		"sort": 1963
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We could neither prove nor",
+		"accent": "DISPROVE.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": ["HALLE · PRINCETON · STANFORD", "CANTOR · GÖDEL · COHEN · FORCING · ZFC"],
+		"counter": {
+			"value": "85",
+			"label": "years from Cantor's question to Cohen's answer"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ein Beitrag zur Mannigfaltigkeitslehre",
+			"authors": [
+				{
+					"family": "Cantor",
+					"given": "Georg"
+				}
+			],
+			"container": "Journal für die reine und angewandte Mathematik",
+			"volume": "84",
+			"pages": "242–258",
+			"published": "1878",
+			"doi": "10.1515/crelle-1878-18788413",
+			"url": "https://archive.org/details/journalfrdierei55crelgoog",
+			"accessed": "2026-09-30",
+			"note": "The question and the guess, pp. 257–258; the translation in the reading is ours"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Consistency of the Axiom of Choice and of the Generalized Continuum-Hypothesis",
+			"authors": [
+				{
+					"family": "Gödel",
+					"given": "Kurt"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "24",
+			"issue": "12",
+			"pages": "556–557",
+			"published": "1938",
+			"doi": "10.1073/pnas.24.12.556",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Independence of the Continuum Hypothesis",
+			"authors": [
+				{
+					"family": "Cohen",
+					"given": "Paul J."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "50",
+			"issue": "6",
+			"pages": "1143–1148",
+			"published": "1963",
+			"doi": "10.1073/pnas.50.6.1143",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Continuum hypothesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Continuum_hypothesis&oldid=1376315189",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"note": "Kőnig's theorem, Woodin, Hamkins and Shelah, and the state of the question"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "How Many Numbers Exist? Infinity Proof Moves Math Closer to an Answer",
+			"authors": [
+				{
+					"family": "Wolchover",
+					"given": "Natalie"
+				}
+			],
+			"container": "Quanta Magazine",
+			"published": "2021-07-15",
+			"url": "https://www.quantamagazine.org/how-many-numbers-exist-infinity-proof-moves-math-closer-to-an-answer-20210715/",
+			"accessed": "2026-09-30",
+			"note": "Asperó and Schindler, Woodin's change of mind; quotes Gödel's \"What Is Cantor's Continuum Problem?\" (1947)"
+		},
+		{
+			"kind": "web",
+			"title": "The Continuum Hypothesis",
+			"authors": [
+				{
+					"family": "Koellner",
+					"given": "Peter"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2013-05-22",
+			"url": "https://plato.stanford.edu/entries/continuum-hypothesis/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Cohen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Cohen&oldid=1371982127",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "W. Hugh Woodin",
+			"url": "https://en.wikipedia.org/w/index.php?title=W._Hugh_Woodin&oldid=1372845308",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "media",
+			"title": "Page 257 of Cantor's \"Ein Beitrag zur Mannigfaltigkeitslehre\", with the question of the two classes",
+			"url": "https://archive.org/details/journalfrdierei55crelgoog/page/n268/mode/1up",
+			"accessed": "2026-09-30",
+			"container": "Journal für die reine und angewandte Mathematik 84, Google Books scan via the Internet Archive",
+			"licence": "Public domain",
+			"file": "cantor-1878.jpg",
+			"authors": [
+				{
+					"family": "Cantor",
+					"given": "Georg"
+				}
+			],
+			"published": "1878"
+		}
+	]
+}

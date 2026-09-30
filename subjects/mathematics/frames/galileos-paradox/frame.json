@@ -1,0 +1,147 @@
+{
+	"id": "galileos-paradox",
+	"topic": "Galileo's paradox of the squares",
+	"position": {
+		"label": "1638",
+		"sort": 1638
+	},
+	"scene": {
+		"headline": "The part was as big as the",
+		"accent": "WHOLE.",
+		"palette": "quarto",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LEIDEN · ELZEVIR · GALILEO GALILEI",
+			"TWO NEW SCIENCES · THE FIRST DAY · BOLZANO, 1851"
+		],
+		"counter": {
+			"value": "1 in 1,000",
+			"label": "numbers up to a million that are squares"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Dialogues Concerning Two New Sciences",
+			"authors": [
+				{
+					"family": "Galilei",
+					"given": "Galileo"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "New York",
+			"published": "1914",
+			"url": "https://archive.org/details/dialoguesconcern00galiuoft",
+			"accessed": "2026-09-30",
+			"note": "Translated by Henry Crew and Alfonso de Salvio; the squares on pp. 31–33, unity on pp. 37–38, the degrees of slowness on pp. 162–165"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Paradoxien des Unendlichen",
+			"authors": [
+				{
+					"family": "Bolzano",
+					"given": "Bernard"
+				}
+			],
+			"editors": [
+				{
+					"family": "Příhonský",
+					"given": "František"
+				}
+			],
+			"publisher": "C. H. Reclam",
+			"place": "Leipzig",
+			"published": "1851",
+			"url": "https://archive.org/details/paradoxiendesune00bolz",
+			"accessed": "2026-09-30",
+			"note": "§§ 20–21. Read in the Meiner edition of 1920, with notes by Hans Hahn"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Galileo's paradox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Galileo's_paradox&oldid=1287341755",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-04-25",
+			"note": "Duns Scotus's earlier comparison of the even numbers with all numbers"
+		},
+		{
+			"kind": "article",
+			"title": "Ein Beitrag zur Mannigfaltigkeitslehre",
+			"authors": [
+				{
+					"family": "Cantor",
+					"given": "Georg"
+				}
+			],
+			"container": "Journal für die reine und angewandte Mathematik",
+			"volume": "84",
+			"pages": "242–258",
+			"published": "1878",
+			"doi": "10.1515/crelle-1878-18788413",
+			"url": "https://archive.org/details/journalfrdierei55crelgoog",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Dedekind",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Dedekind&oldid=1371988861",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bernard Bolzano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bernard_Bolzano&oldid=1361652573",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-29"
+		},
+		{
+			"kind": "media",
+			"title": "Page 33 of Galileo's Discorsi e dimostrazioni matematiche intorno à due nuove scienze (Leiden, 1638), on the squares and their roots",
+			"url": "https://commons.wikimedia.org/wiki/File:Galilei_-_Discorsi_e_dimostrazioni_matematiche_intorno_a_due_nuove_scienze_-_1638.djvu",
+			"accessed": "2026-09-30",
+			"container": "Google Books scan, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "discorsi-page-33.jpg",
+			"authors": [
+				{
+					"family": "Galilei",
+					"given": "Galileo"
+				}
+			],
+			"published": "1638"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/falling-bodies",
+			"why": "The same book's third day needs the infinite too: a stone falling from rest passes through infinitely many degrees of speed, Salviati answers, because it stays at each for only an instant."
+		}
+	]
+}

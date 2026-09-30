@@ -1,0 +1,138 @@
+{
+	"id": "zeno",
+	"topic": "Zeno's paradoxes",
+	"position": {
+		"label": "c. 450 BC",
+		"sort": -450
+	},
+	"scene": {
+		"headline": "Achilles never caught the",
+		"accent": "TORTOISE.",
+		"palette": "clay",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ELEA · ATHENS · ZENO · PARMENIDES",
+			"ACHILLES · THE DICHOTOMY · THE ARROW · THE STADIUM"
+		],
+		"counter": {
+			"value": "40",
+			"label": "arguments against plurality in Zeno's lost book, by Proclus's count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Zeno's paradoxes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zeno's_paradoxes&oldid=1372946697",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03",
+			"note": "The four arguments against motion, and the philosophers who say the sum does not answer them"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Zeno's Paradoxes",
+			"authors": [
+				{
+					"family": "Huggett",
+					"given": "Nick"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2024-03-06",
+			"url": "https://plato.stanford.edu/entries/paradox-zeno/",
+			"accessed": "2026-09-30",
+			"note": "Zeno's life from Plato, Simplicius, Aristotle's two answers to the dichotomy, and Cauchy's sums"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Physics",
+			"authors": [
+				{
+					"name": "Aristotle"
+				}
+			],
+			"publisher": "Clarendon Press",
+			"place": "Oxford",
+			"published": "1930",
+			"url": "https://classics.mit.edu/Aristotle/physics.6.vi.html",
+			"accessed": "2026-09-30",
+			"note": "Translated by R. P. Hardie and R. K. Gaye; book VI, parts 2 and 9. Read at the Internet Classics Archive"
+		},
+		{
+			"kind": "book",
+			"title": "Parmenides",
+			"authors": [
+				{
+					"name": "Plato"
+				}
+			],
+			"publisher": "Project Gutenberg",
+			"url": "https://www.gutenberg.org/ebooks/1687",
+			"accessed": "2026-09-30",
+			"note": "Translated by Benjamin Jowett; the opening, 127a–128e"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zeno of Elea",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zeno_of_Elea&oldid=1371562313",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1/2 + 1/4 + 1/8 + 1/16 + ⋯",
+			"url": "https://en.wikipedia.org/w/index.php?title=1%2F2_%2B_1%2F4_%2B_1%2F8_%2B_1%2F16_%2B_%E2%8B%AF&oldid=1370360992",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "media",
+			"title": "The end of Simplicius's commentary on the third book of Aristotle's Physics, Bibliothèque nationale de France, gr. 1908, fol. 213v",
+			"url": "https://commons.wikimedia.org/wiki/File:Simplicius_of_Cilicia,_Commentary_on_Aristotle%27s_Physics_III_518,2%E2%80%9331.jpg",
+			"accessed": "2026-09-30",
+			"container": "Bibliothèque nationale de France, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "simplicius-commentary.jpg",
+			"authors": [
+				{
+					"name": "John Argyropoulos"
+				},
+				{
+					"name": "Palla Strozzi"
+				}
+			],
+			"published": "1441"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/aristotle-motion",
+			"why": "Zeno's arguments against motion survive because Aristotle stated and answered them in the sixth book of his Physics: time, he replied, is divisible just as a distance is."
+		}
+	]
+}
