@@ -1,0 +1,77 @@
+{
+	"title": "The History of Physics",
+	"palettes": {
+		"bronze": {
+			"scheme": "dark",
+			"background": "#1e1710",
+			"ink": "#f2e7d2",
+			"muted": "#bca788",
+			"accent": "#e0a456",
+			"line": "#e0cba6",
+			"counterpart": "papyrus"
+		},
+		"papyrus": {
+			"scheme": "light",
+			"background": "#f0e4c4",
+			"ink": "#2a2116",
+			"muted": "#65533a",
+			"accent": "#8a3b12",
+			"line": "#3b2f1f",
+			"counterpart": "bronze"
+		},
+		"gaslight": {
+			"scheme": "dark",
+			"background": "#221a1e",
+			"ink": "#f1e8e4",
+			"muted": "#b9a6ab",
+			"accent": "#f2b84b",
+			"line": "#d8c7cb",
+			"counterpart": "foolscap"
+		},
+		"foolscap": {
+			"scheme": "light",
+			"background": "#f3f0e8",
+			"ink": "#1f1b24",
+			"muted": "#5d5664",
+			"accent": "#2e5d8a",
+			"line": "#2c2733",
+			"counterpart": "gaslight"
+		},
+		"cloudchamber": {
+			"scheme": "dark",
+			"background": "#0f1418",
+			"ink": "#e9eef0",
+			"muted": "#9fb0b8",
+			"accent": "#6fd3c7",
+			"line": "#c3d2d8",
+			"counterpart": "photoplate"
+		},
+		"photoplate": {
+			"scheme": "light",
+			"background": "#eef0ee",
+			"ink": "#151a1c",
+			"muted": "#4e5a5e",
+			"accent": "#9c2f3f",
+			"line": "#1f272a",
+			"counterpart": "cloudchamber"
+		},
+		"deepfield": {
+			"scheme": "dark",
+			"background": "#0b0d1c",
+			"ink": "#e8e9f5",
+			"muted": "#a2a5c8",
+			"accent": "#f0a0c8",
+			"line": "#c7c9e6",
+			"counterpart": "starchart"
+		},
+		"starchart": {
+			"scheme": "light",
+			"background": "#f4f2f8",
+			"ink": "#16142a",
+			"muted": "#56527a",
+			"accent": "#4b33a8",
+			"line": "#25223f",
+			"counterpart": "deepfield"
+		}
+	}
+}

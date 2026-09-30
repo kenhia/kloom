@@ -1,0 +1,10 @@
+{
+	"segments": [
+		{
+			"id": "greeks",
+			"title": "The Greeks",
+			"labelKind": "date",
+			"frames": ["aristotle-motion", "archimedes", "ptolemy"]
+		}
+	]
+}
