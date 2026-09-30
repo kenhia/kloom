@@ -1,0 +1,147 @@
+{
+	"id": "matrix-mechanics",
+	"topic": "Heisenberg's matrix mechanics",
+	"position": {
+		"label": "1925",
+		"sort": 1925
+	},
+	"scene": {
+		"headline": "Order began to",
+		"accent": "MATTER.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": ["GÖTTINGEN · HELIGOLAND · CAMBRIDGE", "HEISENBERG · BORN · JORDAN · DIRAC"],
+		"counter": {
+			"value": "60",
+			"label": "days from Heisenberg's paper to Born and Jordan's, both received in 1925"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Umdeutung paper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Umdeutung_paper&oldid=1353780471",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-12",
+			"note": "The Heligoland story, Pauli's letters, and Born's recognition of matrices"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Matrix mechanics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Matrix_mechanics&oldid=1362327048",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03",
+			"note": "The papers' received dates, Pauli's hydrogen, and the 1932 prize"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "What happened on Helgoland 100 years ago—and what didn't?",
+			"url": "https://www.aip.org/history/what-happened-on-helgoland",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Dahn",
+					"given": "Ryan"
+				}
+			],
+			"container": "AIP History",
+			"publisher": "American Institute of Physics",
+			"published": "2025-06-13",
+			"note": "Adapted from “Demythologizing quantum history”, Physics Today, April 2025"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Max Born",
+			"url": "https://en.wikipedia.org/w/index.php?title=Max_Born&oldid=1376305312",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pascual Jordan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pascual_Jordan&oldid=1371981738",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Dirac",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Dirac&oldid=1372471093",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heligoland",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heligoland&oldid=1377617759",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Werner Heisenberg in 1926, photographed by Friedrich Hund",
+			"url": "https://commons.wikimedia.org/wiki/File:Heisenberg,Werner_1926.jpeg",
+			"accessed": "2026-09-29",
+			"container": "From the papers of Friedrich Hund, via Wikimedia Commons",
+			"licence": "CC BY 3.0",
+			"file": "heisenberg-1926.jpg",
+			"authors": [
+				{
+					"name": "Friedrich Hund"
+				}
+			],
+			"published": "1926"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/dirac-hint",
+			"why": "Dirac's first quantum paper, in 1925, built Heisenberg's new mechanics on Hamilton's form of classical mechanics through the Poisson bracket; in 1932, in the paper that frame reads, he asked what in quantum theory answers to the Lagrangian instead."
+		}
+	]
+}

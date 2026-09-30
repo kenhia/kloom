@@ -8,7 +8,14 @@
 				"id": "revolution",
 				"title": "The revolution",
 				"labelKind": "date",
-				"frames": ["photon", "bohr-atom", "de-broglie"]
+				"frames": [
+					"photon",
+					"bohr-atom",
+					"de-broglie",
+					"matrix-mechanics",
+					"wave-mechanics",
+					"uncertainty"
+				]
 			}
 		]
 	}

@@ -1,0 +1,8 @@
+{
+	"id": "quantum-key-distribution",
+	"wikidata": "Q1027298",
+	"name": "Quantum key distribution",
+	"aliases": ["QKD"],
+	"kind": "idea",
+	"description": "Sharing a secret cryptographic key by sending quantum states, so that an eavesdropper disturbs them and can be detected."
+}

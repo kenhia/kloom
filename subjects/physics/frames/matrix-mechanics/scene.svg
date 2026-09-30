@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M26 50 L108 50"/>
+		<path pathLength="1" d="M270 52 L270 132 M290 52 L290 132 M310 52 L310 132 M250 72 L330 72 M250 92 L330 92 M250 112 L330 112"/>
+		<path pathLength="1" d="M160 172 L160 252 M180 172 L180 252 M200 172 L200 252 M140 192 L220 192 M140 212 L220 212 M140 232 L220 232"/>
+		<path pathLength="1" d="M270 172 L270 252 M290 172 L290 252 M310 172 L310 252 M250 192 L330 192 M250 212 L330 212 M250 232 L330 232"/>
+		<path pathLength="1" d="M220 222 L270 222"/>
+		<path pathLength="1" d="M280 132 L280 212"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M26 262 L108 262"/>
+		<path pathLength="1" d="M26 103 L108 103"/>
+		<path pathLength="1" d="M26 73.6 L108 73.6"/>
+		<path pathLength="1" d="M26 63.2 L108 63.2"/>
+		<path pathLength="1" d="M250 52 L330 52 L330 132 L250 132 Z"/>
+		<path pathLength="1" d="M140 172 L220 172 L220 252 L140 252 Z"/>
+		<path pathLength="1" d="M250 172 L330 172 L330 252 L250 252 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M44 73.6 L44 100"/>
+		<path pathLength="1" d="M42.2 100 L44 103 L45.8 100"/>
+		<path pathLength="1" d="M62 103 L62 259"/>
+		<path pathLength="1" d="M60.2 259 L62 262 L63.8 259"/>
+		<path pathLength="1" d="M80 73.6 L80 259"/>
+		<path pathLength="1" d="M78.2 259 L80 262 L81.8 259"/>
+		<path pathLength="1" d="M98 63.2 L98 100"/>
+		<path pathLength="1" d="M96.2 100 L98 103 L99.8 100"/>
+		<path pathLength="1" d="M257 62 L263 62 M277 82 L283 82 M297 102 L303 102 M317 122 L323 122"/>
+		<path pathLength="1" d="M147 182 L153 182 M167 202 L173 202 M187 222 L193 222 M207 242 L213 242"/>
+		<path pathLength="1" d="M257 182 L263 182 M277 202 L283 202 M297 222 L303 222 M317 242 L323 242"/>
+		<path pathLength="1" d="M142 214 L218 214 L218 230 L142 230 Z"/>
+		<path pathLength="1" d="M272 54 L288 54 L288 130 L272 130 Z"/>
+		<path pathLength="1" d="M274 222 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0"/>
+		<path pathLength="1" d="M148 222 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M278 62 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M168 222 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M278 82 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M188 222 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M278 102 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M208 222 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M278 122 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+	</g>
+	<g>
+		<text x="114" y="265" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">n=1</text>
+		<text x="114" y="106" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">n=2</text>
+		<text x="114" y="76.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">n=3</text>
+		<text x="114" y="66.2" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">n=4</text>
+		<text x="26" y="44" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IONISED</text>
+		<text x="290" y="44" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">P</text>
+		<text x="130" y="216" font-size="10" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">X</text>
+		<text x="290" y="268" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">XP</text>
+		<text x="180" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ROW 3</text>
+		<text x="242" y="95" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COL 2</text>
+		<text x="200" y="292" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PQ − QP = h/2πi</text>
+		<text x="180" y="60" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Σ X(3,k) P(k,2)</text>
+	</g>
+</svg>
