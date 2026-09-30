@@ -421,8 +421,13 @@ DIR` writes its text. Old books and documents are often on Wikisource
   `id_` form (`https://web.archive.org/web/2024id_/<url>`); cite the page by
   its own URL. Sprint 021 added APS, PNAS, MDPI, CERN's press pages and
   nobelprize.org to that list (the last serves its Wayback copy gzipped:
-  `curl --compressed`). The Feynman Lectures site refuses scripts and has
-  no readable archive.
+  `curl --compressed`). The Feynman Lectures site refuses scripts and has no readable archive,
+  and ScienceDirect (Elsevier, including _Historia Mathematica_'s open
+  archive) refuses both a script and the Wayback route: find the paper
+  elsewhere (an author's copy, a course page, archive.org), or cite only
+  what you read about it, as what you read. For an old edition,
+  archive.org's full text (the item's `_djvu.txt`) is often all you need
+  (sprint 024 read Peet's 1923 Rhind papyrus that way).
 - **Charts are inlined** into the reading, through the same sanitiser as a
   scene, so they follow the reader's palette. Make them with `bar-chart`,
   or draw one by hand in `currentColor` with the `muted` and `accent`
@@ -435,7 +440,10 @@ DIR` writes its text. Old books and documents are often on Wikisource
   national laboratory run under contract (Brookhaven, LIGO) is not a US
   government work, a `PD-USGov` tag can sit on a photograph nobody in
   government took, and a file may carry a deletion nomination (the 1927
-  Solvay photograph, in copyright in Belgium and France). Read the file
+  Solvay photograph, in copyright in Belgium and France). `PD-Art` covers a
+  faithful photograph of a flat work (a papyrus, a painting), not of a
+  three-dimensional one: a photograph of a clay tablet has its own
+  photographer's rights (sprint 024 left Plimpton 322's out). Read the file
   page.
 - **The subject's voice holds for arithmetic too**: "by our arithmetic",
   not "by my".
