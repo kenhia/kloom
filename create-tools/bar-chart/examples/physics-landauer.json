@@ -1,0 +1,37 @@
+{
+	"title": "Energy per bit or operation, from Landauer's bound to a memory access (log scale)",
+	"description": "Bar chart on a logarithmic scale of energy in joules: Landauer's bound kT ln 2 at 300 K, 2.9 × 10⁻²¹ J (computed for kloom); a nanomagnetic bit flipped in 2016, 4.2 × 10⁻²¹ J; switching one CMOS logic gate, from 10⁻¹⁶ J (100 attojoules) at the least; one 16-bit floating-point operation, about 1.5 × 10⁻¹³ J; carrying one bit across a chip, about 6 × 10⁻¹³ J; reading one bit from DRAM, about 5 × 10⁻¹² J. Data: Hong et al. 2016 via Wikipedia; Ho, Erdil and Besiroglu 2023, table I.",
+	"heading": "JOULES PER BIT OR OPERATION · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 1e-22,
+		"max": 1e-10,
+		"ticks": [
+			[1e-22, "10⁻²²"],
+			[1e-20, "10⁻²⁰"],
+			[1e-18, "10⁻¹⁸"],
+			[1e-16, "10⁻¹⁶"],
+			[1e-14, "10⁻¹⁴"],
+			[1e-12, "10⁻¹²"],
+			[1e-10, "10⁻¹⁰"]
+		]
+	},
+	"width": 720,
+	"height": 300,
+	"barWidth": 56,
+	"bars": [
+		{
+			"label": "kT ln 2",
+			"sublabel": "300 K",
+			"value": 2.87e-21,
+			"display": "2.9 × 10⁻²¹",
+			"highlight": true
+		},
+		{ "label": "Nanomagnet", "sublabel": "2016", "value": 4.2e-21, "display": "4.2 × 10⁻²¹" },
+		{ "label": "CMOS gate", "sublabel": "at least", "value": 1e-16, "display": "10⁻¹⁶" },
+		{ "label": "FP16 op", "sublabel": "GPU", "value": 1.5e-13, "display": "1.5 × 10⁻¹³" },
+		{ "label": "Bit on chip", "sublabel": "moved", "value": 6e-13, "display": "6 × 10⁻¹³" },
+		{ "label": "DRAM bit", "sublabel": "read", "value": 5e-12, "display": "5 × 10⁻¹²" }
+	]
+}

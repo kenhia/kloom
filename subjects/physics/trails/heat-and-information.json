@@ -8,7 +8,14 @@
 				"id": "information",
 				"title": "Entropy and information",
 				"labelKind": "date",
-				"frames": ["maxwells-demon", "boltzmann-entropy", "szilard-engine"]
+				"frames": [
+					"maxwells-demon",
+					"boltzmann-entropy",
+					"szilard-engine",
+					"shannon-entropy",
+					"landauer",
+					"reversible-computing"
+				]
 			}
 		]
 	}

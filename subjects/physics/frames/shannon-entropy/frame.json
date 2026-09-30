@@ -1,0 +1,232 @@
+{
+	"id": "shannon-entropy",
+	"topic": "Shannon's information entropy",
+	"position": {
+		"label": "1948",
+		"sort": 1948
+	},
+	"scene": {
+		"headline": "We counted surprise in",
+		"accent": "BITS.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BELL TELEPHONE LABORATORIES · CLAUDE SHANNON",
+			"BELL SYSTEM TECHNICAL JOURNAL · JULY AND OCTOBER 1948"
+		],
+		"counter": {
+			"value": "≈ 1",
+			"label": "bit per letter of English, Shannon's estimate of 1951"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Mathematical Theory of Communication",
+			"doi": "10.1002/j.1538-7305.1948.tb01338.x",
+			"url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Shannon",
+					"given": "C. E."
+				}
+			],
+			"container": "Bell System Technical Journal",
+			"volume": "27",
+			"issue": "3",
+			"pages": "379–423, 623–656",
+			"published": "1948",
+			"note": "Read in the reprint with corrections; H is Theorem 2, Tukey's bit is on the first page, the noisy channel of 1,000 symbols a second is in section 12"
+		},
+		{
+			"kind": "article",
+			"title": "Prediction and Entropy of Printed English",
+			"doi": "10.1002/j.1538-7305.1951.tb01366.x",
+			"url": "https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Shannon",
+					"given": "C. E."
+				}
+			],
+			"container": "Bell System Technical Journal",
+			"volume": "30",
+			"issue": "1",
+			"pages": "50–64",
+			"published": "1951"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Oral-History: Claude E. Shannon",
+			"url": "https://ethw.org/Oral-History:Claude_E._Shannon",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Shannon",
+					"given": "Claude E."
+				},
+				{
+					"family": "Price",
+					"given": "Robert"
+				}
+			],
+			"container": "Engineering and Technology History Wiki",
+			"publisher": "IEEE History Center",
+			"published": "1982-07-28",
+			"note": "Interview no. 423, conducted by Robert Price; Shannon on the von Neumann story and his 1945 cryptography report"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of entropy",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_entropy&oldid=1364129486",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14",
+			"note": "Quotes Tribus and McIrvine, \"Energy and Information\", Scientific American, September 1971, for the von Neumann story"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Entropy (information theory)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Entropy_(information_theory)&oldid=1367162767",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bit",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bit&oldid=1377491398",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Channel capacity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Channel_capacity&oldid=1371245167",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "article",
+			"title": "Information Theory and Statistical Mechanics",
+			"doi": "10.1103/PhysRev.106.620",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Jaynes",
+					"given": "E. T."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "106",
+			"issue": "4",
+			"pages": "620–630",
+			"published": "1957"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Principle of maximum entropy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Principle_of_maximum_entropy&oldid=1369222183",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Entropy in thermodynamics and information theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Entropy_in_thermodynamics_and_information_theory&oldid=1376475351",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Claude Shannon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Claude_Shannon&oldid=1376657034",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "Shannon's diagram of a general communication system, redrawn from figure 1 of his 1948 paper",
+			"url": "https://commons.wikimedia.org/wiki/File:Shannon_communication_system.svg",
+			"accessed": "2026-09-29",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "communication-system.png",
+			"authors": [
+				{
+					"name": "Wanderingstan"
+				},
+				{
+					"name": "Stannered"
+				}
+			],
+			"published": "2008-02-17"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/laws-of-thought",
+			"why": "Shannon's 1937 thesis made Boole's two values into relay switches; his 1948 paper made the two-way choice such a switch holds the unit of information, the bit."
+		},
+		{
+			"to": "ai/next-token",
+			"why": "Shannon measured the entropy of English in 1951 by having people guess the next letter; a language model is trained on the same guessing game, scored by the same logarithm, its cross-entropy."
+		},
+		{
+			"to": "ai/boltzmann-machine",
+			"why": "The Boltzmann distribution the machine samples from is, as Jaynes argued in 1957, the distribution of greatest Shannon entropy for a given average energy."
+		}
+	]
+}

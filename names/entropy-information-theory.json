@@ -1,0 +1,9 @@
+{
+	"id": "entropy-information-theory",
+	"wikidata": "Q204570",
+	"name": "Information entropy",
+	"aliases": ["Shannon entropy", "entropy (information theory)"],
+	"kind": "idea",
+	"description": "The average information, or uncertainty, of a source of messages, H = −Σ p log p, defined by Shannon in 1948 and measured in bits.",
+	"home": "physics/shannon-entropy"
+}
