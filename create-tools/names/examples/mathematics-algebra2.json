@@ -1,0 +1,22 @@
+{
+	"mathematics/matrices": [
+		["matrix", "matrix-mathematics"],
+		["Seki Takakazu", "seki-takakazu"],
+		["Gottfried Wilhelm Leibniz", "gottfried-wilhelm-leibniz"],
+		["Carl Friedrich Gauss", "carl-friedrich-gauss"],
+		["James Joseph Sylvester", "james-joseph-sylvester"],
+		["Arthur Cayley", "arthur-cayley"],
+		["Hermann Grassmann", "hermann-grassmann"],
+		["Werner Heisenberg", "werner-heisenberg"]
+	],
+	"mathematics/monster": [
+		["Monster", "monster-group"],
+		["classification of finite simple groups", "classification-of-finite-simple-groups"],
+		["Michael Aschbacher", "michael-aschbacher"],
+		["Robert Griess", "robert-griess"],
+		["Richard Borcherds", "richard-borcherds"],
+		["John McKay", "john-mckay-mathematician"],
+		["John Horton Conway", "john-horton-conway"],
+		["monstrous moonshine", "monstrous-moonshine"]
+	]
+}

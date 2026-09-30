@@ -17,6 +17,12 @@
 			"title": "Beyond Greece",
 			"labelKind": "date",
 			"frames": ["nine-chapters"]
+		},
+		{
+			"id": "algebra",
+			"title": "Algebra",
+			"labelKind": "category",
+			"frames": ["matrices", "monster"]
 		}
 	]
 }

@@ -1,0 +1,317 @@
+{
+	"id": "matrices",
+	"topic": "Matrices and linear algebra",
+	"position": {
+		"label": "Matrices"
+	},
+	"scene": {
+		"headline": "We learned to multiply",
+		"accent": "TABLES.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SEKI · LEIBNIZ · GAUSS · SYLVESTER · CAYLEY · GRASSMANN",
+			"DETERMINANTS 1683 · 'MATRIX' 1850 · A MEMOIR ON THE THEORY OF MATRICES 1858"
+		],
+		"counter": {
+			"value": "65,536",
+			"label": "multipliers in the matrix unit of Google's first TPU"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Matrix (mathematics)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Matrix_(mathematics)&oldid=1377683304",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"note": "History: Nine Chapters, Seki, Leibniz, Sylvester's word and his 1851 gloss, Cayley's memoir"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Matrices and Determinants",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"published": "1996-02",
+			"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+			"accessed": "2026-09-30",
+			"note": "Seki's Kaifukudai, Leibniz's letter to de l'Hôpital with its two-digit coefficients, Cramer, Gauss and Pallas"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Memoir on the Theory of Matrices",
+			"authors": [
+				{
+					"family": "Cayley",
+					"given": "Arthur"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "148",
+			"pages": "17–37",
+			"published": "1858",
+			"doi": "10.1098/rstl.1858.0002",
+			"url": "https://archive.org/details/collectedmathema02cayluoft",
+			"accessed": "2026-09-30",
+			"note": "Read in The Collected Mathematical Papers of Arthur Cayley, vol. 2 (1889), paper 152, pp. 475–496"
+		},
+		{
+			"kind": "article",
+			"title": "Additions to the Articles \"On a New Class of Theorems\" and \"On Pascal's Theorem\"",
+			"authors": [
+				{
+					"family": "Sylvester",
+					"given": "J. J."
+				}
+			],
+			"container": "Philosophical Magazine",
+			"volume": "37",
+			"pages": "363–370",
+			"published": "1850",
+			"url": "https://archive.org/details/collectedmathem01sylvrich",
+			"accessed": "2026-09-30",
+			"note": "Read in The Collected Mathematical Papers of James Joseph Sylvester, vol. 1 (1904), paper 25"
+		},
+		{
+			"kind": "article",
+			"title": "On the Relation between the Minor Determinants of Linearly Equivalent Quadratic Functions",
+			"authors": [
+				{
+					"family": "Sylvester",
+					"given": "J. J."
+				}
+			],
+			"container": "Philosophical Magazine",
+			"volume": "1",
+			"pages": "295–305",
+			"published": "1851",
+			"url": "https://archive.org/details/collectedmathem01sylvrich",
+			"accessed": "2026-09-30",
+			"note": "Fourth series. Read in The Collected Mathematical Papers of James Joseph Sylvester, vol. 1 (1904), paper 37"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mathematicians of Gaussian Elimination",
+			"authors": [
+				{
+					"family": "Grcar",
+					"given": "Joseph F."
+				}
+			],
+			"container": "Notices of the American Mathematical Society",
+			"volume": "58",
+			"issue": "6",
+			"pages": "782–792",
+			"published": "2011-06",
+			"url": "https://www.ams.org/notices/201106/rtx110600782p.pdf",
+			"accessed": "2026-09-30",
+			"note": "Newton's lesson, Gauss's 1810 notation, and Forsythe's naming of 1953"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Determinant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Determinant&oldid=1377680565",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Seki Takakazu",
+			"url": "https://en.wikipedia.org/w/index.php?title=Seki_Takakazu&oldid=1375873120",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gaussian elimination",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gaussian_elimination&oldid=1365416799",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cramer's rule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cramer's_rule&oldid=1372102893",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Joseph Sylvester",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Joseph_Sylvester&oldid=1372642243",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arthur Cayley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arthur_Cayley&oldid=1371973143",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hermann Grassmann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hermann_Grassmann&oldid=1372529587",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "web",
+			"title": "The Statistical Interpretation of Quantum Mechanics",
+			"authors": [
+				{
+					"family": "Born",
+					"given": "Max"
+				}
+			],
+			"container": "Nobel Lecture, 11 December 1954",
+			"publisher": "Nobel Foundation",
+			"published": "1954-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/born-lecture.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "chapter",
+			"title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+			"authors": [
+				{
+					"family": "Jouppi",
+					"given": "Norman P."
+				},
+				{
+					"family": "Young",
+					"given": "Cliff"
+				},
+				{
+					"family": "Patil",
+					"given": "Nishant"
+				},
+				{
+					"family": "Patterson",
+					"given": "David"
+				},
+				{
+					"family": "Agrawal",
+					"given": "Gaurav"
+				},
+				{
+					"family": "Bajwa",
+					"given": "Raminder"
+				},
+				{
+					"family": "Bates",
+					"given": "Sarah"
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the 44th Annual International Symposium on Computer Architecture",
+			"publisher": "ACM",
+			"place": "Toronto",
+			"published": "2017",
+			"doi": "10.1145/3079856.3080246",
+			"url": "https://arxiv.org/abs/1704.04760",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Title page of Hermann Grassmann's Die lineale Ausdehnungslehre, ein neuer Zweig der Mathematik (Leipzig: Otto Wigand, 1844)",
+			"url": "https://commons.wikimedia.org/wiki/File:Die_Lineale_Ausdehnungslehre_1844.png",
+			"accessed": "2026-09-30",
+			"container": "Google Books scan, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ausdehnungslehre.png",
+			"authors": [
+				{
+					"family": "Grassmann",
+					"given": "Hermann"
+				}
+			],
+			"published": "1844"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/matrix-mechanics",
+			"why": "Heisenberg's tables of transition amplitudes multiplied by a rule he had invented; Born recognised it as the matrix multiplication he had learned as a student, the product Cayley had shown does not commute."
+		},
+		{
+			"to": "ai/compute",
+			"why": "The chips that train and run neural networks are built around matrix multiplication: Google's first Tensor Processing Unit was, at heart, a 65,536-multiplier matrix unit."
+		},
+		{
+			"to": "ai/self-attention",
+			"why": "Self-attention is matrix algebra: each token's vector is multiplied by three learned matrices, and the scores are the product of the query and key matrices, QKᵀ."
+		}
+	]
+}
