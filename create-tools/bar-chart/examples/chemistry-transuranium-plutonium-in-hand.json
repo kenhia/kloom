@@ -1,0 +1,47 @@
+{
+	"title": "The plutonium in hand, 1941 to 1945 (log scale)",
+	"description": "Bar chart on a logarithmic scale, in micrograms: 0.5 micrograms of plutonium-239, the sample whose slow-neutron fission Kennedy, Seaborg, Segrè and Wahl measured in May 1941; 2.77 micrograms of plutonium oxide, the first weighing, on 10 September 1942; 20 micrograms of plutonium hydroxide in a capillary, September 1942; and about 6 kilograms, six thousand million micrograms, the core of the Fat Man bomb in August 1945. Data: Kennedy et al., Physical Review 70 (1946); Seaborg's Nobel lecture (1951); Wikipedia, Plutonium.",
+	"heading": "PLUTONIUM IN HAND · MICROGRAMS · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"width": 520,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"min": 0.1,
+		"max": 10000000000.0,
+		"ticks": [
+			[0.1, "0.1 µg"],
+			[1000, "1 mg"],
+			[1000000, "1 g"],
+			[1000000000, "1 kg"]
+		]
+	},
+	"bars": [
+		{
+			"label": "May 1941",
+			"sublabel": "fissioned",
+			"value": 0.5,
+			"display": "0.5 µg"
+		},
+		{
+			"label": "Sep 1942",
+			"sublabel": "weighed",
+			"value": 2.77,
+			"display": "2.77 µg",
+			"highlight": true
+		},
+		{
+			"label": "Sep 1942",
+			"sublabel": "hydroxide",
+			"value": 20,
+			"display": "20 µg"
+		},
+		{
+			"label": "Aug 1945",
+			"sublabel": "a bomb core",
+			"value": 6000000000,
+			"display": "~6 kg"
+		}
+	]
+}

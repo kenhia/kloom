@@ -1,0 +1,140 @@
+{
+	"id": "technetium",
+	"topic": "Technetium, the first made element",
+	"position": { "label": "1937", "sort": 1937 },
+	"scene": {
+		"headline": "We made what the Earth had",
+		"accent": "LOST.",
+		"palette": "agar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PALERMO · EMILIO SEGRÈ · CARLO PERRIER",
+			"A MOLYBDENUM FOIL FROM LAWRENCE'S CYCLOTRON"
+		],
+		"counter": { "value": "1/16", "label": "of a dose of technetium-99m left after a day" }
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Emilio Gino Segrè",
+			"authors": [{ "family": "Jackson", "given": "J. David" }],
+			"container": "Biographical Memoirs, Volume 81",
+			"publisher": "National Academies Press",
+			"place": "Washington, DC",
+			"published": "2002",
+			"url": "https://www.nationalacademies.org/read/10470/chapter/18",
+			"accessed": "2026-09-30",
+			"note": "Segrè's visit to Berkeley in 1936, the deflector foil, Perrier, and the three half-lives that were technetium-95 and -97"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Technetium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Technetium&oldid=1376400411",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Technetium-99m",
+			"url": "https://en.wikipedia.org/w/index.php?title=Technetium-99m&oldid=1354166222",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-14"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Current Trends in the Supply and Utilisation of Medical Radioisotopes",
+			"authors": [{ "name": "OECD Nuclear Energy Agency" }],
+			"publisher": "OECD Publishing",
+			"place": "Paris",
+			"number": "NEA No. 7743",
+			"published": "2025",
+			"url": "https://www.oecd-nea.org/upload/docs/application/pdf/2025-10/7743_medical_radioisotopes_supply_rev.pdf",
+			"accessed": "2026-09-30",
+			"note": "Over 30 million procedures a year, 80–85% of nuclear medicine (chapter 1)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Emilio Segrè",
+			"url": "https://en.wikipedia.org/w/index.php?title=Emilio_Segr%C3%A8&oldid=1373553002",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "article",
+			"title": "Technetium: The First Radioelement on the Periodic Table",
+			"authors": [
+				{ "family": "Johnstone", "given": "Erik V." },
+				{ "family": "Yates", "given": "Mary Anne" },
+				{ "family": "Poineau", "given": "Frederic" },
+				{ "family": "Sattelberger", "given": "Alfred P." },
+				{ "family": "Czerwinski", "given": "Kenneth R." }
+			],
+			"container": "Journal of Chemical Education",
+			"volume": "94",
+			"issue": "3",
+			"pages": "320–326",
+			"published": "2017",
+			"doi": "10.1021/acs.jchemed.6b00343",
+			"url": "https://www.osti.gov/servlets/purl/1368098",
+			"accessed": "2026-09-30",
+			"note": "Read in the accepted manuscript at OSTI"
+		},
+		{
+			"kind": "web",
+			"title": "The Disputed Discovery of Element 43: A Reexamination of an Elegant Early Use of Wavelength-Dispersive X-Ray Microanalysis",
+			"authors": [
+				{ "family": "Armstrong", "given": "John T." },
+				{ "family": "Van Assche", "given": "Pieter H." }
+			],
+			"container": "National Institute of Standards and Technology, Publications",
+			"published": "2008",
+			"url": "https://www.nist.gov/publications/disputed-discovery-element-43-reexamination-elegant-early-use-wavelength-dispersive-x",
+			"accessed": "2026-09-30",
+			"note": "The abstract of the paper in Microscopy and Microanalysis, read on NIST's page"
+		},
+		{
+			"kind": "report",
+			"title": "Technetium-99m Radiopharmaceuticals: Status and Trends",
+			"authors": [{ "name": "International Atomic Energy Agency" }],
+			"publisher": "International Atomic Energy Agency",
+			"place": "Vienna",
+			"number": "IAEA Radioisotopes and Radiopharmaceuticals Series No. 1",
+			"published": "2009",
+			"url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1405_web.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Sharing the Story of Technetium-99m",
+			"container": "Brookhaven National Laboratory Newsroom",
+			"publisher": "Brookhaven National Laboratory",
+			"published": "2011-10-21",
+			"url": "https://www.bnl.gov/newsroom/news.php?a=24796",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "A sealed glass ampoule holding a gold foil plated with technetium-99",
+			"url": "https://commons.wikimedia.org/wiki/File:Technetium-sample.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "technetium-sample.jpg",
+			"authors": [{ "name": "Marco Cardin" }],
+			"published": "2020-03-13"
+		}
+	]
+}

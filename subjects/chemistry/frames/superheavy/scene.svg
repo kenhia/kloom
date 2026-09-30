@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M44 250 L338 250"/>
+		<path pathLength="1" d="M44 250 L44 19"/>
+		<path pathLength="1" d="M44 250 L44 254"/>
+		<path pathLength="1" d="M114 250 L114 254"/>
+		<path pathLength="1" d="M184 250 L184 254"/>
+		<path pathLength="1" d="M254 250 L254 254"/>
+		<path pathLength="1" d="M324 250 L324 254"/>
+		<path pathLength="1" d="M44 250 L40 250"/>
+		<path pathLength="1" d="M44 195 L40 195"/>
+		<path pathLength="1" d="M44 140 L40 140"/>
+		<path pathLength="1" d="M44 85 L40 85"/>
+		<path pathLength="1" d="M44 30 L40 30"/>
+		<path pathLength="1" d="M128 250 L128 30"/>
+		<path pathLength="1" d="M44 162 L198 162"/>
+		<path pathLength="1" d="M282 250 L282 19"/>
+		<path pathLength="1" d="M44 96 L338 96"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M247 96 a35 28.6 0 1 0 70 0 a35 28.6 0 1 0 -70 0"/>
+		<path pathLength="1" d="M219 96 a63 48.4 0 1 0 126 0 a63 48.4 0 1 0 -126 0"/>
+		<path pathLength="1" d="M191 96 a91 68.2 0 1 0 182 0 a91 68.2 0 1 0 -182 0"/>
+		<path pathLength="1" d="M100 162 a28 26.4 0 1 0 56 0 a28 26.4 0 1 0 -56 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M222 47 L230 47 L230 57 L222 57 Z"/>
+		<path pathLength="1" d="M208 69 L216 69 L216 79 L208 79 Z"/>
+		<path pathLength="1" d="M194 91 L202 91 L202 101 L194 101 Z"/>
+		<path pathLength="1" d="M222 57 L216.5 68.5"/>
+		<path pathLength="1" d="M216.5 65 L216.5 68.5 L219.2 66.3"/>
+		<path pathLength="1" d="M208 79 L202.5 90.5"/>
+		<path pathLength="1" d="M202.5 87 L202.5 90.5 L205.2 88.3"/>
+		<path pathLength="1" d="M192 105 L184 116 M204 105 L212 116"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="44" y="263" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">150</text>
+		<text x="114" y="263" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">160</text>
+		<text x="184" y="263" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">170</text>
+		<text x="254" y="263" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">180</text>
+		<text x="324" y="263" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">190</text>
+		<text x="37" y="253" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">100</text>
+		<text x="37" y="198" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">105</text>
+		<text x="37" y="143" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">110</text>
+		<text x="37" y="88" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">115</text>
+		<text x="37" y="33" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">120</text>
+		<text x="338" y="245" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N</text>
+		<text x="49" y="23" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Z</text>
+		<text x="233" y="55" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Og</text>
+		<text x="176" y="122" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FISSION</text>
+		<text x="286" y="23" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N = 184</text>
+		<text x="282" y="99" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ISLAND?</text>
+		<text x="200" y="286" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">²⁴⁹Cf + ⁴⁸Ca → ²⁹⁴Og + 3n</text>
+	</g>
+</svg>

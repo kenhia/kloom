@@ -1,0 +1,31 @@
+{
+	"chemistry/technetium": [
+		["Dmitri Mendeleev", "dmitri-mendeleev"],
+		["technetium", "technetium"],
+		["Ida Tacke", "ida-noddack"],
+		["Emilio Segrè", "emilio-segre"],
+		["Ernest Lawrence", "ernest-lawrence"],
+		["cyclotron", "cyclotron"],
+		["Carlo Perrier", "carlo-perrier"],
+		["technetium-99m", "technetium-99m"]
+	],
+	"chemistry/transuranium": [
+		["transuranium element", "transuranium-element"],
+		["Enrico Fermi", "enrico-fermi"],
+		["Edwin McMillan", "edwin-mcmillan"],
+		["neptunium", "neptunium"],
+		["Glenn Seaborg", "glenn-t-seaborg"],
+		["plutonium", "plutonium"],
+		["Hanford Site", "hanford-site"],
+		["seaborgium", "seaborgium"]
+	],
+	"chemistry/superheavy": [
+		["superheavy elements", "superheavy-element"],
+		["oganesson", "oganesson"],
+		["RIKEN", "riken"],
+		["Yuri Oganessian", "yuri-oganessian"],
+		["Joint Institute for Nuclear Research", "joint-institute-for-nuclear-research"],
+		["Flerovium", "flerovium"],
+		["island of stability", "island-of-stability"]
+	]
+}

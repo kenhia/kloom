@@ -1,0 +1,262 @@
+{
+	"id": "transuranium",
+	"topic": "Seaborg and the transuranium elements",
+	"position": {
+		"label": "1940",
+		"sort": 1940
+	},
+	"scene": {
+		"headline": "We went beyond",
+		"accent": "URANIUM.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": ["BERKELEY · CHICAGO · HANFORD", "MCMILLAN · ABELSON · SEABORG · WAHL · KENNEDY"],
+		"counter": {
+			"value": "2.77 µg",
+			"label": "the first plutonium ever weighed, 1942"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/fission",
+			"why": "Fermi's claim of element 93 in 1934 was mostly uranium splitting, and the real element 93 turned up in 1940 in McMillan's experiment on how far fission fragments fly."
+		},
+		{
+			"to": "physics/manhattan-project",
+			"why": "The Manhattan Project's Hanford reactors made the plutonium, and chemists separated it with the two oxidation states Seaborg's group had found on microgram traces in 1941."
+		},
+		{
+			"to": "feynman/trinity",
+			"why": "The plutonium separated at Hanford reached Los Alamos in February 1945 and was the core of the implosion device tested at Trinity."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Radioactive Element 93",
+			"authors": [
+				{
+					"family": "McMillan",
+					"given": "Edwin"
+				},
+				{
+					"family": "Abelson",
+					"given": "Philip Hauge"
+				}
+			],
+			"container": "Physical Review",
+			"volume": "57",
+			"issue": "12",
+			"pages": "1185–1186",
+			"published": "1940-06-15",
+			"doi": "10.1103/PhysRev.57.1185.2",
+			"accessed": "2026-09-30",
+			"note": "The 2.3-day element grown from 23-minute uranium, and the guess at a second rare-earth group"
+		},
+		{
+			"kind": "article",
+			"title": "Radioactive Element 94 from Deuterons on Uranium",
+			"authors": [
+				{
+					"family": "Seaborg",
+					"given": "Glenn T."
+				},
+				{
+					"family": "Wahl",
+					"given": "Arthur C."
+				},
+				{
+					"family": "Kennedy",
+					"given": "Joseph W."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "69",
+			"issue": "7–8",
+			"pages": "367",
+			"published": "1946",
+			"doi": "10.1103/PhysRev.69.367",
+			"accessed": "2026-09-30",
+			"note": "Submitted 7 March 1941 and withheld until the end of the war"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Properties of 94(239)",
+			"authors": [
+				{
+					"family": "Kennedy",
+					"given": "Joseph W."
+				},
+				{
+					"family": "Seaborg",
+					"given": "Glenn T."
+				},
+				{
+					"family": "Segrè",
+					"given": "Emilio"
+				},
+				{
+					"family": "Wahl",
+					"given": "Arthur C."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "70",
+			"issue": "7–8",
+			"pages": "555–556",
+			"published": "1946",
+			"doi": "10.1103/PhysRev.70.555",
+			"accessed": "2026-09-30",
+			"note": "Half a microgram of plutonium-239 split by slow neutrons, received 29 May 1941"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Transuranium Elements: Present Status",
+			"authors": [
+				{
+					"family": "Seaborg",
+					"given": "Glenn T."
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"publisher": "Nobel Foundation",
+			"published": "1951-12-12",
+			"url": "https://www.nobelprize.org/uploads/2018/06/seaborg-lecture.pdf",
+			"accessed": "2026-09-30",
+			"note": "The first weighing, the actinide concept of 1944, and americium and curium"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Transuranium Elements: Early History",
+			"authors": [
+				{
+					"family": "McMillan",
+					"given": "Edwin M."
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"publisher": "Nobel Foundation",
+			"published": "1951-12-12",
+			"url": "https://www.nobelprize.org/uploads/2018/06/mcmillan-lecture.pdf",
+			"accessed": "2026-09-30",
+			"note": "The cigarette papers, Segrè's rare earth, and Abelson's visit"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plutonium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plutonium&oldid=1374578950",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Neptunium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neptunium&oldid=1375989791",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bismuth phosphate process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bismuth_phosphate_process&oldid=1374337874",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Actinide concept",
+			"url": "https://en.wikipedia.org/w/index.php?title=Actinide_concept&oldid=1297427303",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Seaborgium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Seaborgium&oldid=1370466505",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Glenn T. Seaborg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Glenn_T._Seaborg&oldid=1375786371",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transuranium element",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transuranium_element&oldid=1369580649",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-15"
+		},
+		{
+			"kind": "media",
+			"title": "Bar chart of the plutonium in hand, 1941 to 1945, on a log scale",
+			"url": "https://www.nobelprize.org/uploads/2018/06/seaborg-lecture.pdf",
+			"accessed": "2026-09-30",
+			"container": "Chart drawn for kloom from Kennedy et al. (1946), Seaborg's Nobel lecture (1951) and Wikipedia's Plutonium",
+			"licence": "MIT",
+			"file": "plutonium-in-hand.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	]
+}

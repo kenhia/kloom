@@ -1,0 +1,401 @@
+{
+	"id": "superheavy",
+	"topic": "Superheavy elements",
+	"position": {
+		"label": "2016",
+		"sort": 2016
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We finished the seventh row atom by",
+		"accent": "ATOM.",
+		"palette": "agar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DUBNA · RIKEN · LIVERMORE · OAK RIDGE · BERKELEY",
+			"CALCIUM-48 BEAMS · ACTINIDE TARGETS · ONE ATOM AT A TIME"
+		],
+		"counter": {
+			"value": "1 a week",
+			"label": "oganesson atoms made at Dubna in 2005, by our arithmetic"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Synthesis of the Isotopes of Elements 118 and 116 in the ²⁴⁹Cf and ²⁴⁵Cm+⁴⁸Ca Fusion Reactions",
+			"authors": [
+				{
+					"family": "Oganessian",
+					"given": "Yu. Ts."
+				},
+				{
+					"family": "Utyonkov",
+					"given": "V. K."
+				},
+				{
+					"family": "Lobanov",
+					"given": "Yu. V."
+				},
+				{
+					"family": "Abdullin",
+					"given": "F. Sh."
+				},
+				{
+					"family": "Polyakov",
+					"given": "A. N."
+				},
+				{
+					"family": "Sagaidak",
+					"given": "R. N."
+				},
+				{
+					"family": "Shirokovsky",
+					"given": "I. V."
+				}
+			],
+			"etAl": true,
+			"container": "Physical Review C",
+			"volume": "74",
+			"issue": "4",
+			"pages": "044602",
+			"published": "2006-10-09",
+			"doi": "10.1103/PhysRevC.74.044602",
+			"accessed": "2026-09-30",
+			"note": "The target, beam dose, 35% separator transmission and 0.5 pb cross-section used in the arithmetic"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Beachhead on the Island of Stability",
+			"authors": [
+				{
+					"family": "Oganessian",
+					"given": "Yuri Ts."
+				},
+				{
+					"family": "Rykaczewski",
+					"given": "Krzysztof P."
+				}
+			],
+			"container": "Physics Today",
+			"volume": "68",
+			"issue": "8",
+			"pages": "32–38",
+			"published": "2015-08",
+			"doi": "10.1063/PT.3.2880",
+			"url": "https://www.osti.gov/servlets/purl/1337838",
+			"accessed": "2026-09-30",
+			"note": "Hot fusion, RIKEN's three atoms, calcium-48 and berkelium-249, N = 184 and about one event a week"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Adsorption and Reactivity of Element 114, Flerovium",
+			"authors": [
+				{
+					"family": "Yakushev",
+					"given": "A."
+				},
+				{
+					"family": "Lens",
+					"given": "L."
+				},
+				{
+					"family": "Düllmann",
+					"given": "Ch. E."
+				},
+				{
+					"family": "Khuyagbaatar",
+					"given": "J."
+				},
+				{
+					"family": "Jäger",
+					"given": "E."
+				},
+				{
+					"family": "Krier",
+					"given": "J."
+				},
+				{
+					"family": "Runke",
+					"given": "J."
+				}
+			],
+			"etAl": true,
+			"container": "Frontiers in Chemistry",
+			"volume": "10",
+			"pages": "976635",
+			"published": "2022",
+			"doi": "10.3389/fchem.2022.976635",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Manifestation of Relativistic Effects in the Chemical Properties of Nihonium and Moscovium Revealed by Gas Chromatography Studies",
+			"authors": [
+				{
+					"family": "Yakushev",
+					"given": "A."
+				},
+				{
+					"family": "Khuyagbaatar",
+					"given": "J."
+				},
+				{
+					"family": "Düllmann",
+					"given": "Ch. E."
+				},
+				{
+					"family": "Block",
+					"given": "M."
+				},
+				{
+					"family": "Cantemir",
+					"given": "R. A."
+				},
+				{
+					"family": "Cox",
+					"given": "D. M."
+				},
+				{
+					"family": "Dietzel",
+					"given": "D."
+				}
+			],
+			"etAl": true,
+			"container": "Frontiers in Chemistry",
+			"volume": "12",
+			"pages": "1474820",
+			"published": "2024",
+			"doi": "10.3389/fchem.2024.1474820",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Oganesson: A Noble Gas Element That Is Neither Noble Nor a Gas",
+			"authors": [
+				{
+					"family": "Smits",
+					"given": "Odile R."
+				},
+				{
+					"family": "Mewes",
+					"given": "Jan-Michael"
+				},
+				{
+					"family": "Jerabek",
+					"given": "Paul"
+				},
+				{
+					"family": "Schwerdtfeger",
+					"given": "Peter"
+				}
+			],
+			"container": "Angewandte Chemie International Edition",
+			"volume": "59",
+			"issue": "52",
+			"pages": "23636–23640",
+			"published": "2020",
+			"doi": "10.1002/anie.202011976",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Toward the Discovery of New Elements: Production of Livermorium (Z = 116) with ⁵⁰Ti",
+			"authors": [
+				{
+					"family": "Gates",
+					"given": "J. M."
+				},
+				{
+					"family": "Orford",
+					"given": "R."
+				},
+				{
+					"family": "Rudolph",
+					"given": "D."
+				},
+				{
+					"family": "Appleton",
+					"given": "C."
+				},
+				{
+					"family": "Barrios",
+					"given": "B. M."
+				},
+				{
+					"family": "Benitez",
+					"given": "J. Y."
+				},
+				{
+					"family": "Bordeau",
+					"given": "M."
+				}
+			],
+			"etAl": true,
+			"container": "Physical Review Letters",
+			"volume": "133",
+			"issue": "17",
+			"pages": "172502",
+			"published": "2024-10-21",
+			"doi": "10.1103/PhysRevLett.133.172502",
+			"url": "https://arxiv.org/abs/2407.16079",
+			"accessed": "2026-09-30",
+			"note": "Read in the arXiv preprint"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "63rd Session of the PAC for Nuclear Physics: On the Way to Element 119 and a New Neutron Source",
+			"container": "Joint Institute for Nuclear Research",
+			"publisher": "Joint Institute for Nuclear Research",
+			"published": "2026-06-25",
+			"url": "https://www.jinr.ru/posts/63-ya-sessiya-pkk-yaf-na-puti-k-119-mu-elementu-i-novomu-istochniku-neytronov/",
+			"accessed": "2026-09-30",
+			"note": "In Russian: the berkelium-249 target, and a sensitivity of 480 fb against the 180–200 fb needed"
+		},
+		{
+			"kind": "web",
+			"title": "Academician Yuri Oganessian Celebrates 93rd Birthday",
+			"container": "Joint Institute for Nuclear Research",
+			"publisher": "Joint Institute for Nuclear Research",
+			"published": "2026-04-14",
+			"url": "https://www.jinr.ru/posts/academician-yuri-oganessian-celebrates-93rd-birthday/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "How Japan Took the Lead in the Race to Discover Element 119",
+			"authors": [
+				{
+					"family": "Nelson",
+					"given": "Felicity"
+				}
+			],
+			"container": "ACS Central Science",
+			"volume": "10",
+			"issue": "9",
+			"pages": "1669–1673",
+			"published": "2024",
+			"doi": "10.1021/acscentsci.4c01266",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Element 120 May Now Be in Reach and the Hunt for It Could Begin Next Year",
+			"container": "Chemistry World",
+			"publisher": "Royal Society of Chemistry",
+			"published": "2024-07-25",
+			"url": "https://www.chemistryworld.com/news/element-120-may-now-be-in-reach-and-the-hunt-for-it-could-begin-next-year/4019871.article",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"family": "Chapman",
+					"given": "Kit"
+				}
+			]
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oganesson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oganesson&oldid=1377349355",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ununennium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ununennium&oldid=1375017252",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Unbinilium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Unbinilium&oldid=1371024241",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nihonium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nihonium&oldid=1358554733",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Flerovium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Flerovium&oldid=1376550630",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Island of stability",
+			"url": "https://en.wikipedia.org/w/index.php?title=Island_of_stability&oldid=1373799277",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "media",
+			"title": "Berkelium-249 separated at Oak Ridge for the element 117 experiments, held in a hot cell",
+			"url": "https://commons.wikimedia.org/wiki/File:Berkelium-249_(27456263931).png",
+			"accessed": "2026-09-30",
+			"container": "Oak Ridge National Laboratory, via Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "berkelium-249.jpg",
+			"authors": [
+				{
+					"name": "Oak Ridge National Laboratory"
+				}
+			],
+			"published": "2016-06-07"
+		}
+	]
+}
