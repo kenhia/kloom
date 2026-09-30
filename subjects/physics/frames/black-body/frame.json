@@ -1,0 +1,178 @@
+{
+	"id": "black-body",
+	"topic": "Planck and black-body radiation",
+	"position": {
+		"label": "1900",
+		"sort": 1900
+	},
+	"scene": {
+		"headline": "Energy was dealt in",
+		"accent": "PORTIONS.",
+		"palette": "foolscap",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERLIN · MAX PLANCK · THE REICHSANSTALT",
+			"KIRCHHOFF'S FUNCTION · WIEN'S LAW · ε = hν"
+		],
+		"counter": {
+			"value": "6.55 × 10⁻²⁷",
+			"label": "erg-seconds: Planck's first value of h, 14 December 1900"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Max Planck: the reluctant revolutionary",
+			"url": "https://physicsworld.com/a/max-planck-the-reluctant-revolutionary/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Kragh",
+					"given": "Helge"
+				}
+			],
+			"container": "Physics World",
+			"published": "2000-12",
+			"note": "The textbook story as \"a myth\", Kuhn's case and the case against it"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Genesis and Present State of Development of the Quantum Theory",
+			"url": "https://www.nobelprize.org/prizes/physics/1918/planck/lecture/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Planck",
+					"given": "Max"
+				}
+			],
+			"container": "Nobel Lecture",
+			"publisher": "Nobel Foundation",
+			"published": "1920-06-02",
+			"note": "Planck's own telling; read in the Nobel Lectures text mirrored at hep.fsu.edu"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Planck's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Planck's_law&oldid=1376149003",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ultraviolet catastrophe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ultraviolet_catastrophe&oldid=1373948601",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Max Planck",
+			"url": "https://en.wikipedia.org/w/index.php?title=Max_Planck&oldid=1377204016",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kirchhoff's law of thermal radiation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kirchhoff's_law_of_thermal_radiation&oldid=1354904446",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Physikalisch-Technische Bundesanstalt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Physikalisch-Technische_Bundesanstalt&oldid=1368538168",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Boltzmann constant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Boltzmann_constant&oldid=1373140358",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "2019 revision of the SI",
+			"url": "https://en.wikipedia.org/w/index.php?title=2019_revision_of_the_SI&oldid=1376343345",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "media",
+			"title": "The Physikalisch-Technische Reichsanstalt in Charlottenburg, seen from Marchstraße towards Abbestraße, on a postcard",
+			"url": "https://commons.wikimedia.org/wiki/File:Berlin-Charlottenburg_Postkarte_080.jpg",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "J. Goldiner, Berlin"
+				}
+			],
+			"container": "Postcard, via zeno.org and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ptr-postcard.jpg",
+			"published": "1913",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/si-redefinition",
+			"why": "Planck introduced the constant h in his black-body law of December 1900; since 2019 its value is fixed at exactly 6.62607015 × 10⁻³⁴ joule-seconds, and it defines the kilogram."
+		}
+	]
+}

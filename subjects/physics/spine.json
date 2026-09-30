@@ -35,13 +35,13 @@
 			"id": "cracks",
 			"title": "Cracks in the classical",
 			"labelKind": "date",
-			"frames": ["michelson-morley", "x-rays", "electron"]
+			"frames": ["michelson-morley", "x-rays", "electron", "black-body", "atoms-real"]
 		},
 		{
 			"id": "relativity",
 			"title": "Relativity",
 			"labelKind": "category",
-			"frames": ["general-relativity", "black-holes", "gravitational-waves"]
+			"frames": ["special-relativity", "general-relativity", "black-holes", "gravitational-waves"]
 		},
 		{
 			"id": "cosmos",
