@@ -1,0 +1,34 @@
+{
+	"chemistry/dalton": [
+		["Manchester", "manchester"],
+		["John Dalton", "john-dalton"],
+		[
+			"Manchester Literary and Philosophical Society",
+			"manchester-literary-and-philosophical-society"
+		],
+		["law of multiple proportions", "law-of-multiple-proportions"],
+		["Humphry Davy", "humphry-davy"],
+		["Joseph Louis Gay-Lussac", "joseph-louis-gay-lussac"],
+		["Amedeo Avogadro", "amedeo-avogadro"]
+	],
+	"chemistry/wohler-urea": [
+		["Friedrich Wöhler", "friedrich-wohler"],
+		["urea", "urea"],
+		["Wöhler synthesis", "wohler-synthesis"],
+		["William Prout", "william-prout"],
+		["Justus von Liebig", "justus-von-liebig"],
+		["Jöns Jacob Berzelius", "jons-jacob-berzelius"],
+		["isomers", "isomer"],
+		["vitalism", "vitalism"]
+	],
+	"chemistry/faraday-electrolysis": [
+		["Michael Faraday", "michael-faraday"],
+		["Faraday's laws of electrolysis", "faradays-laws-of-electrolysis"],
+		["Royal Institution", "royal-institution"],
+		["William Whewell", "william-whewell"],
+		["Faraday constant", "faraday-constant"],
+		["Silver", "silver"],
+		["George Johnstone Stoney", "george-johnstone-stoney"],
+		["Hermann von Helmholtz", "hermann-von-helmholtz"]
+	]
+}

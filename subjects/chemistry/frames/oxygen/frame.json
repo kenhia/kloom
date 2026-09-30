@@ -1,0 +1,154 @@
+{
+	"id": "oxygen",
+	"topic": "The discovery of oxygen",
+	"position": {
+		"label": "1774",
+		"sort": 1774
+	},
+	"scene": {
+		"headline": "A candle burned in it with a vigorous",
+		"accent": "FLAME.",
+		"palette": "filter",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CALNE · UPPSALA · PARIS",
+			"JOSEPH PRIESTLEY · CARL WILHELM SCHEELE · A TWELVE-INCH BURNING LENS"
+		],
+		"counter": {
+			"value": "7.4%",
+			"label": "of red mercury calx's weight is oxygen"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Experiments and Observations on Different Kinds of Air. Vol. II",
+			"authors": [
+				{
+					"family": "Priestley",
+					"given": "Joseph"
+				}
+			],
+			"publisher": "J. Johnson",
+			"place": "London",
+			"published": "1776",
+			"url": "https://archive.org/details/experimentsobser02prie",
+			"accessed": "2026-09-30",
+			"note": "Section III, \"Of Dephlogisticated Air\": the lens, 1 August 1774, Paris, the mouse and the breathing; the second edition, its dedication dated November 1775"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Discovering Oxygen: Experimental Techniques and Logic of a Great Chemist, Carl Wilhelm Scheele",
+			"authors": [
+				{
+					"family": "Salvi",
+					"given": "Pier Remigio"
+				}
+			],
+			"container": "Bulletin for the History of Chemistry",
+			"volume": "46",
+			"issue": "1",
+			"pages": "30–41",
+			"published": "2021",
+			"doi": "10.70359/bhc2021v046p030",
+			"accessed": "2026-09-30",
+			"note": "Scheele's notebooks of 1771–72, the delayed book, and the letter to Lavoisier"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oxygen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oxygen&oldid=1375992701",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Joseph Priestley",
+			"container": "Science History Institute",
+			"url": "https://www.sciencehistory.org/education/scientific-biographies/joseph-priestley/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl Wilhelm Scheele",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_Wilhelm_Scheele&oldid=1372793402",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Priestley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Priestley&oldid=1375145083",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antoine Lavoisier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antoine_Lavoisier&oldid=1376988053",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mercury(II) oxide",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mercury(II)_oxide&oldid=1356937223",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-30"
+		},
+		{
+			"kind": "media",
+			"title": "Priestley's pneumatic trough, with a mouse under a receiver, from the frontispiece of Experiments and Observations on Different Kinds of Air",
+			"url": "https://commons.wikimedia.org/wiki/File:Priestley_Joseph_pneumatic_trough.jpg",
+			"accessed": "2026-09-30",
+			"container": "Via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "priestley-trough.jpg",
+			"authors": [
+				{
+					"family": "Priestley",
+					"given": "Joseph"
+				}
+			],
+			"published": "1775"
+		}
+	]
+}

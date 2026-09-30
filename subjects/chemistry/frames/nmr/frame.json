@@ -1,0 +1,223 @@
+{
+	"id": "nmr",
+	"topic": "NMR spectroscopy",
+	"position": {
+		"label": "NMR"
+	},
+	"scene": {
+		"headline": "We read molecules by their",
+		"accent": "SPIN.",
+		"palette": "agar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HARVARD · STANFORD · VARIAN ASSOCIATES, PALO ALTO",
+			"PROTONS · A MAGNET · A PULSE OF RADIO WAVES"
+		],
+		"counter": {
+			"value": "3 : 2 : 1",
+			"label": "the areas of ethanol's three proton lines"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Research in Nuclear Magnetism",
+			"authors": [
+				{
+					"family": "Purcell",
+					"given": "Edward M."
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"published": "1952-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/purcell-lecture.pdf",
+			"accessed": "2026-09-30",
+			"note": "The snow, the chemical shift as a nuisance, and the ethyl alcohol spectrum of Arnold, Dharmatti and Packard (1951), with its areas of 3, 2 and 1"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Nuclear Magnetic Resonance Fourier Transform Spectroscopy",
+			"authors": [
+				{
+					"family": "Ernst",
+					"given": "Richard R."
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"published": "1992-12-09",
+			"url": "https://www.nobelprize.org/uploads/2018/06/ernst-lecture.pdf",
+			"accessed": "2026-09-30",
+			"note": "Anderson's suggestion of 1964, the free induction decay and its Fourier transform, and the 500-scan example"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Nuclear magnetic resonance spectroscopy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nuclear_magnetic_resonance_spectroscopy&oldid=1373373163",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nuclear magnetic resonance",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nuclear_magnetic_resonance&oldid=1369800595",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chemical shift",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chemical_shift&oldid=1371260333",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "J-coupling",
+			"url": "https://en.wikipedia.org/w/index.php?title=J-coupling&oldid=1292136254",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-05-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edward Mills Purcell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edward_Mills_Purcell&oldid=1371133945",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard R. Ernst",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_R._Ernst&oldid=1371989404",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Magnetic resonance imaging",
+			"url": "https://en.wikipedia.org/w/index.php?title=Magnetic_resonance_imaging&oldid=1374827309",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dendral",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dendral&oldid=1376184701",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "web",
+			"title": "Dendral and Meta-Dendral: The Myth and the Reality",
+			"container": "Joshua Lederberg Papers, National Library of Medicine Digital Collections",
+			"url": "https://collections.nlm.nih.gov/ext/document/101584906X17001/PDF/101584906X17001.pdf",
+			"accessed": "2026-09-30",
+			"note": "Unsigned in the copy read; its references list the 1969 and 1970 papers on ethers and amines diagnosed by mass spectra and NMR data"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physics 1952",
+			"url": "https://www.nobelprize.org/prizes/physics/1952/summary/",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Chemistry 1991",
+			"url": "https://www.nobelprize.org/prizes/chemistry/1991/summary/",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physiology or Medicine 2003",
+			"url": "https://www.nobelprize.org/prizes/medicine/2003/summary/",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "The coconut Paul Lauterbur and C. M. Lai imaged in three dimensions by NMR zeugmatography in 1981",
+			"url": "https://commons.wikimedia.org/wiki/File:Paul_Lauterbur%27s_Coconut_-_DPLA_-_ed49c99d62a30daed241d89d38b1e7bf_(page_1).jpg",
+			"accessed": "2026-09-30",
+			"container": "Science History Institute, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "lauterbur-coconut.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/expert-systems",
+			"why": "DENDRAL, the first expert system, read NMR data beside mass spectra to narrow down an unknown molecule, in its papers of 1969 and 1970 on ethers and amines."
+		},
+		{
+			"to": "mathematics/fourier",
+			"why": "Pulsed NMR records a dying signal and turns it into a spectrum by a Fourier transform, a relation Ernst traced back to Fourier's work on heat of 1822; MRI scanners compute their pictures the same way."
+		},
+		{
+			"to": "chemistry/tyrian-purple",
+			"why": "Ethanol's CH₃ triplet and dibromoindigo's triplet of masses are the same 1 : 2 : 1 count: two things that can each be one of two ways, with one of each happening in two ways."
+		}
+	]
+}

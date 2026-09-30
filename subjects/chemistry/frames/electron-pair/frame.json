@@ -1,0 +1,161 @@
+{
+	"id": "electron-pair",
+	"topic": "Lewis's shared electron pair",
+	"position": {
+		"label": "The electron pair"
+	},
+	"scene": {
+		"headline": "The bond was a shared",
+		"accent": "PAIR.",
+		"palette": "agar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERKELEY · GILBERT N. LEWIS · APRIL 1916",
+			"THE ATOM AND THE MOLECULE · CUBES · DOTS · OCTETS"
+		],
+		"counter": {
+			"value": "41",
+			"label": "Nobel nominations for Lewis, and no prize"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Atom and the Molecule",
+			"authors": [
+				{
+					"family": "Lewis",
+					"given": "Gilbert N."
+				}
+			],
+			"container": "Journal of the American Chemical Society",
+			"volume": "38",
+			"issue": "4",
+			"pages": "762–785",
+			"published": "1916-04",
+			"doi": "10.1021/ja02261a002",
+			"url": "https://www.chemteam.info/Chem-History/Lewis-1916/Lewis-1916.html",
+			"accessed": "2026-09-30",
+			"note": "Read in the ChemTeam transcription; the postulates, the colon Cl : Cl and odd molecules"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Nomination Archive: Gilbert N Lewis",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"url": "https://www.nobelprize.org/nomination/archive/show_people.php?id=5441",
+			"accessed": "2026-09-30",
+			"note": "41 nominations for chemistry, 1922–1946"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gilbert N. Lewis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gilbert_N._Lewis&oldid=1371999902",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cubical atom",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cubical_atom&oldid=1353344586",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lewis structure",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lewis_structure&oldid=1376412895",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Octet rule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Octet_rule&oldid=1313573767",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Covalent bond",
+			"url": "https://en.wikipedia.org/w/index.php?title=Covalent_bond&oldid=1373077844",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03",
+			"note": "Quotes Langmuir's 1919 definition of covalence"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Irving Langmuir",
+			"url": "https://en.wikipedia.org/w/index.php?title=Irving_Langmuir&oldid=1375466150",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Gilbert N. Lewis's memorandum of 28 March 1902, with cubical atoms from lithium to chlorine",
+			"url": "https://en.wikipedia.org/w/index.php?title=File:Lewis-cubic-notes.jpg&oldid=502273329",
+			"accessed": "2026-09-30",
+			"container": "Via English Wikipedia",
+			"licence": "Public domain",
+			"file": "lewis-cubes-1902.jpg",
+			"authors": [
+				{
+					"family": "Lewis",
+					"given": "Gilbert N."
+				}
+			],
+			"published": "1902-03-28"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/electron",
+			"why": "Lewis built his atom of 1916 on Thomson's particle: a kernel and a shell of electrons, which he compared to the inner and outer rings of the Thomson atom, and a bond made of two electrons held in common."
+		}
+	]
+}

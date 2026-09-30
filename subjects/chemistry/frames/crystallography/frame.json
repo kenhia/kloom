@@ -1,0 +1,254 @@
+{
+	"id": "crystallography",
+	"topic": "X-ray crystallography",
+	"position": {
+		"label": "Crystallography"
+	},
+	"scene": {
+		"headline": "X-rays mapped the atoms in a",
+		"accent": "LATTICE.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": ["MUNICH · CAMBRIDGE · LEEDS · OXFORD", "VON LAUE · THE BRAGGS · DOROTHY HODGKIN"],
+		"counter": {
+			"value": "2.82 Å",
+			"label": "from each sodium atom to its six chlorines"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Structure of Some Crystals as Indicated by Their Diffraction of X-rays",
+			"authors": [
+				{
+					"family": "Bragg",
+					"given": "W. L."
+				}
+			],
+			"container": "Proceedings of the Royal Society of London, Series A",
+			"volume": "89",
+			"issue": "610",
+			"pages": "248–277",
+			"published": "1913-09-22",
+			"doi": "10.1098/rspa.1913.0083",
+			"accessed": "2026-09-30",
+			"note": "Rock salt's six equidistant neighbours, and the wavelength from the mass of NaCl"
+		},
+		{
+			"kind": "article",
+			"title": "The Reflection of X-rays by Crystals",
+			"authors": [
+				{
+					"family": "Bragg",
+					"given": "W. H."
+				},
+				{
+					"family": "Bragg",
+					"given": "W. L."
+				}
+			],
+			"container": "Proceedings of the Royal Society of London, Series A",
+			"volume": "88",
+			"issue": "605",
+			"pages": "428–438",
+			"published": "1913-07-01",
+			"doi": "10.1098/rspa.1913.0040",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Fifty Years of X-ray Diffraction",
+			"editors": [
+				{
+					"family": "Ewald",
+					"given": "P. P."
+				}
+			],
+			"publisher": "International Union of Crystallography",
+			"place": "Utrecht",
+			"published": "1962",
+			"url": "https://www.iucr.org/publ/50yearsofxraydiffraction/full-text/laues-discovery",
+			"accessed": "2026-09-30",
+			"note": "Chapter 4, Laue's discovery; read in the IUCr's online edition"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The X-ray Analysis of Complicated Molecules",
+			"authors": [
+				{
+					"family": "Hodgkin",
+					"given": "Dorothy Crowfoot"
+				}
+			],
+			"container": "Nobel Lectures, Chemistry 1963–1970",
+			"publisher": "Elsevier",
+			"place": "Amsterdam",
+			"published": "1972",
+			"url": "https://www.nobelprize.org/uploads/2018/06/hodgkin-lecture-1.pdf",
+			"accessed": "2026-09-30",
+			"note": "Nobel lecture of 11 December 1964: penicillin and vitamin B12"
+		},
+		{
+			"kind": "report",
+			"title": "X-ray Data Booklet, Table 1-2: Photon Energies of Principal K-, L- and M-shell Emission Lines",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"url": "https://xdb.lbl.gov/Section1/Table_1-2.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "X-ray crystallography",
+			"url": "https://en.wikipedia.org/w/index.php?title=X-ray_crystallography&oldid=1376715462",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bragg's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bragg's_law&oldid=1361393274",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Max von Laue",
+			"url": "https://en.wikipedia.org/w/index.php?title=Max_von_Laue&oldid=1376030684",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lawrence Bragg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lawrence_Bragg&oldid=1374705962",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Henry Bragg",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Henry_Bragg&oldid=1372012260",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dorothy Hodgkin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dorothy_Hodgkin&oldid=1375953231",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sodium chloride",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sodium_chloride&oldid=1373528437",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Space group",
+			"url": "https://en.wikipedia.org/w/index.php?title=Space_group&oldid=1360908227",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-24"
+		},
+		{
+			"kind": "media",
+			"title": "The Braggs' X-ray spectrometer, 1910–1926 (Science Museum 1926-1021)",
+			"url": "https://commons.wikimedia.org/wiki/File:Bragg_X-ray_spectrometer,_England_Wellcome_L0059139.jpg",
+			"accessed": "2026-09-30",
+			"container": "Science Museum, London; photograph by Wellcome Images, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "bragg-spectrometer.jpg",
+			"authors": [
+				{
+					"name": "Wellcome Images"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "Dorothy Hodgkin's molecular model of penicillin, 1945",
+			"url": "https://commons.wikimedia.org/wiki/File:Molecular_model_of_Penicillin_by_Dorothy_Hodgkin_(9663803982).jpg",
+			"accessed": "2026-09-30",
+			"container": "Science Museum, London, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "penicillin-model.jpg",
+			"authors": [
+				{
+					"name": "Science Museum London / Science and Society Picture Library"
+				}
+			],
+			"published": "2013-08-28"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/x-rays",
+			"why": "Von Laue's experiment of 1912 proved Röntgen's rays to be waves far shorter than light's, and the Braggs turned their diffraction by crystals into a way of reading where the atoms sit."
+		},
+		{
+			"to": "mathematics/groups",
+			"why": "The symmetries of a crystal form a group, closed under doing one move after another; Fedorov and Schoenflies counted 230 such space groups in 1891, and crystallographers classify every structure by one."
+		}
+	]
+}

@@ -1,0 +1,224 @@
+{
+	"id": "dalton",
+	"topic": "Dalton's atomic theory",
+	"position": {
+		"label": "1808",
+		"sort": 1808
+	},
+	"scene": {
+		"headline": "We drew the atoms in",
+		"accent": "CIRCLES.",
+		"palette": "retort",
+		"illustration": "scene.svg",
+		"metadata": ["MANCHESTER · JOHN DALTON", "A NEW SYSTEM OF CHEMICAL PHILOSOPHY · 1808"],
+		"counter": {
+			"value": "1 : 2 : 4",
+			"label": "oxygen to a fixed weight of nitrogen, in its three oxides"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A New System of Chemical Philosophy, Part I",
+			"authors": [
+				{
+					"family": "Dalton",
+					"given": "John"
+				}
+			],
+			"place": "Manchester",
+			"publisher": "R. Bickerstaff",
+			"published": "1808",
+			"url": "https://archive.org/details/newsystemofchemi11dalt",
+			"accessed": "2026-09-30",
+			"note": "The rules of combination and water as HO, pp. 211–216; Plate IV and its key, pp. 217–220"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A New System of Chemical Philosophy, Part II",
+			"authors": [
+				{
+					"family": "Dalton",
+					"given": "John"
+				}
+			],
+			"place": "Manchester",
+			"publisher": "R. Bickerstaff",
+			"published": "1810",
+			"url": "https://archive.org/details/newsystemofchemi12dalt",
+			"accessed": "2026-09-30",
+			"note": "Davy's analyses of the oxides of azote, pp. 316–319; the reply to Gay-Lussac, appendix, pp. 555–558"
+		},
+		{
+			"kind": "chapter",
+			"title": "Memoir on the Combination of Gaseous Substances with Each Other",
+			"authors": [
+				{
+					"family": "Gay-Lussac",
+					"given": "Joseph Louis"
+				}
+			],
+			"container": "Mémoires de la Société d'Arcueil",
+			"volume": "2",
+			"pages": "207–234",
+			"published": "1809",
+			"url": "https://web.lemoyne.edu/~giunta/gaylussac.html",
+			"accessed": "2026-09-30",
+			"note": "Read in the English of Alembic Club Reprint No. 4, on Carmen Giunta's Classic Chemistry pages, Le Moyne College"
+		},
+		{
+			"kind": "article",
+			"title": "Essay on a Manner of Determining the Relative Masses of the Elementary Molecules of Bodies, and the Proportions in Which They Enter into These Compounds",
+			"authors": [
+				{
+					"family": "Avogadro",
+					"given": "Amedeo"
+				}
+			],
+			"container": "Journal de Physique",
+			"volume": "73",
+			"pages": "58–76",
+			"published": "1811",
+			"url": "https://web.lemoyne.edu/~giunta/avogadro.html",
+			"accessed": "2026-09-30",
+			"note": "Read in the English of Alembic Club Reprint No. 4, on Carmen Giunta's Classic Chemistry pages, Le Moyne College"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Dalton",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Dalton&oldid=1374984610",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Law of multiple proportions",
+			"url": "https://en.wikipedia.org/w/index.php?title=Law_of_multiple_proportions&oldid=1306961217",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of atomic theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_atomic_theory&oldid=1367821313",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Avogadro's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Avogadro's_law&oldid=1351892909",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Amedeo Avogadro",
+			"url": "https://en.wikipedia.org/w/index.php?title=Amedeo_Avogadro&oldid=1373051477",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Louis Gay-Lussac",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Louis_Gay-Lussac&oldid=1372471473",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gay-Lussac's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gay-Lussac's_law&oldid=1375557323",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "media",
+			"title": "Plate IV of Dalton's New System of Chemical Philosophy (1808), the elements and their compounds, with its key on p. 219",
+			"url": "https://commons.wikimedia.org/wiki/File:Table_of_types_of_elements_and_explanation_of_plates_showing_various_chemical_elements_and_their_atomic_weights_LCCN92517584.jpg",
+			"accessed": "2026-09-30",
+			"container": "Library of Congress, Prints and Photographs Division, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "dalton-plate-4.jpg",
+			"authors": [
+				{
+					"family": "Dalton",
+					"given": "John"
+				}
+			],
+			"published": "1808"
+		},
+		{
+			"kind": "media",
+			"title": "\"Atoms of elastic fluids\", one of Dalton's lecture charts on the composition and size of atoms, 1806–1809",
+			"url": "https://commons.wikimedia.org/wiki/File:John_Dalton;_Composition_%26_size_of_atoms._1806-1809_Wellcome_M0004649.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wellcome Collection, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "atoms-of-elastic-fluids.jpg",
+			"authors": [
+				{
+					"name": "Wellcome Collection"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/atoms-real",
+			"why": "Dalton's atoms of 1808 stayed a hypothesis many chemists doubted for a century; Perrin's counts of grains in Brownian motion, 1908–09, settled that atoms are real."
+		}
+	]
+}

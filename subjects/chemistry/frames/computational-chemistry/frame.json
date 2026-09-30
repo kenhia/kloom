@@ -1,0 +1,220 @@
+{
+	"id": "computational-chemistry",
+	"topic": "Computational chemistry",
+	"position": {
+		"label": "Chemistry by computer"
+	},
+	"scene": {
+		"headline": "We hit an exponential",
+		"accent": "WALL.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · LOS ALAMOS · PARIS · CARNEGIE MELLON",
+			"EDSAC · MANIAC · GAUSSIAN 70 · DENSITY FUNCTIONALS"
+		],
+		"counter": {
+			"value": "10¹⁵⁰",
+			"label": "numbers for 100 electrons, in Kohn's estimate"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Electronic Structure of Matter: Wave Functions and Density Functionals",
+			"authors": [
+				{
+					"family": "Kohn",
+					"given": "Walter"
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"published": "1999-01-28",
+			"url": "https://www.nobelprize.org/uploads/2018/06/kohn-lecture.pdf",
+			"accessed": "2026-09-30",
+			"note": "The exponential wall, M = p³ᴺ, on pp. 218–220; the autumn of 1963 with Hohenberg on p. 221"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Quantum Chemical Models",
+			"authors": [
+				{
+					"family": "Pople",
+					"given": "John A."
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"published": "1998-12-08",
+			"url": "https://www.nobelprize.org/uploads/2018/06/pople-lecture.pdf",
+			"accessed": "2026-09-30",
+			"note": "Quotes Dirac's remark of 1929; Boys's Gaussian functions of 1950 and the GAUSSIAN program of 1968–70"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Equation of State Calculations by Fast Computing Machines",
+			"authors": [
+				{
+					"family": "Metropolis",
+					"given": "Nicholas"
+				},
+				{
+					"family": "Rosenbluth",
+					"given": "Arianna W."
+				},
+				{
+					"family": "Rosenbluth",
+					"given": "Marshall N."
+				},
+				{
+					"family": "Teller",
+					"given": "Augusta H."
+				},
+				{
+					"family": "Teller",
+					"given": "Edward"
+				}
+			],
+			"container": "Journal of Chemical Physics",
+			"volume": "21",
+			"issue": "6",
+			"pages": "1087–1092",
+			"published": "1953-06",
+			"doi": "10.1063/1.1699114",
+			"url": "https://bayes.wustl.edu/Manual/EquationOfState.pdf",
+			"accessed": "2026-09-30",
+			"note": "224 hard disks on the MANIAC, three minutes a cycle"
+		},
+		{
+			"kind": "web",
+			"title": "Development of Multiscale Models for Complex Chemical Systems: From H+H2 to Biomolecules",
+			"authors": [
+				{
+					"family": "Karplus",
+					"given": "Martin"
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"published": "2013-12-08",
+			"url": "https://www.nobelprize.org/uploads/2018/06/karplus-lecture.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Birth and Future of Multiscale Modeling for Macromolecular Systems",
+			"authors": [
+				{
+					"family": "Levitt",
+					"given": "Michael"
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"published": "2013-12-08",
+			"url": "https://www.nobelprize.org/uploads/2018/06/levitt-lecture.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Computational chemistry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Computational_chemistry&oldid=1377730229",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Density functional theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Density_functional_theory&oldid=1368998818",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Samuel Francis Boys",
+			"url": "https://en.wikipedia.org/w/index.php?title=Samuel_Francis_Boys&oldid=1371994033",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Equation of State Calculations by Fast Computing Machines",
+			"url": "https://en.wikipedia.org/w/index.php?title=Equation_of_State_Calculations_by_Fast_Computing_Machines&oldid=1314108364",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gaussian (software)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gaussian_(software)&oldid=1377532681",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Chemistry 1998",
+			"url": "https://www.nobelprize.org/prizes/chemistry/1998/summary/",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Chemistry 2013",
+			"url": "https://www.nobelprize.org/prizes/chemistry/2013/summary/",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"accessed": "2026-09-30"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/monte-carlo",
+			"why": "The Metropolis rule of 1953 was first put to a chemical question: the equation of state of 224 hard disks, sampled on the MANIAC by accepting each random move with its Boltzmann weight."
+		},
+		{
+			"to": "feynman/simulating-physics",
+			"why": "Kohn's exponential wall, p to the power 3N numbers for N electrons, is the chemist's form of the 2ᴺ amplitudes for N spins that made Feynman ask for a quantum computer."
+		},
+		{
+			"to": "computing/edsac",
+			"why": "Frank Boys and his colleagues ran the first configuration interaction calculations on molecules on EDSAC in the 1950s, part of the theoretical chemistry that followed its first users."
+		}
+	]
+}

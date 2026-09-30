@@ -1,0 +1,215 @@
+{
+	"id": "davy-electrolysis",
+	"topic": "Davy isolates potassium and sodium",
+	"position": {
+		"label": "1807",
+		"sort": 1807
+	},
+	"scene": {
+		"headline": "Electricity pulled metal out of",
+		"accent": "ASH.",
+		"palette": "filter",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COMO · LONDON · THE ROYAL INSTITUTION",
+			"ALESSANDRO VOLTA · HUMPHRY DAVY",
+			"A PILE OF 250 PAIRS · POTASH ON PLATINUM"
+		],
+		"counter": {
+			"value": "6",
+			"label": "metals Davy freed from alkalies and earths, 1807–08"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Bakerian Lecture: On Some New Phenomena of Chemical Changes Produced by Electricity, Particularly the Decomposition of the Fixed Alkalies, and the Exhibition of the New Substances Which Constitute Their Bases; and on the General Nature of Alkaline Bodies",
+			"authors": [
+				{
+					"family": "Davy",
+					"given": "Humphry"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "98",
+			"pages": "1–44",
+			"published": "1808",
+			"doi": "10.1098/rstl.1808.0001",
+			"accessed": "2026-09-30",
+			"note": "The methods tried, the battery, and the globules at the negative surface"
+		},
+		{
+			"kind": "article",
+			"title": "Electro-Chemical Researches, on the Decomposition of the Earths; with Observations on the Metals Obtained from the Alkaline Earths, and on the Amalgam Procured from Ammonia",
+			"authors": [
+				{
+					"family": "Davy",
+					"given": "Humphry"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "98",
+			"pages": "333–370",
+			"published": "1808",
+			"doi": "10.1098/rstl.1808.0023",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "On the Electricity Excited by the Mere Contact of Conducting Substances of Different Kinds",
+			"authors": [
+				{
+					"family": "Volta",
+					"given": "Alessandro"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "90",
+			"pages": "403–431",
+			"published": "1800",
+			"doi": "10.1098/rstl.1800.0018",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "book",
+			"title": "Memoirs of the Life of Sir Humphry Davy, Vol. 1",
+			"authors": [
+				{
+					"family": "Davy",
+					"given": "John"
+				}
+			],
+			"publisher": "Longman, Rees, Orme, Brown, Green & Longman",
+			"place": "London",
+			"published": "1836",
+			"url": "https://archive.org/details/b33286437_0001",
+			"accessed": "2026-09-30",
+			"note": "Edmund Davy's account and the dates of the discovery, pp. 383–385"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Humphry Davy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Humphry_Davy&oldid=1377070313",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Humphry Davy",
+			"container": "Science History Institute",
+			"url": "https://www.sciencehistory.org/education/scientific-biographies/humphry-davy/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Voltaic pile",
+			"url": "https://en.wikipedia.org/w/index.php?title=Voltaic_pile&oldid=1377372359",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Potassium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Potassium&oldid=1377379012",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Nicholson (chemist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Nicholson_(chemist)&oldid=1374670776",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Michael Faraday",
+			"url": "https://en.wikipedia.org/w/index.php?title=Michael_Faraday&oldid=1377565269",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of electrochemistry",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_electrochemistry&oldid=1372929809",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "media",
+			"title": "Volta's pile and crown of cups, Plate XVII of the Philosophical Transactions for 1800",
+			"url": "https://commons.wikimedia.org/wiki/File:Volta%27s_pile_and_%27crown_of_cups%27._Wellcome_M0014526.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wellcome Collection, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "volta-pile.jpg",
+			"published": "1800"
+		},
+		{
+			"kind": "media",
+			"title": "Scientific Researches! New Discoveries in Pneumaticks! A lecture at the Royal Institution, by James Gillray",
+			"url": "https://commons.wikimedia.org/wiki/File:Scientific_researches!_-_New_discoveries_in_pneumaticks!_-_or_-_An_experimental_lecture_on_the_powers_of_air_LCCN94509819.jpg",
+			"accessed": "2026-09-30",
+			"container": "Library of Congress, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "gillray.jpg",
+			"authors": [
+				{
+					"family": "Gillray",
+					"given": "James"
+				}
+			],
+			"published": "1802"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/faraday-induction",
+			"why": "Faraday, who found induction at the Royal Institution in 1831, came there as Davy's chemical assistant in 1813, after sending him bound notes of his lectures."
+		}
+	]
+}

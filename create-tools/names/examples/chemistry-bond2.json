@@ -1,0 +1,32 @@
+{
+	"chemistry/nmr": [
+		["Edward Purcell", "edward-mills-purcell"],
+		["Felix Bloch", "felix-bloch"],
+		["NMR spectroscopy", "nuclear-magnetic-resonance-spectroscopy"],
+		["chemical shift", "chemical-shift"],
+		["Richard Ernst", "richard-r-ernst"],
+		["Paul Lauterbur", "paul-lauterbur"],
+		["magnetic resonance imaging", "magnetic-resonance-imaging"],
+		["DENDRAL", "dendral"]
+	],
+	"chemistry/computational-chemistry": [
+		["Paul Dirac", "paul-dirac"],
+		["John Pople", "john-pople"],
+		["Walter Kohn", "walter-kohn"],
+		["Computational chemistry", "computational-chemistry"],
+		["Frank Boys", "samuel-francis-boys"],
+		["EDSAC", "edsac"],
+		["Nicholas Metropolis", "nicholas-metropolis"],
+		["density functional theory", "density-functional-theory"]
+	],
+	"chemistry/alphafold": [
+		["Christian Anfinsen", "christian-b-anfinsen"],
+		["Levinthal's paradox", "levinthals-paradox"],
+		["CASP", "casp"],
+		["DeepMind", "google-deepmind"],
+		["Demis Hassabis", "demis-hassabis"],
+		["John Jumper", "john-m-jumper"],
+		["AlphaFold", "alphafold"],
+		["David Baker", "david-baker-biochemist"]
+	]
+}

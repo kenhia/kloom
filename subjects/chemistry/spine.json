@@ -23,13 +23,16 @@
 			"id": "revolution",
 			"title": "The chemical revolution",
 			"labelKind": "date",
-			"frames": ["boyle", "phlogiston", "fixed-air"]
+			"frames": ["boyle", "phlogiston", "fixed-air", "oxygen", "lavoisier", "davy-electrolysis"]
 		},
 		{
 			"id": "atoms",
 			"title": "Atoms and the table",
 			"labelKind": "date",
 			"frames": [
+				"dalton",
+				"wohler-urea",
+				"faraday-electrolysis",
 				"chirality",
 				"structure-theory",
 				"karlsruhe",
@@ -53,10 +56,28 @@
 			]
 		},
 		{
+			"id": "bond",
+			"title": "The chemical bond",
+			"labelKind": "category",
+			"frames": [
+				"crystallography",
+				"electron-pair",
+				"quantum-chemistry",
+				"nmr",
+				"computational-chemistry"
+			]
+		},
+		{
 			"id": "materials",
 			"title": "Materials",
 			"labelKind": "category",
-			"frames": ["photolithography", "lithium-battery"]
+			"frames": ["bessemer-steel", "aluminium", "silicon", "photolithography", "lithium-battery"]
+		},
+		{
+			"id": "life",
+			"title": "The chemistry of life",
+			"labelKind": "category",
+			"frames": ["alphafold"]
 		},
 		{
 			"id": "now",

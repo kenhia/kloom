@@ -1,0 +1,210 @@
+{
+	"id": "aluminium",
+	"topic": "The Hall–Héroult process",
+	"asOf": "2026-09-30",
+	"position": {
+		"label": "Aluminium"
+	},
+	"scene": {
+		"headline": "We turned a precious metal into",
+		"accent": "FOIL.",
+		"palette": "coaltar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"OBERLIN, OHIO · PARIS · PITTSBURGH",
+			"ALUMINA IN MOLTEN CRYOLITE · CARBON ANODES"
+		],
+		"counter": {
+			"value": "2,980 Ah",
+			"label": "of charge for each kilogram of aluminium"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Production of Aluminum: The Hall-Héroult Process",
+			"container": "National Historic Chemical Landmarks",
+			"publisher": "American Chemical Society",
+			"published": "1997",
+			"url": "https://www.acs.org/education/whatischemistry/landmarks/aluminumprocess.html",
+			"accessed": "2026-09-30",
+			"note": "Hall's woodshed experiments, the clay crucible's silicon and the priority dispute; read through the Wayback Machine"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "De l'aluminium, ses propriétés, sa fabrication et ses applications",
+			"authors": [
+				{
+					"family": "Sainte-Claire Deville",
+					"given": "Henri"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Mallet-Bachelier",
+			"published": "1859",
+			"url": "https://archive.org/details/delaluminiumses00devigoog",
+			"accessed": "2026-09-30",
+			"note": "The preface: the Emperor's funding, the trials at Javel in 1855, and 300 francs a kilogram, “un peu plus cher que l'argent”"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hall–Héroult process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hall%E2%80%93H%C3%A9roult_process&oldid=1375354537",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of aluminium",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_aluminium&oldid=1376134381",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Martin Hall",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Martin_Hall&oldid=1341504477",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Héroult",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_H%C3%A9roult&oldid=1371982381",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henri Étienne Sainte-Claire Deville",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henri_%C3%89tienne_Sainte-Claire_Deville&oldid=1376828949",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Washington Monument",
+			"url": "https://en.wikipedia.org/w/index.php?title=Washington_Monument&oldid=1377686994",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cryolite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cryolite&oldid=1372779564",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aluminium recycling",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aluminium_recycling&oldid=1372881337",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Faraday's laws of electrolysis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Faraday's_laws_of_electrolysis&oldid=1332708642",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-13"
+		},
+		{
+			"kind": "media",
+			"title": "Setting the aluminium apex on the Washington Monument, 6 December 1884",
+			"url": "https://commons.wikimedia.org/wiki/File:Washington_Monument_-_Setting_the_capstone_-_Harper%27s_Weekly_(cropped).png",
+			"accessed": "2026-09-30",
+			"container": "Harper's Weekly, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "capstone.jpg",
+			"authors": [
+				{
+					"family": "Nealy",
+					"given": "S. H."
+				}
+			],
+			"published": "1884-12-20"
+		},
+		{
+			"kind": "media",
+			"title": "Electricity to make or remake a kilogram of aluminium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hall%E2%80%93H%C3%A9roult_process&oldid=1375354537",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from Wikipedia's Hall–Héroult process and Aluminium recycling articles",
+			"licence": "MIT",
+			"file": "energy.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/oersted",
+			"why": "Ørsted, who found that a current turns a compass needle, also made the first impure lump of aluminium in 1825; sixty years later electric current made the metal cheap."
+		}
+	]
+}

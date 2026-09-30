@@ -1,0 +1,316 @@
+{
+	"id": "quantum-chemistry",
+	"topic": "Quantum chemistry and the bond",
+	"position": {
+		"label": "Quantum chemistry"
+	},
+	"scene": {
+		"headline": "We calculated the",
+		"accent": "BOND.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ZURICH · HEITLER AND LONDON · JUNE 1927",
+			"PASADENA · PAULING · CHICAGO · MULLIKEN"
+		],
+		"counter": {
+			"value": "3.14 of 4.72",
+			"label": "electronvolts of hydrogen's bond, first calculated"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Wechselwirkung neutraler Atome und homöopolare Bindung nach der Quantenmechanik",
+			"authors": [
+				{
+					"family": "Heitler",
+					"given": "W."
+				},
+				{
+					"family": "London",
+					"given": "F."
+				}
+			],
+			"container": "Zeitschrift für Physik",
+			"volume": "44",
+			"issue": "6–7",
+			"pages": "455–472",
+			"published": "1927",
+			"doi": "10.1007/BF01397394",
+			"url": "https://archive.org/details/1927-heitler-and-london",
+			"accessed": "2026-09-30",
+			"note": "Read in the Internet Archive's scan; the exchange integral left as an upper bound, p. 462"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Introduction to Quantum Mechanics, with Applications to Chemistry",
+			"authors": [
+				{
+					"family": "Pauling",
+					"given": "Linus"
+				},
+				{
+					"family": "Wilson",
+					"given": "E. Bright, Jr."
+				}
+			],
+			"publisher": "McGraw-Hill",
+			"place": "New York",
+			"published": "1935",
+			"url": "https://archive.org/details/introductiontoqu031712mbp",
+			"accessed": "2026-09-30",
+			"note": "Section 43 and Table 43-1: the approximate treatments of the hydrogen molecule"
+		},
+		{
+			"kind": "book",
+			"title": "The Nature of the Chemical Bond and the Structure of Molecules and Crystals",
+			"authors": [
+				{
+					"family": "Pauling",
+					"given": "Linus"
+				}
+			],
+			"publisher": "Oxford University Press",
+			"place": "London",
+			"published": "1940",
+			"url": "https://archive.org/details/dli.ernet.474884",
+			"accessed": "2026-09-30",
+			"note": "Second edition; the dedication to Lewis and the preface of the first edition, 1939"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Spectroscopy, Molecular Orbitals, and Chemical Bonding",
+			"authors": [
+				{
+					"family": "Mulliken",
+					"given": "Robert S."
+				}
+			],
+			"container": "Nobel Lectures, Chemistry 1963–1970",
+			"publisher": "Elsevier",
+			"place": "Amsterdam",
+			"published": "1972",
+			"url": "https://www.nobelprize.org/uploads/2018/06/mulliken-lecture.pdf",
+			"accessed": "2026-09-30",
+			"note": "Nobel lecture of 12 December 1966"
+		},
+		{
+			"kind": "article",
+			"title": "Dissociation Energy of the Hydrogen Molecule at 10⁻⁹ Accuracy",
+			"authors": [
+				{
+					"family": "Cheng",
+					"given": "C."
+				},
+				{
+					"family": "Hussels",
+					"given": "J."
+				},
+				{
+					"family": "Niu",
+					"given": "M."
+				},
+				{
+					"family": "Bethlem",
+					"given": "H. L."
+				},
+				{
+					"family": "Eikema",
+					"given": "K. S. E."
+				},
+				{
+					"family": "Salumbides",
+					"given": "E. J."
+				},
+				{
+					"family": "Ubachs",
+					"given": "W."
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint arXiv:1804.11143",
+			"published": "2018-04-30",
+			"url": "https://arxiv.org/abs/1804.11143",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum chemistry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_chemistry&oldid=1374832547",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Walter Heitler",
+			"url": "https://en.wikipedia.org/w/index.php?title=Walter_Heitler&oldid=1372006547",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fritz London",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fritz_London&oldid=1371996447",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linus Pauling",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linus_Pauling&oldid=1374355649",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert S. Mulliken",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_S._Mulliken&oldid=1371991069",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Valence bond theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Valence_bond_theory&oldid=1367087204",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Molecular orbital theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Molecular_orbital_theory&oldid=1351462255",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Orbital hybridisation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Orbital_hybridisation&oldid=1374222256",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Electronegativity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electronegativity&oldid=1365387103",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Resonance (chemistry)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Resonance_(chemistry)&oldid=1371546051",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "media",
+			"title": "Robert Mulliken and Friedrich Hund in Chicago, 1929",
+			"url": "https://commons.wikimedia.org/wiki/File:Mulliken_Hund_1929_Chicago.jpg",
+			"accessed": "2026-09-30",
+			"container": "Friedrich Hund's papers, via Wikimedia Commons",
+			"licence": "CC BY 3.0",
+			"file": "mulliken-hund.jpg",
+			"authors": [
+				{
+					"name": "GFHund"
+				}
+			],
+			"published": "1929"
+		},
+		{
+			"kind": "media",
+			"title": "The hydrogen molecule's bond energy, calculated and measured, to 1935",
+			"url": "https://archive.org/details/introductiontoqu031712mbp",
+			"accessed": "2026-09-30",
+			"container": "Chart drawn for kloom from Pauling and Wilson (1935), Table 43-1",
+			"licence": "MIT",
+			"file": "h2-energy.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/wave-mechanics",
+			"why": "Heitler and London solved Schrödinger's wave equation for two hydrogen atoms in Zurich in 1927, thanking Schrödinger, and found the chemical bond among its solutions."
+		},
+		{
+			"to": "feynman/forces-in-molecules",
+			"why": "Once quantum mechanics fixes a molecule's electron cloud, the force on each nucleus is plain electrostatics: the Hellmann–Feynman theorem, in Hellmann's quantum chemistry textbook of 1937 and Feynman's MIT paper of 1939."
+		}
+	]
+}
