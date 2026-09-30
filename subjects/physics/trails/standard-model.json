@@ -8,7 +8,7 @@
 				"id": "building",
 				"title": "Building the model",
 				"labelKind": "date",
-				"frames": ["neutrino", "quarks"]
+				"frames": ["neutrino", "quarks", "electroweak", "asymptotic-freedom", "w-and-z", "higgs"]
 			}
 		]
 	}

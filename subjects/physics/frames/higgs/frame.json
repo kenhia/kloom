@@ -1,0 +1,241 @@
+{
+	"id": "higgs",
+	"topic": "The Higgs boson",
+	"position": {
+		"label": "2012",
+		"sort": 2012
+	},
+	"asOf": "2026-09-29",
+	"scene": {
+		"headline": "Empty space was",
+		"accent": "FULL.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CERN · LARGE HADRON COLLIDER · ATLAS · CMS",
+			"ENGLERT · BROUT · HIGGS · GURALNIK · HAGEN · KIBBLE"
+		],
+		"counter": {
+			"value": "125.20 GeV",
+			"label": "mass of the Higgs boson, 2025 world average"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Status of Higgs Boson Physics",
+			"url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-higgs-boson.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Cepeda",
+					"given": "M."
+				},
+				{
+					"family": "Reina",
+					"given": "L."
+				},
+				{
+					"family": "Savard",
+					"given": "P."
+				}
+			],
+			"container": "Review of Particle Physics, 2025 update",
+			"publisher": "Particle Data Group",
+			"published": "2025-12-01",
+			"note": "Mass, couplings (Table 11.5) and the self-coupling limits, as of 2025"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Higgs boson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Higgs_boson&oldid=1377106347",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "1964 PRL symmetry breaking papers",
+			"url": "https://en.wikipedia.org/w/index.php?title=1964_PRL_symmetry_breaking_papers&oldid=1318795660",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Higgs mechanism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Higgs_mechanism&oldid=1377532800",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peter Higgs",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peter_Higgs&oldid=1377123831",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "François Englert",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Englert&oldid=1376417731",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Superconducting Super Collider",
+			"url": "https://en.wikipedia.org/w/index.php?title=Superconducting_Super_Collider&oldid=1373108760",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Large Hadron Collider",
+			"url": "https://en.wikipedia.org/w/index.php?title=Large_Hadron_Collider&oldid=1376796660",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Search for the Higgs boson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Search_for_the_Higgs_boson&oldid=1369108883",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physics 2013: press release",
+			"url": "https://www.nobelprize.org/prizes/physics/2013/press-release/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "The Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "2013-10-08"
+		},
+		{
+			"kind": "report",
+			"title": "Gauge and Higgs bosons: summary tables",
+			"url": "https://pdg.lbl.gov/2025/tables/rpp2025-sum-gauge-higgs-bosons.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Navas",
+					"given": "S."
+				}
+			],
+			"container": "Review of Particle Physics, 2025 update",
+			"publisher": "Particle Data Group",
+			"published": "2025"
+		},
+		{
+			"kind": "web",
+			"title": "Information Management: A Proposal",
+			"url": "https://www.w3.org/History/1989/proposal.html",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Berners-Lee",
+					"given": "Tim"
+				}
+			],
+			"container": "W3C",
+			"publisher": "CERN",
+			"published": "1990-05"
+		},
+		{
+			"kind": "media",
+			"title": "A candidate Higgs boson decaying through two Z bosons to an electron pair and a muon pair, recorded by CMS on 27 May 2012 at 8 TeV",
+			"url": "https://commons.wikimedia.org/wiki/File:CMS-PHO-EVENTS-2012-007-1.png",
+			"accessed": "2026-09-29",
+			"container": "CERN Document Server, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "cms-event.png",
+			"authors": [
+				{
+					"name": "CMS Collaboration"
+				},
+				{
+					"family": "McCauley",
+					"given": "Thomas"
+				},
+				{
+					"family": "Taylor",
+					"given": "Lucas"
+				}
+			],
+			"published": "2012-07-04"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/world-wide-web",
+			"why": "Berners-Lee's 1989 proposal for the web opens with the question CERN kept asking about the LHC era, how anyone would keep track of so large a project; the LHC found the Higgs twenty-three years later."
+		},
+		{
+			"to": "feynman/legacy",
+			"why": "The Higgs rates ATLAS and CMS compare with are computed from Feynman diagrams, to high order, as are all the LHC's predictions."
+		}
+	]
+}

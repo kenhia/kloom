@@ -1,0 +1,278 @@
+{
+	"id": "w-and-z",
+	"topic": "The W and Z bosons",
+	"position": {
+		"label": "1983",
+		"sort": 1983
+	},
+	"scene": {
+		"headline": "We caught the weak force’s",
+		"accent": "MESSENGERS.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CERN · SUPER PROTON SYNCHROTRON · UA1 · UA2",
+			"RUBBIA · VAN DER MEER · STOCHASTIC COOLING"
+		],
+		"counter": {
+			"value": "5",
+			"label": "W decays UA1 picked out of about a billion collisions, 1982"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"title": "When CERN saw the end of the alphabet",
+			"url": "https://cerncourier.com/a/when-cern-saw-the-end-of-the-alphabet/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Denegri",
+					"given": "Daniel"
+				}
+			],
+			"container": "CERN Courier",
+			"publisher": "CERN",
+			"published": "2003-05-01",
+			"key": true,
+			"note": "The Fermi cross-section's limit, the five W events and the first Z events"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physics 1984: press release",
+			"url": "https://www.nobelprize.org/prizes/physics/1984/press-release/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "The Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1984-10-17"
+		},
+		{
+			"kind": "web",
+			"title": "The W and Z particles: a personal recollection",
+			"url": "https://cerncourier.com/a/the-w-and-z-particles-a-personal-recollection/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Darriulat",
+					"given": "Pierre"
+				}
+			],
+			"container": "CERN Courier",
+			"publisher": "CERN",
+			"published": "2004-04-01"
+		},
+		{
+			"kind": "web",
+			"title": "W boson: Sunshine and stardust",
+			"url": "https://home.cern/science/physics/w-boson-sunshine-and-stardust",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "CERN"
+				}
+			],
+			"container": "CERN",
+			"publisher": "CERN"
+		},
+		{
+			"kind": "web",
+			"title": "The Z boson",
+			"url": "https://home.cern/science/physics/z-boson",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "CERN"
+				}
+			],
+			"container": "CERN",
+			"publisher": "CERN"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "W and Z bosons",
+			"url": "https://en.wikipedia.org/w/index.php?title=W_and_Z_bosons&oldid=1362718599",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "UA1 experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=UA1_experiment&oldid=1329881903",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "UA2 experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=UA2_experiment&oldid=1310249815",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stochastic cooling",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stochastic_cooling&oldid=1341150121",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Super Proton Synchrotron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Super_Proton_Synchrotron&oldid=1367587722",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Large Electron–Positron Collider",
+			"url": "https://en.wikipedia.org/w/index.php?title=Large_Electron%E2%80%93Positron_Collider&oldid=1367588074",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carlo Rubbia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carlo_Rubbia&oldid=1372589191",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Simon van der Meer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Simon_van_der_Meer&oldid=1371996560",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "article",
+			"title": "Precision Electroweak Measurements on the Z Resonance",
+			"doi": "10.1016/j.physrep.2005.12.006",
+			"url": "https://arxiv.org/abs/hep-ex/0509008",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "ALEPH, DELPHI, L3, OPAL and SLD Collaborations"
+				}
+			],
+			"container": "Physics Reports",
+			"volume": "427",
+			"pages": "257–454",
+			"published": "2006",
+			"key": true,
+			"note": "17 million Z decays; 2.9840 ± 0.0082 light neutrinos"
+		},
+		{
+			"kind": "report",
+			"title": "Gauge and Higgs bosons: summary tables",
+			"url": "https://pdg.lbl.gov/2025/tables/rpp2025-sum-gauge-higgs-bosons.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Navas",
+					"given": "S."
+				}
+			],
+			"container": "Review of Particle Physics, 2025 update",
+			"publisher": "Particle Data Group",
+			"published": "2025"
+		},
+		{
+			"kind": "media",
+			"title": "The press conference of 25 January 1983 announcing the W: Carlo Rubbia, Simon van der Meer, Herwig Schopper, Erwin Gabathuler and Pierre Darriulat",
+			"url": "https://commons.wikimedia.org/wiki/File:UA2_UA1_press_conference,_25_January_1983.jpg",
+			"accessed": "2026-09-29",
+			"container": "CERN Photo Archive, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "press-conference.jpg",
+			"authors": [
+				{
+					"name": "CERN"
+				}
+			],
+			"published": "1983-01-25"
+		},
+		{
+			"kind": "media",
+			"title": "The Z peak for two, three and four light neutrinos, Born-level curves",
+			"url": "https://pdg.lbl.gov/2025/tables/rpp2025-sum-gauge-higgs-bosons.pdf",
+			"accessed": "2026-09-29",
+			"container": "Chart drawn for kloom from the Particle Data Group's 2025 Z parameters (create-tools/draw-plates/physics_particles2.py)",
+			"licence": "MIT",
+			"file": "z-peak.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/weak-force",
+			"why": "UA1's first large sample of W decays, in 1983, showed \"unmistakably\" the angular asymmetry that the V − A law's left-handed weak force predicts."
+		}
+	]
+}
