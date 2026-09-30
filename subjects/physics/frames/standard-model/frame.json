@@ -1,0 +1,188 @@
+{
+	"id": "standard-model",
+	"topic": "The Standard Model",
+	"position": {
+		"label": "The Standard Model"
+	},
+	"asOf": "2026-09-29",
+	"scene": {
+		"headline": "Everything but gravity fit one",
+		"accent": "TABLE.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": ["BERKELEY · FERMILAB · CERN", "SU(3) × SU(2) × U(1) · QUARKS · LEPTONS · BOSONS"],
+		"counter": {
+			"value": "19",
+			"label": "numbers the Standard Model leaves to measurement"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Standard Model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Standard_Model&oldid=1374132911",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10",
+			"note": "The particles, the gauge symmetry, the 19 parameters, and who named it"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Large Hadron Collider",
+			"url": "https://en.wikipedia.org/w/index.php?title=Large_Hadron_Collider&oldid=1376796660",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"note": "Its size, its builders, and Long Shutdown 3 from June 2026"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Cyclotron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cyclotron&oldid=1373398723",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05",
+			"note": "Lawrence and Livingston's first machine, 2 January 1931, 80 keV"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gauge theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gauge_theory&oldid=1373807702",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "W and Z bosons",
+			"url": "https://en.wikipedia.org/w/index.php?title=W_and_Z_bosons&oldid=1362718599",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Neutrino",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neutrino&oldid=1377108493",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Super Proton Synchrotron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Super_Proton_Synchrotron&oldid=1367587722",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tevatron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tevatron&oldid=1367591435",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "media",
+			"title": "A replica of the first cyclotron, photographed at Berkeley on 11 April 1958",
+			"url": "https://commons.wikimedia.org/wiki/File:Replica_of_the_first_cyclotron._Photograph_taken_April_11,_1958_-_DPLA_-_7b57ed95ba28e811a00acfd91db9d4cc.jpg",
+			"accessed": "2026-09-29",
+			"container": "Lawrence Berkeley National Laboratory, via the National Archives and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "first-cyclotron.jpg",
+			"authors": [
+				{
+					"name": "Lawrence Berkeley National Laboratory"
+				}
+			],
+			"published": "1958-04-11"
+		},
+		{
+			"kind": "media",
+			"title": "Inside the LHC tunnel at CERN, photographed at CERN's fiftieth-anniversary open day",
+			"url": "https://commons.wikimedia.org/wiki/File:Inside_the_CERN_LHC_tunnel.jpg",
+			"accessed": "2026-09-29",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "lhc-tunnel.jpg",
+			"authors": [
+				{
+					"name": "Juhanson"
+				}
+			],
+			"published": "2004-10-19"
+		},
+		{
+			"kind": "media",
+			"title": "Proton beam energy of record accelerators, 1931–2022 (chart drawn for kloom)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cyclotron&oldid=1373398723",
+			"accessed": "2026-09-29",
+			"container": "Data from the Cyclotron, Super Proton Synchrotron, Tevatron and Large Hadron Collider articles, Wikipedia",
+			"licence": "MIT",
+			"file": "beam-energy.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/world-wide-web",
+			"why": "CERN's experiments gather thousands of physicists who stay a few years and leave; Berners-Lee proposed the web there in 1989 so that what they recorded could still be found."
+		},
+		{
+			"to": "feynman/legacy",
+			"why": "Feynman's path integral is the standard statement of the Standard Model, and his diagrams are how its predictions for LHC collisions are computed, thousands at a time."
+		}
+	]
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M156.2 97.9 L194.3 119.9"/>
+		<path pathLength="1" d="M175.2 108.9 L310.8 44.8"/>
+		<path pathLength="1" d="M243.8 97.9 L205.7 119.9"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M66.8 160.2 L175.2 108.9"/>
+		<path pathLength="1" d="M200 66 L155 144 L245 144 Z"/>
+		<path pathLength="1" d="M70.6 168.4 L67.6 162"/>
+		<path pathLength="1" d="M62.9 152.1 L65.9 158.4"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M175.2 108.9 L224.6 108.6 L334.6 156.4"/>
+		<path pathLength="1" d="M175.2 108.9 L224.8 108.9 L333.2 160.2"/>
+		<path pathLength="1" d="M175.2 108.9 L225.2 109.7 L329.1 169.7"/>
+		<path pathLength="1" d="M175.2 108.9 L225.7 110.6 L321.3 183.1"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M30 254 L30 258 M78.6 254 L78.6 258 M127.1 254 L127.1 258 M175.7 254 L175.7 258 M224.3 254 L224.3 258 M272.9 254 L272.9 258 M321.4 254 L321.4 258 M370 254 L370 258"/>
+		<path pathLength="1" d="M44.1 210 L44.1 254"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 254 L370 254"/>
+		<path pathLength="1" d="M327.5 232 L327.5 254 M162.2 232 L162.2 254 M111.6 232 L111.6 254 M88.4 232 L88.4 254 M75.6 232.8 L75.6 254 M67.8 233.6 L67.8 254 M62.5 234.4 L62.5 254 M58.9 235.2 L58.9 254 M56.3 236 L56.3 254 M54.3 236.8 L54.3 254 M52.7 237.6 L52.7 254 M51.5 238.4 L51.5 254 M50.6 239.2 L50.6 254 M49.8 240 L49.8 254 M49.1 240.8 L49.1 254 M48.6 241.6 L48.6 254 M48.1 242.4 L48.1 254 M47.7 243.2 L47.7 254 M47.4 244 L47.4 254 M47.1 244.8 L47.1 254 M46.8 245.6 L46.8 254 M46.6 246.4 L46.6 254 M46.4 247.2 L46.4 254 M46.3 248 L46.3 254 M46.1 248 L46.1 254 M46 248 L46 254 M45.8 248 L45.8 254 M45.7 248 L45.7 254"/>
+	</g>
+	<g>
+		<text x="327.5" y="228" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Hα</text>
+		<text x="162.2" y="228" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Hβ</text>
+		<text x="111.6" y="228" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Hγ</text>
+		<text x="88.4" y="228" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Hδ</text>
+		<text x="46.1" y="206" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIMIT 364.6</text>
+		<text x="78.6" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">400</text>
+		<text x="175.7" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">500</text>
+		<text x="272.9" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">600</text>
+		<text x="370" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">700</text>
+		<text x="370" y="290" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NM</text>
+		<text x="66.8" y="176.2" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SLIT</text>
+		<text x="338.6" y="152.4" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RED</text>
+		<text x="325.3" y="192.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VIOLET</text>
+		<text x="200" y="22" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">λ = 364.56 · n² / (n² − 4)</text>
+	</g>
+</svg>

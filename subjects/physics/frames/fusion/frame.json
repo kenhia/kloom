@@ -1,0 +1,310 @@
+{
+	"id": "fusion",
+	"topic": "Nuclear fusion, stars to reactors",
+	"position": {
+		"label": "Fusion"
+	},
+	"asOf": "2026-09-29",
+	"scene": {
+		"headline": "We tried to put the Sun in a",
+		"accent": "BOTTLE.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THE SUN · ENEWETAK · CULHAM · LIVERMORE",
+			"EDDINGTON · BETHE · TELLER",
+			"PROTON–PROTON · CNO · TOKAMAK · LASER"
+		],
+		"counter": {
+			"value": "8.6 MJ",
+			"label": "of fusion from 2.08 MJ of laser light, NIF, April 2025"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Stellar nucleosynthesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stellar_nucleosynthesis&oldid=1376646288",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"note": "Eddington's 1920 argument and Bethe's 1939 \"Energy Production in Stars\""
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arthur Eddington",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arthur_Eddington&oldid=1376056176",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "CNO cycle",
+			"url": "https://en.wikipedia.org/w/index.php?title=CNO_cycle&oldid=1371579743",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Proton–proton chain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Proton%E2%80%93proton_chain&oldid=1377575821",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nuclear fusion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nuclear_fusion&oldid=1375403221",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ivy Mike",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ivy_Mike&oldid=1370613077",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ENIAC",
+			"url": "https://en.wikipedia.org/w/index.php?title=ENIAC&oldid=1376553089",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Tokamak",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tokamak&oldid=1377285134",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joint European Torus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joint_European_Torus&oldid=1375358190",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "National Ignition Facility",
+			"url": "https://en.wikipedia.org/w/index.php?title=National_Ignition_Facility&oldid=1374804524",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fusion power",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fusion_power&oldid=1377059673",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ITER",
+			"url": "https://en.wikipedia.org/w/index.php?title=ITER&oldid=1371532798",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "National Ignition Facility",
+			"container": "Lawrence Livermore National Laboratory Annual Report 2025",
+			"publisher": "Lawrence Livermore National Laboratory",
+			"place": "Livermore, CA",
+			"published": "2026-02",
+			"url": "https://annual.llnl.gov/sites/annual/files/2026-02/llnlannual25-3-national-ignition-facility.pdf",
+			"accessed": "2026-09-29",
+			"note": "The 8.6 MJ shot of 7 April 2025, and the laser cut to 1.9 MJ"
+		},
+		{
+			"kind": "web",
+			"title": "Target Breakthrough Enabled Fusion Record at NIF",
+			"authors": [
+				{
+					"family": "Osolin",
+					"given": "Charlie"
+				}
+			],
+			"container": "National Ignition Facility & Photon Science",
+			"publisher": "Lawrence Livermore National Laboratory",
+			"published": "2026-04-15",
+			"url": "https://lasers.llnl.gov/news/target-breakthrough-enabled-fusion-record-nif",
+			"accessed": "2026-09-29"
+		},
+		{
+			"kind": "report",
+			"title": "National Ignition Facility Update",
+			"container": "2026 NIF/JLF User Group Meeting",
+			"publisher": "Lawrence Livermore National Laboratory",
+			"published": "2026-03",
+			"url": "https://lasers.llnl.gov/sites/lasers/files/2026-03/Gordon-Brunton-NUG-2026-FINAL.pdf",
+			"accessed": "2026-09-29",
+			"note": "The NIF director's slides: 8.6 MJ from 2.05 MJ, gain 4.2"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "New Baseline to Prioritize Robust Start to Exploitation",
+			"container": "ITER Newsline",
+			"publisher": "ITER Organization",
+			"published": "2024-07-03",
+			"url": "https://www.iter.org/node/20687/new-baseline-prioritize-robust-start-exploitation",
+			"accessed": "2026-09-29"
+		},
+		{
+			"kind": "web",
+			"title": "New ITER Schedule",
+			"container": "Max Planck Institute for Plasma Physics",
+			"publisher": "Max-Planck-Institut für Plasmaphysik",
+			"published": "2024-07-03",
+			"url": "https://www.ipp.mpg.de/5434926/ITER_baseline_2024",
+			"accessed": "2026-09-29"
+		},
+		{
+			"kind": "web",
+			"title": "ITER Council Notes Continued Progress across Construction, Commissioning and Licensing",
+			"container": "ITER Newsline",
+			"publisher": "ITER Organization",
+			"published": "2026-07-06",
+			"url": "https://www.iter.org/node/20687/iter-council-notes-continued-progress-across-construction-commissioning-and-licensing",
+			"accessed": "2026-09-29"
+		},
+		{
+			"kind": "web",
+			"title": "Tokamak Assembly",
+			"container": "ITER",
+			"publisher": "ITER Organization",
+			"url": "https://www.iter.org/project/tokamak-assembly",
+			"accessed": "2026-09-29",
+			"note": "The central solenoid stack, 23 June 2026, and the sixth sector module, 28 July 2026"
+		},
+		{
+			"kind": "media",
+			"title": "Inside the vacuum vessel of the Joint European Torus",
+			"url": "https://commons.wikimedia.org/wiki/File:JET_vessel_internal_view_mascot.jpg",
+			"accessed": "2026-09-29",
+			"container": "EUROfusion media library, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "jet-vessel.jpg",
+			"authors": [
+				{
+					"name": "EUROfusion"
+				}
+			],
+			"published": "2013-05"
+		},
+		{
+			"kind": "media",
+			"title": "Fusion energy from the National Ignition Facility's best shots, 2021 to 2025",
+			"url": "https://lasers.llnl.gov/news/target-breakthrough-enabled-fusion-record-nif",
+			"accessed": "2026-09-29",
+			"container": "Chart drawn for kloom from Lawrence Livermore's reports and Wikipedia's National Ignition Facility",
+			"licence": "MIT",
+			"file": "nif-yields.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/eniac",
+			"why": "ENIAC's first problem, run from December 1945, was a Los Alamos calculation on Teller's thermonuclear Super, the bomb this frame's Ivy Mike became."
+		},
+		{
+			"to": "physics/manhattan-project",
+			"why": "The hydrogen bomb followed the project's fission bombs; the first, Ivy Mike in 1952, was about 500 times Nagasaki."
+		}
+	]
+}

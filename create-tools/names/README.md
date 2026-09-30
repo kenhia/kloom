@@ -1,7 +1,7 @@
 # names
 
 Names the people, places and things a subject mentions, for the shared name
-registry (`names/`, docs/design.md §Connections). Four commands.
+registry (`names/`, docs/design.md §Connections). Five commands.
 
 ```sh
 python3 create-tools/names/names.py lookup "Johannes Gutenberg" "Printing press"
@@ -9,6 +9,7 @@ python3 create-tools/names/names.py add drafts/ [--update] [--check]
 python3 create-tools/names/names.py mark create-tools/names/examples/western-civ.json
 python3 create-tools/names/names.py mark create-tools/names/examples/western-civ.json --check
 python3 create-tools/names/names.py density
+python3 create-tools/names/names.py reach western-civ
 ```
 
 - **`lookup`** prints one JSON line per Wikipedia title: a slugged `id`,
@@ -33,16 +34,30 @@ python3 create-tools/names/names.py density
   `[words](kloom:e/<id>)`. The words are matched as the reading writes
   them, and may wrap across lines. A mention in a heading, a table row, an
   image's alt text or another link is skipped: the mark goes on the first
-  one in prose, or the command names the pair it could not place and exits
-  1. A name already marked in the frame is left alone, so a spec can be
-     run again.
-- **`mark --check`** changes nothing and exits 1 if any mark is missing:
-  keep the spec as the record of what was marked, and check it after an
-  edit.
+  one in prose, or the command names the pair it could not place and
+  exits 1. A name already marked in the frame is left alone, so a spec can
+  be run again. Write the words with any emphasis the reading gives them:
+  a title in italics is `"_The Method_"`, and the mark keeps the
+  underscores inside it, as `[_The Method_](kloom:e/…)`.
+- **`mark --check`** changes nothing and exits 1 if any mark is missing,
+  or if a frame the spec names carries a mark no spec in its directory
+  lists (one written by hand, sprint 021): keep the specs as the record of
+  what was marked, and check them after an edit.
+- **Every name a spec marks must be known**: a file in the registry
+  (`--names`, by default `names/`) or in a directory of drafts not yet
+  added (`--drafts DIR`, repeatable). Otherwise `mark` names it and exits
+  1, rather than placing a mark the gate would refuse (sprint 021). An
+  author checks with `--check --drafts .scratch/names/<subject>-<segment>`.
 - **`density`** prints, per subject: frames, marks, distinct names, marks
   per frame, frames with no mark, connections stored on its frames and
   touching them (either end), and connections per frame. `--json` for one
   line per subject. The map's defaults are set from these (korg 3441).
+- **`reach <subject>`** counts, for every other subject, its frames within
+  one and within `--steps` (default two) connections of any frame of the
+  subject. The graph is undirected, since a connection shows on both ends,
+  and a path may run through any subject. Sprint 021 measured the Physics
+  bridge with it: western-civ's reach into ai, computing and feynman,
+  before and after. `--json` for one line per subject.
 - Standard library only. `lookup` queries en.wikipedia.org's API with a
   project User-Agent, never a person's name.
 
@@ -63,4 +78,5 @@ A name file (engine/names.ts has the rules):
 `examples/` holds the specs, the record of what was marked:
 `western-civ.json` and `shared.json` (the things in two subjects: the IBM
 701 and 704, Project MAC, the VAX, Bletchley Park, Hoff, Mead) from sprint
-017, and `ai.json`, `computing.json` and `feynman.json` from sprint 018.
+017, and `ai.json`, `computing.json` and `feynman.json` from sprint 018, and
+`physics-<segment>.json` from sprint 021, one per author.

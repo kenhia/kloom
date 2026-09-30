@@ -1,0 +1,9 @@
+{
+	"id": "landauers-principle",
+	"wikidata": "Q657486",
+	"name": "Landauer's principle",
+	"aliases": ["Landauer limit", "Landauer bound"],
+	"kind": "idea",
+	"description": "The principle, proposed by Rolf Landauer in 1961, that erasing a bit of information must give off at least kT ln 2 of heat.",
+	"home": "physics/landauer"
+}

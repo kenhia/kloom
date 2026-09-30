@@ -1,0 +1,84 @@
+{
+	"segments": [
+		{
+			"id": "greeks",
+			"title": "The Greeks",
+			"labelKind": "date",
+			"frames": ["aristotle-motion", "archimedes", "ptolemy"]
+		},
+		{
+			"id": "light-and-motion",
+			"title": "Light and motion",
+			"labelKind": "date",
+			"frames": ["ibn-al-haytham", "merton-calculators"]
+		},
+		{
+			"id": "new-science",
+			"title": "The new science",
+			"labelKind": "date",
+			"frames": [
+				"copernicus",
+				"kepler",
+				"galileo-telescope",
+				"falling-bodies",
+				"prism",
+				"principia"
+			]
+		},
+		{
+			"id": "heat-light-charge",
+			"title": "Heat, light and charge",
+			"labelKind": "date",
+			"frames": ["coulomb", "young-slits", "carnot", "the-field", "energy", "spectra", "entropy"]
+		},
+		{
+			"id": "cracks",
+			"title": "Cracks in the classical",
+			"labelKind": "date",
+			"frames": ["michelson-morley", "x-rays", "electron", "black-body", "atoms-real"]
+		},
+		{
+			"id": "relativity",
+			"title": "Relativity",
+			"labelKind": "category",
+			"frames": ["special-relativity", "general-relativity", "black-holes", "gravitational-waves"]
+		},
+		{
+			"id": "quantum",
+			"title": "The quantum",
+			"labelKind": "category",
+			"frames": [
+				"quantum-mechanics",
+				"entanglement",
+				"qed",
+				"solids",
+				"superconductivity",
+				"quantum-computing"
+			]
+		},
+		{
+			"id": "nucleus",
+			"title": "The nucleus",
+			"labelKind": "category",
+			"frames": ["nucleus", "fission", "manhattan-project", "fusion"]
+		},
+		{
+			"id": "particles",
+			"title": "Particles",
+			"labelKind": "category",
+			"frames": ["antimatter", "standard-model"]
+		},
+		{
+			"id": "cosmos",
+			"title": "The cosmos",
+			"labelKind": "category",
+			"frames": ["expanding-universe", "cmb", "dark-matter", "dark-energy", "cosmology-now"]
+		},
+		{
+			"id": "open",
+			"title": "Open questions",
+			"labelKind": "category",
+			"frames": ["where-physics-is"]
+		}
+	]
+}

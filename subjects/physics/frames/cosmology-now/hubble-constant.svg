@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 312" role="img" aria-labelledby="t d">
+<title id="t">The Hubble constant: early universe against the distance ladder</title>
+<desc id="d">Dot-and-whisker chart of the Hubble constant in km/s/Mpc. From the early universe, with the standard model: Planck 2018, 67.4 ± 0.5; SPT-3G, ACT and Planck combined, 2025, 67.19 ± 0.38. From the distance ladder: the Chicago-Carnegie Hubble Program, red giants with HST and JWST, 70.39 ± 1.94 (its statistical and systematic errors combined here in quadrature); SH0ES, Cepheids with HST and JWST, 73.49 ± 0.93; SH0ES, Cepheids and red giants, 73.18 ± 0.88. Data: Planck Collaboration 2020; Camphuis et al. 2025; Freedman et al. 2024; Riess et al. 2025.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="190.0" x2="190.0" y1="40" y2="264" stroke="currentColor" stroke-opacity="0.9" stroke-width="0.6"/>
+<text x="190.0" y="280" text-anchor="middle">64</text>
+<line x1="235.0" x2="235.0" y1="40" y2="264" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="235.0" y="280" text-anchor="middle">66</text>
+<line x1="280.0" x2="280.0" y1="40" y2="264" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="280.0" y="280" text-anchor="middle">68</text>
+<line x1="325.0" x2="325.0" y1="40" y2="264" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="325.0" y="280" text-anchor="middle">70</text>
+<line x1="370.0" x2="370.0" y1="40" y2="264" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="370.0" y="280" text-anchor="middle">72</text>
+<line x1="415.0" x2="415.0" y1="40" y2="264" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="415.0" y="280" text-anchor="middle">74</text>
+<line x1="460.0" x2="460.0" y1="40" y2="264" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="460.0" y="280" text-anchor="middle">76</text>
+</g>
+<text x="178" y="60" text-anchor="end">Planck</text>
+<text x="178" y="73" text-anchor="end" font-size="9" class="muted" fill="currentColor">CMB, 2018</text>
+<line x1="255.3" x2="277.8" y1="62" y2="62" stroke="currentColor" stroke-width="2"/>
+<line x1="255.3" x2="255.3" y1="57" y2="67" stroke="currentColor" stroke-width="1.5"/>
+<line x1="277.8" x2="277.8" y1="57" y2="67" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="266.5" cy="62" r="5" fill="currentColor"/>
+<text x="266.5" y="52" text-anchor="middle" font-size="10">67.4</text>
+<text x="178" y="104" text-anchor="end">SPT + ACT + Planck</text>
+<text x="178" y="117" text-anchor="end" font-size="9" class="muted" fill="currentColor">CMB, 2025</text>
+<line x1="253.2" x2="270.3" y1="106" y2="106" stroke="currentColor" stroke-width="2"/>
+<line x1="253.2" x2="253.2" y1="101" y2="111" stroke="currentColor" stroke-width="1.5"/>
+<line x1="270.3" x2="270.3" y1="101" y2="111" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="261.8" cy="106" r="5" fill="currentColor"/>
+<text x="261.8" y="96" text-anchor="middle" font-size="10">67.19</text>
+<text x="178" y="148" text-anchor="end">CCHP</text>
+<text x="178" y="161" text-anchor="end" font-size="9" class="muted" fill="currentColor">red giants, HST + JWST, 2024</text>
+<line x1="290.1" x2="377.4" y1="150" y2="150" stroke="currentColor" stroke-width="2" class="accent"/>
+<line x1="290.1" x2="290.1" y1="145" y2="155" stroke="currentColor" stroke-width="1.5" class="accent"/>
+<line x1="377.4" x2="377.4" y1="145" y2="155" stroke="currentColor" stroke-width="1.5" class="accent"/>
+<circle cx="333.8" cy="150" r="5" fill="currentColor" class="accent"/>
+<text x="333.8" y="140" text-anchor="middle" font-size="10">70.39</text>
+<text x="178" y="192" text-anchor="end">SH0ES</text>
+<text x="178" y="205" text-anchor="end" font-size="9" class="muted" fill="currentColor">Cepheids, HST + JWST, 2025</text>
+<line x1="382.6" x2="424.5" y1="194" y2="194" stroke="currentColor" stroke-width="2" class="accent"/>
+<line x1="382.6" x2="382.6" y1="189" y2="199" stroke="currentColor" stroke-width="1.5" class="accent"/>
+<line x1="424.5" x2="424.5" y1="189" y2="199" stroke="currentColor" stroke-width="1.5" class="accent"/>
+<circle cx="403.5" cy="194" r="5" fill="currentColor" class="accent"/>
+<text x="403.5" y="184" text-anchor="middle" font-size="10">73.49</text>
+<text x="178" y="236" text-anchor="end">SH0ES</text>
+<text x="178" y="249" text-anchor="end" font-size="9" class="muted" fill="currentColor">Cepheids + red giants, 2025</text>
+<line x1="376.8" x2="416.4" y1="238" y2="238" stroke="currentColor" stroke-width="2" class="accent"/>
+<line x1="376.8" x2="376.8" y1="233" y2="243" stroke="currentColor" stroke-width="1.5" class="accent"/>
+<line x1="416.4" x2="416.4" y1="233" y2="243" stroke="currentColor" stroke-width="1.5" class="accent"/>
+<circle cx="396.6" cy="238" r="5" fill="currentColor" class="accent"/>
+<text x="396.6" y="228" text-anchor="middle" font-size="10">73.18</text>
+<text x="190" y="298" font-size="9" class="muted" fill="currentColor">km/s/Mpc · plain: CMB · accent: distance ladder</text>
+<text x="16" y="22" font-size="12" letter-spacing="1">THE HUBBLE CONSTANT · TWO ROUTES</text>
+</g></svg>

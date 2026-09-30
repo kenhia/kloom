@@ -1,0 +1,41 @@
+{
+	"physics/antimatter": [
+		["Paul Dirac", "paul-dirac"],
+		["Dirac equation", "dirac-equation"],
+		["Carl Anderson", "carl-david-anderson"],
+		["_positron_", "positron"],
+		["antiproton", "antiproton"],
+		["antihydrogen", "antihydrogen"],
+		["baryon asymmetry", "baryon-asymmetry"]
+	],
+	"physics/standard-model": [
+		["Standard Model", "standard-model"],
+		["Quarks", "quark"],
+		["gauge theory", "gauge-theory"],
+		["Higgs boson", "higgs-boson"],
+		["Ernest Lawrence", "ernest-lawrence"],
+		["cyclotron", "cyclotron"],
+		["Large Hadron Collider", "large-hadron-collider"],
+		["CERN", "cern"]
+	],
+	"physics/neutrino": [
+		["beta decay", "beta-decay"],
+		["Wolfgang Pauli", "wolfgang-pauli"],
+		["Enrico Fermi", "enrico-fermi"],
+		["neutrino", "neutrino"],
+		["Clyde Cowan", "clyde-cowan"],
+		["Frederick Reines", "frederick-reines"],
+		["Raymond Davis Jr.", "raymond-davis-jr"],
+		["neutrino oscillation", "neutrino-oscillation"]
+	],
+	"physics/quarks": [
+		["Murray Gell-Mann", "murray-gell-mann"],
+		["Eightfold Way", "eightfold-way-physics"],
+		["quarks", "quark"],
+		["_Finnegans Wake_", "finnegans-wake"],
+		["George Zweig", "george-zweig"],
+		["SLAC", "slac-national-accelerator-laboratory"],
+		["Burton Richter", "burton-richter"],
+		["Fermilab", "fermi-national-accelerator-laboratory"]
+	]
+}

@@ -1,0 +1,141 @@
+{
+	"id": "aristotle-motion",
+	"topic": "Aristotle's physics of motion",
+	"position": {
+		"label": "4th century BC",
+		"sort": -340
+	},
+	"scene": {
+		"headline": "Nature abhorred a",
+		"accent": "VOID.",
+		"palette": "bronze",
+		"illustration": "scene.svg",
+		"metadata": ["ATHENS · THE LYCEUM · ARISTOTLE", "NATURAL PLACE · FORCED MOTION · NO VOID"],
+		"counter": {
+			"value": "10 to 1",
+			"label": "water's density against air's, as Aristotle seems to have reckoned it"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Physics, Book IV",
+			"url": "https://classics.mit.edu/Aristotle/physics.4.iv.html",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Aristotle"
+				}
+			],
+			"container": "The Internet Classics Archive",
+			"publisher": "Massachusetts Institute of Technology",
+			"note": "Translated by R. P. Hardie and R. K. Gaye; the void and the motion that would never stop are in part 8"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Aristotle's Physics: A Physicist's Look",
+			"doi": "10.1017/apa.2014.11",
+			"url": "https://arxiv.org/abs/1312.4057",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Rovelli",
+					"given": "Carlo"
+				}
+			],
+			"container": "Journal of the American Philosophical Association",
+			"volume": "1",
+			"issue": "1",
+			"pages": "23–40",
+			"published": "2015"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Aristotelian physics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aristotelian_physics&oldid=1372181728",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Physics (Aristotle)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Physics_(Aristotle)&oldid=1368574505",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atomism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atomism&oldid=1373603557",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theory of impetus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theory_of_impetus&oldid=1359723780",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Philoponus",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Philoponus&oldid=1366237665",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "media",
+			"title": "Portrait bust of Aristotle, a Roman copy after a bronze by Lysippos, with a modern alabaster mantle",
+			"url": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
+			"accessed": "2026-09-29",
+			"container": "Palazzo Altemps, National Museum of Rome; photograph by Jastrow (2006), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "aristotle-altemps.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/greek-inquiry",
+			"why": "Aristotle built his physics on Empedocles' four elements and against Democritus's atoms and void, the answers that frame gives to the Greeks' first question."
+		}
+	]
+}

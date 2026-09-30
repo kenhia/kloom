@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60 240 L60 245 M93.8 240 L93.8 245 M127.5 240 L127.5 245 M161.2 240 L161.2 245 M195 240 L195 245 M228.8 240 L228.8 245 M262.5 240 L262.5 245 M296.2 240 L296.2 245 M330 240 L330 245"/>
+		<path pathLength="1" d="M195 252 L195 46"/>
+		<path pathLength="1" d="M60 46 L60 240"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M76.9 240 L76.9 228.8 M93.8 240 L93.8 217.5 M110.6 240 L110.6 206.2 M127.5 240 L127.5 195 M144.4 240 L144.4 183.8 M161.2 240 L161.2 172.5 M178.1 240 L178.1 161.2 M195 240 L195 150 M211.9 240 L211.9 138.8 M228.8 240 L228.8 127.5 M245.6 240 L245.6 116.2 M262.5 240 L262.5 105 M279.4 240 L279.4 93.8 M296.2 240 L296.2 82.5 M313.1 240 L313.1 71.2"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M60 240 L330 240 L330 60 Z"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60 150 L330 150"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M221 135 L219.8 133.1 L218.4 131.2 L216.9 129.5 L215.3 127.9 L213.5 126.4 L211.7 125.1 L209.7 123.9 L207.7 122.8 L205.6 121.9 L203.4 121.2 L201.2 120.6 L198.9 120.3 L196.6 120 L194.3 120 L192.1 120.1 L189.8 120.5 L187.6 120.9 L185.4 121.6 L183.2 122.4 L181.1 123.4 L179.2 124.5 L177.3 125.8 L175.5 127.2 L173.8 128.8 L172.2 130.5 L170.8 132.3 L169.5 134.2 L168.4 136.1 L167.4 138.2 L166.6 140.4 L165.9 142.6 L165.5 144.8 L165.1 147.1 L165 149.3 L165 151.6 L165.3 153.9 L165.6 156.2 L166.2 158.4 L166.9 160.6 L167.8 162.7"/>
+		<path pathLength="1" d="M164.1 160.1 L167.8 162.7 L168.2 158.2"/>
+		<path pathLength="1" d="M192.5 150 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+	</g>
+	<g>
+		<text x="143.7" y="230" font-size="11" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="262.5" y="214" font-size="11" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="66" y="144" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MIDDLE DEGREE</text>
+		<text x="60" y="40" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SPEED</text>
+		<text x="336" y="64" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FINAL</text>
+		<text x="195" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TIME · FIRST HALF | SECOND HALF</text>
+		<text x="200" y="290" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">UNIFORMLY DIFFORM MOTION · AREA IS DISTANCE</text>
+	</g>
+</svg>

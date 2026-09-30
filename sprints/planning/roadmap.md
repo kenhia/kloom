@@ -135,10 +135,16 @@
   panel that never resizes the graph (3447); no text selected on a
   double-click (3448) — [record](../020-a-map-you-can-read.md).
 
+- Sprint 021: the fifth subject, the History of Physics (proposal 3451,
+  covering 3428). 68 frames, the first written with names, connections and
+  topics from the start, by the author-subject skill's link steps; 174
+  connections stored on its frames (108 into the other subjects), and
+  western-civ's reach into the tech cluster raised from 21 to 27 frames in
+  two steps and 27 to 47 in three — [record](../021-fifth-subject-physics.md).
+
 ## Next
 
-- Connections, phase 4: Physics (3428), the first subject written with
-  names and connections from the start.
+- Whatever the korg Planning queue holds for project kloom (72).
 
 ## Later
 

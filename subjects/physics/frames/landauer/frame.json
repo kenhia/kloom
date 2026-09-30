@@ -1,0 +1,201 @@
+{
+	"id": "landauer",
+	"topic": "Landauer's principle",
+	"position": {
+		"label": "1961",
+		"sort": 1961
+	},
+	"asOf": "2026-09-29",
+	"scene": {
+		"headline": "Forgetting has a",
+		"accent": "PRICE.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"IBM · ROLF LANDAUER",
+			"IBM JOURNAL OF RESEARCH AND DEVELOPMENT · JULY 1961",
+			"LYON · A BEAD IN A DOUBLE WELL · NATURE 2012"
+		],
+		"counter": {
+			"value": "2.9 × 10⁻²¹ J",
+			"label": "to erase one bit at room temperature: kT ln 2 at 300 K"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Irreversibility and Heat Generation in the Computing Process",
+			"doi": "10.1147/rd.53.0183",
+			"url": "https://worrydream.com/refs/Landauer_1961_-_Irreversibility_and_Heat_Generation_in_the_Computing_Process.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Landauer",
+					"given": "R."
+				}
+			],
+			"container": "IBM Journal of Research and Development",
+			"volume": "5",
+			"issue": "3",
+			"pages": "183–191",
+			"published": "1961",
+			"note": "Read in the 2000 reprint (IBM J. Res. Dev. 44, pp. 261–269); the well is figure 1, the 0.6931 kT on its p. 265"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Experimental verification of Landauer’s principle linking information and thermodynamics",
+			"doi": "10.1038/nature10872",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Bérut",
+					"given": "Antoine"
+				},
+				{
+					"family": "Arakelyan",
+					"given": "Artak"
+				},
+				{
+					"family": "Petrosyan",
+					"given": "Artyom"
+				},
+				{
+					"family": "Ciliberto",
+					"given": "Sergio"
+				},
+				{
+					"family": "Dillenschneider",
+					"given": "Raoul"
+				},
+				{
+					"family": "Lutz",
+					"given": "Eric"
+				}
+			],
+			"container": "Nature",
+			"volume": "483",
+			"issue": "7388",
+			"pages": "187–189",
+			"published": "2012-03"
+		},
+		{
+			"kind": "article",
+			"title": "Information and thermodynamics: experimental verification of Landauer’s erasure principle",
+			"url": "https://arxiv.org/abs/1503.06537",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Bérut",
+					"given": "Antoine"
+				},
+				{
+					"family": "Petrosyan",
+					"given": "Artyom"
+				},
+				{
+					"family": "Ciliberto",
+					"given": "Sergio"
+				}
+			],
+			"container": "arXiv preprint arXiv:1503.06537",
+			"published": "2015",
+			"note": "The fuller account: the bead, the trap and the fit giving 0.72 kT"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Landauer's principle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Landauer's_principle&oldid=1376477582",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rolf Landauer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rolf_Landauer&oldid=1371992017",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Limits to the Energy Efficiency of CMOS Microprocessors",
+			"url": "https://arxiv.org/abs/2312.08595",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Ho",
+					"given": "Anson"
+				},
+				{
+					"family": "Erdil",
+					"given": "Ege"
+				},
+				{
+					"family": "Besiroglu",
+					"given": "Tamay"
+				}
+			],
+			"container": "arXiv preprint arXiv:2312.08595",
+			"published": "2023-12",
+			"note": "Table I, energy costs in modern microprocessors; accepted for the 2023 IEEE International Conference on Rebooting Computing"
+		},
+		{
+			"kind": "article",
+			"title": "Notes on Landauer’s principle, reversible computation, and Maxwell’s Demon",
+			"doi": "10.1016/S1355-2198(03)00039-X",
+			"url": "https://arxiv.org/abs/physics/0210005",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Bennett",
+					"given": "Charles H."
+				}
+			],
+			"container": "Studies in History and Philosophy of Modern Physics",
+			"volume": "34",
+			"issue": "3",
+			"pages": "501–510",
+			"published": "2003"
+		},
+		{
+			"kind": "media",
+			"title": "Energy per bit or operation, from Landauer's bound to a memory access",
+			"url": "https://arxiv.org/abs/2312.08595",
+			"accessed": "2026-09-29",
+			"container": "Chart drawn for kloom from Ho, Erdil and Besiroglu (2023), table I, and Hong et al. (2016) via Wikipedia; kT ln 2 computed for kloom",
+			"licence": "MIT",
+			"file": "energy-per-bit.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/lectures-on-computation",
+			"why": "Feynman's lectures teach Landauer's bound with a one-molecule gas and a piston, and cite the 2012 measurement this frame describes."
+		},
+		{
+			"to": "computing/where-computing-is",
+			"why": "Computing's present-day frame sets the world's fastest machine against Landauer's kT ln 2: some ten thousand million times above it for each floating-point operation."
+		},
+		{
+			"to": "physics/szilard-engine",
+			"why": "The same kT ln 2: Szilard charged it to the demon's measurement, Landauer to erasing a bit."
+		}
+	]
+}

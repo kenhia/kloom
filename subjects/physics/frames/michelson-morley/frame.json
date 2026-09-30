@@ -1,0 +1,207 @@
+{
+	"id": "michelson-morley",
+	"topic": "The Michelson–Morley experiment",
+	"position": {
+		"label": "1887",
+		"sort": 1887
+	},
+	"scene": {
+		"headline": "We looked for the ether and found",
+		"accent": "NOTHING.",
+		"palette": "gaslight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CLEVELAND · ALBERT MICHELSON · EDWARD MORLEY",
+			"INTERFEROMETER · STONE ON MERCURY · NULL RESULT"
+		],
+		"counter": {
+			"value": "1/40",
+			"label": "of the 0.4 fringe expected: the most, probably, that the fringes moved"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Relative Motion of the Earth and the Luminiferous Ether",
+			"doi": "10.2475/ajs.s3-34.203.333",
+			"url": "https://en.wikisource.org/wiki/On_the_Relative_Motion_of_the_Earth_and_the_Luminiferous_Ether",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Michelson",
+					"given": "Albert A."
+				},
+				{
+					"family": "Morley",
+					"given": "Edward W."
+				}
+			],
+			"container": "American Journal of Science",
+			"volume": "34",
+			"issue": "203",
+			"pages": "333–345",
+			"published": "1887-11",
+			"note": "Read in the Wikisource transcription of the paper"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Role of the Michelson–Morley Experiment: Einstein in Chicago",
+			"doi": "10.1007/s00407-009-0050-5",
+			"url": "https://arxiv.org/abs/0908.1545",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "van Dongen",
+					"given": "Jeroen"
+				}
+			],
+			"container": "Archive for History of Exact Sciences",
+			"volume": "63",
+			"issue": "6",
+			"pages": "655–663",
+			"published": "2009",
+			"note": "Einstein's later denials, Holton's reading, and the 1921 Chicago talk"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Michelson–Morley experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Michelson%E2%80%93Morley_experiment&oldid=1373171552",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Luminiferous aether",
+			"url": "https://en.wikipedia.org/w/index.php?title=Luminiferous_aether&oldid=1369089901",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Albert A. Michelson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Albert_A._Michelson&oldid=1377032690",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edward W. Morley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edward_W._Morley&oldid=1372521434",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Length contraction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Length_contraction&oldid=1372122056",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Michelson interferometer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Michelson_interferometer&oldid=1373969421",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of the metre",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_the_metre&oldid=1370584883",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "LIGO",
+			"url": "https://en.wikipedia.org/w/index.php?title=LIGO&oldid=1373324601",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "media",
+			"title": "The Michelson–Morley apparatus of 1887: the sandstone slab under its wooden cover, on its float in the trough of mercury",
+			"url": "https://commons.wikimedia.org/wiki/File:Michelson_morley_experiment_1887.jpg",
+			"accessed": "2026-09-29",
+			"container": "Case Western Reserve University, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "mm-apparatus.jpg",
+			"authors": [
+				{
+					"name": "Case Western Reserve University"
+				}
+			],
+			"published": "1887",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/maxwell",
+			"why": "Maxwell's equations made light a wave in the electromagnetic field, which physicists took to be strains in the ether; this experiment went looking for that ether and found no sign of it."
+		},
+		{
+			"to": "western-civ/metre-survey",
+			"why": "Michelson turned his interferometer on the metre itself, measuring it in wavelengths of cadmium light in 1892–93, the first step towards the 1960 metre defined by a wavelength."
+		}
+	]
+}

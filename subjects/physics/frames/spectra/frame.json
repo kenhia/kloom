@@ -1,0 +1,287 @@
+{
+	"id": "spectra",
+	"topic": "Spectroscopy and the elements",
+	"position": {
+		"label": "1859",
+		"sort": 1859
+	},
+	"scene": {
+		"headline": "The dark lines were",
+		"accent": "CHEMISTRY.",
+		"palette": "gaslight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HEIDELBERG · GUSTAV KIRCHHOFF · ROBERT BUNSEN",
+			"FRAUNHOFER 1814 · CAESIUM 1860 · HELIUM 1868 · BALMER 1885"
+		],
+		"counter": {
+			"value": "1/3,000,000",
+			"label": "of a milligram of sodium salt, seen at once in a flame, 1860"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Relation between the Radiating and Absorbing Powers of Different Bodies for Light and Heat",
+			"url": "https://archive.org/details/londonedinburghd20lond",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Kirchhoff",
+					"given": "Gustav"
+				}
+			],
+			"container": "The London, Edinburgh and Dublin Philosophical Magazine and Journal of Science",
+			"volume": "20",
+			"issue": "130",
+			"pages": "1–21",
+			"published": "1860-07",
+			"note": "The reversed sodium lines and sodium in the Sun, §§ 13–14"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Chemical Analysis by Spectrum-observations",
+			"url": "https://archive.org/details/londonedinburghd20lond",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Kirchhoff",
+					"given": "Gustav"
+				},
+				{
+					"family": "Bunsen",
+					"given": "Robert"
+				}
+			],
+			"container": "The London, Edinburgh and Dublin Philosophical Magazine and Journal of Science",
+			"volume": "20",
+			"issue": "131",
+			"pages": "89–109",
+			"published": "1860-08",
+			"note": "The spectroscope, and the sodium test in a room of 60 cubic metres, pp. 90–95"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Chapter XIII: Recent Progress",
+			"url": "https://en.wikisource.org/wiki/A_Short_History_of_Astronomy_(1898)/Chapter_13",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Berry",
+					"given": "Arthur"
+				}
+			],
+			"container": "A Short History of Astronomy",
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1898",
+			"note": "Read on Wikisource; Fraunhofer's 600 lines and 324 mapped, Kirchhoff's iron lines"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fraunhofer lines",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fraunhofer_lines&oldid=1358424640",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph von Fraunhofer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_von_Fraunhofer&oldid=1367870604",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gustav Kirchhoff",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gustav_Kirchhoff&oldid=1372001864",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Bunsen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Bunsen&oldid=1375524551",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Caesium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Caesium&oldid=1376815966",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rubidium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rubidium&oldid=1374984005",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Helium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Helium&oldid=1376602729",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"note": "The eclipse of 1868, Janssen, Lockyer, the name and Ramsay"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Johann Jakob Balmer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johann_Jakob_Balmer&oldid=1372021310",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Balmer series",
+			"url": "https://en.wikipedia.org/w/index.php?title=Balmer_series&oldid=1341026519",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Auguste Comte",
+			"url": "https://en.wikipedia.org/w/index.php?title=Auguste_Comte&oldid=1375925914",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Astronomical spectroscopy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Astronomical_spectroscopy&oldid=1369067073",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "media",
+			"title": "Part of the solar spectrum with the dark D line, engraved for Fraunhofer's memoir on optical glass",
+			"url": "https://commons.wikimedia.org/wiki/File:Fraunhofer_solar_spectrum_with_sodium_D_line,_1817.jpg",
+			"accessed": "2026-09-29",
+			"container": "Denkschriften der Königlichen Akademie der Wissenschaften zu München 5 (1817), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "fraunhofer-spectrum.jpg",
+			"authors": [
+				{
+					"family": "Fraunhofer",
+					"given": "Joseph von"
+				}
+			],
+			"published": "1817"
+		},
+		{
+			"kind": "media",
+			"title": "Kirchhoff and Bunsen's spectroscope, a wood engraving",
+			"url": "https://commons.wikimedia.org/wiki/File:SpectrometerKirchhoffBunsen1860.jpg",
+			"accessed": "2026-09-29",
+			"container": "Philosophical Magazine, 4th ser., 20 (August 1860): 91, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "spectroscope-1860.jpg",
+			"authors": [
+				{
+					"family": "Kirchhoff",
+					"given": "Gustav"
+				},
+				{
+					"family": "Bunsen",
+					"given": "Robert"
+				}
+			],
+			"published": "1860"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/jwst",
+			"why": "Webb's spectrum of water in another planet's atmosphere is Kirchhoff's method of 1859: a cool gas takes its own colours out of the light that passes through it."
+		},
+		{
+			"to": "western-civ/si-redefinition",
+			"why": "Caesium, found in 1860 by lines in its spectrum, now defines the second by the frequency of another of its spectral lines, one of the seven exact numbers of the 2019 SI."
+		}
+	]
+}

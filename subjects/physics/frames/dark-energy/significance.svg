@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="t d">
+<title id="t">How strongly the data prefer evolving dark energy over a cosmological constant</title>
+<desc id="d">Bar chart of the preference for dark energy that changes with time over Einstein's cosmological constant, in standard deviations (sigma), against the 5 sigma usually required for a discovery. DESI DR2 BAO with the CMB: 3.1. Adding supernovae: Pantheon+ 2.8, Union3 3.8, DES five-year 4.2. With the DES supernovae recalibrated (DES-Dovekie, 2026): 3.2. The full Dark Energy Survey on its own (2026): 2.2. Data: DESI Collaboration, Phys. Rev. D 112, 083515 (2025); Popovic et al., MNRAS (2026); DES Collaboration, arXiv:2605.27221 (2026).</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="540" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="540" y1="207.2" y2="207.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="211.2" text-anchor="end">1</text>
+<line x1="64" x2="540" y1="164.4" y2="164.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="168.4" text-anchor="end">2</text>
+<line x1="64" x2="540" y1="121.6" y2="121.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="125.6" text-anchor="end">3</text>
+<line x1="64" x2="540" y1="78.8" y2="78.8" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="82.8" text-anchor="end">4</text>
+<line x1="64" x2="540" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">5</text>
+</g>
+<rect x="78.7" y="117.3" width="50" height="132.7" fill-opacity="0.85"/>
+<text x="103.7" y="111.3" text-anchor="middle">3.1σ</text>
+<text x="103.7" y="266" text-anchor="middle">DESI+CMB</text>
+<text x="103.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2025</text>
+<rect x="158.0" y="130.2" width="50" height="119.8" fill-opacity="0.85"/>
+<text x="183.0" y="124.2" text-anchor="middle">2.8σ</text>
+<text x="183.0" y="266" text-anchor="middle">+Pantheon+</text>
+<text x="183.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2025</text>
+<rect x="237.3" y="87.4" width="50" height="162.6" fill-opacity="0.85"/>
+<text x="262.3" y="81.4" text-anchor="middle">3.8σ</text>
+<text x="262.3" y="266" text-anchor="middle">+Union3</text>
+<text x="262.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2025</text>
+<rect x="316.7" y="70.2" width="50" height="179.8" fill-opacity="0.85"/>
+<text x="341.7" y="64.2" text-anchor="middle">4.2σ</text>
+<text x="341.7" y="266" text-anchor="middle">+DES SN</text>
+<text x="341.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2025</text>
+<rect x="396.0" y="113.0" width="50" height="137.0" class="accent" fill="currentColor"/>
+<text x="421.0" y="107.0" text-anchor="middle">3.2σ</text>
+<text x="421.0" y="266" text-anchor="middle">+DES recal.</text>
+<text x="421.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2026</text>
+<rect x="475.3" y="155.8" width="50" height="94.2" fill-opacity="0.85"/>
+<text x="500.3" y="149.8" text-anchor="middle">2.2σ</text>
+<text x="500.3" y="266" text-anchor="middle">DES alone</text>
+<text x="500.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2026</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">EVOLVING DARK ENERGY · PREFERENCE IN σ · 5σ IS A DISCOVERY</text>
+</g></svg>

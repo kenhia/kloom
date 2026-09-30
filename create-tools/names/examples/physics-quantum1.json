@@ -1,0 +1,39 @@
+{
+	"physics/quantum-mechanics": [
+		["wave function", "wave-function"],
+		["Born rule", "born-rule"],
+		["Copenhagen\ninterpretation", "copenhagen-interpretation"],
+		["Solvay Conference", "solvay-conference"],
+		["Bohr–Einstein debates", "bohr-einstein-debates"],
+		["measurement problem", "measurement-problem"],
+		["many-worlds\ninterpretation", "many-worlds-interpretation"]
+	],
+	"physics/photon": [
+		["Albert Einstein", "albert-einstein"],
+		["Planck\nconstant", "planck-constant"],
+		["photoelectric effect", "photoelectric-effect"],
+		["Robert Millikan", "robert-millikan"],
+		["photon", "photon"],
+		["Arthur Compton", "arthur-compton"],
+		["Compton scattering", "compton-scattering"],
+		["Gilbert N. Lewis", "gilbert-n-lewis"]
+	],
+	"physics/bohr-atom": [
+		["Niels Bohr", "niels-bohr"],
+		["Ernest Rutherford", "ernest-rutherford"],
+		["Bohr model", "bohr-model"],
+		["Balmer series", "balmer-series"],
+		["Rydberg constant", "rydberg-constant"],
+		["Franck–Hertz experiment", "franck-hertz-experiment"],
+		["Arnold Sommerfeld", "arnold-sommerfeld"]
+	],
+	"physics/de-broglie": [
+		["Louis de Broglie", "louis-de-broglie"],
+		["matter wave", "matter-wave"],
+		["Bell Labs", "bell-labs"],
+		["Clinton Davisson", "clinton-davisson"],
+		["George Paget Thomson", "george-paget-thomson"],
+		["electron microscope", "electron-microscope"],
+		["Ernst Ruska", "ernst-ruska"]
+	]
+}

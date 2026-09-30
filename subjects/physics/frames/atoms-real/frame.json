@@ -1,0 +1,281 @@
+{
+	"id": "atoms-real",
+	"topic": "Brownian motion and real atoms",
+	"position": {
+		"label": "1905–08",
+		"sort": 1905
+	},
+	"scene": {
+		"headline": "The atoms were",
+		"accent": "REAL.",
+		"palette": "gaslight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERN · PARIS · EINSTEIN · SMOLUCHOWSKI · PERRIN",
+			"BROWNIAN MOTION · GAMBOGE GRAINS · AVOGADRO'S NUMBER"
+		],
+		"counter": {
+			"value": "13",
+			"label": "independent measurements of Avogadro's number in Perrin's table of 1913"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Investigations on the Theory of the Brownian Movement",
+			"url": "https://archive.org/details/brownian-motion-einstein",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Einstein",
+					"given": "Albert"
+				}
+			],
+			"editors": [
+				{
+					"family": "Fürth",
+					"given": "R."
+				}
+			],
+			"publisher": "Dover",
+			"place": "New York",
+			"published": "1956",
+			"note": "Translated by A. D. Cowper (1926); the 1905 paper, received 11 May, is the first"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Brownian Movement and Molecular Reality",
+			"url": "https://archive.org/details/brownianmovement00perr",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Perrin",
+					"given": "Jean"
+				}
+			],
+			"publisher": "Taylor and Francis",
+			"place": "London",
+			"published": "1910",
+			"note": "Translated by F. Soddy; the 13,000 grains and the value 70.5 × 10²² are in §§22–24"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Atoms",
+			"url": "https://archive.org/details/atomsper00perruoft",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Perrin",
+					"given": "Jean"
+				}
+			],
+			"publisher": "Constable",
+			"place": "London",
+			"published": "1916",
+			"note": "Translated by D. Ll. Hammick; the table of thirteen determinations is §120, p. 206"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Brownian motion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Brownian_motion&oldid=1373738840",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "article",
+			"title": "Wilhelm Ostwald Beyond Antiatomism",
+			"doi": "10.21577/0100-4042.20170645",
+			"url": "https://www.scielo.br/j/qn/a/SFX9SxPX5sWqSppJv6mYScF/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Pereira",
+					"given": "Letícia dos Santos"
+				},
+				{
+					"family": "Freire",
+					"given": "Olival, Jr."
+				},
+				{
+					"family": "Mascarenhas",
+					"given": "Artur José Santos"
+				},
+				{
+					"family": "Boeck",
+					"given": "Gisela"
+				}
+			],
+			"container": "Química Nova",
+			"volume": "44",
+			"issue": "2",
+			"published": "2021"
+		},
+		{
+			"kind": "book",
+			"title": "The Feynman Lectures on Physics, Volume I",
+			"url": "https://www.feynmanlectures.caltech.edu/I_01.html",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Feynman",
+					"given": "Richard P."
+				},
+				{
+					"family": "Leighton",
+					"given": "Robert B."
+				},
+				{
+					"family": "Sands",
+					"given": "Matthew"
+				}
+			],
+			"publisher": "Addison-Wesley",
+			"place": "Reading, MA",
+			"published": "1963",
+			"note": "Chapter 1, section 1-2; read in Wikiquote's transcription"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean Perrin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean_Perrin&oldid=1373693608",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marian Smoluchowski",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marian_Smoluchowski&oldid=1376348863",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Avogadro constant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Avogadro_constant&oldid=1360615018",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Brown (botanist, born 1773)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Brown_(botanist,_born_1773)&oldid=1375549715",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wilhelm Ostwald",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wilhelm_Ostwald&oldid=1375144742",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Energeticism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Energeticism&oldid=1360654647",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Annus mirabilis papers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Annus_mirabilis_papers&oldid=1375054824",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "media",
+			"title": "Three tracings of the Brownian motion of grains of mastic, positions marked every 30 seconds",
+			"url": "https://commons.wikimedia.org/wiki/File:PerrinPlot2.gif",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Perrin",
+					"given": "Jean"
+				}
+			],
+			"container": "\"Mouvement brownien et réalité moléculaire\", Annales de chimie et de physique 18 (1909), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "perrin-tracings.gif",
+			"published": "1909"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/aristotle-motion",
+			"why": "Aristotle argued against Democritus's atoms and void; Perrin's counts of Brownian grains ended the argument over atoms in their favour."
+		},
+		{
+			"to": "western-civ/si-redefinition",
+			"why": "Perrin named and measured the Avogadro constant, about 13 per cent high; since 2019 it is fixed at exactly 6.02214076 × 10²³ and defines the mole."
+		},
+		{
+			"to": "feynman/lectures",
+			"why": "Feynman opened his Caltech lectures in 1961 with the atomic hypothesis as the one sentence of science worth passing on, fifty years after Perrin made it a fact."
+		},
+		{
+			"to": "physics/boltzmann-entropy",
+			"why": "Einstein and Perrin settled the fight over atoms that Boltzmann had fought, two years after his death."
+		}
+	]
+}

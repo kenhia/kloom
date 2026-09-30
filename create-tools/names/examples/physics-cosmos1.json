@@ -1,0 +1,32 @@
+{
+	"physics/expanding-universe": [
+		["Henrietta Swan Leavitt", "henrietta-swan-leavitt"],
+		["Vesto Slipher", "vesto-slipher"],
+		["Andromeda Nebula", "andromeda-galaxy"],
+		["Great Debate", "great-debate-astronomy"],
+		["Edwin Hubble", "edwin-hubble"],
+		["Alexander Friedmann", "alexander-friedmann"],
+		["Georges Lemaître", "georges-lemaitre"],
+		["Hubble–Lemaître law", "hubbles-law"]
+	],
+	"physics/cmb": [
+		["Bell Labs", "bell-labs"],
+		["Arno Penzias", "arno-allan-penzias"],
+		["Robert Woodrow Wilson", "robert-woodrow-wilson"],
+		["George Gamow", "george-gamow"],
+		["Fred Hoyle", "fred-hoyle"],
+		["Big Bang", "big-bang"],
+		["COBE", "cosmic-background-explorer"],
+		["cosmic microwave background", "cosmic-microwave-background"]
+	],
+	"physics/dark-matter": [
+		["dark matter", "dark-matter"],
+		["Fritz Zwicky", "fritz-zwicky"],
+		["Vera Rubin", "vera-rubin"],
+		["Bullet Cluster", "bullet-cluster"],
+		["cosmic microwave background", "cosmic-microwave-background"],
+		["weakly interacting massive particle", "weakly-interacting-massive-particle"],
+		["LZ experiment", "lz-experiment"],
+		["Modified Newtonian dynamics", "modified-newtonian-dynamics"]
+	]
+}

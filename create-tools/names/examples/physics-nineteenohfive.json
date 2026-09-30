@@ -1,0 +1,31 @@
+{
+	"physics/black-body": [
+		["Max Planck", "max-planck"],
+		["Planck constant", "planck-constant"],
+		["Gustav Kirchhoff", "gustav-kirchhoff"],
+		["black body", "black-body"],
+		["Physikalisch-Technische Reichsanstalt", "physikalisch-technische-bundesanstalt"],
+		["Wilhelm\nWien", "wilhelm-wien"],
+		["Heinrich Rubens", "heinrich-rubens"],
+		["ultraviolet catastrophe", "ultraviolet-catastrophe"]
+	],
+	"physics/atoms-real": [
+		["Robert Brown", "robert-brown-botanist-born-1773"],
+		["Brownian motion", "brownian-motion"],
+		["Wilhelm\nOstwald", "wilhelm-ostwald"],
+		["Albert Einstein", "albert-einstein"],
+		["Avogadro constant", "avogadro-constant"],
+		["Marian Smoluchowski", "marian-smoluchowski"],
+		["Jean Perrin", "jean-perrin"]
+	],
+	"physics/special-relativity": [
+		["Albert Einstein", "albert-einstein"],
+		["_On\nthe Electrodynamics of Moving Bodies_", "on-the-electrodynamics-of-moving-bodies"],
+		["special relativity", "special-relativity"],
+		["Hendrik Lorentz", "hendrik-lorentz"],
+		["Henri Poincaré", "henri-poincare"],
+		["equivalence of mass and energy", "mass-energy-equivalence"],
+		["Hermann Minkowski", "hermann-minkowski"],
+		["Hafele–Keating experiment", "hafele-keating-experiment"]
+	]
+}

@@ -1,0 +1,174 @@
+{
+	"id": "prism",
+	"topic": "Newton's prism and the spectrum",
+	"position": {
+		"label": "1672",
+		"sort": 1672
+	},
+	"scene": {
+		"headline": "White light was a",
+		"accent": "MIXTURE.",
+		"palette": "papyrus",
+		"illustration": "scene.svg",
+		"metadata": ["CAMBRIDGE · ISAAC NEWTON", "PRISM · SPECTRUM · REFLECTING TELESCOPE"],
+		"counter": {
+			"value": "5 to 1",
+			"label": "the spectrum's length against its breadth, where Newton expected a circle"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Letter of Mr. Isaac Newton … Containing His New Theory about Light and Colors",
+			"doi": "10.1098/rstl.1671.0072",
+			"url": "https://www.newtonproject.ox.ac.uk/view/texts/normalized/NATP00006",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Newton",
+					"given": "Isaac"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society",
+			"volume": "6",
+			"issue": "80",
+			"pages": "3075–3087",
+			"published": "1672-02-19",
+			"note": "Read in the Newton Project's transcription; the measurements, the experimentum crucis and the telescope"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Considerations upon Mr. Newton's Discourse on Light and Colours",
+			"url": "https://www.newtonproject.ox.ac.uk/view/texts/normalized/NATP00005",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Hooke",
+					"given": "Robert"
+				}
+			],
+			"container": "The History of the Royal Society of London",
+			"editors": [
+				{
+					"family": "Birch",
+					"given": "Thomas"
+				}
+			],
+			"pages": "10–15",
+			"place": "London",
+			"published": "1757",
+			"note": "Volume 3; read in the Newton Project's transcription"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Opticks",
+			"url": "https://en.wikipedia.org/w/index.php?title=Opticks&oldid=1358337717",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Newtonian telescope",
+			"url": "https://en.wikipedia.org/w/index.php?title=Newtonian_telescope&oldid=1351952700",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isaac Newton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isaac_Newton&oldid=1377296424",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Corpuscular theory of light",
+			"url": "https://en.wikipedia.org/w/index.php?title=Corpuscular_theory_of_light&oldid=1368343254",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Newton's rings",
+			"url": "https://en.wikipedia.org/w/index.php?title=Newton's_rings&oldid=1356123957",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-25"
+		},
+		{
+			"kind": "media",
+			"title": "Newton's pen sketch of his experimentum crucis, two prisms and two pierced boards",
+			"url": "https://commons.wikimedia.org/wiki/File:NewtonDualPrismExperiment.jpg",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Isaac Newton"
+				}
+			],
+			"container": "Manuscript drawing, reproduced by the Royal Society, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "crucis-sketch.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Replica of Newton's first reflecting telescope of 1668, made for the Science Museum in 1924 by F. L. Agate",
+			"url": "https://commons.wikimedia.org/wiki/File:Newton_telescope_replica_1668.jpg",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "The Science Museum UK"
+				}
+			],
+			"container": "Science Museum Group, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "telescope-replica.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/qed-book",
+			"why": "Newton measured the coloured rings between two glasses and could not explain them; Feynman's QED explains the same partial reflection by adding arrows, one for each surface."
+		},
+		{
+			"to": "western-civ/jwst",
+			"why": "Newton built the first working reflecting telescope because a mirror sends every colour to one focus; Webb gathers its infrared with a 6.5-metre mirror of gold-coated segments."
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"id": "grovers-algorithm",
+	"wikidata": "Q1028292",
+	"name": "Grover's algorithm",
+	"aliases": ["Grover search"],
+	"kind": "idea",
+	"description": "Lov Grover's 1996 quantum method for searching N unsorted items in about √N steps rather than N."
+}

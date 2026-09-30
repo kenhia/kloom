@@ -1,0 +1,28 @@
+{
+	"physics/shannon-entropy": [
+		["Claude Shannon", "claude-shannon"],
+		["Bell Telephone\nLaboratories", "bell-labs"],
+		["_A Mathematical Theory of\nCommunication_", "a-mathematical-theory-of-communication"],
+		["entropy", "entropy-information-theory"],
+		["bits", "bit"],
+		["John von Neumann", "john-von-neumann"],
+		["Edwin T. Jaynes", "edwin-thompson-jaynes"]
+	],
+	"physics/landauer": [
+		["Rolf Landauer", "rolf-landauer"],
+		["IBM", "ibm"],
+		["Boltzmann's\nconstant", "boltzmann-constant"],
+		["Landauer's principle", "landauers-principle"],
+		["Léon Brillouin", "leon-brillouin"]
+	],
+	"physics/reversible-computing": [
+		["Charles Bennett", "charles-h-bennett-physicist"],
+		["reversible computing", "reversible-computing"],
+		["Turing\nmachine", "turing-machine"],
+		["Edward Fredkin", "edward-fredkin"],
+		["Tommaso Toffoli", "tommaso-toffoli"],
+		["Toffoli gate", "toffoli-gate"],
+		["billiard-ball computer", "billiard-ball-computer"],
+		["Maxwell's demon", "maxwells-demon"]
+	]
+}

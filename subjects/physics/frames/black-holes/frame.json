@@ -1,0 +1,262 @@
+{
+	"id": "black-holes",
+	"topic": "Black holes",
+	"position": {
+		"label": "Black holes"
+	},
+	"scene": {
+		"headline": "Light could not",
+		"accent": "ESCAPE.",
+		"palette": "starchart",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SCHWARZSCHILD · CHANDRASEKHAR · OPPENHEIMER · WHEELER",
+			"CYGNUS X-1 · SAGITTARIUS A* · M87*"
+		],
+		"counter": {
+			"value": "6,500,000,000",
+			"label": "Suns: the mass of the black hole in M87, weighed from its shadow"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Black hole",
+			"url": "https://en.wikipedia.org/w/index.php?title=Black_hole&oldid=1377553102",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"note": "History, the name, Cygnus X-1, and the 2020 Nobel Prize"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole",
+			"doi": "10.3847/2041-8213/ab0ec7",
+			"url": "https://arxiv.org/abs/1906.11238",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "The Event Horizon Telescope Collaboration"
+				}
+			],
+			"container": "The Astrophysical Journal Letters",
+			"volume": "875",
+			"issue": "1",
+			"pages": "L1",
+			"published": "2019-04-10",
+			"note": "Read in the abstract: the 42 μas ring"
+		},
+		{
+			"kind": "article",
+			"title": "First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way",
+			"doi": "10.3847/2041-8213/ac6674",
+			"url": "https://arxiv.org/abs/2311.08680",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "The Event Horizon Telescope Collaboration"
+				}
+			],
+			"container": "The Astrophysical Journal Letters",
+			"volume": "930",
+			"issue": "2",
+			"pages": "L12",
+			"published": "2022-05-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Schwarzschild metric",
+			"url": "https://en.wikipedia.org/w/index.php?title=Schwarzschild_metric&oldid=1370191087",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Karl Schwarzschild",
+			"url": "https://en.wikipedia.org/w/index.php?title=Karl_Schwarzschild&oldid=1373038402",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Chandrasekhar limit",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chandrasekhar_limit&oldid=1364745882",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-18",
+			"note": "The 1930 voyage, Stoner and Anderson, and Eddington's objection"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oppenheimer–Snyder model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oppenheimer%E2%80%93Snyder_model&oldid=1353728029",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cygnus X-1",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cygnus_X-1&oldid=1374065663",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hawking radiation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hawking_radiation&oldid=1373783158",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Sagittarius A*",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sagittarius_A%2A&oldid=1377046255",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Event Horizon Telescope",
+			"url": "https://en.wikipedia.org/w/index.php?title=Event_Horizon_Telescope&oldid=1377267565",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Messier 87",
+			"url": "https://en.wikipedia.org/w/index.php?title=Messier_87&oldid=1373230499",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Andrea M. Ghez",
+			"url": "https://en.wikipedia.org/w/index.php?title=Andrea_M._Ghez&oldid=1371967328",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reinhard Genzel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reinhard_Genzel&oldid=1371988149",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "The first image of a black hole: M87*, from Event Horizon Telescope observations of April 2017",
+			"url": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg",
+			"accessed": "2026-09-29",
+			"container": "European Southern Observatory (eso1907a), via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "m87-shadow.jpg",
+			"authors": [
+				{
+					"name": "The Event Horizon Telescope Collaboration"
+				}
+			],
+			"published": "2019-04-10"
+		},
+		{
+			"kind": "media",
+			"title": "The first image of Sagittarius A*, the black hole at the centre of the Milky Way",
+			"url": "https://commons.wikimedia.org/wiki/File:Sag_A*.jpg",
+			"accessed": "2026-09-29",
+			"container": "European Southern Observatory, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "sgr-a-shadow.jpg",
+			"authors": [
+				{
+					"name": "The Event Horizon Telescope Collaboration"
+				}
+			],
+			"published": "2022-05-12"
+		}
+	]
+}

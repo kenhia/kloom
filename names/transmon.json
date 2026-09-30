@@ -1,0 +1,8 @@
+{
+	"id": "transmon",
+	"wikidata": "Q7834688",
+	"name": "Transmon",
+	"aliases": ["transmon qubit"],
+	"kind": "artifact",
+	"description": "A superconducting qubit built around a Josephson junction, designed at Yale in 2007 and used in most large quantum processors."
+}

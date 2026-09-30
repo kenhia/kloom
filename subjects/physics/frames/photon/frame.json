@@ -1,0 +1,227 @@
+{
+	"id": "photon",
+	"topic": "Einstein's light quanta",
+	"position": {
+		"label": "1905",
+		"sort": 1905
+	},
+	"scene": {
+		"headline": "Light came in",
+		"accent": "LUMPS.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERN · ALBERT EINSTEIN · ANNALEN DER PHYSIK, 1905",
+			"CHICAGO · MILLIKAN, 1916 · ST. LOUIS · COMPTON, 1923"
+		],
+		"counter": {
+			"value": "6.57 × 10⁻²⁷",
+			"label": "erg-seconds: Millikan's Planck constant from the photoelectric effect, 1916"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Centennial Focus: Millikan's Measurement of Planck's Constant",
+			"url": "https://physics.aps.org/story/v3/st23",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Holton",
+					"given": "Gerald"
+				}
+			],
+			"container": "Physical Review Focus",
+			"volume": "3",
+			"pages": "23",
+			"published": "1999-04-22",
+			"note": "Millikan's doubts, his quotations and the Nobel committee; read through the Wayback Machine"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Photoelectric effect",
+			"url": "https://en.wikipedia.org/w/index.php?title=Photoelectric_effect&oldid=1376601186",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Photon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Photon&oldid=1375859707",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Photon: New light on an old name",
+			"url": "https://arxiv.org/abs/1401.0293",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Kragh",
+					"given": "Helge"
+				}
+			],
+			"container": "arXiv preprint arXiv:1401.0293",
+			"published": "2014"
+		},
+		{
+			"kind": "article",
+			"title": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+			"doi": "10.1002/andp.19053220607",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Einstein",
+					"given": "Albert"
+				}
+			],
+			"container": "Annalen der Physik",
+			"volume": "17",
+			"issue": "6",
+			"pages": "132–148",
+			"published": "1905",
+			"note": "Quoted in the English translation given in Wikipedia's Photon"
+		},
+		{
+			"kind": "article",
+			"title": "A Direct Photoelectric Determination of Planck's \"h\"",
+			"doi": "10.1103/PhysRev.7.355",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Millikan",
+					"given": "R. A."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "7",
+			"issue": "3",
+			"pages": "355–388",
+			"published": "1916",
+			"note": "Read through Holton's account and the paper's graph"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Compton scattering",
+			"url": "https://en.wikipedia.org/w/index.php?title=Compton_scattering&oldid=1360668202",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Millikan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Millikan&oldid=1371990894",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Albert Einstein",
+			"url": "https://en.wikipedia.org/w/index.php?title=Albert_Einstein&oldid=1376862306",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arthur Compton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arthur_Compton&oldid=1375235161",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Annus mirabilis papers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Annus_mirabilis_papers&oldid=1375054824",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "media",
+			"title": "Millikan's graph of stopping voltage against frequency, with his calculation of h, from his 1916 paper",
+			"url": "https://commons.wikimedia.org/wiki/File:Millikan_photoelectric_experiment_1906.jpg",
+			"accessed": "2026-09-29",
+			"container": "Physical Review 7 (1916), via Wikimedia Commons (where the file's name misdates it to 1906)",
+			"licence": "Public domain",
+			"file": "millikan-h.jpg",
+			"authors": [
+				{
+					"family": "Millikan",
+					"given": "Robert"
+				}
+			],
+			"published": "1916"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/si-redefinition",
+			"why": "Millikan measured the Planck constant from the slope of Einstein's line to within about 1 per cent in 1916; in 2019 it was fixed at exactly 6.62607015 × 10⁻³⁴ J s and made to define the kilogram."
+		},
+		{
+			"to": "feynman/cargo-cult",
+			"why": "Millikan's value of h was his line's slope times his own oil-drop charge for the electron, the too-low value whose slow correction that frame follows, and it came out low with it."
+		},
+		{
+			"to": "feynman/qed-book",
+			"why": "Einstein's quantum of light is the photon of Feynman's QED, where a detector clicks one photon at a time and nothing predicts which photon will be reflected."
+		},
+		{
+			"to": "physics/black-body",
+			"why": "Einstein's light quanta gave Planck's h to light itself, the discontinuity Planck had kept to his resonators."
+		}
+	]
+}

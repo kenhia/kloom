@@ -1,0 +1,134 @@
+{
+	"id": "archimedes",
+	"topic": "Archimedes' lever and buoyancy",
+	"position": {
+		"label": "c. 250 BC",
+		"sort": -250
+	},
+	"scene": {
+		"headline": "Geometry learned to",
+		"accent": "WEIGH.",
+		"palette": "papyrus",
+		"illustration": "scene.svg",
+		"metadata": ["SYRACUSE · ARCHIMEDES", "EQUILIBRIUM OF PLANES · FLOATING BODIES · THE METHOD"],
+		"counter": {
+			"value": "$2,000,000",
+			"label": "paid for the Archimedes Palimpsest at Christie's, 1998"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Archimedes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Archimedes&oldid=1376063220",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"note": "Vitruvius's wreath, the Latin poem's balance, and Galileo's judgement, quoted from his La Bilancetta"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Archimedes' principle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Archimedes'_principle&oldid=1350242820",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "On Floating Bodies",
+			"url": "https://en.wikipedia.org/w/index.php?title=On_Floating_Bodies&oldid=1316846274",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Method of Mechanical Theorems",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Method_of_Mechanical_Theorems&oldid=1326266537",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-08"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Archimedes Palimpsest",
+			"url": "https://en.wikipedia.org/w/index.php?title=Archimedes_Palimpsest&oldid=1372914398",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "On the Equilibrium of Planes",
+			"url": "https://en.wikipedia.org/w/index.php?title=On_the_Equilibrium_of_Planes&oldid=1360714675",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23"
+		},
+		{
+			"kind": "media",
+			"title": "A page of the Archimedes Palimpsest, the prayer book's text running over the fainter Archimedes",
+			"url": "https://commons.wikimedia.org/wiki/File:ArPalimTypPage.jpg",
+			"accessed": "2026-09-29",
+			"container": "Archimedes Palimpsest Project, Walters Art Museum, via Wikimedia Commons",
+			"licence": "CC BY 3.0",
+			"file": "palimpsest-page.jpg",
+			"authors": [
+				{
+					"name": "The Walters Art Museum"
+				}
+			],
+			"published": "2008-10-28"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/eratosthenes",
+			"why": "Archimedes addressed The Method, his account of finding results by imagined weighing, to Eratosthenes, the librarian at Alexandria who measured the Earth."
+		},
+		{
+			"to": "physics/aristotle-motion",
+			"why": "Aristotle argued about motion in words; Archimedes proved statics from postulates, the first physics a balance could check."
+		}
+	]
+}

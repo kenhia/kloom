@@ -1,0 +1,32 @@
+{
+	"physics/michelson-morley": [
+		["Albert Michelson", "albert-a-michelson"],
+		["Edward Morley", "edward-w-morley"],
+		["Michelson–Morley experiment", "michelson-morley-experiment"],
+		["luminiferous ether", "luminiferous-aether"],
+		["interferometer", "michelson-interferometer"],
+		["George FitzGerald", "george-francis-fitzgerald"],
+		["Hendrik Lorentz", "hendrik-lorentz"],
+		["LIGO", "ligo"]
+	],
+	"physics/x-rays": [
+		["Wilhelm Röntgen", "wilhelm-rontgen"],
+		["X-rays", "x-ray"],
+		["Henri Becquerel", "henri-becquerel"],
+		["Marie Curie", "marie-curie"],
+		["Pierre\nCurie", "pierre-curie"],
+		["radioactivity", "radioactive-decay"],
+		["radium", "radium"],
+		["X-ray crystallography", "x-ray-crystallography"]
+	],
+	"physics/electron": [
+		["J. J.\nThomson", "j-j-thomson"],
+		["electron", "electron"],
+		["Robert Millikan", "robert-millikan"],
+		["_cathode rays_", "cathode-ray"],
+		["plum\npudding model", "plum-pudding-model"],
+		["Harvey Fletcher", "harvey-fletcher"],
+		["oil drop\nexperiment", "oil-drop-experiment"],
+		["elementary charge", "elementary-charge"]
+	]
+}

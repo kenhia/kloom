@@ -15,7 +15,7 @@ Feynman's spinning arrows with real, positive weights. Where Feynman had
 e^(_iS_/_ħ_), Kac had a decaying exponential, and the paths became the
 random paths of Brownian motion, over which [Norbert Wiener](kloom:e/norbert-wiener) had already
 defined a genuine probability measure. The result, the **[Feynman–Kac
-formula](kloom:e/feynmankac-formula)**, is a theorem: it solves the diffusion equation, the Schrödinger
+formula](kloom:e/feynman-kac-formula)**, is a theorem: it solves the diffusion equation, the Schrödinger
 equation's cousin with time made imaginary, as an average over random paths.
 
 ![Mark Kac in later life, smiling at his desk behind a stack of papers, in a jacket and tie](kac.jpg)

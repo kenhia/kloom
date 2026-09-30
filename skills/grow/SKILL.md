@@ -156,7 +156,9 @@ check its claims as you would any source; do not copy its prose.
   the venue ("MIND · OCTOBER 1950") usually matter more than a place.
 - **Counter:** optional. It holds one value that matters, with a short
   label: a count, a sum, a ratio, a percentage or an age ("12,600,000",
-  "$13,500", "38 of 52", "96%"). Numbers belong here, not in the drawing.
+  "$13,500", "38 of 52", "96%"). That number belongs here, not in the
+  drawing; a plate may still label its own geometry (a tooth count, an
+  angle, a scale).
 
 ## The illustration
 
@@ -396,6 +398,13 @@ the web rather than by a grow job. What changes:
   (Wikidata IDs from Wikipedia titles, name files into the registry, and
   first-mention marks from a spec). A grow job can't run them: it has no
   shell.
+- **Marks by spec, never by hand.** An author with tools writes names as
+  plain prose (bold on first use, as ever) and places the marks with
+  `names.py mark` from a spec: §Names and connections shows a mark's form,
+  not a way to write one. Seven of sprint 021's nineteen authors wrote
+  marks by hand from habit; `mark --check` now names such a mark. Make the
+  spec's words the name's first mention in prose as the reading writes it
+  ("Maxwell" if that comes before "James Clerk Maxwell").
 - **Names by the tool.** `names.py lookup` gives the Wikidata ID from the
   article title and says when a title redirects or is ambiguous; `names.py
 add` writes name files and refuses one whose Wikidata ID the registry
@@ -410,11 +419,26 @@ DIR` writes its text. Old books and documents are often on Wikisource
   and Project Gutenberg, and many sites that refuse a script (RAND, AMS,
   Bell Labs' history pages) can be read through the Wayback Machine's
   `id_` form (`https://web.archive.org/web/2024id_/<url>`); cite the page by
-  its own URL.
+  its own URL. Sprint 021 added APS, PNAS, MDPI, CERN's press pages and
+  nobelprize.org to that list (the last serves its Wayback copy gzipped:
+  `curl --compressed`). The Feynman Lectures site refuses scripts and has
+  no readable archive.
 - **Charts are inlined** into the reading, through the same sanitiser as a
   scene, so they follow the reader's palette. Make them with `bar-chart`,
   or draw one by hand in `currentColor` with the `muted` and `accent`
   classes, and never with fixed colours or a background.
+- **Look at every chart before it goes live**:
+  `contact_sheet.py <subject> <frame> --charts` shows a frame's charts in
+  its palette. `bar_chart.py` refuses a heading or labels that will not
+  fit; a chart drawn by hand gets no such check.
+- **"Public domain" on Commons is a claim to check**: a photograph from a
+  national laboratory run under contract (Brookhaven, LIGO) is not a US
+  government work, a `PD-USGov` tag can sit on a photograph nobody in
+  government took, and a file may carry a deletion nomination (the 1927
+  Solvay photograph, in copyright in Belgium and France). Read the file
+  page.
+- **The subject's voice holds for arithmetic too**: "by our arithmetic",
+  not "by my".
 - **Readings run 550–900 words of prose, and every one scrolls.** Tables,
   headings and alt text are not counted
   (`create-tools/subject-plan/prose_words.py` counts them this way). They use images, charts and tables where

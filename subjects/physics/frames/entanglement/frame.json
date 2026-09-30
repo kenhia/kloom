@@ -1,0 +1,262 @@
+{
+	"id": "entanglement",
+	"topic": "Entanglement and Bell's theorem",
+	"position": {
+		"label": "Entanglement"
+	},
+	"scene": {
+		"headline": "Far apart, they still",
+		"accent": "AGREED.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PRINCETON · CERN · BERKELEY · ORSAY · DELFT",
+			"EPR · BELL'S THEOREM · NOBEL PRIZE 2022"
+		],
+		"counter": {
+			"value": "1,203 km",
+			"label": "between entangled photons sent down from the Micius satellite, 2017"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Quantum entanglement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_entanglement&oldid=1375826121",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"note": "Schrödinger's word, Ekert, and entanglement as a resource"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Einstein–Podolsky–Rosen paradox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Einstein%E2%80%93Podolsky%E2%80%93Rosen_paradox&oldid=1374716936",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13",
+			"note": "The paper, the New York Times, Podolsky's authorship, Bohr's reply and Bohm"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Bell's theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bell's_theorem&oldid=1375818075",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"note": "Bell's 1964 paper, and how Clauser found it"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Bell test",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bell_test&oldid=1365877846",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24",
+			"note": "From Freedman and Clauser to the loophole-free tests of 2015"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Nobel Prize in Physics 2022: press release",
+			"url": "https://www.nobelprize.org/prizes/physics/2022/press-release/",
+			"accessed": "2026-09-29",
+			"container": "NobelPrize.org",
+			"publisher": "The Royal Swedish Academy of Sciences",
+			"published": "2022-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Stewart Bell",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Stewart_Bell&oldid=1372208266",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum teleportation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_teleportation&oldid=1374258025",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum key distribution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_key_distribution&oldid=1374780461",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum Experiments at Space Scale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_Experiments_at_Space_Scale&oldid=1376267685",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "web",
+			"title": "Quantum Key Distribution (QKD) and Quantum Cryptography (QC)",
+			"url": "https://www.nsa.gov/Cybersecurity/Quantum-Key-Distribution-QKD-and-Quantum-Cryptography-QC/",
+			"accessed": "2026-09-29",
+			"container": "Cybersecurity",
+			"publisher": "National Security Agency",
+			"note": "Read through the Wayback Machine"
+		},
+		{
+			"kind": "article",
+			"title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+			"doi": "10.1103/PhysRev.47.777",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Einstein",
+					"given": "A."
+				},
+				{
+					"family": "Podolsky",
+					"given": "B."
+				},
+				{
+					"family": "Rosen",
+					"given": "N."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "47",
+			"issue": "10",
+			"pages": "777–780",
+			"published": "1935-05-15"
+		},
+		{
+			"kind": "article",
+			"title": "On the Einstein Podolsky Rosen Paradox",
+			"doi": "10.1103/PhysicsPhysiqueFizika.1.195",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Bell",
+					"given": "J. S."
+				}
+			],
+			"container": "Physics Physique Физика",
+			"volume": "1",
+			"issue": "3",
+			"pages": "195–200",
+			"published": "1964"
+		},
+		{
+			"kind": "article",
+			"title": "Proposed Experiment to Test Local Hidden-Variable Theories",
+			"doi": "10.1103/PhysRevLett.23.880",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Clauser",
+					"given": "John F."
+				},
+				{
+					"family": "Horne",
+					"given": "Michael A."
+				},
+				{
+					"family": "Shimony",
+					"given": "Abner"
+				},
+				{
+					"family": "Holt",
+					"given": "Richard A."
+				}
+			],
+			"container": "Physical Review Letters",
+			"volume": "23",
+			"issue": "15",
+			"pages": "880–884",
+			"published": "1969-10-13"
+		},
+		{
+			"kind": "media",
+			"title": "John Bell at CERN in June 1982, beside a blackboard sketch of a Bell test",
+			"url": "https://commons.wikimedia.org/wiki/File:John_Bell_commenting_the_famous_Bell%27s_inequalities_(8206241).jpg",
+			"accessed": "2026-09-29",
+			"container": "CERN, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "bell-cern.jpg",
+			"authors": [
+				{
+					"name": "CERN"
+				}
+			],
+			"published": "1982-06-24"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/simulating-physics",
+			"why": "Feynman's 1981 talk squeezed Bell's theorem, without naming it, into one inequality for two photons, three quarters against two thirds, and made it his reason that a simulation of nature must be quantum."
+		},
+		{
+			"to": "computing/tls",
+			"why": "Quantum key distribution and TLS's post-quantum key exchange answer the same threat, a computer running Shor's algorithm: one rests a key's secrecy on entangled physics, the other, now deployed in browsers, on the mathematics of lattices."
+		},
+		{
+			"to": "physics/quantum-mechanics",
+			"why": "EPR grew out of Einstein's objection, at Solvay and after, that quantum mechanics was incomplete."
+		}
+	]
+}

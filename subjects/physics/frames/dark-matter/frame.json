@@ -1,0 +1,375 @@
+{
+	"id": "dark-matter",
+	"topic": "Dark matter",
+	"asOf": "2026-09-29",
+	"position": {
+		"label": "Dark matter"
+	},
+	"scene": {
+		"headline": "Most matter does not",
+		"accent": "SHINE.",
+		"palette": "starchart",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COMA CLUSTER · FRITZ ZWICKY · 1933",
+			"VERA RUBIN · KENT FORD · ROTATION CURVES",
+			"BULLET CLUSTER · LZ · XENONnT"
+		],
+		"counter": {
+			"value": "400×",
+			"label": "the mass Zwicky's Coma cluster needed over what its light showed"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Die Rotverschiebung von extragalaktischen Nebeln",
+			"url": "https://articles.adsabs.harvard.edu/pdf/1933AcHPh...6..110Z",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Zwicky",
+					"given": "F."
+				}
+			],
+			"container": "Helvetica Physica Acta",
+			"volume": "6",
+			"pages": "110–127",
+			"published": "1933",
+			"note": "The Coma cluster and \"dunkle Materie\" are on p. 125"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Rotation of the Andromeda Nebula from a Spectroscopic Survey of Emission Regions",
+			"doi": "10.1086/150317",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Rubin",
+					"given": "Vera C."
+				},
+				{
+					"family": "Ford",
+					"given": "W. Kent, Jr."
+				}
+			],
+			"container": "The Astrophysical Journal",
+			"volume": "159",
+			"pages": "379",
+			"published": "1970-02"
+		},
+		{
+			"kind": "article",
+			"title": "Rotational properties of 21 Sc galaxies with a large range of luminosities and radii, from NGC 4605 (R = 4 kpc) to UGC 2885 (R = 122 kpc)",
+			"doi": "10.1086/158003",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Rubin",
+					"given": "V. C."
+				},
+				{
+					"family": "Ford",
+					"given": "W. K., Jr."
+				},
+				{
+					"family": "Thonnard",
+					"given": "N."
+				}
+			],
+			"container": "The Astrophysical Journal",
+			"volume": "238",
+			"pages": "471",
+			"published": "1980-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Direct Empirical Proof of the Existence of Dark Matter",
+			"doi": "10.1086/508162",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Clowe",
+					"given": "Douglas"
+				},
+				{
+					"family": "Bradač",
+					"given": "Maruša"
+				},
+				{
+					"family": "Gonzalez",
+					"given": "Anthony H."
+				},
+				{
+					"family": "Markevitch",
+					"given": "Maxim"
+				},
+				{
+					"family": "Randall",
+					"given": "Scott W."
+				},
+				{
+					"family": "Jones",
+					"given": "Christine"
+				},
+				{
+					"family": "Zaritsky",
+					"given": "Dennis"
+				}
+			],
+			"container": "The Astrophysical Journal",
+			"volume": "648",
+			"issue": "2",
+			"pages": "L109–L113",
+			"published": "2006-09"
+		},
+		{
+			"kind": "article",
+			"title": "Dark Matter Search Results from 4.2 Tonne-Years of Exposure of the LUX-ZEPLIN (LZ) Experiment",
+			"doi": "10.1103/4dyc-z8zf",
+			"url": "https://arxiv.org/abs/2410.17036",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "LZ Collaboration"
+				}
+			],
+			"container": "Physical Review Letters",
+			"volume": "135",
+			"pages": "011802",
+			"published": "2025"
+		},
+		{
+			"kind": "article",
+			"title": "WIMP Dark Matter Search using a 3.1 Tonne-Year Exposure of the XENONnT Experiment",
+			"doi": "10.1103/msw4-t342",
+			"url": "https://arxiv.org/abs/2502.18005",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "XENON Collaboration"
+				}
+			],
+			"container": "Physical Review Letters",
+			"volume": "135",
+			"pages": "221003",
+			"published": "2025"
+		},
+		{
+			"kind": "article",
+			"title": "Searches for Light Dark Matter and Evidence of Coherent Elastic Neutrino-Nucleus Scattering of Solar Neutrinos with the LUX-ZEPLIN (LZ) Experiment",
+			"doi": "10.1103/jvqf-njpj",
+			"url": "https://arxiv.org/abs/2512.08065",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "LZ Collaboration"
+				}
+			],
+			"container": "Physical Review Letters",
+			"volume": "137",
+			"issue": "9",
+			"pages": "091806",
+			"published": "2026"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Search for dark matter particle interactions in an extended nuclear recoil energy window with the LUX-ZEPLIN (LZ) experiment",
+			"url": "https://lz.lbl.gov/wp-content/uploads/sites/6/2026/08/LZ_Preprint_260901_Dark_Matter_EFT_Nuclear_Recoil_Search_at_Higher_Energies.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "LZ Collaboration"
+				}
+			],
+			"publisher": "LZ Collaboration",
+			"published": "2026-09-01",
+			"note": "Preprint prepared for Physical Review Letters: one event, global significance 2.6σ"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Dark matter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1374199687",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fritz Zwicky",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fritz_Zwicky&oldid=1377531682",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vera Rubin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vera_Rubin&oldid=1377522686",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Galaxy rotation curve",
+			"url": "https://en.wikipedia.org/w/index.php?title=Galaxy_rotation_curve&oldid=1371081038",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bullet Cluster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bullet_Cluster&oldid=1370773976",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Weakly interacting massive particle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Weakly_interacting_massive_particle&oldid=1373668602",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Axion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Axion&oldid=1377219056",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "LZ experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=LZ_experiment&oldid=1375086294",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "XENON",
+			"url": "https://en.wikipedia.org/w/index.php?title=XENON&oldid=1372295617",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Modified Newtonian dynamics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Modified_Newtonian_dynamics&oldid=1375469588",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cosmic microwave background",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cosmic_microwave_background&oldid=1376626337",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "Vera Rubin at Kitt Peak National Observatory with Kent Ford's image-tube spectrograph, 1970s",
+			"url": "https://commons.wikimedia.org/wiki/File:Vera_Rubin_using_Kitt_Peak_National_Observatory%27s_36-inch_telescope.jpg",
+			"accessed": "2026-09-29",
+			"container": "NOIRLab, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "rubin-kitt-peak.jpg",
+			"authors": [
+				{
+					"name": "KPNO/NOIRLab/NSF/AURA"
+				}
+			],
+			"published": "1975",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/jwst",
+			"why": "Webb's first deep field looks through the cluster SMACS 0723, whose mass bends and magnifies the galaxies behind it: the lensing by which dark matter is weighed."
+		},
+		{
+			"to": "physics/standard-model",
+			"why": "No particle in the Standard Model can be the dark matter, which is why the searches look for new ones."
+		}
+	]
+}

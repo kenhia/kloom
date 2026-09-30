@@ -1,0 +1,184 @@
+{
+	"id": "the-field",
+	"topic": "The electromagnetic field",
+	"position": {
+		"label": "1820–1888",
+		"sort": 1831
+	},
+	"scene": {
+		"headline": "We filled the space",
+		"accent": "BETWEEN.",
+		"palette": "gaslight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COPENHAGEN · PARIS · LONDON",
+			"ACTION AT A DISTANCE · LINES OF FORCE · ENERGY IN THE FIELD"
+		],
+		"counter": {
+			"value": "499 s",
+			"label": "that sunlight's energy spends in the field between the Sun and the Earth"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Action at a distance",
+			"url": "https://en.wikipedia.org/w/index.php?title=Action_at_a_distance&oldid=1368148780",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07",
+			"note": "Newton's letter to Bentley, Coulomb, Faraday's tests of a force and their verdicts on electricity and gravity"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Field (physics)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Field_(physics)&oldid=1358105611",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-06",
+			"note": "Faraday's \"magnetic field\" (1845), Kelvin's definition (1851), the aether's end and quantum fields"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Dynamical Theory of the Electromagnetic Field",
+			"authors": [
+				{
+					"family": "Maxwell",
+					"given": "James Clerk"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "155",
+			"pages": "459–512",
+			"published": "1865",
+			"doi": "10.1098/rstl.1865.0008",
+			"url": "https://en.wikisource.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field",
+			"accessed": "2026-09-29",
+			"note": "The field defined in part I, §4; its energy \"literally\" in part III, §74. Read in the Wikisource transcription"
+		},
+		{
+			"kind": "web",
+			"title": "Original letter from Isaac Newton to Richard Bentley, 25 February 1692/3",
+			"authors": [
+				{
+					"family": "Newton",
+					"given": "Isaac"
+				}
+			],
+			"container": "The Newton Project",
+			"publisher": "University of Oxford",
+			"url": "https://www.newtonproject.ox.ac.uk/view/texts/normalized/THEM00258",
+			"accessed": "2026-09-29",
+			"note": "Trinity College Library, Cambridge, 189.R.4.47, ff. 7–8"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Line of force",
+			"url": "https://en.wikipedia.org/w/index.php?title=Line_of_force&oldid=1297135655",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Poynting vector",
+			"url": "https://en.wikipedia.org/w/index.php?title=Poynting_vector&oldid=1371871533",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Luminiferous aether",
+			"url": "https://en.wikipedia.org/w/index.php?title=Luminiferous_aether&oldid=1369089901",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wheeler–Feynman absorber theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wheeler%E2%80%93Feynman_absorber_theory&oldid=1358120776",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-06"
+		},
+		{
+			"kind": "media",
+			"title": "Lines of force and equipotential surfaces, figure IV of Maxwell's Treatise on Electricity and Magnetism, volume 1",
+			"url": "https://commons.wikimedia.org/wiki/File:Lines_of_force_and_equipotential_surfaces_LCCN92518977.jpg",
+			"accessed": "2026-09-29",
+			"container": "Clarendon Press, 1873; Library of Congress Prints and Photographs, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "maxwell-lines-of-force.jpg",
+			"authors": [
+				{
+					"family": "Maxwell",
+					"given": "James Clerk"
+				}
+			],
+			"published": "1873"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/faraday-induction",
+			"why": "The induction ring is where Faraday's lines of force first did work; this frame follows the idea behind them, from action at a distance to a field that holds energy."
+		},
+		{
+			"to": "western-civ/maxwell",
+			"why": "That frame tells how Maxwell's field equations gave the speed of light; this one follows his claim in the same 1865 paper that the field's energy is real and lives in the space around bodies."
+		},
+		{
+			"to": "feynman/absorber-theory",
+			"why": "Wheeler and Feynman tried to write electrodynamics with no field at all, charges acting directly on one another: the test the field idea survived."
+		},
+		{
+			"to": "physics/aristotle-motion",
+			"why": "Aristotle held that a mover must touch what it moves and that there is no void; Newton's gravity broke both rules, and Newton himself called acting through a vacuum absurd, until the field filled the space again."
+		},
+		{
+			"to": "physics/coulomb",
+			"why": "Coulomb's inverse-square forces act at a distance; the field was the answer to how they cross empty space."
+		}
+	]
+}

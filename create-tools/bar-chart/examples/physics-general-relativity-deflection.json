@@ -1,0 +1,57 @@
+{
+	"title": "Starlight bent at the Sun's edge: the predictions and the 1919 eclipse plates",
+	"description": "Bar chart. The deflection of a star's light at the Sun's limb, in seconds of arc. Half the full value, the prediction without the curvature of space (Einstein gave 0.83 in 1911), 0.87; Einstein's 1915 prediction, 1.75; the Sobral 4-inch plates as reduced in 1919, 1.98; the Príncipe plates, 1.61; the Sobral astrographic plates as reduced in 1919, 0.93; the same astrographic plates remeasured in 1979, 1.55. Data: D. Kennefick, Not Only Because of Theory (arXiv:0709.0685), quoting G. M. Harvey (1979) and C. W. F. Everitt (1980).",
+	"heading": "DEFLECTION AT THE SUN'S LIMB · SECONDS OF ARC",
+	"unit": "″",
+	"axis": {
+		"max": 2.25,
+		"ticks": [
+			[0, "0"],
+			[0.5, "0.5"],
+			[1, "1.0"],
+			[1.5, "1.5"],
+			[2, "2.0″"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Half",
+			"sublabel": "no curvature",
+			"value": 0.87,
+			"display": "0.87″"
+		},
+		{
+			"label": "Einstein",
+			"sublabel": "1915",
+			"value": 1.75,
+			"display": "1.75″",
+			"highlight": true
+		},
+		{
+			"label": "Sobral",
+			"sublabel": "4-inch, 1919",
+			"value": 1.98,
+			"display": "1.98″"
+		},
+		{
+			"label": "Príncipe",
+			"sublabel": "1919",
+			"value": 1.61,
+			"display": "1.61″"
+		},
+		{
+			"label": "Sobral",
+			"sublabel": "astro., 1919",
+			"value": 0.93,
+			"display": "0.93″"
+		},
+		{
+			"label": "Sobral",
+			"sublabel": "astro., 1979",
+			"value": 1.55,
+			"display": "1.55″"
+		}
+	],
+	"barWidth": 48,
+	"width": 560
+}

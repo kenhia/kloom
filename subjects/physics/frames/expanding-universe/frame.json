@@ -1,0 +1,257 @@
+{
+	"id": "expanding-universe",
+	"topic": "The expanding universe",
+	"position": {
+		"label": "Expansion"
+	},
+	"scene": {
+		"headline": "The galaxies are rushing",
+		"accent": "AWAY.",
+		"palette": "starchart",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HARVARD · LOWELL · MOUNT WILSON · LOUVAIN",
+			"LEAVITT 1912 · FRIEDMANN 1922 · LEMAÎTRE 1927 · HUBBLE 1929"
+		],
+		"counter": {
+			"value": "500",
+			"label": "km/s per megaparsec, Hubble's 1929 constant, about seven times too large"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A relation between distance and radial velocity among extra-galactic nebulae",
+			"doi": "10.1073/pnas.15.3.168",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Hubble",
+					"given": "Edwin"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "15",
+			"issue": "3",
+			"pages": "168–173",
+			"published": "1929-03-15",
+			"note": "Table 1, the 24 nebulae with distances, is on p. 169; K = 500 on p. 170"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Periods of 25 Variable Stars in the Small Magellanic Cloud",
+			"url": "https://articles.adsabs.harvard.edu/pdf/1912HarCi.173....1L",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Leavitt",
+					"given": "Henrietta S."
+				},
+				{
+					"family": "Pickering",
+					"given": "Edward C."
+				}
+			],
+			"number": "Circular 173",
+			"publisher": "Harvard College Observatory",
+			"place": "Cambridge, Mass.",
+			"published": "1912-03-03",
+			"note": "Prepared by Leavitt and signed by Pickering; read as the scan at the NASA Astrophysics Data System"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Hubble's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hubble's_law&oldid=1376040730",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Georges Lemaître",
+			"url": "https://en.wikipedia.org/w/index.php?title=Georges_Lema%C3%AEtre&oldid=1376964602",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"note": "The 1927 paper, Einstein's remark in Lemaître's recollection, the 1931 translation and Livio's finding"
+		},
+		{
+			"kind": "web",
+			"title": "IAU members vote to recommend renaming the Hubble law as the Hubble–Lemaître law",
+			"url": "https://www.iau.org/news/pressreleases/detail/iau1812/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "International Astronomical Union"
+				}
+			],
+			"container": "IAU press release iau1812",
+			"publisher": "International Astronomical Union",
+			"published": "2018-10-29",
+			"note": "Read through the Wayback Machine; the page is no longer at its address"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henrietta Swan Leavitt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henrietta_Swan_Leavitt&oldid=1372005490",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vesto Slipher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vesto_Slipher&oldid=1372620997",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Great Debate (astronomy)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Great_Debate_(astronomy)&oldid=1365691300",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alexander Friedmann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alexander_Friedmann&oldid=1376056385",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edwin Hubble",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edwin_Hubble&oldid=1375617705",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Milton L. Humason",
+			"url": "https://en.wikipedia.org/w/index.php?title=Milton_L._Humason&oldid=1373206263",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Expansion of the universe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Expansion_of_the_universe&oldid=1377167396",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Leavitt's Figure 2 of 1912: magnitude against the logarithm of period for 25 Cepheids",
+			"url": "https://commons.wikimedia.org/wiki/File:HSLeavittHSCr13Fig2_1912.jpg",
+			"accessed": "2026-09-29",
+			"container": "Harvard College Observatory Circular 173 (1912), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "leavitt-1912-fig2.jpg",
+			"authors": [
+				{
+					"family": "Leavitt",
+					"given": "Henrietta S."
+				}
+			],
+			"published": "1912"
+		},
+		{
+			"kind": "media",
+			"title": "Estimates of the Hubble constant, 1927–2022",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hubble%27s_law&oldid=1376040730",
+			"accessed": "2026-09-29",
+			"container": "Chart drawn for kloom from the table of estimates in Wikipedia's Hubble's law and Hubble (1929)",
+			"licence": "MIT",
+			"file": "hubble-constant.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/jwst",
+			"why": "Webb looks in the infrared because the expansion Slipher's redshifts and Hubble's diagram first revealed has stretched the light of the earliest galaxies out of the visible."
+		},
+		{
+			"to": "physics/ptolemy",
+			"why": "Ptolemy gave the universe a size, twenty thousand Earth radii to the stars; Leavitt's Cepheids and Hubble's distances replaced it with galaxies millions of light-years away."
+		},
+		{
+			"to": "physics/general-relativity",
+			"why": "Friedmann and Lemaître found the expanding universe as solutions of Einstein's equations before Hubble saw it."
+		},
+		{
+			"to": "physics/spectra",
+			"why": "The redshifts that measure the expansion are shifts of spectral lines, Fraunhofer's and Kirchhoff's."
+		}
+	]
+}

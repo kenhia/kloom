@@ -1,0 +1,183 @@
+{
+	"id": "energy",
+	"topic": "The conservation of energy",
+	"position": {
+		"label": "1842–1847",
+		"sort": 1842
+	},
+	"scene": {
+		"headline": "Force could never be",
+		"accent": "DESTROYED.",
+		"palette": "foolscap",
+		"illustration": "scene.svg",
+		"metadata": ["HEILBRONN · MANCHESTER · BERLIN", "MAYER 1842 · JOULE 1843–50 · HELMHOLTZ 1847"],
+		"counter": {
+			"value": "772",
+			"label": "foot-pounds of work to warm a pound of water by 1 °F, by Joule's count of 1850"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Mechanical Equivalent of Heat",
+			"doi": "10.1098/rstl.1850.0004",
+			"url": "https://royalsocietypublishing.org/doi/10.1098/rstl.1850.0004",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Joule",
+					"given": "James Prescott"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "140",
+			"pages": "61–82",
+			"published": "1850",
+			"note": "His summary of the 1843–47 figures is on pp. 63–64; the paddle-wheel, the weights and Table I follow"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Über die Erhaltung der Kraft: eine physikalische Abhandlung",
+			"url": "https://archive.org/details/berdieerhaltung00berlgoog",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Helmholtz",
+					"given": "Hermann"
+				}
+			],
+			"publisher": "G. Reimer",
+			"place": "Berlin",
+			"published": "1847",
+			"note": "Read to the Physical Society of Berlin on 23 July 1847; the premise and the sum of living and tension forces are in its first two sections"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Julius von Mayer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Julius_von_Mayer&oldid=1372035312",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "James Prescott Joule",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Prescott_Joule&oldid=1373616390",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mechanical equivalent of heat",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mechanical_equivalent_of_heat&oldid=1297025092",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hermann von Helmholtz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hermann_von_Helmholtz&oldid=1376336044",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Conservation of energy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Conservation_of_energy&oldid=1376926775",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "First law of thermodynamics",
+			"url": "https://en.wikipedia.org/w/index.php?title=First_law_of_thermodynamics&oldid=1366986255",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of energy",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_energy&oldid=1355355641",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-21"
+		},
+		{
+			"kind": "web",
+			"title": "Mayer, Julius Robert",
+			"url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Mayer,_Julius_Robert",
+			"accessed": "2026-09-29",
+			"container": "Encyclopædia Britannica, 11th ed., vol. 17",
+			"publisher": "Cambridge University Press",
+			"published": "1911",
+			"note": "Read on Wikisource; quotes Tyndall's aim"
+		},
+		{
+			"kind": "media",
+			"title": "Joule's apparatus for the mechanical equivalent of heat, an engraving",
+			"url": "https://commons.wikimedia.org/wiki/File:Joule%27s_Apparatus_(Harper%27s_Scan).png",
+			"accessed": "2026-09-29",
+			"container": "Harper's New Monthly Magazine 39, no. 231 (August 1869): 327, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "joule-apparatus.png",
+			"published": "1869"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/carnot",
+			"why": "Helmholtz began his memoir from the impossibility of perpetual motion, the premise of Carnot's proof, and Carnot's own notes of 1832 had already put a figure on the work a given heat is worth."
+		}
+	]
+}

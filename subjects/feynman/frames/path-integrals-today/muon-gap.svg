@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 280" role="img" aria-labelledby="t d">
 <title id="t">The muon's magnetic anomaly: measurement minus Standard Model prediction</title>
 <desc id="d">Bar chart. The measured magnetic anomaly of the muon minus the Standard Model prediction, in units of 10^-11. In 2021 the Fermilab and Brookhaven average exceeded the 2020 White Paper prediction by 251 ± 59, a tension of 4.2 standard deviations. With the 2025 White Paper prediction, which took the leading hadronic term from a lattice-QCD average, and the final Fermilab average, the difference is 38 ± 63, no tension. Data: Muon g-2 Collaboration, Phys. Rev. Lett. 126, 141801 (2021); Aliberti et al., Phys. Rept. 1143 (2025).</desc>
 <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
 <g class="muted">
-<line x1="64" x2="380" y1="230.0" y2="230.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<line x1="64" x2="480" y1="230.0" y2="230.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
 <text x="56" y="234.0" text-anchor="end">0</text>
-<line x1="64" x2="380" y1="165.3" y2="165.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<line x1="64" x2="480" y1="165.3" y2="165.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
 <text x="56" y="169.3" text-anchor="end">100</text>
-<line x1="64" x2="380" y1="100.7" y2="100.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<line x1="64" x2="480" y1="100.7" y2="100.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
 <text x="56" y="104.7" text-anchor="end">200</text>
-<line x1="64" x2="380" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<line x1="64" x2="480" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
 <text x="56" y="40.0" text-anchor="end">300</text>
 </g>
-<rect x="111.0" y="67.7" width="64" height="162.3" fill-opacity="0.85"/>
-<text x="143.0" y="61.7" text-anchor="middle">251 ± 59</text>
-<text x="143.0" y="246" text-anchor="middle">2021</text>
-<text x="143.0" y="260" text-anchor="middle" font-size="9" class="muted" fill="currentColor">dispersive HVP</text>
-<rect x="269.0" y="205.4" width="64" height="24.6" class="accent" fill="currentColor"/>
-<text x="301.0" y="199.4" text-anchor="middle">38 ± 63</text>
-<text x="301.0" y="246" text-anchor="middle">2025</text>
-<text x="301.0" y="260" text-anchor="middle" font-size="9" class="muted" fill="currentColor">lattice HVP</text>
+<rect x="136.0" y="67.7" width="64" height="162.3" fill-opacity="0.85"/>
+<text x="168.0" y="61.7" text-anchor="middle">251 ± 59</text>
+<text x="168.0" y="246" text-anchor="middle">2021</text>
+<text x="168.0" y="260" text-anchor="middle" font-size="9" class="muted" fill="currentColor">dispersive HVP</text>
+<rect x="344.0" y="205.4" width="64" height="24.6" class="accent" fill="currentColor"/>
+<text x="376.0" y="199.4" text-anchor="middle">38 ± 63</text>
+<text x="376.0" y="246" text-anchor="middle">2025</text>
+<text x="376.0" y="260" text-anchor="middle" font-size="9" class="muted" fill="currentColor">lattice HVP</text>
 <text x="64" y="20" font-size="12" letter-spacing="1">MUON g−2 · MEASURED MINUS PREDICTED · UNITS OF 10⁻¹¹</text>
 </g></svg>

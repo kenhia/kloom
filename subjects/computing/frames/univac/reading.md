@@ -17,7 +17,7 @@ Totalisator, the racetrack-machine company, whose vice-president Harry
 Straus became its chairman. Straus died in a plane crash in October 1949,
 his board withdrew, and on 15 February 1950 **[Remington Rand](kloom:e/remington-rand)**, the
 typewriter and office-machine maker, bought the [Eckert–Mauchly Computer
-Corporation](kloom:e/eckertmauchly-computer-corporation).
+Corporation](kloom:e/eckert-mauchly-computer-corporation).
 
 The first UNIVAC passed its acceptance tests for the Census Bureau on 31
 March 1951, and was dedicated on 14 June at the Eckert–Mauchly plant in Philadelphia, where the

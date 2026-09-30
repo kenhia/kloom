@@ -1,0 +1,27 @@
+{
+	"title": "Proton beam energy of record accelerators, 1931–2022",
+	"description": "Bar chart on a logarithmic scale of the energy to which each machine accelerated protons, per proton. Lawrence and Livingston's first cyclotron, 1931: 80 keV. Lawrence's 60-inch cyclotron, 1939: 16 MeV. CERN's Super Proton Synchrotron, 1976: 400 GeV. Fermilab's Tevatron, 1986: 900 GeV. The Large Hadron Collider, 2022: 6.8 TeV per beam. The last two are colliders, whose two beams meet head on. Data: the Cyclotron, Super Proton Synchrotron, Tevatron and Large Hadron Collider articles, Wikipedia.",
+	"heading": "PROTON BEAM ENERGY · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 0.00001,
+		"max": 10000,
+		"ticks": [
+			[0.00001, "10 keV"],
+			[0.01, "10 MeV"],
+			[10, "10 GeV"],
+			[10000, "10 TeV"]
+		]
+	},
+	"width": 520,
+	"height": 300,
+	"barWidth": 52,
+	"bars": [
+		{ "label": "Cyclotron", "sublabel": "1931", "value": 0.00008, "display": "80 keV" },
+		{ "label": "60-inch", "sublabel": "1939", "value": 0.016, "display": "16 MeV" },
+		{ "label": "SPS", "sublabel": "1976", "value": 400, "display": "400 GeV" },
+		{ "label": "Tevatron", "sublabel": "1986", "value": 900, "display": "900 GeV" },
+		{ "label": "LHC", "sublabel": "2022", "value": 6800, "display": "6.8 TeV", "highlight": true }
+	]
+}

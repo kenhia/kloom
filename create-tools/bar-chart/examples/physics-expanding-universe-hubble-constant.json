@@ -1,0 +1,25 @@
+{
+	"title": "Estimates of the Hubble constant, 1927–2022",
+	"description": "Bar chart. Estimates of the Hubble constant in kilometres per second per megaparsec. Lemaître (1927): 625. Hubble (1929): 500. Humason, Mayall and Sandage (1956): 180. Sandage (1958): about 75. Planck, from the microwave background (2018): 67.4. SH0ES, from Cepheids and supernovae (2022): 73.0. Data: the table of estimates in Wikipedia's Hubble's law, revision 1376040730; Hubble, PNAS 15 (1929): 168–173.",
+	"heading": "HUBBLE CONSTANT · KM/S PER MEGAPARSEC",
+	"unit": "",
+	"axis": {
+		"max": 700,
+		"ticks": [
+			[0, "0"],
+			[250, "250"],
+			[500, "500"],
+			[700, "700"]
+		]
+	},
+	"bars": [
+		{ "label": "Lemaître", "sublabel": "1927", "value": 625 },
+		{ "label": "Hubble", "sublabel": "1929", "value": 500, "highlight": true },
+		{ "label": "Humason", "sublabel": "1956", "value": 180 },
+		{ "label": "Sandage", "sublabel": "1958", "value": 75, "display": "~75" },
+		{ "label": "Planck", "sublabel": "2018", "value": 67.4 },
+		{ "label": "SH0ES", "sublabel": "2022", "value": 73.0, "display": "73" }
+	],
+	"width": 520,
+	"barWidth": 48
+}

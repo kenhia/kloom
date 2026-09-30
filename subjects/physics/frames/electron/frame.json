@@ -1,0 +1,223 @@
+{
+	"id": "electron",
+	"topic": "The discovery of the electron",
+	"position": {
+		"label": "1897",
+		"sort": 1897
+	},
+	"scene": {
+		"headline": "The atom had",
+		"accent": "PARTS.",
+		"palette": "gaslight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · J. J. THOMSON · CHICAGO · ROBERT MILLIKAN",
+			"CATHODE RAYS · m/e · OIL DROPS · e"
+		],
+		"counter": {
+			"value": "58 of ~100",
+			"label": "drops Millikan published, of those in his notebooks for the 63 days, by Goodstein's count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Cathode Rays",
+			"doi": "10.1080/14786449708621070",
+			"url": "https://en.wikisource.org/wiki/Cathode_Rays",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Thomson",
+					"given": "J. J."
+				}
+			],
+			"container": "Philosophical Magazine",
+			"volume": "44",
+			"issue": "269",
+			"pages": "293–316",
+			"published": "1897-10",
+			"note": "Read in the Wikisource transcription; the table's values and the corpuscles are in its later sections"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "In Defense of Robert Andrews Millikan",
+			"url": "https://calteches.library.caltech.edu/4014/1/Millikan.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Goodstein",
+					"given": "David"
+				}
+			],
+			"container": "Engineering & Science",
+			"volume": "63",
+			"issue": "4",
+			"pages": "30–38",
+			"published": "2000",
+			"note": "The notebooks, the 58 drops, the Fletcher bargain; quotes Millikan's 1913 paper"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Electron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electron&oldid=1376946563",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "J. J. Thomson",
+			"url": "https://en.wikipedia.org/w/index.php?title=J._J._Thomson&oldid=1376842872",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cathode ray",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cathode_ray&oldid=1344399084",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-20"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Oil drop experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oil_drop_experiment&oldid=1369207091",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13",
+			"note": "Millikan's value against today's, and Holton and Franklin on the selection"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plum pudding model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plum_pudding_model&oldid=1371470981",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Elementary charge",
+			"url": "https://en.wikipedia.org/w/index.php?title=Elementary_charge&oldid=1370300983",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Millikan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Millikan&oldid=1371990894",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cathode ray tube",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cathode_ray_tube&oldid=1376230003",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "media",
+			"title": "J. J. Thomson's cathode-ray tube of 1897, with its magnet coils, in the Science Museum, London",
+			"url": "https://commons.wikimedia.org/wiki/File:J_J_Thomsons_cathode_ray_tube_with_magnet_coils,_1897._(9663807404).jpg",
+			"accessed": "2026-09-29",
+			"container": "Science Museum, London, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "thomson-tube.jpg",
+			"authors": [
+				{
+					"name": "Science Museum London / Science and Society Picture Library"
+				}
+			],
+			"published": "2013-08-28"
+		},
+		{
+			"kind": "media",
+			"title": "Millikan's diagram of his oil-drop apparatus, from his 1913 paper in the Physical Review",
+			"url": "https://commons.wikimedia.org/wiki/File:Scheme_of_Millikan%E2%80%99s_oil-drop_apparatus.jpg",
+			"accessed": "2026-09-29",
+			"container": "Physical Review 2 (1913), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "millikan-scheme.jpg",
+			"authors": [
+				{
+					"family": "Millikan",
+					"given": "Robert Andrews"
+				}
+			],
+			"published": "1913"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/cargo-cult",
+			"why": "Feynman's talk takes Millikan's oil-drop value, low because of a wrong viscosity of air, and the slow creep of later values up from it as his example of scientists fooling themselves."
+		},
+		{
+			"to": "western-civ/si-redefinition",
+			"why": "The charge Millikan measured on oil drops is one of the seven constants the 2019 SI fixed exactly, 1.602176634 × 10⁻¹⁹ coulomb, to define the ampere."
+		},
+		{
+			"to": "computing/manchester-baby",
+			"why": "The Williams tube that gave the Baby its memory stored bits as spots of charge left by a beam of electrons on a cathode-ray tube's face, the rays Thomson showed in 1897 to be particles."
+		}
+	]
+}

@@ -1,0 +1,164 @@
+{
+	"id": "faraday-lines",
+	"topic": "Faraday's lines of force",
+	"position": {
+		"label": "1845–1852",
+		"sort": 1845
+	},
+	"scene": {
+		"headline": "We magnetised a",
+		"accent": "RAY.",
+		"palette": "foolscap",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ROYAL INSTITUTION · MICHAEL FARADAY",
+			"HEAVY GLASS · DIAMAGNETISM · IRON FILINGS"
+		],
+		"counter": {
+			"value": "18",
+			"label": "years before Maxwell credited Faraday's \"Thoughts on Ray-vibrations\""
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Experimental Researches in Electricity, Vol. 3",
+			"url": "https://archive.org/details/experimentalres04faragoog",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Faraday",
+					"given": "Michael"
+				}
+			],
+			"publisher": "Bernard Quaritch",
+			"place": "London",
+			"published": "1855",
+			"note": "Vol. 3: Series XIX–XX (1845), §2146–2153, 2253, 2281; filings, §3234–3236 (1851); \"Thoughts on Ray-vibrations\", pp. 447–452 (1846); \"On the Physical Character of the Lines of Magnetic Force\", §3243–3258 (1852)"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Line of force",
+			"url": "https://en.wikipedia.org/w/index.php?title=Line_of_force&oldid=1297135655",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-24",
+			"note": "Maxwell's credit to \"Thoughts on Ray Vibrations\"; the dates, 1838 or 1852, of Faraday's conviction"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Faraday effect",
+			"url": "https://en.wikipedia.org/w/index.php?title=Faraday_effect&oldid=1355865766",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Michael Faraday",
+			"url": "https://en.wikipedia.org/w/index.php?title=Michael_Faraday&oldid=1377565269",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Diamagnetism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diamagnetism&oldid=1352816015",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-06"
+		},
+		{
+			"kind": "book",
+			"title": "The Scientific Papers of James Clerk Maxwell, Vol. 1",
+			"url": "https://archive.org/details/scientificpapers01maxwuoft",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Maxwell",
+					"given": "James Clerk"
+				}
+			],
+			"editors": [
+				{
+					"family": "Niven",
+					"given": "W. D."
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1890",
+			"note": "\"A Dynamical Theory of the Electromagnetic Field\", p. 535–536, on \"Thoughts on Ray Vibrations\""
+		},
+		{
+			"kind": "web",
+			"title": "The history of the Friday Evening Discourse",
+			"url": "https://www.rigb.org/explore-science/explore/blog/history-friday-evening-discourse",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Royal Institution"
+				}
+			],
+			"container": "Royal Institution",
+			"published": "2023-07-07"
+		},
+		{
+			"kind": "media",
+			"title": "One of Michael Faraday's iron filings diagrams, the filings fixed on paper round a magnetised bar",
+			"url": "https://commons.wikimedia.org/wiki/File:Results_of_Michael_Faraday%27s_iron_filings_experiment._Wellcome_M0000164.jpg",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Faraday",
+					"given": "Michael"
+				}
+			],
+			"container": "Wellcome Collection (M0000164), via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "iron-filings.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/faraday-induction",
+			"why": "Faraday explained his 1831 induction with lines of force that most of his contemporaries dismissed as unmathematical; from 1845 to 1852 he found the effects that made him argue the lines were physically real."
+		},
+		{
+			"to": "western-civ/maxwell",
+			"why": "Maxwell wrote in 1864 that the electromagnetic theory of light was \"the same in substance\" as Faraday's 1846 speculation that light is a vibration of the lines of force."
+		},
+		{
+			"to": "physics/young-slits",
+			"why": "Faraday's 1846 speculation needed sideways vibrations, as the polarisation of light that the wave theory explained requires."
+		}
+	]
+}

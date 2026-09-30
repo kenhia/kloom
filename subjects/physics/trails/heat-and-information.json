@@ -1,0 +1,22 @@
+{
+	"id": "heat-and-information",
+	"title": "Heat and information",
+	"anchor": "entropy",
+	"spine": {
+		"segments": [
+			{
+				"id": "information",
+				"title": "Entropy and information",
+				"labelKind": "date",
+				"frames": [
+					"maxwells-demon",
+					"boltzmann-entropy",
+					"szilard-engine",
+					"shannon-entropy",
+					"landauer",
+					"reversible-computing"
+				]
+			}
+		]
+	}
+}

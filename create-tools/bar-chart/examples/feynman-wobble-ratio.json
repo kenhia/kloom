@@ -4,7 +4,7 @@
 	"heading": "WOBBLES PER TURN OF THE SEAL · SMALL TILT",
 	"unit": "",
 	"axis": {
-		"max": 2,
+		"max": 2.3,
 		"ticks": [
 			[0, "0"],
 			[0.5, "0.5"],
@@ -14,7 +14,12 @@
 		]
 	},
 	"bars": [
-		{ "label": "His telling", "sublabel": "as he told it", "value": 0.5, "display": "0.5" },
+		{
+			"label": "His telling",
+			"sublabel": "as he told it",
+			"value": 0.5,
+			"display": "0.5"
+		},
 		{
 			"label": "Thin disc",
 			"sublabel": "I₃ = 2 I₁",
@@ -22,10 +27,30 @@
 			"display": "2.00",
 			"highlight": true
 		},
-		{ "label": "Coin", "sublabel": "h = R/10", "value": 1.993, "display": "1.99" },
-		{ "label": "Puck", "sublabel": "h = 2R/3", "value": 1.742, "display": "1.74" },
-		{ "label": "Cylinder", "sublabel": "h = R", "value": 1.5, "display": "1.50" },
-		{ "label": "Cylinder", "sublabel": "h = 1.73 R", "value": 1, "display": "1.00" }
+		{
+			"label": "Coin",
+			"sublabel": "h = R/10",
+			"value": 1.993,
+			"display": "1.99"
+		},
+		{
+			"label": "Puck",
+			"sublabel": "h = 2R/3",
+			"value": 1.742,
+			"display": "1.74"
+		},
+		{
+			"label": "Cylinder",
+			"sublabel": "h = R",
+			"value": 1.5,
+			"display": "1.50"
+		},
+		{
+			"label": "Cylinder",
+			"sublabel": "h = 1.73 R",
+			"value": 1,
+			"display": "1.00"
+		}
 	],
 	"barWidth": 44,
 	"width": 560

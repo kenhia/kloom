@@ -1,0 +1,143 @@
+{
+	"id": "bohr-atom",
+	"topic": "The Bohr atom",
+	"position": {
+		"label": "1913",
+		"sort": 1913
+	},
+	"scene": {
+		"headline": "The electron could only",
+		"accent": "JUMP.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MANCHESTER · COPENHAGEN · NIELS BOHR",
+			"PHILOSOPHICAL MAGAZINE, 1913 · STATIONARY STATES"
+		],
+		"counter": {
+			"value": "3.1 × 10¹⁵",
+			"label": "per second: Bohr's calculated constant for hydrogen's lines, against 3.290 × 10¹⁵ measured"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Constitution of Atoms and Molecules",
+			"doi": "10.1080/14786441308634955",
+			"url": "https://uni-tuebingen.de/fileadmin/Uni_Tuebingen/Fakultaeten/MathePhysik/Institute/IAP/Forschung/MOettel/Geburt_QM/bohr_PhilMag_26_1_1913.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Bohr",
+					"given": "N."
+				}
+			],
+			"container": "Philosophical Magazine",
+			"volume": "26",
+			"pages": "1–25",
+			"published": "1913",
+			"note": "Part I; the calculated constant, the 12 and 33 Balmer lines and the helium lines are on pp. 9–10"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Bohr model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bohr_model&oldid=1377338578",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Franck–Hertz experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Franck%E2%80%93Hertz_experiment&oldid=1366935347",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Old quantum theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Old_quantum_theory&oldid=1371811753",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rydberg constant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rydberg_constant&oldid=1341645811",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Balmer series",
+			"url": "https://en.wikipedia.org/w/index.php?title=Balmer_series&oldid=1341026519",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-01"
+		},
+		{
+			"kind": "media",
+			"title": "Niels Bohr, a studio portrait (\"Prof. Bohr\"), undated",
+			"url": "https://commons.wikimedia.org/wiki/File:Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg",
+			"accessed": "2026-09-29",
+			"container": "Bain News Service, Library of Congress, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "bohr-portrait.jpg",
+			"authors": [
+				{
+					"name": "Bain News Service"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/lamb-shift",
+			"why": "Bohr's ladder puts hydrogen's n = 2 states on one rung; Sommerfeld's and later Dirac's refinements split the rung by fine structure, and in 1947 Lamb measured a split between two of its states that neither predicted."
+		},
+		{
+			"to": "physics/spectra",
+			"why": "Balmer's formula, posed as a puzzle in the spectra of hydrogen, is what the Bohr atom explained."
+		},
+		{
+			"to": "physics/nucleus",
+			"why": "Bohr built his atom on Rutherford's nucleus, to explain why its electrons did not spiral in."
+		}
+	]
+}

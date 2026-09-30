@@ -244,7 +244,7 @@
 		["Garry Kasparov", "garry-kasparov"],
 		["Murray Campbell", "murray-campbell"],
 		["_Deep Blue_", "deep-blue-chess-computer"],
-		["_alpha–beta pruning_", "alphabeta-pruning"],
+		["_alpha–beta pruning_", "alpha-beta-pruning"],
 		["Leela Chess Zero", "leela-chess-zero"],
 		["ImageNet", "imagenet"]
 	],
@@ -838,7 +838,7 @@
 		["Alonzo Church", "alonzo-church"],
 		["_lambda calculus_", "lambda-calculus"],
 		["Turing machine", "turing-machine"],
-		["Church–Turing thesis", "churchturing-thesis"],
+		["Church–Turing thesis", "church-turing-thesis"],
 		["Princeton", "princeton-university"]
 	],
 	"ai/turing-test": [

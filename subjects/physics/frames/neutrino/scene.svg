@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M46 54 L46 250 L302 250"/>
+		<path pathLength="1" d="M298.5 252 L302 250 L298.5 248"/>
+		<path pathLength="1" d="M48 57.5 L46 54 L44 57.5"/>
+		<path pathLength="1" d="M141.4 250 L141.4 134.2"/>
+		<path pathLength="1" d="M106 250 L106 254 M166 250 L166 254 M226 250 L226 254"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M46 250 L48 228.1 L50 219 L52 211.9 L54 205.9 L56 200.6 L58 195.8 L60 191.3 L62 187.2 L64 183.4 L66 179.8 L68 176.3 L70 173.1 L72 170.1 L74 167.2 L76 164.4 L78 161.8 L80 159.3 L82 157 L84 154.7 L86 152.6 L88 150.6 L90 148.8 L92 147 L94 145.3 L96 143.8 L98 142.3 L100 141 L102 139.7 L104 138.6 L106 137.5 L108 136.6 L110 135.7 L112 134.9 L114 134.3 L116 133.7 L118 133.2 L120 132.8 L122 132.6 L124 132.3 L126 132.2 L128 132.2 L130 132.3 L132 132.4 L134 132.6 L136 132.9 L138 133.3 L140 133.8 L142 134.4 L144 135 L146 135.7 L148 136.5 L150 137.3 L152 138.3 L154 139.3 L156 140.4 L158 141.5 L160 142.7 L162 144 L164 145.3 L166 146.7 L168 148.2 L170 149.7 L172 151.3 L174 152.9 L176 154.6 L178 156.4 L180 158.2 L182 160 L184 161.9 L186 163.8 L188 165.7 L190 167.7 L192 169.8 L194 171.9 L196 174 L198 176.1 L200 178.2 L202 180.4 L204 182.6 L206 184.8 L208 187.1 L210 189.3 L212 191.5 L214 193.8 L216 196.1 L218 198.3 L220 200.6 L222 202.8 L224 205.1 L226 207.3 L228 209.5 L230 211.7 L232 213.9 L234 216 L236 218.2 L238 220.2 L240 222.3 L242 224.3 L244 226.3 L246 228.2 L248 230 L250 231.8 L252 233.6 L254 235.3 L256 236.9 L258 238.4 L260 239.9 L262 241.3 L264 242.6 L266 243.8 L268 244.9 L270 245.9 L272 246.8 L274 247.6 L276 248.3 L278 248.9 L280 249.4 L282 249.7 L284 249.9 L286 250"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M286 250 L286 68"/>
+		<path pathLength="1" d="M283 68 L289 68"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M344 70 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<path pathLength="1" d="M344 170 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M346 70 L316 70"/>
+		<path pathLength="1" d="M319.5 68 L316 70 L319.5 72"/>
+		<path pathLength="1" d="M346 70 L376 70"/>
+		<path pathLength="1" d="M372.5 72 L376 70 L372.5 68"/>
+		<path pathLength="1" d="M346 170 L312 154"/>
+		<path pathLength="1" d="M316 153.7 L312 154 L314.3 157.3"/>
+		<path pathLength="1" d="M346 170 L372 142"/>
+		<path pathLength="1" d="M371.1 145.9 L372 142 L368.2 143.2"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M346 170 L354 214"/>
+		<path pathLength="1" d="M351.4 210.9 L354 214 L355.3 210.2"/>
+	</g>
+	<g>
+		<text x="52" y="58" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ELECTRONS</text>
+		<text x="286" y="264" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Q</text>
+		<text x="46" y="264" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="280" y="64" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IF TWO BODIES</text>
+		<text x="145.4" y="230" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MEAN</text>
+		<text x="316" y="62" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NUCLEUS</text>
+		<text x="376" y="62" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">e</text>
+		<text x="308" y="148" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NUCLEUS</text>
+		<text x="376" y="136" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">e</text>
+		<text x="362" y="218" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ν</text>
+		<text x="166" y="292" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ELECTRON ENERGY · BETA DECAY</text>
+	</g>
+</svg>

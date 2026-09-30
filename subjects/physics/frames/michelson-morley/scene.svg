@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M30 150 L206 150 M118 62 L118 238 M38 70 L198 230 M38 230 L198 70"/>
+		<path pathLength="1" d="M248 150 L388 150"/>
+		<path pathLength="1" d="M248 88 L248 212"/>
+		<path pathLength="1" d="M283 147 L283 153 M318 147 L318 153 M353 147 L353 153 M388 147 L388 153"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M32 150 a86 86 0 1 0 172 0 a86 86 0 1 0 -172 0"/>
+		<path pathLength="1" d="M80.4 150 a37.6 37.6 0 1 0 75.2 0 a37.6 37.6 0 1 0 -75.2 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M38 70 L198 70 L198 230 L38 230 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M12 150 L118 150"/>
+		<path pathLength="1" d="M56.5 152 L60 150 L56.5 148"/>
+		<path pathLength="1" d="M118 150 L188 150 L188 159 L140 159 L140 168 L188 168"/>
+		<path pathLength="1" d="M118 150 L118 80 L109 80 L109 128 L100 128 L100 80"/>
+		<path pathLength="1" d="M118 150 L118 292"/>
+		<path pathLength="1" d="M116 268.5 L118 272 L120 268.5"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M113.1 154.9 L122.9 145.1"/>
+		<path pathLength="1" d="M190.8 152.8 L185.2 147.2"/>
+		<path pathLength="1" d="M185.2 161.8 L190.8 156.2"/>
+		<path pathLength="1" d="M142.8 156.2 L137.2 161.8"/>
+		<path pathLength="1" d="M137.2 165.2 L142.8 170.8"/>
+		<path pathLength="1" d="M120.8 82.8 L115.2 77.2"/>
+		<path pathLength="1" d="M111.8 77.2 L106.2 82.8"/>
+		<path pathLength="1" d="M106.2 130.8 L111.8 125.2"/>
+		<path pathLength="1" d="M97.2 125.2 L102.8 130.8"/>
+		<path pathLength="1" d="M189.5 163 L189.5 173"/>
+		<path pathLength="1" d="M95 78.5 L105 78.5"/>
+		<path pathLength="1" d="M4 144 L12 144 L12 156 L4 156 Z"/>
+		<path pathLength="1" d="M112 292 L124 292"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M248 100 L249.2 100.3 L250.3 101.1 L251.5 102.4 L252.7 104.3 L253.8 106.7 L255 109.5 L256.2 112.8 L257.3 116.5 L258.5 120.6 L259.7 125 L260.8 129.7 L262 134.5 L263.2 139.6 L264.3 144.8 L265.5 150 L266.7 155.2 L267.8 160.4 L269 165.5 L270.2 170.3 L271.3 175 L272.5 179.4 L273.7 183.5 L274.8 187.2 L276 190.5 L277.2 193.3 L278.3 195.7 L279.5 197.6 L280.7 198.9 L281.8 199.7 L283 200 L284.2 199.7 L285.3 198.9 L286.5 197.6 L287.7 195.7 L288.8 193.3 L290 190.5 L291.2 187.2 L292.3 183.5 L293.5 179.4 L294.7 175 L295.8 170.3 L297 165.5 L298.2 160.4 L299.3 155.2 L300.5 150 L301.7 144.8 L302.8 139.6 L304 134.5 L305.2 129.7 L306.3 125 L307.5 120.6 L308.7 116.5 L309.8 112.8 L311 109.5 L312.2 106.7 L313.3 104.3 L314.5 102.4 L315.7 101.1 L316.8 100.3 L318 100 L319.2 100.3 L320.3 101.1 L321.5 102.4 L322.7 104.3 L323.8 106.7 L325 109.5 L326.2 112.8 L327.3 116.5 L328.5 120.6 L329.7 125 L330.8 129.7 L332 134.5 L333.2 139.6 L334.3 144.8 L335.5 150 L336.7 155.2 L337.8 160.4 L339 165.5 L340.2 170.3 L341.3 175 L342.5 179.4 L343.7 183.5 L344.8 187.2 L346 190.5 L347.2 193.3 L348.3 195.7 L349.5 197.6 L350.7 198.9 L351.8 199.7 L353 200 L354.2 199.7 L355.3 198.9 L356.5 197.6 L357.7 195.7 L358.8 193.3 L360 190.5 L361.2 187.2 L362.3 183.5 L363.5 179.4 L364.7 175 L365.8 170.3 L367 165.5 L368.2 160.4 L369.3 155.2 L370.5 150 L371.7 144.8 L372.8 139.6 L374 134.5 L375.2 129.7 L376.3 125 L377.5 120.6 L378.7 116.5 L379.8 112.8 L381 109.5 L382.2 106.7 L383.3 104.3 L384.5 102.4 L385.7 101.1 L386.8 100.3 L388 100"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M248 147.5 L388 147.5 M248 152.5 L388 152.5"/>
+	</g>
+	<g>
+		<text x="118" y="18" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STONE ON MERCURY · 1.5 M</text>
+		<text x="148" y="290" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TELESCOPE</text>
+		<text x="8" y="138" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LAMP</text>
+		<text x="318" y="80" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EXPECTED · 0.4 FRINGE</text>
+		<text x="318" y="226" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOUND · UNDER 0.01</text>
+		<text x="318" y="286" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE TURN OF THE STONE</text>
+	</g>
+</svg>

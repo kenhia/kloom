@@ -4,5 +4,5 @@
 	"name": "Quantum computing",
 	"aliases": ["Quantum computers", "quantum computer", "quantum computers"],
 	"kind": "idea",
-	"description": "Computing with quantum states, proposed by Richard Feynman and others in the early 1980s, which could break today's public-key encryption."
+	"description": "Computing with quantum states, proposed by Richard Feynman and others in the early 1980s, which could solve some problems, among them breaking today's public-key encryption, far faster than ordinary computers."
 }

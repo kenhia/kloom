@@ -14,7 +14,9 @@ import argparse, os, re, sys
 def prose_words(text):
     kept = [line for line in text.splitlines()
             if not line.lstrip().startswith(('|', '![', '<', '#'))]
-    return len(re.findall(r"[\w’'-]+", '\n'.join(kept)))
+    # A link's words are prose; its target (a name mark's kloom:e/<id>, a URL) is not (sprint 021).
+    prose = re.sub(r'\]\([^)]*\)', ']', '\n'.join(kept))
+    return len(re.findall(r"[\w’'-]+", prose))
 
 
 def main():

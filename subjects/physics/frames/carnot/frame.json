@@ -1,0 +1,164 @@
+{
+	"id": "carnot",
+	"topic": "Carnot's heat engine",
+	"position": {
+		"label": "1824",
+		"sort": 1824
+	},
+	"scene": {
+		"headline": "Heat fell like",
+		"accent": "WATER.",
+		"palette": "foolscap",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · SADI CARNOT · ÉMILE CLAPEYRON",
+			"RÉFLEXIONS SUR LA PUISSANCE MOTRICE DU FEU"
+		],
+		"counter": {
+			"value": "600",
+			"label": "copies of the Réflexions, printed at Carnot's own expense"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Reflections on the Motive Power of Heat",
+			"url": "https://en.wikisource.org/wiki/Reflections_on_the_Motive_Power_of_Heat",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Carnot",
+					"given": "Sadi"
+				}
+			],
+			"editors": [
+				{
+					"family": "Thurston",
+					"given": "R. H."
+				}
+			],
+			"publisher": "John Wiley & Sons",
+			"place": "New York",
+			"published": "1897",
+			"note": "Thurston's translation of the Réflexions (1824), second edition, read on Wikisource; England's engines, the waterfall and the 160° boiler"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Nicolas Léonard Sadi Carnot",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicolas_L%C3%A9onard_Sadi_Carnot&oldid=1371221604",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25",
+			"note": "The 600 copies, the proof by perpetual motion, Clapeyron, Thomson, and the notes of 1832"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reflections on the Motive Power of Fire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reflections_on_the_Motive_Power_of_Fire&oldid=1354179392",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-14"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Carnot cycle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carnot_cycle&oldid=1375057573",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carnot's theorem (thermodynamics)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carnot's_theorem_(thermodynamics)&oldid=1370964129",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Caloric theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Caloric_theory&oldid=1363568580",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Émile Clapeyron",
+			"url": "https://en.wikipedia.org/w/index.php?title=%C3%89mile_Clapeyron&oldid=1374023422",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "media",
+			"title": "Sadi Carnot at seventeen in the uniform of the École polytechnique, after the portrait by Louis-Léopold Boilly (1813)",
+			"url": "https://commons.wikimedia.org/wiki/File:Sadi_Carnot_Boilly_1813.jpg",
+			"accessed": "2026-09-29",
+			"container": "Frontispiece to the 1878 edition of the Réflexions, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "carnot-boilly.jpg",
+			"authors": [
+				{
+					"name": "Louis-Léopold Boilly"
+				}
+			],
+			"published": "1878"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: heat turned into work by engines of the 1820s, against Carnot's limit",
+			"url": "https://en.wikisource.org/wiki/Reflections_on_the_Motive_Power_of_Heat/Chapter_3",
+			"accessed": "2026-09-29",
+			"container": "Drawn for kloom from Carnot's temperatures (Thurston's translation) and Wikipedia's figure for engines of the day",
+			"licence": "MIT",
+			"file": "efficiency.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/steam",
+			"why": "Carnot's book opens with the steam engines of Newcomen and Watt and asks how good such an engine could ever be; its rule that heat must never pass between parts at different temperatures names the waste Watt's separate condenser cut."
+		}
+	]
+}

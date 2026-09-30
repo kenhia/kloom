@@ -1,0 +1,24 @@
+{
+	"title": "Gravitational-wave signals in the LIGO–Virgo–KAGRA catalogue, at each release",
+	"description": "Bar chart. The cumulative number of candidate signals, with a probability of astrophysical origin of at least one half, in the Gravitational-Wave Transient Catalog at each release: GWTC-1 (2018, through the second observing run), 11; GWTC-3 (2021, through the third), 90; GWTC-4.0 (2025, through the first part of the fourth), 218; GWTC-5.0 (2026, through the second part of the fourth), 390. Data: the catalogues' abstracts, arXiv:1811.12907, 2111.03606, 2508.18082 and 2605.27225.",
+	"heading": "SIGNALS IN THE CATALOGUE · CUMULATIVE",
+	"unit": "",
+	"axis": {
+		"max": 400,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"],
+			[400, "400"]
+		]
+	},
+	"bars": [
+		{ "label": "GWTC-1", "sublabel": "2018 · O1–O2", "value": 11 },
+		{ "label": "GWTC-3", "sublabel": "2021 · to O3", "value": 90 },
+		{ "label": "GWTC-4.0", "sublabel": "2025 · to O4a", "value": 218 },
+		{ "label": "GWTC-5.0", "sublabel": "2026 · to O4b", "value": 390, "highlight": true }
+	],
+	"barWidth": 64,
+	"width": 480
+}

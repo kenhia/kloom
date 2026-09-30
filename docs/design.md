@@ -1199,6 +1199,30 @@ Computing, the second subject written by following
   gears and cards, console and teletype for valves and mainframes, circuit
   and schematic from the microprocessor on. The lowest contrast is 5.6:1.
 
+## The fifth subject
+
+Built in sprint 021 (korg 3428): `subjects/physics`, the History of Physics,
+the third subject written by following `skills/author-subject/SKILL.md` and
+the first written with names, connections and topics from the start. It is
+described in its sprint record.
+
+- **Dates, then categories.** 45 main-spine frames: five `date` segments
+  from Aristotle to Perrin's atoms (1905–08), then `category` segments for
+  relativity, the quantum, the nucleus, particles and the cosmos, and a
+  closing one on open questions. Four trails of five or six frames, all by
+  date: the field (Ørsted to Hertz), heat and information (Maxwell's demon
+  to reversible computing), the quantum revolution (1905–1927) and the
+  Standard Model. The engine needed nothing new.
+- **The bridge.** Physics sits between western-civ and the tech cluster
+  (ai, computing, feynman): 174 connections are stored on its frames, 108
+  of them into other subjects, and 63 of its 68 frames have one.
+  Western-civ's Faraday and Maxwell frames tell those two stories; the
+  physics field trail tells the physics around them and connects to both.
+- **Its own look.** Four dark/light pairs by era: bronze and papyrus to
+  Newton, gaslight and foolscap for 1700–1910, cloudchamber and photoplate
+  for the quantum, the nucleus and particles, deepfield and starchart for
+  relativity and the cosmos. The lowest contrast is 5.8:1.
+
 ## Start screen
 
 Built in sprint 002 (korg 3359). The page opens on a modal start screen over

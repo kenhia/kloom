@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M143.1 132.2 L98.8 159.5"/>
+		<path pathLength="1" d="M156.9 132.2 L201.2 159.5"/>
+		<path pathLength="1" d="M120.9 145.8 L296.2 219.2"/>
+		<path pathLength="1" d="M150 102.7 L150 205.1"/>
+		<path pathLength="1" d="M317.4 87.9 L318.9 91.6 L320.3 95.3 L321.6 99.1 L322.8 102.9 L323.9 106.7 L324.9 110.5 L325.7 114.4 L326.5 118.3 L327.2 122.2 L327.8 126.1 L328.2 130 L328.6 134 L328.9 137.9 L329 141.9 L329.1 145.8 L329 149.8 L328.9 153.8 L328.6 157.7 L328.2 161.7 L327.8 165.6 L327.2 169.5 L326.5 173.4 L325.7 177.3 L324.9 181.2 L323.9 185 L322.8 188.8 L321.6 192.6 L320.3 196.4 L318.9 200.1 L317.4 203.7"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M38 16 L38 108.1"/>
+		<path pathLength="1" d="M38 114.1 L38 150"/>
+		<path pathLength="1" d="M101.8 114.7 L198.2 114.7 L150 193.1 Z"/>
+		<path pathLength="1" d="M372 16 L372 196"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M38 111.1 L120.9 145.8"/>
+		<path pathLength="1" d="M75.5 129 L79.5 128.5 L77 125.3"/>
+		<path pathLength="1" d="M120.9 145.8 L179.1 145.8"/>
+		<path pathLength="1" d="M179 145.9 L372 67"/>
+		<path pathLength="1" d="M179.3 145.4 L372 57.1"/>
+		<path pathLength="1" d="M368 67 L376 67 M368 57.1 L376 57.1"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M201.1 243.9 L298.9 243.9 A12.1 12.1 0 0 1 298.9 268.1 L201.1 268.1 A12.1 12.1 0 0 1 201.1 243.9 Z"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M143 256 a12.1 12.1 0 1 0 24.1 0 a12.1 12.1 0 1 0 -24.1 0"/>
+		<path pathLength="1" d="M189.1 274.1 L189.1 278.1 M310.9 274.1 L310.9 278.1 M189.1 276.1 L310.9 276.1"/>
+	</g>
+	<g>
+		<text x="43" y="103.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HOLE</text>
+		<text x="150" y="98.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">63° 12'</text>
+		<text x="333.1" y="171.8" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">45°</text>
+		<text x="367" y="49.1" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VIOLET</text>
+		<text x="367" y="80" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RED</text>
+		<text x="367" y="210" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WALL · 22 FT</text>
+		<text x="155.1" y="236.9" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EXPECTED</text>
+		<text x="250" y="236.9" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOUND · 13¼ × 2⅝ IN</text>
+	</g>
+</svg>

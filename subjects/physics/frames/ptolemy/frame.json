@@ -1,0 +1,177 @@
+{
+	"id": "ptolemy",
+	"topic": "Ptolemy's Almagest",
+	"position": {
+		"label": "c. AD 150",
+		"sort": 150
+	},
+	"scene": {
+		"headline": "We saved the",
+		"accent": "APPEARANCES.",
+		"palette": "bronze",
+		"illustration": "scene.svg",
+		"metadata": ["ALEXANDRIA · CLAUDIUS PTOLEMY", "DEFERENT · EPICYCLE · EQUANT"],
+		"counter": {
+			"value": "1,022",
+			"label": "stars in the Almagest's catalogue"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Ptolemy's Almagest",
+			"url": "https://archive.org/details/ptolemysalmagest0000ptol",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Ptolemy"
+				}
+			],
+			"editors": [
+				{
+					"family": "Toomer",
+					"given": "G. J."
+				}
+			],
+			"publisher": "Duckworth",
+			"place": "London",
+			"published": "1984",
+			"note": "Translated and annotated by G. J. Toomer; Mars's eccentricity (6) is in X.7 and its epicycle (39;30) in X.8"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ptolemy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ptolemy&oldid=1376557837",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Almagest",
+			"url": "https://en.wikipedia.org/w/index.php?title=Almagest&oldid=1363177543",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-08"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Equant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Equant&oldid=1368595242",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Deferent and epicycle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deferent_and_epicycle&oldid=1370686704",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hipparchus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hipparchus&oldid=1373939794",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "New evidence for Hipparchus' Star Catalogue revealed by multispectral imaging",
+			"doi": "10.1177/00218286221128289",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Gysembergh",
+					"given": "Victor"
+				},
+				{
+					"family": "Williams",
+					"given": "Peter J."
+				},
+				{
+					"family": "Zingg",
+					"given": "Emanuel"
+				}
+			],
+			"container": "Journal for the History of Astronomy",
+			"volume": "53",
+			"issue": "4",
+			"pages": "383–393",
+			"published": "2022"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Codex Climaci Rescriptus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Codex_Climaci_Rescriptus&oldid=1287197959",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-04-24"
+		},
+		{
+			"kind": "media",
+			"title": "The Ptolemaic system, from Andreas Cellarius's Harmonia Macrocosmica",
+			"url": "https://commons.wikimedia.org/wiki/File:Cellarius_ptolemaic_system_c2.jpg",
+			"accessed": "2026-09-29",
+			"container": "Harmonia Macrocosmica (Amsterdam: Johannes van Loon, 1660), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "cellarius-ptolemaic.jpg",
+			"authors": [
+				{
+					"family": "Cellarius",
+					"given": "Andreas"
+				}
+			],
+			"published": "1660"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/antikythera",
+			"why": "Both put Hipparchus's account of the Moon's uneven speed to work: the mechanism with a pin-and-slot pair of gears, the Almagest with epicycles."
+		}
+	]
+}

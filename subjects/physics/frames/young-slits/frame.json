@@ -1,0 +1,208 @@
+{
+	"id": "young-slits",
+	"topic": "Young's double-slit experiment",
+	"position": {
+		"label": "1801–1803",
+		"sort": 1801
+	},
+	"scene": {
+		"headline": "Light plus light made",
+		"accent": "DARKNESS.",
+		"palette": "gaslight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · ROYAL INSTITUTION · THOMAS YOUNG",
+			"INTERFERENCE 1801 · BAKERIAN LECTURE 1803 · FRESNEL 1818"
+		],
+		"counter": {
+			"value": "37,640",
+			"label": "waves of extreme red light to the inch, by Young's reckoning of 1802"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Bakerian Lecture: Experiments and Calculations Relative to Physical Optics",
+			"doi": "10.1098/rstl.1804.0001",
+			"url": "https://royalsocietypublishing.org/doi/10.1098/rstl.1804.0001",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Young",
+					"given": "Thomas"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "94",
+			"pages": "1–16",
+			"published": "1804",
+			"note": "Read 24 November 1803; the slip of card and the fringes that vanish are Experiment 1"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Bakerian Lecture: On the Theory of Light and Colours",
+			"doi": "10.1098/rstl.1802.0004",
+			"url": "https://royalsocietypublishing.org/doi/10.1098/rstl.1802.0004",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Young",
+					"given": "Thomas"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "92",
+			"pages": "12–48",
+			"published": "1802",
+			"note": "The table of wavelengths, from Newton's measures of his rings, is on p. 39"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Luminiferous Medium, from Bradley to Fresnel",
+			"url": "https://en.wikisource.org/wiki/A_History_of_the_Theories_of_Aether_and_Electricity/Chapter_4",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Whittaker",
+					"given": "Edmund Taylor"
+				}
+			],
+			"container": "A History of the Theories of Aether and Electricity",
+			"publisher": "Longmans, Green and Co.",
+			"place": "London",
+			"published": "1910",
+			"note": "Read on Wikisource; Brougham, the pamphlet, Poisson's spot and Young's letter on transverse waves"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Young's interference experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Young's_interference_experiment&oldid=1365847635",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24",
+			"note": "Quotes the two-slit passage of Young's Course of Lectures (1807), lecture 39"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Young (scientist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Young_(scientist)&oldid=1372001934",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Double-slit experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Double-slit_experiment&oldid=1377484220",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Augustin-Jean Fresnel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Augustin-Jean_Fresnel&oldid=1366729917",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arago spot",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arago_spot&oldid=1365712766",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Corpuscular theory of light",
+			"url": "https://en.wikipedia.org/w/index.php?title=Corpuscular_theory_of_light&oldid=1368343254",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "media",
+			"title": "Portrait of Thomas Young, after the painting by Sir Thomas Lawrence",
+			"url": "https://commons.wikimedia.org/wiki/File:Thomas_Young_by_Thomas_Lawrence.jpg",
+			"accessed": "2026-09-29",
+			"container": "After Sir Thomas Lawrence, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "young-lawrence.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "The Arago spot in the shadow of a 5.8 mm disc lit by a pinhole of sunlight",
+			"url": "https://commons.wikimedia.org/wiki/File:A_photograph_of_the_Arago_spot.png",
+			"accessed": "2026-09-29",
+			"container": "Via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "arago-spot.png",
+			"authors": [
+				{
+					"name": "Aleksandr Berdnikov"
+				}
+			],
+			"published": "2016-11-09"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/every-path",
+			"why": "The same two slits, worked through with Feynman's arrows: Young's bands are the arrows from the two slits adding and cancelling, and electrons sent one at a time build the same bands."
+		},
+		{
+			"to": "feynman/qed-book",
+			"why": "Young explained Newton's coloured rings as light reflected from the two faces of a thin film interfering, the partial reflection that Feynman's QED explains again with arrows."
+		},
+		{
+			"to": "western-civ/maxwell",
+			"why": "Young and Fresnel showed that light is a transverse wave but not what waves; Maxwell's equations of 1865 answered that it is the electromagnetic field."
+		},
+		{
+			"to": "physics/prism",
+			"why": "Young set his wave theory against Newton's corpuscles, and worked out wavelengths from Newton's own measurements of coloured rings."
+		}
+	]
+}

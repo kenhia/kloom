@@ -1,0 +1,9 @@
+{
+	"id": "reversible-computing",
+	"wikidata": "Q185410",
+	"name": "Reversible computing",
+	"aliases": ["reversible computation"],
+	"kind": "idea",
+	"description": "Computing in steps that can be run backwards, so that no information is thrown away and, in principle, no minimum heat need be given off.",
+	"home": "physics/reversible-computing"
+}

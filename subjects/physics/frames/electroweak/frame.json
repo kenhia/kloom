@@ -1,0 +1,250 @@
+{
+	"id": "electroweak",
+	"topic": "Electroweak unification",
+	"position": {
+		"label": "1967",
+		"sort": 1967
+	},
+	"scene": {
+		"headline": "Two forces were one in",
+		"accent": "DISGUISE.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HARVARD · MIT · IMPERIAL COLLEGE · UTRECHT · CERN",
+			"GLASHOW · WEINBERG · SALAM · ’T HOOFT · VELTMAN"
+		],
+		"counter": {
+			"value": "166",
+			"label": "neutral-current candidates in Gargamelle by March 1973"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Conceptual Foundations of the Unified Theory of Weak and Electromagnetic Interactions",
+			"url": "https://www.nobelprize.org/uploads/2018/06/weinberg-lecture.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Weinberg",
+					"given": "Steven"
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"publisher": "Nobel Foundation",
+			"published": "1979-12-08",
+			"note": "The drive to MIT in 1967, and his first doubts about 't Hooft's proof"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Towards a Unified Theory: Threads in a Tapestry",
+			"url": "https://www.nobelprize.org/uploads/2018/06/glashow-lecture.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Glashow",
+					"given": "Sheldon Lee"
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"publisher": "Nobel Foundation",
+			"published": "1979-12-08",
+			"note": "Schwinger's faith, the 1960 model, and missing the boat"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Gargamelle: the tale of a giant discovery",
+			"url": "https://cerncourier.com/a/gargamelle-the-tale-of-a-giant-discovery/",
+			"accessed": "2026-09-29",
+			"container": "CERN Courier",
+			"publisher": "CERN",
+			"published": "2009-08-25",
+			"note": "Hasert's event, the 166 candidates and the seminar of 19 July 1973"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physics 1979: press release",
+			"url": "https://www.nobelprize.org/prizes/physics/1979/press-release/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "The Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1979-10-15"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physics 1999: press release",
+			"url": "https://www.nobelprize.org/prizes/physics/1999/press-release/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "The Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1999-10-12"
+		},
+		{
+			"kind": "web",
+			"title": "When CERN saw the end of the alphabet",
+			"url": "https://cerncourier.com/a/when-cern-saw-the-end-of-the-alphabet/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Denegri",
+					"given": "Daniel"
+				}
+			],
+			"container": "CERN Courier",
+			"publisher": "CERN",
+			"published": "2003-05-01"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Electroweak interaction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electroweak_interaction&oldid=1360331872",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yang–Mills theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yang%E2%80%93Mills_theory&oldid=1371423405",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fermi's interaction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fermi's_interaction&oldid=1374256933",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gargamelle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gargamelle&oldid=1336965830",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Neutral current",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neutral_current&oldid=1367650421",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gerard 't Hooft",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gerard_'t_Hooft&oldid=1373973638",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Martinus J. G. Veltman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Martinus_J._G._Veltman&oldid=1372821611",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1964 PRL symmetry breaking papers",
+			"url": "https://en.wikipedia.org/w/index.php?title=1964_PRL_symmetry_breaking_papers&oldid=1318795660",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-26"
+		},
+		{
+			"kind": "media",
+			"title": "A leptonic neutral-current event in the Gargamelle bubble chamber: an electron set in motion by an unseen muon antineutrino",
+			"url": "https://commons.wikimedia.org/wiki/File:Leptonic_event_in_Gargamelle_bubble_chamber.jpg",
+			"accessed": "2026-09-29",
+			"container": "CERN Photo Archive, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "leptonic-event.jpg",
+			"authors": [
+				{
+					"name": "CERN"
+				}
+			],
+			"published": "1973"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/weak-force",
+			"why": "The universal V − A law of 1957–58, that the weak force acts only on left-handed particles, is the low-energy face of the electroweak theory, which had to reproduce it."
+		},
+		{
+			"to": "feynman/path-integral",
+			"why": "'t Hooft's 1971 proof that the electroweak theory could be renormalised was built on Feynman's path integral, which Weinberg admitted he did not know well enough to follow at first."
+		}
+	]
+}

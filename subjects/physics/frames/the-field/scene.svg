@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M24 158 L228 158"/>
+		<path pathLength="1" d="M58 158 a92 92 0 1 0 184 0 a92 92 0 1 0 -184 0"/>
+		<path pathLength="1" d="M46 158 a104 104 0 1 0 208 0 a104 104 0 1 0 -208 0"/>
+		<path pathLength="1" d="M209 153 L219 163 M209 163 L219 153"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M156.8 159.8 L238.9 181.8 M154.9 162.9 L215.1 223.1 M151.8 164.8 L173.8 246.9 M148.2 164.8 L126.2 246.9 M145.1 162.9 L84.9 223.1 M143.2 159.8 L61.1 181.8 M143.2 156.2 L61.1 134.2 M145.1 153.1 L84.9 92.9 M148.2 151.2 L126.2 69.1 M151.8 151.2 L173.8 69.1 M154.9 153.1 L215.1 92.9 M156.8 156.2 L238.9 134.2"/>
+		<path pathLength="1" d="M146 158 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M238.9 181.8 L253.5 168.6 M215.1 223.1 L248.2 192.2 M173.8 246.9 L231.4 222.8 M126.2 246.9 L188.1 254.8 M84.9 223.1 L115.8 256.2 M61.1 181.8 L55.1 200.6 M61.1 134.2 L55.1 115.4 M84.9 92.9 L115.8 59.8 M126.2 69.1 L188.1 61.2 M173.8 69.1 L231.4 93.2 M215.1 92.9 L248.2 123.8 M238.9 134.2 L253.5 147.4"/>
+		<path pathLength="1" d="M253.5 168.6 L388 204.6 M248.2 192.2 L330 274 M231.4 222.8 L245.1 274 M188.1 254.8 L182.9 274 M115.8 256.2 L98 274 M55.1 200.6 L12 212.1 M55.1 115.4 L12 103.9 M115.8 59.8 L82 26 M188.1 61.2 L178.6 26 M231.4 93.2 L249.4 26 M248.2 123.8 L346 26 M253.5 147.4 L388 111.4"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M199 73.1 L209 55.8"/>
+		<path pathLength="1" d="M209 59.3 L209 55.8 L206 57.6"/>
+		<path pathLength="1" d="M199 242.9 L209 260.2"/>
+		<path pathLength="1" d="M206 258.4 L209 260.2 L209 256.7"/>
+		<path pathLength="1" d="M52 158 L32 158"/>
+		<path pathLength="1" d="M35 156.3 L32 158 L35 159.8"/>
+		<path pathLength="1" d="M34 148 L70 148"/>
+		<path pathLength="1" d="M67 149.8 L70 148 L67 146.2"/>
+	</g>
+	<g>
+		<text x="140" y="174" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S</text>
+		<text x="224" y="174" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">G</text>
+		<text x="52" y="142" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">v</text>
+		<text x="42" y="198" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">r = ct</text>
+		<text x="200" y="18" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A CHARGE STOPPED AT S · THE NEWS SPREADS AT c</text>
+		<text x="200" y="292" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">INSIDE: THE NEW FIELD · OUTSIDE: THE OLD</text>
+	</g>
+</svg>

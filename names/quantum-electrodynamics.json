@@ -4,5 +4,6 @@
 	"name": "Quantum electrodynamics",
 	"aliases": ["QED"],
 	"kind": "idea",
-	"description": "The quantum field theory of light and electrons, made finite by renormalisation in the late 1940s, whose predictions agree with experiment to about a part in a trillion."
+	"description": "The quantum field theory of light and electrons, made finite by renormalisation in the late 1940s, whose predictions agree with experiment to about a part in a trillion.",
+	"home": "physics/qed"
 }

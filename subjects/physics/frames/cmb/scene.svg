@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60 268 L60 24"/>
+		<path pathLength="1" d="M60 262 L63.3 262 L66.6 261.8 L69.9 261.6 L73.1 261.3 L76.4 260.8 L79.7 260.3 L83 259.7 L86.3 259 L89.6 258.2 L92.9 257.3 L96.2 256.4 L99.4 255.3 L102.7 254.1 L106 252.9 L109.3 251.5 L112.6 250.1 L115.9 248.5 L119.2 246.9 L122.4 245.2 L125.7 243.4 L129 241.5 L132.3 239.5 L135.6 237.4 L138.9 235.2 L142.2 232.9 L145.5 230.5 L148.7 228.1 L152 225.5 L155.3 222.8 L158.6 220.1 L161.9 217.3 L165.2 214.3 L168.5 211.3 L171.7 208.2 L175 205 L178.3 201.7 L181.6 198.3 L184.9 194.8 L188.2 191.2 L191.5 187.5 L194.8 183.7 L198 179.9 L201.3 175.9 L204.6 171.9 L207.9 167.7 L211.2 163.5 L214.5 159.1 L217.8 154.7 L221 150.2 L224.3 145.6 L227.6 140.9 L230.9 136.1 L234.2 131.2 L237.5 126.2 L240.8 121.2 L244.1 116 L247.3 110.7 L250.6 105.4 L253.9 99.9 L257.2 94.4"/>
+		<path pathLength="1" d="M54 204 L66 204"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M60 204 L132.5 239.3"/>
+		<path pathLength="1" d="M60 204 L132.5 169.9"/>
+		<path pathLength="1" d="M132.5 239.3 L135.3 237.6 L138 235.8 L140.8 233.9 L143.5 231.9 L146.3 229.9 L149 227.8 L151.8 225.7 L154.5 223.5 L157.3 221.2 L160.1 218.9 L162.8 216.4 L165.6 214 L168.3 211.4 L171.1 208.8 L173.8 206.2 L176.6 203.4 L179.3 200.6 L182.1 197.8 L184.8 194.8 L187.6 191.8 L190.4 188.8 L193.1 185.6 L195.9 182.4 L198.6 179.2 L201.4 175.8 L204.1 172.5 L206.9 169 L209.6 165.5 L212.4 161.9 L215.1 158.2 L217.9 154.5 L220.7 150.7 L223.4 146.9 L226.2 143 L228.9 139 L231.7 135 L234.4 130.8 L237.2 126.7 L239.9 122.4 L242.7 118.1"/>
+		<path pathLength="1" d="M132.5 169.9 L132.5 26"/>
+		<path pathLength="1" d="M242.7 118.1 L242.7 26"/>
+		<path pathLength="1" d="M132.5 26 L242.7 26"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M60 204 L154.5 223.5 L154.5 34"/>
+		<path pathLength="1" d="M156.5 37.5 L154.5 34 L152.5 37.5"/>
+		<path pathLength="1" d="M60 204 L187.6 191.8 L187.6 34"/>
+		<path pathLength="1" d="M189.6 37.5 L187.6 34 L185.6 37.5"/>
+		<path pathLength="1" d="M60 204 L220.7 150.7 L220.7 34"/>
+		<path pathLength="1" d="M222.7 37.5 L220.7 34 L218.7 37.5"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M274 258 L280 258 M274 228 L280 228 M274 198 L280 198 M274 168 L280 168 M274 138 L280 138 M274 108 L280 108 M274 78 L280 78 M274 48 L280 48"/>
+		<path pathLength="1" d="M277 258 L277 48"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M286 258 L314 258 L314 189 L286 189 Z"/>
+		<path pathLength="1" d="M286 189 L314 189 L314 162 L286 162 Z"/>
+		<path pathLength="1" d="M286 162 L314 162 L314 57 L286 57 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M286 162 L314 147 M286 147 L314 132 M286 132 L314 117 M286 117 L314 102 M286 102 L314 87 M286 87 L314 72 M286 72 L314 57"/>
+	</g>
+	<g>
+		<text x="320" y="226.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AIR 2.3 K</text>
+		<text x="320" y="178.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ANTENNA 0.9 K</text>
+		<text x="320" y="112.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EXCESS 3.5 K</text>
+		<text x="272" y="261" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="272" y="111" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5</text>
+		<text x="300" y="274" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">6.7 K AT THE ZENITH</text>
+		<text x="56" y="220" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">APEX AT FOCUS</text>
+		<text x="187.6" y="18" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TO THE SKY</text>
+		<text x="130" y="292" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HORN-REFLECTOR · 20 FT · 4080 MC/S</text>
+	</g>
+</svg>

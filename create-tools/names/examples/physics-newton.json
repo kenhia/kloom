@@ -1,0 +1,30 @@
+{
+	"physics/prism": [
+		["Isaac Newton", "isaac-newton"],
+		["Royal Society", "royal-society"],
+		["experimentum crucis", "experimentum-crucis"],
+		["Newtonian telescope", "newtonian-telescope"],
+		["Robert Hooke", "robert-hooke"],
+		["_Opticks_", "opticks"],
+		["Newton's rings", "newtons-rings"]
+	],
+	"physics/principia": [
+		["Robert Hooke", "robert-hooke"],
+		["Edmond Halley", "edmond-halley"],
+		["Isaac Newton", "isaac-newton"],
+		["_Principia_", "philosophiae-naturalis-principia-mathematica"],
+		["laws of motion", "newtons-laws-of-motion"],
+		["Kepler", "johannes-kepler"],
+		["universal gravitation", "newtons-law-of-universal-gravitation"],
+		["Moon", "moon"]
+	],
+	"physics/coulomb": [
+		["Charles-Augustin de Coulomb", "charles-augustin-de-coulomb"],
+		["Coulomb's law", "coulombs-law"],
+		["Joseph Priestley", "joseph-priestley"],
+		["John Michell", "john-michell"],
+		["Henry Cavendish", "henry-cavendish"],
+		["Nevil Maskelyne", "nevil-maskelyne"],
+		["gravitational constant", "gravitational-constant"]
+	]
+}

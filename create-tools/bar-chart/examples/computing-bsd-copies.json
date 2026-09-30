@@ -4,7 +4,7 @@
 	"heading": "BERKELEY UNIX · COPIES SHIPPED PER RELEASE",
 	"unit": "",
 	"axis": {
-		"max": 1000,
+		"max": 1100,
 		"ticks": [
 			[0, "0"],
 			[250, "250"],
@@ -14,12 +14,43 @@
 		]
 	},
 	"bars": [
-		{ "label": "1BSD", "sublabel": "1977–78", "value": 30, "display": "~30" },
-		{ "label": "2BSD", "sublabel": "1978–79", "value": 75, "display": "~75" },
-		{ "label": "3BSD", "sublabel": "1979", "value": 100, "display": "~100" },
-		{ "label": "4BSD", "sublabel": "1980", "value": 150, "display": "~150" },
-		{ "label": "4.1BSD", "sublabel": "1981", "value": 400, "display": "~400" },
-		{ "label": "4.2BSD", "sublabel": "1983", "value": 1000, "display": "1,000+", "highlight": true }
+		{
+			"label": "1BSD",
+			"sublabel": "1977–78",
+			"value": 30,
+			"display": "~30"
+		},
+		{
+			"label": "2BSD",
+			"sublabel": "1978–79",
+			"value": 75,
+			"display": "~75"
+		},
+		{
+			"label": "3BSD",
+			"sublabel": "1979",
+			"value": 100,
+			"display": "~100"
+		},
+		{
+			"label": "4BSD",
+			"sublabel": "1980",
+			"value": 150,
+			"display": "~150"
+		},
+		{
+			"label": "4.1BSD",
+			"sublabel": "1981",
+			"value": 400,
+			"display": "~400"
+		},
+		{
+			"label": "4.2BSD",
+			"sublabel": "1983",
+			"value": 1000,
+			"display": "1,000+",
+			"highlight": true
+		}
 	],
 	"barWidth": 48,
 	"width": 480

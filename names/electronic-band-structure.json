@@ -1,0 +1,9 @@
+{
+	"id": "electronic-band-structure",
+	"wikidata": "Q806380",
+	"name": "Electronic band structure",
+	"aliases": ["band theory", "energy bands", "band gap"],
+	"kind": "idea",
+	"description": "The ranges of energy electrons may have in a crystal, separated by forbidden gaps, which decide whether a solid conducts.",
+	"home": "physics/solids"
+}

@@ -1,0 +1,30 @@
+{
+	"physics/aristotle-motion": [
+		["Aristotle", "aristotle"],
+		["_Physics_", "physics-aristotle"],
+		["Democritus", "democritus"],
+		["John Philoponus", "john-philoponus"],
+		["Galileo Galilei", "galileo-galilei"],
+		["Carlo Rovelli", "carlo-rovelli"],
+		["Athens", "athens"]
+	],
+	"physics/archimedes": [
+		["Archimedes", "archimedes"],
+		["Archimedes'\nprinciple", "archimedes-principle"],
+		["Vitruvius", "vitruvius"],
+		["Eratosthenes", "eratosthenes"],
+		["_The Method_", "the-method-of-mechanical-theorems"],
+		["Walters Art\nMuseum", "walters-art-museum"],
+		["SLAC", "slac-national-accelerator-laboratory"]
+	],
+	"physics/ptolemy": [
+		["Claudius Ptolemy", "ptolemy"],
+		["Almagest", "almagest"],
+		["Hipparchus", "hipparchus"],
+		["equant", "equant"],
+		["Copernicus", "nicolaus-copernicus"],
+		["Kepler", "johannes-kepler"],
+		["Codex Climaci\nRescriptus", "codex-climaci-rescriptus"],
+		["Alexandria", "alexandria"]
+	]
+}

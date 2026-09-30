@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M118 54 L282 66"/>
+		<path pathLength="1" d="M118 50 L118 70 M282 60 L282 70"/>
+		<path pathLength="1" d="M60 180 L362 180"/>
+		<path pathLength="1" d="M120 268 L120 272 M180 268 L180 272 M240 268 L240 272 M300 268 L300 272 M360 268 L360 272"/>
+		<path pathLength="1" d="M56 248 L66 248"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 42 L118 42 L118 128 L40 128 Z"/>
+		<path pathLength="1" d="M282 42 L360 42 L360 128 L282 128 Z"/>
+		<path pathLength="1" d="M118 80 L282 80"/>
+		<path pathLength="1" d="M118 90 L282 90"/>
+		<path pathLength="1" d="M60 152 L60 268 L362 268"/>
+		<path pathLength="1" d="M62 155.5 L60 152 L58 155.5"/>
+		<path pathLength="1" d="M358.5 270 L362 268 L358.5 266"/>
+		<path pathLength="1" d="M60 248 L63 244.7 L66 241.5 L69 238.5 L72 235.7 L75 233 L78 230.4 L81 227.9 L84 225.6 L87 223.4 L90 221.2 L93 219.2 L96 217.3 L99 215.5 L102 213.8 L105 212.1 L108 210.6 L111 209.1 L114 207.6 L117 206.3 L120 205 L123 203.8 L126 202.6 L129 201.5 L132 200.5 L135 199.5 L138 198.5 L141 197.6 L144 196.8 L147 196 L150 195.2 L153 194.4 L156 193.7 L159 193.1 L162 192.4 L165 191.8 L168 191.2 L171 190.7 L174 190.2 L177 189.7 L180 189.2 L183 188.8 L186 188.3 L189 187.9 L192 187.5 L195 187.2 L198 186.8 L201 186.5 L204 186.2 L207 185.9 L210 185.6 L213 185.3 L216 185.1 L219 184.8 L222 184.6 L225 184.3 L228 184.1 L231 183.9 L234 183.7 L237 183.6 L240 183.4 L243 183.2 L246 183.1 L249 182.9 L252 182.8 L255 182.6 L258 182.5 L261 182.4 L264 182.3 L267 182.2 L270 182.1 L273 182 L276 181.9 L279 181.8 L282 181.7 L285 181.6 L288 181.5 L291 181.4 L294 181.4 L297 181.3 L300 181.2 L303 181.2 L306 181.1 L309 181.1 L312 181 L315 181 L318 180.9 L321 180.9 L324 180.8 L327 180.8 L330 180.8 L333 180.7 L336 180.7 L339 180.7 L342 180.6 L345 180.6 L348 180.6 L351 180.5 L354 180.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M136 108 L164 108"/>
+		<path pathLength="1" d="M160.5 110 L164 108 L160.5 106"/>
+		<path pathLength="1" d="M186 108 L214 108"/>
+		<path pathLength="1" d="M210.5 110 L214 108 L210.5 106"/>
+		<path pathLength="1" d="M236 108 L264 108"/>
+		<path pathLength="1" d="M260.5 110 L264 108 L260.5 106"/>
+		<path pathLength="1" d="M50 42 L40 52 M60 42 L40 62 M70 42 L40 72 M80 42 L40 82 M90 42 L40 92 M100 42 L40 102 M110 42 L40 112 M118 52 L50 128 M118 62 L60 128 M118 72 L70 128 M118 82 L80 128 M118 92 L90 128 M118 102 L100 128 M118 112 L110 128"/>
+		<path pathLength="1" d="M302 42 L282 62 M322 42 L282 82 M342 42 L282 102 M360 62 L302 128 M360 82 L322 128 M360 102 L342 128"/>
+	</g>
+	<g>
+		<text x="79" y="142" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">400 K</text>
+		<text x="321" y="142" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">300 K</text>
+		<text x="200" y="124" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Q</text>
+		<text x="200" y="30" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ΔS = Q/300 − Q/400 &gt; 0</text>
+		<text x="52" y="160" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S</text>
+		<text x="362" y="284" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t</text>
+		<text x="360" y="174" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S MAX</text>
+		<text x="68" y="284" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE ENTROPY OF THE PAIR</text>
+	</g>
+</svg>

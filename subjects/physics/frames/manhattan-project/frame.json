@@ -1,0 +1,196 @@
+{
+	"id": "manhattan-project",
+	"topic": "The Manhattan Project",
+	"position": {
+		"label": "The bomb"
+	},
+	"scene": {
+		"headline": "Physics went to",
+		"accent": "WAR.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"OAK RIDGE · HANFORD · LOS ALAMOS",
+			"GROVES · OPPENHEIMER",
+			"GUN AND IMPLOSION · 1942–1946"
+		],
+		"counter": {
+			"value": "129,000",
+			"label": "people employed at the peak, June 1944"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Manhattan Project",
+			"url": "https://en.wikipedia.org/w/index.php?title=Manhattan_Project&oldid=1376923826",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"note": "The sites, the two designs, the bombings, and the costs to the end of 1945"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Einstein–Szilard letter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Einstein%E2%80%93Szilard_letter&oldid=1375727668",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Franck Report",
+			"url": "https://en.wikipedia.org/w/index.php?title=Franck_Report&oldid=1371548024",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hanford Site",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hanford_Site&oldid=1374202130",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Little Boy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Little_Boy&oldid=1376080714",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fat Man",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fat_Man&oldid=1368489010",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atomic bombings of Hiroshima and Nagasaki",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atomic_bombings_of_Hiroshima_and_Nagasaki&oldid=1375714163",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harvard Mark I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harvard_Mark_I&oldid=1373485002",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Project Y",
+			"url": "https://en.wikipedia.org/w/index.php?title=Project_Y&oldid=1372281784",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "media",
+			"title": "The front face of the B Reactor at Hanford",
+			"url": "https://commons.wikimedia.org/wiki/File:Hanford_B_Reactor.jpg",
+			"accessed": "2026-09-29",
+			"container": "Hanford Site photograph N1D0029049, US Department of Energy, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "b-reactor.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "What the Manhattan Project cost, by site, to the end of 1945",
+			"url": "https://en.wikipedia.org/w/index.php?title=Manhattan_Project&oldid=1376923826",
+			"accessed": "2026-09-29",
+			"container": "Chart drawn for kloom from Wikipedia's Manhattan Project",
+			"licence": "MIT",
+			"file": "costs.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/los-alamos",
+			"why": "Los Alamos was the project's weapons laboratory, under four per cent of its cost; Feynman's arrival there in 1943 is the project seen from inside."
+		},
+		{
+			"to": "feynman/trinity",
+			"why": "Trinity tested the implosion design this frame explains, and Feynman watched it from twenty miles away through a truck windshield."
+		},
+		{
+			"to": "computing/harvard-mark-i",
+			"why": "The implosion design's calculations outran hand computers; in 1944 von Neumann had them run on the Harvard Mark I."
+		},
+		{
+			"to": "physics/fission",
+			"why": "The project turned the chain reaction of fission, first sustained in Chicago Pile-1, into bombs."
+		}
+	]
+}

@@ -1,0 +1,185 @@
+{
+	"id": "nucleus",
+	"topic": "Rutherford's atomic nucleus",
+	"position": {
+		"label": "The nucleus"
+	},
+	"scene": {
+		"headline": "The atom was mostly",
+		"accent": "EMPTY.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MANCHESTER · CAMBRIDGE",
+			"RUTHERFORD · GEIGER · MARSDEN · CHADWICK",
+			"ALPHA PARTICLES · METAL FOIL · 1909–1932"
+		],
+		"counter": {
+			"value": "1 in 8,000",
+			"label": "alpha particles turned back by platinum, 1909"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Rutherford scattering experiments",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rutherford_scattering_experiments&oldid=1373140640",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04",
+			"note": "The 1909 and 1913 experiments, and Rutherford's 1936 telling, quoted from his \"Forty Years of Physics\" (1938)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Scattering of α and β Particles by Matter and the Structure of the Atom",
+			"authors": [
+				{
+					"family": "Rutherford",
+					"given": "Ernest"
+				}
+			],
+			"container": "Philosophical Magazine",
+			"volume": "21",
+			"issue": "125",
+			"pages": "669–688",
+			"published": "1911-05",
+			"doi": "10.1080/14786440508637080",
+			"url": "https://www.chemteam.info/Chem-History/Rutherford-1911/Rutherford-1911.html",
+			"accessed": "2026-09-29",
+			"note": "Read in the ChemTeam transcription; the 1-in-20,000 figure is on p. 669"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Discovery of the neutron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Discovery_of_the_neutron&oldid=1370195745",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Possible Existence of a Neutron",
+			"authors": [
+				{
+					"family": "Chadwick",
+					"given": "James"
+				}
+			],
+			"container": "Nature",
+			"volume": "129",
+			"issue": "3252",
+			"pages": "312",
+			"published": "1932-02-27",
+			"doi": "10.1038/129312a0",
+			"url": "https://www.chemteam.info/Chem-History/Chadwick-neutron-letter.html",
+			"accessed": "2026-09-29",
+			"note": "Read in the ChemTeam transcription"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ernest Rutherford",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ernest_Rutherford&oldid=1375284835",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Proton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Proton&oldid=1374859317",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Chadwick",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Chadwick&oldid=1373074075",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isotope",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isotope&oldid=1377505984",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nuclear force",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nuclear_force&oldid=1367617607",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "media",
+			"title": "Rutherford's Manchester physics laboratory staff, with Geiger and Marsden",
+			"url": "https://commons.wikimedia.org/wiki/File:Manchester_University_Laboratory_Staff_1910.jpg",
+			"accessed": "2026-09-29",
+			"container": "National Library of New Zealand, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "manchester-1910.jpg",
+			"published": "1910"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/partons",
+			"why": "The same method sixty years apart: Rutherford found the nucleus from alpha particles scattered through large angles, and SLAC's electrons, scattered hard off protons, found the partons inside them."
+		},
+		{
+			"to": "physics/electron",
+			"why": "Rutherford's nucleus replaced Thomson's plum-pudding atom, with its electrons spread through a sphere of positive charge."
+		}
+	]
+}

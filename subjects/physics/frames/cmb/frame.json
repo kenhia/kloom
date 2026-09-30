@@ -1,0 +1,381 @@
+{
+	"id": "cmb",
+	"topic": "The cosmic microwave background",
+	"position": {
+		"label": "The big bang"
+	},
+	"scene": {
+		"headline": "The big bang left an",
+		"accent": "AFTERGLOW.",
+		"palette": "deepfield",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CRAWFORD HILL, HOLMDEL · BELL LABS",
+			"PENZIAS · WILSON · 4080 MC/S · 1965",
+			"COBE · WMAP · PLANCK"
+		],
+		"counter": {
+			"value": "2.725 K",
+			"label": "the temperature of the microwave sky"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Measurement of Excess Antenna Temperature at 4080 Mc/s",
+			"doi": "10.1086/148307",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Penzias",
+					"given": "A. A."
+				},
+				{
+					"family": "Wilson",
+					"given": "R. W."
+				}
+			],
+			"container": "The Astrophysical Journal",
+			"volume": "142",
+			"pages": "419–421",
+			"published": "1965-07",
+			"note": "The 6.7 K budget: 2.3 K of atmosphere, 0.9 K of losses, 3.5 K unexplained"
+		},
+		{
+			"kind": "article",
+			"title": "Cosmic Black-Body Radiation",
+			"doi": "10.1086/148306",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Dicke",
+					"given": "R. H."
+				},
+				{
+					"family": "Peebles",
+					"given": "P. J. E."
+				},
+				{
+					"family": "Roll",
+					"given": "P. G."
+				},
+				{
+					"family": "Wilkinson",
+					"given": "D. T."
+				}
+			],
+			"container": "The Astrophysical Journal",
+			"volume": "142",
+			"pages": "414–419",
+			"published": "1965-07"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A preliminary measurement of the cosmic microwave background spectrum by the Cosmic Background Explorer (COBE) satellite",
+			"doi": "10.1086/185717",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Mather",
+					"given": "J. C."
+				},
+				{
+					"family": "Cheng",
+					"given": "E. S."
+				},
+				{
+					"family": "Eplee",
+					"given": "R. E., Jr."
+				},
+				{
+					"family": "Isaacman",
+					"given": "R. B."
+				},
+				{
+					"family": "Meyer",
+					"given": "S. S."
+				},
+				{
+					"family": "Shafer",
+					"given": "R. A."
+				},
+				{
+					"family": "Weiss",
+					"given": "R."
+				}
+			],
+			"etAl": true,
+			"container": "The Astrophysical Journal",
+			"volume": "354",
+			"pages": "L37–L40",
+			"published": "1990-05-10"
+		},
+		{
+			"kind": "article",
+			"title": "The Origin of Chemical Elements",
+			"doi": "10.1103/PhysRev.73.803",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Alpher",
+					"given": "R. A."
+				},
+				{
+					"family": "Bethe",
+					"given": "H."
+				},
+				{
+					"family": "Gamow",
+					"given": "G."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "73",
+			"issue": "7",
+			"pages": "803–804",
+			"published": "1948-04-01"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Cosmic microwave background",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cosmic_microwave_background&oldid=1376626337",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Discovery of cosmic microwave background radiation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Discovery_of_cosmic_microwave_background_radiation&oldid=1371194903",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alpher–Bethe–Gamow paper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alpher%E2%80%93Bethe%E2%80%93Gamow_paper&oldid=1369475304",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Big Bang nucleosynthesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Big_Bang_nucleosynthesis&oldid=1372436961",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Steady-state model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Steady-state_model&oldid=1332587135",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fred Hoyle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fred_Hoyle&oldid=1375629834",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Holmdel Horn Antenna",
+			"url": "https://en.wikipedia.org/w/index.php?title=Holmdel_Horn_Antenna&oldid=1373397335",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cosmic Background Explorer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cosmic_Background_Explorer&oldid=1373398148",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wilkinson Microwave Anisotropy Probe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wilkinson_Microwave_Anisotropy_Probe&oldid=1373646629",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Planck (spacecraft)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Planck_(spacecraft)&oldid=1370787523",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Georges Lemaître",
+			"url": "https://en.wikipedia.org/w/index.php?title=Georges_Lema%C3%AEtre&oldid=1376964602",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ralph Alpher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ralph_Alpher&oldid=1372316187",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Gamow",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Gamow&oldid=1375151176",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "media",
+			"title": "The Holmdel horn antenna on Crawford Hill",
+			"url": "https://commons.wikimedia.org/wiki/File:Holmdel_Horn_Antenna.jpg",
+			"accessed": "2026-09-29",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "holmdel-horn.jpg",
+			"authors": [
+				{
+					"name": "Erik Dunham"
+				}
+			],
+			"published": "2012-07-22"
+		},
+		{
+			"kind": "media",
+			"title": "The microwave sky from the first two years of COBE's Differential Microwave Radiometer",
+			"url": "https://commons.wikimedia.org/wiki/File:COBE_cmb_fluctuations.png",
+			"accessed": "2026-09-29",
+			"container": "NASA Goddard Space Flight Center and the COBE Science Working Group, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "cobe-dmr-map.png",
+			"authors": [
+				{
+					"name": "NASA COBE Science Working Group"
+				}
+			],
+			"published": "1992",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "The finest detail each satellite could see in the microwave background",
+			"url": "https://en.wikipedia.org/w/index.php?title=Planck_(spacecraft)&oldid=1370787523",
+			"accessed": "2026-09-29",
+			"container": "Chart drawn for kloom from Wikipedia's Cosmic Background Explorer, Wilkinson Microwave Anisotropy Probe and Planck (spacecraft)",
+			"licence": "MIT",
+			"file": "resolution.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/expanding-universe",
+			"why": "The microwave background was the evidence for Lemaître's primeval atom that the receding galaxies alone could not give, and he heard of it shortly before he died in 1966."
+		},
+		{
+			"to": "physics/black-body",
+			"why": "COBE found the microwave background's spectrum to be a black body's: Planck's curve, at 2.725 K."
+		}
+	]
+}

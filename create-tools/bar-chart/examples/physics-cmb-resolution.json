@@ -1,0 +1,25 @@
+{
+	"title": "The finest detail each satellite could see in the microwave background",
+	"description": "Bar chart on a logarithmic scale. The width of each satellite's beam, in minutes of arc, at its sharpest frequency: COBE's Differential Microwave Radiometer (launched 1989), 7 degrees, or 420 arcminutes; WMAP (2001), 13.2 arcminutes at 94 GHz; Planck (2009), 5 arcminutes at 217 GHz and above. Smaller is sharper. Data: Wikipedia's Cosmic Background Explorer, Wilkinson Microwave Anisotropy Probe and Planck (spacecraft).",
+	"heading": "BEAM WIDTH · ARCMINUTES · LOG SCALE",
+	"unit": "′",
+	"scale": "log",
+	"axis": {
+		"min": 1,
+		"max": 1000,
+		"ticks": [
+			[1, "1′"],
+			[10, "10′"],
+			[100, "100′"],
+			[1000, "1000′"]
+		]
+	},
+	"bars": [
+		{ "label": "COBE", "sublabel": "1989", "value": 420, "display": "420′ (7°)" },
+		{ "label": "WMAP", "sublabel": "2001", "value": 13.2 },
+		{ "label": "Planck", "sublabel": "2009", "value": 5, "highlight": true }
+	],
+	"width": 400,
+	"height": 280,
+	"barWidth": 64
+}

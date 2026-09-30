@@ -16,11 +16,14 @@ once) validates at every step, and the plan says what is still to come.
 DIR/<subject> that holds only the frames with a `frame.json` that land on a
 spine (a trail frame whose anchor is not written yet is left out, and named),
 so one author
-can validate their frames while others are mid-write:
-`KLOOM_TEST_SUBJECTS=DIR npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
+can validate their frames while others are mid-write. Beside it go the other
+subjects, which connections may name, and the name registry at DIR/.names,
+with any `--drafts` directories of names not yet added merged in (sprint
+021; since sprint 017 a copy without them failed on every mark):
+`KLOOM_TEST_SUBJECTS=DIR KLOOM_TEST_NAMES=DIR/.names npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
 Standard library only.
 """
-import argparse, json, os, shutil, sys
+import argparse, json, os, shutil, subprocess, sys
 
 
 def keep(spine, have):
@@ -46,6 +49,13 @@ def main():
     ap.add_argument('--check', action='store_true')
     ap.add_argument('--complete', metavar='DIR',
                     help='write a copy holding only the finished frames to DIR/<subject>, to validate one author\'s work while others are still writing')
+    ap.add_argument('--drafts', action='append', default=[], metavar='DIR',
+                    help='with --complete: a directory of name drafts to merge into the copy\'s registry (repeatable)')
+    ap.add_argument('--only', nargs='+', metavar='FRAME',
+                    help='with --complete: only these frames and those already committed, so another author\'s '
+                         'half-written frame cannot fail this one\'s check')
+    ap.add_argument('--names', default=None, metavar='DIR',
+                    help='with --complete: the name registry (default: the repository\'s names/)')
     a = ap.parse_args()
     if a.complete:
         src = a.subject
@@ -53,9 +63,30 @@ def main():
         shutil.rmtree(a.subject, ignore_errors=True)
         os.makedirs(os.path.join(a.subject, 'frames'))
         shutil.copy(os.path.join(src, 'subject.json'), a.subject)
+        wanted_frames = None
+        if a.only:  # sprint 021: five authors asked for this, having pruned their copies by hand
+            listed = subprocess.run(['git', 'ls-files', os.path.join(src, 'frames')], capture_output=True,
+                                    text=True, check=True).stdout.split()
+            wanted_frames = {f.split('/')[-2] for f in listed if f.endswith('/frame.json')} | set(a.only)
         for d in os.listdir(os.path.join(src, 'frames')):
+            if wanted_frames is not None and d not in wanted_frames:
+                continue
             if not d.startswith('.') and os.path.isfile(os.path.join(src, 'frames', d, 'frame.json')):
                 shutil.copytree(os.path.join(src, 'frames', d), os.path.join(a.subject, 'frames', d))
+        # The other subjects, whole (copies, never links: Prettier on the copy must not reach them), and the registry.
+        parent = os.path.dirname(os.path.abspath(os.path.normpath(src)))
+        for other in os.listdir(parent):
+            there, here = os.path.join(parent, other), os.path.join(a.complete, other)
+            if other != os.path.basename(os.path.normpath(src)) and os.path.isfile(os.path.join(there, 'subject.json')):
+                shutil.rmtree(here, ignore_errors=True)
+                shutil.copytree(there, here)
+        names = os.path.join(a.complete, '.names')
+        shutil.rmtree(names, ignore_errors=True)
+        shutil.copytree(a.names or os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'names'), names)
+        for d in a.drafts:
+            for f in os.listdir(d):
+                if f.endswith('.json'):
+                    shutil.copy(os.path.join(d, f), names)
     with open(a.plan) as fh:
         plan = json.load(fh)
     frames_dir = os.path.join(a.subject, 'frames')
@@ -99,6 +130,19 @@ def main():
         for f in sorted(have - placed):
             shutil.rmtree(os.path.join(frames_dir, f))
             print(f'subject_plan: left {f} out of the copy: it is on no spine yet (is its trail\'s anchor written?)')
+    if a.complete:
+        # A draft's home may be a frame another author has not written yet; in the copy only,
+        # such a home is dropped rather than failing everyone's check (sprint 021).
+        names = os.path.join(a.complete, '.names')
+        for f in os.listdir(names):
+            path = os.path.join(names, f)
+            with open(path) as fh:
+                name = json.load(fh)
+            subject, _, frame = name.get('home', '').partition('/')
+            if frame and not os.path.isfile(os.path.join(a.complete, subject, 'frames', frame, 'frame.json')):
+                del name['home']
+                with open(path, 'w') as fh:
+                    json.dump(name, fh, ensure_ascii=False, indent='\t')
     print(f'subject_plan: {len(planned) - len(missing)} of {len(planned)} planned frames on the spine and trails')
 
 

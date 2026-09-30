@@ -1,0 +1,221 @@
+{
+	"id": "wave-mechanics",
+	"topic": "Schrödinger's wave equation",
+	"position": {
+		"label": "1926",
+		"sort": 1926
+	},
+	"scene": {
+		"headline": "Whole numbers came from",
+		"accent": "OVERTONES.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": ["ZURICH · AROSA · ERWIN SCHRÖDINGER", "ANNALEN DER PHYSIK · 1926 · FOUR PAPERS"],
+		"counter": {
+			"value": "−13.6 eV",
+			"label": "hydrogen's lowest energy, which the equation gives"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Erwin Schrödinger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Erwin_Schr%C3%B6dinger&oldid=1371992244",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"note": "Arosa, the four papers, and the cat"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Schrödinger equation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Schr%C3%B6dinger_equation&oldid=1377056761",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"note": "Debye's remark, the relativistic first attempt, and Born's reading of Ψ"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Schrödinger's Wave Mechanics: Remarkable Dates and Place One Hundred Years Ago",
+			"url": "https://arxiv.org/abs/2601.05337",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Suslov",
+					"given": "Sergei K."
+				}
+			],
+			"container": "arXiv preprint arXiv:2601.05337",
+			"published": "2026-01-08",
+			"note": "The Villa Frisia, and the letter to Wien of 27 December 1925"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Born rule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Born_rule&oldid=1368836124",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11",
+			"note": "The footnote added in proof"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Schrödinger's cat",
+			"url": "https://en.wikipedia.org/w/index.php?title=Schr%C3%B6dinger's_cat&oldid=1375509542",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arosa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arosa&oldid=1374933982",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hydrogen atom",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hydrogen_atom&oldid=1371585341",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bohr–Einstein debates",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bohr%E2%80%93Einstein_debates&oldid=1373391169",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Max Born",
+			"url": "https://en.wikipedia.org/w/index.php?title=Max_Born&oldid=1376305312",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "article",
+			"title": "Quantisierung als Eigenwertproblem",
+			"doi": "10.1002/andp.19263840404",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Schrödinger",
+					"given": "Erwin"
+				}
+			],
+			"container": "Annalen der Physik",
+			"volume": "384",
+			"issue": "4",
+			"pages": "361–376",
+			"published": "1926"
+		},
+		{
+			"kind": "article",
+			"title": "Über das Verhältnis der Heisenberg-Born-Jordanschen Quantenmechanik zu der meinen",
+			"doi": "10.1002/andp.19263840804",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Schrödinger",
+					"given": "Erwin"
+				}
+			],
+			"container": "Annalen der Physik",
+			"volume": "384",
+			"issue": "8",
+			"pages": "734–756",
+			"published": "1926"
+		},
+		{
+			"kind": "media",
+			"title": "The grave of Erwin and Annemarie Schrödinger at Alpbach, with his equation on the plaque",
+			"url": "https://commons.wikimedia.org/wiki/File:Grave_Schroedinger-crop.jpg",
+			"accessed": "2026-09-29",
+			"container": "Alpbach, Tyrol; photograph by Karl Gruber (2009), cropped by MikeRun, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "schrodinger-grave.jpg",
+			"authors": [
+				{
+					"name": "Karl Gruber"
+				},
+				{
+					"name": "MikeRun"
+				}
+			],
+			"published": "2009-09-23"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/path-integral",
+			"why": "Feynman's sum over histories of 1948, the third formulation of quantum mechanics, was shown by expanding it over one short step of time to obey Schrödinger's equation, and so to predict exactly what wave mechanics does."
+		},
+		{
+			"to": "physics/matrix-mechanics",
+			"why": "In the spring of 1926 Schrödinger showed that his wave mechanics and the matrices of Heisenberg, Born and Jordan give the same answers: two formulations, from rival schools, of one theory."
+		},
+		{
+			"to": "physics/de-broglie",
+			"why": "Schrödinger turned de Broglie's matter waves into an equation."
+		}
+	]
+}

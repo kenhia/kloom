@@ -1,0 +1,28 @@
+{
+	"title": "Favoured interpretation of quantum mechanics among 1,101 researchers, Nature survey, 2025",
+	"description": "Bar chart of the percentage of the 1,101 usable respondents to Nature's 2025 survey of researchers in quantum physics who chose each interpretation as their favoured one. Copenhagen: 36 per cent. Information-based (the wave function represents only information): 17. Many worlds (with consistent histories, grouped in the survey): 15. Pilot wave (de Broglie–Bohm): 7. Spontaneous collapse: 4. Relational: 4. Everything else (other write-ins, none or unknown, shut up and calculate, superdeterminism, retrocausal, QBism): 18. Counted by kloom from Nature's published survey data.",
+	"heading": "FAVOURED INTERPRETATION · % OF 1,101 · NATURE 2025",
+	"unit": "%",
+	"axis": {
+		"max": 40,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"],
+			[40, "40"]
+		]
+	},
+	"width": 640,
+	"height": 300,
+	"barWidth": 50,
+	"bars": [
+		{ "label": "Copenhagen", "value": 36.1, "display": "36", "highlight": true },
+		{ "label": "Information", "value": 16.6, "display": "17" },
+		{ "label": "Many worlds", "value": 15.0, "display": "15" },
+		{ "label": "Pilot wave", "value": 6.6, "display": "7" },
+		{ "label": "Collapse", "value": 3.7, "display": "4" },
+		{ "label": "Relational", "value": 3.5, "display": "4" },
+		{ "label": "All other", "value": 18.4, "display": "18" }
+	]
+}

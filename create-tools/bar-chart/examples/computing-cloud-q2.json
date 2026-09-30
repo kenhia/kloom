@@ -13,11 +13,32 @@
 		]
 	},
 	"bars": [
-		{ "label": "2023", "sublabel": "Q2", "value": 65.0, "display": "~65" },
-		{ "label": "2024", "sublabel": "Q2", "value": 79.1, "display": "79.1" },
-		{ "label": "2025", "sublabel": "Q2", "value": 98.8, "display": "98.8" },
-		{ "label": "2026", "sublabel": "Q2", "value": 143.4, "display": "143.4", "highlight": true }
+		{
+			"label": "2023",
+			"sublabel": "Q2",
+			"value": 65.0,
+			"display": "~65"
+		},
+		{
+			"label": "2024",
+			"sublabel": "Q2",
+			"value": 79.1,
+			"display": "79.1"
+		},
+		{
+			"label": "2025",
+			"sublabel": "Q2",
+			"value": 98.8,
+			"display": "98.8"
+		},
+		{
+			"label": "2026",
+			"sublabel": "Q2",
+			"value": 143.4,
+			"display": "143.4",
+			"highlight": true
+		}
 	],
 	"barWidth": 56,
-	"width": 480
+	"width": 520
 }

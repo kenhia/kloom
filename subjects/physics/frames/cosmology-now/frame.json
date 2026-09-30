@@ -1,0 +1,372 @@
+{
+	"id": "cosmology-now",
+	"topic": "Cosmology today",
+	"asOf": "2026-09-29",
+	"position": {
+		"label": "Where we are"
+	},
+	"scene": {
+		"headline": "Two ways of measuring",
+		"accent": "DISAGREE.",
+		"palette": "starchart",
+		"illustration": "scene.svg",
+		"metadata": ["PLANCK · SH0ES · CCHP · WEBB", "ΛCDM · THE DISTANCE LADDER · H₀"],
+		"counter": {
+			"value": "73 vs 67",
+			"label": "km/s/Mpc: the Hubble constant from the distance ladder and from the early universe"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Planck 2018 results. VI. Cosmological parameters",
+			"doi": "10.1051/0004-6361/201833910",
+			"url": "https://arxiv.org/abs/1807.06209",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Planck Collaboration"
+				}
+			],
+			"container": "Astronomy & Astrophysics",
+			"volume": "641",
+			"pages": "A6",
+			"published": "2020"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Perfect Host: JWST Cepheid Observations in a Background-Free SN Ia Host Confirm No Bias in Hubble-Constant Measurements",
+			"doi": "10.3847/2041-8213/ae0ad6",
+			"url": "https://arxiv.org/abs/2509.01667",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Riess",
+					"given": "Adam G."
+				},
+				{
+					"family": "Li",
+					"given": "Siyang"
+				},
+				{
+					"family": "Anand",
+					"given": "Gagandeep S."
+				}
+			],
+			"etAl": true,
+			"container": "The Astrophysical Journal Letters",
+			"published": "2025"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Status Report on the Chicago-Carnegie Hubble Program (CCHP): Measurement of the Hubble Constant Using the Hubble and James Webb Space Telescopes",
+			"url": "https://arxiv.org/abs/2408.06153",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Freedman",
+					"given": "Wendy L."
+				},
+				{
+					"family": "Madore",
+					"given": "Barry F."
+				},
+				{
+					"family": "Jang",
+					"given": "In Sung"
+				},
+				{
+					"family": "Hoyt",
+					"given": "Taylor J."
+				},
+				{
+					"family": "Lee",
+					"given": "Abigail J."
+				},
+				{
+					"family": "Owens",
+					"given": "Kayla A."
+				}
+			],
+			"container": "arXiv preprint arXiv:2408.06153",
+			"published": "2024",
+			"note": "Read in its third version, of March 2025"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Hubble Tension: A Decade Review",
+			"url": "https://arxiv.org/abs/2606.20434",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Cai",
+					"given": "Rong-Gen"
+				},
+				{
+					"family": "Wang",
+					"given": "Shao-Jiang"
+				}
+			],
+			"container": "Research in Astronomy and Astrophysics",
+			"volume": "26",
+			"pages": "084011",
+			"published": "2026"
+		},
+		{
+			"kind": "article",
+			"title": "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G Main field",
+			"doi": "10.1103/7wt3-9v2y",
+			"url": "https://arxiv.org/abs/2506.20707",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Camphuis",
+					"given": "E."
+				},
+				{
+					"family": "Quan",
+					"given": "W."
+				},
+				{
+					"family": "Balkenhol",
+					"given": "L."
+				}
+			],
+			"etAl": true,
+			"container": "Physical Review D",
+			"published": "2025"
+		},
+		{
+			"kind": "article",
+			"title": "A Cosmic Miracle: A Remarkably Luminous Galaxy at z = 14.44 Confirmed with JWST",
+			"doi": "10.33232/001c.156033",
+			"url": "https://arxiv.org/abs/2505.11263",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Naidu",
+					"given": "Rohan P."
+				},
+				{
+					"family": "Oesch",
+					"given": "Pascal A."
+				},
+				{
+					"family": "Brammer",
+					"given": "Gabriel"
+				},
+				{
+					"family": "Weibel",
+					"given": "Andrea"
+				},
+				{
+					"family": "Li",
+					"given": "Yijia"
+				},
+				{
+					"family": "Matthee",
+					"given": "Jorryt"
+				},
+				{
+					"family": "Chisholm",
+					"given": "John"
+				}
+			],
+			"etAl": true,
+			"container": "The Open Journal of Astrophysics",
+			"volume": "9",
+			"published": "2026-01-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Action! NSF–DOE Vera C. Rubin Observatory Begins Capturing the Universe",
+			"url": "https://rubinobservatory.org/news/action-rubin-lsst-begins",
+			"accessed": "2026-09-29",
+			"container": "Rubin Observatory",
+			"publisher": "NSF–DOE Vera C. Rubin Observatory",
+			"published": "2026-06-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Lambda-CDM model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lambda-CDM_model&oldid=1375994333",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hubble's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hubble's_law&oldid=1376040730",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cosmic distance ladder",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cosmic_distance_ladder&oldid=1375083275",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tip of the red-giant branch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tip_of_the_red-giant_branch&oldid=1271925451",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-01-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Planck (spacecraft)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Planck_(spacecraft)&oldid=1370787523",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "MoM-z14",
+			"url": "https://en.wikipedia.org/w/index.php?title=MoM-z14&oldid=1375656063",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Euclid (space telescope)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Euclid_(space_telescope)&oldid=1375334010",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vera C. Rubin Observatory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vera_C._Rubin_Observatory&oldid=1370849091",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nancy Grace Roman Space Telescope",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nancy_Grace_Roman_Space_Telescope&oldid=1377003623",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "MoM-z14 in the COSMOS field, imaged by Webb’s NIRCam, with the galaxy enlarged",
+			"url": "https://commons.wikimedia.org/wiki/File:COSMOS_Field_MoM-z14_Galaxy_(NIRCam_pullout_image)_(weic2603a).jpg",
+			"accessed": "2026-09-29",
+			"container": "ESA/Webb (weic2603a), via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "mom-z14.jpg",
+			"authors": [
+				{
+					"family": "NASA",
+					"given": "ESA, CSA, STScI, R. Naidu (MIT); image processing J. DePasquale (STScI)"
+				}
+			],
+			"published": "2026"
+		},
+		{
+			"kind": "media",
+			"title": "The Vera C. Rubin Observatory’s dome on Cerro Pachón",
+			"url": "https://commons.wikimedia.org/wiki/File:Rubin_Observatory_Dome_(rubin-AB600F6F-60CA-477C-A865-55EF57C9CC31_1_102_o).jpg",
+			"accessed": "2026-09-29",
+			"container": "Rubin Observatory, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "rubin-dome.jpg",
+			"authors": [
+				{
+					"name": "Rubin Observatory/NOIRLab/NSF/AURA/B. Blum"
+				}
+			],
+			"published": "2022"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: the Hubble constant from the early universe and from the distance ladder, drawn for kloom",
+			"url": "https://arxiv.org/abs/2509.01667",
+			"accessed": "2026-09-29",
+			"container": "Data from the Planck Collaboration (2020), Camphuis et al. (2025), Freedman et al. (2024) and Riess et al. (2025)",
+			"licence": "MIT",
+			"file": "hubble-constant.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/jwst",
+			"why": "Webb, whose launch, unfolding and first deep field that frame tells, is the telescope that checked the ladder's Cepheids for the Hubble tension and found MoM-z14, 280 million years after the Big Bang."
+		},
+		{
+			"to": "physics/cmb",
+			"why": "Planck's six-parameter model of the universe, one side of the Hubble tension, is read from the microwave background."
+		}
+	]
+}

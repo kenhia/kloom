@@ -1,0 +1,201 @@
+{
+	"id": "uncertainty",
+	"topic": "The uncertainty principle",
+	"position": {
+		"label": "1927",
+		"sort": 1927
+	},
+	"scene": {
+		"headline": "We could never know",
+		"accent": "BOTH.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": ["COPENHAGEN · COMO · BRUSSELS", "HEISENBERG · BOHR · KENNARD · SOLVAY 1927"],
+		"counter": {
+			"value": "17 of 29",
+			"label": "at the 1927 Solvay Conference who were or became Nobel laureates"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Uncertainty principle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Uncertainty_principle&oldid=1376381705",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"note": "Kennard's bound, the addendum, and the words Heisenberg used"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Uncertainty Principle",
+			"url": "https://plato.stanford.edu/entries/qt-uncertainty/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Hilgevoord",
+					"given": "Jan"
+				},
+				{
+					"family": "Uffink",
+					"given": "Jos"
+				}
+			],
+			"container": "Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2016-07-12",
+			"note": "Bohr's objection to the microscope, and complementarity at Como"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Triumph of the Copenhagen Interpretation",
+			"url": "https://history.aip.org/exhibits/heisenberg/triumph.html",
+			"accessed": "2026-09-29",
+			"container": "Heisenberg Web Exhibit",
+			"publisher": "American Institute of Physics",
+			"note": "The late-night arguments, and Born and Heisenberg's declaration at Solvay"
+		},
+		{
+			"kind": "web",
+			"title": "The Uncertainty Principle (1925–1927)",
+			"url": "https://history.aip.org/exhibits/heisenberg/uncertainty-principle.html",
+			"accessed": "2026-09-29",
+			"container": "Heisenberg Web Exhibit",
+			"publisher": "American Institute of Physics"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heisenberg's microscope",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heisenberg's_microscope&oldid=1370480146",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Earle Hesse Kennard",
+			"url": "https://en.wikipedia.org/w/index.php?title=Earle_Hesse_Kennard&oldid=1331238911",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Complementarity (physics)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Complementarity_(physics)&oldid=1374088692",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Solvay Conference",
+			"url": "https://en.wikipedia.org/w/index.php?title=Solvay_Conference&oldid=1373224547",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bohr–Einstein debates",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bohr%E2%80%93Einstein_debates&oldid=1373391169",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "article",
+			"title": "Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik",
+			"doi": "10.1007/BF01397280",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Heisenberg",
+					"given": "Werner"
+				}
+			],
+			"container": "Zeitschrift für Physik",
+			"volume": "43",
+			"issue": "3–4",
+			"pages": "172–198",
+			"published": "1927"
+		},
+		{
+			"kind": "article",
+			"title": "Zur Quantenmechanik einfacher Bewegungstypen",
+			"doi": "10.1007/BF01391200",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Kennard",
+					"given": "E. H."
+				}
+			],
+			"container": "Zeitschrift für Physik",
+			"volume": "44",
+			"issue": "4–5",
+			"pages": "326–352",
+			"published": "1927"
+		},
+		{
+			"kind": "media",
+			"title": "The Niels Bohr Institute on Blegdamsvej, Copenhagen",
+			"url": "https://commons.wikimedia.org/wiki/File:Niels_Bohr_Institutet_01.jpg",
+			"accessed": "2026-09-29",
+			"container": "Copenhagen; photograph by Leif Jørgensen, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "bohr-institute.jpg",
+			"authors": [
+				{
+					"name": "Leif Jørgensen"
+				}
+			],
+			"published": "2020-10-12"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/every-path",
+			"why": "Einstein's recoiling screen of 1927 was meant to learn which slit a particle used without losing the bands; that frame works out with arrows why learning it turns the sum of arrows into a sum of chances, and the bands vanish."
+		}
+	]
+}

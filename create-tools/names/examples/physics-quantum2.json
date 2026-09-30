@@ -1,0 +1,39 @@
+{
+	"physics/matrix-mechanics": [
+		["Werner Heisenberg", "werner-heisenberg"],
+		["Max Born", "max-born"],
+		["Heligoland", "heligoland"],
+		["Wolfgang\nPauli", "wolfgang-pauli"],
+		["_Umdeutung_", "umdeutung-paper"],
+		["Pascual Jordan", "pascual-jordan"],
+		["matrix mechanics", "matrix-mechanics"],
+		["Paul Dirac", "paul-dirac"]
+	],
+	"physics/wave-mechanics": [
+		["Erwin Schrödinger", "erwin-schrodinger"],
+		["Arosa", "arosa"],
+		["Hermann Weyl", "hermann-weyl"],
+		["Max Born", "max-born"],
+		["Born rule", "born-rule"],
+		["Schrödinger's cat", "schrodingers-cat"]
+	],
+	"physics/uncertainty": [
+		["Werner Heisenberg", "werner-heisenberg"],
+		["Niels Bohr", "niels-bohr"],
+		["uncertainty\nprinciple", "uncertainty-principle"],
+		["Heisenberg's microscope", "heisenbergs-microscope"],
+		["Earle Kennard", "earle-hesse-kennard"],
+		["complementarity", "complementarity-physics"],
+		["Solvay Conference", "solvay-conference"]
+	],
+	"physics/entanglement": [
+		["EPR", "einstein-podolsky-rosen-paradox"],
+		["entanglement", "quantum-entanglement"],
+		["David Bohm", "david-bohm"],
+		["John Bell", "john-stewart-bell"],
+		["Bell's theorem", "bells-theorem"],
+		["John Clauser", "john-clauser"],
+		["Alain Aspect", "alain-aspect"],
+		["quantum key\ndistribution", "quantum-key-distribution"]
+	]
+}

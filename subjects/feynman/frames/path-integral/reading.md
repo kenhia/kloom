@@ -36,7 +36,7 @@ formulation predicts exactly what the old ones do. The paper then relates
 it to matrices and operators, and ends with what Feynman wanted it for: in
 a sum over paths, one part of a system can be integrated away. The field
 oscillators of electrodynamics could be removed, leaving charges acting on
-one another across time, as in the [absorber theory](kloom:e/wheelerfeynman-absorber-theory).
+one another across time, as in the [absorber theory](kloom:e/wheeler-feynman-absorber-theory).
 
 | Formulation        | First published | What it describes                                        |
 | ------------------ | --------------- | -------------------------------------------------------- |

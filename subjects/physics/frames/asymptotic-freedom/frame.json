@@ -1,0 +1,229 @@
+{
+	"id": "asymptotic-freedom",
+	"topic": "Quantum chromodynamics",
+	"position": {
+		"label": "1973",
+		"sort": 1973
+	},
+	"scene": {
+		"headline": "Up close, the quarks ran",
+		"accent": "FREE.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PRINCETON · HARVARD · DESY, HAMBURG",
+			"GROSS · WILCZEK · POLITZER · QUARKS, GLUONS, COLOUR"
+		],
+		"counter": {
+			"value": "0.1180",
+			"label": "strength of the strong force at the Z mass, 2025 average"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Discovery of Asymptotic Freedom and the Emergence of QCD",
+			"url": "https://www.nobelprize.org/uploads/2018/06/gross-lecture.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Gross",
+					"given": "David J."
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"publisher": "Nobel Foundation",
+			"published": "2004-12-08",
+			"note": "The plan to disprove field theory, the sign error, and Politzer"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Quantum chromodynamics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_chromodynamics&oldid=1377551756",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Asymptotic freedom",
+			"url": "https://en.wikipedia.org/w/index.php?title=Asymptotic_freedom&oldid=1355183424",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Color charge",
+			"url": "https://en.wikipedia.org/w/index.php?title=Color_charge&oldid=1376199869",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gluon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gluon&oldid=1376561119",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Three-jet event",
+			"url": "https://en.wikipedia.org/w/index.php?title=Three-jet_event&oldid=1368630718",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Color confinement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Color_confinement&oldid=1354350105",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lattice QCD",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lattice_QCD&oldid=1374104037",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physics 2004: press release",
+			"url": "https://www.nobelprize.org/prizes/physics/2004/press-release/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "The Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "2004-10-05"
+		},
+		{
+			"kind": "report",
+			"title": "Quantum Chromodynamics",
+			"url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-qcd.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Huston",
+					"given": "J."
+				},
+				{
+					"family": "Rabbertz",
+					"given": "K."
+				},
+				{
+					"family": "Zanderighi",
+					"given": "G."
+				}
+			],
+			"container": "Review of Particle Physics, 2025 update",
+			"publisher": "Particle Data Group",
+			"published": "2025-08"
+		},
+		{
+			"kind": "article",
+			"title": "Ab Initio Determination of Light Hadron Masses",
+			"doi": "10.1126/science.1163233",
+			"url": "https://arxiv.org/abs/0906.3599",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Dürr",
+					"given": "S."
+				},
+				{
+					"family": "Fodor",
+					"given": "Z."
+				},
+				{
+					"family": "Frison",
+					"given": "J."
+				}
+			],
+			"etAl": true,
+			"container": "Science",
+			"volume": "322",
+			"issue": "5905",
+			"pages": "1224–27",
+			"published": "2008-11-21"
+		},
+		{
+			"kind": "media",
+			"title": "A three-jet event recorded by the TASSO detector at PETRA, at a collision energy of 35 GeV",
+			"url": "https://commons.wikimedia.org/wiki/File:1980-09-22_TASSO-Event_Gluon_Entdeckung_sw.jpg",
+			"accessed": "2026-09-29",
+			"container": "DESY, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "tasso-three-jet.jpg",
+			"authors": [
+				{
+					"name": "DESY"
+				}
+			],
+			"published": "1980-09-22"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/partons",
+			"why": "Asymptotic freedom explained why the partons Feynman proposed for SLAC's data behave as if free when struck hard: they are quarks and gluons, whose force weakens at short distances."
+		},
+		{
+			"to": "feynman/path-integrals-today",
+			"why": "The proton's mass, most of it the energy of quarks and gluons, is computed by lattice QCD, which samples the path integral on a grid of points in space and time."
+		}
+	]
+}

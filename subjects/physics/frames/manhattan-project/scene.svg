@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M14 118 L196 118"/>
+		<path pathLength="1" d="M30 88 L30 148 M150 88 L150 148"/>
+		<path pathLength="1" d="M192 150 L392 150 M292 50 L292 250"/>
+		<path pathLength="1" d="M332 150 L388 150"/>
+		<path pathLength="1" d="M330 162.4 L383.3 179.7"/>
+		<path pathLength="1" d="M324.4 173.5 L369.7 206.4"/>
+		<path pathLength="1" d="M315.5 182.4 L348.4 227.7"/>
+		<path pathLength="1" d="M304.4 188 L321.7 241.3"/>
+		<path pathLength="1" d="M292 190 L292 246"/>
+		<path pathLength="1" d="M279.6 188 L262.3 241.3"/>
+		<path pathLength="1" d="M268.5 182.4 L235.6 227.7"/>
+		<path pathLength="1" d="M259.6 173.5 L214.3 206.4"/>
+		<path pathLength="1" d="M254 162.4 L200.7 179.7"/>
+		<path pathLength="1" d="M252 150 L196 150"/>
+		<path pathLength="1" d="M254 137.6 L200.7 120.3"/>
+		<path pathLength="1" d="M259.6 126.5 L214.3 93.6"/>
+		<path pathLength="1" d="M268.5 117.6 L235.6 72.3"/>
+		<path pathLength="1" d="M279.6 112 L262.3 58.7"/>
+		<path pathLength="1" d="M292 110 L292 54"/>
+		<path pathLength="1" d="M304.4 112 L321.7 58.7"/>
+		<path pathLength="1" d="M315.5 117.6 L348.4 72.3"/>
+		<path pathLength="1" d="M324.4 126.5 L369.7 93.6"/>
+		<path pathLength="1" d="M330 137.6 L383.3 120.3"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 106 L150 106"/>
+		<path pathLength="1" d="M30 130 L150 130"/>
+		<path pathLength="1" d="M20 100 L30 100 L30 136 L20 136 Z"/>
+		<path pathLength="1" d="M150 94 L190 94 L190 142 L150 142 Z"/>
+		<path pathLength="1" d="M196 150 a96 96 0 1 0 192 0 a96 96 0 1 0 -192 0"/>
+		<path pathLength="1" d="M226 150 a66 66 0 1 0 132 0 a66 66 0 1 0 -132 0"/>
+		<path pathLength="1" d="M252 150 a40 40 0 1 0 80 0 a40 40 0 1 0 -80 0"/>
+		<path pathLength="1" d="M276 150 a16 16 0 1 0 32 0 a16 16 0 1 0 -32 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M40 109 L40 127 M46 109 L46 127 M52 109 L52 127 M58 109 L58 127 M64 109 L64 127 M70 109 L70 127 M76 109 L76 127"/>
+		<path pathLength="1" d="M38 109 L80 109 L80 127 L38 127 Z"/>
+		<path pathLength="1" d="M22 112 L29 112 L29 124 L22 124 Z"/>
+		<path pathLength="1" d="M160 109 L182 109 L182 127 L160 127 Z"/>
+		<path pathLength="1" d="M91.7 120.5 L96 118 L91.7 115.5"/>
+		<path pathLength="1" d="M84 118 L96 118"/>
+		<path pathLength="1" d="M358.0 150.0 Q371.0 162.5 354.8 170.4"/>
+		<path pathLength="1" d="M354.8 170.4 Q363.3 186.3 345.4 188.8"/>
+		<path pathLength="1" d="M345.4 188.8 Q348.6 206.6 330.8 203.4"/>
+		<path pathLength="1" d="M330.8 203.4 Q328.3 221.3 312.4 212.8"/>
+		<path pathLength="1" d="M312.4 212.8 Q304.5 229.0 292.0 216.0"/>
+		<path pathLength="1" d="M292.0 216.0 Q279.5 229.0 271.6 212.8"/>
+		<path pathLength="1" d="M271.6 212.8 Q255.7 221.3 253.2 203.4"/>
+		<path pathLength="1" d="M253.2 203.4 Q235.4 206.6 238.6 188.8"/>
+		<path pathLength="1" d="M238.6 188.8 Q220.7 186.3 229.2 170.4"/>
+		<path pathLength="1" d="M229.2 170.4 Q213.0 162.5 226.0 150.0"/>
+		<path pathLength="1" d="M226.0 150.0 Q213.0 137.5 229.2 129.6"/>
+		<path pathLength="1" d="M229.2 129.6 Q220.7 113.7 238.6 111.2"/>
+		<path pathLength="1" d="M238.6 111.2 Q235.4 93.4 253.2 96.6"/>
+		<path pathLength="1" d="M253.2 96.6 Q255.7 78.7 271.6 87.2"/>
+		<path pathLength="1" d="M271.6 87.2 Q279.5 71.0 292.0 84.0"/>
+		<path pathLength="1" d="M292.0 84.0 Q304.5 71.0 312.4 87.2"/>
+		<path pathLength="1" d="M312.4 87.2 Q328.3 78.7 330.8 96.6"/>
+		<path pathLength="1" d="M330.8 96.6 Q348.6 93.4 345.4 111.2"/>
+		<path pathLength="1" d="M345.4 111.2 Q363.3 113.7 354.8 129.6"/>
+		<path pathLength="1" d="M354.8 129.6 Q371.0 137.5 358.0 150.0"/>
+		<path pathLength="1" d="M325.3 163.8 L312.3 158.4"/>
+		<path pathLength="1" d="M315.8 158 L312.3 158.4 L314.5 161.2"/>
+		<path pathLength="1" d="M305.8 183.3 L300.4 170.3"/>
+		<path pathLength="1" d="M303.2 172.5 L300.4 170.3 L300 173.8"/>
+		<path pathLength="1" d="M278.2 183.3 L283.6 170.3"/>
+		<path pathLength="1" d="M284 173.8 L283.6 170.3 L280.8 172.5"/>
+		<path pathLength="1" d="M258.7 163.8 L271.7 158.4"/>
+		<path pathLength="1" d="M269.5 161.2 L271.7 158.4 L268.2 158"/>
+		<path pathLength="1" d="M258.7 136.2 L271.7 141.6"/>
+		<path pathLength="1" d="M268.2 142 L271.7 141.6 L269.5 138.8"/>
+		<path pathLength="1" d="M278.2 116.7 L283.6 129.7"/>
+		<path pathLength="1" d="M280.8 127.5 L283.6 129.7 L284 126.2"/>
+		<path pathLength="1" d="M305.8 116.7 L300.4 129.7"/>
+		<path pathLength="1" d="M300 126.2 L300.4 129.7 L303.2 127.5"/>
+		<path pathLength="1" d="M325.3 136.2 L312.3 141.6"/>
+		<path pathLength="1" d="M314.5 138.8 L312.3 141.6 L315.8 142"/>
+	</g>
+	<g>
+		<text x="105" y="78" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GUN · URANIUM-235</text>
+		<text x="55" y="148" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PROJECTILE</text>
+		<text x="170" y="156" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TARGET</text>
+		<text x="292" y="38" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IMPLOSION · PLUTONIUM-239</text>
+		<text x="292" y="154" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CORE</text>
+		<text x="392" y="242" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LENSES</text>
+		<text x="105" y="200" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LITTLE BOY</text>
+		<text x="105" y="214" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HIROSHIMA · 6 AUG 1945</text>
+		<text x="292" y="268" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FAT MAN</text>
+		<text x="292" y="282" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TRINITY 16 JUL · NAGASAKI 9 AUG</text>
+	</g>
+</svg>

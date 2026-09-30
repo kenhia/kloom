@@ -1,0 +1,42 @@
+{
+	"physics/qed": [
+		["Paul Dirac", "paul-dirac"],
+		["quantum electrodynamics", "quantum-electrodynamics"],
+		["vacuum polarisation", "vacuum-polarization"],
+		["Sidney Dancoff", "sidney-dancoff"],
+		["Sin-Itiro Tomonaga", "shin-ichir-tomonaga"],
+		["renormalisation", "renormalization"],
+		["Julian Schwinger", "julian-schwinger"],
+		["fine-structure constant", "fine-structure-constant"]
+	],
+	"physics/solids": [
+		["Felix Bloch", "felix-bloch"],
+		["Rudolf Peierls", "rudolf-peierls"],
+		["Alan Herries Wilson", "alan-herries-wilson"],
+		["semiconductor", "semiconductor"],
+		["electronic band structure", "electronic-band-structure"],
+		["Russell Ohl", "russell-ohl"],
+		["p–n junction", "p-n-junction"],
+		["William Shockley", "william-shockley"]
+	],
+	"physics/superconductivity": [
+		["Heike Kamerlingh Onnes", "heike-kamerlingh-onnes"],
+		["superconductivity", "superconductivity"],
+		["Meissner effect", "meissner-effect"],
+		["Fritz London", "fritz-london"],
+		["John Bardeen", "john-bardeen"],
+		["BCS\ntheory", "bcs-theory"],
+		["Josephson effect", "josephson-effect"],
+		["High-temperature\nsuperconductivity", "high-temperature-superconductivity"]
+	],
+	"physics/quantum-computing": [
+		["quantum computer", "quantum-computing"],
+		["qubit", "qubit"],
+		["quantum gate", "quantum-logic-gate"],
+		["Shor's algorithm", "shors-algorithm"],
+		["Grover's\nalgorithm", "grovers-algorithm"],
+		["decoherence", "quantum-decoherence"],
+		["Quantum error correction", "quantum-error-correction"],
+		["transmon", "transmon"]
+	]
+}

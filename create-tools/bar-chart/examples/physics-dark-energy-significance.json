@@ -1,0 +1,53 @@
+{
+	"title": "How strongly the data prefer evolving dark energy over a cosmological constant",
+	"description": "Bar chart of the preference for dark energy that changes with time over Einstein's cosmological constant, in standard deviations (sigma), against the 5 sigma usually required for a discovery. DESI DR2 BAO with the CMB: 3.1. Adding supernovae: Pantheon+ 2.8, Union3 3.8, DES five-year 4.2. With the DES supernovae recalibrated (DES-Dovekie, 2026): 3.2. The full Dark Energy Survey on its own (2026): 2.2. Data: DESI Collaboration, Phys. Rev. D 112, 083515 (2025); Popovic et al., MNRAS (2026); DES Collaboration, arXiv:2605.27221 (2026).",
+	"heading": "EVOLVING DARK ENERGY · PREFERENCE IN σ · 5σ IS A DISCOVERY",
+	"unit": "σ",
+	"axis": {
+		"max": 5,
+		"ticks": [
+			[0, "0"],
+			[1, "1"],
+			[2, "2"],
+			[3, "3"],
+			[4, "4"],
+			[5, "5"]
+		]
+	},
+	"bars": [
+		{
+			"label": "DESI+CMB",
+			"sublabel": "2025",
+			"value": 3.1
+		},
+		{
+			"label": "+Pantheon+",
+			"sublabel": "2025",
+			"value": 2.8
+		},
+		{
+			"label": "+Union3",
+			"sublabel": "2025",
+			"value": 3.8
+		},
+		{
+			"label": "+DES SN",
+			"sublabel": "2025",
+			"value": 4.2
+		},
+		{
+			"label": "+DES recal.",
+			"sublabel": "2026",
+			"value": 3.2,
+			"highlight": true
+		},
+		{
+			"label": "DES alone",
+			"sublabel": "2026",
+			"value": 2.2
+		}
+	],
+	"width": 560,
+	"height": 300,
+	"barWidth": 50
+}

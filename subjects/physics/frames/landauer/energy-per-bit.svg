@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t d">
+<title id="t">Energy per bit or operation, from Landauer's bound to a memory access (log scale)</title>
+<desc id="d">Bar chart on a logarithmic scale of energy in joules: Landauer's bound kT ln 2 at 300 K, 2.9 × 10⁻²¹ J (computed for kloom); a nanomagnetic bit flipped in 2016, 4.2 × 10⁻²¹ J; switching one CMOS logic gate, from 10⁻¹⁶ J (100 attojoules) at the least; one 16-bit floating-point operation, about 1.5 × 10⁻¹³ J; carrying one bit across a chip, about 6 × 10⁻¹³ J; reading one bit from DRAM, about 5 × 10⁻¹² J. Data: Hong et al. 2016 via Wikipedia; Ho, Erdil and Besiroglu 2023, table I.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="700" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">10⁻²²</text>
+<line x1="64" x2="700" y1="214.3" y2="214.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="218.3" text-anchor="end">10⁻²⁰</text>
+<line x1="64" x2="700" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">10⁻¹⁸</text>
+<line x1="64" x2="700" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">10⁻¹⁶</text>
+<line x1="64" x2="700" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">10⁻¹⁴</text>
+<line x1="64" x2="700" y1="71.7" y2="71.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="75.7" text-anchor="end">10⁻¹²</text>
+<line x1="64" x2="700" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">10⁻¹⁰</text>
+</g>
+<rect x="89.0" y="224.0" width="56" height="26.0" class="accent" fill="currentColor"/>
+<text x="117.0" y="218.0" text-anchor="middle">2.9 × 10⁻²¹</text>
+<text x="117.0" y="266" text-anchor="middle">kT ln 2</text>
+<text x="117.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">300 K</text>
+<rect x="195.0" y="221.1" width="56" height="28.9" fill-opacity="0.85"/>
+<text x="223.0" y="215.1" text-anchor="middle">4.2 × 10⁻²¹</text>
+<text x="223.0" y="266" text-anchor="middle">Nanomagnet</text>
+<text x="223.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2016</text>
+<rect x="301.0" y="143.0" width="56" height="107.0" fill-opacity="0.85"/>
+<text x="329.0" y="137.0" text-anchor="middle">10⁻¹⁶</text>
+<text x="329.0" y="266" text-anchor="middle">CMOS gate</text>
+<text x="329.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">at least</text>
+<rect x="407.0" y="86.4" width="56" height="163.6" fill-opacity="0.85"/>
+<text x="435.0" y="80.4" text-anchor="middle">1.5 × 10⁻¹³</text>
+<text x="435.0" y="266" text-anchor="middle">FP16 op</text>
+<text x="435.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">GPU</text>
+<rect x="513.0" y="75.6" width="56" height="174.4" fill-opacity="0.85"/>
+<text x="541.0" y="69.6" text-anchor="middle">6 × 10⁻¹³</text>
+<text x="541.0" y="266" text-anchor="middle">Bit on chip</text>
+<text x="541.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">moved</text>
+<rect x="619.0" y="59.2" width="56" height="190.8" fill-opacity="0.85"/>
+<text x="647.0" y="53.2" text-anchor="middle">5 × 10⁻¹²</text>
+<text x="647.0" y="266" text-anchor="middle">DRAM bit</text>
+<text x="647.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">read</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">JOULES PER BIT OR OPERATION · LOG SCALE</text>
+</g></svg>

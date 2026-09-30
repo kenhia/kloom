@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 250 L380 250"/>
+		<path pathLength="1" d="M52 75 L360 226 M88 133 L360 172.5"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M205 62 L205 146"/>
+		<path pathLength="1" d="M205 154 L205 238"/>
+		<path pathLength="1" d="M211 62 L211 146"/>
+		<path pathLength="1" d="M211 154 L211 238"/>
+		<path pathLength="1" d="M205 62 L366 62 L366 238 L205 238"/>
+		<path pathLength="1" d="M360 68 L360 232"/>
+		<path pathLength="1" d="M48.5 118 L48.5 84 L55.5 84 L55.5 118 Z"/>
+		<path pathLength="1" d="M52 84 L52 81"/>
+		<path pathLength="1" d="M52.0 83.0 C46.0 79.0 49.0 69.0 52.0 65.0 C55.0 69.0 58.0 79.0 52.0 83.0"/>
+		<path pathLength="1" d="M84.5 176 L84.5 142 L91.5 142 L91.5 176 Z"/>
+		<path pathLength="1" d="M88 142 L88 139"/>
+		<path pathLength="1" d="M88.0 141.0 C82.0 137.0 85.0 127.0 88.0 123.0 C91.0 127.0 94.0 137.0 88.0 141.0"/>
+		<path pathLength="1" d="M36.5 236 L36.5 202 L43.5 202 L43.5 236 Z"/>
+		<path pathLength="1" d="M40 202 L40 199"/>
+		<path pathLength="1" d="M40.0 201.0 C34.0 197.0 37.0 187.0 40.0 183.0 C43.0 187.0 46.0 197.0 40.0 201.0"/>
+		<path pathLength="1" d="M118 156.7 L118 188.7 L122 188.7 L122 156.7 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M52 75 L205 150 L360 226"/>
+		<path pathLength="1" d="M355 226.3 L360 226 L357.2 221.8"/>
+		<path pathLength="1" d="M358 219 L353 214.8 M358 226 L353 226 M358 233 L353 237.2"/>
+		<path pathLength="1" d="M88 133 L205 150 L360 172.5"/>
+		<path pathLength="1" d="M355.4 174.4 L360 172.5 L356.1 169.4"/>
+		<path pathLength="1" d="M358 165.5 L353 161.3 M358 172.5 L353 172.5 M358 179.5 L353 183.7"/>
+		<path pathLength="1" d="M40 193 L118 172.7"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M122 171.6 L205 150 L360 109.6"/>
+		<path pathLength="1" d="M351 109.6 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g>
+		<text x="197" y="140" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">APERTURE</text>
+		<text x="285.5" y="54" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DARK CHAMBER</text>
+		<text x="120" y="200.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SHIELDED</text>
+		<text x="348" y="112.6" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NO SPOT</text>
+		<text x="200" y="290" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIGHT AND COLOUR DO NOT MINGLE IN THE AIR</text>
+	</g>
+</svg>

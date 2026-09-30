@@ -1,0 +1,31 @@
+{
+	"physics/general-relativity": [
+		["Albert Einstein", "albert-einstein"],
+		["Marcel Grossmann", "marcel-grossmann"],
+		["Mercury", "mercury-planet"],
+		["David Hilbert", "david-hilbert"],
+		["Arthur Eddington", "arthur-eddington"],
+		["Pound–Rebka experiment", "pound-rebka-experiment"],
+		["GPS", "global-positioning-system"],
+		["Apollo 11", "apollo-11"]
+	],
+	"physics/black-holes": [
+		["Karl Schwarzschild", "karl-schwarzschild"],
+		["Subrahmanyan Chandrasekhar", "subrahmanyan-chandrasekhar"],
+		["J. Robert Oppenheimer", "j-robert-oppenheimer"],
+		["John Wheeler", "john-archibald-wheeler"],
+		["Cygnus X-1", "cygnus-x-1"],
+		["Hawking radiation", "hawking-radiation"],
+		["Sagittarius A*", "sagittarius-a"],
+		["Event Horizon Telescope", "event-horizon-telescope"]
+	],
+	"physics/gravitational-waves": [
+		["Richard Feynman", "richard-feynman"],
+		["Hulse–Taylor pulsar", "hulse-taylor-pulsar"],
+		["LIGO", "ligo"],
+		["GW150914", "first-observation-of-gravitational-waves"],
+		["Kip Thorne", "kip-thorne"],
+		["GW170817", "gw170817"],
+		["kilonova", "kilonova"]
+	]
+}

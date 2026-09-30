@@ -1,0 +1,155 @@
+{
+	"id": "fission",
+	"topic": "Nuclear fission",
+	"position": {
+		"label": "Fission"
+	},
+	"scene": {
+		"headline": "The nucleus broke in",
+		"accent": "TWO.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ROME · BERLIN · KUNGÄLV · CHICAGO",
+			"FERMI · HAHN · STRASSMANN · MEITNER · FRISCH",
+			"BARIUM FROM URANIUM · DECEMBER 1938"
+		],
+		"counter": {
+			"value": "200 MeV",
+			"label": "from one uranium nucleus splitting, by Meitner and Frisch"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Discovery of nuclear fission",
+			"url": "https://en.wikipedia.org/w/index.php?title=Discovery_of_nuclear_fission&oldid=1376018393",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"note": "Fermi's Rome experiments, the Berlin chemistry, Frisch's telling of Kungälv, and the Nobel Prize"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Chicago Pile-1",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chicago_Pile-1&oldid=1377483554",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"note": "Gives 360 short tons of graphite in its introduction and 400 in its account of the pile"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lise Meitner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lise_Meitner&oldid=1375382584",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Otto Hahn",
+			"url": "https://en.wikipedia.org/w/index.php?title=Otto_Hahn&oldid=1375617687",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fritz Strassmann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fritz_Strassmann&oldid=1371996493",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leo Szilard",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leo_Szilard&oldid=1375554006",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18",
+			"note": "The Southampton Row story as Richard Rhodes retells it in The Making of the Atomic Bomb (1986)"
+		},
+		{
+			"kind": "media",
+			"title": "Otto Hahn and Lise Meitner in their Berlin laboratory",
+			"url": "https://commons.wikimedia.org/wiki/File:Hahn_Meitner_1912.jpg",
+			"accessed": "2026-09-29",
+			"container": "Reproduced in Chemie in unserer Zeit 27 (1993), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "hahn-meitner.jpg",
+			"published": "1912",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "Chicago Pile-1 under construction, one layer of graphite blocks",
+			"url": "https://commons.wikimedia.org/wiki/File:HD.3A.029_(10542726346).jpg",
+			"accessed": "2026-09-29",
+			"container": "US Department of Energy, photograph HD.3A.029, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "cp1-assembly.jpg",
+			"published": "1942-11-21"
+		},
+		{
+			"kind": "media",
+			"title": "Fermi's countdown to criticality as Chicago Pile-1 was built",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chicago_Pile-1&oldid=1377483554",
+			"accessed": "2026-09-29",
+			"container": "Chart drawn for kloom from Wikipedia's Chicago Pile-1",
+			"licence": "MIT",
+			"file": "countdown.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/oak-ridge",
+			"why": "Fermi found in 1934 that neutrons slowed by hydrogen are far more readily captured; at Oak Ridge the same slowing in water made enriched uranium in solution a danger."
+		}
+	]
+}

@@ -35,4 +35,4 @@ Wheeler planned a grand series of five papers and wrote them in his own historic
 
 One day Wheeler telephoned him at the Graduate College: all electrons have the same charge and mass, he said, because they are all the same electron, a single world line knotted back and forth through time. Feynman did not believe the one electron. He kept the backwards part.
 
-What the classical theory lacked was a quantum version, and the usual recipe needed something the [absorber theory](kloom:e/wheelerfeynman-absorber-theory) did not have. That problem became his thesis.
+What the classical theory lacked was a quantum version, and the usual recipe needed something the [absorber theory](kloom:e/wheeler-feynman-absorber-theory) did not have. That problem became his thesis.

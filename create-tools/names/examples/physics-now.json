@@ -1,0 +1,32 @@
+{
+	"physics/dark-energy": [
+		["dark energy", "dark-energy"],
+		["Albert Einstein", "albert-einstein"],
+		["cosmological constant", "cosmological-constant"],
+		["type Ia supernovae", "type-ia-supernova"],
+		["Saul Perlmutter", "saul-perlmutter"],
+		["Adam Riess", "adam-riess"],
+		["Steven Weinberg", "steven-weinberg"],
+		["Dark Energy Spectroscopic Instrument", "dark-energy-spectroscopic-instrument"]
+	],
+	"physics/cosmology-now": [
+		["Lambda-CDM model", "lambda-cdm-model"],
+		["Planck", "planck-spacecraft"],
+		["Adam Riess", "adam-riess"],
+		["James Webb Space Telescope", "james-webb-space-telescope"],
+		["Wendy Freedman", "wendy-freedman"],
+		["MoM-z14", "mom-z14"],
+		["Euclid", "euclid-space-telescope"],
+		["Vera C. Rubin\nObservatory", "vera-c-rubin-observatory"]
+	],
+	"physics/where-physics-is": [
+		["string theory", "string-theory"],
+		["Loop quantum gravity", "loop-quantum-gravity"],
+		["Large Hadron Collider", "large-hadron-collider"],
+		["hierarchy\nproblem", "hierarchy-problem"],
+		["Muon g − 2", "muon-g-2"],
+		["measurement\nproblem", "measurement-problem"],
+		["John Hopfield", "john-hopfield"],
+		["Geoffrey Hinton", "geoffrey-hinton"]
+	]
+}

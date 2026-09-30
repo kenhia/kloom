@@ -1,0 +1,200 @@
+{
+	"id": "copernicus",
+	"topic": "Copernicus's De revolutionibus",
+	"position": {
+		"label": "1543",
+		"sort": 1543
+	},
+	"scene": {
+		"headline": "We set the Earth",
+		"accent": "MOVING.",
+		"palette": "papyrus",
+		"illustration": "scene.svg",
+		"metadata": [
+			"FROMBORK · NUREMBERG · NICOLAUS COPERNICUS",
+			"DE REVOLUTIONIBUS ORBIUM COELESTIUM"
+		],
+		"counter": {
+			"value": "276",
+			"label": "first-edition copies found in Owen Gingerich's census"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Nicolaus Copernicus",
+			"url": "https://plato.stanford.edu/entries/copernicus/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Rabin",
+					"given": "Sheila"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2023-09-29",
+			"note": "The Commentariolus, Rheticus, Petreius and Osiander's preface, quoting Rosen's translations"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "De revolutionibus orbium coelestium",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_revolutionibus_orbium_coelestium&oldid=1376083211",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Copernican heliocentrism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Copernican_heliocentrism&oldid=1374050607",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nicolaus Copernicus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicolaus_Copernicus&oldid=1375851478",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Commentariolus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Commentariolus&oldid=1301887404",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aristarchus of Samos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aristarchus_of_Samos&oldid=1376232681",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Georg Joachim Rheticus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Georg_Joachim_Rheticus&oldid=1372580129",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Andreas Osiander",
+			"url": "https://en.wikipedia.org/w/index.php?title=Andreas_Osiander&oldid=1370015077",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johannes Petreius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johannes_Petreius&oldid=1294151555",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-05"
+		},
+		{
+			"kind": "web",
+			"title": "Nicolaus Copernicus",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Copernicus/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews"
+		},
+		{
+			"kind": "media",
+			"title": "The order of the spheres about the Sun, in Copernicus's manuscript of De revolutionibus, folio 9 verso",
+			"url": "https://commons.wikimedia.org/wiki/File:De_Revolutionibus_manuscript_p9b.jpg",
+			"accessed": "2026-09-29",
+			"container": "Jagiellonian Library, Kraków; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "manuscript-heliocentric.jpg",
+			"authors": [
+				{
+					"family": "Copernicus",
+					"given": "Nicolaus"
+				}
+			],
+			"published": "1520",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/ptolemy",
+			"why": "Copernicus's dislike of Ptolemy's equant, the device the Almagest used to fit the planets, was his first reason for putting the Sun at the centre."
+		},
+		{
+			"to": "western-civ/printing-press",
+			"why": "De revolutionibus reached its readers as a printed book: Rheticus showed Copernicus what German presses could print, Petreius ran off some four hundred copies in Nuremberg, and 276 survive."
+		}
+	]
+}

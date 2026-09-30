@@ -1,0 +1,163 @@
+{
+	"id": "oersted",
+	"topic": "Ørsted's compass needle",
+	"position": {
+		"label": "1820",
+		"sort": 1820
+	},
+	"scene": {
+		"headline": "The needle turned",
+		"accent": "SIDEWAYS.",
+		"palette": "foolscap",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COPENHAGEN · HANS CHRISTIAN ØRSTED",
+			"EXPERIMENTA CIRCA EFFECTUM CONFLICTUS ELECTRICI · 21 JULY 1820"
+		],
+		"counter": {
+			"value": "20",
+			"label": "copper troughs in the battery of Ørsted's July experiments"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "H. C. Ørsted and the Discovery of Electromagnetism",
+			"authors": [
+				{
+					"family": "Jelved",
+					"given": "Karen"
+				},
+				{
+					"family": "Jackson",
+					"given": "Andrew D."
+				}
+			],
+			"container": "Niels Bohr Institute, University of Copenhagen",
+			"place": "Copenhagen",
+			"published": "2019",
+			"url": "https://nbi.ku.dk/moed-os/gymnasielaerere_og_folkeskolelaerere/temadag2019/HC-Oersted-og-opdagelsen-af-elektromagnetismen.pdf",
+			"accessed": "2026-09-29",
+			"note": "Ørsted's own account from the Edinburgh Encyclopaedia, the Latin paper's apparatus, and Ampère's letter of 21 February 1821"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Galvanism, from Galvani to Ohm",
+			"authors": [
+				{
+					"family": "Whittaker",
+					"given": "Edmund Taylor"
+				}
+			],
+			"container": "A History of the Theories of Aether and Electricity",
+			"place": "London",
+			"publisher": "Longmans, Green and Co.",
+			"published": "1910",
+			"url": "https://en.wikisource.org/wiki/A_History_of_the_Theories_of_Aether_and_Electricity/Chapter_3",
+			"accessed": "2026-09-29",
+			"note": "The lecture, the \"electric conflict\" in the Latin paper, and its reception in Paris"
+		},
+		{
+			"kind": "article",
+			"title": "Electromagnetism in the Encyclopaedias",
+			"authors": [
+				{
+					"family": "Falconer",
+					"given": "Isobel"
+				}
+			],
+			"container": "Newsletter of the Institute of Physics History of Physics Group",
+			"issue": "39",
+			"pages": "20–36",
+			"published": "2022-10",
+			"url": "https://arxiv.org/abs/2306.06424",
+			"accessed": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Hans Christian Ørsted",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hans_Christian_%C3%98rsted&oldid=1372002843",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"note": "Calls the story of a chance discovery in a lecture a myth"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johann Wilhelm Ritter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johann_Wilhelm_Ritter&oldid=1372021495",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gian Domenico Romagnosi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gian_Domenico_Romagnosi&oldid=1344405425",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-20"
+		},
+		{
+			"kind": "web",
+			"title": "Ampère, André-Marie",
+			"authors": [
+				{
+					"family": "Williams",
+					"given": "L. Pearce"
+				}
+			],
+			"container": "Complete Dictionary of Scientific Biography",
+			"publisher": "Encyclopedia.com",
+			"url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/ampere-andr",
+			"accessed": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "Portrait of Hans Christian Ørsted, by C. W. Eckersberg",
+			"url": "https://commons.wikimedia.org/wiki/File:%C3%98rsted.jpg",
+			"accessed": "2026-09-29",
+			"container": "Via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "orsted-eckersberg.jpg",
+			"authors": [
+				{
+					"family": "Eckersberg",
+					"given": "Christoffer Wilhelm"
+				}
+			],
+			"published": "1822"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/faraday-induction",
+			"why": "Faraday's search for induction began from this experiment run backwards: if a current makes magnetism, could magnetism make a current?"
+		},
+		{
+			"to": "physics/coulomb",
+			"why": "Ørsted's needle overturned the view, taken from Coulomb's work, that electricity and magnetism could not act on each other."
+		}
+	]
+}
