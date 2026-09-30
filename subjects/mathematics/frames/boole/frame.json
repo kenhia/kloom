@@ -1,0 +1,238 @@
+{
+	"id": "boole",
+	"topic": "Boole's algebra of logic",
+	"position": {
+		"label": "Logic as algebra"
+	},
+	"scene": {
+		"headline": "We put logic in the",
+		"accent": "WIRES.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LINCOLN · CORK · GEORGE BOOLE",
+			"THE INDEX LAW · THE LOGIC PIANO · SWITCHES IN SERIES AND PARALLEL"
+		],
+		"counter": {
+			"value": "16",
+			"label": "combinations of four terms on Jevons's logic piano, 1869"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Mathematical Analysis of Logic: Being an Essay Towards a Calculus of Deductive Reasoning",
+			"authors": [
+				{
+					"family": "Boole",
+					"given": "George"
+				}
+			],
+			"publisher": "Macmillan, Barclay, & Macmillan",
+			"place": "Cambridge",
+			"published": "1847",
+			"url": "https://www.gutenberg.org/ebooks/36884",
+			"accessed": "2026-09-30",
+			"note": "The Hamilton–De Morgan question in the preface; the three laws and the horned sheep on pp. 16–17. Read in Project Gutenberg's edition"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Algebra of Logic Tradition",
+			"authors": [
+				{
+					"family": "Burris",
+					"given": "Stanley"
+				},
+				{
+					"family": "Legris",
+					"given": "Javier"
+				}
+			],
+			"container": "Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2021-02-12",
+			"url": "https://plato.stanford.edu/entries/algebra-logic-tradition/",
+			"accessed": "2026-09-30",
+			"note": "Boole's + for disjoint classes, and Jevons's inclusive \"or\" (1863–64)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Symbolic Analysis of Relay and Switching Circuits",
+			"authors": [
+				{
+					"family": "Shannon",
+					"given": "Claude E."
+				}
+			],
+			"container": "Transactions of the American Institute of Electrical Engineers",
+			"volume": "57",
+			"issue": "12",
+			"pages": "713–723",
+			"published": "1938-12",
+			"doi": "10.1109/T-AIEE.1938.5057767",
+			"url": "https://www.cs.virginia.edu/~evans/greatworks/shannon38.pdf",
+			"accessed": "2026-09-30",
+			"note": "The hindrance, with series as X + Y and parallel as X · Y. Read in the reprint in Shannon's Collected Papers, p. 472"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "George Boole",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Boole&oldid=1374150021",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Augustus De Morgan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Augustus_De_Morgan&oldid=1377005691",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Stanley Jevons",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Stanley_Jevons&oldid=1376756953",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "article",
+			"title": "Jevons and the Logic 'Piano'",
+			"authors": [
+				{
+					"family": "Barrett",
+					"given": "Lindsay"
+				},
+				{
+					"family": "Connell",
+					"given": "Matthew"
+				}
+			],
+			"container": "The Rutherford Journal",
+			"volume": "1",
+			"published": "2006",
+			"url": "http://www.rutherfordjournal.org/article010103.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Logical machine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Logical_machine&oldid=1324363613",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Venn diagram",
+			"url": "https://en.wikipedia.org/w/index.php?title=Venn_diagram&oldid=1377536243",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Switching circuit theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Switching_circuit_theory&oldid=1359255852",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Laws of Thought",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Laws_of_Thought&oldid=1363083743",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plankalkül",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plankalk%C3%BCl&oldid=1371795752",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "media",
+			"title": "Jevons's logic piano, on loan from Oxford to the Powerhouse Museum, Sydney",
+			"url": "https://commons.wikimedia.org/wiki/File:William_Stanley_Jevons_Logic_Piano.jpg",
+			"accessed": "2026-09-30",
+			"container": "History of Science Museum, Oxford, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "logic-piano.jpg",
+			"authors": [
+				{
+					"name": "Nelson Minar"
+				}
+			],
+			"published": "2006-03-05"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/laws-of-thought",
+			"why": "Both tell Boole's x² = x: the AI frame follows his hope that the algebra was the mind's own law and Shannon's relays; this one the laws themselves, and the road to wires through Jevons's piano and Peirce's letter."
+		},
+		{
+			"to": "computing/z3",
+			"why": "Zuse worked out the switching logic of his relay computers for himself, knowing nothing of Shannon's use of Boole's algebra for the same circuits."
+		}
+	]
+}

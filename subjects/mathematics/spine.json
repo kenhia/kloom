@@ -59,7 +59,14 @@
 			"id": "logic",
 			"title": "Logic and foundations",
 			"labelKind": "category",
-			"frames": ["hilbert-problems", "godel", "entscheidungsproblem"]
+			"frames": [
+				"boole",
+				"cantor",
+				"frege-russell",
+				"hilbert-problems",
+				"godel",
+				"entscheidungsproblem"
+			]
 		},
 		{
 			"id": "now",

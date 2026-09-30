@@ -1,0 +1,210 @@
+{
+	"id": "frege-russell",
+	"topic": "Russell's paradox",
+	"position": {
+		"label": "The paradox"
+	},
+	"scene": {
+		"headline": "A letter made the foundations",
+		"accent": "SHAKE.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": [
+			"JENA · CAMBRIDGE · GOTTLOB FREGE · BERTRAND RUSSELL",
+			"BEGRIFFSSCHRIFT, 1879 · THE LETTER, 16 JUNE 1902 · PRINCIPIA, 1910–13"
+		],
+		"counter": {
+			"value": "379",
+			"label": "the page of Principia's first volume that promises 1 + 1 = 2"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Grundgesetze der Arithmetik: begriffsschriftlich abgeleitet",
+			"authors": [
+				{
+					"family": "Frege",
+					"given": "Gottlob"
+				}
+			],
+			"publisher": "Hermann Pohle",
+			"place": "Jena",
+			"published": "1893",
+			"url": "https://archive.org/details/bub_gb_LZ5tAAAAMAAJ",
+			"accessed": "2026-09-30",
+			"note": "Volumes 1 (1893) and 2 (1903) bound together; the Nachwort on Russell's letter is vol. 2, pp. 253–265, quoted here in our translation"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Russell's Paradox",
+			"authors": [
+				{
+					"family": "Deutsch",
+					"given": "Harry"
+				},
+				{
+					"family": "Marshall",
+					"given": "Oliver"
+				},
+				{
+					"family": "Irvine",
+					"given": "Andrew David"
+				}
+			],
+			"container": "Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2026-03-13",
+			"url": "https://plato.stanford.edu/entries/russell-paradox/",
+			"accessed": "2026-09-30",
+			"note": "The letter of 16 June 1902, Russell's three dates for his discovery, and Zermelo's"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Russell's paradox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Russell's_paradox&oldid=1375731830",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19",
+			"note": "Hilbert's letter to Frege on Zermelo, and the two repairs of 1908"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Principia Mathematica",
+			"authors": [
+				{
+					"family": "Whitehead",
+					"given": "Alfred North"
+				},
+				{
+					"family": "Russell",
+					"given": "Bertrand"
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1910",
+			"url": "https://archive.org/details/dli.ernet.247278",
+			"accessed": "2026-09-30",
+			"note": "✳54.43 and its note on 1 + 1 = 2, and ✳110.643 in vol. 2. Read in the second edition (vol. 1, 1925, p. 362; vol. 2, 1927, p. 83); the first edition's pages are from Wikipedia"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Principia Mathematica",
+			"url": "https://en.wikipedia.org/w/index.php?title=Principia_Mathematica&oldid=1371639576",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27",
+			"note": "✳54.43 on p. 379 of the first edition's first volume"
+		},
+		{
+			"kind": "book",
+			"title": "Begriffsschrift, eine der arithmetischen nachgebildete Formelsprache des reinen Denkens",
+			"authors": [
+				{
+					"family": "Frege",
+					"given": "Gottlob"
+				}
+			],
+			"publisher": "Louis Nebert",
+			"place": "Halle",
+			"published": "1879",
+			"url": "https://archive.org/details/11388662",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gottlob Frege",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gottlob_Frege&oldid=1376022906",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Begriffsschrift",
+			"url": "https://en.wikipedia.org/w/index.php?title=Begriffsschrift&oldid=1368394461",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Barber paradox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Barber_paradox&oldid=1366901156",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zermelo set theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zermelo_set_theory&oldid=1348384304",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-12"
+		},
+		{
+			"kind": "media",
+			"title": "Formulas 87 and 88 of Frege's Begriffsschrift, p. 67",
+			"url": "https://archive.org/details/11388662/page/n80/mode/1up",
+			"accessed": "2026-09-30",
+			"container": "Internet Archive",
+			"licence": "Public domain",
+			"file": "begriffsschrift-88.png",
+			"authors": [
+				{
+					"family": "Frege",
+					"given": "Gottlob"
+				}
+			],
+			"published": "1879"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/logic-theorist",
+			"why": "Whitehead and Russell built Principia Mathematica on logic to escape the paradox; in 1956 the Logic Theorist proved 38 of the first 52 theorems of its second chapter."
+		}
+	]
+}

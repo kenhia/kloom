@@ -1,0 +1,199 @@
+{
+	"id": "cantor",
+	"topic": "Cantor's infinities",
+	"position": {
+		"label": "Sets"
+	},
+	"scene": {
+		"headline": "Infinity came in",
+		"accent": "SIZES.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": ["HALLE · GEORG CANTOR", "ONE-TO-ONE · THE DIAGONAL, 1891 · ℵ₀"],
+		"counter": {
+			"value": "ℵ₀ + 1 = ℵ₀",
+			"label": "an infinite set loses nothing by adding one (1895)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Georg Cantor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Georg_Cantor&oldid=1375003626",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15",
+			"note": "Kronecker's words and the depressions, from Dauben's biography; Hilbert's paradise"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Cantor's first set theory article",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cantor's_first_set_theory_article&oldid=1373773796",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"note": "The letters of November and December 1873, Dedekind's part, and whether Kronecker delayed the paper"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ueber eine elementare Frage der Mannigfaltigkeitslehre",
+			"authors": [
+				{
+					"family": "Cantor",
+					"given": "Georg"
+				}
+			],
+			"container": "Jahresbericht der Deutschen Mathematiker-Vereinigung",
+			"volume": "1",
+			"pages": "75–78",
+			"published": "1891",
+			"url": "http://www.logicmuseum.com/cantor/diagarg.htm",
+			"accessed": "2026-09-30",
+			"note": "The diagonal argument, in m and w. Read in the German with E. D. Buckner's English translation at the Logic Museum"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Beiträge zur Begründung der transfiniten Mengenlehre",
+			"authors": [
+				{
+					"family": "Cantor",
+					"given": "Georg"
+				}
+			],
+			"container": "Mathematische Annalen",
+			"volume": "46",
+			"issue": "4",
+			"pages": "481–512",
+			"published": "1895-11",
+			"doi": "10.1007/BF02124929",
+			"url": "https://gdz.sub.uni-goettingen.de/id/PPN235181684_0046",
+			"accessed": "2026-09-30",
+			"note": "The definition of a set on p. 481; ℵ₀ and ℵ₀ + 1 = ℵ₀ on p. 492"
+		},
+		{
+			"kind": "article",
+			"title": "Über das Unendliche",
+			"authors": [
+				{
+					"family": "Hilbert",
+					"given": "David"
+				}
+			],
+			"container": "Mathematische Annalen",
+			"volume": "95",
+			"pages": "161–190",
+			"published": "1926",
+			"doi": "10.1007/BF01206605",
+			"url": "https://gdz.sub.uni-goettingen.de/id/PPN235181684_0095",
+			"accessed": "2026-09-30",
+			"note": "The paradise is on p. 170; a lecture given at Münster on 4 June 1925"
+		},
+		{
+			"kind": "web",
+			"title": "The Man Who Stole Infinity",
+			"authors": [
+				{
+					"family": "Howlett",
+					"given": "Joseph"
+				}
+			],
+			"container": "Quanta Magazine",
+			"published": "2026-02-25",
+			"url": "https://www.quantamagazine.org/the-man-who-stole-infinity-20260225/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cantor's diagonal argument",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cantor's_diagonal_argument&oldid=1375662524",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aleph number",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aleph_number&oldid=1375609944",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leopold Kronecker",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leopold_Kronecker&oldid=1371962262",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Galileo's paradox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Galileo's_paradox&oldid=1287341755",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-04-25"
+		},
+		{
+			"kind": "media",
+			"title": "Cantor's definition of a set, from the opening of his Beiträge of 1895",
+			"url": "https://commons.wikimedia.org/wiki/File:Textstelle_mit_der_Mengendefinition_von_Georg_Cantor.png",
+			"accessed": "2026-09-30",
+			"container": "Mathematische Annalen 46 (1895), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "cantor-set-definition.png",
+			"authors": [
+				{
+					"name": "Georg Cantor"
+				}
+			],
+			"published": "1895"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/turing-machine",
+			"why": "Turing numbered his machines and turned Cantor's diagonal argument on them, to show that no machine can decide whether every machine will go on printing for ever."
+		}
+	]
+}
