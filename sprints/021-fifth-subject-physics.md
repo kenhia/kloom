@@ -342,3 +342,24 @@ None filed. Every finding is fixed here or noted with its reason. The
 reach figures are a result, not a defect: whether a later sprint should
 add frames that sit on both sides of the bridge is a question for the
 next planning session, and the numbers above are its input.
+
+## Deployed
+
+2026-09-30, by `just deploy` (the `recipe: deploy` in `.sprint-deploy`),
+from merged `main` at `abca4c6`, to the kloom service on kai. The
+service's content clone is at the same commit.
+
+- The first `just deploy` refused ("deploy ships a commit: commit
+  first"): the Manhattan Project chart's spec had never been committed.
+  The commit helper matched specs by frame id, and this one is named for
+  the chart. It landed as #25 (`abca4c6`), rebuilding the committed chart
+  byte for byte, and the deploy ran clean.
+- `just verify` passed all eight door checks: the tailnet door refuses
+  anonymous writes and reader-data reads, and the ssh door lets its reader
+  through.
+- **The sprint's work, live on both doors (:4890 and :4891), each 200:**
+  - `/physics`;
+  - `/physics/aristotle-motion` (main spine), whose page carries "VOID.";
+  - `/physics/uncertainty` (a trail frame), whose page carries "BOTH.";
+  - `/media/physics/archimedes/palimpsest-page.jpg`;
+  - `/api/start/physics` (the start screen's look).
