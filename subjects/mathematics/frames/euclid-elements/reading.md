@@ -49,7 +49,7 @@ passed on. It is also where later readers found the first gap: nothing in
 the postulates says the two circles meet at all. Euclid took it from the
 figure, and modern axiom systems had to add it.
 
-Book IX has the proof that the **[primes](kloom:e/prime-number)** never end (Proposition 20). Take
+Book VII opens with the procedure now called Euclid's algorithm: subtract the smaller of two numbers from the larger, again and again, and the last remainder measures both. Book IX has the proof that the **[primes](kloom:e/prime-number)** never end (Proposition 20). Take
 any primes you like, multiply them and add one. The result is either a new
 prime or divisible by one, and that prime cannot be any of those you took,
 since it would then divide 1. The primes trail follows the question on

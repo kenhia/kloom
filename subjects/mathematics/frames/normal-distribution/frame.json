@@ -35,6 +35,22 @@
 		},
 		{
 			"kind": "book",
+			"title": "Nouvelles méthodes pour la détermination des orbites des comètes",
+			"authors": [
+				{
+					"family": "Legendre",
+					"given": "Adrien-Marie"
+				}
+			],
+			"publisher": "Firmin Didot",
+			"place": "Paris",
+			"published": "1805",
+			"url": "https://archive.org/details/bub_gb_PRcOAAAAQAAJ",
+			"accessed": "2026-09-30",
+			"note": "The preface names the méthode des moindres quarrés; the appendix applies it to the measure of the meridian of France, in the appendix"
+		},
+		{
+			"kind": "book",
 			"key": true,
 			"title": "Theory of the Motion of the Heavenly Bodies Moving about the Sun in Conic Sections",
 			"authors": [
@@ -224,6 +240,10 @@
 		{
 			"to": "mathematics/large-numbers",
 			"why": "De Moivre's curve gave a far better estimate than Bernoulli's own bound of how many draws make an average near certain."
+		},
+		{
+			"to": "western-civ/metre-survey",
+			"why": "Legendre first showed least squares on the arc of the meridian from Dunkirk to Barcelona that Delambre and Méchain measured to define the metre."
 		}
 	]
 }

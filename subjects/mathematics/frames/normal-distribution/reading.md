@@ -48,16 +48,14 @@ his position that December.
 Fitting a curve to observations that do not quite agree needs a rule for
 the best compromise. **[Adrien-Marie Legendre](kloom:e/adrien-marie-legendre)** published one in 1805:
 choose the values that make the sum of the squares of the errors as small
-as possible, the method of **[least squares](kloom:e/least-squares)**. In 1809, in his book on
-the motion of the planets, Gauss wrote that "our principle, which we have
+as possible, the method of **[least squares](kloom:e/least-squares)**. His appendix tried it on the arc of the meridian from Dunkirk to Barcelona, measured by Delambre and Méchain to fix the metre. In 1809 Gauss wrote that "our principle, which we have
 made use of since the year 1795, has lately been published by Legendre", and a priority dispute followed. The sources weigh it differently: Gauss
-very likely used the method on Ceres, but he published nothing on it
-before Legendre, and said the method he had used in 1801 had changed so
+very likely used the method on Ceres, but published nothing on it first, and said the method he had used in 1801 had changed so
 much that "scarcely any trace of resemblance remains". What Gauss added
 was a reason. If the average of several measurements is the best
 estimate, he showed, the errors must follow one particular law, the curve
 de Moivre had found, and least squares then gives the most probable
-values. Within ten years of Legendre's book, least squares was a standard tool of astronomy and geodesy. The rule by which Widrow and Hoff's ADALINE learned in 1960, least mean squares, minimises the same kind of squared error, one example at a time.
+values. Within ten years it was a standard tool of astronomy and surveying. Widrow and Hoff's ADALINE learned in 1960 by least mean squares, the same squared error, one example at a time.
 
 The third finding explained the first two. In 1810 **[Pierre-Simon
 Laplace](kloom:e/pierre-simon-laplace)** proved that the sum of many small independent effects, whatever

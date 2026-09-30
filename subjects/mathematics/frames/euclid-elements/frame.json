@@ -1,7 +1,10 @@
 {
 	"id": "euclid-elements",
 	"topic": "Euclid's Elements",
-	"position": { "label": "c. 300 BC", "sort": -300 },
+	"position": {
+		"label": "c. 300 BC",
+		"sort": -300
+	},
 	"scene": {
 		"headline": "We learned to",
 		"accent": "PROVE.",
@@ -11,7 +14,10 @@
 			"ALEXANDRIA · EUCLID",
 			"THIRTEEN BOOKS · DEFINITIONS · POSTULATES · COMMON NOTIONS"
 		],
-		"counter": { "value": "465", "label": "propositions in thirteen books" }
+		"counter": {
+			"value": "465",
+			"label": "propositions in thirteen books"
+		}
 	},
 	"citations": [
 		{
@@ -20,7 +26,11 @@
 			"title": "Euclid's Elements",
 			"url": "https://en.wikipedia.org/w/index.php?title=Euclid's_Elements&oldid=1376985469",
 			"accessed": "2026-09-30",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-27",
@@ -30,7 +40,12 @@
 			"kind": "book",
 			"key": true,
 			"title": "The Thirteen Books of Euclid's Elements, Translated from the Text of Heiberg, vol. 1",
-			"authors": [{ "family": "Heath", "given": "Thomas L." }],
+			"authors": [
+				{
+					"family": "Heath",
+					"given": "Thomas L."
+				}
+			],
 			"publisher": "Cambridge University Press",
 			"place": "Cambridge",
 			"published": "1908",
@@ -42,20 +57,29 @@
 			"kind": "book",
 			"key": true,
 			"title": "The Thirteen Books of Euclid's Elements, Translated from the Text of Heiberg, vol. 2",
-			"authors": [{ "family": "Heath", "given": "Thomas L." }],
+			"authors": [
+				{
+					"family": "Heath",
+					"given": "Thomas L."
+				}
+			],
 			"publisher": "Cambridge University Press",
 			"place": "Cambridge",
 			"published": "1908",
 			"url": "https://archive.org/details/bub_gb_lxkPAAAAIAAJ",
 			"accessed": "2026-09-30",
-			"note": "Book IX, Proposition 20, that the primes are more than any assigned multitude, pp. 412–413"
+			"note": "Book VII, Proposition 1, the repeated subtraction; book IX, Proposition 20, that the primes are more than any assigned multitude, pp. 412–413"
 		},
 		{
 			"kind": "wikipedia",
 			"title": "Euclid",
 			"url": "https://en.wikipedia.org/w/index.php?title=Euclid&oldid=1377561107",
 			"accessed": "2026-09-30",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-30"
@@ -63,7 +87,12 @@
 		{
 			"kind": "book",
 			"title": "The Mathematical Principles of Natural Philosophy",
-			"authors": [{ "family": "Newton", "given": "Isaac" }],
+			"authors": [
+				{
+					"family": "Newton",
+					"given": "Isaac"
+				}
+			],
 			"publisher": "Benjamin Motte",
 			"place": "London",
 			"published": "1729",
@@ -79,7 +108,12 @@
 			"container": "Wikimedia Commons",
 			"licence": "Public domain",
 			"file": "ratdolt-1482.gif",
-			"authors": [{ "family": "Ratdolt", "given": "Erhard" }],
+			"authors": [
+				{
+					"family": "Ratdolt",
+					"given": "Erhard"
+				}
+			],
 			"published": "1482"
 		}
 	],
@@ -95,6 +129,10 @@
 		{
 			"to": "physics/principia",
 			"why": "Newton laid out the Principia in the Elements' order: definitions, then \"axioms, or laws of motion\", then propositions proved from them."
+		},
+		{
+			"to": "computing/antikythera",
+			"why": "Earlier studies of the Antikythera mechanism reached its Venus cycle, 289 in 462 years, by the repeated subtraction that opens Book VII of the Elements, Euclid's algorithm."
 		}
 	]
 }
