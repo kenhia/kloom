@@ -1,0 +1,111 @@
+{
+	"id": "szilard-engine",
+	"topic": "Szilard's engine",
+	"position": {
+		"label": "1929",
+		"sort": 1929
+	},
+	"scene": {
+		"headline": "The demon had to",
+		"accent": "LOOK.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERLIN · ZEITSCHRIFT FÜR PHYSIK · 1929",
+			"LEO SZILARD",
+			"ONE MOLECULE · ONE BIT · k ln 2"
+		],
+		"counter": {
+			"value": "2.9 × 10⁻²¹ J",
+			"label": "the work of one cycle at room temperature, kT ln 2"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Information Processing and Thermodynamic Entropy",
+			"url": "https://plato.stanford.edu/entries/information-entropy/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Maroney",
+					"given": "Owen"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2009-09-15",
+			"note": "Smoluchowski's trapdoor, Szilard's engine and his argument, §§1.1–1.2 and 3"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Notes on Landauer's Principle, Reversible Computation, and Maxwell's Demon",
+			"doi": "10.1016/S1355-2198(03)00039-X",
+			"url": "https://arxiv.org/abs/physics/0210005",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Bennett",
+					"given": "Charles H."
+				}
+			],
+			"container": "Studies in History and Philosophy of Modern Physics",
+			"volume": "34",
+			"issue": "3",
+			"pages": "501–510",
+			"published": "2003",
+			"note": "The footnote on the ambiguity of Szilard's paper"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Leo Szilard",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leo_Szilard&oldid=1375554006",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maxwell's demon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maxwell's_demon&oldid=1376476239",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Entropy in thermodynamics and information theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Entropy_in_thermodynamics_and_information_theory&oldid=1376475351",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/lectures-on-computation",
+			"why": "The one-molecule gas in a cylinder with which that book erases a bit, at a cost of kT ln 2, is Szilard's 1929 engine run backwards: compressing where he let it expand."
+		}
+	]
+}

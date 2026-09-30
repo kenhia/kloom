@@ -1,0 +1,126 @@
+{
+	"id": "maxwells-demon",
+	"topic": "Maxwell's demon",
+	"position": {
+		"label": "1867–1871",
+		"sort": 1867
+	},
+	"scene": {
+		"headline": "A demon held the",
+		"accent": "DOOR.",
+		"palette": "gaslight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"A LETTER TO TAIT, 1867 · THEORY OF HEAT, 1871",
+			"JAMES CLERK MAXWELL · P. G. TAIT · WILLIAM THOMSON",
+			"A FINITE BEING · A MASSLESS SLIDE"
+		],
+		"counter": {
+			"value": "0",
+			"label": "work done by the demon, in Maxwell's telling"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Life and Scientific Work of Peter Guthrie Tait",
+			"url": "https://archive.org/details/lifescientificwo00knotuoft",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Knott",
+					"given": "Cargill Gilston"
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1911",
+			"note": "Maxwell's letter of 11 December 1867, Thomson's pencilled note on it, and \"Concerning Demons\", pp. 213–215"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Theory of Heat",
+			"url": "https://archive.org/details/B-001-003-070",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Maxwell",
+					"given": "J. Clerk"
+				}
+			],
+			"place": "London",
+			"publisher": "Longmans, Green, and Co.",
+			"published": "1871",
+			"note": "\"Limitation of the Second Law of Thermodynamics\", pp. 308–309"
+		},
+		{
+			"kind": "book",
+			"title": "Mathematical and Physical Papers, vol. 5",
+			"url": "https://archive.org/details/mathematicalphys05kelvuoft",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Thomson",
+					"given": "William"
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1911",
+			"note": "\"The Kinetic Theory of the Dissipation of Energy\" (read 16 February 1874; Nature, 9 April 1874), art. 86, pp. 11–20"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Maxwell's demon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maxwell's_demon&oldid=1376476239",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kinetic theory of gases",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kinetic_theory_of_gases&oldid=1371478093",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "media",
+			"title": "Portrait of Peter Guthrie Tait, professor of natural philosophy at Edinburgh, by George Reid",
+			"url": "https://commons.wikimedia.org/wiki/File:George_Reid_(1841-1913)_-_Professor_Peter_Guthrie_Tait_(1831%E2%80%931901),_Physicist_-_PG_600_-_National_Galleries_of_Scotland.jpg",
+			"accessed": "2026-09-29",
+			"container": "National Galleries of Scotland, PG 600; via Art UK and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "tait-reid.jpg",
+			"authors": [
+				{
+					"family": "Reid",
+					"given": "George"
+				}
+			],
+			"published": "1883"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/maxwell",
+			"why": "That frame counts the kinetic theory of gases among Maxwell's other work; the demon was his sharpest use of it, showing that for molecules the second law holds only on average."
+		}
+	]
+}

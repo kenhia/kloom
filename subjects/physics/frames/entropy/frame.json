@@ -1,0 +1,172 @@
+{
+	"id": "entropy",
+	"topic": "Entropy and the second law",
+	"position": {
+		"label": "1850–1865",
+		"sort": 1850
+	},
+	"scene": {
+		"headline": "Heat only runs",
+		"accent": "DOWNHILL.",
+		"palette": "foolscap",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERLIN · ZÜRICH · GLASGOW",
+			"RUDOLF CLAUSIUS · WILLIAM THOMSON",
+			"THE SECOND LAW · ENTROPY · THE HEAT DEATH"
+		],
+		"counter": {
+			"value": "−273 °C",
+			"label": "the coldest possible, as Thomson reckoned it in 1848"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Mechanical Theory of Heat, with Its Applications to the Steam-Engine and to the Physical Properties of Bodies",
+			"url": "https://archive.org/details/mechanicaltheor04claugoog",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Clausius",
+					"given": "Rudolf"
+				}
+			],
+			"editors": [
+				{
+					"family": "Hirst",
+					"given": "T. Archer"
+				}
+			],
+			"place": "London",
+			"publisher": "John van Voorst",
+			"published": "1867",
+			"note": "The first memoir (1850) opens with the steam engine; the fourth (1854) states the law, p. 117; the ninth (1865) names entropy, p. 357, and ends with the two laws of the universe, p. 365"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Mathematical and Physical Papers, vol. 1",
+			"url": "https://archive.org/details/mathematicaland01kelvgoog",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Thomson",
+					"given": "William"
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1882",
+			"note": "The absolute scale of 1848 with the note of 1881, art. XXXIX; the dissipation of mechanical energy, 1852, art. LIX"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Rudolf Clausius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rudolf_Clausius&oldid=1371992868",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Second law of thermodynamics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Second_law_of_thermodynamics&oldid=1376158977",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of entropy",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_entropy&oldid=1364129486",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heat death of the universe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heat_death_of_the_universe&oldid=1369260882",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lord Kelvin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lord_Kelvin&oldid=1376996308",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thermodynamic temperature",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thermodynamic_temperature&oldid=1374882462",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "media",
+			"title": "The last lines of Clausius's ninth memoir: the energy of the world is constant, the entropy of the world tends to a maximum",
+			"url": "https://commons.wikimedia.org/wiki/File:Die_Energie_der_Welt_ist_constant._Die_Entropie_der_Welt_strebt_einem_Maximum_zu.png",
+			"accessed": "2026-09-29",
+			"container": "Abhandlungen über die mechanische Wärmetheorie, part 2 (Braunschweig: Vieweg, 1867), p. 44; scan by the Bavarian State Library, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "clausius-1865.png",
+			"authors": [
+				{
+					"family": "Clausius",
+					"given": "Rudolf"
+				}
+			],
+			"published": "1867"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/steam",
+			"why": "Clausius's first memoir on the second law opens with the steam engine, and the law says why Watt's separate condenser mattered: an engine turns heat into work only by passing some of it to a colder body."
+		}
+	]
+}

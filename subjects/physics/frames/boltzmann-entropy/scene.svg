@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M113.2 252 L108.2 249.5 L103.6 247 L99.3 244.5 L95.4 242 L91.7 239.5 L88.3 237 L85.2 234.5 L82.3 232 L79.6 229.5 L77.1 227 L74.8 224.5 L72.7 222 L70.7 219.5 L68.9 217 L67.2 214.5 L65.6 212 L64.2 209.5 L62.8 207 L61.6 204.5 L60.4 202 L59.4 199.5 L58.4 197 L57.5 194.5 L56.6 192 L55.8 189.5 L55.1 187 L54.4 184.5 L53.8 182 L53.2 179.5 L52.7 177 L52.2 174.5 L51.7 172 L51.3 169.5 L50.9 167 L50.5 164.5 L50.2 162 L49.9 159.5 L49.6 157 L49.3 154.5 L49.1 152 L48.9 149.5 L48.7 147 L48.5 144.5 L48.3 142 L48.1 139.5 L48 137 L47.8 134.5"/>
+		<path pathLength="1" d="M176 204.5 L381 204.5 M176 157 L381 157 M176 109.5 L381 109.5"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M44 264 L44 69"/>
+		<path pathLength="1" d="M44 252 L162 252 M44 227 L162 227 M44 202 L162 202 M44 177 L162 177 M44 152 L162 152 M44 127 L162 127 M44 102 L162 102 M44 77 L162 77"/>
+		<path pathLength="1" d="M176 252 L381 252"/>
+		<path pathLength="1" d="M51.5 247 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M69.5 247 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M87.5 247 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M51.5 222 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M69.5 222 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M51.5 197 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M51.5 172 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M300.6 252 L300.6 62 L310.6 62 L310.6 252 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M180 252 L180 248.8 L190 248.8 L190 252 Z"/>
+		<path pathLength="1" d="M193.4 252 L193.4 233 L203.4 233 L203.4 252 Z"/>
+		<path pathLength="1" d="M206.8 252 L206.8 233 L216.8 233 L216.8 252 Z"/>
+		<path pathLength="1" d="M220.2 252 L220.2 233 L230.2 233 L230.2 252 Z"/>
+		<path pathLength="1" d="M233.6 252 L233.6 204.5 L243.6 204.5 L243.6 252 Z"/>
+		<path pathLength="1" d="M247 252 L247 157 L257 157 L257 252 Z"/>
+		<path pathLength="1" d="M260.4 252 L260.4 204.5 L270.4 204.5 L270.4 252 Z"/>
+		<path pathLength="1" d="M273.8 252 L273.8 204.5 L283.8 204.5 L283.8 252 Z"/>
+		<path pathLength="1" d="M287.2 252 L287.2 188.7 L297.2 188.7 L297.2 252 Z"/>
+		<path pathLength="1" d="M314 252 L314 188.7 L324 188.7 L324 252 Z"/>
+		<path pathLength="1" d="M327.4 252 L327.4 204.5 L337.4 204.5 L337.4 252 Z"/>
+		<path pathLength="1" d="M340.8 252 L340.8 157 L350.8 157 L350.8 252 Z"/>
+		<path pathLength="1" d="M354.2 252 L354.2 233 L364.2 233 L364.2 252 Z"/>
+		<path pathLength="1" d="M367.6 252 L367.6 250.5 L377.6 250.5 L377.6 252 Z"/>
+	</g>
+	<g>
+		<text x="38" y="255" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="38" y="230" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="38" y="205" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="38" y="180" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="38" y="155" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4</text>
+		<text x="38" y="130" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5</text>
+		<text x="38" y="105" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">6</text>
+		<text x="38" y="80" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">7</text>
+		<text x="103" y="278" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0 0 0 1 1 2 3</text>
+		<text x="305.6" y="56" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">420</text>
+		<text x="280.5" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE FIFTEEN DISTRIBUTIONS</text>
+		<text x="280.5" y="280" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1,716 COMPLEXIONS</text>
+		<text x="38" y="61" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">E</text>
+		<text x="74" y="167.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">e^(−E/kT)</text>
+	</g>
+</svg>

@@ -1,0 +1,144 @@
+{
+	"id": "boltzmann-entropy",
+	"topic": "Boltzmann's statistical entropy",
+	"position": {
+		"label": "1872–1877",
+		"sort": 1872
+	},
+	"scene": {
+		"headline": "We counted the",
+		"accent": "WAYS.",
+		"palette": "foolscap",
+		"illustration": "scene.svg",
+		"metadata": [
+			"VIENNA · GRAZ · LUDWIG BOLTZMANN",
+			"THE H-THEOREM · THE REVERSAL OBJECTION · S = k log W"
+		],
+		"counter": {
+			"value": "420",
+			"label": "of Boltzmann's 1,716 ways for seven molecules to share seven units"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Translation of Ludwig Boltzmann's Paper \"On the Relationship between the Second Fundamental Theorem of the Mechanical Theory of Heat and Probability Calculations Regarding the Conditions for Thermal Equilibrium\"",
+			"doi": "10.3390/e17041971",
+			"url": "https://www.mdpi.com/1099-4300/17/4/1971",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Sharp",
+					"given": "Kim"
+				},
+				{
+					"family": "Matschinsky",
+					"given": "Franz"
+				}
+			],
+			"container": "Entropy",
+			"volume": "17",
+			"issue": "4",
+			"pages": "1971–2009",
+			"published": "2015",
+			"note": "Boltzmann's 1877 paper in English, with the lottery passage from his reply to Loschmidt and the table of seven molecules; the translators on W and Planck, p. 1974"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Ludwig Boltzmann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ludwig_Boltzmann&oldid=1373946070",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "H-theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=H-theorem&oldid=1369746858",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Loschmidt's paradox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Loschmidt's_paradox&oldid=1371985318",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Boltzmann's entropy formula",
+			"url": "https://en.wikipedia.org/w/index.php?title=Boltzmann's_entropy_formula&oldid=1352008199",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Boltzmann constant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Boltzmann_constant&oldid=1373140358",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "media",
+			"title": "The grave of Ludwig Boltzmann in the Central Cemetery, Vienna, with his bust and the formula S = k log W",
+			"url": "https://commons.wikimedia.org/wiki/File:Ludwig_Boltzmann_Grave_Zentralfriedhof_Vienna_2022.jpg",
+			"accessed": "2026-09-29",
+			"container": "Zentralfriedhof, Vienna; photograph via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "boltzmann-grave.jpg",
+			"authors": [
+				{
+					"name": "Feldkurat Katz"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/boltzmann-machine",
+			"why": "The machine's units settle into the Boltzmann distribution, the exponential fall-off with energy that Boltzmann derived in 1877 by counting how many ways molecules can share it."
+		},
+		{
+			"to": "western-civ/si-redefinition",
+			"why": "The constant k that Planck wrote into Boltzmann's formula became one of the seven fixed by definition in 2019, and now defines the kelvin."
+		}
+	]
+}

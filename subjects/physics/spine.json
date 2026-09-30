@@ -22,7 +22,7 @@
 			"id": "heat-light-charge",
 			"title": "Heat, light and charge",
 			"labelKind": "date",
-			"frames": ["coulomb"]
+			"frames": ["coulomb", "entropy"]
 		},
 		{
 			"id": "cracks",
