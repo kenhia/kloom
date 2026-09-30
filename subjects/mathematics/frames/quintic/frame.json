@@ -1,0 +1,179 @@
+{
+	"id": "quintic",
+	"topic": "Why the quintic has no formula",
+	"position": {
+		"label": "The quintic"
+	},
+	"scene": {
+		"headline": "We proved there was no",
+		"accent": "FORMULA.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MODENA · CHRISTIANIA · PARIS · 1799–1846",
+			"RUFFINI · ABEL · GALOIS · THE GROUP OF AN EQUATION"
+		],
+		"counter": {
+			"value": "8 of 24",
+			"label": "shuffles of the roots of x⁴ − 2 that Galois's rule allows"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Abel–Ruffini theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abel%E2%80%93Ruffini_theorem&oldid=1375002952",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15",
+			"note": "Lagrange's resolvents, Ruffini's gap, Abel's six pages, and Liouville's announcement of 1843"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Évariste Galois",
+			"url": "https://en.wikipedia.org/w/index.php?title=%C3%89variste_Galois&oldid=1375528391",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18",
+			"note": "The memoirs sent to the Academy, Poisson's report, the duel, and Liouville's edition of 1846"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Genius and Biographers: The Fictionalization of Evariste Galois",
+			"authors": [
+				{
+					"family": "Rothman",
+					"given": "Tony"
+				}
+			],
+			"container": "The American Mathematical Monthly",
+			"volume": "89",
+			"issue": "2",
+			"pages": "84–106",
+			"published": "1982-02",
+			"doi": "10.2307/2320923",
+			"url": "https://sites.tufts.edu/histmath/files/2015/11/rothman.pdf",
+			"accessed": "2026-09-30",
+			"note": "Bell's legend of the last night set against the documents (pp. 102–103)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mémoire sur les conditions de résolubilité des équations par radicaux",
+			"authors": [
+				{
+					"family": "Galois",
+					"given": "Évariste"
+				}
+			],
+			"container": "Journal de mathématiques pures et appliquées",
+			"volume": "11",
+			"pages": "417–433",
+			"published": "1846",
+			"url": "https://www.bibnum.education.fr/sites/default/files/galois_memoire_sur_la_resolubiblite.pdf",
+			"accessed": "2026-09-30",
+			"note": "Proposition I, the group of an equation, and Chevalier's notes on the margin \"Je n'ai pas le temps\""
+		},
+		{
+			"kind": "chapter",
+			"title": "Mémoire sur les équations algébriques, où l'on démontre l'impossibilité de la résolution de l'équation générale du cinquième degré",
+			"authors": [
+				{
+					"family": "Abel",
+					"given": "Niels Henrik"
+				}
+			],
+			"container": "Œuvres complètes de Niels Henrik Abel",
+			"editors": [
+				{
+					"family": "Sylow",
+					"given": "Ludwig"
+				},
+				{
+					"family": "Lie",
+					"given": "Sophus"
+				}
+			],
+			"volume": "1",
+			"pages": "28–33",
+			"place": "Christiania",
+			"publisher": "Grøndahl & Søn",
+			"published": "1881",
+			"url": "http://www.abelprisen.no/nedlastning/verker/oeuvres_1881_del1/oeuvres_completes_de_abel_nouv_ed_1_kap03_opt.pdf",
+			"accessed": "2026-09-30",
+			"note": "First printed as a pamphlet by Grøndahl, Christiania, 1824; read in the Wayback Machine's copy of the Abel Prize site's scan"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Galois theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Galois_theory&oldid=1376340050",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Niels Henrik Abel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Niels_Henrik_Abel&oldid=1371978800",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paolo Ruffini",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paolo_Ruffini&oldid=1376211289",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "media",
+			"title": "The last page of Galois's letter to Auguste Chevalier, 29 May 1832",
+			"url": "https://commons.wikimedia.org/wiki/File:E._Galois_Letter.jpg",
+			"accessed": "2026-09-30",
+			"container": "Reproduced in Shokichi Iyanaga, 1999, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "galois-letter.jpg",
+			"authors": [
+				{
+					"name": "Évariste Galois"
+				}
+			],
+			"published": "1832-05-29"
+		}
+	]
+}

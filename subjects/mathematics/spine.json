@@ -28,7 +28,7 @@
 			"id": "algebra",
 			"title": "Algebra",
 			"labelKind": "category",
-			"frames": ["matrices", "monster"]
+			"frames": ["quintic", "groups", "matrices", "noether", "monster"]
 		},
 		{
 			"id": "analysis",
