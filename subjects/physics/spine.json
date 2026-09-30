@@ -47,7 +47,14 @@
 			"id": "quantum",
 			"title": "The quantum",
 			"labelKind": "category",
-			"frames": ["quantum-mechanics", "entanglement"]
+			"frames": [
+				"quantum-mechanics",
+				"entanglement",
+				"qed",
+				"solids",
+				"superconductivity",
+				"quantum-computing"
+			]
 		},
 		{
 			"id": "particles",

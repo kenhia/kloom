@@ -1,0 +1,63 @@
+{
+	"title": "Critical temperatures of superconductors, 1911 to 2019",
+	"description": "Bar chart. The temperature below which each material superconducts, in kelvin: mercury (1911) 4.2; lead (1913) 7; niobium nitride (1941) 16; La–Ba–Cu–O (1986) 35; Y–Ba–Cu–O (1987) 93; Hg–Ba–Ca–Cu–O (1993) 133; lanthanum hydride under high pressure (2019) 250. The cuprates of 1987 and 1993 are above 77 K, where liquid nitrogen boils. Data: Wikipedia, Superconductivity, High-temperature superconductivity and Cuprate superconductor.",
+	"heading": "CRITICAL TEMPERATURE · KELVIN · 77 K = LIQUID NITROGEN",
+	"unit": " K",
+	"axis": {
+		"max": 300,
+		"ticks": [
+			[0, "0"],
+			[77, "77"],
+			[150, "150"],
+			[250, "250 K"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Hg",
+			"sublabel": "1911",
+			"value": 4.2,
+			"display": "4.2"
+		},
+		{
+			"label": "Pb",
+			"sublabel": "1913",
+			"value": 7,
+			"display": "7"
+		},
+		{
+			"label": "NbN",
+			"sublabel": "1941",
+			"value": 16,
+			"display": "16"
+		},
+		{
+			"label": "LBCO",
+			"sublabel": "1986",
+			"value": 35,
+			"display": "35"
+		},
+		{
+			"label": "YBCO",
+			"sublabel": "1987",
+			"value": 93,
+			"display": "93",
+			"highlight": true
+		},
+		{
+			"label": "Hg-cuprate",
+			"sublabel": "1993",
+			"value": 133,
+			"display": "133",
+			"highlight": true
+		},
+		{
+			"label": "LaH₁₀",
+			"sublabel": "2019, squeezed",
+			"value": 250,
+			"display": "250"
+		}
+	],
+	"barWidth": 44,
+	"width": 520
+}

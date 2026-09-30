@@ -1,0 +1,240 @@
+{
+	"id": "solids",
+	"topic": "Band theory and semiconductors",
+	"position": {
+		"label": "Solids"
+	},
+	"scene": {
+		"headline": "Electrons ran in",
+		"accent": "BANDS.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LEIPZIG · CAMBRIDGE · BELL LABS, HOLMDEL",
+			"BLOCH 1928 · WILSON 1931 · OHL 1940 · SHOCKLEY 1949"
+		],
+		"counter": {
+			"value": "1 in 5,000,000",
+			"label": "phosphorus atoms in silicon that cut its resistivity half a million times (our arithmetic)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Origins of the pn Junction",
+			"url": "https://web.archive.org/web/20120627121017/http://laimbio08.escet.urjc.es/docencia/FOTONICA/origins_p_n_junction_IEEE_spectrum_34_1997.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Riordan",
+					"given": "Michael"
+				},
+				{
+					"family": "Hoddeson",
+					"given": "Lillian"
+				}
+			],
+			"container": "IEEE Spectrum",
+			"volume": "34",
+			"issue": "6",
+			"pages": "46–51",
+			"published": "1997-06",
+			"note": "Excerpted from their Crystal Fire: Ohl's rod, the demonstration of 6 March 1940, and the naming of p-type and n-type"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Electronic band structure",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electronic_band_structure&oldid=1316527141",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-13"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Semiconductor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Semiconductor&oldid=1376790125",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"note": "Its early history: Bloch 1928, Wilson 1931"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bloch's theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bloch's_theorem&oldid=1376907021",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Felix Bloch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Felix_Bloch&oldid=1371993339",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Electron hole",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electron_hole&oldid=1345119686",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alan Herries Wilson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alan_Herries_Wilson&oldid=1337683164",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Russell Ohl",
+			"url": "https://en.wikipedia.org/w/index.php?title=Russell_Ohl&oldid=1366587332",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "P–n junction",
+			"url": "https://en.wikipedia.org/w/index.php?title=P%E2%80%93n_junction&oldid=1363344649",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Doping (semiconductor)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Doping_(semiconductor)&oldid=1375706248",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Band gap",
+			"url": "https://en.wikipedia.org/w/index.php?title=Band_gap&oldid=1369611095",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Electrical resistivity and conductivity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electrical_resistivity_and_conductivity&oldid=1376163102",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Electron mobility",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electron_mobility&oldid=1372272852",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: resistivity of copper, germanium, silicon, diamond and fused quartz at room temperature",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electrical_resistivity_and_conductivity&oldid=1376163102",
+			"accessed": "2026-09-29",
+			"container": "Drawn for kloom from Wikipedia's table of resistivities",
+			"licence": "MIT",
+			"file": "resistivity.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/transistor",
+			"why": "Brattain's point contacts worked by injecting holes, the positive carriers of a nearly full band that Peierls had explained in 1929; Brattain had also been in the room when Ohl's junction first lit up."
+		},
+		{
+			"to": "computing/silicon-valley",
+			"why": "Germanium transistors leaked when they should have been off, and silicon worked hotter, because silicon's band gap is wider and heat lifts far fewer electrons across it."
+		},
+		{
+			"to": "computing/integrated-circuit",
+			"why": "Lehovec isolated the parts of one chip from each other with reverse-biased p–n junctions, the barrier that lets almost no current through one way."
+		}
+	]
+}

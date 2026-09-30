@@ -1,0 +1,337 @@
+{
+	"id": "quantum-computing",
+	"topic": "Quantum computers",
+	"asOf": "2026-09-29",
+	"position": {
+		"label": "Quantum computing"
+	},
+	"scene": {
+		"headline": "The bit became a",
+		"accent": "QUBIT.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SUPERPOSITION · ENTANGLEMENT · UNITARY GATES · ERROR CORRECTION",
+			"TRANSMONS · TRAPPED IONS · NEUTRAL ATOMS · PHOTONS"
+		],
+		"counter": {
+			"value": "15 mK",
+			"label": "the temperature below which superconducting qubits are kept"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Quantum computing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_computing&oldid=1377133559",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"note": "The state of the field as of 2026: demonstrations as milestones, fault tolerance out of reach"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Qubit",
+			"url": "https://en.wikipedia.org/w/index.php?title=Qubit&oldid=1373881519",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bloch sphere",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bloch_sphere&oldid=1377557943",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum logic gate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_logic_gate&oldid=1376542851",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum entanglement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_entanglement&oldid=1375826121",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Shor's algorithm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Shor's_algorithm&oldid=1364068984",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Grover's algorithm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Grover's_algorithm&oldid=1373498442",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum decoherence",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_decoherence&oldid=1374821786",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "No-cloning theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=No-cloning_theorem&oldid=1358071215",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Threshold theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Threshold_theorem&oldid=1360742213",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Surface code",
+			"url": "https://en.wikipedia.org/w/index.php?title=Surface_code&oldid=1351316780",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-27"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Superconducting quantum computing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Superconducting_quantum_computing&oldid=1373460086",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transmon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transmon&oldid=1368853820",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Trapped-ion quantum computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Trapped-ion_quantum_computer&oldid=1346596381",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Neutral atom quantum computer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neutral_atom_quantum_computer&oldid=1357144530",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linear optical quantum computing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linear_optical_quantum_computing&oldid=1377156461",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Willow processor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Willow_processor&oldid=1371360534",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Josephson effect",
+			"url": "https://en.wikipedia.org/w/index.php?title=Josephson_effect&oldid=1368896998",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physics 2025: Press Release",
+			"url": "https://www.nobelprize.org/prizes/physics/2025/press-release/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "2025-10-07"
+		},
+		{
+			"kind": "article",
+			"title": "How to Factor 2048 Bit RSA Integers with Less than a Million Noisy Qubits",
+			"url": "https://arxiv.org/abs/2505.15917",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Gidney",
+					"given": "Craig"
+				}
+			],
+			"container": "arXiv preprint arXiv:2505.15917",
+			"published": "2025-05-21"
+		},
+		{
+			"kind": "media",
+			"title": "A gold ion trap on an aluminium nitride board, used in NIST's experiments entangling ions with microwaves",
+			"url": "https://commons.wikimedia.org/wiki/File:Gold_Ion_Trap_(6029437325).jpg",
+			"accessed": "2026-09-29",
+			"container": "National Institute of Standards and Technology, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ion-trap.jpg",
+			"authors": [
+				{
+					"family": "Colombe",
+					"given": "Y."
+				}
+			],
+			"published": "2011-08-10"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/simulating-physics",
+			"why": "Feynman asked for a computer built from quantum parts because 2ⁿ amplitudes defeat an ordinary one; qubits, unitary gates and entanglement are the physics of how such a machine holds and steers them."
+		},
+		{
+			"to": "feynman/quantum-computers",
+			"why": "Every quantum gate is unitary and so reversible, which is why Feynman could assemble his 1985 quantum machine from the reversible NOT, controlled NOT and Toffoli gates."
+		},
+		{
+			"to": "physics/superconductivity",
+			"why": "The transmon qubit is a Josephson junction, and the 2025 Nobel Prize went for showing that such a superconducting circuit behaves as one quantum object."
+		}
+	]
+}

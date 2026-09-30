@@ -1,0 +1,302 @@
+{
+	"id": "superconductivity",
+	"topic": "Superconductivity",
+	"position": {
+		"label": "Superconductivity"
+	},
+	"scene": {
+		"headline": "Mercury's resistance",
+		"accent": "VANISHED.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LEIDEN · URBANA · CAMBRIDGE · IBM ZÜRICH",
+			"ONNES 1911 · MEISSNER 1933 · BCS 1957 · JOSEPHSON 1962 · CUPRATES 1986"
+		],
+		"counter": {
+			"value": "4.2 K",
+			"label": "where mercury's resistance vanished, in the Leiden plot of October 1911"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Discovery of Superconductivity",
+			"doi": "10.1063/1.3490499",
+			"url": "http://ilorentz.org/history/cold/DelftKes_HKO_PT.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "van Delft",
+					"given": "Dirk"
+				},
+				{
+					"family": "Kes",
+					"given": "Peter"
+				}
+			],
+			"container": "Physics Today",
+			"volume": "63",
+			"issue": "9",
+			"pages": "38–43",
+			"published": "2010-09",
+			"note": "The notebook of 8 April 1911, the superfluid transition seen the same day, and the legend of the blue boy"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Superconductivity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Superconductivity&oldid=1374788281",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heike Kamerlingh Onnes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heike_Kamerlingh_Onnes&oldid=1373233728",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Meissner effect",
+			"url": "https://en.wikipedia.org/w/index.php?title=Meissner_effect&oldid=1371507952",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fritz London",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fritz_London&oldid=1371996447",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "BCS theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=BCS_theory&oldid=1375829450",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cooper pair",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cooper_pair&oldid=1377022662",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Feynman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Feynman&oldid=1375453389",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Josephson effect",
+			"url": "https://en.wikipedia.org/w/index.php?title=Josephson_effect&oldid=1368896998",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Josephson voltage standard",
+			"url": "https://en.wikipedia.org/w/index.php?title=Josephson_voltage_standard&oldid=1357294770",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kibble balance",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kibble_balance&oldid=1373150893",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "High-temperature superconductivity",
+			"url": "https://en.wikipedia.org/w/index.php?title=High-temperature_superconductivity&oldid=1374809366",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cuprate superconductor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cuprate_superconductor&oldid=1359325672",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Flux pinning",
+			"url": "https://en.wikipedia.org/w/index.php?title=Flux_pinning&oldid=1308983710",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Niobium–titanium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Niobium%E2%80%93titanium&oldid=1370480366",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "SQUID",
+			"url": "https://en.wikipedia.org/w/index.php?title=SQUID&oldid=1371000463",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "media",
+			"title": "A magnet levitating above a disc of the cuprate superconductor YBa₂Cu₃O₇ cooled to −196 °C",
+			"url": "https://commons.wikimedia.org/wiki/File:Levitation_of_a_magnet_on_top_of_a_superconductor_2.jpg",
+			"accessed": "2026-09-29",
+			"container": "Laboratoire de Physique des Solides, Orsay, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "levitation.jpg",
+			"authors": [
+				{
+					"name": "Julien Bobroff"
+				},
+				{
+					"name": "Frédéric Bouquet"
+				},
+				{
+					"name": "Jeffrey Quilliam"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "Chart: critical temperatures of superconductors from mercury to lanthanum hydride",
+			"url": "https://en.wikipedia.org/w/index.php?title=High-temperature_superconductivity&oldid=1374809366",
+			"accessed": "2026-09-29",
+			"container": "Drawn for kloom from Wikipedia's articles on superconductivity, high-temperature superconductivity and cuprate superconductors",
+			"licence": "MIT",
+			"file": "critical-temperatures.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/superfluid-helium",
+			"why": "Onnes's team saw helium turn superfluid on the day mercury lost its resistance; London explained both as one quantum state on a large scale, and Feynman, who explained the superfluid's excitations, could not crack the superconductor."
+		},
+		{
+			"to": "western-civ/si-redefinition",
+			"why": "The Kibble balance that ties the kilogram to the Planck constant measures its voltages with a Josephson junction standard, voltage fixed by frequency and constants of nature alone."
+		},
+		{
+			"to": "physics/solids",
+			"why": "BCS theory binds electrons in pairs through the vibrations of the crystal lattice, the same vibrations that in Bloch's theory give ordinary metals their resistance."
+		}
+	]
+}

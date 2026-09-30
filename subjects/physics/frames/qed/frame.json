@@ -1,0 +1,221 @@
+{
+	"id": "qed",
+	"topic": "Quantum electrodynamics",
+	"position": {
+		"label": "QED"
+	},
+	"scene": {
+		"headline": "We swept infinity under the",
+		"accent": "RUG.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DIRAC · TOMONAGA · SCHWINGER · FEYNMAN · DYSON",
+			"1927–1949 · RENORMALISED MASS AND CHARGE"
+		],
+		"counter": {
+			"value": "7%",
+			"label": "how much stronger electromagnetism is at 91 GeV than at rest (our arithmetic)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Development of Quantum Electrodynamics: Personal Recollections",
+			"url": "https://www.nobelprize.org/prizes/physics/1965/tomonaga/lecture/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Tomonaga",
+					"given": "Sin-Itiro"
+				}
+			],
+			"container": "Nobel Lectures, Physics 1963–1970",
+			"publisher": "Elsevier",
+			"place": "Amsterdam",
+			"published": "1972",
+			"note": "Nobel lecture of 6 May 1966: the super-many-time theory, Dancoff's missing term, the two infinities, and the Lamb shift learned from a magazine"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "History of quantum field theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_quantum_field_theory&oldid=1352958672",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum electrodynamics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_electrodynamics&oldid=1367730653",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Dirac",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Dirac&oldid=1372471093",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sidney Dancoff",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sidney_Dancoff&oldid=1372299434",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Julian Schwinger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Julian_Schwinger&oldid=1374788546",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Renormalization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Renormalization&oldid=1376789959",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vacuum polarization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vacuum_polarization&oldid=1368061381",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fine-structure constant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fine-structure_constant&oldid=1377160501",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"title": "The Quantum Theory of the Emission and Absorption of Radiation",
+			"doi": "10.1098/rspa.1927.0039",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Dirac",
+					"given": "P. A. M."
+				}
+			],
+			"container": "Proceedings of the Royal Society A",
+			"volume": "114",
+			"issue": "767",
+			"pages": "243–265",
+			"published": "1927"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Electroweak Model and Constraints on New Physics",
+			"url": "https://pdg.lbl.gov/2024/reviews/rpp2024-rev-standard-model.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Erler",
+					"given": "J."
+				},
+				{
+					"family": "Freitas",
+					"given": "A."
+				}
+			],
+			"container": "Review of Particle Physics",
+			"publisher": "Particle Data Group",
+			"published": "2024-04",
+			"note": "Section 10.2.2: 1/α ≈ 137.036 at low energy and 127.930 at the Z mass; the running seen at LEP"
+		},
+		{
+			"kind": "media",
+			"title": "Paul Dirac and Richard Feynman talking at the conference on general relativity and gravitation, Jabłonna, July 1962",
+			"url": "https://commons.wikimedia.org/wiki/File:Paul_Dirac_and_Richard_Feynman_at_Jab%C5%82onna_1962.png",
+			"accessed": "2026-09-29",
+			"container": "From General Relativity and Gravitation (2014), via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "dirac-feynman.png",
+			"authors": [
+				{
+					"name": "Marek Holzman"
+				}
+			],
+			"published": "1962"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/lamb-shift",
+			"why": "Tomonaga learned of the Lamb shift from an American magazine's science column, and his group set out to calculate it with the renormalisation Bethe's estimate had pointed to."
+		},
+		{
+			"to": "feynman/dyson",
+			"why": "Dyson's 1949 paper showed that Tomonaga's covariant theory, Schwinger's and Feynman's were one theory, and wrote down the rules all three shared."
+		},
+		{
+			"to": "feynman/magnetic-moment",
+			"why": "Schwinger's α/2π was the first finite prediction of renormalised QED; the electron's magnetic moment is still where the theory is tested hardest, to about a part in a trillion."
+		}
+	]
+}

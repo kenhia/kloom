@@ -1,0 +1,39 @@
+{
+	"title": "Resistivity at room temperature: a metal, two semiconductors and two insulators",
+	"description": "Bar chart on a logarithmic scale. Electrical resistivity at about 20 °C, in ohm-metres: copper 1.68 × 10⁻⁸; germanium 0.46; silicon 2,300; diamond about 10¹²; fused quartz 7.5 × 10¹⁷. Data: Wikipedia, Electrical resistivity and conductivity, table of resistivities.",
+	"heading": "RESISTIVITY · OHM-METRES · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 1e-9,
+		"max": 1e18,
+		"ticks": [
+			[1e-8, "10⁻⁸"],
+			[1e-2, "10⁻²"],
+			[1e4, "10⁴"],
+			[1e10, "10¹⁰"],
+			[1e16, "10¹⁶"]
+		]
+	},
+	"bars": [
+		{ "label": "Copper", "sublabel": "metal", "value": 1.68e-8, "display": "1.7 × 10⁻⁸" },
+		{
+			"label": "Germanium",
+			"sublabel": "gap 0.67 eV",
+			"value": 0.46,
+			"display": "0.46",
+			"highlight": true
+		},
+		{
+			"label": "Silicon",
+			"sublabel": "gap 1.14 eV",
+			"value": 2300,
+			"display": "2,300",
+			"highlight": true
+		},
+		{ "label": "Diamond", "sublabel": "gap 5.5 eV", "value": 1e12, "display": "10¹²" },
+		{ "label": "Quartz", "sublabel": "fused", "value": 7.5e17, "display": "7.5 × 10¹⁷" }
+	],
+	"barWidth": 56,
+	"width": 480
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="t d">
+<title id="t">Critical temperatures of superconductors, 1911 to 2019</title>
+<desc id="d">Bar chart. The temperature below which each material superconducts, in kelvin: mercury (1911) 4.2; lead (1913) 7; niobium nitride (1941) 16; La–Ba–Cu–O (1986) 35; Y–Ba–Cu–O (1987) 93; Hg–Ba–Ca–Cu–O (1993) 133; lanthanum hydride under high pressure (2019) 250. The cuprates of 1987 and 1993 are above 77 K, where liquid nitrogen boils. Data: Wikipedia, Superconductivity, High-temperature superconductivity and Cuprate superconductor.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="500" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="500" y1="195.1" y2="195.1" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="199.1" text-anchor="end">77</text>
+<line x1="64" x2="500" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">150</text>
+<line x1="64" x2="500" y1="71.7" y2="71.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="75.7" text-anchor="end">250 K</text>
+</g>
+<rect x="73.1" y="247.0" width="44" height="3.0" fill-opacity="0.85"/>
+<text x="95.1" y="241.0" text-anchor="middle">4.2</text>
+<text x="95.1" y="266" text-anchor="middle">Hg</text>
+<text x="95.1" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1911</text>
+<rect x="135.4" y="245.0" width="44" height="5.0" fill-opacity="0.85"/>
+<text x="157.4" y="239.0" text-anchor="middle">7</text>
+<text x="157.4" y="266" text-anchor="middle">Pb</text>
+<text x="157.4" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1913</text>
+<rect x="197.7" y="238.6" width="44" height="11.4" fill-opacity="0.85"/>
+<text x="219.7" y="232.6" text-anchor="middle">16</text>
+<text x="219.7" y="266" text-anchor="middle">NbN</text>
+<text x="219.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1941</text>
+<rect x="260.0" y="225.0" width="44" height="25.0" fill-opacity="0.85"/>
+<text x="282.0" y="219.0" text-anchor="middle">35</text>
+<text x="282.0" y="266" text-anchor="middle">LBCO</text>
+<text x="282.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1986</text>
+<rect x="322.3" y="183.7" width="44" height="66.3" class="accent" fill="currentColor"/>
+<text x="344.3" y="177.7" text-anchor="middle">93</text>
+<text x="344.3" y="266" text-anchor="middle">YBCO</text>
+<text x="344.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1987</text>
+<rect x="384.6" y="155.1" width="44" height="94.9" class="accent" fill="currentColor"/>
+<text x="406.6" y="149.1" text-anchor="middle">133</text>
+<text x="406.6" y="266" text-anchor="middle">Hg-cuprate</text>
+<text x="406.6" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1993</text>
+<rect x="446.9" y="71.7" width="44" height="178.3" fill-opacity="0.85"/>
+<text x="468.9" y="65.7" text-anchor="middle">250</text>
+<text x="468.9" y="266" text-anchor="middle">LaH₁₀</text>
+<text x="468.9" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2019, squeezed</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">CRITICAL TEMPERATURE · KELVIN · 77 K = LIQUID NITROGEN</text>
+</g></svg>
