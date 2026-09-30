@@ -1,0 +1,205 @@
+{
+	"id": "four-elements",
+	"topic": "The four elements and the first atoms",
+	"position": {
+		"label": "c. 450–350 BC",
+		"sort": -450
+	},
+	"scene": {
+		"headline": "We made the world out of",
+		"accent": "FOUR.",
+		"palette": "alum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"AKRAGAS · ABDERA · ATHENS",
+			"EMPEDOCLES · DEMOCRITUS · PLATO · ARISTOTLE",
+			"HOT · COLD · WET · DRY"
+		],
+		"counter": {
+			"value": "2 : 1",
+			"label": "volumes of hydrogen to oxygen from split water"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "On Generation and Corruption",
+			"authors": [
+				{
+					"name": "Aristotle"
+				}
+			],
+			"editors": [
+				{
+					"family": "Joachim",
+					"given": "Harold H."
+				}
+			],
+			"publisher": "Clarendon Press",
+			"place": "Oxford",
+			"published": "1922",
+			"url": "http://classics.mit.edu/Aristotle/gener_corr.2.ii.html",
+			"accessed": "2026-09-30",
+			"note": "Book II, parts 3–4: the four qualities, and how the elements turn into one another; Joachim's translation, read in the Internet Classics Archive's copy"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Timaeus",
+			"authors": [
+				{
+					"name": "Plato"
+				}
+			],
+			"editors": [
+				{
+					"family": "Jowett",
+					"given": "Benjamin"
+				}
+			],
+			"url": "https://www.gutenberg.org/ebooks/1572",
+			"accessed": "2026-09-30",
+			"note": "Jowett's translation, read in Project Gutenberg's edition: the elementary triangles, the four solids, and water breaking into one part fire and two parts air"
+		},
+		{
+			"kind": "web",
+			"title": "Empedokles: Fragments and Commentary",
+			"authors": [
+				{
+					"family": "Fairbanks",
+					"given": "Arthur"
+				}
+			],
+			"container": "The First Philosophers of Greece (London: K. Paul, Trench, Trubner, 1898), Hanover Historical Texts Project",
+			"url": "https://history.hanover.edu/texts/presoc/emp.html",
+			"accessed": "2026-09-30",
+			"note": "Fragments 33 (the four roots), 36, 66 and 199 (the bones)"
+		},
+		{
+			"kind": "web",
+			"title": "Democritus",
+			"authors": [
+				{
+					"family": "Berryman",
+					"given": "Sylvia"
+				}
+			],
+			"container": "Stanford Encyclopedia of Philosophy",
+			"published": "2023-01-07",
+			"url": "https://plato.stanford.edu/entries/democritus/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Classical element",
+			"url": "https://en.wikipedia.org/w/index.php?title=Classical_element&oldid=1371480545",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Empedocles",
+			"url": "https://en.wikipedia.org/w/index.php?title=Empedocles&oldid=1376161189",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leucippus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leucippus&oldid=1366588205",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Timaeus (dialogue)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Timaeus_(dialogue)&oldid=1373405450",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Electrolysis of water",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electrolysis_of_water&oldid=1373149175",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atmosphere of Earth",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atmosphere_of_Earth&oldid=1375058235",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "media",
+			"title": "Byrhtferth's diagram of the four elements, their qualities, the seasons and the ages of man, in a copy of about 1110 (St John's College, Oxford, MS 17, fol. 7v)",
+			"url": "https://commons.wikimedia.org/wiki/File:Medieval_four_elements.jpg",
+			"accessed": "2026-09-30",
+			"container": "St John's College, Oxford, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "byrhtferth-diagram.jpg",
+			"authors": [
+				{
+					"name": "Byrhtferth"
+				}
+			],
+			"published": "1110",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/greek-inquiry",
+			"why": "That frame asks the Greeks' question, what everything is made of, and gives Plato's solids; this one follows the four elements and the atoms into chemistry, and does the Timaeus's arithmetic of triangles."
+		},
+		{
+			"to": "physics/aristotle-motion",
+			"why": "Aristotle gave the same four elements a natural place, which drives his physics of motion, and two qualities each, which let them turn into one another and gave alchemy its theory."
+		}
+	]
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M200 36 L200 226"/>
+		<path pathLength="1" d="M130.1 128 a22 22 0 1 0 44 0 a22 22 0 1 0 -44 0"/>
+		<path pathLength="1" d="M225.9 128 a22 22 0 1 0 44 0 a22 22 0 1 0 -44 0"/>
+		<path pathLength="1" d="M176 128 a24 24 0 1 0 48 0 a24 24 0 1 0 -48 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M133 139 L152.1 150 L171.1 139 L171.1 117 L152.1 106 L133 117 Z"/>
+		<path pathLength="1" d="M171.1 117 L186.7 108"/>
+		<path pathLength="1" d="M171.1 139 L186.7 148"/>
+		<path pathLength="1" d="M152.1 106 L152.1 88"/>
+		<path pathLength="1" d="M133 139 L114 150"/>
+		<path pathLength="1" d="M112.3 150 L112.3 168 M115.7 150 L115.7 168"/>
+		<path pathLength="1" d="M114 150 L98.4 141"/>
+		<path pathLength="1" d="M267 139 L247.9 150 L228.9 139 L228.9 117 L247.9 106 L267 117 Z"/>
+		<path pathLength="1" d="M228.9 117 L213.3 108"/>
+		<path pathLength="1" d="M228.9 139 L213.3 148"/>
+		<path pathLength="1" d="M247.9 106 L247.9 88"/>
+		<path pathLength="1" d="M267 139 L286 150"/>
+		<path pathLength="1" d="M284.3 150 L284.3 168 M287.7 150 L287.7 168"/>
+		<path pathLength="1" d="M286 150 L301.6 141"/>
+		<path pathLength="1" d="M193 128 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M138.1 138.2 L150.3 145.2 M167.9 135 L167.9 121 M150.3 110.8 L138.1 117.8"/>
+		<path pathLength="1" d="M186.7 108 L196.1 122.2 M186.7 148 L196.1 133.8"/>
+		<path pathLength="1" d="M261.9 138.2 L249.7 145.2 M232.1 135 L232.1 121 M249.7 110.8 L261.9 117.8"/>
+		<path pathLength="1" d="M213.3 108 L203.9 122.2 M213.3 148 L203.9 133.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="200" y="131.5" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Fe</text>
+		<text x="185.7" y="103" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="185.7" y="159" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="152.1" y="83" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OH</text>
+		<text x="114" y="179" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="90.4" y="144" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HO</text>
+		<text x="214.3" y="103" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="214.3" y="159" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="247.9" y="83" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OH</text>
+		<text x="286" y="179" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="309.6" y="144" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HO</text>
+		<text x="200" y="30" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IRON(III) HELD BY TWO GALLATES · A MODEL</text>
+		<text x="200" y="254" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Fe²⁺ → Fe³⁺ + e⁻</text>
+		<text x="200" y="276" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4 Fe²⁺ + O₂ + 4 H⁺ → 4 Fe³⁺ + 2 H₂O</text>
+	</g>
+</svg>

@@ -1,0 +1,287 @@
+{
+	"id": "iron-gall-ink",
+	"topic": "Iron gall ink",
+	"position": {
+		"label": "c. AD 800",
+		"sort": 800
+	},
+	"scene": {
+		"headline": "The ink ate the",
+		"accent": "PAGE.",
+		"palette": "alum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"OAK GALLS · GREEN VITRIOL · GUM ARABIC",
+			"SCRIPTORIA · BACH · THE DECLARATION OF INDEPENDENCE"
+		],
+		"counter": {
+			"value": "6 : 4 : 4",
+			"label": "ounces of galls, vitriol and gum, in a recipe of 1596"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Iron gall ink: History, Ingredients and Chemistry",
+			"authors": [
+				{
+					"family": "Eusman",
+					"given": "Elmer"
+				}
+			],
+			"container": "The Iron Gall Ink Website",
+			"publisher": "Cultural Heritage Agency of the Netherlands",
+			"published": "1998",
+			"url": "https://irongallink.org/iron-gall-ink-history.html",
+			"accessed": "2026-09-30",
+			"note": "Pliny's test, Martianus Capella, the galls and the vitriol, and the dispute over the pigment's structure"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Ink corrosion: Chemistry",
+			"authors": [
+				{
+					"family": "Banik",
+					"given": "Gerhard"
+				}
+			],
+			"container": "The Iron Gall Ink Website",
+			"publisher": "Cultural Heritage Agency of the Netherlands",
+			"published": "1998",
+			"url": "https://irongallink.org/ink-corrosion-chemistry.html",
+			"accessed": "2026-09-30",
+			"note": "Acid and iron(II) as causes, excess vitriol, and the 1898 St. Gallen conference"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Iron-gall inks: a review of their degradation mechanisms and conservation treatments",
+			"authors": [
+				{
+					"family": "Melo",
+					"given": "Maria João"
+				},
+				{
+					"family": "Otero",
+					"given": "Vanessa"
+				},
+				{
+					"family": "Nabais",
+					"given": "Paula"
+				},
+				{
+					"family": "Teixeira",
+					"given": "Natércia"
+				},
+				{
+					"family": "Pina",
+					"given": "Fernando"
+				},
+				{
+					"family": "Casanova",
+					"given": "Conceição"
+				},
+				{
+					"family": "Fragoso",
+					"given": "Sara"
+				}
+			],
+			"etAl": true,
+			"container": "Heritage Science",
+			"volume": "10",
+			"pages": "145",
+			"published": "2022",
+			"doi": "10.1186/s40494-022-00779-2",
+			"url": "https://www.nature.com/articles/s40494-022-00779-2",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Iron gall ink: Historic ink recipes",
+			"authors": [
+				{
+					"family": "Stijnman",
+					"given": "Ad"
+				}
+			],
+			"container": "The Iron Gall Ink Website",
+			"published": "1998",
+			"url": "https://irongallink.org/iron-gall-ink-historic-recipes.html",
+			"accessed": "2026-09-30",
+			"note": "Transcribing the recipe in A Booke of Secrets (London, 1596)"
+		},
+		{
+			"kind": "web",
+			"title": "Naturalis Historia, Liber XXXIV",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"container": "Wikisource",
+			"url": "https://la.wikisource.org/wiki/Naturalis_Historia/Liber_XXXIV",
+			"accessed": "2026-09-30",
+			"note": "Section 112, the test with papyrus steeped in galls"
+		},
+		{
+			"kind": "web",
+			"title": "The Natural History, Book 34, chapter 26: Verdigris",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"editors": [
+				{
+					"family": "Bostock",
+					"given": "John"
+				},
+				{
+					"family": "Riley",
+					"given": "H. T."
+				}
+			],
+			"container": "Perseus Digital Library",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D34%3Achapter%3D26",
+			"accessed": "2026-09-30",
+			"note": "Bostock and Riley's translation of 1855"
+		},
+		{
+			"kind": "chapter",
+			"title": "Dispersed musical treasures: the music autographs of Beethoven and Bach at the Berlin State Library",
+			"authors": [
+				{
+					"family": "Schneider-Kempf",
+					"given": "Barbara"
+				}
+			],
+			"container": "World Library and Information Congress: 75th IFLA General Conference and Council",
+			"place": "Milan",
+			"publisher": "IFLA",
+			"published": "2009",
+			"url": "https://www.ifla.org/past-wlic/2009/163-schneider-en.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Press Kits: Charters of Freedom Re-encasement Project",
+			"authors": [
+				{
+					"name": "National Archives and Records Administration"
+				}
+			],
+			"container": "National Archives",
+			"url": "https://www.archives.gov/press/press-kits/charters.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Monastic ink: linking chemistry and history",
+			"authors": [
+				{
+					"family": "Farusi",
+					"given": "Gianluca"
+				}
+			],
+			"container": "Science in School",
+			"published": "2007-09-18",
+			"url": "https://scienceinschool.org/article/2007/galls/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Iron gall ink",
+			"url": "https://en.wikipedia.org/w/index.php?title=Iron_gall_ink&oldid=1361914091",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gallic acid",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gallic_acid&oldid=1367976790",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Iron(II) sulfate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Iron(II)_sulfate&oldid=1367976958",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gall",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gall&oldid=1373923818",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "media",
+			"title": "Two oak galls and a jar of iron(II) sulfate, the ingredients of iron gall ink, at the California State Archives",
+			"url": "https://commons.wikimedia.org/wiki/File:Oak_galls_and_iron(II)_sulfate_-_California_State_Archives.jpg",
+			"accessed": "2026-09-30",
+			"container": "Flickr, via Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "galls-and-vitriol.jpg",
+			"authors": [
+				{
+					"name": "vlasta2"
+				}
+			],
+			"published": "2006-10-14"
+		},
+		{
+			"kind": "media",
+			"title": "Ink corrosion in a file of the Hessisches Hauptstaatsarchiv, Wiesbaden",
+			"url": "https://commons.wikimedia.org/wiki/File:Tintenfra%C3%9F.jpg",
+			"accessed": "2026-09-30",
+			"container": "Hessisches Landesarchiv, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "ink-corrosion.jpg",
+			"authors": [
+				{
+					"name": "Hessisches Landesarchiv"
+				}
+			],
+			"published": "2010-08-31"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/scriptorium",
+			"why": "The scribes of the scriptoria wrote in ink of oak galls and iron salts, which bit into the parchment and turned dark brown with age: this frame is that ink's chemistry."
+		}
+	]
+}

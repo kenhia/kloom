@@ -10,7 +10,14 @@
 			"id": "alchemy",
 			"title": "Elements and alchemy",
 			"labelKind": "date",
-			"frames": ["jabir", "gunpowder", "mineral-acids"]
+			"frames": [
+				"four-elements",
+				"alexandrian-alchemy",
+				"iron-gall-ink",
+				"jabir",
+				"gunpowder",
+				"mineral-acids"
+			]
 		},
 		{
 			"id": "revolution",
