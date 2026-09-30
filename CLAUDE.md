@@ -147,8 +147,11 @@ words a page), and the start screen's corner, with About (the book, the
 stats, credits and the build) and the settings gear.
 Sprint 023 exploring for fun: the whole library as a 3D force graph
 (the map's "3D" switch; `3d-force-graph` and three.js loaded only when
-it opens, decorative, with the 2D map as the accessible route), and two
-dice for a random frame in this subject (D) or anywhere (W).
+it opens, decorative, with the 2D map as the accessible route), and two dice for a random frame in this subject (D) or anywhere (W).
+Sprint 024 the sixth subject, `subjects/mathematics` (65 frames: dates
+to 1736, then categories, three trails), every reading doing one piece of
+mathematics, and the first of three author-subject runs reporting to
+korg 3461.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
