@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 55 L40 244 M61 55 L61 244 M82 55 L82 244 M103 55 L103 244 M124 55 L124 244 M145 55 L145 244 M166 55 L166 244 M187 55 L187 244 M208 55 L208 244 M229 55 L229 244 M40 55 L229 55 M40 76 L229 76 M40 97 L229 97 M40 118 L229 118 M40 139 L229 139 M40 160 L229 160 M40 181 L229 181 M40 202 L229 202 M40 223 L229 223 M40 244 L229 244"/>
+		<path pathLength="1" d="M236 230 L364 230"/>
+		<path pathLength="1" d="M300 230 L300 147"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 149.5 a94.5 94.5 0 1 0 189 0 a94.5 94.5 0 1 0 -189 0"/>
+		<path pathLength="1" d="M246 230 L300 155 L354 230"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M50.5 65.5 L218.5 65.5 L218.5 233.5 L50.5 233.5 Z"/>
+		<path pathLength="1" d="M300 236 L354 236"/>
+		<path pathLength="1" d="M354 233 L354 239"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="134.5" y="47" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">9</text>
+		<text x="134.5" y="227.5" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8</text>
+		<text x="134.5" y="153.5" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">64</text>
+		<text x="327" y="248" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">180</text>
+		<text x="280" y="195.5" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">250</text>
+		<text x="300" y="139" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SEKED</text>
+		<text x="300" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5 1/25 PALMS</text>
+		<text x="134.5" y="272" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PROBLEM 50</text>
+		<text x="300" y="272" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PROBLEM 56</text>
+	</g>
+</svg>

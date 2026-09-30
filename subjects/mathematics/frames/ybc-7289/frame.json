@@ -1,0 +1,128 @@
+{
+	"id": "ybc-7289",
+	"topic": "YBC 7289 and Babylonian place value",
+	"position": {
+		"label": "c. 1800–1600 BC",
+		"sort": -1800
+	},
+	"scene": {
+		"headline": "We found the root of",
+		"accent": "TWO.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SOUTHERN MESOPOTAMIA · A SCRIBAL SCHOOL",
+			"CLAY HAND TABLET · BASE 60 · YALE BABYLONIAN COLLECTION"
+		],
+		"counter": {
+			"value": "1;24,51,10",
+			"label": "the square root of two, in base 60"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "YBC 7289",
+			"url": "https://en.wikipedia.org/w/index.php?title=YBC_7289&oldid=1350604398",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-22",
+			"note": "Summarises Fowler and Robson, \"Square Root Approximations in Old Babylonian Mathematics\" (1998), on the reciprocal reading"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Words and Pictures: New Light on Plimpton 322",
+			"authors": [
+				{
+					"family": "Robson",
+					"given": "Eleanor"
+				}
+			],
+			"container": "The American Mathematical Monthly",
+			"volume": "109",
+			"issue": "2",
+			"pages": "105–120",
+			"published": "2002-02",
+			"doi": "10.1080/00029890.2002.11919845",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plimpton 322",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plimpton_322&oldid=1361864624",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-30"
+		},
+		{
+			"kind": "web",
+			"title": "Mathematical Mystery of Ancient Clay Tablet Solved",
+			"container": "UNSW Newsroom",
+			"publisher": "UNSW Sydney",
+			"published": "2017-08-25",
+			"url": "https://www.unsw.edu.au/newsroom/news/2017/08/mathematical-mystery-of-ancient-clay-tablet-solved",
+			"accessed": "2026-09-30",
+			"note": "On Mansfield and Wildberger, \"Plimpton 322 Is Babylonian Exact Sexagesimal Trigonometry\", Historia Mathematica 44 (2017)",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Deborah"
+				}
+			]
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sexagesimal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sexagesimal&oldid=1373022691",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "media",
+			"title": "YBC 7289, obverse and reverse",
+			"url": "https://commons.wikimedia.org/wiki/File:YBC-7289-OBV-REV.jpg",
+			"accessed": "2026-09-30",
+			"container": "Yale Peabody Museum of Natural History, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "ybc-7289.jpg",
+			"authors": [
+				{
+					"family": "Urcia",
+					"given": "A."
+				}
+			],
+			"published": "2019-01-29"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/ptolemy",
+			"why": "Ptolemy's Almagest counts in the Babylonians' sixties, and gives the square root of two as the same four places the student wrote on YBC 7289, 1;24,51,10."
+		},
+		{
+			"to": "western-civ/writing",
+			"why": "YBC 7289's numbers are written in cuneiform, the wedge-shaped script that began at Uruk as accounts: the same marks, fifteen centuries on, holding the square root of two."
+		}
+	]
+}
