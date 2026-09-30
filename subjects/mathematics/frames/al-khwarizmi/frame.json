@@ -1,0 +1,121 @@
+{
+	"id": "al-khwarizmi",
+	"topic": "Al-Khwarizmi's algebra",
+	"position": {
+		"label": "c. AD 820",
+		"sort": 820
+	},
+	"scene": {
+		"headline": "We completed the",
+		"accent": "SQUARE.",
+		"palette": "clay",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BAGHDAD · MUHAMMAD IBN MUSA AL-KHWARIZMI",
+			"AL-JABR WA-L-MUQĀBALA · ROOTS · SQUARES · NUMBERS"
+		],
+		"counter": {
+			"value": "39 + 25 = 64",
+			"label": "the square completed, for x² + 10x = 39"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Algebra of Mohammed ben Musa",
+			"authors": [
+				{
+					"name": "Muhammad ibn Musa al-Khwarizmi"
+				}
+			],
+			"editors": [
+				{
+					"family": "Rosen",
+					"given": "Frederic"
+				}
+			],
+			"publisher": "Oriental Translation Fund",
+			"place": "London",
+			"published": "1831",
+			"url": "https://archive.org/details/algebraofmohamme00khuwuoft",
+			"accessed": "2026-09-30",
+			"note": "Edited and translated by Rosen. The preface to al-Ma'mun, pp. 3–4; x² + 10x = 39, p. 8; its two figures, pp. 13–16"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Al-Khwarizmi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Al-Khwarizmi&oldid=1375350004",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"accessed": "2026-09-30",
+			"note": "His life and names, al-jabr and al-muqābala, Robert of Chester, and the Latin Algoritmi"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "House of Wisdom",
+			"url": "https://en.wikipedia.org/w/index.php?title=House_of_Wisdom&oldid=1375220873",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16",
+			"accessed": "2026-09-30",
+			"note": "The traditional account, and Gutas's doubts about it"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Al-Jabr",
+			"url": "https://en.wikipedia.org/w/index.php?title=Al-Jabr&oldid=1368647525",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Algorithm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Algorithm&oldid=1376037819",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Al-Khwarizmi's two figures for completing the square, in the copy of his algebra made in 1342 (MS. Huntington 214, fols. 4v–5r)",
+			"url": "https://commons.wikimedia.org/wiki/File:Bodleian_MS._Huntington_214_roll332_frame36.jpg",
+			"accessed": "2026-09-30",
+			"container": "Bodleian Libraries, University of Oxford, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "huntington-214.jpg",
+			"authors": [
+				{
+					"name": "Muhammad ibn Musa al-Khwarizmi"
+				}
+			],
+			"published": "1342"
+		}
+	]
+}

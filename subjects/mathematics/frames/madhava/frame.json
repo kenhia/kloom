@@ -1,0 +1,197 @@
+{
+	"id": "madhava",
+	"topic": "Madhava's infinite series",
+	"position": {
+		"label": "c. 1400",
+		"sort": 1400
+	},
+	"scene": {
+		"headline": "We made the series",
+		"accent": "CONVERGE.",
+		"palette": "clay",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SANGAMAGRAMA · KERALA · MADHAVA",
+			"TANTRASAṂGRAHA · YUKTIBHĀṢĀ · π/4 = 1 − 1/3 + 1/5 − …"
+		],
+		"counter": {
+			"value": "3.14159265359",
+			"label": "π in the Yuktibhāṣā, right to eleven places"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Madhava of Sangamagrama",
+			"url": "https://en.wikipedia.org/w/index.php?title=Madhava_of_Sangamagrama&oldid=1376324041",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"accessed": "2026-09-30",
+			"note": "His dates, his successors, and the values of π attributed to the school"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Madhava's correction term",
+			"url": "https://en.wikipedia.org/w/index.php?title=Madhava's_correction_term&oldid=1339494963",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-20",
+			"accessed": "2026-09-30",
+			"note": "The correction rule in the Tantrasaṃgraha commentary, chapter 2, verses 271–274"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ideas of Calculus in Islam and India",
+			"authors": [
+				{
+					"family": "Katz",
+					"given": "Victor J."
+				}
+			],
+			"container": "Mathematics Magazine",
+			"volume": "68",
+			"issue": "3",
+			"pages": "163–174",
+			"published": "1995",
+			"doi": "10.1080/0025570X.1995.11996307",
+			"url": "https://maa.org/sites/default/files/0025570x37767.di021190.02p0147a.pdf",
+			"accessed": "2026-09-30",
+			"note": "Ibn al-Haytham's sums of powers in the Kerala derivations, and the case against rewriting the calculus's history"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Kerala school of astronomy and mathematics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kerala_school_of_astronomy_and_mathematics&oldid=1372284072",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31",
+			"accessed": "2026-09-30",
+			"note": "The question of transmission to Europe, with Bressoud's and Plofker's views as quoted there"
+		},
+		{
+			"kind": "chapter",
+			"title": "On the Hindú Quadrature of the Circle, and the Infinite Series of the Proportion of the Circumference to the Diameter Exhibited in the Four Sástras, the Tantra Sangraham, Yucti Bháshá, Carana Padhati, and Sadratnamála",
+			"authors": [
+				{
+					"family": "Whish",
+					"given": "Charles M."
+				}
+			],
+			"container": "Transactions of the Royal Asiatic Society of Great Britain and Ireland, vol. 3",
+			"pages": "509–523",
+			"publisher": "Royal Asiatic Society",
+			"place": "London",
+			"published": "1835",
+			"url": "https://archive.org/details/transactionsofro03asia/page/509/",
+			"accessed": "2026-09-30",
+			"note": "Read to the Society on 15 December 1832"
+		},
+		{
+			"kind": "web",
+			"title": "Indians Predated Newton 'Discovery' by 250 Years",
+			"container": "Phys.org",
+			"publisher": "University of Manchester",
+			"published": "2007-08-13",
+			"url": "https://phys.org/news/2007-08-indians-predated-newton-discovery-years.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Madhava series",
+			"url": "https://en.wikipedia.org/w/index.php?title=Madhava_series&oldid=1375245198",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yuktibhāṣā",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yuktibh%C4%81%E1%B9%A3%C4%81&oldid=1350123248",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-20",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leibniz formula for π",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leibniz_formula_for_%CF%80&oldid=1370238149",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nilakantha Somayaji",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nilakantha_Somayaji&oldid=1375011875",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Two leaves of a palm-leaf manuscript of the Yuktibhāṣā, from C. M. Whish's collection (Royal Asiatic Society, Whish MS 124)",
+			"url": "https://commons.wikimedia.org/wiki/File:Pages_from_Yuktibhasa.jpg",
+			"accessed": "2026-09-30",
+			"container": "Royal Asiatic Society of Great Britain and Ireland, via Internet Archive and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "yuktibhasa.jpg",
+			"authors": [
+				{
+					"name": "Jyeṣṭhadeva"
+				}
+			],
+			"published": "1800",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/ibn-al-haytham",
+			"why": "The Kerala derivations of the sine and arc-tangent series rest on sums of the powers of the whole numbers that Ibn al-Haytham had worked out in Egypt four centuries earlier, though the Kerala texts name no predecessor."
+		}
+	]
+}

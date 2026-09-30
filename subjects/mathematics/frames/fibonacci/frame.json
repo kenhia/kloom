@@ -1,0 +1,183 @@
+{
+	"id": "fibonacci",
+	"topic": "Fibonacci's Liber Abaci",
+	"position": {
+		"label": "AD 1202",
+		"sort": 1202
+	},
+	"scene": {
+		"headline": "We learned the Indian",
+		"accent": "FIGURES.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PISA · BUGIA · LEONARDO OF PISA",
+			"LIBER ABACI · NINE FIGURES AND ZEPHIRUM · 1, 2, 3, 5, 8, 13"
+		],
+		"counter": {
+			"value": "377",
+			"label": "pairs of rabbits at the year's end"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Il Liber abbaci di Leonardo Pisano",
+			"authors": [
+				{
+					"name": "Leonardo Pisano"
+				}
+			],
+			"editors": [
+				{
+					"family": "Boncompagni",
+					"given": "Baldassarre"
+				}
+			],
+			"container": "Scritti di Leonardo Pisano, matematico del secolo decimoterzo, vol. 1",
+			"publisher": "Tipografia delle scienze matematiche e fisiche",
+			"place": "Rome",
+			"published": "1857",
+			"url": "https://archive.org/details/bub_gb_CrdUBgtAZFoC",
+			"accessed": "2026-09-30",
+			"note": "The prologue, p. 1; the nine figures and zephirum, p. 2; the rabbits, pp. 283–284; the seven old women, p. 311. Translations in the reading are ours"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Fibonacci",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fibonacci&oldid=1366899751",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30",
+			"accessed": "2026-09-30",
+			"note": "His life, the name, and Pisa's decree of 1240"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Medieval Europe's Satanic Ciphers: On the Genesis of a Modern Myth",
+			"authors": [
+				{
+					"family": "Nothaft",
+					"given": "C. Philipp E."
+				}
+			],
+			"container": "British Journal for the History of Mathematics",
+			"volume": "35",
+			"issue": "2",
+			"pages": "107–136",
+			"published": "2020",
+			"doi": "10.1080/26375451.2020.1726050",
+			"url": "https://ora.ox.ac.uk/objects/uuid:71f4c8ca-2b6a-4393-94dc-8d81096985bc",
+			"accessed": "2026-09-30",
+			"note": "The Arte del Cambio's rule of 1299 and what it says, and the abacists and algorists traced to Jordan (1905). Read in the author's manuscript"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Figuring Out: The Spread of Hindu-Arabic Numerals in the European Tradition of Practical Mathematics (13th–16th Centuries)",
+			"authors": [
+				{
+					"family": "Danna",
+					"given": "Raffaele"
+				}
+			],
+			"container": "Nuncius",
+			"volume": "36",
+			"issue": "1",
+			"pages": "5–48",
+			"published": "2021",
+			"doi": "10.1163/18253911-bja10004",
+			"url": "https://brill.com/view/journals/nun/36/1/article-p5_2.xml",
+			"accessed": "2026-09-30",
+			"note": "The abacus schools and their manuals"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Liber Abaci",
+			"url": "https://en.wikipedia.org/w/index.php?title=Liber_Abaci&oldid=1375557463",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fibonacci sequence",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fibonacci_sequence&oldid=1377114891",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hindu–Arabic numeral system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hindu%E2%80%93Arabic_numeral_system&oldid=1377290293",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Golden ratio",
+			"url": "https://en.wikipedia.org/w/index.php?title=Golden_ratio&oldid=1376708956",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "The rabbit problem's table in the margin of a manuscript of the Liber Abaci (Florence, Biblioteca Nazionale Centrale, Conv. Soppr. C.1.2616, fol. 124r)",
+			"url": "https://commons.wikimedia.org/wiki/File:Liber_abbaci_magliab_f124r.jpg",
+			"accessed": "2026-09-30",
+			"container": "Biblioteca Nazionale Centrale di Firenze, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "liber-abaci-rabbits.jpg",
+			"authors": [
+				{
+					"name": "Leonardo Pisano"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/rhind-papyrus",
+			"why": "The riddle of powers of seven that Ahmes set down as problem 79 turns up again in the Liber Abaci, as seven old women on the road to Rome, each with seven mules carrying seven sacks."
+		},
+		{
+			"to": "computing/abacus",
+			"why": "The Liber Abaci, for all its name, taught Europe to reckon in written figures instead of on the counting boards and cloths the abacus frame describes; Italy's 'abacus' manuals never show a board."
+		}
+	]
+}
