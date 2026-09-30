@@ -174,3 +174,21 @@ shared names. This sprint:
   against the item. That belongs in 3442's definition of "correct".
 - The map (3441) takes the density figures above. Physics (3428) is
   written with the author-subject skill's new names and connections steps.
+
+## Deployed
+
+2026-09-29, `just deploy` (the `recipe: deploy` in `.sprint-deploy`) from
+merged main `34a7994` to the kloom service on kai. The recipe built the app,
+restarted `kloom.service`, and `just verify` passed all eight door checks.
+The content clone is at `34a7994` on `grow/kai`, with all 1,111 names.
+
+Verified live on the ssh door (:4891), on this sprint's own behaviour:
+
+- `/ai/eliza`, `/computing/ethernet`, `/feynman/nobel` and
+  `/western-civ/moon-landing` render their new name marks (6, 10, 9 and 8
+  names).
+- `/western-civ/moon-landing` shows the incoming connection from the
+  Apollo guidance computer, and `/feynman/nobel` its connection to DNA.
+- The deployed grow skill carries §Names and connections, which is what
+  grow jobs read.
+- No error or `names:` lines in the service's journal since the restart.
