@@ -1,0 +1,15 @@
+{
+	"id": "the-field",
+	"title": "The field, Ørsted to Hertz",
+	"anchor": "the-field",
+	"spine": {
+		"segments": [
+			{
+				"id": "field",
+				"title": "The field",
+				"labelKind": "date",
+				"frames": ["oersted", "ampere"]
+			}
+		]
+	}
+}

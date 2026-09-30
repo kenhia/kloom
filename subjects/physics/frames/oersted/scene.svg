@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M108 40 L108 280"/>
+		<path pathLength="1" d="M164 162 L170 162 M162.1 176.5 L167.9 178 M156.5 190 L161.7 193 M147.6 201.6 L151.8 205.8 M136 210.5 L139 215.7 M122.5 216.1 L124 221.9 M108 218 L108 224 M93.5 216.1 L92 221.9 M80 210.5 L77 215.7 M68.4 201.6 L64.2 205.8 M59.5 190 L54.3 193 M53.9 176.5 L48.1 178 M52 162 L46 162 M53.9 147.5 L48.1 146 M59.5 134 L54.3 131 M68.4 122.4 L64.2 118.2 M80 113.5 L77 108.3 M93.5 107.9 L92 102.1 M108 106 L108 100 M122.5 107.9 L124 102.1 M136 113.5 L139 108.3 M147.6 122.4 L151.8 118.2 M156.5 134 L161.7 131 M162.1 147.5 L167.9 146"/>
+		<path pathLength="1" d="M108 118 L109.8 118 L111.6 118.2 L113.5 118.3 L115.3 118.6 L117.1 118.9 L118.8 119.4 L120.6 119.8 L122.3 120.4 L124 121 L125.7 121.7 L127.4 122.5 L129 123.3 L130.6 124.2 L132.1 125.2 L133.6 126.2 L135.1 127.3"/>
+		<path pathLength="1" d="M222 162 L362 162 M292 62 L292 262"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M46 162 a62 62 0 1 0 124 0 a62 62 0 1 0 -124 0"/>
+		<path pathLength="1" d="M138.8 122.6 L112.7 165.7 L77.2 201.4 L103.3 158.3 Z"/>
+		<path pathLength="1" d="M105.5 162 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M105 30 L105 290 M111 30 L111 290"/>
+		<path pathLength="1" d="M286 162 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0"/>
+		<path pathLength="1" d="M289 159 L295 165 M289 165 L295 159"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M266 162 a26 26 0 1 0 52 0 a26 26 0 1 0 -52 0"/>
+		<path pathLength="1" d="M311.5 147.2 L314.5 149 L314.5 145.5"/>
+		<path pathLength="1" d="M246 162 a46 46 0 1 0 92 0 a46 46 0 1 0 -92 0"/>
+		<path pathLength="1" d="M328.8 137.2 L331.8 139 L331.8 135.5"/>
+		<path pathLength="1" d="M222 162 a70 70 0 1 0 140 0 a70 70 0 1 0 -140 0"/>
+		<path pathLength="1" d="M349.6 125.2 L352.6 127 L352.6 123.5"/>
+		<path pathLength="1" d="M280 74 L304 74"/>
+		<path pathLength="1" d="M300.5 76 L304 74 L300.5 72"/>
+		<path pathLength="1" d="M304 250 L280 250"/>
+		<path pathLength="1" d="M283.5 248 L280 250 L283.5 252"/>
+	</g>
+	<g>
+		<text x="108" y="24" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N</text>
+		<text x="146.8" y="118.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N</text>
+		<text x="108" y="292" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PLAN · WIRE OVER NEEDLE</text>
+		<text x="292" y="292" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SECTION · CURRENT INTO PAGE</text>
+		<text x="308" y="70" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ABOVE</text>
+		<text x="308" y="246" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BELOW</text>
+	</g>
+</svg>

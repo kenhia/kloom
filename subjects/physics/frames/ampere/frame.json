@@ -1,0 +1,182 @@
+{
+	"id": "ampere",
+	"topic": "Ampère's electrodynamics",
+	"position": {
+		"label": "1820–1826",
+		"sort": 1820
+	},
+	"scene": {
+		"headline": "Two currents drew",
+		"accent": "TOGETHER.",
+		"palette": "gaslight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · ACADEMY OF SCIENCES · ANDRÉ-MARIE AMPÈRE",
+			"PARALLEL CURRENTS · MOLECULAR CURRENTS · THE MÉMOIRE OF 1826"
+		],
+		"counter": {
+			"value": "2 × 10⁻⁷",
+			"label": "newton per metre between two wires a metre apart: the ampere, 1948–2019"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Ampère, André-Marie",
+			"authors": [
+				{
+					"family": "Williams",
+					"given": "L. Pearce"
+				}
+			],
+			"container": "Complete Dictionary of Scientific Biography",
+			"publisher": "Encyclopedia.com",
+			"url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/ampere-andr",
+			"accessed": "2026-09-29",
+			"note": "September 1820, Fresnel and the electrodynamic molecule, the four experiments of the Mémoire"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "André-Marie Ampère",
+			"url": "https://en.wikipedia.org/w/index.php?title=Andr%C3%A9-Marie_Amp%C3%A8re&oldid=1376730985",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "chapter",
+			"title": "Galvanism, from Galvani to Ohm",
+			"authors": [
+				{
+					"family": "Whittaker",
+					"given": "Edmund Taylor"
+				}
+			],
+			"container": "A History of the Theories of Aether and Electricity",
+			"place": "London",
+			"publisher": "Longmans, Green and Co.",
+			"published": "1910",
+			"url": "https://en.wikisource.org/wiki/A_History_of_the_Theories_of_Aether_and_Electricity/Chapter_3",
+			"accessed": "2026-09-29",
+			"note": "Quotes Ampère on the two bars of soft iron"
+		},
+		{
+			"kind": "chapter",
+			"title": "De l'action exercée sur un courant électrique par un autre courant, le globe terrestre ou un aimant",
+			"authors": [
+				{
+					"family": "Ampère",
+					"given": "André-Marie"
+				}
+			],
+			"container": "Mémoires sur l'électromagnétisme et l'électrodynamique",
+			"place": "Paris",
+			"published": "1921",
+			"url": "https://fr.wikisource.org/wiki/Page:Amp%C3%A8re_-_M%C3%A9moires_%C3%89lectromagn%C3%A9tisme_%C3%89lectrodynamique_(1921).djvu/29",
+			"accessed": "2026-09-29",
+			"note": "The 1820 memoir, reprinted; the parallel-wire apparatus and its figure 1, read in the Wikisource transcription"
+		},
+		{
+			"kind": "book",
+			"title": "A Treatise on Electricity and Magnetism",
+			"authors": [
+				{
+					"family": "Maxwell",
+					"given": "James Clerk"
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1873",
+			"url": "https://en.wikisource.org/wiki/A_Treatise_on_Electricity_and_Magnetism/Part_IV/Chapter_III",
+			"accessed": "2026-09-29",
+			"note": "Volume 2, part IV, chapter III, article 528"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Einstein–de Haas effect",
+			"url": "https://en.wikipedia.org/w/index.php?title=Einstein%E2%80%93de_Haas_effect&oldid=1358375117",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ampère's force law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Amp%C3%A8re's_force_law&oldid=1293950569",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-04"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Ampere",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ampere&oldid=1373944867",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "web",
+			"title": "History of the SI: the ampere",
+			"container": "Bureau International des Poids et Mesures",
+			"publisher": "BIPM",
+			"url": "https://www.bipm.org/en/history-si/ampere",
+			"accessed": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "Ampère's apparatus for the action of two parallel currents, figure 1 of his first memoir on electrodynamics",
+			"url": "https://commons.wikimedia.org/wiki/File:Amp%C3%A8re_m%C3%A9moires-0029_fig-1.png",
+			"accessed": "2026-09-29",
+			"container": "Mémoires sur l'électromagnétisme et l'électrodynamique (1921 reprint), Bibliothèque nationale de France, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ampere-parallel-conductors.png",
+			"authors": [
+				{
+					"family": "Ampère",
+					"given": "André-Marie"
+				}
+			],
+			"published": "1820"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/si-redefinition",
+			"why": "The ampere, defined from 1948 by the pull between two parallel wires that Ampère first showed, was one of the units the 2019 redefinition fixed to a constant: the electron's charge."
+		},
+		{
+			"to": "feynman/magnetic-moment",
+			"why": "Einstein and de Haas looked for Ampère's molecular currents and found a ratio that fitted orbiting charges; iron's true ratio, a g-factor near 2, belongs to the electron's spin, the number that frame follows to twelve digits."
+		}
+	]
+}

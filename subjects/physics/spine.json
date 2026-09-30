@@ -29,7 +29,7 @@
 			"id": "heat-light-charge",
 			"title": "Heat, light and charge",
 			"labelKind": "date",
-			"frames": ["coulomb", "young-slits", "carnot", "energy", "spectra", "entropy"]
+			"frames": ["coulomb", "young-slits", "carnot", "the-field", "energy", "spectra", "entropy"]
 		},
 		{
 			"id": "cracks",
