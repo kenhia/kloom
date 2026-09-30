@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M38 36 L184 36"/>
+		<path pathLength="1" d="M38 30 L38 268"/>
+		<path pathLength="1" d="M181 170 L399 170 M290 61 L290 279"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M46 262 L176 262 M46 92.5 L176 92.5 M46 61.1 L176 61.1 M46 50.1 L176 50.1 M46 45 L176 45 M46 42.3 L176 42.3"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M84 61.1 L84 92.5"/>
+		<path pathLength="1" d="M82.2 89.5 L84 92.5 L85.8 89.5"/>
+		<path pathLength="1" d="M106 50.1 L106 92.5"/>
+		<path pathLength="1" d="M104.2 89.5 L106 92.5 L107.8 89.5"/>
+		<path pathLength="1" d="M128 45 L128 92.5"/>
+		<path pathLength="1" d="M126.2 89.5 L128 92.5 L129.8 89.5"/>
+		<path pathLength="1" d="M150 42.3 L150 92.5"/>
+		<path pathLength="1" d="M148.2 89.5 L150 92.5 L151.8 89.5"/>
+		<path pathLength="1" d="M62 92.5 L62 262"/>
+		<path pathLength="1" d="M60.2 259 L62 262 L63.8 259"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M287.5 170 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M279 170 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M246 170 a44 44 0 1 0 88 0 a44 44 0 1 0 -88 0"/>
+		<path pathLength="1" d="M191 170 a99 99 0 1 0 198 0 a99 99 0 1 0 -198 0"/>
+		<path pathLength="1" d="M350.6 94.2 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M353.6 94.2 L320.9 133.2"/>
+		<path pathLength="1" d="M321.5 129.3 L320.9 133.2 L324.6 131.9"/>
+		<path pathLength="1" d="M312.3 120.3 L313.4 117.1 L312.3 116 L308.9 117.1 L305.8 118.1 L304.9 116.7 L306.2 113.4 L307.2 110.3 L305.7 109.6 L302.3 110.8 L299.3 111.6 L298.8 109.9 L300.2 106.5 L300.9 103.6 L299.2 103.2 L295.6 104.5 L292.8 105 L292.6 103.1 L294.1 99.6 L294.6 96.9 L292.5 96.8 L288.9 98.2 L286.4 98.5 L286.5 96.3 L288 92.7 L288.3 90.3 L285.9 90.5 L282.3 91.8 L280.1 91.9 L280.4 89.4 L281.9 85.8 L281.9 83.7 L279.3 84.1 L275.7 85.5 L273.7 85.2 L274.4 82.5 L275.8 79 L275.5 77.2 L272.6 77.8 L269.1 79.1 L267.4 78.5 L268.3 75.6 L269.7 72.1 L269 70.6 L265.9 71.5 L262.5 72.7 L261.2 71.8 L262.2 68.7 L263.5 65.3 L262.5 64.2"/>
+		<path pathLength="1" d="M264.1 67.4 L260.3 66.3 L261.2 70.2"/>
+	</g>
+	<g>
+		<text x="188" y="265" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">n = 1</text>
+		<text x="188" y="95.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">n = 2</text>
+		<text x="188" y="64.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">n = 3</text>
+		<text x="188" y="53.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">n = 4</text>
+		<text x="188" y="39" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">∞</text>
+		<text x="34" y="39" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="34" y="265" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">−13.6</text>
+		<text x="111" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">eV = −13.6/n²</text>
+		<text x="85" y="79.8" font-size="6" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1"> Hα</text>
+		<text x="254.3" y="66.3" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">656 nm</text>
+		<text x="290" y="291" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">r ∝ n²</text>
+	</g>
+</svg>

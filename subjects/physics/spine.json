@@ -44,6 +44,12 @@
 			"frames": ["special-relativity", "general-relativity", "black-holes", "gravitational-waves"]
 		},
 		{
+			"id": "quantum",
+			"title": "The quantum",
+			"labelKind": "category",
+			"frames": ["quantum-mechanics"]
+		},
+		{
 			"id": "cosmos",
 			"title": "The cosmos",
 			"labelKind": "category",

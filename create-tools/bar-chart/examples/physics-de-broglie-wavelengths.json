@@ -1,0 +1,26 @@
+{
+	"title": "De Broglie wavelengths, with green light for comparison (log scale)",
+	"description": "Bar chart on a logarithmic scale of wavelengths in picometres. Green light, for comparison: 500,000. A thermal neutron: about 180. An electron at 54 electronvolts, as in Davisson and Germer's experiment: 167. An electron in a 100-kilovolt electron microscope: 3.7. A C60 fullerene molecule in the Vienna experiment of 1999: 2.5. The electron values are kloom's, computed from λ = h/p; the neutron and fullerene values are as Wikipedia's Matter wave gives them.",
+	"heading": "WAVELENGTH · PICOMETRES · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 1,
+		"max": 1e6,
+		"ticks": [
+			[1, "1"],
+			[100, "100"],
+			[1e4, "10K"],
+			[1e6, "1M"]
+		]
+	},
+	"width": 560,
+	"barWidth": 56,
+	"bars": [
+		{ "label": "Green light", "sublabel": "for scale", "value": 5e5, "display": "500K" },
+		{ "label": "Neutron", "sublabel": "thermal", "value": 180, "display": "~180" },
+		{ "label": "Electron", "sublabel": "54 eV", "value": 167, "display": "167", "highlight": true },
+		{ "label": "Electron", "sublabel": "100 kV", "value": 3.7, "display": "3.7" },
+		{ "label": "C60", "sublabel": "Vienna 1999", "value": 2.5, "display": "2.5" }
+	]
+}

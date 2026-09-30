@@ -1,0 +1,165 @@
+{
+	"id": "de-broglie",
+	"topic": "De Broglie's matter waves",
+	"position": {
+		"label": "1924",
+		"sort": 1924
+	},
+	"scene": {
+		"headline": "Every particle had a",
+		"accent": "WAVELENGTH.",
+		"palette": "cloudchamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · THE SORBONNE · LOUIS DE BROGLIE, 1924",
+			"NEW YORK · DAVISSON AND GERMER · ABERDEEN · G. P. THOMSON, 1927"
+		],
+		"counter": {
+			"value": "54 eV",
+			"label": "the electrons of Davisson and Germer's clearest diffraction peak, scattered at 50°"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Louis de Broglie",
+			"url": "https://en.wikipedia.org/w/index.php?title=Louis_de_Broglie&oldid=1377112218",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Matter wave",
+			"url": "https://en.wikipedia.org/w/index.php?title=Matter_wave&oldid=1370168200",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Davisson–Germer experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Davisson%E2%80%93Germer_experiment&oldid=1367359813",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-02"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Quantum Theory at the Crossroads: Reconsidering the 1927 Solvay Conference",
+			"url": "https://arxiv.org/abs/quant-ph/0609184",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Bacciagaluppi",
+					"given": "Guido"
+				},
+				{
+					"family": "Valentini",
+					"given": "Antony"
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "2009",
+			"note": "De Broglie's thesis and Einstein's letter to Langevin, quoting Darrigol, in §2.2.2"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Paget Thomson",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Paget_Thomson&oldid=1377063138",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Electron microscope",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electron_microscope&oldid=1371644188",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ernst Ruska",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ernst_Ruska&oldid=1376039677",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "An electron diffraction photograph by G. P. Thomson, from a set of copies of his original plates, Aberdeen, 1925–27",
+			"url": "https://commons.wikimedia.org/wiki/File:A565_G_P_Thomson_Electron_Diffraction.jpg",
+			"accessed": "2026-09-29",
+			"container": "Science Museum Group, object 1948-190, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "thomson-diffraction.jpg",
+			"authors": [
+				{
+					"name": "Science Museum Group"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "De Broglie wavelengths, with green light for comparison (chart)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Matter_wave&oldid=1370168200",
+			"accessed": "2026-09-29",
+			"container": "Drawn for kloom; electron values computed from λ = h/p, others from Wikipedia's Matter wave",
+			"licence": "MIT",
+			"file": "wavelengths.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/every-path",
+			"why": "The electrons that Jönsson sent through two slits in 1961, and that later built up the bands one dot at a time, were showing de Broglie's wave, each electron with its own wavelength h/p."
+		},
+		{
+			"to": "feynman/plenty-of-room",
+			"why": "Feynman's 1959 call for electron microscopes a hundred times sharper asked for detail the electron's short wavelength allowed but the lenses of the day could not reach; aberration correctors began to close the gap in 1998."
+		}
+	]
+}

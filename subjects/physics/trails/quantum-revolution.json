@@ -1,0 +1,15 @@
+{
+	"id": "quantum-revolution",
+	"title": "The quantum revolution, 1900–1927",
+	"anchor": "quantum-mechanics",
+	"spine": {
+		"segments": [
+			{
+				"id": "revolution",
+				"title": "The revolution",
+				"labelKind": "date",
+				"frames": ["photon", "bohr-atom", "de-broglie"]
+			}
+		]
+	}
+}

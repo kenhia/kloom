@@ -1,0 +1,260 @@
+{
+	"id": "quantum-mechanics",
+	"topic": "Quantum mechanics",
+	"position": {
+		"label": "Quantum mechanics"
+	},
+	"asOf": "2026-09-29",
+	"scene": {
+		"headline": "We learned to add",
+		"accent": "AMPLITUDES.",
+		"palette": "photoplate",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GÖTTINGEN · COPENHAGEN · BRUSSELS",
+			"STATE · SUPERPOSITION · BORN RULE · MEASUREMENT"
+		],
+		"counter": {
+			"value": "36%",
+			"label": "of 1,101 physicists who favoured the Copenhagen interpretation in Nature's 2025 survey"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Quantum Theory at the Crossroads: Reconsidering the 1927 Solvay Conference",
+			"url": "https://arxiv.org/abs/quant-ph/0609184",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Bacciagaluppi",
+					"given": "Guido"
+				},
+				{
+					"family": "Valentini",
+					"given": "Antony"
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "2009",
+			"note": "Read in the arXiv version; the missing clash is in the preface and chapter 12"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Physicists disagree wildly on what quantum mechanics says about reality, Nature survey shows",
+			"doi": "10.1038/d41586-025-02342-y",
+			"url": "https://www.nature.com/articles/d41586-025-02342-y",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Gibney",
+					"given": "Elizabeth"
+				}
+			],
+			"container": "Nature",
+			"volume": "643",
+			"pages": "1175–1179",
+			"published": "2025-07-30",
+			"note": "The article is paywalled; the counts are kloom's, from its open supplementary methodology and data"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Copenhagen interpretation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Copenhagen_interpretation&oldid=1355479498",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-22"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Bohr–Einstein debates",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bohr%E2%80%93Einstein_debates&oldid=1373391169",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Born rule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Born_rule&oldid=1368836124",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "web",
+			"title": "The statistical interpretation of quantum mechanics",
+			"url": "https://www.nobelprize.org/uploads/2018/06/born-lecture.pdf",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Born",
+					"given": "Max"
+				}
+			],
+			"container": "Nobel Lecture, 11 December 1954",
+			"publisher": "The Nobel Foundation",
+			"published": "1954-12-11"
+		},
+		{
+			"kind": "article",
+			"title": "Zur Quantenmechanik der Stoßvorgänge",
+			"doi": "10.1007/BF01397477",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Born",
+					"given": "Max"
+				}
+			],
+			"container": "Zeitschrift für Physik",
+			"volume": "37",
+			"issue": "12",
+			"pages": "863–867",
+			"published": "1926",
+			"note": "Its footnote on the square of the amplitude as described in Wikipedia's Born rule"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum mechanics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_mechanics&oldid=1377463988",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wave function",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wave_function&oldid=1377602645",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Interpretations of quantum mechanics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Interpretations_of_quantum_mechanics&oldid=1376629406",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Measurement problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Measurement_problem&oldid=1372264965",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Many-worlds interpretation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Many-worlds_interpretation&oldid=1377058731",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Solvay Conference",
+			"url": "https://en.wikipedia.org/w/index.php?title=Solvay_Conference&oldid=1373224547",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "media",
+			"title": "Niels Bohr and Albert Einstein at Paul Ehrenfest's home in Leiden, probably 11 December 1925",
+			"url": "https://commons.wikimedia.org/wiki/File:Niels_Bohr_Albert_Einstein_by_Ehrenfest.jpg",
+			"accessed": "2026-09-29",
+			"container": "Photograph by Paul Ehrenfest, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "bohr-einstein.jpg",
+			"authors": [
+				{
+					"family": "Ehrenfest",
+					"given": "Paul"
+				}
+			],
+			"published": "1925"
+		},
+		{
+			"kind": "media",
+			"title": "Favoured interpretation of quantum mechanics among 1,101 researchers, Nature survey, 2025 (chart)",
+			"url": "https://www.nature.com/articles/d41586-025-02342-y",
+			"accessed": "2026-09-29",
+			"container": "Drawn for kloom from Nature's published survey data",
+			"licence": "MIT",
+			"file": "interpretations.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/every-path",
+			"why": "The same rule, worked with two slits instead of two mirrors: add the amplitudes for the ways that are not recorded, square the sum, and learn which way it went and the bands vanish."
+		},
+		{
+			"to": "feynman/path-integral",
+			"why": "Feynman's sum over histories is a third way of writing this same theory, equivalent to the matrix and wave mechanics of 1925–26 and predicting exactly what they do."
+		}
+	]
+}
