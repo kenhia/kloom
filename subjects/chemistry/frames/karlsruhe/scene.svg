@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M24 112 L186 112"/>
+		<path pathLength="1" d="M100 76 L100 244"/>
+		<path pathLength="1" d="M56 176 L144 176"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M34 96 L34 236 L176 236 L176 96"/>
+		<path pathLength="1" d="M66 176 a34 34 0 1 0 68 0 a34 34 0 1 0 -68 0"/>
+		<path pathLength="1" d="M81.2 148.6 L48.8 39.8 L48.8 42.9 L47.2 40.2 L77 149.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M152 58 L152 214"/>
+		<path pathLength="1" d="M158 58 L158 214"/>
+		<path pathLength="1" d="M152 58 L152.2 56.9 L152.9 55.9 L153.9 55.2 L155 55 L156.1 55.2 L157.1 55.9 L157.8 56.9 L158 58"/>
+		<path pathLength="1" d="M148 220 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M155 213 L155 130"/>
+		<path pathLength="1" d="M80 262 L80 250 L120 250 L120 262 M100 250 L93 243 L100 238 L107 243 L100 250"/>
+		<path pathLength="1" d="M42 116 L48 116 M54 116 L60 116 M138 116 L144 116 M150 116 L156 116 M162 116 L168 116 M174 116 L180 116"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M250 46 L250 234"/>
+		<path pathLength="1" d="M270.4 46 L270.4 234"/>
+		<path pathLength="1" d="M290.8 46 L290.8 234"/>
+		<path pathLength="1" d="M311.2 46 L311.2 234"/>
+		<path pathLength="1" d="M331.6 46 L331.6 234"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M250 62 L297.6 62"/>
+		<path pathLength="1" d="M297.6 58 L297.6 66"/>
+		<path pathLength="1" d="M250 88 L324.8 88"/>
+		<path pathLength="1" d="M324.8 84 L324.8 92"/>
+		<path pathLength="1" d="M250 114 L379.2 114"/>
+		<path pathLength="1" d="M379.2 110 L379.2 118"/>
+		<path pathLength="1" d="M250 140 L277.2 140"/>
+		<path pathLength="1" d="M277.2 136 L277.2 144"/>
+		<path pathLength="1" d="M250 166 L297.6 166"/>
+		<path pathLength="1" d="M297.6 162 L297.6 170"/>
+		<path pathLength="1" d="M250 192 L321.4 192"/>
+		<path pathLength="1" d="M321.4 188 L321.4 196"/>
+		<path pathLength="1" d="M250 218 L375.8 218"/>
+		<path pathLength="1" d="M375.8 214 L375.8 222"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M250 57 L270.4 57 L270.4 67 L250 67 Z"/>
+		<path pathLength="1" d="M250 83 L270.4 83 L270.4 93 L250 93 Z"/>
+		<path pathLength="1" d="M250 109 L270.4 109 L270.4 119 L250 119 Z"/>
+		<path pathLength="1" d="M250 135 L270.4 135 L270.4 145 L250 145 Z"/>
+		<path pathLength="1" d="M250 161 L290.8 161 L290.8 171 L250 171 Z"/>
+		<path pathLength="1" d="M250 187 L311.2 187 L311.2 197 L250 197 Z"/>
+		<path pathLength="1" d="M250 213 L331.6 213 L331.6 223 L250 223 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="244" y="65" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CO</text>
+		<text x="244" y="91" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CO₂</text>
+		<text x="244" y="117" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CS₂</text>
+		<text x="244" y="143" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CH₄</text>
+		<text x="244" y="169" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C₂H₄</text>
+		<text x="244" y="195" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C₃H₆</text>
+		<text x="244" y="221" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C₄H₁₀O</text>
+		<text x="270.4" y="246" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">12</text>
+		<text x="290.8" y="246" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">24</text>
+		<text x="311.2" y="246" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">36</text>
+		<text x="331.6" y="246" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">48</text>
+		<text x="318" y="30" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CARBON IN EACH MOLECULE</text>
+		<text x="105" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VAPOUR DENSITY BULB</text>
+	</g>
+</svg>

@@ -1,0 +1,30 @@
+{
+	"chemistry/chirality": [
+		["Louis Pasteur", "louis-pasteur"],
+		["chirality", "chirality-chemistry"],
+		["tartaric acid", "tartaric-acid"],
+		["Jean-Baptiste Biot", "jean-baptiste-biot"],
+		["Eilhard Mitscherlich", "eilhard-mitscherlich"],
+		["thalidomide", "thalidomide"]
+	],
+	"chemistry/structure-theory": [
+		["August Kekulé", "august-kekule"],
+		["Archibald Scott Couper", "archibald-scott-couper"],
+		["valence", "valence-chemistry"],
+		["benzene", "benzene"],
+		["Johann Josef Loschmidt", "johann-josef-loschmidt"],
+		["Arthur Cayley", "arthur-cayley"],
+		["James Joseph Sylvester", "james-joseph-sylvester"],
+		["Graph theory", "graph-theory"]
+	],
+	"chemistry/karlsruhe": [
+		["August Kekulé", "august-kekule"],
+		["Karlsruhe Congress", "karlsruhe-congress"],
+		["Amedeo Avogadro", "amedeo-avogadro"],
+		["Avogadro's law", "avogadros-law"],
+		["Stanislao Cannizzaro", "stanislao-cannizzaro"],
+		["Lothar Meyer", "lothar-meyer"],
+		["Dmitri Mendeleev", "dmitri-mendeleev"],
+		["Avogadro constant", "avogadro-constant"]
+	]
+}

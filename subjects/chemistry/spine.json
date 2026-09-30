@@ -13,6 +13,12 @@
 			"frames": ["jabir", "gunpowder", "mineral-acids"]
 		},
 		{
+			"id": "atoms",
+			"title": "Atoms and the table",
+			"labelKind": "date",
+			"frames": ["chirality", "structure-theory", "karlsruhe"]
+		},
+		{
 			"id": "industry",
 			"title": "Industry",
 			"labelKind": "category",

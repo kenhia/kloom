@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60 128 a36 36 0 1 0 72 0 a36 36 0 1 0 -72 0"/>
+		<path pathLength="1" d="M38 128 a58 58 0 1 0 116 0 a58 58 0 1 0 -116 0"/>
+		<path pathLength="1" d="M96 92 L96 164"/>
+		<path pathLength="1" d="M127.2 110 L64.8 146"/>
+		<path pathLength="1" d="M127.2 146 L64.8 110"/>
+		<path pathLength="1" d="M188 22 L188 278"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M96 92 L127.2 110 L127.2 146 L96 164 L64.8 146 L64.8 110 Z"/>
+		<path pathLength="1" d="M226 64 L246.8 76 M246.8 76 L267.6 64 M267.6 64 L288.4 76 M288.4 76 L309.1 64"/>
+		<path pathLength="1" d="M238 150 L258.8 162 M258.8 162 L279.6 150 M279.6 150 L300.4 162 M258.8 162 L258.8 186"/>
+		<path pathLength="1" d="M292 236 L316 236 M292 236 L292 260 M292 236 L268 236 M292 236 L292 212"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M100 98 L120 109.5 M120 146.5 L100 158 M68 139.5 L68 116.5"/>
+		<path pathLength="1" d="M96 89 L96 77 M129.8 108.5 L140.2 102.5 M129.8 147.5 L140.2 153.5 M96 167 L96 179 M62.2 147.5 L51.8 153.5 M62.2 108.5 L51.8 102.5"/>
+		<path pathLength="1" d="M223 64 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M243.8 76 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M264.6 64 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M285.4 76 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M306.1 64 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M235 150 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M255.8 162 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M276.6 150 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M297.4 162 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M255.8 186 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M289 236 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M313 236 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M289 260 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M265 236 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M289 212 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="96" y="73" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">H</text>
+		<text x="146.2" y="102" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">H</text>
+		<text x="146.2" y="160" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">H</text>
+		<text x="96" y="189" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">H</text>
+		<text x="45.8" y="160" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">H</text>
+		<text x="45.8" y="102" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">H</text>
+		<text x="233" y="59" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="246.8" y="91" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="274.6" y="59" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="288.4" y="91" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="316.1" y="59" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="245" y="145" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="265.8" y="173" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="286.6" y="145" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="300.4" y="177" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="266.8" y="189" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="323" y="231" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="299" y="255" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="275" y="231" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="299" y="207" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3</text>
+		<text x="96" y="214" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C₆H₆ · 1865</text>
+		<text x="96" y="30" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BENZENE</text>
+		<text x="296" y="22" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C₅H₁₂ · THREE TREES</text>
+	</g>
+</svg>

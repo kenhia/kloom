@@ -1,0 +1,216 @@
+{
+	"id": "structure-theory",
+	"topic": "Kekulé, valence and the benzene ring",
+	"position": {
+		"label": "1858–65",
+		"sort": 1858
+	},
+	"scene": {
+		"headline": "We closed the carbon chain into a",
+		"accent": "RING.",
+		"palette": "retort",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HEIDELBERG · PARIS · GHENT",
+			"AUGUST KEKULÉ · A. S. COUPER · ARTHUR CAYLEY",
+			"FOUR BONDS TO CARBON · C₆H₆ · TREES"
+		],
+		"counter": {
+			"value": "3",
+			"label": "trees of five carbons: the compounds C₅H₁₂"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/konigsberg",
+			"why": "Sylvester named the graph in 1878 after chemistry's diagrams of atoms and bonds; the historians of graph theory begin it with Euler's bridges of Königsberg."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "August Kekulé",
+			"url": "https://en.wikipedia.org/w/index.php?title=August_Kekul%C3%A9&oldid=1374238861",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Benzene",
+			"url": "https://en.wikipedia.org/w/index.php?title=Benzene&oldid=1377703409",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Mathematical Theory of Isomers",
+			"authors": [
+				{
+					"family": "Cayley",
+					"given": "Arthur"
+				}
+			],
+			"container": "Philosophical Magazine",
+			"volume": "47",
+			"issue": "314",
+			"pages": "444–447",
+			"published": "1874",
+			"doi": "10.1080/14786447408641058",
+			"url": "https://archive.org/details/collectedmathema09cayluoft",
+			"accessed": "2026-09-30",
+			"note": "Hydrocarbons as trees, and eight five-carbon alcohols where two were known. Read in The Collected Mathematical Papers of Arthur Cayley, vol. 9 (Cambridge, 1896), archive.org"
+		},
+		{
+			"kind": "chapter",
+			"title": "On the Analytical Forms Called Trees, with Application to the Theory of Chemical Combinations",
+			"authors": [
+				{
+					"family": "Cayley",
+					"given": "Arthur"
+				}
+			],
+			"container": "Report of the Forty-Fifth Meeting of the British Association for the Advancement of Science",
+			"pages": "257–305",
+			"published": "1875",
+			"url": "https://archive.org/details/collectedmathema09cayluoft",
+			"accessed": "2026-09-30",
+			"note": "Read in The Collected Mathematical Papers of Arthur Cayley, vol. 9 (Cambridge, 1896), archive.org"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Chemistry and Algebra",
+			"authors": [
+				{
+					"family": "Sylvester",
+					"given": "James Joseph"
+				}
+			],
+			"container": "Nature",
+			"volume": "17",
+			"issue": "432",
+			"pages": "284",
+			"published": "1878-02-07",
+			"doi": "10.1038/017284a0",
+			"url": "https://archive.org/details/sim_nature-uk_1878-02-07_17_432",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Joseph Loschmidt: Structural Formulae, 1861",
+			"authors": [
+				{
+					"family": "Rzepa",
+					"given": "Henry S."
+				}
+			],
+			"container": "Imperial College London",
+			"published": "2005-05-06",
+			"url": "https://www.ch.ic.ac.uk/rzepa/loschmidt/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Archibald Scott Couper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Archibald_Scott_Couper&oldid=1374024868",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johann Josef Loschmidt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johann_Josef_Loschmidt&oldid=1372021331",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Graph theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Graph_theory&oldid=1376682014",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alkane",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alkane&oldid=1375627757",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Amyl alcohol",
+			"url": "https://en.wikipedia.org/w/index.php?title=Amyl_alcohol&oldid=1360073459",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-19"
+		},
+		{
+			"kind": "media",
+			"title": "Kekulé's benzene: six carbon atoms in a chain that closes on itself",
+			"url": "https://commons.wikimedia.org/wiki/File:Benze-1865.jpg",
+			"accessed": "2026-09-30",
+			"container": "Bulletin de la Société chimique de Paris, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "benzene-1865.jpg",
+			"authors": [
+				{
+					"family": "Kekulé",
+					"given": "August"
+				}
+			],
+			"published": "1865"
+		}
+	]
+}

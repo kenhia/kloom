@@ -1,0 +1,237 @@
+{
+	"id": "chirality",
+	"topic": "Pasteur and molecular handedness",
+	"position": {
+		"label": "1848",
+		"sort": 1848
+	},
+	"scene": {
+		"headline": "We sorted the crystals by",
+		"accent": "HAND.",
+		"palette": "filter",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · ÉCOLE NORMALE · LOUIS PASTEUR",
+			"SODIUM AMMONIUM RACEMATE · TWEEZERS · POLARIMETER"
+		],
+		"counter": {
+			"value": "+12° / −12°",
+			"label": "specific rotation of the two tartaric acids"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Researches on the Molecular Asymmetry of Natural Organic Products",
+			"authors": [
+				{
+					"family": "Pasteur",
+					"given": "Louis"
+				}
+			],
+			"publisher": "The Alembic Club",
+			"place": "Edinburgh",
+			"published": "1905",
+			"url": "https://archive.org/details/researchesonmole00past",
+			"accessed": "2026-09-30",
+			"note": "Alembic Club Reprint 14: Pasteur's two lectures of 1860, with the hemihedral faces and Biot's test"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Louis Pasteur's Discovery of Molecular Chirality and Spontaneous Resolution in 1848, Together with a Complete Review of His Crystallographic and Chemical Work",
+			"authors": [
+				{
+					"family": "Flack",
+					"given": "Howard D."
+				}
+			],
+			"container": "Acta Crystallographica Section A",
+			"volume": "65",
+			"issue": "5",
+			"pages": "371–389",
+			"published": "2009",
+			"doi": "10.1107/S0108767309024088",
+			"url": "https://wayback.archive-it.org/all/20120906001007/http://crystal.flack.ch/sh5092.pdf",
+			"accessed": "2026-09-30",
+			"note": "The notebooks against the published story, the date of 22 May 1848, Scacchi's 28 °C and the fermentation"
+		},
+		{
+			"kind": "article",
+			"title": "Pasteur and Chirality: A Story of How Serendipity Favors the Prepared Minds",
+			"authors": [
+				{
+					"family": "Vantomme",
+					"given": "Ghislaine"
+				},
+				{
+					"family": "Crassous",
+					"given": "Jeanne"
+				}
+			],
+			"container": "Chirality",
+			"volume": "33",
+			"issue": "10",
+			"pages": "597–601",
+			"published": "2021",
+			"doi": "10.1002/chir.23349",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9291139/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Thalidomide-Induced Teratogenesis: History and Mechanisms",
+			"authors": [
+				{
+					"family": "Vargesson",
+					"given": "Neil"
+				}
+			],
+			"container": "Birth Defects Research Part C: Embryo Today",
+			"volume": "105",
+			"issue": "2",
+			"pages": "140–156",
+			"published": "2015",
+			"doi": "10.1002/bdrc.21096",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4737249/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "report",
+			"title": "Development of New Stereoisomeric Drugs",
+			"authors": [
+				{
+					"name": "Center for Drug Evaluation and Research"
+				}
+			],
+			"publisher": "U.S. Food and Drug Administration",
+			"published": "1992-05-01",
+			"url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/development-new-stereoisomeric-drugs",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "L-Tartaric Acid (CID 444305): Optical Rotation",
+			"container": "PubChem",
+			"publisher": "National Library of Medicine",
+			"url": "https://pubchem.ncbi.nlm.nih.gov/compound/444305#section=Optical-Rotation",
+			"accessed": "2026-09-30",
+			"note": "Quoting the EU specification for E 334, Regulation (EU) No 231/2012"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Louis Pasteur",
+			"url": "https://en.wikipedia.org/w/index.php?title=Louis_Pasteur&oldid=1376392394",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chirality (chemistry)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chirality_(chemistry)&oldid=1377591276",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tartaric acid",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tartaric_acid&oldid=1374896506",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Racemic acid",
+			"url": "https://en.wikipedia.org/w/index.php?title=Racemic_acid&oldid=1364627765",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Specific rotation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Specific_rotation&oldid=1280580200",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-03-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean-Baptiste Biot",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean-Baptiste_Biot&oldid=1372018851",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thalidomide",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thalidomide&oldid=1376197756",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "media",
+			"title": "Left ammonium tartrate made by fermenting the racemate, in a labelled bottle at the Musée Pasteur",
+			"url": "https://commons.wikimedia.org/wiki/File:Left_ammonium_tartrate_crystals_Mus%C3%A9e_Pasteur_Cr%C3%A9er_le_cristal.jpg",
+			"accessed": "2026-09-30",
+			"container": "Musée Pasteur, Paris, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "tartrate-crystals.jpg",
+			"authors": [
+				{
+					"name": "Marie-Lan Taÿ Pamart"
+				}
+			],
+			"published": "2026-02-03"
+		}
+	]
+}
