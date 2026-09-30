@@ -118,3 +118,25 @@ citations, 281 connections and 1,461 names.
 ## Follow-ups
 
 - None filed.
+
+## Deployed
+
+2026-09-30, by `just deploy` from merged `main` (`79a78be`, PR #26) to the
+kai service. `just verify` passed all eight door checks. The content clone
+is on `grow/kai` at `79a78be`.
+
+Verified live:
+
+- `GET /api/stats` returns 200 on both doors in about 0.16 s, so it is an
+  open read on the tailnet door. It reports 225,326 words and 819 pages:
+  ai 180, computing 213, feynman 170, physics 215, western-civ 41. The
+  service's content matches the repo's.
+- The About panel shows "Build 79a78be · 2026-09-30".
+- The keyboard walk from Verification was rerun against the ssh door at
+  1400×900 and 390×844, and each step behaved the same:
+  - About opened on "…a 819-page book".
+  - Esc in About or in Settings closed the pop-up and left the start
+    screen open.
+  - The palette mode, changed from the start screen, recoloured it.
+  - A second Esc began.
+  - There were no page errors.
