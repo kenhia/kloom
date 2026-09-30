@@ -1,0 +1,34 @@
+"""The chemistry subject's scene plates (sprint 025).
+
+    python3 create-tools/draw-plates/chemistry.py [frame ...]
+
+Writes subjects/chemistry/frames/<frame>/scene.svg; with no arguments, redraws
+every frame. The plates live in `chemistry_<part>.py` modules beside this one, each
+exporting `PLATES = {frame id: function returning a D}`, so several authors
+can draw at once without editing one file. Unlike western_civ.py, a plate
+function returns its drawing and this script saves it.
+"""
+import importlib, os, sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+FRAMES = os.path.join(HERE, '..', '..', 'subjects', 'chemistry', 'frames')
+
+
+def plates():
+    found = {}
+    for name in sorted(f[:-3] for f in os.listdir(HERE) if f.startswith('chemistry_') and f.endswith('.py')):
+        for frame, fn in importlib.import_module(name).PLATES.items():
+            if frame in found:
+                sys.exit(f'chemistry.py: {frame} is drawn by two modules')
+            found[frame] = fn
+    return found
+
+
+if __name__ == '__main__':
+    all_plates = plates()
+    for frame in sys.argv[1:] or sorted(all_plates):
+        if frame not in all_plates:
+            sys.exit(f'chemistry.py: no plate for {frame}')
+        all_plates[frame]().save(os.path.join(FRAMES, frame, 'scene.svg'))
+        print(f'drew {frame}')

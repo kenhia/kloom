@@ -1,0 +1,30 @@
+{
+	"chemistry/copper-smelting": [
+		["Vinča culture", "vinca-culture"],
+		["copper", "copper"],
+		["National Museum of Serbia", "national-museum-of-serbia"],
+		["smelting", "smelting"],
+		["malachite", "malachite"],
+		["Pločnik", "plocnik-archaeological-site"],
+		["Çatalhöyük", "catalhoyuk"]
+	],
+	"chemistry/tyrian-purple": [
+		["Crete", "crete"],
+		["Tyrian purple", "tyrian-purple"],
+		["Tyre", "tyre-lebanon"],
+		["Paul Friedländer", "paul-friedlander-chemist"],
+		["bromine", "bromine"],
+		["Pliny the Elder", "pliny-the-elder"],
+		["Timna Valley", "timna-valley"]
+	],
+	"chemistry/clay-recipes": [
+		["Assur", "assur"],
+		["Tapputi", "tapputi"],
+		["Tukulti-Ninurta I", "tukulti-ninurta-i"],
+		["Ashurbanipal", "ashurbanipal"],
+		["Nineveh", "nineveh"],
+		["Salicornia", "salicornia"],
+		["Sippar", "sippar"],
+		["British Museum", "british-museum"]
+	]
+}

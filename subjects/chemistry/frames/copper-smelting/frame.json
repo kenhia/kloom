@@ -1,0 +1,134 @@
+{
+	"id": "copper-smelting",
+	"topic": "The first copper smelting",
+	"position": {
+		"label": "c. 5000 BC",
+		"sort": -5000
+	},
+	"scene": {
+		"headline": "We pulled metal out of",
+		"accent": "STONE.",
+		"palette": "furnace",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BELOVODE AND PLOČNIK · SERBIA · VINČA CULTURE",
+			"MALACHITE · CHARCOAL · SIX BLOWPIPES"
+		],
+		"counter": {
+			"value": "57%",
+			"label": "of malachite's weight is copper"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Early Balkan Metallurgy: Origins, Evolution and Society, 6200–3700 BC",
+			"authors": [
+				{
+					"family": "Radivojević",
+					"given": "Miljana"
+				},
+				{
+					"family": "Roberts",
+					"given": "Benjamin W."
+				}
+			],
+			"container": "Journal of World Prehistory",
+			"volume": "34",
+			"issue": "2",
+			"pages": "195–278",
+			"published": "2021",
+			"doi": "10.1007/s10963-021-09155-7",
+			"accessed": "2026-09-30",
+			"note": "Belovode's slags, the ores chosen by colour, the Pločnik smelting experiment and Çatalhöyük's reanalysis"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Smelting",
+			"url": "https://en.wikipedia.org/w/index.php?title=Smelting&oldid=1375341926",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Malachite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Malachite&oldid=1377726713",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Copper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Copper&oldid=1374343138",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chalcolithic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chalcolithic&oldid=1373076884",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "media",
+			"title": "Chalcolithic copper axe from the Pločnik hoard (c. 5000–4500 BC) beside a modern replica",
+			"url": "https://commons.wikimedia.org/wiki/File:Copper_axes_with_modern_replicas,_National_Museum_of_Serbia_04_2413-2423_(01).jpg",
+			"accessed": "2026-09-30",
+			"container": "National Museum of Serbia, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "plocnik-axes.jpg",
+			"authors": [
+				{
+					"name": "CryolophosaurusEllioti"
+				}
+			],
+			"published": "2023-04-02"
+		},
+		{
+			"kind": "media",
+			"title": "Native copper, malachite and azurite, from the Black Hills, South Dakota",
+			"url": "https://commons.wikimedia.org/wiki/File:Native_copper,_malachite,_and_azurite_(GeoDIL_number_-_895).jpg",
+			"accessed": "2026-09-30",
+			"container": "GeoDIL, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "malachite-ore.jpg",
+			"authors": [
+				{
+					"name": "Darla Sondrol"
+				}
+			],
+			"published": "2001"
+		}
+	]
+}
