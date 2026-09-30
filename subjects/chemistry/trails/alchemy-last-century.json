@@ -1,0 +1,15 @@
+{
+	"id": "alchemy-last-century",
+	"title": "Alchemy's last century",
+	"anchor": "boyle",
+	"spine": {
+		"segments": [
+			{
+				"id": "alchemists",
+				"title": "Alchemy's last century",
+				"labelKind": "date",
+				"frames": ["brand-phosphorus", "newton-alchemy", "bottger-porcelain"]
+			}
+		]
+	}
+}

@@ -1,0 +1,201 @@
+{
+	"id": "brand-phosphorus",
+	"topic": "Brand's phosphorus",
+	"position": {
+		"label": "1669",
+		"sort": 1669
+	},
+	"scene": {
+		"headline": "We boiled down urine and it began to",
+		"accent": "GLOW.",
+		"palette": "retort",
+		"illustration": "scene.svg",
+		"metadata": ["HAMBURG · HENNIG BRAND", "URINE · SAND · A RETORT INTO WATER"],
+		"counter": {
+			"value": "10 g",
+			"label": "of phosphorus, about, in a 10-litre bucket of urine"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Discovery of the Elements",
+			"authors": [
+				{
+					"family": "Weeks",
+					"given": "Mary Elvira"
+				}
+			],
+			"publisher": "Journal of Chemical Education",
+			"place": "Easton, PA",
+			"published": "1945",
+			"url": "https://archive.org/details/in.ernet.dli.2015.19567",
+			"accessed": "2026-09-30",
+			"note": "Fifth edition, pp. 34–46: Brand, Kunckel and Krafft, Leibniz's letters as read by Hermann Peters, and Boyle's account of Krafft's show, quoted from Gunther's Early Science in Oxford"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Paper of the Honourable Robert Boyle's, Deposited with the Secretaries of the Royal Society, Octob. 14. 1680. and Opened since His Death; Being an Account of His Making the Phosphorus",
+			"authors": [
+				{
+					"family": "Boyle",
+					"given": "Robert"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "17",
+			"pages": "583–584",
+			"published": "1693",
+			"doi": "10.1098/rstl.1693.0002",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Hennig Brandt and the Discovery of Phosphorus",
+			"authors": [
+				{
+					"family": "Hansen",
+					"given": "Bert"
+				}
+			],
+			"container": "Distillations",
+			"publisher": "Science History Institute",
+			"published": "2019-07-30",
+			"url": "https://www.sciencehistory.org/stories/magazine/hennig-brandt-and-the-discovery-of-phosphorus/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "The Characterization of Feces and Urine: A Review of the Literature to Inform Advanced Treatment Technology",
+			"authors": [
+				{
+					"family": "Rose",
+					"given": "C."
+				},
+				{
+					"family": "Parker",
+					"given": "A."
+				},
+				{
+					"family": "Jefferson",
+					"given": "B."
+				},
+				{
+					"family": "Cartmell",
+					"given": "E."
+				}
+			],
+			"container": "Critical Reviews in Environmental Science and Technology",
+			"volume": "45",
+			"issue": "17",
+			"pages": "1827–1879",
+			"published": "2015",
+			"doi": "10.1080/10643389.2014.1000761",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500995/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hennig Brand",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hennig_Brand&oldid=1376899512",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phosphorus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phosphorus&oldid=1376392261",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Alchemist Discovering Phosphorus",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Alchemist_Discovering_Phosphorus&oldid=1375767939",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chemiluminescence",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chemiluminescence&oldid=1361774124",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "White phosphorus",
+			"url": "https://en.wikipedia.org/w/index.php?title=White_phosphorus&oldid=1368966698",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johann von Löwenstern-Kunckel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johann_von_L%C3%B6wenstern-Kunckel&oldid=1339424768",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-20"
+		},
+		{
+			"kind": "media",
+			"title": "The Alchymist, in Search of the Philosopher's Stone, Discovers Phosphorus, by Joseph Wright of Derby",
+			"url": "https://commons.wikimedia.org/wiki/File:Joseph_Wright_of_Derby_The_Alchemist.jpg",
+			"accessed": "2026-09-30",
+			"container": "Derby Museum and Art Gallery, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "alchymist.jpg",
+			"authors": [
+				{
+					"name": "Joseph Wright of Derby"
+				}
+			],
+			"published": "1771"
+		}
+	]
+}
