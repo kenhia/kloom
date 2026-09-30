@@ -16,7 +16,14 @@
 			"id": "atoms",
 			"title": "Atoms and the table",
 			"labelKind": "date",
-			"frames": ["chirality", "structure-theory", "karlsruhe"]
+			"frames": [
+				"chirality",
+				"structure-theory",
+				"karlsruhe",
+				"periodic-table",
+				"tetrahedral-carbon",
+				"gibbs-free-energy"
+			]
 		},
 		{
 			"id": "industry",

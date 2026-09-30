@@ -1,0 +1,31 @@
+{
+	"chemistry/periodic-table": [
+		["Dmitri Mendeleev", "dmitri-mendeleev"],
+		["periodic table", "periodic-table"],
+		["John Newlands", "john-newlands-chemist"],
+		["Paul-Émile Lecoq de Boisbaudran", "paul-emile-lecoq-de-boisbaudran"],
+		["gallium", "gallium"],
+		["Clemens Winkler", "clemens-winkler"],
+		["germanium", "germanium"],
+		["Lothar Meyer", "lothar-meyer"]
+	],
+	"chemistry/tetrahedral-carbon": [
+		["Jacobus Henricus van 't Hoff", "jacobus-henricus-van-t-hoff"],
+		["Joseph Achille Le Bel", "joseph-achille-le-bel"],
+		["tetrahedron", "tetrahedron"],
+		["asymmetric carbon atom", "asymmetric-carbon"],
+		["Louis Pasteur", "louis-pasteur"],
+		["Hermann Kolbe", "hermann-kolbe"],
+		["Nobel Prize in Chemistry", "nobel-prize-in-chemistry"]
+	],
+	"chemistry/gibbs-free-energy": [
+		["Yale University", "yale-university"],
+		["Josiah Willard Gibbs", "josiah-willard-gibbs"],
+		["Rudolf Clausius", "rudolf-clausius"],
+		["entropy", "entropy"],
+		["Gibbs free energy", "gibbs-free-energy"],
+		["chemical potential", "chemical-potential"],
+		["phase rule", "phase-rule"],
+		["James Clerk Maxwell", "james-clerk-maxwell"]
+	]
+}
