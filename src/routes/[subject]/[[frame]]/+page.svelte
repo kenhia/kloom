@@ -34,6 +34,7 @@
 		paletteMode
 	} from '$engine/settings';
 	import { startLook, type StartLook } from '$engine/start';
+	import type { LibraryStats } from '$engine/stats';
 	import { UserSettings } from '$engine/user-settings.svelte';
 	import { inscription, loomCredit } from '$lib/start/credit';
 	import type { PageProps } from './$types';
@@ -356,6 +357,10 @@
 	});
 	const first = $derived(data.subject.spine.segments[0].frames[0]);
 
+	/** The library's counts, for the start screen's About panel (docs/design.md §About). */
+	const loadStats = (): Promise<LibraryStats> =>
+		fetch(resolve('/api/stats')).then((res) => (res.ok ? res.json() : Promise.reject(res.status)));
+
 	// Large, so it arrives after the page as its own compressed chunk.
 	onMount(async () => {
 		settings.load();
@@ -412,5 +417,7 @@
 		onopen={open}
 		onmap={(refocus) =>
 			openMap({ target: { view: 'library' }, scheme: startPalette.scheme, refocus })}
+		{settings}
+		about={{ stats: loadStats, build: __KLOOM_BUILD__ || undefined }}
 	/>
 {/if}

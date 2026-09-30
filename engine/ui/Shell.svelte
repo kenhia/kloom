@@ -7,7 +7,7 @@
 	import type { JumpItem, Note, ReaderLayer } from '../reader-data';
 	import { contentsOf, openTrails } from '../contents';
 	import { clamp, indexLabel, stops, WheelGate, type BackStop, type SyncMode } from '../navigation';
-	import { keyClashes, keyName, pageKey, SHORTCUTS, tabKey } from '../keys';
+	import { keyName, pageKey, SHORTCUTS, tabKey } from '../keys';
 	import { marksText, type FrameMarks } from '../marks';
 	import {
 		bounds,
@@ -23,6 +23,7 @@
 		browserStorage,
 		followSpine,
 		keymapOf,
+		keyWarnings,
 		layout,
 		paletteFor,
 		paletteMode,
@@ -161,12 +162,7 @@
 	/** The reader's keys (korg 3363): their letter for each shortcut, or none. */
 	const keys = $derived(keymapOf((id) => settings.get(id)));
 	const shown = (k: string | null) => (k ? keyName(k) : null);
-	const clashes = $derived(
-		keyClashes(keys).map(({ key, actions }) => {
-			const [first, ...rest] = actions.map((a) => SHORTCUTS.find((s) => s.action === a)!.label);
-			return `${keyName(key)} is set for ${[first, ...rest].join(' and ')}; it will ${first}.`;
-		})
-	);
+	const clashes = $derived(keyWarnings(keys));
 	// Pane sizes (§Layout): dragged at the dividers, remembered per layout.
 	let saved = $state<SavedPanes>({});
 	let panesEl = $state<HTMLElement>();

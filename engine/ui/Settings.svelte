@@ -109,12 +109,13 @@
 		top: calc(100% + 0.35rem);
 		right: 0;
 		z-index: 5;
+		box-sizing: border-box;
 		display: grid;
 		grid-template-columns: auto 1fr;
 		align-items: center;
 		gap: 0.5rem 0.75rem;
 		width: max-content;
-		max-width: min(22rem, calc(100vw - 2rem));
+		max-width: min(24rem, calc(100vw - 2rem));
 		max-height: min(32rem, calc(100dvh - 6rem));
 		overflow-y: auto;
 		padding: 0.75rem 1rem;

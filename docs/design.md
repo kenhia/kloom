@@ -1267,6 +1267,44 @@ past two subjects:
   `GET /api/start/<subject>`, a read open like the page, and is kept once
   fetched. Reduced motion stops the turning and the fade.
 
+- **The corner** (sprint 022, korg 3456). The start screen's upper right
+  holds two icon buttons in the shell's look: _About_, then the settings
+  gear rightmost, as in the shell. The gear is the shell's own pop-up
+  (`engine/ui/Settings.svelte` over the same settings), so palette mode,
+  layout, models and keys can be set before a subject is begun. Both are
+  last in the dialog's tab order, after _Map of the library_. Esc in either
+  pop-up closes it and returns focus to its button without leaving the start
+  screen; a second Esc begins as before. Both hang from the corner's right
+  edge, so neither leaves a 390px screen.
+
+## About
+
+Sprint 022 (korg 3455, 3456). Ken asked: _if kloom were a book, how many
+pages would it be?_ The About panel answers, from the start screen's corner.
+
+- **What counts** (Ken, 2026-09-30): the narratives only, at **275 words a
+  page**. A reading counts as the reader sees it, headings, tables and
+  captions included. Excluded: markup, a picture's alt text and credit, a
+  chart's labels, citations and the Sources list, the scene (headline,
+  accent, metadata), and everything of the reader's own (notes, kept
+  answers, annotations). A word is a whitespace-separated token with a
+  letter or digit in it.
+- **Counted live.** `engine/stats.ts` renders each reading with the same
+  markdown renderer the reader gets and strips it to text, per request
+  (`GET /api/stats`, a read open like the page, fetched when the panel first
+  opens). It reads the raw subjects, validating and sanitising nothing, so
+  the whole library costs about 150 ms, and it waits on the grow gate like
+  the subjects do. Grown content counts as soon as it is on disk; there is
+  no cache to go stale.
+- **What else it shows:** per subject, frames (a trail's included), trails,
+  words and pages as a table; for the library, images, charts, tables,
+  names in the registry, connections (each stored on one end, so counted
+  once) and citations. Then what kloom is, the repo and the inspiration,
+  credits, and the build: the commit's short hash and date, stamped by
+  `vite.config.ts` at build time.
+- **`just stats`** prints the same counts as a Markdown table, through the
+  same engine code, for sprint records.
+
 ## Illustrations (what worked in sprint 002)
 
 The curated frames are the bar the grow skill is written against, so the

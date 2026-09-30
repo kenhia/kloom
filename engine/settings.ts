@@ -1,4 +1,4 @@
-import { SHORTCUTS, type Keymap, type Shortcut } from './keys';
+import { keyClashes, keyName, SHORTCUTS, type Keymap, type Shortcut } from './keys';
 import type { Palette, Subject } from './model';
 
 /**
@@ -196,4 +196,12 @@ export function keymapOf(get: (id: string) => string | undefined): Keymap {
 		keys[s.action as Shortcut] = v === KEY_OFF ? null : v;
 	}
 	return keys;
+}
+
+/** What the settings pop-up says about a keymap: each key set for two shortcuts, and which wins. */
+export function keyWarnings(keys: Keymap): string[] {
+	return keyClashes(keys).map(({ key, actions }) => {
+		const [first, ...rest] = actions.map((a) => SHORTCUTS.find((s) => s.action === a)!.label);
+		return `${keyName(key)} is set for ${[first, ...rest].join(' and ')}; it will ${first}.`;
+	});
 }
