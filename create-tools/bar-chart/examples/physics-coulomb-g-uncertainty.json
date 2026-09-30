@@ -1,0 +1,35 @@
+{
+	"title": "How precisely the gravitational constant has been known, from Cavendish to CODATA 2022",
+	"description": "Bar chart on a logarithmic scale, relative uncertainty in parts per million. Cavendish, 1798: about 6,000 (0.6%). Poynting, 1891: 5,500. Heyl, 1930: 1,000. Heyl, 1942: 450. NIST, 1986: 120. NIST, 1998: 1,500, after conflicting measurements. CODATA 2014: 46. CODATA 2022: 22. Data: Wikipedia, Gravitational constant (revision cited in the frame); NIST, 2022 CODATA recommended values.",
+	"heading": "UNCERTAINTY IN G · PARTS PER MILLION, LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 10,
+		"max": 10000,
+		"ticks": [
+			[10, "10"],
+			[100, "100"],
+			[1000, "1,000"],
+			[10000, "10,000"]
+		]
+	},
+	"bars": [
+		{
+			"label": "1798",
+			"sublabel": "Cavendish",
+			"value": 6000,
+			"display": "6,000",
+			"highlight": true
+		},
+		{ "label": "1891", "sublabel": "Poynting", "value": 5500, "display": "5,500" },
+		{ "label": "1930", "sublabel": "Heyl", "value": 1000, "display": "1,000" },
+		{ "label": "1942", "sublabel": "Heyl", "value": 450, "display": "450" },
+		{ "label": "1986", "sublabel": "NIST", "value": 120, "display": "120" },
+		{ "label": "1998", "sublabel": "NIST", "value": 1500, "display": "1,500" },
+		{ "label": "2014", "sublabel": "CODATA", "value": 46, "display": "46" },
+		{ "label": "2022", "sublabel": "CODATA", "value": 22, "display": "22" }
+	],
+	"barWidth": 40,
+	"width": 480
+}

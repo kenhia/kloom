@@ -16,7 +16,13 @@
 			"id": "new-science",
 			"title": "The new science",
 			"labelKind": "date",
-			"frames": ["copernicus"]
+			"frames": ["copernicus", "prism", "principia"]
+		},
+		{
+			"id": "heat-light-charge",
+			"title": "Heat, light and charge",
+			"labelKind": "date",
+			"frames": ["coulomb"]
 		},
 		{
 			"id": "cracks",

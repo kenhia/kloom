@@ -1,0 +1,280 @@
+{
+	"id": "coulomb",
+	"topic": "Coulomb's law of electric force",
+	"position": {
+		"label": "1785",
+		"sort": 1785
+	},
+	"scene": {
+		"headline": "Charge obeyed the",
+		"accent": "SQUARE.",
+		"palette": "foolscap",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · ACADÉMIE DES SCIENCES · C.-A. DE COULOMB",
+			"TORSION BALANCE · CLAPHAM · HENRY CAVENDISH"
+		],
+		"counter": {
+			"value": "5.48",
+			"label": "times water, Cavendish's density of the Earth, 1798"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Mémoires de Coulomb",
+			"url": "https://archive.org/details/collectiondemm01sociuoft",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Coulomb",
+					"given": "Charles-Augustin de"
+				}
+			],
+			"publisher": "Gauthier-Villars",
+			"place": "Paris",
+			"published": "1884",
+			"note": "Collection de mémoires relatifs à la physique, vol. 1; the first memoir on electricity (1785) and its three readings"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Electrical Researches of the Honourable Henry Cavendish",
+			"url": "https://archive.org/details/electricalresear00caveiala",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Cavendish",
+					"given": "Henry"
+				}
+			],
+			"editors": [
+				{
+					"family": "Maxwell",
+					"given": "James Clerk"
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1879",
+			"note": "Experiment I, the globe and hemispheres, arts. 218–234"
+		},
+		{
+			"kind": "article",
+			"title": "Experiments to Determine the Density of the Earth",
+			"doi": "10.1098/rstl.1798.0022",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Cavendish",
+					"given": "Henry"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society",
+			"volume": "88",
+			"pages": "469–526",
+			"published": "1798"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Coulomb's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Coulomb's_law&oldid=1377126340",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Cavendish experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cavendish_experiment&oldid=1371508809",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles-Augustin de Coulomb",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles-Augustin_de_Coulomb&oldid=1372290103",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Cavendish",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Cavendish&oldid=1372414833",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Michell",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Michell&oldid=1372508009",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Priestley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Priestley&oldid=1375145083",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gravitational constant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gravitational_constant&oldid=1377201952",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vacuum permittivity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vacuum_permittivity&oldid=1376697354",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Schiehallion experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Schiehallion_experiment&oldid=1372051475",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "web",
+			"title": "CODATA Value: Newtonian Constant of Gravitation",
+			"url": "https://physics.nist.gov/cgi-bin/cuu/Value?bg",
+			"accessed": "2026-09-29",
+			"publisher": "National Institute of Standards and Technology",
+			"container": "The NIST Reference on Constants, Units, and Uncertainty",
+			"note": "2022 CODATA recommended values"
+		},
+		{
+			"kind": "web",
+			"title": "CODATA Value: Vacuum Electric Permittivity",
+			"url": "https://physics.nist.gov/cgi-bin/cuu/Value?ep0",
+			"accessed": "2026-09-29",
+			"publisher": "National Institute of Standards and Technology",
+			"container": "The NIST Reference on Constants, Units, and Uncertainty"
+		},
+		{
+			"kind": "media",
+			"title": "Coulomb's plate of his electric balance, Mémoires de l'Académie royale des sciences for 1785, plate XIII",
+			"url": "https://commons.wikimedia.org/wiki/File:Balance_de_Coulomb.jpg",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Coulomb",
+					"given": "Charles-Augustin de"
+				}
+			],
+			"container": "Drawn by Fossier, engraved by Y. le Gouaz; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "coulomb-balance.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Cavendish's vertical section of his apparatus for weighing the Earth, figure 1 of his 1798 paper",
+			"url": "https://commons.wikimedia.org/wiki/File:Cavendish_Experiment.png",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Cavendish",
+					"given": "Henry"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society 88 (1798), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "cavendish-apparatus.png",
+			"published": "1798"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: the relative uncertainty in the gravitational constant, 1798–2022",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gravitational_constant&oldid=1377201952",
+			"accessed": "2026-09-29",
+			"container": "Chart drawn for kloom from Wikipedia, Gravitational constant, and NIST's 2022 CODATA values",
+			"licence": "MIT",
+			"file": "g-uncertainty.svg",
+			"published": "2026"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/principia",
+			"why": "Priestley guessed the electric law by analogy with the Principia's gravitation, and a torsion balance like Coulomb's later weighed the Earth at close to the density Newton had guessed."
+		},
+		{
+			"to": "western-civ/metre-survey",
+			"why": "Coulomb was among the savants the Revolution called back to Paris to set its new weights and measures, the work the metre survey was done for."
+		},
+		{
+			"to": "western-civ/si-redefinition",
+			"why": "When the 2019 redefinition fixed the elementary charge, the constant in Coulomb's law, ε₀, stopped being defined and became a measured number."
+		}
+	]
+}

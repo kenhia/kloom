@@ -1,0 +1,181 @@
+{
+	"id": "principia",
+	"topic": "Newton's Principia",
+	"position": {
+		"label": "1687",
+		"sort": 1687
+	},
+	"scene": {
+		"headline": "The Moon was",
+		"accent": "FALLING.",
+		"palette": "bronze",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · LONDON · NEWTON · HALLEY",
+			"THREE LAWS · UNIVERSAL GRAVITATION · THE MOON TEST"
+		],
+		"counter": {
+			"value": "3,600",
+			"label": "times stronger, gravity at the ground than at the Moon's distance, by Newton's reckoning"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Mathematical Principles of Natural Philosophy",
+			"url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1846)",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Newton",
+					"given": "Isaac"
+				}
+			],
+			"publisher": "Daniel Adee",
+			"place": "New York",
+			"published": "1846",
+			"note": "Translated by Andrew Motte; read on Wikisource: the laws of motion, Book III Propositions 4, 10, 19 and 37, and the General Scholium"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Philosophiæ Naturalis Principia Mathematica",
+			"url": "https://en.wikipedia.org/w/index.php?title=Philosophi%C3%A6_Naturalis_Principia_Mathematica&oldid=1372303676",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31",
+			"note": "Halley's question, De motu, the printing, and the quarrel with Hooke"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Isaac Newton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isaac_Newton&oldid=1377296424",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"note": "The apple, as Stukeley and Conduitt told it, quoted in the article"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Newton's laws of motion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Newton's_laws_of_motion&oldid=1375948061",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Newton's law of universal gravitation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Newton's_law_of_universal_gravitation&oldid=1370960529",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edmond Halley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edmond_Halley&oldid=1373975403",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Hooke",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Hooke&oldid=1374888483",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leibniz–Newton calculus controversy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leibniz%E2%80%93Newton_calculus_controversy&oldid=1374022718",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Figure of the Earth",
+			"url": "https://en.wikipedia.org/w/index.php?title=Figure_of_the_Earth&oldid=1375273466",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "media",
+			"title": "Title page of the first edition of the Principia, London, 1687, with Pepys's imprimatur of 5 July 1686",
+			"url": "https://commons.wikimedia.org/wiki/File:Newton_-_Principia_(1687),_title,_p._5,_cropped.jpg",
+			"accessed": "2026-09-29",
+			"container": "Service commun de la documentation de l'Université de Strasbourg, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "principia-title.jpg",
+			"published": "1687"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/aristotle-motion",
+			"why": "Aristotle offered motion that never stops, in a void, as an absurdity; the Principia's first law makes it the rule."
+		},
+		{
+			"to": "feynman/character-of-law",
+			"why": "Feynman's lost lecture set out to follow the Principia's proof that an inverse-square force gives an ellipse, and ended by inventing his own."
+		},
+		{
+			"to": "western-civ/metre-survey",
+			"why": "The Principia predicted an Earth flattened at the poles; a century later the metre survey had to assume a value of that flattening to turn its arc into a metre."
+		}
+	]
+}
