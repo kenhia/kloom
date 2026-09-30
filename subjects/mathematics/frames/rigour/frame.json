@@ -1,0 +1,279 @@
+{
+	"id": "rigour",
+	"topic": "Limits and the rigour of analysis",
+	"position": {
+		"label": "Limits"
+	},
+	"scene": {
+		"headline": "We laid the",
+		"accent": "GHOSTS.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · PRAGUE · PARIS · BERLIN · ZURICH",
+			"THE ANALYST 1734 · COURS D'ANALYSE 1821 · ε AND δ · CUTS 1872"
+		],
+		"counter": {
+			"value": "138",
+			"label": "years from Berkeley's ghosts to Dedekind's cuts"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Analyst: A Discourse Addressed to an Infidel Mathematician",
+			"authors": [
+				{
+					"family": "Berkeley",
+					"given": "George"
+				}
+			],
+			"editors": [
+				{
+					"family": "Wilkins",
+					"given": "David R."
+				}
+			],
+			"publisher": "J. Tonson",
+			"place": "London",
+			"published": "1734",
+			"url": "https://www.maths.tcd.ie/pub/HistMath/People/Berkeley/Analyst/Analyst.html",
+			"accessed": "2026-09-30",
+			"note": "Read in David Wilkins's edition (Trinity College Dublin, 2002). The ghosts are in section 35"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "The Analyst",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Analyst&oldid=1370957542",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23",
+			"note": "Halley as the infidel, the compensation of errors, Grabiner's judgement, and the replies of Bayes and Maclaurin"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Limit of a function",
+			"url": "https://en.wikipedia.org/w/index.php?title=Limit_of_a_function&oldid=1368355643",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08",
+			"note": "Bolzano in 1817, Cauchy and Grabiner's reading of him, Weierstrass in 1861"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cours d'analyse",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cours_d'analyse&oldid=1375872119",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"note": "Quoting Bradley and Sandifer's translation (2009)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Uniform convergence",
+			"url": "https://en.wikipedia.org/w/index.php?title=Uniform_convergence&oldid=1375878727",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"note": "Cauchy's sum theorem and Abel's counterexamples of 1826"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Weierstrass function",
+			"url": "https://en.wikipedia.org/w/index.php?title=Weierstrass_function&oldid=1376934625",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"note": "The 1872 presentation, the conditions on a and b, and Gauss's assumption"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Science and Method",
+			"authors": [
+				{
+					"family": "Poincaré",
+					"given": "Henri"
+				}
+			],
+			"publisher": "Thomas Nelson and Sons",
+			"place": "London",
+			"published": "1914",
+			"url": "https://archive.org/details/sciencemethod00poinuoft",
+			"accessed": "2026-09-30",
+			"note": "Translated by Francis Maitland from the French of 1908. \"Logic sometimes breeds monsters\" is on p. 125"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Essays on the Theory of Numbers",
+			"authors": [
+				{
+					"family": "Dedekind",
+					"given": "Richard"
+				}
+			],
+			"publisher": "Open Court",
+			"place": "Chicago",
+			"published": "1901",
+			"url": "https://archive.org/details/essaysontheoryof00dedeuoft",
+			"accessed": "2026-09-30",
+			"note": "Translated by Wooster Woodruff Beman. Continuity and Irrational Numbers (1872): 24 November 1858 on pp. 1–2, √2 · √3 = √6 on p. 22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bernard Bolzano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bernard_Bolzano&oldid=1361652573",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Augustin-Louis Cauchy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Augustin-Louis_Cauchy&oldid=1372168227",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Karl Weierstrass",
+			"url": "https://en.wikipedia.org/w/index.php?title=Karl_Weierstrass&oldid=1375100435",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Dedekind",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Dedekind&oldid=1371988861",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dedekind cut",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dedekind_cut&oldid=1354243060",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pathological (mathematics)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pathological_(mathematics)&oldid=1361720660",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gradient descent",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gradient_descent&oldid=1373673523",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"note": "Cauchy's method of 1847"
+		},
+		{
+			"kind": "media",
+			"title": "The title page of Berkeley's The Analyst (London: J. Tonson, 1734)",
+			"url": "https://commons.wikimedia.org/wiki/File:The_Analyst_(book_cover).jpg",
+			"accessed": "2026-09-30",
+			"container": "University of Toronto copy, Internet Archive, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "analyst-title.jpg",
+			"authors": [
+				{
+					"family": "Berkeley",
+					"given": "George"
+				}
+			],
+			"published": "1734"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/atoms-real",
+			"why": "Perrin saw that each step of a Brownian grain's tracing, marked more often, would be as tangled as the whole: the path is continuous with a slope nowhere, like Weierstrass's function of 1872."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Operations to transform N samples, directly and by the fast Fourier transform",
+	"description": "Bar chart on a logarithmic scale, computed for this frame. For 1,024 samples, the direct calculation takes N², 1,048,576 operations; the fast Fourier transform, by Cooley and Tukey's bound of 2N log₂ N, 20,480. For 8,192 samples: 67,108,864 against 212,992. For 1,048,576 samples: about 1.1 trillion against about 42 million.",
+	"heading": "OPERATIONS · N² AGAINST 2N LOG₂ N · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"width": 560,
+	"barWidth": 48,
+	"axis": {
+		"min": 10000,
+		"max": 10000000000000,
+		"ticks": [
+			[10000, "10K"],
+			[1000000, "1M"],
+			[100000000, "100M"],
+			[10000000000, "10B"],
+			[1000000000000, "1T"]
+		]
+	},
+	"bars": [
+		{ "label": "direct", "sublabel": "N=1,024", "value": 1048576, "display": "1M" },
+		{ "label": "FFT", "sublabel": "N=1,024", "value": 20480, "display": "20K", "highlight": true },
+		{ "label": "direct", "sublabel": "N=8,192", "value": 67108864, "display": "67M" },
+		{
+			"label": "FFT",
+			"sublabel": "N=8,192",
+			"value": 212992,
+			"display": "213K",
+			"highlight": true
+		},
+		{ "label": "direct", "sublabel": "N=2²⁰", "value": 1099511627776, "display": "1.1T" },
+		{ "label": "FFT", "sublabel": "N=2²⁰", "value": 41943040, "display": "42M", "highlight": true }
+	]
+}

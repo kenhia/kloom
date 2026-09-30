@@ -34,7 +34,7 @@
 			"id": "analysis",
 			"title": "Analysis",
 			"labelKind": "category",
-			"frames": ["gradient-descent", "chaos"]
+			"frames": ["complex-numbers", "fourier", "rigour", "gradient-descent", "chaos"]
 		},
 		{
 			"id": "geometry",

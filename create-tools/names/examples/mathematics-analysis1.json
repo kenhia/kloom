@@ -1,0 +1,32 @@
+{
+	"mathematics/complex-numbers": [
+		["René Descartes", "rene-descartes"],
+		["Leonhard Euler", "leonhard-euler"],
+		["Caspar Wessel", "caspar-wessel"],
+		["Jean-Robert Argand", "jean-robert-argand"],
+		["Carl Friedrich Gauss", "carl-friedrich-gauss"],
+		["fundamental theorem of\nalgebra", "fundamental-theorem-of-algebra"],
+		["William Rowan Hamilton", "william-rowan-hamilton"],
+		["quaternions", "quaternion"]
+	],
+	"mathematics/fourier": [
+		["Joseph Fourier", "joseph-fourier"],
+		["Joseph-Louis Lagrange", "joseph-louis-lagrange"],
+		["Peter Gustav Lejeune\nDirichlet", "peter-gustav-lejeune-dirichlet"],
+		["Albert A. Michelson", "albert-a-michelson"],
+		["Josiah Willard\nGibbs", "josiah-willard-gibbs"],
+		["Carl Friedrich\nGauss", "carl-friedrich-gauss"],
+		["fast Fourier transform", "fast-fourier-transform"],
+		["Werner\nHeisenberg", "werner-heisenberg"]
+	],
+	"mathematics/rigour": [
+		["George\nBerkeley", "george-berkeley"],
+		["_The Analyst_", "the-analyst"],
+		["Bernard Bolzano", "bernard-bolzano"],
+		["Augustin-Louis Cauchy", "augustin-louis-cauchy"],
+		["Karl Weierstrass", "karl-weierstrass"],
+		["Henri Poincaré", "henri-poincare"],
+		["Jean Perrin", "jean-perrin"],
+		["Richard\nDedekind", "richard-dedekind"]
+	]
+}

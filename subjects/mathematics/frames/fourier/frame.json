@@ -1,0 +1,259 @@
+{
+	"id": "fourier",
+	"topic": "Fourier series",
+	"position": {
+		"label": "Fourier series"
+	},
+	"scene": {
+		"headline": "We heard every curve as a",
+		"accent": "CHORD.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": ["GRENOBLE · PARIS · JOSEPH FOURIER", "THÉORIE ANALYTIQUE DE LA CHALEUR · 1822"],
+		"counter": {
+			"value": "9%",
+			"label": "of a jump, the overshoot that never goes away"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Analytical Theory of Heat",
+			"authors": [
+				{
+					"family": "Fourier",
+					"given": "Joseph"
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1878",
+			"url": "https://archive.org/details/analyticaltheory00fourrich",
+			"accessed": "2026-09-30",
+			"note": "Translated by Alexander Freeman from the French of 1822. The square wave's series is in articles 177–178; \"discontinuous and entirely arbitrary\" in article 219"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Jean Baptiste Joseph Fourier",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fourier/",
+			"accessed": "2026-09-30",
+			"note": "The 1807 committee, Lagrange's and Laplace's objections, and the 1811 prize report"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Gibbs phenomenon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gibbs_phenomenon&oldid=1376146420",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22",
+			"note": "Wilbraham, the Michelson anecdote and what his paper shows, Gibbs's two letters and Bôcher's name"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Algorithm for the Machine Calculation of Complex Fourier Series",
+			"authors": [
+				{
+					"family": "Cooley",
+					"given": "James W."
+				},
+				{
+					"family": "Tukey",
+					"given": "John W."
+				}
+			],
+			"container": "Mathematics of Computation",
+			"volume": "19",
+			"issue": "90",
+			"pages": "297–301",
+			"published": "1965",
+			"doi": "10.1090/S0025-5718-1965-0178586-1",
+			"accessed": "2026-09-30",
+			"note": "The 2N log₂ N bound is on p. 297; the IBM 7094 timings on p. 301"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fourier series",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fourier_series&oldid=1373499036",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Fourier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Fourier&oldid=1372030121",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dirichlet–Jordan test",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dirichlet%E2%80%93Jordan_test&oldid=1351138232",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fast Fourier transform",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fast_Fourier_transform&oldid=1375873092",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"note": "Tukey's idea at the science advisers' meeting, Garwin, and Gauss's 1805 method"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cooley–Tukey FFT algorithm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cooley%E2%80%93Tukey_FFT_algorithm&oldid=1373740970",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Matrix mechanics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Matrix_mechanics&oldid=1362327048",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03",
+			"note": "Heisenberg's reading of the Fourier series of an orbit"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "JPEG",
+			"url": "https://en.wikipedia.org/w/index.php?title=JPEG&oldid=1376628181",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Discrete cosine transform",
+			"url": "https://en.wikipedia.org/w/index.php?title=Discrete_cosine_transform&oldid=1377612399",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "K-space in magnetic resonance imaging",
+			"url": "https://en.wikipedia.org/w/index.php?title=K-space_in_magnetic_resonance_imaging&oldid=1336044340",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-01"
+		},
+		{
+			"kind": "media",
+			"title": "Square waves drawn by Michelson and Stratton's harmonic analyser, with one to seventy-nine terms",
+			"url": "https://commons.wikimedia.org/wiki/File:Michelson.new_harmonic_analyzer.1898.approximations.jpg",
+			"accessed": "2026-09-30",
+			"container": "The London, Edinburgh, and Dublin Philosophical Magazine, 1898, via the Tomash Collection and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "michelson-approximations.jpg",
+			"authors": [
+				{
+					"family": "Michelson",
+					"given": "A. A."
+				},
+				{
+					"family": "Stratton",
+					"given": "S. W."
+				}
+			],
+			"published": "1898"
+		},
+		{
+			"kind": "media",
+			"title": "Operations to transform N samples, directly and by the fast Fourier transform (chart)",
+			"accessed": "2026-09-30",
+			"container": "Computed for kloom from the bound in Cooley and Tukey (1965)",
+			"licence": "MIT",
+			"file": "operations.svg",
+			"doi": "10.1090/S0025-5718-1965-0178586-1"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/matrix-mechanics",
+			"why": "Heisenberg began from the Fourier series of an electron's orbit, keeping only the frequencies an atom gives out; each term, labelled by the two states of a jump, became an entry in a matrix."
+		}
+	]
+}
