@@ -1,0 +1,352 @@
+{
+	"id": "computer-proof",
+	"topic": "Proofs by computer",
+	"position": {
+		"label": "Proof and the machine"
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "Four colours",
+		"accent": "SUFFICE.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": ["URBANA · APPEL AND HAKEN, 1976", "COQ · HOL LIGHT · ISABELLE · LEAN"],
+		"counter": {
+			"value": "289,504",
+			"label": "theorems in Lean's mathlib, 30 September 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Four color theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Four_color_theorem&oldid=1375914031",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"note": "Guthrie and De Morgan, Kempe and Heawood, the configuration counts, the microfiche checked with Dorothea Blostein, Schmidt's error, and Nevada's five neighbours"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Every Planar Map Is Four Colorable",
+			"authors": [
+				{
+					"family": "Appel",
+					"given": "K."
+				},
+				{
+					"family": "Haken",
+					"given": "W."
+				}
+			],
+			"container": "Bulletin of the American Mathematical Society",
+			"volume": "82",
+			"issue": "5",
+			"pages": "711–712",
+			"published": "1976-09",
+			"doi": "10.1090/S0002-9904-1976-14122-5",
+			"url": "https://www.ams.org/journals/bull/1976-82-05/S0002-9904-1976-14122-5/",
+			"accessed": "2026-09-30",
+			"note": "The announcement: \"a set U of fewer than 2000 configurations\""
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Four Color Theorem",
+			"authors": [
+				{
+					"family": "Thomas",
+					"given": "Robin"
+				}
+			],
+			"container": "School of Mathematics, Georgia Institute of Technology",
+			"url": "https://thomas.math.gatech.edu/FC/fourcolor.html",
+			"accessed": "2026-09-30",
+			"note": "633 configurations and 32 discharging rules, against Appel and Haken's 1,476 and 300 or more"
+		},
+		{
+			"kind": "article",
+			"title": "Formal Proof—The Four-Color Theorem",
+			"authors": [
+				{
+					"family": "Gonthier",
+					"given": "Georges"
+				}
+			],
+			"container": "Notices of the American Mathematical Society",
+			"volume": "55",
+			"issue": "11",
+			"pages": "1382–1393",
+			"published": "2008-12",
+			"url": "https://www.ams.org/notices/200811/tx081101382p.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Non-surveyable proof",
+			"url": "https://en.wikipedia.org/w/index.php?title=Non-surveyable_proof&oldid=1292261755",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-05-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Computer-assisted proof",
+			"url": "https://en.wikipedia.org/w/index.php?title=Computer-assisted_proof&oldid=1374013863",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "web",
+			"title": "Postal Meter Strip Honoring the Solution of the Four Color Problem",
+			"authors": [
+				{
+					"name": "National Museum of American History"
+				}
+			],
+			"container": "Smithsonian Institution",
+			"url": "https://americanhistory.si.edu/collections/object/nmah_694712",
+			"accessed": "2026-09-30",
+			"note": "Read in the object record copied to its Wikimedia Commons file page; it gives 1,936 configurations"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Kepler conjecture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kepler_conjecture&oldid=1376012296",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"note": "The referees' \"99% certain\" and the 100,000 linear programmes"
+		},
+		{
+			"kind": "article",
+			"title": "A Formal Proof of the Kepler Conjecture",
+			"authors": [
+				{
+					"family": "Hales",
+					"given": "Thomas"
+				},
+				{
+					"family": "Adams",
+					"given": "Mark"
+				},
+				{
+					"family": "Bauer",
+					"given": "Gertrud"
+				},
+				{
+					"family": "Dang",
+					"given": "Tat Dat"
+				},
+				{
+					"family": "Harrison",
+					"given": "John"
+				},
+				{
+					"family": "Hoang",
+					"given": "Le Truong"
+				},
+				{
+					"family": "Kaliszyk",
+					"given": "Cezary"
+				}
+			],
+			"etAl": true,
+			"container": "Forum of Mathematics, Pi",
+			"volume": "5",
+			"pages": "e2",
+			"published": "2017",
+			"doi": "10.1017/fmp.2017.1",
+			"url": "https://arxiv.org/abs/1501.02155",
+			"accessed": "2026-09-30",
+			"note": "Read in the arXiv version of January 2015"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robbins algebra",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robbins_algebra&oldid=1326807918",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of artificial intelligence",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&oldid=1377600785",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"note": "Simon and Newell's predictions of 1958"
+		},
+		{
+			"kind": "chapter",
+			"title": "Solving and Verifying the Boolean Pythagorean Triples Problem via Cube-and-Conquer",
+			"authors": [
+				{
+					"family": "Heule",
+					"given": "Marijn J. H."
+				},
+				{
+					"family": "Kullmann",
+					"given": "Oliver"
+				},
+				{
+					"family": "Marek",
+					"given": "Victor W."
+				}
+			],
+			"container": "Theory and Applications of Satisfiability Testing – SAT 2016",
+			"publisher": "Springer",
+			"pages": "228–245",
+			"published": "2016",
+			"doi": "10.1007/978-3-319-40970-2_15",
+			"url": "https://arxiv.org/abs/1605.00723",
+			"accessed": "2026-09-30",
+			"note": "Read in the arXiv version"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Automath",
+			"url": "https://en.wikipedia.org/w/index.php?title=Automath&oldid=1318343056",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lean (proof assistant)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lean_(proof_assistant)&oldid=1374563227",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "web",
+			"title": "Mathlib Statistics",
+			"authors": [
+				{
+					"name": "Lean community"
+				}
+			],
+			"container": "Lean Community",
+			"url": "https://leanprover-community.github.io/mathlib_stats.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Liquid Tensor Experiment",
+			"authors": [
+				{
+					"family": "Scholze",
+					"given": "Peter"
+				}
+			],
+			"container": "Xena",
+			"published": "2020-12-05",
+			"url": "https://xenaproject.wordpress.com/2020/12/05/liquid-tensor-experiment/",
+			"accessed": "2026-09-30",
+			"note": "A guest post on Kevin Buzzard's blog"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Half a Year of the Liquid Tensor Experiment: Amazing Developments",
+			"authors": [
+				{
+					"family": "Scholze",
+					"given": "Peter"
+				}
+			],
+			"container": "Xena",
+			"published": "2021-06-05",
+			"url": "https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Completion of the Liquid Tensor Experiment",
+			"authors": [
+				{
+					"name": "Mathlib community"
+				}
+			],
+			"container": "Lean community blog",
+			"published": "2022-07-15",
+			"url": "https://leanprover-community.github.io/blog/posts/lte-final/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "The University of Illinois mathematics department's postage-meter strip, \"Four Colors Suffice\", dated 30 September 1976",
+			"url": "https://commons.wikimedia.org/wiki/File:Postal_Meter_Strip_Honoring_the_Solution_of_the_Four_Color_Problem.jpg",
+			"accessed": "2026-09-30",
+			"container": "National Museum of American History, Smithsonian Institution, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "four-colors-suffice.jpg",
+			"authors": [
+				{
+					"name": "National Museum of American History"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/logic-theorist",
+			"why": "The Logic Theorist proved theorems of Principia Mathematica in 1956, and its makers predicted in 1958 that a computer would soon prove an important new theorem; the four colour theorem of 1976 was the first major one that needed a computer."
+		}
+	]
+}

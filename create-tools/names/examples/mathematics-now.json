@@ -1,0 +1,22 @@
+{
+	"mathematics/computer-proof": [
+		["Kenneth Appel", "kenneth-appel"],
+		["Wolfgang Haken", "wolfgang-haken"],
+		["four colour theorem", "four-color-theorem"],
+		["Kepler conjecture", "kepler-conjecture"],
+		["Thomas Hales", "thomas-callister-hales"],
+		["Logic Theorist", "logic-theorist"],
+		["Lean", "lean-proof-assistant"],
+		["Peter Scholze", "peter-scholze"]
+	],
+	"mathematics/where-mathematics-is": [
+		["Clay Mathematics Institute", "clay-mathematics-institute"],
+		["Millennium Prize Problems", "millennium-prize-problems"],
+		["Navier–Stokes equations", "navier-stokes-equations"],
+		["OpenAI", "openai"],
+		["Maryna Viazovska", "maryna-viazovska"],
+		["International Mathematical Olympiad", "international-mathematical-olympiad"],
+		["Google DeepMind", "google-deepmind"],
+		["Terence Tao", "terence-tao"]
+	]
+}

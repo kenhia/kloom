@@ -23,6 +23,12 @@
 			"title": "Algebra",
 			"labelKind": "category",
 			"frames": ["matrices", "monster"]
+		},
+		{
+			"id": "now",
+			"title": "Mathematics now",
+			"labelKind": "category",
+			"frames": ["computer-proof", "where-mathematics-is"]
 		}
 	]
 }
