@@ -1,0 +1,31 @@
+{
+	"mathematics/incommensurable": [
+		["square root of 2", "square-root-of-2"],
+		["Pythagoras", "pythagoras"],
+		["Aristotle", "aristotle"],
+		["Hippasus", "hippasus"],
+		["Plato", "plato"],
+		["Theaetetus", "theaetetus-mathematician"],
+		["Theodorus of\nCyrene", "theodorus-of-cyrene"],
+		["Eudoxus of Cnidus", "eudoxus-of-cnidus"]
+	],
+	"mathematics/euclid-elements": [
+		["Alexandria", "alexandria"],
+		["Euclid", "euclid"],
+		["_Elements_", "euclids-elements"],
+		["parallel postulate", "parallel-postulate"],
+		["primes", "prime-number"],
+		["Theon of Alexandria", "theon-of-alexandria"],
+		["Erhard Ratdolt", "erhard-ratdolt"],
+		["Isaac\nNewton", "isaac-newton"]
+	],
+	"mathematics/archimedes-circle": [
+		["Archimedes", "archimedes"],
+		["Syracuse", "syracuse-sicily"],
+		["π", "pi"],
+		["_Measurement of a Circle_", "measurement-of-a-circle"],
+		["method of exhaustion", "method-of-exhaustion"],
+		["Cicero", "cicero"],
+		["Aristarchus of Samos", "aristarchus-of-samos"]
+	]
+}

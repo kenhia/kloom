@@ -1,0 +1,161 @@
+{
+	"id": "prime-number-theorem",
+	"topic": "The prime number theorem",
+	"position": {
+		"label": "1896",
+		"sort": 1896
+	},
+	"scene": {
+		"headline": "We measured how the primes",
+		"accent": "THIN.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BORDEAUX · LOUVAIN · HADAMARD · DE LA VALLÉE POUSSIN",
+			"π(x) ~ x / ln x · THE ZETA FUNCTION"
+		],
+		"counter": {
+			"value": "78,498",
+			"label": "primes below a million (Legendre counted 78,527)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Prime number theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Prime_number_theorem&oldid=1377020402",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"note": "The history of the conjectures and proofs, Littlewood's sign changes, and the published values of π(x) up to 10²⁴"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "About the Cover: On the Distribution of Primes—Gauss' Tables",
+			"authors": [
+				{
+					"family": "Tschinkel",
+					"given": "Yuri"
+				}
+			],
+			"container": "Bulletin of the American Mathematical Society",
+			"volume": "43",
+			"issue": "1",
+			"pages": "89–91",
+			"published": "2006-01",
+			"doi": "10.1090/S0273-0979-05-01096-7",
+			"url": "https://www.ams.org/journals/bull/2006-43-01/S0273-0979-05-01096-7/S0273-0979-05-01096-7.pdf",
+			"accessed": "2026-09-30",
+			"note": "Gauss's letter to Encke of 24 December 1849, in L. J. Goldstein's translation"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Essai sur la théorie des nombres",
+			"authors": [
+				{
+					"family": "Legendre",
+					"given": "Adrien-Marie"
+				}
+			],
+			"publisher": "Courcier",
+			"place": "Paris",
+			"published": "1808",
+			"url": "https://archive.org/details/bub_gb_BwcxjGuIohMC",
+			"accessed": "2026-09-30",
+			"note": "Second edition. Part 4, §VIII, pp. 394–395: the formula, the table and the count of 78,527"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Elementary Proof of the Prime Number Theorem: An Historical Perspective",
+			"authors": [
+				{
+					"family": "Goldfeld",
+					"given": "Dorian"
+				}
+			],
+			"container": "Number Theory: New York Seminar 2003",
+			"editors": [
+				{
+					"family": "Chudnovsky",
+					"given": "David"
+				},
+				{
+					"family": "Chudnovsky",
+					"given": "Gregory"
+				},
+				{
+					"family": "Nathanson",
+					"given": "Melvyn B."
+				}
+			],
+			"pages": "179–192",
+			"publisher": "Springer",
+			"place": "New York",
+			"published": "2004",
+			"doi": "10.1007/978-1-4419-9060-0_10",
+			"url": "https://www.math.columbia.edu/~goldfeld/ErdosSelbergDispute.pdf",
+			"accessed": "2026-09-30",
+			"note": "Chebyshev's bounds, Hardy's 1921 lecture, and the letters of the Erdős–Selberg dispute"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Prime-counting function",
+			"url": "https://en.wikipedia.org/w/index.php?title=Prime-counting_function&oldid=1374585095",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bertrand's postulate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bertrand's_postulate&oldid=1372338553",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "media",
+			"title": "Page 394 of Legendre's Essai sur la théorie des nombres, second edition, 1808",
+			"url": "https://archive.org/details/bub_gb_BwcxjGuIohMC/page/n420/mode/1up",
+			"accessed": "2026-09-30",
+			"container": "National Library of Naples copy, digitised by Google, via the Internet Archive",
+			"licence": "Public domain",
+			"file": "legendre-1808.jpg",
+			"authors": [
+				{
+					"family": "Legendre",
+					"given": "Adrien-Marie"
+				}
+			],
+			"published": "1808"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/riemann-hypothesis",
+			"why": "The 1896 proofs of the prime number theorem rest on Riemann's zeta function having no zeros on the line Re s = 1."
+		}
+	]
+}

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M130 26 L130 104 M170 26 L170 104 M230 26 L230 104 M270 26 L270 104 M180 150 L180 222 M220 150 L220 222"/>
+		<path pathLength="1" d="M26 70 L374 70 M26 222 L374 222"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 64 L40 40 L127.5 40"/>
+		<path pathLength="1" d="M172.5 40 L227.5 40"/>
+		<path pathLength="1" d="M272.5 40 L360 40 L360 61"/>
+		<path pathLength="1" d="M360 79 L360 100 L40 100 L40 76"/>
+		<path pathLength="1" d="M40 216 L40 188 L110 188"/>
+		<path pathLength="1" d="M110 164 L110 214"/>
+		<path pathLength="1" d="M110 164 L177.5 164"/>
+		<path pathLength="1" d="M110 214 L177.5 214"/>
+		<path pathLength="1" d="M222.5 164 L290 164 L290 214 L222.5 214"/>
+		<path pathLength="1" d="M290 188 L360 188 L360 213"/>
+		<path pathLength="1" d="M360 231 L360 256 L40 256 L40 228"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M127.5 40 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M167.5 40 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M132.3 39 L168.4 22.9"/>
+		<path pathLength="1" d="M227.5 40 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M267.5 40 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M232.3 39 L268.4 22.9"/>
+		<path pathLength="1" d="M177.5 164 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M217.5 164 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M182.3 163 L218.4 146.9"/>
+		<path pathLength="1" d="M177.5 214 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M217.5 214 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M182.3 213 L218.4 196.9"/>
+		<path pathLength="1" d="M30 64 L50 64 M35 68 L45 68 M30 72 L50 72 M35 76 L45 76"/>
+		<path pathLength="1" d="M30 216 L50 216 M35 220 L45 220 M30 224 L50 224 M35 228 L45 228"/>
+		<path pathLength="1" d="M351 70 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M353.6 63.6 L366.4 76.4 M353.6 76.4 L366.4 63.6"/>
+		<path pathLength="1" d="M351 222 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M353.6 215.6 L366.4 228.4 M353.6 228.4 L366.4 215.6"/>
+		<path pathLength="1" d="M108.5 188 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M288.5 188 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="150" y="20" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x</text>
+		<text x="250" y="20" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">y</text>
+		<text x="200" y="144" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x</text>
+		<text x="200" y="194" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">y</text>
+		<text x="200" y="118" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SERIES  ·  x y</text>
+		<text x="200" y="276" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PARALLEL  ·  x + y − x y</text>
+	</g>
+</svg>

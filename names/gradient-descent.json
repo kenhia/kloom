@@ -1,0 +1,9 @@
+{
+	"id": "gradient-descent",
+	"wikidata": "Q1199743",
+	"name": "Gradient descent",
+	"aliases": ["steepest descent", "method of steepest descent"],
+	"kind": "idea",
+	"description": "Method of finding a minimum of a function by repeatedly stepping against its gradient, proposed by Cauchy in 1847 and now the way neural networks are trained.",
+	"home": "mathematics/gradient-descent"
+}

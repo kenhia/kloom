@@ -1,0 +1,411 @@
+{
+	"id": "where-mathematics-is",
+	"topic": "Mathematics today",
+	"position": {
+		"label": "Where we are"
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We no longer prove",
+		"accent": "ALONE.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CLAY MATHEMATICS INSTITUTE · PARIS, 24 MAY 2000",
+			"SEVEN PROBLEMS · $1,000,000 EACH"
+		],
+		"counter": {
+			"value": "5 of 7",
+			"label": "Millennium Prize Problems still open, 30 September 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Millennium Prize Problems",
+			"authors": [
+				{
+					"name": "Clay Mathematics Institute"
+				}
+			],
+			"container": "Clay Mathematics Institute",
+			"url": "https://www.claymath.org/millennium-problems/",
+			"accessed": "2026-09-30",
+			"note": "The seven problems as the institute lists them: one solved, one \"active\", five unsolved"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Navier-Stokes Announcement",
+			"authors": [
+				{
+					"name": "Clay Mathematics Institute"
+				}
+			],
+			"container": "Clay Mathematics Institute",
+			"published": "2026-09-11",
+			"url": "https://www.claymath.org/news/navier-stokes-announcement/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Rules for the Millennium Prize Problems",
+			"authors": [
+				{
+					"name": "Clay Mathematics Institute"
+				}
+			],
+			"container": "Clay Mathematics Institute",
+			"url": "https://www.claymath.org/millennium-problems/rules/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "On the Navier–Stokes Millennium Prize Problem",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"published": "2026-09-08",
+			"url": "https://openai.com/index/navier-stokes-solution/",
+			"accessed": "2026-09-30",
+			"note": "Read through the Wayback Machine; includes OpenAI's update of 10 September on its investigation"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "AI Has Solved One of Math’s $1 Million Millennium Prize Problems",
+			"authors": [
+				{
+					"family": "Kakaes",
+					"given": "Konstantin"
+				}
+			],
+			"container": "Quanta Magazine",
+			"published": "2026-09-08",
+			"url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+			"accessed": "2026-09-30",
+			"note": "Fefferman, Buckmaster and Alpöge, Córdoba and Martínez-Zoroa"
+		},
+		{
+			"kind": "web",
+			"title": "AI May Have Just Solved a Million-Dollar Math Problem. The Field Will Never Be the Same",
+			"authors": [
+				{
+					"family": "Howlett",
+					"given": "Joseph"
+				}
+			],
+			"container": "Scientific American",
+			"published": "2026-09-08",
+			"url": "https://www.scientificamerican.com/article/ai-may-have-just-solved-a-million-dollar-math-problem-the-field-will-never-be-the-same/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Will AI Solve Math Too Fast?",
+			"authors": [
+				{
+					"family": "Brodsky",
+					"given": "Sascha"
+				}
+			],
+			"container": "IBM Think",
+			"publisher": "IBM",
+			"published": "2026-09-10",
+			"url": "https://www.ibm.com/think/news/will-ai-solve-math-too-fast-navier-stokes-terence-tao",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Navier–Stokes existence and smoothness",
+			"url": "https://en.wikipedia.org/w/index.php?title=Navier%E2%80%93Stokes_existence_and_smoothness&oldid=1377725633",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"note": "The four statements of the official problem, and the priority dispute"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Millennium Prize Problems",
+			"url": "https://en.wikipedia.org/w/index.php?title=Millennium_Prize_Problems&oldid=1377467697",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "web",
+			"title": "Monumental Proof Settles Geometric Langlands Conjecture",
+			"authors": [
+				{
+					"family": "Klarreich",
+					"given": "Erica"
+				}
+			],
+			"container": "Quanta Magazine",
+			"published": "2024-07-19",
+			"url": "https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Geometric Langlands correspondence",
+			"url": "https://en.wikipedia.org/w/index.php?title=Geometric_Langlands_correspondence&oldid=1369792642",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "article",
+			"title": "The Sphere Packing Problem in Dimension 8",
+			"authors": [
+				{
+					"family": "Viazovska",
+					"given": "Maryna S."
+				}
+			],
+			"container": "Annals of Mathematics",
+			"volume": "185",
+			"issue": "3",
+			"pages": "991–1015",
+			"published": "2017",
+			"doi": "10.4007/annals.2017.185.3.7",
+			"url": "https://arxiv.org/abs/1603.04246",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "The Sphere Packing Problem in Dimension 24",
+			"authors": [
+				{
+					"family": "Cohn",
+					"given": "Henry"
+				},
+				{
+					"family": "Kumar",
+					"given": "Abhinav"
+				},
+				{
+					"family": "Miller",
+					"given": "Stephen D."
+				},
+				{
+					"family": "Radchenko",
+					"given": "Danylo"
+				},
+				{
+					"family": "Viazovska",
+					"given": "Maryna"
+				}
+			],
+			"container": "Annals of Mathematics",
+			"volume": "185",
+			"issue": "3",
+			"pages": "1017–1033",
+			"published": "2017",
+			"doi": "10.4007/annals.2017.185.3.8",
+			"url": "https://arxiv.org/abs/1603.06518",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Progress in Formalizing Sphere Packing in Dimension 8",
+			"authors": [
+				{
+					"family": "Hariharan",
+					"given": "Sidharth"
+				},
+				{
+					"family": "Birkbeck",
+					"given": "Christopher"
+				},
+				{
+					"family": "Lee",
+					"given": "Seewoo"
+				},
+				{
+					"family": "Ma",
+					"given": "Ho Kiu Gareth"
+				},
+				{
+					"family": "Mehta",
+					"given": "Bhavik"
+				},
+				{
+					"family": "Poiroux",
+					"given": "Auguste"
+				},
+				{
+					"family": "Viazovska",
+					"given": "Maryna"
+				}
+			],
+			"container": "arXiv preprint arXiv:2604.23468",
+			"published": "2026-04-25",
+			"url": "https://arxiv.org/abs/2604.23468",
+			"accessed": "2026-09-30",
+			"note": "Read in its abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sphere packing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sphere_packing&oldid=1375259008",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maryna Viazovska",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maryna_Viazovska&oldid=1376734826",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "E8 lattice",
+			"url": "https://en.wikipedia.org/w/index.php?title=E8_lattice&oldid=1374879442",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kepler conjecture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kepler_conjecture&oldid=1376012296",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"note": "Thue's theorem on circles in the plane"
+		},
+		{
+			"kind": "web",
+			"title": "AI Achieves Silver-Medal Standard Solving International Mathematical Olympiad Problems",
+			"authors": [
+				{
+					"name": "AlphaProof and AlphaGeometry teams"
+				}
+			],
+			"container": "Google DeepMind",
+			"published": "2024-07-25",
+			"url": "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Advanced Version of Gemini with Deep Think Officially Achieves Gold-Medal Standard at the International Mathematical Olympiad",
+			"authors": [
+				{
+					"family": "Luong",
+					"given": "Thang"
+				},
+				{
+					"family": "Lockhart",
+					"given": "Edward"
+				}
+			],
+			"container": "Google DeepMind",
+			"published": "2025-07-21",
+			"url": "https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "AI Catches Up with Humans to Score 100% at Top Math Contest",
+			"authors": [
+				{
+					"name": "Agence France-Presse"
+				}
+			],
+			"container": "Tech Xplore",
+			"published": "2026-07-23",
+			"url": "https://techxplore.com/news/2026-07-ai-humans-score-math-contest.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "The 240 roots of E₈, the centres of the spheres touching one sphere in the E₈ packing, projected into the plane",
+			"url": "https://commons.wikimedia.org/wiki/File:E8Petrie.svg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "e8-roots.jpg",
+			"authors": [
+				{
+					"name": "Jgmoxness"
+				}
+			],
+			"published": "2010-01-02"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/reasoning-models",
+			"why": "The gold-medal olympiad score of July 2025 that this frame counts was won by a Gemini model with Deep Think, one of the reasoning models that frame describes."
+		},
+		{
+			"to": "ai/where-we-are",
+			"why": "OpenAI's Navier–Stokes proof was checked in Lean by GPT-6 Astra, the model that frame reports OpenAI released on 3 September 2026."
+		},
+		{
+			"to": "mathematics/computer-proof",
+			"why": "Hales's proof of the Kepler conjecture needed a computer and a decade of formal checking; Viazovska's proof for eight dimensions fits in a short paper."
+		},
+		{
+			"to": "mathematics/poincare-conjecture",
+			"why": "The Poincaré conjecture is the one Millennium Problem solved, by Perelman, who refused the prize."
+		},
+		{
+			"to": "mathematics/riemann-hypothesis",
+			"why": "The Riemann hypothesis is one of the Millennium Problems still open."
+		}
+	]
+}

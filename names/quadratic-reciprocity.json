@@ -1,0 +1,9 @@
+{
+	"id": "quadratic-reciprocity",
+	"wikidata": "Q472883",
+	"name": "Quadratic reciprocity",
+	"aliases": ["law of quadratic reciprocity"],
+	"kind": "idea",
+	"description": "The law, conjectured by Euler and Legendre and first proved by Gauss in 1796, that ties whether one odd prime is a square modulo another to whether the second is a square modulo the first.",
+	"home": "mathematics/disquisitiones"
+}

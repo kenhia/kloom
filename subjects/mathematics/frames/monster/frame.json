@@ -1,0 +1,261 @@
+{
+	"id": "monster",
+	"topic": "Classification of finite simple groups",
+	"position": {
+		"label": "The Monster"
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We met the",
+		"accent": "MONSTER.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"FISCHER · GRIESS · CONWAY · NORTON · BORCHERDS · ASCHBACHER",
+			"18 FAMILIES · 26 SPORADIC GROUPS · 196,883 DIMENSIONS"
+		],
+		"counter": {
+			"value": "8 × 10⁵³",
+			"label": "elements of the Monster, the largest sporadic group"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Classification of finite simple groups",
+			"url": "https://en.wikipedia.org/w/index.php?title=Classification_of_finite_simple_groups&oldid=1371729148",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28",
+			"note": "The statement, the size of the proof, Gorenstein's announcement, the second-generation volumes, and the Coq proof of Feit–Thompson"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Monster group",
+			"url": "https://en.wikipedia.org/w/index.php?title=Monster_group&oldid=1373989382",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09",
+			"note": "The order, Fischer and Griess, Griess's 1980 announcement, and the 196,883-dimensional representation"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Monstrous moonshine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Monstrous_moonshine&oldid=1369262254",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13",
+			"note": "McKay's 1978 observation, the name, Frenkel–Lepowsky–Meurman, Borcherds's proof and Fields Medal, and Ogg's bottle"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Brief History of the Classification of the Finite Simple Groups",
+			"authors": [
+				{
+					"family": "Solomon",
+					"given": "Ronald"
+				}
+			],
+			"container": "Bulletin of the American Mathematical Society",
+			"volume": "38",
+			"issue": "3",
+			"pages": "315–352",
+			"published": "2001",
+			"doi": "10.1090/S0273-0979-01-00909-0",
+			"url": "https://www.ams.org/journals/bull/2001-38-03/S0273-0979-01-00909-0/",
+			"accessed": "2026-09-30",
+			"note": "Gorenstein's dates of completion, Mason's quasithin manuscript, and Griess's algebra, pp. 340–341"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Status of the Classification of the Finite Simple Groups",
+			"authors": [
+				{
+					"family": "Aschbacher",
+					"given": "Michael"
+				}
+			],
+			"container": "Notices of the American Mathematical Society",
+			"volume": "51",
+			"issue": "7",
+			"pages": "736–740",
+			"published": "2004-08",
+			"url": "https://www.math.unipd.it/~tonolo/didattica/Algebra+2/aschbacher.pdf",
+			"accessed": "2026-09-30",
+			"note": "Simple groups as primes, the quasithin gap and its 1,200 pages. Read in a copy at the University of Padua"
+		},
+		{
+			"kind": "article",
+			"title": "What Is … the Monster?",
+			"authors": [
+				{
+					"family": "Borcherds",
+					"given": "Richard E."
+				}
+			],
+			"container": "Notices of the American Mathematical Society",
+			"volume": "49",
+			"issue": "9",
+			"pages": "1076–1077",
+			"published": "2002-10",
+			"url": "https://www.ams.org/notices/200209/what-is.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sporadic group",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sporadic_group&oldid=1370792978",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alternating group",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alternating_group&oldid=1360320479",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Icosahedral symmetry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Icosahedral_symmetry&oldid=1374728258",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "article",
+			"title": "FormaTheoria: Constructing Large-Scale Lean Theories from Mathematical Literature — Toward the Formalization of the Classification of Finite Simple Groups",
+			"authors": [
+				{
+					"family": "Nie",
+					"given": "Tianjiao"
+				},
+				{
+					"family": "Zhang",
+					"given": "Ao"
+				},
+				{
+					"family": "Tang",
+					"given": "Yusen"
+				},
+				{
+					"family": "Testa",
+					"given": "Damiano"
+				},
+				{
+					"family": "Yau",
+					"given": "Shing-Tung"
+				},
+				{
+					"family": "Li",
+					"given": "Peng"
+				},
+				{
+					"family": "Zhou",
+					"given": "Yuan"
+				}
+			],
+			"container": "arXiv preprint arXiv:2608.10894",
+			"published": "2026-08-11",
+			"url": "https://arxiv.org/abs/2608.10894",
+			"accessed": "2026-09-30",
+			"note": "Abstract only"
+		},
+		{
+			"kind": "web",
+			"title": "The Classification of the Finite Simple Groups, Number 10",
+			"authors": [
+				{
+					"family": "Capdeboscq",
+					"given": "Inna"
+				},
+				{
+					"family": "Gorenstein",
+					"given": "Daniel"
+				},
+				{
+					"family": "Lyons",
+					"given": "Richard"
+				},
+				{
+					"family": "Solomon",
+					"given": "Ronald"
+				}
+			],
+			"container": "AMS Bookstore",
+			"publisher": "American Mathematical Society",
+			"url": "https://bookstore.ams.org/surv-40-10",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Richard Borcherds at Berkeley, California, in 1993",
+			"url": "https://commons.wikimedia.org/wiki/File:Richard_Borcherds,_1993_(cropped).jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "borcherds-1993.jpg",
+			"authors": [
+				{
+					"family": "Bergman",
+					"given": "George M."
+				}
+			],
+			"published": "1993"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/groups",
+			"why": "The finite simple groups are the atoms of every finite group, and the Monster is the largest of the sporadic ones."
+		},
+		{
+			"to": "mathematics/computer-proof",
+			"why": "The classification of finite simple groups is one of the longest proofs ever written, and parts of it have been checked by machine: Feit–Thompson in Coq in 2012."
+		}
+	]
+}

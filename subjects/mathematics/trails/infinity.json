@@ -1,0 +1,15 @@
+{
+	"id": "infinity",
+	"title": "Infinity",
+	"anchor": "cantor",
+	"spine": {
+		"segments": [
+			{
+				"id": "infinity",
+				"title": "Infinity",
+				"labelKind": "date",
+				"frames": ["zeno", "galileos-paradox", "banach-tarski", "continuum-hypothesis"]
+			}
+		]
+	}
+}

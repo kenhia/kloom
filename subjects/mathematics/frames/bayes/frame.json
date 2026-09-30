@@ -1,0 +1,244 @@
+{
+	"id": "bayes",
+	"topic": "Bayes's theorem",
+	"position": {
+		"label": "Inverse probability"
+	},
+	"scene": {
+		"headline": "We weighed the",
+		"accent": "EVIDENCE.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TUNBRIDGE WELLS · THOMAS BAYES · RICHARD PRICE",
+			"PHILOSOPHICAL TRANSACTIONS 1763 · BLETCHLEY PARK · THE DECIBAN"
+		],
+		"counter": {
+			"value": "2%",
+			"label": "the chance a positive test means the condition, in our invented example"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Essay towards Solving a Problem in the Doctrine of Chances",
+			"authors": [
+				{
+					"family": "Bayes",
+					"given": "Thomas"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "53",
+			"published": "1763",
+			"doi": "10.1098/rstl.1763.0053",
+			"url": "https://archive.org/details/philtrans09948070",
+			"accessed": "2026-09-30",
+			"note": "With Richard Price's covering letter and appendix, the Sun rising on pp. 409–410"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Applications of Probability to Cryptography",
+			"authors": [
+				{
+					"family": "Turing",
+					"given": "Alan M."
+				}
+			],
+			"container": "arXiv preprint arXiv:1505.04714",
+			"published": "2015",
+			"url": "https://arxiv.org/abs/1505.04714",
+			"accessed": "2026-09-30",
+			"note": "Turing's wartime paper, National Archives HW 25/37, typeset by Ian Taylor. The factor principle and decibans, §§1.5–1.6"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Bayes' theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bayes'_theorem&oldid=1377248703",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"note": "Price's editing, Laplace in 1774, Stigler on Saunderson, and the Bayes–Price name"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Bayes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Bayes&oldid=1376339887",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "An Essay Towards Solving a Problem in the Doctrine of Chances",
+			"url": "https://en.wikipedia.org/w/index.php?title=An_Essay_Towards_Solving_a_Problem_in_the_Doctrine_of_Chances&oldid=1366623553",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Price",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Price&oldid=1358173698",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rule of succession",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rule_of_succession&oldid=1374645583",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bayesian probability",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bayesian_probability&oldid=1376989733",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Inverse probability",
+			"url": "https://en.wikipedia.org/w/index.php?title=Inverse_probability&oldid=1366625249",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Banburismus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Banburismus&oldid=1372577431",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hartley (unit)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hartley_(unit)&oldid=1375056791",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "I. J. Good",
+			"url": "https://en.wikipedia.org/w/index.php?title=I._J._Good&oldid=1376353783",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "book",
+			"title": "Statistical Methods for Research Workers",
+			"authors": [
+				{
+					"family": "Fisher",
+					"given": "Ronald A."
+				}
+			],
+			"publisher": "Oliver and Boyd",
+			"place": "Edinburgh",
+			"published": "1925",
+			"url": "https://psychclassics.yorku.ca/Fisher/Methods/chap1.htm",
+			"accessed": "2026-09-30",
+			"note": "Chapter 1, read in the Classics in the History of Psychology transcription"
+		},
+		{
+			"kind": "media",
+			"title": "Part of a Banbury sheet, found in 2014 in the roof space of Hut 6 at Bletchley Park",
+			"url": "https://commons.wikimedia.org/wiki/File:Part_of_a_Banbury_Sheet_as_used_in_Banburismus.jpg",
+			"accessed": "2026-09-30",
+			"container": "Bletchley Park Museum, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "banbury-sheet.jpg",
+			"authors": [
+				{
+					"name": "TedColes"
+				}
+			],
+			"published": "2015-11-11"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/bombe",
+			"why": "Turing's Banburismus scored naval Enigma messages in decibans, Bayes's rule in logarithms, to pick the likeliest wheels and save the bombes' running time."
+		},
+		{
+			"to": "mathematics/large-numbers",
+			"why": "Bernoulli went from causes to frequencies; Bayes and Price asked the converse question, from frequencies to causes."
+		},
+		{
+			"to": "mathematics/markov-chains",
+			"why": "Bayes weighed evidence from independent observations; Markov's chains let each observation depend on the last."
+		}
+	]
+}

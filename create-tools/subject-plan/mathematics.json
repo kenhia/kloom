@@ -1,0 +1,156 @@
+{
+	"spine": {
+		"segments": [
+			{
+				"id": "counting",
+				"title": "Counting",
+				"labelKind": "date",
+				"frames": ["ishango-bone", "ybc-7289", "rhind-papyrus"]
+			},
+			{
+				"id": "greeks",
+				"title": "The Greeks",
+				"labelKind": "date",
+				"frames": [
+					"incommensurable",
+					"euclid-elements",
+					"archimedes-circle",
+					"apollonius-conics",
+					"diophantus"
+				]
+			},
+			{
+				"id": "beyond-greece",
+				"title": "Beyond Greece",
+				"labelKind": "date",
+				"frames": ["nine-chapters", "brahmagupta-zero", "al-khwarizmi", "fibonacci", "madhava"]
+			},
+			{
+				"id": "new-mathematics",
+				"title": "The new mathematics",
+				"labelKind": "date",
+				"frames": ["cardano-cubic", "descartes-geometry", "calculus", "konigsberg"]
+			},
+			{
+				"id": "algebra",
+				"title": "Algebra",
+				"labelKind": "category",
+				"frames": ["quintic", "groups", "matrices", "noether", "monster"]
+			},
+			{
+				"id": "analysis",
+				"title": "Analysis",
+				"labelKind": "category",
+				"frames": ["complex-numbers", "fourier", "rigour", "gradient-descent", "chaos"]
+			},
+			{
+				"id": "geometry",
+				"title": "Geometry",
+				"labelKind": "category",
+				"frames": [
+					"perspective",
+					"non-euclidean",
+					"riemann-geometry",
+					"topology",
+					"poincare-conjecture",
+					"fractals"
+				]
+			},
+			{
+				"id": "probability",
+				"title": "Probability",
+				"labelKind": "category",
+				"frames": [
+					"problem-of-points",
+					"large-numbers",
+					"normal-distribution",
+					"bayes",
+					"markov-chains",
+					"wiener-measure",
+					"kolmogorov",
+					"monte-carlo"
+				]
+			},
+			{
+				"id": "logic",
+				"title": "Logic and foundations",
+				"labelKind": "category",
+				"frames": [
+					"boole",
+					"cantor",
+					"frege-russell",
+					"hilbert-problems",
+					"godel",
+					"entscheidungsproblem"
+				]
+			},
+			{
+				"id": "now",
+				"title": "Mathematics now",
+				"labelKind": "category",
+				"frames": ["computer-proof", "where-mathematics-is"]
+			}
+		]
+	},
+	"trails": [
+		{
+			"id": "fermats-last-theorem",
+			"title": "Fermat's Last Theorem",
+			"anchor": "diophantus",
+			"spine": {
+				"segments": [
+					{
+						"id": "flt",
+						"title": "Fermat's Last Theorem",
+						"labelKind": "date",
+						"frames": [
+							"fermats-margin",
+							"euler-cubes",
+							"sophie-germain",
+							"kummer-ideals",
+							"taniyama-shimura",
+							"wiles"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "primes",
+			"title": "The primes",
+			"anchor": "euclid-elements",
+			"spine": {
+				"segments": [
+					{
+						"id": "primes",
+						"title": "The primes",
+						"labelKind": "date",
+						"frames": [
+							"sieve-of-eratosthenes",
+							"disquisitiones",
+							"riemann-hypothesis",
+							"prime-number-theorem",
+							"rsa",
+							"twin-primes"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "infinity",
+			"title": "Infinity",
+			"anchor": "cantor",
+			"spine": {
+				"segments": [
+					{
+						"id": "infinity",
+						"title": "Infinity",
+						"labelKind": "date",
+						"frames": ["zeno", "galileos-paradox", "banach-tarski", "continuum-hypothesis"]
+					}
+				]
+			}
+		}
+	]
+}

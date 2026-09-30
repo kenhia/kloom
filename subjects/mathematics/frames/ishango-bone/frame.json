@@ -1,0 +1,89 @@
+{
+	"id": "ishango-bone",
+	"topic": "The Ishango bone",
+	"position": { "label": "c. 18,000 BC", "sort": -18000 },
+	"scene": {
+		"headline": "We learned to",
+		"accent": "COUNT.",
+		"palette": "clay",
+		"illustration": "scene.svg",
+		"metadata": ["ISHANGO · SEMLIKI RIVER · CONGO", "BONE · QUARTZ · THREE COLUMNS OF NOTCHES"],
+		"counter": { "value": "168", "label": "notches, in sixteen groups (or 167)" }
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Ishango bone",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ishango_bone&oldid=1370228107",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19",
+			"note": "The dating, the second bone, Marshack's calendar, Rudman on division, and Joseph's warning as Huylebrouck quotes it"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Does the Ishango Bone Indicate Knowledge of the Base 12? An Interpretation of a Prehistoric Discovery, the First Mathematical Tool of Humankind",
+			"authors": [{ "family": "Pletser", "given": "Vladimir" }],
+			"container": "arXiv preprint arXiv:1204.1019",
+			"published": "2012",
+			"url": "https://arxiv.org/abs/1204.1019",
+			"accessed": "2026-09-30",
+			"note": "The notch counts, column by column, and the uncertain groups"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Contradictions and Narrowness of Views in \"The Fables of Ishango, or the Irresistible Temptation of Mathematical Fiction\", Answers and Updates",
+			"authors": [
+				{ "family": "Pletser", "given": "Vladimir" },
+				{ "family": "Huylebrouck", "given": "Dirk" }
+			],
+			"container": "arXiv preprint arXiv:1607.00860",
+			"published": "2016",
+			"url": "https://arxiv.org/abs/1607.00860",
+			"accessed": "2026-09-30",
+			"note": "Quotes Keller's 2010 essay (Bibnum) point by point, with the authors' replies; the English text is on pp. 16–28"
+		},
+		{
+			"kind": "article",
+			"title": "The Ishango Bone: Evidence for Intentional Arithmetic Design in the Upper Palaeolithic?",
+			"authors": [{ "family": "Baur", "given": "Jenny" }],
+			"container": "arXiv preprint arXiv:2504.06412",
+			"published": "2026-05-17",
+			"url": "https://arxiv.org/abs/2504.06412",
+			"accessed": "2026-09-30",
+			"note": "Version 4"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lebombo bone",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lebombo_bone&oldid=1355689213",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-23"
+		},
+		{
+			"kind": "media",
+			"title": "The Ishango bone on display at the Royal Belgian Institute of Natural Sciences, Brussels",
+			"url": "https://commons.wikimedia.org/wiki/File:Ishango_bone.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "ishango-bone.jpg",
+			"authors": [{ "name": "JhowieNitnek" }],
+			"published": "2022-02-09"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/writing",
+			"why": "The Ishango notches count without writing; the first tablets at Uruk, some fifteen thousand years later, began the same way, as numbers beside the things counted."
+		}
+	]
+}

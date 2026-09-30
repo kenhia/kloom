@@ -1,0 +1,22 @@
+{
+	"id": "fermats-last-theorem",
+	"title": "Fermat's Last Theorem",
+	"anchor": "diophantus",
+	"spine": {
+		"segments": [
+			{
+				"id": "flt",
+				"title": "Fermat's Last Theorem",
+				"labelKind": "date",
+				"frames": [
+					"fermats-margin",
+					"euler-cubes",
+					"sophie-germain",
+					"kummer-ideals",
+					"taniyama-shimura",
+					"wiles"
+				]
+			}
+		]
+	}
+}

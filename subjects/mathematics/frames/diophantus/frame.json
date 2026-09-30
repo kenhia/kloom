@@ -1,0 +1,140 @@
+{
+	"id": "diophantus",
+	"topic": "Diophantus's Arithmetica",
+	"position": {
+		"label": "c. AD 250",
+		"sort": 250
+	},
+	"scene": {
+		"headline": "We gave a sign to the",
+		"accent": "UNKNOWN.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ALEXANDRIA · DIOPHANTUS",
+			"ARITHMETICA · SYNCOPATED ALGEBRA · RATIONAL SOLUTIONS"
+		],
+		"counter": {
+			"value": "84",
+			"label": "years of Diophantus's life, if the riddle of his epitaph is true"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Diophantus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diophantus&oldid=1375463850",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"key": true,
+			"note": "The dates, the notation, the rediscovered books and the epitaph's attribution to Metrodorus"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Diophantus of Alexandria: A Study in the History of Greek Algebra",
+			"authors": [
+				{
+					"family": "Heath",
+					"given": "Thomas L."
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1910",
+			"url": "https://archive.org/details/diophantusofalex00heatiala",
+			"accessed": "2026-09-30",
+			"note": "Second edition. Problem II.8 and Fermat's note (pp. 144–145), the signs (pp. 37–44, 130), the epigram (p. 3), and the lost books (pp. 5–6)"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Diophantus of Alexandria: A Text and Its History",
+			"authors": [
+				{
+					"family": "Schappacher",
+					"given": "Norbert"
+				}
+			],
+			"container": "IRMA, Université de Strasbourg",
+			"published": "2005-04",
+			"url": "https://irma.math.unistra.fr/~schappa/NSch/Publications_files/1998cBis_Dioph.pdf",
+			"accessed": "2026-09-30",
+			"note": "II.8 and III.19 (pp. 11–12), and the Meshed manuscript (p. 17)"
+		},
+		{
+			"kind": "article",
+			"title": "Review of J. Sesiano, Books IV to VII of Diophantus' Arithmetica in the Arabic Translation Attributed to Qusta ibn Luqa",
+			"authors": [
+				{
+					"family": "Hogendijk",
+					"given": "Jan P."
+				}
+			],
+			"container": "Historia Mathematica",
+			"volume": "12",
+			"pages": "82–85",
+			"published": "1985",
+			"url": "http://www.jphogendijk.nl/reviews/sesiano.html",
+			"accessed": "2026-09-30",
+			"note": "Read in the author's copy on his website"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hypatia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hypatia&oldid=1376121327",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Diophantus II.VIII",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diophantus_II.VIII&oldid=1377068403",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "The first page of Book I of the Arithmetica, in Greek and Latin, from Bachet's edition",
+			"url": "https://commons.wikimedia.org/wiki/File:Diophantus_title_I_1621.jpg",
+			"accessed": "2026-09-30",
+			"container": "Paris, 1621, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "arithmetica-1621.jpg",
+			"authors": [
+				{
+					"family": "Bachet de Méziriac",
+					"given": "Claude Gaspar"
+				}
+			],
+			"published": "1621"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/ybc-7289",
+			"why": "Diophantus's answer to problem II.8, the squares 256/25 and 144/25 that make 16, is the right triangle 12, 16, 20 scaled down: a Pythagorean triple of the kind Plimpton 322 had listed in tables some two thousand years before."
+		}
+	]
+}

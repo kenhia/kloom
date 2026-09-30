@@ -1,0 +1,8 @@
+{
+	"id": "gaussian-elimination",
+	"wikidata": "Q2658",
+	"name": "Gaussian elimination",
+	"aliases": ["row reduction"],
+	"kind": "idea",
+	"description": "Method of solving simultaneous linear equations by subtracting multiples of one from another until one unknown is left; found in China two thousand years ago."
+}

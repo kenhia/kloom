@@ -1,0 +1,144 @@
+{
+	"id": "noether",
+	"topic": "Emmy Noether",
+	"position": {
+		"label": "Abstract algebra"
+	},
+	"scene": {
+		"headline": "She made algebra",
+		"accent": "ABSTRACT.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ERLANGEN · GÖTTINGEN · BRYN MAWR",
+			"INVARIANTE VARIATIONSPROBLEME, 1918 · IDEALTHEORIE, 1921"
+		],
+		"counter": {
+			"value": "4",
+			"label": "years she lectured at Göttingen under Hilbert's name"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Emmy Noether",
+			"url": "https://en.wikipedia.org/w/index.php?title=Emmy_Noether&oldid=1371442367",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26",
+			"note": "Göttingen and the faculty's objections, the 1921 paper, the Noether boys, 1933, Bryn Mawr and her death"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Invariant Variation Problems",
+			"authors": [
+				{
+					"family": "Noether",
+					"given": "Emmy"
+				}
+			],
+			"container": "Transport Theory and Statistical Physics",
+			"volume": "1",
+			"issue": "3",
+			"pages": "183–207",
+			"published": "1971",
+			"doi": "10.1080/00411457108231446",
+			"url": "https://arxiv.org/abs/physics/0503066",
+			"accessed": "2026-09-30",
+			"note": "M. A. Tavel's translation of \"Invariante Variationsprobleme\" (1918); Theorem I, and Theorem II on Hilbert's assertion about energy in general relativity (§ 6)"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Noether's theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Noether's_theorem&oldid=1371699404",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27",
+			"note": "The three symmetries and their conservation laws"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Noetherian ring",
+			"url": "https://en.wikipedia.org/w/index.php?title=Noetherian_ring&oldid=1377575888",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kepler's laws of planetary motion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kepler's_laws_of_planetary_motion&oldid=1377255023",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "web",
+			"title": "Emmy Noether: NY Times Obituary by Albert Einstein",
+			"authors": [
+				{
+					"family": "Einstein",
+					"given": "Albert"
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Noether_Emmy_Einstein/",
+			"accessed": "2026-09-30",
+			"note": "Einstein's letter to The New York Times, dated 1 May 1935 and printed on 4 May; read in MacTutor's transcription"
+		},
+		{
+			"kind": "media",
+			"title": "The first page of Emmy Noether's \"Invariante Variationsprobleme\", 1918",
+			"url": "https://commons.wikimedia.org/wiki/File:Noether_theorem_1st_page.png",
+			"accessed": "2026-09-30",
+			"container": "Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "invariante-variationsprobleme.png",
+			"authors": [
+				{
+					"family": "Noether",
+					"given": "Emmy"
+				}
+			],
+			"published": "1918"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/energy",
+			"why": "Noether's theorem of 1918 explains the law Joule and Helmholtz established: energy is conserved because the laws of physics are the same at every moment of time."
+		},
+		{
+			"to": "physics/general-relativity",
+			"why": "Noether came to Göttingen in 1915 to help Hilbert with energy in Einstein's new theory of gravity, and her second theorem of 1918 proved Hilbert's assertion that energy is not conserved there in the ordinary sense."
+		}
+	]
+}

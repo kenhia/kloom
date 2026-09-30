@@ -1,0 +1,7 @@
+{
+	"id": "mandelbrot-set",
+	"wikidata": "Q257",
+	"name": "Mandelbrot set",
+	"kind": "idea",
+	"description": "The set of complex numbers c for which repeating z → z² + c from zero stays bounded, a fractal first drawn by computer around 1978–80."
+}

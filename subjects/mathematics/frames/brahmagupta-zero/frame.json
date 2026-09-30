@@ -1,0 +1,210 @@
+{
+	"id": "brahmagupta-zero",
+	"topic": "Brahmagupta and zero",
+	"position": {
+		"label": "AD 628",
+		"sort": 628
+	},
+	"scene": {
+		"headline": "We made a number of",
+		"accent": "NOTHING.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": ["BHILLAMALA · BRAHMAGUPTA", "BRĀHMASPHUṬASIDDHĀNTA · ZERO · FORTUNES AND DEBTS"],
+		"counter": {
+			"value": "0 ÷ 0 = 0",
+			"label": "the one rule Brahmagupta got wrong"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Brahmagupta",
+			"url": "https://en.wikipedia.org/w/index.php?title=Brahmagupta&oldid=1368685828",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10",
+			"note": "His life, the book of 628, the rules of chapter 18 and their reception in Baghdad"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Algebra, with Arithmetic and Mensuration, from the Sanscrit of Brahmegupta and Bháscara",
+			"authors": [
+				{
+					"family": "Colebrooke",
+					"given": "Henry Thomas"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1817",
+			"url": "https://archive.org/details/algebrawitharith00brahuoft",
+			"accessed": "2026-09-30",
+			"note": "Brahmagupta's rules for cipher and negative quantities, ch. 18 §§ 31–36, pp. 339–340; dhana and ṛṇa explained in a note to Bhāskara's algebra, p. 132"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Bakhshālī Manuscript: A Response to the Bodleian Library's Radiocarbon Dating",
+			"authors": [
+				{
+					"family": "Plofker",
+					"given": "Kim"
+				},
+				{
+					"family": "Keller",
+					"given": "Agathe"
+				},
+				{
+					"family": "Hayashi",
+					"given": "Takao"
+				},
+				{
+					"family": "Montelle",
+					"given": "Clemency"
+				},
+				{
+					"family": "Wujastyk",
+					"given": "Dominik"
+				}
+			],
+			"container": "History of Science in South Asia",
+			"volume": "5",
+			"issue": "1",
+			"pages": "134–150",
+			"published": "2017",
+			"doi": "10.18732/H2XT07",
+			"url": "https://journals.library.ualberta.ca/hssa/index.php/hssa/article/view/22",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Radiocarbon Dating of the Bakhshālī Manuscript",
+			"authors": [
+				{
+					"family": "Chivall",
+					"given": "David"
+				},
+				{
+					"family": "Lladó-Buisán",
+					"given": "Virginia"
+				},
+				{
+					"family": "Howell",
+					"given": "David"
+				},
+				{
+					"family": "Evison",
+					"given": "Gillian"
+				}
+			],
+			"publisher": "Oxford Radiocarbon Accelerator Unit and Bodleian Libraries, University of Oxford",
+			"published": "2024",
+			"url": "https://ora.ox.ac.uk/objects/uuid:5a6d1dd7-f20c-4209-adb6-33849f5b08f4",
+			"accessed": "2026-09-30",
+			"note": "Five folios dated; folio 16 re-tested at 901–1032 and folio 17 set aside; the manuscript made between 799–892 and 900–1102"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Brāhmasphuṭasiddhānta",
+			"url": "https://en.wikipedia.org/w/index.php?title=Br%C4%81hmasphu%E1%B9%ADasiddh%C4%81nta&oldid=1338739382",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "0",
+			"url": "https://en.wikipedia.org/w/index.php?title=0&oldid=1375536222",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bakhshali manuscript",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bakhshali_manuscript&oldid=1375499656",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chaturbhuj Temple, Gwalior",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chaturbhuj_Temple,_Gwalior&oldid=1371239299",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "media",
+			"title": "The numerals of the Bakhshali manuscript, from Hoernle's study of 1887",
+			"url": "https://commons.wikimedia.org/wiki/File:Bakhshali_numerals_1.jpg",
+			"accessed": "2026-09-30",
+			"container": "A. F. R. Hoernle, \"On the Bakhshali Manuscript\" (1887), p. 9, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "bakhshali-numerals.jpg",
+			"authors": [
+				{
+					"family": "Hoernle",
+					"given": "A. F. R."
+				}
+			],
+			"published": "1887"
+		},
+		{
+			"kind": "media",
+			"title": "The zero inscription of the Chaturbhuj Temple, Gwalior, with its 270 marked",
+			"url": "https://commons.wikimedia.org/wiki/File:0121521_Chaturbhuj_Temple,_Gwalior_Fort,_Madhya_Pradesh_37_(where_is_zero_in_this_Hindu_inscription).jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC0",
+			"file": "gwalior-270.jpg",
+			"authors": [
+				{
+					"name": "Ms Sarah Welch"
+				}
+			],
+			"published": "2021-12-15"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/ybc-7289",
+			"why": "The Babylonian scribes wrote place-value numbers with no zero, so the place of a digit like YBC 7289's 30 was left to the reader; Brahmagupta's India gave the empty place a sign and made it a number."
+		}
+	]
+}

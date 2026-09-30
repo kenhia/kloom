@@ -1,0 +1,314 @@
+{
+	"id": "chaos",
+	"topic": "Chaos and sensitive dependence",
+	"position": {
+		"label": "Chaos"
+	},
+	"scene": {
+		"headline": "We could not",
+		"accent": "PREDICT.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"POINCARÉ · LORENZ · MAY · FEIGENBAUM",
+			"ACTA MATHEMATICA 1890 · J. ATMOS. SCI. 1963 · NATURE 1976"
+		],
+		"counter": {
+			"value": "3,500",
+			"label": "crowns Poincaré paid for the pulped printing; the prize was 2,500"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Une erreur féconde du mathématicien Henri Poincaré",
+			"authors": [
+				{
+					"family": "Yoccoz",
+					"given": "Jean-Christophe"
+				}
+			],
+			"container": "La lettre du Collège de France",
+			"issue": "28",
+			"pages": "38–42",
+			"published": "2010-04",
+			"doi": "10.4000/lettre-cdf.1103",
+			"url": "https://journals.openedition.org/lettre-cdf/1103",
+			"accessed": "2026-09-30",
+			"note": "The prize, Phragmén's questions, the 3,500 crowns, and what the error was"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Deterministic Nonperiodic Flow",
+			"authors": [
+				{
+					"family": "Lorenz",
+					"given": "Edward N."
+				}
+			],
+			"container": "Journal of the Atmospheric Sciences",
+			"volume": "20",
+			"issue": "2",
+			"pages": "130–41",
+			"published": "1963-03",
+			"doi": "10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2",
+			"accessed": "2026-09-30",
+			"note": "The constants and the LGP-30 are on p. 136; read in MIT's scan"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "A Scientist by Choice",
+			"authors": [
+				{
+					"family": "Lorenz",
+					"given": "Edward N."
+				}
+			],
+			"container": "Kyoto Prize Commemorative Lectures",
+			"publisher": "Inamori Foundation",
+			"published": "1993-04-30",
+			"url": "https://www.kyotoprize.org/wp-content/uploads/2019/07/1991_B.pdf",
+			"accessed": "2026-09-30",
+			"note": "His own telling of the restarted run and the cup of coffee"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Simple Mathematical Models with Very Complicated Dynamics",
+			"authors": [
+				{
+					"family": "May",
+					"given": "Robert M."
+				}
+			],
+			"container": "Nature",
+			"volume": "261",
+			"pages": "459–67",
+			"published": "1976-06-10",
+			"doi": "10.1038/261459a0",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "The Dream of a Swedish Mathematician: The Mittag-Leffler Institute",
+			"authors": [
+				{
+					"family": "Jackson",
+					"given": "Allyn"
+				}
+			],
+			"container": "Notices of the American Mathematical Society",
+			"volume": "46",
+			"issue": "9",
+			"pages": "1050–58",
+			"published": "1999-10",
+			"url": "https://www.ams.org/journals/notices/199909/fea-mittag.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Some Instructive Mathematical Errors",
+			"authors": [
+				{
+					"family": "Brent",
+					"given": "Richard P."
+				}
+			],
+			"container": "arXiv preprint arXiv:2106.07269",
+			"published": "2021-09-22",
+			"url": "https://arxiv.org/abs/2106.07269",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Predictability: Does the Flap of a Butterfly's Wings in Brazil Set Off a Tornado in Texas?",
+			"authors": [
+				{
+					"family": "Lorenz",
+					"given": "Edward N."
+				}
+			],
+			"container": "American Association for the Advancement of Science, 139th meeting",
+			"published": "1972-12-29",
+			"url": "http://eaps4.mit.edu/research/Lorenz/Butterfly_1972.pdf",
+			"accessed": "2026-09-30",
+			"note": "Read through the Wayback Machine"
+		},
+		{
+			"kind": "article",
+			"title": "Universal Behavior in Nonlinear Systems",
+			"authors": [
+				{
+					"family": "Feigenbaum",
+					"given": "Mitchell J."
+				}
+			],
+			"container": "Physica D: Nonlinear Phenomena",
+			"volume": "7",
+			"issue": "1–3",
+			"pages": "16–39",
+			"published": "1983",
+			"doi": "10.1016/0167-2789(83)90112-4",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Three-body problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Three-body_problem&oldid=1375764917",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henri Poincaré",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henri_Poincar%C3%A9&oldid=1374998846",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edward Norton Lorenz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edward_Norton_Lorenz&oldid=1377173159",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Butterfly effect",
+			"url": "https://en.wikipedia.org/w/index.php?title=Butterfly_effect&oldid=1375669491",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lorenz system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lorenz_system&oldid=1375612625",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Logistic map",
+			"url": "https://en.wikipedia.org/w/index.php?title=Logistic_map&oldid=1373931957",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Feigenbaum constants",
+			"url": "https://en.wikipedia.org/w/index.php?title=Feigenbaum_constants&oldid=1374409688",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mitchell Feigenbaum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mitchell_Feigenbaum&oldid=1375287170",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "LGP-30",
+			"url": "https://en.wikipedia.org/w/index.php?title=LGP-30&oldid=1359840857",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-17"
+		},
+		{
+			"kind": "media",
+			"title": "An LGP-30 in use at Manhattan College, with its typewriter console and paper tape",
+			"url": "https://commons.wikimedia.org/wiki/File:LGP-30_Manhattan_College.rjf.jpg",
+			"accessed": "2026-09-30",
+			"container": "Flickr, via Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "lgp-30.jpg",
+			"authors": [
+				{
+					"name": "Bob Fleischer"
+				}
+			],
+			"published": "1965-08"
+		},
+		{
+			"kind": "media",
+			"title": "The gap between two runs of the logistic map at r = 4",
+			"url": "https://en.wikipedia.org/w/index.php?title=Logistic_map&oldid=1373931957",
+			"accessed": "2026-09-30",
+			"container": "Chart drawn for kloom from runs computed for kloom",
+			"licence": "MIT",
+			"file": "gap.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/principia",
+			"why": "The Principia solved two bodies exactly and took the first steps on three, the Earth, Moon and Sun; that three-body problem is where Poincaré first met chaos."
+		}
+	]
+}

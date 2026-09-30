@@ -1,0 +1,179 @@
+{
+	"id": "descartes-geometry",
+	"topic": "Descartes's La Géométrie",
+	"position": {
+		"label": "AD 1637",
+		"sort": 1637
+	},
+	"scene": {
+		"headline": "We wrote the curve as an",
+		"accent": "EQUATION.",
+		"palette": "oakgall",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LEIDEN · JAN MAIRE · 1637",
+			"LA GÉOMÉTRIE · THE THIRD ESSAY OF THE DISCOURSE ON METHOD"
+		],
+		"counter": {
+			"value": "2",
+			"label": "unknown lengths, x and y, fix every point of a curve"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "La Géométrie",
+			"authors": [
+				{
+					"family": "Descartes",
+					"given": "René"
+				}
+			],
+			"publisher": "A. Hermann",
+			"place": "Paris",
+			"published": "1886",
+			"url": "https://www.gutenberg.org/ebooks/26400",
+			"accessed": "2026-09-30",
+			"note": "Nouvelle édition, read at Project Gutenberg. The opening promise, figures 1 and 2, and Pappus's problem, pp. 1–12; the editors replaced Descartes's sign for equality with ="
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "La Géométrie",
+			"url": "https://en.wikipedia.org/w/index.php?title=La_G%C3%A9om%C3%A9trie&oldid=1351221751",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-26",
+			"note": "The notation, the three books, and van Schooten's Latin editions"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Analytic geometry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Analytic_geometry&oldid=1373603189",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06",
+			"note": "Fermat's Introduction, circulating in 1637 and printed in 1679"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cartesian coordinate system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cartesian_coordinate_system&oldid=1373532681",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "René Descartes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ren%C3%A9_Descartes&oldid=1377474096",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frans van Schooten",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frans_van_Schooten&oldid=1355158415",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Discourse on the Method",
+			"url": "https://en.wikipedia.org/w/index.php?title=Discourse_on_the_Method&oldid=1365998399",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pappus of Alexandria",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pappus_of_Alexandria&oldid=1369017296",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Imaginary number",
+			"url": "https://en.wikipedia.org/w/index.php?title=Imaginary_number&oldid=1377723890",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Page 299 of La Géométrie, as printed with the Discourse on the Method at Leiden in 1637",
+			"url": "https://commons.wikimedia.org/wiki/File:Page9-Descartes_La_G%C3%A9om%C3%A9trie.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikisource, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "geometrie-p299.jpg",
+			"authors": [
+				{
+					"family": "Descartes",
+					"given": "René"
+				}
+			],
+			"published": "1637"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/apollonius-conics",
+			"why": "Descartes showed his method on Pappus's problem, which Apollonius had left unfinished; its answers are the conics, the curves of the second degree."
+		}
+	]
+}

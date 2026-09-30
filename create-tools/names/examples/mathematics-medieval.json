@@ -1,0 +1,42 @@
+{
+	"mathematics/brahmagupta-zero": [
+		["Brahmagupta", "brahmagupta"],
+		["_Brāhmasphuṭasiddhānta_", "brahmasphutasiddhanta"],
+		["zero", "0"],
+		["negative numbers", "negative-number"],
+		["Bakhshali manuscript", "bakhshali-manuscript"],
+		["Bodleian Library", "bodleian-library"],
+		["Chaturbhuj Temple", "chaturbhuj-temple-gwalior"],
+		["al-Khwarizmi", "al-khwarizmi"]
+	],
+	"mathematics/al-khwarizmi": [
+		["Baghdad", "baghdad"],
+		["Muhammad ibn Musa al-Khwarizmi", "al-khwarizmi"],
+		["al-Ma'mun", "al-mamun"],
+		["_al-Kitāb al-mukhtaṣar fī ḥisāb al-jabr wa-l-muqābala_", "al-jabr"],
+		["House of Wisdom", "house-of-wisdom"],
+		["completing the square", "completing-the-square"],
+		["algorithm", "algorithm"],
+		["Fibonacci", "fibonacci"]
+	],
+	"mathematics/fibonacci": [
+		["Leonardo of Pisa", "fibonacci"],
+		["Bugia", "bejaia"],
+		["Pisa", "pisa"],
+		["_Liber Abaci_", "liber-abaci"],
+		["Hindu–Arabic numerals", "hindu-arabic-numeral-system"],
+		["Florence", "florence"],
+		["Fibonacci sequence", "fibonacci-sequence"],
+		["golden ratio", "golden-ratio"]
+	],
+	"mathematics/madhava": [
+		["Madhava", "madhava-of-sangamagrama"],
+		["Kerala school", "kerala-school-of-astronomy-and-mathematics"],
+		["Nilakantha Somayaji", "nilakantha-somayaji"],
+		["_Yuktibhāṣā_", "yuktibhasa"],
+		["Ibn al-Haytham", "ibn-al-haytham"],
+		["James Gregory", "james-gregory-mathematician"],
+		["Gottfried Wilhelm Leibniz", "gottfried-wilhelm-leibniz"],
+		["George Gheverghese Joseph", "george-gheverghese-joseph"]
+	]
+}

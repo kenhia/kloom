@@ -1,0 +1,8 @@
+{
+	"id": "diffie-hellman-key-exchange",
+	"wikidata": "Q623447",
+	"name": "Diffie–Hellman key exchange",
+	"aliases": ["Diffie-Hellman", "Diffie–Hellman"],
+	"kind": "idea",
+	"description": "Method, published by Whitfield Diffie and Martin Hellman in 1976, by which two parties agree a secret key over an open channel, using powers modulo a large prime."
+}

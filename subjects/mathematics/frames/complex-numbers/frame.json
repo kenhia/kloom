@@ -1,0 +1,251 @@
+{
+	"id": "complex-numbers",
+	"topic": "Complex numbers",
+	"position": {
+		"label": "Complex numbers"
+	},
+	"scene": {
+		"headline": "Numbers learned to",
+		"accent": "TURN.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COPENHAGEN · PARIS · GÖTTINGEN · DUBLIN",
+			"WESSEL 1799 · ARGAND 1806 · GAUSS 1831 · HAMILTON 1843"
+		],
+		"counter": {
+			"value": "90°",
+			"label": "the turn made by multiplying by i"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Complex number",
+			"url": "https://en.wikipedia.org/w/index.php?title=Complex_number&oldid=1376162849",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22",
+			"note": "The history: Descartes's \"imaginary\", Euler's formula, Wessel, Argand, and Gauss's 1831 treatise and his \"lateral units\""
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Imaginary Quantities: Their Geometrical Interpretation",
+			"authors": [
+				{
+					"family": "Argand",
+					"given": "Jean-Robert"
+				}
+			],
+			"publisher": "D. Van Nostrand",
+			"place": "New York",
+			"published": "1881",
+			"url": "https://archive.org/details/imaginaryquantit00arga",
+			"accessed": "2026-09-30",
+			"note": "Translated by A. S. Hardy from the 1874 edition, with J. Hoüel's preface. The proportion +1 : x :: x : −1 is on pp. 23–24"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Fundamental Theorem of Algebra and Complexity Theory",
+			"authors": [
+				{
+					"family": "Smale",
+					"given": "Steve"
+				}
+			],
+			"container": "Bulletin of the American Mathematical Society",
+			"volume": "4",
+			"issue": "1",
+			"pages": "1–36",
+			"published": "1981",
+			"doi": "10.1090/S0273-0979-1981-14858-8",
+			"accessed": "2026-09-30",
+			"note": "Gauss's gap, quoting his 1799 thesis in Struik's translation, pp. 4–5"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Letter from Sir W. R. Hamilton to Rev. Archibald H. Hamilton, 5 August 1865",
+			"authors": [
+				{
+					"family": "Hamilton",
+					"given": "William Rowan"
+				}
+			],
+			"editors": [
+				{
+					"family": "Wilkins",
+					"given": "David R."
+				}
+			],
+			"container": "Letters Describing the Discovery of Quaternions",
+			"publisher": "School of Mathematics, Trinity College Dublin",
+			"url": "https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/Letters/BroomeBridge.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Euler's identity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Euler's_identity&oldid=1377262034",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"note": "Robin Wilson on the identity's absence from Euler's writings"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Euler's formula",
+			"url": "https://en.wikipedia.org/w/index.php?title=Euler's_formula&oldid=1377261789",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"note": "Feynman's \"our jewel\", citing The Feynman Lectures on Physics, vol. I, p. 22-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Caspar Wessel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Caspar_Wessel&oldid=1372835434",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean-Robert Argand",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean-Robert_Argand&oldid=1372019185",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fundamental theorem of algebra",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fundamental_theorem_of_algebra&oldid=1365932128",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of quaternions",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_quaternions&oldid=1377155047",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "article",
+			"title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+			"authors": [
+				{
+					"family": "Su",
+					"given": "Jianlin"
+				},
+				{
+					"family": "Lu",
+					"given": "Yu"
+				},
+				{
+					"family": "Pan",
+					"given": "Shengfeng"
+				},
+				{
+					"family": "Murtadha",
+					"given": "Ahmed"
+				},
+				{
+					"family": "Wen",
+					"given": "Bo"
+				},
+				{
+					"family": "Liu",
+					"given": "Yunfeng"
+				}
+			],
+			"container": "arXiv preprint arXiv:2104.09864",
+			"published": "2021",
+			"url": "https://arxiv.org/abs/2104.09864",
+			"accessed": "2026-09-30",
+			"note": "Section 3.2.1, version 5"
+		},
+		{
+			"kind": "media",
+			"title": "The title page of Argand's Essai sur une manière de représenter les quantités imaginaires (Paris, 1806), the copy addressed to Gergonne",
+			"url": "https://commons.wikimedia.org/wiki/File:Quantites_Imaginaires_Argand_1806.png",
+			"accessed": "2026-09-30",
+			"container": "Bibliothèque universitaire de Bordeaux, Fonds Houël, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "argand-essai.jpg",
+			"authors": [
+				{
+					"family": "Argand",
+					"given": "Jean-Robert"
+				}
+			],
+			"published": "1806"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/lectures",
+			"why": "Feynman's lecture on algebra climbs to the imaginary exponential e^iθ, Euler's formula of 1748, which he called \"our jewel\"."
+		},
+		{
+			"to": "ai/token-embeddings",
+			"why": "Rotary position embedding turns each pair of a vector's numbers by an angle set by its position; its authors wrote the pair as a complex number and the turn as multiplication by e^(imθ)."
+		},
+		{
+			"to": "physics/matrix-mechanics",
+			"why": "Born's rule pq − qp = h/2πi put the imaginary unit into the foundations of quantum mechanics."
+		},
+		{
+			"to": "mathematics/cardano-cubic",
+			"why": "Bombelli's rules for √−1, made to finish Cardano's cubic formula, were the first arithmetic of complex numbers."
+		}
+	]
+}

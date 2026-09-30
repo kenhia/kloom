@@ -1,0 +1,124 @@
+{
+	"id": "apollonius-conics",
+	"topic": "Apollonius's Conics",
+	"position": {
+		"label": "c. 200 BC",
+		"sort": -200
+	},
+	"scene": {
+		"headline": "We cut the",
+		"accent": "CONE.",
+		"palette": "clay",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PERGA · ALEXANDRIA · PERGAMON · APOLLONIUS",
+			"CONICS · ELLIPSE · PARABOLA · HYPERBOLA"
+		],
+		"counter": {
+			"value": "7 of 8",
+			"label": "books of the Conics that survive: four in Greek, three in Arabic"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Apollonius of Perga",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apollonius_of_Perga&oldid=1365133402",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-20",
+			"key": true,
+			"note": "The prefaces, the books and how they survived, Halley's edition, and the definitions of Book I"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Apollonius of Perga: Treatise on Conic Sections",
+			"authors": [
+				{
+					"family": "Heath",
+					"given": "T. L."
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1896",
+			"url": "https://archive.org/details/treatiseonconics00apolrich",
+			"accessed": "2026-09-30",
+			"note": "The old names (p. xxxiii), Archimedes and the oblique cone (pp. xlv–xlvi), Apollonius's names and Eutocius's (pp. lxxviii–lxxx), and the life and books (pp. lxviii–lxix)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Conic section",
+			"url": "https://en.wikipedia.org/w/index.php?title=Conic_section&oldid=1377246756",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Menaechmus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Menaechmus&oldid=1360708484",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eutocius of Ascalon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eutocius_of_Ascalon&oldid=1365347083",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "media",
+			"title": "The opening pages of an Arabic translation of the Conics, with drawings of cones cut by planes (Bodleian Library, MS. Marsh 667)",
+			"url": "https://commons.wikimedia.org/wiki/File:Conica_of_Apollonius_of_Perga_fol._6b-7a.jpg",
+			"accessed": "2026-09-30",
+			"container": "Bodleian Libraries, University of Oxford, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "conica-marsh-667.jpg",
+			"authors": [
+				{
+					"name": "Bodleian Libraries, University of Oxford"
+				}
+			],
+			"published": "1070"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/kepler",
+			"why": "Kepler named the foci of Apollonius's curves in 1604, and in the Astronomia nova put Mars on one of them, an ellipse with the Sun at a focus."
+		},
+		{
+			"to": "physics/principia",
+			"why": "The Principia proved that an inverse-square force gives orbits that are conic sections, the curves Apollonius had cut from one cone and named nineteen centuries before."
+		}
+	]
+}

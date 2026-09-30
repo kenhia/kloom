@@ -1,0 +1,196 @@
+{
+	"id": "wiener-measure",
+	"topic": "Brownian motion and Wiener's integral",
+	"position": {
+		"label": "Brownian motion"
+	},
+	"scene": {
+		"headline": "We put a measure on every",
+		"accent": "PATH.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": ["PARIS BOURSE 1900 · MIT 1923 · CORNELL 1947", "BACHELIER · WIENER · KAC"],
+		"counter": {
+			"value": "0",
+			"label": "the probability that a Brownian path has a slope anywhere"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Concept of Velocity in the History of Brownian Motion: From Physics to Mathematics and Back",
+			"authors": [
+				{
+					"family": "Genthon",
+					"given": "Arthur"
+				}
+			],
+			"container": "The European Physical Journal H",
+			"published": "2020",
+			"volume": "45",
+			"pages": "49–105",
+			"doi": "10.1140/epjh/e2020-10009-8",
+			"url": "https://arxiv.org/abs/2006.05399",
+			"note": "Wiener's reading of Perrin, Differential Space (1923), and the 1933 proof with Paley and Zygmund; read in the arXiv version",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Théorie de la spéculation",
+			"authors": [
+				{
+					"family": "Bachelier",
+					"given": "Louis"
+				}
+			],
+			"container": "Annales scientifiques de l’École Normale Supérieure",
+			"volume": "17",
+			"pages": "21–86",
+			"published": "1900",
+			"doi": "10.24033/asens.476",
+			"url": "http://www.numdam.org/item/ASENS_1900_3_17__21_0/",
+			"accessed": "2026-09-30",
+			"note": "The zero expectation, the square root of time, the Fourier equation and the last sentence; translations ours"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On Distributions of Certain Wiener Functionals",
+			"authors": [
+				{
+					"family": "Kac",
+					"given": "M."
+				}
+			],
+			"container": "Transactions of the American Mathematical Society",
+			"volume": "65",
+			"issue": "1",
+			"pages": "1–13",
+			"published": "1949",
+			"doi": "10.1090/S0002-9947-1949-0027960-X",
+			"accessed": "2026-09-30",
+			"note": "Presented 25 October 1947; the debt to Feynman is on p. 1"
+		},
+		{
+			"kind": "book",
+			"title": "Atoms",
+			"authors": [
+				{
+					"family": "Perrin",
+					"given": "Jean"
+				}
+			],
+			"publisher": "Constable",
+			"place": "London",
+			"published": "1916",
+			"url": "https://archive.org/details/atomsper00perruoft",
+			"accessed": "2026-09-30",
+			"note": "Translated by D. Ll. Hammick; the preface on curves without tangents"
+		},
+		{
+			"kind": "web",
+			"title": "Louis Bachelier",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bachelier/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Louis Bachelier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Louis_Bachelier&oldid=1374999290",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Brownian motion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Brownian_motion&oldid=1373738840",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wiener process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wiener_process&oldid=1376996896",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Feynman–Kac formula",
+			"url": "https://en.wikipedia.org/w/index.php?title=Feynman%E2%80%93Kac_formula&oldid=1375825664",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "media",
+			"title": "Norbert Wiener, photographed by Konrad Jacobs",
+			"url": "https://commons.wikimedia.org/wiki/File:Norbert_wiener.jpg",
+			"accessed": "2026-09-30",
+			"container": "Oberwolfach Photo Collection (Mathematisches Forschungsinstitut Oberwolfach), via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0 de",
+			"file": "norbert-wiener.jpg",
+			"authors": [
+				{
+					"family": "Jacobs",
+					"given": "Konrad"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/atoms-real",
+			"why": "Einstein's 1905 law, that a grain's wandering grows with the square root of the time, which Perrin's counts confirmed, is the law Bachelier had derived for prices in 1900 and Wiener made exact in 1923."
+		},
+		{
+			"to": "feynman/path-integrals-today",
+			"why": "Kac's 1947 formula, taken from the derivation in Feynman's unpublished thesis, averages over the Brownian paths that carry Wiener's measure; the feynman frame follows it into lattice calculations."
+		},
+		{
+			"to": "mathematics/markov-chains",
+			"why": "Brownian motion is a random walk whose steps shrink without end, a Markov process in continuous time."
+		}
+	]
+}

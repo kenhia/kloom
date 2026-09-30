@@ -1,0 +1,9 @@
+{
+	"id": "noethers-theorem",
+	"wikidata": "Q578555",
+	"name": "Noether's theorem",
+	"aliases": ["Noether's first theorem"],
+	"kind": "idea",
+	"description": "Emmy Noether's theorem of 1918 that each continuous symmetry of a physical system's laws corresponds to a conserved quantity: time to energy, place to momentum, rotation to angular momentum.",
+	"home": "mathematics/noether"
+}

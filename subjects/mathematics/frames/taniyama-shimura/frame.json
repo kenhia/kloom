@@ -1,0 +1,261 @@
+{
+	"id": "taniyama-shimura",
+	"topic": "The modularity conjecture",
+	"position": {
+		"label": "1955–1986",
+		"sort": 1955
+	},
+	"scene": {
+		"headline": "Every elliptic curve is",
+		"accent": "MODULAR.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TOKYO–NIKKŌ 1955 · PRINCETON · BERKELEY 1986",
+			"TANIYAMA · SHIMURA · WEIL · FREY · SERRE · RIBET"
+		],
+		"counter": {
+			"value": "11",
+			"label": "the lowest level with a form to match a curve"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Modularity theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Modularity_theorem&oldid=1368757122",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10",
+			"note": "Taniyama's problems of 1955, Weil's paper of 1967, and Frey, Serre and Ribet"
+		},
+		{
+			"kind": "article",
+			"title": "Virtues of Priority",
+			"authors": [
+				{
+					"family": "Harris",
+					"given": "Michael"
+				}
+			],
+			"container": "arXiv preprint arXiv:2003.08242",
+			"published": "2020",
+			"url": "https://arxiv.org/abs/2003.08242",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "The three claims to the conjecture, quoting Lang (1995), Shimura's letters and Serre (2002)"
+		},
+		{
+			"kind": "article",
+			"title": "From the Taniyama-Shimura Conjecture to Fermat's Last Theorem",
+			"authors": [
+				{
+					"family": "Ribet",
+					"given": "Kenneth A."
+				}
+			],
+			"container": "Annales de la Faculté des sciences de Toulouse",
+			"volume": "11",
+			"issue": "1",
+			"pages": "116–139",
+			"published": "1990",
+			"url": "http://www.numdam.org/item/AFST_1990_5_11_1_116_0/",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "The theorem, the Frey curve, and why no form exists at level 2 (p. 128)"
+		},
+		{
+			"kind": "article",
+			"title": "Modular Elliptic Curves and Fermat's Last Theorem",
+			"authors": [
+				{
+					"family": "Wiles",
+					"given": "Andrew"
+				}
+			],
+			"container": "Annals of Mathematics",
+			"volume": "141",
+			"issue": "3",
+			"pages": "443–551",
+			"published": "1995-05",
+			"doi": "10.2307/2118559",
+			"url": "https://sites.math.rutgers.edu/~zeilberg/EM22/AW1995.pdf",
+			"accessed": "2026-09-30",
+			"note": "The introduction dates Frey's observation to 1985 and Ribet's proof to the summer of 1986"
+		},
+		{
+			"kind": "web",
+			"title": "The Proof",
+			"container": "NOVA",
+			"publisher": "WGBH Boston and PBS",
+			"published": "1997-10-28",
+			"url": "https://www.pbs.org/wgbh/nova/transcripts/2414proof.html",
+			"accessed": "2026-09-30",
+			"note": "Ribet's and Wiles's own tellings of 1986"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yutaka Taniyama",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yutaka_Taniyama&oldid=1372015148",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Goro Shimura",
+			"url": "https://en.wikipedia.org/w/index.php?title=Goro_Shimura&oldid=1372612384",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frey curve",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frey_curve&oldid=1316915905",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ribet's theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ribet's_theorem&oldid=1370173785",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Elliptic curve",
+			"url": "https://en.wikipedia.org/w/index.php?title=Elliptic_curve&oldid=1371007260",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Curve25519",
+			"url": "https://en.wikipedia.org/w/index.php?title=Curve25519&oldid=1374209302",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "web",
+			"title": "Elliptic curve 11.a3 (Cremona label 11a3)",
+			"container": "The L-functions and Modular Forms Database",
+			"publisher": "The LMFDB Collaboration",
+			"url": "https://www.lmfdb.org/EllipticCurve/Q/11/a/3",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "report",
+			"title": "Elliptic Curves for Security",
+			"authors": [
+				{
+					"family": "Langley",
+					"given": "Adam"
+				},
+				{
+					"family": "Hamburg",
+					"given": "Mike"
+				},
+				{
+					"family": "Turner",
+					"given": "Sean"
+				}
+			],
+			"publisher": "Internet Research Task Force",
+			"number": "RFC 7748",
+			"published": "2016-01",
+			"doi": "10.17487/RFC7748",
+			"url": "https://www.rfc-editor.org/rfc/rfc7748",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Fermat's Last Theorem",
+			"authors": [
+				{
+					"family": "Sutherland",
+					"given": "Andrew V."
+				}
+			],
+			"container": "18.783 Elliptic Curves, lecture notes 25",
+			"publisher": "Massachusetts Institute of Technology",
+			"published": "2023-12-12",
+			"url": "https://math.mit.edu/classes/18.783/2023/LectureNotes25.pdf",
+			"accessed": "2026-09-30",
+			"note": "The Frey curve's discriminant, 2⁻⁸(abc)²ᵖ"
+		},
+		{
+			"kind": "web",
+			"title": "Yutaka Taniyama",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "John J."
+				},
+				{
+					"family": "Robertson",
+					"given": "Edmund F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Taniyama/",
+			"accessed": "2026-09-30",
+			"note": "Quoting Shimura, \"Yutaka Taniyama and His Time\" (1989)"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/tls",
+			"why": "The X25519 key exchange that TLS runs adds points on an elliptic curve, Curve25519, by the chord-and-tangent rule, with remainders modulo 2²⁵⁵ − 19."
+		}
+	]
+}

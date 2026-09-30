@@ -1,0 +1,31 @@
+{
+	"mathematics/quintic": [
+		["Joseph-Louis Lagrange", "joseph-louis-lagrange"],
+		["Paolo Ruffini", "paolo-ruffini"],
+		["Niels Henrik Abel", "niels-henrik-abel"],
+		["Abel–Ruffini theorem", "abel-ruffini-theorem"],
+		["Évariste Galois", "evariste-galois"],
+		["Siméon Denis Poisson", "simeon-denis-poisson"],
+		["Joseph Liouville", "joseph-liouville"]
+	],
+	"mathematics/groups": [
+		["Évariste Galois", "evariste-galois"],
+		["Arthur Cayley", "arthur-cayley"],
+		["Felix Klein", "felix-klein"],
+		["Erlangen program", "erlangen-program"],
+		["Sophus Lie", "sophus-lie"],
+		["Murray Gell-Mann", "murray-gell-mann"],
+		["Eightfold Way", "eightfold-way-physics"],
+		["Standard Model", "standard-model"]
+	],
+	"mathematics/noether": [
+		["Emmy Noether", "emmy-noether"],
+		["Felix Klein", "felix-klein"],
+		["David Hilbert", "david-hilbert"],
+		["University of Göttingen", "university-of-gottingen"],
+		["general relativity", "general-relativity"],
+		["conservation of energy", "conservation-of-energy"],
+		["Noether's theorem", "noethers-theorem"],
+		["Bryn Mawr College", "bryn-mawr-college"]
+	]
+}

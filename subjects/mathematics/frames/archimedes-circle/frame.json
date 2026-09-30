@@ -1,0 +1,172 @@
+{
+	"id": "archimedes-circle",
+	"topic": "Archimedes measures the circle",
+	"position": {
+		"label": "c. 250 BC",
+		"sort": -250
+	},
+	"scene": {
+		"headline": "We squeezed the",
+		"accent": "CIRCLE.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SYRACUSE · ARCHIMEDES",
+			"MEASUREMENT OF A CIRCLE · POLYGONS OF 96 SIDES · EXHAUSTION"
+		],
+		"counter": {
+			"value": "3 10/71 < π < 3 1/7",
+			"label": "Archimedes' bounds, from polygons of 96 sides"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Works of Archimedes",
+			"authors": [
+				{
+					"family": "Heath",
+					"given": "T. L."
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1897",
+			"url": "https://archive.org/details/worksofarchimede00arch",
+			"accessed": "2026-09-30",
+			"note": "Measurement of a Circle, pp. 91–98; the preface to On the Sphere and Cylinder, pp. 1–2; The Sand-Reckoner, pp. 221–232; the tomb, p. xviii"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Measurement of a Circle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Measurement_of_a_Circle&oldid=1303256086",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-29",
+			"note": "The fragment, and the argument over how Archimedes found his bounds on √3"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Pi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pi&oldid=1377730952",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"note": "Earlier values, 22/7, and the polygon era to Grienberger"
+		},
+		{
+			"kind": "book",
+			"title": "Cicero's Tusculan Disputations",
+			"authors": [
+				{
+					"name": "Cicero"
+				}
+			],
+			"publisher": "Project Gutenberg",
+			"url": "https://www.gutenberg.org/ebooks/14988",
+			"accessed": "2026-09-30",
+			"note": "Book V, section 23, in C. D. Yonge's translation"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Archimedes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Archimedes&oldid=1376063220",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Method of exhaustion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Method_of_exhaustion&oldid=1377490813",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "On the Sphere and Cylinder",
+			"url": "https://en.wikipedia.org/w/index.php?title=On_the_Sphere_and_Cylinder&oldid=1376517465",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Sand Reckoner",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Sand_Reckoner&oldid=1343467258",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-14"
+		},
+		{
+			"kind": "media",
+			"title": "The opening page of Measurement of a Circle in Archimedes' Opera, the first printed edition, Basel, 1544",
+			"url": "https://commons.wikimedia.org/wiki/File:Archimedes_-_Opere,_1544_-_1291605_pagina_55.jpeg",
+			"accessed": "2026-09-30",
+			"container": "Biblioteca Europea di Informazione e Cultura (BEIC), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "basel-1544.jpg",
+			"authors": [
+				{
+					"name": "Archimedes"
+				}
+			],
+			"publisher": "Johannes Herwagen",
+			"published": "1544"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/archimedes",
+			"why": "The same Archimedes of Syracuse: physics follows him proving the lever and floating bodies as theorems, and this frame follows him trapping π between polygons of 96 sides."
+		},
+		{
+			"to": "physics/copernicus",
+			"why": "The Sand Reckoner, Archimedes' count of the grains that would fill the universe, is where he reports Aristarchus's Sun-centred cosmos, the forerunner Copernicus named and then struck from his manuscript."
+		},
+		{
+			"to": "mathematics/rhind-papyrus",
+			"why": "Ahmes gave the circle a rule, 256/81; Archimedes proved π lies between 3 10/71 and 3 1/7."
+		}
+	]
+}

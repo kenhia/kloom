@@ -1,6 +1,6 @@
 ---
 name: kloom-author-subject
-description: Author a whole new kloom subject — a plan, a theme, one segment written by hand, then parallel authors for the rest, reviewed and committed segment by segment. The procedure sprint 006 used for the AI subject, written down in sprint 014, followed for Richard Feynman, the History of Computing (sprint 015) and the History of Physics (sprint 021). Use when a sprint creates a subject, not for adding a few frames (that is grow).
+description: Author a whole new kloom subject — a plan, a theme, one segment written by hand, then parallel authors for the rest, reviewed and committed segment by segment. The procedure sprint 006 used for the AI subject, written down in sprint 014, followed for Richard Feynman, the History of Computing (sprint 015) the History of Physics (sprint 021) and the History of Mathematics (sprint 024). Use when a sprint creates a subject, not for adding a few frames (that is grow).
 ---
 
 # Authoring a kloom subject
@@ -98,6 +98,16 @@ lookup`, never from memory; the id is lookup's, so two authors reach the
   of, where sources disagreed and what it did, and every place the grow
   skill misled it.
 
+**Check the brief before it goes out.** Its topics are validated like any
+other (sprint 024's had two over 40 characters), every part gets
+connection candidates, trails included, and its facts are leads, not
+sources: say so in it. Sprint 024's brief, written from memory, had seven
+wrong or out of date (two talks a day apart put in the wrong order, a page that holds only a
+promise, a 1923 result that was 1933's, a medieval ban that was a guild's
+bookkeeping rule, the Millennium Problems' count, a twin-prime bound and
+the RSA records), and each was caught only because an author read the
+source.
+
 Things authors working at once cannot see, so the brief settles them:
 
 - **Who owns a shared topic.** Where two frames touch one story (a thesis
@@ -140,7 +150,11 @@ Things authors working at once cannot see, so the brief settles them:
   drafts directory to `--complete` and `mark --check`, and check with
   `--only <their frames>` so no one else's half-written frame fails them.
   They write contact sheets to their own `--png`, never run
-  `subject_plan.py` on the live subject, and never commit.
+  `subject_plan.py` on the live subject, and never commit. Name their
+  Prettier and plate commands by frame (`npx prettier --write
+subjects/<subject>/frames/<frame>/`, `<subject>.py <frame>`): a glob
+  reformatted five other authors' readings in sprint 024, and a bare
+  `<subject>.py` redraws every author's plates.
 
 ## 4. Review, validate and commit, segment by segment
 
@@ -172,7 +186,11 @@ As each author reports:
    `KLOOM_TEST_SUBJECTS=DIR/subjects KLOOM_TEST_NAMES=DIR/names`, and stop
    if they fail. Stage by path: `git add` on a directory other authors
    write in takes their work with it (sprint 021 swept five authors'
-   unfinished specs into a commit that way).
+   unfinished specs into a commit that way). Stage every name changed since
+   the last commit, not only the untracked ones, and add with a part any
+   other author's draft its marks use: sprint 024's index check failed
+   on a draft whose `home` named a frame not yet committed, and passed
+   once that name went in with the frame.
 6. **Connections between the authors' frames** wait for review: each
    author lists the ones they want in this subject, and the reviewer adds
    them once both ends are committed, checking each _why_ against a

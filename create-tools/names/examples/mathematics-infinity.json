@@ -1,0 +1,40 @@
+{
+	"mathematics/zeno": [
+		["Parmenides", "parmenides"],
+		["Zeno of Elea", "zeno-of-elea"],
+		["Plato", "plato"],
+		["Aristotle", "aristotle"],
+		["_Physics_", "physics-aristotle"],
+		["Simplicius", "simplicius-of-cilicia"],
+		["Zeno's paradoxes", "zenos-paradoxes"],
+		["Augustin-Louis Cauchy", "augustin-louis-cauchy"]
+	],
+	"mathematics/galileos-paradox": [
+		["Galileo", "galileo-galilei"],
+		["_Two New Sciences_", "two-new-sciences"],
+		["Galileo's paradox", "galileos-paradox"],
+		["Bernard Bolzano", "bernard-bolzano"],
+		["Georg Cantor", "georg-cantor"],
+		["Richard Dedekind", "richard-dedekind"]
+	],
+	"mathematics/banach-tarski": [
+		["Stefan Banach", "stefan-banach"],
+		["Alfred Tarski", "alfred-tarski"],
+		["Banach–Tarski paradox", "banach-tarski-paradox"],
+		["Ernst Zermelo", "ernst-zermelo"],
+		["axiom of choice", "axiom-of-choice"],
+		["Giuseppe Vitali", "giuseppe-vitali"],
+		["Felix Hausdorff", "felix-hausdorff"],
+		["John von Neumann", "john-von-neumann"]
+	],
+	"mathematics/continuum-hypothesis": [
+		["Georg Cantor", "georg-cantor"],
+		["continuum hypothesis", "continuum-hypothesis"],
+		["David Hilbert", "david-hilbert"],
+		["Kurt Gödel", "kurt-godel"],
+		["Paul Cohen", "paul-cohen"],
+		["forcing", "forcing-mathematics"],
+		["Zermelo–Fraenkel set theory", "zermelo-fraenkel-set-theory"],
+		["W. Hugh Woodin", "w-hugh-woodin"]
+	]
+}

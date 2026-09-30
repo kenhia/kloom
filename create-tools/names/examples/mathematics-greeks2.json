@@ -1,0 +1,32 @@
+{
+	"mathematics/apollonius-conics": [
+		["Apollonius of Perga", "apollonius-of-perga"],
+		["Alexandria", "alexandria"],
+		["Menaechmus", "menaechmus"],
+		["Eutocius of Ascalon", "eutocius-of-ascalon"],
+		["Banū Mūsā", "banu-musa-brothers"],
+		["Edmond Halley", "edmond-halley"],
+		["Johannes Kepler", "johannes-kepler"],
+		["Isaac Newton", "isaac-newton"]
+	],
+	"mathematics/diophantus": [
+		["Diophantus", "diophantus"],
+		["Alexandria", "alexandria"],
+		["Plimpton 322", "plimpton-322"],
+		["Hypatia", "hypatia"],
+		["Qusta ibn Luqa", "qusta-ibn-luqa"],
+		["Claude Gaspar Bachet de Méziriac", "claude-gaspar-bachet-de-meziriac"],
+		["Greek Anthology", "greek-anthology"],
+		["Pierre de Fermat", "pierre-de-fermat"]
+	],
+	"mathematics/nine-chapters": [
+		["Nine Chapters on the Mathematical Art", "the-nine-chapters-on-the-mathematical-art"],
+		["Han", "han-dynasty"],
+		["Liu Hui", "liu-hui"],
+		["counting rods", "counting-rods"],
+		["Gaussian elimination", "gaussian-elimination"],
+		["Carl Friedrich Gauss", "carl-friedrich-gauss"],
+		["Leibniz", "gottfried-wilhelm-leibniz"],
+		["Zu Chongzhi", "zu-chongzhi"]
+	]
+}

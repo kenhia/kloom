@@ -1,0 +1,150 @@
+{
+	"id": "konigsberg",
+	"topic": "The seven bridges of Königsberg",
+	"position": {
+		"label": "AD 1736",
+		"sort": 1736
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We could not cross each bridge",
+		"accent": "ONCE.",
+		"palette": "oakgall",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KÖNIGSBERG · THE PREGEL · THE ACADEMY AT ST PETERSBURG",
+			"LEONHARD EULER · THE GEOMETRY OF POSITION"
+		],
+		"counter": {
+			"value": "9 > 8",
+			"label": "letters the walk needs, and letters seven bridges allow"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Solutio problematis ad geometriam situs pertinentis",
+			"authors": [
+				{
+					"family": "Euler",
+					"given": "Leonhard"
+				}
+			],
+			"container": "Commentarii Academiae Scientiarum Imperialis Petropolitanae",
+			"volume": "8",
+			"pages": "128–140",
+			"published": "1741",
+			"url": "https://www.cantab.net/users/michael.behrend/repubs/maze_maths/pages/euler.html",
+			"accessed": "2026-09-30",
+			"note": "Read in Latin in Michael Behrend's web edition; the counting of letters is §§ 8–9, the general rule §§ 16–20"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Euler and Königsberg's Bridges: A Historical View",
+			"authors": [
+				{
+					"family": "Alexanderson",
+					"given": "Gerald L."
+				}
+			],
+			"container": "Bulletin of the American Mathematical Society",
+			"volume": "43",
+			"issue": "4",
+			"pages": "567–573",
+			"published": "2006-10",
+			"doi": "10.1090/S0273-0979-06-01130-X",
+			"accessed": "2026-09-30",
+			"note": "The dates, Euler's letter to Ehler, and the question of the first paper in topology"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Seven Bridges of Königsberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Seven_Bridges_of_K%C3%B6nigsberg&oldid=1371189868",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25",
+			"note": "What became of the bridges"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eulerian path",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eulerian_path&oldid=1357687784",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Graph theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Graph_theory&oldid=1376682014",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kneiphof",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kneiphof&oldid=1335694444",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leonhard Euler",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leonhard_Euler&oldid=1377675613",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Euler's Figure 1 for the bridges of Königsberg, from the Commentarii, Tab. VIII, with bridge names added by hand",
+			"url": "https://commons.wikimedia.org/wiki/File:Solutio_problematis_ad_geometriam_situs_pertinentis,_Fig._1.png",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "euler-figure-1.png",
+			"authors": [
+				{
+					"family": "Euler",
+					"given": "Leonhard"
+				}
+			],
+			"published": "1741"
+		}
+	]
+}

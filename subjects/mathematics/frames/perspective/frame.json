@@ -1,0 +1,256 @@
+{
+	"id": "perspective",
+	"topic": "Perspective and projective geometry",
+	"position": {
+		"label": "Perspective"
+	},
+	"scene": {
+		"headline": "Parallel lines began to",
+		"accent": "MEET.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"FLORENCE · NUREMBERG · LYON · SARATOV",
+			"BRUNELLESCHI · ALBERTI · DÜRER · DESARGUES · PONCELET"
+		],
+		"counter": {
+			"value": "3",
+			"label": "meeting points, always on one line"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Perspective (graphical)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Perspective_(graphical)&oldid=1376674812",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"note": "Brunelleschi's demonstration and the problems with Manetti's account, Alberti, Piero and Dürer"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Vita di Filippo di ser Brunellesco",
+			"authors": [
+				{
+					"family": "Manetti",
+					"given": "Antonio"
+				}
+			],
+			"editors": [
+				{
+					"family": "Moreni",
+					"given": "Domenico"
+				}
+			],
+			"place": "Florence",
+			"publisher": "Niccolò Carli",
+			"published": "1812",
+			"url": "https://archive.org/details/bub_gb_hgfkYdO3oyMC",
+			"accessed": "2026-09-30",
+			"note": "The Baptistery panel, the hole and the mirror, pp. 297–298; printed anonymously, with Baldinucci's life, and now attributed to Manetti"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Brunelleschi's Mirror, Alberti's Window, and Galileo's 'Perspective Tube'",
+			"authors": [
+				{
+					"family": "Edgerton",
+					"given": "Samuel Y."
+				}
+			],
+			"container": "História, Ciências, Saúde – Manguinhos",
+			"volume": "13",
+			"issue": "suppl.",
+			"pages": "151–179",
+			"published": "2006-10",
+			"doi": "10.1590/S0104-59702006000500010",
+			"url": "https://www.scielo.br/pdf/hcsm/v13s0/09.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Desargues's theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Desargues's_theorem&oldid=1348566123",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-13",
+			"note": "The statement, Bosse's book of 1648, and the proof in three dimensions"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Girard Desargues",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Desargues/",
+			"accessed": "2026-09-30",
+			"note": "The Brouillon project of 1639 and the copy found in 1951"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Jean-Victor Poncelet",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poncelet/",
+			"accessed": "2026-09-30",
+			"note": "Krasnoi, the march to Saratov and the Traité of 1822"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Girard Desargues",
+			"url": "https://en.wikipedia.org/w/index.php?title=Girard_Desargues&oldid=1369765219",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean-Victor Poncelet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean-Victor_Poncelet&oldid=1372019193",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Projective geometry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Projective_geometry&oldid=1376221073",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "De pictura",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_pictura&oldid=1352291326",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "De prospectiva pingendi",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_prospectiva_pingendi&oldid=1363149183",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Albrecht Dürer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Albrecht_D%C3%BCrer&oldid=1377475764",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Filippo Brunelleschi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Filippo_Brunelleschi&oldid=1376364274",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "media",
+			"title": "Albrecht Dürer, Man Drawing a Lute, woodcut from the Underweysung der Messung (Nuremberg, 1525)",
+			"url": "https://commons.wikimedia.org/wiki/File:The_Draughtsman_of_the_Lute_MET_DP816495.jpg",
+			"accessed": "2026-09-30",
+			"container": "Metropolitan Museum of Art, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "durer-lute.jpg",
+			"authors": [
+				{
+					"name": "Albrecht Dürer"
+				}
+			],
+			"published": "1525"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/florence-dome",
+			"why": "Brunelleschi, who built Florence's dome without centring, is also credited with the first picture in true perspective: the Baptistery panel he showed through a hole and a mirror."
+		}
+	]
+}

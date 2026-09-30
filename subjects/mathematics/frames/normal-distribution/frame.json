@@ -1,0 +1,249 @@
+{
+	"id": "normal-distribution",
+	"topic": "The normal distribution",
+	"position": {
+		"label": "The bell curve"
+	},
+	"scene": {
+		"headline": "Our errors fell into a",
+		"accent": "BELL.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": ["LONDON · GÖTTINGEN · PARIS", "DE MOIVRE 1733 · GAUSS 1809 · LAPLACE 1810"],
+		"counter": {
+			"value": "0.682688",
+			"label": "de Moivre's chance of 1,770 to 1,830 heads in 3,600 tosses"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Doctrine of Chances",
+			"authors": [
+				{
+					"family": "de Moivre",
+					"given": "Abraham"
+				}
+			],
+			"publisher": "A. Millar",
+			"place": "London",
+			"published": "1756",
+			"url": "https://archive.org/details/doctrineofchance00moiv",
+			"accessed": "2026-09-30",
+			"note": "Third edition. His paper of 12 November 1733, translated, is on pp. 243–254; the 3,600 tosses on p. 246"
+		},
+		{
+			"kind": "book",
+			"title": "Nouvelles méthodes pour la détermination des orbites des comètes",
+			"authors": [
+				{
+					"family": "Legendre",
+					"given": "Adrien-Marie"
+				}
+			],
+			"publisher": "Firmin Didot",
+			"place": "Paris",
+			"published": "1805",
+			"url": "https://archive.org/details/bub_gb_PRcOAAAAQAAJ",
+			"accessed": "2026-09-30",
+			"note": "The preface names the méthode des moindres quarrés; the appendix applies it to the measure of the meridian of France, in the appendix"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Theory of the Motion of the Heavenly Bodies Moving about the Sun in Conic Sections",
+			"authors": [
+				{
+					"family": "Gauss",
+					"given": "Carl Friedrich"
+				}
+			],
+			"publisher": "Little, Brown",
+			"place": "Boston",
+			"published": "1857",
+			"url": "https://archive.org/details/theoryofmotionof00gausuoft",
+			"accessed": "2026-09-30",
+			"note": "Charles Henry Davis's translation of Theoria motus (1809). Ceres in the preface; least squares and Legendre in article 186"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Normal distribution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Normal_distribution&oldid=1376230387",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22",
+			"note": "De Moivre, Gauss, Laplace, Maxwell and the name"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Least squares",
+			"url": "https://en.wikipedia.org/w/index.php?title=Least_squares&oldid=1374800160",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"note": "Legendre's 1805 method and the priority dispute"
+		},
+		{
+			"kind": "book",
+			"title": "Natural Inheritance",
+			"authors": [
+				{
+					"family": "Galton",
+					"given": "Francis"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "London",
+			"published": "1889",
+			"url": "https://archive.org/details/naturalinheritan00galtuoft",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Abraham de Moivre",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abraham_de_Moivre&oldid=1374261488",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl Friedrich Gauss",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_Friedrich_Gauss&oldid=1376853479",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ceres (dwarf planet)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ceres_(dwarf_planet)&oldid=1377498732",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Central limit theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Central_limit_theorem&oldid=1360994353",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre-Simon Laplace",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre-Simon_Laplace&oldid=1372453001",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Adolphe Quetelet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Adolphe_Quetelet&oldid=1376003417",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Galton board",
+			"url": "https://en.wikipedia.org/w/index.php?title=Galton_board&oldid=1359287251",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-14"
+		},
+		{
+			"kind": "media",
+			"title": "Galton's quincunx, three versions of the apparatus, from Natural Inheritance",
+			"url": "https://commons.wikimedia.org/wiki/File:Quincunx_(Galton_Box)_-_Galton_1889_diagram.png",
+			"accessed": "2026-09-30",
+			"container": "Natural Inheritance (1889), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "galton-quincunx.png",
+			"authors": [
+				{
+					"family": "Galton",
+					"given": "Francis"
+				}
+			],
+			"published": "1889"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/adaline",
+			"why": "ADALINE learned by least mean squares, minimising squared error one example at a time: the criterion Legendre and Gauss had used to fit orbits to observations."
+		},
+		{
+			"to": "physics/maxwells-demon",
+			"why": "The spread of molecular speeds Maxwell printed in 1860 gives each component of a molecule's velocity the normal law, the astronomers' curve of errors found in a gas."
+		},
+		{
+			"to": "mathematics/large-numbers",
+			"why": "De Moivre's curve gave a far better estimate than Bernoulli's own bound of how many draws make an average near certain."
+		},
+		{
+			"to": "western-civ/metre-survey",
+			"why": "Legendre first showed least squares on the arc of the meridian from Dunkirk to Barcelona that Delambre and Méchain measured to define the metre."
+		}
+	]
+}

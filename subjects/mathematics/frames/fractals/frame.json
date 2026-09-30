@@ -1,0 +1,220 @@
+{
+	"id": "fractals",
+	"topic": "Fractals",
+	"position": {
+		"label": "Fractals"
+	},
+	"scene": {
+		"headline": "Geometry learned to measure the",
+		"accent": "ROUGH.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"IBM · YORKTOWN HEIGHTS · STOCKHOLM",
+			"KOCH · HAUSDORFF · JULIA · RICHARDSON · MANDELBROT"
+		],
+		"counter": {
+			"value": "1.26",
+			"label": "the Koch curve's dimension, log 4 / log 3"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension",
+			"authors": [
+				{
+					"family": "Mandelbrot",
+					"given": "Benoit B."
+				}
+			],
+			"container": "Science",
+			"volume": "156",
+			"issue": "3775",
+			"pages": "636–638",
+			"published": "1967-05",
+			"doi": "10.1126/science.156.3775.636",
+			"url": "https://users.math.yale.edu/mandelbrot/web_pdfs/howLongIsTheCoastOfBritain.pdf",
+			"accessed": "2026-09-30",
+			"note": "Richardson's values of D; read in Mandelbrot's reprint with his later annotations (the Trojan horse), through the Wayback Machine"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Who Invented von Koch's Snowflake Curve?",
+			"authors": [
+				{
+					"family": "Demichel",
+					"given": "Yann"
+				}
+			],
+			"container": "The American Mathematical Monthly",
+			"volume": "131",
+			"issue": "8",
+			"pages": "662–668",
+			"published": "2024",
+			"doi": "10.1080/00029890.2024.2363737",
+			"url": "https://arxiv.org/abs/2308.15093",
+			"accessed": "2026-09-30",
+			"note": "Read in the arXiv version, 2308.15093v1"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Fractal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fractal&oldid=1376923276",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"note": "Weierstrass, Cantor, Koch, Julia and Fatou, Hausdorff, and the word"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Koch snowflake",
+			"url": "https://en.wikipedia.org/w/index.php?title=Koch_snowflake&oldid=1365704463",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hausdorff dimension",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hausdorff_dimension&oldid=1349122544",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cantor set",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cantor_set&oldid=1377219492",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mandelbrot set",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mandelbrot_set&oldid=1376897044",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Benoit Mandelbrot",
+			"url": "https://en.wikipedia.org/w/index.php?title=Benoit_Mandelbrot&oldid=1375974761",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Coastline paradox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Coastline_paradox&oldid=1377437344",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Dynamics of 2-Generator Subgroups of PSL(2, C)",
+			"authors": [
+				{
+					"family": "Brooks",
+					"given": "Robert"
+				},
+				{
+					"family": "Matelski",
+					"given": "J. Peter"
+				}
+			],
+			"container": "Riemann Surfaces and Related Topics: Proceedings of the 1978 Stony Brook Conference",
+			"editors": [
+				{
+					"family": "Kra",
+					"given": "Irwin"
+				},
+				{
+					"family": "Maskit",
+					"given": "Bernard"
+				}
+			],
+			"pages": "65–71",
+			"place": "Princeton",
+			"publisher": "Princeton University Press",
+			"published": "1981",
+			"url": "https://abel.math.harvard.edu/archive/118r_spring_05/docs/brooksmatelski.pdf",
+			"accessed": "2026-09-30",
+			"note": "p. 68 and figure 2"
+		},
+		{
+			"kind": "media",
+			"title": "The Mandelbrot set",
+			"url": "https://commons.wikimedia.org/wiki/File:Mandel_zoom_00_mandelbrot_set.jpg",
+			"accessed": "2026-09-30",
+			"container": "Made with Ultra Fractal 3, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "mandelbrot-set.jpg",
+			"authors": [
+				{
+					"family": "Beyer",
+					"given": "Wolfgang"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/chaos",
+			"why": "The Lorenz attractor and the other strange sets that chaos leaves behind are fractals."
+		},
+		{
+			"to": "mathematics/cantor",
+			"why": "Cantor's middle-thirds set is the first fractal most mathematicians meet, of dimension log 2 / log 3."
+		}
+	]
+}

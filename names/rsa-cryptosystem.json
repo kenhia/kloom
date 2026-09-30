@@ -4,5 +4,6 @@
 	"name": "RSA cryptosystem",
 	"aliases": ["RSA algorithm"],
 	"kind": "idea",
-	"description": "The public-key encryption method of Rivest, Shamir and Adleman, published in 1977, based on the difficulty of factoring."
+	"description": "The public-key encryption method of Rivest, Shamir and Adleman, published in 1977, based on the difficulty of factoring.",
+	"home": "mathematics/rsa"
 }

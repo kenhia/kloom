@@ -1,0 +1,186 @@
+{
+	"id": "fermats-margin",
+	"topic": "Fermat's margin note",
+	"position": {
+		"label": "c. 1637",
+		"sort": 1637
+	},
+	"scene": {
+		"headline": "The margin was too",
+		"accent": "NARROW.",
+		"palette": "quarto",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TOULOUSE · PIERRE DE FERMAT",
+			"BACHET'S DIOPHANTUS · PRINTED WITH HIS NOTES, 1670",
+			"INFINITE DESCENT · FOURTH POWERS"
+		],
+		"counter": {
+			"value": "1",
+			"label": "complete proof of Fermat's own to survive: the descent"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Diophantus of Alexandria: A Study in the History of Greek Algebra",
+			"authors": [
+				{
+					"family": "Heath",
+					"given": "Thomas L."
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1910",
+			"url": "https://archive.org/details/diophantusofalex00heatiala",
+			"accessed": "2026-09-30",
+			"note": "Second edition. Fermat's note on II.8 in translation (pp. 144–145), his proof on the area of a right triangle (pp. 293–294), and the 1670 edition (pp. 28–29)"
+		},
+		{
+			"kind": "book",
+			"title": "Diophanti Alexandrini Arithmeticorum libri sex, et De numeris multangulis liber unus. Cum commentariis C. G. Bacheti V.C. et observationibus D. P. de Fermat",
+			"authors": [
+				{
+					"name": "Diophantus"
+				}
+			],
+			"editors": [
+				{
+					"family": "Fermat",
+					"given": "Samuel de"
+				}
+			],
+			"publisher": "Bernard Bosc",
+			"place": "Toulouse",
+			"published": "1670",
+			"doi": "10.3931/e-rara-9423",
+			"accessed": "2026-09-30",
+			"note": "The edition that printed Fermat's notes; read in the Commons scans of pages 61, 338 and 339"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Fermat's Last Theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fermat's_Last_Theorem&oldid=1376715832",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"note": "Fermat's challenges for n = 3 and n = 4, and the reduction to odd primes"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Fermat's Last Theorem",
+			"container": "MacTutor History of Mathematics",
+			"publisher": "University of St Andrews",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"published": "1996-02",
+			"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Fermat's_last_theorem/",
+			"accessed": "2026-09-30",
+			"note": "Dates the note to around 1630"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre de Fermat",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre_de_Fermat&oldid=1377581500",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fermat's right triangle theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fermat's_right_triangle_theorem&oldid=1326384995",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Proof by infinite descent",
+			"url": "https://en.wikipedia.org/w/index.php?title=Proof_by_infinite_descent&oldid=1369324445",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Diophantus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diophantus&oldid=1375463850",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Problem II.8 of the Arithmetica with Fermat's note, in the Toulouse edition of 1670, p. 61",
+			"url": "https://commons.wikimedia.org/wiki/File:Diophantus-II-8-Fermat.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "margin-note.jpg",
+			"published": "1670"
+		},
+		{
+			"kind": "media",
+			"title": "Pages 338 and 339 of the 1670 Arithmetica, with Fermat's proof that a right triangle's area cannot be a square",
+			"url": "https://commons.wikimedia.org/wiki/File:Diophantus_VI_338_339.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "descent-note.jpg",
+			"published": "1670"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/diophantus",
+			"why": "Fermat's note stands in the margin of Bachet's Diophantus, beside problem II.8."
+		},
+		{
+			"to": "mathematics/fibonacci",
+			"why": "Fibonacci stated in 1225 that no right triangle with whole sides has a square area, the theorem Fermat later proved by descent."
+		}
+	]
+}

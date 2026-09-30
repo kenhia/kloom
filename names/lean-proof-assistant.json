@@ -1,0 +1,8 @@
+{
+	"id": "lean-proof-assistant",
+	"wikidata": "Q6509476",
+	"name": "Lean",
+	"aliases": ["Lean proof assistant", "Lean (proof assistant)", "Lean 4"],
+	"kind": "artifact",
+	"description": "Proof assistant and programming language launched by Leonardo de Moura in 2013, in which a computer checks every step of a proof; its shared library, mathlib, holds a large part of modern mathematics."
+}

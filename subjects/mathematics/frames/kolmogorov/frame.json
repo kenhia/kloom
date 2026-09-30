@@ -1,0 +1,184 @@
+{
+	"id": "kolmogorov",
+	"topic": "Kolmogorov's axioms",
+	"position": {
+		"label": "Axioms"
+	},
+	"scene": {
+		"headline": "We gave chance its",
+		"accent": "AXIOMS.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MOSCOW · ANDREY KOLMOGOROV",
+			"GRUNDBEGRIFFE DER WAHRSCHEINLICHKEITSRECHNUNG · SPRINGER · 1933"
+		],
+		"counter": {
+			"value": "6",
+			"label": "axioms in the Grundbegriffe; textbooks now give three"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Foundations of the Theory of Probability",
+			"authors": [
+				{
+					"family": "Kolmogorov",
+					"given": "A. N."
+				}
+			],
+			"editors": [
+				{
+					"family": "Morrison",
+					"given": "Nathan"
+				}
+			],
+			"publisher": "Chelsea Publishing Company",
+			"place": "New York",
+			"published": "1950",
+			"url": "https://archive.org/details/foundationsofthe00kolm",
+			"accessed": "2026-09-30",
+			"note": "The English translation of the Grundbegriffe (1933): the preface, the axioms (pp. 2, 14), their relation to experience and the corollaries (pp. 3–7)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Sources of Kolmogorov’s Grundbegriffe",
+			"authors": [
+				{
+					"family": "Shafer",
+					"given": "Glenn"
+				},
+				{
+					"family": "Vovk",
+					"given": "Vladimir"
+				}
+			],
+			"container": "Statistical Science",
+			"published": "2006",
+			"volume": "21",
+			"issue": "1",
+			"pages": "70–98",
+			"doi": "10.1214/088342305000000467",
+			"url": "https://arxiv.org/abs/math/0606533",
+			"note": "Hilbert's sixth problem, von Mises's collectives, Borel, Ulam and Łomnicki, and Fréchet's verdict",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Mathematical Problems: Lecture Delivered before the International Congress of Mathematicians at Paris in 1900",
+			"authors": [
+				{
+					"family": "Hilbert",
+					"given": "David"
+				}
+			],
+			"container": "Translated by Mary Winston Newson, Bulletin of the American Mathematical Society 8 (1902)",
+			"publisher": "Clark University (D. E. Joyce)",
+			"url": "https://mathcs.clarku.edu/~djoyce/hilbert/problems.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Probability axioms",
+			"url": "https://en.wikipedia.org/w/index.php?title=Probability_axioms&oldid=1374928479",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hilbert's sixth problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hilbert's_sixth_problem&oldid=1374839407",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Andrey Kolmogorov",
+			"url": "https://en.wikipedia.org/w/index.php?title=Andrey_Kolmogorov&oldid=1371970864",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard von Mises",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_von_Mises&oldid=1377296923",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kolmogorov complexity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kolmogorov_complexity&oldid=1376466730",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "media",
+			"title": "The title page of the Grundbegriffe der Wahrscheinlichkeitsrechnung, Berlin, 1933",
+			"url": "https://commons.wikimedia.org/wiki/File:Kolmogoroff_Grundbegriffe.png",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "grundbegriffe.jpg",
+			"authors": [
+				{
+					"name": "KurtSchwitters"
+				}
+			],
+			"published": "2012-05-16"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/hilbert-problems",
+			"why": "Hilbert's sixth problem asked for axioms for probability; Kolmogorov's Grundbegriffe gave them in 1933."
+		},
+		{
+			"to": "mathematics/large-numbers",
+			"why": "Kolmogorov was among those who sharpened Bernoulli's law of large numbers into its weak and strong forms."
+		},
+		{
+			"to": "mathematics/wiener-measure",
+			"why": "In Kolmogorov's axioms an event can have probability zero, as a Brownian path having a slope anywhere does."
+		}
+	]
+}

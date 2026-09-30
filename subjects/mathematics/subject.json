@@ -1,0 +1,77 @@
+{
+	"title": "The History of Mathematics",
+	"palettes": {
+		"clay": {
+			"scheme": "dark",
+			"background": "#1d1814",
+			"ink": "#f0e6d8",
+			"muted": "#b8a690",
+			"accent": "#e08a5c",
+			"line": "#dccbb3",
+			"counterpart": "vellum"
+		},
+		"vellum": {
+			"scheme": "light",
+			"background": "#efe6d2",
+			"ink": "#26201a",
+			"muted": "#5f5242",
+			"accent": "#9a3d1c",
+			"line": "#372d22",
+			"counterpart": "clay"
+		},
+		"oakgall": {
+			"scheme": "dark",
+			"background": "#15181f",
+			"ink": "#ece8df",
+			"muted": "#a9a699",
+			"accent": "#d9b45a",
+			"line": "#cfcabd",
+			"counterpart": "quarto"
+		},
+		"quarto": {
+			"scheme": "light",
+			"background": "#f4efe3",
+			"ink": "#1c1a22",
+			"muted": "#57525e",
+			"accent": "#1f4f7a",
+			"line": "#2a2733",
+			"counterpart": "oakgall"
+		},
+		"blackboard": {
+			"scheme": "dark",
+			"background": "#13201b",
+			"ink": "#eef2ea",
+			"muted": "#a6b5aa",
+			"accent": "#f2d16b",
+			"line": "#cddbd0",
+			"counterpart": "graphpaper"
+		},
+		"graphpaper": {
+			"scheme": "light",
+			"background": "#eef3f4",
+			"ink": "#111a1f",
+			"muted": "#4a5a61",
+			"accent": "#b0362b",
+			"line": "#1f2b31",
+			"counterpart": "blackboard"
+		},
+		"terminal": {
+			"scheme": "dark",
+			"background": "#0e0f14",
+			"ink": "#e7e9ef",
+			"muted": "#9ea3b5",
+			"accent": "#7fd67a",
+			"line": "#c6cad8",
+			"counterpart": "printout"
+		},
+		"printout": {
+			"scheme": "light",
+			"background": "#f5f5f0",
+			"ink": "#16161c",
+			"muted": "#52525e",
+			"accent": "#5a2ca0",
+			"line": "#24242c",
+			"counterpart": "terminal"
+		}
+	}
+}

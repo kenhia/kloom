@@ -1,0 +1,9 @@
+{
+	"id": "monte-carlo-method",
+	"wikidata": "Q232207",
+	"name": "Monte Carlo method",
+	"aliases": ["Monte Carlo"],
+	"kind": "idea",
+	"description": "Calculating a quantity by simulating the chance process behind it many times and counting the outcomes, begun at Los Alamos in the 1940s.",
+	"home": "mathematics/monte-carlo"
+}

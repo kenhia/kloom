@@ -1,0 +1,296 @@
+{
+	"id": "gradient-descent",
+	"topic": "Gradient descent",
+	"position": {
+		"label": "Optimisation"
+	},
+	"scene": {
+		"headline": "We walked",
+		"accent": "DOWNHILL.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · AUGUSTIN-LOUIS CAUCHY",
+			"COMPTES RENDUS 25 · 18 OCTOBER 1847 · STEEPEST DESCENT"
+		],
+		"counter": {
+			"value": "1,000,000,000,000",
+			"label": "parameters in Kimi K2 (2025), trained by gradient steps"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Méthode générale pour la résolution des systèmes d'équations simultanées",
+			"authors": [
+				{
+					"family": "Cauchy",
+					"given": "Augustin-Louis"
+				}
+			],
+			"container": "Comptes rendus hebdomadaires des séances de l'Académie des sciences",
+			"volume": "25",
+			"issue": "16",
+			"pages": "536–38",
+			"published": "1847-10-18",
+			"url": "https://archive.org/details/comptes-rendus-hebdomadaires-academie-des-sciences_1847-10-18_25_16",
+			"accessed": "2026-09-30",
+			"note": "The method, in French; read in the Internet Archive's scan of the issue"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Cauchy and the Gradient Method",
+			"authors": [
+				{
+					"family": "Lemaréchal",
+					"given": "Claude"
+				}
+			],
+			"container": "Optimization Stories",
+			"editors": [
+				{
+					"family": "Grötschel",
+					"given": "Martin"
+				}
+			],
+			"pages": "251–54",
+			"publisher": "Documenta Mathematica",
+			"published": "2012",
+			"doi": "10.4171/dms/6/27",
+			"accessed": "2026-09-30",
+			"note": "Cauchy's note translated and weighed: the missing memoir, false minima"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Gradient descent",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gradient_descent&oldid=1373673523",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"note": "Hadamard (1907) and Curry (1944)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Stochastic Approximation Method",
+			"authors": [
+				{
+					"family": "Robbins",
+					"given": "Herbert"
+				},
+				{
+					"family": "Monro",
+					"given": "Sutton"
+				}
+			],
+			"container": "The Annals of Mathematical Statistics",
+			"volume": "22",
+			"issue": "3",
+			"pages": "400–407",
+			"published": "1951-09",
+			"doi": "10.1214/aoms/1177729586",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Adequality",
+			"url": "https://en.wikipedia.org/w/index.php?title=Adequality&oldid=1374302256",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Interior extremum theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Interior_extremum_theorem&oldid=1361831904",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lagrange multiplier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lagrange_multiplier&oldid=1363206730",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph-Louis Lagrange",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph-Louis_Lagrange&oldid=1372034574",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Least squares",
+			"url": "https://en.wikipedia.org/w/index.php?title=Least_squares&oldid=1374800160",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stochastic gradient descent",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stochastic_gradient_descent&oldid=1376343264",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "article",
+			"title": "30 Years of Adaptive Neural Networks: Perceptron, Madaline, and Backpropagation",
+			"authors": [
+				{
+					"family": "Widrow",
+					"given": "Bernard"
+				},
+				{
+					"family": "Lehr",
+					"given": "Michael A."
+				}
+			],
+			"container": "Proceedings of the IEEE",
+			"volume": "78",
+			"issue": "9",
+			"pages": "1415–42",
+			"published": "1990",
+			"doi": "10.1109/5.58323",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Learning Representations by Back-Propagating Errors",
+			"authors": [
+				{
+					"family": "Rumelhart",
+					"given": "David E."
+				},
+				{
+					"family": "Hinton",
+					"given": "Geoffrey E."
+				},
+				{
+					"family": "Williams",
+					"given": "Ronald J."
+				}
+			],
+			"container": "Nature",
+			"volume": "323",
+			"issue": "6088",
+			"pages": "533–36",
+			"published": "1986-10-09",
+			"doi": "10.1038/323533a0",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Adam: A Method for Stochastic Optimization",
+			"authors": [
+				{
+					"family": "Kingma",
+					"given": "Diederik P."
+				},
+				{
+					"family": "Ba",
+					"given": "Jimmy"
+				}
+			],
+			"container": "arXiv preprint arXiv:1412.6980",
+			"published": "2014-12-22",
+			"url": "https://arxiv.org/abs/1412.6980",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Kimi K2: Open Agentic Intelligence",
+			"authors": [
+				{
+					"name": "Kimi Team"
+				}
+			],
+			"container": "arXiv preprint arXiv:2507.20534",
+			"published": "2025-07-28",
+			"url": "https://arxiv.org/abs/2507.20534",
+			"accessed": "2026-09-30",
+			"note": "Algorithm 1, MuonClip"
+		},
+		{
+			"kind": "media",
+			"title": "The second page of Cauchy's note of 18 October 1847, in the Comptes rendus, volume 25, page 537",
+			"url": "https://archive.org/details/comptes-rendus-hebdomadaires-academie-des-sciences_1847-10-18_25_16",
+			"accessed": "2026-09-30",
+			"container": "Académie des sciences, via the Internet Archive",
+			"licence": "Public domain",
+			"file": "cauchy-1847.jpg",
+			"authors": [
+				{
+					"family": "Cauchy",
+					"given": "Augustin-Louis"
+				}
+			],
+			"published": "1847"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/adaline",
+			"why": "Widrow and Hoff's LMS rule of 1960 is gradient descent taken one example at a time, down the quadratic bowl of the mean squared error."
+		},
+		{
+			"to": "ai/backprop",
+			"why": "Backpropagation computes the gradient of a layered network's error in one backward sweep; gradient descent, Cauchy's method of 1847, then takes the step."
+		},
+		{
+			"to": "mathematics/normal-distribution",
+			"why": "Cauchy's 1847 method minimises a sum of squares, the quantity whose least value Legendre and Gauss argued over."
+		}
+	]
+}

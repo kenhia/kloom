@@ -1,0 +1,139 @@
+{
+	"id": "problem-of-points",
+	"topic": "Pascal, Fermat and the problem of points",
+	"position": {
+		"label": "Chance"
+	},
+	"scene": {
+		"headline": "We put a price on",
+		"accent": "CHANCE.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · TOULOUSE · PASCAL AND FERMAT",
+			"LETTERS OF 1654 · THE ARITHMETICAL TRIANGLE"
+		],
+		"counter": {
+			"value": "11 to 5",
+			"label": "the fair split when one player lacks two points and the other three"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Fermat and Pascal on Probability",
+			"authors": [
+				{
+					"family": "Fermat",
+					"given": "Pierre de"
+				},
+				{
+					"family": "Pascal",
+					"given": "Blaise"
+				}
+			],
+			"container": "A Source Book in Mathematics",
+			"editors": [
+				{
+					"family": "Smith",
+					"given": "David Eugene"
+				}
+			],
+			"publisher": "McGraw-Hill",
+			"place": "New York",
+			"published": "1929",
+			"url": "https://www.york.ac.uk/depts/maths/histstat/pascal.pdf",
+			"accessed": "2026-09-30",
+			"note": "The letters of 1654 in Vera Sanford's translation: the 64 pistoles, the sixteen arrangements, de Méré's dice. Read in the University of York's copy"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Problem of points",
+			"url": "https://en.wikipedia.org/w/index.php?title=Problem_of_points&oldid=1356180468",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-26",
+			"note": "Pacioli, Tartaglia, and Fermat's and Pascal's two methods"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gerolamo Cardano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gerolamo_Cardano&oldid=1376554312",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antoine Gombaud",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antoine_Gombaud&oldid=1360963232",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Christiaan Huygens",
+			"url": "https://en.wikipedia.org/w/index.php?title=Christiaan_Huygens&oldid=1374816856",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pascal's triangle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pascal's_triangle&oldid=1375624710",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "media",
+			"title": "Pascal's arithmetical triangle, from the Traité du triangle arithmétique",
+			"url": "https://commons.wikimedia.org/wiki/File:TrianguloPascal.jpg",
+			"accessed": "2026-09-30",
+			"container": "Cambridge University Library, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "triangle.jpg",
+			"authors": [
+				{
+					"family": "Pascal",
+					"given": "Blaise"
+				}
+			],
+			"published": "1665"
+		}
+	]
+}

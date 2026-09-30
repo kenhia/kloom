@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 236 L360 236"/>
+		<path pathLength="1" d="M40 232 L40 240 M104 232 L104 240 M168 232 L168 240 M232 232 L232 240 M296 232 L296 240 M360 232 L360 240"/>
+		<path pathLength="1" d="M40 234 L40 238 M52.8 234 L52.8 238 M65.6 234 L65.6 238 M78.4 234 L78.4 238 M91.2 234 L91.2 238 M104 234 L104 238 M116.8 234 L116.8 238 M129.6 234 L129.6 238 M142.4 234 L142.4 238 M155.2 234 L155.2 238 M168 234 L168 238 M180.8 234 L180.8 238 M193.6 234 L193.6 238 M206.4 234 L206.4 238 M219.2 234 L219.2 238 M232 234 L232 238 M244.8 234 L244.8 238 M257.6 234 L257.6 238 M270.4 234 L270.4 238 M283.2 234 L283.2 238 M296 234 L296 238 M308.8 234 L308.8 238 M321.6 234 L321.6 238 M334.4 234 L334.4 238 M347.2 234 L347.2 238 M360 234 L360 238"/>
+		<path pathLength="1" d="M62 150 L62 168 L254 168 L254 150"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M200 35 L104 73 M200 35 L296 73 M104 91 L62 129 M104 91 L146 129 M296 91 L254 129 M296 91 L338 129"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M170 17 L230 17 L230 35 L170 35 Z"/>
+		<path pathLength="1" d="M74 73 L134 73 L134 91 L74 91 Z"/>
+		<path pathLength="1" d="M266 73 L326 73 L326 91 L266 91 Z"/>
+		<path pathLength="1" d="M32 129 L92 129 L92 147 L32 147 Z"/>
+		<path pathLength="1" d="M116 129 L176 129 L176 147 L116 147 Z"/>
+		<path pathLength="1" d="M224 129 L284 129 L284 147 L224 147 Z"/>
+		<path pathLength="1" d="M308 129 L368 129 L368 147 L308 147 Z"/>
+		<path pathLength="1" d="M104 230 L104.3 228.1 L104.9 226.3 L106.1 224.4 L107.6 222.7 L109.6 221 L112 219.4 L114.7 218 L117.8 216.6 L121.1 215.4 L124.8 214.4 L128.6 213.6 L132.7 212.9 L136.9 212.4 L141.2 212.1 L145.5 212 L149.9 212.1 L154.1 212.4 L158.3 212.9 L162.4 213.6 L166.3 214.4 L169.9 215.4 L173.3 216.6 L176.4 218 L179.1 219.4 L181.5 221 L183.4 222.7 L185 224.4 L186.1 226.3 L186.8 228.1 L187 230"/>
+		<path pathLength="1" d="M183 224 L187 230 L190 224"/>
+		<path pathLength="1" d="M187 230 L187.2 228.1 L187.9 226.3 L189 224.4 L190.6 222.7 L192.6 221 L194.9 219.4 L197.7 218 L200.7 216.6 L204.1 215.4 L207.8 214.4 L211.6 213.6 L215.7 212.9 L219.9 212.4 L224.2 212.1 L228.5 212 L232.8 212.1 L237.1 212.4 L241.3 212.9 L245.4 213.6 L249.3 214.4 L252.9 215.4 L256.3 216.6 L259.3 218 L262.1 219.4 L264.4 221 L266.4 222.7 L268 224.4 L269.1 226.3 L269.8 228.1 L270 230"/>
+		<path pathLength="1" d="M266 224 L270 230 L273 224"/>
+		<path pathLength="1" d="M104 229 L104 243 M187 229 L187 243 M270 229 L270 243"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="200" y="29" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">100,000</text>
+		<text x="104" y="85" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">100</text>
+		<text x="296" y="85" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">99,900</text>
+		<text x="62" y="141" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">99 +</text>
+		<text x="146" y="141" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1 −</text>
+		<text x="254" y="141" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4,995 +</text>
+		<text x="338" y="141" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">94,905 −</text>
+		<text x="158" y="182" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">99 OF 5,094 POSITIVES</text>
+		<text x="40" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">-40</text>
+		<text x="104" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">-30</text>
+		<text x="168" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">-20</text>
+		<text x="232" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">-10</text>
+		<text x="296" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="360" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">+10</text>
+		<text x="296" y="263" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EVENS</text>
+		<text x="104" y="204" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PRIOR</text>
+		<text x="145.5" y="207" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">+13</text>
+		<text x="228.5" y="207" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">+13</text>
+		<text x="360" y="274" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DECIBANS</text>
+	</g>
+</svg>

@@ -11,7 +11,7 @@ holds the narrative, charts, images and sources for the frame you are on; and
 an AI pane lets you ask for more detail or _grow_ the story — new frames on
 the main spine, or a side trail to explore.
 
-There are five subjects so far, all served by one app:
+There are six subjects so far, all served by one app:
 
 - **the History of Western Civilization**, 18 frames and two trails;
 - **the History and Current State of AI**, 41 frames and four trails, on a
@@ -28,7 +28,12 @@ There are five subjects so far, all served by one app:
   the nucleus, particles, the cosmos), with four trails (the field, heat and
   information, the quantum revolution, the Standard Model); the first
   subject written with names and connections from the start, and the
-  bridge between western-civ and the other three.
+  bridge between western-civ and the other three;
+- **the History of Mathematics**, 49 main-spine frames from the Ishango
+  bone to proofs checked by machine, on dates to 1736 and then categories
+  (algebra, analysis, geometry, probability, logic and foundations), with
+  three trails (Fermat's Last Theorem, the primes, infinity); every
+  reading does one piece of mathematics in front of the reader.
 
 The longer aim is a framework (starter code, agent skills and instructions)
 for generating a kloom on any subject.

@@ -1,0 +1,162 @@
+{
+	"id": "topology",
+	"topic": "Topology",
+	"position": {
+		"label": "Topology"
+	},
+	"scene": {
+		"headline": "We counted the",
+		"accent": "HOLES.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ST PETERSBURG · GÖTTINGEN · PARIS",
+			"EULER · LISTING · MÖBIUS · RIEMANN · POINCARÉ"
+		],
+		"counter": {
+			"value": "2",
+			"label": "V − E + F, for every solid without a hole"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Topology",
+			"url": "https://en.wikipedia.org/w/index.php?title=Topology&oldid=1375412604",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"note": "The history: Euler's 1750 letter, Listing's word, Poincaré's Analysis Situs, Fréchet and Hausdorff"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "A History of Topology",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics",
+			"publisher": "University of St Andrews",
+			"published": "1996-05",
+			"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/",
+			"accessed": "2026-09-30",
+			"note": "Euler's two papers and the convexity he assumed, Lhuilier's 2 − 2g of 1813, Listing's 1861 paper, Riemann's surfaces"
+		},
+		{
+			"kind": "web",
+			"title": "Elements of the Doctrine of Solids (E230)",
+			"authors": [
+				{
+					"family": "Euler",
+					"given": "Leonhard"
+				}
+			],
+			"container": "The Euler Archive",
+			"publisher": "University of the Pacific",
+			"url": "https://scholarlycommons.pacific.edu/euler-works/230/",
+			"accessed": "2026-09-30",
+			"note": "Written 1750, printed 1758 in Novi Commentarii academiae scientiarum Petropolitanae 4, pp. 109–140"
+		},
+		{
+			"kind": "web",
+			"title": "Proof of Some of the Properties of Solid Bodies Enclosed by Planes (E231)",
+			"authors": [
+				{
+					"family": "Euler",
+					"given": "Leonhard"
+				}
+			],
+			"container": "The Euler Archive",
+			"publisher": "University of the Pacific",
+			"url": "https://scholarlycommons.pacific.edu/euler-works/231/",
+			"accessed": "2026-09-30",
+			"note": "Written 1751, printed 1758; the proof by removing vertices"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Euler characteristic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Euler_characteristic&oldid=1368656473",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Möbius strip",
+			"url": "https://en.wikipedia.org/w/index.php?title=M%C3%B6bius_strip&oldid=1376521731",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Analysis Situs (paper)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Analysis_Situs_(paper)&oldid=1258765442",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-11-21"
+		},
+		{
+			"kind": "media",
+			"title": "Euler's figures of polyhedra, Novi Commentarii academiae scientiarum Petropolitanae, volume 4, plate II",
+			"url": "https://commons.wikimedia.org/wiki/File:Euler_Polyeder.pdf",
+			"accessed": "2026-09-30",
+			"container": "St Petersburg Academy of Sciences, via the Euler Archive and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "euler-polyhedra.jpg",
+			"authors": [
+				{
+					"family": "Euler",
+					"given": "Leonhard"
+				}
+			],
+			"published": "1758"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/konigsberg",
+			"why": "Euler called his 1736 bridges problem a question of the \"geometry of position\", the first name of topology."
+		},
+		{
+			"to": "mathematics/riemann-geometry",
+			"why": "Riemann's surfaces of the 1850s made how a surface is connected, its holes, a question of its own."
+		},
+		{
+			"to": "mathematics/poincare-conjecture",
+			"why": "Poincaré's Analysis Situs and its supplements founded topology and ended, in 1904, with the question that became his conjecture."
+		}
+	]
+}

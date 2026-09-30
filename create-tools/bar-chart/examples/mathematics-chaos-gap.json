@@ -1,0 +1,27 @@
+{
+	"title": "The gap between two runs of the logistic map at r = 4 (log scale)",
+	"description": "Bar chart on a logarithmic scale of the difference between two runs of x → 4x(1 − x), started at 0.3 and 0.300001 (computed for kloom): 0.000001 at the start, 0.00002 after 5 steps, 0.00045 after 10, 0.026 after 15 and 0.91 after 20, when the two runs have nothing in common.",
+	"heading": "GAP BETWEEN TWO RUNS · r = 4 · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 1e-7,
+		"max": 10,
+		"ticks": [
+			[1e-6, "10⁻⁶"],
+			[1e-4, "10⁻⁴"],
+			[1e-2, "10⁻²"],
+			[1, "1"]
+		]
+	},
+	"width": 560,
+	"height": 300,
+	"barWidth": 56,
+	"bars": [
+		{ "label": "Start", "value": 1e-6, "display": "0.000001" },
+		{ "label": "Step 5", "value": 1.98e-5, "display": "0.00002" },
+		{ "label": "Step 10", "value": 4.54e-4, "display": "0.00045" },
+		{ "label": "Step 15", "value": 2.64e-2, "display": "0.026" },
+		{ "label": "Step 20", "value": 0.909, "display": "0.91", "highlight": true }
+	]
+}

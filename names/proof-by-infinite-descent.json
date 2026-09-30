@@ -1,0 +1,9 @@
+{
+	"id": "proof-by-infinite-descent",
+	"wikidata": "Q619388",
+	"name": "Proof by infinite descent",
+	"aliases": ["infinite descent", "method of descent"],
+	"kind": "idea",
+	"description": "Method of proof, named and made famous by Fermat, that shows a solution cannot exist because each one would give a smaller one, and whole numbers cannot shrink for ever.",
+	"home": "mathematics/fermats-margin"
+}

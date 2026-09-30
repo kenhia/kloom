@@ -1,0 +1,157 @@
+{
+	"id": "hilbert-problems",
+	"topic": "Hilbert's problems and his programme",
+	"asOf": "2026-09-30",
+	"position": {
+		"label": "Hilbert"
+	},
+	"scene": {
+		"headline": "We must know. We will",
+		"accent": "KNOW.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · 8 AUGUST 1900 · THE SORBONNE",
+			"DAVID HILBERT · 23 PROBLEMS · KÖNIGSBERG 1930"
+		],
+		"counter": {
+			"value": "10 of 23",
+			"label": "problems read aloud in Paris"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mathematical Problems",
+			"authors": [
+				{
+					"family": "Hilbert",
+					"given": "David"
+				}
+			],
+			"container": "Bulletin of the American Mathematical Society",
+			"volume": "8",
+			"issue": "10",
+			"pages": "437–79",
+			"published": "1902",
+			"doi": "10.1090/S0002-9904-1902-00923-3",
+			"url": "https://mathcs.clarku.edu/~djoyce/hilbert/problems.html",
+			"accessed": "2026-09-30",
+			"note": "Translated by Mary Winston Newson; read in D. Joyce's web edition. The veil, \"no ignorabimus\", and the tenth problem's wording"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Hilbert's problems",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hilbert's_problems&oldid=1377414677",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"note": "The ten read aloud, and the status of each problem as its editors count it"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "David Hilbert's Radio Address",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "James T."
+				}
+			],
+			"container": "Convergence",
+			"publisher": "Mathematical Association of America",
+			"published": "2014-02",
+			"doi": "10.4169/convergence20140202",
+			"url": "https://www.maa.org/press/periodicals/convergence/david-hilberts-radio-address-introduction",
+			"accessed": "2026-09-30",
+			"note": "The Königsberg address of 8 September 1930, its four-minute radio version, and the English translation quoted"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "David Hilbert",
+			"url": "https://en.wikipedia.org/w/index.php?title=David_Hilbert&oldid=1377251934",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"note": "Göttingen, the 1915 paper, the epitaph, and Dawson on the day of Gödel's announcement"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hilbert's program",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hilbert's_program&oldid=1368649311",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hilbert's tenth problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hilbert's_tenth_problem&oldid=1368996419",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gödel's incompleteness theorems",
+			"url": "https://en.wikipedia.org/w/index.php?title=G%C3%B6del's_incompleteness_theorems&oldid=1376729115",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "The grave of David Hilbert, Stadtfriedhof, Göttingen",
+			"url": "https://commons.wikimedia.org/wiki/File:Grave_of_David_Hilbert_at_Stadtfriedhof_G%C3%B6ttingen_2017.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "hilbert-grave.jpg",
+			"authors": [
+				{
+					"family": "Herzog",
+					"given": "Julian"
+				}
+			],
+			"published": "2017-06-04"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/general-relativity",
+			"why": "Hilbert's sixth problem asked for physics built on axioms, and his own \"Foundations of Physics\" of November 1915 derived the field equations of gravitation from a single principle, days apart from Einstein."
+		}
+	]
+}

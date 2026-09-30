@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M24 58 L176 58 L176 210 L24 210 Z"/>
+		<path pathLength="1" d="M222 58 L374 58 L374 210 L222 210 Z"/>
+		<path pathLength="1" d="M71.5 50 L71.5 218 M128.5 50 L128.5 218 M16 105.5 L184 105.5 M16 162.5 L184 162.5"/>
+		<path pathLength="1" d="M279 50 L279 218 M214 115 L382 115"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M71.5 105.5 L128.5 105.5 L128.5 162.5 L71.5 162.5 Z"/>
+		<path pathLength="1" d="M71.5 58 L128.5 58 L128.5 105.5"/>
+		<path pathLength="1" d="M176 105.5 L176 162.5 L128.5 162.5"/>
+		<path pathLength="1" d="M128.5 210 L71.5 210 L71.5 162.5"/>
+		<path pathLength="1" d="M24 162.5 L24 105.5 L71.5 105.5"/>
+		<path pathLength="1" d="M222 58 L279 58 L279 115 L222 115 Z"/>
+		<path pathLength="1" d="M279 58 L374 58 L374 115 L279 115"/>
+		<path pathLength="1" d="M222 115 L222 210 L279 210 L279 115"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M29 58 L24 63 M34 58 L24 68 M39 58 L24 73 M44 58 L24 78 M49 58 L24 83 M54 58 L24 88 M59 58 L24 93 M64 58 L24 98 M69 58 L24 103 M71.5 60.5 L26.5 105.5 M71.5 65.5 L31.5 105.5 M71.5 70.5 L36.5 105.5 M71.5 75.5 L41.5 105.5 M71.5 80.5 L46.5 105.5 M71.5 85.5 L51.5 105.5 M71.5 90.5 L56.5 105.5 M71.5 95.5 L61.5 105.5 M71.5 100.5 L66.5 105.5"/>
+		<path pathLength="1" d="M133.5 58 L128.5 63 M138.5 58 L128.5 68 M143.5 58 L128.5 73 M148.5 58 L128.5 78 M153.5 58 L128.5 83 M158.5 58 L128.5 88 M163.5 58 L128.5 93 M168.5 58 L128.5 98 M173.5 58 L128.5 103 M176 60.5 L131 105.5 M176 65.5 L136 105.5 M176 70.5 L141 105.5 M176 75.5 L146 105.5 M176 80.5 L151 105.5 M176 85.5 L156 105.5 M176 90.5 L161 105.5 M176 95.5 L166 105.5 M176 100.5 L171 105.5"/>
+		<path pathLength="1" d="M29 162.5 L24 167.5 M34 162.5 L24 172.5 M39 162.5 L24 177.5 M44 162.5 L24 182.5 M49 162.5 L24 187.5 M54 162.5 L24 192.5 M59 162.5 L24 197.5 M64 162.5 L24 202.5 M69 162.5 L24 207.5 M71.5 165 L26.5 210 M71.5 170 L31.5 210 M71.5 175 L36.5 210 M71.5 180 L41.5 210 M71.5 185 L46.5 210 M71.5 190 L51.5 210 M71.5 195 L56.5 210 M71.5 200 L61.5 210 M71.5 205 L66.5 210"/>
+		<path pathLength="1" d="M133.5 162.5 L128.5 167.5 M138.5 162.5 L128.5 172.5 M143.5 162.5 L128.5 177.5 M148.5 162.5 L128.5 182.5 M153.5 162.5 L128.5 187.5 M158.5 162.5 L128.5 192.5 M163.5 162.5 L128.5 197.5 M168.5 162.5 L128.5 202.5 M173.5 162.5 L128.5 207.5 M176 165 L131 210 M176 170 L136 210 M176 175 L141 210 M176 180 L146 210 M176 185 L151 210 M176 190 L156 210 M176 195 L161 210 M176 200 L166 210 M176 205 L171 210"/>
+		<path pathLength="1" d="M285 115 L279 121 M291 115 L279 127 M297 115 L279 133 M303 115 L279 139 M309 115 L279 145 M315 115 L279 151 M321 115 L279 157 M327 115 L279 163 M333 115 L279 169 M339 115 L279 175 M345 115 L279 181 M351 115 L279 187 M357 115 L279 193 M363 115 L279 199 M369 115 L279 205 M374 116 L280 210 M374 122 L286 210 M374 128 L292 210 M374 134 L298 210 M374 140 L304 210 M374 146 L310 210 M374 152 L316 210 M374 158 L322 210 M374 164 L328 210 M374 170 L334 210 M374 176 L340 210 M374 182 L346 210 M374 188 L352 210 M374 194 L358 210 M374 200 L364 210"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="100" y="137" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x²</text>
+		<text x="100" y="84.8" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2½x</text>
+		<text x="100" y="189.2" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2½x</text>
+		<text x="250.5" y="89.5" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x²</text>
+		<text x="326.5" y="89.5" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5x</text>
+		<text x="250.5" y="165.5" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5x</text>
+		<text x="326.5" y="165.5" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">25</text>
+		<text x="100" y="42" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8</text>
+		<text x="298" y="42" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8</text>
+		<text x="100" y="262" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">39 + 4 × 6¼ = 64</text>
+		<text x="298" y="262" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">39 + 25 = 64</text>
+		<text x="200" y="284" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x = 8 − 5 = 3</text>
+	</g>
+</svg>

@@ -1,0 +1,30 @@
+{
+	"mathematics/boole": [
+		["George Boole", "george-boole"],
+		["Augustus De Morgan", "augustus-de-morgan"],
+		["William Stanley Jevons", "william-stanley-jevons"],
+		["_The Laws of Thought_", "the-laws-of-thought"],
+		["John Venn", "john-venn"],
+		["Charles Sanders Peirce", "charles-sanders-peirce"],
+		["Claude Shannon", "claude-shannon"],
+		["Konrad Zuse", "konrad-zuse"]
+	],
+	"mathematics/cantor": [
+		["Georg Cantor", "georg-cantor"],
+		["Richard Dedekind", "richard-dedekind"],
+		["Galileo", "galileo-galilei"],
+		["Leopold Kronecker", "leopold-kronecker"],
+		["Cantor's diagonal", "cantors-diagonal-argument"],
+		["Kurt Gödel", "kurt-godel"],
+		["David Hilbert", "david-hilbert"]
+	],
+	"mathematics/frege-russell": [
+		["Bertrand Russell", "bertrand-russell"],
+		["Gottlob Frege", "gottlob-frege"],
+		["_Begriffsschrift_", "begriffsschrift"],
+		["Ernst Zermelo", "ernst-zermelo"],
+		["David Hilbert", "david-hilbert"],
+		["Alfred North Whitehead", "alfred-north-whitehead"],
+		["_Principia Mathematica_", "principia-mathematica"]
+	]
+}

@@ -1,0 +1,141 @@
+{
+	"id": "banach-tarski",
+	"topic": "The Banach–Tarski paradox",
+	"position": {
+		"label": "1924",
+		"sort": 1924
+	},
+	"scene": {
+		"headline": "We doubled the",
+		"accent": "BALL.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LWÓW · WARSAW · FUNDAMENTA MATHEMATICAE",
+			"BANACH · TARSKI · THE AXIOM OF CHOICE"
+		],
+		"counter": {
+			"value": "5",
+			"label": "pieces enough to make two balls of one, and four are not (1947)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Sur la décomposition des ensembles de points en parties respectivement congruentes",
+			"authors": [
+				{
+					"family": "Banach",
+					"given": "Stefan"
+				},
+				{
+					"family": "Tarski",
+					"given": "Alfred"
+				}
+			],
+			"container": "Fundamenta Mathematicae",
+			"volume": "6",
+			"pages": "244–277",
+			"published": "1924",
+			"url": "http://matwbn.icm.edu.pl/ksiazki/fm/fm6/fm6127.pdf",
+			"accessed": "2026-09-30",
+			"note": "The theorems, the debt to Hausdorff and Vitali, and the remark on the axiom of choice, pp. 244–245"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Banach–Tarski paradox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Banach%E2%80%93Tarski_paradox&oldid=1375312961",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"note": "Five pieces (Robinson), the free group, von Neumann, Morse's polygon theorem, Wilson's continuous motion"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Axiom of Choice",
+			"authors": [
+				{
+					"family": "Bell",
+					"given": "John L."
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2021-12-10",
+			"url": "https://plato.stanford.edu/entries/axiom-choice/",
+			"accessed": "2026-09-30",
+			"note": "Zermelo in 1904 and 1908, the French objections, Hausdorff, and the chronology"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vitali set",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vitali_set&oldid=1356455937",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hausdorff paradox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hausdorff_paradox&oldid=1356101830",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Axiom of choice",
+			"url": "https://en.wikipedia.org/w/index.php?title=Axiom_of_choice&oldid=1376539873",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ernst Zermelo",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ernst_Zermelo&oldid=1372856254",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/frege-russell",
+			"why": "Banach and Tarski's paradox rests on the axiom of choice, one of the axioms Zermelo gave set theory in 1908 after Russell's paradox."
+		}
+	]
+}

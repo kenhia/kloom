@@ -1,0 +1,40 @@
+{
+	"mathematics/problem-of-points": [
+		["_problem of points_", "problem-of-points"],
+		["Gerolamo Cardano", "gerolamo-cardano"],
+		["Antoine Gombaud", "antoine-gombaud"],
+		["Blaise Pascal", "blaise-pascal"],
+		["Pierre de Fermat", "pierre-de-fermat"],
+		["Pascal's triangle", "pascals-triangle"],
+		["Christiaan Huygens", "christiaan-huygens"]
+	],
+	"mathematics/large-numbers": [
+		["Jacob Bernoulli", "jacob-bernoulli"],
+		["Basel", "basel"],
+		["law of large numbers", "law-of-large-numbers"],
+		["_Ars Conjectandi_", "ars-conjectandi"],
+		["Siméon Denis Poisson", "simeon-denis-poisson"],
+		["gambler's fallacy", "gamblers-fallacy"],
+		["Gottfried Wilhelm Leibniz", "gottfried-wilhelm-leibniz"]
+	],
+	"mathematics/normal-distribution": [
+		["normal distribution", "normal-distribution"],
+		["Abraham de Moivre", "abraham-de-moivre"],
+		["Carl Friedrich Gauss", "carl-friedrich-gauss"],
+		["Adrien-Marie Legendre", "adrien-marie-legendre"],
+		["least squares", "least-squares"],
+		["Pierre-Simon Laplace", "pierre-simon-laplace"],
+		["central limit theorem", "central-limit-theorem"],
+		["Francis Galton", "francis-galton"]
+	],
+	"mathematics/bayes": [
+		["Bayes' theorem", "bayes-theorem"],
+		["Thomas Bayes", "thomas-bayes"],
+		["Richard Price", "richard-price"],
+		["Pierre-Simon Laplace", "pierre-simon-laplace"],
+		["Ronald Fisher", "ronald-fisher"],
+		["Bletchley Park", "bletchley-park"],
+		["Alan Turing", "alan-turing"],
+		["Banburismus", "banburismus"]
+	]
+}

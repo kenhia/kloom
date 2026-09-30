@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M12 165 L253 165"/>
+		<path pathLength="1" d="M20 165 a75 75 0 1 0 150 0 a75 75 0 1 0 -150 0"/>
+		<path pathLength="1" d="M95 165 a75 75 0 1 0 150 0 a75 75 0 1 0 -150 0"/>
+		<path pathLength="1" d="M300 141.4 L389.3 168.2"/>
+		<path pathLength="1" d="M302.7 189.8 L389.3 168.2"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M95 165 L170 165 L132.5 100 Z"/>
+		<path pathLength="1" d="M296 70 L306 250"/>
+		<path pathLength="1" d="M262 130 L322 148"/>
+		<path pathLength="1" d="M262 200 L324.7 184.3"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M312.4 145.1 L312.1 146.1 L311.7 147 L311.2 147.9 L310.7 148.7 L310.1 149.5 L309.5 150.3 L308.8 151 L308 151.6 L307.2 152.2 L306.4 152.7 L305.5 153.2 L304.6 153.5 L303.6 153.9 L302.7 154.1 L301.7 154.3 L300.7 154.4"/>
+		<path pathLength="1" d="M315.3 186.7 L315 185.6 L314.5 184.6 L314 183.6 L313.5 182.6 L312.8 181.7 L312.1 180.9 L311.2 180.1 L310.4 179.4 L309.4 178.7 L308.5 178.2 L307.4 177.7 L306.4 177.4 L305.3 177.1 L304.2 176.9 L303.1 176.8 L301.9 176.9"/>
+		<path pathLength="1" d="M93.2 165 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M168.2 165 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M130.7 100 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M18.2 165 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M243.2 165 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M387.5 168.2 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="89" y="179" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="176" y="179" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="132.5" y="92" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C</text>
+		<text x="10" y="159" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">D</text>
+		<text x="255" y="159" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">E</text>
+		<text x="389.3" y="160.2" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S</text>
+		<text x="322" y="161.4" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">α</text>
+		<text x="322.7" y="177.8" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">β</text>
+		<text x="132.5" y="272" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">I.1</text>
+		<text x="325" y="272" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">POSTULATE 5</text>
+	</g>
+</svg>

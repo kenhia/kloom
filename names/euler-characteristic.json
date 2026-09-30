@@ -1,0 +1,8 @@
+{
+	"id": "euler-characteristic",
+	"wikidata": "Q852973",
+	"name": "Euler characteristic",
+	"aliases": ["V − E + F"],
+	"kind": "idea",
+	"description": "The number of vertices minus edges plus faces of a surface, 2 for any convex polyhedron and 0 for a torus: the first known number a shape keeps however it is deformed."
+}

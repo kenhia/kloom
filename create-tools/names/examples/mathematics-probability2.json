@@ -1,0 +1,38 @@
+{
+	"mathematics/markov-chains": [
+		["Andrey Markov", "andrey-markov"],
+		["_Eugene Onegin_", "eugene-onegin"],
+		["Markov chain", "markov-chain"],
+		["law of\nlarge numbers", "law-of-large-numbers"],
+		["Pavel Nekrasov", "pavel-nekrasov"],
+		["Claude Shannon", "claude-shannon"],
+		["PageRank", "pagerank"]
+	],
+	"mathematics/wiener-measure": [
+		["Louis Bachelier", "louis-bachelier"],
+		["Henri Poincaré", "henri-poincare"],
+		["Albert Einstein", "albert-einstein"],
+		["Brownian motion", "brownian-motion"],
+		["Norbert Wiener", "norbert-wiener"],
+		["Mark Kac", "mark-kac"],
+		["Feynman–Kac\nformula", "feynman-kac-formula"]
+	],
+	"mathematics/kolmogorov": [
+		["Andrey Kolmogorov", "andrey-kolmogorov"],
+		["David Hilbert", "david-hilbert"],
+		["Richard von Mises", "richard-von-mises"],
+		["Henri Lebesgue", "henri-lebesgue"],
+		["Stanisław Ulam", "stanislaw-ulam"],
+		["Kolmogorov complexity", "kolmogorov-complexity"]
+	],
+	"mathematics/monte-carlo": [
+		["Stanisław Ulam", "stanislaw-ulam"],
+		["Monte Carlo method", "monte-carlo-method"],
+		["Enrico Fermi", "enrico-fermi"],
+		["ENIAC", "eniac"],
+		["John von Neumann", "john-von-neumann"],
+		["Nicholas Metropolis", "nicholas-metropolis"],
+		["Klara von Neumann", "klara-dan-von-neumann"],
+		["Monte Carlo tree search", "monte-carlo-tree-search"]
+	]
+}

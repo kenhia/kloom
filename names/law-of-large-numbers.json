@@ -1,0 +1,9 @@
+{
+	"id": "law-of-large-numbers",
+	"wikidata": "Q207952",
+	"name": "Law of large numbers",
+	"aliases": ["Bernoulli's theorem", "golden theorem"],
+	"kind": "idea",
+	"description": "The theorem that the average of many trials settles, with near certainty, close to the expected value; Bernoulli proved it for independent trials, and Markov showed independence is not needed.",
+	"home": "mathematics/large-numbers"
+}

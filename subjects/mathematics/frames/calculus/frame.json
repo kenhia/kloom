@@ -1,0 +1,211 @@
+{
+	"id": "calculus",
+	"topic": "The invention of the calculus",
+	"position": {
+		"label": "AD 1665–1687",
+		"sort": 1665
+	},
+	"scene": {
+		"headline": "We measured the",
+		"accent": "INSTANT.",
+		"palette": "quarto",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · PARIS · LEIPZIG · LONDON",
+			"NEWTON'S FLUXIONS · LEIBNIZ'S d AND ∫ · THE ACTA ERUDITORUM"
+		],
+		"counter": {
+			"value": "15",
+			"label": "years, the Royal Society's committee said, Newton had the method before Leibniz printed it"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "History of calculus",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_calculus&oldid=1375556814",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18",
+			"note": "Newton's o and its \"blotting out\", Leibniz's notes of October–November 1675, and the Analytical Society"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Leibniz–Newton calculus controversy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leibniz%E2%80%93Newton_calculus_controversy&oldid=1374022718",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09",
+			"note": "Fatio's charge, the committee that never heard Leibniz, and Gerhardt's find of 1849"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Commercium epistolicum D. Johannis Collins, et aliorum de analysi promota",
+			"authors": [
+				{
+					"name": "Royal Society"
+				}
+			],
+			"publisher": "Typis Pearsonianis",
+			"place": "London",
+			"published": "1712",
+			"url": "https://archive.org/details/bub_gb_fpcrDHK08c8C",
+			"accessed": "2026-09-30",
+			"note": "The committee's report, in English, and the Society's order of 24 April 1712, at the end of the book (p. 122)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Nova methodus pro maximis et minimis, itemque tangentibus, quae nec fractas nec irrationales quantitates moratur, et singulare pro illis calculi genus",
+			"authors": [
+				{
+					"family": "Leibniz",
+					"given": "Gottfried Wilhelm"
+				}
+			],
+			"container": "Acta Eruditorum",
+			"published": "1684-10",
+			"pages": "467–473",
+			"url": "https://archive.org/details/s1id13206500/page/467/mode/1up",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Method of Fluxions",
+			"url": "https://en.wikipedia.org/w/index.php?title=Method_of_Fluxions&oldid=1286774212",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-04-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nova Methodus pro Maximis et Minimis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nova_Methodus_pro_Maximis_et_Minimis&oldid=1356888106",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fundamental theorem of calculus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fundamental_theorem_of_calculus&oldid=1368883841",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chain rule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chain_rule&oldid=1376551040",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isaac Barrow",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isaac_Barrow&oldid=1372013541",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Acta Eruditorum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Acta_Eruditorum&oldid=1365305617",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "media",
+			"title": "The first page of Leibniz's Nova methodus, Acta Eruditorum, October 1684, p. 467",
+			"url": "https://commons.wikimedia.org/wiki/File:Leibniz-Acta-1684-NovaMethodus.jpg",
+			"accessed": "2026-09-30",
+			"container": "Internet Archive, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "nova-methodus.jpg",
+			"authors": [
+				{
+					"family": "Leibniz",
+					"given": "Gottfried Wilhelm"
+				}
+			],
+			"published": "1684-10",
+			"note": "Scaled and converted to greyscale"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/principia",
+			"why": "Newton's calculus stood behind the Principia's geometry, and the priority quarrel both readings tell ended in a Royal Society report that Newton, its president, drafted himself."
+		},
+		{
+			"to": "physics/merton-calculators",
+			"why": "Oresme drew the distance a uniformly accelerating body covers as the area under its line of speed; the calculus made the area under any curve the sum of its rates."
+		},
+		{
+			"to": "ai/backprop",
+			"why": "Backpropagation is the chain rule applied layer by layer, and the chain rule is Leibniz's, written first in a memoir of 1676."
+		},
+		{
+			"to": "mathematics/madhava",
+			"why": "The Kerala school had series for π, sine and cosine two centuries before Gregory, Newton and Leibniz found them again."
+		},
+		{
+			"to": "mathematics/descartes-geometry",
+			"why": "Newton learned his mathematics from van Schooten's Latin edition of Descartes's Géométrie."
+		}
+	]
+}

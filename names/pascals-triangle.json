@@ -1,0 +1,9 @@
+{
+	"id": "pascals-triangle",
+	"wikidata": "Q177051",
+	"name": "Pascal's triangle",
+	"aliases": ["arithmetical triangle"],
+	"kind": "idea",
+	"description": "The triangular array of binomial coefficients, each the sum of the two above it, known in India, Persia and China long before Pascal's treatise on it.",
+	"home": "mathematics/problem-of-points"
+}

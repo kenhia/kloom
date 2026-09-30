@@ -1,0 +1,254 @@
+{
+	"id": "groups",
+	"topic": "Groups and symmetry",
+	"position": {
+		"label": "Groups"
+	},
+	"scene": {
+		"headline": "We found the algebra of",
+		"accent": "SYMMETRY.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · ERLANGEN · CHRISTIANIA · 1854–1893",
+			"CAYLEY · KLEIN · LIE · SU(3) × SU(2) × U(1)"
+		],
+		"counter": {
+			"value": "2",
+			"label": "groups with six members, as Cayley showed in 1854"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Theory of Groups, as Depending on the Symbolic Equation θⁿ = 1",
+			"authors": [
+				{
+					"family": "Cayley",
+					"given": "Arthur"
+				}
+			],
+			"container": "Philosophical Magazine",
+			"volume": "7",
+			"pages": "40–47",
+			"published": "1854",
+			"url": "https://archive.org/details/collectedmathema02cayluoft",
+			"accessed": "2026-09-30",
+			"note": "The definition, the table, the footnote on Galois and the two groups of order six; read in The Collected Mathematical Papers of Arthur Cayley, vol. 2 (1889), paper 125"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Comparative Review of Recent Researches in Geometry",
+			"authors": [
+				{
+					"family": "Klein",
+					"given": "Felix"
+				}
+			],
+			"container": "Bulletin of the New York Mathematical Society",
+			"volume": "2",
+			"pages": "215–249",
+			"published": "1893",
+			"url": "https://arxiv.org/abs/0807.3161",
+			"accessed": "2026-09-30",
+			"note": "The Erlangen programme of 1872 in M. W. Haskell's translation, with Klein's prefatory note; read in the arXiv transcription"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "History of group theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_group_theory&oldid=1333887567",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-20",
+			"note": "From Lagrange and Galois to Cayley, Jordan, Klein and Lie"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arthur Cayley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arthur_Cayley&oldid=1371973143",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Erlangen program",
+			"url": "https://en.wikipedia.org/w/index.php?title=Erlangen_program&oldid=1371079108",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Felix Klein",
+			"url": "https://en.wikipedia.org/w/index.php?title=Felix_Klein&oldid=1371993363",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sophus Lie",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sophus_Lie&oldid=1371996941",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lie group",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lie_group&oldid=1368071210",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dihedral group of order 6",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dihedral_group_of_order_6&oldid=1373994849",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Galois group",
+			"url": "https://en.wikipedia.org/w/index.php?title=Galois_group&oldid=1371787106",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Standard Model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Standard_Model&oldid=1374132911",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eightfold way (physics)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eightfold_way_(physics)&oldid=1374853683",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Special unitary group",
+			"url": "https://en.wikipedia.org/w/index.php?title=Special_unitary_group&oldid=1375616063",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "media",
+			"title": "Felix Klein, oil on canvas by Max Liebermann, about 1912",
+			"url": "https://commons.wikimedia.org/wiki/File:1912_circa_Max_Liebermann_oil_on_canvas_portrait_Felix_Klein,_Kunstsammlung_der_Universit%C3%A4t_G%C3%B6ttingen.jpg",
+			"accessed": "2026-09-30",
+			"container": "Kunstsammlung der Universität Göttingen, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "felix-klein.jpg",
+			"authors": [
+				{
+					"family": "Liebermann",
+					"given": "Max"
+				}
+			],
+			"published": "1912",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/standard-model",
+			"why": "The Standard Model is defined by a product of Lie groups, SU(3) × SU(2) × U(1), one for each force it describes: the continuous groups Sophus Lie began are the symmetries its forces come from."
+		},
+		{
+			"to": "physics/quarks",
+			"why": "Gell-Mann's Eightfold Way sorted the hadrons by the symmetry of the Lie group SU(3), and the empty place in one of its families predicted the omega minus, found in 1964."
+		},
+		{
+			"to": "mathematics/quintic",
+			"why": "Galois used the groups of shuffles of an equation's roots; Cayley made group a definition of its own."
+		},
+		{
+			"to": "mathematics/matrices",
+			"why": "The Lie groups of physics are groups of matrices, whose algebra Cayley also set out."
+		},
+		{
+			"to": "mathematics/non-euclidean",
+			"why": "Klein's Erlangen programme sorted geometries, the non-Euclidean among them, by the groups of motions that leave each unchanged."
+		}
+	]
+}

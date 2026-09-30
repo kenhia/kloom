@@ -1296,6 +1296,33 @@ described in its sprint record.
   for the quantum, the nucleus and particles, deepfield and starchart for
   relativity and the cosmos. The lowest contrast is 5.8:1.
 
+## The sixth subject
+
+Built in sprint 024 (korg 3429): `subjects/mathematics`, the History of
+Mathematics, the second subject written with names and connections from
+the start, and the first of three runs of `skills/author-subject/SKILL.md`
+whose findings go to korg 3461. It is described in its sprint record.
+
+- **Dates, then categories.** 49 main-spine frames: four `date` segments
+  from the Ishango bone to Euler's bridges of Königsberg (1736), then
+  `category` segments for algebra, analysis, geometry, probability, logic
+  and foundations, and a closing one on mathematics now. Three date
+  trails: Fermat's Last Theorem (on `diophantus`), the primes (on
+  `euclid-elements`) and infinity (on `cantor`). The engine needed nothing
+  new.
+- **Mathematics done, not described.** Every reading carries one piece of
+  real mathematics (a proof sketched, a worked example, a construction the
+  plate draws), and the plates are those proofs and constructions.
+- **Links.** 138 connections are stored on its frames, 68 of them into
+  other subjects (26 physics, 18 ai, 11 computing, 9 western-civ, 4
+  feynman). Shared stories are owned once: physics' `archimedes` keeps the
+  lever and _The Method_, ai's `turing-machine` keeps Turing's paper, and
+  the mathematics frames take their other angle and connect to them.
+- **Its own look.** Four dark/light pairs: clay and vellum to 1500, oakgall
+  and quarto for the printed treatise to 1850, blackboard and graphpaper
+  for algebra, analysis and geometry, terminal and printout for
+  probability, logic and machines. The lowest contrast is 5.5:1.
+
 ## Start screen
 
 Built in sprint 002 (korg 3359). The page opens on a modal start screen over

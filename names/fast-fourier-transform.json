@@ -1,0 +1,9 @@
+{
+	"id": "fast-fourier-transform",
+	"wikidata": "Q623950",
+	"name": "Fast Fourier transform",
+	"aliases": ["FFT"],
+	"kind": "idea",
+	"description": "An algorithm, published by Cooley and Tukey in 1965 and used by Gauss in 1805, that computes a discrete Fourier transform of N samples in about N log N steps instead of N².",
+	"home": "mathematics/fourier"
+}

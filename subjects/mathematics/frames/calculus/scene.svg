@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M70 132 L364 132"/>
+		<path pathLength="1" d="M70 132 L70 20.4"/>
+		<path pathLength="1" d="M70 268 L364 268"/>
+		<path pathLength="1" d="M70 268 L70 147.6"/>
+		<path pathLength="1" d="M70 268 L70 268 L87.5 268 L87.5 268 M87.5 268 L87.5 267.6 L105 267.6 L105 268 M105 268 L105 266.2 L122.5 266.2 L122.5 268 M122.5 268 L122.5 264.1 L140 264.1 L140 268 M140 268 L140 261 L157.5 261 L157.5 268 M157.5 268 L157.5 257.1 L175 257.1 L175 268 M175 268 L175 252.2 L192.5 252.2 L192.5 268 M192.5 268 L192.5 246.6 L210 246.6 L210 268 M210 268 L210 240 L227.5 240 L227.5 268 M227.5 268 L227.5 232.6 L245 232.6 L245 268 M245 268 L245 224.2 L262.5 224.2 L262.5 268 M262.5 268 L262.5 215.1 L280 215.1 L280 268"/>
+		<path pathLength="1" d="M280 132 L280 268"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M70 132 L73.5 132 L77 132 L80.5 132 L84 132 L87.5 132 L91 132 L94.5 131.9 L98 131.9 L101.5 131.9 L105 131.8 L108.5 131.8 L112 131.7 L115.5 131.6 L119 131.5 L122.5 131.4 L126 131.2 L129.5 131.1 L133 130.9 L136.5 130.7 L140 130.5 L143.5 130.3 L147 130 L150.5 129.7 L154 129.4 L157.5 129.1 L161 128.7 L164.5 128.3 L168 127.9 L171.5 127.4 L175 126.9 L178.5 126.4 L182 125.9 L185.5 125.3 L189 124.6 L192.5 124 L196 123.3 L199.5 122.5 L203 121.7 L206.5 120.9 L210 120 L213.5 119.1 L217 118.1 L220.5 117.1 L224 116 L227.5 114.9 L231 113.7 L234.5 112.5 L238 111.3 L241.5 109.9 L245 108.6 L248.5 107.1 L252 105.6 L255.5 104.1 L259 102.5 L262.5 100.8 L266 99.1 L269.5 97.3 L273 95.4 L276.5 93.5 L280 91.5 L283.5 89.4 L287 87.3 L290.5 85.1 L294 82.8 L297.5 80.5 L301 78.1 L304.5 75.6 L308 73 L311.5 70.4 L315 67.7 L318.5 64.9 L322 62 L325.5 59.1 L329 56 L332.5 52.9 L336 49.7 L339.5 46.4 L343 43 L346.5 39.6 L350 36"/>
+		<path pathLength="1" d="M70 268 L73.5 268 L77 267.9 L80.5 267.8 L84 267.7 L87.5 267.6 L91 267.4 L94.5 267.1 L98 266.9 L101.5 266.6 L105 266.2 L108.5 265.9 L112 265.5 L115.5 265 L119 264.6 L122.5 264.1 L126 263.5 L129.5 262.9 L133 262.3 L136.5 261.7 L140 261 L143.5 260.3 L147 259.5 L150.5 258.7 L154 257.9 L157.5 257.1 L161 256.2 L164.5 255.2 L168 254.3 L171.5 253.3 L175 252.2 L178.5 251.2 L182 250.1 L185.5 248.9 L189 247.8 L192.5 246.6 L196 245.3 L199.5 244 L203 242.7 L206.5 241.4 L210 240 L213.5 238.6 L217 237.1 L220.5 235.6 L224 234.1 L227.5 232.6 L231 231 L234.5 229.3 L238 227.7 L241.5 226 L245 224.2 L248.5 222.5 L252 220.7 L255.5 218.8 L259 217 L262.5 215.1 L266 213.1 L269.5 211.1 L273 209.1 L276.5 207.1 L280 205 L283.5 202.9 L287 200.7 L290.5 198.5 L294 196.3 L297.5 194.1 L301 191.8 L304.5 189.4 L308 187.1 L311.5 184.7 L315 182.2 L318.5 179.8 L322 177.3 L325.5 174.7 L329 172.2 L332.5 169.6 L336 166.9 L339.5 164.2 L343 161.5 L346.5 158.8 L350 156"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M224 123.9 L350 51"/>
+		<path pathLength="1" d="M280 91.5 L350 91.5 L350 51"/>
+		<path pathLength="1" d="M285.6 268 L285.6 205"/>
+		<path pathLength="1" d="M281.4 205 L289.8 205"/>
+		<path pathLength="1" d="M277.8 91.5 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M277.8 205 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="350" y="24" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x³/3</text>
+		<text x="296.8" y="153.2" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x²</text>
+		<text x="315" y="103.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SLOPE 2.25</text>
+		<text x="291.2" y="239.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HEIGHT 2.25</text>
+		<text x="280" y="281" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">x = 1.5</text>
+		<text x="168" y="38.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AREA</text>
+		<text x="175" y="172.8" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CURVE</text>
+	</g>
+</svg>

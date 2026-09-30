@@ -1,0 +1,101 @@
+{
+	"id": "rhind-papyrus",
+	"topic": "The Rhind Mathematical Papyrus",
+	"position": {
+		"label": "c. 1550 BC",
+		"sort": -1550
+	},
+	"scene": {
+		"headline": "We broke the whole into",
+		"accent": "PARTS.",
+		"palette": "clay",
+		"illustration": "scene.svg",
+		"metadata": ["THEBES · THE SCRIBE AHMES", "PAPYRUS · HIERATIC · UNIT FRACTIONS · THE SEKED"],
+		"counter": {
+			"value": "256/81",
+			"label": "the papyrus's value of π, about 3.16"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Rhind Mathematical Papyrus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rhind_Mathematical_Papyrus&oldid=1371835328",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Rhind Mathematical Papyrus, British Museum 10057 and 10058",
+			"authors": [
+				{
+					"family": "Peet",
+					"given": "T. Eric"
+				}
+			],
+			"publisher": "University Press of Liverpool and Hodder & Stoughton",
+			"place": "Liverpool and London",
+			"published": "1923",
+			"url": "https://archive.org/details/Peet_1923",
+			"accessed": "2026-09-30",
+			"note": "Problems 50, 56 and 79 in translation, the date, and multiplication by 2 and 10 (p. 13). Read in the Kraus reprint of 1970"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ancient Egyptian mathematics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ancient_Egyptian_mathematics&oldid=1355038487",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Egyptian fraction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Egyptian_fraction&oldid=1373635052",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "media",
+			"title": "Part of the Rhind Mathematical Papyrus, with the pyramid problems",
+			"url": "https://commons.wikimedia.org/wiki/File:Rhind_Mathematical_Papyrus.jpg",
+			"accessed": "2026-09-30",
+			"container": "British Museum, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "rhind-papyrus.jpg",
+			"authors": [
+				{
+					"name": "Ahmes"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/royal-cubit",
+			"why": "The papyrus measures a pyramid's slope in palms of the royal cubit, the unit the Great Pyramid was laid out in: its 440 cubits of base and 280 of height make a seked of 5½ palms."
+		}
+	]
+}

@@ -216,6 +216,9 @@ charts and tables; see §Authoring with tools.)
 - A table can stand on its own. A table under a chart carries the chart's
   numbers for screen readers.
 - Mathematics is written in Unicode (_α_/2π, 2ᴺ, _F_₂); there is no TeX.
+  Next to a letter, digit or superscript, `_x_` is not emphasis in
+  CommonMark, and Prettier turns it into a stray `*x_`: write `*x*` there
+  (`3*x*`, `*x*²`), as sprint 024's analysis readings do.
 - For a technical explainer, a worked example with invented numbers is
   fine. Say that they are invented, and keep them apart from the sourced
   facts.
@@ -404,7 +407,16 @@ the web rather than by a grow job. What changes:
   not a way to write one. Seven of sprint 021's nineteen authors wrote
   marks by hand from habit; `mark --check` now names such a mark. Make the
   spec's words the name's first mention in prose as the reading writes it
-  ("Maxwell" if that comes before "James Clerk Maxwell").
+  ("Maxwell" if that comes before "James Clerk Maxwell"). The first
+  mention is the first in prose however it is written: a passing mention
+  before the bold one, a possessive ("Plato's"), words inside a quotation
+  or an italic title. If that is not the one to mark, reword the reading
+  (four sprint 024 authors did). Wrapped words are written in the spec
+  with a single space. `mark --check` tries every placement: "not marked
+  yet (N marks would place)" means every mark lands, and a word it cannot
+  place is named. To test the marks themselves, place them in your
+  checking copy with `--root DIR --names DIR/.names`; without `--root`,
+  `mark` writes into the live subject.
 - **Names by the tool.** `names.py lookup` gives the Wikidata ID from the
   article title and says when a title redirects or is ambiguous; `names.py
 add` writes name files and refuses one whose Wikidata ID the registry
@@ -421,8 +433,13 @@ DIR` writes its text. Old books and documents are often on Wikisource
   `id_` form (`https://web.archive.org/web/2024id_/<url>`); cite the page by
   its own URL. Sprint 021 added APS, PNAS, MDPI, CERN's press pages and
   nobelprize.org to that list (the last serves its Wayback copy gzipped:
-  `curl --compressed`). The Feynman Lectures site refuses scripts and has
-  no readable archive.
+  `curl --compressed`). The Feynman Lectures site refuses scripts and has no readable archive,
+  and ScienceDirect (Elsevier, including _Historia Mathematica_'s open
+  archive) refuses both a script and the Wayback route: find the paper
+  elsewhere (an author's copy, a course page, archive.org), or cite only
+  what you read about it, as what you read. For an old edition,
+  archive.org's full text (the item's `_djvu.txt`) is often all you need
+  (sprint 024 read Peet's 1923 Rhind papyrus that way).
 - **Charts are inlined** into the reading, through the same sanitiser as a
   scene, so they follow the reader's palette. Make them with `bar-chart`,
   or draw one by hand in `currentColor` with the `muted` and `accent`
@@ -435,7 +452,10 @@ DIR` writes its text. Old books and documents are often on Wikisource
   national laboratory run under contract (Brookhaven, LIGO) is not a US
   government work, a `PD-USGov` tag can sit on a photograph nobody in
   government took, and a file may carry a deletion nomination (the 1927
-  Solvay photograph, in copyright in Belgium and France). Read the file
+  Solvay photograph, in copyright in Belgium and France). `PD-Art` covers a
+  faithful photograph of a flat work (a papyrus, a painting), not of a
+  three-dimensional one: a photograph of a clay tablet has its own
+  photographer's rights (sprint 024 left Plimpton 322's out). Read the file
   page.
 - **The subject's voice holds for arithmetic too**: "by our arithmetic",
   not "by my".
@@ -449,6 +469,13 @@ DIR` writes its text. Old books and documents are often on Wikisource
   file page before you use it, so two frames do not show the same picture.
 - **An image that is not freely licensed** (an archive photograph) is not
   used: describe it in the reading and cite the archive's page as `web`.
+- **A page of a scanned book** that is public domain may come from outside
+  Commons (an Internet Archive item) or from a PDF or DjVu on Commons,
+  which `commons_media` cannot fetch: crop the page yourself, keep the file
+  under 350 KB (a JPEG, not a PNG), and write its `media` citation by hand,
+  citing the item's page and the work's own date. Check the licence on the
+  copy you use: the same volume can be public domain from one library and
+  CC BY-NC from another (sprint 024).
 - **A book with editors** (an edited volume, a posthumous collection)
   carries `editors`, and the entry reads "Edited by …".
 - **Other kinds of source.** An RFC is a `report` with `number` "RFC 791",
