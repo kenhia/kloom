@@ -1,0 +1,159 @@
+{
+	"id": "godel",
+	"topic": "Gödel's incompleteness theorems",
+	"position": {
+		"label": "Incompleteness"
+	},
+	"scene": {
+		"headline": "This sentence is",
+		"accent": "UNPROVABLE.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KÖNIGSBERG · 7 SEPTEMBER 1930 · VIENNA",
+			"KURT GÖDEL · MONATSHEFTE FÜR MATHEMATIK UND PHYSIK · 1931"
+		],
+		"counter": {
+			"value": "46",
+			"label": "definitions in the paper, the last of them \"provable\""
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+			"authors": [
+				{
+					"family": "Gödel",
+					"given": "Kurt"
+				}
+			],
+			"container": "Monatshefte für Mathematik und Physik",
+			"volume": "38",
+			"issue": "1",
+			"pages": "173–98",
+			"published": "1931",
+			"doi": "10.1007/BF01700692",
+			"accessed": "2026-09-30",
+			"url": "https://hirzels.com/martin/papers/canon00-goedel.pdf",
+			"note": "Read in Martin Hirzel's English translation of sections 1 and 2 (2000): the sketch of the proof, the sign numbers, and definitions 1 to 46"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Gödel's incompleteness theorems",
+			"url": "https://en.wikipedia.org/w/index.php?title=G%C3%B6del's_incompleteness_theorems&oldid=1376729115",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"note": "The Königsberg announcement, von Neumann's letter, Rosser, Gentzen, and Dawson's account of the conference"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Kurt Gödel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kurt_G%C3%B6del&oldid=1376030050",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"note": "Vienna, Princeton, Einstein and Morgenstern, and his death"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John von Neumann",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_von_Neumann&oldid=1377493162",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"note": "His letter on the second theorem, and Kelley's recollection"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hilbert's problems",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hilbert's_problems&oldid=1377414677",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"note": "Reid on Hilbert's anger, in its notes"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gödel numbering",
+			"url": "https://en.wikipedia.org/w/index.php?title=G%C3%B6del_numbering&oldid=1343580865",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-15"
+		},
+		{
+			"kind": "article",
+			"title": "Computing Machinery and Intelligence",
+			"authors": [
+				{
+					"family": "Turing",
+					"given": "A. M."
+				}
+			],
+			"container": "Mind",
+			"volume": "59",
+			"issue": "236",
+			"pages": "433–60",
+			"published": "1950-10",
+			"doi": "10.1093/mind/LIX.236.433",
+			"accessed": "2026-09-30",
+			"url": "https://courses.cs.umbc.edu/471/papers/turing.pdf",
+			"note": "Section 6, objection 3; read in a copy at UMBC"
+		},
+		{
+			"kind": "media",
+			"title": "Memorial plaque to Kurt Gödel, Josefstädter Straße 43–45, Vienna",
+			"url": "https://commons.wikimedia.org/wiki/File:GuentherZ_2012-04-14_0728_Wien08_Josefstaedterstrasse043_Gedenktafel_Goedel.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY 3.0",
+			"file": "goedel-plaque.jpg",
+			"authors": [
+				{
+					"name": "GuentherZ"
+				}
+			],
+			"published": "2012-04-14"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/turing-test",
+			"why": "Turing's 1950 paper answered \"the mathematical objection\", that Gödel's theorem limits machines and not minds, by replying that no one had proved minds free of such limits."
+		}
+	]
+}

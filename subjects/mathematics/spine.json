@@ -25,6 +25,12 @@
 			"frames": ["matrices", "monster"]
 		},
 		{
+			"id": "logic",
+			"title": "Logic and foundations",
+			"labelKind": "category",
+			"frames": ["hilbert-problems", "godel", "entscheidungsproblem"]
+		},
+		{
 			"id": "now",
 			"title": "Mathematics now",
 			"labelKind": "category",

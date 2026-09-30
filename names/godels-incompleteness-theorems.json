@@ -1,0 +1,9 @@
+{
+	"id": "godels-incompleteness-theorems",
+	"wikidata": "Q200787",
+	"name": "Gödel's incompleteness theorems",
+	"aliases": ["incompleteness theorems"],
+	"kind": "idea",
+	"description": "Kurt Gödel's theorems of 1931: a consistent formal system that contains arithmetic has true statements it cannot prove, and cannot prove its own consistency.",
+	"home": "mathematics/godel"
+}

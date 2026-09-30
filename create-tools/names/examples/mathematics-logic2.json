@@ -1,0 +1,30 @@
+{
+	"mathematics/hilbert-problems": [
+		["University of Göttingen", "university-of-gottingen"],
+		["International Congress of Mathematicians", "international-congress-of-mathematicians"],
+		["David Hilbert", "david-hilbert"],
+		["Hilbert's problems", "hilberts-problems"],
+		["Yuri Matiyasevich", "yuri-matiyasevich"],
+		["Hilbert's programme", "hilberts-program"],
+		["Königsberg", "konigsberg"]
+	],
+	"mathematics/godel": [
+		["Kurt Gödel", "kurt-godel"],
+		["John von Neumann", "john-von-neumann"],
+		["Gödel's incompleteness theorems", "godels-incompleteness-theorems"],
+		["Hilbert's programme", "hilberts-program"],
+		["Alan Turing", "alan-turing"],
+		["Institute for Advanced Study", "institute-for-advanced-study"],
+		["Albert Einstein", "albert-einstein"]
+	],
+	"mathematics/entscheidungsproblem": [
+		["David Hilbert", "david-hilbert"],
+		["Entscheidungsproblem", "entscheidungsproblem"],
+		["Alonzo Church", "alonzo-church"],
+		["lambda calculus", "lambda-calculus"],
+		["Alan Turing", "alan-turing"],
+		["Emil Post", "emil-leon-post"],
+		["Church–Turing thesis", "church-turing-thesis"],
+		["halting problem", "halting-problem"]
+	]
+}

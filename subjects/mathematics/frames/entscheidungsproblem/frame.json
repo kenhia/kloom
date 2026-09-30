@@ -1,0 +1,224 @@
+{
+	"id": "entscheidungsproblem",
+	"topic": "The Entscheidungsproblem answered",
+	"position": {
+		"label": "Computability"
+	},
+	"scene": {
+		"headline": "No procedure could",
+		"accent": "DECIDE.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GÖTTINGEN 1928 · PRINCETON · CAMBRIDGE · NEW YORK 1936",
+			"HILBERT AND ACKERMANN · CHURCH · TURING · POST"
+		],
+		"counter": {
+			"value": "3",
+			"label": "definitions of a procedure in 1936, all proved equivalent"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Church-Turing Thesis",
+			"authors": [
+				{
+					"family": "Copeland",
+					"given": "B. Jack"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"editors": [
+				{
+					"family": "Zalta",
+					"given": "Edward N."
+				},
+				{
+					"family": "Nodelman",
+					"given": "Uri"
+				}
+			],
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2023-12-18",
+			"url": "https://plato.stanford.edu/entries/church-turing/",
+			"accessed": "2026-09-30",
+			"note": "And its supplement \"The Rise and Fall of the Entscheidungsproblem\": Hilbert and Ackermann, Behmann, von Neumann, Hardy, Church's conclusion, Davis and Kleene"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Note on the Entscheidungsproblem",
+			"authors": [
+				{
+					"family": "Church",
+					"given": "Alonzo"
+				}
+			],
+			"container": "The Journal of Symbolic Logic",
+			"volume": "1",
+			"issue": "1",
+			"pages": "40–41",
+			"published": "1936-03",
+			"doi": "10.2307/2269326",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "An Unsolvable Problem of Elementary Number Theory",
+			"authors": [
+				{
+					"family": "Church",
+					"given": "Alonzo"
+				}
+			],
+			"container": "American Journal of Mathematics",
+			"volume": "58",
+			"issue": "2",
+			"pages": "345–63",
+			"published": "1936-04",
+			"doi": "10.2307/2371045",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+			"authors": [
+				{
+					"family": "Turing",
+					"given": "A. M."
+				}
+			],
+			"container": "Proceedings of the London Mathematical Society",
+			"volume": "s2-42",
+			"issue": "1",
+			"pages": "230–65",
+			"published": "1937",
+			"doi": "10.1112/plms/s2-42.1.230",
+			"url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+			"accessed": "2026-09-30",
+			"note": "Received 28 May 1936; section 8, the diagonal process, and section 11, the Entscheidungsproblem"
+		},
+		{
+			"kind": "article",
+			"title": "Finite Combinatory Processes—Formulation 1",
+			"authors": [
+				{
+					"family": "Post",
+					"given": "Emil L."
+				}
+			],
+			"container": "The Journal of Symbolic Logic",
+			"volume": "1",
+			"issue": "3",
+			"pages": "103–5",
+			"published": "1936-09",
+			"doi": "10.2307/2269031",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Church–Turing thesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Church%E2%80%93Turing_thesis&oldid=1375011838",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15",
+			"note": "Gödel's objection, Post's working hypothesis, Church's review, and Kleene's naming"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Entscheidungsproblem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Entscheidungsproblem&oldid=1375684114",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Halting problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Halting_problem&oldid=1374089520",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09",
+			"note": "The timeline, and the name from Martin Davis"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Post–Turing machine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Post%E2%80%93Turing_machine&oldid=1345557172",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-26",
+			"note": "Post's worker and boxes, received October 1936"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hilbert's tenth problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hilbert's_tenth_problem&oldid=1368996419",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "article",
+			"title": "Quantum Theory, the Church–Turing Principle and the Universal Quantum Computer",
+			"authors": [
+				{
+					"family": "Deutsch",
+					"given": "David"
+				}
+			],
+			"container": "Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences",
+			"volume": "400",
+			"issue": "1818",
+			"pages": "97–117",
+			"published": "1985-07-08",
+			"doi": "10.1098/rspa.1985.0070",
+			"accessed": "2026-09-30",
+			"note": "The abstract"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/turing-machine",
+			"why": "Turing's paper was one of the three answers to Hilbert's decision problem in 1936; the ai subject tells his machine, this frame the question and Church's and Post's answers beside it."
+		},
+		{
+			"to": "feynman/quantum-computers",
+			"why": "Deutsch's 1985 paper argued that the Church–Turing thesis hides a claim about physics, restated it as a principle, and defined the universal quantum computer against it."
+		}
+	]
+}
