@@ -1,0 +1,214 @@
+{
+	"id": "riemann-geometry",
+	"topic": "Riemann's curved spaces",
+	"position": {
+		"label": "Curved space"
+	},
+	"scene": {
+		"headline": "Space itself could",
+		"accent": "CURVE.",
+		"palette": "graphpaper",
+		"illustration": "scene.svg",
+		"metadata": ["GÖTTINGEN · THE HARZ · ZURICH", "GAUSS · RIEMANN · GROSSMANN · EINSTEIN"],
+		"counter": {
+			"value": "14.85″",
+			"label": "over 180°: the angles of Gauss's largest triangle"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "General Investigations of Curved Surfaces of 1827 and 1825",
+			"authors": [
+				{
+					"family": "Gauss",
+					"given": "Carl Friedrich"
+				}
+			],
+			"publisher": "Princeton University Library",
+			"place": "Princeton",
+			"published": "1902",
+			"url": "https://archive.org/details/generalinvestiga00gausuoft",
+			"accessed": "2026-09-30",
+			"note": "Translated by J. C. Morehead and A. M. Hiltebeitel. The remarkable theorem (art. 12), the angle excess (art. 20) and the Hohehagen–Brocken–Inselberg triangle (art. 28)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Hypotheses Which Lie at the Bases of Geometry",
+			"authors": [
+				{
+					"family": "Riemann",
+					"given": "Bernhard"
+				}
+			],
+			"container": "Nature",
+			"volume": "8",
+			"pages": "14–17, 36–37",
+			"published": "1873",
+			"url": "https://www.maths.tcd.ie/pub/HistMath/People/Riemann/Geom/WKCGeom.html",
+			"accessed": "2026-09-30",
+			"note": "Translated by W. K. Clifford; read in D. R. Wilkins's transcription"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Bernhard Riemann",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+			"accessed": "2026-09-30",
+			"note": "The three topics and Gauss's choice, and his response to the lecture"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Carl Friedrich Gauss",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_Friedrich_Gauss&oldid=1376853479",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"note": "The Hanover arc measurement, the heliotrope and the largest triangle"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theorema Egregium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theorema_Egregium&oldid=1364152253",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gaussian curvature",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gaussian_curvature&oldid=1373253994",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bernhard Riemann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bernhard_Riemann&oldid=1374483115",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Riemannian geometry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Riemannian_geometry&oldid=1365994663",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spherical trigonometry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spherical_trigonometry&oldid=1370877386",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marcel Grossmann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marcel_Grossmann&oldid=1372363219",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of general relativity",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_general_relativity&oldid=1333303507",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-16"
+		},
+		{
+			"kind": "media",
+			"title": "The plaque on the Brocken marking Gauss's largest triangle, Brocken – Hoher Hagen – Inselsberg",
+			"url": "https://commons.wikimedia.org/wiki/File:Brocken_Dreieck_Gedenktafel.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "brocken-plaque.jpg",
+			"authors": [
+				{
+					"name": "Doris Antony"
+				}
+			],
+			"published": "2008-09-26"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/general-relativity",
+			"why": "The geometry Grossmann taught Einstein in 1912 was Riemann's: general relativity made spacetime a curved manifold whose measure is set by the matter in it."
+		},
+		{
+			"to": "western-civ/metre-survey",
+			"why": "Gauss's survey of Hanover was an arc measurement of the same kind as Delambre and Méchain's, a chain of triangles to find the figure of the Earth, and it led him to curvature measured from inside a surface."
+		}
+	]
+}

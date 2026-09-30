@@ -40,7 +40,14 @@
 			"id": "geometry",
 			"title": "Geometry",
 			"labelKind": "category",
-			"frames": ["topology", "poincare-conjecture", "fractals"]
+			"frames": [
+				"perspective",
+				"non-euclidean",
+				"riemann-geometry",
+				"topology",
+				"poincare-conjecture",
+				"fractals"
+			]
 		},
 		{
 			"id": "logic",

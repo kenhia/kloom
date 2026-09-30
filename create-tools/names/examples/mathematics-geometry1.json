@@ -1,0 +1,32 @@
+{
+	"mathematics/perspective": [
+		["Filippo Brunelleschi", "filippo-brunelleschi"],
+		["Florence Baptistery", "florence-baptistery"],
+		["Leon Battista Alberti", "leon-battista-alberti"],
+		["Piero della Francesca", "piero-della-francesca"],
+		["Albrecht Dürer", "albrecht-durer"],
+		["Girard Desargues", "girard-desargues"],
+		["Jean-Victor Poncelet", "jean-victor-poncelet"],
+		["projective geometry", "projective-geometry"]
+	],
+	"mathematics/non-euclidean": [
+		["parallel postulate", "parallel-postulate"],
+		["Ibn al-Haytham", "ibn-al-haytham"],
+		["Giovanni Girolamo Saccheri", "giovanni-girolamo-saccheri"],
+		["Carl Friedrich Gauss", "carl-friedrich-gauss"],
+		["János Bolyai", "janos-bolyai"],
+		["Nikolai Lobachevsky", "nikolai-lobachevsky"],
+		["Henri Poincaré", "henri-poincare"],
+		["Eugenio Beltrami", "eugenio-beltrami"]
+	],
+	"mathematics/riemann-geometry": [
+		["Carl Friedrich Gauss", "carl-friedrich-gauss"],
+		["Bernhard Riemann", "bernhard-riemann"],
+		["Theorema Egregium", "theorema-egregium"],
+		["University of Göttingen", "university-of-gottingen"],
+		["Richard Dedekind", "richard-dedekind"],
+		["Einstein", "albert-einstein"],
+		["Marcel Grossmann", "marcel-grossmann"],
+		["Riemannian geometry", "riemannian-geometry"]
+	]
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M36 34 L254.2 262.9 M36 34 L140.1 239.8 M36 34 L253.1 166.8"/>
+		<path pathLength="1" d="M125.9 128.3 L367.5 266 M230.8 238.3 L367.5 266 M66.6 94.5 L54.2 266 M128.9 217.7 L54.2 266 M69.5 54.5 L231.1 266 M230.8 238.3 L231.1 266"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M28 266 L392 266"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M125.9 128.3 L66.6 94.5 L69.5 54.5 Z"/>
+		<path pathLength="1" d="M230.8 238.3 L128.9 217.7 L229.8 152.6 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M33.8 34 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M365.3 266 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M52 266 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M228.9 266 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="26" y="30" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="133.9" y="132.3" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">a</text>
+		<text x="57.6" y="96.5" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">b</text>
+		<text x="61.5" y="52.5" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">c</text>
+		<text x="239.8" y="244.3" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="118.9" y="221.7" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="237.8" y="147.6" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C</text>
+		<text x="392" y="258" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AXIS</text>
+	</g>
+</svg>

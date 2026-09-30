@@ -1,0 +1,217 @@
+{
+	"id": "non-euclidean",
+	"topic": "Non-Euclidean geometry",
+	"position": {
+		"label": "The parallel postulate"
+	},
+	"scene": {
+		"headline": "Triangles came up",
+		"accent": "SHORT.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MILAN · GÖTTINGEN · TEMESVÁR · KAZAN",
+			"SACCHERI · GAUSS · BOLYAI · LOBACHEVSKY · BELTRAMI"
+		],
+		"counter": {
+			"value": "< 180°",
+			"label": "the angles of every triangle, added up"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Non-Euclidean Geometry: A Critical and Historical Study of Its Development",
+			"authors": [
+				{
+					"family": "Bonola",
+					"given": "Roberto"
+				}
+			],
+			"publisher": "Open Court",
+			"place": "Chicago",
+			"published": "1912",
+			"url": "https://archive.org/details/noneuclideangeom00bonouoft",
+			"accessed": "2026-09-30",
+			"note": "Translated by H. S. Carslaw. Proclus, Saccheri's conclusion, Gauss's letters, Bolyai's letter of 1823 and Gauss's reply of 1832, Lobachevsky's lecture of 1826"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Non-Euclidean Geometry",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Non-Euclidean_geometry/",
+			"accessed": "2026-09-30",
+			"note": "Gauss's dates, d'Alembert's scandal, the appendix's 24 pages, Beltrami's pseudosphere"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Parallel postulate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Parallel_postulate&oldid=1367723621",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04",
+			"note": "Ibn al-Haytham's and Omar Khayyam's attempts"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Non-Euclidean geometry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Non-Euclidean_geometry&oldid=1360873892",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hyperbolic geometry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hyperbolic_geometry&oldid=1377554918",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Poincaré disk model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Poincar%C3%A9_disk_model&oldid=1334133907",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eugenio Beltrami",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eugenio_Beltrami&oldid=1371992603",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "János Bolyai",
+			"url": "https://en.wikipedia.org/w/index.php?title=J%C3%A1nos_Bolyai&oldid=1364542565",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nikolai Lobachevsky",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nikolai_Lobachevsky&oldid=1375161818",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Giovanni Girolamo Saccheri",
+			"url": "https://en.wikipedia.org/w/index.php?title=Giovanni_Girolamo_Saccheri&oldid=1374150604",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Saccheri quadrilateral",
+			"url": "https://en.wikipedia.org/w/index.php?title=Saccheri_quadrilateral&oldid=1358341263",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Omar Khayyam",
+			"url": "https://en.wikipedia.org/w/index.php?title=Omar_Khayyam&oldid=1377328228",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "The plate of figures from János Bolyai's Appendix to Farkas Bolyai's Tentamen (Marosvásárhely, 1831–32)",
+			"url": "https://commons.wikimedia.org/wiki/File:B%C3%B3lyai_appendix.jpg",
+			"accessed": "2026-09-30",
+			"container": "Hungarian Academy of Sciences Library, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "bolyai-appendix.jpg",
+			"authors": [
+				{
+					"name": "János Bolyai"
+				}
+			],
+			"published": "1831"
+		}
+	]
+}
