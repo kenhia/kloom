@@ -279,7 +279,7 @@
 		[
 			n.full,
 			n.detail,
-			n.id === view?.center ? 'centre' : null,
+			n.id === view?.center && view.target.view !== 'library' ? 'centre' : null,
 			n.id === `f:${here}` ? 'you are here' : null
 		]
 			.filter(Boolean)
