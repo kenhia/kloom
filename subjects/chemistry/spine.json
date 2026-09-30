@@ -7,6 +7,12 @@
 			"frames": ["copper-smelting", "tyrian-purple", "clay-recipes"]
 		},
 		{
+			"id": "alchemy",
+			"title": "Elements and alchemy",
+			"labelKind": "date",
+			"frames": ["jabir", "gunpowder", "mineral-acids"]
+		},
+		{
 			"id": "industry",
 			"title": "Industry",
 			"labelKind": "category",

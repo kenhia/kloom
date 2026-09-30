@@ -1,0 +1,31 @@
+{
+	"title": "Why nitric acid takes silver and leaves gold",
+	"description": "Bar chart of standard electrode potentials in volts, from Wikipedia's table of standard electrode potentials. Silver, Ag⁺/Ag, 0.80. Gold held by chloride, AuCl₄⁻/Au, 0.93. Nitrate, NO₃⁻/NO, 0.96, highlighted. Gold alone, Au³⁺/Au, 1.52. A metal whose potential lies below nitrate's is dissolved by nitric acid: silver is, gold alone is not, and gold with chloride just is.",
+	"heading": "STANDARD ELECTRODE POTENTIAL · VOLTS",
+	"unit": " V",
+	"width": 480,
+	"height": 300,
+	"barWidth": 64,
+	"axis": {
+		"max": 1.6,
+		"ticks": [
+			[0, "0"],
+			[0.4, "0.4"],
+			[0.8, "0.8"],
+			[1.2, "1.2"],
+			[1.6, "1.6"]
+		]
+	},
+	"bars": [
+		{ "label": "Silver", "sublabel": "Ag⁺/Ag", "value": 0.8, "display": "0.80" },
+		{ "label": "Gold + Cl⁻", "sublabel": "AuCl₄⁻/Au", "value": 0.93, "display": "0.93" },
+		{
+			"label": "Nitrate",
+			"sublabel": "NO₃⁻/NO",
+			"value": 0.96,
+			"display": "0.96",
+			"highlight": true
+		},
+		{ "label": "Gold", "sublabel": "Au³⁺/Au", "value": 1.52, "display": "1.52" }
+	]
+}

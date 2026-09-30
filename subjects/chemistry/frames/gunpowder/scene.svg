@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M87.5 224.3 L312.5 224.3 M300 246 L187.5 51.1 M100 246 L212.5 51.1 M100 202.7 L300 202.7 M275 246 L175 72.8 M125 246 L225 72.8 M112.5 181 L287.5 181 M250 246 L162.5 94.4 M150 246 L237.5 94.4 M125 159.4 L275 159.4 M225 246 L150 116.1 M175 246 L250 116.1 M137.5 137.7 L262.5 137.7 M200 246 L137.5 137.7 M200 246 L262.5 137.7 M150 116.1 L250 116.1 M175 246 L125 159.4 M225 246 L275 159.4 M162.5 94.4 L237.5 94.4 M150 246 L112.5 181 M250 246 L287.5 181 M175 72.8 L225 72.8 M125 246 L100 202.7 M275 246 L300 202.7 M187.5 51.1 L212.5 51.1 M100 246 L87.5 224.3 M300 246 L312.5 224.3"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M200 29.5 L75 246 L325 246 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M151.9 146.1 L171.2 112.8 L213.9 101.7 L206.2 83.6"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M148.7 146.1 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M168 112.8 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M210.7 101.7 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M196.8 156.9 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M197.2 84.1 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M203.1 83.6 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="142.9" y="150.1" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">808</text>
+		<text x="162.2" y="116.8" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1044</text>
+		<text x="221.9" y="109.7" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">c. 1300</text>
+		<text x="209" y="160.9" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HIME</text>
+		<text x="192.8" y="79.1" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EQUATION</text>
+		<text x="214.2" y="78.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1780</text>
+		<text x="200" y="21.5" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SALTPETRE KNO₃</text>
+		<text x="71" y="260" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SULFUR</text>
+		<text x="329" y="260" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CHARCOAL</text>
+		<text x="200" y="286" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2 KNO₃ + S + 3 C → K₂S + N₂ + 3 CO₂</text>
+	</g>
+</svg>
