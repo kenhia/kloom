@@ -1,0 +1,198 @@
+{
+	"id": "merton-calculators",
+	"topic": "The Merton mean speed theorem",
+	"position": {
+		"label": "c. 1330s",
+		"sort": 1335
+	},
+	"scene": {
+		"headline": "We gave speed a",
+		"accent": "SHAPE.",
+		"palette": "bronze",
+		"illustration": "scene.svg",
+		"metadata": ["OXFORD · MERTON COLLEGE · PARIS", "BRADWARDINE · HEYTESBURY · ORESME · BURIDAN"],
+		"counter": {
+			"value": "1 to 3",
+			"label": "distance in the first half of a uniform acceleration from rest, to the second"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "William Heytesbury",
+			"url": "https://plato.stanford.edu/entries/heytesbury/",
+			"accessed": "2026-09-29",
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2026-06-19",
+			"note": "§3.3.1 gives the Middle Degree Theorem in Heytesbury's words, and its corollaries",
+			"authors": [
+				{
+					"family": "Hanke",
+					"given": "Miroslav"
+				}
+			]
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Nicole Oresme",
+			"url": "https://plato.stanford.edu/entries/nicole-oresme/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Kirschner",
+					"given": "Stefan"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2025-12-17"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "John Buridan",
+			"url": "https://plato.stanford.edu/entries/buridan/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Zupko",
+					"given": "Jack"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2024-01-24"
+		},
+		{
+			"kind": "web",
+			"title": "Thomas Bradwardine",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bradwardine/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews"
+		},
+		{
+			"kind": "web",
+			"title": "Nicole Oresme",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Oresme/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"note": "Quoting Marshall Clagett's Dictionary of Scientific Biography entry"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Oxford Calculators",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oxford_Calculators&oldid=1375647768",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mean speed theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mean_speed_theorem&oldid=1354758943",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theory of impetus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theory_of_impetus&oldid=1359723780",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Swineshead",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Swineshead&oldid=1345980752",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Domingo de Soto",
+			"url": "https://en.wikipedia.org/w/index.php?title=Domingo_de_Soto&oldid=1374155684",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "media",
+			"title": "A page of the Tractatus de latitudinibus formarum, with figures of uniform and difform qualities",
+			"url": "https://commons.wikimedia.org/wiki/File:Oresme,_Nicole_-_1486_-_Tractatus_de_latitudinibus_formarum_-_diagrams.jpg",
+			"accessed": "2026-09-29",
+			"container": "Tractatus de latitudinibus formarum (Padua, 1486), printed under Nicole Oresme's name; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "latitudes-1486.jpg",
+			"published": "1486"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/aristotle-motion",
+			"why": "Buridan's impetus answered the thrown stone that Aristotle's air had to keep pushing, and Bradwardine's rule of speeds began as a repair of Aristotle's."
+		},
+		{
+			"to": "ai/leibniz",
+			"why": "The Calculators settled logic puzzles by calculation, and Leibniz, who hoped to settle every dispute that way, called Swineshead, 'the Calculator', almost the first to bring mathematics into philosophy."
+		}
+	]
+}

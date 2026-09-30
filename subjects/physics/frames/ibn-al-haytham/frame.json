@@ -1,0 +1,134 @@
+{
+	"id": "ibn-al-haytham",
+	"topic": "Ibn al-Haytham's Book of Optics",
+	"position": {
+		"label": "c. 1011–1021",
+		"sort": 1011
+	},
+	"scene": {
+		"headline": "We turned the rays",
+		"accent": "AROUND.",
+		"palette": "papyrus",
+		"illustration": "scene.svg",
+		"metadata": ["CAIRO · IBN AL-HAYTHAM (ALHAZEN)", "KITĀB AL-MANĀẒIR · DE ASPECTIBUS"],
+		"counter": {
+			"value": "7",
+			"label": "books in the Book of Optics"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ibn al-Haytham",
+			"url": "https://www.harvardmagazine.com/2003/09/ibn-al-haytham-html",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Sabra",
+					"given": "A. I."
+				}
+			],
+			"container": "Harvard Magazine",
+			"published": "2003-09",
+			"note": "The Cairo story, the Latin reception, and the Doubts in Sabra's translation"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Ibn al-Haytham",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ibn_al-Haytham&oldid=1377045578",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Book of Optics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Book_of_Optics&oldid=1360621045",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Camera obscura",
+			"url": "https://en.wikipedia.org/w/index.php?title=Camera_obscura&oldid=1376472181",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "web",
+			"title": "Abu Ali al-Hasan ibn al-Haytham",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Haytham/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews"
+		},
+		{
+			"kind": "web",
+			"title": "Nicolaus Copernicus",
+			"url": "https://plato.stanford.edu/entries/copernicus/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Rabin",
+					"given": "Sheila"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2023-09-29",
+			"note": "Quotes Ibn al-Haytham on Ptolemy's impossible arrangement, from Rosen 1984"
+		},
+		{
+			"kind": "media",
+			"title": "The eyes and optic nerves, from a copy of Ibn al-Haytham's Kitāb al-Manāẓir",
+			"url": "https://commons.wikimedia.org/wiki/File:Alhazen1652.png",
+			"accessed": "2026-09-29",
+			"container": "MS Fatih 3212, vol. 1, fol. 81b, Süleymaniye Library, Istanbul; via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "alhazen-eye.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/ptolemy",
+			"why": "Ibn al-Haytham's Doubts concerning Ptolemy attacked the Almagest's equant as an arrangement that could not exist, while his own Optics built on Ptolemy's."
+		},
+		{
+			"to": "feynman/principle-of-least-action",
+			"why": "Ibn al-Haytham explained refraction by light moving more slowly in denser bodies, the assumption from which Fermat derived the law of refraction in 1662."
+		}
+	]
+}

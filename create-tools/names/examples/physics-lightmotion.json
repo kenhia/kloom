@@ -1,0 +1,32 @@
+{
+	"physics/ibn-al-haytham": [
+		["Ibn\nal-Haytham", "ibn-al-haytham"],
+		["_Book of\nOptics_", "book-of-optics"],
+		["Cairo", "cairo"],
+		["Euclid", "euclid"],
+		["_camera\nobscura_", "camera-obscura"],
+		["Ptolemy", "ptolemy"],
+		["equant", "equant"],
+		["Friedrich Risner", "friedrich-risner"]
+	],
+	"physics/merton-calculators": [
+		["Merton College", "merton-college-oxford"],
+		["Oxford Calculators", "oxford-calculators"],
+		["Thomas Bradwardine", "thomas-bradwardine"],
+		["William Heytesbury", "william-of-heytesbury"],
+		["mean speed\ntheorem", "mean-speed-theorem"],
+		["Nicole Oresme", "nicole-oresme"],
+		["Jean Buridan", "jean-buridan"],
+		["_impetus_", "theory-of-impetus"]
+	],
+	"physics/copernicus": [
+		["Johannes Petreius", "johannes-petreius"],
+		["_De revolutionibus orbium coelestium_", "de-revolutionibus-orbium-coelestium"],
+		["Nicolaus Copernicus", "nicolaus-copernicus"],
+		["Commentariolus", "commentariolus"],
+		["Aristarchus of Samos", "aristarchus-of-samos"],
+		["Georg Joachim\nRheticus", "georg-joachim-rheticus"],
+		["Andreas\nOsiander", "andreas-osiander"],
+		["equant", "equant"]
+	]
+}

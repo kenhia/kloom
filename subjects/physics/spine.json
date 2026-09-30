@@ -7,6 +7,18 @@
 			"frames": ["aristotle-motion", "archimedes", "ptolemy"]
 		},
 		{
+			"id": "light-and-motion",
+			"title": "Light and motion",
+			"labelKind": "date",
+			"frames": ["ibn-al-haytham", "merton-calculators"]
+		},
+		{
+			"id": "new-science",
+			"title": "The new science",
+			"labelKind": "date",
+			"frames": ["copernicus"]
+		},
+		{
 			"id": "cracks",
 			"title": "Cracks in the classical",
 			"labelKind": "date",
