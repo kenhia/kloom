@@ -1,0 +1,26 @@
+{
+	"title": "The largest RSA challenge numbers factored, 1994–2026",
+	"description": "Bar chart of the number of decimal digits in record factorisations of RSA challenge numbers. RSA-129, April 1994: 129 digits. RSA-155, August 1999: 155. RSA-200, May 2005: 200. RSA-768, December 2009: 232. RSA-250, February 2020: 250. RSA-260, September 2026: 260. RSA-896, September 2026: 270. A 2048-bit key, still unfactored, has 617 digits. Data: RSA Laboratories' challenge list and the announcements.",
+	"heading": "DIGITS IN THE LARGEST RSA NUMBER FACTORED",
+	"unit": "",
+	"axis": {
+		"max": 330,
+		"ticks": [
+			[100, "100"],
+			[200, "200"],
+			[300, "300"]
+		]
+	},
+	"width": 580,
+	"height": 300,
+	"barWidth": 46,
+	"bars": [
+		{ "label": "RSA-129", "sublabel": "1994", "value": 129 },
+		{ "label": "RSA-155", "sublabel": "1999", "value": 155 },
+		{ "label": "RSA-200", "sublabel": "2005", "value": 200 },
+		{ "label": "RSA-768", "sublabel": "2009", "value": 232 },
+		{ "label": "RSA-250", "sublabel": "2020", "value": 250 },
+		{ "label": "RSA-260", "sublabel": "2026", "value": 260 },
+		{ "label": "RSA-896", "sublabel": "2026", "value": 270, "highlight": true }
+	]
+}

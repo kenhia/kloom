@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" role="img" aria-labelledby="t d">
+<title id="t">The largest RSA challenge numbers factored, 1994–2026</title>
+<desc id="d">Bar chart of the number of decimal digits in record factorisations of RSA challenge numbers. RSA-129, April 1994: 129 digits. RSA-155, August 1999: 155. RSA-200, May 2005: 200. RSA-768, December 2009: 232. RSA-250, February 2020: 250. RSA-260, September 2026: 260. RSA-896, September 2026: 270. A 2048-bit key, still unfactored, has 617 digits. Data: RSA Laboratories' challenge list and the announcements.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="560" y1="185.2" y2="185.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="189.2" text-anchor="end">100</text>
+<line x1="64" x2="560" y1="120.3" y2="120.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="124.3" text-anchor="end">200</text>
+<line x1="64" x2="560" y1="55.5" y2="55.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="59.5" text-anchor="end">300</text>
+</g>
+<rect x="76.4" y="166.3" width="46" height="83.7" fill-opacity="0.85"/>
+<text x="99.4" y="160.3" text-anchor="middle">129</text>
+<text x="99.4" y="266" text-anchor="middle">RSA-129</text>
+<text x="99.4" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1994</text>
+<rect x="147.3" y="149.5" width="46" height="100.5" fill-opacity="0.85"/>
+<text x="170.3" y="143.5" text-anchor="middle">155</text>
+<text x="170.3" y="266" text-anchor="middle">RSA-155</text>
+<text x="170.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1999</text>
+<rect x="218.1" y="120.3" width="46" height="129.7" fill-opacity="0.85"/>
+<text x="241.1" y="114.3" text-anchor="middle">200</text>
+<text x="241.1" y="266" text-anchor="middle">RSA-200</text>
+<text x="241.1" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2005</text>
+<rect x="289.0" y="99.6" width="46" height="150.4" fill-opacity="0.85"/>
+<text x="312.0" y="93.6" text-anchor="middle">232</text>
+<text x="312.0" y="266" text-anchor="middle">RSA-768</text>
+<text x="312.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2009</text>
+<rect x="359.9" y="87.9" width="46" height="162.1" fill-opacity="0.85"/>
+<text x="382.9" y="81.9" text-anchor="middle">250</text>
+<text x="382.9" y="266" text-anchor="middle">RSA-250</text>
+<text x="382.9" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2020</text>
+<rect x="430.7" y="81.4" width="46" height="168.6" fill-opacity="0.85"/>
+<text x="453.7" y="75.4" text-anchor="middle">260</text>
+<text x="453.7" y="266" text-anchor="middle">RSA-260</text>
+<text x="453.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2026</text>
+<rect x="501.6" y="74.9" width="46" height="175.1" class="accent" fill="currentColor"/>
+<text x="524.6" y="68.9" text-anchor="middle">270</text>
+<text x="524.6" y="266" text-anchor="middle">RSA-896</text>
+<text x="524.6" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">2026</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">DIGITS IN THE LARGEST RSA NUMBER FACTORED</text>
+</g></svg>

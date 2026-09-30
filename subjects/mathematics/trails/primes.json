@@ -8,7 +8,14 @@
 				"id": "primes",
 				"title": "The primes",
 				"labelKind": "date",
-				"frames": ["sieve-of-eratosthenes", "disquisitiones", "riemann-hypothesis"]
+				"frames": [
+					"sieve-of-eratosthenes",
+					"disquisitiones",
+					"riemann-hypothesis",
+					"prime-number-theorem",
+					"rsa",
+					"twin-primes"
+				]
 			}
 		]
 	}

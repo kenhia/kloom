@@ -1,0 +1,321 @@
+{
+	"id": "rsa",
+	"topic": "RSA and public-key cryptography",
+	"position": {
+		"label": "1977",
+		"sort": 1977
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We published the",
+		"accent": "LOCK.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": ["MIT · RIVEST · SHAMIR · ADLEMAN", "COMMUNICATIONS OF THE ACM · FEBRUARY 1978"],
+		"counter": {
+			"value": "617",
+			"label": "digits in a 2048-bit RSA key, still unfactored"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+			"authors": [
+				{
+					"family": "Rivest",
+					"given": "R. L."
+				},
+				{
+					"family": "Shamir",
+					"given": "A."
+				},
+				{
+					"family": "Adleman",
+					"given": "L."
+				}
+			],
+			"container": "Communications of the ACM",
+			"volume": "21",
+			"issue": "2",
+			"pages": "120–126",
+			"published": "1978-02",
+			"doi": "10.1145/359340.359342",
+			"url": "https://people.csail.mit.edu/rivest/Rsapaper.pdf",
+			"accessed": "2026-09-30",
+			"note": "The small example is in section VIII; received 4 April 1977"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mathematical Games: A New Kind of Cipher That Would Take Millions of Years to Break",
+			"authors": [
+				{
+					"family": "Gardner",
+					"given": "Martin"
+				}
+			],
+			"container": "Scientific American",
+			"volume": "237",
+			"issue": "2",
+			"pages": "120–124",
+			"published": "1977-08",
+			"doi": "10.1038/scientificamerican0877-120",
+			"url": "http://simson.net/ref/1977/Gardner_RSA.pdf",
+			"accessed": "2026-09-30",
+			"note": "The challenge and Rivest's 40 quadrillion years"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Magic Words Are Squeamish Ossifrage",
+			"authors": [
+				{
+					"family": "Atkins",
+					"given": "Derek"
+				},
+				{
+					"family": "Graff",
+					"given": "Michael"
+				},
+				{
+					"family": "Lenstra",
+					"given": "Arjen K."
+				},
+				{
+					"family": "Leyland",
+					"given": "Paul C."
+				}
+			],
+			"container": "Advances in Cryptology — ASIACRYPT '94",
+			"editors": [
+				{
+					"family": "Pieprzyk",
+					"given": "Josef"
+				},
+				{
+					"family": "Safavi-Naini",
+					"given": "Reihaneh"
+				}
+			],
+			"pages": "261–277",
+			"publisher": "Springer",
+			"place": "Berlin",
+			"published": "1995",
+			"doi": "10.1007/BFb0000440",
+			"url": "http://web.mit.edu/warlord/www/rsa129.ps",
+			"accessed": "2026-09-30",
+			"note": "Read in the extended abstract on Atkins's MIT page"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "RSA cryptosystem",
+			"url": "https://en.wikipedia.org/w/index.php?title=RSA_cryptosystem&oldid=1376868026",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"note": "The year of attempts and the Passover night, as told"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Note on \"Non-Secret Encryption\"",
+			"authors": [
+				{
+					"family": "Cocks",
+					"given": "C. C."
+				}
+			],
+			"publisher": "GCHQ",
+			"published": "1973-11-20",
+			"url": "https://www.gchq.gov.uk/sites/default/files/document_files/Cliff%20Cocks%20paper%2019731120.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Factoring RSA-260",
+			"authors": [
+				{
+					"family": "Lu",
+					"given": "Eric"
+				}
+			],
+			"container": "Cognition blog",
+			"publisher": "Cognition",
+			"published": "2026-09-09",
+			"url": "https://cognition.com/blog/factoring-rsa-260",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "RSA-896",
+			"authors": [
+				{
+					"family": "Weis",
+					"given": "Stephen A."
+				}
+			],
+			"published": "2026-09",
+			"url": "https://saweis.net/posts/rsa-896.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "RSA Challenge Numbers",
+			"publisher": "RSA Laboratories",
+			"url": "http://www.rsa.com/rsalabs/challenges/factoring/challengenumbers.txt",
+			"accessed": "2026-09-30",
+			"note": "Read in the Internet Archive's copy"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "RSA numbers",
+			"url": "https://en.wikipedia.org/w/index.php?title=RSA_numbers&oldid=1377711567",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Magic Words are Squeamish Ossifrage",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Magic_Words_are_Squeamish_Ossifrage&oldid=1298483296",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clifford Cocks",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clifford_Cocks&oldid=1363248457",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Diffie–Hellman key exchange",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diffie%E2%80%93Hellman_key_exchange&oldid=1376512836",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "article",
+			"title": "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+			"authors": [
+				{
+					"family": "Shor",
+					"given": "Peter W."
+				}
+			],
+			"container": "SIAM Journal on Computing",
+			"volume": "26",
+			"issue": "5",
+			"pages": "1484–1509",
+			"published": "1997",
+			"doi": "10.1137/S0097539795293172",
+			"url": "https://arxiv.org/abs/quant-ph/9508027",
+			"accessed": "2026-09-30",
+			"note": "The expanded version of Shor's 1994 paper; read in its arXiv abstract"
+		},
+		{
+			"kind": "web",
+			"title": "NIST Releases First 3 Finalized Post-Quantum Encryption Standards",
+			"container": "NIST News",
+			"publisher": "National Institute of Standards and Technology",
+			"published": "2024-08-13",
+			"url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "report",
+			"title": "Transition to Post-Quantum Cryptography Standards",
+			"authors": [
+				{
+					"family": "Moody",
+					"given": "Dustin"
+				},
+				{
+					"family": "Perlner",
+					"given": "Ray"
+				},
+				{
+					"family": "Regenscheid",
+					"given": "Andrew"
+				},
+				{
+					"family": "Robinson",
+					"given": "Angela"
+				},
+				{
+					"family": "Cooper",
+					"given": "David"
+				}
+			],
+			"number": "NIST IR 8547 ipd",
+			"publisher": "National Institute of Standards and Technology",
+			"place": "Gaithersburg, MD",
+			"published": "2024-11",
+			"doi": "10.6028/NIST.IR.8547.ipd",
+			"accessed": "2026-09-30",
+			"note": "Initial public draft"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: the largest RSA challenge numbers factored, 1994–2026",
+			"url": "https://en.wikipedia.org/w/index.php?title=RSA_numbers&oldid=1377711567",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from the dates in Wikipedia's list of RSA numbers",
+			"licence": "MIT",
+			"file": "factoring-records.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/security",
+			"why": "The security frame works Diffie and Hellman's 1976 key exchange and tells of Cocks's secret version at GCHQ; RSA, published by Rivest, Shamir and Adleman in 1977, was the first public lock in print."
+		},
+		{
+			"to": "computing/tls",
+			"why": "TLS is how the web uses public-key cryptography today, and it is already adding ML-KEM, one of the post-quantum standards NIST published in August 2024 against a quantum attack on RSA-style keys."
+		},
+		{
+			"to": "feynman/quantum-computing-now",
+			"why": "Shor's 1994 algorithm would let a large quantum computer factor RSA's modulus; that frame charts the estimates of how many qubits a 2048-bit key would take."
+		}
+	]
+}

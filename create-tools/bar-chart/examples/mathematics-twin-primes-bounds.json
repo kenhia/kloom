@@ -1,0 +1,35 @@
+{
+	"title": "Proven bounds on the smallest gap between primes that recurs forever, 2013–2026",
+	"description": "Bar chart on a logarithmic scale of the proven upper bound on the least gap between consecutive primes that occurs infinitely often. Zhang (April 2013): 70,000,000. Polymath8a (2013): 4,680. Maynard (November 2013): 600. Polymath8b (2014): 246. Stadlmann (preprint, August 2026): 240. Charton and others at Axiom Math (preliminary draft, September 2026): 212. The twin prime conjecture would make it 2. The last two had not been refereed on 30 September 2026. Data: the papers and preprints.",
+	"heading": "PROVEN BOUND ON A GAP THAT RECURS FOREVER · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 1,
+		"max": 1000000000,
+		"ticks": [
+			[10, "10"],
+			[1000, "1,000"],
+			[100000, "100,000"],
+			[10000000, "10 M"]
+		]
+	},
+	"width": 600,
+	"height": 300,
+	"barWidth": 46,
+	"bars": [
+		{ "label": "Zhang", "sublabel": "2013", "value": 70000000, "display": "70 M" },
+		{ "label": "Polymath8a", "sublabel": "2013", "value": 4680, "display": "4,680" },
+		{ "label": "Maynard", "sublabel": "2013", "value": 600, "display": "600" },
+		{
+			"label": "Polymath8b",
+			"sublabel": "2014",
+			"value": 246,
+			"display": "246",
+			"highlight": true
+		},
+		{ "label": "Stadlmann", "sublabel": "2026 preprint", "value": 240, "display": "240" },
+		{ "label": "Axiom", "sublabel": "2026 draft", "value": 212, "display": "212" },
+		{ "label": "Twins", "sublabel": "conjecture", "value": 2, "display": "2" }
+	]
+}

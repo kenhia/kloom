@@ -1,0 +1,219 @@
+{
+	"id": "twin-primes",
+	"topic": "Bounded gaps between primes",
+	"position": {
+		"label": "2013",
+		"sort": 2013
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We put a ceiling on the",
+		"accent": "GAP.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"UNIVERSITY OF NEW HAMPSHIRE · YITANG ZHANG",
+			"ANNALS OF MATHEMATICS · MAYNARD · POLYMATH"
+		],
+		"counter": {
+			"value": "246",
+			"label": "the refereed bound on a gap that recurs forever"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Twin prime",
+			"url": "https://en.wikipedia.org/w/index.php?title=Twin_prime&oldid=1375471849",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18",
+			"note": "De Polignac's 1849 statement, Hardy and Littlewood's estimate, and the largest pair"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Unheralded Mathematician Bridges the Prime Gap",
+			"authors": [
+				{
+					"family": "Klarreich",
+					"given": "Erica"
+				}
+			],
+			"container": "Quanta Magazine",
+			"publisher": "Simons Foundation",
+			"published": "2013-05-19",
+			"url": "https://www.quantamagazine.org/yitang-zhang-proves-landmark-theorem-in-distribution-of-prime-numbers-20130519/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Variants of the Selberg Sieve, and Bounded Intervals Containing Many Primes",
+			"authors": [
+				{
+					"name": "D. H. J. Polymath"
+				}
+			],
+			"container": "Research in the Mathematical Sciences",
+			"volume": "1",
+			"pages": "12",
+			"published": "2014",
+			"doi": "10.1186/s40687-014-0012-7",
+			"url": "https://arxiv.org/abs/1407.4897",
+			"accessed": "2026-09-30",
+			"note": "Theorem 1.4 and the admissible 50-tuple of figure 1; read in arXiv version 4"
+		},
+		{
+			"kind": "article",
+			"title": "Small Gaps between Primes",
+			"authors": [
+				{
+					"family": "Maynard",
+					"given": "James"
+				}
+			],
+			"container": "arXiv preprint arXiv:1311.4600",
+			"published": "2013-11-19",
+			"url": "https://arxiv.org/abs/1311.4600",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Bounded Gaps between Primes",
+			"authors": [
+				{
+					"family": "Stadlmann",
+					"given": "Julia"
+				}
+			],
+			"container": "arXiv preprint arXiv:2608.31126",
+			"published": "2026-08-31",
+			"url": "https://arxiv.org/abs/2608.31126",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "A New Bound for Small Gaps between Primes",
+			"authors": [
+				{
+					"family": "Charton",
+					"given": "François"
+				},
+				{
+					"family": "Hong",
+					"given": "Letong"
+				},
+				{
+					"family": "Lau",
+					"given": "Kenny"
+				},
+				{
+					"family": "Ono",
+					"given": "Ken"
+				},
+				{
+					"family": "Remy",
+					"given": "Guillaume"
+				},
+				{
+					"family": "Siu",
+					"given": "Ho Chung"
+				},
+				{
+					"family": "Swaminathan",
+					"given": "Ashvin A."
+				}
+			],
+			"etAl": true,
+			"container": "Axiom Math",
+			"published": "2026-09-03",
+			"url": "https://primegaps.axiommath.ai/bgp212.pdf",
+			"accessed": "2026-09-30",
+			"note": "Preliminary draft; appendix A describes the Lean certificate"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yitang Zhang",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yitang_Zhang&oldid=1374269034",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Brun's theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Brun's_theorem&oldid=1376854128",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polymath Project",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polymath_Project&oldid=1361277534",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-26"
+		},
+		{
+			"kind": "web",
+			"title": "Twin Primes",
+			"container": "The Prime Pages: Top 20",
+			"url": "https://t5k.org/top20/page.php?id=1",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Yitang Zhang, in a Voice of America interview",
+			"url": "https://commons.wikimedia.org/wiki/File:Yitang_Zhang.jpg",
+			"accessed": "2026-09-30",
+			"container": "Voice of America, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "yitang-zhang.jpg",
+			"authors": [
+				{
+					"name": "Voice of America"
+				}
+			],
+			"published": "2013-12",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "Chart: proven bounds on a gap between primes that recurs forever, 2013–2026",
+			"url": "https://arxiv.org/abs/1407.4897",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from Zhang, Polymath, Maynard, Stadlmann and Axiom Math",
+			"licence": "MIT",
+			"file": "gap-bounds.svg"
+		}
+	]
+}

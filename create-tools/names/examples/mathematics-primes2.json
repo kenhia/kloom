@@ -1,0 +1,31 @@
+{
+	"mathematics/prime-number-theorem": [
+		["prime number theorem", "prime-number-theorem"],
+		["Carl Friedrich Gauss", "carl-friedrich-gauss"],
+		["Adrien-Marie Legendre", "adrien-marie-legendre"],
+		["Pafnuty Chebyshev", "pafnuty-chebyshev"],
+		["Jacques Hadamard", "jacques-hadamard"],
+		["Charles-Jean de la Vallée Poussin", "charles-jean-de-la-vallee-poussin"],
+		["Atle Selberg", "atle-selberg"],
+		["Paul Erdős", "paul-erdos"]
+	],
+	"mathematics/rsa": [
+		["Whitfield Diffie", "whitfield-diffie"],
+		["public-key cryptography", "public-key-cryptography"],
+		["Ron Rivest", "ron-rivest"],
+		["Adi Shamir", "adi-shamir"],
+		["Leonard Adleman", "leonard-adleman"],
+		["RSA", "rsa-cryptosystem"],
+		["Clifford Cocks", "clifford-cocks"],
+		["Peter Shor", "peter-shor"]
+	],
+	"mathematics/twin-primes": [
+		["Twin primes", "twin-prime"],
+		["Viggo Brun", "viggo-brun"],
+		["Yitang Zhang", "yitang-zhang"],
+		["Terence Tao", "terence-tao"],
+		["Polymath Project", "polymath-project"],
+		["James Maynard", "james-maynard-mathematician"],
+		["Julia Stadlmann", "julia-stadlmann"]
+	]
+}
