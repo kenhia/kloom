@@ -1,0 +1,258 @@
+{
+	"id": "wiles",
+	"topic": "Andrew Wiles's proof",
+	"asOf": "2026-09-30",
+	"position": {
+		"label": "1993–1995",
+		"sort": 1994
+	},
+	"scene": {
+		"headline": "Fermat was finally proved",
+		"accent": "RIGHT.",
+		"palette": "blackboard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PRINCETON · ISAAC NEWTON INSTITUTE, CAMBRIDGE",
+			"ANDREW WILES · RICHARD TAYLOR",
+			"ANNALS OF MATHEMATICS 141 · MAY 1995"
+		],
+		"counter": {
+			"value": "358",
+			"label": "years from Fermat's note to the published proof"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Modular Elliptic Curves and Fermat's Last Theorem",
+			"authors": [
+				{
+					"family": "Wiles",
+					"given": "Andrew"
+				}
+			],
+			"container": "Annals of Mathematics",
+			"volume": "141",
+			"issue": "3",
+			"pages": "443–551",
+			"published": "1995-05",
+			"doi": "10.2307/2118559",
+			"url": "https://sites.math.rutgers.edu/~zeilberg/EM22/AW1995.pdf",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "The history of the proof in the author's own words, pp. 449–452 (read in a copy of pp. 443–452)"
+		},
+		{
+			"kind": "article",
+			"title": "Ring-Theoretic Properties of Certain Hecke Algebras",
+			"authors": [
+				{
+					"family": "Taylor",
+					"given": "Richard"
+				},
+				{
+					"family": "Wiles",
+					"given": "Andrew"
+				}
+			],
+			"container": "Annals of Mathematics",
+			"volume": "141",
+			"issue": "3",
+			"pages": "553–572",
+			"published": "1995-05",
+			"doi": "10.2307/2118560",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "The Proof",
+			"container": "NOVA",
+			"publisher": "WGBH Boston and PBS",
+			"published": "1997-10-28",
+			"url": "https://www.pbs.org/wgbh/nova/transcripts/2414proof.html",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Wiles's, Katz's and Coates's own tellings of 1993–94"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Wiles's proof of Fermat's Last Theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wiles's_proof_of_Fermat's_Last_Theorem&oldid=1376527527",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "article",
+			"title": "From the Taniyama-Shimura Conjecture to Fermat's Last Theorem",
+			"authors": [
+				{
+					"family": "Ribet",
+					"given": "Kenneth A."
+				}
+			],
+			"container": "Annales de la Faculté des sciences de Toulouse",
+			"volume": "11",
+			"issue": "1",
+			"pages": "116–139",
+			"published": "1990",
+			"url": "http://www.numdam.org/item/AFST_1990_5_11_1_116_0/",
+			"accessed": "2026-09-30",
+			"note": "No form at level 2: the space has dimension g(2) = 0, and g(11) = 1"
+		},
+		{
+			"kind": "web",
+			"title": "Fermat's Last Theorem",
+			"authors": [
+				{
+					"family": "Sutherland",
+					"given": "Andrew V."
+				}
+			],
+			"container": "18.783 Elliptic Curves, lecture notes 25",
+			"publisher": "Massachusetts Institute of Technology",
+			"published": "2023-12-12",
+			"url": "https://math.mit.edu/classes/18.783/2023/LectureNotes25.pdf",
+			"accessed": "2026-09-30",
+			"note": "dim S₂(Γ₀(2)) = g(X₀(2)) = 0"
+		},
+		{
+			"kind": "article",
+			"title": "On the Modularity of Elliptic Curves over Q: Wild 3-Adic Exercises",
+			"authors": [
+				{
+					"family": "Breuil",
+					"given": "Christophe"
+				},
+				{
+					"family": "Conrad",
+					"given": "Brian"
+				},
+				{
+					"family": "Diamond",
+					"given": "Fred"
+				},
+				{
+					"family": "Taylor",
+					"given": "Richard"
+				}
+			],
+			"container": "Journal of the American Mathematical Society",
+			"volume": "14",
+			"issue": "4",
+			"pages": "843–939",
+			"published": "2001",
+			"doi": "10.1090/S0894-0347-01-00370-8",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Formalizing Fermat's Last Theorem",
+			"container": "Anthropic",
+			"publisher": "Anthropic",
+			"published": "2026-09-04",
+			"url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "FLT: Anthropic Has Beaten Me to It",
+			"authors": [
+				{
+					"family": "Buzzard",
+					"given": "Kevin"
+				}
+			],
+			"container": "Xena",
+			"published": "2026-09-04",
+			"url": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Andrew Wiles",
+			"url": "https://en.wikipedia.org/w/index.php?title=Andrew_Wiles&oldid=1374729417",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kevin Buzzard",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kevin_Buzzard&oldid=1372019543",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lean (proof assistant)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lean_(proof_assistant)&oldid=1374563227",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isaac Newton Institute",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isaac_Newton_Institute&oldid=1359313719",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-14"
+		},
+		{
+			"kind": "media",
+			"title": "Andrew Wiles at a conference in Boston in 1995",
+			"url": "https://commons.wikimedia.org/wiki/File:Andrew_Wiles,_Boston_1995.JPG",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "wiles-1995.jpg",
+			"authors": [
+				{
+					"name": "Klaus Barner"
+				}
+			],
+			"published": "1995"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/agents",
+			"why": "In August 2026 dozens of Claude agents, run by a harness built on Claude Code, wrote the first complete machine-checked proof of Fermat's Last Theorem in eleven days."
+		}
+	]
+}

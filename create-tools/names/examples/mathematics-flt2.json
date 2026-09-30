@@ -1,0 +1,31 @@
+{
+	"mathematics/kummer-ideals": [
+		["Academy of Sciences", "french-academy-of-sciences"],
+		["Gabriel Lamé", "gabriel-lame"],
+		["Fermat's Last Theorem", "fermats-last-theorem"],
+		["Joseph Liouville", "joseph-liouville"],
+		["Augustin-Louis Cauchy", "augustin-louis-cauchy"],
+		["Ernst Kummer", "ernst-kummer"],
+		["Richard Dedekind", "richard-dedekind"]
+	],
+	"mathematics/taniyama-shimura": [
+		["Yutaka Taniyama", "yutaka-taniyama"],
+		["André Weil", "andre-weil"],
+		["Jean-Pierre Serre", "jean-pierre-serre"],
+		["Goro Shimura", "goro-shimura"],
+		["elliptic curve", "elliptic-curve"],
+		["Gerhard Frey", "gerhard-frey-mathematician"],
+		["modularity theorem", "modularity-theorem"],
+		["Ken Ribet", "ken-ribet"]
+	],
+	"mathematics/wiles": [
+		["Andrew Wiles", "andrew-wiles"],
+		["Princeton", "princeton-university"],
+		["Nick Katz", "nick-katz"],
+		["Isaac Newton Institute", "isaac-newton-institute"],
+		["Richard Taylor", "richard-taylor-mathematician"],
+		["Kevin Buzzard", "kevin-buzzard"],
+		["Lean", "lean-proof-assistant"],
+		["Anthropic", "anthropic"]
+	]
+}

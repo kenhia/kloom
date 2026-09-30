@@ -1,0 +1,8 @@
+{
+	"id": "elliptic-curve",
+	"wikidata": "Q268493",
+	"name": "Elliptic curve",
+	"aliases": ["elliptic curves"],
+	"kind": "idea",
+	"description": "A curve y² = cubic in x whose points can be added by a chord-and-tangent rule; central to number theory, to Wiles's proof and to modern cryptography."
+}

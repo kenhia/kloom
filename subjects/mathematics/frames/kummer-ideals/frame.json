@@ -1,0 +1,249 @@
+{
+	"id": "kummer-ideals",
+	"topic": "Kummer's ideal numbers",
+	"position": {
+		"label": "1847",
+		"sort": 1847
+	},
+	"scene": {
+		"headline": "We rescued the primes with",
+		"accent": "IDEALS.",
+		"palette": "oakgall",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · BRESLAU · 1847",
+			"LAMÉ · LIOUVILLE · CAUCHY · KUMMER",
+			"CYCLOTOMIC INTEGERS · IDEAL NUMBERS"
+		],
+		"counter": {
+			"value": "21 of 24",
+			"label": "odd primes below 100 whose case Kummer's 1850 theorem settled"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Démonstration générale du théorème de Fermat, sur l'impossibilité, en nombres entiers, de l'équation xⁿ + yⁿ = zⁿ",
+			"authors": [
+				{
+					"family": "Lamé",
+					"given": "Gabriel"
+				}
+			],
+			"container": "Comptes rendus hebdomadaires des séances de l'Académie des sciences",
+			"volume": "24",
+			"pages": "310–315",
+			"published": "1847-03",
+			"url": "https://archive.org/details/comptesrendusheb24acad/page/n319",
+			"accessed": "2026-09-30",
+			"note": "Read at the sitting of 1 March 1847; Liouville's observations and Cauchy's reply follow on pp. 315–316"
+		},
+		{
+			"kind": "article",
+			"title": "Observations de M. Liouville",
+			"authors": [
+				{
+					"family": "Liouville",
+					"given": "Joseph"
+				}
+			],
+			"container": "Comptes rendus hebdomadaires des séances de l'Académie des sciences",
+			"volume": "24",
+			"pages": "315–316",
+			"published": "1847-03",
+			"url": "https://archive.org/details/comptesrendusheb24acad/page/n324",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Sur la théorie des nombres complexes (extrait d'une lettre de M. Kummer à M. Liouville)",
+			"authors": [
+				{
+					"family": "Kummer",
+					"given": "Ernst Eduard"
+				}
+			],
+			"container": "Comptes rendus hebdomadaires des séances de l'Académie des sciences",
+			"volume": "24",
+			"pages": "899–900",
+			"published": "1847-05",
+			"url": "https://archive.org/details/comptesrendusheb24acad",
+			"accessed": "2026-09-30",
+			"note": "Dated Breslau, 28 April 1847; printed with the sitting of 24 May, which also holds Lamé's third memoir (p. 888). The sealed envelopes of 22 March are in the same volume"
+		},
+		{
+			"kind": "article",
+			"title": "Rapport sur le concours relatif au théorème de Fermat",
+			"authors": [
+				{
+					"family": "Cauchy",
+					"given": "Augustin-Louis"
+				}
+			],
+			"container": "Comptes rendus hebdomadaires des séances de l'Académie des sciences",
+			"volume": "44",
+			"pages": "208",
+			"published": "1857-02",
+			"url": "https://archive.org/details/comptesrendusheb44sean",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Ideal number",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ideal_number&oldid=1321800964",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-12",
+			"note": "Kummer's 1844 memoir, Hensel's 1910 story and Edwards's doubts about it"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Regular prime",
+			"url": "https://en.wikipedia.org/w/index.php?title=Regular_prime&oldid=1365822533",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fermat's Last Theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fermat's_Last_Theorem&oldid=1376715832",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dedekind domain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dedekind_domain&oldid=1355439641",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ideal (ring theory)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ideal_(ring_theory)&oldid=1363414311",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Dedekind",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Dedekind&oldid=1371988861",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ernst Kummer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ernst_Kummer&oldid=1371992022",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "book",
+			"title": "Vorlesungen über Zahlentheorie",
+			"authors": [
+				{
+					"family": "Lejeune Dirichlet",
+					"given": "Peter Gustav"
+				}
+			],
+			"editors": [
+				{
+					"family": "Dedekind",
+					"given": "Richard"
+				}
+			],
+			"publisher": "Friedrich Vieweg und Sohn",
+			"place": "Braunschweig",
+			"published": "1894",
+			"url": "https://archive.org/details/vorlesungenber00lejeuoft",
+			"accessed": "2026-09-30",
+			"note": "Fourth edition. Supplement XI, §§176–177: the example 21 = 3 × 7 and the definition of an ideal"
+		},
+		{
+			"kind": "web",
+			"title": "Ernst Eduard Kummer",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "John J."
+				},
+				{
+					"family": "Robertson",
+					"given": "Edmund F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kummer/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "The head of Lamé's note of 1 March 1847, page 310 of the Comptes rendus, volume 24",
+			"url": "https://archive.org/details/comptesrendusheb24acad/page/n319",
+			"accessed": "2026-09-30",
+			"container": "Académie des sciences, scanned by the Biodiversity Heritage Library from the Natural History Museum Library, London, via the Internet Archive",
+			"licence": "Public domain",
+			"file": "lame-1847.jpg",
+			"authors": [
+				{
+					"family": "Lamé",
+					"given": "Gabriel"
+				}
+			],
+			"published": "1847"
+		}
+	]
+}
