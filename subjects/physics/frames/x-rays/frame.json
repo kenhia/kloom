@@ -1,0 +1,255 @@
+{
+	"id": "x-rays",
+	"topic": "X-rays and radioactivity",
+	"position": {
+		"label": "1895–1898",
+		"sort": 1895
+	},
+	"scene": {
+		"headline": "We saw our own",
+		"accent": "BONES.",
+		"palette": "foolscap",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WÜRZBURG · PARIS · RÖNTGEN · BECQUEREL · THE CURIES",
+			"X-RAYS · URANIUM RAYS · POLONIUM · RADIUM"
+		],
+		"counter": {
+			"value": "1,044",
+			"label": "articles on the new rays in 1896, by Otto Glasser's count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On a New Kind of Rays",
+			"doi": "10.1038/053274b0",
+			"url": "https://www.nature.com/articles/053274b0",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Röntgen",
+					"given": "W. C."
+				}
+			],
+			"container": "Nature",
+			"volume": "53",
+			"pages": "274–276",
+			"published": "1896-01-23",
+			"note": "An English translation of Röntgen's paper; only its first paragraph, the shield of black paper and the glow at two metres, was read"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Pierre Curie",
+			"url": "https://en.wikisource.org/wiki/Pierre_Curie/Chapter_5",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Curie",
+					"given": "Marie"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "New York",
+			"published": "1923",
+			"note": "Translated by Charlotte and Vernon Kellogg; chapter V, read on Wikisource, tells the discovery of radium in her own words"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "X-ray",
+			"url": "https://en.wikipedia.org/w/index.php?title=X-ray&oldid=1369977424",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wilhelm Röntgen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wilhelm_R%C3%B6ntgen&oldid=1377529155",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Henri Becquerel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henri_Becquerel&oldid=1377509069",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"note": "Becquerel's reports to the Academy of Sciences in 1896, quoted in translation"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marie Curie",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marie_Curie&oldid=1377371733",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre Curie",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre_Curie&oldid=1377301153",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Radioactive decay",
+			"url": "https://en.wikipedia.org/w/index.php?title=Radioactive_decay&oldid=1377221715",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Radium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Radium&oldid=1376502397",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polonium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polonium&oldid=1377508014",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clarence Madison Dally",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clarence_Madison_Dally&oldid=1372130450",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "X-ray crystallography",
+			"url": "https://en.wikipedia.org/w/index.php?title=X-ray_crystallography&oldid=1376715462",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ernest Rutherford",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ernest_Rutherford&oldid=1375284835",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "media",
+			"title": "Hand mit Ringen: Röntgen's print of an X-ray of his wife's left hand, presented to Ludwig Zehnder on 1 January 1896",
+			"url": "https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg",
+			"accessed": "2026-09-29",
+			"container": "Wellcome Collection, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "hand.jpg",
+			"authors": [
+				{
+					"family": "Röntgen",
+					"given": "Wilhelm"
+				}
+			],
+			"published": "1895-12-22"
+		},
+		{
+			"kind": "media",
+			"title": "Becquerel's photographic plate of 1896, fogged by a uranium salt, with the shadow of a metal cross",
+			"url": "https://commons.wikimedia.org/wiki/File:Becquerel_plate.jpg",
+			"accessed": "2026-09-29",
+			"container": "Via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "becquerel-plate.jpg",
+			"authors": [
+				{
+					"family": "Becquerel",
+					"given": "Henri"
+				}
+			],
+			"published": "1896"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/dna",
+			"why": "Laue's diffraction of X-rays by crystals in 1912 became X-ray crystallography, the method Rosalind Franklin used to take Photo 51."
+		}
+	]
+}

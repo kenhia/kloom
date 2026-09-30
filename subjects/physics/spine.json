@@ -5,6 +5,12 @@
 			"title": "The Greeks",
 			"labelKind": "date",
 			"frames": ["aristotle-motion", "archimedes", "ptolemy"]
+		},
+		{
+			"id": "cracks",
+			"title": "Cracks in the classical",
+			"labelKind": "date",
+			"frames": ["michelson-morley", "x-rays", "electron"]
 		}
 	]
 }
