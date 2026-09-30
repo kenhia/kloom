@@ -118,9 +118,9 @@ describe('the shell', () => {
 		expect(page().body).toMatch(/<button type="submit"[^>]*>\s*Ask\s*<\/button>/);
 	});
 
-	it('says in the hint bar that S, T and C act from the spine or narrative only', () => {
+	it('says in the hint bar that S, T, C and M act from the spine or narrative only', () => {
 		const hint = said(page().body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
-		expect(hint).toContain('S sync, T trail and C contents, in the spine or narrative');
+		expect(hint).toContain('S sync, T trail, C contents and M map, in the spine or narrative');
 	});
 
 	it('opens on a start screen, with the shell inert behind it', () => {
@@ -447,6 +447,20 @@ describe('reader data on the page', () => {
 		const inTrail = withReader({}, trail.spine.segments[0].frames[0]);
 		expect(text(inTrail)).toContain('Main story');
 		expect(text(inTrail)).toContain(trail.title);
+	});
+});
+
+describe('the map', () => {
+	it('opens from the spine, beside the contents, and from the start screen', () => {
+		const { body } = page();
+		const button = body.match(/<button[^>]*title="Map \(M\)"[^>]*>/)![0];
+		expect(button).toContain('aria-haspopup="dialog"');
+		expect(body.indexOf('title="Map (M)"')).toBeGreaterThan(body.indexOf('title="Contents (C)"'));
+		expect(body.indexOf('title="Map (M)"')).toBeLessThan(body.indexOf('class="index'));
+		expect(body).toMatch(/<button[^>]*class="map-button[^>]*>\s*Map of the library/);
+		// A closed modal until it is opened; the page stands its keys down inside it.
+		expect(body).toMatch(/<dialog[^>]*class="map [^"]*"[^>]*data-own-keys/);
+		expect(body).not.toMatch(/<dialog[^>]*class="map[^>]*open/);
 	});
 });
 

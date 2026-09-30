@@ -544,20 +544,21 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   when the reader has turned following off); B bookmarks the frame on the
   spine, or removes its bookmark (§Reader data); N adds a note (§Notes);
   A annotates words of the reading (§Annotations); C opens the table of
-  contents (§Contents); R goes back after a jump (§Connections); Tab moves into
+  contents (§Contents); R goes back after a jump (§Connections); M opens the
+  map (§The map); Tab moves into
   and out of the AI pane, and Esc anywhere in it returns to the spine. In the
   tabs layout, the arrows on a tab move between the tabs, and on a divider
   they move the divider (§Layout). Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
 - **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
-  T, B, N, A, C and R act only while focus is inside the spine, the narrative or the
+  T, B, N, A, C, R and M act only while focus is inside the spine, the narrative or the
   notes. They do nothing in the AI pane, in the settings panel, in the note
   editor, or on the bare page.
 - **And remappable** (WCAG 2.1.4's other remedy, sprint 011, korg 3363).
   Each character shortcut is a setting under "Keys": any letter, or Off
   (`kloom.key.sync`, `.trail`, `.bookmark`, `.note`, `.annotate`,
-  `.contents`, `.back`). `keymapOf` turns the
+  `.contents`, `.back`, `.map`). `keymapOf` turns the
   settings into a keymap and `pageKey` reads it. The help bar, the Add a note
   button, the trail buttons and the sync line all show the reader's letters,
   and leave a key out when it is off. A letter given to two shortcuts is
@@ -622,7 +623,7 @@ Ken's, in the 2026-09-29 comment on korg 3399). The subjects touch each
 other everywhere, in two ways: the same thing appears in two subjects (the
 IBM 704, Project MAC, Bletchley Park), and an idea connects two frames
 (softmax is the Boltzmann distribution; desktop publishing is the next
-printing press). kloom has a layer for each. The graph view is phase 3.
+printing press). kloom has a layer for each. The map draws both (§The map).
 
 - **Names.** A registry shared by every subject: `names/<id>.json` at the
   repository's top level, beside `subjects/` and never inside one
@@ -690,6 +691,66 @@ printing press). kloom has a layer for each. The graph view is phase 3.
   like the others (§Interaction).
 - **Duplication across subjects stays** (Ken): each subject must read on
   its own, and a connection turns a retelling into the other angle.
+
+## The map
+
+Connections, phase 3 (sprint 019, korg 3441): the graph index drawn as a
+picture you can move through. `engine/map.ts` decides what each view holds,
+where its nodes go, which labels fit and where an arrow moves;
+`engine/ui/MapOverlay.svelte` draws it. Its data comes from `GET /api/map`
+(every served subject's frames, their connections and the names they mark,
+about 340 KB), fetched when the map first opens and kept until a grow.
+
+- **Where.** A full-screen modal (a native `<dialog>`): the page behind is
+  inert, and Esc closes it and returns focus to what opened it. It opens
+  from an icon button in the spine's HUD, right of the contents, and from
+  M, the eighth character shortcut, remappable and scoped like the others
+  (§Interaction), on the frame's neighbourhood. From the start screen,
+  "Map of the library" opens the library, and a name card's "Show on the
+  map" opens the name's view.
+- **Views.** _Neighbourhood_ (a frame): the frame, its connections and the
+  names it marks at one step. Two steps (the default) add the connections
+  of those, and the frames that share the most telling names with it. A
+  name in many frames says little about any one, so a frame is ranked by
+  the sum, over the names it shares, of one over the other frames each is
+  in, and only 8 are kept: sprint 018 measured a median of 22 frames one
+  name away, and Richard Feynman's 63. Only the centre's names are drawn,
+  so a view never holds more than about 35 nodes. _Library_: a node per
+  subject, the lines thickened by the connections between each pair.
+  _Subject_: its frames that have connections, and where they lead; the
+  rest are counted, not drawn. _Name_: the name, with the frames that mark
+  it around it (its card, as a graph). Moving the centre is a new view,
+  and the map's own Back (or Backspace) steps back through them.
+- **Deterministic and still.** The layout (d3-force, the one dependency
+  the map adds) is seeded by the view and runs to rest before anything is
+  drawn, so the same view lands the same way every time and nothing moves:
+  there is no motion to reduce. The centre is pinned; the rest start on
+  rings, grouped by subject, and a ring widens with its nodes.
+- **Labels.** Placed greedily, most important first (the centre, then
+  frames, then names), right of the node, else left, above or below,
+  wherever a label hits no other label, no node and no edge of the map. A
+  label with no room shows when its node has focus or the pointer. Titles
+  are cut at 30 characters on the map and whole everywhere else.
+- **Subjects** wear a colour and a shape, in the order the app serves them.
+  The subjects' own accents are all golds and reds, so the map takes its
+  own surface (light or dark, after the palette it opens over) and a
+  categorical palette validated against it. No four hues hold apart for
+  every kind of colour vision on the dark surface, so colour is never the
+  only cue: each subject has a shape (circle, square, diamond, triangle,
+  hexagon, star), the legend names both, and the list says each frame's
+  subject in words. A name is a hollow ring.
+- **Keys.** Every node is a button, one of them in the tab order at a
+  time. The arrows move to the neighbour that lies that way (a joined one
+  first, the nearest of all when none is joined that way), Home returns to
+  the centre, Space (a click) centres the map on the node, and Enter goes
+  to a frame: a jump, with the Back chip (§Connections). The details under
+  the map say the focused node, a connection's _why_ and a name's
+  description, with Go and Centre buttons for the pointer.
+- **Show as list.** A switch that shows the same view as lists: a frame's
+  connections with their _why_, what is two steps away and through what,
+  the frames sharing names and which, its names; or a subject's, a name's
+  or the library's. On by default below 40rem, where a graph of 30 labelled
+  nodes does not fit.
 
 ## Risks
 

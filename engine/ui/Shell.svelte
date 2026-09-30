@@ -32,6 +32,7 @@
 	import AiPane from './AiPane.svelte';
 	import Bookmarks from './Bookmarks.svelte';
 	import Contents from './Contents.svelte';
+	import type { MapOpen } from './MapOverlay.svelte';
 	import BackChip from './BackChip.svelte';
 	import Narrative, {
 		type AnnotationOffer,
@@ -76,6 +77,8 @@
 		onfollow?: (subject: string, frame: string) => void;
 		/** Where the last jump left from, and how many are stacked; null when there is none. */
 		back?: { to: BackStop; depth: number; onback: () => void } | null;
+		/** Open the map on a frame's neighbourhood (§The map); none without it. */
+		onmap?: (open: MapOpen) => void;
 	}
 
 	/** What the page offers for bookmarks: the frames marked, the jump list, and the writes. */
@@ -103,7 +106,8 @@
 		links = null,
 		hrefTo,
 		onfollow,
-		back = null
+		back = null,
+		onmap
 	}: Props = $props();
 
 	let trailId = $state<string | null>(null);
@@ -208,6 +212,17 @@
 	/** The table of contents (§Contents, korg 3433): rebuilt when a grow adds frames. */
 	const contents = $derived(contentsOf(subject));
 	let contentsEl = $state<ReturnType<typeof Contents>>();
+	let mapButton = $state<IconButton>();
+	/** The map (§The map): opened on the frame on the spine, focus back to its button. */
+	function openMap() {
+		const key = `${subject.id}/${frame.id}`;
+		onmap?.({
+			target: { view: 'frame', key, steps: 2 },
+			scheme: palette.scheme,
+			here: key,
+			refocus: () => mapButton?.focus()
+		});
+	}
 	const branches = $derived(new Set(trail ? [] : subject.trails.map((t) => t.anchor)));
 	const marked = $derived(bookmarks?.marked ?? new Set<string>());
 	/** Notes per frame, for the marks and the tab. */
@@ -390,7 +405,8 @@
 				keys[s.action] &&
 				(s.action !== 'bookmark' || bookmarks) &&
 				((s.action !== 'note' && s.action !== 'annotate') || layer) &&
-				(s.action !== 'back' || back)
+				(s.action !== 'back' || back) &&
+				(s.action !== 'map' || onmap)
 		).map((s, i, all) => ({
 			action: s.action,
 			/** What comes before it: nothing, a comma, or "and" before the last. */
@@ -403,7 +419,8 @@
 				note: 'note',
 				annotate: 'annotate',
 				contents: 'contents',
-				back: 'back'
+				back: 'back',
+				map: 'map'
 			}[s.action]
 		}))
 	);
@@ -415,7 +432,16 @@
 					names: links.names,
 					subject: subject.id,
 					hrefOf: hrefTo,
-					onfollow
+					onfollow,
+					onmap: onmap
+						? (name: string, refocus: () => void) =>
+								onmap({
+									target: { view: 'name', id: name },
+									scheme: palette.scheme,
+									here: `${subject.id}/${frame.id}`,
+									refocus
+								})
+						: undefined
 				}
 			: null
 	);
@@ -606,6 +632,10 @@
 				if (!back) return;
 				back.onback();
 				break;
+			case 'map':
+				if (!onmap) return;
+				openMap();
+				break;
 			default:
 				return;
 		}
@@ -683,6 +713,23 @@
 					onjump={goTo}
 					bind:this={contentsEl}
 				/>
+				{#if onmap}
+					<IconButton
+						label="Map"
+						title={shown(keys.map) ? `Map (${shown(keys.map)})` : 'Map'}
+						aria-haspopup="dialog"
+						bind:this={mapButton}
+						onclick={openMap}
+					>
+						<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor">
+							<circle cx="12" cy="12" r="2.5" stroke-width="1.5" />
+							<circle cx="5" cy="6" r="1.75" stroke-width="1.5" />
+							<circle cx="19" cy="7" r="1.75" stroke-width="1.5" />
+							<circle cx="17" cy="19" r="1.75" stroke-width="1.5" />
+							<path d="M6.5 7 10 10.5M17.4 7.9 14.2 10.8M13.6 14 16 17.5" stroke-width="1.5" />
+						</svg>
+					</IconButton>
+				{/if}
 				{#if bookmarks}
 					<Bookmarks
 						marked={marked.has(frame.id)}

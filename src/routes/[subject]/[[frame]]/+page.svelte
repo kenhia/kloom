@@ -10,6 +10,8 @@
 		type Place,
 		type ReaderLayer
 	} from '$engine/reader-data';
+	import type { MapData } from '$engine/map';
+	import MapOverlay, { type MapOpen } from '$engine/ui/MapOverlay.svelte';
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
 	import {
@@ -260,6 +262,27 @@
 		await tick();
 		shell?.focusSpine();
 	});
+	// The map (docs/design.md §The map, korg 3441): its data is fetched when it
+	// first opens, and kept until a grow changes the subjects.
+	let map = $state<ReturnType<typeof MapOverlay>>();
+	let mapData: Promise<MapData> | null = null;
+	function loadMap() {
+		mapData ??= fetch(resolve('/api/map')).then((res) =>
+			res.ok ? (res.json() as Promise<MapData>) : Promise.reject(res.status)
+		);
+		mapData.catch(() => (mapData = null));
+		return mapData;
+	}
+	const openMap = (o: MapOpen) => map?.show(o);
+	/** Go to a frame from the map: a jump, as from a connection, from the shell or the start screen. */
+	function followFromMap(subject: string, frame: string) {
+		if (started) follow(subject, frame);
+		else {
+			begun = subject;
+			goto(frameHref(subject, frame));
+		}
+	}
+
 	const backOffer = $derived.by(() => {
 		const stack = page.state.back ?? [];
 		return stack.length
@@ -351,7 +374,10 @@
 		subject={data.subject}
 		{settings}
 		ai={{ web: data.askWeb, grow: !!data.growModels }}
-		ongrown={() => invalidateAll()}
+		ongrown={() => {
+			mapData = null;
+			invalidateAll();
+		}}
 		active={started}
 		startAt={data.frame}
 		onplace={(f) => (current = f)}
@@ -363,8 +389,11 @@
 		hrefTo={frameHref}
 		onfollow={follow}
 		back={backOffer}
+		onmap={openMap}
 	/>
 {/key}
+
+<MapOverlay bind:this={map} load={loadMap} hrefOf={frameHref} onfollow={followFromMap} />
 
 {#if !started}
 	<StartScreen
@@ -381,5 +410,7 @@
 		onbegin={() => (begun = data.subject.id)}
 		onfirst={() => shell?.goTo(first)}
 		onopen={open}
+		onmap={(refocus) =>
+			openMap({ target: { view: 'library' }, scheme: startPalette.scheme, refocus })}
 	/>
 {/if}
