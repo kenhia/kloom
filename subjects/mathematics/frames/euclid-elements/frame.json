@@ -1,0 +1,100 @@
+{
+	"id": "euclid-elements",
+	"topic": "Euclid's Elements",
+	"position": { "label": "c. 300 BC", "sort": -300 },
+	"scene": {
+		"headline": "We learned to",
+		"accent": "PROVE.",
+		"palette": "clay",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ALEXANDRIA · EUCLID",
+			"THIRTEEN BOOKS · DEFINITIONS · POSTULATES · COMMON NOTIONS"
+		],
+		"counter": { "value": "465", "label": "propositions in thirteen books" }
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Euclid's Elements",
+			"url": "https://en.wikipedia.org/w/index.php?title=Euclid's_Elements&oldid=1376985469",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"note": "The count of 465 propositions, the gap in I.1, the oldest copies, Knorr on the text, Rouse Ball, and the editions"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Thirteen Books of Euclid's Elements, Translated from the Text of Heiberg, vol. 1",
+			"authors": [{ "family": "Heath", "given": "Thomas L." }],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1908",
+			"url": "https://archive.org/details/thirteenbookseu02heibgoog",
+			"accessed": "2026-09-30",
+			"note": "Theon and the Vatican manuscript, pp. 46–47 and 103; Ratdolt's edition, p. 97; the postulates and Proposition 1, pp. 154–155 and 241–242"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Thirteen Books of Euclid's Elements, Translated from the Text of Heiberg, vol. 2",
+			"authors": [{ "family": "Heath", "given": "Thomas L." }],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1908",
+			"url": "https://archive.org/details/bub_gb_lxkPAAAAIAAJ",
+			"accessed": "2026-09-30",
+			"note": "Book IX, Proposition 20, that the primes are more than any assigned multitude, pp. 412–413"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Euclid",
+			"url": "https://en.wikipedia.org/w/index.php?title=Euclid&oldid=1377561107",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "book",
+			"title": "The Mathematical Principles of Natural Philosophy",
+			"authors": [{ "family": "Newton", "given": "Isaac" }],
+			"publisher": "Benjamin Motte",
+			"place": "London",
+			"published": "1729",
+			"url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)",
+			"accessed": "2026-09-30",
+			"note": "Translated by Andrew Motte; read on Wikisource"
+		},
+		{
+			"kind": "media",
+			"title": "The first page of Euclid's Elements in Campanus's Latin, printed by Erhard Ratdolt at Venice, 1482",
+			"url": "https://commons.wikimedia.org/wiki/File:Euclid3a.gif",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ratdolt-1482.gif",
+			"authors": [{ "family": "Ratdolt", "given": "Erhard" }],
+			"published": "1482"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/greek-inquiry",
+			"why": "Plato gave the four elements the shapes of four regular solids and the cosmos a fifth; the Elements ends by constructing all five and proving there are no more."
+		},
+		{
+			"to": "western-civ/printing-press",
+			"why": "Ratdolt's Elements of 1482, printed at Venice a generation after Gutenberg, was the first important mathematical book in print, once he had found a way to print its figures as easily as letters."
+		},
+		{
+			"to": "physics/principia",
+			"why": "Newton laid out the Principia in the Elements' order: definitions, then \"axioms, or laws of motion\", then propositions proved from them."
+		}
+	]
+}

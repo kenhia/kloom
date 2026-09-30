@@ -1,0 +1,194 @@
+{
+	"id": "incommensurable",
+	"topic": "The discovery of irrational numbers",
+	"position": {
+		"label": "c. 430 BC",
+		"sort": -430
+	},
+	"scene": {
+		"headline": "We found a length with no",
+		"accent": "RATIO.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THE PYTHAGOREANS · THEODORUS · THEAETETUS · EUDOXUS",
+			"THE SIDE AND THE DIAGONAL OF A SQUARE"
+		],
+		"counter": {
+			"value": "1.41421356…",
+			"label": "the root of two, never a ratio of whole numbers"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Square root of 2",
+			"url": "https://en.wikipedia.org/w/index.php?title=Square_root_of_2&oldid=1375319963",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"note": "The proofs, among them Apostol's of 2000, and the interpolated X.117"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Thirteen Books of Euclid's Elements, Translated from the Text of Heiberg, vol. 3",
+			"authors": [
+				{
+					"family": "Heath",
+					"given": "Thomas L."
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1908",
+			"url": "https://archive.org/details/thirteenbookseu01heibgoog",
+			"accessed": "2026-09-30",
+			"note": "The introductory note to Book X, pp. 1–3: Aristotle's proof, X.117 as an interpolation, the side and diagonal numbers, and X.9 credited to Theaetetus"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Prior Analytics",
+			"authors": [
+				{
+					"name": "Aristotle"
+				}
+			],
+			"container": "The Internet Classics Archive",
+			"url": "https://classics.mit.edu/Aristotle/prior.html",
+			"accessed": "2026-09-30",
+			"note": "Book I, part 23, in A. J. Jenkinson's translation"
+		},
+		{
+			"kind": "book",
+			"title": "Theaetetus",
+			"authors": [
+				{
+					"name": "Plato"
+				}
+			],
+			"publisher": "Project Gutenberg",
+			"url": "https://www.gutenberg.org/ebooks/1726",
+			"accessed": "2026-09-30",
+			"note": "In Benjamin Jowett's translation; the passage on Theodorus is at 147d"
+		},
+		{
+			"kind": "book",
+			"title": "The Thirteen Books of Euclid's Elements, Translated from the Text of Heiberg, vol. 2",
+			"authors": [
+				{
+					"family": "Heath",
+					"given": "Thomas L."
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1908",
+			"url": "https://archive.org/details/bub_gb_lxkPAAAAIAAJ",
+			"accessed": "2026-09-30",
+			"note": "Book V, Definition 5, p. 114"
+		},
+		{
+			"kind": "web",
+			"title": "Wilbur Knorr's Books",
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Extras/Knorr_books/",
+			"accessed": "2026-09-30",
+			"note": "Quoting Sabetai Unguru's review of Knorr, The Evolution of the Euclidean Elements (1975), in Isis 68 (1977), on the date 430–410 BC"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hippasus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hippasus&oldid=1356349479",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theodorus of Cyrene",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theodorus_of_Cyrene&oldid=1327982652",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eudoxus of Cnidus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eudoxus_of_Cnidus&oldid=1373209694",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Irrational number",
+			"url": "https://en.wikipedia.org/w/index.php?title=Irrational_number&oldid=1376551134",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pythagoras",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pythagoras&oldid=1372117267",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "media",
+			"title": "The appendix to Book X of Euclid's Elements, with the proof that the diagonal of a square is incommensurable with its side, in the Bodleian Library's MS. D'Orville 301, fol. 268r, AD 888",
+			"url": "https://commons.wikimedia.org/wiki/File:Euclid,_Elements_10,_appendix.jpg",
+			"accessed": "2026-09-30",
+			"container": "Bodleian Libraries, University of Oxford, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "euclid-x-appendix.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/ybc-7289",
+			"why": "The Babylonian scribe wrote the root of two to within a part in two million; the Greeks proved that no ratio of whole numbers, however fine, could ever be exact."
+		}
+	]
+}

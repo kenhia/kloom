@@ -10,7 +10,13 @@
 			"id": "greeks",
 			"title": "The Greeks",
 			"labelKind": "date",
-			"frames": ["apollonius-conics", "diophantus"]
+			"frames": [
+				"incommensurable",
+				"euclid-elements",
+				"archimedes-circle",
+				"apollonius-conics",
+				"diophantus"
+			]
 		},
 		{
 			"id": "beyond-greece",
