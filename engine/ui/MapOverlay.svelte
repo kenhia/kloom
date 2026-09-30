@@ -54,6 +54,10 @@
 	let trail = $state<MapTarget[]>([]);
 	/** The "Show as list" switch: on by default on a phone (below 40rem). */
 	let asList = $state<boolean | null>(null);
+	/** The "3D" switch: the whole library as a WebGL graph (§The library in 3D). Off on opening. */
+	let in3d = $state(false);
+	/** Loaded when the 3D view is first asked for, with three.js behind it. */
+	const library3d = () => import('./Library3d.svelte');
 	/** The node with focus (or the pointer): the one the details describe. */
 	let active = $state<string | null>(null);
 	/** The node under the pointer, and the node with visible (keyboard) focus. */
@@ -143,6 +147,7 @@
 		target = o.target;
 		trail = [];
 		failed = false;
+		in3d = false;
 		asList ??= matchMedia('(max-width: 40rem)').matches;
 		dialog?.showModal();
 		if (!index)
@@ -249,16 +254,38 @@
 
 	/** Keys anywhere in the map: Backspace goes back a view (outside a field). */
 	function dialogKeys(e: KeyboardEvent) {
-		if (e.key === 'Backspace' && trail.length && !(e.target as HTMLElement).matches('input')) {
+		if (
+			e.key === 'Backspace' &&
+			trail.length &&
+			!in3d &&
+			!(e.target as HTMLElement).matches('input')
+		) {
 			e.preventDefault();
 			goBack();
 		}
 	}
 
 	async function toggleList() {
-		asList = !asList;
+		asList = in3d ? true : !asList;
+		in3d = false;
 		await tick();
 		settle();
+	}
+
+	/** Into the 3D view and out: focus stays on the switch, and leaving it settles the 2D map. */
+	async function toggle3d() {
+		in3d = !in3d;
+		if (in3d) return;
+		await tick();
+		settle();
+	}
+
+	/** From the 3D view to a node on the 2D map. */
+	function show2d(t: MapTarget) {
+		in3d = false;
+		asList = false;
+		if (JSON.stringify(t) === JSON.stringify(target)) settle();
+		else goTo(t);
 	}
 
 	function setSteps(n: 1 | 2) {
@@ -371,10 +398,12 @@
 			{/if}
 			<h2 id="{id}-title">
 				<span class="kicker">Map</span>
-				{view?.title ?? 'The map'}
+				{in3d ? 'The library in 3D' : (view?.title ?? 'The map')}
 			</h2>
 			<div class="controls">
-				{#if here && !(target.view === 'frame' && target.key === here)}
+				{#if in3d}
+					<!-- The 2D map's own controls wait until the reader comes back to it. -->
+				{:else if here && !(target.view === 'frame' && target.key === here)}
 					<button
 						type="button"
 						onclick={() => goTo({ view: 'frame', key: here, steps: steps ?? 2 })}
@@ -382,10 +411,10 @@
 						This frame
 					</button>
 				{/if}
-				{#if target.view !== 'library'}
+				{#if target.view !== 'library' && !in3d}
 					<button type="button" onclick={() => goTo({ view: 'library' })}>Library</button>
 				{/if}
-				{#if steps}
+				{#if steps && !in3d}
 					<div class="steps" role="radiogroup" aria-label="How far out">
 						{#each [1, 2] as const as n (n)}
 							<label>
@@ -400,7 +429,10 @@
 						{/each}
 					</div>
 				{/if}
-				<button type="button" role="switch" aria-checked={!!asList} onclick={toggleList}>
+				<button type="button" role="switch" aria-checked={in3d} onclick={toggle3d}>
+					3D<span class="visually-hidden">: the whole library</span>
+				</button>
+				<button type="button" role="switch" aria-checked={!in3d && !!asList} onclick={toggleList}>
 					Show as list
 				</button>
 				<button type="button" class="close" onclick={() => dialog?.close()}>
@@ -414,6 +446,20 @@
 			<p class="empty">The map could not be loaded. Close it and try again.</p>
 		{:else if !index}
 			<p class="empty" role="status">Loading the map…</p>
+		{:else if in3d}
+			{#await library3d()}
+				<p class="empty" role="status">Loading the 3D view…</p>
+			{:then { default: Library3d }}
+				<Library3d
+					data={index.data}
+					{here}
+					hrefOf={frameHref}
+					onfollow={follow}
+					onshow2d={show2d}
+				/>
+			{:catch}
+				<p class="empty">The 3D view could not be loaded. The 2D map has everything it shows.</p>
+			{/await}
 		{:else if !view}
 			<p class="empty">That is no longer on the map.</p>
 		{:else if asList}
@@ -531,7 +577,7 @@
 		{/if}
 
 		<footer>
-			{#if view && !asList}
+			{#if view && !asList && !in3d}
 				<div class="details" aria-live="polite">
 					{#if detail}
 						<p class="what">
@@ -558,7 +604,7 @@
 					{/if}
 				</div>
 			{/if}
-			{#if view?.note}<p class="note">{view.note}</p>{/if}
+			{#if view?.note && !in3d}<p class="note">{view.note}</p>{/if}
 			{#if index}
 				<ul class="legend" aria-label="Subjects">
 					{#each index.data.subjects as s (s.id)}

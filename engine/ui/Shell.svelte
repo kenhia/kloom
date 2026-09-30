@@ -80,7 +80,15 @@
 		back?: { to: BackStop; depth: number; onback: () => void } | null;
 		/** Open the map on a frame's neighbourhood (§The map); none without it. */
 		onmap?: (open: MapOpen) => void;
+		/**
+		 * Jump to a random frame (§Random): in this subject, or anywhere in the
+		 * library, never this one. False when there was nowhere to go.
+		 */
+		onrandom?: (scope: RandomScope) => Promise<boolean>;
 	}
+
+	/** Where a random jump may land. */
+	type RandomScope = 'subject' | 'library';
 
 	/** What the page offers for bookmarks: the frames marked, the jump list, and the writes. */
 	interface BookmarkOffer {
@@ -108,7 +116,8 @@
 		hrefTo,
 		onfollow,
 		back = null,
-		onmap
+		onmap,
+		onrandom
 	}: Props = $props();
 
 	let trailId = $state<string | null>(null);
@@ -402,7 +411,8 @@
 				(s.action !== 'bookmark' || bookmarks) &&
 				((s.action !== 'note' && s.action !== 'annotate') || layer) &&
 				(s.action !== 'back' || back) &&
-				(s.action !== 'map' || onmap)
+				(s.action !== 'map' || onmap) &&
+				((s.action !== 'random' && s.action !== 'anywhere') || onrandom)
 		).map((s, i, all) => ({
 			action: s.action,
 			/** What comes before it: nothing, a comma, or "and" before the last. */
@@ -416,7 +426,9 @@
 				annotate: 'annotate',
 				contents: 'contents',
 				back: 'back',
-				map: 'map'
+				map: 'map',
+				random: 'random',
+				anywhere: 'anywhere'
 			}[s.action]
 		}))
 	);
@@ -481,6 +493,15 @@
 	untrack(() => startAt && goTo(startAt));
 
 	$effect(() => onplace?.(frame));
+
+	async function random(scope: RandomScope) {
+		if (!onrandom || !mayLeave()) return;
+		if (!(await onrandom(scope)))
+			markNote =
+				scope === 'subject'
+					? 'There is no other frame in this subject.'
+					: 'Could not reach the library. Try again.';
+	}
 
 	function toggleMark() {
 		if (!bookmarks) return;
@@ -574,7 +595,8 @@
 	function keydown(e: KeyboardEvent) {
 		if (!active || e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
 		const target = e.target instanceof Element ? e.target : null;
-		switch (pageKey(e.key, target, keys)) {
+		const action = pageKey(e.key, target, keys);
+		switch (action) {
 			case 'to-spine':
 				slider?.focus();
 				break;
@@ -631,6 +653,11 @@
 			case 'map':
 				if (!onmap) return;
 				openMap();
+				break;
+			case 'random':
+			case 'anywhere':
+				if (!onrandom) return;
+				random(action === 'random' ? 'subject' : 'library');
 				break;
 			default:
 				return;
@@ -698,6 +725,23 @@
 			{#snippet tools()}
 				{#if back}
 					<BackChip to={back.to} depth={back.depth} key={shown(keys.back)} onback={back.onback} />
+				{/if}
+				{#if onrandom}
+					<IconButton
+						label="Random frame in this subject"
+						title={shown(keys.random)
+							? `Random frame in this subject (${shown(keys.random)})`
+							: 'Random frame in this subject'}
+						onclick={() => random('subject')}
+					>
+						<!-- One die: here. -->
+						<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor">
+							<rect x="4.5" y="4.5" width="15" height="15" rx="2.5" stroke-width="1.5" />
+							<circle cx="9" cy="9" r="1.1" fill="currentColor" stroke="none" />
+							<circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none" />
+							<circle cx="15" cy="15" r="1.1" fill="currentColor" stroke="none" />
+						</svg>
+					</IconButton>
 				{/if}
 				<Contents
 					{contents}
@@ -772,6 +816,27 @@
 				</div>
 			{/if}
 			<div class="corner">
+				{#if onrandom}
+					<IconButton
+						label="Random frame anywhere"
+						title={shown(keys.anywhere)
+							? `Random frame anywhere in the library (${shown(keys.anywhere)})`
+							: 'Random frame anywhere in the library'}
+						onclick={() => random('library')}
+					>
+						<!-- Two dice: anywhere. -->
+						<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor">
+							<rect x="2.5" y="8.5" width="11" height="11" rx="2" stroke-width="1.5" />
+							<path
+								d="M10.5 8.5V6.5a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-6"
+								stroke-width="1.5"
+							/>
+							<circle cx="5.75" cy="11.75" r="1" fill="currentColor" stroke="none" />
+							<circle cx="10.25" cy="16.25" r="1" fill="currentColor" stroke="none" />
+							<circle cx="17.5" cy="8.5" r="1" fill="currentColor" stroke="none" />
+						</svg>
+					</IconButton>
+				{/if}
 				{#if onhome}
 					<IconButton
 						class="home"

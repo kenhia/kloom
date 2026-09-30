@@ -550,20 +550,21 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   spine, or removes its bookmark (§Reader data); N adds a note (§Notes);
   A annotates words of the reading (§Annotations); C opens the table of
   contents (§Contents); R goes back after a jump (§Connections); M opens the
-  map (§The map); Tab moves into
+  map (§The map); D jumps to a random frame in this subject and W to a
+  random frame anywhere in the library (§Random); Tab moves into
   and out of the AI pane, and Esc anywhere in it returns to the spine. In the
   tabs layout, the arrows on a tab move between the tabs, and on a divider
   they move the divider (§Layout). Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
 - **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
-  T, B, N, A, C, R and M act only while focus is inside the spine, the narrative or the
+  T, B, N, A, C, R, M, D and W act only while focus is inside the spine, the narrative or the
   notes. They do nothing in the AI pane, in the settings panel, in the note
   editor, or on the bare page.
 - **And remappable** (WCAG 2.1.4's other remedy, sprint 011, korg 3363).
   Each character shortcut is a setting under "Keys": any letter, or Off
   (`kloom.key.sync`, `.trail`, `.bookmark`, `.note`, `.annotate`,
-  `.contents`, `.back`, `.map`). `keymapOf` turns the
+  `.contents`, `.back`, `.map`, `.random`, `.anywhere`). `keymapOf` turns the
   settings into a keymap and `pageKey` reads it. The help bar, the Add a note
   button, the trail buttons and the sync line all show the reader's letters,
   and leave a key out when it is off. A letter given to two shortcuts is
@@ -776,6 +777,78 @@ about 340 KB), fetched when the map first opens and kept until a grow.
   the frames sharing names and which, its names; or a subject's, a name's
   or the library's. On by default below 40rem, where a graph of 30 labelled
   nodes does not fit.
+- **3D.** A second switch, beside Show as list, turns the whole library
+  into a 3D graph (§The library in 3D). It is off whenever the map opens,
+  and its own "Show on the 2D map" comes back here.
+
+## The library in 3D
+
+Sprint 023, korg 3449: every frame, every marked name and every connection
+at once, as a force graph in WebGL that the reader turns, zooms and flies
+through. It is for the pleasure of seeing the whole library. The 2D map
+stays the everyday tool, and the way to read the graph.
+
+- **Where.** The map's "3D" switch, so it opens from both places the map
+  does: the spine's HUD (over a frame) and the start screen's "Map of the
+  library". Show as list, or the switch again, returns to the 2D map; each
+  frame's and name's details carry "Show on the 2D map", which opens the
+  2D map centred there.
+- **What is drawn.** `engine/library3d.ts` (`library3dOf`) reads the map's
+  own data (`GET /api/map`), so there is no second fetch: 290 frames, 1,460
+  names, 281 connections and 2,671 lines from frames to the names they
+  mention (the library at sprint 023). A frame wears its subject's colour
+  and a solid for its 2D shape (sphere, cube, octahedron, tetrahedron,
+  hexagonal prism, icosahedron), sized by its links; a name is a small grey
+  sphere. The pointer's label is the frame's topic, with its title, subject
+  and position; or a name and its description.
+- **The library.** Vasco Asturiano's `3d-force-graph` (1.80.1, MIT), on
+  `three` (0.186, MIT, a direct dependency too, for the solids). **Loaded
+  lazily**: the overlay imports the 3D component only when the switch is
+  turned, and the component imports the graph library in turn, so nothing
+  of three.js is in the page's bundle. Measured at sprint 023: the page's
+  eager JavaScript grew by 4.5 KB (the random controls, the two shortcuts
+  and the switch), and the 3D view's chunks are 1.55 MB (413 KB gzipped),
+  fetched only when it opens.
+- **Motion.** The layout runs 160 ticks before the first paint (about half
+  a second), and the camera takes in the whole library, fitted to the
+  frames at their middle depth (the library's own fit takes in the nearest
+  points as well, which left the graph a small knot). Without reduced
+  motion it then drifts on to rest for four seconds, the camera eases out
+  to the whole of it, and it turns slowly until the reader takes hold of it
+  or presses "Turn slowly" (WCAG 2.2.2); the links of the node under the
+  pointer come forward with particles running along them. **Under reduced
+  motion** it stops at first paint, never turns, has no particles and
+  flies to a node without a transition: nothing moves that the reader did
+  not move.
+- **Accessibility, stated honestly.** A WebGL canvas is not something a
+  keyboard or a screen reader can move through, so this view is decorative
+  and says so. The canvas is `aria-hidden` and out of the tab order; what
+  it shows is said in words under it (the counts, and a table by subject
+  under "Counts by subject"), and every control is an ordinary button.
+  Esc closes the map as always. It never traps focus, and the 2D map with
+  Show as list is one switch away.
+- **Its own surface.** It reads the map's surface and subject colours from
+  the dialog, light or dark after the palette it opened over.
+- **Out of scope:** VR and AR.
+
+## Random
+
+Sprint 023, korg 3437: two dice, for wandering. One die, left of the table
+of contents in the spine's HUD, goes to a random frame in this subject; two
+dice, left of Home, go to a random frame anywhere in the library. D and W
+do the same, remappable and scoped like the other shortcuts (§Interaction).
+
+- **Any frame a spine walks.** In the subject, the main spine's frames and
+  every trail's (`walkedFrames`); anywhere, every frame the map's data
+  holds (fetched once, as the map does). A frame on no spine is not
+  reachable, and is never picked.
+- **Never where you are.** The current frame is left out before the draw
+  (`pickOther`), so every other frame is equally likely. Anywhere may land
+  in the same subject: it is a draw over frames, not subjects, so a larger
+  subject comes up more often.
+- **A jump.** Both go through the page's jump (§Connections), so the Back
+  chip and the browser's Back return from one, and focus lands on the
+  spine, where the new frame is announced. An unsaved note asks first.
 
 ## Topics
 
