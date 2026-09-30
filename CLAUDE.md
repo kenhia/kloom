@@ -135,6 +135,12 @@ backfilled, written by grow and author-subject; design.md §Topics says
 which surfaces name a frame by it), map labels by topic and whole, lines
 dimmed at rest and brought forward for the node under the pointer or
 focus, and a details panel of one height.
+Sprint 021 the fifth subject, `subjects/physics` (68 frames: dates to 1900,
+then categories, four trails), the bridge between western-civ and the tech
+cluster, and the first written with names and connections from the start
+(174 connections on its frames); `names.py reach` measures a subject's
+reach, and the authoring tools refuse more of what authors could not see
+(an unregistered or hand-written mark, a chart's text that will not fit).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

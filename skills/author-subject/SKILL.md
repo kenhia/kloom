@@ -1,6 +1,6 @@
 ---
 name: kloom-author-subject
-description: Author a whole new kloom subject — a plan, a theme, one segment written by hand, then parallel authors for the rest, reviewed and committed segment by segment. The procedure sprint 006 used for the AI subject, written down in sprint 014, followed for Richard Feynman and, in sprint 015, the History of Computing. Use when a sprint creates a subject, not for adding a few frames (that is grow).
+description: Author a whole new kloom subject — a plan, a theme, one segment written by hand, then parallel authors for the rest, reviewed and committed segment by segment. The procedure sprint 006 used for the AI subject, written down in sprint 014, followed for Richard Feynman, the History of Computing (sprint 015) and the History of Physics (sprint 021). Use when a sprint creates a subject, not for adding a few frames (that is grow).
 ---
 
 # Authoring a kloom subject
@@ -129,7 +129,18 @@ Things authors working at once cannot see, so the brief settles them:
 - **A trail needs its anchor.** A trail's frames are off the spine until the
   main-spine frame it hangs from exists. Commit anchors first, or tell the
   trail's author to validate against a stand-in (the subject-plan README
-  says how); the complete copy leaves such frames out and names them.
+  says how); the complete copy leaves such frames out and names them. The
+  anchor's author finishes the anchor, `frame.json` and all, before the
+  rest of their frames.
+- **Dated sorts.** Give each frame of a `date` segment its year in the
+  brief and check they rise along the segment: sprint 021's plan put
+  1850 after 1859, and every author's copy failed on it until review.
+- **Each other's drafts.** Name drafts overlap (four pairs in sprint 021):
+  authors grep `.scratch/names/*/` before drafting a name, pass every
+  drafts directory to `--complete` and `mark --check`, and check with
+  `--only <their frames>` so no one else's half-written frame fails them.
+  They write contact sheets to their own `--png`, never run
+  `subject_plan.py` on the live subject, and never commit.
 
 ## 4. Review, validate and commit, segment by segment
 
@@ -156,7 +167,16 @@ As each author reports:
    Stage it with `create-tools/subject-plan/stage_segment.py`, which stages
    the frames with a spine and trails holding only committed frames (the
    working tree's spine names everyone's), and validate the index before
-   committing, with its new names and its mark spec.
+   committing, with its new names and its mark spec: export it
+   (`git checkout-index -a --prefix=DIR/`) and run the subject tests with
+   `KLOOM_TEST_SUBJECTS=DIR/subjects KLOOM_TEST_NAMES=DIR/names`, and stop
+   if they fail. Stage by path: `git add` on a directory other authors
+   write in takes their work with it (sprint 021 swept five authors'
+   unfinished specs into a commit that way).
+6. **Connections between the authors' frames** wait for review: each
+   author lists the ones they want in this subject, and the reviewer adds
+   them once both ends are committed, checking each _why_ against a
+   reading. Sprint 021 added 45 this way.
 
 When all are in: `subject_plan.py --check` names nothing still to write,
 `names.py mark` finds every spec's marks, `just check` is green (its links
@@ -170,4 +190,7 @@ numbers, what the authors reported and what you did about it, the grow
 skill's assumptions you found (generalise each in the grow skill or this
 one, or say why not), the connections made to other subjects and any left
 unmade (with the reason), and the density: `names.py density` prints names
-and connections per frame for every subject.
+and connections per frame for every subject. For a subject meant to link
+others, `names.py reach <subject> --steps N` counts how much of each other
+subject it can reach, before and after (`--root` on an archive of the base
+commit gives the before).

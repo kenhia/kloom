@@ -31,7 +31,12 @@ npx prettier --write subjects/ai
   `DIR/.names`, into which `--drafts DIR` (repeatable) merges an author's
   name drafts, so marks on names not yet added validate (sprint 021: since
   connections arrived in sprint 017, a copy without them failed every
-  author). Sprint 014's authors each improvised this. A finished trail frame
+  author). `--only FRAME …` keeps only those frames and the ones already
+  committed, so another author's half-written frame cannot fail this
+  one's check, and a draft's `home` on a frame not in the copy is dropped
+  (sprint 021). Never run `subject_plan.py` without `--complete` on a
+  subject others are writing: it rewrites the live spine, and sprint 021
+  lost the working tree's trails to it twice. Sprint 014's authors each improvised this. A finished trail frame
   whose anchor is not written yet is on no spine, so the copy leaves it out
   and names it rather than failing every author on it (sprint 015). To
   check such a trail before its anchor lands, copy any finished main-spine

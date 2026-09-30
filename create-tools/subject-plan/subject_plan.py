@@ -23,7 +23,7 @@ with any `--drafts` directories of names not yet added merged in (sprint
 `KLOOM_TEST_SUBJECTS=DIR KLOOM_TEST_NAMES=DIR/.names npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
 Standard library only.
 """
-import argparse, json, os, shutil, sys
+import argparse, json, os, shutil, subprocess, sys
 
 
 def keep(spine, have):
@@ -51,6 +51,9 @@ def main():
                     help='write a copy holding only the finished frames to DIR/<subject>, to validate one author\'s work while others are still writing')
     ap.add_argument('--drafts', action='append', default=[], metavar='DIR',
                     help='with --complete: a directory of name drafts to merge into the copy\'s registry (repeatable)')
+    ap.add_argument('--only', nargs='+', metavar='FRAME',
+                    help='with --complete: only these frames and those already committed, so another author\'s '
+                         'half-written frame cannot fail this one\'s check')
     ap.add_argument('--names', default=None, metavar='DIR',
                     help='with --complete: the name registry (default: the repository\'s names/)')
     a = ap.parse_args()
@@ -60,7 +63,14 @@ def main():
         shutil.rmtree(a.subject, ignore_errors=True)
         os.makedirs(os.path.join(a.subject, 'frames'))
         shutil.copy(os.path.join(src, 'subject.json'), a.subject)
+        wanted_frames = None
+        if a.only:  # sprint 021: five authors asked for this, having pruned their copies by hand
+            listed = subprocess.run(['git', 'ls-files', os.path.join(src, 'frames')], capture_output=True,
+                                    text=True, check=True).stdout.split()
+            wanted_frames = {f.split('/')[-2] for f in listed if f.endswith('/frame.json')} | set(a.only)
         for d in os.listdir(os.path.join(src, 'frames')):
+            if wanted_frames is not None and d not in wanted_frames:
+                continue
             if not d.startswith('.') and os.path.isfile(os.path.join(src, 'frames', d, 'frame.json')):
                 shutil.copytree(os.path.join(src, 'frames', d), os.path.join(a.subject, 'frames', d))
         # The other subjects, whole (copies, never links: Prettier on the copy must not reach them), and the registry.

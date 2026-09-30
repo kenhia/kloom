@@ -11,7 +11,7 @@ holds the narrative, charts, images and sources for the frame you are on; and
 an AI pane lets you ask for more detail or _grow_ the story — new frames on
 the main spine, or a side trail to explore.
 
-There are four subjects so far, all served by one app:
+There are five subjects so far, all served by one app:
 
 - **the History of Western Civilization**, 18 frames and two trails;
 - **the History and Current State of AI**, 41 frames and four trails, on a
@@ -23,6 +23,12 @@ There are four subjects so far, all served by one app:
   to the cloud, on dates that give way to technologies, with six trails
   (Babbage's engines, Bletchley and Colossus, the chip, the personal
   computer, the internet stack, Unix and C).
+- **the History of Physics**, 45 main-spine frames from Aristotle to
+  cosmology, on dates to 1900 and then categories (relativity, the quantum,
+  the nucleus, particles, the cosmos), with four trails (the field, heat and
+  information, the quantum revolution, the Standard Model); the first
+  subject written with names and connections from the start, and the
+  bridge between western-civ and the other three.
 
 The longer aim is a framework (starter code, agent skills and instructions)
 for generating a kloom on any subject.
