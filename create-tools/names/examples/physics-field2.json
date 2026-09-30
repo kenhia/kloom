@@ -1,0 +1,29 @@
+{
+	"physics/faraday-lines": [
+		["Michael Faraday", "michael-faraday"],
+		["lines of force", "line-of-force"],
+		["Faraday effect", "faraday-effect"],
+		["diamagnetism", "diamagnetism"],
+		["Charles Wheatstone", "charles-wheatstone"],
+		["luminiferous aether", "luminiferous-aether"],
+		["Royal Institution", "royal-institution"]
+	],
+	"physics/displacement-current": [
+		["James Clerk Maxwell", "james-clerk-maxwell"],
+		["On\nPhysical Lines of Force", "on-physical-lines-of-force"],
+		["displacement current", "displacement-current-density"],
+		["Wilhelm Weber", "wilhelm-eduard-weber"],
+		["Rudolf Kohlrausch", "rudolf-kohlrausch"],
+		["Hippolyte Fizeau", "hippolyte-fizeau"],
+		["speed of light", "speed-of-light"]
+	],
+	"physics/hertz": [
+		["Heinrich Hertz", "heinrich-hertz"],
+		["Hermann von Helmholtz", "hermann-von-helmholtz"],
+		["Maxwell's equations", "maxwells-equations"],
+		["Oliver Heaviside", "oliver-heaviside"],
+		["George Francis FitzGerald", "george-francis-fitzgerald"],
+		["Oliver Lodge", "oliver-lodge"],
+		["Guglielmo\nMarconi", "guglielmo-marconi"]
+	]
+}

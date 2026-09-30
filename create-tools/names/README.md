@@ -39,9 +39,10 @@ python3 create-tools/names/names.py reach western-civ
   be run again. Write the words with any emphasis the reading gives them:
   a title in italics is `"_The Method_"`, and the mark keeps the
   underscores inside it, as `[_The Method_](kloom:e/…)`.
-- **`mark --check`** changes nothing and exits 1 if any mark is missing:
-  keep the spec as the record of what was marked, and check it after an
-  edit.
+- **`mark --check`** changes nothing and exits 1 if any mark is missing,
+  or if a frame the spec names carries a mark no spec in its directory
+  lists (one written by hand, sprint 021): keep the specs as the record of
+  what was marked, and check them after an edit.
 - **Every name a spec marks must be known**: a file in the registry
   (`--names`, by default `names/`) or in a directory of drafts not yet
   added (`--drafts DIR`, repeatable). Otherwise `mark` names it and exits

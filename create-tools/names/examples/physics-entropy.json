@@ -1,0 +1,33 @@
+{
+	"physics/entropy": [
+		["Rudolf Clausius", "rudolf-clausius"],
+		["entropy", "entropy"],
+		["second law of thermodynamics", "second-law-of-thermodynamics"],
+		["Lord Kelvin", "lord-kelvin"],
+		["Hermann von Helmholtz", "hermann-von-helmholtz"],
+		["heat death", "heat-death-of-the-universe"]
+	],
+	"physics/maxwells-demon": [
+		["Peter Guthrie Tait", "peter-guthrie-tait"],
+		["James Clerk Maxwell", "james-clerk-maxwell"],
+		["Lord\nKelvin", "lord-kelvin"],
+		["kinetic theory of gases", "kinetic-theory-of-gases"],
+		["Maxwell's demon", "maxwells-demon"],
+		["Ludwig Boltzmann", "ludwig-boltzmann"]
+	],
+	"physics/boltzmann-entropy": [
+		["Ludwig Boltzmann", "ludwig-boltzmann"],
+		["H-theorem", "h-theorem"],
+		["Josef Loschmidt", "johann-josef-loschmidt"],
+		["Boltzmann distribution", "boltzmann-distribution"],
+		["Max Planck", "max-planck"],
+		["Ernst Mach", "ernst-mach"]
+	],
+	"physics/szilard-engine": [
+		["Leo Szilard", "leo-szilard"],
+		["Marian\nSmoluchowski", "marian-smoluchowski"],
+		["Léon Brillouin", "leon-brillouin"],
+		["Dennis\nGabor", "dennis-gabor"],
+		["Charles Bennett", "charles-h-bennett-physicist"]
+	]
+}

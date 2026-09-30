@@ -1,0 +1,31 @@
+{
+	"physics/kepler": [
+		["Johannes Kepler", "johannes-kepler"],
+		["Tycho Brahe", "tycho-brahe"],
+		["Platonic\nsolids", "platonic-solid"],
+		["_Astronomia nova_", "astronomia-nova"],
+		["Kepler's laws", "keplers-laws-of-planetary-motion"],
+		["_Harmonices Mundi_", "harmonice-mundi"],
+		["logarithms", "logarithm"],
+		["_Rudolphine Tables_", "rudolphine-tables"]
+	],
+	"physics/galileo-telescope": [
+		["Galileo\nGalilei", "galileo-galilei"],
+		["Hans Lipperhey", "hans-lipperhey"],
+		["_Sidereus Nuncius_", "sidereus-nuncius"],
+		["Galilean moons", "galilean-moons"],
+		["phases of Venus", "phases-of-venus"],
+		["Roman Inquisition", "roman-inquisition"],
+		["Pope Urban VIII", "pope-urban-viii"],
+		["_Dialogue Concerning the Two\nChief World Systems_", "dialogue-concerning-the-two-chief-world-systems"]
+	],
+	"physics/falling-bodies": [
+		["Galileo", "galileo-galilei"],
+		["_Two New Sciences_", "two-new-sciences"],
+		["Vincenzo Viviani", "vincenzo-viviani"],
+		["Simon Stevin", "simon-stevin"],
+		["Apollo 15", "apollo-15"],
+		["David Scott", "david-scott"],
+		["equivalence principle", "equivalence-principle"]
+	]
+}

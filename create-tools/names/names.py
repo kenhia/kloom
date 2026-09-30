@@ -336,6 +336,15 @@ def main():
                 failed += 1
             else:
                 reading = done
+        if args.check:
+            # The specs are the record of what was marked: a mark placed by hand is in none of them
+            # (sprint 021). A frame's marks may be split across specs (shared.json), so read them all.
+            listed = {name for sp in Path(args.spec).parent.glob('*.json')
+                      for name_ref, ps in json.loads(sp.read_text()).items() if name_ref == ref
+                      for _, name in ps}
+            for name in sorted(set(MARK.findall(reading)) - listed):
+                print(f'{ref}: marks {name}, which the spec does not list', file=sys.stderr)
+                failed += 1
         if reading != before:
             if args.check:
                 print(f'{ref}: not marked yet', file=sys.stderr)

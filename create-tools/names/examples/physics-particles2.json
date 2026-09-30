@@ -1,0 +1,40 @@
+{
+	"physics/electroweak": [
+		["Yang–Mills theory", "yangmills-theory"],
+		["Sheldon Glashow", "sheldon-glashow"],
+		["Abdus Salam", "abdus-salam"],
+		["Steven\nWeinberg", "steven-weinberg"],
+		["Gerard 't Hooft", "gerard-t-hooft"],
+		["Martinus\nVeltman", "martinus-j-g-veltman"],
+		["Gargamelle", "gargamelle"]
+	],
+	"physics/asymptotic-freedom": [
+		["quantum chromodynamics", "quantum-chromodynamics"],
+		["gluons", "gluon"],
+		["Murray Gell-Mann", "murray-gell-mann"],
+		["David Gross", "david-gross"],
+		["Frank Wilczek", "frank-wilczek"],
+		["David Politzer", "hugh-david-politzer"],
+		["asymptotic freedom", "asymptotic-freedom"],
+		["PETRA", "positronelectron-tandem-ring-accelerator"]
+	],
+	"physics/w-and-z": [
+		["Super Proton Synchrotron", "super-proton-synchrotron"],
+		["Carlo Rubbia", "carlo-rubbia"],
+		["Simon van der Meer", "simon-van-der-meer"],
+		["UA1", "ua1-experiment"],
+		["UA2", "ua2-experiment"],
+		["CERN", "cern"],
+		["Large Electron–Positron Collider", "large-electronpositron-collider"]
+	],
+	"physics/higgs": [
+		["Higgs boson", "higgs-boson"],
+		["Philip Anderson", "philip-w-anderson"],
+		["François Englert", "francois-englert"],
+		["Peter Higgs", "peter-higgs"],
+		["Superconducting Super Collider", "superconducting-super-collider"],
+		["Large Hadron Collider", "large-hadron-collider"],
+		["ATLAS", "atlas-experiment"],
+		["CMS", "compact-muon-solenoid"]
+	]
+}
