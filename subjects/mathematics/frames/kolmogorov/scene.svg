@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M50 40 L50 240 M70 40 L70 240 M90 40 L90 240 M110 40 L110 240 M130 40 L130 240 M150 40 L150 240 M170 40 L170 240 M190 40 L190 240 M210 40 L210 240 M30 60 L230 60 M30 80 L230 80 M30 100 L230 100 M30 120 L230 120 M30 140 L230 140 M30 160 L230 160 M30 180 L230 180 M30 200 L230 200 M30 220 L230 220"/>
+		<path pathLength="1" d="M110 86 L330 84"/>
+		<path pathLength="1" d="M110 194 L330 196"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 40 L230 40 L230 240 L30 240 Z"/>
+		<path pathLength="1" d="M56 140 a54 54 0 1 0 108 0 a54 54 0 1 0 -108 0"/>
+		<path pathLength="1" d="M114 130 a44 44 0 1 0 88 0 a44 44 0 1 0 -88 0"/>
+		<path pathLength="1" d="M274 140 a56 56 0 1 0 112 0 a56 56 0 1 0 -112 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M121.7 105.3 L133.4 93.6 M116.8 115.2 L137.9 94.1 M115 122.1 L141.1 96 M114 127.9 L143.8 98.2 M114.5 132.5 L146.4 100.5 M115 137.1 L149.2 102.8 M115.8 141.2 L151.4 105.6 M116.8 145.2 L153.7 108.3 M118.5 148.4 L155.4 111.5 M120.3 151.7 L157.2 114.8 M122.2 154.8 L159.1 118 M124.4 157.6 L160.4 121.6 M126.7 160.3 L161.8 125.2 M129.3 162.7 L162.7 129.3 M132.1 164.9 L163.6 133.4 M134.8 167.2 L163.6 138.4 M137.9 169.1 L163.6 143.4 M141.5 170.5 L163.1 148.9 M145.1 171.9 L161.8 155.2 M149.2 172.8 L158.6 163.4"/>
+		<path pathLength="1" d="M344.9 100.2 L350.1 95 M339.3 108.9 L357.1 91.2 M337 114.3 L358.9 92.4 M335.6 118.8 L360.8 93.6 M334.7 122.9 L362.7 94.9 M334.7 126 L364.5 96.1 M334.2 129.6 L365.9 97.8 M334.7 132.2 L367.8 99.1 M334.7 135.3 L369.2 100.8 M335.1 138 L371.1 102 M335.6 140.6 L372.5 103.8 M336.5 142.8 L373.9 105.5 M337 145.4 L375.3 107.2 M337.9 147.6 L376.2 109.4 M338.9 149.8 L377.6 111.1 M340.3 151.5 L378.5 113.2 M341.2 153.7 L379.9 115 M342.6 155.4 L380.9 117.1 M344 157.1 L381.8 119.3 M345.4 158.8 L382.7 121.5 M346.8 160.5 L383.2 124.1 M348.2 162.2 L384.1 126.3 M350.1 163.5 L384.6 129 M351.5 165.2 L385.1 131.6 M353.3 166.4 L385.5 134.2 M355.2 167.7 L385.5 137.4 M357.1 168.9 L386 140 M358.9 170.2 L385.5 143.6 M361.3 171 L385.5 146.7 M363.6 171.7 L384.6 150.7 M365.9 172.5 L384.1 154.3 M368.3 173.3 L382.7 158.8 M370.6 174.1 L380.4 164.3 M373.4 174.4 L376.2 171.6"/>
+		<path pathLength="1" d="M372.6 174.7 L370.3 174.3 L368 173.7 L365.7 173 L363.4 172.2 L361.2 171.3 L359.1 170.3 L357 169.1 L354.9 167.9 L353 166.5 L351.1 165.1 L349.2 163.5 L347.5 161.9 L345.9 160.2 L344.3 158.3 L342.9 156.5 L341.5 154.5 L340.3 152.4 L339.1 150.3 L338.1 148.2 L337.2 146 L336.4 143.7 L335.7 141.4 L335.1 139.1 L334.7 136.8 L334.4 134.4 L334.2 132 L334.1 129.6 L334.2 127.2 L334.4 124.9 L334.7 122.5 L335.1 120.1 L335.7 117.8 L336.4 115.5 L337.2 113.3 L338.1 111.1 L339.1 108.9 L340.3 106.8 L341.5 104.8 L342.9 102.8 L344.3 100.9 L345.9 99.1 L347.5 97.4 L349.2 95.7 L351.1 94.2 L353 92.7 L354.9 91.4"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="222" y="56" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">E</text>
+		<text x="80.3" y="143" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="182.2" y="116.8" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="302" y="143" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="330" y="218" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">P(AB) / P(A)</text>
+		<text x="30" y="258" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">P(E) = 1</text>
+	</g>
+</svg>

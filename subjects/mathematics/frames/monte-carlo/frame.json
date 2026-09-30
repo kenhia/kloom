@@ -1,0 +1,265 @@
+{
+	"id": "monte-carlo",
+	"topic": "The Monte Carlo method",
+	"position": {
+		"label": "Monte Carlo"
+	},
+	"scene": {
+		"headline": "We calculated by",
+		"accent": "GAMBLING.",
+		"palette": "terminal",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LOS ALAMOS · ABERDEEN PROVING GROUND · 1946–1949",
+			"ULAM · J. AND K. VON NEUMANN · METROPOLIS · ENIAC"
+		],
+		"counter": {
+			"value": "20,000+",
+			"label": "punched cards of output from ENIAC's first Monte Carlo run, 1948"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Los Alamos Bets on ENIAC: Nuclear Monte Carlo Simulations, 1947–1948",
+			"authors": [
+				{
+					"family": "Haigh",
+					"given": "Thomas"
+				},
+				{
+					"family": "Priestley",
+					"given": "Mark"
+				},
+				{
+					"family": "Rope",
+					"given": "Crispin"
+				}
+			],
+			"container": "IEEE Annals of the History of Computing",
+			"published": "2014",
+			"volume": "36",
+			"issue": "3",
+			"pages": "42–63",
+			"doi": "10.1109/MAHC.2014.40",
+			"url": "https://eniacinaction.com/wp-content/uploads/2014/02/LosAlamosBetsOnENIAC.pdf",
+			"note": "Klara von Neumann's part, the first run of April–May 1948, and von Neumann's letters to Ulam",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Beginning of the Monte Carlo Method",
+			"authors": [
+				{
+					"family": "Metropolis",
+					"given": "N."
+				}
+			],
+			"container": "Los Alamos Science",
+			"published": "1987",
+			"issue": "15 (special issue)",
+			"pages": "125–130",
+			"url": "https://mcnp.lanl.gov/pdf_files/Article_1987_LAS_Metropolis_125--130.pdf",
+			"note": "The name, Fermi in Rome (quoting Segrè, From X-Rays to Quarks), the FERMIAC and the conversion of ENIAC, in Metropolis's recollection",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Stan Ulam, John von Neumann, and the Monte Carlo Method",
+			"authors": [
+				{
+					"family": "Eckhardt",
+					"given": "Roger"
+				}
+			],
+			"container": "Los Alamos Science",
+			"published": "1987",
+			"issue": "15 (special issue)",
+			"pages": "131–141",
+			"url": "https://mcnp.lanl.gov/pdf_files/Article_1987_LAS_Eckhardt_131--141.pdf",
+			"note": "Ulam's remarks of 1983 on solitaire, and von Neumann's letter to Richtmyer of March 1947",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "The Monte Carlo Method",
+			"authors": [
+				{
+					"family": "Metropolis",
+					"given": "Nicholas"
+				},
+				{
+					"family": "Ulam",
+					"given": "S."
+				}
+			],
+			"container": "Journal of the American Statistical Association",
+			"published": "1949-09",
+			"volume": "44",
+			"issue": "247",
+			"pages": "335–341",
+			"doi": "10.1080/01621459.1949.10483310",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+			"authors": [
+				{
+					"family": "Silver",
+					"given": "David"
+				},
+				{
+					"family": "Huang",
+					"given": "Aja"
+				},
+				{
+					"family": "Maddison",
+					"given": "Chris J."
+				},
+				{
+					"family": "Guez",
+					"given": "Arthur"
+				},
+				{
+					"family": "Sifre",
+					"given": "Laurent"
+				},
+				{
+					"family": "van den Driessche",
+					"given": "George"
+				},
+				{
+					"family": "Schrittwieser",
+					"given": "Julian"
+				}
+			],
+			"container": "Nature",
+			"published": "2016-01-28",
+			"etAl": true,
+			"volume": "529",
+			"pages": "484–489",
+			"doi": "10.1038/nature16961",
+			"url": "https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf",
+			"note": "The leaf evaluation mixing the value network and a rollout, λ = 0.5",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Monte Carlo method",
+			"url": "https://en.wikipedia.org/w/index.php?title=Monte_Carlo_method&oldid=1376358332",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Buffon's needle problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Buffon's_needle_problem&oldid=1368664357",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "FERMIAC",
+			"url": "https://en.wikipedia.org/w/index.php?title=FERMIAC&oldid=1377223533",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Metropolis–Hastings algorithm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Metropolis%E2%80%93Hastings_algorithm&oldid=1374677863",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Monte Carlo tree search",
+			"url": "https://en.wikipedia.org/w/index.php?title=Monte_Carlo_tree_search&oldid=1376485206",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stanisław Ulam",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stanis%C5%82aw_Ulam&oldid=1374512209",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "media",
+			"title": "The FERMIAC, the Monte Carlo trolley, in the Bradbury Science Museum, Los Alamos",
+			"url": "https://commons.wikimedia.org/wiki/File:Fermiac.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 1.0",
+			"file": "fermiac.jpg",
+			"authors": [
+				{
+					"family": "Pellegrini",
+					"given": "Mark"
+				}
+			],
+			"published": "2009-08-01"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/eniac",
+			"why": "The Monte Carlo runs of April and May 1948 were among the first work ENIAC did after its conversion at Aberdeen to a list of numbered orders, and were argued to be the first program in the modern stored-program style ever run."
+		},
+		{
+			"to": "physics/manhattan-project",
+			"why": "The method was made at Los Alamos for the question the Manhattan Project had worked by hand and on punched-card machines: how fast neutrons multiply in a core of fissile metal."
+		},
+		{
+			"to": "ai/alphago",
+			"why": "AlphaGo's tree search judged each position it reached half by its value network and half by the result of a quickly played random game, a Monte Carlo rollout."
+		}
+	]
+}

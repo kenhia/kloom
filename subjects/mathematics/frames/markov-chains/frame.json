@@ -1,0 +1,206 @@
+{
+	"id": "markov-chains",
+	"topic": "Markov chains",
+	"position": {
+		"label": "Markov chains"
+	},
+	"scene": {
+		"headline": "We counted Pushkin's",
+		"accent": "VOWELS.",
+		"palette": "printout",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ST PETERSBURG · ANDREY MARKOV · 1906–1913",
+			"EUGENE ONEGIN · 20,000 LETTERS · VOWEL OR CONSONANT"
+		],
+		"counter": {
+			"value": ".432",
+			"label": "the share of vowels in Markov's count, and his chain's settled value"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Example of Statistical Investigation of the Text Eugene Onegin Concerning the Connection of Samples in Chains",
+			"authors": [
+				{
+					"family": "Markov",
+					"given": "A. A."
+				}
+			],
+			"container": "Science in Context",
+			"published": "2006",
+			"volume": "19",
+			"issue": "4",
+			"pages": "591–600",
+			"doi": "10.1017/S0269889706001074",
+			"url": "http://www.alpha60.de/research/markov/DavidLink_AnExampleOfStatistical_MarkovTrans_2007.pdf",
+			"note": "The lecture of 23 January 1913, translated by Gloria Custance and David Link: the counts, p₁ = .128, p₀ = .663 and the dispersion test",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "First Links in the Markov Chain",
+			"authors": [
+				{
+					"family": "Hayes",
+					"given": "Brian"
+				}
+			],
+			"container": "American Scientist",
+			"published": "2013-03",
+			"volume": "101",
+			"issue": "2",
+			"pages": "92",
+			"doi": "10.1511/2013.101.92",
+			"url": "https://www.americanscientist.org/article/first-links-in-the-markov-chain",
+			"note": "Nekrasov and free will, the 1906 paper, the Bernoulli bicentenary; read through the Wayback Machine",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Markov chain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Markov_chain&oldid=1374578214",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Andrey Markov",
+			"url": "https://en.wikipedia.org/w/index.php?title=Andrey_Markov&oldid=1375002440",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "article",
+			"title": "A Mathematical Theory of Communication",
+			"authors": [
+				{
+					"family": "Shannon",
+					"given": "C. E."
+				}
+			],
+			"container": "Bell System Technical Journal",
+			"published": "1948-07",
+			"volume": "27",
+			"issue": "3",
+			"pages": "379–423",
+			"doi": "10.1002/j.1538-7305.1948.tb01338.x",
+			"url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+			"note": "Sections 3 and 4: the approximations to English and discrete Markoff processes",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+			"authors": [
+				{
+					"family": "Brin",
+					"given": "Sergey"
+				},
+				{
+					"family": "Page",
+					"given": "Lawrence"
+				}
+			],
+			"container": "Computer Networks and ISDN Systems",
+			"published": "1998",
+			"volume": "30",
+			"issue": "1–7",
+			"pages": "107–117",
+			"doi": "10.1016/S0169-7552(98)00110-X",
+			"url": "http://infolab.stanford.edu/~backrub/google.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "PageRank",
+			"url": "https://en.wikipedia.org/w/index.php?title=PageRank&oldid=1376480852",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "article",
+			"title": "Large Language Models as Markov Chains",
+			"authors": [
+				{
+					"family": "Zekri",
+					"given": "Oussama"
+				},
+				{
+					"family": "Odonnat",
+					"given": "Ambroise"
+				},
+				{
+					"family": "Benechehab",
+					"given": "Abdelhakim"
+				},
+				{
+					"family": "Bleistein",
+					"given": "Linus"
+				},
+				{
+					"family": "Boullé",
+					"given": "Nicolas"
+				},
+				{
+					"family": "Redko",
+					"given": "Ievgen"
+				}
+			],
+			"container": "arXiv preprint arXiv:2410.02724",
+			"published": "2024-10-03",
+			"url": "https://arxiv.org/abs/2410.02724",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Eugene Onegin, chapter one, the first edition, St Petersburg, 1825: the cover",
+			"url": "https://commons.wikimedia.org/wiki/File:Evgeny_Onegin_cover_1825.png",
+			"accessed": "2026-09-30",
+			"container": "Russian State Library Book Museum, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "onegin-1825.jpg",
+			"authors": [
+				{
+					"name": "Никита Андреев"
+				}
+			],
+			"published": "1825"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/shannon-entropy",
+			"why": "The 1948 paper in which Shannon defined entropy built its approximations to English letter by letter from the letters before, and called them discrete Markoff processes: Markov's Onegin chain, run the other way to write."
+		},
+		{
+			"to": "ai/next-token",
+			"why": "A model that draws each token from probabilities computed on a fixed window of preceding text is a Markov chain whose state is the window: Markov's vowel-after-consonant count, grown to a vocabulary and a context."
+		}
+	]
+}

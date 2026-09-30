@@ -1,0 +1,9 @@
+{
+	"id": "markov-chain",
+	"wikidata": "Q176645",
+	"name": "Markov chain",
+	"aliases": ["Markov chains", "Markov process"],
+	"kind": "idea",
+	"description": "A random process whose next step depends only on its present state, not on how it got there.",
+	"home": "mathematics/markov-chains"
+}

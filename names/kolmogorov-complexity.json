@@ -1,0 +1,8 @@
+{
+	"id": "kolmogorov-complexity",
+	"wikidata": "Q1456811",
+	"name": "Kolmogorov complexity",
+	"aliases": ["algorithmic complexity"],
+	"kind": "idea",
+	"description": "The length of the shortest program that produces a given string, a measure of how random it is."
+}
