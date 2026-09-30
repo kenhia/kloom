@@ -7,7 +7,7 @@
 		["John von Neumann", "john-von-neumann"],
 		["Wolfgang Pauli", "wolfgang-pauli"],
 		["Albert Einstein", "albert-einstein"],
-		["absorber theory", "wheelerfeynman-absorber-theory"]
+		["absorber theory", "wheeler-feynman-absorber-theory"]
 	],
 	"feynman/appendix-f": [
 		["Reagan", "ronald-reagan"],
@@ -369,7 +369,7 @@
 		["Cornell", "cornell-university"],
 		["Heisenberg", "werner-heisenberg"],
 		["Schrödinger's equation", "schrodinger-equation"],
-		["absorber theory", "wheelerfeynman-absorber-theory"],
+		["absorber theory", "wheeler-feynman-absorber-theory"],
 		["Hans Bethe", "hans-bethe"]
 	],
 	"feynman/path-integrals-today": [
@@ -377,7 +377,7 @@
 		["sum over histories", "path-integral-formulation"],
 		["Mark Kac", "mark-kac"],
 		["Norbert Wiener", "norbert-wiener"],
-		["Feynman–Kac formula", "feynmankac-formula"],
+		["Feynman–Kac formula", "feynman-kac-formula"],
 		["Albert Hibbs", "albert-hibbs"],
 		["Kenneth Wilson", "kenneth-g-wilson"],
 		["lattice QCD", "lattice-qcd"],
@@ -614,7 +614,7 @@
 	"feynman/thesis": [
 		["Feynman", "richard-feynman"],
 		["path integral", "path-integral-formulation"],
-		["absorber theory", "wheelerfeynman-absorber-theory"],
+		["absorber theory", "wheeler-feynman-absorber-theory"],
 		["principle of least action", "action-principles"],
 		["Herbert Jehle", "herbert-jehle"],
 		["Paul Dirac", "paul-dirac"],

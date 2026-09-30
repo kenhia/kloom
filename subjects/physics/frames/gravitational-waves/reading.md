@@ -10,7 +10,7 @@ In the 1960s Joseph Weber built the first detectors, metal cylinders that a pass
 
 ## A clock in orbit
 
-The first evidence came from the sky. In 1974 Russell Hulse and Joseph Taylor, using the 305-metre dish at Arecibo in Puerto Rico, found a pulsar in a binary system: the **[Hulse–Taylor pulsar](kloom:e/hulsetaylor-pulsar)**, a neutron star spinning 17 times a second in a 7.75-hour orbit round another neutron star. Its pulses are a clock, and over the years the clock showed the orbit shrinking as the pair lost energy. In 2016, from 35 years of timing, Joel Weisberg and Yuping Huang put the observed decay at 0.9983 ± 0.0016 times what general relativity predicts. Hulse and Taylor shared the 1993 Nobel Prize in Physics.
+The first evidence came from the sky. In 1974 Russell Hulse and Joseph Taylor, using the 305-metre dish at Arecibo in Puerto Rico, found a pulsar in a binary system: the **[Hulse–Taylor pulsar](kloom:e/hulse-taylor-pulsar)**, a neutron star spinning 17 times a second in a 7.75-hour orbit round another neutron star. Its pulses are a clock, and over the years the clock showed the orbit shrinking as the pair lost energy. In 2016, from 35 years of timing, Joel Weisberg and Yuping Huang put the observed decay at 0.9983 ± 0.0016 times what general relativity predicts. Hulse and Taylor shared the 1993 Nobel Prize in Physics.
 
 ## Hearing it
 

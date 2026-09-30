@@ -1,6 +1,6 @@
 {
 	"physics/electroweak": [
-		["Yang–Mills theory", "yangmills-theory"],
+		["Yang–Mills theory", "yang-mills-theory"],
 		["Sheldon Glashow", "sheldon-glashow"],
 		["Abdus Salam", "abdus-salam"],
 		["Steven\nWeinberg", "steven-weinberg"],
@@ -16,7 +16,7 @@
 		["Frank Wilczek", "frank-wilczek"],
 		["David Politzer", "hugh-david-politzer"],
 		["asymptotic freedom", "asymptotic-freedom"],
-		["PETRA", "positronelectron-tandem-ring-accelerator"]
+		["PETRA", "positron-electron-tandem-ring-accelerator"]
 	],
 	"physics/w-and-z": [
 		["Super Proton Synchrotron", "super-proton-synchrotron"],
@@ -25,7 +25,7 @@
 		["UA1", "ua1-experiment"],
 		["UA2", "ua2-experiment"],
 		["CERN", "cern"],
-		["Large Electron–Positron Collider", "large-electronpositron-collider"]
+		["Large Electron–Positron Collider", "large-electron-positron-collider"]
 	],
 	"physics/higgs": [
 		["Higgs boson", "higgs-boson"],

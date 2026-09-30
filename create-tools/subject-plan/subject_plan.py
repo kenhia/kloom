@@ -52,7 +52,7 @@ def main():
     ap.add_argument('--drafts', action='append', default=[], metavar='DIR',
                     help='with --complete: a directory of name drafts to merge into the copy\'s registry (repeatable)')
     ap.add_argument('--names', default=None, metavar='DIR',
-                    help='with --complete: the name registry (default: names/ beside the subject\'s parent)')
+                    help='with --complete: the name registry (default: the repository\'s names/)')
     a = ap.parse_args()
     if a.complete:
         src = a.subject
@@ -72,7 +72,7 @@ def main():
                 shutil.copytree(there, here)
         names = os.path.join(a.complete, '.names')
         shutil.rmtree(names, ignore_errors=True)
-        shutil.copytree(a.names or os.path.join(os.path.dirname(parent), 'names'), names)
+        shutil.copytree(a.names or os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'names'), names)
         for d in a.drafts:
             for f in os.listdir(d):
                 if f.endswith('.json'):

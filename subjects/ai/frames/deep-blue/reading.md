@@ -18,7 +18,7 @@ Deep Blue was a search engine in the literal sense. It looked ahead through
 the tree of possible moves and replies, scored the positions at the end of
 each line with an _evaluation function_, and backed the best score up the
 tree. The plate on the left shows the trick that makes this affordable,
-[_alpha–beta pruning_](kloom:e/alphabeta-pruning): once one reply is found that refutes a move, the rest of
+[_alpha–beta pruning_](kloom:e/alpha-beta-pruning): once one reply is found that refutes a move, the rest of
 that branch need not be searched at all. Its strength came from doing this
 very fast. Deep Blue's own designers described the 1997 machine as a 30-node
 IBM RS/6000 SP computer carrying **480 custom chess chips**, sixteen to a

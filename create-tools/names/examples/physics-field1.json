@@ -8,5 +8,21 @@
 		["Poynting vector", "poynting-vector"],
 		["luminiferous aether", "luminiferous-aether"],
 		["quantum field theory", "quantum-field-theory"]
+	],
+	"physics/oersted": [
+		["Hans Christian Ørsted", "hans-christian-orsted"],
+		["Johann Wilhelm\nRitter", "johann-wilhelm-ritter"],
+		["Charles-Augustin\nde Coulomb", "charles-augustin-de-coulomb"],
+		["Ampère", "andre-marie-ampere"],
+		["Humphry Davy", "humphry-davy"],
+		["François Arago", "francois-arago"]
+	],
+	"physics/ampere": [
+		["Academy of Sciences", "french-academy-of-sciences"],
+		["André-Marie\nAmpère", "andre-marie-ampere"],
+		["François Arago", "francois-arago"],
+		["Augustin Fresnel", "augustin-jean-fresnel"],
+		["Einstein–de Haas effect", "einstein-de-haas-effect"],
+		["ampere", "ampere"]
 	]
 }

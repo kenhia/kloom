@@ -80,7 +80,7 @@ His route was the more direct: Church himself wrote, in a review, that
 Turing's notion made the identification with effectiveness "evident
 immediately", and it was Church who coined the name "[Turing machine](kloom:e/turing-machine)". The
 claim that these equivalent definitions capture everything that can be
-computed by any mechanical method is the **[Church–Turing thesis](kloom:e/churchturing-thesis)**. It cannot
+computed by any mechanical method is the **[Church–Turing thesis](kloom:e/church-turing-thesis)**. It cannot
 be proved, because "mechanical method" is an informal idea, but every other
 definition proposed since has turned out to be equivalent, and it is almost
 universally accepted.
