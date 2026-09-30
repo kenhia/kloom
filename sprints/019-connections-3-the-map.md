@@ -135,3 +135,29 @@ way in. The open questions of look, none of them blocking:
 
 - None filed. The look questions above are for Ken's reaction on the
   branch, and change nothing another item depends on.
+
+## Deployed
+
+2026-09-29, `just deploy` (the `recipe: deploy` in `.sprint-deploy`) to the
+kloom service on kai. It ran from merged main `161fd30`, then again from
+`67af638` after a one-line fix (PR #22). Verifying the first deploy found
+that screen readers heard the library's first subject called "centre"; an
+edit to the announcement had missed after formatting. Both runs built the
+app, restarted `kloom.service`, and `just verify` passed all eight door
+checks. The content clone is at `67af638` on `grow/kai`.
+
+Verified live on the ssh door (:4891), on this sprint's own behaviour:
+
+- `GET /api/map` serves 4 subjects, 222 frames, 107 connections and 1,111
+  names. `/ai/turing-machine` carries the map button, `Map (M)`.
+- Keyboard only, in Chromium against the service:
+  - The start screen's "Map of the library" opens the library, with no
+    centre announced.
+  - The arrows and Home move between subjects, and Space opens the
+    Computing subject. Backspace steps back, and Esc returns focus to the
+    button.
+  - M on `ai/turing-machine`, then Space on Alan Turing, opens his name
+    view. Enter on a Computing frame jumps to `/computing/tunny` with the
+    "↩ Back to We built a machine of PAPER" chip, and focus lands on the
+    spine.
+- No page errors, and no errors in the service's journal since the restart.
