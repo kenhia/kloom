@@ -120,6 +120,19 @@ def main():
         for f in sorted(have - placed):
             shutil.rmtree(os.path.join(frames_dir, f))
             print(f'subject_plan: left {f} out of the copy: it is on no spine yet (is its trail\'s anchor written?)')
+    if a.complete:
+        # A draft's home may be a frame another author has not written yet; in the copy only,
+        # such a home is dropped rather than failing everyone's check (sprint 021).
+        names = os.path.join(a.complete, '.names')
+        for f in os.listdir(names):
+            path = os.path.join(names, f)
+            with open(path) as fh:
+                name = json.load(fh)
+            subject, _, frame = name.get('home', '').partition('/')
+            if frame and not os.path.isfile(os.path.join(a.complete, subject, 'frames', frame, 'frame.json')):
+                del name['home']
+                with open(path, 'w') as fh:
+                    json.dump(name, fh, ensure_ascii=False, indent='\t')
     print(f'subject_plan: {len(planned) - len(missing)} of {len(planned)} planned frames on the spine and trails')
 
 

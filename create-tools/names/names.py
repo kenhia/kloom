@@ -69,8 +69,9 @@ LETTERS = str.maketrans({'Ø': 'O', 'ø': 'o', 'Æ': 'AE', 'æ': 'ae', 'Œ': 'OE
 
 
 def slug(title):
-    """An id from a title: accents and apostrophes dropped (Gödel -> godel, Moore's -> moores), & as and."""
-    plain = unicodedata.normalize('NFKD', title.translate(LETTERS)).encode('ascii', 'ignore').decode()
+    """An id from a title: accents and apostrophes dropped (Gödel -> godel, Moore's -> moores), & as and,
+    and an en or em dash a break between words (Hellmann–Feynman -> hellmann-feynman, sprint 021)."""
+    plain = unicodedata.normalize('NFKD', title.translate(LETTERS).replace('–', ' ').replace('—', ' ')).encode('ascii', 'ignore').decode()
     plain = re.sub(r"['’]", '', plain).replace('&', ' and ')
     return re.sub(r'[^a-z0-9]+', '-', plain.lower()).strip('-')
 

@@ -18,7 +18,7 @@ Slater gave him his senior thesis problem: why does quartz expand so little when
 
 Slater and **Conyers Herring** thought it should be published. "Forces in Molecules" appeared in _Physical Review_ on 15 August 1939, pages 340 to 343. Feynman himself soon decided it was trivial, a consequence of first-order perturbation theory that could be written in half a line, and was surprised a decade later to hear that chemists were arguing about it.
 
-It is now the **[Hellmann–Feynman theorem](kloom:e/hellmannfeynman-theorem)**, and Feynman was not first. The same statement had been proved by **Paul Güttinger** in 1932, noted by **[Wolfgang Pauli](kloom:e/wolfgang-pauli)** in 1933, and set out by **[Hans Hellmann](kloom:e/hans-hellmann)** in his textbook of quantum chemistry in 1937. Hellmann had been dismissed from his post in Hanover in 1933 because his wife was Jewish, emigrated to Moscow, and was shot in the Great Purge in May 1938, a year before Feynman's paper appeared.
+It is now the **[Hellmann–Feynman theorem](kloom:e/hellmann-feynman-theorem)**, and Feynman was not first. The same statement had been proved by **Paul Güttinger** in 1932, noted by **[Wolfgang Pauli](kloom:e/wolfgang-pauli)** in 1933, and set out by **[Hans Hellmann](kloom:e/hans-hellmann)** in his textbook of quantum chemistry in 1937. Hellmann had been dismissed from his post in Hanover in 1933 because his wife was Jewish, emigrated to Moscow, and was shot in the Great Purge in May 1938, a year before Feynman's paper appeared.
 
 | Year | Who             | Where                                              |
 | ---- | --------------- | -------------------------------------------------- |
