@@ -5,6 +5,12 @@
 			"title": "Fire and earth",
 			"labelKind": "date",
 			"frames": ["copper-smelting", "tyrian-purple", "clay-recipes"]
+		},
+		{
+			"id": "industry",
+			"title": "Industry",
+			"labelKind": "category",
+			"frames": ["chemical-warfare", "polymers", "leaded-petrol"]
 		}
 	]
 }
