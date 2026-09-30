@@ -314,3 +314,21 @@ option and a JPEG route in `commons_media`, dates before AD 1000 in
 `published`, per-frame topics and palettes in the plan, one plate
 collector for every subject) is on korg 3461, which exists to weigh this
 run's findings with the next two before the skill changes.
+
+## Deployed
+
+2026-09-30, by `just deploy` (the `recipe: deploy` in `.sprint-deploy`),
+from merged `main` at `998ce70`, to the kloom service on kai. The
+service's content clone is at the same commit.
+
+- `just verify` passed all eight door checks: the tailnet door refuses
+  anonymous writes and reader-data reads, and the ssh door lets its reader
+  through.
+- **The sprint's work, live on both doors (:4890 and :4891), each 200:**
+  - `/mathematics`;
+  - `/mathematics/ybc-7289` (main spine), whose page carries "TWO.";
+  - `/mathematics/banach-tarski` (a trail frame), whose page carries
+    "BALL.";
+  - `/media/mathematics/ybc-7289/ybc-7289.jpg`;
+  - `/api/start/mathematics` (the start screen's look, with the clay and
+    vellum palettes).
