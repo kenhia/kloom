@@ -1,6 +1,6 @@
 Fission splits the heaviest nuclei. The lightest
 release energy by joining. Four hydrogen nuclei that become
-one of helium lose about seven-tenths of one per cent of their mass. Fission, by my
+one of helium lose about seven-tenths of one per cent of their mass. Fission, by our
 own arithmetic (200 MeV from 236 units of mass), turns under a tenth of one per cent.
 We learned fusion from the stars, made it a weapon, and after seventy years
 have not made it a power station.
@@ -42,7 +42,7 @@ first Soviet atomic test, President Truman ordered a full-scale programme in
 January 1950. In March 1951 Teller and the mathematician Stanisław Ulam
 described a design in which radiation from a fission stage compresses a
 separate fusion stage, and on 1 November 1952 the United States tested it at
-Enewetak Atoll in the Pacific. **[Ivy Mike](kloom:e/ivy-mike)** yielded 10.4 megatons, by my
+Enewetak Atoll in the Pacific. **[Ivy Mike](kloom:e/ivy-mike)** yielded 10.4 megatons, by our
 arithmetic some five hundred times the Nagasaki bomb, and left a crater 1.9 kilometres wide
 where the island of Elugelab had been.
 

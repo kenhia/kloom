@@ -302,6 +302,10 @@
 		{
 			"to": "feynman/weak-force",
 			"why": "Fermi's 1933 theory of beta decay, built on Pauli's neutrino, is the interaction whose form Feynman and Gell-Mann settled in 1957 as V − A, acting only on left-handed particles."
+		},
+		{
+			"to": "physics/fusion",
+			"why": "The Sun's fusion makes the neutrinos that Davis counted at Homestake, and found too few."
 		}
 	]
 }

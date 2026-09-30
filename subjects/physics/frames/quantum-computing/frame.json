@@ -332,6 +332,14 @@
 		{
 			"to": "physics/superconductivity",
 			"why": "The transmon qubit is a Josephson junction, and the 2025 Nobel Prize went for showing that such a superconducting circuit behaves as one quantum object."
+		},
+		{
+			"to": "physics/reversible-computing",
+			"why": "A quantum computer's gates are unitary, and so reversible, as Bennett's computation was."
+		},
+		{
+			"to": "physics/entanglement",
+			"why": "Entanglement is one of the resources a quantum computer runs on; Bell's tests showed it is real."
 		}
 	]
 }

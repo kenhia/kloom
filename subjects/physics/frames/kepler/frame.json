@@ -163,6 +163,10 @@
 		{
 			"to": "physics/ptolemy",
 			"why": "Kepler's ellipses in the Astronomia nova of 1609 wholly replaced Ptolemy's circles, and the empty focus stands about where Ptolemy put the equant."
+		},
+		{
+			"to": "physics/copernicus",
+			"why": "Kepler kept Copernicus's Sun at the centre but replaced the circles and epicycles Copernicus had kept with ellipses."
 		}
 	]
 }

@@ -78,7 +78,7 @@ implosion bomb, Fat Man, Nagasaki on 9 August. Neither was efficient. Fat
 Man fissioned about one kilogram of its 6.2 kilograms of plutonium. Little
 Boy carried 64 kilograms of uranium; its yield, never measured directly,
 has been estimated at anything from 12 to 16.6 kilotons, with 15 the usual
-figure. By my own arithmetic, taking Fat Man's 21 kilotons per kilogram,
+figure. By our own arithmetic, taking Fat Man's 21 kilotons per kilogram,
 that is about seven-tenths of a kilogram fissioned, near one per cent.
 
 How many the bombs killed is not known exactly; records were lost and

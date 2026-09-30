@@ -218,6 +218,10 @@
 		{
 			"to": "feynman/qed-book",
 			"why": "Einstein's quantum of light is the photon of Feynman's QED, where a detector clicks one photon at a time and nothing predicts which photon will be reflected."
+		},
+		{
+			"to": "physics/black-body",
+			"why": "Einstein's light quanta gave Planck's h to light itself, the discontinuity Planck had kept to his resonators."
 		}
 	]
 }

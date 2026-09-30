@@ -175,6 +175,10 @@
 		{
 			"to": "physics/aristotle-motion",
 			"why": "Aristotle held that a mover must touch what it moves and that there is no void; Newton's gravity broke both rules, and Newton himself called acting through a vacuum absurd, until the field filled the space again."
+		},
+		{
+			"to": "physics/coulomb",
+			"why": "Coulomb's inverse-square forces act at a distance; the field was the answer to how they cross empty space."
 		}
 	]
 }

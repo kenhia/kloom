@@ -329,5 +329,11 @@
 			],
 			"published": "2026"
 		}
+	],
+	"connections": [
+		{
+			"to": "physics/michelson-morley",
+			"why": "LIGO's detectors are Michelson interferometers with arms four kilometres long."
+		}
 	]
 }

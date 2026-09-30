@@ -51,11 +51,11 @@ and no process that leaves nothing else changed can take it back. The
 plate draws that leak, and the rise of entropy towards the ceiling it
 cannot pass.
 
-| Invented example        | Heat, J | Temperature, K | Entropy change, J/K |
-| ----------------------- | ------: | -------------: | ------------------: |
-| The hot body            |  −1,000 |            400 |               −2.50 |
-| The cold body           |  +1,000 |            300 |               +3.33 |
-| The two together, by me |       0 |              — |               +0.83 |
+| Invented example       | Heat, J | Temperature, K | Entropy change, J/K |
+| ---------------------- | ------: | -------------: | ------------------: |
+| The hot body           |  −1,000 |            400 |               −2.50 |
+| The cold body          |  +1,000 |            300 |               +3.33 |
+| The two together, ours |       0 |              — |               +0.83 |
 
 The memoir ends by turning the two laws on the whole world.
 

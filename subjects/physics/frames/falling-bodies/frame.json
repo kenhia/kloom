@@ -185,6 +185,10 @@
 		{
 			"to": "western-civ/moon-landing",
 			"why": "On the Moon Apollo 11 reached, the Apollo 15 crew dropped a hammer and a feather in 1971, and with no air they landed together as Galileo had said."
+		},
+		{
+			"to": "physics/merton-calculators",
+			"why": "Galileo's times-squared law is the Merton mean speed theorem applied to free fall, which that frame proves with Oresme's triangle."
 		}
 	]
 }

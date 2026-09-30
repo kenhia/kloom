@@ -183,6 +183,10 @@
 		{
 			"to": "physics/kepler",
 			"why": "Kepler was the first astronomer to back the Sidereus Nuncius in print, in 1610, and Galileo sent him his discovery of the phases of Venus as an anagram."
+		},
+		{
+			"to": "physics/copernicus",
+			"why": "Galileo's phases of Venus were evidence for the Copernican arrangement, and it was Copernicanism the Church suspended in 1616."
 		}
 	]
 }

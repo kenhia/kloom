@@ -192,6 +192,10 @@
 		{
 			"to": "computing/where-computing-is",
 			"why": "Computing's present-day frame sets the world's fastest machine against Landauer's kT ln 2: some ten thousand million times above it for each floating-point operation."
+		},
+		{
+			"to": "physics/szilard-engine",
+			"why": "The same kT ln 2: Szilard charged it to the demon's measurement, Landauer to erasing a bit."
 		}
 	]
 }

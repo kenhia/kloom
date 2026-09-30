@@ -211,6 +211,10 @@
 		{
 			"to": "feynman/quantum-computers",
 			"why": "Feynman built his 1985 quantum mechanical computer from the reversible gates of Bennett, Fredkin and Toffoli, the Toffoli gate among them."
+		},
+		{
+			"to": "physics/maxwells-demon",
+			"why": "Bennett's 1982 exorcism of Maxwell's demon: the cost is in erasing the demon's memory, not in measuring."
 		}
 	]
 }

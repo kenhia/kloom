@@ -227,6 +227,10 @@
 		{
 			"to": "ai/boltzmann-machine",
 			"why": "The Boltzmann distribution the machine samples from is, as Jaynes argued in 1957, the distribution of greatest Shannon entropy for a given average energy."
+		},
+		{
+			"to": "physics/boltzmann-entropy",
+			"why": "Shannon's H has the same form as Boltzmann's entropy, apart from the constant k and the base of the logarithm."
 		}
 	]
 }

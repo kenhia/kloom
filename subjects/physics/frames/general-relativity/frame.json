@@ -295,6 +295,14 @@
 		{
 			"to": "western-civ/moon-landing",
 			"why": "The laser reflector Apollo 11 left at Tranquility Base has been ranged from Earth ever since, and shows that the Earth and the Moon fall towards the Sun alike, as general relativity's equivalence principle requires."
+		},
+		{
+			"to": "physics/special-relativity",
+			"why": "Special relativity of 1905 left gravity out; general relativity was ten years' work to bring it in."
+		},
+		{
+			"to": "physics/principia",
+			"why": "Newton's gravity left 43 seconds of arc a century of Mercury's perihelion unexplained; general relativity accounted for them."
 		}
 	]
 }

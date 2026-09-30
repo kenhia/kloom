@@ -187,6 +187,10 @@
 		{
 			"to": "computing/harvard-mark-i",
 			"why": "The implosion design's calculations outran hand computers; in 1944 von Neumann had them run on the Harvard Mark I."
+		},
+		{
+			"to": "physics/fission",
+			"why": "The project turned the chain reaction of fission, first sustained in Chicago Pile-1, into bombs."
 		}
 	]
 }

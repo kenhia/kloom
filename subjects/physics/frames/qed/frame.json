@@ -216,6 +216,10 @@
 		{
 			"to": "feynman/magnetic-moment",
 			"why": "Schwinger's α/2π was the first finite prediction of renormalised QED; the electron's magnetic moment is still where the theory is tested hardest, to about a part in a trillion."
+		},
+		{
+			"to": "physics/antimatter",
+			"why": "QED starts from Dirac's equation for the electron, the same equation that predicted the positron."
 		}
 	]
 }

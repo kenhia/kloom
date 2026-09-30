@@ -130,6 +130,14 @@
 		{
 			"to": "feynman/lamb-shift",
 			"why": "Bohr's ladder puts hydrogen's n = 2 states on one rung; Sommerfeld's and later Dirac's refinements split the rung by fine structure, and in 1947 Lamb measured a split between two of its states that neither predicted."
+		},
+		{
+			"to": "physics/spectra",
+			"why": "Balmer's formula, posed as a puzzle in the spectra of hydrogen, is what the Bohr atom explained."
+		},
+		{
+			"to": "physics/nucleus",
+			"why": "Bohr built his atom on Rutherford's nucleus, to explain why its electrons did not spiral in."
 		}
 	]
 }

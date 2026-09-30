@@ -173,6 +173,14 @@
 		{
 			"to": "western-civ/si-redefinition",
 			"why": "Planck introduced the constant h in his black-body law of December 1900; since 2019 its value is fixed at exactly 6.62607015 × 10⁻³⁴ joule-seconds, and it defines the kilogram."
+		},
+		{
+			"to": "physics/boltzmann-entropy",
+			"why": "Planck wrote Boltzmann's entropy as S = k log W and gave k its first value in the black-body work."
+		},
+		{
+			"to": "physics/spectra",
+			"why": "Kirchhoff, who read the elements in the Sun's spectrum, defined the black body in 1859–60."
 		}
 	]
 }

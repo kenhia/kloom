@@ -236,6 +236,10 @@
 		{
 			"to": "feynman/legacy",
 			"why": "The Higgs rates ATLAS and CMS compare with are computed from Feynman diagrams, to high order, as are all the LHC's predictions."
+		},
+		{
+			"to": "physics/superconductivity",
+			"why": "Anderson's point that a superconductor gives the photon a mass was a model for the Higgs mechanism."
 		}
 	]
 }

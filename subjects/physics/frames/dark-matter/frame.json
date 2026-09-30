@@ -366,6 +366,10 @@
 		{
 			"to": "western-civ/jwst",
 			"why": "Webb's first deep field looks through the cluster SMACS 0723, whose mass bends and magnifies the galaxies behind it: the lensing by which dark matter is weighed."
+		},
+		{
+			"to": "physics/standard-model",
+			"why": "No particle in the Standard Model can be the dark matter, which is why the searches look for new ones."
 		}
 	]
 }

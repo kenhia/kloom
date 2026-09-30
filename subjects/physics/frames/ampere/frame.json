@@ -177,6 +177,10 @@
 		{
 			"to": "feynman/magnetic-moment",
 			"why": "Einstein and de Haas looked for Ampère's molecular currents and found a ratio that fitted orbiting charges; iron's true ratio, a g-factor near 2, belongs to the electron's spin, the number that frame follows to twelve digits."
+		},
+		{
+			"to": "physics/oersted",
+			"why": "Ampère began his experiments within weeks of hearing of Ørsted's needle, and turned it into a law of force between currents."
 		}
 	]
 }

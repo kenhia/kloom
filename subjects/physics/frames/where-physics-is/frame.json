@@ -319,6 +319,10 @@
 		{
 			"to": "feynman/magnetic-moment",
 			"why": "The muon's g − 2, measured at Fermilab, is the same quantity for a heavier particle as the electron's g-factor that frame follows, the most precisely measured and calculated quantity in physics."
+		},
+		{
+			"to": "physics/standard-model",
+			"why": "The hierarchy problem, and the LHC's finding nothing beyond the Standard Model, are among the open questions."
 		}
 	]
 }

@@ -363,6 +363,10 @@
 		{
 			"to": "western-civ/jwst",
 			"why": "Webb, whose launch, unfolding and first deep field that frame tells, is the telescope that checked the ladder's Cepheids for the Hubble tension and found MoM-z14, 280 million years after the Big Bang."
+		},
+		{
+			"to": "physics/cmb",
+			"why": "Planck's six-parameter model of the universe, one side of the Hubble tension, is read from the microwave background."
 		}
 	]
 }

@@ -155,6 +155,10 @@
 		{
 			"to": "western-civ/maxwell",
 			"why": "Maxwell wrote in 1864 that the electromagnetic theory of light was \"the same in substance\" as Faraday's 1846 speculation that light is a vibration of the lines of force."
+		},
+		{
+			"to": "physics/young-slits",
+			"why": "Faraday's 1846 speculation needed sideways vibrations, as the polarisation of light that the wave theory explained requires."
 		}
 	]
 }

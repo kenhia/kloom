@@ -176,6 +176,10 @@
 		{
 			"to": "feynman/partons",
 			"why": "The same method sixty years apart: Rutherford found the nucleus from alpha particles scattered through large angles, and SLAC's electrons, scattered hard off protons, found the partons inside them."
+		},
+		{
+			"to": "physics/electron",
+			"why": "Rutherford's nucleus replaced Thomson's plum-pudding atom, with its electrons spread through a sphere of positive charge."
 		}
 	]
 }

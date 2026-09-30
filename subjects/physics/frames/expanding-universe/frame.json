@@ -244,6 +244,14 @@
 		{
 			"to": "physics/ptolemy",
 			"why": "Ptolemy gave the universe a size, twenty thousand Earth radii to the stars; Leavitt's Cepheids and Hubble's distances replaced it with galaxies millions of light-years away."
+		},
+		{
+			"to": "physics/general-relativity",
+			"why": "Friedmann and Lemaître found the expanding universe as solutions of Einstein's equations before Hubble saw it."
+		},
+		{
+			"to": "physics/spectra",
+			"why": "The redshifts that measure the expansion are shifts of spectral lines, Fraunhofer's and Kirchhoff's."
 		}
 	]
 }

@@ -199,6 +199,10 @@
 		{
 			"to": "western-civ/maxwell",
 			"why": "Young and Fresnel showed that light is a transverse wave but not what waves; Maxwell's equations of 1865 answered that it is the electromagnetic field."
+		},
+		{
+			"to": "physics/prism",
+			"why": "Young set his wave theory against Newton's corpuscles, and worked out wavelengths from Newton's own measurements of coloured rings."
 		}
 	]
 }

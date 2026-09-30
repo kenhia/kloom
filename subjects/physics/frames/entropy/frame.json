@@ -167,6 +167,14 @@
 		{
 			"to": "western-civ/steam",
 			"why": "Clausius's first memoir on the second law opens with the steam engine, and the law says why Watt's separate condenser mattered: an engine turns heat into work only by passing some of it to a colder body."
+		},
+		{
+			"to": "physics/carnot",
+			"why": "Clausius reconciled Carnot's heat falling through an engine with Joule's heat turned into work, and from that came entropy."
+		},
+		{
+			"to": "physics/energy",
+			"why": "Clausius's two laws of the universe: the energy of the universe is constant, and its entropy tends to a maximum."
 		}
 	]
 }

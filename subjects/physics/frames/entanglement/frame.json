@@ -253,6 +253,10 @@
 		{
 			"to": "computing/tls",
 			"why": "Quantum key distribution and TLS's post-quantum key exchange answer the same threat, a computer running Shor's algorithm: one rests a key's secrecy on entangled physics, the other, now deployed in browsers, on the mathematics of lattices."
+		},
+		{
+			"to": "physics/quantum-mechanics",
+			"why": "EPR grew out of Einstein's objection, at Solvay and after, that quantum mechanics was incomplete."
 		}
 	]
 }

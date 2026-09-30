@@ -301,6 +301,10 @@
 		{
 			"to": "computing/eniac",
 			"why": "ENIAC's first problem, run from December 1945, was a Los Alamos calculation on Teller's thermonuclear Super, the bomb this frame's Ivy Mike became."
+		},
+		{
+			"to": "physics/manhattan-project",
+			"why": "The hydrogen bomb followed the project's fission bombs; the first, Ivy Mike in 1952, was about 500 times Nagasaki."
 		}
 	]
 }

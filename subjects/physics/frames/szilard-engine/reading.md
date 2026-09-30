@@ -45,7 +45,7 @@ In step 3 the one-molecule gas pushes the piston as any gas would, and the
 bath keeps its temperature up, so heat flows in from the bath and leaves
 as work. By the ideal-gas law with one molecule, _pV_ = _kT_, doubling the
 volume at steady temperature yields work _kT_ ln 2. At room temperature,
-300 kelvin, that is about 2.9 × 10⁻²¹ joules, my arithmetic from the
+300 kelvin, that is about 2.9 × 10⁻²¹ joules, our arithmetic from the
 exact value of _k_. Small, but the cycle can be repeated forever, and it
 draws work from a single bath with no colder body to spill heat into,
 which is what Thomson's statement of the second law forbids. Everything turns on step 2. Without knowing which side the

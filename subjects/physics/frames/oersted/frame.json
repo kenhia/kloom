@@ -154,6 +154,10 @@
 		{
 			"to": "western-civ/faraday-induction",
 			"why": "Faraday's search for induction began from this experiment run backwards: if a current makes magnetism, could magnetism make a current?"
+		},
+		{
+			"to": "physics/coulomb",
+			"why": "Ørsted's needle overturned the view, taken from Coulomb's work, that electricity and magnetism could not act on each other."
 		}
 	]
 }

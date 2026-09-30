@@ -372,6 +372,10 @@
 		{
 			"to": "physics/expanding-universe",
 			"why": "The microwave background was the evidence for Lemaître's primeval atom that the receding galaxies alone could not give, and he heard of it shortly before he died in 1966."
+		},
+		{
+			"to": "physics/black-body",
+			"why": "COBE found the microwave background's spectrum to be a black body's: Planck's curve, at 2.725 K."
 		}
 	]
 }

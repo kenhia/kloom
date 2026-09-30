@@ -212,6 +212,10 @@
 		{
 			"to": "physics/matrix-mechanics",
 			"why": "In the spring of 1926 Schrödinger showed that his wave mechanics and the matrices of Heisenberg, Born and Jordan give the same answers: two formulations, from rival schools, of one theory."
+		},
+		{
+			"to": "physics/de-broglie",
+			"why": "Schrödinger turned de Broglie's matter waves into an equation."
 		}
 	]
 }

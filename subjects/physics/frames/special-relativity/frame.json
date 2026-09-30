@@ -232,6 +232,14 @@
 		{
 			"to": "western-civ/metre-survey",
 			"why": "Since 1983 the metre is the distance light travels in 1/299,792,458 of a second, a definition that rests on Einstein's postulate that every observer measures the same speed of light."
+		},
+		{
+			"to": "physics/michelson-morley",
+			"why": "The null result for the ether is what special relativity made expected; whether it led Einstein there is disputed."
+		},
+		{
+			"to": "physics/the-field",
+			"why": "The 1905 paper is 'On the Electrodynamics of Moving Bodies': it opens with a magnet and a conductor, and left the field needing no medium."
 		}
 	]
 }

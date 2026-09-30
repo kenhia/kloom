@@ -250,6 +250,10 @@
 		{
 			"to": "western-civ/dna",
 			"why": "Laue's diffraction of X-rays by crystals in 1912 became X-ray crystallography, the method Rosalind Franklin used to take Photo 51."
+		},
+		{
+			"to": "physics/electron",
+			"why": "Röntgen's rays came from where the cathode rays, soon shown to be electrons, struck the glass of the tube."
 		}
 	]
 }

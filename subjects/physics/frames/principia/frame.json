@@ -176,6 +176,10 @@
 		{
 			"to": "western-civ/metre-survey",
 			"why": "The Principia predicted an Earth flattened at the poles; a century later the metre survey had to assume a value of that flattening to turn its arc into a metre."
+		},
+		{
+			"to": "physics/kepler",
+			"why": "The Principia derived Kepler's laws of planetary motion from an inverse-square gravity."
 		}
 	]
 }

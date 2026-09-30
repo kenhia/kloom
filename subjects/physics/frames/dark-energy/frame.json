@@ -399,6 +399,14 @@
 		{
 			"to": "physics/cosmology-now",
 			"why": "Whether dark energy changes, as DESI's data hint, is a question the surveys that frame describes, Euclid, Rubin and Roman, were built to answer."
+		},
+		{
+			"to": "physics/general-relativity",
+			"why": "The cosmological constant is a term in Einstein's field equations, added in 1917 to hold the universe still."
+		},
+		{
+			"to": "physics/expanding-universe",
+			"why": "Hubble's expanding universe of 1929 is why Einstein dropped the constant that dark energy brought back."
 		}
 	]
 }
