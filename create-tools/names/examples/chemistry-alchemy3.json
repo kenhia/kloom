@@ -1,0 +1,32 @@
+{
+	"chemistry/type-metal": [
+		["Gutenberg", "johannes-gutenberg"],
+		["Mainz", "mainz"],
+		["type metal", "type-metal"],
+		["antimony", "antimony"],
+		["Vannoccio Biringuccio", "vannoccio-biringuccio"],
+		["Hans Sachs", "hans-sachs"],
+		["eutectic", "eutectic-system"],
+		["Wittenberg", "wittenberg"]
+	],
+	"chemistry/paracelsus": [
+		["Johann Froben", "johann-froben"],
+		["Erasmus", "erasmus"],
+		["Basel", "basel"],
+		["Paracelsus", "paracelsus"],
+		["_Canon of Medicine_", "the-canon-of-medicine"],
+		["syphilis", "syphilis"],
+		["mercury", "mercury-element"],
+		["arsenic", "arsenic"]
+	],
+	"chemistry/agricola": [
+		["Joachimsthal", "jachymov"],
+		["silver", "silver"],
+		["Georgius Agricola", "georgius-agricola"],
+		["_De re metallica_", "de-re-metallica"],
+		["cupellation", "cupellation"],
+		["lead", "lead"],
+		["Herbert Hoover", "herbert-hoover"],
+		["Lou Henry Hoover", "lou-henry-hoover"]
+	]
+}

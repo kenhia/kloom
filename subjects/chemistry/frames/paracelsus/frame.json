@@ -1,0 +1,215 @@
+{
+	"id": "paracelsus",
+	"topic": "Paracelsus and iatrochemistry",
+	"position": {
+		"label": "1527",
+		"sort": 1527
+	},
+	"scene": {
+		"headline": "We learned the dose makes the",
+		"accent": "POISON.",
+		"palette": "furnace",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BASEL · THEOPHRASTUS VON HOHENHEIM",
+			"SULFUR · MERCURY · SALT · THE THIRD DEFENCE, 1538"
+		],
+		"counter": {
+			"value": "1 drachm",
+			"label": "of white arsenic kills a horse, he wrote"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Paracelsus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paracelsus&oldid=1376844521",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Die dritte Defension wegen des Schreibens der neuen Rezepte",
+			"authors": [
+				{
+					"name": "Paracelsus"
+				}
+			],
+			"container": "Werke, Band 1",
+			"editors": [
+				{
+					"family": "Peuckert",
+					"given": "Will-Erich"
+				}
+			],
+			"place": "Darmstadt",
+			"published": "1965",
+			"pages": "508–512",
+			"url": "http://www.zeno.org/Philosophie/M/Paracelsus/Septem+Defensiones/Die+dritte+Defension+wegen+des+Schreibens+der+neuen+Rezepte",
+			"accessed": "2026-09-30",
+			"note": "The third of the Septem Defensiones, written in 1538: the dose and the arsenic fired with saltpetre. Read at Zeno.org; translations are ours"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Paracelsus in Basel",
+			"container": "Unigeschichte, Universität Basel",
+			"url": "https://unigeschichte.unibas.ch/fakultaeten-und-faecher/philnat-fakultaet/zur-geschichte-der-philnat-fakultaet/pharmazeutische-wissenschaften/paracelsus",
+			"accessed": "2026-09-30",
+			"note": "Froben, Erasmus, the lectures in German and the fire of St John"
+		},
+		{
+			"kind": "chapter",
+			"title": "Avicenna xiii. The Influence of Avicenna on Medical Studies in the West",
+			"authors": [
+				{
+					"family": "Weisser",
+					"given": "Ursula"
+				}
+			],
+			"container": "Encyclopaedia Iranica",
+			"volume": "3",
+			"pages": "107–110",
+			"published": "1987-12-15",
+			"url": "https://www.iranicaonline.org/articles/avicenna-xiii/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "chapter",
+			"title": "Alchimia, der dritte Grund medicinae",
+			"authors": [
+				{
+					"name": "Paracelsus"
+				}
+			],
+			"container": "Das Buch Paragranum, in Werke, Band 1",
+			"editors": [
+				{
+					"family": "Peuckert",
+					"given": "Will-Erich"
+				}
+			],
+			"place": "Darmstadt",
+			"published": "1965",
+			"url": "http://www.zeno.org/Philosophie/M/Paracelsus/Das+Buch+Paragranum/Alchimia,+der+dritte+Grund+medicinae",
+			"pages": "544–565",
+			"accessed": "2026-09-30",
+			"note": "Written in 1530; read at Zeno.org"
+		},
+		{
+			"kind": "web",
+			"title": "Inorganic Arsenical Toxicosis in Animals",
+			"authors": [
+				{
+					"family": "Garland",
+					"given": "Tam"
+				}
+			],
+			"container": "Merck Veterinary Manual",
+			"publisher": "Merck & Co.",
+			"published": "2024-09",
+			"url": "https://www.merckvetmanual.com/toxicology/arsenic-poisoning/inorganic-arsenical-toxicosis-in-animals",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of syphilis",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_syphilis&oldid=1377145462",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zinc",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zinc&oldid=1376827176",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arsenic trioxide",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arsenic_trioxide&oldid=1367976118",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Apothecaries' system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apothecaries'_system&oldid=1344214947",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paracelsianism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paracelsianism&oldid=1352554634",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-04"
+		},
+		{
+			"kind": "media",
+			"title": "Paracelsus at 45, woodcut portrait by Augustin Hirschvogel with his motto, 1538",
+			"url": "https://commons.wikimedia.org/wiki/File:Hirschvogel_Paracelsus.jpg",
+			"accessed": "2026-09-30",
+			"container": "Via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "paracelsus-1538.jpg",
+			"authors": [
+				{
+					"name": "Augustin Hirschvogel"
+				}
+			],
+			"published": "1538"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/erasmus-greek-nt",
+			"why": "Paracelsus came to Basel in 1527 to treat Johann Froben, the printer of Erasmus’s Greek New Testament, and Erasmus, lodging in Froben’s house, asked him to stay."
+		}
+	]
+}

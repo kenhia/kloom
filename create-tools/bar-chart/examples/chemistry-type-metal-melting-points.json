@@ -1,0 +1,31 @@
+{
+	"title": "Where lead, antimony and their mixtures melt",
+	"description": "Bar chart of melting points in degrees Celsius. Antimony, 631. Lead, 327. Lead with about 13 per cent antimony, the lead–antimony eutectic, 247 (National Bureau of Standards, 1936; Wikipedia gives 252 at 12 per cent). Lead with 12 per cent antimony and 4 per cent tin, the three-metal eutectic, 239 (Berger, after Osamura). The ideal-solution estimate for lead and antimony, from their melting points and heats of melting alone, 245 at 8.8 per cent antimony, is this frame's arithmetic.",
+	"heading": "MELTING POINT · °C",
+	"unit": " °C",
+	"width": 520,
+	"height": 300,
+	"barWidth": 60,
+	"axis": {
+		"max": 700,
+		"ticks": [
+			[0, "0"],
+			[200, "200"],
+			[400, "400"],
+			[600, "600"]
+		]
+	},
+	"bars": [
+		{ "label": "Antimony", "sublabel": "Sb", "value": 631, "display": "631" },
+		{ "label": "Lead", "sublabel": "Pb", "value": 327, "display": "327" },
+		{ "label": "Pb + Sb", "sublabel": "13% Sb", "value": 247, "display": "247" },
+		{ "label": "Ideal", "sublabel": "8.8% Sb", "value": 245, "display": "245" },
+		{
+			"label": "+ tin",
+			"sublabel": "12% Sb 4% Sn",
+			"value": 239,
+			"display": "239",
+			"highlight": true
+		}
+	]
+}
