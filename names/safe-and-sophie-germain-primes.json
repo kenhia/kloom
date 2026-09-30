@@ -1,0 +1,8 @@
+{
+	"id": "safe-and-sophie-germain-primes",
+	"wikidata": "Q105971314",
+	"name": "Safe and Sophie Germain primes",
+	"aliases": ["Sophie Germain prime", "Sophie Germain primes", "safe prime", "safe primes"],
+	"kind": "idea",
+	"description": "A prime p for which 2p + 1 is also prime (a Sophie Germain prime), and that 2p + 1 (a safe prime), used in number theory since Germain and in cryptography today."
+}

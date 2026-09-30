@@ -1,0 +1,175 @@
+{
+	"id": "euler-cubes",
+	"topic": "Euler and the case of cubes",
+	"position": {
+		"label": "1770",
+		"sort": 1770
+	},
+	"scene": {
+		"headline": "We thought factoring was",
+		"accent": "UNIQUE.",
+		"palette": "oakgall",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ST PETERSBURG · LEONHARD EULER",
+			"ELEMENTS OF ALGEBRA · PART II, ARTICLE 243",
+			"x³ + y³ = z³ · a + b√−3"
+		],
+		"counter": {
+			"value": "4",
+			"label": "= 2 × 2 = (1 + √−3)(1 − √−3): one number, two factorings"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Elements of Algebra",
+			"authors": [
+				{
+					"family": "Euler",
+					"given": "Leonhard"
+				}
+			],
+			"editors": [
+				{
+					"family": "Hewlett",
+					"given": "John"
+				}
+			],
+			"publisher": "Longman, Hurst, Rees, Orme and Co.",
+			"place": "London",
+			"published": "1822",
+			"url": "https://archive.org/details/elementsofalgebr00euleuoft",
+			"accessed": "2026-09-30",
+			"note": "Third edition of the English translation. The proof for cubes is Part II, §243 (pp. 450–454); the rule for x² + cy² is §§181–197; the editors' and translator's advertisements are on pp. xxiii–xxv"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Fermat's Last Theorem",
+			"container": "MacTutor History of Mathematics",
+			"publisher": "University of St Andrews",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"published": "1996-02",
+			"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Fermat's_last_theorem/",
+			"accessed": "2026-09-30",
+			"note": "On the fallacy in Euler's proof"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Proof of Fermat's Last Theorem for specific exponents",
+			"url": "https://en.wikipedia.org/w/index.php?title=Proof_of_Fermat's_Last_Theorem_for_specific_exponents&oldid=1377431685",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"note": "Euler's letter of 1753, the proof's steps, and the later proofs"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fermat's Last Theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fermat's_Last_Theorem&oldid=1376715832",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Elements of Algebra",
+			"url": "https://en.wikipedia.org/w/index.php?title=Elements_of_Algebra&oldid=1215872477",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-03-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eisenstein integer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eisenstein_integer&oldid=1352197245",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-02"
+		},
+		{
+			"kind": "web",
+			"title": "Euler's Proof of Fermat's Last Theorem for the Exponent Three",
+			"authors": [
+				{
+					"family": "Salamon",
+					"given": "Dietmar A."
+				}
+			],
+			"container": "ETH Zürich",
+			"published": "2025-03-16",
+			"url": "https://people.math.ethz.ch/~salamon/PREPRINTS/FERMAT.pdf",
+			"accessed": "2026-09-30",
+			"note": "Read through the Wayback Machine; follows Bergmann, Mathematische Annalen 164 (1966)"
+		},
+		{
+			"kind": "chapter",
+			"title": "Recherches sur quelques objets d'analyse indéterminée et particulièrement sur le théorème de Fermat",
+			"authors": [
+				{
+					"family": "Legendre",
+					"given": "Adrien-Marie"
+				}
+			],
+			"container": "Mémoires de l'Académie royale des sciences de l'Institut de France, vol. 6 (année 1823)",
+			"publisher": "Firmin Didot",
+			"place": "Paris",
+			"published": "1827",
+			"url": "https://commons.wikimedia.org/wiki/File:M%C3%A9moires_de_l%E2%80%99Acad%C3%A9mie_des_sciences,_Tome_6.djvu",
+			"accessed": "2026-09-30",
+			"note": "Read in the Commons scan of the volume"
+		},
+		{
+			"kind": "media",
+			"title": "Page 371 of Euler's Vollständige Anleitung zur Algebra, St Petersburg edition dated 1771, with the step p + q√−3 = (t + u√−3)³",
+			"url": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler_Vollst%C3%A4ndige_Anleitung_zur_Algebra_(IA_10081749bsb).pdf",
+			"accessed": "2026-09-30",
+			"container": "Bayerische Staatsbibliothek, via Internet Archive and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "algebra-page.jpg",
+			"authors": [
+				{
+					"family": "Euler",
+					"given": "Leonhard"
+				}
+			],
+			"published": "1771"
+		}
+	]
+}

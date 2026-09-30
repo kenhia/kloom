@@ -1,0 +1,30 @@
+{
+	"mathematics/fermats-margin": [
+		["Pierre de Fermat", "pierre-de-fermat"],
+		["Toulouse", "toulouse"],
+		["Bachet", "claude-gaspar-bachet-de-meziriac"],
+		["Diophantus", "diophantus"],
+		["Fermat's Last Theorem", "fermats-last-theorem"],
+		["_infinite descent_", "proof-by-infinite-descent"],
+		["Fibonacci", "fibonacci"]
+	],
+	"mathematics/euler-cubes": [
+		["Fermat", "pierre-de-fermat"],
+		["Leonhard Euler", "leonhard-euler"],
+		["Christian Goldbach", "christian-goldbach"],
+		["_Elements of Algebra_", "elements-of-algebra"],
+		["fundamental theorem of arithmetic", "fundamental-theorem-of-arithmetic"],
+		["Eisenstein integers", "eisenstein-integer"],
+		["Adrien-Marie Legendre", "adrien-marie-legendre"]
+	],
+	"mathematics/sophie-germain": [
+		["Sophie Germain", "sophie-germain"],
+		["École polytechnique", "ecole-polytechnique"],
+		["Joseph-Louis Lagrange", "joseph-louis-lagrange"],
+		["Carl Friedrich Gauss", "carl-friedrich-gauss"],
+		["_Disquisitiones Arithmeticae_", "disquisitiones-arithmeticae"],
+		["Adrien-Marie Legendre", "adrien-marie-legendre"],
+		["Sophie Germain primes", "safe-and-sophie-germain-primes"],
+		["Diffie–Hellman key exchange", "diffie-hellman-key-exchange"]
+	]
+}

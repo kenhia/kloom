@@ -1,0 +1,182 @@
+{
+	"id": "sophie-germain",
+	"topic": "Sophie Germain's theorem",
+	"position": {
+		"label": "c. 1823",
+		"sort": 1823
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "Monsieur Le Blanc was",
+		"accent": "SOPHIE.",
+		"palette": "quarto",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · SOPHIE GERMAIN · LETTERS TO GAUSS",
+			"LEGENDRE'S MEMOIR OF 1823 · THE FIRST CASE",
+			"p AND 2p + 1 BOTH PRIME"
+		],
+		"counter": {
+			"value": "388,342",
+			"label": "digits in the largest known Sophie Germain prime (2016)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "\"Voici ce que j'ai trouvé\": Sophie Germain's Grand Plan to Prove Fermat's Last Theorem",
+			"authors": [
+				{
+					"family": "Laubenbacher",
+					"given": "Reinhard"
+				},
+				{
+					"family": "Pengelley",
+					"given": "David"
+				}
+			],
+			"container": "Historia Mathematica",
+			"volume": "37",
+			"issue": "4",
+			"pages": "641–692",
+			"published": "2010-11",
+			"doi": "10.1016/j.hm.2009.12.002",
+			"url": "https://arxiv.org/abs/0801.1809",
+			"accessed": "2026-09-30",
+			"note": "Read in the arXiv version (v3). Her life from Libri's obituary, the letters to Gauss (quoting Bucciarelli and Dworsky's translation), the 1819 letter, the plan and its failure"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Recherches sur quelques objets d'analyse indéterminée et particulièrement sur le théorème de Fermat",
+			"authors": [
+				{
+					"family": "Legendre",
+					"given": "Adrien-Marie"
+				}
+			],
+			"container": "Mémoires de l'Académie royale des sciences de l'Institut de France, vol. 6 (année 1823)",
+			"publisher": "Firmin Didot",
+			"place": "Paris",
+			"published": "1827",
+			"url": "https://commons.wikimedia.org/wiki/File:M%C3%A9moires_de_l%E2%80%99Acad%C3%A9mie_des_sciences,_Tome_6.djvu",
+			"accessed": "2026-09-30",
+			"note": "The footnote crediting Germain is on p. 17; the case 2n + 1 prime is art. 24"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Sophie Germain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sophie_Germain&oldid=1377431582",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"note": "Her death certificate, and Gauss on an honorary degree"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Safe and Sophie Germain primes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Safe_and_Sophie_Germain_primes&oldid=1375527779",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "web",
+			"title": "The Top Twenty: Sophie Germain (p)",
+			"container": "The Prime Pages",
+			"authors": [
+				{
+					"family": "Caldwell",
+					"given": "Chris K."
+				}
+			],
+			"url": "https://t5k.org/top20/page.php?id=2",
+			"accessed": "2026-09-30",
+			"note": "The record and the counts to 10¹⁰ with their estimates"
+		},
+		{
+			"kind": "report",
+			"title": "Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for Transport Layer Security (TLS)",
+			"authors": [
+				{
+					"family": "Gillmor",
+					"given": "Daniel Kahn"
+				}
+			],
+			"number": "RFC 7919",
+			"publisher": "Internet Engineering Task Force",
+			"published": "2016-08",
+			"doi": "10.17487/RFC7919",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Fermat's Last Theorem",
+			"container": "MacTutor History of Mathematics",
+			"publisher": "University of St Andrews",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"published": "1996-02",
+			"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Fermat's_last_theorem/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fermat's Last Theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fermat's_Last_Theorem&oldid=1376715832",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "Page 17 of Legendre's memoir on Fermat's theorem, with the footnote crediting Sophie Germain",
+			"url": "https://commons.wikimedia.org/wiki/File:M%C3%A9moires_de_l%E2%80%99Acad%C3%A9mie_des_sciences,_Tome_6.djvu",
+			"accessed": "2026-09-30",
+			"container": "Bibliothèque nationale de France (Gallica), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "legendre-footnote.jpg",
+			"authors": [
+				{
+					"family": "Legendre",
+					"given": "Adrien-Marie"
+				}
+			],
+			"published": "1827"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/security",
+			"why": "The Diffie–Hellman exchange worked there modulo 23 uses a safe prime, 2 × 11 + 1, with 11 a Sophie Germain prime; the finite-field groups TLS standardised in 2016 all use safe primes."
+		}
+	]
+}
