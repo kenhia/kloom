@@ -14,6 +14,8 @@
 		hrefOf: (subject: string, frame: string) => string;
 		/** A jump: to a frame here or in another subject, with a way back. */
 		onfollow: (subject: string, frame: string) => void;
+		/** Open the map on a name (§The map); none without a map. */
+		onmap?: (name: string, refocus: () => void) => void;
 	}
 
 	/** What the shell offers for the frame's kept answers (korg 3390). */
@@ -469,6 +471,7 @@
 					hrefOf={links.hrefOf}
 					onfollow={links.onfollow}
 					onclose={closeName}
+					onmap={links.onmap}
 				/>
 			{/key}
 		{/if}

@@ -117,12 +117,21 @@
   connections from the recorded candidates, and western-civ's names as
   the proof (3439) — [record](../017-connections.md).
 
+- Sprint 018: connections, phase 2 (proposal 3444). Names marked across
+  AI, Feynman and Computing (1,111 in the registry), 62 more connections
+  (21 touching western-civ), and grow and author-subject writing names and
+  connections (3440) — [record](../018-connections-2.md).
+
+- Sprint 019: connections, phase 3, the map (proposal 3445). A full-screen
+  map on a frame's neighbourhood (one or two steps, names ranked by how
+  rare they are), the library of subjects, a subject's connected frames and
+  a name's frames; a seeded layout that never moves, keyboard moves between
+  neighbours, and "Show as list" (3441) — [record](../019-connections-3-the-map.md).
+
 ## Next
 
-- Connections, phase 2 (3440): mark names across AI, Feynman and
-  Computing, and have grow and author-subject emit names and connections.
-  Phase 3 is the map, a graph view of the connections; phase 4 is Physics
-  (3428), the first subject written with links.
+- Connections, phase 4: Physics (3428), the first subject written with
+  names and connections from the start.
 
 ## Later
 

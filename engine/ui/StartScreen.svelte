@@ -42,6 +42,8 @@
 		onfirst?: () => void;
 		/** Open another subject, from its selection in the list. */
 		onopen: (id: string) => void;
+		/** Open the map on the library (§The map); focus comes back to its button. */
+		onmap?: (refocus: () => void) => void;
 	}
 
 	interface Resume {
@@ -67,11 +69,13 @@
 		resume = [],
 		onbegin,
 		onfirst,
-		onopen
+		onopen,
+		onmap
 	}: Props = $props();
 
 	const id = $props.id();
 	let button = $state<HTMLButtonElement>();
+	let mapButton = $state<HTMLButtonElement>();
 	let list = $state<HTMLElement>();
 	let leaving = $state(false);
 	const title = $derived(subjects.find((s) => s.id === selected)?.title ?? '');
@@ -264,6 +268,17 @@
 				{/each}
 			</ul>
 		{/if}
+		{#if onmap}
+			<button
+				type="button"
+				class="map-button"
+				aria-haspopup="dialog"
+				bind:this={mapButton}
+				onclick={() => onmap(() => mapButton?.focus())}
+			>
+				Map of the library
+			</button>
+		{/if}
 	</div>
 
 	{#if credits.length}
@@ -455,6 +470,24 @@
 		border-color: var(--start-accent);
 	}
 	.resume :focus-visible {
+		outline: 2px solid var(--start-accent);
+		outline-offset: 2px;
+	}
+	.map-button {
+		margin-top: 0.75rem;
+		font: 0.85rem var(--sans);
+		padding: 0.3rem 0.8rem;
+		color: var(--start-muted);
+		background: none;
+		border: 1px solid transparent;
+		border-radius: 0.25rem;
+		cursor: pointer;
+	}
+	.map-button:hover {
+		color: var(--start-ink);
+		border-color: color-mix(in srgb, var(--start-muted) 60%, transparent);
+	}
+	.map-button:focus-visible {
 		outline: 2px solid var(--start-accent);
 		outline-offset: 2px;
 	}

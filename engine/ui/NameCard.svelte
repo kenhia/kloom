@@ -25,9 +25,11 @@
 		onfollow: (subject: string, frame: string) => void;
 		/** Closed; `refocus` when focus should go back to the name. */
 		onclose: (refocus: boolean) => void;
+		/** Open the map on this name (§The map); focus comes back to the name. */
+		onmap?: (name: string, refocus: () => void) => void;
 	}
 
-	let { card, label, anchor, top, left, here, hrefOf, onfollow, onclose }: Props = $props();
+	let { card, label, anchor, top, left, here, hrefOf, onfollow, onclose, onmap }: Props = $props();
 
 	// Kept as they were at opening: closing clears what they were read from.
 	const mark = untrack(() => anchor);
@@ -135,6 +137,23 @@
 		{:else}
 			<p class="note">Appears only here, so far.</p>
 		{/if}
+		{#if onmap && count > 1}
+			<p class="note">
+				<button
+					type="button"
+					class="map"
+					aria-haspopup="dialog"
+					onclick={() => {
+						// Read before closing: closing clears what the card was read from.
+						const name = card!.id;
+						onclose(false);
+						onmap(name, () => mark.focus());
+					}}
+				>
+					Show on the map
+				</button>
+			</p>
+		{/if}
 		{#if card.wikidata}
 			<p class="note">
 				<a href="https://www.wikidata.org/wiki/{card.wikidata}" rel="noopener noreferrer"
@@ -227,6 +246,18 @@
 	.note {
 		font-size: 0.75rem;
 		color: var(--muted);
+	}
+	.map {
+		font: inherit;
+		color: var(--ink);
+		background: none;
+		border: 1px solid var(--muted);
+		border-radius: 0.25rem;
+		padding: 0.15rem 0.5rem;
+		cursor: pointer;
+	}
+	.map:hover {
+		border-color: var(--accent);
 	}
 	.note a {
 		color: inherit;

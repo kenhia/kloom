@@ -125,6 +125,11 @@ Sprint 018 connections, phase 2: names marked across every subject (1,111
 in the registry), 62 more connections (21 touching western-civ), grow
 and author-subject writing names and connections (grow may add names but
 never change one), and `names.py add` and `density`.
+Sprint 019 connections, phase 3: the map, a full-screen overlay (M, or the
+HUD beside the contents) on a frame's neighbourhood, the library of
+subjects, a subject's connected frames or a name's frames; a seeded layout
+that never moves (`engine/map.ts`), arrow keys between neighbours, and
+"Show as list".
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
