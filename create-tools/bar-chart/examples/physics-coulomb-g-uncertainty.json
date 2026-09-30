@@ -22,14 +22,49 @@
 			"display": "6,000",
 			"highlight": true
 		},
-		{ "label": "1891", "sublabel": "Poynting", "value": 5500, "display": "5,500" },
-		{ "label": "1930", "sublabel": "Heyl", "value": 1000, "display": "1,000" },
-		{ "label": "1942", "sublabel": "Heyl", "value": 450, "display": "450" },
-		{ "label": "1986", "sublabel": "NIST", "value": 120, "display": "120" },
-		{ "label": "1998", "sublabel": "NIST", "value": 1500, "display": "1,500" },
-		{ "label": "2014", "sublabel": "CODATA", "value": 46, "display": "46" },
-		{ "label": "2022", "sublabel": "CODATA", "value": 22, "display": "22" }
+		{
+			"label": "1891",
+			"sublabel": "Poynting",
+			"value": 5500,
+			"display": "5,500"
+		},
+		{
+			"label": "1930",
+			"sublabel": "Heyl",
+			"value": 1000,
+			"display": "1,000"
+		},
+		{
+			"label": "1942",
+			"sublabel": "Heyl",
+			"value": 450,
+			"display": "450"
+		},
+		{
+			"label": "1986",
+			"sublabel": "NIST",
+			"value": 120,
+			"display": "120"
+		},
+		{
+			"label": "1998",
+			"sublabel": "NIST",
+			"value": 1500,
+			"display": "1,500"
+		},
+		{
+			"label": "2014",
+			"sublabel": "CODATA",
+			"value": 46,
+			"display": "46"
+		},
+		{
+			"label": "2022",
+			"sublabel": "CODATA",
+			"value": 22,
+			"display": "22"
+		}
 	],
 	"barWidth": 40,
-	"width": 480
+	"width": 580
 }

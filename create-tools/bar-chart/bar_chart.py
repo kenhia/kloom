@@ -32,6 +32,35 @@ def scaler(spec, y0, y1):
     return lambda v: y1 - v * (y1 - y0) / axis['max']
 
 
+# Monospace glyphs advance about 0.6 em. Text nothing clips or crops still has to fit (sprint 021:
+# three headings ran off the right edge and six labels overlapped, and no author could see it).
+ADVANCE = 0.6
+
+
+def problems(spec):
+    """What would not fit: a heading wider than the chart, or a bar's labels wider than its slot."""
+    W = spec.get('width', 480)
+    x0, x1 = 64, W - 20
+    out = []
+    heading = x0 + len(spec['heading']) * (ADVANCE * 12 + 1)
+    if heading > W:
+        out.append(f'heading is ~{heading - W:.0f} units wider than the chart ({W}): shorten it or widen the chart')
+    at = scaler(spec, 36, spec.get('height', 300) - 50)
+    unit = spec.get('unit', '')
+    slot = (x1 - x0) / len(spec['bars'])
+    for i, b in enumerate(spec['bars']):
+        # the value's label (baseline at the bar's top − 6, ~8 tall) against the heading (baseline 20)
+        cx, half = x0 + slot * (i + 0.5), len(b.get('display', label(b['value'], unit))) * ADVANCE * 11 / 2
+        if at(b['value']) - 6 - 8 < 23 and cx - half < heading:
+            out.append(f'the label of "{b["label"]}" meets the heading: raise the axis max above {b["value"]}')
+    for size, key in ((11, 'label'), (11, 'display'), (9, 'sublabel')):
+        texts = [b.get(key, '') for b in spec['bars']]
+        for a, b in zip(texts, texts[1:]):
+            if (len(a) + len(b)) / 2 * ADVANCE * size > slot - 4:
+                out.append(f'"{a}" and "{b}" overlap at {slot:.0f} units a bar: shorten them or widen the chart')
+    return out
+
+
 def chart(spec):
     W, H = spec.get('width', 480), spec.get('height', 300)
     x0, y0, x1, y1 = 64, 36, W - 20, H - 50
@@ -72,6 +101,10 @@ if __name__ == '__main__':
     if len(sys.argv) != 3:
         sys.exit(__doc__)
     with open(sys.argv[1]) as fh:
-        svg = chart(json.load(fh))
+        spec = json.load(fh)
+    wrong = problems(spec)
+    if wrong:
+        sys.exit('\n'.join(f'bar_chart: {w}' for w in wrong))
+    svg = chart(spec)
     with open(sys.argv[2], 'w') as fh:
         fh.write(svg)
