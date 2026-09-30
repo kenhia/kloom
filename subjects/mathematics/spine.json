@@ -5,6 +5,18 @@
 			"title": "Counting",
 			"labelKind": "date",
 			"frames": ["ishango-bone", "ybc-7289", "rhind-papyrus"]
+		},
+		{
+			"id": "greeks",
+			"title": "The Greeks",
+			"labelKind": "date",
+			"frames": ["apollonius-conics", "diophantus"]
+		},
+		{
+			"id": "beyond-greece",
+			"title": "Beyond Greece",
+			"labelKind": "date",
+			"frames": ["nine-chapters"]
 		}
 	]
 }

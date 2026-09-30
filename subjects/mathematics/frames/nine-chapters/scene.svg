@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 62 L40 214 M80 62 L80 214 M120 62 L120 214 M160 62 L160 214 M40 62 L160 62 M40 100 L160 100 M40 138 L160 138 M40 176 L160 176 M40 214 L160 214"/>
+		<path pathLength="1" d="M236 62 L236 214 M276 62 L276 214 M316 62 L316 214 M356 62 L356 214 M236 62 L356 62 M236 100 L356 100 M236 138 L356 138 M236 176 L356 176 M236 214 L356 214"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M176 138 L220 138"/>
+		<path pathLength="1" d="M212 133 L220 138 L212 143"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M137.8 73 L137.8 89 M140 73 L140 89 M142.2 73 L142.2 89 M138.9 111 L138.9 127 M141.1 111 L141.1 127 M140 149 L140 165 M127 191.8 L138 191.8 M127 195 L138 195 M127 198.2 L138 198.2 M144.2 191 L144.2 203 M146.4 191 L146.4 203 M148.6 191 L148.6 203 M150.8 191 L150.8 203 M142 188 L153 188 M98.9 73 L98.9 89 M101.1 73 L101.1 89 M97.8 111 L97.8 127 M100 111 L100 127 M102.2 111 L102.2 127 M100 149 L100 165 M87 191.8 L98 191.8 M87 195 L98 195 M87 198.2 L98 198.2 M104.2 187 L104.2 203 M106.4 187 L106.4 203 M108.6 187 L108.6 203 M110.8 187 L110.8 203 M60 73 L60 89 M58.9 111 L58.9 127 M61.1 111 L61.1 127 M57.8 149 L57.8 165 M60 149 L60 165 M62.2 149 L62.2 165 M47 193.4 L58 193.4 M47 196.6 L58 196.6 M67.5 191 L67.5 203 M62 188 L73 188"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M333.8 73 L333.8 89 M336 73 L336 89 M338.2 73 L338.2 89 M334.9 111 L334.9 127 M337.1 111 L337.1 127 M336 149 L336 165 M323 191.8 L334 191.8 M323 195 L334 195 M323 198.2 L334 198.2 M340.2 191 L340.2 203 M342.4 191 L342.4 203 M344.6 191 L344.6 203 M346.8 191 L346.8 203 M338 188 L349 188 M291.6 111 L291.6 127 M293.8 111 L293.8 127 M296 111 L296 127 M298.2 111 L298.2 127 M300.4 111 L300.4 127 M296 149 L296 165 M283 193.4 L294 193.4 M283 196.6 L294 196.6 M300.2 187 L300.2 203 M302.4 187 L302.4 203 M304.6 187 L304.6 203 M306.8 187 L306.8 203 M243 153.8 L254 153.8 M243 157 L254 157 M243 160.2 L254 160.2 M263.5 153 L263.5 165 M258 150 L269 150 M243 192.2 L254 192.2 M243 195.4 L254 195.4 M243 198.6 L254 198.6 M243 201.8 L254 201.8 M248.5 187 L248.5 192 M260.2 191 L260.2 203 M262.4 191 L262.4 203 M264.6 191 L264.6 203 M266.8 191 L266.8 203 M258 188 L269 188"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="34" y="84" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TOP</text>
+		<text x="34" y="122" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MID</text>
+		<text x="34" y="160" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LOW</text>
+		<text x="34" y="198" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">YIELD</text>
+		<text x="100" y="50" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SET OUT</text>
+		<text x="296" y="50" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ELIMINATED</text>
+		<text x="100" y="234" font-size="6" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3 2 1 = 39, 2 3 1 = 34, 1 2 3 = 26</text>
+		<text x="296" y="234" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">36 LOW = 99</text>
+		<text x="296" y="250" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LOW = 2 3/4</text>
+		<text x="200" y="282" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NINE CHAPTERS 8.1 · FANGCHENG</text>
+	</g>
+</svg>

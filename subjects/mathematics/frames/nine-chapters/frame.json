@@ -1,0 +1,224 @@
+{
+	"id": "nine-chapters",
+	"topic": "Nine Chapters on the Mathematical Art",
+	"position": {
+		"label": "c. 1st century AD",
+		"sort": 50
+	},
+	"scene": {
+		"headline": "We reckoned with",
+		"accent": "RODS.",
+		"palette": "clay",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HAN CHINA · LIU HUI'S COMMENTARY, AD 263",
+			"COUNTING RODS · FANGCHENG · RED AND BLACK"
+		],
+		"counter": {
+			"value": "9¼ · 4¼ · 2¾",
+			"label": "dou of grain from a bundle of each grade, chapter 8, problem 1"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "The Nine Chapters on the Mathematical Art",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Nine_Chapters_on_the_Mathematical_Art&oldid=1377465250",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true,
+			"note": "The dating, the chapters, Liu Hui's preface and the commentaries"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fangcheng (mathematics)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fangcheng_(mathematics)&oldid=1344334060",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-19",
+			"key": true,
+			"note": "Problem 1 of chapter 8, and Grcar against transmission to Europe"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Nine Chapters on the Mathematical Art",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Nine_chapters/",
+			"accessed": "2026-09-30",
+			"note": "Elimination by columns, the preface's dates, and Liu Hui on the sphere"
+		},
+		{
+			"kind": "web",
+			"title": "Liu Hui",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"published": "2003-12",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Liu_Hui/",
+			"accessed": "2026-09-30",
+			"note": "Read through the Wayback Machine"
+		},
+		{
+			"kind": "web",
+			"title": "九章算術",
+			"container": "Wikisource",
+			"publisher": "Wikimedia Foundation",
+			"url": "https://zh.wikisource.org/wiki/%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93",
+			"accessed": "2026-09-30",
+			"note": "The Chinese text: chapter 1, problem 1, and chapter 8, problem 1 and its procedure"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Liu Hui",
+			"url": "https://en.wikipedia.org/w/index.php?title=Liu_Hui&oldid=1368361873",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Liu Hui's π algorithm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Liu_Hui's_%CF%80_algorithm&oldid=1375647384",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Counting rods",
+			"url": "https://en.wikipedia.org/w/index.php?title=Counting_rods&oldid=1364021042",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Negative number",
+			"url": "https://en.wikipedia.org/w/index.php?title=Negative_number&oldid=1372669341",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gaussian elimination",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gaussian_elimination&oldid=1365416799",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Abacus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abacus&oldid=1373195087",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "media",
+			"title": "The first page of Li Huang's edition of the Nine Chapters, with Liu Hui's commentary",
+			"url": "https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93%E7%B4%B0%E8%8D%89%E5%9C%96%E8%AA%AA.jpg",
+			"accessed": "2026-09-30",
+			"container": "Yuhongtang, 1820, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "jiuzhang-1820.jpg",
+			"authors": [
+				{
+					"name": "Li Huang"
+				}
+			],
+			"published": "1820"
+		},
+		{
+			"kind": "media",
+			"title": "Yang Hui's diagram of the number 71,824 in counting rods, as copied in the Yongle Encyclopedia",
+			"url": "https://commons.wikimedia.org/wiki/File:Rod_numeral_positioning.JPG",
+			"accessed": "2026-09-30",
+			"container": "Yongle Encyclopedia, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "rod-numerals.jpg",
+			"authors": [
+				{
+					"name": "Yang Hui"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/abacus",
+			"why": "The Nine Chapters was worked with counting rods in columns on a board, place value held in a layout like the Greek and Roman counting boards, and the bead abacus later replaced the rods everywhere but Japan."
+		}
+	]
+}
