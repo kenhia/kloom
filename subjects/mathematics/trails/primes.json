@@ -1,0 +1,15 @@
+{
+	"id": "primes",
+	"title": "The primes",
+	"anchor": "euclid-elements",
+	"spine": {
+		"segments": [
+			{
+				"id": "primes",
+				"title": "The primes",
+				"labelKind": "date",
+				"frames": ["sieve-of-eratosthenes", "disquisitiones", "riemann-hypothesis"]
+			}
+		]
+	}
+}

@@ -1,0 +1,129 @@
+{
+	"id": "disquisitiones",
+	"topic": "Gauss's Disquisitiones Arithmeticae",
+	"position": { "label": "1801", "sort": 1801 },
+	"scene": {
+		"headline": "We cut the circle into",
+		"accent": "SEVENTEEN.",
+		"palette": "quarto",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BRUNSWICK · GÖTTINGEN · LEIPZIG · CARL FRIEDRICH GAUSS",
+			"CONGRUENCES · QUADRATIC RECIPROCITY · THE 17-GON"
+		],
+		"counter": {
+			"value": "8",
+			"label": "proofs of the golden theorem, six published in his lifetime"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Disquisitiones Arithmeticae",
+			"authors": [{ "family": "Gauss", "given": "Carl Friedrich" }],
+			"publisher": "Gerh. Fleischer",
+			"place": "Leipzig",
+			"published": "1801",
+			"url": "https://archive.org/details/disquisitionesa00gaus",
+			"accessed": "2026-09-30",
+			"note": "The dedication, the preface, articles 1–2 (≡), 108, 131, 151 and 365; read in the Latin of the first edition, translations ours"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Disquisitiones Arithmeticae",
+			"url": "https://en.wikipedia.org/w/index.php?title=Disquisitiones_Arithmeticae&oldid=1364887301",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-19"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Quadratic reciprocity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quadratic_reciprocity&oldid=1360892203",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-24",
+			"note": "Euler's and Legendre's versions, the gap in Legendre's proof, the golden theorem, and the count of proofs"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl Friedrich Gauss",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_Friedrich_Gauss&oldid=1376853479",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gauss's diary",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gauss%27s_diary&oldid=1377238707",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Constructible polygon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Constructible_polygon&oldid=1342784530",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heptadecagon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heptadecagon&oldid=1339023654",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-18",
+			"note": "Quotes Richmond's construction of 1893"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Modular arithmetic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Modular_arithmetic&oldid=1372716021",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "media",
+			"title": "The first entry in Gauss's mathematical diary, 30 March 1796",
+			"url": "https://commons.wikimedia.org/wiki/File:Gauss_Tagebuch_erster_Eintrag.png",
+			"accessed": "2026-09-30",
+			"container": "Göttingen State and University Library, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "gauss-diary.png",
+			"authors": [{ "family": "Gauss", "given": "Carl Friedrich" }],
+			"published": "1796-03-30"
+		},
+		{
+			"kind": "media",
+			"title": "Page 133 of the first edition of the Disquisitiones, article 131",
+			"url": "https://commons.wikimedia.org/wiki/File:Disquisitiones-Arithmeticae-p133.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "article-131.jpg",
+			"authors": [{ "family": "Gauss", "given": "Carl Friedrich" }],
+			"published": "1801"
+		}
+	]
+}

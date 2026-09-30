@@ -1,0 +1,116 @@
+{
+	"id": "sieve-of-eratosthenes",
+	"topic": "The sieve of Eratosthenes",
+	"position": { "label": "c. 240 BC", "sort": -240 },
+	"scene": {
+		"headline": "We caught the primes in a",
+		"accent": "SIEVE.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ALEXANDRIA · ERATOSTHENES OF CYRENE",
+			"TOLD BY NICOMACHUS · C. AD 100 · STRIKE FROM THE SQUARE"
+		],
+		"counter": { "value": "25", "label": "primes left standing below 100" }
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Sieve of Eratosthenes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sieve_of_Eratosthenes&oldid=1376646978",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Introduction to Arithmetic",
+			"authors": [{ "name": "Nicomachus of Gerasa" }],
+			"publisher": "Macmillan",
+			"place": "New York",
+			"published": "1926",
+			"url": "https://archive.org/details/nicomachus-introduction-to-arithmetic",
+			"accessed": "2026-09-30",
+			"note": "Translated by Martin Luther D'Ooge; the sieve is book I, chapter 13 (pp. 204–206), with D'Ooge's note on Heath"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Κόσκινον Ἐρατοσθένους, or, The Sieve of Eratosthenes. Being an Account of His Method of Finding All the Prime Numbers",
+			"authors": [{ "family": "Horsley", "given": "Samuel" }],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "62",
+			"pages": "327–347",
+			"published": "1772",
+			"url": "https://www.jstor.org/stable/106053",
+			"accessed": "2026-09-30",
+			"note": "Read in JSTOR's Early Journal Content copy on archive.org; the operation is on p. 334"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nicomachus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicomachus&oldid=1369889503",
+			"accessed": "2026-09-30",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "web",
+			"title": "Variae observationes circa series infinitas (E72)",
+			"authors": [{ "family": "Euler", "given": "Leonhard" }],
+			"container": "Euler Archive",
+			"publisher": "University of the Pacific",
+			"url": "https://scholarlycommons.pacific.edu/euler-works/72/",
+			"accessed": "2026-09-30",
+			"note": "The archive's record: written 1737, published 1744; the sum of the primes' reciprocals grows like log log x"
+		},
+		{
+			"kind": "web",
+			"title": "primesieve",
+			"authors": [{ "family": "Walisch", "given": "Kim" }],
+			"container": "GitHub",
+			"url": "https://github.com/kimwalisch/primesieve",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Records Set Using primecount",
+			"authors": [{ "family": "Walisch", "given": "Kim" }],
+			"container": "primecount, GitHub",
+			"url": "https://github.com/kimwalisch/primecount/blob/master/doc/Records.md",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "report",
+			"title": "Efficient Computation of the Hard Special Leaves in the Combinatorial Prime Counting Algorithms",
+			"authors": [{ "family": "Walisch", "given": "Kim" }],
+			"publisher": "primecount project",
+			"published": "2025-06-13",
+			"url": "https://github.com/kimwalisch/primecount/blob/master/doc/Hard-Special-Leaves.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Page 334 of Horsley's 1772 paper, \"The Operation of the Sieve\"",
+			"url": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-07-30_%D0%B2_00.09.39.png",
+			"accessed": "2026-09-30",
+			"container": "Philosophical Transactions of the Royal Society, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "horsley-sieve.png",
+			"authors": [{ "family": "Horsley", "given": "Samuel" }],
+			"published": "1772"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/eratosthenes",
+			"why": "The librarian who measured the Earth with a shadow and a distance also devised the sieve for primes that still bears his name."
+		}
+	]
+}

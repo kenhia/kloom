@@ -1,0 +1,31 @@
+{
+	"mathematics/sieve-of-eratosthenes": [
+		["Euclid", "euclid"],
+		["primes", "prime-number"],
+		["Eratosthenes", "eratosthenes"],
+		["Nicomachus", "nicomachus"],
+		["sieve of Eratosthenes", "sieve-of-eratosthenes"],
+		["Samuel Horsley", "samuel-horsley"],
+		["Royal Society", "royal-society"],
+		["Euler", "leonhard-euler"]
+	],
+	"mathematics/disquisitiones": [
+		["_Disquisitiones Arithmeticae_", "disquisitiones-arithmeticae"],
+		["Carl Friedrich Gauss", "carl-friedrich-gauss"],
+		["Charles William Ferdinand, Duke of Brunswick", "charles-william-ferdinand-duke-of-brunswick"],
+		["Euler", "leonhard-euler"],
+		["Adrien-Marie Legendre", "adrien-marie-legendre"],
+		["modular arithmetic", "modular-arithmetic"],
+		["quadratic reciprocity", "quadratic-reciprocity"]
+	],
+	"mathematics/riemann-hypothesis": [
+		["Prussian Academy of Sciences", "prussian-academy-of-sciences"],
+		["Bernhard Riemann", "bernhard-riemann"],
+		["Leonhard Euler", "leonhard-euler"],
+		["Riemann zeta function", "riemann-zeta-function"],
+		["Riemann hypothesis", "riemann-hypothesis"],
+		["Alan Turing", "alan-turing"],
+		["Manchester Mark 1", "manchester-mark-1"],
+		["Millennium Prize Problems", "millennium-prize-problems"]
+	]
+}

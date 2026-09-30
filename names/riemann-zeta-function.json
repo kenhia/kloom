@@ -1,0 +1,9 @@
+{
+	"id": "riemann-zeta-function",
+	"wikidata": "Q187235",
+	"name": "Riemann zeta function",
+	"aliases": ["zeta function"],
+	"kind": "idea",
+	"description": "The function ζ(s), the sum of 1/nˢ over the whole numbers, whose connection to the primes Euler found and Riemann extended to complex s.",
+	"home": "mathematics/riemann-hypothesis"
+}

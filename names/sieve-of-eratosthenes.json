@@ -1,0 +1,9 @@
+{
+	"id": "sieve-of-eratosthenes",
+	"wikidata": "Q177898",
+	"name": "Sieve of Eratosthenes",
+	"aliases": ["sieve of Eratosthenes"],
+	"kind": "idea",
+	"description": "The ancient method of listing the primes by striking out the multiples of each prime in turn, still how computers list them.",
+	"home": "mathematics/sieve-of-eratosthenes"
+}

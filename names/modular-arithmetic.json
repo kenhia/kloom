@@ -1,0 +1,8 @@
+{
+	"id": "modular-arithmetic",
+	"wikidata": "Q319400",
+	"name": "Modular arithmetic",
+	"aliases": ["congruence", "clock arithmetic"],
+	"kind": "idea",
+	"description": "Arithmetic of remainders, in which numbers wrap round after reaching a fixed modulus, as hours do on a clock; the basis of much of number theory and of modern cryptography."
+}

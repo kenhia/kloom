@@ -1,0 +1,234 @@
+{
+	"id": "riemann-hypothesis",
+	"topic": "The Riemann hypothesis",
+	"asOf": "2026-09-30",
+	"position": {
+		"label": "1859",
+		"sort": 1859
+	},
+	"scene": {
+		"headline": "The primes follow the",
+		"accent": "ZEROS.",
+		"palette": "oakgall",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GÖTTINGEN · BERLIN ACADEMY · BERNHARD RIEMANN",
+			"THE ZETA FUNCTION · THE CRITICAL LINE RE s = 1/2"
+		],
+		"counter": {
+			"value": "12,363,153,437,138",
+			"label": "zeros checked, every one on the line (2021)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ueber die Anzahl der Primzahlen unter einer gegebenen Grösse",
+			"authors": [
+				{
+					"family": "Riemann",
+					"given": "Bernhard"
+				}
+			],
+			"container": "Monatsberichte der Königlichen Preussischen Akademie der Wissenschaften zu Berlin",
+			"published": "1859-11",
+			"url": "https://commons.wikimedia.org/wiki/File:Ueber_die_Anzahl_der_Primzahlen_unter_einer_gegebenen_Gr%C3%B6sse.pdf",
+			"accessed": "2026-09-30",
+			"note": "Read as reprinted in his collected works, pp. 136–144; translations ours, checked against Wilkins"
+		},
+		{
+			"kind": "web",
+			"title": "On the Number of Prime Numbers Less than a Given Quantity",
+			"authors": [
+				{
+					"family": "Wilkins",
+					"given": "David R."
+				}
+			],
+			"container": "Clay Mathematics Institute",
+			"published": "1998-12",
+			"url": "https://www.claymath.org/wp-content/uploads/2023/04/Wilkins-translation.pdf",
+			"accessed": "2026-09-30",
+			"note": "An English translation of Riemann's paper"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Riemann hypothesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Riemann_hypothesis&oldid=1377403100",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"note": "The history of computing the zeros, and the proportions proved on the line"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Riemann Hypothesis Is True up to 3·10¹²",
+			"authors": [
+				{
+					"family": "Platt",
+					"given": "Dave"
+				},
+				{
+					"family": "Trudgian",
+					"given": "Tim"
+				}
+			],
+			"container": "arXiv preprint arXiv:2004.09765",
+			"published": "2020-04",
+			"url": "https://arxiv.org/abs/2004.09765",
+			"accessed": "2026-09-30",
+			"note": "Published in the Bulletin of the London Mathematical Society, 2021; compares the unrefereed counts of Gourdon and Wedeniwski"
+		},
+		{
+			"kind": "article",
+			"title": "Turing and the Riemann Hypothesis",
+			"authors": [
+				{
+					"family": "Booker",
+					"given": "Andrew R."
+				}
+			],
+			"container": "Notices of the American Mathematical Society",
+			"published": "2006-10",
+			"url": "https://www.ams.org/notices/200610/fea-booker.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Riemann zeta function",
+			"url": "https://en.wikipedia.org/w/index.php?title=Riemann_zeta_function&oldid=1376721239",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "On the Number of Primes Less Than a Given Magnitude",
+			"url": "https://en.wikipedia.org/w/index.php?title=On_the_Number_of_Primes_Less_Than_a_Given_Magnitude&oldid=1356855634",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bernhard Riemann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bernhard_Riemann&oldid=1374483115",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Basel problem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Basel_problem&oldid=1372261977",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "web",
+			"title": "Variae observationes circa series infinitas (E72)",
+			"authors": [
+				{
+					"family": "Euler",
+					"given": "Leonhard"
+				}
+			],
+			"container": "Euler Archive",
+			"publisher": "University of the Pacific",
+			"url": "https://scholarlycommons.pacific.edu/euler-works/72/",
+			"accessed": "2026-09-30",
+			"note": "The archive's record: the paper in which Euler products first appeared, written 1737, published 1744"
+		},
+		{
+			"kind": "web",
+			"title": "Riemann's 1859 Manuscript",
+			"container": "Clay Mathematics Institute",
+			"url": "https://www.claymath.org/collections/riemanns-1859-manuscript/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Riemann Hypothesis",
+			"container": "Clay Mathematics Institute",
+			"url": "https://www.claymath.org/millennium/riemann-hypothesis/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Learning More about Claude's Mathematical Capabilities",
+			"container": "Anthropic",
+			"published": "2026-08-10",
+			"url": "https://www.anthropic.com/research/riemann-zeta",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "A New Proof That More than 2/3 of the Zeros of the Riemann Zeta Function Are Simple and on the Critical Line",
+			"authors": [
+				{
+					"family": "Lamzouri",
+					"given": "Youness"
+				}
+			],
+			"container": "arXiv preprint arXiv:2609.02882",
+			"published": "2026-09",
+			"url": "https://arxiv.org/abs/2609.02882",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Page 139 of Riemann's paper in his collected works, with the hypothesis",
+			"url": "https://commons.wikimedia.org/wiki/File:Ueber_die_Anzahl_der_Primzahlen_unter_einer_gegebenen_Gr%C3%B6sse.pdf",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "riemann-1859-p139.jpg",
+			"authors": [
+				{
+					"family": "Riemann",
+					"given": "Bernhard"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/manchester-baby",
+			"why": "In June 1950 Turing searched for zeros off Riemann's line on the Manchester Mark 1, the machine the Baby grew into."
+		}
+	]
+}
