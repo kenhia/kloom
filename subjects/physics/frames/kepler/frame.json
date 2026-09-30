@@ -1,0 +1,168 @@
+{
+	"id": "kepler",
+	"topic": "Kepler's laws of planetary motion",
+	"position": {
+		"label": "1609–1619",
+		"sort": 1609
+	},
+	"scene": {
+		"headline": "Eight minutes broke the",
+		"accent": "CIRCLE.",
+		"palette": "bronze",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PRAGUE · LINZ · JOHANNES KEPLER · TYCHO BRAHE",
+			"ASTRONOMIA NOVA 1609 · HARMONICES MUNDI 1619 · RUDOLPHINE TABLES 1627"
+		],
+		"counter": {
+			"value": "8′",
+			"label": "of arc between Mars and the best circle, which Kepler would not ignore"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Astronomia nova",
+			"url": "https://en.wikipedia.org/w/index.php?title=Astronomia_nova&oldid=1361746464",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-29",
+			"note": "Chapters 16–21 test the vicarious hypothesis; the eight minutes are in chapter 19"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Johannes Kepler",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Field",
+					"given": "J. V."
+				}
+			],
+			"container": "MacTutor History of Mathematics",
+			"publisher": "University of St Andrews",
+			"note": "The war with Mars, the third law in Kepler's words (trans. Aiton, Duncan and Field), and Mästlin on logarithms"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Kepler's laws of planetary motion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kepler's_laws_of_planetary_motion&oldid=1377255023",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"note": "The table of the values Kepler used in 1618 is its reconstruction"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johannes Kepler",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johannes_Kepler&oldid=1377345228",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tycho Brahe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tycho_Brahe&oldid=1373485914",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harmonice Mundi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harmonice_Mundi&oldid=1307010544",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rudolphine Tables",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rudolphine_Tables&oldid=1351798377",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-30"
+		},
+		{
+			"kind": "media",
+			"title": "Kepler's diagram of the path of Mars as seen from the Earth, 1580 to 1596",
+			"url": "https://commons.wikimedia.org/wiki/File:Kepler_Mars_retrograde.jpg",
+			"accessed": "2026-09-29",
+			"container": "Astronomia nova (Heidelberg, 1609), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "mars-retrograde.jpg",
+			"authors": [
+				{
+					"family": "Kepler",
+					"given": "Johannes"
+				}
+			],
+			"published": "1609"
+		},
+		{
+			"kind": "media",
+			"title": "Frontispiece of the Rudolphine Tables, engraved by Georg Celer",
+			"url": "https://commons.wikimedia.org/wiki/File:Johannes-kepler-tabulae-rudolphinae-google-arts-culture.jpg",
+			"accessed": "2026-09-29",
+			"container": "Tabulae Rudolphinae (Ulm, 1627), British Library copy, scanned by Google Arts & Culture, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "rudolphine.jpg",
+			"published": "1627"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/logarithms",
+			"why": "Kepler met Napier's logarithms while computing the Rudolphine Tables, wrote his own proof and tables, and printed logarithms with the tables in 1627."
+		},
+		{
+			"to": "feynman/character-of-law",
+			"why": "Feynman's lost lecture began from Kepler's second law, equal areas in equal times, and derived the ellipse Kepler found in Tycho's figures for Mars from an inverse-square force."
+		},
+		{
+			"to": "physics/ptolemy",
+			"why": "Kepler's ellipses in the Astronomia nova of 1609 wholly replaced Ptolemy's circles, and the empty focus stands about where Ptolemy put the equant."
+		}
+	]
+}

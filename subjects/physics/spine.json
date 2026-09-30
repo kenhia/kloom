@@ -16,7 +16,14 @@
 			"id": "new-science",
 			"title": "The new science",
 			"labelKind": "date",
-			"frames": ["copernicus", "prism", "principia"]
+			"frames": [
+				"copernicus",
+				"kepler",
+				"galileo-telescope",
+				"falling-bodies",
+				"prism",
+				"principia"
+			]
 		},
 		{
 			"id": "heat-light-charge",

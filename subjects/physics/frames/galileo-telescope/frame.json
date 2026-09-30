@@ -1,0 +1,188 @@
+{
+	"id": "galileo-telescope",
+	"topic": "Galileo's telescope",
+	"position": {
+		"label": "1610",
+		"sort": 1610
+	},
+	"scene": {
+		"headline": "The heavens were not",
+		"accent": "PERFECT.",
+		"palette": "papyrus",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PADUA · FLORENCE · ROME · GALILEO GALILEI",
+			"SIDEREUS NUNCIUS 1610 · DIALOGUE 1632 · TRIAL 1633"
+		],
+		"counter": {
+			"value": "21×",
+			"label": "the magnification of a surviving telescope Galileo made in 1609–10"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Sidereal Messenger of Galileo Galilei",
+			"url": "https://www.gutenberg.org/ebooks/46036",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"family": "Galilei",
+					"given": "Galileo"
+				}
+			],
+			"editors": [
+				{
+					"family": "Carlos",
+					"given": "Edward Stafford"
+				}
+			],
+			"publisher": "Rivingtons",
+			"place": "London",
+			"published": "1880",
+			"note": "Translated by E. S. Carlos; read in the Project Gutenberg edition. The telescope, and the height of the lunar mountains"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Sidereus Nuncius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sidereus_Nuncius&oldid=1362670890",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-05"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Galileo affair",
+			"url": "https://en.wikipedia.org/w/index.php?title=Galileo_affair&oldid=1370160594",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19",
+			"note": "The judgments of 1616 and 1633, and the Church's later views"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phases of Venus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phases_of_Venus&oldid=1369011078",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Galilean moons",
+			"url": "https://en.wikipedia.org/w/index.php?title=Galilean_moons&oldid=1376159902",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Galileo Galilei",
+			"url": "https://en.wikipedia.org/w/index.php?title=Galileo_Galilei&oldid=1375888851",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hans Lipperhey",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hans_Lipperhey&oldid=1377068921",
+			"accessed": "2026-09-29",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "web",
+			"title": "Galileo's telescope",
+			"url": "https://catalogue.museogalileo.it/object/GalileosTelescope_n01.html",
+			"accessed": "2026-09-29",
+			"container": "Museo Galileo catalogue",
+			"publisher": "Museo Galileo, Florence",
+			"note": "Inv. 2428: 927 mm, magnification 21, field 15′, eyepiece replaced in the nineteenth century"
+		},
+		{
+			"kind": "media",
+			"title": "Galileo's drawings of the Moon, engraved for the Sidereus Nuncius",
+			"url": "https://commons.wikimedia.org/wiki/File:Galileo%27s_sketches_of_the_moon_(cropped).png",
+			"accessed": "2026-09-29",
+			"container": "Sidereus Nuncius (Venice, 1610), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "moon-sketches.png",
+			"authors": [
+				{
+					"family": "Galilei",
+					"given": "Galileo"
+				}
+			],
+			"published": "1610"
+		},
+		{
+			"kind": "media",
+			"title": "Galileo's two surviving telescopes, Museo Galileo, Florence (Inv. 2427 and 2428)",
+			"url": "https://commons.wikimedia.org/wiki/File:Galilei_telescopes,_Museo_Galileo,_Florence,_Inv._242,_2428,_224088.jpg",
+			"accessed": "2026-09-29",
+			"container": "Museo Galileo, Florence; photograph via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "telescopes.jpg",
+			"authors": [
+				{
+					"name": "Zde"
+				}
+			],
+			"published": "2022"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/ptolemy",
+			"why": "Galileo saw Venus go through the full set of phases, which Ptolemy's arrangement, with Venus always between the Earth and the Sun, cannot give."
+		},
+		{
+			"to": "western-civ/harrison-chronometer",
+			"why": "Galileo proposed the eclipses of Jupiter's moons as a clock in the sky for finding longitude at sea; the problem stayed open until Harrison's watch carried home time aboard ship."
+		},
+		{
+			"to": "physics/kepler",
+			"why": "Kepler was the first astronomer to back the Sidereus Nuncius in print, in 1610, and Galileo sent him his discovery of the phases of Venus as an anagram."
+		}
+	]
+}
