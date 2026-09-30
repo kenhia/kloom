@@ -171,3 +171,27 @@ The open questions of look, none of them blocking:
 
 - None filed. Physics (3428) depends on 3446 and now gets `topic` from
   the skills it is written by.
+
+## Deployed
+
+2026-09-29, `just deploy` (the `recipe: deploy` in `.sprint-deploy`) to the
+kloom service on kai, from merged main `b629f7b` (PR #23). It built the app
+and restarted `kloom.service`, and `just verify` passed all eight door
+checks. The start-up sync fast-forwarded the content clone's `grow/kai` to
+`origin/main`. `grow/kai` had nothing unmerged, so every served frame has a
+topic.
+
+Verified live on the ssh door (:4891), on this sprint's own behaviour:
+
+- `GET /api/map` serves 4 subjects and 222 frames, each with a topic
+  ("Alignment faking", "IBM tabulators at Los Alamos", "Breaking the Lorenz
+  cipher").
+- A double-click on a library subject opens it with nothing selected.
+- On `ai/turing-machine` (31 nodes) and `western-civ/printing-press` (16),
+  hovering every node in turn leaves the canvas at one height. An arrow
+  from the centre brings the node forward with its neighbours marked, and
+  the details say "linked to 4 here".
+- Keyboard only (sprint 019's walk): Enter on "Breaking the Lorenz cipher"
+  jumps to `/computing/tunny`, and the chip reads "↩ Back to The Turing
+  machine".
+- No page errors, and no errors in the service's journal since the restart.
