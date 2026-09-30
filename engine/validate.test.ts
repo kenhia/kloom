@@ -2,7 +2,7 @@ import { join } from 'node:path';
 import { beforeAll, describe, expect, it } from 'vitest';
 import { buildSubject, loadSubject, SubjectError } from './load';
 import type { RawSubject } from './validate';
-import { validate } from './validate';
+import { TOPIC_MAX, validate } from './validate';
 
 // Every frame's one key source.
 const source = {
@@ -18,6 +18,7 @@ const raw = (): RawSubject => {
 	const frame = (id: string, sort: number, palette = 'night') => ({
 		frame: {
 			id,
+			topic: `Topic ${id}`,
 			position: { label: String(sort), sort },
 			scene: { headline: 'We did', accent: `${id.toUpperCase()}.`, palette, metadata: [] },
 			citations: [{ ...source }]
@@ -73,6 +74,33 @@ describe('validate', () => {
 			(r.frames.c.frame as Loose).asOf = bad;
 			expect(validate(r)).toEqual(['frames/c: asOf must be YYYY-MM or YYYY-MM-DD']);
 		}
+	});
+
+	it('requires a plain topic: short, not a sentence, not the accent, not another frame’s', () => {
+		const r = raw();
+		const a = r.frames.a.frame as Loose;
+		delete a.topic;
+		expect(validate(r)).toEqual(['frames/a: topic is required']);
+		a.topic = '  ';
+		expect(validate(r)).toEqual(['frames/a: topic is required']);
+		a.topic = 'x'.repeat(TOPIC_MAX + 1);
+		expect(validate(r)).toEqual([
+			`frames/a: topic is ${TOPIC_MAX + 1} characters; at most ${TOPIC_MAX}`
+		]);
+		a.topic = 'x'.repeat(TOPIC_MAX);
+		expect(validate(r)).toEqual([]);
+		a.topic = 'It played along.';
+		expect(validate(r)).toEqual(['frames/a: topic is a title: no closing "." or "!"']);
+		a.scene.accent = 'ALONG.';
+		a.topic = 'Played ALONG';
+		expect(validate(r)).toEqual([
+			'frames/a: topic must say what the frame is about, not repeat its accent "ALONG"'
+		]);
+		// The accent's word in plain case is the thing's name, and is fine.
+		a.topic = 'Playing along';
+		expect(validate(r)).toEqual([]);
+		a.topic = ' Topic b ';
+		expect(validate(r)).toEqual(['frames/b: topic "Topic b" is already frames/a\'s']);
 	});
 
 	it('fails an accent word another frame already has, whatever its case or stop', () => {

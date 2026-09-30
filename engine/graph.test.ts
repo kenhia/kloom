@@ -10,6 +10,7 @@ const frame = (
 	subject,
 	frame: id,
 	title: `We did ${id.toUpperCase()}`,
+	topic: `Topic ${id}`,
 	label: id,
 	trail: null,
 	connections: [],
@@ -70,6 +71,7 @@ describe('the graph', () => {
 				subjectTitle: 'Computing',
 				frame: 'edvac',
 				title: 'We did EDVAC',
+				topic: 'Topic edvac',
 				label: 'edvac',
 				trail: null,
 				detached: false

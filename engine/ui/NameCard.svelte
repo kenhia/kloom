@@ -79,14 +79,14 @@
 {#snippet entry(e: CardEntry)}
 	{#if isHere(e)}
 		<span class="entry" aria-current="page">
-			<span class="title">{e.title}</span>
+			<span class="title">{e.topic}</span>
 			<span class="context">{e.label}{e.trail ? ` · ${e.trail}` : ''} · you are here</span>
 		</span>
 	{:else}
 		<!-- The page resolved this app route. -->
 		<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 		<a class="entry" href={hrefOf(e.subject, e.frame)} onclick={(ev) => follow(ev, e)}>
-			<span class="title">{e.title}</span>
+			<span class="title">{e.topic}</span>
 			<span class="context">{e.label}{e.trail ? ` · ${e.trail}` : ''}</span>
 		</a>
 	{/if}

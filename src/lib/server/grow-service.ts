@@ -106,12 +106,12 @@ async function runOne(job: GrowJob, progress: (text: string) => void) {
 	return outcome;
 }
 
-/** Every served frame a grown connection may name, with its title and position. */
+/** Every served frame a grown connection may name, with its topic, title and position. */
 const framesOf = (graph: Awaited<ReturnType<typeof servedGraph>>) =>
 	Object.fromEntries(
 		[...graph.frames].map(([ref, f]) => [
 			ref,
-			`${f.title} (${f.label}${f.trail ? `; trail "${f.trail}"` : ''}; ${graph.subjects[f.subject] ?? f.subject})`
+			`${f.topic}: ${f.title} (${f.label}${f.trail ? `; trail "${f.trail}"` : ''}; ${graph.subjects[f.subject] ?? f.subject})`
 		])
 	);
 

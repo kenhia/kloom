@@ -70,6 +70,12 @@ export interface Connection {
 /** A frame as authored in `frame.json`; the reading lives in `reading.md`. */
 export interface FrameFile {
 	id: string;
+	/**
+	 * What the frame is about, in a short plain title ("Alignment faking"):
+	 * the headline is evocative and the position label may be a date, so this
+	 * is what names a frame where it stands alone, as on the map (sprint 020).
+	 */
+	topic: string;
 	position: Position;
 	scene: Scene;
 	/**

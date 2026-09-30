@@ -70,8 +70,10 @@ One author per segment or trail, each a subagent with a shell and the web.
 Each author gets:
 
 - the grow skill, `docs/design.md` §Content model and this subject's plan;
-- **the brief**: which frames, in which order, with a line for each saying
-  what it is about and what it must not repeat from its neighbours; the
+- **the brief**: which frames, in which order, each with its `topic` (the
+  plain title the grow skill describes, settled here so that no two
+  authors reach for the same one) and a line saying what it is about and
+  what it must not repeat from its neighbours; the
   palettes it uses; the headline voice; the rights and sourcing rules that
   are particular to this subject; and the accents already taken;
 - the hand-written frames, to read in full before writing;

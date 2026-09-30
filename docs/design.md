@@ -107,7 +107,12 @@ baked into the engine.
   Civ is all dates; an AI subject might be dates until ~2012, then
   technologies ("Transformers", "Diffusion", "RLHF"). The HUD's position label
   comes from the segment.
-- **Frame** — two halves, one per pane:
+- **Frame** — two halves, one per pane, and a _topic_:
+  - _topic_ (sprint 020): what the frame is about, in a plain title of at
+    most 40 characters ("Alignment faking", "IBM tabulators at Los
+    Alamos"). The headline is evocative and the position label may be a
+    date, so neither says on its own what a frame is. The topic is what
+    names a frame where it stands alone (§Topics);
   - _scene_: headline, accent word, illustration (SVG), palette, metadata,
     optional counter;
   - _reading_: markdown narrative, charts, images, and **sources** —
@@ -123,7 +128,7 @@ baked into the engine.
   `spine.json` (segments, each `{id, title, labelKind, frames: [ids]}`),
   `trails/<id>.json` (`{id, title, anchor, spine}`) and
   `frames/<id>/{frame.json, reading.md, *.svg}`. `frame.json` carries
-  `position {label, sort?}`, `scene` and `citations`. Label kinds are `date`,
+  `topic`, `position {label, sort?}`, `scene` and `citations`. Label kinds are `date`,
   `category` and `technology`; only `date` segments need a `sort` and must be
   non-decreasing. Every frame sits on exactly one spine, and a trail's
   anchor must be a main-spine frame. No two frames of a subject share an
@@ -587,7 +592,7 @@ listed and `engine/ui/Contents.svelte` draws it.
   it too: a remappable character shortcut, scoped like the others
   (§Interaction).
 - **What.** The main spine's frames under their segment titles, each with
-  its title and position label, linked to its deep link. Each trail sits
+  its title, then its position label and topic, linked to its deep link. Each trail sits
   under the frame it branches from, as a disclosure button ("Trail: The
   printing press, 1 frame"). Collapsed, and expanded its frames are
   indented under a rule. It opens with the trail the reader is on
@@ -595,7 +600,7 @@ listed and `engine/ui/Contents.svelte` draws it.
   spine is marked with `aria-current="page"` and the accent. The reader's
   marks on a frame are said in words after its position, in the same
   words as the spine's marks (`marksText`).
-- **A filter** at the top matches titles and position labels, ignoring
+- **A filter** at the top matches titles, position labels and topics, ignoring
   case. A frame stays when a trail under it matches, a trail whose title
   matches stays whole, and matched trails show open as plain labels.
   A status line says how many frames match.
@@ -726,11 +731,28 @@ about 340 KB), fetched when the map first opens and kept until a grow.
   drawn, so the same view lands the same way every time and nothing moves:
   there is no motion to reduce. The centre is pinned; the rest start on
   rings, grouped by subject, and a ring widens with its nodes.
-- **Labels.** Placed greedily, most important first (the centre, then
-  frames, then names), right of the node, else left, above or below,
-  wherever a label hits no other label, no node and no edge of the map. A
-  label with no room shows when its node has focus or the pointer. Titles
-  are cut at 30 characters on the map and whole everywhere else.
+- **Labels.** A frame is labelled by its topic, a name by its name and a
+  subject by its title, always whole: a label over 22 characters takes two
+  lines of about equal length, broken at a space (sprint 020; sprint 019
+  cut headlines at 30 characters, mid-word). The headline is said after
+  the topic in the details. Labels are placed greedily, most important
+  first (the centre, then frames, then names), right of the node, else
+  left, above or below, wherever a label hits no other label, no node and
+  no edge of the map. A label with no room shows when its node is brought
+  forward, or is a neighbour of the node brought forward. Every label sits
+  on a plate of the map's surface, so no line runs through its words.
+- **Emphasis** (sprint 020). At rest every line is dimmed toward the
+  surface: connections (solid) and a name's mentions (dotted) alike. The
+  node under the pointer, or with keyboard focus, is brought forward: its
+  lines are drawn last in full ink, its neighbours are outlined and their
+  labels ruled in their subject's colour, and every other node and line
+  recedes. So a line that merely passes a label never reads as a link.
+  Keyboard focus counts only when it is visible (`:focus-visible`), so a
+  map opened by pointer opens at rest. The details keep saying the last
+  node brought forward, with how many it is linked to on this map.
+- **The details** have one height for every state, empty or full, so the
+  graph above never resizes as the pointer moves: their lines are clipped
+  to fit, and the list has them whole.
 - **Subjects** wear a colour and a shape, in the order the app serves them.
   The subjects' own accents are all golds and reds, so the map takes its
   own surface (light or dark, after the palette it opens over) and a
@@ -739,6 +761,9 @@ about 340 KB), fetched when the map first opens and kept until a grow.
   only cue: each subject has a shape (circle, square, diamond, triangle,
   hexagon, star), the legend names both, and the list says each frame's
   subject in words. A name is a hollow ring.
+- **No text selection.** A double-click on a node goes to it, so the
+  graph does not let its labels be selected (sprint 020). The details and
+  the list still do: copying a title there is legitimate.
 - **Keys.** Every node is a button, one of them in the tab order at a
   time. The arrows move to the neighbour that lies that way (a joined one
   first, the nearest of all when none is joined that way), Home returns to
@@ -751,6 +776,39 @@ about 340 KB), fetched when the map first opens and kept until a grow.
   the frames sharing names and which, its names; or a subject's, a name's
   or the library's. On by default below 40rem, where a graph of 30 labelled
   nodes does not fit.
+
+## Topics
+
+Where a frame is named (sprint 020, korg 3446). A frame has three names:
+its headline and accent (the voice), its position label (often a date) and
+its topic (what it is about). The rule is one sentence: **where a frame
+stands alone, the topic names it; where the reader walks their own
+subject in order, the headline does, and the topic goes beside it.**
+
+- **The map** labels frames by topic, and the details say the headline
+  after it. Its view titles and list notes ("Around …", "Through …")
+  use the topic.
+- **The Back chip** says the topic of the frame it returns to: it is often
+  in another subject, where the headline says nothing.
+- **A name card's frames** and **a frame's Connections** are named by
+  topic: both list frames from any subject.
+- **The contents** keep the headline as each line's name, with the
+  position label and topic after it, and the filter matches topics too.
+- **Bookmarks** keep the headline stored with them (reader data is not
+  rewritten), and a bookmark in the subject being read says its position
+  and topic after it.
+- **Unchanged:** the spine's scene, the reading pane's title and the
+  screen reader's announcement of a step keep the headline. They are the
+  frame itself, where its scene and reading say what it is about.
+- **Validation.** Required, at most 40 characters (the backfill's longest
+  was 39), no closing "." or "!", not the scene's accent word in capitals,
+  and unique in its subject. Grow and `skills/author-subject` write one
+  for every new frame. A frame read without one (a content clone behind
+  the code) is named by its headline, so the graph never breaks on it.
+- **The backfill** (222 frames) was written by hand for western-civ and by
+  one agent per subject for the rest, reviewed and committed per subject.
+  It is authored content, not grown, so it went through the sprint's own
+  review rather than the grown-content path (korg 3442).
 
 ## Risks
 

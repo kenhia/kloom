@@ -22,6 +22,7 @@ describe('a subject’s contents', () => {
 			`${civ.frames['printing-press'].scene.headline} ${civ.frames['printing-press'].scene.accent}`
 		);
 		expect(press.position).toBe(civ.frames['printing-press'].position.label);
+		expect(press.topic).toBe("Gutenberg's printing press");
 	});
 
 	it('lists every frame of a long subject too', async () => {
@@ -42,6 +43,11 @@ describe('filtering the contents', () => {
 		expect(byTitle.flatMap((s) => s.entries).map((e) => e.id)).toContain('printing-press');
 		const byPosition = filterContents(contentsOf(civ), press.position.label);
 		expect(byPosition.flatMap((s) => s.entries).map((e) => e.id)).toContain('printing-press');
+	});
+
+	it('finds a frame by its topic, which the headline may not say', () => {
+		const found = filterContents(contentsOf(civ), 'brunelleschi');
+		expect(found.flatMap((s) => s.entries).map((e) => e.id)).toEqual(['florence-dome']);
 	});
 
 	it('keeps a trail frame’s anchor so the trail has somewhere to hang, and drops empty segments', () => {

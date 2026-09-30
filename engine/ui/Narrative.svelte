@@ -412,8 +412,8 @@
 							<a
 								class="to"
 								href={links.hrefOf(c.subject, c.frame)}
-								aria-label={c.direction === 'in' ? `From ${c.title}` : undefined}
-								onclick={(e) => follow(e, c)}>{c.title}</a
+								aria-label={c.direction === 'in' ? `From ${c.topic}` : undefined}
+								onclick={(e) => follow(e, c)}>{c.topic}</a
 							>
 							<!-- eslint-enable svelte/no-navigation-without-resolve -->
 							<span class="context"
