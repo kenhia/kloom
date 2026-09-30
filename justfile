@@ -88,3 +88,19 @@ verify:
         "$(code 'http://127.0.0.1:4891/api/reader/notes?subject=western-civ')" 200
     echo "deployed $(cat "{{ home }}/app/DEPLOYED" | cut -c1-9); content $(git -C "{{ home }}/content" log -1 --format='%h on %D' | cut -c1-60)"
     exit $fail
+
+# The library's size: words, the book they would make, and what else it holds
+stats:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    # The engine's own code, run through Vite's module runner (no dependency added).
+    node --input-type=module -e "
+    import { existsSync, readdirSync } from 'node:fs';
+    import { runnerImport } from 'vite';
+    const { module: m } = await runnerImport('./engine/stats.ts', { configFile: false, logLevel: 'error' });
+    const subjects = readdirSync('subjects', { withFileTypes: true })
+        .filter((d) => d.isDirectory() && existsSync('subjects/' + d.name + '/subject.json'))
+        .map((d) => ({ id: d.name, dir: 'subjects/' + d.name }))
+        .sort((a, b) => a.id.localeCompare(b.id));
+    console.log(m.statsReport(await m.readLibraryStats(subjects, 'names')));
+    "

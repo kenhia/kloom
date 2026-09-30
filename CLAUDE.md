@@ -141,6 +141,10 @@ cluster, and the first written with names and connections from the start
 (174 connections on its frames); `names.py reach` measures a subject's
 reach, and the authoring tools refuse more of what authors could not see
 (an unregistered or hand-written mark, a chart's text that will not fit).
+Sprint 022 About kloom: the library counted live from the narratives
+(`engine/stats.ts`, `/api/stats`, `just stats`: about 819 pages at 275
+words a page), and the start screen's corner, with About (the book, the
+stats, credits and the build) and the settings gear.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

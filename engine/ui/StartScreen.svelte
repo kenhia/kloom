@@ -2,6 +2,11 @@
 	import { onMount } from 'svelte';
 	import { bibliography, chicago, type Citation } from '../citation';
 	import type { Palette } from '../model';
+	import { keymapOf, keyWarnings } from '../settings';
+	import type { LibraryStats } from '../stats';
+	import type { UserSettings } from '../user-settings.svelte';
+	import About from './About.svelte';
+	import Settings from './Settings.svelte';
 
 	interface Props {
 		/**
@@ -44,6 +49,10 @@
 		onopen: (id: string) => void;
 		/** Open the map on the library (§The map); focus comes back to its button. */
 		onmap?: (refocus: () => void) => void;
+		/** The reader's settings: the gear top right, the shell's own pop-up. */
+		settings?: UserSettings;
+		/** The About panel top right, left of the gear: the library's counts and this build. */
+		about?: { stats: () => Promise<LibraryStats>; build?: string };
 	}
 
 	interface Resume {
@@ -70,7 +79,9 @@
 		onbegin,
 		onfirst,
 		onopen,
-		onmap
+		onmap,
+		settings,
+		about
 	}: Props = $props();
 
 	const id = $props.id();
@@ -105,7 +116,8 @@
 	/** Keys stop here: the shell behind must not move while this is open. */
 	function keydown(e: KeyboardEvent) {
 		e.stopPropagation();
-		if (e.key === 'Escape') {
+		// An Esc a pop-up in the corner took was only for closing it.
+		if (e.key === 'Escape' && !e.defaultPrevented) {
 			e.preventDefault();
 			selected = current;
 			begin();
@@ -280,6 +292,17 @@
 			</button>
 		{/if}
 	</div>
+
+	{#if about || settings}
+		<!-- Top right, as in the shell, the gear rightmost; last in the tab order. -->
+		<div class="corner">
+			{#if about}<About {...about} />{/if}
+			{#if settings}<Settings
+					{settings}
+					warnings={keyWarnings(keymapOf((k) => settings.get(k)))}
+				/>{/if}
+		</div>
+	{/if}
 
 	{#if credits.length}
 		<details class="credits">
@@ -554,6 +577,25 @@
 		border: 1px solid var(--start-muted);
 		border-radius: 0.2rem;
 		color: var(--start-muted);
+	}
+
+	/* The pop-ups here take the start screen's colours. */
+	.corner {
+		--background: var(--start-background);
+		--ink: var(--start-ink);
+		--muted: var(--start-muted);
+		--accent: var(--start-accent);
+		position: absolute;
+		top: 0.5rem;
+		right: 0.5rem;
+		z-index: 1;
+		display: flex;
+		gap: 0.25rem;
+	}
+	/* Both pop-ups hang from the corner's right edge, so neither leaves a phone's screen. */
+	.corner :global(.about),
+	.corner :global(.settings) {
+		position: static;
 	}
 
 	.credits {
