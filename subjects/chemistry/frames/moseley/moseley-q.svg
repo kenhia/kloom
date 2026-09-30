@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-labelledby="t d">
+<title id="t">Moseley's Q for the alpha X-ray line, potassium to zinc</title>
+<desc id="d">Bar chart of Q, the square root of an element's alpha X-ray frequency divided by three quarters of the Rydberg frequency, from Moseley's tables of 1913 and 1914. Potassium 17.98, calcium 19.00, titanium 20.99, vanadium 21.96, chromium 22.98, manganese 23.99, iron 24.99, cobalt 26.00, nickel 27.04, copper 28.01, zinc 29.01. Each step is one, except the double step from calcium to titanium, where scandium, element 21, is missing.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="580" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="580" y1="188.9" y2="188.9" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="192.9" text-anchor="end">10</text>
+<line x1="64" x2="580" y1="127.7" y2="127.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="131.7" text-anchor="end">20</text>
+<line x1="64" x2="580" y1="66.6" y2="66.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="70.6" text-anchor="end">30</text>
+</g>
+<rect x="70.5" y="140.1" width="34" height="109.9" fill-opacity="0.85"/>
+<text x="87.5" y="134.1" text-anchor="middle">17.98</text>
+<text x="87.5" y="266" text-anchor="middle">K</text>
+<text x="87.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">19</text>
+<rect x="117.4" y="133.8" width="34" height="116.2" fill-opacity="0.85"/>
+<text x="134.4" y="127.8" text-anchor="middle">19.00</text>
+<text x="134.4" y="266" text-anchor="middle">Ca</text>
+<text x="134.4" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">20</text>
+<rect x="164.3" y="121.7" width="34" height="128.3" class="accent" fill="currentColor"/>
+<text x="181.3" y="115.7" text-anchor="middle">20.99</text>
+<text x="181.3" y="266" text-anchor="middle">Ti</text>
+<text x="181.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">22</text>
+<rect x="211.2" y="115.7" width="34" height="134.3" fill-opacity="0.85"/>
+<text x="228.2" y="109.7" text-anchor="middle">21.96</text>
+<text x="228.2" y="266" text-anchor="middle">V</text>
+<text x="228.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">23</text>
+<rect x="258.1" y="109.5" width="34" height="140.5" fill-opacity="0.85"/>
+<text x="275.1" y="103.5" text-anchor="middle">22.98</text>
+<text x="275.1" y="266" text-anchor="middle">Cr</text>
+<text x="275.1" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">24</text>
+<rect x="305.0" y="103.3" width="34" height="146.7" fill-opacity="0.85"/>
+<text x="322.0" y="97.3" text-anchor="middle">23.99</text>
+<text x="322.0" y="266" text-anchor="middle">Mn</text>
+<text x="322.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">25</text>
+<rect x="351.9" y="97.2" width="34" height="152.8" fill-opacity="0.85"/>
+<text x="368.9" y="91.2" text-anchor="middle">24.99</text>
+<text x="368.9" y="266" text-anchor="middle">Fe</text>
+<text x="368.9" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">26</text>
+<rect x="398.8" y="91.0" width="34" height="159.0" fill-opacity="0.85"/>
+<text x="415.8" y="85.0" text-anchor="middle">26.00</text>
+<text x="415.8" y="266" text-anchor="middle">Co</text>
+<text x="415.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">27</text>
+<rect x="445.7" y="84.7" width="34" height="165.3" fill-opacity="0.85"/>
+<text x="462.7" y="78.7" text-anchor="middle">27.04</text>
+<text x="462.7" y="266" text-anchor="middle">Ni</text>
+<text x="462.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">28</text>
+<rect x="492.6" y="78.7" width="34" height="171.3" fill-opacity="0.85"/>
+<text x="509.6" y="72.7" text-anchor="middle">28.01</text>
+<text x="509.6" y="266" text-anchor="middle">Cu</text>
+<text x="509.6" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">29</text>
+<rect x="539.5" y="72.6" width="34" height="177.4" fill-opacity="0.85"/>
+<text x="556.5" y="66.6" text-anchor="middle">29.01</text>
+<text x="556.5" y="266" text-anchor="middle">Zn</text>
+<text x="556.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">30</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">MOSELEY'S Q, ELEMENT BY ELEMENT (Sc MISSING)</text>
+</g></svg>

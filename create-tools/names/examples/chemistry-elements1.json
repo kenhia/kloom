@@ -1,0 +1,32 @@
+{
+	"chemistry/radium": [
+		["Marie Curie", "marie-curie"],
+		["Pierre Curie", "pierre-curie"],
+		["radioactivity", "radioactive-decay"],
+		["pitchblende", "uraninite"],
+		["Joachimsthal", "jachymov"],
+		["polonium", "polonium"],
+		["Eugène Demarçay", "eugene-anatole-demarcay"],
+		["radium", "radium"]
+	],
+	"chemistry/noble-gases": [
+		["Lord Rayleigh", "john-william-strutt-3rd-baron-rayleigh"],
+		["periodic table", "periodic-table"],
+		["William Ramsay", "william-ramsay"],
+		["argon", "argon"],
+		["Henry Cavendish", "henry-cavendish"],
+		["helium", "helium"],
+		["Morris Travers", "morris-travers"],
+		["noble gases", "noble-gas"]
+	],
+	"chemistry/moseley": [
+		["periodic table", "periodic-table"],
+		["Henry Moseley", "henry-moseley"],
+		["X-rays", "x-ray"],
+		["University of Manchester", "university-of-manchester"],
+		["Ernest Rutherford", "ernest-rutherford"],
+		["Niels Bohr", "niels-bohr"],
+		["Antonius van den Broek", "antonius-van-den-broek"],
+		["atomic number", "atomic-number"]
+	]
+}

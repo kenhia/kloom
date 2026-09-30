@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M104 30 L104 262"/>
+		<path pathLength="1" d="M24 176 L184 176"/>
+		<path pathLength="1" d="M44 76 L164 76"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M88 62 L88.1 59.9 L88.5 57.9 L89.2 55.9 L90.1 54 L91.3 52.3 L92.7 50.7 L94.3 49.3 L96 48.1 L97.9 47.2 L99.9 46.5 L101.9 46.1 L104 46 L106.1 46.1 L108.1 46.5 L110.1 47.2 L112 48.1 L113.7 49.3 L115.3 50.7 L116.7 52.3 L117.9 54 L118.8 55.9 L119.5 57.9 L119.9 59.9 L120 62"/>
+		<path pathLength="1" d="M88 62 L88 200"/>
+		<path pathLength="1" d="M120 62 L120 200"/>
+		<path pathLength="1" d="M30 150 L36 236 L172 236 L178 150"/>
+		<path pathLength="1" d="M98 72 L98 226 L64 226 L64 138 L34 110"/>
+		<path pathLength="1" d="M110 72 L110 226 L144 226 L144 138 L174 110"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M95 86 L95 223 L67 223 L67 150"/>
+		<path pathLength="1" d="M101 86 L101 229 L61 229 L61 150"/>
+		<path pathLength="1" d="M107 86 L107 229 L147 229 L147 150"/>
+		<path pathLength="1" d="M113 86 L113 223 L141 223 L141 150"/>
+		<path pathLength="1" d="M99 72 L103 68 L105 76 L109 72"/>
+		<path pathLength="1" d="M100 54 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M88 110 L120 110"/>
+		<path pathLength="1" d="M40 196 L46 196 M52 202 L58 202 M64 196 L70 196 M76 202 L82 202 M88 196 L94 196 M100 202 L106 202 M112 196 L118 196 M124 202 L130 202 M136 196 L142 196 M148 202 L154 202 M160 196 L166 196"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M250 48 L288 48 L288 78 L250 78 Z"/>
+		<path pathLength="1" d="M250 78 L288 78 L288 108 L250 108 Z"/>
+		<path pathLength="1" d="M250 108 L288 108 L288 138 L250 138 Z"/>
+		<path pathLength="1" d="M250 138 L288 138 L288 168 L250 168 Z"/>
+		<path pathLength="1" d="M250 168 L288 168 L288 198 L250 198 Z"/>
+		<path pathLength="1" d="M326 48 L364 48 L364 78 L326 78 Z"/>
+		<path pathLength="1" d="M326 78 L364 78 L364 108 L326 108 Z"/>
+		<path pathLength="1" d="M326 108 L364 108 L364 138 L326 138 Z"/>
+		<path pathLength="1" d="M326 138 L364 138 L364 168 L326 168 Z"/>
+		<path pathLength="1" d="M326 168 L364 168 L364 198 L326 198 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M288 48 L326 48 L326 78 L288 78 Z"/>
+		<path pathLength="1" d="M288 78 L326 78 L326 108 L288 108 Z"/>
+		<path pathLength="1" d="M288 108 L326 108 L326 138 L288 138 Z"/>
+		<path pathLength="1" d="M288 138 L326 138 L326 168 L288 168 Z"/>
+		<path pathLength="1" d="M288 168 L326 168 L326 198 L288 198 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="269" y="127" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Cl</text>
+		<text x="307" y="67" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">He</text>
+		<text x="307" y="97" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Ne</text>
+		<text x="307" y="127" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Ar</text>
+		<text x="307" y="157" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Kr</text>
+		<text x="307" y="187" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Xe</text>
+		<text x="345" y="127" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">K</text>
+		<text x="307" y="38" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GROUP 0</text>
+		<text x="307" y="220" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Cl 35.5 · Ar 39.9 · K 39.1</text>
+		<text x="104" y="256" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SPARKS · OXYGEN · ALKALI</text>
+		<text x="104" y="24" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1/120 LEFT OVER</text>
+	</g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M44 160 a74 74 0 1 0 148 0 a74 74 0 1 0 -148 0"/>
+		<path pathLength="1" d="M14 160 L204 160"/>
+		<path pathLength="1" d="M81.5 176.3 L154.5 143.7"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M10 160 a16 16 0 1 0 32 0 a16 16 0 1 0 -32 0"/>
+		<path pathLength="1" d="M20 166 L30 166 L30 154 L20 154 Z"/>
+		<path pathLength="1" d="M44 148 L44 158"/>
+		<path pathLength="1" d="M44 162 L44 172"/>
+		<path pathLength="1" d="M97.9 168.9 L138.1 151.1 L140.9 157.4 L100.7 175.3 Z"/>
+		<path pathLength="1" d="M143.3 90.5 L145.5 91.3 L147.7 92.2 L149.9 93.2 L152 94.3 L154.1 95.4 L156.1 96.6 L158.1 97.8 L160.1 99.1 L162 100.5 L163.9 102 L165.7 103.5 L167.5 105 L169.2 106.6 L170.9 108.3 L172.6 110 L174.1 111.8 L175.6 113.6 L177.1 115.5 L178.5 117.4 L179.8 119.3 L181.1 121.3 L182.3 123.4 L183.4 125.4 L184.5 127.6"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M42 160 L118 160 L167.5 105"/>
+		<path pathLength="1" d="M145.4 147.8 L145.9 149 L146.3 150.1 L146.7 151.3 L147.1 152.5 L147.3 153.8 L147.6 155 L147.8 156.2 L147.9 157.5 L148 158.7 L148 160"/>
+		<path pathLength="1" d="M147.4 127.3 L148.8 128.6 L150.1 129.9 L151.3 131.2 L152.5 132.7 L153.6 134.1 L154.6 135.7 L155.6 137.2 L156.6 138.8 L157.4 140.4 L158.2 142.1"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M236 64 L236 214 L382 214"/>
+		<path pathLength="1" d="M258.5 214 L258.5 64 M314.6 214 L314.6 64 M370.8 214 L370.8 64"/>
+		<path pathLength="1" d="M269.7 214 L269.7 64"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M241.2 210.2 L376.8 71.6"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M244.2 201.1 L250.2 207.1 M255.5 189.4 L261.5 195.4 M277.9 166.6 L283.9 172.6 M289.2 155.4 L295.2 161.4 M300.4 143.7 L306.4 149.7 M311.6 132.1 L317.6 138.1 M322.8 120.7 L328.8 126.7 M334.1 109.2 L340.1 115.2 M345.3 97.2 L351.3 103.2 M356.5 86.1 L362.5 92.1 M367.8 74.8 L373.8 80.8 M244.2 207.1 L250.2 201.1 M255.5 195.4 L261.5 189.4 M277.9 172.6 L283.9 166.6 M289.2 161.4 L295.2 155.4 M300.4 149.7 L306.4 143.7 M311.6 138.1 L317.6 132.1 M322.8 126.7 L328.8 120.7 M334.1 115.2 L340.1 109.2 M345.3 103.2 L351.3 97.2 M356.5 92.1 L362.5 86.1 M367.8 80.8 L373.8 74.8"/>
+		<path pathLength="1" d="M265.7 181.1 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="118" y="44" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CRYSTAL · PLATE · SLIT</text>
+		<text x="118" y="252" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">nλ = 2d sin θ</text>
+		<text x="309" y="230" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N  20 · 25 · 30</text>
+		<text x="309" y="54" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">√ν RISES BY STEPS</text>
+		<text x="271.7" y="197.1" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Sc</text>
+		<text x="309" y="252" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ν ∝ (N − 1)²</text>
+	</g>
+</svg>

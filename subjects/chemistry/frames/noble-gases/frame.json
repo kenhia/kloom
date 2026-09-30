@@ -1,0 +1,222 @@
+{
+	"id": "noble-gases",
+	"topic": "The discovery of the noble gases",
+	"position": {
+		"label": "1894–98",
+		"sort": 1894
+	},
+	"scene": {
+		"headline": "We found gases too",
+		"accent": "LAZY.",
+		"palette": "filter",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · TERLING · LORD RAYLEIGH AND WILLIAM RAMSAY",
+			"ARGON · HELIUM · NEON · KRYPTON · XENON"
+		],
+		"counter": {
+			"value": "0.5%",
+			"label": "by which air's nitrogen outweighed chemistry's"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/spectra",
+			"why": "Lockyer named helium in 1868 from a yellow line in the Sun's spectrum; in 1895 Ramsay found the same line in gas boiled out of cleveite, a uranium mineral, and held the element for the first time."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Density of Nitrogen",
+			"authors": [
+				{
+					"name": "Lord Rayleigh"
+				}
+			],
+			"container": "Nature",
+			"volume": "46",
+			"pages": "512–513",
+			"published": "1892-09-29",
+			"doi": "10.1038/046512c0",
+			"url": "https://archive.org/details/paper-doi-10_1038_046512c0",
+			"accessed": "2026-09-30",
+			"note": "The letter asking chemists for help"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Argon, a New Constituent of the Atmosphere",
+			"authors": [
+				{
+					"name": "Lord Rayleigh"
+				},
+				{
+					"family": "Ramsay",
+					"given": "William"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London A",
+			"volume": "186",
+			"pages": "187–241",
+			"published": "1895",
+			"doi": "10.1098/rsta.1895.0006",
+			"url": "https://archive.org/details/philtrans03853788",
+			"accessed": "2026-09-30",
+			"note": "The globe's weights, Cavendish's bubble, argon's density and its place in the table"
+		},
+		{
+			"kind": "article",
+			"title": "On a Gas Showing the Spectrum of Helium, the Reputed Cause of D₃, One of the Lines in the Coronal Spectrum. Preliminary Note",
+			"authors": [
+				{
+					"family": "Ramsay",
+					"given": "William"
+				}
+			],
+			"container": "Proceedings of the Royal Society of London",
+			"volume": "58",
+			"published": "1895",
+			"doi": "10.1098/rspl.1895.0006",
+			"url": "https://archive.org/details/philtrans01087495",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "On the Companions of Argon",
+			"authors": [
+				{
+					"family": "Ramsay",
+					"given": "William"
+				},
+				{
+					"family": "Travers",
+					"given": "Morris W."
+				}
+			],
+			"container": "Proceedings of the Royal Society of London",
+			"volume": "63",
+			"published": "1898",
+			"doi": "10.1098/rspl.1898.0057",
+			"url": "https://archive.org/details/philtrans01327225",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Density of Gases in the Air and the Discovery of Argon",
+			"authors": [
+				{
+					"name": "Lord Rayleigh"
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"published": "1904-12-12",
+			"url": "https://www.nobelprize.org/prizes/physics/1904/strutt/lecture/",
+			"accessed": "2026-09-30",
+			"note": "Magnifying the discrepancy, from a thousandth to a two-hundredth"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Noble gas",
+			"url": "https://en.wikipedia.org/w/index.php?title=Noble_gas&oldid=1375083561",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Argon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Argon&oldid=1375957429",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Timeline of chemical element discoveries",
+			"url": "https://en.wikipedia.org/w/index.php?title=Timeline_of_chemical_element_discoveries&oldid=1375313331",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Ramsay",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Ramsay&oldid=1372316764",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atmosphere of Earth",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atmosphere_of_Earth&oldid=1375058235",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "media",
+			"title": "The original cleveite from which helium was first made, in its jar at University College London",
+			"url": "https://commons.wikimedia.org/wiki/File:Clevite_sample_(35321726345).jpg",
+			"accessed": "2026-09-30",
+			"container": "UCL Mathematical and Physical Sciences, via Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "cleveite.jpg",
+			"authors": [
+				{
+					"name": "UCL Mathematical and Physical Sciences"
+				}
+			],
+			"published": "2012-11-29"
+		},
+		{
+			"kind": "media",
+			"title": "Helium, neon, argon, krypton and xenon glowing in discharge tubes",
+			"url": "https://commons.wikimedia.org/wiki/File:Edelgase_in_Entladungsroehren.jpg",
+			"accessed": "2026-09-30",
+			"container": "Via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0 de",
+			"file": "discharge-tubes.jpg",
+			"authors": [
+				{
+					"name": "Alchemist-hp"
+				}
+			],
+			"published": "2009-01-26"
+		}
+	]
+}
