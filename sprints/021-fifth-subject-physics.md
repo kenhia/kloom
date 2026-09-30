@@ -79,3 +79,51 @@ Four dark/light pairs, one for each era:
 | starchart    | light  | relativity and the cosmos           | 16.2 | 6.6   | 8.1    | 13.7 |
 
 The lowest contrast is 5.8:1, against a floor of 4.5.
+
+### The first segment, by hand
+
+The Greeks has three frames:
+
+- `aristotle-motion` (4th century BC): natural places and forced motion,
+  the case against the void (Physics IV.8, where Aristotle states the first
+  law of motion as an absurdity), Philoponus and Galileo, and Rovelli's
+  2015 reading of Aristotle's physics as Newton's at terminal speed;
+- `archimedes` (c. 250 BC): the lever proved from postulates (the plate
+  draws the proof's row of seven equal weights), the principle of
+  buoyancy, Vitruvius's wreath against the Latin poem's balance, and the
+  palimpsest read at the Walters and at SLAC;
+- `ptolemy` (c. AD 150): deferent, epicycle and equant, with the plate
+  tracing Mars from the Almagest's own parameters (R 60, e 6, r 39;30,
+  read in Toomer's translation, X.7–8), R. R. Newton's fraud charge, and
+  the 2022 Hipparchus fragments.
+
+**What writing them found**, as the link steps' first authoring run:
+
+- **The author's own check had been broken since sprint 017.**
+  `subject_plan.py --complete` copied only the subject, and the test reads
+  the name registry beside the subjects, so every mark and every
+  connection to another subject failed in the copy. The copy now holds the
+  other subjects and the registry at `DIR/.names`, with `--drafts`
+  merged in, and the test reads `KLOOM_TEST_NAMES`. Seen failing on a mark
+  to an unknown name in the copy, and passing on the real ones.
+- **`names.py mark` placed a mark on a name no file held**, and only
+  vitest noticed. It now names such an id (not in the registry or a
+  `--drafts` directory) and exits 1. Seen failing on a planted
+  `tycho-brahe` mark, and every existing spec still passes.
+- **An italic title needs its underscores in the spec** (`"_Physics_"`):
+  the words are matched as written, and `mark` refused the bare word. The
+  ai subject already marks `[_cybernetics_]` this way; the names README
+  now says so.
+- **A hub's description was written from one subject's angle.**
+  `aristotle.json` described him by the syllogism alone, for the AI
+  subject. It now names his physics too. Physics will mark many names
+  another subject added first; the brief asks authors to report such a
+  description rather than edit it, and review widens it.
+- **A connection's why has to be in a reading.** A draft connected
+  `ptolemy` to `eratosthenes` by the Earth radius as a unit of distance;
+  neither reading says so, and it was cut. Three claims were cut or
+  rewritten for want of a source (the iron in the palimpsest's ink, the
+  equant and Kepler's empty focus, a Maragha "school").
+- **Sources disagree** and the readings say so: Aristotle wrong or right
+  in his domain; Mach against Dijksterhuis on the lever's proof; the
+  wreath by bath or by balance; Ptolemy's "fishy numbers".

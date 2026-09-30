@@ -89,9 +89,11 @@ Each author gets:
 lookup`, never from memory; the id is lookup's, so two authors reach the
   same id for the same thing), and writes a mark spec,
   `create-tools/names/examples/<subject>-<segment>.json`, checked with
-  `names.py mark <spec> --check` until nothing but "not marked yet" is
-  left. Its frames' `frame.json` carry their connections, each checked
-  against the other frame's reading;
+  `names.py mark <spec> --check --drafts <its drafts>` until nothing but
+  "not marked yet" is left. An existing name whose description is written
+  from another subject's angle only is reported, not edited. Its frames'
+  `frame.json` carry their connections, each checked against the other
+  frame's reading;
 - the instruction to **report**: what it wrote, every claim it is unsure
   of, where sources disagreed and what it did, and every place the grow
   skill misled it.
@@ -114,8 +116,11 @@ Things authors working at once cannot see, so the brief settles them:
   let the author say what order they need; change the plan, not the sorts.
 - **Validation while others work.** The live subject fails on anyone's
   half-written frame. Authors check theirs in a copy of finished frames
-  (`subject_plan.py <plan> subjects/<subject> --complete DIR`, then the
-  subject tests with `KLOOM_TEST_SUBJECTS=DIR`), and look at their plates
+  (`subject_plan.py <plan> subjects/<subject> --complete DIR
+--drafts <their name drafts>`, then the subject tests with
+  `KLOOM_TEST_SUBJECTS=DIR KLOOM_TEST_NAMES=DIR/.names`: the copy carries
+  the other subjects and the registry, so marks and connections validate),
+  and look at their plates
   with `contact_sheet.py` (`--scale 2.5` to read labels), which shows a
   plate before its `frame.json`. To check a draft before its `frame.json`
   goes live, an author copies the draft's directory into the copy and
@@ -143,7 +148,10 @@ As each author reports:
    the same id, keep one file. Then `names.py mark <spec>` places the
    marks. Read a sample of the new name files: the description is shared
    by every subject, so it must not be written from this one's angle
-   only, and the Wikidata item must be the thing meant.
+   only, and the Wikidata item must be the thing meant. Widen, with
+   `names.py add --update`, an existing name the authors report as
+   described from one subject only: a new subject marks many names another
+   added first (sprint 021's `aristotle`, known only by the syllogism).
 5. Commit that segment on its own, so a bad one can be reverted alone.
    Stage it with `create-tools/subject-plan/stage_segment.py`, which stages
    the frames with a spine and trails holding only committed frames (the
