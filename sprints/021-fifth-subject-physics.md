@@ -47,12 +47,12 @@ frames and four trails of 23, 68 in all.
   nucleus; Particles; The cosmos), and a closing Open questions.
 - **Four trails**, the proposal's candidates:
 
-  | Trail                               | Anchor              | Label kind |
-  | ----------------------------------- | ------------------- | ---------- |
-  | The field, Ørsted to Hertz          | `the-field`         | date       |
-  | Heat and information                | `entropy`           | date       |
-  | The quantum revolution, 1900–1927   | `quantum-mechanics` | date       |
-  | The Standard Model                  | `standard-model`    | date       |
+  | Trail                             | Anchor              | Label kind |
+  | --------------------------------- | ------------------- | ---------- |
+  | The field, Ørsted to Hertz        | `the-field`         | date       |
+  | Heat and information              | `entropy`           | date       |
+  | The quantum revolution, 1900–1927 | `quantum-mechanics` | date       |
+  | The Standard Model                | `standard-model`    | date       |
 
 - **Faraday and Maxwell are western-civ's.** Its `faraday-induction` and
   `maxwell` tell the 1831 ring and the 1865 paper. Physics' field trail
@@ -67,15 +67,15 @@ frames and four trails of 23, 68 in all.
 
 Four dark/light pairs, one for each era:
 
-| Palette      | Scheme | For                                    | Ink  | Muted | Accent | Line |
-| ------------ | ------ | -------------------------------------- | ---- | ----- | ------ | ---- |
-| bronze       | dark   | the Greeks to Newton                   | 14.5 | 7.6   | 8.1    | 11.2 |
-| papyrus      | light  | the Greeks to Newton                   | 12.5 | 5.8   | 6.1    | 10.3 |
-| gaslight     | dark   | heat, light and charge, 1700–1910      | 14.1 | 7.4   | 9.5    | 10.5 |
-| foolscap     | light  | heat, light and charge, 1700–1910      | 14.9 | 6.2   | 6.0    | 12.8 |
-| cloudchamber | dark   | the quantum, the nucleus, particles    | 15.8 | 8.3   | 10.4   | 11.9 |
-| photoplate   | light  | the quantum, the nucleus, particles    | 15.3 | 6.2   | 6.3    | 13.3 |
-| deepfield    | dark   | relativity and the cosmos              | 16.0 | 8.0   | 9.7    | 11.9 |
-| starchart    | light  | relativity and the cosmos              | 16.2 | 6.6   | 8.1    | 13.7 |
+| Palette      | Scheme | For                                 | Ink  | Muted | Accent | Line |
+| ------------ | ------ | ----------------------------------- | ---- | ----- | ------ | ---- |
+| bronze       | dark   | the Greeks to Newton                | 14.5 | 7.6   | 8.1    | 11.2 |
+| papyrus      | light  | the Greeks to Newton                | 12.5 | 5.8   | 6.1    | 10.3 |
+| gaslight     | dark   | heat, light and charge, 1700–1910   | 14.1 | 7.4   | 9.5    | 10.5 |
+| foolscap     | light  | heat, light and charge, 1700–1910   | 14.9 | 6.2   | 6.0    | 12.8 |
+| cloudchamber | dark   | the quantum, the nucleus, particles | 15.8 | 8.3   | 10.4   | 11.9 |
+| photoplate   | light  | the quantum, the nucleus, particles | 15.3 | 6.2   | 6.3    | 13.3 |
+| deepfield    | dark   | relativity and the cosmos           | 16.0 | 8.0   | 9.7    | 11.9 |
+| starchart    | light  | relativity and the cosmos           | 16.2 | 6.6   | 8.1    | 13.7 |
 
 The lowest contrast is 5.8:1, against a floor of 4.5.

@@ -15,7 +15,8 @@ import { validate } from './validate';
 // KLOOM_TEST_SUBJECTS points at another directory of subjects: a copy holding only
 // finished frames, from subject_plan.py --complete, while authors are mid-write.
 const root = process.env.KLOOM_TEST_SUBJECTS || join(import.meta.dirname, '..', 'subjects');
-const namesDir = join(root, '..', 'names');
+// KLOOM_TEST_NAMES is that copy's registry (DIR/.names), with the author's drafts in it.
+const namesDir = process.env.KLOOM_TEST_NAMES || join(root, '..', 'names');
 const subjects = readdirSync(root, { withFileTypes: true })
 	.filter((d) => d.isDirectory() && !d.name.startsWith('.'))
 	.map((d) => d.name);

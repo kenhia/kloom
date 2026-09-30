@@ -24,9 +24,14 @@ npx prettier --write subjects/ai
   only the frames that have a `frame.json`, with its spine and trails. With
   several authors at work, the live subject fails validation on whoever is
   mid-frame; this lets one author check their own finished frames:
-  `KLOOM_TEST_SUBJECTS=DIR npx vitest --run engine/subjects.test.ts engine/svg.test.ts`
-  (the two tests read their subjects from `$KLOOM_TEST_SUBJECTS` when it is
-  set). Sprint 014's authors each improvised this. A finished trail frame
+  `KLOOM_TEST_SUBJECTS=DIR KLOOM_TEST_NAMES=DIR/.names npx vitest --run engine/subjects.test.ts engine/svg.test.ts`
+  (the tests read their subjects from `$KLOOM_TEST_SUBJECTS` and the
+  registry from `$KLOOM_TEST_NAMES` when they are set). The copy holds the
+  other subjects too, which connections may name, and the registry at
+  `DIR/.names`, into which `--drafts DIR` (repeatable) merges an author's
+  name drafts, so marks on names not yet added validate (sprint 021: since
+  connections arrived in sprint 017, a copy without them failed every
+  author). Sprint 014's authors each improvised this. A finished trail frame
   whose anchor is not written yet is on no spine, so the copy leaves it out
   and names it rather than failing every author on it (sprint 015). To
   check such a trail before its anchor lands, copy any finished main-spine

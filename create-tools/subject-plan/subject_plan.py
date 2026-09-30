@@ -16,8 +16,11 @@ once) validates at every step, and the plan says what is still to come.
 DIR/<subject> that holds only the frames with a `frame.json` that land on a
 spine (a trail frame whose anchor is not written yet is left out, and named),
 so one author
-can validate their frames while others are mid-write:
-`KLOOM_TEST_SUBJECTS=DIR npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
+can validate their frames while others are mid-write. Beside it go the other
+subjects, which connections may name, and the name registry at DIR/.names,
+with any `--drafts` directories of names not yet added merged in (sprint
+021; since sprint 017 a copy without them failed on every mark):
+`KLOOM_TEST_SUBJECTS=DIR KLOOM_TEST_NAMES=DIR/.names npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
 Standard library only.
 """
 import argparse, json, os, shutil, sys
@@ -46,6 +49,10 @@ def main():
     ap.add_argument('--check', action='store_true')
     ap.add_argument('--complete', metavar='DIR',
                     help='write a copy holding only the finished frames to DIR/<subject>, to validate one author\'s work while others are still writing')
+    ap.add_argument('--drafts', action='append', default=[], metavar='DIR',
+                    help='with --complete: a directory of name drafts to merge into the copy\'s registry (repeatable)')
+    ap.add_argument('--names', default=None, metavar='DIR',
+                    help='with --complete: the name registry (default: names/ beside the subject\'s parent)')
     a = ap.parse_args()
     if a.complete:
         src = a.subject
@@ -56,6 +63,20 @@ def main():
         for d in os.listdir(os.path.join(src, 'frames')):
             if not d.startswith('.') and os.path.isfile(os.path.join(src, 'frames', d, 'frame.json')):
                 shutil.copytree(os.path.join(src, 'frames', d), os.path.join(a.subject, 'frames', d))
+        # The other subjects, whole (copies, never links: Prettier on the copy must not reach them), and the registry.
+        parent = os.path.dirname(os.path.abspath(os.path.normpath(src)))
+        for other in os.listdir(parent):
+            there, here = os.path.join(parent, other), os.path.join(a.complete, other)
+            if other != os.path.basename(os.path.normpath(src)) and os.path.isfile(os.path.join(there, 'subject.json')):
+                shutil.rmtree(here, ignore_errors=True)
+                shutil.copytree(there, here)
+        names = os.path.join(a.complete, '.names')
+        shutil.rmtree(names, ignore_errors=True)
+        shutil.copytree(a.names or os.path.join(os.path.dirname(parent), 'names'), names)
+        for d in a.drafts:
+            for f in os.listdir(d):
+                if f.endswith('.json'):
+                    shutil.copy(os.path.join(d, f), names)
     with open(a.plan) as fh:
         plan = json.load(fh)
     frames_dir = os.path.join(a.subject, 'frames')
