@@ -36,7 +36,14 @@
 			"id": "industry",
 			"title": "Industry",
 			"labelKind": "category",
-			"frames": ["chemical-warfare", "polymers", "leaded-petrol"]
+			"frames": [
+				"leblanc-solvay",
+				"mauveine",
+				"haber-bosch",
+				"chemical-warfare",
+				"polymers",
+				"leaded-petrol"
+			]
 		},
 		{
 			"id": "materials",

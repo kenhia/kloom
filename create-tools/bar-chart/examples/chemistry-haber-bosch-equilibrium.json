@@ -1,0 +1,28 @@
+{
+	"title": "Ammonia at equilibrium at 200 atmospheres, by temperature",
+	"description": "Bar chart of the share of ammonia, by volume, in a mixture of three parts hydrogen to one of nitrogen once it reaches equilibrium at 200 atmospheres. 300 °C, 62.8 per cent; 350 °C, 49.1; 400 °C, 36.3; 450 °C, 25.6; 500 °C, 17.6; 550 °C, 12.0; 600 °C, 8.2. Worked by kloom from the equation for the equilibrium in Fritz Haber's Nobel lecture, treating the gases as ideal.",
+	"heading": "AMMONIA AT EQUILIBRIUM, 200 ATM · PER CENT",
+	"unit": "%",
+	"width": 480,
+	"height": 300,
+	"barWidth": 44,
+	"axis": {
+		"max": 80,
+		"ticks": [
+			[0, "0"],
+			[20, "20"],
+			[40, "40"],
+			[60, "60"],
+			[80, "80"]
+		]
+	},
+	"bars": [
+		{ "label": "300 °C", "value": 62.8 },
+		{ "label": "350", "value": 49.1 },
+		{ "label": "400", "value": 36.3 },
+		{ "label": "450", "value": 25.6, "highlight": true },
+		{ "label": "500", "value": 17.6 },
+		{ "label": "550", "value": 12 },
+		{ "label": "600", "value": 8.2 }
+	]
+}

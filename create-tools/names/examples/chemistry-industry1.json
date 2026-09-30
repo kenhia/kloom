@@ -1,0 +1,32 @@
+{
+	"chemistry/leblanc-solvay": [
+		["Sodium carbonate", "sodium-carbonate"],
+		["barilla", "barilla"],
+		["Nicolas Leblanc", "nicolas-leblanc"],
+		["Leblanc process", "leblanc-process"],
+		["Solvay process", "solvay-process"],
+		["Alkali Act 1863", "alkali-act-1863"],
+		["Ernest Solvay", "ernest-solvay"],
+		["Solvay Conference", "solvay-conference"]
+	],
+	"chemistry/mauveine": [
+		["William Henry Perkin", "william-henry-perkin"],
+		["August Wilhelm von Hofmann", "august-wilhelm-von-hofmann"],
+		["quinine", "quinine"],
+		["aniline", "aniline"],
+		["coal tar", "coal-tar"],
+		["Tyrian purple", "tyrian-purple"],
+		["mauveine", "mauveine"],
+		["BASF", "basf"]
+	],
+	"chemistry/haber-bosch": [
+		["William Crookes", "william-crookes"],
+		["ammonia", "ammonia"],
+		["Le Chatelier's principle", "le-chateliers-principle"],
+		["Fritz Haber", "fritz-haber"],
+		["BASF", "basf"],
+		["Carl Bosch", "carl-bosch"],
+		["Alwin Mittasch", "alwin-mittasch"],
+		["Haber process", "haber-process"]
+	]
+}
