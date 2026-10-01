@@ -1,0 +1,15 @@
+{
+	"id": "at-the-forge",
+	"title": "At the forge",
+	"anchor": "bloomery",
+	"spine": {
+		"segments": [
+			{
+				"id": "forge-work",
+				"title": "Forge work",
+				"labelKind": "category",
+				"frames": ["drawing-out", "forge-welding", "pattern-welding", "heat-treatment"]
+			}
+		]
+	}
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M26 252 L268 252"/>
+		<path pathLength="1" d="M26 196 L268 196"/>
+		<path pathLength="1" d="M104 174 L104 274"/>
+		<path pathLength="1" d="M166 236 L166 274"/>
+		<path pathLength="1" d="M254 180 L254 218"/>
+		<path pathLength="1" d="M104 270 L166 270"/>
+		<path pathLength="1" d="M104 266 L104 274 M166 266 L166 274"/>
+		<path pathLength="1" d="M104 178 L254 178"/>
+		<path pathLength="1" d="M104 174 L104 182 M254 174 L254 182"/>
+		<path pathLength="1" d="M92 34 L92 140"/>
+		<path pathLength="1" d="M22 104 L162 104"/>
+		<path pathLength="1" d="M214 34 L214 134"/>
+		<path pathLength="1" d="M334 88 L334 254"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M34 242 L166 242 L166 262 L34 262"/>
+		<path pathLength="1" d="M104 242 L104 262"/>
+		<path pathLength="1" d="M34 186 L104 186 L254 194 L254 198 L104 206 L34 206"/>
+		<path pathLength="1" d="M70 104 a22 22 0 1 0 44 0 a22 22 0 1 0 -44 0"/>
+		<path pathLength="1" d="M26 70 L158 70 L158 82 L26 82 Z"/>
+		<path pathLength="1" d="M164 114 L264 114"/>
+		<path pathLength="1" d="M164 114 L164 138"/>
+		<path pathLength="1" d="M264 114 L264 138"/>
+		<path pathLength="1" d="M204 114 L204 94 L224 94 L224 114"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M79 56 L105 56 L105 30 L79 30 Z"/>
+		<path pathLength="1" d="M105 43 L150 39"/>
+		<path pathLength="1" d="M92 18 L92 26"/>
+		<path pathLength="1" d="M90 22.5 L92 26 L94 22.5"/>
+		<path pathLength="1" d="M201 80 L227 80 L227 54 L201 54 Z"/>
+		<path pathLength="1" d="M227 67 L272 63"/>
+		<path pathLength="1" d="M214 42 L214 50"/>
+		<path pathLength="1" d="M212 46.5 L214 50 L216 46.5"/>
+		<path pathLength="1" d="M84 76 L46 76"/>
+		<path pathLength="1" d="M50.3 73.5 L46 76 L50.3 78.5"/>
+		<path pathLength="1" d="M100 76 L138 76"/>
+		<path pathLength="1" d="M133.7 78.5 L138 76 L133.7 73.5"/>
+		<path pathLength="1" d="M198 114 L198 101 L230 101 L230 114"/>
+		<path pathLength="1" d="M194 107 L176 107"/>
+		<path pathLength="1" d="M180.3 104.5 L176 107 L180.3 109.5"/>
+		<path pathLength="1" d="M234 107 L252 107"/>
+		<path pathLength="1" d="M247.7 109.5 L252 107 L247.7 104.5"/>
+		<path pathLength="1" d="M350 128 L318 128 L318 96 L350 96 Z"/>
+		<path pathLength="1" d="M350 178.6 L340.6 188 L327.4 188 L318 178.6 L318 165.4 L327.4 156 L340.6 156 L350 165.4 Z"/>
+		<path pathLength="1" d="M350 188 L318 188 L318 156 L350 156 Z"/>
+		<path pathLength="1" d="M318 232 a16 16 0 1 0 32 0 a16 16 0 1 0 -32 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="135" y="284" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">62</text>
+		<text x="179" y="172" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">150</text>
+		<text x="68" y="236" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">20 × 20</text>
+		<text x="92" y="152" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ON THE HORN</text>
+		<text x="214" y="152" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ON THE FACE</text>
+		<text x="334" y="78" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SQUARE</text>
+		<text x="334" y="204" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OCTAGON</text>
+		<text x="334" y="266" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ROUND</text>
+	</g>
+</svg>

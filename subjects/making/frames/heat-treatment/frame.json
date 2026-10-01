@@ -1,0 +1,239 @@
+{
+	"id": "heat-treatment",
+	"topic": "Hardening and tempering steel",
+	"position": {
+		"label": "Hardening and tempering"
+	},
+	"scene": {
+		"headline": "We read steel by its",
+		"accent": "COLOURS.",
+		"palette": "ember",
+		"illustration": "scene.svg",
+		"metadata": ["HOMER · PLINY · THEOPHILUS · MOXON", "QUENCH, POLISH, WATCH THE COLOURS RUN"],
+		"counter": {
+			"value": "8",
+			"label": "temperatures for drawing the temper in Bacon's 1904 table, 430 to 630 °F"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "Forge-Practice (Elementary)",
+			"authors": [
+				{
+					"family": "Bacon",
+					"given": "John Lord"
+				}
+			],
+			"place": "New York",
+			"publisher": "John Wiley & Sons",
+			"published": "1904",
+			"url": "https://archive.org/details/forgepracticeele00bacoiala",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Hardening, tempering and the cold chisel, pp. 174–183; the temper colours, table II, p. 248"
+		},
+		{
+			"kind": "book",
+			"title": "Mechanick Exercises, or the Doctrine of Handy-Works",
+			"authors": [
+				{
+					"family": "Moxon",
+					"given": "Joseph"
+				}
+			],
+			"place": "London",
+			"publisher": "Dan. Midwinter and Tho. Leigh",
+			"published": "1703",
+			"url": "https://archive.org/details/mechanickexercis00moxo_1",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Of hardening and tempering steel, pp. 61–62; read in the 1703 edition, and the same section is in the 1677 first issue"
+		},
+		{
+			"kind": "book",
+			"title": "The Odyssey",
+			"authors": [
+				{
+					"name": "Homer"
+				}
+			],
+			"editors": [
+				{
+					"family": "Butler",
+					"given": "Samuel"
+				}
+			],
+			"place": "London",
+			"publisher": "Longmans, Green and Co.",
+			"published": "1900",
+			"url": "https://www.gutenberg.org/ebooks/1727",
+			"accessed": "2026-09-30",
+			"note": "Book 9, the blinding of Polyphemus; read in Project Gutenberg's text"
+		},
+		{
+			"kind": "book",
+			"title": "The Natural History",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"editors": [
+				{
+					"family": "Bostock",
+					"given": "John"
+				},
+				{
+					"family": "Riley",
+					"given": "H. T."
+				}
+			],
+			"place": "London",
+			"publisher": "Taylor and Francis",
+			"published": "1855",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D34%3Achapter%3D41",
+			"accessed": "2026-09-30",
+			"note": "Book 34, chapter 41, read at the Perseus Digital Library"
+		},
+		{
+			"kind": "book",
+			"title": "An Essay upon Various Arts, in Three Books",
+			"authors": [
+				{
+					"name": "Theophilus"
+				}
+			],
+			"editors": [
+				{
+					"family": "Hendrie",
+					"given": "Robert"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1847",
+			"url": "https://archive.org/details/essayuponvarious00hend",
+			"accessed": "2026-09-30",
+			"note": "Book III, chapters 18–21, on tempering files and iron"
+		},
+		{
+			"kind": "article",
+			"title": "Methods of Manufacture of Swords in Medieval Europe: Illustrated by the Metallography of Some Examples",
+			"authors": [
+				{
+					"family": "Williams",
+					"given": "Alan R."
+				}
+			],
+			"container": "Gladius",
+			"volume": "13",
+			"pages": "75–101",
+			"published": "1977",
+			"doi": "10.3989/gladius.1977.146",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Theophilus's case-hardening, medieval heat treatment, and quench and temper from the sixteenth century, pp. 76–78"
+		},
+		{
+			"kind": "article",
+			"title": "A Metallurgical Study of Some Viking Swords",
+			"authors": [
+				{
+					"family": "Williams",
+					"given": "Alan"
+				}
+			],
+			"container": "Gladius",
+			"volume": "29",
+			"pages": "121–184",
+			"published": "2009",
+			"doi": "10.3989/gladius.2009.218",
+			"accessed": "2026-09-30",
+			"note": "Hardness of iron, steel and quenched steel, p. 122"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tempering (metallurgy)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tempering_(metallurgy)&oldid=1365633830",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Odyssey",
+			"url": "https://en.wikipedia.org/w/index.php?title=Odyssey&oldid=1377747056",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theophilus Presbyter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theophilus_Presbyter&oldid=1369564061",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-15"
+		},
+		{
+			"kind": "media",
+			"title": "Athenian black-figure oinochoe of the Keyside Class, about 510–475 BC: a smith at his furnace",
+			"url": "https://commons.wikimedia.org/wiki/File:Keyside_Class_-_ABV_426_9_-_blacksmiths_at_furnace_-_London_BM_1846-0629-45.jpg",
+			"accessed": "2026-09-30",
+			"container": "British Museum 1846,0629.45, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "smiths-vase.jpg",
+			"authors": [
+				{
+					"name": "ArchaiOptix"
+				}
+			],
+			"published": "2018-07-07"
+		},
+		{
+			"kind": "media",
+			"title": "Tempering standards: one carbon steel, quenched and tempered at rising temperatures",
+			"url": "https://commons.wikimedia.org/wiki/File:Tempering_standards_used_in_blacksmithing.JPG",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC0",
+			"file": "tempering-standards.jpg",
+			"authors": [
+				{
+					"name": "Zaereth"
+				}
+			],
+			"published": "2012-03-03"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/bessemer-steel",
+			"why": "Whether iron hardens when quenched depends on its carbon: Bessemer's table puts steel, which can be hardened, between soft wrought iron and brittle cast iron, and this frame is what a smith did with that difference."
+		},
+		{
+			"to": "making/iron-carbon",
+			"why": "Why a quench hardens steel at all, the hard laths of martensite it traps, is read from the iron–carbon diagram."
+		}
+	]
+}

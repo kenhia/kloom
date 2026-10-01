@@ -1,0 +1,141 @@
+{
+	"id": "drawing-out",
+	"topic": "Drawing out and upsetting",
+	"position": {
+		"label": "Drawing and upsetting"
+	},
+	"scene": {
+		"headline": "We drew the iron",
+		"accent": "OUT.",
+		"palette": "scale",
+		"illustration": "scene.svg",
+		"metadata": ["JOSEPH MOXON · LONDON 1677", "ANVIL AND HORN · THE PEN AND FACE OF THE HAMMER"],
+		"counter": {
+			"value": "3",
+			"label": "heats in Moxon: blood-red, white flame and sparkling"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "Mechanick Exercises, or the Doctrine of Handy-Works",
+			"authors": [
+				{
+					"family": "Moxon",
+					"given": "Joseph"
+				}
+			],
+			"place": "London",
+			"publisher": "Dan. Midwinter and Tho. Leigh",
+			"published": "1703",
+			"url": "https://archive.org/details/mechanickexercis00moxo_1",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Read in the 1703 edition; smithing first appeared in parts from 1677. The heats, upsetting and punching are on pp. 7–12"
+		},
+		{
+			"kind": "book",
+			"title": "Forge-Practice (Elementary)",
+			"authors": [
+				{
+					"family": "Bacon",
+					"given": "John Lord"
+				}
+			],
+			"place": "New York",
+			"publisher": "John Wiley & Sons",
+			"published": "1904",
+			"url": "https://archive.org/details/forgepracticeele00bacoiala",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Chapter IV: upsetting, drawing out and bending; read in the 1905 printing"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Moxon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Moxon&oldid=1372034416",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Red heat",
+			"url": "https://en.wikipedia.org/w/index.php?title=Red_heat&oldid=1286704153",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-04-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fuller (metalworking)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fuller_(metalworking)&oldid=1336513281",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anvil",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anvil&oldid=1375278996",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blacksmith",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blacksmith&oldid=1362333286",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "media",
+			"title": "Plate 1 of Moxon's Mechanick Exercises: the smith's forge and bellows, anvil, tongs, vice, hammers and drill",
+			"url": "https://archive.org/details/mechanickexercis00moxo_1/page/n13/mode/1up",
+			"accessed": "2026-09-30",
+			"container": "Mechanick Exercises (1703), Getty Research Institute, via the Internet Archive",
+			"licence": "Public domain",
+			"file": "moxon-plate.jpg",
+			"authors": [
+				{
+					"family": "Moxon",
+					"given": "Joseph"
+				}
+			],
+			"published": "1703"
+		}
+	]
+}
