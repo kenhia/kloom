@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60 236 L60 56"/>
+		<path pathLength="1" d="M160 236 L160 56"/>
+		<path pathLength="1" d="M260 236 L260 56"/>
+		<path pathLength="1" d="M360 236 L360 56"/>
+		<path pathLength="1" d="M60 146 L360 146"/>
+		<path pathLength="1" d="M60 56 L360 56"/>
+		<path pathLength="1" d="M95.5 236 L269.1 56"/>
+		<path pathLength="1" d="M182.3 236 L182.3 146"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M60 50 L60 236 L366 236"/>
+		<path pathLength="1" d="M60 225.8 L62.5 225.3 L65 224.7 L67.5 224 L70 223.4 L72.5 222.7 L75 222 L77.5 221.2 L80 220.4 L82.5 219.6 L85 218.7 L87.5 217.8 L90 216.8 L92.5 215.8 L95 214.7 L97.5 213.6 L100 212.5 L102.5 211.3 L105 210 L107.5 208.7 L110 207.3 L112.5 205.9 L115 204.5 L117.5 202.9 L120 201.4 L122.5 199.7 L125 198 L127.5 196.3 L130 194.4 L132.5 192.6 L135 190.7 L137.5 188.7 L140 186.6 L142.5 184.6 L145 182.4 L147.5 180.2 L150 178 L152.5 175.7 L155 173.4 L157.5 171 L160 168.6 L162.5 166.1 L165 163.7 L167.5 161.2 L170 158.6 L172.5 156.1 L175 153.5 L177.5 150.9 L180 148.4 L182.5 145.8 L185 143.2 L187.5 140.6 L190 138 L192.5 135.5 L195 132.9 L197.5 130.4 L200 127.9 L202.5 125.4 L205 123 L207.5 120.6 L210 118.2 L212.5 115.9 L215 113.6 L217.5 111.4 L220 109.2 L222.5 107.1 L225 105 L227.5 103 L230 101 L232.5 99.1 L235 97.2 L237.5 95.4 L240 93.7 L242.5 92 L245 90.4 L247.5 88.8 L250 87.3 L252.5 85.8 L255 84.4 L257.5 83.1 L260 81.8 L262.5 80.5 L265 79.3 L267.5 78.2 L270 77.1 L272.5 76 L275 75 L277.5 74.1 L280 73.2 L282.5 72.3 L285 71.5 L287.5 70.7 L290 69.9 L292.5 69.2 L295 68.5 L297.5 67.8 L300 67.2 L302.5 66.6 L305 66.1 L307.5 65.5 L310 65 L312.5 64.5 L315 64.1 L317.5 63.7 L320 63.2 L322.5 62.9 L325 62.5 L327.5 62.1 L330 61.8 L332.5 61.5 L335 61.2 L337.5 60.9 L340 60.6 L342.5 60.4 L345 60.1 L347.5 59.9 L350 59.7 L352.5 59.5 L355 59.3 L357.5 59.1 L360 59"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M188.6 136.2 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M218.7 107.6 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M248.9 86.1 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M279 72.4 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M309 64.6 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M180.3 146 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+		<text x="60" y="249" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="160" y="249" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10</text>
+		<text x="260" y="249" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">100</text>
+		<text x="360" y="249" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1000</text>
+		<text x="210" y="264" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">[SUCROSE] · mM · LOG SCALE</text>
+		<text x="48" y="59" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="46" y="149" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">½</text>
+		<text x="48" y="239" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="64" y="44" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RATE / MAXIMUM</text>
+		<text x="188.3" y="228" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Kₘ = 16.7 mM</text>
+		<text x="243.7" y="76" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SLOPE 0.576</text>
+		<text x="266" y="196" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">v = V[S]/([S]+Kₘ)</text>
+		<text x="266" y="210" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">INVERTASE · 1913</text>
+	</g>
+</svg>

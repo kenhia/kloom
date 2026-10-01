@@ -80,7 +80,7 @@
 			"id": "life",
 			"title": "The chemistry of life",
 			"labelKind": "category",
-			"frames": ["dna-chemistry", "protein-structure", "miller-urey", "alphafold"]
+			"frames": ["enzymes", "dna-chemistry", "protein-structure", "miller-urey", "alphafold"]
 		},
 		{
 			"id": "now",

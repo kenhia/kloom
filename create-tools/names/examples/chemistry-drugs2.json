@@ -1,0 +1,32 @@
+{
+	"chemistry/prontosil": [
+		["IG Farben", "ig-farben"],
+		["Gerhard Domagk", "gerhard-domagk"],
+		["Prontosil", "prontosil"],
+		["Paul Ehrlich", "paul-ehrlich"],
+		["sulfanilamide", "sulfanilamide"],
+		["Elixir Sulfanilamide", "elixir-sulfanilamide"],
+		["Federal Food, Drug, and Cosmetic Act", "federal-food-drug-and-cosmetic-act"],
+		["Hitler", "adolf-hitler"]
+	],
+	"chemistry/penicillin": [
+		["Alexander Fleming", "alexander-fleming"],
+		["penicillin", "penicillin"],
+		["Ernst Chain", "ernst-chain"],
+		["Howard Florey", "howard-florey"],
+		["Norman Heatley", "norman-heatley"],
+		["Rockefeller Foundation", "rockefeller-foundation"],
+		["Dorothy Hodgkin", "dorothy-hodgkin"],
+		["X-ray crystallography", "x-ray-crystallography"]
+	],
+	"chemistry/enzymes": [
+		["Louis Pasteur", "louis-pasteur"],
+		["enzymes", "enzyme"],
+		["Eduard Buchner", "eduard-buchner"],
+		["Richard Willstätter", "richard-willstatter"],
+		["James B. Sumner", "james-b-sumner"],
+		["John Howard Northrop", "john-howard-northrop"],
+		["Leonor Michaelis", "leonor-michaelis"],
+		["Maud Menten", "maud-menten"]
+	]
+}
