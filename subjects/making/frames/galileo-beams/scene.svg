@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 30 L28 42 M40 38 L28 50 M40 46 L28 58 M40 54 L28 66 M40 62 L28 74 M40 70 L28 82 M40 78 L28 90 M40 86 L28 98 M40 94 L28 106 M40 102 L28 114 M40 110 L28 122 M40 118 L28 130 M40 126 L28 138 M40 134 L28 146 M40 142 L28 154 M40 150 L28 162 M40 158 L28 170 M40 166 L28 178 M40 174 L28 186"/>
+		<path pathLength="1" d="M40 88 L226 88"/>
+		<path pathLength="1" d="M40 50 L40 102"/>
+		<path pathLength="1" d="M204 94 L204 150"/>
+		<path pathLength="1" d="M40 112 L204 112"/>
+		<path pathLength="1" d="M40 108 L40 116 M204 108 L204 116"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 30 L40 176"/>
+		<path pathLength="1" d="M40 64 L208 64 L208 88 L40 88"/>
+		<path pathLength="1" d="M194 150 L214 150 L217 172 L191 172 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M204 88 L204 150"/>
+		<path pathLength="1" d="M37.5 88 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M196 234 L242 234"/>
+		<path pathLength="1" d="M44 264 L82 264"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M74 204 L74 264"/>
+		<path pathLength="1" d="M196 204 L196 264"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M74 204 L44 204 L44 264 L74 264"/>
+		<path pathLength="1" d="M74 210 L48 210 M74 219 L48 219 M74 228 L48 228 M74 237 L48 237 M74 246 L48 246 M74 255 L48 255"/>
+		<path pathLength="1" d="M52 207 L47 210 L52 213 M52 216 L47 219 L52 222 M52 225 L47 228 L52 231 M52 234 L47 237 L52 240 M52 243 L47 246 L52 249 M52 252 L47 255 L52 258"/>
+		<path pathLength="1" d="M71.5 264 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M196 204 L166 204 L226 264 L196 264"/>
+		<path pathLength="1" d="M196 209 L171 209 M196 217 L179 217 M196 225 L187 225 M196 241 L203 241 M196 249 L211 249 M196 257 L219 257"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M320 34 L320 270"/>
+		<path pathLength="1" d="M272 102 L368 102"/>
+		<path pathLength="1" d="M342 150 L342 246"/>
+		<path pathLength="1" d="M338 150 L346 150 M338 246 L346 246"/>
+		<path pathLength="1" d="M272 98 L272 106 M368 98 L368 106"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M272 58 L368 58 L368 82 L272 82 Z"/>
+		<path pathLength="1" d="M308 150 L332 150 L332 246 L308 246 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M264 70 L376 70"/>
+		<path pathLength="1" d="M300 198 L340 198"/>
+		<text x="124" y="126" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">L</text>
+		<text x="60" y="286" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GALILEO</text>
+		<text x="200" y="286" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ELASTIC</text>
+		<text x="320" y="46" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FLAT  ×1</text>
+		<text x="320" y="272" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ON EDGE  ×4</text>
+		<text x="350" y="201" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">h</text>
+	</g>
+</svg>

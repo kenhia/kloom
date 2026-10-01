@@ -10,7 +10,10 @@
 		"accent": "EDGE.",
 		"palette": "ember",
 		"illustration": "scene.svg",
-		"metadata": ["HŌKI · BIZEN · SHIMANE", "TAMAHAGANE · CLAY · WATER AT 800–850 °C"],
+		"metadata": [
+			"HŌKI · BIZEN · SHIMANE",
+			"TAMAHAGANE · CLAY · WATER AT 800–850 °C"
+		],
 		"counter": {
 			"value": "0.1 mm",
 			"label": "of clay on the edge, which cools it faster than bare steel"
@@ -20,6 +23,10 @@
 		{
 			"to": "chemistry/bessemer-steel",
 			"why": "A Japanese blade sets two of the grades the Bessemer frame tabulates side by side: an edge of about 0.7 per cent carbon, steel that can be hardened, over a core of 0.07 per cent, as soft as wrought iron."
+		},
+		{
+			"to": "making/iron-carbon",
+			"why": "Why trapped carbon makes the quenched edge so hard, and why martensite appears on no equilibrium diagram of iron and carbon, is the phase diagram's to explain."
 		}
 	],
 	"citations": [

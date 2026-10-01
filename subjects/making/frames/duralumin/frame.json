@@ -1,0 +1,241 @@
+{
+	"id": "duralumin",
+	"topic": "Duralumin and age hardening",
+	"position": {
+		"label": "1903–11",
+		"sort": 1903
+	},
+	"scene": {
+		"headline": "Aluminium hardened while we",
+		"accent": "WAITED.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEUBABELSBERG · DÜREN · DESSAU",
+			"ALFRED WILM · COPPER AND MAGNESIUM · QUENCH AND AGE"
+		],
+		"counter": {
+			"value": "1–3",
+			"label": "days at room temperature for quenched duralumin to reach its hardness"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Heat Treatment of Duralumin",
+			"authors": [
+				{
+					"family": "Merica",
+					"given": "P. D."
+				},
+				{
+					"family": "Waltenberg",
+					"given": "R. G."
+				},
+				{
+					"family": "Scott",
+					"given": "H."
+				}
+			],
+			"number": "Scientific Papers of the Bureau of Standards 15, no. 347, pp. 271–316",
+			"publisher": "Bureau of Standards",
+			"place": "Washington",
+			"published": "1919",
+			"url": "https://archive.org/details/heattreatmentofd15271meri",
+			"accessed": "2026-09-30",
+			"note": "Wilm's discovery, 1903–1911; Table 3 and Fig. 1; the recommended treatment and the precipitation theory, pp. 314–316"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Duralumin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Duralumin&oldid=1365630935",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alfred Wilm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alfred_Wilm&oldid=1326332068",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-08",
+			"key": true
+		},
+		{
+			"kind": "report",
+			"title": "The Heat Treatment of Duralumin",
+			"authors": [
+				{
+					"family": "Nelson",
+					"given": "William"
+				}
+			],
+			"number": "Technical Memorandum 401",
+			"publisher": "National Advisory Committee for Aeronautics",
+			"place": "Washington",
+			"published": "1927",
+			"url": "https://archive.org/details/NASA_NTRS_Archive_19930090764",
+			"accessed": "2026-09-30",
+			"note": "From Aviation, 1927"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Precipitation hardening",
+			"url": "https://en.wikipedia.org/w/index.php?title=Precipitation_hardening&oldid=1377337182",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Guinier–Preston zone",
+			"url": "https://en.wikipedia.org/w/index.php?title=Guinier%E2%80%93Preston_zone&oldid=1353529817",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zeppelin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zeppelin&oldid=1375037691",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hugo Junkers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hugo_Junkers&oldid=1368246391",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Junkers D.I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Junkers_D.I&oldid=1323084552",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Junkers F 13",
+			"url": "https://en.wikipedia.org/w/index.php?title=Junkers_F_13&oldid=1376481337",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hall–Héroult process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hall%E2%80%93H%C3%A9roult_process&oldid=1375354537",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Duralumin's tensile strength after ageing, by quenching temperature",
+			"url": "https://archive.org/details/heattreatmentofd15271meri",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Merica, Waltenberg and Scott, Heat Treatment of Duralumin, 1919, Table 3",
+			"licence": "MIT",
+			"file": "quench-strength.svg"
+		},
+		{
+			"kind": "media",
+			"title": "A duralumin wing of a Junkers F 13 with its skin off, 1919",
+			"url": "https://commons.wikimedia.org/wiki/File:1919_JunkersF13_Tragflaeche.jpg",
+			"accessed": "2026-09-30",
+			"container": "Deutsches Museum, Junkers company archive, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "f13-wing.jpg",
+			"published": "1919"
+		},
+		{
+			"kind": "media",
+			"title": "A fire-damaged duralumin cross brace from the frame of the airship Hindenburg",
+			"url": "https://commons.wikimedia.org/wiki/File:DLZ129_spar.jpg",
+			"accessed": "2026-09-30",
+			"container": "Cooper Collection of Zeppelin Postal History, via Wikimedia Commons",
+			"licence": "CC BY 3.0",
+			"file": "hindenburg-brace.jpg",
+			"authors": [
+				{
+					"name": "Centpacrr"
+				}
+			],
+			"published": "2008"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/aluminium",
+			"why": "Duralumin is that metal, made cheap by the electrolysis of 1886, hardened with about 4 per cent copper so that it could frame airships and aircraft."
+		}
+	]
+}

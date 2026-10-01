@@ -1,0 +1,273 @@
+{
+	"id": "iron-carbon",
+	"topic": "The iron–carbon phase diagram",
+	"position": {
+		"label": "1897",
+		"sort": 1897
+	},
+	"scene": {
+		"headline": "We drew steel a",
+		"accent": "MAP.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THE ROYAL MINT · AMSTERDAM",
+			"ROBERTS-AUSTEN · BAKHUIS ROOZEBOOM · COOLING CURVES AND THE PHASE RULE"
+		],
+		"counter": {
+			"value": "727 °C",
+			"label": "where the last austenite in a slowly cooled steel turns to pearlite"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "The Fe-C Diagram – History of Its Evolution",
+			"authors": [
+				{
+					"family": "Gutnyk",
+					"given": "Maryna"
+				},
+				{
+					"family": "Nürnberger",
+					"given": "Florian"
+				}
+			],
+			"container": "History of Science and Technology",
+			"volume": "13",
+			"issue": "2",
+			"pages": "243–262",
+			"published": "2023",
+			"doi": "10.32703/2415-7422-2023-13-2-243-262",
+			"url": "https://www.hst-journal.com/index.php/hst/article/view/602",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Roberts-Austen's diagram of 1897 and his recording pyrometer; Roozeboom's of 1900; the names of the phases"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Iron and Steel",
+			"authors": [
+				{
+					"family": "Howe",
+					"given": "Henry Marion"
+				}
+			],
+			"container": "Encyclopædia Britannica, 11th ed., vol. 14",
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1911",
+			"url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Iron_and_Steel",
+			"accessed": "2026-09-30",
+			"note": "§§11–23: the carbon-iron diagram, the eutectoid at 0.90 per cent and about 690 °C, and recalescence; read in Project Gutenberg's text"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pearlite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pearlite&oldid=1352023079",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Chandler Roberts-Austen",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Chandler_Roberts-Austen&oldid=1372582960",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hendrik Willem Bakhuis Roozeboom",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hendrik_Willem_Bakhuis_Roozeboom&oldid=1372005157",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phase rule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phase_rule&oldid=1314999048",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Adolf Martens",
+			"url": "https://en.wikipedia.org/w/index.php?title=Adolf_Martens&oldid=1311457384",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Floris Osmond",
+			"url": "https://en.wikipedia.org/w/index.php?title=Floris_Osmond&oldid=1312649750",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Martensite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Martensite&oldid=1355393120",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Austenite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Austenite&oldid=1376086331",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cementite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cementite&oldid=1375350896",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Allotropes of iron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Allotropes_of_iron&oldid=1365776768",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Steel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Steel&oldid=1374875347",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lever rule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lever_rule&oldid=1154468384",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2023-05-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Recalescence",
+			"url": "https://en.wikipedia.org/w/index.php?title=Recalescence&oldid=1165991526",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2023-07-18"
+		},
+		{
+			"kind": "media",
+			"title": "The carbon–iron diagram as Henry Marion Howe printed it in 1911, after Roberts-Austen and Roozeboom",
+			"url": "https://commons.wikimedia.org/wiki/File:EB1911_Iron_and_Steel_-_Fig._1.%E2%80%94Roberts-Austen_or_Carbon-Iron_diagram.jpg",
+			"accessed": "2026-09-30",
+			"container": "Encyclopædia Britannica, 11th ed., vol. 14, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "howe-diagram.jpg",
+			"published": "1911"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/bessemer-steel",
+			"why": "The diagram's top line is Bessemer's problem: iron with 4 per cent carbon is liquid near 1,150 °C and iron with almost none only near 1,540 °C, so a converter burning out the carbon must heat itself as it goes."
+		},
+		{
+			"to": "chemistry/gibbs-free-energy",
+			"why": "Roozeboom redrew the iron–carbon diagram by Gibbs's phase rule, which is why three phases meet only on its horizontal lines, at one temperature."
+		},
+		{
+			"to": "making/sorby-microscope",
+			"why": "Pearlite is Sorby's pearly constituent, and 727 °C is where the compound Sorby guessed at breaks up."
+		}
+	]
+}

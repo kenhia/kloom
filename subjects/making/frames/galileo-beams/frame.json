@@ -1,0 +1,173 @@
+{
+	"id": "galileo-beams",
+	"topic": "Galileo and the strength of beams",
+	"position": {
+		"label": "1638",
+		"sort": 1638
+	},
+	"scene": {
+		"headline": "Strength grew as the",
+		"accent": "SQUARE.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ARCETRI · LEIDEN · THE VENETIAN ARSENAL",
+			"GALILEO GALILEI · TWO NEW SCIENCES · THE SECOND DAY"
+		],
+		"counter": {
+			"value": "4×",
+			"label": "the strength of a plank four times as wide as thick, stood on edge"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Dialogues Concerning Two New Sciences",
+			"authors": [
+				{
+					"family": "Galilei",
+					"given": "Galileo"
+				}
+			],
+			"editors": [
+				{
+					"family": "Crew",
+					"given": "Henry"
+				},
+				{
+					"family": "de Salvio",
+					"given": "Alfonso"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "New York",
+			"published": "1914",
+			"url": "https://archive.org/details/dialoguesconcern00galiuoft",
+			"accessed": "2026-09-30",
+			"note": "Translated by Henry Crew and Alfonso de Salvio. The Arsenal, pp. 1–5; the cantilever and the ruler on edge, Props. I–II, pp. 115–118, with Crew's note on the neutral axis; the bone, pp. 130–131"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Two New Sciences",
+			"url": "https://en.wikipedia.org/w/index.php?title=Two_New_Sciences&oldid=1345638030",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Galileo Galilei",
+			"url": "https://en.wikipedia.org/w/index.php?title=Galileo_Galilei&oldid=1375888851",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Square–cube law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Square%E2%80%93cube_law&oldid=1371264881",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Euler–Bernoulli beam theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Euler%E2%80%93Bernoulli_beam_theory&oldid=1377262612",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Section modulus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Section_modulus&oldid=1371389450",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Venetian Arsenal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Venetian_Arsenal&oldid=1376841289",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "Galileo's cantilever: a beam let into a wall with a weight at its end (Two New Sciences, Second Day, fig. 17)",
+			"url": "https://commons.wikimedia.org/wiki/File:Figure_17_of_Two_New_Sciences_by_Galileo_Galilei.png",
+			"accessed": "2026-09-30",
+			"container": "Discorsi e dimostrazioni matematiche, Leiden, 1638; scanned from the Iwanami edition of 1937, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "cantilever.png",
+			"authors": [
+				{
+					"family": "Galilei",
+					"given": "Galileo"
+				}
+			],
+			"published": "1638"
+		},
+		{
+			"kind": "media",
+			"title": "A bone and the same bone three times longer, page 129 of the Discorsi",
+			"url": "https://commons.wikimedia.org/wiki/File:Galileo-1638-129.jpg",
+			"accessed": "2026-09-30",
+			"container": "History of Science Collections, University of Oklahoma Libraries, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "bones.jpg",
+			"authors": [
+				{
+					"name": "History of Science Collections, University of Oklahoma Libraries"
+				}
+			],
+			"published": "2013-10-14"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/falling-bodies",
+			"why": "Both come from Two New Sciences of 1638: its first two days are the strength of materials told here, its last two the motion of falling bodies told there."
+		}
+	]
+}

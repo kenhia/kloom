@@ -8,7 +8,15 @@
 				"id": "materials-science",
 				"title": "Why materials behave",
 				"labelKind": "date",
-				"frames": ["griffith-cracks", "dislocations", "carbon-fibre"]
+				"frames": [
+					"galileo-beams",
+					"sorby-microscope",
+					"iron-carbon",
+					"duralumin",
+					"griffith-cracks",
+					"dislocations",
+					"carbon-fibre"
+				]
 			}
 		]
 	}
