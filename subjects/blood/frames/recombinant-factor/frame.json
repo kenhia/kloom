@@ -55,7 +55,7 @@
 			"published": "1984-11",
 			"doi": "10.1038/312326a0",
 			"accessed": "2026-10-01",
-			"abstractOnly": true,
+			"read": "abstract",
 			"note": "Genentech: the 186,000-base-pair gene and its 26 exons"
 		},
 		{
@@ -83,7 +83,7 @@
 			"published": "1984-11",
 			"doi": "10.1038/312330a0",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -110,7 +110,7 @@
 			"published": "1984-11",
 			"doi": "10.1038/312342a0",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -183,7 +183,7 @@
 			"published": "2017",
 			"doi": "10.1056/NEJMoa1703068",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "web",

@@ -80,26 +80,71 @@
 			"note": "Coga's transfusion and the reckoning of its dose"
 		},
 		{
-			"kind": "web",
-			"title": "Wednesday 14 November 1666",
-			"authors": [{ "family": "Pepys", "given": "Samuel" }],
-			"container": "The Diary of Samuel Pepys",
+			"kind": "diary",
+			"title": "The Diary of Samuel Pepys",
+			"authors": [
+				{
+					"family": "Pepys",
+					"given": "Samuel"
+				}
+			],
+			"written": "1666-11-14",
+			"editors": [
+				{
+					"family": "Wheatley",
+					"given": "Henry B."
+				}
+			],
+			"place": "London",
+			"publisher": "George Bell & Sons",
+			"published": "1893",
+			"container": "pepysdiary.com",
 			"url": "https://www.pepysdiary.com/diary/1666/11/14/",
 			"accessed": "2026-10-01"
 		},
 		{
-			"kind": "web",
-			"title": "Thursday 21 November 1667",
-			"authors": [{ "family": "Pepys", "given": "Samuel" }],
-			"container": "The Diary of Samuel Pepys",
+			"kind": "diary",
+			"title": "The Diary of Samuel Pepys",
+			"authors": [
+				{
+					"family": "Pepys",
+					"given": "Samuel"
+				}
+			],
+			"written": "1667-11-21",
+			"editors": [
+				{
+					"family": "Wheatley",
+					"given": "Henry B."
+				}
+			],
+			"place": "London",
+			"publisher": "George Bell & Sons",
+			"published": "1893",
+			"container": "pepysdiary.com",
 			"url": "https://www.pepysdiary.com/diary/1667/11/21/",
 			"accessed": "2026-10-01"
 		},
 		{
-			"kind": "web",
-			"title": "Saturday 30 November 1667",
-			"authors": [{ "family": "Pepys", "given": "Samuel" }],
-			"container": "The Diary of Samuel Pepys",
+			"kind": "diary",
+			"title": "The Diary of Samuel Pepys",
+			"authors": [
+				{
+					"family": "Pepys",
+					"given": "Samuel"
+				}
+			],
+			"written": "1667-11-30",
+			"editors": [
+				{
+					"family": "Wheatley",
+					"given": "Henry B."
+				}
+			],
+			"place": "London",
+			"publisher": "George Bell & Sons",
+			"published": "1893",
+			"container": "pepysdiary.com",
 			"url": "https://www.pepysdiary.com/diary/1667/11/30/",
 			"accessed": "2026-10-01"
 		},
@@ -143,6 +188,21 @@
 			"published": "1669",
 			"licence": "CC BY 4.0",
 			"file": "lower-pipes.jpg"
+		},
+		{
+			"kind": "book",
+			"title": "The History of the Royal-Society of London, for the Improving of Natural Knowledge",
+			"authors": [
+				{
+					"family": "Sprat",
+					"given": "Thomas"
+				}
+			],
+			"place": "London",
+			"publisher": "T. R. for J. Martyn and J. Allestry",
+			"published": "1667",
+			"pages": "317",
+			"citedIn": "Farr, “The First Human Blood Transfusion” (1980), note 6"
 		}
 	],
 	"connections": [

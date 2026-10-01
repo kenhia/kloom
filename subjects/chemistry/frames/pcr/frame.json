@@ -118,7 +118,7 @@
 			"published": "1988-01-29",
 			"doi": "10.1126/science.239.4839.487",
 			"accessed": "2026-09-30",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -141,7 +141,7 @@
 			"doi": "10.1128/jb.98.1.289-297.1969",
 			"url": "https://europepmc.org/article/PMC/PMC249935",
 			"accessed": "2026-09-30",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -168,7 +168,7 @@
 			"doi": "10.1128/jb.127.3.1550-1557.1976",
 			"url": "https://europepmc.org/article/PMC/PMC232952",
 			"accessed": "2026-09-30",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "web",

@@ -38,6 +38,51 @@ class Lookup(unittest.TestCase):
         self.assertIsNone(names.unexpected(found, 'Politician'))
         self.assertIsNone(names.unexpected({'missing': 'x'}, 'anything'))
 
+    def test_expect_warns_on_an_item_that_is_something_else(self):
+        # "Duffy antigen system"'s article is the blood group; its Wikidata item is the protein (sprint 029).
+        found = {'id': 'duffy-antigen-system', 'name': 'Duffy antigen system', 'wikidata': 'Q205042',
+                 'description': 'Human blood group classification',
+                 'first_line': 'The Duffy antigen system is a blood group system.',
+                 'item_description': 'mammalian protein found in Homo sapiens', 'instance_of': ['protein']}
+        why = names.unexpected(found, 'blood')
+        self.assertIn('Q205042 is a protein', why)
+        self.assertIsNone(names.unexpected({**found, 'instance_of': ['blood group system']}, 'blood'))
+        # Without what Wikidata says, only the article is checked, as before.
+        self.assertIsNone(names.unexpected({k: v for k, v in found.items() if k not in ('instance_of',)}, 'blood'))
+
+    def test_a_set_index_page_is_ambiguous(self):
+        data = {'pages': {
+            '1': {'title': 'Sodium citrate', 'pageprops': {'wikibase_item': 'Q6460572'},
+                  'categories': [{'ns': 14, 'title': names.SET_INDEX}]},
+            '2': {'title': 'Trisodium citrate', 'pageprops': {'wikibase_item': 'Q409728'}, 'extract': 'A salt.'},
+        }}
+        found = names.rows(['Sodium citrate', 'Trisodium citrate'], data)
+        self.assertEqual(found['Sodium citrate'], {'ambiguous': 'Sodium citrate', 'page': 'Sodium citrate'})
+        self.assertEqual(found['Trisodium citrate']['id'], 'trisodium-citrate')
+
+
+class Strip(unittest.TestCase):
+    def test_takes_out_marks_and_keeps_their_words(self):
+        reading = ('**[William Harvey](kloom:e/william-harvey)** showed in [De Motu\nCordis](kloom:e/de-motu-cordis) '
+                   'that [the blood](https://example.org/) goes round.')
+        self.assertEqual(names.strip(reading), '**William Harvey** showed in De Motu\nCordis that '
+                                               '[the blood](https://example.org/) goes round.')
+
+    def test_strips_frames_to_a_directory_or_one_text(self):
+        root = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, root)
+        d = os.path.join(root, 's', 'frames', 'f')
+        os.makedirs(d)
+        with open(os.path.join(d, 'reading.md'), 'w') as f:
+            f.write('A [name](kloom:e/name).\n')
+        text, problems = names.strip_frames(root, ['s/f', 's/nope'])
+        self.assertEqual(text, '<!-- s/f -->\n\nA name.\n')
+        self.assertEqual(len(problems), 1)
+        out = os.path.join(root, 'out')
+        self.assertEqual(names.strip_frames(root, ['s/f'], out), (None, []))
+        with open(os.path.join(out, 's-f.md')) as f:
+            self.assertEqual(f.read(), 'A name.\n')
+
 
 class Place(unittest.TestCase):
     def test_matches_whole_words_only(self):

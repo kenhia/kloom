@@ -56,6 +56,46 @@ class Tags(unittest.TestCase):
         self.assertEqual(cm.licence_tags(templates), ['PD-Art', 'PD-US-expired', 'PD-old-100', 'Cc-by-sa-4.0'])
 
 
+class Licences(unittest.TestCase):
+    """Sprint 029: Flickr's "No restrictions" on a stated basis; a PD-self file credits its uploader."""
+
+    def test_takes_no_restrictions_as_public_domain_on_a_stated_basis(self):
+        self.assertEqual(cm.licence_for('No restrictions'), ('Public domain', True))
+        self.assertEqual(cm.licence_for('Public domain'), ('Public domain', False))
+        self.assertEqual(cm.licence_for('CC BY-SA 4.0'), ('CC BY-SA 4.0', False))
+        self.assertIsNone(cm.licence_for('CC BY-NC 2.0'))
+
+    def test_names_flickrs_tag(self):
+        self.assertEqual(cm.licence_tags(['Template:Flickr-no known copyright restrictions',
+                                          'Template:Flickr-no known copyright restrictions/layout']),
+                         ['Flickr-no known copyright restrictions'])
+
+    def test_the_book_images_account_is_not_an_author(self):
+        self.assertEqual(cm.authors('Internet Archive Book Images'), [])
+
+    def test_credits_a_pd_self_files_uploader(self):
+        self.assertEqual(cm.uploader_credit(['PD-self'], [], 'Jane'), [{'name': 'Jane (uploader)'}])
+        self.assertEqual(cm.uploader_credit(['PD-self'], [{'name': 'X'}], 'Jane'), [{'name': 'X'}])
+        self.assertEqual(cm.uploader_credit(['PD-old-100'], [], 'Jane'), [])
+
+
+class Crop(unittest.TestCase):
+    def test_reads_a_box(self):
+        self.assertEqual(cm.box_arg('10,20,110,220'), (10, 20, 110, 220))
+        with self.assertRaises(Exception):
+            cm.box_arg('110,20,10,220')
+
+    def test_crops_and_scales_down(self):
+        try:
+            from PIL import Image
+        except ImportError:
+            self.skipTest('Pillow is not installed (uv run installs it)')
+        png = io.BytesIO()
+        Image.new('RGB', (400, 300), 'white').save(png, 'PNG')
+        out = Image.open(io.BytesIO(cm.to_jpeg(png.getvalue(), box=(0, 0, 200, 100), width=100)))
+        self.assertEqual(out.size, (100, 50))
+
+
 class Jpeg(unittest.TestCase):
     def test_composites_transparency_onto_white(self):
         try:

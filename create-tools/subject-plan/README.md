@@ -48,7 +48,13 @@ npx prettier --write subjects/ai
   `home` that way unseen). `--only FRAME …` keeps only those frames and the ones already
   committed, so another author's half-written frame cannot fail this
   one's check, and a draft's `home` on a frame not in the copy is dropped
-  (sprint 021). "Committed" is what git tracks, so while a reviewer commits
+  (sprint 021). `--with-drafts` puts each frame's `frame.json.draft` into
+  the copy as its `frame.json` (and over a live one, saying so), so an
+  author checks a frame before it goes live by keeping it as
+  `frame.json.draft` beside the live tree and running `--complete DIR
+--with-drafts --only <their frames>`, then renaming it live once it
+  passes (sprint 029: three of sprint 028's authors wrote wrappers to copy
+  drafts in by hand). "Committed" is what git tracks, so while a reviewer commits
   other parts the copy grows from run to run; that is `--only` working, not
   ignored (sprint 026). The summary line counts the plan against the live
   subject, not the copy. Never run `subject_plan.py` without `--complete` on a

@@ -149,7 +149,7 @@
 			"published": "1990",
 			"doi": "10.1353/pbm.1990.0015",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -171,7 +171,7 @@
 			"published": "1994-01",
 			"doi": "10.1161/01.cir.89.1.432",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "web",

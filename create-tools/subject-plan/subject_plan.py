@@ -28,6 +28,9 @@ subjects, which connections may name, and the name registry at DIR/.names,
 with any `--drafts` directories of names not yet added merged in (sprint
 021; since sprint 017 a copy without them failed on every mark):
 `KLOOM_TEST_SUBJECTS=DIR KLOOM_TEST_NAMES=DIR/.names npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
+`--with-drafts` puts each frame's `frame.json.draft` into the copy as its
+`frame.json`, so a frame not yet live is checked without copying it by hand
+(sprint 029; three of sprint 028's authors wrote wrappers to do it).
 Standard library only.
 """
 import argparse, json, os, shutil, subprocess, sys
@@ -143,6 +146,8 @@ def main():
     ap.add_argument('--only', nargs='+', metavar='FRAME',
                     help='with --complete: only these frames and those already committed, so another author\'s '
                          'half-written frame cannot fail this one\'s check')
+    ap.add_argument('--with-drafts', action='store_true',
+                    help='with --complete: a frame\'s frame.json.draft goes into the copy as its frame.json')
     ap.add_argument('--names', default=None, metavar='DIR',
                     help='with --complete: the name registry (default: the repository\'s names/)')
     a = ap.parse_args()
@@ -157,11 +162,18 @@ def main():
             listed = subprocess.run(['git', 'ls-files', os.path.join(src, 'frames')], capture_output=True,
                                     text=True, check=True).stdout.split()
             wanted_frames = {f.split('/')[-2] for f in listed if f.endswith('/frame.json')} | set(a.only)
-        for d in os.listdir(os.path.join(src, 'frames')):
-            if wanted_frames is not None and d not in wanted_frames:
+        for d in sorted(os.listdir(os.path.join(src, 'frames'))):
+            if wanted_frames is not None and d not in wanted_frames or d.startswith('.'):
                 continue
-            if not d.startswith('.') and os.path.isfile(os.path.join(src, 'frames', d, 'frame.json')):
-                shutil.copytree(os.path.join(src, 'frames', d), os.path.join(a.subject, 'frames', d))
+            there, here = os.path.join(src, 'frames', d), os.path.join(a.subject, 'frames', d)
+            draft = a.with_drafts and os.path.isfile(os.path.join(there, 'frame.json.draft'))
+            if draft or os.path.isfile(os.path.join(there, 'frame.json')):
+                shutil.copytree(there, here)
+            if draft:
+                # The draft is the newer work: it replaces a live frame.json in the copy, and says so.
+                if os.path.isfile(os.path.join(there, 'frame.json')):
+                    print(f'subject_plan: {d}: the copy holds its frame.json.draft, not its live frame.json')
+                os.replace(os.path.join(here, 'frame.json.draft'), os.path.join(here, 'frame.json'))
         # The other subjects, whole (copies, never links: Prettier on the copy must not reach them), and the registry.
         parent = os.path.dirname(os.path.abspath(os.path.normpath(src)))
         for other in os.listdir(parent):

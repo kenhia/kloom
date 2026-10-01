@@ -60,7 +60,7 @@
 			"url": "https://api.openalex.org/works/doi:10.1039/P19940000005",
 			"accessed": "2026-09-30",
 			"note": "Mauveines A and B in Perkin’s factory samples",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "wikipedia",

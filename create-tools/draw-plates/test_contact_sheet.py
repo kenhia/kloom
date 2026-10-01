@@ -14,6 +14,21 @@ class Window(unittest.TestCase):
         self.assertEqual(cs.window(9), (4 * 416 + 5 * 6, 3 * 366 + 6))
 
 
+class PerPlate(unittest.TestCase):
+    """Sprint 029: above two plates, a PNG per plate, so none is shrunk past reading."""
+
+    def test_the_default_turns_at_three_plates(self):
+        self.assertFalse(cs.per_plate(2))
+        self.assertTrue(cs.per_plate(3))
+        self.assertTrue(cs.per_plate(1, True))
+        self.assertFalse(cs.per_plate(9, False))
+
+    def test_names_each_plate_and_chart_after_the_png(self):
+        self.assertEqual(cs.plate_png('.scratch/me.png', 'abo', 'scene.svg', 'scene.svg'), '.scratch/me-abo.png')
+        self.assertEqual(cs.plate_png('me.png', 'abo', 'chart.svg', 'scene.svg'), 'me-abo-chart.png')
+        self.assertEqual(cs.plate_png('me', 'abo'), 'me-abo.png')
+
+
 class Palettes(unittest.TestCase):
     known = {'flint': {}, 'chalk': {}}
 

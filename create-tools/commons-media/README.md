@@ -7,8 +7,9 @@ validator requires (sprint 006, written for the ai subject).
 python3 create-tools/commons-media/commons_media.py search "Mark I Perceptron"
 python3 create-tools/commons-media/commons_media.py fetch "File:Name.jpg" subjects/<subject>/frames/<frame> --as short-name [--width 960]
 python3 create-tools/commons-media/commons_media.py fetch "File:Book.pdf" subjects/<subject>/frames/<frame> --page 12
-uv run create-tools/commons-media/commons_media.py fetch "File:Engraving.png" subjects/<subject>/frames/<frame> --jpeg
-uv run create-tools/commons-media/commons_media.py jpeg .scratch/page.png subjects/<subject>/frames/<frame>/page.jpg
+python3 create-tools/commons-media/commons_media.py fetch "File:Engraving.png" subjects/<subject>/frames/<frame> --jpeg
+python3 create-tools/commons-media/commons_media.py jpeg .scratch/page.png subjects/<subject>/frames/<frame>/page.jpg
+python3 create-tools/commons-media/commons_media.py crop .scratch/scan.png subjects/<subject>/frames/<frame>/page.jpg --box 120,80,1480,2100
 ```
 
 - `search` lists image files (not PDFs or video) matching the text, each
@@ -19,6 +20,13 @@ uv run create-tools/commons-media/commons_media.py jpeg .scratch/page.png subjec
   fixed widths (120, 250, 330, 500, 960, 1280, 1920) and rounds a request
   up, so `--width` (default 960) takes the widest step no wider than
   asked. It warns when the file is over 350 KB; try `--width 500`.
+- **Flickr's "No restrictions"** (the Internet Archive's book scans, the
+  Smithsonian's photographs) is not a licence but a statement that none is
+  known. `fetch` takes it as public domain, with a warning and an empty
+  `note`, which the gate refuses until you write the public-domain basis
+  in it ("Published in the US in 1890"), from the work itself, not the
+  Flickr page (sprint 029). The Internet Archive Book Images account is
+  not written as the author.
 - It prints the citation from the file page's own metadata, and on stderr
   what to check in it (sprint 027, from 13 of sprint 025's authors
   rewriting every citation by hand):
@@ -34,7 +42,10 @@ PD-old-100`), since "Public domain" hides which: `PD-Art` covers only
     none at all for boilerplate: an unknown author in any template
     ("AnonymousUnknown author", 不明, unbekannt), "Own work", or a
     scanner's make. It says when it left the author out, and when it
-    wrote a `name` you may need to split;
+    wrote a `name` you may need to split. A `PD-self` file that names no
+    author credits the uploader of its first version, `"Name (uploader)"`:
+    the uploader is who released it (sprint 029, where one gave an empty
+    citation);
   - **organisations** (an institution, a centre, a college, a studio of
     two partners) are written as a `name`, and the Google Art Project's
     link text and Wikidata template text are dropped from the author and
@@ -50,9 +61,16 @@ PD-old-100`), since "Public domain" hides which: `PD-Art` covers only
 - **`--jpeg`** converts what it fetched to JPEG, and the **`jpeg`**
   command converts a page you cropped yourself; both composite a PNG's
   transparency onto white first (sprint 026's Frere engraving turned
-  black). They need Pillow, which `uv run` installs from the script's
-  inline metadata (korg 3404); everything else is standard library and
-  runs with `python3`.
+  black).
+- **`crop SRC DEST --box LEFT,TOP,RIGHT,BOTTOM`** cuts a box, in the
+  image's pixels, out of a page image from outside Commons (a scan from the
+  Internet Archive or a library), scales it down to `--width` (default 960) and writes a JPEG (sprint 029: authors cropped by hand). Cite such
+  a page as the work it is from, with its own `media` citation.
+- The JPEG conversion needs Pillow, declared in the script's inline
+  metadata (korg 3404). The script's shebang runs it under `uv run
+--script`, and run with a `python3` that lacks Pillow, a command that
+  converts runs itself again under `uv` (sprint 029: in sprint 028 `--jpeg`
+  worked only under `uv run`). Everything else is standard library.
 - Anything but public domain or CC0 gets a caption credit, which the page
   builds from the `media` citation (docs/design.md §Citations). Write no
   credit or caption line under the image yourself.

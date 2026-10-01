@@ -115,6 +115,20 @@
 			"published": "1901-11-14",
 			"licence": "Public domain",
 			"file": "table-1901.jpg"
+		},
+		{
+			"kind": "book",
+			"title": "Adventure in Blood Transfusion",
+			"authors": [
+				{
+					"family": "Bernheim",
+					"given": "Bertram M."
+				}
+			],
+			"place": "New York",
+			"publisher": "Smith & Durrell",
+			"published": "1942",
+			"citedIn": "Farr, “Blood Group Serology—the First Four Decades (1900–1939)” (1979), note 17"
 		}
 	],
 	"connections": [

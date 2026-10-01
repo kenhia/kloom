@@ -369,6 +369,22 @@ describe('validate', () => {
 		]);
 	});
 
+	it('takes a source seen only in another work when the frame cites that work with a link', () => {
+		const r = raw();
+		const seen = {
+			kind: 'book',
+			title: 'History of the Royal Society',
+			citedIn: 'Farr, “A Source” (1980), note 6'
+		};
+		(r.frames.a.frame as Loose).citations.push(seen);
+		expect(validate(r)).toEqual([]);
+
+		(r.frames.b.frame as Loose).citations.push({ ...seen, citedIn: 'Farr, “Not Here” (1980)' });
+		expect(validate(r)).toEqual([
+			'frames/b citation 1: has no url or doi, so its citedIn must name, by title, a work this frame cites with one'
+		]);
+	});
+
 	it('fails an image without a media citation, or not in the directory', () => {
 		const r = raw();
 		r.frames.a.reading = '![one](map.png) ![two](https://example.org/x.png) ![three](../b/x.png)';

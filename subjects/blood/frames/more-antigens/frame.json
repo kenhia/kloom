@@ -145,7 +145,7 @@
 			"published": "1950-02-04",
 			"doi": "10.1038/165188b0",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "first-page"
 		},
 		{
 			"kind": "article",
@@ -170,7 +170,7 @@
 			"published": "1951-03-24",
 			"doi": "10.1038/167482b0",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "first-page"
 		},
 		{
 			"kind": "article",
@@ -215,7 +215,7 @@
 			"published": "2004",
 			"doi": "10.21307/immunohematology-2019-420",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -332,7 +332,7 @@
 			"published": "1975-08-15",
 			"doi": "10.1126/science.1145213",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -362,7 +362,7 @@
 			"published": "1976-08-05",
 			"doi": "10.1056/NEJM197608052950602",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "wikipedia",

@@ -175,6 +175,14 @@ blood, and the bench by hand and by machine; four trails, one of them
 military blood), built around Ken's father's career in Army blood banking
 and ending on a dedication to him; the first author-subject run after the
 tuning, with its decisions left on korg 3473.
+Sprint 029 the author-subject skill tuned a second time, from In the
+Blood's findings (korg 3473): citations gain `read` (abstract, first page,
+excerpt; replacing `abstractOnly`), `citedIn` standing without a link on a
+checked chain, a `diary` kind, `mirror` and JSTOR stable urls; the tools
+gain `subject_plan.py --with-drafts`, a contact sheet PNG per plate,
+`commons_media crop` and its Flickr and PD-self credits, and `names.py
+lookup`'s set-index and item-class checks; authors are shown readings
+stripped of marks (`names.py strip`), and each shared name has one owner.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

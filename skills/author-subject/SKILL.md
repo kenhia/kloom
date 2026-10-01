@@ -102,10 +102,13 @@ Each author gets:
   stays, and in all three runs a brief's must-tell list alone nearly
   filled it); the headline voice; the rights and sourcing rules that are
   particular to this subject; and the accents already taken;
-- the hand-written frames, to read in full before writing, with a line
-  saying their marks were placed by `names.py mark` (eight of sprint 026's
-  twenty-one authors typed marks by hand in a first draft, copying what
-  they had read);
+- the hand-written frames' readings **with their marks stripped**
+  (`names.py strip <subject>/<frame> … --out <dir>`), to read in full
+  before writing, as the quality bar, and their `frame.json` files.
+  Authors never see mark syntax: eight of sprint 026's twenty-one authors,
+  and three of sprint 028's eighteen despite the brief's warning, typed
+  marks by hand in a first draft, copying the marked frames they had read
+  (sprint 029). `just check`'s `mark --check --placed` stays the backstop;
 - **its own files only**: its frame directories, its own plate module, its
   own chart specs in `create-tools/bar-chart/examples/`, and its own names
   drafts (below). Nothing shared, so nothing collides. The author does not
@@ -121,7 +124,9 @@ lookup`, never from memory; the id is lookup's, so two authors reach the
   subject (each run widened 14 to 21 names another subject had written
   from its own angle), and writes a mark spec,
   `create-tools/names/examples/<subject>-<segment>.json`, checked with
-  `names.py mark <spec> --check --drafts <its drafts>` until it exits 0,
+  `names.py mark <spec> --check --drafts <its drafts>` until it exits 0
+  (`lookup --expect` on every id it drafts, which warns of a set-index
+  page or an item of the wrong class),
   reading the sentence it prints for each mark and acting on any warning
   that a mark misses the bold mention. An existing name whose description
   is written from another subject's angle only is reported, not edited.
@@ -133,7 +138,8 @@ lookup`, never from memory; the id is lookup's, so two authors reach the
 
 **Check the brief before it goes out.** `subject_plan.py --check` passes
 on the plan it quotes (sprint 024's topics had two over 40 characters),
-every part gets connection candidates, trails included, and its facts are
+every part gets connection candidates, trails included, every name two
+parts will mark has its owner (below), the part planned to commit first, and its facts are
 leads, not sources: say so in it. Every run's brief was wrong somewhere:
 sprint 024's, written from memory, had seven facts wrong or out of date
 (two talks a day apart in the wrong order, a page that holds only a
@@ -179,15 +185,16 @@ Things authors working at once cannot see, so the brief settles them:
   `KLOOM_TEST_SUBJECTS=DIR KLOOM_TEST_NAMES=DIR/.names`: the copy carries
   the other subjects and the registry, so marks and connections validate),
   and look at their plates with `contact_sheet.py <subject> <frames>
---png <their own file>` (`--scale 2.5` to read labels), which shows a
-  plate before its `frame.json`, in the palette `--palette <frame>=<name>`
-  gives it. To check a draft before its `frame.json`
-  goes live, an author keeps it beside the live tree as `frame.json.draft`,
-  copies the directory into the copy as `frame.json`, re-runs
-  `subject_plan.py` on the copy, and renames it live once it passes: the
-  copy holds only frames with a `frame.json`, so a draft must be put there
-  by hand (sprint 025's authors read this both ways). Prettier ignores the
-  `.draft` extension: format it with `npx prettier --parser json --write`.
+--png <their own file>` (`--scale 2.5` to read labels; above two plates
+  it writes one PNG per plate, `<file>-<frame>.png`, so none is shrunk past
+  reading), which shows a plate before its `frame.json`, in the palette
+  `--palette <frame>=<name>` gives it. To check a draft before its
+  `frame.json` goes live, an author keeps it beside the live tree as
+  `frame.json.draft` and adds `--with-drafts` to `--complete`, which puts
+  it in the copy as `frame.json`; it renames it live once it passes
+  (sprint 029: three of sprint 028's authors wrote wrappers to copy drafts
+  in by hand). Prettier ignores the `.draft` extension: format it with
+  `npx prettier --parser json --write`.
   `prose_words.py` checks the word counts.
 - **A trail needs its anchor.** A trail's frames are off the spine until the
   main-spine frame it hangs from exists. If the anchor is already committed
@@ -202,14 +209,21 @@ Things authors working at once cannot see, so the brief settles them:
   plan, which `--check` keeps rising along the segment: sprint 021's plan
   put 1850 after 1859, and every author's copy failed on it until review.
   If an author finds a date was wrong, change the plan and re-check.
-- **Each other's drafts.** Say who drafts a name two parts will mark: the
-  author whose frame is its `home`, the others passing that author's
-  drafts with `--drafts` (sprint 026's authors drafting at the same moment
-  collided on `reprap`, `chuck-hull` and `3d-systems` despite grepping).
-  Name drafts overlap (four pairs in sprint 021):
-  authors grep `.scratch/names/*/` before drafting a name, pass every
-  drafts directory to `--complete` and `mark --check`, and check with
-  `--only <their frames>` so no one else's half-written frame fails them.
+- **One owner for each shared name** (sprint 029). The brief lists every
+  name two or more parts will mark, and assigns each to **the part planned
+  to commit first** among them. That part drafts it, home or not; the
+  others only borrow, passing the owner's drafts directory with `--drafts`
+  and never drafting it themselves. If the name's `home` is a frame in a
+  later part, the owner drafts it without `home`, and the home frame's
+  author adds `home` with `names.py add --update` when that frame is
+  committed. Sprint 026's authors drafting at the same moment collided on
+  `reprap`, `chuck-hull` and `3d-systems` despite grepping, and sprint 028,
+  which gave each name to its home's author, had twelve reach the registry
+  first from a borrower's draft, without `home`, before their owner's
+  frame landed. Authors still grep `.scratch/names/*/` before drafting a
+  name the brief does not list, pass every drafts directory to
+  `--complete` and `mark --check`, and check with `--only <their frames>`
+  so no one else's half-written frame fails them.
   They write contact sheets to their own `--png`, never run
   `subject_plan.py` on the live subject, and never commit. Name their
   Prettier and plate commands by frame (`npx prettier --write
@@ -227,7 +241,8 @@ As each author reports:
    plan), then `subject_plan.py <plan> subjects/<subject>` and Prettier,
    then `npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
 2. Look at the plates on a contact sheet, in their palettes
-   (`create-tools/draw-plates/contact_sheet.py <subject> --png …`).
+   (`create-tools/draw-plates/contact_sheet.py <subject> <frames> --png …`,
+   a PNG per plate above two).
 3. Read the report's unsure claims against the cited sources, and spot
    check the surprising ones. Fix or cut; never keep a claim because it is
    good.
@@ -261,12 +276,13 @@ As each author reports:
    once that name went in with the frame. When that frame belongs to a
    part still to come, add the borrowed name without its `home` and give it
    back with `names.py add --update` when the frame lands (sprint 025 did
-   this for Mendeleev before `periodic-table`). Committing parts as they
-   arrive means a name often reaches the registry from a borrower's draft,
-   without `home`, before its owner has drafted it; when the owner's part
-   lands, apply the owner's draft with `--update` (sprint 028 did this for
-   twelve names, `karl-landsteiner` to `whole-blood`). Two parts' drafts of
-   one id differ in their descriptions too: keep the owner's.
+   this for Mendeleev before `periodic-table`). A shared name comes in
+   with its owner's part, which the brief made the first to commit, so a
+   borrower's part never carries one. When a later part holds the name's
+   home frame, add `home` with `--update` as that part is committed. If
+   parts land out of the planned order, commit the owner's draft of the
+   name with whichever part needs it first, still the owner's, and say so
+   in the record.
 6. **Connections between the authors' frames** wait for review: each
    author lists the ones they want in this subject, and the reviewer adds
    them once both ends are committed, checking each _why_ against a

@@ -10,6 +10,7 @@
  * a proceedings or a symposium; `report` a technical or institutional report
  * (sprint 008). `media` credits an image or chart a frame uses. `letter` is a
  * letter to its `recipients`, and `encyclopedia` an entry in one (sprint 027).
+ * `diary` is a dated entry in a named edition of a diary (sprint 029).
  */
 export const CITATION_KINDS = [
 	'web',
@@ -20,9 +21,19 @@ export const CITATION_KINDS = [
 	'report',
 	'media',
 	'letter',
-	'encyclopedia'
+	'encyclopedia',
+	'diary'
 ] as const;
 export type CitationKind = (typeof CITATION_KINDS)[number];
+
+/** How much of a source was read, when not all of it (sprint 029). */
+export const READ_EXTENTS = ['abstract', 'first-page', 'excerpt'] as const;
+export type ReadExtent = (typeof READ_EXTENTS)[number];
+const READ_TEXT: Record<ReadExtent, string> = {
+	abstract: 'Read in its abstract.',
+	'first-page': 'Read in its first page.',
+	excerpt: 'Read in an excerpt.'
+};
 
 /** A person (`family`, optionally `given`) or an organisation (`name`). */
 export type Author = { family: string; given?: string } | { name: string };
@@ -31,10 +42,17 @@ export interface Citation {
 	kind: CitationKind;
 	title: string;
 	/**
-	 * Where it was read. Required unless there is a `doi`. For Wikipedia, a
-	 * permanent revision link (`oldid=`): articles change.
+	 * Where it was read. Required unless there is a `doi`, or a `citedIn`
+	 * naming a work this frame cites with a link (sprint 029). For Wikipedia,
+	 * a permanent revision link (`oldid=`): articles change. A JSTOR article
+	 * by its stable url (`https://www.jstor.org/stable/N`).
 	 */
 	url?: string;
+	/**
+	 * The url is a copy of the work on another site, because no official copy
+	 * exists anywhere: "(copy at host)" (sprint 029).
+	 */
+	mirror?: boolean;
 	/** The bare DOI (`10.1109/5.58323`); the entry links it at doi.org. */
 	doi?: string;
 	/**
@@ -44,8 +62,8 @@ export interface Citation {
 	key?: boolean;
 	/** A key source's remark in the Sources list: a page, why it matters. */
 	note?: string;
-	/** `YYYY-MM-DD`: when the page was read. */
-	accessed: string;
+	/** `YYYY-MM-DD`: when the page was read. Only a citation with no link, seen in another work, goes without. */
+	accessed?: string;
 	/** Authors, or for media the creator. Wikipedia: "Wikipedia contributors". */
 	authors?: Author[];
 	/**
@@ -67,7 +85,10 @@ export interface Citation {
 	engravers?: Author[];
 	/** A letter's recipients: "Letter to …". Required on a letter. */
 	recipients?: Author[];
-	/** When a letter was written; `published` is when it was printed. Same forms as `published`. */
+	/**
+	 * When a letter was written, or a diary's entry; `published` is when it
+	 * was printed. Same forms as `published`. Required on a diary.
+	 */
 	written?: string;
 	/** The edition, as it reads: "2nd ed.", "Loeb Classical Library ed.", "Summer 2020 ed.". */
 	edition?: string;
@@ -93,8 +114,12 @@ export interface Citation {
 	language?: string;
 	/** The work in whose references or quotation this one was seen, not read itself: "Cited in …". */
 	citedIn?: string;
-	/** Only its abstract was read: "Read in its abstract.". */
-	abstractOnly?: boolean;
+	/**
+	 * How much of it was read, when not all of it: its `abstract`, its
+	 * `first-page` (an old letter a site shows only the opening of), or an
+	 * `excerpt` (sprint 029; replaces `abstractOnly`).
+	 */
+	read?: ReadExtent;
 	/** Media only: "Public domain", "CC BY-SA 4.0", … */
 	licence?: string;
 	/** Media only: the file this credits, in the frame's directory. */
@@ -168,8 +193,16 @@ export function languageName(code: string): string {
 const wikipediaLanguage = (url: string) =>
 	/^https?:\/\/([a-z][a-z-]*)\.(?:m\.)?wikipedia\.org\//.exec(url)?.[1];
 
-/** The link an entry carries: the DOI at doi.org when there is one, else the url. */
-export const citationHref = (c: Citation) => (c.doi ? `https://doi.org/${c.doi}` : c.url!);
+/**
+ * The link an entry carries: the DOI at doi.org when there is one, else the
+ * url; none for a source seen only in another work.
+ */
+export const citationHref = (c: Citation): string | undefined =>
+	c.doi ? `https://doi.org/${c.doi}` : c.url;
+
+/** A mirror's host, for "(copy at host)". */
+const mirrorHost = (c: Citation) =>
+	c.mirror && c.url ? /^https?:\/\/(?:www\.)?([^/:]+)/.exec(c.url)?.[1] : undefined;
 
 const inverted = (a: Author) =>
 	'name' in a ? a.name : a.given ? `${a.family}, ${a.given}` : a.family;
@@ -226,9 +259,12 @@ function quoted(title: string): string {
  * - report: Author. _Title_. Number. Series. Place: Publisher, Date.
  *   Accessed Date. URL.
  * - media: Creator. _Title_. Date. Collection. Licence. Accessed Date. URL.
+ * - diary: Author. Diary entry, Date, in _Title_, edited by Editor.
+ *   Container. Place: Publisher, Year. Accessed Date. URL.
  *
  * With a `doi`, the URL is the DOI at doi.org. An approximate date reads
- * "ca. 1951".
+ * "ca. 1951". A mirror's URL is followed by "(copy at host)"; a source seen
+ * only in another work has no URL and no access date.
  */
 export function chicago(c: Citation): Part[] {
 	const parts: Part[] = [];
@@ -237,7 +273,18 @@ export function chicago(c: Citation): Part[] {
 	if (c.authors?.length) add(`${stop(chicagoAuthors(c.authors, c.etAl))} `);
 
 	const italicTitle = c.kind === 'book' || c.kind === 'report' || c.kind === 'media';
-	if (italicTitle) {
+	if (c.kind === 'diary') {
+		// The entry is the item, the diary its edition: "Diary entry, date, in _Diary_, edited by …".
+		const rest = [
+			c.editors?.length && `edited by ${series(c.editors.map(natural))}`,
+			c.edition,
+			c.volume && `vol. ${c.volume}`,
+			c.pages
+		].filter(Boolean);
+		add(`Diary entry${c.written ? `, ${chicagoDate(c.written)}` : ''}, in `);
+		add(c.title, true);
+		add(rest.length ? `, ${stop(rest.join(', '))} ` : '. ');
+	} else if (italicTitle) {
 		add(c.title, true);
 		add('. ');
 	} else add(`${quoted(c.title)} `);
@@ -247,9 +294,10 @@ export function chicago(c: Citation): Part[] {
 		if (people?.length) add(`${role} ${stop(series(people.map(natural)))} `);
 	};
 	if (c.kind === 'book') by('Edited by', c.editors);
+
 	by('Translated by', c.translators);
 	by('Engraved by', c.engravers);
-	const inVolume = c.kind === 'chapter' || c.kind === 'encyclopedia';
+	const inVolume = c.kind === 'chapter' || c.kind === 'encyclopedia' || c.kind === 'diary';
 	if (c.edition && !inVolume) add(`${stop(c.edition)} `);
 
 	const date = c.published ? chicagoDate(c.published, c.circa) : undefined;
@@ -292,6 +340,10 @@ export function chicago(c: Citation): Part[] {
 			imprint();
 			break;
 		}
+		case 'diary':
+			if (c.container) add(`${stop(c.container)} `);
+			imprint();
+			break;
 		case 'report':
 			if (c.number) add(`${stop(c.number)} `);
 			if (c.container) add(`${stop(c.container)} `);
@@ -325,16 +377,29 @@ export function chicago(c: Citation): Part[] {
 
 	if (c.language) add(`In ${languageName(c.language)}. `);
 	for (const seen of seenAs(c)) add(`${seen} `);
-	add(`Accessed ${chicagoDate(c.accessed)}. `);
 	const href = citationHref(c);
-	parts.push({ text: href, href });
-	add('.');
+	if (href) {
+		if (c.accessed) add(`Accessed ${chicagoDate(c.accessed)}. `);
+		parts.push({ text: href, href });
+		const host = mirrorHost(c);
+		add(host ? ` (copy at ${host}).` : '.');
+	}
+	// An entry with no link ends at its last element, which `stop` closed.
+	const last = parts[parts.length - 1];
+	if (!href && last) last.text = last.text.trimEnd();
 	return parts;
 }
 
-/** How a source was seen when it was not read whole: in another work, or as an abstract. */
+/**
+ * How much was read. A kept answer saved before sprint 029 may carry the old
+ * `abstractOnly` flag on a frame's citation it copied, and still says so.
+ */
+const readExtent = (c: Citation): ReadExtent | undefined =>
+	c.read ?? ((c as { abstractOnly?: unknown }).abstractOnly === true ? 'abstract' : undefined);
+
+/** How a source was seen when it was not read whole: in another work, or in part. */
 const seenAs = (c: Citation) =>
-	[c.citedIn && `Cited in ${stop(c.citedIn)}`, c.abstractOnly && 'Read in its abstract.'].filter(
+	[c.citedIn && `Cited in ${stop(c.citedIn)}`, readExtent(c) && READ_TEXT[readExtent(c)!]].filter(
 		(s): s is string => typeof s === 'string'
 	);
 
@@ -359,6 +424,7 @@ export const captionCredit = (c: Citation) =>
 /** One entry of a frame's Sources list: derived from a key citation, never authored. */
 export interface Source {
 	title: string;
+	/** Always set: a key source links what was read, and validation refuses one without a link. */
 	url: string;
 	note?: string;
 }
@@ -377,7 +443,7 @@ function shortAuthors(c: Citation): string | undefined {
  * "Title — Wikipedia", as the curated frames always wrote it.
  */
 export function keySource(c: Citation): Source {
-	const url = citationHref(c);
+	const url = citationHref(c) ?? '';
 	if (c.kind === 'wikipedia') {
 		const lang = c.language && c.language !== 'en' ? `${languageName(c.language)} ` : '';
 		return { title: `${c.title} — ${lang}Wikipedia`, url };
@@ -387,8 +453,11 @@ export function keySource(c: Citation): Source {
 	// An organisation that is also the site says so once: "Introducing X | Anthropic".
 	const who = where && shortAuthors(c) === where ? undefined : shortAuthors(c);
 	const date = c.published && chicagoDate(c.published, c.circa);
-	const facts = [where, date].filter(Boolean).join(', ');
-	const note = [facts, ...seenAs(c).map((s) => s.replace(/\.$/, '')), c.note]
+	const entry = c.kind === 'diary' && c.written && `entry of ${chicagoDate(c.written)}`;
+	const facts = [entry, where, date].filter(Boolean).join(', ');
+	const host = mirrorHost(c);
+	const seen = [...seenAs(c), host && `Copy at ${host}`];
+	const note = [facts, ...seen.map((s) => s && s.replace(/\.$/, '')), c.note]
 		.filter(Boolean)
 		.join('. ');
 	return { title: who ? `${who}, ${c.title}` : c.title, url, ...(note ? { note } : {}) };
@@ -404,8 +473,12 @@ const isText = (v: unknown): v is string => typeof v === 'string' && v.trim() !=
 const isAuthor = (a: unknown) =>
 	isObj(a) && (isText(a.name) || (isText(a.family) && (a.given === undefined || isText(a.given))));
 
-/** Every problem with one citation, as bare messages (the caller adds where). */
-export function citationProblems(c: unknown): string[] {
+/**
+ * Every problem with one citation, as bare messages (the caller adds where).
+ * `legacy` accepts what reader data saved before a field was renamed: a kept
+ * answer's copy of a citation with `abstractOnly` (sprint 029).
+ */
+export function citationProblems(c: unknown, options: { legacy?: boolean } = {}): string[] {
 	if (!isObj(c)) return ['is not an object'];
 	const out: string[] = [];
 	if (!CITATION_KINDS.includes(c.kind as never))
@@ -414,7 +487,10 @@ export function citationProblems(c: unknown): string[] {
 	if (c.doi !== undefined && !(isText(c.doi) && DOI.test(c.doi)))
 		out.push('doi must be a bare DOI, like 10.1109/5.58323');
 	if (c.url === undefined) {
-		if (c.doi === undefined) out.push('url is required, unless there is a doi');
+		if (c.doi === undefined && !isText(c.citedIn))
+			out.push('url is required, unless there is a doi, or a citedIn naming a work cited with one');
+		if (c.doi === undefined && c.key === true)
+			out.push('a key source links what was read: one seen only in another work cannot be key');
 	} else if (!isText(c.url) || !/^https?:\/\//.test(c.url)) out.push('url must be http(s)');
 	else if (/^https?:\/\/(dx\.)?doi\.org\//i.test(c.url))
 		out.push('a doi.org url goes in doi, as the bare DOI');
@@ -425,8 +501,24 @@ export function citationProblems(c: unknown): string[] {
 		!(c.kind === 'media' && /\/wiki\/(File|Image):|[?&]title=(File|Image):/.test(c.url))
 	)
 		out.push('a Wikipedia citation needs a permanent revision url (oldid=)');
-	if (!isText(c.accessed) || !/^\d{4}-\d{2}-\d{2}$/.test(c.accessed) || !DATE.test(c.accessed))
+	else if (
+		/^https?:\/\/(www\.)?jstor\.org\//.test(c.url) &&
+		!/^https?:\/\/(www\.)?jstor\.org\/stable\/\d+\/?$/.test(c.url)
+	)
+		out.push('a JSTOR article is cited by its stable url, https://www.jstor.org/stable/N');
+	// A source seen only in another work was never opened, so has no access date to give.
+	const seenOnly = c.url === undefined && c.doi === undefined && isText(c.citedIn);
+	if (
+		c.accessed === undefined
+			? !seenOnly
+			: !(isText(c.accessed) && /^\d{4}-\d{2}-\d{2}$/.test(c.accessed) && DATE.test(c.accessed))
+	)
 		out.push('accessed date is required, as YYYY-MM-DD');
+	if (c.mirror !== undefined) {
+		if (typeof c.mirror !== 'boolean') out.push('mirror must be true or false');
+		else if (c.mirror && (c.url === undefined || c.doi !== undefined))
+			out.push('mirror is for a url copying a work with no official copy, so not with a doi');
+	}
 	for (const k of ['published', 'written'] as const)
 		if (c[k] !== undefined && !(isText(c[k]) && isPublished(c[k])))
 			out.push(`${k} must be ${PUBLISHED}`);
@@ -451,8 +543,10 @@ export function citationProblems(c: unknown): string[] {
 		'citedIn'
 	] as const)
 		if (c[k] !== undefined && !isText(c[k])) out.push(`${k} must be text`);
-	if (c.abstractOnly !== undefined && typeof c.abstractOnly !== 'boolean')
-		out.push('abstractOnly must be true or false');
+	if (c.abstractOnly !== undefined && !(options.legacy && typeof c.abstractOnly === 'boolean'))
+		out.push('abstractOnly is now read: "abstract"');
+	if (c.read !== undefined && !READ_EXTENTS.includes(c.read as never))
+		out.push(`read must be one of ${READ_EXTENTS.join(', ')}`);
 	if (c.volumeYear !== undefined) {
 		const year = isText(c.volumeYear) ? publishedYear(c.volumeYear) : undefined;
 		const published = isText(c.published) ? publishedYear(c.published) : undefined;
@@ -474,10 +568,42 @@ export function citationProblems(c: unknown): string[] {
 		out.push('an encyclopedia entry needs its container: the encyclopedia');
 	if (c.kind === 'letter' && !(Array.isArray(c.recipients) && c.recipients.length))
 		out.push('a letter needs its recipients');
+	if (c.kind === 'diary' && c.written === undefined)
+		out.push('a diary entry needs the date it was written');
 	if (c.kind === 'media') {
 		if (!isText(c.licence)) out.push('a media citation needs a licence');
 		if (!isText(c.file)) out.push('a media citation needs the file it credits');
 	}
+	return out;
+}
+
+/** Text compared loosely: case, quotation marks and punctuation set aside. */
+const loose = (s: string) =>
+	s
+		.toLowerCase()
+		.replace(/[^\p{L}\p{N}]+/gu, ' ')
+		.trim();
+
+/**
+ * A frame's citations taken together (sprint 029): one with no url or doi
+ * stands on its `citedIn`, which must name a work the frame also cites,
+ * with a link, by that work's title.
+ */
+export function citedInProblems(citations: unknown[]): { index: number; problem: string }[] {
+	const linked = citations
+		.filter((c): c is Obj => isObj(c) && (isText(c.url) || isText(c.doi)) && isText(c.title))
+		.map((c) => loose(c.title as string));
+	const out: { index: number; problem: string }[] = [];
+	citations.forEach((c, index) => {
+		if (!isObj(c) || c.url !== undefined || c.doi !== undefined || !isText(c.citedIn)) return;
+		const cited = loose(c.citedIn);
+		if (!linked.some((title) => title && cited.includes(title)))
+			out.push({
+				index,
+				problem:
+					'has no url or doi, so its citedIn must name, by title, a work this frame cites with one'
+			});
+	});
 	return out;
 }
 

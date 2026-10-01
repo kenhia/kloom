@@ -1,3 +1,4 @@
+#!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.11"
 # dependencies = ["pillow>=10"]
@@ -8,6 +9,7 @@
     python3 create-tools/commons-media/commons_media.py fetch "File:Name.jpg" FRAME_DIR [--as NAME] [--width 960] [--page N]
     uv run create-tools/commons-media/commons_media.py fetch "File:Name.png" FRAME_DIR --jpeg
     uv run create-tools/commons-media/commons_media.py jpeg page.png FRAME_DIR/page.jpg
+    create-tools/commons-media/commons_media.py crop scan.png FRAME_DIR/page.jpg --box 120,80,1480,2100 [--width 960]
 
 `search` lists matching file pages with their licence, so you can pick one
 you may use. `fetch` downloads a scaled copy into the frame's directory and
@@ -16,10 +18,24 @@ licence and file name, taken from the file page's own metadata, and says on
 stderr the exact licence tags the page carries (PD-Art, PD-old-100, …).
 `--page N` takes one page of a PDF or DjVu as a JPEG. `--jpeg`, and the
 `jpeg` command for a page you cropped yourself, convert to JPEG, a PNG's
-transparency composited onto white first. Read the file page anyway: Commons
+transparency composited onto white first. `crop` cuts a box (left, top,
+right, bottom, in the image's pixels) out of a page image from outside
+Commons, a scan from the Internet Archive or a library, scales it to
+`--width` and writes a JPEG (sprint 029). Read the file page anyway: Commons
 metadata is what uploaders typed, and the page is where a licence is really
-stated. Standard library only, except the JPEG conversion: Pillow, which
-`uv run` installs from the metadata above (korg 3404).
+stated.
+
+Two licences need a word more (sprint 029). Flickr's "No restrictions" (the
+Internet Archive's book scans, the Smithsonian's photographs) is taken as
+public domain with a warning, and the citation's `note` is left empty, which
+the gate refuses until it states the public-domain basis ("Published in the
+US in 1904"). A `PD-self` file with no author credits its uploader, "Name
+(uploader)": the uploader is who released it.
+
+Standard library only, except the JPEG conversion: Pillow, declared in the
+metadata above. The script runs itself under `uv run --script` (its
+shebang), and a command that converts to JPEG, run with a plain `python3`
+that lacks Pillow, runs itself again under `uv` (korg 3404, sprint 029).
 """
 import argparse, datetime, html, io, json, os, re, sys, urllib.parse, urllib.request
 
@@ -35,6 +51,8 @@ STEPS = [120, 250, 330, 500, 960, 1280, 1920]
 # A reading's image larger than this is worth a smaller --width (sprint 006 kept them under it).
 LARGE = 350 * 1024
 FREE = re.compile(r'^(public domain|pd|cc0|cc by(-sa)? [0-9.]+|cc-by(-sa)?-[0-9.]+)', re.I)
+# Flickr's "no known copyright restrictions", Commons' short name for it: public domain only on a stated basis.
+NO_RESTRICTIONS = re.compile(r'^no (known copyright )?restrictions$', re.I)
 
 
 def get(params):
@@ -64,7 +82,7 @@ def info(titles, width=800, page=None):
 
 
 # The templates that are a licence, not their machinery: "PD-old-100", not "PD-old-text" or "PD-Art/layout".
-TAG = re.compile(r'^Template:((?:PD|Cc|CC|GFDL|FAL|Attribution|Copyrighted free use)[-\w. ]*)$')
+TAG = re.compile(r'^Template:((?:PD|Cc|CC|GFDL|FAL|Attribution|Copyrighted free use|Flickr-no known copyright)[-\w. ]*)$')
 MACHINERY = re.compile(r'-(text|layout|category|warning|footer|core|expired-text)$|^Cc-pd-mark', re.I)
 
 
@@ -123,6 +141,7 @@ def year(meta):
 # Boilerplate where an author should be: unknown authors in several templates and languages, and
 # what a scanner or an uploader typed (sprint 024 met a scanner model as the author).
 NO_AUTHOR = re.compile(r'unknown|anonymous|不明|unbekannt|inconnu|not provided|own work|scann(ed|er)|'
+                       r'internet archive book images|'
                        r'\b(canon|epson|nikon|hp scanjet|fujitsu)\b|see (below|source)', re.I)
 
 
@@ -155,11 +174,39 @@ def authors(artist):
     return [{'name': artist}]
 
 
-def to_jpeg(body, quality=85):
+def licence_for(lic):
+    """(the citation's licence, whether its note must state a public-domain basis), or None if not free."""
+    if NO_RESTRICTIONS.match(lic.strip()):
+        return 'Public domain', True
+    if not FREE.match(lic):
+        return None
+    return ('Public domain' if re.match(r'^(public domain|pd)', lic, re.I) else lic), False
+
+
+def uploader_credit(tags, who, uploader):
+    """A `PD-self` file's author when the page gives none: its uploader, who released it."""
+    if who or not uploader or not any(t.lower().startswith('pd-self') for t in tags):
+        return who
+    return [{'name': f'{uploader} (uploader)'}]
+
+
+def first_uploader(title):
+    """Who uploaded the file's first version (imageinfo lists newest first)."""
+    data = get({'action': 'query', 'titles': title, 'prop': 'imageinfo', 'iiprop': 'user', 'iilimit': 50})
+    for p in data['query']['pages'].values():
+        versions = p.get('imageinfo') or []
+        return versions[-1].get('user') if versions else None
+
+
+def to_jpeg(body, quality=85, box=None, width=None):
     """A JPEG of an image's bytes, any transparency composited onto white (sprint 026: a PNG with an
     alpha channel turned black when converted as it was)."""
-    from PIL import Image  # Pillow: only this conversion needs it (run the tool with `uv run`)
+    from PIL import Image  # Pillow: only this conversion needs it (main() runs the tool under uv for it)
     im = Image.open(io.BytesIO(body))
+    if box:
+        im = im.crop(box)
+    if width and im.width > width:
+        im = im.resize((width, round(im.height * width / im.width)), Image.LANCZOS)
     if im.mode in ('RGBA', 'LA', 'P'):
         im = im.convert('RGBA')
         white = Image.new('RGB', im.size, 'white')
@@ -189,8 +236,10 @@ def fetch(title, frame_dir, name=None, width=960, accessed=None, page=None, jpeg
         sys.exit(f'commons_media: "{title}" is {i["mime"]}; pick an image')
     meta = i['meta']
     lic = meta.get('LicenseShortName', '')
-    if not FREE.match(lic):
+    free = licence_for(lic)
+    if not free:
         sys.exit(f'commons_media: "{title}" is licensed "{lic}"; pick a public-domain, CC0 or CC BY(-SA) file')
+    licence, needs_basis = free
     # An SVG from elsewhere is served, not inlined, but take Commons' PNG of it anyway: smaller surprises.
     # A PDF or DjVu page is only ever its rendering.
     paged = i['mime'] in PAGED
@@ -218,10 +267,14 @@ def fetch(title, frame_dir, name=None, width=960, accessed=None, page=None, jpeg
         'title': clean_title(meta.get('ObjectName')) or os.path.splitext(title[5:])[0],
         'url': i['descriptionurl'] + (f'?page={page}' if paged else ''),
         'accessed': accessed or datetime.date.today().isoformat(),
-        'licence': 'Public domain' if re.match(r'^(public domain|pd)', lic, re.I) else lic,
+        'licence': licence,
         'file': file,
     }
+    if needs_basis:  # left empty on purpose: the gate refuses an empty note until the basis is written
+        citation['note'] = ''
     who = authors(artist)
+    if not who and any(t.lower().startswith('pd-self') for t in i['tags']):
+        who = uploader_credit(i['tags'], who, first_uploader(title))
     if who:
         citation['authors'] = who
     published, circa = year(meta)
@@ -236,6 +289,12 @@ def fetch(title, frame_dir, name=None, width=960, accessed=None, page=None, jpeg
     say = lambda line: print(f'commons_media: {line}', file=sys.stderr)  # noqa: E731
     say(f'wrote {file} ({len(body) // 1024} KB)' + (f', page {page} of {i.get("pagecount", "?")}' if paged else ''))
     say(f'licence tags on the file page: {", ".join(i["tags"]) or "none found; read the page"}')
+    if needs_basis:
+        say(f'"{lic}" is Flickr\'s "no known copyright restrictions", not a licence: written as public domain, '
+            'with an empty note the gate refuses. Write the basis in it (published in the US before 1931, a US '
+            'government work, …), from the work itself, not the Flickr page')
+    if who and who[0].get('name', '').endswith(' (uploader)'):
+        say(f'author written as the uploader, {who[0]["name"]}: the file is PD-self and names no author')
     if not who:
         say(f'no author written: the page gives "{artist or "nothing"}"; add one by hand if it is known')
     elif who[0].get('name'):
@@ -248,10 +307,11 @@ def fetch(title, frame_dir, name=None, width=960, accessed=None, page=None, jpeg
               f'(Commons serves {", ".join(map(str, STEPS))})', file=sys.stderr)
 
 
-def jpeg(src, dest, quality=85):
-    """Convert a file you cropped yourself (a scan's page) to a JPEG, transparency onto white."""
+def jpeg(src, dest, quality=85, box=None, width=None):
+    """Convert a file you cropped yourself (a scan's page) to a JPEG, transparency onto white; with `box`,
+    crop it first, and with `width`, scale it down to that."""
     with open(src, 'rb') as fh:
-        body = to_jpeg(fh.read(), quality)
+        body = to_jpeg(fh.read(), quality, box, width)
     with open(dest, 'wb') as fh:
         fh.write(body)
     print(f'commons_media: wrote {dest} ({len(body) // 1024} KB)', file=sys.stderr)
@@ -259,8 +319,37 @@ def jpeg(src, dest, quality=85):
         print(f'commons_media: {dest} is over {LARGE // 1024} KB; scale it down or lower --quality', file=sys.stderr)
 
 
+def box_arg(text):
+    """`left,top,right,bottom` in pixels."""
+    parts = [int(p) for p in text.split(',')]
+    if len(parts) != 4 or parts[0] >= parts[2] or parts[1] >= parts[3]:
+        raise argparse.ArgumentTypeError('a box is left,top,right,bottom in pixels, right of left and below top')
+    return tuple(parts)
+
+
+def needs_pillow(a):
+    return a.cmd in ('jpeg', 'crop') or (a.cmd == 'fetch' and a.jpeg)
+
+
+def under_uv(argv):
+    """Run this script again under `uv run --script`, which installs Pillow from its metadata, when a
+    command needs Pillow and this Python lacks it (sprint 029: `--jpeg` worked only under `uv run`)."""
+    try:
+        import PIL  # noqa: F401
+        return
+    except ImportError:
+        pass
+    if os.environ.get('COMMONS_MEDIA_UNDER_UV'):
+        sys.exit('commons_media: Pillow is missing even under uv run; install uv, or Pillow')
+    os.environ['COMMONS_MEDIA_UNDER_UV'] = '1'
+    try:
+        os.execvp('uv', ['uv', 'run', '--quiet', '--script', os.path.abspath(__file__), *argv])
+    except FileNotFoundError:
+        sys.exit('commons_media: converting to JPEG needs Pillow; install uv (or Pillow) and run again')
+
+
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(description=__doc__.split('\n')[4])
+    ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     sub = ap.add_subparsers(dest='cmd', required=True)
     s = sub.add_parser('search')
     s.add_argument('text')
@@ -271,15 +360,25 @@ if __name__ == '__main__':
     f.add_argument('--width', type=int, default=960)
     f.add_argument('--accessed')
     f.add_argument('--page', type=int, help='a PDF or DjVu: the page to take, as a JPEG')
-    f.add_argument('--jpeg', action='store_true', help='convert to JPEG, transparency onto white (needs uv run)')
-    j = sub.add_parser('jpeg', help='convert an image you cropped to JPEG, transparency onto white (needs uv run)')
+    f.add_argument('--jpeg', action='store_true', help='convert to JPEG, transparency onto white')
+    j = sub.add_parser('jpeg', help='convert an image you cropped to JPEG, transparency onto white')
     j.add_argument('src')
     j.add_argument('dest')
     j.add_argument('--quality', type=int, default=85)
+    c = sub.add_parser('crop', help='cut a box out of a page image from outside Commons, as a JPEG')
+    c.add_argument('src')
+    c.add_argument('dest')
+    c.add_argument('--box', type=box_arg, required=True, metavar='LEFT,TOP,RIGHT,BOTTOM')
+    c.add_argument('--width', type=int, default=960, help='scale down to at most this wide (default 960)')
+    c.add_argument('--quality', type=int, default=85)
     a = ap.parse_args()
+    if needs_pillow(a):
+        under_uv(sys.argv[1:])
     if a.cmd == 'search':
         search(a.text)
     elif a.cmd == 'jpeg':
         jpeg(a.src, a.dest, a.quality)
+    elif a.cmd == 'crop':
+        jpeg(a.src, a.dest, a.quality, a.box, a.width)
     else:
         fetch(a.title, a.frame_dir, a.name, a.width, a.accessed, a.page, a.jpeg)
