@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 70 L20 162"/>
+		<path pathLength="1" d="M124 70 L124 162"/>
+		<path pathLength="1" d="M49.5 53 L49.5 144.9"/>
+		<path pathLength="1" d="M153.5 53 L153.5 144.9"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M20 70 L124 70 L153.5 53 L49.5 53 Z"/>
+		<path pathLength="1" d="M20 116 L124 116 L153.5 99 L49.5 99 Z"/>
+		<path pathLength="1" d="M20 162 L124 162 L153.5 144.9 L49.5 144.9 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M28.3 68.1 L122.3 68.1 M31.6 66.2 L125.6 66.2 M34.8 64.3 L128.8 64.3 M38.1 62.4 L132.1 62.4 M41.4 60.5 L135.4 60.5 M44.7 58.6 L138.7 58.6 M48 56.7 L142 56.7 M51.3 54.8 L145.3 54.8"/>
+		<path pathLength="1" d="M29.3 114.9 L55.1 100.1 M36.8 114.9 L62.5 100.1 M44.2 114.9 L69.9 100.1 M51.6 114.9 L77.3 100.1 M59 114.9 L84.8 100.1 M66.5 114.9 L92.2 100.1 M73.9 114.9 L99.6 100.1 M81.3 114.9 L107.1 100.1 M88.8 114.9 L114.5 100.1 M96.2 114.9 L121.9 100.1 M103.6 114.9 L129.3 100.1 M111 114.9 L136.8 100.1 M118.5 114.9 L144.2 100.1"/>
+		<path pathLength="1" d="M28.3 160.1 L122.3 160.1 M31.6 158.2 L125.6 158.2 M34.8 156.3 L128.8 156.3 M38.1 154.4 L132.1 154.4 M41.4 152.5 L135.4 152.5 M44.7 150.6 L138.7 150.6 M48 148.7 L142 148.7 M51.3 146.8 L145.3 146.8"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M292 56 L292 262"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M202 250 L202 70 L382 70 L382 250 Z"/>
+		<path pathLength="1" d="M366 216 L350 216 L349.7 212 L348.7 208.1 L347.2 204.3 L345 200.5 L342.2 197 L338.9 193.7 L335.1 190.6 L330.8 187.8 L326.1 185.3 L321 183.1 L315.6 181.3 L309.9 179.9 L304.1 178.8 L298.1 178.2 L292 178 L285.9 178.2 L279.9 178.8 L274.1 179.9 L268.4 181.3 L263 183.1 L257.9 185.3 L253.2 187.8 L248.9 190.6 L245.1 193.7 L241.8 197 L239 200.5 L236.8 204.3 L235.3 208.1 L234.3 212 L234 216 L218 216 L218 250"/>
+		<path pathLength="1" d="M366 216 L366 250"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M352.6 216 L352.3 211.8 L351.3 207.6 L349.6 203.5 L347.4 199.5 L344.5 195.7 L341 192.1 L337 188.8 L332.5 185.8 L327.6 183.2 L322.3 180.8 L316.6 178.9 L310.7 177.4 L304.6 176.3 L298.3 175.6 L292 175.4 L285.7 175.6 L279.4 176.3 L273.3 177.4 L267.4 178.9 L261.7 180.8 L256.4 183.2 L251.5 185.8 L247 188.8 L243 192.1 L239.5 195.7 L236.6 199.5 L234.4 203.5 L232.7 207.6 L231.7 211.8 L231.4 216"/>
+		<path pathLength="1" d="M355.2 216 L354.9 211.5 L353.8 207 L352.1 202.7 L349.7 198.4 L346.7 194.4 L343.1 190.6 L339 187.1 L334.3 183.9 L329.1 181.1 L323.6 178.6 L317.7 176.5 L311.5 174.9 L305.1 173.7 L298.6 173 L292 172.8 L285.4 173 L278.9 173.7 L272.5 174.9 L266.3 176.5 L260.4 178.6 L254.9 181.1 L249.7 183.9 L245 187.1 L240.9 190.6 L237.3 194.4 L234.3 198.4 L231.9 202.7 L230.2 207 L229.1 211.5 L228.8 216"/>
+		<path pathLength="1" d="M357.8 216 L357.4 211.2 L356.4 206.5 L354.6 201.8 L352.1 197.4 L349 193.1 L345.2 189.1 L340.9 185.4 L336 182 L330.7 178.9 L324.9 176.3 L318.8 174.2 L312.3 172.4 L305.7 171.2 L298.9 170.5 L292 170.2 L285.1 170.5 L278.3 171.2 L271.7 172.4 L265.2 174.2 L259.1 176.3 L253.3 178.9 L248 182 L243.1 185.4 L238.8 189.1 L235 193.1 L231.9 197.4 L229.4 201.8 L227.6 206.5 L226.6 211.2 L226.2 216"/>
+		<path pathLength="1" d="M360.4 216 L360 210.9 L358.9 205.9 L357.1 201 L354.5 196.3 L351.2 191.8 L347.3 187.6 L342.8 183.6 L337.8 180 L332.2 176.8 L326.2 174.1 L319.8 171.8 L313.1 170 L306.2 168.7 L299.1 167.9 L292 167.6 L284.9 167.9 L277.8 168.7 L270.9 170 L264.2 171.8 L257.8 174.1 L251.8 176.8 L246.2 180 L241.2 183.6 L236.7 187.6 L232.8 191.8 L229.5 196.3 L226.9 201 L225.1 205.9 L224 210.9 L223.6 216"/>
+		<path pathLength="1" d="M374 216 L374 208 L373.6 201.5 L372.2 195.1 L370 188.8 L366.9 182.8 L363 177 L358.3 171.6 L352.9 166.5 L346.9 161.9 L340.2 157.8 L333 154.3 L325.4 151.4 L317.3 149 L309 147.4 L300.6 146.3 L292 146 L283.4 146.3 L275 147.4 L266.7 149 L258.6 151.4 L251 154.3 L243.8 157.8 L237.1 161.9 L231.1 166.5 L225.7 171.6 L221 177 L217.1 182.8 L214 188.8 L211.8 195.1 L210.4 201.5 L210 208 L210 216"/>
+		<path pathLength="1" d="M210 216 L210 78 L374 78 L374 216"/>
+		<path pathLength="1" d="M252 224 L257 232 L262 224 M262 224 L267 232 L272 224 M272 224 L277 232 L282 224 M282 224 L287 232 L292 224 M292 224 L297 232 L302 224 M302 224 L307 232 L312 224 M312 224 L317 232 L322 224 M322 224 L327 232 L332 224"/>
+		<path pathLength="1" d="M322 78 L322 44 L352 44"/>
+		<path pathLength="1" d="M352 36 L352 52"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="90" y="196" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FACE · CORE · BACK</text>
+		<text x="252" y="40" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BAG PRESS</text>
+		<text x="292" y="104" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BLADDER</text>
+		<text x="292" y="244" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DIE 165 °C</text>
+		<text x="356" y="47" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">30 PSI</text>
+	</g>
+</svg>

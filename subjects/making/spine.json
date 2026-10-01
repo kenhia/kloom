@@ -5,6 +5,12 @@
 			"title": "Stone and fire",
 			"labelKind": "date",
 			"frames": ["knapping", "handaxe", "birch-tar"]
+		},
+		{
+			"id": "wood",
+			"title": "Wood",
+			"labelKind": "date",
+			"frames": ["thonet-chair", "moulded-plywood"]
 		}
 	]
 }

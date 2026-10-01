@@ -1,0 +1,277 @@
+{
+	"id": "moulded-plywood",
+	"topic": "Moulded plywood",
+	"position": {
+		"label": "1942",
+		"sort": 1942
+	},
+	"scene": {
+		"headline": "We crossed the",
+		"accent": "GRAIN.",
+		"palette": "shavings",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LOS ANGELES · CHARLES AND RAY EAMES · EVANS PRODUCTS",
+			"BIRCH VENEERS · PHENOLIC RESIN · A RUBBER BLADDER"
+		],
+		"counter": {
+			"value": "150,000",
+			"label": "plywood leg splints made in the war, by the Eames Office's estimate"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/polymers",
+			"why": "The Eameses bonded their moulded veneers with a thermosetting phenol-formaldehyde resin, the chemistry of Baekeland's Bakelite."
+		},
+		{
+			"to": "making/thonet-chair",
+			"why": "Thonet pressed glued veneer strips into chair parts in the 1830s and gave lamination up for solid steam-bent wood when the glue failed in the damp."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Method of Making Laminated Articles. US Patent 2,395,468",
+			"authors": [
+				{
+					"family": "Eames",
+					"given": "Charles"
+				}
+			],
+			"publisher": "US Patent Office",
+			"published": "1946-02-26",
+			"url": "https://patents.google.com/patent/US2395468A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 28 May 1942; the darts, the phenolic binder, 165 °C, 30 psi and an hour"
+		},
+		{
+			"kind": "web",
+			"title": "Laminated Splint. US Patent 2,548,470",
+			"authors": [
+				{
+					"family": "Eames",
+					"given": "Charles"
+				}
+			],
+			"publisher": "US Patent Office",
+			"published": "1951-04-10",
+			"url": "https://patents.google.com/patent/US2548470A/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Specialty Treatments",
+			"authors": [
+				{
+					"family": "Ibach",
+					"given": "Rebecca E."
+				}
+			],
+			"container": "Wood Handbook: Wood as an Engineering Material",
+			"number": "FPL-GTR-190",
+			"publisher": "US Department of Agriculture, Forest Service, Forest Products Laboratory",
+			"place": "Madison, WI",
+			"published": "2010",
+			"url": "https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr190/chapter_19.pdf",
+			"accessed": "2026-09-30",
+			"note": "Curved plywood, bag moulding, and why plywood cannot be stretched; pp. 19-2 to 19-3"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Moisture Relations and Physical Properties of Wood",
+			"authors": [
+				{
+					"family": "Glass",
+					"given": "Samuel V."
+				},
+				{
+					"family": "Zelinka",
+					"given": "Samuel L."
+				}
+			],
+			"container": "Wood Handbook: Wood as an Engineering Material",
+			"number": "FPL-GTR-190",
+			"publisher": "US Department of Agriculture, Forest Service, Forest Products Laboratory",
+			"place": "Madison, WI",
+			"published": "2010",
+			"url": "https://research.fs.usda.gov/treesearch/37428",
+			"accessed": "2026-09-30",
+			"note": "Shrinkage along and across the grain, Table 4-3"
+		},
+		{
+			"kind": "chapter",
+			"title": "Wood-Based Composite Materials: Panel Products, Glued-Laminated Timber, Structural Composite Lumber, and Wood–Nonwood Composite Materials",
+			"authors": [
+				{
+					"family": "Stark",
+					"given": "Nicole M."
+				},
+				{
+					"family": "Cai",
+					"given": "Zhiyong"
+				},
+				{
+					"family": "Carll",
+					"given": "Charles"
+				}
+			],
+			"container": "Wood Handbook: Wood as an Engineering Material",
+			"number": "FPL-GTR-190",
+			"publisher": "US Department of Agriculture, Forest Service, Forest Products Laboratory",
+			"place": "Madison, WI",
+			"published": "2010",
+			"url": "https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr190/chapter_11.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Molded Plywood Leg Splint",
+			"container": "Eames Office",
+			"url": "https://www.eamesoffice.com/the-work/molded-plywood-leg-splint/",
+			"accessed": "2026-09-30",
+			"note": "Read in the Wayback Machine's copy of August 2025"
+		},
+		{
+			"kind": "web",
+			"title": "Kazam! Machine",
+			"container": "Charles and Ray Eames Foundation",
+			"url": "https://eamesfoundation.org/work/kazam-machine/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles and Ray Eames",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_and_Ray_Eames&oldid=1376212907",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plywood",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plywood&oldid=1373063278",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Molded plywood",
+			"url": "https://en.wikipedia.org/w/index.php?title=Molded_plywood&oldid=1366807767",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alvar Aalto",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alvar_Aalto&oldid=1371932860",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Artek (company)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Artek_(company)&oldid=1334808399",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "De Havilland Mosquito",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_Havilland_Mosquito&oldid=1376326015",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phenol formaldehyde resin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phenol_formaldehyde_resin&oldid=1362249434",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02"
+		},
+		{
+			"kind": "media",
+			"title": "Leg splint, model S2-1790, by Charles and Ray Eames for the Evans Products Company, Museum für Angewandte Kunst, Cologne",
+			"url": "https://commons.wikimedia.org/wiki/File:Leg_splint,_Model_S2-1790,_designed_by_Charles_%26_Ray_Eames,_Evans_Products_Co.,_Venice_CA,_1941,_molded_plywood_-_Museum_f%C3%BCr_Angewandte_Kunst_K%C3%B6ln_-_Cologne,_Germany_-_DSC09665.jpg",
+			"accessed": "2026-09-30",
+			"container": "Museum für Angewandte Kunst Köln, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "leg-splint.jpg",
+			"authors": [
+				{
+					"name": "Daderot"
+				}
+			],
+			"published": "2015-11-28"
+		},
+		{
+			"kind": "media",
+			"title": "The leg splint and its cut veneer blank, sheet 1 of US Patent 2,395,468",
+			"url": "https://patents.google.com/patent/US2395468A/en",
+			"accessed": "2026-09-30",
+			"container": "US Patent 2,395,468, via Google Patents",
+			"licence": "Public domain",
+			"file": "eames-patent.jpg",
+			"authors": [
+				{
+					"family": "Eames",
+					"given": "Charles"
+				}
+			],
+			"published": "1946-02-26"
+		}
+	]
+}
