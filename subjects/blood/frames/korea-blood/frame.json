@@ -1,0 +1,102 @@
+{
+	"id": "korea-blood",
+	"topic": "Blood in the Korean War",
+	"position": {
+		"label": "1950–53",
+		"sort": 1950
+	},
+	"scene": {
+		"headline": "We had to build it",
+		"accent": "AGAIN.",
+		"palette": "branch",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TOKYO · TRAVIS AIR FORCE BASE · PUSAN",
+			"406TH MEDICAL GENERAL LABORATORY · GROUP O IN ACD"
+		],
+		"counter": {
+			"value": "340,427",
+			"label": "pints flown from Travis to Japan for Korea, 1950–54"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Blood, Plasma, and Related Programs in the Korean War",
+			"authors": [
+				{
+					"family": "Kendrick",
+					"given": "Douglas B."
+				}
+			],
+			"container": "Blood Program in World War II",
+			"publisher": "Office of The Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://achh.army.mil/history/book-wwii-blood-chapter20",
+			"accessed": "2026-10-01",
+			"note": "Chapter XX: Japan, the Travis laboratory and its routine, Steer's survey, the plastic bag and the containers"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Plastic Bags for Intravenous Infusions: Observations in Korea with Saline, Dextran and Blood",
+			"authors": [
+				{
+					"family": "Artz",
+					"given": "Curtis P."
+				},
+				{
+					"family": "Howard",
+					"given": "John M."
+				},
+				{
+					"family": "Davis",
+					"given": "John H."
+				},
+				{
+					"family": "Scott",
+					"given": "Russell, Jr."
+				}
+			],
+			"container": "Battle Casualties in Korea: Studies of the Surgical Research Team, Volume II: Tools for Resuscitation",
+			"editors": [
+				{
+					"family": "Howard",
+					"given": "John M."
+				}
+			],
+			"publisher": "Army Medical Service Graduate School, Walter Reed Army Medical Center",
+			"place": "Washington, DC",
+			"published": "1955",
+			"url": "https://history.amedd.army.mil/booksdocs/korea/Vol2-BattleCasualties/Chapter16.htm",
+			"accessed": "2026-10-01",
+			"note": "Chapter 16; read in the Wayback Machine's copy of the Office of Medical History's page"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Korean War",
+			"url": "https://en.wikipedia.org/w/index.php?title=Korean_War&oldid=1377116204",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Trunk type of insulated container developed for Army by Hollinger Corp. during Korean War, open, loaded with ice and blood and ready for shipment",
+			"url": "https://archive.org/details/0014773.nlm.nih.gov/page/n805/mode/1up",
+			"accessed": "2026-10-01",
+			"container": "US Army photograph, in Kendrick, Blood Program in World War II (1964), figure 184B, p. 764; the National Library of Medicine's copy, cropped",
+			"licence": "Public domain",
+			"file": "hollinger-trunk.jpg",
+			"published": "1964"
+		}
+	]
+}
