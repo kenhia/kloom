@@ -107,7 +107,10 @@
 					<tbody>
 						{#each s.subjects as subject (subject.id)}
 							<tr>
-								<th scope="row">{subject.title}</th>
+								<th scope="row">
+									{subject.title}{#if subject.subtitle}<span class="sub">{subject.subtitle}</span
+										>{/if}
+								</th>
 								<td>{n(subject.frames)}</td>
 								<td>{n(subject.trails)}</td>
 								<td>{n(subject.words)}</td>
@@ -226,6 +229,11 @@
 	thead th:first-child {
 		text-align: left;
 		font-weight: normal;
+	}
+	th .sub {
+		display: block;
+		font-style: italic;
+		color: var(--muted);
 	}
 	dl {
 		display: grid;

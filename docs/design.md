@@ -123,7 +123,8 @@ baked into the engine.
 - **Storage** — files in git, one directory per frame under
   `subjects/<subject>/`. The site builds from them; git is the history of how
   the subject grew, and its undo.
-- **Files** (sprint 001) — `subjects/<subject>/` holds `subject.json` (title
+- **Files** (sprint 001) — `subjects/<subject>/` holds `subject.json` (title,
+  an optional `subtitle` of at most 60 characters (sprint 026, korg 3465),
   and named palettes: scheme, background, ink, muted, accent, line),
   `spine.json` (segments, each `{id, title, labelKind, frames: [ids]}`),
   `trails/<id>.json` (`{id, title, anchor, spine}`) and
@@ -1391,6 +1392,12 @@ past two subjects:
   subject's look is computed on the page. Another's comes from
   `GET /api/start/<subject>`, a read open like the page, and is kept once
   fetched. Reduced motion stops the turning and the fade.
+- **The subtitle** (sprint 026, korg 3465). A subject's `subtitle` stands
+  under its title on the start screen in place of kloom's tagline ("A
+  timeline you can read, question and grow"), which a subject without one
+  keeps. It is also said under the title in the subject list and in About's
+  table of subjects. Labels that name a subject in passing (the back chip,
+  a name card, the map) keep the title alone.
 
 - **The corner** (sprint 022, korg 3456). The start screen's upper right
   holds two icon buttons in the shell's look: _About_, then the settings

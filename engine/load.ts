@@ -126,6 +126,7 @@ export function buildSubject(id: string, raw: RawSubject, options: BuildOptions 
 	return {
 		id,
 		title: manifest.title,
+		...(manifest.subtitle ? { subtitle: manifest.subtitle } : {}),
 		palettes: manifest.palettes,
 		spine: raw.spine as Spine,
 		trails: Object.values(raw.trails) as Trail[],

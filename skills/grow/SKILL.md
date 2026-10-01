@@ -22,7 +22,7 @@ Your working directory is a copy of the subject. Only these paths are
 taken back, and only as additions:
 
 ```
-subject.json            the subject's title and palettes     (read only)
+subject.json            title, subtitle, palettes             (read only)
 spine.json              the main spine's segments             (you may insert frames)
 trails/<id>.json        side trails                           (you may add or extend)
 frames/<id>/            one directory per frame               (you may add new ones)

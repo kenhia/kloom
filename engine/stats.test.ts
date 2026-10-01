@@ -94,6 +94,12 @@ describe('subjectStats', () => {
 		});
 	});
 
+	it('carries the subtitle when the subject has one', () => {
+		expect(subjectStats('s', raw).subtitle).toBeUndefined();
+		const sub = { ...raw, manifest: { title: 'A Subject', subtitle: 'and its line' } };
+		expect(subjectStats('s', sub).subtitle).toBe('and its line');
+	});
+
 	it('sums a library, with pages of the whole', () => {
 		const s = subjectStats('s', raw);
 		const big = { ...s, id: 't', words: 550 };

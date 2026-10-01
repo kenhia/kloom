@@ -2,7 +2,7 @@ import { join } from 'node:path';
 import { beforeAll, describe, expect, it } from 'vitest';
 import { buildSubject, loadSubject, SubjectError } from './load';
 import type { RawSubject } from './validate';
-import { TOPIC_MAX, validate } from './validate';
+import { SUBTITLE_MAX, TOPIC_MAX, validate } from './validate';
 
 // Every frame's one key source.
 const source = {
@@ -63,6 +63,22 @@ type Loose = any;
 describe('validate', () => {
 	it('accepts a well-formed subject', () => {
 		expect(validate(raw())).toEqual([]);
+	});
+
+	it('takes an optional subtitle: a short line of plain text', () => {
+		const r = raw();
+		(r.manifest as Loose).subtitle = 'creating the objects around us';
+		expect(validate(r)).toEqual([]);
+		(r.manifest as Loose).subtitle = 'x'.repeat(SUBTITLE_MAX);
+		expect(validate(r)).toEqual([]);
+		(r.manifest as Loose).subtitle = 'x'.repeat(SUBTITLE_MAX + 1);
+		expect(validate(r)).toEqual([
+			`subject.json: subtitle is ${SUBTITLE_MAX + 1} characters; at most ${SUBTITLE_MAX}`
+		]);
+		for (const bad of ['', '  ', 7, ['a']]) {
+			(r.manifest as Loose).subtitle = bad;
+			expect(validate(r)).toEqual(['subject.json: subtitle, when given, is a line of text']);
+		}
 	});
 
 	it('takes an asOf month or day on a time-sensitive frame, and nothing else', () => {

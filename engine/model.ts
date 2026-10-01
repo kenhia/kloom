@@ -121,12 +121,15 @@ export interface Palette {
 /** `subject.json`: the subject's own name and theme. */
 export interface Manifest {
 	title: string;
+	/** A line said with the title ("creating the objects around us"); optional. */
+	subtitle?: string;
 	palettes: Record<string, Palette>;
 }
 
 export interface Subject {
 	id: string;
 	title: string;
+	subtitle?: string;
 	palettes: Record<string, Palette>;
 	spine: Spine;
 	trails: Trail[];

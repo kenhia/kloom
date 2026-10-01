@@ -23,10 +23,11 @@ export const defaultSubject = () => env.KLOOM_SUBJECT ?? 'western-civ';
 /** What a subject id may look like: a plain directory name, never a path. */
 export const SUBJECT_ID = /^[a-z0-9][a-z0-9-]*$/;
 
-/** A served subject: its id (the directory name) and title (from `subject.json`). */
+/** A served subject: its id (the directory name), title and subtitle (from `subject.json`). */
 export interface SubjectEntry {
 	id: string;
 	title: string;
+	subtitle?: string;
 }
 
 /** Every subject served, in id order; one whose `subject.json` is unreadable is left out. */
@@ -40,7 +41,10 @@ export async function listSubjects(): Promise<SubjectEntry[]> {
 			const manifest = JSON.parse(await readFile(join(root, d.name, 'subject.json'), 'utf8'));
 			found.push({
 				id: d.name,
-				title: typeof manifest?.title === 'string' ? manifest.title : d.name
+				title: typeof manifest?.title === 'string' ? manifest.title : d.name,
+				...(typeof manifest?.subtitle === 'string' && manifest.subtitle.trim()
+					? { subtitle: manifest.subtitle }
+					: {})
 			});
 		} catch {
 			// Not a subject (or a broken one): nothing to offer.

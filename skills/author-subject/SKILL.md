@@ -35,7 +35,12 @@ Decide the whole shape before writing a frame.
   `spine.json` plus `trails`. `subject_plan.py` writes the spine and trails
   from it holding only the frames written so far, so every commit
   validates.
-- **The theme.** `subject.json` holds the title and named palettes, in
+- **The title and subtitle.** `subject.json` holds the title and, if the
+  subject has one, a `subtitle`: one plain line of at most 60 characters
+  said under the title on the start screen, in the subject list and in
+  About ("creating the objects around us"). Without one, the start screen
+  shows kloom's own tagline.
+- **The theme.** `subject.json` holds the named palettes, in
   dark/light pairs that name each other as `counterpart`. Tie a pair to a
   part of the story (an era, a place, a mode of work). Check ink, muted,
   accent and line at **4.5:1 or better** against the background, and write

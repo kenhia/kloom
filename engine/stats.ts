@@ -34,6 +34,7 @@ export interface ReadingStats {
 export interface SubjectStats extends ReadingStats {
 	id: string;
 	title: string;
+	subtitle?: string;
 	/** Every frame, on the main spine or a trail. */
 	frames: number;
 	/** Of those, the ones on a trail. */
@@ -121,6 +122,9 @@ export function subjectStats(id: string, raw: RawSubject): SubjectStats {
 	const s: SubjectStats = {
 		id,
 		title: isObj(raw.manifest) && typeof raw.manifest.title === 'string' ? raw.manifest.title : id,
+		...(isObj(raw.manifest) && typeof raw.manifest.subtitle === 'string' && raw.manifest.subtitle
+			? { subtitle: raw.manifest.subtitle }
+			: {}),
 		frames: 0,
 		trailFrames: 0,
 		trails: trails.length,
