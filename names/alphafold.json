@@ -3,5 +3,6 @@
 	"wikidata": "Q60827595",
 	"name": "AlphaFold",
 	"kind": "artifact",
-	"description": "DeepMind's program that predicts the shape of a protein from its sequence; its makers shared the 2024 Nobel Prize in Chemistry."
+	"description": "DeepMind's program that predicts the shape of a protein from its sequence; its makers shared the 2024 Nobel Prize in Chemistry.",
+	"home": "chemistry/alphafold"
 }
