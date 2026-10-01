@@ -1,0 +1,124 @@
+{
+	"id": "mary-mahoney",
+	"topic": "Mary Mahoney",
+	"position": {
+		"label": "1879",
+		"sort": 1879
+	},
+	"scene": {
+		"headline": "She finished the",
+		"accent": "COURSE.",
+		"palette": "nightshift",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ROXBURY, BOSTON · THE NEW ENGLAND HOSPITAL",
+			"MARY ELIZA MAHONEY · SIXTEEN MONTHS"
+		],
+		"counter": {
+			"value": "4",
+			"label": "nurses graduated in the year ending 30 September 1879"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Annual Report of the New-England Hospital for Women and Children, for the Year Ending September 30, 1879",
+			"authors": [
+				{
+					"name": "New-England Hospital for Women and Children"
+				}
+			],
+			"publisher": "Boys' Home Press",
+			"place": "West Newton, MA",
+			"published": "1879",
+			"url": "https://archive.org/details/newenglandhospit1876newe",
+			"accessed": "2026-10-01",
+			"note": "Report of the Committee on Nurses, p. 13: forty-two applications, four graduates; the colored students, p. 7. Read in the bound run of reports for 1876–1884"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Annual Report of the New-England Hospital for Women and Children, for the Year Ending September 30, 1875",
+			"authors": [
+				{
+					"name": "New-England Hospital for Women and Children"
+				}
+			],
+			"publisher": "Press of W. L. Deland",
+			"place": "Boston",
+			"published": "1876",
+			"edition": "2nd ed.",
+			"url": "https://archive.org/details/annualreportofne00newe",
+			"accessed": "2026-10-01",
+			"note": "Report of Training School, pp. 25–26: the sixteen-month course and the allowance"
+		},
+		{
+			"kind": "report",
+			"title": "Annual Report of the New England Hospital for Women and Children, for the Year Ending September 30, 1882",
+			"authors": [
+				{
+					"name": "New England Hospital for Women and Children"
+				}
+			],
+			"published": "1882",
+			"url": "https://archive.org/details/newenglandhospit1876newe",
+			"accessed": "2026-10-01",
+			"note": "The retrospective of 1876–1882 and the training school's numbers; read in the bound run of reports for 1876–1884, which also holds the report for 1884 and its two colored pupil nurses"
+		},
+		{
+			"kind": "web",
+			"title": "1870–1899",
+			"container": "Nursing, History, and Health Care",
+			"publisher": "Barbara Bates Center for the Study of the History of Nursing, University of Pennsylvania School of Nursing",
+			"url": "https://www.nursing.upenn.edu/nhhc/nursing-through-time/1870-1899/",
+			"accessed": "2026-10-01",
+			"note": "The charter's admission of one African American and one Jewish student a year"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mary Eliza Mahoney",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mary_Eliza_Mahoney&oldid=1374116453",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "New England Hospital for Women and Children",
+			"url": "https://en.wikipedia.org/w/index.php?title=New_England_Hospital_for_Women_and_Children&oldid=1362277587",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02"
+		},
+		{
+			"kind": "media",
+			"title": "Report of Committee on Nurses, annual report for the year ending September 30, 1879, page 13",
+			"authors": [
+				{
+					"name": "New-England Hospital for Women and Children"
+				}
+			],
+			"container": "Annual Reports of the New England Hospital for Women and Children, 1876–1884, Internet Archive",
+			"url": "https://archive.org/details/newenglandhospit1876newe/page/n158/mode/1up",
+			"accessed": "2026-10-01",
+			"published": "1879",
+			"licence": "Public domain",
+			"file": "report-1879.jpg",
+			"note": "Published in the United States in 1879"
+		}
+	]
+}

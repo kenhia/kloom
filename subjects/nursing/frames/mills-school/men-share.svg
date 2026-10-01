@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="t d">
+<title id="t">Men as a share of employed US registered nurses, 1970–2025</title>
+<desc id="d">Bar chart of the percentage of employed registered nurses in the United States who were men. 1970: 2.7 per cent. 1980: 4.1. 1990: 5.7. 2000: 7.6. 2006: 8.9. 2011: 9.6 (US Census Bureau, from the census and the American Community Survey). 2025: 12.7 (Bureau of Labor Statistics, Current Population Survey annual averages, 87.3 per cent women; a different survey, so not strictly comparable).</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="500" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="500" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">5</text>
+<line x1="64" x2="500" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">10</text>
+<line x1="64" x2="500" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">15</text>
+</g>
+<rect x="73.1" y="211.5" width="44" height="38.5" fill-opacity="0.85"/>
+<text x="95.1" y="205.5" text-anchor="middle">2.7%</text>
+<text x="95.1" y="266" text-anchor="middle">1970</text>
+<rect x="135.4" y="191.5" width="44" height="58.5" fill-opacity="0.85"/>
+<text x="157.4" y="185.5" text-anchor="middle">4.1%</text>
+<text x="157.4" y="266" text-anchor="middle">1980</text>
+<rect x="197.7" y="168.7" width="44" height="81.3" fill-opacity="0.85"/>
+<text x="219.7" y="162.7" text-anchor="middle">5.7%</text>
+<text x="219.7" y="266" text-anchor="middle">1990</text>
+<rect x="260.0" y="141.6" width="44" height="108.4" fill-opacity="0.85"/>
+<text x="282.0" y="135.6" text-anchor="middle">7.6%</text>
+<text x="282.0" y="266" text-anchor="middle">2000</text>
+<rect x="322.3" y="123.0" width="44" height="127.0" fill-opacity="0.85"/>
+<text x="344.3" y="117.0" text-anchor="middle">8.9%</text>
+<text x="344.3" y="266" text-anchor="middle">2006</text>
+<rect x="384.6" y="113.0" width="44" height="137.0" fill-opacity="0.85"/>
+<text x="406.6" y="107.0" text-anchor="middle">9.6%</text>
+<text x="406.6" y="266" text-anchor="middle">2011</text>
+<rect x="446.9" y="68.8" width="44" height="181.2" class="accent" fill="currentColor"/>
+<text x="468.9" y="62.8" text-anchor="middle">12.7%</text>
+<text x="468.9" y="266" text-anchor="middle">2025</text>
+<text x="468.9" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">BLS</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">MEN AS % OF EMPLOYED US REGISTERED NURSES</text>
+</g></svg>

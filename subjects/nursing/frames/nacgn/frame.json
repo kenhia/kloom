@@ -1,0 +1,202 @@
+{
+	"id": "nacgn",
+	"topic": "Black nurses organize",
+	"position": {
+		"label": "1908",
+		"sort": 1908
+	},
+	"scene": {
+		"headline": "Barred, they",
+		"accent": "ORGANIZED.",
+		"palette": "nightshift",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW YORK · NEW HAVEN · BOSTON",
+			"MARTHA MINERVA FRANKLIN · ADAH BELLE THOMS · MABEL K. STAUPERS"
+		],
+		"counter": {
+			"value": "52",
+			"label": "nurses at the founding meeting, August 1908"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "National Association Colored Graduate Nurses",
+			"container": "Journal of the National Medical Association",
+			"volume": "1",
+			"issue": "4",
+			"pages": "266",
+			"published": "1909-10",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2574168/",
+			"accessed": "2026-10-01",
+			"note": "The 1909 convention, the object, the membership clause, the registry and the officers"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "National Association of Colored Graduate Nurses",
+			"container": "Journal of the National Medical Association",
+			"volume": "38",
+			"issue": "1",
+			"pages": "37–38",
+			"published": "1946-01",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2616798/",
+			"accessed": "2026-10-01",
+			"note": "The founding in August 1908, the headquarters of 1934 and its reach by 1944"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Racial Reckoning Statement",
+			"authors": [
+				{
+					"name": "American Nurses Association"
+				}
+			],
+			"container": "Racism in Nursing",
+			"publisher": "American Nurses Association",
+			"published": "2022-06-11",
+			"url": "https://www.nursingworld.org/practice-policy/workforce/racism-in-nursing/RacialReckoningStatement/",
+			"accessed": "2026-10-01",
+			"note": "The rule of 1916, the statement of 1946, individual membership in 1948 and the last district in 1964"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "African American Army Nurse Corps Officers",
+			"container": "AMEDD Center of History & Heritage",
+			"publisher": "U.S. Army Medical Department",
+			"url": "https://achh.army.mil/history/articles-blackhistory/",
+			"accessed": "2026-10-01",
+			"note": "The eighteen nurses of December 1918, and Stewart's words"
+		},
+		{
+			"kind": "web",
+			"title": "Honoring African American women who served in the Army Nurse Corps in World War I",
+			"authors": [
+				{
+					"family": "Chaudhury",
+					"given": "Yasmin"
+				}
+			],
+			"container": "World War I Centennial Commission",
+			"url": "https://www.worldwar1centennial.org/index.php/communicate/press-media/wwi-centennial-news/4046-honoring-african-american-women-who-served-in-the-army-nurse-corps-in-wwi.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Ready to Serve",
+			"authors": [
+				{
+					"family": "Stewart",
+					"given": "Aileen Cole"
+				}
+			],
+			"container": "American Journal of Nursing",
+			"volume": "63",
+			"issue": "9",
+			"pages": "85–87",
+			"published": "1963-09",
+			"citedIn": "Aileen Cole Stewart"
+		},
+		{
+			"kind": "web",
+			"title": "1870–1899",
+			"container": "Nursing, History, and Health Care",
+			"publisher": "Barbara Bates Center for the Study of the History of Nursing, University of Pennsylvania School of Nursing",
+			"url": "https://www.nursing.upenn.edu/nhhc/nursing-through-time/1870-1899/",
+			"accessed": "2026-10-01",
+			"note": "Spelman, 1886, and Provident, 1891"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "National Association of Colored Graduate Nurses",
+			"url": "https://en.wikipedia.org/w/index.php?title=National_Association_of_Colored_Graduate_Nurses&oldid=1373702874",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Martha Minerva Franklin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Martha_Minerva_Franklin&oldid=1328385885",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Adah Belle Thoms",
+			"url": "https://en.wikipedia.org/w/index.php?title=Adah_Belle_Thoms&oldid=1322308550",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mabel K. Staupers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mabel_K._Staupers&oldid=1372631423",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aileen Cole Stewart",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aileen_Cole_Stewart&oldid=1362347088",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "media",
+			"title": "Adah B. Thoms",
+			"authors": [
+				{
+					"family": "Pennock",
+					"given": "Meta Rutter"
+				}
+			],
+			"container": "Makers of Nursing History (New York: Lakeside Publishing, 1940)",
+			"published": "1940",
+			"url": "https://commons.wikimedia.org/wiki/File:Adah_B._Thoms_(page_32_crop).jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "adah-thoms.jpg",
+			"note": "Published in the United States in 1940 and its copyright not renewed"
+		}
+	]
+}
