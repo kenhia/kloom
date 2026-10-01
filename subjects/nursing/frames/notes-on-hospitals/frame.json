@@ -1,0 +1,154 @@
+{
+	"id": "notes-on-hospitals",
+	"topic": "Notes on Hospitals",
+	"position": {
+		"label": "1859",
+		"sort": 1859
+	},
+	"scene": {
+		"headline": "It should do the sick no",
+		"accent": "HARM.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": ["LIVERPOOL · WOOLWICH · LAMBETH", "NOTES ON HOSPITALS · 1859 · 3RD EDITION 1863"],
+		"counter": {
+			"value": "1,500",
+			"label": "cubic feet of air a bed, at the least, in her model ward"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Notes on Hospitals",
+			"edition": "3rd ed.",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "Longman, Green, Longman, Roberts, and Green",
+			"place": "London",
+			"published": "1863",
+			"url": "https://archive.org/details/cu31924012356485",
+			"accessed": "2026-10-01",
+			"note": "The preface; the mortality table, pp. 3–5; the ward's rules, pp. 61–67; the Herbert Hospital, pp. 102–4"
+		},
+		{
+			"kind": "book",
+			"title": "Notes on Hospitals: Being Two Papers Read before the National Association for the Promotion of Social Science, at Liverpool, in October, 1858, with Evidence Given to the Royal Commissioners on the State of the Army in 1857",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "John W. Parker",
+			"place": "London",
+			"published": "1859",
+			"url": "https://archive.org/details/notesonhospitals00nigh",
+			"accessed": "2026-10-01",
+			"note": "The four radical defects, p. 3"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Sixth Report of the Medical Officer of the Privy Council, 1863",
+			"authors": [
+				{
+					"family": "Simon",
+					"given": "John"
+				}
+			],
+			"publisher": "Her Majesty's Stationery Office",
+			"place": "London",
+			"published": "1864",
+			"url": "https://archive.org/details/india.history.resource.109591",
+			"accessed": "2026-10-01",
+			"note": "Simon on hospital death-rates, pp. 40–44, introducing Bristowe and Holmes's report on the hospitals of the United Kingdom"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Pavilion hospital",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pavilion_hospital&oldid=1373860616",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Royal Herbert Hospital",
+			"url": "https://en.wikipedia.org/w/index.php?title=Royal_Herbert_Hospital&oldid=1362313949",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Douglas Galton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Douglas_Galton&oldid=1364104314",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "St Thomas' Hospital",
+			"url": "https://en.wikipedia.org/w/index.php?title=St_Thomas'_Hospital&oldid=1368176163",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nightingale ward",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nightingale_ward&oldid=1165278629",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2023-07-14"
+		},
+		{
+			"kind": "media",
+			"title": "Ground plan of the Herbert Hospital (Plan No. VI)",
+			"container": "Florence Nightingale, Notes on Hospitals, 3rd ed. (London: Longman, Green, 1863); copy in Cornell University Library",
+			"published": "1863",
+			"url": "https://archive.org/details/cu31924012356485",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "herbert-plan.jpg",
+			"note": "Published in London in 1863"
+		}
+	]
+}
