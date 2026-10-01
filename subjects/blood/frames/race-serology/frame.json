@@ -1,0 +1,200 @@
+{
+	"id": "race-serology",
+	"topic": "Blood groups and race science",
+	"position": { "label": "1919", "sort": 1919 },
+	"scene": {
+		"headline": "We sorted soldiers into two",
+		"accent": "RACES.",
+		"palette": "humour",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SALONIKA · LUDWIK AND HANKA HIRSZFELD",
+			"THE LANCET · 18 OCTOBER 1919 · THE BIOCHEMICAL RACE INDEX"
+		],
+		"counter": { "value": "7,900", "label": "people they typed themselves, by our arithmetic" }
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Serological Differences between the Blood of Different Races: The Result of Researches on the Macedonian Front",
+			"authors": [
+				{ "family": "Hirschfeld", "given": "Ludwik" },
+				{ "family": "Hirschfeld", "given": "Hanka" }
+			],
+			"container": "The Lancet",
+			"volume": "194",
+			"issue": "5016",
+			"pages": "675–679",
+			"published": "1919-10-18",
+			"doi": "10.1016/S0140-6736(01)48686-7",
+			"url": "https://archive.org/details/sim_the-lancet_1919-10-18_197_5016",
+			"accessed": "2026-10-01",
+			"note": "The technique (p. 676), Table II (p. 677) and the race index with Table IV (p. 678); read in the Internet Archive's scan, which numbers the volume 197"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ludwik Hirszfeld: A Pioneer of Transfusion and Immunology during the World Wars and Beyond",
+			"authors": [
+				{ "family": "Czerwinski", "given": "Marcin" },
+				{ "family": "Kaczmarek", "given": "Radoslaw" },
+				{ "family": "Glensk", "given": "Urszula" }
+			],
+			"container": "Vox Sanguinis",
+			"volume": "117",
+			"issue": "4",
+			"pages": "467–475",
+			"published": "2022-04",
+			"doi": "10.1111/vox.13214",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Review of Rachel E. Boaz, In Search of “Aryan Blood”: Serology in Interwar and National Socialist Germany",
+			"authors": [{ "family": "Mazumdar", "given": "Pauline M. H." }],
+			"container": "Medical History",
+			"volume": "57",
+			"issue": "1",
+			"pages": "155–157",
+			"published": "2013-01",
+			"doi": "10.1017/mdh.2012.99",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Blood Groups and Human Groups: Collecting and Calibrating Genetic Data after World War Two",
+			"authors": [{ "family": "Bangham", "given": "Jenny" }],
+			"container": "Studies in History and Philosophy of Biological and Biomedical Sciences",
+			"volume": "47",
+			"pages": "74–86",
+			"published": "2014-09",
+			"doi": "10.1016/j.shpsc.2014.05.008",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "The Background and Legacy of Lewontin's Apportionment of Human Genetic Diversity",
+			"authors": [{ "family": "Novembre", "given": "John" }],
+			"container": "Philosophical Transactions of the Royal Society B",
+			"volume": "377",
+			"issue": "1852",
+			"pages": "20200406",
+			"published": "2022-06-06",
+			"doi": "10.1098/rstb.2020.0406",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Apportionment of Human Diversity",
+			"authors": [{ "family": "Lewontin", "given": "Richard C." }],
+			"container": "Evolutionary Biology",
+			"volume": "6",
+			"pages": "381–398",
+			"publisher": "Springer",
+			"place": "New York",
+			"published": "1972",
+			"doi": "10.1007/978-1-4684-9063-3_14",
+			"accessed": "2026-10-01",
+			"citedIn": "Novembre, “The Background and Legacy of Lewontin's Apportionment of Human Genetic Diversity” (2022)"
+		},
+		{
+			"kind": "article",
+			"title": "The History of Research on Blood Group Genetics: Initial Discovery and Diffusion",
+			"authors": [{ "family": "Schneider", "given": "William H." }],
+			"container": "History and Philosophy of the Life Sciences",
+			"volume": "18",
+			"issue": "3",
+			"pages": "277–303",
+			"published": "1996",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9136280/",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Blood Group Serology and “Race”: Looking Back to Move Forward",
+			"authors": [
+				{ "family": "Haspel", "given": "Richard L." },
+				{ "family": "Schneider", "given": "William H." },
+				{ "family": "Vege", "given": "Sunitha" },
+				{ "family": "Brunker", "given": "Patricia A. R." }
+			],
+			"container": "Transfusion Medicine Reviews",
+			"volume": "37",
+			"issue": "3",
+			"pages": "150749",
+			"published": "2023",
+			"doi": "10.1016/j.tmrv.2023.150749",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "book",
+			"title": "Les groupes sanguins: leur application à la biologie, à la médecine et au droit",
+			"authors": [{ "family": "Hirszfeld", "given": "Ludwik" }],
+			"publisher": "Masson",
+			"place": "Paris",
+			"published": "1938",
+			"language": "fr",
+			"url": "https://openlibrary.org/works/OL7635237W",
+			"accessed": "2026-10-01",
+			"citedIn": "Czerwinski, Kaczmarek and Glensk, “Ludwik Hirszfeld” (2022), in Rachel E. Boaz's translation"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ludwik Hirszfeld",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ludwik_Hirszfeld&oldid=1369687389",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Otto Reche",
+			"url": "https://en.wikipedia.org/w/index.php?title=Otto_Reche&oldid=1362324270",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Apportionment of Human Diversity",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Apportionment_of_Human_Diversity&oldid=1371799457",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "media",
+			"title": "Ludwik Hirszfeld, 1916",
+			"url": "https://commons.wikimedia.org/wiki/File:Ludwik_Hirszfeld_1916.jpg",
+			"accessed": "2026-10-01",
+			"container": "Ludwik Hirszfeld, Historia jednego życia (Warsaw: PAX, 1957), p. 2, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "hirszfeld-1916.jpg",
+			"published": "1916"
+		},
+		{
+			"kind": "media",
+			"title": "Table IV: Showing the Percentage Frequency of A and B Serological Reactions in Various National Types",
+			"url": "https://archive.org/details/sim_the-lancet_1919-10-18_197_5016",
+			"accessed": "2026-10-01",
+			"container": "The Lancet, 18 October 1919, p. 678, via the Internet Archive",
+			"authors": [
+				{ "family": "Hirschfeld", "given": "Ludwik" },
+				{ "family": "Hirschfeld", "given": "Hanka" }
+			],
+			"licence": "Public domain",
+			"file": "lancet-table-iv.jpg",
+			"published": "1919-10-18"
+		}
+	]
+}
