@@ -257,6 +257,9 @@ both as you write.
   }
   ```
 
+  A thing with no English Wikipedia article (a small site, a living
+  researcher) gets no name file and no mark: leave it in plain prose, and
+  unbolded if it is not a key name (sprint 026 had three).
   The `id` is the English Wikipedia article's title, lower case, with
   dashes (`Johann Tetzel` → `johann-tetzel`). `kind` is `person`, `place`,
   `org`, `artifact`, `idea` or `event`. The `description` is one plain
@@ -451,6 +454,12 @@ DIR` writes its text. Old books and documents are often on Wikisource
   article and often for others; NCBI's BioC service
   (`https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/<PMCID>/unicode`)
   and the Wayback copy of the PMC page are the fallbacks (sprint 025).
+  Europe PMC serves only PMC's open-access subset: an article free to read
+  but not openly licensed (PNAS's, for instance; Europe PMC's search shows
+  `isOpenAccess` `N`) comes back empty, so look for the paper elsewhere
+  (sprint 026). An `oa_url` on HAL (`hal.science/…/file/….pdf`) answers a
+  script with a JavaScript challenge; `https://hal.science/<hal-id>/document`
+  serves the PDF itself.
   The Wayback Machine serves many pages gzipped, so read every Wayback
   copy with `curl --compressed`, and `-L` to follow a `/web/<timestamp>/`
   link. When a scan's OCR is useless (old tables, the long s read as f),
@@ -492,7 +501,8 @@ DIR` writes its text. Old books and documents are often on Wikisource
 - **A page of a scanned book** that is public domain may come from outside
   Commons (an Internet Archive item) or from a PDF or DjVu on Commons,
   which `commons_media` cannot fetch: crop the page yourself, keep the file
-  under 350 KB (a JPEG, not a PNG), and write its `media` citation by hand,
+  under 350 KB (a JPEG, not a PNG; composite a PNG with transparency onto
+  white first, or its background turns black), and write its `media` citation by hand,
   citing the item's page and the work's own date. Check the licence on the
   copy you use: the same volume can be public domain from one library and
   CC BY-NC from another (sprint 024).

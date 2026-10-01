@@ -23,7 +23,11 @@ Decide the whole shape before writing a frame.
 - **The spine.** Segments, each with a `labelKind` (`date`, `category`,
   `technology`) and the frames in reading order. A subject is not
   necessarily time: an era is dates, a field may run dates → technologies
-  → categories, a person is the dates of a life.
+  → categories, a person is the dates of a life. `labelKind` says what
+  the frames' labels are, not what the segment is: the validator checks
+  that sorts rise only within a segment, so a spine by craft or by place
+  whose frames are dated is a run of `date` segments, each restarting time
+  (sprint 026's crafts), not `category` segments.
 - **The trails.** Where a topic needs depth the main spine should not
   carry, it becomes a trail of three to ten frames on one main-spine
   anchor. Prefer a trail over a `category` segment when the topic is a
