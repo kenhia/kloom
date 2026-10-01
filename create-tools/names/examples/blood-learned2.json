@@ -1,0 +1,40 @@
+{
+	"blood/hales": [
+		["Stephen Hales", "stephen-hales"],
+		["Teddington", "teddington"],
+		["blood pressure", "blood-pressure"],
+		["Royal Society", "royal-society"],
+		["Jean Léonard Marie Poiseuille", "jean-leonard-marie-poiseuille"],
+		["Scipione Riva-Rocci", "scipione-riva-rocci"],
+		["sphygmomanometer", "sphygmomanometer"]
+	],
+	"blood/hemoglobin": [
+		["oxygen", "oxygen"],
+		["hemoglobin", "hemoglobin"],
+		["Felix Hoppe-Seyler", "felix-hoppe-seyler"],
+		["Gustav Kirchhoff", "gustav-kirchhoff"],
+		["Robert Bunsen", "robert-bunsen"],
+		["George Gabriel Stokes", "sir-george-stokes-1st-baronet"],
+		["Fraunhofer lines", "fraunhofer-lines"]
+	],
+	"blood/sickle-cell": [
+		["James B. Herrick", "james-b-herrick"],
+		["sickle cell disease", "sickle-cell-disease"],
+		["Linus Pauling", "linus-pauling"],
+		["Arne Tiselius", "arne-tiselius"],
+		["Harvey Itano", "harvey-itano"],
+		["Vernon Ingram", "vernon-ingram"],
+		["malaria", "malaria"],
+		["Anthony Allison", "anthony-clifford-allison"]
+	],
+	"blood/perutz-hemoglobin": [
+		["hemoglobin", "hemoglobin"],
+		["Max Perutz", "max-perutz"],
+		["Cavendish Laboratory", "cavendish-laboratory"],
+		["Lawrence Bragg", "lawrence-bragg"],
+		["X-ray crystallography", "x-ray-crystallography"],
+		["isomorphous replacement", "isomorphous-replacement"],
+		["Vernon Ingram", "vernon-ingram"],
+		["MRC Laboratory of Molecular Biology", "mrc-laboratory-of-molecular-biology"]
+	]
+}

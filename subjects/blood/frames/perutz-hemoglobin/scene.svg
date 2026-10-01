@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 152 L350 152"/>
+		<path pathLength="1" d="M190 17 L190 287"/>
+		<path pathLength="1" d="M112 152 a78 78 0 1 0 156 0 a78 78 0 1 0 -156 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M152.6 162.3 a65.6 65.6 0 1 0 131.1 0 a65.6 65.6 0 1 0 -131.1 0"/>
+		<path pathLength="1" d="M127.8 126.1 a64.4 64.4 0 1 0 128.9 0 a64.4 64.4 0 1 0 -128.9 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M190 152 L218.2 162.3"/>
+		<path pathLength="1" d="M214.2 162.7 L218.2 162.3 L215.4 159.4"/>
+		<path pathLength="1" d="M190 152 L192.3 126.1"/>
+		<path pathLength="1" d="M193.7 129.8 L192.3 126.1 L190.2 129.5"/>
+		<path pathLength="1" d="M190 152 L253.9 107.3"/>
+		<path pathLength="1" d="M251 112.5 L253.9 107.3 L248 108.2"/>
+		<path pathLength="1" d="M250.9 107.3 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M207.2 227.3 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M131.8 96.8 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M250.9 107.3 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M211.3 137.1 L212 138.2 L212.7 139.3 L213.3 140.5 L213.9 141.7 L214.4 142.9 L214.8 144.2 L215.2 145.5 L215.5 146.7 L215.7 148 L215.9 149.4 L216 150.7 L216 152"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="261.9" y="103.3" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FP</text>
+		<text x="212.2" y="176.3" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">-FH1</text>
+		<text x="198.3" y="138.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">-FH2</text>
+		<text x="220" y="146" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PHASE</text>
+		<text x="108" y="146" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">|FP|</text>
+		<text x="171" y="115" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">|FPH1|</text>
+		<text x="240" y="186.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">|FPH2|</text>
+	</g>
+</svg>

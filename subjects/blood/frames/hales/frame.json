@@ -1,0 +1,90 @@
+{
+	"id": "hales",
+	"topic": "Hales measures blood pressure",
+	"position": { "label": "1733", "sort": 1733 },
+	"scene": {
+		"headline": "We made the blood",
+		"accent": "CLIMB.",
+		"palette": "folio",
+		"illustration": "scene.svg",
+		"metadata": ["TEDDINGTON · STEPHEN HALES", "A MARE · A BRASS PIPE · A NINE-FOOT GLASS TUBE"],
+		"counter": { "value": "8 ft 3 in", "label": "the mare's blood above her heart" }
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Statical Essays, Vol. II: Haemastaticks; or, An Account of Some Hydraulick and Hydrostatical Experiments Made on the Blood and Blood-Vessels of Animals",
+			"authors": [{ "family": "Hales", "given": "Stephen" }],
+			"publisher": "W. Innys and R. Manby, and T. Woodward",
+			"place": "London",
+			"published": "1733",
+			"url": "https://archive.org/details/b3052815x_0002",
+			"accessed": "2026-10-01",
+			"note": "Experiment I (pp. 1–8), the mare's crural artery; Experiment III, the jugular vein and carotid; the resistance of the capillaries, pp. 55–58; read in the Wellcome Library's copy of the first edition"
+		},
+		{
+			"kind": "book",
+			"title": "Vegetable Staticks; or, An Account of Some Statical Experiments on the Sap in Vegetables",
+			"authors": [{ "family": "Hales", "given": "Stephen" }],
+			"publisher": "W. and J. Innys, and T. Woodward",
+			"place": "London",
+			"published": "1727",
+			"url": "https://archive.org/details/staticalessaysco2173hale",
+			"accessed": "2026-10-01",
+			"note": "Preface, p. iii, dates the dogs and the horses; read in an Internet Archive copy catalogued as volume II, which holds this first volume"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Short History of Blood Pressure Measurement",
+			"authors": [{ "family": "Booth", "given": "Jeremy" }],
+			"container": "Proceedings of the Royal Society of Medicine",
+			"volume": "70",
+			"issue": "11",
+			"pages": "793–799",
+			"published": "1977-11",
+			"doi": "10.1177/003591577707001112",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Stephen Hales",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stephen_Hales&oldid=1375556758",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood pressure",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_pressure&oldid=1368873873",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "media",
+			"title": "Stephen Hales, mezzotint by James McArdell after Thomas Hudson",
+			"url": "https://commons.wikimedia.org/wiki/File:Stephen_Hales_Mezzotint.jpg",
+			"accessed": "2026-10-01",
+			"container": "National Portrait Gallery, London, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "stephen-hales-mezzotint.jpg",
+			"authors": [{ "family": "McArdell", "given": "James" }],
+			"published": "1759",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/fixed-air",
+			"why": "Joseph Black named the gas he weighed out of magnesia \"fixed air\" after Stephen Hales, who had shown that alkaline salts hold a great quantity of it; the same Hales first measured the force of the blood."
+		}
+	]
+}

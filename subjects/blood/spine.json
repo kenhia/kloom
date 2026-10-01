@@ -10,7 +10,15 @@
 			"id": "learned",
 			"title": "What we learned",
 			"labelKind": "date",
-			"frames": ["harvey", "malpighi", "red-cells"]
+			"frames": [
+				"harvey",
+				"malpighi",
+				"red-cells",
+				"hales",
+				"hemoglobin",
+				"sickle-cell",
+				"perutz-hemoglobin"
+			]
 		},
 		{
 			"id": "transfusion",

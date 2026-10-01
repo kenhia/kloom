@@ -1,0 +1,192 @@
+{
+	"id": "sickle-cell",
+	"topic": "Sickle cell, a molecular disease",
+	"position": {
+		"label": "1949",
+		"sort": 1949
+	},
+	"scene": {
+		"headline": "We found a disease in a",
+		"accent": "MOLECULE.",
+		"palette": "folio",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CHICAGO · PASADENA · CAMBRIDGE · EAST AFRICA",
+			"HERRICK · PAULING, ITANO, SINGER, WELLS · INGRAM · ALLISON"
+		],
+		"counter": {
+			"value": "2–4",
+			"label": "more positive charges on each sickle hemoglobin molecule"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Sickle Cell Anemia, a Molecular Disease",
+			"authors": [
+				{
+					"family": "Pauling",
+					"given": "Linus"
+				},
+				{
+					"family": "Itano",
+					"given": "Harvey A."
+				},
+				{
+					"family": "Singer",
+					"given": "S. J."
+				},
+				{
+					"family": "Wells",
+					"given": "Ibert C."
+				}
+			],
+			"container": "Science",
+			"volume": "110",
+			"issue": "2865",
+			"pages": "543–548",
+			"published": "1949-11-25",
+			"doi": "10.1126/science.110.2865.543",
+			"url": "https://scarc.library.oregonstate.edu/coll/pauling/blood/papers/1949p.15.html",
+			"accessed": "2026-10-01",
+			"note": "Read in the reprint's page images at Oregon State University's Pauling collection; Table 1 and Fig. 3 on p. 3"
+		},
+		{
+			"kind": "article",
+			"title": "Peculiar Elongated and Sickle-Shaped Red Blood Corpuscles in a Case of Severe Anemia",
+			"authors": [
+				{
+					"family": "Herrick",
+					"given": "James B."
+				}
+			],
+			"container": "Archives of Internal Medicine",
+			"volume": "6",
+			"issue": "5",
+			"pages": "517–521",
+			"published": "1910",
+			"doi": "10.1001/archinte.1910.00050330050003",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Sickle Cell Anaemia and Malaria",
+			"authors": [
+				{
+					"family": "Luzzatto",
+					"given": "Lucio"
+				}
+			],
+			"container": "Mediterranean Journal of Hematology and Infectious Diseases",
+			"volume": "4",
+			"issue": "1",
+			"pages": "e2012065",
+			"published": "2012",
+			"doi": "10.4084/MJHID.2012.065",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Sickle cell disease",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sickle_cell_disease&oldid=1374404224",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vernon Ingram",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vernon_Ingram&oldid=1372004134",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James B. Herrick",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_B._Herrick&oldid=1372015668",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anthony Clifford Allison",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anthony_Clifford_Allison&oldid=1369016971",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arne Tiselius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arne_Tiselius&oldid=1371972847",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Electrophoresis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electrophoresis&oldid=1361071037",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-25"
+		},
+		{
+			"kind": "media",
+			"title": "Sickle Cell Anemia",
+			"url": "https://commons.wikimedia.org/wiki/File:Sickle_Cell_Anemia_(5610746554).jpg",
+			"accessed": "2026-10-01",
+			"container": "Flickr, via Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "sickle-cell-smear.jpg",
+			"authors": [
+				{
+					"family": "Uthman",
+					"given": "Ed"
+				}
+			],
+			"published": "2011-03-25"
+		}
+	]
+}

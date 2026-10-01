@@ -1,0 +1,99 @@
+{
+	"id": "hemoglobin",
+	"topic": "Hemoglobin and its spectrum",
+	"position": { "label": "1840–64", "sort": 1840 },
+	"scene": {
+		"headline": "We read the blood's colour in a",
+		"accent": "PRISM.",
+		"palette": "anatomy",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TÜBINGEN · CAMBRIDGE · HOPPE-SEYLER · STOKES",
+			"A TEST TUBE · A SLIT · A PRISM · FERROUS SULPHATE"
+		],
+		"counter": {
+			"value": "2 → 1",
+			"label": "dark bands, before and after the oxygen is taken away"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Reduction and Oxidation of the Colouring Matter of the Blood",
+			"authors": [{ "family": "Stokes", "given": "G. G." }],
+			"container": "Proceedings of the Royal Society of London",
+			"volume": "13",
+			"pages": "355–364",
+			"published": "1864",
+			"doi": "10.1098/rspl.1863.0080",
+			"url": "https://archive.org/details/jstor-112063",
+			"accessed": "2026-10-01",
+			"note": "Received 16 June 1864; the reagent in §3, the tuning fork in §5, venous blood in §§16–17"
+		},
+		{
+			"kind": "article",
+			"title": "Ueber das Verhalten des Blutfarbstoffes im Spectrum des Sonnenlichtes",
+			"authors": [{ "family": "Hoppe", "given": "Felix" }],
+			"container": "Archiv für pathologische Anatomie und Physiologie und für klinische Medicin",
+			"volume": "23",
+			"pages": "446–449",
+			"published": "1862",
+			"doi": "10.1007/BF01939277",
+			"language": "de",
+			"accessed": "2026-10-01",
+			"citedIn": "Stokes, “On the Reduction and Oxidation of the Colouring Matter of the Blood” (1864)"
+		},
+		{
+			"kind": "book",
+			"title": "Der Chemismus in der thierischen Organisation",
+			"authors": [{ "family": "Hünefeld", "given": "Friedrich Ludwig" }],
+			"publisher": "F. A. Brockhaus",
+			"place": "Leipzig",
+			"published": "1840",
+			"language": "de",
+			"url": "https://archive.org/details/b21710478",
+			"accessed": "2026-10-01",
+			"note": "The earthworms, pp. 98–99; the red crystals, pp. 160–161"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Hemoglobin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hemoglobin&oldid=1376983759",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Felix Hoppe-Seyler",
+			"url": "https://de.wikipedia.org/w/index.php?title=Felix_Hoppe-Seyler&oldid=270385666",
+			"language": "de",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "media",
+			"title": "The absorption bands of blood before and after reduction, figs. 1 and 2 of Stokes's woodcut",
+			"url": "https://archive.org/details/jstor-112063",
+			"accessed": "2026-10-01",
+			"container": "Proceedings of the Royal Society of London, vol. 13, p. 356, via the Internet Archive",
+			"licence": "Public domain",
+			"file": "stokes-bands.jpg",
+			"authors": [{ "family": "Stokes", "given": "G. G." }],
+			"published": "1864"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/spectra",
+			"why": "Hoppe-Seyler and Stokes read blood with the slit and prism that Kirchhoff and Bunsen had made a spectroscope in 1859, and Stokes placed hemoglobin's absorption bands against Fraunhofer's lines D, E, b and F."
+		}
+	]
+}
