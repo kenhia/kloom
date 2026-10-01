@@ -1,0 +1,32 @@
+{
+	"title": "Deaths of Army nurses overseas by month, 1918",
+	"description": "Bar chart. Deaths of Army Nurse Corps nurses in the American Expeditionary Forces in 1918: 3 in January, 1 in February, none in March or April, 1 in May, 3 in June, 2 in July, 1 in August, 8 in September, 41 in October, 12 in November and 4 in December. Data: The Medical Department of the United States Army in the World War, vol. 13, part 2 (1927), p. 350.",
+	"heading": "ARMY NURSES WHO DIED OVERSEAS · 1918, BY MONTH",
+	"unit": "",
+	"width": 520,
+	"barWidth": 28,
+	"axis": {
+		"max": 45,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"],
+			[40, "40"]
+		]
+	},
+	"bars": [
+		{ "label": "Jan", "value": 3 },
+		{ "label": "Feb", "value": 1 },
+		{ "label": "Mar", "value": 0 },
+		{ "label": "Apr", "value": 0 },
+		{ "label": "May", "value": 1 },
+		{ "label": "Jun", "value": 3 },
+		{ "label": "Jul", "value": 2 },
+		{ "label": "Aug", "value": 1 },
+		{ "label": "Sep", "value": 8 },
+		{ "label": "Oct", "value": 41, "highlight": true },
+		{ "label": "Nov", "value": 12 },
+		{ "label": "Dec", "value": 4 }
+	]
+}

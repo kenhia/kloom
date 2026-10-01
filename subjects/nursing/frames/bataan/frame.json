@@ -1,0 +1,155 @@
+{
+	"id": "bataan",
+	"topic": "The Angels of Bataan",
+	"position": {
+		"label": "1942",
+		"sort": 1942
+	},
+	"scene": {
+		"headline": "We nursed in the",
+		"accent": "JUNGLE.",
+		"palette": "canvas",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BATAAN · CORREGIDOR · SANTO TOMAS",
+			"MAUDE DAVISON · JOSEPHINE NESBIT · GENERAL HOSPITAL NO. 2"
+		],
+		"counter": {
+			"value": "7,000",
+			"label": "patients at General Hospital No. 2 in April 1942"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Medical Department: Medical Service in the War Against Japan",
+			"number": "CMH Pub 10-24",
+			"authors": [
+				{
+					"family": "Condon-Rall",
+					"given": "Mary Ellen"
+				},
+				{
+					"family": "Cowdrey",
+					"given": "Albert E."
+				}
+			],
+			"container": "United States Army in World War II",
+			"publisher": "US Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1998",
+			"url": "https://archive.org/details/MedicalServiceInTheWarAgainstJapan",
+			"accessed": "2026-10-01",
+			"note": "The hospitals on Bataan and Corregidor, pp. 27–41; Santo Tomas, pp. 375–377"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Angels of Mercy: The Army Nurse Corps on Bataan and Corregidor",
+			"authors": [
+				{
+					"family": "Manning",
+					"given": "Michele"
+				}
+			],
+			"container": "Parameters",
+			"volume": "22",
+			"issue": "1",
+			"pages": "86–99",
+			"published": "1992",
+			"url": "https://archive.org/details/DTIC_ADA528103",
+			"accessed": "2026-10-01",
+			"note": "Drawn from the nurses' oral histories recorded by the Army in 1983"
+		},
+		{
+			"kind": "report",
+			"title": "The Army Nurse Corps: A Commemoration of World War II Service",
+			"number": "CMH Pub 72-14",
+			"authors": [
+				{
+					"family": "Bellafaire",
+					"given": "Judith A."
+				}
+			],
+			"publisher": "US Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1993",
+			"url": "https://archive.org/details/ArmyNurseCorps",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Angels of Bataan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Angels_of_Bataan&oldid=1357535149",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maude C. Davison",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maude_C._Davison&oldid=1361775646",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Josephine Nesbit",
+			"url": "https://en.wikipedia.org/w/index.php?title=Josephine_Nesbit&oldid=1352438463",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Raid on Los Baños",
+			"url": "https://en.wikipedia.org/w/index.php?title=Raid_on_Los_Ba%C3%B1os&oldid=1370705887",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "media",
+			"title": "Army nurses rescued from Santo Tomas 1945c",
+			"url": "https://commons.wikimedia.org/wiki/File:Army_nurses_rescued_from_Santo_Tomas_1945c.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "bronze-stars-leyte.jpg",
+			"authors": [
+				{
+					"name": "US Army"
+				}
+			],
+			"container": "US Army photograph, US Army Center of Military History",
+			"published": "1945-02-20",
+			"note": "Brig. Gen. Guy B. Denit presents Bronze Stars at the 1st Convalescent Hospital, Tolosa, Leyte"
+		}
+	]
+}

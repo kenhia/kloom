@@ -46,7 +46,14 @@
 			"id": "military",
 			"title": "Nurses at war",
 			"labelKind": "date",
-			"frames": ["civil-war-nurses", "army-nurse-corps", "sacred-twenty"]
+			"frames": [
+				"civil-war-nurses",
+				"army-nurse-corps",
+				"sacred-twenty",
+				"wwi-nurses",
+				"pearl-harbor",
+				"bataan"
+			]
 		},
 		{
 			"id": "dedication-seg",

@@ -1,0 +1,220 @@
+{
+	"id": "wwi-nurses",
+	"topic": "Nurses in the First World War",
+	"position": {
+		"label": "1917–18",
+		"sort": 1917
+	},
+	"scene": {
+		"headline": "We were the Army's",
+		"accent": "RESERVE.",
+		"palette": "canvas",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ROUEN · SAVENAY · BASE HOSPITALS 12 AND 21",
+			"JANE DELANO · JULIA STIMSON · DAKIN'S SOLUTION · INFLUENZA"
+		],
+		"counter": {
+			"value": "21,480",
+			"label": "Army nurses at the peak, November 1918"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/chemical-warfare",
+			"why": "Julia Stimson's wards at Rouen filled with men burned by \"oil of mustard\" in late July 1917, the month Germany first used mustard gas."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Medical Department of the United States Army in the World War, vol. 13, part 2: The Army Nurse Corps",
+			"authors": [
+				{
+					"name": "Office of the Surgeon General, US Army"
+				}
+			],
+			"publisher": "US Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1927",
+			"url": "https://archive.org/details/WW1ArmyMedDeptHistV13",
+			"accessed": "2026-10-01",
+			"note": "The corps' strength, pp. 289–290; the Mongolia, p. 310; deaths at home, p. 311; deaths overseas by month, p. 350"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "History of American Red Cross Nursing",
+			"authors": [
+				{
+					"family": "Dock",
+					"given": "Lavinia L."
+				},
+				{
+					"family": "Pickett",
+					"given": "Sarah E."
+				},
+				{
+					"family": "Noyes",
+					"given": "Clara D."
+				},
+				{
+					"family": "Clement",
+					"given": "Fannie F."
+				},
+				{
+					"family": "Fox",
+					"given": "Elizabeth G."
+				},
+				{
+					"family": "Van Meter",
+					"given": "Anna R."
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "New York",
+			"published": "1922",
+			"url": "https://archive.org/details/historyofamerica00dock",
+			"accessed": "2026-10-01",
+			"note": "Delano and the reserve, pp. 95–98 and 313; base hospital units, p. 334; MacDonald, p. 456; the Mongolia, pp. 469–470; totals, pp. 984–986; Delano's death, pp. 1000–1003"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Finding Themselves: The Letters of an American Army Chief Nurse in a British Hospital in France",
+			"authors": [
+				{
+					"family": "Stimson",
+					"given": "Julia C."
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "New York",
+			"published": "1918",
+			"url": "https://archive.org/details/findingthemselve00stim",
+			"accessed": "2026-10-01",
+			"note": "Letters from Rouen, June 1917 to March 1918"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Treatment of Infected Wounds",
+			"authors": [
+				{
+					"family": "Carrel",
+					"given": "A."
+				},
+				{
+					"family": "Dehelly",
+					"given": "G."
+				}
+			],
+			"translators": [
+				{
+					"family": "Child",
+					"given": "Herbert"
+				}
+			],
+			"publisher": "Paul B. Hoeber",
+			"place": "New York",
+			"published": "1917",
+			"url": "https://archive.org/details/treatmentofinfec00carr",
+			"accessed": "2026-10-01",
+			"note": "The tubes, flask and pinchcock, pp. 113–119; the bacteriological chart, p. 159"
+		},
+		{
+			"kind": "web",
+			"title": "The History of the Navy Nurse Corps",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jane Delano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jane_Delano&oldid=1356036621",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Julia Catherine Stimson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Julia_Catherine_Stimson&oldid=1353098084",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dakin's solution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dakin's_solution&oldid=1305296806",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spanish flu",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spanish_flu&oldid=1376983185",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Nurse using a pinchcock and so instilling antiseptic liquid (fig. 25)",
+			"authors": [
+				{
+					"family": "Carrel",
+					"given": "A."
+				},
+				{
+					"family": "Dehelly",
+					"given": "G."
+				}
+			],
+			"container": "The Treatment of Infected Wounds, p. 118",
+			"url": "https://archive.org/details/treatmentofinfec00carr",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "carrel-pinchcock.jpg",
+			"published": "1917",
+			"note": "Published in the United States in 1917"
+		},
+		{
+			"kind": "media",
+			"title": "Deaths of Army nurses overseas by month, 1918",
+			"container": "Chart drawn for kloom from The Medical Department of the United States Army in the World War, vol. 13, part 2, p. 350",
+			"url": "https://archive.org/details/WW1ArmyMedDeptHistV13",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "deaths-1918.svg"
+		}
+	]
+}

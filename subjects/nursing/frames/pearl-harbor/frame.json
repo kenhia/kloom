@@ -1,0 +1,278 @@
+{
+	"id": "pearl-harbor",
+	"topic": "Navy nurses at Pearl Harbor",
+	"position": {
+		"label": "1941",
+		"sort": 1941
+	},
+	"scene": {
+		"headline": "Most of the wounded were",
+		"accent": "BURNED.",
+		"palette": "dressblue",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NAVAL HOSPITAL PEARL HARBOR · USS SOLACE (AH-5)",
+			"CHIEF NURSES GERTRUDE ARNEST AND GRACE LALLY · TANNIC ACID · PLASMA"
+		],
+		"counter": {
+			"value": "960",
+			"label": "patients in the Naval Hospital by midnight on 7 December"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/fractionation",
+			"why": "The concentrated albumin that Cohn's fractionation made was flown to Pearl Harbor, where Isidor Ravdin gave it to seven badly burned men ten days after the attack."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Telephone interview with CAPT Ruth A. Erickson (1913–2008), NC, USN (Ret.), World War II nurse and later tenth Director of the Navy Nurse Corps",
+			"authors": [
+				{
+					"family": "Erickson",
+					"given": "Ruth A."
+				}
+			],
+			"publisher": "US Navy Bureau of Medicine and Surgery",
+			"published": "1994",
+			"url": "https://archive.org/details/erickson-wwii-pearl-harbor-nurse-corps-director",
+			"accessed": "2026-10-01",
+			"note": "Her telling, to Jan K. Herman in March and April 1994, of 7 December at the Naval Hospital; an excerpt is on the Naval History and Heritage Command's site"
+		},
+		{
+			"kind": "web",
+			"title": "Pearl Harbor Attack: LT Ruth Erickson",
+			"authors": [
+				{
+					"family": "Erickson",
+					"given": "Ruth A."
+				}
+			],
+			"container": "Oral Histories, World War II",
+			"publisher": "Naval History and Heritage Command",
+			"published": "2015-09-21",
+			"url": "https://www.history.navy.mil/research/library/oral-histories/wwii/pearl-harbor/pearl-harbor-attack-lt-erickson.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Telephone interview with Rosella Nesgis Asbelle (1915–2012), Navy nurse at Pearl Harbor on 7 December 1941",
+			"authors": [
+				{
+					"family": "Nesgis Asbelle",
+					"given": "Rosella"
+				}
+			],
+			"publisher": "US Navy Bureau of Medicine and Surgery",
+			"published": "2002-06-13",
+			"url": "https://archive.org/details/nesgis-wwii-nurse-pearl-harbor",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The History of the Medical Department of the United States Navy in World War II, vol. 1: A Narrative and Pictorial Volume",
+			"number": "NAVMED P-5031",
+			"authors": [
+				{
+					"name": "US Navy Bureau of Medicine and Surgery"
+				}
+			],
+			"publisher": "US Navy Bureau of Medicine and Surgery",
+			"place": "Washington, DC",
+			"published": "1953",
+			"url": "https://archive.org/details/HistoryOfTheMedicalDeptInWWIIV1",
+			"accessed": "2026-10-01",
+			"note": "Pearl Harbor, by Joseph L. Schwartz, pp. 63–65; the abandonment of tannic acid, p. 244"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Solace in Action",
+			"authors": [
+				{
+					"family": "Eckert",
+					"given": "George A."
+				},
+				{
+					"family": "Mader",
+					"given": "James W."
+				}
+			],
+			"container": "United States Naval Medical Bulletin",
+			"volume": "40",
+			"pages": "552–557",
+			"published": "1942",
+			"url": "https://archive.org/details/NavalMedicalBulletin401942",
+			"accessed": "2026-10-01",
+			"note": "The ship's admissions and deaths, and its routine for burns, p. 555"
+		},
+		{
+			"kind": "article",
+			"title": "Some Observations on the Casualties at Pearl Harbor",
+			"authors": [
+				{
+					"family": "Ravdin",
+					"given": "I. S."
+				},
+				{
+					"family": "Long",
+					"given": "Perrin H."
+				}
+			],
+			"container": "United States Naval Medical Bulletin",
+			"volume": "40",
+			"pages": "353–358",
+			"published": "1942",
+			"url": "https://archive.org/details/NavalMedicalBulletin401942",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Navy Medicine at Pearl Harbor",
+			"authors": [
+				{
+					"family": "Herman",
+					"given": "Jan K."
+				}
+			],
+			"container": "Navy Medicine",
+			"volume": "82",
+			"issue": "6",
+			"pages": "11–18",
+			"published": "1991-11",
+			"url": "https://archive.org/details/NavyMedicineVol.82No.6November-december1991",
+			"accessed": "2026-10-01",
+			"note": "Signed with the editor's initials, JKH"
+		},
+		{
+			"kind": "book",
+			"title": "Blood Program in World War II",
+			"authors": [
+				{
+					"family": "Kendrick",
+					"given": "Douglas B."
+				}
+			],
+			"container": "Medical Department, United States Army in World War II",
+			"publisher": "Office of the Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://apps.dtic.mil/sti/citations/ADA286756",
+			"accessed": "2026-10-01",
+			"note": "Ravdin's albumin at Pearl Harbor and the hospital's 40 units of dried plasma, pp. 338–339. Read in the Internet Archive's scan of DTIC ADA286756"
+		},
+		{
+			"kind": "report",
+			"title": "The Army Nurse Corps: A Commemoration of World War II Service",
+			"number": "CMH Pub 72-14",
+			"authors": [
+				{
+					"family": "Bellafaire",
+					"given": "Judith A."
+				}
+			],
+			"publisher": "US Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1993",
+			"url": "https://archive.org/details/ArmyNurseCorps",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Tannic acid as a topical agent in burns: historical considerations and implications for new developments",
+			"authors": [
+				{
+					"family": "Hupkens",
+					"given": "P."
+				},
+				{
+					"family": "Boxma",
+					"given": "H."
+				},
+				{
+					"family": "Dokter",
+					"given": "J."
+				}
+			],
+			"container": "Burns",
+			"volume": "21",
+			"issue": "1",
+			"pages": "57–61",
+			"published": "1995-02",
+			"doi": "10.1016/0305-4179(95)90784-w",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Solace II (AH-5), 1941–1946",
+			"container": "Dictionary of American Naval Fighting Ships",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/s/solace-ii.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Attack on Pearl Harbor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Attack_on_Pearl_Harbor&oldid=1375746996",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "USS Solace (AH-5)",
+			"url": "https://en.wikipedia.org/w/index.php?title=USS_Solace_(AH-5)&oldid=1377862793",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Annie Fox (nurse)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Annie_Fox_(nurse)&oldid=1354444242",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-16"
+		},
+		{
+			"kind": "media",
+			"title": "USS Solace (AH-5) in 1941",
+			"url": "https://commons.wikimedia.org/wiki/File:USS_Solace_(AH-5)_in_1941.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "solace-1941.jpg",
+			"authors": [
+				{
+					"name": "US Navy"
+				}
+			],
+			"container": "Official US Navy photograph 19-N-26324",
+			"published": "1941",
+			"circa": true
+		}
+	]
+}
