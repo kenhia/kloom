@@ -1,0 +1,193 @@
+{
+	"id": "vietnam-nurses",
+	"topic": "Nurses in Vietnam",
+	"position": {
+		"label": "1965–73",
+		"sort": 1965
+	},
+	"scene": {
+		"headline": "We carried the war",
+		"accent": "HOME.",
+		"palette": "olive",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CU CHI · CHU LAI · NHA TRANG · THE EVACUATION HOSPITALS",
+			"ARMY NURSE CORPS · DUST-OFF · 1ST LT. SHARON LANE"
+		],
+		"counter": {
+			"value": "900",
+			"label": "Army nurses in Vietnam at the peak, January 1969"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Medical Support of the U.S. Army in Vietnam, 1965–1970",
+			"authors": [
+				{
+					"family": "Neel",
+					"given": "Spurgeon"
+				}
+			],
+			"container": "Vietnam Studies",
+			"publisher": "Department of the Army",
+			"place": "Washington, DC",
+			"published": "1973",
+			"url": "https://achh.army.mil/history/book-vietnam-medicalsupport-default/",
+			"accessed": "2026-10-01",
+			"note": "Survival statistics, pp. 51–55; evacuation, pp. 70–71; the Nursing Service, pp. 143–146"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Army Medical Department Activities Report, 1 January 1970 – 15 November 1970",
+			"authors": [
+				{
+					"name": "Headquarters, 12th Evacuation Hospital (SMBL)"
+				}
+			],
+			"publisher": "12th Evacuation Hospital (SMBL)",
+			"published": "1970",
+			"url": "https://achh.army.mil/history/book-vietnam-12evacarjannov70/",
+			"accessed": "2026-10-01",
+			"note": "The emergency room, the operating suite and the Nursing Service"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Highlights in the History of the Army Nurse Corps",
+			"editors": [
+				{
+					"family": "Feller",
+					"given": "Carolyn M."
+				},
+				{
+					"family": "Moore",
+					"given": "Constance J."
+				}
+			],
+			"publisher": "U.S. Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1996",
+			"number": "CMH Pub 85-1",
+			"url": "https://archive.org/details/HighlightsInTheHistoryOfTheArmyNurseCorps",
+			"accessed": "2026-10-01",
+			"note": "Vietnam, 1962–73, and the nurses who died there"
+		},
+		{
+			"kind": "book",
+			"title": "Emergency War Surgery: First United States Revision of the Emergency War Surgery NATO Handbook",
+			"editors": [
+				{
+					"name": "Thomas J. Whelan Jr."
+				}
+			],
+			"publisher": "United States Department of Defense",
+			"place": "Washington, DC",
+			"published": "1975",
+			"url": "https://archive.org/details/DTIC_ADA305002",
+			"accessed": "2026-10-01",
+			"note": "The triage and resuscitation facility, pp. 95–97; sorting of casualties, pp. 153–158"
+		},
+		{
+			"kind": "article",
+			"title": "Prevalence of Posttraumatic Stress Disorder in Vietnam-Era Women Veterans: The Health of Vietnam-Era Women's Study (HealthVIEWS)",
+			"authors": [
+				{
+					"family": "Magruder",
+					"given": "K."
+				},
+				{
+					"family": "Serpi",
+					"given": "T."
+				},
+				{
+					"family": "Kimerling",
+					"given": "R."
+				},
+				{
+					"family": "Kilbourne",
+					"given": "A. M."
+				},
+				{
+					"family": "Collins",
+					"given": "J. F."
+				},
+				{
+					"family": "Cypel",
+					"given": "Y."
+				},
+				{
+					"family": "Frayne",
+					"given": "S. M."
+				}
+			],
+			"etAl": true,
+			"container": "JAMA Psychiatry",
+			"volume": "72",
+			"issue": "11",
+			"pages": "1127–1134",
+			"published": "2015",
+			"doi": "10.1001/jamapsychiatry.2015.1786",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "The History of the Navy Nurse Corps",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sharon Ann Lane",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sharon_Ann_Lane&oldid=1373681405",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vietnam Women's Memorial",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vietnam_Women's_Memorial&oldid=1373681276",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "media",
+			"title": "1st Lt. Sharon Lane of the United States Army Nurse Corps",
+			"url": "https://commons.wikimedia.org/wiki/File:SharonLane.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "sharon-lane.jpg",
+			"authors": [
+				{
+					"name": "United States Army"
+				}
+			],
+			"container": "Vietnam Veterans Memorial Fund, Wall of Faces",
+			"published": "1968"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/vietnam-blood",
+			"why": "The 12th Evacuation Hospital transfused 11,097 units of whole blood in 1970, and the blood frame follows that blood from donor centers in the United States through Camp Zama to the evacuation hospitals."
+		}
+	]
+}
