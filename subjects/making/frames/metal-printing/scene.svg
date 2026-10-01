@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M34 70 L34 262"/>
+		<path pathLength="1" d="M238 70 L238 262"/>
+		<path pathLength="1" d="M42 112 L230 112 M42 122 L230 122"/>
+		<path pathLength="1" d="M222 108 L230 112 L222 116 M222 118 L230 122 L222 126"/>
+		<path pathLength="1" d="M136 26 L88 150"/>
+		<path pathLength="1" d="M136 26 L200 150"/>
+		<path pathLength="1" d="M34 156 L238 156"/>
+		<path pathLength="1" d="M34 162 L238 162"/>
+		<path pathLength="1" d="M34 168 L238 168"/>
+		<path pathLength="1" d="M34 174 L238 174"/>
+		<path pathLength="1" d="M34 180 L238 180"/>
+		<path pathLength="1" d="M34 186 L238 186"/>
+		<path pathLength="1" d="M34 192 L238 192"/>
+		<path pathLength="1" d="M34 198 L238 198"/>
+		<path pathLength="1" d="M34 204 L238 204"/>
+		<path pathLength="1" d="M34 210 L238 210"/>
+		<path pathLength="1" d="M34 216 L238 216"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M36 222 L236 222 L236 252 L36 252 Z"/>
+		<path pathLength="1" d="M70 222 L70 150 L210 150 L210 222 L186 222 L186 180 L94 180 L94 222 Z"/>
+		<path pathLength="1" d="M136 26 L164 150"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M100 222 L100 180 M109 222 L109 180 M118 222 L118 180 M127 222 L127 180 M136 222 L136 180 M145 222 L145 180 M154 222 L154 180 M163 222 L163 180 M172 222 L172 180 M181 222 L181 180"/>
+		<path pathLength="1" d="M171 150 L170.9 150.8 L170.5 151.5 L169.8 152.2 L168.9 152.8 L167.9 153.3 L166.7 153.7 L165.4 153.9 L164 154 L162.6 153.9 L161.3 153.7 L160.1 153.3 L159.1 152.8 L158.2 152.2 L157.5 151.5 L157.1 150.8 L157 150"/>
+		<path pathLength="1" d="M44 120 L56 120 L56 148 L50 150 L44 148 Z"/>
+		<path pathLength="1" d="M126 26 a10 3 0 1 0 20 0 a10 3 0 1 0 -20 0"/>
+		<path pathLength="1" d="M268 164.7 L273 165.3 L278 165.8 L283 166.3 L288 166.8 L293 167.4 L298 167.9 L303 168.4 L308 168.9 L313 169.5 L318 170 L323 169.5 L328 168.9 L333 168.4 L338 167.9 L343 167.4 L348 166.8 L353 166.3 L358 165.8 L363 165.3 L368 164.7"/>
+		<path pathLength="1" d="M268 164.7 L276.3 203.9"/>
+		<path pathLength="1" d="M368 164.7 L359.7 203.9"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M268 212 L268 170 L368 170 L368 212"/>
+		<path pathLength="1" d="M256 212 L380 212"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="152" y="29" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LASER</text>
+		<text x="136" y="104" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARGON</text>
+		<text x="140" y="268" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BUILD PLATE</text>
+		<text x="318" y="236" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CUT FREE, IT CURLS</text>
+		<text x="174" y="142" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MELT POOL</text>
+	</g>
+</svg>

@@ -1,0 +1,9 @@
+{
+	"id": "selective-laser-melting",
+	"wikidata": "Q2267983",
+	"name": "Selective laser melting",
+	"aliases": ["laser powder bed fusion", "direct metal laser sintering", "SLM", "DMLS"],
+	"kind": "idea",
+	"description": "3D printing of metal by melting each layer of a powder bed with a laser, in an inert gas, into a fully dense part.",
+	"home": "making/metal-printing"
+}

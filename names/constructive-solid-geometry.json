@@ -1,0 +1,9 @@
+{
+	"id": "constructive-solid-geometry",
+	"wikidata": "Q1128371",
+	"name": "Constructive solid geometry",
+	"aliases": ["CSG"],
+	"kind": "idea",
+	"description": "A way of describing a solid as simple shapes combined by union, difference and intersection, used in computer-aided design and graphics.",
+	"home": "making/openscad"
+}

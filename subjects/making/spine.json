@@ -17,6 +17,12 @@
 			"title": "Machines that make machines",
 			"labelKind": "date",
 			"frames": ["wilkinson-boring", "maudslay", "whitworth"]
+		},
+		{
+			"id": "additive",
+			"title": "Layer by layer",
+			"labelKind": "date",
+			"frames": ["reprap", "openscad", "metal-printing"]
 		}
 	]
 }

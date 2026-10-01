@@ -1,0 +1,245 @@
+{
+	"id": "metal-printing",
+	"topic": "Printing in metal",
+	"position": {
+		"label": "2015",
+		"sort": 2015
+	},
+	"scene": {
+		"headline": "We printed parts that",
+		"accent": "FLY.",
+		"palette": "resin",
+		"illustration": "scene.svg",
+		"metadata": [
+			"AUBURN, ALABAMA · GE AVIATION · CFM LEAP",
+			"LASER POWDER BED FUSION · ARGON · NICKEL ALLOY"
+		],
+		"counter": {
+			"value": "100,000",
+			"label": "printed fuel nozzle tips shipped from Auburn by 2021"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "An Epiphany of Disruption: GE Additive Chief Explains How 3D Printing Will Upend Manufacturing",
+			"authors": [
+				{
+					"family": "Kellner",
+					"given": "Tomas"
+				}
+			],
+			"container": "GE Reports",
+			"publisher": "General Electric",
+			"url": "https://www.ge.com/news/reports/epiphany-disruption-ge-additive-chief-explains-3d-printing-will-upend-manufacturing",
+			"published": "2017-11-13",
+			"accessed": "2026-09-30",
+			"note": "Ehteshami's telling of the nozzle tip and Greg Morris"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "GE Aviation Reaches New Milestones in Advanced Manufacturing for More Fuel-Efficient Jet Engines",
+			"container": "GE Aerospace News",
+			"publisher": "GE Aerospace",
+			"url": "https://www.geaerospace.com/news/press-releases/other-news-information/ge-aviation-reaches-new-milestones-advanced-manufacturing",
+			"published": "2021-08-11",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Manufacturing Milestone: 30,000 Additive Fuel Nozzles",
+			"container": "GE Aerospace News",
+			"publisher": "GE Aerospace",
+			"url": "https://www.geaerospace.com/news/articles/manufacturing/manufacturing-milestone-30000-additive-fuel-nozzles",
+			"published": "2018-10-04",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Verfahren zur Herstellung eines Formkörpers (DE 19649865 C1)",
+			"authors": [
+				{
+					"family": "Meiners",
+					"given": "Wilhelm"
+				},
+				{
+					"family": "Wissenbach",
+					"given": "Konrad"
+				},
+				{
+					"family": "Gasser",
+					"given": "Andres"
+				}
+			],
+			"container": "Google Patents",
+			"publisher": "Fraunhofer-Gesellschaft",
+			"url": "https://patents.google.com/patent/DE19649865C1/en",
+			"published": "1998-02-12",
+			"accessed": "2026-09-30",
+			"note": "Filed 2 December 1996"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Residual Stresses in Selective Laser Sintering and Selective Laser Melting",
+			"authors": [
+				{
+					"family": "Mercelis",
+					"given": "Peter"
+				},
+				{
+					"family": "Kruth",
+					"given": "Jean-Pierre"
+				}
+			],
+			"container": "Rapid Prototyping Journal",
+			"volume": "12",
+			"issue": "5",
+			"pages": "254–265",
+			"published": "2006",
+			"doi": "10.1108/13552540610707013",
+			"url": "https://lirias.kuleuven.be/handle/123456789/155110",
+			"accessed": "2026-09-30",
+			"note": "The two mechanisms, the stress on and off the plate, and scan patterns"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Assessment of Residual Stresses in Laser Powder Bed Fusion Manufactured IN 625",
+			"authors": [
+				{
+					"family": "Paraschiv",
+					"given": "Alexandru"
+				},
+				{
+					"family": "Matache",
+					"given": "Gheorghe"
+				},
+				{
+					"family": "Vladut",
+					"given": "Mihai"
+				}
+			],
+			"container": "Materials",
+			"volume": "17",
+			"issue": "2",
+			"pages": "413",
+			"published": "2024",
+			"doi": "10.3390/ma17020413",
+			"accessed": "2026-09-30",
+			"note": "The build settings in the table and the 870 °C stress relief"
+		},
+		{
+			"kind": "report",
+			"title": "Standard for Additively Manufactured Spaceflight Hardware by Laser Powder Bed Fusion in Metals",
+			"number": "MSFC-STD-3716",
+			"publisher": "NASA Marshall Space Flight Center",
+			"place": "Huntsville, AL",
+			"published": "2017-10-18",
+			"url": "https://www.nasa.gov/wp-content/uploads/2015/04/msfcstd3716baseline.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "SpaceX Launches 3D-Printed Part to Space, Creates Printed Engine Chamber",
+			"container": "SpaceX",
+			"publisher": "SpaceX",
+			"url": "http://www.spacex.com/news/2014/07/31/spacex-launches-3d-printed-part-space-creates-printed-engine-chamber-crewed",
+			"published": "2014-07-31",
+			"accessed": "2026-09-30",
+			"note": "Read in the Wayback Machine's copy"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Selective laser melting",
+			"url": "https://en.wikipedia.org/w/index.php?title=Selective_laser_melting&oldid=1370698942",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "CFM International LEAP",
+			"url": "https://en.wikipedia.org/w/index.php?title=CFM_International_LEAP&oldid=1367740379",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "SuperDraco",
+			"url": "https://en.wikipedia.org/w/index.php?title=SuperDraco&oldid=1305216817",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rutherford (rocket engine)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rutherford_(rocket_engine)&oldid=1375176269",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "media",
+			"title": "Selective laser melting and the melt pool, in section",
+			"url": "https://commons.wikimedia.org/wiki/File:Selective_laser_melting.jpg",
+			"accessed": "2026-09-30",
+			"container": "Tan et al., Science and Technology of Advanced Materials 19 (2018), via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "slm-tan.jpg",
+			"authors": [
+				{
+					"family": "Tan",
+					"given": "Chaolin"
+				}
+			],
+			"etAl": true,
+			"published": "2018"
+		},
+		{
+			"kind": "media",
+			"title": "SuperDraco engines in their printed housing, at the unveiling of Dragon 2, Hawthorne",
+			"url": "https://commons.wikimedia.org/wiki/File:SuperDraco_rocket_engines_at_SpaceX_Hawthorne_facility_(16789102495).jpg",
+			"accessed": "2026-09-30",
+			"container": "SpaceX, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "superdraco.jpg",
+			"authors": [
+				{
+					"name": "SpaceX"
+				}
+			],
+			"published": "2014-05-29"
+		}
+	]
+}
