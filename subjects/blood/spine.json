@@ -5,6 +5,12 @@
 			"title": "What we believed",
 			"labelKind": "date",
 			"frames": ["humours", "galen", "ibn-al-nafis"]
+		},
+		{
+			"id": "dedication-seg",
+			"title": "Dedication",
+			"labelKind": "category",
+			"frames": ["dedication"]
 		}
 	]
 }

@@ -1,0 +1,42 @@
+{
+	"id": "dedication",
+	"topic": "Dedication to Colonel Joel T. Hiatt",
+	"position": {
+		"label": "Dedication"
+	},
+	"scene": {
+		"headline": "Dedicated to Colonel Joel T. Hiatt,",
+		"accent": "USA.",
+		"palette": "maroon",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MEDICAL SERVICE CORPS · UNITED STATES ARMY",
+			"BLOOD BANK OFFICER · COMMANDER, USARIEM"
+		]
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Medical Service Corps branch insignia (image 13862)",
+			"publisher": "The Institute of Heraldry, U.S. Army",
+			"url": "https://tioh.army.mil/Handlers/ImageHandler.ashx?id=13862&size=original",
+			"accessed": "2026-10-01",
+			"note": "Traced for the plate, its line tones only"
+		},
+		{
+			"kind": "web",
+			"title": "US-O6 insignia (Colonel)",
+			"authors": [
+				{
+					"name": "U.S. Defense Logistics Agency"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"url": "https://commons.wikimedia.org/wiki/File:US-O6_insignia.svg",
+			"published": "1996-12-20",
+			"accessed": "2026-10-01",
+			"note": "Public domain; the eagle in the plate"
+		}
+	]
+}
