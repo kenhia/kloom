@@ -1,0 +1,160 @@
+{
+	"id": "asepsis",
+	"topic": "Asepsis and the steam sterilizer",
+	"position": {
+		"label": "1886–91",
+		"sort": 1886
+	},
+	"scene": {
+		"headline": "We kept the germs",
+		"accent": "OUT.",
+		"palette": "gown",
+		"illustration": "scene.svg",
+		"metadata": ["BERLIN · ZIEGELSTRASSE CLINIC", "ERNST VON BERGMANN · CURT SCHIMMELBUSCH"],
+		"counter": {
+			"value": "100 °C",
+			"label": "flowing steam, half an hour, for every dressing"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Aseptic Treatment of Wounds",
+			"authors": [
+				{
+					"family": "Schimmelbusch",
+					"given": "Curt"
+				}
+			],
+			"translators": [
+				{
+					"family": "Rake",
+					"given": "Alfred Theodore"
+				}
+			],
+			"publisher": "H. K. Lewis",
+			"place": "London",
+			"published": "1894",
+			"url": "https://archive.org/details/aseptictreatment00schi",
+			"accessed": "2026-10-01",
+			"note": "Rake's preface on aseptic and antiseptic surgery; boiling, pp. 70–72; steam and the dressing boxes, pp. 91–105; Bergmann's breast amputation, pp. 177–182"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Asepsis and Bacteriology: A Realignment of Surgery and Laboratory Science",
+			"authors": [
+				{
+					"family": "Schlich",
+					"given": "Thomas"
+				}
+			],
+			"container": "Medical History",
+			"volume": "56",
+			"issue": "3",
+			"pages": "308–334",
+			"published": "2012-07",
+			"doi": "10.1017/mdh.2012.22",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "The Operating Room: A Primer for Pupil Nurses",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Amy Armour"
+				}
+			],
+			"publisher": "W. B. Saunders",
+			"place": "Philadelphia",
+			"published": "1916",
+			"url": "https://archive.org/details/operatingroompri00smit",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "The sterilizing room and the packing of drums, pp. 105–107"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Asepsis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Asepsis&oldid=1337709363",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Autoclave",
+			"url": "https://en.wikipedia.org/w/index.php?title=Autoclave&oldid=1376546807",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Chamberland",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Chamberland&oldid=1371979272",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Curt Schimmelbusch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Curt_Schimmelbusch&oldid=1348366948",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ernst von Bergmann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ernst_von_Bergmann&oldid=1371992144",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Sterilizer for dressings with the disinfecting chamber open; a box for the dressings is being introduced (fig. 10)",
+			"url": "https://archive.org/details/aseptictreatment00schi/page/96/",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "schimmelbusch-sterilizer.jpg",
+			"container": "Schimmelbusch, The Aseptic Treatment of Wounds (London: H. K. Lewis, 1894), p. 96",
+			"published": "1894",
+			"note": "Published in London in 1894"
+		}
+	]
+}

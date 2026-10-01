@@ -32,7 +32,15 @@
 			"id": "theatre",
 			"title": "The operating room",
 			"labelKind": "date",
-			"frames": ["ether", "semmelweis", "lister"]
+			"frames": [
+				"ether",
+				"semmelweis",
+				"lister",
+				"asepsis",
+				"hampton-gloves",
+				"nurse-anesthetist",
+				"aorn"
+			]
 		},
 		{
 			"id": "dedication-seg",
