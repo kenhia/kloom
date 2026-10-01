@@ -204,3 +204,24 @@ Then four corrections:
 None filed. All eleven are done, as Ken asked. Nursing (korg 3471) is the
 third run of the tuned skill, and reports its findings in a new feedback
 item.
+
+## Deployed
+
+2026-10-01, by `just deploy` (the `recipe: deploy` in `.sprint-deploy`),
+from merged `main` at `9ecc6bd`, to the kloom service on kai. The
+service's content clone is at the same commit.
+
+- `just verify` passed all eight door checks: the tailnet door refuses
+  anonymous writes and reader-data reads, and the ssh door lets its reader
+  through.
+- **The sprint's work, live on the ssh door (:4891), each 200:**
+  - `/blood/early-transfusion` renders Pepys as "Diary entry, November
+    14, 1666" (the new `diary` kind);
+  - `/blood/asbp` renders the handbook's "(copy at generalstaff.org)"
+    (`mirror`);
+  - `/blood/bernstein` carries the restored von Dungern and Hirszfeld 1910
+    (a `citedIn` with no link);
+  - `/blood/hla` renders "Read in its first page" (`read`);
+  - `/blood/gift-relationship` links Arrow at jstor.org/stable/2265097;
+  - `/chemistry/pcr` still renders "Read in its abstract", migrated from
+    `abstractOnly`.
