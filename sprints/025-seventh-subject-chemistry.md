@@ -284,3 +284,20 @@ revision. What recurred most:
 - **`names.py add --check`** says what it would write; **`wiki_cite`**
   names a title cited as another article.
 - **Twenty shared names** widened or homed.
+
+## Deployed
+
+2026-09-30, by `just deploy` (the `recipe: deploy` in `.sprint-deploy`),
+from merged `main` at `f92aa30`, to the kloom service on kai. The
+service's content clone is at the same commit.
+
+- `just verify` passed all eight door checks: the tailnet door refuses
+  anonymous writes and reader-data reads, and the ssh door lets its reader
+  through.
+- **The sprint's work, live on both doors (:4890 and :4891), each 200:**
+  - `/chemistry`;
+  - `/chemistry/clay-recipes` (main spine), whose page carries "CLAY.";
+  - `/chemistry/aspirin` (a trail frame), whose page carries "WILLOW.";
+  - `/media/chemistry/copper-smelting/plocnik-axes.jpg`;
+  - `/api/start/chemistry` (the start screen's look, with the furnace
+    palette).
