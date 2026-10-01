@@ -14,7 +14,7 @@ His first attempt, in March 1865, failed, from "improper management", he wrote. 
 | Over it       | A sheet of block tin, or tinfoil strengthened with adhesive plaster, or the sheet lead that lines tea chests, to stop the acid escaping |
 | Changed       | The paste daily, as long as any discharge continued; the rag never                                                                      |
 
-For cuts made at operation, he said in Dublin, "a solution of carbolic acid in twenty parts of water", 5 per cent, would kill any germs that fell on the wound. For his abscess dressing, a putty spread on tin, a fresh supply was made daily, he wrote, "by some convalescent in a hospital, or in private practice by the nurse or a friend of the patient". The plate draws the dressing in section over a broken tibia.
+For cuts made at operation, he said in Dublin, "a solution of carbolic acid in twenty parts of water", 5 percent, would kill any germs that fell on the wound. For his abscess dressing, a putty spread on tin, a fresh supply was made daily, he wrote, "by some convalescent in a hospital, or in private practice by the nurse or a friend of the patient". The plate draws the dressing in section over a broken tibia.
 
 ## The numbers
 

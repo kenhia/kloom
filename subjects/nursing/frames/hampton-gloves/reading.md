@@ -20,7 +20,7 @@ The water was as hot as could be borne and changed at least ten times. Halsted's
 
 ## The gloves
 
-Robb gave the routine for them too. The gloves, bought "of the Goodyear Rubber Co., New York", were boiled in a 1 per cent soda solution, kept in bichloride 1 in 1,000 until wanted and rinsed in sterile water. They were worn loose, with long wristlets to cover the forearm, and put on wet: the glove was filled with solution until its fingers stood out, the hand slid in and held up, and the solution run out. After the day's work they were washed, hung to dry and boiled again before the next. Later tellers add that Halsted had plaster casts made of her hands, which his own account does not say.
+Robb gave the routine for them too. The gloves, bought "of the Goodyear Rubber Co., New York", were boiled in a 1 percent soda solution, kept in bichloride 1 in 1,000 until wanted and rinsed in sterile water. They were worn loose, with long wristlets to cover the forearm, and put on wet: the glove was filled with solution until its fingers stood out, the hand slid in and held up, and the solution run out. After the day's work they were washed, hung to dry and boiled again before the next. Later tellers add that Halsted had plaster casts made of her hands, which his own account does not say.
 
 Caroline Hampton was born in 1861 near Columbia, South Carolina, the niece of the Confederate general **[Wade Hampton III](kloom:e/wade-hampton-iii)**. Her mother died when she was a baby and her father was killed at Brandy Station in 1863. Raised by three aunts behind the ruins of a plantation house that Sherman's troops had burned, she went north in 1885, against her family's wishes, to train as a nurse. She married Halsted on June 4, 1890, and left the hospital; Wikipedia says that a married woman was required to.
 
@@ -28,15 +28,15 @@ Caroline Hampton was born in 1861 near Columbia, South Carolina, the niece of th
 
 In the autumn of 1890 the assistant who passed the instruments got gloves too, to protect his hands from the carbolic acid the instruments lay in. For years the operator wore them only to open a joint. **[Joseph Colt Bloodgood](kloom:e/joseph-colt-bloodgood)**, Halsted's resident, began wearing them for every clean operation in December 1896, and from February 1897 every assistant at a hernia operation wore them, and the operator with few exceptions. His report of 1899 counted the wounds that suppurated:
 
-![Bar chart of the share of hernia wounds that suppurated: closed with silk, 24.1 per cent; with silver wire, 9.6 per cent; with silver wire and every hand gloved, 1.8 per cent](suppuration.svg)
+![Bar chart of the share of hernia wounds that suppurated: closed with silk, 24.1 percent; with silver wire, 9.6 percent; with silver wire and every hand gloved, 1.8 percent](suppuration.svg)
 
-| Hernia wounds, 1889–1899                    | Cases | Suppurated | Per cent |
-| ------------------------------------------- | ----- | ---------- | -------- |
-| Closed with silk; operator ungloved         | 116   | 28         | 24.1     |
-| Closed with silver wire; operator ungloved  | 104   | 10         | 9.6      |
-| Silver wire; operator and assistants gloved | 226   | 4          | 1.8      |
+| Hernia wounds, 1889–1899                    | Cases | Suppurated | Percent |
+| ------------------------------------------- | ----- | ---------- | ------- |
+| Closed with silk; operator ungloved         | 116   | 28         | 24.1    |
+| Closed with silver wire; operator ungloved  | 104   | 10         | 9.6     |
+| Silver wire; operator and assistants gloved | 226   | 4          | 1.8     |
 
-The change of stitch mattered as well as the gloves, so the fair comparison is the last two rows, with the same wire: about one wound in ten against one in fifty-six, by our arithmetic. The often-quoted fall from 17 per cent to under 2 pools the silk cases with the wire. Halsted wondered later how they "could have been so blind" for four or five years, and by 1913 he wrote that rubber gloves "must, of course, be worn by all concerned in the operation".
+The change of stitch mattered as well as the gloves, so the fair comparison is the last two rows, with the same wire: about one wound in ten against one in fifty-six, by our arithmetic. The often-quoted fall from 17 percent to under 2 pools the silk cases with the wire. Halsted wondered later how they "could have been so blind" for four or five years, and by 1913 he wrote that rubber gloves "must, of course, be worn by all concerned in the operation".
 
 ![Halsted's operating team in the new surgical amphitheater in 1904, in white gowns and caps around a draped patient; one of the team, at the right, wears dark rubber gloves](halsted-1904.jpg)
 

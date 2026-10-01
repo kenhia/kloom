@@ -4,11 +4,11 @@ On Sunday 9 January 1785, at [Hallowell](kloom:e/hallowell-maine) on the **[Kenn
 
 ## A delivery
 
-The diary records a birth in a few lines, and almost always in the same order. On 8 June 1787: "mrs Springer grew very ill about 1 O Clok ys morn. Calld her women and was Safe Deliverd at 11 of a fine Son. I left her Comfortable & returnd at 3 pm." The midwife was fetched, by horse, on foot or across the river by canoe or boat; the mother's women, her neighbours and kin, were called to the house; the hour of birth was noted; the midwife stayed until mother and child were settled, and came back to see them. Payment came later, often in goods: on 24 August 1787, after two deliveries in a night, "receivd 6/8" from each father, six shillings and eightpence. Her historian, **[Laurel Thatcher Ulrich](kloom:e/laurel-thatcher-ulrich)**, found that for 768 of the 814 deliveries entered in the diary Ballard gave no medical detail at all, and hinted at complications in only 46, or 5.6 per cent.
+The diary records a birth in a few lines, and almost always in the same order. On 8 June 1787: "mrs Springer grew very ill about 1 O Clok ys morn. Calld her women and was Safe Deliverd at 11 of a fine Son. I left her Comfortable & returnd at 3 pm." The midwife was fetched, by horse, on foot or across the river by canoe or boat; the mother's women, her neighbours and kin, were called to the house; the hour of birth was noted; the midwife stayed until mother and child were settled, and came back to see them. Payment came later, often in goods: on 24 August 1787, after two deliveries in a night, "receivd 6/8" from each father, six shillings and eightpence. Her historian, **[Laurel Thatcher Ulrich](kloom:e/laurel-thatcher-ulrich)**, found that for 768 of the 814 deliveries entered in the diary Ballard gave no medical detail at all, and hinted at complications in only 46, or 5.6 percent.
 
 ## Watching
 
-Births were only part of her work. Much of the rest was sickness, and its centre was the watch: sitting up through the night with someone very ill, often taking turns with other women. "Watcht" is the diary's own word, and "Sett up" another. In the [scarlet fever](kloom:e/scarlet-fever) epidemic that the diary calls the "Canker Rash", in the summer of 1787, she nursed one child of the Howards' through June:
+Births were only part of her work. Much of the rest was sickness, and its center was the watch: sitting up through the night with someone very ill, often taking turns with other women. "Watcht" is the diary's own word, and "Sett up" another. In the [scarlet fever](kloom:e/scarlet-fever) epidemic that the diary calls the "Canker Rash", in the summer of 1787, she nursed one child of the Howards' through June:
 
 | Date (1787) | The diary                                                                     |
 | ----------- | ----------------------------------------------------------------------------- |
@@ -32,7 +32,7 @@ Her counts give two totals. Her introduction speaks of "the 816 deliveries she p
 | Stillbirths per 100 live |     1.8 |        3.0 |
 | Mothers who died         |       5 |          5 |
 
-Ulrich warns that the difference is partly one of perception: a physician looked for anomalies, and by Farrington's time doctors used forceps, ergot and opiates in births Ballard would have called ordinary. The town's leading physician, Daniel Cony, presented a paper to the Massachusetts Medical Society on a delivery he performed in August 1787. It mentions no midwife; the diary shows that the mother was his own wife. In the year he presented it, by Ulrich's count, Ballard attended 60 per cent of the births in Hallowell.
+Ulrich warns that the difference is partly one of perception: a physician looked for anomalies, and by Farrington's time doctors used forceps, ergot and opiates in births Ballard would have called ordinary. The town's leading physician, Daniel Cony, presented a paper to the Massachusetts Medical Society on a delivery he performed in August 1787. It mentions no midwife; the diary shows that the mother was his own wife. In the year he presented it, by Ulrich's count, Ballard attended 60 percent of the births in Hallowell.
 
 ![Bar chart of maternal deaths per thousand births: Martha Ballard 6.1, two London lying-in hospitals of the mid-eighteenth century 27.5 and 21.5, a Dublin hospital 14.1, the United States in 1930 6.7 and in 1945 2.1](maternal-deaths.svg)
 

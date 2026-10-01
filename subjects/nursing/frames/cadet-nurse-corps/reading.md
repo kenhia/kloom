@@ -16,7 +16,7 @@ The Service's lawyers later advised that the pledge was "purely honorary" and bo
 | Junior cadet | 10–30  | Tuition, fees and uniforms                  | $20 a month                | 44 to 48 hours a week, classes included  |
 | Senior cadet | 31–36  | Nothing: the hospital she served paid       | at least $30, and her keep | full time, doing a graduate nurse's work |
 
-A senior cadet could stay in her own hospital or go where she was most needed. Most stayed, 73 per cent of them, but more than 6,000 served in Army hospitals, 1,025 in Navy hospitals, 7,521 in Veterans' Administration hospitals and 1,000 in the Indian Service's.
+A senior cadet could stay in her own hospital or go where she was most needed. Most stayed, 73 percent of them, but more than 6,000 served in Army hospitals, 1,025 in Navy hospitals, 7,521 in Veterans' Administration hospitals and 1,000 in the Indian Service's.
 
 ## Who was let in
 
@@ -36,6 +36,6 @@ The Corps' membership card never asked a cadet's race, so the rest is reconstruc
 | Fiscal year 1946, until 15 October 1945   | 28,220  |
 | Total                                     | 169,443 |
 
-Of those 169,443 cadets, in 1,125 of the country's 1,300 nursing schools, 124,065 graduated: about 73 per cent, by our arithmetic. (Wikipedia, from a later count, gives 179,294 enrolled; the graduates agree.) At its peak, on 15 September 1945, the Corps held 117,679 students, 84.5 per cent of all the student nurses in the country, and when Japan surrendered students were giving 80 per cent of the nursing in more than a thousand civilian hospitals. The program cost the government $160,326,237. The American Hospital Association credited the cadets with keeping civilian nursing from collapse in **[World War II](kloom:e/world-war-ii)**; Petry, in 1949, became the first woman to be an Assistant Surgeon General of the Service. Bolton went on to her next bill, for men.
+Of those 169,443 cadets, in 1,125 of the country's 1,300 nursing schools, 124,065 graduated: about 73 percent, by our arithmetic. (Wikipedia, from a later count, gives 179,294 enrolled; the graduates agree.) At its peak, on 15 September 1945, the Corps held 117,679 students, 84.5 percent of all the student nurses in the country, and when Japan surrendered students were giving 80 percent of the nursing in more than a thousand civilian hospitals. The program cost the government $160,326,237. The American Hospital Association credited the cadets with keeping civilian nursing from collapse in **[World War II](kloom:e/world-war-ii)**; Petry, in 1949, became the first woman to be an Assistant Surgeon General of the Service. Bolton went on to her next bill, for men.
 
 While the Corps filled the schools, the Army's own nurse corps was short of nurses and still held to a quota on Black ones, the story of the next frame.

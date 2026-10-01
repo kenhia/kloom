@@ -26,7 +26,7 @@ Men had nursed long before. The [Hospitallers](kloom:e/knights-hospitaller) of J
 
 But most schools took women only, and so did the nation's largest employer of nurses in war. The Army's Nurse Corps was created in 1901 as the "Nurse Corps (female)", and the act of 1918 that renamed it restricted appointments to women. Men were not commissioned in it until 1955, as the frame on men commissioned as nurses tells. The census shows the result:
 
-![Bar chart of men as a share of employed US registered nurses: 2.7 per cent in 1970, 4.1 in 1980, 5.7 in 1990, 7.6 in 2000, 8.9 in 2006, 9.6 in 2011 and 12.7 in 2025](men-share.svg)
+![Bar chart of men as a share of employed US registered nurses: 2.7 percent in 1970, 4.1 in 1980, 5.7 in 1990, 7.6 in 2000, 8.9 in 2006, 9.6 in 2011 and 12.7 in 2025](men-share.svg)
 
 | Year | Men, % of employed RNs | Source                                     |
 | ---- | ---------------------- | ------------------------------------------ |
@@ -38,6 +38,6 @@ But most schools took women only, and so did the nation's largest employer of nu
 | 2011 | 9.6                    | Census Bureau, American Community Survey   |
 | 2025 | 12.7                   | Bureau of Labor Statistics, annual average |
 
-As of 2025, the latest annual figures, the Bureau of Labor Statistics counted 3,528,000 employed registered nurses, 87.3 per cent of them women; its survey differs from the census, so the last step is not exactly comparable. Wikipedia's article on **[men in nursing](kloom:e/men-in-nursing)** gives fewer than 1 per cent in 1930. The assumption has outlived the rule: in 2016 Tolga Bolukbasi and his colleagues found that the [word2vec](kloom:e/word2vec) vectors, trained on Google News, answered "a father is to a doctor as a mother is to _x_" with _nurse_, and noted that the phrase "male nurse" was several times more frequent in the news than "female nurse": the man was the one who had to be named.
+As of 2025, the latest annual figures, the Bureau of Labor Statistics counted 3,528,000 employed registered nurses, 87.3 percent of them women; its survey differs from the census, so the last step is not exactly comparable. Wikipedia's article on **[men in nursing](kloom:e/men-in-nursing)** gives fewer than 1 percent in 1930. The assumption has outlived the rule: in 2016 Tolga Bolukbasi and his colleagues found that the [word2vec](kloom:e/word2vec) vectors, trained on Google News, answered "a father is to a doctor as a mother is to _x_" with _nurse_, and noted that the phrase "male nurse" was several times more frequent in the news than "female nurse": the man was the one who had to be named.
 
 The next frame returns to the women the schools kept out, and the association Black nurses built when they were shut out of their own.

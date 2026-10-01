@@ -20,7 +20,7 @@ The wounds that reached Rouen were often infected, and X-ray plates showed the b
 
 | Step | What was done                                                                                                     |
 | ---- | ----------------------------------------------------------------------------------------------------------------- |
-| 1    | The solution: Dakin's, sodium hypochlorite at 0.45 to 0.5 per cent; weaker does not act, stronger irritates       |
+| 1    | The solution: Dakin's, sodium hypochlorite at 0.45 to 0.5 percent; weaker does not act, stronger irritates        |
 | 2    | A one-litre flask on a wooden standard at the bed, 50 cm to 1 m above it, with a pinchcock on its tube            |
 | 3    | Red rubber tubes, 4 mm bore, closed at the end and pierced with small holes, laid into every recess of the wound  |
 | 4    | Every two hours, the nurse at the foot of the bed presses the pinchcock for a few seconds: 20 to 100 cc each time |

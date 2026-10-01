@@ -12,15 +12,15 @@ Then the burned came. The _Nevada_ had run aground on Hospital Point, and her me
 
 The Navy's medical history, published in 1953, counts the day this way:
 
-|                               | Naval Hospital                  | _Solace_ |
-| ----------------------------- | ------------------------------- | -------- |
-| Ready for casualties          | 08:15                           | 08:25    |
-| Admitted on 7 December        | 546, and 313 dead brought in    | 132      |
-| Treated and sent back to duty | more than 200                   | about 80 |
-| With significant burns        | about 60 per cent of admissions |          |
-| Patients at midnight          | 960                             |          |
+|                               | Naval Hospital                 | _Solace_ |
+| ----------------------------- | ------------------------------ | -------- |
+| Ready for casualties          | 08:15                          | 08:25    |
+| Admitted on 7 December        | 546, and 313 dead brought in   | 132      |
+| Treated and sent back to duty | more than 200                  | about 80 |
+| With significant burns        | about 60 percent of admissions |          |
+| Patients at midnight          | 960                            |          |
 
-The sources differ at the edges. _Solace_'s own doctors, writing in 1942, counted about 141 received aboard, over 70 per cent of them burned, and lost 26 in the first day, ten in the second and one in the third. The Navy's magazine in 1991 put the share of burns at the hospital at 47 per cent. Plasma was what ran short. The hospital had only 40 units of dried plasma, and the rest came wet, from Honolulu's civilian plasma bank. Ten days after the attack the surgeon Isidor Ravdin gave the new concentrated **[albumin](kloom:e/human-serum-albumin)**, rushed to Hawaii, to seven badly burned men, swollen and still losing plasma, some of them given too much salt solution; all seven improved.
+The sources differ at the edges. _Solace_'s own doctors, writing in 1942, counted about 141 received aboard, over 70 percent of them burned, and lost 26 in the first day, ten in the second and one in the third. The Navy's magazine in 1991 put the share of burns at the hospital at 47 percent. Plasma was what ran short. The hospital had only 40 units of dried plasma, and the rest came wet, from Honolulu's civilian plasma bank. Ten days after the attack the surgeon Isidor Ravdin gave the new concentrated **[albumin](kloom:e/human-serum-albumin)**, rushed to Hawaii, to seven badly burned men, swollen and still losing plasma, some of them given too much salt solution; all seven improved.
 
 The Army's 82 nurses in Hawaii took casualties at Tripler, Schofield Barracks and Hickam Field. At Tripler surgeons operated without gloves and nurses wore cleaning rags as masks. At Hickam the chief nurse, **[Annie Fox](kloom:e/annie-fox-nurse)**, became the first Army nurse to receive the Purple Heart, for her calm and leadership, before the rules changed and a Bronze Star replaced it.
 
