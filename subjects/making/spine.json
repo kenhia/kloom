@@ -16,7 +16,14 @@
 			"id": "machine-tools",
 			"title": "Machines that make machines",
 			"labelKind": "date",
-			"frames": ["wilkinson-boring", "maudslay", "whitworth"]
+			"frames": [
+				"wilkinson-boring",
+				"maudslay",
+				"whitworth",
+				"milling-machine",
+				"gauge-blocks",
+				"high-speed-steel"
+			]
 		},
 		{
 			"id": "additive",

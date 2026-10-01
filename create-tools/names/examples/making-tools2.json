@@ -1,0 +1,31 @@
+{
+	"making/milling-machine": [
+		["Milling", "milling-machining"],
+		["Eli Whitney", "eli-whitney"],
+		["Simeon North", "simeon-north"],
+		["Frederick W. Howe", "frederick-w-howe"],
+		["Brown & Sharpe", "brown-and-sharpe"],
+		["dividing head", "indexing-head"]
+	],
+	"making/gauge-blocks": [
+		["Carl Edvard Johansson", "carl-edvard-johansson"],
+		["Eskilstuna", "eskilstuna"],
+		["gauge block", "gauge-block"],
+		[
+			"International Bureau of Weights and Measures",
+			"international-bureau-of-weights-and-measures"
+		],
+		["inch", "inch"],
+		["Henry M. Leland", "henry-m-leland"],
+		["Henry Ford", "henry-ford"]
+	],
+	"making/high-speed-steel": [
+		["Bethlehem Steel", "bethlehem-steel"],
+		["Frederick Winslow Taylor", "frederick-winslow-taylor"],
+		["high-speed steel", "high-speed-steel"],
+		["Paris Exposition of 1900", "exposition-universelle-1900"],
+		["Midvale Steel", "midvale-steel"],
+		["scientific management", "scientific-management"],
+		["Robert Mushet", "robert-forester-mushet"]
+	]
+}
