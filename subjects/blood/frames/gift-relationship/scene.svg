@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M188 70 L192 70"/>
+		<path pathLength="1" d="M188 88 L192 88"/>
+		<path pathLength="1" d="M188 106 L192 106"/>
+		<path pathLength="1" d="M188 124 L192 124"/>
+		<path pathLength="1" d="M188 142 L192 142"/>
+		<path pathLength="1" d="M188 160 L192 160"/>
+		<path pathLength="1" d="M188 178 L192 178"/>
+		<path pathLength="1" d="M188 196 L192 196"/>
+		<path pathLength="1" d="M188 214 L192 214"/>
+		<path pathLength="1" d="M188 232 L192 232"/>
+		<path pathLength="1" d="M188 250 L192 250"/>
+		<path pathLength="1" d="M190 70 L190 250"/>
+		<path pathLength="1" d="M92 20 L92 286"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M134 46 L137.6 46.5 L141 47.9 L143.9 50.1 L146.1 53 L147.5 56.4 L148 60 L148 208 L147.5 211.6 L146.1 215 L143.9 217.9 L141 220.1 L137.6 221.5 L134 222 L50 222 L46.4 221.5 L43 220.1 L40.1 217.9 L37.9 215 L36.5 211.6 L36 208 L36 60 L36.5 56.4 L37.9 53 L40.1 50.1 L43 47.9 L46.4 46.5 L50 46 Z"/>
+		<path pathLength="1" d="M70 46 L70 30 L80 30 L80 46"/>
+		<path pathLength="1" d="M104 46 L104 30 L114 30 L114 46"/>
+		<path pathLength="1" d="M92 222 L88 252 L106 274"/>
+		<path pathLength="1" d="M199 70 L245 70 L245 250 L199 250 Z"/>
+		<path pathLength="1" d="M273 70 L319 70 L319 250 L273 250 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M50 86 L134 86 L134 178 L50 178 Z"/>
+		<path pathLength="1" d="M50 108 L134 108"/>
+		<path pathLength="1" d="M50 150 L134 150"/>
+		<path pathLength="1" d="M56 132 L62 138 L68 126"/>
+		<path pathLength="1" d="M54 124 L70 124 L70 142 L54 142 Z"/>
+		<path pathLength="1" d="M199 70 L245 70"/>
+		<path pathLength="1" d="M273 190.6 L319 190.6"/>
+		<path pathLength="1" d="M273 250 L273 250 M273 243 L280 250 M273 236 L287 250 M273 229 L294 250 M273 222 L301 250 M273 215 L308 250 M273 208 L315 250 M273 201 L319 247 M273 194 L319 240 M276.6 190.6 L319 233 M283.6 190.6 L319 226 M290.6 190.6 L319 219 M297.6 190.6 L319 212 M304.6 190.6 L319 205 M311.6 190.6 L319 198"/>
+		<path pathLength="1" d="M273 97 L319 97"/>
+		<path pathLength="1" d="M273 88 L319 88"/>
+		<path pathLength="1" d="M273 70 L319 70"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="92" y="100" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WHOLE BLOOD</text>
+		<text x="74" y="136" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VOLUNTEER</text>
+		<text x="92" y="166" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DONOR</text>
+		<text x="222" y="264" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">E. AND W.</text>
+		<text x="296" y="264" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">US 1965-67</text>
+		<text x="323" y="223.3" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PAID</text>
+		<text x="323" y="146.8" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EXCHANGED</text>
+		<text x="323" y="82" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VOLUNTARY</text>
+		<text x="222" y="163" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ALL</text>
+		<text x="92" y="292" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LABEL REQUIRED FROM MAY 1978</text>
+	</g>
+</svg>

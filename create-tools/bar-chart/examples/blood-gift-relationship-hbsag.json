@@ -1,0 +1,20 @@
+{
+	"title": "Hepatitis B surface antigen in paid and volunteer blood, early 1970s",
+	"description": "Bar chart. Units found reactive for hepatitis B surface antigen per 1,000 tested: about 14.1 of 48,502 units from paid donors (685 reactive) and 2.2 of 83,196 units from volunteer donors (182 reactive). Data: Food and Drug Administration, proposed rule, Federal Register 40 (14 November 1975): 53040–41; rates by our arithmetic.",
+	"heading": "HBsAg-REACTIVE UNITS PER 1,000 TESTED",
+	"unit": "",
+	"axis": {
+		"max": 16,
+		"ticks": [
+			[0, "0"],
+			[4, "4"],
+			[8, "8"],
+			[12, "12"],
+			[16, "16"]
+		]
+	},
+	"bars": [
+		{ "label": "Paid", "sublabel": "48,502 units", "value": 14.1, "highlight": true },
+		{ "label": "Volunteer", "sublabel": "83,196 units", "value": 2.2 }
+	]
+}

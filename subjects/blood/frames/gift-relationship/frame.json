@@ -1,0 +1,212 @@
+{
+	"id": "gift-relationship",
+	"topic": "Titmuss and the gift of blood",
+	"position": {
+		"label": "1970",
+		"sort": 1970
+	},
+	"scene": {
+		"headline": "Blood was better as a",
+		"accent": "GIFT.",
+		"palette": "ward",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON SCHOOL OF ECONOMICS · RICHARD TITMUSS",
+			"PAID OR VOLUNTEER · THE FDA'S LABEL RULE, 1978"
+		],
+		"counter": {
+			"value": "95%",
+			"label": "of US blood from volunteers by 1978, as comments to the FDA put it"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Blood and Thunder",
+			"authors": [
+				{
+					"family": "Solow",
+					"given": "Robert M."
+				}
+			],
+			"container": "Yale Law Journal",
+			"volume": "80",
+			"issue": "8",
+			"pages": "1696–1711",
+			"published": "1971",
+			"url": "https://openyls.law.yale.edu/entities/publication/85f907e1-4815-4455-aa25-4be819d92d92",
+			"accessed": "2026-10-01",
+			"note": "A review of The Gift Relationship that summarizes Titmuss's figures with his page numbers"
+		},
+		{
+			"kind": "book",
+			"title": "The Gift Relationship: From Human Blood to Social Policy",
+			"authors": [
+				{
+					"family": "Titmuss",
+					"given": "Richard M."
+				}
+			],
+			"publisher": "George Allen and Unwin",
+			"place": "London",
+			"published": "1970",
+			"url": "https://archive.org/details/giftrelationship00titm",
+			"accessed": "2026-10-01",
+			"citedIn": "Solow, “Blood and Thunder” (1971)",
+			"note": "Seen only in Solow's summary; the Internet Archive's copy is lending-only"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Whole Blood and Components of Whole Blood Intended for Transfusion; Donor Classification Labeling Requirements. Final Rule",
+			"authors": [
+				{
+					"name": "Food and Drug Administration"
+				}
+			],
+			"container": "Federal Register",
+			"volume": "43",
+			"issue": "9",
+			"pages": "2142–2144",
+			"publisher": "Office of the Federal Register",
+			"place": "Washington, DC",
+			"published": "1978-01-13",
+			"url": "https://www.govinfo.gov/content/pkg/FR-1978-01-13/pdf/FR-1978-01-13.pdf",
+			"accessed": "2026-10-01",
+			"note": "The paid and volunteer labels, in force from 15 May 1978"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Whole Blood and Red Blood Cells: Label Statement to Distinguish Volunteer from Paid Blood Donors. Proposed Rule",
+			"authors": [
+				{
+					"name": "Food and Drug Administration"
+				}
+			],
+			"container": "Federal Register",
+			"volume": "40",
+			"issue": "221",
+			"pages": "53040–53041",
+			"publisher": "Office of the Federal Register",
+			"place": "Washington, DC",
+			"published": "1975-11-14",
+			"url": "https://www.govinfo.gov/content/pkg/FR-1975-11-14/pdf/FR-1975-11-14.pdf",
+			"accessed": "2026-10-01",
+			"note": "The National Blood Policy and the evidence on paid blood: HBsAg rates, Hines and New Jersey"
+		},
+		{
+			"kind": "article",
+			"title": "Gifts and Exchanges",
+			"authors": [
+				{
+					"family": "Arrow",
+					"given": "Kenneth J."
+				}
+			],
+			"container": "Philosophy & Public Affairs",
+			"volume": "1",
+			"issue": "4",
+			"pages": "343–362",
+			"published": "1972",
+			"url": "https://philpapers.org/rec/ARRGAE",
+			"accessed": "2026-10-01",
+			"citedIn": "AcaWiki, “Gifts and exchanges”; Niza, Tung and Marteau (2013)"
+		},
+		{
+			"kind": "web",
+			"title": "Gifts and exchanges",
+			"container": "AcaWiki",
+			"url": "https://acawiki.org/index.php?title=Gifts_and_exchanges&oldid=4265",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Repugnance Management and Transactions in the Body",
+			"authors": [
+				{
+					"family": "Healy",
+					"given": "Kieran"
+				},
+				{
+					"family": "Krawiec",
+					"given": "Kimberly D."
+				}
+			],
+			"container": "American Economic Review: Papers & Proceedings",
+			"volume": "107",
+			"issue": "5",
+			"pages": "86–90",
+			"published": "2017",
+			"doi": "10.1257/aer.p20171108",
+			"url": "https://kieranhealy.org/files/papers/repugnance-body.pdf",
+			"accessed": "2026-10-01",
+			"note": "The Arrow and Singer exchange, in its context"
+		},
+		{
+			"kind": "article",
+			"title": "Incentivizing Blood Donation: Systematic Review and Meta-Analysis to Test Titmuss' Hypotheses",
+			"authors": [
+				{
+					"family": "Niza",
+					"given": "Claudia"
+				},
+				{
+					"family": "Tung",
+					"given": "Burcu"
+				},
+				{
+					"family": "Marteau",
+					"given": "Theresa M."
+				}
+			],
+			"container": "Health Psychology",
+			"volume": "32",
+			"issue": "9",
+			"pages": "941–949",
+			"published": "2013",
+			"doi": "10.1037/a0032740",
+			"url": "https://europepmc.org/article/PMC/PMC3920088",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Titmuss",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Titmuss&oldid=1374092045",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "media",
+			"title": "Blood Donor - Cannon, Cathy (s70-29465)",
+			"url": "https://commons.wikimedia.org/wiki/File:Blood_Donor_-_Cannon,_Cathy_(s70-29465).jpg",
+			"accessed": "2026-10-01",
+			"container": "NASA Johnson Space Center, photograph S70-29465, Ellington Air Force Base, Texas, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "nasa-donor.jpg",
+			"authors": [
+				{
+					"name": "NASA Johnson Space Center"
+				}
+			],
+			"published": "1970-03-02"
+		},
+		{
+			"kind": "media",
+			"title": "Hepatitis B surface antigen in paid and volunteer blood, early 1970s (chart)",
+			"url": "https://www.govinfo.gov/content/pkg/FR-1975-11-14/pdf/FR-1975-11-14.pdf",
+			"container": "Drawn for kloom from Federal Register 40 (14 November 1975): 53041",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "hbsag-paid-volunteer.svg"
+		}
+	]
+}

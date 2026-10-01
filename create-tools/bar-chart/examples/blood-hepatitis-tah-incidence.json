@@ -1,0 +1,24 @@
+{
+	"title": "Hepatitis after transfusion in the NIH's prospective studies, 1967–1990s",
+	"description": "Bar chart. Share of transfusion recipients who developed hepatitis: about 33% around 1970, when paid blood was untested; about 10% after volunteers and HBsAg screening; 4% by 1989; 1.5% after the first hepatitis C antibody test in 1990; close to zero after the second-generation test of 1992. Data: Alter and Klein, Blood 112 (2008): 2618–19.",
+	"heading": "RECIPIENTS WITH HEPATITIS AFTER TRANSFUSION, NIH",
+	"unit": "%",
+	"width": 520,
+	"axis": {
+		"max": 40,
+		"ticks": [
+			[0, "0"],
+			[10, "10%"],
+			[20, "20%"],
+			[30, "30%"],
+			[40, "40%"]
+		]
+	},
+	"bars": [
+		{ "label": "1967–70", "sublabel": "paid, untested", "value": 33, "highlight": true },
+		{ "label": "1970s–80s", "sublabel": "HBsAg test", "value": 10 },
+		{ "label": "1989", "sublabel": "surrogates", "value": 4 },
+		{ "label": "1990–91", "sublabel": "anti-HCV", "value": 1.5 },
+		{ "label": "1992 on", "sublabel": "2nd gen.", "value": 0, "display": "≈0" }
+	]
+}

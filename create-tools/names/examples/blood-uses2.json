@@ -1,0 +1,28 @@
+{
+	"blood/rhogam": [
+		["hemolytic disease of the newborn", "hemolytic-disease-of-the-newborn"],
+		["Rho(D) immune globulin", "rho-d-immune-globulin"],
+		["Cyril Clarke", "cyril-clarke"],
+		["Ronald Finn", "ronald-finn"],
+		["John Gorman", "john-gorman-physician"],
+		["Vincent Freda", "vincent-freda"],
+		["Sing Sing", "sing-sing"],
+		["Kleihauer–Betke test", "kleihauer-betke-test"]
+	],
+	"blood/gift-relationship": [
+		["Richard Titmuss", "richard-titmuss"],
+		["Robert Solow", "robert-solow"],
+		["Kenneth Arrow", "kenneth-arrow"],
+		["Food and Drug Administration", "food-and-drug-administration"],
+		["hepatitis B surface antigen", "hbsag"]
+	],
+	"blood/hepatitis": [
+		["Baruch Blumberg", "baruch-samuel-blumberg"],
+		["National Institutes of Health", "national-institutes-of-health"],
+		["Ouchterlony double immunodiffusion", "ouchterlony-double-immunodiffusion"],
+		["Örjan Ouchterlony", "orjan-ouchterlony"],
+		["Harvey Alter", "harvey-j-alter"],
+		["Australia antigen", "hbsag"],
+		["hepatitis C", "hepatitis-c"]
+	]
+}

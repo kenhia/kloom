@@ -27,6 +27,12 @@
 			"frames": ["early-transfusion", "blundell", "abo"]
 		},
 		{
+			"id": "uses",
+			"title": "What we do with blood",
+			"labelKind": "date",
+			"frames": ["rhogam", "gift-relationship", "hepatitis"]
+		},
+		{
 			"id": "bench",
 			"title": "The bench, by hand and by machine",
 			"labelKind": "date",
