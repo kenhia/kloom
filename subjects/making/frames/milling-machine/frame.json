@@ -153,5 +153,11 @@
 			],
 			"published": "2005-09"
 		}
+	],
+	"connections": [
+		{
+			"to": "making/interchangeable-parts",
+			"why": "Eli Whitney long had the honour of the first milling machine, part of the legend that he invented interchangeable parts."
+		}
 	]
 }

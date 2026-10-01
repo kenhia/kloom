@@ -1,0 +1,28 @@
+{
+	"making/block-mills": [
+		["Pulley blocks", "block-sailing"],
+		["Portsmouth Block Mills", "portsmouth-block-mills"],
+		["Samuel Bentham", "samuel-bentham"],
+		["Marc Isambard Brunel", "marc-isambard-brunel"],
+		["Henry Maudslay", "henry-maudslay"],
+		["Boulton and Watt", "boulton-and-watt"],
+		["Science Museum", "science-museum-london"]
+	],
+	"making/interchangeable-parts": [
+		["Thomas Jefferson", "thomas-jefferson"],
+		["Honoré Blanc", "honore-blanc"],
+		["interchangeable parts", "interchangeable-parts"],
+		["Eli Whitney", "eli-whitney"],
+		["John H. Hall", "john-h-hall-gunsmith"],
+		["Harpers Ferry Armory", "harpers-ferry-armory"],
+		["go/no-go gauge", "go-no-go-gauge"],
+		["American system of manufacturing", "american-system-of-manufacturing"]
+	],
+	"making/assembly-line": [
+		["Ford Motor Company", "ford-motor-company"],
+		["Highland Park", "highland-park-ford-plant"],
+		["Model T", "ford-model-t"],
+		["moving assembly line", "assembly-line"],
+		["Henry Ford", "henry-ford"]
+	]
+}

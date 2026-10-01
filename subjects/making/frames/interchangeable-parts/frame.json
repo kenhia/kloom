@@ -1,0 +1,173 @@
+{
+	"id": "interchangeable-parts",
+	"topic": "Interchangeable parts",
+	"position": {
+		"label": "1824",
+		"sort": 1824
+	},
+	"scene": {
+		"headline": "We made every part",
+		"accent": "ALIKE.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · HARPERS FERRY · SPRINGFIELD",
+			"HONORÉ BLANC · JOHN H. HALL · GO AND NO-GO GAUGES"
+		],
+		"counter": {
+			"value": "1,000",
+			"label": "rifles in Hall's 1819 contract, every part to interchange"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/clement-fragment",
+			"why": "In the 1820s, as Hall made rifle parts alike at Harpers Ferry, Joseph Clement in London built jigs to make the Difference Engine's repeated parts alike, when parts were still filed one at a time until they fitted."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"title": "English and American Tool Builders",
+			"authors": [
+				{
+					"family": "Roe",
+					"given": "Joseph Wickham"
+				}
+			],
+			"publisher": "Yale University Press",
+			"place": "New Haven",
+			"published": "1916",
+			"url": "https://archive.org/details/englishandameri00roegoog",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Jefferson's letter of 1785, North's contracts and Hall's paper-sheet joint, pp. 129–142"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "John H Hall",
+			"container": "Harpers Ferry National Historical Park",
+			"publisher": "National Park Service",
+			"published": "2019-09-23",
+			"url": "https://www.nps.gov/hafe/learn/historyculture/john-h-hall.htm",
+			"accessed": "2026-09-30",
+			"note": "Quotes Hall's letter to Calhoun of 20 December 1822"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Interchangeable parts",
+			"url": "https://en.wikipedia.org/w/index.php?title=Interchangeable_parts&oldid=1377007249",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eli Whitney",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eli_Whitney&oldid=1372573496",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Honoré Blanc",
+			"url": "https://en.wikipedia.org/w/index.php?title=Honor%C3%A9_Blanc&oldid=1340954662",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John H. Hall (gunsmith)",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_H._Hall_(gunsmith)&oldid=1363365771",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Go/no-go gauge",
+			"url": "https://en.wikipedia.org/w/index.php?title=Go%2Fno-go_gauge&oldid=1351844789",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-30"
+		},
+		{
+			"kind": "web",
+			"title": "No. 1252: Interchangeable Parts",
+			"authors": [
+				{
+					"family": "Lienhard",
+					"given": "John H."
+				}
+			],
+			"container": "The Engines of Our Ingenuity",
+			"publisher": "University of Houston",
+			"url": "https://www.uh.edu/engines/epi1252.htm",
+			"accessed": "2026-09-30",
+			"note": "Reports Ken Alder, Technology and Culture 38 (1997)"
+		},
+		{
+			"kind": "media",
+			"title": "Hall breech-loading flintlock rifle, Model 1819, cut down, in the National Museum of American History",
+			"url": "https://commons.wikimedia.org/wiki/File:U.S._Hall_Breechloading_Rifle,_Cut_Down,_Model_1819.jpg",
+			"accessed": "2026-09-30",
+			"container": "Smithsonian Institution, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "hall-rifle.jpg",
+			"authors": [
+				{
+					"name": "National Museum of American History"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "A double-ended go/no-go plug gauge for a hole of 20.94 to 20.97 mm",
+			"url": "https://commons.wikimedia.org/wiki/File:GaugePlugSpecialGoNoGo.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "plug-gauge.jpg",
+			"authors": [
+				{
+					"name": "Glenn McKechnie"
+				}
+			],
+			"published": "2005-03-26"
+		}
+	]
+}

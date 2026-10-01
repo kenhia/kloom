@@ -1,0 +1,25 @@
+{
+	"title": "Labour time per Model T chassis at Highland Park, August 1913 to April 1914",
+	"description": "Bar chart of minutes of labour per chassis: 748 with stationary assembly in August 1913; 350 with a chassis drawn by rope and windlass; 177 on the first moving line, 7 October 1913; 158 on 1 December 1913; 93 on three chain-driven lines, 30 April 1914. Data: Arnold and Faurote, Ford Methods and the Ford Shops (1915), pp. 136–139.",
+	"heading": "MINUTES OF LABOUR PER CHASSIS · HIGHLAND PARK",
+	"unit": " min",
+	"axis": {
+		"max": 800,
+		"ticks": [
+			[0, "0"],
+			[200, "200"],
+			[400, "400"],
+			[600, "600"],
+			[800, "800"]
+		]
+	},
+	"width": 520,
+	"barWidth": 60,
+	"bars": [
+		{ "label": "Aug 1913", "sublabel": "standing", "value": 748 },
+		{ "label": "1913", "sublabel": "rope", "value": 350 },
+		{ "label": "7 Oct 1913", "sublabel": "first line", "value": 177 },
+		{ "label": "1 Dec 1913", "sublabel": "longer", "value": 158 },
+		{ "label": "30 Apr 1914", "sublabel": "chain", "value": 93, "highlight": true }
+	]
+}

@@ -1,0 +1,131 @@
+{
+	"id": "block-mills",
+	"topic": "The Portsmouth block mills",
+	"position": {
+		"label": "1803",
+		"sort": 1803
+	},
+	"scene": {
+		"headline": "We gave each step a",
+		"accent": "MACHINE.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PORTSMOUTH DOCKYARD · 1803–1807",
+			"MARC BRUNEL · SAMUEL BENTHAM · HENRY MAUDSLAY"
+		],
+		"counter": {
+			"value": "130,000",
+			"label": "pulley blocks made by the machines in 1808"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/steam",
+			"why": "Steam engines, among them a Boulton and Watt engine ordered in 1800, drove the block mills' machines through shafts and belts: the rotary steam power that, in the steam engine's frame, moved industry into towns."
+		},
+		{
+			"to": "making/maudslay",
+			"why": "Brunel designed the block-making machines, and Henry Maudslay built them in iron and brass in his small London shop."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"title": "English and American Tool Builders",
+			"authors": [
+				{
+					"family": "Roe",
+					"given": "Joseph Wickham"
+				}
+			],
+			"publisher": "Yale University Press",
+			"place": "New Haven",
+			"published": "1916",
+			"url": "https://archive.org/details/englishandameri00roegoog",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "The chapter on Bentham and Brunel: the machines, their working points and their output"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Portsmouth Block Mills",
+			"url": "https://en.wikipedia.org/w/index.php?title=Portsmouth_Block_Mills&oldid=1377557319",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"key": true
+		},
+		{
+			"kind": "chapter",
+			"title": "Brunel, Marc Isambard",
+			"authors": [
+				{
+					"family": "Harrison",
+					"given": "Robert"
+				}
+			],
+			"container": "Dictionary of National Biography",
+			"volume": "7",
+			"editors": [
+				{
+					"family": "Stephen",
+					"given": "Leslie"
+				}
+			],
+			"publisher": "Smith, Elder & Co.",
+			"place": "London",
+			"published": "1886",
+			"url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Brunel,_Marc_Isambard",
+			"accessed": "2026-09-30",
+			"note": "Read on Wikisource"
+		},
+		{
+			"kind": "chapter",
+			"title": "Brunel, Sir Marc Isambard",
+			"container": "Encyclopædia Britannica",
+			"volume": "4",
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1911",
+			"url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Brunel,_Sir_Marc_Isambard",
+			"accessed": "2026-09-30",
+			"note": "Eleventh edition, read on Wikisource"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Interchangeable parts",
+			"url": "https://en.wikipedia.org/w/index.php?title=Interchangeable_parts&oldid=1377007249",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Mortising machine designed by Marc Brunel for the Portsmouth Block Mills, in the Science Museum, London",
+			"url": "https://commons.wikimedia.org/wiki/File:Science_Museum_-_Portsmouth_Block_Mills_9.jpg",
+			"accessed": "2026-09-30",
+			"container": "Science Museum, London, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "mortising-machine.jpg",
+			"authors": [
+				{
+					"name": "Barabbas1312"
+				}
+			],
+			"published": "2024-01-31"
+		}
+	]
+}

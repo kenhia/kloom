@@ -60,7 +60,14 @@
 			"id": "mass",
 			"title": "Making many",
 			"labelKind": "date",
-			"frames": ["injection-moulding", "lego-brick", "unimate"]
+			"frames": [
+				"block-mills",
+				"interchangeable-parts",
+				"assembly-line",
+				"injection-moulding",
+				"lego-brick",
+				"unimate"
+			]
 		},
 		{
 			"id": "code",

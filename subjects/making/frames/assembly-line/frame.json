@@ -1,0 +1,145 @@
+{
+	"id": "assembly-line",
+	"topic": "Ford's moving assembly line",
+	"position": {
+		"label": "1913",
+		"sort": 1913
+	},
+	"scene": {
+		"headline": "We made the work",
+		"accent": "MOVE.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HIGHLAND PARK · MICHIGAN · 1913–1914",
+			"FORD MOTOR COMPANY · MAGNETO · CHASSIS · CHAIN DRIVE"
+		],
+		"counter": {
+			"value": "93 min",
+			"label": "of labour per Model T chassis in April 1914, down from 748"
+		}
+	},
+	"connections": [
+		{
+			"to": "feynman/punched-cards",
+			"why": "In 1944 Los Alamos rehearsed its punched-card calculation as an assembly line of people, each doing one operation and passing the card on: the division of work into stations that Ford's line had made the model."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"title": "Ford Methods and the Ford Shops",
+			"authors": [
+				{
+					"family": "Arnold",
+					"given": "Horace Lucien"
+				},
+				{
+					"family": "Faurote",
+					"given": "Fay Leone"
+				}
+			],
+			"publisher": "Engineering Magazine Company",
+			"place": "New York",
+			"published": "1915",
+			"url": "https://archive.org/details/fordmethodsandf00faurgoog",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "The magneto line and the chassis-line records, pp. 112–115 and 135–139"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "My Life and Work",
+			"authors": [
+				{
+					"family": "Ford",
+					"given": "Henry"
+				},
+				{
+					"family": "Crowther",
+					"given": "Samuel"
+				}
+			],
+			"publisher": "Doubleday, Page & Company",
+			"place": "Garden City, NY",
+			"published": "1922",
+			"url": "https://www.gutenberg.org/ebooks/7213",
+			"accessed": "2026-09-30",
+			"note": "Read in the Project Gutenberg edition"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Assembly line",
+			"url": "https://en.wikipedia.org/w/index.php?title=Assembly_line&oldid=1375867074",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Highland Park Ford Plant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Highland_Park_Ford_Plant&oldid=1373393309",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Ford",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Ford&oldid=1377247176",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Workers assembling flywheel magnetos on the moving line at Highland Park, 1913",
+			"url": "https://commons.wikimedia.org/wiki/File:Ford_assembly_line_-_1913.jpg",
+			"accessed": "2026-09-30",
+			"container": "Ford Motor Company, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "magneto-line.jpg",
+			"published": "1913"
+		},
+		{
+			"kind": "media",
+			"title": "Chassis on the assembly line at the Ford Motor Company's Highland Park plant",
+			"url": "https://commons.wikimedia.org/wiki/File:Assembly_line_at_the_Ford_Motor_Company%27s_Highland_Park_plant_LCCN2011661021.jpg",
+			"accessed": "2026-09-30",
+			"container": "Library of Congress, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "chassis-line.jpg",
+			"published": "1913",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "Labour time per Model T chassis, August 1913 to April 1914",
+			"url": "https://archive.org/details/fordmethodsandf00faurgoog",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from Arnold and Faurote, Ford Methods and the Ford Shops (1915)",
+			"licence": "MIT",
+			"file": "chassis-labour.svg"
+		}
+	]
+}
