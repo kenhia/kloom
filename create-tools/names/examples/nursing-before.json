@@ -1,0 +1,35 @@
+{
+	"nursing/basiliad": [
+		["Valens", "valens"],
+		["Cappadocia", "cappadocia"],
+		["Basil of Caesarea", "basil-of-caesarea"],
+		["Kayseri", "kayseri"],
+		["Gregory of Nazianzus", "gregory-of-nazianzus"],
+		["leprosy", "leprosy"],
+		["Basileias", "basileias"],
+		["Eustathius of Sebaste", "eustathius-of-sebaste"]
+	],
+	"nursing/monastic-infirmary": [
+		["Monte Cassino", "monte-cassino"],
+		["Benedict of Nursia", "benedict-of-nursia"],
+		["Charlemagne", "charlemagne"],
+		["Rule of Saint Benedict", "rule-of-saint-benedict"],
+		["Plan of Saint Gall", "plan-of-saint-gall"],
+		["Reichenau", "reichenau-island"],
+		["bloodletting", "bloodletting"]
+	],
+	"nursing/hospitallers": [
+		["Jerusalem", "jerusalem"],
+		["Amalfi", "amalfi"],
+		["Gerard", "gerard-sasso"],
+		["First Crusade", "first-crusade"],
+		["Pope Paschal II", "pope-paschal-ii"],
+		["_Pie postulatio voluntatis_", "pie-postulatio-voluntatis"],
+		["Knights Hospitaller", "knights-hospitaller"],
+		["Raymond du Puy", "raymond-du-puy"],
+		["Jacques de Vitry", "james-of-vitry"],
+		["John of Würzburg", "john-of-wurzburg"],
+		["Montgisard", "battle-of-montgisard"],
+		["St John Ambulance", "st-john-ambulance"]
+	]
+}

@@ -1,0 +1,494 @@
+{
+	"spine": {
+		"segments": [
+			{
+				"id": "before",
+				"title": "Care before nursing",
+				"labelKind": "date",
+				"frames": [
+					"basiliad",
+					"monastic-infirmary",
+					"hospitallers",
+					"beguines",
+					"daughters-of-charity",
+					"martha-ballard",
+					"kaiserswerth"
+				]
+			},
+			{
+				"id": "nightingale",
+				"title": "Nightingale and the profession",
+				"labelKind": "date",
+				"frames": [
+					"scutari",
+					"seacole",
+					"rose-diagram",
+					"notes-on-nursing",
+					"nightingale-school",
+					"red-cross",
+					"vital-signs"
+				]
+			},
+			{
+				"id": "theatre",
+				"title": "The operating room",
+				"labelKind": "date",
+				"frames": [
+					"ether",
+					"semmelweis",
+					"lister",
+					"asepsis",
+					"hampton-gloves",
+					"nurse-anesthetist",
+					"aorn"
+				]
+			},
+			{
+				"id": "military",
+				"title": "Nurses at war",
+				"labelKind": "date",
+				"frames": [
+					"civil-war-nurses",
+					"army-nurse-corps",
+					"sacred-twenty",
+					"wwi-nurses",
+					"pearl-harbor",
+					"bataan",
+					"flight-nurses",
+					"mash",
+					"vietnam-nurses"
+				]
+			},
+			{
+				"id": "profession",
+				"title": "The modern profession",
+				"labelKind": "date",
+				"frames": [
+					"training-schools",
+					"henry-street",
+					"licensure",
+					"goldmark-report",
+					"polio-icu",
+					"nurse-practitioner",
+					"hospice",
+					"ward-5b",
+					"magnet",
+					"bcma"
+				]
+			},
+			{
+				"id": "today",
+				"title": "Today",
+				"labelKind": "category",
+				"frames": ["where-nursing-is"]
+			},
+			{
+				"id": "dedication-seg",
+				"title": "Dedication",
+				"labelKind": "category",
+				"frames": ["dedication"]
+			}
+		]
+	},
+	"trails": [
+		{
+			"id": "nightingales-numbers",
+			"title": "Nightingale's numbers",
+			"anchor": "rose-diagram",
+			"spine": {
+				"segments": [
+					{
+						"id": "numbers",
+						"title": "Counting the dead, and the living",
+						"labelKind": "date",
+						"frames": [
+							"farr",
+							"notes-on-hospitals",
+							"hospital-statistics",
+							"infection-control-nurse",
+							"hand-hygiene"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "at-the-table",
+			"title": "At the table",
+			"anchor": "hampton-gloves",
+			"spine": {
+				"segments": [
+					{
+						"id": "table",
+						"title": "The scrub nurse's work",
+						"labelKind": "date",
+						"frames": [
+							"surgical-scrub",
+							"surgical-mask",
+							"instrument-table",
+							"surgical-count",
+							"surgical-checklist"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "navy-nurses",
+			"title": "Navy nurses",
+			"anchor": "sacred-twenty",
+			"spine": {
+				"segments": [
+					{
+						"id": "navy",
+						"title": "The Navy Nurse Corps",
+						"labelKind": "date",
+						"frames": ["hospital-ships", "navy-pow", "nurse-rank", "saigon-1964", "repose", "duerk"]
+					}
+				]
+			}
+		},
+		{
+			"id": "who-was-let-in",
+			"title": "Who was let in",
+			"anchor": "training-schools",
+			"spine": {
+				"segments": [
+					{
+						"id": "letin",
+						"title": "Who could be a nurse",
+						"labelKind": "date",
+						"frames": [
+							"mary-mahoney",
+							"mills-school",
+							"nacgn",
+							"cadet-nurse-corps",
+							"staupers",
+							"men-commissioned"
+						]
+					}
+				]
+			}
+		}
+	],
+	"frames": {
+		"basiliad": {
+			"topic": "Basil's hospital at Caesarea",
+			"palette": "cloister",
+			"sort": 372
+		},
+		"monastic-infirmary": {
+			"topic": "The monastic infirmary",
+			"palette": "linen",
+			"sort": 530
+		},
+		"hospitallers": {
+			"topic": "The Hospitallers in Jerusalem",
+			"palette": "cloister",
+			"sort": 1113
+		},
+		"beguines": {
+			"topic": "The Beguines",
+			"palette": "linen",
+			"sort": 1250
+		},
+		"daughters-of-charity": {
+			"topic": "The Daughters of Charity",
+			"palette": "cloister",
+			"sort": 1633
+		},
+		"martha-ballard": {
+			"topic": "Martha Ballard's diary",
+			"palette": "linen",
+			"sort": 1785
+		},
+		"kaiserswerth": {
+			"topic": "The deaconesses of Kaiserswerth",
+			"palette": "cloister",
+			"sort": 1836
+		},
+		"scutari": {
+			"topic": "Nightingale at Scutari",
+			"palette": "lamplight",
+			"sort": 1854
+		},
+		"seacole": {
+			"topic": "Mary Seacole",
+			"palette": "ledger",
+			"sort": 1855
+		},
+		"rose-diagram": {
+			"topic": "Nightingale's rose diagram",
+			"palette": "lamplight",
+			"sort": 1858
+		},
+		"notes-on-nursing": {
+			"topic": "Notes on Nursing",
+			"palette": "ledger",
+			"sort": 1859
+		},
+		"nightingale-school": {
+			"topic": "The Nightingale school",
+			"palette": "lamplight",
+			"sort": 1860
+		},
+		"red-cross": {
+			"topic": "The Red Cross and Geneva",
+			"palette": "ledger",
+			"sort": 1863
+		},
+		"vital-signs": {
+			"topic": "Temperature and the vital signs",
+			"palette": "lamplight",
+			"sort": 1868
+		},
+		"ether": {
+			"topic": "Ether at Massachusetts General",
+			"palette": "theatre",
+			"sort": 1846
+		},
+		"semmelweis": {
+			"topic": "Semmelweis and handwashing",
+			"palette": "gown",
+			"sort": 1847
+		},
+		"lister": {
+			"topic": "Lister's antisepsis",
+			"palette": "theatre",
+			"sort": 1867
+		},
+		"asepsis": {
+			"topic": "Asepsis and the steam sterilizer",
+			"palette": "gown",
+			"sort": 1886
+		},
+		"hampton-gloves": {
+			"topic": "Caroline Hampton's gloves",
+			"palette": "theatre",
+			"sort": 1889
+		},
+		"nurse-anesthetist": {
+			"topic": "The nurse anesthetist",
+			"palette": "gown",
+			"sort": 1893
+		},
+		"aorn": {
+			"topic": "Operating-room nurses organize",
+			"palette": "theatre",
+			"sort": 1949
+		},
+		"civil-war-nurses": {
+			"topic": "Nurses in the Civil War",
+			"palette": "olive",
+			"sort": 1861
+		},
+		"army-nurse-corps": {
+			"topic": "The Army Nurse Corps",
+			"palette": "canvas",
+			"sort": 1898
+		},
+		"sacred-twenty": {
+			"topic": "The Navy Nurse Corps",
+			"palette": "dressblue",
+			"sort": 1908
+		},
+		"wwi-nurses": {
+			"topic": "Nurses in the First World War",
+			"palette": "canvas",
+			"sort": 1917
+		},
+		"pearl-harbor": {
+			"topic": "Navy nurses at Pearl Harbor",
+			"palette": "dressblue",
+			"sort": 1941
+		},
+		"bataan": {
+			"topic": "The Angels of Bataan",
+			"palette": "canvas",
+			"sort": 1942
+		},
+		"flight-nurses": {
+			"topic": "Flight nurses",
+			"palette": "olive",
+			"sort": 1943
+		},
+		"mash": {
+			"topic": "Nurses in the MASH",
+			"palette": "canvas",
+			"sort": 1950
+		},
+		"vietnam-nurses": {
+			"topic": "Nurses in Vietnam",
+			"palette": "olive",
+			"sort": 1965
+		},
+		"training-schools": {
+			"topic": "The first American training schools",
+			"palette": "chart",
+			"sort": 1873
+		},
+		"henry-street": {
+			"topic": "Lillian Wald and public health nursing",
+			"palette": "nightshift",
+			"sort": 1893
+		},
+		"licensure": {
+			"topic": "The registered nurse",
+			"palette": "chart",
+			"sort": 1903
+		},
+		"goldmark-report": {
+			"topic": "The Goldmark Report",
+			"palette": "nightshift",
+			"sort": 1923
+		},
+		"polio-icu": {
+			"topic": "Copenhagen's polio ward",
+			"palette": "chart",
+			"sort": 1952
+		},
+		"nurse-practitioner": {
+			"topic": "The nurse practitioner",
+			"palette": "nightshift",
+			"sort": 1965
+		},
+		"hospice": {
+			"topic": "Cicely Saunders and hospice",
+			"palette": "chart",
+			"sort": 1967
+		},
+		"ward-5b": {
+			"topic": "Ward 5B",
+			"palette": "nightshift",
+			"sort": 1983
+		},
+		"magnet": {
+			"topic": "Magnet hospitals",
+			"palette": "chart",
+			"sort": 1983
+		},
+		"bcma": {
+			"topic": "Bar-code medication administration",
+			"palette": "nightshift",
+			"sort": 1992
+		},
+		"where-nursing-is": {
+			"topic": "Nursing today",
+			"palette": "chart"
+		},
+		"dedication": {
+			"topic": "Dedication to Captain Kathleen Hiatt",
+			"palette": "dressblue"
+		},
+		"farr": {
+			"topic": "Farr, Nightingale and the Commission",
+			"palette": "ledger",
+			"sort": 1857
+		},
+		"notes-on-hospitals": {
+			"topic": "Notes on Hospitals",
+			"palette": "lamplight",
+			"sort": 1859
+		},
+		"hospital-statistics": {
+			"topic": "Nightingale's hospital statistics",
+			"palette": "ledger",
+			"sort": 1860
+		},
+		"infection-control-nurse": {
+			"topic": "The infection control nurse",
+			"palette": "nightshift",
+			"sort": 1959
+		},
+		"hand-hygiene": {
+			"topic": "The five moments for hand hygiene",
+			"palette": "chart",
+			"sort": 2009
+		},
+		"surgical-scrub": {
+			"topic": "The surgical scrub",
+			"palette": "gown",
+			"sort": 1888
+		},
+		"surgical-mask": {
+			"topic": "The surgical mask",
+			"palette": "theatre",
+			"sort": 1897
+		},
+		"instrument-table": {
+			"topic": "Setting the instrument table",
+			"palette": "gown",
+			"sort": 1943
+		},
+		"surgical-count": {
+			"topic": "The sponge and instrument count",
+			"palette": "theatre",
+			"sort": 1950
+		},
+		"surgical-checklist": {
+			"topic": "The surgical safety checklist",
+			"palette": "gown",
+			"sort": 2008
+		},
+		"hospital-ships": {
+			"topic": "Navy nurses at sea",
+			"palette": "whites",
+			"sort": 1920
+		},
+		"navy-pow": {
+			"topic": "Navy nurses as prisoners of war",
+			"palette": "dressblue",
+			"sort": 1941
+		},
+		"nurse-rank": {
+			"topic": "Commissioned rank for nurses",
+			"palette": "whites",
+			"sort": 1947
+		},
+		"saigon-1964": {
+			"topic": "Navy nurses in Saigon",
+			"palette": "dressblue",
+			"sort": 1963
+		},
+		"repose": {
+			"topic": "The hospital ship Repose",
+			"palette": "whites",
+			"sort": 1966
+		},
+		"duerk": {
+			"topic": "The first woman admiral",
+			"palette": "dressblue",
+			"sort": 1972
+		},
+		"mary-mahoney": {
+			"topic": "Mary Mahoney",
+			"palette": "nightshift",
+			"sort": 1879
+		},
+		"mills-school": {
+			"topic": "Men's nursing schools",
+			"palette": "chart",
+			"sort": 1888
+		},
+		"nacgn": {
+			"topic": "Black nurses organize",
+			"palette": "nightshift",
+			"sort": 1908
+		},
+		"cadet-nurse-corps": {
+			"topic": "The Cadet Nurse Corps",
+			"palette": "canvas",
+			"sort": 1943
+		},
+		"staupers": {
+			"topic": "Ending the Army's quota",
+			"palette": "olive",
+			"sort": 1945
+		},
+		"men-commissioned": {
+			"topic": "Men commissioned as nurses",
+			"palette": "canvas",
+			"sort": 1955
+		}
+	}
+}

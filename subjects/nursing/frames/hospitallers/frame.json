@@ -1,0 +1,177 @@
+{
+	"id": "hospitallers",
+	"topic": "The Hospitallers in Jerusalem",
+	"position": {
+		"label": "1113",
+		"sort": 1113
+	},
+	"scene": {
+		"headline": "The sick were our",
+		"accent": "LORDS.",
+		"palette": "cloister",
+		"illustration": "scene.svg",
+		"metadata": ["JERUSALEM · AMALFI · GERARD · RAYMOND DU PUY", "THE HOSPITAL OF SAINT JOHN"],
+		"counter": {
+			"value": "2,000",
+			"label": "sick in the hospital, by John of Würzburg's count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Rule of the Order of St. John, by Blessed Raymond du Puy",
+			"publisher": "Blessed Gérard & the early history of the Order of Malta",
+			"url": "http://blessed-gerard.org/bgt_rule.htm",
+			"accessed": "2026-10-01",
+			"note": "\"How our lords the sick should be received and served\", in English translation"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Description of the Holy Land",
+			"authors": [
+				{
+					"name": "John of Würzburg"
+				}
+			],
+			"translators": [
+				{
+					"family": "Stewart",
+					"given": "Aubrey"
+				}
+			],
+			"container": "The Library of the Palestine Pilgrims' Text Society",
+			"publisher": "Palestine Pilgrims' Text Society",
+			"place": "London",
+			"published": "1896",
+			"pages": "44–45",
+			"url": "https://archive.org/details/libraryofpalesti05paleuoft",
+			"accessed": "2026-10-01",
+			"note": "The two thousand sick, written between 1160 and 1170"
+		},
+		{
+			"kind": "chapter",
+			"title": "Theoderich's Description of the Holy Places",
+			"authors": [
+				{
+					"name": "Theoderich"
+				}
+			],
+			"translators": [
+				{
+					"family": "Stewart",
+					"given": "Aubrey"
+				}
+			],
+			"container": "The Library of the Palestine Pilgrims' Text Society",
+			"publisher": "Palestine Pilgrims' Text Society",
+			"place": "London",
+			"published": "1896",
+			"pages": "22",
+			"url": "https://archive.org/details/libraryofpalesti05paleuoft",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "The History of Jerusalem",
+			"authors": [
+				{
+					"name": "Jacques de Vitry"
+				}
+			],
+			"translators": [
+				{
+					"family": "Stewart",
+					"given": "Aubrey"
+				}
+			],
+			"publisher": "Palestine Pilgrims' Text Society",
+			"place": "London",
+			"published": "1896",
+			"url": "https://archive.org/details/cu31924028534422",
+			"accessed": "2026-10-01",
+			"note": "The founding of the hospital, Gerard and Agnes, pp. 47–49"
+		},
+		{
+			"kind": "chapter",
+			"title": "A Twelfth-Century Description of the Jerusalem Hospital",
+			"authors": [
+				{
+					"family": "Kedar",
+					"given": "Benjamin Z."
+				}
+			],
+			"container": "The Military Orders, vol. 2: Welfare and Warfare",
+			"editors": [
+				{
+					"family": "Nicholson",
+					"given": "Helen"
+				}
+			],
+			"publisher": "Ashgate",
+			"place": "Aldershot",
+			"published": "1998",
+			"pages": "3–26",
+			"citedIn": "Gerard Sasso"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Knights Hospitaller",
+			"url": "https://en.wikipedia.org/w/index.php?title=Knights_Hospitaller&oldid=1377780463",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gerard Sasso",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gerard_Sasso&oldid=1366704562",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pie postulatio voluntatis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pie_postulatio_voluntatis&oldid=1254257752",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-10-30"
+		},
+		{
+			"kind": "media",
+			"title": "Piae Postulatio Voluntatis, bull of Pope Paschal II, 1113",
+			"url": "https://commons.wikimedia.org/wiki/File:Piae_Postulatio_Voluntatis_bull_of_Pope_Paschal_II,_1113.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "pie-postulatio.jpg",
+			"authors": [
+				{
+					"name": "Pope Paschal II"
+				}
+			],
+			"container": "Archives of the Order of St John, National Library of Malta",
+			"published": "1113-02-15"
+		}
+	]
+}

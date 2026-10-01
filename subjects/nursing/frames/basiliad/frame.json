@@ -1,0 +1,195 @@
+{
+	"id": "basiliad",
+	"topic": "Basil's hospital at Caesarea",
+	"position": {
+		"label": "c. 372",
+		"sort": 372
+	},
+	"scene": {
+		"headline": "We built the sick a",
+		"accent": "CITY.",
+		"palette": "cloister",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAESAREA · CAPPADOCIA · BASIL",
+			"HOSTEL · POORHOUSE · LEPERS' HOUSE · NURSES AND PHYSICIANS"
+		]
+	},
+	"citations": [
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "Letter 94",
+			"authors": [
+				{
+					"name": "Basil of Caesarea"
+				}
+			],
+			"recipients": [
+				{
+					"name": "Elias, governor of the province"
+				}
+			],
+			"container": "Nicene and Post-Nicene Fathers, Second Series, vol. 8",
+			"translators": [
+				{
+					"family": "Jackson",
+					"given": "Blomfield"
+				}
+			],
+			"publisher": "Christian Literature Publishing Co.",
+			"place": "Buffalo, NY",
+			"published": "1895",
+			"url": "https://www.newadvent.org/fathers/3202094.htm",
+			"accessed": "2026-10-01",
+			"note": "The new buildings, the travellers and the sick, and their helpers",
+			"editors": [
+				{
+					"family": "Schaff",
+					"given": "Philip"
+				},
+				{
+					"family": "Wace",
+					"given": "Henry"
+				}
+			]
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Ascetic Works of Saint Basil",
+			"authors": [
+				{
+					"name": "Basil of Caesarea"
+				}
+			],
+			"translators": [
+				{
+					"family": "Clarke",
+					"given": "W. K. Lowther"
+				}
+			],
+			"publisher": "SPCK",
+			"place": "London",
+			"published": "1925",
+			"url": "https://archive.org/details/SPCKBasil",
+			"accessed": "2026-10-01",
+			"note": "Longer Rule 55 on medicine (pp. 224–228); Shorter Rules 155 and 286 on serving the sick in the hospital"
+		},
+		{
+			"kind": "chapter",
+			"title": "Oration 43: Funeral Oration on the Great S. Basil",
+			"authors": [
+				{
+					"name": "Gregory of Nazianzus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Browne",
+					"given": "Charles Gordon"
+				},
+				{
+					"family": "Swallow",
+					"given": "James Edward"
+				}
+			],
+			"container": "Nicene and Post-Nicene Fathers, Second Series, vol. 7",
+			"publisher": "Christian Literature Publishing Co.",
+			"place": "Buffalo, NY",
+			"published": "1894",
+			"url": "https://www.newadvent.org/fathers/310243.htm",
+			"accessed": "2026-10-01",
+			"editors": [
+				{
+					"family": "Schaff",
+					"given": "Philip"
+				},
+				{
+					"family": "Wace",
+					"given": "Henry"
+				}
+			]
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Christian Perfection in Basilian Monastic Hospitals from the Fourth to Sixth Centuries",
+			"authors": [
+				{
+					"family": "Nam",
+					"given": "Sung Hyun"
+				}
+			],
+			"container": "Religions",
+			"volume": "15",
+			"issue": "7",
+			"pages": "793",
+			"published": "2024-06-29",
+			"doi": "10.3390/rel15070793",
+			"url": "https://www.mdpi.com/2077-1444/15/7/793",
+			"accessed": "2026-10-01",
+			"note": "The debate over what the Basileias was, and its nurses and doctors"
+		},
+		{
+			"kind": "article",
+			"title": "Not a Hospital but a Leprosarium: Basil's Basilias and an Early Byzantine Concept of the Deserving Poor",
+			"authors": [
+				{
+					"family": "Caner",
+					"given": "Daniel"
+				}
+			],
+			"container": "Dumbarton Oaks Papers",
+			"volume": "72",
+			"pages": "25–48",
+			"published": "2018",
+			"citedIn": "Basileias"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Basileias",
+			"url": "https://en.wikipedia.org/w/index.php?title=Basileias&oldid=1364728919",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-18",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Basil of Caesarea",
+			"url": "https://en.wikipedia.org/w/index.php?title=Basil_of_Caesarea&oldid=1370285856",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "media",
+			"title": "Saint Basil the Great, in the Menologion of Basil II",
+			"url": "https://commons.wikimedia.org/wiki/File:Menologion_of_Basil_048.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "basil-menologion.jpg",
+			"authors": [
+				{
+					"name": "Illuminators of the Menologion of Basil II"
+				}
+			],
+			"container": "Menologion of Basil II, Vatican Library, Vat. gr. 1613",
+			"published": "1000",
+			"circa": true
+		}
+	]
+}
