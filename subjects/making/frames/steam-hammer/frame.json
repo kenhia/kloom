@@ -1,0 +1,157 @@
+{
+	"id": "steam-hammer",
+	"topic": "Nasmyth's steam hammer",
+	"position": {
+		"label": "1839",
+		"sort": 1839
+	},
+	"scene": {
+		"headline": "We learned to think in",
+		"accent": "BLOWS.",
+		"palette": "scale",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PATRICROFT · LE CREUSOT · JAMES NASMYTH AND FRANÇOIS BOURDON",
+			"STEAM CYLINDER · FALLING BLOCK · OPEN DIES"
+		],
+		"counter": {
+			"value": "30 cwt",
+			"label": "the block of Nasmyth's own first hammer, falling four feet"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/steam",
+			"why": "Watt's engine patent of 1784 already described a hammer worked directly by an engine's piston rod, the idea Nasmyth and Bourdon made into a working machine half a century later."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "James Nasmyth, Engineer: An Autobiography",
+			"authors": [
+				{
+					"family": "Nasmyth",
+					"given": "James"
+				}
+			],
+			"editors": [
+				{
+					"family": "Smiles",
+					"given": "Samuel"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1883",
+			"url": "https://www.gutenberg.org/ebooks/476",
+			"accessed": "2026-09-30",
+			"note": "Chapter 13: the letter, the Scheme Book, Le Creusot, the egg, the first hammers and the anchors; read in Project Gutenberg's text"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Steam hammer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Steam_hammer&oldid=1375696566",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Forging",
+			"url": "https://en.wikipedia.org/w/index.php?title=Forging&oldid=1365812005",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "GB Patent 9,382: Improvements in Machinery or Apparatus for Forging, Stamping, and Cutting Iron and Other Substances (James Nasmyth, 1842)",
+			"container": "Directory of American Tool and Machinery Patents (DATAMP)",
+			"url": "https://www.datamp.org/advance.php?pn=184209382&id=61290&set=2",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Nasmyth",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Nasmyth&oldid=1372016732",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "SS Great Britain",
+			"url": "https://en.wikipedia.org/w/index.php?title=SS_Great_Britain&oldid=1366114105",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26"
+		},
+		{
+			"kind": "web",
+			"title": "If I Had a Hammer",
+			"authors": [
+				{
+					"name": "Science Museum"
+				}
+			],
+			"container": "Science Museum Blog",
+			"published": "2010-02-21",
+			"url": "https://blog.sciencemuseum.org.uk/if-i-had-a-hammer/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "A Steam Hammer at Work, oil painting by James Nasmyth, 1871, Science Museum, London",
+			"url": "https://commons.wikimedia.org/wiki/File:James_Nasmyth_(1808-1890)_-_A_Steam_Hammer_at_Work_-_1957-15_-_Science_Museum.jpg",
+			"accessed": "2026-09-30",
+			"container": "Science Museum, via Art UK and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "steam-hammer-at-work.jpg",
+			"authors": [
+				{
+					"family": "Nasmyth",
+					"given": "James"
+				}
+			],
+			"published": "1871"
+		},
+		{
+			"kind": "media",
+			"title": "Nasmyth's patent steam hammer, engraved for Tomlinson's Cyclopædia of Useful Arts",
+			"url": "https://commons.wikimedia.org/wiki/File:James_Nasmyth%27s_patent_steam_hammer.jpg",
+			"accessed": "2026-09-30",
+			"container": "Library of Congress, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "patent-steam-hammer.jpg",
+			"published": "1854"
+		}
+	]
+}

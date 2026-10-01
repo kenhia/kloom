@@ -13,6 +13,12 @@
 			"frames": ["thonet-chair", "moulded-plywood"]
 		},
 		{
+			"id": "forge",
+			"title": "Metal by fire",
+			"labelKind": "date",
+			"frames": ["coalbrookdale", "steam-hammer", "arc-welding"]
+		},
+		{
 			"id": "machine-tools",
 			"title": "Machines that make machines",
 			"labelKind": "date",

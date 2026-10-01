@@ -1,0 +1,221 @@
+{
+	"id": "coalbrookdale",
+	"topic": "Coalbrookdale and the Iron Bridge",
+	"position": {
+		"label": "1709",
+		"sort": 1709
+	},
+	"scene": {
+		"headline": "We framed iron like",
+		"accent": "TIMBER.",
+		"palette": "scale",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COALBROOKDALE · SHROPSHIRE · ABRAHAM DARBY I AND III",
+			"COKE-SMELTED CAST IRON · CARPENTERS' JOINTS"
+		],
+		"counter": {
+			"value": "70%",
+			"label": "of the Iron Bridge's parts cast individually to fit"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/steam",
+			"why": "From 1723 Coalbrookdale cast the cylinders for Newcomen's pumping engines, the engines whose wasted heat Watt's separate condenser saved."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Iron Bridge: How Was It Built?",
+			"authors": [
+				{
+					"family": "de Haan",
+					"given": "David"
+				}
+			],
+			"container": "BBC History",
+			"publisher": "BBC",
+			"published": "2011-02-17",
+			"url": "https://www.bbc.co.uk/history/british/victorians/iron_bridge_01.shtml",
+			"accessed": "2026-09-30",
+			"note": "The half-size model, the erection sequence, the joints and the count of castings; read through the Wayback Machine"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Letter on the Darby Ironworks at Coalbrookdale, 1708–1763",
+			"authors": [
+				{
+					"family": "Darby",
+					"given": "Abiah"
+				}
+			],
+			"published": "1775",
+			"circa": true,
+			"url": "http://unenumerated.blogspot.com/2006/01/letter-from-industrial-revolution.html",
+			"accessed": "2026-09-30",
+			"note": "Read in a transcription posted by Nick Szabo from a University of Massachusetts Dartmouth course document"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Iron Bridge",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Iron_Bridge&oldid=1373531328",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Iron Bridge (Ironbridge, Shropshire) 3D CAD Model Created by English Heritage",
+			"authors": [
+				{
+					"family": "McManus",
+					"given": "Sean"
+				}
+			],
+			"container": "Bridge Design & Engineering",
+			"published": "2002",
+			"url": "https://www.sean.co.uk/a/science/ironbridge.shtm",
+			"accessed": "2026-09-30",
+			"note": "Bill Blake on the survey: parts made to fit, the misfits, the 200 bolts"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Abraham Darby I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abraham_Darby_I&oldid=1369657919",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Coalbrookdale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Coalbrookdale&oldid=1373875087",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Abraham Darby III",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abraham_Darby_III&oldid=1377490450",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cast iron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cast_iron&oldid=1376469178",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Coke (fuel)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Coke_(fuel)&oldid=1375077185",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "web",
+			"title": "History of Iron Bridge",
+			"authors": [
+				{
+					"name": "English Heritage"
+				}
+			],
+			"publisher": "English Heritage",
+			"url": "https://www.english-heritage.org.uk/visit/places/iron-bridge/history/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Iron Bridge",
+			"container": "Grace's Guide to British Industrial History",
+			"url": "https://www.gracesguide.co.uk/Iron_Bridge",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "The Iron Bridge",
+			"container": "Designing Buildings Wiki",
+			"url": "https://www.designingbuildings.co.uk/wiki/The_Iron_Bridge",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "The Iron Bridge under construction, July 1779, watercolour",
+			"url": "https://commons.wikimedia.org/wiki/File:Elias_Martin_Iron_Bridge.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "elias-martin-1779.jpg",
+			"authors": [
+				{
+					"family": "Martin",
+					"given": "Elias"
+				}
+			],
+			"published": "1779"
+		},
+		{
+			"kind": "media",
+			"title": "Joint details on the Iron Bridge, photographed in 1970",
+			"url": "https://commons.wikimedia.org/wiki/File:The_Iron_Bridge,_Ironbridge_-_joint_details_-_geograph.org.uk_-_7788935.jpg",
+			"accessed": "2026-09-30",
+			"container": "Geograph Britain and Ireland, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "iron-bridge-joints.jpg",
+			"authors": [
+				{
+					"name": "Martin Tester"
+				}
+			],
+			"published": "1970-06-14"
+		}
+	]
+}

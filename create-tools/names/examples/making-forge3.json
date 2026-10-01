@@ -1,0 +1,32 @@
+{
+	"making/coalbrookdale": [
+		["The Iron Bridge", "the-iron-bridge"],
+		["Coalbrookdale", "coalbrookdale"],
+		["Abraham Darby I", "abraham-darby-i"],
+		["coke", "coke-fuel"],
+		["Abiah Darby", "abiah-darby"],
+		["Newcomen", "thomas-newcomen"],
+		["Thomas Farnolls Pritchard", "thomas-farnolls-pritchard"],
+		["Abraham Darby III", "abraham-darby-iii"]
+	],
+	"making/steam-hammer": [
+		["James Nasmyth", "james-nasmyth"],
+		["SS _Great Britain_", "ss-great-britain"],
+		["steam hammer", "steam-hammer"],
+		["James Watt", "james-watt"],
+		["Isambard Kingdom Brunel", "isambard-kingdom-brunel"],
+		["François Bourdon", "francois-bourdon"],
+		["Le Creusot", "le-creusot"],
+		["forging", "forging"]
+	],
+	"making/arc-welding": [
+		["Humphry Davy", "humphry-davy"],
+		["Royal Institution", "royal-institution"],
+		["arc welding", "arc-welding"],
+		["Nikolay Benardos", "nikolay-benardos"],
+		["Stanisław Olszewski", "stanislaw-olszewski"],
+		["Nikolay Slavyanov", "nikolay-slavyanov"],
+		["Oscar Kjellberg", "oscar-kjellberg"],
+		["Liberty ship", "liberty-ship"]
+	]
+}
