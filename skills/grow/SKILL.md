@@ -532,6 +532,13 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   frames do not show the same picture.
 - **An image that is not freely licensed** (an archive photograph) is not
   used: describe it in the reading and cite the archive's page as `web`.
+- **A photograph of a sculpture or a memorial** is the sculptor's work
+  too, and the United States has no freedom of panorama for sculpture: a
+  photographer's free licence does not free a recent one (sprint 030 left
+  out the Vietnam Women's Memorial of 1993). **An old photograph with no
+  named author**, tagged `PD-old-70` on Commons, is free in the United
+  States only if it was published before 1931: without evidence that it
+  was, leave it out (sprint 030 dropped one).
 - **A page of a scanned book** that is public domain may be a PDF or DjVu
   on Commons (`commons_media fetch … --page N`) or come from outside
   Commons (an Internet Archive item). For the second, cut the page out
@@ -539,8 +546,8 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   scales it down and writes a JPEG (`jpeg` converts one you cropped
   yourself, a PNG's transparency onto white, where a plain conversion
   turns it black); keep the file under 350 KB, and write its `media`
-  citation by hand, citing the item's page and the
-  work's own date. Check the licence on the copy you use: the same volume
+  citation by hand, citing the leaf's own page
+  (`https://archive.org/details/<item>/page/n<N>`) and the work's own date. Check the licence on the copy you use: the same volume
   can be public domain from one library and CC BY-NC from another (sprint
   024).
 - **A book with editors** (an edited volume, a posthumous collection)
@@ -557,7 +564,12 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   the RFC Editor (or, for the early ones, the Network Working Group) as
   `publisher`, and `doi` `10.17487/RFC0791`. A thesis is a `report` with
   the university as `publisher`. A patent is `web`, its number in the
-  title. A work read in a copy (a transcript, a mirror, a later edition)
+  title. An act of Congress, or any statute, is a `chapter` with the
+  statute book as `container` ("United States Statutes at Large, vol.
+  35"), its law number in the title, and its `pages`; a court opinion is
+  `web`, with the court as an author `name` and the case and its reporter
+  citation as the title (sprint 030 cited both, and found the skill
+  silent). A work read in a copy (a transcript, a mirror, a later edition)
   is cited as the work, with a `note` naming the copy you read. **When no
   official copy exists anywhere** (a military handbook found only on an
   enthusiasts' site), cite the work with the mirror's `url` and `"mirror":

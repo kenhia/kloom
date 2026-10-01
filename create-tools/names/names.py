@@ -217,7 +217,8 @@ def unexpected(found, expect):
             what = ', '.join(found['instance_of']) or 'no class'
             return (f"\"{found['name']}\"'s Wikidata item {found['wikidata']} is a {what} "
                     f"({found.get('item_description') or 'no description'}), which does not say {expect!r}: "
-                    f"find the item the article means on Wikidata")
+                    f"read the item; if it is the thing meant, described in other words, keep it, "
+                    f"and if it is something else, find the item the article means on Wikidata")
     return None
 
 
@@ -269,7 +270,7 @@ def bold_elsewhere(reading, words, a, b):
     ("**Antimony**", "**electrons**" for "electron"), and holds no mark of its own. It is the
     mention the author meant; a mark that lands elsewhere is on a passing mention, a quotation
     or a different case (sprints 024 and 025: eleven authors)."""
-    want = ' '.join(words.split()).lower()
+    want = ' '.join(words.split()).lower().strip('_*.,;:')   # a spec's italic words, as the bold run is read
     for m in BOLD.finditer(reading):
         text = ' '.join(m.group(1).split()).lower().strip('_*.,;:')
         if 'kloom:e/' in text or text not in (want, want + 's', want + 'es'):
@@ -550,10 +551,10 @@ def mark_one(args, spec_path, known):
     """One spec's marks; returns how many problems it found."""
     failed = 0
     for ref, pairs in json.loads(spec_path.read_text()).items():
-        for words, name in pairs:
-            if name not in known:
-                print(f'{ref}: {name} is not in the registry or a draft', file=sys.stderr)
-                failed += 1
+        unknown = [name for _, name in pairs if name not in known]
+        for name in unknown:
+            print(f'{ref}: {name} is not in the registry or a draft', file=sys.stderr)
+            failed += 1
         path = Path(args.root) / ref.split('/')[0] / 'frames' / ref.split('/')[1] / 'reading.md'
         reading = before = path.read_text()
         landed = []
@@ -583,6 +584,10 @@ def mark_one(args, spec_path, known):
                 failed += 1
             elif args.check:
                 print(f'{ref}: {len(landed)} marks would place')
+            elif unknown:
+                # Placing a mark on no name writes a frame the gate refuses (sprint 030), so a frame
+                # with one is left as it was, and every mark waits for the name to be added.
+                print(f'{ref}: not marked, until {", ".join(unknown)} is added', file=sys.stderr)
             else:
                 path.write_text(reading)
                 print(f'{ref}: marked {len(landed)}')
