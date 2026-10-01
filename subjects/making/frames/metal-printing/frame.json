@@ -241,5 +241,11 @@
 			],
 			"published": "2014-05-29"
 		}
+	],
+	"connections": [
+		{
+			"to": "making/laser-sintering",
+			"why": "Laser melting of metal grew from laser sintering, which only partly melts the grains or holds them with a binder."
+		}
 	]
 }

@@ -204,6 +204,10 @@
 		{
 			"to": "computing/free-software",
 			"why": "RepRap's designs were released under the GNU General Public License, the copyleft licence the Free Software Foundation wrote in 1989, so that every improved printer had to be published on the same terms."
+		},
+		{
+			"to": "making/fdm",
+			"why": "RepRap named its extruding process fused filament fabrication because FDM, the obvious name, was Stratasys's trademark."
 		}
 	]
 }
