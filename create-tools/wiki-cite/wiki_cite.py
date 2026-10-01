@@ -53,6 +53,8 @@ def revisions(titles):
             if not page or 'missing' in page:
                 print(f'wiki_cite: no article "{t}"', file=sys.stderr)
                 continue
+            if name != t and name.lower() != t.lower().replace('_', ' '):
+                print(f'wiki_cite: "{t}" is cited as "{name}"', file=sys.stderr)
             rev = page['revisions'][0]
             out[t] = (name, rev['revid'], rev['timestamp'][:10])
     return out

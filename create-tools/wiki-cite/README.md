@@ -15,7 +15,10 @@ python3 create-tools/wiki-cite/wiki_cite.py --text .scratch/wiki "ENIAC"   # and
   `accessed` date defaults to today.
 - Redirects and title normalisation are followed, titles that land on one
   article give one citation, and the canonical title is
-  used. A missing article is named on stderr and exits 1,
+  used. A title cited as another article is named on stderr ("Leaded
+  gasoline" is cited as "Gasoline"), since the article it lands on may be
+  a wider thing, and `--text` saves the text under that article's name
+  (sprint 025). A missing article is named on stderr and exits 1,
   after the citations that were found are printed.
 - Standard library only; it queries the MediaWiki API at en.wikipedia.org.
 

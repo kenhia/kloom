@@ -39,8 +39,10 @@ npx prettier --write subjects/ai
   lost the working tree's trails to it twice. Sprint 014's authors each improvised this. A finished trail frame
   whose anchor is not written yet is on no spine, so the copy leaves it out
   and names it rather than failing every author on it (sprint 015). To check such a trail before its anchor lands, copy any finished main-spine
-  frame into `DIR/<subject>/frames/<anchor>` as a stand-in (change its `id`
-  and accent, and strip its name marks), copy your trail frames in beside
+  frame into `DIR/<subject>/frames/<anchor>` as a stand-in (change its `id`,
+  accent and `topic`, give it the anchor's `position` (a `sort` in a
+  `date` segment, none in a `category` one), and strip its name marks and
+  `connections`; sprint 025's authors hit each of these), copy your trail frames in beside
   it, run `subject_plan.py <plan> DIR/<subject>` on the copy (the rule
   against running it without `--complete` is about the live subject), and
   re-run the tests on the copy. To test marks as well, place them in the
