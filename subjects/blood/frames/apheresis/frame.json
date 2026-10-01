@@ -1,0 +1,158 @@
+{
+	"id": "apheresis",
+	"topic": "Apheresis and the cell separator",
+	"position": {
+		"label": "1965",
+		"sort": 1965
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "We spun the blood and gave it",
+		"accent": "BACK.",
+		"palette": "ward",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NATIONAL CANCER INSTITUTE · IBM ENDICOTT",
+			"EMIL J. FREIREICH · GEORGE JUDSON · CONTINUOUS FLOW"
+		],
+		"counter": {
+			"value": "500 mL",
+			"label": "the most blood the 1965 separator held outside the donor"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Separation and Collection of Leukocytes",
+			"authors": [
+				{
+					"family": "Freireich",
+					"given": "Emil J."
+				},
+				{
+					"family": "Judson",
+					"given": "George"
+				},
+				{
+					"family": "Levin",
+					"given": "Robert H."
+				}
+			],
+			"container": "Cancer Research",
+			"volume": "25",
+			"issue": "9",
+			"pages": "1516–1520",
+			"published": "1965-10",
+			"url": "https://aacrjournals.org/cancerres/article/25/9_Part_1/1516/474964/Separation-and-Collection-of-Leukocytes",
+			"accessed": "2026-10-01",
+			"note": "The design list, the centrifuge, the 1965 results and the citrate studies. Read in the Wayback Machine's copy of the journal's PDF"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Interview with Emil J. Freireich",
+			"authors": [
+				{
+					"family": "Freireich",
+					"given": "Emil J."
+				}
+			],
+			"publisher": "National Institutes of Health, NCI Oral History Project",
+			"place": "Bethesda, Maryland",
+			"published": "1997-06-19",
+			"url": "https://history.nih.gov/archives/downloads/freireich.pdf",
+			"accessed": "2026-10-01",
+			"note": "His telling, pp. 59–73: the two-bag plateletpheresis, granulocytes and George Judson. Read in the Wayback Machine's copy"
+		},
+		{
+			"kind": "web",
+			"title": "US Patent 3,489,145: Method and Apparatus for Continuous Separation of Blood in Vivo",
+			"authors": [
+				{
+					"family": "Judson",
+					"given": "George T."
+				},
+				{
+					"family": "Freireich",
+					"given": "Emil J."
+				}
+			],
+			"publisher": "United States Patent Office",
+			"published": "1970-01-13",
+			"url": "https://patents.google.com/patent/US3489145A/en",
+			"accessed": "2026-10-01",
+			"note": "Filed 8 August 1966; assigned to the United States as represented by the Surgeon General"
+		},
+		{
+			"kind": "web",
+			"title": "21 CFR Part 640, Subpart C—Platelets (§§ 640.20–640.25)",
+			"container": "Electronic Code of Federal Regulations",
+			"publisher": "US National Archives and Records Administration",
+			"url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-F/part-640/subpart-C",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Apheresis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apheresis&oldid=1372025597",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plateletpheresis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plateletpheresis&oldid=1372178795",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Emil J. Freireich",
+			"url": "https://en.wikipedia.org/w/index.php?title=Emil_J._Freireich&oldid=1372339784",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "media",
+			"title": "Method and apparatus for continuous separation of blood in vivo, sheet 1, figure 1",
+			"url": "https://patents.google.com/patent/US3489145A/en",
+			"accessed": "2026-10-01",
+			"container": "US Patent 3,489,145 (filed 1966, granted 1970)",
+			"authors": [
+				{
+					"family": "Judson",
+					"given": "George T."
+				},
+				{
+					"family": "Freireich",
+					"given": "Emil J."
+				}
+			],
+			"published": "1970-01-13",
+			"licence": "Public domain (US patent drawing)",
+			"file": "judson-freireich-patent-fig1.jpg"
+		}
+	]
+}

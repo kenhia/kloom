@@ -1,0 +1,200 @@
+{
+	"id": "bone-marrow",
+	"topic": "Bone marrow transplantation",
+	"position": {
+		"label": "1957–69",
+		"sort": 1957
+	},
+	"scene": {
+		"headline": "We rebuilt the blood from a",
+		"accent": "TWIN.",
+		"palette": "ward",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COOPERSTOWN · SEATTLE · E. DONNALL THOMAS",
+			"IRRADIATE · ASPIRATE · SCREEN · INFUSE"
+		],
+		"counter": {
+			"value": "25",
+			"label": "marrow aspirations from the donor twin in one operation, 1958"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Bone Marrow Transplantation: Past, Present and Future",
+			"authors": [
+				{
+					"family": "Thomas",
+					"given": "E. Donnall"
+				}
+			],
+			"container": "Nobel Lecture, 8 December 1990",
+			"publisher": "The Nobel Foundation",
+			"published": "1990-12-08",
+			"url": "https://www.nobelprize.org/uploads/2018/06/thomas-lecture.pdf",
+			"accessed": "2026-10-01",
+			"note": "His telling of the work from 1955 to 1990, with the 1957 and 1959 papers quoted. Read in the Wayback Machine's copy"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Supralethal Whole Body Irradiation and Isologous Marrow Transplantation in Man",
+			"authors": [
+				{
+					"family": "Thomas",
+					"given": "E. Donnall"
+				},
+				{
+					"family": "Lochte",
+					"given": "Harry L., Jr."
+				},
+				{
+					"family": "Cannon",
+					"given": "Joe H."
+				},
+				{
+					"family": "Sahler",
+					"given": "Otto D."
+				},
+				{
+					"family": "Ferrebee",
+					"given": "Joseph W."
+				}
+			],
+			"container": "Journal of Clinical Investigation",
+			"volume": "38",
+			"pages": "1709–1716",
+			"published": "1959",
+			"doi": "10.1172/JCI103949",
+			"accessed": "2026-10-01",
+			"note": "The twins, and the marrow collection (p. 1710)"
+		},
+		{
+			"kind": "article",
+			"title": "Intravenous Infusion of Bone Marrow in Patients Receiving Radiation and Chemotherapy",
+			"authors": [
+				{
+					"family": "Thomas",
+					"given": "E. Donnall"
+				},
+				{
+					"family": "Lochte",
+					"given": "Harry L., Jr."
+				},
+				{
+					"family": "Lu",
+					"given": "W. C."
+				},
+				{
+					"family": "Ferrebee",
+					"given": "Joseph W."
+				}
+			],
+			"container": "New England Journal of Medicine",
+			"volume": "257",
+			"issue": "11",
+			"pages": "491–496",
+			"published": "1957-09-12",
+			"doi": "10.1056/NEJM195709122571102",
+			"accessed": "2026-10-01",
+			"citedIn": "Thomas, Nobel Lecture (1990), p. 577"
+		},
+		{
+			"kind": "chapter",
+			"title": "Bone Marrow Harvesting for HSCT",
+			"authors": [
+				{
+					"family": "Gorin",
+					"given": "Norbert Claude"
+				}
+			],
+			"container": "The EBMT Handbook: Hematopoietic Stem Cell Transplantation and Cellular Therapies",
+			"editors": [
+				{
+					"family": "Carreras",
+					"given": "Enric"
+				},
+				{
+					"family": "Dufour",
+					"given": "Carlo"
+				},
+				{
+					"family": "Mohty",
+					"given": "Mohamad"
+				},
+				{
+					"family": "Kröger",
+					"given": "Nicolaus"
+				}
+			],
+			"edition": "7th ed.",
+			"pages": "109–115",
+			"publisher": "Springer",
+			"place": "Cham",
+			"published": "2019",
+			"doi": "10.1007/978-3-030-02278-5_14",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "E. Donnall Thomas",
+			"url": "https://en.wikipedia.org/w/index.php?title=E._Donnall_Thomas&oldid=1371988162",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hematopoietic stem cell transplantation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hematopoietic_stem_cell_transplantation&oldid=1374848577",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Graft-versus-host disease",
+			"url": "https://en.wikipedia.org/w/index.php?title=Graft-versus-host_disease&oldid=1365490835",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "media",
+			"title": "Surgical technician places harvested bone marrow into a sterile bag, Georgetown University Hospital, 4 December 2002 (US Navy 021204-N-0696M-171)",
+			"url": "https://commons.wikimedia.org/wiki/File:US_Navy_021204-N-0696M-171_Surgical_technician_Amina_Sherali_places_recently_transfused_bone_marrow_from_Aviation_Electronics_Technician_1st_Class_Michael_Griffioen_into_a_sterile_bag_in_preparation_for_transplant.jpg",
+			"accessed": "2026-10-01",
+			"container": "US Navy, via Wikimedia Commons",
+			"authors": [
+				{
+					"family": "McNeeley",
+					"given": "Chad"
+				}
+			],
+			"published": "2002-12-04",
+			"licence": "Public domain (work of the US Navy)",
+			"file": "navy-marrow-harvest.jpg"
+		}
+	]
+}

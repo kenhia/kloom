@@ -1,0 +1,293 @@
+{
+	"id": "cryoprecipitate",
+	"topic": "Pool's cryoprecipitate",
+	"position": {
+		"label": "1964",
+		"sort": 1964
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "We found the missing factor in the",
+		"accent": "COLD.",
+		"palette": "cryo",
+		"illustration": "scene.svg",
+		"metadata": [
+			"STANFORD · CUTTER LABORATORIES · JUDITH GRAHAM POOL",
+			"FREEZE · THAW AT 4 °C · SPIN · KEEP THE PASTE"
+		],
+		"counter": {
+			"value": "50×",
+			"label": "factor VIII per gram of protein in the cold paste, 1964"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "High-potency Antihæmophilic Factor Concentrate prepared from Cryoglobulin Precipitate",
+			"authors": [
+				{
+					"family": "Pool",
+					"given": "Judith G."
+				},
+				{
+					"family": "Hershgold",
+					"given": "Edward J."
+				},
+				{
+					"family": "Pappenhagen",
+					"given": "Albert R."
+				}
+			],
+			"container": "Nature",
+			"volume": "203",
+			"issue": "4942",
+			"pages": "312",
+			"published": "1964-07-18",
+			"doi": "10.1038/203312a0",
+			"accessed": "2026-10-01",
+			"note": "The clarification residue, the fifty-fold step and the four patients"
+		},
+		{
+			"kind": "article",
+			"title": "Production of High-Potency Concentrates of Antihemophilic Globulin in a Closed-Bag System: Assay in Vitro and in Vivo",
+			"authors": [
+				{
+					"family": "Pool",
+					"given": "Judith Graham"
+				},
+				{
+					"family": "Shannon",
+					"given": "Angela E."
+				}
+			],
+			"container": "New England Journal of Medicine",
+			"volume": "273",
+			"issue": "27",
+			"pages": "1443–1447",
+			"published": "1965-12-30",
+			"doi": "10.1056/NEJM196512302732701",
+			"accessed": "2026-10-01",
+			"abstractOnly": true,
+			"note": "Only the opening paragraph, in the publisher's free preview, was read"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Management in Military Blood Banking for Conservation of Blood Resources: New Aspects Concerning the Blood Donor Base",
+			"authors": [
+				{
+					"family": "Camp",
+					"given": "Frank R., Jr."
+				},
+				{
+					"family": "Conte",
+					"given": "Nicholas F."
+				},
+				{
+					"family": "Dawson",
+					"given": "R. Ben, Jr."
+				},
+				{
+					"family": "Coley",
+					"given": "Virgil R."
+				},
+				{
+					"family": "Arnoldin",
+					"given": "John D."
+				},
+				{
+					"family": "Hogan",
+					"given": "James M."
+				}
+			],
+			"container": "Military Blood Banking 1941–1973: Lessons Learned Applicable to Civil Disasters and Other Considerations",
+			"number": "USAMRL Report No. 964",
+			"editors": [
+				{
+					"family": "Camp",
+					"given": "Frank R., Jr."
+				},
+				{
+					"family": "Conte",
+					"given": "Nicholas F."
+				},
+				{
+					"family": "Brewer",
+					"given": "Jerry R."
+				}
+			],
+			"publisher": "US Army Medical Research Laboratory",
+			"place": "Fort Knox, Kentucky",
+			"published": "1973",
+			"pages": "155–183",
+			"url": "https://apps.dtic.mil/sti/citations/AD0779626",
+			"accessed": "2026-10-01",
+			"note": "Report of 16 February 1972, Annex K of the monograph: the cryoprecipitate procedure (pp. 12–13), costs and dosage. Read in the Internet Archive's scan of DTIC AD-779 626"
+		},
+		{
+			"kind": "article",
+			"title": "The Discovery of Cryoprecipitate as a Modality for Hemophilia A: Augmenting the Allocation of Credit",
+			"authors": [
+				{
+					"family": "Farrugia",
+					"given": "Albert"
+				},
+				{
+					"family": "Smit Sibinga",
+					"given": "Cees Th."
+				}
+			],
+			"container": "Transfusion",
+			"volume": "61",
+			"issue": "8",
+			"pages": "2517–2518",
+			"published": "2021",
+			"doi": "10.1111/trf.16562",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Factor VIII Manufactured from Plasma—the Ups and Downs, and the Up Again: A Personal Journey—Part 1: History of the Development of Plasma-Derived Factor VIII Therapies",
+			"authors": [
+				{
+					"family": "Farrugia",
+					"given": "Albert"
+				}
+			],
+			"container": "Annals of Blood",
+			"volume": "3",
+			"published": "2018-02-28",
+			"doi": "10.21037/aob.2018.02.04",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"title": "Memorial Resolution: Judith Graham Pool (1919–1975)",
+			"authors": [
+				{
+					"family": "Creger",
+					"given": "William P."
+				},
+				{
+					"family": "Maffly",
+					"given": "Roy"
+				},
+				{
+					"family": "Payne",
+					"given": "Rose"
+				}
+			],
+			"publisher": "Stanford University",
+			"place": "Stanford, California",
+			"url": "http://histsoc.stanford.edu/pdfmem/PoolJ.pdf",
+			"accessed": "2026-10-01",
+			"note": "Read in the Wayback Machine's copy of 2012"
+		},
+		{
+			"kind": "article",
+			"title": "Cryoprecipitate Therapy",
+			"authors": [
+				{
+					"family": "Nascimento",
+					"given": "Bartolomeu"
+				},
+				{
+					"family": "Goodnough",
+					"given": "Lawrence T."
+				},
+				{
+					"family": "Levy",
+					"given": "Jerrold H."
+				}
+			],
+			"container": "British Journal of Anaesthesia",
+			"volume": "113",
+			"issue": "6",
+			"pages": "922–934",
+			"published": "2014",
+			"doi": "10.1093/bja/aeu158",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "21 CFR Part 640, Subpart F—Cryoprecipitate (§§ 640.50–640.56)",
+			"container": "Electronic Code of Federal Regulations",
+			"publisher": "US National Archives and Records Administration",
+			"url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-F/part-640/subpart-F",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Judith Graham Pool",
+			"url": "https://en.wikipedia.org/w/index.php?title=Judith_Graham_Pool&oldid=1372034933",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cryoprecipitate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cryoprecipitate&oldid=1319144462",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Factor VIII",
+			"url": "https://en.wikipedia.org/w/index.php?title=Factor_VIII&oldid=1337702936",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Haemophilia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Haemophilia&oldid=1369030747",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "media",
+			"title": "Draining plasma (Fig. 15), Blood Bank Center, US Army Medical Research Laboratory, Fort Knox",
+			"url": "https://apps.dtic.mil/sti/citations/AD0779626",
+			"accessed": "2026-10-01",
+			"container": "Military Blood Banking 1941–1973, USAMRL Report No. 964, p. 14",
+			"authors": [
+				{
+					"name": "US Army Medical Research Laboratory"
+				}
+			],
+			"published": "1972",
+			"licence": "Public domain (work of the US Army)",
+			"file": "fort-knox-draining-plasma.jpg"
+		}
+	]
+}

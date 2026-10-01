@@ -30,7 +30,15 @@
 			"id": "uses",
 			"title": "What we do with blood",
 			"labelKind": "date",
-			"frames": ["rhogam", "gift-relationship", "hepatitis"]
+			"frames": [
+				"fractionation",
+				"bone-marrow",
+				"cryoprecipitate",
+				"apheresis",
+				"rhogam",
+				"gift-relationship",
+				"hepatitis"
+			]
 		},
 		{
 			"id": "bench",
