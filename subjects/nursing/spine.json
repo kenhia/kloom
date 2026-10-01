@@ -18,7 +18,15 @@
 			"id": "nightingale",
 			"title": "Nightingale and the profession",
 			"labelKind": "date",
-			"frames": ["scutari", "seacole", "rose-diagram"]
+			"frames": [
+				"scutari",
+				"seacole",
+				"rose-diagram",
+				"notes-on-nursing",
+				"nightingale-school",
+				"red-cross",
+				"vital-signs"
+			]
 		},
 		{
 			"id": "dedication-seg",

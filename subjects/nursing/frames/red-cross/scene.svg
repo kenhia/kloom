@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M75 93 L75 207"/>
+		<path pathLength="1" d="M63 105 L177 105"/>
+		<path pathLength="1" d="M105 93 L105 207"/>
+		<path pathLength="1" d="M63 135 L177 135"/>
+		<path pathLength="1" d="M135 93 L135 207"/>
+		<path pathLength="1" d="M63 165 L177 165"/>
+		<path pathLength="1" d="M165 93 L165 207"/>
+		<path pathLength="1" d="M63 195 L177 195"/>
+		<path pathLength="1" d="M56.4 150 a63.6 63.6 0 1 0 127.3 0 a63.6 63.6 0 1 0 -127.3 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M35 75 L205 75 L205 225 L35 225 Z"/>
+		<path pathLength="1" d="M105 105 L135 105 L135 135 L165 135 L165 165 L135 165 L135 195 L105 195 L105 165 L75 165 L75 135 L105 135 Z"/>
+		<path pathLength="1" d="M35 75 L35 270"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M105 135 L135 135 L135 165 L105 165 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M266 60 L266 250"/>
+		<path pathLength="1" d="M334 60 L334 250"/>
+		<path pathLength="1" d="M266 60 a34 10 0 1 0 68 0 a34 10 0 1 0 -68 0"/>
+		<path pathLength="1" d="M334 250 L333.8 251 L333.3 252 L332.5 252.9 L331.4 253.8 L330 254.7 L328.3 255.6 L326.3 256.3 L324 257.1 L321.6 257.7 L318.9 258.3 L316 258.8 L313 259.2 L309.9 259.6 L306.6 259.8 L303.3 260 L300 260 L296.7 260 L293.4 259.8 L290.1 259.6 L287 259.2 L284 258.8 L281.1 258.3 L278.4 257.7 L276 257.1 L273.7 256.3 L271.7 255.6 L270 254.7 L268.6 253.8 L267.5 252.9 L266.7 252 L266.2 251 L266 250"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M334 120 L333.8 121 L333.3 122 L332.5 122.9 L331.4 123.8 L330 124.7 L328.3 125.6 L326.3 126.3 L324 127.1 L321.6 127.7 L318.9 128.3 L316 128.8 L313 129.2 L309.9 129.6 L306.6 129.8 L303.3 130 L300 130 L296.7 130 L293.4 129.8 L290.1 129.6 L287 129.2 L284 128.8 L281.1 128.3 L278.4 127.7 L276 127.1 L273.7 126.3 L271.7 125.6 L270 124.7 L268.6 123.8 L267.5 122.9 L266.7 122 L266.2 121 L266 120"/>
+		<path pathLength="1" d="M334 170 L333.8 171 L333.3 172 L332.5 172.9 L331.4 173.8 L330 174.7 L328.3 175.6 L326.3 176.3 L324 177.1 L321.6 177.7 L318.9 178.3 L316 178.8 L313 179.2 L309.9 179.6 L306.6 179.8 L303.3 180 L300 180 L296.7 180 L293.4 179.8 L290.1 179.6 L287 179.2 L284 178.8 L281.1 178.3 L278.4 177.7 L276 177.1 L273.7 176.3 L271.7 175.6 L270 174.7 L268.6 173.8 L267.5 172.9 L266.7 172 L266.2 171 L266 170"/>
+		<path pathLength="1" d="M266 120 L266.2 119 L266.7 118 L267.5 117.1 L268.6 116.2 L270 115.3 L271.7 114.4 L273.7 113.7 L276 112.9 L278.4 112.3 L281.1 111.7 L284 111.2 L287 110.8 L290.1 110.4 L293.4 110.2 L296.7 110 L300 110 L303.3 110 L306.6 110.2 L309.9 110.4 L313 110.8 L316 111.2 L318.9 111.7 L321.6 112.3 L324 112.9 L326.3 113.7 L328.3 114.4 L330 115.3 L331.4 116.2 L332.5 117.1 L333.3 118 L333.8 119 L334 120"/>
+		<path pathLength="1" d="M293 133.8 L295.3 133.9 L297.7 134 L300 134 L302.3 134 L304.7 133.9 L307 133.8 L307 136.1 L307 138.5 L307 140.8 L307 143.1 L307 145.5 L307 147.8 L309.2 147.6 L311.4 147.4 L313.6 147.2 L315.7 146.9 L317.7 146.5 L319.7 146.2 L319.7 148.5 L319.7 150.8 L319.7 153.2 L319.7 155.5 L319.7 157.8 L319.7 160.2 L317.7 160.5 L315.7 160.9 L313.6 161.2 L311.4 161.4 L309.2 161.6 L307 161.8 L307 164.1 L307 166.5 L307 168.8 L307 171.1 L307 173.5 L307 175.8 L304.7 175.9 L302.3 176 L300 176 L297.7 176 L295.3 175.9 L293 175.8 L293 173.5 L293 171.1 L293 168.8 L293 166.5 L293 164.1 L293 161.8 L290.8 161.6 L288.6 161.4 L286.4 161.2 L284.3 160.9 L282.3 160.5 L280.3 160.2 L280.3 157.8 L280.3 155.5 L280.3 153.2 L280.3 150.8 L280.3 148.5 L280.3 146.2 L282.3 146.5 L284.3 146.9 L286.4 147.2 L288.6 147.4 L290.8 147.6 L293 147.8 L293 145.5 L293 143.1 L293 140.8 L293 138.5 L293 136.1 L293 133.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="120" y="242" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A RED CROSS ON A WHITE GROUND</text>
+		<text x="120" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FIVE SQUARES · BY CUSTOM</text>
+		<text x="300" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARM-BADGE · ART. 7</text>
+		<text x="300" y="40" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GENEVA · 1864</text>
+	</g>
+</svg>

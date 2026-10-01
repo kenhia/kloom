@@ -1,0 +1,233 @@
+{
+	"id": "nightingale-school",
+	"topic": "The Nightingale school",
+	"position": {
+		"label": "1860",
+		"sort": 1860
+	},
+	"scene": {
+		"headline": "We went to",
+		"accent": "SCHOOL.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": ["ST THOMAS' HOSPITAL · LONDON", "SARAH WARDROPER · THE NIGHTINGALE FUND"],
+		"counter": {
+			"value": "15",
+			"label": "probationers admitted for a year in 1860"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "The Life of Florence Nightingale",
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Edward"
+				}
+			],
+			"volume": "1",
+			"publisher": "Macmillan",
+			"place": "London",
+			"published": "1913",
+			"url": "https://www.gutenberg.org/ebooks/40057",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "The Fund, the agreement with St Thomas', the Monthly Sheet, the home and the first year (pt. 5, ch. 1)"
+		},
+		{
+			"kind": "report",
+			"title": "Duties of Probationers under the Nightingale Fund",
+			"publisher": "Committee of the Council of the Nightingale Fund",
+			"place": "London",
+			"published": "1861",
+			"citedIn": "Lessons from the Life of Florence Nightingale"
+		},
+		{
+			"kind": "book",
+			"title": "Lessons from the Life of Florence Nightingale",
+			"authors": [
+				{
+					"family": "Aikens",
+					"given": "Charlotte A."
+				}
+			],
+			"publisher": "Lakeside Publishing Company",
+			"place": "New York",
+			"published": "1915",
+			"url": "https://www.gutenberg.org/ebooks/74935",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Quotes the \"Duties of Probationers\" from the committee's first report"
+		},
+		{
+			"kind": "book",
+			"title": "A History of Nursing",
+			"authors": [
+				{
+					"family": "Nutting",
+					"given": "M. Adelaide"
+				},
+				{
+					"family": "Dock",
+					"given": "Lavinia L."
+				}
+			],
+			"volume": "2",
+			"publisher": "G. P. Putnam's Sons",
+			"place": "New York",
+			"published": "1907",
+			"url": "https://archive.org/details/historynursing02nutt",
+			"accessed": "2026-10-01",
+			"note": "The opening on 15 June 1860, and the nurses sent out (pp. 181–184)"
+		},
+		{
+			"kind": "book",
+			"title": "The Life of Florence Nightingale",
+			"authors": [
+				{
+					"family": "Tooley",
+					"given": "Sarah A."
+				}
+			],
+			"edition": "Memorial ed.",
+			"publisher": "Cassell",
+			"place": "London",
+			"published": "1916",
+			"url": "https://www.gutenberg.org/ebooks/72732",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Personalities, Preferences and Practicalities: Educating Nurses in Wound Sepsis in the British Hospital, 1870–1920",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Claire L."
+				},
+				{
+					"family": "Dupree",
+					"given": "Marguerite"
+				},
+				{
+					"family": "Hutchison",
+					"given": "Iain"
+				},
+				{
+					"family": "Gardiner",
+					"given": "Susan"
+				},
+				{
+					"family": "Rafferty",
+					"given": "Anne Marie"
+				}
+			],
+			"container": "Social History of Medicine",
+			"volume": "31",
+			"issue": "3",
+			"pages": "577–604",
+			"published": "2018",
+			"doi": "10.1093/shm/hkx016",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Florence Nightingale Faculty of Nursing, Midwifery and Palliative Care",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Nightingale_Faculty_of_Nursing,_Midwifery_and_Palliative_Care&oldid=1370213377",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sarah Elizabeth Wardroper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sarah_Elizabeth_Wardroper&oldid=1322316286",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "St Thomas' Hospital",
+			"url": "https://en.wikipedia.org/w/index.php?title=St_Thomas'_Hospital&oldid=1368176163",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Agnes Jones (nurse)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Agnes_Jones_(nurse)&oldid=1338530745",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lucy Osburn",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lucy_Osburn&oldid=1372548797",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Florence Nightingale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Nightingale&oldid=1375983362",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "Mrs Wardroper at her desk: superintendent of the Nightingale Fund Training School 1860–87",
+			"url": "https://commons.wikimedia.org/wiki/File:Mrs_Wardroper_at_her_desk._Wellcome_L0000024.jpg",
+			"accessed": "2026-10-01",
+			"licence": "CC BY 4.0",
+			"file": "wardroper.jpg",
+			"authors": [
+				{
+					"name": "Wellcome Collection"
+				}
+			],
+			"container": "Wellcome Collection, General Collections"
+		}
+	]
+}

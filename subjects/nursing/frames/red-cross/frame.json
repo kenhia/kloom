@@ -1,0 +1,173 @@
+{
+	"id": "red-cross",
+	"topic": "The Red Cross and Geneva",
+	"position": {
+		"label": "1863–64",
+		"sort": 1863
+	},
+	"scene": {
+		"headline": "The wounded became",
+		"accent": "NEUTRAL.",
+		"palette": "ledger",
+		"illustration": "scene.svg",
+		"metadata": ["SOLFERINO · GENEVA · 22 AUGUST 1864", "HENRY DUNANT · CLARA BARTON"],
+		"counter": {
+			"value": "10",
+			"label": "articles in the convention of 1864"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "Un souvenir de Solférino",
+			"authors": [
+				{
+					"family": "Dunant",
+					"given": "Henry"
+				}
+			],
+			"publisher": "Jules-Guillaume Fick",
+			"place": "Geneva",
+			"published": "1862",
+			"language": "fr",
+			"url": "https://fr.wikisource.org/wiki/Un_souvenir_de_Solf%C3%A9rino",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Castiglione, \"Tutti fratelli\", and the proposals for relief societies and a convention; quoted in our translation"
+		},
+		{
+			"kind": "web",
+			"title": "Convention for the Amelioration of the Condition of the Wounded in Armies in the Field; August 22, 1864",
+			"container": "The Avalon Project",
+			"publisher": "Lillian Goldman Law Library, Yale Law School",
+			"url": "https://avalon.law.yale.edu/19th_century/geneva04.asp",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "The ten articles in the US State Department's translation, with the dates of US accession (from Bevans, Treaties, vol. 1)"
+		},
+		{
+			"kind": "book",
+			"title": "The Life of Florence Nightingale",
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Edward"
+				}
+			],
+			"volume": "2",
+			"publisher": "Macmillan",
+			"place": "London",
+			"published": "1913",
+			"url": "https://www.gutenberg.org/ebooks/40058",
+			"accessed": "2026-10-01",
+			"note": "Dunant's London paper of 1872"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "International Committee of the Red Cross",
+			"url": "https://en.wikipedia.org/w/index.php?title=International_Committee_of_the_Red_Cross&oldid=1372454166",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Dunant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Dunant&oldid=1377847721",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A Memory of Solferino",
+			"url": "https://en.wikipedia.org/w/index.php?title=A_Memory_of_Solferino&oldid=1307282885",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "First Geneva Convention",
+			"url": "https://en.wikipedia.org/w/index.php?title=First_Geneva_Convention&oldid=1377874548",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Emblems of the International Red Cross and Red Crescent Movement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Emblems_of_the_International_Red_Cross_and_Red_Crescent_Movement&oldid=1376928016",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clara Barton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clara_Barton&oldid=1373184359",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04",
+			"key": true
+		},
+		{
+			"kind": "media",
+			"title": "First page of the 1864 Geneva Convention",
+			"url": "https://commons.wikimedia.org/wiki/File:1864_Geneva_Convention.jpg",
+			"accessed": "2026-10-01",
+			"licence": "CC BY-SA 2.0",
+			"file": "convention-1864.jpg",
+			"authors": [
+				{
+					"name": "International Committee of the Red Cross"
+				}
+			],
+			"container": "ICRC, via Flickr",
+			"published": "2013-03-06"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/drew-plasma",
+			"why": "The American Red Cross that Clara Barton founded in 1881 opened its first blood donor centre in New York in February 1941, for the dried-plasma programme."
+		}
+	]
+}
