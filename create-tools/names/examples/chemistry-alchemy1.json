@@ -1,0 +1,30 @@
+{
+	"chemistry/four-elements": [
+		["classical elements", "classical-element"],
+		["Empedocles", "empedocles"],
+		["Leucippus", "leucippus"],
+		["Democritus", "democritus"],
+		["Aristotle", "aristotle"],
+		["Plato", "plato"],
+		["_Timaeus_", "timaeus-dialogue"]
+	],
+	"chemistry/alexandrian-alchemy": [
+		["alchemy", "alchemy"],
+		["Alexandria", "alexandria"],
+		["Leyden papyrus X", "leyden-papyrus-x"],
+		["Stockholm papyrus", "papyrus-graecus-holmiensis"],
+		["Zosimos of Panopolis", "zosimos-of-panopolis"],
+		["Mary the Jewess", "mary-the-jewess"],
+		["Pliny the Elder", "pliny-the-elder"],
+		["mercury", "mercury-element"]
+	],
+	"chemistry/iron-gall-ink": [
+		["Iron gall ink", "iron-gall-ink"],
+		["Pliny the Elder", "pliny-the-elder"],
+		["Martianus Capella", "martianus-capella"],
+		["gallic acid", "gallic-acid"],
+		["Johann Sebastian Bach", "johann-sebastian-bach"],
+		["United States Declaration of Independence", "united-states-declaration-of-independence"],
+		["scriptorium", "scriptorium"]
+	]
+}

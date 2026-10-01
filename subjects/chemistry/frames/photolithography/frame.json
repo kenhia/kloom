@@ -1,0 +1,315 @@
+{
+	"id": "photolithography",
+	"topic": "Photoresists and lithography",
+	"position": {
+		"label": "Lithography"
+	},
+	"scene": {
+		"headline": "We printed the chip with",
+		"accent": "LIGHT.",
+		"palette": "coaltar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LE GRAS · DIAMOND ORDNANCE FUZE LABS · IBM SAN JOSE",
+			"BITUMEN · KPR · DNQ–NOVOLAC · t-BOC · 13.5 nm"
+		],
+		"counter": {
+			"value": "100–200×",
+			"label": "more sensitive: IBM's chemically amplified resist"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Patterning the World: The Rise of Chemically Amplified Photoresists",
+			"authors": [
+				{
+					"family": "Brock",
+					"given": "David C."
+				}
+			],
+			"container": "Chemical Heritage",
+			"volume": "25",
+			"issue": "3",
+			"published": "2007",
+			"url": "https://www.sciencehistory.org/stories/magazine/patterning-the-world-the-rise-of-chemically-amplified-photoresists/",
+			"accessed": "2026-09-30",
+			"note": "Willson, Fréchet and Ito at IBM San Jose, the thirtyfold target, the t-BOC resist and the filtered air at Burlington"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Oral-History: Jay Lathrop",
+			"container": "Engineering and Technology History Wiki",
+			"publisher": "IEEE History Center",
+			"authors": [
+				{
+					"family": "Lathrop",
+					"given": "Jay W."
+				},
+				{
+					"family": "Morton",
+					"given": "David"
+				}
+			],
+			"published": "1996-05-01",
+			"url": "https://ethw.org/Oral-History:Jay_Lathrop",
+			"accessed": "2026-09-30",
+			"note": "Interview #265, conducted by David Morton; the microscope, the name, and the dates as Lathrop recalled them"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "1955: Photolithography Techniques Are Used to Make Silicon Devices",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum",
+			"url": "https://www.computerhistory.org/siliconengine/photolithography-techniques-are-used-to-make-silicon-devices/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "The Chip Patterning Machines That Will Shape Computing's Next Act",
+			"authors": [
+				{
+					"family": "Miller",
+					"given": "Chris"
+				}
+			],
+			"container": "MIT Technology Review",
+			"published": "2023-06-23",
+			"url": "https://www.technologyreview.com/2023/06/23/1074321/chip-patterning-machines-shape-future/",
+			"accessed": "2026-09-30",
+			"note": "Read in the copy republished by the Fletcher Russia and Eurasia Program, Tufts University"
+		},
+		{
+			"kind": "web",
+			"title": "The Niépce Heliograph",
+			"container": "Harry Ransom Center",
+			"publisher": "University of Texas at Austin",
+			"url": "https://www.hrc.utexas.edu/niepce-heliograph/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Photosensitization of Polymeric Cinnamic Acid Esters, US Patent 2,610,120",
+			"authors": [
+				{
+					"family": "Minsk",
+					"given": "Louis M."
+				},
+				{
+					"family": "Van Deusen",
+					"given": "Werter P."
+				},
+				{
+					"family": "Robertson",
+					"given": "Earl M."
+				}
+			],
+			"publisher": "Eastman Kodak Company",
+			"published": "1952-09-09",
+			"url": "https://patents.google.com/patent/US2610120A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 9 March 1950"
+		},
+		{
+			"kind": "web",
+			"title": "Semiconductor Construction, US Patent 2,890,395",
+			"authors": [
+				{
+					"family": "Lathrop",
+					"given": "Jay W."
+				},
+				{
+					"family": "Nall",
+					"given": "James R."
+				}
+			],
+			"published": "1959-06-09",
+			"url": "https://patents.google.com/patent/US2890395A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 31 October 1957"
+		},
+		{
+			"kind": "web",
+			"title": "Positive and Negative Working Resist Compositions with Acid Generating Photoinitiator and Polymer with Acid Labile Groups Pendant from Polymer Backbone, US Patent 4,491,628",
+			"authors": [
+				{
+					"family": "Ito",
+					"given": "Hiroshi"
+				},
+				{
+					"family": "Willson",
+					"given": "C. Grant"
+				},
+				{
+					"family": "Fréchet",
+					"given": "Jean M. J."
+				}
+			],
+			"publisher": "International Business Machines Corporation",
+			"published": "1985-01-01",
+			"url": "https://patents.google.com/patent/US4491628A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 23 August 1982"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Photoresist",
+			"url": "https://en.wikipedia.org/w/index.php?title=Photoresist&oldid=1375981972",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Photolithography",
+			"url": "https://en.wikipedia.org/w/index.php?title=Photolithography&oldid=1377690276",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "EUV lithography",
+			"url": "https://en.wikipedia.org/w/index.php?title=EUV_lithography&oldid=1375699554",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Diazonaphthoquinone",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diazonaphthoquinone&oldid=1328226436",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "View from the Window at Le Gras",
+			"url": "https://en.wikipedia.org/w/index.php?title=View_from_the_Window_at_Le_Gras&oldid=1354677615",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bitumen of Judea",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bitumen_of_Judea&oldid=1367797786",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "KPR",
+			"url": "https://en.wikipedia.org/w/index.php?title=KPR&oldid=1227945318",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-06-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jay W. Lathrop",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jay_W._Lathrop&oldid=1324050324",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-25"
+		},
+		{
+			"kind": "media",
+			"title": "Nicéphore Niépce's view from the window at Le Gras, 1827, bitumen on pewter",
+			"url": "https://commons.wikimedia.org/wiki/File:Untitled_(point_de_vue),_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_(cropped).jpg",
+			"accessed": "2026-09-30",
+			"container": "Harry Ransom Center, University of Texas at Austin, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "le-gras.jpg",
+			"authors": [
+				{
+					"name": "Nicéphore Niépce"
+				}
+			],
+			"published": "1827"
+		},
+		{
+			"kind": "media",
+			"title": "A 300 mm wafer coated with EUV photoresist and exposed at fifteen rising doses",
+			"url": "https://commons.wikimedia.org/wiki/File:Extreme_Ultraviolet_Photoresists_(5881382243).jpg",
+			"accessed": "2026-09-30",
+			"container": "National Institute of Standards and Technology, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "euv-resist.jpg",
+			"authors": [
+				{
+					"name": "National Institute of Standards and Technology"
+				}
+			],
+			"published": "2008-06-24"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/integrated-circuit",
+			"why": "Planar chips were printed photographically, every chip on a wafer at once, through photoresists like the one Lathrop and Nall first used to shape transistors in 1957."
+		},
+		{
+			"to": "computing/end-of-scaling",
+			"why": "The 13.5 nm extreme-ultraviolet light that prints the finest chips of the 2020s brings about fourteen times fewer photons for the same dose, and chemically amplified resists turn each one into many reactions."
+		},
+		{
+			"to": "chemistry/polymers",
+			"why": "Photoresists, from Kodak's KPR to IBM's chemically amplified resists, are polymers designed to change under light."
+		}
+	]
+}

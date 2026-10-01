@@ -1,0 +1,11 @@
+{
+	"id": "casp",
+	"wikidata": "Q899291",
+	"name": "CASP",
+	"aliases": [
+		"Critical Assessment of Structure Prediction",
+		"Critical Assessment of protein Structure Prediction"
+	],
+	"kind": "event",
+	"description": "A blind competition in protein structure prediction, held every two years since 1994, in which predictors model structures not yet published."
+}

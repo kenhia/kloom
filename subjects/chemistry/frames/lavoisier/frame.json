@@ -1,0 +1,207 @@
+{
+	"id": "lavoisier",
+	"topic": "Lavoisier's chemical revolution",
+	"position": {
+		"label": "1789",
+		"sort": 1789
+	},
+	"scene": {
+		"headline": "We put all of chemistry on a",
+		"accent": "BALANCE.",
+		"palette": "retort",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · THE ARSENAL",
+			"ANTOINE LAVOISIER · MARIE-ANNE PAULZE LAVOISIER",
+			"THE TRAITÉ ÉLÉMENTAIRE DE CHIMIE · 33 SIMPLE SUBSTANCES"
+		],
+		"counter": {
+			"value": "85 : 15",
+			"label": "oxygen to hydrogen in water, by Lavoisier's weighing"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Traité élémentaire de chimie",
+			"authors": [
+				{
+					"family": "Lavoisier",
+					"given": "Antoine-Laurent"
+				}
+			],
+			"publisher": "Cuchet",
+			"place": "Paris",
+			"published": "1789",
+			"url": "https://www.gutenberg.org/ebooks/30775",
+			"accessed": "2026-09-30",
+			"note": "Read in Robert Kerr's translation, Elements of Chemistry (Edinburgh, 1790), on Project Gutenberg: the axiom, Experiment Third and the Table of Simple Substances"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antoine Lavoisier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antoine_Lavoisier&oldid=1376988053",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Antoine-Laurent Lavoisier",
+			"container": "Science History Institute",
+			"url": "https://www.sciencehistory.org/education/scientific-biographies/antoine-laurent-lavoisier/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "chapter",
+			"title": "Notice sur la vie et les ouvrages de M. le comte J.-L. Lagrange",
+			"authors": [
+				{
+					"family": "Delambre",
+					"given": "Jean-Baptiste"
+				}
+			],
+			"container": "Œuvres de Lagrange, vol. 1",
+			"editors": [
+				{
+					"family": "Serret",
+					"given": "J.-A."
+				}
+			],
+			"publisher": "Gauthier-Villars",
+			"place": "Paris",
+			"published": "1867",
+			"url": "https://archive.org/details/oeuvresdelagrang01lagr",
+			"accessed": "2026-09-30",
+			"note": "The purge of the commission of weights and measures and Lagrange's remark, pp. xxxix–xl"
+		},
+		{
+			"kind": "article",
+			"title": "Discovering the Evolution of Jacques-Louis David's Portrait of Antoine-Laurent and Marie-Anne Pierrette Paulze Lavoisier",
+			"authors": [
+				{
+					"family": "Centeno",
+					"given": "Silvia A."
+				},
+				{
+					"family": "Mahon",
+					"given": "Dorothy"
+				},
+				{
+					"family": "Carò",
+					"given": "Federico"
+				},
+				{
+					"family": "Pullins",
+					"given": "David"
+				}
+			],
+			"container": "Heritage Science",
+			"volume": "9",
+			"pages": "84",
+			"published": "2021-08-29",
+			"doi": "10.1186/s40494-021-00551-y",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Antoine Laurent Lavoisier (1743–1794) and Marie Anne Lavoisier (Marie Anne Pierrette Paulze, 1758–1836)",
+			"container": "The Metropolitan Museum of Art",
+			"url": "https://www.metmuseum.org/art/collection/search/436106",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marie-Anne Paulze Lavoisier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marie-Anne_Paulze_Lavoisier&oldid=1376198311",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Traité Élémentaire de Chimie",
+			"url": "https://en.wikipedia.org/w/index.php?title=Trait%C3%A9_%C3%89l%C3%A9mentaire_de_Chimie&oldid=1354179399",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Nicholson (chemist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Nicholson_(chemist)&oldid=1374670776",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "media",
+			"title": "Plate IV of the Traité élémentaire de chimie: apparatus for combustion and for gases, engraved by Marie-Anne Paulze Lavoisier",
+			"url": "https://commons.wikimedia.org/wiki/File:Scientific_apparatus_used_by_Lavoisier_in_studying_chemical_reactions_in_combustion_of_substances,_including_mercury,_top_right)_-_Paulze_Lavoisier,_sculpt_LCCN92517580.jpg",
+			"accessed": "2026-09-30",
+			"container": "Library of Congress, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "paulze-plate.jpg",
+			"authors": [
+				{
+					"family": "Paulze Lavoisier",
+					"given": "Marie-Anne"
+				}
+			],
+			"published": "1789"
+		},
+		{
+			"kind": "media",
+			"title": "Antoine Laurent Lavoisier and Marie Anne Lavoisier, by Jacques-Louis David, 1788",
+			"url": "https://commons.wikimedia.org/wiki/File:Antoine-Laurent_Lavoisier_(1743%E2%80%931794)_and_His_Wife_(Marie-Anne-Pierrette_Paulze,_1758%E2%80%931836)_MET_DT1992.jpg",
+			"accessed": "2026-09-30",
+			"container": "The Metropolitan Museum of Art, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "david-lavoisiers.jpg",
+			"authors": [
+				{
+					"family": "David",
+					"given": "Jacques-Louis"
+				}
+			],
+			"published": "1788"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/metre-survey",
+			"why": "Delambre, who was measuring the meridian for the metre, was struck off the commission of weights and measures with Lavoisier in December 1793, and it was Delambre who recorded Lagrange's lament for him."
+		},
+		{
+			"to": "chemistry/oxygen",
+			"why": "Priestley described his new air to Lavoisier in Paris in October 1774, and Lavoisier named it oxygen."
+		}
+	]
+}

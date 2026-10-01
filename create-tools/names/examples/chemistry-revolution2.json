@@ -1,0 +1,34 @@
+{
+	"chemistry/oxygen": [
+		["Joseph Priestley", "joseph-priestley"],
+		["mercury(II) oxide", "mercury-ii-oxide"],
+		[
+			"_Experiments and Observations on Different Kinds of Air_",
+			"experiments-and-observations-on-different-kinds-of-air"
+		],
+		["Antoine Lavoisier", "antoine-lavoisier"],
+		["oxygen", "oxygen"],
+		["phlogiston theory", "phlogiston-theory"],
+		["Carl Wilhelm Scheele", "carl-wilhelm-scheele"]
+	],
+	"chemistry/lavoisier": [
+		["Antoine Lavoisier", "antoine-lavoisier"],
+		["_Traité élémentaire de chimie_", "traite-elementaire-de-chimie"],
+		["conservation of mass", "conservation-of-mass"],
+		["hydrogen", "hydrogen"],
+		["caloric", "caloric-theory"],
+		["Marie-Anne Paulze Lavoisier", "marie-anne-paulze-lavoisier"],
+		["Jean-Baptiste Delambre", "jean-baptiste-delambre"],
+		["Joseph-Louis Lagrange", "joseph-louis-lagrange"]
+	],
+	"chemistry/davy-electrolysis": [
+		["Royal Institution", "royal-institution"],
+		["Humphry Davy", "humphry-davy"],
+		["potassium", "potassium"],
+		["Alessandro Volta", "alessandro-volta"],
+		["voltaic pile", "voltaic-pile"],
+		["Sodium", "sodium"],
+		["Jöns Jacob Berzelius", "jons-jacob-berzelius"],
+		["Michael Faraday", "michael-faraday"]
+	]
+}

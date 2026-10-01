@@ -1,0 +1,373 @@
+{
+	"id": "where-chemistry-is",
+	"topic": "Chemistry today",
+	"position": {
+		"label": "Where we are"
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "Fifteen thousand new substances a",
+		"accent": "DAY.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": ["CAS REGISTRY · STOCKHOLM · BERKELEY", "ROBOT LABORATORIES · PFAS AT 4 PPT"],
+		"counter": {
+			"value": "290,000,000+",
+			"label": "substances in the CAS Registry, by its own count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "CAS REGISTRY",
+			"authors": [
+				{
+					"name": "CAS"
+				}
+			],
+			"container": "CAS, a division of the American Chemical Society",
+			"url": "https://www.cas.org/cas-data/cas-registry",
+			"accessed": "2026-09-30",
+			"note": "\"Over 290 million substances\""
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Press Release: The Nobel Prize in Chemistry 2025",
+			"authors": [
+				{
+					"name": "Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "2025-10-08",
+			"url": "https://www.nobelprize.org/prizes/chemistry/2025/press-release/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Press Release: The Nobel Prize in Chemistry 2024",
+			"authors": [
+				{
+					"name": "Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "2024-10-09",
+			"url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Press Release: The Nobel Prize in Physics 2024",
+			"authors": [
+				{
+					"name": "Royal Swedish Academy of Sciences"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "2024-10-08",
+			"url": "https://www.nobelprize.org/prizes/physics/2024/press-release/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "The 2026 Nobel Prize Announcements",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"url": "https://www.nobelprize.org/press-release/the-2026-nobel-prize-announcements/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Scaling Deep Learning for Materials Discovery",
+			"authors": [
+				{
+					"family": "Merchant",
+					"given": "Amil"
+				},
+				{
+					"family": "Batzner",
+					"given": "Simon"
+				},
+				{
+					"family": "Schoenholz",
+					"given": "Samuel S."
+				},
+				{
+					"family": "Aykol",
+					"given": "Muratahan"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "624",
+			"issue": "7990",
+			"pages": "80–85",
+			"published": "2023-11-29",
+			"doi": "10.1038/s41586-023-06735-9",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "An Autonomous Laboratory for the Accelerated Synthesis of Inorganic Materials",
+			"authors": [
+				{
+					"family": "Szymanski",
+					"given": "Nathan J."
+				},
+				{
+					"family": "Rendy",
+					"given": "Bernardus"
+				},
+				{
+					"family": "Fei",
+					"given": "Yuxing"
+				},
+				{
+					"family": "Kumar",
+					"given": "Rishi E."
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "624",
+			"issue": "7990",
+			"pages": "86–91",
+			"published": "2023-11-29",
+			"doi": "10.1038/s41586-023-06734-w",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Challenges in High-Throughput Inorganic Materials Prediction and Autonomous Synthesis",
+			"authors": [
+				{
+					"family": "Leeman",
+					"given": "Josh"
+				},
+				{
+					"family": "Liu",
+					"given": "Yuhan"
+				},
+				{
+					"family": "Stiles",
+					"given": "Joseph W."
+				},
+				{
+					"family": "Lee",
+					"given": "S."
+				},
+				{
+					"family": "Bhatt",
+					"given": "Prajna"
+				},
+				{
+					"family": "Schoop",
+					"given": "Leslie M."
+				},
+				{
+					"family": "Palgrave",
+					"given": "Robert G."
+				}
+			],
+			"container": "PRX Energy",
+			"volume": "3",
+			"issue": "1",
+			"pages": "011002",
+			"published": "2024-03-07",
+			"doi": "10.1103/PRXEnergy.3.011002",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Author Correction: An Autonomous Laboratory for the Accelerated Synthesis of Inorganic Materials",
+			"authors": [
+				{
+					"family": "Szymanski",
+					"given": "Nathan J."
+				},
+				{
+					"family": "Rendy",
+					"given": "Bernardus"
+				},
+				{
+					"family": "Fei",
+					"given": "Yuxing"
+				},
+				{
+					"family": "Kumar",
+					"given": "Rishi E."
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "650",
+			"issue": "8100",
+			"pages": "E1",
+			"published": "2026-01-19",
+			"doi": "10.1038/s41586-025-09992-y",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "'Nature' Robot Chemist Paper Corrected, but Some Questions Remain Unanswered",
+			"authors": [
+				{
+					"family": "Chawla",
+					"given": "Dalmeet Singh"
+				}
+			],
+			"container": "Chemical & Engineering News",
+			"published": "2026-01-29",
+			"url": "https://cen.acs.org/research-integrity/Nature-robot-chemist-paper-corrected/104/web/2026/01",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Per- and Polyfluoroalkyl Substances (PFAS): Final PFAS National Primary Drinking Water Regulation",
+			"authors": [
+				{
+					"name": "United States Environmental Protection Agency"
+				}
+			],
+			"container": "EPA.gov",
+			"url": "https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas",
+			"accessed": "2026-09-30",
+			"note": "The limits of April 2024 and the proposals of 18 May 2026"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "ECHA's Risk Assessment Committee Adopts Its Opinion on PFAS Restriction Proposal",
+			"authors": [
+				{
+					"name": "European Chemicals Agency"
+				}
+			],
+			"container": "ECHA",
+			"place": "Helsinki",
+			"published": "2026-03-03",
+			"url": "https://www.echa.europa.eu/-/echa-s-risk-assessment-committee-adopts-its-opinion-on-pfas-restriction-proposal",
+			"accessed": "2026-09-30",
+			"note": "Read through the Internet Archive"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "CAS Registry Number",
+			"url": "https://en.wikipedia.org/w/index.php?title=CAS_Registry_Number&oldid=1355194893",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chemical Abstracts Service",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chemical_Abstracts_Service&oldid=1363489759",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Metal–organic framework",
+			"url": "https://en.wikipedia.org/w/index.php?title=Metal%E2%80%93organic_framework&oldid=1375097945",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Green chemistry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Green_chemistry&oldid=1371672618",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "PFAS",
+			"url": "https://en.wikipedia.org/w/index.php?title=PFAS&oldid=1376937429",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carbon–fluorine bond",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carbon%E2%80%93fluorine_bond&oldid=1307564746",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-24"
+		},
+		{
+			"kind": "media",
+			"title": "MOF-5: a zinc–oxygen cluster, the cluster with its six terephthalate linkers, and the cubic lattice they build",
+			"url": "https://commons.wikimedia.org/wiki/File:MOF-5_assembly_and_cubic_lattice.jpg",
+			"accessed": "2026-09-30",
+			"container": "From John P. S. Mowat's PhD thesis, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "mof-5.jpg",
+			"authors": [
+				{
+					"family": "Mowat",
+					"given": "John Patrick Stephen"
+				}
+			],
+			"published": "2012"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/where-physics-is",
+			"why": "The 2024 Nobel Prize in Chemistry, for AlphaFold and protein design, was announced the day after the physics prize to Hopfield and Hinton for the neural networks of machine learning."
+		},
+		{
+			"to": "chemistry/alphafold",
+			"why": "The 2024 Nobel Prize in Chemistry went to Baker for designing proteins and to Hassabis and Jumper for AlphaFold."
+		}
+	]
+}

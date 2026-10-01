@@ -1,0 +1,207 @@
+{
+	"id": "tetrahedral-carbon",
+	"topic": "The tetrahedral carbon atom",
+	"position": {
+		"label": "1874",
+		"sort": 1874
+	},
+	"scene": {
+		"headline": "We built molecules in",
+		"accent": "SPACE.",
+		"palette": "filter",
+		"illustration": "scene.svg",
+		"metadata": [
+			"UTRECHT · J. H. VAN 'T HOFF · PARIS · J. A. LE BEL",
+			"SEPTEMBER AND NOVEMBER 1874 · CARDBOARD TETRAHEDRA"
+		],
+		"counter": {
+			"value": "109.47°",
+			"label": "between any two bonds of a carbon atom"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Sur les formules de structure dans l'espace",
+			"authors": [
+				{
+					"family": "van 't Hoff",
+					"given": "Jacobus Henricus"
+				}
+			],
+			"container": "Archives néerlandaises des sciences exactes et naturelles",
+			"volume": "9",
+			"pages": "445–454",
+			"published": "1874",
+			"url": "https://www.chemteam.info/Chem-History/Van't-Hoff-1874.html",
+			"accessed": "2026-09-30",
+			"note": "The French version of the September 1874 pamphlet, read in English translation at ChemTeam, with its figures"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Sur les relations qui existent entre les formules atomiques des corps organiques et le pouvoir rotatoire de leurs dissolutions",
+			"authors": [
+				{
+					"family": "Le Bel",
+					"given": "Joseph Achille"
+				}
+			],
+			"container": "Bulletin de la Société chimique de Paris",
+			"volume": "22",
+			"pages": "337–347",
+			"published": "1874",
+			"url": "https://www.chemteam.info/Chem-History/LeBel-1874.html",
+			"accessed": "2026-09-30",
+			"note": "Read in English translation at ChemTeam"
+		},
+		{
+			"kind": "article",
+			"title": "Zeichen der Zeit",
+			"authors": [
+				{
+					"family": "Kolbe",
+					"given": "Hermann"
+				}
+			],
+			"container": "Journal für praktische Chemie",
+			"volume": "15",
+			"pages": "473–477",
+			"published": "1877",
+			"url": "https://archive.org/details/sim_journal-fuer-praktische-chemie-1834_1877_15",
+			"accessed": "2026-09-30",
+			"note": "The attack on van 't Hoff and Herrmann's German version, read in the Internet Archive's scan; the translation of the Pegasus sentence is ours"
+		},
+		{
+			"kind": "article",
+			"title": "Selling a Theory: The Role of Molecular Models in J. H. van 't Hoff's Stereochemistry Theory",
+			"authors": [
+				{
+					"family": "van der Spek",
+					"given": "Trienke M."
+				}
+			],
+			"container": "Annals of Science",
+			"volume": "63",
+			"issue": "2",
+			"pages": "157–177",
+			"published": "2006",
+			"doi": "10.1080/00033790500480816",
+			"accessed": "2026-09-30",
+			"note": "Read in its abstract only, through OpenAlex"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jacobus Henricus van 't Hoff",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jacobus_Henricus_van_'t_Hoff&oldid=1373034827",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Achille Le Bel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Achille_Le_Bel&oldid=1372029416",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hermann Kolbe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hermann_Kolbe&oldid=1377048456",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tetrahedral molecular geometry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tetrahedral_molecular_geometry&oldid=1353709601",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-11",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stereochemistry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stereochemistry&oldid=1351365164",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Asymmetric carbon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Asymmetric_carbon&oldid=1273961246",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-02-04"
+		},
+		{
+			"kind": "media",
+			"title": "The figures of van 't Hoff's 1874 paper on structural formulas in space",
+			"url": "https://www.chemteam.info/Chem-History/Van't-Hoff-1874.html",
+			"accessed": "2026-09-30",
+			"container": "Archives néerlandaises des sciences exactes et naturelles, via ChemTeam",
+			"licence": "Public domain",
+			"file": "van-t-hoff-1874.png",
+			"authors": [
+				{
+					"family": "van 't Hoff",
+					"given": "Jacobus Henricus"
+				}
+			],
+			"published": "1874"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/groups",
+			"why": "Counting a carbon atom's mirror twins divides the 24 ways of placing four groups by the 12 turns of the tetrahedron, a group of symmetries like the six moves of Cayley's triangle."
+		},
+		{
+			"to": "chemistry/chirality",
+			"why": "Van 't Hoff and Le Bel's tetrahedral carbon explained the handedness Pasteur had found in the tartrate crystals."
+		}
+	]
+}

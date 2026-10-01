@@ -407,7 +407,10 @@ the web rather than by a grow job. What changes:
   not a way to write one. Seven of sprint 021's nineteen authors wrote
   marks by hand from habit; `mark --check` now names such a mark. Make the
   spec's words the name's first mention in prose as the reading writes it
-  ("Maxwell" if that comes before "James Clerk Maxwell"). The first
+  ("Maxwell" if that comes before "James Clerk Maxwell"). A frame about a
+  person, a thing or a work marks that name, with `home` on the frame, so
+  the reading must say the name in prose: sprints 024 and 025 each had a
+  frame whose subject was never named (the Ishango bone, Tyrian purple). The first
   mention is the first in prose however it is written: a passing mention
   before the bold one, a possessive ("Plato's"), words inside a quotation
   or an italic title. If that is not the one to mark, reword the reading
@@ -439,7 +442,24 @@ DIR` writes its text. Old books and documents are often on Wikisource
   elsewhere (an author's copy, a course page, archive.org), or cite only
   what you read about it, as what you read. For an old edition,
   archive.org's full text (the item's `_djvu.txt`) is often all you need
-  (sprint 024 read Peet's 1923 Rhind papyrus that way).
+  (sprint 024 read Peet's 1923 Rhind papyrus that way). For a paper behind
+  a closed publisher, OpenAlex (`https://api.openalex.org/works/doi:<doi>`)
+  says whether an open copy exists and where, and often finds a later open
+  review by the same authors; a PubMed Central article's full text comes
+  from Europe PMC (`…/europepmc/webservices/rest/<PMCID>/fullTextXML`)
+  when the PMC site refuses a script, though it answers 500 for a scanned
+  article and often for others; NCBI's BioC service
+  (`https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/<PMCID>/unicode`)
+  and the Wayback copy of the PMC page are the fallbacks (sprint 025).
+  The Wayback Machine serves many pages gzipped, so read every Wayback
+  copy with `curl --compressed`, and `-L` to follow a `/web/<timestamp>/`
+  link. When a scan's OCR is useless (old tables, the long s read as f),
+  archive.org gives each page as an image:
+  `https://archive.org/download/<item>/page/n<N>_w1600.jpg`, with `<N>`
+  from the item's full-text search (sprint 025 caught a misprinted 1744
+  edition of Boyle's table that way). Oracc's cuneiform
+  editions serve an incomplete certificate chain, so fetch them with
+  `curl -k`; they are still the edition to cite.
 - **Charts are inlined** into the reading, through the same sanitiser as a
   scene, so they follow the reader's palette. Make them with `bar-chart`,
   or draw one by hand in `currentColor` with the `muted` and `accent`

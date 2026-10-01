@@ -1,0 +1,9 @@
+{
+	"id": "gibbs-free-energy",
+	"wikidata": "Q334631",
+	"name": "Gibbs free energy",
+	"aliases": ["Gibbs energy", "free energy", "G = H − TS"],
+	"kind": "idea",
+	"description": "The quantity G = H − TS, defined by Gibbs in the 1870s, whose fall at constant temperature and pressure says whether a chemical or physical change can happen by itself.",
+	"home": "chemistry/gibbs-free-energy"
+}

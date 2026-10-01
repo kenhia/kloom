@@ -1,0 +1,267 @@
+{
+	"id": "ozone-hole",
+	"topic": "The ozone hole",
+	"position": {
+		"label": "The ozone layer"
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We tore a hole in the",
+		"accent": "SKY.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": ["UC IRVINE · HALLEY · MONTREAL", "CFCs · Cl + O₃ → ClO + O₂ · DOBSON UNITS"],
+		"counter": {
+			"value": "2066",
+			"label": "Antarctic ozone back to 1980 levels, by the 2022 assessment"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Stratospheric Sink for Chlorofluoromethanes: Chlorine Atom-Catalysed Destruction of Ozone",
+			"authors": [
+				{
+					"family": "Molina",
+					"given": "Mario J."
+				},
+				{
+					"family": "Rowland",
+					"given": "F. S."
+				}
+			],
+			"container": "Nature",
+			"volume": "249",
+			"issue": "5460",
+			"pages": "810–812",
+			"published": "1974-06-28",
+			"doi": "10.1038/249810a0",
+			"url": "https://escholarship.org/uc/item/13q9n640",
+			"accessed": "2026-09-30",
+			"note": "The catalytic chain, the lifetimes and the rates against methane; read in the University of California's copy"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "What Did NASA Know? And When Did They Know It?",
+			"authors": [
+				{
+					"family": "Schmidt",
+					"given": "Gavin"
+				}
+			],
+			"container": "RealClimate",
+			"published": "2017-12",
+			"url": "https://www.realclimate.org/index.php/archives/2017/12/what-did-nasa-know-and-when-did-they-know-it/",
+			"accessed": "2026-09-30",
+			"note": "The flagged satellite data, after McPeters and Bhartia; quotes Farman's British Library oral history"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Antarctic Ozone",
+			"container": "British Antarctic Survey Meteorology and Ozone Monitoring",
+			"publisher": "British Antarctic Survey",
+			"authors": [
+				{
+					"family": "Shanklin",
+					"given": "Jonathan"
+				}
+			],
+			"url": "https://legacy.bas.ac.uk/met/jds/ozone/",
+			"accessed": "2026-09-30",
+			"note": "The situation on 28 September 2026, and the provisional Halley monthly means charted here (data/ZOZ5699.DAT)"
+		},
+		{
+			"kind": "web",
+			"title": "Ozone Layer Recovery Is on Track, Helping Avoid Global Warming by 0.5°C",
+			"container": "World Meteorological Organization",
+			"published": "2023-01-09",
+			"url": "https://wmo.int/news/media-centre/ozone-layer-recovery-track-helping-avoid-global-warming-05degc",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Small and Short-Lived 2025 Ozone Hole Confirms Long-Term Recovery Trend",
+			"container": "World Meteorological Organization",
+			"url": "https://wmo.int/media/news/small-and-short-lived-2025-ozone-hole-confirms-long-term-recovery-trend",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Scientific Assessment of Ozone Depletion: 2026",
+			"container": "NOAA Chemical Sciences Laboratory",
+			"url": "https://csl.noaa.gov/assessments/ozone/2026/",
+			"accessed": "2026-09-30",
+			"note": "The core report due at the end of 2026"
+		},
+		{
+			"kind": "web",
+			"title": "The Ozone Hole Discovery",
+			"container": "British Antarctic Survey",
+			"url": "https://www.bas.ac.uk/about/history/ozone-hole-discovery/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Ozone Hole History Facts",
+			"container": "NASA Ozone Watch",
+			"publisher": "NASA Goddard Space Flight Center",
+			"url": "https://ozonewatch.gsfc.nasa.gov/facts/history_SH.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Refrigerating Apparatus, US Patent 1,886,339",
+			"publisher": "Frigidaire Corporation",
+			"published": "1932-11-01",
+			"url": "https://patents.google.com/patent/US1886339A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 31 December 1928"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ozone depletion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ozone_depletion&oldid=1377211141",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ozone–oxygen cycle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ozone%E2%80%93oxygen_cycle&oldid=1359976884",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ozone layer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ozone_layer&oldid=1371936690",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chlorofluorocarbon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chlorofluorocarbon&oldid=1365606059",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Montreal Protocol",
+			"url": "https://en.wikipedia.org/w/index.php?title=Montreal_Protocol&oldid=1375917408",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joe Farman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joe_Farman&oldid=1372329809",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul J. Crutzen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_J._Crutzen&oldid=1377140526",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sydney Chapman (mathematician)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sydney_Chapman_(mathematician)&oldid=1377568786",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Mean October total ozone at Halley, 1956–2020, chart drawn for kloom from the British Antarctic Survey's provisional monthly means",
+			"url": "https://legacy.bas.ac.uk/met/jds/ozone/data/ZOZ5699.DAT",
+			"accessed": "2026-09-30",
+			"container": "British Antarctic Survey data; chart by kloom",
+			"licence": "MIT",
+			"file": "halley-october.svg"
+		},
+		{
+			"kind": "media",
+			"title": "Antarctic ozone on 17 September 1979 and 4 October 2008, from NASA satellite data",
+			"url": "https://commons.wikimedia.org/wiki/File:Agujero_en_la_capa_de_ozono_2008.jpg",
+			"accessed": "2026-09-30",
+			"container": "NASA Earth Observatory, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "hole-2008.jpg",
+			"authors": [
+				{
+					"name": "NASA"
+				}
+			],
+			"published": "2008"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/leaded-petrol",
+			"why": "Thomas Midgley, who put lead into petrol, also introduced the CFCs whose chlorine destroys stratospheric ozone."
+		}
+	]
+}

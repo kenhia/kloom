@@ -1,0 +1,211 @@
+{
+	"id": "leaded-petrol",
+	"topic": "Leaded petrol and CFCs",
+	"position": {
+		"label": "Midgley"
+	},
+	"scene": {
+		"headline": "We put lead in the",
+		"accent": "PETROL.",
+		"palette": "enamel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DAYTON · BAYWAY · CALTECH",
+			"THOMAS MIDGLEY JR · CLAIR PATTERSON · Pb(C₂H₅)₄ · CCl₂F₂"
+		],
+		"counter": {
+			"value": "94.5%",
+			"label": "fall in US children's blood lead, 1976–2016"
+		}
+	},
+	"asOf": "2026-09-30",
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Tetraethyllead",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tetraethyllead&oldid=1372047348",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Midgley Jr.",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Midgley_Jr.&oldid=1376019120",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Duck Soup and Lead",
+			"authors": [
+				{
+					"family": "Patterson",
+					"given": "Clair C."
+				},
+				{
+					"family": "Cohen",
+					"given": "Shirley K."
+				}
+			],
+			"container": "Engineering & Science",
+			"volume": "60",
+			"issue": "1",
+			"pages": "21–31",
+			"published": "1997",
+			"url": "https://calteches.library.caltech.edu/3906/",
+			"accessed": "2026-09-30",
+			"note": "From Patterson's 1995 oral history interview with Shirley Cohen: the ocean profiles, polar snow and his funding"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Blood Lead Levels in U.S. Children Ages 1–11 Years, 1976–2016",
+			"authors": [
+				{
+					"family": "Egan",
+					"given": "Kathryn B."
+				},
+				{
+					"family": "Cornwell",
+					"given": "Cheryl R."
+				},
+				{
+					"family": "Courtney",
+					"given": "Joseph G."
+				},
+				{
+					"family": "Ettinger",
+					"given": "Adrienne S."
+				}
+			],
+			"container": "Environmental Health Perspectives",
+			"volume": "129",
+			"issue": "3",
+			"pages": "037003",
+			"published": "2021-03-17",
+			"doi": "10.1289/EHP7932",
+			"accessed": "2026-09-30",
+			"note": "The geometric means charted, from Table 2"
+		},
+		{
+			"kind": "web",
+			"title": "End of Leaded Fuel Use a \"Milestone for Multilateralism\"",
+			"container": "UN News",
+			"publisher": "United Nations",
+			"published": "2021-08-30",
+			"url": "https://news.un.org/en/story/2021/08/1098792",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clair Patterson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clair_Patterson&oldid=1371981956",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Octane rating",
+			"url": "https://en.wikipedia.org/w/index.php?title=Octane_rating&oldid=1373643754",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gasoline",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gasoline&oldid=1376688331",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chlorofluorocarbon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chlorofluorocarbon&oldid=1365606059",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dichlorodifluoromethane",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dichlorodifluoromethane&oldid=1377720846",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Lead warning plate on a petrol pump at Keeler's Korner, Lynnwood, Washington",
+			"url": "https://commons.wikimedia.org/wiki/File:Gas_pump_lead_warning.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "lead-warning.jpg",
+			"authors": [
+				{
+					"name": "Joe Mabel"
+				}
+			],
+			"published": "2008-08-02"
+		},
+		{
+			"kind": "media",
+			"title": "Blood lead in US children aged 1 to 5, 1976–2016",
+			"doi": "10.1289/EHP7932",
+			"accessed": "2026-09-30",
+			"container": "Chart drawn for kloom from Egan et al. (2021), Table 2",
+			"licence": "MIT",
+			"file": "blood-lead.svg"
+		}
+	]
+}

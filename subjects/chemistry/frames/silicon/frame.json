@@ -1,0 +1,223 @@
+{
+	"id": "silicon",
+	"topic": "Ultrapure silicon",
+	"position": {
+		"label": "Silicon"
+	},
+	"scene": {
+		"headline": "We purified sand to nine",
+		"accent": "NINES.",
+		"palette": "enamel",
+		"illustration": "scene.svg",
+		"metadata": ["BELL LABS · SIEMENS · BERLIN", "QUARTZ · TRICHLOROSILANE · A PULLED CRYSTAL"],
+		"counter": {
+			"value": "99.9999999%",
+			"label": "pure: semiconductor-grade silicon"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Accurate Determination of the Avogadro Constant by Counting the Atoms in a ²⁸Si Crystal",
+			"authors": [
+				{
+					"family": "Andreas",
+					"given": "B."
+				},
+				{
+					"family": "Azuma",
+					"given": "Y."
+				},
+				{
+					"family": "Bartl",
+					"given": "G."
+				},
+				{
+					"family": "Becker",
+					"given": "P."
+				},
+				{
+					"family": "Bettin",
+					"given": "H."
+				},
+				{
+					"family": "Borys",
+					"given": "M."
+				},
+				{
+					"family": "Busch",
+					"given": "I."
+				}
+			],
+			"etAl": true,
+			"container": "Physical Review Letters",
+			"volume": "106",
+			"issue": "3",
+			"pages": "030801",
+			"published": "2011",
+			"doi": "10.1103/PhysRevLett.106.030801",
+			"url": "https://arxiv.org/abs/1010.2317",
+			"accessed": "2026-09-30",
+			"note": "The float-zone crystal grown in Berlin in 2007, and Table I's carbon, oxygen, boron and vacancies; read in the arXiv version"
+		},
+		{
+			"kind": "web",
+			"title": "1951: First Grown-Junction Transistors Fabricated",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum",
+			"url": "https://www.computerhistory.org/siliconengine/first-grown-junction-transistors-fabricated/",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Teal, Little and Buehler's crystal puller, after Czochralski"
+		},
+		{
+			"kind": "web",
+			"title": "1954: Silicon Transistors Offer Superior Operating Characteristics",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum",
+			"url": "https://www.computerhistory.org/siliconengine/silicon-transistors-offer-superior-operating-characteristics/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "1955: Development of Oxide Masking",
+			"container": "The Silicon Engine",
+			"publisher": "Computer History Museum",
+			"url": "https://www.computerhistory.org/siliconengine/development-of-oxide-masking/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Silicon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Silicon&oldid=1377682263",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polycrystalline silicon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polycrystalline_silicon&oldid=1369676006",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Trichlorosilane",
+			"url": "https://en.wikipedia.org/w/index.php?title=Trichlorosilane&oldid=1369098312",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Czochralski method",
+			"url": "https://en.wikipedia.org/w/index.php?title=Czochralski_method&oldid=1375066599",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jan Czochralski",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jan_Czochralski&oldid=1372017310",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zone melting",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zone_melting&oldid=1283142098",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-03-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alternative approaches to redefining the kilogram",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alternative_approaches_to_redefining_the_kilogram&oldid=1377635477",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "A piece of a polycrystalline silicon rod from the Siemens process",
+			"url": "https://commons.wikimedia.org/wiki/File:Polycrystalline_silicon_rod.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "polysilicon-rod.jpg",
+			"authors": [
+				{
+					"name": "Warut Roonguthai"
+				}
+			],
+			"published": "2007-10-20"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/transistor",
+			"why": "The single crystals Gordon Teal pulled at Bell Labs, by Czochralski's method, made the junction transistor practical in 1951."
+		},
+		{
+			"to": "computing/silicon-valley",
+			"why": "Silicon beat germanium because its transistors did not leak when off and because it grows a stable oxide, the mask and seal of the planar process."
+		},
+		{
+			"to": "physics/solids",
+			"why": "One phosphorus atom in five million cuts silicon's resistivity half a million times, which is why silicon has to be purified to one stray atom in a billion before it is doped."
+		},
+		{
+			"to": "western-civ/si-redefinition",
+			"why": "The kilogram's redefinition leaned on counting the atoms in near-perfect spheres of silicon-28, whose stray carbon and boron atoms were measured and weighed out of the count."
+		}
+	]
+}

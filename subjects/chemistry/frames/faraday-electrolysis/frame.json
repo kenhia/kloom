@@ -1,0 +1,309 @@
+{
+	"id": "faraday-electrolysis",
+	"topic": "Faraday's laws of electrolysis",
+	"position": {
+		"label": "1834",
+		"sort": 1834
+	},
+	"scene": {
+		"headline": "We measured electricity by the",
+		"accent": "GRAIN.",
+		"palette": "retort",
+		"illustration": "scene.svg",
+		"metadata": ["ROYAL INSTITUTION · MICHAEL FARADAY", "ELECTRODE · ANODE · CATHODE · ION"],
+		"counter": {
+			"value": "96,485",
+			"label": "coulombs lay down a mole of silver"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Experimental Researches in Electricity. Seventh Series",
+			"authors": [
+				{
+					"family": "Faraday",
+					"given": "Michael"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "124",
+			"pages": "77–122",
+			"published": "1834",
+			"doi": "10.1098/rstl.1834.0008",
+			"url": "https://www.gutenberg.org/ebooks/14986",
+			"accessed": "2026-09-30",
+			"note": "Read in the reprint of 1839, Experimental Researches in Electricity, vol. 1, on Project Gutenberg: the new terms, §§661–667; tin, §§789–792; the laws, §§821–869"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Faraday to William Whewell, 24 April 1834",
+			"authors": [
+				{
+					"family": "Faraday",
+					"given": "Michael"
+				}
+			],
+			"container": "Epsilon: The Michael Faraday Collection",
+			"url": "https://epsilon.ac.uk/view/faraday/letters/Faraday0711",
+			"accessed": "2026-09-30",
+			"published": "1834-04-24"
+		},
+		{
+			"kind": "web",
+			"title": "William Whewell to Faraday, 25 April 1834",
+			"authors": [
+				{
+					"family": "Whewell",
+					"given": "William"
+				}
+			],
+			"container": "Epsilon: The Michael Faraday Collection",
+			"url": "https://epsilon.ac.uk/view/faraday/letters/Faraday0713",
+			"accessed": "2026-09-30",
+			"published": "1834-04-25"
+		},
+		{
+			"kind": "web",
+			"title": "Faraday to William Whewell, 5 May 1834",
+			"authors": [
+				{
+					"family": "Faraday",
+					"given": "Michael"
+				}
+			],
+			"container": "Epsilon: The Michael Faraday Collection",
+			"url": "https://epsilon.ac.uk/view/faraday/letters/Faraday0715",
+			"accessed": "2026-09-30",
+			"published": "1834-05-05"
+		},
+		{
+			"kind": "web",
+			"title": "William Whewell to Faraday, 5 May 1834",
+			"authors": [
+				{
+					"family": "Whewell",
+					"given": "William"
+				}
+			],
+			"container": "Epsilon: The Michael Faraday Collection",
+			"url": "https://epsilon.ac.uk/view/faraday/letters/Faraday0716",
+			"accessed": "2026-09-30",
+			"published": "1834-05-05"
+		},
+		{
+			"kind": "web",
+			"title": "William Whewell to Faraday, 6 May 1834",
+			"authors": [
+				{
+					"family": "Whewell",
+					"given": "William"
+				}
+			],
+			"container": "Epsilon: The Michael Faraday Collection",
+			"url": "https://epsilon.ac.uk/view/faraday/letters/Faraday0717",
+			"accessed": "2026-09-30",
+			"published": "1834-05-06"
+		},
+		{
+			"kind": "web",
+			"title": "Faraday to William Whewell, 15 May 1834",
+			"authors": [
+				{
+					"family": "Faraday",
+					"given": "Michael"
+				}
+			],
+			"container": "Epsilon: The Michael Faraday Collection",
+			"url": "https://epsilon.ac.uk/view/faraday/letters/Faraday0720",
+			"accessed": "2026-09-30",
+			"published": "1834-05-15"
+		},
+		{
+			"kind": "article",
+			"title": "On the Modern Development of Faraday's Conception of Electricity",
+			"authors": [
+				{
+					"family": "Helmholtz",
+					"given": "Hermann von"
+				}
+			],
+			"container": "Journal of the Chemical Society, Transactions",
+			"volume": "39",
+			"pages": "277–304",
+			"published": "1881",
+			"doi": "10.1039/ct8813900277",
+			"url": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_19/June_1881/The_Modern_Development_of_Faraday%27s_Conception_of_Electricity",
+			"accessed": "2026-09-30",
+			"note": "Read in the abstract revised by the author, Popular Science Monthly, June 1881, on Wikisource"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Faraday's laws of electrolysis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Faraday's_laws_of_electrolysis&oldid=1332708642",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-13",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Faraday constant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Faraday_constant&oldid=1376506624",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Electrolysis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electrolysis&oldid=1356484053",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ion&oldid=1375581481",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Electrode",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electrode&oldid=1375009530",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Whewell",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Whewell&oldid=1367392882",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Voltameter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Voltameter&oldid=1308561596",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ampere",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ampere&oldid=1373944867",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Johnstone Stoney",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Johnstone_Stoney&oldid=1375253212",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Electron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electron&oldid=1376946563",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Michael Faraday in his laboratory at the Royal Institution, watercolour by Harriet Jane Moore",
+			"url": "https://commons.wikimedia.org/wiki/File:M_Faraday_Lab_H_Moore.jpg",
+			"accessed": "2026-09-30",
+			"container": "Via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "faraday-laboratory.jpg",
+			"authors": [
+				{
+					"family": "Moore",
+					"given": "Harriet Jane"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/faraday-induction",
+			"why": "The laws of electrolysis of 1833–34 are later series of the same Experimental Researches in Electricity that began with induction in 1831, in the same laboratory at the Royal Institution."
+		},
+		{
+			"to": "physics/electron",
+			"why": "Faraday's laws implied a single charge per ion, which Stoney named the electron in 1891; Thomson set his corpuscles' ratio of mass to charge beside the hydrogen ion's from electrolysis."
+		}
+	]
+}

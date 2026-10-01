@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="t d">
+<title id="t">The electrospray mass spectrum of Salvarsan, by ring size</title>
+<desc id="d">Bar chart of the relative intensity of the peaks for arsenic rings (RAs)n in the electrospray mass spectrum of Salvarsan dissolved in water, as Lloyd, Morgan, Nicholson and Ronimus reported in 2005: three arsenic atoms (m/z 550) 100, four (733) 43, five (916) 90, six (1099) 18, seven (1282) 4 and eight (1465) 2. Rings of three and five dominate; the authors warn that the heights are a qualitative guide to the amounts.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="500" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="500" y1="201.4" y2="201.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="205.4" text-anchor="end">25</text>
+<line x1="64" x2="500" y1="152.7" y2="152.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="156.7" text-anchor="end">50</text>
+<line x1="64" x2="500" y1="104.1" y2="104.1" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="108.1" text-anchor="end">75</text>
+<line x1="64" x2="500" y1="55.5" y2="55.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="59.5" text-anchor="end">100</text>
+</g>
+<rect x="78.3" y="55.5" width="44" height="194.5" class="accent" fill="currentColor"/>
+<text x="100.3" y="49.5" text-anchor="middle">100</text>
+<text x="100.3" y="266" text-anchor="middle">3 As</text>
+<text x="100.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">m/z 550</text>
+<rect x="151.0" y="166.3" width="44" height="83.7" fill-opacity="0.85"/>
+<text x="173.0" y="160.3" text-anchor="middle">43</text>
+<text x="173.0" y="266" text-anchor="middle">4 As</text>
+<text x="173.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">m/z 733</text>
+<rect x="223.7" y="74.9" width="44" height="175.1" class="accent" fill="currentColor"/>
+<text x="245.7" y="68.9" text-anchor="middle">90</text>
+<text x="245.7" y="266" text-anchor="middle">5 As</text>
+<text x="245.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">m/z 916</text>
+<rect x="296.3" y="215.0" width="44" height="35.0" fill-opacity="0.85"/>
+<text x="318.3" y="209.0" text-anchor="middle">18</text>
+<text x="318.3" y="266" text-anchor="middle">6 As</text>
+<text x="318.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">m/z 1099</text>
+<rect x="369.0" y="242.2" width="44" height="7.8" fill-opacity="0.85"/>
+<text x="391.0" y="236.2" text-anchor="middle">4</text>
+<text x="391.0" y="266" text-anchor="middle">7 As</text>
+<text x="391.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">m/z 1282</text>
+<rect x="441.7" y="246.1" width="44" height="3.9" fill-opacity="0.85"/>
+<text x="463.7" y="240.1" text-anchor="middle">2</text>
+<text x="463.7" y="266" text-anchor="middle">8 As</text>
+<text x="463.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">m/z 1465</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">SALVARSAN IN WATER · PEAK HEIGHT BY RING SIZE</text>
+</g></svg>

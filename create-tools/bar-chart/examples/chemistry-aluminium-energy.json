@@ -1,0 +1,29 @@
+{
+	"title": "Electricity to make or remake a kilogram of aluminium",
+	"description": "Bar chart. Kilowatt-hours per kilogram of aluminium: remelting scrap, about 0.8 (5 per cent of primary production's energy); the theoretical minimum for the Hall–Héroult reaction, 6.23; Faraday's charge at an assumed 4 volts and perfect current efficiency, 11.9; a typical smelter, 15.37. Data: Wikipedia, Hall–Héroult process and Aluminium recycling; the 0.8 and 11.9 are by our arithmetic.",
+	"heading": "KILOWATT-HOURS PER KILOGRAM OF ALUMINIUM",
+	"unit": "",
+	"axis": {
+		"max": 18,
+		"ticks": [
+			[0, "0"],
+			[5, "5"],
+			[10, "10"],
+			[15, "15"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Recycled",
+			"sublabel": "remelted scrap",
+			"value": 0.77,
+			"display": "0.8",
+			"highlight": true
+		},
+		{ "label": "Minimum", "sublabel": "thermodynamic", "value": 6.23, "display": "6.2" },
+		{ "label": "At 4 volts", "sublabel": "Faraday's charge", "value": 11.9, "display": "11.9" },
+		{ "label": "Smelter", "sublabel": "typical", "value": 15.37, "display": "15.4" }
+	],
+	"barWidth": 56,
+	"width": 480
+}

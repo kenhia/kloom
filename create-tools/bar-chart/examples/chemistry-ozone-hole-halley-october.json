@@ -1,0 +1,65 @@
+{
+	"title": "October ozone at Halley, Antarctica, 1956–2020",
+	"description": "Bar chart of the mean total ozone measured by Dobson spectrophotometer at Halley in October, in Dobson units, for selected years, from the British Antarctic Survey's provisional monthly means: 1956, 313; 1960, 293; 1970, 275; 1980, 226; 1984, 194, the last October before Farman, Gardiner and Shanklin's paper; 1987, 150; 1993, 122, the lowest; 2000, 137; 2010, 184; 2015, 139; 2020, 150 (provisional).",
+	"heading": "HALLEY · OCTOBER MEAN OZONE · DOBSON UNITS",
+	"unit": "",
+	"width": 560,
+	"height": 300,
+	"barWidth": 34,
+	"axis": {
+		"max": 350,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"]
+		]
+	},
+	"bars": [
+		{
+			"label": "1956",
+			"value": 313
+		},
+		{
+			"label": "1960",
+			"value": 293
+		},
+		{
+			"label": "1970",
+			"value": 275
+		},
+		{
+			"label": "1980",
+			"value": 226
+		},
+		{
+			"label": "1984",
+			"value": 194,
+			"highlight": true
+		},
+		{
+			"label": "1987",
+			"value": 150
+		},
+		{
+			"label": "1993",
+			"value": 122
+		},
+		{
+			"label": "2000",
+			"value": 137
+		},
+		{
+			"label": "2010",
+			"value": 184
+		},
+		{
+			"label": "2015",
+			"value": 139
+		},
+		{
+			"label": "2020",
+			"value": 150
+		}
+	]
+}

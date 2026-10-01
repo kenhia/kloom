@@ -1,0 +1,225 @@
+{
+	"id": "polymers",
+	"topic": "Staudinger and polymers",
+	"position": {
+		"label": "Polymers"
+	},
+	"scene": {
+		"headline": "We strung molecules into",
+		"accent": "CHAINS.",
+		"palette": "coaltar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"YONKERS · ZURICH · WILMINGTON · NORTHWICH",
+			"BAKELITE · MAKROMOLEKÜLE · NYLON 66 · POLYTHENE"
+		],
+		"counter": {
+			"value": "3,565",
+			"label": "ethylene units in a 100,000 g/mol polythene chain"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Hermann Staudinger and the Foundation of Polymer Science",
+			"container": "National Historic Chemical Landmarks, American Chemical Society",
+			"publisher": "American Chemical Society",
+			"published": "1999",
+			"url": "https://www.acs.org/education/whatischemistry/landmarks/staudingerpolymerscience.html",
+			"accessed": "2026-09-30",
+			"note": "The 1920 paper, the aggregate school, Wieland's letter and Staudinger's opposition to gas warfare"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Wallace Carothers and the Development of Nylon",
+			"container": "National Historic Chemical Landmarks, American Chemical Society",
+			"publisher": "American Chemical Society",
+			"published": "2000",
+			"url": "https://www.acs.org/education/whatischemistry/landmarks/carotherspolymers.html",
+			"accessed": "2026-09-30",
+			"note": "Condensation polymers, the molecular still, and fiber 66 of 28 February 1935"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hermann Staudinger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hermann_Staudinger&oldid=1372006986",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "US Patent 942,699: Method of making insoluble products of phenol and formaldehyde",
+			"authors": [
+				{
+					"family": "Baekeland",
+					"given": "Leo H."
+				}
+			],
+			"published": "1909-12-07",
+			"url": "https://patents.google.com/patent/US942699A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed July 1907"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bakelite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bakelite&oldid=1376261069",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leo Baekeland",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leo_Baekeland&oldid=1374663177",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wallace Carothers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wallace_Carothers&oldid=1372795201",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nylon 66",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nylon_66&oldid=1356336323",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polyethylene",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polyethylene&oldid=1375231079",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polymer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polymer&oldid=1376222824",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Degree of polymerization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Degree_of_polymerization&oldid=1296569796",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Natural rubber",
+			"url": "https://en.wikipedia.org/w/index.php?title=Natural_rubber&oldid=1375384508",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Glass transition",
+			"url": "https://en.wikipedia.org/w/index.php?title=Glass_transition&oldid=1377555192",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Northern Electric desk telephone in black Bakelite, Telephone Museum, Waltham, Massachusetts",
+			"url": "https://commons.wikimedia.org/wiki/File:Northern_Electric,_Bakelite_-1_-_Telephone_Museum_-_Waltham,_Massachusetts_-_DSC08104.jpg",
+			"accessed": "2026-09-30",
+			"container": "Telephone Museum, Waltham, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "bakelite-telephone.jpg",
+			"authors": [
+				{
+					"name": "Daderot"
+				}
+			],
+			"published": "2018-11-29"
+		}
+	],
+	"connections": [
+		{
+			"to": "feynman/challenger",
+			"why": "Rubber springs back only while its long chains are free to move, and cold stiffens them: the loss of resilience Feynman showed with O-ring rubber in a glass of iced water."
+		},
+		{
+			"to": "chemistry/chemical-warfare",
+			"why": "Staudinger publicly condemned the gas warfare that Haber led in the First World War."
+		}
+	]
+}

@@ -1,0 +1,228 @@
+{
+	"id": "enzymes",
+	"topic": "Enzymes and cell-free fermentation",
+	"position": {
+		"label": "Enzymes"
+	},
+	"scene": {
+		"headline": "We fermented sugar without a",
+		"accent": "CELL.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": ["MUNICH · ITHACA · BERLIN", "YEAST JUICE · JACK BEANS · INVERTASE"],
+		"counter": {
+			"value": "51 : 49",
+			"label": "alcohol to carbon dioxide, by weight, from fermenting sugar"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Alkoholische Gährung ohne Hefezellen (Vorläufige Mitteilung)",
+			"authors": [
+				{
+					"family": "Buchner",
+					"given": "Eduard"
+				}
+			],
+			"container": "Berichte der Deutschen Chemischen Gesellschaft",
+			"volume": "30",
+			"pages": "117–124",
+			"published": "1897",
+			"doi": "10.1002/cber.18970300121",
+			"url": "https://web.lemoyne.edu/~giunta/buchner.html",
+			"accessed": "2026-09-30",
+			"note": "Read in the English excerpt from Mikuláš Teich, A Documentary History of Biochemistry (1992), on Carmen Giunta's Classic Chemistry site"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Chemical Nature of Enzymes",
+			"authors": [
+				{
+					"family": "Sumner",
+					"given": "James B."
+				}
+			],
+			"container": "Nobel Lecture, 12 December 1946",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1946-12-12",
+			"url": "https://www.nobelprize.org/uploads/2018/06/sumner-lecture.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Original Michaelis Constant: Translation of the 1913 Michaelis–Menten Paper",
+			"authors": [
+				{
+					"family": "Johnson",
+					"given": "Kenneth A."
+				},
+				{
+					"family": "Goody",
+					"given": "Roger S."
+				}
+			],
+			"container": "Biochemistry",
+			"volume": "50",
+			"issue": "39",
+			"pages": "8264–8269",
+			"published": "2011",
+			"doi": "10.1021/bi201284u",
+			"accessed": "2026-09-30",
+			"note": "The constant of 16.7 mM, the five sucrose concentrations and the slope of 0.576"
+		},
+		{
+			"kind": "web",
+			"title": "Cell-Free Fermentation",
+			"authors": [
+				{
+					"family": "Buchner",
+					"given": "Eduard"
+				}
+			],
+			"container": "Nobel Lecture, 11 December 1907",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1907-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/buchner-lecture.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "The Preparation of Pure Enzymes and Virus Proteins",
+			"authors": [
+				{
+					"family": "Northrop",
+					"given": "John H."
+				}
+			],
+			"container": "Nobel Lecture, 12 December 1946",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1946-12-12",
+			"url": "https://www.nobelprize.org/uploads/2018/06/northrop-lecture.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Enzyme",
+			"url": "https://en.wikipedia.org/w/index.php?title=Enzyme&oldid=1376216228",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eduard Buchner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eduard_Buchner&oldid=1377186016",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zymase",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zymase&oldid=1356532575",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fermentation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fermentation&oldid=1374781336",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James B. Sumner",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_B._Sumner&oldid=1372015686",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Willstätter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Willst%C3%A4tter&oldid=1371989555",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maud Menten",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maud_Menten&oldid=1366146219",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26"
+		},
+		{
+			"kind": "media",
+			"title": "Jack bean (Canavalia ensiformis): pods and seeds",
+			"url": "https://commons.wikimedia.org/wiki/File:Canavalia_ensiformis_MHNT.BOT.2013.22.55.jpg",
+			"accessed": "2026-09-30",
+			"container": "Muséum de Toulouse, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "jack-bean.jpg",
+			"authors": [
+				{
+					"name": "Roger Culos"
+				}
+			],
+			"published": "2013-11-12"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/wohler-urea",
+			"why": "Wöhler, who had made urea in a flask in 1828, joined Liebig in mocking the idea that fermentation needs living yeast."
+		}
+	]
+}

@@ -1,0 +1,140 @@
+{
+	"id": "tyrian-purple",
+	"topic": "Tyrian purple",
+	"position": {
+		"label": "c. 1800 BC",
+		"sort": -1800
+	},
+	"scene": {
+		"headline": "We boiled sea snails for",
+		"accent": "PURPLE.",
+		"palette": "alum",
+		"illustration": "scene.svg",
+		"metadata": ["CRETE · TYRE · TIMNA", "MUREX SNAILS · SALT · A VAT OF LEAD OR TIN"],
+		"counter": {
+			"value": "12,000",
+			"label": "snails for 1.4 grams of dye, in 1909"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Tyrian Purple: 6,6′-Dibromoindigo and Related Compounds",
+			"authors": [
+				{
+					"family": "Cooksey",
+					"given": "Christopher J."
+				}
+			],
+			"container": "Molecules",
+			"volume": "6",
+			"issue": "9",
+			"pages": "736–769",
+			"published": "2001",
+			"doi": "10.3390/60900736",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6236399/",
+			"accessed": "2026-09-30",
+			"note": "Friedländer's 12,000 snails, the precursors, Pliny's recipe and the mass spectrum"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Early Evidence of Royal Purple Dyed Textile from Timna Valley (Israel)",
+			"authors": [
+				{
+					"family": "Sukenik",
+					"given": "Naama"
+				},
+				{
+					"family": "Iluz",
+					"given": "David"
+				},
+				{
+					"family": "Amar",
+					"given": "Zohar"
+				},
+				{
+					"family": "Varvak",
+					"given": "Alexander"
+				},
+				{
+					"family": "Shamir",
+					"given": "Orit"
+				},
+				{
+					"family": "Ben-Yosef",
+					"given": "Erez"
+				}
+			],
+			"container": "PLOS ONE",
+			"volume": "16",
+			"issue": "1",
+			"pages": "e0245897",
+			"published": "2021-01-28",
+			"doi": "10.1371/journal.pone.0245897",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tyrian purple",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tyrian_purple&oldid=1376290251",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "6,6'-Dibromoindigo",
+			"url": "https://en.wikipedia.org/w/index.php?title=6,6'-Dibromoindigo&oldid=1365381366",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bromine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bromine&oldid=1376887602",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "Cloth dyed with the purples of three murex snails, beside their shells",
+			"url": "https://commons.wikimedia.org/wiki/File:Purple_Purpur_(retouched).jpg",
+			"accessed": "2026-09-30",
+			"container": "Natural History Museum, Vienna, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "murex-purples.jpg",
+			"authors": [
+				{
+					"name": "U.Name.Me"
+				},
+				{
+					"name": "TeKaBe"
+				}
+			],
+			"published": "2018-11-29"
+		}
+	]
+}

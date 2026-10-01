@@ -1,0 +1,26 @@
+{
+	"title": "Adenine and thymine against guanine and cytosine, in Chargaff's DNA of 1950",
+	"description": "Bar chart of the molar ratio of adenine plus thymine to guanine plus cytosine. The tetranucleotide hypothesis predicts 1. Chargaff's analyses, published in Experientia in 1950, give 0.43 for avian tubercle bacilli, 1.38 for ox thymus (first preparation), 1.67 for human sperm (first preparation) and 1.81 for yeast (first preparation). The ratios are this frame's arithmetic from his tables.",
+	"heading": "(A + T) / (G + C) · CHARGAFF 1950",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"max": 2,
+		"ticks": [
+			[0, "0"],
+			[0.5, "0.5"],
+			[1, "1"],
+			[1.5, "1.5"],
+			[2, "2"]
+		]
+	},
+	"bars": [
+		{ "label": "Levene", "sublabel": "predicted", "value": 1, "display": "1", "highlight": true },
+		{ "label": "Tubercle", "sublabel": "bacilli", "value": 0.43, "display": "0.43" },
+		{ "label": "Ox", "sublabel": "thymus", "value": 1.38, "display": "1.38" },
+		{ "label": "Human", "sublabel": "sperm", "value": 1.67, "display": "1.67" },
+		{ "label": "Yeast", "value": 1.81, "display": "1.81" }
+	]
+}

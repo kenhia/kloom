@@ -1,0 +1,31 @@
+{
+	"chemistry/pcr": [
+		["polymerase chain reaction", "polymerase-chain-reaction"],
+		["DNA", "dna"],
+		["Cetus Corporation", "cetus-corporation"],
+		["Kary Mullis", "kary-mullis"],
+		["Thomas Brock", "thomas-d-brock"],
+		["_Thermus aquaticus_", "thermus-aquaticus"],
+		["_Taq_ polymerase", "taq-polymerase"],
+		["Nobel Prize in Chemistry", "nobel-prize-in-chemistry"]
+	],
+	"chemistry/keeling-curve": [
+		["carbon dioxide", "carbon-dioxide"],
+		["Keeling Curve", "keeling-curve"],
+		["Svante Arrhenius", "svante-arrhenius"],
+		["Charles David Keeling", "charles-david-keeling"],
+		["Scripps Institution of Oceanography", "scripps-institution-of-oceanography"],
+		["Mauna Loa Observatory", "mauna-loa-observatory"],
+		["ocean acidification", "ocean-acidification"]
+	],
+	"chemistry/where-chemistry-is": [
+		["Chemical Abstracts Service", "chemical-abstracts-service"],
+		["Nobel Prize in Chemistry", "nobel-prize-in-chemistry"],
+		["Omar Yaghi", "omar-m-yaghi"],
+		["metal–organic framework", "metal-organic-framework"],
+		["Green chemistry", "green-chemistry"],
+		["PFAS", "pfas"],
+		["Environmental Protection Agency", "united-states-environmental-protection-agency"],
+		["European Chemicals Agency", "european-chemicals-agency"]
+	]
+}

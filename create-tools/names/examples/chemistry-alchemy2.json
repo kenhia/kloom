@@ -1,0 +1,30 @@
+{
+	"chemistry/jabir": [
+		["Jabir ibn Hayyan", "jabir-ibn-hayyan"],
+		["sal ammoniac", "ammonium-chloride"],
+		["Ibn al-Nadim", "ibn-al-nadim"],
+		["Paul Kraus", "paul-kraus-arabist"],
+		["Baghdad", "baghdad"],
+		["Abu Bakr al-Razi", "abu-bakr-al-razi"],
+		["alembic", "alembic"]
+	],
+	"chemistry/gunpowder": [
+		["gunpowder", "gunpowder"],
+		["saltpetre", "potassium-nitrate"],
+		["_Wujing Zongyao_", "wujing-zongyao"],
+		["Song dynasty", "song-dynasty"],
+		["Hasan al-Rammah", "hasan-al-rammah"],
+		["Roger Bacon", "roger-bacon"],
+		["_Opus Majus_", "opus-majus"]
+	],
+	"chemistry/mineral-acids": [
+		["Pseudo-Geber", "pseudo-geber"],
+		["William R. Newman", "william-r-newman"],
+		["Paul of Taranto", "paul-of-taranto"],
+		["nitric acid", "nitric-acid"],
+		["aqua regia", "aqua-regia"],
+		["gold", "gold"],
+		["silver", "silver"],
+		["Archimedes", "archimedes"]
+	]
+}

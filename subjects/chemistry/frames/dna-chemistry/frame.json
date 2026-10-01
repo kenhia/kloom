@@ -1,0 +1,231 @@
+{
+	"id": "dna-chemistry",
+	"topic": "The chemistry of DNA before 1953",
+	"position": {
+		"label": "Nucleic acids"
+	},
+	"scene": {
+		"headline": "We counted the bases and found",
+		"accent": "PAIRS.",
+		"palette": "agar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TÜBINGEN · ROCKEFELLER INSTITUTE · COLUMBIA",
+			"NUCLEIN 1869 · AVERY 1944 · CHARGAFF 1950"
+		],
+		"counter": {
+			"value": "0.29 : 0.31",
+			"label": "adenine to thymine in human DNA, 1950"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Chemical Specificity of Nucleic Acids and Mechanism of Their Enzymatic Degradation",
+			"authors": [
+				{
+					"family": "Chargaff",
+					"given": "Erwin"
+				}
+			],
+			"container": "Experientia",
+			"volume": "6",
+			"issue": "6",
+			"pages": "201–209",
+			"published": "1950-06-15",
+			"doi": "10.1007/BF02173653",
+			"accessed": "2026-09-30",
+			"url": "https://archive.org/details/cellular-and-molecular-life-sciences_1950_6_6",
+			"key": true,
+			"note": "Tables II–V, and the ratios \"not far from 1\" on p. 206; read in the Internet Archive’s scan of the issue"
+		},
+		{
+			"kind": "article",
+			"title": "Studies on the Chemical Nature of the Substance Inducing Transformation of Pneumococcal Types: Induction of Transformation by a Desoxyribonucleic Acid Fraction Isolated from Pneumococcus Type III",
+			"authors": [
+				{
+					"family": "Avery",
+					"given": "Oswald T."
+				},
+				{
+					"family": "MacLeod",
+					"given": "Colin M."
+				},
+				{
+					"family": "McCarty",
+					"given": "Maclyn"
+				}
+			],
+			"container": "Journal of Experimental Medicine",
+			"volume": "79",
+			"issue": "2",
+			"pages": "137–158",
+			"published": "1944-02-01",
+			"doi": "10.1084/jem.79.2.137",
+			"accessed": "2026-09-30",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2135445/",
+			"key": true,
+			"note": "The nitrogen-to-phosphorus ratios are in Table I"
+		},
+		{
+			"kind": "article",
+			"title": "From Discovering to Understanding: Friedrich Miescher's Attempts to Uncover the Function of DNA",
+			"authors": [
+				{
+					"family": "Dahm",
+					"given": "Ralf"
+				}
+			],
+			"container": "EMBO Reports",
+			"volume": "11",
+			"issue": "3",
+			"pages": "153–160",
+			"published": "2010-03",
+			"doi": "10.1038/embor.2010.14",
+			"accessed": "2026-09-30",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2838690/",
+			"key": true,
+			"note": "Miescher in Tübingen, and his alphabet of asymmetric carbon atoms"
+		},
+		{
+			"kind": "article",
+			"title": "Before Watson and Crick in 1953 Came Friedrich Miescher in 1869",
+			"authors": [
+				{
+					"family": "Lamm",
+					"given": "Ehud"
+				},
+				{
+					"family": "Harman",
+					"given": "Oren"
+				},
+				{
+					"family": "Veigl",
+					"given": "Sophie Juliane"
+				}
+			],
+			"container": "Genetics",
+			"volume": "215",
+			"issue": "2",
+			"pages": "291–296",
+			"published": "2020-06",
+			"doi": "10.1534/genetics.120.303195",
+			"accessed": "2026-09-30",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7268995/"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Friedrich Miescher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Friedrich_Miescher&oldid=1373017178",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Albrecht Kossel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Albrecht_Kossel&oldid=1371963231",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phoebus Levene",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phoebus_Levene&oldid=1376146574",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Avery–MacLeod–McCarty experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Avery%E2%80%93MacLeod%E2%80%93McCarty_experiment&oldid=1300689347",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Erwin Chargaff",
+			"url": "https://en.wikipedia.org/w/index.php?title=Erwin_Chargaff&oldid=1368894134",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chargaff's rules",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chargaff's_rules&oldid=1374887856",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "media",
+			"title": "The chemical laboratory in the vaults of Tübingen castle, where Miescher isolated nuclein, photographed in 1879",
+			"url": "https://commons.wikimedia.org/wiki/File:Schloss_Chemisches_Laboratorium_1879.jpg",
+			"accessed": "2026-09-30",
+			"container": "Universitätsarchiv Tübingen, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "tubingen-lab.jpg",
+			"authors": [
+				{
+					"name": "Paul Sinner"
+				}
+			],
+			"published": "1879"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: the ratio of adenine and thymine to guanine and cytosine in Chargaff's DNA of 1950",
+			"url": "https://archive.org/details/cellular-and-molecular-life-sciences_1950_6_6",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from Chargaff's tables in Experientia (1950)",
+			"licence": "MIT",
+			"file": "at-gc.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/dna",
+			"why": "Chargaff's finding that adenine matches thymine and guanine matches cytosine in every DNA he analysed is the pairing that Watson and Crick's double helix of 1953 explained."
+		}
+	]
+}

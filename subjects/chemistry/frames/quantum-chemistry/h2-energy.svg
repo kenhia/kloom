@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="t d">
+<title id="t">The hydrogen molecule's bond energy, calculated and measured, to 1935</title>
+<desc id="d">Bar chart of the depth of the hydrogen molecule's energy well, in electronvolts, from Pauling and Wilson's table of 1935. Heitler and London's wave function, with Sugiura's integral, 1927: 3.14. Simple molecular orbitals: 3.47. Wang, 1928: 3.76. Rosen, 1931: 4.02. Weinbaum, ionic and polarization terms, 1933: 4.10. James and Coolidge, 1933: 4.72. Measured: 4.72.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="540" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="540" y1="207.2" y2="207.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="211.2" text-anchor="end">1</text>
+<line x1="64" x2="540" y1="164.4" y2="164.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="168.4" text-anchor="end">2</text>
+<line x1="64" x2="540" y1="121.6" y2="121.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="125.6" text-anchor="end">3</text>
+<line x1="64" x2="540" y1="78.8" y2="78.8" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="82.8" text-anchor="end">4</text>
+<line x1="64" x2="540" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">5</text>
+</g>
+<rect x="70.0" y="115.6" width="56" height="134.4" fill-opacity="0.85"/>
+<text x="98.0" y="109.6" text-anchor="middle">3.14</text>
+<text x="98.0" y="266" text-anchor="middle">H–L–S</text>
+<text x="98.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1927</text>
+<rect x="138.0" y="101.5" width="56" height="148.5" fill-opacity="0.85"/>
+<text x="166.0" y="95.5" text-anchor="middle">3.47</text>
+<text x="166.0" y="266" text-anchor="middle">MO</text>
+<text x="166.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">simple</text>
+<rect x="206.0" y="89.1" width="56" height="160.9" fill-opacity="0.85"/>
+<text x="234.0" y="83.1" text-anchor="middle">3.76</text>
+<text x="234.0" y="266" text-anchor="middle">Wang</text>
+<text x="234.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1928</text>
+<rect x="274.0" y="77.9" width="56" height="172.1" fill-opacity="0.85"/>
+<text x="302.0" y="71.9" text-anchor="middle">4.02</text>
+<text x="302.0" y="266" text-anchor="middle">Rosen</text>
+<text x="302.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1931</text>
+<rect x="342.0" y="74.5" width="56" height="175.5" fill-opacity="0.85"/>
+<text x="370.0" y="68.5" text-anchor="middle">4.10</text>
+<text x="370.0" y="266" text-anchor="middle">Weinbaum</text>
+<text x="370.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1933</text>
+<rect x="410.0" y="48.0" width="56" height="202.0" fill-opacity="0.85"/>
+<text x="438.0" y="42.0" text-anchor="middle">4.72</text>
+<text x="438.0" y="266" text-anchor="middle">J–C</text>
+<text x="438.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1933</text>
+<rect x="478.0" y="48.0" width="56" height="202.0" class="accent" fill="currentColor"/>
+<text x="506.0" y="42.0" text-anchor="middle">4.72</text>
+<text x="506.0" y="266" text-anchor="middle">Measured</text>
+<text x="506.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1935</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">H₂ BOND ENERGY, De · ELECTRONVOLTS</text>
+</g></svg>

@@ -1,0 +1,31 @@
+{
+	"chemistry/boyle": [
+		["Robert Boyle", "robert-boyle"],
+		["_The Sceptical Chymist_", "the-sceptical-chymist"],
+		["Otto von Guericke", "otto-von-guericke"],
+		["Robert Hooke", "robert-hooke"],
+		["Royal Society", "royal-society"],
+		["Boyle's law", "boyles-law"],
+		["Richard Towneley", "richard-towneley"],
+		["Henry Power", "henry-power"]
+	],
+	"chemistry/phlogiston": [
+		["phlogiston theory", "phlogiston-theory"],
+		["Johann Joachim Becher", "johann-joachim-becher"],
+		["Georg Ernst Stahl", "georg-ernst-stahl"],
+		["copper", "copper"],
+		["Jean Rey", "jean-rey-physician"],
+		["tin", "tin"],
+		["Robert Boyle", "robert-boyle"]
+	],
+	"chemistry/fixed-air": [
+		["Joseph Black", "joseph-black"],
+		["University of Edinburgh", "university-of-edinburgh"],
+		["_magnesia alba_", "magnesium-carbonate"],
+		["carbon dioxide", "carbon-dioxide"],
+		["Henry Cavendish", "henry-cavendish"],
+		["hydrogen", "hydrogen"],
+		["James Watt", "james-watt"],
+		["latent heat", "latent-heat"]
+	]
+}

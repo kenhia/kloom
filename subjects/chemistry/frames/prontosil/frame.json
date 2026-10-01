@@ -1,0 +1,286 @@
+{
+	"id": "prontosil",
+	"topic": "Prontosil and the sulfa drugs",
+	"position": {
+		"label": "1932",
+		"sort": 1932
+	},
+	"scene": {
+		"headline": "We split a dye into a",
+		"accent": "DRUG.",
+		"palette": "enamel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ELBERFELD · IG FARBEN · GERHARD DOMAGK",
+			"KL 730 · A RED AZO DYE · STREPTOCOCCI IN MICE"
+		],
+		"counter": {
+			"value": "59%",
+			"label": "of Prontosil's weight is the sulfanilamide inside it"
+		}
+	},
+	"connections": [
+		{
+			"to": "feynman/arline",
+			"why": "The sulfa drugs, the first to cure a range of bacterial infections, did nothing against tuberculosis, so in 1942 Arline Greenbaum had rest as her only treatment until streptomycin came in the mid-1940s."
+		},
+		{
+			"to": "chemistry/salvarsan",
+			"why": "Bayer's chemists screened dyes on the idea Ehrlich had pursued before Salvarsan: a dye that clings to microbes might be made to attack them."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"title": "Physiology or Medicine 1939: Presentation Speech",
+			"url": "https://www.nobelprize.org/prizes/medicine/1939/ceremony-speech/",
+			"accessed": "2026-09-30",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1939",
+			"authors": [
+				{
+					"family": "Svartz",
+					"given": "Nanna"
+				}
+			],
+			"key": true,
+			"note": "An account of the discovery by Nanna Svartz: the mouse experiment of 20–24 December 1932"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Prontosil",
+			"url": "https://en.wikipedia.org/w/index.php?title=Prontosil&oldid=1343711221",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-15",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gerhard Domagk",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gerhard_Domagk&oldid=1377188288",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true,
+			"note": "Hildegard's arm, the patent dates, and the refused prize"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Taste of Raspberries, Taste of Death: The 1937 Elixir Sulfanilamide Incident",
+			"authors": [
+				{
+					"family": "Ballentine",
+					"given": "Carol"
+				}
+			],
+			"container": "FDA Consumer",
+			"publisher": "U.S. Food and Drug Administration",
+			"published": "1981-06",
+			"url": "https://www.fda.gov/about-fda/histories-product-regulation/sulfanilamide-disaster",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Further Progress in Chemotherapy of Bacterial Infections",
+			"authors": [
+				{
+					"family": "Domagk",
+					"given": "Gerhard"
+				}
+			],
+			"container": "Nobel Lecture, 12 December 1947",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1947-12-12",
+			"url": "https://www.nobelprize.org/uploads/2018/06/domagk-lecture.pdf",
+			"accessed": "2026-09-30",
+			"note": "Read in the PDF of Nobel Lectures, Physiology or Medicine 1942–1962 (Elsevier, 1964)"
+		},
+		{
+			"kind": "web",
+			"title": "Gerhard Domagk: Biographical",
+			"url": "https://www.nobelprize.org/prizes/medicine/1939/domagk/biographical/",
+			"accessed": "2026-09-30",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1964"
+		},
+		{
+			"kind": "web",
+			"title": "Gerhard Domagk",
+			"container": "Science History Institute",
+			"publisher": "Science History Institute",
+			"url": "https://www.sciencehistory.org/education/scientific-biographies/gerhard-domagk/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sulfonamide (medicine)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sulfonamide_(medicine)&oldid=1363064123",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sulfanilamide",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sulfanilamide&oldid=1371756271",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Donald Devereux Woods",
+			"url": "https://en.wikipedia.org/w/index.php?title=Donald_Devereux_Woods&oldid=1372845484",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jacques Tréfouël",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jacques_Tr%C3%A9fou%C3%ABl&oldid=1340955470",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-28"
+		},
+		{
+			"kind": "article",
+			"title": "Molecular Mechanism of Plasmid-Borne Resistance to Sulfonamide Antibiotics",
+			"authors": [
+				{
+					"family": "Venkatesan",
+					"given": "Meenakshi"
+				},
+				{
+					"family": "Fruci",
+					"given": "Michael"
+				},
+				{
+					"family": "Verellen",
+					"given": "Lou Ann"
+				},
+				{
+					"family": "Skarina",
+					"given": "Tatiana"
+				},
+				{
+					"family": "Mesa",
+					"given": "Nathalie"
+				},
+				{
+					"family": "Flick",
+					"given": "Robert"
+				},
+				{
+					"family": "Pham",
+					"given": "Chester"
+				}
+			],
+			"etAl": true,
+			"container": "Nature Communications",
+			"volume": "14",
+			"pages": "4031",
+			"published": "2023",
+			"doi": "10.1038/s41467-023-39778-7",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Elixir sulfanilamide",
+			"url": "https://en.wikipedia.org/w/index.php?title=Elixir_sulfanilamide&oldid=1364675606",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Federal Food, Drug, and Cosmetic Act",
+			"url": "https://en.wikipedia.org/w/index.php?title=Federal_Food,_Drug,_and_Cosmetic_Act&oldid=1375258771",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "media",
+			"title": "Five ampoules of Prontosil solubile and their box, Germany, 1936–1940",
+			"url": "https://commons.wikimedia.org/wiki/File:Box_of_five_ampoules_of_Prontosil,_Germany,_1936-1940_Wellcome_L0059028.jpg",
+			"accessed": "2026-09-30",
+			"container": "Science Museum, London, via Wellcome Collection and Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "prontosil-ampoules.jpg",
+			"authors": [
+				{
+					"name": "Wellcome Collection"
+				}
+			],
+			"published": "2018-03-24"
+		},
+		{
+			"kind": "media",
+			"title": "A physician's sample of Elixir Sulfanilamide, 1937",
+			"url": "https://commons.wikimedia.org/wiki/File:Elixir_Sulfanilamide,_1937.jpg",
+			"accessed": "2026-09-30",
+			"container": "U.S. Food and Drug Administration, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "elixir-sulfanilamide.jpg",
+			"authors": [
+				{
+					"name": "U.S. Food and Drug Administration"
+				}
+			],
+			"published": "2019-05-28"
+		}
+	]
+}

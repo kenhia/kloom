@@ -1,0 +1,32 @@
+{
+	"chemistry/bessemer-steel": [
+		["Pig iron", "pig-iron"],
+		["steel", "steel"],
+		["Henry Bessemer", "henry-bessemer"],
+		["Napoleon III", "napoleon-iii"],
+		["William Kelly", "william-kelly-inventor"],
+		["Sidney Gilchrist Thomas", "sidney-gilchrist-thomas"],
+		["open-hearth furnace", "open-hearth-furnace"],
+		["Bessemer process", "bessemer-process"]
+	],
+	"chemistry/aluminium": [
+		["Aluminium", "aluminium"],
+		["Hans Christian Ørsted", "hans-christian-orsted"],
+		["Henri Sainte-Claire Deville", "henri-etienne-sainte-claire-deville"],
+		["Napoleon III", "napoleon-iii"],
+		["Charles Martin Hall", "charles-martin-hall"],
+		["cryolite", "cryolite"],
+		["Paul Héroult", "paul-heroult"],
+		["Hall–Héroult process", "hall-heroult-process"]
+	],
+	"chemistry/silicon": [
+		["Silicon", "silicon"],
+		["Czochralski method", "czochralski-method"],
+		["Gordon Teal", "gordon-kidd-teal"],
+		["Bell Labs", "bell-labs"],
+		["germanium", "germanium"],
+		["William Pfann", "william-gardner-pfann"],
+		["zone melting", "zone-melting"],
+		["Avogadro constant", "avogadro-constant"]
+	]
+}

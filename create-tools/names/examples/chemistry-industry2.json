@@ -1,0 +1,33 @@
+{
+	"chemistry/chemical-warfare": [
+		["chlorine", "chlorine"],
+		["Second Battle of Ypres", "second-battle-of-ypres"],
+		["Fritz Haber", "fritz-haber"],
+		["Clara Immerwahr", "clara-immerwahr"],
+		["Geneva Protocol", "geneva-protocol"],
+		["Chemical Weapons Convention", "chemical-weapons-convention"],
+		[
+			"Organisation for the Prohibition of Chemical Weapons",
+			"organisation-for-the-prohibition-of-chemical-weapons"
+		]
+	],
+	"chemistry/polymers": [
+		["Leo Baekeland", "leo-baekeland"],
+		["Bakelite", "bakelite"],
+		["Hermann Staudinger", "hermann-staudinger"],
+		["Heinrich Wieland", "heinrich-otto-wieland"],
+		["polymer", "polymer"],
+		["DuPont", "dupont"],
+		["Wallace Carothers", "wallace-carothers"],
+		["nylon 66", "nylon-66"]
+	],
+	"chemistry/leaded-petrol": [
+		["General Motors", "general-motors"],
+		["Thomas Midgley Jr.", "thomas-midgley-jr"],
+		["Charles F. Kettering", "charles-f-kettering"],
+		["tetraethyllead", "tetraethyllead"],
+		["DuPont", "dupont"],
+		["Clair Patterson", "clair-patterson"],
+		["chlorofluorocarbon", "chlorofluorocarbon"]
+	]
+}

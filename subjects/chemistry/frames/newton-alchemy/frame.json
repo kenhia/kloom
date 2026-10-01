@@ -1,0 +1,210 @@
+{
+	"id": "newton-alchemy",
+	"topic": "Newton the alchemist",
+	"position": {
+		"label": "1669–1696",
+		"sort": 1669
+	},
+	"scene": {
+		"headline": "Newton sought the stone in",
+		"accent": "ANTIMONY.",
+		"palette": "filter",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TRINITY COLLEGE, CAMBRIDGE · ISAAC NEWTON",
+			"STIBNITE · IRON · SALTPETRE · THE STAR REGULUS"
+		],
+		"counter": {
+			"value": "1,000,000",
+			"label": "words on alchemy, about, in Newton's hand"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Problem of Alchemy",
+			"authors": [
+				{
+					"family": "Newman",
+					"given": "William R."
+				}
+			],
+			"container": "The New Atlantis",
+			"issue": "44",
+			"pages": "65–75",
+			"published": "2015",
+			"url": "https://www.thenewatlantis.com/publications/the-problem-of-alchemy",
+			"accessed": "2026-09-30",
+			"note": "Keynes's verdict, the star regulus and the net, Dobbs's reading and redintegration"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "About Isaac Newton and Alchemy",
+			"authors": [
+				{
+					"family": "Newman",
+					"given": "William R."
+				}
+			],
+			"container": "The Chymistry of Isaac Newton",
+			"publisher": "Indiana University",
+			"url": "https://webapp1.dlib.indiana.edu/newton/project/about.do",
+			"accessed": "2026-09-30",
+			"note": "The 1936 sale and the million words"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Two Letters from Humphrey Newton to John Conduitt, Dated 17 January and 14 February 1727/8",
+			"authors": [
+				{
+					"family": "Newton",
+					"given": "Humphrey"
+				}
+			],
+			"container": "The Newton Project",
+			"publisher": "University of Oxford",
+			"published": "1728",
+			"url": "https://www.newtonproject.ox.ac.uk/view/texts/normalized/THEM00033",
+			"accessed": "2026-09-30",
+			"note": "Keynes Ms. 135, King's College, Cambridge; the laboratory and its fire"
+		},
+		{
+			"kind": "web",
+			"title": "Chymical Products",
+			"container": "The Chymistry of Isaac Newton",
+			"publisher": "Indiana University",
+			"url": "https://webapp1.dlib.indiana.edu/newton/reference/chemProd.do",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "'Clavis': Detailed Directions for a Lengthy Alchemical Operation Beginning with the Digestion of Antimony, Iron and Sulphur (Catalogue Entry ALCH00007)",
+			"container": "The Newton Project",
+			"publisher": "University of Oxford",
+			"url": "https://www.newtonproject.ox.ac.uk/catalogue/record/ALCH00007",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Newton, the Man",
+			"authors": [
+				{
+					"family": "Keynes",
+					"given": "John Maynard"
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"url": "https://mathshistory.st-andrews.ac.uk/Extras/Keynes_Newton/",
+			"accessed": "2026-09-30",
+			"note": "Read in MacTutor's transcription of the address read at the Royal Society in July 1946"
+		},
+		{
+			"kind": "article",
+			"title": "The Strange Tale of Newton's Papers",
+			"authors": [
+				{
+					"family": "Dry",
+					"given": "Sarah"
+				}
+			],
+			"container": "The New Atlantis",
+			"issue": "44",
+			"published": "2015",
+			"url": "https://www.thenewatlantis.com/publications/the-strange-tale-of-newtons-papers",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "report",
+			"title": "'Though Their Causes Be Not Yet Discover'd': Occult Principles in the Making of Newton's Natural Philosophy",
+			"authors": [
+				{
+					"family": "Wang",
+					"given": "Xiaona"
+				}
+			],
+			"publisher": "University of Edinburgh",
+			"number": "PhD thesis",
+			"published": "2019",
+			"url": "https://era.ed.ac.uk/bitstreams/54037d99-f883-4e0f-b49e-ab842107003b/download",
+			"accessed": "2026-09-30",
+			"note": "Pp. 28–29, quoting Newman, 'A Preliminary Reassessment of Newton's Alchemy' (2016), p. 456, on Dobbs and Westfall"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isaac Newton's occult studies",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isaac_Newton's_occult_studies&oldid=1374201017",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stibnite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stibnite&oldid=1344326121",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antimony",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antimony&oldid=1375769793",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "media",
+			"title": "Newton's copy of George Starkey's \"Praeparatio Mercurii ad Lapidem per Regulum Martis stellatum et Lunam\"",
+			"url": "https://commons.wikimedia.org/wiki/File:Isaac_Newton%27s_copy_of_the_Preparation_of_the_(Sophick)_Mercury_for_the_(Philosophers%27)_Stone_-_DPLA_-_f9e193b02eeba666478f5ee43ba60a64_(page_2).jpg",
+			"accessed": "2026-09-30",
+			"container": "Science History Institute, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "starkey-regulus.jpg",
+			"authors": [
+				{
+					"family": "Newton",
+					"given": "Isaac"
+				}
+			],
+			"published": "1670",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/prism",
+			"why": "Newton borrowed the chymists' redintegration, taking a compound apart and putting it back together, for recombining the prism's colours into white light."
+		},
+		{
+			"to": "physics/principia",
+			"why": "Newton's alchemy stopped for the Principia: his dated notebooks of chemical experiments have no entry from May 1684 to April 1686, and the assistant who sat up with him at the furnace copied the book out for the press."
+		},
+		{
+			"to": "chemistry/boyle",
+			"why": "Newton read and copied the alchemy of George Starkey, who had taught Boyle."
+		}
+	]
+}

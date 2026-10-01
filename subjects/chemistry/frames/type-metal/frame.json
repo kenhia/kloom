@@ -1,0 +1,189 @@
+{
+	"id": "type-metal",
+	"topic": "Gutenberg's type metal",
+	"position": {
+		"label": "c. 1450",
+		"sort": 1450
+	},
+	"scene": {
+		"headline": "We cast a metal for",
+		"accent": "LETTERS.",
+		"palette": "alum",
+		"illustration": "scene.svg",
+		"metadata": ["MAINZ · JOHANNES GUTENBERG", "LEAD · ANTIMONY · TIN · THE HAND MOULD"],
+		"counter": {
+			"value": "239 °C",
+			"label": "where lead, antimony and tin melt together"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Post-medieval printing type from Mainz and Oberursel, Germany, and the composition of early German type metal",
+			"authors": [
+				{
+					"family": "Berger",
+					"given": "Daniel"
+				}
+			],
+			"container": "Historical Metallurgy",
+			"volume": "49",
+			"issue": "2",
+			"pages": "110–125",
+			"published": "2017",
+			"url": "https://hmsjournal.org/index.php/home/article/view/67",
+			"accessed": "2026-09-30",
+			"note": "Volume for 2015, published 2017. The analyses, the Wittenberg comparison, the ternary eutectic, and \"the composition of Gutenberg’s first type is not known\""
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Type metal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Type_metal&oldid=1376655021",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Thermal Expansion of Lead-Antimony Alloys",
+			"authors": [
+				{
+					"family": "Hidnert",
+					"given": "Peter"
+				}
+			],
+			"container": "Journal of Research of the National Bureau of Standards",
+			"volume": "17",
+			"issue": "5",
+			"pages": "697–708",
+			"published": "1936-11",
+			"number": "RP938",
+			"url": "https://nvlpubs.nist.gov/nistpubs/jres/17/jresv17n5p697_A1b.pdf",
+			"accessed": "2026-09-30",
+			"note": "The eutectic \"at about 13 percent of antimony and at 247 °C\", p. 700"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Did Johannes Gutenberg Invent the Hand Mould? Conclusions Drawn from Microscopic Type Comparisons of Early Prints",
+			"authors": [
+				{
+					"family": "Reske",
+					"given": "Christoph"
+				}
+			],
+			"container": "Gutenberg Open Science, Johannes Gutenberg-Universität Mainz",
+			"published": "2020",
+			"url": "https://openscience.ub.uni-mainz.de/server/api/core/bitstreams/d6d3b9b3-7f3c-4400-bae4-636bdf082037/content",
+			"accessed": "2026-09-30",
+			"note": "English short version of his article in Gutenberg-Jahrbuch 90 (2015); the 1477 records, and Agüera y Arcas and Needham’s case"
+		},
+		{
+			"kind": "web",
+			"title": "The Typefounder's Hand Mold: Literature",
+			"container": "Circuitous Root",
+			"url": "https://circuitousroot.com/artifice/letters/press/hand-casting/literature/index.html",
+			"accessed": "2026-09-30",
+			"note": "Quoting Biringuccio, Pirotechnia (1540), book IX, chapter 7, in the translation by Smith and Gnudi, pp. 374–375"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eutectic system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eutectic_system&oldid=1377714738",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lead",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lead&oldid=1377493060",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antimony",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antimony&oldid=1375769793",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hand mould",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hand_mould&oldid=1376097175",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "media",
+			"title": "Der Schriftgiesser, a typefounder casting type with a hand mould, woodcut by Jost Amman with a verse by Hans Sachs, from the Ständebuch (Frankfurt, 1568)",
+			"url": "https://commons.wikimedia.org/wiki/File:Schriftgiesser.jpg",
+			"accessed": "2026-09-30",
+			"container": "Eygentliche Beschreibung aller Stände auff Erden, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "typefounder.jpg",
+			"authors": [
+				{
+					"name": "Jost Amman"
+				}
+			],
+			"published": "1568"
+		},
+		{
+			"kind": "media",
+			"title": "Melting points of lead, antimony and their eutectics, chart drawn for kloom",
+			"url": "https://nvlpubs.nist.gov/nistpubs/jres/17/jresv17n5p697_A1b.pdf",
+			"accessed": "2026-09-30",
+			"container": "Data from Hidnert (1936), Berger (2017) and Wikipedia; the ideal-solution estimate is kloom’s arithmetic",
+			"licence": "MIT",
+			"file": "melting-points.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/printing-press",
+			"why": "The press story lists a type metal of lead, tin and antimony among Gutenberg’s inventions; this frame asks what that metal was, and why the mixture melts lower than lead."
+		},
+		{
+			"to": "western-civ/gutenberg-bible",
+			"why": "The 42-line Bible needed tens of thousands of pieces of type, cast from a metal whose recipe nobody wrote down."
+		}
+	]
+}

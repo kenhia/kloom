@@ -1,0 +1,222 @@
+{
+	"id": "haber-bosch",
+	"topic": "The Haber–Bosch process",
+	"position": {
+		"label": "Ammonia"
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We turned air into",
+		"accent": "BREAD.",
+		"palette": "coaltar",
+		"illustration": "scene.svg",
+		"metadata": ["KARLSRUHE · OPPAU · BASF", "N₂ + 3 H₂ · 200 ATMOSPHERES · AN IRON CATALYST"],
+		"counter": {
+			"value": "26%",
+			"label": "ammonia at equilibrium at 200 atm and 450 °C, by our arithmetic"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Synthesis of Ammonia from Its Elements",
+			"authors": [
+				{
+					"family": "Haber",
+					"given": "Fritz"
+				}
+			],
+			"container": "Nobel Lectures, Chemistry 1901–1921",
+			"pages": "326–340",
+			"publisher": "Elsevier",
+			"place": "Amsterdam",
+			"published": "1966",
+			"url": "https://www.nobelprize.org/uploads/2018/06/haber-lecture.pdf",
+			"accessed": "2026-09-30",
+			"note": "Nobel lecture of 2 June 1920; the equilibrium equation is on p. 340"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Development of the Chemical High Pressure Method During the Establishment of the New Ammonia Industry",
+			"authors": [
+				{
+					"family": "Bosch",
+					"given": "Carl"
+				}
+			],
+			"container": "Nobel Lectures, Chemistry 1922–1941",
+			"pages": "197–241",
+			"publisher": "Elsevier",
+			"place": "Amsterdam",
+			"published": "1966",
+			"url": "https://www.nobelprize.org/uploads/2018/06/bosch-lecture.pdf",
+			"accessed": "2026-09-30",
+			"note": "Nobel lecture of 21 May 1932: the burst tubes, the liner and the single-pass yield"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Wheat Problem: Based on Remarks Made in the Presidential Address to the British Association at Bristol in 1898, Revised, with an Answer to Various Critics",
+			"authors": [
+				{
+					"family": "Crookes",
+					"given": "William"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1899",
+			"url": "https://archive.org/details/wheatproblembase00croorich",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "History of the Haber process",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_the_Haber_process&oldid=1376251568",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "report",
+			"title": "Ammonia Technology Roadmap: Towards More Sustainable Nitrogen Fertiliser Production",
+			"publisher": "International Energy Agency",
+			"place": "Paris",
+			"published": "2021-10",
+			"url": "https://www.iea.org/reports/ammonia-technology-roadmap/executive-summary",
+			"accessed": "2026-09-30",
+			"note": "Read in its executive summary, through the Wayback Machine"
+		},
+		{
+			"kind": "web",
+			"title": "How Many People Does Synthetic Fertilizer Feed?",
+			"authors": [
+				{
+					"family": "Ritchie",
+					"given": "Hannah"
+				}
+			],
+			"container": "Our World in Data",
+			"published": "2017",
+			"url": "https://ourworldindata.org/how-many-people-does-synthetic-fertilizer-feed",
+			"accessed": "2026-09-30",
+			"note": "Smil's and Erisman and colleagues' estimates"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Haber process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Haber_process&oldid=1375265554",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fritz Haber",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fritz_Haber&oldid=1377121696",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl Bosch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_Bosch&oldid=1371977726",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alwin Mittasch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alwin_Mittasch&oldid=1371966384",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Crookes",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Crookes&oldid=1377398579",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sodium nitrate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sodium_nitrate&oldid=1366058202",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Guano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Guano&oldid=1368941278",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: ammonia at equilibrium at 200 atmospheres, from 300 to 600 °C",
+			"url": "https://www.nobelprize.org/uploads/2018/06/haber-lecture.pdf",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from the equilibrium equation in Haber's Nobel lecture",
+			"licence": "MIT",
+			"file": "equilibrium.svg"
+		}
+	]
+}

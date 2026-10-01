@@ -1,0 +1,32 @@
+{
+	"chemistry/dna-chemistry": [
+		["Friedrich Miescher", "friedrich-miescher"],
+		["DNA", "dna"],
+		["Albrecht Kossel", "albrecht-kossel"],
+		["Phoebus Levene", "phoebus-levene"],
+		["tetranucleotide hypothesis", "tetranucleotide-hypothesis"],
+		["Oswald Avery", "oswald-avery"],
+		["Erwin Chargaff", "erwin-chargaff"],
+		["Columbia University", "columbia-university"]
+	],
+	"chemistry/protein-structure": [
+		["Linus Pauling", "linus-pauling"],
+		["α-helix", "alpha-helix"],
+		["Max Perutz", "max-perutz"],
+		["Frederick Sanger", "frederick-sanger"],
+		["insulin", "insulin"],
+		["John Kendrew", "john-kendrew"],
+		["myoglobin", "myoglobin"],
+		["EDSAC", "edsac"]
+	],
+	"chemistry/miller-urey": [
+		["Alexander Oparin", "alexander-oparin"],
+		["J. B. S. Haldane", "j-b-s-haldane"],
+		["Harold Urey", "harold-urey"],
+		["Stanley Miller", "stanley-miller"],
+		["glycine", "glycine"],
+		["Miller–Urey experiment", "miller-urey-experiment"],
+		["Murchison meteorite", "murchison-meteorite"],
+		["RNA world", "rna-world"]
+	]
+}

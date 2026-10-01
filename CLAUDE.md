@@ -152,6 +152,9 @@ Sprint 024 the sixth subject, `subjects/mathematics` (65 frames: dates
 to 1736, then categories, three trails), every reading doing one piece of
 mathematics, and the first of three author-subject runs reporting to
 korg 3461.
+Sprint 025 the seventh subject, `subjects/chemistry` (66 frames: dates
+to 1898, then categories, three trails), every reading doing one piece
+of chemistry, the second author-subject run reporting to korg 3461.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

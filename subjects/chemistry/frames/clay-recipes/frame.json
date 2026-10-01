@@ -1,0 +1,147 @@
+{
+	"id": "clay-recipes",
+	"topic": "Mesopotamian perfume and glass recipes",
+	"position": {
+		"label": "c. 1200 BC",
+		"sort": -1200
+	},
+	"scene": {
+		"headline": "We wrote the recipe in",
+		"accent": "CLAY.",
+		"palette": "furnace",
+		"illustration": "scene.svg",
+		"metadata": ["ASSUR · NINEVEH · SIPPAR", "TAPPUTI'S OIL · GLASS BY THE MINA · PURPLE WOOL"],
+		"counter": {
+			"value": "10 : 15",
+			"label": "minas of quartz to plant ash, for blue glass"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Glass Text B (K 00203+)",
+			"container": "Corpus of Glass Technological Texts (Oracc)",
+			"authors": [
+				{
+					"family": "Escobar",
+					"given": "Eduardo A."
+				}
+			],
+			"url": "https://oracc.museum.upenn.edu/glass/P393786",
+			"accessed": "2026-09-30",
+			"note": "Edition and translation, after Oppenheim, Brill, Barag and von Saldern, Glass and Glassmaking in Ancient Mesopotamia (1970)"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Tappūtī-Bēlet-ekallim: The First Perfumer?",
+			"container": "Death Scent",
+			"authors": [
+				{
+					"family": "McBride",
+					"given": "Nuri"
+				}
+			],
+			"published": "2022-07-12",
+			"url": "https://deathscent.com/2022/07/12/tapputi-belatekallim/",
+			"accessed": "2026-09-30",
+			"note": "On KAR 220, its date and its recipe"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tapputi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tapputi&oldid=1371434361",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of glass",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_glass&oldid=1377637018",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Library of Ashurbanipal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Library_of_Ashurbanipal&oldid=1368194875",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Salicornia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Salicornia&oldid=1371681918",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sodium carbonate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sodium_carbonate&oldid=1376648472",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "Neo-Babylonian tablet from Sippar with instructions for dyeing wool, 600–500 BC (BM 62788)",
+			"url": "https://commons.wikimedia.org/wiki/File:Cuneiform_tablet_BM62788.jpg",
+			"accessed": "2026-09-30",
+			"container": "British Museum, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "dye-tablet.jpg",
+			"authors": [
+				{
+					"name": "Fæ"
+				}
+			],
+			"published": "2010-07-15"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/writing",
+			"why": "The first written chemical procedures, Tapputi's perfume and the glassmakers' kilns, are in cuneiform, the wedge script that began at Uruk as accounts of grain and livestock."
+		},
+		{
+			"to": "chemistry/tyrian-purple",
+			"why": "A Neo-Babylonian tablet from Sippar, BM 62788, gives instructions for dyeing wool purple and blue, the colours of the murex dyers' vats."
+		}
+	]
+}

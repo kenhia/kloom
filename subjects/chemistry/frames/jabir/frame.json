@@ -1,0 +1,159 @@
+{
+	"id": "jabir",
+	"topic": "Jabir, al-Razi and Arabic alchemy",
+	"position": {
+		"label": "c. AD 850–925",
+		"sort": 850
+	},
+	"scene": {
+		"headline": "We sorted matter into",
+		"accent": "SPIRITS.",
+		"palette": "furnace",
+		"illustration": "scene.svg",
+		"metadata": ["KUFA · BAGHDAD · REY", "THE JABIRIAN CORPUS · AL-RAZI'S BOOK OF SECRETS"],
+		"counter": {
+			"value": "215",
+			"label": "treatises surviving under Jabir's name"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Jabir ibn Hayyan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jabir_ibn_Hayyan&oldid=1377067280",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true,
+			"note": "Kraus's dating of the corpus to c. 850–950, the natures, the sulfur–mercury theory and sal ammoniac"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Makers of Chemistry",
+			"authors": [
+				{
+					"family": "Holmyard",
+					"given": "Eric John"
+				}
+			],
+			"publisher": "Clarendon Press",
+			"place": "Oxford",
+			"published": "1931",
+			"url": "https://archive.org/details/in.ernet.dli.2015.214868",
+			"accessed": "2026-09-30",
+			"note": "Al-Razi's classification of substances, p. 65; Jabir on spirits and sublimation, pp. 58–59"
+		},
+		{
+			"kind": "web",
+			"title": "Kimiā",
+			"authors": [
+				{
+					"family": "Lory",
+					"given": "Pierre"
+				}
+			],
+			"container": "Encyclopaedia Iranica",
+			"published": "2008",
+			"url": "https://www.iranicaonline.org/articles/kimia/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Abu Bakr al-Razi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abu_Bakr_al-Razi&oldid=1373463277",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alchemy in the medieval Islamic world",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alchemy_in_the_medieval_Islamic_world&oldid=1370246141",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ammonium chloride",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ammonium_chloride&oldid=1368368045",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alembic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alembic&oldid=1353416701",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Elixir",
+			"url": "https://en.wikipedia.org/w/index.php?title=Elixir&oldid=1377089852",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Sal ammoniac crystallised from volcanic vapour on basalt, Mount Vesuvius",
+			"url": "https://commons.wikimedia.org/wiki/File:Sal-ammoniac_on_basalt_(GeoDIL_number_-_188).jpg",
+			"accessed": "2026-09-30",
+			"container": "Geoscience Digital Image Library (University of North Dakota Mineralogy Collection), via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "sal-ammoniac.jpg",
+			"authors": [
+				{
+					"name": "Darla Sondrol"
+				}
+			],
+			"published": "2001-03-07"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/al-khwarizmi",
+			"why": "The Jabirian corpus is dated after about 850 because it quotes Greek philosophy put into Arabic late in the ninth century, by the same Baghdad translating that brought Euclid and Ptolemy to al-Khwarizmi's contemporaries."
+		}
+	]
+}

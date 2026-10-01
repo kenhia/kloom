@@ -1,0 +1,15 @@
+{
+	"id": "finding-the-elements",
+	"title": "Finding the elements",
+	"anchor": "periodic-table",
+	"spine": {
+		"segments": [
+			{
+				"id": "elements",
+				"title": "Finding the elements",
+				"labelKind": "date",
+				"frames": ["noble-gases", "moseley", "technetium", "transuranium", "superheavy"]
+			}
+		]
+	}
+}

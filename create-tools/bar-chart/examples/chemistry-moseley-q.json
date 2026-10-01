@@ -1,0 +1,86 @@
+{
+	"title": "Moseley's Q for the alpha X-ray line, potassium to zinc",
+	"description": "Bar chart of Q, the square root of an element's alpha X-ray frequency divided by three quarters of the Rydberg frequency, from Moseley's tables of 1913 and 1914. Potassium 17.98, calcium 19.00, titanium 20.99, vanadium 21.96, chromium 22.98, manganese 23.99, iron 24.99, cobalt 26.00, nickel 27.04, copper 28.01, zinc 29.01. Each step is one, except the double step from calcium to titanium, where scandium, element 21, is missing.",
+	"heading": "MOSELEY'S Q, ELEMENT BY ELEMENT (Sc MISSING)",
+	"width": 600,
+	"height": 300,
+	"barWidth": 34,
+	"axis": {
+		"max": 35,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"]
+		]
+	},
+	"bars": [
+		{
+			"label": "K",
+			"sublabel": "19",
+			"value": 17.98,
+			"display": "17.98"
+		},
+		{
+			"label": "Ca",
+			"sublabel": "20",
+			"value": 19.0,
+			"display": "19.00"
+		},
+		{
+			"label": "Ti",
+			"sublabel": "22",
+			"value": 20.99,
+			"display": "20.99",
+			"highlight": true
+		},
+		{
+			"label": "V",
+			"sublabel": "23",
+			"value": 21.96,
+			"display": "21.96"
+		},
+		{
+			"label": "Cr",
+			"sublabel": "24",
+			"value": 22.98,
+			"display": "22.98"
+		},
+		{
+			"label": "Mn",
+			"sublabel": "25",
+			"value": 23.99,
+			"display": "23.99"
+		},
+		{
+			"label": "Fe",
+			"sublabel": "26",
+			"value": 24.99,
+			"display": "24.99"
+		},
+		{
+			"label": "Co",
+			"sublabel": "27",
+			"value": 26.0,
+			"display": "26.00"
+		},
+		{
+			"label": "Ni",
+			"sublabel": "28",
+			"value": 27.04,
+			"display": "27.04"
+		},
+		{
+			"label": "Cu",
+			"sublabel": "29",
+			"value": 28.01,
+			"display": "28.01"
+		},
+		{
+			"label": "Zn",
+			"sublabel": "30",
+			"value": 29.01,
+			"display": "29.01"
+		}
+	]
+}

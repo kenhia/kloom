@@ -1,0 +1,203 @@
+{
+	"id": "bessemer-steel",
+	"topic": "The Bessemer process",
+	"position": {
+		"label": "Steel"
+	},
+	"scene": {
+		"headline": "We made steel without",
+		"accent": "FUEL.",
+		"palette": "enamel",
+		"illustration": "scene.svg",
+		"metadata": ["CHELTENHAM · SHEFFIELD · BLAENAVON", "PIG IRON · A COLD BLAST · TWENTY MINUTES"],
+		"counter": {
+			"value": "1¼%",
+			"label": "silicon in the pig iron, the blow's chief fuel"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Sir Henry Bessemer, F.R.S.: An Autobiography",
+			"authors": [
+				{
+					"family": "Bessemer",
+					"given": "Henry"
+				}
+			],
+			"place": "London",
+			"publisher": "Offices of “Engineering”",
+			"published": "1905",
+			"url": "https://archive.org/details/sirhenrybessemer00bess",
+			"accessed": "2026-09-30",
+			"note": "Vincennes, pp. 136–137; the Cheltenham paper of 1856, reprinted in full, pp. 155–163; the phosphorus failures, pp. 170–174"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Iron and Steel",
+			"authors": [
+				{
+					"family": "Howe",
+					"given": "Henry Marion"
+				}
+			],
+			"container": "Encyclopædia Britannica, 11th ed., vol. 14",
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1911",
+			"url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Iron_and_Steel",
+			"accessed": "2026-09-30",
+			"note": "§§85–94: the blow, the flame, silicon and phosphorus as the sources of heat, and the basic process"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bessemer process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bessemer_process&oldid=1377389345",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Bessemer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Bessemer&oldid=1377144050",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Kelly (inventor)",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Kelly_(inventor)&oldid=1318263397",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sidney Gilchrist Thomas",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sidney_Gilchrist_Thomas&oldid=1371996251",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Steel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Steel&oldid=1374875347",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wrought iron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wrought_iron&oldid=1358187836",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pig iron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pig_iron&oldid=1375327236",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Open-hearth furnace",
+			"url": "https://en.wikipedia.org/w/index.php?title=Open-hearth_furnace&oldid=1375085563",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Standard enthalpy of formation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Standard_enthalpy_of_formation&oldid=1360540421",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "media",
+			"title": "Section of Bessemer's first vertical converter (Fig. 39 of his autobiography)",
+			"url": "https://commons.wikimedia.org/wiki/File:First_vertical_bessemer_converter_section.png",
+			"accessed": "2026-09-30",
+			"container": "Sir Henry Bessemer, F.R.S.: An Autobiography, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "vertical-converter.png",
+			"authors": [
+				{
+					"name": "Henry Bessemer"
+				}
+			],
+			"published": "1905"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/copper-smelting",
+			"why": "Smelting uses carbon to take the oxygen out of an ore, and leaves iron full of carbon; Bessemer's converter runs the chemistry the other way, blowing oxygen in to burn that carbon out."
+		}
+	]
+}

@@ -1,0 +1,161 @@
+{
+	"id": "aspirin",
+	"topic": "Aspirin",
+	"position": {
+		"label": "1897",
+		"sort": 1897
+	},
+	"scene": {
+		"headline": "We took the sting out of the",
+		"accent": "WILLOW.",
+		"palette": "enamel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ELBERFELD · FRIEDR. BAYER & CO.",
+			"FELIX HOFFMANN · ARTHUR EICHENGRÜN · HEINRICH DRESER"
+		],
+		"counter": {
+			"value": "50 : 75",
+			"label": "parts of salicylic acid to acetic anhydride, in Hoffmann's patent"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Discovery of Aspirin: A Reappraisal",
+			"authors": [
+				{
+					"family": "Sneader",
+					"given": "Walter"
+				}
+			],
+			"container": "BMJ",
+			"volume": "321",
+			"issue": "7276",
+			"pages": "1591–1594",
+			"published": "2000-12-23",
+			"doi": "10.1136/bmj.321.7276.1591",
+			"url": "https://strathprints.strath.ac.uk/65107/1/Sneader_BMJ2000_discovery_aspirin_reappraisal.pdf",
+			"accessed": "2026-09-30",
+			"note": "The 1934 footnote, the laboratory reports, and Eichengrün's claims of 1944 and 1949"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Zum Vortrag von Dr. Walter Sneader über die Entwicklung der Acetylsalicylsäure: Felix Hoffmann ist der \"Vater\" des Aspirin",
+			"authors": [
+				{
+					"name": "Bayer AG"
+				}
+			],
+			"container": "Deutsches Büro für Presseerklärungen",
+			"published": "1999-09",
+			"url": "http://pressearchiv-kubitschek.www.de/pharma-presse/presseerklaerungen/texte/pharma_medikamente/bayer/bayer_110999.html",
+			"accessed": "2026-09-30",
+			"note": "Bayer's reply to Sneader, read through the Wayback Machine"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "US Patent 644,077: Acetyl Salicylic Acid",
+			"authors": [
+				{
+					"family": "Hoffmann",
+					"given": "Felix"
+				}
+			],
+			"container": "United States Patent Office",
+			"published": "1900-02-27",
+			"url": "https://patents.google.com/patent/US644077A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 1 August 1898: the recipe, the iron chloride test and the melting point"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of aspirin",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_aspirin&oldid=1366688964",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aspirin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aspirin&oldid=1377621526",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arthur Eichengrün",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arthur_Eichengr%C3%BCn&oldid=1372323112",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heroin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heroin&oldid=1376264455",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Vane",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Vane&oldid=1372026805",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "A bottle of Bayer's Aspirin powder, 1899",
+			"url": "https://commons.wikimedia.org/wiki/File:Aspirin-Fl%C3%A4schchen.jpg",
+			"accessed": "2026-09-30",
+			"container": "Archives of Bayer AG, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "aspirin-bottle.jpg",
+			"authors": [
+				{
+					"name": "Bayer AG"
+				}
+			],
+			"published": "2011-12-12"
+		}
+	]
+}

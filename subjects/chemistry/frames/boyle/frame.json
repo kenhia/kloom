@@ -1,0 +1,203 @@
+{
+	"id": "boyle",
+	"topic": "Boyle's Sceptical Chymist",
+	"position": {
+		"label": "1661",
+		"sort": 1661
+	},
+	"scene": {
+		"headline": "We learned to",
+		"accent": "DOUBT.",
+		"palette": "retort",
+		"illustration": "scene.svg",
+		"metadata": [
+			"OXFORD AND LONDON · ROBERT BOYLE · ROBERT HOOKE",
+			"THE SCEPTICAL CHYMIST · THE AIR PUMP · A J-TUBE OF MERCURY"
+		],
+		"counter": {
+			"value": "1.3%",
+			"label": "the most Boyle's P × V strayed in 25 readings"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Defence of the Doctrine touching the Spring and Weight of the Air",
+			"authors": [
+				{
+					"family": "Boyle",
+					"given": "Robert"
+				}
+			],
+			"place": "London",
+			"publisher": "F. G. for Thomas Robinson",
+			"published": "1662",
+			"url": "https://archive.org/details/bim_early-english-books-1641-1700_a-defence-of-the-doctrin_boyle-robert_1662",
+			"accessed": "2026-09-30",
+			"note": "Part II, chapter V: the J-tube, and the table of the condensation of the air on p. 60"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Sceptical Chymist: or Chymico-Physical Doubts & Paradoxes",
+			"authors": [
+				{
+					"family": "Boyle",
+					"given": "Robert"
+				}
+			],
+			"place": "London",
+			"publisher": "J. Cadwell for J. Crooke",
+			"published": "1661",
+			"url": "https://www.gutenberg.org/ebooks/22914",
+			"accessed": "2026-09-30",
+			"note": "Read in the Project Gutenberg transcription; the definition of elements is in the sixth part"
+		},
+		{
+			"kind": "book",
+			"title": "New Experiments Physico-Mechanicall, Touching the Spring of the Air, and its Effects",
+			"authors": [
+				{
+					"family": "Boyle",
+					"given": "Robert"
+				}
+			],
+			"place": "Oxford",
+			"publisher": "H. Hall for Tho. Robinson",
+			"published": "1660",
+			"url": "https://archive.org/details/boyleworks01",
+			"accessed": "2026-09-30",
+			"note": "Read, with the Defence, in The Works of the Honourable Robert Boyle, vol. 1 (London, 1744), which misprints two numbers in the table"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Boyle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Boyle&oldid=1376885215",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Sceptical Chymist",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Sceptical_Chymist&oldid=1356708551",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Boyle's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Boyle's_law&oldid=1373022457",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Towneley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Towneley&oldid=1372658079",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Power",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Power&oldid=1361732172",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Royal Society",
+			"url": "https://en.wikipedia.org/w/index.php?title=Royal_Society&oldid=1374481353",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Otto von Guericke",
+			"url": "https://en.wikipedia.org/w/index.php?title=Otto_von_Guericke&oldid=1375148030",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edme Mariotte",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edme_Mariotte&oldid=1353199055",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-08"
+		},
+		{
+			"kind": "media",
+			"title": "The folding plate of Boyle's New Experiments (1660): the pneumatical engine and the vessels of its experiments",
+			"url": "https://commons.wikimedia.org/wiki/File:New_Experiments_Physico-Mechanicall,_Touching_the_Spring_of_the_Air,_and_its_Effects_(Made,_for_the_Most_Part,_in_a_New_Pneumatical_Engine)_-_DPLA_-_ddc00871edee1017033532e70a06d130_(page_2).jpg",
+			"accessed": "2026-09-30",
+			"container": "Science History Institute, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "air-pump.jpg",
+			"authors": [
+				{
+					"family": "Boyle",
+					"given": "Robert"
+				}
+			],
+			"published": "1660"
+		}
+	]
+}

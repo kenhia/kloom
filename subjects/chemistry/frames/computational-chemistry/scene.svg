@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M62 248 L62 40"/>
+		<path pathLength="1" d="M136.5 248 L136.5 40"/>
+		<path pathLength="1" d="M211 248 L211 40"/>
+		<path pathLength="1" d="M285.5 248 L285.5 40"/>
+		<path pathLength="1" d="M360 248 L360 40"/>
+		<path pathLength="1" d="M62 248 L360 248"/>
+		<path pathLength="1" d="M62 183 L360 183"/>
+		<path pathLength="1" d="M62 118 L360 118"/>
+		<path pathLength="1" d="M62 53 L360 53"/>
+		<path pathLength="1" d="M62 236.3 L360 236.3"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M62 40 L62 248 L360 248"/>
+		<path pathLength="1" d="M62 248 L360 61.9"/>
+		<path pathLength="1" d="M62 244.1 L360 244.1"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M62 248 L220.9 40"/>
+		<path pathLength="1" d="M77.7 236.3 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M357 61.9 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="62" y="261" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="211" y="261" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">50</text>
+		<text x="360" y="261" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">100</text>
+		<text x="56" y="251" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10⁰</text>
+		<text x="56" y="186" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10⁵⁰</text>
+		<text x="56" y="121" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10¹⁰⁰</text>
+		<text x="56" y="56" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10¹⁵⁰</text>
+		<text x="200" y="275" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ELECTRONS, N</text>
+		<text x="228.9" y="50" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">p = 10</text>
+		<text x="276.6" y="132" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">p = 3</text>
+		<text x="270.6" y="238.1" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DENSITY, 10³</text>
+		<text x="88.7" y="230.3" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10⁹ → N ≈ 6</text>
+		<text x="356" y="41.9" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3³⁰⁰ ≈ 10¹⁴³</text>
+	</g>
+</svg>

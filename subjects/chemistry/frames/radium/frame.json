@@ -1,0 +1,197 @@
+{
+	"id": "radium",
+	"topic": "Marie Curie, polonium and radium",
+	"position": {
+		"label": "1898",
+		"sort": 1898
+	},
+	"scene": {
+		"headline": "We found new elements by their",
+		"accent": "RAYS.",
+		"palette": "filter",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · MARIE AND PIERRE CURIE",
+			"PITCHBLENDE FROM JOACHIMSTHAL · AN ELECTROMETER · A SHED"
+		],
+		"counter": {
+			"value": "225",
+			"label": "her atomic weight for radium, 1902 (226 today)"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/x-rays",
+			"why": "The physics frame tells how Becquerel found uranium's rays in 1896; Marie Curie turned those rays into a measured current, and the measurements led her and Pierre Curie to polonium and radium."
+		},
+		{
+			"to": "chemistry/agricola",
+			"why": "Joachimsthal, whose silver mines Agricola described, later gave the Curies the pitchblende residues from which they drew radium."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Radio-Active Substances",
+			"authors": [
+				{
+					"family": "Curie",
+					"given": "Marie Skłodowska"
+				}
+			],
+			"publisher": "Chemical News Office",
+			"place": "London",
+			"published": "1904",
+			"url": "https://www.gutenberg.org/ebooks/60564",
+			"accessed": "2026-09-30",
+			"note": "Her doctoral thesis of 1903, reprinted from the Chemical News (second edition): the electrometer, the extraction and the atomic weight"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Sur une substance nouvelle radio-active, contenue dans la pechblende",
+			"authors": [
+				{
+					"family": "Curie",
+					"given": "Pierre"
+				},
+				{
+					"family": "Curie",
+					"given": "Marie"
+				}
+			],
+			"container": "Comptes rendus de l'Académie des Sciences",
+			"volume": "127",
+			"pages": "175–178",
+			"published": "1898-07-18",
+			"url": "https://fr.wikisource.org/wiki/%C5%92uvres_de_Pierre_Curie/23",
+			"accessed": "2026-09-30",
+			"note": "Polonium; read as reprinted in Œuvres de Pierre Curie (1908)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Sur une nouvelle substance fortement radio-active, contenue dans la pechblende",
+			"authors": [
+				{
+					"family": "Curie",
+					"given": "Pierre"
+				},
+				{
+					"family": "Curie",
+					"given": "Marie"
+				},
+				{
+					"family": "Bémont",
+					"given": "Gustave"
+				}
+			],
+			"container": "Comptes rendus de l'Académie des Sciences",
+			"volume": "127",
+			"pages": "1215–1217",
+			"published": "1898-12-26",
+			"url": "https://fr.wikisource.org/wiki/%C5%92uvres_de_Pierre_Curie/24",
+			"accessed": "2026-09-30",
+			"note": "Radium; read as reprinted in Œuvres de Pierre Curie (1908)"
+		},
+		{
+			"kind": "book",
+			"title": "Pierre Curie",
+			"authors": [
+				{
+					"family": "Curie",
+					"given": "Marie"
+				}
+			],
+			"editors": [
+				{
+					"family": "Kellogg",
+					"given": "Charlotte"
+				},
+				{
+					"family": "Kellogg",
+					"given": "Vernon"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "New York",
+			"published": "1923",
+			"url": "https://en.wikisource.org/wiki/Pierre_Curie/Chapter_5",
+			"accessed": "2026-09-30",
+			"note": "Translated by Charlotte and Vernon Kellogg; chapter 5, the shed and the residues"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marie Curie",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marie_Curie&oldid=1377371733",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Radium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Radium&oldid=1376502397",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polonium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polonium&oldid=1377508014",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "The extraction of radium in the old shed where the first radium was obtained",
+			"url": "https://commons.wikimedia.org/wiki/File:Pierre_Curie,_by_Marie_Curie%E2%80%94Illustrations_3.jpg",
+			"accessed": "2026-09-30",
+			"container": "Marie Curie, Pierre Curie (New York: Macmillan, 1923), via Internet Archive and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "shed.jpg",
+			"published": "1923"
+		},
+		{
+			"kind": "media",
+			"title": "Pierre Curie with the quartz piezoelectric electroscope with which radium's rays were measured",
+			"url": "https://commons.wikimedia.org/wiki/File:Pierre_Curie,_by_Marie_Curie%E2%80%94Illustrations_4.jpg",
+			"accessed": "2026-09-30",
+			"container": "Marie Curie, Pierre Curie (New York: Macmillan, 1923), via Internet Archive and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "electroscope.jpg",
+			"published": "1923"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: the atomic weight Marie Curie found as her radium chloride grew purer",
+			"url": "https://www.gutenberg.org/ebooks/60564",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from the tables in Marie Curie's thesis, Radio-Active Substances (1904)",
+			"licence": "MIT",
+			"file": "atomic-weight.svg"
+		}
+	]
+}

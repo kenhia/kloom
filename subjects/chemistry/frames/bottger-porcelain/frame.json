@@ -1,0 +1,177 @@
+{
+	"id": "bottger-porcelain",
+	"topic": "Böttger and Meissen porcelain",
+	"position": {
+		"label": "1708",
+		"sort": 1708
+	},
+	"scene": {
+		"headline": "Asked for gold, we made",
+		"accent": "PORCELAIN.",
+		"palette": "retort",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DRESDEN · MEISSEN · J. F. BÖTTGER · E. W. VON TSCHIRNHAUS",
+			"KAOLIN · ALABASTER · A KILN AT 1,400 °C"
+		],
+		"counter": {
+			"value": "14%",
+			"label": "of kaolinite's weight leaves the kiln as steam"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Böttger's Eureka!: New Insights into the European Reinvention of Porcelain",
+			"authors": [
+				{
+					"family": "Zumbulyadis",
+					"given": "Nicholas"
+				}
+			],
+			"container": "Bulletin for the History of Chemistry",
+			"volume": "35",
+			"issue": "1",
+			"pages": "24–32",
+			"published": "2010",
+			"doi": "10.70359/bhc2010v035p024",
+			"url": "https://acshist.scs.illinois.edu/awards/OPA%20Papers/2012-Zumbulyadis.pdf",
+			"accessed": "2026-09-30",
+			"note": "The notebook page of 15 January 1708, Wildenstein's teapot, Tschirnhaus's lenses and the memorandum of 1709"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Meissen Chymistry",
+			"authors": [
+				{
+					"family": "Hoffmann",
+					"given": "Roald"
+				}
+			],
+			"container": "American Scientist",
+			"volume": "92",
+			"issue": "4",
+			"pages": "312–315",
+			"published": "2004-07",
+			"url": "https://www.americanscientist.org/article/meissen-chymistry",
+			"accessed": "2026-09-30",
+			"note": "Kaolinite to mullite and glass; Böttger's alabaster; the poem of 1709"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johann Friedrich Böttger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johann_Friedrich_B%C3%B6ttger&oldid=1361705976",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ehrenfried Walther von Tschirnhaus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ehrenfried_Walther_von_Tschirnhaus&oldid=1347425847",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Meissen porcelain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Meissen_porcelain&oldid=1352255771",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Porcelain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Porcelain&oldid=1374115715",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hard-paste porcelain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hard-paste_porcelain&oldid=1326933749",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kaolinite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kaolinite&oldid=1374721105",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mullite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mullite&oldid=1345702894",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-27"
+		},
+		{
+			"kind": "media",
+			"title": "Bottle of Böttger porcelain, Meissen manufactory, Dresden, 1715–1720, in the Victoria and Albert Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:Bottle_of_%22Bottger_Porcelain,%22_Dresden,_Germany,_1715-1720_(9847382265).jpg",
+			"accessed": "2026-09-30",
+			"container": "Victoria and Albert Museum, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "bottger-bottle.jpg",
+			"authors": [
+				{
+					"name": "Gary Todd"
+				}
+			],
+			"published": "2012-08-22"
+		}
+	]
+}

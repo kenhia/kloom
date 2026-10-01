@@ -1,0 +1,92 @@
+{
+	"segments": [
+		{
+			"id": "fire-and-earth",
+			"title": "Fire and earth",
+			"labelKind": "date",
+			"frames": ["copper-smelting", "tyrian-purple", "clay-recipes"]
+		},
+		{
+			"id": "alchemy",
+			"title": "Elements and alchemy",
+			"labelKind": "date",
+			"frames": [
+				"four-elements",
+				"alexandrian-alchemy",
+				"iron-gall-ink",
+				"jabir",
+				"gunpowder",
+				"mineral-acids",
+				"type-metal",
+				"paracelsus",
+				"agricola"
+			]
+		},
+		{
+			"id": "revolution",
+			"title": "The chemical revolution",
+			"labelKind": "date",
+			"frames": ["boyle", "phlogiston", "fixed-air", "oxygen", "lavoisier", "davy-electrolysis"]
+		},
+		{
+			"id": "atoms",
+			"title": "Atoms and the table",
+			"labelKind": "date",
+			"frames": [
+				"dalton",
+				"wohler-urea",
+				"faraday-electrolysis",
+				"chirality",
+				"structure-theory",
+				"karlsruhe",
+				"periodic-table",
+				"tetrahedral-carbon",
+				"gibbs-free-energy",
+				"radium"
+			]
+		},
+		{
+			"id": "industry",
+			"title": "Industry",
+			"labelKind": "category",
+			"frames": [
+				"leblanc-solvay",
+				"mauveine",
+				"haber-bosch",
+				"chemical-warfare",
+				"polymers",
+				"leaded-petrol"
+			]
+		},
+		{
+			"id": "bond",
+			"title": "The chemical bond",
+			"labelKind": "category",
+			"frames": [
+				"crystallography",
+				"electron-pair",
+				"quantum-chemistry",
+				"nmr",
+				"computational-chemistry"
+			]
+		},
+		{
+			"id": "materials",
+			"title": "Materials",
+			"labelKind": "category",
+			"frames": ["bessemer-steel", "aluminium", "silicon", "photolithography", "lithium-battery"]
+		},
+		{
+			"id": "life",
+			"title": "The chemistry of life",
+			"labelKind": "category",
+			"frames": ["enzymes", "dna-chemistry", "protein-structure", "miller-urey", "pcr", "alphafold"]
+		},
+		{
+			"id": "now",
+			"title": "Chemistry now",
+			"labelKind": "category",
+			"frames": ["ozone-hole", "keeling-curve", "where-chemistry-is"]
+		}
+	]
+}

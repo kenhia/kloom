@@ -1,0 +1,176 @@
+{
+	"id": "penicillin",
+	"topic": "Penicillin",
+	"position": {
+		"label": "1928–45",
+		"sort": 1940
+	},
+	"scene": {
+		"headline": "We grew a drug from",
+		"accent": "MOULD.",
+		"palette": "coaltar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ST MARY'S · OXFORD · PEORIA",
+			"PENICILLIUM · CORN STEEP LIQUOR · THE β-LACTAM RING"
+		],
+		"counter": {
+			"value": "10×",
+			"label": "the yield, once Peoria added corn steep liquor"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Discovery and Development of Penicillin",
+			"container": "International Historic Chemical Landmarks",
+			"publisher": "American Chemical Society",
+			"published": "1999-11-19",
+			"url": "https://www.acs.org/education/whatischemistry/landmarks/flemingpenicillin.html",
+			"accessed": "2026-09-30",
+			"note": "Adapted from the 1999 landmark booklet; Peoria, corn steep liquor and the production figures"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of penicillin",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_penicillin&oldid=1376463778",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Chemical Structure of the Penicillins",
+			"authors": [
+				{
+					"family": "Chain",
+					"given": "Ernst B."
+				}
+			],
+			"container": "Nobel Lecture, 20 March 1946",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1946-03-20",
+			"url": "https://www.nobelprize.org/uploads/2018/06/chain-lecture.pdf",
+			"accessed": "2026-09-30",
+			"note": "The β-lactam and thiazolidine-oxazolone structures, and why most chemists preferred the second"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mechanism of Action of Penicillins: A Proposal Based on Their Structural Similarity to Acyl-D-Alanyl-D-Alanine",
+			"authors": [
+				{
+					"family": "Tipper",
+					"given": "Donald J."
+				},
+				{
+					"family": "Strominger",
+					"given": "Jack L."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "54",
+			"issue": "4",
+			"pages": "1133–1141",
+			"published": "1965",
+			"doi": "10.1073/pnas.54.4.1133",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Penicillin",
+			"authors": [
+				{
+					"family": "Fleming",
+					"given": "Alexander"
+				}
+			],
+			"container": "Nobel Lecture, 11 December 1945",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1945-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/fleming-lecture.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "β-Lactam",
+			"url": "https://en.wikipedia.org/w/index.php?title=%CE%92-Lactam&oldid=1373859939",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Penicillin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Penicillin&oldid=1368621719",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Penicillin-binding proteins",
+			"url": "https://en.wikipedia.org/w/index.php?title=Penicillin-binding_proteins&oldid=1376239574",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "media",
+			"title": "Penicillin made in the United States, 1943–1949 (chart)",
+			"url": "https://www.acs.org/education/whatischemistry/landmarks/flemingpenicillin.html",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from the American Chemical Society's figures",
+			"licence": "MIT",
+			"file": "us-output.svg"
+		},
+		{
+			"kind": "media",
+			"title": "Spraying spores of penicillin mould into flasks of corn steep medium, England, 1943",
+			"url": "https://commons.wikimedia.org/wiki/File:Penicillin_Past,_Present_and_Future-_the_Development_and_Production_of_Penicillin,_England,_1943_D16965.jpg",
+			"accessed": "2026-09-30",
+			"container": "Imperial War Museums (D 16965), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "corn-steep-flasks.jpg",
+			"authors": [
+				{
+					"name": "Richard Stone"
+				}
+			],
+			"published": "1943"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/mauveine",
+			"why": "The trail began with Perkin, who set out to make a drug, quinine, and made a dye; it ends with a drug grown by a mould."
+		}
+	]
+}

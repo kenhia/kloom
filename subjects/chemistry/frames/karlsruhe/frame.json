@@ -1,0 +1,160 @@
+{
+	"id": "karlsruhe",
+	"topic": "The Karlsruhe Congress",
+	"position": {
+		"label": "1860",
+		"sort": 1860
+	},
+	"scene": {
+		"headline": "We learned what atoms",
+		"accent": "WEIGH.",
+		"palette": "filter",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KARLSRUHE · 3–5 SEPTEMBER 1860 · 140 CHEMISTS",
+			"CANNIZZARO'S SUNTO · AVOGADRO'S RULE · C = 12"
+		],
+		"counter": {
+			"value": "19",
+			"label": "formulas for acetic acid in Kekulé's textbook"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/atoms-real",
+			"why": "Avogadro's rule, revived at Karlsruhe, gave chemists the relative weights of molecules; Perrin counted how many molecules make up a gram-molecule and in 1909 named the number for Avogadro."
+		},
+		{
+			"to": "western-civ/si-redefinition",
+			"why": "The number of particles in a mole that Avogadro's rule implies, the Avogadro constant, has been fixed exactly since 2019 and defines the mole."
+		},
+		{
+			"to": "chemistry/structure-theory",
+			"why": "Kekulé, who gave carbon its four bonds, was one of the organisers of the Karlsruhe Congress."
+		},
+		{
+			"to": "chemistry/dalton",
+			"why": "Avogadro's hypothesis of 1811, which could have settled Dalton's atomic weights, was revived by Cannizzaro at Karlsruhe."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Sketch of a Course of Chemical Philosophy",
+			"authors": [
+				{
+					"family": "Cannizzaro",
+					"given": "Stanislao"
+				}
+			],
+			"publisher": "The Alembic Club",
+			"place": "Edinburgh",
+			"published": "1910",
+			"url": "https://archive.org/details/b21687158",
+			"accessed": "2026-09-30",
+			"note": "Alembic Club Reprint 18, the Sunto of 1858 in English: the tables of molecular weights and the law of atoms"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Karlsruhe Congress",
+			"url": "https://en.wikipedia.org/w/index.php?title=Karlsruhe_Congress&oldid=1370157150",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stanislao Cannizzaro",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stanislao_Cannizzaro&oldid=1374984841",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Avogadro's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Avogadro's_law&oldid=1351892909",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Amedeo Avogadro",
+			"url": "https://en.wikipedia.org/w/index.php?title=Amedeo_Avogadro&oldid=1373051477",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lothar Meyer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lothar_Meyer&oldid=1371963586",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Avogadro constant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Avogadro_constant&oldid=1360615018",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "media",
+			"title": "The nineteen formulas for acetic acid in Kekulé's Lehrbuch der organischen Chemie, p. 58",
+			"url": "https://commons.wikimedia.org/wiki/File:Kekule_acetic_acid_formulae.jpg",
+			"accessed": "2026-09-30",
+			"container": "Lehrbuch der organischen Chemie, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "acetic-acid-formulas.jpg",
+			"authors": [
+				{
+					"family": "Kekulé",
+					"given": "August"
+				}
+			],
+			"published": "1861"
+		}
+	]
+}

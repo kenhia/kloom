@@ -1,0 +1,26 @@
+{
+	"title": "Penicillin made in the United States, 1943–1949 (log scale)",
+	"description": "Bar chart on a logarithmic scale, in billions of units of penicillin made in the United States in a year: 1943, 21; 1944, 1,663; 1945, more than 6,800; 1949, 133,229. Data: American Chemical Society, The Discovery and Development of Penicillin 1928–1945, an International Historic Chemical Landmark (1999).",
+	"heading": "US PENICILLIN · BILLIONS OF UNITS A YEAR · LOG",
+	"unit": "",
+	"scale": "log",
+	"width": 520,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"min": 1,
+		"max": 1000000,
+		"ticks": [
+			[1, "1"],
+			[100, "10²"],
+			[10000, "10⁴"],
+			[1000000, "10⁶"]
+		]
+	},
+	"bars": [
+		{ "label": "1943", "value": 21, "display": "21" },
+		{ "label": "1944", "value": 1663, "display": "1,663" },
+		{ "label": "1945", "value": 6800, "display": "6,800+" },
+		{ "label": "1949", "value": 133229, "display": "133,229", "highlight": true }
+	]
+}

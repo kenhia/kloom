@@ -1,0 +1,27 @@
+{
+	"title": "The atomic weight Marie Curie found as her radium grew purer",
+	"description": "Bar chart of the atomic weight Marie Curie found for the metal in her chloride, by weighing it as silver chloride, as fractional crystallisation made it more active. Pure barium chloride, her control, 137 to 138; chloride 3,500 times as active as uranium, 140; 7,500 times, 145.8; about a million times, 173.8; nearly pure radium chloride in 1902, 225. Radium's accepted value today, 226, from radium-226. From her thesis, Radio-Active Substances (1904).",
+	"heading": "ATOMIC WEIGHT FOUND, AS THE SAMPLE GREW PURER",
+	"width": 520,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"max": 250,
+		"ticks": [
+			[0, "0"],
+			[50, "50"],
+			[100, "100"],
+			[150, "150"],
+			[200, "200"],
+			[250, "250"]
+		]
+	},
+	"bars": [
+		{ "label": "Barium", "sublabel": "control", "value": 137.5, "display": "137" },
+		{ "label": "×3,500", "sublabel": "uranium", "value": 140 },
+		{ "label": "×7,500", "sublabel": "uranium", "value": 145.8, "display": "145.8" },
+		{ "label": "×10⁶", "sublabel": "uranium", "value": 173.8, "display": "173.8" },
+		{ "label": "Pure", "sublabel": "1902", "value": 225, "highlight": true },
+		{ "label": "Today", "sublabel": "Ra-226", "value": 226 }
+	]
+}

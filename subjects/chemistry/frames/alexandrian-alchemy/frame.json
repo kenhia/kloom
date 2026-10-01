@@ -1,0 +1,253 @@
+{
+	"id": "alexandrian-alchemy",
+	"topic": "Alexandrian alchemy",
+	"position": {
+		"label": "c. AD 300",
+		"sort": 300
+	},
+	"scene": {
+		"headline": "We caught the rising",
+		"accent": "VAPOUR.",
+		"palette": "furnace",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ALEXANDRIA · PANOPOLIS · THEBES",
+			"ZOSIMOS · MARIA · THE LEIDEN AND STOCKHOLM PAPYRI",
+			"COPPER HEAD · THREE ARMS · FLOUR PASTE"
+		],
+		"counter": {
+			"value": "111",
+			"label": "recipes in Leyden papyrus X"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Leyden and Stockholm Papyri: Greco-Egyptian Chemical Documents from the Early 4th Century AD",
+			"authors": [
+				{
+					"family": "Caley",
+					"given": "Earle Radcliffe"
+				}
+			],
+			"editors": [
+				{
+					"family": "Jensen",
+					"given": "William B."
+				}
+			],
+			"publisher": "Oesper Collections in the History of Chemistry, University of Cincinnati",
+			"place": "Cincinnati",
+			"published": "2008",
+			"url": "http://www.che.uc.edu/jensen/W.%20B.%20Jensen/Books/Leyden%20&%20Stockholm%20Papyri.pdf",
+			"accessed": "2026-09-30",
+			"note": "Caley's translations of 1926–27, with Jensen's introduction; Leyden recipes 6, 8, 96 and 100. Read through the Wayback Machine"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Collection des anciens alchimistes grecs, deuxième livraison",
+			"authors": [
+				{
+					"family": "Berthelot",
+					"given": "Marcellin"
+				},
+				{
+					"family": "Ruelle",
+					"given": "Charles-Émile"
+				}
+			],
+			"publisher": "Georges Steinheil",
+			"place": "Paris",
+			"published": "1888",
+			"url": "https://archive.org/details/berthelot_alchimistes_grecs_2_seconde_livraison_1888_french",
+			"accessed": "2026-09-30",
+			"note": "Zosimos's two descriptions of the tribikos, one in \"Sur le tribicos et le tube\" (part III, 50), in French translation"
+		},
+		{
+			"kind": "web",
+			"title": "The Natural History, Book 33, chapter 41: Hydrargyros",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"editors": [
+				{
+					"family": "Bostock",
+					"given": "John"
+				},
+				{
+					"family": "Riley",
+					"given": "H. T."
+				}
+			],
+			"container": "Perseus Digital Library",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D33%3Achapter%3D41",
+			"accessed": "2026-09-30",
+			"note": "Bostock and Riley's translation of 1855"
+		},
+		{
+			"kind": "web",
+			"title": "Mary's bath",
+			"authors": [
+				{
+					"family": "Sella",
+					"given": "Andrea"
+				}
+			],
+			"container": "Chemistry World",
+			"published": "2009-06-29",
+			"url": "https://www.chemistryworld.com/opinion/marys-bath/3004925.article",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zosimos of Panopolis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zosimos_of_Panopolis&oldid=1376334199",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mary the Jewess",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mary_the_Jewess&oldid=1368524842",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leyden papyrus X",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leyden_papyrus_X&oldid=1345864151",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Papyrus Graecus Holmiensis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Papyrus_Graecus_Holmiensis&oldid=1182239501",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2023-10-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bain-marie",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bain-marie&oldid=1366751843",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alchemy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alchemy&oldid=1377286035",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mercury (element)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mercury_(element)&oldid=1375319675",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cinnabar",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cinnabar&oldid=1364136825",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "media",
+			"title": "The first page of recipes of the Stockholm papyrus (Papyrus Graecus Holmiensis), as reproduced by Otto Lagercrantz in 1913",
+			"url": "https://commons.wikimedia.org/wiki/File:Papyrus_Holmiensis.png",
+			"accessed": "2026-09-30",
+			"container": "Lagercrantz, Papyrus Graecus Holmiensis (Uppsala, 1913), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "stockholm-papyrus.jpg",
+			"published": "1913"
+		},
+		{
+			"kind": "media",
+			"title": "Zosimos's stills as drawn in the Byzantine manuscript Parisinus graecus 2327, reproduced by Berthelot in 1887",
+			"url": "https://commons.wikimedia.org/wiki/File:Zosimos_distillation_equipment.jpg",
+			"accessed": "2026-09-30",
+			"container": "Berthelot, Collection des anciens alchimistes grecs, vol. 1 (Paris, 1887), p. 161, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "zosimos-stills.jpg",
+			"published": "1887"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/tyrian-purple",
+			"why": "The papyri's recipes dye wool purple with alkanet, archil and gall-nut rather than with murex snails: cheaper stand-ins for the most expensive colour."
+		},
+		{
+			"to": "chemistry/clay-recipes",
+			"why": "Jensen reads the Leiden and Stockholm papyri as craft recipe books in a tradition that runs back to the Assyrian glassmakers' tablets."
+		},
+		{
+			"to": "chemistry/four-elements",
+			"why": "Aristotle's elements, each able to turn into another, were the theory the alchemists' transmutation leaned on."
+		}
+	]
+}

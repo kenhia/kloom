@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M196 210.6 L384 210.6"/>
+		<path pathLength="1" d="M196 169.2 L384 169.2"/>
+		<path pathLength="1" d="M196 86.4 L384 86.4"/>
+		<path pathLength="1" d="M196 252 L196 72"/>
+		<path pathLength="1" d="M92 62 L92 238"/>
+		<path pathLength="1" d="M30 92 L154 92"/>
+		<path pathLength="1" d="M30 152 L154 152"/>
+		<path pathLength="1" d="M30 212 L154 212"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M57 92 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M81 92 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M105 92 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M69 152 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M93 152 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M57 212 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M81 212 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M105 212 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0"/>
+		<path pathLength="1" d="M196 252 L384 252"/>
+		<path pathLength="1" d="M223 252 L223 210.6 L249 210.6 L249 252"/>
+		<path pathLength="1" d="M277 252 L277 169.5 L303 169.5 L303 252"/>
+		<path pathLength="1" d="M331 252 L331 79.9 L357 79.9 L357 252"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M68 81 L68 103"/>
+		<path pathLength="1" d="M116 81 L116 103"/>
+		<path pathLength="1" d="M80 141 L80 163"/>
+		<path pathLength="1" d="M92 201 L92 223"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="92" y="118" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N₂O</text>
+		<text x="92" y="178" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NO</text>
+		<text x="92" y="238" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NO₂</text>
+		<text x="236" y="264" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N₂O</text>
+		<text x="236" y="205.6" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">57.5</text>
+		<text x="290" y="264" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NO</text>
+		<text x="290" y="164.5" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">114.6</text>
+		<text x="344" y="264" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NO₂</text>
+		<text x="344" y="74.9" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">239</text>
+		<text x="192" y="213.6" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">×1</text>
+		<text x="192" y="172.2" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">×2</text>
+		<text x="192" y="89.4" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">×4</text>
+		<text x="92" y="44" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DALTON'S SYMBOLS</text>
+		<text x="290" y="26" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OXYGEN PER 100 AZOTE</text>
+		<text x="290" y="282" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BY WEIGHT · DAVY, IN DALTON 1810</text>
+	</g>
+</svg>

@@ -1,0 +1,380 @@
+{
+	"id": "periodic-table",
+	"topic": "Mendeleev's periodic table",
+	"position": {
+		"label": "1869",
+		"sort": 1869
+	},
+	"scene": {
+		"headline": "We drew a table with",
+		"accent": "GAPS.",
+		"palette": "retort",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ST PETERSBURG · DMITRI MENDELEEV",
+			"63 ELEMENTS BY ATOMIC WEIGHT · ?=45 · ?=68 · ?=70"
+		],
+		"counter": {
+			"value": "5.469",
+			"label": "germanium's density, g/cm³; Mendeleev foretold 5.5"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Relationship of the Properties of the Elements to their Atomic Weights",
+			"authors": [
+				{
+					"family": "Mendeleev",
+					"given": "Dmitri"
+				}
+			],
+			"container": "Zeitschrift für Chemie",
+			"volume": "12",
+			"pages": "405–406",
+			"published": "1869",
+			"url": "https://web.lemoyne.edu/giunta/ea/MENDELEEVann.HTML",
+			"accessed": "2026-09-30",
+			"note": "The 1869 table and its eight conclusions, in Carmen Giunta's annotated translation of the German abstract (Classic Chemistry)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Die periodische Gesetzmässigkeit der chemischen Elemente",
+			"authors": [
+				{
+					"family": "Mendeleev",
+					"given": "Dmitri"
+				}
+			],
+			"container": "Annalen der Chemie und Pharmacie, Supplementband",
+			"volume": "8",
+			"pages": "133–229",
+			"published": "1872",
+			"url": "https://web.lemoyne.edu/giunta/Mendeleev1871.pdf",
+			"accessed": "2026-09-30",
+			"note": "Atomic analogy and eka-aluminium and eka-silicon, read in Eduard Farber's translated excerpt (Classic Chemistry)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Periodic Law of the Chemical Elements",
+			"authors": [
+				{
+					"family": "Mendeleev",
+					"given": "Dmitri"
+				}
+			],
+			"container": "Journal of the Chemical Society, Transactions",
+			"volume": "55",
+			"pages": "634–656",
+			"published": "1889",
+			"doi": "10.1039/CT8895500634",
+			"url": "https://web.lemoyne.edu/giunta/ea/MENDELann.HTML",
+			"accessed": "2026-09-30",
+			"note": "The Faraday Lecture: Karlsruhe, the forerunners, tellurium, and eka-silicon's oxide"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mittheilungen über das Germanium",
+			"authors": [
+				{
+					"family": "Winkler",
+					"given": "Clemens"
+				}
+			],
+			"container": "Journal für praktische Chemie",
+			"volume": "34",
+			"pages": "177–229",
+			"published": "1886",
+			"doi": "10.1002/prac.18860340122",
+			"url": "https://www.chemteam.info/Chem-History/Disc-of-Germanium.html",
+			"accessed": "2026-09-30",
+			"note": "Measured against Mendeleev's eka-silicon; read in the English excerpt at ChemTeam"
+		},
+		{
+			"kind": "article",
+			"title": "Germanium, Ge, ein neues, nichtmetallisches Element",
+			"authors": [
+				{
+					"family": "Winkler",
+					"given": "Clemens"
+				}
+			],
+			"container": "Berichte der deutschen chemischen Gesellschaft",
+			"volume": "19",
+			"pages": "210–211",
+			"published": "1886",
+			"doi": "10.1002/cber.18860190156",
+			"url": "https://www.chemteam.info/Chem-History/Disc-of-Germanium.html",
+			"accessed": "2026-09-30",
+			"note": "Read in the English translation at ChemTeam"
+		},
+		{
+			"kind": "article",
+			"title": "About a New Metal, Gallium",
+			"authors": [
+				{
+					"family": "Lecoq de Boisbaudran",
+					"given": "Paul-Émile"
+				}
+			],
+			"container": "Annales de chimie et de physique, 5th series",
+			"volume": "10",
+			"pages": "100–141",
+			"published": "1877",
+			"url": "https://www.chemteam.info/Chem-History/Disc-of-Gallium.html",
+			"accessed": "2026-09-30",
+			"note": "An English translation of the paper, read at ChemTeam"
+		},
+		{
+			"kind": "web",
+			"title": "An Unsystematic Foreshadowing: J. A. R. Newlands",
+			"authors": [
+				{
+					"family": "Giunta",
+					"given": "Carmen"
+				}
+			],
+			"container": "Classic Chemistry, Le Moyne College",
+			"url": "https://web.lemoyne.edu/giunta/ea/NEWLANDSann.HTML",
+			"accessed": "2026-09-30",
+			"note": "Includes the Chemical News report of 9 March 1866 on the law of octaves"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Dmitrii Ivanovich Mendeleev (1834–1907): The Periodic Table and Beyond",
+			"authors": [
+				{
+					"family": "Shiltsev",
+					"given": "Vladimir D."
+				},
+				{
+					"family": "Shiltseva",
+					"given": "Elizaveta V."
+				}
+			],
+			"publisher": "Fermi National Accelerator Laboratory",
+			"place": "Batavia, IL",
+			"number": "FERMILAB-CONF-20-031-AD-APC",
+			"published": "2020",
+			"url": "https://lss.fnal.gov/archive/2020/conf/fermilab-conf-20-031-ad-apc.pdf",
+			"accessed": "2026-09-30",
+			"note": "The dates of 1869, and the dream as Inostrantsev's posthumous memoir; read through the Wayback Machine"
+		},
+		{
+			"kind": "web",
+			"title": "An Element of Order",
+			"authors": [
+				{
+					"family": "Meyer",
+					"given": "Michal"
+				}
+			],
+			"container": "Distillations, Science History Institute",
+			"published": "2013-06-19",
+			"url": "https://www.sciencehistory.org/stories/magazine/an-element-of-order/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Mendeleev – the man and his legacy",
+			"authors": [
+				{
+					"family": "Woods",
+					"given": "Gordon"
+				}
+			],
+			"container": "Education in Chemistry, Royal Society of Chemistry",
+			"published": "2007",
+			"url": "https://edu.rsc.org/feature/mendeleev-the-man-and-his-legacy-/2020190.article",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Periodic table according to Lothar Meyer, 1870",
+			"authors": [
+				{
+					"family": "Giunta",
+					"given": "Carmen"
+				}
+			],
+			"container": "Classic Chemistry, Le Moyne College",
+			"url": "https://web.lemoyne.edu/giunta/meyer.html",
+			"accessed": "2026-09-30",
+			"note": "Meyer's table and his curve of atomic volumes, from Annalen der Chemie, Supplementband 7 (1870): 354"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of the periodic table",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_the_periodic_table&oldid=1376301225",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mendeleev's predicted elements",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mendeleev's_predicted_elements&oldid=1369207073",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dmitri Mendeleev",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dmitri_Mendeleev&oldid=1377318888",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Germanium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Germanium&oldid=1376195737",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gallium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gallium&oldid=1377672325",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Scandium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Scandium&oldid=1376515756",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lothar Meyer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lothar_Meyer&oldid=1371963586",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Newlands (chemist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Newlands_(chemist)&oldid=1372024264",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alexandre-Émile Béguyer de Chancourtois",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alexandre-%C3%89mile_B%C3%A9guyer_de_Chancourtois&oldid=1373603428",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "media",
+			"title": "Mendeleev's first periodic table, \"An attempt at a system of the elements\", as printed in 1869",
+			"url": "https://commons.wikimedia.org/wiki/File:Mendeleev%27s_periodic_table_(1869_year).jpg",
+			"accessed": "2026-09-30",
+			"container": "Via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "mendeleev-1869.jpg",
+			"authors": [
+				{
+					"family": "Mendeleev",
+					"given": "Dmitri"
+				}
+			],
+			"published": "1869"
+		},
+		{
+			"kind": "media",
+			"title": "Lothar Meyer's curve of atomic volumes against atomic weights, Annalen der Chemie und Pharmacie, Supplementband 7, plate III",
+			"url": "https://web.lemoyne.edu/giunta/meyer.html",
+			"accessed": "2026-09-30",
+			"container": "Classic Chemistry, Le Moyne College, from a copy at Fordham University Libraries",
+			"licence": "Public domain",
+			"file": "meyer-1870.jpg",
+			"authors": [
+				{
+					"family": "Meyer",
+					"given": "Lothar"
+				}
+			],
+			"published": "1870"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/spectra",
+			"why": "Gallium, the first of Mendeleev's gaps to be filled, was found in 1875 by the two violet lines of its spectrum, with the spectroscope Bunsen and Kirchhoff had turned on the elements in 1859–60."
+		},
+		{
+			"to": "chemistry/karlsruhe",
+			"why": "The atomic weights Cannizzaro argued for at Karlsruhe in 1860 were the ones Mendeleev and Meyer ordered the elements by."
+		}
+	]
+}

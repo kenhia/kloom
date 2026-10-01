@@ -1,0 +1,218 @@
+{
+	"id": "mineral-acids",
+	"topic": "Mineral acids and aqua fortis",
+	"position": {
+		"label": "c. 1300",
+		"sort": 1300
+	},
+	"scene": {
+		"headline": "We distilled a water that eats",
+		"accent": "SILVER.",
+		"palette": "furnace",
+		"illustration": "scene.svg",
+		"metadata": [
+			"\"GEBER\" · SUMMA PERFECTIONIS · DE INVENTIONE VERITATIS",
+			"VITRIOL · SALTPETRE · ALUM · SAL AMMONIAC"
+		],
+		"counter": {
+			"value": "3 : 1",
+			"label": "silver to gold, for the assayer's parting"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Some Notes on the Early History of Nitric Acid: 1300–1700",
+			"authors": [
+				{
+					"family": "Karpenko",
+					"given": "Vladimír"
+				}
+			],
+			"container": "Bulletin for the History of Chemistry",
+			"volume": "34",
+			"issue": "2",
+			"pages": "105–116",
+			"published": "2009",
+			"doi": "10.70359/bhc2009v034p105",
+			"url": "http://acshist.scs.illinois.edu/bulletin_open_access/v34-2/v34-2%20p105-116.pdf",
+			"accessed": "2026-09-30",
+			"note": "The recipe of the Liber de inventione veritatis, Schröder's reconstruction, parting and quartation"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pseudo-Geber",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pseudo-Geber&oldid=1347436726",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-06",
+			"key": true,
+			"note": "Newman's case for Paul of Taranto, and al-Hassan's against it"
+		},
+		{
+			"kind": "book",
+			"title": "The Works of Geber",
+			"authors": [
+				{
+					"name": "Geber"
+				}
+			],
+			"editors": [
+				{
+					"family": "Russell",
+					"given": "Richard"
+				},
+				{
+					"family": "Holmyard",
+					"given": "E. J."
+				}
+			],
+			"publisher": "J. M. Dent",
+			"place": "London",
+			"published": "1928",
+			"url": "https://archive.org/details/WorksOfGeber",
+			"accessed": "2026-09-30",
+			"note": "Russell's English translation of 1678, edited by Holmyard; \"Of Solutive Waters\" ends Of the Invention of Verity"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aqua regia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aqua_regia&oldid=1376822103",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nitric acid",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nitric_acid&oldid=1350607607",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gold",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gold&oldid=1373621614",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Silver nitrate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Silver_nitrate&oldid=1373666195",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Standard electrode potential (data page)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Standard_electrode_potential_(data_page)&oldid=1377006472",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Distillation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Distillation&oldid=1376801187",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aqua vitae",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aqua_vitae&oldid=1351578748",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-28"
+		},
+		{
+			"kind": "media",
+			"title": "Standard electrode potentials of silver, gold, gold with chloride and nitrate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Standard_electrode_potential_(data_page)&oldid=1377006472",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from Wikipedia's table of standard electrode potentials",
+			"licence": "MIT",
+			"file": "potentials.svg"
+		},
+		{
+			"kind": "media",
+			"title": "The acid works: furnaces for distilling parting water in retorts, woodcut from Lazarus Ercker's Beschreibung allerfürnemisten mineralischen Ertzt",
+			"url": "https://commons.wikimedia.org/wiki/File:Fotothek_df_tg_0000604_Metallurgie_%5E_Probierkunst_%5E_Gold_%5E_Brennofen_%5E_Retorte.jpg",
+			"accessed": "2026-09-30",
+			"container": "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden, Deutsche Fotothek, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "ercker-furnace.jpg",
+			"authors": [
+				{
+					"family": "Ercker",
+					"given": "Lazarus"
+				}
+			],
+			"published": "1629"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/archimedes",
+			"why": "Hiero's suspicion that his goldsmith had mixed silver into gold, which Archimedes is said to have tested by volume, is the question the assayer's nitric acid answered by dissolving the silver and weighing the gold left behind."
+		},
+		{
+			"to": "chemistry/jabir",
+			"why": "The Latin Summa perfectionis was written under the name Geber, the Latin form of Jabir."
+		}
+	]
+}

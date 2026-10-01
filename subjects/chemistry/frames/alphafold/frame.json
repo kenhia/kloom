@@ -1,0 +1,203 @@
+{
+	"id": "alphafold",
+	"topic": "AlphaFold and protein structure",
+	"position": {
+		"label": "Structure prediction"
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We taught a machine how proteins",
+		"accent": "FOLD.",
+		"palette": "agar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DEEPMIND, LONDON · EMBL-EBI · UNIVERSITY OF WASHINGTON",
+			"CASP14, 2020 · THE EVOFORMER · ROSETTA AND TOP7"
+		],
+		"counter": {
+			"value": "92.4",
+			"label": "AlphaFold 2's median score at CASP14, out of 100"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Computational Protein Design and Protein Structure Prediction: Scientific Background to the Nobel Prize in Chemistry 2024",
+			"authors": [
+				{
+					"name": "The Nobel Committee for Chemistry"
+				}
+			],
+			"publisher": "The Royal Swedish Academy of Sciences",
+			"place": "Stockholm",
+			"published": "2024-10-09",
+			"url": "https://www.nobelprize.org/uploads/2024/10/advanced-chemistryprize2024.pdf",
+			"accessed": "2026-09-30",
+			"note": "Levinthal's 10⁴⁷, CASP's scores from below 40 to about 90, AlphaFold 2's architecture, and Top7"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Highly Accurate Protein Structure Prediction with AlphaFold",
+			"authors": [
+				{
+					"family": "Jumper",
+					"given": "John"
+				},
+				{
+					"family": "Evans",
+					"given": "Richard"
+				},
+				{
+					"family": "Pritzel",
+					"given": "Alexander"
+				},
+				{
+					"family": "Green",
+					"given": "Tim"
+				},
+				{
+					"family": "Figurnov",
+					"given": "Michael"
+				},
+				{
+					"family": "Ronneberger",
+					"given": "Olaf"
+				},
+				{
+					"family": "Tunyasuvunakool",
+					"given": "Kathryn"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "596",
+			"issue": "7873",
+			"pages": "583–589",
+			"published": "2021-07-15",
+			"doi": "10.1038/s41586-021-03819-2",
+			"url": "https://europepmc.org/article/PMC/PMC8371605",
+			"accessed": "2026-09-30",
+			"note": "The median backbone error of 0.96 Å against 2.8 Å, and the Evoformer"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "AlphaFold",
+			"url": "https://en.wikipedia.org/w/index.php?title=AlphaFold&oldid=1370998642",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "web",
+			"title": "AlphaFold Protein Structure Database",
+			"container": "EMBL-EBI and Google DeepMind",
+			"url": "https://alphafold.ebi.ac.uk/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Levinthal's paradox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Levinthal's_paradox&oldid=1372724665",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "CASP",
+			"url": "https://en.wikipedia.org/w/index.php?title=CASP&oldid=1373337930",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "David Baker (biochemist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=David_Baker_(biochemist)&oldid=1373977920",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Chemistry 2024",
+			"url": "https://www.nobelprize.org/prizes/chemistry/2024/summary/",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "AlphaFold at CASP14: median backbone error against the top fifteen other entries, three predictions overlaid on experiment, and the network (Figure 1 of Jumper et al. 2021)",
+			"url": "https://commons.wikimedia.org/wiki/File:AlphaFold_2.png",
+			"accessed": "2026-09-30",
+			"container": "Nature, via Wikimedia Commons",
+			"authors": [
+				{
+					"family": "Jumper",
+					"given": "John"
+				}
+			],
+			"etAl": true,
+			"licence": "CC BY 4.0",
+			"file": "alphafold2-casp14.jpg",
+			"published": "2021-07-15"
+		},
+		{
+			"kind": "media",
+			"title": "Top7: the Rosetta design (blue) superposed on the X-ray crystal structure (red, PDB 1QYS)",
+			"url": "https://commons.wikimedia.org/wiki/File:TOP7-rosetta_superposition.png",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"authors": [
+				{
+					"name": "Emw2012"
+				}
+			],
+			"licence": "CC BY-SA 3.0",
+			"file": "top7.jpg",
+			"published": "2008-07-12"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/transformer",
+			"why": "AlphaFold 2 replaced its predecessor's convolutions with a network in the style of the transformer, whose Evoformer trunk is built on attention; the Nobel committee's account of 2024 cites Attention Is All You Need."
+		},
+		{
+			"to": "chemistry/protein-structure",
+			"why": "AlphaFold learned from the Protein Data Bank's structures, the kind Kendrew and Perutz first solved."
+		},
+		{
+			"to": "chemistry/computational-chemistry",
+			"why": "Simulating folding atom by atom, with the molecular dynamics of Karplus, Levitt and Warshel, was the brute-force road AlphaFold went round."
+		}
+	]
+}

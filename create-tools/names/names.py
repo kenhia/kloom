@@ -187,6 +187,8 @@ def add(paths, names_dir, update=False, check=False):
             held[name['wikidata']] = name['id']
         writes.append((target, name))
     if refused or check:
+        if check and not refused:
+            print(f'add --check: {len(writes)} to write, nothing refused')
         return refused
     names_dir.mkdir(parents=True, exist_ok=True)
     for target, name in writes:

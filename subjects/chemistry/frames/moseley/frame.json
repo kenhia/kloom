@@ -1,0 +1,167 @@
+{
+	"id": "moseley",
+	"topic": "Moseley and atomic number",
+	"position": {
+		"label": "1913",
+		"sort": 1913
+	},
+	"scene": {
+		"headline": "We gave every element its",
+		"accent": "NUMBER.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MANCHESTER · OXFORD · HENRY MOSELEY",
+			"X-RAY LINES · A CRYSTAL SPECTROMETER · Q = N − 1"
+		],
+		"counter": {
+			"value": "3",
+			"label": "elements still missing between aluminium and gold, by his count"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/bohr-atom",
+			"why": "Moseley's X-ray lines fitted Bohr's formula for a jump from the second orbit to the first, with a nuclear charge of N − 1 in place of hydrogen's 1: evidence for Bohr's atom far beyond hydrogen."
+		},
+		{
+			"to": "physics/nucleus",
+			"why": "Moseley's X-ray lines showed that an element's number is the charge on Rutherford's nucleus, as van den Broek had proposed, and gave the strongest support to the idea."
+		},
+		{
+			"to": "chemistry/noble-gases",
+			"why": "Argon, at about 40, sat before potassium at 39.1 against the order of atomic weight; Moseley's atomic numbers showed the order was right."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The High-Frequency Spectra of the Elements",
+			"authors": [
+				{
+					"family": "Moseley",
+					"given": "Henry G. J."
+				}
+			],
+			"container": "Philosophical Magazine",
+			"volume": "26",
+			"issue": "156",
+			"pages": "1024–1034",
+			"published": "1913-12",
+			"doi": "10.1080/14786441308635052",
+			"url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+			"accessed": "2026-09-30",
+			"note": "The apparatus, the photographs and Q; read in ChemTeam's transcription"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The High-Frequency Spectra of the Elements. Part II",
+			"authors": [
+				{
+					"family": "Moseley",
+					"given": "Henry G. J."
+				}
+			],
+			"container": "Philosophical Magazine",
+			"volume": "27",
+			"issue": "160",
+			"pages": "703–713",
+			"published": "1914-04",
+			"doi": "10.1080/14786440408635141",
+			"url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+			"accessed": "2026-09-30",
+			"note": "The tables, Fig. 3 and the three gaps; read in ChemTeam's partial transcription"
+		},
+		{
+			"kind": "web",
+			"title": "Moseley and X rays",
+			"container": "Department of Physics, University of Oxford",
+			"url": "https://www.physics.ox.ac.uk/about-us/our-history/highlights-archive/moseley-and-x-rays",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Moseley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Moseley&oldid=1374927969",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Moseley's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Moseley's_law&oldid=1362360702",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atomic number",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atomic_number&oldid=1377287655",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Timeline of chemical element discoveries",
+			"url": "https://en.wikipedia.org/w/index.php?title=Timeline_of_chemical_element_discoveries&oldid=1375313331",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "Moseley's photograph of the X-ray lines of the elements from calcium to copper, and brass",
+			"url": "https://commons.wikimedia.org/wiki/File:Moseley_step_ladder.jpg",
+			"accessed": "2026-09-30",
+			"container": "Philosophical Magazine (1913), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "xray-lines.jpg",
+			"authors": [
+				{
+					"family": "Moseley",
+					"given": "Henry G. J."
+				}
+			],
+			"published": "1913"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: Moseley's Q for the alpha X-ray line, potassium to zinc",
+			"url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from the table in Moseley's Part II (1914)",
+			"licence": "MIT",
+			"file": "moseley-q.svg"
+		}
+	]
+}

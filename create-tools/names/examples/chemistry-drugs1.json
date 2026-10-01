@@ -1,0 +1,31 @@
+{
+	"chemistry/synthetic-indigo": [
+		["BASF", "basf"],
+		["indigo", "indigo-dye"],
+		["Adolf von Baeyer", "adolf-von-baeyer"],
+		["Heinrich Caro", "heinrich-caro"],
+		["Tyrian purple", "tyrian-purple"],
+		["Mahatma Gandhi", "mahatma-gandhi"],
+		["Champaran Satyagraha", "champaran-satyagraha"]
+	],
+	"chemistry/aspirin": [
+		["Felix Hoffmann", "felix-hoffmann"],
+		["Bayer", "bayer"],
+		["Aspirin", "aspirin"],
+		["salicylic acid", "salicylic-acid"],
+		["Arthur Eichengrün", "arthur-eichengrun"],
+		["Heinrich Dreser", "heinrich-dreser"],
+		["Heroin", "heroin"],
+		["John Vane", "john-vane"]
+	],
+	"chemistry/salvarsan": [
+		["Sahachiro Hata", "sahachiro-hata"],
+		["Paul Ehrlich", "paul-ehrlich"],
+		["Salvarsan", "arsphenamine"],
+		["methylene blue", "methylene-blue"],
+		["magic bullet", "magic-bullet-medicine"],
+		["arsenic", "arsenic"],
+		["syphilis", "syphilis"],
+		["Hoechst", "hoechst-ag"]
+	]
+}

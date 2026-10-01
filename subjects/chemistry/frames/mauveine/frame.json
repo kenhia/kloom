@@ -1,0 +1,291 @@
+{
+	"id": "mauveine",
+	"topic": "Perkin's mauveine",
+	"position": {
+		"label": "Coal-tar dyes"
+	},
+	"scene": {
+		"headline": "We made purple out of",
+		"accent": "TAR.",
+		"palette": "enamel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CABLE STREET · GREENFORD GREEN · LONDON",
+			"ANILINE · POTASSIUM DICHROMATE · PATENT NO. 1984"
+		],
+		"counter": {
+			"value": "18",
+			"label": "Perkin's age when he found the purple, at Easter 1856"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Origin of the Coal-Tar Colour Industry, and the Contributions of Hofmann and His Pupils",
+			"authors": [
+				{
+					"family": "Perkin",
+					"given": "William Henry"
+				}
+			],
+			"container": "Journal of the Chemical Society, Transactions",
+			"volume": "69",
+			"pages": "596–637",
+			"published": "1896",
+			"doi": "10.1039/ct8966900596",
+			"url": "https://archive.org/details/sim_journal-of-the-chemical-society-transactions_1896_69",
+			"accessed": "2026-09-30",
+			"note": "Perkin's own account: the allyltoluidine equation, Pullar's letter, the patent and Greenford (pp. 603–607)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "What Did W. H. Perkin Actually Make When He Oxidised Aniline to Obtain Mauveine?",
+			"authors": [
+				{
+					"family": "Meth-Cohn",
+					"given": "Otto"
+				},
+				{
+					"family": "Smith",
+					"given": "Mandy"
+				}
+			],
+			"container": "Journal of the Chemical Society, Perkin Transactions 1",
+			"issue": "1",
+			"pages": "5–7",
+			"published": "1994",
+			"doi": "10.1039/P19940000005",
+			"url": "https://api.openalex.org/works/doi:10.1039/P19940000005",
+			"accessed": "2026-09-30",
+			"note": "Read in its abstract: mauveines A and B in Perkin’s factory samples"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Mauveine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mauveine&oldid=1374200106",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "article",
+			"title": "The Perkin Jubilee: History of Discovery, Sir William Henry Perkin Tells Story of Mauve",
+			"container": "Textile Manufacturers' Journal",
+			"published": "1906-10-13",
+			"url": "https://archive.org/details/b33458492",
+			"accessed": "2026-09-30",
+			"note": "Perkin's speech in New York, 6 October 1906"
+		},
+		{
+			"kind": "web",
+			"title": "The Colourful Chemistry of Artificial Dyes",
+			"container": "Science Museum",
+			"publisher": "Science Museum Group",
+			"published": "2019-04-09",
+			"url": "https://www.sciencemuseum.org.uk/objects-and-stories/chemistry/colourful-chemistry-artificial-dyes",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Mauve Mania",
+			"authors": [
+				{
+					"family": "Waring",
+					"given": "Sophie"
+				}
+			],
+			"container": "Science Museum Blog",
+			"published": "2018-03-12",
+			"url": "https://blog.sciencemuseum.org.uk/mauve-mania/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Queen Victoria's Journal: The Wedding of Princess Victoria and Crown Prince Frederick of Prussia, 25th January 1858",
+			"authors": [
+				{
+					"family": "McInulty",
+					"given": "Shannon"
+				}
+			],
+			"container": "Queen Victoria Roses",
+			"published": "2024-01-25",
+			"url": "https://queenvictoriaroses.co.uk/2024/01/25/queen-victorias-journal-the-wedding-of-princess-victoria-and-crown-prince-frederick-of-prussia-25th-january-1858/",
+			"accessed": "2026-09-30",
+			"note": "Quoting the Queen's journal for 25 January 1858, from queenvictoriasjournals.org"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Henry Perkin",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Henry_Perkin&oldid=1374677039",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "August Wilhelm von Hofmann",
+			"url": "https://en.wikipedia.org/w/index.php?title=August_Wilhelm_von_Hofmann&oldid=1371974026",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quinine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quinine&oldid=1373786693",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aniline",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aniline&oldid=1376076697",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Coal tar",
+			"url": "https://en.wikipedia.org/w/index.php?title=Coal_tar&oldid=1373528239",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mauve",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mauve&oldid=1358930175",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chemical industry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chemical_industry&oldid=1374112889",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "BASF",
+			"url": "https://en.wikipedia.org/w/index.php?title=BASF&oldid=1376400865",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bayer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bayer&oldid=1376683763",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hoechst AG",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hoechst_AG&oldid=1368363979",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "media",
+			"title": "The Coal-Tar Colour Works at Greenford Green in 1858 and 1873, a lithograph",
+			"url": "https://commons.wikimedia.org/wiki/File:Coal_Tar_Colour_Works_at_Greenford_in_1858_%26_1873._Wellcome_M0014185.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wellcome Collection, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "greenford-works.jpg",
+			"authors": [
+				{
+					"name": "Wellcome Collection"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/tyrian-purple",
+			"why": "Perkin first sold his coal-tar dye as \"Tyrian purple\", borrowing the name of the murex snail's costly purple for a colour made from aniline."
+		},
+		{
+			"to": "chemistry/structure-theory",
+			"why": "Perkin tried to make quinine in 1856, before structure theory could say how its atoms were joined."
+		}
+	]
+}

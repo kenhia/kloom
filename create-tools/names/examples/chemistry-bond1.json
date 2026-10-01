@@ -1,0 +1,31 @@
+{
+	"chemistry/crystallography": [
+		["X-ray crystallography", "x-ray-crystallography"],
+		["Max von Laue", "max-von-laue"],
+		["Lawrence Bragg", "lawrence-bragg"],
+		["William Henry Bragg", "william-henry-bragg"],
+		["Bragg's law", "braggs-law"],
+		["sodium chloride", "sodium-chloride"],
+		["Dorothy Hodgkin", "dorothy-hodgkin"],
+		["penicillin", "penicillin"]
+	],
+	"chemistry/electron-pair": [
+		["Gilbert N. Lewis", "gilbert-n-lewis"],
+		["cubical atom", "cubical-atom"],
+		["electrons", "electron"],
+		["covalent bond", "covalent-bond"],
+		["Lewis structure", "lewis-structure"],
+		["Irving Langmuir", "irving-langmuir"],
+		["octet rule", "octet-rule"]
+	],
+	"chemistry/quantum-chemistry": [
+		["Quantum chemistry", "quantum-chemistry"],
+		["Walter Heitler", "walter-heitler"],
+		["Fritz London", "fritz-london"],
+		["Erwin Schrödinger", "erwin-schrodinger"],
+		["Linus Pauling", "linus-pauling"],
+		["Robert S. Mulliken", "robert-s-mulliken"],
+		["Friedrich Hund", "friedrich-hund"],
+		["Hellmann–Feynman theorem", "hellmann-feynman-theorem"]
+	]
+}

@@ -133,9 +133,11 @@ Things authors working at once cannot see, so the brief settles them:
   and look at their plates
   with `contact_sheet.py` (`--scale 2.5` to read labels), which shows a
   plate before its `frame.json`. To check a draft before its `frame.json`
-  goes live, an author copies the draft's directory into the copy and
-  re-runs `subject_plan.py` on the copy, then writes the live `frame.json`
-  once it passes. `prose_words.py` checks the word counts.
+  goes live, an author keeps it beside the live tree as `frame.json.draft`,
+  copies the directory into the copy as `frame.json`, re-runs
+  `subject_plan.py` on the copy, and renames it live once it passes: the
+  copy holds only frames with a `frame.json`, so a draft must be put there
+  by hand (sprint 025's authors read this both ways). `prose_words.py` checks the word counts.
 - **A trail needs its anchor.** A trail's frames are off the spine until the
   main-spine frame it hangs from exists. Commit anchors first, or tell the
   trail's author to validate against a stand-in (the subject-plan README
@@ -184,13 +186,18 @@ As each author reports:
    committing, with its new names and its mark spec: export it
    (`git checkout-index -a --prefix=DIR/`) and run the subject tests with
    `KLOOM_TEST_SUBJECTS=DIR/subjects KLOOM_TEST_NAMES=DIR/names`, and stop
-   if they fail. Stage by path: `git add` on a directory other authors
+   if they fail, unstaging what you staged (`git reset`): sprint 025 left
+   four failed parts staged, and the next part's commit took all of them.
+   Stage by path: `git add` on a directory other authors
    write in takes their work with it (sprint 021 swept five authors'
    unfinished specs into a commit that way). Stage every name changed since
    the last commit, not only the untracked ones, and add with a part any
    other author's draft its marks use: sprint 024's index check failed
    on a draft whose `home` named a frame not yet committed, and passed
-   once that name went in with the frame.
+   once that name went in with the frame. When that frame belongs to a
+   part still to come, add the borrowed name without its `home` and give it
+   back with `names.py add --update` when the frame lands (sprint 025 did
+   this for Mendeleev before `periodic-table`).
 6. **Connections between the authors' frames** wait for review: each
    author lists the ones they want in this subject, and the reviewer adds
    them once both ends are committed, checking each _why_ against a
@@ -210,5 +217,6 @@ one, or say why not), the connections made to other subjects and any left
 unmade (with the reason), and the density: `names.py density` prints names
 and connections per frame for every subject. For a subject meant to link
 others, `names.py reach <subject> --steps N` counts how much of each other
-subject it can reach, before and after (`--root` on an archive of the base
-commit gives the before).
+subject it can reach, before and after. Record the before at the start
+of the sprint, before the first frame, as sprints 024 and 025 did;
+`--root` on an archive of the base commit recovers it if you did not.

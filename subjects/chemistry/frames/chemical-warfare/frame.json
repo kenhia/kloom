@@ -1,0 +1,266 @@
+{
+	"id": "chemical-warfare",
+	"topic": "Chlorine gas and chemical weapons",
+	"position": {
+		"label": "Chemical weapons"
+	},
+	"scene": {
+		"headline": "We poisoned the",
+		"accent": "AIR.",
+		"palette": "enamel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"YPRES · 22 APRIL 1915 · FRITZ HABER",
+			"CHLORINE · PHOSGENE · MUSTARD · THE HAGUE"
+		],
+		"counter": {
+			"value": "72,304",
+			"label": "tonnes of declared agent, all destroyed"
+		}
+	},
+	"asOf": "2026-09-30",
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Chemical weapons in World War I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chemical_weapons_in_World_War_I&oldid=1375124973",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Clara Haber, nee Immerwahr (1870–1915): Life, Work and Legacy",
+			"authors": [
+				{
+					"family": "Friedrich",
+					"given": "Bretislav"
+				},
+				{
+					"family": "Hoffmann",
+					"given": "Dieter"
+				}
+			],
+			"container": "Zeitschrift für anorganische und allgemeine Chemie",
+			"volume": "642",
+			"issue": "6",
+			"pages": "437–448",
+			"published": "2016-03",
+			"doi": "10.1002/zaac.201600035",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4825402/",
+			"accessed": "2026-09-30",
+			"note": "The sources on her suicide weighed, and the \"perversion of science\" phrase traced to Goran (1967)"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "OPCW by the Numbers",
+			"container": "Organisation for the Prohibition of Chemical Weapons",
+			"url": "https://www.opcw.org/media-centre/opcw-numbers",
+			"accessed": "2026-09-30",
+			"note": "Destruction progress as of 31 December 2025"
+		},
+		{
+			"kind": "article",
+			"title": "U.S. Completes Landmark CWC Destruction",
+			"authors": [
+				{
+					"family": "Rozei",
+					"given": "Mina"
+				}
+			],
+			"container": "Arms Control Today",
+			"published": "2023-09",
+			"url": "https://www.armscontrol.org/act/2023-09/news/us-completes-landmark-cwc-destruction",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Dual Use of Artificial-Intelligence-Powered Drug Discovery",
+			"authors": [
+				{
+					"family": "Urbina",
+					"given": "Fabio"
+				},
+				{
+					"family": "Lentzos",
+					"given": "Filippa"
+				},
+				{
+					"family": "Invernizzi",
+					"given": "Cédric"
+				},
+				{
+					"family": "Ekins",
+					"given": "Sean"
+				}
+			],
+			"container": "Nature Machine Intelligence",
+			"volume": "4",
+			"issue": "3",
+			"pages": "189–191",
+			"published": "2022-03-07",
+			"doi": "10.1038/s42256-022-00465-9",
+			"accessed": "2026-09-30",
+			"note": "Read in PubMed Central, PMC9544280"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Second Battle of Ypres",
+			"url": "https://en.wikipedia.org/w/index.php?title=Second_Battle_of_Ypres&oldid=1375345855",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fritz Haber",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fritz_Haber&oldid=1377121696",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clara Immerwahr",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clara_Immerwahr&oldid=1372399970",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chlorine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chlorine&oldid=1377002943",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phosgene",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phosgene&oldid=1376252274",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mustard gas",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mustard_gas&oldid=1373861252",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Geneva Protocol",
+			"url": "https://en.wikipedia.org/w/index.php?title=Geneva_Protocol&oldid=1373676023",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chemical Weapons Convention",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chemical_Weapons_Convention&oldid=1347166776",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Organisation for the Prohibition of Chemical Weapons",
+			"url": "https://en.wikipedia.org/w/index.php?title=Organisation_for_the_Prohibition_of_Chemical_Weapons&oldid=1375681155",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "media",
+			"title": "Aerial photograph of a German chlorine cloud released against Russian trenches, printed in Popular Mechanics, March 1916",
+			"url": "https://commons.wikimedia.org/wiki/File:Poison_Gas_Attack_Germany_and_Russia_1916.JPG",
+			"accessed": "2026-09-30",
+			"container": "Popular Mechanics, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "gas-cloud.jpg",
+			"published": "1916-03"
+		}
+	],
+	"connections": [
+		{
+			"to": "ai/capability-evals",
+			"why": "The chemical weapons that treaties now ban are one of the harms dangerous-capability evaluations test for: whether a model could help someone make one."
+		},
+		{
+			"to": "ai/safety-frameworks",
+			"why": "AI laboratories' safety frameworks track chemical-weapons capability as a category, with stronger safeguards promised for any model that crosses its threshold."
+		},
+		{
+			"to": "chemistry/haber-bosch",
+			"why": "The Fritz Haber who made ammonia from the air in 1909 organised the chlorine attack at Ypres in 1915."
+		}
+	]
+}

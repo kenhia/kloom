@@ -1,0 +1,199 @@
+{
+	"id": "leblanc-solvay",
+	"topic": "The Leblanc and Solvay soda processes",
+	"position": {
+		"label": "Alkali"
+	},
+	"scene": {
+		"headline": "We made soda out of",
+		"accent": "BRINE.",
+		"palette": "coaltar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SAINT-DENIS · WIDNES · COUILLET",
+			"SALT · SULFURIC ACID · CHALK · COAL · AMMONIA"
+		],
+		"counter": {
+			"value": "0.69 t",
+			"label": "of hydrogen chloride for every tonne of Leblanc soda"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "It Was All about Alkali",
+			"authors": [
+				{
+					"family": "Kiefer",
+					"given": "David M."
+				}
+			],
+			"container": "Today's Chemist at Work",
+			"volume": "11",
+			"issue": "1",
+			"pages": "45–46, 49",
+			"published": "2002-01",
+			"publisher": "American Chemical Society",
+			"url": "https://pubsapp.acs.org/subscribe/archive/tcaw/11/i01/html/01chemchron.html",
+			"accessed": "2026-09-30",
+			"note": "The prize, Leblanc's works and death, the Alkali Act's 95%"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Struggle for Supremacy: Being a Series of Chapters in the History of the Leblanc Alkali Industry in Great Britain",
+			"publisher": "G. G. Walmsley",
+			"place": "Liverpool",
+			"published": "1907",
+			"url": "https://archive.org/details/struggleforsupre00liveiala",
+			"accessed": "2026-09-30",
+			"note": "Attributed to T. Howard Deighton; Muspratt, Gossage and Solvay, pp. 26–27 and 38–39"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Leblanc process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leblanc_process&oldid=1340561086",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Solvay process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Solvay_process&oldid=1365928029",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nicolas Leblanc",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicolas_Leblanc&oldid=1371978665",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ernest Solvay",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ernest_Solvay&oldid=1371991728",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alkali Act 1863",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alkali_Act_1863&oldid=1359608357",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Angus Smith",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Angus_Smith&oldid=1372623640",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Barilla",
+			"url": "https://en.wikipedia.org/w/index.php?title=Barilla&oldid=1366193783",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sodium carbonate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sodium_carbonate&oldid=1376648472",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "Acid condensing towers at Hutchinson's alkali works, Widnes, in section, from George Lunge's Sulphuric Acid and Alkali",
+			"url": "https://commons.wikimedia.org/wiki/File:Absorbtion_tower_-_Lunge_Vol2_pt1_fig139_p306.JPG",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "condensing-towers.jpg",
+			"authors": [
+				{
+					"family": "Lunge",
+					"given": "George"
+				}
+			],
+			"published": "1909"
+		},
+		{
+			"kind": "media",
+			"title": "Solvay Process Co.'s plant, Syracuse, New York, postcard by the Detroit Publishing Co.",
+			"url": "https://commons.wikimedia.org/wiki/File:Solvay_Process_Co%27s_Plant_(NBY_3314).jpg",
+			"accessed": "2026-09-30",
+			"container": "Newberry Library, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "solvay-syracuse.jpg",
+			"published": "1905"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/clay-recipes",
+			"why": "Until Leblanc, Europe's soda still came as the Assyrian glassmakers' did, from the ash of salt-marsh plants, sold from Spain as barilla."
+		}
+	]
+}

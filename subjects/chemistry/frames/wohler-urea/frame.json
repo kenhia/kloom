@@ -1,0 +1,218 @@
+{
+	"id": "wohler-urea",
+	"topic": "Wöhler's synthesis of urea",
+	"position": {
+		"label": "1828",
+		"sort": 1828
+	},
+	"scene": {
+		"headline": "We made urea without",
+		"accent": "KIDNEYS.",
+		"palette": "filter",
+		"illustration": "scene.svg",
+		"metadata": ["BERLIN · FRIEDRICH WÖHLER", "CYANIC ACID · AMMONIA · UREA"],
+		"counter": {
+			"value": "2",
+			"label": "compounds from one formula, CH₄N₂O"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ueber künstliche Bildung des Harnstoffs",
+			"authors": [
+				{
+					"family": "Wöhler",
+					"given": "Friedrich"
+				}
+			],
+			"container": "Annalen der Physik und Chemie",
+			"volume": "88",
+			"issue": "2",
+			"pages": "253–256",
+			"published": "1828",
+			"doi": "10.1002/andp.18280880206",
+			"url": "https://archive.org/details/ueberknstliche1221828whle",
+			"accessed": "2026-09-30",
+			"note": "Poggendorff's second series, vol. 12; read in the Smithsonian Libraries' scan. Prout's analysis and Wöhler's sum are on pp. 255–256"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ueber die Zusammensetzung der Weinsäure und Traubensäure (John's Säure aus den Vogesen), über das Atomengewicht des Bleioxyds, nebst allgemeinen Bemerkungen über solche Körper, die gleiche Zusammensetzung, aber ungleiche Eigenschaften besitzen",
+			"authors": [
+				{
+					"family": "Berzelius",
+					"given": "Jöns Jacob"
+				}
+			],
+			"container": "Annalen der Physik und Chemie",
+			"volume": "95",
+			"issue": "7",
+			"pages": "305–335",
+			"published": "1830",
+			"doi": "10.1002/andp.18300950702",
+			"url": "https://archive.org/details/sim_annalen-der-physik_1830_19",
+			"accessed": "2026-09-30",
+			"note": "The name \"isomeric\" and its examples, pp. 326–330"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wöhler synthesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=W%C3%B6hler_synthesis&oldid=1360747366",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Friedrich Wöhler",
+			"url": "https://en.wikipedia.org/w/index.php?title=Friedrich_W%C3%B6hler&oldid=1371996324",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vitalism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vitalism&oldid=1377212951",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isomer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isomer&oldid=1377046622",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Urea",
+			"url": "https://en.wikipedia.org/w/index.php?title=Urea&oldid=1368892762",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ammonium cyanate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ammonium_cyanate&oldid=1352340380",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Justus von Liebig",
+			"url": "https://en.wikipedia.org/w/index.php?title=Justus_von_Liebig&oldid=1372035406",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Silver fulminate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Silver_fulminate&oldid=1340231987",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-24"
+		},
+		{
+			"kind": "article",
+			"title": "Vitalism and Synthesis of Urea: From Friedrich Wöhler to Hans A. Krebs",
+			"authors": [
+				{
+					"family": "Kinne-Saffran",
+					"given": "Evamaria"
+				},
+				{
+					"family": "Kinne",
+					"given": "Rolf K. H."
+				}
+			],
+			"container": "American Journal of Nephrology",
+			"volume": "19",
+			"issue": "2",
+			"pages": "290–294",
+			"published": "1999",
+			"doi": "10.1159/000013463",
+			"accessed": "2026-09-30",
+			"note": "Read in its abstract only"
+		},
+		{
+			"kind": "media",
+			"title": "The last page of Wöhler's paper on urea, 1828, with the composition of ammonium cyanate and Berzelius's formulas",
+			"url": "https://archive.org/details/ueberknstliche1221828whle/page/n5/mode/1up",
+			"accessed": "2026-09-30",
+			"container": "Smithsonian Libraries, via the Internet Archive",
+			"licence": "Public domain",
+			"file": "wohler-1828-p256.jpg",
+			"authors": [
+				{
+					"family": "Wöhler",
+					"given": "Friedrich"
+				}
+			],
+			"published": "1828"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/chirality",
+			"why": "Urea and ammonium cyanate are isomers, the same atoms in different arrangements; Pasteur's tartrates are the mirror-image case."
+		}
+	]
+}

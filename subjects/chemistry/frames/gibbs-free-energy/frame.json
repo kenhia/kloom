@@ -1,0 +1,215 @@
+{
+	"id": "gibbs-free-energy",
+	"topic": "Gibbs and chemical thermodynamics",
+	"position": {
+		"label": "1875–78",
+		"sort": 1876
+	},
+	"scene": {
+		"headline": "We learned which way a reaction",
+		"accent": "RUNS.",
+		"palette": "retort",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW HAVEN · YALE · JOSIAH WILLARD GIBBS",
+			"TRANSACTIONS OF THE CONNECTICUT ACADEMY · 1875–78"
+		],
+		"counter": {
+			"value": "836 °C",
+			"label": "where limestone's ΔG turns negative, by our arithmetic"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Equilibrium of Heterogeneous Substances",
+			"authors": [
+				{
+					"family": "Gibbs",
+					"given": "Josiah Willard"
+				}
+			],
+			"container": "Transactions of the Connecticut Academy of Arts and Sciences",
+			"volume": "3",
+			"pages": "108–248, 343–524",
+			"published": "1878",
+			"url": "https://archive.org/details/scientificpapers01gibbuoft",
+			"accessed": "2026-09-30",
+			"note": "Printed October 1875 to July 1878; read in The Scientific Papers of J. Willard Gibbs, vol. 1 (1906): the motto, ζ = ε − tη + pv, the potentials and the phase rule"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Josiah Willard Gibbs",
+			"authors": [
+				{
+					"family": "Bumstead",
+					"given": "Henry Andrews"
+				}
+			],
+			"container": "The Scientific Papers of J. Willard Gibbs",
+			"volume": "1",
+			"publisher": "Longmans, Green",
+			"place": "London",
+			"published": "1906",
+			"url": "https://archive.org/details/scientificpapers01gibbuoft",
+			"accessed": "2026-09-30",
+			"note": "The memoir's reception, and its translations by Ostwald and Le Chatelier"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Josiah Willard Gibbs",
+			"url": "https://en.wikipedia.org/w/index.php?title=Josiah_Willard_Gibbs&oldid=1372349334",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gibbs free energy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gibbs_free_energy&oldid=1346684211",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-02",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "On the Equilibrium of Heterogeneous Substances",
+			"url": "https://en.wikipedia.org/w/index.php?title=On_the_Equilibrium_of_Heterogeneous_Substances&oldid=1335867357",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phase rule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phase_rule&oldid=1314999048",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chemical potential",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chemical_potential&oldid=1376530327",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Calcium carbonate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Calcium_carbonate&oldid=1377369242",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Calcium oxide",
+			"url": "https://en.wikipedia.org/w/index.php?title=Calcium_oxide&oldid=1377684684",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carbon dioxide",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carbon_dioxide&oldid=1377189480",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Calcination",
+			"url": "https://en.wikipedia.org/w/index.php?title=Calcination&oldid=1373318301",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "media",
+			"title": "Maxwell's figure of Gibbs's thermodynamic surface, from Theory of Heat (1875)",
+			"url": "https://commons.wikimedia.org/wiki/File:James_Clerk_Maxwell_-_Thermodynamic_surface_figure_from_book.jpg",
+			"accessed": "2026-09-30",
+			"container": "Theory of Heat, Longmans, Green, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "maxwell-surface.jpg",
+			"authors": [
+				{
+					"family": "Maxwell",
+					"given": "James Clerk"
+				}
+			],
+			"published": "1875"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/entropy",
+			"why": "Gibbs set Clausius's two laws, the energy of the world constant and its entropy tending to a maximum, at the head of his memoir, and turned the second into a test of which chemical changes can happen."
+		},
+		{
+			"to": "physics/boltzmann-entropy",
+			"why": "Gibbs, with Maxwell and Boltzmann, founded statistical mechanics, the explanation of entropy by counting the states of molecules, and named it in his book of 1902."
+		}
+	]
+}

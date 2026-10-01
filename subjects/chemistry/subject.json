@@ -1,0 +1,77 @@
+{
+	"title": "The History of Chemistry",
+	"palettes": {
+		"furnace": {
+			"scheme": "dark",
+			"background": "#1c1512",
+			"ink": "#f2e7da",
+			"muted": "#bba58f",
+			"accent": "#e8793a",
+			"line": "#dcc6ad",
+			"counterpart": "alum"
+		},
+		"alum": {
+			"scheme": "light",
+			"background": "#f1ebdf",
+			"ink": "#231c17",
+			"muted": "#5c4f43",
+			"accent": "#8f3b12",
+			"line": "#342a22",
+			"counterpart": "furnace"
+		},
+		"retort": {
+			"scheme": "dark",
+			"background": "#111a17",
+			"ink": "#e6ede8",
+			"muted": "#9fb1a8",
+			"accent": "#7fd1b0",
+			"line": "#c7d6ce",
+			"counterpart": "filter"
+		},
+		"filter": {
+			"scheme": "light",
+			"background": "#f4f3ec",
+			"ink": "#1a1f1d",
+			"muted": "#505a55",
+			"accent": "#1d6b52",
+			"line": "#27302c",
+			"counterpart": "retort"
+		},
+		"coaltar": {
+			"scheme": "dark",
+			"background": "#17131c",
+			"ink": "#ede6f2",
+			"muted": "#aea2b8",
+			"accent": "#c58be0",
+			"line": "#d0c4d9",
+			"counterpart": "enamel"
+		},
+		"enamel": {
+			"scheme": "light",
+			"background": "#f4f0ee",
+			"ink": "#1d1920",
+			"muted": "#574f5c",
+			"accent": "#7a2f8f",
+			"line": "#2b2530",
+			"counterpart": "coaltar"
+		},
+		"helix": {
+			"scheme": "dark",
+			"background": "#0f1620",
+			"ink": "#e3ecf5",
+			"muted": "#9aacbf",
+			"accent": "#6cc4e8",
+			"line": "#c3d3e3",
+			"counterpart": "agar"
+		},
+		"agar": {
+			"scheme": "light",
+			"background": "#f2f1e4",
+			"ink": "#1c1f16",
+			"muted": "#525744",
+			"accent": "#3d6b1f",
+			"line": "#2a2e22",
+			"counterpart": "helix"
+		}
+	}
+}

@@ -1,0 +1,135 @@
+{
+	"id": "agricola",
+	"topic": "Agricola's De re metallica",
+	"position": {
+		"label": "1556",
+		"sort": 1556
+	},
+	"scene": {
+		"headline": "We read a mountain from a",
+		"accent": "BEAD.",
+		"palette": "alum",
+		"illustration": "scene.svg",
+		"metadata": ["JOACHIMSTHAL · CHEMNITZ · BASEL", "GEORGIUS AGRICOLA · DE RE METALLICA · 1556"],
+		"counter": {
+			"value": "1 drachma",
+			"label": "the weight of the assayer's hundredweight"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "De Re Metallica, Translated from the First Latin Edition of 1556",
+			"authors": [
+				{
+					"family": "Agricola",
+					"given": "Georgius"
+				}
+			],
+			"editors": [
+				{
+					"family": "Hoover",
+					"given": "Herbert Clark"
+				},
+				{
+					"family": "Hoover",
+					"given": "Lou Henry"
+				}
+			],
+			"place": "London",
+			"publisher": "The Mining Magazine",
+			"published": "1912",
+			"url": "https://www.gutenberg.org/ebooks/38015",
+			"accessed": "2026-09-30",
+			"note": "Translated by the Hoovers. Book VII on assaying, cupels and the lesser weights; the Hoovers' introduction and note 27 on the assay ton. Read in Project Gutenberg's text"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "De re metallica",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_re_metallica&oldid=1373629784",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Georgius Agricola",
+			"url": "https://en.wikipedia.org/w/index.php?title=Georgius_Agricola&oldid=1371999227",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cupellation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cupellation&oldid=1372144321",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Litharge",
+			"url": "https://en.wikipedia.org/w/index.php?title=Litharge&oldid=1324704261",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jáchymov",
+			"url": "https://en.wikipedia.org/w/index.php?title=J%C3%A1chymov&oldid=1363784658",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-12"
+		},
+		{
+			"kind": "media",
+			"title": "A round and a rectangular assay furnace, the assayer shielding his eyes with a slotted tablet, woodcuts from De re metallica (1556)",
+			"url": "https://commons.wikimedia.org/wiki/File:Cupellation_furnaces,_Agricola_223.jpg",
+			"accessed": "2026-09-30",
+			"container": "De re metallica, book VII, in the Hoovers’ reproduction, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "assay-furnaces.jpg",
+			"authors": [
+				{
+					"name": "Blasius Weffring"
+				}
+			],
+			"published": "1556"
+		}
+	]
+}

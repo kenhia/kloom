@@ -1,0 +1,29 @@
+{
+	"title": "The hydrogen molecule's bond energy, calculated and measured, to 1935",
+	"description": "Bar chart of the depth of the hydrogen molecule's energy well, in electronvolts, from Pauling and Wilson's table of 1935. Heitler and London's wave function, with Sugiura's integral, 1927: 3.14. Simple molecular orbitals: 3.47. Wang, 1928: 3.76. Rosen, 1931: 4.02. Weinbaum, ionic and polarization terms, 1933: 4.10. James and Coolidge, 1933: 4.72. Measured: 4.72.",
+	"heading": "H₂ BOND ENERGY, De · ELECTRONVOLTS",
+	"unit": "",
+	"width": 560,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"max": 5,
+		"ticks": [
+			[0, "0"],
+			[1, "1"],
+			[2, "2"],
+			[3, "3"],
+			[4, "4"],
+			[5, "5"]
+		]
+	},
+	"bars": [
+		{ "label": "H–L–S", "sublabel": "1927", "value": 3.14, "display": "3.14" },
+		{ "label": "MO", "sublabel": "simple", "value": 3.47, "display": "3.47" },
+		{ "label": "Wang", "sublabel": "1928", "value": 3.76, "display": "3.76" },
+		{ "label": "Rosen", "sublabel": "1931", "value": 4.02, "display": "4.02" },
+		{ "label": "Weinbaum", "sublabel": "1933", "value": 4.1, "display": "4.10" },
+		{ "label": "J–C", "sublabel": "1933", "value": 4.72, "display": "4.72" },
+		{ "label": "Measured", "sublabel": "1935", "value": 4.72, "display": "4.72", "highlight": true }
+	]
+}

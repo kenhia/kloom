@@ -1,0 +1,365 @@
+{
+	"id": "pcr",
+	"topic": "The polymerase chain reaction",
+	"position": {
+		"label": "PCR"
+	},
+	"scene": {
+		"headline": "We doubled the DNA, then doubled it",
+		"accent": "AGAIN.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": ["CETUS CORPORATION · EMERYVILLE · 1983", "TWO PRIMERS · A HOT-SPRING POLYMERASE"],
+		"counter": {
+			"value": "2³⁰",
+			"label": "copies of one DNA duplex after 30 perfect cycles"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Polymerase Chain Reaction (Nobel Lecture, December 8, 1993)",
+			"authors": [
+				{
+					"family": "Mullis",
+					"given": "Kary B."
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1993-12-08",
+			"url": "https://www.nobelprize.org/prizes/chemistry/1993/mullis/lecture/",
+			"accessed": "2026-09-30",
+			"note": "His own telling of the drive to Mendocino, 2¹⁰, 2²⁰ and 2³⁰, and the first experiments of 1983"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Enzymatic Amplification of β-Globin Genomic Sequences and Restriction Site Analysis for Diagnosis of Sickle Cell Anemia",
+			"authors": [
+				{
+					"family": "Saiki",
+					"given": "Randall K."
+				},
+				{
+					"family": "Scharf",
+					"given": "Stephen"
+				},
+				{
+					"family": "Faloona",
+					"given": "Fred"
+				},
+				{
+					"family": "Mullis",
+					"given": "Kary B."
+				},
+				{
+					"family": "Horn",
+					"given": "Glenn T."
+				},
+				{
+					"family": "Erlich",
+					"given": "Henry A."
+				},
+				{
+					"family": "Arnheim",
+					"given": "Norman"
+				}
+			],
+			"container": "Science",
+			"volume": "230",
+			"issue": "4732",
+			"pages": "1350–1354",
+			"published": "1985-12-20",
+			"doi": "10.1126/science.2999980",
+			"url": "https://www.mun.ca/biology/scarr/Saiki,_Mullis_et_al_1985_Science_230,1250.pdf",
+			"accessed": "2026-09-30",
+			"note": "20 cycles at about 85 per cent, (1 + X)ⁿ = Y, 1.85²⁰ ≈ 220,000; read in a copy on a Memorial University course page"
+		},
+		{
+			"kind": "article",
+			"title": "Primer-Directed Enzymatic Amplification of DNA with a Thermostable DNA Polymerase",
+			"authors": [
+				{
+					"family": "Saiki",
+					"given": "Randall K."
+				},
+				{
+					"family": "Gelfand",
+					"given": "David H."
+				},
+				{
+					"family": "Stoffel",
+					"given": "Susanne"
+				},
+				{
+					"family": "Scharf",
+					"given": "Stephen J."
+				},
+				{
+					"family": "Higuchi",
+					"given": "Russell"
+				},
+				{
+					"family": "Horn",
+					"given": "Glenn T."
+				},
+				{
+					"family": "Mullis",
+					"given": "Kary B."
+				}
+			],
+			"etAl": true,
+			"container": "Science",
+			"volume": "239",
+			"issue": "4839",
+			"pages": "487–491",
+			"published": "1988-01-29",
+			"doi": "10.1126/science.239.4839.487",
+			"accessed": "2026-09-30",
+			"note": "Read in its abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Thermus aquaticus gen. n. and sp. n., a Nonsporulating Extreme Thermophile",
+			"authors": [
+				{
+					"family": "Brock",
+					"given": "Thomas D."
+				},
+				{
+					"family": "Freeze",
+					"given": "Hudson"
+				}
+			],
+			"container": "Journal of Bacteriology",
+			"volume": "98",
+			"issue": "1",
+			"pages": "289–297",
+			"published": "1969-04",
+			"doi": "10.1128/jb.98.1.289-297.1969",
+			"url": "https://europepmc.org/article/PMC/PMC249935",
+			"accessed": "2026-09-30",
+			"note": "Read in its abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Deoxyribonucleic Acid Polymerase from the Extreme Thermophile Thermus aquaticus",
+			"authors": [
+				{
+					"family": "Chien",
+					"given": "Alice"
+				},
+				{
+					"family": "Edgar",
+					"given": "David B."
+				},
+				{
+					"family": "Trela",
+					"given": "John M."
+				}
+			],
+			"container": "Journal of Bacteriology",
+			"volume": "127",
+			"issue": "3",
+			"pages": "1550–1557",
+			"published": "1976-09",
+			"doi": "10.1128/jb.127.3.1550-1557.1976",
+			"url": "https://europepmc.org/article/PMC/PMC232952",
+			"accessed": "2026-09-30",
+			"note": "Read in its abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Process for Amplifying, Detecting, and/or Cloning Nucleic Acid Sequences, US Patent 4,683,195",
+			"authors": [
+				{
+					"family": "Mullis",
+					"given": "Kary B."
+				},
+				{
+					"family": "Erlich",
+					"given": "Henry A."
+				},
+				{
+					"family": "Arnheim",
+					"given": "Norman"
+				},
+				{
+					"family": "Horn",
+					"given": "Glenn T."
+				},
+				{
+					"family": "Saiki",
+					"given": "Randall K."
+				},
+				{
+					"family": "Scharf",
+					"given": "Stephen J."
+				}
+			],
+			"container": "Google Patents",
+			"published": "1987-07-28",
+			"url": "https://patents.google.com/patent/US4683195A/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Chemistry 1993",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"url": "https://www.nobelprize.org/prizes/chemistry/1993/summary/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Detection of 2019 Novel Coronavirus (2019-nCoV) by Real-Time RT-PCR",
+			"authors": [
+				{
+					"family": "Corman",
+					"given": "Victor M."
+				},
+				{
+					"family": "Landt",
+					"given": "Olfert"
+				},
+				{
+					"family": "Kaiser",
+					"given": "Marco"
+				},
+				{
+					"family": "Molenkamp",
+					"given": "Richard"
+				},
+				{
+					"family": "Meijer",
+					"given": "Adam"
+				},
+				{
+					"family": "Chu",
+					"given": "Daniel K. W."
+				},
+				{
+					"family": "Bleicker",
+					"given": "Tobias"
+				}
+			],
+			"etAl": true,
+			"container": "Eurosurveillance",
+			"volume": "25",
+			"issue": "3",
+			"pages": "2000045",
+			"published": "2020-01-23",
+			"doi": "10.2807/1560-7917.ES.2020.25.3.2000045",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "CODIS and NDIS Fact Sheet",
+			"authors": [
+				{
+					"name": "Federal Bureau of Investigation"
+				}
+			],
+			"container": "FBI.gov",
+			"url": "https://www.fbi.gov/how-we-can-help-you/dna-fingerprint-act-of-2005-expungement-policy/codis-and-ndis-fact-sheet",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polymerase chain reaction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polymerase_chain_reaction&oldid=1376279545",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kary Mullis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kary_Mullis&oldid=1372018084",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Taq polymerase",
+			"url": "https://en.wikipedia.org/w/index.php?title=Taq_polymerase&oldid=1369644614",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thermus aquaticus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thermus_aquaticus&oldid=1360741955",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas D. Brock",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_D._Brock&oldid=1372553002",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "media",
+			"title": "\"Baby Blue\", a prototype thermal cycler for the polymerase chain reaction, about 1986",
+			"url": "https://commons.wikimedia.org/wiki/File:Baby_Blue_-_a_prototype_polymerase_chain_reaction_(PCR),_c_1986._(9663810586).jpg",
+			"accessed": "2026-09-30",
+			"container": "Science Museum, London, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "baby-blue.jpg",
+			"authors": [
+				{
+					"name": "Science Museum London / Science and Society Picture Library"
+				}
+			],
+			"published": "2013-08-28"
+		},
+		{
+			"kind": "media",
+			"title": "Copies after 30 cycles of PCR, by efficiency per cycle",
+			"url": "https://www.mun.ca/biology/scarr/Saiki,_Mullis_et_al_1985_Science_230,1250.pdf",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from (1 + X)ⁿ, the formula of Saiki and colleagues (1985)",
+			"licence": "MIT",
+			"file": "copies.svg"
+		}
+	]
+}
