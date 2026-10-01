@@ -1,0 +1,32 @@
+{
+	"title": "Causes of the 204,848 bottles of blood lost in the American Red Cross plasma programme, World War II",
+	"description": "Bar chart of bottles of blood lost before or during processing, of 12,589,034 delivered to plasma processing laboratories in World War II: bacterial contamination 125,748; positive serology 28,364; miscellaneous 20,734; breakage in the centrifuge 17,048; hemolysis 7,567; clotting 3,727; breakage in transit 1,660. Data: Kendrick, Blood Program in World War II (1964), table 8, p. 306, from the final report of the American Red Cross.",
+	"heading": "BOTTLES LOST, BY CAUSE (OF 12.6 MILLION)",
+	"unit": "",
+	"axis": {
+		"max": 140000,
+		"ticks": [
+			[0, "0"],
+			[40000, "40,000"],
+			[80000, "80,000"],
+			[120000, "120,000"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Bacteria",
+			"sublabel": "contamination",
+			"value": 125748,
+			"display": "125,748",
+			"highlight": true
+		},
+		{ "label": "Syphilis", "sublabel": "test positive", "value": 28364, "display": "28,364" },
+		{ "label": "Other", "sublabel": "causes", "value": 20734, "display": "20,734" },
+		{ "label": "Broken", "sublabel": "in centrifuge", "value": 17048, "display": "17,048" },
+		{ "label": "Hemolysis", "value": 7567, "display": "7,567" },
+		{ "label": "Clotting", "value": 3727, "display": "3,727" },
+		{ "label": "Broken", "sublabel": "in transit", "value": 1660, "display": "1,660" }
+	],
+	"barWidth": 52,
+	"width": 640
+}

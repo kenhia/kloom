@@ -2,7 +2,14 @@
 	"id": "hemolytic-disease-of-the-newborn",
 	"wikidata": "Q743545",
 	"name": "Hemolytic disease of the newborn",
-	"aliases": ["haemolytic disease of the newborn", "erythroblastosis fetalis", "Rh disease", "HDN"],
+	"aliases": [
+		"haemolytic disease of the newborn",
+		"erythroblastosis fetalis",
+		"HDN",
+		"HDFN",
+		"hemolytic disease of the fetus and newborn"
+	],
 	"kind": "idea",
-	"description": "Condition in which a mother's antibodies cross the placenta and destroy her fetus's red cells, most severely when an Rh-negative mother has been sensitized to the RhD antigen."
+	"description": "A disease of the fetus and newborn in which the mother's antibodies cross the placenta and destroy the baby's red cells, most often because an Rh-negative mother has been immunised by an Rh-positive baby.",
+	"home": "blood/rh-factor"
 }

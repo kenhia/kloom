@@ -1,0 +1,162 @@
+{
+	"id": "coombs",
+	"topic": "The Coombs antiglobulin test",
+	"position": {
+		"label": "1945",
+		"sort": 1945
+	},
+	"scene": {
+		"headline": "We made the hidden antibody",
+		"accent": "VISIBLE.",
+		"palette": "vein",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · COOMBS, MOURANT AND RACE",
+			"RABBIT ANTI-HUMAN-GLOBULIN SERUM · 37 °C · THREE WASHES"
+		],
+		"counter": {
+			"value": "3",
+			"label": "washes in saline between the test's two stages"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A New Test for the Detection of Weak and “Incomplete” Rh Agglutinins",
+			"authors": [
+				{
+					"family": "Coombs",
+					"given": "R. R. A."
+				},
+				{
+					"family": "Mourant",
+					"given": "A. E."
+				},
+				{
+					"family": "Race",
+					"given": "R. R."
+				}
+			],
+			"container": "British Journal of Experimental Pathology",
+			"volume": "26",
+			"issue": "4",
+			"pages": "255–266",
+			"published": "1945",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2065689/",
+			"accessed": "2026-10-01",
+			"note": "The method (pp. 257–258), the washing (p. 258), and the addendum on Moreschi (p. 266)"
+		},
+		{
+			"kind": "article",
+			"title": "Autoimmune Hemolysis: A Journey through Time",
+			"authors": [
+				{
+					"family": "Freedman",
+					"given": "J."
+				}
+			],
+			"container": "Transfusion Medicine and Hemotherapy",
+			"volume": "42",
+			"issue": "5",
+			"pages": "278–285",
+			"published": "2015-09",
+			"doi": "10.1159/000437195",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Frequency of Red Blood Cell Allo-Immunization in Patients Undergoing Blood Transfusion at the Uganda Cancer Institute",
+			"authors": [
+				{
+					"family": "Okello",
+					"given": "C. D."
+				},
+				{
+					"family": "Shih",
+					"given": "A. W."
+				},
+				{
+					"family": "Nabwana",
+					"given": "M."
+				},
+				{
+					"family": "Kiwanuka",
+					"given": "N."
+				},
+				{
+					"family": "Heddle",
+					"given": "N."
+				},
+				{
+					"family": "Mayanja-Kizza",
+					"given": "H."
+				},
+				{
+					"family": "Orem",
+					"given": "J."
+				}
+			],
+			"container": "African Health Sciences",
+			"volume": "23",
+			"issue": "4",
+			"pages": "362–370",
+			"published": "2023-12",
+			"doi": "10.4314/ahs.v23i4.39",
+			"accessed": "2026-10-01",
+			"note": "Check cells in the tube method"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Coombs test",
+			"url": "https://en.wikipedia.org/w/index.php?title=Coombs_test&oldid=1368408619",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robin Coombs",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robin_Coombs&oldid=1371991510",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Russell Race",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Russell_Race&oldid=1332141875",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-10"
+		},
+		{
+			"kind": "media",
+			"title": "Robert Race, Ruth Sanger and Arthur Mourant",
+			"url": "https://commons.wikimedia.org/wiki/File:Robert_Race,_Ruth_Sanger_and_Arthur_Mourant_Wellcome_L0073438.jpg",
+			"accessed": "2026-10-01",
+			"container": "Wellcome Collection, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "race-sanger-mourant.jpg"
+		}
+	]
+}
