@@ -321,3 +321,21 @@ add --check` on a name already held; `review.sh`'s accent check (FLAT,
 - **Fourteen shared names** widened or homed.
 - **The roadmap** had no entries for sprints 024 and 025; they are added
   beside 026's.
+
+## Deployed
+
+2026-09-30, by `just deploy` (the `recipe: deploy` in `.sprint-deploy`),
+from merged `main` at `9efdf13`, to the kloom service on kai. The
+service's content clone is at the same commit.
+
+- `just verify` passed all eight door checks: the tailnet door refuses
+  anonymous writes and reader-data reads, and the ssh door lets its reader
+  through.
+- **The sprint's work, live on both doors (:4890 and :4891), each 200:**
+  - `/making`, whose page carries the subtitle "creating the objects
+    around us";
+  - `/making/japanese-sword` (main spine, the Materials science anchor),
+    whose page carries "EDGE.";
+  - `/making/dovetail` (a trail frame), whose page carries "TAILS.";
+  - `/media/making/knapping/coutier-flake.jpg`;
+  - `/api/start/making` (the start screen's look).
