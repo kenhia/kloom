@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M96 30 L96 274"/>
+		<path pathLength="1" d="M14 262 L190 262"/>
+		<path pathLength="1" d="M96 260 L168 260"/>
+		<path pathLength="1" d="M96 256 L96 264 M168 256 L168 264"/>
+		<path pathLength="1" d="M238 40 L238 168"/>
+		<path pathLength="1" d="M296 40 L296 168"/>
+		<path pathLength="1" d="M356 40 L356 168"/>
+		<path pathLength="1" d="M210 150 L390 150"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M46 92 a50 11 0 1 0 100 0 a50 11 0 1 0 -100 0"/>
+		<path pathLength="1" d="M46 92 L46 99"/>
+		<path pathLength="1" d="M146 92 L146 99"/>
+		<path pathLength="1" d="M146 99 L145.7 100.1 L144.9 101.3 L143.6 102.4 L141.7 103.5 L139.3 104.5 L136.5 105.5 L133.2 106.4 L129.5 107.2 L125.4 107.9 L121 108.5 L116.3 109 L111.5 109.5 L106.4 109.8 L101.2 109.9 L96 110 L90.8 109.9 L85.6 109.8 L80.5 109.5 L75.7 109 L71 108.5 L66.6 107.9 L62.5 107.2 L58.8 106.4 L55.5 105.5 L52.7 104.5 L50.3 103.5 L48.4 102.4 L47.1 101.3 L46.3 100.1 L46 99"/>
+		<path pathLength="1" d="M92 110 L92 220.2"/>
+		<path pathLength="1" d="M100 110 L100 220.2"/>
+		<path pathLength="1" d="M24 236 a72 15.8 0 1 0 144 0 a72 15.8 0 1 0 -144 0"/>
+		<path pathLength="1" d="M24 236 L24 250"/>
+		<path pathLength="1" d="M168 236 L168 250"/>
+		<path pathLength="1" d="M168 250 L167.7 251.4 L166.9 252.8 L165.5 254.1 L163.7 255.4 L161.3 256.7 L158.4 257.9 L155 259.1 L151.2 260.2 L146.9 261.2 L142.3 262.1 L137.3 263 L132 263.7 L126.4 264.4 L120.6 264.9 L114.6 265.3 L108.5 265.6 L102.3 265.8 L96 265.8 L89.7 265.8 L83.5 265.6 L77.4 265.3 L71.4 264.9 L65.6 264.4 L60 263.7 L54.7 263 L49.7 262.1 L45.1 261.2 L40.8 260.2 L37 259.1 L33.6 257.9 L30.7 256.7 L28.3 255.4 L26.5 254.1 L25.1 252.8 L24.3 251.4 L24 250"/>
+		<path pathLength="1" d="M90 265.8 L90 262 L102 262 L102 265.8"/>
+		<path pathLength="1" d="M260 150 L259.9 145.1 L259.5 141.5 L258.9 138.3 L258.1 135.4 L257.1 132.8 L255.8 130.4 L254.3 128.2 L252.7 126.3 L250.9 124.7 L249 123.3 L246.9 122.1 L244.8 121.2 L242.6 120.5 L240.3 120.1 L238 120 L235.7 120.1 L233.4 120.5 L231.2 121.2 L229.1 122.1 L227 123.3 L225.1 124.7 L223.3 126.3 L221.7 128.2 L220.2 130.4 L218.9 132.8 L217.9 135.4 L217.1 138.3 L216.5 141.5 L216.1 145.1 L216 150"/>
+		<path pathLength="1" d="M272 150 L272 120 L276 116 L286 118 L287 141 L305 141 L306 118 L316 116 L320 120 L320 150"/>
+		<path pathLength="1" d="M337 150 L337 54 L341 52 L343 54 L343 143 L369 143 L369 54 L371 52 L375 54 L375 150"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M154.3 96.7 L152.3 97.7 L150.1 98.7 L147.4 99.6 L144.4 100.5 L141.1 101.4 L137.5 102.1 L133.6 102.8 L129.5 103.5 L125.1 104 L120.6 104.5 L115.8 104.9 L111 105.2 L106.1 105.5 L101 105.6 L96 105.6 L91 105.6 L85.9 105.5 L81 105.2 L76.2 104.9 L71.4 104.5 L66.9 104 L62.5 103.5 L58.4 102.8 L54.5 102.1 L50.9 101.4 L47.6 100.5 L44.6 99.6 L41.9 98.7 L39.7 97.7 L37.7 96.7"/>
+		<path pathLength="1" d="M45.5 97.3 L37.7 96.7 L41.9 103.3"/>
+		<path pathLength="1" d="M167 245 L164.8 245.8 L162.3 246.6 L159.7 247.4 L156.9 248.1 L154 248.8 L150.9 249.4 L147.6 250 L144.2 250.6 L140.7 251.1 L137 251.6 L133.2 252.1 L129.4 252.5 L125.4 252.8 L121.3 253.2 L117.2 253.4 L113 253.6 L108.8 253.8 L104.6 253.9 L100.3 254 L96 254 L91.7 254 L87.4 253.9 L83.2 253.8 L79 253.6 L74.8 253.4 L70.7 253.2 L66.6 252.8 L62.6 252.5 L58.8 252.1 L55 251.6"/>
+		<path pathLength="1" d="M62.4 249 L55 251.6 L61.5 256"/>
+		<path pathLength="1" d="M198 136 L212 136 M208 132 L212 136 L208 140"/>
+		<path pathLength="1" d="M238 98 L238 114 M234 110 L238 114 L242 110"/>
+		<path pathLength="1" d="M296 98 L296 134 M292 130 L296 134 L300 130"/>
+		<path pathLength="1" d="M346 110 L346 80 M343 84 L346 80 L349 84"/>
+		<path pathLength="1" d="M333 110 L333 80 M330 84 L333 80 L336 84"/>
+		<path pathLength="1" d="M366 110 L366 80 M363 84 L366 80 L369 84"/>
+		<path pathLength="1" d="M379 110 L379 80 M376 84 L379 80 L382 84"/>
+		<path pathLength="1" d="M344 130 L368 130 M344 116 L368 116 M344 102 L368 102 M344 88 L368 88 M344 74 L368 74"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="238" y="186" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CENTRE</text>
+		<text x="296" y="186" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OPEN</text>
+		<text x="356" y="186" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PULL</text>
+		<text x="132" y="274" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">r</text>
+		<text x="164" y="78" font-size="10" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ω</text>
+		<text x="300" y="226" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">E = ½ I ω²</text>
+		<text x="300" y="244" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">I ∝ m r²</text>
+		<text x="96" y="20" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KICK WHEEL</text>
+	</g>
+</svg>

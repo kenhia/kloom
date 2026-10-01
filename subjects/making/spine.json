@@ -7,6 +7,12 @@
 			"frames": ["knapping", "handaxe", "birch-tar"]
 		},
 		{
+			"id": "clay-glass",
+			"title": "Clay and glass",
+			"labelKind": "date",
+			"frames": ["potters-wheel", "glassblowing", "float-glass"]
+		},
+		{
 			"id": "wood",
 			"title": "Wood",
 			"labelKind": "date",
