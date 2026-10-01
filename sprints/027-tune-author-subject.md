@@ -261,3 +261,21 @@ in the reference), and the scene counter's overlap (korg 3469).
 ## Follow-ups
 
 None filed. Everything in A and B is done, as Ken's amendment asked.
+
+## Deployed
+
+2026-10-01, by `just deploy` (the `recipe: deploy` in `.sprint-deploy`),
+from merged `main` at `4fae7fe`, to the kloom service on kai. The
+service's content clone is at the same commit.
+
+- `just verify` passed all eight door checks: the tailnet door refuses
+  anonymous writes and reader-data reads, and the ssh door lets its reader
+  through.
+- **The sprint's work, live on the ssh door (:4891), each 200:**
+  - `/making/wind-sawmill` renders its Dutch Wikipedia citations with "In
+    Dutch." (the new `language` field);
+  - `/chemistry/pcr` renders "Read in its abstract" in its citations (the
+    new `abstractOnly` field);
+  - `/mathematics/brahmagupta-zero` carries the renamed `zero` name card;
+  - the deployed app holds `skills/grow/reaching-sources.md` beside the
+    grow skill.
