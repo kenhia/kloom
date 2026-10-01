@@ -29,6 +29,12 @@
 			]
 		},
 		{
+			"id": "theatre",
+			"title": "The operating room",
+			"labelKind": "date",
+			"frames": ["ether", "semmelweis", "lister"]
+		},
+		{
 			"id": "dedication-seg",
 			"title": "Dedication",
 			"labelKind": "category",

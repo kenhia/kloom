@@ -1,0 +1,32 @@
+{
+	"title": "Deaths per 100 births in the First Clinic of the Vienna maternity hospital, month by month, 1847",
+	"description": "Bar chart of maternal deaths per 100 births in the First Obstetrical Clinic of the Vienna General Hospital, where medical students were taught, in each month of 1847: January 3.2, February 1.9, March 3.6, April 18.3, May 12.2, June 2.2, July 1.2, August 1.9, September 4.6, October 4.0, November 4.5, December 2.9. Washing in chlorine solution began in the second half of May. Counts from Semmelweis, Die Ätiologie, der Begriff und die Prophylaxis des Kindbettfiebers (1861), tables XV and pp. 55–56; rates worked out from his counts.",
+	"heading": "FIRST CLINIC · DEATHS PER 100 BIRTHS · 1847",
+	"unit": "",
+	"width": 560,
+	"barWidth": 30,
+	"axis": {
+		"max": 20,
+		"ticks": [
+			[0, "0"],
+			[5, "5"],
+			[10, "10"],
+			[15, "15"],
+			[20, "20"]
+		]
+	},
+	"bars": [
+		{ "label": "Jan", "value": 3.2 },
+		{ "label": "Feb", "value": 1.9 },
+		{ "label": "Mar", "value": 3.6 },
+		{ "label": "Apr", "value": 18.3, "highlight": true },
+		{ "label": "May", "sublabel": "washing", "value": 12.2, "highlight": true },
+		{ "label": "Jun", "value": 2.2 },
+		{ "label": "Jul", "value": 1.2 },
+		{ "label": "Aug", "value": 1.9 },
+		{ "label": "Sep", "value": 4.6 },
+		{ "label": "Oct", "value": 4.0, "display": "4.0" },
+		{ "label": "Nov", "value": 4.5 },
+		{ "label": "Dec", "value": 2.9 }
+	]
+}

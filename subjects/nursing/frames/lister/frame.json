@@ -1,0 +1,185 @@
+{
+	"id": "lister",
+	"topic": "Lister's antisepsis",
+	"position": {
+		"label": "1867",
+		"sort": 1867
+	},
+	"scene": {
+		"headline": "We dressed the wound in",
+		"accent": "CARBOLIC.",
+		"palette": "theatre",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GLASGOW ROYAL INFIRMARY · JOSEPH LISTER",
+			"CARBOLIC ACID · LINSEED OIL · WHITING · BLOCK TIN"
+		],
+		"counter": {
+			"value": "16 of 35 → 6 of 40",
+			"label": "deaths after amputation, before and after antisepsis"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "On a New Method of Treating Compound Fracture, Abscess, &c., with Observations on the Conditions of Suppuration",
+			"authors": [
+				{
+					"family": "Lister",
+					"given": "Joseph"
+				}
+			],
+			"container": "The Collected Papers of Joseph, Baron Lister, vol. 2",
+			"publisher": "Clarendon Press",
+			"place": "Oxford",
+			"published": "1909",
+			"pages": "1–36",
+			"url": "https://archive.org/details/collectedpaperso02listuoft",
+			"accessed": "2026-10-01",
+			"note": "First printed in The Lancet, March to July 1867; the boy of eleven, pp. 4–5; the abscess putty, pp. 33–34"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "On the Antiseptic Principle in the Practice of Surgery",
+			"authors": [
+				{
+					"family": "Lister",
+					"given": "Joseph"
+				}
+			],
+			"container": "The Collected Papers of Joseph, Baron Lister, vol. 2",
+			"publisher": "Clarendon Press",
+			"place": "Oxford",
+			"published": "1909",
+			"pages": "37–45",
+			"url": "https://archive.org/details/collectedpaperso02listuoft",
+			"accessed": "2026-10-01",
+			"note": "Read in Dublin on 9 August 1867, first printed in the British Medical Journal; the putty dressing, pp. 38–39"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "On the Effects of the Antiseptic System of Treatment upon the Salubrity of a Surgical Hospital",
+			"authors": [
+				{
+					"family": "Lister",
+					"given": "Joseph"
+				}
+			],
+			"container": "The Collected Papers of Joseph, Baron Lister, vol. 2",
+			"publisher": "Clarendon Press",
+			"place": "Oxford",
+			"published": "1909",
+			"pages": "123–136",
+			"url": "https://archive.org/details/collectedpaperso02listuoft",
+			"accessed": "2026-10-01",
+			"note": "First printed in The Lancet, January 1870; the amputation tables, pp. 128–129"
+		},
+		{
+			"kind": "chapter",
+			"title": "On a Case Illustrating the Present Aspect of the Antiseptic Treatment in Surgery",
+			"authors": [
+				{
+					"family": "Lister",
+					"given": "Joseph"
+				}
+			],
+			"container": "The Collected Papers of Joseph, Baron Lister, vol. 2",
+			"publisher": "Clarendon Press",
+			"place": "Oxford",
+			"published": "1909",
+			"pages": "165–172",
+			"url": "https://archive.org/details/collectedpaperso02listuoft",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "chapter",
+			"title": "An Address on the Present Position of Antiseptic Surgery",
+			"authors": [
+				{
+					"family": "Lister",
+					"given": "Joseph"
+				}
+			],
+			"container": "The Collected Papers of Joseph, Baron Lister, vol. 2",
+			"publisher": "Clarendon Press",
+			"place": "Oxford",
+			"published": "1909",
+			"pages": "332–340",
+			"url": "https://archive.org/details/collectedpaperso02listuoft",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Text-Book of Nursing: For the Use of Training Schools, Families, and Private Students",
+			"authors": [
+				{
+					"family": "Weeks",
+					"given": "Clara S."
+				}
+			],
+			"publisher": "D. Appleton",
+			"place": "New York",
+			"published": "1885",
+			"url": "https://archive.org/details/atextbooknursin00shawgoog",
+			"accessed": "2026-10-01",
+			"note": "The Lister dressing as a nurse prepared it, and the carbolized gauze, p. 198"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Lister",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Lister&oldid=1377738228",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phenol",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phenol&oldid=1372979448",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Glasgow Royal Infirmary",
+			"url": "https://en.wikipedia.org/w/index.php?title=Glasgow_Royal_Infirmary&oldid=1377522869",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "Use of the Lister carbolic spray, Antiseptic Surgery, 1882",
+			"container": "W. Watson Cheyne, Antiseptic Surgery (London: Smith, Elder, 1882), fig. 23; Wellcome Collection",
+			"published": "1882",
+			"url": "https://commons.wikimedia.org/wiki/File:Use_of_the_Lister_carbolic_spray,_Antiseptic_surgery,_1882._Wellcome_M0003436.jpg",
+			"accessed": "2026-10-01",
+			"licence": "CC BY 4.0",
+			"file": "carbolic-spray.jpg"
+		}
+	]
+}

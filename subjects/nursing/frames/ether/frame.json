@@ -1,0 +1,248 @@
+{
+	"id": "ether",
+	"topic": "Ether at Massachusetts General",
+	"position": {
+		"label": "1846",
+		"sort": 1846
+	},
+	"scene": {
+		"headline": "We watched the patient",
+		"accent": "BREATHE.",
+		"palette": "theatre",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BOSTON · MASSACHUSETTS GENERAL HOSPITAL · 16 OCTOBER 1846",
+			"MORTON · WARREN · BIGELOW · SULPHURIC ETHER"
+		],
+		"counter": {
+			"value": "2–5 min",
+			"label": "to put a patient under, by Warren's directions of 1848"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Insensibility during Surgical Operations Produced by Inhalation",
+			"authors": [
+				{
+					"family": "Bigelow",
+					"given": "Henry Jacob"
+				}
+			],
+			"container": "Boston Medical and Surgical Journal",
+			"volume": "35",
+			"issue": "16",
+			"pages": "309–317",
+			"published": "1846-11-18",
+			"url": "https://archive.org/details/39002011124139.med.yale.edu",
+			"accessed": "2026-10-01",
+			"note": "The first report: the operation of 16 October, the two-necked globe, and the patients' pulses and pupils"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Etherization; with Surgical Remarks",
+			"authors": [
+				{
+					"family": "Warren",
+					"given": "John Collins"
+				}
+			],
+			"publisher": "William D. Ticknor",
+			"place": "Boston",
+			"published": "1848",
+			"url": "https://archive.org/details/39002011125334.med.yale.edu",
+			"accessed": "2026-10-01",
+			"note": "The first operation, pp. 4–6; the sponge and the directions for giving ether, pp. 75–78"
+		},
+		{
+			"kind": "article",
+			"title": "An Account of the First Use of Sulphuric Ether by Inhalation as an Anaesthetic in Surgical Operations",
+			"authors": [
+				{
+					"family": "Long",
+					"given": "Crawford W."
+				}
+			],
+			"container": "Southern Medical and Surgical Journal",
+			"volume": "5 (new series)",
+			"issue": "12",
+			"pages": "705–713",
+			"published": "1849-12",
+			"url": "https://archive.org/details/southmed1849medi",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "A History of the Discovery of the Application of Nitrous Oxide Gas, Ether, and Other Vapors, to Surgical Operations",
+			"authors": [
+				{
+					"family": "Wells",
+					"given": "Horace"
+				}
+			],
+			"publisher": "J. Gaylord Wells",
+			"place": "Hartford",
+			"published": "1847",
+			"url": "https://archive.org/details/39002011123388.med.yale.edu",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "On Chloroform and Other Anaesthetics: Their Action and Administration",
+			"authors": [
+				{
+					"family": "Snow",
+					"given": "John"
+				}
+			],
+			"editors": [
+				{
+					"family": "Richardson",
+					"given": "Benjamin W."
+				}
+			],
+			"publisher": "John Churchill",
+			"place": "London",
+			"published": "1858",
+			"pages": "20–23, 123–125",
+			"url": "https://archive.org/details/onchloroformothe00snow",
+			"accessed": "2026-10-01",
+			"note": "Hannah Greener's death, pp. 123–124"
+		},
+		{
+			"kind": "article",
+			"title": "“Gentlemen! This Is No Humbug”: Did John Collins Warren, M.D., Proclaim These Words on October 16, 1846, at Massachusetts General Hospital, Boston?",
+			"authors": [
+				{
+					"family": "Haridas",
+					"given": "Rajesh P."
+				}
+			],
+			"container": "Anesthesiology",
+			"volume": "124",
+			"issue": "3",
+			"pages": "553–560",
+			"published": "2016-03",
+			"doi": "10.1097/ALN.0000000000000944",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ether Dome",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ether_Dome&oldid=1374734336",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William T. G. Morton",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_T._G._Morton&oldid=1368640734",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Collins Warren (surgeon, born 1778)",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Collins_Warren_(surgeon,_born_1778)&oldid=1372830944",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edward Gilbert Abbott",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edward_Gilbert_Abbott&oldid=1356623905",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Crawford Long",
+			"url": "https://en.wikipedia.org/w/index.php?title=Crawford_Long&oldid=1371982742",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Horace Wells",
+			"url": "https://en.wikipedia.org/w/index.php?title=Horace_Wells&oldid=1376384953",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of general anesthesia",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_general_anesthesia&oldid=1375954745",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "Use of Ether for Anesthesia",
+			"authors": [
+				{
+					"name": "Southworth & Hawes"
+				}
+			],
+			"container": "J. Paul Getty Museum",
+			"published": "1847",
+			"url": "https://commons.wikimedia.org/wiki/File:Southworth_%26_Hawes_(American,_active_1844_-_1862)_-_Use_of_Ether_for_Anesthesia_-_Google_Art_Project.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "ether-daguerreotype.jpg",
+			"note": "A daguerreotype of an operation under ether in the Ether Dome, late spring 1847"
+		}
+	]
+}
