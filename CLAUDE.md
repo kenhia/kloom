@@ -183,6 +183,14 @@ gain `subject_plan.py --with-drafts`, a contact sheet PNG per plate,
 `commons_media crop` and its Flickr and PD-self credits, and `names.py
 lookup`'s set-index and item-class checks; authors are shown readings
 stripped of marks (`names.py strip`), and each shared name has one owner.
+Sprint 030 the tenth subject, `subjects/nursing`, _Keeping Watch_ (64
+frames: care before nursing, Nightingale and the profession, the operating
+room, nurses at war and the modern profession; four trails, among them
+the Navy Nurse Corps and the scrub nurse's work), built around Ken's
+mother's career as a Navy surgical nurse and ending on a dedication to
+her, the companion to In the Blood with 13 links written into it; the
+second author-subject run after the tuning, with its findings filed for
+decision.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
