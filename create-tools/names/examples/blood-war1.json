@@ -1,0 +1,30 @@
+{
+	"blood/whole-blood-wwii": [
+		["Edward Churchill", "edward-delos-churchill"],
+		["Paul Hawley", "paul-ramsey-hawley"],
+		["penicillin", "penicillin"],
+		["Normandy landings", "normandy-landings"],
+		["American Red Cross", "american-red-cross"],
+		["Alsever's solution", "alsevers-solution"],
+		["Air Transport Command", "air-transport-command"],
+		["Elliott Cutler", "elliott-cutler"]
+	],
+	"blood/korea-blood": [
+		["Korean War", "korean-war"],
+		["Japanese Red Cross Society", "japanese-red-cross-society"],
+		["American Red Cross", "american-red-cross"],
+		["Travis Air Force Base", "travis-air-force-base"],
+		["Military Air Transport Service", "military-air-transport-service"],
+		["Cutter Laboratories", "cutter-laboratories"]
+	],
+	"blood/asbp": [
+		["United States Department of Defense", "united-states-department-of-defense"],
+		["Harry S. Truman", "harry-s-truman"],
+		["McGuire Air Force Base", "joint-base-mcguire-dix-lakehurst"],
+		["Travis Air Force Base", "travis-air-force-base"],
+		["glycerol", "glycerol"],
+		["USNS Mercy", "usns-mercy"],
+		["Food and Drug Administration", "food-and-drug-administration"],
+		["AABB", "aabb"]
+	]
+}

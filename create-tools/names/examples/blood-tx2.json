@@ -1,0 +1,36 @@
+{
+	"blood/robertson-depot": [
+		["casualty clearing station", "casualty-clearing-station"],
+		["Oswald Hope Robertson", "oswald-hope-robertson"],
+		["Rockefeller Institute for Medical Research", "rockefeller-university"],
+		["Peyton Rous", "francis-peyton-rous"],
+		["gas gangrene", "gas-gangrene"],
+		["Battle of Cambrai", "battle-of-cambrai-1917"]
+	],
+	"blood/citrate": [
+		["sodium citrate", "trisodium-citrate"],
+		["Richard Weil", "richard-weil-physician"],
+		["Albert Hustin", "albert-hustin"],
+		["Luis Agote", "luis-agote"],
+		["Richard Lewisohn", "richard-lewisohn"],
+		["Mount Sinai Hospital", "mount-sinai-hospital-manhattan"],
+		["Peyton Rous", "francis-peyton-rous"]
+	],
+	"blood/blood-banks": [
+		["Cook County Hospital", "john-h-stroger-jr-hospital-of-cook-county"],
+		["blood bank", "blood-bank"],
+		["Bernard Fantus", "bernard-fantus"],
+		["Sklifosovsky Institute", "sklifosovsky-institute-for-emergency-medicine"],
+		["Sergei Yudin", "sergei-yudin-surgeon"],
+		["Spanish Civil War", "spanish-civil-war"],
+		["Frederic Durán i Jordà", "frederic-duran-jorda"]
+	],
+	"blood/drew-plasma": [
+		["American Red Cross", "american-red-cross"],
+		["Charles R. Drew", "charles-r-drew"],
+		["Howard University", "howard-university"],
+		["plasma", "blood-plasma"],
+		["Columbia University", "columbia-university"],
+		["Presbyterian Hospital", "newyork-presbyterian-hospital"]
+	]
+}

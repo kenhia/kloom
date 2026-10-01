@@ -1,0 +1,85 @@
+{
+	"segments": [
+		{
+			"id": "belief",
+			"title": "What we believed",
+			"labelKind": "date",
+			"frames": ["humours", "galen", "ibn-al-nafis"]
+		},
+		{
+			"id": "learned",
+			"title": "What we learned",
+			"labelKind": "date",
+			"frames": [
+				"harvey",
+				"malpighi",
+				"red-cells",
+				"hales",
+				"hemoglobin",
+				"sickle-cell",
+				"perutz-hemoglobin"
+			]
+		},
+		{
+			"id": "transfusion",
+			"title": "Transfusion",
+			"labelKind": "date",
+			"frames": [
+				"early-transfusion",
+				"blundell",
+				"abo",
+				"citrate",
+				"robertson-depot",
+				"blood-banks",
+				"drew-plasma",
+				"rh-factor",
+				"coombs",
+				"blood-bag"
+			]
+		},
+		{
+			"id": "uses",
+			"title": "What we do with blood",
+			"labelKind": "date",
+			"frames": [
+				"fractionation",
+				"bone-marrow",
+				"cryoprecipitate",
+				"apheresis",
+				"rhogam",
+				"gift-relationship",
+				"hepatitis",
+				"hiv-blood",
+				"epo",
+				"nat"
+			]
+		},
+		{
+			"id": "bench",
+			"title": "The bench, by hand and by machine",
+			"labelKind": "date",
+			"frames": [
+				"hemocytometer",
+				"stained-film",
+				"hematocrit",
+				"tube-typing",
+				"coulter",
+				"autoanalyzer",
+				"lis",
+				"gel-card"
+			]
+		},
+		{
+			"id": "today",
+			"title": "Today",
+			"labelKind": "category",
+			"frames": ["where-blood-is"]
+		},
+		{
+			"id": "dedication-seg",
+			"title": "Dedication",
+			"labelKind": "category",
+			"frames": ["dedication"]
+		}
+	]
+}

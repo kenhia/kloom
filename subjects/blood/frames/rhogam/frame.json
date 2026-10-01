@@ -1,0 +1,291 @@
+{
+	"id": "rhogam",
+	"topic": "Rh immune globulin",
+	"position": {
+		"label": "1968",
+		"sort": 1968
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "We fought the antibody with",
+		"accent": "ITSELF.",
+		"palette": "cryo",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LIVERPOOL · COLUMBIA-PRESBYTERIAN, NEW YORK · ORTHO",
+			"ANTI-D GAMMA-GLOBULIN · THE KLEIHAUER–BETKE COUNT"
+		],
+		"counter": {
+			"value": "0 of 78",
+			"label": "treated mothers who made anti-D, against 19 of 78 controls"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Prevention of Rh-Haemolytic Disease",
+			"authors": [
+				{
+					"family": "Clarke",
+					"given": "C. A."
+				}
+			],
+			"container": "British Medical Journal",
+			"volume": "4",
+			"issue": "5570",
+			"pages": "7–12",
+			"published": "1967-10-07",
+			"doi": "10.1136/bmj.4.5570.7",
+			"url": "https://www.bmj.com/content/4/5570/7",
+			"accessed": "2026-10-01",
+			"note": "The Lumleian Lecture of 3 May 1967: both teams' reasoning, the volunteers and the pooled results (Table III)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Prevention of Rh-Haemolytic Disease: Results of the Clinical Trial. A Combined Study from Centres in England and Baltimore",
+			"authors": [
+				{
+					"family": "Clarke",
+					"given": "C. A."
+				},
+				{
+					"family": "Donohoe",
+					"given": "W. T. A."
+				},
+				{
+					"family": "Durkin",
+					"given": "Catherine M."
+				},
+				{
+					"family": "Finn",
+					"given": "R."
+				},
+				{
+					"family": "Lehane",
+					"given": "D."
+				},
+				{
+					"family": "McConnell",
+					"given": "R. B."
+				},
+				{
+					"family": "Sheppard",
+					"given": "P. M."
+				}
+			],
+			"etAl": true,
+			"container": "British Medical Journal",
+			"volume": "2",
+			"issue": "5519",
+			"pages": "907–914",
+			"published": "1966-10-15",
+			"doi": "10.1136/bmj.2.5519.907",
+			"url": "https://www.bmj.com/content/2/5519/907",
+			"accessed": "2026-10-01",
+			"note": "The trial's design and Table I: 19 of 78 controls immunized, none of 78 treated"
+		},
+		{
+			"kind": "article",
+			"title": "Successful Prevention of Experimental Rh Sensitization in Man with an Anti-Rh Gamma2-Globulin Antibody Preparation: A Preliminary Report",
+			"authors": [
+				{
+					"family": "Freda",
+					"given": "Vincent J."
+				},
+				{
+					"family": "Gorman",
+					"given": "John G."
+				},
+				{
+					"family": "Pollack",
+					"given": "William"
+				}
+			],
+			"container": "Transfusion",
+			"volume": "4",
+			"issue": "1",
+			"pages": "26–32",
+			"published": "1964",
+			"doi": "10.1111/j.1537-2995.1964.tb02824.x",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Guidelines for the Estimation of Fetomaternal Haemorrhage",
+			"authors": [
+				{
+					"family": "Austin",
+					"given": "E."
+				},
+				{
+					"family": "Bates",
+					"given": "S."
+				},
+				{
+					"family": "de Silva",
+					"given": "M."
+				},
+				{
+					"family": "Howarth",
+					"given": "D."
+				},
+				{
+					"family": "Lubenko",
+					"given": "A."
+				},
+				{
+					"family": "Rowley",
+					"given": "M."
+				},
+				{
+					"family": "Scott",
+					"given": "M."
+				}
+			],
+			"etAl": true,
+			"publisher": "British Committee for Standards in Haematology",
+			"place": "London",
+			"published": "2009",
+			"url": "https://b-s-h.org.uk/media/15705/transfusion-austin-the-estimation-of-fetomaternal-haemorrhage.pdf",
+			"accessed": "2026-10-01",
+			"note": "Section 7: the acid elution method, the count and the Mollison formula"
+		},
+		{
+			"kind": "article",
+			"title": "Demonstration von fetalem Hämoglobin in den Erythrocyten eines Blutausstrichs",
+			"authors": [
+				{
+					"family": "Kleihauer",
+					"given": "E."
+				},
+				{
+					"family": "Braun",
+					"given": "H."
+				},
+				{
+					"family": "Betke",
+					"given": "K."
+				}
+			],
+			"container": "Klinische Wochenschrift",
+			"volume": "35",
+			"issue": "12",
+			"pages": "637–638",
+			"published": "1957",
+			"doi": "10.1007/BF01481043",
+			"language": "de",
+			"accessed": "2026-10-01",
+			"citedIn": "Clarke, “Prevention of Rh-Haemolytic Disease” (1967)"
+		},
+		{
+			"kind": "web",
+			"title": "RhoGAM Ultra-Filtered PLUS, MICRhoGAM Ultra-Filtered PLUS (human rho(D) immune globulin): prescribing information",
+			"container": "DailyMed",
+			"publisher": "U.S. National Library of Medicine",
+			"published": "2025-07",
+			"url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d87e4d0b-2442-4135-b3f9-5c4f74845b87",
+			"accessed": "2026-10-01",
+			"note": "Kedrion Biopharma's label, revised July 2025: dose, timing and the 15 mL a dose covers"
+		},
+		{
+			"kind": "web",
+			"title": "RhoGAM at 50: A Columbia Drug Still Saving Lives of Newborns",
+			"authors": [
+				{
+					"family": "Neighbor",
+					"given": "Joe"
+				}
+			],
+			"container": "Columbia University Irving Medical Center",
+			"published": "2018-02-22",
+			"url": "https://www.cuimc.columbia.edu/news/rhogam-50-columbia-drug-still-saving-lives-newborns",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Vaccine for Preventing Rh Incompatibility in Newborns: 1980 Albert Lasker Clinical Medical Research Award",
+			"container": "Lasker Foundation",
+			"url": "https://laskerfoundation.org/winners/vaccine-for-preventing-rh-incompatibility-in-newborns/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Transfusion Medicine History",
+			"container": "AABB",
+			"url": "https://www.aabb.org/blood-biotherapies/blood/transfusion-medicine/transfusion-medicine-resources/transfusion-medicine-history",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rho(D) immune globulin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rho(D)_immune_globulin&oldid=1372548416",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kleihauer–Betke test",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kleihauer%E2%80%93Betke_test&oldid=1342459133",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cyril Clarke",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cyril_Clarke&oldid=1371982908",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "KB stain original",
+			"url": "https://commons.wikimedia.org/wiki/File:KB_stain_original.jpg",
+			"accessed": "2026-10-01",
+			"container": "Wikimedia Commons",
+			"licence": "CC0",
+			"file": "kb-stain.jpg",
+			"authors": [
+				{
+					"family": "Häggström",
+					"given": "Mikael"
+				}
+			],
+			"published": "2020-12-11"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/coombs",
+			"why": "Only the incomplete anti-D found by the antiglobulin test protected the mothers."
+		},
+		{
+			"to": "blood/rh-factor",
+			"why": "Rh immune globulin prevents the disease of the newborn that the Rh factor explained."
+		}
+	]
+}

@@ -1,0 +1,358 @@
+{
+	"id": "where-blood-is",
+	"topic": "Blood today",
+	"position": {
+		"label": "Where we are"
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "Blood still has no",
+		"accent": "SUBSTITUTE.",
+		"palette": "vein",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WHO · US NATIONAL BLOOD SURVEY · NHS BLOOD AND TRANSPLANT",
+			"FEWER TRANSFUSIONS · PATHOGEN REDUCTION · GROWN RED CELLS"
+		],
+		"counter": {
+			"value": "120.4 million",
+			"label": "blood donations a year worldwide (WHO, mostly 2023 data)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Blood Safety and Availability",
+			"authors": [
+				{
+					"name": "World Health Organization"
+				}
+			],
+			"container": "Fact sheets",
+			"publisher": "World Health Organization",
+			"published": "2026-06-12",
+			"url": "https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Have We Reached a New Baseline for Blood Collection and Transfusion in the United States? National Blood Collection and Utilization Survey, 2023",
+			"authors": [
+				{
+					"family": "McDavid",
+					"given": "Kelsey"
+				},
+				{
+					"family": "Lien",
+					"given": "Rebecca K."
+				},
+				{
+					"family": "Chavez Ortiz",
+					"given": "Joel L."
+				},
+				{
+					"family": "Bradley",
+					"given": "Tatiana"
+				},
+				{
+					"family": "Luciano",
+					"given": "Angelina"
+				},
+				{
+					"family": "Griffin",
+					"given": "Isabel S."
+				},
+				{
+					"family": "Berger",
+					"given": "James J."
+				}
+			],
+			"etAl": true,
+			"container": "Transfusion",
+			"volume": "66",
+			"issue": "8",
+			"pages": "1552–1561",
+			"published": "2025",
+			"doi": "10.1111/trf.18187",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Continued Decline in Blood Collection and Transfusion in the United States — 2015",
+			"authors": [
+				{
+					"family": "Ellingson",
+					"given": "Katherine"
+				},
+				{
+					"family": "Sapiano",
+					"given": "Mathew R. P."
+				},
+				{
+					"family": "Haass",
+					"given": "Kathryn A."
+				},
+				{
+					"family": "Savinkina",
+					"given": "Alexandra A."
+				},
+				{
+					"family": "Baker",
+					"given": "Misha L."
+				},
+				{
+					"family": "Chung",
+					"given": "Koo-Whang"
+				},
+				{
+					"family": "Henry",
+					"given": "Richard A."
+				}
+			],
+			"etAl": true,
+			"container": "Transfusion",
+			"volume": "57",
+			"issue": "S2",
+			"pages": "1588–1598",
+			"published": "2017",
+			"doi": "10.1111/trf.14165",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "A Multicenter, Randomized, Controlled Clinical Trial of Transfusion Requirements in Critical Care",
+			"authors": [
+				{
+					"family": "Hébert",
+					"given": "Paul C."
+				},
+				{
+					"family": "Wells",
+					"given": "George A."
+				},
+				{
+					"family": "Blajchman",
+					"given": "Morris A."
+				},
+				{
+					"family": "Marshall",
+					"given": "John C."
+				},
+				{
+					"family": "Martin",
+					"given": "Claudio M."
+				},
+				{
+					"family": "Pagliarello",
+					"given": "Giuseppe"
+				},
+				{
+					"family": "Tweeddale",
+					"given": "Martin"
+				}
+			],
+			"etAl": true,
+			"container": "New England Journal of Medicine",
+			"volume": "340",
+			"issue": "6",
+			"pages": "409–417",
+			"published": "1999",
+			"doi": "10.1056/NEJM199902113400601",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Red Blood Cell Transfusion: 2023 AABB International Guidelines",
+			"authors": [
+				{
+					"family": "Carson",
+					"given": "Jeffrey L."
+				},
+				{
+					"family": "Stanworth",
+					"given": "Simon J."
+				},
+				{
+					"family": "Guyatt",
+					"given": "Gordon H."
+				},
+				{
+					"family": "Valentine",
+					"given": "Stacey L."
+				},
+				{
+					"family": "Dennis",
+					"given": "Jane A."
+				},
+				{
+					"family": "Bakhtary",
+					"given": "Sara"
+				},
+				{
+					"family": "Cohn",
+					"given": "Claudia S."
+				}
+			],
+			"etAl": true,
+			"container": "JAMA",
+			"volume": "330",
+			"issue": "19",
+			"published": "2023",
+			"doi": "10.1001/jama.2023.12914",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Pathogen Reduction of Transfused Blood Components — The End of the Beginning Rather than the Beginning of the End",
+			"authors": [
+				{
+					"family": "Farrugia",
+					"given": "Albert"
+				},
+				{
+					"family": "Corash",
+					"given": "Laurence"
+				},
+				{
+					"family": "Goodrich",
+					"given": "Raymond"
+				},
+				{
+					"family": "von Bonsdorff",
+					"given": "Leni"
+				}
+			],
+			"container": "Pathogens",
+			"volume": "15",
+			"issue": "4",
+			"pages": "442",
+			"published": "2026",
+			"doi": "10.3390/pathogens15040442",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Cell-Free Hemoglobin-Based Blood Substitutes and Risk of Myocardial Infarction and Death: A Meta-analysis",
+			"authors": [
+				{
+					"family": "Natanson",
+					"given": "Charles"
+				},
+				{
+					"family": "Kern",
+					"given": "Steven J."
+				},
+				{
+					"family": "Lurie",
+					"given": "Peter G."
+				},
+				{
+					"family": "Banks",
+					"given": "Steven M."
+				},
+				{
+					"family": "Wolfe",
+					"given": "Sidney M."
+				}
+			],
+			"container": "JAMA",
+			"volume": "299",
+			"issue": "19",
+			"published": "2008",
+			"doi": "10.1001/jama.299.19.jrv80007",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "First Ever Clinical Trial of Laboratory Grown Red Blood Cells Being Transfused into Another Person",
+			"authors": [
+				{
+					"name": "NHS Blood and Transplant"
+				}
+			],
+			"publisher": "NHS Blood and Transplant",
+			"published": "2022-11-07",
+			"url": "https://www.nhsbt.nhs.uk/news/first-ever-clinical-trial-of-laboratory-grown-red-blood-cells-being-transfused-into-another-person/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Blood Pharming of Red Cells",
+			"authors": [
+				{
+					"family": "Kronstein-Wiedemann",
+					"given": "Romy"
+				},
+				{
+					"family": "Brändle",
+					"given": "Desiree C."
+				},
+				{
+					"family": "Künzel",
+					"given": "Stephan R."
+				},
+				{
+					"family": "Tonn",
+					"given": "Torsten"
+				}
+			],
+			"container": "Transfusion Medicine and Hemotherapy",
+			"published": "2026",
+			"doi": "10.1159/000552465",
+			"accessed": "2026-10-01",
+			"note": "RESTORE's status in 2026, the yield of cultured red cells, and hemoglobin vesicles"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Patient blood management",
+			"url": "https://en.wikipedia.org/w/index.php?title=Patient_blood_management&oldid=1343495564",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood transfusion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_transfusion&oldid=1377205322",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Blood donations per 1,000 people, by country income group (chart)",
+			"url": "https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability",
+			"accessed": "2026-10-01",
+			"container": "Drawn for kloom from the World Health Organization's fact sheet (June 2026)",
+			"licence": "MIT",
+			"file": "donation-rates.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/whole-blood-returns",
+			"why": "Whole blood's return to trauma care is part of where transfusion stands now."
+		}
+	]
+}

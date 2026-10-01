@@ -1,0 +1,186 @@
+{
+	"id": "gel-card",
+	"topic": "The gel card and automated typing",
+	"position": { "label": "1985–90", "sort": 1985 },
+	"scene": {
+		"headline": "We let the gel do the",
+		"accent": "JUDGING.",
+		"palette": "slide",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LYON · YVES LAPIERRE · DIAMED",
+			"MICROTUBES OF GEL · 37 °C · A SPIN · GRADES 0 TO 4+"
+		],
+		"counter": {
+			"value": "14 days",
+			"label": "and more that a refrigerated card can still be read"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Gel Test: A New Way to Detect Red Cell Antigen-Antibody Reactions",
+			"authors": [
+				{ "family": "Lapierre", "given": "Y." },
+				{ "family": "Rigal", "given": "D." },
+				{ "family": "Adam", "given": "J." },
+				{ "family": "Josef", "given": "D." },
+				{ "family": "Meyer", "given": "F." },
+				{ "family": "Greber", "given": "S." },
+				{ "family": "Drot", "given": "C." }
+			],
+			"container": "Transfusion",
+			"volume": "30",
+			"issue": "2",
+			"pages": "109–113",
+			"published": "1990-02",
+			"doi": "10.1046/j.1537-2995.1990.30290162894.x",
+			"abstractOnly": true,
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Les tests en gel et leur évolution",
+			"authors": [{ "family": "Lapierre", "given": "Y." }],
+			"container": "Transfusion clinique et biologique",
+			"volume": "1",
+			"issue": "2",
+			"pages": "115–119",
+			"published": "1994",
+			"doi": "10.1016/s1246-7820(94)80006-5",
+			"language": "fr",
+			"abstractOnly": true,
+			"accessed": "2026-10-01",
+			"note": "Read in its English abstract"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "DiaClon Type + Screen ID-Card: Instructions for Use",
+			"authors": [{ "name": "DiaMed GmbH" }],
+			"publisher": "DiaMed GmbH",
+			"place": "Cressier, Switzerland",
+			"number": "B002455 08.10",
+			"published": "2010-08",
+			"url": "https://commerce.bio-rad.com/webroot/web/pdf/inserts/CDG/en/B002455_50683_08.10_EN.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "MTS Anti-IgG: Anti-Human Globulin Anti-IgG (Rabbit), MTS Anti-IgG Card, Instructions for Use",
+			"authors": [{ "name": "Ortho-Clinical Diagnostics" }],
+			"publisher": "Ortho-Clinical Diagnostics",
+			"number": "Pub. No. J32848_EN, version 7.0",
+			"url": "https://www.fda.gov/media/128756/download",
+			"accessed": "2026-10-01",
+			"note": "The procedure, the reaction grading guide, the stability of reactions and the limitations"
+		},
+		{
+			"kind": "report",
+			"title": "Anti-Human Globulin Anti-IgG,-C3d; Polyspecific, IH-Card AHG Anti-IgG,-C3d",
+			"authors": [{ "name": "Bio-Rad Medical Diagnostics GmbH" }],
+			"publisher": "Bio-Rad Medical Diagnostics GmbH",
+			"place": "Dreieich, Germany",
+			"number": "B186358/16",
+			"url": "https://www.fda.gov/media/122342/download",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Comparison of Two Column Agglutination Tests for Red Blood Cell Antibody Testing",
+			"authors": [
+				{ "family": "Sawierucha", "given": "Jonas" },
+				{ "family": "Posset", "given": "Marion" },
+				{ "family": "Hähnel", "given": "Viola" },
+				{ "family": "Johnson", "given": "Christian L." },
+				{ "family": "Hutchinson", "given": "James A." },
+				{ "family": "Ahrens", "given": "Norbert" }
+			],
+			"container": "PLOS ONE",
+			"volume": "13",
+			"issue": "12",
+			"pages": "e0210099",
+			"published": "2018-12-31",
+			"doi": "10.1371/journal.pone.0210099",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Evaluation of the Use of Gel Card System for Assessment of Direct Coombs Test: Weighing the Pros and Cons",
+			"authors": [
+				{ "family": "Alwar", "given": "V." },
+				{ "family": "Devi", "given": "A. M." },
+				{ "family": "Sitalakshmi", "given": "S." },
+				{ "family": "Karuna", "given": "R. K." }
+			],
+			"container": "Indian Journal of Hematology and Blood Transfusion",
+			"volume": "28",
+			"issue": "1",
+			"pages": "15–18",
+			"published": "2012",
+			"doi": "10.1007/s12288-011-0098-7",
+			"abstractOnly": true,
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Comparison of a Column Agglutination Technology-Based Automated Immunohematology Analyzer and a Semiautomated System in Pretransfusion Testing",
+			"authors": [
+				{ "family": "Dara", "given": "Ravi C." },
+				{ "family": "Tiwari", "given": "Aseem Kumar" },
+				{ "family": "Mitra", "given": "Subhasis" },
+				{ "family": "Acharya", "given": "Deviprasad" },
+				{ "family": "Aggarwal", "given": "Geet" },
+				{ "family": "Arora", "given": "Dinesh" },
+				{ "family": "Bhardwaj", "given": "Gunjan" }
+			],
+			"container": "Asian Journal of Transfusion Science",
+			"volume": "13",
+			"issue": "2",
+			"pages": "115–119",
+			"published": "2019",
+			"doi": "10.4103/ajts.AJTS_116_17",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Blood compatibility testing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_compatibility_testing&oldid=1354891107",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ortho Clinical Diagnostics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ortho_Clinical_Diagnostics&oldid=1363530682",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10"
+		},
+		{
+			"kind": "media",
+			"title": "Blood typing by gel card method (column agglutination or MTS gel), type O positive",
+			"url": "https://commons.wikimedia.org/wiki/File:Blood_typing_by_gel_card_method_(column_agglutination_or_MTS_gel)_-_type_O_positive.jpg",
+			"accessed": "2026-10-01",
+			"container": "Wikimedia Commons",
+			"authors": [{ "name": "SpicyMilkBoy" }],
+			"published": "2020-02-01",
+			"licence": "CC BY-SA 4.0",
+			"file": "gelcard.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/coombs",
+			"why": "The gel card runs the antiglobulin test without washing the cells."
+		}
+	]
+}

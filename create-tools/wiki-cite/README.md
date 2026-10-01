@@ -34,7 +34,9 @@ python3 create-tools/wiki-cite/wiki_cite.py --text .scratch/wiki "ENIAC"   # and
   `DIR/<Title>.txt` (headings, paragraphs, lists and table cells, without
   footnote markers), from the API's parse of exactly that revision (sprint
   015). A formula is written once, as its TeX between `$…$`, where its
-  MathML used to come out a token to a line (sprint 027). Keep it out of
+  MathML used to come out a token to a line (sprint 027). With `--lang`
+  the file is `DIR/<Title>.<lang>.txt`, so one person's German and English
+  articles do not overwrite each other (sprint 028). Keep it out of
   the repo: `.scratch/` is ignored.
 
 Read the revision you cite. The citation says you took the facts from that

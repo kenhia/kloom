@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M22 96 L214 96"/>
+		<path pathLength="1" d="M150 150 L150 270"/>
+		<path pathLength="1" d="M342 50 L348 50"/>
+		<path pathLength="1" d="M342 76 L348 76"/>
+		<path pathLength="1" d="M342 102 L348 102"/>
+		<path pathLength="1" d="M342 128 L348 128"/>
+		<path pathLength="1" d="M342 154 L348 154"/>
+		<path pathLength="1" d="M342 180 L348 180"/>
+		<path pathLength="1" d="M342 206 L348 206"/>
+		<path pathLength="1" d="M342 232 L348 232"/>
+		<path pathLength="1" d="M345 50 L345 239.8"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M22 72 L110 76 L130 80 L214 84"/>
+		<path pathLength="1" d="M22 120 L110 116 L130 112 L214 106"/>
+		<path pathLength="1" d="M66 70 L66 122"/>
+		<path pathLength="1" d="M72 70 L72 122"/>
+		<path pathLength="1" d="M112 214 L118 256 L182 256 L188 214"/>
+		<path pathLength="1" d="M106 214 L194 214"/>
+		<path pathLength="1" d="M300 50 L300 239.8 L340 239.8 L340 50 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M 78 101 C 100 99 116 100 132 98 C 150 96 170 95 206 92"/>
+		<path pathLength="1" d="M126 96 L132 102"/>
+		<path pathLength="1" d="M132 98 L150 80 L176 54"/>
+		<path pathLength="1" d="M150 80 L154 84"/>
+		<path pathLength="1" d="M150 80 L146 76"/>
+		<path pathLength="1" d="M132 102 L133.1 102.5 L134.2 104.1 L135.4 106.6 L136.5 110.2 L137.6 114.9 L138.8 120.6 L139.9 127.3 L141 135 L142.1 143.8 L143.2 153.6 L144.4 164.4 L145.5 176.2 L146.6 189.1 L147.8 203.1 L148.9 218 L150 234"/>
+		<path pathLength="1" d="M150 236 L182 236"/>
+		<path pathLength="1" d="M179.5 246 L185.5 246"/>
+		<path pathLength="1" d="M180.9 236 L186.9 236"/>
+		<path pathLength="1" d="M182.3 226 L188.3 226"/>
+		<path pathLength="1" d="M183.4 218 L189.4 218"/>
+		<path pathLength="1" d="M300 60 L340 60"/>
+		<path pathLength="1" d="M302 74.2 L305 74.2"/>
+		<path pathLength="1" d="M308 74.2 L311 74.2"/>
+		<path pathLength="1" d="M314 74.2 L317 74.2"/>
+		<path pathLength="1" d="M320 74.2 L323 74.2"/>
+		<path pathLength="1" d="M326 74.2 L329 74.2"/>
+		<path pathLength="1" d="M332 74.2 L335 74.2"/>
+		<path pathLength="1" d="M338 74.2 L341 74.2"/>
+		<path pathLength="1" d="M300 88.5 L340 88.5"/>
+		<path pathLength="1" d="M300 113.1 L340 113.1"/>
+		<path pathLength="1" d="M294 146.2 L297 146.2"/>
+		<path pathLength="1" d="M300 146.2 L303 146.2"/>
+		<path pathLength="1" d="M306 146.2 L309 146.2"/>
+		<path pathLength="1" d="M312 146.2 L315 146.2"/>
+		<path pathLength="1" d="M318 146.2 L321 146.2"/>
+		<path pathLength="1" d="M324 146.2 L327 146.2"/>
+		<path pathLength="1" d="M330 146.2 L333 146.2"/>
+		<path pathLength="1" d="M336 146.2 L339 146.2"/>
+		<path pathLength="1" d="M302 92.6 L338 88.6"/>
+		<path pathLength="1" d="M302 96.7 L338 92.7"/>
+		<path pathLength="1" d="M302 100.8 L338 96.8"/>
+		<path pathLength="1" d="M302 104.9 L338 100.9"/>
+		<path pathLength="1" d="M302 109 L338 105"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="66" y="62" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CORD</text>
+		<text x="180" y="48" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LANCET</text>
+		<text x="150" y="270" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BOWL, IN OUNCES</text>
+		<text x="294" y="57" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="294" y="77.2" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2, 3</text>
+		<text x="294" y="103.8" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4</text>
+		<text x="352" y="116.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">82 OZ</text>
+		<text x="352" y="149.2" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">125 OZ</text>
+		<text x="320" y="253.8" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ABOUT 7.3 L</text>
+		<text x="320" y="42" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HIS BLOOD</text>
+	</g>
+</svg>

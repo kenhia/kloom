@@ -1,0 +1,149 @@
+{
+	"id": "segregated-blood",
+	"topic": "Segregated blood",
+	"position": { "label": "1942", "sort": 1942 },
+	"scene": {
+		"headline": "We kept the donors' blood",
+		"accent": "APART.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"AMERICAN RED CROSS · ARMY AND NAVY · JANUARY 1942",
+			"CHARLES R. DREW · THE NAACP · LOUISIANA ACT OF 1958"
+		],
+		"counter": {
+			"value": "<1%",
+			"label": "of wartime donors were Black Americans, a tenth of the nation"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Becoming “the Father of the Blood Bank,” 1938–1941",
+			"container": "Profiles in Science: The Charles R. Drew Papers",
+			"publisher": "U.S. National Library of Medicine",
+			"url": "https://profiles.nlm.nih.gov/spotlight/bg/feature/blood",
+			"accessed": "2026-10-01",
+			"note": "The exclusion, the January 1942 policy, Drew's objection and why he left"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "“My Chief Interest Was and Is Surgery”: Howard University, 1941–1950",
+			"container": "Profiles in Science: The Charles R. Drew Papers",
+			"publisher": "U.S. National Library of Medicine",
+			"url": "https://profiles.nlm.nih.gov/spotlight/bg/feature/my-chief-interest-was-and-is-surgery-howard-university-1941-1950",
+			"accessed": "2026-10-01",
+			"note": "Drew's death and the legend"
+		},
+		{
+			"kind": "web",
+			"title": "Biographical Overview",
+			"container": "Profiles in Science: The Charles R. Drew Papers",
+			"publisher": "U.S. National Library of Medicine",
+			"url": "https://profiles.nlm.nih.gov/spotlight/bg/feature/biographical-overview",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Desegregating Blood: A Civil Rights Struggle to Remember",
+			"authors": [{ "family": "Guglielmo", "given": "Thomas A." }],
+			"container": "PBS NewsHour, from The Conversation",
+			"url": "https://www.pbs.org/newshour/science/desegregating-blood-a-civil-rights-struggle-to-remember",
+			"published": "2018-02-04",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "“Red Cross, Double Cross”: Race and America's World War II–Era Blood Donor Service",
+			"authors": [{ "family": "Guglielmo", "given": "Thomas A." }],
+			"container": "Journal of American History",
+			"volume": "97",
+			"issue": "1",
+			"pages": "63–90",
+			"published": "2010",
+			"doi": "10.2307/jahist/97.1.63",
+			"accessed": "2026-10-01",
+			"citedIn": "Newsome, “Good Blood, Bad Policy” (2023)"
+		},
+		{
+			"kind": "web",
+			"title": "Good Blood, Bad Policy: The Red Cross and Jim Crow",
+			"authors": [{ "family": "Newsome", "given": "Melba" }],
+			"container": "Undark",
+			"url": "https://race.undark.org/articles/good-blood-bad-policy-the-red-cross-and-jim-crow",
+			"published": "2023-01-18",
+			"accessed": "2026-10-01",
+			"note": "Sylvia Tucker's letter, the Red Cross's 2021 statement, and Louisiana's repeal in 1972"
+		},
+		{
+			"kind": "article",
+			"title": "Segregation",
+			"authors": [{ "family": "Reynard", "given": "Charles A." }],
+			"container": "Louisiana Law Review",
+			"volume": "19",
+			"issue": "1",
+			"published": "1958-12",
+			"url": "https://digitalcommons.law.lsu.edu/lalrev/vol19/iss1/25",
+			"accessed": "2026-10-01",
+			"note": "The 1958 session's act requiring blood for transfusion to be labelled with the donor's race"
+		},
+		{
+			"kind": "book",
+			"title": "Blood Program in World War II",
+			"authors": [{ "family": "Kendrick", "given": "Douglas B." }],
+			"container": "Medical Department, United States Army in World War II",
+			"publisher": "Office of the Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://archive.org/details/0014773.nlm.nih.gov",
+			"accessed": "2026-10-01",
+			"note": "The 1940 committee on pooled plasma (p. 52), the Rh factor (p. 246) and the 1,354 pools (pp. 258–259)"
+		},
+		{
+			"kind": "book",
+			"title": "One Blood: The Death and Resurrection of Charles R. Drew",
+			"authors": [{ "family": "Love", "given": "Spencie" }],
+			"publisher": "University of North Carolina Press",
+			"place": "Chapel Hill",
+			"published": "1996",
+			"url": "https://openlibrary.org/works/OL2954177W",
+			"accessed": "2026-10-01",
+			"citedIn": "National Library of Medicine, “My Chief Interest Was and Is Surgery”"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles R. Drew",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_R._Drew&oldid=1373420796",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "media",
+			"title": "Give Your Blood to Save a Life: American National Red Cross Blood Donor Service",
+			"url": "https://commons.wikimedia.org/wiki/File:%22Give_your_Blood_to_Save_a_Life%22_-_DPLA_-_0693c181d97de359063c83ee38bae280.jpg",
+			"accessed": "2026-10-01",
+			"container": "Office of War Information records, U.S. National Archives, via Wikimedia Commons",
+			"authors": [{ "name": "Office of War Information" }],
+			"licence": "Public domain",
+			"file": "give-blood-poster.jpg",
+			"published": "1943",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/race-serology",
+			"why": "Both read a difference in how often a blood type occurs in a people as a fact about each person's blood."
+		},
+		{
+			"to": "blood/drew-plasma",
+			"why": "Drew directed the plasma programmes whose donors were then sorted by race, and called the policy without scientific basis."
+		}
+	]
+}

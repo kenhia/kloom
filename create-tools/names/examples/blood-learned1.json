@@ -1,0 +1,32 @@
+{
+	"blood/harvey": [
+		["William Harvey", "william-harvey"],
+		["_De motu cordis_", "exercitatio-anatomica-de-motu-cordis-et-sanguinis-in-animalibus"],
+		["Charles I", "charles-i-of-england"],
+		["University of Padua", "university-of-padua"],
+		["Hieronymus Fabricius", "hieronymus-fabricius"],
+		["Galen's", "galen"],
+		["Ibn al-Nafis", "ibn-al-nafis"],
+		["Jean Riolan", "jean-riolan-the-younger"]
+	],
+	"blood/malpighi": [
+		["Marcello Malpighi", "marcello-malpighi"],
+		["Harvey's", "william-harvey"],
+		["University of Bologna", "university-of-bologna"],
+		["Giovanni Alfonso Borelli", "giovanni-alfonso-borelli"],
+		["capillaries", "capillary"],
+		["alveoli", "pulmonary-alveolus"],
+		["Ibn al-Nafis", "ibn-al-nafis"],
+		["Royal Society", "royal-society"]
+	],
+	"blood/red-cells": [
+		["Delft", "delft"],
+		["Henry Oldenburg", "henry-oldenburg"],
+		["Royal Society", "royal-society"],
+		["Antonie van Leeuwenhoek", "antonie-van-leeuwenhoek"],
+		["red blood cells", "red-blood-cell"],
+		["Robert Hooke", "robert-hooke"],
+		["Robert Boyle", "robert-boyle"],
+		["Jan Swammerdam", "jan-swammerdam"]
+	]
+}

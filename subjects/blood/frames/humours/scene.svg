@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M26 44 L26 262"/>
+		<path pathLength="1" d="M22 44 L26 44"/>
+		<path pathLength="1" d="M22 62 L26 62"/>
+		<path pathLength="1" d="M22 80 L26 80"/>
+		<path pathLength="1" d="M22 98 L26 98"/>
+		<path pathLength="1" d="M22 116 L26 116"/>
+		<path pathLength="1" d="M22 134 L26 134"/>
+		<path pathLength="1" d="M22 152 L26 152"/>
+		<path pathLength="1" d="M22 170 L26 170"/>
+		<path pathLength="1" d="M22 188 L26 188"/>
+		<path pathLength="1" d="M22 206 L26 206"/>
+		<path pathLength="1" d="M22 224 L26 224"/>
+		<path pathLength="1" d="M22 242 L26 242"/>
+		<path pathLength="1" d="M22 260 L26 260"/>
+		<path pathLength="1" d="M18 120 L114 120"/>
+		<path pathLength="1" d="M18 128 L114 128"/>
+		<path pathLength="1" d="M18 186 L114 186"/>
+		<path pathLength="1" d="M214 150 L378 150"/>
+		<path pathLength="1" d="M296 68 L296 232"/>
+		<path pathLength="1" d="M226 150 a70 70 0 1 0 140 0 a70 70 0 1 0 -140 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M36 38 L40 44 L40 252"/>
+		<path pathLength="1" d="M40 252 L40.3 253.3 L41.1 254.6 L42.4 255.8 L44.3 257 L46.6 258.1 L49.4 259.1 L52.5 259.9 L56 260.7 L59.8 261.2 L63.7 261.7 L67.8 261.9 L72 262 L76.2 261.9 L80.3 261.7 L84.2 261.2 L88 260.7 L91.5 259.9 L94.6 259.1 L97.4 258.1 L99.7 257 L101.6 255.8 L102.9 254.6 L103.7 253.3 L104 252"/>
+		<path pathLength="1" d="M104 252 L104 44 L108 38"/>
+		<path pathLength="1" d="M40 112 L104 112"/>
+		<path pathLength="1" d="M246.5 100.5 L345.5 100.5 L345.5 199.5 L246.5 199.5 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M44 190 L40 248"/>
+		<path pathLength="1" d="M50 190 L46 256"/>
+		<path pathLength="1" d="M56 190 L52 256"/>
+		<path pathLength="1" d="M62 190 L58 256"/>
+		<path pathLength="1" d="M68 190 L64 256"/>
+		<path pathLength="1" d="M74 190 L70 256"/>
+		<path pathLength="1" d="M80 190 L76 256"/>
+		<path pathLength="1" d="M86 190 L82 256"/>
+		<path pathLength="1" d="M92 190 L88 256"/>
+		<path pathLength="1" d="M98 190 L94 248"/>
+		<path pathLength="1" d="M44 134 L100 134"/>
+		<path pathLength="1" d="M50 142 L100 142"/>
+		<path pathLength="1" d="M44 150 L100 150"/>
+		<path pathLength="1" d="M50 158 L100 158"/>
+		<path pathLength="1" d="M44 166 L100 166"/>
+		<path pathLength="1" d="M50 174 L100 174"/>
+		<path pathLength="1" d="M44 182 L100 182"/>
+		<path pathLength="1" d="M40 120 L104 120"/>
+		<path pathLength="1" d="M40 128 L104 128"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="118" y="116" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">YELLOW BILE</text>
+		<text x="118" y="132" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PHLEGM</text>
+		<text x="118" y="160" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BLOOD</text>
+		<text x="118" y="226" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BLACK BILE</text>
+		<text x="380" y="146" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HOT</text>
+		<text x="212" y="146" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COLD</text>
+		<text x="296" y="64" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WET</text>
+		<text x="296" y="242" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DRY</text>
+		<text x="320.7" y="128.3" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SPRING</text>
+		<text x="320.7" y="177.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SUMMER</text>
+		<text x="271.3" y="177.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AUTUMN</text>
+		<text x="271.3" y="128.3" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WINTER</text>
+	</g>
+</svg>

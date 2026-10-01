@@ -1,0 +1,30 @@
+{
+	"blood/rh-factor": [
+		["Philip Levine", "philip-levine-physician"],
+		["Karl Landsteiner", "karl-landsteiner"],
+		["Alexander Wiener", "alexander-s-wiener"],
+		["rhesus macaque", "rhesus-macaque"],
+		["Rh", "rh-blood-group-system"],
+		["Ronald Fisher", "ronald-fisher"],
+		["hemolytic disease of the newborn", "hemolytic-disease-of-the-newborn"],
+		["Patrick Mollison", "patrick-mollison"]
+	],
+	"blood/coombs": [
+		["Rh", "rh-blood-group-system"],
+		["Robert Race", "robert-russell-race"],
+		["Alexander Wiener", "alexander-s-wiener"],
+		["Robin Coombs", "robin-coombs"],
+		["University of Cambridge", "university-of-cambridge"],
+		["Arthur Mourant", "arthur-mourant"],
+		["Coombs test", "coombs-test"]
+	],
+	"blood/blood-bag": [
+		["Carl W. Walter", "carl-w-walter"],
+		["polyvinyl chloride", "polyvinyl-chloride"],
+		["Walter Reed", "walter-reed-army-medical-center"],
+		["Korean War", "korean-war"],
+		["American Red Cross", "american-red-cross"],
+		["DEHP", "bis-2-ethylhexyl-phthalate"],
+		["thermoplastic", "thermoplastic"]
+	]
+}

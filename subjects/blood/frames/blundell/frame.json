@@ -1,0 +1,115 @@
+{
+	"id": "blundell",
+	"topic": "Blundell's human transfusions",
+	"position": { "label": "1818", "sort": 1818 },
+	"scene": {
+		"headline": "Blood fell from arm to",
+		"accent": "ARM.",
+		"palette": "plasma",
+		"illustration": "scene.svg",
+		"metadata": ["GUY'S HOSPITAL · LONDON · JAMES BLUNDELL", "SYRINGE · IMPELLOR · GRAVITATOR"],
+		"counter": { "value": "3 of 3", "label": "dogs given human blood that died" }
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Experiments on the Transfusion of Blood by the Syringe",
+			"authors": [{ "family": "Blundell", "given": "James" }],
+			"container": "Medico-Chirurgical Transactions",
+			"volume": "9",
+			"pages": "56–92",
+			"published": "1818",
+			"url": "https://archive.org/details/medicochirurgica09roya",
+			"accessed": "2026-10-01",
+			"note": "The dog experiments, read 3 February 1818"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Some Account of a Case of Obstinate Vomiting, in Which an Attempt Was Made to Prolong Life by the Injection of Blood into the Veins",
+			"authors": [{ "family": "Blundell", "given": "James" }],
+			"container": "Medico-Chirurgical Transactions",
+			"volume": "10",
+			"published": "1819",
+			"url": "https://archive.org/details/medicochirurgica10roya",
+			"accessed": "2026-10-01",
+			"note": "The first human-to-human transfusion, September 1818; from p. 296"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Researches Physiological and Pathological: Instituted Principally with a View to the Improvement of Medical and Surgical Practice",
+			"authors": [{ "family": "Blundell", "given": "James" }],
+			"publisher": "E. Cox",
+			"place": "London",
+			"published": "1825",
+			"url": "https://archive.org/details/b24924362",
+			"accessed": "2026-10-01",
+			"note": "“Human blood should alone be employed”, p. 92; the Impellor, pp. 120–123; the six cases"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Observations on Transfusion of Blood. With a Description of His Gravitator",
+			"authors": [{ "family": "Blundell", "given": "James" }],
+			"container": "The Lancet",
+			"volume": "12",
+			"issue": "302",
+			"pages": "321–324",
+			"published": "1829-06-13",
+			"doi": "10.1016/S0140-6736(02)92543-2",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Successful Case of Transfusion",
+			"container": "The Lancet",
+			"volume": "11",
+			"issue": "279",
+			"pages": "431–432",
+			"published": "1829-01-03",
+			"doi": "10.1016/S0140-6736(02)91682-X",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Case of Uterine Hemorrhage, in Which the Operation of Transfusion Was Successfully Performed",
+			"authors": [{ "family": "Waller", "given": "Charles" }],
+			"container": "London Medical and Physical Journal",
+			"volume": "54",
+			"issue": "320",
+			"pages": "273–277",
+			"published": "1825",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5641047/",
+			"accessed": "2026-10-01",
+			"citedIn": "James Blundell (physician) — Wikipedia (revision 1360620370)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Blundell (physician)",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Blundell_(physician)&oldid=1360620370",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "media",
+			"title": "Blundell's Gravitator, from The Lancet, 1829",
+			"url": "https://commons.wikimedia.org/wiki/File:Blumdells%27s_Gravitator;_the_Lancet,_1829_Wellcome_L0025877.jpg",
+			"accessed": "2026-10-01",
+			"container": "The Lancet 12, no. 302 (13 June 1829): 321; Wellcome Collection, via Wikimedia Commons",
+			"published": "1829-06-13",
+			"licence": "CC BY 4.0",
+			"file": "gravitator.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/citrate",
+			"why": "Blundell's pipes clogged with clot and had to be flushed with warm water: the problem citrate solved a century later."
+		}
+	]
+}

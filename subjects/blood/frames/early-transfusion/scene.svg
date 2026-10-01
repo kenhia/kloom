@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 150 L380 150"/>
+		<path pathLength="1" d="M96 40 L96 270"/>
+		<path pathLength="1" d="M128 40 L128 270"/>
+		<path pathLength="1" d="M268 40 L268 270"/>
+		<path pathLength="1" d="M300 40 L300 270"/>
+		<path pathLength="1" d="M334 40 L334 270"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 98 L230 98"/>
+		<path pathLength="1" d="M30 86 L230 86"/>
+		<path pathLength="1" d="M30 219 L370 219"/>
+		<path pathLength="1" d="M30 205 L370 205"/>
+		<path pathLength="1" d="M125.5 92 L125.7 120.9 L149 152.3 L266.8 182.2 L265.5 212"/>
+		<path pathLength="1" d="M130.5 92 L130.3 119.1 L151 147.7 L269.2 177.8 L270.5 212"/>
+		<path pathLength="1" d="M93.5 212 L93.6 240.7 L107.9 263.3"/>
+		<path pathLength="1" d="M98.5 212 L98.4 239.3 L112.1 260.7"/>
+		<path pathLength="1" d="M160 268 L159.8 269.3 L159 270.6 L157.9 271.8 L156.2 273 L154.2 274.1 L151.8 275.1 L149 275.9 L146 276.7 L142.7 277.2 L139.2 277.7 L135.7 277.9 L132 278 L128.3 277.9 L124.8 277.7 L121.3 277.2 L118 276.7 L115 275.9 L112.2 275.1 L109.8 274.1 L107.8 273 L106.1 271.8 L105 270.6 L104.2 269.3 L104 268"/>
+		<path pathLength="1" d="M104 268 L160 268"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M93 83 L99 101"/>
+		<path pathLength="1" d="M99 83 L93 101"/>
+		<path pathLength="1" d="M157 83 L163 101"/>
+		<path pathLength="1" d="M163 83 L157 101"/>
+		<path pathLength="1" d="M157.5 80 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M229 202 L235 222"/>
+		<path pathLength="1" d="M235 202 L229 222"/>
+		<path pathLength="1" d="M229.5 199 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M297 202 L303 222"/>
+		<path pathLength="1" d="M303 202 L297 222"/>
+		<path pathLength="1" d="M297.5 199 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M145.5 150 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M204.5 165 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M217.5 94.2 L222 92 L217.5 89.8"/>
+		<path pathLength="1" d="M345.5 214.2 L350 212 L345.5 209.8"/>
+		<path pathLength="1" d="M265.8 199.5 L268 204 L270.2 199.5"/>
+		<path pathLength="1" d="M79.5 214.2 L84 212 L79.5 209.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="30" y="78" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DONOR: CAROTID ARTERY</text>
+		<text x="370" y="236" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RECIPIENT: JUGULAR VEIN</text>
+		<text x="214" y="140" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">QUILLS</text>
+		<text x="132" y="290" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OWN BLOOD OUT</text>
+		<text x="370" y="198" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TO HEART</text>
+		<text x="30" y="198" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FROM HEAD</text>
+	</g>
+</svg>

@@ -1,0 +1,32 @@
+{
+	"blood/vietnam-blood": [
+		["Vietnam War", "vietnam-war"],
+		["Spurgeon Neel", "spurgeon-neel"],
+		["Camp Zama", "camp-zama"],
+		["McGuire Air Force Base", "mcguire-air-force-base"],
+		["Cam Ranh Bay", "cam-ranh-bay"],
+		["Tet Offensive", "tet-offensive"],
+		["fresh frozen plasma", "fresh-frozen-plasma"],
+		["glycerol", "glycerol"]
+	],
+	"blood/walking-blood-bank": [
+		["whole blood", "whole-blood"],
+		["Iraq War", "iraq-war"],
+		["Baghdad", "baghdad"],
+		["platelets", "platelet"],
+		["war in Afghanistan", "war-in-afghanistan-2001-2021"],
+		["hepatitis C", "hepatitis-c"],
+		[
+			"transfusion-associated graft-versus-host disease",
+			"transfusion-associated-graft-versus-host-disease"
+		]
+	],
+	"blood/whole-blood-returns": [
+		["whole blood", "whole-blood"],
+		["75th Ranger Regiment", "75th-ranger-regiment"],
+		["titre", "titer"],
+		["University of Pittsburgh", "university-of-pittsburgh"],
+		["AABB", "aabb"],
+		["New England Journal of Medicine", "the-new-england-journal-of-medicine"]
+	]
+}

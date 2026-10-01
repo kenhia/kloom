@@ -1,0 +1,34 @@
+Blood from an artery is scarlet, and blood from a vein is a darker, purplish red. Physicians had seen the difference for as long as they had bled patients. In June 1864 a Cambridge mathematician showed what the difference is. It is one red substance in two states, with and without **[oxygen](kloom:e/oxygen)**, and a prism can tell them apart. The substance is **[hemoglobin](kloom:e/hemoglobin)**, the iron-bearing protein that fills the red cells and carries the oxygen they take up in the lungs.
+
+## Red crystals
+
+The first glimpse of it came by accident. The German chemist Friedrich Ludwig Hünefeld, in a book on the chemistry of the animal body published at Leipzig in 1840, let drops of blood dry slowly between glass plates sealed with varnish. In some of them he saw flat crystals, sharply bounded and coloured bright red, as he put it, in one shape in pig's blood and another in human blood. He tried to make them from the blood's salts and could not; his best guess was a phosphate of ammonia and soda. He did not know he had crystallised the colouring matter of blood. Hünefeld is often credited with crystals from earthworm blood, but the passage on earthworms in his book says something else: he bled about forty worms in September 1838, found no corpuscles at 200 times magnification, and found iron in their ash. Otto Funke, in 1851, grew such crystals on purpose by diluting blood and letting it evaporate, and the red substance began to be studied as a chemical.
+
+## Two dark bands
+
+In 1862 **[Felix Hoppe-Seyler](kloom:e/felix-hoppe-seyler)**, professor at Tübingen and still plain Felix Hoppe until his adoption by his brother-in-law two years later, published a short paper in _Virchow's Archiv_ on how the colouring matter of blood behaves in the spectrum of sunlight. Three years earlier, at Heidelberg, **[Gustav Kirchhoff](kloom:e/gustav-kirchhoff)** and **[Robert Bunsen](kloom:e/robert-bunsen)** had turned a slit, a prism and a small telescope into the spectroscope, and read the elements of a flame by the bright lines each one gave. Hoppe-Seyler used the same instrument the other way round. White light passed through a very dilute solution of blood came out of the prism with two dark bands across the yellow and green, the colours the solution took out. The bands were sharp, the same in every animal he tried, and, he suggested, a test for blood in a court of law.
+
+The man who read them was **[George Gabriel Stokes](kloom:e/sir-george-stokes-1st-baronet)**, mathematician and physicist, Lucasian Professor of Mathematics at Cambridge and Secretary of the Royal Society. He told the Royal Society on 16 June 1864 that the observation was "perfectly simple": put the solution in a test tube behind a slit and look at it through a prism held to the eye. The dark lines of the Sun's spectrum, the **[Fraunhofer lines](kloom:e/fraunhofer-lines)**, served as fixed marks, and the woodcut from his paper places the bands among them. Its upper strip is the scarlet solution, two dark bands between D and E; the lower is the same solution after his reagent, one broader band where the bright gap had been.
+
+![A woodcut of two horizontal spectrum strips under the letters B, D, E, b, F and G: in the upper strip two dark vertical bands stand between D and E with a narrow bright gap between them; in the lower strip a single broad dark band fills that region; both strips go dark beyond F](stokes-bands.jpg)
+
+## Taking the oxygen away
+
+Stokes's question was whether the change from arterial to venous colour was a reduction, the loss of oxygen. Acids destroyed the colouring matter, so he needed a reducing agent that worked in alkaline solution, and he made one:
+
+| Step           | Stokes's procedure, 1864                                                                                                                                   |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Blood          | from sheep or oxen, bought from a butcher                                                                                                                  |
+| Extract        | let it clot, cut the clot small, rinse it, and extract it with water                                                                                       |
+| Reagent        | ferrous sulphate ("protosulphate of iron"), with enough tartaric acid that alkali will not precipitate it, made alkaline with ammonia or carbonate of soda |
+| Add a little   | the colour turns "much more purple"; the two bands give way to one                                                                                         |
+| Shake with air | the scarlet colour and the two bands return at once                                                                                                        |
+| Repeat         | "any number of times"                                                                                                                                      |
+
+He checked that the iron salt was not simply combining with the pigment: stannous chloride, which is colourless, did the same, and so did ammonium hydrosulphide. A test tube of reduced solution left standing showed the change in one glass: air reached only the top, so the liquid was scarlet above and purple below, and seen through the prism the two bands above ran into one below, in the shape of a tuning fork. The plate draws that tube in front of the slit. The colouring matter of blood, Stokes concluded, "like indigo, is capable of existing in two states of oxidation", and it "recovers its oxygen by absorption from the air". Here was the substance that took up oxygen in the lungs.
+
+He wanted to call it _cruorine_, scarlet and purple, because, he wrote, Hoppe had not named it. The name that lasted was Hoppe-Seyler's, _Hämoglobin_.
+
+## Venous blood is mostly red
+
+Hoppe-Seyler had reported that venous blood shows the same two bands, and Stokes had the point tested. Two physiologists, Dr Harley and Dr Sharpey, drew blood from the jugular vein of a living dog into a pipette of boiled water, so that no air reached it. It showed the two bands of the scarlet form. Stokes concluded that only a small part of the hemoglobin in venous blood has given up its oxygen, and he gave a physician's reason why that must be so: were it otherwise, "any extensive hæmorrhage could hardly fail to be fatal". A vein's darker colour is the share that has been reduced, and the lungs restore it. That is still the explanation: a pulse oximeter clipped to a finger works because oxygenated and reduced hemoglobin absorb red and infrared light differently. What goes wrong with the molecule, and what it looks like, are the next two frames.

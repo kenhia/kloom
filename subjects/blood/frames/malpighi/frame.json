@@ -1,0 +1,94 @@
+{
+	"id": "malpighi",
+	"topic": "Malpighi's capillaries",
+	"position": {
+		"label": "1661",
+		"sort": 1661
+	},
+	"scene": {
+		"headline": "We saw the circuit",
+		"accent": "CLOSED.",
+		"palette": "folio",
+		"illustration": "scene.svg",
+		"metadata": ["BOLOGNA · MARCELLO MALPIGHI", "TWO LETTERS TO BORELLI · THE LUNG OF A FROG"],
+		"counter": {
+			"value": "c. 420",
+			"label": "years after Ibn al-Nafis reasoned the passages must exist"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "De pulmonibus observationes anatomicae",
+			"authors": [
+				{
+					"family": "Malpighi",
+					"given": "Marcello"
+				}
+			],
+			"publisher": "Giovanni Battista Ferroni",
+			"place": "Bologna",
+			"published": "1661",
+			"language": "la",
+			"url": "https://archive.org/details/bub_gb_oivCmt0NzbQC",
+			"accessed": "2026-10-01",
+			"note": "The two letters to Borelli: the injections in a dog's lung in the first, the frog and the way to see it in the second; the reading's translations are ours"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marcello Malpighi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marcello_Malpighi&oldid=1371966504",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Capillary",
+			"url": "https://en.wikipedia.org/w/index.php?title=Capillary&oldid=1342754630",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-10"
+		},
+		{
+			"kind": "media",
+			"title": "Marcello Malpighi, De pulmonibus observationes anatomicae: figures I and II, the lungs of a frog",
+			"url": "https://commons.wikimedia.org/wiki/File:Marcello_Malpighi,_De_pulmonibus_observation_Wellcome_L0031660.jpg",
+			"accessed": "2026-10-01",
+			"container": "Marcello Malpighi, De pulmonibus observationes anatomicae (Bologna, 1661); Wellcome Collection, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "frog-lungs-1661.jpg",
+			"authors": [
+				{
+					"family": "Malpighi",
+					"given": "Marcello"
+				}
+			],
+			"published": "1661"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/harvey",
+			"why": "Malpighi saw in a frog's lung the vessels joining artery to vein that Harvey's circuit needed and Harvey never saw."
+		},
+		{
+			"to": "blood/ibn-al-nafis",
+			"why": "The network Malpighi saw in a frog's lung is the passage between the pulmonary artery and the pulmonary vein that Ibn al-Nafis reasoned must exist, some four hundred years before anyone could see it."
+		}
+	]
+}

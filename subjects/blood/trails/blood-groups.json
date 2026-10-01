@@ -1,0 +1,15 @@
+{
+	"id": "blood-groups",
+	"title": "Beyond ABO",
+	"anchor": "abo",
+	"spine": {
+		"segments": [
+			{
+				"id": "groups",
+				"title": "More groups, more uses",
+				"labelKind": "date",
+				"frames": ["forensic-typing", "bernstein", "more-antigens", "bombay", "hla"]
+			}
+		]
+	}
+}

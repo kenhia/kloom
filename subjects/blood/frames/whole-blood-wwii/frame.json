@@ -1,0 +1,107 @@
+{
+	"id": "whole-blood-wwii",
+	"topic": "Whole blood in the Second World War",
+	"position": { "label": "1944", "sort": 1944 },
+	"scene": {
+		"headline": "We sent blood by",
+		"accent": "AIR.",
+		"palette": "maroon",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW YORK · PRESTWICK · SALISBURY · FRANCE",
+			"GROUP O · ALSEVER'S SOLUTION · 21 DAYS"
+		],
+		"counter": { "value": "201,105", "label": "pints flown to Europe, August 1944 to May 1945" }
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Blood Program in World War II",
+			"authors": [{ "family": "Kendrick", "given": "Douglas B." }],
+			"container": "Medical Department, United States Army in World War II",
+			"publisher": "Office of The Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://achh.army.mil/history/book-wwii-blood-default",
+			"accessed": "2026-10-01",
+			"note": "Chapters III (Churchill), VI and X (donors, collection, screening), VIII and IX (refrigeration, Alsever's and ACD), XVI (the European theater: the airlift, table 20 and the losses) and XVII (the Pacific)"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Alsever's solution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alsever's_solution&oldid=1374762568",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edward Delos Churchill",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edward_Delos_Churchill&oldid=1256269114",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Ramsey Hawley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Ramsey_Hawley&oldid=1353244538",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood transfusion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_transfusion&oldid=1377205322",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Marmite can, opened to show whole blood packed in ice for shipment to 120th Evacuation Hospital, June 1944",
+			"url": "https://archive.org/details/0014773.nlm.nih.gov/page/n575/mode/1up",
+			"accessed": "2026-10-01",
+			"container": "US Army photograph, in Kendrick, Blood Program in World War II (1964), figure 120, p. 534; the National Library of Medicine's copy, cropped",
+			"licence": "Public domain",
+			"file": "marmite-can.jpg",
+			"published": "1944-06"
+		},
+		{
+			"kind": "media",
+			"title": "Whole blood flown to the European theater each month, August 1944 to May 1945 (chart)",
+			"url": "https://achh.army.mil/history/book-wwii-blood-chapter16",
+			"accessed": "2026-10-01",
+			"container": "Chart drawn for kloom from Kendrick, Blood Program in World War II, table 20",
+			"licence": "MIT",
+			"file": "airlift.svg",
+			"authors": [{ "name": "kloom contributors" }],
+			"published": "2026"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/segregated-blood",
+			"why": "The blood the Red Cross collected and labelled by the donor's race was the blood of this programme."
+		},
+		{
+			"to": "blood/robertson-depot",
+			"why": "Group O blood in a citrate–glucose solution, kept cold and flown to the front, carried Robertson's 1917 depot to a whole theatre of war."
+		},
+		{
+			"to": "chemistry/penicillin",
+			"why": "By D-day the Army had a daily airlift to France for blood, penicillin and other biologicals, carrying the drug that the new deep-tank plants had begun to make in quantity that year."
+		}
+	]
+}

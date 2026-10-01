@@ -1,0 +1,253 @@
+{
+	"id": "fractionation",
+	"topic": "Cohn's plasma fractionation",
+	"position": {
+		"label": "1941",
+		"sort": 1941
+	},
+	"scene": {
+		"headline": "We split plasma into",
+		"accent": "FRACTIONS.",
+		"palette": "cryo",
+		"illustration": "scene.svg",
+		"metadata": ["HARVARD MEDICAL SCHOOL · EDWIN J. COHN", "ETHANOL · pH · SALT · PROTEIN · COLD"],
+		"counter": {
+			"value": "100 mL",
+			"label": "of 25% albumin, the equal of 500 mL of plasma"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The History of Plasma Fractionation",
+			"authors": [
+				{
+					"family": "Cohn",
+					"given": "Edwin J."
+				}
+			],
+			"container": "Advances in Military Medicine, Made by American Investigators Working under the Sponsorship of the Committee on Medical Research, vol. 1",
+			"editors": [
+				{
+					"family": "Andrus",
+					"given": "E. C."
+				},
+				{
+					"family": "Bronk",
+					"given": "D. W."
+				},
+				{
+					"family": "Carden",
+					"given": "G. A., Jr."
+				},
+				{
+					"family": "Keefer",
+					"given": "C. S."
+				},
+				{
+					"family": "Lockwood",
+					"given": "J. S."
+				},
+				{
+					"family": "Wearn",
+					"given": "J. T."
+				},
+				{
+					"family": "Winternitz",
+					"given": "M. C."
+				}
+			],
+			"pages": "364–443",
+			"publisher": "Little, Brown",
+			"place": "Boston",
+			"published": "1948",
+			"url": "https://archive.org/details/32430610RX1.nlm.nih.gov",
+			"accessed": "2026-10-01",
+			"note": "Chapter XXVIII: the five variables, Method 6 (pp. 386–390), table III, osmotic equivalence (p. 399) and Pearl Harbor (p. 374)"
+		},
+		{
+			"kind": "article",
+			"title": "Preparation and Properties of Serum and Plasma Proteins. IV. A System for the Separation into Fractions of the Protein and Lipoprotein Components of Biological Tissues and Fluids",
+			"authors": [
+				{
+					"family": "Cohn",
+					"given": "E. J."
+				},
+				{
+					"family": "Strong",
+					"given": "L. E."
+				},
+				{
+					"family": "Hughes",
+					"given": "W. L., Jr."
+				},
+				{
+					"family": "Mulford",
+					"given": "D. J."
+				},
+				{
+					"family": "Ashworth",
+					"given": "J. N."
+				},
+				{
+					"family": "Melin",
+					"given": "M."
+				},
+				{
+					"family": "Taylor",
+					"given": "H. L."
+				}
+			],
+			"container": "Journal of the American Chemical Society",
+			"volume": "68",
+			"issue": "3",
+			"pages": "459–475",
+			"published": "1946",
+			"doi": "10.1021/ja01207a034",
+			"accessed": "2026-10-01",
+			"citedIn": "Cohn, “The History of Plasma Fractionation” (1948), pp. 386–390 and table III"
+		},
+		{
+			"kind": "chapter",
+			"title": "Blood Substitutes",
+			"authors": [
+				{
+					"family": "Janeway",
+					"given": "Charles A."
+				},
+				{
+					"family": "Oncley",
+					"given": "J. L."
+				}
+			],
+			"container": "Advances in Military Medicine, Made by American Investigators Working under the Sponsorship of the Committee on Medical Research, vol. 1",
+			"editors": [
+				{
+					"family": "Andrus",
+					"given": "E. C."
+				},
+				{
+					"family": "Bronk",
+					"given": "D. W."
+				},
+				{
+					"family": "Carden",
+					"given": "G. A., Jr."
+				},
+				{
+					"family": "Keefer",
+					"given": "C. S."
+				},
+				{
+					"family": "Lockwood",
+					"given": "J. S."
+				},
+				{
+					"family": "Wearn",
+					"given": "J. T."
+				},
+				{
+					"family": "Winternitz",
+					"given": "M. C."
+				}
+			],
+			"publisher": "Little, Brown",
+			"place": "Boston",
+			"published": "1948",
+			"url": "https://archive.org/details/32430610RX1.nlm.nih.gov",
+			"accessed": "2026-10-01",
+			"note": "Chapter XXIX: the Red Cross donations processed to plasma and albumin"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Blood Program in World War II",
+			"authors": [
+				{
+					"family": "Kendrick",
+					"given": "Douglas B."
+				}
+			],
+			"container": "Medical Department, United States Army in World War II",
+			"publisher": "Office of the Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://apps.dtic.mil/sti/citations/ADA286756",
+			"accessed": "2026-10-01",
+			"note": "Chapter XII, the albumin program and Ravdin's report from Pearl Harbor (pp. 325–349); the Army-Navy albumin package (pp. 198–199). Read in the Internet Archive's scan of DTIC ADA286756"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cohn process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cohn_process&oldid=1316322388",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edwin Joseph Cohn",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edwin_Joseph_Cohn&oldid=1371989752",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Human serum albumin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Human_serum_albumin&oldid=1372232528",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "media",
+			"title": "Standard Army-Navy serum albumin package, contents removed from the can (Figure 54C)",
+			"url": "https://apps.dtic.mil/sti/citations/ADA286756",
+			"accessed": "2026-10-01",
+			"container": "Douglas B. Kendrick, Blood Program in World War II (1964), p. 199",
+			"authors": [
+				{
+					"name": "US Army Medical Department"
+				}
+			],
+			"published": "1964",
+			"licence": "Public domain (work of the US Army)",
+			"file": "army-navy-albumin.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Protein in each Cohn fraction",
+			"url": "https://archive.org/details/32430610RX1.nlm.nih.gov",
+			"accessed": "2026-10-01",
+			"container": "Drawn for kloom from Cohn, “The History of Plasma Fractionation” (1948), table III",
+			"licence": "MIT",
+			"file": "fractions.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/hepatitis",
+			"why": "Heat-treated albumin carried no serum hepatitis; other pooled plasma products did."
+		}
+	]
+}

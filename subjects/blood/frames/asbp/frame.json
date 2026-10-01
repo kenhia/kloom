@@ -1,0 +1,107 @@
+{
+	"id": "asbp",
+	"topic": "The Armed Services Blood Program",
+	"position": { "label": "1962", "sort": 1962 },
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "We kept a blood bank in",
+		"accent": "UNIFORM.",
+		"palette": "maroon",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ARMY · NAVY · AIR FORCE",
+			"DONOR CENTRE · PROCESSING LABORATORY · TRANSSHIPMENT · SUPPLY UNIT"
+		],
+		"counter": {
+			"value": "1.5 million",
+			"label": "units provided since the Korean War, by the Army's count in 2017"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Armed Services Blood Program: Joint Blood Program Handbook",
+			"number": "TM 8-227-12, NAVMED P-6530, AFH 44-152_IP",
+			"publisher": "Headquarters, Departments of the Army, the Navy, and the Air Force",
+			"place": "Washington, DC",
+			"published": "2011-12-01",
+			"url": "https://www.generalstaff.org/BBOW/LOV-DUP/ARN18580_TM08-227-12_FINAL.pdf",
+			"accessed": "2026-10-01",
+			"note": "Chapters 1–4 and appendixes D–F: the chain, the offices, the shelf lives, the planning factors and the shipping; read in the copy at generalstaff.org"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Military Blood Program",
+			"authors": [{ "family": "Neel", "given": "Spurgeon" }],
+			"container": "Medical Support of the U.S. Army in Vietnam, 1965–1970",
+			"publisher": "Department of the Army",
+			"place": "Washington, DC",
+			"published": "1973",
+			"url": "https://achh.army.mil/history/book-vietnam-medicalsupport-chapter9/",
+			"accessed": "2026-10-01",
+			"note": "Chapter IX: the Military Blood Program Agency of 17 July 1962 and the McGuire laboratory"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Blood, Plasma, and Related Programs in the Korean War",
+			"authors": [{ "family": "Kendrick", "given": "Douglas B." }],
+			"container": "Blood Program in World War II",
+			"publisher": "Office of The Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://achh.army.mil/history/book-wwii-blood-chapter20",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Armed Services Blood Program Explains Department of Defense Rules for Blood Donations",
+			"container": "U.S. Army",
+			"publisher": "United States Army",
+			"published": "2007-08-03",
+			"url": "https://www.army.mil/article/4291/armed_services_blood_program_explains_department_of_defense_rules_for_blood_donations",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Where Does Your Blood Go",
+			"container": "U.S. Army",
+			"publisher": "United States Army",
+			"published": "2017-03-24",
+			"url": "https://www.army.mil/article/184910/where_does_your_blood_go",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Travis Puts New Face on Blood Program",
+			"container": "Air Force Print News",
+			"publisher": "United States Air Force",
+			"published": "2003-07-25",
+			"url": "https://www.af.mil/News/Article-Display/Article/138810/travis-puts-new-face-on-blood-program/",
+			"accessed": "2026-10-01",
+			"note": "Read in the Wayback Machine's copy"
+		},
+		{
+			"kind": "media",
+			"title": "Hospital Corpsman 2nd Class Renulfo Moralesa, a lab technician aboard the hospital ship USNS Mercy (T-AH 19), deglycerolizes a frozen pack of red blood cells",
+			"url": "https://commons.wikimedia.org/wiki/File:US_Navy_050217-N-6665R-007_Hospital_Corpsman_2nd_Class_Renulfo_Moralesa,_a_lab_technician_aboard_the_Military_Sealift_Command_(MSC)_hospital_ship_USNS_Mercy_(T-AH_19),_deglyces_a_frozen_pack_of_red_blood_cells.jpg",
+			"accessed": "2026-10-01",
+			"container": "United States Navy photograph 050217-N-6665R-007, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "deglycerolizing.jpg",
+			"authors": [{ "family": "Russell", "given": "Jeffery" }],
+			"published": "2005-02-17"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/walking-blood-bank",
+			"why": "The joint handbook sets out the fresh whole blood protocol the walking blood bank follows."
+		},
+		{
+			"to": "blood/vietnam-blood",
+			"why": "The Military Blood Program Agency of 1962 answered Vietnam's call for a thousand units a week."
+		}
+	]
+}

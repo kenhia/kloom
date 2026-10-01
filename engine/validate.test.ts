@@ -81,6 +81,30 @@ describe('validate', () => {
 		}
 	});
 
+	it('takes an optional dedication: a name with a line above it and, optionally, one below', () => {
+		const r = raw();
+		const scene = (r.frames.b.frame as Loose).scene;
+		scene.dedication = {
+			kicker: 'Dedicated to',
+			name: 'Colonel A. B. Smith, USA',
+			note: 'Retired'
+		};
+		expect(validate(r)).toEqual([]);
+		delete scene.dedication.note;
+		expect(validate(r)).toEqual([]);
+		for (const bad of [
+			'Smith',
+			{ name: 'Smith' },
+			{ kicker: 'To', name: '  ' },
+			{ kicker: 'To', name: 'Smith', note: 3 }
+		]) {
+			scene.dedication = bad;
+			expect(validate(r)).toEqual([
+				'frames/b: scene.dedication needs a kicker and a name, and a note only as text'
+			]);
+		}
+	});
+
 	it('takes an asOf month or day on a time-sensitive frame, and nothing else', () => {
 		const r = raw();
 		(r.frames.a.frame as Loose).asOf = '2026-09';

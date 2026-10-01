@@ -1,0 +1,146 @@
+{
+	"id": "warfarin",
+	"topic": "Sweet clover and warfarin",
+	"position": {
+		"label": "1933–48",
+		"sort": 1940
+	},
+	"scene": {
+		"headline": "We turned rat poison into a",
+		"accent": "PILL.",
+		"palette": "cryo",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MADISON, WISCONSIN · KARL PAUL LINK",
+			"SPOILED SWEET CLOVER · DICUMAROL · WARFARIN · VITAMIN K"
+		],
+		"counter": {
+			"value": "6 mg",
+			"label": "of crystals, after six years: dicumarol, June 1939"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Discovery of Dicumarol and Its Sequels",
+			"authors": [
+				{
+					"family": "Link",
+					"given": "Karl Paul"
+				}
+			],
+			"container": "Circulation",
+			"volume": "19",
+			"issue": "1",
+			"pages": "97–107",
+			"published": "1959-01",
+			"doi": "10.1161/01.CIR.19.1.97",
+			"url": "https://www.ahajournals.org/doi/10.1161/01.CIR.19.1.97",
+			"accessed": "2026-10-01",
+			"note": "Link's own telling, given in 1958: Carlson's visit, Campbell's bioassay, the crystals, warfarin's name, the 1951 inductee and Eisenhower"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Study in Scarlet",
+			"authors": [
+				{
+					"family": "Rajagopalan",
+					"given": "Ramya"
+				}
+			],
+			"container": "Distillations",
+			"volume": "4",
+			"issue": "1",
+			"pages": "26–35",
+			"publisher": "Science History Institute",
+			"published": "2018",
+			"url": "https://www.sciencehistory.org/stories/magazine/a-study-in-scarlet/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Hemorrhagic Sweet Clover Disease, Dicumarol, and Warfarin: The Work of Karl Paul Link",
+			"authors": [
+				{
+					"family": "Kresge",
+					"given": "Nicole"
+				},
+				{
+					"family": "Simoni",
+					"given": "Robert D."
+				},
+				{
+					"family": "Hill",
+					"given": "Robert L."
+				}
+			],
+			"container": "Journal of Biological Chemistry",
+			"volume": "280",
+			"issue": "8",
+			"pages": "e6–e7",
+			"published": "2005-02-25",
+			"doi": "10.1016/S0021-9258(19)62862-0",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Warfarin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Warfarin&oldid=1368670593",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Karl Paul Link",
+			"url": "https://en.wikipedia.org/w/index.php?title=Karl_Paul_Link&oldid=1372466578",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dicoumarol",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dicoumarol&oldid=1329250023",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-24"
+		},
+		{
+			"kind": "media",
+			"title": "Micro-combustion apparatus, E. H. Sargent & Co., Chicago, c. 1940, used by Dr. Karl Paul Link to isolate dicoumarol, which led to Warfarin",
+			"url": "https://commons.wikimedia.org/wiki/File:Micro-combustion_apparatus,_E._H._Sargent_%26_Co.,_Chicago,_c._1940,_used_by_Dr._Karl_Paul_Link_to_isolate_dicoumarol,_which_led_to_Warfarin_-_Wisconsin_Historical_Museum_-_DSC03376.JPG",
+			"accessed": "2026-10-01",
+			"container": "Wisconsin Historical Museum, Madison, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "link-combustion.jpg",
+			"authors": [
+				{
+					"name": "Daderot"
+				}
+			],
+			"published": "2013-07-24"
+		}
+	]
+}

@@ -43,7 +43,9 @@ npx prettier --write subjects/ai
   `DIR/.names`, into which `--drafts DIR` (repeatable) merges an author's
   name drafts, so marks on names not yet added validate (sprint 021: since
   connections arrived in sprint 017, a copy without them failed every
-  author). `--only FRAME …` keeps only those frames and the ones already
+  author). Where two drafts directories hold one id differently, the last
+  passed wins and a warning names both (sprint 028, where a draft lost its
+  `home` that way unseen). `--only FRAME …` keeps only those frames and the ones already
   committed, so another author's half-written frame cannot fail this
   one's check, and a draft's `home` on a frame not in the copy is dropped
   (sprint 021). "Committed" is what git tracks, so while a reviewer commits

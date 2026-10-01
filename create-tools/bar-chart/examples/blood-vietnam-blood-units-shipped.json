@@ -1,0 +1,26 @@
+{
+	"title": "Units of whole blood shipped to Vietnam each year by the 406th Medical Laboratory, 1966 to 1970",
+	"description": "Bar chart of the units of whole blood shipped to the central blood bank in Vietnam by the 406th Medical Laboratory in Japan, blood collected in the United States and in the Pacific: 1966, 115,869; 1967, 213,022; 1968, 351,519; 1969, 348,409; 1970 (January to November), 59,175. Total 1,087,994. Data: Neel, Medical Support of the U.S. Army in Vietnam 1965-1970 (1973), table 9.",
+	"heading": "UNITS SHIPPED TO VIETNAM · NEEL, TABLE 9",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"max": 400000,
+		"ticks": [
+			[0, "0"],
+			[100000, "100,000"],
+			[200000, "200,000"],
+			[300000, "300,000"],
+			[400000, "400,000"]
+		]
+	},
+	"bars": [
+		{ "label": "1966", "value": 115869, "display": "115,869" },
+		{ "label": "1967", "value": 213022, "display": "213,022" },
+		{ "label": "1968", "value": 351519, "display": "351,519", "highlight": true },
+		{ "label": "1969", "value": 348409, "display": "348,409" },
+		{ "label": "1970", "sublabel": "to Nov", "value": 59175, "display": "59,175" }
+	]
+}

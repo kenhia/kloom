@@ -134,6 +134,16 @@ class MarkCheck(unittest.TestCase):
         self.assertIn('aristotle.json is already in the registry', r.stderr)
         self.assertIn('Q868 is already names/aristotle.json', r.stderr)
 
+    def test_counts_rather_than_names_stale_drafts_the_specs_do_not_mark(self):
+        drafts = os.path.join(self.dir, 'drafts')
+        os.makedirs(drafts)
+        self.write(os.path.join(self.dir, 'names', 'plato.json'), {'id': 'plato', 'wikidata': 'Q859'})
+        self.write(os.path.join(drafts, 'plato.json'), {'id': 'plato', 'wikidata': 'Q859'})
+        r = self.mark('--check', '--drafts', drafts)
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertNotIn('plato.json is already in the registry', r.stderr)
+        self.assertIn('1 other drafts passed with --drafts are already in the registry', r.stderr)
+
 
 if __name__ == '__main__':
     unittest.main()

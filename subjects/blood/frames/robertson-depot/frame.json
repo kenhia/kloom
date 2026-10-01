@@ -1,0 +1,235 @@
+{
+	"id": "robertson-depot",
+	"topic": "The first blood depot",
+	"position": {
+		"label": "1917",
+		"sort": 1917
+	},
+	"scene": {
+		"headline": "We laid blood down on",
+		"accent": "ICE.",
+		"palette": "vein",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CASUALTY CLEARING STATIONS · BRITISH THIRD ARMY",
+			"CAPT. OSWALD H. ROBERTSON · GROUP O · ROUS–TURNER SOLUTION"
+		],
+		"counter": {
+			"value": "22",
+			"label": "transfusions of stored blood, given to 20 wounded men"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Transfusion with Preserved Red Blood Cells",
+			"authors": [
+				{
+					"family": "Robertson",
+					"given": "Oswald H."
+				}
+			],
+			"container": "British Medical Journal",
+			"volume": "1",
+			"issue": "2999",
+			"pages": "691–695",
+			"published": "1918-06-22",
+			"doi": "10.1136/bmj.1.2999.691",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2340627/",
+			"accessed": "2026-10-01",
+			"note": "The method, the apparatus and the 22 transfusions"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Preservation of Living Red Blood Cells in Vitro. II. The Transfusion of Kept Cells",
+			"authors": [
+				{
+					"family": "Rous",
+					"given": "Peyton"
+				},
+				{
+					"family": "Turner",
+					"given": "J. R."
+				}
+			],
+			"container": "Journal of Experimental Medicine",
+			"volume": "23",
+			"issue": "2",
+			"pages": "239–248",
+			"published": "1916-02",
+			"doi": "10.1084/jem.23.2.239",
+			"accessed": "2026-10-01",
+			"note": "The 3 : 2 : 5 recipe is in footnote 5"
+		},
+		{
+			"kind": "article",
+			"title": "The Preservation of Living Red Blood Cells in Vitro. I. Methods of Preservation",
+			"authors": [
+				{
+					"family": "Rous",
+					"given": "Peyton"
+				},
+				{
+					"family": "Turner",
+					"given": "J. R."
+				}
+			],
+			"container": "Journal of Experimental Medicine",
+			"volume": "23",
+			"issue": "2",
+			"pages": "219–237",
+			"published": "1916-02",
+			"doi": "10.1084/jem.23.2.219",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Historical Note",
+			"authors": [
+				{
+					"family": "Kendrick",
+					"given": "Douglas B."
+				}
+			],
+			"container": "Blood Program in World War II",
+			"publisher": "Office of the Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://history.amedd.army.mil/booksdocs/wwii/blood/chapter1.htm",
+			"accessed": "2026-10-01",
+			"note": "Robertson at Cambrai is on p. 5"
+		},
+		{
+			"kind": "chapter",
+			"title": "Preservative Solutions",
+			"authors": [
+				{
+					"family": "Kendrick",
+					"given": "Douglas B."
+				}
+			],
+			"container": "Blood Program in World War II",
+			"publisher": "Office of the Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://history.amedd.army.mil/booksdocs/wwii/blood/chapter9.htm",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "chapter",
+			"title": "Oswald Hope Robertson, 1886–1966",
+			"authors": [
+				{
+					"family": "Coggeshall",
+					"given": "L. T."
+				}
+			],
+			"container": "Biographical Memoirs of the National Academy of Sciences",
+			"publisher": "National Academy of Sciences",
+			"place": "Washington, DC",
+			"published": "1971",
+			"url": "http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/robertson-oswald.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oswald Hope Robertson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oswald_Hope_Robertson&oldid=1366042017",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood transfusion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_transfusion&oldid=1377205322",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood bank",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_bank&oldid=1374046641",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Battle of Cambrai (1917)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Battle_of_Cambrai_(1917)&oldid=1371945701",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Casualty Clearing Station",
+			"url": "https://en.wikipedia.org/w/index.php?title=Casualty_Clearing_Station&oldid=1335399567",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-29"
+		},
+		{
+			"kind": "media",
+			"title": "Fig. 1, the bleeding bottle, from Robertson's “Transfusion with Preserved Red Blood Cells”",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2340627/",
+			"accessed": "2026-10-01",
+			"container": "British Medical Journal 1, no. 2999 (22 June 1918): 692",
+			"licence": "Public domain (United States)",
+			"file": "robertson-bleeding-bottle.jpg",
+			"authors": [
+				{
+					"family": "Robertson",
+					"given": "Oswald H."
+				}
+			],
+			"published": "1918-06-22"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/blood-banks",
+			"why": "Robertson's store of blood on ice was the forerunner of the blood bank."
+		},
+		{
+			"to": "blood/abo",
+			"why": "Robertson took only group O donors, whose cells, he wrote, are clumped by no one's blood: Landsteiner's groups put to work at the front."
+		}
+	]
+}

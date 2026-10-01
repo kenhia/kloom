@@ -35,9 +35,15 @@ PD-old-100`), since "Public domain" hides which: `PD-Art` covers only
     ("AnonymousUnknown author", 不明, unbekannt), "Own work", or a
     scanner's make. It says when it left the author out, and when it
     wrote a `name` you may need to split;
+  - **organisations** (an institution, a centre, a college, a studio of
+    two partners) are written as a `name`, and the Google Art Project's
+    link text and Wikidata template text are dropped from the author and
+    the title (sprint 028);
   - **the date**, with `circa` for "c." or "circa", and a date BC as
     `"1504 BC"`, the form `published` takes since sprint 027 (sprint 026
-    found "c. 1504 BC" written as AD 1504).
+    found "c. 1504 BC" written as AD 1504). A span ("1941-01-01/1945-12-31")
+    is written as circa its first year, with a warning to check it (sprint
+    028 found one written as an exact day).
 - **`--page N`** takes one page of a PDF or DjVu on Commons as a JPEG (a
   scanned book's plate), named `<short-name>-pN.jpg`, and cites the file
   page with `?page=N`.

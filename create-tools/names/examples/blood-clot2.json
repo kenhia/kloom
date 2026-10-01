@@ -1,0 +1,30 @@
+{
+	"blood/warfarin": [
+		["Karl Paul Link", "karl-paul-link"],
+		["prothrombin time", "prothrombin-time"],
+		["dicumarol", "dicoumarol"],
+		["Wisconsin Alumni Research Foundation", "wisconsin-alumni-research-foundation"],
+		["warfarin", "warfarin"],
+		["vitamin K", "vitamin-k"],
+		["Fitzsimons Army Hospital", "fitzsimons-army-medical-center"],
+		["Dwight D. Eisenhower", "dwight-d-eisenhower"]
+	],
+	"blood/hemophilia-hiv": [
+		["Centers for Disease Control", "centers-for-disease-control-and-prevention"],
+		["hemophilia", "haemophilia"],
+		["factor VIII", "factor-viii"],
+		["HIV", "hiv"],
+		["cryoprecipitate", "cryoprecipitate"],
+		["Infected Blood Inquiry", "infected-blood-scandal-in-the-united-kingdom"],
+		["hepatitis C", "hepatitis-c"]
+	],
+	"blood/recombinant-factor": [
+		["factor VIII", "factor-viii"],
+		["Genentech", "genentech"],
+		["hemophilia", "haemophilia"],
+		["Genetics Institute", "genetics-institute"],
+		["Chinese hamster ovary cells", "chinese-hamster-ovary-cell"],
+		["emicizumab", "emicizumab"],
+		["Valoctocogene roxaparvovec", "valoctocogene-roxaparvovec"]
+	]
+}

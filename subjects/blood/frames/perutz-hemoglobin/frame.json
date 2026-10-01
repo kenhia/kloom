@@ -1,0 +1,139 @@
+{
+	"id": "perutz-hemoglobin",
+	"topic": "Perutz and hemoglobin's structure",
+	"position": {
+		"label": "1959",
+		"sort": 1959
+	},
+	"scene": {
+		"headline": "We watched the molecule",
+		"accent": "BREATHE.",
+		"palette": "anatomy",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAVENDISH LABORATORY · CAMBRIDGE · MAX PERUTZ",
+			"HORSE HEMOGLOBIN · MERCURY · 5.5 Å"
+		],
+		"counter": {
+			"value": "22",
+			"label": "years from the first photographs to the 1959 model"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "X-ray Analysis of Haemoglobin: Nobel Lecture, December 11, 1962",
+			"authors": [
+				{
+					"family": "Perutz",
+					"given": "Max F."
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1962-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/perutz-lecture.pdf",
+			"accessed": "2026-10-01",
+			"note": "The phase problem and heavy atoms, pp. 657–659; the four chains and the 7 Å shift, pp. 662–668"
+		},
+		{
+			"kind": "article",
+			"title": "The Structure of Haemoglobin. IV. Sign Determination by the Isomorphous Replacement Method",
+			"authors": [
+				{
+					"family": "Green",
+					"given": "D. W."
+				},
+				{
+					"family": "Ingram",
+					"given": "V. M."
+				},
+				{
+					"family": "Perutz",
+					"given": "M. F."
+				}
+			],
+			"container": "Proceedings of the Royal Society of London. Series A",
+			"volume": "225",
+			"issue": "1162",
+			"pages": "287–307",
+			"published": "1954",
+			"doi": "10.1098/rspa.1954.0203",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Max Perutz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Max_Perutz&oldid=1374213793",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isomorphous replacement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isomorphous_replacement&oldid=1369735194",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "article",
+			"title": "Sickle Cell Anaemia and Malaria",
+			"authors": [
+				{
+					"family": "Luzzatto",
+					"given": "Lucio"
+				}
+			],
+			"container": "Mediterranean Journal of Hematology and Infectious Diseases",
+			"volume": "4",
+			"issue": "1",
+			"pages": "e2012065",
+			"published": "2012",
+			"doi": "10.4084/MJHID.2012.065",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "Max F. Perutz at the opening of the 36th meeting of chemists, 30 June 1986",
+			"url": "https://commons.wikimedia.org/wiki/File:36._Tagung_1986_Chemiker;_Er%C3%B6ffnung_30.6.1986-_Max_F._Perutz_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._125206e.jpeg",
+			"accessed": "2026-10-01",
+			"container": "Landesarchiv Baden-Württemberg, Staatsarchiv Freiburg, W 134 Nr. 125206e, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "perutz-1986.jpg",
+			"authors": [
+				{
+					"family": "Pragher",
+					"given": "Willy"
+				}
+			],
+			"published": "1986-06-30"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/protein-structure",
+			"why": "The heavy-atom method that Perutz showed in 1953, binding mercury into the protein crystal to give each X-ray reflection its phase, is what let both his hemoglobin and Kendrew's myoglobin be seen."
+		},
+		{
+			"to": "chemistry/crystallography",
+			"why": "Perutz's hemoglobin was Bragg's crystallography carried to a molecule of 10,000 atoms, in the Cavendish Laboratory that Lawrence Bragg ran and with his backing for two decades."
+		}
+	]
+}

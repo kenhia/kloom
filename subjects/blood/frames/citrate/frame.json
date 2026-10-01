@@ -1,0 +1,243 @@
+{
+	"id": "citrate",
+	"topic": "Citrate and stored blood",
+	"position": {
+		"label": "1914–16",
+		"sort": 1914
+	},
+	"scene": {
+		"headline": "We held the clot with",
+		"accent": "SALT.",
+		"palette": "plasma",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BRUSSELS · BUENOS AIRES · NEW YORK",
+			"HUSTIN · AGOTE · WEIL · LEWISOHN · ROUS AND TURNER"
+		],
+		"counter": {
+			"value": "0.2%",
+			"label": "sodium citrate, Lewisohn's dose to keep blood liquid"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A New and Greatly Simplified Method of Blood Transfusion: A Preliminary Report",
+			"authors": [
+				{
+					"family": "Lewisohn",
+					"given": "Richard"
+				}
+			],
+			"container": "Medical Record",
+			"volume": "87",
+			"issue": "4",
+			"pages": "141–142",
+			"published": "1915-01-23",
+			"url": "https://archive.org/details/medicalrecordjou87newyuoft",
+			"accessed": "2026-10-01",
+			"note": "The rack of tubes is on p. 142; his letter in the issue of 30 January (p. 195) warns of Weil's dose"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Sodium Citrate in the Transfusion of Blood",
+			"authors": [
+				{
+					"family": "Weil",
+					"given": "Richard"
+				}
+			],
+			"container": "Journal of the American Medical Association",
+			"volume": "64",
+			"issue": "5",
+			"pages": "425–426",
+			"published": "1915-01-30",
+			"url": "https://archive.org/details/sim_jama_1915-01-30_64_5_0",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Preservative Solutions",
+			"authors": [
+				{
+					"family": "Kendrick",
+					"given": "Douglas B."
+				}
+			],
+			"container": "Blood Program in World War II",
+			"publisher": "Office of the Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://history.amedd.army.mil/booksdocs/wwii/blood/chapter9.htm",
+			"accessed": "2026-10-01",
+			"note": "Hustin, Braxton Hicks, Lewisohn's 5 grams and the chills, pp. 218–219"
+		},
+		{
+			"kind": "article",
+			"title": "The Preservation of Living Red Blood Cells in Vitro. II. The Transfusion of Kept Cells",
+			"authors": [
+				{
+					"family": "Rous",
+					"given": "Peyton"
+				},
+				{
+					"family": "Turner",
+					"given": "J. R."
+				}
+			],
+			"container": "Journal of Experimental Medicine",
+			"volume": "23",
+			"issue": "2",
+			"pages": "239–248",
+			"published": "1916-02",
+			"doi": "10.1084/jem.23.2.239",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "The Preservation of Living Red Blood Cells in Vitro. I. Methods of Preservation",
+			"authors": [
+				{
+					"family": "Rous",
+					"given": "Peyton"
+				},
+				{
+					"family": "Turner",
+					"given": "J. R."
+				}
+			],
+			"container": "Journal of Experimental Medicine",
+			"volume": "23",
+			"issue": "2",
+			"pages": "219–237",
+			"published": "1916-02",
+			"doi": "10.1084/jem.23.2.219",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Luis Agote",
+			"url": "https://es.wikipedia.org/w/index.php?title=Luis_Agote&oldid=171374553",
+			"language": "es",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Luis Agote",
+			"url": "https://en.wikipedia.org/w/index.php?title=Luis_Agote&oldid=1370761104",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Albert Hustin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Albert_Hustin&oldid=1341029842",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Lewisohn",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Lewisohn&oldid=1372463218",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Trisodium citrate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Trisodium_citrate&oldid=1374658643",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anticoagulant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anticoagulant&oldid=1374089610",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Citric acid",
+			"url": "https://en.wikipedia.org/w/index.php?title=Citric_acid&oldid=1376634304",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "Lewisohn's first experiment, from “A New and Greatly Simplified Method of Blood Transfusion”",
+			"url": "https://archive.org/details/medicalrecordjou87newyuoft/page/142/mode/1up",
+			"accessed": "2026-10-01",
+			"container": "Medical Record 87, no. 4 (23 January 1915): 142, via the Internet Archive",
+			"licence": "Public domain",
+			"file": "lewisohn-dose.jpg",
+			"authors": [
+				{
+					"family": "Lewisohn",
+					"given": "Richard"
+				}
+			],
+			"published": "1915-01-23"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/robertson-depot",
+			"why": "Rous and Turner's citrate–glucose solution is what Robertson's depot stored its blood in."
+		}
+	]
+}

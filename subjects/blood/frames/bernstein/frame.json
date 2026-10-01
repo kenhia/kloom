@@ -1,0 +1,168 @@
+{
+	"id": "bernstein",
+	"topic": "Bernstein's three alleles",
+	"position": {
+		"label": "1924",
+		"sort": 1924
+	},
+	"scene": {
+		"headline": "We counted our way to one",
+		"accent": "GENE.",
+		"palette": "vein",
+		"illustration": "scene.svg",
+		"metadata": ["GÖTTINGEN · FELIX BERNSTEIN", "KLINISCHE WOCHENSCHRIFT · 1924"],
+		"counter": {
+			"value": "0.989",
+			"label": "where three alleles predict 1, from 502 people"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Felix Bernstein and the First Human Marker Locus",
+			"authors": [
+				{
+					"family": "Crow",
+					"given": "James F."
+				}
+			],
+			"container": "Genetics",
+			"volume": "133",
+			"issue": "1",
+			"pages": "4–7",
+			"published": "1993",
+			"doi": "10.1093/genetics/133.1.4",
+			"accessed": "2026-10-01",
+			"note": "The two tests worked on Bernstein's 502 Japanese, and Wiener's exceptions"
+		},
+		{
+			"kind": "article",
+			"title": "Ergebnisse einer biostatistischen zusammenfassenden Betrachtung über die erblichen Blutstrukturen des Menschen",
+			"authors": [
+				{
+					"family": "Bernstein",
+					"given": "Felix"
+				}
+			],
+			"container": "Klinische Wochenschrift",
+			"volume": "3",
+			"published": "1924",
+			"language": "de",
+			"accessed": "2026-10-01",
+			"citedIn": "Crow, “Felix Bernstein and the First Human Marker Locus” (1993)",
+			"doi": "10.1007/BF01736255",
+			"pages": "1495–1497"
+		},
+		{
+			"kind": "article",
+			"title": "Zusammenfassende Betrachtungen über die erblichen Blutstrukturen des Menschen",
+			"authors": [
+				{
+					"family": "Bernstein",
+					"given": "Felix"
+				}
+			],
+			"container": "Zeitschrift für induktive Abstammungs- und Vererbungslehre",
+			"volume": "37",
+			"published": "1925",
+			"language": "de",
+			"accessed": "2026-10-01",
+			"citedIn": "Crow, “Felix Bernstein and the First Human Marker Locus” (1993)",
+			"doi": "10.1007/BF01763333",
+			"pages": "237–270"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mendelian Proportions in a Mixed Population",
+			"authors": [
+				{
+					"family": "Hardy",
+					"given": "G. H."
+				}
+			],
+			"container": "Science",
+			"volume": "28",
+			"issue": "706",
+			"pages": "49–50",
+			"published": "1908-07-10",
+			"doi": "10.1126/science.28.706.49",
+			"url": "http://www.esp.org/foundations/genetics/classical/hardy.pdf",
+			"accessed": "2026-10-01",
+			"note": "Read in the Electronic Scholarly Publishing transcription"
+		},
+		{
+			"kind": "book",
+			"title": "Blood Grouping in Relation to Clinical and Legal Medicine",
+			"authors": [
+				{
+					"family": "Snyder",
+					"given": "Laurence H."
+				}
+			],
+			"publisher": "Williams & Wilkins",
+			"place": "Baltimore",
+			"published": "1929",
+			"url": "https://archive.org/details/bloodgroupinginr0000laur",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Felix Bernstein (mathematician)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Felix_Bernstein_(mathematician)&oldid=1372214200",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hardy–Weinberg principle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hardy%E2%80%93Weinberg_principle&oldid=1367629467",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ABO blood group system",
+			"url": "https://en.wikipedia.org/w/index.php?title=ABO_blood_group_system&oldid=1371545206",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ludwik Hirszfeld",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ludwik_Hirszfeld&oldid=1369687389",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		}
+	]
+}

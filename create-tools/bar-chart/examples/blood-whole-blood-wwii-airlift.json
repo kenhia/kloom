@@ -1,0 +1,30 @@
+{
+	"title": "Whole blood flown to the European theater each month, August 1944 to May 1945",
+	"description": "Bar chart of the pints of group O whole blood shipped each month from the United States to the European theater by the Army Whole Blood Procurement Service. August 1944 (from the 21st), 3,581; September, 15,811; October, 16,884; November, 22,769; December, 26,290; January 1945, 28,847; February, 25,268; March, 30,510; April, 24,407; May (to the 10th), 6,738. Total 201,105. Data: Kendrick, Blood Program in World War II (1964), table 20.",
+	"heading": "PINTS FLOWN TO EUROPE EACH MONTH · TABLE 20",
+	"unit": "",
+	"width": 560,
+	"height": 300,
+	"barWidth": 36,
+	"axis": {
+		"max": 35000,
+		"ticks": [
+			[0, "0"],
+			[10000, "10,000"],
+			[20000, "20,000"],
+			[30000, "30,000"]
+		]
+	},
+	"bars": [
+		{ "label": "Aug", "sublabel": "1944", "value": 3581, "display": "3.6k" },
+		{ "label": "Sep", "sublabel": "1944", "value": 15811, "display": "15.8k" },
+		{ "label": "Oct", "sublabel": "1944", "value": 16884, "display": "16.9k" },
+		{ "label": "Nov", "sublabel": "1944", "value": 22769, "display": "22.8k" },
+		{ "label": "Dec", "sublabel": "1944", "value": 26290, "display": "26.3k" },
+		{ "label": "Jan", "sublabel": "1945", "value": 28847, "display": "28.8k" },
+		{ "label": "Feb", "sublabel": "1945", "value": 25268, "display": "25.3k" },
+		{ "label": "Mar", "sublabel": "1945", "value": 30510, "display": "30.5k", "highlight": true },
+		{ "label": "Apr", "sublabel": "1945", "value": 24407, "display": "24.4k" },
+		{ "label": "May", "sublabel": "1945", "value": 6738, "display": "6.7k" }
+	]
+}

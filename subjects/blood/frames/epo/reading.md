@@ -1,0 +1,30 @@
+A healthy adult makes about 200 billion red cells a day, and the number is held within a narrow range by a hormone. When the blood carries too little oxygen, cells in the kidney release **[erythropoietin](kloom:e/erythropoietin)**, EPO; it reaches the bone marrow and keeps young red cells alive and maturing; more red cells carry more oxygen, and the kidney makes less. The sensing cells are fibroblast-like cells between the kidney's tubules, and their sensor, worked out in the 1990s by William Kaelin, Peter Ratcliffe and Gregg Semenza, who shared a Nobel Prize for it in 2019, is a protein, hypoxia-inducible factor: enzymes that need oxygen mark it for destruction, so it survives to switch on the EPO gene only when oxygen runs short. Patients whose kidneys had failed lost the signal and became anaemic. For many of them, before 1989, the treatment was transfusion.
+
+## A hormone in the urine
+
+The hormone had been guessed at since 1906, when the French physicians Paul Carnot and his student Clotilde-Camille Deflandre found that serum from anaemic rabbits raised the red-cell count of normal ones. In 1955 the haematologist Leon Jacobson, at the University of Chicago, set the biochemist **[Eugene Goldwasser](kloom:e/eugene-goldwasser)** to find it. Removing organs from rats one by one, Goldwasser's group showed by 1957 that the factor came from the kidney. Purifying it took twenty more years, because there was so little.
+
+The richest source was the urine of people with aplastic anaemia, whose marrow has failed and whose kidneys pour out the hormone in vain. The National Heart, Lung and Blood Institute ran a centre from 1964 to 1980 that gathered and concentrated such urine from hospitals across the United States. In 1977 Goldwasser, Takaji Miyake and Charles Kung reported that they had purified human erythropoietin from concentrates of about 2,550 litres of it.
+
+| Their procedure                                                                                               | The result                                                                  |
+| ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| seven steps: ion-exchange chromatography, ethanol precipitation, gel filtration and adsorption chromatography | a single band on three kinds of gel; 70,400 units of activity per milligram |
+| the starting material purified 930 times over                                                                 | 21 per cent of the hormone recovered                                        |
+
+A colleague's account puts the pure hormone at 8 milligrams: by our arithmetic, about three micrograms for every litre of urine. Goldwasser gave small amounts to other laboratories in sealed glass tubes, and some went to a company in California.
+
+## The gene in a hamster's cells
+
+That company was **[Amgen](kloom:e/amgen)**, founded in California in 1980. Its team was led by **[Fu-Kuen Lin](kloom:e/fu-kuen-lin)**, a Taiwanese-born scientist who had trained in plant pathology. From fragments of the purified protein's amino-acid sequence they worked backwards to the DNA that could encode them, made mixtures of short probes, 17 and 20 bases long, covering the possible spellings, and used them to fish the human gene out of a library of human DNA. The paper, published in November 1985, described a gene of five exons encoding a mature protein of 166 amino acids. A rival company, the Genetics Institute, had published its own clone in _Nature_ months earlier, and the two companies fought over the patents until a federal appeals court found for Amgen in 1991.
+
+Lin's team put the gene into **[Chinese hamster ovary cells](kloom:e/chinese-hamster-ovary-cell)**, a line grown in laboratories since 1957, and the cells secreted erythropoietin that worked in the dish and in animals. The choice of cell mattered. About 40 per cent of the hormone's weight is sugar chains, and hamster cells add such chains to a protein much as human cells do. The plate draws the loop the hormone closes, and the cell that made the drug.
+
+## What it replaced
+
+In January 1987 Joseph Eschbach and his colleagues reported giving the recombinant hormone to 25 anaemic patients on **[hemodialysis](kloom:e/hemodialysis)**, intravenously three times a week after dialysis, at doses from 15 to 500 units per kilogram. At 500 units the hematocrit, the share of the blood that is red cells, rose by as much as ten points in three weeks. Of 18 patients on effective doses, 12 who had needed transfusions no longer did, and 11 reached a hematocrit of 35 per cent or more. The authors listed what transfusion had cost these patients: immunological sensitisation, infection, and the iron that every unit leaves behind. Four patients' blood pressure rose.
+
+In June 1989 the Food and Drug Administration approved Amgen's **[epoetin alfa](kloom:e/epoetin-alfa)**, sold as Epogen, for the anaemia of chronic kidney failure. Later trials set its limits: aiming for a hemoglobin above 13 grams per decilitre in kidney disease raised the risk of cardiovascular complications.
+
+## The same drug, misused
+
+A hormone that raises the hematocrit raises an athlete's oxygen supply too. Recombinant EPO seems to have entered professional cycling about 1990, before any test could tell it from the body's own. In 1997 the sport's governing body began suspending riders whose hematocrit was above 50 per cent, a limit that a former rider called an invitation to dope up to it. In the **[Festina affair](kloom:e/festina-affair)** of 1998 a car carrying doping products for the Festina team was found during the Tour de France, and EPO became the race's scandal. In 2000 a test from the French national anti-doping laboratory began to tell the recombinant hormone from the body's own. Goldwasser said that the drug's clinical success still astonished him. The next frame returns to the blood supply, and to the test that finally found a virus in a donation before the donor's antibodies did.

@@ -180,6 +180,16 @@
   encyclopedia entries, "cited in") —
   [record](../027-tune-author-subject.md).
 
+- Sprint 028: the ninth subject, _In the Blood_ (proposal 3468, covering
+  3466): 62 frames from the four humours to the automated laboratory,
+  every reading showing how we knew or how it was done, the bench and
+  blood-bank procedures from the manuals that taught them, four trails
+  (what we got wrong, beyond ABO, blood at war, clotting) and a
+  dedication to Colonel Joel T. Hiatt; 88 connections on its frames, 20
+  into other subjects; the authors' feedback repaired where mechanical
+  and left on korg 3473 where it needs a decision —
+  [record](../028-in-the-blood.md).
+
 ## Next
 
 - Whatever the korg Planning queue holds for project kloom (72).

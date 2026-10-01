@@ -1,0 +1,116 @@
+{
+	"id": "vietnam-blood",
+	"topic": "The blood program in Vietnam",
+	"position": {
+		"label": "1965–70",
+		"sort": 1965
+	},
+	"scene": {
+		"headline": "We flew blood across the",
+		"accent": "PACIFIC.",
+		"palette": "branch",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MCGUIRE AFB · CAMP ZAMA · CAM RANH BAY",
+			"406TH MEDICAL LABORATORY · GROUP O LOW TITRE · 21 DAYS"
+		],
+		"counter": {
+			"value": "1,087,994",
+			"label": "units shipped to Vietnam from Japan, 1966–70"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Medical Support of the U.S. Army in Vietnam, 1965–1970",
+			"container": "Vietnam Studies",
+			"authors": [
+				{
+					"family": "Neel",
+					"given": "Spurgeon"
+				}
+			],
+			"publisher": "Department of the Army",
+			"place": "Washington, DC",
+			"published": "1973",
+			"url": "https://history.amedd.army.mil/booksdocs/vietnam/medicalsupport/chapter9.html",
+			"accessed": "2026-10-01",
+			"note": "Chapter IX, The Military Blood Program (pp. 115–127), with table 9 and map 5; chapter III for the four-unit rule. Read in the Office of Medical History's web edition and the 1991 reprint (CMH Pub 90-16)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Clinical Experience with the Use of Frozen Blood in Combat Casualties",
+			"authors": [
+				{
+					"family": "Moss",
+					"given": "Gerald S."
+				},
+				{
+					"family": "Valeri",
+					"given": "C. Robert"
+				},
+				{
+					"family": "Brodine",
+					"given": "Charles E."
+				}
+			],
+			"container": "New England Journal of Medicine",
+			"volume": "278",
+			"issue": "14",
+			"pages": "747–752",
+			"published": "1968-04-04",
+			"doi": "10.1056/NEJM196804042781401",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "report",
+			"title": "Frozen and Deglycerolized Red Blood Cells",
+			"number": "CPG ID 26",
+			"container": "Joint Trauma System Clinical Practice Guideline",
+			"authors": [
+				{
+					"family": "Corley",
+					"given": "Jason B."
+				}
+			],
+			"publisher": "Defense Health Agency, Joint Trauma System",
+			"published": "2024-08-05",
+			"url": "https://jts.health.mil/assets/docs/cpgs/Frozen_Deglycerolized_Red-Blood_Cells_05_Aug_2024_ID26_v1.2.pdf",
+			"accessed": "2026-10-01",
+			"etAl": true
+		},
+		{
+			"kind": "media",
+			"title": "Whole Blood Supply and Distribution System, July 1969 (map 5)",
+			"url": "https://archive.org/details/CMHPub90-16",
+			"accessed": "2026-10-01",
+			"container": "Spurgeon Neel, Medical Support of the U.S. Army in Vietnam, 1965–1970 (Department of the Army, 1973), p. 120; scan of the 1991 reprint by the U.S. Army Center of Military History",
+			"licence": "Public domain",
+			"file": "map-5.jpg",
+			"authors": [
+				{
+					"name": "U.S. Army"
+				}
+			],
+			"published": "1973"
+		},
+		{
+			"kind": "media",
+			"title": "Units of whole blood shipped to Vietnam each year, 1966–1970",
+			"url": "https://history.amedd.army.mil/booksdocs/vietnam/medicalsupport/chapter9.html",
+			"accessed": "2026-10-01",
+			"container": "Chart drawn for kloom from Neel, Medical Support of the U.S. Army in Vietnam, table 9",
+			"licence": "MIT",
+			"file": "units-shipped.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/korea-blood",
+			"why": "Vietnam's insulated Collins box replaced Korea's Hollinger trunk."
+		}
+	]
+}

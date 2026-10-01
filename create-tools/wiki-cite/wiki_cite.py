@@ -7,7 +7,7 @@ at the article's current revision (`oldid=`) and dated by it. Redirects are
 followed. A missing article, or a title that lands on a disambiguation page,
 is named on stderr and left out, and the run exits 1 after the citations
 that were found are printed. `--text DIR` also writes each cited revision's
-readable text to DIR/<Title>.txt, so what you read is the revision you cite;
+readable text to DIR/<Title>.txt (DIR/<Title>.<lang>.txt for --lang), so what you read is the revision you cite;
 a formula is written once, as its TeX. `--lang` cites another language's
 Wikipedia, with the citation's `language`. Standard library only.
 """
@@ -154,6 +154,12 @@ def citation(title, revid, date, accessed, lang='en'):
     }
 
 
+def text_name(title, lang='en'):
+    """The --text file for a title: another language's text carries its code, so German
+    "Luis Agote" does not overwrite the English one (sprint 028)."""
+    return title.replace('/', '_') + ('' if lang == 'en' else f'.{lang}') + '.txt'
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument('titles', nargs='+')
@@ -173,7 +179,7 @@ def main():
         os.makedirs(a.text, exist_ok=True)
         for t in found:
             name, revid, _ = revs[t]
-            path = os.path.join(a.text, name.replace('/', '_') + '.txt')
+            path = os.path.join(a.text, text_name(name, a.lang))
             with open(path, 'w') as fh:
                 fh.write(f'{name} (revision {revid})\n\n' + revision_text(revid, a.lang))
             print(f'wiki_cite: wrote {path}', file=sys.stderr)

@@ -74,7 +74,10 @@ python3 create-tools/names/names.py reach western-civ
   author checks with `--check --drafts .scratch/names/<subject>-<segment>`.
   A draft whose id or Wikidata item the registry already holds is named
   in a warning: another author's name reached the registry meanwhile, so
-  drop the draft or mark the registry's id (sprint 025).
+  drop the draft or mark the registry's id (sprint 025). Only drafts the
+  specs being checked mark are named; other authors' stale drafts passed
+  with `--drafts` are counted in one line, since naming them all buried an
+  author's own warnings (sprint 028).
 - **`density`** prints, per subject: frames, marks, distinct names, marks
   per frame, frames with no mark, connections stored on its frames and
   touching them (either end), and connections per frame. `--json` for one

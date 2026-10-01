@@ -1,0 +1,26 @@
+{
+	"title": "Protein in each Cohn fraction, grams per litre of plasma",
+	"description": "Bar chart. Fraction I 3.4 g, II + III 19.0 g, IV-1 5.1 g, IV-4 5.8 g, V 31.5 g, VI 1.0 g per litre of plasma. Data: Cohn et al. 1946, table IX, as reprinted in Cohn 1948, table III.",
+	"heading": "COHN FRACTIONS · GRAMS OF PROTEIN PER LITRE OF PLASMA",
+	"unit": " g",
+	"width": 520,
+	"barWidth": 50,
+	"axis": {
+		"max": 40,
+		"ticks": [
+			[0, "0"],
+			[10, "10 g"],
+			[20, "20 g"],
+			[30, "30 g"],
+			[40, "40 g"]
+		]
+	},
+	"bars": [
+		{ "label": "I", "sublabel": "fibrinogen", "value": 3.4 },
+		{ "label": "II + III", "sublabel": "globulins", "value": 19.0 },
+		{ "label": "IV-1", "sublabel": "α-lipid", "value": 5.1 },
+		{ "label": "IV-4", "sublabel": "α, β", "value": 5.8 },
+		{ "label": "V", "sublabel": "albumin", "value": 31.5, "highlight": true },
+		{ "label": "VI", "sublabel": "rest", "value": 1.0 }
+	]
+}

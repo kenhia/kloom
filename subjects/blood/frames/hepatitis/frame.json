@@ -1,0 +1,320 @@
+{
+	"id": "hepatitis",
+	"topic": "Hepatitis and the first screening",
+	"position": {
+		"label": "1965–72",
+		"sort": 1971
+	},
+	"scene": {
+		"headline": "A thin red line was a",
+		"accent": "VIRUS.",
+		"palette": "cryo",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NIH · PHILADELPHIA · TOKYO · BARUCH BLUMBERG, HARVEY ALTER",
+			"OUCHTERLONY DOUBLE DIFFUSION · 0.9% AGAR · SEVEN WELLS"
+		],
+		"counter": {
+			"value": "18% → 6%",
+			"label": "hepatitis after transfusion at Philadelphia General, before screening and a year into it"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Australia Antigen and the Biology of Hepatitis B: Nobel Lecture, December 13, 1976",
+			"authors": [
+				{
+					"family": "Blumberg",
+					"given": "Baruch S."
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Foundation",
+			"published": "1976-12-13",
+			"url": "https://www.nobelprize.org/uploads/2018/06/blumberg-lecture.pdf",
+			"accessed": "2026-10-01",
+			"note": "His own telling of the find, the hepatitis link, Okochi's transfusion study and the Philadelphia screening"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Hazards of Blood Transfusion in Historical Perspective",
+			"authors": [
+				{
+					"family": "Alter",
+					"given": "Harvey J."
+				},
+				{
+					"family": "Klein",
+					"given": "Harvey G."
+				}
+			],
+			"container": "Blood",
+			"volume": "112",
+			"issue": "7",
+			"pages": "2617–2626",
+			"published": "2008-10-01",
+			"doi": "10.1182/blood-2008-07-077370",
+			"accessed": "2026-10-01",
+			"note": "The thin red line, the NIH prospective studies and non-A, non-B hepatitis"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Further Studies on a “New” Human Isoprecipitin System (Australia Antigen)",
+			"authors": [
+				{
+					"family": "Alter",
+					"given": "H. J."
+				},
+				{
+					"family": "Blumberg",
+					"given": "B. S."
+				}
+			],
+			"container": "Blood",
+			"volume": "27",
+			"issue": "3",
+			"pages": "297–309",
+			"published": "1966-03",
+			"doi": "10.1182/blood.v27.3.297.297",
+			"accessed": "2026-10-01",
+			"note": "Methods: lantern slides, 0.9% agar, the seven-well pattern and the stains"
+		},
+		{
+			"kind": "article",
+			"title": "A “New” Antigen in Leukemia Sera",
+			"authors": [
+				{
+					"family": "Blumberg",
+					"given": "Baruch S."
+				},
+				{
+					"family": "Alter",
+					"given": "Harvey J."
+				},
+				{
+					"family": "Visnich",
+					"given": "Sam"
+				}
+			],
+			"container": "JAMA",
+			"volume": "191",
+			"issue": "7",
+			"pages": "541–546",
+			"published": "1965-02-15",
+			"doi": "10.1001/jama.1965.03080070025007",
+			"accessed": "2026-10-01",
+			"citedIn": "Alter and Klein, “The Hazards of Blood Transfusion in Historical Perspective” (2008)"
+		},
+		{
+			"kind": "article",
+			"title": "An Antigen Detected in the Blood during the Incubation Period of Serum Hepatitis",
+			"authors": [
+				{
+					"family": "Prince",
+					"given": "Alfred M."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "60",
+			"issue": "3",
+			"pages": "814–821",
+			"published": "1968",
+			"doi": "10.1073/pnas.60.3.814",
+			"accessed": "2026-10-01",
+			"citedIn": "Blumberg, Nobel Lecture (1976)"
+		},
+		{
+			"kind": "article",
+			"title": "Evaluation of Hepatitis B Antigen Testing in Federally Licensed Blood Banks in the United States",
+			"authors": [
+				{
+					"family": "Gerety",
+					"given": "R. J."
+				},
+				{
+					"family": "Hoofnagle",
+					"given": "J. H."
+				},
+				{
+					"family": "Mitchell",
+					"given": "F. D."
+				},
+				{
+					"family": "Barker",
+					"given": "L. F."
+				},
+				{
+					"family": "Meyer",
+					"given": "H. M."
+				}
+			],
+			"container": "American Journal of Clinical Pathology",
+			"volume": "63",
+			"issue": "4",
+			"pages": "573–580",
+			"published": "1975",
+			"doi": "10.1093/ajcp/63.4.573",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "report",
+			"title": "Whole Blood and Red Blood Cells: Label Statement to Distinguish Volunteer from Paid Blood Donors. Proposed Rule",
+			"authors": [
+				{
+					"name": "Food and Drug Administration"
+				}
+			],
+			"container": "Federal Register",
+			"volume": "40",
+			"issue": "221",
+			"pages": "53040–53041",
+			"publisher": "Office of the Federal Register",
+			"place": "Washington, DC",
+			"published": "1975-11-14",
+			"url": "https://www.govinfo.gov/content/pkg/FR-1975-11-14/pdf/FR-1975-11-14.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Transfusion Medicine History",
+			"container": "AABB",
+			"url": "https://www.aabb.org/blood-biotherapies/blood/transfusion-medicine/transfusion-medicine-resources/transfusion-medicine-history",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Baruch Samuel Blumberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Baruch_Samuel_Blumberg&oldid=1371974857",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "HBsAg",
+			"url": "https://en.wikipedia.org/w/index.php?title=HBsAg&oldid=1338189898",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hepatitis B",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hepatitis_B&oldid=1377087426",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ouchterlony double immunodiffusion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ouchterlony_double_immunodiffusion&oldid=1222886110",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-05-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harvey J. Alter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harvey_J._Alter&oldid=1310666806",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Counterimmunoelectrophoresis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Counterimmunoelectrophoresis&oldid=1218273743",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-04-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Radioimmunoassay",
+			"url": "https://en.wikipedia.org/w/index.php?title=Radioimmunoassay&oldid=1372184936",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "media",
+			"title": "Hepatitis B virus 01",
+			"url": "https://commons.wikimedia.org/wiki/File:Hepatitis_B_virus_01.png",
+			"accessed": "2026-10-01",
+			"container": "Centers for Disease Control and Prevention, Public Health Image Library, no. 270, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "hbv-virions.jpg",
+			"authors": [
+				{
+					"family": "Palmer",
+					"given": "Erskine"
+				}
+			],
+			"published": "1981"
+		},
+		{
+			"kind": "media",
+			"title": "Hepatitis after transfusion in the NIH's prospective studies (chart)",
+			"url": "https://ashpublications.org/blood/article-pdf/112/7/2617/1301976/zh801908002617.pdf",
+			"container": "Drawn for kloom from Alter and Klein, Blood 112 (2008): 2618–19",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "tah-incidence.svg"
+		}
+	],
+	"connections": [
+		{ "to": "blood/hiv-blood", "why": "HIV arrived before the second hepatitis test did." },
+		{
+			"to": "blood/nat",
+			"why": "Screening moved on from the hepatitis B antigen to hepatitis C, found by its nucleic acid."
+		}
+	]
+}

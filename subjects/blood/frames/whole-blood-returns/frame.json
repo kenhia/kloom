@@ -1,0 +1,298 @@
+{
+	"id": "whole-blood-returns",
+	"topic": "Low-titer O whole blood",
+	"position": {
+		"label": "2016",
+		"sort": 2016
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "Blood came back",
+		"accent": "WHOLE.",
+		"palette": "branch",
+		"illustration": "scene.svg",
+		"metadata": [
+			"75TH RANGER REGIMENT · ARMED SERVICES BLOOD PROGRAM · TRAUMA CENTRES",
+			"GROUP O · ANTI-A AND ANTI-B BELOW 1 IN 256 · IMMEDIATE SPIN"
+		],
+		"counter": {
+			"value": "382",
+			"label": "US trauma centres giving low-titre O whole blood in 2024"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Transfusion of Type A Whole Blood for the Role 3",
+			"number": "CPG ID 96",
+			"container": "Joint Trauma System Clinical Practice Guideline",
+			"authors": [
+				{
+					"family": "Gurney",
+					"given": "Jennifer M."
+				}
+			],
+			"etAl": true,
+			"publisher": "Joint Trauma System",
+			"published": "2025-05-30",
+			"url": "https://jts.health.mil/assets/docs/cpgs/Type_A_Specific_WB_Transfusion_30_May_2025_ID96_v1.1.pdf",
+			"accessed": "2026-10-01",
+			"note": "The history of whole blood in combat care, ROLO, the AABB's 2018 change and the military's threshold of 256"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Prehospital Resuscitation with Type O Whole Blood for Trauma and Hemorrhage",
+			"authors": [
+				{
+					"family": "Sperry",
+					"given": "Jason L."
+				},
+				{
+					"family": "Guyette",
+					"given": "Francis X."
+				},
+				{
+					"family": "Cotton",
+					"given": "Bryan A."
+				}
+			],
+			"etAl": true,
+			"container": "New England Journal of Medicine",
+			"volume": "394",
+			"issue": "23",
+			"pages": "2317–2328",
+			"published": "2026-05-18",
+			"doi": "10.1056/NEJMoa2602167",
+			"accessed": "2026-10-01",
+			"note": "The TOWAR trial; read in PubMed Central (PMC13313084)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Prehospital Whole Blood in Traumatic Hemorrhage — A Randomized Controlled Trial",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Jason E."
+				},
+				{
+					"family": "Cardigan",
+					"given": "Rebecca A."
+				},
+				{
+					"family": "Sanderson",
+					"given": "Emily"
+				}
+			],
+			"etAl": true,
+			"container": "New England Journal of Medicine",
+			"volume": "394",
+			"issue": "23",
+			"pages": "2305–2316",
+			"published": "2026-03-17",
+			"doi": "10.1056/NEJMoa2516043",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Survey of Quality Control Testing Practices on Low Titer Group O Whole Blood in the United States",
+			"authors": [
+				{
+					"family": "Yazer",
+					"given": "Mark H."
+				},
+				{
+					"family": "Clayton",
+					"given": "Skye"
+				},
+				{
+					"family": "Leeper",
+					"given": "Christine M."
+				},
+				{
+					"family": "Spinella",
+					"given": "Philip C."
+				}
+			],
+			"container": "Transfusion",
+			"volume": "66",
+			"issue": "S1",
+			"pages": "S82–S86",
+			"published": "2026-05",
+			"doi": "10.1111/trf.70074",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Changes in Donor Antibody Titer Levels over Time in a Military Group O Low-Titer Whole Blood Program",
+			"authors": [
+				{
+					"family": "Bailey",
+					"given": "Jonathan D."
+				},
+				{
+					"family": "Fisher",
+					"given": "Andrew D."
+				},
+				{
+					"family": "Yazer",
+					"given": "Mark H."
+				}
+			],
+			"etAl": true,
+			"container": "Transfusion",
+			"volume": "59",
+			"issue": "S2",
+			"pages": "1499–1506",
+			"published": "2019-04",
+			"doi": "10.1111/trf.15162",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "A Comparative Evaluation of ABO Blood Group Antibody Titer Using Normal Saline, Low Ionic Strength Solution, and AB Plasma",
+			"authors": [
+				{
+					"family": "Sharma",
+					"given": "Vikrant"
+				},
+				{
+					"family": "Puri",
+					"given": "Aakriti"
+				},
+				{
+					"family": "Raghuwanshi",
+					"given": "Babita"
+				}
+			],
+			"container": "Cureus",
+			"volume": "17",
+			"published": "2025",
+			"doi": "10.7759/cureus.90458",
+			"accessed": "2026-10-01",
+			"note": "The tube titration of the AABB Technical Manual, step by step",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "ABO Antibody Titer Testing Harmonization in Korea: A 5-Year Analysis of External Quality Control Data",
+			"authors": [
+				{
+					"family": "Kim",
+					"given": "H. J."
+				}
+			],
+			"etAl": true,
+			"container": "Annals of Laboratory Medicine",
+			"published": "2025",
+			"doi": "10.3343/alm.2024.0521",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Initial Safety and Feasibility of Cold-Stored Uncrossmatched Whole Blood Transfusion in Civilian Trauma Patients",
+			"authors": [
+				{
+					"family": "Yazer",
+					"given": "Mark H."
+				},
+				{
+					"family": "Jackson",
+					"given": "Byron"
+				},
+				{
+					"family": "Sperry",
+					"given": "Jason L."
+				}
+			],
+			"etAl": true,
+			"container": "Journal of Trauma and Acute Care Surgery",
+			"volume": "81",
+			"issue": "1",
+			"pages": "21–26",
+			"published": "2016",
+			"doi": "10.1097/TA.0000000000001100",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Safety Profile of Uncrossmatched, Cold-Stored, Low-Titer, Group O+ Whole Blood in Civilian Trauma Patients",
+			"authors": [
+				{
+					"family": "Seheult",
+					"given": "Jansen N."
+				},
+				{
+					"family": "Bahr",
+					"given": "Marshall P."
+				},
+				{
+					"family": "Anto",
+					"given": "Vincent P."
+				}
+			],
+			"etAl": true,
+			"container": "Transfusion",
+			"volume": "58",
+			"issue": "10",
+			"pages": "2280–2288",
+			"published": "2018",
+			"doi": "10.1111/trf.14771",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Trends in Low Titer Group O Whole Blood Use among United States Trauma Centers: An Update from a National Trauma Registry from 2020 to 2024",
+			"authors": [
+				{
+					"family": "Schauer",
+					"given": "Steven G."
+				},
+				{
+					"family": "Yazer",
+					"given": "Mark H."
+				}
+			],
+			"container": "Transfusion",
+			"volume": "66",
+			"issue": "S1",
+			"pages": "S405–S408",
+			"published": "2026-02",
+			"doi": "10.1111/trf.70096",
+			"accessed": "2026-10-01",
+			"note": "Read in the full text that OpenAlex holds for it"
+		},
+		{
+			"kind": "media",
+			"title": "A unit of whole blood, after collection at a blood drive in New Orleans",
+			"url": "https://commons.wikimedia.org/wiki/File:A_unit_of_whole_blood.JPG",
+			"accessed": "2026-10-01",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "whole-blood-unit.jpg",
+			"authors": [
+				{
+					"name": "Vegasjon"
+				}
+			],
+			"published": "2014-09-11"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/tube-typing",
+			"why": "A titre is read by the same tube agglutination graded 4+ to 0 as typing and crossmatch by hand."
+		},
+		{
+			"to": "blood/robertson-depot",
+			"why": "Group O blood kept on ice was given to the wounded in 1917; low-titre group O whole blood came back a century later."
+		}
+	]
+}

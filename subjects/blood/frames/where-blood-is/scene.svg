@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M28 238 L156 238"/>
+		<path pathLength="1" d="M36 142 L36 238"/>
+		<path pathLength="1" d="M32 142 L40 142"/>
+		<path pathLength="1" d="M32 238 L40 238"/>
+		<path pathLength="1" d="M92 62 L92 246"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M56 70 L128 70"/>
+		<path pathLength="1" d="M128 70 L130 70.2 L131.8 70.8 L133.6 71.7 L135.1 72.9 L136.3 74.4 L137.2 76.2 L137.8 78 L138 80"/>
+		<path pathLength="1" d="M138 80 L138 228"/>
+		<path pathLength="1" d="M138 228 L137.8 230 L137.2 231.8 L136.3 233.6 L135.1 235.1 L133.6 236.3 L131.8 237.2 L130 237.8 L128 238"/>
+		<path pathLength="1" d="M128 238 L56 238"/>
+		<path pathLength="1" d="M56 238 L54 237.8 L52.2 237.2 L50.4 236.3 L48.9 235.1 L47.7 233.6 L46.8 231.8 L46.2 230 L46 228"/>
+		<path pathLength="1" d="M46 228 L46 80"/>
+		<path pathLength="1" d="M46 80 L46.2 78 L46.8 76.2 L47.7 74.4 L48.9 72.9 L50.4 71.7 L52.2 70.8 L54 70.2 L56 70"/>
+		<path pathLength="1" d="M272 64 L322 64"/>
+		<path pathLength="1" d="M322 64 L324 64.2 L325.8 64.8 L327.6 65.7 L329.1 66.9 L330.3 68.4 L331.2 70.2 L331.8 72 L332 74"/>
+		<path pathLength="1" d="M332 74 L332 146"/>
+		<path pathLength="1" d="M332 146 L331.8 148 L331.2 149.8 L330.3 151.6 L329.1 153.1 L327.6 154.3 L325.8 155.2 L324 155.8 L322 156"/>
+		<path pathLength="1" d="M322 156 L272 156"/>
+		<path pathLength="1" d="M272 156 L270 155.8 L268.2 155.2 L266.4 154.3 L264.9 153.1 L263.7 151.6 L262.8 149.8 L262.2 148 L262 146"/>
+		<path pathLength="1" d="M262 146 L262 74"/>
+		<path pathLength="1" d="M262 74 L262.2 72 L262.8 70.2 L263.7 68.4 L264.9 66.9 L266.4 65.7 L268.2 64.8 L270 64.2 L272 64"/>
+		<path pathLength="1" d="M272 180 L322 180"/>
+		<path pathLength="1" d="M322 180 L324 180.2 L325.8 180.8 L327.6 181.7 L329.1 182.9 L330.3 184.4 L331.2 186.2 L331.8 188 L332 190"/>
+		<path pathLength="1" d="M332 190 L332 246"/>
+		<path pathLength="1" d="M332 246 L331.8 248 L331.2 249.8 L330.3 251.6 L329.1 253.1 L327.6 254.3 L325.8 255.2 L324 255.8 L322 256"/>
+		<path pathLength="1" d="M322 256 L272 256"/>
+		<path pathLength="1" d="M272 256 L270 255.8 L268.2 255.2 L266.4 254.3 L264.9 253.1 L263.7 251.6 L262.8 249.8 L262.2 248 L262 246"/>
+		<path pathLength="1" d="M262 246 L262 190"/>
+		<path pathLength="1" d="M262 190 L262.2 188 L262.8 186.2 L263.7 184.4 L264.9 182.9 L266.4 181.7 L268.2 180.8 L270 180.2 L272 180"/>
+		<path pathLength="1" d="M76 70 L76 40 L220 40 L220 168 L276 168 L276 180"/>
+		<path pathLength="1" d="M220 40 L276 40 L276 64"/>
+		<path pathLength="1" d="M108 70 L108 48 L132 30"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M46 142 L138 142"/>
+		<path pathLength="1" d="M46 150 L138 150"/>
+		<path pathLength="1" d="M54 160 L130 160"/>
+		<path pathLength="1" d="M54 174 L130 174"/>
+		<path pathLength="1" d="M54 188 L130 188"/>
+		<path pathLength="1" d="M54 202 L130 202"/>
+		<path pathLength="1" d="M54 216 L130 216"/>
+		<path pathLength="1" d="M54 230 L130 230"/>
+		<path pathLength="1" d="M262 94 L332 94"/>
+		<path pathLength="1" d="M262 230 L332 230"/>
+		<path pathLength="1" d="M217.8 131.5 L220 136 L222.2 131.5"/>
+		<path pathLength="1" d="M261.5 42.2 L266 40 L261.5 37.8"/>
+		<path pathLength="1" d="M68 34 L84 46 M68 46 L84 34"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="146" y="112" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PLASMA</text>
+		<text x="146" y="152" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BUFFY COAT</text>
+		<text x="146" y="198" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RED CELLS</text>
+		<text x="297" y="170" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PLASMA</text>
+		<text x="297" y="270" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PLATELETS</text>
+		<text x="136" y="26" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DONOR LINE</text>
+		<text x="92" y="258" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE DONATION, SPUN</text>
+	</g>
+</svg>

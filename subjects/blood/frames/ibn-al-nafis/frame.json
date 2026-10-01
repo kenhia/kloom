@@ -1,0 +1,116 @@
+{
+	"id": "ibn-al-nafis",
+	"topic": "Ibn al-Nafis and pulmonary transit",
+	"position": {
+		"label": "c. 1242",
+		"sort": 1242
+	},
+	"scene": {
+		"headline": "We found the wall was",
+		"accent": "SOLID.",
+		"palette": "humour",
+		"illustration": "scene.svg",
+		"metadata": ["DAMASCUS · CAIRO · IBN AL-NAFIS", "COMMENTARY ON ANATOMY IN AVICENNA'S CANON"],
+		"counter": {
+			"value": "29",
+			"label": "his age when he wrote the Commentary"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ibn al-Nafis, the Pulmonary Circulation, and the Islamic Golden Age",
+			"authors": [
+				{
+					"family": "West",
+					"given": "John B."
+				}
+			],
+			"container": "Journal of Applied Physiology",
+			"volume": "105",
+			"issue": "6",
+			"pages": "1877–1880",
+			"published": "2008",
+			"doi": "10.1152/japplphysiol.91171.2008",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ibn al-Nafis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ibn_al-Nafis&oldid=1372418312",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Commentary on Anatomy in Avicenna's Canon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Commentary_on_Anatomy_in_Avicenna's_Canon&oldid=1344659348",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pulmonary circulation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pulmonary_circulation&oldid=1364832374",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-18"
+		},
+		{
+			"kind": "article",
+			"title": "Ibn an-Nafis (XIIIth Cent.) and His Theory of the Lesser Circulation",
+			"authors": [
+				{
+					"family": "Meyerhof",
+					"given": "Max"
+				}
+			],
+			"container": "Isis",
+			"volume": "23",
+			"issue": "1",
+			"pages": "100–120",
+			"published": "1935",
+			"doi": "10.1086/346926",
+			"accessed": "2026-10-01",
+			"citedIn": "West, “Ibn al-Nafis, the Pulmonary Circulation, and the Islamic Golden Age” (2008)",
+			"note": "The translations quoted in the reading"
+		},
+		{
+			"kind": "media",
+			"title": "Ibn al-Nafis, Sharh tashrih al-Qanun (A commentary on the anatomy in Ibn Sina's Canon), a copy dated 3 May 1334",
+			"url": "https://commons.wikimedia.org/wiki/File:%E2%80%98Ala%E2%80%99-al-Din_Abu%E2%80%99l-Hasan_%E2%80%98Ali_Ibn_Abi_al-Hazm_al-Qarshi,_known_as_Ibn_al-Nafis_(d.1288-89),_Sharh_tashrih_Qanun_Ibn_Sina_(A_commentary_on_the_anatomy_in_Al-Qanun_of_Ibn_Sina),_probably_Iraq,_Ilkhanid,_dated_3_May_1334.jpg",
+			"accessed": "2026-10-01",
+			"container": "Photographed for Sotheby's, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "sharh-tashrih-1334.jpg",
+			"authors": [
+				{
+					"name": "Ibn al-Nafis"
+				}
+			],
+			"published": "1334-05-03"
+		}
+	]
+}

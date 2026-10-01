@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Units of whole blood shipped to Vietnam each year by the 406th Medical Laboratory, 1966 to 1970</title>
+<desc id="d">Bar chart of the units of whole blood shipped to the central blood bank in Vietnam by the 406th Medical Laboratory in Japan, blood collected in the United States and in the Pacific: 1966, 115,869; 1967, 213,022; 1968, 351,519; 1969, 348,409; 1970 (January to November), 59,175. Total 1,087,994. Data: Neel, Medical Support of the U.S. Army in Vietnam 1965-1970 (1973), table 9.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="196.5" y2="196.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">100,000</text>
+<line x1="64" x2="460" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">200,000</text>
+<line x1="64" x2="460" y1="89.5" y2="89.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">300,000</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">400,000</text>
+</g>
+<rect x="75.6" y="188.0" width="56" height="62.0" fill-opacity="0.85"/>
+<text x="103.6" y="182.0" text-anchor="middle">115,869</text>
+<text x="103.6" y="266" text-anchor="middle">1966</text>
+<rect x="154.8" y="136.0" width="56" height="114.0" fill-opacity="0.85"/>
+<text x="182.8" y="130.0" text-anchor="middle">213,022</text>
+<text x="182.8" y="266" text-anchor="middle">1967</text>
+<rect x="234.0" y="61.9" width="56" height="188.1" class="accent" fill="currentColor"/>
+<text x="262.0" y="55.9" text-anchor="middle">351,519</text>
+<text x="262.0" y="266" text-anchor="middle">1968</text>
+<rect x="313.2" y="63.6" width="56" height="186.4" fill-opacity="0.85"/>
+<text x="341.2" y="57.6" text-anchor="middle">348,409</text>
+<text x="341.2" y="266" text-anchor="middle">1969</text>
+<rect x="392.4" y="218.3" width="56" height="31.7" fill-opacity="0.85"/>
+<text x="420.4" y="212.3" text-anchor="middle">59,175</text>
+<text x="420.4" y="266" text-anchor="middle">1970</text>
+<text x="420.4" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">to Nov</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">UNITS SHIPPED TO VIETNAM · NEEL, TABLE 9</text>
+</g></svg>

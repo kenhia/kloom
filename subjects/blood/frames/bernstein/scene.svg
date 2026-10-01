@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M74.4 58 L74.4 220"/>
+		<path pathLength="1" d="M97.8 58 L97.8 220"/>
+		<path pathLength="1" d="M18 114.4 L180 114.4"/>
+		<path pathLength="1" d="M18 137.8 L180 137.8"/>
+		<path pathLength="1" d="M305 58 L305 220"/>
+		<path pathLength="1" d="M218 177.4 L380 177.4"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 70 L180 70 L180 220 L30 220 Z"/>
+		<path pathLength="1" d="M230 70 L380 70 L380 220 L230 220 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M30 132.8 L35 137.8 M30 127.8 L40 137.8 M30 122.8 L45 137.8 M30 117.8 L50 137.8 M31.7 114.4 L55 137.8 M36.7 114.4 L60 137.8 M41.7 114.4 L65 137.8 M46.7 114.4 L70 137.8 M51.7 114.4 L74.4 137.2 M56.7 114.4 L74.4 132.2 M61.7 114.4 L74.4 127.2 M66.7 114.4 L74.4 122.2 M71.7 114.4 L74.4 117.2 M74.4 109.4 L79.4 114.4 M74.4 104.4 L84.4 114.4 M74.4 99.4 L89.4 114.4 M74.4 94.4 L94.4 114.4 M74.4 89.4 L97.8 112.8 M74.4 84.4 L97.8 107.8 M74.4 79.4 L97.8 102.8 M74.4 74.4 L97.8 97.8 M75 70 L97.8 92.8 M80 70 L97.8 87.8 M85 70 L97.8 82.8 M90 70 L97.8 77.8 M95 70 L97.8 72.8 M230 215 L235 220 M230 210 L240 220 M230 205 L245 220 M230 200 L250 220 M230 195 L255 220 M230 190 L260 220 M230 185 L265 220 M230 180 L270 220 M232.4 177.4 L275 220 M237.4 177.4 L280 220 M242.4 177.4 L285 220 M247.4 177.4 L290 220 M252.4 177.4 L295 220 M257.4 177.4 L300 220 M262.4 177.4 L305 220 M267.4 177.4 L305 215 M272.4 177.4 L305 210 M277.4 177.4 L305 205 M282.4 177.4 L305 200 M287.4 177.4 L305 195 M292.4 177.4 L305 190 M297.4 177.4 L305 185 M302.4 177.4 L305 180"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="52.2" y="54" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="14" y="95.2" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="86.1" y="54" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="14" y="129.1" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="138.9" y="54" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="14" y="181.9" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="52.2" y="95.2" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="138.9" y="95.2" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="86.1" y="129.1" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="138.9" y="129.1" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="52.2" y="181.9" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="86.1" y="181.9" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="138.9" y="181.9" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="267.5" y="126.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A ONLY</text>
+		<text x="342.5" y="126.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="342.5" y="201.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B ONLY</text>
+		<text x="267.5" y="54" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A 0.500</text>
+		<text x="225" y="201.7" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0.284</text>
+		<text x="225" y="191.7" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="105" y="242" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE GENE: AB 0.092</text>
+		<text x="305" y="242" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TWO GENES: AB 0.142</text>
+		<text x="200" y="264" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OBSERVED AB 0.078</text>
+	</g>
+</svg>

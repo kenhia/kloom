@@ -1,0 +1,105 @@
+{
+	"id": "galen",
+	"topic": "Galen's physiology of the blood",
+	"position": {
+		"label": "c. AD 170",
+		"sort": 170
+	},
+	"scene": {
+		"headline": "Blood was made to be",
+		"accent": "SPENT.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": ["PERGAMON · ROME · GALEN", "APES AND PIGS · THE LIVER, THE VEINS AND THE SEPTUM"],
+		"counter": {
+			"value": "1,300",
+			"label": "years and more that Galen's views led Western medicine"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "On the Natural Faculties",
+			"authors": [
+				{
+					"name": "Galen"
+				}
+			],
+			"translators": [
+				{
+					"family": "Brock",
+					"given": "Arthur John"
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "William Heinemann",
+			"place": "London",
+			"published": "1916",
+			"url": "https://archive.org/details/galenonnaturalf00brocgoog",
+			"accessed": "2026-10-01",
+			"note": "Book III, chapter xv (pp. 319–323): the anastomoses, the septum's pits and the vessels' sizes, with Brock's notes"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Galen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Galen&oldid=1374671998",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Erasistratus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Erasistratus&oldid=1369352545",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-14"
+		},
+		{
+			"kind": "article",
+			"title": "Ibn al-Nafis, the Pulmonary Circulation, and the Islamic Golden Age",
+			"authors": [
+				{
+					"family": "West",
+					"given": "John B."
+				}
+			],
+			"container": "Journal of Applied Physiology",
+			"volume": "105",
+			"issue": "6",
+			"pages": "1877–1880",
+			"published": "2008",
+			"doi": "10.1152/japplphysiol.91171.2008",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "Galen. Line engraving",
+			"url": "https://commons.wikimedia.org/wiki/File:Galen._Line_engraving._Wellcome_L0012587.jpg",
+			"accessed": "2026-10-01",
+			"container": "Wellcome Collection, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "galen-engraving.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/paracelsus",
+			"why": "The books Paracelsus burned at Basel in 1527, probably Galen and Avicenna, were the Galenic medicine this frame describes, still the authority of every medical faculty thirteen centuries on."
+		}
+	]
+}

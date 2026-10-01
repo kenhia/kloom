@@ -1,0 +1,197 @@
+{
+	"id": "stained-film",
+	"topic": "Ehrlich's stained blood film",
+	"position": {
+		"label": "1878–1902",
+		"sort": 1879
+	},
+	"scene": {
+		"headline": "We sorted the white cells by",
+		"accent": "COLOUR.",
+		"palette": "slide",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERLIN · PAUL EHRLICH · BOSTON · JAMES HOMER WRIGHT",
+			"ACID, BASIC AND NEUTRAL DYES · A 30° SPREADER · 100 CELLS"
+		],
+		"counter": {
+			"value": "100",
+			"label": "white cells typed in a differential count, one per cent each"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Histology of the Blood, Normal and Pathological",
+			"authors": [
+				{
+					"family": "Ehrlich",
+					"given": "Paul"
+				},
+				{
+					"family": "Lazarus",
+					"given": "Adolf"
+				}
+			],
+			"translators": [
+				{
+					"family": "Myers",
+					"given": "W."
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1900",
+			"url": "https://www.gutenberg.org/ebooks/29842",
+			"accessed": "2026-10-01",
+			"note": "The dry specimen, its fixation, and the acid, basic and neutral stains; read in the Project Gutenberg text"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Rapid Method for the Differential Staining of Blood Films and Malarial Parasites",
+			"authors": [
+				{
+					"family": "Wright",
+					"given": "James H."
+				}
+			],
+			"container": "Journal of Medical Research",
+			"volume": "7",
+			"issue": "1",
+			"pages": "138–144",
+			"published": "1902",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2105822/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Methods for Medical Laboratory Technicians",
+			"number": "TM 8-227, AFM 160-14",
+			"authors": [
+				{
+					"name": "Departments of the Army and the Air Force"
+				}
+			],
+			"publisher": "Departments of the Army and the Air Force",
+			"place": "Washington, DC",
+			"published": "1951-08-03",
+			"url": "https://archive.org/details/TM8227",
+			"accessed": "2026-10-01",
+			"note": "Paragraphs 65–68: making, staining and counting blood films"
+		},
+		{
+			"kind": "report",
+			"title": "Medical Laboratory Technician: Hematology, Serology, Blood Banking and Immunohematology, 10-4",
+			"number": "ERIC ED 224 893",
+			"authors": [
+				{
+					"name": "Air Force Training Command"
+				}
+			],
+			"publisher": "Air Force Training Command and the National Center for Research in Vocational Education, Ohio State University",
+			"place": "Sheppard Air Force Base, Texas, and Columbus, Ohio",
+			"published": "1978",
+			"url": "https://archive.org/details/ERIC_ED224893",
+			"accessed": "2026-10-01",
+			"note": "Military Curriculum Materials series"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Ehrlich",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Ehrlich&oldid=1371982230",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Romanowsky stain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Romanowsky_stain&oldid=1368364488",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wright's stain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wright's_stain&oldid=1317108761",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood smear",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_smear&oldid=1374836778",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "White blood cell differential",
+			"url": "https://en.wikipedia.org/w/index.php?title=White_blood_cell_differential&oldid=1370168151",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "media",
+			"title": "Peripheral blood smear - stained and unstained",
+			"url": "https://commons.wikimedia.org/wiki/File:Peripheral_blood_smear_-_stained_and_unstained.jpg",
+			"accessed": "2026-10-01",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "wedge-films.jpg",
+			"authors": [
+				{
+					"name": "Coinmac"
+				}
+			],
+			"published": "2012-07-06"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/salvarsan",
+			"why": "Ehrlich's discovery that each dye took to some cells and not others, the principle of his stained blood film, became his idea that a chemical could choose a microbe, which led him to Salvarsan."
+		},
+		{
+			"to": "chemistry/mauveine",
+			"why": "Ehrlich stained his blood films with the synthetic aniline dyes made from coal tar, the industry that Perkin's mauve began in 1856."
+		}
+	]
+}

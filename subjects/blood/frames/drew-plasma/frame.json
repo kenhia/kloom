@@ -1,0 +1,178 @@
+{
+	"id": "drew-plasma",
+	"topic": "Blood for Britain and dried plasma",
+	"position": {
+		"label": "1940",
+		"sort": 1940
+	},
+	"scene": {
+		"headline": "We sent blood without its",
+		"accent": "CELLS.",
+		"palette": "vein",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW YORK · PRESBYTERIAN HOSPITAL · CHARLES R. DREW",
+			"BLOOD FOR BRITAIN · AUGUST 1940 – JANUARY 1941"
+		],
+		"counter": {
+			"value": "14,556",
+			"label": "donations to Blood for Britain"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Blood Transfusion Association Concerning the Project for Supplying Blood Plasma to England, Which Has Been Carried on Jointly with the American Red Cross from August, 1940, to January, 1941",
+			"authors": [
+				{
+					"family": "Drew",
+					"given": "Charles R."
+				},
+				{
+					"family": "Stetten",
+					"given": "DeWitt"
+				},
+				{
+					"family": "Rhoads",
+					"given": "Cornelius P."
+				},
+				{
+					"family": "Scudder",
+					"given": "John"
+				}
+			],
+			"publisher": "Blood Transfusion Betterment Association",
+			"place": "New York",
+			"published": "1941-01-31",
+			"url": "https://profiles.nlm.nih.gov/101584649X141",
+			"accessed": "2026-10-01",
+			"note": "Part II, the medical report: collection, pooling, culture and the contamination figures"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Banked Blood: A Study in Blood Preservation",
+			"authors": [
+				{
+					"family": "Drew",
+					"given": "Charles R."
+				}
+			],
+			"publisher": "Columbia University",
+			"place": "New York",
+			"published": "1940",
+			"url": "https://profiles.nlm.nih.gov/101584649X142",
+			"accessed": "2026-10-01",
+			"note": "Doctoral dissertation; the recommendations close it"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Becoming “the Father of the Blood Bank,” 1938–1941",
+			"container": "Charles R. Drew Papers, Profiles in Science",
+			"publisher": "National Library of Medicine",
+			"url": "https://profiles.nlm.nih.gov/spotlight/bg/feature/blood",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter Reporting on Facilities for Collecting Blood in American Cities",
+			"authors": [
+				{
+					"family": "Drew",
+					"given": "Charles R."
+				}
+			],
+			"recipients": [
+				{
+					"family": "Smith",
+					"given": "DeWitt"
+				}
+			],
+			"written": "1941-01-09",
+			"container": "National Archives at College Park",
+			"url": "https://commons.wikimedia.org/wiki/File:Letter_from_Charles_R._Drew_to_the_American_Red_Cross_Reporting_on_Facilities_for_Collecting_Blood_in_American_Cities_-_DPLA_-_51c42c8611c0de6d94b88d657d99a383_(page_1).gif",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "chapter",
+			"title": "Historical Note",
+			"authors": [
+				{
+					"family": "Kendrick",
+					"given": "Douglas B."
+				}
+			],
+			"container": "Blood Program in World War II",
+			"publisher": "Office of the Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://history.amedd.army.mil/booksdocs/wwii/blood/chapter1.htm",
+			"accessed": "2026-10-01",
+			"note": "Blood for Britain, pp. 13–15"
+		},
+		{
+			"kind": "chapter",
+			"title": "The American National Red Cross",
+			"authors": [
+				{
+					"family": "Kendrick",
+					"given": "Douglas B."
+				}
+			],
+			"container": "Blood Program in World War II",
+			"publisher": "Office of the Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://history.amedd.army.mil/booksdocs/wwii/blood/chapter5.htm",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Plasma Program",
+			"authors": [
+				{
+					"family": "Kendrick",
+					"given": "Douglas B."
+				}
+			],
+			"container": "Blood Program in World War II",
+			"publisher": "Office of the Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://history.amedd.army.mil/booksdocs/wwii/blood/chapter11.htm",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles R. Drew",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_R._Drew&oldid=1373420796",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "media",
+			"title": "Letter from Charles R. Drew to the American Red Cross, 9 January 1941, page 1",
+			"url": "https://commons.wikimedia.org/wiki/File:Letter_from_Charles_R._Drew_to_the_American_Red_Cross_Reporting_on_Facilities_for_Collecting_Blood_in_American_Cities_-_DPLA_-_51c42c8611c0de6d94b88d657d99a383_(page_1).gif",
+			"accessed": "2026-10-01",
+			"container": "National Archives at College Park, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "drew-letter-1941.jpg",
+			"authors": [
+				{
+					"family": "Drew",
+					"given": "Charles R."
+				}
+			],
+			"published": "1941-01-09"
+		}
+	]
+}

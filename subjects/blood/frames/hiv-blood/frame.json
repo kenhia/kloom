@@ -1,0 +1,236 @@
+{
+	"id": "hiv-blood",
+	"topic": "HIV and the blood supply",
+	"position": {
+		"label": "1982–85",
+		"sort": 1982
+	},
+	"scene": {
+		"headline": "We acted too",
+		"accent": "LATE.",
+		"palette": "ward",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ATLANTA · SAN FRANCISCO · CDC · FDA",
+			"MMWR, 1982 · THE MEETING OF JANUARY 1983 · ELISA, 1985"
+		],
+		"counter": {
+			"value": "12,000+",
+			"label": "US transfusion recipients infected with HIV"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "HIV and the Blood Supply: An Analysis of Crisis Decisionmaking",
+			"authors": [
+				{
+					"name": "Institute of Medicine, Committee to Study HIV Transmission Through Blood and Blood Products"
+				}
+			],
+			"editors": [
+				{
+					"family": "Leveton",
+					"given": "Lauren B."
+				},
+				{
+					"family": "Sox",
+					"given": "Harold C., Jr."
+				},
+				{
+					"family": "Stoto",
+					"given": "Michael A."
+				}
+			],
+			"publisher": "National Academy Press",
+			"place": "Washington, DC",
+			"published": "1995",
+			"doi": "10.17226/4989",
+			"url": "https://nap.nationalacademies.org/read/4989/chapter/1",
+			"accessed": "2026-10-01",
+			"note": "The executive summary, and chapter 3, the history: the meeting of 4 January 1983, the joint statement and the first tests"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Possible Transfusion-Associated Acquired Immune Deficiency Syndrome (AIDS) — California",
+			"authors": [
+				{
+					"name": "Centers for Disease Control"
+				}
+			],
+			"container": "Morbidity and Mortality Weekly Report",
+			"volume": "31",
+			"issue": "48",
+			"pages": "652–654",
+			"published": "1982-12-10",
+			"url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00001203.htm",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Pneumocystis carinii Pneumonia among Persons with Hemophilia A",
+			"authors": [
+				{
+					"name": "Centers for Disease Control"
+				}
+			],
+			"container": "Morbidity and Mortality Weekly Report",
+			"volume": "31",
+			"issue": "27",
+			"pages": "365–367",
+			"published": "1982-07-16",
+			"url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00001126.htm",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Report of the Infected Blood Inquiry. Volume 1: Overview and Recommendations",
+			"authors": [
+				{
+					"family": "Langstaff",
+					"given": "Brian"
+				}
+			],
+			"publisher": "Infected Blood Inquiry",
+			"place": "London",
+			"published": "2024-05-20",
+			"url": "https://www.infectedbloodinquiry.org.uk/reports/inquiry-report",
+			"accessed": "2026-10-01",
+			"note": "The summary, §1.1: the numbers infected and the deaths"
+		},
+		{
+			"kind": "article",
+			"title": "Screening Test for HTLV-III (AIDS Agent) Antibodies: Specificity, Sensitivity, and Applications",
+			"authors": [
+				{
+					"family": "Weiss",
+					"given": "Stanley H."
+				},
+				{
+					"family": "Goedert",
+					"given": "J. J."
+				},
+				{
+					"family": "Sarngadharan",
+					"given": "M. G."
+				},
+				{
+					"family": "Bodner",
+					"given": "A. J."
+				},
+				{
+					"family": "Gallo",
+					"given": "Robert C."
+				},
+				{
+					"family": "Blattner",
+					"given": "W. A."
+				}
+			],
+			"container": "JAMA",
+			"volume": "253",
+			"issue": "2",
+			"pages": "221–225",
+			"published": "1985",
+			"doi": "10.1001/jama.1985.03350260073029",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Duration of Time from Onset of Human Immunodeficiency Virus Type 1 Infectiousness to Development of Detectable Antibody",
+			"authors": [
+				{
+					"family": "Petersen",
+					"given": "L. R."
+				},
+				{
+					"family": "Satten",
+					"given": "G. A."
+				},
+				{
+					"family": "Dodd",
+					"given": "R. Y."
+				},
+				{
+					"family": "Busch",
+					"given": "M. P."
+				},
+				{
+					"family": "Kleinman",
+					"given": "S. H."
+				},
+				{
+					"family": "Grindon",
+					"given": "A. J."
+				},
+				{
+					"family": "Lenes",
+					"given": "B. A."
+				}
+			],
+			"etAl": true,
+			"container": "Transfusion",
+			"volume": "34",
+			"issue": "4",
+			"pages": "283–289",
+			"published": "1994",
+			"doi": "10.1046/j.1537-2995.1994.34494233574.x",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ELISA",
+			"url": "https://en.wikipedia.org/w/index.php?title=ELISA&oldid=1372032848",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Royal Commission of Inquiry on the Blood System in Canada",
+			"url": "https://en.wikipedia.org/w/index.php?title=Royal_Commission_of_Inquiry_on_the_Blood_System_in_Canada&oldid=1360635715",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "media",
+			"title": "Elisa assay test",
+			"url": "https://commons.wikimedia.org/wiki/File:Elisa_assay_test.jpg",
+			"accessed": "2026-10-01",
+			"container": "National Cancer Institute, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "nci-elisa-1985.jpg",
+			"authors": [
+				{
+					"family": "Branson",
+					"given": "Bill"
+				}
+			],
+			"published": "1985-03"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/rh-factor",
+			"why": "The first case of AIDS from transfusion was an infant treated for Rh disease of the newborn."
+		}
+	]
+}

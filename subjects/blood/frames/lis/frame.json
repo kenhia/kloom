@@ -1,0 +1,294 @@
+{
+	"id": "lis",
+	"topic": "Laboratory information systems",
+	"position": {
+		"label": "1960s–90s",
+		"sort": 1965
+	},
+	"scene": {
+		"headline": "We gave every unit one",
+		"accent": "NUMBER.",
+		"palette": "bench",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MGH · MUMPS · ICCBBA · FDA",
+			"REQUISITION SLIPS · BAR CODES · ISBT 128 · AUDIT TRAIL"
+		],
+		"counter": {
+			"value": "1 in 19,000",
+			"label": "red-cell units given to the wrong patient or of the wrong group, New York, 1992"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Twenty-Five Years Later: Has ISBT 128 Fulfilled Its Promise?",
+			"authors": [
+				{
+					"family": "Distler",
+					"given": "Pat"
+				},
+				{
+					"family": "Ashford",
+					"given": "Paul"
+				}
+			],
+			"container": "Transfusion",
+			"volume": "59",
+			"issue": "12",
+			"pages": "3776–3782",
+			"published": "2019",
+			"doi": "10.1111/trf.15519",
+			"accessed": "2026-10-01",
+			"note": "ABC Codabar's flaws, the 1989 request and the 1994 specification"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "ISBT 128 Standard Technical Specification",
+			"authors": [
+				{
+					"name": "ICCBBA"
+				}
+			],
+			"publisher": "ICCBBA",
+			"edition": "Version 6.2.2",
+			"published": "2023-04",
+			"url": "https://iccbba.org/wp-content/uploads/2025/08/1a7593_1d979d39efc64822a9880496c2ebe4ef.pdf",
+			"accessed": "2026-10-01",
+			"note": "Data Structure 001, the donation identification number (section 2.4.1), and the check character K (Appendix A)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Persistence . . . and Prayer: From the Artificial Kidney to the AutoAnalyzer",
+			"authors": [
+				{
+					"family": "Skeggs",
+					"given": "Leonard T., Jr."
+				}
+			],
+			"container": "Clinical Chemistry",
+			"volume": "46",
+			"issue": "9",
+			"pages": "1425–1436",
+			"published": "2000-09",
+			"doi": "10.1093/clinchem/46.9.1425",
+			"accessed": "2026-10-01",
+			"note": "Table 3, the daily laboratory routine"
+		},
+		{
+			"kind": "article",
+			"title": "Transfusion-Associated Fatalities: Review of Bureau of Biologics Reports 1976–1978",
+			"authors": [
+				{
+					"family": "Honig",
+					"given": "C. L."
+				},
+				{
+					"family": "Bove",
+					"given": "J. R."
+				}
+			],
+			"container": "Transfusion",
+			"volume": "20",
+			"issue": "6",
+			"pages": "653–661",
+			"published": "1980",
+			"doi": "10.1046/j.1537-2995.1980.20681057154.x",
+			"abstractOnly": true,
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Reports of 355 Transfusion-Associated Deaths: 1976 through 1985",
+			"authors": [
+				{
+					"family": "Sazama",
+					"given": "K."
+				}
+			],
+			"container": "Transfusion",
+			"volume": "30",
+			"issue": "7",
+			"pages": "583–590",
+			"published": "1990",
+			"doi": "10.1046/j.1537-2995.1990.30790385515.x",
+			"abstractOnly": true,
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "A Report of 104 Transfusion Errors in New York State",
+			"authors": [
+				{
+					"family": "Linden",
+					"given": "J. V."
+				},
+				{
+					"family": "Paul",
+					"given": "B."
+				},
+				{
+					"family": "Dressler",
+					"given": "K. P."
+				}
+			],
+			"container": "Transfusion",
+			"volume": "32",
+			"issue": "7",
+			"pages": "601–606",
+			"published": "1992",
+			"doi": "10.1046/j.1537-2995.1992.32792391030.x",
+			"abstractOnly": true,
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Transfusion Errors in New York State: An Analysis of 10 Years' Experience",
+			"authors": [
+				{
+					"family": "Linden",
+					"given": "J. V."
+				},
+				{
+					"family": "Wagner",
+					"given": "K."
+				},
+				{
+					"family": "Voytovich",
+					"given": "A. E."
+				},
+				{
+					"family": "Sheehan",
+					"given": "J."
+				}
+			],
+			"container": "Transfusion",
+			"volume": "40",
+			"issue": "10",
+			"pages": "1207–1213",
+			"published": "2000",
+			"doi": "10.1046/j.1537-2995.2000.40101207.x",
+			"abstractOnly": true,
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Electronic Verification of Donor-Recipient Compatibility: The Computer Crossmatch",
+			"authors": [
+				{
+					"family": "Butch",
+					"given": "S. H."
+				},
+				{
+					"family": "Judd",
+					"given": "W. J."
+				},
+				{
+					"family": "Steiner",
+					"given": "E. A."
+				},
+				{
+					"family": "Stoe",
+					"given": "M."
+				},
+				{
+					"family": "Oberman",
+					"given": "H. A."
+				}
+			],
+			"container": "Transfusion",
+			"volume": "34",
+			"issue": "2",
+			"pages": "105–109",
+			"published": "1994",
+			"doi": "10.1046/j.1537-2995.1994.34294143935.x",
+			"abstractOnly": true,
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Letter to Manufacturers of Blood Establishment Computer Software Products",
+			"authors": [
+				{
+					"name": "Food and Drug Administration"
+				}
+			],
+			"container": "Federal Register 59, no. 168 (31 August 1994), FR Doc. 94-21389",
+			"published": "1994-08-31",
+			"url": "https://www.govinfo.gov/content/pkg/FR-1994-08-31/html/94-21389.htm",
+			"accessed": "2026-10-01",
+			"note": "The letter of 31 March 1994, printed in full"
+		},
+		{
+			"kind": "report",
+			"title": "Guidance for Industry: Blood Establishment Computer System Validation in the User's Facility",
+			"authors": [
+				{
+					"name": "Center for Biologics Evaluation and Research"
+				}
+			],
+			"publisher": "Food and Drug Administration",
+			"place": "Rockville, MD",
+			"published": "2013-04",
+			"url": "https://www.fda.gov/files/vaccines,%20blood%20&%20biologics/published/Guidance-for-Industry--Blood-Establishment-Computer-System-Validation-in-the-User's-Facility.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "MUMPS",
+			"url": "https://en.wikipedia.org/w/index.php?title=MUMPS&oldid=1370059139",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Laboratory information management system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Laboratory_information_management_system&oldid=1369984301",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ISBT 128",
+			"url": "https://en.wikipedia.org/w/index.php?title=ISBT_128&oldid=1295054681",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-11"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/autoanalyzer",
+			"why": "Skeggs set out his own laboratory's day, AutoAnalyzers already running, as ten steps on paper: the routine the information system took over."
+		},
+		{
+			"to": "computing/minicomputer",
+			"why": "MUMPS, written at Massachusetts General Hospital in 1966–67 for admissions and laboratory reporting, ran on DEC's PDP-7 and PDP-9 and spread on the PDP-8 and PDP-11: the minicomputers made to be wired into laboratories."
+		}
+	]
+}

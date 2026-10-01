@@ -3,7 +3,7 @@ import json, os, shutil, subprocess, sys, tempfile, unittest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from subject_plan import plan_problems  # noqa: E402
+from subject_plan import merge_drafts, plan_problems  # noqa: E402
 
 PALETTES = {'flint', 'chalk'}
 
@@ -83,6 +83,30 @@ class Check(unittest.TestCase):
         r = self.run_check(plan({'a': {'palette': 'flint'}, 'b': {'palette': 'flint'}}))
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertIn('warning:', r.stdout)
+
+
+class MergeDrafts(unittest.TestCase):
+    """--complete's name drafts (sprint 028): two directories drafting one id differently are said."""
+
+    def test_says_when_two_directories_draft_one_id(self):
+        root = tempfile.mkdtemp()
+        try:
+            a, b, names = (os.path.join(root, x) for x in ('a', 'b', 'names'))
+            for d in (a, b, names):
+                os.makedirs(d)
+            for d, home in ((a, 'blood/x'), (b, None)):
+                with open(os.path.join(d, 'factor.json'), 'w') as fh:
+                    json.dump({'id': 'factor', 'home': home}, fh)
+            with open(os.path.join(b, 'same.json'), 'w') as fh:
+                fh.write('{}')
+            with open(os.path.join(a, 'same.json'), 'w') as fh:
+                fh.write('{}')
+            out = merge_drafts([a, b], names)
+            self.assertEqual(len(out), 1)
+            self.assertIn('factor.json is drafted in both', out[0])
+            self.assertEqual(sorted(os.listdir(names)), ['factor.json', 'same.json'])
+        finally:
+            shutil.rmtree(root)
 
 
 if __name__ == '__main__':

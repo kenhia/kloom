@@ -1,0 +1,126 @@
+{
+	"id": "abo",
+	"topic": "Landsteiner's ABO blood groups",
+	"position": { "label": "1901", "sort": 1901 },
+	"scene": {
+		"headline": "Our blood was not all",
+		"accent": "ALIKE.",
+		"palette": "vein",
+		"illustration": "scene.svg",
+		"metadata": ["VIENNA · KARL LANDSTEINER", "WIENER KLINISCHE WOCHENSCHRIFT · 14 NOVEMBER 1901"],
+		"counter": { "value": "36", "label": "mixtures of serum and cells in his first table" }
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ueber Agglutinationserscheinungen normalen menschlichen Blutes",
+			"authors": [{ "family": "Landsteiner", "given": "Karl" }],
+			"container": "Wiener klinische Wochenschrift",
+			"volume": "14",
+			"issue": "46",
+			"pages": "1132–1134",
+			"published": "1901-11-14",
+			"language": "de",
+			"url": "https://archive.org/details/wienerklinischew14unse",
+			"accessed": "2026-10-01",
+			"note": "Method and Table I on p. 1133; the three groups, the dried bloodstain and the transfusions on pp. 1133–1134. Read in the University of Illinois copy; translations in the reading are ours"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Blood Group Serology—the First Four Decades (1900–1939)",
+			"authors": [{ "family": "Farr", "given": "A. D." }],
+			"container": "Medical History",
+			"volume": "23",
+			"issue": "2",
+			"pages": "215–226",
+			"published": "1979",
+			"doi": "10.1017/S0025727300051383",
+			"accessed": "2026-10-01",
+			"note": "The four groups, the clashing numberings and the early techniques"
+		},
+		{
+			"kind": "article",
+			"title": "Zur Kenntnis der antifermentativen, lytischen und agglutinierenden Wirkungen des Blutserums und der Lymphe",
+			"authors": [{ "family": "Landsteiner", "given": "Karl" }],
+			"container": "Centralblatt für Bakteriologie, Parasitenkunde und Infektionskrankheiten, 1. Abteilung",
+			"volume": "27",
+			"pages": "357–362",
+			"published": "1900",
+			"language": "de",
+			"url": "https://archive.org/details/s1623id1378173",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Studies in Isoagglutination. I. Transfusion and the Question of Intravascular Agglutination",
+			"authors": [{ "family": "Ottenberg", "given": "Reuben" }],
+			"container": "Journal of Experimental Medicine",
+			"volume": "13",
+			"issue": "4",
+			"pages": "425–438",
+			"published": "1911-04-01",
+			"doi": "10.1084/jem.13.4.425",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ABO blood group system",
+			"url": "https://en.wikipedia.org/w/index.php?title=ABO_blood_group_system&oldid=1371545206",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Karl Landsteiner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Karl_Landsteiner&oldid=1372451943",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reuben Ottenberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reuben_Ottenberg&oldid=1366289362",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Agglutination (biology)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Agglutination_(biology)&oldid=1328410570",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-19"
+		},
+		{
+			"kind": "media",
+			"title": "Tabelle I of Landsteiner's “Ueber Agglutinationserscheinungen normalen menschlichen Blutes”",
+			"url": "https://archive.org/details/wienerklinischew14unse/page/n1161/mode/1up",
+			"accessed": "2026-10-01",
+			"authors": [{ "family": "Landsteiner", "given": "Karl" }],
+			"container": "Wiener klinische Wochenschrift 14, no. 46, p. 1133; University of Illinois copy on the Internet Archive, cropped for kloom",
+			"published": "1901-11-14",
+			"licence": "Public domain",
+			"file": "table-1901.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/tube-typing",
+			"why": "Landsteiner's serum mixed with cells is the root of forward and reverse typing and of the crossmatch done by hand in tubes."
+		}
+	]
+}

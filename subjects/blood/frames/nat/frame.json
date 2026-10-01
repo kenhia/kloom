@@ -1,0 +1,362 @@
+{
+	"id": "nat",
+	"topic": "Nucleic acid testing",
+	"position": {
+		"label": "1999",
+		"sort": 1999
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "We narrowed the",
+		"accent": "WINDOW.",
+		"palette": "ward",
+		"illustration": "scene.svg",
+		"metadata": [
+			"US BLOOD PROGRAMMES · FDA INVESTIGATIONAL PROTOCOLS",
+			"MINIPOOLS OF 16 TO 24 · PCR AND TMA · HIV AND HEPATITIS C"
+		],
+		"counter": {
+			"value": "12",
+			"label": "HIV-carrying donations found among 37 million that passed the antibody test, 1999–2002"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Detection of HIV-1 and HCV Infections among Antibody-Negative Blood Donors by Nucleic Acid–Amplification Testing",
+			"authors": [
+				{
+					"family": "Stramer",
+					"given": "Susan L."
+				},
+				{
+					"family": "Glynn",
+					"given": "Simone A."
+				},
+				{
+					"family": "Kleinman",
+					"given": "Steven H."
+				},
+				{
+					"family": "Strong",
+					"given": "D. Michael"
+				},
+				{
+					"family": "Caglioti",
+					"given": "Sally"
+				},
+				{
+					"family": "Wright",
+					"given": "David J."
+				},
+				{
+					"family": "Dodd",
+					"given": "Roger Y."
+				}
+			],
+			"etAl": true,
+			"container": "New England Journal of Medicine",
+			"volume": "351",
+			"issue": "8",
+			"pages": "760–768",
+			"published": "2004",
+			"doi": "10.1056/NEJMoa040085",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A New Strategy for Estimating Risks of Transfusion-Transmitted Viral Infections Based on Rates of Detection of Recently Infected Donors",
+			"authors": [
+				{
+					"family": "Busch",
+					"given": "Michael P."
+				},
+				{
+					"family": "Glynn",
+					"given": "Simone A."
+				},
+				{
+					"family": "Stramer",
+					"given": "Susan L."
+				},
+				{
+					"family": "Strong",
+					"given": "D. Michael"
+				},
+				{
+					"family": "Caglioti",
+					"given": "Sally"
+				},
+				{
+					"family": "Wright",
+					"given": "David J."
+				},
+				{
+					"family": "Pappalardo",
+					"given": "Brandee L."
+				}
+			],
+			"etAl": true,
+			"container": "Transfusion",
+			"volume": "45",
+			"issue": "2",
+			"pages": "254–264",
+			"published": "2005",
+			"doi": "10.1111/j.1537-2995.2004.04215.x",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Performance Characteristics of the COBAS AmpliScreen HIV-1 Test, Version 1.5, an Assay Designed for Screening Plasma Mini-Pools",
+			"authors": [
+				{
+					"family": "Yang",
+					"given": "Yanfeng"
+				},
+				{
+					"family": "Lamendola",
+					"given": "Misty-Hope"
+				},
+				{
+					"family": "Mendoza",
+					"given": "Miguel"
+				},
+				{
+					"family": "Xu",
+					"given": "Dick"
+				},
+				{
+					"family": "Nguyen",
+					"given": "Minh"
+				},
+				{
+					"family": "Yeh",
+					"given": "Sheria"
+				},
+				{
+					"family": "Wu",
+					"given": "Yiqiao"
+				}
+			],
+			"etAl": true,
+			"container": "Transfusion",
+			"volume": "41",
+			"issue": "5",
+			"pages": "643–651",
+			"published": "2001",
+			"doi": "10.1046/j.1537-2995.2001.41050643.x",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Guidance for Industry: Use of Nucleic Acid Tests on Pooled and Individual Samples from Donors of Whole Blood and Blood Components, including Source Plasma, to Reduce the Risk of Transmission of Hepatitis B Virus",
+			"authors": [
+				{
+					"name": "Center for Biologics Evaluation and Research"
+				}
+			],
+			"publisher": "US Food and Drug Administration",
+			"place": "Rockville, MD",
+			"published": "2012-10",
+			"url": "https://www.fda.gov/media/124225/download",
+			"accessed": "2026-10-01",
+			"note": "Its definition of deconstruction, and the pool sizes of the licensed tests"
+		},
+		{
+			"kind": "article",
+			"title": "The Risk of Transfusion-Transmitted Viral Infections",
+			"authors": [
+				{
+					"family": "Schreiber",
+					"given": "George B."
+				},
+				{
+					"family": "Busch",
+					"given": "Michael P."
+				},
+				{
+					"family": "Kleinman",
+					"given": "Steven H."
+				},
+				{
+					"family": "Korelitz",
+					"given": "James"
+				}
+			],
+			"container": "New England Journal of Medicine",
+			"volume": "334",
+			"issue": "26",
+			"pages": "1685–1690",
+			"published": "1996",
+			"doi": "10.1056/NEJM199606273342601",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Duration of Time from Onset of Human Immunodeficiency Virus Type 1 Infectiousness to Development of Detectable Antibody",
+			"authors": [
+				{
+					"family": "Petersen",
+					"given": "L. R."
+				},
+				{
+					"family": "Satten",
+					"given": "G. A."
+				},
+				{
+					"family": "Dodd",
+					"given": "R. Y."
+				},
+				{
+					"family": "Busch",
+					"given": "M. P."
+				},
+				{
+					"family": "Kleinman",
+					"given": "S. H."
+				},
+				{
+					"family": "Grindon",
+					"given": "A. J."
+				},
+				{
+					"family": "Lenes",
+					"given": "B. A."
+				}
+			],
+			"etAl": true,
+			"container": "Transfusion",
+			"volume": "34",
+			"issue": "4",
+			"pages": "283–289",
+			"published": "1994",
+			"doi": "10.1046/j.1537-2995.1994.34494233574.x",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Prevalence, Incidence, and Residual Risk of Human Immunodeficiency Virus and Hepatitis C Virus Infections among United States Blood Donors since the Introduction of Nucleic Acid Testing",
+			"authors": [
+				{
+					"family": "Zou",
+					"given": "Shimian"
+				},
+				{
+					"family": "Dorsey",
+					"given": "Kerri A."
+				},
+				{
+					"family": "Notari",
+					"given": "Edward P."
+				},
+				{
+					"family": "Foster",
+					"given": "Gregory A."
+				},
+				{
+					"family": "Krysztof",
+					"given": "David E."
+				},
+				{
+					"family": "Musavi",
+					"given": "Fatemeh"
+				},
+				{
+					"family": "Dodd",
+					"given": "Roger Y."
+				}
+			],
+			"etAl": true,
+			"container": "Transfusion",
+			"volume": "50",
+			"issue": "7",
+			"pages": "1495–1504",
+			"published": "2010",
+			"doi": "10.1111/j.1537-2995.2010.02622.x",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Prevention of Transfusion-Transmitted Infections",
+			"authors": [
+				{
+					"family": "Busch",
+					"given": "Michael P."
+				},
+				{
+					"family": "Bloch",
+					"given": "Evan M."
+				},
+				{
+					"family": "Kleinman",
+					"given": "Steven"
+				}
+			],
+			"container": "Blood",
+			"volume": "133",
+			"issue": "17",
+			"pages": "1854–1864",
+			"published": "2019",
+			"doi": "10.1182/blood-2018-11-833996",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nucleic acid test",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nucleic_acid_test&oldid=1365255008",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transcription-mediated amplification",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transcription-mediated_amplification&oldid=1255029740",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-11-02"
+		},
+		{
+			"kind": "media",
+			"title": "The window period for HIV and hepatitis C, by screening test (chart)",
+			"url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1537-2995.2004.04215.x",
+			"accessed": "2026-10-01",
+			"container": "Drawn for kloom from Busch and colleagues (2005) and Petersen and colleagues (1994)",
+			"licence": "MIT",
+			"file": "window.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/hiv-blood",
+			"why": "Both turn on the window period, when an infection is present and no test finds it."
+		},
+		{
+			"to": "chemistry/pcr",
+			"why": "From 1999 donated blood was screened in pools for the RNA of HIV and hepatitis C, and Roche's screening test found it by RT-PCR, the copying reaction thought of at Cetus in 1983."
+		}
+	]
+}

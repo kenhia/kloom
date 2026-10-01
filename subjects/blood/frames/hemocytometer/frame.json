@@ -1,0 +1,155 @@
+{
+	"id": "hemocytometer",
+	"topic": "Counting cells on the hemocytometer",
+	"position": {
+		"label": "1852–1881",
+		"sort": 1852
+	},
+	"scene": {
+		"headline": "We counted blood by the",
+		"accent": "SQUARE.",
+		"palette": "bench",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TÜBINGEN · PARIS · HEIDELBERG",
+			"THOMA PIPETTE · 1 IN 200 · 0.1 MM DEEP · 1/400 MM² SQUARES"
+		],
+		"counter": {
+			"value": "±8%",
+			"label": "the Army's estimate of a routine hand count's error, 1951"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Methods for Medical Laboratory Technicians",
+			"number": "TM 8-227, AFM 160-14",
+			"authors": [
+				{
+					"name": "Departments of the Army and the Air Force"
+				}
+			],
+			"publisher": "Departments of the Army and the Air Force",
+			"place": "Washington, DC",
+			"published": "1951-08-03",
+			"url": "https://archive.org/details/TM8227",
+			"accessed": "2026-10-01",
+			"note": "Paragraphs 62–63: the red and white counts, the arithmetic, the sources of error and the accuracy of a count"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Evolution of Blood-Counting Techniques",
+			"authors": [
+				{
+					"family": "Verso",
+					"given": "M. L."
+				}
+			],
+			"container": "Medical History",
+			"volume": "8",
+			"issue": "2",
+			"pages": "149–158",
+			"published": "1964",
+			"doi": "10.1017/S0025727300029392",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "De la numération des globules rouges du sang",
+			"authors": [
+				{
+					"family": "Malassez",
+					"given": "Louis-Charles"
+				}
+			],
+			"place": "Paris",
+			"published": "1873",
+			"language": "fr",
+			"url": "https://archive.org/details/IA41549903_0067",
+			"accessed": "2026-10-01",
+			"note": "Vierordt's method, Rollett's hour and Vierordt's 8 per cent, pp. 7–9"
+		},
+		{
+			"kind": "report",
+			"title": "Medical Laboratory Technician: Hematology, Serology, Blood Banking and Immunohematology, 10-4",
+			"number": "ERIC ED 224 893",
+			"authors": [
+				{
+					"name": "Air Force Training Command"
+				}
+			],
+			"publisher": "Air Force Training Command and the National Center for Research in Vocational Education, Ohio State University",
+			"place": "Sheppard Air Force Base, Texas, and Columbus, Ohio",
+			"published": "1978",
+			"url": "https://archive.org/details/ERIC_ED224893",
+			"accessed": "2026-10-01",
+			"note": "Military Curriculum Materials series"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hemocytometer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hemocytometer&oldid=1336556471",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Karl von Vierordt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Karl_von_Vierordt&oldid=1372017952",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Louis-Charles Malassez",
+			"url": "https://en.wikipedia.org/w/index.php?title=Louis-Charles_Malassez&oldid=1326352937",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-08"
+		},
+		{
+			"kind": "media",
+			"title": "Hemocitometar MNT",
+			"url": "https://commons.wikimedia.org/wiki/File:Hemocitometar_MNT.jpg",
+			"accessed": "2026-10-01",
+			"container": "Museum of Science and Technology, Belgrade, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "thoma-hemocytometer.jpg",
+			"authors": [
+				{
+					"family": "Jurišić",
+					"given": "Miloš"
+				}
+			],
+			"published": "2019-03-25"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/coulter",
+			"why": "The Coulter counter ended the count by hand in the ruled chamber."
+		}
+	]
+}

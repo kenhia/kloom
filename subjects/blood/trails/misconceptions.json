@@ -1,0 +1,21 @@
+{
+	"id": "misconceptions",
+	"title": "What we got wrong",
+	"anchor": "humours",
+	"spine": {
+		"segments": [
+			{
+				"id": "wrong",
+				"title": "Beliefs that lasted",
+				"labelKind": "date",
+				"frames": [
+					"purity-of-blood",
+					"bloodletting",
+					"louis-numerical",
+					"race-serology",
+					"segregated-blood"
+				]
+			}
+		]
+	}
+}

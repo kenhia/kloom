@@ -1,0 +1,228 @@
+{
+	"id": "royal-hemophilia",
+	"topic": "Hemophilia and Queen Victoria",
+	"position": {
+		"label": "1853",
+		"sort": 1853
+	},
+	"scene": {
+		"headline": "We read the royal disease in the",
+		"accent": "BONES.",
+		"palette": "ward",
+		"illustration": "scene.svg",
+		"metadata": [
+			"OSBORNE · CANNES · YEKATERINBURG",
+			"QUEEN VICTORIA · LEOPOLD · ALEXEI · FACTOR IX"
+		],
+		"counter": {
+			"value": "9",
+			"label": "of Victoria's male descendants known to have had hemophilia"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Genotype Analysis Identifies the Cause of the “Royal Disease”",
+			"authors": [
+				{
+					"family": "Rogaev",
+					"given": "Evgeny I."
+				},
+				{
+					"family": "Grigorenko",
+					"given": "Anastasia P."
+				},
+				{
+					"family": "Faskhutdinova",
+					"given": "Gulnaz"
+				},
+				{
+					"family": "Kittler",
+					"given": "Ellen L. W."
+				},
+				{
+					"family": "Moliaka",
+					"given": "Yuri K."
+				}
+			],
+			"container": "Science",
+			"volume": "326",
+			"issue": "5954",
+			"pages": "817",
+			"published": "2009-11-06",
+			"doi": "10.1126/science.1180660",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Achievements and Peculiarities in Studies of Ancient DNA and DNA from Complicated Forensic Specimens",
+			"authors": [
+				{
+					"family": "Grigorenko",
+					"given": "Anastasia P."
+				},
+				{
+					"family": "Borinskaya",
+					"given": "Svetlana A."
+				},
+				{
+					"family": "Yankovsky",
+					"given": "Nikolay K."
+				},
+				{
+					"family": "Rogaev",
+					"given": "Evgeny I."
+				}
+			],
+			"container": "Acta Naturae",
+			"volume": "1",
+			"issue": "3",
+			"pages": "58–69",
+			"published": "2009-10",
+			"doi": "10.32607/20758251-2009-1-3-58-69",
+			"accessed": "2026-10-01",
+			"note": "The royal disease: the methods (Table 6), Alexandra's and Alexei's genotypes and the splicing test"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Haemophilia in European royalty",
+			"url": "https://en.wikipedia.org/w/index.php?title=Haemophilia_in_European_royalty&oldid=1351399008",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-27",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Mystery Solved: The Identification of the Two Missing Romanov Children Using DNA Analysis",
+			"authors": [
+				{
+					"family": "Coble",
+					"given": "Michael D."
+				},
+				{
+					"family": "Loreille",
+					"given": "Odile M."
+				},
+				{
+					"family": "Wadhams",
+					"given": "Mark J."
+				},
+				{
+					"family": "Edson",
+					"given": "Suni M."
+				},
+				{
+					"family": "Maynard",
+					"given": "Kerry"
+				},
+				{
+					"family": "Meyer",
+					"given": "Carna E."
+				},
+				{
+					"family": "Niederstätter",
+					"given": "Harald"
+				}
+			],
+			"etAl": true,
+			"container": "PLoS ONE",
+			"volume": "4",
+			"issue": "3",
+			"pages": "e4838",
+			"published": "2009-03-11",
+			"doi": "10.1371/journal.pone.0004838",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Haemophilia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Haemophilia&oldid=1369030747",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Haemophilia B",
+			"url": "https://en.wikipedia.org/w/index.php?title=Haemophilia_B&oldid=1366895589",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Prince Leopold, Duke of Albany",
+			"url": "https://en.wikipedia.org/w/index.php?title=Prince_Leopold,_Duke_of_Albany&oldid=1375605426",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alexei Nikolaevich, Tsarevich of Russia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alexei_Nikolaevich,_Tsarevich_of_Russia&oldid=1377035920",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "The Royal Family, Osborne 1857",
+			"url": "https://commons.wikimedia.org/wiki/File:Caldesi_%26_Montecchi_-_The_Royal_Family,_Osborne_1857_-_Google_Art_Project.jpg",
+			"accessed": "2026-10-01",
+			"container": "Royal Collection, London, via Google Art Project and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "royal-family-1857.jpg",
+			"authors": [
+				{
+					"name": "Caldesi & Montecchi"
+				}
+			],
+			"published": "1857"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/cryoprecipitate",
+			"why": "Cryoprecipitate gave people with Victoria's disease their missing factor in a small volume."
+		},
+		{
+			"to": "chemistry/pcr",
+			"why": "The 2009 analysis that named the royal disease copied the factor IX gene out of ninety-year-old bones with the polymerase chain reaction, in short overlapping pieces, from about a hundred trillionths of a gram of DNA."
+		}
+	]
+}

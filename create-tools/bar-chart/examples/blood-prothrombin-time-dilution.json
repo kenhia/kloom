@@ -1,0 +1,23 @@
+{
+	"title": "Quick's prothrombin time as plasma is diluted, 1935",
+	"description": "Bar chart. Clotting time of normal human plasma with excess thromboplastin and calcium as it is diluted with salt solution: undiluted 23 seconds, 80 per cent plasma 30, 60 per cent 35, 40 per cent 45, 20 per cent 65. Data: Quick, Stanley-Brown and Bancroft 1935, table 2.",
+	"heading": "QUICK 1935 · CLOTTING TIME AS PLASMA IS DILUTED",
+	"unit": " s",
+	"axis": {
+		"max": 80,
+		"ticks": [
+			[0, "0"],
+			[20, "20 s"],
+			[40, "40 s"],
+			[60, "60 s"],
+			[80, "80 s"]
+		]
+	},
+	"bars": [
+		{ "label": "100%", "sublabel": "plasma", "value": 23 },
+		{ "label": "80%", "sublabel": "plasma", "value": 30 },
+		{ "label": "60%", "sublabel": "plasma", "value": 35 },
+		{ "label": "40%", "sublabel": "plasma", "value": 45 },
+		{ "label": "20%", "sublabel": "plasma", "value": 65, "highlight": true }
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "clotting",
+	"title": "Clotting",
+	"anchor": "cryoprecipitate",
+	"spine": {
+		"segments": [
+			{
+				"id": "clot",
+				"title": "Clotting and its drugs",
+				"labelKind": "date",
+				"frames": [
+					"royal-hemophilia",
+					"heparin",
+					"prothrombin-time",
+					"warfarin",
+					"hemophilia-hiv",
+					"recombinant-factor"
+				]
+			}
+		]
+	}
+}

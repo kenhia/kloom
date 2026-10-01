@@ -1,0 +1,164 @@
+{
+	"id": "hemophilia-hiv",
+	"topic": "Hemophilia and contaminated factor",
+	"position": {
+		"label": "1982–85",
+		"sort": 1982
+	},
+	"scene": {
+		"headline": "Each vial held the plasma of",
+		"accent": "THOUSANDS.",
+		"palette": "ward",
+		"illustration": "scene.svg",
+		"metadata": [
+			"FACTOR VIII CONCENTRATE · POOLS OF 1,000 TO 30,000 DONORS",
+			"CDC, JULY 1982 · HEAT TREATMENT, 1983–85 · INQUIRIES TO 2024"
+		],
+		"counter": {
+			"value": "1,250",
+			"label": "people with bleeding disorders infected with HIV in the UK"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Pneumocystis carinii Pneumonia among Persons with Hemophilia A",
+			"authors": [
+				{
+					"name": "Centers for Disease Control"
+				}
+			],
+			"container": "Morbidity and Mortality Weekly Report",
+			"volume": "31",
+			"issue": "27",
+			"pages": "365–367",
+			"published": "1982-07-16",
+			"url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00001126.htm",
+			"accessed": "2026-10-01",
+			"note": "The three cases, and the editorial note on pools of a thousand or more donors"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "HIV and the Blood Supply: An Analysis of Crisis Decisionmaking",
+			"authors": [
+				{
+					"name": "Institute of Medicine, Committee to Study HIV Transmission Through Blood and Blood Products"
+				}
+			],
+			"editors": [
+				{
+					"family": "Leveton",
+					"given": "Lauren B."
+				},
+				{
+					"family": "Sox",
+					"given": "Harold C."
+				},
+				{
+					"family": "Stoto",
+					"given": "Michael A."
+				}
+			],
+			"publisher": "National Academy Press",
+			"place": "Washington, DC",
+			"published": "1995",
+			"url": "https://nap.nationalacademies.org/read/4989/chapter/1",
+			"doi": "10.17226/4989",
+			"accessed": "2026-10-01",
+			"note": "Pool sizes, the hepatitis record, heat treatment and its uptake, the timeline, and the US toll"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Infected Blood Inquiry: The Report. Volume 1, Overview and Recommendations",
+			"authors": [
+				{
+					"family": "Langstaff",
+					"given": "Brian"
+				}
+			],
+			"number": "HC 569-I",
+			"publisher": "House of Commons",
+			"place": "London",
+			"published": "2024-05-20",
+			"url": "https://www.infectedbloodinquiry.org.uk/reports/inquiry-report",
+			"accessed": "2026-10-01",
+			"note": "Pp. 2 (the toll), 19 (Treloar's), 52 (Craske and the NHS pools) and 88 (commercial pool sizes)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Contaminated haemophilia blood products",
+			"url": "https://en.wikipedia.org/w/index.php?title=Contaminated_haemophilia_blood_products&oldid=1352105943",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Infected blood scandal in the United Kingdom",
+			"url": "https://en.wikipedia.org/w/index.php?title=Infected_blood_scandal_in_the_United_Kingdom&oldid=1377739948",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Infected blood scandal in France",
+			"url": "https://en.wikipedia.org/w/index.php?title=Infected_blood_scandal_in_France&oldid=1351826539",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-30"
+		},
+		{
+			"kind": "article",
+			"title": "Antihemophilic Factor (Recombinant) Plasma/Albumin-Free Method for the Management and Prevention of Bleeding Episodes in Patients with Hemophilia A",
+			"authors": [
+				{
+					"family": "Pipe",
+					"given": "Steven"
+				}
+			],
+			"container": "Biologics: Targets and Therapy",
+			"volume": "3",
+			"pages": "117–125",
+			"published": "2009",
+			"accessed": "2026-10-01",
+			"doi": "10.2147/btt.2009.2872"
+		},
+		{
+			"kind": "media",
+			"title": "Chance that a plasma pool holds an infected donation, by pool size, at an invented rate of one in 10,000",
+			"url": "https://nap.nationalacademies.org/read/4989/chapter/1",
+			"container": "Drawn for kloom with create-tools/bar-chart; pool sizes from the Institute of Medicine (1995) and the Infected Blood Inquiry (2024)",
+			"licence": "MIT",
+			"file": "pool-risk.svg",
+			"accessed": "2026-10-01"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/hiv-blood",
+			"why": "The same crisis of 1982–85, seen from the side of people with hemophilia."
+		}
+	]
+}

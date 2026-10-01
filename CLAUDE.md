@@ -169,6 +169,12 @@ in the plan checked by `subject_plan.py --check`, every mark spec run by
 older, translated and second-hand sources (`1550 BC`, `translators`,
 `edition`, `language`, `letter`, `encyclopedia`, `citedIn`,
 `abstractOnly`).
+Sprint 028 the ninth subject, `subjects/blood`, _In the Blood_ (62
+frames: what we believed, what we learned, transfusion, what we do with
+blood, and the bench by hand and by machine; four trails, one of them
+military blood), built around Ken's father's career in Army blood banking
+and ending on a dedication to him; the first author-subject run after the
+tuning, with its decisions left on korg 3473.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

@@ -1,0 +1,294 @@
+{
+	"id": "blood-bag",
+	"topic": "The plastic blood bag",
+	"position": {
+		"label": "1950",
+		"sort": 1950
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "We traded the bottle for a",
+		"accent": "BAG.",
+		"palette": "plasma",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BOSTON · CARL W. WALTER · FENWAL",
+			"PLASTICISED PVC · A CLOSED SYSTEM · SATELLITE BAGS"
+		],
+		"counter": {
+			"value": "300 ft",
+			"label": "the fall onto a rigid platform that a filled bag withstood, in Walter's patent"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Blood Program in World War II",
+			"authors": [
+				{
+					"family": "Kendrick",
+					"given": "Douglas B."
+				}
+			],
+			"container": "Medical Department, United States Army in World War II",
+			"publisher": "Office of The Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://achh.army.mil/history/book-wwii-blood-default",
+			"accessed": "2026-10-01",
+			"note": "Pyrogens (p. 179), losses in the plasma programme (table 8, p. 306), the pressure bulb and air embolism (p. 693), plastic containers (pp. 758–760)"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Apparatus for Collecting, Storing, and Dispensing Whole Blood. US Patent 2,702,034",
+			"authors": [
+				{
+					"family": "Walter",
+					"given": "Carl W."
+				}
+			],
+			"publisher": "United States Patent Office",
+			"published": "1955-02-15",
+			"url": "https://patents.google.com/patent/US2702034A/en",
+			"accessed": "2026-10-01",
+			"note": "Applied for 20 July 1950; assigned to Fenwal"
+		},
+		{
+			"kind": "web",
+			"title": "Walter, Carl W. (Carl Waldemar), 1905–1992. Papers, 1933–1992, 1996: Finding Aid",
+			"container": "Harvard Medical Library, Francis A. Countway Library of Medicine",
+			"publisher": "Harvard University",
+			"url": "http://oasis.lib.harvard.edu/oasis/deliver/~med00087",
+			"accessed": "2026-10-01",
+			"note": "Its biographical notes"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Quality Assessment of Platelet Concentrates Prepared by Platelet Rich Plasma-Platelet Concentrate, Buffy Coat Poor-Platelet Concentrate (BC-PC) and Apheresis-PC Methods",
+			"authors": [
+				{
+					"family": "Singh",
+					"given": "R. P."
+				},
+				{
+					"family": "Marwaha",
+					"given": "N."
+				},
+				{
+					"family": "Malhotra",
+					"given": "P."
+				},
+				{
+					"family": "Dash",
+					"given": "S."
+				}
+			],
+			"container": "Asian Journal of Transfusion Science",
+			"volume": "3",
+			"issue": "2",
+			"pages": "86–94",
+			"published": "2009-07",
+			"doi": "10.4103/0973-6247.53882",
+			"accessed": "2026-10-01",
+			"note": "The platelet-rich plasma method and its spins"
+		},
+		{
+			"kind": "article",
+			"title": "Internal Quality Assessment of Blood Components at Mansoura University Blood Transfusion Center",
+			"authors": [
+				{
+					"family": "Shahin",
+					"given": "D."
+				},
+				{
+					"family": "Tawfeek",
+					"given": "A. M."
+				},
+				{
+					"family": "Khaled",
+					"given": "O."
+				},
+				{
+					"family": "Mortada",
+					"given": "M. I."
+				}
+			],
+			"container": "Scientific Reports",
+			"volume": "15",
+			"pages": "32501",
+			"published": "2025-09",
+			"doi": "10.1038/s41598-025-17334-1",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Plasticizers from Plastic Devices: Extraction, Metabolism, and Accumulation by Biological Systems",
+			"authors": [
+				{
+					"family": "Jaeger",
+					"given": "R. J."
+				},
+				{
+					"family": "Rubin",
+					"given": "R. J."
+				}
+			],
+			"container": "Science",
+			"volume": "170",
+			"issue": "3956",
+			"pages": "460–462",
+			"published": "1970-10",
+			"doi": "10.1126/science.170.3956.460",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "The Effect of the Plasticizer Di-2-Ethylhexyl Phthalate on the Survival of Stored RBCs",
+			"authors": [
+				{
+					"family": "AuBuchon",
+					"given": "J. P."
+				},
+				{
+					"family": "Estep",
+					"given": "T. N."
+				},
+				{
+					"family": "Davey",
+					"given": "R. J."
+				}
+			],
+			"container": "Blood",
+			"volume": "71",
+			"issue": "2",
+			"pages": "448–452",
+			"published": "1988-02",
+			"doi": "10.1182/blood.V71.2.448.448",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "DEHP-Plasticised PVC: Relevance to Blood Services",
+			"authors": [
+				{
+					"family": "Sampson",
+					"given": "J."
+				},
+				{
+					"family": "de Korte",
+					"given": "D."
+				}
+			],
+			"container": "Transfusion Medicine",
+			"volume": "21",
+			"issue": "2",
+			"pages": "73–83",
+			"published": "2011-04",
+			"doi": "10.1111/j.1365-3148.2010.01056.x",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "web",
+			"title": "Commission Regulation (EU) 2023/2482 of 13 November 2023 Amending Regulation (EC) No 1907/2006 as Regards the Substance Bis(2-Ethylhexyl) Phthalate (DEHP) in Medical Devices",
+			"container": "Official Journal of the European Union",
+			"publisher": "European Commission",
+			"published": "2023-11-14",
+			"url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2482",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl W. Walter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_W._Walter&oldid=1372828723",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood bank",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_bank&oldid=1374046641",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bis(2-ethylhexyl) phthalate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bis(2-ethylhexyl)_phthalate&oldid=1376614388",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polyvinyl chloride",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polyvinyl_chloride&oldid=1374614610",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "media",
+			"title": "Plastic equipment, standardized as replacement for glass bottles during Korean War; in center is collecting bottle formerly used",
+			"url": "https://archive.org/details/0014773.nlm.nih.gov/page/n801/mode/1up",
+			"accessed": "2026-10-01",
+			"container": "In Kendrick, Blood Program in World War II (1964), figure 180, p. 760; the National Library of Medicine's copy, cropped",
+			"licence": "Public domain",
+			"file": "korean-war-blood-bags.jpg",
+			"published": "1964"
+		},
+		{
+			"kind": "media",
+			"title": "Causes of bottles of blood lost in the World War II plasma programme (chart)",
+			"url": "https://archive.org/details/0014773.nlm.nih.gov/page/n347/mode/1up",
+			"accessed": "2026-10-01",
+			"container": "Chart drawn for kloom from Kendrick, Blood Program in World War II, table 8, p. 306",
+			"licence": "MIT",
+			"file": "wwii-losses.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/polymers",
+			"why": "A blood bag is soft only because its plasticiser, DEHP, sits between the long chains of PVC, the kind of molecule the polymers frame shows Staudinger proving real, without being bonded to them, which is why it leaches into stored blood."
+		}
+	]
+}

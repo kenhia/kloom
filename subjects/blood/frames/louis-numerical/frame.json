@@ -1,0 +1,130 @@
+{
+	"id": "louis-numerical",
+	"topic": "Louis's numerical method",
+	"position": {
+		"label": "1835",
+		"sort": 1835
+	},
+	"scene": {
+		"headline": "We bled, and then we",
+		"accent": "COUNTED.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · LA CHARITÉ · P. C. A. LOUIS",
+			"78 PNEUMONIAS · THE DAY OF THE FIRST BLEEDING"
+		],
+		"counter": {
+			"value": "18 of 41",
+			"label": "bled in the first four days died, against 9 of 36 bled later"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Researches on the Effects of Bloodletting in Some Inflammatory Diseases, and on the Influence of Tartarized Antimony and Vesication in Pneumonitis",
+			"authors": [
+				{
+					"family": "Louis",
+					"given": "P. Ch. A."
+				}
+			],
+			"translators": [
+				{
+					"family": "Putnam",
+					"given": "C. G."
+				}
+			],
+			"publisher": "Hilliard, Gray",
+			"place": "Boston",
+			"published": "1836",
+			"url": "https://archive.org/details/researchesoneffe00louiuoft",
+			"accessed": "2026-10-01",
+			"note": "The pneumonia tables, pp. 4–10; the method, pp. 55–65; with a preface by James Jackson"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Pierre-Charles-Alexandre Louis and the Evaluation of Bloodletting",
+			"authors": [
+				{
+					"family": "Morabia",
+					"given": "Alfredo"
+				}
+			],
+			"container": "JLL Bulletin: Commentaries on the History of Treatment Evaluation",
+			"publisher": "The James Lind Library",
+			"published": "2004",
+			"url": "https://www.jameslindlibrary.org/articles/pierre-charles-alexandre-louis-and-the-evaluation-of-bloodletting/",
+			"accessed": "2026-10-01",
+			"note": "Republished in the Journal of the Royal Society of Medicine 99 (2006): 158–160"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Jules Gavarret's Principes Généraux de Statistique Médicale: A Pioneering Text on the Statistical Analysis of the Results of Treatments",
+			"authors": [
+				{
+					"family": "Huth",
+					"given": "Edward J."
+				}
+			],
+			"container": "JLL Bulletin: Commentaries on the History of Treatment Evaluation",
+			"publisher": "The James Lind Library",
+			"published": "2006",
+			"url": "https://www.jameslindlibrary.org/articles/jules-gavarrets-principes-generaux-de-statistique-medicale-a-pioneering-text-on-the-statistical-analysis-of-the-results-of-treatments/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre Charles Alexandre Louis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre_Charles_Alexandre_Louis&oldid=1345370291",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bloodletting",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bloodletting&oldid=1371451278",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "media",
+			"title": "Louis's table of the fatal cases of pneumonia, by the day of the first bleeding",
+			"url": "https://archive.org/details/researchesoneffe00louiuoft/page/10/mode/1up",
+			"accessed": "2026-10-01",
+			"container": "Louis, Researches on the Effects of Bloodletting (Boston, 1836), p. 10, University of Toronto copy, via the Internet Archive",
+			"licence": "Public domain",
+			"file": "louis-fatal-table.jpg",
+			"authors": [
+				{
+					"family": "Louis",
+					"given": "P. Ch. A."
+				}
+			],
+			"published": "1836"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/large-numbers",
+			"why": "In 1840 Jules Gavarret applied Poisson's law of large numbers to Louis's counts, showing that a death rate of 37 per cent among 140 patients could still lie anywhere from about 26 to 49 per cent."
+		}
+	]
+}

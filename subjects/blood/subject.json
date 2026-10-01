@@ -1,0 +1,114 @@
+{
+	"title": "In the Blood",
+	"subtitle": "what we believed, what we learned, how we use it",
+	"palettes": {
+		"humour": {
+			"scheme": "dark",
+			"background": "#16120e",
+			"ink": "#efe6d8",
+			"muted": "#b3a48f",
+			"accent": "#d9a441",
+			"line": "#d6c8b2",
+			"counterpart": "vellum"
+		},
+		"vellum": {
+			"scheme": "light",
+			"background": "#f4efe4",
+			"ink": "#221b13",
+			"muted": "#5e5243",
+			"accent": "#85550f",
+			"line": "#30271c",
+			"counterpart": "humour"
+		},
+		"anatomy": {
+			"scheme": "dark",
+			"background": "#121418",
+			"ink": "#e6e8ec",
+			"muted": "#a3a9b3",
+			"accent": "#e88d72",
+			"line": "#c7ccd4",
+			"counterpart": "folio"
+		},
+		"folio": {
+			"scheme": "light",
+			"background": "#f2f0ec",
+			"ink": "#1b1c1f",
+			"muted": "#545860",
+			"accent": "#8c3b2e",
+			"line": "#2a2c30",
+			"counterpart": "anatomy"
+		},
+		"vein": {
+			"scheme": "dark",
+			"background": "#170d0f",
+			"ink": "#f2e4e4",
+			"muted": "#bfa1a3",
+			"accent": "#f0605e",
+			"line": "#dcc2c4",
+			"counterpart": "plasma"
+		},
+		"plasma": {
+			"scheme": "light",
+			"background": "#f7f2e1",
+			"ink": "#231c14",
+			"muted": "#5d5244",
+			"accent": "#a3161f",
+			"line": "#2f271d",
+			"counterpart": "vein"
+		},
+		"cryo": {
+			"scheme": "dark",
+			"background": "#0f151b",
+			"ink": "#e3ebf1",
+			"muted": "#9eafbd",
+			"accent": "#8fc7e8",
+			"line": "#c3d2de",
+			"counterpart": "ward"
+		},
+		"ward": {
+			"scheme": "light",
+			"background": "#f3f5f4",
+			"ink": "#182021",
+			"muted": "#4d5a5c",
+			"accent": "#b0262c",
+			"line": "#263033",
+			"counterpart": "cryo"
+		},
+		"bench": {
+			"scheme": "dark",
+			"background": "#101613",
+			"ink": "#e3ede7",
+			"muted": "#9db1a6",
+			"accent": "#7fd1a8",
+			"line": "#c2d4ca",
+			"counterpart": "slide"
+		},
+		"slide": {
+			"scheme": "light",
+			"background": "#f5f3f6",
+			"ink": "#1d1a22",
+			"muted": "#554e5e",
+			"accent": "#7b2f8e",
+			"line": "#2b2731",
+			"counterpart": "bench"
+		},
+		"maroon": {
+			"scheme": "dark",
+			"background": "#3d0f17",
+			"ink": "#f7eced",
+			"muted": "#dab4b9",
+			"accent": "#e6e9ec",
+			"line": "#ecd3d6",
+			"counterpart": "branch"
+		},
+		"branch": {
+			"scheme": "light",
+			"background": "#f7f2f2",
+			"ink": "#241316",
+			"muted": "#5e4448",
+			"accent": "#800000",
+			"line": "#33191d",
+			"counterpart": "maroon"
+		}
+	}
+}

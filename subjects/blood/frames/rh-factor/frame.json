@@ -1,0 +1,297 @@
+{
+	"id": "rh-factor",
+	"topic": "The Rh factor",
+	"position": {
+		"label": "1939–41",
+		"sort": 1940
+	},
+	"scene": {
+		"headline": "A mother could be immune to her",
+		"accent": "CHILD.",
+		"palette": "plasma",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEWARK · NEW YORK · LEVINE, STETSON, LANDSTEINER, WIENER",
+			"RHESUS CELLS · GUINEA-PIG SERUM · ANTI-D"
+		],
+		"counter": {
+			"value": "15.4%",
+			"label": "of 448 white people tested were Rh-negative, 1941"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Studies on an Agglutinogen (Rh) in Human Blood Reacting with Anti-Rhesus Sera and with Human Isoantibodies",
+			"authors": [
+				{
+					"family": "Landsteiner",
+					"given": "Karl"
+				},
+				{
+					"family": "Wiener",
+					"given": "Alexander S."
+				}
+			],
+			"container": "Journal of Experimental Medicine",
+			"volume": "74",
+			"issue": "4",
+			"pages": "309–320",
+			"published": "1941-09",
+			"doi": "10.1084/jem.74.4.309",
+			"accessed": "2026-10-01",
+			"note": "The guinea-pig serum, the tube test and its reading (pp. 310–311); 448 people and 60 families"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Unusual Case of Intra-Group Agglutination",
+			"authors": [
+				{
+					"family": "Levine",
+					"given": "Philip"
+				},
+				{
+					"family": "Stetson",
+					"given": "Rufus E."
+				}
+			],
+			"container": "Journal of the American Medical Association",
+			"volume": "113",
+			"issue": "2",
+			"pages": "126–127",
+			"published": "1939-07-08",
+			"doi": "10.1001/jama.1939.72800270002007a",
+			"accessed": "2026-10-01",
+			"citedIn": "Landsteiner and Wiener, “Studies on an Agglutinogen (Rh)” (1941), and Mafra et al., “Genetic Diversity of the RHD Gene” (2026)"
+		},
+		{
+			"kind": "article",
+			"title": "An Agglutinable Factor in Human Blood Recognized by Immune Sera for Rhesus Blood",
+			"authors": [
+				{
+					"family": "Landsteiner",
+					"given": "Karl"
+				},
+				{
+					"family": "Wiener",
+					"given": "Alexander S."
+				}
+			],
+			"container": "Proceedings of the Society for Experimental Biology and Medicine",
+			"volume": "43",
+			"issue": "1",
+			"pages": "223",
+			"published": "1940",
+			"doi": "10.3181/00379727-43-11151",
+			"accessed": "2026-10-01",
+			"citedIn": "Landsteiner and Wiener, “Studies on an Agglutinogen (Rh)” (1941)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Ætiology of Erythroblastosis Fœtalis and Certain Hæmolytic Transfusion Reactions, with Special Reference to the Rh Factor",
+			"authors": [
+				{
+					"family": "Mollison",
+					"given": "P. L."
+				}
+			],
+			"container": "Proceedings of the Royal Society of Medicine",
+			"volume": "36",
+			"issue": "5",
+			"pages": "221–225",
+			"published": "1943-03",
+			"doi": "10.1177/003591574303600505",
+			"accessed": "2026-10-01",
+			"note": "Read at the Section of Therapeutics and Pharmacology, 8 December 1942"
+		},
+		{
+			"kind": "article",
+			"title": "The Role of Iso-Immunization in the Pathogenesis of Erythroblastosis Fetalis",
+			"authors": [
+				{
+					"family": "Levine",
+					"given": "Philip"
+				},
+				{
+					"family": "Burnham"
+				},
+				{
+					"family": "Katzin"
+				},
+				{
+					"family": "Vogel"
+				}
+			],
+			"container": "American Journal of Obstetrics and Gynecology",
+			"volume": "42",
+			"issue": "6",
+			"pages": "925–937",
+			"published": "1941-12",
+			"doi": "10.1016/S0002-9378(41)90260-0",
+			"accessed": "2026-10-01",
+			"citedIn": "Mollison, “The Ætiology of Erythroblastosis Fœtalis” (1943)"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Hemolytic Disease of the Newborn",
+			"authors": [
+				{
+					"family": "Dean",
+					"given": "L."
+				}
+			],
+			"container": "Blood Groups and Red Cell Antigens",
+			"publisher": "National Center for Biotechnology Information",
+			"place": "Bethesda, MD",
+			"published": "2005",
+			"url": "https://www.ncbi.nlm.nih.gov/books/NBK2266/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "History of Rh",
+			"authors": [
+				{
+					"family": "Reid",
+					"given": "M. M."
+				}
+			],
+			"container": "Journal of the Royal College of Physicians of London",
+			"volume": "31",
+			"issue": "1",
+			"pages": "112–113",
+			"published": "1997-01",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5420863/",
+			"accessed": "2026-10-01",
+			"note": "A letter to the editor"
+		},
+		{
+			"kind": "article",
+			"title": "Genetic Diversity of the RHD Gene in Blood Donors from the Brazilian Central-West",
+			"authors": [
+				{
+					"family": "Mafra",
+					"given": "A. L. A."
+				},
+				{
+					"family": "de Mesquita",
+					"given": "W. R."
+				},
+				{
+					"family": "Pimentel",
+					"given": "B. M. S."
+				},
+				{
+					"family": "Andre",
+					"given": "F. G. U."
+				},
+				{
+					"family": "Santos",
+					"given": "F. L. S."
+				},
+				{
+					"family": "Covas",
+					"given": "D. T."
+				},
+				{
+					"family": "Castilho",
+					"given": "L."
+				}
+			],
+			"etAl": true,
+			"container": "Hematology, Transfusion and Cell Therapy",
+			"volume": "48",
+			"issue": "4",
+			"pages": "106506",
+			"published": "2026-07",
+			"doi": "10.1016/j.htct.2026.106506",
+			"accessed": "2026-10-01",
+			"note": "Its introduction summarises the Levine and Stetson case"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rh blood group system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rh_blood_group_system&oldid=1377264587",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hemolytic disease of the newborn",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hemolytic_disease_of_the_newborn&oldid=1363965028",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Philip Levine (physician)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Philip_Levine_(physician)&oldid=1370338823",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alexander S. Wiener",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alexander_S._Wiener&oldid=1372838210",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "media",
+			"title": "Blood smear showing erythroblastosis fetalis; Giemsa stain, ×950",
+			"url": "https://commons.wikimedia.org/wiki/File:Blood_smear_showing_erythroblastosis_fetalis;_giemsa_stain._Wellcome_M0011467.jpg",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "A. G. Erskine"
+				}
+			],
+			"container": "Wellcome Collection, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "erythroblastosis-smear.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/abo",
+			"why": "Rh was Landsteiner's second blood group system to matter in transfusion, forty years after ABO."
+		},
+		{
+			"to": "blood/coombs",
+			"why": "The incomplete anti-D of hemolytic disease was what the antiglobulin test made visible."
+		}
+	]
+}

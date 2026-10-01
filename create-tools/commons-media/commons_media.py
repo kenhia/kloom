@@ -92,6 +92,8 @@ def search(text, limit=12):
 
 
 # "c. 1504 BC", "circa 1890", never the C. of "b.C.": a word of its own, before a number.
+# Two dates joined by a slash, a dash or "to": a span, which the fetch says it wrote as circa its start.
+RANGE = re.compile(r'\b(1[0-9]{3}|20[0-9]{2})(?:-[0-9]{2}){0,2}\s*(?:/|–|—| to )\s*(?:1[0-9]{3}|20[0-9]{2})\b')
 CIRCA = re.compile(r'(?<![\w.])(c\.|ca\.|circa|about|approx(\.|imately)?)\s*(?=\d)', re.I)
 
 
@@ -103,6 +105,9 @@ def year(meta):
     tool turning "c. 1504 BC" into AD 1504."""
     when = meta.get('DateTimeOriginal', '')
     circa = bool(CIRCA.search(when))
+    span = RANGE.search(when)
+    if span:  # a range ("1941-01-01/1945-12-31") is not its first day (sprint 028): its first year, circa
+        return span.group(1), True
     bc = re.search(r'\b([1-9][0-9]{0,5})\s*B\.?\s?C\.?(E\.?)?(?![a-z])', when, re.I)
     if bc:
         return f'{bc.group(1)} BC', circa
@@ -121,16 +126,30 @@ NO_AUTHOR = re.compile(r'unknown|anonymous|不明|unbekannt|inconnu|not provided
                        r'\b(canon|epson|nikon|hp scanjet|fujitsu)\b|see (below|source)', re.I)
 
 
+# Words that make an Artist field an organisation, not a person: sprint 028 met "Smithsonian
+# Institution", "NASA Johnson Space Center" and "Colegio de Fonseca" split into family and given.
+ORG = re.compile(r'&|\b(Inc|Ltd|Co|Company|Museum|Library|University|Society|Archives?|Institution|Institute|'
+                 r'Cent(er|re)|Colegio|College|School|Academy|Agency|Laborator(y|ies)|Department|Office|Service|'
+                 r'Navy|Army|Corps|Command|Administration|Bureau|Ministry|Council|Foundation|Hospital|'
+                 r'Collection|Gallery|Studio)\b')
+
+
+def clean_title(name):
+    """The ObjectName without the Wikidata template text the Google Art Project's files carry after it
+    ("The Royal Family, Osborne 1857title QS:P1476,en:…", sprint 028)."""
+    return re.sub(r'\s*(?:title\s*)?QS:P\d+.*$', '', name or '').strip()
+
+
 def authors(artist):
     """The citation's `authors` from Commons' Artist field: [] when it is boilerplate, a person
     ("Richard Marsden (1859-1938)") as family and given names, anything else as a name."""
+    artist = re.sub(r'\s*Details on Google Art Project\s*$', '', artist)  # the Art Project's link text
     artist = re.sub(r'\s*\((?:[^()]*\d{3,4}[^()]*)\)\s*$', '', artist).strip()  # life dates
     if not artist or NO_AUTHOR.search(artist):
         return []
     words = artist.split()
     person = 2 <= len(words) <= 4 and all(re.fullmatch(r"[A-Z][\w'’.-]*\.?|(van|von|de|da|der|du|la)", w)
-                                          for w in words) and not re.search(r'\b(Inc|Ltd|Co|Company|Museum|'
-                                                                            r'Library|University|Society|Archives?)\b', artist)
+                                          for w in words) and not ORG.search(artist)
     if person:
         return [{'family': words[-1], 'given': ' '.join(words[:-1])}]
     return [{'name': artist}]
@@ -196,7 +215,7 @@ def fetch(title, frame_dir, name=None, width=960, accessed=None, page=None, jpeg
     # Where the work is from (a museum, a book) is the container, and only the file page says it.
     citation = {
         'kind': 'media',
-        'title': meta.get('ObjectName') or os.path.splitext(title[5:])[0],
+        'title': clean_title(meta.get('ObjectName')) or os.path.splitext(title[5:])[0],
         'url': i['descriptionurl'] + (f'?page={page}' if paged else ''),
         'accessed': accessed or datetime.date.today().isoformat(),
         'licence': 'Public domain' if re.match(r'^(public domain|pd)', lic, re.I) else lic,
@@ -206,6 +225,9 @@ def fetch(title, frame_dir, name=None, width=960, accessed=None, page=None, jpeg
     if who:
         citation['authors'] = who
     published, circa = year(meta)
+    if RANGE.search(meta.get('DateTimeOriginal', '')):
+        print(f"commons_media: the date is a span ({plain(meta.get('DateTimeOriginal'))}); written as circa its first "
+              'year: check it', file=sys.stderr)
     if published:
         citation['published'] = published
         if circa:

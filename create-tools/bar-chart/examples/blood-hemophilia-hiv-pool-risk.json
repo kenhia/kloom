@@ -1,0 +1,35 @@
+{
+	"title": "Chance that a plasma pool holds an infected donation (log scale)",
+	"description": "Bar chart on a logarithmic scale of the chance, in per cent, that a pool contains at least one infected donation when, by an invented rate, one donation in 10,000 carries a virus no test can find: computed as 1 − (1 − 1/10,000) to the power of the pool size. One donation, 0.01 per cent; a cryoprecipitate pool of 15, 0.15 per cent; a concentrate pool of 1,000, 9.5 per cent; 5,000, 39 per cent; 20,000, 86 per cent; 30,000, 95 per cent. Pool sizes from the Institute of Medicine (1995) and the Infected Blood Inquiry (2024); the arithmetic is the reading's own.",
+	"heading": "ONE DONATION IN 10,000 INFECTED (INVENTED) · LOG SCALE",
+	"unit": "%",
+	"scale": "log",
+	"width": 560,
+	"height": 300,
+	"barWidth": 52,
+	"axis": {
+		"min": 0.003,
+		"max": 300,
+		"ticks": [
+			[0.01, "0.01%"],
+			[0.1, "0.1%"],
+			[1, "1%"],
+			[10, "10%"],
+			[100, "100%"]
+		]
+	},
+	"bars": [
+		{ "label": "1", "sublabel": "one donor", "value": 0.01, "display": "0.01%" },
+		{ "label": "15", "sublabel": "cryo pool", "value": 0.15, "display": "0.15%" },
+		{ "label": "1,000", "sublabel": "donors", "value": 9.52, "display": "9.5%" },
+		{ "label": "5,000", "sublabel": "donors", "value": 39.35, "display": "39%" },
+		{
+			"label": "20,000",
+			"sublabel": "donors",
+			"value": 86.47,
+			"display": "86%",
+			"highlight": true
+		},
+		{ "label": "30,000", "sublabel": "donors", "value": 95.02, "display": "95%" }
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"blood/cryoprecipitate": [
+		["Hemophilia", "haemophilia"],
+		["factor VIII", "factor-viii"],
+		["Judith Graham Pool", "judith-graham-pool"],
+		["Stanford University", "stanford-university"],
+		["cryoprecipitate", "cryoprecipitate"],
+		["Cutter Laboratories", "cutter-laboratories"],
+		["Cohn process", "cohn-process"],
+		["fresh frozen plasma", "fresh-frozen-plasma"]
+	],
+	"blood/fractionation": [
+		["Harvard Medical School", "harvard-medical-school"],
+		["Edwin Joseph Cohn", "edwin-joseph-cohn"],
+		["Cohn process", "cohn-process"],
+		["albumin", "human-serum-albumin"],
+		["gamma globulin", "gamma-globulin"],
+		["Red Cross", "american-red-cross"],
+		["Pearl Harbor", "attack-on-pearl-harbor"]
+	],
+	"blood/bone-marrow": [
+		["bone marrow", "bone-marrow"],
+		["E. Donnall Thomas", "e-donnall-thomas"],
+		["hematopoietic stem cell transplantation", "hematopoietic-stem-cell-transplantation"],
+		["Georges Mathé", "georges-mathe"],
+		["leukemia", "leukemia"],
+		["graft-versus-host disease", "graft-versus-host-disease"],
+		["human leukocyte antigens", "human-leukocyte-antigen"],
+		["Robert A. Good", "robert-a-good"]
+	],
+	"blood/apheresis": [
+		["National Cancer Institute", "national-cancer-institute"],
+		["leukemia", "leukemia"],
+		["platelets", "platelet"],
+		["Emil J. Freireich", "emil-j-freireich"],
+		["apheresis", "apheresis"],
+		["granulocytes", "granulocyte"],
+		["IBM", "ibm"],
+		["peristaltic pump", "peristaltic-pump"]
+	]
+}

@@ -526,7 +526,10 @@ commons_media.py jpeg page.png page.jpg` composites a PNG's
   engraved plate's engraver is `engravers`. An `edition` is written as it
   reads ("2nd ed.", "Loeb Classical Library ed."). A source in another
   language carries `language`, a code (`"de"`, `"grc"`), and a Wikipedia
-  other than English must: `wiki-cite --lang de` writes it.
+  other than English must: `wiki-cite --lang de` writes it. A passage
+  you translate yourself is said to be "in our translation" in the
+  reading, with the original cited in its `language` (twelve readings in
+  four subjects do this; sprint 028 found the skill silent on it).
 - **Other kinds of source.** An RFC is a `report` with `number` "RFC 791",
   the RFC Editor (or, for the early ones, the Network Working Group) as
   `publisher`, and `doi` `10.17487/RFC0791`. A thesis is a `report` with

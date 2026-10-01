@@ -1,0 +1,114 @@
+{
+	"id": "autoanalyzer",
+	"topic": "Skeggs's AutoAnalyzer",
+	"position": { "label": "1957", "sort": 1957 },
+	"scene": {
+		"headline": "We ran the chemistry in a",
+		"accent": "STREAM.",
+		"palette": "slide",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CLEVELAND · LEONARD SKEGGS · TECHNICON",
+			"PUMP · AIR BUBBLES · DIALYSER · FLOW-CELL COLORIMETER"
+		],
+		"counter": { "value": "$3,200", "label": "the price of each of the first ten AutoAnalyzers" }
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Persistence . . . and Prayer: From the Artificial Kidney to the AutoAnalyzer",
+			"authors": [{ "family": "Skeggs", "given": "Leonard T., Jr." }],
+			"container": "Clinical Chemistry",
+			"volume": "46",
+			"issue": "9",
+			"pages": "1425–1436",
+			"published": "2000-09",
+			"doi": "10.1093/clinchem/46.9.1425",
+			"accessed": "2026-10-01",
+			"note": "Skeggs's own account: the manual laboratory, the models, the urea flow diagram (Fig. 8), the 1951 comparison (Table 2), the SMA and SMAC"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A System of Blood Analysis",
+			"authors": [
+				{ "family": "Folin", "given": "Otto" },
+				{ "family": "Wu", "given": "Hsien" }
+			],
+			"container": "Journal of Biological Chemistry",
+			"volume": "38",
+			"issue": "1",
+			"pages": "81–110",
+			"published": "1919-05",
+			"url": "https://archive.org/details/sim_journal-of-biological-chemistry_1919-05_38_1",
+			"accessed": "2026-10-01",
+			"note": "The tungstic acid filtrate, p. 84; urea by urease and distillation, pp. 94–97"
+		},
+		{
+			"kind": "article",
+			"title": "An Automatic Method for Colorimetric Analysis",
+			"authors": [{ "family": "Skeggs", "given": "Leonard T., Jr." }],
+			"container": "American Journal of Clinical Pathology",
+			"volume": "28",
+			"issue": "3",
+			"pages": "311–322",
+			"published": "1957-09",
+			"doi": "10.1093/ajcp/28.3_ts.311",
+			"accessed": "2026-10-01",
+			"note": "Read on its first page only"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "AutoAnalyzer",
+			"url": "https://en.wikipedia.org/w/index.php?title=AutoAnalyzer&oldid=1327705169",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Colorimeter (chemistry)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colorimeter_(chemistry)&oldid=1353767282",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Otto Folin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Otto_Folin&oldid=1371980999",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Technicon AutoAnalyzer setup, 1966 (PHIL 12048)",
+			"url": "https://commons.wikimedia.org/wiki/File:Technicon_AutoAnalyzer_setup_-_1966_-_PHIL_12048-.png",
+			"accessed": "2026-10-01",
+			"container": "Centers for Disease Control and Prevention, Public Health Image Library, via Wikimedia Commons",
+			"authors": [{ "family": "Duncan", "given": "Cecile" }],
+			"published": "1966",
+			"licence": "Public domain",
+			"file": "technicon.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/enzymes",
+			"why": "Folin and Wu split blood urea with an extract of jack-bean meal, the urease Sumner crystallised in 1926 as the first enzyme shown to be a protein, and Skeggs's first AutoAnalyzer ran the same urease reaction in a stream."
+		},
+		{
+			"to": "chemistry/wohler-urea",
+			"why": "The urea Wöhler made without a kidney in 1828 is the waste whose level in blood measures how well the kidneys work, and blood urea nitrogen was the first test the AutoAnalyzer was built to run."
+		}
+	]
+}

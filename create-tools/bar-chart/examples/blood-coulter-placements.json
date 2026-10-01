@@ -1,0 +1,20 @@
+{
+	"title": "Coulter Model A counters placed, 1957 to 1961",
+	"description": "Bar chart of Coulter Model A blood cell counters placed in laboratories, from the company's advertisements and records as tabulated by Graham (2020): 20 by June 1957, more than 150 by December 1958, more than 700 by January 1960 and more than 1,500 by February 1961.",
+	"heading": "COULTER MODEL A COUNTERS PLACED",
+	"axis": {
+		"max": 1800,
+		"ticks": [
+			[0, "0"],
+			[500, "500"],
+			[1000, "1,000"],
+			[1500, "1,500"]
+		]
+	},
+	"bars": [
+		{ "label": "Jun 1957", "value": 20, "display": "20" },
+		{ "label": "Dec 1958", "value": 150, "display": ">150" },
+		{ "label": "Jan 1960", "value": 700, "display": ">700" },
+		{ "label": "Feb 1961", "value": 1500, "display": ">1,500", "highlight": true }
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"id": "coombs-test",
+	"wikidata": "Q740056",
+	"name": "Coombs test",
+	"aliases": [
+		"antiglobulin test",
+		"antihuman globulin test",
+		"AHG test",
+		"direct antiglobulin test",
+		"indirect antiglobulin test",
+		"Coombs"
+	],
+	"kind": "idea",
+	"description": "A test that uses an antibody against human globulin to make visible the antibodies coating red cells: direct, for cells coated in the body, and indirect, for antibodies in serum; published by Coombs, Mourant and Race in 1945.",
+	"home": "blood/coombs"
+}

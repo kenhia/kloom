@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 40 L100 40"/>
+		<path pathLength="1" d="M20 220 L100 220"/>
+		<path pathLength="1" d="M115 40 L195 40"/>
+		<path pathLength="1" d="M115 220 L195 220"/>
+		<path pathLength="1" d="M210 40 L290 40"/>
+		<path pathLength="1" d="M210 220 L290 220"/>
+		<path pathLength="1" d="M305 40 L385 40"/>
+		<path pathLength="1" d="M305 220 L385 220"/>
+		<path pathLength="1" d="M40 244 L392 244"/>
+		<path pathLength="1" d="M40 284 L392 284"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M54 70 L55.6 70.2 L57 70.8 L58.2 71.8 L59.2 73 L59.8 74.4 L60 76 L60 184 L59.8 185.6 L59.2 187 L58.2 188.2 L57 189.2 L55.6 189.8 L54 190 L32 190 L30.4 189.8 L29 189.2 L27.8 188.2 L26.8 187 L26.2 185.6 L26 184 L26 76 L26.2 74.4 L26.8 73 L27.8 71.8 L29 70.8 L30.4 70.2 L32 70 Z"/>
+		<path pathLength="1" d="M88 120 L89.6 120.2 L91 120.8 L92.2 121.8 L93.2 123 L93.8 124.4 L94 126 L94 184 L93.8 185.6 L93.2 187 L92.2 188.2 L91 189.2 L89.6 189.8 L88 190 L76 190 L74.4 189.8 L73 189.2 L71.8 188.2 L70.8 187 L70.2 185.6 L70 184 L70 126 L70.2 124.4 L70.8 123 L71.8 121.8 L73 120.8 L74.4 120.2 L76 120 Z"/>
+		<path pathLength="1" d="M43 70 C43 50 82 50 82 120"/>
+		<path pathLength="1" d="M163 104 L164.6 104.2 L166 104.8 L167.2 105.8 L168.2 107 L168.8 108.4 L169 110 L169 174 L168.8 175.6 L168.2 177 L167.2 178.2 L166 179.2 L164.6 179.8 L163 180 L149 180 L147.4 179.8 L146 179.2 L144.8 178.2 L143.8 177 L143.2 175.6 L143 174 L143 110 L143.2 108.4 L143.8 107 L144.8 105.8 L146 104.8 L147.4 104.2 L149 104 Z"/>
+		<path pathLength="1" d="M122 112 L122 214 L190 214 L190 112"/>
+		<path pathLength="1" d="M258 104 L259.6 104.2 L261 104.8 L262.2 105.8 L263.2 107 L263.8 108.4 L264 110 L264 184 L263.8 185.6 L263.2 187 L262.2 188.2 L261 189.2 L259.6 189.8 L258 190 L242 190 L240.4 189.8 L239 189.2 L237.8 188.2 L236.8 187 L236.2 185.6 L236 184 L236 110 L236.2 108.4 L236.8 107 L237.8 105.8 L239 104.8 L240.4 104.2 L242 104 Z"/>
+		<path pathLength="1" d="M218.1 92.4 L219.4 89.2 L221.1 86.2 L223 83.3 L225.3 80.7 L227.8 78.3 L230.5 76.1 L233.4 74.3 L236.5 72.8 L239.8 71.6 L243.1 70.7 L246.5 70.2 L250 70 L253.5 70.2 L256.9 70.7 L260.2 71.6 L263.5 72.8 L266.6 74.3 L269.5 76.1 L272.2 78.3 L274.7 80.7 L277 83.3 L278.9 86.2 L280.6 89.2 L281.9 92.4"/>
+		<path pathLength="1" d="M345 48 L345 58"/>
+		<path pathLength="1" d="M345 58 L346.5 58.3 L347.8 59.2 L348.7 60.5 L349 62 L348.7 63.5 L347.8 64.8 L346.5 65.7 L345 66 L343.5 65.7 L342.2 64.8 L341.3 63.5 L341 62"/>
+		<path pathLength="1" d="M354 66 L355.6 66.2 L357 66.8 L358.2 67.8 L359.2 69 L359.8 70.4 L360 72 L360 138 L359.8 139.6 L359.2 141 L358.2 142.2 L357 143.2 L355.6 143.8 L354 144 L336 144 L334.4 143.8 L333 143.2 L331.8 142.2 L330.8 141 L330.2 139.6 L330 138 L330 72 L330.2 70.4 L330.8 69 L331.8 67.8 L333 66.8 L334.4 66.2 L336 66 Z"/>
+		<path pathLength="1" d="M345 144 L345 166"/>
+		<path pathLength="1" d="M356 166 L357.6 166.2 L359 166.8 L360.2 167.8 L361.2 169 L361.8 170.4 L362 172 L362 204 L361.8 205.6 L361.2 207 L360.2 208.2 L359 209.2 L357.6 209.8 L356 210 L334 210 L332.4 209.8 L331 209.2 L329.8 208.2 L328.8 207 L328.2 205.6 L328 204 L328 172 L328.2 170.4 L328.8 169 L329.8 167.8 L331 166.8 L332.4 166.2 L334 166 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M30 140 L56 134"/>
+		<path pathLength="1" d="M30 146 L56 140"/>
+		<path pathLength="1" d="M30 152 L56 146"/>
+		<path pathLength="1" d="M30 158 L56 152"/>
+		<path pathLength="1" d="M30 164 L56 158"/>
+		<path pathLength="1" d="M30 170 L56 164"/>
+		<path pathLength="1" d="M30 176 L56 170"/>
+		<path pathLength="1" d="M30 182 L56 176"/>
+		<path pathLength="1" d="M26 136 L60 136"/>
+		<path pathLength="1" d="M147 112 L165 118"/>
+		<path pathLength="1" d="M147 118 L165 112"/>
+		<path pathLength="1" d="M147 122 L165 128"/>
+		<path pathLength="1" d="M147 128 L165 122"/>
+		<path pathLength="1" d="M147 132 L165 138"/>
+		<path pathLength="1" d="M147 138 L165 132"/>
+		<path pathLength="1" d="M147 142 L165 148"/>
+		<path pathLength="1" d="M147 148 L165 142"/>
+		<path pathLength="1" d="M147 152 L165 158"/>
+		<path pathLength="1" d="M147 158 L165 152"/>
+		<path pathLength="1" d="M147 162 L165 168"/>
+		<path pathLength="1" d="M147 168 L165 162"/>
+		<path pathLength="1" d="M147 172 L165 178"/>
+		<path pathLength="1" d="M147 178 L165 172"/>
+		<path pathLength="1" d="M124 120 L188 120"/>
+		<path pathLength="1" d="M242 178 L245 179"/>
+		<path pathLength="1" d="M249 183 L252 184"/>
+		<path pathLength="1" d="M256 179 L259 180"/>
+		<path pathLength="1" d="M245 184 L248 185"/>
+		<path pathLength="1" d="M252 180 L255 181"/>
+		<path pathLength="1" d="M259 185 L262 186"/>
+		<path pathLength="1" d="M248 181 L251 182"/>
+		<path pathLength="1" d="M255 186 L258 187"/>
+		<path pathLength="1" d="M244 182 L247 183"/>
+		<path pathLength="1" d="M336 70 L339 71"/>
+		<path pathLength="1" d="M342 74 L345 75"/>
+		<path pathLength="1" d="M348 71 L351 72"/>
+		<path pathLength="1" d="M336 75 L339 76"/>
+		<path pathLength="1" d="M342 72 L345 73"/>
+		<path pathLength="1" d="M348 76 L351 77"/>
+		<path pathLength="1" d="M336 73 L339 74"/>
+		<path pathLength="1" d="M345 150 L345 153"/>
+		<path pathLength="1" d="M345 157 L345 160"/>
+		<path pathLength="1" d="M332 196 L358 196"/>
+		<path pathLength="1" d="M102 30 L113 30"/>
+		<path pathLength="1" d="M108.5 32.2 L113 30 L108.5 27.8"/>
+		<path pathLength="1" d="M197 30 L208 30"/>
+		<path pathLength="1" d="M203.5 32.2 L208 30 L203.5 27.8"/>
+		<path pathLength="1" d="M292 30 L303 30"/>
+		<path pathLength="1" d="M298.5 32.2 L303 30 L298.5 27.8"/>
+		<path pathLength="1" d="M40 244 L100 244 L120 284 L190 284 L210 244 L385 244"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="60" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SPIN · EXPRESS</text>
+		<text x="155" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FREEZE</text>
+		<text x="250" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THAW · SPIN</text>
+		<text x="345" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DRAIN</text>
+		<text x="36" y="247" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">+4 °C</text>
+		<text x="36" y="287" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">−60 °C</text>
+		<text x="155" y="274" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DRY ICE BATH</text>
+		<text x="296" y="238" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2–4 °C OVERNIGHT · 4–8 °C SPIN</text>
+	</g>
+</svg>
