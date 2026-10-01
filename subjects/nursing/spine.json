@@ -62,7 +62,15 @@
 			"id": "profession",
 			"title": "The modern profession",
 			"labelKind": "date",
-			"frames": ["training-schools", "henry-street", "licensure", "goldmark-report"]
+			"frames": [
+				"training-schools",
+				"henry-street",
+				"licensure",
+				"goldmark-report",
+				"polio-icu",
+				"nurse-practitioner",
+				"hospice"
+			]
 		},
 		{
 			"id": "dedication-seg",

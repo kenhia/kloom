@@ -1,0 +1,31 @@
+{
+	"nursing/polio-icu": [
+		["polio", "polio"],
+		["Copenhagen", "copenhagen"],
+		["iron lung", "iron-lung"],
+		["Bjørn Ibsen", "bjorn-aage-ibsen"],
+		["Massachusetts General Hospital", "massachusetts-general-hospital"],
+		["tracheotomy", "tracheotomy"],
+		["intensive care unit", "intensive-care-unit"]
+	],
+	"nursing/nurse-practitioner": [
+		["Loretta Ford", "loretta-ford"],
+		["nurse practitioner", "nurse-practitioner"],
+		["David Sackett", "david-sackett"],
+		["Office of Technology Assessment", "office-of-technology-assessment"],
+		["American Medical Association", "american-medical-association"],
+		["nurse anesthetist", "nurse-anesthetist"],
+		["Frontier Nursing Service", "frontier-nursing-service"],
+		["Hildegard Peplau", "hildegard-peplau"]
+	],
+	"nursing/hospice": [
+		["St Christopher's Hospice", "st-christophers-hospice"],
+		["Cicely Saunders", "cicely-saunders"],
+		["St Thomas' Hospital", "st-thomas-hospital"],
+		["heroin", "heroin"],
+		["Brompton cocktail", "brompton-cocktail"],
+		["morphine", "morphine"],
+		["Florence Wald", "florence-wald"],
+		["hospice", "hospice"]
+	]
+}

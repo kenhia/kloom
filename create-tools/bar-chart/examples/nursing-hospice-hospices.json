@@ -1,0 +1,23 @@
+{
+	"title": "Hospices serving Medicare patients, 2019 to 2024",
+	"description": "Bar chart of the number of hospices that provided care to Medicare beneficiaries, from MedPAC's March 2026 report, Table 10-1: 4,840 in 2019, 5,058 in 2020, 5,358 in 2021, 5,899 in 2022, 6,535 in 2023 and 6,706 in 2024, of which 3,435 and 5,497 were for-profit in the first and last years.",
+	"heading": "HOSPICES SERVING MEDICARE PATIENTS",
+	"axis": {
+		"max": 8000,
+		"ticks": [
+			[0, "0"],
+			[2000, "2,000"],
+			[4000, "4,000"],
+			[6000, "6,000"],
+			[8000, "8,000"]
+		]
+	},
+	"bars": [
+		{ "label": "2019", "value": 4840, "display": "4,840" },
+		{ "label": "2020", "value": 5058, "display": "5,058" },
+		{ "label": "2021", "value": 5358, "display": "5,358" },
+		{ "label": "2022", "value": 5899, "display": "5,899" },
+		{ "label": "2023", "value": 6535, "display": "6,535" },
+		{ "label": "2024", "value": 6706, "display": "6,706", "highlight": true }
+	]
+}

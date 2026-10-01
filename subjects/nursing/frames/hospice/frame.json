@@ -1,0 +1,246 @@
+{
+	"id": "hospice",
+	"topic": "Cicely Saunders and hospice",
+	"asOf": "2026-10-01",
+	"position": {
+		"label": "1967",
+		"sort": 1967
+	},
+	"scene": {
+		"headline": "We dosed by the",
+		"accent": "CLOCK.",
+		"palette": "chart",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SYDENHAM · ST CHRISTOPHER'S HOSPICE · CICELY SAUNDERS",
+			"EVERY FOUR HOURS · BEFORE THE PAIN RETURNS"
+		],
+		"counter": {
+			"value": "1%",
+			"label": "of 3,362 patients, 1972–77, with pain still a problem"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Treatment of Intractable Pain in Terminal Cancer",
+			"authors": [
+				{
+					"family": "Saunders",
+					"given": "Cicely"
+				}
+			],
+			"container": "Proceedings of the Royal Society of Medicine",
+			"volume": "56",
+			"issue": "3",
+			"pages": "195–197",
+			"published": "1963-03",
+			"doi": "10.1177/003591576305600322",
+			"accessed": "2026-10-01",
+			"note": "Her rules for giving analgesics, from St Joseph's Hospice"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Care of the Terminal Stages of Cancer",
+			"authors": [
+				{
+					"family": "Saunders",
+					"given": "Cicely M. S."
+				}
+			],
+			"container": "Annals of the Royal College of Surgeons of England",
+			"volume": "41",
+			"pages": "162–169",
+			"published": "1967",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2312282/",
+			"accessed": "2026-10-01",
+			"note": "1,100 patients, the 200-patient series, and \"All of me is wrong\""
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Total Pain: The Work of Cicely Saunders and the Hospice Movement",
+			"authors": [
+				{
+					"family": "Clark",
+					"given": "David"
+				}
+			],
+			"container": "APS Bulletin",
+			"volume": "10",
+			"issue": "4",
+			"published": "2000-07",
+			"url": "http://www.ampainsoc.org/pub/bulletin/jul00/hist1.htm",
+			"accessed": "2026-10-01",
+			"note": "Total pain, Twycross's trials, and the end of the Brompton mixture"
+		},
+		{
+			"kind": "article",
+			"title": "Choice of Strong Analgesic in Terminal Cancer: Diamorphine or Morphine?",
+			"authors": [
+				{
+					"family": "Twycross",
+					"given": "Robert G."
+				}
+			],
+			"container": "Pain",
+			"volume": "3",
+			"issue": "2",
+			"pages": "93–104",
+			"published": "1977",
+			"citedIn": "Total Pain: The Work of Cicely Saunders and the Hospice Movement"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Our History",
+			"authors": [
+				{
+					"name": "St Christopher's Hospice"
+				}
+			],
+			"publisher": "St Christopher's Hospice",
+			"url": "https://www.stchristophers.org.uk/about/history/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Dame Cicely Saunders",
+			"authors": [
+				{
+					"name": "St Christopher's Hospice"
+				}
+			],
+			"publisher": "St Christopher's Hospice",
+			"url": "https://www.stchristophers.org.uk/about/damecicelysaunders/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "History",
+			"authors": [
+				{
+					"name": "The Connecticut Hospice"
+				}
+			],
+			"publisher": "The Connecticut Hospice",
+			"url": "https://www.hospice.com/about/history/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Hospice Services: Assessing Payment Adequacy and Updating Payments",
+			"authors": [
+				{
+					"name": "Medicare Payment Advisory Commission"
+				}
+			],
+			"container": "Report to the Congress: Medicare Payment Policy, March 2026",
+			"number": "Chapter 10",
+			"publisher": "MedPAC",
+			"place": "Washington, DC",
+			"published": "2026-03",
+			"url": "https://www.medpac.gov/wp-content/uploads/2026/03/Mar26_Ch10_MedPAC_Report_To_Congress_SEC.pdf",
+			"accessed": "2026-10-01",
+			"note": "Hospices, users and ownership in 2024, Table 10-1"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cicely Saunders",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cicely_Saunders&oldid=1372597780",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "St Christopher's Hospice",
+			"url": "https://en.wikipedia.org/w/index.php?title=St_Christopher's_Hospice&oldid=1354849797",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Florence Wald",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Wald&oldid=1372827249",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Brompton cocktail",
+			"url": "https://en.wikipedia.org/w/index.php?title=Brompton_cocktail&oldid=1368608457",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hospice",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hospice&oldid=1368225157",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "media",
+			"title": "St. Christopher's Hospice",
+			"url": "https://commons.wikimedia.org/wiki/File:St._Christopher%27s_Hospice.jpg",
+			"accessed": "2026-10-01",
+			"licence": "CC BY-SA 2.0",
+			"file": "st-christophers.jpg",
+			"authors": [
+				{
+					"family": "Craven",
+					"given": "Stephen"
+				}
+			],
+			"container": "Geograph Britain and Ireland",
+			"published": "2005-10-02"
+		},
+		{
+			"kind": "media",
+			"title": "Hospices serving Medicare patients, 2019–2024",
+			"url": "https://www.medpac.gov/wp-content/uploads/2026/03/Mar26_Ch10_MedPAC_Report_To_Congress_SEC.pdf",
+			"container": "Chart drawn for kloom from MedPAC, March 2026 report, Table 10-1",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "hospices.svg"
+		}
+	]
+}
