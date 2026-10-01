@@ -1,0 +1,181 @@
+{
+	"id": "thonet-chair",
+	"topic": "Thonet's bentwood chair No. 14",
+	"position": {
+		"label": "1859",
+		"sort": 1859
+	},
+	"scene": {
+		"headline": "We bent beech in a",
+		"accent": "STRAP.",
+		"palette": "oak",
+		"illustration": "scene.svg",
+		"metadata": [
+			"VIENNA · KORYČANY · MICHAEL THONET AND SONS",
+			"STEAMED BEECH · A STEEL STRAP · TEN SCREWS, TWO NUTS"
+		],
+		"counter": {
+			"value": "36",
+			"label": "No. 14 chairs, knocked down, packed in one cubic metre"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Specialty Treatments",
+			"authors": [
+				{
+					"family": "Ibach",
+					"given": "Rebecca E."
+				}
+			],
+			"container": "Wood Handbook: Wood as an Engineering Material",
+			"number": "FPL-GTR-190",
+			"publisher": "US Department of Agriculture, Forest Service, Forest Products Laboratory",
+			"place": "Madison, WI",
+			"published": "2010",
+			"url": "https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr190/chapter_19.pdf",
+			"accessed": "2026-09-30",
+			"note": "Plasticizing, the strap and end pressure, steaming times, fixing the bend; pp. 19-1 to 19-4"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Thonet Bentwood Furniture and the Iconic Chair No. 14 from Moravia",
+			"authors": [
+				{
+					"family": "Margolius",
+					"given": "Ivan"
+				}
+			],
+			"container": "The Friends of Czech Heritage Newsletter",
+			"issue": "21",
+			"pages": "13–14",
+			"published": "2019",
+			"url": "https://www.czechfriends.net/images/Thonet.pdf",
+			"accessed": "2026-09-30",
+			"note": "Read in the Wayback Machine's copy of September 2023"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Design Calendar: December 10th 1869 – Thonet Relinquish Solid Wood Bending Privilege",
+			"container": "smow Blog",
+			"published": "2018-12-10",
+			"url": "https://www.smow.com/blog/2018/12/smow-blog-design-calender-december-10th-1869-thonet-relinquish-solid-wood-bending-privilege/",
+			"accessed": "2026-09-30",
+			"note": "The privileges of 1842 and 1856, after Mathias Schwartz-Clauss"
+		},
+		{
+			"kind": "web",
+			"title": "Bentwood",
+			"container": "Thonet",
+			"publisher": "Thonet GmbH",
+			"url": "https://www.thonet.de/en/services/materials/bentwood",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "No. 14 chair",
+			"url": "https://en.wikipedia.org/w/index.php?title=No._14_chair&oldid=1335084926",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Michael Thonet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Michael_Thonet&oldid=1313207018",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gebrüder Thonet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gebr%C3%BCder_Thonet&oldid=1362915423",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Steam bending",
+			"url": "https://en.wikipedia.org/w/index.php?title=Steam_bending&oldid=1320971051",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bentwood",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bentwood&oldid=1373969235",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "media",
+			"title": "Chair No. 14, Thonet, designed 1859 and made about 1920, in bentwood beech with a cane seat, Germanisches Nationalmuseum, Nuremberg",
+			"url": "https://commons.wikimedia.org/wiki/File:Chair_No._14,_Thonet,_design_1859,_manufactured_c._1920,_bentwood_beech,_walnut_stain,_woven_cane_seat_-_Germanisches_Nationalmuseum_-_Nuremberg,_Germany_-_DSC03037.jpg",
+			"accessed": "2026-09-30",
+			"container": "Germanisches Nationalmuseum, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "no14.jpg",
+			"authors": [
+				{
+					"name": "Daderot"
+				}
+			],
+			"published": "2016-10-23"
+		},
+		{
+			"kind": "media",
+			"title": "The bending shop of a Thonet factory in Moravia, about 1900",
+			"url": "https://commons.wikimedia.org/wiki/File:Thonet_-_bending_wood_2.jpg",
+			"accessed": "2026-09-30",
+			"container": "Gebrüder Thonet, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "bending-shop.jpg",
+			"authors": [
+				{
+					"name": "Gebrüder Thonet"
+				}
+			],
+			"published": "1900",
+			"circa": true
+		}
+	]
+}

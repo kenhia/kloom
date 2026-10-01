@@ -1,0 +1,252 @@
+{
+	"id": "knapping",
+	"topic": "Knapping and the first stone tools",
+	"position": {
+		"label": "c. 3.3 million years ago",
+		"sort": -3300000
+	},
+	"scene": {
+		"headline": "We learned where to",
+		"accent": "HIT.",
+		"palette": "flint",
+		"illustration": "scene.svg",
+		"metadata": ["LOMEKWI 3 · WEST TURKANA · KENYA", "BASALT AND PHONOLITE · HAMMER AND ANVIL"],
+		"counter": {
+			"value": "3,300,000",
+			"label": "years since the oldest known knapped stone"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "3.3-Million-Year-Old Stone Tools from Lomekwi 3, West Turkana, Kenya",
+			"authors": [
+				{
+					"family": "Harmand",
+					"given": "Sonia"
+				},
+				{
+					"family": "Lewis",
+					"given": "Jason E."
+				},
+				{
+					"family": "Feibel",
+					"given": "Craig S."
+				},
+				{
+					"family": "Lepre",
+					"given": "Christopher J."
+				},
+				{
+					"family": "Prat",
+					"given": "Sandrine"
+				},
+				{
+					"family": "Lenoble",
+					"given": "Arnaud"
+				},
+				{
+					"family": "Boës",
+					"given": "Xavier"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "521",
+			"issue": "7552",
+			"pages": "310–315",
+			"published": "2015-05-21",
+			"doi": "10.1038/nature14464",
+			"url": "https://hal.science/hal-01159189",
+			"accessed": "2026-09-30",
+			"note": "The assemblage, its dating, the replication experiments and the failed blows"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Synthesis of the Dibble et al. Controlled Experiments into the Mechanics of Lithic Production",
+			"authors": [
+				{
+					"family": "Li",
+					"given": "Li"
+				},
+				{
+					"family": "Lin",
+					"given": "Sam C."
+				},
+				{
+					"family": "McPherron",
+					"given": "Shannon P."
+				},
+				{
+					"family": "Abdolahzadeh",
+					"given": "Aylar"
+				},
+				{
+					"family": "Chan",
+					"given": "Annie"
+				},
+				{
+					"family": "Dogandžić",
+					"given": "Tamara"
+				},
+				{
+					"family": "Iovita",
+					"given": "Radu"
+				}
+			],
+			"etAl": true,
+			"container": "Journal of Archaeological Method and Theory",
+			"volume": "30",
+			"pages": "1284–1325",
+			"published": "2023",
+			"doi": "10.1007/s10816-022-09586-2",
+			"accessed": "2026-09-30",
+			"note": "Platform angle and depth settle a flake; force is a threshold"
+		},
+		{
+			"kind": "article",
+			"title": "Expanded Geographic Distribution and Dietary Strategies of the Earliest Oldowan Hominins and Paranthropus",
+			"authors": [
+				{
+					"family": "Plummer",
+					"given": "Thomas W."
+				},
+				{
+					"family": "Oliver",
+					"given": "James S."
+				},
+				{
+					"family": "Finestone",
+					"given": "Emma M."
+				},
+				{
+					"family": "Ditchfield",
+					"given": "Peter W."
+				},
+				{
+					"family": "Bishop",
+					"given": "Laura C."
+				},
+				{
+					"family": "Blumenthal",
+					"given": "Scott A."
+				},
+				{
+					"family": "Lemorini",
+					"given": "Cristina"
+				}
+			],
+			"etAl": true,
+			"container": "Science",
+			"volume": "379",
+			"issue": "6632",
+			"pages": "561–566",
+			"published": "2023",
+			"doi": "10.1126/science.abo7452",
+			"url": "https://hal.science/hal-04001912",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lomekwi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lomekwi&oldid=1377683485",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oldowan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oldowan&oldid=1377684746",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Conchoidal fracture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Conchoidal_fracture&oldid=1356193913",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lithic reduction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lithic_reduction&oldid=1373891169",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Knapping",
+			"url": "https://en.wikipedia.org/w/index.php?title=Knapping&oldid=1377122105",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Flint flake showing the bulb of percussion, struck with a metal hammer by Léon Coutier, Noisy-le-Sec",
+			"url": "https://commons.wikimedia.org/wiki/File:Flint_flake_showing_bulb_of_percussion,_produced_by_Coutier._Wellcome_M0015332.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wellcome Collection, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "coutier-flake.jpg",
+			"authors": [
+				{
+					"name": "Wellcome Collection"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "Oldowan chopper from Olduvai Gorge, British Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:Olduvai_Chopper.JPG",
+			"accessed": "2026-09-30",
+			"container": "British Museum, via Wikimedia Commons",
+			"licence": "CC BY 3.0",
+			"file": "olduvai-chopper.jpg",
+			"authors": [
+				{
+					"name": "Archaeomoonwalker"
+				}
+			],
+			"published": "2011-09-23"
+		}
+	]
+}

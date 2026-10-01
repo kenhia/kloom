@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 274 L360 274"/>
+		<path pathLength="1" d="M40 88.2 L290 88.2"/>
+		<path pathLength="1" d="M52 262 L52 88.2"/>
+		<path pathLength="1" d="M48 262 L56 262 M48 88.2 L56 88.2"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 262 L370 262 L370 274 L30 274 Z"/>
+		<path pathLength="1" d="M67 262 L125 262 L125 157 L67 157 Z"/>
+		<path pathLength="1" d="M67 157 L125 157 L125 98.2 L67 98.2 Z"/>
+		<path pathLength="1" d="M67 98.2 L125 98.2 L125 92.4 L67 92.4 Z"/>
+		<path pathLength="1" d="M67 92.4 L125 92.4 L125 88.2 L67 88.2 Z"/>
+		<path pathLength="1" d="M175 262 L233 262 L233 136 L175 136 Z"/>
+		<path pathLength="1" d="M175 136 L233 136 L233 106.6 L175 106.6 Z"/>
+		<path pathLength="1" d="M175 106.6 L233 106.6 L233 96.6 L175 96.6 Z"/>
+		<path pathLength="1" d="M175 96.6 L233 96.6 L233 88.2 L175 88.2 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M296 44 L364 44"/>
+		<path pathLength="1" d="M296 66 L364 66"/>
+		<path pathLength="1" d="M296 74 L364 74"/>
+		<path pathLength="1" d="M296 96 L364 96"/>
+		<path pathLength="1" d="M296 66 L298 67.1 L300 65.3 L302 65.3 L304 67.2 L306 65.9 L308 64.9 L310 66.8 L312 66.6 L314 64.8 L316 66.2 L318 67.1 L320 65.1 L322 65.5 L324 67.2 L326 65.7 L328 65 L330 66.9 L332 66.4 L334 64.8 L336 66.4 L338 67 L340 65 L342 65.7 L344 67.2 L346 65.6 L348 65.1 L350 67 L352 66.2 L354 64.8 L356 66.5 L358 66.9 L360 64.9 L362 65.8 L364 67.2"/>
+		<path pathLength="1" d="M288 70 a42 42 0 1 0 84 0 a42 42 0 1 0 -84 0"/>
+		<path pathLength="1" d="M300 100 L237 136"/>
+		<path pathLength="1" d="M320 189 L364 189 L364 203 L320 203 Z"/>
+		<path pathLength="1" d="M335 174 L349 174 L349 218 L335 218 Z"/>
+		<path pathLength="1" d="M351.6 169.7 L353.5 170.5 L355.3 171.4 L357 172.4 L358.7 173.5 L360.3 174.8 L361.8 176.2 L363.2 177.7 L364.5 179.3 L365.6 181 L366.6 182.7 L367.5 184.5 L368.3 186.4"/>
+		<path pathLength="1" d="M365 175 L368 187 L357 182"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="96" y="212.5" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">25</text>
+		<text x="96" y="130.6" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">14</text>
+		<text x="131" y="101.3" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1.37</text>
+		<text x="131" y="85.3" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1.008</text>
+		<text x="204" y="202" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">30</text>
+		<text x="204" y="124.3" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">7</text>
+		<text x="239" y="107.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2.37</text>
+		<text x="239" y="87.4" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2.008</text>
+		<text x="96" y="288" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1909 SET</text>
+		<text x="204" y="288" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MODERN SET</text>
+		<text x="46" y="80.2" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">41.378 mm</text>
+		<text x="330" y="124" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FILM ≈ 10 nm</text>
+		<text x="342" y="232" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WRING</text>
+	</g>
+</svg>

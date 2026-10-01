@@ -1,0 +1,185 @@
+{
+	"spine": {
+		"segments": [
+			{
+				"id": "stone",
+				"title": "Stone and fire",
+				"labelKind": "date",
+				"frames": ["knapping", "handaxe", "birch-tar"]
+			},
+			{
+				"id": "clay-glass",
+				"title": "Clay and glass",
+				"labelKind": "date",
+				"frames": ["potters-wheel", "glassblowing", "float-glass"]
+			},
+			{
+				"id": "wood",
+				"title": "Wood",
+				"labelKind": "date",
+				"frames": [
+					"neolithic-wells",
+					"egyptian-carpentry",
+					"roman-plane",
+					"horyuji",
+					"westminster-hall",
+					"wind-sawmill",
+					"thonet-chair",
+					"moulded-plywood"
+				]
+			},
+			{
+				"id": "forge",
+				"title": "Metal by fire",
+				"labelKind": "date",
+				"frames": [
+					"lost-wax",
+					"bloomery",
+					"chinese-cast-iron",
+					"wootz",
+					"japanese-sword",
+					"coalbrookdale",
+					"huntsman-steel",
+					"steam-hammer",
+					"arc-welding"
+				]
+			},
+			{
+				"id": "machine-tools",
+				"title": "Machines that make machines",
+				"labelKind": "date",
+				"frames": [
+					"wilkinson-boring",
+					"maudslay",
+					"whitworth",
+					"milling-machine",
+					"gauge-blocks",
+					"high-speed-steel"
+				]
+			},
+			{
+				"id": "mass",
+				"title": "Making many",
+				"labelKind": "date",
+				"frames": [
+					"block-mills",
+					"interchangeable-parts",
+					"assembly-line",
+					"injection-moulding",
+					"lego-brick",
+					"unimate"
+				]
+			},
+			{
+				"id": "code",
+				"title": "Code and machine",
+				"labelKind": "date",
+				"frames": ["numerical-control", "bezier-curves", "g-code"]
+			},
+			{
+				"id": "additive",
+				"title": "Layer by layer",
+				"labelKind": "date",
+				"frames": [
+					"stereolithography",
+					"laser-sintering",
+					"fdm",
+					"reprap",
+					"openscad",
+					"metal-printing"
+				]
+			},
+			{
+				"id": "now",
+				"title": "Making now",
+				"labelKind": "category",
+				"frames": ["euv", "where-making-is"]
+			}
+		]
+	},
+	"trails": [
+		{
+			"id": "joinery",
+			"title": "Joinery",
+			"anchor": "egyptian-carpentry",
+			"spine": {
+				"segments": [
+					{
+						"id": "joinery-joints",
+						"title": "Joints",
+						"labelKind": "category",
+						"frames": ["mortise-and-tenon", "dovetail", "wood-screws"]
+					}
+				]
+			}
+		},
+		{
+			"id": "at-the-forge",
+			"title": "At the forge",
+			"anchor": "bloomery",
+			"spine": {
+				"segments": [
+					{
+						"id": "forge-work",
+						"title": "Forge work",
+						"labelKind": "category",
+						"frames": ["drawing-out", "forge-welding", "pattern-welding", "heat-treatment"]
+					}
+				]
+			}
+		},
+		{
+			"id": "materials",
+			"title": "Materials science",
+			"anchor": "japanese-sword",
+			"spine": {
+				"segments": [
+					{
+						"id": "materials-science",
+						"title": "Why materials behave",
+						"labelKind": "date",
+						"frames": [
+							"galileo-beams",
+							"sorby-microscope",
+							"iron-carbon",
+							"duralumin",
+							"griffith-cracks",
+							"dislocations",
+							"carbon-fibre"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "lathe-work",
+			"title": "Lathe work",
+			"anchor": "maudslay",
+			"spine": {
+				"segments": [
+					{
+						"id": "lathe",
+						"title": "At the lathe",
+						"labelKind": "category",
+						"frames": ["pole-lathe", "between-centres", "screw-cutting", "ornamental-turning"]
+					}
+				]
+			}
+		},
+		{
+			"id": "slicers",
+			"title": "Slicers and supports",
+			"anchor": "fdm",
+			"spine": {
+				"segments": [
+					{
+						"id": "slicing",
+						"title": "From model to print",
+						"labelKind": "category",
+						"frames": ["stl-meshes", "slicing", "supports", "printed-fits"]
+					}
+				]
+			}
+		}
+	]
+}

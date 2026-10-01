@@ -1,0 +1,182 @@
+{
+	"id": "gauge-blocks",
+	"topic": "Johansson's gauge blocks",
+	"position": {
+		"label": "1896",
+		"sort": 1896
+	},
+	"scene": {
+		"headline": "We stacked steel to a",
+		"accent": "MICRON.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ESKILSTUNA · CARL EDVARD JOHANSSON",
+			"LAPPED STEEL · WRUNG STACKS · 20 °C · 25.4 MM TO THE INCH"
+		],
+		"counter": {
+			"value": "200,000",
+			"label": "lengths, a micrometre apart, from Johansson's 112 blocks of 1909"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/metre-survey",
+			"why": "Gauge blocks are end standards, measured between two faces like the Mètre des Archives that the meridian survey produced in 1799, and Johansson's carried the metre into the workshop and fixed the inch at exactly 25.4 millimetres of it."
+		},
+		{
+			"to": "making/assembly-line",
+			"why": "Henry Ford bought Johansson's American company in 1923 and moved it to Dearborn to make gauge blocks for the Ford toolroom."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The History of Gauge Blocks",
+			"authors": [
+				{
+					"name": "Mitutoyo Corporation"
+				}
+			],
+			"publisher": "Mitutoyo Corporation",
+			"number": "Catalog No. E12016",
+			"published": "2013-01",
+			"url": "https://www.mitutoyo.com/wp-content/uploads/2013/07/E12016-History-of-The-Gage-Block.pdf",
+			"accessed": "2026-09-30",
+			"note": "Chapter I, retold from Althin's biography of Johansson: the sets of 102, 103 and 112 blocks, the patent and wringing"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Gage Block Handbook",
+			"authors": [
+				{
+					"family": "Doiron",
+					"given": "Ted"
+				},
+				{
+					"family": "Beers",
+					"given": "John S."
+				}
+			],
+			"publisher": "National Institute of Standards and Technology",
+			"place": "Gaithersburg, MD",
+			"number": "NIST Monograph 180",
+			"published": "1995",
+			"url": "https://nvlpubs.nist.gov/nistpubs/Legacy/MONO/nistmonograph180.pdf",
+			"accessed": "2026-09-30",
+			"note": "The inch, a short history, ISO tolerances (pp. 3–11) and wringing films (Appendix B)"
+		},
+		{
+			"kind": "article",
+			"title": "20 °C—A Short History of the Standard Reference Temperature for Industrial Dimensional Measurements",
+			"authors": [
+				{
+					"family": "Doiron",
+					"given": "Ted"
+				}
+			],
+			"container": "Journal of Research of the National Institute of Standards and Technology",
+			"volume": "112",
+			"issue": "1",
+			"pages": "1–23",
+			"published": "2007",
+			"doi": "10.6028/jres.112.001",
+			"url": "https://nvlpubs.nist.gov/nistpubs/jres/112/1/V112.N01.A01.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Gage Blocks (catalogue section E)",
+			"authors": [
+				{
+					"name": "Mitutoyo America Corporation"
+				}
+			],
+			"container": "Mitutoyo",
+			"url": "https://www.mitutoyo.com/webfoo/wp-content/uploads/E_section-1.pdf",
+			"accessed": "2026-09-30",
+			"note": "Read in the Wayback Machine's copy of January 2025; the combination rule and the 112-block set, pp. E-4–E-5"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gauge block",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gauge_block&oldid=1367013863",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl Edvard Johansson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_Edvard_Johansson&oldid=1361505348",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Inch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Inch&oldid=1375706000",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "media",
+			"title": "A metric set of gauge blocks in its case, 2 mm based, from 2.001 to 100 millimetres",
+			"url": "https://commons.wikimedia.org/wiki/File:GaugeBlockMetricSet.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "metric-set.jpg",
+			"authors": [
+				{
+					"family": "McKechnie",
+					"given": "Glenn"
+				}
+			],
+			"published": "2005-03-26"
+		},
+		{
+			"kind": "media",
+			"title": "Thirty-six Johansson gauge blocks wrung together and held horizontally, from Accurate Tool Work, p. 185",
+			"url": "https://commons.wikimedia.org/wiki/File:Gauge_Block_Adhesion.jpg",
+			"accessed": "2026-09-30",
+			"container": "Accurate Tool Work (New York: McGraw-Hill), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "adhesion.jpg",
+			"authors": [
+				{
+					"family": "Goodrich",
+					"given": "Clarence Leon"
+				},
+				{
+					"family": "Stanley",
+					"given": "Frank Arthur"
+				}
+			],
+			"published": "1907"
+		}
+	]
+}

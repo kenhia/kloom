@@ -61,6 +61,10 @@ def search(text, limit=12):
 
 def year(meta):
     # Wikidata writes an unknown month or day as 00 ("1913-00-00"), which is not a date: keep the year.
+    # A date BC has no form in `published` (four digits, AD): leave it out rather than turn
+    # "c. 1504 BC" into AD 1504 (sprint 026).
+    if re.search(r'\bB\.?\s?C\.?(E\.?)?(?![a-z])', meta.get('DateTimeOriginal', ''), re.I):
+        return None
     m = re.search(r'\b(1[0-9]{3}|20[0-9]{2})(-(0[1-9]|1[0-2])(-(0[1-9]|[12][0-9]|3[01]))?)?\b', meta.get('DateTimeOriginal', ''))
     return m.group(0) if m else None
 
@@ -105,7 +109,8 @@ def fetch(title, frame_dir, name=None, width=960, accessed=None):
         'licence': 'Public domain' if re.match(r'^(public domain|pd)', lic, re.I) else lic,
         'file': file,
     }
-    if artist and not re.match(r'unknown', artist, re.I):
+    # "Unknown author", "AnonymousUnknown author" (two templates run together, sprint 026), 不明 …
+    if artist and not re.search(r'unknown|anonymous|不明', artist, re.I):
         citation['authors'] = [{'name': artist}]
     if year(meta):
         citation['published'] = year(meta)

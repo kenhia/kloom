@@ -1,0 +1,190 @@
+{
+	"id": "float-glass",
+	"topic": "Pilkington's float glass",
+	"asOf": "2026-09-30",
+	"position": {
+		"label": "1959",
+		"sort": 1959
+	},
+	"scene": {
+		"headline": "We floated glass on",
+		"accent": "TIN.",
+		"palette": "chalk",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ST HELENS · PILKINGTON BROTHERS · 1952–59",
+			"MOLTEN TIN · NITROGEN AND HYDROGEN · NO GRINDING"
+		],
+		"counter": {
+			"value": "6–7 mm",
+			"label": "the thickness molten glass settles to on tin"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Review Lecture: The Float Glass Process",
+			"authors": [
+				{
+					"family": "Pilkington",
+					"given": "L. A. B."
+				}
+			],
+			"container": "Proceedings of the Royal Society of London. Series A",
+			"volume": "314",
+			"issue": "1516",
+			"pages": "1–25",
+			"published": "1969-12-16",
+			"doi": "10.1098/rspa.1969.0212",
+			"accessed": "2026-09-30",
+			"note": "The inventor’s own account, delivered 13 February 1969: the old processes, the bath, the equilibrium thickness and the choice of tin"
+		},
+		{
+			"kind": "web",
+			"title": "US Patent 2,911,759: Manufacture of Flat Glass",
+			"authors": [
+				{
+					"family": "Pilkington",
+					"given": "Lionel A. B."
+				},
+				{
+					"family": "Bickerstaff",
+					"given": "Kenneth"
+				}
+			],
+			"container": "Google Patents",
+			"published": "1959-11-10",
+			"url": "https://patents.google.com/patent/US2911759A/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "US Patent 710,357: Manufacture of Window and Plate Glass",
+			"authors": [
+				{
+					"family": "Heal",
+					"given": "William E."
+				}
+			],
+			"container": "Google Patents",
+			"published": "1902-09-30",
+			"url": "https://patents.google.com/patent/US710357A/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "US Patent 789,911: Apparatus for Manufacturing Glass Sheets or Plates",
+			"authors": [
+				{
+					"family": "Hitchcock",
+					"given": "Halbert K."
+				}
+			],
+			"container": "Google Patents",
+			"published": "1905-05-16",
+			"url": "https://patents.google.com/patent/US789911A/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Float glass",
+			"url": "https://en.wikipedia.org/w/index.php?title=Float_glass&oldid=1358150433",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-06",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alastair Pilkington",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alastair_Pilkington&oldid=1372563165",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Crown glass (window)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Crown_glass_(window)&oldid=1358035471",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plate glass",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plate_glass&oldid=1375091680",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pilkington",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pilkington&oldid=1359656045",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "media",
+			"title": "A wood-fired glasshouse making window glass, with a disc of crown glass being spun at the furnace",
+			"url": "https://commons.wikimedia.org/wiki/File:Diderot_Encyclopedia_Making_Crown_Glass_5.JPG",
+			"accessed": "2026-09-30",
+			"container": "Recueil de planches, sur les sciences, les arts libéraux, et les arts méchaniques, vol. 10, “Verrerie en bois”, Grande verrerie en plats, plate II, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "crown-glasshouse.jpg",
+			"authors": [
+				{
+					"family": "Radel"
+				},
+				{
+					"family": "Bénard",
+					"given": "Robert"
+				}
+			],
+			"published": "1772"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/leblanc-solvay",
+			"why": "A float line melts sand with soda ash and salt cake: the soda that Leblanc and Solvay learned to make from salt, and the sodium sulfate that was Leblanc’s first step."
+		},
+		{
+			"to": "making/glassblowing",
+			"why": "Crown and cylinder window glass, which float glass replaced, both began as a bubble blown on a pipe."
+		}
+	]
+}

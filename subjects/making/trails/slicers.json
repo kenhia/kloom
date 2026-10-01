@@ -1,0 +1,15 @@
+{
+	"id": "slicers",
+	"title": "Slicers and supports",
+	"anchor": "fdm",
+	"spine": {
+		"segments": [
+			{
+				"id": "slicing",
+				"title": "From model to print",
+				"labelKind": "category",
+				"frames": ["stl-meshes", "slicing", "supports", "printed-fits"]
+			}
+		]
+	}
+}

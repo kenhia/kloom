@@ -1,0 +1,260 @@
+{
+	"id": "lost-wax",
+	"topic": "Lost-wax casting",
+	"position": {
+		"label": "c. 4000 BC",
+		"sort": -4000
+	},
+	"scene": {
+		"headline": "We made a model to",
+		"accent": "LOSE.",
+		"palette": "ember",
+		"illustration": "scene.svg",
+		"metadata": ["MEHRGARH · NAHAL MISHMAR · MOHENJO-DARO", "BEESWAX · CLAY · COPPER · FIRE"],
+		"counter": {
+			"value": "1,085 °C",
+			"label": "copper's melting point, and the metal must be poured hotter"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/copper-smelting",
+			"why": "The oldest known lost-wax casting, the Mehrgarh amulet, was cast from copper so pure it may have been native metal, melted above 1,085 °C, a few centuries after the first smelters had begun to win copper from its ore."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "High Spatial Dynamics-Photoluminescence Imaging Reveals the Metallurgy of the Earliest Lost-Wax Cast Object",
+			"authors": [
+				{
+					"family": "Thoury",
+					"given": "Mathieu"
+				},
+				{
+					"family": "Mille",
+					"given": "B."
+				},
+				{
+					"family": "Séverin-Fabiani",
+					"given": "T."
+				},
+				{
+					"family": "Robbiola",
+					"given": "L."
+				},
+				{
+					"family": "Réfrégiers",
+					"given": "M."
+				},
+				{
+					"family": "Jarrige",
+					"given": "Jean-François"
+				},
+				{
+					"family": "Bertrand",
+					"given": "L."
+				}
+			],
+			"container": "Nature Communications",
+			"volume": "7",
+			"pages": "13356",
+			"published": "2016-11-15",
+			"doi": "10.1038/ncomms13356",
+			"accessed": "2026-09-30",
+			"note": "The amulet, its pure copper and its eutectic, and the step to leaded copper"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The (In)visibility of Lost Wax Casting Moulds in the Archaeological Record: Observations from an Archaeological Experiment",
+			"authors": [
+				{
+					"family": "Rose",
+					"given": "Thomas"
+				},
+				{
+					"family": "Fabian",
+					"given": "Peter"
+				},
+				{
+					"family": "Goren",
+					"given": "Yuval"
+				}
+			],
+			"container": "Archaeological and Anthropological Sciences",
+			"volume": "15",
+			"pages": "31",
+			"published": "2023-02-22",
+			"doi": "10.1007/s12520-023-01731-6",
+			"accessed": "2026-09-30",
+			"note": "The reconstructed cores, wax and moulds, the firing temperatures, and Shalev's casting temperatures"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Autobiography of Benvenuto Cellini",
+			"authors": [
+				{
+					"family": "Cellini",
+					"given": "Benvenuto"
+				}
+			],
+			"editors": [
+				{
+					"family": "Symonds",
+					"given": "John Addington"
+				}
+			],
+			"url": "https://www.gutenberg.org/ebooks/4028",
+			"accessed": "2026-09-30",
+			"note": "Book II, chapters LXXV–LXXVII: the casting of the Perseus; Symonds's translation, read in Project Gutenberg's text"
+		},
+		{
+			"kind": "book",
+			"title": "The Founder's Manual: A Presentation of Modern Foundry Operations, for the Use of Foundrymen, Foremen, Students and Others",
+			"authors": [
+				{
+					"family": "Payne",
+					"given": "David W."
+				}
+			],
+			"publisher": "D. Van Nostrand",
+			"place": "New York",
+			"published": "1917",
+			"url": "https://archive.org/details/foundersmanualpr00payn",
+			"accessed": "2026-09-30",
+			"note": "On fluidity, p. 335, quoting an earlier authority on cast iron"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Lost-wax casting",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lost-wax_casting&oldid=1369617469",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nahal Mishmar hoard",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nahal_Mishmar_hoard&oldid=1312378127",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dancing Girl (prehistoric sculpture)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dancing_Girl_(prehistoric_sculpture)&oldid=1376424422",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mehrgarh",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mehrgarh&oldid=1375843579",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Perseus with the Head of Medusa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Perseus_with_the_Head_of_Medusa&oldid=1347047712",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pewter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pewter&oldid=1377460706",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bronze",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bronze&oldid=1377218378",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Copper crown from the Nahal Mishmar hoard, Israel Museum, Jerusalem",
+			"url": "https://commons.wikimedia.org/wiki/File:Treasure_of_Nahal_Mishmar_(3).JPG",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "nahal-mishmar-crown.jpg",
+			"authors": [
+				{
+					"name": "Hanay"
+				}
+			],
+			"published": "2011-01-17"
+		},
+		{
+			"kind": "media",
+			"title": "The Dancing Girl of Mohenjo-daro, bronze, National Museum, New Delhi",
+			"url": "https://commons.wikimedia.org/wiki/File:Dancing_girl_of_Mohenjo-daro.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC0",
+			"file": "dancing-girl.jpg",
+			"authors": [
+				{
+					"name": "Gary Todd"
+				}
+			],
+			"published": "2019-04-21"
+		}
+	]
+}

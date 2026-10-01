@@ -38,6 +38,9 @@ const COLOURS = ['background', 'ink', 'muted', 'accent', 'line'] as const;
  */
 export const TOPIC_MAX = 40;
 
+/** A subject's subtitle is one line under its title, never a paragraph. */
+export const SUBTITLE_MAX = 60;
+
 /** Files a frame may serve to the reading pane: a plain name, an image type. */
 export const MEDIA_FILE = /^[\w-][\w.-]*\.(png|jpe?g|webp|gif|svg)$/i;
 
@@ -66,6 +69,12 @@ export function validate(raw: RawSubject, options: ValidateOptions = {}): string
 	if (!isObj(raw.manifest)) fail('subject.json', 'missing or not an object');
 	else {
 		if (!isText(raw.manifest.title)) fail('subject.json', 'title is required');
+		const subtitle = raw.manifest.subtitle;
+		if (subtitle !== undefined) {
+			if (!isText(subtitle)) fail('subject.json', 'subtitle, when given, is a line of text');
+			else if (subtitle.length > SUBTITLE_MAX)
+				fail('subject.json', `subtitle is ${subtitle.length} characters; at most ${SUBTITLE_MAX}`);
+		}
 		const p = raw.manifest.palettes;
 		if (!isObj(p) || Object.keys(p).length === 0)
 			fail('subject.json', 'at least one palette is required');

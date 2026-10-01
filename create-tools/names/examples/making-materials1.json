@@ -1,0 +1,39 @@
+{
+	"making/galileo-beams": [
+		["Galileo", "galileo-galilei"],
+		["_Two New Sciences_", "two-new-sciences"],
+		["Venetian Arsenal", "venetian-arsenal"],
+		["strength of materials", "strength-of-materials"],
+		["Edme Mariotte", "edme-mariotte"],
+		["square–cube law", "square-cube-law"]
+	],
+	"making/sorby-microscope": [
+		["Henry Clifton Sorby", "henry-clifton-sorby"],
+		["Sheffield", "sheffield"],
+		["metallography", "metallography"],
+		["British Association", "british-science-association"],
+		["Henry Marion Howe", "henry-marion-howe"],
+		["Floris Osmond", "floris-osmond"],
+		["pearlite", "pearlite"]
+	],
+	"making/iron-carbon": [
+		["William Chandler Roberts-Austen", "william-chandler-roberts-austen"],
+		["austenite", "austenite"],
+		["Hendrik Willem Bakhuis Roozeboom", "hendrik-willem-bakhuis-roozeboom"],
+		["phase rule", "phase-rule"],
+		["Josiah Willard Gibbs", "josiah-willard-gibbs"],
+		["martensite", "martensite"],
+		["Adolf Martens", "adolf-martens"],
+		["cementite", "cementite"]
+	],
+	"making/duralumin": [
+		["Alfred Wilm", "alfred-wilm"],
+		["aluminium", "aluminium"],
+		["duralumin", "duralumin"],
+		["Guinier–Preston zones", "guinier-preston-zone"],
+		["precipitation hardening", "precipitation-hardening"],
+		["Zeppelin", "zeppelin"],
+		["Hugo Junkers", "hugo-junkers"],
+		["Junkers F 13", "junkers-f-13"]
+	]
+}

@@ -11,15 +11,15 @@
 	interface Props {
 		/**
 		 * Every subject the app serves, in the order to list them; a list is
-		 * shown when there is more than one. `note` is said after the title
-		 * ("last read").
+		 * shown when there is more than one. `subtitle` is the subject's own line
+		 * (korg 3465); `note` is said after the title ("last read").
 		 */
-		subjects: { id: string; title: string; note?: string }[];
+		subjects: { id: string; title: string; subtitle?: string; note?: string }[];
 		/** The subject selected in the list, whose title and ring are shown. */
 		selected: string;
 		/** The subject open behind the start screen: Begin on it, or Esc, returns there. */
 		current: string;
-		/** A line under the title. */
+		/** A line under the title when the selected subject has no subtitle of its own. */
 		subtitle?: string;
 		/** Set around the rotating dial, one letter at a time. */
 		inscription: string;
@@ -89,7 +89,9 @@
 	let mapButton = $state<HTMLButtonElement>();
 	let list = $state<HTMLElement>();
 	let leaving = $state(false);
-	const title = $derived(subjects.find((s) => s.id === selected)?.title ?? '');
+	const chosen = $derived(subjects.find((s) => s.id === selected));
+	const title = $derived(chosen?.title ?? '');
+	const line = $derived(chosen?.subtitle ?? subtitle);
 	const index = $derived(subjects.findIndex((s) => s.id === selected));
 
 	onMount(() => button?.focus());
@@ -249,13 +251,15 @@
 						onkeydown={listKeys}
 						ondblclick={go}
 					>
-						{s.title}{#if s.note}<span class="note">{s.note}</span>{/if}
+						{s.title}{#if s.subtitle}<span class="sub">{s.subtitle}</span>{/if}{#if s.note}<span
+								class="note">{s.note}</span
+							>{/if}
 					</div>
 				{/each}
 			</div>
 		{/if}
 		<h2 id="{id}-title">{title}</h2>
-		{#if subtitle}<p id="{id}-subtitle" class="subtitle">{subtitle}</p>{/if}
+		{#if line}<p id="{id}-subtitle" class="subtitle">{line}</p>{/if}
 		<button type="button" class="begin" bind:this={button} onclick={go}>
 			Begin <kbd>Enter</kbd>
 		</button>
@@ -548,6 +552,12 @@
 	[role='option'][aria-selected='true'] {
 		color: var(--start-ink);
 		border-color: var(--start-accent);
+	}
+	.sub {
+		display: block;
+		font-size: 0.8em;
+		font-style: italic;
+		color: var(--start-muted);
 	}
 	.note {
 		display: block;

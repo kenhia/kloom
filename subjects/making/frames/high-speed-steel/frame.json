@@ -1,0 +1,153 @@
+{
+	"id": "high-speed-steel",
+	"topic": "High-speed steel and cutting speed",
+	"position": {
+		"label": "1900",
+		"sort": 1900
+	},
+	"scene": {
+		"headline": "We cut faster by",
+		"accent": "OVERHEATING.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BETHLEHEM STEEL · F. W. TAYLOR · MAUNSEL WHITE",
+			"CHROMIUM–TUNGSTEN STEEL · 1,725 °F AND UP · VTⁿ = C"
+		],
+		"counter": {
+			"value": "800,000 lb",
+			"label": "of steel and iron Taylor's experiments turned into chips"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Art of Cutting Metals",
+			"authors": [
+				{
+					"family": "Taylor",
+					"given": "Fred. W."
+				}
+			],
+			"container": "Transactions of the American Society of Mechanical Engineers",
+			"volume": "28",
+			"pages": "31–350",
+			"published": "1907",
+			"url": "https://archive.org/details/sim_american-society-of-mechanical-engineers-transactions_1906_28",
+			"accessed": "2026-09-30",
+			"note": "President's address of December 1906; the Taylor–White discovery, ¶¶ 99–110; the tool-life law, ¶¶ 696–708 and Folder 15"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Metal-Cutting Tool and Method of Making Same, US Patent 668,269",
+			"authors": [
+				{
+					"family": "Taylor",
+					"given": "Frederick W."
+				},
+				{
+					"family": "White",
+					"given": "Maunsel"
+				}
+			],
+			"container": "Google Patents",
+			"published": "1901-02-19",
+			"url": "https://patents.google.com/patent/US668269A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 20 October 1899; the temperatures by colour"
+		},
+		{
+			"kind": "web",
+			"title": "Metal-Cutting Tool and Method of Making Same, US Patent 668,270",
+			"authors": [
+				{
+					"family": "Taylor",
+					"given": "Frederick W."
+				},
+				{
+					"family": "White",
+					"given": "Maunsel"
+				}
+			],
+			"container": "Google Patents",
+			"published": "1901-02-19",
+			"url": "https://patents.google.com/patent/US668270A/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "High-speed steel",
+			"url": "https://en.wikipedia.org/w/index.php?title=High-speed_steel&oldid=1370254147",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frederick Winslow Taylor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frederick_Winslow_Taylor&oldid=1367465792",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tool wear",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tool_wear&oldid=1372396896",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Forester Mushet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Forester_Mushet&oldid=1318263086",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-22"
+		},
+		{
+			"kind": "media",
+			"title": "Taylor's Fig. 104: cutting speed against the time a high-speed tool lasts, with the curve V = 90/T^1/8",
+			"url": "https://archive.org/details/sim_american-society-of-mechanical-engineers-transactions_1906_28/page/n355",
+			"accessed": "2026-09-30",
+			"container": "Transactions of the American Society of Mechanical Engineers 28, Folder 15, via the Internet Archive",
+			"licence": "Public domain",
+			"file": "taylor-fig104.jpg",
+			"authors": [
+				{
+					"family": "Taylor",
+					"given": "Fred. W."
+				}
+			],
+			"published": "1907"
+		}
+	]
+}

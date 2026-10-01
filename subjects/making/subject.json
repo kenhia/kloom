@@ -1,0 +1,96 @@
+{
+	"title": "How We Build",
+	"subtitle": "creating the objects around us",
+	"palettes": {
+		"flint": {
+			"scheme": "dark",
+			"background": "#171614",
+			"ink": "#ece8e1",
+			"muted": "#ada69b",
+			"accent": "#d9b27c",
+			"line": "#d2cbc0",
+			"counterpart": "chalk"
+		},
+		"chalk": {
+			"scheme": "light",
+			"background": "#f3f1ec",
+			"ink": "#1e1c19",
+			"muted": "#5a554d",
+			"accent": "#7a4f1d",
+			"line": "#2c2924",
+			"counterpart": "flint"
+		},
+		"oak": {
+			"scheme": "dark",
+			"background": "#1b1510",
+			"ink": "#f1e6d6",
+			"muted": "#bda88c",
+			"accent": "#e2a64f",
+			"line": "#dcc8aa",
+			"counterpart": "shavings"
+		},
+		"shavings": {
+			"scheme": "light",
+			"background": "#f5eedf",
+			"ink": "#241b12",
+			"muted": "#5f5140",
+			"accent": "#8a4b10",
+			"line": "#33281c",
+			"counterpart": "oak"
+		},
+		"ember": {
+			"scheme": "dark",
+			"background": "#161212",
+			"ink": "#f0e4e0",
+			"muted": "#b9a39c",
+			"accent": "#f06a3c",
+			"line": "#d8c3bc",
+			"counterpart": "scale"
+		},
+		"scale": {
+			"scheme": "light",
+			"background": "#eeecea",
+			"ink": "#1d1a1a",
+			"muted": "#57504e",
+			"accent": "#a3301a",
+			"line": "#2b2626",
+			"counterpart": "ember"
+		},
+		"blueprint": {
+			"scheme": "dark",
+			"background": "#0e1724",
+			"ink": "#e2ebf5",
+			"muted": "#98abc2",
+			"accent": "#7cc4f2",
+			"line": "#c0d1e4",
+			"counterpart": "drafting"
+		},
+		"drafting": {
+			"scheme": "light",
+			"background": "#f1f3f2",
+			"ink": "#18202a",
+			"muted": "#4c5866",
+			"accent": "#1f5a94",
+			"line": "#26303b",
+			"counterpart": "blueprint"
+		},
+		"filament": {
+			"scheme": "dark",
+			"background": "#121614",
+			"ink": "#e5efe9",
+			"muted": "#9db3a7",
+			"accent": "#9bd86b",
+			"line": "#c4d6cc",
+			"counterpart": "resin"
+		},
+		"resin": {
+			"scheme": "light",
+			"background": "#f4f1f4",
+			"ink": "#1f1a20",
+			"muted": "#5a5060",
+			"accent": "#8c2a7a",
+			"line": "#2d2630",
+			"counterpart": "filament"
+		}
+	}
+}

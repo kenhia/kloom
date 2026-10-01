@@ -1,0 +1,9 @@
+{
+	"id": "fused-filament-fabrication",
+	"wikidata": "Q18349149",
+	"name": "Fused filament fabrication",
+	"aliases": ["fused deposition modelling", "fused deposition modeling", "FDM", "FFF"],
+	"kind": "idea",
+	"description": "3D printing by melting a thermoplastic filament in a heated nozzle and laying it down in beads, layer on layer; the commonest way of 3D printing.",
+	"home": "making/fdm"
+}

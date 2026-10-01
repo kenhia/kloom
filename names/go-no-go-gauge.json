@@ -1,0 +1,8 @@
+{
+	"id": "go-no-go-gauge",
+	"wikidata": "Q256690",
+	"name": "Go/no-go gauge",
+	"aliases": ["limit gauge", "go and no-go gauge"],
+	"kind": "artifact",
+	"description": "An inspection gauge with two ends set at a part's two limits: the part must accept one and refuse the other to pass."
+}

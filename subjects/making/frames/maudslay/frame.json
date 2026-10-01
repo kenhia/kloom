@@ -1,0 +1,177 @@
+{
+	"id": "maudslay",
+	"topic": "Maudslay's screw-cutting lathe",
+	"position": {
+		"label": "1800",
+		"sort": 1800
+	},
+	"scene": {
+		"headline": "We taught the lathe to",
+		"accent": "COPY.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MARGARET STREET · LONDON · HENRY MAUDSLAY",
+			"LEAD SCREW · SLIDE REST · CHANGE WHEELS"
+		],
+		"counter": {
+			"value": "600",
+			"label": "threads gripped at once by the nut of Maudslay's finest screw"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/clement-fragment",
+			"why": "Joseph Clement, who made the Difference Engine's parts to a repeatable size, learned his trade at Maudslay and Field's."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Turning and Mechanical Manipulation, Vol. 2: The Principles of Construction, Action, and Application, of Cutting Tools Used by Hand; and Also of Machines Derived from the Hand Tools",
+			"authors": [
+				{
+					"family": "Holtzapffel",
+					"given": "Charles"
+				}
+			],
+			"publisher": "Holtzapffel & Co.",
+			"place": "London",
+			"published": "1846",
+			"pages": "641–647",
+			"url": "https://archive.org/details/turningmechanica02holtuoft",
+			"accessed": "2026-09-30",
+			"note": "Maudslay's inclined knife, the length correction, and Troughton's examination of 1810; read in a later printing"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Machine Tool Collection: Catalogue of Exhibits with Historical Introduction",
+			"authors": [
+				{
+					"family": "Gilbert",
+					"given": "K. R."
+				}
+			],
+			"publisher": "Her Majesty's Stationery Office, for the Science Museum",
+			"place": "London",
+			"published": "1966",
+			"url": "https://archive.org/details/machine-tool-collection",
+			"accessed": "2026-09-30",
+			"note": "The lathe of about 1800 (no. 71), the later screw-cutting lathe (no. 72) and the screw-originating machine (no. 125)"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Industrial Biography: Iron Workers and Tool Makers",
+			"authors": [
+				{
+					"family": "Smiles",
+					"given": "Samuel"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1863",
+			"url": "https://www.gutenberg.org/ebooks/404",
+			"accessed": "2026-09-30",
+			"note": "Chapter on Maudslay: screws before him, and the 600-thread nut"
+		},
+		{
+			"kind": "book",
+			"title": "James Nasmyth, Engineer: An Autobiography",
+			"authors": [
+				{
+					"family": "Nasmyth",
+					"given": "James"
+				}
+			],
+			"editors": [
+				{
+					"family": "Smiles",
+					"given": "Samuel"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1883",
+			"url": "https://www.gutenberg.org/ebooks/476",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "book",
+			"title": "English and American Tool Builders",
+			"authors": [
+				{
+					"family": "Roe",
+					"given": "Joseph Wickham"
+				}
+			],
+			"publisher": "Yale University Press",
+			"place": "New Haven",
+			"published": "1916",
+			"url": "https://archive.org/details/englishandameri00roegoog",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Maudslay",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Maudslay&oldid=1341785022",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-05",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leadscrew",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leadscrew&oldid=1372857424",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lathe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lathe&oldid=1377488243",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "Maudslay's screw-cutting lathe, about 1800, in the Science Museum (plate 10 of The Machine Tool Collection)",
+			"url": "https://commons.wikimedia.org/wiki/File:Machine_Tool_Collection_Gilbert_1966_Plate_10.jpg",
+			"accessed": "2026-09-30",
+			"container": "Science Museum, via Wikimedia Commons",
+			"licence": "Public domain (Crown copyright expired)",
+			"file": "maudslay-lathe.jpg",
+			"authors": [
+				{
+					"family": "Gilbert",
+					"given": "K. R."
+				}
+			],
+			"published": "1966"
+		}
+	]
+}

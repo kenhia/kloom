@@ -1,0 +1,25 @@
+{
+	"making/stereolithography": [
+		["Chuck Hull", "chuck-hull"],
+		["stereolithography", "stereolithography"],
+		["3D printing", "3d-printing"],
+		["photopolymer", "photopolymer"],
+		["3D Systems", "3d-systems"]
+	],
+	"making/laser-sintering": [
+		["Carl Deckard", "carl-r-deckard"],
+		["University of Texas at Austin", "university-of-texas-at-austin"],
+		["selective laser sintering", "selective-laser-sintering"],
+		["Sintering", "sintering"],
+		["3D Systems", "3d-systems"],
+		["nylon 12", "nylon-12"]
+	],
+	"making/fdm": [
+		["S. Scott Crump", "s-scott-crump"],
+		["fused deposition modelling", "fused-filament-fabrication"],
+		["Charles Hull", "chuck-hull"],
+		["Stratasys", "stratasys"],
+		["polylactic acid", "polylactic-acid"],
+		["RepRap", "reprap"]
+	]
+}

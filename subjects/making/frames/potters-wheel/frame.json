@@ -1,0 +1,197 @@
+{
+	"id": "potters-wheel",
+	"topic": "The potter's wheel",
+	"position": {
+		"label": "c. 3900 BC",
+		"sort": -3900
+	},
+	"scene": {
+		"headline": "We set clay",
+		"accent": "SPINNING.",
+		"palette": "chalk",
+		"illustration": "scene.svg",
+		"metadata": [
+			"URUK · TEL YARMUTH · MEIDUM · SAQQARA",
+			"WHEEL-COILING · THROWING · A HEAVY TURNING DISC"
+		],
+		"counter": {
+			"value": "2%",
+			"label": "variation in the rims of the first wheel-made bowls"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "How the Uruk Potters Used the Wheel: New Data on Modalities and Conditions of Emergence of the Potter’s Wheel in the Uruk World",
+			"authors": [
+				{
+					"family": "Baldi",
+					"given": "Johnny Samuele"
+				}
+			],
+			"container": "Interdisciplinaria Archaeologica: Natural Sciences in Archaeology",
+			"volume": "12",
+			"issue": "2",
+			"pages": "181–199",
+			"published": "2021",
+			"doi": "10.24916/iansa.2021.2.6",
+			"url": "https://iansa.eu/papers/IANSA-2021-02-baldi.pdf",
+			"accessed": "2026-09-30",
+			"note": "The dates, the wheel-coiled vessels and where they were found, and the rotation speeds"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Introduction of the Potter’s Wheel to Ancient Sudan",
+			"authors": [
+				{
+					"family": "Doherty",
+					"given": "Sarah K."
+				}
+			],
+			"container": "Interdisciplinaria Archaeologica: Natural Sciences in Archaeology",
+			"volume": "12",
+			"issue": "2",
+			"pages": "299–309",
+			"published": "2021",
+			"doi": "10.24916/iansa.2021.2.14",
+			"accessed": "2026-09-30",
+			"note": "Its first section, on throwing in Egypt under Sneferu"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Potter’s Craft: A Practical Guide for the Studio and Workshop",
+			"authors": [
+				{
+					"family": "Binns",
+					"given": "Charles Fergus"
+				}
+			],
+			"publisher": "D. Van Nostrand",
+			"place": "New York",
+			"published": "1922",
+			"url": "https://www.gutenberg.org/ebooks/40411",
+			"accessed": "2026-09-30",
+			"note": "Second edition (first 1910); chapter IX, the lessons in throwing"
+		},
+		{
+			"kind": "article",
+			"title": "The Ancient Greek Potter’s Wheel: Experimental Archaeology and Web Applications for Velocity Analysis",
+			"authors": [
+				{
+					"family": "Neth",
+					"given": "Brandon"
+				},
+				{
+					"family": "Hasaki",
+					"given": "Eleni"
+				}
+			],
+			"container": "Interdisciplinaria Archaeologica: Natural Sciences in Archaeology",
+			"volume": "12",
+			"issue": "2",
+			"pages": "115–125",
+			"published": "2021",
+			"doi": "10.24916/iansa.2021.2.1",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Orientation Patterns Characteristic for the Structure of the Ceramic Body of Wheel-Thrown Pottery",
+			"authors": [
+				{
+					"family": "Thér",
+					"given": "Richard"
+				},
+				{
+					"family": "Toms",
+					"given": "Petr"
+				}
+			],
+			"container": "Interdisciplinaria Archaeologica: Natural Sciences in Archaeology",
+			"volume": "12",
+			"issue": "2",
+			"pages": "143–154",
+			"published": "2021",
+			"doi": "10.24916/iansa.2021.2.3",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Revisiting the History of the Potter’s Wheel in the Southern Levant",
+			"authors": [
+				{
+					"family": "Roux",
+					"given": "Valentine"
+				},
+				{
+					"family": "de Miroschedji",
+					"given": "Pierre"
+				}
+			],
+			"container": "Levant",
+			"volume": "41",
+			"issue": "2",
+			"pages": "155–173",
+			"published": "2009",
+			"doi": "10.1179/007589109X12484491671095",
+			"accessed": "2026-09-30",
+			"note": "Read in its abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Potter's wheel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Potter's_wheel&oldid=1377513386",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Uruk period",
+			"url": "https://en.wikipedia.org/w/index.php?title=Uruk_period&oldid=1377620508",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Chart: energy stored in a wooden wheelhead at the speeds potters use",
+			"url": "https://iansa.eu/papers/IANSA-2021-02-neth.pdf",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from the wheelhead measured by Neth and Hasaki and the speeds in Neth and Hasaki and in Baldi",
+			"licence": "MIT",
+			"file": "wheel-energy.svg"
+		},
+		{
+			"kind": "media",
+			"title": "Seven models of potter’s wheels, from a turned dish to a power-driven wheel, in the United States National Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:History_of_Inventions_USNM_48_Potter%27s_Wheel.jpg",
+			"accessed": "2026-09-30",
+			"container": "Walter Hough, “Synoptic Series of Objects in the United States National Museum Illustrating the History of Inventions”, Proceedings of the United States National Museum 60, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "hough-wheels.jpg",
+			"authors": [
+				{
+					"name": "United States National Museum"
+				}
+			],
+			"published": "1922"
+		}
+	]
+}

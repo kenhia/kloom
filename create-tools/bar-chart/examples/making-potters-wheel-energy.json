@@ -1,0 +1,31 @@
+{
+	"title": "Energy stored in a wooden wheelhead at the speeds potters use",
+	"description": "Bar chart of the kinetic energy held by a replica Greek wheelhead 0.81 m across and weighing 27.8 kg, treated as a uniform disc, at four speeds. At 50 revolutions a minute, about the slowest smoothing speed measured on it, 31 joules. At 75, a typical throwing speed, 70 joules. At 100, the speed suggested for Uruk wheel-coiling, 125 joules. At 120, the most measured on Egyptian turntable replicas, 180 joules. The energy is this frame's arithmetic, one half I omega squared.",
+	"heading": "ENERGY IN THE SPINNING WHEELHEAD · JOULES",
+	"unit": " J",
+	"width": 480,
+	"height": 300,
+	"barWidth": 64,
+	"axis": {
+		"max": 200,
+		"ticks": [
+			[0, "0"],
+			[50, "50"],
+			[100, "100"],
+			[150, "150"],
+			[200, "200"]
+		]
+	},
+	"bars": [
+		{ "label": "50 rpm", "sublabel": "smoothing", "value": 31, "display": "31 J" },
+		{
+			"label": "75 rpm",
+			"sublabel": "throwing",
+			"value": 70,
+			"display": "70 J",
+			"highlight": true
+		},
+		{ "label": "100 rpm", "sublabel": "Uruk?", "value": 125, "display": "125 J" },
+		{ "label": "120 rpm", "sublabel": "turntable max", "value": 180, "display": "180 J" }
+	]
+}

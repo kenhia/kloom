@@ -1,0 +1,22 @@
+{
+	"making/euv": [
+		["Veldhoven", "veldhoven"],
+		["ASML", "asml"],
+		["extreme-ultraviolet lithography", "euv-lithography"],
+		["Lawrence Livermore", "lawrence-livermore-national-laboratory"],
+		["tin", "tin"],
+		["Trumpf", "trumpf"],
+		["Carl Zeiss SMT", "carl-zeiss-smt"],
+		["Bragg's law", "braggs-law"]
+	],
+	"making/where-making-is": [
+		["knapping", "knapping"],
+		["John Wilkinson", "john-wilkinson-industrialist"],
+		["Henry Maudslay", "henry-maudslay"],
+		["Carl Edvard Johansson", "carl-edvard-johansson"],
+		["International Federation of Robotics", "international-federation-of-robotics"],
+		["fab lab", "fab-lab"],
+		["3D printers", "3d-printing"],
+		["Heritage Crafts", "heritage-crafts"]
+	]
+}

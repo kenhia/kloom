@@ -34,7 +34,10 @@ npx prettier --write subjects/ai
   author). `--only FRAME …` keeps only those frames and the ones already
   committed, so another author's half-written frame cannot fail this
   one's check, and a draft's `home` on a frame not in the copy is dropped
-  (sprint 021). Never run `subject_plan.py` without `--complete` on a
+  (sprint 021). "Committed" is what git tracks, so while a reviewer commits
+  other parts the copy grows from run to run; that is `--only` working, not
+  ignored (sprint 026). The summary line counts the plan against the live
+  subject, not the copy. Never run `subject_plan.py` without `--complete` on a
   subject others are writing: it rewrites the live spine, and sprint 021
   lost the working tree's trails to it twice. Sprint 014's authors each improvised this. A finished trail frame
   whose anchor is not written yet is on no spine, so the copy leaves it out

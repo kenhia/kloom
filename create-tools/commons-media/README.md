@@ -24,7 +24,10 @@ python3 create-tools/commons-media/commons_media.py fetch "File:Name.jpg" subjec
 - Anything but public domain or CC0 gets a caption credit, which the page
   builds from the `media` citation (docs/design.md §Citations). Write no
   credit or caption line under the image yourself.
-- An unknown author is left out of the citation, not written as "Unknown".
+- An unknown author is left out of the citation, not written as "Unknown"
+  (nor "AnonymousUnknown author" or 不明, which sprint 026 met). A date BC is
+  left out too: `published` takes only an AD year, and the tool once wrote
+  "c. 1504 BC" as 1504.
 - Standard library only.
 
 Commons metadata is what uploaders typed. Open the file page and look at the

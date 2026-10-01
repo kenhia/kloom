@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M112 40 L112 142"/>
+		<path pathLength="1" d="M322 40 L322 142"/>
+		<path pathLength="1" d="M14 112 L392 112"/>
+		<path pathLength="1" d="M40 232 L360 232"/>
+		<path pathLength="1" d="M200 192 L200 272"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M18 82 L18 138 L88 138 L88 108"/>
+		<path pathLength="1" d="M18 82 L18.3 79.7 L19.2 77.3 L20.7 75.1 L22.7 73 L25.2 71 L28.3 69.3 L31.7 67.7 L35.5 66.4 L39.6 65.4 L43.9 64.6 L48.4 64.2 L53 64 L57.6 64.2 L62.1 64.6 L66.4 65.4 L70.5 66.4 L74.3 67.7 L77.7 69.3 L80.8 71 L83.3 73 L85.3 75.1 L86.8 77.3 L87.7 79.7 L88 82"/>
+		<path pathLength="1" d="M88 82 L88 96"/>
+		<path pathLength="1" d="M18 108 L92 108 L100 110 L104 108"/>
+		<path pathLength="1" d="M104 78 L330 78"/>
+		<path pathLength="1" d="M104 78 L104 132 L330 132 L330 78"/>
+		<path pathLength="1" d="M104 105.5 L107.8 106.3 L111.7 106.9 L115.5 107.4 L119.3 107.9 L123.2 108.2 L127 108.5 L130.8 108.8 L134.6 109 L138.5 109.2 L142.3 109.3 L146.1 109.4 L150 109.5 L153.8 109.6 L157.6 109.6 L161.5 109.7 L165.3 109.7 L169.1 109.8 L172.9 109.8 L176.8 109.8 L180.6 109.9 L184.4 109.9 L188.3 109.9 L192.1 109.9 L195.9 109.9 L199.8 109.9 L203.6 109.9 L207.4 109.9 L211.3 109.9 L215.1 109.9 L218.9 109.9 L222.7 109.9 L226.6 109.9 L230.4 109.9 L234.2 109.9 L238.1 109.9 L241.9 109.9 L245.7 109.9 L249.6 109.9 L253.4 109.9 L257.2 109.9 L261.1 110 L264.9 110 L268.7 110 L272.5 110 L276.4 110 L280.2 110 L284 110 L287.9 110 L291.7 110 L295.5 110 L299.4 110 L303.2 110 L307 110 L310.8 110 L314.7 110 L318.5 110 L322.3 110 L326.2 110 L330 110"/>
+		<path pathLength="1" d="M330 110 L396 110"/>
+		<path pathLength="1" d="M340 88 L396 88"/>
+		<path pathLength="1" d="M335 114 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M347 114 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M359 114 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M371 114 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M383 114 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M82 232 L82 232 L82.2 228.7 L82.6 225.5 L83.3 222.5 L84.3 219.8 L85.6 217.5 L87 215.6 L88.6 214.2 L90.3 213.4 L92 213.1 L308 213.1 L309.7 213.4 L311.4 214.2 L313 215.6 L314.4 217.5 L315.7 219.8 L316.7 222.5 L317.4 225.5 L317.8 228.7 L318 232 L318 232 L317.8 233.9 L317.2 235.8 L316.1 237.5 L314.7 239.1 L313 240.5 L311 241.6 L308.8 242.4 L306.4 242.9 L304 243.1 L96 243.1 L93.6 242.9 L91.2 242.4 L89 241.6 L87 240.5 L85.3 239.1 L83.9 237.5 L82.8 235.8 L82.2 233.9 L82 232 Z"/>
+		<path pathLength="1" d="M40 232 L82 232"/>
+		<path pathLength="1" d="M318 232 L360 232"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M200 213.1 L200 243.1"/>
+		<path pathLength="1" d="M196 213.1 L204 213.1 M196 243.1 L204 243.1"/>
+		<path pathLength="1" d="M60 258 L52 268 M74 258 L66 268 M88 258 L80 268 M102 258 L94 268 M116 258 L108 268 M130 258 L122 268 M144 258 L136 268 M158 258 L150 268 M172 258 L164 268 M186 258 L178 268 M200 258 L192 268 M214 258 L206 268 M228 258 L220 268 M242 258 L234 268 M256 258 L248 268 M270 258 L262 268 M284 258 L276 268 M298 258 L290 268 M312 258 L304 268 M326 258 L318 268 M340 258 L332 268 M354 258 L346 268"/>
+		<path pathLength="1" d="M110 122 L104 130 M122 122 L116 130 M134 122 L128 130 M146 122 L140 130 M158 122 L152 130 M170 122 L164 130 M182 122 L176 130 M194 122 L188 130 M206 122 L200 130 M218 122 L212 130 M230 122 L224 130 M242 122 L236 130 M254 122 L248 130 M266 122 L260 130 M278 122 L272 130 M290 122 L284 130 M302 122 L296 130 M314 122 L308 130 M326 122 L320 130"/>
+		<path pathLength="1" d="M200 66 L250 66 M244 62 L250 66 L244 70"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="112" y="34" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1050 °C</text>
+		<text x="322" y="34" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">600 °C</text>
+		<text x="53" y="152" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FURNACE</text>
+		<text x="217" y="146" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MOLTEN TIN</text>
+		<text x="368" y="130" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LEHR</text>
+		<text x="208" y="230" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">T</text>
+		<text x="214" y="206" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Sg</text>
+		<text x="370" y="236" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">St</text>
+		<text x="214" y="245.1" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Sgt</text>
+		<text x="128" y="206" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GLASS</text>
+		<text x="200" y="292" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">T² = (Sg + Sgt − St) · 2ρt ÷ gρg(ρt − ρg)</text>
+	</g>
+</svg>

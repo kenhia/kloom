@@ -1,0 +1,166 @@
+{
+	"id": "between-centres",
+	"topic": "Turning between centres",
+	"position": {
+		"label": "Between centres"
+	},
+	"scene": {
+		"headline": "We held it between two",
+		"accent": "POINTS.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": ["MOXON · NASMYTH · THE MACHINIST'S MANUAL", "60° CENTRES · A DOG · A SLIDE REST"],
+		"counter": {
+			"value": "191",
+			"label": "revolutions a minute for 30 m/min on a 50 mm bar"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Fundamentals of Machine Tools",
+			"number": "TC 9-524",
+			"authors": [
+				{
+					"name": "Headquarters, Department of the Army"
+				}
+			],
+			"place": "Washington, DC",
+			"publisher": "Department of the Army",
+			"published": "1996",
+			"url": "https://archive.org/details/tc-9-524-fundamentals-of-machine-tools-1996",
+			"accessed": "2026-09-30",
+			"note": "Centres, dogs and turning between centres, ch. 7; cutting speeds and feeds, tables 7-2 and 7-3"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Remarks on the Introduction of the Slide Principle in Tools and Machines Employed in the Production of Machinery",
+			"authors": [
+				{
+					"family": "Nasmyth",
+					"given": "James"
+				}
+			],
+			"container": "Practical Essays on Mill Work and Other Machinery",
+			"editors": [
+				{
+					"family": "Rennie",
+					"given": "George"
+				}
+			],
+			"place": "London",
+			"publisher": "John Weale",
+			"published": "1841",
+			"url": "https://archive.org/details/practicalessays00nasmgoog",
+			"accessed": "2026-09-30",
+			"note": "Appendix B, from p. 393: hand turning against the slide rest, the self-acting feed, and the credit to Maudslay"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Mechanick Exercises, or, The Doctrine of Handy-Works: Applied to the Arts of Smithing, Joinery, Carpentry, Turning, Bricklayery",
+			"authors": [
+				{
+					"family": "Moxon",
+					"given": "Joseph"
+				}
+			],
+			"place": "London",
+			"publisher": "Dan. Midwinter and Tho. Leigh",
+			"published": "1703",
+			"url": "https://archive.org/details/mechanickexercis00moxo_1",
+			"accessed": "2026-09-30",
+			"note": "\"The whole Sum of Turning\", the opening of the art of turning"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lathe center",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lathe_center&oldid=1370309107",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lathe dog",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lathe_dog&oldid=1317620390",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lathe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lathe&oldid=1377488243",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Nasmyth",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Nasmyth&oldid=1372016732",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Hand turning, and turning with the slide rest, engraved for James Nasmyth's essay on the slide principle",
+			"url": "https://archive.org/details/practicalessays00nasmgoog",
+			"accessed": "2026-09-30",
+			"container": "Practical Essays on Mill Work and Other Machinery, via the Internet Archive",
+			"licence": "Public domain",
+			"file": "nasmyth-slide-rest.jpg",
+			"authors": [
+				{
+					"family": "Nasmyth",
+					"given": "James"
+				}
+			],
+			"published": "1841"
+		},
+		{
+			"kind": "media",
+			"title": "A lathe dog driving a bar turned between centres",
+			"url": "https://commons.wikimedia.org/wiki/File:Lathe_Dog_in_Use.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "lathe-dog.jpg",
+			"authors": [
+				{
+					"name": "David English"
+				}
+			],
+			"published": "2016-05-06"
+		}
+	]
+}

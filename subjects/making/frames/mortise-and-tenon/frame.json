@@ -1,0 +1,148 @@
+{
+	"id": "mortise-and-tenon",
+	"topic": "The mortise and tenon",
+	"position": {
+		"label": "Mortise and tenon"
+	},
+	"scene": {
+		"headline": "We let the peg pull it",
+		"accent": "TIGHT.",
+		"palette": "oak",
+		"illustration": "scene.svg",
+		"metadata": ["ULUBURUN · TIMBER FRAMES · MOXON'S JOINERY", "TENON · MORTISE · DRAWBORED PEG"],
+		"counter": {
+			"value": "⅛ in",
+			"label": "the drawbore's offset, by Fairham's instructions"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Mechanick Exercises, or, The Doctrine of Handy-Works, Applied to the Arts of Smithing, Joinery, Carpentry, Turning, Bricklayery",
+			"authors": [
+				{
+					"family": "Moxon",
+					"given": "Joseph"
+				}
+			],
+			"place": "London",
+			"published": "1703",
+			"url": "https://archive.org/details/mechanickexercis00moxo_1",
+			"accessed": "2026-09-30",
+			"note": "Joinery §17, pp. 83–88: no rule for the tenon, and the drawbore offset by \"the thickness of a Shilling\""
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Woodwork Joints: How They Are Set Out, How Made and Where Used",
+			"authors": [
+				{
+					"family": "Fairham",
+					"given": "William"
+				}
+			],
+			"publisher": "Evans Brothers",
+			"place": "London",
+			"url": "https://www.gutenberg.org/ebooks/21531",
+			"accessed": "2026-09-30",
+			"note": "Drawbore pinning, the ⅛-inch offset, and the one-third rule for tenons"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Uluburun: The Discovery and Excavation of the World's Oldest Known Shipwreck",
+			"authors": [
+				{
+					"family": "Fawcett",
+					"given": "N."
+				},
+				{
+					"family": "Zietsman",
+					"given": "J. C."
+				}
+			],
+			"container": "Akroterion",
+			"volume": "46",
+			"pages": "5–20",
+			"published": "2001",
+			"doi": "10.7445/46-0-116",
+			"url": "https://akroterion.journals.ac.za/pub/article/download/116/128",
+			"accessed": "2026-09-30",
+			"note": "The cedar hull, its oak tenons and the two pegs locking each"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mortise and tenon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mortise_and_tenon&oldid=1354356824",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-15",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Uluburun shipwreck",
+			"url": "https://en.wikipedia.org/w/index.php?title=Uluburun_shipwreck&oldid=1374154602",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Timber framing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Timber_framing&oldid=1373700933",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Moxon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Moxon&oldid=1372034416",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Plate 11 of Moxon's Mechanick Exercises, a timber-framed house in elevation, beside the title page of the 1694 edition",
+			"url": "https://commons.wikimedia.org/wiki/File:Mechanick_Exercises_by_Joseph_Moxon_1694.jpg",
+			"accessed": "2026-09-30",
+			"container": "Library of Congress, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "moxon-plate.jpg",
+			"authors": [
+				{
+					"family": "Moxon",
+					"given": "Joseph"
+				}
+			],
+			"published": "1694"
+		}
+	]
+}

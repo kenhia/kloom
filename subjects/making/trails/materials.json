@@ -1,0 +1,23 @@
+{
+	"id": "materials",
+	"title": "Materials science",
+	"anchor": "japanese-sword",
+	"spine": {
+		"segments": [
+			{
+				"id": "materials-science",
+				"title": "Why materials behave",
+				"labelKind": "date",
+				"frames": [
+					"galileo-beams",
+					"sorby-microscope",
+					"iron-carbon",
+					"duralumin",
+					"griffith-cracks",
+					"dislocations",
+					"carbon-fibre"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,249 @@
+{
+	"id": "bloomery",
+	"topic": "The bloomery and wrought iron",
+	"position": {
+		"label": "c. 1200 BC",
+		"sort": -1200
+	},
+	"scene": {
+		"headline": "We beat iron from a",
+		"accent": "SPONGE.",
+		"palette": "scale",
+		"illustration": "scene.svg",
+		"metadata": ["ANATOLIA · CYPRUS · THE LEVANT", "IRON ORE · CHARCOAL · BELLOWS · HAMMER"],
+		"counter": {
+			"value": "23",
+			"label": "hours of work for a kilogram of bar iron, in a modern reconstruction"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/copper-smelting",
+			"why": "The bloomery reduces ore with carbon monoxide from charcoal, as the first copper smelters did, but iron melts some 450 °C higher than copper, so its metal never runs together and comes out as a solid sponge."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Practical Treatise on the Smelting and Smithing of Bloomery Iron",
+			"authors": [
+				{
+					"family": "Sauder",
+					"given": "Lee"
+				},
+				{
+					"family": "Williams",
+					"given": "Skip"
+				}
+			],
+			"container": "Historical Metallurgy",
+			"volume": "36",
+			"issue": "2",
+			"pages": "122–131",
+			"published": "2002",
+			"url": "https://hmsjournal.org/index.php/home/article/view/268",
+			"accessed": "2026-09-30",
+			"note": "Smelt 25, the temperatures, the yields and the labour"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Innovation and Adoption of Iron in the Ancient Near East",
+			"authors": [
+				{
+					"family": "Erb-Satullo",
+					"given": "Nathaniel L."
+				}
+			],
+			"container": "Journal of Archaeological Research",
+			"volume": "27",
+			"issue": "4",
+			"pages": "557–607",
+			"published": "2019-02-21",
+			"doi": "10.1007/s10814-019-09129-6",
+			"accessed": "2026-09-30",
+			"note": "Hattušili III's letter is quoted from Siegelová's translation, as reported by Yalçin"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Meteoritic Origin of Tutankhamun's Iron Dagger Blade",
+			"authors": [
+				{
+					"family": "Comelli",
+					"given": "Daniela"
+				},
+				{
+					"family": "D'Orazio",
+					"given": "Massimo"
+				},
+				{
+					"family": "Folco",
+					"given": "Luigi"
+				},
+				{
+					"family": "El-Halwagy",
+					"given": "Mahmud"
+				},
+				{
+					"family": "Frizzi",
+					"given": "Tommaso"
+				},
+				{
+					"family": "Alberti",
+					"given": "Roberto"
+				},
+				{
+					"family": "Capogrosso",
+					"given": "Valentina"
+				}
+			],
+			"etAl": true,
+			"container": "Meteoritics & Planetary Science",
+			"volume": "51",
+			"issue": "7",
+			"pages": "1301–1309",
+			"published": "2016-05-20",
+			"doi": "10.1111/maps.12664",
+			"url": "https://hdl.handle.net/11568/794614",
+			"accessed": "2026-09-30",
+			"note": "Read in the authors' copy at the University of Pisa"
+		},
+		{
+			"kind": "article",
+			"title": "Iron Decarburisation Techniques in the Eastern Guanzhong Plain, China, during Late Warring States Period: An Investigation Based on Slag Inclusion Analyses",
+			"authors": [
+				{
+					"family": "Liu",
+					"given": "Yaxiong"
+				},
+				{
+					"family": "Martinón-Torres",
+					"given": "Marcos"
+				},
+				{
+					"family": "Chen",
+					"given": "Jianli"
+				},
+				{
+					"family": "Sun",
+					"given": "Weigang"
+				},
+				{
+					"family": "Chen",
+					"given": "Kunlong"
+				}
+			],
+			"container": "Archaeological and Anthropological Sciences",
+			"volume": "11",
+			"issue": "12",
+			"pages": "6537–6549",
+			"published": "2019-09-07",
+			"doi": "10.1007/s12520-019-00921-5",
+			"url": "https://www.repository.cam.ac.uk/bitstreams/d7a8449f-ba97-4779-9aca-b6e9517aabb3/download",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Bloomery",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bloomery&oldid=1374511063",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wrought iron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wrought_iron&oldid=1358187836",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tutankhamun's meteoric iron dagger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tutankhamun's_meteoric_iron_dagger&oldid=1373343452",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Iron Age",
+			"url": "https://en.wikipedia.org/w/index.php?title=Iron_Age&oldid=1376943331",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Iron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Iron&oldid=1375301975",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "media",
+			"title": "A bloom of sponge iron just taken from an experimental bloomery, about to be hammered, University of Mary Washington, 2006",
+			"url": "https://commons.wikimedia.org/wiki/File:Iron_bloom.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "iron-bloom.jpg",
+			"authors": [
+				{
+					"name": "Morgan Riley"
+				}
+			],
+			"published": "2006-04-26"
+		},
+		{
+			"kind": "media",
+			"title": "Optical micrograph of wrought iron, with dark slag inclusions in ferrite",
+			"url": "https://commons.wikimedia.org/wiki/File:A231_-_Optical_micrograph_of_wrought_iron.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "wrought-iron-micrograph.jpg",
+			"authors": [
+				{
+					"name": "Mike Meier"
+				}
+			],
+			"published": "2008-05-10"
+		}
+	]
+}

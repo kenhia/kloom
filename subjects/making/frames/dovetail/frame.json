@@ -1,0 +1,153 @@
+{
+	"id": "dovetail",
+	"topic": "The dovetail joint",
+	"position": {
+		"label": "Dovetail"
+	},
+	"scene": {
+		"headline": "We flared the",
+		"accent": "TAILS.",
+		"palette": "shavings",
+		"illustration": "scene.svg",
+		"metadata": [
+			"EGYPT · THE MARY ROSE · THE CABINETMAKER'S DRAWER",
+			"GAUGE · BEVEL AT 1 IN 8 · SAW · CHISEL"
+		],
+		"counter": {
+			"value": "106",
+			"label": "US patents for dovetailing machines, 1833–1900"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Through, Lapped or Blind: The Dovetail Joint in Furniture History",
+			"authors": [
+				{
+					"family": "Edwards",
+					"given": "Clive"
+				}
+			],
+			"container": "Proceedings of the 10th International Symposium for Wood and Furniture Conservation: Reproduction and Reconstruction in Furniture Conservation, Amsterdam, November 2010",
+			"publisher": "Loughborough University",
+			"published": "2012",
+			"url": "https://hdl.handle.net/2134/9326",
+			"accessed": "2026-09-30",
+			"note": "Origins, the slopes by period, the 1632 joiners' list and the dovetailing machines"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Woodwork Joints: How They Are Set Out, How Made and Where Used",
+			"authors": [
+				{
+					"family": "Fairham",
+					"given": "William"
+				}
+			],
+			"publisher": "Evans Brothers",
+			"place": "London",
+			"url": "https://www.gutenberg.org/ebooks/21531",
+			"accessed": "2026-09-30",
+			"note": "Lap-dovetailing: the 1 in 8 bevel, the cutting gauge and the chiselling"
+		},
+		{
+			"kind": "web",
+			"title": "The Relationship between Dovetail Angle and Joint Strength",
+			"container": "Akeda",
+			"url": "http://www.akeda.com/documents/DovetailAngle.pdf",
+			"accessed": "2026-09-30",
+			"note": "Notes on the Forest Products Research Laboratory's tests (K. S. Walker), reported in Woodworker, January 1958; read through the Wayback Machine"
+		},
+		{
+			"kind": "web",
+			"title": "US Patent 63,532: Machine for Jointing Wood (Charles B. Knapp)",
+			"published": "1867-04-02",
+			"url": "https://patents.google.com/patent/US63532A/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dovetail joint",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dovetail_joint&oldid=1373690906",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mary Rose",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mary_Rose&oldid=1374827655",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Samuel Bentham",
+			"url": "https://en.wikipedia.org/w/index.php?title=Samuel_Bentham&oldid=1373913440",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Iron Bridge",
+			"url": "https://en.wikipedia.org/w/index.php?title=Iron_Bridge&oldid=1254183210",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-10-29"
+		},
+		{
+			"kind": "media",
+			"title": "Common, lapped and mitred or secret dovetails, from the article \"Joinery\" in the Encyclopædia Britannica, eleventh edition",
+			"url": "https://commons.wikimedia.org/wiki/File:EB1911_Joinery_-_Fig._3.%E2%80%94Dovetails.jpg",
+			"accessed": "2026-09-30",
+			"container": "Encyclopædia Britannica (1911), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "eb1911-dovetails.jpg",
+			"published": "1911"
+		},
+		{
+			"kind": "media",
+			"title": "The angle of a dovetail's sides by period, worked out from Clive Edwards's slopes",
+			"url": "https://hdl.handle.net/2134/9326",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from Edwards, \"Through, Lapped or Blind\"",
+			"licence": "MIT",
+			"file": "slopes.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "making/egyptian-carpentry",
+			"why": "Queen Hetepheres's canopy, about 2600 BC, had its roof poles dovetailed into its top rails."
+		}
+	]
+}

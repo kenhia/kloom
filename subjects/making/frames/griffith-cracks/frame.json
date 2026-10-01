@@ -1,0 +1,185 @@
+{
+	"id": "griffith-cracks",
+	"topic": "Griffith's cracks and brittle fracture",
+	"position": {
+		"label": "1920",
+		"sort": 1920
+	},
+	"scene": {
+		"headline": "Glass breaks at its",
+		"accent": "FLAWS.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ROYAL AIRCRAFT ESTABLISHMENT · FARNBOROUGH",
+			"A. A. GRIFFITH · PHIL. TRANS. 1920 · GLASS BULBS AND FIBRES"
+		],
+		"counter": {
+			"value": "970 of 4,694",
+			"label": "wartime welded US merchant ships that suffered fractures"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Phenomena of Rupture and Flow in Solids",
+			"authors": [
+				{
+					"family": "Griffith",
+					"given": "A. A."
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London, Series A",
+			"volume": "221",
+			"pages": "163–198",
+			"published": "1921",
+			"doi": "10.1098/rsta.1921.0006",
+			"accessed": "2026-09-30",
+			"note": "Read 26 February 1920 and issued separately that October; the bulbs are Table II, the fibres Table V"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Design and Methods of Construction of Welded Steel Merchant Vessels: Final Report of a Board of Investigation",
+			"publisher": "US Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1947",
+			"url": "https://archive.org/details/DTIC_AD0636332",
+			"accessed": "2026-09-30",
+			"note": "Dated 15 July 1946; the findings, the casualty counts and the Coast Guard report on the Schenectady"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Griffith Relation: A Historical Review",
+			"authors": [
+				{
+					"family": "Munz",
+					"given": "Dietrich"
+				},
+				{
+					"family": "Fett",
+					"given": "Theo"
+				}
+			],
+			"number": "KIT Scientific Working Papers 34",
+			"publisher": "Karlsruhe Institute of Technology",
+			"place": "Karlsruhe",
+			"published": "2015",
+			"url": "https://publikationen.bibliothek.kit.edu/1000049444",
+			"accessed": "2026-09-30",
+			"note": "The error in the 1920 formula and Griffith's 1924 correction"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fracture mechanics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fracture_mechanics&oldid=1362286178",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alan Arnold Griffith",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alan_Arnold_Griffith&oldid=1372361999",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "SS Schenectady",
+			"url": "https://en.wikipedia.org/w/index.php?title=SS_Schenectady&oldid=1354956172",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Liberty ship",
+			"url": "https://en.wikipedia.org/w/index.php?title=Liberty_ship&oldid=1376388918",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Constance Tipper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Constance_Tipper&oldid=1362680885",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Rankin Irwin",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Rankin_Irwin&oldid=1371998847",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "The tanker Schenectady broken in two at her fitting-out pier, Portland, Oregon, January 1943",
+			"url": "https://commons.wikimedia.org/wiki/File:TankerSchenectady.jpg",
+			"accessed": "2026-09-30",
+			"container": "From the Board of Investigation report (US Government Printing Office, 1947), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "schenectady.jpg",
+			"published": "1947"
+		},
+		{
+			"kind": "media",
+			"title": "Strength of Griffith's glass fibres against diameter, chart drawn for kloom",
+			"url": "https://archive.org/details/philtrans01457975",
+			"accessed": "2026-09-30",
+			"container": "Data from Griffith, Philosophical Transactions A 221, Table V",
+			"licence": "MIT",
+			"file": "fibre-strength.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "making/arc-welding",
+			"why": "Welded hulls, one continuous plate, gave a running crack nothing to stop at, and the welded Liberty ships broke in cold seas."
+		}
+	]
+}

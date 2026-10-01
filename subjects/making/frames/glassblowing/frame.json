@@ -1,0 +1,216 @@
+{
+	"id": "glassblowing",
+	"topic": "Glassblowing",
+	"position": {
+		"label": "c. 50 BC",
+		"sort": -50
+	},
+	"scene": {
+		"headline": "We gave glass our",
+		"accent": "BREATH.",
+		"palette": "flint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"JERUSALEM · SIDON · THE ROMAN WORLD",
+			"A PIPE · A MARVER · A PONTIL · A SLOW COOL"
+		],
+		"counter": {
+			"value": "100",
+			"label": "plain vessels a day from one blower, by one estimate"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Impact of Glassblowing on the Early-Roman Glass Industry (circa 50 B.C. – A.D. 79)",
+			"authors": [
+				{
+					"family": "Prior",
+					"given": "Jonathan David"
+				}
+			],
+			"publisher": "Durham University",
+			"number": "PhD thesis",
+			"published": "2015",
+			"url": "https://etheses.dur.ac.uk/11186/",
+			"accessed": "2026-09-30",
+			"note": "Chapter 1 on the Jerusalem find (after Avigad, Grose and Israeli), and chapter 8; quotes Stern on 100 vessels a day"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Glass Manufacture",
+			"authors": [
+				{
+					"family": "Rosenhain",
+					"given": "Walter"
+				}
+			],
+			"publisher": "D. Van Nostrand",
+			"place": "New York",
+			"published": "1908",
+			"url": "https://www.gutenberg.org/ebooks/52724",
+			"accessed": "2026-09-30",
+			"note": "The bottle-maker’s steps, thermal stress and chilled glass"
+		},
+		{
+			"kind": "book",
+			"title": "Glass and Glass Manufacture",
+			"authors": [
+				{
+					"family": "Marson",
+					"given": "Percival"
+				}
+			],
+			"publisher": "Sir Isaac Pitman & Sons",
+			"place": "London",
+			"published": "1919",
+			"url": "https://www.gutenberg.org/ebooks/63421",
+			"accessed": "2026-09-30",
+			"note": "Chapter X, lehrs and annealing; read in the reprint of June 1919"
+		},
+		{
+			"kind": "web",
+			"title": "Glass Text B (K 00203+)",
+			"container": "Oracc: Glass — Corpus of Glass Technological Texts",
+			"url": "https://oracc.museum.upenn.edu/glass/P393786",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "book",
+			"title": "The Natural History",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"editors": [
+				{
+					"family": "Bostock",
+					"given": "John"
+				},
+				{
+					"family": "Riley",
+					"given": "H. T."
+				}
+			],
+			"publisher": "Taylor and Francis",
+			"place": "London",
+			"published": "1855",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D36%3Achapter%3D66",
+			"accessed": "2026-09-30",
+			"note": "Book 36, chapters 65–66, read at the Perseus Digital Library"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Glassblowing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Glassblowing&oldid=1376223038",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of glass",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_glass&oldid=1377637018",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Annealing (glass)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Annealing_(glass)&oldid=1362065140",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Soda–lime glass",
+			"url": "https://en.wikipedia.org/w/index.php?title=Soda%E2%80%93lime_glass&oldid=1373620712",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Roman glass",
+			"url": "https://en.wikipedia.org/w/index.php?title=Roman_glass&oldid=1351897510",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-30"
+		},
+		{
+			"kind": "media",
+			"title": "The inside of a small wood-fired glasshouse: gathering, marvering and blowing at the furnace, with the annealing chamber beside it",
+			"url": "https://archive.org/details/Recueildeplanch10Dide",
+			"accessed": "2026-09-30",
+			"container": "Recueil de planches, sur les sciences, les arts libéraux, et les arts méchaniques, vol. 10, “Verrerie en bois”, plate I (Smithsonian Libraries copy, Internet Archive)",
+			"licence": "Public domain",
+			"file": "glasshouse.jpg",
+			"authors": [
+				{
+					"family": "Radel"
+				},
+				{
+					"family": "Bénard",
+					"given": "Robert"
+				}
+			],
+			"published": "1772"
+		},
+		{
+			"kind": "media",
+			"title": "Roman free-blown glass perfume bottle, late 1st–3rd century AD, Metropolitan Museum of Art 40.61.1",
+			"url": "https://commons.wikimedia.org/wiki/File:Glass_perfume_bottle_MET_sf40611.jpg",
+			"accessed": "2026-09-30",
+			"container": "Metropolitan Museum of Art, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "roman-bottle.jpg",
+			"authors": [
+				{
+					"name": "Metropolitan Museum of Art"
+				}
+			]
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/clay-recipes",
+			"why": "The Assyrian glass tablets of Ashurbanipal’s library give a recipe for soda glass from ground stone and salicornia ash, six centuries before anyone blew glass on a pipe."
+		}
+	]
+}

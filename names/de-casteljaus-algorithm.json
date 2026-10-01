@@ -1,0 +1,9 @@
+{
+	"id": "de-casteljaus-algorithm",
+	"wikidata": "Q1179419",
+	"name": "De Casteljau's algorithm",
+	"aliases": ["de Casteljau's construction"],
+	"kind": "idea",
+	"description": "A way of finding a point on a Bézier curve by repeatedly dividing the segments between its control points in the same ratio.",
+	"home": "making/bezier-curves"
+}

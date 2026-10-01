@@ -1,0 +1,9 @@
+{
+	"id": "stl-file-format",
+	"wikidata": "Q1238229",
+	"name": "STL (file format)",
+	"aliases": ["STL", "STL file"],
+	"kind": "idea",
+	"description": "A file format written for 3D Systems' stereolithography machines in the late 1980s that describes a solid's surface as a bare list of triangles; most 3D-printable models are still shared in it.",
+	"home": "making/stl-meshes"
+}

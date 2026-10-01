@@ -1,0 +1,200 @@
+{
+	"id": "whitworth",
+	"topic": "Whitworth's flat surfaces and threads",
+	"position": {
+		"label": "1841",
+		"sort": 1841
+	},
+	"scene": {
+		"headline": "We scraped iron",
+		"accent": "FLAT.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MANCHESTER · JOSEPH WHITWORTH",
+			"THREE PLATES · RED OCHRE · THE SCRAPER · A 55° THREAD"
+		],
+		"counter": {
+			"value": "1,000,000",
+			"label": "parts of an inch his measuring machine could tell apart, he said in 1856"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/clement-fragment",
+			"why": "Whitworth was one of Joseph Clement's journeymen from 1831 to 1833, while the Difference Engine was being built: \"Clement made Whitworth\", Babbage's workmen said."
+		},
+		{
+			"to": "making/maudslay",
+			"why": "Whitworth worked for Maudslay, whose men already made their bench plates three at a time and finished them with scrapers."
+		}
+	],
+	"citations": [
+		{
+			"container": "Miscellaneous Papers on Mechanical Subjects",
+			"authors": [
+				{
+					"family": "Whitworth",
+					"given": "Joseph"
+				}
+			],
+			"publisher": "Longman, Brown, Green, Longmans, and Roberts",
+			"place": "London",
+			"url": "https://archive.org/details/miscellaneouspa00whitgoog",
+			"accessed": "2026-09-30",
+			"kind": "chapter",
+			"key": true,
+			"title": "A Paper on Plane Metallic Surfaces or True Planes, Read at the Meeting of the British Association in Glasgow, 1840",
+			"pages": "1–19",
+			"published": "1858",
+			"note": "Grinding's faults, and the three plates step by step"
+		},
+		{
+			"container": "Miscellaneous Papers on Mechanical Subjects",
+			"authors": [
+				{
+					"family": "Whitworth",
+					"given": "Joseph"
+				}
+			],
+			"publisher": "Longman, Brown, Green, Longmans, and Roberts",
+			"place": "London",
+			"url": "https://archive.org/details/miscellaneouspa00whitgoog",
+			"accessed": "2026-09-30",
+			"kind": "chapter",
+			"key": true,
+			"title": "A Paper on an Uniform System of Screw Threads, Read at the Institution of Civil Engineers, 1841",
+			"pages": "21–36",
+			"published": "1858",
+			"note": "The averaged pitches and the 55° angle"
+		},
+		{
+			"container": "Miscellaneous Papers on Mechanical Subjects",
+			"authors": [
+				{
+					"family": "Whitworth",
+					"given": "Joseph"
+				}
+			],
+			"publisher": "Longman, Brown, Green, Longmans, and Roberts",
+			"place": "London",
+			"url": "https://archive.org/details/miscellaneouspa00whitgoog",
+			"accessed": "2026-09-30",
+			"kind": "chapter",
+			"title": "Address Delivered to the Institution of Mechanical Engineers, Glasgow, 1856",
+			"pages": "37–54",
+			"published": "1858"
+		},
+		{
+			"kind": "book",
+			"title": "James Nasmyth, Engineer: An Autobiography",
+			"authors": [
+				{
+					"family": "Nasmyth",
+					"given": "James"
+				}
+			],
+			"editors": [
+				{
+					"family": "Smiles",
+					"given": "Samuel"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1883",
+			"url": "https://www.gutenberg.org/ebooks/476",
+			"accessed": "2026-09-30",
+			"note": "Maudslay's standard planes, made three at a time"
+		},
+		{
+			"kind": "book",
+			"title": "The Machine Tool Collection: Catalogue of Exhibits with Historical Introduction",
+			"authors": [
+				{
+					"family": "Gilbert",
+					"given": "K. R."
+				}
+			],
+			"publisher": "Her Majesty's Stationery Office, for the Science Museum",
+			"place": "London",
+			"published": "1966",
+			"url": "https://archive.org/details/machine-tool-collection",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "book",
+			"title": "Industrial Biography: Iron Workers and Tool Makers",
+			"authors": [
+				{
+					"family": "Smiles",
+					"given": "Samuel"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1863",
+			"url": "https://www.gutenberg.org/ebooks/404",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Whitworth",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Whitworth&oldid=1368513544",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "British Standard Whitworth",
+			"url": "https://en.wikipedia.org/w/index.php?title=British_Standard_Whitworth&oldid=1371678508",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Surface plate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Surface_plate&oldid=1368782147",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "media",
+			"title": "Planing machine by J. Whitworth and Co., 1842, in the Science Museum (plate 26 of The Machine Tool Collection)",
+			"url": "https://commons.wikimedia.org/wiki/File:Machine_Tool_Collection_Gilbert_1966_Plate_26.jpg",
+			"accessed": "2026-09-30",
+			"container": "Science Museum, via Wikimedia Commons",
+			"licence": "Public domain (Crown copyright expired)",
+			"file": "whitworth-planer.jpg",
+			"authors": [
+				{
+					"family": "Gilbert",
+					"given": "K. R."
+				}
+			],
+			"published": "1966"
+		}
+	]
+}

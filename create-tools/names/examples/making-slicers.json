@@ -1,0 +1,43 @@
+{
+	"making/stl-meshes": [
+		["STL", "stl-file-format"],
+		["3D Systems", "3d-systems"],
+		["Chuck Hull", "chuck-hull"],
+		["Library of Congress", "library-of-congress"],
+		["Euler characteristic", "euler-characteristic"],
+		["Archimedes", "archimedes"],
+		["Fusion 360", "autodesk-fusion"],
+		["3D Manufacturing Format", "3d-manufacturing-format"]
+	],
+	"making/slicing": [
+		["slicer", "slicer-3d-printing"],
+		["G-code", "g-code"],
+		["RepRap", "reprap"],
+		["Slic3r", "slic3r"],
+		["Cura", "cura-software"],
+		["copyleft", "copyleft"],
+		["PrusaSlicer", "prusaslicer"],
+		["Bambu Lab", "bambu-lab"]
+	],
+	"making/supports": [
+		["Prusa Research", "prusa-research"],
+		["PrusaSlicer", "prusaslicer"],
+		["Cura", "cura-software"],
+		["Purdue University", "purdue-university"],
+		["MakerBot", "makerbot"],
+		["polyvinyl alcohol", "polyvinyl-alcohol"],
+		["chamfer", "chamfer"]
+	],
+	"making/printed-fits": [
+		[
+			"International Organization for Standardization",
+			"international-organization-for-standardization"
+		],
+		["Prusa Research", "prusa-research"],
+		["RepRap", "reprap"],
+		["OpenSCAD", "openscad"],
+		["GitHub", "github"],
+		["ABS", "acrylonitrile-butadiene-styrene"],
+		["PLA", "polylactic-acid"]
+	]
+}

@@ -1,0 +1,154 @@
+{
+	"id": "printed-fits",
+	"topic": "Designing printed parts to fit",
+	"position": {
+		"label": "Fits and tolerances"
+	},
+	"scene": {
+		"headline": "We designed in the",
+		"accent": "GAP.",
+		"palette": "resin",
+		"illustration": "scene.svg",
+		"metadata": [
+			"POLYHOLES · ELEPHANT'S FOOT · PRINT-IN-PLACE",
+			"KTASKLIGHT · A RING MAGNET IN A PRINTED POCKET"
+		],
+		"counter": {
+			"value": "0.3 mm",
+			"label": "of clearance, Prusa's starting point for parts that move"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Modeling with 3D Printing in Mind",
+			"authors": [
+				{
+					"name": "Prusa Research"
+				}
+			],
+			"container": "Prusa Knowledge Base",
+			"url": "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
+			"accessed": "2026-09-30",
+			"note": "Tolerances: accurate to 0.2 mm, at least 0.3 mm for moving parts"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Slic3r Manual: Dimension Errors",
+			"authors": [
+				{
+					"family": "Hodgson",
+					"given": "Gary"
+				},
+				{
+					"family": "Ranellucci",
+					"given": "Alessandro"
+				},
+				{
+					"family": "Moe",
+					"given": "Jeff"
+				}
+			],
+			"publisher": "Aleph Objects",
+			"url": "https://manual.slic3r.org/troubleshooting/dimension-errors",
+			"accessed": "2026-09-30",
+			"note": "Why holes print small"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Polyholes",
+			"authors": [
+				{
+					"name": "nophead"
+				}
+			],
+			"container": "HydraRaptor",
+			"published": "2011-02-05",
+			"url": "https://hydraraptor.blogspot.com/2011/02/polyholes.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "kTaskLight",
+			"authors": [
+				{
+					"family": "Hiatt",
+					"given": "Ken"
+				}
+			],
+			"container": "GitHub",
+			"published": "2025-11-05",
+			"url": "https://github.com/kenhia/kTaskLight",
+			"accessed": "2026-09-30",
+			"note": "The README's assembly notes and the magnet's withdrawal; RingMagnetA.stl measured by us"
+		},
+		{
+			"kind": "web",
+			"title": "Elephant Foot Compensation",
+			"authors": [
+				{
+					"name": "Prusa Research"
+				}
+			],
+			"container": "Prusa Knowledge Base",
+			"url": "https://help.prusa3d.com/article/elephant-foot-compensation_114487",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "fdmprinter.def.json",
+			"authors": [
+				{
+					"name": "Ultimaker"
+				}
+			],
+			"container": "Cura",
+			"publisher": "GitHub",
+			"published": "2026-09-10",
+			"url": "https://github.com/Ultimaker/Cura/blob/34840772f9f82d831834e8b99666c6b55e88490d/resources/definitions/fdmprinter.def.json",
+			"accessed": "2026-09-30",
+			"note": "Initial layer horizontal expansion"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Engineering fit",
+			"url": "https://en.wikipedia.org/w/index.php?title=Engineering_fit&oldid=1338122685",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-13",
+			"key": true
+		},
+		{
+			"kind": "media",
+			"title": "Ken Hiatt's kTaskLight, a desk lamp of aluminium extrusion and printed parts",
+			"url": "https://github.com/kenhia/kTaskLight/blob/main/images/IMG_1802.jpg",
+			"accessed": "2026-09-30",
+			"container": "kTaskLight, GitHub",
+			"licence": "MIT",
+			"file": "tasklight.jpg",
+			"authors": [
+				{
+					"family": "Hiatt",
+					"given": "Ken"
+				}
+			],
+			"published": "2025-09-06"
+		}
+	],
+	"connections": [
+		{
+			"to": "making/openscad",
+			"why": "The polyhole, which sizes a printed hole so its flats touch the circle, was written as a function for OpenSCAD."
+		}
+	]
+}

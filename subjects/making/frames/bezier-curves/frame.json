@@ -1,0 +1,215 @@
+{
+	"id": "bezier-curves",
+	"topic": "Bézier curves",
+	"position": {
+		"label": "1958–66",
+		"sort": 1958
+	},
+	"scene": {
+		"headline": "We steered curves by",
+		"accent": "POLES.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CITROËN · RENAULT",
+			"PAUL DE CASTELJAU · PIERRE BÉZIER",
+			"CONTROL POINTS · UNISURF · POSTSCRIPT"
+		],
+		"counter": {
+			"value": "9 mm",
+			"label": "between the DS's left and right wings, in de Casteljau's telling"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/macintosh",
+			"why": "PostScript, the language that made the Mac a printing press, draws every shape, letters included, with the cubic curves de Casteljau and Bézier devised for car bodies."
+		},
+		{
+			"to": "mathematics/apollonius-conics",
+			"why": "A Bézier curve with three control points is exactly an arc of a parabola, one of Apollonius's conics, and de Casteljau said the old construction of the parabola from points and tangents inspired his."
+		},
+		{
+			"to": "making/numerical-control",
+			"why": "Bézier was put in charge of Renault's machine-tool division in 1957 to catch up with American numerical control."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Paul de Casteljau: The Story of My Adventure",
+			"authors": [
+				{
+					"family": "Müller",
+					"given": "Andreas"
+				}
+			],
+			"container": "Computer Aided Geometric Design",
+			"volume": "110",
+			"pages": "102278",
+			"published": "2024-03-05",
+			"doi": "10.1016/j.cagd.2024.102278",
+			"url": "https://hal.science/hal-04668877",
+			"accessed": "2026-09-30",
+			"note": "De Casteljau's autobiography of 1997, transcribed, translated and annotated: Citroën from 1958, the poles, the DS"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Tour d'Horizon of de Casteljau's Work",
+			"authors": [
+				{
+					"family": "Müller",
+					"given": "Andreas"
+				}
+			],
+			"container": "Computer Aided Geometric Design",
+			"volume": "113",
+			"pages": "102366",
+			"published": "2024-06-20",
+			"doi": "10.1016/j.cagd.2024.102366",
+			"url": "https://arxiv.org/abs/2408.13125",
+			"accessed": "2026-09-30",
+			"note": "De Casteljau and Bézier compared, and what Bézier knew"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Example of an Existing System in the Motor Industry: The Unisurf System",
+			"authors": [
+				{
+					"family": "Bézier",
+					"given": "Pierre"
+				}
+			],
+			"container": "Proceedings of the Royal Society of London A",
+			"volume": "321",
+			"issue": "1545",
+			"pages": "207–218",
+			"published": "1971",
+			"doi": "10.1098/rspa.1971.0027",
+			"accessed": "2026-09-30",
+			"note": "UNISURF in use: the three-vector curves, the drawing machine, the computer"
+		},
+		{
+			"kind": "article",
+			"title": "La carrière de Pierre Bézier chez Renault (1933–1975)",
+			"authors": [
+				{
+					"family": "Michel",
+					"given": "Alain P."
+				}
+			],
+			"container": "Artefact",
+			"volume": "13",
+			"pages": "213–242",
+			"published": "2020",
+			"doi": "10.4000/artefact.6711",
+			"url": "https://journals.openedition.org/artefact/6711",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "book",
+			"title": "PostScript Language Reference",
+			"authors": [
+				{
+					"name": "Adobe Systems"
+				}
+			],
+			"publisher": "Addison-Wesley",
+			"place": "Reading, MA",
+			"published": "1999",
+			"url": "https://www.adobe.com/jp/print/postscript/pdfs/PLRM.pdf",
+			"accessed": "2026-09-30",
+			"note": "Third edition; curveto, pp. 564–565"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bézier curve",
+			"url": "https://en.wikipedia.org/w/index.php?title=B%C3%A9zier_curve&oldid=1373738752",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "De Casteljau's algorithm",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_Casteljau's_algorithm&oldid=1375131264",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre Bézier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre_B%C3%A9zier&oldid=1371985091",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul de Casteljau",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_de_Casteljau&oldid=1372258847",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "media",
+			"title": "A set of Burmester French curves",
+			"url": "https://commons.wikimedia.org/wiki/File:Burmester.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "french-curves.jpg",
+			"authors": [
+				{
+					"name": "WikipediaMaster"
+				}
+			],
+			"published": "2008-08-05"
+		},
+		{
+			"kind": "media",
+			"title": "A 1958 Citroën DS19 at the Toyota Automobile Museum, Nagakute",
+			"url": "https://commons.wikimedia.org/wiki/File:1958_Citro%C3%ABn_DS19_Saloon.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "citroen-ds19.jpg",
+			"authors": [
+				{
+					"name": "Coolalabright"
+				}
+			],
+			"published": "2025-11-05"
+		}
+	]
+}

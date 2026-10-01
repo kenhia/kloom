@@ -1,0 +1,24 @@
+{
+	"title": "Cure depth of a photopolymer resin against the dose of light, each dose double the last",
+	"description": "Bar chart of the depth to which a layer of resin sets for doses of 12.6, 25, 50, 100 and 200 millijoules per square centimetre: 37, 73, 110, 146 and 183 micrometres. Each doubling of the dose adds the same 37 micrometres. Worked from Jacobs's working curve, cure depth = Dp × ln(E ÷ Ec), with Dp = 53 µm and Ec = 6.3 mJ/cm², the values NIST measured for the resin PR48 at 405 nm (Bennett, 2017).",
+	"heading": "CURE DEPTH, µm · DOSE DOUBLING EACH BAR",
+	"unit": "",
+	"width": 520,
+	"axis": {
+		"max": 220,
+		"ticks": [
+			[0, "0"],
+			[50, "50"],
+			[100, "100"],
+			[150, "150"],
+			[200, "200"]
+		]
+	},
+	"bars": [
+		{ "label": "12.6", "sublabel": "mJ/cm²", "value": 37 },
+		{ "label": "25", "sublabel": "mJ/cm²", "value": 73 },
+		{ "label": "50", "sublabel": "mJ/cm²", "value": 110 },
+		{ "label": "100", "sublabel": "mJ/cm²", "value": 146, "highlight": true },
+		{ "label": "200", "sublabel": "mJ/cm²", "value": 183 }
+	]
+}

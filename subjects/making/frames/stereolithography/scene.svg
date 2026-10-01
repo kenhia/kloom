@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M16 140 L248 140"/>
+		<path pathLength="1" d="M112 147 L204 147"/>
+		<path pathLength="1" d="M112 154 L204 154"/>
+		<path pathLength="1" d="M112 161 L204 161"/>
+		<path pathLength="1" d="M112 168 L204 168"/>
+		<path pathLength="1" d="M112 175 L204 175"/>
+		<path pathLength="1" d="M112 182 L204 182"/>
+		<path pathLength="1" d="M150 40 L120 140"/>
+		<path pathLength="1" d="M150 40 L214 140"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M26 120 L26 262 L238 262 L238 120"/>
+		<path pathLength="1" d="M112 140 L204 140 L204 161 L180 161 L180 182 L204 182 L204 196 L112 196 L112 182 L136 182 L136 161 L112 161 Z"/>
+		<path pathLength="1" d="M92 196 L226 196 L226 202 L92 202 Z"/>
+		<path pathLength="1" d="M222 196 L222 96 L250 96"/>
+		<path pathLength="1" d="M34 25 L86 25 L86 43 L34 43 Z"/>
+		<path pathLength="1" d="M86 34 L150 34 L156 40 L176 140"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M141 31 L159 49"/>
+		<path pathLength="1" d="M172 140 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M60 132 L60 138 L96 138 L96 132 Z"/>
+		<path pathLength="1" d="M40 154 L48 154 M74 154 L82 154 M57 176 L65 176 M91 176 L99 176 M227 176 L235 176 M40 198 L48 198 M74 198 L82 198 M57 220 L65 220 M91 220 L99 220 M125 220 L133 220 M159 220 L167 220 M193 220 L201 220 M227 220 L235 220 M40 242 L48 242 M74 242 L82 242 M108 242 L116 242 M142 242 L150 242 M176 242 L184 242 M210 242 L218 242"/>
+		<path pathLength="1" d="M244 86 L244 104 M240 90 L244 86 L248 90 M240 100 L244 104 L248 100"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M278 124 L384 124"/>
+		<path pathLength="1" d="M278 124 L278 264"/>
+		<path pathLength="1" d="M308.4 121 L308.4 127"/>
+		<path pathLength="1" d="M366.5 121 L366.5 127"/>
+		<path pathLength="1" d="M296.7 124 L296.7 264"/>
+		<path pathLength="1" d="M278 194 L342.7 194"/>
+		<path pathLength="1" d="M278 229 L342.7 229"/>
+		<path pathLength="1" d="M368.2 116 L368.2 124"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M368.2 124 L363.4 131 L358.6 138 L353.9 145 L349.1 152 L344.4 159 L339.6 166 L334.8 173 L330.1 180 L325.3 187 L320.5 194 L315.8 201 L311 208 L306.3 215 L301.5 222 L296.7 229"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="60" y="56" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">UV LASER</text>
+		<text x="300.7" y="257" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Ec</text>
+		<text x="384" y="191" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LAYER</text>
+		<text x="384" y="226" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CURED</text>
+		<text x="331" y="110" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LOG DOSE</text>
+		<text x="272" y="164" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DEPTH</text>
+		<text x="200" y="284" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE VAT IN SECTION · THE DOSE WITH DEPTH</text>
+	</g>
+</svg>

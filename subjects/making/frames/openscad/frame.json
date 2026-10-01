@@ -1,0 +1,195 @@
+{
+	"id": "openscad",
+	"topic": "OpenSCAD and parametric design",
+	"position": {
+		"label": "2010",
+		"sort": 2010
+	},
+	"scene": {
+		"headline": "We drew parts with",
+		"accent": "NUMBERS.",
+		"palette": "filament",
+		"illustration": "scene.svg",
+		"metadata": ["OPENSCAD · CLIFFORD WOLF · MARIUS KINTEL", "UNION · DIFFERENCE · INTERSECTION"],
+		"counter": {
+			"value": "34",
+			"label": "drawer nameplates written from one program and a list"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "openscad_exploration",
+			"authors": [
+				{
+					"family": "Hiatt",
+					"given": "Ken"
+				}
+			],
+			"container": "GitHub",
+			"url": "https://github.com/kenhia/openscad_exploration",
+			"published": "2025-03-04",
+			"accessed": "2026-09-30",
+			"note": "drawer_nameplate.scad, its wrappers, generate_nameplates.ps1 and the README's account of why"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "OpenSCAD source repository: commit history and release 2010.02",
+			"container": "GitHub",
+			"url": "https://github.com/openscad/openscad/commits/openscad-2010.02",
+			"accessed": "2026-09-30",
+			"note": "Trunk created by Clifford Wolf on 20 June 2009; the 2010.02 release tagged on 19 February 2010"
+		},
+		{
+			"kind": "web",
+			"title": "README (release 2010.02)",
+			"container": "OpenSCAD, GitHub",
+			"url": "https://github.com/openscad/openscad/blob/openscad-2010.02/README",
+			"published": "2010-02-19",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "About OpenSCAD",
+			"container": "OpenSCAD",
+			"url": "https://openscad.org/about.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "OpenSCAD User Manual/CSG Modelling",
+			"authors": [
+				{
+					"name": "Wikibooks contributors"
+				}
+			],
+			"container": "Wikibooks",
+			"publisher": "Wikimedia Foundation",
+			"url": "https://en.wikibooks.org/w/index.php?title=OpenSCAD_User_Manual/CSG_Modelling&oldid=4533665",
+			"published": "2025-08-26",
+			"accessed": "2026-09-30",
+			"note": "Union, difference, intersection, and the rule against coincident faces"
+		},
+		{
+			"kind": "web",
+			"title": "Solid-Modeling Pioneer Herb Voelcker Dies at 90",
+			"authors": [
+				{
+					"family": "Nutt",
+					"given": "David"
+				}
+			],
+			"container": "Cornell Chronicle",
+			"url": "https://news.cornell.edu/stories/2020/02/solid-modeling-pioneer-herb-voelcker-dies-90",
+			"published": "2020-02-19",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Prusa3: Prusa iteration3",
+			"authors": [
+				{
+					"family": "Průša",
+					"given": "Josef"
+				}
+			],
+			"container": "GitHub",
+			"url": "https://github.com/josefprusa/Prusa3",
+			"published": "2012",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Prusa i3",
+			"container": "RepRap",
+			"url": "https://reprap.org/wiki/Prusa_i3",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "OpenSCAD",
+			"url": "https://en.wikipedia.org/w/index.php?title=OpenSCAD&oldid=1375774448",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Constructive solid geometry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Constructive_solid_geometry&oldid=1376653246",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Solid modeling",
+			"url": "https://en.wikipedia.org/w/index.php?title=Solid_modeling&oldid=1377618198",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "The OpenSCAD window, with a program and the solid it builds",
+			"url": "https://commons.wikimedia.org/wiki/File:OpenSCAD_Main_Window.png",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC0",
+			"file": "openscad-window.jpg",
+			"authors": [
+				{
+					"name": "Tp42"
+				}
+			],
+			"published": "2014-03-12"
+		},
+		{
+			"kind": "media",
+			"title": "A constructive solid geometry tree, rendered in POV-Ray",
+			"url": "https://commons.wikimedia.org/wiki/File:Csg_tree.png",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "csg-tree.jpg",
+			"authors": [
+				{
+					"name": "Zottie"
+				}
+			],
+			"published": "2005-08-10"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/open-source",
+			"why": "An OpenSCAD design is a plain-text program, so makers keep and share their parts with git and on GitHub, the tools open-source software is built with."
+		},
+		{
+			"to": "making/reprap",
+			"why": "Thingiverse, the RepRap community's site for sharing designs, let anyone change an OpenSCAD design's parameters and print their own version."
+		}
+	]
+}

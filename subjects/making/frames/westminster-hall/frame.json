@@ -1,0 +1,259 @@
+{
+	"id": "westminster-hall",
+	"topic": "The hammerbeam roof of Westminster Hall",
+	"position": {
+		"label": "1393",
+		"sort": 1393
+	},
+	"scene": {
+		"headline": "We framed it on the",
+		"accent": "GROUND.",
+		"palette": "oak",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WESTMINSTER · FARNHAM · HUGH HERLAND",
+			"OAK · HAMMER BEAMS · SCRIBED AND NUMBERED JOINTS"
+		],
+		"counter": {
+			"value": "20.8 m",
+			"label": "clear span, with no posts and no tie beam"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Westminster Hall Roof: A Historiographic and Structural Study",
+			"authors": [
+				{
+					"family": "Courtenay",
+					"given": "Lynn T."
+				},
+				{
+					"family": "Mark",
+					"given": "Robert"
+				}
+			],
+			"container": "Journal of the Society of Architectural Historians",
+			"volume": "46",
+			"issue": "4",
+			"pages": "374–393",
+			"published": "1987-12",
+			"doi": "10.2307/990275",
+			"accessed": "2026-09-30",
+			"note": "Read in its abstract: the model tests, the corbels and the hammer beams in tension"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Hammer-beam Roof of Westminster Hall and the Structural Rationale of Hugh Herland",
+			"authors": [
+				{
+					"family": "Beech",
+					"given": "Robert"
+				}
+			],
+			"container": "Architectural History",
+			"volume": "59",
+			"pages": "25–61",
+			"published": "2016",
+			"doi": "10.1017/arh.2016.2",
+			"url": "https://www.cambridge.org/core/journals/architectural-history/article/abs/hammerbeam-roof-of-westminster-hall-and-the-structural-rationale-of-hugh-herland/93747F08B5913ABC9740EDBA69C4047F",
+			"accessed": "2026-09-30",
+			"note": "Read in its abstract: the arched ribs chiefly ornamental"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "An Encyclopaedia of English Medieval Carpentry",
+			"authors": [
+				{
+					"family": "Beech",
+					"given": "Robert"
+				}
+			],
+			"url": "https://www.medieval-carpentry.org.uk/S_to_Z.html",
+			"accessed": "2026-09-30",
+			"note": "Entries on Westminster Hall, Hugh Herland, hewing and draw-boring"
+		},
+		{
+			"kind": "web",
+			"title": "Reconstructing the Hammer Beams of Westminster Hall, or Carpentry as Art?",
+			"authors": [
+				{
+					"family": "Beech",
+					"given": "Robert"
+				}
+			],
+			"container": "Golovine",
+			"published": "2013-11-18",
+			"url": "https://thegolovine.wordpress.com/2013/11/18/reconstructing-the-hammer-beams-of-westminster-hall-or-carpentry-as-art-whadaya-crazy-phd-student-robert-beech-on-the-practical-aspects-of-his-research/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Roof of Westminster Hall",
+			"authors": [
+				{
+					"name": "Earl Beauchamp"
+				}
+			],
+			"container": "Hansard, House of Lords Debates, vol. 15, cols. 444–448",
+			"publisher": "UK Parliament",
+			"published": "1914-03-10",
+			"url": "https://api.parliament.uk/historic-hansard/lords/1914/mar/10/the-roof-of-westminster-hall",
+			"accessed": "2026-09-30",
+			"note": "The building accounts, the 1912–13 survey and the steel scheme"
+		},
+		{
+			"kind": "web",
+			"title": "Westminster Hall: Restoration in 19th and 20th Centuries",
+			"container": "Living Heritage",
+			"publisher": "UK Parliament",
+			"url": "https://www.parliament.uk/about/living-heritage/building/palace/westminsterhall/architecture/restoration/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Great Detail: Duerden on Baines' Westminster Hall Roof Repair",
+			"authors": [
+				{
+					"family": "Duerden",
+					"given": "Patrick"
+				}
+			],
+			"container": "The Architects' Journal",
+			"published": "2016-12-09",
+			"url": "https://www.architectsjournal.co.uk/buildings/great-detail-duerden-on-baines-westminster-hall-roof-repair",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Witches' Marks: Apotropaic and Carpenters' Marks",
+			"container": "Discovering Witches' Marks",
+			"publisher": "Historic England",
+			"url": "https://historicengland.org.uk/whats-new/features/discovering-witches-marks/types-of-marks/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Look Up: Stone Barn Roof",
+			"publisher": "Denny Abbey and Farmland Museum",
+			"url": "https://dennyfarmlandmuseum.org.uk/look-up-stone-barn-roof/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Westminster Hall Roof",
+			"authors": [
+				{
+					"family": "Rimmer",
+					"given": "Michael"
+				}
+			],
+			"container": "The Angel Roofs of East Anglia",
+			"url": "https://www.angelroofs.co.uk/the-first-angel-roof-westminster-hall",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Westminster Hall",
+			"url": "https://en.wikipedia.org/w/index.php?title=Westminster_Hall&oldid=1377088477",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hammerbeam roof",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hammerbeam_roof&oldid=1375835850",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"key": true,
+			"note": "Gives the 1911 Britannica's dimensions"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hugh Herland",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hugh_Herland&oldid=1375881491",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Timber framing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Timber_framing&oldid=1373700933",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "media",
+			"title": "The interior of Westminster Hall, looking south under the hammerbeam roof",
+			"url": "https://commons.wikimedia.org/wiki/File:Westminster_Hall_interior.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "westminster-hall-interior.jpg",
+			"authors": [
+				{
+					"name": "Tristan Surtel"
+				}
+			],
+			"published": "2018-04-23"
+		},
+		{
+			"kind": "media",
+			"title": "Carpenters' assembly marks in a seventeenth-century timber-framed house, now a museum",
+			"url": "https://commons.wikimedia.org/wiki/File:Carpenters%27_marks_inside_the_museum_-_geograph.org.uk_-_1731452.jpg",
+			"accessed": "2026-09-30",
+			"container": "Geograph Britain and Ireland, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "carpenters-marks.jpg",
+			"authors": [
+				{
+					"name": "ceridwen"
+				}
+			],
+			"published": "2010-02-03"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/florence-dome",
+			"why": "Both builders faced a span longer than any timber: Florence's dome could not be centred on timber long enough, and Westminster Hall could take no tie beam, so Herland built a frame of short timbers."
+		},
+		{
+			"to": "making/mortise-and-tenon",
+			"why": "Herland's carpenters scribed each tenon to its own mortise, so that a joint fitted one place in the roof only."
+		}
+	]
+}

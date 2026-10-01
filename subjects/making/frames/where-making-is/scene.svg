@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M24 116 L380 116"/>
+		<path pathLength="1" d="M380 112 L380 196"/>
+		<path pathLength="1" d="M335.5 112 L335.5 196"/>
+		<path pathLength="1" d="M291 112 L291 196"/>
+		<path pathLength="1" d="M246.5 112 L246.5 196"/>
+		<path pathLength="1" d="M202 112 L202 196"/>
+		<path pathLength="1" d="M157.5 112 L157.5 196"/>
+		<path pathLength="1" d="M113 112 L113 196"/>
+		<path pathLength="1" d="M68.5 112 L68.5 196"/>
+		<path pathLength="1" d="M24 112 L24 196"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M24 186 L380 186 L380 208 L24 208 Z"/>
+		<path pathLength="1" d="M380 186 L380 198 M366.6 186 L366.6 191 M358.8 186 L358.8 191 M353.2 186 L353.2 191 M348.9 186 L348.9 194 M345.4 186 L345.4 191 M342.4 186 L342.4 191 M339.8 186 L339.8 191 M337.5 186 L337.5 191 M335.5 186 L335.5 198 M322.1 186 L322.1 191 M314.3 186 L314.3 191 M308.7 186 L308.7 191 M304.4 186 L304.4 194 M300.9 186 L300.9 191 M297.9 186 L297.9 191 M295.3 186 L295.3 191 M293 186 L293 191 M291 186 L291 198 M277.6 186 L277.6 191 M269.8 186 L269.8 191 M264.2 186 L264.2 191 M259.9 186 L259.9 194 M256.4 186 L256.4 191 M253.4 186 L253.4 191 M250.8 186 L250.8 191 M248.5 186 L248.5 191 M246.5 186 L246.5 198 M233.1 186 L233.1 191 M225.3 186 L225.3 191 M219.7 186 L219.7 191 M215.4 186 L215.4 194 M211.9 186 L211.9 191 M208.9 186 L208.9 191 M206.3 186 L206.3 191 M204 186 L204 191 M202 186 L202 198 M188.6 186 L188.6 191 M180.8 186 L180.8 191 M175.2 186 L175.2 191 M170.9 186 L170.9 194 M167.4 186 L167.4 191 M164.4 186 L164.4 191 M161.8 186 L161.8 191 M159.5 186 L159.5 191 M157.5 186 L157.5 198 M144.1 186 L144.1 191 M136.3 186 L136.3 191 M130.7 186 L130.7 191 M126.4 186 L126.4 194 M122.9 186 L122.9 191 M119.9 186 L119.9 191 M117.3 186 L117.3 191 M115 186 L115 191 M113 186 L113 198 M99.6 186 L99.6 191 M91.8 186 L91.8 191 M86.2 186 L86.2 191 M81.9 186 L81.9 194 M78.4 186 L78.4 191 M75.4 186 L75.4 191 M72.8 186 L72.8 191 M70.5 186 L70.5 191 M68.5 186 L68.5 198 M55.1 186 L55.1 191 M47.3 186 L47.3 191 M41.7 186 L41.7 191 M37.4 186 L37.4 194 M33.9 186 L33.9 191 M30.9 186 L30.9 191 M28.3 186 L28.3 191 M26 186 L26 191 M24 186 L24 198"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M65 156 L65 183"/>
+		<path pathLength="1" d="M62 177 L65 183 L68 177"/>
+		<text x="65" y="151" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1776</text>
+		<path pathLength="1" d="M139.5 156 L139.5 183"/>
+		<path pathLength="1" d="M136.5 177 L139.5 183 L142.5 177"/>
+		<text x="139.5" y="151" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1800s</text>
+		<path pathLength="1" d="M202 156 L202 183"/>
+		<path pathLength="1" d="M199 177 L202 183 L205 177"/>
+		<text x="202" y="151" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1909</text>
+		<path pathLength="1" d="M170.9 138 L170.9 183"/>
+		<path pathLength="1" d="M167.9 177 L170.9 183 L173.9 177"/>
+		<text x="170.9" y="133" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2011</text>
+		<path pathLength="1" d="M337.5 156 L337.5 183"/>
+		<path pathLength="1" d="M334.5 177 L337.5 183 L340.5 177"/>
+		<text x="337.5" y="151" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2024</text>
+		<path pathLength="1" d="M87 64 L86.8 66.8 L86.2 69.6 L85.1 72.2 L83.8 74.6 L82.1 76.8 L80.2 78.7 L78.1 80.3 L75.8 81.6 L73.6 82.7 L71.2 83.5 L68.9 84.1 L66.7 84.5 L64.4 84.8 L62.2 85 L60 85 L57.8 85 L55.6 84.8 L53.3 84.5 L51.1 84.1 L48.8 83.5 L46.4 82.7 L44.2 81.6 L41.9 80.3 L39.8 78.7 L37.9 76.8 L36.2 74.6 L34.9 72.2 L33.8 69.6 L33.2 66.8 L33 64 L33.2 61.2 L33.8 58.4 L34.9 55.8 L36.2 53.4 L37.9 51.2 L39.8 49.3 L41.9 47.7 L44.2 46.4 L46.4 45.3 L48.7 44.5 L51.1 43.9 L53.3 43.5 L55.6 43.2 L57.8 43 L60 43 L62.2 43 L64.4 43.2 L66.7 43.5 L68.9 43.9 L71.2 44.5 L73.6 45.3 L75.8 46.4 L78.1 47.7 L80.2 49.3 L82.1 51.2 L83.8 53.4 L85.1 55.8 L86.2 58.4 L86.8 61.2 L87 64"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M36 64 a24 24 0 1 0 48 0 a24 24 0 1 0 -48 0"/>
+		<path pathLength="1" d="M30 64 L90 64 M60 34 L60 94"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M322 52 L328 52 L328 78 L322 78 Z"/>
+		<path pathLength="1" d="M324 56 L330 56 L330 82 L324 82 Z"/>
+		<path pathLength="1" d="M334 52 L340 52 L340 78 L334 78 Z"/>
+		<path pathLength="1" d="M336 56 L342 56 L342 82 L336 82 Z"/>
+		<path pathLength="1" d="M346 52 L352 52 L352 78 L346 78 Z"/>
+		<path pathLength="1" d="M348 56 L354 56 L354 82 L348 82 Z"/>
+		<path pathLength="1" d="M358 52 L364 52 L364 78 L358 78 Z"/>
+		<path pathLength="1" d="M360 56 L366 56 L366 82 L360 82 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="68.5" y="224" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1 mm</text>
+		<text x="202" y="224" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1 µm</text>
+		<text x="335.5" y="224" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1 nm</text>
+		<text x="60" y="108" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BORE</text>
+		<text x="344" y="98" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OVERLAY</text>
+		<text x="200" y="286" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE ERROR, MILLIMETRES TO NANOMETRES, LOG SCALE</text>
+	</g>
+</svg>

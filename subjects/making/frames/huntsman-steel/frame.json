@@ -1,0 +1,133 @@
+{
+	"id": "huntsman-steel",
+	"topic": "Huntsman's crucible steel",
+	"position": {
+		"label": "1742",
+		"sort": 1742
+	},
+	"scene": {
+		"headline": "We made steel you could",
+		"accent": "POUR.",
+		"palette": "ember",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DONCASTER · HANDSWORTH · ATTERCLIFFE · SHEFFIELD",
+			"BLISTER STEEL · CLAY POTS · COKE"
+		],
+		"counter": {
+			"value": "1,400 °C",
+			"label": "and more, to melt steel in a clay pot"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/bessemer-steel",
+			"why": "Huntsman's melted steel was the best and dearest steel of its century; the Bessemer frame starts from it, crucible steel at about £40 a ton in the 1850s, and the converter that undercut it."
+		},
+		{
+			"to": "making/wootz",
+			"why": "Before Huntsman, steel had been melted only in the crucibles of south India, as wootz."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "‘Not Even If We Had Offered Him £50’: Early Crucible Steel Production and the History of the Huntsman Process",
+			"authors": [
+				{
+					"family": "Craddock",
+					"given": "Paul"
+				},
+				{
+					"family": "Andrews",
+					"given": "Phil"
+				},
+				{
+					"family": "Spataro",
+					"given": "Michela"
+				}
+			],
+			"container": "Historical Metallurgy",
+			"volume": "50",
+			"issue": "1",
+			"pages": "28–42",
+			"published": "2017",
+			"url": "https://hmsjournal.org/index.php/home/article/view/60",
+			"accessed": "2026-09-30",
+			"note": "The volume for 2016; Huntsman's problem, the crucibles and the fluxes"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Metallurgy: The Art of Extracting Metals from Their Ores, and Adapting Them to Various Purposes of Manufacture. Iron and Steel",
+			"authors": [
+				{
+					"family": "Percy",
+					"given": "John"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1864",
+			"url": "https://archive.org/details/bub_gb_RYpBAAAAIAAJ",
+			"accessed": "2026-09-30",
+			"note": "Casting steel and Huntsman, pp. 828–837"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Benjamin Huntsman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Benjamin_Huntsman&oldid=1294884260",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-10",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Crucible steel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Crucible_steel&oldid=1373545675",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "media",
+			"title": "The steel-melting house of Samuel Osborn & Co., Sheffield, from Walter Macfarlane's The Principles and Practice of Iron and Steel Manufacture",
+			"url": "https://commons.wikimedia.org/wiki/File:Steel_melting_house_Sheffield.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "melting-house.jpg",
+			"authors": [
+				{
+					"family": "Macfarlane",
+					"given": "Walter"
+				}
+			],
+			"published": "1917"
+		},
+		{
+			"kind": "media",
+			"title": "Teeming an ingot of steel, an engraving in Popular Science Monthly, volume 39",
+			"url": "https://commons.wikimedia.org/wiki/File:PSM_V39_D759_Teeming_an_ingot_of_steel.jpg",
+			"accessed": "2026-09-30",
+			"container": "Popular Science Monthly, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "teeming.jpg",
+			"published": "1891"
+		}
+	]
+}

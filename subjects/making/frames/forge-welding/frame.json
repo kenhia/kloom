@@ -1,0 +1,214 @@
+{
+	"id": "forge-welding",
+	"topic": "Forge welding",
+	"position": {
+		"label": "Forge welding"
+	},
+	"scene": {
+		"headline": "We made two irons",
+		"accent": "ONE.",
+		"palette": "ember",
+		"illustration": "scene.svg",
+		"metadata": ["SCARF · FLUX · A WELDING HEAT", "DELPHI · DELHI · THE ANCHOR FORGE"],
+		"counter": {
+			"value": "1½ ×",
+			"label": "the bar's thickness: the length of a lap weld's scarf"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "Forge-Practice (Elementary)",
+			"authors": [
+				{
+					"family": "Bacon",
+					"given": "John Lord"
+				}
+			],
+			"place": "New York",
+			"publisher": "John Wiley & Sons",
+			"published": "1904",
+			"url": "https://archive.org/details/forgepracticeele00bacoiala",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Chapter II, welding: the welding heat, burning, fluxes, faggot welding and the lap weld; read in the 1905 printing"
+		},
+		{
+			"kind": "book",
+			"title": "Mechanick Exercises, or the Doctrine of Handy-Works",
+			"authors": [
+				{
+					"family": "Moxon",
+					"given": "Joseph"
+				}
+			],
+			"place": "London",
+			"publisher": "Dan. Midwinter and Tho. Leigh",
+			"published": "1703",
+			"url": "https://archive.org/details/mechanickexercis00moxo_1",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "The welding heat and white sand, pp. 9–10; anchor-smiths' iron, p. 14. Read in the 1703 edition; the same passages are in the 1677 first issue"
+		},
+		{
+			"kind": "book",
+			"title": "The Histories",
+			"authors": [
+				{
+					"name": "Herodotus"
+				}
+			],
+			"editors": [
+				{
+					"family": "Godley",
+					"given": "A. D."
+				}
+			],
+			"place": "Cambridge, MA",
+			"publisher": "Harvard University Press",
+			"published": "1920",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D1%3Achapter%3D25",
+			"accessed": "2026-09-30",
+			"note": "Book 1, chapter 25, in Godley's translation, read at the Perseus Digital Library",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"title": "Description of Greece",
+			"authors": [
+				{
+					"name": "Pausanias"
+				}
+			],
+			"editors": [
+				{
+					"family": "Jones",
+					"given": "W. H. S."
+				},
+				{
+					"family": "Ormerod",
+					"given": "H. A."
+				}
+			],
+			"place": "Cambridge, MA",
+			"publisher": "Harvard University Press",
+			"published": "1918",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0160%3Abook%3D10%3Achapter%3D16",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Forge welding",
+			"url": "https://en.wikipedia.org/w/index.php?title=Forge_welding&oldid=1302140942",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Glaucus of Chios",
+			"url": "https://en.wikipedia.org/w/index.php?title=Glaucus_of_Chios&oldid=1332084962",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Iron pillar of Delhi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Iron_pillar_of_Delhi&oldid=1364407000",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Red heat",
+			"url": "https://en.wikipedia.org/w/index.php?title=Red_heat&oldid=1286704153",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-04-21"
+		},
+		{
+			"kind": "article",
+			"title": "A Metallurgical Study of Some Viking Swords",
+			"authors": [
+				{
+					"family": "Williams",
+					"given": "Alan"
+				}
+			],
+			"container": "Gladius",
+			"volume": "29",
+			"pages": "121–184",
+			"published": "2009",
+			"doi": "10.3989/gladius.2009.218",
+			"accessed": "2026-09-30",
+			"note": "Bloomery slag runs liquid at about 1,100–1,200 °C, p. 121"
+		},
+		{
+			"kind": "media",
+			"title": "Marine, forge des ancres, plate VII: welding and drawing out an anchor's shank in several heats",
+			"url": "https://commons.wikimedia.org/wiki/File:Marine,_Forges_des_Ancres,_G.36838.jpg",
+			"accessed": "2026-09-30",
+			"container": "Encyclopédie plates, Musée Carnavalet, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "anchor-forge.jpg",
+			"authors": [
+				{
+					"family": "Goussier",
+					"given": "Louis-Jacques"
+				},
+				{
+					"family": "Bénard",
+					"given": "Robert"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "The iron pillar of Delhi in the Qutb complex, Mehrauli",
+			"url": "https://commons.wikimedia.org/wiki/File:Delhi_Iron_pillar,_2010-09-27.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "delhi-pillar.jpg",
+			"authors": [
+				{
+					"name": "Aiwok"
+				}
+			],
+			"published": "2010-09-27"
+		}
+	],
+	"connections": [
+		{
+			"to": "making/arc-welding",
+			"why": "Electric welding has largely replaced the hammer weld: an arc does the work of the fire and the hammer."
+		}
+	]
+}

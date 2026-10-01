@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M34 160 L94 160 M34 200 L94 200"/>
+		<path pathLength="1" d="M90 132 L264 132"/>
+		<path pathLength="1" d="M90 228 L264 228"/>
+		<path pathLength="1" d="M64 36 L64 262"/>
+		<path pathLength="1" d="M144 120 L144 262"/>
+		<path pathLength="1" d="M150 120 L150 262"/>
+		<path pathLength="1" d="M130 250 L164 250"/>
+		<path pathLength="1" d="M144 245 L144 255 M150 245 L150 255"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M34 30 L94 30 L94 270 L34 270 Z"/>
+		<path pathLength="1" d="M254 150 L174 150 L174 160 L114 160 L114 200 L174 200 L174 210 L254 210"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M59 180 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M145 180 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M60 54 L68 54 L66 88 L62 88 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M274 48 L334 48 L334 68 L386 68"/>
+		<path pathLength="1" d="M274 108 L334 108 L334 88 L386 88"/>
+		<path pathLength="1" d="M274 48 L274 108"/>
+		<path pathLength="1" d="M386 56 L386 100"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M274 68 L334 68"/>
+		<path pathLength="1" d="M274 88 L334 88"/>
+		<path pathLength="1" d="M299 48 L299 68 M309 48 L309 68 M299 88 L299 108 M309 88 L309 108"/>
+		<path pathLength="1" d="M311 68 L311 88 M321 68 L321 88"/>
+		<path pathLength="1" d="M304 34 L304 68 L310 78 L304 88 L304 122"/>
+		<path pathLength="1" d="M344 138 L304 138"/>
+		<path pathLength="1" d="M310 134 L304 138 L310 142"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M392 68 L398 68 M392 88 L398 88"/>
+		<path pathLength="1" d="M264 48 L264 108"/>
+		<path pathLength="1" d="M260 48 L268 48 M260 108 L268 108 M260 68 L268 68 M260 88 L268 88"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="64" y="284" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STILE</text>
+		<text x="224" y="244" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RAIL</text>
+		<text x="144" y="126" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TENON</text>
+		<text x="147" y="268" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OFFSET</text>
+		<text x="330" y="30" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SECTION AT THE PEG</text>
+		<text x="256" y="81" font-size="9" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">⅓</text>
+		<text x="330" y="154" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DRAWN TIGHT</text>
+	</g>
+</svg>

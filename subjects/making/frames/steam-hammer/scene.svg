@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M140 14 L140 280"/>
+		<path pathLength="1" d="M20 270 L262 270"/>
+		<path pathLength="1" d="M180 128 L232 128 M180 204 L232 204"/>
+		<path pathLength="1" d="M224 128 L224 204"/>
+		<path pathLength="1" d="M220 134 L224 128 L228 134 M220 198 L224 204 L228 198"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M44 270 L45.5 261.7 L47.8 253.3 L50.7 245 L53.9 236.7 L57.5 228.3 L61.2 220 L65.1 211.7 L69 203.3 L73 195 L76.9 186.7 L80.8 178.3 L84.6 170 L88.3 161.7 L91.7 153.3 L95 145 L98 136.7 L100.7 128.3 L103.1 120 L105.1 111.7 L106.9 103.3 L108.2 95 L109.2 86.7 L109.8 78.3 L110 70"/>
+		<path pathLength="1" d="M30 270 L31.5 261.7 L33.8 253.3 L36.7 245 L39.9 236.7 L43.5 228.3 L47.2 220 L51.1 211.7 L55 203.3 L59 195 L62.9 186.7 L66.8 178.3 L70.6 170 L74.3 161.7 L77.7 153.3 L81 145 L84 136.7 L86.7 128.3 L89.1 120 L91.1 111.7 L92.9 103.3 L94.2 95 L95.2 86.7 L95.8 78.3 L96 70"/>
+		<path pathLength="1" d="M236 270 L234.5 261.7 L232.2 253.3 L229.3 245 L226.1 236.7 L222.5 228.3 L218.8 220 L214.9 211.7 L211 203.3 L207 195 L203.1 186.7 L199.2 178.3 L195.4 170 L191.7 161.7 L188.3 153.3 L185 145 L182 136.7 L179.3 128.3 L176.9 120 L174.9 111.7 L173.1 103.3 L171.8 95 L170.8 86.7 L170.2 78.3 L170 70"/>
+		<path pathLength="1" d="M250 270 L248.5 261.7 L246.2 253.3 L243.3 245 L240.1 236.7 L236.5 228.3 L232.8 220 L228.9 211.7 L225 203.3 L221 195 L217.1 186.7 L213.2 178.3 L209.4 170 L205.7 161.7 L202.3 153.3 L199 145 L196 136.7 L193.3 128.3 L190.9 120 L188.9 111.7 L187.1 103.3 L185.8 95 L184.8 86.7 L184.2 78.3 L184 70"/>
+		<path pathLength="1" d="M90 70 L190 70"/>
+		<path pathLength="1" d="M120 70 L120 22 L160 22 L160 70"/>
+		<path pathLength="1" d="M98 270 L98 238 L182 238 L182 270"/>
+		<path pathLength="1" d="M110 238 L110 204 L170 204 L170 238"/>
+		<path pathLength="1" d="M114 128 L114 96 L166 96 L166 128 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M140 96 L140 40"/>
+		<path pathLength="1" d="M122 40 L158 40"/>
+		<path pathLength="1" d="M114 104 L109 104 M166 104 L171 104"/>
+		<path pathLength="1" d="M160 30 L184 30 L184 60 L160 60"/>
+		<path pathLength="1" d="M184 45 L210 45"/>
+		<path pathLength="1" d="M118 212 L122 230 M129 212 L133 230 M140 212 L144 230 M151 212 L155 230 M162 212 L166 230"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M304 70 L356 70 L356 122 L304 122 Z"/>
+		<path pathLength="1" d="M294 66 L366 66 M294 126 L366 126"/>
+		<path pathLength="1" d="M310 70 L312.5 71.8 L315 73.4 L317.5 75 L320 76.4 L322.5 77.5 L325 78.3 L327.5 78.8 L330 79 L332.5 78.8 L335 78.3 L337.5 77.5 L340 76.4 L342.5 75 L345 73.4 L347.5 71.8 L350 70"/>
+		<path pathLength="1" d="M310 122 L312.5 120.2 L315 118.6 L317.5 117 L320 115.6 L322.5 114.5 L325 113.7 L327.5 113.2 L330 113 L332.5 113.2 L335 113.7 L337.5 114.5 L340 115.6 L342.5 117 L345 118.6 L347.5 120.2 L350 122"/>
+		<path pathLength="1" d="M304 190 L356 190 L356 242 L304 242 Z"/>
+		<path pathLength="1" d="M294 186 L366 186 M294 246 L366 246"/>
+		<path pathLength="1" d="M308 194 L352 238 M352 194 L308 238"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="238" y="169" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">h</text>
+		<text x="330" y="140" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIGHT BLOW</text>
+		<text x="330" y="260" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HEAVY BLOW</text>
+		<text x="114" y="50" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CYLINDER</text>
+		<text x="140" y="288" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ANVIL</text>
+	</g>
+</svg>

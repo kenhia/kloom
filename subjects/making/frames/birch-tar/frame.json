@@ -1,0 +1,183 @@
+{
+	"id": "birch-tar",
+	"topic": "Neanderthal birch tar",
+	"position": {
+		"label": "c. 200,000 years ago",
+		"sort": -200000
+	},
+	"scene": {
+		"headline": "We cooked a",
+		"accent": "GLUE.",
+		"palette": "flint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMPITELLO · KÖNIGSAUE · ZANDMOTOR",
+			"BIRCH BARK · HEAT WITHOUT AIR · A HAFTED BLADE"
+		],
+		"counter": {
+			"value": "9.6 g",
+			"label": "of tar from 100 g of bark, the best experimental yield"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Experimental Methods for the Palaeolithic Dry Distillation of Birch Bark: Implications for the Origin and Development of Neandertal Adhesive Technology",
+			"authors": [
+				{
+					"family": "Kozowyk",
+					"given": "P. R. B."
+				},
+				{
+					"family": "Soressi",
+					"given": "M."
+				},
+				{
+					"family": "Pomstra",
+					"given": "D."
+				},
+				{
+					"family": "Langejans",
+					"given": "G. H. J."
+				}
+			],
+			"container": "Scientific Reports",
+			"volume": "7",
+			"pages": "8033",
+			"published": "2017-08-31",
+			"doi": "10.1038/s41598-017-08106-7",
+			"accessed": "2026-09-30",
+			"note": "The three methods, their temperatures and yields, and the Campitello and Königsaue lumps"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Production Method of the Königsaue Birch Tar Documents Cumulative Culture in Neanderthals",
+			"authors": [
+				{
+					"family": "Schmidt",
+					"given": "Patrick"
+				},
+				{
+					"family": "Koch",
+					"given": "Tabea J."
+				},
+				{
+					"family": "Blessing",
+					"given": "Matthias A."
+				},
+				{
+					"family": "Karakostis",
+					"given": "F. Alexandros"
+				},
+				{
+					"family": "Harvati",
+					"given": "Katerina"
+				},
+				{
+					"family": "Dresely",
+					"given": "Veit"
+				},
+				{
+					"family": "Charrié-Duhaut",
+					"given": "Armelle"
+				}
+			],
+			"container": "Archaeological and Anthropological Sciences",
+			"volume": "15",
+			"pages": "84",
+			"published": "2023-05-22",
+			"doi": "10.1007/s12520-023-01789-2",
+			"accessed": "2026-09-30",
+			"note": "Also summarises the 2019 condensation method"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Birch bark tar",
+			"url": "https://en.wikipedia.org/w/index.php?title=Birch_bark_tar&oldid=1372144510",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Neanderthal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neanderthal&oldid=1376404743",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ötzi",
+			"url": "https://en.wikipedia.org/w/index.php?title=%C3%96tzi&oldid=1377171338",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Betulin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Betulin&oldid=1351535928",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-28"
+		},
+		{
+			"kind": "media",
+			"title": "Flint tool with birch tar found on the Zandmotor near Kijkduin in 2016, about 50,000 years old",
+			"url": "https://commons.wikimedia.org/wiki/File:Vuurstenen_werktuig_met_berkenpek.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "zandmotor-tool.jpg",
+			"authors": [
+				{
+					"name": "Ellywa"
+				}
+			],
+			"published": "2025-05-21"
+		},
+		{
+			"kind": "media",
+			"title": "Birch bark tar made in a single sealed pot in a fire",
+			"url": "https://commons.wikimedia.org/wiki/File:Birkenpechdestille_Eintopfverfahren.JPG",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "single-pot.jpg",
+			"authors": [
+				{
+					"name": "Jorre"
+				}
+			],
+			"published": "2008-06-30"
+		}
+	]
+}

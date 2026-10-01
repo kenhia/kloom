@@ -1,0 +1,9 @@
+{
+	"id": "slicer-3d-printing",
+	"wikidata": "Q56660744",
+	"name": "Slicer (3D printing)",
+	"aliases": ["slicer", "slicing software"],
+	"kind": "idea",
+	"description": "A program that cuts a 3D model into layers and writes the toolpaths, usually as G-code, that a 3D printer follows to build it.",
+	"home": "making/slicing"
+}

@@ -658,6 +658,18 @@
 		text-align: right;
 		font-variant-numeric: tabular-nums;
 	}
+	.body :global(code) {
+		font-family: var(--mono);
+		font-size: 0.9em;
+	}
+	/* A program read line by line (G-code, OpenSCAD): scrolls rather than widening the pane. */
+	.body :global(pre) {
+		margin: 1rem 0;
+		padding: 0.6rem 0.8rem;
+		overflow-x: auto;
+		border-left: 2px solid var(--accent);
+		line-height: 1.45;
+	}
 	.body :global(blockquote) {
 		margin: 1rem 0;
 		padding-left: 1rem;

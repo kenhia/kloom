@@ -1,0 +1,192 @@
+{
+	"id": "pattern-welding",
+	"topic": "Pattern-welded blades",
+	"position": {
+		"label": "Pattern welding"
+	},
+	"scene": {
+		"headline": "We twisted iron into",
+		"accent": "PATTERNS.",
+		"palette": "scale",
+		"illustration": "scene.svg",
+		"metadata": ["SUTTON HOO · ULFBERHT", "IRON AND STEEL · TWISTED, WELDED, GROUND"],
+		"counter": {
+			"value": "43",
+			"label": "hours to forge one pattern-welded blade, in Anstee and Biek's trial"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Methods of Manufacture of Swords in Medieval Europe: Illustrated by the Metallography of Some Examples",
+			"authors": [
+				{
+					"family": "Williams",
+					"given": "Alan R."
+				}
+			],
+			"container": "Gladius",
+			"volume": "13",
+			"pages": "75–101",
+			"published": "1977",
+			"doi": "10.3989/gladius.1977.146",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "The method, its dates and its purpose, Anstee's pattern from plain iron and the 43 hours, pp. 75–77"
+		},
+		{
+			"kind": "article",
+			"title": "A Metallurgical Study of Some Viking Swords",
+			"authors": [
+				{
+					"family": "Williams",
+					"given": "Alan"
+				}
+			],
+			"container": "Gladius",
+			"volume": "29",
+			"pages": "121–184",
+			"published": "2009",
+			"doi": "10.3989/gladius.2009.218",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "The Ulfberht swords: about 100 known, 44 analysed, nine of fourteen +VLFBERH+T blades hypereutectoid"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pattern welding",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pattern_welding&oldid=1357926473",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-05",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sutton Hoo",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sutton_Hoo&oldid=1376360629",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Herbert Maryon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Herbert_Maryon&oldid=1370771472",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rædwald of East Anglia",
+			"url": "https://en.wikipedia.org/w/index.php?title=R%C3%A6dwald_of_East_Anglia&oldid=1375184886",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ulfberht swords",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ulfberht_swords&oldid=1373355602",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Migration Period sword",
+			"url": "https://en.wikipedia.org/w/index.php?title=Migration_Period_sword&oldid=1311411770",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-15"
+		},
+		{
+			"kind": "web",
+			"title": "NCL-7EF795: an Early Medieval pattern-welded sword",
+			"authors": [
+				{
+					"family": "Collins",
+					"given": "Robert"
+				}
+			],
+			"container": "Portable Antiquities Scheme",
+			"published": "2013",
+			"url": "https://finds.org.uk/database/artefacts/record/id/557262",
+			"accessed": "2026-09-30",
+			"note": "Read from the record's description on its Wikimedia Commons file page"
+		},
+		{
+			"kind": "media",
+			"title": "The sword from the Sutton Hoo ship burial, early seventh century, in the British Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:Sutton_Hoo_Sword.JPG",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC0",
+			"file": "sutton-hoo-sword.jpg",
+			"authors": [
+				{
+					"name": "Völkerwanderer"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "Ulfberht sword of the tenth century from Schwedt, Museum für Vor- und Frühgeschichte, Berlin",
+			"url": "https://commons.wikimedia.org/wiki/File:Schwert_2_Ulfberht.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "ulfberht.jpg",
+			"authors": [
+				{
+					"family": "Sauber",
+					"given": "Wolfgang"
+				}
+			],
+			"published": "2016-10-01"
+		}
+	],
+	"connections": [
+		{
+			"to": "making/wootz",
+			"why": "Pattern welding is often called Damascus steel, but a Damascus blade was forged from a single cake of Indian crucible steel, whose pattern grows out of the metal itself."
+		}
+	]
+}

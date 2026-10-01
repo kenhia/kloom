@@ -97,6 +97,7 @@
 		data.subjects.map((s) => ({
 			id: s.id,
 			title: s.title,
+			subtitle: s.subtitle,
 			note: data.readerData?.last?.subject === s.id ? 'Last read' : undefined
 		}))
 	);

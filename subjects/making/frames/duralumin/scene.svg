@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M52 124.6 L384 124.6 M52 42.2 L384 42.2"/>
+		<path pathLength="1" d="M52 39.6 L384 39.6"/>
+		<path pathLength="1" d="M52 243 L384 243 M52 218 L384 218 M52 193 L384 193 M52 168 L384 168"/>
+		<path pathLength="1" d="M112.6 268 L112.6 168 M173.2 268 L173.2 168 M233.8 268 L233.8 168 M294.5 268 L294.5 168 M355.1 268 L355.1 168"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M52 26 L52 128 L384 128"/>
+		<path pathLength="1" d="M52 168 L52 268 L384 268"/>
+		<path pathLength="1" d="M52 124.6 L96 42.2 L150 42.2 L156 124.6 L384 124.6"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M52 263 L109.5 198.5 L137.7 193.5 L154.3 188 L184.8 178.5 L198.6 179.5 L384 173.5"/>
+		<path pathLength="1" d="M52 263 L71.2 248 L109.5 233.5 L171.7 233.5 L198.6 228 L384 223"/>
+		<path pathLength="1" d="M107.3 198.5 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M135.5 193.5 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M152.1 188 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M182.6 178.5 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M196.4 179.5 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M381.8 173.5 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M107.3 231.3 L111.7 231.3 L111.7 235.7 L107.3 235.7 Z"/>
+		<path pathLength="1" d="M169.5 231.3 L173.9 231.3 L173.9 235.7 L169.5 235.7 Z"/>
+		<path pathLength="1" d="M196.4 225.8 L200.8 225.8 L200.8 230.2 L196.4 230.2 Z"/>
+		<path pathLength="1" d="M381.8 220.8 L386.2 220.8 L386.2 225.2 L381.8 225.2 Z"/>
+		<path pathLength="1" d="M149 77.8 L153 83.8 L157 77.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="384" y="37.6" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">520 °C: THE METAL BURNS</text>
+		<text x="123" y="55.2" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">505 °C</text>
+		<text x="170" y="82.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">QUENCH</text>
+		<text x="290" y="119.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AGE AT 20 °C</text>
+		<text x="384" y="165.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FROM 500 °C</text>
+		<text x="384" y="215" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FROM 295 °C</text>
+		<text x="52" y="280" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="112.6" y="280" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="173.2" y="280" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4</text>
+		<text x="233.8" y="280" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">9</text>
+		<text x="294.5" y="280" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">16</text>
+		<text x="384" y="280" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">30</text>
+		<text x="384" y="294" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DAYS</text>
+		<text x="46" y="171" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">35</text>
+		<text x="46" y="271" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">15</text>
+		<text x="46" y="29" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">600</text>
+		<text x="46" y="131" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+	</g>
+</svg>

@@ -1,0 +1,200 @@
+{
+	"id": "chinese-cast-iron",
+	"topic": "Cast iron in ancient China",
+	"position": {
+		"label": "c. 500 BC",
+		"sort": -500
+	},
+	"scene": {
+		"headline": "We made iron",
+		"accent": "FLOW.",
+		"palette": "ember",
+		"illustration": "scene.svg",
+		"metadata": ["WU · CHU · HAN CHINA", "BLAST FURNACE · WATER-POWERED BELLOWS · IRON MOULDS"],
+		"counter": {
+			"value": "4.3%",
+			"label": "carbon, at which iron melts lowest, at 1,146 °C"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/type-metal",
+			"why": "Cast iron and type metal are both eutectics: 4.3 per cent of carbon brings iron down to 1,146 °C, as about an eighth of antimony brings lead below the melting point of either metal."
+		},
+		{
+			"to": "chemistry/bessemer-steel",
+			"why": "Iron with about 4 per cent carbon melts near 1,150 °C, which is what let Chinese founders pour it; they took the carbon out again by fining in an open hearth under a blast, as Bessemer's converter did by blowing air through the molten iron."
+		},
+		{
+			"to": "making/iron-carbon",
+			"why": "Cast iron pours because iron with 4.3% carbon, the eutectic on the iron–carbon diagram, melts some 400 °C lower than pure iron."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Earliest Use of Iron in China",
+			"authors": [
+				{
+					"family": "Wagner",
+					"given": "Donald B."
+				}
+			],
+			"container": "Metals in Antiquity",
+			"editors": [
+				{
+					"family": "Young",
+					"given": "Suzanne M. M."
+				},
+				{
+					"family": "Pollard",
+					"given": "A. Mark"
+				},
+				{
+					"family": "Budd",
+					"given": "Paul"
+				},
+				{
+					"family": "Ixer",
+					"given": "Robert A."
+				}
+			],
+			"pages": "1–9",
+			"place": "Oxford",
+			"publisher": "Archaeopress",
+			"published": "1999",
+			"url": "https://donwagner.dk/EARFE/EARFE.html",
+			"accessed": "2026-09-30",
+			"note": "The Luhe lump, the bloomery first, and casting as a Chinese invention; read in the author's web version"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Iron Decarburisation Techniques in the Eastern Guanzhong Plain, China, during Late Warring States Period: An Investigation Based on Slag Inclusion Analyses",
+			"authors": [
+				{
+					"family": "Liu",
+					"given": "Yaxiong"
+				},
+				{
+					"family": "Martinón-Torres",
+					"given": "Marcos"
+				},
+				{
+					"family": "Chen",
+					"given": "Jianli"
+				},
+				{
+					"family": "Sun",
+					"given": "Weigang"
+				},
+				{
+					"family": "Chen",
+					"given": "Kunlong"
+				}
+			],
+			"container": "Archaeological and Anthropological Sciences",
+			"volume": "11",
+			"issue": "12",
+			"pages": "6537–6549",
+			"published": "2019-09-07",
+			"doi": "10.1007/s12520-019-00921-5",
+			"url": "https://www.repository.cam.ac.uk/bitstreams/d7a8449f-ba97-4779-9aca-b6e9517aabb3/download",
+			"accessed": "2026-09-30",
+			"note": "The furnace temperatures, the eutectic, annealing and chaogang"
+		},
+		{
+			"kind": "article",
+			"title": "Chinese Monumental Iron Castings",
+			"authors": [
+				{
+					"family": "Wagner",
+					"given": "Donald B."
+				}
+			],
+			"container": "Journal of East Asian Archaeology",
+			"volume": "2",
+			"issue": "3–4",
+			"pages": "199–224",
+			"published": "2000",
+			"url": "https://donwagner.dk/monfig/WagnerJEAA2000.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Cast iron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cast_iron&oldid=1376469178",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Du Shi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Du_Shi&oldid=1356390641",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wrought iron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wrought_iron&oldid=1358187836",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-07"
+		},
+		{
+			"kind": "media",
+			"title": "Fining cast iron beside a blast furnace, from Song Yingxing's Tiangong Kaiwu (1637)",
+			"url": "https://commons.wikimedia.org/wiki/File:Chinese_Fining_and_Blast_Furnace.jpg",
+			"accessed": "2026-09-30",
+			"container": "Tiangong Kaiwu, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "tiangong-kaiwu-fining.jpg",
+			"authors": [
+				{
+					"family": "Song",
+					"given": "Yingxing"
+				}
+			],
+			"published": "1637"
+		},
+		{
+			"kind": "media",
+			"title": "Water-powered bellows for a furnace, from Wang Zhen's Nong Shu (1313)",
+			"url": "https://commons.wikimedia.org/wiki/File:Yuan_Dynasty_-_waterwheels_and_smelting.png",
+			"accessed": "2026-09-30",
+			"container": "Nong Shu, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "nong-shu-bellows.jpg",
+			"authors": [
+				{
+					"family": "Wang",
+					"given": "Zhen"
+				}
+			],
+			"published": "1313"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"making/drawing-out": [
+		["Joseph Moxon", "joseph-moxon"],
+		["blacksmith", "blacksmith"],
+		["Royal Society", "royal-society"],
+		["anvil", "anvil"],
+		["wrought iron", "wrought-iron"]
+	],
+	"making/forge-welding": [
+		["Delphi", "delphi"],
+		["Herodotus", "herodotus"],
+		["Glaucus of Chios", "glaucus-of-chios"],
+		["Pausanias", "pausanias-geographer"],
+		["forge welding", "forge-welding"],
+		["borax", "borax"],
+		["Encyclopédie", "encyclopedie"],
+		["iron pillar of Delhi", "iron-pillar-of-delhi"]
+	],
+	"making/pattern-welding": [
+		["Sutton Hoo", "sutton-hoo"],
+		["Rædwald", "raedwald-of-east-anglia"],
+		["Herbert Maryon", "herbert-maryon"],
+		["pattern welding", "pattern-welding"],
+		["Beowulf", "beowulf"],
+		["Ulfberht swords", "ulfberht-swords"]
+	],
+	"making/heat-treatment": [
+		["Odyssey", "odyssey"],
+		["Polyphemus", "polyphemus"],
+		["Homer", "homer"],
+		["tempering", "tempering-metallurgy"],
+		["Pliny the Elder", "pliny-the-elder"],
+		["Theophilus Presbyter", "theophilus-presbyter"],
+		["martensite", "martensite"]
+	]
+}

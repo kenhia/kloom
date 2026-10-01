@@ -1,0 +1,15 @@
+{
+	"id": "joinery",
+	"title": "Joinery",
+	"anchor": "egyptian-carpentry",
+	"spine": {
+		"segments": [
+			{
+				"id": "joinery-joints",
+				"title": "Joints",
+				"labelKind": "category",
+				"frames": ["mortise-and-tenon", "dovetail", "wood-screws"]
+			}
+		]
+	}
+}

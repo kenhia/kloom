@@ -1,0 +1,163 @@
+{
+	"id": "milling-machine",
+	"topic": "The universal milling machine",
+	"position": {
+		"label": "1862",
+		"sort": 1862
+	},
+	"scene": {
+		"headline": "We cut teeth by",
+		"accent": "COUNTING.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PROVIDENCE · BROWN & SHARPE · JOSEPH R. BROWN",
+			"KNEE AND COLUMN · DIVIDING HEAD · WORM 40:1"
+		],
+		"counter": {
+			"value": "1 to 382",
+			"label": "every division the 1914 dividing head could index"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "History of the Milling Machine: A Study in Technical Development",
+			"authors": [
+				{
+					"family": "Woodbury",
+					"given": "Robert S."
+				}
+			],
+			"place": "Cambridge, MA",
+			"publisher": "Technology Press, MIT",
+			"published": "1960",
+			"url": "https://archive.org/details/history_of_the_milling_machine_1959",
+			"accessed": "2026-09-30",
+			"note": "Whitney, Johnson and North, pp. 17–26; Brown's universal machine, pp. 45–49"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Practical Treatise on Milling and Milling Machines",
+			"authors": [
+				{
+					"name": "Brown & Sharpe Manufacturing Company"
+				}
+			],
+			"place": "Providence, RI",
+			"publisher": "Brown & Sharpe Manufacturing Company",
+			"published": "1914",
+			"url": "https://archive.org/details/practicaltreati00cogoog",
+			"accessed": "2026-09-30",
+			"note": "The spiral head, index plates, and plain and differential indexing, pp. 48–57"
+		},
+		{
+			"kind": "article",
+			"title": "Eli Whitney's Other Talent",
+			"authors": [
+				{
+					"family": "Baida",
+					"given": "Peter"
+				}
+			],
+			"container": "American Heritage",
+			"volume": "38",
+			"issue": "4",
+			"published": "1987-05",
+			"url": "https://www.americanheritage.com/eli-whitneys-other-talent",
+			"accessed": "2026-09-30",
+			"note": "Quoting Edward A. Battison, “Eli Whitney and the Milling Machine,” Smithsonian Journal of History, 1966"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Milling (machining)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Milling_(machining)&oldid=1374327212",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Simeon North",
+			"url": "https://en.wikipedia.org/w/index.php?title=Simeon_North&oldid=1205524774",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-02-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Brown & Sharpe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Brown_%26_Sharpe&oldid=1345373431",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Indexing head",
+			"url": "https://en.wikipedia.org/w/index.php?title=Indexing_head&oldid=1347488037",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-07"
+		},
+		{
+			"kind": "media",
+			"title": "Brown & Sharpe's universal milling machine, engraved for Scientific American, 27 December 1862",
+			"url": "https://commons.wikimedia.org/wiki/File:Brown-and-Sharpe-universal-miller-1861-001.png",
+			"accessed": "2026-09-30",
+			"container": "Scientific American, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "bs-universal.jpg",
+			"published": "1862-12-27"
+		},
+		{
+			"kind": "media",
+			"title": "A dividing head with its index plate, crank and spindle plate",
+			"url": "https://commons.wikimedia.org/wiki/File:IndexingHead-SimplePlate.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 2.5",
+			"file": "index-plate.jpg",
+			"authors": [
+				{
+					"family": "McKechnie",
+					"given": "Glenn"
+				}
+			],
+			"published": "2005-09"
+		}
+	],
+	"connections": [
+		{
+			"to": "making/interchangeable-parts",
+			"why": "Eli Whitney long had the honour of the first milling machine, part of the legend that he invented interchangeable parts."
+		}
+	]
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M140 30 L140 276"/>
+		<path pathLength="1" d="M18 150 L262 150"/>
+		<path pathLength="1" d="M140 150 L86 85.7"/>
+		<path pathLength="1" d="M49 150 L49.1 145.2 L49.5 140.5 L50.1 135.8 L51 131.1 L52.1 126.4 L53.5 121.9 L55 117.4 L56.9 113 L58.9 108.7 L61.2 104.5 L63.7 100.4 L66.4 96.5 L69.3 92.7 L72.4 89.1 L75.7 85.7 L79.1 82.4 L82.7 79.3 L86.5 76.4 L90.4 73.7 L94.5 71.2 L98.7 68.9 L103 66.9 L107.4 65 L111.9 63.5 L116.4 62.1 L121.1 61 L125.8 60.1 L130.5 59.5 L135.2 59.1 L140 59 L144.8 59.1 L149.5 59.5 L154.2 60.1 L158.9 61 L163.6 62.1 L168.1 63.5 L172.6 65 L177 66.9 L181.3 68.9 L185.5 71.2 L189.6 73.7 L193.5 76.4 L197.3 79.3 L200.9 82.4 L204.3 85.7 L207.6 89.1 L210.7 92.7 L213.6 96.5 L216.3 100.4 L218.8 104.5 L221.1 108.7 L223.1 113 L225 117.4 L226.5 121.9 L227.9 126.4 L229 131.1 L229.9 135.8 L230.5 140.5 L230.9 145.2 L231 150"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M56 150 L56 150 L56.2 144.1 L56.8 138.3 L57.8 132.5 L59.3 126.8 L61.1 121.3 L63.3 115.8 L65.8 110.6 L68.8 105.5 L72 100.6 L75.7 96 L79.6 91.6 L83.8 87.6 L88.3 83.8 L93 80.4 L98 77.3 L103.2 74.5 L108.5 72.1 L114 70.1 L119.7 68.5 L125.4 67.3 L131.2 66.5 L137.1 66.1 L142.9 66.1 L148.8 66.5 L154.6 67.3 L160.3 68.5 L166 70.1 L171.5 72.1 L176.8 74.5 L182 77.3 L187 80.4 L191.7 83.8 L196.2 87.6 L200.4 91.6 L204.3 96 L208 100.6 L211.2 105.5 L214.2 110.6 L216.7 115.8 L218.9 121.3 L220.7 126.8 L222.2 132.5 L223.2 138.3 L223.8 144.1 L224 150 L224 262 L56 262 Z"/>
+		<path pathLength="1" d="M56 262 L56 150 L56.2 144.1 L56.8 138.3 L57.8 132.5 L59.3 126.8 L61.1 121.3 L63.3 115.8 L65.8 110.6 L68.8 105.5 L72 100.6 L75.7 96 L79.6 91.6 L83.8 87.6 L88.3 83.8 L93 80.4 L98 77.3 L103.2 74.5 L108.5 72.1 L114 70.1 L119.7 68.5 L125.4 67.3 L131.2 66.5 L137.1 66.1 L142.9 66.1 L148.8 66.5 L154.6 67.3 L160.3 68.5 L166 70.1 L171.5 72.1 L176.8 74.5 L182 77.3 L187 80.4 L191.7 83.8 L196.2 87.6 L200.4 91.6 L204.3 96 L208 100.6 L211.2 105.5 L214.2 110.6 L216.7 115.8 L218.9 121.3 L220.7 126.8 L222.2 132.5 L223.2 138.3 L223.8 144.1 L224 150 L224 262"/>
+		<path pathLength="1" d="M42 262 L42 150 L42.2 143.2 L43 136.4 L44.1 129.6 L45.8 123 L47.9 116.5 L50.5 110.1 L53.5 104 L56.9 98.1 L60.7 92.4 L64.9 87 L69.5 81.9 L74.4 77.2 L79.7 72.8 L85.2 68.8 L91 65.1 L97 61.9 L103.3 59.1 L109.7 56.8 L116.3 54.9 L123 53.5 L129.8 52.5 L136.6 52.1 L143.4 52.1 L150.2 52.5 L157 53.5 L163.7 54.9 L170.3 56.8 L176.7 59.1 L183 61.9 L189 65.1 L194.8 68.8 L200.3 72.8 L205.6 77.2 L210.5 81.9 L215.1 87 L219.3 92.4 L223.1 98.1 L226.5 104 L229.5 110.1 L232.1 116.5 L234.2 123 L235.9 129.6 L237 136.4 L237.8 143.2 L238 150 L238 262"/>
+		<path pathLength="1" d="M42 262 L56 262 M224 262 L238 262"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M39 268 L39 150 L39.2 143 L40 135.9 L41.2 129 L42.9 122.2 L45.1 115.5 L47.7 108.9 L50.8 102.6 L54.3 96.5 L58.3 90.6 L62.6 85.1 L67.3 79.8 L72.4 74.9 L77.8 70.4 L83.5 66.3 L89.5 62.5 L95.7 59.2 L102.2 56.4 L108.8 53.9 L115.6 52 L122.5 50.5 L129.4 49.6 L136.5 49.1 L143.5 49.1 L150.6 49.6 L157.5 50.5 L164.4 52 L171.2 53.9 L177.8 56.4 L184.3 59.2 L190.5 62.5 L196.5 66.3 L202.2 70.4 L207.6 74.9 L212.7 79.8 L217.4 85.1 L221.7 90.6 L225.7 96.5 L229.2 102.6 L232.3 108.9 L234.9 115.5 L237.1 122.2 L238.8 129 L240 135.9 L240.8 143 L241 150 L241 268"/>
+		<path pathLength="1" d="M39 268 L60 268 L60 274 L39 274 Z"/>
+		<path pathLength="1" d="M241 268 L220 268 L220 274 L241 274 Z"/>
+		<path pathLength="1" d="M59.3 126.8 L55.4 125.7 M65.8 110.6 L62.3 108.7 M75.7 96 L72.6 93.4 M88.3 83.8 L85.8 80.7 M103.2 74.5 L101.4 70.9 M119.7 68.5 L118.7 64.6 M137.1 66.1 L136.9 62.1 M154.6 67.3 L155.3 63.3 M171.5 72.1 L173 68.4 M187 80.4 L189.2 77 M200.4 91.6 L203.3 88.9 M211.2 105.5 L214.6 103.4 M218.9 121.3 L222.7 119.9"/>
+		<path pathLength="1" d="M150 66 L166 66 M150 52 L166 52"/>
+		<path pathLength="1" d="M162 66 L162 52"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M330 62 L330 134"/>
+		<path pathLength="1" d="M296 70 L364 70 M296 126 L364 126"/>
+		<path pathLength="1" d="M330 70 L346 70 L314 126 L330 126"/>
+		<text x="330" y="148" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FREE</text>
+		<path pathLength="1" d="M330 166 L330 238"/>
+		<path pathLength="1" d="M296 174 L364 174 M296 230 L364 230"/>
+		<path pathLength="1" d="M330 174 L330 174 L298 230 L330 230"/>
+		<text x="330" y="252" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STRAPPED</text>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="86" y="184" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FORM</text>
+		<text x="82" y="114" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">R</text>
+		<text x="170" y="63" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">t</text>
+		<text x="249" y="190" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STRAP</text>
+		<text x="368" y="73" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OUT</text>
+		<text x="368" y="129" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IN</text>
+		<text x="292" y="177" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0%</text>
+		<text x="292" y="233" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">−t/R</text>
+	</g>
+</svg>

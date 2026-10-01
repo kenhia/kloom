@@ -12,10 +12,11 @@ beforeAll(async () => {
 	root = await mkdtemp(join(tmpdir(), 'kloom-subjects-'));
 	for (const [id, manifest] of [
 		['beta', '{"title":"Beta"}'],
-		['alpha', '{"title":"Alpha"}'],
+		['alpha', '{"title":"Alpha","subtitle":"The first"}'],
 		['broken', '{'],
 		['.hidden', '{"title":"Hidden"}'],
-		['Upper', '{"title":"Upper"}']
+		['Upper', '{"title":"Upper"}'],
+		['gamma', '{"title":"Gamma","subtitle":7}']
 	]) {
 		await mkdir(join(root, id));
 		await writeFile(join(root, id, 'subject.json'), manifest);
@@ -29,10 +30,11 @@ afterAll(() => {
 });
 
 describe('the served subjects', () => {
-	it('are the directories holding a readable subject.json, by id, with their titles', async () => {
+	it('are the directories holding a readable subject.json, by id, with their titles and subtitles', async () => {
 		expect(await listSubjects()).toEqual([
-			{ id: 'alpha', title: 'Alpha' },
-			{ id: 'beta', title: 'Beta' }
+			{ id: 'alpha', title: 'Alpha', subtitle: 'The first' },
+			{ id: 'beta', title: 'Beta' },
+			{ id: 'gamma', title: 'Gamma' }
 		]);
 	});
 

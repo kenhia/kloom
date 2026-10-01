@@ -1,0 +1,207 @@
+{
+	"id": "sorby-microscope",
+	"topic": "Sorby and the microstructure of steel",
+	"position": {
+		"label": "1863–64",
+		"sort": 1863
+	},
+	"scene": {
+		"headline": "Etched steel showed a",
+		"accent": "PEARL.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SHEFFIELD · BATH · THE IRON AND STEEL INSTITUTE",
+			"HENRY CLIFTON SORBY · EMERY, ROUGE AND ACID · REFLECTED LIGHT"
+		],
+		"counter": {
+			"value": "650×",
+			"label": "the magnification at which Sorby saw the plates of pearlite, 1886"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Henry Clifton Sorby",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Clifton_Sorby&oldid=1360683310",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23",
+			"key": true
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "On Microscopical Photographs of Various Kinds of Iron and Steel",
+			"authors": [
+				{
+					"family": "Sorby",
+					"given": "H. C."
+				}
+			],
+			"container": "Report of the Thirty-Fourth Meeting of the British Association for the Advancement of Science, Held at Bath in September 1864",
+			"pages": "189",
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1865",
+			"url": "https://archive.org/details/reportofbritisha65brit",
+			"accessed": "2026-09-30",
+			"note": "Transactions of the Sections"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Iron and Steel Institute",
+			"container": "Nature",
+			"volume": "34",
+			"pages": "62–64",
+			"published": "1886-05-20",
+			"doi": "10.1038/034062a0",
+			"url": "https://archive.org/details/paper-doi-10_1038_034062a0",
+			"accessed": "2026-09-30",
+			"note": "Reports Sorby's paper on very high powers, 650 linear",
+			"issue": "864"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Microscopic Analysis of Metals",
+			"authors": [
+				{
+					"family": "Osmond",
+					"given": "Floris"
+				}
+			],
+			"editors": [
+				{
+					"family": "Stead",
+					"given": "J. E."
+				}
+			],
+			"publisher": "Charles Griffin",
+			"place": "London",
+			"published": "1904",
+			"url": "https://archive.org/details/microscopicanal00osmogoog",
+			"accessed": "2026-09-30",
+			"note": "Pearlite and its name, pp. 17–20; polishing after Sorby, pp. 63–70; reagents, pp. 73–75"
+		},
+		{
+			"kind": "book",
+			"title": "The Metallography of Steel and Cast Iron",
+			"authors": [
+				{
+					"family": "Howe",
+					"given": "Henry Marion"
+				}
+			],
+			"publisher": "McGraw-Hill",
+			"place": "New York",
+			"published": "1916",
+			"url": "https://archive.org/details/metallographyst00howegoog",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "The Fe-C Diagram – History of Its Evolution",
+			"authors": [
+				{
+					"family": "Gutnyk",
+					"given": "Maryna"
+				},
+				{
+					"family": "Nürnberger",
+					"given": "Florian"
+				}
+			],
+			"container": "History of Science and Technology",
+			"volume": "13",
+			"issue": "2",
+			"pages": "243–262",
+			"published": "2023",
+			"doi": "10.32703/2415-7422-2023-13-2-243-262",
+			"url": "https://www.hst-journal.com/index.php/hst/article/view/602",
+			"accessed": "2026-09-30",
+			"note": "Quotes Howe and Sauveur's definitions of 1912, sorbite among them"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Metallography",
+			"url": "https://en.wikipedia.org/w/index.php?title=Metallography&oldid=1348432657",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pearlite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pearlite&oldid=1352023079",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nital",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nital&oldid=1362377629",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "media",
+			"title": "Henry Clifton Sorby, portrait by Mary Lemon Waller, 1906, in Firth Court, University of Sheffield",
+			"url": "https://commons.wikimedia.org/wiki/File:H_C_Sorby_2729.jpg",
+			"accessed": "2026-09-30",
+			"container": "University of Sheffield, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "sorby-portrait.jpg",
+			"authors": [
+				{
+					"family": "Waller",
+					"given": "Mary Lemon"
+				}
+			],
+			"published": "1906"
+		},
+		{
+			"kind": "media",
+			"title": "Lamellar pearlite in a eutectoid steel, scanning electron micrograph, nital etch",
+			"url": "https://commons.wikimedia.org/wiki/File:Pearlite1.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "pearlite.jpg",
+			"authors": [
+				{
+					"family": "Pleshakov",
+					"given": "Edward"
+				}
+			],
+			"published": "2012-08-06"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M24 74 L374 74"/>
+		<path pathLength="1" d="M150 44 L150 278"/>
+		<path pathLength="1" d="M362 44 L362 278"/>
+		<path pathLength="1" d="M30 272 L368 272"/>
+		<path pathLength="1" d="M30 272 L30 124"/>
+		<path pathLength="1" d="M30 232.2 L362 232.2"/>
+		<path pathLength="1" d="M291.7 232.2 L291.7 91"/>
+		<path pathLength="1" d="M30 210.4 L362 210.4"/>
+		<path pathLength="1" d="M263.7 210.4 L263.7 91"/>
+		<path pathLength="1" d="M30 194.7 L362 194.7"/>
+		<path pathLength="1" d="M249.2 194.7 L249.2 91"/>
+		<path pathLength="1" d="M30 185.8 L362 185.8"/>
+		<path pathLength="1" d="M242.2 185.8 L242.2 91"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 61 L282 61 L362 72.5 L362 75.5 L282 87 L30 87 L30 61"/>
+		<path pathLength="1" d="M210.9 132 L213.6 137.3 L216.2 142.7 L218.9 148 L221.6 153 L224.2 157.8 L226.8 162.5 L229.5 166.9 L232.2 171.2 L234.8 175.2 L237.4 179.2 L240.1 182.9 L242.8 186.5 L245.4 190 L248.1 193.3 L250.7 196.5 L253.3 199.6 L256 202.5 L258.6 205.3 L261.3 208.1 L263.9 210.6 L266.6 213.1 L269.2 215.5 L271.9 217.8 L274.6 220 L277.2 222.1 L279.9 224.1 L282.5 226.1 L285.1 227.9 L287.8 229.7 L290.4 231.4 L293.1 233.1 L295.8 234.7 L298.4 236.2 L301.1 237.6 L303.7 239 L306.4 240.4 L309 241.7 L311.6 242.9 L314.3 244.1 L316.9 245.2 L319.6 246.3 L322.2 247.3 L324.9 248.3 L327.6 249.3 L330.2 250.2 L332.9 251.1 L335.5 251.9 L338.1 252.8 L340.8 253.5 L343.4 254.3 L346.1 255 L348.8 255.7 L351.4 256.4 L354.1 257 L356.7 257.6 L359.4 258.2 L362 258.7"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M36 64 L40 84 M44 64 L48 84 M52 64 L56 84 M60 64 L64 84 M68 64 L72 84 M76 64 L80 84 M84 64 L88 84 M92 64 L96 84 M100 64 L104 84 M108 64 L112 84 M116 64 L120 84 M124 64 L128 84 M132 64 L136 84 M140 64 L144 84"/>
+		<path pathLength="1" d="M291.7 62.4 L291.7 85.6"/>
+		<path pathLength="1" d="M263.7 61 L263.7 87"/>
+		<path pathLength="1" d="M249.2 61 L249.2 87"/>
+		<path pathLength="1" d="M242.2 61 L242.2 87"/>
+		<path pathLength="1" d="M184.4 139.9 L187.1 149.8 L189.8 158.9 L192.4 167.4 L195.1 175.2 L197.7 182.5 L200.3 189.2 L203 195.4 L205.7 201.2 L208.3 206.5 L210.9 211.4 L213.6 215.9 L216.2 220.1 L218.9 224 L221.6 227.6 L224.2 230.9 L226.8 234 L229.5 236.9 L232.2 239.5 L234.8 241.9 L237.4 244.2 L240.1 246.3 L242.8 248.2 L245.4 250 L248.1 251.6 L250.7 253.2 L253.3 254.6 L256 255.9 L258.6 257.1 L261.3 258.2 L263.9 259.2 L266.6 260.2 L269.2 261.1 L271.9 261.9 L274.6 262.7 L277.2 263.4 L279.9 264 L282.5 264.6 L285.1 265.2 L287.8 265.7 L290.4 266.2 L293.1 266.6 L295.8 267 L298.4 267.4 L301.1 267.7 L303.7 268 L306.4 268.3 L309 268.6 L311.6 268.9 L314.3 269.1 L316.9 269.3 L319.6 269.5 L322.2 269.7 L324.9 269.9 L327.6 270 L330.2 270.2 L332.9 270.3 L335.5 270.4 L338.1 270.6 L340.8 270.7 L343.4 270.8 L346.1 270.9 L348.8 270.9 L351.4 271 L354.1 271.1 L356.7 271.2 L359.4 271.2 L362 271.3"/>
+		<path pathLength="1" d="M216 47 L300 47"/>
+		<path pathLength="1" d="M295.7 49.5 L300 47 L295.7 44.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="26" y="235.2" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">221</text>
+		<text x="295.7" y="228.2" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PALE YELLOW</text>
+		<text x="26" y="213.4" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">260</text>
+		<text x="26" y="197.7" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">288</text>
+		<text x="26" y="188.8" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">304</text>
+		<text x="246.2" y="181.8" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BLUE</text>
+		<text x="26" y="122" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">°C</text>
+		<text x="90" y="53" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RED-HOT</text>
+		<text x="362" y="40" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EDGE</text>
+		<text x="150" y="40" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">QUENCHED TO HERE</text>
+	</g>
+</svg>

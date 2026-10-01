@@ -1,0 +1,29 @@
+{
+	"making/reprap": [
+		["Adrian Bowyer", "adrian-bowyer"],
+		["University of Bath", "university-of-bath"],
+		["John von Neumann", "john-von-neumann"],
+		["RepRap", "reprap"],
+		["GNU General Public License", "gnu-general-public-license"],
+		["MakerBot", "makerbot"],
+		["Prusa i3", "prusa-i3"]
+	],
+	"making/openscad": [
+		["OpenSCAD", "openscad"],
+		["Prusa i3", "prusa-i3"],
+		["constructive solid geometry", "constructive-solid-geometry"],
+		["University of Rochester", "university-of-rochester"],
+		["Herbert Voelcker", "herbert-voelcker"],
+		["parametric design", "parametric-design"],
+		["Thingiverse", "thingiverse"]
+	],
+	"making/metal-printing": [
+		["GE Aviation", "ge-aerospace"],
+		["CFM International LEAP", "cfm-international-leap"],
+		["selective laser melting", "selective-laser-melting"],
+		["Fraunhofer-Gesellschaft", "fraunhofer-gesellschaft"],
+		["Inconel", "inconel"],
+		["residual stress", "residual-stress"],
+		["SuperDraco", "superdraco"]
+	]
+}

@@ -1,6 +1,6 @@
 ---
 name: kloom-author-subject
-description: Author a whole new kloom subject — a plan, a theme, one segment written by hand, then parallel authors for the rest, reviewed and committed segment by segment. The procedure sprint 006 used for the AI subject, written down in sprint 014, followed for Richard Feynman, the History of Computing (sprint 015) the History of Physics (sprint 021) and the History of Mathematics (sprint 024). Use when a sprint creates a subject, not for adding a few frames (that is grow).
+description: Author a whole new kloom subject — a plan, a theme, one segment written by hand, then parallel authors for the rest, reviewed and committed segment by segment. The procedure sprint 006 used for the AI subject, written down in sprint 014, followed for Richard Feynman, the History of Computing (sprint 015), the History of Physics (sprint 021), the History of Mathematics (sprint 024), the History of Chemistry (sprint 025) and How We Build (sprint 026). Use when a sprint creates a subject, not for adding a few frames (that is grow).
 ---
 
 # Authoring a kloom subject
@@ -23,7 +23,11 @@ Decide the whole shape before writing a frame.
 - **The spine.** Segments, each with a `labelKind` (`date`, `category`,
   `technology`) and the frames in reading order. A subject is not
   necessarily time: an era is dates, a field may run dates → technologies
-  → categories, a person is the dates of a life.
+  → categories, a person is the dates of a life. `labelKind` says what
+  the frames' labels are, not what the segment is: the validator checks
+  that sorts rise only within a segment, so a spine by craft or by place
+  whose frames are dated is a run of `date` segments, each restarting time
+  (sprint 026's crafts), not `category` segments.
 - **The trails.** Where a topic needs depth the main spine should not
   carry, it becomes a trail of three to ten frames on one main-spine
   anchor. Prefer a trail over a `category` segment when the topic is a
@@ -35,7 +39,12 @@ Decide the whole shape before writing a frame.
   `spine.json` plus `trails`. `subject_plan.py` writes the spine and trails
   from it holding only the frames written so far, so every commit
   validates.
-- **The theme.** `subject.json` holds the title and named palettes, in
+- **The title and subtitle.** `subject.json` holds the title and, if the
+  subject has one, a `subtitle`: one plain line of at most 60 characters
+  said under the title on the start screen, in the subject list and in
+  About ("creating the objects around us"). Without one, the start screen
+  shows kloom's own tagline.
+- **The theme.** `subject.json` holds the named palettes, in
   dark/light pairs that name each other as `counterpart`. Tie a pair to a
   part of the story (an era, a place, a mode of work). Check ink, muted,
   accent and line at **4.5:1 or better** against the background, and write
@@ -76,7 +85,10 @@ Each author gets:
   what it must not repeat from its neighbours; the
   palettes it uses; the headline voice; the rights and sourcing rules that
   are particular to this subject; and the accents already taken;
-- the hand-written frames, to read in full before writing;
+- the hand-written frames, to read in full before writing, with a line
+  saying their marks were placed by `names.py mark` (eight of sprint 026's
+  twenty-one authors typed marks by hand in a first draft, copying what
+  they had read);
 - **its own files only**: its frame directories, its own plate module, its
   own chart specs in `create-tools/bar-chart/examples/`, and its own names
   drafts (below). Nothing shared, so nothing collides. The author does not
@@ -137,9 +149,14 @@ Things authors working at once cannot see, so the brief settles them:
   copies the directory into the copy as `frame.json`, re-runs
   `subject_plan.py` on the copy, and renames it live once it passes: the
   copy holds only frames with a `frame.json`, so a draft must be put there
-  by hand (sprint 025's authors read this both ways). `prose_words.py` checks the word counts.
+  by hand (sprint 025's authors read this both ways). Prettier ignores the
+  `.draft` extension: format it with `npx prettier --parser json --write`.
+  `prose_words.py` checks the word counts.
 - **A trail needs its anchor.** A trail's frames are off the spine until the
-  main-spine frame it hangs from exists. Commit anchors first, or tell the
+  main-spine frame it hangs from exists. If the anchor is already committed
+  or live when the trail's author checks, `--only` with the anchor and its
+  author's drafts is simpler than a stand-in (sprint 026's trail authors all
+  found it so). Commit anchors first, or tell the
   trail's author to validate against a stand-in (the subject-plan README
   says how); the complete copy leaves such frames out and names them. The
   anchor's author finishes the anchor, `frame.json` and all, before the
@@ -147,7 +164,11 @@ Things authors working at once cannot see, so the brief settles them:
 - **Dated sorts.** Give each frame of a `date` segment its year in the
   brief and check they rise along the segment: sprint 021's plan put
   1850 after 1859, and every author's copy failed on it until review.
-- **Each other's drafts.** Name drafts overlap (four pairs in sprint 021):
+- **Each other's drafts.** Say who drafts a name two parts will mark: the
+  author whose frame is its `home`, the others passing that author's
+  drafts with `--drafts` (sprint 026's authors drafting at the same moment
+  collided on `reprap`, `chuck-hull` and `3d-systems` despite grepping).
+  Name drafts overlap (four pairs in sprint 021):
   authors grep `.scratch/names/*/` before drafting a name, pass every
   drafts directory to `--complete` and `mark --check`, and check with
   `--only <their frames>` so no one else's half-written frame fails them.

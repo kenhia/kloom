@@ -1,0 +1,213 @@
+{
+	"id": "reprap",
+	"topic": "RepRap, the self-replicating printer",
+	"position": {
+		"label": "2005",
+		"sort": 2005
+	},
+	"scene": {
+		"headline": "We built a printer to",
+		"accent": "BREED.",
+		"palette": "resin",
+		"illustration": "scene.svg",
+		"metadata": ["UNIVERSITY OF BATH · ADRIAN BOWYER", "DARWIN 2007 · MENDEL 2009 · GNU GPL"],
+		"counter": {
+			"value": "48%",
+			"label": "of Darwin's parts, by count and leaving out fasteners, that it printed itself"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "RepRap – the Replicating Rapid Prototyper",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Rhys"
+				},
+				{
+					"family": "Haufe",
+					"given": "Patrick"
+				},
+				{
+					"family": "Sells",
+					"given": "Edward"
+				},
+				{
+					"family": "Iravani",
+					"given": "Pejman"
+				},
+				{
+					"family": "Olliver",
+					"given": "Vik"
+				},
+				{
+					"family": "Palmer",
+					"given": "Chris"
+				},
+				{
+					"family": "Bowyer",
+					"given": "Adrian"
+				}
+			],
+			"container": "Robotica",
+			"volume": "29",
+			"issue": "1",
+			"pages": "177–191",
+			"published": "2011",
+			"doi": "10.1017/S026357471000069X",
+			"url": "https://www.cambridge.org/core/journals/robotica/article/reprap-the-replicating-rapid-prototyper/5979FD7B0C066CBCE43EEAD869E871AA",
+			"accessed": "2026-09-30",
+			"note": "The mutualism argument, Darwin, the child of 29 May 2008 and the part counts (p. 188)"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Wealth Without Money",
+			"authors": [
+				{
+					"family": "Bowyer",
+					"given": "Adrian"
+				}
+			],
+			"container": "RepRap",
+			"url": "https://reprap.org/wiki/Wealth_Without_Money",
+			"published": "2004-02-02",
+			"accessed": "2026-09-30",
+			"note": "A copy of the essay first put on the University of Bath's website"
+		},
+		{
+			"kind": "web",
+			"title": "Glossary",
+			"container": "RepRap",
+			"url": "https://reprap.org/wiki/Glossary",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Distributing and Copying RepRap",
+			"container": "RepRap",
+			"url": "https://reprap.org/wiki/RepRapGPLLicence",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Prusa i3",
+			"container": "RepRap",
+			"url": "https://reprap.org/wiki/Prusa_i3",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "RepRap",
+			"url": "https://en.wikipedia.org/w/index.php?title=RepRap&oldid=1349417698",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-17",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "MakerBot",
+			"url": "https://en.wikipedia.org/w/index.php?title=MakerBot&oldid=1359703683",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Prusa i3",
+			"url": "https://en.wikipedia.org/w/index.php?title=Prusa_i3&oldid=1375315350",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Josef Průša",
+			"url": "https://en.wikipedia.org/w/index.php?title=Josef_Pr%C5%AF%C5%A1a&oldid=1372570250",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Adrian Bowyer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Adrian_Bowyer&oldid=1372232806",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "media",
+			"title": "Adrian Bowyer and Vik Olliver with the parent RepRap and the first child it made, Bath, May 2008",
+			"url": "https://commons.wikimedia.org/wiki/File:First_replication.jpg",
+			"accessed": "2026-09-30",
+			"container": "RepRap blog, via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "first-replication.jpg",
+			"authors": [
+				{
+					"name": "RepRap project"
+				}
+			],
+			"published": "2008"
+		},
+		{
+			"kind": "media",
+			"title": "Printed parts of a RepRap Darwin on their steel rods",
+			"url": "https://commons.wikimedia.org/wiki/File:RepRap_Darwin_part_selfprinted.jpg",
+			"accessed": "2026-09-30",
+			"container": "Flickr, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "darwin-part.jpg",
+			"authors": [
+				{
+					"name": "Zach Hoeken"
+				}
+			],
+			"published": "2007-06-23"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/free-software",
+			"why": "RepRap's designs were released under the GNU General Public License, the copyleft licence the Free Software Foundation wrote in 1989, so that every improved printer had to be published on the same terms."
+		},
+		{
+			"to": "making/fdm",
+			"why": "RepRap named its extruding process fused filament fabrication because FDM, the obvious name, was Stratasys's trademark."
+		}
+	]
+}

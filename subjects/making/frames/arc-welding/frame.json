@@ -1,0 +1,243 @@
+{
+	"id": "arc-welding",
+	"topic": "Arc welding",
+	"position": {
+		"label": "1881",
+		"sort": 1881
+	},
+	"scene": {
+		"headline": "We stitched steel with an",
+		"accent": "ARC.",
+		"palette": "ember",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ST PETERSBURG · PERM · RICHMOND, CALIFORNIA",
+			"CARBON AND METAL ELECTRODES · FLUX COATING · THE WELD POOL"
+		],
+		"counter": {
+			"value": "2,710",
+			"label": "Liberty ships, largely welded, built 1941–45"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/davy-electrolysis",
+			"why": "At the Royal Institution Davy turned the voltaic battery to two uses: splitting potash into potassium, and drawing between charcoal points the brilliant arc that arc welding later put to work."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Welding Theory and Application",
+			"number": "TM 9-2852",
+			"publisher": "War Department",
+			"place": "Washington, DC",
+			"published": "1943",
+			"url": "https://archive.org/details/TM928521943WELDINGTHEORYANDAPPLICATION",
+			"accessed": "2026-09-30",
+			"note": "Arc temperature, currents and voltages, striking and holding the arc, electrode coatings"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Process of and Apparatus for Working Metals by the Direct Application of the Electric Current, US Patent 363,320",
+			"authors": [
+				{
+					"family": "de Benardos",
+					"given": "Nicholas"
+				},
+				{
+					"family": "Olszewski",
+					"given": "Stanislas"
+				}
+			],
+			"publisher": "United States Patent Office",
+			"published": "1887-05-17",
+			"url": "https://patents.google.com/patent/US363320A/en",
+			"accessed": "2026-09-30",
+			"note": "Lists the French and English patents of October 1885"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Elements of Chemical Philosophy",
+			"authors": [
+				{
+					"family": "Davy",
+					"given": "Humphry"
+				}
+			],
+			"publisher": "Bradford and Inskeep",
+			"place": "Philadelphia",
+			"published": "1812",
+			"url": "https://archive.org/details/elementschemica00davygoog",
+			"accessed": "2026-09-30",
+			"note": "The Royal Institution's battery and the arc, pp. 85–86 of the Philadelphia edition, the one read"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arc welding",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arc_welding&oldid=1346200941",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Liberty ship",
+			"url": "https://en.wikipedia.org/w/index.php?title=Liberty_ship&oldid=1376388918",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nikolay Benardos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nikolay_Benardos&oldid=1350416319",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stanisław Olszewski",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stanis%C5%82aw_Olszewski&oldid=1370697057",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nikolay Slavyanov",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nikolay_Slavyanov&oldid=1372620758",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oscar Kjellberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oscar_Kjellberg&oldid=1311253825",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Auguste de Méritens",
+			"url": "https://en.wikipedia.org/w/index.php?title=Auguste_de_M%C3%A9ritens&oldid=1362760342",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Electric arc",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electric_arc&oldid=1368153915",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Shielded metal arc welding",
+			"url": "https://en.wikipedia.org/w/index.php?title=Shielded_metal_arc_welding&oldid=1338085787",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-13"
+		},
+		{
+			"kind": "media",
+			"title": "Sheet 4 of Benardos and Olszewski's US patent 363,320: joints welded by the arc",
+			"url": "https://commons.wikimedia.org/wiki/File:Olszewski_Stanis%C5%82aw_US_patent_1887_1.JPG",
+			"accessed": "2026-09-30",
+			"container": "United States Patent Office, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "benardos-patent.jpg",
+			"authors": [
+				{
+					"family": "Benardos",
+					"given": "Nikolay"
+				},
+				{
+					"family": "Olszewski",
+					"given": "Stanisław"
+				}
+			],
+			"published": "1887"
+		},
+		{
+			"kind": "media",
+			"title": "Welder making boilers for a ship, Combustion Engineering Co., Chattanooga, Tennessee",
+			"url": "https://commons.wikimedia.org/wiki/File:AlfredPalmerwelder1.jpg",
+			"accessed": "2026-09-30",
+			"container": "Office of War Information, Library of Congress, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "welder-1942.jpg",
+			"authors": [
+				{
+					"family": "Palmer",
+					"given": "Alfred T."
+				}
+			],
+			"published": "1942-06"
+		}
+	]
+}

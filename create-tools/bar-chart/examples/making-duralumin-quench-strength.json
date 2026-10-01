@@ -1,0 +1,29 @@
+{
+	"title": "Duralumin's strength after ageing, by the temperature it was quenched from",
+	"description": "Bar chart of the ultimate tensile strength of duralumin sheet (alloy C8 of Merica, Waltenberg and Scott, 1919), quenched in water from eight temperatures and aged 11 to 13 days at 20 °C. From 371 °C, 184 megapascals; 422 °C, 275; 478 °C, 322; 500 °C, 328; 510 °C, 307; 520 °C, 308; 525 °C, 319; 533 °C, 260, where the metal had begun to melt. Each value is the mean of the two or four tests the paper's Table 3 gives, converted from pounds per square inch.",
+	"heading": "STRENGTH AFTER AGEING AT 20 °C · MPa",
+	"unit": "",
+	"width": 520,
+	"height": 300,
+	"barWidth": 44,
+	"axis": {
+		"max": 400,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"],
+			[400, "400"]
+		]
+	},
+	"bars": [
+		{ "label": "371", "sublabel": "°C", "value": 184 },
+		{ "label": "422", "sublabel": "°C", "value": 275 },
+		{ "label": "478", "sublabel": "°C", "value": 322 },
+		{ "label": "500", "sublabel": "°C", "value": 328, "highlight": true },
+		{ "label": "510", "sublabel": "°C", "value": 307 },
+		{ "label": "520", "sublabel": "°C", "value": 308 },
+		{ "label": "525", "sublabel": "°C", "value": 319 },
+		{ "label": "533", "sublabel": "burnt", "value": 260 }
+	]
+}

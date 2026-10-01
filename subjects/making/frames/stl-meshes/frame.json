@@ -1,0 +1,176 @@
+{
+	"id": "stl-meshes",
+	"topic": "STL files and triangle meshes",
+	"position": {
+		"label": "Meshes"
+	},
+	"scene": {
+		"headline": "We traded curves for",
+		"accent": "TRIANGLES.",
+		"palette": "filament",
+		"illustration": "scene.svg",
+		"metadata": [
+			"3D SYSTEMS · STEREOLITHOGRAPHY INTERFACE SPECIFICATION",
+			"FACETS · NORMALS · NO UNITS · CHORD ERROR"
+		],
+		"counter": {
+			"value": "50",
+			"label": "bytes for each triangle in a binary STL file"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/archimedes-circle",
+			"why": "An STL file holds a round hole as a polygon of chords inside its circle, the figure Archimedes doubled to 96 sides to bound π; the chord error falls with the square of the sides in both."
+		},
+		{
+			"to": "making/stereolithography",
+			"why": "Hull's company, 3D Systems, gave the industry STL, describing a part as a mesh of triangles."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "STL (STereoLithography) File Format Family",
+			"url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000504.shtml",
+			"accessed": "2026-09-30",
+			"container": "Sustainability of Digital Formats",
+			"publisher": "Library of Congress",
+			"published": "2025-02-25",
+			"note": "The 1988 and 1989 specifications, the rules, and the format's redundancy"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The StL Format: Standard Data Format for Fabbers",
+			"authors": [
+				{
+					"family": "Burns",
+					"given": "Marshall"
+				}
+			],
+			"container": "Automated Fabrication: Improving Productivity in Manufacturing",
+			"publisher": "Prentice Hall",
+			"published": "1993",
+			"url": "http://www.fabbers.com/tech/STL_Format",
+			"accessed": "2026-09-30",
+			"note": "Section 6.5, from the October 1989 specification; read in the reprint at fabbers.com"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Save As Mesh Dialog Settings",
+			"authors": [
+				{
+					"family": "Hiatt",
+					"given": "Ken"
+				}
+			],
+			"container": "kCheatSheet",
+			"publisher": "GitHub",
+			"published": "2026-01-08",
+			"url": "https://github.com/kenhia/kCheatSheet/blob/main/docs/fusion360/save-as-mesh-dialog-settings.md",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "kTaskLight",
+			"authors": [
+				{
+					"family": "Hiatt",
+					"given": "Ken"
+				}
+			],
+			"container": "GitHub",
+			"published": "2025-11-05",
+			"url": "https://github.com/kenhia/kTaskLight",
+			"accessed": "2026-09-30",
+			"note": "The STL files CounterWeightShims.stl and RingMagnetA.stl, measured by us"
+		},
+		{
+			"kind": "web",
+			"title": "3D Manufacturing Format: Core Specification & Reference Guide, version 1.4.0",
+			"authors": [
+				{
+					"name": "3MF Consortium"
+				}
+			],
+			"publisher": "3MF Consortium",
+			"published": "2025-02-06",
+			"url": "https://github.com/3MFConsortium/spec_core/blob/master/3MF%20Core%20Specification.md",
+			"accessed": "2026-09-30",
+			"note": "Version 1.0 was published on 29 April 2015"
+		},
+		{
+			"kind": "web",
+			"title": "3MF Consortium: The File Format for 3D Printing",
+			"authors": [
+				{
+					"name": "3MF Consortium"
+				}
+			],
+			"url": "https://3mf.io/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "STL (file format)",
+			"url": "https://en.wikipedia.org/w/index.php?title=STL_(file_format)&oldid=1373046995",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "3D Manufacturing Format",
+			"url": "https://en.wikipedia.org/w/index.php?title=3D_Manufacturing_Format&oldid=1376768320",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sagitta (geometry)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sagitta_(geometry)&oldid=1369133464",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13"
+		},
+		{
+			"kind": "media",
+			"title": "A triangle mesh of a turned shape, rendered with its facet edges",
+			"url": "https://commons.wikimedia.org/wiki/File:STL_sample_2.png",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "mesh-sample.png",
+			"authors": [
+				{
+					"name": "Kaboldy"
+				}
+			],
+			"published": "2012-12-11"
+		}
+	]
+}
