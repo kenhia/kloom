@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 150 L360 150"/>
+		<path pathLength="1" d="M209 70 L209 230"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M150.4 232 L155.3 235.9 L157.7 240.3 L156.6 244.6 L152.4 248.3 L146 251.2 L138.9 253.4 L131.9 255.4 L125.3 257.4 L118.7 259.4 L111.6 261.2 L103.9 262.1 L96 261.6 L88.7 259.6 L82.8 256.6 L78.5 253.1 L75 250.2 L71.4 248 L66.7 246.6 L60.7 245.5 L54 244.1 L47.9 242 L43.6 239 L41.6 235.6 L41.6 232 L42.5 228.5 L43.3 224.9 L43.6 221.1 L43.8 216.9 L45 212.4 L48.3 208.2 L54.3 204.9 L62.6 203 L71.9 202.9 L81 204 L89.1 205.7 L96 207.2 L102.3 208.2 L108.5 208.6 L114.9 209.2 L121.1 210.2 L126.4 212.2 L130.1 215 L132.3 218.1 L133.8 221.1 L135.9 223.7 L139.4 226.2 L144.6 228.8 L150.4 232 Z"/>
+		<path pathLength="1" d="M178 196 L174.1 195.6 L170.2 194.4 L166.5 192.5 L163 189.8 L159.7 186.5 L156.8 182.5 L154.2 178 L152 173 L150.3 167.6 L149 161.9 L148.3 156 L148 150 L148.3 144 L149 138.1 L150.3 132.4 L152 127 L154.2 122 L156.8 117.5 L159.7 113.5 L163 110.2 L166.5 107.5 L170.2 105.6 L174.1 104.4 L178 104"/>
+		<path pathLength="1" d="M178 104 L204 104 L204 196 L178 196"/>
+		<path pathLength="1" d="M240 104 L243.9 104.4 L247.8 105.6 L251.5 107.5 L255 110.2 L258.3 113.5 L261.2 117.5 L263.8 122 L266 127 L267.7 132.4 L269 138.1 L269.7 144 L270 150 L269.7 156 L269 161.9 L267.7 167.6 L266 173 L263.8 178 L261.2 182.5 L258.3 186.5 L255 189.8 L251.5 192.5 L247.8 194.4 L243.9 195.6 L240 196"/>
+		<path pathLength="1" d="M240 104 L214 104 L214 196 L240 196"/>
+		<path pathLength="1" d="M130 210 L150 190 L162 176"/>
+		<path pathLength="1" d="M248 52 a52 26 0 1 0 104 0 a52 26 0 1 0 -104 0"/>
+		<path pathLength="1" d="M282 76 L256 108"/>
+		<path pathLength="1" d="M262 180 L300 220 L350 236"/>
+		<path pathLength="1" d="M300 220 L318 262"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M56.2 255 L28.5 271"/>
+		<path pathLength="1" d="M25.5 268 L31.5 274 M25.5 274 L31.5 268"/>
+		<path pathLength="1" d="M50.2 228 L18.3 225.2"/>
+		<path pathLength="1" d="M15.3 222.2 L21.3 228.2 M15.3 228.2 L21.3 222.2"/>
+		<path pathLength="1" d="M58.3 205.6 L32.1 187.3"/>
+		<path pathLength="1" d="M29.1 184.3 L35.1 190.3 M29.1 190.3 L35.1 184.3"/>
+		<path pathLength="1" d="M80.3 188.8 L69.3 158.7"/>
+		<path pathLength="1" d="M66.3 155.7 L72.3 161.7 M66.3 161.7 L72.3 155.7"/>
+		<path pathLength="1" d="M204 119 L209 123"/>
+		<path pathLength="1" d="M204 129 L209 125"/>
+		<path pathLength="1" d="M209 124 L213 124"/>
+		<path pathLength="1" d="M204 137 L209 141"/>
+		<path pathLength="1" d="M204 147 L209 143"/>
+		<path pathLength="1" d="M209 142 L213 142"/>
+		<path pathLength="1" d="M204 155 L209 159"/>
+		<path pathLength="1" d="M204 165 L209 161"/>
+		<path pathLength="1" d="M209 160 L213 160"/>
+		<path pathLength="1" d="M204 173 L209 177"/>
+		<path pathLength="1" d="M204 183 L209 179"/>
+		<path pathLength="1" d="M209 178 L213 178"/>
+		<path pathLength="1" d="M160.7 180.8 L162 176 L157.4 178"/>
+		<path pathLength="1" d="M257.2 103.1 L256 108 L260.5 105.9"/>
+		<path pathLength="1" d="M345 236.7 L350 236 L346.4 232.6"/>
+		<path pathLength="1" d="M196 196 L222 196"/>
+		<path pathLength="1" d="M217.5 198.2 L222 196 L217.5 193.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="96" y="236" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIVER</text>
+		<text x="172" y="153" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RV</text>
+		<text x="246" y="153" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LV</text>
+		<text x="300" y="55" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LUNG</text>
+		<text x="209" y="62" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SEPTUM PITS</text>
+		<text x="46" y="292" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VEINS: BLOOD MADE, SENT OUT, USED UP</text>
+	</g>
+</svg>

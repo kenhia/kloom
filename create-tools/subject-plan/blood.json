@@ -1,0 +1,479 @@
+{
+	"spine": {
+		"segments": [
+			{
+				"id": "belief",
+				"title": "What we believed",
+				"labelKind": "date",
+				"frames": ["humours", "galen", "ibn-al-nafis"]
+			},
+			{
+				"id": "learned",
+				"title": "What we learned",
+				"labelKind": "date",
+				"frames": [
+					"harvey",
+					"malpighi",
+					"red-cells",
+					"hales",
+					"hemoglobin",
+					"sickle-cell",
+					"perutz-hemoglobin"
+				]
+			},
+			{
+				"id": "transfusion",
+				"title": "Transfusion",
+				"labelKind": "date",
+				"frames": [
+					"early-transfusion",
+					"blundell",
+					"abo",
+					"citrate",
+					"robertson-depot",
+					"blood-banks",
+					"drew-plasma",
+					"rh-factor",
+					"coombs",
+					"blood-bag"
+				]
+			},
+			{
+				"id": "uses",
+				"title": "What we do with blood",
+				"labelKind": "date",
+				"frames": [
+					"fractionation",
+					"bone-marrow",
+					"cryoprecipitate",
+					"apheresis",
+					"rhogam",
+					"gift-relationship",
+					"hepatitis",
+					"hiv-blood",
+					"epo",
+					"nat"
+				]
+			},
+			{
+				"id": "bench",
+				"title": "The bench, by hand and by machine",
+				"labelKind": "date",
+				"frames": [
+					"hemocytometer",
+					"stained-film",
+					"hematocrit",
+					"tube-typing",
+					"coulter",
+					"autoanalyzer",
+					"lis",
+					"gel-card"
+				]
+			},
+			{
+				"id": "today",
+				"title": "Today",
+				"labelKind": "category",
+				"frames": ["where-blood-is"]
+			},
+			{
+				"id": "dedication-seg",
+				"title": "Dedication",
+				"labelKind": "category",
+				"frames": ["dedication"]
+			}
+		]
+	},
+	"trails": [
+		{
+			"id": "misconceptions",
+			"title": "What we got wrong",
+			"anchor": "humours",
+			"spine": {
+				"segments": [
+					{
+						"id": "wrong",
+						"title": "Beliefs that lasted",
+						"labelKind": "date",
+						"frames": [
+							"purity-of-blood",
+							"bloodletting",
+							"louis-numerical",
+							"race-serology",
+							"segregated-blood"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "blood-groups",
+			"title": "Beyond ABO",
+			"anchor": "abo",
+			"spine": {
+				"segments": [
+					{
+						"id": "groups",
+						"title": "More groups, more uses",
+						"labelKind": "date",
+						"frames": ["forensic-typing", "bernstein", "more-antigens", "bombay", "hla"]
+					}
+				]
+			}
+		},
+		{
+			"id": "military-blood",
+			"title": "Blood at war",
+			"anchor": "robertson-depot",
+			"spine": {
+				"segments": [
+					{
+						"id": "war",
+						"title": "Blood for soldiers",
+						"labelKind": "date",
+						"frames": [
+							"whole-blood-wwii",
+							"korea-blood",
+							"asbp",
+							"vietnam-blood",
+							"walking-blood-bank",
+							"whole-blood-returns"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "clotting",
+			"title": "Clotting",
+			"anchor": "cryoprecipitate",
+			"spine": {
+				"segments": [
+					{
+						"id": "clot",
+						"title": "Clotting and its drugs",
+						"labelKind": "date",
+						"frames": [
+							"royal-hemophilia",
+							"heparin",
+							"prothrombin-time",
+							"warfarin",
+							"hemophilia-hiv",
+							"recombinant-factor"
+						]
+					}
+				]
+			}
+		}
+	],
+	"frames": {
+		"humours": {
+			"topic": "The four humours",
+			"palette": "humour",
+			"sort": -400
+		},
+		"galen": {
+			"topic": "Galen's physiology of the blood",
+			"palette": "vellum",
+			"sort": 170
+		},
+		"ibn-al-nafis": {
+			"topic": "Ibn al-Nafis and pulmonary transit",
+			"palette": "humour",
+			"sort": 1242
+		},
+		"harvey": {
+			"topic": "Harvey's circulation of the blood",
+			"palette": "anatomy",
+			"sort": 1628
+		},
+		"malpighi": {
+			"topic": "Malpighi's capillaries",
+			"palette": "folio",
+			"sort": 1661
+		},
+		"red-cells": {
+			"topic": "Leeuwenhoek sees red blood cells",
+			"palette": "anatomy",
+			"sort": 1674
+		},
+		"hales": {
+			"topic": "Hales measures blood pressure",
+			"palette": "folio",
+			"sort": 1733
+		},
+		"hemoglobin": {
+			"topic": "Hemoglobin and its spectrum",
+			"palette": "anatomy",
+			"sort": 1840
+		},
+		"sickle-cell": {
+			"topic": "Sickle cell, a molecular disease",
+			"palette": "folio",
+			"sort": 1949
+		},
+		"perutz-hemoglobin": {
+			"topic": "Perutz and hemoglobin's structure",
+			"palette": "anatomy",
+			"sort": 1959
+		},
+		"early-transfusion": {
+			"topic": "The first transfusions",
+			"palette": "vein",
+			"sort": 1665
+		},
+		"blundell": {
+			"topic": "Blundell's human transfusions",
+			"palette": "plasma",
+			"sort": 1818
+		},
+		"abo": {
+			"topic": "Landsteiner's ABO blood groups",
+			"palette": "vein",
+			"sort": 1901
+		},
+		"citrate": {
+			"topic": "Citrate and stored blood",
+			"palette": "plasma",
+			"sort": 1914
+		},
+		"robertson-depot": {
+			"topic": "The first blood depot",
+			"palette": "vein",
+			"sort": 1917
+		},
+		"blood-banks": {
+			"topic": "The first blood banks",
+			"palette": "plasma",
+			"sort": 1936
+		},
+		"drew-plasma": {
+			"topic": "Blood for Britain and dried plasma",
+			"palette": "vein",
+			"sort": 1940
+		},
+		"rh-factor": {
+			"topic": "The Rh factor",
+			"palette": "plasma",
+			"sort": 1940
+		},
+		"coombs": {
+			"topic": "The Coombs antiglobulin test",
+			"palette": "vein",
+			"sort": 1945
+		},
+		"blood-bag": {
+			"topic": "The plastic blood bag",
+			"palette": "plasma",
+			"sort": 1950
+		},
+		"fractionation": {
+			"topic": "Cohn's plasma fractionation",
+			"palette": "cryo",
+			"sort": 1941
+		},
+		"bone-marrow": {
+			"topic": "Bone marrow transplantation",
+			"palette": "ward",
+			"sort": 1957
+		},
+		"cryoprecipitate": {
+			"topic": "Pool's cryoprecipitate",
+			"palette": "cryo",
+			"sort": 1964
+		},
+		"apheresis": {
+			"topic": "Apheresis and the cell separator",
+			"palette": "ward",
+			"sort": 1965
+		},
+		"rhogam": {
+			"topic": "Rh immune globulin",
+			"palette": "cryo",
+			"sort": 1968
+		},
+		"gift-relationship": {
+			"topic": "Titmuss and the gift of blood",
+			"palette": "ward",
+			"sort": 1970
+		},
+		"hepatitis": {
+			"topic": "Hepatitis and the first screening",
+			"palette": "cryo",
+			"sort": 1971
+		},
+		"hiv-blood": {
+			"topic": "HIV and the blood supply",
+			"palette": "ward",
+			"sort": 1982
+		},
+		"epo": {
+			"topic": "Erythropoietin",
+			"palette": "cryo",
+			"sort": 1985
+		},
+		"nat": {
+			"topic": "Nucleic acid testing",
+			"palette": "ward",
+			"sort": 1999
+		},
+		"hemocytometer": {
+			"topic": "Counting cells on the hemocytometer",
+			"palette": "bench",
+			"sort": 1852
+		},
+		"stained-film": {
+			"topic": "Ehrlich's stained blood film",
+			"palette": "slide",
+			"sort": 1879
+		},
+		"hematocrit": {
+			"topic": "Wintrobe's hematocrit tube",
+			"palette": "bench",
+			"sort": 1929
+		},
+		"tube-typing": {
+			"topic": "Typing and crossmatch by hand",
+			"palette": "slide",
+			"sort": 1950
+		},
+		"coulter": {
+			"topic": "The Coulter principle",
+			"palette": "bench",
+			"sort": 1953
+		},
+		"autoanalyzer": {
+			"topic": "Skeggs's AutoAnalyzer",
+			"palette": "slide",
+			"sort": 1957
+		},
+		"lis": {
+			"topic": "Laboratory information systems",
+			"palette": "bench",
+			"sort": 1965
+		},
+		"gel-card": {
+			"topic": "The gel card and automated typing",
+			"palette": "slide",
+			"sort": 1985
+		},
+		"where-blood-is": {
+			"topic": "Blood today",
+			"palette": "vein"
+		},
+		"dedication": {
+			"topic": "Dedication to Colonel Joel T. Hiatt",
+			"palette": "maroon"
+		},
+		"purity-of-blood": {
+			"topic": "Purity-of-blood statutes",
+			"palette": "vellum",
+			"sort": 1449
+		},
+		"bloodletting": {
+			"topic": "Bloodletting and Washington's death",
+			"palette": "humour",
+			"sort": 1799
+		},
+		"louis-numerical": {
+			"topic": "Louis's numerical method",
+			"palette": "vellum",
+			"sort": 1835
+		},
+		"race-serology": {
+			"topic": "Blood groups and race science",
+			"palette": "humour",
+			"sort": 1919
+		},
+		"segregated-blood": {
+			"topic": "Segregated blood",
+			"palette": "vellum",
+			"sort": 1942
+		},
+		"forensic-typing": {
+			"topic": "Typing a bloodstain",
+			"palette": "plasma",
+			"sort": 1915
+		},
+		"bernstein": {
+			"topic": "Bernstein's three alleles",
+			"palette": "vein",
+			"sort": 1924
+		},
+		"more-antigens": {
+			"topic": "Kell, Duffy and Kidd",
+			"palette": "plasma",
+			"sort": 1946
+		},
+		"bombay": {
+			"topic": "The Bombay phenotype",
+			"palette": "vein",
+			"sort": 1952
+		},
+		"hla": {
+			"topic": "Dausset and the HLA antigens",
+			"palette": "plasma",
+			"sort": 1958
+		},
+		"whole-blood-wwii": {
+			"topic": "Whole blood in the Second World War",
+			"palette": "maroon",
+			"sort": 1944
+		},
+		"korea-blood": {
+			"topic": "Blood in the Korean War",
+			"palette": "branch",
+			"sort": 1950
+		},
+		"asbp": {
+			"topic": "The Armed Services Blood Program",
+			"palette": "maroon",
+			"sort": 1962
+		},
+		"vietnam-blood": {
+			"topic": "The blood program in Vietnam",
+			"palette": "branch",
+			"sort": 1965
+		},
+		"walking-blood-bank": {
+			"topic": "The walking blood bank",
+			"palette": "maroon",
+			"sort": 2003
+		},
+		"whole-blood-returns": {
+			"topic": "Low-titer O whole blood",
+			"palette": "branch",
+			"sort": 2016
+		},
+		"royal-hemophilia": {
+			"topic": "Hemophilia and Queen Victoria",
+			"palette": "ward",
+			"sort": 1853
+		},
+		"heparin": {
+			"topic": "The discovery of heparin",
+			"palette": "cryo",
+			"sort": 1916
+		},
+		"prothrombin-time": {
+			"topic": "Quick's prothrombin time",
+			"palette": "ward",
+			"sort": 1935
+		},
+		"warfarin": {
+			"topic": "Sweet clover and warfarin",
+			"palette": "cryo",
+			"sort": 1940
+		},
+		"hemophilia-hiv": {
+			"topic": "Hemophilia and contaminated factor",
+			"palette": "ward",
+			"sort": 1982
+		},
+		"recombinant-factor": {
+			"topic": "Recombinant factor VIII",
+			"palette": "cryo",
+			"sort": 1984
+		}
+	}
+}

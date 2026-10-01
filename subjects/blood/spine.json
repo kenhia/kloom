@@ -1,0 +1,10 @@
+{
+	"segments": [
+		{
+			"id": "belief",
+			"title": "What we believed",
+			"labelKind": "date",
+			"frames": ["humours", "galen", "ibn-al-nafis"]
+		}
+	]
+}

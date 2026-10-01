@@ -1,0 +1,36 @@
+{
+	"blood/humours": [
+		["Hippocrates", "hippocrates"],
+		["Kos", "kos"],
+		["Hippocratic Corpus", "hippocratic-corpus"],
+		["On the Nature of Man", "on-the-nature-of-man"],
+		["Aristotle", "aristotle"],
+		["Polybus", "polybus-physician"],
+		["humours", "humorism"],
+		["Robin Fåhræus", "robin-fahraeus"],
+		["Charles Richet", "charles-richet"],
+		["Bloodletting", "bloodletting"],
+		["Galen", "galen"],
+		["four temperaments", "four-temperaments"],
+		["Leonhard Thurneisser's", "leonhard-thurneysser"]
+	],
+	"blood/galen": [
+		["Galen", "galen"],
+		["Pergamon", "pergamon"],
+		["Marcus Aurelius", "marcus-aurelius"],
+		["pneuma", "pneuma"],
+		["Erasistratus", "erasistratus"],
+		["Ibn al-Nafis", "ibn-al-nafis"]
+	],
+	"blood/ibn-al-nafis": [
+		["Avicenna", "avicenna"],
+		["_Canon of Medicine_", "the-canon-of-medicine"],
+		["Galen", "galen"],
+		["Ibn al-Nafis", "ibn-al-nafis"],
+		["Damascus", "damascus"],
+		["Cairo", "cairo"],
+		["_pulmonary circulation_", "pulmonary-circulation"],
+		["Michael Servetus", "michael-servetus"],
+		["Realdo Colombo", "realdo-colombo"]
+	]
+}

@@ -1,0 +1,130 @@
+{
+	"id": "humours",
+	"topic": "The four humours",
+	"position": {
+		"label": "c. 400 BC",
+		"sort": -400
+	},
+	"scene": {
+		"headline": "We made blood one of",
+		"accent": "FOUR.",
+		"palette": "humour",
+		"illustration": "scene.svg",
+		"metadata": ["KOS · THE HIPPOCRATIC CORPUS", "BLOOD · PHLEGM · YELLOW BILE · BLACK BILE"],
+		"counter": {
+			"value": "4",
+			"label": "juices, and health their balance"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Nature of Man",
+			"container": "Hippocrates, Volume IV",
+			"authors": [
+				{
+					"name": "Hippocrates"
+				}
+			],
+			"translators": [
+				{
+					"family": "Jones",
+					"given": "W. H. S."
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "William Heinemann",
+			"place": "London",
+			"published": "1931",
+			"url": "https://archive.org/details/hippocrates04hippuoft",
+			"accessed": "2026-10-01",
+			"note": "Chapters IV–VII and IX: the four humours, the tests and the seasons"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Humorism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Humorism&oldid=1376876864",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "On the Nature of Man",
+			"url": "https://en.wikipedia.org/w/index.php?title=On_the_Nature_of_Man&oldid=1324712600",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polybus (physician)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polybus_(physician)&oldid=1341926155",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-05"
+		},
+		{
+			"kind": "article",
+			"title": "The Suspension-Stability of the Blood",
+			"authors": [
+				{
+					"family": "Fåhræus",
+					"given": "Robin"
+				}
+			],
+			"container": "Acta Medica Scandinavica",
+			"volume": "55",
+			"published": "1921",
+			"doi": "10.1111/j.0954-6820.1921.tb15200.x",
+			"accessed": "2026-10-01",
+			"citedIn": "Humorism — Wikipedia (revision 1376876864)"
+		},
+		{
+			"kind": "media",
+			"title": "The four humours, from Leonhard Thurneisser's Quinta Essentia",
+			"url": "https://commons.wikimedia.org/wiki/File:Quinta_Essentia_(Thurneisse)_illustration_Alchemic_approach_to_four_humors_in_relation_to_the_four_elements_and_zodiacal_signs.jpg",
+			"accessed": "2026-10-01",
+			"container": "Leonhard Thurneisser, Quinta Essentia (Leipzig, 1574), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "thurneisser-humours.jpg",
+			"authors": [
+				{
+					"family": "Thurneisser",
+					"given": "Leonhard"
+				}
+			],
+			"published": "1574"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/four-elements",
+			"why": "The humours carried the same four qualities, two at a time, that Aristotle used to build the elements: blood hot and moist like air, yellow bile hot and dry like fire, phlegm cold and moist like water, black bile cold and dry like earth."
+		},
+		{
+			"to": "chemistry/jabir",
+			"why": "Jabir's alchemy borrowed the physician's logic of the humours: a metal's hot, cold, moist and dry natures could be rebalanced by an elixir, as a drug restores a patient's humours."
+		}
+	]
+}
