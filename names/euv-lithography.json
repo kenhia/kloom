@@ -4,5 +4,6 @@
 	"name": "EUV lithography",
 	"aliases": ["extreme-ultraviolet lithography"],
 	"kind": "idea",
-	"description": "Printing chip patterns with extreme ultraviolet light of 13.5 nanometres, used for the finest chips since the late 2010s."
+	"description": "Printing chip patterns with extreme ultraviolet light of 13.5 nanometres, used for the finest chips since the late 2010s.",
+	"home": "making/euv"
 }

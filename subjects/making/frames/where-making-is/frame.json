@@ -1,0 +1,339 @@
+{
+	"id": "where-making-is",
+	"topic": "Making today",
+	"asOf": "2026-09-30",
+	"position": {
+		"label": "Where we are"
+	},
+	"scene": {
+		"headline": "And still we keep",
+		"accent": "MAKING.",
+		"palette": "chalk",
+		"illustration": "scene.svg",
+		"metadata": [
+			"IFR · WORLD ROBOTICS 2026 · HERITAGE CRAFTS · RED LIST 2025",
+			"FROM A KNAPPED EDGE TO 0.9 NM"
+		],
+		"counter": {
+			"value": "1,300,000×",
+			"label": "finer than Wilkinson's best bore, a chip's layers in 2024, by our arithmetic"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Five Million Robots Now Operate in Factories Globally",
+			"authors": [
+				{
+					"name": "International Federation of Robotics"
+				}
+			],
+			"publisher": "International Federation of Robotics",
+			"place": "Frankfurt",
+			"published": "2026-09-24",
+			"url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+			"accessed": "2026-09-30",
+			"note": "World Robotics 2026: robots in operation and installed in 2025"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Craft Skills Remain under Threat with 20 New Additions to the Red List of Endangered Crafts",
+			"authors": [
+				{
+					"name": "Heritage Crafts"
+				}
+			],
+			"publisher": "Heritage Crafts",
+			"published": "2025-05-12",
+			"url": "https://heritagecrafts.org.uk/our-stories/red-list-2025-launched/",
+			"accessed": "2026-09-30",
+			"note": "The Red List 2025: 165 crafts at risk, 70 critically endangered"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Quarterly Industrial 3D Printer Shipments Rebound amid Continued Record-Breaking Entry-Level Growth",
+			"authors": [
+				{
+					"name": "CONTEXT"
+				}
+			],
+			"publisher": "CONTEXT",
+			"place": "London",
+			"published": "2026-04-15",
+			"url": "https://www.contextworld.com/quarterly-industrial-3d-printer-shipments-rebound-amid-continued-record-breaking-entry-level-growth",
+			"accessed": "2026-09-30",
+			"note": "Entry-level printers in 2025: up 26%, Bambu Lab 37%"
+		},
+		{
+			"kind": "web",
+			"title": "Quarterly Entry-Level 3D Printer Shipments Surge on Tariff Fears as Industrial Sector Anticipates Turnaround",
+			"authors": [
+				{
+					"name": "CONTEXT"
+				}
+			],
+			"publisher": "CONTEXT",
+			"place": "London",
+			"published": "2025-07-10",
+			"url": "https://www.contextworld.com/quarterly-3d-printer-shipments-face-turbulence-amid-shifting-market-dynamics",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Quarterly Global Industrial 3D Printer Shipments Surge on the Back of Strong Defence and 3C Sector Demand",
+			"authors": [
+				{
+					"name": "CONTEXT"
+				}
+			],
+			"publisher": "CONTEXT",
+			"place": "London",
+			"published": "2026-07-09",
+			"url": "https://www.contextworld.com/quarterly-global-industrial-3d-printer-shipments-surge-on-the-back-of-strong-defence-and-3c-sector-demand",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Fab Foundation",
+			"authors": [
+				{
+					"name": "Fab Foundation"
+				}
+			],
+			"publisher": "Fab Foundation",
+			"url": "https://fabfoundation.org/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fab lab",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fab_lab&oldid=1377342067",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heritage Crafts",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heritage_Crafts&oldid=1326308960",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-08"
+		},
+		{
+			"kind": "web",
+			"title": "EUV Products and Business Opportunity",
+			"authors": [
+				{
+					"family": "Vanoppen",
+					"given": "Peter"
+				},
+				{
+					"family": "van Gogh",
+					"given": "Teun"
+				}
+			],
+			"container": "ASML Investor Day, Veldhoven, Exhibit 99.4 to Form 6-K",
+			"publisher": "ASML",
+			"published": "2024-11-14",
+			"url": "https://content-archive.fast-edgar.com/20241118/ALZZT222Z222L2Z2222L22ZVENLGZ828B262/exhibit994.htm",
+			"accessed": "2026-09-30",
+			"note": "The NXE:3800E's matched overlay of 0.9 nm"
+		},
+		{
+			"kind": "web",
+			"title": "ASML Reports €9.3 Billion Total Net Sales and €2.9 Billion Net Income in Q2 2026",
+			"authors": [
+				{
+					"name": "ASML"
+				}
+			],
+			"publisher": "ASML",
+			"published": "2026-07-15",
+			"url": "https://investor.asml.com/news-releases/news-release-details/q2-2026-financial-results",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Lenses & Mirrors",
+			"authors": [
+				{
+					"name": "ASML"
+				}
+			],
+			"container": "Lithography Principles",
+			"publisher": "ASML",
+			"url": "https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "book",
+			"title": "A Treatise on the Steam Engine, Historical, Practical, and Descriptive",
+			"authors": [
+				{
+					"family": "Farey",
+					"given": "John"
+				}
+			],
+			"publisher": "Longman, Rees, Orme, Brown, and Green",
+			"place": "London",
+			"published": "1827",
+			"url": "https://archive.org/details/treatiseonsteame01fareuoft",
+			"accessed": "2026-09-30",
+			"note": "Boulton's shilling, as given in this subject's frame on Wilkinson's boring machine"
+		},
+		{
+			"kind": "book",
+			"title": "James Nasmyth, Engineer: An Autobiography",
+			"authors": [
+				{
+					"family": "Nasmyth",
+					"given": "James"
+				}
+			],
+			"editors": [
+				{
+					"family": "Smiles",
+					"given": "Samuel"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1883",
+			"url": "https://www.gutenberg.org/ebooks/476",
+			"accessed": "2026-09-30",
+			"note": "The Lord Chancellor to a thousandth of an inch, as given in this subject's frame on Maudslay"
+		},
+		{
+			"kind": "book",
+			"title": "The Machine Tool Collection: Catalogue of Exhibits with Historical Introduction",
+			"authors": [
+				{
+					"family": "Gilbert",
+					"given": "K. R."
+				}
+			],
+			"publisher": "Her Majesty's Stationery Office, for the Science Museum",
+			"place": "London",
+			"published": "1966",
+			"url": "https://archive.org/details/machine-tool-collection",
+			"accessed": "2026-09-30",
+			"note": "The Lord Chancellor to a ten-thousandth, as given in this subject's frame on Maudslay"
+		},
+		{
+			"kind": "report",
+			"title": "The History of Gauge Blocks",
+			"authors": [
+				{
+					"name": "Mitutoyo Corporation"
+				}
+			],
+			"publisher": "Mitutoyo Corporation",
+			"number": "Catalog No. E12016",
+			"published": "2013-01",
+			"url": "https://www.mitutoyo.com/wp-content/uploads/2013/07/E12016-History-of-The-Gage-Block.pdf",
+			"accessed": "2026-09-30",
+			"note": "Johansson's set of 1909, as given in this subject's frame on gauge blocks"
+		},
+		{
+			"kind": "report",
+			"title": "The LEGO Group: A Short Presentation 2011",
+			"authors": [
+				{
+					"name": "The LEGO Group"
+				}
+			],
+			"publisher": "The LEGO Group",
+			"published": "2011",
+			"url": "https://www.strategicplay.com/upload/documents/lego-company-presentation-.pdf",
+			"accessed": "2026-09-30",
+			"note": "Moulds accurate to five micrometres, as given in this subject's frame on the Lego brick"
+		},
+		{
+			"kind": "article",
+			"title": "Cognitive Demands of Lower Paleolithic Toolmaking",
+			"authors": [
+				{
+					"family": "Stout",
+					"given": "Dietrich"
+				},
+				{
+					"family": "Hecht",
+					"given": "Erin"
+				},
+				{
+					"family": "Khreisheh",
+					"given": "Nada"
+				},
+				{
+					"family": "Bradley",
+					"given": "Bruce"
+				},
+				{
+					"family": "Chaminade",
+					"given": "Thierry"
+				}
+			],
+			"container": "PLOS ONE",
+			"volume": "10",
+			"issue": "4",
+			"pages": "e0121804",
+			"published": "2015-04-15",
+			"doi": "10.1371/journal.pone.0121804",
+			"accessed": "2026-09-30",
+			"note": "The 167 hours, as given in this subject's frame on the hand axe"
+		},
+		{
+			"kind": "media",
+			"title": "Cutting crystal by hand on a wheel at Waterford Crystal, Ireland",
+			"url": "https://commons.wikimedia.org/wiki/File:Glass_cutter_at_waterford_crystal.JPG",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "crystal-cutter.jpg",
+			"authors": [
+				{
+					"name": "Hunter Kahn"
+				}
+			],
+			"published": "2008-10-08"
+		},
+		{
+			"kind": "media",
+			"title": "A computer-controlled milling machine in the Fab Lab at the Waag Society, Amsterdam",
+			"url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Fab_Lab_at_The_Waag_Society.JPG",
+			"accessed": "2026-09-30",
+			"container": "Flickr, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "waag-fab-lab.jpg",
+			"authors": [
+				{
+					"name": "Rory Hyde"
+				}
+			],
+			"published": "2009-04-24"
+		}
+	],
+	"connections": [
+		{
+			"to": "making/knapping",
+			"why": "The precision of making is measured here from the knappers of Lomekwi, who controlled a flake only by where and at what angle they struck, to machines that align a chip's layers within a nanometre."
+		}
+	]
+}

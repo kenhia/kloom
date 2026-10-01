@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-labelledby="t d">
+<title id="t">The smallest feature ASML's lithography machines print, by the light they use (log scale)</title>
+<desc id="d">Bar chart on a logarithmic scale of the smallest feature, in nanometres, that ASML gives for its lithography systems with each light source: mercury g-line (436 nm) about 1,000 nm; mercury i-line (365 nm) 220 nm; krypton fluoride laser (248 nm) 80 nm; argon fluoride laser (193 nm) 38 nm; extreme ultraviolet (13.5 nm) at numerical aperture 0.33, 13 nm; and at numerical aperture 0.55 (High NA), 8 nm. Data: ASML.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="580" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">1</text>
+<line x1="64" x2="580" y1="188.5" y2="188.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="192.5" text-anchor="end">10</text>
+<line x1="64" x2="580" y1="126.9" y2="126.9" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="130.9" text-anchor="end">100</text>
+<line x1="64" x2="580" y1="65.4" y2="65.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="69.4" text-anchor="end">1,000</text>
+</g>
+<rect x="79.0" y="65.4" width="56" height="184.6" fill-opacity="0.85"/>
+<text x="107.0" y="59.4" text-anchor="middle">1,000</text>
+<text x="107.0" y="266" text-anchor="middle">g-line</text>
+<text x="107.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">436 nm</text>
+<rect x="165.0" y="105.8" width="56" height="144.2" fill-opacity="0.85"/>
+<text x="193.0" y="99.8" text-anchor="middle">220</text>
+<text x="193.0" y="266" text-anchor="middle">i-line</text>
+<text x="193.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">365 nm</text>
+<rect x="251.0" y="132.9" width="56" height="117.1" fill-opacity="0.85"/>
+<text x="279.0" y="126.9" text-anchor="middle">80</text>
+<text x="279.0" y="266" text-anchor="middle">KrF</text>
+<text x="279.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">248 nm</text>
+<rect x="337.0" y="152.8" width="56" height="97.2" fill-opacity="0.85"/>
+<text x="365.0" y="146.8" text-anchor="middle">38</text>
+<text x="365.0" y="266" text-anchor="middle">ArF</text>
+<text x="365.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">193 nm</text>
+<rect x="423.0" y="181.4" width="56" height="68.6" fill-opacity="0.85"/>
+<text x="451.0" y="175.4" text-anchor="middle">13</text>
+<text x="451.0" y="266" text-anchor="middle">EUV</text>
+<text x="451.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">NA 0.33</text>
+<rect x="509.0" y="194.4" width="56" height="55.6" class="accent" fill="currentColor"/>
+<text x="537.0" y="188.4" text-anchor="middle">8</text>
+<text x="537.0" y="266" text-anchor="middle">EUV</text>
+<text x="537.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">NA 0.55</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">SMALLEST FEATURE PRINTED · NM · LOG SCALE</text>
+</g></svg>

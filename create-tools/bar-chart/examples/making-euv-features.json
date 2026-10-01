@@ -1,0 +1,28 @@
+{
+	"title": "The smallest feature ASML's lithography machines print, by the light they use (log scale)",
+	"description": "Bar chart on a logarithmic scale of the smallest feature, in nanometres, that ASML gives for its lithography systems with each light source: mercury g-line (436 nm) about 1,000 nm; mercury i-line (365 nm) 220 nm; krypton fluoride laser (248 nm) 80 nm; argon fluoride laser (193 nm) 38 nm; extreme ultraviolet (13.5 nm) at numerical aperture 0.33, 13 nm; and at numerical aperture 0.55 (High NA), 8 nm. Data: ASML.",
+	"heading": "SMALLEST FEATURE PRINTED · NM · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 1,
+		"max": 3000,
+		"ticks": [
+			[1, "1"],
+			[10, "10"],
+			[100, "100"],
+			[1000, "1,000"]
+		]
+	},
+	"width": 600,
+	"height": 300,
+	"barWidth": 56,
+	"bars": [
+		{ "label": "g-line", "sublabel": "436 nm", "value": 1000, "display": "1,000" },
+		{ "label": "i-line", "sublabel": "365 nm", "value": 220 },
+		{ "label": "KrF", "sublabel": "248 nm", "value": 80 },
+		{ "label": "ArF", "sublabel": "193 nm", "value": 38 },
+		{ "label": "EUV", "sublabel": "NA 0.33", "value": 13 },
+		{ "label": "EUV", "sublabel": "NA 0.55", "value": 8, "highlight": true }
+	]
+}

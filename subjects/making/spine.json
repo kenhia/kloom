@@ -71,6 +71,12 @@
 				"openscad",
 				"metal-printing"
 			]
+		},
+		{
+			"id": "now",
+			"title": "Making now",
+			"labelKind": "category",
+			"frames": ["euv", "where-making-is"]
 		}
 	]
 }
