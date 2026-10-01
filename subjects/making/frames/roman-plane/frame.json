@@ -1,0 +1,194 @@
+{
+	"id": "roman-plane",
+	"topic": "The Roman woodworking plane",
+	"position": {
+		"label": "AD 79",
+		"sort": 79
+	},
+	"scene": {
+		"headline": "We planed wood into",
+		"accent": "CURLS.",
+		"palette": "oak",
+		"illustration": "scene.svg",
+		"metadata": ["POMPEII · SILCHESTER · COLOGNE", "IRON-SHOD PLANE · WEDGED BLADE · FRAME SAW"],
+		"counter": {
+			"value": "70°",
+			"label": "the Silchester plane's blade to its sole; a common bench plane's is 45°"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Natural History",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"editors": [
+				{
+					"family": "Bostock",
+					"given": "John"
+				},
+				{
+					"family": "Riley",
+					"given": "H. T."
+				}
+			],
+			"publisher": "Taylor and Francis",
+			"place": "London",
+			"published": "1855",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D16%3Achapter%3D82",
+			"accessed": "2026-09-30",
+			"note": "Book 16, chapters 82–83: the curled shavings and the set teeth; Bostock and Riley's translation"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On Some Iron Tools and Other Articles Formed of Iron Found at Silchester in the Year 1890",
+			"authors": [
+				{
+					"family": "Evans",
+					"given": "John"
+				}
+			],
+			"container": "Archaeologia",
+			"volume": "54",
+			"published": "1894",
+			"url": "https://archive.org/details/sim_archaeologia-tracts-relating-to-antiquity_1894_54",
+			"accessed": "2026-09-30",
+			"note": "The plane and its measurements, pp. 151–152"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Turning and Mechanical Manipulation, Vol. II: The Principles of Construction, Action, and Application, of Cutting Tools Used by Hand",
+			"authors": [
+				{
+					"family": "Holtzapffel",
+					"given": "Charles"
+				}
+			],
+			"publisher": "Holtzapffel & Co.",
+			"place": "London",
+			"published": "1846",
+			"url": "https://archive.org/details/turningmechanica02holtuoft",
+			"accessed": "2026-09-30",
+			"note": "Planes: lengths, pitches, the mouth and the top iron"
+		},
+		{
+			"kind": "book",
+			"title": "Tools and Weapons, Illustrated by the Egyptian Collection in University College, London",
+			"authors": [
+				{
+					"family": "Petrie",
+					"given": "W. M. Flinders"
+				}
+			],
+			"publisher": "British School of Archaeology in Egypt",
+			"place": "London",
+			"published": "1917",
+			"url": "https://archive.org/details/toolsweaponsillu00petr",
+			"accessed": "2026-09-30",
+			"note": "The plane, §108; the saw, §122"
+		},
+		{
+			"kind": "book",
+			"title": "Egyptian Woodworking and Furniture",
+			"authors": [
+				{
+					"family": "Killen",
+					"given": "Geoffrey"
+				}
+			],
+			"publisher": "Shire Publications",
+			"place": "Princes Risborough",
+			"published": "1994",
+			"url": "https://openlibrary.org/works/OL6411183W",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plane (tool)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plane_(tool)&oldid=1370129365",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pliny the Elder",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pliny_the_Elder&oldid=1377071371",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Silchester",
+			"url": "https://en.wikipedia.org/w/index.php?title=Silchester&oldid=1364147721",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Calleva Atrebatum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Calleva_Atrebatum&oldid=1364711594",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-18"
+		},
+		{
+			"kind": "media",
+			"title": "The Roman plane from the Silchester hoard of 1890, engraved for Sir John Evans's account (Archaeologia 54, fig. 18)",
+			"url": "https://archive.org/details/sim_archaeologia-tracts-relating-to-antiquity_1894_54",
+			"accessed": "2026-09-30",
+			"container": "Archaeologia, via the Internet Archive",
+			"licence": "Public domain",
+			"file": "silchester-plane.jpg",
+			"authors": [
+				{
+					"family": "Evans",
+					"given": "John"
+				}
+			],
+			"published": "1894"
+		},
+		{
+			"kind": "media",
+			"title": "Procession of carpenters, with two men sawing a board with a frame saw, wall painting from the Bottega del Profumiere (VI, 7, 8), Pompeii, 1st century AD",
+			"url": "https://commons.wikimedia.org/wiki/File:Affresco_di_una_processione_di_falegnami,_Bottega_del_Profumiere,_Pompei_(I_secolo_d.C.).jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "pompeii-carpenters.jpg"
+		}
+	]
+}

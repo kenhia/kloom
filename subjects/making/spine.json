@@ -16,7 +16,16 @@
 			"id": "wood",
 			"title": "Wood",
 			"labelKind": "date",
-			"frames": ["horyuji", "westminster-hall", "wind-sawmill", "thonet-chair", "moulded-plywood"]
+			"frames": [
+				"neolithic-wells",
+				"egyptian-carpentry",
+				"roman-plane",
+				"horyuji",
+				"westminster-hall",
+				"wind-sawmill",
+				"thonet-chair",
+				"moulded-plywood"
+			]
 		},
 		{
 			"id": "forge",

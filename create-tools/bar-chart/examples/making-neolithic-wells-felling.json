@@ -1,0 +1,30 @@
+{
+	"title": "Hours to fell an oak in the Ergersheim experiments",
+	"description": "Bar chart. In March 2011 volunteers took well over eight hours, over three days, to fell an oak 42 centimetres across with replicas of Early Neolithic stone adzes. In 2012, with better hafts and practice, an oak 55 centimetres across took less than five hours, with up to three people working at once; a comparable oak cut by one experienced man with a copy of a Roman steel axe took a little over an hour. Data: Elburg, Hein, Probst and Walter, EXARC Journal 2015/2.",
+	"heading": "HOURS TO FELL AN OAK",
+	"unit": " h",
+	"axis": {
+		"max": 10,
+		"ticks": [
+			[0, "0"],
+			[2, "2"],
+			[4, "4"],
+			[6, "6"],
+			[8, "8"],
+			[10, "10"]
+		]
+	},
+	"bars": [
+		{ "label": "Stone adze", "sublabel": "2011, 42 cm", "value": 8, "display": "> 8 h" },
+		{
+			"label": "Stone adze",
+			"sublabel": "2012, 55 cm",
+			"value": 5,
+			"display": "< 5 h",
+			"highlight": true
+		},
+		{ "label": "Steel axe", "sublabel": "2012", "value": 1, "display": "≈ 1 h" }
+	],
+	"barWidth": 64,
+	"width": 420
+}

@@ -1,0 +1,267 @@
+{
+	"id": "neolithic-wells",
+	"topic": "Neolithic timber-lined wells",
+	"position": {
+		"label": "c. 5100 BC",
+		"sort": -5100
+	},
+	"scene": {
+		"headline": "We split the",
+		"accent": "OAK.",
+		"palette": "oak",
+		"illustration": "scene.svg",
+		"metadata": ["ALTSCHERBITZ · OSTROV · KÜCKHOVEN", "SPLIT OAK · STONE ADZES · BONE CHISELS"],
+		"counter": {
+			"value": "13",
+			"label": "oaks felled in 5102 BC to line one well"
+		}
+	},
+	"connections": [
+		{
+			"to": "making/birch-tar",
+			"why": "Pots found in the Altscherbitz well had been mended with birch tar, the glue Neanderthals first cooked, and two were redecorated with birch bark pasted on with it."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Early Neolithic Water Wells Reveal the World's Oldest Wood Architecture",
+			"authors": [
+				{
+					"family": "Tegel",
+					"given": "Willy"
+				},
+				{
+					"family": "Elburg",
+					"given": "Rengert"
+				},
+				{
+					"family": "Hakelberg",
+					"given": "Dietrich"
+				},
+				{
+					"family": "Stäuble",
+					"given": "Harald"
+				},
+				{
+					"family": "Büntgen",
+					"given": "Ulf"
+				}
+			],
+			"container": "PLOS ONE",
+			"volume": "7",
+			"issue": "12",
+			"pages": "e51374",
+			"published": "2012-12-20",
+			"doi": "10.1371/journal.pone.0051374",
+			"accessed": "2026-09-30",
+			"note": "The Altscherbitz dates, the working sequence, the tool marks and the mended pots"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Woodworking and Carpentry Skills of the First Agricultural Societies in Central Europe",
+			"authors": [
+				{
+					"family": "Muigg",
+					"given": "Bernhard"
+				},
+				{
+					"family": "Elburg",
+					"given": "Rengert"
+				},
+				{
+					"family": "Hein",
+					"given": "Wulf"
+				},
+				{
+					"family": "Probst-Böhm",
+					"given": "Anja"
+				},
+				{
+					"family": "Böhm",
+					"given": "Sebastian"
+				},
+				{
+					"family": "Walter",
+					"given": "Peter"
+				},
+				{
+					"family": "Tegel",
+					"given": "Willy"
+				}
+			],
+			"container": "Archéologie, société et environnement",
+			"volume": "3",
+			"issue": "1",
+			"pages": "213–226",
+			"published": "2023",
+			"doi": "10.21494/ISTE.OP.2023.1035",
+			"url": "https://www.openscience.fr/IMG/pdf/iste_ase23v3n1_14.pdf",
+			"accessed": "2026-09-30",
+			"note": "The four types of lining and the chaîne opératoire"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Field Trials in Neolithic Woodworking – (Re)Learning to Use Early Neolithic Stone Adzes",
+			"authors": [
+				{
+					"family": "Elburg",
+					"given": "Rengert"
+				},
+				{
+					"family": "Hein",
+					"given": "Wulf"
+				},
+				{
+					"family": "Probst",
+					"given": "Anja"
+				},
+				{
+					"family": "Walter",
+					"given": "Peter"
+				}
+			],
+			"container": "EXARC Journal",
+			"issue": "2015/2",
+			"published": "2015",
+			"url": "https://exarc.net/ark:/88735/10196",
+			"accessed": "2026-09-30",
+			"note": "The hafting angles and the felling times"
+		},
+		{
+			"kind": "article",
+			"title": "Domesticated Water: Four Early Neolithic Wells in Moravia (CZ)",
+			"authors": [
+				{
+					"family": "Vostrovská",
+					"given": "Ivana"
+				},
+				{
+					"family": "Tichý",
+					"given": "Radomír"
+				},
+				{
+					"family": "Přichystal",
+					"given": "Michal"
+				},
+				{
+					"family": "Muigg",
+					"given": "Bernhard"
+				},
+				{
+					"family": "Urbanová",
+					"given": "Kristýna"
+				},
+				{
+					"family": "Kalábková",
+					"given": "Pavlína"
+				}
+			],
+			"container": "Open Archaeology",
+			"volume": "7",
+			"pages": "1105–1137",
+			"published": "2021",
+			"doi": "10.1515/opar-2020-0189",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linear Pottery culture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linear_Pottery_culture&oldid=1376833640",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Well",
+			"url": "https://en.wikipedia.org/w/index.php?title=Well&oldid=1364742168",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Erkelenz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Erkelenz&oldid=1377596883",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Adze",
+			"url": "https://en.wikipedia.org/w/index.php?title=Adze&oldid=1376210126",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "media",
+			"title": "Wooden adze handle and stone adze blade from Linear Pottery well 21 at Eythra, near Leipzig",
+			"url": "https://commons.wikimedia.org/wiki/File:Eythra_21_adze_handle_01.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "eythra-adze-handle.jpg",
+			"authors": [
+				{
+					"name": "Einsamer Schütze"
+				}
+			],
+			"published": "2010-03-07"
+		},
+		{
+			"kind": "media",
+			"title": "Felling an oak with a reconstructed Linear Pottery adze, Ergersheim Experiments, March 2011",
+			"url": "https://commons.wikimedia.org/wiki/File:ExpArchTreeFelling.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0 DE",
+			"file": "ergersheim-felling.jpg",
+			"authors": [
+				{
+					"name": "Bullenwächter"
+				}
+			],
+			"published": "2011-03-20"
+		},
+		{
+			"kind": "media",
+			"title": "Hours to fell an oak in the Ergersheim experiments (chart drawn for kloom from Elburg et al. 2015)",
+			"url": "https://exarc.net/ark:/88735/10196",
+			"accessed": "2026-09-30",
+			"container": "EXARC Journal",
+			"licence": "MIT",
+			"file": "felling-hours.svg"
+		}
+	]
+}

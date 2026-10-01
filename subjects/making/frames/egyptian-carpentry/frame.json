@@ -1,0 +1,221 @@
+{
+	"id": "egyptian-carpentry",
+	"topic": "Egyptian carpentry",
+	"position": {
+		"label": "c. 2600 BC",
+		"sort": -2600
+	},
+	"scene": {
+		"headline": "We cut on the",
+		"accent": "PULL.",
+		"palette": "shavings",
+		"illustration": "scene.svg",
+		"metadata": ["GIZA · SAQQARA · THEBES", "CEDAR · COPPER SAW, ADZE AND CHISEL · BOW DRILL"],
+		"counter": {
+			"value": "1,224",
+			"label": "pieces of cedar in the Khufu ship, taken apart for burial"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Egyptian Woodworking and Furniture",
+			"authors": [
+				{
+					"family": "Killen",
+					"given": "Geoffrey"
+				}
+			],
+			"publisher": "Shire Publications",
+			"place": "Princes Risborough",
+			"published": "1994",
+			"url": "https://openlibrary.org/works/OL6411183W",
+			"accessed": "2026-09-30",
+			"note": "The sawing post, the one-sided set, the Ti bow drill and the Hetepheres canopy (pp. 13–34)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Production Method of the Khufu-1 Sheer Planks: Carving or Bending?",
+			"authors": [
+				{
+					"family": "Bram",
+					"given": "Moshe"
+				},
+				{
+					"family": "Me-Bar",
+					"given": "Yoav"
+				}
+			],
+			"container": "Wood Material Science & Engineering",
+			"volume": "19",
+			"issue": "4",
+			"pages": "944–948",
+			"published": "2024",
+			"doi": "10.1080/17480272.2023.2291816",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "book",
+			"title": "Tools and Weapons, Illustrated by the Egyptian Collection in University College, London",
+			"authors": [
+				{
+					"family": "Petrie",
+					"given": "W. M. Flinders"
+				}
+			],
+			"publisher": "British School of Archaeology in Egypt",
+			"place": "London",
+			"published": "1917",
+			"url": "https://archive.org/details/toolsweaponsillu00petr",
+			"accessed": "2026-09-30",
+			"note": "The saw, §§120–122"
+		},
+		{
+			"kind": "book",
+			"title": "The Arts and Crafts of Ancient Egypt",
+			"authors": [
+				{
+					"family": "Petrie",
+					"given": "W. M. Flinders"
+				}
+			],
+			"publisher": "T. N. Foulis",
+			"place": "Edinburgh and London",
+			"published": "1910",
+			"url": "https://archive.org/details/artscraftsofanc00petr",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Saw From a Foundation Deposit, Hatshepsut's Temple (25.3.120)",
+			"container": "The Metropolitan Museum of Art",
+			"url": "https://www.metmuseum.org/art/collection/search/547588",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Carpenters at Work, Tomb of Rekhmire (35.101.1)",
+			"container": "The Metropolitan Museum of Art",
+			"url": "https://www.metmuseum.org/art/collection/search/544639",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hetepheres I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hetepheres_I&oldid=1373667981",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Khufu ship",
+			"url": "https://en.wikipedia.org/w/index.php?title=Khufu_ship&oldid=1368152305",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Saw",
+			"url": "https://en.wikipedia.org/w/index.php?title=Saw&oldid=1369933819",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rekhmire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rekhmire&oldid=1350376739",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mastaba of Ti",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mastaba_of_Ti&oldid=1371338013",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Andrew Reisner",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Andrew_Reisner&oldid=1360677723",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "media",
+			"title": "Carpenters at work: sawing a lashed timber and drilling a bed frame, facsimile of a painting in the tomb of Rekhmire (TT 100), Thebes",
+			"url": "https://commons.wikimedia.org/wiki/File:Carpenters_at_Work,_Tomb_of_Rekhmire_MET_35.101.1_detail.jpg",
+			"accessed": "2026-09-30",
+			"container": "The Metropolitan Museum of Art, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "rekhmire-carpenters.jpg",
+			"authors": [
+				{
+					"family": "Davies",
+					"given": "Nina de Garis"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "Saw from a foundation deposit of Hatshepsut's temple at Deir el-Bahri, about 1473–1458 BC",
+			"url": "https://commons.wikimedia.org/wiki/File:Saw_From_a_Foundation_Deposit,_Hatshepsut%27s_Temple_MET_25.3.120.front.jpg",
+			"accessed": "2026-09-30",
+			"container": "The Metropolitan Museum of Art, via Wikimedia Commons",
+			"licence": "CC0",
+			"file": "hatshepsut-saw.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "making/roman-plane",
+			"why": "Egypt's carpenters had no plane until the Romans brought it."
+		}
+	]
+}
