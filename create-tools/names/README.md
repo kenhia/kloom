@@ -1,7 +1,7 @@
 # names
 
 Names the people, places and things a subject mentions, for the shared name
-registry (`names/`, docs/design.md §Connections). Five commands.
+registry (`names/`, docs/design.md §Connections). Six commands.
 
 ```sh
 python3 create-tools/names/names.py lookup "Johannes Gutenberg" "Printing press"
@@ -10,6 +10,7 @@ python3 create-tools/names/names.py mark create-tools/names/examples/western-civ
 python3 create-tools/names/names.py mark create-tools/names/examples/western-civ.json --check
 python3 create-tools/names/names.py density
 python3 create-tools/names/names.py reach western-civ
+python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/hand
 ```
 
 - **`lookup`** prints one JSON line per Wikipedia title: a slugged `id`,
@@ -25,8 +26,15 @@ python3 create-tools/names/names.py reach western-civ
   thing: "Project MAC" lands on CSAIL. Look such an item up on Wikidata
   itself (`wbsearchentities`), and check units and namesakes there too:
   "Horsepower" is not the metric horsepower. A title that lands on a
-  disambiguation page prints `ambiguous` and no item, rather than the
-  disambiguation page's own: choose the article meant and look that up. A
+  disambiguation page, or a set-index page ("Sodium citrate", a list of
+  compounds of one name, sprint 029), prints `ambiguous` and no item,
+  rather than the page's own: choose the article meant and look that up.
+  Each row also gives what Wikidata says the item is, `instance_of` (its
+  classes) and `item_description`, and `--expect` checks those too: an
+  article can be right while its item is something else ("Duffy antigen
+  system" is a blood group's article whose item, Q205042, is the ACKR1
+  protein; sprint 028 met it). Such an item may be the only one Wikidata
+  has, as there; then keep it, and say so in the report. A
   title with no article prints `missing`. Ids spell a Greek letter ("π" is
   `pi`) and a bare number in words (Wikipedia's "0" is `zero`), since
   sprint 027.
@@ -88,8 +96,16 @@ python3 create-tools/names/names.py reach western-civ
   and a path may run through any subject. Sprint 021 measured the Physics
   bridge with it: western-civ's reach into ai, computing and feynman,
   before and after. `--json` for one line per subject.
-- Standard library only. `lookup` queries en.wikipedia.org's API with a
-  project User-Agent, never a person's name. `test_names.py` is its test
+- **`strip`** prints frames' readings, `<subject>/<frame>` each, with
+  every name mark taken out and its words left (`**[Harvey](kloom:e/…)**`
+  becomes `**Harvey**`), or writes them to `--out DIR` as
+  `<subject>-<frame>.md`. An author is given the hand-written frames this
+  way, as the quality bar, so there is no mark to copy: three of sprint
+  028's eighteen authors typed marks by hand after reading the marked
+  frames, despite the brief's warning (sprint 029). `just check`'s `mark
+--check --placed` stays the backstop.
+- Standard library only. `lookup` queries en.wikipedia.org's API and
+  Wikidata's with a project User-Agent, never a person's name. `test_names.py` is its test
   (`just check` runs it; it needs no network).
 
 A name file (engine/names.ts has the rules):

@@ -9,9 +9,10 @@ it.
 
 The rules don't change with the route. Cite the work by its own URL or DOI,
 never the mirror or archive you read it through. Cite only what you read: a
-paper you saw only as an abstract carries `"abstractOnly": true`, and one
-you saw only in another work's references or quotations carries `citedIn`
-(docs/design.md §Citations). Send a User-Agent that names the project,
+paper you read only in part carries `read` (`"abstract"`, `"first-page"`,
+`"excerpt"`), and one you saw only in another work's references or
+quotations carries `citedIn`, and may then go without a url or doi of its
+own when the work it names is cited with one (docs/design.md §Citations). Send a User-Agent that names the project,
 never a person, and wait when a site tells you to.
 
 ## Is there an open copy?
@@ -23,7 +24,9 @@ never a person, and wait when a site tells you to.
 - **An abstract, at least.** For a closed paper, Crossref's `abstract`
   field (`https://api.crossref.org/works/<doi>`) or OpenAlex's
   `abstract_inverted_index` gives the abstract. Cite it with
-  `abstractOnly` (sprint 026).
+  `"read": "abstract"` (sprint 026). Nature's letters before about 1970 have
+  no abstract: nature.com shows their first paragraph, cited with `"read":
+"first-page"` (sprint 028).
 - **An author's own copy**, a course page, or an institutional repository
   is often the only open route. Cite the published version, and say in
   the citation's `note` which copy you read if they may differ.
@@ -60,7 +63,9 @@ never a person, and wait when a site tells you to.
   reply, and NCBI BioC serves the full text (sprint 028).
 - **PubMed's E-utilities** (`eutils.ncbi.nlm.nih.gov/entrez/eutils/`
   `esearch`, `esummary`, `efetch`) answer a script and give abstracts; they
-  find old papers that Europe PMC's search indexes poorly (sprint 028).
+  find old papers that Europe PMC's search indexes poorly (sprint 028). A
+  paper known only as a PubMed record, with no DOI and no copy, is cited
+  with `citedIn` naming the work that cites it (sprint 029).
 - **NCBI Bookshelf** (StatPearls, Dean's _Blood Groups and Red Cell
   Antigens_) answers with the same reCAPTCHA as PMC. Its Wayback copies work
   at some timestamps and are archived "Forbidden" pages at others: ask
@@ -135,8 +140,14 @@ never a person, and wait when a site tells you to.
     date was five years out (sprint 028);
   - a **lending-only** book answers `_djvu.txt` with 401 and its search
     with "Item not available": it cannot be read this way. Cite what you
-    read about it, with `citedIn` (sprint 028). The Digital Library of
+    read about it, with `citedIn`, and without a url when the work you
+    read is cited with one (sprints 028, 029). The Digital Library of
     India's scans can carry OCR read as Hindi, and are no use as text.
+- **JSTOR** answers a script with a challenge page, and its `10.2307/N`
+  DOIs do not resolve through Crossref. Cite a JSTOR-only article by its
+  stable url, `https://www.jstor.org/stable/N`, with no check; the `N` is
+  the DOI's suffix, which a citing page (AcaWiki, a reference list) often
+  gives (sprint 029). Never cite PhilPapers' record of it instead.
 - **Wikisource** and **Project Gutenberg** hold many old books and
   documents in clean text.
 - **HAL** (French open archive): an `oa_url` of the form

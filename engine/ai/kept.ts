@@ -122,13 +122,15 @@ export function keptAnswerProblems(x: unknown): string[] {
 	if (!Array.isArray(k.citations)) problems.push('citations must be an array');
 	else
 		k.citations.forEach((c, i) =>
-			citationProblems(c).forEach((p) => problems.push(`citations[${i}]: ${p}`))
+			citationProblems(c, { legacy: true }).forEach((p) => problems.push(`citations[${i}]: ${p}`))
 		);
 	if (k.webCitations !== undefined) {
 		if (!Array.isArray(k.webCitations)) problems.push('webCitations must be an array');
 		else
 			k.webCitations.forEach((c, i) =>
-				citationProblems(c).forEach((p) => problems.push(`webCitations[${i}]: ${p}`))
+				citationProblems(c, { legacy: true }).forEach((p) =>
+					problems.push(`webCitations[${i}]: ${p}`)
+				)
 			);
 	}
 	if (!Array.isArray(k.sources)) problems.push('sources must be an array');

@@ -7,6 +7,7 @@ import {
 	chicagoDate,
 	chicagoText,
 	citationProblems,
+	citedInProblems,
 	keySource,
 	keySources,
 	needsCaption,
@@ -339,7 +340,7 @@ describe('citationProblems', () => {
 	it('requires title, url or doi, and accessed date', () => {
 		expect(citationProblems({ kind: 'web' })).toEqual([
 			'title is required',
-			'url is required, unless there is a doi',
+			'url is required, unless there is a doi, or a citedIn naming a work cited with one',
 			'accessed date is required, as YYYY-MM-DD'
 		]);
 	});
@@ -409,7 +410,7 @@ describe('citationProblems', () => {
 				authors: ['NASA']
 			})
 		).toEqual([
-			'kind must be one of web, wikipedia, book, article, chapter, report, media, letter, encyclopedia',
+			'kind must be one of web, wikipedia, book, article, chapter, report, media, letter, encyclopedia, diary',
 			'url must be http(s)',
 			'accessed date is required, as YYYY-MM-DD',
 			'published must be YYYY, YYYY-MM or YYYY-MM-DD, a shorter year (888), or a year BC (1550 BC)',
@@ -562,19 +563,146 @@ describe('the schema for older, translated and second-hand sources (sprint 027)'
 		);
 	});
 
-	it('says where a source was seen when it was not read: cited in a work, or an abstract', () => {
+	it('says where a source was seen when it was not read: cited in a work, or in part', () => {
 		const seen = { ...article, citedIn: 'Gleick, Genius, p. 247' };
 		expect(chicagoText(seen)).toContain('737–38. Cited in Gleick, Genius, p. 247. Accessed');
-		expect(chicagoText({ ...article, abstractOnly: true })).toContain(
+		expect(chicagoText({ ...article, read: 'abstract' })).toContain(
 			'737–38. Read in its abstract. Accessed'
 		);
-		expect(keySource({ ...seen, abstractOnly: true, note: 'The method' }).note).toBe(
+		expect(chicagoText({ ...article, read: 'first-page' })).toContain(
+			'737–38. Read in its first page. Accessed'
+		);
+		expect(chicagoText({ ...article, read: 'excerpt' })).toContain(
+			'737–38. Read in an excerpt. Accessed'
+		);
+		expect(keySource({ ...seen, read: 'abstract', note: 'The method' }).note).toBe(
 			'Nature, April 25, 1953. Cited in Gleick, Genius, p. 247. Read in its abstract. The method'
 		);
-		expect(citationProblems({ ...article, citedIn: '', abstractOnly: 'yes' })).toEqual([
+		expect(citationProblems({ ...article, citedIn: '', read: 'yes' })).toEqual([
 			'citedIn must be text',
-			'abstractOnly must be true or false'
+			'read must be one of abstract, first-page, excerpt'
 		]);
+		expect(citationProblems({ ...article, abstractOnly: true })).toEqual([
+			'abstractOnly is now read: "abstract"'
+		]);
+	});
+
+	describe('a source seen only in another work (sprint 029)', () => {
+		const farr: Citation = {
+			kind: 'article',
+			title: 'The First Human Blood Transfusion',
+			doi: '10.1017/S0025727300040138',
+			accessed: '2026-10-01',
+			authors: [{ family: 'Farr', given: 'A. D.' }],
+			container: 'Medical History',
+			published: '1980'
+		};
+		const sprat: Citation = {
+			kind: 'book',
+			title: 'The History of the Royal-Society of London',
+			authors: [{ family: 'Sprat', given: 'Thomas' }],
+			place: 'London',
+			publisher: 'J. Martyn and J. Allestry',
+			published: '1667',
+			pages: '317',
+			citedIn: 'Farr, “The First Human Blood Transfusion” (1980), note 6'
+		};
+
+		it('stands without a url, doi or access date when its citedIn has one', () => {
+			expect(citationProblems(sprat)).toEqual([]);
+			expect(citedInProblems([farr, sprat])).toEqual([]);
+			expect(chicago(sprat).some((p) => p.href)).toBe(false);
+			expect(chicagoText(sprat)).toBe(
+				'Sprat, Thomas. The History of the Royal-Society of London. London: J. Martyn and ' +
+					'J. Allestry, 1667. Cited in Farr, “The First Human Blood Transfusion” (1980), note 6.'
+			);
+		});
+
+		it('checks the chain: the citing work is cited in the frame, with a link', () => {
+			expect(citedInProblems([sprat])).toEqual([
+				{
+					index: 0,
+					problem:
+						'has no url or doi, so its citedIn must name, by title, a work this frame cites with one'
+				}
+			]);
+			const unlinked = { ...farr, doi: undefined, citedIn: 'Somewhere else' };
+			expect(citedInProblems([unlinked, sprat]).map((p) => p.index)).toEqual([0, 1]);
+		});
+
+		it('is never a key source, and needs a citedIn', () => {
+			expect(citationProblems({ ...sprat, key: true })).toEqual([
+				'a key source links what was read: one seen only in another work cannot be key'
+			]);
+			expect(citationProblems({ ...sprat, citedIn: undefined })).toEqual([
+				'url is required, unless there is a doi, or a citedIn naming a work cited with one',
+				'accessed date is required, as YYYY-MM-DD'
+			]);
+		});
+
+		it('still needs an access date when it has a link', () => {
+			expect(citationProblems({ ...farr, accessed: undefined })).toEqual([
+				'accessed date is required, as YYYY-MM-DD'
+			]);
+		});
+	});
+
+	it('sets a diary entry in its edition', () => {
+		const entry: Citation = {
+			kind: 'diary',
+			title: 'The Diary of Samuel Pepys',
+			authors: [{ family: 'Pepys', given: 'Samuel' }],
+			written: '1666-11-14',
+			editors: [{ family: 'Wheatley', given: 'Henry B.' }],
+			place: 'London',
+			publisher: 'George Bell & Sons',
+			published: '1893',
+			url: 'https://www.pepysdiary.com/diary/1666/11/14/',
+			accessed: '2026-10-01'
+		};
+		expect(citationProblems(entry)).toEqual([]);
+		expect(chicagoText(entry)).toBe(
+			'Pepys, Samuel. Diary entry, November 14, 1666, in The Diary of Samuel Pepys, edited by ' +
+				'Henry B. Wheatley. London: George Bell & Sons, 1893. Accessed October 1, 2026. ' +
+				'https://www.pepysdiary.com/diary/1666/11/14/.'
+		);
+		expect(chicago(entry).find((p) => p.italic)?.text).toBe('The Diary of Samuel Pepys');
+		expect(keySource(entry)).toEqual({
+			title: 'Samuel Pepys, The Diary of Samuel Pepys',
+			url: entry.url,
+			note: 'entry of November 14, 1666, George Bell & Sons, 1893'
+		});
+		expect(citationProblems({ ...entry, written: undefined })).toEqual([
+			'a diary entry needs the date it was written'
+		]);
+	});
+
+	it('cites a copy where no official one exists, and says whose', () => {
+		const handbook: Citation = {
+			...report,
+			url: 'https://www.generalstaff.org/BBOW/handbook.pdf',
+			mirror: true
+		};
+		expect(citationProblems(handbook)).toEqual([]);
+		expect(chicagoText(handbook)).toMatch(
+			/https:\/\/www\.generalstaff\.org\/BBOW\/handbook\.pdf \(copy at generalstaff\.org\)\.$/
+		);
+		expect(keySource({ ...handbook, key: true }).note).toContain('Copy at generalstaff.org');
+		expect(citationProblems({ ...handbook, doi: '10.1000/x' })).toEqual([
+			'mirror is for a url copying a work with no official copy, so not with a doi'
+		]);
+		expect(citationProblems({ ...handbook, mirror: 'yes' })).toEqual([
+			'mirror must be true or false'
+		]);
+	});
+
+	it('takes a JSTOR article by its stable url, with no DOI to check', () => {
+		const jstor = { ...article, doi: undefined, url: 'https://www.jstor.org/stable/2265097' };
+		expect(citationProblems(jstor)).toEqual([]);
+		expect(
+			citationProblems({ ...jstor, url: 'https://www.jstor.org/stable/pdf/2265097.pdf' })
+		).toEqual(['a JSTOR article is cited by its stable url, https://www.jstor.org/stable/N']);
+		expect(citationProblems({ ...jstor, url: 'https://daily.jstor.org/a-story/' })).toEqual([]);
 	});
 
 	it('takes an en.wikipedia.org file page as a media source, without a revision', () => {

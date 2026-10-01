@@ -143,7 +143,7 @@
 			"published": "1970-10",
 			"doi": "10.1126/science.170.3956.460",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -169,7 +169,7 @@
 			"published": "1988-02",
 			"doi": "10.1182/blood.V71.2.448.448",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -191,7 +191,7 @@
 			"published": "2011-04",
 			"doi": "10.1111/j.1365-3148.2010.01056.x",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "web",

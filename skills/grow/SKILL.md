@@ -313,9 +313,17 @@ knowledge is not a source.
 - **A source you saw only quoted or cited in another** is never cited as
   if you had read it. Cite the original with `citedIn` naming the work you
   saw it in (`"citedIn": "Gleick, Genius, p. 247"`, rendered "Cited in
-  …"), or cite the work that quotes it. **A paper you could read only in
-  its abstract** carries `"abstractOnly": true` ("Read in its abstract").
-  Both show in the bibliography and in the Sources list.
+  …"), or cite the work that quotes it. When the original has no url or
+  doi of its own (a 1667 book, a 1910 paper known only from a reference
+  list or a PubMed record), cite it with neither, and with no `accessed`:
+  its `citedIn` must then name, by its title, a work this frame cites with
+  a url or doi, and validation checks that it does. Such a citation is
+  never `key`. **A paper you read only in part** carries `read`:
+  `"abstract"` ("Read in its abstract"), `"first-page"` (an old letter a
+  journal shows only the opening of: "Read in its first page") or
+  `"excerpt"` ("Read in an excerpt"). Both show in the bibliography and in
+  the Sources list. (`abstractOnly` was the old field; validation refuses
+  it.)
 - **Quotations** from work in copyright are a sentence at most. A US
   government record (a report, a hearing transcript) is public domain,
   but quote it no more than the reading needs.
@@ -328,7 +336,11 @@ knowledge is not a source.
   `YYYY-MM` or `YYYY-MM-DD`; a shorter year for a work before AD 1000
   (`"888"`, no leading zero); or a year BC (`"1550 BC"`). The kinds are
   `web`, `wikipedia`, `book`, `article`, `chapter`, `report`, `media`,
-  `letter` and `encyclopedia`.
+  `letter`, `encyclopedia` and `diary`. A **`diary`** entry is the diary
+  as `title`, the entry's date as `written` (required), and the edition's
+  `editors`, `place`, `publisher` and `published`: "Pepys, Samuel. Diary
+  entry, November 14, 1666, in _The Diary of Samuel Pepys_, edited by
+  Henry B. Wheatley." Never cite a diary entry as `web`.
 - **Key sources.** Mark the works the frame chiefly rests on with
   `"key": true`: **at least one**, or validation fails. The reading pane's
   Sources list is built from them ("Authors, Title", where and when); the
@@ -453,7 +465,9 @@ the web rather than by a grow job. What changes:
   a mark could go (the Ishango bone, whose reading named only the place
   Ishango, and Tyrian purple).
 - **Names by the tool.** `names.py lookup` gives the Wikidata ID from the
-  article title and says when a title redirects or is ambiguous; `names.py
+  article title and says when a title redirects or is ambiguous (a
+  disambiguation or a set-index page), and prints what Wikidata says the
+  item is (`instance_of`); `names.py
 add` writes name files and refuses one whose Wikidata ID the registry
   already holds; `names.py mark` places the marks from a spec, which is
   kept in `create-tools/names/examples/` as the record. A real article
@@ -461,7 +475,10 @@ add` writes name files and refuses one whose Wikidata ID the registry
   a politician, "Joseph R. Brown" a Minnesota senator, "Robin Forrest" a
   priest (sprint 026 met four). Read the description and the first line
   `lookup` prints before you cite it or draft a name, and pass
-  `--expect <a word the right one must say>` to have it warn.
+  `--expect <a word the right one must say>` to have it warn. It checks
+  the item's class too: an article can be the thing meant while its item
+  is something else (the Duffy blood group's article has the ACKR1
+  protein's item).
 - **Read the primary source.** Many papers are PDFs, and older ones are
   scans with no text layer. `uv run create-tools/read-source/read_source.py
 paper.pdf` prints the text and names the scanned pages; `--png DIR
@@ -493,6 +510,11 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   photographer's rights (sprint 024 left Plimpton 322's out).
   `commons_media fetch` names the licence tags the file page carries
   (`PD-Art`, `PD-old-100`, `PD-USGov-DOE` …); read them, and the page.
+  Flickr's "No restrictions" (the Internet Archive's book scans) is not a
+  licence: `fetch` writes it as public domain with an empty `note`, which
+  validation refuses until you state the public-domain basis there
+  ("Published in the US in 1890"). A `PD-self` file with no author is
+  credited to its uploader, `"Name (uploader)"`.
 - **The subject's voice holds for arithmetic too**: "by our arithmetic",
   not "by my".
 - **Readings run 550–900 words of prose, and every one scrolls.** Tables,
@@ -512,11 +534,12 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   used: describe it in the reading and cite the archive's page as `web`.
 - **A page of a scanned book** that is public domain may be a PDF or DjVu
   on Commons (`commons_media fetch … --page N`) or come from outside
-  Commons (an Internet Archive item). For the second, crop the page
-  yourself, keep the file under 350 KB as a JPEG (`uv run
-commons_media.py jpeg page.png page.jpg` composites a PNG's
-  transparency onto white, where a plain conversion turns it black), and
-  write its `media` citation by hand, citing the item's page and the
+  Commons (an Internet Archive item). For the second, cut the page out
+  with `commons_media.py crop page.png page.jpg --box L,T,R,B`, which
+  scales it down and writes a JPEG (`jpeg` converts one you cropped
+  yourself, a PNG's transparency onto white, where a plain conversion
+  turns it black); keep the file under 350 KB, and write its `media`
+  citation by hand, citing the item's page and the
   work's own date. Check the licence on the copy you use: the same volume
   can be public domain from one library and CC BY-NC from another (sprint
   024).
@@ -535,7 +558,14 @@ commons_media.py jpeg page.png page.jpg` composites a PNG's
   `publisher`, and `doi` `10.17487/RFC0791`. A thesis is a `report` with
   the university as `publisher`. A patent is `web`, its number in the
   title. A work read in a copy (a transcript, a mirror, a later edition)
-  is cited as the work, with a `note` naming the copy you read.
+  is cited as the work, with a `note` naming the copy you read. **When no
+  official copy exists anywhere** (a military handbook found only on an
+  enthusiasts' site), cite the work with the mirror's `url` and `"mirror":
+true`, rendered "(copy at host)"; whenever an official copy exists, cite
+  the work, never the mirror. **An article held only on JSTOR** is cited
+  by its stable url, `https://www.jstor.org/stable/N`, which needs no
+  check: JSTOR's `10.2307/…` DOIs do not resolve through Crossref, and
+  validation refuses any other jstor.org url.
 - **A number you worked out** from sourced figures (a ratio, an average,
   a figure read off a graph) is yours, not the source's: say so in the
   reading, as for a worked example.

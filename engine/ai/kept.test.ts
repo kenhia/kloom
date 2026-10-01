@@ -8,6 +8,7 @@ import {
 	type Answer
 } from './kept';
 import { context } from './fixture';
+import { chicagoText } from '../citation';
 
 const answer: Answer = {
 	id: answerId(new Date('2026-09-27T17:05:09.123Z'), '0a1b2c3d'),
@@ -55,6 +56,13 @@ describe('kept answers', () => {
 			/^citations\[0\]/
 		);
 		expect(keptAnswerProblems(null)).toEqual(['not an object']);
+	});
+
+	it('still takes a citation it copied before abstractOnly became read (sprint 029)', () => {
+		const kept = keptAnswer(answer, new Date());
+		const old = { ...kept, citations: [{ ...kept.citations[0], abstractOnly: true }] };
+		expect(keptAnswerProblems(old)).toEqual([]);
+		expect(chicagoText(old.citations[0])).toContain('Read in its abstract.');
 	});
 });
 

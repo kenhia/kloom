@@ -77,7 +77,7 @@
 			"published": "2025",
 			"doi": "10.1111/trf.18187",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -120,7 +120,7 @@
 			"published": "2017",
 			"doi": "10.1111/trf.14165",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -163,7 +163,7 @@
 			"published": "1999",
 			"doi": "10.1056/NEJM199902113400601",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -205,7 +205,7 @@
 			"published": "2023",
 			"doi": "10.1001/jama.2023.12914",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -267,7 +267,7 @@
 			"published": "2008",
 			"doi": "10.1001/jama.299.19.jrv80007",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "web",

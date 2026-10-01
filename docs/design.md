@@ -170,7 +170,7 @@ baked into the engine.
     links the URL that was read, so a Wikipedia source links its pinned
     revision, not the live article.
   - Fields: `kind` (`web`, `wikipedia`, `book`, `article`, `chapter`,
-    `report`, `media`, `letter`, `encyclopedia`), `title`, `url` and/or `doi`, `accessed`
+    `report`, `media`, `letter`, `encyclopedia`, `diary`), `title`, `url` and/or `doi`, `accessed`
     (`YYYY-MM-DD`), and optionally `key`, `note` (a key source's remark in
     the Sources list: a page, why it matters), `authors` (`{family,
 given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
@@ -215,11 +215,39 @@ given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
       `number`, set after its container.
     - **Seen, not read.** `citedIn` names the work in whose references or
       quotation a source was seen ("Cited in Gleick, _Genius_, p. 247."),
-      and `abstractOnly: true` says only its abstract was read ("Read in
-      its abstract."). Both are rendered in the bibliography and in the
-      key source's line, so a reader sees what the frame rests on. They
-      replace the note "Read in its abstract", which only the Sources list
-      showed; the fifteen such notes were moved to `abstractOnly`.
+      and `read` says how much of it was read when not all of it:
+      `abstract`, `first-page` or `excerpt` ("Read in its abstract.",
+      "Read in its first page.", "Read in an excerpt."). Both are rendered
+      in the bibliography and in the key source's line, so a reader sees
+      what the frame rests on. They replace the note "Read in its
+      abstract", which only the Sources list showed. (Sprint 027 called the
+      first `abstractOnly: true`; sprint 029 widened it to `read`, Ken's
+      decision of 2026-10-01 on korg 3473, and moved every use and every
+      note that meant exactly one of the three. Frame validation refuses
+      `abstractOnly` now; a kept answer saved before still carries it in its
+      copy of a citation, and is still read and shown as "Read in its
+      abstract.")
+  - **Forms from _In the Blood_** (sprint 029, Ken's decisions of
+    2026-10-01 on korg 3473):
+    - **A source seen only in another work** may stand without a url or a
+      doi, and then without `accessed`, when its `citedIn` names, by title,
+      a work the same frame cites with a url or doi. Validation checks the
+      chain. Its entry has no link, and it cannot be a key source: the
+      Sources list links what was read, which is the citing work.
+    - **`diary`**: a dated entry in a named edition. `title` is the diary,
+      `written` the entry's date (required): "Pepys, Samuel. Diary entry,
+      November 14, 1666, in _The Diary of Samuel Pepys_, edited by Henry
+      B. Wheatley. pepysdiary.com. London: George Bell & Sons, 1893." The
+      date reads as the house style's other dates do.
+    - **A mirror, when no official copy exists anywhere**: the work is
+      cited with the mirror's url and `mirror: true`, rendered after the
+      url, "(copy at generalstaff.org)", and in the key source's line
+      ("Copy at generalstaff.org"). Not with a `doi`. Whenever an official
+      copy exists, cite the work, never the mirror.
+    - **JSTOR**: an article held only on JSTOR is cited by its stable url,
+      `https://www.jstor.org/stable/N`, with no Crossref check (JSTOR's
+      `10.2307/…` DOIs do not resolve through Crossref). Any other
+      www.jstor.org url is refused.
   - A `media` citation may credit an image by its en.wikipedia.org file
     page (`/wiki/File:…`) without a revision: it is an image's page, not
     an article (sprint 027).
@@ -232,7 +260,7 @@ given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
     links it at doi.org, in place of the url. A doi.org `url` is refused:
     it goes in `doi`.
   - Every citation needs a title, an http(s) url or a doi, and an accessed
-    date. Any Wikipedia url must be a permanent revision link (`oldid=`),
+    date, except one seen only in another work (above). Any Wikipedia url must be a permanent revision link (`oldid=`),
     because articles change.
   - An image or chart in the reading is a file in the frame's directory,
     shown only with a `media` citation naming that `file` and a `licence`.

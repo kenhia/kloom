@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Name the people, places and things a subject mentions (docs/design.md §Connections).
 
-Five commands:
+Six commands:
 
   lookup   Wikipedia titles -> the name files' skeletons: the Wikidata item each
            article is about, Wikidata's own one-line description, to start
@@ -10,8 +10,12 @@ Five commands:
            `--expect WORD` warns when neither says WORD. A title that redirects says so
            (`redirected`): the article it lands on may be about something wider
            (Project MAC lands on CSAIL), so look the item up on Wikidata instead.
-           A title that lands on a disambiguation page says `ambiguous`, and
+           A title that lands on a disambiguation page, or a set-index page (a list
+           of compounds or ships of one name, sprint 029), says `ambiguous`, and
            gives no item: choose the article that is meant and look that up.
+           Each item's Wikidata class (`instance_of`) and description are given
+           too, and `--expect` checks them as well: an article on a blood group
+           whose item is the gene product ("ACKR1 protein") is warned of.
   add      Write name files into the registry, from JSON files or directories
            of them. A new name is written; one already there is left alone
            unless --update is given; a name whose Wikidata item another file
@@ -25,11 +29,18 @@ Five commands:
 
   density  Names and connections per frame, by subject: what the map's
            defaults are set from.
+  reach    For every other subject, its frames within one and within --steps
+           connections of a subject's frames.
+  strip    Frames' readings with every name mark taken out, the words left:
+           what an author is shown as the quality bar, so no author copies a
+           mark by hand (sprint 029). Marks are `mark`'s job, from a spec.
 
   names.py lookup "Johannes Gutenberg" "Printing press"
   names.py add drafts/ [--names names] [--update] [--check]
   names.py mark examples/western-civ.json [...] [--root subjects] [--check [--placed]]
   names.py density [--root subjects]
+  names.py reach western-civ [--steps 2] [--root subjects]
+  names.py strip blood/abo blood/harvey [--root subjects] [--out DIR]
 
 `mark --check` changes nothing: it says where each mark not yet placed would land (the
 sentence, and a warning when that is before the reading's bold mention), and exits 1 only
@@ -97,46 +108,86 @@ def slug(title):
 
 
 def lookup(titles):
-    """{requested title: {id, wikidata, name, description, first_line}}, following redirects, 20 at a time
-    (the most intro extracts the API gives in one request)."""
+    """{requested title: {id, wikidata, name, description, first_line, item_description, instance_of}},
+    following redirects, 20 at a time (the most intro extracts the API gives in one request)."""
     out = {}
     for i in range(0, len(titles), 20):
         batch = titles[i:i + 20]
         query = urllib.parse.urlencode({
-            'action': 'query', 'prop': 'pageprops|extracts', 'ppprop': 'wikibase_item|wikibase-shortdesc|disambiguation',
+            'action': 'query', 'prop': 'pageprops|extracts|categories',
+            'ppprop': 'wikibase_item|wikibase-shortdesc|disambiguation',
             'exintro': 1, 'explaintext': 1, 'exsentences': 1, 'exlimit': 'max',
+            'clcategories': SET_INDEX, 'cllimit': 'max',
             'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
         })
-        data = get(f'{API}?{query}')['query']
-        # Follow each asked title to its page: several may land on one.
-        step = {x['from']: x['to'] for x in data.get('normalized', []) + data.get('redirects', [])}
-        redirect = {x['from'] for x in data.get('redirects', [])}
-        pages = {page['title']: page for page in data.get('pages', {}).values()}
-        for asked in batch:
-            title, seen = asked, set()
-            while title in step and title not in seen:
-                seen.add(title)
-                title = step[title]
-            moved = bool(seen & redirect)
-            page = pages.get(title, {'missing': ''})
-            props = page.get('pageprops', {})
-            if 'missing' in page or 'invalid' in page:
-                out[asked] = {'missing': asked}
-                continue
-            if 'disambiguation' in props:
-                # A disambiguation page is a list of meanings, not one of them.
-                out[asked] = {'ambiguous': asked, 'page': page['title']}
-                continue
-            out[asked] = {
-                **({'redirected': page['title']} if moved else {}),
-                'id': slug(page['title']),
-                'wikidata': props.get('wikibase_item'),
-                'name': page['title'],
-                'description': props.get('wikibase-shortdesc', ''),
-                # The article's own first sentence: a namesake shows here (sprint 026's four).
-                'first_line': untex(' '.join(page.get('extract', '').split())),
-            }
+        out.update(rows(batch, get(f'{API}?{query}')['query']))
+    classes = item_classes([r['wikidata'] for r in out.values() if r.get('wikidata')])
+    for row in out.values():
+        row.update(classes.get(row.get('wikidata'), {}))
     return out
+
+
+# Every set-index article is in this hidden category; it carries no disambiguation flag.
+SET_INDEX = 'Category:All set index articles'
+
+
+def rows(batch, data):
+    """The rows for one batch of asked titles, from the API's `query` answer."""
+    out = {}
+    # Follow each asked title to its page: several may land on one.
+    step = {x['from']: x['to'] for x in data.get('normalized', []) + data.get('redirects', [])}
+    redirect = {x['from'] for x in data.get('redirects', [])}
+    pages = {page['title']: page for page in data.get('pages', {}).values()}
+    for asked in batch:
+        title, seen = asked, set()
+        while title in step and title not in seen:
+            seen.add(title)
+            title = step[title]
+        moved = bool(seen & redirect)
+        page = pages.get(title, {'missing': ''})
+        props = page.get('pageprops', {})
+        if 'missing' in page or 'invalid' in page:
+            out[asked] = {'missing': asked}
+            continue
+        if 'disambiguation' in props or any(c.get('title') == SET_INDEX for c in page.get('categories', [])):
+            # A disambiguation or set-index page is a list of meanings, not one of them.
+            out[asked] = {'ambiguous': asked, 'page': page['title']}
+            continue
+        out[asked] = {
+            **({'redirected': page['title']} if moved else {}),
+            'id': slug(page['title']),
+            'wikidata': props.get('wikibase_item'),
+            'name': page['title'],
+            'description': props.get('wikibase-shortdesc', ''),
+            # The article's own first sentence: a namesake shows here (sprint 026's four).
+            'first_line': untex(' '.join(page.get('extract', '').split())),
+        }
+    return out
+
+
+WIKIDATA = 'https://www.wikidata.org/w/api.php'
+
+
+def item_classes(qids):
+    """{qid: {item_description, instance_of: [labels]}}: what Wikidata says each item is, which may not be
+    what the article is about ("Duffy antigen system" is the ACKR1 protein's item, sprint 029)."""
+    def entities(ids, props):
+        found = {}
+        for i in range(0, len(ids), 50):
+            query = urllib.parse.urlencode({'action': 'wbgetentities', 'ids': '|'.join(ids[i:i + 50]),
+                                            'props': props, 'languages': 'en', 'format': 'json'})
+            found.update(get(f'{WIKIDATA}?{query}').get('entities', {}))
+        return found
+    qids = sorted(set(qids))
+    if not qids:
+        return {}
+    items = entities(qids, 'descriptions|claims')
+    kinds = {q: [c['mainsnak'].get('datavalue', {}).get('value', {}).get('id')
+                 for c in e.get('claims', {}).get('P31', [])] for q, e in items.items()}
+    wanted = sorted({k for ks in kinds.values() for k in ks if k})
+    labels = {q: e.get('labels', {}).get('en', {}).get('value', q) for q, e in entities(wanted, 'labels').items()}
+    return {q: {'item_description': items[q].get('descriptions', {}).get('en', {}).get('value', ''),
+                'instance_of': [labels.get(k, k) for k in kinds[q] if k]} for q in items}
 
 
 def untex(text):
@@ -157,9 +208,17 @@ def unexpected(found, expect):
     if not expect or 'id' not in found:
         return None
     text = f"{found.get('description', '')} {found.get('first_line', '')}".lower()
-    if expect.lower() in text:
-        return None
-    return f"\"{found['name']}\" does not say {expect!r}: is it a namesake? ({found.get('description') or found.get('first_line')})"
+    if expect.lower() not in text:
+        return f"\"{found['name']}\" does not say {expect!r}: is it a namesake? ({found.get('description') or found.get('first_line')})"
+    # The article may be right and its item something else: a gene product for a blood group (sprint 029).
+    if 'instance_of' in found:
+        item = f"{found.get('item_description', '')} {' '.join(found['instance_of'])}".lower()
+        if expect.lower() not in item:
+            what = ', '.join(found['instance_of']) or 'no class'
+            return (f"\"{found['name']}\"'s Wikidata item {found['wikidata']} is a {what} "
+                    f"({found.get('item_description') or 'no description'}), which does not say {expect!r}: "
+                    f"find the item the article means on Wikidata")
+    return None
 
 
 # What a mark may not sit inside: a link or image (alt text wraps lines), a
@@ -289,6 +348,32 @@ def add(paths, names_dir, update=False, check=False):
 
 
 MARK = re.compile(r'\]\(kloom:e/([a-z0-9][a-z0-9-]*)\)')
+# A whole mark, its words kept: words may wrap lines, and hold no bracket.
+WHOLE_MARK = re.compile(r'\[([^\]]+)\]\(kloom:e/[a-z0-9][a-z0-9-]*\)')
+
+
+def strip(reading):
+    """A reading with its name marks taken out and their words left (`**[Harvey](kloom:e/x)**` -> `**Harvey**`)."""
+    return WHOLE_MARK.sub(r'\1', reading)
+
+
+def strip_frames(root, refs, out=None):
+    """Each `<subject>/<frame>`'s reading stripped of marks: written to `out/<subject>-<frame>.md`, or
+    returned as one text with a heading per frame. Returns (text or None, problems)."""
+    texts, problems = [], []
+    for ref in refs:
+        subject, _, frame = ref.partition('/')
+        path = Path(root) / subject / 'frames' / frame / 'reading.md'
+        if not frame or not path.is_file():
+            problems.append(f'{ref}: no reading at {path}')
+            continue
+        plain = strip(path.read_text())
+        if out:
+            Path(out).mkdir(parents=True, exist_ok=True)
+            (Path(out) / f'{subject}-{frame}.md').write_text(plain)
+        else:
+            texts.append(f'<!-- {ref} -->\n\n{plain.rstrip()}\n')
+    return (None if out else '\n'.join(texts)), problems
 
 
 def density(root):
@@ -379,6 +464,10 @@ def main():
     rc.add_argument('--steps', type=int, default=2)
     rc.add_argument('--root', default='subjects', help='the subjects directory')
     rc.add_argument('--json', action='store_true', help='one JSON line per subject')
+    st = sub.add_parser('strip', help="frames' readings without their name marks, for an author's brief")
+    st.add_argument('frames', nargs='+', metavar='SUBJECT/FRAME')
+    st.add_argument('--root', default='subjects', help='the subjects directory')
+    st.add_argument('--out', metavar='DIR', help='write DIR/<subject>-<frame>.md for each, rather than print them')
     mk = sub.add_parser('mark', help="mark names' first mentions from a spec")
     mk.add_argument('spec', nargs='+', help='one or more specs')
     mk.add_argument('--root', default='subjects', help='the subjects directory')
@@ -403,6 +492,14 @@ def main():
                 print(f'warning: {why}', file=sys.stderr)
                 doubtful += 1
         return 1 if doubtful else 0
+
+    if args.command == 'strip':
+        text, problems = strip_frames(args.root, args.frames, args.out)
+        if text:
+            print(text, end='')
+        for line in problems:
+            print(line, file=sys.stderr)
+        return 1 if problems else 0
 
     if args.command == 'add':
         refused = add(args.drafts, args.names, args.update, args.check)

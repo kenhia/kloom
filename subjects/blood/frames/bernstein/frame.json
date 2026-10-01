@@ -163,6 +163,26 @@
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-08-16"
+		},
+		{
+			"kind": "article",
+			"title": "Über Vererbung gruppenspezifischer Strukturen des Blutes",
+			"authors": [
+				{
+					"family": "von Dungern",
+					"given": "E."
+				},
+				{
+					"family": "Hirszfeld",
+					"given": "L."
+				}
+			],
+			"container": "Zeitschrift für Immunitätsforschung und experimentelle Therapie",
+			"volume": "6",
+			"pages": "284–292",
+			"published": "1910",
+			"language": "de",
+			"citedIn": "Crow, “Felix Bernstein and the First Human Marker Locus” (1993)"
 		}
 	]
 }

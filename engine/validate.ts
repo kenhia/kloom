@@ -1,4 +1,4 @@
-import { citationProblems } from './citation';
+import { citationProblems, citedInProblems } from './citation';
 import { imageRefs, kloomRefs, nameRefs } from './markdown';
 import { LABEL_KINDS, type Spine } from './model';
 import { FRAME_REF, NAME_HREF } from './names';
@@ -296,6 +296,10 @@ export function validate(raw: RawSubject, options: ValidateOptions = {}): string
 					fail(`${where} citation ${i}`, `credits "${c.file}", which is not in the directory`);
 				else if (isText(c.licence)) credited.add(c.file);
 			});
+		// A source seen only in another work stands on that work's citation (sprint 029).
+		if (Array.isArray(frame.citations))
+			for (const { index, problem } of citedInProblems(frame.citations))
+				fail(`${where} citation ${index}`, problem);
 
 		if (!isText(reading)) fail(where, 'reading.md is missing or empty');
 		else {

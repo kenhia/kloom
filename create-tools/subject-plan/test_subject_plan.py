@@ -111,3 +111,48 @@ class MergeDrafts(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class CompleteWithDrafts(unittest.TestCase):
+    """--complete --with-drafts (sprint 029): a frame.json.draft goes into the copy as frame.json."""
+
+    def setUp(self):
+        self.dir = tempfile.mkdtemp()
+        self.subj = os.path.join(self.dir, 'subjects', 'subj')
+        for f, name in (('a', 'frame.json'), ('b', 'frame.json.draft'), ('c', 'frame.json'), ('c', 'frame.json.draft')):
+            os.makedirs(os.path.join(self.subj, 'frames', f), exist_ok=True)
+            with open(os.path.join(self.subj, 'frames', f, name), 'w') as fh:
+                json.dump({'id': f, 'from': name}, fh)
+        with open(os.path.join(self.subj, 'subject.json'), 'w') as fh:
+            json.dump({'palettes': {}}, fh)
+        self.names = os.path.join(self.dir, 'names')
+        os.makedirs(self.names)
+        self.plan = os.path.join(self.dir, 'plan.json')
+        with open(self.plan, 'w') as fh:
+            json.dump(plan(), fh)
+
+    def tearDown(self):
+        shutil.rmtree(self.dir)
+
+    def complete(self, *extra):
+        out = os.path.join(self.dir, 'copy')
+        r = subprocess.run([sys.executable, os.path.join(HERE, 'subject_plan.py'), self.plan, self.subj,
+                            '--complete', out, '--names', self.names, *extra], capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stderr)
+        with open(os.path.join(out, 'subj', 'spine.json')) as fh:
+            spine = [f for s in json.load(fh)['segments'] for f in s['frames']]
+        return out, spine, r.stdout
+
+    def test_without_it_a_draft_is_left_out(self):
+        _, spine, _ = self.complete()
+        self.assertEqual(spine, ['a', 'c'])
+
+    def test_with_it_the_draft_is_the_frame(self):
+        out, spine, said = self.complete('--with-drafts')
+        self.assertEqual(spine, ['a', 'b', 'c'])
+        frames = os.path.join(out, 'subj', 'frames')
+        for f in ('b', 'c'):
+            with open(os.path.join(frames, f, 'frame.json')) as fh:
+                self.assertEqual(json.load(fh)['from'], 'frame.json.draft')
+            self.assertFalse(os.path.exists(os.path.join(frames, f, 'frame.json.draft')))
+        self.assertIn('c: the copy holds its frame.json.draft', said)

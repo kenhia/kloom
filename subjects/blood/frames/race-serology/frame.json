@@ -110,7 +110,7 @@
 			"published": "1996",
 			"url": "https://pubmed.ncbi.nlm.nih.gov/9136280/",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "article",
@@ -128,7 +128,7 @@
 			"published": "2023",
 			"doi": "10.1016/j.tmrv.2023.150749",
 			"accessed": "2026-10-01",
-			"abstractOnly": true
+			"read": "abstract"
 		},
 		{
 			"kind": "book",
