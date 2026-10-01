@@ -1,0 +1,250 @@
+{
+	"id": "heparin",
+	"topic": "The discovery of heparin",
+	"position": {
+		"label": "1916",
+		"sort": 1916
+	},
+	"scene": {
+		"headline": "We found what stops a clot in the",
+		"accent": "LIVER.",
+		"palette": "cryo",
+		"illustration": "scene.svg",
+		"metadata": ["JOHNS HOPKINS · BALTIMORE", "JAY MCLEAN · WILLIAM HOWELL · TORONTO"],
+		"counter": {
+			"value": "6 h",
+			"label": "plasma with cuorin stayed fluid; the control clotted in 9 minutes"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Thromboplastic Action of Cephalin",
+			"authors": [
+				{
+					"family": "McLean",
+					"given": "Jay"
+				}
+			],
+			"container": "American Journal of Physiology",
+			"volume": "41",
+			"issue": "2",
+			"pages": "250–257",
+			"published": "1916-08",
+			"doi": "10.1152/ajplegacy.1916.41.2.250",
+			"url": "https://archive.org/details/sim_american-journal-of-physiology_1916-08-01_41_2",
+			"accessed": "2026-10-01",
+			"note": "The test method (p. 251) and the cuorin and heparphosphatid results (pp. 254–256)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Discovery of Heparin",
+			"authors": [
+				{
+					"family": "McLean",
+					"given": "Jay"
+				}
+			],
+			"container": "Circulation",
+			"volume": "19",
+			"issue": "1",
+			"pages": "75–78",
+			"published": "1959-01",
+			"doi": "10.1161/01.CIR.19.1.75",
+			"accessed": "2026-10-01",
+			"note": "His own account, unfinished at his death in 1957"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Two New Factors in Blood Coagulation—Heparin and Pro-Antithrombin",
+			"authors": [
+				{
+					"family": "Howell",
+					"given": "W. H."
+				},
+				{
+					"family": "Holt",
+					"given": "Emmett"
+				}
+			],
+			"container": "American Journal of Physiology",
+			"volume": "47",
+			"issue": "3",
+			"pages": "328–341",
+			"published": "1918-12",
+			"doi": "10.1152/ajplegacy.1918.47.3.328",
+			"url": "https://archive.org/details/sim_american-journal-of-physiology_1918-12-01_47_3",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Outbreak of Adverse Reactions Associated with Contaminated Heparin",
+			"authors": [
+				{
+					"family": "Blossom",
+					"given": "David B."
+				},
+				{
+					"family": "Kallen",
+					"given": "Alexander J."
+				},
+				{
+					"family": "Patel",
+					"given": "Priti R."
+				},
+				{
+					"family": "Elward",
+					"given": "Alexis M."
+				},
+				{
+					"family": "Robinson",
+					"given": "Luke N."
+				},
+				{
+					"family": "Gao",
+					"given": "Gan-Pan"
+				}
+			],
+			"etAl": true,
+			"container": "New England Journal of Medicine",
+			"volume": "359",
+			"issue": "25",
+			"pages": "2674–2684",
+			"published": "2008-12-18",
+			"doi": "10.1056/NEJMoa0806450",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heparin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heparin&oldid=1374447608",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "William Henry Howell and Jay McLean: The Experimental Context for the Discovery of Heparin",
+			"authors": [
+				{
+					"family": "Marcum",
+					"given": "James A."
+				}
+			],
+			"container": "Perspectives in Biology and Medicine",
+			"volume": "33",
+			"issue": "2",
+			"pages": "214–230",
+			"published": "1990",
+			"doi": "10.1353/pbm.1990.0015",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "History of Drugs for Thrombotic Disease: Discovery, Development, and Directions for the Future",
+			"authors": [
+				{
+					"family": "Mueller",
+					"given": "Richard L."
+				},
+				{
+					"family": "Scheidt",
+					"given": "Stephen"
+				}
+			],
+			"container": "Circulation",
+			"volume": "89",
+			"issue": "1",
+			"pages": "432–449",
+			"published": "1994-01",
+			"doi": "10.1161/01.cir.89.1.432",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "web",
+			"title": "Miracle Blood Lubricant: Connaught and the Story of Heparin, 1928–1937",
+			"authors": [
+				{
+					"family": "Rutty",
+					"given": "Christopher J."
+				}
+			],
+			"container": "Health Heritage Research Services",
+			"published": "2000",
+			"url": "http://www.healthheritageresearch.com/Heparin-Conntact9608.html",
+			"accessed": "2026-10-01",
+			"note": "First printed in CONNTACT, August 1996"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jay McLean",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jay_McLean&oldid=1336836161",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Henry Howell",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Henry_Howell&oldid=1372737487",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "2008 Chinese heparin adulteration",
+			"url": "https://en.wikipedia.org/w/index.php?title=2008_Chinese_heparin_adulteration&oldid=1364646052",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-17"
+		},
+		{
+			"kind": "media",
+			"title": "William H. Howell, half-length portrait, standing, facing front, leaning on lectern, holding papers",
+			"url": "https://commons.wikimedia.org/wiki/File:William_H._Howell_LCCN2004669211_(cropped).jpg",
+			"accessed": "2026-10-01",
+			"container": "Library of Congress Prints and Photographs Division, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "howell.jpg",
+			"authors": [
+				{
+					"family": "Ulmann",
+					"given": "Doris"
+				}
+			],
+			"published": "1922"
+		}
+	]
+}

@@ -1,0 +1,158 @@
+{
+	"id": "prothrombin-time",
+	"topic": "Quick's prothrombin time",
+	"position": {
+		"label": "1935",
+		"sort": 1935
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "We timed the clot in",
+		"accent": "SECONDS.",
+		"palette": "ward",
+		"illustration": "scene.svg",
+		"metadata": ["MARQUETTE UNIVERSITY · MILWAUKEE", "PLASMA · RABBIT BRAIN · CALCIUM · 37 °C"],
+		"counter": {
+			"value": "22–25 s",
+			"label": "for normal plasma by Quick's test in 1935"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Study of the Coagulation Defect in Hemophilia and in Jaundice",
+			"authors": [
+				{
+					"family": "Quick",
+					"given": "Armand J."
+				},
+				{
+					"family": "Stanley-Brown",
+					"given": "Margaret"
+				},
+				{
+					"family": "Bancroft",
+					"given": "Frederic W."
+				}
+			],
+			"container": "American Journal of the Medical Sciences",
+			"volume": "190",
+			"issue": "4",
+			"pages": "501–511",
+			"published": "1935-10",
+			"doi": "10.1097/00000441-193510000-00009",
+			"url": "https://archive.org/details/sim_american-journal-of-the-medical-sciences_1935-10_190_4",
+			"accessed": "2026-10-01",
+			"note": "The test, tables 1–5 and the footnote on New York and Milwaukee rabbits (pp. 503–510)"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Methods for Medical Laboratory Technicians",
+			"authors": [
+				{
+					"name": "Departments of the Army and the Air Force"
+				}
+			],
+			"number": "TM 8-227 / AFM 160-14",
+			"publisher": "Departments of the Army and the Air Force",
+			"place": "Washington, DC",
+			"published": "1951-08-03",
+			"url": "https://archive.org/details/TM8227",
+			"accessed": "2026-10-01",
+			"note": "Paragraph 80, Quick's method (pp. 75–76)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Reanchoring the International Normalized Ratio: The Sixth World Health Organization Thromboplastin Standard and the Next Stage of Prothrombin Time Standardization",
+			"authors": [
+				{
+					"family": "MacDonald",
+					"given": "Stephen"
+				}
+			],
+			"container": "Research and Practice in Thrombosis and Haemostasis",
+			"volume": "10",
+			"issue": "6",
+			"pages": "106896",
+			"published": "2026-08",
+			"doi": "10.1016/j.rpth.2026.106896",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Prothrombin time",
+			"url": "https://en.wikipedia.org/w/index.php?title=Prothrombin_time&oldid=1372042229",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Reliance on Prothrombin Time Ratios Causes Significant Errors in Anticoagulation Therapy",
+			"authors": [
+				{
+					"family": "Bussey",
+					"given": "Henry I."
+				}
+			],
+			"container": "Archives of Internal Medicine",
+			"volume": "152",
+			"issue": "2",
+			"pages": "278–282",
+			"published": "1992-02",
+			"doi": "10.1001/archinte.1992.00400140032009",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "The Progress of Prothrombin Time Measurement",
+			"authors": [
+				{
+					"family": "Horsti",
+					"given": "Juha"
+				}
+			],
+			"container": "Hematology Reviews",
+			"volume": "1",
+			"issue": "2",
+			"pages": "e19",
+			"published": "2009",
+			"doi": "10.4081/hr.2009.e19",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Armand J. Quick",
+			"url": "https://en.wikipedia.org/w/index.php?title=Armand_J._Quick&oldid=1292094309",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-05-25"
+		},
+		{
+			"kind": "media",
+			"title": "Quick's prothrombin time as plasma is diluted, 1935 (chart)",
+			"url": "https://archive.org/details/sim_american-journal-of-the-medical-sciences_1935-10_190_4",
+			"container": "Data from Quick, Stanley-Brown and Bancroft, American Journal of the Medical Sciences 190 (1935), table 2; chart drawn for kloom",
+			"licence": "MIT",
+			"file": "dilution.svg",
+			"accessed": "2026-10-01"
+		}
+	]
+}

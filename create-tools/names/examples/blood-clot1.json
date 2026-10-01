@@ -1,0 +1,31 @@
+{
+	"blood/royal-hemophilia": [
+		["Queen Victoria", "queen-victoria"],
+		["Prince Leopold", "prince-leopold-duke-of-albany"],
+		["hemophilia", "haemophilia"],
+		["Alexandra", "alexandra-feodorovna-alix-of-hesse"],
+		["Alexei", "alexei-nikolaevich-tsarevich-of-russia"],
+		["hemophilia B", "haemophilia-b"],
+		["factor IX", "factor-ix"],
+		["polymerase chain reaction", "polymerase-chain-reaction"]
+	],
+	"blood/heparin": [
+		["Johns Hopkins", "johns-hopkins-university"],
+		["Jay McLean", "jay-mclean"],
+		["William Henry Howell", "william-henry-howell"],
+		["heparin", "heparin"],
+		["Charles Best", "charles-best-medical-scientist"],
+		["Connaught Laboratories", "connaught-laboratories"],
+		["Baxter", "baxter-international"]
+	],
+	"blood/prothrombin-time": [
+		["Armand Quick", "armand-j-quick"],
+		["Marquette University", "marquette-university"],
+		["warfarin", "warfarin"],
+		["prothrombin time", "prothrombin-time"],
+		["thromboplastin", "thromboplastin"],
+		["thrombin", "thrombin"],
+		["hemophilia", "haemophilia"],
+		["World Health Organization", "world-health-organization"]
+	]
+}
