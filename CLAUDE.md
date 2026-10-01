@@ -155,6 +155,12 @@ korg 3461.
 Sprint 025 the seventh subject, `subjects/chemistry` (66 frames: dates
 to 1898, then categories, three trails), every reading doing one piece
 of chemistry, the second author-subject run reporting to korg 3461.
+Sprint 026 a per-subject `subtitle` in `subject.json` (shown under the
+title on the start screen, in the subject list and in About), and the
+eighth subject, `subjects/making`, _How We Build_ (68 frames: a spine by
+craft, each craft a `date` segment that starts time again, five trails),
+every reading walking through one real technique, the third
+author-subject run reporting to korg 3461.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

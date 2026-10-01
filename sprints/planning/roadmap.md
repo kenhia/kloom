@@ -153,6 +153,23 @@
   and anywhere in the library (W), never the one you are on (3437) —
   [record](../023-exploring-for-fun.md).
 
+- Sprint 024: the sixth subject, the History of Mathematics (proposal
+  3462, covering 3429). 65 frames, every reading doing one piece of
+  mathematics; the first of three author-subject runs reporting to 3461 —
+  [record](../024-sixth-subject-mathematics.md).
+
+- Sprint 025: the seventh subject, the History of Chemistry (proposal
+  3463, covering 3430). 66 frames, every reading doing one piece of
+  chemistry; 108 connections stored on its frames; the second run
+  reporting to 3461 — [record](../025-seventh-subject-chemistry.md).
+
+- Sprint 026: a per-subject subtitle (3465), and the eighth subject, _How
+  We Build_, "creating the objects around us" (proposal 3464, covering
+  3431). 68 frames on a spine by craft (each craft a `date` segment that
+  starts time again) and five trails, every reading walking through one
+  real technique; 83 connections on its frames, 42 into other subjects;
+  the third run reporting to 3461 — [record](../026-how-we-build.md).
+
 ## Next
 
 - Whatever the korg Planning queue holds for project kloom (72).
