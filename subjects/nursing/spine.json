@@ -5,6 +5,12 @@
 			"title": "Care before nursing",
 			"labelKind": "date",
 			"frames": ["basiliad", "monastic-infirmary", "hospitallers"]
+		},
+		{
+			"id": "dedication-seg",
+			"title": "Dedication",
+			"labelKind": "category",
+			"frames": ["dedication"]
 		}
 	]
 }
