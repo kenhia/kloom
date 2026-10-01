@@ -1,0 +1,30 @@
+{
+	"nursing/surgical-scrub": [
+		["Paul Fürbringer", "paul-furbringer"],
+		["mercuric chloride", "mercury-ii-chloride"],
+		["Johns Hopkins University", "johns-hopkins-university"],
+		["hexachlorophene", "hexachlorophene"],
+		["Chlorhexidine", "chlorhexidine"],
+		["World Health Organization", "world-health-organization"],
+		["William Stewart Halsted", "william-stewart-halsted"],
+		["Caroline Hampton", "caroline-hampton"]
+	],
+	"nursing/surgical-mask": [
+		["Jan Mikulicz-Radecki", "jan-mikulicz-radecki"],
+		["Carl Flügge", "carl-flugge"],
+		["tuberculosis", "tuberculosis"],
+		["surgical mask", "surgical-mask"],
+		["_Serratia marcescens_", "serratia-marcescens"],
+		["William Williams Keen", "william-williams-keen"],
+		["Alice Hamilton", "alice-hamilton"],
+		["Cochrane", "cochrane-organisation"]
+	],
+	"nursing/instrument-table": [
+		["appendectomy", "appendectomy"],
+		["hospital corpsman", "hospital-corpsman"],
+		["hemostats", "hemostat"],
+		["Mayo scissors", "mayo-scissors"],
+		["Jan Mikulicz", "jan-mikulicz-radecki"],
+		["United States Navy", "united-states-navy"]
+	]
+}

@@ -1,0 +1,268 @@
+{
+	"id": "surgical-mask",
+	"topic": "The surgical mask",
+	"position": { "label": "1897", "sort": 1897 },
+	"scene": {
+		"headline": "We spoke through",
+		"accent": "GAUZE.",
+		"palette": "theatre",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BRESLAU · JAN MIKULICZ · CARL FLÜGGE · WILHELM HÜBENER",
+			"BACILLUS PRODIGIOSUS · FOUR AGAR PLATES · TWO LAYERS OF GAUZE"
+		],
+		"counter": {
+			"value": "362",
+			"label": "red colonies from ten minutes' unmasked counting; none through two layers of gauze (Hübener, 1898)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ueber die Möglichkeit der Wundinfection vom Munde aus und ihre Verhütung durch Operationsmasken",
+			"authors": [{ "family": "Hübener", "given": "Wilhelm" }],
+			"container": "Zeitschrift für Hygiene und Infectionskrankheiten",
+			"volume": "28",
+			"pages": "348–372",
+			"published": "1898",
+			"language": "de",
+			"url": "https://archive.org/details/zeitschriftfurhygieneundinfectionskrankheiten28.1898",
+			"accessed": "2026-10-01",
+			"note": "The test with Bacillus prodigiosus, tables I–VIII, and the wire-framed mask, pp. 351–359"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Making the Medical Mask: Surgery, Bacteriology, and the Control of Infection (1870s–1920s)",
+			"authors": [
+				{ "family": "Schlich", "given": "Thomas" },
+				{ "family": "Strasser", "given": "Bruno J." }
+			],
+			"container": "Medical History",
+			"volume": "66",
+			"issue": "2",
+			"pages": "116–134",
+			"published": "2022-04",
+			"doi": "10.1017/mdh.2022.5",
+			"accessed": "2026-10-01",
+			"note": "Mikulicz, Flügge and Hübener at Breslau; Keen's mask; Fraenkel; Alice Hamilton"
+		},
+		{
+			"kind": "article",
+			"title": "A History of the Medical Mask and the Rise of Throwaway Culture",
+			"authors": [
+				{ "family": "Strasser", "given": "Bruno J." },
+				{ "family": "Schlich", "given": "Thomas" }
+			],
+			"container": "The Lancet",
+			"volume": "396",
+			"issue": "10243",
+			"pages": "19–20",
+			"published": "2020-07",
+			"doi": "10.1016/S0140-6736(20)31207-1",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Ueber Luftinfection",
+			"authors": [{ "family": "Flügge", "given": "Carl" }],
+			"container": "Zeitschrift für Hygiene und Infectionskrankheiten",
+			"volume": "25",
+			"pages": "179–224",
+			"published": "1897",
+			"language": "de",
+			"citedIn": "Ueber die Möglichkeit der Wundinfection vom Munde aus und ihre Verhütung durch Operationsmasken"
+		},
+		{
+			"kind": "article",
+			"title": "Das Operiren in sterilisirten Zwirnhandschuhen und mit Mundbinde",
+			"authors": [{ "family": "Mikulicz", "given": "Johann" }],
+			"container": "Centralblatt für Chirurgie",
+			"volume": "24",
+			"pages": "713–719",
+			"published": "1897",
+			"language": "de",
+			"citedIn": "Making the Medical Mask: Surgery, Bacteriology, and the Control of Infection (1870s–1920s)"
+		},
+		{
+			"kind": "article",
+			"title": "Uncovering the History of Operating Room Attire through Photographs",
+			"authors": [
+				{ "family": "Adams", "given": "L. W." },
+				{ "family": "Aschenbrenner", "given": "C. A." },
+				{ "family": "Houle", "given": "T. T." },
+				{ "family": "Roy", "given": "R. C." }
+			],
+			"container": "Anesthesiology",
+			"volume": "124",
+			"issue": "1",
+			"pages": "19–24",
+			"published": "2016-01",
+			"doi": "10.1097/ALN.0000000000000932",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Is a Mask Necessary in the Operating Theatre?",
+			"authors": [{ "family": "Orr", "given": "N. W." }],
+			"container": "Annals of the Royal College of Surgeons of England",
+			"volume": "63",
+			"issue": "6",
+			"pages": "390–392",
+			"published": "1981-11",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/7294681/",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Trial of the Use of Masks in the Gynaecological Operating Theatre",
+			"authors": [
+				{ "family": "Chamberlain", "given": "G. V." },
+				{ "family": "Houang", "given": "E." }
+			],
+			"container": "Annals of the Royal College of Surgeons of England",
+			"volume": "66",
+			"issue": "6",
+			"pages": "432–433",
+			"published": "1984-11",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/6391343/",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Postoperative Wound Infections and Surgical Face Masks: A Controlled Study",
+			"authors": [{ "family": "Tunevall", "given": "T. G." }],
+			"container": "World Journal of Surgery",
+			"volume": "15",
+			"issue": "3",
+			"pages": "383–387",
+			"published": "1991",
+			"doi": "10.1007/BF01658736",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Disposable Surgical Face Masks for Preventing Surgical Wound Infection in Clean Surgery",
+			"authors": [
+				{ "family": "Vincent", "given": "Marina" },
+				{ "family": "Edwards", "given": "Peggy" }
+			],
+			"container": "Cochrane Database of Systematic Reviews",
+			"issue": "4",
+			"pages": "CD002929",
+			"published": "2016-04-26",
+			"doi": "10.1002/14651858.CD002929.pub3",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "Handbook of the Hospital Corps, United States Navy",
+			"authors": [{ "name": "United States Navy, Bureau of Medicine and Surgery" }],
+			"publisher": "Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1939",
+			"url": "https://archive.org/details/HandbookOfTheHospitalCorpsUSN1939",
+			"accessed": "2026-10-01",
+			"note": "Caps and masks, p. 365"
+		},
+		{
+			"kind": "report",
+			"title": "Operating Room Technique for Surgical Technicians",
+			"authors": [{ "name": "Enlisted Technicians School, Letterman General Hospital" }],
+			"publisher": "US Army, Letterman General Hospital",
+			"place": "San Francisco",
+			"published": "1943",
+			"url": "https://archive.org/details/54720950R.nlm.nih.gov",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "Handbook of the Hospital Corps, United States Navy",
+			"edition": "8th ed.",
+			"authors": [{ "name": "United States Navy, Bureau of Medicine and Surgery" }],
+			"publisher": "Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1959",
+			"url": "https://archive.org/details/HandbookOfTheHospitalCorps1959",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"title": "Routine Procedures for an Operation",
+			"number": "Subcourse MD0935, edition 100",
+			"authors": [{ "name": "US Army Medical Department Center and School" }],
+			"publisher": "US Army Medical Department Center and School",
+			"place": "Fort Sam Houston, Texas",
+			"url": "https://archive.org/details/md-0935-routine-procedures-for-an-operation-edition-100",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Surgical mask",
+			"url": "https://en.wikipedia.org/w/index.php?title=Surgical_mask&oldid=1373228519",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl Flügge",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_Fl%C3%BCgge&oldid=1372335957",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jan Mikulicz-Radecki",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jan_Mikulicz-Radecki&oldid=1372017460",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "The mask's wire frame (Fig. 1), from Hübener's \"Ueber die Möglichkeit der Wundinfection vom Munde aus\"",
+			"url": "https://archive.org/details/zeitschriftfurhygieneundinfectionskrankheiten28.1898/page/n366/mode/1up",
+			"accessed": "2026-10-01",
+			"authors": [{ "family": "Hübener", "given": "Wilhelm" }],
+			"container": "Zeitschrift für Hygiene und Infectionskrankheiten 28 (1898), p. 357; University of California copy on the Internet Archive, cropped",
+			"published": "1898",
+			"licence": "Public domain",
+			"file": "hubener-frame.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "The mask worn (Fig. 2), from Hübener's \"Ueber die Möglichkeit der Wundinfection vom Munde aus\"",
+			"url": "https://archive.org/details/zeitschriftfurhygieneundinfectionskrankheiten28.1898/page/n366/mode/1up",
+			"accessed": "2026-10-01",
+			"authors": [{ "family": "Hübener", "given": "Wilhelm" }],
+			"container": "Zeitschrift für Hygiene und Infectionskrankheiten 28 (1898), p. 357; University of California copy on the Internet Archive, cropped",
+			"published": "1898",
+			"licence": "Public domain",
+			"file": "hubener-mask.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Red colonies on four plates after ten minutes' counting aloud, with and without the mask, 1898 (chart)",
+			"url": "https://archive.org/details/zeitschriftfurhygieneundinfectionskrankheiten28.1898",
+			"accessed": "2026-10-01",
+			"container": "Data from Hübener, Zeitschrift für Hygiene und Infectionskrankheiten 28 (1898), table VII; chart drawn for kloom",
+			"licence": "MIT",
+			"file": "colonies.svg"
+		}
+	]
+}
