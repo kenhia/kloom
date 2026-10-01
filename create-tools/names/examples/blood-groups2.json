@@ -1,0 +1,29 @@
+{
+	"blood/more-antigens": [
+		["Coombs test", "coombs-test"],
+		["Kell antigen system", "kell-antigen-system"],
+		["haemophilia", "haemophilia"],
+		["Duffy antigen system", "duffy-antigen-system"],
+		["Kidd antigen system", "kidd-antigen-system"],
+		["Victor A. McKusick", "victor-a-mckusick"],
+		["_Plasmodium vivax_", "plasmodium-vivax"]
+	],
+	"blood/bombay": [
+		["ABO system", "abo-blood-group-system"],
+		["Bombay", "mumbai"],
+		["Ruth Sanger", "ruth-sanger"],
+		["Winifred Watkins", "winifred-watkins"],
+		["Bombay phenotype", "hh-blood-group"],
+		["_Ulex europaeus_", "ulex-europaeus"]
+	],
+	"blood/hla": [
+		["Paris", "paris"],
+		["Jean Dausset", "jean-dausset"],
+		["human leukocyte antigen", "human-leukocyte-antigen"],
+		["Jon van Rood", "jon-van-rood"],
+		["Stanford", "stanford-university"],
+		["Rose Payne", "rose-payne"],
+		["Paul Terasaki", "paul-terasaki"],
+		["Nobel Prize in Physiology or Medicine", "nobel-prize-in-physiology-or-medicine"]
+	]
+}

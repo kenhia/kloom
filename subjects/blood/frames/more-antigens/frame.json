@@ -1,0 +1,440 @@
+{
+	"id": "more-antigens",
+	"topic": "Kell, Duffy and Kidd",
+	"position": {
+		"label": "1946–51",
+		"sort": 1946
+	},
+	"scene": {
+		"headline": "We named the new groups for",
+		"accent": "PATIENTS.",
+		"palette": "plasma",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · BOSTON · BALTIMORE",
+			"KELL 1946 · DUFFY 1950 · KIDD 1951 · THE ANTIGLOBULIN TEST"
+		],
+		"counter": {
+			"value": "133 of 205",
+			"label": "English adults whose cells carried Duffy's antigen"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Duffy Blood Group System",
+			"authors": [
+				{
+					"family": "Cutbush",
+					"given": "Marie"
+				},
+				{
+					"family": "Mollison",
+					"given": "P. L."
+				}
+			],
+			"container": "Heredity",
+			"volume": "4",
+			"issue": "3",
+			"pages": "383–389",
+			"published": "1950",
+			"doi": "10.1038/hdy.1950.31",
+			"accessed": "2026-10-01",
+			"note": "The case of R. D., the crossmatch that missed the antibody, and the first 205 people typed"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Duffy blood group",
+			"container": "Blood Groups and Red Cell Antigens",
+			"authors": [
+				{
+					"family": "Dean",
+					"given": "L."
+				}
+			],
+			"publisher": "National Center for Biotechnology Information",
+			"place": "Bethesda, MD",
+			"published": "2005",
+			"url": "https://www.ncbi.nlm.nih.gov/books/NBK2271/",
+			"accessed": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "chapter",
+			"title": "The Kell blood group",
+			"container": "Blood Groups and Red Cell Antigens",
+			"authors": [
+				{
+					"family": "Dean",
+					"given": "L."
+				}
+			],
+			"publisher": "National Center for Biotechnology Information",
+			"place": "Bethesda, MD",
+			"published": "2005",
+			"url": "https://www.ncbi.nlm.nih.gov/books/NBK2270/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Kidd blood group",
+			"container": "Blood Groups and Red Cell Antigens",
+			"authors": [
+				{
+					"family": "Dean",
+					"given": "L."
+				}
+			],
+			"publisher": "National Center for Biotechnology Information",
+			"place": "Bethesda, MD",
+			"published": "2005",
+			"url": "https://www.ncbi.nlm.nih.gov/books/NBK2272/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood compatibility testing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_compatibility_testing&oldid=1354891107",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Introduction to Antibody Identification",
+			"authors": [
+				{
+					"family": "Rhees",
+					"given": "Justin R."
+				}
+			],
+			"container": "University of Utah, Medical Laboratory Sciences (ARUP Laboratories)",
+			"url": "https://arup.utah.edu/media/AntibodyIdentification/Introduction%20to%20Antibody%20Identification.pdf",
+			"accessed": "2026-10-01",
+			"note": "Exclusion, dosage and the rule of three; read in the Internet Archive's copy"
+		},
+		{
+			"kind": "article",
+			"title": "A New Human Blood Group",
+			"authors": [
+				{
+					"family": "Cutbush",
+					"given": "Marie"
+				},
+				{
+					"family": "Mollison",
+					"given": "P. L."
+				},
+				{
+					"family": "Parkin",
+					"given": "Dorothy M."
+				}
+			],
+			"container": "Nature",
+			"volume": "165",
+			"pages": "188–189",
+			"published": "1950-02-04",
+			"doi": "10.1038/165188b0",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "A New Blood-Group Antigen",
+			"authors": [
+				{
+					"family": "Allen",
+					"given": "Fred H., Jr."
+				},
+				{
+					"family": "Diamond",
+					"given": "Louis K."
+				},
+				{
+					"family": "Niedziela",
+					"given": "Bevely"
+				}
+			],
+			"container": "Nature",
+			"volume": "167",
+			"pages": "482",
+			"published": "1951-03-24",
+			"doi": "10.1038/167482b0",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "In-Vivo Isosensitisation of Red Cells in Babies with Haemolytic Disease",
+			"authors": [
+				{
+					"family": "Coombs",
+					"given": "R. R. A."
+				},
+				{
+					"family": "Mourant",
+					"given": "A. E."
+				},
+				{
+					"family": "Race",
+					"given": "R. R."
+				}
+			],
+			"container": "The Lancet",
+			"volume": "247",
+			"issue": "6391",
+			"pages": "264–266",
+			"published": "1946-02-23",
+			"doi": "10.1016/S0140-6736(46)91925-3",
+			"accessed": "2026-10-01",
+			"citedIn": "Westhoff and Reid, “Review: The Kell, Duffy, and Kidd Blood Group Systems” (2004)"
+		},
+		{
+			"kind": "article",
+			"title": "Review: The Kell, Duffy, and Kidd Blood Group Systems",
+			"authors": [
+				{
+					"family": "Westhoff",
+					"given": "C. M."
+				},
+				{
+					"family": "Reid",
+					"given": "M. E."
+				}
+			],
+			"container": "Immunohematology",
+			"published": "2004",
+			"doi": "10.21307/immunohematology-2019-420",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Probable Assignment of the Duffy Blood Group Locus to Chromosome 1 in Man",
+			"authors": [
+				{
+					"family": "Donahue",
+					"given": "R. P."
+				},
+				{
+					"family": "Bias",
+					"given": "W. B."
+				},
+				{
+					"family": "Renwick",
+					"given": "J. H."
+				},
+				{
+					"family": "McKusick",
+					"given": "V. A."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "61",
+			"issue": "3",
+			"pages": "949–955",
+			"published": "1968-11",
+			"doi": "10.1073/pnas.61.3.949",
+			"accessed": "2026-10-01",
+			"citedIn": "Vanita et al., Molecular Vision (2008)"
+		},
+		{
+			"kind": "article",
+			"title": "A Mutation in GJA8 (p.P88Q) Is Associated with “Balloon-Like” Cataract with Y-Sutural Opacities in a Family of Indian Origin",
+			"authors": [
+				{
+					"family": "Vanita",
+					"given": "V."
+				},
+				{
+					"family": "Singh",
+					"given": "J. R."
+				},
+				{
+					"family": "Singh",
+					"given": "D."
+				},
+				{
+					"family": "Varon",
+					"given": "R."
+				},
+				{
+					"family": "Sperling",
+					"given": "K."
+				}
+			],
+			"container": "Molecular Vision",
+			"published": "2008",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2435161/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Genetic Polymorphisms of Rh, Kell, Duffy and Kidd Systems in a Population from the State of Paraná, Southern Brazil",
+			"authors": [
+				{
+					"family": "Guelsin",
+					"given": "G. A. S."
+				},
+				{
+					"family": "Sell",
+					"given": "A. M."
+				},
+				{
+					"family": "Castilho",
+					"given": "L."
+				}
+			],
+			"etAl": true,
+			"container": "Revista Brasileira de Hematologia e Hemoterapia",
+			"published": "2011",
+			"doi": "10.5581/1516-8484.20110009",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Erythrocyte Receptors for (Plasmodium knowlesi) Malaria: Duffy Blood Group Determinants",
+			"authors": [
+				{
+					"family": "Miller",
+					"given": "Louis H."
+				},
+				{
+					"family": "Mason",
+					"given": "S. J."
+				},
+				{
+					"family": "Dvorak",
+					"given": "J. A."
+				},
+				{
+					"family": "McGinniss",
+					"given": "M. H."
+				},
+				{
+					"family": "Rothman",
+					"given": "I. K."
+				}
+			],
+			"container": "Science",
+			"volume": "189",
+			"issue": "4202",
+			"pages": "561–563",
+			"published": "1975-08-15",
+			"doi": "10.1126/science.1145213",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "The Resistance Factor to Plasmodium vivax in Blacks: The Duffy-Blood-Group Genotype, FyFy",
+			"authors": [
+				{
+					"family": "Miller",
+					"given": "Louis H."
+				},
+				{
+					"family": "Mason",
+					"given": "S. J."
+				},
+				{
+					"family": "Clyde",
+					"given": "D. F."
+				},
+				{
+					"family": "McGinniss",
+					"given": "M. H."
+				}
+			],
+			"container": "New England Journal of Medicine",
+			"volume": "295",
+			"issue": "6",
+			"pages": "302–304",
+			"published": "1976-08-05",
+			"doi": "10.1056/NEJM197608052950602",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kell antigen system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kell_antigen_system&oldid=1368137933",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Duffy antigen system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Duffy_antigen_system&oldid=1373724412",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kidd antigen system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kidd_antigen_system&oldid=1354888876",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Victor A. McKusick",
+			"url": "https://en.wikipedia.org/w/index.php?title=Victor_A._McKusick&oldid=1373457418",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "media",
+			"title": "Plasmodium vivax trophozoite in a Giemsa-stained thin blood film",
+			"url": "https://commons.wikimedia.org/wiki/File:Plasmodium_vivax_01.png",
+			"accessed": "2026-10-01",
+			"container": "CDC Public Health Image Library (PHIL 5863), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "vivax-smear.jpg",
+			"authors": [
+				{
+					"family": "Glenn",
+					"given": "Steven"
+				}
+			],
+			"published": "1979"
+		}
+	]
+}

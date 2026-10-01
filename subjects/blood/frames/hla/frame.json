@@ -1,0 +1,305 @@
+{
+	"id": "hla",
+	"topic": "Dausset and the HLA antigens",
+	"position": {
+		"label": "1958",
+		"sort": 1958
+	},
+	"scene": {
+		"headline": "From typing blood we learned to type",
+		"accent": "TISSUE.",
+		"palette": "plasma",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · LEIDEN · STANFORD · LOS ANGELES",
+			"DAUSSET · VAN ROOD · PAYNE · TERASAKI"
+		],
+		"counter": {
+			"value": "11 of 19",
+			"label": "people whose white cells Dausset's sera clumped"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Short History of HLA",
+			"authors": [
+				{
+					"family": "Thorsby",
+					"given": "E."
+				}
+			],
+			"container": "Tissue Antigens",
+			"volume": "74",
+			"issue": "2",
+			"pages": "101–116",
+			"published": "2009",
+			"doi": "10.1111/j.1399-0039.2009.01291.x",
+			"accessed": "2026-10-01",
+			"note": "Dausset's MAC, the workshops and the clinical uses of matching"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Fetomaternal Leukocyte Incompatibility",
+			"authors": [
+				{
+					"family": "Payne",
+					"given": "Rose"
+				},
+				{
+					"family": "Rolfs",
+					"given": "Mary R."
+				}
+			],
+			"container": "Journal of Clinical Investigation",
+			"volume": "37",
+			"issue": "12",
+			"pages": "1756–1763",
+			"published": "1958-12",
+			"doi": "10.1172/JCI103768",
+			"accessed": "2026-10-01",
+			"note": "The leucoagglutination test and the 144 women"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Microdroplet Assay of Human Serum Cytotoxins",
+			"authors": [
+				{
+					"family": "Terasaki",
+					"given": "Paul I."
+				},
+				{
+					"family": "McClelland",
+					"given": "J. D."
+				}
+			],
+			"container": "Nature",
+			"volume": "204",
+			"pages": "998–1000",
+			"published": "1964-12-05",
+			"doi": "10.1038/204998b0",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Immunological Consequences of Past Transfusions in Kidney Transplant Candidates: A Focus on Anti-HLA Antibody Production",
+			"authors": [
+				{
+					"family": "Perić",
+					"given": "T."
+				},
+				{
+					"family": "Vojvodić",
+					"given": "S."
+				}
+			],
+			"container": "Hematology, Transfusion and Cell Therapy",
+			"published": "2025",
+			"doi": "10.1016/j.htct.2025.103990",
+			"accessed": "2026-10-01",
+			"note": "The NIH microcytotoxicity procedure in the table"
+		},
+		{
+			"kind": "article",
+			"title": "Allo-Antibody Production after Intraarticular Administration of Mesenchymal Stem Cells (MSCs) in an Equine Osteoarthritis Model",
+			"authors": [
+				{
+					"family": "Barrachina",
+					"given": "L."
+				},
+				{
+					"family": "Cequier",
+					"given": "A."
+				},
+				{
+					"family": "Romero",
+					"given": "A."
+				}
+			],
+			"etAl": true,
+			"container": "Stem Cell Research & Therapy",
+			"volume": "11",
+			"published": "2020",
+			"doi": "10.1186/s13287-020-1571-8",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Leucocyte Antibodies in Sera from Pregnant Women",
+			"authors": [
+				{
+					"family": "van Rood",
+					"given": "J. J."
+				},
+				{
+					"family": "Eernisse",
+					"given": "J. G."
+				},
+				{
+					"family": "van Leeuwen",
+					"given": "A."
+				}
+			],
+			"container": "Nature",
+			"volume": "181",
+			"pages": "1735–1736",
+			"published": "1958-06-21",
+			"doi": "10.1038/1811735a0",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Iso-leuco-anticorps",
+			"authors": [
+				{
+					"family": "Dausset",
+					"given": "Jean"
+				}
+			],
+			"container": "Acta Haematologica",
+			"volume": "20",
+			"pages": "156–166",
+			"published": "1958",
+			"doi": "10.1159/000205478",
+			"language": "fr",
+			"accessed": "2026-10-01",
+			"citedIn": "Thorsby, “A Short History of HLA” (2009)"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Major Histocompatibility Complex in Man: Past, Present, and Future Concepts",
+			"authors": [
+				{
+					"family": "Dausset",
+					"given": "Jean"
+				}
+			],
+			"container": "Nobel Lectures, Physiology or Medicine 1971–1980",
+			"editors": [
+				{
+					"family": "Lindsten",
+					"given": "Jan"
+				}
+			],
+			"publisher": "World Scientific",
+			"place": "Singapore",
+			"published": "1992",
+			"url": "https://www.nobelprize.org/uploads/2018/06/dausset-lecture.pdf",
+			"accessed": "2026-10-01",
+			"note": "Nobel lecture, 8 December 1980"
+		},
+		{
+			"kind": "web",
+			"title": "Jean Dausset – Biographical",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"url": "https://www.nobelprize.org/prizes/medicine/1980/dausset/biographical/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Human leukocyte antigen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Human_leukocyte_antigen&oldid=1372577318",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean Dausset",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean_Dausset&oldid=1372060143",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Terasaki",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Terasaki&oldid=1375919781",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rose Payne",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rose_Payne&oldid=1372556839",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jon van Rood",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jon_van_Rood&oldid=1361411868",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Platelet transfusion refractoriness",
+			"url": "https://en.wikipedia.org/w/index.php?title=Platelet_transfusion_refractoriness&oldid=1347812767",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-08"
+		},
+		{
+			"kind": "media",
+			"title": "Jean Dausset, Paris, 25 October 1968",
+			"url": "https://commons.wikimedia.org/wiki/File:Jean_Dausset_1968.jpg",
+			"accessed": "2026-10-01",
+			"container": "Nationaal Archief, Anefo collection (921-7955), via Wikimedia Commons",
+			"licence": "CC BY-SA 3.0 NL",
+			"file": "dausset-1968.jpg",
+			"authors": [
+				{
+					"name": "Agip"
+				}
+			],
+			"published": "1968-10-25"
+		}
+	]
+}

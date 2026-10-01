@@ -1,0 +1,285 @@
+{
+	"id": "bombay",
+	"topic": "The Bombay phenotype",
+	"position": {
+		"label": "1952",
+		"sort": 1952
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "We found a blood that takes only its",
+		"accent": "OWN.",
+		"palette": "vein",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BOMBAY · LONDON · THE LANCET, MAY 1952",
+			"NO H, NO A, NO B · ANTI-H IN THE PLASMA"
+		],
+		"counter": {
+			"value": "1 in 10,000",
+			"label": "people in India, about, and 1 in a million in Europe"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"title": "The Hh blood group",
+			"container": "Blood Groups and Red Cell Antigens",
+			"authors": [
+				{
+					"family": "Dean",
+					"given": "L."
+				}
+			],
+			"publisher": "National Center for Biotechnology Information",
+			"place": "Bethesda, MD",
+			"published": "2005",
+			"url": "https://www.ncbi.nlm.nih.gov/books/NBK2268/",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Its history of the 1952 finding, and the frequencies"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hh blood group",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hh_blood_group&oldid=1377264343",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Navigating Transfusion Challenges: Bombay Blood Group in Focus",
+			"authors": [
+				{
+					"family": "Jain",
+					"given": "R."
+				},
+				{
+					"family": "Patil",
+					"given": "V."
+				},
+				{
+					"family": "Sinha",
+					"given": "P."
+				},
+				{
+					"family": "Mishra",
+					"given": "S."
+				},
+				{
+					"family": "Naik",
+					"given": "R."
+				}
+			],
+			"container": "Journal of Education and Health Promotion",
+			"published": "2025",
+			"doi": "10.4103/jehp.jehp_519_24",
+			"accessed": "2026-10-01",
+			"note": "The case whose workup the table follows"
+		},
+		{
+			"kind": "article",
+			"title": "A “New” Blood Group Character Related to the ABO System",
+			"authors": [
+				{
+					"family": "Bhende",
+					"given": "Y. M."
+				},
+				{
+					"family": "Deshpande",
+					"given": "C. K."
+				},
+				{
+					"family": "Bhatia",
+					"given": "H. M."
+				},
+				{
+					"family": "Sanger",
+					"given": "Ruth"
+				},
+				{
+					"family": "Race",
+					"given": "R. R."
+				},
+				{
+					"family": "Morgan",
+					"given": "W. T. J."
+				},
+				{
+					"family": "Watkins",
+					"given": "W. M."
+				}
+			],
+			"container": "The Lancet",
+			"volume": "259",
+			"issue": "6714",
+			"pages": "903–904",
+			"published": "1952-05-03",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14918471/",
+			"accessed": "2026-10-01",
+			"citedIn": "Dean, Blood Groups and Red Cell Antigens, chap. 6"
+		},
+		{
+			"kind": "article",
+			"title": "Identification of a Rare Blood Group, “Bombay (Oh) Phenotype,” in Bhuyan Tribe of Northwestern Orissa, India",
+			"authors": [
+				{
+					"family": "Balgir",
+					"given": "R. S."
+				}
+			],
+			"container": "Indian Journal of Human Genetics",
+			"volume": "13",
+			"pages": "109–113",
+			"published": "2007",
+			"doi": "10.4103/0971-6866.38985",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Detection of Rare Blood Group, Bombay (Oh) Phenotype Patients and Management by Acute Normovolemic Hemodilution",
+			"authors": [
+				{
+					"family": "Shrivastava",
+					"given": "M."
+				},
+				{
+					"family": "Navaid",
+					"given": "S."
+				},
+				{
+					"family": "Peethambarakshan",
+					"given": "A."
+				}
+			],
+			"etAl": true,
+			"container": "Asian Journal of Transfusion Science",
+			"published": "2015",
+			"doi": "10.4103/0973-6247.150957",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "ABO Blood Group Antigens and Differential Glycan Expression: Perspective on the Evolution of Common Human Enzyme Deficiencies",
+			"authors": [
+				{
+					"family": "Jajosky",
+					"given": "R. P."
+				}
+			],
+			"etAl": true,
+			"container": "iScience",
+			"published": "2023",
+			"doi": "10.1016/j.isci.2022.105798",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Rare Donors",
+			"container": "International Society of Blood Transfusion, Working Parties",
+			"url": "https://www.isbtweb.org/isbt-working-parties/rare-donors.html",
+			"accessed": "2026-10-01",
+			"note": "The definition of a rare donor and the International Rare Donor Panel, as of October 2026"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ulex europaeus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ulex_europaeus&oldid=1374278321",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lectin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lectin&oldid=1368341382",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ruth Sanger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ruth_Sanger&oldid=1351268243",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Winifred Watkins",
+			"url": "https://en.wikipedia.org/w/index.php?title=Winifred_Watkins&oldid=1290915154",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-05-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood compatibility testing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_compatibility_testing&oldid=1354891107",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18"
+		},
+		{
+			"kind": "media",
+			"title": "Ulex europaeus (gorse), seed pods, Makawao Forest Reserve, Maui",
+			"url": "https://commons.wikimedia.org/wiki/File:Starr-030405-0002-Ulex_europaeus-seed_pods-Makawao_Forest_Reserve-Maui_(24603157416).jpg",
+			"accessed": "2026-10-01",
+			"container": "Starr Environmental, via Flickr and Wikimedia Commons",
+			"licence": "CC BY 3.0 US",
+			"file": "gorse-pods.jpg",
+			"authors": [
+				{
+					"family": "Starr",
+					"given": "Forest"
+				},
+				{
+					"family": "Starr",
+					"given": "Kim"
+				}
+			],
+			"published": "2003-04-05"
+		}
+	]
+}
