@@ -411,3 +411,21 @@ trouble. What recurred or was new:
 - The In the Blood links that meet no nursing frame stay listed on 3470's
   comment for a later frame (bedside transfusion, obstetric care, home
   infusion).
+
+## Deployed
+
+2026-10-01, by `just deploy` (the `recipe: deploy` in `.sprint-deploy`),
+from merged `main` at `56b71b3`, to the kloom service on kai. The
+service's content clone is at the same commit.
+
+- `just verify` passed all eight door checks: the tailnet door refuses
+  anonymous writes and reader-data reads, and the ssh door lets its reader
+  through.
+- **The sprint's work, live on both doors (:4890 and :4891), each 200:**
+  - `/nursing`, whose page carries "Keeping Watch" and the subtitle "care
+    at the bedside, from infirmary to operating room";
+  - `/nursing/dedication`, whose page carries "Captain Kathleen Hiatt,
+    USN", "Retired" and "NURSE CORPS · UNITED STATES NAVY";
+  - `/nursing/navy-pow` (a trail frame) and `/nursing/rose-diagram` (a
+    trail's anchor);
+  - `/api/start/nursing` and `/media/nursing/basiliad/basil-menologion.jpg`.
