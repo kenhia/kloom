@@ -1,0 +1,248 @@
+{
+	"id": "surgical-checklist",
+	"topic": "The surgical safety checklist",
+	"position": {
+		"label": "2008",
+		"sort": 2008
+	},
+	"scene": {
+		"headline": "Before the knife, we",
+		"accent": "PAUSE.",
+		"palette": "gown",
+		"illustration": "scene.svg",
+		"metadata": ["WHO · SAFE SURGERY SAVES LIVES · ATUL GAWANDE", "SIGN IN · TIME OUT · SIGN OUT"],
+		"counter": {
+			"value": "19",
+			"label": "items read aloud, in three pauses"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Surgical Safety Checklist",
+			"edition": "Revised 1/2009",
+			"authors": [
+				{
+					"name": "World Health Organization"
+				}
+			],
+			"publisher": "World Health Organization",
+			"place": "Geneva",
+			"published": "2009-01",
+			"url": "https://iris.who.int/bitstream/handle/10665/44186/9789241598590_eng_Checklist.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Implementation Manual: WHO Surgical Safety Checklist 2009",
+			"authors": [
+				{
+					"name": "World Health Organization"
+				}
+			],
+			"publisher": "World Health Organization",
+			"place": "Geneva",
+			"published": "2009",
+			"url": "https://iris.who.int/bitstream/handle/10665/44186/9789241598590_eng.pdf",
+			"accessed": "2026-10-01",
+			"note": "The checklist coordinator, the example time out and the sign out, pp. 6–12"
+		},
+		{
+			"kind": "report",
+			"title": "WHO Guidelines for Safe Surgery 2009: Safe Surgery Saves Lives",
+			"authors": [
+				{
+					"name": "World Health Organization"
+				}
+			],
+			"publisher": "World Health Organization",
+			"place": "Geneva",
+			"published": "2009",
+			"url": "https://iris.who.int/bitstream/handle/10665/44185/9789241598552_eng.pdf",
+			"accessed": "2026-10-01",
+			"note": "Wrong-site surgery, hierarchy and the Universal Protocol, pp. 10–12"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population",
+			"authors": [
+				{
+					"family": "Haynes",
+					"given": "Alex B."
+				},
+				{
+					"family": "Weiser",
+					"given": "Thomas G."
+				},
+				{
+					"family": "Berry",
+					"given": "William R."
+				},
+				{
+					"family": "Lipsitz",
+					"given": "Stuart R."
+				},
+				{
+					"family": "Breizat",
+					"given": "Abdel-Hadi S."
+				},
+				{
+					"family": "Dellinger",
+					"given": "E. Patchen"
+				},
+				{
+					"family": "Herbosa",
+					"given": "Teodoro"
+				}
+			],
+			"etAl": true,
+			"container": "New England Journal of Medicine",
+			"volume": "360",
+			"issue": "5",
+			"pages": "491–499",
+			"published": "2009-01-29",
+			"doi": "10.1056/NEJMsa0810119",
+			"url": "https://www.nejm.org/doi/full/10.1056/NEJMsa0810119",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Introduction of Surgical Safety Checklists in Ontario, Canada",
+			"authors": [
+				{
+					"family": "Urbach",
+					"given": "D. R."
+				},
+				{
+					"family": "Govindarajan",
+					"given": "A."
+				},
+				{
+					"family": "Saskin",
+					"given": "R."
+				},
+				{
+					"family": "Wilton",
+					"given": "A. S."
+				},
+				{
+					"family": "Baxter",
+					"given": "N. N."
+				}
+			],
+			"container": "New England Journal of Medicine",
+			"volume": "370",
+			"issue": "11",
+			"pages": "1029–1038",
+			"published": "2014-03",
+			"doi": "10.1056/NEJMsa1308261",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The 5th Anniversary of the \"Universal Protocol\": Pitfalls and Pearls Revisited",
+			"authors": [
+				{
+					"family": "Stahel",
+					"given": "Philip F."
+				},
+				{
+					"family": "Mehler",
+					"given": "Philip S."
+				},
+				{
+					"family": "Clarke",
+					"given": "Ted J."
+				},
+				{
+					"family": "Varnell",
+					"given": "Jeffrey"
+				}
+			],
+			"container": "Patient Safety in Surgery",
+			"volume": "3",
+			"pages": "14",
+			"published": "2009",
+			"doi": "10.1186/1754-9493-3-14",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "WHO Surgical Safety Checklist",
+			"url": "https://en.wikipedia.org/w/index.php?title=WHO_Surgical_Safety_Checklist&oldid=1339112722",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atul Gawande",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atul_Gawande&oldid=1376504195",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joint Commission",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joint_Commission&oldid=1370191958",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "media",
+			"title": "Lt. Cmdr. Amanda Kuczka, a perioperative nurse aboard the hospital ship USNS Mercy, listens to a brief before an operation",
+			"url": "https://commons.wikimedia.org/wiki/File:USNS_Mercy_Perioperative_Nurse_200417-N-DA693-1065_(49798859211).jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "mercy-brief.jpg",
+			"authors": [
+				{
+					"family": "Greenberg",
+					"given": "Jake"
+				}
+			],
+			"container": "US Navy photograph 200417-N-DA693-1065, Navy Medicine",
+			"published": "2020-04-17"
+		},
+		{
+			"kind": "media",
+			"title": "Deaths and complications before and after a surgical safety checklist, chart drawn for kloom from Haynes and others (2009) and Urbach and others (2014)",
+			"url": "https://www.nejm.org/doi/full/10.1056/NEJMsa0810119",
+			"accessed": "2026-10-01",
+			"container": "New England Journal of Medicine data; chart by kloom",
+			"licence": "MIT",
+			"file": "outcomes.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/lis",
+			"why": "The checklist's sign out has the nurse read each specimen's label aloud with the patient's name, against the mislabelled specimen that laboratory information systems were built to catch."
+		}
+	]
+}

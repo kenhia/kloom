@@ -1,0 +1,15 @@
+{
+	"id": "at-the-table",
+	"title": "At the table",
+	"anchor": "hampton-gloves",
+	"spine": {
+		"segments": [
+			{
+				"id": "table",
+				"title": "The scrub nurse's work",
+				"labelKind": "date",
+				"frames": ["surgical-count", "surgical-checklist"]
+			}
+		]
+	}
+}

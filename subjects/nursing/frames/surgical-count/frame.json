@@ -1,0 +1,336 @@
+{
+	"id": "surgical-count",
+	"topic": "The sponge and instrument count",
+	"position": {
+		"label": "1950s",
+		"sort": 1950
+	},
+	"scene": {
+		"headline": "Leave nothing",
+		"accent": "BEHIND.",
+		"palette": "theatre",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SCRUB AND CIRCULATING NURSE · SPONGES · SHARPS · INSTRUMENTS",
+			"LETTERMAN 1943 · NAVY HANDBOOK 1953 · WHO 2009"
+		],
+		"counter": {
+			"value": "88%",
+			"label": "of retained items whose final count was called correct (Gawande, 2003)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Operating Room Technique for Surgical Technicians",
+			"authors": [
+				{
+					"name": "Enlisted Technicians School, Letterman General Hospital"
+				}
+			],
+			"publisher": "Letterman General Hospital",
+			"place": "San Francisco",
+			"published": "1943",
+			"url": "https://archive.org/details/54720950R.nlm.nih.gov",
+			"accessed": "2026-10-01",
+			"note": "Counting laparotomy pads and sponges, p. 86"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Handbook of the Hospital Corps, United States Navy",
+			"number": "NavMed P-5004",
+			"authors": [
+				{
+					"name": "Bureau of Medicine and Surgery, United States Navy"
+				}
+			],
+			"publisher": "United States Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1953",
+			"url": "https://archive.org/details/handb53unit",
+			"accessed": "2026-10-01",
+			"note": "Duties of the circulating and scrub corpsmen, pp. 307–310; the board and the Nurse Corps's chapter, pp. v–vi"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "WHO Guidelines for Safe Surgery 2009: Safe Surgery Saves Lives",
+			"authors": [
+				{
+					"name": "World Health Organization"
+				}
+			],
+			"publisher": "World Health Organization",
+			"place": "Geneva",
+			"published": "2009",
+			"url": "https://iris.who.int/bitstream/handle/10665/44185/9789241598552_eng.pdf",
+			"accessed": "2026-10-01",
+			"note": "Objective 7, counting sponges, sharps and instruments, pp. 72–75"
+		},
+		{
+			"kind": "web",
+			"title": "Ales v. Ryan, 8 Cal. 2d 82 (1936)",
+			"authors": [
+				{
+					"name": "Supreme Court of California"
+				}
+			],
+			"container": "Justia US Law",
+			"published": "1936-12-31",
+			"url": "https://law.justia.com/cases/california/supreme-court/2d/8/82.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Sparger v. Worley Hospital, Inc., 547 S.W.2d 582 (Tex. 1977)",
+			"authors": [
+				{
+					"name": "Supreme Court of Texas"
+				}
+			],
+			"container": "Justia US Law",
+			"published": "1977-03-02",
+			"url": "https://law.justia.com/cases/texas/supreme-court/1977/b-5721-0.html",
+			"accessed": "2026-10-01",
+			"note": "The nurses' count, the hospital's manual and the captain of the ship"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Risk Factors for Retained Instruments and Sponges after Surgery",
+			"authors": [
+				{
+					"family": "Gawande",
+					"given": "Atul A."
+				},
+				{
+					"family": "Studdert",
+					"given": "David M."
+				},
+				{
+					"family": "Orav",
+					"given": "E. John"
+				},
+				{
+					"family": "Brennan",
+					"given": "Troyen A."
+				},
+				{
+					"family": "Zinner",
+					"given": "Michael J."
+				}
+			],
+			"container": "New England Journal of Medicine",
+			"volume": "348",
+			"issue": "3",
+			"pages": "229–235",
+			"published": "2003-01-16",
+			"doi": "10.1056/NEJMsa021721",
+			"url": "https://www.nejm.org/doi/full/10.1056/NEJMsa021721",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Managing the Prevention of Retained Surgical Instruments: What Is the Value of Counting?",
+			"authors": [
+				{
+					"family": "Egorova",
+					"given": "N. N."
+				},
+				{
+					"family": "Moskowitz",
+					"given": "A."
+				},
+				{
+					"family": "Gelijns",
+					"given": "A."
+				},
+				{
+					"family": "Weinberg",
+					"given": "A."
+				},
+				{
+					"family": "Curty",
+					"given": "J."
+				},
+				{
+					"family": "Rabin-Fastman",
+					"given": "B."
+				},
+				{
+					"family": "Kaplan",
+					"given": "H."
+				}
+			],
+			"etAl": true,
+			"container": "Annals of Surgery",
+			"volume": "247",
+			"issue": "1",
+			"pages": "13–18",
+			"published": "2008",
+			"doi": "10.1097/SLA.0b013e3180f633be",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Bar-Coding Surgical Sponges to Improve Safety: A Randomized Controlled Trial",
+			"authors": [
+				{
+					"family": "Greenberg",
+					"given": "C. C."
+				},
+				{
+					"family": "Diaz-Flores",
+					"given": "R."
+				},
+				{
+					"family": "Lipsitz",
+					"given": "S. R."
+				},
+				{
+					"family": "Regenbogen",
+					"given": "S. E."
+				},
+				{
+					"family": "Mulholland",
+					"given": "L."
+				},
+				{
+					"family": "Mearn",
+					"given": "F."
+				},
+				{
+					"family": "Rao",
+					"given": "S."
+				}
+			],
+			"etAl": true,
+			"container": "Annals of Surgery",
+			"volume": "247",
+			"issue": "4",
+			"pages": "612–616",
+			"published": "2008",
+			"doi": "10.1097/SLA.0b013e3181656cd5",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Initial Clinical Evaluation of a Handheld Device for Detecting Retained Surgical Gauze Sponges Using Radiofrequency Identification Technology",
+			"authors": [
+				{
+					"family": "Macario",
+					"given": "A."
+				},
+				{
+					"family": "Morris",
+					"given": "D."
+				},
+				{
+					"family": "Morris",
+					"given": "S."
+				}
+			],
+			"container": "Archives of Surgery",
+			"volume": "141",
+			"issue": "7",
+			"pages": "659–662",
+			"published": "2006",
+			"doi": "10.1001/archsurg.141.7.659",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Rayable Gauze: Development of a Radiopaque, Threaded Gauze Surgical Sponge",
+			"authors": [
+				{
+					"family": "Lewison",
+					"given": "Edward F."
+				}
+			],
+			"container": "Annals of Surgery",
+			"volume": "116",
+			"issue": "2",
+			"pages": "311–314",
+			"published": "1942-08",
+			"doi": "10.1097/00000658-194208000-00017",
+			"url": "https://archive.org/details/sim_annals-of-surgery_1942-08_116_2",
+			"accessed": "2026-10-01",
+			"note": "Read before the Baltimore City Medical Society, January 3, 1941"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gossypiboma",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gossypiboma&oldid=1367035120",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Winnie Gibson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Winnie_Gibson&oldid=1352364558",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "media",
+			"title": "Method of counting abdominal or laparotomy pads and sponges, Operating Room Technique for Surgical Technicians, p. 86",
+			"url": "https://archive.org/details/54720950R.nlm.nih.gov",
+			"accessed": "2026-10-01",
+			"container": "National Library of Medicine, via the Internet Archive",
+			"licence": "Public domain",
+			"note": "A US Army training manual of 1943, a work of the US government",
+			"file": "letterman-count.jpg",
+			"authors": [
+				{
+					"name": "Enlisted Technicians School, Letterman General Hospital"
+				}
+			],
+			"published": "1943"
+		},
+		{
+			"kind": "media",
+			"title": "The operating room: circulating nurse, assistant, anesthetist, scrub corpsman and surgeon at an appendectomy (Figure 346)",
+			"url": "https://archive.org/details/handb53unit",
+			"accessed": "2026-10-01",
+			"container": "Handbook of the Hospital Corps, United States Navy (1953), p. 309; Virginia Beach Public Library, via the Internet Archive",
+			"licence": "Public domain",
+			"note": "A US Navy publication of 1953, a work of the US government",
+			"file": "navy-or-1953.jpg",
+			"authors": [
+				{
+					"name": "Bureau of Medicine and Surgery, United States Navy"
+				}
+			],
+			"published": "1953"
+		},
+		{
+			"kind": "media",
+			"title": "Risk ratios for a retained sponge or instrument, chart drawn for kloom from Gawande and others (2003), Table 3",
+			"url": "https://www.nejm.org/doi/full/10.1056/NEJMsa021721",
+			"accessed": "2026-10-01",
+			"container": "New England Journal of Medicine data; chart by kloom",
+			"licence": "MIT",
+			"file": "risk.svg"
+		}
+	]
+}
