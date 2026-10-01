@@ -1,0 +1,224 @@
+{
+	"id": "forensic-typing",
+	"topic": "Typing a bloodstain",
+	"position": {
+		"label": "1915",
+		"sort": 1915
+	},
+	"scene": {
+		"headline": "A dried stain could clear the",
+		"accent": "ACCUSED.",
+		"palette": "plasma",
+		"illustration": "scene.svg",
+		"metadata": ["TURIN · LEONE LATTES", "A CRUST, KNOWN A AND B CELLS, A COVER SLIP"],
+		"counter": {
+			"value": "0.0049 g",
+			"label": "of dried blood in the first stain he typed"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Due casi pratici di diagnosi individuale di sangue umano",
+			"authors": [
+				{
+					"family": "Lattes",
+					"given": "Leone"
+				}
+			],
+			"container": "Archivio di antropologia criminale, psichiatria e medicina legale",
+			"volume": "37",
+			"pages": "298–308",
+			"published": "1916",
+			"language": "it",
+			"url": "https://www.ojp.gov/pdffiles1/pr/92422_part4.pdf",
+			"accessed": "2026-10-01",
+			"note": "Read in the English translation in Gaensslen's Sourcebook, Unit IX (1983), section 4: the shirt (tested 23–25 February 1915) and the overcoat"
+		},
+		{
+			"kind": "article",
+			"title": "Sulla tecnica della prova di isoagglutinazione per la diagnosi individuale del sangue",
+			"authors": [
+				{
+					"family": "Lattes",
+					"given": "Leone"
+				}
+			],
+			"container": "Archivio di antropologia criminale, psichiatria e medicina legale",
+			"volume": "37",
+			"pages": "400–408",
+			"published": "1916",
+			"language": "it",
+			"url": "https://www.ojp.gov/pdffiles1/pr/92422_part4.pdf",
+			"accessed": "2026-10-01",
+			"note": "Read in the English translation in Gaensslen's Sourcebook, Unit IX (1983), section 4"
+		},
+		{
+			"kind": "article",
+			"title": "Praktische Erfahrungen über Blutgruppenbestimmung in Flecken",
+			"authors": [
+				{
+					"family": "Lattes",
+					"given": "Leone"
+				}
+			],
+			"container": "Deutsche Zeitschrift für die gesamte gerichtliche Medizin",
+			"volume": "9",
+			"pages": "402–410",
+			"published": "1927",
+			"language": "de",
+			"url": "https://www.ojp.gov/pdffiles1/pr/92422_part4.pdf",
+			"accessed": "2026-10-01",
+			"note": "Read in the English translation in Gaensslen's Sourcebook, Unit IX (1983), section 4"
+		},
+		{
+			"kind": "report",
+			"title": "Sourcebook in Forensic Serology, Immunology, and Biochemistry. Unit IX: Translations of Selected Contributions to the Original Literature of Medicolegal Examinations of Blood and Body Fluids",
+			"editors": [
+				{
+					"family": "Gaensslen",
+					"given": "R. E."
+				}
+			],
+			"publisher": "National Institute of Justice, U.S. Department of Justice",
+			"place": "Washington, DC",
+			"published": "1983-08",
+			"url": "https://www.ojp.gov/pdffiles1/pr/92422_part4.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Blood Groups and Transfusion",
+			"authors": [
+				{
+					"family": "Wiener",
+					"given": "Alexander S."
+				}
+			],
+			"edition": "3rd ed., 3rd printing",
+			"publisher": "Charles C Thomas",
+			"place": "Springfield, IL",
+			"published": "1946",
+			"url": "https://archive.org/details/in.ernet.dli.2015.145616",
+			"accessed": "2026-10-01",
+			"note": "Chapter XXII, pp. 399–410: grouping stains, the crust test and what a result can prove"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Lattes, Leone",
+			"authors": [
+				{
+					"family": "Armocida",
+					"given": "Giuseppe"
+				}
+			],
+			"container": "Dizionario Biografico degli Italiani",
+			"volume": "64",
+			"publisher": "Istituto della Enciclopedia Italiana",
+			"place": "Rome",
+			"published": "2005",
+			"language": "it",
+			"url": "https://www.treccani.it/enciclopedia/leone-lattes_(Dizionario-Biografico)/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Genetic Kinship Investigation from Blood Groups to DNA Markers",
+			"authors": [
+				{
+					"family": "Geserick",
+					"given": "Gunther"
+				},
+				{
+					"family": "Wirth",
+					"given": "Ingo"
+				}
+			],
+			"container": "Transfusion Medicine and Hemotherapy",
+			"volume": "39",
+			"issue": "3",
+			"pages": "163–175",
+			"published": "2012",
+			"doi": "10.1159/000338850",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "ABO Blood Type Identification and Forensic Science (1900–1960)",
+			"authors": [
+				{
+					"family": "Harbison",
+					"given": "Corey"
+				}
+			],
+			"container": "Embryo Project Encyclopedia",
+			"publisher": "Arizona State University",
+			"published": "2016-06-02",
+			"url": "https://embryo.asu.edu/pages/abo-blood-type-identification-and-forensic-science-1900-1960",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "Blood Immunity and Blood Relationship: A Demonstration of Certain Blood-Relationships amongst Animals by Means of the Precipitin Test for Blood",
+			"authors": [
+				{
+					"family": "Nuttall",
+					"given": "George H. F."
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1904",
+			"url": "https://archive.org/details/bloodimmunityblo00nutt",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Uhlenhuth",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_Uhlenhuth&oldid=1266311308",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-12-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Karl Landsteiner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Karl_Landsteiner&oldid=1372451943",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "media",
+			"title": "Test-tube racks on their stand, from Nuttall's Blood Immunity and Blood Relationship, fig. 4",
+			"url": "https://commons.wikimedia.org/wiki/File:Blood_immunity_and_blood_relationship;_a_demonstration_of_certain_blood-relationships_amongst_animals_by_means_of_the_precipitin_test_for_blood_(1904)_(14765636382).jpg",
+			"accessed": "2026-10-01",
+			"container": "George H. F. Nuttall, Blood Immunity and Blood Relationship (Cambridge University Press, 1904), via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "nuttall-rack.jpg",
+			"published": "1904"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/bayes",
+			"why": "Essen-Möller's probability of paternity (1938), which turned blood-group evidence from exclusion into a probability, is Bayes' theorem: even prior odds multiplied by the likelihood ratio of the family's blood types."
+		}
+	]
+}
