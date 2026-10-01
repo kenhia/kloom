@@ -1,0 +1,219 @@
+{
+	"id": "navy-pow",
+	"topic": "Navy nurses as prisoners of war",
+	"position": {
+		"label": "1941–45",
+		"sort": 1941
+	},
+	"scene": {
+		"headline": "They kept the ward behind the",
+		"accent": "WIRE.",
+		"palette": "dressblue",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GUAM · KOBE · MANILA · SANTO TOMAS · LOS BAÑOS",
+			"LAURA COBB · LEONA JACKSON · DOROTHY STILL"
+		],
+		"counter": {
+			"value": "37",
+			"label": "months Laura Cobb's eleven nurses were held"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Laura Cobb: A Kansas Nurse in a Japanese Prisoner of War Camp, Part I",
+			"authors": [
+				{
+					"family": "Johnson",
+					"given": "Judith"
+				}
+			],
+			"container": "Navy Medicine",
+			"volume": "94",
+			"issue": "1",
+			"pages": "7–13",
+			"published": "2003-01",
+			"url": "https://archive.org/details/NavyMedicineVol.94No.1January-february2003",
+			"accessed": "2026-10-01",
+			"note": "Cañacao, Santa Scholastica and Santo Tomas"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Laura Cobb: A Kansas Nurse in a Japanese Prisoner of War Camp, Conclusion",
+			"authors": [
+				{
+					"family": "Johnson",
+					"given": "Judith"
+				}
+			],
+			"container": "Navy Medicine",
+			"volume": "94",
+			"issue": "2",
+			"pages": "4–9",
+			"published": "2003-03",
+			"url": "https://archive.org/details/NavyMedicineVol.94No.2March-april2003",
+			"accessed": "2026-10-01",
+			"note": "Los Baños: the hospital, the rations, the raid and the medals"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Navy Nurse POW, Philippines: Recollections of LT Dorothy Still Danner, NC, USN",
+			"authors": [
+				{
+					"family": "Danner",
+					"given": "Dorothy Still"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/research/library/oral-histories/wwii/navy-nurse-pow-philippines.html",
+			"accessed": "2026-10-01",
+			"note": "Her telling, adapted from \"Dorothy Still Danner: Reminiscences of a Nurse POW,\" Navy Medicine 83, no. 3 (1992): 36–40"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "I Was on Guam",
+			"authors": [
+				{
+					"family": "Jackson",
+					"given": "Leona"
+				}
+			],
+			"container": "American Journal of Nursing",
+			"volume": "42",
+			"issue": "11",
+			"pages": "1244–1246",
+			"published": "1942-11",
+			"url": "https://archive.org/details/sim_american-journal-of-nursing_1942-11_42_11",
+			"accessed": "2026-10-01",
+			"read": "excerpt",
+			"note": "Read in excerpts through the Internet Archive's full-text search; the issue is lent, not shown"
+		},
+		{
+			"kind": "web",
+			"title": "Navy Nurse - Philippines, Bataan, Corregidor, & Okinawa: Recollections of CAPT Ann Bernatitus, NC, USN (Ret.)",
+			"authors": [
+				{
+					"family": "Bernatitus",
+					"given": "Ann"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"published": "1994-01-25",
+			"url": "https://www.history.navy.mil/research/library/oral-histories/wwii/navy-nurse.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "The History of the Navy Nurse Corps",
+			"authors": [
+				{
+					"name": "Naval History and Heritage Command"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"published": "2025-01-16",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "WWII: Prisoners of War Sent to Japan",
+			"container": "Guampedia",
+			"url": "https://www.guampedia.com/wwii-prisoners-of-war-sent-to-japan/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Laura M. Cobb",
+			"url": "https://en.wikipedia.org/w/index.php?title=Laura_M._Cobb&oldid=1376312901",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wilma Leona Jackson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wilma_Leona_Jackson&oldid=1353403900",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Battle of Guam (1941)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Battle_of_Guam_(1941)&oldid=1377049826",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Raid on Los Baños",
+			"url": "https://en.wikipedia.org/w/index.php?title=Raid_on_Los_Ba%C3%B1os&oldid=1370705887",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United States Navy Nurse Corps",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Navy_Nurse_Corps&oldid=1368272768",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "media",
+			"title": "Navy Nurses Rescued from Los Banos 2",
+			"authors": [
+				{
+					"name": "United States Navy"
+				}
+			],
+			"container": "Bureau of Medicine and Surgery; Naval History and Heritage Command photograph NH 95053",
+			"published": "1945-03",
+			"licence": "Public domain",
+			"file": "los-banos-nurses.jpg",
+			"url": "https://commons.wikimedia.org/wiki/File:Navy_Nurses_Rescued_from_Los_Banos_2.jpg",
+			"accessed": "2026-10-01"
+		}
+	]
+}

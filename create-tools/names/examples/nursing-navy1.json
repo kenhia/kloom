@@ -1,0 +1,29 @@
+{
+	"nursing/hospital-ships": [
+		["USS _Relief_ (AH-1)", "uss-relief-ah-1"],
+		["hospital ship", "hospital-ship"],
+		["Navy Nurse Corps", "united-states-navy-nurse-corps"],
+		["Ann Bernatitus", "ann-a-bernatitus"],
+		["USS _Solace_ (AH-5)", "uss-solace-ah-5"],
+		["Second Geneva Convention", "second-geneva-convention"],
+		["USS _Consolation_ (AH-15)", "uss-consolation"],
+		["Joel T. Boone", "joel-thompson-boone"]
+	],
+	"nursing/navy-pow": [
+		["Guam", "guam"],
+		["Leona Jackson", "wilma-leona-jackson"],
+		["Laura M. Cobb", "laura-m-cobb"],
+		["quinine", "quinine"],
+		["Santo Tomas Internment Camp", "santo-tomas-internment-camp"],
+		["beriberi", "thiamine-deficiency"],
+		["raid on Los Baños", "raid-on-los-banos"]
+	],
+	"nursing/nurse-rank": [
+		["Navy Nurse Corps", "united-states-navy-nurse-corps"],
+		["Ann Bernatitus", "ann-a-bernatitus"],
+		["hospital corpsmen", "hospital-corpsman"],
+		["Army Nurse Corps", "united-states-army-nurse-corps"],
+		["Second World War", "world-war-ii"],
+		["Sue S. Dauser", "sue-s-dauser"]
+	]
+}

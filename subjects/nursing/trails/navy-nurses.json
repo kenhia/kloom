@@ -1,0 +1,15 @@
+{
+	"id": "navy-nurses",
+	"title": "Navy nurses",
+	"anchor": "sacred-twenty",
+	"spine": {
+		"segments": [
+			{
+				"id": "navy",
+				"title": "The Navy Nurse Corps",
+				"labelKind": "date",
+				"frames": ["hospital-ships", "navy-pow", "nurse-rank"]
+			}
+		]
+	}
+}

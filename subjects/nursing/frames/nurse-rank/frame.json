@@ -1,0 +1,185 @@
+{
+	"id": "nurse-rank",
+	"topic": "Commissioned rank for nurses",
+	"position": {
+		"label": "1947",
+		"sort": 1947
+	},
+	"scene": {
+		"headline": "Nurses won their",
+		"accent": "STRIPES.",
+		"palette": "whites",
+		"illustration": "scene.svg",
+		"metadata": [
+			"RELATIVE RANK 1942 · TEMPORARY RANK 1944",
+			"ARMY–NAVY NURSES ACT · 16 APRIL 1947 · PUBLIC LAW 90-130 · 1967"
+		],
+		"counter": {
+			"value": "0.7%",
+			"label": "of the Navy Nurse Corps allowed to be commanders in 1947"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"title": "Public Law 36: Army-Navy Nurses Act of 1947",
+			"container": "United States Statutes at Large, vol. 61",
+			"pages": "41–50",
+			"publisher": "U.S. Government Printing Office",
+			"published": "1947-04-16",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-61/pdf/STATUTE-61-Pg41.pdf",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Title II, sections 201–207: the Navy Nurse Corps as a staff corps"
+		},
+		{
+			"kind": "web",
+			"title": "Public Law 654: An Act to prescribe the relative rank of members of the Navy Nurse Corps",
+			"container": "United States Statutes at Large, vol. 56",
+			"pages": "646–647",
+			"publisher": "U.S. Government Printing Office",
+			"published": "1942-07-03",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-56/pdf/STATUTE-56-Pg646.pdf",
+			"accessed": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Public Law 828: An Act to increase the pay and allowances of members of the Army Nurse Corps, and for other purposes",
+			"container": "United States Statutes at Large, vol. 56",
+			"pages": "1072–1074",
+			"publisher": "U.S. Government Printing Office",
+			"published": "1942-12-22",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-56/pdf/STATUTE-56-Pg1074.pdf",
+			"accessed": "2026-10-01",
+			"note": "Section 7 extends it to the Navy Nurse Corps"
+		},
+		{
+			"kind": "web",
+			"title": "Public Law 238: An Act to grant military rank to certain members of the Navy Nurse Corps",
+			"container": "United States Statutes at Large, vol. 58",
+			"pages": "105",
+			"publisher": "U.S. Government Printing Office",
+			"published": "1944-02-26",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-58/pdf/STATUTE-58-Pg105.pdf",
+			"accessed": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Public Law 90-130: An Act to amend titles 10, 32, and 37, United States Code, to remove restrictions on the careers of female officers in the Army, Navy, Air Force, and Marine Corps",
+			"container": "United States Statutes at Large, vol. 81",
+			"pages": "374–384",
+			"publisher": "U.S. Government Printing Office",
+			"published": "1967-11-08",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-81/pdf/STATUTE-81-Pg374.pdf",
+			"accessed": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "The History of the Navy Nurse Corps",
+			"authors": [
+				{
+					"name": "Naval History and Heritage Command"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"published": "2025-01-16",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Relative rank for Army nurses in 1920; the pay of 1942; Dauser's four stripes"
+		},
+		{
+			"kind": "web",
+			"title": "Uniforms of the U.S. Navy 1942-1943",
+			"authors": [
+				{
+					"name": "Naval History and Heritage Command"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/browse-by-topic/heritage/uniforms-and-personal-equipment/uniforms-1942-1943.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Navy Nurse - Philippines, Bataan, Corregidor, & Okinawa: Recollections of CAPT Ann Bernatitus, NC, USN (Ret.)",
+			"authors": [
+				{
+					"family": "Bernatitus",
+					"given": "Ann"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"published": "1994-01-25",
+			"url": "https://www.history.navy.mil/research/library/oral-histories/wwii/navy-nurse.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Laura Cobb: A Kansas Nurse in a Japanese Prisoner of War Camp, Conclusion",
+			"authors": [
+				{
+					"family": "Johnson",
+					"given": "Judith"
+				}
+			],
+			"container": "Navy Medicine",
+			"volume": "94",
+			"issue": "2",
+			"pages": "4–9",
+			"published": "2003-03",
+			"url": "https://archive.org/details/NavyMedicineVol.94No.2March-april2003",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Women in the United States Navy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Women_in_the_United_States_Navy&oldid=1373710234",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United States Navy Nurse Corps",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Navy_Nurse_Corps&oldid=1368272768",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "media",
+			"title": "Sue S Dauser",
+			"authors": [
+				{
+					"name": "United States Navy"
+				}
+			],
+			"container": "National Archives, photograph 80-G-1037202",
+			"published": "1944",
+			"circa": true,
+			"licence": "Public domain",
+			"file": "dauser.jpg",
+			"url": "https://commons.wikimedia.org/wiki/File:Sue_S_Dauser.jpg",
+			"accessed": "2026-10-01"
+		}
+	]
+}
