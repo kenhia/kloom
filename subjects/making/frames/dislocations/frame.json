@@ -1,0 +1,244 @@
+{
+	"id": "dislocations",
+	"topic": "Dislocations",
+	"position": {
+		"label": "1934",
+		"sort": 1934
+	},
+	"scene": {
+		"headline": "Metal bends because it is",
+		"accent": "IMPERFECT.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · MANCHESTER · BUDAPEST",
+			"TAYLOR · OROWAN · POLANYI · HIRSCH, HORNE AND WHELAN 1956"
+		],
+		"counter": {
+			"value": "14,000",
+			"label": "times weaker than a perfect zinc crystal should be, by our arithmetic"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/crystallography",
+			"why": "Lawrence Bragg, who read X-ray spots as reflections from planes of atoms, modelled those planes in 1947 with a raft of soap bubbles that showed the dislocations by which they slip."
+		},
+		{
+			"to": "making/griffith-cracks",
+			"why": "Taylor's 1934 paper called the passing of slip analogous to the propagation of a crack, the idea Griffith had found for glass."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Mechanism of Plastic Deformation of Crystals. Part I.—Theoretical",
+			"authors": [
+				{
+					"family": "Taylor",
+					"given": "G. I."
+				}
+			],
+			"container": "Proceedings of the Royal Society of London, Series A",
+			"volume": "145",
+			"issue": "855",
+			"pages": "362–387",
+			"published": "1934",
+			"doi": "10.1098/rspa.1934.0106",
+			"accessed": "2026-09-30",
+			"note": "The word dislocation, the comparison with a crack, Schmid's zinc and the parabolic hardening curve"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "50 Years of Transmission Electron Microscopy of Dislocations: Past, Present, and Future",
+			"authors": [
+				{
+					"family": "Hirsch",
+					"given": "P. B."
+				}
+			],
+			"container": "Herald of the Russian Academy of Sciences",
+			"volume": "76",
+			"issue": "5",
+			"pages": "430–436",
+			"published": "2006",
+			"doi": "10.1134/S1019331606050042",
+			"url": "https://www.tf.uni-kiel.de/matwis/amat/iss/kap_5/articles/hirsch_first_dislocation.pdf",
+			"accessed": "2026-09-30",
+			"note": "Hirsch's account of 3 May 1956, and his quotation of Read"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dislocation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dislocation&oldid=1368483965",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "G. I. Taylor",
+			"url": "https://en.wikipedia.org/w/index.php?title=G._I._Taylor&oldid=1371996750",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Egon Orowan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Egon_Orowan&oldid=1366932144",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Michael Polanyi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Michael_Polanyi&oldid=1375968512",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peter Hirsch (metallurgist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peter_Hirsch_(metallurgist)&oldid=1371983781",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bubble raft",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bubble_raft&oldid=1315194621",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Work hardening",
+			"url": "https://en.wikipedia.org/w/index.php?title=Work_hardening&oldid=1351372972",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Critical resolved shear stress",
+			"url": "https://en.wikipedia.org/w/index.php?title=Critical_resolved_shear_stress&oldid=1321886438",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Grain boundary strengthening",
+			"url": "https://en.wikipedia.org/w/index.php?title=Grain_boundary_strengthening&oldid=1364260593",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zinc",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zinc&oldid=1376827176",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "A bubble raft photographed in a teaching laboratory at MIT",
+			"url": "https://commons.wikimedia.org/wiki/File:Bubblerraft2.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "bubble-raft.jpg",
+			"authors": [
+				{
+					"name": "VladTarasov"
+				}
+			],
+			"published": "2006-10-26"
+		},
+		{
+			"kind": "media",
+			"title": "Weak-beam dark-field electron micrographs of dislocations in a single crystal of Fe₂MnAl",
+			"url": "https://commons.wikimedia.org/wiki/File:Weak-beam_dark-field_TEM_image_of_dislocations.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC0",
+			"file": "tem-dislocations.jpg",
+			"authors": [
+				{
+					"name": "Liao Yifeng"
+				}
+			],
+			"published": "2013-06-09"
+		}
+	]
+}

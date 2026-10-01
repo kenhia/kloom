@@ -1,0 +1,27 @@
+{
+	"title": "Strength of Griffith's glass fibres against their diameter",
+	"description": "Bar chart of the breaking strength of glass fibres of decreasing diameter, from a rod about 1 mm across (172 MPa) to a fibre 4.2 micrometres across (3,434 MPa). Source: A. A. Griffith, The Phenomena of Rupture and Flow in Solids, Philosophical Transactions of the Royal Society A 221 (1921), Table V, converted from thousandths of an inch and pounds per square inch.",
+	"heading": "BREAKING STRENGTH · MPa · BY FIBRE DIAMETER",
+	"unit": "",
+	"width": 560,
+	"barWidth": 52,
+	"axis": {
+		"max": 4000,
+		"ticks": [
+			[0, "0"],
+			[1000, "1,000"],
+			[2000, "2,000"],
+			[3000, "3,000"],
+			[4000, "4,000"]
+		]
+	},
+	"bars": [
+		{ "label": "1,016 µm", "sublabel": "rod", "value": 172 },
+		{ "label": "107 µm", "value": 292 },
+		{ "label": "51 µm", "value": 549 },
+		{ "label": "24 µm", "value": 807 },
+		{ "label": "13 µm", "value": 1345, "display": "1,345" },
+		{ "label": "6.6 µm", "value": 2289, "display": "2,289" },
+		{ "label": "4.2 µm", "value": 3434, "display": "3,434", "highlight": true }
+	]
+}

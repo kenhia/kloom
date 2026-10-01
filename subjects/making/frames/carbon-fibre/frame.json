@@ -1,0 +1,241 @@
+{
+	"id": "carbon-fibre",
+	"topic": "Carbon fibre",
+	"position": {
+		"label": "1963",
+		"sort": 1963
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We baked a textile into",
+		"accent": "GRAPHITE.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ROYAL AIRCRAFT ESTABLISHMENT · PARMA · OSAKA",
+			"POLYACRYLONITRILE · 220 °C IN AIR · PLIES AT 0, ±45 AND 90°"
+		],
+		"counter": {
+			"value": "50%",
+			"label": "of a Boeing 787's weight is composite, by Boeing's account"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/polymers",
+			"why": "Carbon fibre is baked from polyacrylonitrile, which Watt pictured as a chain of polythene with a nitrile group on every second carbon, and its stiffness comes from keeping those long chains aligned."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Production and Properties of High Modulus Carbon Fibres",
+			"authors": [
+				{
+					"family": "Watt",
+					"given": "W."
+				}
+			],
+			"container": "Proceedings of the Royal Society of London, Series A",
+			"volume": "319",
+			"issue": "1536",
+			"pages": "5–15",
+			"published": "1970",
+			"doi": "10.1098/rspa.1970.0161",
+			"accessed": "2026-09-30",
+			"note": "The RAE process, its temperatures and shrinkage, and the fibres' stiffness and strength"
+		},
+		{
+			"kind": "article",
+			"title": "Materials Problems in the Design of Compressor Blades with Fibrous Composites",
+			"authors": [
+				{
+					"family": "Goatham",
+					"given": "J. I."
+				}
+			],
+			"container": "Proceedings of the Royal Society of London, Series A",
+			"volume": "319",
+			"issue": "1536",
+			"pages": "45–57",
+			"published": "1970",
+			"doi": "10.1098/rspa.1970.0164",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "High Performance Carbon Fibers",
+			"authors": [
+				{
+					"name": "American Chemical Society"
+				}
+			],
+			"container": "National Historic Chemical Landmarks",
+			"publisher": "American Chemical Society",
+			"published": "2003",
+			"url": "https://www.acs.org/education/whatischemistry/landmarks/carbonfibers.html",
+			"accessed": "2026-09-30",
+			"note": "Bacon's whiskers, Union Carbide's rayon fibres, Shindo and Watt"
+		},
+		{
+			"kind": "web",
+			"title": "Development of Carbon Fiber Composite Materials for Lightweight Commercial Airplanes",
+			"authors": [
+				{
+					"name": "Japan Association for Chemical Innovation"
+				}
+			],
+			"container": "Introduction to GSC No. 3",
+			"publisher": "Japan Association for Chemical Innovation",
+			"url": "https://www.jaci.or.jp/english/gscn/GSCgs/e03/gsc_e03.php",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Basic Mechanics of Laminated Composite Plates",
+			"authors": [
+				{
+					"family": "Nettles",
+					"given": "A. T."
+				}
+			],
+			"number": "NASA Reference Publication 1351",
+			"publisher": "NASA Marshall Space Flight Center",
+			"published": "1994-10",
+			"url": "https://ntrs.nasa.gov/citations/19950009349",
+			"accessed": "2026-09-30",
+			"note": "Stacking notation, symmetric laminates and the AS4/3501-6 ply used in our arithmetic"
+		},
+		{
+			"kind": "web",
+			"title": "TORAYCA T300 Standard Modulus Carbon Fiber Data Sheet",
+			"authors": [
+				{
+					"name": "Toray Composite Materials America"
+				}
+			],
+			"publisher": "Toray Composite Materials America",
+			"published": "2025-04-22",
+			"url": "https://www.toraycma.com/wp-content/uploads/T300-Data-Sheet.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carbon fibers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carbon_fibers&oldid=1368322154",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rolls-Royce RB211",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rolls-Royce_RB211&oldid=1365417319",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polyacrylonitrile",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polyacrylonitrile&oldid=1335804700",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Specific modulus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Specific_modulus&oldid=1372056593",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Boeing 787 Dreamliner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Boeing_787_Dreamliner&oldid=1377700326",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Airbus A350",
+			"url": "https://en.wikipedia.org/w/index.php?title=Airbus_A350&oldid=1377468733",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "A carbon fibre about 6 µm across lying on a human hair about 50 µm across, scanning electron micrograph",
+			"url": "https://commons.wikimedia.org/wiki/File:Cfaser_haarrp.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "fibre-and-hair.jpg",
+			"authors": [
+				{
+					"name": "Anton, German Wikipedia"
+				}
+			],
+			"published": "2004-10-29"
+		},
+		{
+			"kind": "media",
+			"title": "Rolls-Royce RB211-22C turbofan at the Royal Air Force Museum, Cosford",
+			"url": "https://commons.wikimedia.org/wiki/File:Rolls-RoyceRB211.JPG",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "rb211.jpg",
+			"authors": [
+				{
+					"name": "Nimbus227"
+				}
+			],
+			"published": "2009-09-16"
+		}
+	]
+}

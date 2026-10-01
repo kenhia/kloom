@@ -1,0 +1,15 @@
+{
+	"id": "materials",
+	"title": "Materials science",
+	"anchor": "japanese-sword",
+	"spine": {
+		"segments": [
+			{
+				"id": "materials-science",
+				"title": "Why materials behave",
+				"labelKind": "date",
+				"frames": ["griffith-cracks", "dislocations", "carbon-fibre"]
+			}
+		]
+	}
+}
