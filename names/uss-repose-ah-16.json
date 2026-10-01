@@ -4,5 +4,6 @@
 	"name": "USS Repose (AH-16)",
 	"aliases": ["Repose", "USS Repose"],
 	"kind": "artifact",
-	"description": "US Navy hospital ship commissioned in 1945, which served in the Chinese civil war, the Korean War and the Vietnam War."
+	"description": "US Navy hospital ship commissioned in 1945, which served in the Chinese civil war, the Korean War and the Vietnam War.",
+	"home": "nursing/repose"
 }

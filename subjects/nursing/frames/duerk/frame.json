@@ -1,0 +1,205 @@
+{
+	"id": "duerk",
+	"topic": "The first woman admiral",
+	"position": {
+		"label": "1972",
+		"sort": 1972
+	},
+	"scene": {
+		"headline": "She made",
+		"accent": "ADMIRAL.",
+		"palette": "dressblue",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WASHINGTON · BUREAU OF MEDICINE AND SURGERY",
+			"DIRECTOR, NAVY NURSE CORPS · 1970–75"
+		],
+		"counter": {
+			"value": "197",
+			"label": "years before the Navy had a woman admiral"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Rear Admiral Alene B. Duerk, NC, USN",
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"published": "2025-04-23",
+			"url": "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/communities/navy-medicine/navy-nurse-corps/duerk.html",
+			"accessed": "2026-10-01",
+			"note": "The official biography, revised March 2025"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Navy's First Female Admiral, Alene Duerk, Passes Away",
+			"authors": [
+				{
+					"name": "Naval History and Heritage Command, Communication and Outreach Division"
+				}
+			],
+			"container": "Navy.mil",
+			"publisher": "United States Navy",
+			"published": "2018-07-25",
+			"url": "https://www.navy.mil/DesktopModules/ArticleCS/Print.aspx?PortalId=1&ModuleId=523&Article=2249826",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Public Law 90-130: An Act to amend titles 10, 32, and 37, United States Code, to remove restrictions on the careers of female officers in the Army, Navy, Air Force, and Marine Corps",
+			"container": "United States Statutes at Large, vol. 81",
+			"pages": "374–384",
+			"publisher": "U.S. Government Publishing Office",
+			"published": "1967-11-08",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-81/pdf/STATUTE-81-Pg374.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Z-Gram 116: Equal Rights and Opportunities for Women in the Navy",
+			"authors": [
+				{
+					"family": "Zumwalt",
+					"given": "Elmo R., Jr."
+				}
+			],
+			"published": "1972-08-07",
+			"container": "Naval History and Heritage Command, Online Reading Room",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/z/list-z-grams/z-gram-116.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "The History of the Navy Nurse Corps",
+			"authors": [
+				{
+					"family": "Arevalo",
+					"given": "Wendy"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"published": "2025-01-16",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alene Duerk",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alene_Duerk&oldid=1374522481",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "USS Benevolence",
+			"url": "https://en.wikipedia.org/w/index.php?title=USS_Benevolence&oldid=1377863154",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Elmo Zumwalt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Elmo_Zumwalt&oldid=1376923448",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maxine Conder",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maxine_Conder&oldid=1352242467",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frances Shea-Buckley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frances_Shea-Buckley&oldid=1352398272",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fran McKee",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fran_McKee&oldid=1357960234",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Grace Hopper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Grace_Hopper&oldid=1376194579",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "media",
+			"title": "Captain Robin L. Quigley congratulates Rear Admiral Alene B. Duerk after her promotion ceremony",
+			"url": "https://commons.wikimedia.org/wiki/File:428-GX-USN_1151703_(26029897552).jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "duerk-reception.jpg",
+			"authors": [
+				{
+					"family": "Mason",
+					"given": "Billy L."
+				}
+			],
+			"container": "National Archives, 428-GX-USN 1151703; National Museum of the U.S. Navy",
+			"published": "1972-06-01"
+		}
+	]
+}

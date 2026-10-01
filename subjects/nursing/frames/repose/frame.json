@@ -1,0 +1,164 @@
+{
+	"id": "repose",
+	"topic": "The hospital ship Repose",
+	"position": {
+		"label": "1966–70",
+		"sort": 1966
+	},
+	"scene": {
+		"headline": "Casualties landed on our",
+		"accent": "DECK.",
+		"palette": "whites",
+		"illustration": "scene.svg",
+		"metadata": ["I CORPS · SOUTH CHINA SEA", "USS REPOSE (AH-16) · USS SANCTUARY (AH-17)"],
+		"counter": {
+			"value": "24,000",
+			"label": "patients admitted aboard Repose off Vietnam"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "Navy Medicine in Vietnam: Passage to Freedom to the Fall of Saigon",
+			"authors": [
+				{
+					"family": "Herman",
+					"given": "Jan K."
+				}
+			],
+			"publisher": "Naval History & Heritage Command",
+			"place": "Washington, DC",
+			"published": "2010",
+			"url": "https://www.history.navy.mil/content/dam/nhhc/research/publications/Publication-PDF/NavyMedicineInVietnam.pdf",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Mercy Ships, pp. 29–33; the frozen blood bank, p. 30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Repose (AH-16)",
+			"container": "Dictionary of American Naval Fighting Ships",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/r/repose.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Sanctuary (AH-17)",
+			"container": "Dictionary of American Naval Fighting Ships",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/s/sanctuary.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Memories of Navy Nursing: The Vietnam Era",
+			"editors": [
+				{
+					"family": "Ibach",
+					"given": "Maryanne Gallagher"
+				}
+			],
+			"publisher": "Vietnam Women's Memorial Foundation",
+			"url": "https://vietnamwomensmemorial.org/wp-content/uploads/2020/03/magallagher.pdf",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "The nurses' own memories of Repose and Sanctuary"
+		},
+		{
+			"kind": "web",
+			"title": "The History of the Navy Nurse Corps",
+			"authors": [
+				{
+					"family": "Arevalo",
+					"given": "Wendy"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"published": "2025-01-16",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Z-Gram 116: Equal Rights and Opportunities for Women in the Navy",
+			"authors": [
+				{
+					"family": "Zumwalt",
+					"given": "Elmo R., Jr."
+				}
+			],
+			"published": "1972-08-07",
+			"container": "Naval History and Heritage Command, Online Reading Room",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/z/list-z-grams/z-gram-116.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "USS Repose (AH-16)",
+			"url": "https://en.wikipedia.org/w/index.php?title=USS_Repose_(AH-16)&oldid=1377863261",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "USS Sanctuary",
+			"url": "https://en.wikipedia.org/w/index.php?title=USS_Sanctuary&oldid=1377863301",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frances Shea-Buckley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frances_Shea-Buckley&oldid=1352398272",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "media",
+			"title": "UH-34D of HMM-263 landing on USS Repose (AH-16) off Vietnam 1966",
+			"url": "https://commons.wikimedia.org/wiki/File:UH-34D_of_HMM-263_landing_on_USS_Repose_(AH-16)_off_Vietnam_1966.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "repose-helicopter.jpg",
+			"authors": [
+				{
+					"name": "U.S. Navy"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"published": "1966-07",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/vietnam-blood",
+			"why": "Repose carried a frozen blood bank, part of the Navy's trial of frozen red cells in the war, which the blood frame follows at the station hospital in Da Nang."
+		}
+	]
+}

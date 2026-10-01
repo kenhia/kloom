@@ -1,0 +1,145 @@
+{
+	"id": "saigon-1964",
+	"topic": "Navy nurses in Saigon",
+	"position": {
+		"label": "1963–65",
+		"sort": 1963
+	},
+	"scene": {
+		"headline": "We went to work",
+		"accent": "BLEEDING.",
+		"palette": "dressblue",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SAIGON · STATION HOSPITAL · TRAN HUNG DAO",
+			"WOOSTER · MASON · CRUMPTON · REYNOLDS"
+		],
+		"counter": {
+			"value": "4",
+			"label": "Navy nurses wounded and awarded the Purple Heart"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "Navy Medicine in Vietnam: Passage to Freedom to the Fall of Saigon",
+			"authors": [
+				{
+					"family": "Herman",
+					"given": "Jan K."
+				}
+			],
+			"publisher": "Naval History & Heritage Command",
+			"place": "Washington, DC",
+			"published": "2010",
+			"url": "https://www.history.navy.mil/content/dam/nhhc/research/publications/Publication-PDF/NavyMedicineInVietnam.pdf",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Station Hospital Saigon and the Brink bombing, pp. 5–7"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The 1964 Brinks Hotel Bombing: Courage, Tragedy and a Nurse's Purple Heart",
+			"authors": [
+				{
+					"family": "Reynolds",
+					"given": "Ann Darby"
+				}
+			],
+			"container": "Vietnam",
+			"published": "2021-10",
+			"url": "https://historynet.com/brinks-hotel-bombing-vietnam/",
+			"accessed": "2026-10-01",
+			"note": "Her own telling, from her memoir Silent Night"
+		},
+		{
+			"kind": "web",
+			"title": "The History of the Navy Nurse Corps",
+			"authors": [
+				{
+					"family": "Arevalo",
+					"given": "Wendy"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"published": "2025-01-16",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Lest We Forget: Purple for Christmas",
+			"authors": [
+				{
+					"family": "Cutler",
+					"given": "Thomas J."
+				}
+			],
+			"container": "Proceedings",
+			"volume": "140",
+			"issue": "12",
+			"published": "2014-12",
+			"url": "https://www.usni.org/magazines/proceedings/2014/december/lest-we-forget-purple-christmas",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Memories of Navy Nursing: The Vietnam Era",
+			"editors": [
+				{
+					"family": "Ibach",
+					"given": "Maryanne Gallagher"
+				}
+			],
+			"publisher": "Vietnam Women's Memorial Foundation",
+			"url": "https://vietnamwomensmemorial.org/wp-content/uploads/2020/03/magallagher.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1964 Brinks Hotel bombing",
+			"url": "https://en.wikipedia.org/w/index.php?title=1964_Brinks_Hotel_bombing&oldid=1374129380",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Purple Heart",
+			"url": "https://en.wikipedia.org/w/index.php?title=Purple_Heart&oldid=1377337343",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "Three of the four Navy nurses wounded in the Brink bombing receive the Purple Heart from Captain Archie Kuntze, Saigon",
+			"url": "https://commons.wikimedia.org/wiki/File:330-PSA-12-65_(KN-10517)_(22932377632).jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "purple-hearts.jpg",
+			"authors": [
+				{
+					"name": "U.S. Navy"
+				}
+			],
+			"container": "National Museum of the U.S. Navy, 330-PSA-12-65 (KN-10517)",
+			"published": "1965-01"
+		}
+	]
+}
