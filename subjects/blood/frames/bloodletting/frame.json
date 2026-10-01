@@ -1,0 +1,214 @@
+{
+	"id": "bloodletting",
+	"topic": "Bloodletting and Washington's death",
+	"position": {
+		"label": "1799",
+		"sort": 1799
+	},
+	"scene": {
+		"headline": "The patient asked for",
+		"accent": "MORE.",
+		"palette": "humour",
+		"illustration": "scene.svg",
+		"metadata": ["MOUNT VERNON · 14 DECEMBER 1799", "CRAIK · DICK · BROWN · CORD, LANCET AND BOWL"],
+		"counter": {
+			"value": "82 oz",
+			"label": "of blood in about 13 hours, by John Brickell's count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Letters and Recollections of George Washington",
+			"authors": [
+				{
+					"name": "George Washington"
+				}
+			],
+			"publisher": "Doubleday, Page & Company",
+			"place": "New York",
+			"published": "1906",
+			"url": "https://archive.org/details/lettersrecollect00wash",
+			"accessed": "2026-10-01",
+			"note": "Tobias Lear's diary of 14 December 1799, pp. 129–136"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "A Physician Looks at the Death of Washington",
+			"authors": [
+				{
+					"family": "Vadakan",
+					"given": "Vibul V."
+				}
+			],
+			"container": "Early America Review",
+			"url": "https://www.varsitytutors.com/earlyamerica/early-america-review/volume-9/washingtons-death",
+			"accessed": "2026-10-01",
+			"note": "Quotes Craik and Dick's published account in full, and parts of Brickell's critique"
+		},
+		{
+			"kind": "web",
+			"title": "George Washington's Terminal Illness: A Modern Medical Analysis of the Last Illness and Death of George Washington",
+			"authors": [
+				{
+					"family": "Wallenborn",
+					"given": "White McKenzie"
+				}
+			],
+			"container": "The Papers of George Washington",
+			"publisher": "University of Virginia",
+			"published": "1997-11-05",
+			"url": "https://gwpapers.virginia.edu/history/articles/illness/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Account of the Last Illness and Death of General Washington",
+			"authors": [
+				{
+					"family": "Craik",
+					"given": "James"
+				},
+				{
+					"family": "Dick",
+					"given": "Elisha Cullen"
+				}
+			],
+			"container": "Times of Alexandria",
+			"published": "1799-12-19",
+			"url": "https://www.varsitytutors.com/earlyamerica/early-america-review/volume-9/washingtons-death",
+			"accessed": "2026-10-01",
+			"citedIn": "Vadakan, “A Physician Looks at the Death of Washington”"
+		},
+		{
+			"kind": "article",
+			"title": "Observations on the Medical Treatment of General Washington in His Illness",
+			"authors": [
+				{
+					"family": "Brickell",
+					"given": "John"
+				}
+			],
+			"container": "Transactions of the College of Physicians of Philadelphia",
+			"volume": "25",
+			"pages": "90–93",
+			"published": "1903",
+			"url": "https://www.varsitytutors.com/earlyamerica/early-america-review/volume-9/washingtons-death",
+			"accessed": "2026-10-01",
+			"citedIn": "Vadakan, “A Physician Looks at the Death of Washington”"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "An Account of the Bilious Remitting Yellow Fever, as It Appeared in the City of Philadelphia, in the Year 1793",
+			"authors": [
+				{
+					"family": "Rush",
+					"given": "Benjamin"
+				}
+			],
+			"publisher": "Thomas Dobson",
+			"place": "Philadelphia",
+			"published": "1794",
+			"url": "https://archive.org/details/accountofbilious00rush",
+			"accessed": "2026-10-01",
+			"note": "The lancet, p. 226; the volumes drawn, p. 272"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bloodletting",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bloodletting&oldid=1371451278",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Washington",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Washington&oldid=1377473912",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Benjamin Rush",
+			"url": "https://en.wikipedia.org/w/index.php?title=Benjamin_Rush&oldid=1376607534",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Elisha C. Dick",
+			"url": "https://en.wikipedia.org/w/index.php?title=Elisha_C._Dick&oldid=1373763541",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fleam",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fleam&oldid=1366908484",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hirudo medicinalis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hirudo_medicinalis&oldid=1374764066",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "media",
+			"title": "Scarificator, made by Domenico Moretti, 1813",
+			"url": "https://commons.wikimedia.org/wiki/File:Scarificator,_made_by_Domenico_Moretti,_1813._Wellcome_L0001159.jpg",
+			"accessed": "2026-10-01",
+			"container": "Wellcome Collection, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "scarificator-1813.jpg"
+		}
+	]
+}

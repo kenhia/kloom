@@ -1,0 +1,141 @@
+{
+	"id": "purity-of-blood",
+	"topic": "Purity-of-blood statutes",
+	"position": {
+		"label": "1449",
+		"sort": 1449
+	},
+	"scene": {
+		"headline": "We called a lineage",
+		"accent": "CLEAN.",
+		"palette": "vellum",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TOLEDO · 5 JUNE 1449 · PEDRO SARMIENTO",
+			"SENTENCIA-ESTATUTO · INFORMACIONES · WITNESSES"
+		],
+		"counter": {
+			"value": "421",
+			"label": "years from Toledo's statute to Spain's last repeal, in 1870"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Historia de la ciudad de Toledo, sus claros varones y monumentos",
+			"authors": [
+				{
+					"family": "Martín Gamero",
+					"given": "Antonio"
+				}
+			],
+			"publisher": "Imprenta de Severiano López Fando",
+			"place": "Toledo",
+			"published": "1862",
+			"language": "es",
+			"url": "https://archive.org/details/historiadelaciu00gamegoog",
+			"accessed": "2026-10-01",
+			"note": "The Sentencia of 5 June 1449 in full, pp. 1036–1040; the January riot, pp. 765–766"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "La limpieza de sangre. Problemas de interpretación: acercamientos históricos y metodológicos",
+			"authors": [
+				{
+					"family": "Hering Torres",
+					"given": "Max S."
+				}
+			],
+			"container": "Historia Crítica",
+			"issue": "45",
+			"pages": "32–55",
+			"published": "2011",
+			"doi": "10.7440/histcrit45.2011.03",
+			"url": "https://journals.openedition.org/histcrit/15092",
+			"language": "es",
+			"accessed": "2026-10-01",
+			"note": "The case of Francisco Fernández de Ribera, 1612–1630, paragraphs 19–21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Limpieza de sangre",
+			"url": "https://en.wikipedia.org/w/index.php?title=Limpieza_de_sangre&oldid=1377196684",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nobility",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nobility&oldid=1375993601",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "New Christian",
+			"url": "https://en.wikipedia.org/w/index.php?title=New_Christian&oldid=1377023666",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cristão-novo",
+			"url": "https://pt.wikipedia.org/w/index.php?title=Crist%C3%A3o-novo&oldid=72345711",
+			"language": "pt",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-29"
+		},
+		{
+			"kind": "media",
+			"title": "Pruebas de limpieza de sangre de Miguel Pardo Bazán de Mendoza y Castro, opositor a una beca del Colegio de Fonseca",
+			"url": "https://commons.wikimedia.org/wiki/File:Pruebas_de_limpieza_de_sangre_de_Miguel_Pardo_Baz%C3%A1n_de_Mendoza_y_Castro,_natural_de_Sta._Mari%C3%B1a_Doza,_opositor_a_una_beca_c%C3%A1nones_del_Colegio_de_Fonseca.jpg",
+			"accessed": "2026-10-01",
+			"container": "Arquivo Histórico da Universidade de Santiago de Compostela, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "pardo-bazan-proof.jpg",
+			"authors": [
+				{
+					"name": "Colegio de Fonseca"
+				}
+			],
+			"published": "1806"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/humours",
+			"why": "The purity statutes leaned on the humoral picture of blood as a juice that carried a parent's qualities to a child, so that a convert's baptism was said not to reach his blood or his descendants."
+		}
+	]
+}
