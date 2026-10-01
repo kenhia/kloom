@@ -432,8 +432,18 @@ def mark_spec(args):
     registry = {f.stem: f for f in Path(args.names).glob('*.json')} if Path(args.names).is_dir() else {}
     drafted = {f.stem: f for d in args.drafts if Path(d).is_dir() for f in Path(d).glob('*.json')}
     known = set(registry) | set(drafted)
-    for line in stale_drafts(registry, drafted):
-        print(f'warning: {line}', file=sys.stderr)
+    # Name the stale drafts these specs mark; count the rest. Passing other authors' drafts
+    # printed dozens of their names, which buried this author's own (sprint 028, four authors).
+    marked = {pair[1] for p in args.spec for pairs in json.loads(Path(p).read_text()).values() for pair in pairs}
+    others = 0
+    for stem, held, line in stale_drafts(registry, drafted):
+        if stem in marked or held in marked:
+            print(f'warning: {line}', file=sys.stderr)
+        else:
+            others += 1
+    if others:
+        print(f'note: {others} other drafts passed with --drafts are already in the registry; '
+              'they are not marked by these specs', file=sys.stderr)
     for spec_path in args.spec:
         failed += mark_one(args, Path(spec_path), known)
     return 1 if failed else 0
@@ -489,7 +499,8 @@ def mark_one(args, spec_path, known):
 
 def stale_drafts(registry, drafted):
     """A draft whose id, or Wikidata item, the registry already holds: another author's name
-    reached it meanwhile (sprint 025), so the draft is a duplicate to drop or to merge."""
+    reached it meanwhile (sprint 025), so the draft is a duplicate to drop or to merge.
+    Yields (draft id, the registry id it collides with, the warning)."""
     held = {}
     for stem, f in registry.items():
         item = json.loads(f.read_text()).get('wikidata')
@@ -498,11 +509,11 @@ def stale_drafts(registry, drafted):
     out = []
     for stem, f in sorted(drafted.items()):
         if stem in registry:
-            out.append(f'draft {f} is already in the registry as names/{stem}.json')
+            out.append((stem, stem, f'draft {f} is already in the registry as names/{stem}.json'))
             continue
         item = json.loads(f.read_text()).get('wikidata')
         if item and item in held:
-            out.append(f'draft {f}: {item} is already names/{held[item]}.json; mark that id instead')
+            out.append((stem, held[item], f'draft {f}: {item} is already names/{held[item]}.json; mark that id instead'))
     return out
 
 

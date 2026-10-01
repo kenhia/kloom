@@ -92,6 +92,10 @@
 	],
 	"connections": [
 		{
+			"to": "physics/energy",
+			"why": "Mayer's conservation of energy began with the colour of the venous blood he let in the tropics: redder because the body used less oxygen, the difference between blood with and without oxygen that the spectroscope showed."
+		},
+		{
 			"to": "blood/perutz-hemoglobin",
 			"why": "Stokes showed the substance of the red cells takes up oxygen and gives it back; Perutz showed its shape changing as it does."
 		},

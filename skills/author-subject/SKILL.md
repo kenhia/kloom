@@ -142,6 +142,15 @@ bookkeeping rule, the Millennium Problems' count, a twin-prime bound and
 the RSA records), and sprints 025 and 026 had about forty more between
 them. Each was caught only because an author read the source, so the
 "leads, not sources" line is what makes the brief safe to be wrong.
+**Run `names.py lookup` on every name id the brief gives an author.** It
+is a fact like the others, and cheaper to check than a date: sprint 028's
+brief, written from memory, named thirteen ids that were wrong (`de-motu-cordis`
+for a redirect, `wright-s-stain` for `wrights-stain`) or had no article
+at all (Leone Lattes, Leonard Skeggs, the Armed Services Blood Program),
+so those frames could not mark their own subjects. Point the brief at the
+richest primary sources for the subject's kind of claim, too: sprint
+028's best for bench procedure were US military manuals and DTIC reports
+on the Internet Archive, which three authors found for themselves.
 
 Things authors working at once cannot see, so the brief settles them:
 
@@ -151,7 +160,10 @@ Things authors working at once cannot see, so the brief settles them:
   three overlaps the brief left open. Give an anchor's author a line on
   what each of its trail frames covers, not only their ids (sprint 015's
   `colossus` first retold two of its trail's frames), and say who owns a
-  figure two frames will want to chart.
+  figure two frames will want to chart. That includes two frames that will
+  open from one event: sprint 028's `hiv-blood` and `hemophilia-hiv` both
+  began from the CDC's report of July 1982, and one was rewritten after
+  the other was committed.
 - **Each frame's palette.** It is in the plan and quoted in the brief, so
   that dark and light alternate along the spine however the frames are
   shared out.
@@ -249,7 +261,12 @@ As each author reports:
    once that name went in with the frame. When that frame belongs to a
    part still to come, add the borrowed name without its `home` and give it
    back with `names.py add --update` when the frame lands (sprint 025 did
-   this for Mendeleev before `periodic-table`).
+   this for Mendeleev before `periodic-table`). Committing parts as they
+   arrive means a name often reaches the registry from a borrower's draft,
+   without `home`, before its owner has drafted it; when the owner's part
+   lands, apply the owner's draft with `--update` (sprint 028 did this for
+   twelve names, `karl-landsteiner` to `whole-blood`). Two parts' drafts of
+   one id differ in their descriptions too: keep the owner's.
 6. **Connections between the authors' frames** wait for review: each
    author lists the ones they want in this subject, and the reviewer adds
    them once both ends are committed, checking each _why_ against a

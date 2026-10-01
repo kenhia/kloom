@@ -30,6 +30,15 @@ never a person, and wait when a site tells you to.
 
 ## Biomedical papers
 
+- **The PMC site and Europe PMC's pages refuse a script** (sprint 028):
+  `pmc.ncbi.nlm.nih.gov` answers with a reCAPTCHA page, and
+  `europepmc.org` (its PDF renderer, `backend/ptpmcrender.fcgi`) with a
+  Cloudflare challenge, both as HTML that a PDF reader then rejects.
+  Europe PMC's REST API at `www.ebi.ac.uk`, below, still answers, for
+  search (`…/webservices/rest/search?query=…&format=json`) as for full
+  text. For a paper outside the open-access subset, the publisher's own
+  full-text page through the Wayback `id_` form often works: a _Journal of
+  Applied Physiology_ paper read in full that way.
 - **Europe PMC** serves a PubMed Central article's full text when the PMC
   site refuses a script:
   `https://www.ebi.ac.uk/europepmc/webservices/rest/<PMCID>/fullTextXML`.
@@ -40,7 +49,54 @@ never a person, and wait when a site tells you to.
 - **NCBI BioC** is the fallback:
   `https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/<PMCID>/unicode`.
   It rate-limits (429) quickly.
+- **A scanned PMC article** (an old _BMJ_, _Br J Exp Pathol_ or _Medical
+  History_), which `fullTextXML` answers with 500, comes through the
+  Wayback `id_` form of Europe PMC's renderer,
+  `https://web.archive.org/web/2024id_/https://europepmc.org/backend/ptpmcrender.fcgi?accid=<PMCID>&blobtype=pdf`,
+  or of the PMC article page, which names the PDF's real file
+  (`brmedj06949-0007.pdf`) to fetch the same way (sprint 028, a dozen
+  classic transfusion papers).
+- **An NIH author manuscript** (NIHMS): `fullTextXML` answers an empty
+  reply, and NCBI BioC serves the full text (sprint 028).
+- **PubMed's E-utilities** (`eutils.ncbi.nlm.nih.gov/entrez/eutils/`
+  `esearch`, `esummary`, `efetch`) answer a script and give abstracts; they
+  find old papers that Europe PMC's search indexes poorly (sprint 028).
+- **NCBI Bookshelf** (StatPearls, Dean's _Blood Groups and Red Cell
+  Antigens_) answers with the same reCAPTCHA as PMC. Its Wayback copies work
+  at some timestamps and are archived "Forbidden" pages at others: ask
+  `https://archive.org/wayback/available?url=<url>` for a snapshot that
+  answered 200 rather than guessing one (sprint 028).
+- **The James Lind Library** carries the full texts of the commentaries the
+  _Journal of the Royal Society of Medicine_ republished (sprint 028).
 - The **Wayback copy** of the PMC page is the last resort (below).
+
+## Government and military sources
+
+- **US Army, Navy and Air Force manuals and correspondence courses** (TM
+  8-227, the MD08xx subcourses, ERIC's military curricula) and **DTIC
+  reports** are on the Internet Archive and are public domain: the best
+  source for how a laboratory or blood-bank procedure was actually done,
+  step by step, with volumes and times (sprint 028). Some carry a notice
+  that they contain copyrighted parts; quote those parts no more than any
+  other work in copyright.
+- **The Army Medical Department's histories** moved from
+  `history.amedd.army.mil`, which no longer answers, to
+  `achh.army.mil/history/…` (Kendrick's _Blood Program in World War II_ is
+  `book-wwii-blood-chapterN`, without its figures). The National Library
+  of Medicine's scans on the Internet Archive (`0014773.nlm.nih.gov`) hold
+  the figures; the Center of Military History's reprints are there too
+  (`CMHPub90-16`, Neel's Vietnam history) (sprint 028).
+- **NLM's Profiles in Science** gives a document's full OCR text at
+  `https://collections.nlm.nih.gov/ocr/nlm:nlmuid-<id>-doc`, found through
+  the collection's `catalog.json?q=` search (sprint 028: Drew's thesis).
+- **The Federal Register** comes whole from govinfo, as HTML or one PDF an
+  issue (`FR-YYYY-MM-DD.pdf`), and the **eCFR**'s versioner API answers
+  only with `curl --compressed`. FDA package inserts come straight from
+  `fda.gov/media/<id>/download`, and the Joint Trauma System's guidelines
+  from `jts.health.mil` (sprint 028).
+- **cdc.gov's MMWR archive** answers many pages with 403 to a script;
+  the Wayback copy is slow but works. The National Academies Press reader
+  (`nap.edu`) serves its reports (sprint 028).
 
 ## Archives and repositories
 
@@ -63,7 +119,24 @@ never a person, and wait when a site tells you to.
     misquoted Moxon from the text layer;
   - when `/download/` answers 500, read the file from the storage path that
     `https://archive.org/metadata/<item>` gives (`server` and `dir`)
-    (sprint 026).
+    (sprint 026);
+  - `<item>_page_numbers.json` maps printed pages to leaves, but not
+    always rightly (printed p. 1133 was leaf 1162, not 1157); the
+    full-text search, `https://<server>/fulltext/inside.php?item_id=…&doc=…&path=…&q="…"`,
+    gives the leaf a phrase is on. `_w1600` in a page URL is ignored: the
+    page comes full size (sprint 028);
+  - **journal runs**: `sim_<journal>_<date>_<vol>_<issue>` items hold old
+    issues as clean text (_JAMA_, _The Lancet_, _Am J Physiol_, _J Biol
+    Chem_), and `jstor-<id>` items hold JSTOR's Early Journal Content (old
+    _Philosophical Transactions_ and _Proc. R. Soc._ papers); find them with
+    `advancedsearch` and `identifier:sim_*` or `identifier:jstor*` (sprint 028);
+  - **read the title page before citing an item's metadata**: one item
+    catalogued as volume II of 1733 held volume I of 1727, and another's
+    date was five years out (sprint 028);
+  - a **lending-only** book answers `_djvu.txt` with 401 and its search
+    with "Item not available": it cannot be read this way. Cite what you
+    read about it, with `citedIn` (sprint 028). The Digital Library of
+    India's scans can carry OCR read as Hindi, and are no use as text.
 - **Wikisource** and **Project Gutenberg** hold many old books and
   documents in clean text.
 - **HAL** (French open archive): an `oa_url` of the form
@@ -74,11 +147,20 @@ never a person, and wait when a site tells you to.
 - **Figshare**-backed repositories: a file comes from
   `https://ndownloader.figshare.com/files/<id>` (sprint 026).
 
+- **Patents**: Google Patents pages and their full-size drawings answer a
+  script (sprint 028).
+- **The Wayback Machine rate-limits**: with several requests at once, the
+  availability API and the archive answer 429. Space them out. A capture of
+  a large PDF can be cut off at 1 MB; try an earlier timestamp (sprint 028).
+
 ## Broken certificates
 
 - **Oracc**'s cuneiform editions serve an incomplete certificate chain:
   fetch them with `curl -k`. They are still the edition to cite (sprint
   025).
+- **The Institute of Heraldry** (`tioh.army.mil`, the US Army's insignia
+  drawings) serves a DoD certificate chain the system store lacks: `curl
+-k` (sprint 028).
 - **_Gladius_** likewise: a plain `curl` fails silently with an empty file
   (sprint 026). Check the size of what you fetched.
 
@@ -92,18 +174,31 @@ is `commons_media.py fetch … --page N`.
 ## Sites known to refuse a script
 
 Find the source elsewhere (above), or cite only what you read about it, as
-what you read. Refused at least once in sprints 021–026:
+what you read. Refused at least once in sprints 021–028:
 
 - **Publishers:** ScienceDirect (Elsevier, including _Historia
   Mathematica_'s open archive; it refuses the Wayback route too), Wiley,
   Oxford University Press, ACM, IOP, IUCr, APS, the American Chemical
   Society (acs.org), Project Euclid, the Royal Society, the MAA, AMS
-  Notices.
+  Notices; and in sprint 028 the _BMJ_ (its PDFs come through the Wayback
+  `id_` form), the _NEJM_, ASH (_Blood_; Wayback works), the _Journal of
+  Biological Chemistry_ (Cloudflare), _Circulation_ (the Wayback copy of
+  the old `circ.ahajournals.org/content/<v>/<i>/<p>.full.pdf` works), SAGE
+  and Karger (Wayback works for both), Springer, PNAS, rupress (Wayback
+  works) and Wiley's `pdfdirect` (Wayback `/2024id_/…/pdfdirect/` works
+  sometimes). nature.com's old letters show only their first paragraph.
 - **Archives and museums:** the Science Museum, the British Museum, the
   Archaeology Data Service, Founders Online, HathiTrust, the Euler
   Archive, IDEALS (which also refuses a User-Agent that names the
-  project), the Feynman Lectures site (no readable archive either).
-- **Agencies and news:** the IEA, UNEP, ECHA, phys.org.
+  project), the Feynman Lectures site (no readable archive either);
+  bepress Digital Commons repositories (Cloudflare; Wayback works),
+  Scholarship@Claremont, the NAS memoirs (`nasonline.org`), UNC Press, and
+  `ibm.com/history` (sprint 028).
+- **Agencies and news:** the IEA, UNEP, ECHA, phys.org;
+  `militaryblood.dod.mil` (timed out), `esd.whs.mil`, `af.mil` and
+  `allhands.navy.mil` (403; Wayback works) (sprint 028). Pass `curl -m 30`
+  so a site that hangs costs half a minute, not the shell's two (one sprint
+  028 fetch hung for 120 seconds).
 - **arXiv** answered `read_source` with 406 once (sprint 024) but served
   it in sprint 027; if it refuses, fetch the PDF with `curl` and read the
   file.

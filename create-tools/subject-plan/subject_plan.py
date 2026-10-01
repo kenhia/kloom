@@ -113,6 +113,24 @@ def write(path, value):
     os.replace(tmp, path)
 
 
+def merge_drafts(dirs, names):
+    """Copy each drafts directory's name files into `names`, in order. Two directories holding
+    one id differently is said, not hidden: the last passed wins, and in sprint 028 a draft
+    lost its `home` that way without a word. Returns the warnings."""
+    seen, out = {}, []
+    for d in dirs:
+        for f in sorted(os.listdir(d)):
+            if not f.endswith('.json'):
+                continue
+            with open(os.path.join(d, f)) as fh:
+                body = fh.read()
+            if f in seen and seen[f][1] != body:
+                out.append(f'{f} is drafted in both {seen[f][0]} and {d}; the copy holds {d}\'s')
+            seen[f] = (d, body)
+            shutil.copy(os.path.join(d, f), names)
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('plan')
@@ -154,10 +172,8 @@ def main():
         names = os.path.join(a.complete, '.names')
         shutil.rmtree(names, ignore_errors=True)
         shutil.copytree(a.names or os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'names'), names)
-        for d in a.drafts:
-            for f in os.listdir(d):
-                if f.endswith('.json'):
-                    shutil.copy(os.path.join(d, f), names)
+        for line in merge_drafts(a.drafts, names):
+            print(f'subject_plan: warning: {line}', file=sys.stderr)
     with open(a.plan) as fh:
         plan = json.load(fh)
     frames_dir = os.path.join(a.subject, 'frames')

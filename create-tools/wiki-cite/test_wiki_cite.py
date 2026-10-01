@@ -16,6 +16,11 @@ class Text(unittest.TestCase):
 
 
 class Citation(unittest.TestCase):
+    def test_another_languages_text_keeps_its_own_file(self):
+        self.assertEqual(wiki_cite.text_name('Luis Agote'), 'Luis Agote.txt')
+        self.assertEqual(wiki_cite.text_name('Luis Agote', 'es'), 'Luis Agote.es.txt')
+        self.assertEqual(wiki_cite.text_name('AC/DC'), 'AC_DC.txt')
+
     def test_cites_english_wikipedia_without_a_language(self):
         c = wiki_cite.citation('Printing press', 1, '2026-09-25', '2026-09-26')
         self.assertEqual(c['url'], 'https://en.wikipedia.org/w/index.php?title=Printing_press&oldid=1')

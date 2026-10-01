@@ -16,6 +16,11 @@ class Year(unittest.TestCase):
         self.assertEqual(cm.year({'DateTimeOriginal': 'AD 888'}), ('888', False))
         self.assertEqual(cm.year({'DateTimeOriginal': 'unknown'}), (None, False))
 
+    def test_reads_a_span_as_circa_its_first_year(self):
+        self.assertEqual(cm.year({'DateTimeOriginal': '1941-01-01/1945-12-31'}), ('1941', True))
+        self.assertEqual(cm.year({'DateTimeOriginal': '1941–1945'}), ('1941', True))
+        self.assertEqual(cm.year({'DateTimeOriginal': '1945-12-31'}), ('1945-12-31', False))
+
 
 class Authors(unittest.TestCase):
     def test_leaves_out_boilerplate(self):
@@ -30,6 +35,16 @@ class Authors(unittest.TestCase):
     def test_writes_anything_else_as_a_name(self):
         self.assertEqual(cm.authors('Wellcome Library'), [{'name': 'Wellcome Library'}])
         self.assertEqual(cm.authors('NASA'), [{'name': 'NASA'}])
+        for org in ('Smithsonian Institution', 'NASA Johnson Space Center', 'Colegio de Fonseca',
+                    'Caldesi & Montecchi'):
+            self.assertEqual(cm.authors(org), [{'name': org}], org)
+        self.assertEqual(cm.authors('Caldesi & Montecchi Details on Google Art Project'),
+                         [{'name': 'Caldesi & Montecchi'}])
+
+    def test_drops_the_art_projects_template_text_from_a_title(self):
+        self.assertEqual(cm.clean_title('The Royal Family, Osborne 1857title QS:P1476,en:"The Royal Family"'),
+                         'The Royal Family, Osborne 1857')
+        self.assertEqual(cm.clean_title('Galen'), 'Galen')
 
 
 class Tags(unittest.TestCase):
