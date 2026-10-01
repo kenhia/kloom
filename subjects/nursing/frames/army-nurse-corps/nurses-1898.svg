@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Women nurses in the Army's service, June to September 1898</title>
+<desc id="d">Bar chart of the number of trained women nurses serving the Army at the end of each month in 1898, by the Surgeon General's count: June 30, 23; July 31, 162; August 31, 924; September 30, 1,065. Data: Sternberg, introduction to the Abstract of Report on the Origin and Spread of Typhoid Fever in U.S. Military Camps during the Spanish War of 1898.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">400</text>
+<line x1="64" x2="460" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">800</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">1,200</text>
+</g>
+<rect x="85.5" y="245.9" width="56" height="4.1" fill-opacity="0.85"/>
+<text x="113.5" y="239.9" text-anchor="middle">23</text>
+<text x="113.5" y="266" text-anchor="middle">Jun 30</text>
+<rect x="184.5" y="221.1" width="56" height="28.9" fill-opacity="0.85"/>
+<text x="212.5" y="215.1" text-anchor="middle">162</text>
+<text x="212.5" y="266" text-anchor="middle">Jul 31</text>
+<rect x="283.5" y="85.2" width="56" height="164.8" class="accent" fill="currentColor"/>
+<text x="311.5" y="79.2" text-anchor="middle">924</text>
+<text x="311.5" y="266" text-anchor="middle">Aug 31</text>
+<rect x="382.5" y="60.1" width="56" height="189.9" fill-opacity="0.85"/>
+<text x="410.5" y="54.1" text-anchor="middle">1,065</text>
+<text x="410.5" y="266" text-anchor="middle">Sep 30</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">WOMEN NURSES WITH THE ARMY · 1898</text>
+</g></svg>

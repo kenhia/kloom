@@ -1,0 +1,253 @@
+{
+	"id": "civil-war-nurses",
+	"topic": "Nurses in the Civil War",
+	"position": {
+		"label": "1861–65",
+		"sort": 1861
+	},
+	"scene": {
+		"headline": "We were told to dress",
+		"accent": "PLAIN.",
+		"palette": "olive",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WASHINGTON · GEORGETOWN · BEAUFORT",
+			"DOROTHEA DIX · LOUISA MAY ALCOTT · SUSIE KING TAYLOR"
+		],
+		"counter": {
+			"value": "40¢",
+			"label": "a day and subsistence, a woman nurse's pay in 1862"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Circular No. 8 Regarding Requirements for Female Nursing Applicants",
+			"number": "Circular No. 8",
+			"authors": [
+				{
+					"family": "Dix",
+					"given": "Dorothea L."
+				}
+			],
+			"publisher": "Surgeon General's Office",
+			"place": "Washington, DC",
+			"published": "1862-07-14",
+			"url": "https://catalog.archives.gov/id/3819334",
+			"accessed": "2026-10-01",
+			"note": "National Archives, Record Group 153, Court Martial Case Files, MM 1430"
+		},
+		{
+			"kind": "report",
+			"title": "Circular",
+			"number": "Circular No. 7",
+			"authors": [
+				{
+					"family": "Hammond",
+					"given": "William A."
+				}
+			],
+			"publisher": "Surgeon General's Office",
+			"place": "Washington, DC",
+			"published": "1862-07-14",
+			"url": "https://archive.org/details/101572651.nlm.nih.gov",
+			"accessed": "2026-10-01",
+			"note": "Miss Dix's authority; one nurse to ten beds, one woman nurse to two men"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Hospital Sketches",
+			"authors": [
+				{
+					"family": "Alcott",
+					"given": "Louisa May"
+				}
+			],
+			"publisher": "James Redpath",
+			"place": "Boston",
+			"published": "1863",
+			"url": "https://www.gutenberg.org/ebooks/3837",
+			"accessed": "2026-10-01",
+			"note": "Chapters 3 and 4: the Fredericksburg wounded, the day's work and the night watch"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Reminiscences of My Life in Camp with the 33d United States Colored Troops, Late 1st S. C. Volunteers",
+			"authors": [
+				{
+					"family": "Taylor",
+					"given": "Susie King"
+				}
+			],
+			"publisher": "Published by the author",
+			"place": "Boston",
+			"published": "1902",
+			"url": "https://www.gutenberg.org/ebooks/73499",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "History of the United States Sanitary Commission, Being the General Report of Its Work during the War of the Rebellion",
+			"authors": [
+				{
+					"family": "Stillé",
+					"given": "Charles J."
+				}
+			],
+			"publisher": "J. B. Lippincott",
+			"place": "Philadelphia",
+			"published": "1866",
+			"url": "https://archive.org/details/historyofuniteds00stiluoft",
+			"accessed": "2026-10-01",
+			"note": "The Crimean lesson, pp. 27–28; the inspection of camps, pp. 85–108"
+		},
+		{
+			"kind": "book",
+			"title": "Woman's Work in the Civil War: A Record of Heroism, Patriotism and Patience",
+			"authors": [
+				{
+					"family": "Brockett",
+					"given": "L. P."
+				},
+				{
+					"family": "Vaughan",
+					"given": "Mary C."
+				}
+			],
+			"publisher": "Zeigler, McCurdy",
+			"place": "Philadelphia",
+			"published": "1867",
+			"url": "https://archive.org/details/womanswork00brocrich",
+			"accessed": "2026-10-01",
+			"note": "Dix's appointment on 10 June 1861, p. 101"
+		},
+		{
+			"kind": "report",
+			"title": "Highlights in the History of the Army Nurse Corps",
+			"editors": [
+				{
+					"family": "Shields",
+					"given": "Elizabeth A."
+				}
+			],
+			"publisher": "U.S. Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1981",
+			"url": "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo184609/pdf/GOVPUB-D114-PURL-gpo184609.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Circular No. 8 Regarding Requirements for Female Nursing Applicants",
+			"container": "DocsTeach",
+			"publisher": "National Archives",
+			"url": "https://docsteach.org/document/circular-no-8-regarding-requirements-for-female-nursing-applicants/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dorothea Dix",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dorothea_Dix&oldid=1375526111",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United States Sanitary Commission",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Sanitary_Commission&oldid=1358245346",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hospital Sketches",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hospital_Sketches&oldid=1241623614",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Susie King Taylor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Susie_King_Taylor&oldid=1362119693",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sally Louisa Tompkins",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sally_Louisa_Tompkins&oldid=1321407938",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kate Cumming",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kate_Cumming&oldid=1374190222",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "media",
+			"title": "Circular No. 8 Regarding Requirements for Female Nursing Applicants",
+			"url": "https://catalog.archives.gov/id/3819334",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "dix-circular.jpg",
+			"authors": [
+				{
+					"family": "Dix",
+					"given": "Dorothea L."
+				}
+			],
+			"container": "National Archives, Record Group 153",
+			"published": "1862-07-14",
+			"note": "A work of the US government"
+		}
+	]
+}

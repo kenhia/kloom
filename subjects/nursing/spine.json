@@ -43,6 +43,12 @@
 			]
 		},
 		{
+			"id": "military",
+			"title": "Nurses at war",
+			"labelKind": "date",
+			"frames": ["civil-war-nurses", "army-nurse-corps", "sacred-twenty"]
+		},
+		{
 			"id": "dedication-seg",
 			"title": "Dedication",
 			"labelKind": "category",
