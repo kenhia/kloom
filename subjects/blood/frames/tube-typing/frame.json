@@ -1,0 +1,147 @@
+{
+	"id": "tube-typing",
+	"topic": "Typing and crossmatch by hand",
+	"position": {
+		"label": "1950s–70s",
+		"sort": 1950
+	},
+	"scene": {
+		"headline": "Every unit was matched by",
+		"accent": "HAND.",
+		"palette": "slide",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ARMY TM 8-227 · AIR FORCE 10-4",
+			"2% CELLS · IMMEDIATE SPIN · 37 °C ALBUMIN · ANTIGLOBULIN · 4+ TO 0"
+		],
+		"counter": {
+			"value": "1 hour",
+			"label": "or more for a full crossmatch, by the Air Force's 1978 course"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Methods for Medical Laboratory Technicians",
+			"number": "TM 8-227, AFM 160-14",
+			"authors": [
+				{
+					"name": "Departments of the Army and the Air Force"
+				}
+			],
+			"publisher": "Departments of the Army and the Air Force",
+			"place": "Washington, DC",
+			"published": "1951-08-03",
+			"url": "https://archive.org/details/TM8227",
+			"accessed": "2026-10-01",
+			"note": "Paragraphs 82–100: grouping by slide and tube, mass grouping, the crossmatch and Rh typing"
+		},
+		{
+			"kind": "report",
+			"title": "Medical Laboratory Technician: Hematology, Serology, Blood Banking and Immunohematology, 10-4",
+			"number": "ERIC ED 224 893",
+			"authors": [
+				{
+					"name": "Air Force Training Command"
+				}
+			],
+			"publisher": "Air Force Training Command and the National Center for Research in Vocational Education, Ohio State University",
+			"place": "Sheppard Air Force Base, Texas, and Columbus, Ohio",
+			"published": "1978",
+			"url": "https://archive.org/details/ERIC_ED224893",
+			"accessed": "2026-10-01",
+			"note": "Chapter 6: records, the crossmatch's phases, the emergency guide and clerical error",
+			"key": true
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Immunohematology and Blood Banking II",
+			"number": "Subcourse MD0846, edition 100",
+			"authors": [
+				{
+					"name": "US Army Medical Department Center and School"
+				}
+			],
+			"publisher": "US Army Medical Department Center and School",
+			"place": "Fort Sam Houston, Texas",
+			"url": "https://archive.org/details/md-0846-immunohematology-and-blood-banking-ii-edition-100",
+			"accessed": "2026-10-01",
+			"note": "Undated; its newest reference is from 1990. Paragraphs 1-23, 1-27 and 1-47: the antiglobulin test, grading and the crossmatch"
+		},
+		{
+			"kind": "report",
+			"title": "Immunohematology and Blood Banking I",
+			"number": "Subcourse MD0845, edition 100",
+			"authors": [
+				{
+					"name": "US Army Medical Department Center and School"
+				}
+			],
+			"publisher": "US Army Medical Department Center and School",
+			"place": "Fort Sam Houston, Texas",
+			"url": "https://archive.org/details/md-0845-immunohematology-and-blood-banking-i-edition-100",
+			"accessed": "2026-10-01",
+			"note": "Undated. Paragraphs 2-12 to 2-15: ABO grouping and its discrepancies"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cross-matching",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cross-matching&oldid=1371858859",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AABB",
+			"url": "https://en.wikipedia.org/w/index.php?title=AABB&oldid=1348826196",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rouleaux",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rouleaux&oldid=1372326588",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "media",
+			"title": "Hospital Corpsman uses a pipette to mix a red blood cell suspension to confirm the donor's blood type, Naval Medical Center San Diego Blood Bank",
+			"url": "https://commons.wikimedia.org/wiki/File:US_Navy_090302-N-6326B-030_Hospital_Corpsman_3rd_Class_Ivy_Gaskins_uses_a_pipette_to_mix_a_red_blood_count_suspension_to_confirm_the_donor%27_blood_type_in_the_Naval_Medical_Center_San_Diego_Blood_Bank.jpg",
+			"accessed": "2026-10-01",
+			"container": "US Navy, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "navy-blood-bank.jpg",
+			"authors": [
+				{
+					"family": "Berenguer",
+					"given": "Jake"
+				}
+			],
+			"published": "2009-03-02"
+		}
+	]
+}

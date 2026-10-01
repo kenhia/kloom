@@ -1,0 +1,35 @@
+{
+	"blood/hemocytometer": [
+		["Karl von Vierordt", "karl-von-vierordt"],
+		["Louis-Charles Malassez", "louis-charles-malassez"],
+		["Georges Hayem", "georges-hayem"],
+		["hemocytometer", "hemocytometer"]
+	],
+	"blood/stained-film": [
+		["Paul Ehrlich", "paul-ehrlich"],
+		["aniline", "aniline"],
+		["methylene blue", "methylene-blue"],
+		["Romanowsky stain", "romanowsky-stain"],
+		["James Homer Wright", "james-homer-wright"],
+		["Wright's stain", "wrights-stain"],
+		["blood film", "blood-smear"],
+		["differential count", "white-blood-cell-differential"]
+	],
+	"blood/hematocrit": [
+		["Robin Fåhræus", "robin-fahraeus"],
+		["hematocrit", "hematocrit"],
+		["Maxwell Wintrobe", "maxwell-wintrobe"],
+		["sedimentation rate", "erythrocyte-sedimentation-rate"],
+		["anaemia", "anemia"],
+		["red blood cell indices", "red-blood-cell-indices"]
+	],
+	"blood/tube-typing": [
+		["agglutination", "agglutination-biology"],
+		["ABO", "abo-blood-group-system"],
+		["Rh", "rh-blood-group-system"],
+		["crossmatch", "cross-matching"],
+		["Coombs test", "coombs-test"],
+		["AABB", "aabb"],
+		["Rouleaux", "rouleaux"]
+	]
+}

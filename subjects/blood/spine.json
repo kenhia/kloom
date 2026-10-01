@@ -27,6 +27,12 @@
 			"frames": ["early-transfusion", "blundell", "abo"]
 		},
 		{
+			"id": "bench",
+			"title": "The bench, by hand and by machine",
+			"labelKind": "date",
+			"frames": ["hemocytometer", "stained-film", "hematocrit", "tube-typing"]
+		},
+		{
 			"id": "dedication-seg",
 			"title": "Dedication",
 			"labelKind": "category",

@@ -1,0 +1,9 @@
+{
+	"id": "hematocrit",
+	"wikidata": "Q111146",
+	"name": "Hematocrit",
+	"aliases": ["haematocrit", "packed cell volume", "PCV", "volume of packed red cells"],
+	"kind": "idea",
+	"description": "The fraction of the blood's volume taken up by red cells, measured by spinning a tube of blood and reading the height of the packed cells; one of the commonest blood tests.",
+	"home": "blood/hematocrit"
+}

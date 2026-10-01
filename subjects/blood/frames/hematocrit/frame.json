@@ -1,0 +1,184 @@
+{
+	"id": "hematocrit",
+	"topic": "Wintrobe's hematocrit tube",
+	"position": {
+		"label": "1929",
+		"sort": 1929
+	},
+	"scene": {
+		"headline": "We spun the blood and read the",
+		"accent": "COLUMN.",
+		"palette": "bench",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW ORLEANS · MAXWELL WINTROBE",
+			"OXALATED BLOOD · 3,000 RPM · 30 MIN · MCV, MCH, MCHC"
+		],
+		"counter": {
+			"value": "87",
+			"label": "cubic microns, the average red cell's volume in the Army's worked example"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Methods for Medical Laboratory Technicians",
+			"number": "TM 8-227, AFM 160-14",
+			"authors": [
+				{
+					"name": "Departments of the Army and the Air Force"
+				}
+			],
+			"publisher": "Departments of the Army and the Air Force",
+			"place": "Washington, DC",
+			"published": "1951-08-03",
+			"url": "https://archive.org/details/TM8227",
+			"accessed": "2026-10-01",
+			"note": "Paragraphs 70–72: the venous screen test, the Wintrobe hematocrit and the red-cell indices, with Wintrobe's figures"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Looking Back to Our Roots: 80 Years of Wintrobe's Indices",
+			"authors": [
+				{
+					"family": "Urrechaga",
+					"given": "Eloísa"
+				},
+				{
+					"family": "Izquierdo",
+					"given": "Silvia"
+				},
+				{
+					"family": "Escanero",
+					"given": "Jesús F."
+				}
+			],
+			"container": "EMJ Hematology",
+			"volume": "1",
+			"pages": "133–137",
+			"published": "2014-07",
+			"doi": "10.33590/emjhematol/10310807",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Maxwell Myer Wintrobe: A Famous Hematologist before the Birth of Hematology",
+			"authors": [
+				{
+					"family": "Gryglewski",
+					"given": "Ryszard W."
+				},
+				{
+					"family": "Kyle",
+					"given": "Robert"
+				},
+				{
+					"family": "Jurczyszyn",
+					"given": "Artur"
+				}
+			],
+			"container": "Polish Archives of Internal Medicine",
+			"volume": "131",
+			"issue": "10",
+			"published": "2021-10-27",
+			"doi": "10.20452/pamw.16124",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"title": "Medical Laboratory Technician: Hematology, Serology, Blood Banking and Immunohematology, 10-4",
+			"number": "ERIC ED 224 893",
+			"authors": [
+				{
+					"name": "Air Force Training Command"
+				}
+			],
+			"publisher": "Air Force Training Command and the National Center for Research in Vocational Education, Ohio State University",
+			"place": "Sheppard Air Force Base, Texas, and Columbus, Ohio",
+			"published": "1978",
+			"url": "https://archive.org/details/ERIC_ED224893",
+			"accessed": "2026-10-01",
+			"note": "Military Curriculum Materials series"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maxwell Wintrobe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maxwell_Wintrobe&oldid=1344879928",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hematocrit",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hematocrit&oldid=1359621881",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Red blood cell indices",
+			"url": "https://en.wikipedia.org/w/index.php?title=Red_blood_cell_indices&oldid=1365438485",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Erythrocyte sedimentation rate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Erythrocyte_sedimentation_rate&oldid=1366007037",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "media",
+			"title": "Hematocrit",
+			"url": "https://commons.wikimedia.org/wiki/File:Hematocrit.JPG",
+			"accessed": "2026-10-01",
+			"container": "Wikimedia Commons",
+			"licence": "CC0",
+			"file": "microhematocrit.jpg",
+			"authors": [
+				{
+					"name": "PookieFugglestein"
+				}
+			],
+			"published": "2012"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/humours",
+			"why": "Wintrobe's tube measures, in millimetres, the layers that drawn blood forms as it stands or is spun, the layers Robin Fåhræus thought had given the ancients their four humours."
+		}
+	]
+}
