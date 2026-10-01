@@ -1,0 +1,99 @@
+{
+	"id": "men-commissioned",
+	"topic": "Men commissioned as nurses",
+	"position": { "label": "1955", "sort": 1955 },
+	"scene": {
+		"headline": "We struck out",
+		"accent": "FEMALE.",
+		"palette": "canvas",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PUBLIC LAW 294 · 9 AUGUST 1955 · FRANCES PAYNE BOLTON",
+			"2ND LT. EDWARD L. T. LYON, ARMY NURSE CORPS RESERVE · 6 OCTOBER 1955"
+		],
+		"counter": { "value": "54", "label": "years from the Army's women-only corps to its first man" }
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Highlights in the History of the Army Nurse Corps",
+			"number": "CMH Pub 85-1",
+			"editors": [
+				{ "family": "Feller", "given": "Carolyn M." },
+				{ "family": "Moore", "given": "Constance J." }
+			],
+			"publisher": "U.S. Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1996",
+			"url": "https://archive.org/details/HighlightsInTheHistoryOfTheArmyNurseCorps",
+			"accessed": "2026-10-01",
+			"note": "The acts of 1901, 1918, 1955 and 1966; Lyon; Special Call 38"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Proud to Serve: The Evolution of Male Army Nurse Corps Officers",
+			"authors": [{ "name": "Army Nurse Corps History Office" }],
+			"container": "AMEDD Center of History and Heritage",
+			"publisher": "U.S. Army Medical Department",
+			"url": "https://achh.army.mil/history/articles-malenurses/",
+			"accessed": "2026-10-01",
+			"note": "From the Army Nurse Corps Newsletter: the letters of 1918 and 1940, Bolton's bills"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Public Law 294: An Act to Authorize Male Nurses and Medical Specialists to Be Appointed as Reserve Officers",
+			"authors": [{ "name": "United States Congress" }],
+			"container": "United States Statutes at Large, vol. 69",
+			"publisher": "U.S. Government Printing Office",
+			"pages": "579",
+			"published": "1955-08-09",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-69/pdf/STATUTE-69-Pg579.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "The History of the Navy Nurse Corps",
+			"authors": [{ "name": "Naval History and Heritage Command" }],
+			"container": "Naval History and Heritage Command",
+			"publisher": "U.S. Navy",
+			"published": "2025-01-16",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01",
+			"note": "Men admitted in 1964; the first regular in 1968; 379 men by 1971"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United States Navy Nurse Corps",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Navy_Nurse_Corps&oldid=1368272768",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "web",
+			"title": "Navy Nurse Corps Anniversary",
+			"authors": [{ "family": "Bostic", "given": "Symira" }],
+			"container": "DVIDS",
+			"publisher": "Marine Corps Air Station Cherry Point",
+			"published": "2021-06-04",
+			"url": "https://www.dvidshub.net/news/396351/navy-nurse-corps-anniversary",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "Public Law 294, August 9, 1955",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-69/pdf/STATUTE-69-Pg579.pdf",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "public-law-294.jpg",
+			"authors": [{ "name": "United States Congress" }],
+			"container": "United States Statutes at Large, vol. 69, p. 579",
+			"published": "1955-08-09"
+		}
+	]
+}

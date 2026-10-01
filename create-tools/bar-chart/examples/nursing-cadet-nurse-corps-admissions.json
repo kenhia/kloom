@@ -1,0 +1,29 @@
+{
+	"title": "Admissions to the US Cadet Nurse Corps, 1943 to 1945",
+	"description": "Bar chart, students. 36,000 students already in school joined when the Corps began; 50,827 were admitted in fiscal year 1944, 54,396 in fiscal 1945 and 28,220 in fiscal 1946, until admissions ended on 15 October 1945: 169,443 in all. Data: US Public Health Service, The United States Cadet Nurse Corps 1943–1948, 1950.",
+	"heading": "CADET NURSE CORPS · ADMISSIONS",
+	"unit": "",
+	"axis": {
+		"max": 60000,
+		"ticks": [
+			[0, "0"],
+			[20000, "20,000"],
+			[40000, "40,000"],
+			[60000, "60,000"]
+		]
+	},
+	"bars": [
+		{ "label": "In school", "sublabel": "July 1943", "value": 36000, "display": "36,000" },
+		{ "label": "FY 1944", "sublabel": "to June 1944", "value": 50827, "display": "50,827" },
+		{
+			"label": "FY 1945",
+			"sublabel": "to June 1945",
+			"value": 54396,
+			"display": "54,396",
+			"highlight": true
+		},
+		{ "label": "FY 1946", "sublabel": "to Oct. 1945", "value": 28220, "display": "28,220" }
+	],
+	"barWidth": 56,
+	"width": 480
+}

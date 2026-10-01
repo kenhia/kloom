@@ -8,7 +8,14 @@
 				"id": "letin",
 				"title": "Who could be a nurse",
 				"labelKind": "date",
-				"frames": ["mary-mahoney", "mills-school", "nacgn"]
+				"frames": [
+					"mary-mahoney",
+					"mills-school",
+					"nacgn",
+					"cadet-nurse-corps",
+					"staupers",
+					"men-commissioned"
+				]
 			}
 		]
 	}
