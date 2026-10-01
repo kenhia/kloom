@@ -1,0 +1,31 @@
+{
+	"title": "Nurse training schools in the United States, 1880–1920 (log scale)",
+	"description": "Bar chart on a logarithmic scale of the number of nurse training schools in the United States. 1880, 15; 1884–85, 34; 1889–90, 35; 1894–95, 131; 1899–1900, 432; 1904–05, 862; 1909–10, 1,129; 1914–15, 1,509; 1919–20, 1,755. Data: US Bureau of Education, Statistics of Nurse Training Schools, 1919–1920, Bulletin 1921 no. 51, table 1.",
+	"heading": "TRAINING SCHOOLS · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"width": 560,
+	"height": 300,
+	"barWidth": 40,
+	"axis": {
+		"min": 10,
+		"max": 10000,
+		"ticks": [
+			[10, "10"],
+			[100, "100"],
+			[1000, "1,000"],
+			[10000, "10,000"]
+		]
+	},
+	"bars": [
+		{ "label": "1880", "value": 15 },
+		{ "label": "1885", "value": 34 },
+		{ "label": "1890", "value": 35 },
+		{ "label": "1895", "value": 131 },
+		{ "label": "1900", "value": 432 },
+		{ "label": "1905", "value": 862 },
+		{ "label": "1910", "value": 1129, "display": "1,129" },
+		{ "label": "1915", "value": 1509, "display": "1,509" },
+		{ "label": "1920", "value": 1755, "display": "1,755", "highlight": true }
+	]
+}

@@ -59,6 +59,12 @@
 			]
 		},
 		{
+			"id": "profession",
+			"title": "The modern profession",
+			"labelKind": "date",
+			"frames": ["training-schools", "henry-street", "licensure", "goldmark-report"]
+		},
+		{
 			"id": "dedication-seg",
 			"title": "Dedication",
 			"labelKind": "category",

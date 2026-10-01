@@ -1,0 +1,176 @@
+{
+	"id": "goldmark-report",
+	"topic": "The Goldmark Report",
+	"position": {
+		"label": "1923",
+		"sort": 1923
+	},
+	"scene": {
+		"headline": "We were students, not",
+		"accent": "STAFF.",
+		"palette": "nightshift",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THE COMMITTEE FOR THE STUDY OF NURSING EDUCATION",
+			"JOSEPHINE GOLDMARK · C.-E. A. WINSLOW",
+			"ROCKEFELLER FOUNDATION · YALE"
+		],
+		"counter": {
+			"value": "54",
+			"label": "median hours a week on duty, in the 23 schools studied"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Nursing and Nursing Education in the United States: Report of the Committee for the Study of Nursing Education, and Report of a Survey",
+			"authors": [
+				{
+					"name": "Committee for the Study of Nursing Education"
+				},
+				{
+					"family": "Goldmark",
+					"given": "Josephine"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "New York",
+			"published": "1923-02",
+			"url": "https://archive.org/details/nursingnursinged00commuoft",
+			"accessed": "2026-10-01",
+			"note": "The committee's conclusions, pp. 7–32; the survey of the training schools from p. 187, with table 10 on p. 415"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "1870s–1933: Origins of the Yale School of Nursing",
+			"container": "Yale School of Nursing: Better Health for All People",
+			"publisher": "Yale University Library Online Exhibitions",
+			"url": "https://onlineexhibits.library.yale.edu/s/yale-nursing/page/origins-of-ysn",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Once an experiment, Yale School of Nursing begins its second century",
+			"authors": [
+				{
+					"family": "Locklear",
+					"given": "Mallory"
+				}
+			],
+			"container": "YaleNews",
+			"publisher": "Yale University",
+			"published": "2023-11-09",
+			"url": "https://nursing.yale.edu/news/once-experiment-yale-school-nursing-begins-its-second-century",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Toward Quality in Nursing: Needs and Goals. Report of the Surgeon General's Consultant Group on Nursing",
+			"authors": [
+				{
+					"name": "Surgeon General's Consultant Group on Nursing"
+				}
+			],
+			"publisher": "US Public Health Service",
+			"place": "Washington",
+			"number": "Public Health Service Publication No. 922",
+			"published": "1963",
+			"url": "https://archive.org/details/ERIC_ED021994",
+			"accessed": "2026-10-01",
+			"note": "Programs and admissions, 1960–61, and nurses' education, 1962"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Josephine Clara Goldmark",
+			"url": "https://en.wikipedia.org/w/index.php?title=Josephine_Clara_Goldmark&oldid=1371393546",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Annie Warburton Goodrich",
+			"url": "https://en.wikipedia.org/w/index.php?title=Annie_Warburton_Goodrich&oldid=1372355936",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yale School of Nursing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yale_School_of_Nursing&oldid=1375248405",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles-Edward Amory Winslow",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles-Edward_Amory_Winslow&oldid=1326137681",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nurse education",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nurse_education&oldid=1371241615",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "media",
+			"title": "Title page of Nursing and Nursing Education in the United States",
+			"container": "Nursing and Nursing Education in the United States (1923), University of Toronto copy",
+			"published": "1923",
+			"url": "https://archive.org/details/nursingnursinged00commuoft/page/n8/mode/1up",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"note": "Published in the United States in 1923",
+			"file": "title-page.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Weekly hours of duty in 23 training schools, 1919–21",
+			"container": "Data: Nursing and Nursing Education in the United States (1923), table 10",
+			"url": "https://archive.org/details/nursingnursinged00commuoft",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "weekly-hours.svg"
+		}
+	]
+}

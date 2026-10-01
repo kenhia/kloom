@@ -1,0 +1,37 @@
+{
+	"nursing/training-schools": [
+		["Florence Nightingale", "florence-nightingale"],
+		["Bellevue", "bellevue-hospital"],
+		["Massachusetts General Hospital", "massachusetts-general-hospital"],
+		["New England Hospital for Women and Children", "new-england-hospital-for-women-and-children"],
+		["Linda Richards", "linda-richards"],
+		["Mary Eliza Mahoney", "mary-eliza-mahoney"]
+	],
+	"nursing/henry-street": [
+		["Lillian Wald", "lillian-wald"],
+		["New York City", "new-york-city"],
+		["Henry Street Settlement", "henry-street-settlement"],
+		["Visiting Nurse Service of New York", "vns-health"],
+		["public health nursing", "public-health-nursing"],
+		["Metropolitan Life Insurance Company", "metlife"],
+		["Children's Bureau", "united-states-childrens-bureau"]
+	],
+	"nursing/licensure": [
+		["Lavinia Dock", "lavinia-dock"],
+		["Johns Hopkins Hospital", "johns-hopkins-hospital"],
+		["Nurses' Associated Alumnae", "american-nurses-association"],
+		["Isabel Hampton Robb", "isabel-hampton-robb"],
+		["_American Journal of Nursing_", "american-journal-of-nursing"],
+		["Sophia Palmer", "sophia-french-palmer"],
+		["registered nurse", "registered-nurse"]
+	],
+	"nursing/goldmark-report": [
+		["Rockefeller Foundation", "rockefeller-foundation"],
+		["C.-E. A. Winslow", "charles-edward-amory-winslow"],
+		["Adelaide Nutting", "mary-adelaide-nutting"],
+		["Lillian Wald", "lillian-wald"],
+		["Josephine Goldmark", "josephine-clara-goldmark"],
+		["Yale School of Nursing", "yale-school-of-nursing"],
+		["Annie Goodrich", "annie-warburton-goodrich"]
+	]
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M51.5 210.5 L219.5 210.5"/>
+		<path pathLength="1" d="M51.5 210.5 L51.5 120.5"/>
+		<path pathLength="1" d="M26 236 L51.5 210.5"/>
+		<path pathLength="1" d="M26 252 L194 252"/>
+		<path pathLength="1" d="M26 246 L26 258"/>
+		<path pathLength="1" d="M194 246 L194 258"/>
+		<path pathLength="1" d="M14 236 L14 146"/>
+		<path pathLength="1" d="M8 236 L20 236"/>
+		<path pathLength="1" d="M8 146 L20 146"/>
+		<path pathLength="1" d="M206 236 L231.5 210.5"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M26 236 L194 236 L194 146 L26 146 Z"/>
+		<path pathLength="1" d="M194 236 L219.5 210.5 L219.5 120.5 L194 146"/>
+		<path pathLength="1" d="M26 146 L51.5 120.5 L219.5 120.5"/>
+		<path pathLength="1" d="M73.0 146.0 C73.0 88.0 147.0 88.0 147.0 146.0"/>
+		<path pathLength="1" d="M98.5 120.5 C98.5 62.5 172.4 62.5 172.4 120.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M34.0 146.0 Q32.0 176.0 46.0 180.0 L174.0 180.0 Q188.0 176.0 186.0 146.0"/>
+		<path pathLength="1" d="M104 180 L116 180 L116 188 L104 188 Z"/>
+		<path pathLength="1" d="M256 236 L390 236"/>
+		<path pathLength="1" d="M262 236 L262 201 L266.2 193.5 L266.2 186 L271.8 186 L271.8 193.5 L276 201 L276 236"/>
+		<path pathLength="1" d="M278 236 L278 210.8 L281 205.4 L281 200 L285 200 L285 205.4 L288 210.8 L288 236"/>
+		<path pathLength="1" d="M290 236 L290 210.8 L293 205.4 L293 200 L297 200 L297 205.4 L300 210.8 L300 236"/>
+		<path pathLength="1" d="M302 236 L302 210.8 L305 205.4 L305 200 L309 200 L309 205.4 L312 210.8 L312 236"/>
+		<path pathLength="1" d="M314 236 L314 210.8 L317 205.4 L317 200 L321 200 L321 205.4 L324 210.8 L324 236"/>
+		<path pathLength="1" d="M326 236 L326 210.8 L329 205.4 L329 200 L333 200 L333 205.4 L336 210.8 L336 236"/>
+		<path pathLength="1" d="M338 214 L352 214 L352 236 L338 236 Z"/>
+		<path pathLength="1" d="M337 211 L353 211 L353 214 L337 214"/>
+		<path pathLength="1" d="M354 214 L368 214 L368 236 L354 236 Z"/>
+		<path pathLength="1" d="M353 211 L369 211 L369 214 L353 214"/>
+		<path pathLength="1" d="M370 218 L381 218 L381 236 L370 236 Z"/>
+		<path pathLength="1" d="M369 215 L382 215 L382 218 L369 218"/>
+		<path pathLength="1" d="M383 218 L394 218 L394 236 L383 236 Z"/>
+		<path pathLength="1" d="M382 215 L395 215 L395 218 L382 218"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="110" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">14 IN</text>
+		<text x="10" y="194" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">7½</text>
+		<text x="224" y="222" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">6 IN</text>
+		<text x="323" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BOTTLES AND JARS</text>
+		<text x="323" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IN THE LINING</text>
+	</g>
+</svg>

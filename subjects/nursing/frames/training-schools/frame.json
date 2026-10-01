@@ -1,0 +1,187 @@
+{
+	"id": "training-schools",
+	"topic": "The first American training schools",
+	"position": {
+		"label": "1873",
+		"sort": 1873
+	},
+	"scene": {
+		"headline": "We learned on the",
+		"accent": "WARDS.",
+		"palette": "chart",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW YORK · NEW HAVEN · BOSTON",
+			"BELLEVUE · CONNECTICUT · MASSACHUSETTS GENERAL",
+			"LINDA RICHARDS"
+		],
+		"counter": {
+			"value": "432",
+			"label": "training schools in 1900, from 15 in 1880"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A History of Nursing, vol. 2",
+			"authors": [
+				{
+					"family": "Nutting",
+					"given": "M. Adelaide"
+				},
+				{
+					"family": "Dock",
+					"given": "Lavinia L."
+				}
+			],
+			"publisher": "G. P. Putnam's Sons",
+			"place": "New York",
+			"published": "1907",
+			"url": "https://archive.org/details/historyofnursing0002made",
+			"accessed": "2026-10-01",
+			"note": "\"A Trio of Training Schools\", pp. 379–433, and the New England Hospital, pp. 350–354; the badges face p. 434"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Reminiscences of Linda Richards, America's First Trained Nurse",
+			"authors": [
+				{
+					"family": "Richards",
+					"given": "Linda"
+				}
+			],
+			"publisher": "Whitcomb & Barrows",
+			"place": "Boston",
+			"published": "1911",
+			"url": "https://archive.org/details/reminiscencesli00richgoog",
+			"accessed": "2026-10-01",
+			"note": "Her year at the New England Hospital and her nights at Bellevue, pp. 10–20; read in the second printing of 1915"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Statistics of Nurse Training Schools, 1919–1920",
+			"authors": [
+				{
+					"name": "United States Bureau of Education"
+				}
+			],
+			"publisher": "Government Printing Office",
+			"place": "Washington",
+			"number": "Bulletin, 1921, no. 51",
+			"published": "1922",
+			"url": "https://archive.org/details/statisticsofnurs00unituoft",
+			"accessed": "2026-10-01",
+			"note": "Table 1, schools, pupils and graduates, 1880–1920"
+		},
+		{
+			"kind": "report",
+			"title": "Educational Status of Nursing",
+			"authors": [
+				{
+					"family": "Nutting",
+					"given": "M. Adelaide"
+				}
+			],
+			"publisher": "United States Bureau of Education",
+			"place": "Washington",
+			"number": "Bulletin, 1912, no. 7",
+			"published": "1912",
+			"url": "https://archive.org/details/ERIC_ED543002",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "The Law and the Expanding Nursing Role",
+			"authors": [
+				{
+					"family": "Bullough",
+					"given": "Bonnie"
+				}
+			],
+			"container": "American Journal of Public Health",
+			"volume": "66",
+			"issue": "3",
+			"pages": "249–254",
+			"published": "1976-03",
+			"doi": "10.2105/AJPH.66.3.249",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linda Richards",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linda_Richards&oldid=1372580721",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "New England Hospital for Women and Children",
+			"url": "https://en.wikipedia.org/w/index.php?title=New_England_Hospital_for_Women_and_Children&oldid=1362277587",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bellevue Hospital",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bellevue_Hospital&oldid=1374851492",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "media",
+			"title": "Linda Richards, \"The First Trained Nurse in America\", taken after her graduation",
+			"container": "Nutting and Dock, A History of Nursing, vol. 2 (1907), facing p. 352",
+			"published": "1873",
+			"circa": true,
+			"url": "https://archive.org/details/historyofnursing0002made/page/n397/mode/1up",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"note": "Published in the United States in 1907",
+			"file": "linda-richards.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Badges of the hospitals",
+			"container": "Nutting and Dock, A History of Nursing, vol. 2 (1907), p. 435",
+			"published": "1907",
+			"url": "https://archive.org/details/historyofnursing0002made/page/n487/mode/1up",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"note": "Published in the United States in 1907",
+			"file": "school-badges.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Nurse training schools in the United States, 1880–1920",
+			"container": "Data: US Bureau of Education, Statistics of Nurse Training Schools, 1919–1920, table 1",
+			"url": "https://archive.org/details/statisticsofnurs00unituoft",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "schools.svg"
+		}
+	]
+}

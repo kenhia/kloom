@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Weekly hours of duty in 23 training schools, 1919–21</title>
+<desc id="d">Bar chart of the number of the 23 training schools studied by the Committee for the Study of Nursing Education whose students worked each band of weekly hours on duty: 51 to 53 hours, 8 schools; 54 to 56, 7; 57 to 59, 6; 60, 2. The median was 54 hours. Data: Nursing and Nursing Education in the United States (1923), table 10.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">5</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">10</text>
+</g>
+<rect x="81.5" y="78.8" width="64" height="171.2" fill-opacity="0.85"/>
+<text x="113.5" y="72.8" text-anchor="middle">8</text>
+<text x="113.5" y="266" text-anchor="middle">51–53 H</text>
+<rect x="180.5" y="100.2" width="64" height="149.8" class="accent" fill="currentColor"/>
+<text x="212.5" y="94.2" text-anchor="middle">7</text>
+<text x="212.5" y="266" text-anchor="middle">54–56 H</text>
+<rect x="279.5" y="121.6" width="64" height="128.4" fill-opacity="0.85"/>
+<text x="311.5" y="115.6" text-anchor="middle">6</text>
+<text x="311.5" y="266" text-anchor="middle">57–59 H</text>
+<rect x="378.5" y="207.2" width="64" height="42.8" fill-opacity="0.85"/>
+<text x="410.5" y="201.2" text-anchor="middle">2</text>
+<text x="410.5" y="266" text-anchor="middle">60 H</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">SCHOOLS BY WEEKLY HOURS ON DUTY</text>
+</g></svg>
