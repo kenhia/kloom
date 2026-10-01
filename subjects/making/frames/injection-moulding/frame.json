@@ -1,0 +1,222 @@
+{
+	"id": "injection-moulding",
+	"topic": "Injection moulding",
+	"position": {
+		"label": "1872–1956",
+		"sort": 1956
+	},
+	"scene": {
+		"headline": "We made things in one",
+		"accent": "SHOT.",
+		"palette": "filament",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ALBANY · NEWARK · JOHN WESLEY AND ISAIAH HYATT",
+			"CELLULOID · PLUNGER AND CLAMP · RECIPROCATING SCREW"
+		],
+		"counter": {
+			"value": "98%",
+			"label": "of injection machines using Willert's reciprocating screw by 2000"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/polymers",
+			"why": "Bakelite, which sets for good once moulded, would seize a heated injection barrel; the screw machines were built for thermoplastics, whose long chains melt and set again."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Improvement in Processes and Apparatus for Manufacturing Pyroxyline, US Patent 133,229",
+			"authors": [
+				{
+					"family": "Hyatt",
+					"given": "Isaiah Smith"
+				},
+				{
+					"family": "Hyatt",
+					"given": "John W."
+				}
+			],
+			"container": "United States Patent Office",
+			"published": "1872-11-19",
+			"url": "https://patents.google.com/patent/US133229A/en",
+			"accessed": "2026-09-30",
+			"note": "The stuffing cylinder, the nozzle, and the mould held shut by a hydraulic clamp"
+		},
+		{
+			"kind": "web",
+			"title": "Improved Process of Coating and Beautifying the Surfaces of Billiard Balls, Knife-Handles, and Other Articles, US Patent 114,945",
+			"authors": [
+				{
+					"family": "Hyatt",
+					"given": "John W., Jr."
+				}
+			],
+			"container": "United States Patent Office",
+			"published": "1871-05-16",
+			"url": "https://patents.google.com/patent/US114945A/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Address of Acceptance",
+			"authors": [
+				{
+					"family": "Hyatt",
+					"given": "John Wesley"
+				}
+			],
+			"container": "Journal of Industrial and Engineering Chemistry",
+			"volume": "6",
+			"issue": "2",
+			"pages": "158–161",
+			"published": "1914-02",
+			"doi": "10.1021/ie50062a021",
+			"url": "https://archive.org/details/iecindustrialeng06amer",
+			"accessed": "2026-09-30",
+			"note": "Hyatt's Perkin Medal address, read in the Internet Archive's copy of volume 6"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Injection Molding Apparatus, US Patent 2,734,226",
+			"authors": [
+				{
+					"family": "Willert",
+					"given": "William H."
+				}
+			],
+			"container": "United States Patent Office",
+			"published": "1956-02-14",
+			"url": "https://patents.google.com/patent/US2734226A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 5 March 1952"
+		},
+		{
+			"kind": "web",
+			"title": "Willert, William H.",
+			"authors": [
+				{
+					"family": "Peterson",
+					"given": "Chad"
+				}
+			],
+			"container": "Plastics Hall of Fame",
+			"url": "https://plasticshof.org/members/william-h-willert/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Hendry, James R. W.",
+			"authors": [
+				{
+					"family": "Peterson",
+					"given": "Chad"
+				}
+			],
+			"container": "Plastics Hall of Fame",
+			"url": "https://plasticshof.org/members/james-r-w-hendry/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "No. 1 – Reciprocating-Screw Injection",
+			"authors": [
+				{
+					"name": "PT Editorial Team"
+				}
+			],
+			"container": "Plastics Technology",
+			"published": "2005-10-01",
+			"url": "https://www.ptonline.com/articles/no-1---reciprocating-screw-injection",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "The Evolution of Screw Design Technology for the Injection Molding Process – Part 1",
+			"authors": [
+				{
+					"family": "Womer",
+					"given": "Timothy W."
+				}
+			],
+			"container": "Plastics Trends",
+			"publisher": "Society of Plastics Engineers",
+			"published": "2006-02-13",
+			"url": "https://4spe.org/files/resource_library_files/Plastics%20Trends/25-the-evolution-of-screw-design-technology-for-the-injection-molding-process-part1.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "General Design Principles for DuPont Engineering Polymers, Module I",
+			"publisher": "DuPont Engineering Polymers",
+			"url": "https://www.delrin.com/wp-content/uploads/2024/02/DESIGN-PRINCIPLES-1.pdf",
+			"accessed": "2026-09-30",
+			"note": "Pressures and temperatures, the shrinkage formula and values, and the draft table"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Injection moulding",
+			"url": "https://en.wikipedia.org/w/index.php?title=Injection_moulding&oldid=1376463209",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Wesley Hyatt",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Wesley_Hyatt&oldid=1339557507",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Celluloid",
+			"url": "https://en.wikipedia.org/w/index.php?title=Celluloid&oldid=1361934487",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-30"
+		},
+		{
+			"kind": "media",
+			"title": "Hyatt's apparatus for moulding a coat of collodion onto a billiard ball, from US Patent 114,945",
+			"url": "https://commons.wikimedia.org/wiki/File:US114945_-_Patents_for_Injection_Moulding_by_John_Wesley_Hyatt_(Diagram_2).png",
+			"accessed": "2026-09-30",
+			"container": "United States Patent Office, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "hyatt-1871.png",
+			"authors": [
+				{
+					"family": "Hyatt",
+					"given": "John Wesley"
+				}
+			],
+			"published": "1871-05-16"
+		}
+	]
+}

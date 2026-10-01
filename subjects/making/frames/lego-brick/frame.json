@@ -1,0 +1,189 @@
+{
+	"id": "lego-brick",
+	"topic": "The Lego brick",
+	"position": {
+		"label": "1958",
+		"sort": 1958
+	},
+	"scene": {
+		"headline": "Two bricks learned to",
+		"accent": "CLUTCH.",
+		"palette": "resin",
+		"illustration": "scene.svg",
+		"metadata": ["BILLUND · GODTFRED KIRK CHRISTIANSEN", "ABS · STUDS AND TUBES · AN 8 MM GRID"],
+		"counter": {
+			"value": "0.005 mm",
+			"label": "the accuracy of Lego's moulds, by the company's 2011 account"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Toy Building Brick, US Patent 3,005,282",
+			"authors": [
+				{
+					"family": "Christiansen",
+					"given": "Godtfred Kirk"
+				}
+			],
+			"container": "United States Patent Office",
+			"published": "1961-10-24",
+			"url": "https://patents.google.com/patent/US3005282A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 28 July 1958, claiming the Danish application of 28 January 1958"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The LEGO Group: A Short Presentation 2011",
+			"authors": [
+				{
+					"name": "The LEGO Group"
+				}
+			],
+			"publisher": "The LEGO Group",
+			"published": "2011",
+			"url": "https://www.strategicplay.com/upload/documents/lego-company-presentation-.pdf",
+			"accessed": "2026-09-30",
+			"note": "How the bricks are moulded, the moulds' accuracy and the stud tolerance"
+		},
+		{
+			"kind": "web",
+			"title": "The LEGO Group – a Family Business",
+			"authors": [
+				{
+					"name": "The LEGO Group"
+				}
+			],
+			"container": "LEGO Maersk Container Ship 10155, brochure",
+			"publisher": "The LEGO Group",
+			"published": "2009",
+			"url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4591606.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Toy Building Bricks Made of Biopolymeric Material, WO 2019/106129",
+			"authors": [
+				{
+					"name": "LEGO A/S"
+				}
+			],
+			"container": "World Intellectual Property Organization",
+			"published": "2019-06-06",
+			"url": "https://patents.google.com/patent/WO2019106129A1/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Lego Dimensions",
+			"authors": [
+				{
+					"name": "Brighton Toy and Model Museum"
+				}
+			],
+			"container": "The Brighton Toy and Model Index",
+			"published": "2019-07-18",
+			"url": "https://www.brightontoymuseum.co.uk/w/index.php?title=Lego_dimensions&oldid=53849",
+			"accessed": "2026-09-30",
+			"note": "The 8 mm grid, the 0.1 mm clearance and the measured studs"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lego",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lego&oldid=1374432624",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12",
+			"key": true,
+			"note": "Quotes Andersen, The LEGO Story (2021), pp. 241–242, on the 1986 testimony"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Godtfred Kirk Christiansen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Godtfred_Kirk_Christiansen&oldid=1377055363",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kiddicraft",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kiddicraft&oldid=1372310211",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Acrylonitrile butadiene styrene",
+			"url": "https://en.wikipedia.org/w/index.php?title=Acrylonitrile_butadiene_styrene&oldid=1376170204",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "media",
+			"title": "The Lego brick with tubes, from Godtfred Kirk Christiansen's US Patent 3,005,282",
+			"url": "https://commons.wikimedia.org/wiki/File:US3005282A_Toy_building_brick_(1958_filed,_1961_published)_by_Christiansen_Godtfred_Kirk_-_Lego_brick,_p.1,_Fig._1~6.png",
+			"accessed": "2026-09-30",
+			"container": "United States Patent Office, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "lego-patent.png",
+			"authors": [
+				{
+					"family": "Christiansen",
+					"given": "Godtfred Kirk"
+				}
+			],
+			"published": "1961-10-24"
+		},
+		{
+			"kind": "media",
+			"title": "Kiddicraft Self-Locking Building Bricks of about 1949 beside modern Lego bricks",
+			"url": "https://commons.wikimedia.org/wiki/File:Kiddicraft_Lego_Comparison_Detail.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC0",
+			"file": "kiddicraft-lego.jpg",
+			"authors": [
+				{
+					"name": "JohnnysWorld"
+				}
+			],
+			"published": "2026-02-18"
+		}
+	],
+	"connections": [
+		{
+			"to": "making/injection-moulding",
+			"why": "Lego bought an injection moulding machine from England in 1947, the machine that made its plastic bricks."
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"making/injection-moulding": [
+		["John Wesley Hyatt", "john-wesley-hyatt"],
+		["celluloid", "celluloid"],
+		["injection moulding", "injection-moulding"],
+		["thermoplastic", "thermoplastic"],
+		["Bakelite", "bakelite"]
+	],
+	"making/lego-brick": [
+		["Godtfred Kirk Christiansen", "godtfred-kirk-christiansen"],
+		["Lego", "lego"],
+		["Ole Kirk Christiansen", "ole-kirk-christiansen"],
+		["Kiddicraft", "kiddicraft"],
+		["Hilary Page", "hilary-page"],
+		["cellulose acetate", "cellulose-acetate"],
+		["acrylonitrile butadiene styrene", "acrylonitrile-butadiene-styrene"]
+	],
+	"making/unimate": [
+		["General Motors", "general-motors"],
+		["Die casting", "die-casting"],
+		["Unimate", "unimate"],
+		["George Devol", "george-devol"],
+		["Joseph Engelberger", "joseph-engelberger"],
+		["Isaac Asimov", "isaac-asimov"],
+		["Unimation", "unimation"],
+		["Kawasaki", "kawasaki-heavy-industries"]
+	]
+}

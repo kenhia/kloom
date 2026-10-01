@@ -1,0 +1,209 @@
+{
+	"id": "unimate",
+	"topic": "Unimate, the first industrial robot",
+	"position": {
+		"label": "1961",
+		"sort": 1961
+	},
+	"scene": {
+		"headline": "We taught the arm by",
+		"accent": "HAND.",
+		"palette": "filament",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GENERAL MOTORS · NEW JERSEY · DEVOL AND ENGELBERGER",
+			"HYDRAULIC ARM · MAGNETIC DRUM · DIE CASTINGS"
+		],
+		"counter": {
+			"value": "$18,000",
+			"label": "GM's price for the first Unimate, which cost $65,000 to build"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Programmed Article Transfer, US Patent 2,988,237",
+			"authors": [
+				{
+					"family": "Devol",
+					"given": "George C., Jr."
+				}
+			],
+			"container": "United States Patent Office",
+			"published": "1961-06-13",
+			"url": "https://patents.google.com/patent/US2988237A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 10 December 1954; recording a program by leading the arm"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "In 1961, the First Robot Arm Punched In",
+			"authors": [
+				{
+					"family": "Marsh",
+					"given": "Allison"
+				}
+			],
+			"container": "IEEE Spectrum",
+			"published": "2022-08-30",
+			"url": "https://spectrum.ieee.org/unimation-robot",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The History of the Industrial Robot",
+			"authors": [
+				{
+					"family": "Wallén",
+					"given": "Johanna"
+				}
+			],
+			"publisher": "Division of Automatic Control, Linköpings universitet",
+			"number": "LiTH-ISY-R-2853",
+			"place": "Linköping",
+			"published": "2008-05-08",
+			"url": "https://www.diva-portal.org/smash/get/diva2:316930/FULLTEXT01.pdf",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Unimate",
+			"container": "Robots: Your Guide to the World of Robotics",
+			"publisher": "IEEE",
+			"url": "https://robotsguide.com/robots/unimate",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "George Devol",
+			"container": "National Inventors Hall of Fame",
+			"url": "https://www.invent.org/inductees/george-devol",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Unimate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Unimate&oldid=1353232215",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-09",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Devol",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Devol&oldid=1373853564",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Engelberger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Engelberger&oldid=1370113521",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Unimation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Unimation&oldid=1363889010",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Industrial robot",
+			"url": "https://en.wikipedia.org/w/index.php?title=Industrial_robot&oldid=1377022132",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Injection moulding",
+			"url": "https://en.wikipedia.org/w/index.php?title=Injection_moulding&oldid=1376463209",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "media",
+			"title": "A Unimate pours coffee at the Biltmore Hotel, Los Angeles, 1967",
+			"url": "https://commons.wikimedia.org/wiki/File:Unimate_pouring_coffee_for_a_woman_at_Biltmore_Hotel,_1967.jpg",
+			"accessed": "2026-09-30",
+			"container": "Los Angeles Times Photographic Archive, UCLA Library, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "unimate-coffee.jpg",
+			"authors": [
+				{
+					"family": "Brown",
+					"given": "Frank Q."
+				}
+			],
+			"published": "1967-10-03"
+		},
+		{
+			"kind": "media",
+			"title": "A Unimate industrial robot in the Birmingham Museums collection store",
+			"url": "https://commons.wikimedia.org/wiki/File:Industrial_robot_Birmingham_museum_store.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY 2.0",
+			"file": "unimate-birmingham.jpg",
+			"authors": [
+				{
+					"name": "Phil Parker"
+				}
+			],
+			"published": "2018-09-16"
+		}
+	],
+	"connections": [
+		{
+			"to": "making/injection-moulding",
+			"why": "The first Unimate unloaded a die-casting machine, and die casting is injection moulding in metal."
+		}
+	]
+}

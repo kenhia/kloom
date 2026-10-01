@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M112 20 L112 288"/>
+		<path pathLength="1" d="M20 280 L392 280"/>
+		<path pathLength="1" d="M223.3 83 L224.1 85.1 L224.8 87.2 L225.6 89.2 L226.3 91.3 L226.9 93.4 L227.5 95.5 L228.1 97.7 L228.6 99.8 L229.1 101.9 L229.6 104.1 L230 106.2 L230.4 108.4 L230.7 110.6 L231 112.8 L231.3 114.9 L231.5 117.1 L231.7 119.3 L231.8 121.5 L231.9 123.7 L232 125.9 L232 128.1 L232 130.3 L231.9 132.5 L231.8 134.7 L231.7 136.9 L231.5 139.1 L231.3 141.3 L231 143.5 L230.7 145.6 L230.4 147.8 L230 150 L229.5 152.1 L229.1 154.3 L228.6 156.4 L228 158.6 L227.5 160.7 L226.8 162.8 L226.2 164.9 L225.5 167 L224.8 169"/>
+		<path pathLength="1" d="M330.8 39.6 L331.9 42.3 L332.9 45 L333.9 47.7 L334.9 50.4 L335.8 53.1 L336.7 55.9 L337.6 58.6 L338.4 61.4 L339.2 64.1 L340 66.9 L340.7 69.7 L341.4 72.5 L342 75.3 L342.7 78.1 L343.3 80.9 L343.8 83.8 L344.3 86.6 L344.8 89.5 L345.3 92.3 L345.7 95.2 L346.1 98 L346.4 100.9 L346.7 103.7 L347 106.6 L347.3 109.5 L347.5 112.4 L347.7 115.2 L347.8 118.1 L347.9 121 L348 123.9 L348 126.8 L348 129.6 L348 132.5 L347.9 135.4 L347.8 138.3 L347.6 141.2 L347.5 144.1 L347.2 146.9 L347 149.8 L346.7 152.7 L346.4 155.5 L346 158.4 L345.6 161.3 L345.2 164.1 L344.8 167 L344.3 169.8 L343.7 172.6 L343.2 175.5 L342.6 178.3 L342 181.1 L341.3 183.9 L340.6 186.7 L339.9 189.5 L339.1 192.3 L338.3 195 L337.4 197.8 L336.6 200.5 L335.7 203.3 L334.7 206 L333.8 208.7"/>
+		<path pathLength="1" d="M224.8 169 L333.8 208.7"/>
+		<path pathLength="1" d="M112 128 L224.8 169"/>
+		<path pathLength="1" d="M223.3 83 L330.8 39.6"/>
+		<path pathLength="1" d="M112 128 L223.3 83"/>
+		<path pathLength="1" d="M68.8 46.9 L70.2 46.2 L71.9 45.6 L73.9 45 L76.1 44.4 L78.5 43.8 L81.2 43.3 L84.1 42.8 L87.2 42.4 L90.4 42.1 L93.8 41.7 L97.3 41.5 L100.9 41.3 L104.5 41.1 L108.3 41 L112 41 L115.7 41 L119.5 41.1 L123.1 41.3 L126.7 41.5 L130.2 41.7 L133.6 42.1 L136.8 42.4 L139.9 42.8 L142.8 43.3 L145.5 43.8 L147.9 44.4 L150.1 45 L152.1 45.6 L153.8 46.2 L155.2 46.9"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M44 280 L44 206 L180 206 L180 280"/>
+		<path pathLength="1" d="M92 206 L92 154 L132 154 L132 206"/>
+		<path pathLength="1" d="M68.8 107.8 L132.1 98.9 L139.4 150.4 L76 159.3 Z"/>
+		<path pathLength="1" d="M106 128 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0"/>
+		<path pathLength="1" d="M134.8 117.7 L305.1 93.8"/>
+		<path pathLength="1" d="M136.7 131.6 L307.1 107.7"/>
+		<path pathLength="1" d="M307.8 112.6 L323.6 110.4 L320.3 86.6 L304.4 88.8 Z"/>
+		<path pathLength="1" d="M321.9 98.5 L340.6 110.2"/>
+		<path pathLength="1" d="M335.3 118.6 L345.9 101.7 M335.3 118.6 L348.9 127.1 M345.9 101.7 L359.5 110.2"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M176.9 101.8 L177.7 103.8 L178.4 105.8 L179 107.8 L179.6 109.9 L180.1 112 L180.6 114 L181 116.1 L181.3 118.3 L181.6 120.4 L181.8 122.5 L181.9 124.6 L182 126.8 L182 128.9 L181.9 131.1 L181.8 133.2 L181.6 135.3 L181.4 137.4 L181 139.6 L180.7 141.7 L180.2 143.7 L179.7 145.8 L179.1 147.9 L178.5 149.9 L177.8 151.9"/>
+		<path pathLength="1" d="M142.8 145.9 L309.2 122.5"/>
+		<path pathLength="1" d="M303.6 126.3 L309.2 122.5 L302.8 120.4"/>
+		<path pathLength="1" d="M244 242 a6 16 0 1 0 12 0 a6 16 0 1 0 -12 0"/>
+		<path pathLength="1" d="M350 226 L350.9 226.2 L351.9 226.8 L352.7 227.7 L353.5 229.1 L354.2 230.7 L354.9 232.6 L355.3 234.7 L355.7 237.1 L355.9 239.5 L356 242 L355.9 244.5 L355.7 246.9 L355.3 249.3 L354.9 251.4 L354.2 253.3 L353.5 254.9 L352.7 256.3 L351.9 257.2 L350.9 257.8 L350 258"/>
+		<path pathLength="1" d="M250 226 L350 226"/>
+		<path pathLength="1" d="M250 258 L350 258"/>
+		<path pathLength="1" d="M262 226 L262 258 M274 226 L274 258 M286 226 L286 258 M298 226 L298 258 M310 226 L310 258 M322 226 L322 258 M334 226 L334 258 M346 226 L346 258"/>
+		<path pathLength="1" d="M252 233 L352 233 M252 239 L352 239 M252 245 L352 245 M252 251 L352 251"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="112" y="16" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SWING</text>
+		<text x="172.9" y="93.8" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIFT</text>
+		<text x="226" y="156.2" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">REACH</text>
+		<text x="300" y="270" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DRUM: A SLOT A STEP</text>
+	</g>
+</svg>

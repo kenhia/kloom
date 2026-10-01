@@ -39,6 +39,12 @@
 			]
 		},
 		{
+			"id": "mass",
+			"title": "Making many",
+			"labelKind": "date",
+			"frames": ["injection-moulding", "lego-brick", "unimate"]
+		},
+		{
 			"id": "additive",
 			"title": "Layer by layer",
 			"labelKind": "date",
