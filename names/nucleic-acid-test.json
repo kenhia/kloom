@@ -1,0 +1,9 @@
+{
+	"id": "nucleic-acid-test",
+	"wikidata": "Q348667",
+	"name": "Nucleic acid test",
+	"aliases": ["NAT", "nucleic acid testing", "nucleic acid amplification test"],
+	"kind": "idea",
+	"description": "Any test that detects a pathogen by its own DNA or RNA, copied many times over (by PCR or similar methods) until there is enough to see; used to screen donated blood since 1999.",
+	"home": "blood/nat"
+}

@@ -1,0 +1,24 @@
+{
+	"title": "Blood donations per 1,000 people, by country income group",
+	"description": "Bar chart of the median whole-blood donation rate per 1,000 people in 2023, from the World Health Organization's fact sheet on blood safety and availability (June 2026): high-income countries 28.9, upper-middle-income 18.2, lower-middle-income 8.5 and low-income 4.5.",
+	"heading": "BLOOD DONATIONS PER 1,000 PEOPLE · MEDIAN · 2023",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 60,
+	"axis": {
+		"max": 35,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"]
+		]
+	},
+	"bars": [
+		{ "label": "High", "sublabel": "income", "value": 28.9, "highlight": true },
+		{ "label": "Upper", "sublabel": "middle", "value": 18.2 },
+		{ "label": "Lower", "sublabel": "middle", "value": 8.5 },
+		{ "label": "Low", "sublabel": "income", "value": 4.5 }
+	]
+}

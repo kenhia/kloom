@@ -1,0 +1,39 @@
+{
+	"blood/hiv-blood": [
+		["Centers for Disease Control", "centers-for-disease-control-and-prevention"],
+		["AIDS", "hiv-aids"],
+		["Institute of Medicine", "national-academy-of-medicine"],
+		["HIV", "hiv"],
+		["ELISA", "elisa"],
+		["window period", "window-period"],
+		["Krever Commission", "royal-commission-of-inquiry-on-the-blood-system-in-canada"],
+		["Infected Blood Inquiry", "infected-blood-scandal-in-the-united-kingdom"]
+	],
+	"blood/epo": [
+		["erythropoietin", "erythropoietin"],
+		["Eugene Goldwasser", "eugene-goldwasser"],
+		["Amgen", "amgen"],
+		["Fu-Kuen Lin", "fu-kuen-lin"],
+		["Chinese hamster ovary cells", "chinese-hamster-ovary-cell"],
+		["hemodialysis", "hemodialysis"],
+		["epoetin alfa", "epoetin-alfa"],
+		["Festina affair", "festina-affair"]
+	],
+	"blood/nat": [
+		["window period", "window-period"],
+		["HIV", "hiv"],
+		["hepatitis C", "hepatitis-c"],
+		["nucleic acid test", "nucleic-acid-test"],
+		["Food and Drug Administration", "food-and-drug-administration"],
+		["polymerase chain reaction", "polymerase-chain-reaction"],
+		["Transcription-mediated amplification", "transcription-mediated-amplification"]
+	],
+	"blood/where-blood-is": [
+		["World Health Organization", "world-health-organization"],
+		["platelets", "platelet"],
+		["Patient blood management", "patient-blood-management"],
+		["blood substitutes", "blood-substitute"],
+		["NHS Blood and Transplant", "nhs-blood-and-transplant"],
+		["whole blood", "whole-blood"]
+	]
+}

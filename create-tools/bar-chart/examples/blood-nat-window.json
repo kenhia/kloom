@@ -1,0 +1,27 @@
+{
+	"title": "The window period for HIV and hepatitis C, by screening test",
+	"description": "Bar chart of the window period, in days from the time a donation can first infect until each test detects the infection. HIV: antibody tests then in use, 45 days (an estimate by Petersen and colleagues, 1994); p24 antigen, 15; minipool nucleic acid test, 9; single-donation test, 5.6. Hepatitis C: antibody, 58; minipool test, 7.4; single-donation test, 4.9. All but the first are from the model of Busch and colleagues (2005), several as sums of its intervals.",
+	"heading": "DAYS AN INFECTION GOES UNSEEN · HIV AND HEPATITIS C",
+	"unit": "",
+	"width": 560,
+	"height": 300,
+	"barWidth": 46,
+	"axis": {
+		"max": 70,
+		"ticks": [
+			[0, "0"],
+			[20, "20"],
+			[40, "40"],
+			[60, "60"]
+		]
+	},
+	"bars": [
+		{ "label": "HIV", "sublabel": "antibody", "value": 45 },
+		{ "label": "HIV", "sublabel": "p24", "value": 15 },
+		{ "label": "HIV", "sublabel": "pool NAT", "value": 9, "highlight": true },
+		{ "label": "HIV", "sublabel": "single", "value": 5.6 },
+		{ "label": "HCV", "sublabel": "antibody", "value": 58 },
+		{ "label": "HCV", "sublabel": "pool NAT", "value": 7.4, "highlight": true },
+		{ "label": "HCV", "sublabel": "single", "value": 4.9 }
+	]
+}

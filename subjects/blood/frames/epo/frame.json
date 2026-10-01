@@ -1,0 +1,258 @@
+{
+	"id": "epo",
+	"topic": "Erythropoietin",
+	"position": {
+		"label": "1985–89",
+		"sort": 1985
+	},
+	"scene": {
+		"headline": "We taught hamster cells a human",
+		"accent": "HORMONE.",
+		"palette": "cryo",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CHICAGO · THOUSAND OAKS · EUGENE GOLDWASSER · FU-KUEN LIN",
+			"URINE, 1977 · HAMSTER CELLS, 1985 · EPOGEN, 1989"
+		],
+		"counter": {
+			"value": "2,550",
+			"label": "litres of urine behind the first pure human EPO"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Purification of Human Erythropoietin",
+			"authors": [
+				{
+					"family": "Miyake",
+					"given": "Takaji"
+				},
+				{
+					"family": "Kung",
+					"given": "Charles K.-H."
+				},
+				{
+					"family": "Goldwasser",
+					"given": "Eugene"
+				}
+			],
+			"container": "Journal of Biological Chemistry",
+			"volume": "252",
+			"issue": "15",
+			"pages": "5558–5564",
+			"published": "1977",
+			"doi": "10.1016/S0021-9258(19)63387-9",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Cloning and Expression of the Human Erythropoietin Gene",
+			"authors": [
+				{
+					"family": "Lin",
+					"given": "Fu-Kuen"
+				},
+				{
+					"family": "Suggs",
+					"given": "Sidney V."
+				},
+				{
+					"family": "Lin",
+					"given": "Chih-Wei"
+				},
+				{
+					"family": "Browne",
+					"given": "Jeffrey K."
+				},
+				{
+					"family": "Smalling",
+					"given": "Ralph"
+				},
+				{
+					"family": "Egrie",
+					"given": "Joan C."
+				},
+				{
+					"family": "Chen",
+					"given": "K. K."
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "82",
+			"issue": "22",
+			"pages": "7580–7584",
+			"published": "1985-11",
+			"doi": "10.1073/pnas.82.22.7580",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Correction of the Anemia of End-Stage Renal Disease with Recombinant Human Erythropoietin: Results of a Combined Phase I and II Clinical Trial",
+			"authors": [
+				{
+					"family": "Eschbach",
+					"given": "Joseph W."
+				},
+				{
+					"family": "Egrie",
+					"given": "Joan C."
+				},
+				{
+					"family": "Downing",
+					"given": "Michael R."
+				},
+				{
+					"family": "Browne",
+					"given": "Jeffrey K."
+				},
+				{
+					"family": "Adamson",
+					"given": "John W."
+				}
+			],
+			"container": "New England Journal of Medicine",
+			"volume": "316",
+			"issue": "2",
+			"pages": "73–78",
+			"published": "1987-01-08",
+			"doi": "10.1056/NEJM198701083160203",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Erythropoietin Regulation of Red Blood Cell Production: From Bench to Bedside and Back",
+			"authors": [
+				{
+					"family": "Bhoopalan",
+					"given": "Senthil Velan"
+				},
+				{
+					"family": "Huang",
+					"given": "Lily Jun-shen"
+				},
+				{
+					"family": "Weiss",
+					"given": "Mitchell J."
+				}
+			],
+			"container": "F1000Research",
+			"volume": "9",
+			"pages": "F1000 Faculty Rev-1153",
+			"published": "2020",
+			"doi": "10.12688/f1000research.26648.1",
+			"accessed": "2026-10-01",
+			"note": "The history in brief, the 2,550 litres, and the oxygen-sensing loop"
+		},
+		{
+			"kind": "article",
+			"title": "Erythropoietin: A Personal Alice in Wonderland Trip in the Shadow of the Giants",
+			"authors": [
+				{
+					"family": "Migliaccio",
+					"given": "Anna Rita"
+				}
+			],
+			"container": "Biomolecules",
+			"volume": "14",
+			"issue": "4",
+			"pages": "408",
+			"published": "2024",
+			"doi": "10.3390/biom14040408",
+			"accessed": "2026-10-01",
+			"note": "The urine collection centre, the 8 milligrams, and the patent dispute"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eugene Goldwasser",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eugene_Goldwasser&oldid=1307034636",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fu-Kuen Lin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fu-Kuen_Lin&oldid=1350581438",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Erythropoietin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Erythropoietin&oldid=1365571745",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Epoetin alfa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Epoetin_alfa&oldid=1351683657",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chinese hamster ovary cell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chinese_hamster_ovary_cell&oldid=1376604204",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Amgen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Amgen&oldid=1355922397",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-24"
+		}
+	]
+}

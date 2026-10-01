@@ -37,7 +37,10 @@
 				"apheresis",
 				"rhogam",
 				"gift-relationship",
-				"hepatitis"
+				"hepatitis",
+				"hiv-blood",
+				"epo",
+				"nat"
 			]
 		},
 		{
@@ -54,6 +57,12 @@
 				"lis",
 				"gel-card"
 			]
+		},
+		{
+			"id": "today",
+			"title": "Today",
+			"labelKind": "category",
+			"frames": ["where-blood-is"]
 		},
 		{
 			"id": "dedication-seg",
