@@ -1,4 +1,4 @@
-"""computing plates, segment "Software, shared", plus `cloud` (sprint 015). See computing.py."""
+"""computing plates, segment "Software, shared", plus `cloud` (sprint 015). See plates_for.py."""
 import hashlib
 import math
 

@@ -1,4 +1,4 @@
-"""physics plates, the trail "Heat and information", part "information" (sprint 021). See physics.py."""
+"""physics plates, the trail "Heat and information", part "information" (sprint 021). See plates_for.py."""
 import math
 
 from plates import D

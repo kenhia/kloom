@@ -53,6 +53,14 @@ def problems(spec):
         cx, half = x0 + slot * (i + 0.5), len(b.get('display', label(b['value'], unit))) * ADVANCE * 11 / 2
         if at(b['value']) - 6 - 8 < 23 and cx - half < heading:
             out.append(f'the label of "{b["label"]}" meets the heading: raise the axis max above {b["value"]}')
+    # A tick's label ends 8 units left of the axis (x 56) and runs left from there (sprint 025: a
+    # "1,000,000" tick was cut off at the chart's edge).
+    room = x0 - 8 - 2
+    for _, tick in spec['axis']['ticks']:
+        wide = len(str(tick)) * ADVANCE * 11
+        if wide > room:
+            out.append(f'tick label "{tick}" is ~{wide - room:.0f} units wider than the {room} left of the axis: '
+                       'shorten it ("1M", "10⁶")')
     for size, key in ((11, 'label'), (11, 'display'), (9, 'sublabel')):
         texts = [b.get(key, '') for b in spec['bars']]
         for a, b in zip(texts, texts[1:]):

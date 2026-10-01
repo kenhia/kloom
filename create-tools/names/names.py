@@ -4,8 +4,10 @@
 Five commands:
 
   lookup   Wikipedia titles -> the name files' skeletons: the Wikidata item each
-           article is about, and Wikidata's own one-line description, to start
-           from (rewrite it in the house style). A title that redirects says so
+           article is about, Wikidata's own one-line description, to start
+           from (rewrite it in the house style), and the article's first line.
+           Read both: a real article on a namesake passes otherwise, and
+           `--expect WORD` warns when neither says WORD. A title that redirects says so
            (`redirected`): the article it lands on may be about something wider
            (Project MAC lands on CSAIL), so look the item up on Wikidata instead.
            A title that lands on a disambiguation page says `ambiguous`, and
@@ -26,11 +28,15 @@ Five commands:
 
   names.py lookup "Johannes Gutenberg" "Printing press"
   names.py add drafts/ [--names names] [--update] [--check]
-  names.py mark examples/western-civ.json [--root subjects] [--check]
+  names.py mark examples/western-civ.json [...] [--root subjects] [--check [--placed]]
   names.py density [--root subjects]
 
-`mark --check` changes nothing, and exits 1 if any mark would be missing or cannot be
-placed, so a spec can be kept as the record of what was marked and checked again.
+`mark --check` changes nothing: it says where each mark not yet placed would land (the
+sentence, and a warning when that is before the reading's bold mention), and exits 1 only
+on a problem: a mention it cannot find, a name no file or draft holds, or a mark no spec
+lists (one typed by hand). "Would place" is success, and exits 0. `--placed` makes a mark
+not yet placed a problem too: `just check` runs every spec that way, so a spec is the
+record of what was marked and a hand-typed mark fails the gate (sprint 027).
 `add --check` changes nothing, and exits 1 if anything would be refused.
 Standard library only.
 """
@@ -68,21 +74,37 @@ LETTERS = str.maketrans({'Ø': 'O', 'ø': 'o', 'Æ': 'AE', 'æ': 'ae', 'Œ': 'OE
                          'Ł': 'L', 'ł': 'l', 'Đ': 'D', 'đ': 'd', 'Þ': 'Th', 'þ': 'th', 'ð': 'd'})
 
 
+# Greek letters, spelled: "Leibniz formula for π" is leibniz-formula-for-pi, not -for (sprint 024).
+GREEK = dict(zip('αβγδεζηθικλμνξοπρστυφχψω',
+                 'alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho '
+                 'sigma tau upsilon phi chi psi omega'.split()))
+GREEK.update({k.upper(): v for k, v in GREEK.items()}, ς='sigma')
+# A title that is a bare number names the number: Wikipedia's "0" is zero, not the id 0 (sprint 024).
+NUMBERS = 'zero one two three four five six seven eight nine ten eleven twelve'.split()
+
+
 def slug(title):
     """An id from a title: accents and apostrophes dropped (Gödel -> godel, Moore's -> moores), & as and,
-    and an en or em dash a break between words (Hellmann–Feynman -> hellmann-feynman, sprint 021)."""
+    an en or em dash a break between words (Hellmann–Feynman -> hellmann-feynman, sprint 021), a Greek
+    letter spelled (π -> pi), and a bare number in words (0 -> zero, 1729 -> number-1729)."""
+    if re.fullmatch(r'\d+', title.strip()):
+        n = int(title)
+        return NUMBERS[n] if n < len(NUMBERS) else f'number-{n}'
+    title = ''.join(f' {GREEK[c]} ' if c in GREEK else c for c in title)
     plain = unicodedata.normalize('NFKD', title.translate(LETTERS).replace('–', ' ').replace('—', ' ')).encode('ascii', 'ignore').decode()
     plain = re.sub(r"['’]", '', plain).replace('&', ' and ')
     return re.sub(r'[^a-z0-9]+', '-', plain.lower()).strip('-')
 
 
 def lookup(titles):
-    """{requested title: {id, wikidata, name, description}}, following redirects, 50 at a time."""
+    """{requested title: {id, wikidata, name, description, first_line}}, following redirects, 20 at a time
+    (the most intro extracts the API gives in one request)."""
     out = {}
-    for i in range(0, len(titles), 50):
-        batch = titles[i:i + 50]
+    for i in range(0, len(titles), 20):
+        batch = titles[i:i + 20]
         query = urllib.parse.urlencode({
-            'action': 'query', 'prop': 'pageprops', 'ppprop': 'wikibase_item|wikibase-shortdesc|disambiguation',
+            'action': 'query', 'prop': 'pageprops|extracts', 'ppprop': 'wikibase_item|wikibase-shortdesc|disambiguation',
+            'exintro': 1, 'explaintext': 1, 'exsentences': 1, 'exlimit': 'max',
             'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
         })
         data = get(f'{API}?{query}')['query']
@@ -111,8 +133,33 @@ def lookup(titles):
                 'wikidata': props.get('wikibase_item'),
                 'name': page['title'],
                 'description': props.get('wikibase-shortdesc', ''),
+                # The article's own first sentence: a namesake shows here (sprint 026's four).
+                'first_line': untex(' '.join(page.get('extract', '').split())),
             }
     return out
+
+
+def untex(text):
+    """Plain text without the TeX a formula leaves behind in an extract ("{\\displaystyle …}")."""
+    while (i := text.find('{\\displaystyle')) >= 0:
+        depth, j = 0, i
+        for j in range(i, len(text)):
+            depth += {'{': 1, '}': -1}.get(text[j], 0)
+            if depth == 0:
+                break
+        text = text[:i].rstrip() + text[j + 1:]
+    return text
+
+
+def unexpected(found, expect):
+    """Why a looked-up article may be a namesake: `expect` is in neither its description nor its
+    first line ("Hideo Kodama" --expect printing is a politician). None when it is there, or not found."""
+    if not expect or 'id' not in found:
+        return None
+    text = f"{found.get('description', '')} {found.get('first_line', '')}".lower()
+    if expect.lower() in text:
+        return None
+    return f"\"{found['name']}\" does not say {expect!r}: is it a namesake? ({found.get('description') or found.get('first_line')})"
 
 
 # What a mark may not sit inside: a link or image (alt text wraps lines), a
@@ -120,16 +167,55 @@ def lookup(titles):
 SHUT = re.compile(r'!?\[[^\]]*\]\([^)]*\)|^#.*$|^\|.*$', re.M)
 
 
-def mark(reading, words, name):
-    """The reading with the first prose mention of `words` marked, or None if there is none."""
+def place(reading, words, name):
+    """Where the first prose mention of `words` is, as (start, end); 'marked' if the name is
+    already marked in the frame, or None if there is no mention to mark. Matched whole: "electron"
+    is not found inside "electrons", and case counts ("antimony" is not "Antimony")."""
     if f'](kloom:e/{name})' in reading:
-        return reading
+        return 'marked'
     shut = [m.span() for m in SHUT.finditer(reading)]
     pattern = r'(?<![\w-])' + r'\s+'.join(map(re.escape, words.split())) + r'(?![\w-])'
     for m in re.finditer(pattern, reading):
-        if any(a < m.end() and m.start() < b for a, b in shut):
+        if not any(a < m.end() and m.start() < b for a, b in shut):
+            return m.span()
+    return None
+
+
+def mark(reading, words, name):
+    """The reading with the first prose mention of `words` marked, or None if there is none."""
+    at = place(reading, words, name)
+    if at is None or at == 'marked':
+        return None if at is None else reading
+    a, b = at
+    return f'{reading[:a]}[{reading[a:b]}](kloom:e/{name}){reading[b:]}'
+
+
+BOLD = re.compile(r'\*\*(?=\S)((?:(?!\n\n).)+?)(?<=\S)\*\*', re.S)
+
+
+def sentence(reading, a, b):
+    """The sentence holding reading[a:b], on one line, with those words in brackets."""
+    start = max(reading.rfind('\n\n', 0, a), max((reading.rfind(p, 0, a) for p in ('. ', '? ', '! ')), default=-1))
+    start = 0 if start < 0 else start + 2
+    ends = [i for i in (reading.find(p, b) for p in ('. ', '? ', '! ', '.\n', '\n\n')) if i >= 0]
+    end = min(ends) + 1 if ends else len(reading)
+    text = f'{reading[start:a]}[{reading[a:b]}]{reading[b:end]}'
+    return re.sub(r'\s+', ' ', text).strip()
+
+
+def bold_elsewhere(reading, words, a, b):
+    """The bold mention of `words` when the mark at a..b is not on it, else None.
+
+    A bold mention is a bold run that is the words themselves, in any case or as a plural
+    ("**Antimony**", "**electrons**" for "electron"), and holds no mark of its own. It is the
+    mention the author meant; a mark that lands elsewhere is on a passing mention, a quotation
+    or a different case (sprints 024 and 025: eleven authors)."""
+    want = ' '.join(words.split()).lower()
+    for m in BOLD.finditer(reading):
+        text = ' '.join(m.group(1).split()).lower().strip('_*.,;:')
+        if 'kloom:e/' in text or text not in (want, want + 's', want + 'es'):
             continue
-        return f'{reading[:m.start()]}[{m.group(0)}](kloom:e/{name}){reading[m.end():]}'
+        return None if m.start() <= a and b <= m.end() else m.group(0)
     return None
 
 
@@ -278,6 +364,8 @@ def main():
     sub = p.add_subparsers(dest='command', required=True)
     lk = sub.add_parser('lookup', help='Wikipedia titles to name-file skeletons')
     lk.add_argument('titles', nargs='+')
+    lk.add_argument('--expect', metavar='WORD',
+                    help='warn, and exit 1, for an article whose description and first line lack this word')
     ad = sub.add_parser('add', help='write name files into the registry')
     ad.add_argument('drafts', nargs='+', help='name files, or directories of them')
     ad.add_argument('--names', default='names', help='the registry directory')
@@ -292,9 +380,13 @@ def main():
     rc.add_argument('--root', default='subjects', help='the subjects directory')
     rc.add_argument('--json', action='store_true', help='one JSON line per subject')
     mk = sub.add_parser('mark', help="mark names' first mentions from a spec")
-    mk.add_argument('spec')
+    mk.add_argument('spec', nargs='+', help='one or more specs')
     mk.add_argument('--root', default='subjects', help='the subjects directory')
-    mk.add_argument('--check', action='store_true', help='change nothing; exit 1 if a mark is missing')
+    mk.add_argument('--check', action='store_true',
+                    help='change nothing: say where each mark would land; exit 1 only if one cannot be placed, '
+                         'names an unknown name, or a mark is in no spec')
+    mk.add_argument('--placed', action='store_true',
+                    help='with --check: exit 1 too if a mark is not placed yet (the gate, over committed readings)')
     mk.add_argument('--names', default='names', help='the registry directory')
     mk.add_argument('--drafts', action='append', default=[],
                     help='a directory of name drafts not yet added, whose ids count as known (repeatable)')
@@ -302,9 +394,15 @@ def main():
 
     if args.command == 'lookup':
         found = lookup(args.titles)
+        doubtful = 0
         for t in args.titles:
-            print(json.dumps(found.get(t, {'missing': t}), ensure_ascii=False))
-        return 0
+            row = found.get(t, {'missing': t})
+            print(json.dumps(row, ensure_ascii=False))
+            why = unexpected(row, args.expect)
+            if why:
+                print(f'warning: {why}', file=sys.stderr)
+                doubtful += 1
+        return 1 if doubtful else 0
 
     if args.command == 'add':
         refused = add(args.drafts, args.names, args.update, args.check)
@@ -324,43 +422,88 @@ def main():
                 print(' | '.join(str(r[c]) for c in cols))
         return 0
 
-    spec = json.loads(Path(args.spec).read_text())
+    return mark_spec(args)
+
+
+def mark_spec(args):
+    """`mark`: place each spec's marks, or with --check say what would be placed. 0, or 1 on a problem."""
     failed = 0
     # A mark on a name no file holds fails the gate; say so here, not at vitest (sprint 021).
-    known = {f.stem for d in [args.names, *args.drafts] if Path(d).is_dir() for f in Path(d).glob('*.json')}
-    for ref, pairs in spec.items():
+    registry = {f.stem: f for f in Path(args.names).glob('*.json')} if Path(args.names).is_dir() else {}
+    drafted = {f.stem: f for d in args.drafts if Path(d).is_dir() for f in Path(d).glob('*.json')}
+    known = set(registry) | set(drafted)
+    for line in stale_drafts(registry, drafted):
+        print(f'warning: {line}', file=sys.stderr)
+    for spec_path in args.spec:
+        failed += mark_one(args, Path(spec_path), known)
+    return 1 if failed else 0
+
+
+def mark_one(args, spec_path, known):
+    """One spec's marks; returns how many problems it found."""
+    failed = 0
+    for ref, pairs in json.loads(spec_path.read_text()).items():
         for words, name in pairs:
             if name not in known:
                 print(f'{ref}: {name} is not in the registry or a draft', file=sys.stderr)
                 failed += 1
         path = Path(args.root) / ref.split('/')[0] / 'frames' / ref.split('/')[1] / 'reading.md'
         reading = before = path.read_text()
+        landed = []
         for words, name in pairs:
-            done = mark(reading, words, name)
-            if done is None:
+            at = place(reading, words, name)
+            if at is None:
                 print(f'{ref}: no prose mention of "{words}" to mark as {name}', file=sys.stderr)
                 failed += 1
-            else:
-                reading = done
+            elif at != 'marked':
+                a, b = at
+                landed.append((name, words, sentence(reading, a, b), bold_elsewhere(reading, words, a, b)))
+                reading = mark(reading, words, name)
         if args.check:
             # The specs are the record of what was marked: a mark placed by hand is in none of them
             # (sprint 021). A frame's marks may be split across specs (shared.json), so read them all.
-            listed = {name for sp in Path(args.spec).parent.glob('*.json')
+            listed = {name for sp in spec_path.parent.glob('*.json')
                       for name_ref, ps in json.loads(sp.read_text()).items() if name_ref == ref
                       for _, name in ps}
             for name in sorted(set(MARK.findall(reading)) - listed):
-                print(f'{ref}: marks {name}, which the spec does not list', file=sys.stderr)
+                print(f'{ref}: marks {name}, which the spec does not list (a mark typed by hand?)', file=sys.stderr)
                 failed += 1
         if reading != before:
-            # Say what would land, so a clean check is seen to place every mark (sprint 024).
-            placed = len(MARK.findall(reading)) - len(MARK.findall(before))
-            if args.check:
-                print(f'{ref}: not marked yet ({placed} marks would place)', file=sys.stderr)
+            # Say what would land, and where, so a clean check is seen to place every mark on the
+            # words meant (sprints 024, 025).
+            if args.check and args.placed:
+                print(f'{ref}: {len(landed)} marks not placed yet', file=sys.stderr)
                 failed += 1
+            elif args.check:
+                print(f'{ref}: {len(landed)} marks would place')
             else:
                 path.write_text(reading)
-                print(f'{ref}: marked {placed}')
-    return 1 if failed else 0
+                print(f'{ref}: marked {len(landed)}')
+            for name, words, where, bold in landed:
+                print(f'  {name}: {where}')
+                if bold:
+                    print(f'{ref}: warning: {name} lands on "{words}" before the bold {bold}; '
+                          'reword the reading, or make the spec\'s words the bold ones', file=sys.stderr)
+    return failed
+
+
+def stale_drafts(registry, drafted):
+    """A draft whose id, or Wikidata item, the registry already holds: another author's name
+    reached it meanwhile (sprint 025), so the draft is a duplicate to drop or to merge."""
+    held = {}
+    for stem, f in registry.items():
+        item = json.loads(f.read_text()).get('wikidata')
+        if item:
+            held[item] = stem
+    out = []
+    for stem, f in sorted(drafted.items()):
+        if stem in registry:
+            out.append(f'draft {f} is already in the registry as names/{stem}.json')
+            continue
+        item = json.loads(f.read_text()).get('wikidata')
+        if item and item in held:
+            out.append(f'draft {f}: {item} is already names/{held[item]}.json; mark that id instead')
+    return out
 
 
 if __name__ == '__main__':

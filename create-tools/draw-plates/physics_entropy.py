@@ -1,5 +1,5 @@
 """physics plates, part "entropy" (sprint 021): the entropy frame and the first
-three frames of the trail "Heat and information". See physics.py."""
+three frames of the trail "Heat and information". See plates_for.py."""
 import math
 
 from plates import D

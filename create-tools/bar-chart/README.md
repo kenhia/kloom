@@ -34,7 +34,9 @@ A value's label has one decimal under 100 unless the value is whole: 28, not 28.
 It refuses, writing nothing, a spec whose text will not fit (sprint 021,
 when authors could not see their charts and three headings ran off the
 right edge): a heading wider than the chart, two neighbouring labels that
-overlap, and a bar so tall that its value's label meets the heading. Widen
+overlap, a bar so tall that its value's label meets the heading, and (since
+sprint 027, after a "1,000,000" tick was cut off) a tick label wider than
+the space left of the axis, about eight characters. Widen
 the chart (`width`) or raise the axis `max`; shorten text only when nothing
 is lost. The estimate takes a monospace glyph as 0.6 em. Look at a chart
 before it goes live with `contact_sheet.py <subject> <frame> --charts`.
@@ -117,3 +119,6 @@ all of them reproduces the charts byte for byte:
 | `tokens-per-parameter.json`                       | `subjects/ai/frames/scaling-laws/tokens-per-parameter.svg`            |
 | `training-compute.json`                           | `subjects/ai/frames/compute/training-compute.svg`                     |
 | `turing-storage.json`                             | `subjects/ai/frames/turing-test/turing-storage.svg`                   |
+
+`test_bar_chart.py` checks the fit rules and that every spec in
+`examples/` passes them (`just check` runs it).

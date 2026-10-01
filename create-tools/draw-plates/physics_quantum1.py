@@ -1,5 +1,5 @@
 """physics plates, part "quantum1" (sprint 021): quantum mechanics and the first
-half of the trail "The quantum revolution". See physics.py."""
+half of the trail "The quantum revolution". See plates_for.py."""
 import math
 
 from plates import D

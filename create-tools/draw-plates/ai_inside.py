@@ -1,4 +1,4 @@
-"""ai plates, trail "Inside a transformer" (sprint 006). See ai.py.
+"""ai plates, trail "Inside a transformer" (sprint 006). See plates_for.py.
 
 The numbers drawn here are the trail's worked examples: the BPE merges from
 Sennrich et al.'s toy dictionary, the sinusoidal and rotary encodings, the

@@ -1,4 +1,4 @@
-"""computing plates, trail "Bletchley and Colossus" (sprint 015). See computing.py."""
+"""computing plates, trail "Bletchley and Colossus" (sprint 015). See plates_for.py."""
 import math
 
 from plates import D

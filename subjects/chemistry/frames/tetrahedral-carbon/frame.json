@@ -89,7 +89,8 @@
 			"published": "2006",
 			"doi": "10.1080/00033790500480816",
 			"accessed": "2026-09-30",
-			"note": "Read in its abstract only, through OpenAlex"
+			"note": "Through OpenAlex",
+			"abstractOnly": true
 		},
 		{
 			"kind": "wikipedia",

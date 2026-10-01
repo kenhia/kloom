@@ -170,6 +170,16 @@
   real technique; 83 connections on its frames, 42 into other subjects;
   the third run reporting to 3461 — [record](../026-how-we-build.md).
 
+- Sprint 027: the author-subject skill and its tools tuned from those
+  three runs (proposal 3467, covering 3461): one plate collector, topic,
+  sort and palette checked in the plan, `mark --check` in `just check`,
+  namesake and stale-draft warnings, Commons, contact-sheet and wiki-cite
+  fixes, one "reaching sources" reference, a test gate for the
+  create-tools, and the citation schema for older, translated and
+  second-hand sources (BC dates, translators, editions, letters,
+  encyclopedia entries, "cited in") —
+  [record](../027-tune-author-subject.md).
+
 ## Next
 
 - Whatever the korg Planning queue holds for project kloom (72).

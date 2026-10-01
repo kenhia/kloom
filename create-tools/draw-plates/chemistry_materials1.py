@@ -87,7 +87,7 @@ def bessemer_steel():
     d.text(*P(-0.3, 1540 - 18), '1540 °C', size=7, anchor='end')
     d.text(*P(2.3, 1148 - 50), '1148', size=7, anchor='start')
     d.text(*P(5, 727 + 22), '727', size=7, anchor='end')
-    d.text(*P(4.3, 1250 + 62), 'PIG IRON', size=7)
+    d.text(*P(4.2, 1250 + 40), 'PIG IRON', size=7)
     d.text(ax, 276, 'CONVERTER, BLOWING', size=8)
     return d
 

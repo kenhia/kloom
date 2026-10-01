@@ -1,4 +1,4 @@
-"""ai plates, segments "Learning from data" (from Deep Blue) and "Deep learning" (sprint 006). See ai.py."""
+"""ai plates, segments "Learning from data" (from Deep Blue) and "Deep learning" (sprint 006). See plates_for.py."""
 import math
 
 from plates import D

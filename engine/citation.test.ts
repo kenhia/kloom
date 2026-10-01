@@ -10,6 +10,7 @@ import {
 	keySource,
 	keySources,
 	needsCaption,
+	publishedYear,
 	type Citation
 } from './citation';
 
@@ -408,11 +409,190 @@ describe('citationProblems', () => {
 				authors: ['NASA']
 			})
 		).toEqual([
-			'kind must be one of web, wikipedia, book, article, chapter, report, media',
+			'kind must be one of web, wikipedia, book, article, chapter, report, media, letter, encyclopedia',
 			'url must be http(s)',
 			'accessed date is required, as YYYY-MM-DD',
-			'published must be YYYY, YYYY-MM or YYYY-MM-DD',
+			'published must be YYYY, YYYY-MM or YYYY-MM-DD, a shorter year (888), or a year BC (1550 BC)',
 			'authors must each have a family name or a name'
+		]);
+	});
+});
+
+describe('the schema for older, translated and second-hand sources (sprint 027)', () => {
+	const galen: Citation = {
+		kind: 'book',
+		title: 'On the Natural Faculties',
+		url: 'https://www.gutenberg.org/ebooks/43771',
+		accessed: '2026-10-01',
+		authors: [{ name: 'Galen' }],
+		translators: [{ family: 'Brock', given: 'Arthur John' }],
+		edition: 'Loeb Classical Library ed.',
+		place: 'London',
+		publisher: 'William Heinemann',
+		published: '1916'
+	};
+
+	it('dates a work before AD 1000, and BC, with or without circa', () => {
+		expect(chicagoDate('888')).toBe('888');
+		expect(chicagoDate('1550 BC', true)).toBe('ca. 1550 BC');
+		const papyrus = { ...image, published: '1550 BC', circa: true };
+		expect(citationProblems(papyrus)).toEqual([]);
+		expect(chicagoText(papyrus)).toContain('Power Loom. ca. 1550 BC. Wikimedia');
+		expect(citationProblems({ ...image, published: '888' })).toEqual([]);
+		for (const bad of ['0', '0 BC', '1550 B.C.', '1550BC', '-1550', '1550 BC-03'])
+			expect(citationProblems({ ...image, published: bad })).toEqual([
+				'published must be YYYY, YYYY-MM or YYYY-MM-DD, a shorter year (888), or a year BC (1550 BC)'
+			]);
+	});
+
+	it('sorts a published date as a signed year', () => {
+		expect(publishedYear('1550 BC')).toBe(-1550);
+		expect(publishedYear('888')).toBe(888);
+		expect(publishedYear('2017-03-04')).toBe(2017);
+		expect(publishedYear('nonsense')).toBeUndefined();
+	});
+
+	it('names translators and an edition after the title', () => {
+		expect(chicagoText(galen)).toBe(
+			'Galen. On the Natural Faculties. Translated by Arthur John Brock. ' +
+				'Loeb Classical Library ed. London: William Heinemann, 1916. ' +
+				'Accessed October 1, 2026. https://www.gutenberg.org/ebooks/43771.'
+		);
+		const { translators, edition, ...rest } = galen;
+		void translators;
+		void edition;
+		expect(
+			chicagoText({ ...rest, editors: [{ family: 'Kühn', given: 'C. G.' }], translators })
+		).toContain('Edited by C. G. Kühn. Translated by Arthur John Brock. London');
+	});
+
+	it('names the engraver of a plate', () => {
+		expect(chicagoText({ ...image, engravers: [{ family: 'Basire', given: 'James' }] })).toContain(
+			'Modern Loose Reed Power Loom. Engraved by James Basire. 1895.'
+		);
+	});
+
+	it('gives a journal volume its own year when it came out later', () => {
+		expect(chicagoText({ ...article, volumeYear: '1952' })).toContain(
+			'Nature 171, no. 4356 (1952; published April 25, 1953): 737–38.'
+		);
+		expect(citationProblems({ ...article, volumeYear: '1954' })).toEqual([
+			'volumeYear is the year the volume is for, so no later than published'
+		]);
+		expect(citationProblems({ ...web, volumeYear: '2016' })).toEqual([
+			'volumeYear is for an article, with a published date'
+		]);
+	});
+
+	it('says what language a source is in, and which Wikipedia', () => {
+		const de: Citation = {
+			...wikipedia,
+			title: 'Buchdruck',
+			url: 'https://de.wikipedia.org/w/index.php?title=Buchdruck&oldid=250000000',
+			language: 'de'
+		};
+		expect(citationProblems(de)).toEqual([]);
+		expect(chicagoText(de)).toContain('Last modified September 25, 2026. In German. Accessed');
+		expect(keySource(de).title).toBe('Buchdruck — German Wikipedia');
+		expect(citationProblems({ ...de, language: undefined })).toEqual([
+			'a de.wikipedia.org article needs "language": "de"'
+		]);
+		expect(citationProblems({ ...de, language: 'German' })).toEqual([
+			'language must be a language code, like "de" or "grc"'
+		]);
+	});
+
+	it('formats a letter, to its recipients', () => {
+		const letter: Citation = {
+			kind: 'letter',
+			title: 'Account of Flint Weapons Discovered at Hoxne in Suffolk',
+			url: 'https://archive.org/details/archaeologiaormi13soci/page/204',
+			accessed: '2026-10-01',
+			authors: [{ family: 'Frere', given: 'John' }],
+			recipients: [{ name: 'the Society of Antiquaries of London' }],
+			written: '1797-06-22',
+			container: 'Archaeologia',
+			volume: '13',
+			pages: '204–5',
+			place: 'London',
+			publisher: 'Society of Antiquaries of London',
+			published: '1800'
+		};
+		expect(citationProblems(letter)).toEqual([]);
+		expect(chicagoText(letter)).toBe(
+			'Frere, John. “Account of Flint Weapons Discovered at Hoxne in Suffolk.” Letter to ' +
+				'the Society of Antiquaries of London, June 22, 1797. In Archaeologia, vol. 13, 204–5. ' +
+				'London: Society of Antiquaries of London, 1800. Accessed October 1, 2026. ' +
+				'https://archive.org/details/archaeologiaormi13soci/page/204.'
+		);
+		expect(citationProblems({ ...letter, recipients: undefined, written: 'June' })).toEqual([
+			'written must be YYYY, YYYY-MM or YYYY-MM-DD, a shorter year (888), or a year BC (1550 BC)',
+			'a letter needs its recipients'
+		]);
+	});
+
+	it('formats an encyclopedia entry, in its encyclopedia', () => {
+		const entry: Citation = {
+			kind: 'encyclopedia',
+			title: 'Galen',
+			url: 'https://plato.stanford.edu/archives/sum2020/entries/galen/',
+			accessed: '2026-10-01',
+			authors: [{ family: 'Hankinson', given: 'R. J.' }],
+			container: 'Stanford Encyclopedia of Philosophy',
+			editors: [{ family: 'Zalta', given: 'Edward N.' }],
+			edition: 'Summer 2020 ed.',
+			publisher: 'Stanford University',
+			published: '2020'
+		};
+		expect(citationProblems(entry)).toEqual([]);
+		expect(chicagoText(entry)).toBe(
+			'Hankinson, R. J. “Galen.” In Stanford Encyclopedia of Philosophy, edited by ' +
+				'Edward N. Zalta, Summer 2020 ed. Stanford University, 2020. Accessed October 1, 2026. ' +
+				'https://plato.stanford.edu/archives/sum2020/entries/galen/.'
+		);
+		expect(keySource(entry).note).toBe('Stanford Encyclopedia of Philosophy, 2020');
+		expect(citationProblems({ ...entry, container: undefined })).toEqual([
+			'an encyclopedia entry needs its container: the encyclopedia'
+		]);
+	});
+
+	it('puts a chapter of a numbered report in its report', () => {
+		expect(chicagoText({ ...chapter, number: 'Report 1234' })).toContain(
+			'In Artificial Intelligence: A Paper Symposium, Report 1234, edited by Ann Smith and Bo Jones, 1–21.'
+		);
+	});
+
+	it('says where a source was seen when it was not read: cited in a work, or an abstract', () => {
+		const seen = { ...article, citedIn: 'Gleick, Genius, p. 247' };
+		expect(chicagoText(seen)).toContain('737–38. Cited in Gleick, Genius, p. 247. Accessed');
+		expect(chicagoText({ ...article, abstractOnly: true })).toContain(
+			'737–38. Read in its abstract. Accessed'
+		);
+		expect(keySource({ ...seen, abstractOnly: true, note: 'The method' }).note).toBe(
+			'Nature, April 25, 1953. Cited in Gleick, Genius, p. 247. Read in its abstract. The method'
+		);
+		expect(citationProblems({ ...article, citedIn: '', abstractOnly: 'yes' })).toEqual([
+			'citedIn must be text',
+			'abstractOnly must be true or false'
+		]);
+	});
+
+	it('takes an en.wikipedia.org file page as a media source, without a revision', () => {
+		const file = {
+			...image,
+			url: 'https://en.wikipedia.org/wiki/File:Rhind_Mathematical_Papyrus.jpg'
+		};
+		expect(citationProblems(file)).toEqual([]);
+		expect(citationProblems({ ...web, url: file.url })).toEqual([
+			'a Wikipedia citation needs a permanent revision url (oldid=)'
+		]);
+	});
+
+	it('checks the roles like the authors', () => {
+		expect(citationProblems({ ...book, translators: ['X'], engravers: [{}], edition: 2 })).toEqual([
+			'translators must each have a family name or a name',
+			'engravers must each have a family name or a name',
+			'edition must be text'
 		]);
 	});
 });

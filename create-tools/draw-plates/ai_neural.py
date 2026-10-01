@@ -1,4 +1,4 @@
-"""ai plates, trail "From perceptron to deep learning" (sprint 006). See ai.py."""
+"""ai plates, trail "From perceptron to deep learning" (sprint 006). See plates_for.py."""
 import math
 
 from plates import D

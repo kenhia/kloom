@@ -161,6 +161,14 @@ eighth subject, `subjects/making`, _How We Build_ (68 frames: a spine by
 craft, each craft a `date` segment that starts time again, five trails),
 every reading walking through one real technique, the third
 author-subject run reporting to korg 3461.
+Sprint 027 the author-subject skill tuned from those three runs: one
+plate collector (`draw-plates/plates_for.py`), topic, sort and palette
+in the plan checked by `subject_plan.py --check`, every mark spec run by
+`just check` (`mark --check --placed`), the create-tools' own tests
+(`just tools-test`), `skills/grow/reaching-sources.md`, and citations for
+older, translated and second-hand sources (`1550 BC`, `translators`,
+`edition`, `language`, `letter`, `encyclopedia`, `citedIn`,
+`abstractOnly`).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

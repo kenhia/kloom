@@ -190,7 +190,7 @@
 			"published": "1999",
 			"doi": "10.1159/000013463",
 			"accessed": "2026-09-30",
-			"note": "Read in its abstract only"
+			"abstractOnly": true
 		},
 		{
 			"kind": "media",

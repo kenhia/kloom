@@ -1,4 +1,4 @@
-"""feynman plates, trail "Sum over histories" (sprint 014). See feynman.py."""
+"""feynman plates, trail "Sum over histories" (sprint 014). See plates_for.py."""
 import cmath, math, random
 
 from plates import D

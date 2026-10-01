@@ -1,4 +1,4 @@
-"""ai plates, segment "Open questions" and the trail "Alignment and safety" (sprint 006). See ai.py."""
+"""ai plates, segment "Open questions" and the trail "Alignment and safety" (sprint 006). See plates_for.py."""
 import math
 
 from plates import D

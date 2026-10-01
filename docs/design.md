@@ -161,7 +161,7 @@ baked into the engine.
     links the URL that was read, so a Wikipedia source links its pinned
     revision, not the live article.
   - Fields: `kind` (`web`, `wikipedia`, `book`, `article`, `chapter`,
-    `report`, `media`), `title`, `url` and/or `doi`, `accessed`
+    `report`, `media`, `letter`, `encyclopedia`), `title`, `url` and/or `doi`, `accessed`
     (`YYYY-MM-DD`), and optionally `key`, `note` (a key source's remark in
     the Sources list: a page, why it matters), `authors` (`{family,
 given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
@@ -174,6 +174,46 @@ given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
     `file`. `etAl: true` ends a long author list with "et al." in the entry
     and in a caption credit (sprint 006): a paper with hundreds of authors
     lists the first.
+  - **Older, translated and second-hand sources** (sprint 027, Ken's
+    decision of 2026-10-01 on korg 3461). All optional, so no existing
+    citation changed meaning:
+    - **Early dates.** `published` (and a letter's `written`) also takes a
+      year AD of one to three digits with no leading zero (`888`) and a
+      year BC (`1550 BC`, a space before `BC`, no month or day), each with
+      `circa` ("ca. 1550 BC"). Written as a string, a date reads as it is
+      rendered, and the form is unambiguous: `publishedYear` turns it into
+      a signed year (-1550), the convention of a frame's `position.sort`,
+      to compare or sort by. A four-digit year with a leading zero
+      (`0888`) is still ISO 8601's and still accepted.
+    - **Roles.** `translators` ("Translated by …") and `engravers`
+      ("Engraved by …"), after the title (and after an edited book's
+      editors, as a title page reads); `recipients` on a letter.
+    - **Fields.** `edition`, written as it reads ("2nd ed.", "Loeb
+      Classical Library ed."): after the title, or, for a chapter or an
+      entry, in the volume's list ("In _Volume_, edited by …, 2nd ed.,
+      pages"). `volumeYear` on an article whose volume came out later
+      than the year it is for: "(2016; published 2017)"; it may not be
+      later than `published`. `language`, a code (`de`, `grc`), rendered
+      "In German." before the access date; a Wikipedia other than
+      English needs it (its url's host says which), and its key source
+      reads "Title — German Wikipedia". Its `container` stays "Wikipedia,
+      The Free Encyclopedia".
+    - **Kinds.** `letter`: "Author. "Title." Letter to Recipients, Date
+      written. In _Container_, vol. N, pages. Place: Publisher, Year." It
+      needs `recipients`. `encyclopedia`: an entry, set like a chapter, "In
+      _Encyclopedia_, edited by …, edition." It needs its `container`. A
+      chapter of a numbered report is a `chapter` with the report's
+      `number`, set after its container.
+    - **Seen, not read.** `citedIn` names the work in whose references or
+      quotation a source was seen ("Cited in Gleick, _Genius_, p. 247."),
+      and `abstractOnly: true` says only its abstract was read ("Read in
+      its abstract."). Both are rendered in the bibliography and in the
+      key source's line, so a reader sees what the frame rests on. They
+      replace the note "Read in its abstract", which only the Sources list
+      showed; the fifteen such notes were moved to `abstractOnly`.
+  - A `media` citation may credit an image by its en.wikipedia.org file
+    page (`/wiki/File:…`) without a revision: it is an image's page, not
+    an article (sprint 027).
   - **Kinds.** `chapter` is a chapter or a paper in an edited volume, a
     proceedings or a symposium: "In _Volume_, edited by …, pages. Place:
     Publisher, Year." It needs its `container`. `report` is a technical,

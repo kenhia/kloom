@@ -1,6 +1,6 @@
 ---
 name: kloom-author-subject
-description: Author a whole new kloom subject — a plan, a theme, one segment written by hand, then parallel authors for the rest, reviewed and committed segment by segment. The procedure sprint 006 used for the AI subject, written down in sprint 014, followed for Richard Feynman, the History of Computing (sprint 015), the History of Physics (sprint 021), the History of Mathematics (sprint 024), the History of Chemistry (sprint 025) and How We Build (sprint 026). Use when a sprint creates a subject, not for adding a few frames (that is grow).
+description: Author a whole new kloom subject — a plan, a theme, one segment written by hand, then parallel authors for the rest, reviewed and committed segment by segment. The procedure sprint 006 used for the AI subject, written down in sprint 014, followed for Richard Feynman, the History of Computing (sprint 015), the History of Physics (sprint 021), the History of Mathematics (sprint 024), the History of Chemistry (sprint 025) and How We Build (sprint 026), and tuned from those three runs in sprint 027. Use when a sprint creates a subject, not for adding a few frames (that is grow).
 ---
 
 # Authoring a kloom subject
@@ -13,6 +13,8 @@ bar. This is the procedure that makes the bar, then shares it.
 **`skills/grow/SKILL.md` is the style guide** for every frame, in full:
 the scene, the plate, the reading, the citations, and its §Authoring with
 tools. This skill is only the order of work around it. Read that one first.
+`skills/grow/reaching-sources.md` is how to read a source that a plain
+fetch can't reach; give it to every author.
 `docs/design.md` §Content model is the schema, and `create-tools/README.md`
 names the tools.
 
@@ -36,9 +38,17 @@ Decide the whole shape before writing a frame.
 - **Scale.** Match the depth asked for, not a count. For scale, western-civ
   has 16 main-spine frames and one trail; ai has 41 and four trails.
 - Write the plan as `create-tools/subject-plan/<subject>.json`: the shape of
-  `spine.json` plus `trails`. `subject_plan.py` writes the spine and trails
-  from it holding only the frames written so far, so every commit
-  validates.
+  `spine.json` plus `trails`, and a `frames` entry for every frame with its
+  `topic`, its `palette` and, in a `date` segment, its `sort`
+  (`making.json` is an example). `subject_plan.py --check` checks them
+  before anyone writes: sorts rising within each segment, topics at most
+  40 characters and unique, palettes in `subject.json`, and a warning where
+  a palette repeats down a segment. Three runs kept these only in the
+  brief's prose, where nothing checked them (sprint 021 put 1850 after
+  1859). `subject_plan.py` writes the spine and trails from the plan
+  holding only the frames written so far, so every commit validates.
+  `subject.json` and an empty `subjects/<subject>/frames/` must exist
+  before it runs.
 - **The title and subtitle.** `subject.json` holds the title and, if the
   subject has one, a `subtitle`: one plain line of at most 60 characters
   said under the title on the start screen, in the subject list and in
@@ -69,22 +79,29 @@ skill in full. It does two jobs.
 - **It sets the bar** the other authors are given. They imitate what they
   are shown, so show them your best frames.
 
-Start the subject's plates as `create-tools/draw-plates/<subject>.py`, a
-collector over `<subject>_<part>.py` modules like `ai.py`, so each author
-draws in their own module.
+Draw the subject's plates in `create-tools/draw-plates/<subject>_<part>.py`
+modules, one per author, each exporting `PLATES`, and draw them with
+`plates_for.py <subject> <frame …>`. There is no collector to write: one
+serves every subject (sprint 027 replaced seven copies), and it imports
+only the modules that draw the frames named, so one author's broken module
+stops no one else.
 
 ## 3. Briefs, then parallel authors
 
 One author per segment or trail, each a subagent with a shell and the web.
 Each author gets:
 
-- the grow skill, `docs/design.md` §Content model and this subject's plan;
+- the grow skill, `skills/grow/reaching-sources.md`, `docs/design.md`
+  §Content model and this subject's plan;
 - **the brief**: which frames, in which order, each with its `topic` (the
   plain title the grow skill describes, settled here so that no two
-  authors reach for the same one) and a line saying what it is about and
-  what it must not repeat from its neighbours; the
-  palettes it uses; the headline voice; the rights and sourcing rules that
-  are particular to this subject; and the accents already taken;
+  authors reach for the same one), its palette and its sort, quoted from
+  the plan rather than written afresh, and a line saying what it is about
+  and what it must not repeat from its neighbours; **at most about five
+  must-tell points a frame**, the rest marked optional (the 550–900 band
+  stays, and in all three runs a brief's must-tell list alone nearly
+  filled it); the headline voice; the rights and sourcing rules that are
+  particular to this subject; and the accents already taken;
 - the hand-written frames, to read in full before writing, with a line
   saying their marks were placed by `names.py mark` (eight of sprint 026's
   twenty-one authors typed marks by hand in a first draft, copying what
@@ -99,26 +116,32 @@ Each author gets:
   files the registry lacks into a directory of its own
   (`.scratch/names/<subject>-<segment>/`, Wikidata IDs from `names.py
 lookup`, never from memory; the id is lookup's, so two authors reach the
-  same id for the same thing), and writes a mark spec,
+  same id for the same thing), with a **subject-neutral description**:
+  what the thing is and why it matters anywhere, not what it did in this
+  subject (each run widened 14 to 21 names another subject had written
+  from its own angle), and writes a mark spec,
   `create-tools/names/examples/<subject>-<segment>.json`, checked with
-  `names.py mark <spec> --check --drafts <its drafts>` until nothing but
-  "not marked yet" is left. An existing name whose description is written
-  from another subject's angle only is reported, not edited. Its frames'
-  `frame.json` carry their connections, each checked against the other
-  frame's reading;
+  `names.py mark <spec> --check --drafts <its drafts>` until it exits 0,
+  reading the sentence it prints for each mark and acting on any warning
+  that a mark misses the bold mention. An existing name whose description
+  is written from another subject's angle only is reported, not edited.
+  Its frames' `frame.json` carry their connections, each checked against
+  the other frame's reading;
 - the instruction to **report**: what it wrote, every claim it is unsure
   of, where sources disagreed and what it did, and every place the grow
   skill misled it.
 
-**Check the brief before it goes out.** Its topics are validated like any
-other (sprint 024's had two over 40 characters), every part gets
-connection candidates, trails included, and its facts are leads, not
-sources: say so in it. Sprint 024's brief, written from memory, had seven
-wrong or out of date (two talks a day apart put in the wrong order, a page that holds only a
+**Check the brief before it goes out.** `subject_plan.py --check` passes
+on the plan it quotes (sprint 024's topics had two over 40 characters),
+every part gets connection candidates, trails included, and its facts are
+leads, not sources: say so in it. Every run's brief was wrong somewhere:
+sprint 024's, written from memory, had seven facts wrong or out of date
+(two talks a day apart in the wrong order, a page that holds only a
 promise, a 1923 result that was 1933's, a medieval ban that was a guild's
 bookkeeping rule, the Millennium Problems' count, a twin-prime bound and
-the RSA records), and each was caught only because an author read the
-source.
+the RSA records), and sprints 025 and 026 had about forty more between
+them. Each was caught only because an author read the source, so the
+"leads, not sources" line is what makes the brief safe to be wrong.
 
 Things authors working at once cannot see, so the brief settles them:
 
@@ -129,8 +152,9 @@ Things authors working at once cannot see, so the brief settles them:
   what each of its trail frames covers, not only their ids (sprint 015's
   `colossus` first retold two of its trail's frames), and say who owns a
   figure two frames will want to chart.
-- **Each frame's palette.** Name it in the brief, so that dark and light
-  alternate along the spine however the frames are shared out.
+- **Each frame's palette.** It is in the plan and quoted in the brief, so
+  that dark and light alternate along the spine however the frames are
+  shared out.
 - **Accents and images** must not repeat across the subject. Tell authors
   to grep before choosing and again before reporting, and settle clashes
   at review: in sprint 015 two authors chose FREE within minutes.
@@ -142,9 +166,10 @@ Things authors working at once cannot see, so the brief settles them:
 --drafts <their name drafts>`, then the subject tests with
   `KLOOM_TEST_SUBJECTS=DIR KLOOM_TEST_NAMES=DIR/.names`: the copy carries
   the other subjects and the registry, so marks and connections validate),
-  and look at their plates
-  with `contact_sheet.py` (`--scale 2.5` to read labels), which shows a
-  plate before its `frame.json`. To check a draft before its `frame.json`
+  and look at their plates with `contact_sheet.py <subject> <frames>
+--png <their own file>` (`--scale 2.5` to read labels), which shows a
+  plate before its `frame.json`, in the palette `--palette <frame>=<name>`
+  gives it. To check a draft before its `frame.json`
   goes live, an author keeps it beside the live tree as `frame.json.draft`,
   copies the directory into the copy as `frame.json`, re-runs
   `subject_plan.py` on the copy, and renames it live once it passes: the
@@ -161,9 +186,10 @@ Things authors working at once cannot see, so the brief settles them:
   says how); the complete copy leaves such frames out and names them. The
   anchor's author finishes the anchor, `frame.json` and all, before the
   rest of their frames.
-- **Dated sorts.** Give each frame of a `date` segment its year in the
-  brief and check they rise along the segment: sprint 021's plan put
-  1850 after 1859, and every author's copy failed on it until review.
+- **Dated sorts.** Each frame of a `date` segment has its year in the
+  plan, which `--check` keeps rising along the segment: sprint 021's plan
+  put 1850 after 1859, and every author's copy failed on it until review.
+  If an author finds a date was wrong, change the plan and re-check.
 - **Each other's drafts.** Say who drafts a name two parts will mark: the
   author whose frame is its `home`, the others passing that author's
   drafts with `--drafts` (sprint 026's authors drafting at the same moment
@@ -175,16 +201,19 @@ Things authors working at once cannot see, so the brief settles them:
   They write contact sheets to their own `--png`, never run
   `subject_plan.py` on the live subject, and never commit. Name their
   Prettier and plate commands by frame (`npx prettier --write
-subjects/<subject>/frames/<frame>/`, `<subject>.py <frame>`): a glob
-  reformatted five other authors' readings in sprint 024, and a bare
-  `<subject>.py` redraws every author's plates.
+subjects/<subject>/frames/<frame>/`, `plates_for.py <subject> <frame>`):
+  a glob reformatted five other authors' readings in sprint 024, and
+  `plates_for.py` refuses to run without frames (`--all` redraws every
+  author's).
 
 ## 4. Review, validate and commit, segment by segment
 
 As each author reports:
 
-1. Run `subject_plan.py <plan> subjects/<subject>` and Prettier, then
-   `npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
+1. Run `subject_plan.py <plan> subjects/<subject> --check` (a frame that
+   differs from its plan is a warning to settle: change the frame or the
+   plan), then `subject_plan.py <plan> subjects/<subject>` and Prettier,
+   then `npx vitest --run engine/subjects.test.ts engine/svg.test.ts`.
 2. Look at the plates on a contact sheet, in their palettes
    (`create-tools/draw-plates/contact_sheet.py <subject> --png …`).
 3. Read the report's unsure claims against the cited sources, and spot
@@ -194,12 +223,14 @@ As each author reports:
    registry, and refuses one whose Wikidata item is already there under
    another id: use that id in the spec instead. Where two authors drafted
    the same id, keep one file. Then `names.py mark <spec>` places the
-   marks. Read a sample of the new name files: the description is shared
+   marks and prints the sentence each landed in: read them. Read a sample of the new name files: the description is shared
    by every subject, so it must not be written from this one's angle
-   only, and the Wikidata item must be the thing meant. Widen, with
-   `names.py add --update`, an existing name the authors report as
-   described from one subject only: a new subject marks many names another
-   added first (sprint 021's `aristotle`, known only by the syllogism).
+   only, and the Wikidata item must be the thing meant. Then **widen the
+   shared names**, as its own step, every part: each existing name the
+   authors report as described from one subject only, rewritten for any
+   subject with `names.py add --update`. A new subject marks many names
+   another added first (sprint 021's `aristotle`, known only by the
+   syllogism), and each run widened 14 to 21.
 5. Commit that segment on its own, so a bad one can be reverted alone.
    Stage it with `create-tools/subject-plan/stage_segment.py`, which stages
    the frames with a spine and trails holding only committed frames (the
@@ -224,10 +255,12 @@ As each author reports:
    them once both ends are committed, checking each _why_ against a
    reading. Sprint 021 added 45 this way.
 
-When all are in: `subject_plan.py --check` names nothing still to write,
-`names.py mark` finds every spec's marks, `just check` is green (its links
-test refuses a connection to no frame and a mark on no name), and a
-keyboard-only pass in the browser walks the main spine and every trail.
+When all are in: `subject_plan.py --check` names nothing still to write
+and no problem, `just check` is green (it runs every mark spec with `mark
+--check --placed`, so a spec's mark not placed or a mark typed by hand
+fails it, and its links test refuses a connection to no frame and a mark
+on no name), and a keyboard-only pass in the browser walks the main spine
+and every trail.
 
 ## 5. Write it down
 
@@ -239,5 +272,5 @@ unmade (with the reason), and the density: `names.py density` prints names
 and connections per frame for every subject. For a subject meant to link
 others, `names.py reach <subject> --steps N` counts how much of each other
 subject it can reach, before and after. Record the before at the start
-of the sprint, before the first frame, as sprints 024 and 025 did;
+of the sprint, before the first frame, as sprints 024 to 026 did;
 `--root` on an archive of the base commit recovers it if you did not.

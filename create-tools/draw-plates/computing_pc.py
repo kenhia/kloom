@@ -1,4 +1,4 @@
-"""computing plates, trail "The personal computer" (sprint 015). See computing.py."""
+"""computing plates, trail "The personal computer" (sprint 015). See plates_for.py."""
 import math
 
 from plates import D

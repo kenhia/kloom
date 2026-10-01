@@ -1,4 +1,4 @@
-"""physics plates, segment "Cracks in the classical" (sprint 021). See physics.py."""
+"""physics plates, segment "Cracks in the classical" (sprint 021). See plates_for.py."""
 import math
 
 from plates import D

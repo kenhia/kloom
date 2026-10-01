@@ -1,4 +1,4 @@
-"""ai plates, segments "Winters and booms" and the start of "Learning from data" (sprint 006). See ai.py."""
+"""ai plates, segments "Winters and booms" and the start of "Learning from data" (sprint 006). See plates_for.py."""
 import math
 
 from plates import D
