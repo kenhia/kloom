@@ -1,0 +1,188 @@
+{
+	"id": "screw-cutting",
+	"topic": "Cutting a screw thread",
+	"position": {
+		"label": "Screw cutting"
+	},
+	"scene": {
+		"headline": "We cut threads by",
+		"accent": "ARITHMETIC.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BESSON · MAUDSLAY · CLEMENT",
+			"LEAD SCREW · CHANGE GEARS · HALF-NUT · THREAD DIAL"
+		],
+		"counter": {
+			"value": "127",
+			"label": "teeth on the gear that turns inches into millimetres"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/clement-fragment",
+			"why": "Joseph Clement, who built Babbage's engine, began about 1828 to cut screw threads to a fixed pitch for each diameter: the first step from the change-gear lathe's freedom to cut any pitch towards a standard."
+		},
+		{
+			"to": "making/whitworth",
+			"why": "Whitworth, who had worked for Clement, proposed in 1841 the thread that became Britain's standard."
+		},
+		{
+			"to": "making/gauge-blocks",
+			"why": "The 127-tooth change gear exists because an inch is exactly 25.4 millimetres, the industrial inch Johansson's blocks fixed."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "English and American Tool Builders",
+			"authors": [
+				{
+					"family": "Roe",
+					"given": "Joseph Wickham"
+				}
+			],
+			"place": "New Haven",
+			"publisher": "Yale University Press",
+			"published": "1916",
+			"url": "https://archive.org/details/englishandameri00roegoog",
+			"accessed": "2026-09-30",
+			"note": "The lead screw before Maudslay, Robinson's screw and Maudslay's change wheels, pp. 35–42; the Hendey gearbox, p. 182"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Fundamentals of Machine Tools",
+			"number": "TC 9-524",
+			"authors": [
+				{
+					"name": "Headquarters, Department of the Army"
+				}
+			],
+			"place": "Washington, DC",
+			"publisher": "Department of the Army",
+			"published": "1996",
+			"url": "https://archive.org/details/tc-9-524-fundamentals-of-machine-tools-1996",
+			"accessed": "2026-09-30",
+			"note": "Screw-thread cutting, the thread chasing dial and metric threads on an inch lathe, pp. 7-49 to 7-51"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Metal lathe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Metal_lathe&oldid=1371632563",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Inch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Inch&oldid=1375706000",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lathe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lathe&oldid=1377488243",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jacques Besson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jacques_Besson&oldid=1353472396",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Andrey Nartov",
+			"url": "https://en.wikipedia.org/w/index.php?title=Andrey_Nartov&oldid=1353494478",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Clement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Clement&oldid=1361728969",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-29"
+		},
+		{
+			"kind": "media",
+			"title": "A French screw-cutting lathe of about 1740, from a book of 1741, as reproduced by Roe",
+			"url": "https://commons.wikimedia.org/wiki/File:19th_century_knowledge_metalworking_early_french_screw_cutting_lathe.jpg",
+			"accessed": "2026-09-30",
+			"container": "English and American Tool Builders, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "french-screw-lathe.jpg",
+			"authors": [
+				{
+					"family": "Roe",
+					"given": "Joseph Wickham"
+				}
+			],
+			"published": "1916"
+		},
+		{
+			"kind": "media",
+			"title": "A change-gear chart for cutting inch threads on a metric lathe, with a 127-tooth transposing gear",
+			"url": "https://commons.wikimedia.org/wiki/File:Gear_Train_to_TPI.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "change-gear-chart.jpg",
+			"authors": [
+				{
+					"name": "David English"
+				}
+			],
+			"published": "2017-05-08"
+		}
+	]
+}

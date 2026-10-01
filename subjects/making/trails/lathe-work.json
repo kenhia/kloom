@@ -1,0 +1,15 @@
+{
+	"id": "lathe-work",
+	"title": "Lathe work",
+	"anchor": "maudslay",
+	"spine": {
+		"segments": [
+			{
+				"id": "lathe",
+				"title": "At the lathe",
+				"labelKind": "category",
+				"frames": ["pole-lathe", "between-centres", "screw-cutting", "ornamental-turning"]
+			}
+		]
+	}
+}

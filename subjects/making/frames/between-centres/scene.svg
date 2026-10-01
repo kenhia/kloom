@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M14 128 L386 128"/>
+		<path pathLength="1" d="M300 128 L360 162.6"/>
+		<path pathLength="1" d="M300 128 L360 93.4"/>
+		<path pathLength="1" d="M326 113 L326.9 114.7 L327.7 116.5 L328.4 118.4 L329 120.2 L329.4 122.1 L329.7 124.1 L329.9 126 L330 128 L329.9 130 L329.7 131.9 L329.4 133.9 L329 135.8 L328.4 137.6 L327.7 139.5 L326.9 141.3 L326 143"/>
+		<path pathLength="1" d="M150 102 L150 222 M236 110 L236 222"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M14 98 L40 98 L40 158 L14 158"/>
+		<path pathLength="1" d="M40 70 L48 70 L48 186 L40 186 Z"/>
+		<path pathLength="1" d="M48 116 L58 116 L70 128 L58 140 L48 140"/>
+		<path pathLength="1" d="M76 102 L196 102 L196 110 L294 110 L294 146 L196 146 L196 154 L76 154 Z"/>
+		<path pathLength="1" d="M300 128 L314 119 L336 119 L336 112 L386 112"/>
+		<path pathLength="1" d="M300 128 L314 137 L336 137 L336 144 L386 144"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M76 122 L81.2 126.5 L85 126.5 L85 129.5 L81.2 129.5 L76 134"/>
+		<path pathLength="1" d="M294 122 L288.8 126.5 L285 126.5 L285 129.5 L288.8 129.5 L294 134"/>
+		<path pathLength="1" d="M84 94 L100 94 L100 162 L84 162 Z"/>
+		<path pathLength="1" d="M92 94 L92 78 L50 78"/>
+		<path pathLength="1" d="M92 94 L92 84"/>
+		<path pathLength="1" d="M88 168 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M150 156 L162 168 L162 202 L138 202 L138 168 Z"/>
+		<path pathLength="1" d="M118 202 L182 202 L182 214 L118 214 Z"/>
+		<path pathLength="1" d="M130 226 L110 226"/>
+		<path pathLength="1" d="M110 226 L116 222 M110 226 L116 230"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M169.6 256 a23.4 23.4 0 1 0 46.8 0 a23.4 23.4 0 1 0 -46.8 0"/>
+		<path pathLength="1" d="M176.8 256 a16.2 16.2 0 1 0 32.4 0 a16.2 16.2 0 1 0 -32.4 0"/>
+		<path pathLength="1" d="M163 256 L223 256 M193 226 L193 286"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="60" y="62" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIVE</text>
+		<text x="340" y="102" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DEAD</text>
+		<text x="336" y="168" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">60°</text>
+		<text x="108" y="88" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DOG</text>
+		<text x="150" y="248" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FEED</text>
+		<text x="233" y="260" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE AXIS</text>
+		<text x="200" y="22" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">n = 1000 v ÷ π d</text>
+	</g>
+</svg>

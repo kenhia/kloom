@@ -1,0 +1,167 @@
+{
+	"id": "ornamental-turning",
+	"topic": "Ornamental turning",
+	"position": {
+		"label": "Ornamental turning"
+	},
+	"scene": {
+		"headline": "We turned for",
+		"accent": "PRINCES.",
+		"palette": "blueprint",
+		"illustration": "scene.svg",
+		"metadata": ["ST PETERSBURG · LONG ACRE, LONDON", "ROSETTE · RUBBER · A ROCKING HEADSTOCK"],
+		"counter": {
+			"value": "1⁄48",
+			"label": "of a turn between cuts, for a rosette of 24 waves"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Turning and Mechanical Manipulation, vol. 5: The Principles and Practice of Ornamental or Complex Turning",
+			"authors": [
+				{
+					"family": "Holtzapffel",
+					"given": "John Jacob"
+				}
+			],
+			"place": "London",
+			"publisher": "Holtzapffel & Co.",
+			"published": "1884",
+			"url": "https://archive.org/details/HoltzapffelVol5_1884",
+			"accessed": "2026-09-30",
+			"note": "The earliest works on ornamental turning, ch. 1; the rose cutting frame and the watch-back pattern, from p. 328"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ornamental turning",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ornamental_turning&oldid=1344540445",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-21",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rose engine lathe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rose_engine_lathe&oldid=1372190097",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Holtzapffel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Holtzapffel&oldid=1377282961",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Guilloché",
+			"url": "https://en.wikipedia.org/w/index.php?title=Guilloch%C3%A9&oldid=1373103697",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Andrey Nartov",
+			"url": "https://en.wikipedia.org/w/index.php?title=Andrey_Nartov&oldid=1353494478",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Plumier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Plumier&oldid=1371707248",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fabergé egg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Faberg%C3%A9_egg&oldid=1370103453",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "media",
+			"title": "Mercklein's rose engine of 1780, Musée des Arts et Métiers, Paris",
+			"url": "https://commons.wikimedia.org/wiki/File:Tour_%C3%A0_guillocher_de_Mercklein_CNAM-IMG_0609.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 2.0 FR",
+			"file": "mercklein-rose-engine.jpg",
+			"authors": [
+				{
+					"name": "Rama"
+				}
+			],
+			"published": "2006-07-09"
+		},
+		{
+			"kind": "media",
+			"title": "An engine-turned (guilloché) watch dial made by Derek Pratt, about 1990, and rejected by him for imperfections",
+			"url": "https://commons.wikimedia.org/wiki/File:An_engine-turned_(guilloch%C3%A9)_watch_dial_made_by_Derek_Pratt_and_rejected_by_him_due_to_imperfections.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC0",
+			"file": "pratt-dial.jpg",
+			"authors": [
+				{
+					"name": "Louisetarp"
+				}
+			]
+		}
+	]
+}

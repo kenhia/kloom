@@ -1,0 +1,190 @@
+{
+	"id": "pole-lathe",
+	"topic": "The bow lathe and the pole lathe",
+	"position": {
+		"label": "Bow and pole"
+	},
+	"scene": {
+		"headline": "We cut on the",
+		"accent": "DOWNSTROKE.",
+		"palette": "shavings",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TUNA EL-GEBEL · NUREMBERG · THE CHILTERN WOODS",
+			"A SPRINGING POLE · A TREADLE · GOUGE AND CHISEL"
+		],
+		"counter": {
+			"value": "19s",
+			"label": "paid for a gross of chair legs and stretchers, 1908"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Mechanick Exercises, or, The Doctrine of Handy-Works: Applied to the Arts of Smithing, Joinery, Carpentry, Turning, Bricklayery",
+			"authors": [
+				{
+					"family": "Moxon",
+					"given": "Joseph"
+				}
+			],
+			"place": "London",
+			"publisher": "Dan. Midwinter and Tho. Leigh",
+			"published": "1703",
+			"url": "https://archive.org/details/mechanickexercis00moxo_1",
+			"accessed": "2026-09-30",
+			"note": "The art of turning: the pole, the treadle, the tools and the cylinder; first issued in parts from 1677"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Le tombeau de Petosiris",
+			"authors": [
+				{
+					"family": "Lefebvre",
+					"given": "Gustave"
+				}
+			],
+			"place": "Cairo",
+			"publisher": "Institut français d'archéologie orientale",
+			"published": "1923",
+			"url": "https://archive.org/details/letombeaudepetos00lefeuoft",
+			"accessed": "2026-09-30",
+			"note": "The turners are described on pp. 56–57; the tomb's date on p. 10"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Rural Industries of England and Wales, vol. 1: Timber and Underwood Industries and Some Village Workshops",
+			"authors": [
+				{
+					"family": "FitzRandolph",
+					"given": "Helen E."
+				},
+				{
+					"family": "Hay",
+					"given": "M. Doriel"
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1926",
+			"url": "https://archive.org/details/in.ernet.dli.2015.462194",
+			"accessed": "2026-09-30",
+			"note": "The pole lathe in the woods, pp. 56–57; the Chilgrove turner in the introduction"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pole lathe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pole_lathe&oldid=1375891071",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bodging",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bodging&oldid=1361083174",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-25",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lathe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lathe&oldid=1377488243",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Woodturning",
+			"url": "https://en.wikipedia.org/w/index.php?title=Woodturning&oldid=1360749837",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Petosiris",
+			"url": "https://en.wikipedia.org/w/index.php?title=Petosiris&oldid=1352054155",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Moxon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Moxon&oldid=1372034416",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "A turner at a pole lathe, from the house book of the Mendel Twelve Brothers foundation, Nuremberg",
+			"url": "https://commons.wikimedia.org/wiki/File:Mendel_I_018_v.jpg",
+			"accessed": "2026-09-30",
+			"container": "Stadtbibliothek Nürnberg, Amb. 317.2°, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "mendel-turner.jpg",
+			"published": "1425",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "Pole lathe demonstration, Tiddesley Wood",
+			"url": "https://commons.wikimedia.org/wiki/File:Pole_lathe_demonstration,_Tiddesley_Wood_-_geograph.org.uk_-_1837029.jpg",
+			"accessed": "2026-09-30",
+			"container": "Geograph Britain and Ireland, via Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "tiddesley-pole-lathe.jpg",
+			"authors": [
+				{
+					"name": "Bob Embleton"
+				}
+			],
+			"published": "2010-05-02"
+		}
+	]
+}

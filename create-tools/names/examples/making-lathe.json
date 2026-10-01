@@ -1,0 +1,38 @@
+{
+	"making/pole-lathe": [
+		["Tuna el-Gebel", "tuna-el-gebel"],
+		["Petosiris", "petosiris"],
+		["lathe", "lathe"],
+		["pole lathe", "pole-lathe"],
+		["Joseph Moxon", "joseph-moxon"],
+		["Chiltern Hills", "chiltern-hills"],
+		["bodgers", "bodging"],
+		["High Wycombe", "high-wycombe"]
+	],
+	"making/between-centres": [
+		["Joseph Moxon", "joseph-moxon"],
+		["lathe center", "lathe-center"],
+		["lathe dog", "lathe-dog"],
+		["James Nasmyth", "james-nasmyth"],
+		["Henry Maudslay", "henry-maudslay"]
+	],
+	"making/screw-cutting": [
+		["threading", "threading-manufacturing"],
+		["lead screw", "leadscrew"],
+		["Jacques Besson", "jacques-besson"],
+		["Henry Maudslay", "henry-maudslay"],
+		["Carl Edvard Johansson", "carl-edvard-johansson"],
+		["Joseph Clement", "joseph-clement"],
+		["Joseph Whitworth", "joseph-whitworth"]
+	],
+	"making/ornamental-turning": [
+		["Peter the Great", "peter-the-great"],
+		["Andrey Nartov", "andrey-nartov"],
+		["guilloché", "guilloche"],
+		["Charles Plumier", "charles-plumier"],
+		["Ornamental turning", "ornamental-turning"],
+		["rose engine", "rose-engine-lathe"],
+		["John Jacob Holtzapffel", "holtzapffel"],
+		["Fabergé eggs", "faberge-egg"]
+	]
+}
