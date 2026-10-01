@@ -72,7 +72,7 @@ def rose_diagram():
     for rate in (100, 250, 500, 1000):
         x, y = _pt(cx, cy, k * math.sqrt(rate), -14)
         d.text(x + 3, y - 4, f'{rate:,}', size=7, anchor='start')
-    d.text(150, 292, 'JANUARY 1855 · 1,022.8', size=7)
+    d.text(150, 292, 'JANUARY 1855 · ZYMOTIC 1,022.8', size=7)
     d.text(36, 124, 'APRIL', size=7)
     d.text(36, 133, '1854', size=7)
     d.text(330, 230, 'AREA = RATE', size=7)
