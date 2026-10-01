@@ -6,14 +6,11 @@
 	},
 	"asOf": "2026-09-30",
 	"scene": {
-		"headline": "We record fifteen thousand new substances a",
+		"headline": "Fifteen thousand new substances a",
 		"accent": "DAY.",
 		"palette": "helix",
 		"illustration": "scene.svg",
-		"metadata": [
-			"CAS REGISTRY · STOCKHOLM · BERKELEY · HELSINKI · WASHINGTON",
-			"METAL–ORGANIC FRAMEWORKS · ROBOT LABORATORIES · PFAS AT 4 PPT"
-		],
+		"metadata": ["CAS REGISTRY · STOCKHOLM · BERKELEY", "ROBOT LABORATORIES · PFAS AT 4 PPT"],
 		"counter": {
 			"value": "290,000,000+",
 			"label": "substances in the CAS Registry, by its own count"

@@ -261,6 +261,15 @@ revision. What recurred most:
     horizontal overflow at 390px;
   - the start screen lists the History of Chemistry among seven
     subjects.
+- **A layout defect the walk did not catch, found by looking:** on the
+  last frame the counter overlapped the metadata lines. Measured on every
+  frame (`.scratch/025/overlap.mjs`, bounding boxes after the animations
+  finish): 17 frames overlap at 1400×900 (4 chemistry, 11 feynman, 2
+  mathematics), and at 1280×800 every frame with a counter is at risk
+  (49 of chemistry's 66, 5 of western-civ's 24). Four chemistry scenes
+  were tightened (`newton-alchemy`, `oxygen`, `where-chemistry-is`,
+  `pcr`), which clears two at 1400×900; the fix belongs in the scene
+  layout and needs a decision on how it gives way, filed as korg 3469.
 
 ## Repaired in passing
 

@@ -9,12 +9,9 @@
 		"accent": "AGAIN.",
 		"palette": "helix",
 		"illustration": "scene.svg",
-		"metadata": [
-			"CETUS CORPORATION · EMERYVILLE, CALIFORNIA · 1983",
-			"TWO PRIMERS · A POLYMERASE FROM A HOT SPRING · 30 CYCLES"
-		],
+		"metadata": ["CETUS CORPORATION · EMERYVILLE · 1983", "TWO PRIMERS · A HOT-SPRING POLYMERASE"],
 		"counter": {
-			"value": "1,073,741,824",
+			"value": "2³⁰",
 			"label": "copies of one DNA duplex after 30 perfect cycles"
 		}
 	},
