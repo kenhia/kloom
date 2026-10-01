@@ -1,0 +1,9 @@
+{
+	"id": "selective-laser-sintering",
+	"wikidata": "Q428412",
+	"name": "Selective laser sintering",
+	"aliases": ["laser sintering", "SLS"],
+	"kind": "idea",
+	"description": "3D printing by fusing a thin layer of powder, usually nylon, with a scanned laser, layer after layer, the unfused powder holding the part as it grows.",
+	"home": "making/laser-sintering"
+}

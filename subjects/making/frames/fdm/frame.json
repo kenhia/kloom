@@ -1,0 +1,205 @@
+{
+	"id": "fdm",
+	"topic": "Fused deposition modelling",
+	"position": {
+		"label": "1989",
+		"sort": 1989
+	},
+	"scene": {
+		"headline": "We laid it down, bead on",
+		"accent": "BEAD.",
+		"palette": "filament",
+		"illustration": "scene.svg",
+		"metadata": [
+			"EDEN PRAIRIE, MINNESOTA · S. SCOTT CRUMP · STRATASYS",
+			"US 5,121,329 · FILAMENT · HEATED NOZZLE · 0.4 MM"
+		],
+		"counter": {
+			"value": "4.9 mm³",
+			"label": "of plastic a second through a 0.4 mm nozzle at 60 mm/s"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/polymers",
+			"why": "Fused deposition modelling works only with a thermoplastic that melts and sets again and again, the opposite of Baekeland's Bakelite, which once set would neither melt nor dissolve."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Apparatus and Method for Creating Three-Dimensional Objects, US Patent 5,121,329",
+			"authors": [
+				{
+					"family": "Crump",
+					"given": "S. Scott"
+				}
+			],
+			"container": "Google Patents",
+			"published": "1992-06-09",
+			"url": "https://patents.google.com/patent/US5121329A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 30 October 1989; the strand feed, the 1 °C margin, glue guns and Hull's patent in the background"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Stratasys, Inc.",
+			"container": "International Directory of Company Histories, Vol. 67",
+			"publisher": "St. James Press",
+			"published": "2005",
+			"url": "https://www.fundinguniverse.com/company-histories/stratasys-inc-history/",
+			"accessed": "2026-09-30",
+			"note": "The toy frog, the founding and the first machines; read in the copy at FundingUniverse"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Flow Math",
+			"authors": [
+				{
+					"family": "Hodgson",
+					"given": "Gary"
+				}
+			],
+			"container": "Slic3r Manual",
+			"url": "https://manual.slic3r.org/advanced/flow-math",
+			"accessed": "2026-09-30",
+			"note": "The bead's section and the spacing between beads"
+		},
+		{
+			"kind": "web",
+			"title": "PLA",
+			"container": "Prusa Knowledge Base",
+			"publisher": "Prusa Research",
+			"url": "https://help.prusa3d.com/article/pla_2062",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Layers and Perimeters",
+			"container": "Prusa Knowledge Base",
+			"publisher": "Prusa Research",
+			"url": "https://help.prusa3d.com/article/layers-and-perimeters_1748",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Max Volumetric Speed",
+			"container": "Prusa Knowledge Base",
+			"publisher": "Prusa Research",
+			"url": "https://help.prusa3d.com/article/max-volumetric-speed_127176",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Print Settings",
+			"container": "Slic3r Manual",
+			"url": "https://manual.slic3r.org/expert-mode/print-settings",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fused filament fabrication",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fused_filament_fabrication&oldid=1374826978",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stratasys",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stratasys&oldid=1377619719",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "3D printing",
+			"url": "https://en.wikipedia.org/w/index.php?title=3D_printing&oldid=1374947858",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polylactic acid",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polylactic_acid&oldid=1376587580",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "RepRap",
+			"url": "https://en.wikipedia.org/w/index.php?title=RepRap&oldid=1349417698",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-17"
+		},
+		{
+			"kind": "media",
+			"title": "Fused deposition modelling apparatus, Fig. 1 of US Patent 5,121,329",
+			"url": "https://patents.google.com/patent/US5121329A/en",
+			"accessed": "2026-09-30",
+			"container": "US Patent 5,121,329, via Google Patents",
+			"licence": "Public domain",
+			"file": "crump-patent.jpg",
+			"authors": [
+				{
+					"family": "Crump",
+					"given": "S. Scott"
+				}
+			],
+			"published": "1992-06-09"
+		},
+		{
+			"kind": "media",
+			"title": "A Stratasys FDM 2000 at the Hive13 hackerspace, Cincinnati",
+			"url": "https://commons.wikimedia.org/wiki/File:Stratasys_FDM_2000.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 2.0",
+			"file": "fdm-2000.jpg",
+			"authors": [
+				{
+					"name": "Chris Davis"
+				}
+			],
+			"published": "2011-05-24"
+		}
+	]
+}

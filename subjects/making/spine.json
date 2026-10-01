@@ -48,7 +48,14 @@
 			"id": "additive",
 			"title": "Layer by layer",
 			"labelKind": "date",
-			"frames": ["reprap", "openscad", "metal-printing"]
+			"frames": [
+				"stereolithography",
+				"laser-sintering",
+				"fdm",
+				"reprap",
+				"openscad",
+				"metal-printing"
+			]
 		}
 	]
 }

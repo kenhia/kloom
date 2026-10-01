@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="t d">
+<title id="t">Cure depth of a photopolymer resin against the dose of light, each dose double the last</title>
+<desc id="d">Bar chart of the depth to which a layer of resin sets for doses of 12.6, 25, 50, 100 and 200 millijoules per square centimetre: 37, 73, 110, 146 and 183 micrometres. Each doubling of the dose adds the same 37 micrometres. Worked from Jacobs's working curve, cure depth = Dp × ln(E ÷ Ec), with Dp = 53 µm and Ec = 6.3 mJ/cm², the values NIST measured for the resin PR48 at 405 nm (Bennett, 2017).</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="500" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="500" y1="201.4" y2="201.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="205.4" text-anchor="end">50</text>
+<line x1="64" x2="500" y1="152.7" y2="152.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="156.7" text-anchor="end">100</text>
+<line x1="64" x2="500" y1="104.1" y2="104.1" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="108.1" text-anchor="end">150</text>
+<line x1="64" x2="500" y1="55.5" y2="55.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="59.5" text-anchor="end">200</text>
+</g>
+<rect x="79.6" y="214.0" width="56" height="36.0" fill-opacity="0.85"/>
+<text x="107.6" y="208.0" text-anchor="middle">37</text>
+<text x="107.6" y="266" text-anchor="middle">12.6</text>
+<text x="107.6" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">mJ/cm²</text>
+<rect x="166.8" y="179.0" width="56" height="71.0" fill-opacity="0.85"/>
+<text x="194.8" y="173.0" text-anchor="middle">73</text>
+<text x="194.8" y="266" text-anchor="middle">25</text>
+<text x="194.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">mJ/cm²</text>
+<rect x="254.0" y="143.0" width="56" height="107.0" fill-opacity="0.85"/>
+<text x="282.0" y="137.0" text-anchor="middle">110</text>
+<text x="282.0" y="266" text-anchor="middle">50</text>
+<text x="282.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">mJ/cm²</text>
+<rect x="341.2" y="108.0" width="56" height="142.0" class="accent" fill="currentColor"/>
+<text x="369.2" y="102.0" text-anchor="middle">146</text>
+<text x="369.2" y="266" text-anchor="middle">100</text>
+<text x="369.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">mJ/cm²</text>
+<rect x="428.4" y="72.0" width="56" height="178.0" fill-opacity="0.85"/>
+<text x="456.4" y="66.0" text-anchor="middle">183</text>
+<text x="456.4" y="266" text-anchor="middle">200</text>
+<text x="456.4" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">mJ/cm²</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">CURE DEPTH, µm · DOSE DOUBLING EACH BAR</text>
+</g></svg>

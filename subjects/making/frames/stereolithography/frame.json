@@ -1,0 +1,180 @@
+{
+	"id": "stereolithography",
+	"topic": "Stereolithography",
+	"position": {
+		"label": "1984",
+		"sort": 1984
+	},
+	"scene": {
+		"headline": "We drew a solid in",
+		"accent": "LIGHT.",
+		"palette": "filament",
+		"illustration": "scene.svg",
+		"metadata": [
+			"UVP · CHUCK HULL · 3D SYSTEMS, VALENCIA, CALIFORNIA",
+			"US 4,575,330 · PHOTOPOLYMER · ULTRAVIOLET · A SINKING PLATFORM"
+		],
+		"counter": {
+			"value": "37 µm",
+			"label": "more cure depth for every doubling of the dose, in one measured resin"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/photolithography",
+			"why": "Stereolithography builds a solid from a liquid that ultraviolet light makes insoluble, the trick of the negative photoresists that pattern chips, and Hull's patent counts microlithography among its forebears."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Apparatus for Production of Three-Dimensional Objects by Stereolithography, US Patent 4,575,330",
+			"authors": [
+				{
+					"family": "Hull",
+					"given": "Charles W."
+				}
+			],
+			"container": "Google Patents",
+			"published": "1986-03-11",
+			"url": "https://patents.google.com/patent/US4575330A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 8 August 1984 by UVP; the lamp, the plotter, the Loctite resin and the upside-down vat"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Measuring UV Curing Parameters of Commercial Photopolymers Used in Additive Manufacturing",
+			"authors": [
+				{
+					"family": "Bennett",
+					"given": "Joe"
+				}
+			],
+			"container": "Additive Manufacturing",
+			"volume": "18",
+			"pages": "203–212",
+			"published": "2017",
+			"doi": "10.1016/j.addma.2017.10.009",
+			"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5828039/",
+			"accessed": "2026-09-30",
+			"note": "Jacobs's working curve, and Dp and Ec for five resins; read in the author's manuscript at PubMed Central"
+		},
+		{
+			"kind": "article",
+			"title": "Automatic Method for Fabricating a Three-Dimensional Plastic Model with Photo-Hardening Polymer",
+			"authors": [
+				{
+					"family": "Kodama",
+					"given": "Hideo"
+				}
+			],
+			"container": "Review of Scientific Instruments",
+			"volume": "52",
+			"issue": "11",
+			"pages": "1770–1773",
+			"published": "1981-11",
+			"doi": "10.1063/1.1136492",
+			"accessed": "2026-09-30",
+			"note": "Abstract read through OpenAlex"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stereolithography",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stereolithography&oldid=1377141530",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chuck Hull",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chuck_Hull&oldid=1373532019",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "3D Systems",
+			"url": "https://en.wikipedia.org/w/index.php?title=3D_Systems&oldid=1372362802",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "3D printing",
+			"url": "https://en.wikipedia.org/w/index.php?title=3D_printing&oldid=1374947858",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "media",
+			"title": "Two stereolithography machines, Figs. 3 and 4 of US Patent 4,575,330",
+			"url": "https://patents.google.com/patent/US4575330A/en",
+			"accessed": "2026-09-30",
+			"container": "US Patent 4,575,330, via Google Patents",
+			"licence": "Public domain",
+			"file": "hull-patent.jpg",
+			"authors": [
+				{
+					"family": "Hull",
+					"given": "Charles W."
+				}
+			],
+			"published": "1986-03-11"
+		},
+		{
+			"kind": "media",
+			"title": "Cycloidal drive assembled from stereolithography parts",
+			"url": "https://commons.wikimedia.org/wiki/File:Stereolithography_cycloidal_drive.JPG",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "cycloidal-drive.jpg",
+			"authors": [
+				{
+					"name": "Clemenspool"
+				}
+			],
+			"published": "2011-06-21"
+		},
+		{
+			"kind": "media",
+			"title": "Cure depth against dose for the resin PR48 at 405 nm, from Jacobs's working curve",
+			"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5828039/",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from Bennett, Additive Manufacturing 18 (2017)",
+			"licence": "MIT",
+			"file": "working-curve.svg"
+		}
+	]
+}

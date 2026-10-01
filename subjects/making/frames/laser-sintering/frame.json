@@ -1,0 +1,212 @@
+{
+	"id": "laser-sintering",
+	"topic": "Selective laser sintering",
+	"position": {
+		"label": "1987",
+		"sort": 1987
+	},
+	"scene": {
+		"headline": "We fused a bed of",
+		"accent": "POWDER.",
+		"palette": "resin",
+		"illustration": "scene.svg",
+		"metadata": [
+			"UNIVERSITY OF TEXAS AT AUSTIN · CARL DECKARD · JOE BEAMAN",
+			"US 4,863,538 · LASER · POWDER BED · NYLON"
+		],
+		"counter": {
+			"value": "182 °C",
+			"label": "where nylon 12 powder melts; the whole bed is held just below it"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Method and Apparatus for Producing Parts by Selective Sintering, US Patent 4,863,538",
+			"authors": [
+				{
+					"family": "Deckard",
+					"given": "Carl R."
+				}
+			],
+			"container": "Google Patents",
+			"published": "1989-09-05",
+			"url": "https://patents.google.com/patent/US4863538A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 17 October 1986; the Nd:YAG laser, the mirrors, the hopper and the ABS powder"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Selective Laser Sintering, From a Texas Idea to a Global Industry",
+			"container": "Walker Department of Mechanical Engineering, The University of Texas at Austin",
+			"url": "https://www.me.utexas.edu/news/619-selective-laser-sintering-from-a-texas-idea-to-a-global-industry",
+			"accessed": "2026-09-30",
+			"note": "Deckard, Beaman, Nova Animation, DTM and the Sinterstation; read in the Wayback Machine's copy"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Process Phenomena and Material Properties in Selective Laser Sintering of Polymers: A Review",
+			"authors": [
+				{
+					"family": "Lupone",
+					"given": "Federico"
+				},
+				{
+					"family": "Padovano",
+					"given": "Elisa"
+				},
+				{
+					"family": "Casamento",
+					"given": "Francesco"
+				},
+				{
+					"family": "Badini",
+					"given": "Claudio"
+				}
+			],
+			"container": "Materials",
+			"volume": "15",
+			"issue": "1",
+			"pages": "183",
+			"published": "2021-12-27",
+			"doi": "10.3390/ma15010183",
+			"accessed": "2026-09-30",
+			"note": "The cycle, the preheat, the super-cooling window and the energy density"
+		},
+		{
+			"kind": "web",
+			"title": "Molding Process, US Patent 4,247,508",
+			"authors": [
+				{
+					"family": "Housholder",
+					"given": "Ross F."
+				}
+			],
+			"container": "Google Patents",
+			"published": "1981-01-27",
+			"url": "https://patents.google.com/patent/US4247508A/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Effects of Laser Power and Hatch Orientation on Final Properties of PA12 Parts Produced by Selective Laser Sintering",
+			"authors": [
+				{
+					"family": "El Magri",
+					"given": "Anouar"
+				},
+				{
+					"family": "Bencaid",
+					"given": "Salah Eddine"
+				},
+				{
+					"family": "Vanaei",
+					"given": "Hamid Reza"
+				},
+				{
+					"family": "Vaudreuil",
+					"given": "Sébastien"
+				}
+			],
+			"container": "Polymers",
+			"volume": "14",
+			"issue": "17",
+			"pages": "3674",
+			"published": "2022-09-04",
+			"doi": "10.3390/polym14173674",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Selective laser sintering",
+			"url": "https://en.wikipedia.org/w/index.php?title=Selective_laser_sintering&oldid=1375772175",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl R. Deckard",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_R._Deckard&oldid=1326112982",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sintering",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sintering&oldid=1376258525",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George W. Hart",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_W._Hart&oldid=1358513013",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-09"
+		},
+		{
+			"kind": "media",
+			"title": "Selective sintering apparatus and a part's layers, Figs. 1 and 2 of US Patent 4,863,538",
+			"url": "https://patents.google.com/patent/US4863538A/en",
+			"accessed": "2026-09-30",
+			"container": "US Patent 4,863,538, via Google Patents",
+			"licence": "Public domain",
+			"file": "deckard-patent.jpg",
+			"authors": [
+				{
+					"family": "Deckard",
+					"given": "Carl R."
+				}
+			],
+			"published": "1989-09-05"
+		},
+		{
+			"kind": "media",
+			"title": "Sierpinski tetrahedron in nylon, made by selective laser sintering",
+			"url": "https://commons.wikimedia.org/wiki/File:Sierpinski_tetrahedron_by_George_W._Hart.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "sierpinski.jpg",
+			"authors": [
+				{
+					"family": "Hart",
+					"given": "George W."
+				}
+			],
+			"published": "2008-05-01"
+		}
+	]
+}
