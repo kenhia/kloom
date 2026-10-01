@@ -1,0 +1,281 @@
+{
+	"id": "magnet",
+	"topic": "Magnet hospitals",
+	"position": {
+		"label": "1983",
+		"sort": 1983
+	},
+	"scene": {
+		"headline": "We stayed where we were",
+		"accent": "HEARD.",
+		"palette": "chart",
+		"illustration": "scene.svg",
+		"metadata": [
+			"AMERICAN ACADEMY OF NURSING · 41 HOSPITALS",
+			"McCLURE · POULIN · SOVIE · WANDELT · AIKEN"
+		],
+		"counter": {
+			"value": "41",
+			"label": "of 163 nominated hospitals found to be magnets for nurses, 1983"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Magnet Environments for Professional Nursing Practice",
+			"authors": [
+				{
+					"family": "Lundmark",
+					"given": "Vicki A."
+				}
+			],
+			"container": "Patient Safety and Quality: An Evidence-Based Handbook for Nurses",
+			"editors": [
+				{
+					"family": "Hughes",
+					"given": "Ronda G."
+				}
+			],
+			"publisher": "Agency for Healthcare Research and Quality",
+			"place": "Rockville, MD",
+			"published": "2008-04",
+			"url": "https://www.ncbi.nlm.nih.gov/books/NBK2667/",
+			"accessed": "2026-10-01",
+			"note": "The 1983 study's method and its forces of magnetism beside ANCC's of 2005 (table 1)"
+		},
+		{
+			"kind": "book",
+			"title": "Magnet Hospitals: Attraction and Retention of Professional Nurses",
+			"authors": [
+				{
+					"family": "McClure",
+					"given": "Margaret L."
+				},
+				{
+					"family": "Poulin",
+					"given": "Muriel A."
+				},
+				{
+					"family": "Sovie",
+					"given": "Margaret D."
+				},
+				{
+					"family": "Wandelt",
+					"given": "Mabel A."
+				}
+			],
+			"publisher": "American Academy of Nursing",
+			"place": "Kansas City, MO",
+			"published": "1983",
+			"citedIn": "Magnet Environments for Professional Nursing Practice"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "About Magnet: History of the Magnet Program",
+			"authors": [
+				{
+					"name": "American Nurses Credentialing Center"
+				}
+			],
+			"publisher": "American Nurses Association",
+			"url": "https://www.nursingworld.org/organizational-programs/magnet/about-magnet/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Magnet Recognition Program: Eligibility Criteria",
+			"authors": [
+				{
+					"name": "American Nurses Credentialing Center"
+				}
+			],
+			"publisher": "American Nurses Association",
+			"url": "https://www.nursingworld.org/organizational-programs/magnet/apply/eligibility-criteria/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Hospital Nurse Staffing and Patient Mortality, Nurse Burnout, and Job Dissatisfaction",
+			"authors": [
+				{
+					"family": "Aiken",
+					"given": "Linda H."
+				},
+				{
+					"family": "Clarke",
+					"given": "Sean P."
+				},
+				{
+					"family": "Sloane",
+					"given": "Douglas M."
+				},
+				{
+					"family": "Sochalski",
+					"given": "Julie"
+				},
+				{
+					"family": "Silber",
+					"given": "Jeffrey H."
+				}
+			],
+			"container": "JAMA",
+			"volume": "288",
+			"issue": "16",
+			"pages": "1987–1993",
+			"published": "2002-10-23",
+			"doi": "10.1001/jama.288.16.1987",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Transformative Impact of Magnet Designation: England Case Study",
+			"authors": [
+				{
+					"family": "Aiken",
+					"given": "Linda H."
+				},
+				{
+					"family": "Buchan",
+					"given": "James"
+				},
+				{
+					"family": "Ball",
+					"given": "Jane"
+				},
+				{
+					"family": "Rafferty",
+					"given": "Anne Marie"
+				}
+			],
+			"container": "Journal of Clinical Nursing",
+			"volume": "17",
+			"issue": "24",
+			"pages": "3330–3337",
+			"published": "2008",
+			"doi": "10.1111/j.1365-2702.2008.02640.x",
+			"accessed": "2026-10-01",
+			"note": "Read in the author manuscript, PMC2629393"
+		},
+		{
+			"kind": "article",
+			"title": "Lower Medicare Mortality among a Set of Hospitals Known for Good Nursing Care",
+			"authors": [
+				{
+					"family": "Aiken",
+					"given": "Linda H."
+				},
+				{
+					"family": "Smith",
+					"given": "Herbert L."
+				},
+				{
+					"family": "Lake",
+					"given": "Eileen T."
+				}
+			],
+			"container": "Medical Care",
+			"volume": "32",
+			"pages": "771–787",
+			"published": "1994",
+			"citedIn": "Transformative Impact of Magnet Designation: England Case Study"
+		},
+		{
+			"kind": "article",
+			"title": "Lower Mortality in Magnet Hospitals",
+			"authors": [
+				{
+					"family": "McHugh",
+					"given": "Matthew D."
+				},
+				{
+					"family": "Kelly",
+					"given": "Lesly A."
+				},
+				{
+					"family": "Smith",
+					"given": "Herbert L."
+				},
+				{
+					"family": "Wu",
+					"given": "Evan S."
+				},
+				{
+					"family": "Vanak",
+					"given": "Jill M."
+				},
+				{
+					"family": "Aiken",
+					"given": "Linda H."
+				}
+			],
+			"container": "Medical Care",
+			"volume": "51",
+			"issue": "5",
+			"pages": "382–388",
+			"published": "2013-05",
+			"doi": "10.1097/MLR.0b013e3182726cc5",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "42 CFR § 482.23, Condition of Participation: Nursing Services",
+			"authors": [
+				{
+					"name": "Centers for Medicare & Medicaid Services"
+				}
+			],
+			"container": "Electronic Code of Federal Regulations",
+			"publisher": "National Archives and Records Administration",
+			"url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-C/section-482.23",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Magnet Recognition Program",
+			"url": "https://en.wikipedia.org/w/index.php?title=Magnet_Recognition_Program&oldid=1334380916",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linda Aiken",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linda_Aiken&oldid=1367933599",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "media",
+			"title": "Odds of a surgical patient's death by patients per nurse, relative to four",
+			"authors": [
+				{
+					"name": "kloom"
+				}
+			],
+			"container": "Compounded from Aiken et al., JAMA 288 (2002): 1987–1993",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "patient-odds.svg",
+			"doi": "10.1001/jama.288.16.1987"
+		}
+	]
+}

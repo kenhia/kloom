@@ -1,0 +1,105 @@
+{
+	"title": "Deaths among people with AIDS in San Francisco by year, 1981–1997",
+	"description": "Bar chart of deaths among people with AIDS in San Francisco each year: 8 in 1981, 32 in 1982, 111 in 1983 (the year Ward 5B opened), 273 in 1984, 534 in 1985, 807 in 1986, 878 in 1987, 1,038 in 1988, 1,278 in 1989, 1,364 in 1990, 1,512 in 1991, 1,639 in 1992, 1,603 in 1993, 1,598 in 1994, 1,486 in 1995, 992 in 1996 and 424 in 1997. Data: San Francisco Department of Public Health, HIV Surveillance Annual Report 2025, table 10.",
+	"heading": "DEATHS AMONG PEOPLE WITH AIDS, SAN FRANCISCO",
+	"unit": "",
+	"axis": {
+		"max": 1800,
+		"ticks": [
+			[0, "0"],
+			[500, "500"],
+			[1000, "1,000"],
+			[1500, "1,500"]
+		]
+	},
+	"bars": [
+		{
+			"label": "1981",
+			"value": 8,
+			"display": "8"
+		},
+		{
+			"label": "1982",
+			"value": 32,
+			"display": "32"
+		},
+		{
+			"label": "1983",
+			"value": 111,
+			"display": "111",
+			"highlight": true
+		},
+		{
+			"label": "1984",
+			"value": 273,
+			"display": "273"
+		},
+		{
+			"label": "1985",
+			"value": 534,
+			"display": "534"
+		},
+		{
+			"label": "1986",
+			"value": 807,
+			"display": "807"
+		},
+		{
+			"label": "1987",
+			"value": 878,
+			"display": "878"
+		},
+		{
+			"label": "1988",
+			"value": 1038,
+			"display": "1,038"
+		},
+		{
+			"label": "1989",
+			"value": 1278,
+			"display": "1,278"
+		},
+		{
+			"label": "1990",
+			"value": 1364,
+			"display": "1,364"
+		},
+		{
+			"label": "1991",
+			"value": 1512,
+			"display": "1,512"
+		},
+		{
+			"label": "1992",
+			"value": 1639,
+			"display": "1,639"
+		},
+		{
+			"label": "1993",
+			"value": 1603,
+			"display": "1,603"
+		},
+		{
+			"label": "1994",
+			"value": 1598,
+			"display": "1,598"
+		},
+		{
+			"label": "1995",
+			"value": 1486,
+			"display": "1,486"
+		},
+		{
+			"label": "1996",
+			"value": 992,
+			"display": "992"
+		},
+		{
+			"label": "1997",
+			"value": 424,
+			"display": "424"
+		}
+	],
+	"width": 720,
+	"barWidth": 28
+}

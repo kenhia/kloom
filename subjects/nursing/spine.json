@@ -69,8 +69,17 @@
 				"goldmark-report",
 				"polio-icu",
 				"nurse-practitioner",
-				"hospice"
+				"hospice",
+				"ward-5b",
+				"magnet",
+				"bcma"
 			]
+		},
+		{
+			"id": "today",
+			"title": "Today",
+			"labelKind": "category",
+			"frames": ["where-nursing-is"]
 		},
 		{
 			"id": "dedication-seg",

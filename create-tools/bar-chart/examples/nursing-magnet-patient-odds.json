@@ -1,0 +1,22 @@
+{
+	"title": "Odds of a surgical patient's death by patients per nurse, relative to four",
+	"description": "Bar chart of the odds of death within 30 days of admission for a surgical patient, relative to a nurse caring for four patients, compounding the odds ratio of 1.07 for each additional patient per nurse found by Aiken and colleagues in 168 Pennsylvania hospitals (JAMA, 2002): 1.00 at four patients, 1.07 at five, 1.14 at six, 1.23 at seven and 1.31 at eight. The compounding is kloom's arithmetic, not the paper's table.",
+	"heading": "ODDS OF DEATH, RELATIVE TO 4 PATIENTS A NURSE",
+	"unit": "",
+	"axis": {
+		"max": 1.5,
+		"ticks": [
+			[0, "0"],
+			[0.5, "0.5"],
+			[1, "1.0"],
+			[1.5, "1.5"]
+		]
+	},
+	"bars": [
+		{ "label": "4", "sublabel": "patients", "value": 1.0, "display": "1.00" },
+		{ "label": "5", "sublabel": "patients", "value": 1.07, "display": "1.07" },
+		{ "label": "6", "sublabel": "patients", "value": 1.1449, "display": "1.14" },
+		{ "label": "7", "sublabel": "patients", "value": 1.225, "display": "1.23" },
+		{ "label": "8", "sublabel": "patients", "value": 1.3108, "display": "1.31", "highlight": true }
+	]
+}
