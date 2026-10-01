@@ -1,0 +1,30 @@
+{
+	"making/japanese-sword": [
+		["Dōjigiri", "dojigiri"],
+		["Heian period", "heian-period"],
+		["Japanese sword", "japanese-sword"],
+		["tachi", "tachi"],
+		["tamahagane", "tamahagane"],
+		["tatara", "tatara-furnace"],
+		["martensite", "martensite"]
+	],
+	"making/wootz": [
+		["Kodumanal", "kodumanal"],
+		["wootz steel", "wootz-steel"],
+		["Damascus steel", "damascus-steel"],
+		["Jean-Baptiste Tavernier", "jean-baptiste-tavernier"],
+		["cementite", "cementite"],
+		["Michael Faraday", "michael-faraday"],
+		["vanadium", "vanadium"],
+		["carbon nanotubes", "carbon-nanotube"]
+	],
+	"making/huntsman-steel": [
+		["Benjamin Huntsman", "benjamin-huntsman"],
+		["Doncaster", "doncaster"],
+		["cementation process", "cementation-process"],
+		["wootz steel", "wootz-steel"],
+		["Sheffield", "sheffield"],
+		["John Percy", "john-percy-metallurgist"],
+		["Matthew Boulton", "matthew-boulton"]
+	]
+}

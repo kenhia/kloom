@@ -1,0 +1,162 @@
+{
+	"id": "wootz",
+	"topic": "Wootz steel and Damascus blades",
+	"position": {
+		"label": "c. 300 BC",
+		"sort": -300
+	},
+	"scene": {
+		"headline": "We forged steel that looked like",
+		"accent": "WATER.",
+		"palette": "scale",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SOUTH INDIA · SRI LANKA · PERSIA · DAMASCUS",
+			"A SEALED CRUCIBLE · 1.5% CARBON · A TRACE OF VANADIUM"
+		],
+		"counter": {
+			"value": "0.004%",
+			"label": "of vanadium, enough to make the bands form"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Key Role of Impurities in Ancient Damascus Steel Blades",
+			"authors": [
+				{
+					"family": "Verhoeven",
+					"given": "J. D."
+				},
+				{
+					"family": "Pendray",
+					"given": "A. H."
+				},
+				{
+					"family": "Dauksch",
+					"given": "W. E."
+				}
+			],
+			"container": "JOM",
+			"volume": "50",
+			"issue": "9",
+			"pages": "58–64",
+			"published": "1998",
+			"doi": "10.1007/s11837-998-0419-y",
+			"url": "https://www.tms.org/pubs/journals/JOM/9809/Verhoeven-9809.html",
+			"accessed": "2026-09-30",
+			"note": "The cakes, the bands of cementite, vanadium, and why the art was lost"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Pattern Formation in Wootz Damascus Steel Swords and Blades",
+			"authors": [
+				{
+					"family": "Verhoeven",
+					"given": "John"
+				}
+			],
+			"container": "Indian Journal of History of Science",
+			"volume": "42",
+			"issue": "4",
+			"pages": "559–574",
+			"published": "2007",
+			"url": "https://www.tf.uni-kiel.de/matwis/amat/iss/kap_a/articles/verhoeven_2007.pdf",
+			"accessed": "2026-09-30",
+			"note": "The reconstruction step by step, the thermal cycles and the Alwar bars; read in a copy on a University of Kiel course page"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Wootz Crucible Steel: A Newly Discovered Production Site in South India",
+			"authors": [
+				{
+					"family": "Srinivasan",
+					"given": "Sharada"
+				}
+			],
+			"container": "Papers from the Institute of Archaeology",
+			"volume": "5",
+			"pages": "49–59",
+			"published": "1994",
+			"doi": "10.5334/pia.60",
+			"accessed": "2026-09-30",
+			"note": "Ctesias, Kodumanal, Tavernier and the nineteenth-century accounts of the process"
+		},
+		{
+			"kind": "article",
+			"title": "Sharpest Cut from Nanotube Sword",
+			"authors": [
+				{
+					"family": "Sanderson",
+					"given": "Katharine"
+				}
+			],
+			"container": "Nature",
+			"published": "2006-11-15",
+			"doi": "10.1038/news061113-11",
+			"accessed": "2026-09-30",
+			"note": "On Reibold et al., Nature 444 (2006): 286, with Verhoeven's and Zettl's doubts"
+		},
+		{
+			"kind": "web",
+			"title": "Ancient Steel's Surprise Ingredient",
+			"authors": [
+				{
+					"family": "Halford",
+					"given": "Bethany"
+				}
+			],
+			"container": "Chemical & Engineering News",
+			"published": "2006-11-16",
+			"url": "https://cen.acs.org/articles/84/web/2006/11/Ancient-Steels-Surprise-Ingredient.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wootz steel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wootz_steel&oldid=1377211393",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Damascus steel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Damascus_steel&oldid=1375593921",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "media",
+			"title": "Detail of the wootz steel blade of a seventeenth- or eighteenth-century Indian sword, with an inscription in Persian",
+			"url": "https://commons.wikimedia.org/wiki/File:Wootz_Steel_Detail.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "wootz-detail.jpg",
+			"authors": [
+				{
+					"name": "Mr McIntyre"
+				}
+			],
+			"published": "2019-11-19"
+		}
+	]
+}

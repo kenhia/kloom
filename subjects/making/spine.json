@@ -16,7 +16,14 @@
 			"id": "forge",
 			"title": "Metal by fire",
 			"labelKind": "date",
-			"frames": ["coalbrookdale", "steam-hammer", "arc-welding"]
+			"frames": [
+				"wootz",
+				"japanese-sword",
+				"coalbrookdale",
+				"huntsman-steel",
+				"steam-hammer",
+				"arc-welding"
+			]
 		},
 		{
 			"id": "machine-tools",

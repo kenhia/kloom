@@ -1,0 +1,197 @@
+{
+	"id": "japanese-sword",
+	"topic": "The Japanese sword",
+	"position": {
+		"label": "c. AD 1000",
+		"sort": 1000
+	},
+	"scene": {
+		"headline": "We hardened only the",
+		"accent": "EDGE.",
+		"palette": "ember",
+		"illustration": "scene.svg",
+		"metadata": ["HŌKI · BIZEN · SHIMANE", "TAMAHAGANE · CLAY · WATER AT 800–850 °C"],
+		"counter": {
+			"value": "0.1 mm",
+			"label": "of clay on the edge, which cools it faster than bare steel"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/bessemer-steel",
+			"why": "A Japanese blade sets two of the grades the Bessemer frame tabulates side by side: an edge of about 0.7 per cent carbon, steel that can be hardened, over a core of 0.07 per cent, as soft as wrought iron."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Japanese Sword: The Material, Manufacturing and Computer Simulation of Quenching Process",
+			"authors": [
+				{
+					"family": "Inoue",
+					"given": "Tatsuo"
+				}
+			],
+			"container": "Materials Science Research International",
+			"volume": "3",
+			"issue": "4",
+			"pages": "193–203",
+			"published": "1997",
+			"doi": "10.2472/jsms.46.12Appendix_193",
+			"url": "https://www.jstage.jst.go.jp/article/jsms1963/46/12Appendix/46_12Appendix_193/_article",
+			"accessed": "2026-09-30",
+			"note": "The tatara, the clay-coated silver rod, the three coatings and the sequence of bends"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Effect of Inhomogeneous Microstructure on Strength and Fracture Resistance in Sharp Edge of Japanese Swords",
+			"authors": [
+				{
+					"family": "Kwak",
+					"given": "Kwangsik"
+				},
+				{
+					"family": "Yamamuro",
+					"given": "Takateru"
+				},
+				{
+					"family": "Mine",
+					"given": "Yoji"
+				},
+				{
+					"family": "Morito",
+					"given": "Shigekazu"
+				},
+				{
+					"family": "Takashima",
+					"given": "Kazuki"
+				}
+			],
+			"container": "ISIJ International",
+			"volume": "64",
+			"issue": "14",
+			"pages": "2061–2070",
+			"published": "2024-12-15",
+			"doi": "10.2355/isijinternational.ISIJINT-2024-224",
+			"accessed": "2026-09-30",
+			"note": "Carbon and hardness across a Muromachi sword and one of 1945"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Japanese sword",
+			"url": "https://en.wikipedia.org/w/index.php?title=Japanese_sword&oldid=1372097345",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dōjigiri",
+			"url": "https://en.wikipedia.org/w/index.php?title=D%C5%8Djigiri&oldid=1339763503",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tamahagane",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tamahagane&oldid=1367960197",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tatara (furnace)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tatara_(furnace)&oldid=1177654235",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2023-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hamon (swordsmithing)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hamon_(swordsmithing)&oldid=1367030896",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Martensite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Martensite&oldid=1355393120",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-21"
+		},
+		{
+			"kind": "media",
+			"title": "The tachi Dōjigiri, attributed to Yasutsuna of Hōki, Heian period, National Treasure",
+			"url": "https://commons.wikimedia.org/wiki/File:D%C5%8Djigiri_Yasutsuna_haki-omote.jpg",
+			"accessed": "2026-09-30",
+			"container": "Tokyo National Museum (ColBase), via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "dojigiri.jpg",
+			"authors": [
+				{
+					"name": "National Institutes for Cultural Heritage, Japan"
+				}
+			],
+			"published": "2020-12-04"
+		},
+		{
+			"kind": "media",
+			"title": "A Japanese blade's hardened edge and hamon, with the layers of folded steel above",
+			"url": "https://commons.wikimedia.org/wiki/File:Katana_-_showing_alternating_layers.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "layers.jpg",
+			"authors": [
+				{
+					"name": "Zaereth"
+				}
+			],
+			"published": "2007-12-13"
+		}
+	]
+}
