@@ -1,4 +1,4 @@
-"""ai plates, segment "The symbolic age" (sprint 006). See ai.py."""
+"""ai plates, segment "The symbolic age" (sprint 006). See plates_for.py."""
 import heapq
 import math
 import random

@@ -1,4 +1,4 @@
-"""physics plates, segment "Particles" and the first half of the Standard Model trail (sprint 021). See physics.py."""
+"""physics plates, segment "Particles" and the first half of the Standard Model trail (sprint 021). See plates_for.py."""
 import math
 
 from plates import D

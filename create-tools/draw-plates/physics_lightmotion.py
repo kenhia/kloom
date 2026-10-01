@@ -1,4 +1,4 @@
-"""physics plates, segment "Light and motion" and the opening of "The new science" (sprint 021). See physics.py."""
+"""physics plates, segment "Light and motion" and the opening of "The new science" (sprint 021). See plates_for.py."""
 import math
 
 from plates import D

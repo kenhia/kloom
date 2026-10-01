@@ -1,4 +1,4 @@
-"""physics plates, segment "The cosmos", first part (sprint 021). See physics.py."""
+"""physics plates, segment "The cosmos", first part (sprint 021). See plates_for.py."""
 import math
 
 from plates import D

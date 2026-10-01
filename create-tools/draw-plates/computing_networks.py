@@ -1,4 +1,4 @@
-"""computing plates, segment "Networks" and the "Security" frame of "Open questions" (sprint 015). See computing.py."""
+"""computing plates, segment "Networks" and the "Security" frame of "Open questions" (sprint 015). See plates_for.py."""
 import math
 
 from plates import D

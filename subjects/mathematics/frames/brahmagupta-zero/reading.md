@@ -3,7 +3,7 @@ In 628, by his own account at the age of thirty, the astronomer
 Bhinmal in Rajasthan. The **[_Brāhmasphuṭasiddhānta_](kloom:e/brahmasphutasiddhanta)**, the "correctly
 established doctrine of Brahma", is mostly astronomy: the motions of the
 planets, eclipses, the calendar. But its eighteenth chapter, on algebra,
-does something no earlier book we have does. It treats **[zero](kloom:e/0)** as a
+does something no earlier book we have does. It treats **[zero](kloom:e/zero)** as a
 number in its own right, which can be added, subtracted, multiplied and
 divided, and it gives the rules.
 

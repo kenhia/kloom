@@ -1,4 +1,4 @@
-"""ai plates, segment "The transformer era" (sprint 006). See ai.py."""
+"""ai plates, segment "The transformer era" (sprint 006). See plates_for.py."""
 import math, random
 
 from plates import D

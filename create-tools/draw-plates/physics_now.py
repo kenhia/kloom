@@ -1,4 +1,4 @@
-"""physics plates, part "now": dark energy, cosmology today, open questions (sprint 021). See physics.py.
+"""physics plates, part "now": dark energy, cosmology today, open questions (sprint 021). See plates_for.py.
 
 Run on its own (`python3 create-tools/draw-plates/physics_now.py`) it also
 writes the cosmology-now frame's Hubble-constant chart, a dot-and-whisker

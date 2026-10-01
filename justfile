@@ -7,11 +7,23 @@ default:
     @just --list
 
 # Every subject under subjects/ is loaded and validated by a test, too.
-# Run type checks, formatting/lint checks and unit tests
+# Run type checks, formatting/lint checks, unit tests and the authoring tools' tests
 check:
     npm run check
     npm run lint
     npm test
+    just tools-test
+    @# Every mark is placed from a spec: one typed by hand, or a spec's mark not placed, fails.
+    python3 create-tools/names/names.py mark create-tools/names/examples/*.json --check --placed
+
+# The authoring tools' own tests: each tool's test_*.py (standard library unittest)
+tools-test:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    for d in create-tools/*/; do
+        ls "$d"test_*.py >/dev/null 2>&1 || continue
+        python3 -m unittest discover -s "$d" -p 'test_*.py' -q
+    done
 
 # Serve locally on loopback
 dev:

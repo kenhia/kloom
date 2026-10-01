@@ -1,4 +1,4 @@
-"""ai plates, segment "Dreams of thinking machines" (sprint 006). See ai.py."""
+"""ai plates, segment "Dreams of thinking machines" (sprint 006). See plates_for.py."""
 import math
 
 from plates import D

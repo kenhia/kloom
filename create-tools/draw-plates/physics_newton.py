@@ -1,4 +1,4 @@
-"""physics plates, part "newton" (sprint 021): the prism, the Principia and Coulomb. See physics.py."""
+"""physics plates, part "newton" (sprint 021): the prism, the Principia and Coulomb. See plates_for.py."""
 import math
 
 from plates import D

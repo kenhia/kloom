@@ -1,4 +1,4 @@
-"""physics plates, part "nineteen-oh-five" (sprint 021): black-body, atoms-real, special-relativity. See physics.py."""
+"""physics plates, part "nineteen-oh-five" (sprint 021): black-body, atoms-real, special-relativity. See plates_for.py."""
 import math
 import random
 

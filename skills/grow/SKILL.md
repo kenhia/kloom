@@ -263,18 +263,20 @@ both as you write.
   }
   ```
 
-  A thing with no English Wikipedia article (a small site, a living
-  researcher) gets no name file and no mark: leave it in plain prose, and
-  unbolded if it is not a key name (sprint 026 had three).
   The `id` is the English Wikipedia article's title, lower case, with
   dashes (`Johann Tetzel` → `johann-tetzel`). `kind` is `person`, `place`,
   `org`, `artifact`, `idea` or `event`. The `description` is one plain
   sentence on what it is and why it matters, for any subject's reader: it
-  is shared. `home` (optional) is the `<subject>/<frame>` chiefly about
+  is shared, so say what the thing is, not what it did in your frame
+  (every new subject has had to widen a dozen or more names written from
+  one subject's angle). `home` (optional) is the `<subject>/<frame>` chiefly about
   it. **The Wikidata ID must be real.** With the web, read it from the
   Wikidata item (or the article's "Wikidata item" link) and check the item
   is the thing you mean. Without the web, or if you cannot confirm it,
   write `"wikidata": null`. Never guess one: a wrong ID merges two things.
+  A thing with no English Wikipedia article (a small site, a living
+  researcher) gets no name file and no mark: leave it in plain prose, and
+  unbolded if it is not a key name (sprint 026 had three).
 
 - **Never change an existing name file**, even to fix it. Say what is wrong
   in your reply instead.
@@ -308,9 +310,12 @@ knowledge is not a source.
 - **A person's own stories** (memoirs, interviews, anecdotes told for
   decades) are that person's telling. Say so where a frame rests on them
   ("in his telling"), and put documented accounts beside them.
-- **A source you saw only quoted in another** is cited as what you read:
-  the work that quotes it, with a `note` ("quoting Gleick, _Genius_,
-  p. 247"). Never cite the original as if you had read it.
+- **A source you saw only quoted or cited in another** is never cited as
+  if you had read it. Cite the original with `citedIn` naming the work you
+  saw it in (`"citedIn": "Gleick, Genius, p. 247"`, rendered "Cited in
+  …"), or cite the work that quotes it. **A paper you could read only in
+  its abstract** carries `"abstractOnly": true` ("Read in its abstract").
+  Both show in the bibliography and in the Sources list.
 - **Quotations** from work in copyright are a sentence at most. A US
   government record (a report, a hearing transcript) is public domain,
   but quote it no more than the reading needs.
@@ -319,9 +324,11 @@ knowledge is not a source.
   rendered in Chicago style. Each needs `kind`, `title`, `accessed` (today,
   `YYYY-MM-DD`) and an http(s) `url` or a `doi`. Add `authors`
   (`[{"family", "given"}]` or `[{"name"}]`), `container`, `publisher`,
-  `place` and `published` (`YYYY`, `YYYY-MM` or `YYYY-MM-DD`) when you know
-  them. The kinds are `web`, `wikipedia`, `book`, `article`, `chapter`,
-  `report` and `media`.
+  `place` and `published` when you know them. `published` is `YYYY`,
+  `YYYY-MM` or `YYYY-MM-DD`; a shorter year for a work before AD 1000
+  (`"888"`, no leading zero); or a year BC (`"1550 BC"`). The kinds are
+  `web`, `wikipedia`, `book`, `article`, `chapter`, `report`, `media`,
+  `letter` and `encyclopedia`.
 - **Key sources.** Mark the works the frame chiefly rests on with
   `"key": true`: **at least one**, or validation fails. The reading pane's
   Sources list is built from them ("Authors, Title", where and when); the
@@ -347,8 +354,17 @@ knowledge is not a source.
   lab's system card) are `report`: the issuing body as `publisher`, and
   `number` for a report number.
 - **An approximate date** is `published` with `"circa": true`
-  (`"published": "1951", "circa": true` renders "ca. 1951"). Never put
-  "c. 1951" into `container` or `title`.
+  (`"published": "1951", "circa": true` renders "ca. 1951"; `"1550 BC"`
+  renders "ca. 1550 BC"). Never put "c. 1951" into `container` or `title`.
+- **A letter** is `letter`, with `recipients` (required, like `authors`),
+  the date it was `written`, and where it was printed as `container`,
+  `volume`, `pages` and `published`. **An encyclopedia entry** is
+  `encyclopedia`, with the encyclopedia as `container` (required), and
+  `editors` and `edition` when it has them (the _Stanford Encyclopedia of
+  Philosophy_'s "Summer 2020 ed."). A chapter of a numbered report is a
+  `chapter` with the report as `container` and its `number`.
+- **A journal volume dated before it came out** ("for 2016, published
+  2017") carries `"volumeYear": "2016"` beside `"published": "2017"`.
 - **A page you could only read through an archive** (the site blocks
   fetches) is still cited by its own URL. The page is the source; the
   archive was only how you read it.
@@ -408,27 +424,34 @@ the web rather than by a grow job. What changes:
   segment by segment, or by several authors, validates at every step),
   `read-source` (a PDF's text, or its scanned pages as PNG) and `names`
   (Wikidata IDs from Wikipedia titles, name files into the registry, and
-  first-mention marks from a spec). A grow job can't run them: it has no
-  shell.
+  first-mention marks from a spec). Plates are drawn with
+  `draw-plates/plates_for.py <subject> <frame …>` and looked at with
+  `contact_sheet.py`. Each tool's README is its manual. A grow job can't
+  run them: it has no shell.
 - **Marks by spec, never by hand.** An author with tools writes names as
   plain prose (bold on first use, as ever) and places the marks with
   `names.py mark` from a spec: §Names and connections shows a mark's form,
-  not a way to write one. Seven of sprint 021's nineteen authors wrote
-  marks by hand from habit; `mark --check` now names such a mark. Make the
-  spec's words the name's first mention in prose as the reading writes it
-  ("Maxwell" if that comes before "James Clerk Maxwell"). A frame about a
-  person, a thing or a work marks that name, with `home` on the frame, so
-  the reading must say the name in prose: sprints 024 and 025 each had a
-  frame whose subject was never named (the Ishango bone, Tyrian purple). The first
-  mention is the first in prose however it is written: a passing mention
-  before the bold one, a possessive ("Plato's"), words inside a quotation
-  or an italic title. If that is not the one to mark, reword the reading
-  (four sprint 024 authors did). Wrapped words are written in the spec
-  with a single space. `mark --check` tries every placement: "not marked
-  yet (N marks would place)" means every mark lands, and a word it cannot
-  place is named. To test the marks themselves, place them in your
-  checking copy with `--root DIR --names DIR/.names`; without `--root`,
-  `mark` writes into the live subject.
+  not a way to write one. `just check` runs every spec with `mark --check
+--placed`, so a mark typed by hand fails the gate (sprint 027; before
+  that, eight of sprint 026's authors and seven of 021's typed marks from
+  habit). Make the spec's words the name's first mention in prose as the
+  reading writes it ("Maxwell" if that comes before "James Clerk
+  Maxwell"). The first mention is the first in prose however it is
+  written: a passing mention before the bold one, a possessive
+  ("Plato's"), words inside a quotation or an italic title. If that is not
+  the one to mark, reword the reading (four sprint 024 authors did).
+  Wrapped words are written in the spec with a single space. `mark
+--check` prints the sentence each mark would land in and warns when it
+  lands before the bold mention; it exits 0 when every mark would place,
+  and 1 only for one it cannot place, an unknown name or a hand-typed
+  mark. To test the marks themselves, place them in your checking copy
+  with `--root DIR --names DIR/.names`; without `--root`, `mark` writes
+  into the live subject.
+- **A frame about a person, a thing or a work marks that name** (with
+  `home` on the frame), **so its reading must say that name in prose**:
+  sprints 024 and 025 each had a frame whose subject was never named where
+  a mark could go (the Ishango bone, whose reading named only the place
+  Ishango, and Tyrian purple).
 - **Names by the tool.** `names.py lookup` gives the Wikidata ID from the
   article title and says when a title redirects or is ambiguous; `names.py
 add` writes name files and refuses one whose Wikidata ID the registry
@@ -436,59 +459,22 @@ add` writes name files and refuses one whose Wikidata ID the registry
   kept in `create-tools/names/examples/` as the record. A real article
   about a namesake passes every tool without a warning: "Hideo Kodama" is
   a politician, "Joseph R. Brown" a Minnesota senator, "Robin Forrest" a
-  priest (sprint 026 met four). Read the description `lookup` prints and
-  the article's first line before you cite it or draft a name.
+  priest (sprint 026 met four). Read the description and the first line
+  `lookup` prints before you cite it or draft a name, and pass
+  `--expect <a word the right one must say>` to have it warn.
 - **Read the primary source.** Many papers are PDFs, and older ones are
   scans with no text layer. `uv run create-tools/read-source/read_source.py
 paper.pdf` prints the text and names the scanned pages; `--png DIR
 --pages …` renders those pages to read as images. Don't improvise a PDF
   reader. Read the Wikipedia revision you cite, too: `wiki-cite --text
-DIR` writes its text. Old books and documents are often on Wikisource
-  and Project Gutenberg, and many sites that refuse a script (RAND, AMS,
-  Bell Labs' history pages) can be read through the Wayback Machine's
-  `id_` form (`https://web.archive.org/web/2024id_/<url>`); cite the page by
-  its own URL. Sprint 021 added APS, PNAS, MDPI, CERN's press pages and
-  nobelprize.org to that list (the last serves its Wayback copy gzipped:
-  `curl --compressed`). The Feynman Lectures site refuses scripts and has no readable archive,
-  and ScienceDirect (Elsevier, including _Historia Mathematica_'s open
-  archive) refuses both a script and the Wayback route: find the paper
-  elsewhere (an author's copy, a course page, archive.org), or cite only
-  what you read about it, as what you read. For an old edition,
-  archive.org's full text (the item's `_djvu.txt`) is often all you need
-  (sprint 024 read Peet's 1923 Rhind papyrus that way). For a paper behind
-  a closed publisher, OpenAlex (`https://api.openalex.org/works/doi:<doi>`)
-  says whether an open copy exists and where, and often finds a later open
-  review by the same authors; a PubMed Central article's full text comes
-  from Europe PMC (`…/europepmc/webservices/rest/<PMCID>/fullTextXML`)
-  when the PMC site refuses a script, though it answers 500 for a scanned
-  article and often for others; NCBI's BioC service
-  (`https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/<PMCID>/unicode`)
-  and the Wayback copy of the PMC page are the fallbacks (sprint 025).
-  Europe PMC serves only PMC's open-access subset: an article free to read
-  but not openly licensed (PNAS's, for instance; Europe PMC's search shows
-  `isOpenAccess` `N`) comes back empty, so look for the paper elsewhere
-  (sprint 026). An `oa_url` on HAL (`hal.science/…/file/….pdf`) answers a
-  script with a JavaScript challenge; `https://hal.science/<hal-id>/document`
-  serves the PDF itself.
-  The Wayback Machine serves many pages gzipped, so read every Wayback
-  copy with `curl --compressed`, and `-L` to follow a `/web/<timestamp>/`
-  link. When a scan's OCR is useless (old tables, the long s read as f),
-  archive.org gives each page as an image:
-  `https://archive.org/download/<item>/page/n<N>_w1600.jpg`, with `<N>`
-  from the item's full-text search (sprint 025 caught a misprinted 1744
-  edition of Boyle's table that way). Oracc's cuneiform
-  editions serve an incomplete certificate chain, so fetch them with
-  `curl -k`; they are still the edition to cite (so does _Gladius_, whose
-  plain `curl` fails silently with an empty file). Sprint 026 added: for a
-  closed paper, Crossref's `abstract` field and OpenAlex's
-  `abstract_inverted_index` give at least the abstract (cite it as what you
-  read); HAL's API field `fileMain_s` says whether a record has a file at
-  all before you try `/document`; an Internet Archive item whose
-  `/download/` answers 500 can be read from the storage path its
-  `/metadata/<id>` gives; a Figshare-backed repository's file comes from
-  `ndownloader.figshare.com/files/<id>`. Where OCR drops or changes words,
-  check every quotation against the page image (one sprint 026 draft
-  misquoted Moxon from the text layer).
+DIR` writes its text. When a site refuses a script, or a paper is closed,
+  **`skills/grow/reaching-sources.md`** gathers the routes the earlier
+  subjects found: OpenAlex for an open copy, Crossref for an abstract,
+  Europe PMC and NCBI BioC for biomedical papers, the Wayback Machine's
+  `id_` form (read with `curl --compressed -L`), the Internet Archive's
+  full text, page images and storage paths, HAL, Figshare, `curl -k` for a
+  broken certificate chain, and the sites known to refuse a script. Cite
+  the work by its own URL, never the route you read it through.
 - **Charts are inlined** into the reading, through the same sanitiser as a
   scene, so they follow the reader's palette. Make them with `bar-chart`,
   or draw one by hand in `currentColor` with the `muted` and `accent`
@@ -504,30 +490,43 @@ DIR` writes its text. Old books and documents are often on Wikisource
   Solvay photograph, in copyright in Belgium and France). `PD-Art` covers a
   faithful photograph of a flat work (a papyrus, a painting), not of a
   three-dimensional one: a photograph of a clay tablet has its own
-  photographer's rights (sprint 024 left Plimpton 322's out). Read the file
-  page.
+  photographer's rights (sprint 024 left Plimpton 322's out).
+  `commons_media fetch` names the licence tags the file page carries
+  (`PD-Art`, `PD-old-100`, `PD-USGov-DOE` …); read them, and the page.
 - **The subject's voice holds for arithmetic too**: "by our arithmetic",
   not "by my".
 - **Readings run 550–900 words of prose, and every one scrolls.** Tables,
   headings and alt text are not counted
-  (`create-tools/subject-plan/prose_words.py` counts them this way). They use images, charts and tables where
-  those carry information. Look at every image before you use it: Commons
-  licences, dates, authors and even file names are what uploaders typed,
-  and some are wrong: an old work's `published` may come out as the upload
-  date, and "public domain" may be claimed for a company's photograph. Grep the subject's `frame.json` files for an image's
-  file page before you use it, so two frames do not show the same picture.
+  (`create-tools/subject-plan/prose_words.py` counts them this way, for a
+  subject, a frame or a draft). They use images, charts and tables where
+  those carry information.
+- **Look at every image before you use it.** Commons licences, dates,
+  authors and even file names are what uploaders typed, and some are
+  wrong: an old work's `published` may come out as the upload date, and
+  "public domain" may be claimed for a company's photograph.
+  `commons_media` writes no `container` (add where the work is from) and
+  says when it left out an author it could not trust. Grep the subject's
+  `frame.json` files for an image's file page before you use it, so two
+  frames do not show the same picture.
 - **An image that is not freely licensed** (an archive photograph) is not
   used: describe it in the reading and cite the archive's page as `web`.
-- **A page of a scanned book** that is public domain may come from outside
-  Commons (an Internet Archive item) or from a PDF or DjVu on Commons,
-  which `commons_media` cannot fetch: crop the page yourself, keep the file
-  under 350 KB (a JPEG, not a PNG; composite a PNG with transparency onto
-  white first, or its background turns black), and write its `media` citation by hand,
-  citing the item's page and the work's own date. Check the licence on the
-  copy you use: the same volume can be public domain from one library and
-  CC BY-NC from another (sprint 024).
+- **A page of a scanned book** that is public domain may be a PDF or DjVu
+  on Commons (`commons_media fetch … --page N`) or come from outside
+  Commons (an Internet Archive item). For the second, crop the page
+  yourself, keep the file under 350 KB as a JPEG (`uv run
+commons_media.py jpeg page.png page.jpg` composites a PNG's
+  transparency onto white, where a plain conversion turns it black), and
+  write its `media` citation by hand, citing the item's page and the
+  work's own date. Check the licence on the copy you use: the same volume
+  can be public domain from one library and CC BY-NC from another (sprint
+  024).
 - **A book with editors** (an edited volume, a posthumous collection)
-  carries `editors`, and the entry reads "Edited by …".
+  carries `editors`, and the entry reads "Edited by …". **A translation**
+  carries `translators` ("Translated by …"), never `editors`; an
+  engraved plate's engraver is `engravers`. An `edition` is written as it
+  reads ("2nd ed.", "Loeb Classical Library ed."). A source in another
+  language carries `language`, a code (`"de"`, `"grc"`), and a Wikipedia
+  other than English must: `wiki-cite --lang de` writes it.
 - **Other kinds of source.** An RFC is a `report` with `number` "RFC 791",
   the RFC Editor (or, for the early ones, the Network Working Group) as
   `publisher`, and `doi` `10.17487/RFC0791`. A thesis is a `report` with

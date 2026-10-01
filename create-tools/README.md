@@ -26,12 +26,17 @@ here.
   outside the app and never into `package.json`. For Python, declare it as
   inline script metadata (PEP 723) and run the tool with `uv run`, which
   installs into uv's own cache. `read-source` does this (pypdfium2,
-  Pillow). An npm package goes into the git-ignored `.scratch/tools` prefix,
+  Pillow), and so does `commons-media` for its JPEG conversion only, so
+  the rest of it still runs with `python3` (sprint 027). An npm package goes into the git-ignored `.scratch/tools` prefix,
   as `trace-art` does with `potrace`. Name the dependency in the tool's
   README.
 - **Output is content; the tool is not the source of truth.** What a tool
   writes is committed and may be edited by hand afterwards. Re-running a tool
   over a hand-edited file replaces it, so check `git diff` before you commit.
+- **Tested.** A tool's tests are `test_*.py` beside it, using the
+  standard library's `unittest` and no network: `just tools-test` runs
+  them all, and `just check` runs that (sprint 027, when the authoring
+  tools first got a gate).
 - **Reproducible.** Running a tool on the committed inputs reproduces the
   committed output byte for byte (sprint 002 checked all four this way).
   Keep it so when you change a tool, or say in the commit why the output

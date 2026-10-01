@@ -102,7 +102,8 @@
 			"published": "2014",
 			"doi": "10.1111/cgf.12437",
 			"accessed": "2026-09-30",
-			"note": "Read in its abstract, through OpenAlex"
+			"note": "Through OpenAlex",
+			"abstractOnly": true
 		},
 		{
 			"kind": "web",

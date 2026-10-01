@@ -4,14 +4,21 @@
 
 A plan is the whole intended shape of a subject before its frames are
 written: `{"spine": {"segments": [...]}, "trails": [{"id", "title", "anchor",
-"spine": {...}}]}`, in exactly the shape of `spine.json` and `trails/*.json`.
+"spine": {...}}]}`, in exactly the shape of `spine.json` and `trails/*.json`,
+and optionally `"frames": {"<id>": {"topic", "sort", "palette"}}`, what the
+brief settles for each frame (sprint 027), so they are checked before any
+author starts rather than only in the copies of the brief.
 This writes `spine.json` and one `trails/<id>.json` per trail, holding only
 the frames whose directories exist under `SUBJECT_DIR/frames/`: an empty
 segment is left out, and so is a trail whose anchor or every frame is
 missing. So a subject authored segment by segment (or by several authors at
 once) validates at every step, and the plan says what is still to come.
 
-`--check` writes nothing and lists the planned frames not yet written.
+`--check` writes nothing and lists the planned frames not yet written. It
+checks the plan's frames too: sorts rise within each `date` segment, topics
+fit the 40-character cap and are unique, palettes are in `subject.json`;
+it warns where a palette repeats down a segment and where a written frame
+differs from its plan. It exits 1 on a problem, never on a warning.
 `--complete DIR` writes the spine into a copy of the subject at
 DIR/<subject> that holds only the frames with a `frame.json` that land on a
 spine (a trail frame whose anchor is not written yet is left out, and named),
@@ -24,6 +31,70 @@ with any `--drafts` directories of names not yet added merged in (sprint
 Standard library only.
 """
 import argparse, json, os, shutil, subprocess, sys
+
+# engine/validate.ts's TOPIC_MAX: a map label, a list line.
+TOPIC_MAX = 40
+
+
+def spines(plan):
+    """(where, segment) for every segment of the main spine and the trails, in order."""
+    for seg in plan['spine']['segments']:
+        yield 'spine', seg
+    for t in plan.get('trails', []):
+        for seg in t['spine']['segments']:
+            yield f'trail {t["id"]}', seg
+
+
+def plan_problems(plan, palettes, written=None):
+    """(problems, warnings) in a plan's per-frame fields; `written` is {frame: frame.json} for drift."""
+    problems, warnings = [], []
+    entries = plan.get('frames', {})
+    planned = {f for _, seg in spines(plan) for f in seg['frames']}
+    for f in sorted(set(entries) - planned):
+        problems.append(f'frames.{f}: not on the spine or a trail')
+    topics = {}
+    for where, seg in spines(plan):
+        at = f'{where} segment {seg["id"]}'
+        previous = last_palette = None
+        for f in seg['frames']:
+            e = entries.get(f, {})
+            sort, topic, palette = e.get('sort'), e.get('topic'), e.get('palette')
+            if seg['labelKind'] == 'date' and sort is not None:
+                if not isinstance(sort, (int, float)) or isinstance(sort, bool):
+                    problems.append(f'{at}: {f} sort must be a number (a year; negative for BC)')
+                elif previous is not None and sort < previous[1]:
+                    problems.append(f'{at}: {f} ({sort}) comes after {previous[0]} ({previous[1]})')
+                else:
+                    previous = (f, sort)
+            elif seg['labelKind'] != 'date' and sort is not None:
+                problems.append(f'{at}: {f} has a sort, but only a date segment sorts')
+            if topic is not None:
+                if not isinstance(topic, str) or not topic.strip():
+                    problems.append(f'frames.{f}: topic must be text')
+                else:
+                    if len(topic.strip()) > TOPIC_MAX:
+                        problems.append(f'frames.{f}: topic is {len(topic.strip())} characters; at most {TOPIC_MAX}')
+                    if topic.rstrip().endswith(('.', '!')):
+                        problems.append(f'frames.{f}: topic is a title: no closing "." or "!"')
+                    other = topics.setdefault(topic.strip().lower(), f)
+                    if other != f:
+                        problems.append(f'frames.{f}: topic "{topic.strip()}" is already {other}\'s')
+            if palette is not None:
+                if palette not in palettes:
+                    problems.append(f'frames.{f}: unknown palette "{palette}" (subject.json has {", ".join(sorted(palettes))})')
+                elif palette == last_palette:
+                    warnings.append(f'{at}: {f} repeats the palette "{palette}" of the frame before it')
+            last_palette = palette
+            # The plan is what the brief quotes; a frame that differs from it is worth a look.
+            have = (written or {}).get(f)
+            if have:
+                for field, planned_value, value in (
+                        ('topic', topic, have.get('topic')),
+                        ('sort', sort, (have.get('position') or {}).get('sort')),
+                        ('palette', palette, (have.get('scene') or {}).get('palette'))):
+                    if planned_value is not None and value != planned_value:
+                        warnings.append(f'frames.{f}: the plan\'s {field} is {planned_value!r}, the frame\'s {value!r}')
+    return problems, warnings
 
 
 def keep(spine, have):
@@ -104,7 +175,21 @@ def main():
         extra = sorted(have - set(planned))
         for f in extra:
             print(f'  not in the plan: {f}')
-        sys.exit(0)
+        with open(os.path.join(a.subject, 'subject.json')) as fh:
+            palettes = set(json.load(fh).get('palettes', {}))
+        written = {}
+        for f in have:
+            with open(os.path.join(frames_dir, f, 'frame.json')) as fh:
+                written[f] = json.load(fh)
+        problems, warnings = plan_problems(plan, palettes, written)
+        bare = [f for f in planned if f not in plan.get('frames', {})]
+        if bare:
+            print(f'  {len(bare)} planned frames have no topic, sort or palette in the plan')
+        for w in warnings:
+            print(f'  warning: {w}')
+        for p in problems:
+            print(f'  problem: {p}', file=sys.stderr)
+        sys.exit(1 if problems else 0)
 
     spine = keep(plan['spine'], have)
     write(os.path.join(a.subject, 'spine.json'), spine)

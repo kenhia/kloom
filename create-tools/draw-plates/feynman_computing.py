@@ -1,4 +1,4 @@
-"""feynman plates, trail "Computing" (sprint 014). See feynman.py."""
+"""feynman plates, trail "Computing" (sprint 014). See plates_for.py."""
 import math
 
 from plates import D

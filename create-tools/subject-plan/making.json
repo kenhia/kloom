@@ -181,5 +181,330 @@
 				]
 			}
 		}
-	]
+	],
+	"frames": {
+		"knapping": {
+			"topic": "Knapping and the first stone tools",
+			"sort": -3300000,
+			"palette": "flint"
+		},
+		"handaxe": {
+			"topic": "The Acheulean hand axe",
+			"sort": -1760000,
+			"palette": "chalk"
+		},
+		"birch-tar": {
+			"topic": "Neanderthal birch tar",
+			"sort": -200000,
+			"palette": "flint"
+		},
+		"potters-wheel": {
+			"topic": "The potter's wheel",
+			"sort": -3900,
+			"palette": "chalk"
+		},
+		"glassblowing": {
+			"topic": "Glassblowing",
+			"sort": -50,
+			"palette": "flint"
+		},
+		"float-glass": {
+			"topic": "Pilkington's float glass",
+			"sort": 1959,
+			"palette": "chalk"
+		},
+		"neolithic-wells": {
+			"topic": "Neolithic timber-lined wells",
+			"sort": -5100,
+			"palette": "oak"
+		},
+		"egyptian-carpentry": {
+			"topic": "Egyptian carpentry",
+			"sort": -2600,
+			"palette": "shavings"
+		},
+		"roman-plane": {
+			"topic": "The Roman woodworking plane",
+			"sort": 79,
+			"palette": "oak"
+		},
+		"horyuji": {
+			"topic": "Hōryū-ji and Japanese temple carpentry",
+			"sort": 700,
+			"palette": "shavings"
+		},
+		"westminster-hall": {
+			"topic": "The hammerbeam roof of Westminster Hall",
+			"sort": 1393,
+			"palette": "oak"
+		},
+		"wind-sawmill": {
+			"topic": "Cornelis Corneliszoon's wind sawmill",
+			"sort": 1594,
+			"palette": "shavings"
+		},
+		"thonet-chair": {
+			"topic": "Thonet's bentwood chair No. 14",
+			"sort": 1859,
+			"palette": "oak"
+		},
+		"moulded-plywood": {
+			"topic": "Moulded plywood",
+			"sort": 1942,
+			"palette": "shavings"
+		},
+		"lost-wax": {
+			"topic": "Lost-wax casting",
+			"sort": -4000,
+			"palette": "ember"
+		},
+		"bloomery": {
+			"topic": "The bloomery and wrought iron",
+			"sort": -1200,
+			"palette": "scale"
+		},
+		"chinese-cast-iron": {
+			"topic": "Cast iron in ancient China",
+			"sort": -500,
+			"palette": "ember"
+		},
+		"wootz": {
+			"topic": "Wootz steel and Damascus blades",
+			"sort": -300,
+			"palette": "scale"
+		},
+		"japanese-sword": {
+			"topic": "The Japanese sword",
+			"sort": 1000,
+			"palette": "ember"
+		},
+		"coalbrookdale": {
+			"topic": "Coalbrookdale and the Iron Bridge",
+			"sort": 1709,
+			"palette": "scale"
+		},
+		"huntsman-steel": {
+			"topic": "Huntsman's crucible steel",
+			"sort": 1742,
+			"palette": "ember"
+		},
+		"steam-hammer": {
+			"topic": "Nasmyth's steam hammer",
+			"sort": 1839,
+			"palette": "scale"
+		},
+		"arc-welding": {
+			"topic": "Arc welding",
+			"sort": 1881,
+			"palette": "ember"
+		},
+		"wilkinson-boring": {
+			"topic": "Wilkinson's cylinder-boring machine",
+			"sort": 1774,
+			"palette": "drafting"
+		},
+		"maudslay": {
+			"topic": "Maudslay's screw-cutting lathe",
+			"sort": 1800,
+			"palette": "blueprint"
+		},
+		"whitworth": {
+			"topic": "Whitworth's flat surfaces and threads",
+			"sort": 1841,
+			"palette": "drafting"
+		},
+		"milling-machine": {
+			"topic": "The universal milling machine",
+			"sort": 1862,
+			"palette": "blueprint"
+		},
+		"gauge-blocks": {
+			"topic": "Johansson's gauge blocks",
+			"sort": 1896,
+			"palette": "drafting"
+		},
+		"high-speed-steel": {
+			"topic": "High-speed steel and cutting speed",
+			"sort": 1900,
+			"palette": "blueprint"
+		},
+		"block-mills": {
+			"topic": "The Portsmouth block mills",
+			"sort": 1803,
+			"palette": "drafting"
+		},
+		"interchangeable-parts": {
+			"topic": "Interchangeable parts",
+			"sort": 1824,
+			"palette": "blueprint"
+		},
+		"assembly-line": {
+			"topic": "Ford's moving assembly line",
+			"sort": 1913,
+			"palette": "drafting"
+		},
+		"injection-moulding": {
+			"topic": "Injection moulding",
+			"sort": 1956,
+			"palette": "filament"
+		},
+		"lego-brick": {
+			"topic": "The Lego brick",
+			"sort": 1958,
+			"palette": "resin"
+		},
+		"unimate": {
+			"topic": "Unimate, the first industrial robot",
+			"sort": 1961,
+			"palette": "filament"
+		},
+		"numerical-control": {
+			"topic": "Numerical control",
+			"sort": 1952,
+			"palette": "drafting"
+		},
+		"bezier-curves": {
+			"topic": "Bézier curves",
+			"sort": 1958,
+			"palette": "blueprint"
+		},
+		"g-code": {
+			"topic": "G-code",
+			"sort": 1963,
+			"palette": "drafting"
+		},
+		"stereolithography": {
+			"topic": "Stereolithography",
+			"sort": 1984,
+			"palette": "filament"
+		},
+		"laser-sintering": {
+			"topic": "Selective laser sintering",
+			"sort": 1987,
+			"palette": "resin"
+		},
+		"fdm": {
+			"topic": "Fused deposition modelling",
+			"sort": 1989,
+			"palette": "filament"
+		},
+		"reprap": {
+			"topic": "RepRap, the self-replicating printer",
+			"sort": 2005,
+			"palette": "resin"
+		},
+		"openscad": {
+			"topic": "OpenSCAD and parametric design",
+			"sort": 2010,
+			"palette": "filament"
+		},
+		"metal-printing": {
+			"topic": "Printing in metal",
+			"sort": 2015,
+			"palette": "resin"
+		},
+		"euv": {
+			"topic": "EUV lithography machines",
+			"palette": "blueprint"
+		},
+		"where-making-is": {
+			"topic": "Making today",
+			"palette": "chalk"
+		},
+		"mortise-and-tenon": {
+			"topic": "The mortise and tenon",
+			"palette": "oak"
+		},
+		"dovetail": {
+			"topic": "The dovetail joint",
+			"palette": "shavings"
+		},
+		"wood-screws": {
+			"topic": "Nails and wood screws",
+			"palette": "oak"
+		},
+		"drawing-out": {
+			"topic": "Drawing out and upsetting",
+			"palette": "scale"
+		},
+		"forge-welding": {
+			"topic": "Forge welding",
+			"palette": "ember"
+		},
+		"pattern-welding": {
+			"topic": "Pattern-welded blades",
+			"palette": "scale"
+		},
+		"heat-treatment": {
+			"topic": "Hardening and tempering steel",
+			"palette": "ember"
+		},
+		"galileo-beams": {
+			"topic": "Galileo and the strength of beams",
+			"sort": 1638,
+			"palette": "drafting"
+		},
+		"sorby-microscope": {
+			"topic": "Sorby and the microstructure of steel",
+			"sort": 1863,
+			"palette": "blueprint"
+		},
+		"iron-carbon": {
+			"topic": "The iron–carbon phase diagram",
+			"sort": 1897,
+			"palette": "drafting"
+		},
+		"duralumin": {
+			"topic": "Duralumin and age hardening",
+			"sort": 1903,
+			"palette": "blueprint"
+		},
+		"griffith-cracks": {
+			"topic": "Griffith's cracks and brittle fracture",
+			"sort": 1920,
+			"palette": "drafting"
+		},
+		"dislocations": {
+			"topic": "Dislocations",
+			"sort": 1934,
+			"palette": "blueprint"
+		},
+		"carbon-fibre": {
+			"topic": "Carbon fibre",
+			"sort": 1963,
+			"palette": "drafting"
+		},
+		"pole-lathe": {
+			"topic": "The bow lathe and the pole lathe",
+			"palette": "shavings"
+		},
+		"between-centres": {
+			"topic": "Turning between centres",
+			"palette": "blueprint"
+		},
+		"screw-cutting": {
+			"topic": "Cutting a screw thread",
+			"palette": "drafting"
+		},
+		"ornamental-turning": {
+			"topic": "Ornamental turning",
+			"palette": "blueprint"
+		},
+		"stl-meshes": {
+			"topic": "STL files and triangle meshes",
+			"palette": "filament"
+		},
+		"slicing": {
+			"topic": "Slicing a model into layers",
+			"palette": "resin"
+		},
+		"supports": {
+			"topic": "Overhangs and supports",
+			"palette": "filament"
+		},
+		"printed-fits": {
+			"topic": "Designing printed parts to fit",
+			"palette": "resin"
+		}
+	}
 }

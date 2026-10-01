@@ -216,7 +216,7 @@ def birch_tar():
     d.text(306, gy - 26, '250–450 °C', size=8, anchor='start')
     d.text(306, gy + pd - 22, '< 150 °C', size=8, anchor='start')
     d.text(cx, 16, 'FIRE ON EARTH', size=8)
-    d.text(cx - 100, gy - 8, 'BARK ROLL', size=8, anchor='end')
+    d.text(cx - 96, gy - 8, 'BARK ROLL', size=7, anchor='end')  # at 8, off the plate's left edge
     d.text(cx - 26, gy + pd - 8, 'TAR', size=8, anchor='end')
     d.text(hx - 14, hy + 54, 'HAFTED', size=8)
     return d

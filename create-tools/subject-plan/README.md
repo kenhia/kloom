@@ -11,7 +11,13 @@ npx prettier --write subjects/ai
 ```
 
 - A plan is `{"spine": {"segments": [...]}, "trails": [...]}`, in exactly
-  the shape of `spine.json` and `trails/<id>.json`.
+  the shape of `spine.json` and `trails/<id>.json`, plus an optional
+  `"frames": {"<id>": {"topic": "…", "sort": 1859, "palette": "…"}}`:
+  what the brief settles for each frame, kept in the plan so it can be
+  checked before any author starts (sprint 027; three runs kept them only
+  in the brief's prose, and sprint 021's 1850-after-1859 was found only at
+  review). Any field may be left out; a new subject's plan gives all three
+  (`sort` only in a `date` segment). `making.json` carries them.
 - Running it writes `spine.json` and the trail files holding **only the
   frames whose directories have a `frame.json`**. It leaves out an empty
   segment, and a trail whose anchor or every frame is missing. So the
@@ -19,7 +25,13 @@ npx prettier --write subjects/ai
   and every commit on the way is green.
 - `--check` writes nothing. It counts the frames written and lists the
   planned frames still to write, plus any frame directory the plan does not
-  name.
+  name. It checks the plan's `frames`: sorts rise within each `date`
+  segment, topics are titles of at most 40 characters and unique, and
+  palettes are in `subject.json`; a `frames` entry for an id on no spine
+  is refused. It warns where a palette repeats from one frame to the next
+  down a segment, and where a written frame's topic, sort or palette
+  differs from its plan. It exits 1 on a problem, and never on a warning
+  or on frames still to write.
 - `--complete DIR` writes a copy of the subject at `DIR/<subject>` holding
   only the frames that have a `frame.json`, with its spine and trails. With
   several authors at work, the live subject fails validation on whoever is
@@ -53,7 +65,8 @@ npx prettier --write subjects/ai
   without `--root`, `mark` writes into the live subject).
 - Its JSON is not Prettier's layout, so run Prettier over the subject
   afterwards.
-- Standard library only.
+- Standard library only. `test_subject_plan.py` is its test (`just
+check` runs it).
 
 `ai.json` is the plan for `subjects/ai`. Once every frame is written, the
 plan and the subject's own files say the same thing. Grow edits
@@ -62,3 +75,7 @@ plan and the subject's own files say the same thing. Grow edits
 `prose_words.py SUBJECT_DIR [FRAME …]` counts each reading's prose as the
 grow skill counts it (not tables, image lines, chart lines or headings), marks those
 outside 550–900 (`--min`, `--max`), and exits 1 if any is (sprint 015).
+Given paths instead of a subject, it counts a frame's directory, a
+`reading.md`, or every frame in a directory of them, such as a checking
+copy or drafts kept outside the subject (sprint 027).
+`test_prose_words.py` is its test.

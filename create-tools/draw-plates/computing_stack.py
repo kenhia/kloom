@@ -1,4 +1,4 @@
-"""computing plates, trail "The internet stack" (sprint 015). See computing.py."""
+"""computing plates, trail "The internet stack" (sprint 015). See plates_for.py."""
 import math
 
 from plates import D

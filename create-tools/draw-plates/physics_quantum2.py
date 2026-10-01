@@ -1,4 +1,4 @@
-"""physics plates, the end of the trail "The quantum revolution" and the frame on entanglement (sprint 021). See physics.py."""
+"""physics plates, the end of the trail "The quantum revolution" and the frame on entanglement (sprint 021). See plates_for.py."""
 import math
 
 from plates import D
