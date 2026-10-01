@@ -158,5 +158,11 @@
 			],
 			"published": "2019-11-19"
 		}
+	],
+	"connections": [
+		{
+			"to": "making/bloomery",
+			"why": "Wootz crucibles were charged with bloomery iron, the spongy lump full of slag that never melts, and melted it into an even steel."
+		}
 	]
 }

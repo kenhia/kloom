@@ -1,0 +1,31 @@
+{
+	"making/bloomery": [
+		["Tutankhamun's meteoric iron dagger", "tutankhamuns-meteoric-iron-dagger"],
+		["Amarna letters", "amarna-letters"],
+		["bloomery", "bloomery"],
+		["Hittite", "hittites"],
+		["Iron Age", "iron-age"],
+		["slag", "slag"],
+		["wrought iron", "wrought-iron"]
+	],
+	"making/lost-wax": [
+		["Mehrgarh", "mehrgarh"],
+		["copper", "copper"],
+		["lost-wax casting", "lost-wax-casting"],
+		["Nahal Mishmar hoard", "nahal-mishmar-hoard"],
+		["Mohenjo-daro", "mohenjo-daro"],
+		["Dancing Girl", "dancing-girl-prehistoric-sculpture"],
+		["Benvenuto Cellini", "benvenuto-cellini"],
+		["Perseus with the Head of Medusa", "perseus-with-the-head-of-medusa"]
+	],
+	"making/chinese-cast-iron": [
+		["cast iron", "cast-iron"],
+		["eutectic", "eutectic-system"],
+		["type metal", "type-metal"],
+		["blast furnace", "blast-furnace"],
+		["Iron Lion of Cangzhou", "iron-lion-of-cangzhou"],
+		["Song Yingxing", "song-yingxing"],
+		["_Tiangong Kaiwu_", "tiangong-kaiwu"],
+		["Du Shi", "du-shi"]
+	]
+}
