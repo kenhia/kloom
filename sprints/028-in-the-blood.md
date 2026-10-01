@@ -406,3 +406,22 @@ tools-test`, and every mark spec with `--check --placed`.
 - **korg 3470** carries the nursing subject's pending links.
 - The dedication's accent word, "USA.", no longer shows on the scene: the
   name now appears in place of the headline (korg 3475).
+
+## Deployed
+
+2026-10-01, by `just deploy` (the `recipe: deploy` in `.sprint-deploy`),
+from merged `main` at `2792e34`, to the kloom service on kai. The
+service's content clone is at the same commit.
+
+- `just verify` passed all eight door checks: the tailnet door refuses
+  anonymous writes and reader-data reads, and the ssh door lets its reader
+  through.
+- **The sprint's work, live on both doors (:4890 and :4891), each 200:**
+  - `/blood`, whose page carries the subtitle "what we believed, what we
+    learned, how we use it";
+  - `/blood/dedication`, whose page carries the dedication scene: "Colonel
+    Joel T. Hiatt, USA", "Retired" and "MEDICAL SERVICE CORPS · UNITED
+    STATES ARMY";
+  - `/blood/bombay` (a trail frame), whose page carries "OWN.";
+  - `/blood/tube-typing`, `/media/blood/humours/thurneisser-humours.jpg`
+    and `/api/start/blood` (the start screen's look).
