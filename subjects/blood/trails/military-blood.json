@@ -8,7 +8,14 @@
 				"id": "war",
 				"title": "Blood for soldiers",
 				"labelKind": "date",
-				"frames": ["whole-blood-wwii", "korea-blood", "asbp"]
+				"frames": [
+					"whole-blood-wwii",
+					"korea-blood",
+					"asbp",
+					"vietnam-blood",
+					"walking-blood-bank",
+					"whole-blood-returns"
+				]
 			}
 		]
 	}

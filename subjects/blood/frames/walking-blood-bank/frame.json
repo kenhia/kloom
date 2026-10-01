@@ -1,0 +1,150 @@
+{
+	"id": "walking-blood-bank",
+	"topic": "The walking blood bank",
+	"position": { "label": "2003–14", "sort": 2003 },
+	"scene": {
+		"headline": "The blood bank could",
+		"accent": "WALK.",
+		"palette": "maroon",
+		"illustration": "scene.svg",
+		"metadata": [
+			"IRAQ · AFGHANISTAN · COMBAT SUPPORT HOSPITALS",
+			"WARM FRESH WHOLE BLOOD · PRE-SCREENED DONORS · RAPID TESTS"
+		],
+		"counter": {
+			"value": "95%",
+			"label": "alive at 30 days with warm fresh blood, against 82% without (2009)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Warm Fresh Whole Blood Is Independently Associated with Improved Survival for Patients with Combat-Related Traumatic Injuries",
+			"authors": [
+				{ "family": "Spinella", "given": "Philip C." },
+				{ "family": "Perkins", "given": "Jeremy G." },
+				{ "family": "Grathwohl", "given": "Kurt W." },
+				{ "family": "Beekley", "given": "Alec C." },
+				{ "family": "Holcomb", "given": "John B." }
+			],
+			"container": "Journal of Trauma",
+			"volume": "66",
+			"issue": "4 Suppl",
+			"pages": "S69–S76",
+			"published": "2009-04",
+			"doi": "10.1097/TA.0b013e31819d85fb",
+			"accessed": "2026-10-01",
+			"note": "Read in the author manuscript in PubMed Central (PMC3126655)"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Whole Blood Transfusion",
+			"number": "CPG ID 21",
+			"container": "Joint Trauma System Clinical Practice Guideline",
+			"authors": [{ "family": "Cap", "given": "Andrew P." }],
+			"etAl": true,
+			"publisher": "Joint Trauma System",
+			"published": "2018-05-15",
+			"url": "https://jts.health.mil/assets/docs/cpgs/Whole_Blood_Transfusion_15_May_2018_ID21.pdf",
+			"accessed": "2026-10-01",
+			"note": "Appendix A, the walking blood bank process map; appendix C, the emergency whole blood collection procedure"
+		},
+		{
+			"kind": "article",
+			"title": "Fresh Whole Blood Transfusion: A Controversial Military Practice",
+			"authors": [
+				{ "family": "Kauvar", "given": "David S." },
+				{ "family": "Holcomb", "given": "John B." },
+				{ "family": "Norris", "given": "Gary C." },
+				{ "family": "Hess", "given": "John R." }
+			],
+			"container": "Journal of Trauma",
+			"volume": "61",
+			"issue": "1",
+			"pages": "181–184",
+			"published": "2006-07",
+			"doi": "10.1097/01.ta.0000222671.84335.64",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "The Use of Fresh Whole Blood in Massive Transfusion",
+			"authors": [
+				{ "family": "Repine", "given": "Thomas B." },
+				{ "family": "Perkins", "given": "Jeremy G." },
+				{ "family": "Kauvar", "given": "David S." },
+				{ "family": "Blackborne", "given": "Lorne" }
+			],
+			"container": "Journal of Trauma",
+			"volume": "60",
+			"issue": "6 Suppl",
+			"pages": "S59–S69",
+			"published": "2006-06",
+			"doi": "10.1097/01.ta.0000219013.64168.b2",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Comparison of Platelet Transfusion as Fresh Whole Blood versus Apheresis Platelets for Massively Transfused Combat Trauma Patients",
+			"authors": [
+				{ "family": "Perkins", "given": "Jeremy G." },
+				{ "family": "Cap", "given": "Andrew P." },
+				{ "family": "Spinella", "given": "Philip C." }
+			],
+			"etAl": true,
+			"container": "Transfusion",
+			"volume": "51",
+			"issue": "2",
+			"pages": "242–252",
+			"published": "2011-02",
+			"doi": "10.1111/j.1537-2995.2010.02818.x",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Fresh Whole Blood Use by Forward Surgical Teams in Afghanistan Is Associated with Improved Survival Compared to Component Therapy without Platelets",
+			"authors": [
+				{ "family": "Nessen", "given": "Shawn C." },
+				{ "family": "Eastridge", "given": "Brian J." },
+				{ "family": "Cronk", "given": "Daniel R." }
+			],
+			"etAl": true,
+			"container": "Transfusion",
+			"volume": "53",
+			"issue": "S1",
+			"pages": "107S–113S",
+			"published": "2013-01",
+			"doi": "10.1111/trf.12044",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "report",
+			"title": "Transfusion of Type A Whole Blood for the Role 3",
+			"number": "CPG ID 96",
+			"container": "Joint Trauma System Clinical Practice Guideline",
+			"authors": [{ "family": "Gurney", "given": "Jennifer M." }],
+			"etAl": true,
+			"publisher": "Joint Trauma System",
+			"published": "2025-05-30",
+			"url": "https://jts.health.mil/assets/docs/cpgs/Type_A_Specific_WB_Transfusion_30_May_2025_ID96_v1.1.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "Troops wait in line to donate blood at Camp Taqaddum, Iraq, 13 April 2006",
+			"url": "https://commons.wikimedia.org/wiki/File:Navy_Medical_Unit_DVIDS18661.jpg",
+			"accessed": "2026-10-01",
+			"container": "U.S. Marine Corps, via the Defense Visual Information Distribution Service and Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "taqaddum-donors.jpg",
+			"authors": [{ "family": "Shuford", "given": "Robert E." }],
+			"published": "2006-04-13"
+		}
+	]
+}
