@@ -1,70 +1,22 @@
 {
 	"making/thonet-chair": [
-		[
-			"Gebrüder Thonet",
-			"gebruder-thonet"
-		],
-		[
-			"No. 14 chair",
-			"no-14-chair"
-		],
-		[
-			"Michael Thonet",
-			"michael-thonet"
-		],
-		[
-			"Boppard",
-			"boppard"
-		],
-		[
-			"Metternich",
-			"klemens-von-metternich"
-		],
-		[
-			"Koryčany",
-			"korycany"
-		],
-		[
-			"lignin",
-			"lignin"
-		],
-		[
-			"steam bending",
-			"steam-bending"
-		]
+		["Gebrüder Thonet", "gebruder-thonet"],
+		["No. 14 chair", "no-14-chair"],
+		["Michael Thonet", "michael-thonet"],
+		["Boppard", "boppard"],
+		["Metternich", "klemens-von-metternich"],
+		["Koryčany", "korycany"],
+		["lignin", "lignin"],
+		["steam bending", "steam-bending"]
 	],
 	"making/moulded-plywood": [
-		[
-			"United States Navy",
-			"united-states-navy"
-		],
-		[
-			"Charles and Ray Eames",
-			"charles-and-ray-eames"
-		],
-		[
-			"plywood",
-			"plywood"
-		],
-		[
-			"moulded plywood",
-			"molded-plywood"
-		],
-		[
-			"Alvar Aalto",
-			"alvar-aalto"
-		],
-		[
-			"de Havilland Mosquito",
-			"de-havilland-mosquito"
-		],
-		[
-			"phenol formaldehyde resin",
-			"phenol-formaldehyde-resin"
-		],
-		[
-			"Bakelite",
-			"bakelite"
-		]
+		["United States Navy", "united-states-navy"],
+		["Charles and Ray Eames", "charles-and-ray-eames"],
+		["plywood", "plywood"],
+		["moulded plywood", "molded-plywood"],
+		["Alvar Aalto", "alvar-aalto"],
+		["de Havilland Mosquito", "de-havilland-mosquito"],
+		["phenol formaldehyde resin", "phenol-formaldehyde-resin"],
+		["Bakelite", "bakelite"]
 	]
 }
