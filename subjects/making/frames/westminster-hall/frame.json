@@ -250,6 +250,10 @@
 		{
 			"to": "western-civ/florence-dome",
 			"why": "Both builders faced a span longer than any timber: Florence's dome could not be centred on timber long enough, and Westminster Hall could take no tie beam, so Herland built a frame of short timbers."
+		},
+		{
+			"to": "making/mortise-and-tenon",
+			"why": "Herland's carpenters scribed each tenon to its own mortise, so that a joint fitted one place in the roof only."
 		}
 	]
 }

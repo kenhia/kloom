@@ -10,7 +10,10 @@
 		"accent": "OAK.",
 		"palette": "oak",
 		"illustration": "scene.svg",
-		"metadata": ["ALTSCHERBITZ · OSTROV · KÜCKHOVEN", "SPLIT OAK · STONE ADZES · BONE CHISELS"],
+		"metadata": [
+			"ALTSCHERBITZ · OSTROV · KÜCKHOVEN",
+			"SPLIT OAK · STONE ADZES · BONE CHISELS"
+		],
 		"counter": {
 			"value": "13",
 			"label": "oaks felled in 5102 BC to line one well"
@@ -20,6 +23,10 @@
 		{
 			"to": "making/birch-tar",
 			"why": "Pots found in the Altscherbitz well had been mended with birch tar, the glue Neanderthals first cooked, and two were redecorated with birch bark pasted on with it."
+		},
+		{
+			"to": "making/mortise-and-tenon",
+			"why": "The base frame of the Altscherbitz well, about 5100 BC, was joined with tenons wedged through their mortises."
 		}
 	],
 	"citations": [

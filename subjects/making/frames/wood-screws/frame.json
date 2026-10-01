@@ -1,0 +1,240 @@
+{
+	"id": "wood-screws",
+	"topic": "Nails and wood screws",
+	"position": {
+		"label": "Screws and nails"
+	},
+	"scene": {
+		"headline": "We gave the nail a",
+		"accent": "THREAD.",
+		"palette": "oak",
+		"illustration": "scene.svg",
+		"metadata": ["VIRGINIA · MONTICELLO · BIRMINGHAM", "CLEARANCE HOLE · PILOT HOLE · THREAD"],
+		"counter": {
+			"value": "3,500",
+			"label": "times more nails per minute of a worker's time than by hand"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Fastenings",
+			"authors": [
+				{
+					"family": "Rammer",
+					"given": "Douglas R."
+				}
+			],
+			"container": "Wood Handbook: Wood as an Engineering Material",
+			"publisher": "USDA Forest Service, Forest Products Laboratory",
+			"place": "Madison, WI",
+			"published": "2021",
+			"url": "https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_08_fpl_gtr282.pdf",
+			"accessed": "2026-09-30",
+			"note": "General Technical Report FPL-GTR-282, chapter 8: withdrawal equations 8-1 and 8-10, lead holes, screw gauges"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Nail Chronology as an Aid to Dating Old Buildings",
+			"authors": [
+				{
+					"family": "Nelson",
+					"given": "Lee H."
+				}
+			],
+			"container": "History News",
+			"volume": "24",
+			"issue": "11",
+			"published": "1968-11",
+			"url": "https://npshistory.com/publications/nail-chronology.pdf",
+			"accessed": "2026-09-30",
+			"note": "American Association for State and Local History Technical Leaflet 48"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Price of Nails since 1695: A Window into Economic Change",
+			"authors": [
+				{
+					"family": "Sichel",
+					"given": "Daniel E."
+				}
+			],
+			"container": "Journal of Economic Perspectives",
+			"volume": "36",
+			"issue": "1",
+			"pages": "125–150",
+			"published": "2022",
+			"doi": "10.1257/jep.36.1.125",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "US Patent 4,704, reissued as No. 107: Improvement in Wood-Screws (Thomas J. Sloan)",
+			"published": "1846-08-20",
+			"url": "https://patents.google.com/patent/USRE107E/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "US Patent 1,908,080: Screw (John P. Thompson)",
+			"published": "1933-05-09",
+			"url": "https://patents.google.com/patent/US1908080A/en",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "book",
+			"title": "The Statutes at Large; Being a Collection of All the Laws of Virginia, from the First Session of the Legislature, in the Year 1619. Vol. 1",
+			"editors": [
+				{
+					"family": "Hening",
+					"given": "William Waller"
+				}
+			],
+			"place": "New York",
+			"published": "1823",
+			"url": "https://archive.org/details/statutesatlargeb01virg",
+			"accessed": "2026-09-30",
+			"note": "Act VII of the session of February 1644/5"
+		},
+		{
+			"kind": "book",
+			"title": "Carpentry and Woodwork",
+			"authors": [
+				{
+					"family": "Foster",
+					"given": "Edwin W."
+				}
+			],
+			"publisher": "Doubleday, Page & Company",
+			"published": "1911",
+			"url": "https://www.gutenberg.org/ebooks/43574",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nail (fastener)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nail_(fastener)&oldid=1376060756",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Screw",
+			"url": "https://en.wikipedia.org/w/index.php?title=Screw&oldid=1376739147",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "P. L. Robertson",
+			"url": "https://en.wikipedia.org/w/index.php?title=P._L._Robertson&oldid=1363370820",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry F. Phillips",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_F._Phillips&oldid=1334216796",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Chamberlain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Chamberlain&oldid=1371855958",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GKN",
+			"url": "https://en.wikipedia.org/w/index.php?title=GKN&oldid=1366925722",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Jefferson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Jefferson&oldid=1377752333",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "A set of thirteen graduated hand-forged nails, all made by the same blacksmith",
+			"url": "https://commons.wikimedia.org/wiki/File:Set_of_Thirteen_Graduated_Nails_-_DPLA_-_07e2390fece9d5a18b2e65b82c5300e6_(page_1).jpg",
+			"accessed": "2026-09-30",
+			"container": "Missouri Historical Society, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "forged-nails.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Machine for turning and slotting wood screws, made by Nettlefold and Chamberlain, Birmingham",
+			"url": "https://commons.wikimedia.org/wiki/File:Thinktank_Birmingham_-_object_1954S00329(1).jpg",
+			"accessed": "2026-09-30",
+			"container": "Thinktank, Birmingham Science Museum, via Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "nettlefold-machine.jpg",
+			"authors": [
+				{
+					"name": "Birmingham Museums Trust"
+				}
+			]
+		}
+	]
+}

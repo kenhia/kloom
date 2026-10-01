@@ -1,0 +1,31 @@
+{
+	"title": "The dovetail's slope through furniture history, after Clive Edwards",
+	"description": "Bar chart of the angle of a dovetail's sides, worked out from the slopes that the furniture historian Clive Edwards gives for each period. The earliest dovetails, about 1 in 1, 45 degrees. Seventeenth- and early eighteenth-century work, often 1 in 3, 18.4 degrees. Later machine-cut dovetails, commonly 1 in 4, 14 degrees. The slope generally accepted as strongest, 1 in 6, 9.5 degrees. Fine later eighteenth-century work, 1 in 8, 7.1 degrees. The angles are this frame's arithmetic, the arctangent of each slope.",
+	"heading": "THE ANGLE OF A DOVETAIL'S SIDE · DEGREES",
+	"unit": "°",
+	"width": 520,
+	"height": 300,
+	"barWidth": 60,
+	"axis": {
+		"max": 50,
+		"ticks": [
+			[0, "0"],
+			[15, "15"],
+			[30, "30"],
+			[45, "45"]
+		]
+	},
+	"bars": [
+		{ "label": "1 in 1", "sublabel": "earliest", "value": 45, "display": "45°" },
+		{ "label": "1 in 3", "sublabel": "1600s", "value": 18.4, "display": "18.4°" },
+		{ "label": "1 in 4", "sublabel": "machine", "value": 14, "display": "14°" },
+		{
+			"label": "1 in 6",
+			"sublabel": "strongest?",
+			"value": 9.5,
+			"display": "9.5°",
+			"highlight": true
+		},
+		{ "label": "1 in 8", "sublabel": "late 1700s", "value": 7.1, "display": "7.1°" }
+	]
+}

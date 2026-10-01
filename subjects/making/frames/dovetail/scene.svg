@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M34 198 L306 198"/>
+		<path pathLength="1" d="M34 122 L306 122"/>
+		<path pathLength="1" d="M68 66 L68 212"/>
+		<path pathLength="1" d="M132 66 L132 212"/>
+		<path pathLength="1" d="M138 66 L138 212"/>
+		<path pathLength="1" d="M202 66 L202 212"/>
+		<path pathLength="1" d="M208 66 L208 212"/>
+		<path pathLength="1" d="M272 66 L272 212"/>
+		<path pathLength="1" d="M316 252 L316 188"/>
+		<path pathLength="1" d="M316 188 L324 188"/>
+		<path pathLength="1" d="M313 252 L319 252"/>
+		<path pathLength="1" d="M313 244 L319 244"/>
+		<path pathLength="1" d="M313 236 L319 236"/>
+		<path pathLength="1" d="M313 228 L319 228"/>
+		<path pathLength="1" d="M313 220 L319 220"/>
+		<path pathLength="1" d="M313 212 L319 212"/>
+		<path pathLength="1" d="M313 204 L319 204"/>
+		<path pathLength="1" d="M313 196 L319 196"/>
+		<path pathLength="1" d="M313 188 L319 188"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M50 284 L50 198 L74 198 L68 150 L132 150 L126 198 L144 198 L138 150 L202 150 L196 198 L214 198 L208 150 L272 150 L266 198 L290 198 L290 284"/>
+		<path pathLength="1" d="M50 74 L68 74 L74 122 L50 122 Z"/>
+		<path pathLength="1" d="M132 74 L138 74 L144 122 L126 122 Z"/>
+		<path pathLength="1" d="M202 74 L208 74 L214 122 L196 122 Z"/>
+		<path pathLength="1" d="M272 74 L290 74 L290 122 L266 122 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M52 86 L67.5 86 M52 98 L69 98 M52 110 L70.5 110 M132.5 86 L137.5 86 M131 98 L139 98 M129.5 110 L140.5 110 M202.5 86 L207.5 86 M201 98 L209 98 M199.5 110 L210.5 110 M272.5 86 L288 86 M271 98 L288 98 M269.5 110 L288 110"/>
+		<path pathLength="1" d="M90 204 L90.5 209 L91 214 L91.4 219 L91.9 224 L92.2 229 L92.5 234 L92.8 239 L92.9 244 L93 249 L93 254 L92.9 259 M130 204 L130.5 209 L131 214 L131.4 219 L131.9 224 L132.2 229 L132.5 234 L132.8 239 L132.9 244 L133 249 L133 254 L132.9 259 M170 204 L170.5 209 L171 214 L171.4 219 L171.9 224 L172.2 229 L172.5 234 L172.8 239 L172.9 244 L173 249 L173 254 L172.9 259 M210 204 L210.5 209 L211 214 L211.4 219 L211.9 224 L212.2 229 L212.5 234 L212.8 239 L212.9 244 L213 249 L213 254 L212.9 259 M250 204 L250.5 209 L251 214 L251.4 219 L251.9 224 L252.2 229 L252.5 234 L252.8 239 L252.9 244 L253 249 L253 254 L252.9 259"/>
+		<path pathLength="1" d="M316 222 L316.5 222 L316.9 222 L317.4 222 L317.9 222.1 L318.3 222.1 L318.8 222.1 L319.3 222.2 L319.7 222.2"/>
+		<path pathLength="1" d="M316 252 L324 188"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="170" y="64" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PINS, END ON</text>
+		<text x="42" y="201" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GAUGE</text>
+		<text x="330" y="220" font-size="9" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8</text>
+		<text x="320" y="180" font-size="9" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="320" y="268" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">7.1°</text>
+		<text x="170" y="178" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TAIL</text>
+		<text x="170" y="296" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TAIL BOARD</text>
+	</g>
+</svg>

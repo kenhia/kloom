@@ -334,6 +334,18 @@
 		{
 			"to": "making/knapping",
 			"why": "The precision of making is measured here from the knappers of Lomekwi, who controlled a flake only by where and at what angle they struck, to machines that align a chip's layers within a nanometre."
+		},
+		{
+			"to": "making/wilkinson-boring",
+			"why": "The table of how fine we make things starts from Wilkinson's bore, true to an old shilling's thickness."
+		},
+		{
+			"to": "making/gauge-blocks",
+			"why": "Johansson's gauge blocks, lapped flat enough to wring and true at 20 °C, are a row of the table of precision."
+		},
+		{
+			"to": "making/handaxe",
+			"why": "Knapping is still learned the slow way: the students of the hand-axe study practised for 167 hours and their hand axes grew no thinner."
 		}
 	]
 }

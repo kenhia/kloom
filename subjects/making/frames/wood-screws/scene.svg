@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M230 40 L230 276"/>
+		<path pathLength="1" d="M216 88 L216 128 M244 88 L244 128"/>
+		<path pathLength="1" d="M224.1 128 L224.1 212 M235.9 128 L235.9 212"/>
+		<path pathLength="1" d="M245 160 L324 160"/>
+		<path pathLength="1" d="M240.5 179.5 L324 179.5"/>
+		<path pathLength="1" d="M207 160 L207 173"/>
+		<path pathLength="1" d="M203 160 L216 160 M203 173 L216 173"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 78 L370 78 L370 128 L30 128 Z"/>
+		<path pathLength="1" d="M30 128 L30 262 L370 262 L370 128"/>
+		<path pathLength="1" d="M204 78 L217 88 L217 134"/>
+		<path pathLength="1" d="M256 78 L243 88 L243 134"/>
+		<path pathLength="1" d="M204 78 L256 78"/>
+		<path pathLength="1" d="M217 134 L221.5 140.5 L217 147 L221.5 153.5 L217 160 L221.5 166.5 L217 173 L221.5 179.5 L217 186 L221.5 192.5 L217 199 L221.5 205.5 L217 212 L224.3 218.5 L222.3 225 L227.2 231.5 L226.7 238 L230 244.5 L230 251 L230 251"/>
+		<path pathLength="1" d="M243 134 L238.5 140.5 L243 147 L238.5 153.5 L243 160 L238.5 166.5 L243 173 L238.5 179.5 L243 186 L238.5 192.5 L243 199 L238.5 205.5 L243 212 L235.7 218.5 L237.7 225 L232.8 231.5 L233.3 238 L230 244.5 L230 251 L230 251"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M228 77 L228 83 L232 83 L232 77"/>
+		<path pathLength="1" d="M81 74 L103 74 L103 78 L81 78 Z"/>
+		<path pathLength="1" d="M89 78 L89 220 L92 230 L95 220 L95 78"/>
+		<path pathLength="1" d="M70 134 L82 138 L88 144 M70 148 L82 152 L88 158 M70 162 L82 166 L88 172 M70 176 L82 180 L88 186 M70 190 L82 194 L88 200 M70 204 L82 208 L88 214 M114 134 L102 138 L96 144 M114 148 L102 152 L96 158 M114 162 L102 166 L96 172 M114 176 L102 180 L96 186 M114 190 L102 194 L96 200 M114 204 L102 208 L96 214"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="92" y="284" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NAIL</text>
+		<text x="230" y="284" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SCREW</text>
+		<text x="198" y="110" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CLEARANCE</text>
+		<text x="198" y="208" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PILOT</text>
+		<text x="328" y="163" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SHANK</text>
+		<text x="328" y="182.5" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ROOT</text>
+		<text x="201" y="169.5" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">P</text>
+		<text x="230" y="30" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ROOT ≈ ⅔ SHANK · PILOT ≈ 0.7 ROOT</text>
+	</g>
+</svg>
