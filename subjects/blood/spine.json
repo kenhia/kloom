@@ -7,6 +7,12 @@
 			"frames": ["humours", "galen", "ibn-al-nafis"]
 		},
 		{
+			"id": "learned",
+			"title": "What we learned",
+			"labelKind": "date",
+			"frames": ["harvey", "malpighi", "red-cells"]
+		},
+		{
 			"id": "dedication-seg",
 			"title": "Dedication",
 			"labelKind": "category",

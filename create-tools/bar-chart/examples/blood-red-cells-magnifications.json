@@ -1,0 +1,32 @@
+{
+	"title": "Magnifying powers of the 26 Leeuwenhoek microscopes Henry Baker examined",
+	"description": "Bar chart of how many of the 26 single-lens microscopes that Antonie van Leeuwenhoek left to the Royal Society magnified the diameter of an object by each power: one at 40 times, one at 53, two at 57, three at 66, two at 72, eight at 80, three at 89, three at 100, one at 114, one at 133 and one at 160. Source: Henry Baker, Employment for the Microscope (London, 1753), pp. 434–436.",
+	"heading": "MICROSCOPES AT EACH MAGNIFICATION · BAKER, 1753",
+	"unit": "",
+	"width": 560,
+	"barWidth": 34,
+	"axis": {
+		"max": 10,
+		"ticks": [
+			[0, "0"],
+			[2, "2"],
+			[4, "4"],
+			[6, "6"],
+			[8, "8"],
+			[10, "10"]
+		]
+	},
+	"bars": [
+		{ "label": "40×", "value": 1 },
+		{ "label": "53×", "value": 1 },
+		{ "label": "57×", "value": 2 },
+		{ "label": "66×", "value": 3 },
+		{ "label": "72×", "value": 2 },
+		{ "label": "80×", "value": 8, "highlight": true },
+		{ "label": "89×", "value": 3 },
+		{ "label": "100×", "value": 3 },
+		{ "label": "114×", "value": 1 },
+		{ "label": "133×", "value": 1 },
+		{ "label": "160×", "value": 1 }
+	]
+}

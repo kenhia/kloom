@@ -1,0 +1,192 @@
+{
+	"id": "harvey",
+	"topic": "Harvey's circulation of the blood",
+	"position": {
+		"label": "1628",
+		"sort": 1628
+	},
+	"scene": {
+		"headline": "We found the blood moved in a",
+		"accent": "CIRCLE.",
+		"palette": "anatomy",
+		"illustration": "scene.svg",
+		"metadata": ["FRANKFURT · 1628 · WILLIAM HARVEY", "LIGATURES · VALVES · THE HEART'S OUTPUT"],
+		"counter": {
+			"value": "1,000",
+			"label": "heartbeats in half an hour, Harvey's lowest count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "On the Motion of the Heart and Blood in Animals",
+			"container": "The Works of William Harvey",
+			"authors": [
+				{
+					"family": "Harvey",
+					"given": "William"
+				}
+			],
+			"translators": [
+				{
+					"family": "Willis",
+					"given": "Robert"
+				}
+			],
+			"publisher": "Sydenham Society",
+			"place": "London",
+			"published": "1847",
+			"url": "https://archive.org/details/worksofwilliamha00harviala",
+			"accessed": "2026-10-01",
+			"note": "Chapter IX (the quantity), XI (the ligatures) and XIII (the valves and Fabricius)"
+		},
+		{
+			"kind": "book",
+			"title": "Exercitatio anatomica de motu cordis et sanguinis in animalibus",
+			"authors": [
+				{
+					"family": "Harvey",
+					"given": "William"
+				}
+			],
+			"translators": [
+				{
+					"family": "Leake",
+					"given": "Chauncey D."
+				}
+			],
+			"publisher": "Charles C. Thomas",
+			"place": "Springfield, Ill.",
+			"published": "1928",
+			"url": "https://archive.org/details/exercitatioanato00harv",
+			"accessed": "2026-10-01",
+			"note": "With a facsimile of the Latin of 1628; chapter IX's cadaver figure checked against it"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Harvey",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Harvey&oldid=1372861025",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Exercitatio Anatomica de Motu Cordis et Sanguinis in Animalibus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Exercitatio_Anatomica_de_Motu_Cordis_et_Sanguinis_in_Animalibus&oldid=1374225219",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hieronymus Fabricius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hieronymus_Fabricius&oldid=1375735808",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean Riolan the Younger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean_Riolan_the_Younger&oldid=1369810900",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Apothecaries' system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apothecaries'_system&oldid=1344214947",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cardiac output",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cardiac_output&oldid=1371764431",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood volume",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_volume&oldid=1368700958",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "media",
+			"title": "Harvey's figures of the veins of the forearm, from Exercitatio anatomica de motu cordis, chapter 13",
+			"url": "https://commons.wikimedia.org/wiki/File:Blood_circulation_in_the_arm..JPG",
+			"accessed": "2026-10-01",
+			"container": "William Harvey, Opera (Leiden, 1737); photographed by the US National Library of Medicine, Images from the History of Medicine, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "harvey-veins.jpg",
+			"authors": [
+				{
+					"family": "Harvey",
+					"given": "William"
+				}
+			],
+			"published": "1737"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/galen",
+			"why": "Harvey's sum showed that the heart sends out more blood in half an hour than the body holds, more than any liver could make from food: the end of Galen's blood made, sent out and used up."
+		},
+		{
+			"to": "blood/ibn-al-nafis",
+			"why": "Harvey's circuit runs through the lungs by the route Ibn al-Nafis had described in Cairo, and joins it to a second circuit through the whole body."
+		}
+	]
+}

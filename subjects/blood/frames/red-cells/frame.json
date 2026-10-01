@@ -1,0 +1,202 @@
+{
+	"id": "red-cells",
+	"topic": "Leeuwenhoek sees red blood cells",
+	"position": {
+		"label": "1674",
+		"sort": 1674
+	},
+	"scene": {
+		"headline": "We found blood was full of",
+		"accent": "GLOBULES.",
+		"palette": "anatomy",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DELFT · ANTONIE VAN LEEUWENHOEK",
+			"LETTERS TO THE ROYAL SOCIETY · A LENS, A PIN, A GLASS HAIR"
+		],
+		"counter": {
+			"value": "25,000",
+			"label": "globules to a fine grain of sand, by volume"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Alle de brieven van Antoni van Leeuwenhoek / The Collected Letters of Antoni van Leeuwenhoek",
+			"edition": "Vol. 1, 1673–1676",
+			"authors": [
+				{
+					"family": "van Leeuwenhoek",
+					"given": "Antoni"
+				}
+			],
+			"publisher": "Swets & Zeitlinger",
+			"place": "Amsterdam",
+			"published": "1939",
+			"url": "https://www.dbnl.org/tekst/leeu027alle01_01/",
+			"accessed": "2026-10-01",
+			"note": "Letters 5, 7, 8 and 11 (April–September 1674), in Dutch and English, with the editors' notes on his measures"
+		},
+		{
+			"kind": "letter",
+			"title": "On the composition of blood and milk",
+			"authors": [
+				{
+					"family": "van Leeuwenhoek",
+					"given": "Antoni"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Oldenburg",
+					"given": "Henry"
+				}
+			],
+			"written": "1674-04-07",
+			"container": "Philosophical Transactions",
+			"volume": "9",
+			"pages": "23–25",
+			"published": "1674",
+			"url": "https://www.dbnl.org/tekst/leeu027alle01_01/leeu027alle01_01_0007.php",
+			"accessed": "2026-10-01",
+			"note": "Read in the Collected Letters, vol. 1, letter 5"
+		},
+		{
+			"kind": "letter",
+			"title": "On the weight and colour of blood and how to examine it",
+			"authors": [
+				{
+					"family": "van Leeuwenhoek",
+					"given": "Antoni"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Oldenburg",
+					"given": "Henry"
+				}
+			],
+			"written": "1674-06-01",
+			"container": "Philosophical Transactions",
+			"volume": "9",
+			"pages": "121–128",
+			"published": "1674",
+			"url": "https://www.dbnl.org/tekst/leeu027alle01_01/leeu027alle01_01_0010.php",
+			"accessed": "2026-10-01",
+			"note": "Read in the Collected Letters, vol. 1, letter 8"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Employment for the Microscope",
+			"authors": [
+				{
+					"family": "Baker",
+					"given": "Henry"
+				}
+			],
+			"place": "London",
+			"published": "1753",
+			"url": "https://archive.org/details/employmentformic01bake",
+			"accessed": "2026-10-01",
+			"note": "\"Of Mr. Leeuwenhoek's Microscopes\", pp. 434–436"
+		},
+		{
+			"kind": "book",
+			"title": "The Book of Nature; or, The History of Insects",
+			"authors": [
+				{
+					"family": "Swammerdam",
+					"given": "John"
+				}
+			],
+			"translators": [
+				{
+					"family": "Flloyd",
+					"given": "Thomas"
+				}
+			],
+			"place": "London",
+			"published": "1758",
+			"url": "https://archive.org/details/booknaturehisto00swam",
+			"accessed": "2026-10-01",
+			"note": "Part II, pp. 121–122: the blood of a frog",
+			"publisher": "C. G. Seyffert"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antonie van Leeuwenhoek",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antonie_van_Leeuwenhoek&oldid=1370415256",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Red blood cell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Red_blood_cell&oldid=1371939549",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jan Swammerdam",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jan_Swammerdam&oldid=1372017538",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "A Leeuwenhoek microscope, both sides, as drawn for Henry Baker",
+			"url": "https://commons.wikimedia.org/wiki/File:Leeuwenhoek_microscope_drawn_by_Baker,_1753.jpg",
+			"accessed": "2026-10-01",
+			"container": "Henry Baker, Employment for the Microscope (London, 1753), plate XVII, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "baker-microscope.jpg",
+			"authors": [
+				{
+					"family": "Baker",
+					"given": "Henry"
+				}
+			],
+			"published": "1753"
+		},
+		{
+			"kind": "media",
+			"title": "Magnifying powers of the 26 Leeuwenhoek microscopes Henry Baker examined",
+			"url": "https://archive.org/details/employmentformic01bake",
+			"accessed": "2026-10-01",
+			"container": "Drawn for kloom from Henry Baker, Employment for the Microscope (London, 1753), p. 436",
+			"licence": "MIT",
+			"file": "magnifications.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/boyle",
+			"why": "Robert Boyle, whose air pump that frame describes, asked Leeuwenhoek through Oldenburg in 1674 why blood turns bright red in the air, and Leeuwenhoek's answer about blood and air is in his letter of 1 June."
+		}
+	]
+}
