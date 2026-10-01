@@ -93,5 +93,15 @@
 			"authors": [{ "family": "Russell", "given": "Jeffery" }],
 			"published": "2005-02-17"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/walking-blood-bank",
+			"why": "The joint handbook sets out the fresh whole blood protocol the walking blood bank follows."
+		},
+		{
+			"to": "blood/vietnam-blood",
+			"why": "The Military Blood Program Agency of 1962 answered Vietnam's call for a thousand units a week."
+		}
 	]
 }

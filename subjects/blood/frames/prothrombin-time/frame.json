@@ -154,5 +154,15 @@
 			"file": "dilution.svg",
 			"accessed": "2026-10-01"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/royal-hemophilia",
+			"why": "Quick found normal prothrombin in hemophilia, so the prothrombin time cannot find the royal disease."
+		},
+		{
+			"to": "blood/warfarin",
+			"why": "Link's laboratory adapted Quick's one-stage test to assay dicoumarol, and warfarin is dosed by the prothrombin time."
+		}
 	]
 }

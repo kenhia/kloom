@@ -217,6 +217,10 @@
 	],
 	"connections": [
 		{
+			"to": "blood/abo",
+			"why": "Lattes typed dried stains by Landsteiner's groups, building on the stain test Landsteiner and Richter described in 1903."
+		},
+		{
 			"to": "mathematics/bayes",
 			"why": "Essen-Möller's probability of paternity (1938), which turned blood-group evidence from exclusion into a probability, is Bayes' theorem: even prior odds multiplied by the likelihood ratio of the family's blood types."
 		}

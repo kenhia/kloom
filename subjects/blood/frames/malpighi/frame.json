@@ -83,6 +83,10 @@
 	],
 	"connections": [
 		{
+			"to": "blood/harvey",
+			"why": "Malpighi saw in a frog's lung the vessels joining artery to vein that Harvey's circuit needed and Harvey never saw."
+		},
+		{
 			"to": "blood/ibn-al-nafis",
 			"why": "The network Malpighi saw in a frog's lung is the passage between the pulmonary artery and the pulmonary vein that Ibn al-Nafis reasoned must exist, some four hundred years before anyone could see it."
 		}

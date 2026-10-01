@@ -116,5 +116,11 @@
 			"licence": "Public domain",
 			"file": "table-1901.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/tube-typing",
+			"why": "Landsteiner's serum mixed with cells is the root of forward and reverse typing and of the crossmatch done by hand in tubes."
+		}
 	]
 }

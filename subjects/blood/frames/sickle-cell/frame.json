@@ -188,5 +188,11 @@
 			],
 			"published": "2011-03-25"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/perutz-hemoglobin",
+			"why": "Vernon Ingram, who made the first heavy-atom hemoglobin crystals for Perutz, found the single change that makes sickle hemoglobin."
+		}
 	]
 }

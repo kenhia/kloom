@@ -301,5 +301,11 @@
 			],
 			"published": "1968-10-25"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/rh-factor",
+			"why": "Payne treated mothers immunised against their babies' white cells as the same route as Rh."
+		}
 	]
 }

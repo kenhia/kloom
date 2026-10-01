@@ -195,6 +195,10 @@
 	],
 	"connections": [
 		{
+			"to": "blood/hemoglobin",
+			"why": "Why Leeuwenhoek's globules are red waited two centuries, for Stokes's spectroscope and hemoglobin."
+		},
+		{
 			"to": "chemistry/boyle",
 			"why": "Robert Boyle, whose air pump that frame describes, asked Leeuwenhoek through Oldenburg in 1674 why blood turns bright red in the air, and Leeuwenhoek's answer about blood and air is in his letter of 1 June."
 		}

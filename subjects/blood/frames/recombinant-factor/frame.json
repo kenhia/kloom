@@ -327,5 +327,11 @@
 			],
 			"published": "2017-10-01"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/royal-hemophilia",
+			"why": "Recombinant factor VIII treats the disease that ran through Victoria's family."
+		}
 	]
 }

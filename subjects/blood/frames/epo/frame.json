@@ -254,5 +254,11 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-05-24"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/hematocrit",
+			"why": "Erythropoietin's effect is measured by the hematocrit, and cycling's limit is set on it."
+		}
 	]
 }

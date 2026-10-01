@@ -98,5 +98,15 @@
 			"file": "hollinger-trunk.jpg",
 			"published": "1964"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/whole-blood-returns",
+			"why": "Korea's labels of high and low titre group O blood are the titre whole blood's return still measures."
+		},
+		{
+			"to": "blood/blood-bag",
+			"why": "The first plastic bags were tried in the Korean War, and the Army and the Red Cross disagreed whether they should be."
+		}
 	]
 }

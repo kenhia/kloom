@@ -283,5 +283,15 @@
 			"licence": "CC BY 4.0",
 			"file": "erythroblastosis-smear.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/abo",
+			"why": "Rh was Landsteiner's second blood group system to matter in transfusion, forty years after ABO."
+		},
+		{
+			"to": "blood/coombs",
+			"why": "The incomplete anti-D of hemolytic disease was what the antiglobulin test made visible."
+		}
 	]
 }

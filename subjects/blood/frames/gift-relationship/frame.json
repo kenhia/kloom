@@ -208,5 +208,11 @@
 			"licence": "MIT",
 			"file": "hbsag-paid-volunteer.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/hepatitis",
+			"why": "Titmuss's case against paid blood rested on hepatitis, and the Australia antigen test measured it."
+		}
 	]
 }

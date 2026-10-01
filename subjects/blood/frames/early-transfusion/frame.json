@@ -147,6 +147,10 @@
 	],
 	"connections": [
 		{
+			"to": "blood/harvey",
+			"why": "Harvey's circulation made transfusion thinkable: blood put into one vein would go round the whole body."
+		},
+		{
 			"to": "blood/humours",
 			"why": "Denis gave a madman calf's blood because its 'mildness and freshness' might allay the 'heat and ebullition' of his own: the first transfusions into people were reasoned as tempering blood's hot and cold qualities, the logic of the humours."
 		}

@@ -283,6 +283,10 @@
 	],
 	"connections": [
 		{
+			"to": "blood/autoanalyzer",
+			"why": "Skeggs set out his own laboratory's day, AutoAnalyzers already running, as ten steps on paper: the routine the information system took over."
+		},
+		{
 			"to": "computing/minicomputer",
 			"why": "MUMPS, written at Massachusetts General Hospital in 1966–67 for admissions and laboratory reporting, ran on DEC's PDP-7 and PDP-9 and spread on the PDP-8 and PDP-11: the minicomputers made to be wired into laboratories."
 		}

@@ -105,5 +105,11 @@
 			"licence": "CC BY 4.0",
 			"file": "gravitator.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/citrate",
+			"why": "Blundell's pipes clogged with clot and had to be flushed with warm water: the problem citrate solved a century later."
+		}
 	]
 }

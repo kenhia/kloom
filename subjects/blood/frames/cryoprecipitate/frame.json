@@ -289,5 +289,15 @@
 			"licence": "Public domain (work of the US Army)",
 			"file": "fort-knox-draining-plasma.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/hemophilia-hiv",
+			"why": "Concentrates from plasma pools of thousands replaced cryoprecipitate's few donors, and carried HIV and hepatitis."
+		},
+		{
+			"to": "blood/fractionation",
+			"why": "Pool's cold paste was the residue of plasma on its way to Cohn's Fraction I."
+		}
 	]
 }

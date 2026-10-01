@@ -196,5 +196,15 @@
 			"file": "lancet-table-iv.jpg",
 			"published": "1919-10-18"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/abo",
+			"why": "The Hirszfelds typed their soldiers by Landsteiner's method, a drop of blood against each test serum."
+		},
+		{
+			"to": "blood/bernstein",
+			"why": "The Hirszfelds' 1919 index treated AB as A and B meeting by chance, the two-gene model Bernstein's counts overturned in 1924."
+		}
 	]
 }

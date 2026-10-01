@@ -92,6 +92,14 @@
 	],
 	"connections": [
 		{
+			"to": "blood/segregated-blood",
+			"why": "The blood the Red Cross collected and labelled by the donor's race was the blood of this programme."
+		},
+		{
+			"to": "blood/robertson-depot",
+			"why": "Group O blood in a citrate–glucose solution, kept cold and flown to the front, carried Robertson's 1917 depot to a whole theatre of war."
+		},
+		{
 			"to": "chemistry/penicillin",
 			"why": "By D-day the Army had a daily airlift to France for blood, penicillin and other biologicals, carrying the drug that the new deep-tank plants had begun to make in quantity that year."
 		}

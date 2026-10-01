@@ -106,5 +106,11 @@
 			"licence": "MIT",
 			"file": "units-shipped.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/korea-blood",
+			"why": "Vietnam's insulated Collins box replaced Korea's Hollinger trunk."
+		}
 	]
 }

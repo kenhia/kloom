@@ -217,6 +217,10 @@
 	],
 	"connections": [
 		{
+			"to": "blood/cryoprecipitate",
+			"why": "Cryoprecipitate gave people with Victoria's disease their missing factor in a small volume."
+		},
+		{
 			"to": "chemistry/pcr",
 			"why": "The 2009 analysis that named the royal disease copied the factor IX gene out of ninety-year-old bones with the polymerase chain reaction, in short overlapping pieces, from about a hundred trillionths of a gram of DNA."
 		}

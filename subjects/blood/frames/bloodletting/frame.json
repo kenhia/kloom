@@ -210,5 +210,11 @@
 			"licence": "CC BY 4.0",
 			"file": "scarificator-1813.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/humours",
+			"why": "Bleeding was the humoral cure for an excess of blood, the treatment that followed from the four humours."
+		}
 	]
 }

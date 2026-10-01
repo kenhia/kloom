@@ -226,5 +226,11 @@
 			],
 			"published": "1985-03"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/rh-factor",
+			"why": "The first case of AIDS from transfusion was an infant treated for Rh disease of the newborn."
+		}
 	]
 }

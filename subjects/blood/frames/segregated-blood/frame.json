@@ -135,5 +135,15 @@
 			"published": "1943",
 			"circa": true
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/race-serology",
+			"why": "Both read a difference in how often a blood type occurs in a people as a fact about each person's blood."
+		},
+		{
+			"to": "blood/drew-plasma",
+			"why": "Drew directed the plasma programmes whose donors were then sorted by race, and called the policy without scientific basis."
+		}
 	]
 }

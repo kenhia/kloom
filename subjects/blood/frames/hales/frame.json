@@ -83,6 +83,10 @@
 	],
 	"connections": [
 		{
+			"to": "blood/bloodletting",
+			"why": "Hales drew a lesson for bleeding from his measurements: bleed at intervals rather than all at once."
+		},
+		{
 			"to": "chemistry/fixed-air",
 			"why": "Joseph Black named the gas he weighed out of magnesia \"fixed air\" after Stephen Hales, who had shown that alkaline salts hold a great quantity of it; the same Hales first measured the force of the blood."
 		}

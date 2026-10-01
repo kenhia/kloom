@@ -196,5 +196,15 @@
 			"licence": "Public domain (work of the US Navy)",
 			"file": "navy-marrow-harvest.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/hla",
+			"why": "Matching donor and patient by their HLA antigens made marrow grafts between siblings possible."
+		},
+		{
+			"to": "blood/apheresis",
+			"why": "Most marrow stem cells are now collected from the blood by continuous-flow separators."
+		}
 	]
 }

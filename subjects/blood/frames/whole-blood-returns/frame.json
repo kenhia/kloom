@@ -284,5 +284,15 @@
 			],
 			"published": "2014-09-11"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/tube-typing",
+			"why": "A titre is read by the same tube agglutination graded 4+ to 0 as typing and crossmatch by hand."
+		},
+		{
+			"to": "blood/robertson-depot",
+			"why": "Group O blood kept on ice was given to the wounded in 1917; low-titre group O whole blood came back a century later."
+		}
 	]
 }

@@ -177,6 +177,14 @@
 	],
 	"connections": [
 		{
+			"to": "blood/coulter",
+			"why": "Analysers now measure the cells' mean volume, as Coulter's pulse heights do, and calculate the hematocrit from it."
+		},
+		{
+			"to": "blood/hemocytometer",
+			"why": "Wintrobe's red-cell indices depend on a hand count in the chamber and carry its error."
+		},
+		{
 			"to": "blood/humours",
 			"why": "Wintrobe's tube measures, in millimetres, the layers that drawn blood forms as it stands or is spun, the layers Robin Fåhræus thought had given the ancients their four humours."
 		}

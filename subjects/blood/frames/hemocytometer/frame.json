@@ -145,5 +145,11 @@
 			],
 			"published": "2019-03-25"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/coulter",
+			"why": "The Coulter counter ended the count by hand in the ruled chamber."
+		}
 	]
 }

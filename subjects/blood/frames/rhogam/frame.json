@@ -277,5 +277,15 @@
 			],
 			"published": "2020-12-11"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/coombs",
+			"why": "Only the incomplete anti-D found by the antiglobulin test protected the mothers."
+		},
+		{
+			"to": "blood/rh-factor",
+			"why": "Rh immune globulin prevents the disease of the newborn that the Rh factor explained."
+		}
 	]
 }

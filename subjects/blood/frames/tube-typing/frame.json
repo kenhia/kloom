@@ -143,5 +143,13 @@
 			],
 			"published": "2009-03-02"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/lis",
+			"why": "The laboratory information system took over the crossmatch's paperwork, and with it the clerical error."
+		},
+		{ "to": "blood/gel-card", "why": "The gel card took over the tube and the reading by eye." },
+		{ "to": "blood/coombs", "why": "The antiglobulin phase of a crossmatch is the Coombs test." }
 	]
 }

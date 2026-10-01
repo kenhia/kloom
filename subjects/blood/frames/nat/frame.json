@@ -351,6 +351,10 @@
 	],
 	"connections": [
 		{
+			"to": "blood/hiv-blood",
+			"why": "Both turn on the window period, when an infection is present and no test finds it."
+		},
+		{
 			"to": "chemistry/pcr",
 			"why": "From 1999 donated blood was screened in pools for the RNA of HIV and hepatitis C, and Roche's screening test found it by RT-PCR, the copying reaction thought of at Cetus in 1983."
 		}

@@ -436,5 +436,9 @@
 			],
 			"published": "1979"
 		}
+	],
+	"connections": [
+		{ "to": "blood/tube-typing", "why": "The antibody screen and panel feed the crossmatch." },
+		{ "to": "blood/coombs", "why": "Kell, Duffy and Kidd were found with the antiglobulin test." }
 	]
 }

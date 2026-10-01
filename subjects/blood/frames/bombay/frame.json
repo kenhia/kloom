@@ -281,5 +281,11 @@
 			],
 			"published": "2003-04-05"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/abo",
+			"why": "H is the base on which A and B are built, and Bombay blood lacks it."
+		}
 	]
 }

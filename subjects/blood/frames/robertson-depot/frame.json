@@ -221,5 +221,15 @@
 			],
 			"published": "1918-06-22"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/blood-banks",
+			"why": "Robertson's store of blood on ice was the forerunner of the blood bank."
+		},
+		{
+			"to": "blood/abo",
+			"why": "Robertson took only group O donors, whose cells, he wrote, are clumped by no one's blood: Landsteiner's groups put to work at the front."
+		}
 	]
 }

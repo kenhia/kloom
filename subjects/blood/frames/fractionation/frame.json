@@ -243,5 +243,11 @@
 			"licence": "MIT",
 			"file": "fractions.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/hepatitis",
+			"why": "Heat-treated albumin carried no serum hepatitis; other pooled plasma products did."
+		}
 	]
 }

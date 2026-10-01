@@ -348,5 +348,11 @@
 			"licence": "MIT",
 			"file": "donation-rates.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/whole-blood-returns",
+			"why": "Whole blood's return to trauma care is part of where transfusion stands now."
+		}
 	]
 }

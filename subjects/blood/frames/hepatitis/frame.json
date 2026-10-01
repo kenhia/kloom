@@ -309,5 +309,12 @@
 			"licence": "MIT",
 			"file": "tah-incidence.svg"
 		}
+	],
+	"connections": [
+		{ "to": "blood/hiv-blood", "why": "HIV arrived before the second hepatitis test did." },
+		{
+			"to": "blood/nat",
+			"why": "Screening moved on from the hepatitis B antigen to hepatitis C, found by its nucleic acid."
+		}
 	]
 }

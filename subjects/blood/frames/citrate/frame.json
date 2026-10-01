@@ -233,5 +233,11 @@
 			],
 			"published": "1915-01-23"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/robertson-depot",
+			"why": "Rous and Turner's citrate–glucose solution is what Robertson's depot stored its blood in."
+		}
 	]
 }

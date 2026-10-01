@@ -146,5 +146,11 @@
 			"authors": [{ "family": "Shuford", "given": "Robert E." }],
 			"published": "2006-04-13"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/vietnam-blood",
+			"why": "Frozen red cells were first tried in Vietnam as an alternative to drawing blood from walking donors."
+		}
 	]
 }

@@ -92,6 +92,10 @@
 	],
 	"connections": [
 		{
+			"to": "blood/perutz-hemoglobin",
+			"why": "Stokes showed the substance of the red cells takes up oxygen and gives it back; Perutz showed its shape changing as it does."
+		},
+		{
 			"to": "physics/spectra",
 			"why": "Hoppe-Seyler and Stokes read blood with the slit and prism that Kirchhoff and Bunsen had made a spectroscope in 1859, and Stokes placed hemoglobin's absorption bands against Fraunhofer's lines D, E, b and F."
 		}

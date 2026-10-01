@@ -176,5 +176,11 @@
 			"licence": "CC BY-SA 4.0",
 			"file": "gelcard.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/coombs",
+			"why": "The gel card runs the antiglobulin test without washing the cells."
+		}
 	]
 }

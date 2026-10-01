@@ -143,5 +143,8 @@
 			"published": "1935",
 			"circa": true
 		}
+	],
+	"connections": [
+		{ "to": "blood/segregated-blood", "why": "Fantus's donor form recorded each donor's colour." }
 	]
 }

@@ -154,5 +154,11 @@
 			"licence": "Public domain (US patent drawing)",
 			"file": "judson-freireich-patent-fig1.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/blood-bag",
+			"why": "Freireich and Kliman first separated platelets by hand, with the new plastic bags."
+		}
 	]
 }

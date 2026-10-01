@@ -154,5 +154,11 @@
 			"file": "pool-risk.svg",
 			"accessed": "2026-10-01"
 		}
+	],
+	"connections": [
+		{
+			"to": "blood/hiv-blood",
+			"why": "The same crisis of 1982–85, seen from the side of people with hemophilia."
+		}
 	]
 }
