@@ -216,9 +216,13 @@ charts and tables; see §Authoring with tools.)
 - A table can stand on its own. A table under a chart carries the chart's
   numbers for screen readers.
 - Mathematics is written in Unicode (_α_/2π, 2ᴺ, _F_₂); there is no TeX.
-  Next to a letter, digit or superscript, `_x_` is not emphasis in
+  Next to a letter, digit, superscript or subscript, `_x_` is not emphasis in
   CommonMark, and Prettier turns it into a stray `*x_`: write `*x*` there
-  (`3*x*`, `*x*²`), as sprint 024's analysis readings do.
+  (`3*x*`, `*x*²`, `*P*₀`), as sprint 024's analysis readings do.
+- A short program (a few lines of G-code or OpenSCAD) may stand in a
+  fenced code block, which the pane sets in monospace and scrolls rather
+  than widening; a table of lines beside what each does is often clearer
+  (sprint 026 did both).
 - For a technical explainer, a worked example with invented numbers is
   fine. Say that they are invented, and keep them apart from the sourced
   facts.
@@ -234,7 +238,9 @@ both as you write.
 
 - **Mark names.** In a new reading, mark the **first mention in prose** of
   each person, place, organisation, named thing, work, idea or event that
-  matters to the frame: `[Martin Luther](kloom:e/martin-luther)`. Four to
+  matters to the frame: `[Martin Luther](kloom:e/martin-luther)` (the form a
+  mark takes; an author with tools never types it, and the marks in the
+  frames you read were placed by `names.py mark`). Four to
   eight a frame is usual. Only the first mention: a second mark of the same
   name is an error. Not in a heading, a table or an image's alt text, and
   never inside another link. The mark opens a card listing every frame, in
@@ -427,7 +433,11 @@ the web rather than by a grow job. What changes:
   article title and says when a title redirects or is ambiguous; `names.py
 add` writes name files and refuses one whose Wikidata ID the registry
   already holds; `names.py mark` places the marks from a spec, which is
-  kept in `create-tools/names/examples/` as the record.
+  kept in `create-tools/names/examples/` as the record. A real article
+  about a namesake passes every tool without a warning: "Hideo Kodama" is
+  a politician, "Joseph R. Brown" a Minnesota senator, "Robin Forrest" a
+  priest (sprint 026 met four). Read the description `lookup` prints and
+  the article's first line before you cite it or draft a name.
 - **Read the primary source.** Many papers are PDFs, and older ones are
   scans with no text layer. `uv run create-tools/read-source/read_source.py
 paper.pdf` prints the text and names the scanned pages; `--png DIR
@@ -468,7 +478,17 @@ DIR` writes its text. Old books and documents are often on Wikisource
   from the item's full-text search (sprint 025 caught a misprinted 1744
   edition of Boyle's table that way). Oracc's cuneiform
   editions serve an incomplete certificate chain, so fetch them with
-  `curl -k`; they are still the edition to cite.
+  `curl -k`; they are still the edition to cite (so does _Gladius_, whose
+  plain `curl` fails silently with an empty file). Sprint 026 added: for a
+  closed paper, Crossref's `abstract` field and OpenAlex's
+  `abstract_inverted_index` give at least the abstract (cite it as what you
+  read); HAL's API field `fileMain_s` says whether a record has a file at
+  all before you try `/document`; an Internet Archive item whose
+  `/download/` answers 500 can be read from the storage path its
+  `/metadata/<id>` gives; a Figshare-backed repository's file comes from
+  `ndownloader.figshare.com/files/<id>`. Where OCR drops or changes words,
+  check every quotation against the page image (one sprint 026 draft
+  misquoted Moxon from the text layer).
 - **Charts are inlined** into the reading, through the same sanitiser as a
   scene, so they follow the reader's palette. Make them with `bar-chart`,
   or draw one by hand in `currentColor` with the `muted` and `accent`

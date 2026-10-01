@@ -169,7 +169,7 @@ def add(paths, names_dir, update=False, check=False):
         item = json.loads(f.read_text()).get('wikidata')
         if item:
             held[item] = f.stem
-    refused, writes = [], []
+    refused, writes, kept = [], [], []
     for f in drafts(paths):
         name = json.loads(f.read_text())
         problems = name_problems(name)
@@ -182,6 +182,7 @@ def add(paths, names_dir, update=False, check=False):
             refused.append(f"{f}: {name['wikidata']} is already names/{other}.json")
             continue
         if target.exists() and not update:
+            kept.append(name['id'])
             continue
         if name['wikidata']:
             held[name['wikidata']] = name['id']
@@ -189,6 +190,9 @@ def add(paths, names_dir, update=False, check=False):
     if refused or check:
         if check and not refused:
             print(f'add --check: {len(writes)} to write, nothing refused')
+            if kept:
+                # Another author's draft may have reached the registry meanwhile (sprint 026).
+                print(f"add --check: {len(kept)} already in the registry, left alone: {', '.join(kept)}")
         return refused
     names_dir.mkdir(parents=True, exist_ok=True)
     for target, name in writes:

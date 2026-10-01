@@ -28,7 +28,7 @@ python3 create-tools/names/names.py reach western-civ
   repo's JSON. A name already there is left alone unless `--update`. A
   draft whose Wikidata item another file already holds is refused, naming
   that file: use its id instead. A malformed draft is refused too. If
-  anything is refused nothing is written, and `--check` only reports: the refusals, or one line saying how many it would write (sprint 025, whose authors could not tell a pass from a no-op).
+  anything is refused nothing is written, and `--check` only reports: the refusals, or one line saying how many it would write (sprint 025, whose authors could not tell a pass from a no-op), and a second naming any draft it leaves alone because the registry already holds that id (sprint 026, where other authors' names landed mid-run).
 - **`mark`** reads a spec, `{"<subject>/<frame>": [["words", "<name id>"],
 ...]}`, and marks each name's first mention in the frame's reading as
   `[words](kloom:e/<id>)`. The words are matched as the reading writes
