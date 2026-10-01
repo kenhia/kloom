@@ -24,6 +24,10 @@
 		{
 			"to": "chemistry/bessemer-steel",
 			"why": "Iron with about 4 per cent carbon melts near 1,150 °C, which is what let Chinese founders pour it; they took the carbon out again by fining in an open hearth under a blast, as Bessemer's converter did by blowing air through the molten iron."
+		},
+		{
+			"to": "making/iron-carbon",
+			"why": "Cast iron pours because iron with 4.3% carbon, the eutectic on the iron–carbon diagram, melts some 400 °C lower than pure iron."
 		}
 	],
 	"citations": [
