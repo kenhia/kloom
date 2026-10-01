@@ -1323,6 +1323,31 @@ whose findings go to korg 3461. It is described in its sprint record.
   for algebra, analysis and geometry, terminal and printout for
   probability, logic and machines. The lowest contrast is 5.5:1.
 
+## The seventh subject
+
+Built in sprint 025 (korg 3430): `subjects/chemistry`, the History of
+Chemistry, the second of three runs of `skills/author-subject/SKILL.md`
+whose findings go to korg 3461. It is described in its sprint record.
+
+- **Dates, then categories.** 53 main-spine frames: four `date` segments
+  from the first smelted copper (c. 5000 BC) to the Curies' radium
+  (1898), then `category` segments for industry, the chemical bond,
+  materials, the chemistry of life, and chemistry now. Three date trails:
+  alchemy's last century (on `boyle`), finding the elements (on
+  `periodic-table`) and from dyes to drugs (on `mauveine`). The engine
+  needed nothing new.
+- **Chemistry done, not described.** Every reading does one piece of
+  chemistry: an equation with its masses worked, an isotope pattern, a
+  recipe read as a ratio, a law checked against the original numbers.
+- **Links.** 108 connections are stored on its frames, 58 of them into
+  other subjects (22 physics, 14 western-civ, 7 computing, 6 mathematics,
+  5 feynman, 4 ai); its links to the making subject (korg 3431) wait on
+  that subject and are listed there.
+- **Its own look.** Four dark/light pairs: furnace and alum to 1600,
+  retort and filter for the laboratory to 1900, coaltar and enamel for
+  industry, dyes, drugs and materials, helix and agar for the bond, life
+  and the present. The lowest contrast is 5.6:1.
+
 ## Start screen
 
 Built in sprint 002 (korg 3359). The page opens on a modal start screen over
