@@ -243,6 +243,10 @@
 		{
 			"to": "blood/lis",
 			"why": "The checklist's sign out has the nurse read each specimen's label aloud with the patient's name, against the mislabelled specimen that laboratory information systems were built to catch."
+		},
+		{
+			"to": "nursing/surgical-count",
+			"why": "The checklist's sign out asks the nurse to confirm the counts are complete."
 		}
 	]
 }

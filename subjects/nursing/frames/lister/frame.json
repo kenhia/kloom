@@ -181,5 +181,11 @@
 			"licence": "CC BY 4.0",
 			"file": "carbolic-spray.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/asepsis",
+			"why": "Asepsis, keeping germs out of the wound, was defined against Lister's antisepsis, killing them in it."
+		}
 	]
 }

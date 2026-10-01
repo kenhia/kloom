@@ -277,5 +277,11 @@
 			"licence": "MIT",
 			"file": "density.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/magnet",
+			"why": "Linda Aiken's research tied the number of patients a nurse carries to how many of them die."
+		}
 	]
 }

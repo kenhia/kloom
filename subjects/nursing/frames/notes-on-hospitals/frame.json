@@ -150,5 +150,15 @@
 			"file": "herbert-plan.jpg",
 			"note": "Published in London in 1863"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/hospital-statistics",
+			"why": "Her 1863 table reckoned deaths against the patients present on census day; her statistical forms tried to make every hospital reckon them the same way."
+		},
+		{
+			"to": "nursing/nightingale-school",
+			"why": "St Thomas', where her school was, was rebuilt on the pavilion plan."
+		}
 	]
 }

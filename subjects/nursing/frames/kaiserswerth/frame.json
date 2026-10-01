@@ -189,5 +189,11 @@
 			"file": "friederike-fliedner.jpg",
 			"note": "Published in the US in 1940 without a copyright renewal"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/scutari",
+			"why": "Nightingale trained at Kaiserswerth in 1851, three years before she led the nurses at Scutari."
+		}
 	]
 }

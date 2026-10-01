@@ -183,5 +183,11 @@
 			"note": "Published in the United States in 1909",
 			"file": "nurses-bag.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/goldmark-report",
+			"why": "Lillian Wald sat on the committee whose study began with public health nursing."
+		}
 	]
 }

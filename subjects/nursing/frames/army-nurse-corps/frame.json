@@ -221,5 +221,11 @@
 			"published": "1893",
 			"note": "Published in the US in 1893"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/sacred-twenty",
+			"why": "The 1908 act gave Navy nurses the same pay, allowances and privileges as the Army's nurse corps of 1901."
+		}
 	]
 }

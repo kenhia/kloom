@@ -120,5 +120,11 @@
 			"file": "report-1879.jpg",
 			"note": "Published in the United States in 1879"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/training-schools",
+			"why": "Mahoney trained at the New England Hospital for Women and Children, one of the first American training schools."
+		}
 	]
 }

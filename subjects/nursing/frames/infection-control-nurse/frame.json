@@ -313,5 +313,15 @@
 			"container": "Centers for Disease Control and Prevention, Public Health Image Library, PHIL 2641",
 			"published": "1972"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/hospital-statistics",
+			"why": "The infection control nurse counted infections the same way in every ward and compared them, as Nightingale's forms asked hospitals to count their sick."
+		},
+		{
+			"to": "nursing/hand-hygiene",
+			"why": "Geneva's infection control team stood in the wards and counted how often hands were cleaned: the infection control nurse's surveillance turned on the commonest route of all."
+		}
 	]
 }

@@ -200,5 +200,11 @@
 			"note": "Published in the United States in 1900",
 			"file": "ajn-1900.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/training-schools",
+			"why": "State registration answered the unregulated spread of hospital training schools."
+		}
 	]
 }

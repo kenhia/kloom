@@ -1,7 +1,10 @@
 {
 	"id": "rose-diagram",
 	"topic": "Nightingale's rose diagram",
-	"position": { "label": "1858", "sort": 1858 },
+	"position": {
+		"label": "1858",
+		"sort": 1858
+	},
 	"scene": {
 		"headline": "We drew the dead as",
 		"accent": "WEDGES.",
@@ -11,12 +14,19 @@
 			"LONDON · FLORENCE NIGHTINGALE · WILLIAM FARR",
 			"THE ARMY IN THE EAST · APRIL 1854 TO MARCH 1856 · TWO WHEELS"
 		],
-		"counter": { "value": "1,174", "label": "deaths a year per 1,000 men, at January 1855's rate" }
+		"counter": {
+			"value": "1,174",
+			"label": "deaths a year per 1,000 men, at January 1855's rate"
+		}
 	},
 	"connections": [
 		{
 			"to": "mathematics/normal-distribution",
 			"why": "Few books impressed Nightingale more than Adolphe Quetelet's social statistics, the work that carried the law of error from the sky to people."
+		},
+		{
+			"to": "nursing/farr",
+			"why": "William Farr worked through the army's figures with Nightingale, and his classification of causes gave the diagram its zymotic wedges."
 		}
 	],
 	"citations": [
@@ -24,7 +34,12 @@
 			"kind": "book",
 			"key": true,
 			"title": "Mortality of the British Army, at Home, at Home and Abroad, and during the Russian War, as Compared with the Mortality of the Civil Population in England",
-			"authors": [{ "family": "Nightingale", "given": "Florence" }],
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
 			"publisher": "Harrison and Sons",
 			"place": "London",
 			"published": "1858",
@@ -36,7 +51,12 @@
 			"kind": "book",
 			"key": true,
 			"title": "Notes on Matters Affecting the Health, Efficiency, and Hospital Administration of the British Army, Founded Chiefly on the Experience of the Late War",
-			"authors": [{ "family": "Nightingale", "given": "Florence" }],
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
 			"publisher": "Harrison and Sons",
 			"place": "London",
 			"published": "1858",
@@ -48,7 +68,12 @@
 			"kind": "web",
 			"key": true,
 			"title": "Florence Nightingale's Statistical Diagrams",
-			"authors": [{ "family": "Small", "given": "Hugh" }],
+			"authors": [
+				{
+					"family": "Small",
+					"given": "Hugh"
+				}
+			],
 			"container": "Stats & Lamps Research Conference, Florence Nightingale Museum",
 			"publisher": "University of York, Department of Mathematics",
 			"published": "1998-03-18",
@@ -59,7 +84,12 @@
 		{
 			"kind": "web",
 			"title": "How Florence Nightingale's Diagram Saved Millions of People from Fatal Epidemic Disease",
-			"authors": [{ "family": "Small", "given": "Hugh" }],
+			"authors": [
+				{
+					"family": "Small",
+					"given": "Hugh"
+				}
+			],
 			"container": "Florence Nightingale Avenging Angel",
 			"published": "2010-10-07",
 			"url": "https://www.florence-nightingale-avenging-angel.co.uk/blog/florence-nightingale-statistical-diagram/",
@@ -70,7 +100,12 @@
 			"kind": "article",
 			"key": true,
 			"title": "The Golden Age of Statistical Graphics",
-			"authors": [{ "family": "Friendly", "given": "Michael" }],
+			"authors": [
+				{
+					"family": "Friendly",
+					"given": "Michael"
+				}
+			],
 			"container": "Statistical Science",
 			"volume": "23",
 			"issue": "4",
@@ -84,7 +119,12 @@
 		{
 			"kind": "book",
 			"title": "The Life of Florence Nightingale, vol. 1",
-			"authors": [{ "family": "Cook", "given": "Edward" }],
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Edward"
+				}
+			],
 			"publisher": "Macmillan",
 			"place": "London",
 			"published": "1913",
@@ -97,7 +137,11 @@
 			"title": "Pie chart",
 			"url": "https://en.wikipedia.org/w/index.php?title=Pie_chart&oldid=1377248660",
 			"accessed": "2026-10-01",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-28"
@@ -107,7 +151,11 @@
 			"title": "Zymotic disease",
 			"url": "https://en.wikipedia.org/w/index.php?title=Zymotic_disease&oldid=1371055252",
 			"accessed": "2026-10-01",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-08-24"
@@ -117,7 +165,11 @@
 			"title": "Florence Nightingale",
 			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Nightingale&oldid=1375983362",
 			"accessed": "2026-10-01",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-21"
@@ -129,7 +181,12 @@
 			"accessed": "2026-10-01",
 			"licence": "Public domain",
 			"file": "rose.jpg",
-			"authors": [{ "family": "Nightingale", "given": "Florence" }],
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
 			"container": "Notes on Matters Affecting the Health, Efficiency, and Hospital Administration of the British Army; David Rumsey Map Collection",
 			"published": "1858"
 		},
@@ -140,7 +197,12 @@
 			"accessed": "2026-10-01",
 			"licence": "Public domain",
 			"file": "batwing.jpg",
-			"authors": [{ "family": "Nightingale", "given": "Florence" }],
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
 			"container": "Mortality of the British Army, Diagram K; David Rumsey Map Collection",
 			"published": "1858"
 		}

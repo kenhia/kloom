@@ -244,5 +244,11 @@
 			"file": "ether-daguerreotype.jpg",
 			"note": "A daguerreotype of an operation under ether in the Ether Dome, late spring 1847"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/nurse-anesthetist",
+			"why": "Giving the ether and watching the breathing, the job of whoever stood at the patient's head in 1846, became the nurse anesthetist's."
+		}
 	]
 }

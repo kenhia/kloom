@@ -212,5 +212,11 @@
 			],
 			"published": "2026"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/rose-diagram",
+			"why": "The deaths at Scutari, rising through the winter and falling after the Sanitary Commission's work in March 1855, are what the rose diagram's first wheel draws."
+		}
 	]
 }

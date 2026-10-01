@@ -242,5 +242,11 @@
 			"licence": "MIT",
 			"file": "hospices.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/nightingale-school",
+			"why": "Cicely Saunders trained as a nurse at the Nightingale school at St Thomas'."
+		}
 	]
 }

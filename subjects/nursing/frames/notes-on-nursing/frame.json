@@ -221,5 +221,11 @@
 			"published": "1860",
 			"circa": true
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/nightingale-school",
+			"why": "In the 1870s a surgeon teaching the school's probationers at St Thomas' told them to read Notes on Nursing at least four times."
+		}
 	]
 }

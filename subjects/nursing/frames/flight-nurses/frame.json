@@ -96,5 +96,11 @@
 			"container": "Franklin D. Roosevelt Library Public Domain Photographs, National Archives and Records Administration (NAID 195934)",
 			"published": "1943-12-01"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/mash",
+			"why": "After the war's air evacuation, Korea brought the next step: the wounded reached a field hospital by helicopter."
+		}
 	]
 }

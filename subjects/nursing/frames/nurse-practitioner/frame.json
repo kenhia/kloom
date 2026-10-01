@@ -288,5 +288,11 @@
 			"licence": "MIT",
 			"file": "np-count.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/nurse-anesthetist",
+			"why": "The nurse anesthetist is the oldest of the advanced practice roles the nurse practitioner joined."
+		}
 	]
 }

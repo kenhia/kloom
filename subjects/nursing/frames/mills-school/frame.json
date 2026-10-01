@@ -28,6 +28,10 @@
 		{
 			"to": "ai/word2vec",
 			"why": "The word2vec vectors trained on Google News answered \"a father is to a doctor as a mother is to x\" with nurse, the assumption about who nurses that the men's schools ran against."
+		},
+		{
+			"to": "nursing/men-commissioned",
+			"why": "The acts that made the Army and Navy nurse corps female kept the men the schools trained out of military nursing until 1955."
 		}
 	],
 	"citations": [

@@ -201,5 +201,15 @@
 			"container": "National Archives, 428-GX-USN 1151703; National Museum of the U.S. Navy",
 			"published": "1972-06-01"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/nurse-rank",
+			"why": "Duerk's promotion was possible only after Public Law 90-130 of 1967 lifted the ceilings on women's rank."
+		},
+		{
+			"to": "nursing/sacred-twenty",
+			"why": "The Corps the Sacred Twenty began in 1908 had its first admiral, its director, in 1972."
+		}
 	]
 }

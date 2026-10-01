@@ -229,5 +229,11 @@
 			],
 			"container": "Wellcome Collection, General Collections"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/training-schools",
+			"why": "The first American schools of 1873 were founded on the Nightingale model of St Thomas'."
+		}
 	]
 }

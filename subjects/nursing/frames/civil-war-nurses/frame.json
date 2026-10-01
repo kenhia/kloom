@@ -249,5 +249,11 @@
 			"published": "1862-07-14",
 			"note": "A work of the US government"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/sacred-twenty",
+			"why": "Esther Hasson, the Navy Nurse Corps' first superintendent, said that reading Hospital Sketches as a child made her want to nurse soldiers."
+		}
 	]
 }

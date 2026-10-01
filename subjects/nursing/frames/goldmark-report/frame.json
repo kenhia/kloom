@@ -172,5 +172,11 @@
 			"licence": "MIT",
 			"file": "weekly-hours.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/training-schools",
+			"why": "Yale's first nursing class graduated in 1926 at a ceremony shared with the last class of the Connecticut Training School, one of the schools of 1873."
+		}
 	]
 }

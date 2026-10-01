@@ -126,5 +126,11 @@
 			"licence": "MIT",
 			"file": "first-clinic-1847.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/hand-hygiene",
+			"why": "Semmelweis's washing in chlorinated lime in 1847 is where the story of hand hygiene begins."
+		}
 	]
 }

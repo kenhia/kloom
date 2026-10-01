@@ -117,5 +117,11 @@
 			"published": "1869",
 			"circa": true
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/scutari",
+			"why": "Seacole spent a night at the Barrack Hospital at Scutari early in 1855, on her way to the front."
+		}
 	]
 }

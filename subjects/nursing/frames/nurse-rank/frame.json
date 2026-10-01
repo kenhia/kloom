@@ -181,5 +181,15 @@
 			"url": "https://commons.wikimedia.org/wiki/File:Sue_S_Dauser.jpg",
 			"accessed": "2026-10-01"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/sacred-twenty",
+			"why": "The 1908 act gave the Navy's first nurses no rank; commissioned rank came only in 1947."
+		},
+		{
+			"to": "nursing/men-commissioned",
+			"why": "The 1947 act's corps were of women; men were commissioned as reserve nurses from 1955."
+		}
 	]
 }

@@ -1,7 +1,10 @@
 {
 	"id": "men-commissioned",
 	"topic": "Men commissioned as nurses",
-	"position": { "label": "1955", "sort": 1955 },
+	"position": {
+		"label": "1955",
+		"sort": 1955
+	},
 	"scene": {
 		"headline": "We struck out",
 		"accent": "FEMALE.",
@@ -11,7 +14,10 @@
 			"PUBLIC LAW 294 · 9 AUGUST 1955 · FRANCES PAYNE BOLTON",
 			"2ND LT. EDWARD L. T. LYON, ARMY NURSE CORPS RESERVE · 6 OCTOBER 1955"
 		],
-		"counter": { "value": "54", "label": "years from the Army's women-only corps to its first man" }
+		"counter": {
+			"value": "54",
+			"label": "years from the Army's women-only corps to its first man"
+		}
 	},
 	"citations": [
 		{
@@ -20,8 +26,14 @@
 			"title": "Highlights in the History of the Army Nurse Corps",
 			"number": "CMH Pub 85-1",
 			"editors": [
-				{ "family": "Feller", "given": "Carolyn M." },
-				{ "family": "Moore", "given": "Constance J." }
+				{
+					"family": "Feller",
+					"given": "Carolyn M."
+				},
+				{
+					"family": "Moore",
+					"given": "Constance J."
+				}
 			],
 			"publisher": "U.S. Army Center of Military History",
 			"place": "Washington, DC",
@@ -34,7 +46,11 @@
 			"kind": "web",
 			"key": true,
 			"title": "Proud to Serve: The Evolution of Male Army Nurse Corps Officers",
-			"authors": [{ "name": "Army Nurse Corps History Office" }],
+			"authors": [
+				{
+					"name": "Army Nurse Corps History Office"
+				}
+			],
 			"container": "AMEDD Center of History and Heritage",
 			"publisher": "U.S. Army Medical Department",
 			"url": "https://achh.army.mil/history/articles-malenurses/",
@@ -45,7 +61,11 @@
 			"kind": "web",
 			"key": true,
 			"title": "Public Law 294: An Act to Authorize Male Nurses and Medical Specialists to Be Appointed as Reserve Officers",
-			"authors": [{ "name": "United States Congress" }],
+			"authors": [
+				{
+					"name": "United States Congress"
+				}
+			],
 			"container": "United States Statutes at Large, vol. 69",
 			"publisher": "U.S. Government Printing Office",
 			"pages": "579",
@@ -56,7 +76,11 @@
 		{
 			"kind": "web",
 			"title": "The History of the Navy Nurse Corps",
-			"authors": [{ "name": "Naval History and Heritage Command" }],
+			"authors": [
+				{
+					"name": "Naval History and Heritage Command"
+				}
+			],
 			"container": "Naval History and Heritage Command",
 			"publisher": "U.S. Navy",
 			"published": "2025-01-16",
@@ -69,7 +93,11 @@
 			"title": "United States Navy Nurse Corps",
 			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Navy_Nurse_Corps&oldid=1368272768",
 			"accessed": "2026-10-01",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-08-08"
@@ -77,7 +105,12 @@
 		{
 			"kind": "web",
 			"title": "Navy Nurse Corps Anniversary",
-			"authors": [{ "family": "Bostic", "given": "Symira" }],
+			"authors": [
+				{
+					"family": "Bostic",
+					"given": "Symira"
+				}
+			],
 			"container": "DVIDS",
 			"publisher": "Marine Corps Air Station Cherry Point",
 			"published": "2021-06-04",
@@ -91,9 +124,19 @@
 			"accessed": "2026-10-01",
 			"licence": "Public domain",
 			"file": "public-law-294.jpg",
-			"authors": [{ "name": "United States Congress" }],
+			"authors": [
+				{
+					"name": "United States Congress"
+				}
+			],
 			"container": "United States Statutes at Large, vol. 69, p. 579",
 			"published": "1955-08-09"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/nurse-anesthetist",
+			"why": "The first man commissioned in the Army Nurse Corps, Edward Lyon in 1955, was a nurse anesthetist."
 		}
 	]
 }

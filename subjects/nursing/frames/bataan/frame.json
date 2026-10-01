@@ -151,5 +151,11 @@
 			"published": "1945-02-20",
 			"note": "Brig. Gen. Guy B. Denit presents Bronze Stars at the 1st Convalescent Hospital, Tolosa, Leyte"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/navy-pow",
+			"why": "The Navy's eleven nurses captured in Manila were held with the Army nurses at Santo Tomas before they were moved to Los Baños."
+		}
 	]
 }

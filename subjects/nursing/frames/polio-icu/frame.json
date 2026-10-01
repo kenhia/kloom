@@ -234,5 +234,11 @@
 			"licence": "MIT",
 			"file": "mortality.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/vital-signs",
+			"why": "Blegdam's nurses and students recorded the blood pressure, pulse and breathing of every ventilated patient, around the clock."
+		}
 	]
 }

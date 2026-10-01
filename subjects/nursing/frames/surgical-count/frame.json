@@ -332,5 +332,11 @@
 			"licence": "MIT",
 			"file": "risk.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/aorn",
+			"why": "The operating-room nurses' association's standards have long required the counts and sponges an X-ray can find."
+		}
 	]
 }
