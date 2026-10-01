@@ -13,6 +13,12 @@
 			"frames": ["harvey", "malpighi", "red-cells"]
 		},
 		{
+			"id": "transfusion",
+			"title": "Transfusion",
+			"labelKind": "date",
+			"frames": ["early-transfusion", "blundell", "abo"]
+		},
+		{
 			"id": "dedication-seg",
 			"title": "Dedication",
 			"labelKind": "category",

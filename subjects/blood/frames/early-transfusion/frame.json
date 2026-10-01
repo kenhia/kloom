@@ -1,0 +1,154 @@
+{
+	"id": "early-transfusion",
+	"topic": "The first transfusions",
+	"position": { "label": "1665–68", "sort": 1665 },
+	"scene": {
+		"headline": "We ran one animal's blood into",
+		"accent": "ANOTHER.",
+		"palette": "vein",
+		"illustration": "scene.svg",
+		"metadata": ["OXFORD · PARIS · LONDON", "RICHARD LOWER · JEAN-BAPTISTE DENIS · EDMUND KING"],
+		"counter": { "value": "9–10 oz", "label": "of sheep's blood in Arthur Coga, by reckoning" }
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Method Observed in Transfusing the Bloud out of One Live Animal into Another",
+			"authors": [{ "family": "Lower", "given": "Richard" }],
+			"container": "Philosophical Transactions of the Royal Society",
+			"volume": "1",
+			"issue": "20",
+			"pages": "353–358",
+			"published": "1666-12-17",
+			"doi": "10.1098/rstl.1665.0128",
+			"accessed": "2026-10-01",
+			"note": "Lower's letter, communicated by Boyle, with the editor's notes; read in JSTOR's Early Journal Content copy"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The First Human Blood Transfusion",
+			"authors": [{ "family": "Farr", "given": "A. D." }],
+			"container": "Medical History",
+			"volume": "24",
+			"issue": "2",
+			"pages": "143–162",
+			"published": "1980",
+			"doi": "10.1017/S0025727300040138",
+			"accessed": "2026-10-01",
+			"note": "Denis's first human cases, his reasons, and the Châtelet sentence"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Extract of a Letter, Written by J. Denis … Touching a Late Cure of an Inveterate Phrensy by the Transfusion of Bloud",
+			"authors": [{ "family": "Denis", "given": "Jean-Baptiste" }],
+			"container": "Philosophical Transactions of the Royal Society",
+			"volume": "2",
+			"issue": "32",
+			"pages": "617–624",
+			"published": "1668",
+			"doi": "10.1098/rstl.1666.0065",
+			"accessed": "2026-10-01",
+			"note": "Mauroy's first two transfusions"
+		},
+		{
+			"kind": "article",
+			"title": "An Extract of a Printed Letter, Addressed to the Publisher, by M. Jean Denis … Touching the Differences Risen about the Transfusion of Bloud",
+			"authors": [{ "family": "Denis", "given": "Jean-Baptiste" }],
+			"container": "Philosophical Transactions of the Royal Society",
+			"volume": "3",
+			"issue": "36",
+			"pages": "710–715",
+			"published": "1668",
+			"doi": "10.1098/rstl.1668.0021",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Account of the Experiment of Transfusion, Practised upon a Man in London",
+			"authors": [{ "family": "King", "given": "Edmund" }],
+			"container": "Philosophical Transactions of the Royal Society",
+			"volume": "2",
+			"issue": "30",
+			"pages": "557–559",
+			"published": "1667-12-09",
+			"doi": "10.1098/rstl.1666.0053",
+			"accessed": "2026-10-01",
+			"note": "Coga's transfusion and the reckoning of its dose"
+		},
+		{
+			"kind": "web",
+			"title": "Wednesday 14 November 1666",
+			"authors": [{ "family": "Pepys", "given": "Samuel" }],
+			"container": "The Diary of Samuel Pepys",
+			"url": "https://www.pepysdiary.com/diary/1666/11/14/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Thursday 21 November 1667",
+			"authors": [{ "family": "Pepys", "given": "Samuel" }],
+			"container": "The Diary of Samuel Pepys",
+			"url": "https://www.pepysdiary.com/diary/1667/11/21/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Saturday 30 November 1667",
+			"authors": [{ "family": "Pepys", "given": "Samuel" }],
+			"container": "The Diary of Samuel Pepys",
+			"url": "https://www.pepysdiary.com/diary/1667/11/30/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Lower (physician)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Lower_(physician)&oldid=1377152559",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean-Baptiste Denys",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean-Baptiste_Denys&oldid=1372307359",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood transfusion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_transfusion&oldid=1377205322",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Apparatus used by Richard Lower for the transfusion of blood",
+			"url": "https://commons.wikimedia.org/wiki/File:Apparatus_for_blood_transfusion,_1666._Wellcome_M0005094.jpg",
+			"accessed": "2026-10-01",
+			"authors": [{ "family": "Lower", "given": "Richard" }],
+			"container": "Richard Lower, Tractatus de corde (Amsterdam: Elzevir, 1669), Tab. 7; Wellcome Collection, via Wikimedia Commons",
+			"published": "1669",
+			"licence": "CC BY 4.0",
+			"file": "lower-pipes.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/humours",
+			"why": "Denis gave a madman calf's blood because its 'mildness and freshness' might allay the 'heat and ebullition' of his own: the first transfusions into people were reasoned as tempering blood's hot and cold qualities, the logic of the humours."
+		}
+	]
+}

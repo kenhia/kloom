@@ -1,0 +1,29 @@
+{
+	"blood/early-transfusion": [
+		["Blood transfusion", "blood-transfusion"],
+		["Richard Lower", "richard-lower-physician"],
+		["Robert Boyle", "robert-boyle"],
+		["Royal Society", "royal-society"],
+		["_Philosophical Transactions_", "philosophical-transactions-of-the-royal-society"],
+		["Samuel Pepys", "samuel-pepys"],
+		["Jean-Baptiste Denis", "jean-baptiste-denys"],
+		["Edmund King", "edmund-king-physician"]
+	],
+	"blood/blundell": [
+		["James Blundell", "james-blundell-physician"],
+		["Guy's Hospital", "guys-hospital"],
+		["transfusion", "blood-transfusion"],
+		["postpartum haemorrhage", "postpartum-bleeding"],
+		["_The Lancet_", "the-lancet"]
+	],
+	"blood/abo": [
+		["University of Vienna", "university-of-vienna"],
+		["Karl Landsteiner", "karl-landsteiner"],
+		["blood groups", "blood-type"],
+		["ABO blood group system", "abo-blood-group-system"],
+		["agglutination", "agglutination-biology"],
+		["Reuben Ottenberg", "reuben-ottenberg"],
+		["Mount Sinai Hospital", "mount-sinai-hospital-manhattan"],
+		["Nobel Prize in Physiology or Medicine", "nobel-prize-in-physiology-or-medicine"]
+	]
+}
