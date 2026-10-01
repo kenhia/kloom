@@ -1,0 +1,9 @@
+{
+	"id": "apt-programming-language",
+	"wikidata": "Q787227",
+	"name": "APT",
+	"aliases": ["Automatically Programmed Tools", "APT (programming language)"],
+	"kind": "idea",
+	"description": "Automatically Programmed Tools, the language devised at MIT from 1956 in which a part's geometry is written in words and a computer works out a machine tool's path.",
+	"home": "making/numerical-control"
+}

@@ -4,5 +4,6 @@
 	"name": "G-code",
 	"aliases": ["RS-274"],
 	"kind": "idea",
-	"description": "The language of lettered words and numbers, standardised as RS-274 and ISO 6983, that numerically controlled machine tools and 3D printers run."
+	"description": "The language of lettered words and numbers, standardised as RS-274 and ISO 6983, that numerically controlled machine tools and 3D printers run.",
+	"home": "making/g-code"
 }

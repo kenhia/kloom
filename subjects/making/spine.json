@@ -54,6 +54,12 @@
 			"frames": ["injection-moulding", "lego-brick", "unimate"]
 		},
 		{
+			"id": "code",
+			"title": "Code and machine",
+			"labelKind": "date",
+			"frames": ["numerical-control", "bezier-curves", "g-code"]
+		},
+		{
 			"id": "additive",
 			"title": "Layer by layer",
 			"labelKind": "date",

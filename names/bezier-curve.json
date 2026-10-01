@@ -1,0 +1,9 @@
+{
+	"id": "bezier-curve",
+	"wikidata": "Q214728",
+	"name": "Bézier curve",
+	"aliases": ["Bézier curves"],
+	"kind": "idea",
+	"description": "A smooth curve defined by a few control points, worked out for car bodies at Citroën and Renault around 1960 and now the standard curve of fonts, PostScript and drawing programs.",
+	"home": "making/bezier-curves"
+}

@@ -23,6 +23,10 @@
 		{
 			"to": "computing/free-software",
 			"why": "Slic3r was released under the GNU Affero GPL, a copyleft licence, so the slicers forked from it, PrusaSlicer and Bambu Studio among them, had to keep its licence and publish their source."
+		},
+		{
+			"to": "making/g-code",
+			"why": "A slicer writes its result as G-code, the same language of numbered words that machine tools run."
 		}
 	],
 	"citations": [

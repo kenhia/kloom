@@ -1,0 +1,174 @@
+{
+	"id": "numerical-control",
+	"topic": "Numerical control",
+	"position": {
+		"label": "1952",
+		"sort": 1952
+	},
+	"scene": {
+		"headline": "We cut every curve in",
+		"accent": "CHORDS.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARSONS CORP. · MIT SERVOMECHANISMS LABORATORY",
+			"PUNCHED CARDS · SEVEN-TRACK TAPE · WHIRLWIND · APT"
+		],
+		"counter": {
+			"value": "15 min",
+			"label": "to program and mill a part with Whirlwind's help, against 8 hours"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/whirlwind",
+			"why": "Whirlwind computed the first numerical-control tapes: John Runyon's subroutines of 1952–54, then Arnold Siegel's 1955 program that read a part described in words and punched the tape."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Automatically Programmed Tool System. Volume I: General Description of the APT System",
+			"authors": [
+				{
+					"family": "Ross",
+					"given": "Douglas T."
+				}
+			],
+			"publisher": "Servomechanisms Laboratory, Massachusetts Institute of Technology",
+			"place": "Cambridge, MA",
+			"published": "1959",
+			"url": "https://archive.org/details/bitsavers_mitwhirlwie1GeneralDescriptionoftheAPTSystem1959_5339230",
+			"accessed": "2026-09-30",
+			"note": "The director, the history from 1952 to 1956, the sample part program, and tolerance setting the step"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Papers on Automatic Programming for Numerically Controlled Machine Tools",
+			"authors": [
+				{
+					"family": "Ross",
+					"given": "Douglas T."
+				}
+			],
+			"number": "6873-TM-3",
+			"publisher": "Servomechanisms Laboratory, Massachusetts Institute of Technology",
+			"place": "Cambridge, MA",
+			"published": "1958-01-07",
+			"url": "https://archive.org/details/bitsavers_mitwhirlwi8_2691048",
+			"accessed": "2026-09-30",
+			"note": "A paper of October 1957: the 1952 machine, the Whirlwind subroutines and Siegel's language"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Motor Controlled Apparatus for Positioning Machine Tool, US Patent 2,820,187",
+			"authors": [
+				{
+					"family": "Parsons",
+					"given": "John T."
+				},
+				{
+					"family": "Stulen",
+					"given": "Frank L."
+				}
+			],
+			"container": "Google Patents",
+			"published": "1958-01-14",
+			"url": "https://patents.google.com/patent/US2820187A/en",
+			"accessed": "2026-09-30",
+			"note": "Filed 5 May 1952"
+		},
+		{
+			"kind": "report",
+			"title": "A Proposed Translation Program for the Numerically Controlled Milling Machine",
+			"number": "Memorandum DCL-49",
+			"authors": [
+				{
+					"family": "Siegel",
+					"given": "Arnold"
+				}
+			],
+			"publisher": "Digital Computer Laboratory, Massachusetts Institute of Technology",
+			"place": "Cambridge, MA",
+			"published": "1955-01-26",
+			"url": "https://archive.org/details/bitsavers_mitwhirlwiroposedTranslationProgramfortheNumerical_220384",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of numerical control",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_numerical_control&oldid=1365053684",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John T. Parsons",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_T._Parsons&oldid=1336493649",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "APT (programming language)",
+			"url": "https://en.wikipedia.org/w/index.php?title=APT_(programming_language)&oldid=1305031122",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sagitta (geometry)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sagitta_(geometry)&oldid=1369133464",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13"
+		},
+		{
+			"kind": "media",
+			"title": "The MIT numerically controlled milling machine, Fig. 1 of Ross's Papers on Automatic Programming (1958)",
+			"url": "https://archive.org/details/bitsavers_mitwhirlwi8_2691048",
+			"accessed": "2026-09-30",
+			"container": "Servomechanisms Laboratory, MIT, via the Internet Archive (bitsavers)",
+			"licence": "Public domain",
+			"file": "mit-nc-mill.jpg",
+			"authors": [
+				{
+					"name": "Servomechanisms Laboratory, Massachusetts Institute of Technology"
+				}
+			],
+			"published": "1958",
+			"note": "Published in the United States in 1958 without a copyright notice"
+		}
+	]
+}

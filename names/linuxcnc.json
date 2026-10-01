@@ -1,0 +1,8 @@
+{
+	"id": "linuxcnc",
+	"wikidata": "Q426161",
+	"name": "LinuxCNC",
+	"aliases": ["EMC2", "Enhanced Machine Controller"],
+	"kind": "artifact",
+	"description": "Free software that runs CNC machines from an ordinary computer, grown from a public-domain controller NIST began in 1993."
+}
