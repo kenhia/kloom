@@ -1,0 +1,35 @@
+{
+	"blood/coulter": [
+		["Wallace H. Coulter", "wallace-h-coulter"],
+		["hemocytometer", "hemocytometer"],
+		["Coulter counter", "coulter-counter"],
+		["Ohm's law", "ohms-law"],
+		["National Institutes of Health", "national-institutes-of-health"],
+		["Office of Naval Research", "office-of-naval-research"]
+	],
+	"blood/autoanalyzer": [
+		["AutoAnalyzer", "autoanalyzer"],
+		["blood urea nitrogen", "blood-urea-nitrogen"],
+		["Otto Folin", "otto-folin"],
+		["Hsien Wu", "hsien-wu"],
+		["urea", "urea"],
+		["colorimeter", "colorimeter-chemistry"],
+		["Willem Kolff", "willem-johan-kolff"]
+	],
+	"blood/lis": [
+		["laboratory information system", "laboratory-information-management-system"],
+		["Food and Drug Administration", "food-and-drug-administration"],
+		["Massachusetts General Hospital", "massachusetts-general-hospital"],
+		["MUMPS", "mumps"],
+		["PDP-7", "pdp-7"],
+		["crossmatch", "cross-matching"],
+		["Codabar", "codabar"],
+		["ISBT 128", "isbt-128"]
+	],
+	"blood/gel-card": [
+		["agglutination", "agglutination-biology"],
+		["Bio-Rad", "bio-rad-laboratories"],
+		["Ortho Clinical Diagnostics", "ortho-clinical-diagnostics"],
+		["Coombs test", "coombs-test"]
+	]
+}

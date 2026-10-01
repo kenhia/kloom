@@ -1,0 +1,158 @@
+{
+	"id": "coulter",
+	"topic": "The Coulter principle",
+	"position": { "label": "1953", "sort": 1953 },
+	"scene": {
+		"headline": "We made each cell a",
+		"accent": "PULSE.",
+		"palette": "bench",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CHICAGO · WALLACE AND JOSEPH COULTER",
+			"A 0.1 MM ORIFICE · SALINE · A CURRENT · A COUNTER"
+		],
+		"counter": {
+			"value": "50,000",
+			"label": "cells counted in 15 seconds, against about 500 by eye"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "High Speed Automatic Blood Cell Counter and Cell Size Analyzer",
+			"authors": [{ "family": "Coulter", "given": "Wallace H." }],
+			"container": "Proceedings of the National Electronics Conference, 1956",
+			"volume": "12",
+			"pages": "1034–1042",
+			"place": "Chicago",
+			"publisher": "National Electronics Conference",
+			"published": "1957",
+			"url": "http://www.cyto.purdue.edu/cdroms/cyto10a/seminalcontributions/media/coulter/WHCproc.pdf",
+			"accessed": "2026-10-01",
+			"note": "The orifice, the dilution, the procedure, the coincidence correction and the hand count's error; read in the reprint on Purdue's cytometry CD"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "US Patent 2,656,508: Means for Counting Particles Suspended in a Fluid",
+			"authors": [{ "family": "Coulter", "given": "Wallace H." }],
+			"container": "Google Patents",
+			"published": "1953-10-20",
+			"url": "https://patents.google.com/patent/US2656508A/en",
+			"accessed": "2026-10-01",
+			"note": "Filed 27 August 1949"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Coulter Principle: For the Good of Humankind",
+			"authors": [{ "family": "Graham", "given": "Marshall" }],
+			"publisher": "University of Kentucky",
+			"number": "Theses and Dissertations—History 62 (MA thesis)",
+			"published": "2020",
+			"doi": "10.13023/etd.2020.495",
+			"url": "https://uknowledge.uky.edu/history_etds/62/",
+			"accessed": "2026-10-01",
+			"note": "The NIH evaluations (p. 62) and the Model A placements (Table 6.1, p. 79)"
+		},
+		{
+			"kind": "article",
+			"title": "The Coulter Principle: Foundation of an Industry",
+			"authors": [{ "family": "Graham", "given": "Marshall Don" }],
+			"container": "JALA: Journal of the Association for Laboratory Automation",
+			"volume": "8",
+			"issue": "6",
+			"pages": "72–81",
+			"published": "2003-12",
+			"doi": "10.1016/S1535-5535(03)00023-6",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "The Coulter Principle: Imaginary Origins",
+			"authors": [{ "family": "Graham", "given": "Marshall Don" }],
+			"container": "Cytometry Part A",
+			"volume": "83",
+			"issue": "12",
+			"pages": "1057–1061",
+			"published": "2013",
+			"doi": "10.1002/cyto.a.22398",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Determination of Number and Size of Particles by Electrical Gating: Blood Cells",
+			"authors": [
+				{ "family": "Mattern", "given": "Carl F. T." },
+				{ "family": "Brackett", "given": "Frederick S." },
+				{ "family": "Olson", "given": "Byron J." }
+			],
+			"container": "Journal of Applied Physiology",
+			"volume": "10",
+			"issue": "1",
+			"pages": "56–70",
+			"published": "1957-01",
+			"doi": "10.1152/jappl.1957.10.1.56",
+			"abstractOnly": true,
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Evaluation of Electronic Red Blood Cell Counter",
+			"authors": [
+				{ "family": "Brecher", "given": "George" },
+				{ "family": "Schneiderman", "given": "Marvin" },
+				{ "family": "Williams", "given": "George Z." }
+			],
+			"container": "American Journal of Clinical Pathology",
+			"volume": "26",
+			"issue": "12",
+			"pages": "1439–1449",
+			"published": "1956-12",
+			"doi": "10.1093/ajcp/26.12.1439",
+			"citedIn": "Graham, The Coulter Principle: For the Good of Humankind, p. 62",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Coulter counter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Coulter_counter&oldid=1364944004",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wallace H. Coulter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wallace_H._Coulter&oldid=1302736304",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-27"
+		},
+		{
+			"kind": "media",
+			"title": "Model A Coulter Counter, from an advertisement",
+			"url": "https://commons.wikimedia.org/wiki/File:Model_A_COULTER_COUNTER_from_Advertisement.jpg",
+			"accessed": "2026-10-01",
+			"container": "Coulter Electronics advertisement, via Wikimedia Commons",
+			"authors": [{ "name": "Coulter Corporation" }],
+			"licence": "CC BY-SA 3.0",
+			"file": "model-a.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Coulter Model A counters placed, 1957–1961",
+			"url": "https://uknowledge.uky.edu/history_etds/62/",
+			"container": "Chart drawn for kloom from Graham, The Coulter Principle: For the Good of Humankind, Table 6.1",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "placements.svg"
+		}
+	]
+}

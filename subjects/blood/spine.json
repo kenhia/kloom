@@ -44,7 +44,16 @@
 			"id": "bench",
 			"title": "The bench, by hand and by machine",
 			"labelKind": "date",
-			"frames": ["hemocytometer", "stained-film", "hematocrit", "tube-typing"]
+			"frames": [
+				"hemocytometer",
+				"stained-film",
+				"hematocrit",
+				"tube-typing",
+				"coulter",
+				"autoanalyzer",
+				"lis",
+				"gel-card"
+			]
 		},
 		{
 			"id": "dedication-seg",

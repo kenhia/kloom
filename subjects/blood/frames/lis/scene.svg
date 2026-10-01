@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M34 50 L364 50 L364 230 L34 230 Z"/>
+		<path pathLength="1" d="M54 42 L54 158"/>
+		<path pathLength="1" d="M344 42 L344 158"/>
+		<path pathLength="1" d="M54 154 L54 162"/>
+		<path pathLength="1" d="M76 154 L76 162"/>
+		<path pathLength="1" d="M98 154 L98 162"/>
+		<path pathLength="1" d="M120 154 L120 162"/>
+		<path pathLength="1" d="M142 154 L142 162"/>
+		<path pathLength="1" d="M164 154 L164 162"/>
+		<path pathLength="1" d="M186 154 L186 162"/>
+		<path pathLength="1" d="M208 154 L208 162"/>
+		<path pathLength="1" d="M230 154 L230 162"/>
+		<path pathLength="1" d="M252 154 L252 162"/>
+		<path pathLength="1" d="M274 154 L274 162"/>
+		<path pathLength="1" d="M296 154 L296 162"/>
+		<path pathLength="1" d="M318 154 L318 162"/>
+		<path pathLength="1" d="M54 158 L344 158"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M55 70 L55 150 M57 70 L57 150 M61 70 L61 150 M67 70 L67 150 M77 70 L77 150 M79 70 L79 150 M81 70 L81 150 M87 70 L87 150 M89 70 L89 150 M95 70 L95 150 M99 70 L99 150 M101 70 L101 150 M105 70 L105 150 M113 70 L113 150 M121 70 L121 150 M125 70 L125 150 M127 70 L127 150 M129 70 L129 150 M133 70 L133 150 M135 70 L135 150 M137 70 L137 150 M139 70 L139 150 M143 70 L143 150 M147 70 L147 150 M149 70 L149 150 M155 70 L155 150 M157 70 L157 150 M159 70 L159 150 M165 70 L165 150 M173 70 L173 150 M177 70 L177 150 M179 70 L179 150 M187 70 L187 150 M193 70 L193 150 M195 70 L195 150 M197 70 L197 150 M203 70 L203 150 M205 70 L205 150 M209 70 L209 150 M215 70 L215 150 M219 70 L219 150 M221 70 L221 150 M231 70 L231 150 M235 70 L235 150 M237 70 L237 150 M245 70 L245 150 M247 70 L247 150 M249 70 L249 150 M253 70 L253 150 M255 70 L255 150 M259 70 L259 150 M261 70 L261 150 M263 70 L263 150 M269 70 L269 150 M275 70 L275 150 M277 70 L277 150 M281 70 L281 150 M283 70 L283 150 M289 70 L289 150 M291 70 L291 150 M297 70 L297 150 M303 70 L303 150 M307 70 L307 150 M309 70 L309 150 M319 70 L319 150 M321 70 L321 150 M329 70 L329 150 M331 70 L331 150 M333 70 L333 150 M337 70 L337 150 M341 70 L341 150 M343 70 L343 150"/>
+		<path pathLength="1" d="M322 184 L338 184 L338 204 L322 204 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M58 214 L58 220 L146 220 L146 214"/>
+		<path pathLength="1" d="M158 214 L158 220 L186 220 L186 214"/>
+		<path pathLength="1" d="M198 214 L198 220 L304 220 L304 214"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="102" y="200" font-size="12" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">G1234</text>
+		<text x="172" y="200" font-size="12" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">17</text>
+		<text x="251" y="200" font-size="12" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">654321</text>
+		<text x="330" y="199" font-size="11" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="102" y="238" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FACILITY</text>
+		<text x="172" y="238" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">YEAR</text>
+		<text x="251" y="238" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SERIAL</text>
+		<text x="330" y="226" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">K</text>
+		<text x="54" y="36" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">QUIET</text>
+		<text x="199" y="174" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">11 MODULES A CHARACTER</text>
+		<text x="200" y="274" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DATA: =G12341765432100</text>
+	</g>
+</svg>

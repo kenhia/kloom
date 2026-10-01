@@ -1,0 +1,9 @@
+{
+	"id": "laboratory-information-management-system",
+	"wikidata": "Q1798149",
+	"name": "Laboratory information management system",
+	"aliases": ["laboratory information system", "LIS", "LIMS"],
+	"kind": "artifact",
+	"description": "Software that runs a laboratory's work: logging requests and specimens, tracking them through analysis, collecting results from instruments and reporting them, with a record of who did what.",
+	"home": "blood/lis"
+}

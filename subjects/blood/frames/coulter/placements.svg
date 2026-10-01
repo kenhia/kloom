@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Coulter Model A counters placed, 1957 to 1961</title>
+<desc id="d">Bar chart of Coulter Model A blood cell counters placed in laboratories, from the company's advertisements and records as tabulated by Graham (2020): 20 by June 1957, more than 150 by December 1958, more than 700 by January 1960 and more than 1,500 by February 1961.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="190.6" y2="190.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="194.6" text-anchor="end">500</text>
+<line x1="64" x2="460" y1="131.1" y2="131.1" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="135.1" text-anchor="end">1,000</text>
+<line x1="64" x2="460" y1="71.7" y2="71.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="75.7" text-anchor="end">1,500</text>
+</g>
+<rect x="85.5" y="247.6" width="56" height="2.4" fill-opacity="0.85"/>
+<text x="113.5" y="241.6" text-anchor="middle">20</text>
+<text x="113.5" y="266" text-anchor="middle">Jun 1957</text>
+<rect x="184.5" y="232.2" width="56" height="17.8" fill-opacity="0.85"/>
+<text x="212.5" y="226.2" text-anchor="middle">&gt;150</text>
+<text x="212.5" y="266" text-anchor="middle">Dec 1958</text>
+<rect x="283.5" y="166.8" width="56" height="83.2" fill-opacity="0.85"/>
+<text x="311.5" y="160.8" text-anchor="middle">&gt;700</text>
+<text x="311.5" y="266" text-anchor="middle">Jan 1960</text>
+<rect x="382.5" y="71.7" width="56" height="178.3" class="accent" fill="currentColor"/>
+<text x="410.5" y="65.7" text-anchor="middle">&gt;1,500</text>
+<text x="410.5" y="266" text-anchor="middle">Feb 1961</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">COULTER MODEL A COUNTERS PLACED</text>
+</g></svg>
