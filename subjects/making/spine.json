@@ -1,0 +1,10 @@
+{
+	"segments": [
+		{
+			"id": "stone",
+			"title": "Stone and fire",
+			"labelKind": "date",
+			"frames": ["knapping", "handaxe", "birch-tar"]
+		}
+	]
+}

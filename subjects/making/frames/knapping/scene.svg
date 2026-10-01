@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M18 112 L244 112"/>
+		<path pathLength="1" d="M222 87.3 L173.8 235.6"/>
+		<path pathLength="1" d="M190 42 L190 152"/>
+		<path pathLength="1" d="M190 112 L239.5 161.5"/>
+		<path pathLength="1" d="M190 112 L140.5 161.5"/>
+		<path pathLength="1" d="M190 98 L214 98"/>
+		<path pathLength="1" d="M190 94 L190 102 M214 94 L214 102"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M60 112 L190 112 L191.4 106.9 L190.6 108.8 L189.7 110.8 L188.9 112.8 L188.1 114.8 L187.3 116.7 L186.6 118.7 L185.9 120.7 L185.2 122.7 L184.6 124.8 L184 126.8 L183.4 128.9 L182.9 130.9 L182.4 133 L181.9 135.1 L181.6 137.2 L181.2 139.3 L180.9 141.4 L180.7 143.6 L180.5 145.8 L180.3 147.9 L180.2 150.1 L180.1 152.4 L180.1 154.6 L180.2 156.8 L180.3 159.1 L180.5 161.4 L180.7 163.7 L180.9 166 L181.3 168.4 L181.6 170.7 L182.1 173.1 L182.6 175.5 L183.1 177.9 L183.7 180.3 L184.4 182.8 L185.1 185.3 L185.9 187.7 L186.8 190.3 L187.7 192.8 L177.5 224.2 L141.5 250 L40 240 L30 140 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M203 116 L204.4 110.9 L203.6 112.8 L202.7 114.8 L201.9 116.8 L201.1 118.8 L200.3 120.7 L199.6 122.7 L198.9 124.7 L198.2 126.7 L197.6 128.8 L197 130.8 L196.4 132.9 L195.9 134.9 L195.4 137 L194.9 139.1 L194.6 141.2 L194.2 143.3 L193.9 145.4 L193.7 147.6 L193.5 149.8 L193.3 151.9 L193.2 154.1 L193.1 156.4 L193.1 158.6 L193.2 160.8 L193.3 163.1 L193.5 165.4 L193.7 167.7 L193.9 170 L194.3 172.4 L194.6 174.7 L195.1 177.1 L195.6 179.5 L196.1 181.9 L196.7 184.3 L197.4 186.8 L198.1 189.3 L198.9 191.7 L199.8 194.3 L200.7 196.8 L227 116 Z"/>
+		<path pathLength="1" d="M205 118 L206.6 118.2 L208 118.8 L209.2 119.8 L210.2 121 L210.8 122.4 L211 124 L210.8 125.6 L210.2 127 L209.2 128.2 L208 129.2 L206.6 129.8 L205 130"/>
+		<path pathLength="1" d="M209.5 130.6 L208.6 131 L207.7 131.3 L206.8 131.5 L205.9 131.7 L204.9 131.9 L204 132 L203.1 132 L202.1 132 L201.2 131.9 L200.2 131.8"/>
+		<path pathLength="1" d="M216 145.2 L214.3 146 L212.5 146.6 L210.6 147.1 L208.8 147.5 L206.9 147.8 L205 147.9 L203.1 148 L201.2 148 L199.3 147.8 L197.4 147.5"/>
+		<path pathLength="1" d="M222.5 159.9 L219.9 160.9 L217.2 161.9 L214.4 162.6 L211.7 163.2 L208.8 163.6 L206 163.9 L203.2 164 L200.3 163.9 L197.5 163.7 L194.7 163.3"/>
+		<path pathLength="1" d="M173 66 a15 15 0 1 0 30 0 a15 15 0 1 0 -30 0"/>
+		<path pathLength="1" d="M188 83 L190 108"/>
+		<path pathLength="1" d="M187 102 L190 108 L193 102"/>
+		<path pathLength="1" d="M207.2 132.9 L205.9 132.5 L204.6 131.9 L203.4 131.3 L202.2 130.6 L201.1 129.8 L200 129 L198.9 128 L198 127.1 L197 126 L196.2 124.9 L195.4 123.8 L194.7 122.6 L194.1 121.4 L193.5 120.1 L193.1 118.8 L192.7 117.5 L192.4 116.1 L192.2 114.8 L192 113.4 L192 112"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M300 70 L380 70"/>
+		<path pathLength="1" d="M304 56 L330 58 L360 65 L378 70"/>
+		<text x="340" y="86" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FEATHER</text>
+		<path pathLength="1" d="M300 140 L380 140"/>
+		<path pathLength="1" d="M304 126 L330 128 L352 130"/>
+		<path pathLength="1" d="M352 130 L353.3 130.2 L354.5 130.7 L355.5 131.5 L356.3 132.5 L356.8 133.7 L357 135 L356.8 136.3 L356.3 137.5 L355.5 138.5 L354.5 139.3 L353.3 139.8 L352 140"/>
+		<text x="340" y="156" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HINGE</text>
+		<path pathLength="1" d="M300 210 L380 210"/>
+		<path pathLength="1" d="M304 196 L330 198 L350 199 L350 210"/>
+		<text x="340" y="226" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STEP</text>
+		<text x="202" y="90" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PD</text>
+		<text x="170" y="142" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EPA</text>
+		<text x="154" y="69" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HAMMER</text>
+		<text x="150" y="284" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE CORE IN SECTION, A FLAKE COMING AWAY</text>
+	</g>
+</svg>

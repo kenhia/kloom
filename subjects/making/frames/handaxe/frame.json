@@ -1,0 +1,233 @@
+{
+	"id": "handaxe",
+	"topic": "The Acheulean hand axe",
+	"position": {
+		"label": "c. 1.76 million years ago",
+		"sort": -1760000
+	},
+	"scene": {
+		"headline": "We gave stone two",
+		"accent": "FACES.",
+		"palette": "chalk",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KOKISELEI · HOXNE · BOXGROVE",
+			"FLINT AND PHONOLITE · STONE, ANTLER AND BONE HAMMERS"
+		],
+		"counter": {
+			"value": "167",
+			"label": "hours of practice, and the novices' hand axes no thinner"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Account of Flint Weapons Discovered at Hoxne in Suffolk",
+			"authors": [
+				{
+					"family": "Frere",
+					"given": "John"
+				}
+			],
+			"container": "Archaeologia",
+			"volume": "13",
+			"pages": "204–205",
+			"published": "1800",
+			"url": "https://archive.org/details/archaeologiaormi13sociuoft",
+			"accessed": "2026-09-30",
+			"note": "Read to the Society of Antiquaries on 22 June 1797"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Earlier Origin for the Acheulian",
+			"authors": [
+				{
+					"family": "Lepre",
+					"given": "Christopher J."
+				},
+				{
+					"family": "Roche",
+					"given": "Hélène"
+				},
+				{
+					"family": "Kent",
+					"given": "Dennis V."
+				},
+				{
+					"family": "Harmand",
+					"given": "Sonia"
+				},
+				{
+					"family": "Quinn",
+					"given": "Rhonda L."
+				},
+				{
+					"family": "Brugal",
+					"given": "Jean-Philippe"
+				},
+				{
+					"family": "Texier",
+					"given": "Pierre-Jean"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "477",
+			"pages": "82–85",
+			"published": "2011",
+			"doi": "10.1038/nature10372",
+			"url": "https://academiccommons.columbia.edu/doi/10.7916/D8MK6PQF",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Cognitive Demands of Lower Paleolithic Toolmaking",
+			"authors": [
+				{
+					"family": "Stout",
+					"given": "Dietrich"
+				},
+				{
+					"family": "Hecht",
+					"given": "Erin"
+				},
+				{
+					"family": "Khreisheh",
+					"given": "Nada"
+				},
+				{
+					"family": "Bradley",
+					"given": "Bruce"
+				},
+				{
+					"family": "Chaminade",
+					"given": "Thierry"
+				}
+			],
+			"container": "PLOS ONE",
+			"volume": "10",
+			"issue": "4",
+			"pages": "e0121804",
+			"published": "2015-04-15",
+			"doi": "10.1371/journal.pone.0121804",
+			"accessed": "2026-09-30",
+			"note": "167 hours over 22 months; refinement 2.23 before, 2.25 after"
+		},
+		{
+			"kind": "article",
+			"title": "The Earliest Elephant-Bone Tool from Europe: An Unexpected Raw Material for Precision Knapping of Acheulean Handaxes",
+			"authors": [
+				{
+					"family": "Parfitt",
+					"given": "Simon A."
+				},
+				{
+					"family": "Bello",
+					"given": "Silvia M."
+				}
+			],
+			"container": "Science Advances",
+			"volume": "12",
+			"issue": "4",
+			"published": "2026-01-23",
+			"doi": "10.1126/sciadv.ady1390",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hand axe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hand_axe&oldid=1371680983",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Acheulean",
+			"url": "https://en.wikipedia.org/w/index.php?title=Acheulean&oldid=1376431247",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Boxgrove Palaeolithic site",
+			"url": "https://en.wikipedia.org/w/index.php?title=Boxgrove_Palaeolithic_site&oldid=1375602749",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Frere",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Frere&oldid=1348214412",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-11"
+		},
+		{
+			"kind": "media",
+			"title": "A hand axe from Hoxne, engraved for John Frere's account (Archaeologia 13, plate XIV)",
+			"url": "https://commons.wikimedia.org/wiki/File:Archaeologia_Volume_13_D257.png",
+			"accessed": "2026-09-30",
+			"container": "Archaeologia, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "frere-hoxne.jpg",
+			"authors": [
+				{
+					"family": "Frere",
+					"given": "John"
+				}
+			],
+			"published": "1800"
+		},
+		{
+			"kind": "media",
+			"title": "Elephant-bone knapping tool from the Boxgrove waterhole site, with SEM images of embedded flint",
+			"url": "https://commons.wikimedia.org/wiki/File:Elephant_bone_soft_hammer.jpg",
+			"accessed": "2026-09-30",
+			"container": "Science Advances, via Wikimedia Commons",
+			"licence": "CC BY 4.0",
+			"file": "boxgrove-bone-hammer.jpg",
+			"authors": [
+				{
+					"family": "Parfitt",
+					"given": "Simon A."
+				},
+				{
+					"family": "Bello",
+					"given": "Silvia M."
+				}
+			],
+			"published": "2026-01-23"
+		}
+	]
+}
