@@ -80,13 +80,13 @@
 			"id": "life",
 			"title": "The chemistry of life",
 			"labelKind": "category",
-			"frames": ["enzymes", "dna-chemistry", "protein-structure", "miller-urey", "alphafold"]
+			"frames": ["enzymes", "dna-chemistry", "protein-structure", "miller-urey", "pcr", "alphafold"]
 		},
 		{
 			"id": "now",
 			"title": "Chemistry now",
 			"labelKind": "category",
-			"frames": ["ozone-hole"]
+			"frames": ["ozone-hole", "keeling-curve", "where-chemistry-is"]
 		}
 	]
 }

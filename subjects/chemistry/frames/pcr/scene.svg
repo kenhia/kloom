@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 44 L372 44"/>
+		<path pathLength="1" d="M40 78 L372 78"/>
+		<path pathLength="1" d="M40 104 L372 104"/>
+		<path pathLength="1" d="M64 34 L64 114"/>
+		<path pathLength="1" d="M166.7 34 L166.7 114"/>
+		<path pathLength="1" d="M269.3 34 L269.3 114"/>
+		<path pathLength="1" d="M372 34 L372 114"/>
+		<path pathLength="1" d="M40 124 L372 124"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 44 L64 44 L72.2 104 L101 104 L107.1 78 L152.3 78 L156.4 44 L166.7 44 L174.9 104 L203.6 104 L209.8 78 L255 78 L259.1 44 L269.3 44 L277.5 104 L306.3 104 L312.5 78 L357.6 78 L361.7 44 L372 44"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 172 L380 172"/>
+		<path pathLength="1" d="M60 176 L60 260"/>
+		<path pathLength="1" d="M150 176 L150 260"/>
+		<path pathLength="1" d="M240 176 L240 260"/>
+		<path pathLength="1" d="M330 176 L330 260"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M34 212.2 L86 212.2 M34 215.8 L86 215.8"/>
+		<path pathLength="1" d="M124 207.2 L176 207.2 M124 210.8 L176 210.8"/>
+		<path pathLength="1" d="M124 217.2 L176 217.2 M124 220.8 L176 220.8"/>
+		<path pathLength="1" d="M214 197.2 L266 197.2 M214 200.8 L266 200.8"/>
+		<path pathLength="1" d="M214 207.2 L266 207.2 M214 210.8 L266 210.8"/>
+		<path pathLength="1" d="M214 217.2 L266 217.2 M214 220.8 L266 220.8"/>
+		<path pathLength="1" d="M214 227.2 L266 227.2 M214 230.8 L266 230.8"/>
+		<path pathLength="1" d="M304 177.2 L356 177.2 M304 180.8 L356 180.8"/>
+		<path pathLength="1" d="M304 187.2 L356 187.2 M304 190.8 L356 190.8"/>
+		<path pathLength="1" d="M304 197.2 L356 197.2 M304 200.8 L356 200.8"/>
+		<path pathLength="1" d="M304 207.2 L356 207.2 M304 210.8 L356 210.8"/>
+		<path pathLength="1" d="M304 217.2 L356 217.2 M304 220.8 L356 220.8"/>
+		<path pathLength="1" d="M304 227.2 L356 227.2 M304 230.8 L356 230.8"/>
+		<path pathLength="1" d="M304 237.2 L356 237.2 M304 240.8 L356 240.8"/>
+		<path pathLength="1" d="M304 247.2 L356 247.2 M304 250.8 L356 250.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M34 209.5 L34 218.5 M86 209.5 L86 218.5 M124 204.5 L124 213.5 M176 204.5 L176 213.5 M124 214.5 L124 223.5 M176 214.5 L176 223.5 M214 194.5 L214 203.5 M266 194.5 L266 203.5 M214 204.5 L214 213.5 M266 204.5 L266 213.5 M214 214.5 L214 223.5 M266 214.5 L266 223.5 M214 224.5 L214 233.5 M266 224.5 L266 233.5 M304 174.5 L304 183.5 M356 174.5 L356 183.5 M304 184.5 L304 193.5 M356 184.5 L356 193.5 M304 194.5 L304 203.5 M356 194.5 L356 203.5 M304 204.5 L304 213.5 M356 204.5 L356 213.5 M304 214.5 L304 223.5 M356 214.5 L356 223.5 M304 224.5 L304 233.5 M356 224.5 L356 233.5 M304 234.5 L304 243.5 M356 234.5 L356 243.5 M304 244.5 L304 253.5 M356 244.5 L356 253.5"/>
+		<path pathLength="1" d="M97 214 L113 214 M108 210 L113 214 L108 218 M187 214 L203 214 M198 210 L203 214 L198 218 M277 214 L293 214 M288 210 L293 214 L288 218"/>
+		<text x="34" y="47" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">95</text>
+		<text x="34" y="81" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">72</text>
+		<text x="34" y="107" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">55</text>
+		<text x="34" y="24" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">°C</text>
+		<text x="115.3" y="138" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CYCLE 1</text>
+		<text x="218" y="138" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CYCLE 2</text>
+		<text x="320.7" y="138" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CYCLE 3</text>
+		<text x="60" y="282" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="150" y="282" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2</text>
+		<text x="240" y="282" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4</text>
+		<text x="330" y="282" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8</text>
+		<text x="200" y="164" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DENATURE · ANNEAL · EXTEND</text>
+	</g>
+</svg>

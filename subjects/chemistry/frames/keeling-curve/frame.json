@@ -1,0 +1,248 @@
+{
+	"id": "keeling-curve",
+	"topic": "Carbon dioxide and the Keeling curve",
+	"position": {
+		"label": "Carbon dioxide"
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We watched the planet",
+		"accent": "BREATHE.",
+		"palette": "agar",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MAUNA LOA, HAWAII · SCRIPPS AND NOAA · SINCE MARCH 1958",
+			"CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻ · 1 PPM ≈ 2.12 GtC"
+		],
+		"counter": {
+			"value": "432.3",
+			"label": "ppm of CO₂ at Mauna Loa in May 2026, the highest yet"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Keeling Curve: A National Historic Chemical Landmark",
+			"authors": [
+				{
+					"name": "American Chemical Society"
+				}
+			],
+			"publisher": "American Chemical Society",
+			"place": "Washington, DC",
+			"published": "2015",
+			"url": "https://www.acs.org/content/dam/acsorg/education/whatischemistry/landmarks/keeling-curve/2015-keeling-curve-landmark-booklet.pdf",
+			"accessed": "2026-09-30",
+			"note": "The first reading of 29 March 1958, the manometer, the seasonal cycle; quotes Keeling's 1960 Tellus paper and his recollection of 1978"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Influence of Carbonic Acid in the Air upon the Temperature of the Ground",
+			"authors": [
+				{
+					"family": "Arrhenius",
+					"given": "Svante"
+				}
+			],
+			"container": "The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science",
+			"volume": "41",
+			"issue": "251",
+			"pages": "237–276",
+			"published": "1896-04",
+			"doi": "10.1080/14786449608620846",
+			"url": "https://www.rsc.org/images/Arrhenius1896_tcm18-173546.pdf",
+			"accessed": "2026-09-30",
+			"note": "Table VII, p. 266, and the geometric and arithmetic progressions, p. 267; read in the Royal Society of Chemistry's scan"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Trends in Atmospheric Carbon Dioxide: Mauna Loa Monthly and Annual Means and Growth Rates",
+			"authors": [
+				{
+					"name": "NOAA Global Monitoring Laboratory"
+				}
+			],
+			"container": "NOAA Global Monitoring Laboratory",
+			"published": "2026-09-05",
+			"url": "https://gml.noaa.gov/ccgg/trends/data.html",
+			"accessed": "2026-09-30",
+			"note": "Data files co2_mm_mlo, co2_annmean_mlo and co2_gr_mlo of 5 September 2026; Scripps data before May 1974"
+		},
+		{
+			"kind": "web",
+			"title": "Annual Carbon Dioxide Peak Reaches 432 Parts per Million",
+			"authors": [
+				{
+					"name": "Scripps Institution of Oceanography"
+				}
+			],
+			"container": "Scripps Institution of Oceanography News",
+			"published": "2026-06-04",
+			"url": "https://scripps.ucsd.edu/news/annual-carbon-dioxide-peak-reaches-432-parts-million",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Global Carbon Budget 2025",
+			"authors": [
+				{
+					"family": "Friedlingstein",
+					"given": "Pierre"
+				},
+				{
+					"family": "O'Sullivan",
+					"given": "Michael"
+				},
+				{
+					"family": "Jones",
+					"given": "Matthew W."
+				},
+				{
+					"family": "Andrew",
+					"given": "Robbie M."
+				},
+				{
+					"family": "Bakker",
+					"given": "Dorothee C. E."
+				},
+				{
+					"family": "Hauck",
+					"given": "Judith"
+				},
+				{
+					"family": "Landschützer",
+					"given": "Peter"
+				}
+			],
+			"etAl": true,
+			"container": "Earth System Science Data",
+			"volume": "18",
+			"issue": "5",
+			"pages": "3211–3288",
+			"published": "2026-05-13",
+			"doi": "10.5194/essd-18-3211-2026",
+			"accessed": "2026-09-30",
+			"note": "1 ppm = 2.124 GtC; 278 ppm in 1750; the 2024 budget"
+		},
+		{
+			"kind": "article",
+			"title": "The Mass of the Atmosphere: A Constraint on Global Analyses",
+			"authors": [
+				{
+					"family": "Trenberth",
+					"given": "Kevin E."
+				},
+				{
+					"family": "Smith",
+					"given": "Lesley"
+				}
+			],
+			"container": "Journal of Climate",
+			"volume": "18",
+			"issue": "6",
+			"pages": "864–875",
+			"published": "2005-03-15",
+			"doi": "10.1175/JCLI-3299.1",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Keeling Curve",
+			"url": "https://en.wikipedia.org/w/index.php?title=Keeling_Curve&oldid=1359550208",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles David Keeling",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_David_Keeling&oldid=1374882844",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Svante Arrhenius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Svante_Arrhenius&oldid=1377047515",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mauna Loa Observatory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mauna_Loa_Observatory&oldid=1367926110",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ocean acidification",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ocean_acidification&oldid=1372947827",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "media",
+			"title": "Charles David Keeling and John Chin beside the plaque naming the Keeling Building, Mauna Loa Observatory, November 1997",
+			"url": "https://commons.wikimedia.org/wiki/File:Charles_David_Keeling_and_John_Chin_at_Mauna_Loa_Observatory_in_1997.jpg",
+			"accessed": "2026-09-30",
+			"container": "NOAA, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "keeling-chin.jpg",
+			"authors": [
+				{
+					"family": "Miller",
+					"given": "John"
+				}
+			],
+			"published": "1997-11"
+		},
+		{
+			"kind": "media",
+			"title": "How fast carbon dioxide rose at Mauna Loa, by decade",
+			"url": "https://gml.noaa.gov/ccgg/trends/gr.html",
+			"accessed": "2026-09-30",
+			"container": "Drawn for kloom from NOAA Global Monitoring Laboratory's annual growth rates",
+			"licence": "MIT",
+			"file": "co2-growth.svg"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"title": "Copies after 30 cycles of PCR, by efficiency per cycle",
+	"description": "Bar chart on a log scale of the copies made from one DNA duplex in 30 cycles of PCR, if each cycle copies a given fraction of the molecules: 100 per cent, about 1.07 billion; 95 per cent, 502 million; 90 per cent, 231 million; 85 per cent, 104 million, the efficiency Cetus measured in 1985; 80 per cent, 46 million. Worked out for kloom from the formula (1 + E) to the power n.",
+	"heading": "COPIES OF ONE DUPLEX AFTER 30 CYCLES",
+	"unit": "",
+	"scale": "log",
+	"width": 480,
+	"height": 300,
+	"barWidth": 50,
+	"axis": {
+		"min": 10000000,
+		"max": 10000000000,
+		"ticks": [
+			[10000000, "10 M"],
+			[100000000, "100 M"],
+			[1000000000, "1 B"],
+			[10000000000, "10 B"]
+		]
+	},
+	"bars": [
+		{ "label": "100%", "value": 1073741824, "display": "1.07 B", "highlight": true },
+		{ "label": "95%", "value": 502400000, "display": "502 M" },
+		{ "label": "90%", "value": 230500000, "display": "231 M" },
+		{ "label": "85%", "sublabel": "1985", "value": 103600000, "display": "104 M" },
+		{ "label": "80%", "value": 45520000, "display": "46 M" }
+	]
+}

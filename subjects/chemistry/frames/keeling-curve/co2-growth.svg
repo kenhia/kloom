@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="t d">
+<title id="t">How fast carbon dioxide rose at Mauna Loa, by decade</title>
+<desc id="d">Bar chart of the average yearly rise in carbon dioxide at Mauna Loa, in parts per million a year, averaged by decade from NOAA's annual growth rates: 1960s, 0.86; 1970s, 1.28; 1980s, 1.61; 1990s, 1.51; 2000s, 1.97; 2010s, 2.42; 2020 to 2025, 2.56. Averages worked out for kloom from NOAA Global Monitoring Laboratory data.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="500" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="500" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">1</text>
+<line x1="64" x2="500" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">2</text>
+<line x1="64" x2="500" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">3</text>
+</g>
+<rect x="73.1" y="188.7" width="44" height="61.3" fill-opacity="0.85"/>
+<text x="95.1" y="182.7" text-anchor="middle">0.86</text>
+<text x="95.1" y="266" text-anchor="middle">1960s</text>
+<rect x="135.4" y="158.7" width="44" height="91.3" fill-opacity="0.85"/>
+<text x="157.4" y="152.7" text-anchor="middle">1.28</text>
+<text x="157.4" y="266" text-anchor="middle">1970s</text>
+<rect x="197.7" y="135.2" width="44" height="114.8" fill-opacity="0.85"/>
+<text x="219.7" y="129.2" text-anchor="middle">1.61</text>
+<text x="219.7" y="266" text-anchor="middle">1980s</text>
+<rect x="260.0" y="142.3" width="44" height="107.7" fill-opacity="0.85"/>
+<text x="282.0" y="136.3" text-anchor="middle">1.51</text>
+<text x="282.0" y="266" text-anchor="middle">1990s</text>
+<rect x="322.3" y="109.5" width="44" height="140.5" fill-opacity="0.85"/>
+<text x="344.3" y="103.5" text-anchor="middle">1.97</text>
+<text x="344.3" y="266" text-anchor="middle">2000s</text>
+<rect x="384.6" y="77.4" width="44" height="172.6" fill-opacity="0.85"/>
+<text x="406.6" y="71.4" text-anchor="middle">2.42</text>
+<text x="406.6" y="266" text-anchor="middle">2010s</text>
+<rect x="446.9" y="67.4" width="44" height="182.6" class="accent" fill="currentColor"/>
+<text x="468.9" y="61.4" text-anchor="middle">2.56</text>
+<text x="468.9" y="266" text-anchor="middle">2020–25</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">MAUNA LOA · CO₂ RISE A YEAR · PPM</text>
+</g></svg>
