@@ -399,6 +399,10 @@ trouble. What recurred or was new:
   `rockefeller-foundation`, `yale-university`, `heroin`,
   `american-red-cross`, `difference-engine` and `world-health-organization`.
 
+- **The README listed six subjects**, without chemistry, How We Build or
+  In the Blood, and gave western-civ 18 frames and computing six trails.
+  It now lists all ten, with counts from `just stats`.
+
 ## Follow-ups
 
 - **korg 3478**: eleven decisions from the authors' reports, among them a
