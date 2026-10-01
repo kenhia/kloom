@@ -1,0 +1,147 @@
+{
+	"id": "blood-banks",
+	"topic": "The first blood banks",
+	"position": {
+		"label": "1936–37",
+		"sort": 1936
+	},
+	"scene": {
+		"headline": "We put blood in the",
+		"accent": "BANK.",
+		"palette": "plasma",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MOSCOW · BARCELONA · CHICAGO",
+			"YUDIN · DURÁN I JORDÀ · FANTUS AT COOK COUNTY HOSPITAL"
+		],
+		"counter": {
+			"value": "28,900",
+			"label": "donors on Barcelona's list, 1936–39"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Therapy of the Cook County Hospital: Blood Preservation",
+			"authors": [
+				{
+					"family": "Fantus",
+					"given": "Bernard"
+				}
+			],
+			"container": "Journal of the American Medical Association",
+			"volume": "109",
+			"issue": "2",
+			"pages": "128–131",
+			"published": "1937-07-10",
+			"url": "https://archive.org/details/sim_jama_1937-07-10_109_2",
+			"accessed": "2026-10-01",
+			"note": "The notice to the medical staff: deposit, keeping, drawing and cross-matching"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Transfusion of Cadaver Blood",
+			"authors": [
+				{
+					"family": "Yudin",
+					"given": "S. S."
+				}
+			],
+			"container": "Journal of the American Medical Association",
+			"volume": "106",
+			"issue": "12",
+			"pages": "997–999",
+			"published": "1936-03-21",
+			"url": "https://archive.org/details/sim_jama_1936-03-21_106_12",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Historical Note",
+			"authors": [
+				{
+					"family": "Kendrick",
+					"given": "Douglas B."
+				}
+			],
+			"container": "Blood Program in World War II",
+			"publisher": "Office of the Surgeon General, Department of the Army",
+			"place": "Washington, DC",
+			"published": "1964",
+			"url": "https://history.amedd.army.mil/booksdocs/wwii/blood/chapter1.htm",
+			"accessed": "2026-10-01",
+			"note": "The Barcelona service and cadaver blood, pp. 11–13 and 24"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Frederic Durán-Jordà",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frederic_Dur%C3%A1n-Jord%C3%A0&oldid=1369309024",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bernard Fantus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bernard_Fantus&oldid=1371975388",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sergei Yudin (surgeon)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sergei_Yudin_(surgeon)&oldid=1375169046",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blood bank",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blood_bank&oldid=1374046641",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "media",
+			"title": "Bernard Fantus, 1874–1940",
+			"url": "https://commons.wikimedia.org/wiki/File:Bernard_M._Fantus.jpg",
+			"accessed": "2026-10-01",
+			"container": "Science Service records, Smithsonian Institution Archives, via Wikimedia Commons",
+			"licence": "No known copyright restrictions",
+			"file": "fantus.jpg",
+			"published": "1935",
+			"circa": true
+		}
+	]
+}

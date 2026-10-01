@@ -24,7 +24,15 @@
 			"id": "transfusion",
 			"title": "Transfusion",
 			"labelKind": "date",
-			"frames": ["early-transfusion", "blundell", "abo"]
+			"frames": [
+				"early-transfusion",
+				"blundell",
+				"abo",
+				"citrate",
+				"robertson-depot",
+				"blood-banks",
+				"drew-plasma"
+			]
 		},
 		{
 			"id": "uses",
