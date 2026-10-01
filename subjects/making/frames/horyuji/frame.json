@@ -1,0 +1,259 @@
+{
+	"id": "horyuji",
+	"topic": "Hōryū-ji and Japanese temple carpentry",
+	"position": {
+		"label": "c. AD 700",
+		"sort": 700
+	},
+	"scene": {
+		"headline": "We followed the",
+		"accent": "TREE.",
+		"palette": "shavings",
+		"illustration": "scene.svg",
+		"metadata": ["IKARUGA · NARA · THE WESTERN PRECINCT", "HINOKI · WEDGE, ADZE AND SPEAR PLANE"],
+		"counter": {
+			"value": "594",
+			"label": "the year the pagoda's central pillar was felled"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "100 Years Older Than Supposed? World Heritage Pagoda",
+			"container": "Trends in Japan, Web Japan",
+			"publisher": "Japan Information Network",
+			"published": "2001-03-29",
+			"url": "http://web-japan.org/trends00/honbun/tj010330.html",
+			"accessed": "2026-09-30",
+			"note": "The 594 felling date of the pagoda's central pillar, announced in February 2001"
+		},
+		{
+			"kind": "web",
+			"title": "Find Rekindles Debate over Horyuji Temple",
+			"authors": [
+				{
+					"name": "Kyodo"
+				}
+			],
+			"container": "The Japan Times",
+			"published": "2004-07-20",
+			"url": "https://www.japantimes.co.jp/news/2004/07/20/national/find-rekindles-debate-over-horyuji-temple/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Saw: The Development History of Saws",
+			"container": "Carpenter Tools Introduction",
+			"publisher": "Takenaka Carpentry Tools Museum",
+			"url": "https://en.dougukan.c-p-a.jp/tools/nokogiri/2",
+			"accessed": "2026-09-30",
+			"note": "No rip saw in Japan before the oga; crosscut saw marks at Hōryū-ji"
+		},
+		{
+			"kind": "web",
+			"title": "Plane: Tool Description",
+			"container": "Carpenter Tools Introduction",
+			"publisher": "Takenaka Carpentry Tools Museum",
+			"url": "https://en.dougukan.c-p-a.jp/tools/kanna",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Axe: Adze (Chōna)",
+			"container": "Carpenter Tools Introduction",
+			"publisher": "Takenaka Carpentry Tools Museum",
+			"url": "https://en.dougukan.c-p-a.jp/tools/ono/2",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Mechanical Properties of Wood",
+			"authors": [
+				{
+					"family": "Kretschmann",
+					"given": "David E."
+				}
+			],
+			"container": "Wood Handbook: Wood as an Engineering Material, General Technical Report FPL-GTR-190",
+			"publisher": "US Department of Agriculture, Forest Service, Forest Products Laboratory",
+			"place": "Madison, WI",
+			"published": "2010-04",
+			"url": "https://research.fs.usda.gov/treesearch/download/37440.pdf",
+			"accessed": "2026-09-30",
+			"note": "Table 5–12, strength against slope of grain; splitting as the test for spiral grain"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mechanical Characteristics of Aged Hinoki Wood from Japanese Historical Buildings",
+			"authors": [
+				{
+					"family": "Yokoyama",
+					"given": "Misao"
+				},
+				{
+					"family": "Gril",
+					"given": "Joseph"
+				},
+				{
+					"family": "Matsuo",
+					"given": "Miyuki"
+				},
+				{
+					"family": "Yano",
+					"given": "Hiroyuki"
+				},
+				{
+					"family": "Sugiyama",
+					"given": "Junji"
+				},
+				{
+					"family": "Clair",
+					"given": "Bruno"
+				},
+				{
+					"family": "Kubodera",
+					"given": "Sigeru"
+				}
+			],
+			"etAl": true,
+			"container": "Comptes Rendus Physique",
+			"volume": "10",
+			"issue": "7",
+			"pages": "601–611",
+			"published": "2009",
+			"doi": "10.1016/j.crhy.2009.08.009",
+			"url": "https://hal.science/hal-00538802",
+			"accessed": "2026-09-30",
+			"note": "Kohara's claim, and the tests that found no gain in strength along the grain"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Hinoki (Japanese Cypress) Lives Twice: The World of Tsunekazu Nishioka, a Temple Carpenter",
+			"authors": [
+				{
+					"family": "Tanaka",
+					"given": "Masakazu"
+				}
+			],
+			"publisher": "Institute for Research in Humanities, Kyoto University",
+			"url": "https://www.zinbun.kyoto-u.ac.jp/~shakti/en/hinoki",
+			"accessed": "2026-09-30",
+			"note": "Nishioka's precepts, the south slope, Kohara's curve and the 1975 iron debate"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hōryū-ji",
+			"url": "https://en.wikipedia.org/w/index.php?title=H%C5%8Dry%C5%AB-ji&oldid=1374683747",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tsunekazu Nishioka",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tsunekazu_Nishioka&oldid=1336097636",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Japanese carpentry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Japanese_carpentry&oldid=1364473285",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kasuga Gongen Genki E",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kasuga_Gongen_Genki_E&oldid=1366473177",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chamaecyparis obtusa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chamaecyparis_obtusa&oldid=1377533102",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yakushi-ji",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yakushi-ji&oldid=1373352981",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "media",
+			"title": "Carpenters at work on a building site, from the Kasuga Gongen Genki E handscrolls",
+			"url": "https://commons.wikimedia.org/wiki/File:Gaa0-ksge3.jpg",
+			"accessed": "2026-09-30",
+			"container": "Kasuga Gongen Genki E, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "kasuga-carpenters.jpg",
+			"published": "1309"
+		},
+		{
+			"kind": "media",
+			"title": "A spear plane (yariganna) in use at the Takenaka Carpentry Tools Museum, Kobe",
+			"url": "https://commons.wikimedia.org/wiki/File:160312_Takenaka_Carpentry_Tools_Museum_Kobe_Japan22bs.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY 2.5",
+			"file": "yariganna.jpg",
+			"authors": [
+				{
+					"name": "663highland"
+				}
+			],
+			"published": "2016-03-12"
+		}
+	]
+}

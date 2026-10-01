@@ -1,0 +1,185 @@
+{
+	"id": "wind-sawmill",
+	"topic": "Cornelis Corneliszoon's wind sawmill",
+	"position": {
+		"label": "1594",
+		"sort": 1594
+	},
+	"scene": {
+		"headline": "We taught the wind to",
+		"accent": "SAW.",
+		"palette": "shavings",
+		"illustration": "scene.svg",
+		"metadata": [
+			"UITGEEST · ZAANDAM · CORNELIS CORNELISZOON",
+			"WIND · CRANKSHAFT · A GANG OF SAWS"
+		],
+		"counter": {
+			"value": "450",
+			"label": "wind sawmills north of Amsterdam in 1731"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Houtzaagmolen",
+			"container": "Uitvindingen in het Nationaal Archief",
+			"publisher": "Nationaal Archief",
+			"url": "http://uitvindingen.nationaalarchief.nl/uitvinding/houtzaagmolen",
+			"accessed": "2026-09-30",
+			"note": "The patents of December 1593 and 1597, and sixty trees a day"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Het Juffertje: de eerste houtzaagmolen",
+			"container": "Oneindig Noord-Holland",
+			"url": "https://onh.nl/verhaal/de-eenvoudige-huisman-met-een-revolutionaire-uitvinding",
+			"accessed": "2026-09-30",
+			"note": "1592, the patents, Het Juffertje's sale to Zaandam and the multiple-crank patent"
+		},
+		{
+			"kind": "web",
+			"title": "Boer ontwerpt houtzaagmolen",
+			"container": "Geheugen van Nederland",
+			"url": "https://geheugenvannederland.nl/thema/uitvindingen/boer-ontwerpt-houtzaagmolen/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "De zagen",
+			"publisher": "Twickeler Houtzaagmolen",
+			"url": "https://zaagmolen.nl/de-zagen/",
+			"accessed": "2026-09-30",
+			"note": "The frame, spacer blocks, guides, ratchet feed and its speed"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zaagmolen",
+			"url": "https://nl.wikipedia.org/w/index.php?title=Zaagmolen&oldid=64339876",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, de vrije encyclopedie",
+			"publisher": "Wikimedia Foundation",
+			"published": "2023-05-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paltrokmolen",
+			"url": "https://nl.wikipedia.org/w/index.php?title=Paltrokmolen&oldid=71987314",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, de vrije encyclopedie",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cornelis Corneliszoon van Uitgeest",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cornelis_Corneliszoon_van_Uitgeest&oldid=1344285055",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sawmill",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sawmill&oldid=1375780090",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hierapolis sawmill",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hierapolis_sawmill&oldid=1343182370",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sun and planet gear",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sun_and_planet_gear&oldid=1292193622",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-05-25"
+		},
+		{
+			"kind": "media",
+			"title": "Eighteenth-century allegory on the invention of the sawmill by Cornelis Corneliszoon van Uitgeest, with a poem in his honour",
+			"url": "https://commons.wikimedia.org/wiki/File:Cornelis_van_Uitgeest_-_Het_Juffertje_zaagmolen.jpg",
+			"accessed": "2026-09-30",
+			"container": "Noord-Hollands Archief, via Wikimedia Commons",
+			"licence": "Public domain",
+			"file": "juffertje-allegory.jpg",
+			"authors": [
+				{
+					"family": "Schenk",
+					"given": "Jan"
+				},
+				{
+					"family": "van der Laan",
+					"given": "Adolf"
+				}
+			]
+		},
+		{
+			"kind": "media",
+			"title": "The saw frame of the paltrok sawmill Mijn Genoegen, Nederlands Openluchtmuseum, Arnhem",
+			"url": "https://commons.wikimedia.org/wiki/File:Openluchtmuseum_paltrok_zaagraam.jpg",
+			"accessed": "2026-09-30",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 3.0",
+			"file": "saw-frame.jpg",
+			"authors": [
+				{
+					"name": "Rasbak"
+				}
+			],
+			"published": "2008-05-25"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/steam",
+			"why": "The crank that turned the sails' rotation into a saw's stroke is the mechanism Watt needed run backwards, to turn his beam's rocking into rotation; a patent on the crank made him use the sun-and-planet gear instead."
+		}
+	]
+}
