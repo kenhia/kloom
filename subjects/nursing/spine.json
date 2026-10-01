@@ -7,6 +7,12 @@
 			"frames": ["basiliad", "monastic-infirmary", "hospitallers"]
 		},
 		{
+			"id": "nightingale",
+			"title": "Nightingale and the profession",
+			"labelKind": "date",
+			"frames": ["scutari", "seacole", "rose-diagram"]
+		},
+		{
 			"id": "dedication-seg",
 			"title": "Dedication",
 			"labelKind": "category",

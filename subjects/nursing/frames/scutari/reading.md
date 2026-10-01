@@ -1,0 +1,34 @@
+In the autumn of 1854 the British army's sick and wounded from the **[Crimean War](kloom:e/crimean-war)** were shipped across the Black Sea to Scutari, on the Asian shore of the Bosporus opposite Constantinople, and laid in a Turkish barracks lent for a hospital. **[Sidney Herbert](kloom:e/sidney-herbert-1st-baron-herbert-of-lea)**, the Secretary at War, asked **[Florence Nightingale](kloom:e/florence-nightingale)** to take women nurses out to them. She left London on 21 October and reached Scutari on 4 November, the day before the battle of Inkerman. The **[Selimiye Barracks](kloom:e/selimiye-barracks)**, which the British called the Barrack Hospital, is a rectangle of about 200 by 267 meters round a parade ground, mostly three stories high, with a tower at each corner. Her party lived in one tower; the wards and the corridors along the inner face of the building were her ground.
+
+## Who the nurses were
+
+Nightingale wanted twenty nurses, Herbert more; they agreed on forty, and thirty-eight went. Her biographer Edward Cook, who had her papers, gives the party: ten Roman Catholic nuns, five from Bermondsey and five from Norwood; eight Anglican sisters from Miss Sellon's home at Devonport; six nurses from St John's House; and fourteen from English hospitals. Most were not ladies. "Money was the only inducement," wrote Mary Stanley, who helped choose them. Nightingale preferred trained hospital nurses to pious volunteers, and judged that of the thirty-eight not more than sixteen were really efficient, and five or six excellent. Two she named in her letters: Mrs. Roberts, sent by St Thomas' Hospital, "worth her weight in gold", and Mrs. Drake, "a Treasure". The Bermondsey superior, Mother Mary Clare Moore, became a friend for life. The hired nurses wore gray tweed wrappers and a scarf of brown holland embroidered in red, "Scutari Hospital".
+
+![A long hospital ward in a lithograph: patients lie on low beds on a raised wooden platform along one side, under arched windows; on the stone floor beside it a woman in a dark dress stands talking with an officer, while orderlies work at a table and a cupboard](scutari-ward.jpg)
+
+## What the nursing was
+
+Much of it was housekeeping on a vast scale, done so that the sick could be nursed at all. Cook sets out what she found and what she did:
+
+| Need   | What she found                                                                              | What she did                                                                                                                            |
+| ------ | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Linen  | Six shirts washed a month; bedding washed in cold water and returned verminous              | Rented a Turkish house, had boilers fitted, and paid soldiers' wives to wash in hot water                                               |
+| Food   | All cooking in thirteen coppers at one end of the building; dinners took 3–4 hours to serve | Within ten days, two "extra diet kitchens" and three boilers on a staircase for arrowroot and the like, issued only on a doctor's order |
+| Floors | No brushes, no soap, no towels                                                              | 200 hard scrubbers and sacking                                                                                                          |
+| Beds   | "Four miles of Beds, and not eighteen inches apart"                                         | Ten nurses to the General Hospital nearby, twenty-eight to the Barrack Hospital                                                         |
+
+She forbade her nurses the wards after eight at night, and made the last round herself. John Macdonald, who ran the fund raised by **[The Times](kloom:e/the-times)**, described her in its pages, "alone, with a little lamp in her hand, making her solitary rounds." The lamp was a camp lamp. The phrase that stuck is not The Times's: it is **[Henry Wadsworth Longfellow](kloom:e/henry-wadsworth-longfellow)**'s poem "Santa Filomena" of 1857, "A lady with a lamp I see".
+
+## The deaths
+
+![Bar chart of the annual rate of mortality per cent among the sick at Scutari, October 1854 to June 1855: it rises from 148 to a peak of 415 in the four weeks from February 1, then falls to 34 by June](sick-mortality.svg)
+
+| Period from         | Oct 1 | Oct 15 | Nov 12 | Dec 10 | Jan 7 | Feb 1 | Feb 25 | Mar 18 | Apr 8 | Apr 29 | May 20 | Jun 10 |
+| ------------------- | ----: | -----: | -----: | -----: | ----: | ----: | -----: | -----: | ----: | -----: | -----: | -----: |
+| Per 100 sick a year |   148 |    101 |    121 |    202 |   319 |   415 |    235 |    125 |    79 |     60 |     56 |     34 |
+
+Her own figures show the deaths rising for three months after she arrived. A rate of 415 per cent a year, held for the four weeks from 1 February 1855, means deaths equal to about a third of the average number of sick in those four weeks, by our arithmetic. In March a Sanitary Commission sent out with executive powers by the new government, the physicians **[John Sutherland](kloom:e/john-sutherland-physician)** and Hector Gavin and the engineer **[Robert Rawlinson](kloom:e/robert-rawlinson)**, began work on the buildings. It found the barracks standing over sewers "loaded with filth", whose air blew up the privy pipes into the corridors where the sick lay. They flushed the drains and opened the ventilation, and by June the rate was 34.
+
+## The myth, and two readings of it
+
+The old _Dictionary of National Biography_ gave her the credit: at her "persistent entreaties" the sanitary reforms were ordered, and the death rate fell from 42 per cent to 2. Her own _Notes on Matters Affecting the Health … of the British Army_ (1858) tells it differently. It names five "great causes of mortality at Scutari": overcrowding, bad ventilation, bad drainage, want of cleanliness and want of comforts. The Sanitary Commission, she told Lord Shaftesbury, had "saved the British Army". The writer Hugh Small argues that she understood this only after the war, working through the figures with William Farr, that the discovery that her hospital had killed men broke her health, and that it drove her campaign for sanitation for the rest of her life. The sociologist Lynn McDonald, editor of her collected works, rejects the claim that Nightingale was responsible for the high death rates, setting the Scutari figures beside those of other hospitals, and calls the attacks on her often "preposterous". Both put the fall after March. Another woman passed through the Barrack Hospital early in 1855, on her way to the front: Mary Seacole.
