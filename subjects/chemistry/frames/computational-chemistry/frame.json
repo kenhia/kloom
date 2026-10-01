@@ -215,6 +215,10 @@
 		{
 			"to": "computing/edsac",
 			"why": "Frank Boys and his colleagues ran the first configuration interaction calculations on molecules on EDSAC in the 1950s, part of the theoretical chemistry that followed its first users."
+		},
+		{
+			"to": "chemistry/quantum-chemistry",
+			"why": "The equations of quantum chemistry could be solved exactly only for the smallest molecules, and computers took over from there."
 		}
 	]
 }

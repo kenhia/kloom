@@ -150,5 +150,11 @@
 			],
 			"published": "1775"
 		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/phlogiston",
+			"why": "Priestley called his gas dephlogisticated air: air that could take up more of the phlogiston given off in burning."
+		}
 	]
 }

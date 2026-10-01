@@ -257,6 +257,10 @@
 		{
 			"to": "ai/safety-frameworks",
 			"why": "AI laboratories' safety frameworks track chemical-weapons capability as a category, with stronger safeguards promised for any model that crosses its threshold."
+		},
+		{
+			"to": "chemistry/haber-bosch",
+			"why": "The Fritz Haber who made ammonia from the air in 1909 organised the chlorine attack at Ypres in 1915."
 		}
 	]
 }

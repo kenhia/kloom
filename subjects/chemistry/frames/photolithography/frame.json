@@ -306,6 +306,10 @@
 		{
 			"to": "computing/end-of-scaling",
 			"why": "The 13.5 nm extreme-ultraviolet light that prints the finest chips of the 2020s brings about fourteen times fewer photons for the same dose, and chemically amplified resists turn each one into many reactions."
+		},
+		{
+			"to": "chemistry/polymers",
+			"why": "Photoresists, from Kodak's KPR to IBM's chemically amplified resists, are polymers designed to change under light."
 		}
 	]
 }

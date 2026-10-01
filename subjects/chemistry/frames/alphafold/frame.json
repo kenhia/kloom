@@ -190,6 +190,14 @@
 		{
 			"to": "ai/transformer",
 			"why": "AlphaFold 2 replaced its predecessor's convolutions with a network in the style of the transformer, whose Evoformer trunk is built on attention; the Nobel committee's account of 2024 cites Attention Is All You Need."
+		},
+		{
+			"to": "chemistry/protein-structure",
+			"why": "AlphaFold learned from the Protein Data Bank's structures, the kind Kendrew and Perutz first solved."
+		},
+		{
+			"to": "chemistry/computational-chemistry",
+			"why": "Simulating folding atom by atom, with the molecular dynamics of Karplus, Levitt and Warshel, was the brute-force road AlphaFold went round."
 		}
 	]
 }

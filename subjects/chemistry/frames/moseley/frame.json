@@ -27,6 +27,10 @@
 		{
 			"to": "physics/nucleus",
 			"why": "Moseley's X-ray lines showed that an element's number is the charge on Rutherford's nucleus, as van den Broek had proposed, and gave the strongest support to the idea."
+		},
+		{
+			"to": "chemistry/noble-gases",
+			"why": "Argon, at about 40, sat before potassium at 39.1 against the order of atomic weight; Moseley's atomic numbers showed the order was right."
 		}
 	],
 	"citations": [

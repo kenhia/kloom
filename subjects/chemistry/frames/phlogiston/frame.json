@@ -169,6 +169,10 @@
 		{
 			"to": "chemistry/copper-smelting",
 			"why": "Stahl's theory read the smelter's work backwards: charcoal gives its phlogiston to the calx, where the modern account has carbon take oxygen from the copper ore."
+		},
+		{
+			"to": "chemistry/boyle",
+			"why": "Boyle found in 1673 that tin sealed and heated gained weight, and put it down to particles of fire passing through the glass."
 		}
 	]
 }

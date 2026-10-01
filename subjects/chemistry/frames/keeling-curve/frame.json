@@ -244,5 +244,11 @@
 			"licence": "MIT",
 			"file": "co2-growth.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/fixed-air",
+			"why": "The gas Keeling measured at Mauna Loa is the fixed air Black weighed out of magnesia alba in 1756, carbon dioxide."
+		}
 	]
 }

@@ -311,6 +311,10 @@
 		{
 			"to": "feynman/forces-in-molecules",
 			"why": "Once quantum mechanics fixes a molecule's electron cloud, the force on each nucleus is plain electrostatics: the Hellmann–Feynman theorem, in Hellmann's quantum chemistry textbook of 1937 and Feynman's MIT paper of 1939."
+		},
+		{
+			"to": "chemistry/electron-pair",
+			"why": "Heitler and London's calculation of 1927 showed why Lewis's shared pair of electrons holds two atoms together."
 		}
 	]
 }

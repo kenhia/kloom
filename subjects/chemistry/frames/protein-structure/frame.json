@@ -219,6 +219,10 @@
 		{
 			"to": "computing/edsac",
 			"why": "Kendrew's maps of myoglobin, the first protein structure, were computed from their first stage on EDSAC, whose early users included X-ray crystallographers."
+		},
+		{
+			"to": "chemistry/crystallography",
+			"why": "Kendrew's myoglobin and Perutz's haemoglobin were the first proteins solved by X-ray crystallography."
 		}
 	]
 }

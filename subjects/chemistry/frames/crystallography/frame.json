@@ -249,6 +249,10 @@
 		{
 			"to": "mathematics/groups",
 			"why": "The symmetries of a crystal form a group, closed under doing one move after another; Fedorov and Schoenflies counted 230 such space groups in 1891, and crystallographers classify every structure by one."
+		},
+		{
+			"to": "chemistry/penicillin",
+			"why": "Dorothy Hodgkin worked out penicillin's structure, with its strained β-lactam ring, by X-ray crystallography."
 		}
 	]
 }

@@ -1,7 +1,10 @@
 {
 	"id": "technetium",
 	"topic": "Technetium, the first made element",
-	"position": { "label": "1937", "sort": 1937 },
+	"position": {
+		"label": "1937",
+		"sort": 1937
+	},
 	"scene": {
 		"headline": "We made what the Earth had",
 		"accent": "LOST.",
@@ -11,14 +14,22 @@
 			"PALERMO · EMILIO SEGRÈ · CARLO PERRIER",
 			"A MOLYBDENUM FOIL FROM LAWRENCE'S CYCLOTRON"
 		],
-		"counter": { "value": "1/16", "label": "of a dose of technetium-99m left after a day" }
+		"counter": {
+			"value": "1/16",
+			"label": "of a dose of technetium-99m left after a day"
+		}
 	},
 	"citations": [
 		{
 			"kind": "chapter",
 			"key": true,
 			"title": "Emilio Gino Segrè",
-			"authors": [{ "family": "Jackson", "given": "J. David" }],
+			"authors": [
+				{
+					"family": "Jackson",
+					"given": "J. David"
+				}
+			],
 			"container": "Biographical Memoirs, Volume 81",
 			"publisher": "National Academies Press",
 			"place": "Washington, DC",
@@ -33,7 +44,11 @@
 			"title": "Technetium",
 			"url": "https://en.wikipedia.org/w/index.php?title=Technetium&oldid=1376400411",
 			"accessed": "2026-09-30",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-23"
@@ -44,7 +59,11 @@
 			"title": "Technetium-99m",
 			"url": "https://en.wikipedia.org/w/index.php?title=Technetium-99m&oldid=1354166222",
 			"accessed": "2026-09-30",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-05-14"
@@ -53,7 +72,11 @@
 			"kind": "report",
 			"key": true,
 			"title": "Current Trends in the Supply and Utilisation of Medical Radioisotopes",
-			"authors": [{ "name": "OECD Nuclear Energy Agency" }],
+			"authors": [
+				{
+					"name": "OECD Nuclear Energy Agency"
+				}
+			],
 			"publisher": "OECD Publishing",
 			"place": "Paris",
 			"number": "NEA No. 7743",
@@ -67,7 +90,11 @@
 			"title": "Emilio Segrè",
 			"url": "https://en.wikipedia.org/w/index.php?title=Emilio_Segr%C3%A8&oldid=1373553002",
 			"accessed": "2026-09-30",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-06"
@@ -76,11 +103,26 @@
 			"kind": "article",
 			"title": "Technetium: The First Radioelement on the Periodic Table",
 			"authors": [
-				{ "family": "Johnstone", "given": "Erik V." },
-				{ "family": "Yates", "given": "Mary Anne" },
-				{ "family": "Poineau", "given": "Frederic" },
-				{ "family": "Sattelberger", "given": "Alfred P." },
-				{ "family": "Czerwinski", "given": "Kenneth R." }
+				{
+					"family": "Johnstone",
+					"given": "Erik V."
+				},
+				{
+					"family": "Yates",
+					"given": "Mary Anne"
+				},
+				{
+					"family": "Poineau",
+					"given": "Frederic"
+				},
+				{
+					"family": "Sattelberger",
+					"given": "Alfred P."
+				},
+				{
+					"family": "Czerwinski",
+					"given": "Kenneth R."
+				}
 			],
 			"container": "Journal of Chemical Education",
 			"volume": "94",
@@ -96,8 +138,14 @@
 			"kind": "web",
 			"title": "The Disputed Discovery of Element 43: A Reexamination of an Elegant Early Use of Wavelength-Dispersive X-Ray Microanalysis",
 			"authors": [
-				{ "family": "Armstrong", "given": "John T." },
-				{ "family": "Van Assche", "given": "Pieter H." }
+				{
+					"family": "Armstrong",
+					"given": "John T."
+				},
+				{
+					"family": "Van Assche",
+					"given": "Pieter H."
+				}
 			],
 			"container": "National Institute of Standards and Technology, Publications",
 			"published": "2008",
@@ -108,7 +156,11 @@
 		{
 			"kind": "report",
 			"title": "Technetium-99m Radiopharmaceuticals: Status and Trends",
-			"authors": [{ "name": "International Atomic Energy Agency" }],
+			"authors": [
+				{
+					"name": "International Atomic Energy Agency"
+				}
+			],
 			"publisher": "International Atomic Energy Agency",
 			"place": "Vienna",
 			"number": "IAEA Radioisotopes and Radiopharmaceuticals Series No. 1",
@@ -133,8 +185,18 @@
 			"container": "Wikimedia Commons",
 			"licence": "CC BY-SA 4.0",
 			"file": "technetium-sample.jpg",
-			"authors": [{ "name": "Marco Cardin" }],
+			"authors": [
+				{
+					"name": "Marco Cardin"
+				}
+			],
 			"published": "2020-03-13"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/moseley",
+			"why": "Element 43 was a gap Moseley's atomic numbers exposed in 1913, and it stayed empty until 1937."
 		}
 	]
 }

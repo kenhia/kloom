@@ -257,5 +257,11 @@
 			],
 			"published": "2008"
 		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/leaded-petrol",
+			"why": "Thomas Midgley, who put lead into petrol, also introduced the CFCs whose chlorine destroys stratospheric ozone."
+		}
 	]
 }

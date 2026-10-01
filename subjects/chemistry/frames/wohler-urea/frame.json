@@ -208,5 +208,11 @@
 			],
 			"published": "1828"
 		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/chirality",
+			"why": "Urea and ammonium cyanate are isomers, the same atoms in different arrangements; Pasteur's tartrates are the mirror-image case."
+		}
 	]
 }

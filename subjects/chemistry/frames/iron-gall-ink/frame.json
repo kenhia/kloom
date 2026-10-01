@@ -282,6 +282,10 @@
 		{
 			"to": "western-civ/scriptorium",
 			"why": "The scribes of the scriptoria wrote in ink of oak galls and iron salts, which bit into the parchment and turned dark brown with age: this frame is that ink's chemistry."
+		},
+		{
+			"to": "chemistry/alexandrian-alchemy",
+			"why": "A recipe in Leyden papyrus X darkens a purple dye with gall-nut and copperas, the ingredients of iron gall ink."
 		}
 	]
 }

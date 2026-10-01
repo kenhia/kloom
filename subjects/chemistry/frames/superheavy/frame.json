@@ -397,5 +397,11 @@
 			],
 			"published": "2016-06-07"
 		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/periodic-table",
+			"why": "The seventh row of the periodic table was completed with the four elements named in 2016."
+		}
 	]
 }

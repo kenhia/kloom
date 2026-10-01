@@ -198,6 +198,10 @@
 		{
 			"to": "mathematics/groups",
 			"why": "Counting a carbon atom's mirror twins divides the 24 ways of placing four groups by the 12 turns of the tetrahedron, a group of symmetries like the six moves of Cayley's triangle."
+		},
+		{
+			"to": "chemistry/chirality",
+			"why": "Van 't Hoff and Le Bel's tetrahedral carbon explained the handedness Pasteur had found in the tartrate crystals."
 		}
 	]
 }

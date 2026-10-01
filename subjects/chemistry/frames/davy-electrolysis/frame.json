@@ -210,6 +210,14 @@
 		{
 			"to": "western-civ/faraday-induction",
 			"why": "Faraday, who found induction at the Royal Institution in 1831, came there as Davy's chemical assistant in 1813, after sending him bound notes of his lectures."
+		},
+		{
+			"to": "chemistry/lavoisier",
+			"why": "Lavoisier left potash and soda off his list of simple substances as compounds; Davy's current split them in 1807."
+		},
+		{
+			"to": "chemistry/faraday-electrolysis",
+			"why": "Faraday learned electrochemistry as Davy's assistant at the Royal Institution, and turned Davy's decompositions into laws of quantity."
 		}
 	]
 }

@@ -193,6 +193,10 @@
 		{
 			"to": "computing/smartphone",
 			"why": "The smartphone runs on a lithium-ion cell; lithium cobalt oxide, found at Oxford in 1980, is the usual cathode of handheld electronics."
+		},
+		{
+			"to": "chemistry/faraday-electrolysis",
+			"why": "A cell's capacity is worked from Faraday's constant, the charge carried by a mole of electrons."
 		}
 	]
 }

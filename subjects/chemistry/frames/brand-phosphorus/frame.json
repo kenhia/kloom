@@ -197,5 +197,11 @@
 			],
 			"published": "1771"
 		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/boyle",
+			"why": "Boyle made phosphorus himself in 1680 and published how."
+		}
 	]
 }

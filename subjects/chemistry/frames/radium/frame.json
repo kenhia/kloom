@@ -23,6 +23,10 @@
 		{
 			"to": "physics/x-rays",
 			"why": "The physics frame tells how Becquerel found uranium's rays in 1896; Marie Curie turned those rays into a measured current, and the measurements led her and Pierre Curie to polonium and radium."
+		},
+		{
+			"to": "chemistry/agricola",
+			"why": "Joachimsthal, whose silver mines Agricola described, later gave the Curies the pitchblende residues from which they drew radium."
 		}
 	],
 	"citations": [

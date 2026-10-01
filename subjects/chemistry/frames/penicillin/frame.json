@@ -166,5 +166,11 @@
 			],
 			"published": "1943"
 		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/mauveine",
+			"why": "The trail began with Perkin, who set out to make a drug, quinine, and made a dye; it ends with a drug grown by a mould."
+		}
 	]
 }

@@ -27,6 +27,14 @@
 		{
 			"to": "western-civ/si-redefinition",
 			"why": "The number of particles in a mole that Avogadro's rule implies, the Avogadro constant, has been fixed exactly since 2019 and defines the mole."
+		},
+		{
+			"to": "chemistry/structure-theory",
+			"why": "Kekulé, who gave carbon its four bonds, was one of the organisers of the Karlsruhe Congress."
+		},
+		{
+			"to": "chemistry/dalton",
+			"why": "Avogadro's hypothesis of 1811, which could have settled Dalton's atomic weights, was revived by Cannizzaro at Karlsruhe."
 		}
 	],
 	"citations": [

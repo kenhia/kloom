@@ -218,5 +218,11 @@
 			],
 			"published": "2013-11-12"
 		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/wohler-urea",
+			"why": "Wöhler, who had made urea in a flask in 1828, joined Liebig in mocking the idea that fermentation needs living yeast."
+		}
 	]
 }
