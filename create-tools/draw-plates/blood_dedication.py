@@ -34,15 +34,22 @@ class Placed(D):
 
 def dedication():
     d = Placed()
+    # Side by side, as Ken's mockup has them (korg 3475): the eagle on the left, the branch insignia
+    # on the right, both sitting on one line, each named beneath.
+    base = 236
     d.group('thin')
-    d.line((120, 112), (280, 112))
+    d.line((8, base + 10), (392, base + 10))
+    d.group('mid')
+    d.text(102, base + 34, 'COLONEL · O-6', size=10)
+    d.text(300, base + 34, 'MEDICAL SERVICE CORPS', size=10)
     eagle = open(os.path.join(ART, 'us-o6-insignia.svg')).read()
     silhouette, detail = re.findall(r'<path d="([^"]+)"', eagle)
-    s = 0.19                                          # 950 by 475 drawn 180 wide
-    d.placed.append((f'translate({200 - 475 * s:.2f} 14) scale({s})', [(silhouette, 'stroke'), (detail, 'fill')], 6.5))
+    s = 0.205                                         # 950 by 475 drawn 195 wide, its foot on the line
+    d.placed.append((f'translate({102 - 475 * s:.2f} {base - 475 * s:.2f}) scale({s})',
+                     [(silhouette, 'stroke'), (detail, 'fill')], 6.5))
     msc = open(os.path.join(ART, 'msc-insignia-trace.txt')).read().strip()
-    s = 0.25                                          # 822 by 674 drawn 205 wide
-    d.placed.append((f'translate({200 - 411 * s:.2f} 118) scale({s})', [(msc, 'fill')], 5))
+    s = 0.235                                         # 822 by 674 drawn 193 wide, 158 high
+    d.placed.append((f'translate({300 - 411 * s:.2f} {base - 674 * s:.2f}) scale({s})', [(msc, 'fill')], 5))
     return d
 
 

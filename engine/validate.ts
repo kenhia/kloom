@@ -232,6 +232,16 @@ export function validate(raw: RawSubject, options: ValidateOptions = {}): string
 				fail(where, 'scene.metadata must be a list of strings');
 			if (scene.counter !== undefined && !(isObj(scene.counter) && isText(scene.counter.value)))
 				fail(where, 'scene.counter needs a value');
+			if (
+				scene.dedication !== undefined &&
+				!(
+					isObj(scene.dedication) &&
+					isText(scene.dedication.kicker) &&
+					isText(scene.dedication.name) &&
+					(scene.dedication.note === undefined || isText(scene.dedication.note))
+				)
+			)
+				fail(where, 'scene.dedication needs a kicker and a name, and a note only as text');
 			if (scene.illustration !== undefined) {
 				const svg = isText(scene.illustration) ? svgs[scene.illustration] : undefined;
 				if (svg === undefined)

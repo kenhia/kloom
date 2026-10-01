@@ -100,10 +100,20 @@
 						{@html frame.svg}
 					</div>
 				{/if}
-				<p class="headline">
-					<span class="words">{frame.scene.headline}</span>
-					<em class="accent">{frame.scene.accent}</em>
-				</p>
+				{#if frame.scene.dedication}
+					<div class="dedication">
+						<p class="kicker">{frame.scene.dedication.kicker}</p>
+						<p class="name">{frame.scene.dedication.name}</p>
+						{#if frame.scene.dedication.note}
+							<p class="below">{frame.scene.dedication.note}</p>
+						{/if}
+					</div>
+				{:else}
+					<p class="headline">
+						<span class="words">{frame.scene.headline}</span>
+						<em class="accent">{frame.scene.accent}</em>
+					</p>
+				{/if}
 				{#if frame.scene.metadata.length}
 					<ul class="metadata">
 						{#each frame.scene.metadata as line (line)}<li>{line}</li>{/each}
@@ -358,6 +368,40 @@
 	.headline .accent {
 		animation-duration: var(--accent-fade);
 		animation-delay: var(--accent-delay);
+	}
+	/*
+	 * A dedication (sprint 028): a name in its own case, not a headline in
+	 * capitals, between a small line above and an optional one below. It
+	 * enters with the headline's timing, all at once, with no accent word.
+	 */
+	.dedication {
+		display: grid;
+		justify-items: center;
+		gap: min(0.6rem, 1.2dvh);
+		opacity: 0;
+		animation: appear var(--headline-fade) ease-in-out var(--headline-delay) forwards;
+	}
+	.dedication p {
+		margin: 0;
+	}
+	.dedication .kicker {
+		font-family: var(--mono);
+		font-size: 0.8rem;
+		letter-spacing: 0.3em;
+		text-transform: uppercase;
+		color: var(--accent);
+	}
+	.dedication .name {
+		font-family: var(--serif);
+		font-size: clamp(1.5rem, min(3.6vw, 6dvh), 2.75rem);
+		line-height: 1.15;
+		text-wrap: balance;
+		color: var(--ink);
+	}
+	.dedication .below {
+		font-family: var(--serif);
+		font-size: clamp(1rem, min(1.8vw, 3dvh), 1.35rem);
+		color: var(--muted);
 	}
 	.metadata {
 		margin: 0;

@@ -9,10 +9,12 @@
 		"accent": "USA.",
 		"palette": "maroon",
 		"illustration": "scene.svg",
-		"metadata": [
-			"MEDICAL SERVICE CORPS · UNITED STATES ARMY",
-			"BLOOD BANK OFFICER · COMMANDER, USARIEM"
-		]
+		"metadata": ["MEDICAL SERVICE CORPS · UNITED STATES ARMY"],
+		"dedication": {
+			"kicker": "Dedicated to",
+			"name": "Colonel Joel T. Hiatt, USA",
+			"note": "Retired"
+		}
 	},
 	"citations": [
 		{

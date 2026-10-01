@@ -171,6 +171,27 @@ The plate is about 108 KB, against about 6 KB for a computed one; the
 trace itself is 33 KB of path data, less than the 200 KB the comment
 estimated.
 
+**Ken's revision (korg 3475, 2026-10-01).** On reviewing the frame Ken
+asked to bring it closer to his mockup:
+
+- the name and rank in mixed case, between a smaller "Dedicated to" above
+  and a "Retired" directly below, which the nursing subject will need too;
+- a single line under it, "MEDICAL SERVICE CORPS · UNITED STATES ARMY";
+- the two insignia side by side;
+- and not the mockup's differently coloured comma.
+
+The scene set every headline in large capitals, so this needed the engine.
+It is a scene kind any subject may use, not a page for this one: an
+optional `scene.dedication` of `{kicker, name, note?}`. When present, the
+scene shows it in place of the headline and the metadata beneath it, and
+the narrative's heading reads "Dedicated to Colonel Joel T. Hiatt, USA,
+Retired". The headline and accent stay, because the contents, the map and
+the spine's screen-reader label still name the frame by them. It is
+validated (a test first, seen failing) and recorded in design.md §Content
+model. The plate is redrawn with the eagle and the branch insignia side by
+side on one line, each named beneath, as the mockup has them; checked at
+1400×900 and at 390 px, with no overflow.
+
 ### Authoring at scale
 
 - **Eighteen authors in parallel**, each a subagent with a shell and the
@@ -367,6 +388,10 @@ tools-test`, and every mark spec with `--check --placed`.
   the frame that tells an event two frames open from; apply an owner's
   draft when a borrower's reached the registry first. **The grow skill**:
   "in our translation", the practice of twelve readings in four subjects.
+- **The dev server would not start**: its file watcher reached the
+  system's limit on `.scratch`, where the authors' checking copies of
+  every subject (over half a million files) sit. `vite.config.ts` now
+  ignores `.scratch`, which nothing serves.
 - **Eight shared names widened** from one subject's angle (Haldane,
   Göttingen, Paris, Poisson, Toronto, Stanford, the Office of Naval
   Research, Cambridge); `blood-tx2`'s mark spec formatted.
@@ -379,8 +404,5 @@ tools-test`, and every mark spec with `--check --placed`.
   contact sheets for many plates, `commons_media` and `lookup` gaps, typed
   marks, and naming owners under rolling commits.
 - **korg 3470** carries the nursing subject's pending links.
-- **For Ken to look at:** the dedication's accent, "USA.", is the
-  `maroon` palette's silver (#e6e9ec) on near-white ink, so it barely
-  stands apart from the rest of the headline. A gold or the branch's
-  white piping would read more clearly; it is a one-line palette change if
-  wanted.
+- The dedication's accent word, "USA.", no longer shows on the scene: the
+  name now appears in place of the headline (korg 3475).

@@ -371,7 +371,16 @@
 			{frame.position.label}
 			{#if frame.asOf}<span class="as-of">· As of {chicagoDate(frame.asOf)}</span>{/if}
 		</p>
-		<h2 id="reading-title">{frame.scene.headline} <em>{frame.scene.accent}</em></h2>
+		{#if frame.scene.dedication}
+			<h2 id="reading-title" class="dedication">
+				{frame.scene.dedication.kicker}
+				{frame.scene.dedication.name}{#if frame.scene.dedication.note}<span class="below"
+						>, {frame.scene.dedication.note}</span
+					>{/if}
+			</h2>
+		{:else}
+			<h2 id="reading-title">{frame.scene.headline} <em>{frame.scene.accent}</em></h2>
+		{/if}
 
 		<div class="body" bind:this={body}>
 			<!-- Rendered on load with raw HTML escaped and unsafe links dropped. -->
@@ -591,6 +600,13 @@
 	h2 em {
 		font-style: normal;
 		color: var(--accent);
+	}
+	/* A dedication's name keeps its own case (sprint 028). */
+	h2.dedication {
+		text-transform: none;
+	}
+	h2 .below {
+		color: var(--muted);
 	}
 	h3 {
 		margin: 1.75rem 0 0.5rem;

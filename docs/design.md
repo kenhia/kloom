@@ -114,7 +114,16 @@ baked into the engine.
     date, so neither says on its own what a frame is. The topic is what
     names a frame where it stands alone (§Topics);
   - _scene_: headline, accent word, illustration (SVG), palette, metadata,
-    optional counter;
+    optional counter, and an optional _dedication_ (sprint 028, korg
+    3475): `{kicker, name, note?}`, for a frame that dedicates a subject to
+    someone. The scene then sets the name in its own case, with the kicker
+    in small capitals above it and the note (such as "Retired") just below,
+    in place of the headline, and the metadata beneath. The narrative's
+    heading reads the same. The headline and accent stay, and still name
+    the frame on every other surface (contents, map, the spine's screen
+    reader label), so the accent is still unique. A dedication is a
+    subject's choice, never the engine's; the first is the last frame of
+    In the Blood;
   - _reading_: markdown narrative, charts, images, and **sources** —
     required, because this is history written with an LLM. Since sprint
     008 every frame flags at least one key-source citation, and the Sources

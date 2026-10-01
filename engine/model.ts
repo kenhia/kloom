@@ -54,6 +54,14 @@ export interface Scene {
 	/** Small monospace lines under the headline. */
 	metadata: string[];
 	counter?: { value: string; label?: string };
+	/**
+	 * A dedication set as a name rather than a headline (sprint 028): a small
+	 * line above it ("Dedicated to"), the name in its own case, and an optional
+	 * line directly under it ("Retired"). The scene shows it in place of the
+	 * headline, with the metadata below; the headline and accent still name the
+	 * frame everywhere else (contents, map, screen readers).
+	 */
+	dedication?: { kicker: string; name: string; note?: string };
 }
 
 /**

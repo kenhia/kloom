@@ -17,7 +17,10 @@ export default defineConfig({
 	// SvelteKit's dev server serves only its own directories; a module the
 	// engine imports lazily (the 3D view) is requested on its own, so the
 	// engine is allowed too.
-	server: { fs: { allow: ['engine'] } },
+	// .scratch holds authors' checking copies of every subject, hundreds of
+	// thousands of files nothing serves; watching them exhausted the system's
+	// file watchers and the dev server would not start (sprint 028).
+	server: { fs: { allow: ['engine'] }, watch: { ignored: ['**/.scratch/**'] } },
 	plugins: [
 		sveltekit({
 			compilerOptions: {
