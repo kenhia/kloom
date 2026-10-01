@@ -1,0 +1,31 @@
+{
+	"making/maudslay": [
+		["Henry Maudslay", "henry-maudslay"],
+		["Joseph Bramah", "joseph-bramah"],
+		["lead screw", "leadscrew"],
+		["Science Museum", "science-museum-london"],
+		["Edward Troughton", "edward-troughton"],
+		["James Nasmyth", "james-nasmyth"],
+		["Joseph Clement", "joseph-clement"],
+		["Joseph Whitworth", "joseph-whitworth"]
+	],
+	"making/wilkinson-boring": [
+		["James Watt", "james-watt"],
+		["John Smeaton", "john-smeaton"],
+		["John Wilkinson", "john-wilkinson-industrialist"],
+		["Bersham Ironworks", "bersham-ironworks"],
+		["Boring", "boring-manufacturing"],
+		["Matthew Boulton", "matthew-boulton"],
+		["Boulton and Watt", "boulton-and-watt"]
+	],
+	"making/whitworth": [
+		["Manchester", "manchester"],
+		["Joseph Whitworth", "joseph-whitworth"],
+		["Henry Maudslay", "henry-maudslay"],
+		["Joseph Clement", "joseph-clement"],
+		["surface plates", "surface-plate"],
+		["James Nasmyth", "james-nasmyth"],
+		["Institution of Civil Engineers", "institution-of-civil-engineers"],
+		["British Standard Whitworth", "british-standard-whitworth"]
+	]
+}

@@ -11,6 +11,12 @@
 			"title": "Wood",
 			"labelKind": "date",
 			"frames": ["thonet-chair", "moulded-plywood"]
+		},
+		{
+			"id": "machine-tools",
+			"title": "Machines that make machines",
+			"labelKind": "date",
+			"frames": ["wilkinson-boring", "maudslay", "whitworth"]
 		}
 	]
 }

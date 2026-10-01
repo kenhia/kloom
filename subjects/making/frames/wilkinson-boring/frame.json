@@ -1,0 +1,215 @@
+{
+	"id": "wilkinson-boring",
+	"topic": "Wilkinson's cylinder-boring machine",
+	"position": {
+		"label": "1774",
+		"sort": 1774
+	},
+	"scene": {
+		"headline": "We bored the cylinder",
+		"accent": "TRUE.",
+		"palette": "drafting",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERSHAM · WREXHAM · JOHN WILKINSON",
+			"A BORING BAR HELD AT BOTH ENDS · WATER POWER"
+		],
+		"counter": {
+			"value": "50 in",
+			"label": "a cylinder bored within an old shilling's thickness, 1776"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/steam",
+			"why": "Watt's engine went to work in 1776 only once John Wilkinson's boring mill could make its cylinders truly round, as both readings tell."
+		},
+		{
+			"to": "making/maudslay",
+			"why": "As a boy at the Royal Arsenal, Woolwich, in the 1780s, Maudslay worked near a horizontal borer for cannon like Wilkinson's."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Treatise on the Steam Engine, Historical, Practical, and Descriptive",
+			"authors": [
+				{
+					"family": "Farey",
+					"given": "John"
+				}
+			],
+			"publisher": "Longman, Rees, Orme, Brown, and Green",
+			"place": "London",
+			"published": "1827",
+			"url": "https://archive.org/details/treatiseonsteame01fareuoft",
+			"accessed": "2026-09-30",
+			"note": "Pp. 325–328: Wilkinson's machine, Watt's letter to Smeaton and Boulton's proposal to the Carron Company, both of 1776"
+		},
+		{
+			"kind": "book",
+			"title": "The Machine Tool Collection: Catalogue of Exhibits with Historical Introduction",
+			"authors": [
+				{
+					"family": "Gilbert",
+					"given": "K. R."
+				}
+			],
+			"publisher": "Her Majesty's Stationery Office, for the Science Museum",
+			"place": "London",
+			"published": "1966",
+			"url": "https://archive.org/details/machine-tool-collection",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Smeaton's Carron mill (no. 138), the Bersham mill (no. 139) and the surviving bar (no. 140)"
+		},
+		{
+			"kind": "book",
+			"title": "English and American Tool Builders",
+			"authors": [
+				{
+					"family": "Roe",
+					"given": "Joseph Wickham"
+				}
+			],
+			"publisher": "Yale University Press",
+			"place": "New Haven",
+			"published": "1916",
+			"url": "https://archive.org/details/englishandameri00roegoog",
+			"accessed": "2026-09-30",
+			"key": true,
+			"note": "Pp. 2–13: Watt's 18-inch cylinder, and the cuts and feed of Wilkinson's machine"
+		},
+		{
+			"kind": "book",
+			"title": "Lives of Boulton and Watt",
+			"authors": [
+				{
+					"family": "Smiles",
+					"given": "Samuel"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1865",
+			"url": "https://www.gutenberg.org/ebooks/52069",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Wilkinson (industrialist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Wilkinson_(industrialist)&oldid=1358763238",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-10",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bersham Ironworks",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bersham_Ironworks&oldid=1351533284",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Watt steam engine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Watt_steam_engine&oldid=1375893458",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Boring (manufacturing)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Boring_(manufacturing)&oldid=1363595204",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Deflection (engineering)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deflection_(engineering)&oldid=1315389755",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Shilling (British coin)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Shilling_(British_coin)&oldid=1374384600",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Silver",
+			"url": "https://en.wikipedia.org/w/index.php?title=Silver&oldid=1377391783",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "Model of John Wilkinson's boring mill at Bersham, 1775, in the Science Museum (plate 22 of The Machine Tool Collection)",
+			"url": "https://commons.wikimedia.org/wiki/File:Machine_Tool_Collection_Gilbert_1966_Plate_22.jpg",
+			"accessed": "2026-09-30",
+			"container": "Science Museum, via Wikimedia Commons",
+			"licence": "Public domain (Crown copyright expired)",
+			"file": "bersham-model.jpg",
+			"authors": [
+				{
+					"family": "Gilbert",
+					"given": "K. R."
+				}
+			],
+			"published": "1966"
+		}
+	]
+}
