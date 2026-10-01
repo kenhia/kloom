@@ -1,0 +1,8 @@
+{
+	"id": "prusaslicer",
+	"wikidata": "Q135403227",
+	"name": "PrusaSlicer",
+	"aliases": ["Slic3r Prusa Edition"],
+	"kind": "artifact",
+	"description": "A free slicer for 3D printers developed by Prusa Research, forked from Slic3r in 2016 and renamed in 2019."
+}

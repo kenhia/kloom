@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M14 250 L196 250"/>
+		<path pathLength="1" d="M22.9 237.9 L185.1 237.9"/>
+		<path pathLength="1" d="M25.7 225.7 L182.3 225.7"/>
+		<path pathLength="1" d="M28.6 213.6 L179.4 213.6"/>
+		<path pathLength="1" d="M31.4 201.4 L176.6 201.4"/>
+		<path pathLength="1" d="M34.3 189.3 L173.7 189.3"/>
+		<path pathLength="1" d="M37.1 177.1 L170.9 177.1"/>
+		<path pathLength="1" d="M40 165 L168 165"/>
+		<path pathLength="1" d="M42.9 152.9 L165.1 152.9"/>
+		<path pathLength="1" d="M45.7 140.7 L162.3 140.7"/>
+		<path pathLength="1" d="M48.6 128.6 L159.4 128.6"/>
+		<path pathLength="1" d="M51.4 116.4 L156.6 116.4"/>
+		<path pathLength="1" d="M54.3 104.3 L153.7 104.3"/>
+		<path pathLength="1" d="M57.1 92.1 L150.9 92.1"/>
+		<path pathLength="1" d="M60 80 L148 80"/>
+		<path pathLength="1" d="M104 258 L104 66"/>
+		<path pathLength="1" d="M162.3 140.7 L226 140.7"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 250 L70 80 L138 80 L178 250 Z"/>
+		<path pathLength="1" d="M156.3 250 L128 80 M104 250 L104 80 M51.7 250 L80 80"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M55.7 140.7 L152.3 140.7"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M327.6 83.5 L366.5 122.4 L366.5 177.6 L327.6 216.5 L272.4 216.5 L233.5 177.6 L233.5 122.4 L272.4 83.5 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M324.7 90.5 L359.5 125.3 L359.5 174.7 L324.7 209.5 L275.3 209.5 L240.5 174.7 L240.5 125.3 L275.3 90.5 Z"/>
+		<path pathLength="1" d="M321.8 97.5 L352.5 128.2 L352.5 171.8 L321.8 202.5 L278.2 202.5 L247.5 171.8 L247.5 128.2 L278.2 97.5 Z"/>
+		<path pathLength="1" d="M250.5 166.5 L283.5 199.5 M250.5 155.5 L294.5 199.5 M250.5 144.5 L305.5 199.5 M250.5 133.5 L316.5 199.5 M254 126 L324 196 M259.5 120.5 L329.5 190.5 M265 115 L335 185 M270.5 109.5 L340.5 179.5 M276 104 L346 174 M283.5 100.5 L349.5 166.5 M294.5 100.5 L349.5 155.5 M305.5 100.5 L349.5 144.5 M316.5 100.5 L349.5 133.5"/>
+		<path pathLength="1" d="M321.6 63.5 L333.6 63.5 L329.6 77.5 L325.6 77.5 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="104" y="24" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ELEVATION</text>
+		<text x="300" y="24" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PLAN OF ONE LAYER</text>
+		<text x="300" y="248" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PERIMETERS · INFILL</text>
+		<text x="104" y="272" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BED</text>
+	</g>
+</svg>

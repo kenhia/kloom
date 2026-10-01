@@ -1,0 +1,249 @@
+{
+	"id": "supports",
+	"topic": "Overhangs and supports",
+	"position": {
+		"label": "Supports"
+	},
+	"scene": {
+		"headline": "We learned to print over",
+		"accent": "AIR.",
+		"palette": "filament",
+		"illustration": "scene.svg",
+		"metadata": ["PRUSASLICER · CURA · PURDUE UNIVERSITY", "OVERHANGS · BRIDGES · TREE SUPPORTS"],
+		"counter": {
+			"value": "48°",
+			"label": "from the vertical, the steepest a 0.2 mm layer can lean unsupported, by our arithmetic"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Modeling with 3D Printing in Mind",
+			"authors": [
+				{
+					"name": "Prusa Research"
+				}
+			],
+			"container": "Prusa Knowledge Base",
+			"url": "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
+			"accessed": "2026-09-30",
+			"note": "Overhangs of 45–60°, chamfers, splitting parts, finish over supports"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "SupportMaterial.cpp",
+			"authors": [
+				{
+					"name": "Prusa Research"
+				}
+			],
+			"container": "PrusaSlicer",
+			"publisher": "GitHub",
+			"published": "2026-09-21",
+			"url": "https://github.com/prusa3d/PrusaSlicer/blob/30ef59195e0f3ee6f270b185bb5f9fb5f349f81f/src/libslic3r/src/libslic3r/Support/SupportMaterial.cpp",
+			"accessed": "2026-09-30",
+			"note": "Automatic detection: an overhang is half the outer bead's width"
+		},
+		{
+			"kind": "web",
+			"title": "PrintConfig.cpp",
+			"authors": [
+				{
+					"name": "Prusa Research"
+				}
+			],
+			"container": "PrusaSlicer",
+			"publisher": "GitHub",
+			"published": "2026-09-21",
+			"url": "https://github.com/prusa3d/PrusaSlicer/blob/30ef59195e0f3ee6f270b185bb5f9fb5f349f81f/src/slic3r-shared/src/Slic3r/Biz/Config/Legacy/PrintConfig.cpp",
+			"accessed": "2026-09-30",
+			"note": "The overhang threshold, measured from the horizontal"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "fdmprinter.def.json",
+			"authors": [
+				{
+					"name": "Ultimaker"
+				}
+			],
+			"container": "Cura",
+			"publisher": "GitHub",
+			"published": "2026-09-10",
+			"url": "https://github.com/Ultimaker/Cura/blob/34840772f9f82d831834e8b99666c6b55e88490d/resources/definitions/fdmprinter.def.json",
+			"accessed": "2026-09-30",
+			"note": "Support overhang angle 50° from the vertical; density and gaps"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Clever Support: Efficient Support Structure Generation for Digital Fabrication",
+			"authors": [
+				{
+					"family": "Vanek",
+					"given": "Juraj"
+				},
+				{
+					"family": "García Galicia",
+					"given": "Jorge A."
+				},
+				{
+					"family": "Beneš",
+					"given": "Bedřich"
+				}
+			],
+			"container": "Computer Graphics Forum",
+			"volume": "33",
+			"issue": "5",
+			"pages": "117–125",
+			"published": "2014",
+			"doi": "10.1111/cgf.12437",
+			"accessed": "2026-09-30",
+			"note": "Read in its abstract, through OpenAlex"
+		},
+		{
+			"kind": "web",
+			"title": "Slic3r Manual: Flow Math",
+			"authors": [
+				{
+					"family": "Hodgson",
+					"given": "Gary"
+				},
+				{
+					"family": "Ranellucci",
+					"given": "Alessandro"
+				},
+				{
+					"family": "Moe",
+					"given": "Jeff"
+				}
+			],
+			"publisher": "Aleph Objects",
+			"url": "https://manual.slic3r.org/advanced/flow-math",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Slic3r Manual: Print Settings",
+			"authors": [
+				{
+					"family": "Hodgson",
+					"given": "Gary"
+				},
+				{
+					"family": "Ranellucci",
+					"given": "Alessandro"
+				},
+				{
+					"family": "Moe",
+					"given": "Jeff"
+				}
+			],
+			"publisher": "Aleph Objects",
+			"url": "https://manual.slic3r.org/expert-mode/print-settings",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Poor Bridging",
+			"authors": [
+				{
+					"name": "Prusa Research"
+				}
+			],
+			"container": "Prusa Knowledge Base",
+			"url": "https://help.prusa3d.com/article/poor-bridging_1802",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Organic Supports",
+			"authors": [
+				{
+					"name": "Prusa Research"
+				}
+			],
+			"container": "Prusa Knowledge Base",
+			"url": "https://help.prusa3d.com/article/organic-supports_480131",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Support Material",
+			"authors": [
+				{
+					"name": "Prusa Research"
+				}
+			],
+			"container": "Prusa Knowledge Base",
+			"url": "https://help.prusa3d.com/article/support-material_1698",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "Support Structures for Additive Manufacturing: A Review",
+			"authors": [
+				{
+					"family": "Jiang",
+					"given": "Jingchao"
+				},
+				{
+					"family": "Xu",
+					"given": "Xun"
+				},
+				{
+					"family": "Stringer",
+					"given": "Jonathan"
+				}
+			],
+			"container": "Journal of Manufacturing and Materials Processing",
+			"volume": "2",
+			"issue": "4",
+			"pages": "64",
+			"published": "2018-09-20",
+			"doi": "10.3390/jmmp2040064",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Slicer (3D printing)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Slicer_(3D_printing)&oldid=1374893243",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "media",
+			"title": "A figure printed with support material, from the Slic3r manual",
+			"url": "https://manual.slic3r.org/expert-mode/print-settings",
+			"accessed": "2026-09-30",
+			"container": "Slic3r Manual",
+			"licence": "CC BY-SA 3.0",
+			"file": "support-example.jpg",
+			"authors": [
+				{
+					"family": "Hodgson",
+					"given": "Gary"
+				},
+				{
+					"family": "Ranellucci",
+					"given": "Alessandro"
+				},
+				{
+					"family": "Moe",
+					"given": "Jeff"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 250 L246.8 250"/>
+		<path pathLength="1" d="M20 224 L246.8 224"/>
+		<path pathLength="1" d="M20 198 L246.8 198"/>
+		<path pathLength="1" d="M20 172 L246.8 172"/>
+		<path pathLength="1" d="M20 146 L246.8 146"/>
+		<path pathLength="1" d="M20 120 L246.8 120"/>
+		<path pathLength="1" d="M88.5 250 L219.5 104.4"/>
+		<path pathLength="1" d="M88.5 250 L88.5 106"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M75.5 224 L80.5 225 L84.7 227.8 L87.5 232 L88.5 237 L87.5 242 L84.7 246.2 L80.5 249 L75.5 250 L43 250 L38 249 L33.8 246.2 L31 242 L30 237 L31 232 L33.8 227.8 L38 225 L43 224 Z"/>
+		<path pathLength="1" d="M104.8 198 L109.7 199 L113.9 201.8 L116.8 206 L117.8 211 L116.8 216 L113.9 220.2 L109.7 223 L104.8 224 L72.2 224 L67.3 223 L63.1 220.2 L60.2 216 L59.2 211 L60.2 206 L63.1 201.8 L67.3 199 L72.2 198 Z"/>
+		<path pathLength="1" d="M134 172 L139 173 L143.2 175.8 L146 180 L147 185 L146 190 L143.2 194.2 L139 197 L134 198 L101.5 198 L96.5 197 L92.3 194.2 L89.5 190 L88.5 185 L89.5 180 L92.3 175.8 L96.5 173 L101.5 172 Z"/>
+		<path pathLength="1" d="M163.2 146 L168.2 147 L172.4 149.8 L175.3 154 L176.2 159 L175.3 164 L172.4 168.2 L168.2 171 L163.2 172 L130.8 172 L125.8 171 L121.6 168.2 L118.7 164 L117.8 159 L118.7 154 L121.6 149.8 L125.8 147 L130.8 146 Z"/>
+		<path pathLength="1" d="M192.5 120 L197.5 121 L201.7 123.8 L204.5 128 L205.5 133 L204.5 138 L201.7 142.2 L197.5 145 L192.5 146 L160 146 L155 145 L150.8 142.2 L148 138 L147 133 L148 128 L150.8 123.8 L155 121 L160 120 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M88.5 198 L91.2 198.1 L94 198.3 L96.7 198.6 L99.4 199.2 L102.1 199.8 L104.7 200.6 L107.3 201.5 L109.8 202.6 L112.3 203.8 L114.7 205.1 L117 206.5 L119.3 208.1 L121.4 209.8 L123.5 211.6 L125.5 213.5 L127.4 215.5"/>
+		<path pathLength="1" d="M176.2 110 L205.5 110"/>
+		<path pathLength="1" d="M176.2 106 L176.2 114 M205.5 106 L205.5 114"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M214 266 L392 266"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M228 266 L228 96 L384 96 L384 124 L252 124 L252 266"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M323 266 L323 190"/>
+		<path pathLength="1" d="M323 190 L298 158 M323 190 L353 158"/>
+		<path pathLength="1" d="M298 158 L278 128 M298 158 L308 128 M353 158 L338 128 M353 158 L368 128"/>
+		<path pathLength="1" d="M314 266 L320 256 L326 256 L332 266"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="132.5" y="240" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">48°</text>
+		<text x="190.9" y="102" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">w/2</text>
+		<text x="16" y="240" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">h</text>
+		<text x="112" y="24" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BEADS IN SECTION</text>
+		<text x="306" y="24" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A TREE SUPPORT</text>
+		<text x="306" y="86" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARM</text>
+	</g>
+</svg>

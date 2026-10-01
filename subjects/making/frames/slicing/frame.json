@@ -1,0 +1,277 @@
+{
+	"id": "slicing",
+	"topic": "Slicing a model into layers",
+	"position": {
+		"label": "Slicing"
+	},
+	"asOf": "2026-09-30",
+	"scene": {
+		"headline": "We cut every model into",
+		"accent": "SLICES.",
+		"palette": "resin",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SKEINFORGE · SLIC3R · CURA · PRUSASLICER · BAMBU STUDIO",
+			"LAYERS · PERIMETERS · INFILL · G1 X Y E F"
+		],
+		"counter": {
+			"value": "0.67 mm",
+			"label": "of filament to print a 20 mm line, by our arithmetic"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/free-software",
+			"why": "Slic3r was released under the GNU Affero GPL, a copyleft licence, so the slicers forked from it, PrusaSlicer and Bambu Studio among them, had to keep its licence and publish their source."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Skeinforge",
+			"container": "RepRap wiki",
+			"url": "https://reprap.org/mediawiki/index.php?title=Skeinforge&oldid=979",
+			"published": "2008-11-08",
+			"accessed": "2026-09-30",
+			"note": "The page's first revision, with G-code from the 29 March 2007 Skeinforge"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Slic3r Manual",
+			"authors": [
+				{
+					"family": "Hodgson",
+					"given": "Gary"
+				},
+				{
+					"family": "Ranellucci",
+					"given": "Alessandro"
+				},
+				{
+					"family": "Moe",
+					"given": "Jeff"
+				}
+			],
+			"publisher": "Aleph Objects",
+			"url": "https://manual.slic3r.org/expert-mode/print-settings",
+			"accessed": "2026-09-30",
+			"note": "Print settings, infill density and the overview of the project"
+		},
+		{
+			"kind": "web",
+			"title": "Slic3r Manual: Overview",
+			"authors": [
+				{
+					"family": "Hodgson",
+					"given": "Gary"
+				},
+				{
+					"family": "Ranellucci",
+					"given": "Alessandro"
+				},
+				{
+					"family": "Moe",
+					"given": "Jeff"
+				}
+			],
+			"publisher": "Aleph Objects",
+			"url": "https://manual.slic3r.org/intro/overview",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Slic3r Manual: Flow Math",
+			"authors": [
+				{
+					"family": "Hodgson",
+					"given": "Gary"
+				},
+				{
+					"family": "Ranellucci",
+					"given": "Alessandro"
+				},
+				{
+					"family": "Moe",
+					"given": "Jeff"
+				}
+			],
+			"publisher": "Aleph Objects",
+			"url": "https://manual.slic3r.org/advanced/flow-math",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Slic3r",
+			"container": "GitHub",
+			"url": "https://github.com/slic3r/Slic3r",
+			"accessed": "2026-09-30",
+			"note": "The project's README"
+		},
+		{
+			"kind": "web",
+			"title": "Cura",
+			"container": "RepRap wiki",
+			"url": "https://reprap.org/wiki/Cura",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "fdmprinter.def.json",
+			"authors": [
+				{
+					"name": "Ultimaker"
+				}
+			],
+			"container": "Cura",
+			"publisher": "GitHub",
+			"published": "2026-09-10",
+			"url": "https://github.com/Ultimaker/Cura/blob/34840772f9f82d831834e8b99666c6b55e88490d/resources/definitions/fdmprinter.def.json",
+			"accessed": "2026-09-30",
+			"note": "Cura's default settings: walls, top and bottom thickness, infill"
+		},
+		{
+			"kind": "web",
+			"title": "BambuStudio",
+			"authors": [
+				{
+					"name": "Bambu Lab"
+				}
+			],
+			"container": "GitHub",
+			"url": "https://github.com/bambulab/BambuStudio",
+			"accessed": "2026-09-30",
+			"note": "The README: based on PrusaSlicer, from Slic3r"
+		},
+		{
+			"kind": "web",
+			"title": "PrusaSlicer",
+			"authors": [
+				{
+					"name": "Prusa Research"
+				}
+			],
+			"container": "GitHub",
+			"url": "https://github.com/prusa3d/PrusaSlicer",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "3D Printering: The Past and Future of Prusa's Slicer",
+			"authors": [
+				{
+					"family": "Nardi",
+					"given": "Tom"
+				}
+			],
+			"container": "Hackaday",
+			"published": "2019-05-24",
+			"url": "https://hackaday.com/2019/05/24/3d-printering-the-past-and-future-of-prusas-slicer/",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "G0-G1: Linear Move",
+			"container": "Marlin Firmware",
+			"url": "https://marlinfw.org/docs/gcode/G000-G001.html",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "web",
+			"title": "Export Fusion 360 to Bambu Studio",
+			"authors": [
+				{
+					"family": "Hiatt",
+					"given": "Ken"
+				}
+			],
+			"container": "kCheatSheet",
+			"publisher": "GitHub",
+			"published": "2026-01-08",
+			"url": "https://github.com/kenhia/kCheatSheet/blob/main/docs/fusion360/export-to-bambu.md",
+			"accessed": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Slicer (3D printing)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Slicer_(3D_printing)&oldid=1374893243",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Slic3r",
+			"url": "https://en.wikipedia.org/w/index.php?title=Slic3r&oldid=1301214073",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cura (software)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cura_(software)&oldid=1345913498",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "PrusaSlicer",
+			"url": "https://en.wikipedia.org/w/index.php?title=PrusaSlicer&oldid=1367404650",
+			"accessed": "2026-09-30",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-02"
+		},
+		{
+			"kind": "media",
+			"title": "Infill patterns at 20, 40, 60 and 80 per cent, from the Slic3r manual",
+			"url": "https://manual.slic3r.org/expert-mode/print-settings",
+			"accessed": "2026-09-30",
+			"container": "Slic3r Manual",
+			"licence": "CC BY-SA 3.0",
+			"file": "infill-patterns.png",
+			"authors": [
+				{
+					"family": "Hodgson",
+					"given": "Gary"
+				},
+				{
+					"family": "Ranellucci",
+					"given": "Alessandro"
+				},
+				{
+					"family": "Moe",
+					"given": "Jeff"
+				}
+			]
+		}
+	]
+}
