@@ -1,0 +1,327 @@
+{
+	"id": "infection-control-nurse",
+	"topic": "The infection control nurse",
+	"position": {
+		"label": "1959",
+		"sort": 1959
+	},
+	"scene": {
+		"headline": "She swabbed every",
+		"accent": "WOUND.",
+		"palette": "nightshift",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TORBAY HOSPITAL · SISTER E. M. COTTRELL · BRENDAN MOORE",
+			"PHAGE TYPE 80 · SENIC, 338 HOSPITALS"
+		],
+		"counter": {
+			"value": "32%",
+			"label": "fewer infections where a full programme ran, by SENIC"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Study of Post-operative Wound Infection in a Provincial General Hospital",
+			"authors": [
+				{
+					"family": "Moore",
+					"given": "B."
+				},
+				{
+					"family": "Gardner",
+					"given": "A. M. N."
+				}
+			],
+			"container": "Journal of Hygiene",
+			"volume": "61",
+			"issue": "1",
+			"pages": "95–113",
+			"published": "1963-03",
+			"doi": "10.1017/s0022172400020787",
+			"accessed": "2026-10-01",
+			"note": "The Infection Control Sister's work at Torbay, 1959–60, and its counts; Sister Cottrell named in the acknowledgements"
+		},
+		{
+			"kind": "article",
+			"title": "The Infection Control Sister: A New Member of the Control of Infection Team in General Hospitals",
+			"authors": [
+				{
+					"family": "Gardner",
+					"given": "A. M. N."
+				},
+				{
+					"family": "Stamp",
+					"given": "M."
+				},
+				{
+					"family": "Bowgen",
+					"given": "J. A."
+				},
+				{
+					"family": "Moore",
+					"given": "B."
+				}
+			],
+			"container": "The Lancet",
+			"volume": "280",
+			"pages": "710–711",
+			"published": "1962-10",
+			"citedIn": "A Study of Post-operative Wound Infection in a Provincial General Hospital",
+			"doi": "10.1016/s0140-6736(62)90520-2",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "History of IPS",
+			"publisher": "Infection Prevention Society",
+			"url": "https://ips.uk.net/history-of-the-ips",
+			"accessed": "2026-10-01",
+			"note": "The first infection control nurse, Torbay, April 1959; the Infection Control Nurses Association and Moore"
+		},
+		{
+			"kind": "web",
+			"title": "Moore, Brendan",
+			"container": "Devonshire Association",
+			"publisher": "Devonshire Association",
+			"url": "https://devonassoc.org.uk/person/moore-brendan/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Efficacy of Infection Surveillance and Control Programs in Preventing Nosocomial Infections in US Hospitals",
+			"authors": [
+				{
+					"family": "Haley",
+					"given": "Robert W."
+				},
+				{
+					"family": "Culver",
+					"given": "David H."
+				},
+				{
+					"family": "White",
+					"given": "John W."
+				},
+				{
+					"family": "Morgan",
+					"given": "W. Meade"
+				},
+				{
+					"family": "Emori",
+					"given": "T. Grace"
+				},
+				{
+					"family": "Munn",
+					"given": "Van P."
+				},
+				{
+					"family": "Hooton",
+					"given": "Thomas M."
+				}
+			],
+			"container": "American Journal of Epidemiology",
+			"volume": "121",
+			"issue": "2",
+			"pages": "182–205",
+			"published": "1985-02",
+			"doi": "10.1093/oxfordjournals.aje.a113990",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "The Nationwide Nosocomial Infection Rate: A New Need for Vital Statistics",
+			"authors": [
+				{
+					"family": "Haley",
+					"given": "Robert W."
+				},
+				{
+					"family": "Culver",
+					"given": "David H."
+				},
+				{
+					"family": "White",
+					"given": "John W."
+				},
+				{
+					"family": "Morgan",
+					"given": "W. Meade"
+				},
+				{
+					"family": "Emori",
+					"given": "T. Grace"
+				}
+			],
+			"container": "American Journal of Epidemiology",
+			"volume": "121",
+			"issue": "2",
+			"pages": "159–167",
+			"published": "1985-02",
+			"doi": "10.1093/oxfordjournals.aje.a113988",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "The Infection Control Nurse in US Hospitals, 1976–1977: Characteristics of the Position and Its Occupant",
+			"authors": [
+				{
+					"family": "Emori",
+					"given": "T. Grace"
+				},
+				{
+					"family": "Haley",
+					"given": "Robert W."
+				},
+				{
+					"family": "Stanley",
+					"given": "Richie C."
+				}
+			],
+			"container": "American Journal of Epidemiology",
+			"volume": "111",
+			"issue": "5",
+			"pages": "592–607",
+			"published": "1980-05",
+			"doi": "10.1093/oxfordjournals.aje.a112936",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Study on the Efficacy of Nosocomial Infection Control (SENIC Project): Summary of Study Design",
+			"authors": [
+				{
+					"family": "Haley",
+					"given": "Robert W."
+				},
+				{
+					"family": "Quade",
+					"given": "Dana"
+				},
+				{
+					"family": "Freeman",
+					"given": "Howard E."
+				},
+				{
+					"family": "Bennett",
+					"given": "John V."
+				}
+			],
+			"container": "American Journal of Epidemiology",
+			"volume": "111",
+			"issue": "5",
+			"pages": "472–485",
+			"published": "1980-05",
+			"doi": "10.1093/oxfordjournals.aje.a112928",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Brief Modern-Era History of Infection Prevention",
+			"publisher": "Colorado Hospital Association",
+			"url": "https://cha.com/brief-modern-era-history-of-infection-prevention/",
+			"accessed": "2026-10-01",
+			"note": "CDC's hospital infections project (1965), APIC (1972), SENIC's 338 hospitals"
+		},
+		{
+			"kind": "article",
+			"title": "Infection Control through the Ages",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Philip W."
+				},
+				{
+					"family": "Watkins",
+					"given": "Kristin"
+				},
+				{
+					"family": "Hewlett",
+					"given": "Angela"
+				}
+			],
+			"container": "American Journal of Infection Control",
+			"volume": "40",
+			"issue": "1",
+			"pages": "35–42",
+			"published": "2012-02",
+			"doi": "10.1016/j.ajic.2011.02.019",
+			"url": "https://cha.com/wp-content/uploads/2017/11/AJIC-2012-Infection-Control-Through-the-Ages.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phage typing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phage_typing&oldid=1323077719",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Infection prevention and control",
+			"url": "https://en.wikipedia.org/w/index.php?title=Infection_prevention_and_control&oldid=1374118888",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Torbay Hospital",
+			"url": "https://en.wikipedia.org/w/index.php?title=Torbay_Hospital&oldid=1362318148",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "media",
+			"title": "Staphylococcus aureus drug sensitivity",
+			"url": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_drug_sensitivity.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "staph-plate.jpg",
+			"authors": [
+				{
+					"family": "Stalons",
+					"given": "Don"
+				}
+			],
+			"container": "Centers for Disease Control and Prevention, Public Health Image Library, PHIL 2641",
+			"published": "1972"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/hospital-statistics",
+			"why": "The infection control nurse counted infections the same way in every ward and compared them, as Nightingale's forms asked hospitals to count their sick."
+		},
+		{
+			"to": "nursing/hand-hygiene",
+			"why": "Geneva's infection control team stood in the wards and counted how often hands were cleaned: the infection control nurse's surveillance turned on the commonest route of all."
+		}
+	]
+}

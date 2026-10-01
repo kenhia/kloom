@@ -1,0 +1,211 @@
+{
+	"id": "sacred-twenty",
+	"topic": "The Navy Nurse Corps",
+	"position": {
+		"label": "1908",
+		"sort": 1908
+	},
+	"scene": {
+		"headline": "Navy nursing began with",
+		"accent": "TWENTY.",
+		"palette": "dressblue",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WASHINGTON · NAVAL MEDICAL SCHOOL HOSPITAL",
+			"ESTHER VOORHEES HASSON · ACT OF 13 MAY 1908"
+		],
+		"counter": {
+			"value": "$40",
+			"label": "a month at home, a Navy nurse's pay in 1908, as the Army's"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "An Act Making appropriations for the naval service for the fiscal year ending June thirtieth, nineteen hundred and nine, and for other purposes",
+			"container": "The Statutes at Large of the United States of America, vol. 35, part 1",
+			"publisher": "Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1909",
+			"pages": "146",
+			"url": "https://archive.org/details/us_stat_35",
+			"accessed": "2026-10-01",
+			"note": "Chapter 166, approved May 13, 1908: the Nurse Corps (female) is established on p. 146"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The History of the Navy Nurse Corps",
+			"authors": [
+				{
+					"family": "Arevalo",
+					"given": "Wendy"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"published": "2025-01-16",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01",
+			"note": "Red Rover, the volunteer nurses of 1898, the first standards, pay and uniforms"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Navy Nurse Corps",
+			"authors": [
+				{
+					"family": "Hasson",
+					"given": "Esther V."
+				}
+			],
+			"container": "The American Journal of Nursing",
+			"volume": "9",
+			"issue": "6",
+			"pages": "410–415",
+			"published": "1909-03",
+			"url": "https://archive.org/details/sim_american-journal-of-nursing_1909-03_9_6",
+			"accessed": "2026-10-01",
+			"note": "The first superintendent on the Corps' plan, the probation and the teaching of hospital apprentices"
+		},
+		{
+			"kind": "article",
+			"title": "The Navy Nurse Corps",
+			"authors": [
+				{
+					"family": "Hasson",
+					"given": "Esther V."
+				}
+			],
+			"container": "The American Journal of Nursing",
+			"volume": "9",
+			"issue": "4",
+			"pages": "267–268",
+			"published": "1909-01",
+			"url": "https://archive.org/details/sim_american-journal-of-nursing_1909-01_9_4",
+			"accessed": "2026-10-01",
+			"note": "The uniform and the pin"
+		},
+		{
+			"kind": "article",
+			"title": "The Navy Nurse Corps",
+			"container": "The American Journal of Nursing",
+			"volume": "9",
+			"issue": "2",
+			"pages": "91–92",
+			"published": "1908-11",
+			"url": "https://archive.org/details/sim_american-journal-of-nursing_1908-11_9_2",
+			"accessed": "2026-10-01",
+			"note": "Editorial comment: Hasson's career and her list of the first nurses appointed"
+		},
+		{
+			"kind": "chapter",
+			"title": "An Act To increase the efficiency of the permanent military establishment of the United States",
+			"container": "The Statutes at Large of the United States of America, vol. 31",
+			"publisher": "Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1901",
+			"pages": "753",
+			"url": "https://archive.org/details/us_stat_31",
+			"accessed": "2026-10-01",
+			"note": "Chapter 192, approved February 2, 1901, section 19: the Army nurses' pay and allowances"
+		},
+		{
+			"kind": "web",
+			"title": "Symbols of Navy Medicine",
+			"authors": [
+				{
+					"family": "Sobocinski",
+					"given": "André B."
+				}
+			],
+			"container": "DVIDS",
+			"publisher": "U.S. Navy Bureau of Medicine and Surgery",
+			"published": "2021-08-19",
+			"url": "https://www.dvidshub.net/news/403514/symbols-navy-medicine",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "NH 52960 The Sacred Twenty",
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/our-collections/photography/us-people/b/bowman-j-beatrice/nh-52960.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United States Navy Nurse Corps",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Navy_Nurse_Corps&oldid=1368272768",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sacred Twenty",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sacred_Twenty&oldid=1372748721",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Esther Hasson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Esther_Hasson&oldid=1351785291",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "USS Red Rover",
+			"url": "https://en.wikipedia.org/w/index.php?title=USS_Red_Rover&oldid=1377862490",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "First Twenty Navy Nurses Appointed in 1908 (NH 52960)",
+			"url": "https://commons.wikimedia.org/wiki/File:Navy_nurse_corps_1908.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "sacred-twenty.jpg",
+			"authors": [
+				{
+					"name": "US Navy"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"published": "1908",
+			"circa": true
+		}
+	]
+}

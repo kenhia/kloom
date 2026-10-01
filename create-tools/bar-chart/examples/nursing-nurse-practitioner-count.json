@@ -1,0 +1,30 @@
+{
+	"title": "Nurse practitioners in the United States, 1979 to 2025",
+	"description": "Bar chart of the number of nurse practitioners in the United States from the American Association of Nurse Practitioners' historical timeline: about 15,000 in 1979, 22,000 to 24,000 in 1983 (drawn at 23,000), about 68,300 in 1999, 106,000 in 2004, 130,000 in 2009, more than 192,000 in 2014, 270,000 in 2019, 355,000 in 2022 and 461,000 in 2025.",
+	"heading": "NURSE PRACTITIONERS IN THE US (THOUSANDS)",
+	"unit": "k",
+	"width": 560,
+	"barWidth": 44,
+	"axis": {
+		"max": 500,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"],
+			[400, "400"],
+			[500, "500"]
+		]
+	},
+	"bars": [
+		{ "label": "1979", "value": 15, "display": "15" },
+		{ "label": "1983", "value": 23, "display": "~23" },
+		{ "label": "1999", "value": 68.3, "display": "68" },
+		{ "label": "2004", "value": 106, "display": "106" },
+		{ "label": "2009", "value": 130, "display": "130" },
+		{ "label": "2014", "value": 192, "display": "192" },
+		{ "label": "2019", "value": 270, "display": "270" },
+		{ "label": "2022", "value": 355, "display": "355" },
+		{ "label": "2025", "value": 461, "display": "461", "highlight": true }
+	]
+}

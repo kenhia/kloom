@@ -175,7 +175,10 @@ Things authors working at once cannot see, so the brief settles them:
   shared out.
 - **Accents and images** must not repeat across the subject. Tell authors
   to grep before choosing and again before reporting, and settle clashes
-  at review: in sprint 015 two authors chose FREE within minutes.
+  at review: in sprint 015 two authors chose FREE within minutes, and in
+  sprint 030 CLOCK was committed while another author still held it in a
+  draft. The later author changes theirs; tell them while they are still
+  at work.
 - **Order in a dated trail.** If the dates may not fit the plan's order,
   let the author say what order they need; change the plan, not the sorts.
 - **Validation while others work.** The live subject fails on anyone's
@@ -200,7 +203,10 @@ Things authors working at once cannot see, so the brief settles them:
   main-spine frame it hangs from exists. If the anchor is already committed
   or live when the trail's author checks, `--only` with the anchor and its
   author's drafts is simpler than a stand-in (sprint 026's trail authors all
-  found it so). Commit anchors first, or tell the
+  found it so). Put the anchor in the brief's own checking command for a
+  trail part, too: sprint 030's brief gave `--only <your frames>`, and two
+  trail authors built stand-ins by hand for anchors already live. Commit
+  anchors first, or tell the
   trail's author to validate against a stand-in (the subject-plan README
   says how); the complete copy leaves such frames out and names them. The
   anchor's author finishes the anchor, `frame.json` and all, before the
@@ -220,8 +226,14 @@ Things authors working at once cannot see, so the brief settles them:
   `reprap`, `chuck-hull` and `3d-systems` despite grepping, and sprint 028,
   which gave each name to its home's author, had twelve reach the registry
   first from a borrower's draft, without `home`, before their owner's
-  frame landed. Authors still grep `.scratch/names/*/` before drafting a
-  name the brief does not list, pass every drafts directory to
+  frame landed. The brief's owner list is a plan, and the drafts are the
+  fact: where a part due to commit earlier has already drafted a name the
+  list gives to a later one, the earlier draft stands and the listed owner
+  borrows it (sprint 030: two names drafted twice that way, both from the
+  brief's list). A name the brief does not list goes to the part chiefly
+  about it, its home, unless an earlier part already drafted it. Authors
+  still grep `.scratch/names/*/` before drafting a name the brief does not
+  list, pass every drafts directory to
   `--complete` and `mark --check`, and check with `--only <their frames>`
   so no one else's half-written frame fails them.
   They write contact sheets to their own `--png`, never run

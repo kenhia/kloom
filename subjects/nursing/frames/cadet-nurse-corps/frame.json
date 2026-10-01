@@ -1,0 +1,96 @@
+{
+	"id": "cadet-nurse-corps",
+	"topic": "The Cadet Nurse Corps",
+	"position": { "label": "1943", "sort": 1943 },
+	"scene": {
+		"headline": "We paid them to",
+		"accent": "LEARN.",
+		"palette": "canvas",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PUBLIC LAW 74 · 1 JULY 1943 · US PUBLIC HEALTH SERVICE",
+			"FRANCES PAYNE BOLTON · LUCILE PETRY"
+		],
+		"counter": { "value": "124,065", "label": "cadets graduated, of 169,443 admitted" }
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The United States Cadet Nurse Corps [1943–1948] and Other Federal Nurse Training Programs",
+			"number": "PHS Publication No. 38",
+			"authors": [{ "name": "United States Public Health Service" }],
+			"publisher": "Federal Security Agency, Public Health Service",
+			"place": "Washington, DC",
+			"published": "1950",
+			"url": "https://archive.org/details/CadetNurseCorps1943-1948",
+			"accessed": "2026-10-01",
+			"note": "The pledge (p. 1), the act and the course (pp. 17–19, 35–36, 40–41), Black cadets (pp. 31, 49–51), the totals (pp. 77–79)"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Cadet Nurse Corps",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cadet_Nurse_Corps&oldid=1368360236",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08",
+			"note": "Japanese American and Native American cadets, from Robinson (2005) and Szecsy (2016)"
+		},
+		{
+			"kind": "report",
+			"title": "The Army Nurse Corps: A Commemoration of World War II Service",
+			"number": "CMH Pub 72-14",
+			"authors": [{ "family": "Bellafaire", "given": "Judith A." }],
+			"publisher": "U.S. Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1993",
+			"url": "https://www.history.army.mil/books/wwii/72-14/72-14.HTM",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lucile Petry Leone",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lucile_Petry_Leone&oldid=1372454379",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frances P. Bolton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frances_P._Bolton&oldid=1352865703",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-06"
+		},
+		{
+			"kind": "media",
+			"title": "Enlist in a Proud Profession! Join the U.S. Cadet Nurse Corps",
+			"url": "https://commons.wikimedia.org/wiki/File:%22Enlist_in_a_Proud_Profession!_Join_the_U.S._Cadet_Nurse_Corps%22_-_NARA_-_514214.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "proud-profession.jpg",
+			"authors": [{ "family": "Edmundson", "given": "Carolyn Moorehead" }],
+			"publisher": "United States Public Health Service, Federal Security Agency",
+			"container": "U.S. National Archives and Records Administration, 514214",
+			"published": "1944",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "Admissions to the US Cadet Nurse Corps, 1943 to 1945",
+			"url": "https://archive.org/details/CadetNurseCorps1943-1948",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "admissions.svg",
+			"container": "Chart drawn for kloom from US Public Health Service, The United States Cadet Nurse Corps [1943–1948], p. 79"
+		}
+	]
+}

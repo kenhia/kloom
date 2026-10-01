@@ -1,0 +1,222 @@
+{
+	"id": "scutari",
+	"topic": "Nightingale at Scutari",
+	"position": {
+		"label": "1854",
+		"sort": 1854
+	},
+	"scene": {
+		"headline": "She held the",
+		"accent": "LAMP.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SCUTARI · THE BARRACK HOSPITAL · FLORENCE NIGHTINGALE",
+			"38 NURSES · ARRIVED 4 NOVEMBER 1854"
+		],
+		"counter": {
+			"value": "415",
+			"label": "deaths a year per 100 sick, February 1855"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Life of Florence Nightingale, vol. 1",
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Edward"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "London",
+			"published": "1913",
+			"url": "https://www.gutenberg.org/ebooks/40057",
+			"accessed": "2026-10-01",
+			"note": "Part III: the party of thirty-eight, the laundry and the extra diet kitchens, the night rounds, and the Sanitary Commission"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Notes on Matters Affecting the Health, Efficiency, and Hospital Administration of the British Army, Founded Chiefly on the Experience of the Late War",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "Harrison and Sons",
+			"place": "London",
+			"published": "1858",
+			"url": "https://archive.org/details/b20387118",
+			"accessed": "2026-10-01",
+			"note": "The five great causes of mortality at Scutari, section III, pp. 82–"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Mortality of the British Army, at Home, at Home and Abroad, and during the Russian War, as Compared with the Mortality of the Civil Population in England",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "Harrison and Sons",
+			"place": "London",
+			"published": "1858",
+			"url": "https://archive.org/details/mortalityofbriti00lond",
+			"accessed": "2026-10-01",
+			"note": "Table K, fig. 2 (p. 18): the annual rate of mortality per cent among the sick at Scutari"
+		},
+		{
+			"kind": "web",
+			"title": "How Florence Nightingale's Diagram Saved Millions of People from Fatal Epidemic Disease",
+			"authors": [
+				{
+					"family": "Small",
+					"given": "Hugh"
+				}
+			],
+			"container": "Florence Nightingale Avenging Angel",
+			"published": "2010-10-07",
+			"url": "https://www.florence-nightingale-avenging-angel.co.uk/blog/florence-nightingale-statistical-diagram/",
+			"accessed": "2026-10-01",
+			"note": "Quotes the Dictionary of National Biography's account"
+		},
+		{
+			"kind": "web",
+			"title": "Press Reviews",
+			"authors": [
+				{
+					"family": "Small",
+					"given": "Hugh"
+				}
+			],
+			"container": "Florence Nightingale Avenging Angel",
+			"url": "https://www.florence-nightingale-avenging-angel.co.uk/blog/florence-nightingale-book/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "Florence Nightingale: Avenging Angel",
+			"authors": [
+				{
+					"family": "Small",
+					"given": "Hugh"
+				}
+			],
+			"publisher": "Constable",
+			"place": "London",
+			"published": "1998",
+			"citedIn": "Press Reviews"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Florence Nightingale, Statistics and the Crimean War",
+			"authors": [
+				{
+					"family": "McDonald",
+					"given": "Lynn"
+				}
+			],
+			"container": "Journal of the Royal Statistical Society, Series A",
+			"volume": "177",
+			"issue": "3",
+			"pages": "569–586",
+			"published": "2014",
+			"doi": "10.1111/rssa.12026",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Florence Nightingale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Nightingale&oldid=1375983362",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Selimiye Barracks",
+			"url": "https://en.wikipedia.org/w/index.php?title=Selimiye_Barracks&oldid=1374250595",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sidney Herbert, 1st Baron Herbert of Lea",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sidney_Herbert,_1st_Baron_Herbert_of_Lea&oldid=1360635182",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "media",
+			"title": "One of the Wards of the Hospital at Scutari",
+			"url": "https://commons.wikimedia.org/wiki/File:One_of_the_wards_of_the_hospital_at_Scutari_-_W._Simpson_del._;_E._Walker_lith._;_Day_%26_Son,_Lithrs._to_the_Queen._LCCN2002713027.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "scutari-ward.jpg",
+			"authors": [
+				{
+					"family": "Simpson",
+					"given": "William"
+				}
+			],
+			"engravers": [
+				{
+					"family": "Walker",
+					"given": "Edmund"
+				}
+			],
+			"container": "Colnaghi's Authentic Series, plate 34 (London: Day & Son); Library of Congress",
+			"published": "1856"
+		},
+		{
+			"kind": "media",
+			"title": "Annual rate of mortality per cent among the sick at Scutari, October 1854 to June 1855 (chart)",
+			"url": "https://archive.org/details/mortalityofbriti00lond/page/n27/mode/1up",
+			"accessed": "2026-10-01",
+			"container": "Chart drawn for kloom from Nightingale, Mortality of the British Army, Table K, fig. 2",
+			"licence": "MIT",
+			"file": "sick-mortality.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/rose-diagram",
+			"why": "The deaths at Scutari, rising through the winter and falling after the Sanitary Commission's work in March 1855, are what the rose diagram's first wheel draws."
+		}
+	]
+}

@@ -1,0 +1,168 @@
+{
+	"id": "aorn",
+	"topic": "Operating-room nurses organize",
+	"position": {
+		"label": "1949",
+		"sort": 1949
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "We wrote our own",
+		"accent": "STANDARDS.",
+		"palette": "theatre",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ASSOCIATION OF OPERATING ROOM NURSES",
+			"EDITH DEE HALL · THE SCRUB AND THE CIRCULATOR"
+		],
+		"counter": {
+			"value": "1954",
+			"label": "AORN's first national congress, New York"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "About AORN",
+			"container": "Association of periOperative Registered Nurses",
+			"url": "https://www.aorn.org/about-aorn",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Operating Room Technician (Medical Ser.) 0-50.015; Surgical Technician (Medical Ser.) 0-50.015: Technical Report on Standardization of the General Aptitude Test Battery",
+			"publisher": "US Department of Labor, Manpower Administration, US Training and Employment Service",
+			"place": "Washington, DC",
+			"number": "TR-S-231",
+			"published": "1963-10",
+			"url": "https://eric.ed.gov/?id=ED063415",
+			"accessed": "2026-10-01",
+			"note": "The job description, pp. 5–6"
+		},
+		{
+			"kind": "book",
+			"title": "The Operating Room: A Primer for Pupil Nurses",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Amy Armour"
+				}
+			],
+			"publisher": "W. B. Saunders",
+			"place": "Philadelphia",
+			"published": "1916",
+			"url": "https://archive.org/details/operatingroompri00smit",
+			"accessed": "2026-10-01",
+			"note": "The instrument nurse, the clean nurse and the floater, pp. 37–38, 73–74, 123–124"
+		},
+		{
+			"kind": "article",
+			"title": "Edith Dee Hall: Army Nurse, AORN Founder, and Visionary Perioperative Nursing Leader",
+			"authors": [
+				{
+					"family": "Stucky",
+					"given": "C. H."
+				},
+				{
+					"family": "Ulmer",
+					"given": "B. C."
+				}
+			],
+			"container": "The Medical Journal (Fort Sam Houston)",
+			"volume": "108",
+			"issue": "1",
+			"published": "2026",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/42550620/",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Our Name, Our Future: Frequently Asked Questions about the Name Update",
+			"authors": [
+				{
+					"family": "Seifert",
+					"given": "Patricia C."
+				},
+				{
+					"family": "Shumaker",
+					"given": "Ruth P."
+				},
+				{
+					"family": "Allen",
+					"given": "Sheila L."
+				},
+				{
+					"family": "Schultz",
+					"given": "Betty"
+				},
+				{
+					"family": "Steiert",
+					"given": "MaryJo"
+				},
+				{
+					"family": "Watson",
+					"given": "Vivian"
+				}
+			],
+			"container": "AORN Journal",
+			"volume": "68",
+			"issue": "6",
+			"pages": "1016–1018",
+			"published": "1998-12",
+			"doi": "10.1016/s0001-2092(06)62136-4",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Association of periOperative Registered Nurses",
+			"url": "https://en.wikipedia.org/w/index.php?title=Association_of_periOperative_Registered_Nurses&oldid=1375925174",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Surgical technologist",
+			"url": "https://en.wikipedia.org/w/index.php?title=Surgical_technologist&oldid=1360344154",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Perioperative nursing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Perioperative_nursing&oldid=1330740506",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-02"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/instrument-table",
+			"why": "The circulator keeps the sterile field, its instrument table and Mayo stand, supplied without breaching it."
+		}
+	]
+}

@@ -1,0 +1,106 @@
+{
+	"id": "flight-nurses",
+	"topic": "Flight nurses",
+	"position": {
+		"label": "1943",
+		"sort": 1943
+	},
+	"scene": {
+		"headline": "We took the ward",
+		"accent": "ALOFT.",
+		"palette": "olive",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BOWMAN FIELD, KENTUCKY · 18 FEBRUARY 1943",
+			"C-47 · C-46 · C-54 · THE 807TH IN ALBANIA"
+		],
+		"counter": {
+			"value": "1,172,648",
+			"label": "sick and wounded flown by the AAF, January 1943 – May 1945"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Medical Support of the Army Air Forces in World War II",
+			"authors": [
+				{
+					"family": "Link",
+					"given": "Mae Mills"
+				},
+				{
+					"family": "Coleman",
+					"given": "Hubert A."
+				}
+			],
+			"publisher": "Office of the Surgeon General, United States Air Force",
+			"place": "Washington, DC",
+			"published": "1955",
+			"url": "https://archive.org/details/MedicalSupportOfTheAAFInWWII",
+			"accessed": "2026-10-01",
+			"note": "The School of Air Evacuation, pp. 366–381; litter installations, pp. 296–299; the numbers, p. 411; Albania, pp. 490–493"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Army Nurse Corps: A Commemoration of World War II Service",
+			"authors": [
+				{
+					"family": "Bellafaire",
+					"given": "Judith A."
+				}
+			],
+			"publisher": "U.S. Army Center of Military History",
+			"place": "Washington, DC",
+			"number": "CMH Pub 72-14",
+			"url": "https://history.army.mil/books/wwii/72-14/72-14.HTM",
+			"accessed": "2026-10-01",
+			"note": "Flight nurses, the evacuation totals and the Albanian walk-out"
+		},
+		{
+			"kind": "report",
+			"title": "Air Evacuation of Sick and Wounded by the Pacific Wing, Army Air Forces, Air Transport Command, January 5, 1943–June 30, 1944",
+			"authors": [
+				{
+					"name": "Air Transport Command, Pacific Division, Intelligence and Security Section"
+				}
+			],
+			"publisher": "Headquarters, Pacific Division, Air Transport Command",
+			"published": "1944",
+			"url": "https://archive.org/details/14310280R.nlm.nih.gov",
+			"accessed": "2026-10-01",
+			"note": "Loading the litters, pp. 38–39; the ditching drill, exhibit XIV"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aleda E. Lutz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aleda_E._Lutz&oldid=1376459145",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "media",
+			"title": "Training Dept. Procedure - Army Air Forces - School of Air Evacuation, Bowman Field, Louisville, Kentucky.",
+			"url": "https://commons.wikimedia.org/wiki/File:Training_Dept._Procedure_-_Army_Air_Forces_-_School_of_Air_Evacuation,_Bowman_Field,_Louisville,_Kentucky._-_NARA_-_195934.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "gas-drill.jpg",
+			"container": "Franklin D. Roosevelt Library Public Domain Photographs, National Archives and Records Administration (NAID 195934)",
+			"published": "1943-12-01"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/mash",
+			"why": "After the war's air evacuation, Korea brought the next step: the wounded reached a field hospital by helicopter."
+		}
+	]
+}

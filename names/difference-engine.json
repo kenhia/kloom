@@ -4,6 +4,6 @@
 	"name": "Difference Engine",
 	"aliases": ["Difference Engine No. 2"],
 	"kind": "artifact",
-	"description": "Charles Babbage's mechanical calculator for tabulating polynomials, begun in the 1820s and never completed in his lifetime.",
+	"description": "Mechanical calculator that tabulates polynomials by the method of differences, designed by Charles Babbage from the 1820s and never completed in his lifetime, and built in working form by Georg and Edvard Scheutz in the 1850s.",
 	"home": "computing/difference-engine"
 }

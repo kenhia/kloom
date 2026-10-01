@@ -1,0 +1,30 @@
+{
+	"nursing/wwi-nurses": [
+		["Army Nurse Corps", "united-states-army-nurse-corps"],
+		["World War I", "world-war-i"],
+		["American Red Cross", "american-red-cross"],
+		["Jane Delano", "jane-delano"],
+		["Julia Stimson", "julia-catherine-stimson"],
+		["Alexis Carrel", "alexis-carrel"],
+		["Dakin's solution", "dakins-solution"],
+		["Spanish flu", "spanish-flu"]
+	],
+	"nursing/pearl-harbor": [
+		["attack on Pearl Harbor", "attack-on-pearl-harbor"],
+		["World War II", "world-war-ii"],
+		["Navy Nurse Corps", "united-states-navy-nurse-corps"],
+		["USS _Solace_ (AH-5)", "uss-solace-ah-5"],
+		["tannic acid", "tannic-acid"],
+		["albumin", "human-serum-albumin"],
+		["Annie Fox", "annie-fox-nurse"]
+	],
+	"nursing/bataan": [
+		["Corregidor", "corregidor"],
+		["Maude Davison", "maude-c-davison"],
+		["Josephine Nesbit", "josephine-nesbit"],
+		["Angels of Bataan", "angels-of-bataan"],
+		["Battle of Bataan", "battle-of-bataan"],
+		["Santo Tomas Internment Camp", "santo-tomas-internment-camp"],
+		["Raid on Los Baños", "raid-on-los-banos"]
+	]
+}

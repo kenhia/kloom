@@ -1,0 +1,255 @@
+{
+	"id": "bcma",
+	"topic": "Bar-code medication administration",
+	"position": {
+		"label": "1992–2004",
+		"sort": 1992
+	},
+	"scene": {
+		"headline": "Every dose was",
+		"accent": "SCANNED.",
+		"palette": "nightshift",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TOPEKA · COLMERY-O'NEIL VA MEDICAL CENTER · SUE KINNICK",
+			"WRISTBAND · DOSE · FIVE RIGHTS · VISTA"
+		],
+		"counter": {
+			"value": "41%",
+			"label": "fewer administration errors other than in timing, Poon and colleagues, 2010"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "VA Nurse's Idea: Bar Code Scanning to Support Patient Care",
+			"authors": [
+				{
+					"family": "Rivera",
+					"given": "Stacie M."
+				}
+			],
+			"container": "VA News",
+			"publisher": "US Department of Veterans Affairs",
+			"published": "2020-06-18",
+			"url": "https://news.va.gov/75902/va-nurses-idea-bar-code-scanning-support-patient-care/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Bar Code Medication Administration (BCMA) GUI User Manual, Version 3.0",
+			"authors": [
+				{
+					"name": "Department of Veterans Affairs, Office of Information and Technology"
+				}
+			],
+			"publisher": "US Department of Veterans Affairs",
+			"place": "Washington, DC",
+			"published": "2025-08",
+			"url": "https://www.va.gov/vdl/documents/Clinical/Pharm-Bar_Code_Med_Admin_(BCMA)/PSB_3_UM.pdf",
+			"accessed": "2026-10-01",
+			"note": "Opening a patient record, how BCMA validates patient and medication, and Unable to Scan, pp. 66–122"
+		},
+		{
+			"kind": "article",
+			"title": "Evolution of BCMA within the Department of Veterans Affairs",
+			"authors": [
+				{
+					"family": "Coyle",
+					"given": "Geraldine A."
+				},
+				{
+					"family": "Heinen",
+					"given": "Mary"
+				}
+			],
+			"container": "Nursing Administration Quarterly",
+			"volume": "29",
+			"issue": "1",
+			"pages": "32–38",
+			"published": "2005",
+			"doi": "10.1097/00006216-200501000-00007",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Bar Code Label Requirement for Human Drug Products and Biological Products; Final Rule",
+			"authors": [
+				{
+					"name": "Food and Drug Administration"
+				}
+			],
+			"container": "Federal Register",
+			"number": "69 FR 9120–9171",
+			"publisher": "Office of the Federal Register",
+			"place": "Washington, DC",
+			"published": "2004-02-26",
+			"url": "https://www.govinfo.gov/content/pkg/FR-2004-02-26/html/04-4249.htm",
+			"accessed": "2026-10-01",
+			"note": "Section VII.H, the reduction in preventable adverse drug events and transfusion reactions"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Effect of Bar-Code Technology on the Safety of Medication Administration",
+			"authors": [
+				{
+					"family": "Poon",
+					"given": "Eric G."
+				},
+				{
+					"family": "Keohane",
+					"given": "Carol A."
+				},
+				{
+					"family": "Yoon",
+					"given": "Catherine S."
+				},
+				{
+					"family": "Ditmore",
+					"given": "Matthew"
+				},
+				{
+					"family": "Bane",
+					"given": "Anne"
+				},
+				{
+					"family": "Levtzion-Korach",
+					"given": "Osnat"
+				},
+				{
+					"family": "Moniz",
+					"given": "Thomas"
+				}
+			],
+			"etAl": true,
+			"container": "New England Journal of Medicine",
+			"volume": "362",
+			"issue": "18",
+			"pages": "1698–1707",
+			"published": "2010-05-06",
+			"doi": "10.1056/NEJMsa0907115",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Workarounds to Barcode Medication Administration Systems: Their Occurrences, Causes, and Threats to Patient Safety",
+			"authors": [
+				{
+					"family": "Koppel",
+					"given": "Ross"
+				},
+				{
+					"family": "Wetterneck",
+					"given": "Tosha"
+				},
+				{
+					"family": "Telles",
+					"given": "Joel Leon"
+				},
+				{
+					"family": "Karsh",
+					"given": "Ben-Tzion"
+				}
+			],
+			"container": "Journal of the American Medical Informatics Association",
+			"volume": "15",
+			"issue": "4",
+			"pages": "408–423",
+			"published": "2008",
+			"doi": "10.1197/jamia.M2616",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"title": "Medicare and Medicaid Programs; Electronic Health Record Incentive Program—Stage 2; Final Rule",
+			"authors": [
+				{
+					"name": "Centers for Medicare & Medicaid Services"
+				}
+			],
+			"container": "Federal Register",
+			"number": "77 FR 53968–54162",
+			"publisher": "Office of the Federal Register",
+			"place": "Washington, DC",
+			"published": "2012-09-04",
+			"url": "https://www.govinfo.gov/content/pkg/FR-2012-09-04/html/2012-21050.htm",
+			"accessed": "2026-10-01",
+			"note": "The eMAR objective and measure, pp. 54033–54034"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bar code medication administration",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bar_code_medication_administration&oldid=1360634662",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "VistA",
+			"url": "https://en.wikipedia.org/w/index.php?title=VistA&oldid=1375522458",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Health Information Technology for Economic and Clinical Health Act",
+			"url": "https://en.wikipedia.org/w/index.php?title=Health_Information_Technology_for_Economic_and_Clinical_Health_Act&oldid=1373865267",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "media",
+			"title": "US Navy 100624-A-5573A-051 Hospital Corpsman 2nd Class Shawn Hayes, assigned to the Military Sealift Command hospital ship USNS Mercy (T-AH 19)",
+			"authors": [
+				{
+					"family": "Anderson",
+					"given": "Craig"
+				}
+			],
+			"container": "U.S. Army photo, Pacific Partnership 2010, Sihanoukville, Cambodia",
+			"url": "https://commons.wikimedia.org/wiki/File:US_Navy_100624-A-5573A-051_Hospital_Corpsman_2nd_Class_Shawn_Hayes,_assigned_to_the_Military_Sealift_Command_hospital_ship_USNS_Mercy_(T-AH_19),.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "wristband-scan.jpg",
+			"published": "2010-06-24",
+			"note": "Cropped to the hands, wristband and scanner"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/lis",
+			"why": "Both put a bar code between a patient and what is given to them, the laboratory system on the blood unit and BCMA on the wristband and the dose, and BCMA's VistA is written in MUMPS, whose origin the laboratory frame tells."
+		},
+		{
+			"to": "blood/tube-typing",
+			"why": "Both find the worst errors at the bedside rather than the bench: the Air Force course blamed most blood-bank errors on clerical slips and misidentification, and the FDA's 2004 bar-code rule put 55 percent of transfusion errors in patient areas, with the wrong patient identified."
+		}
+	]
+}

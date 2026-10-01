@@ -1,0 +1,231 @@
+{
+	"id": "notes-on-nursing",
+	"topic": "Notes on Nursing",
+	"position": {
+		"label": "1859",
+		"sort": 1859
+	},
+	"scene": {
+		"headline": "We opened the",
+		"accent": "WINDOWS.",
+		"palette": "ledger",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · HARRISON · DECEMBER 1859",
+			"FLORENCE NIGHTINGALE · AIR · LIGHT · WARMTH · OBSERVATION"
+		],
+		"counter": {
+			"value": "15,000",
+			"label": "copies sold in the first month, by Cook's account"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "Notes on Nursing: What It Is, and What It Is Not",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "Harrison",
+			"place": "London",
+			"published": "1859",
+			"url": "https://archive.org/details/notesonnursingnigh00nigh",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "The first edition; the preface, the first canon in \"Ventilation and Warming\" and the footnote on cats and dogs"
+		},
+		{
+			"kind": "book",
+			"title": "Notes on Nursing: What It Is, and What It Is Not",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "D. Appleton",
+			"place": "New York",
+			"published": "1898",
+			"url": "https://www.gutenberg.org/ebooks/12439",
+			"accessed": "2026-10-01",
+			"note": "The American edition's text, read for quotations and checked against the first edition"
+		},
+		{
+			"kind": "book",
+			"title": "The Life of Florence Nightingale",
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Edward"
+				}
+			],
+			"volume": "1",
+			"publisher": "Macmillan",
+			"place": "London",
+			"published": "1913",
+			"url": "https://www.gutenberg.org/ebooks/40057",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Publication, price and sales, the Labouring Classes edition and \"Minding Baby\" (ch. 4)"
+		},
+		{
+			"kind": "article",
+			"title": "Personalities, Preferences and Practicalities: Educating Nurses in Wound Sepsis in the British Hospital, 1870–1920",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Claire L."
+				},
+				{
+					"family": "Dupree",
+					"given": "Marguerite"
+				},
+				{
+					"family": "Hutchison",
+					"given": "Iain"
+				},
+				{
+					"family": "Gardiner",
+					"given": "Susan"
+				},
+				{
+					"family": "Rafferty",
+					"given": "Anne Marie"
+				}
+			],
+			"container": "Social History of Medicine",
+			"volume": "31",
+			"issue": "3",
+			"pages": "577–604",
+			"published": "2018",
+			"doi": "10.1093/shm/hkx016",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Nightingale's \"O if they would leave the germs alone\" (1878), and Croft's advice to read the book four times"
+		},
+		{
+			"kind": "article",
+			"title": "What Were the Historical Reasons for the Resistance to Recognizing Airborne Transmission during the COVID-19 Pandemic?",
+			"authors": [
+				{
+					"family": "Jimenez",
+					"given": "Jose L."
+				},
+				{
+					"family": "Marr",
+					"given": "Linsey C."
+				},
+				{
+					"family": "Randall",
+					"given": "Katherine"
+				},
+				{
+					"family": "Ewing",
+					"given": "E. Thomas"
+				},
+				{
+					"family": "Tufekci",
+					"given": "Zeynep"
+				},
+				{
+					"family": "Greenhalgh",
+					"given": "Trish"
+				},
+				{
+					"family": "Tellier",
+					"given": "Raymond"
+				}
+			],
+			"etAl": true,
+			"container": "Indoor Air",
+			"volume": "32",
+			"issue": "8",
+			"pages": "e13070",
+			"published": "2022",
+			"doi": "10.1111/ina.13070",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Notes on Nursing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Notes_on_Nursing&oldid=1367088890",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Miasma theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Miasma_theory&oldid=1373963472",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Germ theory of disease",
+			"url": "https://en.wikipedia.org/w/index.php?title=Germ_theory_of_disease&oldid=1363463071",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Florence Nightingale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Nightingale&oldid=1375983362",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "Title page to 'Notes on Nursing' by Florence Nightingale",
+			"url": "https://commons.wikimedia.org/wiki/File:Title_page_to_%27Notes_on_Nursing%27_by_Florence_Nightingale_Wellcome_L0000037A.jpg",
+			"accessed": "2026-10-01",
+			"licence": "CC BY 4.0",
+			"file": "title-page.jpg",
+			"authors": [
+				{
+					"name": "Wellcome Collection"
+				}
+			],
+			"container": "Wellcome Collection, General Collections",
+			"published": "1860",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/nightingale-school",
+			"why": "In the 1870s a surgeon teaching the school's probationers at St Thomas' told them to read Notes on Nursing at least four times."
+		}
+	]
+}

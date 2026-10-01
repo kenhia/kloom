@@ -1,0 +1,31 @@
+{
+	"title": "Bacteria left on Philip Price's hands and arms as he scrubbed, minute by minute, 1938",
+	"description": "Bar chart, thousands of bacteria left on the hands and arms. At the start 2,822; after each minute of scrubbing with soap and brush 1,325, 1,159, 961, 828, 762, 688, 613 and, projected, 550 after eight minutes; after one minute in 78.5 percent alcohol, 319; after seven more minutes of scrubbing, projected, 140. Data: Price, JAMA 111 (1938), table on p. 1994.",
+	"heading": "BACTERIA LEFT, THOUSANDS · BY MINUTES SCRUBBED",
+	"unit": "",
+	"width": 600,
+	"height": 300,
+	"barWidth": 34,
+	"axis": {
+		"max": 3000,
+		"ticks": [
+			[0, "0"],
+			[1000, "1,000"],
+			[2000, "2,000"],
+			[3000, "3,000"]
+		]
+	},
+	"bars": [
+		{ "label": "0", "value": 2822, "display": "2,822" },
+		{ "label": "1", "value": 1325, "display": "1,325" },
+		{ "label": "2", "value": 1159, "display": "1,159" },
+		{ "label": "3", "value": 961, "display": "961" },
+		{ "label": "4", "value": 828, "display": "828" },
+		{ "label": "5", "value": 762, "display": "762" },
+		{ "label": "6", "value": 688, "display": "688" },
+		{ "label": "7", "value": 613, "display": "613" },
+		{ "label": "8", "value": 550, "display": "550" },
+		{ "label": "Alc.", "value": 319, "display": "319", "highlight": true },
+		{ "label": "15", "value": 140, "display": "140" }
+	]
+}

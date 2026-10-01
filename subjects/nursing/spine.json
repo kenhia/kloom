@@ -1,0 +1,91 @@
+{
+	"segments": [
+		{
+			"id": "before",
+			"title": "Care before nursing",
+			"labelKind": "date",
+			"frames": [
+				"basiliad",
+				"monastic-infirmary",
+				"hospitallers",
+				"beguines",
+				"daughters-of-charity",
+				"martha-ballard",
+				"kaiserswerth"
+			]
+		},
+		{
+			"id": "nightingale",
+			"title": "Nightingale and the profession",
+			"labelKind": "date",
+			"frames": [
+				"scutari",
+				"seacole",
+				"rose-diagram",
+				"notes-on-nursing",
+				"nightingale-school",
+				"red-cross",
+				"vital-signs"
+			]
+		},
+		{
+			"id": "theatre",
+			"title": "The operating room",
+			"labelKind": "date",
+			"frames": [
+				"ether",
+				"semmelweis",
+				"lister",
+				"asepsis",
+				"hampton-gloves",
+				"nurse-anesthetist",
+				"aorn"
+			]
+		},
+		{
+			"id": "military",
+			"title": "Nurses at war",
+			"labelKind": "date",
+			"frames": [
+				"civil-war-nurses",
+				"army-nurse-corps",
+				"sacred-twenty",
+				"wwi-nurses",
+				"pearl-harbor",
+				"bataan",
+				"flight-nurses",
+				"mash",
+				"vietnam-nurses"
+			]
+		},
+		{
+			"id": "profession",
+			"title": "The modern profession",
+			"labelKind": "date",
+			"frames": [
+				"training-schools",
+				"henry-street",
+				"licensure",
+				"goldmark-report",
+				"polio-icu",
+				"nurse-practitioner",
+				"hospice",
+				"ward-5b",
+				"magnet",
+				"bcma"
+			]
+		},
+		{
+			"id": "today",
+			"title": "Today",
+			"labelKind": "category",
+			"frames": ["where-nursing-is"]
+		},
+		{
+			"id": "dedication-seg",
+			"title": "Dedication",
+			"labelKind": "category",
+			"frames": ["dedication"]
+		}
+	]
+}

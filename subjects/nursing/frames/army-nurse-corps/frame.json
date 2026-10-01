@@ -1,0 +1,231 @@
+{
+	"id": "army-nurse-corps",
+	"topic": "The Army Nurse Corps",
+	"position": {
+		"label": "1898–1901",
+		"sort": 1898
+	},
+	"scene": {
+		"headline": "We nursed the camps through",
+		"accent": "TYPHOID.",
+		"palette": "canvas",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CHICKAMAUGA · CAMP ALGER · JACKSONVILLE · CAMP MEADE",
+			"ANITA NEWCOMB McGEE · ACT OF 2 FEBRUARY 1901"
+		],
+		"counter": {
+			"value": "20,738",
+			"label": "cases of typhoid in 92 regiments in the camps of 1898"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Women Nurses in the American Army",
+			"authors": [
+				{
+					"family": "McGee",
+					"given": "Anita Newcomb"
+				}
+			],
+			"container": "Proceedings of the Eighth Annual Meeting of the Association of Military Surgeons of the United States",
+			"publisher": "Berlin Printing Company",
+			"place": "Columbus, OH",
+			"published": "1900",
+			"pages": "242–248",
+			"url": "https://archive.org/details/b28977555",
+			"accessed": "2026-10-01",
+			"note": "Read at Kansas City in September 1899: the DAR Hospital Corps, the numbers, the deaths and the regulations of June 1899"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report on the Origin and Spread of Typhoid Fever in U.S. Military Camps during the Spanish War of 1898",
+			"authors": [
+				{
+					"family": "Reed",
+					"given": "Walter"
+				},
+				{
+					"family": "Vaughan",
+					"given": "Victor C."
+				},
+				{
+					"family": "Shakespeare",
+					"given": "Edward O."
+				}
+			],
+			"publisher": "Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1904",
+			"url": "https://archive.org/details/b31361122_0001",
+			"accessed": "2026-10-01",
+			"note": "The general conclusions: 20,738 cases in 107,973 men, 1,580 deaths"
+		},
+		{
+			"kind": "report",
+			"title": "Abstract of Report on the Origin and Spread of Typhoid Fever in U.S. Military Camps during the Spanish War of 1898",
+			"authors": [
+				{
+					"family": "Reed",
+					"given": "Walter"
+				},
+				{
+					"family": "Vaughan",
+					"given": "Victor C."
+				},
+				{
+					"family": "Shakespeare",
+					"given": "Edward O."
+				}
+			],
+			"publisher": "Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1900",
+			"url": "https://archive.org/details/abstractofreport00reed",
+			"accessed": "2026-10-01",
+			"note": "With the Surgeon General's introduction: the Hospital Corps recruits and the nurses in service"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Nursing: Its Principles and Practice for Hospital and Private Use",
+			"authors": [
+				{
+					"family": "Hampton",
+					"given": "Isabel Adams"
+				}
+			],
+			"publisher": "W. B. Saunders",
+			"place": "Philadelphia",
+			"published": "1893",
+			"url": "https://archive.org/details/nursing01robbgoog",
+			"accessed": "2026-10-01",
+			"note": "The cold tub-bath, pp. 131–134; typhoid fever, pp. 424–428"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "An Act To increase the efficiency of the permanent military establishment of the United States",
+			"container": "The Statutes at Large of the United States of America, vol. 31",
+			"publisher": "Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1901",
+			"pages": "753",
+			"url": "https://archive.org/details/us_stat_31",
+			"accessed": "2026-10-01",
+			"note": "Chapter 192, approved February 2, 1901: section 19, the Nurse Corps (female)"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Highlights in the History of the Army Nurse Corps",
+			"editors": [
+				{
+					"family": "Shields",
+					"given": "Elizabeth A."
+				}
+			],
+			"publisher": "U.S. Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1981",
+			"url": "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo184609/pdf/GOVPUB-D114-PURL-gpo184609.pdf",
+			"accessed": "2026-10-01",
+			"note": "The chronology from 1898 to 1918, pp. 9–16"
+		},
+		{
+			"kind": "report",
+			"title": "The Nurse Corps of the Army",
+			"authors": [
+				{
+					"family": "McGee",
+					"given": "Anita Newcomb"
+				}
+			],
+			"publisher": "Association of Military Surgeons",
+			"place": "Carlisle, PA",
+			"published": "1902",
+			"url": "https://archive.org/details/nursecorpsarmy00mcgegoog",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "The Navy Nurse Corps",
+			"authors": [
+				{
+					"family": "Hasson",
+					"given": "Esther V."
+				}
+			],
+			"container": "The American Journal of Nursing",
+			"volume": "9",
+			"issue": "6",
+			"pages": "410–415",
+			"published": "1909-03",
+			"url": "https://archive.org/details/sim_american-journal-of-nursing_1909-03_9_6",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United States Army Nurse Corps",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Army_Nurse_Corps&oldid=1376082917",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anita Newcomb McGee",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anita_Newcomb_McGee&oldid=1370219784",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "media",
+			"title": "Women nurses in the Army's service, June to September 1898 (chart)",
+			"url": "https://archive.org/details/abstractofreport00reed",
+			"accessed": "2026-10-01",
+			"container": "Chart drawn for kloom from the Surgeon General's introduction to the Abstract of Report on the Origin and Spread of Typhoid Fever (1900)",
+			"licence": "MIT",
+			"file": "nurses-1898.svg",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026"
+		},
+		{
+			"kind": "media",
+			"title": "Portable bath-tub, fig. 9",
+			"url": "https://archive.org/details/nursing01robbgoog/page/n114/mode/1up",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "bath-tub.jpg",
+			"container": "Isabel Adams Hampton, Nursing: Its Principles and Practice (Philadelphia: W. B. Saunders, 1893), p. 132",
+			"published": "1893",
+			"note": "Published in the US in 1893"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/sacred-twenty",
+			"why": "The 1908 act gave Navy nurses the same pay, allowances and privileges as the Army's nurse corps of 1901."
+		}
+	]
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="t d">
+<title id="t">Nurse training schools in the United States, 1880–1920 (log scale)</title>
+<desc id="d">Bar chart on a logarithmic scale of the number of nurse training schools in the United States. 1880, 15; 1884–85, 34; 1889–90, 35; 1894–95, 131; 1899–1900, 432; 1904–05, 862; 1909–10, 1,129; 1914–15, 1,509; 1919–20, 1,755. Data: US Bureau of Education, Statistics of Nurse Training Schools, 1919–1920, Bulletin 1921 no. 51, table 1.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="540" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">10</text>
+<line x1="64" x2="540" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">100</text>
+<line x1="64" x2="540" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">1,000</text>
+<line x1="64" x2="540" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">10,000</text>
+</g>
+<rect x="70.4" y="237.4" width="40" height="12.6" fill-opacity="0.85"/>
+<text x="90.4" y="231.4" text-anchor="middle">15</text>
+<text x="90.4" y="266" text-anchor="middle">1880</text>
+<rect x="123.3" y="212.1" width="40" height="37.9" fill-opacity="0.85"/>
+<text x="143.3" y="206.1" text-anchor="middle">34</text>
+<text x="143.3" y="266" text-anchor="middle">1885</text>
+<rect x="176.2" y="211.2" width="40" height="38.8" fill-opacity="0.85"/>
+<text x="196.2" y="205.2" text-anchor="middle">35</text>
+<text x="196.2" y="266" text-anchor="middle">1890</text>
+<rect x="229.1" y="170.3" width="40" height="79.7" fill-opacity="0.85"/>
+<text x="249.1" y="164.3" text-anchor="middle">131</text>
+<text x="249.1" y="266" text-anchor="middle">1895</text>
+<rect x="282.0" y="133.3" width="40" height="116.7" fill-opacity="0.85"/>
+<text x="302.0" y="127.3" text-anchor="middle">432</text>
+<text x="302.0" y="266" text-anchor="middle">1900</text>
+<rect x="334.9" y="111.9" width="40" height="138.1" fill-opacity="0.85"/>
+<text x="354.9" y="105.9" text-anchor="middle">862</text>
+<text x="354.9" y="266" text-anchor="middle">1905</text>
+<rect x="387.8" y="103.6" width="40" height="146.4" fill-opacity="0.85"/>
+<text x="407.8" y="97.6" text-anchor="middle">1,129</text>
+<text x="407.8" y="266" text-anchor="middle">1910</text>
+<rect x="440.7" y="94.6" width="40" height="155.4" fill-opacity="0.85"/>
+<text x="460.7" y="88.6" text-anchor="middle">1,509</text>
+<text x="460.7" y="266" text-anchor="middle">1915</text>
+<rect x="493.6" y="89.9" width="40" height="160.1" class="accent" fill="currentColor"/>
+<text x="513.6" y="83.9" text-anchor="middle">1,755</text>
+<text x="513.6" y="266" text-anchor="middle">1920</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">TRAINING SCHOOLS · LOG SCALE</text>
+</g></svg>

@@ -1,0 +1,161 @@
+{
+	"id": "staupers",
+	"topic": "Ending the Army's quota",
+	"position": { "label": "1945", "sort": 1945 },
+	"scene": {
+		"headline": "She broke the",
+		"accent": "QUOTA.",
+		"palette": "olive",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MABEL KEATON STAUPERS · NATIONAL ASSOCIATION OF COLORED GRADUATE NURSES",
+			"20 JANUARY 1945 · PHYLLIS MAE DAILEY, 8 MARCH 1945"
+		],
+		"counter": { "value": "56", "label": "Black nurses the Army's first quota allowed" }
+	},
+	"connections": [
+		{
+			"to": "blood/segregated-blood",
+			"why": "In the same war the armed forces held Black nurses to a quota and Black patients to separate wards, and had the Red Cross keep Black donors' blood apart: segregation in military medicine at the bedside and in the blood bank."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Black Nurse Who Drove Integration of the U.S. Nurse Corps",
+			"authors": [{ "family": "Halley", "given": "Catherine" }],
+			"container": "JSTOR Daily",
+			"publisher": "ITHAKA",
+			"published": "2020-05-09",
+			"url": "https://daily.jstor.org/the-black-nurse-who-drove-integration-of-the-u-s-nurse-corps/",
+			"accessed": "2026-10-01",
+			"note": "Staupers's campaign after Darlene Clark Hine: the 56, the meeting with Eleanor Roosevelt, Kirk's announcement"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Employment of Negro Troops",
+			"authors": [{ "family": "Lee", "given": "Ulysses" }],
+			"container": "United States Army in World War II: Special Studies",
+			"number": "CMH Pub 11-4-1",
+			"publisher": "Office of the Chief of Military History, United States Army",
+			"place": "Washington, DC",
+			"published": "1966",
+			"url": "https://archive.org/details/CMHPub11-4-1",
+			"accessed": "2026-10-01",
+			"note": "The Medical Department's plan for Black wards, 28 nurses at each hospital, pp. 197–198"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Army Nurse Corps: A Commemoration of World War II Service",
+			"number": "CMH Pub 72-14",
+			"authors": [{ "family": "Bellafaire", "given": "Judith A." }],
+			"publisher": "U.S. Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1993",
+			"url": "https://www.history.army.mil/books/wwii/72-14/72-14.HTM",
+			"accessed": "2026-10-01",
+			"note": "\"Black Army Nurses\": the ceiling of 160, the units overseas, the 479"
+		},
+		{
+			"kind": "report",
+			"title": "Highlights in the History of the Army Nurse Corps",
+			"number": "CMH Pub 85-1",
+			"editors": [
+				{ "family": "Feller", "given": "Carolyn M." },
+				{ "family": "Moore", "given": "Constance J." }
+			],
+			"publisher": "U.S. Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1996",
+			"url": "https://archive.org/details/HighlightsInTheHistoryOfTheArmyNurseCorps",
+			"accessed": "2026-10-01",
+			"note": "Raney, Freeman and Glass (1942); the nurse draft bill (1945)"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The History of the Navy Nurse Corps",
+			"authors": [{ "name": "Naval History and Heritage Command" }],
+			"container": "Naval History and Heritage Command",
+			"publisher": "U.S. Navy",
+			"published": "2025-01-16",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01",
+			"note": "Phyllis Mae Dailey and the three who followed her"
+		},
+		{
+			"kind": "web",
+			"title": "Radio Address Summarizing the State of the Union Message",
+			"authors": [{ "family": "Roosevelt", "given": "Franklin D." }],
+			"container": "The American Presidency Project",
+			"editors": [
+				{ "family": "Peters", "given": "Gerhard" },
+				{ "family": "Woolley", "given": "John T." }
+			],
+			"published": "1945-01-06",
+			"url": "https://www.presidency.ucsb.edu/documents/radio-address-summarizing-the-state-the-union-message",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "No Time for Prejudice: A Story of the Integration of Negroes in Nursing in the United States",
+			"authors": [{ "family": "Staupers", "given": "Mabel Keaton" }],
+			"publisher": "Macmillan",
+			"place": "New York",
+			"published": "1961",
+			"citedIn": "The Black Nurse Who Drove Integration of the U.S. Nurse Corps"
+		},
+		{
+			"kind": "book",
+			"title": "Black Women in White: Racial Conflict and Cooperation in the Nursing Profession, 1890–1950",
+			"authors": [{ "family": "Hine", "given": "Darlene Clark" }],
+			"publisher": "Indiana University Press",
+			"place": "Bloomington",
+			"published": "1989",
+			"citedIn": "The Black Nurse Who Drove Integration of the U.S. Nurse Corps"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mabel K. Staupers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mabel_K._Staupers&oldid=1372631423",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phyllis Mae Dailey",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phyllis_Mae_Dailey&oldid=1352258713",
+			"accessed": "2026-10-01",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "media",
+			"title": "Cmdr. Thomas A. Gaylord, USN (Ret'd), administers oath to five new Navy nurses commissioned in New York",
+			"url": "https://commons.wikimedia.org/wiki/File:%22Cmdr._Thomas_A._Gaylord,_USN_(Ret%27d),_administers_oath_to_five_new_Navy_nurses_commissioned_in_New_York...%22,_03-08-1945_-_NARA_-_520618.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "navy-oath-1945.jpg",
+			"authors": [{ "name": "U.S. Navy" }],
+			"container": "U.S. National Archives and Records Administration, 520618",
+			"published": "1945-03-08"
+		},
+		{
+			"kind": "media",
+			"title": "Black nurses in the US Army Nurse Corps during the Second World War",
+			"url": "https://daily.jstor.org/the-black-nurse-who-drove-integration-of-the-u-s-nurse-corps/",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "black-army-nurses.svg",
+			"container": "Chart drawn for kloom from Halley, JSTOR Daily (after Hine), and Bellafaire, The Army Nurse Corps"
+		}
+	]
+}

@@ -110,8 +110,9 @@ def search(text, limit=12):
 
 
 # "c. 1504 BC", "circa 1890", never the C. of "b.C.": a word of its own, before a number.
-# Two dates joined by a slash, a dash or "to": a span, which the fetch says it wrote as circa its start.
-RANGE = re.compile(r'\b(1[0-9]{3}|20[0-9]{2})(?:-[0-9]{2}){0,2}\s*(?:/|–|—| to )\s*(?:1[0-9]{3}|20[0-9]{2})\b')
+# Two dates joined by a slash, a dash, "to", or "between … and" (NARA's form, sprint 030): a span,
+# which the fetch says it wrote as circa its start.
+RANGE = re.compile(r'\b(1[0-9]{3}|20[0-9]{2})(?:-[0-9]{2}){0,2}\s*(?:/|–|—| to |(?<=\d) and (?=\d))\s*(?:1[0-9]{3}|20[0-9]{2})\b')
 CIRCA = re.compile(r'(?<![\w.])(c\.|ca\.|circa|about|approx(\.|imately)?)\s*(?=\d)', re.I)
 
 

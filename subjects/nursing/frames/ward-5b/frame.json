@@ -1,0 +1,160 @@
+{
+	"id": "ward-5b",
+	"topic": "Ward 5B",
+	"position": {
+		"label": "1983",
+		"sort": 1983
+	},
+	"scene": {
+		"headline": "We held them",
+		"accent": "CLOSE.",
+		"palette": "nightshift",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SAN FRANCISCO GENERAL HOSPITAL · WARD 5B",
+			"CLIFF MORRISON · DIANE JONES · GRACE LUSBY"
+		],
+		"counter": {
+			"value": "12",
+			"label": "beds, and twelve volunteer nurses, when the ward opened on 25 July 1983"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The AIDS Epidemic in San Francisco: The Response of the Nursing Profession, 1981–1984, Volume III",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Diane"
+				},
+				{
+					"family": "Morrison",
+					"given": "Clifford L."
+				}
+			],
+			"publisher": "Regional Oral History Office, The Bancroft Library, University of California, Berkeley",
+			"place": "Berkeley",
+			"published": "1999",
+			"url": "https://archive.org/details/aidsepidemicsf03bancrich",
+			"accessed": "2026-10-01",
+			"note": "Oral histories conducted by Sally Smith Hughes in 1995 and 1996, the narrators' own tellings; the appendices reprint the hospital's background sheet on the unit, Morrison's résumé and a later newspaper feature"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The AIDS Epidemic in San Francisco: The Response of the Nursing Profession, 1981–1984, Volume IV",
+			"authors": [
+				{
+					"family": "Gee",
+					"given": "Gayling"
+				},
+				{
+					"family": "Lusby",
+					"given": "Grace I."
+				}
+			],
+			"publisher": "Regional Oral History Office, The Bancroft Library, University of California, Berkeley",
+			"place": "Berkeley",
+			"published": "1999",
+			"url": "https://archive.org/details/aidsepidemicsf04bancrich",
+			"accessed": "2026-10-01",
+			"note": "Appendix: the infection-control committee's memo of 23 February 1983 and \"Infection Precautions for Patients on 5B\""
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Recommendations for Prevention of HIV Transmission in Health-Care Settings",
+			"authors": [
+				{
+					"name": "Centers for Disease Control"
+				}
+			],
+			"container": "Morbidity and Mortality Weekly Report",
+			"number": "MMWR 36, supplement 2S",
+			"publisher": "Centers for Disease Control",
+			"place": "Atlanta",
+			"published": "1987-08-21",
+			"url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00023587.htm",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"title": "Preliminary HIV Surveillance Annual Report, 2025",
+			"authors": [
+				{
+					"name": "San Francisco Department of Public Health, Population Health Division"
+				}
+			],
+			"publisher": "San Francisco Department of Public Health",
+			"place": "San Francisco",
+			"published": "2026",
+			"url": "https://media.api.sf.gov/documents/Preliminary_HIV_Surveillance_Annual_Report_2025_post.pdf",
+			"accessed": "2026-10-01",
+			"note": "Table 10: AIDS diagnoses and deaths by year, 1980–2025"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "5B (film)",
+			"url": "https://en.wikipedia.org/w/index.php?title=5B_(film)&oldid=1368292016",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "San Francisco General Hospital",
+			"url": "https://en.wikipedia.org/w/index.php?title=San_Francisco_General_Hospital&oldid=1370693181",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Universal precautions",
+			"url": "https://en.wikipedia.org/w/index.php?title=Universal_precautions&oldid=1301338457",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-19"
+		},
+		{
+			"kind": "media",
+			"title": "Deaths among people with AIDS in San Francisco by year, 1981–1997",
+			"authors": [
+				{
+					"name": "kloom"
+				}
+			],
+			"container": "Data: San Francisco Department of Public Health, Preliminary HIV Surveillance Annual Report 2025, table 10",
+			"url": "https://media.api.sf.gov/documents/Preliminary_HIV_Surveillance_Annual_Report_2025_post.pdf",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "deaths.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/hiv-blood",
+			"why": "In 1982 and 1983 San Francisco General's infection-control committee and the blood bankers alike treated the unknown agent of AIDS as one carried in blood, on the model of hepatitis B."
+		}
+	]
+}

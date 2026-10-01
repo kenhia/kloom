@@ -1,0 +1,24 @@
+{
+	"title": "Women nurses in the Army's service, June to September 1898",
+	"description": "Bar chart of the number of trained women nurses serving the Army at the end of each month in 1898, by the Surgeon General's count: June 30, 23; July 31, 162; August 31, 924; September 30, 1,065. Data: Sternberg, introduction to the Abstract of Report on the Origin and Spread of Typhoid Fever in U.S. Military Camps during the Spanish War of 1898.",
+	"heading": "WOMEN NURSES WITH THE ARMY · 1898",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"max": 1200,
+		"ticks": [
+			[0, "0"],
+			[400, "400"],
+			[800, "800"],
+			[1200, "1,200"]
+		]
+	},
+	"bars": [
+		{ "label": "Jun 30", "value": 23, "display": "23" },
+		{ "label": "Jul 31", "value": 162, "display": "162" },
+		{ "label": "Aug 31", "value": 924, "display": "924", "highlight": true },
+		{ "label": "Sep 30", "value": 1065, "display": "1,065" }
+	]
+}

@@ -1,0 +1,123 @@
+{
+	"id": "nurse-anesthetist",
+	"topic": "The nurse anesthetist",
+	"position": {
+		"label": "1893–1906",
+		"sort": 1893
+	},
+	"scene": {
+		"headline": "She talked them to",
+		"accent": "SLEEP.",
+		"palette": "gown",
+		"illustration": "scene.svg",
+		"metadata": ["ST. MARY'S HOSPITAL · ROCHESTER, MINNESOTA", "ALICE MAGAW · OPEN-DROP ETHER"],
+		"counter": {
+			"value": "14,380",
+			"label": "anesthetics given by Magaw, by 1906"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Review of Over Fourteen Thousand Surgical Anæsthesias",
+			"authors": [
+				{
+					"family": "Magaw",
+					"given": "Alice"
+				}
+			],
+			"container": "Surgery, Gynecology and Obstetrics",
+			"volume": "3",
+			"issue": "6",
+			"pages": "795–799",
+			"published": "1906-12",
+			"url": "https://archive.org/details/sim_journal-of-the-american-college-of-surgeons_1906-12_3_6",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Frank v. South, 175 Ky. 416 (1917)",
+			"container": "Caselaw Access Project",
+			"publisher": "Harvard Law School Library",
+			"published": "1917-05-04",
+			"url": "https://static.case.law/ky/175/html/0416-01.html",
+			"accessed": "2026-10-01",
+			"note": "The opinion of the Court of Appeals of Kentucky, with the agreed facts"
+		},
+		{
+			"kind": "book",
+			"title": "Autobiography: Sketch of Life and Labors of Miss Catherine S. Lawrence",
+			"authors": [
+				{
+					"family": "Lawrence",
+					"given": "Catherine S."
+				}
+			],
+			"publisher": "James B. Lyon",
+			"place": "Albany",
+			"published": "1896",
+			"url": "https://archive.org/details/autobiographyske00lawr",
+			"accessed": "2026-10-01",
+			"note": "Armory Square Hospital after the second battle of Bull Run, pp. 110–114"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alice Magaw",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alice_Magaw&oldid=1371965921",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Certified registered nurse anesthetist",
+			"url": "https://en.wikipedia.org/w/index.php?title=Certified_registered_nurse_anesthetist&oldid=1367408811",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "American Association of Nurse Anesthesiology",
+			"url": "https://en.wikipedia.org/w/index.php?title=American_Association_of_Nurse_Anesthesiology&oldid=1362264173",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mayo Clinic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mayo_Clinic&oldid=1375892419",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"nursing/flight-nurses": [
+		["Lauretta Schimmoler", "lauretta-schimmoler"],
+		["Army Nurse Corps", "united-states-army-nurse-corps"],
+		["Second World War", "world-war-ii"],
+		["Bowman Field", "bowman-field-kentucky"],
+		["air evacuation", "aeromedical-evacuation"],
+		["flight nurses", "flight-nurse"],
+		["C-47", "douglas-c-47-skytrain"],
+		["Aleda Lutz", "aleda-e-lutz"]
+	],
+	"nursing/mash": [
+		["Korean War", "korean-war"],
+		["Mobile Army Surgical Hospital", "mobile-army-surgical-hospital"],
+		["triage", "triage"],
+		["Bell H-13", "bell-h-13-sioux"],
+		["Army Nurse Corps", "united-states-army-nurse-corps"],
+		["Second World War", "world-war-ii"]
+	],
+	"nursing/vietnam-nurses": [
+		["Vietnam War", "vietnam-war"],
+		["Spurgeon Neel", "spurgeon-neel"],
+		["Army Nurse Corps", "united-states-army-nurse-corps"],
+		["_Repose_", "uss-repose-ah-16"],
+		["dust-off", "casualty-evacuation"],
+		["Sharon Lane", "sharon-ann-lane"],
+		["post-traumatic stress disorder", "post-traumatic-stress-disorder"],
+		["Vietnam Women's Memorial", "vietnam-womens-memorial"]
+	]
+}

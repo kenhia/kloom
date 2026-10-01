@@ -19,6 +19,8 @@ class Year(unittest.TestCase):
     def test_reads_a_span_as_circa_its_first_year(self):
         self.assertEqual(cm.year({'DateTimeOriginal': '1941-01-01/1945-12-31'}), ('1941', True))
         self.assertEqual(cm.year({'DateTimeOriginal': '1941–1945'}), ('1941', True))
+        # NARA writes "between 1941 and 1945"; it came out as the exact year 1941 (sprint 030).
+        self.assertEqual(cm.year({'DateTimeOriginal': 'between 1941 and 1945'}), ('1941', True))
         self.assertEqual(cm.year({'DateTimeOriginal': '1945-12-31'}), ('1945-12-31', False))
 
 

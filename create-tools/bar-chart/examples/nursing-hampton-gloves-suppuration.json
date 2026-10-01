@@ -1,0 +1,23 @@
+{
+	"title": "Inguinal hernia wounds that suppurated at the Johns Hopkins Hospital, 1889–1899, by closure and gloves",
+	"description": "Bar chart of the share of inguinal hernia operation wounds that suppurated, from Joseph Bloodgood's 1899 report: 116 wounds closed with silk, operator without gloves, 28 suppurated (24.1 percent); 104 closed with silver wire, operator without gloves, 10 suppurated (9.6 percent); 226 closed with silver wire with the operator and every assistant gloved, from February 1897, 4 suppurated (1.8 percent).",
+	"heading": "HERNIA WOUNDS THAT SUPPURATED · %",
+	"unit": "%",
+	"width": 480,
+	"height": 300,
+	"barWidth": 64,
+	"axis": {
+		"max": 30,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"]
+		]
+	},
+	"bars": [
+		{ "label": "Silk", "sublabel": "28 of 116", "value": 24.1 },
+		{ "label": "Silver wire", "sublabel": "10 of 104", "value": 9.6 },
+		{ "label": "Wire, gloved", "sublabel": "4 of 226", "value": 1.8, "highlight": true }
+	]
+}

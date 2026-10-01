@@ -1,0 +1,136 @@
+{
+	"id": "semmelweis",
+	"topic": "Semmelweis and handwashing",
+	"position": {
+		"label": "1847",
+		"sort": 1847
+	},
+	"scene": {
+		"headline": "We carried death on our",
+		"accent": "FINGERS.",
+		"palette": "gown",
+		"illustration": "scene.svg",
+		"metadata": [
+			"VIENNA · ALLGEMEINES KRANKENHAUS · FIRST AND SECOND CLINICS",
+			"IGNAZ SEMMELWEIS · CHLORINATED LIME · MAY 1847"
+		],
+		"counter": {
+			"value": "18.3 → 1.2",
+			"label": "deaths per 100 births, April and July 1847"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Die Aetiologie, der Begriff und die Prophylaxis des Kindbettfiebers",
+			"authors": [
+				{
+					"family": "Semmelweis",
+					"given": "Ignaz Philipp"
+				}
+			],
+			"publisher": "C. A. Hartleben",
+			"place": "Pest, Wien und Leipzig",
+			"published": "1861",
+			"language": "de",
+			"url": "https://archive.org/details/b33953740",
+			"accessed": "2026-10-01",
+			"note": "The two clinics, table 1, pp. 2–3; the months of 1846–48, pp. 49–57; his own finger, pp. 72–74"
+		},
+		{
+			"kind": "article",
+			"title": "Höchst wichtige Erfahrungen über die Aetiologie der in Gebäranstalten epidemischen Puerperalfieber",
+			"authors": [
+				{
+					"family": "Hebra",
+					"given": "Ferdinand"
+				}
+			],
+			"container": "Zeitschrift der k. k. Gesellschaft der Aerzte zu Wien",
+			"volume": "4",
+			"pages": "242–244",
+			"published": "1847-12",
+			"language": "de",
+			"citedIn": "Die Aetiologie, der Begriff und die Prophylaxis des Kindbettfiebers, pp. 277–278, where Semmelweis reprints it"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ignaz Semmelweis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ignaz_Semmelweis&oldid=1374734853",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jakob Kolletschka",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jakob_Kolletschka&oldid=1372015484",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vienna General Hospital",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vienna_General_Hospital&oldid=1375528145",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Postpartum infections",
+			"url": "https://en.wikipedia.org/w/index.php?title=Postpartum_infections&oldid=1366561550",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-28"
+		},
+		{
+			"kind": "media",
+			"title": "Deaths per 100 births in the First Clinic, Vienna, month by month, 1847",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from Semmelweis, Die Aetiologie (1861), pp. 49–56",
+			"url": "https://archive.org/details/b33953740",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "first-clinic-1847.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/hand-hygiene",
+			"why": "Semmelweis's washing in chlorinated lime in 1847 is where the story of hand hygiene begins."
+		}
+	]
+}

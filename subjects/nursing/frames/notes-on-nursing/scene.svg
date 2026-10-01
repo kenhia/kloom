@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M26 258 L370 258"/>
+		<path pathLength="1" d="M44 90 L326 90"/>
+		<path pathLength="1" d="M44 110 L326 110"/>
+		<path pathLength="1" d="M44 130 L326 130"/>
+		<path pathLength="1" d="M44 150 L326 150"/>
+		<path pathLength="1" d="M44 170 L326 170"/>
+		<path pathLength="1" d="M44 190 L326 190"/>
+		<path pathLength="1" d="M44 210 L326 210"/>
+		<path pathLength="1" d="M44 230 L326 230"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 60 L340 60"/>
+		<path pathLength="1" d="M40 70 L330 70"/>
+		<path pathLength="1" d="M30 258 L340 258"/>
+		<path pathLength="1" d="M30 60 L30 110"/>
+		<path pathLength="1" d="M30 170 L30 258"/>
+		<path pathLength="1" d="M40 70 L40 110"/>
+		<path pathLength="1" d="M40 170 L40 250"/>
+		<path pathLength="1" d="M290 250 L290 200 L330 200"/>
+		<path pathLength="1" d="M330 250 L330 70"/>
+		<path pathLength="1" d="M304 200 L304 40"/>
+		<path pathLength="1" d="M340 258 L340 40"/>
+		<path pathLength="1" d="M304 40 L296 30"/>
+		<path pathLength="1" d="M340 40 L348 30"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M30 110 L40 110 L40 116 L30 116 Z"/>
+		<path pathLength="1" d="M30 164 L40 164 L40 170 L30 170 Z"/>
+		<path pathLength="1" d="M35 116 L35 132"/>
+		<path pathLength="1" d="M110 196 L240 196 L240 210 L110 210 Z"/>
+		<path pathLength="1" d="M114 210 L114 250"/>
+		<path pathLength="1" d="M236 210 L236 250"/>
+		<path pathLength="1" d="M110 180 L110 210"/>
+		<path pathLength="1" d="M 122 196 Q 130 182 146 186 Q 190 178 230 190 L 232 196"/>
+		<path pathLength="1" d="M117 190 a9 5 0 1 0 18 0 a9 5 0 1 0 -18 0"/>
+		<path pathLength="1" d="M297 238 L297.2 236.7 L297.7 235.5 L298.5 234.5 L299.5 233.7 L300.7 233.2 L302 233 L303.3 233.2 L304.5 233.7 L305.5 234.5 L306.3 235.5 L306.8 236.7 L307 238"/>
+		<path pathLength="1" d="M304 238 L304.2 236.7 L304.7 235.5 L305.5 234.5 L306.5 233.7 L307.7 233.2 L309 233 L310.3 233.2 L311.5 233.7 L312.5 234.5 L313.3 235.5 L313.8 236.7 L314 238"/>
+		<path pathLength="1" d="M311 238 L311.2 236.7 L311.7 235.5 L312.5 234.5 L313.5 233.7 L314.7 233.2 L316 233 L317.3 233.2 L318.5 233.7 L319.5 234.5 L320.3 235.5 L320.8 236.7 L321 238"/>
+		<path pathLength="1" d="M294 243 L326 243"/>
+		<path pathLength="1" d="M60 120 L94 120 L94 250 L60 250 Z"/>
+		<path pathLength="1" d="M86 190 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M10 124 L23.7 123.1 L37.5 122.6 L51.2 122.7 L64.8 123.2 L78.3 124.2 L91.8 125.7 L105.1 127.6 L118.2 130 L131.2 132.9 L144 136.1 L156.6 139.8 L169 143.9 L181.1 148.4 L193 153.3 L204.5 158.6 L215.8 164.2 L226.7 170.3 L237.2 176.7 L247.4 183.4 L257.2 190.5 L266.6 197.9 L275.5 205.6 L284 213.6 L292 222 L308 210 L308 205 L308 185 L308 165 L308 145 L308 125 L308 105 L308 85 L308 65 L308 45"/>
+		<path pathLength="1" d="M309.7 48.6 L308 45 L306.3 48.6"/>
+		<path pathLength="1" d="M10 140 L23.7 140.2 L37.5 140.6 L51.2 141.4 L64.8 142.5 L78.3 143.9 L91.8 145.6 L105.1 147.6 L118.2 149.9 L131.2 152.6 L144 155.5 L156.6 158.7 L169 162.2 L181.1 166.1 L193 170.2 L204.5 174.7 L215.8 179.4 L226.7 184.4 L237.2 189.8 L247.4 195.4 L257.2 201.3 L266.6 207.6 L275.5 214.1 L284 220.9 L292 228 L314 210 L314 205 L314 185 L314 165 L314 145 L314 125 L314 105 L314 85 L314 65 L314 45"/>
+		<path pathLength="1" d="M315.7 48.6 L314 45 L312.3 48.6"/>
+		<path pathLength="1" d="M10 156 L23.7 157.3 L37.5 158.6 L51.2 160.1 L64.8 161.8 L78.3 163.6 L91.8 165.5 L105.1 167.6 L118.2 169.8 L131.2 172.2 L144 174.8 L156.6 177.6 L169 180.6 L181.1 183.8 L193 187.2 L204.5 190.8 L215.8 194.6 L226.7 198.6 L237.2 202.9 L247.4 207.4 L257.2 212.2 L266.6 217.3 L275.5 222.6 L284 228.1 L292 234 L320 210 L320 205 L320 185 L320 165 L320 145 L320 125 L320 105 L320 85 L320 65 L320 45"/>
+		<path pathLength="1" d="M321.7 48.6 L320 45 L318.3 48.6"/>
+		<path pathLength="1" d="M13.5 142.2 L18 140 L13.5 137.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="44" y="100" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WINDOW OPEN</text>
+		<text x="77" y="140" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DOOR</text>
+		<text x="77" y="150" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SHUT</text>
+		<text x="315" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FIRE</text>
+		<text x="175" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AS PURE AS THE AIR WITHOUT</text>
+		<text x="175" y="278" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WITHOUT CHILLING HIM</text>
+	</g>
+</svg>

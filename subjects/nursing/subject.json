@@ -1,0 +1,114 @@
+{
+	"title": "Keeping Watch",
+	"subtitle": "care at the bedside, from infirmary to operating room",
+	"palettes": {
+		"cloister": {
+			"scheme": "dark",
+			"background": "#17140f",
+			"ink": "#ede4d3",
+			"muted": "#b0a48e",
+			"accent": "#d9a24a",
+			"line": "#d4c7b0",
+			"counterpart": "linen"
+		},
+		"linen": {
+			"scheme": "light",
+			"background": "#f5f1e8",
+			"ink": "#231d15",
+			"muted": "#5c5244",
+			"accent": "#8a3b1c",
+			"line": "#2f281e",
+			"counterpart": "cloister"
+		},
+		"lamplight": {
+			"scheme": "dark",
+			"background": "#101218",
+			"ink": "#ece6d6",
+			"muted": "#a9a59a",
+			"accent": "#f2b84b",
+			"line": "#cfc9b8",
+			"counterpart": "ledger"
+		},
+		"ledger": {
+			"scheme": "light",
+			"background": "#eef0ea",
+			"ink": "#1b211c",
+			"muted": "#4f5a51",
+			"accent": "#a12a3a",
+			"line": "#27302a",
+			"counterpart": "lamplight"
+		},
+		"theatre": {
+			"scheme": "dark",
+			"background": "#0e1714",
+			"ink": "#e1ede7",
+			"muted": "#9bb2a8",
+			"accent": "#6fd3b0",
+			"line": "#bfd3ca",
+			"counterpart": "gown"
+		},
+		"gown": {
+			"scheme": "light",
+			"background": "#edf4f2",
+			"ink": "#15201e",
+			"muted": "#4a5c58",
+			"accent": "#0f6b5c",
+			"line": "#23302d",
+			"counterpart": "theatre"
+		},
+		"olive": {
+			"scheme": "dark",
+			"background": "#1a1c12",
+			"ink": "#ebead9",
+			"muted": "#b0ae95",
+			"accent": "#d6b86a",
+			"line": "#d2d0b8",
+			"counterpart": "canvas"
+		},
+		"canvas": {
+			"scheme": "light",
+			"background": "#f1eee2",
+			"ink": "#22211a",
+			"muted": "#5a5847",
+			"accent": "#56631c",
+			"line": "#2e2d23",
+			"counterpart": "olive"
+		},
+		"dressblue": {
+			"scheme": "dark",
+			"background": "#0f1a2e",
+			"ink": "#eef1f6",
+			"muted": "#aab5c8",
+			"accent": "#d4af37",
+			"line": "#c9d2e0",
+			"counterpart": "whites"
+		},
+		"whites": {
+			"scheme": "light",
+			"background": "#f7f8fa",
+			"ink": "#121a2b",
+			"muted": "#4b5568",
+			"accent": "#1f3a6e",
+			"line": "#1d2638",
+			"counterpart": "dressblue"
+		},
+		"nightshift": {
+			"scheme": "dark",
+			"background": "#0d1418",
+			"ink": "#e2ecef",
+			"muted": "#9db0b8",
+			"accent": "#59d0c9",
+			"line": "#bed0d6",
+			"counterpart": "chart"
+		},
+		"chart": {
+			"scheme": "light",
+			"background": "#f6f6f3",
+			"ink": "#1a1d22",
+			"muted": "#50555e",
+			"accent": "#1c4f9c",
+			"line": "#262a31",
+			"counterpart": "nightshift"
+		}
+	}
+}

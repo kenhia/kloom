@@ -1,0 +1,25 @@
+{
+	"title": "Deaths among Copenhagen's bulbar and respiratory polio patients, 1952",
+	"description": "Bar chart of the share of patients needing special treatment for respiratory or swallowing paralysis at the Blegdam Hospital who died, by period of admission, from Lassen's Table I (deaths counted to 1 April 1953): 87 percent of 31 admitted from 24 July to 25 August 1952, before ventilation by hand, then 52, 48, 38, 26 and 36 percent in five groups of 50 admitted from 26 August to 6 November.",
+	"heading": "PERCENT WHO DIED, BY WHEN ADMITTED",
+	"unit": "%",
+	"width": 520,
+	"axis": {
+		"max": 100,
+		"ticks": [
+			[0, "0"],
+			[25, "25"],
+			[50, "50"],
+			[75, "75"],
+			[100, "100"]
+		]
+	},
+	"bars": [
+		{ "label": "to 25 Aug", "sublabel": "31", "value": 87, "highlight": true },
+		{ "label": "to 8 Sep", "sublabel": "50", "value": 52 },
+		{ "label": "to 23 Sep", "sublabel": "50", "value": 48 },
+		{ "label": "to 5 Oct", "sublabel": "50", "value": 38 },
+		{ "label": "to 21 Oct", "sublabel": "50", "value": 26 },
+		{ "label": "to 6 Nov", "sublabel": "50", "value": 36 }
+	]
+}

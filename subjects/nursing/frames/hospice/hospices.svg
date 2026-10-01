@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Hospices serving Medicare patients, 2019 to 2024</title>
+<desc id="d">Bar chart of the number of hospices that provided care to Medicare beneficiaries, from MedPAC's March 2026 report, Table 10-1: 4,840 in 2019, 5,058 in 2020, 5,358 in 2021, 5,899 in 2022, 6,535 in 2023 and 6,706 in 2024, of which 3,435 and 5,497 were for-profit in the first and last years.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="196.5" y2="196.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">2,000</text>
+<line x1="64" x2="460" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">4,000</text>
+<line x1="64" x2="460" y1="89.5" y2="89.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">6,000</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">8,000</text>
+</g>
+<rect x="69.0" y="120.5" width="56" height="129.5" fill-opacity="0.85"/>
+<text x="97.0" y="114.5" text-anchor="middle">4,840</text>
+<text x="97.0" y="266" text-anchor="middle">2019</text>
+<rect x="135.0" y="114.7" width="56" height="135.3" fill-opacity="0.85"/>
+<text x="163.0" y="108.7" text-anchor="middle">5,058</text>
+<text x="163.0" y="266" text-anchor="middle">2020</text>
+<rect x="201.0" y="106.7" width="56" height="143.3" fill-opacity="0.85"/>
+<text x="229.0" y="100.7" text-anchor="middle">5,358</text>
+<text x="229.0" y="266" text-anchor="middle">2021</text>
+<rect x="267.0" y="92.2" width="56" height="157.8" fill-opacity="0.85"/>
+<text x="295.0" y="86.2" text-anchor="middle">5,899</text>
+<text x="295.0" y="266" text-anchor="middle">2022</text>
+<rect x="333.0" y="75.2" width="56" height="174.8" fill-opacity="0.85"/>
+<text x="361.0" y="69.2" text-anchor="middle">6,535</text>
+<text x="361.0" y="266" text-anchor="middle">2023</text>
+<rect x="399.0" y="70.6" width="56" height="179.4" class="accent" fill="currentColor"/>
+<text x="427.0" y="64.6" text-anchor="middle">6,706</text>
+<text x="427.0" y="266" text-anchor="middle">2024</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">HOSPICES SERVING MEDICARE PATIENTS</text>
+</g></svg>

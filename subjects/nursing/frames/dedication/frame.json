@@ -1,0 +1,51 @@
+{
+	"id": "dedication",
+	"topic": "Dedication to Captain Kathleen Hiatt",
+	"position": {
+		"label": "Dedication"
+	},
+	"scene": {
+		"headline": "Dedicated to Captain Kathleen Hiatt,",
+		"accent": "USN.",
+		"palette": "dressblue",
+		"illustration": "scene.svg",
+		"metadata": ["NURSE CORPS · UNITED STATES NAVY"],
+		"dedication": {
+			"kicker": "Dedicated to",
+			"name": "Captain Kathleen Hiatt, USN",
+			"note": "Retired"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Seal of the United States Navy Nurse Corps",
+			"authors": [
+				{
+					"name": "United States Navy"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Navy_Nurse_Corps.png",
+			"accessed": "2026-10-01",
+			"note": "Public domain; its gold traced for the plate, and its oak leaf for the sleeve"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United States Navy Nurse Corps",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Navy_Nurse_Corps&oldid=1368272768",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08",
+			"note": "The Nurse Corps' single oak leaf, in place of a line officer's star",
+			"key": true
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"title": "Deaths and complications before and after a surgical safety checklist",
+	"description": "Bar chart of percentages before and after a surgical safety checklist. In the eight-hospital study of Haynes and colleagues (2009), deaths 1.5 percent before and 0.8 after, complications 11.0 before and 7.0 after. In Urbach and colleagues' study of 101 Ontario hospitals (2014), deaths 0.71 before and 0.65 after, complications 3.86 before and 3.82 after; neither Ontario change was significant. The two studies define complications differently. In the chart 8H is the eight-hospital study and ON the Ontario study.",
+	"heading": "PERCENT OF PATIENTS · BEFORE AND AFTER THE CHECKLIST",
+	"unit": "%",
+	"width": 600,
+	"height": 300,
+	"barWidth": 52,
+	"axis": {
+		"max": 12,
+		"ticks": [
+			[0, "0"],
+			[4, "4"],
+			[8, "8"],
+			[12, "12"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Before",
+			"sublabel": "8H deaths",
+			"value": 1.5,
+			"display": "1.5%"
+		},
+		{
+			"label": "After",
+			"sublabel": "8H deaths",
+			"value": 0.8,
+			"display": "0.8%",
+			"highlight": true
+		},
+		{
+			"label": "Before",
+			"sublabel": "8H compl.",
+			"value": 11.0,
+			"display": "11.0%"
+		},
+		{
+			"label": "After",
+			"sublabel": "8H compl.",
+			"value": 7.0,
+			"display": "7.0%",
+			"highlight": true
+		},
+		{
+			"label": "Before",
+			"sublabel": "ON deaths",
+			"value": 0.71,
+			"display": "0.71%"
+		},
+		{
+			"label": "After",
+			"sublabel": "ON deaths",
+			"value": 0.65,
+			"display": "0.65%",
+			"highlight": true
+		},
+		{
+			"label": "Before",
+			"sublabel": "ON compl.",
+			"value": 3.86,
+			"display": "3.86%"
+		},
+		{
+			"label": "After",
+			"sublabel": "ON compl.",
+			"value": 3.82,
+			"display": "3.82%",
+			"highlight": true
+		}
+	]
+}

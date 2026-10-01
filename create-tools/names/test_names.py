@@ -105,6 +105,14 @@ class Place(unittest.TestCase):
         a, b = names.place(READING, 'Aristotle', 'aristotle')
         self.assertIsNone(names.bold_elsewhere(READING, 'Aristotle', a, b))
 
+    def test_bold_elsewhere_sees_an_italic_name_in_bold(self):
+        # A spec's words keep the italics of a species or a title; the bold run is the same words
+        # in bold (sprint 030, where the mark landed on a passing mention with no warning).
+        reading = 'It was _Staphylococcus aureus_ again. **_Staphylococcus aureus_** lives on skin.'
+        a, b = names.place(reading, '_Staphylococcus aureus_', 'staphylococcus-aureus')
+        self.assertEqual(names.bold_elsewhere(reading, '_Staphylococcus aureus_', a, b),
+                         '**_Staphylococcus aureus_**')
+
     def test_a_bold_run_holding_another_mark_is_not_the_mention(self):
         reading = 'IBM built it. **[IBM 701](kloom:e/ibm-701)** was its first.'
         self.assertIsNone(names.bold_elsewhere(reading, 'IBM', 0, 3))
@@ -162,6 +170,15 @@ class MarkCheck(unittest.TestCase):
         r = self.mark('--check')
         self.assertEqual(r.returncode, 1)
         self.assertIn('no prose mention of "Socrates"', r.stderr)
+
+    def test_a_name_no_file_holds_stops_the_frame_being_marked(self):
+        # Placing went ahead after naming the unknown name, and wrote the frame (sprint 030).
+        self.write(self.spec, {'subj/f': [['Aristotle', 'aristotle'], ['Plato', 'plato']]})
+        r = self.mark()
+        self.assertEqual(r.returncode, 1)
+        self.assertIn('plato is not in the registry or a draft', r.stderr)
+        with open(os.path.join(self.frame, 'reading.md')) as fh:
+            self.assertNotIn('kloom:e/', fh.read())
 
     def test_warns_when_the_mark_misses_the_bold_mention(self):
         self.write(os.path.join(self.dir, 'names', 'electron.json'), {'id': 'electron'})

@@ -1,0 +1,23 @@
+{
+	"title": "Weekly hours of duty in 23 training schools, 1919–21",
+	"description": "Bar chart of the number of the 23 training schools studied by the Committee for the Study of Nursing Education whose students worked each band of weekly hours on duty: 51 to 53 hours, 8 schools; 54 to 56, 7; 57 to 59, 6; 60, 2. The median was 54 hours. Data: Nursing and Nursing Education in the United States (1923), table 10.",
+	"heading": "SCHOOLS BY WEEKLY HOURS ON DUTY",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 64,
+	"axis": {
+		"max": 10,
+		"ticks": [
+			[0, "0"],
+			[5, "5"],
+			[10, "10"]
+		]
+	},
+	"bars": [
+		{ "label": "51–53 H", "value": 8 },
+		{ "label": "54–56 H", "value": 7, "highlight": true },
+		{ "label": "57–59 H", "value": 6 },
+		{ "label": "60 H", "value": 2 }
+	]
+}

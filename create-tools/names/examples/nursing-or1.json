@@ -1,0 +1,28 @@
+{
+	"nursing/ether": [
+		["Massachusetts General Hospital", "massachusetts-general-hospital"],
+		["Ether Dome", "ether-dome"],
+		["John Collins Warren", "john-collins-warren-surgeon-born-1778"],
+		["William T. G. Morton", "william-t-g-morton"],
+		["diethyl ether", "diethyl-ether"],
+		["Crawford Long", "crawford-long"],
+		["Horace Wells", "horace-wells"],
+		["chloroform", "chloroform"]
+	],
+	"nursing/semmelweis": [
+		["Vienna General Hospital", "vienna-general-hospital"],
+		["midwives", "midwife"],
+		["Ignaz Semmelweis", "ignaz-semmelweis"],
+		["puerperal fever", "postpartum-infections"],
+		["Jakob Kolletschka", "jakob-kolletschka"],
+		["chlorinated lime", "calcium-hypochlorite"],
+		["Ferdinand von Hebra", "ferdinand-ritter-von-hebra"]
+	],
+	"nursing/lister": [
+		["Joseph Lister", "joseph-lister"],
+		["Glasgow Royal Infirmary", "glasgow-royal-infirmary"],
+		["Louis Pasteur", "louis-pasteur"],
+		["carbolic acid", "phenol"],
+		["coal tar", "coal-tar"]
+	]
+}

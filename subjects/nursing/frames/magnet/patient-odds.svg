@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Odds of a surgical patient's death by patients per nurse, relative to four</title>
+<desc id="d">Bar chart of the odds of death within 30 days of admission for a surgical patient, relative to a nurse caring for four patients, compounding the odds ratio of 1.07 for each additional patient per nurse found by Aiken and colleagues in 168 Pennsylvania hospitals (JAMA, 2002): 1.00 at four patients, 1.07 at five, 1.14 at six, 1.23 at seven and 1.31 at eight. The compounding is kloom's arithmetic, not the paper's table.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">0.5</text>
+<line x1="64" x2="460" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">1.0</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">1.5</text>
+</g>
+<rect x="75.6" y="107.3" width="56" height="142.7" fill-opacity="0.85"/>
+<text x="103.6" y="101.3" text-anchor="middle">1.00</text>
+<text x="103.6" y="266" text-anchor="middle">4</text>
+<text x="103.6" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">patients</text>
+<rect x="154.8" y="97.3" width="56" height="152.7" fill-opacity="0.85"/>
+<text x="182.8" y="91.3" text-anchor="middle">1.07</text>
+<text x="182.8" y="266" text-anchor="middle">5</text>
+<text x="182.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">patients</text>
+<rect x="234.0" y="86.7" width="56" height="163.3" fill-opacity="0.85"/>
+<text x="262.0" y="80.7" text-anchor="middle">1.14</text>
+<text x="262.0" y="266" text-anchor="middle">6</text>
+<text x="262.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">patients</text>
+<rect x="313.2" y="75.2" width="56" height="174.8" fill-opacity="0.85"/>
+<text x="341.2" y="69.2" text-anchor="middle">1.23</text>
+<text x="341.2" y="266" text-anchor="middle">7</text>
+<text x="341.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">patients</text>
+<rect x="392.4" y="63.0" width="56" height="187.0" class="accent" fill="currentColor"/>
+<text x="420.4" y="57.0" text-anchor="middle">1.31</text>
+<text x="420.4" y="266" text-anchor="middle">8</text>
+<text x="420.4" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">patients</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">ODDS OF DEATH, RELATIVE TO 4 PATIENTS A NURSE</text>
+</g></svg>

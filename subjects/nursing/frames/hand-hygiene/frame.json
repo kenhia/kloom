@@ -1,0 +1,220 @@
+{
+	"id": "hand-hygiene",
+	"topic": "The five moments for hand hygiene",
+	"position": {
+		"label": "2009",
+		"sort": 2009
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "Five moments, twenty",
+		"accent": "SECONDS.",
+		"palette": "chart",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GENEVA UNIVERSITY HOSPITALS · DIDIER PITTET · HUGO SAX",
+			"WHO GUIDELINES 2009 · ALCOHOL RUB 20–30 S · SOAP AND WATER 40–60 S"
+		],
+		"counter": {
+			"value": "48% → 66%",
+			"label": "of chances to clean hands taken, Geneva, 1994–97"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "WHO Guidelines on Hand Hygiene in Health Care: First Global Patient Safety Challenge, Clean Care Is Safer Care",
+			"authors": [
+				{
+					"name": "World Health Organization"
+				}
+			],
+			"publisher": "World Health Organization",
+			"place": "Geneva",
+			"published": "2009",
+			"url": "https://www.who.int/publications/i/item/9789241597906",
+			"accessed": "2026-10-01",
+			"note": "Part I.21.4, the five moments and the patient zone; Figures II.1–2, the rub and the wash; Part I.12, the handrub formulations; opportunities an hour, Part I.16"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Effectiveness of a Hospital-Wide Programme to Improve Compliance with Hand Hygiene",
+			"authors": [
+				{
+					"family": "Pittet",
+					"given": "Didier"
+				},
+				{
+					"family": "Hugonnet",
+					"given": "Stéphane"
+				},
+				{
+					"family": "Harbarth",
+					"given": "Stephan"
+				},
+				{
+					"family": "Mourouga",
+					"given": "Philippe"
+				},
+				{
+					"family": "Sauvan",
+					"given": "Valérie"
+				},
+				{
+					"family": "Touveneau",
+					"given": "Sylvie"
+				},
+				{
+					"family": "Perneger",
+					"given": "Thomas V."
+				}
+			],
+			"container": "The Lancet",
+			"volume": "356",
+			"issue": "9238",
+			"pages": "1307–1312",
+			"published": "2000-10-14",
+			"doi": "10.1016/s0140-6736(00)02814-2",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "No Time for Handwashing!? Handwashing versus Alcoholic Rub: Can We Afford 100% Compliance?",
+			"authors": [
+				{
+					"family": "Voss",
+					"given": "Andreas"
+				},
+				{
+					"family": "Widmer",
+					"given": "Andreas F."
+				}
+			],
+			"container": "Infection Control and Hospital Epidemiology",
+			"volume": "18",
+			"issue": "3",
+			"pages": "205–208",
+			"published": "1997-03",
+			"doi": "10.1086/647590",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "‘My Five Moments for Hand Hygiene’: A User-Centred Design Approach to Understand, Train, Monitor and Report Hand Hygiene",
+			"authors": [
+				{
+					"family": "Sax",
+					"given": "Hugo"
+				},
+				{
+					"family": "Allegranzi",
+					"given": "B."
+				},
+				{
+					"family": "Uçkay",
+					"given": "I."
+				},
+				{
+					"family": "Larson",
+					"given": "E."
+				},
+				{
+					"family": "Boyce",
+					"given": "J."
+				},
+				{
+					"family": "Pittet",
+					"given": "Didier"
+				}
+			],
+			"container": "Journal of Hospital Infection",
+			"volume": "67",
+			"issue": "1",
+			"pages": "9–21",
+			"published": "2007-09",
+			"doi": "10.1016/j.jhin.2007.06.004",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "New Guidelines on Community Hand Hygiene to Help Governments Reduce the Spread of Infectious Diseases",
+			"publisher": "World Health Organization",
+			"published": "2025-10-15",
+			"url": "https://www.who.int/news/item/15-10-2025-new-guidelines-on-community-hand-hygiene-to-help-governments-reduce-the-spread-of-infectious-diseases",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Didier Pittet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Didier_Pittet&oldid=1374258491",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hand washing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hand_washing&oldid=1374841767",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hand sanitizer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hand_sanitizer&oldid=1366771114",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "media",
+			"title": "US Navy 060824-N-3714J-044: Lt. Tara Collins shows nurses from a local hospital germs, using a black light during a hand washing lecture",
+			"url": "https://commons.wikimedia.org/wiki/File:US_Navy_060824-N-3714J-044_U._S._Navy_Lt._Tara_Collins_of_LaGrange,_Ky.,_attached_to_the_Medical_Treatment_Facility_aboard_the_Military_Sealift_Command_hospital_ship_USNS_Mercy_(T-AH_19),_shows_nurses_from_a_local_hospital_germ.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "navy-handwash.jpg",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Erika N."
+				}
+			],
+			"container": "United States Navy, photo 060824-N-3714J-044",
+			"published": "2006-08-24",
+			"note": "Kupang, Indonesia; a photograph by a Navy mass communication specialist"
+		},
+		{
+			"kind": "media",
+			"title": "Minutes of every hour of intensive care spent cleaning hands",
+			"file": "minutes.svg",
+			"licence": "MIT",
+			"url": "https://www.who.int/publications/i/item/9789241597906",
+			"container": "Drawn for kloom by our arithmetic from the WHO Guidelines on Hand Hygiene in Health Care (2009)",
+			"accessed": "2026-10-01"
+		}
+	]
+}

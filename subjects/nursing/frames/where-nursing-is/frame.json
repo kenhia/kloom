@@ -1,0 +1,287 @@
+{
+	"id": "where-nursing-is",
+	"topic": "Nursing today",
+	"asOf": "2026-10-01",
+	"position": {
+		"label": "Where we are"
+	},
+	"scene": {
+		"headline": "Thirty million of us keep",
+		"accent": "WATCH.",
+		"palette": "chart",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WHO · STATE OF THE WORLD'S NURSING 2025 · NCSBN 2024",
+			"29.8 MILLION NURSES · 5.8 MILLION SHORT · 1 : 5"
+		],
+		"counter": {
+			"value": "29.8M",
+			"label": "nurses in the world in 2023, by the WHO's count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "State of the World's Nursing 2025: Investing in Education, Jobs, Leadership and Service Delivery",
+			"authors": [
+				{
+					"name": "World Health Organization"
+				}
+			],
+			"publisher": "World Health Organization",
+			"place": "Geneva",
+			"published": "2025-05",
+			"url": "https://iris.who.int/server/api/core/bitstreams/a4173924-a18f-49b6-8bd1-9c2a4a098980/content",
+			"accessed": "2026-10-01",
+			"note": "Section 5: stock, density, sex, foreign-born nurses and the shortage (tables 5.1–5.5)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The 2024 National Nursing Workforce Survey",
+			"authors": [
+				{
+					"family": "Smiley",
+					"given": "Richard A."
+				},
+				{
+					"family": "Kaminski-Ozturk",
+					"given": "Nicole"
+				},
+				{
+					"family": "Reid",
+					"given": "Michaela"
+				},
+				{
+					"family": "Burwell",
+					"given": "Patricia"
+				},
+				{
+					"family": "Oliveira",
+					"given": "Carrie M."
+				},
+				{
+					"family": "Shobo",
+					"given": "Yetty"
+				},
+				{
+					"family": "Allgeyer",
+					"given": "Richard L."
+				}
+			],
+			"etAl": true,
+			"container": "Journal of Nursing Regulation",
+			"volume": "16",
+			"issue": "1, supplement",
+			"pages": "S1–S88",
+			"published": "2025-04",
+			"url": "https://www.journalofnursingregulation.com/article/S2155-8256(25)00047-X/fulltext",
+			"accessed": "2026-10-01",
+			"note": "Tables 5, 12, 27 and 28; the US RN population is our sum of table 5's estimates"
+		},
+		{
+			"kind": "report",
+			"title": "The Impact of COVID-19 on Health and Care Workers: A Closer Look at Deaths",
+			"authors": [
+				{
+					"name": "World Health Organization, Health Workforce Department"
+				}
+			],
+			"number": "WHO/HWF/WorkingPaper/2021.1",
+			"publisher": "World Health Organization",
+			"place": "Geneva",
+			"published": "2021-09",
+			"url": "https://iris.who.int/handle/10665/345300",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "ICN Confirms 1,500 Nurses Have Died from COVID-19 in 44 Countries and Estimates That Healthcare Worker COVID-19 Fatalities Worldwide Could Be More Than 20,000",
+			"authors": [
+				{
+					"name": "International Council of Nurses"
+				}
+			],
+			"publisher": "International Council of Nurses",
+			"published": "2020-10-28",
+			"url": "https://www.icn.ch/news/icn-confirms-1500-nurses-have-died-covid-19-44-countries-and-estimates-healthcare-worker-covid",
+			"accessed": "2026-10-01",
+			"citedIn": "The Impact of COVID-19 on Health and Care Workers: A Closer Look at Deaths"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "42 CFR § 482.23, Condition of Participation: Nursing Services",
+			"authors": [
+				{
+					"name": "Centers for Medicare & Medicaid Services"
+				}
+			],
+			"container": "Electronic Code of Federal Regulations",
+			"publisher": "National Archives and Records Administration",
+			"url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-C/section-482.23",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Oregon Laws 2023, Chapter 507 (House Bill 2697)",
+			"authors": [
+				{
+					"name": "Oregon Legislative Assembly"
+				}
+			],
+			"publisher": "Oregon Legislative Assembly",
+			"place": "Salem",
+			"published": "2023-08-01",
+			"url": "https://www.oregonlegislature.gov/bills_laws/lawsstatutes/2023orlaw0507.pdf",
+			"accessed": "2026-10-01",
+			"note": "Sections 6, 17, 29 and 33: the ratios, the medical-surgical change of July 2026 and the deadline of June 2024"
+		},
+		{
+			"kind": "article",
+			"title": "The Impact of California's Staffing Mandate and the Economic Recession on Registered Nurse Staffing Levels: A Longitudinal Analysis",
+			"authors": [
+				{
+					"family": "Dierkes",
+					"given": "Ashley"
+				},
+				{
+					"family": "Do",
+					"given": "Duc"
+				},
+				{
+					"family": "Morin",
+					"given": "Heather"
+				},
+				{
+					"family": "Rochman",
+					"given": "Monica"
+				},
+				{
+					"family": "Sloane",
+					"given": "Douglas"
+				},
+				{
+					"family": "McHugh",
+					"given": "Matthew"
+				}
+			],
+			"container": "Nursing Outlook",
+			"volume": "70",
+			"issue": "2",
+			"pages": "219–227",
+			"published": "2022",
+			"doi": "10.1016/j.outlook.2021.09.007",
+			"accessed": "2026-10-01",
+			"read": "excerpt"
+		},
+		{
+			"kind": "article",
+			"title": "Minimum Nurse Staffing Legislation and the Financial Performance of California Hospitals",
+			"authors": [
+				{
+					"family": "Reiter",
+					"given": "Kristin L."
+				},
+				{
+					"family": "Harless",
+					"given": "David W."
+				},
+				{
+					"family": "Pink",
+					"given": "George H."
+				},
+				{
+					"family": "Mark",
+					"given": "Barbara A."
+				}
+			],
+			"container": "Health Services Research",
+			"volume": "47",
+			"issue": "3, part 1",
+			"pages": "1030–1050",
+			"published": "2012-06",
+			"doi": "10.1111/j.1475-6773.2011.01356.x",
+			"accessed": "2026-10-01",
+			"read": "excerpt"
+		},
+		{
+			"kind": "article",
+			"title": "Implications of the California Nurse Staffing Mandate for Other States",
+			"authors": [
+				{
+					"family": "Aiken",
+					"given": "Linda H."
+				},
+				{
+					"family": "Sloane",
+					"given": "Douglas M."
+				},
+				{
+					"family": "Cimiotti",
+					"given": "Jeannie P."
+				},
+				{
+					"family": "Clarke",
+					"given": "Sean P."
+				},
+				{
+					"family": "Flynn",
+					"given": "Linda"
+				},
+				{
+					"family": "Seago",
+					"given": "Jean Ann"
+				},
+				{
+					"family": "Spetz",
+					"given": "Joanne"
+				}
+			],
+			"etAl": true,
+			"container": "Health Services Research",
+			"volume": "45",
+			"issue": "4",
+			"pages": "904–921",
+			"published": "2010-08",
+			"doi": "10.1111/j.1475-6773.2010.01114.x",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "International Council of Nurses",
+			"url": "https://en.wikipedia.org/w/index.php?title=International_Council_of_Nurses&oldid=1349973949",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-19"
+		},
+		{
+			"kind": "media",
+			"title": "Nurses per 10,000 people by WHO region, 2023",
+			"authors": [
+				{
+					"name": "kloom"
+				}
+			],
+			"container": "Data: World Health Organization, State of the World's Nursing 2025, table 5.1",
+			"url": "https://iris.who.int/server/api/core/bitstreams/a4173924-a18f-49b6-8bd1-9c2a4a098980/content",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "density.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/magnet",
+			"why": "Linda Aiken's research tied the number of patients a nurse carries to how many of them die."
+		}
+	]
+}

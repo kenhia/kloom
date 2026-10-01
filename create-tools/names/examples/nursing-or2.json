@@ -1,0 +1,38 @@
+{
+	"nursing/hampton-gloves": [
+		["Johns Hopkins Hospital", "johns-hopkins-hospital"],
+		["William Stewart Halsted", "william-stewart-halsted"],
+		["Caroline Hampton", "caroline-hampton"],
+		["potassium permanganate", "potassium-permanganate"],
+		["mercuric chloride", "mercury-ii-chloride"],
+		["Wade Hampton III", "wade-hampton-iii"],
+		["Joseph Colt Bloodgood", "joseph-colt-bloodgood"],
+		["medical glove", "medical-glove"]
+	],
+	"nursing/asepsis": [
+		["Ernst von Bergmann", "ernst-von-bergmann"],
+		["Curt Schimmelbusch", "curt-schimmelbusch"],
+		["Joseph Lister", "joseph-lister"],
+		["asepsis", "asepsis"],
+		["autoclave", "autoclave"],
+		["Louis Pasteur", "louis-pasteur"],
+		["Charles Chamberland", "charles-chamberland"],
+		["Robert Koch", "robert-koch"]
+	],
+	"nursing/nurse-anesthetist": [
+		["Mayo Clinic", "mayo-clinic"],
+		["Charles Horace Mayo", "charles-horace-mayo"],
+		["Alice Magaw", "alice-magaw"],
+		["Diethyl ether", "diethyl-ether"],
+		["George Washington Crile", "george-washington-crile"],
+		["nurse anesthetist", "nurse-anesthetist"]
+	],
+	"nursing/aorn": [
+		["Association of Operating Room Nurses", "association-of-perioperative-registered-nurses"],
+		["Army School of Nursing", "army-school-of-nursing"],
+		["First World War", "world-war-i"],
+		["surgical technologist", "surgical-technologist"],
+		["Korean War", "korean-war"],
+		["Perioperative nursing", "perioperative-nursing"]
+	]
+}

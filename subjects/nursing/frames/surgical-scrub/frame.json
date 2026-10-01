@@ -1,0 +1,263 @@
+{
+	"id": "surgical-scrub",
+	"topic": "The surgical scrub",
+	"position": {
+		"label": "1888",
+		"sort": 1888
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "We scrubbed to the",
+		"accent": "ELBOW.",
+		"palette": "gown",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERLIN · PAUL FÜRBRINGER · BALTIMORE · PHILIP B. PRICE",
+			"SOAP · BRUSH · ALCOHOL · HANDS ABOVE ELBOWS"
+		],
+		"counter": {
+			"value": "6 minutes",
+			"label": "of scrubbing to halve the bacteria living on the skin, by Price's count, 1938"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Untersuchungen und Vorschriften über die Desinfektion der Hände des Arztes, nebst Bemerkungen über den bakteriologischen Charakter des Nagelschmutzes",
+			"authors": [
+				{
+					"family": "Fürbringer",
+					"given": "Paul"
+				}
+			],
+			"publisher": "J. F. Bergmann",
+			"place": "Wiesbaden",
+			"published": "1888",
+			"language": "de",
+			"url": "https://archive.org/details/untersuchungenun00fr",
+			"accessed": "2026-10-01",
+			"note": "The method in four steps, p. 37"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "New Studies in Surgical Bacteriology and Surgical Technic, with Special Reference to Disinfection of the Skin",
+			"authors": [
+				{
+					"family": "Price",
+					"given": "Philip B."
+				}
+			],
+			"container": "Journal of the American Medical Association",
+			"volume": "111",
+			"issue": "22",
+			"pages": "1993–1996",
+			"published": "1938-11-26",
+			"doi": "10.1001/jama.1938.02790480023005",
+			"url": "https://archive.org/details/sim_jama_1938-11-26_111_22",
+			"accessed": "2026-10-01",
+			"note": "The serial-basin test, its table and its practical recommendations"
+		},
+		{
+			"kind": "article",
+			"title": "Fallacy of a Current Surgical Fad: The Three-Minute Preoperative Scrub with Hexachlorophene Soap",
+			"authors": [
+				{
+					"family": "Price",
+					"given": "Philip B."
+				}
+			],
+			"container": "Annals of Surgery",
+			"volume": "134",
+			"issue": "3",
+			"pages": "476–485",
+			"published": "1951-09",
+			"doi": "10.1097/00000658-195109000-00018",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Operating Room Technique for Surgical Technicians",
+			"authors": [
+				{
+					"name": "Enlisted Technicians School, Letterman General Hospital"
+				}
+			],
+			"publisher": "US Army, Letterman General Hospital",
+			"place": "San Francisco",
+			"published": "1943",
+			"url": "https://archive.org/details/54720950R.nlm.nih.gov",
+			"accessed": "2026-10-01",
+			"note": "\"Scrubbing up\", the three hand-disinfection methods and the scrub chart, pp. 68–71"
+		},
+		{
+			"kind": "book",
+			"title": "Handbook of the Hospital Corps, United States Navy",
+			"authors": [
+				{
+					"name": "United States Navy, Bureau of Medicine and Surgery"
+				}
+			],
+			"publisher": "Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1939",
+			"url": "https://archive.org/details/HandbookOfTheHospitalCorpsUSN1939",
+			"accessed": "2026-10-01",
+			"note": "Preparation for operation, pp. 368–369"
+		},
+		{
+			"kind": "book",
+			"title": "Handbook of the Hospital Corps, United States Navy",
+			"edition": "8th ed.",
+			"authors": [
+				{
+					"name": "United States Navy, Bureau of Medicine and Surgery"
+				}
+			],
+			"publisher": "Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1959",
+			"url": "https://archive.org/details/HandbookOfTheHospitalCorps1959",
+			"accessed": "2026-10-01",
+			"note": "Hand washing techniques, p. 4-167"
+		},
+		{
+			"kind": "book",
+			"title": "The Care of the Patient in Surgery, Including Techniques",
+			"edition": "3rd ed.",
+			"authors": [
+				{
+					"family": "Alexander",
+					"given": "Edythe Louise"
+				}
+			],
+			"publisher": "C. V. Mosby",
+			"place": "St. Louis",
+			"published": "1958",
+			"url": "https://archive.org/details/in.ernet.dli.2015.550203",
+			"accessed": "2026-10-01",
+			"note": "Surgical scrub, gowning and gloving, pp. 80–89"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Scrub, Gown, and Glove Procedures",
+			"number": "Subcourse MD0933, edition 100",
+			"authors": [
+				{
+					"name": "US Army Medical Department Center and School"
+				}
+			],
+			"publisher": "US Army Medical Department Center and School",
+			"place": "Fort Sam Houston, Texas",
+			"url": "https://archive.org/details/md-0933-scrub-gown-and-glove-procedures-edition-100",
+			"accessed": "2026-10-01",
+			"note": "The brush-stroke scrub and the closed-cuff method, paragraphs 1-14 to 1-21"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "WHO Guidelines on Hand Hygiene in Health Care",
+			"authors": [
+				{
+					"name": "World Health Organization"
+				}
+			],
+			"publisher": "World Health Organization",
+			"place": "Geneva",
+			"published": "2009",
+			"url": "https://iris.who.int/handle/10665/44102",
+			"accessed": "2026-10-01",
+			"note": "Surgical hand preparation, chapter 13 and recommendation 3"
+		},
+		{
+			"kind": "report",
+			"title": "Global Guidelines for the Prevention of Surgical Site Infection",
+			"edition": "2nd ed.",
+			"authors": [
+				{
+					"name": "World Health Organization"
+				}
+			],
+			"publisher": "World Health Organization",
+			"place": "Geneva",
+			"published": "2018",
+			"url": "https://iris.who.int/handle/10665/277399",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul Fürbringer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_F%C3%BCrbringer&oldid=1341567239",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hexachlorophene",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hexachlorophene&oldid=1372478759",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chlorhexidine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chlorhexidine&oldid=1376096616",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "media",
+			"title": "Scrub chart, from Operating Room Technique for Surgical Technicians",
+			"url": "https://archive.org/details/54720950R.nlm.nih.gov/page/n78/mode/1up",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Enlisted Technicians School, Letterman General Hospital"
+				}
+			],
+			"container": "US Army manual, p. 71; the National Library of Medicine's copy, cropped",
+			"published": "1943",
+			"licence": "Public domain",
+			"file": "scrub-chart.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Bacteria left on the hands and arms as they were scrubbed, 1938 (chart)",
+			"url": "https://archive.org/details/sim_jama_1938-11-26_111_22",
+			"accessed": "2026-10-01",
+			"container": "Data from Price, Journal of the American Medical Association 111 (1938), table on p. 1994; chart drawn for kloom",
+			"licence": "MIT",
+			"file": "flora.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/hampton-gloves",
+			"why": "Price found in 1938 that mercury solutions, the hand antiseptic that had burned Caroline Hampton's arms, left a film under which bacteria lived."
+		}
+	]
+}

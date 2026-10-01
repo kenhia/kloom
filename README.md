@@ -11,18 +11,20 @@ holds the narrative, charts, images and sources for the frame you are on; and
 an AI pane lets you ask for more detail or _grow_ the story — new frames on
 the main spine, or a side trail to explore.
 
-There are six subjects so far, all served by one app:
+There are ten subjects so far, all served by one app:
 
-- **the History of Western Civilization**, 18 frames and two trails;
-- **the History and Current State of AI**, 41 frames and four trails, on a
-  spine that runs from myths through dates to technologies;
+- **the History of Western Civilization**, 19 main-spine frames and two
+  trails;
+- **the History and Current State of AI**, 41 main-spine frames and four
+  trails, on a spine that runs from myths through dates to technologies;
 - **Richard Feynman**, a life on 34 dated frames with five trails (the path
   integral, the diagrams, Los Alamos, computing and the Challenger
   commission), written with the author-subject skill;
 - **the History of Computing**, 37 main-spine frames from counting boards
-  to the cloud, on dates that give way to technologies, with six trails
-  (Babbage's engines, Bletchley and Colossus, the chip, the personal
-  computer, the internet stack, Unix and C).
+  to the cloud, on dates that give way to technologies, with seven trails
+  (Babbage's engines, beyond counting, Bletchley and Colossus, the
+  transistor to Moore's law, the personal computer, the internet stack,
+  Unix and C);
 - **the History of Physics**, 45 main-spine frames from Aristotle to
   cosmology, on dates to 1900 and then categories (relativity, the quantum,
   the nucleus, particles, the cosmos), with four trails (the field, heat and
@@ -33,7 +35,26 @@ There are six subjects so far, all served by one app:
   bone to proofs checked by machine, on dates to 1736 and then categories
   (algebra, analysis, geometry, probability, logic and foundations), with
   three trails (Fermat's Last Theorem, the primes, infinity); every
-  reading does one piece of mathematics in front of the reader.
+  reading does one piece of mathematics in front of the reader;
+- **the History of Chemistry**, 53 main-spine frames from the first copper
+  smelting to AlphaFold, on dates to 1898 and then categories, with three
+  trails (alchemy's last century, from dyes to drugs, finding the
+  elements); every reading does one piece of chemistry;
+- **How We Build**, 46 main-spine frames on a spine by craft, each craft
+  starting time again, with five trails (the forge, joinery, the lathe,
+  materials science, slicers and supports); every reading walks through
+  one real technique;
+- **In the Blood**, 40 main-spine frames, what we believed, what we
+  learned, transfusion, what we do with blood, and the bench by hand and
+  by machine, with four trails (what we got wrong, beyond ABO, blood at
+  war, clotting), built around Ken's father's career in Army blood banking
+  and ending on a dedication to him;
+- **Keeping Watch**, 42 main-spine frames, care before nursing, Nightingale
+  and the profession, the operating room, nurses at war and the modern
+  profession, with four trails (Nightingale's numbers, the scrub nurse's
+  work, the Navy Nurse Corps, who was let in), built around Ken's
+  mother's career as a Navy surgical nurse and ending on a dedication to
+  her; the companion to In the Blood.
 
 The longer aim is a framework (starter code, agent skills and instructions)
 for generating a kloom on any subject.

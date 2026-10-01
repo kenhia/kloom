@@ -1,0 +1,27 @@
+{
+	"title": "Men as a share of employed US registered nurses, 1970–2025",
+	"description": "Bar chart of the percentage of employed registered nurses in the United States who were men. 1970: 2.7 percent. 1980: 4.1. 1990: 5.7. 2000: 7.6. 2006: 8.9. 2011: 9.6 (US Census Bureau, from the census and the American Community Survey). 2025: 12.7 (Bureau of Labor Statistics, Current Population Survey annual averages, 87.3 percent women; a different survey, so not strictly comparable).",
+	"heading": "MEN AS % OF EMPLOYED US REGISTERED NURSES",
+	"unit": "%",
+	"axis": {
+		"max": 15,
+		"ticks": [
+			[0, "0"],
+			[5, "5"],
+			[10, "10"],
+			[15, "15"]
+		]
+	},
+	"width": 520,
+	"height": 300,
+	"barWidth": 44,
+	"bars": [
+		{ "label": "1970", "value": 2.7 },
+		{ "label": "1980", "value": 4.1 },
+		{ "label": "1990", "value": 5.7 },
+		{ "label": "2000", "value": 7.6 },
+		{ "label": "2006", "value": 8.9 },
+		{ "label": "2011", "value": 9.6 },
+		{ "label": "2025", "sublabel": "BLS", "value": 12.7, "highlight": true }
+	]
+}

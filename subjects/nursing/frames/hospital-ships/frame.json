@@ -1,0 +1,246 @@
+{
+	"id": "hospital-ships",
+	"topic": "Navy nurses at sea",
+	"position": {
+		"label": "1920–53",
+		"sort": 1920
+	},
+	"scene": {
+		"headline": "We took the ward to",
+		"accent": "SEA.",
+		"palette": "whites",
+		"illustration": "scene.svg",
+		"metadata": [
+			"USS RELIEF (AH-1) · USS SOLACE · USS CONSOLATION · USS HAVEN",
+			"WHITE HULL · RED CROSSES · HAGUE X 1907 · GENEVA II 1949"
+		],
+		"counter": {
+			"value": "691",
+			"label": "patients taken aboard Relief in an hour and a quarter"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/whole-blood-wwii",
+			"why": "Relief's nurses gave the wounded plasma and dextrose; the blood frame tells why plasma was the services' plan in 1941, and how the Navy came to fly whole blood to the Pacific."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"title": "The History of the Navy Nurse Corps",
+			"authors": [
+				{
+					"name": "Naval History and Heritage Command"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"published": "2025-01-16",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Relief's first nurses, Bowman and the 184 corpsmen; the Korean War ships' staffs"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Nurse Pioneers and the Hospital Ship Relief",
+			"authors": [
+				{
+					"family": "Curto",
+					"given": "Christine"
+				}
+			],
+			"container": "Navy Medicine",
+			"volume": "83",
+			"issue": "3",
+			"pages": "20–25",
+			"published": "1992-05",
+			"url": "https://archive.org/details/NavyMedicineVol.83No.3May-june1992",
+			"accessed": "2026-10-01",
+			"note": "The wards, the anesthetics of 1933–34, and the reception of casualties in 1944–45, from the nurses' own accounts"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Relief VI (Hospital Ship No. 1)",
+			"authors": [
+				{
+					"name": "Naval History and Heritage Command"
+				}
+			],
+			"container": "Dictionary of American Naval Fighting Ships",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/r/relief-vi.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Consolation (AH-15)",
+			"authors": [
+				{
+					"name": "Naval History and Heritage Command"
+				}
+			],
+			"container": "Dictionary of American Naval Fighting Ships",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/c/consolation.html",
+			"accessed": "2026-10-01",
+			"note": "The helicopter platform fitted in 1951, and Operation Helicopter from 18 December 1951"
+		},
+		{
+			"kind": "article",
+			"title": "Birth of the Helo Deck",
+			"authors": [
+				{
+					"family": "Boone",
+					"given": "Joel T."
+				}
+			],
+			"container": "Navy Medicine",
+			"volume": "92",
+			"issue": "3",
+			"pages": "24–27",
+			"published": "2001-05",
+			"url": "https://archive.org/details/NavyMedicineVol.92No.3May-june2001",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Navy Nurse - Philippines, Bataan, Corregidor, & Okinawa: Recollections of CAPT Ann Bernatitus, NC, USN (Ret.)",
+			"authors": [
+				{
+					"family": "Bernatitus",
+					"given": "Ann"
+				}
+			],
+			"container": "Naval History and Heritage Command",
+			"publisher": "Naval History and Heritage Command",
+			"published": "1994-01-25",
+			"url": "https://www.history.navy.mil/research/library/oral-histories/wwii/navy-nurse.html",
+			"accessed": "2026-10-01",
+			"note": "An oral history of 25 January 1994, courtesy of the Historian, Bureau of Medicine and Surgery"
+		},
+		{
+			"kind": "web",
+			"title": "Convention (X) for the Adaptation to Maritime Warfare of the Principles of the Geneva Convention",
+			"container": "The Avalon Project, Yale Law School",
+			"published": "1907-10-18",
+			"url": "https://avalon.law.yale.edu/20th_century/hague10.asp",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "chapter",
+			"title": "Geneva Convention (II) for the Amelioration of the Condition of Wounded, Sick and Shipwrecked Members of Armed Forces at Sea",
+			"container": "The Geneva Conventions of 12 August 1949",
+			"publisher": "International Committee of the Red Cross",
+			"place": "Geneva",
+			"published": "2010",
+			"url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Mercy Afloat",
+			"authors": [
+				{
+					"family": "Tillman",
+					"given": "Barrett"
+				}
+			],
+			"container": "Naval History",
+			"volume": "34",
+			"issue": "4",
+			"published": "2020-08",
+			"url": "https://www.usni.org/magazines/naval-history-magazine/2020/august/mercy-afloat",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "USS Relief (AH-1)",
+			"url": "https://en.wikipedia.org/w/index.php?title=USS_Relief_(AH-1)&oldid=1377862641",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "USS Consolation",
+			"url": "https://en.wikipedia.org/w/index.php?title=USS_Consolation&oldid=1377863236",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "USS Comfort (AH-6)",
+			"url": "https://en.wikipedia.org/w/index.php?title=USS_Comfort_(AH-6)&oldid=1377862966",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United States Navy Nurse Corps",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Navy_Nurse_Corps&oldid=1368272768",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joel Thompson Boone",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joel_Thompson_Boone&oldid=1371844928",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "media",
+			"title": "USS Haven (AH-12) with helo platforms off Korea 1952",
+			"authors": [
+				{
+					"name": "United States Navy"
+				}
+			],
+			"container": "Naval Aviation News, November 1952, p. 21",
+			"published": "1952",
+			"licence": "Public domain",
+			"file": "haven-helo.jpg",
+			"url": "https://commons.wikimedia.org/wiki/File:USS_Haven_(AH-12)_with_helo_platforms_off_Korea_1952.jpg",
+			"accessed": "2026-10-01"
+		}
+	]
+}

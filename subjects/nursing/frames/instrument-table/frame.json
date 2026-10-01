@@ -1,0 +1,192 @@
+{
+	"id": "instrument-table",
+	"topic": "Setting the instrument table",
+	"position": {
+		"label": "1943",
+		"sort": 1943
+	},
+	"scene": {
+		"headline": "Every instrument had its",
+		"accent": "PLACE.",
+		"palette": "gown",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW YORK · EDYTHE LOUISE ALEXANDER · OPERATING ROOM TECHNIQUE",
+			"BACK TABLE · MAYO STAND · RING STAND · THE STERILE CIRCLE"
+		],
+		"counter": {
+			"value": "89",
+			"label": "instruments in the Navy's general tray of 1959, by our count of its list"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Care of the Patient in Surgery, Including Techniques",
+			"edition": "3rd ed.",
+			"authors": [
+				{
+					"family": "Alexander",
+					"given": "Edythe Louise"
+				}
+			],
+			"publisher": "C. V. Mosby",
+			"place": "St. Louis",
+			"published": "1958",
+			"url": "https://archive.org/details/in.ernet.dli.2015.550203",
+			"accessed": "2026-10-01",
+			"note": "Title page; preface to the first edition (1943), p. 9; the instrument nurse and setups, pp. 116–122; rules for aseptic standards, p. 128; celiotomy, pp. 426–428"
+		},
+		{
+			"kind": "book",
+			"title": "Operating Room Technique",
+			"authors": [
+				{
+					"family": "Alexander",
+					"given": "Edythe Louise"
+				}
+			],
+			"publisher": "C. V. Mosby",
+			"place": "St. Louis",
+			"published": "1943",
+			"url": "https://archive.org/details/operationroomtec0000edyt",
+			"accessed": "2026-10-01",
+			"note": "Lending copy only; read in its preface as reprinted in the third edition"
+		},
+		{
+			"kind": "book",
+			"title": "Nursing Administration in the Hospital Health Care System",
+			"authors": [
+				{
+					"family": "Alexander",
+					"given": "Edythe Louise"
+				}
+			],
+			"publisher": "C. V. Mosby",
+			"place": "St. Louis",
+			"published": "1972",
+			"url": "https://archive.org/details/nursingadministr0000alex_m0z0",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "Alexander's Care of the Patient in Surgery",
+			"edition": "5th ed.",
+			"authors": [
+				{
+					"family": "Alexander",
+					"given": "Edythe Louise"
+				}
+			],
+			"editors": [
+				{
+					"family": "Ballinger",
+					"given": "Walter F."
+				},
+				{
+					"family": "Treybal",
+					"given": "Jacquelyn C."
+				},
+				{
+					"family": "Vose",
+					"given": "Ann B."
+				}
+			],
+			"publisher": "C. V. Mosby",
+			"place": "St. Louis",
+			"published": "1972",
+			"url": "https://archive.org/details/alexanderscareofe5alex",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Handbook of the Hospital Corps, United States Navy",
+			"edition": "8th ed.",
+			"authors": [
+				{
+					"name": "United States Navy, Bureau of Medicine and Surgery"
+				}
+			],
+			"publisher": "Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1959",
+			"url": "https://archive.org/details/HandbookOfTheHospitalCorps1959",
+			"accessed": "2026-10-01",
+			"note": "Preparation for general surgery and an appendectomy in progress, figures 178–182, pp. 4-166 to 4-170"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Routine Procedures for an Operation",
+			"number": "Subcourse MD0935, edition 100",
+			"authors": [
+				{
+					"name": "US Army Medical Department Center and School"
+				}
+			],
+			"publisher": "US Army Medical Department Center and School",
+			"place": "Fort Sam Houston, Texas",
+			"url": "https://archive.org/details/md-0935-routine-procedures-for-an-operation-edition-100",
+			"accessed": "2026-10-01",
+			"note": "The sterile field's rules, para. 1-2 to 1-4; the scrub's setup, paras. 3-9 to 3-26; passing, para. 4-4"
+		},
+		{
+			"kind": "article",
+			"title": "Making the Medical Mask: Surgery, Bacteriology, and the Control of Infection (1870s–1920s)",
+			"authors": [
+				{
+					"family": "Schlich",
+					"given": "Thomas"
+				},
+				{
+					"family": "Strasser",
+					"given": "Bruno J."
+				}
+			],
+			"container": "Medical History",
+			"volume": "66",
+			"issue": "2",
+			"pages": "116–134",
+			"published": "2022-04",
+			"doi": "10.1017/mdh.2022.5",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mayo scissors",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mayo_scissors&oldid=1358839434",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-11"
+		},
+		{
+			"kind": "media",
+			"title": "Mayo stand, from an appendectomy in progress (figure 182)",
+			"url": "https://archive.org/details/HandbookOfTheHospitalCorps1959/page/n180/mode/1up",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "United States Navy, Bureau of Medicine and Surgery"
+				}
+			],
+			"container": "US Navy photograph, in Handbook of the Hospital Corps, United States Navy (1959), p. 4-169, via the Internet Archive; cropped",
+			"published": "1959",
+			"licence": "Public domain",
+			"file": "navy-mayo-stand.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/surgical-count",
+			"why": "What the scrub nurse laid out on the tables was counted, item by item, before the wound was closed."
+		}
+	]
+}

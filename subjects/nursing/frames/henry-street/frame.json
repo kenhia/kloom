@@ -1,0 +1,193 @@
+{
+	"id": "henry-street",
+	"topic": "Lillian Wald and public health nursing",
+	"position": {
+		"label": "1893",
+		"sort": 1893
+	},
+	"scene": {
+		"headline": "We climbed the",
+		"accent": "STAIRS.",
+		"palette": "nightshift",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LOWER EAST SIDE · NEW YORK",
+			"LILLIAN WALD · MARY BREWSTER · LINA ROGERS",
+			"THE HENRY STREET SETTLEMENT"
+		],
+		"counter": {
+			"value": "1,101",
+			"label": "children excluded from school in September 1903, from 10,567 a year before"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The House on Henry Street",
+			"authors": [
+				{
+					"family": "Wald",
+					"given": "Lillian D."
+				}
+			],
+			"publisher": "Henry Holt and Company",
+			"place": "New York",
+			"published": "1915",
+			"url": "https://archive.org/details/househenrystreet00wald",
+			"accessed": "2026-10-01",
+			"note": "Ludlow Street, the founding and the nurses' rules, chapters 1–3"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Visiting Nursing in the United States",
+			"authors": [
+				{
+					"family": "Waters",
+					"given": "Yssabella G."
+				}
+			],
+			"publisher": "Charities Publication Committee",
+			"place": "New York",
+			"published": "1909",
+			"url": "https://archive.org/details/visitingnursingi00wate",
+			"accessed": "2026-10-01",
+			"note": "Fees, p. 18; the Henry Street service and its bag, pp. 29–35"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The School Nurse",
+			"authors": [
+				{
+					"family": "Struthers",
+					"given": "Lina Rogers"
+				}
+			],
+			"publisher": "G. P. Putnam's Sons",
+			"place": "New York",
+			"published": "1917",
+			"url": "https://archive.org/details/schoolnurseasur00strugoog",
+			"accessed": "2026-10-01",
+			"note": "The 1902 experiment, its treatments and supplies, pp. 16–28"
+		},
+		{
+			"kind": "book",
+			"title": "Public Health Nursing",
+			"authors": [
+				{
+					"family": "Gardner",
+					"given": "Mary Sewall"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "New York",
+			"published": "1916",
+			"url": "https://archive.org/details/publichealthnurs00gardrich",
+			"accessed": "2026-10-01",
+			"note": "The exclusions of September 1902 and 1903, p. 268"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lillian Wald",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lillian_Wald&oldid=1372827252",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Street Settlement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Street_Settlement&oldid=1377157694",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "VNS Health",
+			"url": "https://en.wikipedia.org/w/index.php?title=VNS_Health&oldid=1374197736",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Public health nursing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Public_health_nursing&oldid=1371688108",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "School nursing",
+			"url": "https://en.wikipedia.org/w/index.php?title=School_nursing&oldid=1369026365",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United States Children's Bureau",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Children's_Bureau&oldid=1372166016",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "media",
+			"title": "Bag opened, showing contents",
+			"container": "Waters, Visiting Nursing in the United States (1909), plate after p. 34",
+			"published": "1909",
+			"url": "https://archive.org/details/visitingnursingi00wate/page/n46/mode/1up",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"note": "Published in the United States in 1909",
+			"file": "nurses-bag.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/goldmark-report",
+			"why": "Lillian Wald sat on the committee whose study began with public health nursing."
+		}
+	]
+}

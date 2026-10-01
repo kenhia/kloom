@@ -1,0 +1,171 @@
+{
+	"id": "hospital-statistics",
+	"topic": "Nightingale's hospital statistics",
+	"position": {
+		"label": "1860",
+		"sort": 1860
+	},
+	"scene": {
+		"headline": "Every hospital on one",
+		"accent": "FORM.",
+		"palette": "ledger",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · KING'S COLLEGE · JULY 1860",
+			"THE INTERNATIONAL STATISTICAL CONGRESS · SANITARY SECTION"
+		],
+		"counter": {
+			"value": "7",
+			"label": "elements every hospital was to count each year"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Notes on Hospitals",
+			"edition": "3rd ed.",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "Longman, Green, Longman, Roberts, and Green",
+			"place": "London",
+			"published": "1863",
+			"url": "https://archive.org/details/cu31924012356485",
+			"accessed": "2026-10-01",
+			"note": "Section IX, \"Hospital Statistics\", pp. 159–66, with the Hospital General Statistical Form"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Report to the Statistical Society on the Proceedings of the Fourth Session of the International Statistical Congress, Held in London, July, 1860",
+			"authors": [
+				{
+					"family": "Hammack",
+					"given": "James T."
+				}
+			],
+			"container": "Journal of the Statistical Society of London",
+			"volume": "24",
+			"issue": "1",
+			"published": "1861-03",
+			"url": "https://www.jstor.org/stable/2338408",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "History of the Development of the ICD",
+			"authors": [
+				{
+					"name": "World Health Organization"
+				}
+			],
+			"publisher": "World Health Organization",
+			"place": "Geneva",
+			"url": "https://www.who.int/classifications/icd/en/HistoryOfICD.pdf",
+			"accessed": "2026-10-01",
+			"note": "Farr, the Congresses of 1853 and 1855, Nightingale's proposal of 1860, Bertillon and the revisions"
+		},
+		{
+			"kind": "article",
+			"title": "Florence Nightingale, William Farr and Competing Risks",
+			"authors": [
+				{
+					"family": "Beyersmann",
+					"given": "Jan"
+				},
+				{
+					"family": "Schrade",
+					"given": "Christine"
+				}
+			],
+			"container": "Journal of the Royal Statistical Society, Series A: Statistics in Society",
+			"volume": "180",
+			"issue": "1",
+			"pages": "285–93",
+			"published": "2017",
+			"doi": "10.1111/rssa.12187",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "report",
+			"title": "Sixth Report of the Medical Officer of the Privy Council, 1863",
+			"authors": [
+				{
+					"family": "Simon",
+					"given": "John"
+				}
+			],
+			"publisher": "Her Majesty's Stationery Office",
+			"place": "London",
+			"published": "1864",
+			"url": "https://archive.org/details/india.history.resource.109591",
+			"accessed": "2026-10-01",
+			"note": "How general death-rates were calculated, p. 40"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "International Classification of Diseases",
+			"url": "https://en.wikipedia.org/w/index.php?title=International_Classification_of_Diseases&oldid=1368059871",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jacques Bertillon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jacques_Bertillon&oldid=1376461503",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Florence Nightingale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Nightingale&oldid=1375983362",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "Hospital General Statistical Form",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"container": "Notes on Hospitals, 3rd ed. (London: Longman, Green, 1863); copy in Cornell University Library",
+			"published": "1863",
+			"url": "https://archive.org/details/cu31924012356485",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "statistical-form.jpg",
+			"note": "Published in London in 1863"
+		}
+	]
+}

@@ -34,7 +34,12 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   article can be right while its item is something else ("Duffy antigen
   system" is a blood group's article whose item, Q205042, is the ACKR1
   protein; sprint 028 met it). Such an item may be the only one Wikidata
-  has, as there; then keep it, and say so in the report. A
+  has, as there; then keep it, and say so in the report. Because the
+  item check reads Wikidata's few words, it also warns on a right item
+  described in other words ("Second Geneva Convention" is a treaty,
+  "Lucile Petry Leone" a nursing administrator): choose a WORD such a
+  short description would use, check one title at a time, and read the
+  item before acting on the warning (sprint 030, where six authors met it). A
   title with no article prints `missing`. Ids spell a Greek letter ("π" is
   `pi`) and a bare number in words (Wikipedia's "0" is `zero`), since
   sprint 027.
@@ -61,7 +66,9 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   mark lands on the first mention in prose, which may not be the one you
   meant. It warns when a mark would land before the reading's bold
   mention of the same words (a passing mention, a quotation, "Antimony"
-  for "antimony", "electron" when the bold one is "**electrons**"):
+  for "antimony", "electron" when the bold one is "**electrons**", and
+  an italic name, "_Staphylococcus aureus_", whose bold mention is
+  "**_Staphylococcus aureus_**", since sprint 030):
   reword the reading, or make the spec's words the bold ones. Matching is
   whole words and exact case. `--root DIR` marks a copy of the subjects
   instead of the live ones, such as the one `subject_plan.py --complete`
@@ -77,8 +84,10 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   `mark` takes several specs at once.
 - **Every name a spec marks must be known**: a file in the registry
   (`--names`, by default `names/`) or in a directory of drafts not yet
-  added (`--drafts DIR`, repeatable). Otherwise `mark` names it and exits
-  1, rather than placing a mark the gate would refuse (sprint 021). An
+  added (`--drafts DIR`, repeatable). Otherwise `mark` names it, exits
+  1, and leaves that frame unmarked, rather than placing a mark the gate
+  would refuse (sprint 021; until sprint 030 it named the name and placed
+  the frame's marks anyway). An
   author checks with `--check --drafts .scratch/names/<subject>-<segment>`.
   A draft whose id or Wikidata item the registry already holds is named
   in a warning: another author's name reached the registry meanwhile, so

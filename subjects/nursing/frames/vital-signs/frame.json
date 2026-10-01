@@ -1,0 +1,211 @@
+{
+	"id": "vital-signs",
+	"topic": "Temperature and the vital signs",
+	"position": {
+		"label": "1868",
+		"sort": 1868
+	},
+	"scene": {
+		"headline": "Fever became a",
+		"accent": "CURVE.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": ["LEIPZIG · CARL WUNDERLICH · 1868", "TEMPERATURE · PULSE · RESPIRATION"],
+		"counter": {
+			"value": "25,000",
+			"label": "patients behind Wunderlich's normal, by his count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "On the Temperature in Diseases: A Manual of Medical Thermometry",
+			"authors": [
+				{
+					"family": "Wunderlich",
+					"given": "C. A."
+				}
+			],
+			"translators": [
+				{
+					"family": "Woodman",
+					"given": "W. Bathurst"
+				}
+			],
+			"edition": "2nd ed.",
+			"publisher": "New Sydenham Society",
+			"place": "London",
+			"published": "1871",
+			"url": "https://archive.org/details/ontemperatureind00wunduoft",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "The normal temperature (§2), the 25,000 cases, and the ward round with thermometers (pp. 38, 69–78)"
+		},
+		{
+			"kind": "book",
+			"title": "Nursing: Its Principles and Practice for Hospital and Private Use",
+			"authors": [
+				{
+					"family": "Robb",
+					"given": "Isabel Hampton"
+				}
+			],
+			"edition": "3rd ed.",
+			"publisher": "E. C. Koeckert",
+			"place": "Cleveland",
+			"published": "1906",
+			"url": "https://archive.org/details/nursingitsprincie3robb",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Ch. 9, \"Temperature, Pulse, Respiration, Care of the Thermometer, Charting\" (pp. 171–190)"
+		},
+		{
+			"kind": "article",
+			"title": "A Critical Appraisal of 98.6°F, the Upper Limit of the Normal Body Temperature, and Other Legacies of Carl Reinhold August Wunderlich",
+			"authors": [
+				{
+					"family": "Mackowiak",
+					"given": "Philip A."
+				},
+				{
+					"family": "Wasserman",
+					"given": "Steven S."
+				},
+				{
+					"family": "Levine",
+					"given": "Myron M."
+				}
+			],
+			"container": "JAMA",
+			"volume": "268",
+			"issue": "12",
+			"pages": "1578–1580",
+			"published": "1992-09-23",
+			"doi": "10.1001/jama.1992.03490120092034",
+			"read": "abstract",
+			"accessed": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl Reinhold August Wunderlich",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_Reinhold_August_Wunderlich&oldid=1366686670",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Medical thermometer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Medical_thermometer&oldid=1376502018",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clifford Allbutt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clifford_Allbutt&oldid=1371982282",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isabel Hampton Robb",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isabel_Hampton_Robb&oldid=1359416655",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Human body temperature",
+			"url": "https://en.wikipedia.org/w/index.php?title=Human_body_temperature&oldid=1372404886",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sphygmomanometer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sphygmomanometer&oldid=1368890769",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vital signs",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vital_signs&oldid=1376560101",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "media",
+			"title": "Pneumonia chart, plate III",
+			"url": "https://archive.org/details/nursingitsprinci00robbrich/page/n197",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"note": "Published in the United States in 1906",
+			"file": "pneumonia-chart.jpg",
+			"authors": [
+				{
+					"family": "Robb",
+					"given": "Isabel Hampton"
+				}
+			],
+			"container": "Nursing: Its Principles and Practice for Hospital and Private Use, 3rd ed.",
+			"published": "1906"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/hales",
+			"why": "Hales first measured blood pressure, with a tube in a mare's artery; it became a bedside vital sign only with Riva-Rocci's cuff of 1896 and Korotkov's sounds of 1905."
+		}
+	]
+}

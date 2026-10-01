@@ -1,0 +1,24 @@
+{
+	"title": "Bacillus prodigiosus colonies on four agar plates after ten minutes' counting aloud, Hübener, 1898",
+	"description": "Bar chart, colonies counted on four agar plates 50 cm below the mouth after ten minutes of counting aloud in an ordinary voice, the mouth first rinsed with a suspension of Bacillus prodigiosus. Without a mask, 362; with the mask covered by one layer of gauze, 20; with two layers, 0. Data: Hübener, Zeitschrift für Hygiene und Infectionskrankheiten 28 (1898), table VII.",
+	"heading": "RED COLONIES ON FOUR PLATES · 10 MINUTES' SPEECH",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 72,
+	"axis": {
+		"max": 400,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"],
+			[400, "400"]
+		]
+	},
+	"bars": [
+		{ "label": "No mask", "value": 362, "display": "362" },
+		{ "label": "One layer", "value": 20, "display": "20" },
+		{ "label": "Two layers", "value": 0, "display": "0", "highlight": true }
+	]
+}

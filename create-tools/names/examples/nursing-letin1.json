@@ -1,0 +1,34 @@
+{
+	"nursing/mary-mahoney": [
+		["New England Hospital for Women and Children", "new-england-hospital-for-women-and-children"],
+		["Mary Eliza Mahoney", "mary-eliza-mahoney"],
+		["American Nurses Association", "american-nurses-association"],
+		[
+			"National Association of Colored Graduate Nurses",
+			"national-association-of-colored-graduate-nurses"
+		]
+	],
+	"nursing/mills-school": [
+		["Bellevue Hospital", "bellevue-hospital"],
+		["Darius Ogden Mills", "darius-ogden-mills"],
+		["Abraham Jacobi", "abraham-jacobi"],
+		["Hospitallers", "knights-hospitaller"],
+		["Alexians", "alexians"],
+		["Brothers Hospitallers of Saint John of God", "brothers-hospitallers-of-saint-john-of-god"],
+		["men in nursing", "men-in-nursing"],
+		["word2vec", "word2vec"]
+	],
+	"nursing/nacgn": [
+		["Martha Minerva Franklin", "martha-minerva-franklin"],
+		[
+			"National Association of Colored Graduate Nurses",
+			"national-association-of-colored-graduate-nurses"
+		],
+		["American Nurses Association", "american-nurses-association"],
+		["Adah Belle Thoms", "adah-belle-thoms"],
+		["United States Army Nurse Corps", "united-states-army-nurse-corps"],
+		["American Red Cross", "american-red-cross"],
+		["Aileen Cole Stewart", "aileen-cole-stewart"],
+		["Mabel K. Staupers", "mabel-k-staupers"]
+	]
+}

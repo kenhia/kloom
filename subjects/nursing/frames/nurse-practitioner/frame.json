@@ -1,0 +1,298 @@
+{
+	"id": "nurse-practitioner",
+	"topic": "The nurse practitioner",
+	"asOf": "2026-10-01",
+	"position": {
+		"label": "1965",
+		"sort": 1965
+	},
+	"scene": {
+		"headline": "We learned to",
+		"accent": "DIAGNOSE.",
+		"palette": "nightshift",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DENVER · UNIVERSITY OF COLORADO · LORETTA FORD · HENRY SILVER",
+			"PEDIATRIC NURSE PRACTITIONER · 4 + 20 MONTHS"
+		],
+		"counter": {
+			"value": "461,000",
+			"label": "nurse practitioners in the US, by their association's 2025 count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Program to Increase Health Care for Children: The Pediatric Nurse Practitioner Program",
+			"authors": [
+				{
+					"family": "Silver",
+					"given": "Henry K."
+				},
+				{
+					"family": "Ford",
+					"given": "Loretta C."
+				},
+				{
+					"family": "Stearly",
+					"given": "Susan G."
+				}
+			],
+			"container": "Pediatrics",
+			"volume": "39",
+			"issue": "5",
+			"pages": "756–760",
+			"published": "1967-05",
+			"doi": "10.1542/peds.39.5.756",
+			"read": "abstract",
+			"accessed": "2026-10-01",
+			"note": "What the pediatric nurse practitioner would do"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Program to Increase Health Care for Children: The Pediatric Nurse Practitioner Program, by Henry K. Silver, MD, Loretta C. Ford, EdD, and Susan G. Stearly, MS, Pediatrics, 1967;39:756–760",
+			"authors": [
+				{
+					"family": "Hoekelman",
+					"given": "Robert A."
+				}
+			],
+			"container": "Pediatrics",
+			"volume": "102",
+			"issue": "Supplement 1",
+			"pages": "245–247",
+			"published": "1998-07",
+			"doi": "10.1542/peds.102.S1.245",
+			"accessed": "2026-10-01",
+			"note": "The course's length, its first student, and the advanced roles before it"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Nurse Practitioners, Physician Assistants, and Certified Nurse-Midwives: A Policy Analysis",
+			"authors": [
+				{
+					"name": "U.S. Congress, Office of Technology Assessment"
+				}
+			],
+			"number": "OTA-HCS-37 (Health Technology Case Study 37)",
+			"publisher": "U.S. Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1986-12",
+			"url": "https://www.princeton.edu/~ota/disk2/1986/8615/8615.PDF",
+			"accessed": "2026-10-01",
+			"note": "Chapter 2, the quality of nurse practitioners' care"
+		},
+		{
+			"kind": "article",
+			"title": "The Burlington Randomized Trial of the Nurse Practitioner",
+			"authors": [
+				{
+					"family": "Spitzer",
+					"given": "Walter O."
+				},
+				{
+					"family": "Sackett",
+					"given": "David L."
+				},
+				{
+					"family": "Sibley",
+					"given": "J. C."
+				},
+				{
+					"family": "Roberts",
+					"given": "R. S."
+				},
+				{
+					"family": "Gent",
+					"given": "M."
+				},
+				{
+					"family": "Kergin",
+					"given": "D. J."
+				},
+				{
+					"family": "Hackett",
+					"given": "B. C."
+				}
+			],
+			"etAl": true,
+			"container": "New England Journal of Medicine",
+			"volume": "290",
+			"issue": "5",
+			"pages": "251–256",
+			"published": "1974-01-31",
+			"doi": "10.1056/NEJM197401312900506",
+			"accessed": "2026-10-01",
+			"citedIn": "Nurse Practitioners, Physician Assistants, and Certified Nurse-Midwives: A Policy Analysis"
+		},
+		{
+			"kind": "article",
+			"title": "The Burlington Randomized Trial of the Nurse Practitioner: Health Outcomes of Patients",
+			"authors": [
+				{
+					"family": "Sackett",
+					"given": "David L."
+				},
+				{
+					"family": "Spitzer",
+					"given": "Walter O."
+				},
+				{
+					"family": "Gent",
+					"given": "M."
+				},
+				{
+					"family": "Roberts",
+					"given": "R. S."
+				}
+			],
+			"container": "Annals of Internal Medicine",
+			"volume": "80",
+			"issue": "2",
+			"pages": "137–142",
+			"published": "1974-02",
+			"doi": "10.7326/0003-4819-80-2-137",
+			"accessed": "2026-10-01",
+			"citedIn": "Nurse Practitioners, Physician Assistants, and Certified Nurse-Midwives: A Policy Analysis"
+		},
+		{
+			"kind": "article",
+			"title": "Comparison of the Physical Assessment of Children by Pediatric Nurse Practitioners and Pediatricians",
+			"authors": [
+				{
+					"family": "Duncan",
+					"given": "B."
+				},
+				{
+					"family": "Smith",
+					"given": "A. N."
+				},
+				{
+					"family": "Silver",
+					"given": "Henry K."
+				}
+			],
+			"container": "American Journal of Public Health",
+			"volume": "60",
+			"issue": "6",
+			"pages": "1170–1176",
+			"citedIn": "Nurse Practitioners, Physician Assistants, and Certified Nurse-Midwives: A Policy Analysis"
+		},
+		{
+			"kind": "article",
+			"title": "AMA Resolves to Fight Expanding Practices of Nurses",
+			"authors": [
+				{
+					"name": "Legislative Network for Nurses"
+				}
+			],
+			"container": "Legislative Network for Nurses",
+			"volume": "2",
+			"issue": "17",
+			"pages": "1",
+			"published": "1985-08-22",
+			"citedIn": "Nurse Practitioners, Physician Assistants, and Certified Nurse-Midwives: A Policy Analysis"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Historical Timeline",
+			"authors": [
+				{
+					"name": "American Association of Nurse Practitioners"
+				}
+			],
+			"publisher": "American Association of Nurse Practitioners",
+			"url": "https://www.aanp.org/about/about-the-american-association-of-nurse-practitioners-aanp/historical-timeline",
+			"accessed": "2026-10-01",
+			"note": "The counts of nurse practitioners, 1979–2025"
+		},
+		{
+			"kind": "web",
+			"title": "State Practice Environment",
+			"authors": [
+				{
+					"name": "American Association of Nurse Practitioners"
+				}
+			],
+			"publisher": "American Association of Nurse Practitioners",
+			"url": "https://www.aanp.org/advocacy/state/state-practice-environment",
+			"published": "2026-05",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Loretta Ford",
+			"url": "https://en.wikipedia.org/w/index.php?title=Loretta_Ford&oldid=1366940044",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nurse practitioner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nurse_practitioner&oldid=1373465573",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frontier Nursing Service",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frontier_Nursing_Service&oldid=1373293765",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hildegard Peplau",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hildegard_Peplau&oldid=1362062190",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-01"
+		},
+		{
+			"kind": "media",
+			"title": "Nurse practitioners in the United States, 1979–2025",
+			"url": "https://www.aanp.org/about/about-the-american-association-of-nurse-practitioners-aanp/historical-timeline",
+			"container": "Chart drawn for kloom from the American Association of Nurse Practitioners' historical timeline",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "np-count.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/nurse-anesthetist",
+			"why": "The nurse anesthetist is the oldest of the advanced practice roles the nurse practitioner joined."
+		}
+	]
+}

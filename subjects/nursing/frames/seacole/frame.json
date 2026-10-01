@@ -1,0 +1,127 @@
+{
+	"id": "seacole",
+	"topic": "Mary Seacole",
+	"position": {
+		"label": "1855",
+		"sort": 1855
+	},
+	"scene": {
+		"headline": "The soldiers called her",
+		"accent": "MOTHER.",
+		"palette": "ledger",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KINGSTON · CRUCES · BALACLAVA · MARY SEACOLE",
+			"THE BRITISH HOTEL, SPRING HILL · 1855"
+		],
+		"counter": {
+			"value": "£800",
+			"label": "the cost of the British Hotel, by Wikipedia's account"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Wonderful Adventures of Mrs. Seacole in Many Lands",
+			"authors": [
+				{
+					"family": "Seacole",
+					"given": "Mary"
+				}
+			],
+			"editors": [
+				{
+					"name": "W. J. S."
+				}
+			],
+			"publisher": "James Blackwood",
+			"place": "London",
+			"published": "1857",
+			"url": "https://www.gutenberg.org/ebooks/23031",
+			"accessed": "2026-10-01",
+			"note": "Her own telling: cholera at Cruces (chapters II–IV), the refusals (VIII), Scutari (IX), the sick wharf and the British Hotel (X–XIII); W. H. Russell's preface"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Mary Seacole",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mary_Seacole&oldid=1376191215",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22",
+			"note": "The hotel, Russell's dispatch, Nightingale's letter to Verney, the statue and the dispute"
+		},
+		{
+			"kind": "article",
+			"title": "Wonderful Adventures: How Did Mary Seacole Come to Be Viewed as a Pioneer of Modern Nursing?",
+			"authors": [
+				{
+					"family": "McDonald",
+					"given": "Lynn"
+				}
+			],
+			"container": "The Times Literary Supplement",
+			"published": "2013-12-06",
+			"citedIn": "Mary Seacole",
+			"pages": "14–15"
+		},
+		{
+			"kind": "book",
+			"title": "Mary Seacole: The Charismatic Black Nurse Who Became a Heroine of the Crimea",
+			"authors": [
+				{
+					"family": "Robinson",
+					"given": "Jane"
+				}
+			],
+			"publisher": "Constable",
+			"place": "London",
+			"published": "2004",
+			"citedIn": "Mary Seacole"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Florence Nightingale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Nightingale&oldid=1375983362",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "Mary Jane Seacole, née Grant",
+			"url": "https://commons.wikimedia.org/wiki/File:Seacole_-_Challen.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "challen.jpg",
+			"authors": [
+				{
+					"family": "Challen",
+					"given": "Albert Charles"
+				}
+			],
+			"container": "National Portrait Gallery, London, NPG 6856",
+			"published": "1869",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/scutari",
+			"why": "Seacole spent a night at the Barrack Hospital at Scutari early in 1855, on her way to the front."
+		}
+	]
+}

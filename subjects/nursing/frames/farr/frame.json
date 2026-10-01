@@ -1,0 +1,189 @@
+{
+	"id": "farr",
+	"topic": "Farr, Nightingale and the Commission",
+	"position": {
+		"label": "1857",
+		"sort": 1857
+	},
+	"scene": {
+		"headline": "As if they were",
+		"accent": "SHOT.",
+		"palette": "ledger",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · GENERAL REGISTER OFFICE · THE ROYAL COMMISSION",
+			"WILLIAM FARR · FLORENCE NIGHTINGALE · SIDNEY HERBERT"
+		],
+		"counter": {
+			"value": "17.5",
+			"label": "deaths a year per 1,000 soldiers at home, against 9.2 for men of their ages"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/scheutz-engine",
+			"why": "William Farr, who worked out the army's death rates against civilians' for Nightingale and the Royal Commission, had the General Register Office order a Scheutz difference engine in 1857 to compute and print the English Life Table."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Notes on Hospitals: Being Two Papers Read before the National Association for the Promotion of Social Science, at Liverpool, in October, 1858, with Evidence Given to the Royal Commissioners on the State of the Army in 1857",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "John W. Parker",
+			"place": "London",
+			"published": "1859",
+			"url": "https://archive.org/details/notesonhospitals00nigh",
+			"accessed": "2026-10-01",
+			"note": "Her evidence, with the tables \"supplied by Dr. Farr\", p. 36"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Commissioners Appointed to Inquire into the Regulations Affecting the Sanitary Condition of the Army, the Organization of Military Hospitals, and the Treatment of the Sick and Wounded; with Evidence and Appendix",
+			"publisher": "Her Majesty's Stationery Office",
+			"place": "London",
+			"published": "1858",
+			"url": "https://archive.org/details/b2130869x",
+			"accessed": "2026-10-01",
+			"note": "The warrant of 5 May 1857; rates of mortality, pp. vi–viii; the recommendations and conclusion, pp. lxxx–lxxxii"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Notes on Matters Affecting the Health, Efficiency, and Hospital Administration of the British Army, Founded Chiefly on the Experience of the Late War",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "Harrison and Sons",
+			"place": "London",
+			"published": "1858",
+			"url": "https://archive.org/details/b20387118",
+			"accessed": "2026-10-01",
+			"note": "The 1,100 \"doomed to death\", p. 249; Salisbury Plain, p. 504"
+		},
+		{
+			"kind": "article",
+			"title": "Proceedings of the Statistical Society, Session 1858–59",
+			"container": "Journal of the Statistical Society of London",
+			"volume": "22",
+			"issue": "4",
+			"pages": "518–19",
+			"published": "1859-12",
+			"url": "https://www.jstor.org/stable/2338631",
+			"accessed": "2026-10-01",
+			"note": "Her election as a Fellow on 21 December 1858"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "William Farr",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Farr&oldid=1353191664",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Florence Nightingale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Nightingale&oldid=1375983362",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Royal Statistical Society",
+			"url": "https://en.wikipedia.org/w/index.php?title=Royal_Statistical_Society&oldid=1355229520",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Sutherland (physician)",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Sutherland_(physician)&oldid=1348660269",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Graham Balfour",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Graham_Balfour&oldid=1351158454",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fort Pitt, Kent",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fort_Pitt,_Kent&oldid=1348236531",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-11"
+		},
+		{
+			"kind": "media",
+			"title": "Evidence given before the Royal Commission, page 36: rates of mortality of the army at home and of the English male population",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"container": "Notes on Hospitals (London: John W. Parker, 1859); copy in the Harold B. Lee Library, Brigham Young University",
+			"published": "1859",
+			"url": "https://archive.org/details/notesonhospitals00nigh/page/36",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "farr-tables.jpg",
+			"note": "Published in London in 1859; the author died in 1910"
+		}
+	]
+}

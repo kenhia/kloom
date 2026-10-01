@@ -1,0 +1,22 @@
+{
+	"nursing/surgical-count": [
+		["gossypiboma", "gossypiboma"],
+		["Letterman General Hospital", "letterman-army-hospital"],
+		["Navy Nurse Corps", "united-states-navy-nurse-corps"],
+		["Winnie Gibson", "winnie-gibson"],
+		[
+			"Association of periOperative Registered Nurses",
+			"association-of-perioperative-registered-nurses"
+		],
+		["Atul Gawande", "atul-gawande"],
+		["Walter Reed General Hospital", "walter-reed-army-medical-center"],
+		["radio-frequency identification", "radio-frequency-identification"]
+	],
+	"nursing/surgical-checklist": [
+		["World Health Organization", "world-health-organization"],
+		["WHO Surgical Safety Checklist", "who-surgical-safety-checklist"],
+		["Atul Gawande", "atul-gawande"],
+		["Joint Commission", "joint-commission"],
+		["Hawthorne effect", "hawthorne-effect"]
+	]
+}

@@ -1,0 +1,210 @@
+{
+	"id": "rose-diagram",
+	"topic": "Nightingale's rose diagram",
+	"position": {
+		"label": "1858",
+		"sort": 1858
+	},
+	"scene": {
+		"headline": "We drew the dead as",
+		"accent": "WEDGES.",
+		"palette": "lamplight",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · FLORENCE NIGHTINGALE · WILLIAM FARR",
+			"THE ARMY IN THE EAST · APRIL 1854 TO MARCH 1856 · TWO WHEELS"
+		],
+		"counter": {
+			"value": "1,174",
+			"label": "deaths a year per 1,000 men, at January 1855's rate"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/normal-distribution",
+			"why": "Few books impressed Nightingale more than Adolphe Quetelet's social statistics, the work that carried the law of error from the sky to people."
+		},
+		{
+			"to": "nursing/farr",
+			"why": "William Farr worked through the army's figures with Nightingale, and his classification of causes gave the diagram its zymotic wedges."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Mortality of the British Army, at Home, at Home and Abroad, and during the Russian War, as Compared with the Mortality of the Civil Population in England",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "Harrison and Sons",
+			"place": "London",
+			"published": "1858",
+			"url": "https://archive.org/details/mortalityofbriti00lond",
+			"accessed": "2026-10-01",
+			"note": "Printed without her name; Table K, fig. 1 (p. 18), the monthly deaths and rates, and Diagram K, the first version"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Notes on Matters Affecting the Health, Efficiency, and Hospital Administration of the British Army, Founded Chiefly on the Experience of the Late War",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "Harrison and Sons",
+			"place": "London",
+			"published": "1858",
+			"url": "https://archive.org/details/b20387118",
+			"accessed": "2026-10-01",
+			"note": "The diagram, and January 1855's rate set against the Great Plague (p. 320)"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Florence Nightingale's Statistical Diagrams",
+			"authors": [
+				{
+					"family": "Small",
+					"given": "Hugh"
+				}
+			],
+			"container": "Stats & Lamps Research Conference, Florence Nightingale Museum",
+			"publisher": "University of York, Department of Mathematics",
+			"published": "1998-03-18",
+			"url": "https://www.york.ac.uk/depts/maths/histstat/small.htm",
+			"accessed": "2026-10-01",
+			"note": "The bat's wing, its erratum, the wedges, and what she meant by \"coxcomb\""
+		},
+		{
+			"kind": "web",
+			"title": "How Florence Nightingale's Diagram Saved Millions of People from Fatal Epidemic Disease",
+			"authors": [
+				{
+					"family": "Small",
+					"given": "Hugh"
+				}
+			],
+			"container": "Florence Nightingale Avenging Angel",
+			"published": "2010-10-07",
+			"url": "https://www.florence-nightingale-avenging-angel.co.uk/blog/florence-nightingale-statistical-diagram/",
+			"accessed": "2026-10-01",
+			"note": "A paper to the Royal Statistical Society: the square root, and John Simon"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Golden Age of Statistical Graphics",
+			"authors": [
+				{
+					"family": "Friendly",
+					"given": "Michael"
+				}
+			],
+			"container": "Statistical Science",
+			"volume": "23",
+			"issue": "4",
+			"pages": "502–535",
+			"published": "2008",
+			"doi": "10.1214/08-STS268",
+			"url": "https://arxiv.org/abs/0906.3979",
+			"accessed": "2026-10-01",
+			"note": "Polar-area diagrams before Nightingale, and her use of them to persuade"
+		},
+		{
+			"kind": "book",
+			"title": "The Life of Florence Nightingale, vol. 1",
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Edward"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "London",
+			"published": "1913",
+			"url": "https://www.gutenberg.org/ebooks/40057",
+			"accessed": "2026-10-01",
+			"note": "Quetelet and Farr, in part VI"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pie chart",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pie_chart&oldid=1377248660",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zymotic disease",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zymotic_disease&oldid=1371055252",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Florence Nightingale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Nightingale&oldid=1375983362",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "Diagram of the Causes of Mortality in the Army in the East",
+			"url": "https://commons.wikimedia.org/wiki/File:Nightingale-mortality.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "rose.jpg",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"container": "Notes on Matters Affecting the Health, Efficiency, and Hospital Administration of the British Army; David Rumsey Map Collection",
+			"published": "1858"
+		},
+		{
+			"kind": "media",
+			"title": "Diagrams Representing the Relative Mortality from Zymotic Diseases (Blue), from Wounds &c (Red), and from All Other Causes (Black)",
+			"url": "https://commons.wikimedia.org/wiki/File:Diagrams_Representing_the_Relative_Mortality_from_Zymotic_Diseases_(Blue),_from_Wounds_%26c_(red),_and_from_all_other_Causes_(IA_dr_diagrams-representing-the-relative-mortality-from-zymotic-diseases-blue-10564004).jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "batwing.jpg",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"container": "Mortality of the British Army, Diagram K; David Rumsey Map Collection",
+			"published": "1858"
+		}
+	]
+}

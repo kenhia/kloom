@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="t d">
+<title id="t">Nurse practitioners in the United States, 1979 to 2025</title>
+<desc id="d">Bar chart of the number of nurse practitioners in the United States from the American Association of Nurse Practitioners' historical timeline: about 15,000 in 1979, 22,000 to 24,000 in 1983 (drawn at 23,000), about 68,300 in 1999, 106,000 in 2004, 130,000 in 2009, more than 192,000 in 2014, 270,000 in 2019, 355,000 in 2022 and 461,000 in 2025.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="540" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="540" y1="207.2" y2="207.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="211.2" text-anchor="end">100</text>
+<line x1="64" x2="540" y1="164.4" y2="164.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="168.4" text-anchor="end">200</text>
+<line x1="64" x2="540" y1="121.6" y2="121.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="125.6" text-anchor="end">300</text>
+<line x1="64" x2="540" y1="78.8" y2="78.8" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="82.8" text-anchor="end">400</text>
+<line x1="64" x2="540" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">500</text>
+</g>
+<rect x="68.4" y="243.6" width="44" height="6.4" fill-opacity="0.85"/>
+<text x="90.4" y="237.6" text-anchor="middle">15</text>
+<text x="90.4" y="266" text-anchor="middle">1979</text>
+<rect x="121.3" y="240.2" width="44" height="9.8" fill-opacity="0.85"/>
+<text x="143.3" y="234.2" text-anchor="middle">~23</text>
+<text x="143.3" y="266" text-anchor="middle">1983</text>
+<rect x="174.2" y="220.8" width="44" height="29.2" fill-opacity="0.85"/>
+<text x="196.2" y="214.8" text-anchor="middle">68</text>
+<text x="196.2" y="266" text-anchor="middle">1999</text>
+<rect x="227.1" y="204.6" width="44" height="45.4" fill-opacity="0.85"/>
+<text x="249.1" y="198.6" text-anchor="middle">106</text>
+<text x="249.1" y="266" text-anchor="middle">2004</text>
+<rect x="280.0" y="194.4" width="44" height="55.6" fill-opacity="0.85"/>
+<text x="302.0" y="188.4" text-anchor="middle">130</text>
+<text x="302.0" y="266" text-anchor="middle">2009</text>
+<rect x="332.9" y="167.8" width="44" height="82.2" fill-opacity="0.85"/>
+<text x="354.9" y="161.8" text-anchor="middle">192</text>
+<text x="354.9" y="266" text-anchor="middle">2014</text>
+<rect x="385.8" y="134.4" width="44" height="115.6" fill-opacity="0.85"/>
+<text x="407.8" y="128.4" text-anchor="middle">270</text>
+<text x="407.8" y="266" text-anchor="middle">2019</text>
+<rect x="438.7" y="98.1" width="44" height="151.9" fill-opacity="0.85"/>
+<text x="460.7" y="92.1" text-anchor="middle">355</text>
+<text x="460.7" y="266" text-anchor="middle">2022</text>
+<rect x="491.6" y="52.7" width="44" height="197.3" class="accent" fill="currentColor"/>
+<text x="513.6" y="46.7" text-anchor="middle">461</text>
+<text x="513.6" y="266" text-anchor="middle">2025</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">NURSE PRACTITIONERS IN THE US (THOUSANDS)</text>
+</g></svg>

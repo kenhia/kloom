@@ -1,0 +1,29 @@
+{
+	"title": "Black nurses in the US Army Nurse Corps during the Second World War",
+	"description": "Bar chart, nurses. The first quota, in 1940, was 56; the ceiling in 1943 was 160; 247 Black nurses were serving at the end of 1944, and 479 in September 1945, after the quota ended, in a corps of about 50,000. Data: Hine, as reported by JSTOR Daily (56 and 247), and Bellafaire, The Army Nurse Corps, US Army Center of Military History (160 and 479).",
+	"heading": "BLACK NURSES IN THE ARMY NURSE CORPS",
+	"unit": "",
+	"axis": {
+		"max": 600,
+		"ticks": [
+			[0, "0"],
+			[200, "200"],
+			[400, "400"],
+			[600, "600"]
+		]
+	},
+	"bars": [
+		{ "label": "Quota", "sublabel": "1940", "value": 56, "display": "56" },
+		{ "label": "Ceiling", "sublabel": "1943", "value": 160, "display": "160" },
+		{ "label": "Serving", "sublabel": "end 1944", "value": 247, "display": "247" },
+		{
+			"label": "Serving",
+			"sublabel": "Sept. 1945",
+			"value": 479,
+			"display": "479",
+			"highlight": true
+		}
+	],
+	"barWidth": 56,
+	"width": 480
+}

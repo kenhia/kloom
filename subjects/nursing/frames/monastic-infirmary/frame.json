@@ -1,0 +1,104 @@
+{
+	"id": "monastic-infirmary",
+	"topic": "The monastic infirmary",
+	"position": {
+		"label": "c. 530–830",
+		"sort": 530
+	},
+	"scene": {
+		"headline": "We put the sick",
+		"accent": "FIRST.",
+		"palette": "linen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MONTE CASSINO · REICHENAU · SAINT GALL",
+			"THE RULE, CHAPTER 36 · THE PLAN OF SAINT GALL"
+		],
+		"counter": {
+			"value": "16",
+			"label": "beds in the physicians' herb garden"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "St. Benedict's Rule for Monasteries",
+			"authors": [
+				{
+					"name": "Benedict of Nursia"
+				}
+			],
+			"translators": [
+				{
+					"family": "Doyle",
+					"given": "Leonard J."
+				}
+			],
+			"publisher": "The Liturgical Press",
+			"place": "Collegeville, MN",
+			"published": "1948",
+			"url": "https://www.gutenberg.org/ebooks/50040",
+			"accessed": "2026-10-01",
+			"note": "Chapter 36, \"On the Sick Brethren\", and the calendar for reading it"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Plan of Saint Gall (St. Gallen, Stiftsbibliothek, Cod. Sang. 1092)",
+			"publisher": "e-codices, Virtual Manuscript Library of Switzerland",
+			"published": "825",
+			"circa": true,
+			"url": "https://www.e-codices.unifr.ch/en/list/one/csg/1092",
+			"accessed": "2026-10-01",
+			"note": "The infirmary's, physicians' house's and herb garden's inscriptions, read from the manuscript"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plan of Saint Gall",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plan_of_Saint_Gall&oldid=1351452224",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rule of Saint Benedict",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rule_of_Saint_Benedict&oldid=1367647190",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "media",
+			"title": "Codex Sangallensis 1092 recto",
+			"url": "https://commons.wikimedia.org/wiki/File:Codex_Sangallensis_1092_recto.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "st-gall-infirmary.jpg",
+			"container": "St. Gallen, Stiftsbibliothek, Cod. Sang. 1092",
+			"published": "825",
+			"circa": true,
+			"note": "The infirmary and the physicians' house, cropped and turned so the script reads upright"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/scriptorium",
+			"why": "The Rule of Saint Benedict that set the monks' hours of reading, which the scriptorium's books served, also set the care of the sick \"before all things and above all things\"."
+		}
+	]
+}

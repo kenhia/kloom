@@ -1,0 +1,29 @@
+{
+	"title": "What raised the risk of a retained sponge or instrument",
+	"description": "Bar chart of risk ratios from Gawande and colleagues' case-control study of 54 patients with retained sponges or instruments in Massachusetts, 1985 to 2001: an emergency operation 8.8, an unplanned change in the operation 4.1, and each one-unit increase in body-mass index 1.1.",
+	"heading": "RISK RATIO FOR A RETAINED ITEM · GAWANDE 2003",
+	"unit": "×",
+	"width": 480,
+	"height": 300,
+	"barWidth": 72,
+	"axis": {
+		"max": 10,
+		"ticks": [
+			[0, "0"],
+			[1, "1"],
+			[5, "5"],
+			[10, "10"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Emergency",
+			"sublabel": "operation",
+			"value": 8.8,
+			"display": "8.8×",
+			"highlight": true
+		},
+		{ "label": "Unplanned", "sublabel": "change", "value": 4.1, "display": "4.1×" },
+		{ "label": "BMI", "sublabel": "per unit", "value": 1.1, "display": "1.1×" }
+	]
+}

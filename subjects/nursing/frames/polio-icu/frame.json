@@ -1,0 +1,244 @@
+{
+	"id": "polio-icu",
+	"topic": "Copenhagen's polio ward",
+	"position": {
+		"label": "1952",
+		"sort": 1952
+	},
+	"scene": {
+		"headline": "We squeezed the",
+		"accent": "BAG.",
+		"palette": "chart",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COPENHAGEN · BLEGDAM HOSPITAL · LASSEN · IBSEN",
+			"TRACHEOTOMY · CUFFED TUBE · SODA LIME · HAND VENTILATION"
+		],
+		"counter": {
+			"value": "87% → 40%",
+			"label": "bulbar patients who died, before and after the bag"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Poliomyelitis in Copenhagen, 1952",
+			"authors": [
+				{
+					"family": "Lassen",
+					"given": "H. C. A."
+				}
+			],
+			"container": "Glasgow Medical Journal",
+			"volume": "35",
+			"issue": "3",
+			"pages": "59–63",
+			"published": "1954-03",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5973728/",
+			"accessed": "2026-10-01",
+			"note": "The hospital, its respirators, the staff, and Table I of deaths by period of admission"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Anaesthetist's Viewpoint on the Treatment of Respiratory Complications in Poliomyelitis during the Epidemic in Copenhagen, 1952",
+			"authors": [
+				{
+					"family": "Ibsen",
+					"given": "Bjørn"
+				}
+			],
+			"container": "Proceedings of the Royal Society of Medicine",
+			"volume": "47",
+			"issue": "1",
+			"pages": "72–74",
+			"published": "1954-01",
+			"doi": "10.1177/003591575404700120",
+			"accessed": "2026-10-01",
+			"note": "25 August, the first patient, and the principles of treatment"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Anaesthetic Management of Patients with Poliomyelitis and Respiratory Paralysis",
+			"authors": [
+				{
+					"family": "Andersen",
+					"given": "Erik Waino"
+				},
+				{
+					"family": "Ibsen",
+					"given": "Bjørn"
+				}
+			],
+			"container": "British Medical Journal",
+			"volume": "1",
+			"issue": "4865",
+			"pages": "786–788",
+			"published": "1954-04-03",
+			"doi": "10.1136/bmj.1.4865.786",
+			"accessed": "2026-10-01",
+			"note": "The rates, flows and suction, and the staff on one day"
+		},
+		{
+			"kind": "article",
+			"title": "The Physiological Challenges of the 1952 Copenhagen Poliomyelitis Epidemic and a Renaissance in Clinical Respiratory Physiology",
+			"authors": [
+				{
+					"family": "West",
+					"given": "John B."
+				}
+			],
+			"container": "Journal of Applied Physiology",
+			"volume": "99",
+			"issue": "2",
+			"pages": "424–432",
+			"published": "2005-08",
+			"doi": "10.1152/japplphysiol.00184.2005",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "An Apparatus for the Prolonged Administration of Artificial Respiration: I. A Design for Adults and Children",
+			"authors": [
+				{
+					"family": "Drinker",
+					"given": "Philip"
+				},
+				{
+					"family": "Shaw",
+					"given": "Louis A."
+				}
+			],
+			"container": "Journal of Clinical Investigation",
+			"volume": "7",
+			"issue": "2",
+			"pages": "229–247",
+			"published": "1929",
+			"doi": "10.1172/jci100226",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "report",
+			"title": "Der dänische Anästhesist Björn Ibsen: ein Pionier der Langzeitbeatmung über die oberen Luftwege",
+			"authors": [
+				{
+					"family": "Reisner-Sénélar",
+					"given": "Louise"
+				}
+			],
+			"publisher": "Johann Wolfgang Goethe-Universität",
+			"place": "Frankfurt am Main",
+			"published": "2009",
+			"language": "de",
+			"url": "http://deposit.d-nb.de/cgi-bin/dokserv?idn=999147323&dok_var=d1&dok_ext=pdf&filename=999147323.pdf",
+			"accessed": "2026-10-01",
+			"note": "Doctoral thesis: Vivi Ebert's record, and an interview with Ibsen in 2006"
+		},
+		{
+			"kind": "article",
+			"title": "The First Intensive Care Unit in the World: Copenhagen 1953",
+			"authors": [
+				{
+					"family": "Berthelsen",
+					"given": "P. G."
+				},
+				{
+					"family": "Cronqvist",
+					"given": "M."
+				}
+			],
+			"container": "Acta Anaesthesiologica Scandinavica",
+			"volume": "47",
+			"issue": "10",
+			"pages": "1190–1195",
+			"published": "2003-11",
+			"doi": "10.1046/j.1399-6576.2003.00256.x",
+			"read": "abstract",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "Bjørn Ibsen: What Made Intensive Care So Critical?",
+			"authors": [
+				{
+					"family": "Ángeles-Sistac",
+					"given": "Diego"
+				},
+				{
+					"family": "Morán-Chorro",
+					"given": "Indalecio"
+				},
+				{
+					"family": "Morales-Quinteros",
+					"given": "Luis"
+				}
+			],
+			"container": "Cureus",
+			"pages": "e67281",
+			"published": "2024-08-20",
+			"doi": "10.7759/cureus.67281",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bjørn Aage Ibsen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bj%C3%B8rn_Aage_Ibsen&oldid=1371976165",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Iron lung",
+			"url": "https://en.wikipedia.org/w/index.php?title=Iron_lung&oldid=1376998003",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Vue over Blegdamshospitalet, 1904",
+			"url": "https://commons.wikimedia.org/wiki/File:Vue_over_Blegdamshospitalet,_1904.jpg",
+			"accessed": "2026-10-01",
+			"licence": "CC BY 4.0",
+			"file": "blegdam-1904.jpg",
+			"authors": [
+				{
+					"family": "Elfelt",
+					"given": "Peter"
+				}
+			],
+			"container": "Royal Danish Library (Det Kgl. Bibliotek)",
+			"published": "1904"
+		},
+		{
+			"kind": "media",
+			"title": "Deaths among Copenhagen's bulbar and respiratory polio patients, 1952",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5973728/",
+			"container": "Chart drawn for kloom from Lassen, \"Poliomyelitis in Copenhagen, 1952\", Table I",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "mortality.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/vital-signs",
+			"why": "Blegdam's nurses and students recorded the blood pressure, pulse and breathing of every ventilated patient, around the clock."
+		}
+	]
+}

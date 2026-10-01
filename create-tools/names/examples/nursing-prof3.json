@@ -1,0 +1,44 @@
+{
+	"nursing/ward-5b": [
+		["AIDS", "hiv-aids"],
+		["San Francisco General Hospital", "san-francisco-general-hospital"],
+		["Shanti Project", "shanti-project"],
+		["hepatitis B", "hepatitis-b"],
+		["needlesticks", "needlestick-injury"],
+		["Centers for Disease Control", "centers-for-disease-control-and-prevention"],
+		["universal precautions", "universal-precautions"],
+		["_5B_", "5b-film"]
+	],
+	"nursing/magnet": [
+		["American Academy of Nursing", "american-academy-of-nursing"],
+		["Mabel Wandelt", "mabel-wandelt"],
+		["American Nurses Association", "american-nurses-association"],
+		["American Nurses Credentialing Center", "american-nurses-credentialing-center"],
+		["University of Washington Medical Center", "university-of-washington-medical-center"],
+		["Magnet Recognition Program", "magnet-recognition-program"],
+		["Linda Aiken", "linda-aiken"]
+	],
+	"nursing/bcma": [
+		[
+			"United States Department of Veterans Affairs",
+			"united-states-department-of-veterans-affairs"
+		],
+		["barcode", "barcode"],
+		["Food and Drug Administration", "food-and-drug-administration"],
+		["National Drug Code", "national-drug-code"],
+		["VistA", "vista"],
+		["MUMPS", "mumps"],
+		["electronic health record", "electronic-health-record"],
+		[
+			"Health Information Technology for Economic and Clinical Health Act",
+			"health-information-technology-for-economic-and-clinical-health-act"
+		]
+	],
+	"nursing/where-nursing-is": [
+		["World Health Organization", "world-health-organization"],
+		["Bachelor of Science in Nursing", "bachelor-of-science-in-nursing"],
+		["COVID-19 pandemic", "covid-19-pandemic"],
+		["International Council of Nurses", "international-council-of-nurses"],
+		["Linda Aiken", "linda-aiken"]
+	]
+}

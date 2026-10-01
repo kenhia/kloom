@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60 236 L176 168"/>
+		<path pathLength="1" d="M176 168 L306 76"/>
+		<path pathLength="1" d="M46 236 a14 14 0 1 0 28 0 a14 14 0 1 0 -28 0"/>
+		<path pathLength="1" d="M162 168 a14 14 0 1 0 28 0 a14 14 0 1 0 -28 0"/>
+		<path pathLength="1" d="M292 76 a14 14 0 1 0 28 0 a14 14 0 1 0 -28 0"/>
+		<path pathLength="1" d="M260 76 a46 46 0 1 0 92 0 a46 46 0 1 0 -92 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M 46 292 C 44 262 54 246 52 222 C 54 212 66 210 68 222 C 70 246 78 262 76 292"/>
+		<path pathLength="1" d="M70 230 L84 230 L84 236 L70 236 Z"/>
+		<path pathLength="1" d="M 84 233 C 100 230 120 196 168 174 C 210 150 236 130 296 88"/>
+		<path pathLength="1" d="M262.8 60.3 L265 55.1 L267.9 50.3 L271.3 45.8 L275.2 41.8 L279.6 38.3 L284.4 35.4 L289.5 33.1 L294.9 31.4 L300.4 30.3 L306 30 L311.6 30.3 L317.1 31.4 L322.5 33.1 L327.6 35.4 L332.4 38.3 L336.8 41.8 L340.7 45.8 L344.1 50.3 L347 55.1 L349.2 60.3"/>
+		<path pathLength="1" d="M257.5 48 L260.7 43.1 L264.4 38.5 L268.5 34.4 L273.1 30.7 L278 27.5 L283.2 24.8 L288.7 22.7 L294.4 21.2 L300.1 20.3 L306 20 L311.9 20.3 L317.6 21.2 L323.3 22.7 L328.8 24.8 L334 27.5 L338.9 30.7 L343.5 34.4 L347.6 38.5 L351.3 43.1 L354.5 48"/>
+		<path pathLength="1" d="M266.2 53 L257.5 48"/>
+		<path pathLength="1" d="M273.5 43.5 L266.4 36.4"/>
+		<path pathLength="1" d="M283 36.2 L278 27.5"/>
+		<path pathLength="1" d="M294.1 31.6 L291.5 21.9"/>
+		<path pathLength="1" d="M306 30 L306 20"/>
+		<path pathLength="1" d="M317.9 31.6 L320.5 21.9"/>
+		<path pathLength="1" d="M329 36.2 L334 27.5"/>
+		<path pathLength="1" d="M338.5 43.5 L345.6 36.4"/>
+		<path pathLength="1" d="M345.8 53 L354.5 48"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M30 40 L150 40 L150 124 L30 124 Z"/>
+		<path pathLength="1" d="M38 48 L98 48 L98 78 L38 78 Z"/>
+		<path pathLength="1" d="M44 70 L54 70"/>
+		<path pathLength="1" d="M60 70 L70 70"/>
+		<path pathLength="1" d="M76 70 L86 70"/>
+		<path pathLength="1" d="M98 48 L120 48 L120 78 L98 78 Z"/>
+		<path pathLength="1" d="M38 90 L64 90 L64 112 L38 112 Z"/>
+		<path pathLength="1" d="M70 90 L96 90 L96 112 L70 112 Z"/>
+		<path pathLength="1" d="M126 48 L142 48 L142 62 L126 62 Z"/>
+		<path pathLength="1" d="M104 98 L112 98 L112 116 L104 116 Z"/>
+		<path pathLength="1" d="M114 98 L122 98 L122 116 L114 116 Z"/>
+		<path pathLength="1" d="M124 98 L132 98 L132 116 L124 116 Z"/>
+		<path pathLength="1" d="M134 98 L142 98 L142 116 L134 116 Z"/>
+		<path pathLength="1" d="M150 124 L166 158"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="100" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BALACLAVA</text>
+		<text x="100" y="271" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SICK WHARF</text>
+		<text x="216" y="188" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SPRING HILL</text>
+		<text x="310" y="148" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CATHCART'S HILL</text>
+		<text x="310" y="14" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TRENCHES</text>
+		<text x="118" y="222" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3½ MI</text>
+		<text x="272" y="140" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3½ MI</text>
+		<text x="90" y="32" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE BRITISH HOTEL · SCHEMATIC</text>
+		<text x="68" y="64" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STORE</text>
+		<text x="109" y="86" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KITCHEN</text>
+		<text x="67" y="120" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HUTS</text>
+		<text x="123" y="126" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STABLES</text>
+	</g>
+</svg>

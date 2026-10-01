@@ -1,0 +1,190 @@
+{
+	"id": "hampton-gloves",
+	"topic": "Caroline Hampton's gloves",
+	"position": {
+		"label": "1889–90",
+		"sort": 1889
+	},
+	"scene": {
+		"headline": "Rubber saved her",
+		"accent": "HANDS.",
+		"palette": "theatre",
+		"illustration": "scene.svg",
+		"metadata": [
+			"JOHNS HOPKINS HOSPITAL · BALTIMORE",
+			"CAROLINE HAMPTON · WILLIAM HALSTED · GOODYEAR RUBBER CO."
+		],
+		"counter": {
+			"value": "4 of 226",
+			"label": "gloved hernia wounds that suppurated, 1897–99"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ligature and Suture Material: The Employment of Fine Silk in Preference to Catgut and the Advantages of Transfixion of Tissues and Vessels in Control of Hemorrhage; Also an Account of the Introduction of Gloves, Gutta-Percha Tissue and Silver Foil",
+			"authors": [
+				{
+					"family": "Halsted",
+					"given": "William S."
+				}
+			],
+			"container": "Journal of the American Medical Association",
+			"volume": "60",
+			"issue": "15",
+			"pages": "1119–1126",
+			"published": "1913-04-12",
+			"doi": "10.1001/jama.1913.04340150001001",
+			"url": "https://archive.org/details/surgicalpapers01hals",
+			"accessed": "2026-10-01",
+			"note": "The account of the gloves; read in its reprint in Halsted's Surgical Papers (1924), vol. 1, pp. 37–39"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Operations on 459 Cases of Hernia in the Johns Hopkins Hospital from June, 1889, to January, 1899",
+			"authors": [
+				{
+					"family": "Bloodgood",
+					"given": "Joseph C."
+				}
+			],
+			"publisher": "Lord Baltimore Press",
+			"place": "Baltimore",
+			"published": "1899",
+			"url": "https://archive.org/details/operationson459c00bloo",
+			"accessed": "2026-10-01",
+			"note": "From the Johns Hopkins Hospital Reports, vol. 7; the gloves and the suppurations, pp. 304–305"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Aseptic Surgical Technique, with Especial Reference to Gynæcological Operations",
+			"authors": [
+				{
+					"family": "Robb",
+					"given": "Hunter"
+				}
+			],
+			"publisher": "J. B. Lippincott",
+			"place": "Philadelphia",
+			"published": "1894",
+			"url": "https://archive.org/details/asepticsurgicalt1894robb",
+			"accessed": "2026-10-01",
+			"note": "Disinfection of the hands, pp. 54–57; rubber gloves, pp. 125–127"
+		},
+		{
+			"kind": "article",
+			"title": "The Treatment of Wounds with Especial Reference to the Value of the Blood Clot in the Management of Dead Spaces",
+			"authors": [
+				{
+					"family": "Halsted",
+					"given": "William S."
+				}
+			],
+			"container": "Johns Hopkins Hospital Reports",
+			"volume": "2",
+			"issue": "5",
+			"published": "1891",
+			"url": "https://archive.org/details/surgicalpapers01hals",
+			"accessed": "2026-10-01",
+			"note": "Read in its reprint in Halsted's Surgical Papers (1924), vol. 1, pp. 100–108"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Caroline Hampton Halsted: The First to Use Rubber Gloves in the Operating Room",
+			"authors": [
+				{
+					"family": "Lathan",
+					"given": "S. Robert"
+				}
+			],
+			"container": "Baylor University Medical Center Proceedings",
+			"volume": "23",
+			"issue": "4",
+			"pages": "389–392",
+			"published": "2010-10",
+			"doi": "10.1080/08998280.2010.11928658",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "The Nurse Who Introduced Gloves to the Operating Room",
+			"authors": [
+				{
+					"family": "Kean",
+					"given": "Sam"
+				}
+			],
+			"container": "Distillations",
+			"publisher": "Science History Institute",
+			"published": "2020-05-05",
+			"url": "https://www.sciencehistory.org/stories/magazine/the-nurse-who-introduced-gloves-to-the-operating-room/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Caroline Hampton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Caroline_Hampton&oldid=1313309007",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-25",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johns Hopkins Hospital",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johns_Hopkins_Hospital&oldid=1374590587",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mercury(II) chloride",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mercury(II)_chloride&oldid=1374823784",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "media",
+			"title": "W.S Halsted operating in 1904",
+			"url": "https://commons.wikimedia.org/wiki/File:W.S_Halsted_operating_in_1904_Wellcome_L0004175.jpg",
+			"accessed": "2026-10-01",
+			"licence": "CC BY 4.0",
+			"file": "halsted-1904.jpg",
+			"container": "Wellcome Collection",
+			"published": "1904"
+		},
+		{
+			"kind": "media",
+			"title": "Hernia wounds that suppurated at the Johns Hopkins Hospital, 1889–1899",
+			"url": "https://archive.org/details/operationson459c00bloo",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "suppuration.svg",
+			"container": "Chart drawn for kloom from Bloodgood, Operations on 459 Cases of Hernia, pp. 304–305"
+		}
+	]
+}

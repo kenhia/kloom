@@ -1,0 +1,21 @@
+{
+	"id": "nightingales-numbers",
+	"title": "Nightingale's numbers",
+	"anchor": "rose-diagram",
+	"spine": {
+		"segments": [
+			{
+				"id": "numbers",
+				"title": "Counting the dead, and the living",
+				"labelKind": "date",
+				"frames": [
+					"farr",
+					"notes-on-hospitals",
+					"hospital-statistics",
+					"infection-control-nurse",
+					"hand-hygiene"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"title": "Maternal deaths per thousand births: Martha Ballard against hospitals of her century and the United States",
+	"description": "Bar chart of maternal deaths per 1,000 births, from Table V of Laurel Thatcher Ulrich's A Midwife's Tale. Martha Ballard's deliveries in Hallowell, Maine, 1785 to 1812: 6.1. London lying-in hospital A, 1767 to 1772: 27.5. London hospital B, 1749 to 1770: 21.5. Dublin hospital B, 1757 to 1775: 14.1. The United States in 1930: 6.7, and in 1945: 2.1.",
+	"heading": "MOTHERS WHO DIED · PER 1,000 BIRTHS",
+	"unit": "",
+	"width": 520,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"max": 30,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"]
+		]
+	},
+	"bars": [
+		{ "label": "Ballard", "sublabel": "1785–1812", "value": 6.1, "highlight": true },
+		{ "label": "London A", "sublabel": "1767–72", "value": 27.5 },
+		{ "label": "London B", "sublabel": "1749–70", "value": 21.5 },
+		{ "label": "Dublin B", "sublabel": "1757–75", "value": 14.1 },
+		{ "label": "US", "sublabel": "1930", "value": 6.7 },
+		{ "label": "US", "sublabel": "1945", "value": 2.1 }
+	]
+}

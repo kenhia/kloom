@@ -1,0 +1,126 @@
+{
+	"id": "mash",
+	"topic": "Nurses in the MASH",
+	"position": {
+		"label": "1950–53",
+		"sort": 1950
+	},
+	"scene": {
+		"headline": "We nursed close to the",
+		"accent": "FRONT.",
+		"palette": "canvas",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KOREA · THE 8055TH, 8063D AND 8076TH MASH",
+			"60 BEDS · 12 NURSES · THE BELL H-13"
+		],
+		"counter": {
+			"value": "2.5%",
+			"label": "of the wounded who reached an Army hospital in Korea died there"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Medics' War",
+			"authors": [
+				{
+					"family": "Cowdrey",
+					"given": "Albert E."
+				}
+			],
+			"container": "United States Army in the Korean War",
+			"publisher": "U.S. Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1987",
+			"url": "https://archive.org/details/medicswar00cowd",
+			"accessed": "2026-10-01",
+			"note": "The 1948 table, pp. 70–71; the MASHs at Taejon, Masan and Miryang, pp. 77–86; helicopters, pp. 163–167; the MASH of 1952, pp. 208–210"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "History of the 8076th Army Unit, Mobile Army Surgical Hospital (19 July 1950–31 January 1953) and 45th Surgical Hospital, Mobile Army (1 February 1953–July 1953)",
+			"authors": [
+				{
+					"name": "Headquarters, 45th Mobile Army Surgical Hospital"
+				}
+			],
+			"container": "Korean War Unit Histories",
+			"publisher": "AMEDD Center of History and Heritage",
+			"published": "1953-03-12",
+			"url": "https://achh.army.mil/history/book-korea-kwuunithistories-8076thmash/",
+			"accessed": "2026-10-01",
+			"note": "Miryang, Kunu-ri and the unit citation"
+		},
+		{
+			"kind": "report",
+			"title": "Highlights in the History of the Army Nurse Corps",
+			"editors": [
+				{
+					"family": "Feller",
+					"given": "Carolyn M."
+				},
+				{
+					"family": "Moore",
+					"given": "Constance J."
+				}
+			],
+			"publisher": "U.S. Army Center of Military History",
+			"place": "Washington, DC",
+			"published": "1996",
+			"number": "CMH Pub 85-1",
+			"url": "https://archive.org/details/HighlightsInTheHistoryOfTheArmyNurseCorps",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "Medical Support of the U.S. Army in Vietnam, 1965–1970",
+			"authors": [
+				{
+					"family": "Neel",
+					"given": "Spurgeon"
+				}
+			],
+			"container": "Vietnam Studies",
+			"publisher": "Department of the Army",
+			"place": "Washington, DC",
+			"published": "1973",
+			"url": "https://achh.army.mil/history/book-vietnam-medicalsupport-default/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "The History of the Navy Nurse Corps",
+			"publisher": "Naval History and Heritage Command",
+			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "8225th MASH personnel with H-13 helo in Korea 1951",
+			"url": "https://commons.wikimedia.org/wiki/File:8225th_MASH_personnel_with_H-13_helo_in_Korea_1951.JPEG",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "mash-h13.jpg",
+			"authors": [
+				{
+					"name": "U.S. Army Signal Corps"
+				}
+			],
+			"container": "U.S. Signal Corps Photographs of American Military Activity, National Archives (111-SC-382662)",
+			"published": "1951-10-14"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/korea-blood",
+			"why": "The whole blood the MASHs gave came from the Tokyo blood bank and the airlift from Travis, and the helicopters that brought the wounded back from the front carried it forward."
+		},
+		{
+			"to": "nursing/hospital-ships",
+			"why": "Off Korea's coast Navy nurses served aboard the hospital ships that the MASHs sent their worst cases to."
+		}
+	]
+}

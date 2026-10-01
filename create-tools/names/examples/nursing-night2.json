@@ -1,0 +1,42 @@
+{
+	"nursing/notes-on-nursing": [
+		["Florence Nightingale", "florence-nightingale"],
+		["_Notes on Nursing: What It Is, and What It Is Not_", "notes-on-nursing"],
+		["miasma", "miasma-theory"],
+		["Louis Pasteur", "louis-pasteur"],
+		["germ theory of disease", "germ-theory-of-disease"],
+		["Edwin Chadwick", "edwin-chadwick"],
+		["St Thomas' Hospital", "st-thomas-hospital"]
+	],
+	"nursing/nightingale-school": [
+		["Florence Nightingale", "florence-nightingale"],
+		["St Thomas' Hospital", "st-thomas-hospital"],
+		["Sarah Wardroper", "sarah-elizabeth-wardroper"],
+		[
+			"Nightingale Training School",
+			"florence-nightingale-faculty-of-nursing-midwifery-and-palliative-care"
+		],
+		["Agnes Jones", "agnes-jones-nurse"],
+		["Lucy Osburn", "lucy-osburn"]
+	],
+	"nursing/red-cross": [
+		["Henry Dunant", "henry-dunant"],
+		["Battle of Solferino", "battle-of-solferino"],
+		["_A Memory of Solferino_", "a-memory-of-solferino"],
+		["Florence Nightingale", "florence-nightingale"],
+		["International Committee of the Red Cross", "international-committee-of-the-red-cross"],
+		["First Geneva Convention", "first-geneva-convention"],
+		["Clara Barton", "clara-barton"],
+		["American Red Cross", "american-red-cross"]
+	],
+	"nursing/vital-signs": [
+		["Carl Wunderlich", "carl-reinhold-august-wunderlich"],
+		["Clifford Allbutt", "clifford-allbutt"],
+		["clinical thermometer", "medical-thermometer"],
+		["Isabel Hampton Robb", "isabel-hampton-robb"],
+		["vital signs", "vital-signs"],
+		["Blood pressure", "blood-pressure"],
+		["Scipione Riva-Rocci", "scipione-riva-rocci"],
+		["Nikolai Korotkov", "nikolai-korotkov"]
+	]
+}

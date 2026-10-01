@@ -1,0 +1,81 @@
+{
+	"title": "Annual rate of mortality percent among the sick in the hospitals at Scutari, October 1854 to June 1855",
+	"description": "Bar chart, deaths a year per 100 sick, for twelve periods of three to four weeks, each labeled by the day it began. October 1: 148; October 15: 101; November 12: 121; December 10: 202; January 7: 319; February 1: 415; February 25: 235; March 18: 125; April 8: 79; April 29: 60; May 20: 56; June 10: 34. The Sanitary Commission began its work in March 1855. Data: Florence Nightingale, Mortality of the British Army (1858), Table K, figure 2.",
+	"heading": "SCUTARI · DEATHS A YEAR PER 100 SICK, 1854–55",
+	"unit": "",
+	"axis": {
+		"max": 450,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"],
+			[400, "400"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Oct",
+			"value": 148,
+			"sublabel": "1"
+		},
+		{
+			"label": "Oct",
+			"value": 101,
+			"sublabel": "15"
+		},
+		{
+			"label": "Nov",
+			"value": 121,
+			"sublabel": "12"
+		},
+		{
+			"label": "Dec",
+			"value": 202,
+			"sublabel": "10"
+		},
+		{
+			"label": "Jan",
+			"value": 319,
+			"sublabel": "7"
+		},
+		{
+			"label": "Feb",
+			"value": 415,
+			"highlight": true,
+			"sublabel": "1"
+		},
+		{
+			"label": "Feb",
+			"value": 235,
+			"sublabel": "25"
+		},
+		{
+			"label": "Mar",
+			"value": 125,
+			"sublabel": "18"
+		},
+		{
+			"label": "Apr",
+			"value": 79,
+			"sublabel": "8"
+		},
+		{
+			"label": "Apr",
+			"value": 60,
+			"sublabel": "29"
+		},
+		{
+			"label": "May",
+			"value": 56,
+			"sublabel": "20"
+		},
+		{
+			"label": "Jun",
+			"value": 34,
+			"sublabel": "10"
+		}
+	],
+	"barWidth": 34,
+	"width": 640
+}

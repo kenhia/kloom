@@ -1,0 +1,210 @@
+{
+	"id": "licensure",
+	"topic": "The registered nurse",
+	"position": {
+		"label": "1903",
+		"sort": 1903
+	},
+	"scene": {
+		"headline": "We earned two",
+		"accent": "LETTERS.",
+		"palette": "chart",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NORTH CAROLINA · NEW JERSEY · NEW YORK · VIRGINIA",
+			"THE NURSES' ASSOCIATED ALUMNAE",
+			"R.N."
+		],
+		"counter": {
+			"value": "4",
+			"label": "states with nurse registration acts by the end of 1903"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A History of Nursing, vol. 3",
+			"authors": [
+				{
+					"family": "Dock",
+					"given": "Lavinia L."
+				}
+			],
+			"publisher": "G. P. Putnam's Sons",
+			"place": "New York",
+			"published": "1912",
+			"url": "https://archive.org/details/historyofnursing0003lavi",
+			"accessed": "2026-10-01",
+			"note": "The associated alumnae and the first state acts, pp. 128–157"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The North Carolina Bill",
+			"container": "American Journal of Nursing",
+			"volume": "3",
+			"issue": "7",
+			"pages": "562–564",
+			"published": "1903-04",
+			"url": "https://archive.org/details/sim_american-journal-of-nursing_1903-04_3_7",
+			"accessed": "2026-10-01",
+			"note": "The act's full text"
+		},
+		{
+			"kind": "article",
+			"title": "Editorial Comment: New Jersey Second; New York Fourth",
+			"container": "American Journal of Nursing",
+			"volume": "3",
+			"issue": "8",
+			"pages": "670–671",
+			"published": "1903-05",
+			"url": "https://archive.org/details/sim_american-journal-of-nursing_1903-05_3_8",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "North Carolina Examination Questions",
+			"container": "American Journal of Nursing",
+			"volume": "7",
+			"issue": "3",
+			"pages": "222–224",
+			"published": "1906-12",
+			"url": "https://archive.org/details/sim_american-journal-of-nursing_1906-12_7_3",
+			"accessed": "2026-10-01",
+			"note": "The board's papers of May 1906"
+		},
+		{
+			"kind": "article",
+			"title": "Official Proceedings of the Third Convention of the Nurses' Associated Alumnae",
+			"container": "American Journal of Nursing",
+			"volume": "1",
+			"issue": "1",
+			"pages": "67–81",
+			"published": "1900-10",
+			"url": "https://archive.org/details/sim_american-journal-of-nursing_1900-10_1_1",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Law and the Expanding Nursing Role",
+			"authors": [
+				{
+					"family": "Bullough",
+					"given": "Bonnie"
+				}
+			],
+			"container": "American Journal of Public Health",
+			"volume": "66",
+			"issue": "3",
+			"pages": "249–254",
+			"published": "1976-03",
+			"doi": "10.2105/AJPH.66.3.249",
+			"accessed": "2026-10-01",
+			"note": "Registration acts from 1903, and mandatory licensure from 1938, p. 250"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "American Nurses Association",
+			"url": "https://en.wikipedia.org/w/index.php?title=American_Nurses_Association&oldid=1367885179",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Registered nurse",
+			"url": "https://en.wikipedia.org/w/index.php?title=Registered_nurse&oldid=1372097510",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isabel Hampton Robb",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isabel_Hampton_Robb&oldid=1359416655",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lavinia Dock",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lavinia_Dock&oldid=1372313052",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sophia French Palmer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sophia_French_Palmer&oldid=1311907478",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "American Journal of Nursing",
+			"url": "https://en.wikipedia.org/w/index.php?title=American_Journal_of_Nursing&oldid=1324692421",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-29"
+		},
+		{
+			"kind": "media",
+			"title": "The American Journal of Nursing, vol. 1, no. 1, October 1900",
+			"container": "The American Journal of Nursing, cover",
+			"published": "1900-10",
+			"url": "https://commons.wikimedia.org/wiki/File:The_American_Journal_of_Nursing_Vol1_N1_October_1900.jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"note": "Published in the United States in 1900",
+			"file": "ajn-1900.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/training-schools",
+			"why": "State registration answered the unregulated spread of hospital training schools."
+		}
+	]
+}
