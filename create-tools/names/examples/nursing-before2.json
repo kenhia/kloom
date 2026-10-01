@@ -1,0 +1,32 @@
+{
+	"nursing/beguines": [
+		["Beguines", "beguines-and-beghards"],
+		["Jacques de Vitry", "james-of-vitry"],
+		["Marie of Oignies", "marie-of-oignies"],
+		["Ghent", "ghent"],
+		["Leuven", "leuven"],
+		["Council of Vienne", "council-of-vienne"]
+	],
+	"nursing/daughters-of-charity": [
+		["Vincent de Paul", "vincent-de-paul"],
+		["Marguerite Naseau", "marguerite-naseau"],
+		["Louise de Marillac", "louise-de-marillac"],
+		["Daughters of Charity", "daughters-of-charity-of-saint-vincent-de-paul"],
+		["Paris", "paris"],
+		["Florence Nightingale", "florence-nightingale"]
+	],
+	"nursing/martha-ballard": [
+		["Hallowell", "hallowell-maine"],
+		["Kennebec River", "kennebec-river"],
+		["Martha Ballard", "martha-ballard"],
+		["Laurel Thatcher Ulrich", "laurel-thatcher-ulrich"],
+		["scarlet fever", "scarlet-fever"]
+	],
+	"nursing/kaiserswerth": [
+		["Kaiserswerth", "kaiserswerth"],
+		["Florence Nightingale", "florence-nightingale"],
+		["Theodor Fliedner", "theodor-fliedner"],
+		["Friederike Fliedner", "friederike-fliedner"],
+		["William Passavant", "william-passavant"]
+	]
+}

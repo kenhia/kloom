@@ -1,0 +1,196 @@
+{
+	"id": "daughters-of-charity",
+	"topic": "The Daughters of Charity",
+	"position": {
+		"label": "1633",
+		"sort": 1633
+	},
+	"scene": {
+		"headline": "Our cloister was the",
+		"accent": "STREETS.",
+		"palette": "cloister",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · VINCENT DE PAUL · LOUISE DE MARILLAC",
+			"THE SICK POOR AT HOME · ANGERS · THE HÔTEL-DIEU"
+		],
+		"counter": {
+			"value": "26",
+			"label": "Paris parishes whose sick poor they nursed at home by 1660"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/bloodletting",
+			"why": "Vincent de Paul told the Daughters of Charity to learn when to bleed from the arm or the foot, how much blood to take and when to apply cupping glasses: the venesection and cupping that frame describes."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"title": "History of St. Vincent de Paul, vol. 1",
+			"authors": [
+				{
+					"family": "Bougaud",
+					"given": "Émile"
+				}
+			],
+			"translators": [
+				{
+					"family": "Brady",
+					"given": "Joseph"
+				}
+			],
+			"publisher": "Longmans, Green & Co.",
+			"place": "London",
+			"published": "1899",
+			"url": "https://archive.org/details/historyofstvince01boug",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "The rule of the Confraternity of Charity at Châtillon, 1617 (pp. 66–68); Vincent on doctors, doses, bleeding and cupping (pp. 283–284)"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Conference 111: Explanation of the Regulations (24 August 1659)",
+			"authors": [
+				{
+					"name": "Vincent de Paul"
+				}
+			],
+			"container": "Correspondence, Conferences, Documents, vol. 10: Conferences to the Daughters of Charity, vol. 2",
+			"editors": [
+				{
+					"family": "Poole",
+					"given": "Marie"
+				}
+			],
+			"translators": [
+				{
+					"family": "Poole",
+					"given": "Marie"
+				}
+			],
+			"publisher": "New City Press",
+			"place": "Hyde Park, NY",
+			"published": "2006",
+			"pages": "530–532",
+			"url": "https://via.library.depaul.edu/vincentian_ebooks/35",
+			"accessed": "2026-10-01",
+			"note": "\"For monastery only the houses of the sick\": the rule's second article, read and explained"
+		},
+		{
+			"kind": "book",
+			"title": "A History of Nursing, vol. 1",
+			"authors": [
+				{
+					"family": "Nutting",
+					"given": "M. Adelaide"
+				},
+				{
+					"family": "Dock",
+					"given": "Lavinia L."
+				}
+			],
+			"publisher": "G. P. Putnam's Sons",
+			"place": "New York",
+			"published": "1907",
+			"url": "https://archive.org/details/historyofnursing01nuttuoft",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Chapter 11, Vincent de Paul's Sisters of Charity: the first sisters, Louise de Marillac's training and her regulations for Angers (pp. 404–431)"
+		},
+		{
+			"kind": "book",
+			"title": "The Life of Florence Nightingale, vol. 1",
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Edward"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "London",
+			"published": "1913",
+			"url": "https://www.gutenberg.org/ebooks/40057",
+			"accessed": "2026-10-01",
+			"note": "The Times on the French Sisters of Charity, October 1854, and Nightingale refused at their mother house"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Daughters of Charity of Saint Vincent de Paul",
+			"url": "https://en.wikipedia.org/w/index.php?title=Daughters_of_Charity_of_Saint_Vincent_de_Paul&oldid=1375208786",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vincent de Paul",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vincent_de_Paul&oldid=1377293089",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Louise de Marillac",
+			"url": "https://en.wikipedia.org/w/index.php?title=Louise_de_Marillac&oldid=1359661530",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marguerite Naseau",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marguerite_Naseau&oldid=1134845051",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2023-01-21"
+		},
+		{
+			"kind": "media",
+			"title": "Fille de la Charité servant les malades",
+			"authors": [
+				{
+					"family": "Bonnart",
+					"given": "Jean-Baptiste"
+				}
+			],
+			"container": "Musée Carnavalet, Paris, G.4661",
+			"publisher": "Henri Bonnart",
+			"place": "Paris",
+			"published": "1700",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Fille_de_la_Charit%C3%A9_servant_les_malades,_G.4661.jpg",
+			"accessed": "2026-10-01",
+			"licence": "CC0",
+			"file": "fille-de-la-charite.jpg"
+		}
+	]
+}

@@ -1,0 +1,181 @@
+{
+	"id": "beguines",
+	"topic": "The Beguines",
+	"position": {
+		"label": "c. 1250",
+		"sort": 1250
+	},
+	"scene": {
+		"headline": "We nursed without",
+		"accent": "VOWS.",
+		"palette": "linen",
+		"illustration": "scene.svg",
+		"metadata": ["LIÈGE · GHENT · BRUGES · LEUVEN", "THE COURT BEGUINAGE AND ITS INFIRMARY"]
+	},
+	"connections": [
+		{
+			"to": "nursing/hospitallers",
+			"why": "Jacques de Vitry, who described the Hospitallers' early brothers giving their best bread to the sick, was also the Beguines' first champion and wrote the life of Marie of Oignies, who nursed lepers."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Life of the Blessed Mary of Oignies",
+			"authors": [
+				{
+					"name": "Jacques de Vitry"
+				}
+			],
+			"container": "The Lives of S. Jane Frances de Chantal, St. Rose of Viterbo, and B. Mary of Oignies, vol. 2",
+			"publisher": "Richardson and Son",
+			"place": "London",
+			"published": "1852",
+			"url": "https://archive.org/details/livesofsjanefran0000unse",
+			"accessed": "2026-10-01",
+			"note": "The holy women of Liège, the lepers at Willambroux (p. 332) and her watching with the sick and dying (p. 378), in an anonymous translation of the Life of about 1215"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Advisory Body Evaluation: The Flemish Béguinages (No. 855)",
+			"authors": [
+				{
+					"name": "ICOMOS"
+				}
+			],
+			"publisher": "UNESCO World Heritage Centre",
+			"place": "Paris",
+			"published": "1998",
+			"url": "https://whc.unesco.org/archive/advisory_body_evaluation/855.pdf",
+			"accessed": "2026-10-01",
+			"note": "The court beguinage's buildings, the infirmary and its superior, and the two types of plan"
+		},
+		{
+			"kind": "book",
+			"title": "A History of Nursing, vol. 1",
+			"authors": [
+				{
+					"family": "Nutting",
+					"given": "M. Adelaide"
+				},
+				{
+					"family": "Dock",
+					"given": "Lavinia L."
+				}
+			],
+			"publisher": "G. P. Putnam's Sons",
+			"place": "New York",
+			"published": "1907",
+			"url": "https://archive.org/details/historyofnursing01nuttuoft",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Chapter 7, the Beguines: their promise, their hospitals and nursing, the regulations of 1325 (pp. 257–273)"
+		},
+		{
+			"kind": "web",
+			"title": "Council of Vienne 1311–1312 A.D.",
+			"container": "Papal Encyclicals Online",
+			"url": "https://www.papalencyclicals.net/councils/ecum15.htm",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "web",
+			"title": "Flemish Béguinages",
+			"publisher": "UNESCO World Heritage Centre",
+			"url": "https://whc.unesco.org/en/list/855/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Beguines & Beghards",
+			"authors": [
+				{
+					"family": "Gilliat-Smith",
+					"given": "Ernest"
+				}
+			],
+			"container": "The Catholic Encyclopedia",
+			"volume": "2",
+			"publisher": "Robert Appleton Company",
+			"place": "New York",
+			"published": "1907",
+			"url": "https://www.newadvent.org/cathen/02389c.htm",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Beguines and Beghards",
+			"url": "https://en.wikipedia.org/w/index.php?title=Beguines_and_Beghards&oldid=1374815113",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Beguinage",
+			"url": "https://en.wikipedia.org/w/index.php?title=Beguinage&oldid=1366152537",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marie of Oignies",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marie_of_Oignies&oldid=1370543919",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Council of Vienne",
+			"url": "https://en.wikipedia.org/w/index.php?title=Council_of_Vienne&oldid=1370583319",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "media",
+			"title": "Het begijnhof van Tongeren: infirmerie en Sint-Ursulakapel",
+			"authors": [
+				{
+					"family": "Vandevorst",
+					"given": "Kris"
+				}
+			],
+			"container": "Inventaris Onroerend Erfgoed, Flanders Heritage Agency",
+			"published": "2009-03-27",
+			"url": "https://commons.wikimedia.org/wiki/File:Het_begijnhof_van_Tongeren,_infirmerie_en_Sint-Ursulakapel_-_375088_-_onroerenderfgoed.jpg",
+			"accessed": "2026-10-01",
+			"licence": "CC BY 4.0",
+			"file": "tongeren-infirmary.jpg"
+		}
+	]
+}

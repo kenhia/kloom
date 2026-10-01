@@ -1,0 +1,276 @@
+{
+	"id": "martha-ballard",
+	"topic": "Martha Ballard's diary",
+	"position": {
+		"label": "1785–1812",
+		"sort": 1785
+	},
+	"scene": {
+		"headline": "Nothing was",
+		"accent": "TRIVIAL.",
+		"palette": "linen",
+		"illustration": "scene.svg",
+		"metadata": ["HALLOWELL · DISTRICT OF MAINE · THE KENNEBEC", "MIDWIFE · HEALER · DIARIST"],
+		"counter": {
+			"value": "816",
+			"label": "deliveries in her diary, by Ulrich's count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "diary",
+			"title": "The Diary of Martha Ballard, 1785–1812",
+			"authors": [
+				{
+					"name": "Martha Ballard"
+				}
+			],
+			"written": "1785-01-20",
+			"editors": [
+				{
+					"family": "McCausland",
+					"given": "Robert R."
+				},
+				{
+					"family": "McCausland",
+					"given": "Cynthia MacAlman"
+				}
+			],
+			"publisher": "Picton Press",
+			"place": "Camden, ME",
+			"published": "1992",
+			"url": "https://dohistory.org/diary/1785/01/17850101_txt.html",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "The diary's first page, 1–22 January 1785, with two deliveries"
+		},
+		{
+			"kind": "diary",
+			"title": "The Diary of Martha Ballard, 1785–1812",
+			"authors": [
+				{
+					"name": "Martha Ballard"
+				}
+			],
+			"written": "1787-06-08",
+			"editors": [
+				{
+					"family": "McCausland",
+					"given": "Robert R."
+				},
+				{
+					"family": "McCausland",
+					"given": "Cynthia MacAlman"
+				}
+			],
+			"publisher": "Picton Press",
+			"place": "Camden, ME",
+			"published": "1992",
+			"url": "https://dohistory.org/diary/themes/epidemic/epidemic_2.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "diary",
+			"title": "The Diary of Martha Ballard, 1785–1812",
+			"authors": [
+				{
+					"name": "Martha Ballard"
+				}
+			],
+			"written": "1787-06-21",
+			"editors": [
+				{
+					"family": "McCausland",
+					"given": "Robert R."
+				},
+				{
+					"family": "McCausland",
+					"given": "Cynthia MacAlman"
+				}
+			],
+			"publisher": "Picton Press",
+			"place": "Camden, ME",
+			"published": "1992",
+			"url": "https://dohistory.org/diary/themes/epidemic/epidemic_3.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "diary",
+			"title": "The Diary of Martha Ballard, 1785–1812",
+			"authors": [
+				{
+					"name": "Martha Ballard"
+				}
+			],
+			"written": "1787-06-23",
+			"editors": [
+				{
+					"family": "McCausland",
+					"given": "Robert R."
+				},
+				{
+					"family": "McCausland",
+					"given": "Cynthia MacAlman"
+				}
+			],
+			"publisher": "Picton Press",
+			"place": "Camden, ME",
+			"published": "1992",
+			"url": "https://dohistory.org/diary/themes/epidemic/epidemic_3.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "diary",
+			"title": "The Diary of Martha Ballard, 1785–1812",
+			"authors": [
+				{
+					"name": "Martha Ballard"
+				}
+			],
+			"written": "1787-08-07",
+			"editors": [
+				{
+					"family": "McCausland",
+					"given": "Robert R."
+				},
+				{
+					"family": "McCausland",
+					"given": "Cynthia MacAlman"
+				}
+			],
+			"publisher": "Picton Press",
+			"place": "Camden, ME",
+			"published": "1992",
+			"url": "https://dohistory.org/diary/themes/epidemic/epidemic_6.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "diary",
+			"title": "The Diary of Martha Ballard, 1785–1812",
+			"authors": [
+				{
+					"name": "Martha Ballard"
+				}
+			],
+			"written": "1787-08-20",
+			"editors": [
+				{
+					"family": "McCausland",
+					"given": "Robert R."
+				},
+				{
+					"family": "McCausland",
+					"given": "Cynthia MacAlman"
+				}
+			],
+			"publisher": "Picton Press",
+			"place": "Camden, ME",
+			"published": "1992",
+			"url": "https://dohistory.org/diary/themes/epidemic/epidemic_8.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "diary",
+			"title": "The Diary of Martha Ballard, 1785–1812",
+			"authors": [
+				{
+					"name": "Martha Ballard"
+				}
+			],
+			"written": "1787-08-24",
+			"editors": [
+				{
+					"family": "McCausland",
+					"given": "Robert R."
+				},
+				{
+					"family": "McCausland",
+					"given": "Cynthia MacAlman"
+				}
+			],
+			"publisher": "Picton Press",
+			"place": "Camden, ME",
+			"published": "1992",
+			"url": "https://dohistory.org/diary/themes/epidemic/epidemic_8.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "book",
+			"title": "A Midwife's Tale: The Life of Martha Ballard, Based on Her Diary, 1785–1812",
+			"authors": [
+				{
+					"family": "Ulrich",
+					"given": "Laurel Thatcher"
+				}
+			],
+			"publisher": "Alfred A. Knopf",
+			"place": "New York",
+			"published": "1990",
+			"accessed": "2026-10-01",
+			"key": true,
+			"url": "https://dohistory.org/book/100_chapter5_txt.html",
+			"note": "Read in the introduction, chapter 5 and appendix that DoHistory reprints: the deliveries, Tables IV to VI, and her remedies"
+		},
+		{
+			"kind": "web",
+			"title": "Who Was Martha Ballard?",
+			"publisher": "DoHistory, Film Study Center, Harvard University, and Roy Rosenzweig Center for History and New Media",
+			"url": "https://dohistory.org/martha/index.html",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Martha Ballard",
+			"url": "https://en.wikipedia.org/w/index.php?title=Martha_Ballard&oldid=1377294441",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A Midwife's Tale",
+			"url": "https://en.wikipedia.org/w/index.php?title=A_Midwife's_Tale&oldid=1377578844",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Martha Ballard's diary, 1–22 January 1785",
+			"authors": [
+				{
+					"name": "Martha Ballard"
+				}
+			],
+			"container": "Martha Ballard's Diary, Maine State Library, Augusta; image from DoHistory",
+			"published": "1785",
+			"url": "https://dohistory.org/diary/1785/01/17850101_img.html",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "diary-1785.jpg",
+			"note": "A manuscript of 1785"
+		},
+		{
+			"kind": "media",
+			"title": "Maternal deaths per 1,000 births",
+			"container": "Chart drawn for kloom from Ulrich, A Midwife's Tale, Table V",
+			"url": "https://dohistory.org/book/100_chapter5_txt.html",
+			"accessed": "2026-10-01",
+			"licence": "MIT",
+			"file": "maternal-deaths.svg"
+		}
+	]
+}

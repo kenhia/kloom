@@ -4,7 +4,15 @@
 			"id": "before",
 			"title": "Care before nursing",
 			"labelKind": "date",
-			"frames": ["basiliad", "monastic-infirmary", "hospitallers"]
+			"frames": [
+				"basiliad",
+				"monastic-infirmary",
+				"hospitallers",
+				"beguines",
+				"daughters-of-charity",
+				"martha-ballard",
+				"kaiserswerth"
+			]
 		},
 		{
 			"id": "nightingale",

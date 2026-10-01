@@ -1,0 +1,193 @@
+{
+	"id": "kaiserswerth",
+	"topic": "The deaconesses of Kaiserswerth",
+	"position": {
+		"label": "1836",
+		"sort": 1836
+	},
+	"scene": {
+		"headline": "We came on",
+		"accent": "PROBATION.",
+		"palette": "cloister",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KAISERSWERTH · THE RHINE · THEODOR AND FRIEDERIKE FLIEDNER",
+			"DEACONESS HOSPITAL · PROBATION · THE NIGHT WATCH"
+		],
+		"counter": {
+			"value": "116",
+			"label": "deaconesses in 1850, by Nightingale's count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Institution of Kaiserswerth on the Rhine, for the Practical Training of Deaconesses, under the Direction of the Rev. Pastor Fliedner",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"publisher": "London Ragged Colonial Training School",
+			"place": "London",
+			"published": "1851",
+			"url": "https://archive.org/details/b30473512",
+			"accessed": "2026-10-01",
+			"note": "Written in August 1850 and published anonymously: the hospital, the night watch, probation and the numbers"
+		},
+		{
+			"kind": "book",
+			"title": "A History of Nursing, vol. 2",
+			"authors": [
+				{
+					"family": "Nutting",
+					"given": "M. Adelaide"
+				},
+				{
+					"family": "Dock",
+					"given": "Lavinia L."
+				}
+			],
+			"publisher": "G. P. Putnam's Sons",
+			"place": "New York",
+			"published": "1907",
+			"url": "https://archive.org/details/historynursing02nutt",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Chapter 1, Kaiserswerth and the deaconess movement: Friederike Fliedner, the first year, the training (pp. 1–31)"
+		},
+		{
+			"kind": "book",
+			"title": "The Life of Florence Nightingale, vol. 1",
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Edward"
+				}
+			],
+			"publisher": "Macmillan",
+			"place": "London",
+			"published": "1913",
+			"url": "https://www.gutenberg.org/ebooks/40057",
+			"accessed": "2026-10-01",
+			"key": true,
+			"note": "Nightingale's visits of 1850 and 1851, her letter on the day's routine, and her later verdicts (chapters 5 and 9)"
+		},
+		{
+			"kind": "article",
+			"title": "The life story of Friederike Fliedner",
+			"authors": [
+				{
+					"family": "Bork",
+					"given": "Dagmar"
+				}
+			],
+			"container": "International History of Nursing Journal",
+			"volume": "7",
+			"issue": "2",
+			"pages": "60–67",
+			"published": "2002",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12243102/",
+			"accessed": "2026-10-01",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theodor Fliedner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theodor_Fliedner&oldid=1368345408",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Friederike Fliedner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Friederike_Fliedner&oldid=1335902753",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kaiserswerth",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kaiserswerth&oldid=1337862570",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Deaconess",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deaconess&oldid=1377669745",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Passavant",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Passavant&oldid=1333956222",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Florence Nightingale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florence_Nightingale&oldid=1375983362",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "Frederike Münster Fliedner",
+			"container": "Meta Rutter Pennock, ed., Makers of Nursing History (New York: Lakeside Publishing, 1940)",
+			"published": "1940",
+			"url": "https://commons.wikimedia.org/wiki/File:Frederike_M%C3%BCnster_Fliedner_(page_13_crop).jpg",
+			"accessed": "2026-10-01",
+			"licence": "Public domain",
+			"file": "friederike-fliedner.jpg",
+			"note": "Published in the US in 1940 without a copyright renewal"
+		}
+	]
+}
