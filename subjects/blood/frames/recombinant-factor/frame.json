@@ -1,0 +1,331 @@
+{
+	"id": "recombinant-factor",
+	"topic": "Recombinant factor VIII",
+	"position": {
+		"label": "1984–92",
+		"sort": 1984
+	},
+	"asOf": "2026-10-01",
+	"scene": {
+		"headline": "We made the missing factor without a",
+		"accent": "DONOR.",
+		"palette": "cryo",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GENENTECH · GENETICS INSTITUTE · NATURE, NOVEMBER 1984",
+			"HAMSTER CELLS · 2 IU/DL PER IU/KG · EMICIZUMAB, 2017"
+		],
+		"counter": {
+			"value": "2,351",
+			"label": "amino acids in factor VIII's chain, cloned in 1984"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Characterization of the Human Factor VIII Gene",
+			"authors": [
+				{
+					"family": "Gitschier",
+					"given": "Jane"
+				},
+				{
+					"family": "Wood",
+					"given": "William I."
+				},
+				{
+					"family": "Goralka",
+					"given": "Therese M."
+				},
+				{
+					"family": "Wion",
+					"given": "Karen L."
+				},
+				{
+					"family": "Chen",
+					"given": "Ellson Y."
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "312",
+			"issue": "5992",
+			"pages": "326–330",
+			"published": "1984-11",
+			"doi": "10.1038/312326a0",
+			"accessed": "2026-10-01",
+			"abstractOnly": true,
+			"note": "Genentech: the 186,000-base-pair gene and its 26 exons"
+		},
+		{
+			"kind": "article",
+			"title": "Expression of Active Human Factor VIII from Recombinant DNA Clones",
+			"authors": [
+				{
+					"family": "Wood",
+					"given": "William I."
+				},
+				{
+					"family": "Capon",
+					"given": "Daniel J."
+				},
+				{
+					"family": "Simonsen",
+					"given": "Christian C."
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "312",
+			"issue": "5992",
+			"pages": "330–337",
+			"published": "1984-11",
+			"doi": "10.1038/312330a0",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"title": "Molecular Cloning of a cDNA Encoding Human Antihaemophilic Factor",
+			"authors": [
+				{
+					"family": "Toole",
+					"given": "John J."
+				},
+				{
+					"family": "Knopf",
+					"given": "John L."
+				},
+				{
+					"family": "Wozney",
+					"given": "John M."
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "312",
+			"issue": "5992",
+			"pages": "342–347",
+			"published": "1984-11",
+			"doi": "10.1038/312342a0",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "WFH Guidelines for the Management of Hemophilia, 3rd Edition",
+			"authors": [
+				{
+					"family": "Srivastava",
+					"given": "Alok"
+				},
+				{
+					"family": "Santagostino",
+					"given": "Elena"
+				},
+				{
+					"family": "Dougall",
+					"given": "Alison"
+				}
+			],
+			"etAl": true,
+			"container": "Haemophilia",
+			"volume": "26",
+			"issue": "S6",
+			"pages": "1–158",
+			"published": "2020",
+			"doi": "10.1111/hae.14046",
+			"url": "https://www1.wfh.org/publications/files/pdf-1863.pdf",
+			"accessed": "2026-10-01",
+			"note": "Read in the World Federation of Hemophilia's reprint: the dosage rule on p. 68, severity on p. 22, joint-bleed targets in Table 7-2"
+		},
+		{
+			"kind": "article",
+			"title": "Antihemophilic Factor (Recombinant) Plasma/Albumin-Free Method for the Management and Prevention of Bleeding Episodes in Patients with Hemophilia A",
+			"authors": [
+				{
+					"family": "Pipe",
+					"given": "Steven"
+				}
+			],
+			"container": "Biologics: Targets and Therapy",
+			"volume": "3",
+			"pages": "117–125",
+			"published": "2009",
+			"doi": "10.2147/btt.2009.2872",
+			"accessed": "2026-10-01",
+			"note": "Recombinate (1992) and Advate (2003), CHO cells, prophylaxis doses"
+		},
+		{
+			"kind": "article",
+			"title": "Emicizumab Prophylaxis in Hemophilia A with Inhibitors",
+			"authors": [
+				{
+					"family": "Oldenburg",
+					"given": "Johannes"
+				},
+				{
+					"family": "Mahlangu",
+					"given": "Johnny N."
+				},
+				{
+					"family": "Kim",
+					"given": "Benjamin"
+				}
+			],
+			"etAl": true,
+			"container": "New England Journal of Medicine",
+			"volume": "377",
+			"issue": "9",
+			"pages": "809–818",
+			"published": "2017",
+			"doi": "10.1056/NEJMoa1703068",
+			"accessed": "2026-10-01",
+			"abstractOnly": true
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "BioMarin Voluntarily Withdraws ROCTAVIAN® (valoctocogene roxaparvovec-rvox) from the Market",
+			"authors": [
+				{
+					"name": "BioMarin Pharmaceutical"
+				}
+			],
+			"container": "BioMarin",
+			"published": "2026-02-23",
+			"url": "https://www.biomarin.com/news/company-statements/biomarin-voluntarily-withdraws-roctavian-from-the-market/",
+			"accessed": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Emicizumab",
+			"url": "https://en.wikipedia.org/w/index.php?title=Emicizumab&oldid=1371816961",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Valoctocogene roxaparvovec",
+			"url": "https://en.wikipedia.org/w/index.php?title=Valoctocogene_roxaparvovec&oldid=1376388734",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Efanesoctocog alfa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Efanesoctocog_alfa&oldid=1296776090",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Concizumab",
+			"url": "https://en.wikipedia.org/w/index.php?title=Concizumab&oldid=1347871176",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marstacimab",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marstacimab&oldid=1361246022",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fitusiran",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fitusiran&oldid=1365396499",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chinese hamster ovary cell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chinese_hamster_ovary_cell&oldid=1376604204",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genetics Institute",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genetics_Institute&oldid=1371230864",
+			"accessed": "2026-10-01",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "media",
+			"title": "Bottles of factor viii haemophilia treatment",
+			"url": "https://commons.wikimedia.org/wiki/File:Bottles_of_factor_viii_haemophilia_treatment.jpg",
+			"accessed": "2026-10-01",
+			"container": "Wikimedia Commons",
+			"licence": "CC BY-SA 4.0",
+			"file": "factor-bottles.jpg",
+			"authors": [
+				{
+					"name": "JJEv810"
+				}
+			],
+			"published": "2017-10-01"
+		}
+	]
+}
