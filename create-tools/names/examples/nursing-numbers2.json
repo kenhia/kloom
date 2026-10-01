@@ -1,0 +1,24 @@
+{
+	"nursing/infection-control-nurse": [
+		["Torbay Hospital", "torbay-hospital"],
+		["_Staphylococcus aureus_", "staphylococcus-aureus"],
+		["infection control nurse", "infection-prevention-and-control"],
+		["Phage typing", "phage-typing"],
+		["Centers for Disease Control", "centers-for-disease-control-and-prevention"],
+		[
+			"Association for Professionals in Infection Control and Epidemiology",
+			"association-for-professionals-in-infection-control-and-epidemiology"
+		],
+		["hospital-acquired infections", "hospital-acquired-infection"],
+		["Florence Nightingale", "florence-nightingale"]
+	],
+	"nursing/hand-hygiene": [
+		["Geneva University Hospitals", "geneva-university-hospitals"],
+		["Didier Pittet", "didier-pittet"],
+		["hand washing", "hand-washing"],
+		["hand sanitizer", "hand-sanitizer"],
+		["_Staphylococcus aureus_", "staphylococcus-aureus"],
+		["World Health Organization", "world-health-organization"],
+		["Ignaz Semmelweis", "ignaz-semmelweis"]
+	]
+}

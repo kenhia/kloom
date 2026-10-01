@@ -1,0 +1,25 @@
+{
+	"title": "Minutes of every hour of intensive care spent cleaning hands, by our arithmetic",
+	"description": "Bar chart, by our arithmetic from the WHO's 2009 guidelines: an intensive care nurse meets an average of 30 opportunities for hand hygiene an hour, and the WHO times a soap-and-water wash at 40 to 60 seconds and an alcohol rub at 20 to 30 seconds. At every opportunity, washing takes 30 minutes an hour at 60 seconds and 20 minutes at 40 seconds; rubbing takes 15 minutes at 30 seconds and 10 minutes at 20 seconds. The walk to a sink is not counted.",
+	"heading": "MINUTES AN HOUR · 30 OPPORTUNITIES · ICU NURSE",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"max": 40,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"],
+			[40, "40"]
+		]
+	},
+	"bars": [
+		{ "label": "Wash", "sublabel": "60 s", "value": 30 },
+		{ "label": "Wash", "sublabel": "40 s", "value": 20 },
+		{ "label": "Rub", "sublabel": "30 s", "value": 15, "highlight": true },
+		{ "label": "Rub", "sublabel": "20 s", "value": 10, "highlight": true }
+	]
+}
