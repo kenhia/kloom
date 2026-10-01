@@ -158,5 +158,11 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-01-02"
 		}
+	],
+	"connections": [
+		{
+			"to": "nursing/instrument-table",
+			"why": "The circulator keeps the sterile field, its instrument table and Mayo stand, supplied without breaching it."
+		}
 	]
 }
