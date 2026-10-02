@@ -486,7 +486,8 @@ paper.pdf` prints the text and names the scanned pages; `--png DIR
   reader. Read the Wikipedia revision you cite, too: `wiki-cite --text
 DIR` writes its text. When a site refuses a script, or a paper is closed,
   **`skills/grow/reaching-sources.md`** gathers the routes the earlier
-  subjects found: OpenAlex for an open copy, Crossref for an abstract,
+  subjects found: OpenAlex for an open copy (through `create-tools/openalex`,
+  which carries the homelab's API key), Crossref for an abstract,
   Europe PMC and NCBI BioC for biomedical papers, the Wayback Machine's
   `id_` form (read with `curl --compressed -L`), the Internet Archive's
   full text, page images and storage paths, HAL, Figshare, `curl -k` for a
