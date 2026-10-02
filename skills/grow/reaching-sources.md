@@ -17,14 +17,19 @@ never a person, and wait when a site tells you to.
 
 ## Is there an open copy?
 
-- **OpenAlex** says whether a paper has an open copy and where:
-  `https://api.openalex.org/works/doi:<doi>` (its `open_access.oa_url`,
-  and `locations`). It often finds a later open review by the same authors
-  when the paper itself is closed (sprint 025).
-  Without an API key it spends a daily budget shared by everyone on the
-  network, and nineteen authors at once spent it in minutes ("Rate limit
-  exceeded … resets at midnight UTC"): use Crossref and Europe PMC's REST
-  API first, and keep OpenAlex for what nothing else answers (sprint 030).
+- **OpenAlex** says whether a paper has an open copy and where: run
+  `python3 create-tools/openalex/openalex.py work <doi>`, which prints its
+  open-access status, `oa_url`, every open location with its version, and
+  the abstract. It often finds a later open review by the same authors
+  when the paper itself is closed (sprint 025). **Use the tool, not
+  `curl`:** it adds the homelab's API key (k-homelab `openalex-api-key`,
+  read from `/etc/khomelab/secrets.env`) and never prints it, where a curl
+  command line would put the key in the transcript. Without a key OpenAlex
+  spends a daily budget shared by everyone on the network, and nineteen
+  authors at once spent it in minutes in sprint 030. With the key (from
+  2026-10-02) it is a first stop again, alongside Crossref and Europe
+  PMC's REST API. If the tool warns that it found no key, say so in the
+  sprint, and go back to using OpenAlex last.
 - **An abstract, at least.** For a closed paper, Crossref's `abstract`
   field (`https://api.crossref.org/works/<doi>`) or OpenAlex's
   `abstract_inverted_index` gives the abstract. Cite it with
