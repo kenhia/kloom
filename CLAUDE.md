@@ -191,6 +191,10 @@ mother's career as a Navy surgical nurse and ending on a dedication to
 her, the companion to In the Blood with 13 links written into it; the
 second author-subject run after the tuning, with its findings filed for
 decision.
+Sprint 031 ready for readers: the scene keeps to its row of the spine, the
+drawing giving way and long headlines set smaller, so nothing meets the
+HUD (`just scene-fit`, every frame at desktop and phone sizes), and
+About's note on accuracy with a Content feedback issue form.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

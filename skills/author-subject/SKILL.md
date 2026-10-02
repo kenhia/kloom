@@ -304,8 +304,9 @@ When all are in: `subject_plan.py --check` names nothing still to write
 and no problem, `just check` is green (it runs every mark spec with `mark
 --check --placed`, so a spec's mark not placed or a mark typed by hand
 fails it, and its links test refuses a connection to no frame and a mark
-on no name), and a keyboard-only pass in the browser walks the main spine
-and every trail.
+on no name), `just scene-fit <subject>` reports no scene running into the
+HUD at desktop and phone sizes, and a keyboard-only pass in the browser
+walks the main spine and every trail.
 
 ## 5. Write it down
 

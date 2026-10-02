@@ -1511,6 +1511,15 @@ pages would it be?_ The About panel answers, from the start screen's corner.
   once) and citations. Then what kloom is, the repo and the inspiration,
   credits, and the build: the commit's short hash and date, stamped by
   `vite.config.ts` at build time.
+- **A note on accuracy** (sprint 031, korg 3477; Ken's wording, edited for
+  flow) closes the panel: skills and review aim at accuracy, both views are
+  given where sources disagree, people and agents both make mistakes, and it
+  is a hobby, not scholarship. It says how to report an error: annotate the
+  words with _Agent review_ ticked, or the repo's **Content feedback** issue
+  form (`.github/ISSUE_TEMPLATE/content-feedback.yml`: subject, frame, the
+  quoted text, what is wrong, a source; labelled `content-feedback`). Blank
+  issues stay open for code bugs. It is worded for a reader who is not Ken,
+  since the public reader site will show the same panel.
 - **`just stats`** prints the same counts as a Markdown table, through the
   same engine code, for sprint records.
 
@@ -1716,3 +1725,32 @@ enters after the 1.5s palette fade is mostly done, so the words never arrive
 in the old frame's colours. The live-region announcement is unchanged, and
 screen readers get the whole headline at once. Reduced motion shows
 everything immediately.
+
+## Scene fit
+
+Sprint 031 (korg 3469). The scene keeps to its row of the spine, between
+the top HUD and the bottom one that holds the position and the counter.
+Before this sprint it was centred in a `1fr` row and free to overflow it. A
+three-line headline pushed the drawing up into the chapter label and the
+metadata down into the counter, on 292 frames at 1280×800 or 1400×900 and
+361 at 390 wide. The counter already had its own row in the spine's grid,
+so the fix keeps the scene in its row rather than moving the counter (Ken,
+2026-10-01: "put the counter in the flow"):
+
+- **The drawing gives way.** The scene is a column that fills its row
+  (`minmax(0, 1fr)`): the headline and the metadata take the height they
+  need, and the drawing shrinks into what is left, down to nothing on a
+  very short pane. The scene is still centred in its row, and a scene that
+  fits looks as it did before.
+- **Headline type scales down with length.** Up to 26 characters
+  (headline, space and accent) the type is as before. Past that it shrinks
+  with the square root of the excess, to no less than 0.7 of its size at
+  about 52 characters, the longest in the library. Long headlines wrap less.
+- **No content rule.** There is no cap on headline length in the validator,
+  and no headline was rewritten.
+- **`just scene-fit [subject…]`** checks every frame at 1280×800, 1400×900
+  and 390×844, with motion reduced, for anything in the scene running into
+  either HUD and for the counter over the metadata. It uses the machine's
+  Playwright and Chromium (`create-tools/scene-fit/scene_fit.mjs`), so it
+  is not part of `just check`. It starts a dev server unless one answers on
+  :5415, and takes about four minutes for the whole library.
