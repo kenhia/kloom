@@ -361,3 +361,18 @@ thinking-off one included, so the comparison can be run again.
 
 - None open. korg 3490 (ask's 250-word limit) was decided in the sprint:
   it is a soft limit.
+
+## Deployed
+
+2026-10-02, `7bbabb7` to the kloom service on kai, by `just deploy` (the
+`recipe: deploy` line in `.sprint-deploy`). It built from merged `main`,
+installed, restarted, and passed its own ten checks: both doors read, the
+tailnet door refuses anonymous writes and reader-data reads, the ssh door
+lets its reader through, frame bodies come from the library, and pages are
+compressed. Library build `e7273b`.
+
+Verified live for this sprint: the deployed `kloom.config.json` lists only
+`claude-sonnet-5` and `claude-opus-5-5`, and the page served on :4891
+offers those two and no Haiku. Nothing else this sprint changed runs in the
+service: `bench/ask-eval/` is a dev tool, and the soft limit changed no
+code.
