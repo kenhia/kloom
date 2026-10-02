@@ -180,3 +180,14 @@ the citation and the fault, and both files were restored.
 - korg 3487: navy-pow's Guam details that rest only on IA snippets. They
   need re-sourcing or cutting, a content decision (item 10 applied
   retroactively).
+
+## Deployed
+
+2026-10-02, to kai, by `just deploy` (`.sprint-deploy`) from merged `main`
+`98042bf` (PR #39). The recipe's probes all passed: both doors read, the
+tailnet door refuses anonymous writes and reader reads, a frame's body
+comes from the library, and pages go compressed. The library was rebuilt
+(`3a6ac9`). The service shows this sprint's work: nurse-anesthetist serves
+_Frank v. South_ with its name in italics, nurse-rank serves "Pub. L. No.
+80-36, 61 Stat. 41", and leaded-petrol's chart carries "Data:" in its
+entry and "data doi:10.1289/EHP7932" in its caption.
