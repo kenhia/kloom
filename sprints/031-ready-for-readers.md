@@ -110,5 +110,6 @@ doors. Live checks of this sprint's work:
   `issues/new?template=content-feedback.yml` link.
 - The issue form: GitHub's page for
   `.github/ISSUE_TEMPLATE/content-feedback.yml` on `main` renders the
-  form's fields with no template error. The new-issue pages need a
-  signed-in session, so the signed-in preview was not seen.
+  form's fields with no template error. Ken then opened the new-issue
+  page signed in (2026-10-02): every field, the intro and the `[content]`
+  title prefix render, and the `content-feedback` label is applied.
