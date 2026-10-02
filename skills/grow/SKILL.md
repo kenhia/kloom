@@ -407,7 +407,13 @@ knowledge is not a source.
 
 ## Before you finish
 
-Check your own work against this list; the validator will:
+Check your own work against this list. **The job runs the validator after
+you finish**, not you: you have no shell, and you don't need one. It commits
+only what passes, and the commit says `Validated: yes`. So don't write in
+your summary that the work hasn't been validated; say what you could and
+could not read. After you, a reviewer with a shell checks the facts against
+your sources before anything reaches `main` (`skills/review-grown`). The
+validator checks:
 
 - every new frame is on exactly one spine, its directory name and `id`
   match, and `date` segments stay in order;

@@ -76,6 +76,23 @@
 		},
 		{
 			"kind": "article",
+			"key": true,
+			"title": "Navy Nurse: The Story of the Capture of Guam",
+			"authors": [
+				{
+					"family": "Olds",
+					"given": "Marion"
+				}
+			],
+			"container": "Sensation",
+			"published": "1943-02",
+			"url": "https://www.mansell.com/pow_resources/newspaper/newsfrompast.html#Story_of_Marion_Olds",
+			"mirror": true,
+			"accessed": "2026-10-02",
+			"note": "The chief nurse's own account of Guam, Zentsuji, Kobe and the exchange, transcribed on Roger Mansell's site"
+		},
+		{
+			"kind": "article",
 			"title": "I Was on Guam",
 			"authors": [
 				{
@@ -119,15 +136,21 @@
 			"container": "Naval History and Heritage Command",
 			"publisher": "Naval History and Heritage Command",
 			"published": "2025-01-16",
-			"url": "https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
-			"accessed": "2026-10-01"
+			"url": "https://web.archive.org/web/20251208233725/https://www.history.navy.mil/browse-by-topic/communities/navy-medicine/navy-nurse-corps/the-history-of-the-navy-nurse-corps.html",
+			"accessed": "2026-10-02"
 		},
 		{
 			"kind": "web",
 			"title": "WWII: Prisoners of War Sent to Japan",
+			"authors": [
+				{
+					"family": "Murphy",
+					"given": "Shannon J."
+				}
+			],
 			"container": "Guampedia",
 			"url": "https://www.guampedia.com/wwii-prisoners-of-war-sent-to-japan/",
-			"accessed": "2026-10-01"
+			"accessed": "2026-10-02"
 		},
 		{
 			"kind": "wikipedia",

@@ -594,7 +594,13 @@ Built in sprint 005 (korg 3364).
   Model: <model id> (<provider>)
   Web: yes|no
   Requested-by: <name> <<login>> (<via>)   (when the job has a requester)
+  Validated: yes
   ```
+
+  `Validated: yes` (sprint 036) says the job ran `validate()`, which it does
+  before every commit. The model can't run it: it has no shell, and once
+  wrote that its work had not been validated (`8dfc521`). It says nothing
+  about the facts; §Reviewing grown content does.
 
 - **The queue** (`GrowQueue`, `src/lib/server/grow.ts`) runs one job at a
   time, separately from ask's turns, and lets ten wait. There is one queue
@@ -607,6 +613,20 @@ Built in sprint 005 (korg 3364).
   waits again. A `running` job is re-run from a fresh copy, once, since
   nothing was applied. An `applying` job is failed with "check git status",
   because the subject may be half-written.
+- **One running copy of a job** (sprint 036, korg 3486). The queues and
+  the runner slot live on `globalThis` (`grow-service.ts`), so a dev server
+  that reloads the server modules mid-job keeps the queue that is running
+  it. Reloaded code takes over at the next restart. While a job runs,
+  `<id>.lock` beside its record names the server's process and, once it
+  starts, the model's (the provider reports it through `onSpawn`). A queue
+  that loads a `running` or `applying` job with a live lock (its model
+  process alive, or written by this same process) does not resume it. It
+  waits until the lock clears, takes the outcome the other instance
+  recorded, and runs nothing else meanwhile. A lock whose model and server
+  are gone is stale, and the job resumes as above. A server process id
+  from an earlier run is not trusted on its own, since a restart may reuse
+  it. The service needs none of this to be safe, since a restart kills the
+  unit's control group (korg 3384), but a hard stop is safe with it too.
 - **The model** is the reader's "Grow model" setting (default Opus 5.5,
   `grow.defaultModel`), captured when the job is queued. The server honours
   it only if the config lists it. The job and the commit record it.
@@ -1047,9 +1067,20 @@ was built from or developed in.
   grows into, a clone under its state directory
   (`~/.local/share/kloom/content`), checked out on `grow/<host>`
   (`$KLOOM_GROW_BRANCH`). A grow commits there and pushes the branch. Content
-  comes back to main by an ordinary PR, reviewed like any other change.
-  Unset, as in dev, grow commits wherever the subjects are and pushes
-  nothing.
+  comes back to main only through review (§Reviewing grown content).
+- **A dev server grows to a branch too** (sprint 036, korg 3442), so a grow
+  never commits to the branch the author has checked out, and `main` only
+  ever receives reviewed content. With `$KLOOM_GROW_BRANCH` unset, a grow
+  commits to `grow/dev-<host>` in a worktree of the checkout
+  (`growWorktree`, `src/lib/server/grow-branches.ts`). The worktree lives
+  outside the checkout, under `~/.cache/kloom/` or `$KLOOM_GROW_WORKTREE`,
+  where the checkout's tools never see it. It is made from `main` the first
+  time. Before each job it moves to `main` once main has all its content and
+  it has no changes of its own. The branch is pushed, as the service's is.
+  The dev server goes on showing the checkout, so grown frames appear once
+  they are reviewed and merged, and the AI pane says where they went. The
+  formatting config is resolved in the checkout, since the worktree has no
+  `node_modules`.
 - **One long-lived branch, not one per job.** Jobs build on each other: the
   next one reads the subject the last one grew. The branch is the service's
   own, so nobody else pushes to it. Review edits go into the PR's merge, or
@@ -1060,8 +1091,10 @@ was built from or developed in.
   - If it is ahead (grown work waiting for its PR), it is left alone.
   - If the grown work reached main another way (a squash or rebase merge),
     main has some commit holding the grown paths exactly as the branch had
-    them, even if main edited them since. The branch is reset to main then,
-    or only its unmerged tail is rebased onto main.
+    them, even if main edited them since. Or a review merged it with
+    repairs, and main's history carries its `Grow-reviewed` trailer
+    (sprint 036). The branch is reset to main then, or only its unmerged
+    tail is rebased onto main.
   - Anything else is rebased onto main. A rebase that conflicts is
     abandoned, and the clone keeps serving as it was ("diverged" in the
     journal) until a person sorts it out.
@@ -1074,6 +1107,52 @@ was built from or developed in.
   build to `~/.local/share/kloom/app` and restarts the unit. The push uses
   the host user's existing GitHub credential, since the service already runs
   as that user; no new credential was minted.
+
+## Reviewing grown content
+
+Built in sprint 036 (korg 3442, Ken's decisions of 2026-10-02). `main` is
+what the public reader site publishes (korg 3458), so **grown content
+reaches it only through review**.
+
+- **Where it waits.**
+  - The service's `grow/kai`.
+  - A dev server's `grow/dev-<host>`.
+  - Older `grow-*` branches.
+- **"Correct" for grown content** is what the reviewer checks, with the
+  shell, tools and web the grow job lacked:
+  - **It validates.** The job already enforces this.
+  - **The fact rule:** each claim against the source it rests on, read in
+    full: PDFs with `read-source`, papers through `openalex`, and the
+    routes in `skills/grow/reaching-sources.md`.
+  - **Names and connections:** each grown name's Wikidata ID is the right
+    item, and each connection's _why_ is true against the other frame's
+    reading.
+  - **House style and plate quality.** Citations resolve, and `read`,
+    `citedIn` and `mirror` are used as the grow skill says.
+  - **An accurate commit message.**
+- **How** (`skills/review-grown/SKILL.md`):
+  1. Cherry-pick the pending grow commits onto a review branch from `main`.
+  2. Repair what can be repaired, as commits of its own, and flag what
+     can't.
+  3. Open a PR that lists both.
+  4. Merge it by default when the checks pass (agent-skills korg:3422's
+     rule). The PR stays open for Ken only when a flag is his call.
+- **Reviewed state is a git fact, not a judgement.** The review's squash
+  ends with `Grow-reviewed: <tip sha> (<ref>)`. A grow branch is
+  **merged** when `main` has all its content in one of three ways:
+  - its commits are in `main`'s history;
+  - a commit on `main` holds its paths as it left them (a squash merge, even
+    one edited since);
+  - main's history carries a trailer naming one of its commits.
+
+  The trailer is what lets a review repair grown files on the way in: the
+  service's sync then resets `grow/kai` onto `main` instead of rebasing the
+  original over the repair, and a dev worktree moves on.
+
+- **Every sprint checks first.** `just grow-pending` fetches, lists every
+  grow branch local and on origin, and exits 1 when one is pending. kloom's
+  `CLAUDE.md` tells a sprint to run it before its own work, and to review
+  anything it lists as a PR of its own.
 
 ## Serving
 

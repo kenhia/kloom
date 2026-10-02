@@ -141,6 +141,26 @@ verify:
 bench times="5" *args: build
     node bench/content.mjs --times {{ times }} {{ args }}
 
+# Grow branches with content main lacks (korg 3442): the sprint-start check in
+# CLAUDE.md. Fetches first; exits 1 when one is pending, so it reads as a gate.
+# A squash-merged or since-edited branch counts as merged. Review with
+# skills/review-grown.
+# List grow branches waiting for review
+grow-pending:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    git fetch --quiet origin
+    node --input-type=module -e "
+    import { runnerImport } from 'vite';
+    const { module: m } = await runnerImport('./src/lib/server/grow-branches.ts', { configFile: false, logLevel: 'error' });
+    const states = await m.growBranches('.', 'origin/main');
+    const waiting = states.filter((b) => !b.merged);
+    for (const b of states) console.log((b.merged ? 'merged   ' : 'PENDING  ') + b.ref + (b.merged ? '' : '  (' + b.ahead + ' commit(s) ahead of origin/main)'));
+    if (!states.length) console.log('no grow branches');
+    if (waiting.length) { console.log('\n' + waiting.length + ' grow branch(es) to review first: skills/review-grown/SKILL.md'); process.exit(1); }
+    console.log('nothing pending');
+    "
+
 # Evaluate ask providers (korg 3483): every question in
 # bench/ask-eval/questions.json asked as ask asks it, under Sonnet 5 and the RA
 # (kvllm's resident model) at three reasoning efforts, graded blind by Opus 5.5.

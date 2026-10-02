@@ -1,4 +1,4 @@
-import { execFileSync } from 'node:child_process';
+import { execFileSync, spawn } from 'node:child_process';
 import { cp, mkdtemp, readdir, readFile, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -8,7 +8,15 @@ import type { GrowJob } from '$engine/ai/grow';
 import type { GrowRequest, Provider, ProviderEvent } from '$engine/ai/provider';
 import { loadSubject } from '$engine/load';
 import type { Spine } from '$engine/model';
-import { commitMessage, GrowQueue, runGrowJob, stripFrontmatter, type GrowHost } from './grow';
+import {
+	commitMessage,
+	GrowQueue,
+	lockLive,
+	runGrowJob,
+	stripFrontmatter,
+	type GrowHost,
+	type GrowLock
+} from './grow';
 
 const source = join(import.meta.dirname, '..', '..', '..', 'subjects', 'western-civ');
 const git = (cwd: string, ...args: string[]) =>
@@ -346,6 +354,8 @@ describe('a grow job', () => {
 		);
 		expect(msg).toContain('Kept answer: 20260927T170509Z-0a1b2c3d');
 		expect(msg).toContain('Web: yes');
+		// The job validated it; the model, with no shell, could not (korg 3442).
+		expect(msg.split('\n').at(-1)).toBe('Validated: yes');
 		expect(stripFrontmatter('---\na: b\n---\n\nBody')).toBe('Body');
 	});
 });
@@ -429,5 +439,126 @@ describe('the grow queue', () => {
 			status: 'failed',
 			error: expect.stringContaining('check git status')
 		});
+	});
+
+	// korg 3486: a second queue on the same jobs (a dev server's reloaded
+	// modules, or a restart the model process outlived) must not start the
+	// job again beside the first.
+	describe('the job lock', () => {
+		const sleeper = () => spawn('sleep', ['30'], { stdio: 'ignore' });
+		const exited = (p: ReturnType<typeof sleeper>) =>
+			new Promise((r) => (p.exitCode !== null || p.signalCode !== null ? r(0) : p.on('exit', r)));
+		const done = {
+			ok: true as const,
+			result: { frames: [], trails: [], commit: 'abc', summary: '' }
+		};
+		const until = async (ok: () => Promise<boolean>) => {
+			for (let i = 0; i < 500 && !(await ok()); i++) await new Promise((r) => setTimeout(r, 10));
+		};
+
+		it('a second queue adopts a job in flight: one model process, one commit', async () => {
+			const dir = await mkdtemp(join(tmpdir(), 'kloom-grow-jobs-'));
+			const children: number[] = [];
+			const commits: string[] = [];
+			let release!: () => void;
+			const gate = new Promise<void>((r) => (release = r));
+			const first = new GrowQueue(dir, async (_j, _progress, onSpawn) => {
+				const model = sleeper();
+				children.push(model.pid!);
+				onSpawn(model.pid!);
+				await gate;
+				model.kill();
+				await exited(model);
+				commits.push('abc');
+				return done;
+			});
+			const queued = await first.add(fields);
+			const lock = join(dir, `${queued.id}.lock`);
+			await until(async () =>
+				(await readFile(lock, 'utf8').catch(() => '')).includes(`"child":${children[0]}`)
+			);
+
+			const second = new GrowQueue(
+				dir,
+				async () => (children.push(-1), commits.push('again'), done),
+				10,
+				() => new Date(),
+				10
+			);
+			await second.load();
+			expect(second.get(queued.id)).toMatchObject({ status: 'running' });
+			release();
+			await first.idle();
+			await second.idle();
+			expect(children).toHaveLength(1);
+			expect(commits).toEqual(['abc']);
+			expect(second.get(queued.id)).toMatchObject({
+				status: 'done',
+				attempts: 1,
+				result: { commit: 'abc' }
+			});
+			await expect(readFile(lock)).rejects.toThrow();
+		});
+
+		const persistRunning = async (dir: string, lock: GrowLock) => {
+			const id = '20260927T180001Z-00000001';
+			await writeFile(
+				join(dir, `${id}.json`),
+				JSON.stringify(job({ id, status: 'running', attempts: 1 }))
+			);
+			await writeFile(join(dir, `${id}.lock`), JSON.stringify(lock));
+			return id;
+		};
+
+		it('resumes a job whose lock is stale: its model process and server are gone', async () => {
+			const dir = await mkdtemp(join(tmpdir(), 'kloom-grow-jobs-'));
+			const gone = sleeper();
+			gone.kill();
+			await exited(gone);
+			const id = await persistRunning(dir, { server: process.pid + 1_000_000, child: gone.pid! });
+			let runs = 0;
+			const queue = new GrowQueue(
+				dir,
+				async () => (runs++, done),
+				10,
+				() => new Date(),
+				10
+			);
+			await queue.load();
+			await queue.idle();
+			expect(runs).toBe(1);
+			expect(queue.get(id)).toMatchObject({ status: 'done', attempts: 2 });
+			await expect(readFile(join(dir, `${id}.lock`))).rejects.toThrow();
+		});
+
+		it('waits for a model process that outlived its server, then resumes the job', async () => {
+			const dir = await mkdtemp(join(tmpdir(), 'kloom-grow-jobs-'));
+			const orphan = sleeper();
+			const id = await persistRunning(dir, { server: process.pid + 1_000_000, child: orphan.pid! });
+			let runs = 0;
+			const queue = new GrowQueue(
+				dir,
+				async () => (runs++, done),
+				10,
+				() => new Date(),
+				10
+			);
+			await queue.load();
+			await new Promise((r) => setTimeout(r, 50));
+			expect(runs).toBe(0);
+			expect(queue.get(id)).toMatchObject({ status: 'running' });
+			orphan.kill();
+			await queue.idle();
+			expect(runs).toBe(1);
+			expect(queue.get(id)).toMatchObject({ status: 'done', attempts: 2 });
+		});
+	});
+
+	it('trusts a lock by its model process, or by this process having written it', () => {
+		const alive = (pid: number) => pid === 7;
+		expect(lockLive({ server: process.pid + 1_000_000, child: 7 }, alive)).toBe(true);
+		expect(lockLive({ server: process.pid + 1_000_000, child: 8 }, alive)).toBe(false);
+		expect(lockLive({ server: process.pid + 1_000_000, child: null }, alive)).toBe(false);
+		expect(lockLive({ server: process.pid, child: null }, alive)).toBe(true);
 	});
 });

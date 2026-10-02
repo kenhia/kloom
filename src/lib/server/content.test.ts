@@ -99,6 +99,36 @@ describe('syncContent', () => {
 		expect(remoteGrow()).toBe(git(origin, 'rev-parse', 'main'));
 	});
 
+	// korg 3442: review-grown may repair grown content on its way into main, so
+	// main never holds the grow branch's exact files. Its trailer says so.
+	const reviewMerge = async (trailer: boolean) => {
+		await syncContent(clone, BRANCH);
+		const tip = remoteGrow();
+		git(ken, 'fetch', '-q');
+		git(ken, 'merge', '-q', '--squash', `origin/${BRANCH}`);
+		await writeFile(join(ken, 'subjects/s/x'), 'x, repaired in review');
+		git(ken, 'add', '.');
+		const message = trailer
+			? `grown content\n\nGrow-reviewed: ${tip} (${BRANCH})`
+			: 'grown content';
+		git(ken, 'commit', '-q', '-m', message);
+		git(ken, 'push', '-q', 'origin', 'main');
+	};
+
+	it('resets to main after a review that repaired the grown files on the way in', async () => {
+		await grow('x', 'a', 'x', 'b', 'c');
+		await reviewMerge(true);
+		expect((await syncContent(clone, BRANCH)).outcome).toBe('merged');
+		expect(git(clone, 'rev-parse', 'HEAD')).toBe(git(origin, 'rev-parse', 'main'));
+		expect(await read(clone, 'subjects/s/x')).toBe('x, repaired in review');
+	});
+
+	it('without the review trailer, a repaired merge is not recognised', async () => {
+		await grow('x', 'a', 'x', 'b', 'c');
+		await reviewMerge(false);
+		expect((await syncContent(clone, BRANCH)).outcome).not.toBe('merged');
+	});
+
 	it('keeps a job grown after the PR, rebased onto the squash', async () => {
 		await grow('x', 'a', 'x', 'b', 'c');
 		await syncContent(clone, BRANCH);

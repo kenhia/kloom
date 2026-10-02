@@ -187,7 +187,8 @@ export class ClaudeCliProvider implements Provider {
 		model,
 		web,
 		timeoutMs,
-		signal
+		signal,
+		onSpawn
 	}: GrowRequest): AsyncIterable<ProviderEvent> {
 		yield* this.#run({
 			args: growArgs(model, instructions, web),
@@ -195,6 +196,7 @@ export class ClaudeCliProvider implements Provider {
 			cwd: workDir,
 			timeoutMs,
 			signal,
+			onSpawn,
 			status: growStatus,
 			restartOnTool: false
 		});
@@ -214,6 +216,7 @@ export class ClaudeCliProvider implements Provider {
 		status: (tool: string) => ProviderStatus;
 		/** Ask: text before a tool was thinking aloud, so the answer restarts. */
 		restartOnTool: boolean;
+		onSpawn?: (pid: number) => void;
 	}): AsyncIterable<ProviderEvent> {
 		const { signal, timeoutMs } = o;
 		if (signal?.aborted) return;
@@ -225,6 +228,7 @@ export class ClaudeCliProvider implements Provider {
 			yield { type: 'error', message: `Could not start the model: ${(e as Error).message}` };
 			return;
 		}
+		if (child.pid !== undefined) o.onSpawn?.(child.pid);
 
 		let stopped: 'timeout' | 'abort' | null = null;
 		const kill = (why: 'timeout' | 'abort') => {

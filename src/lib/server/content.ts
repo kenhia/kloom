@@ -3,6 +3,7 @@ import { promisify } from 'node:util';
 import { env } from '$env/dynamic/private';
 import { subjectsDir } from './config';
 import { GROW_AUTHOR } from './grow';
+import { lastMerged } from './grow-branches';
 
 /**
  * The service's content clone (korg 3412; docs/deploying.md). A service
@@ -24,7 +25,6 @@ const succeeds = (cwd: string, args: string[]) =>
 		() => true,
 		() => false
 	);
-const lines = (s: string) => s.split('\n').filter(Boolean);
 const AS_GROW = ['-c', `user.name=${GROW_AUTHOR.name}`, '-c', `user.email=${GROW_AUTHOR.email}`];
 
 /** The grow branch, or null when this is not a service with a content clone. */
@@ -54,27 +54,6 @@ export async function pushGrowBranch(repo: string, branch: string, force = false
 
 export type SyncOutcome =
 	'up to date' | 'ahead' | 'fast-forwarded' | 'merged' | 'rebased' | 'diverged' | 'dirty';
-
-/**
- * The newest grow commit whose content main already has: some commit on main
- * holds every path it and the commits before it touched exactly as it left
- * them. That is how a squash or rebase merge of the grow branch shows up,
- * and it still matches after main edits those files further.
- */
-async function lastMerged(repo: string, base: string, upstream: string): Promise<string | null> {
-	const grown = lines(await git(repo, ['rev-list', '--reverse', `${base}..HEAD`]));
-	const onMain = lines(await git(repo, ['rev-list', `${base}..${upstream}`]));
-	let found: string | null = null;
-	for (const commit of grown) {
-		const paths = lines(await git(repo, ['diff', '--name-only', base, commit]));
-		for (const m of onMain)
-			if (await succeeds(repo, ['diff', '--quiet', commit, m, '--', ...paths])) {
-				found = commit;
-				break;
-			}
-	}
-	return found;
-}
 
 /**
  * Bring merged main into the grow branch, and push it. Never loses grown

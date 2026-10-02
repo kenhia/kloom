@@ -80,6 +80,14 @@ export interface GrowHost {
 	exclusive?: <T>(fn: () => Promise<T>) => Promise<T>;
 	now?: () => Date;
 	signal?: AbortSignal;
+	/** Told each model process's id as it starts, for the queue's lock. */
+	onSpawn?: (pid: number) => void;
+	/**
+	 * Where the repo's formatting config is looked up, when the subject is in
+	 * a worktree with no `node_modules` of its own (a dev grow); the subject
+	 * by default.
+	 */
+	formatAs?: string;
 }
 
 /** A job's outcome: its result, or why it failed. */
@@ -254,7 +262,8 @@ export async function runGrowJob(
 				model: job.model,
 				web: job.web,
 				timeoutMs: host.timeoutMs,
-				signal: host.signal
+				signal: host.signal,
+				onSpawn: host.onSpawn
 			})) {
 				if (event.type === 'error') {
 					keep = true;
@@ -277,7 +286,7 @@ export async function runGrowJob(
 			};
 		}
 
-		await formatGrown(work, host.subjectDir, checked.growth);
+		await formatGrown(work, host.formatAs ?? host.subjectDir, checked.growth);
 		progress('committing');
 		const apply = () =>
 			applyGrowth(job, host, work, before, namesBefore, checked!.after!, checked!.growth, summary);
@@ -356,7 +365,9 @@ export function commitMessage(job: GrowJob, subject: string, growth: Growth, sum
 		...(growth.names?.length ? [`Names: ${growth.names.join(', ')}`] : []),
 		`Model: ${job.model} (${job.provider})`,
 		`Web: ${job.web ? 'yes' : 'no'}`,
-		...(job.by ? [`Requested-by: ${requester(job.by)} (${job.by.via})`] : [])
+		...(job.by ? [`Requested-by: ${requester(job.by)} (${job.by.via})`] : []),
+		// The job commits only what passed validate() (korg 3442); the model cannot run it.
+		'Validated: yes'
 	].join('\n');
 }
 
@@ -469,6 +480,42 @@ export const mainSpineFrames = (spine: Spine) => spine.segments.flatMap((s) => s
  * applied), once; an `applying` one is failed, because the subject may be
  * half-written, and the reader is told to check git.
  */
+/**
+ * A running job's lock, `<id>.lock` beside its record: which server process
+ * runs it, and its model process once one has started (korg 3486). A second
+ * queue on the same jobs directory (a dev server's reloaded modules, or a
+ * restart that left the model running) finds it and waits rather than
+ * starting the job again.
+ */
+export interface GrowLock {
+	server: number;
+	child: number | null;
+}
+
+/** Whether a process exists; a process we may not signal still exists. */
+export function processAlive(pid: number): boolean {
+	try {
+		process.kill(pid, 0);
+		return true;
+	} catch (e) {
+		return (e as NodeJS.ErrnoException).code === 'EPERM';
+	}
+}
+
+/**
+ * Whether a lock still holds its job: its model process is alive, or this
+ * very process wrote it (another instance of the queue, mid-job). A server
+ * id from an earlier run is not trusted, since a restart may reuse it.
+ */
+export const lockLive = (lock: GrowLock, alive = processAlive) =>
+	(lock.child !== null && alive(lock.child)) || lock.server === process.pid;
+
+export type GrowRunner = (
+	job: GrowJob,
+	progress: (text: string) => void,
+	onSpawn: (pid: number) => void
+) => Promise<GrowOutcome>;
+
 export class GrowQueue {
 	#jobs = new Map<string, GrowJob>();
 	#loaded: Promise<void> | null = null;
@@ -478,37 +525,35 @@ export class GrowQueue {
 
 	constructor(
 		readonly jobsDir: string,
-		readonly runner: (job: GrowJob, progress: (text: string) => void) => Promise<GrowOutcome>,
+		readonly runner: GrowRunner,
 		readonly maxQueued = 10,
-		readonly now: () => Date = () => new Date()
+		readonly now: () => Date = () => new Date(),
+		/** How often an adopted job's lock is looked at. */
+		readonly pollMs = 1000,
+		readonly alive: (pid: number) => boolean = processAlive
 	) {}
 
 	/** Read the persisted jobs and recover from a restart; then start the next one. */
 	load(): Promise<void> {
 		this.#loaded ??= (async () => {
 			await mkdir(this.jobsDir, { recursive: true });
+			let adopted: GrowJob | null = null;
 			for (const f of (await readdir(this.jobsDir)).filter((f) => f.endsWith('.json'))) {
 				try {
 					const job = JSON.parse(await readFile(join(this.jobsDir, f), 'utf8')) as GrowJob;
 					if (job.kind !== 'kloom.grow-job') continue;
 					this.#jobs.set(job.id, job);
-					if (job.status === 'running') {
-						if (job.attempts >= 2)
-							this.#finish(job, 'A server restart interrupted this job twice.');
-						else Object.assign(job, { status: 'queued', progress: 'restarted' });
-						await this.#save(job);
-					} else if (job.status === 'applying') {
-						this.#finish(
-							job,
-							'A server restart interrupted this job while it was writing to the subject; check git status.'
-						);
-						await this.#save(job);
-					}
+					if (job.status !== 'running' && job.status !== 'applying') continue;
+					const lock = await this.#readLock(job.id);
+					if (lock && lockLive(lock, this.alive)) adopted = job;
+					else await this.#interrupted(job);
 				} catch (e) {
 					console.error(`grow: could not read job ${f}`, e);
 				}
 			}
-			this.#pump();
+			// A job another instance is running: wait for it, and run nothing else meanwhile.
+			if (adopted) this.#adopt(adopted);
+			else this.#pump();
 		})();
 		return this.#loaded;
 	}
@@ -562,6 +607,72 @@ export class GrowQueue {
 		while (this.#busy) await new Promise((r) => setTimeout(r, 10));
 	}
 
+	/** A job a restart stopped: run it again once, unless it was writing to the subject. */
+	async #interrupted(job: GrowJob) {
+		if (job.status === 'applying')
+			this.#finish(
+				job,
+				'A server restart interrupted this job while it was writing to the subject; check git status.'
+			);
+		else if (job.attempts >= 2) this.#finish(job, 'A server restart interrupted this job twice.');
+		else Object.assign(job, { status: 'queued', progress: 'restarted' });
+		await this.#save(job);
+		await this.#unlock(job.id);
+	}
+
+	/**
+	 * Wait on a job another instance holds the lock for, then take what it
+	 * left: its outcome if it finished, or a restart if it died mid-job.
+	 */
+	#adopt(job: GrowJob) {
+		this.#busy = true;
+		(async () => {
+			for (;;) {
+				await new Promise((r) => setTimeout(r, this.pollMs));
+				const lock = await this.#readLock(job.id);
+				if (!lock || !lockLive(lock, this.alive)) break;
+			}
+			const now = JSON.parse(
+				await readFile(join(this.jobsDir, `${job.id}.json`), 'utf8')
+			) as GrowJob;
+			this.#jobs.set(job.id, now);
+			if (now.status === 'running' || now.status === 'applying') await this.#interrupted(now);
+		})()
+			.catch((e) => console.error(`grow: could not adopt job ${job.id}`, e))
+			.finally(() => {
+				this.#busy = false;
+				this.#pump();
+			});
+	}
+
+	#lockPath = (id: string) => join(this.jobsDir, `${id}.lock`);
+
+	async #readLock(id: string): Promise<GrowLock | null> {
+		try {
+			return JSON.parse(await readFile(this.#lockPath(id), 'utf8')) as GrowLock;
+		} catch {
+			return null;
+		}
+	}
+
+	/** Lock writes run one after another, so a late write never outlives the unlock. */
+	#locking: Promise<void> = Promise.resolve();
+
+	#lockOp(op: () => Promise<void>): Promise<void> {
+		const done = this.#locking.then(op);
+		this.#locking = done.catch((e) => console.error('grow: lock write failed', e));
+		return done;
+	}
+
+	#lock = (id: string, lock: GrowLock) =>
+		this.#lockOp(async () => {
+			const tmp = join(this.jobsDir, `.${id}.lock.tmp`);
+			await writeFile(tmp, JSON.stringify(lock));
+			await rename(tmp, this.#lockPath(id));
+		});
+
+	#unlock = (id: string) => this.#lockOp(() => rm(this.#lockPath(id), { force: true }));
+
 	#finish(job: GrowJob, error: string, problems?: string[]) {
 		Object.assign(job, { status: 'failed', error, problems, finishedAt: this.now().toISOString() });
 		delete job.progress;
@@ -591,11 +702,16 @@ export class GrowQueue {
 				startedAt: this.now().toISOString()
 			});
 			await this.#save(next);
-			const outcome = await this.runner(next, (text) => {
-				next.progress = text;
-				if (text === 'committing') next.status = 'applying';
-				void this.#save(next).catch(() => {});
-			}).catch((e): GrowOutcome => ({ ok: false, error: (e as Error).message }));
+			await this.#lock(next.id, { server: process.pid, child: null });
+			const outcome = await this.runner(
+				next,
+				(text) => {
+					next.progress = text;
+					if (text === 'committing') next.status = 'applying';
+					void this.#save(next).catch(() => {});
+				},
+				(pid) => void this.#lock(next.id, { server: process.pid, child: pid }).catch(() => {})
+			).catch((e): GrowOutcome => ({ ok: false, error: (e as Error).message }));
 			if (outcome.ok) {
 				Object.assign(next, {
 					status: 'done',
@@ -607,7 +723,8 @@ export class GrowQueue {
 			await this.#save(next);
 		})()
 			.catch((e) => console.error('grow: job bookkeeping failed', e))
-			.finally(() => {
+			.finally(async () => {
+				await this.#unlock(next.id).catch(() => {});
 				this.#busy = false;
 				this.#pump();
 			});

@@ -1,5 +1,7 @@
 import { readFile } from 'node:fs/promises';
-import { join, resolve } from 'node:path';
+import { homedir, hostname } from 'node:os';
+import { basename, join, relative, resolve } from 'node:path';
+import { env } from '$env/dynamic/private';
 import type { GrowJob } from '$engine/ai/grow';
 import { keptAnswerProblems, type KeptAnswer } from '$engine/ai/kept';
 import { loadAppConfig } from './app-config';
@@ -7,6 +9,7 @@ import { providerFor } from './ask';
 import { dataDir, listSubjects, namesDir, subjectDirFor } from './config';
 import { contentRepo, growBranch, offBranch, pushGrowBranch } from './content';
 import { GrowQueue, runGrowJob } from './grow';
+import { devGrowBranch, growWorktree } from './grow-branches';
 import { readerStore } from './reader-store';
 import { exclusive, servedGraph } from './subject';
 
@@ -46,18 +49,40 @@ export async function readKept(
 	}
 }
 
-/** The host's one grow slot; each job waits for the one before it, of any subject. */
-let slot: Promise<unknown> = Promise.resolve();
-let holders = 0;
+/**
+ * The process's grow state: every subject's queue and the host's one runner
+ * slot. It lives on `globalThis`, not in this module, so a dev server that
+ * reloads the server modules mid-job keeps the queue that is running it,
+ * rather than building a second one that resumes the job and starts a second
+ * model process beside the first (korg 3486). The reloaded code takes over
+ * at the next restart. The jobs' locks (grow.ts) cover what this cannot: a
+ * second process on the same data directory.
+ */
+interface GrowState {
+	queues: Map<string, GrowQueue>;
+	/** Each job waits for the one before it, of any subject. */
+	slot: Promise<unknown>;
+	holders: number;
+}
 
-function runner(job: GrowJob, progress: (text: string) => void) {
-	if (holders++ > 0) progress('waiting for another subject’s grow job');
-	const run = slot.then(() => runOne(job, progress)).finally(() => holders--);
-	slot = run.catch(() => {});
+const state: GrowState = ((globalThis as { kloomGrow?: GrowState }).kloomGrow ??= {
+	queues: new Map(),
+	slot: Promise.resolve(),
+	holders: 0
+});
+
+function runner(job: GrowJob, progress: (text: string) => void, onSpawn: (pid: number) => void) {
+	if (state.holders++ > 0) progress('waiting for another subject’s grow job');
+	const run = state.slot.then(() => runOne(job, progress, onSpawn)).finally(() => state.holders--);
+	state.slot = run.catch(() => {});
 	return run;
 }
 
-async function runOne(job: GrowJob, progress: (text: string) => void) {
+async function runOne(
+	job: GrowJob,
+	progress: (text: string) => void,
+	onSpawn: (pid: number) => void
+) {
 	const dir = await subjectDirFor(job.subject);
 	if (!dir) return { ok: false as const, error: `The subject "${job.subject}" is not served.` };
 	const config = await loadAppConfig();
@@ -69,25 +94,40 @@ async function runOne(job: GrowJob, progress: (text: string) => void) {
 			: null
 		: undefined;
 	if (kept === null) return { ok: false as const, error: 'The kept answer is gone or malformed.' };
-	// A service grows only on its content clone's grow branch (content.ts).
-	const branch = growBranch();
-	const repo = branch ? await contentRepo() : null;
-	const off = repo && branch ? await offBranch(repo, branch) : null;
-	if (off) return { ok: false as const, error: off };
+	// A service grows only on its content clone's grow branch (content.ts);
+	// a dev server, on its own grow branch in a worktree (korg 3442).
+	let where: { repo: string; branch: string; subjectDir?: string; namesDir?: string };
+	const service = growBranch();
+	if (service) {
+		where = { repo: await contentRepo(), branch: service };
+		const off = await offBranch(where.repo, service);
+		if (off) return { ok: false as const, error: off };
+	} else
+		try {
+			where = await devGrow(dir);
+		} catch (e) {
+			return {
+				ok: false as const,
+				error: `Could not set up the grow branch: ${(e as Error).message.split('\n')[0]}`
+			};
+		}
+	const { repo, branch } = where;
 	const outcome = await runGrowJob(
 		job,
 		{
-			subjectDir: dir,
+			subjectDir: where.subjectDir ?? dir,
+			formatAs: where.subjectDir ? dir : undefined,
 			provider: providerFor(config),
 			instructions: await readFile(resolve(INSTRUCTIONS), 'utf8'),
 			reference: Object.fromEntries(
 				Object.entries(REFERENCE).map(([to, from]) => [to, resolve(from)])
 			),
 			kept,
-			namesDir: namesDir(),
+			namesDir: where.namesDir ?? namesDir(),
 			frames: framesOf(await servedGraph()),
 			timeoutMs: config.grow.timeoutSeconds * 1000,
-			exclusive
+			exclusive,
+			onSpawn
 		},
 		progress
 	);
@@ -96,7 +136,8 @@ async function runOne(job: GrowJob, progress: (text: string) => void) {
 		await readerStore()
 			.grew(job.by.login, job.subject, job.kept, outcome.result.frames)
 			.catch((e) => console.error('grow: could not record what the kept answer grew into', e));
-	if (outcome.ok && repo && branch)
+	if (outcome.ok && where.subjectDir) outcome.result.branch = branch;
+	if (outcome.ok)
 		try {
 			await pushGrowBranch(repo, branch);
 		} catch (e) {
@@ -104,6 +145,29 @@ async function runOne(job: GrowJob, progress: (text: string) => void) {
 			outcome.result.pushError = (e as Error).message.split('\n')[0];
 		}
 	return outcome;
+}
+
+/**
+ * Where a dev server grows (korg 3442): `grow/dev-<host>`, in a worktree of
+ * the checkout outside it (`$KLOOM_GROW_WORKTREE`, or under `~/.cache/kloom`),
+ * so a grow never commits to the branch the author has checked out, and
+ * `main` only ever receives reviewed content. The server goes on showing the
+ * checkout, so grown frames appear once reviewed and merged.
+ */
+async function devGrow(subjectDir: string) {
+	const repo = await contentRepo();
+	const branch = devGrowBranch(hostname());
+	const tree = await growWorktree(
+		repo,
+		env.KLOOM_GROW_WORKTREE ?? join(homedir(), '.cache', 'kloom', `grow-${basename(repo)}`),
+		branch
+	);
+	return {
+		repo: tree,
+		branch,
+		subjectDir: join(tree, relative(repo, subjectDir)),
+		namesDir: join(tree, relative(repo, namesDir()))
+	};
 }
 
 /** Every served frame a grown connection may name, with its topic, title and position. */
@@ -115,13 +179,11 @@ const framesOf = (graph: Awaited<ReturnType<typeof servedGraph>>) =>
 		])
 	);
 
-const queues = new Map<string, GrowQueue>();
-
 /** A subject's grow queue; the caller has already checked the subject is served. */
 export function growQueue(subject: string): GrowQueue {
 	const dir = join(dataDir(), subject, 'grow');
-	let queue = queues.get(subject);
-	if (queue?.jobsDir !== dir) queues.set(subject, (queue = new GrowQueue(dir, runner)));
+	let queue = state.queues.get(subject);
+	if (queue?.jobsDir !== dir) state.queues.set(subject, (queue = new GrowQueue(dir, runner)));
 	return queue;
 }
 

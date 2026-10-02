@@ -86,6 +86,12 @@ export interface GrowRequest {
 	web: boolean;
 	timeoutMs: number;
 	signal?: AbortSignal;
+	/**
+	 * Told the process id of each model process the turn starts, so the host
+	 * can record it (the grow queue's lock, docs/design.md §Grow). An adapter
+	 * with no local process never calls it.
+	 */
+	onSpawn?: (pid: number) => void;
 }
 
 export interface Provider {
