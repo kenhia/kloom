@@ -220,6 +220,13 @@ Opus grade the answers blind. Sonnet 5 beat kvllm's resident model
 (qwen3.8-27b) with and without web (a Wikipedia shim for the RA), and beat
 Haiku 4.5, which `claude -p` runs with thinking on and which left the models
 list. Ask's 250-word limit is soft.
+Sprint 036 grown content reviewed into main: dev grows commit to
+`grow/dev-<host>` in a worktree, every grow commit says `Validated: yes`,
+`just grow-pending` is the sprint-start check, and `skills/review-grown`
+reviews and merges with a `Grow-reviewed` trailer (first run: western-civ's
+`royal-society`); a grow job keeps one running copy under a dev reload
+(`globalThis` queues, a lock per job); and navy-pow's Guam passage was
+rewritten from Chief Nurse Olds's own 1943 account.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
