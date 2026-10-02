@@ -9,7 +9,7 @@ meetings, and a secretary to handle its letters.
 ## Take nobody's word for it
 
 The Society's motto is _Nullius in verba_. It is cut down from a line of
-Horace's _Epistles_, "not bound to swear by the words of any master", and
+Horace's _Epistles_, "not bound to swear by the words of a master", and
 the Society today glosses it as "take nobody's word for it": the fellows'
 determination "to withstand the domination of authority and to verify all
 statements by an appeal to facts determined by experiment". Sources differ on
@@ -29,7 +29,7 @@ that post into print. The first number of the _[Philosophical Transactions](kloo
 is dated "Munday, March 6. 1664/5"; England then began its year on 25 March.
 It ran to sixteen pages and sold for a shilling. It was Oldenburg's private
 venture, as editor and publisher, and the journal lost money for most of its
-life; Wikipedia gives its print run as 1,000 copies.
+life.
 
 Its introduction says why it exists: so that those engaged in such studies
 "may be invited and encouraged to search, try, and find out new things,
