@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M30 138 L370 138"/>
+		<path pathLength="1" d="M200 30 L200 280"/>
+		<path pathLength="1" d="M77.1 52 A150 150 0 0 0 77.1 224"/>
+		<path pathLength="1" d="M322.9 52 A150 150 0 0 1 322.9 224"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M165 88 L235 88 L235 188 L165 188 Z"/>
+		<path pathLength="1" d="M172 98 L228 98"/>
+		<path pathLength="1" d="M172 101 L228 101"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M80.7 55.5 L165 138 M61.5 94.8 L165 138 M55 138 L165 138 M61.5 181.2 L165 138 M80.7 220.5 L165 138"/>
+		<path pathLength="1" d="M235 138 L318.6 56.2 M235 138 L337.6 95.2 M235 138 L344 138 M235 138 L337.6 180.8 M235 138 L318.6 219.8"/>
+		<path pathLength="1" d="M172 112 L228 112 M172 118 L228 118 M172 124 L210 124 M178 132 L228 132 M172 144 L228 144 M172 150 L196 150 M178 158 L228 158 M172 164 L228 164 M172 170 L228 170 M172 176 L218 176"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M82.1 52 a5 5 0 1 0 -10 0 a5 5 0 1 0 10 0"/>
+		<path pathLength="1" d="M61.9 92.9 a5 5 0 1 0 -10 0 a5 5 0 1 0 10 0"/>
+		<path pathLength="1" d="M55 138 a5 5 0 1 0 -10 0 a5 5 0 1 0 10 0"/>
+		<path pathLength="1" d="M61.9 183.1 a5 5 0 1 0 -10 0 a5 5 0 1 0 10 0"/>
+		<path pathLength="1" d="M82.1 224 a5 5 0 1 0 -10 0 a5 5 0 1 0 10 0"/>
+		<path pathLength="1" d="M318.9 46.5 L326.9 46.5 L326.9 57.5 L318.9 57.5 Z"/>
+		<path pathLength="1" d="M339.1 87.4 L347.1 87.4 L347.1 98.4 L339.1 98.4 Z"/>
+		<path pathLength="1" d="M346 132.5 L354 132.5 L354 143.5 L346 143.5 Z"/>
+		<path pathLength="1" d="M339.1 177.6 L347.1 177.6 L347.1 188.6 L339.1 188.6 Z"/>
+		<path pathLength="1" d="M318.9 218.5 L326.9 218.5 L326.9 229.5 L318.9 229.5 Z"/>
+		<path pathLength="1" d="M222 248 a22 22 0 1 0 -44 0 a22 22 0 1 0 44 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M326 40 Q200 -4 74 40"/>
+		<path pathLength="1" d="M81.9 40.8 L74 40 L79.7 34.4"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M179.1 241 L220.9 241 M178 247 L222 247 M178.8 254 L221.2 254"/>
+		<path pathLength="1" d="M189.8 254 a3.2 1.8 0 1 0 6.4 0 a3.2 1.8 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M206 261 L189 261 M193 258.5 L189 261 L193 263.5"/>
+	</g>
+	<g>
+		<text x="151" y="12" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none">REPEATED · CHECKED</text>
+		<text x="152" y="82" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none">PHIL. TRANS. No. 1</text>
+		<text x="206" y="202" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none">6 MARCH 1665</text>
+		<text x="228" y="252" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none">9 MAY 1664</text>
+		<text x="36" y="250" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none">LETTERS IN</text>
+		<text x="300" y="250" font-family="ui-monospace, monospace" font-size="9" fill="currentColor" stroke="none">COPIES OUT</text>
+	</g>
+</svg>
