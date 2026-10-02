@@ -43,7 +43,7 @@ unfavourably on H4, suggesting its errors had happened to cancel out. The
 Board also wanted to know that a watch like it could be made again, by other
 hands, not only once by its inventor. Harrison received £10,000 in 1765 and a
 further £8,750 from Parliament in 1773, when he was eighty; he never received
-the prize itself, which was never awarded to anyone. He died in [London](kloom:e/london) in 1776.
+the Longitude Act's £20,000 prize itself, which was never awarded to anyone. He died in [London](kloom:e/london) in 1776.
 
 The copies answered the Board's question. **Larcum Kendall**'s copy of H4,
 called K1, went with **[James Cook](kloom:e/james-cook)** on his second and third voyages, and
