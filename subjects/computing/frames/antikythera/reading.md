@@ -39,9 +39,10 @@ fraction is chosen by counting teeth. That is the whole of its arithmetic,
 and it is enough.
 
 The plate draws one train, as the scans and Diomidis Spinellis's reading of
-them give it. The year wheel's 64 teeth drive a gear of 38; on the same
-arbor a gear of 53 drives one of 96; on that arbor a gear of 15 drives one
-of 53. The product is 5/19. It encodes the **[Metonic cycle](kloom:e/metonic-cycle)**: 19 years hold
+them give it. The year wheel's 64 teeth drive a gear of 38. The 38 shares
+an arbor with a gear of 53, which drives a gear of 96, and the 96 shares an
+arbor with a gear of 15, which drives the last gear, of 53. The product is
+5/19. It encodes the **[Metonic cycle](kloom:e/metonic-cycle)**: 19 years hold
 almost exactly 235 lunar months, so a calendar of months can be kept in
 step with the seasons. The pointer turns five times in those 19 years,
 round a five-turn spiral on the back of the case, and the 235 months are

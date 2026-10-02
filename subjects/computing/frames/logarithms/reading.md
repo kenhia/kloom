@@ -32,8 +32,9 @@ _Constructio_, the account of how he built it, published by his son in
 1619, two years after his death, Napier also used a full stop to separate
 whole numbers from fractions. A Swiss clockmaker, **[Jost Bürgi](kloom:e/jost-burgi)**, had
 reached the same device independently, perhaps around 1600, but did not
-publish until 1620, at [Kepler](kloom:e/johannes-kepler)'s urging. Kepler's verdict was that Bürgi
-had deserted his child "at birth".
+publish until 1620, at the urging of the astronomer [Kepler](kloom:e/johannes-kepler), who had
+worked beside him at Emperor Rudolf II's court in Prague. Kepler's verdict
+was that Bürgi had deserted his child "at birth".
 
 ## Briggs's tens
 
