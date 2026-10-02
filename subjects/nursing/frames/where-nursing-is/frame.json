@@ -110,31 +110,30 @@
 			"citedIn": "The Impact of COVID-19 on Health and Care Workers: A Closer Look at Deaths"
 		},
 		{
-			"kind": "web",
+			"kind": "statute",
 			"key": true,
-			"title": "42 CFR § 482.23, Condition of Participation: Nursing Services",
-			"authors": [
-				{
-					"name": "Centers for Medicare & Medicaid Services"
-				}
-			],
+			"title": "Condition of Participation: Nursing Services",
+			"section": "§ 482.23",
+			"code": {
+				"volume": "42",
+				"name": "C.F.R."
+			},
 			"container": "Electronic Code of Federal Regulations",
 			"publisher": "National Archives and Records Administration",
 			"url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-C/section-482.23",
 			"accessed": "2026-10-01"
 		},
 		{
-			"kind": "report",
+			"kind": "statute",
 			"key": true,
-			"title": "Oregon Laws 2023, Chapter 507 (House Bill 2697)",
-			"authors": [
-				{
-					"name": "Oregon Legislative Assembly"
-				}
-			],
-			"publisher": "Oregon Legislative Assembly",
-			"place": "Salem",
+			"title": "House Bill 2697",
+			"chapter": "507",
+			"code": {
+				"volume": "2023",
+				"name": "Or. Laws"
+			},
 			"published": "2023-08-01",
+			"publisher": "Oregon Legislative Assembly",
 			"url": "https://www.oregonlegislature.gov/bills_laws/lawsstatutes/2023orlaw0507.pdf",
 			"accessed": "2026-10-01",
 			"note": "Sections 6, 17, 29 and 33: the ratios, the medical-surgical change of July 2026 and the deadline of June 2024"

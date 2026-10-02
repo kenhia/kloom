@@ -33,5 +33,24 @@ class Citation(unittest.TestCase):
         self.assertEqual(c['container'], 'Wikipedia, The Free Encyclopedia')
 
 
+class Expect(unittest.TestCase):
+    def test_warns_of_a_namesake_naming_the_article_it_landed_on(self):
+        asked = wiki_cite.expectations(['Army Medical School=London', 'Walter Reed'], 'army')
+        revs = {'Army Medical School': ('Army Medical School', 1, '2026-01-01'), 'Walter Reed': ('Walter Reed', 2, '2026-01-01')}
+        about = {'Army Medical School': ('Former US Army school', 'The Army Medical School was founded in Washington.'),
+                 'Walter Reed': ('American Army physician', '')}
+        (why,) = wiki_cite.mismatches(asked, revs, about)
+        self.assertIn('"Army Medical School" does not say \'London\'', why)
+        # A redirect says where it went.
+        revs['Army Medical School'] = ('Walter Reed Army Institute of Research', 1, '2026-01-01')
+        about['Walter Reed Army Institute of Research'] = ('US Army research institute', '')
+        (why,) = wiki_cite.mismatches(asked, revs, about)
+        self.assertTrue(why.startswith('"Army Medical School" landed on "Walter Reed Army Institute of Research"'))
+
+    def test_says_nothing_without_a_keyword(self):
+        asked = wiki_cite.expectations(['Walter Reed'])
+        self.assertEqual(wiki_cite.mismatches(asked, {'Walter Reed': ('Walter Reed', 2, 'x')}, {}), [])
+
+
 if __name__ == '__main__':
     unittest.main()

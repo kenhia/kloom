@@ -17,7 +17,14 @@ npx prettier --write subjects/ai
   checked before any author starts (sprint 027; three runs kept them only
   in the brief's prose, and sprint 021's 1850-after-1859 was found only at
   review). Any field may be left out; a new subject's plan gives all three
-  (`sort` only in a `date` segment). `making.json` carries them.
+  (`sort` only in a `date` segment). `making.json` carries them. A frame's
+  entry may also name its `part`, the author part that writes it (the
+  suffix of its drafts directory, `.scratch/names/<subject>-<part>/`), and
+  the plan's `"owners": {"<name id>": "<part>"}` gives each name two parts
+  will mark to the part that drafts it (sprint 033: sprint 030's owners
+  were in the brief's prose, where nothing checked them, and two names
+  were drafted twice). `--check` refuses an owner that is not a part of
+  the plan, and `names.py drafts <subject>` checks the drafts against it.
 - Running it writes `spine.json` and the trail files holding **only the
   frames whose directories have a `frame.json`**. It leaves out an empty
   segment, and a trail whose anchor or every frame is missing. So the
@@ -61,14 +68,14 @@ npx prettier --write subjects/ai
   subject others are writing: it rewrites the live spine, and sprint 021
   lost the working tree's trails to it twice. Sprint 014's authors each improvised this. A finished trail frame
   whose anchor is not written yet is on no spine, so the copy leaves it out
-  and names it rather than failing every author on it (sprint 015). To check such a trail before its anchor lands, copy any finished main-spine
-  frame into `DIR/<subject>/frames/<anchor>` as a stand-in (change its `id`,
-  accent and `topic`, give it the anchor's `position` (a `sort` in a
-  `date` segment, none in a `category` one), and strip its name marks and
-  `connections`; sprint 025's authors hit each of these), copy your trail frames in beside
-  it, run `subject_plan.py <plan> DIR/<subject>` on the copy (the rule
-  against running it without `--complete` is about the live subject), and
-  re-run the tests on the copy. To test marks as well, place them in the
+  and names it rather than failing every author on it (sprint 015). To check such a trail before its anchor lands, add `--stand-in <anchor>`
+  (repeatable): the copy gets a placeholder for the anchor, with the plan's
+  topic, sort and palette, a one-line reading and drawing, and no marks,
+  media or connections, so the trail's frames land on a spine and validate
+  (sprint 033; authors in sprints 025 to 030 built one by hand, and hit a
+  stale id, accent, topic, position, mark or connection each time). It
+  writes into the copy only, so it needs `--complete`; for an anchor already
+  written it says so and writes nothing. To test marks as well, place them in the
   copy: `names.py mark <spec> --root DIR --names DIR/.names` (sprint 024;
   without `--root`, `mark` writes into the live subject).
 - Its JSON is not Prettier's layout, so run Prettier over the subject

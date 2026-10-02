@@ -39,8 +39,10 @@ Decide the whole shape before writing a frame.
   has 16 main-spine frames and one trail; ai has 41 and four trails.
 - Write the plan as `create-tools/subject-plan/<subject>.json`: the shape of
   `spine.json` plus `trails`, and a `frames` entry for every frame with its
-  `topic`, its `palette` and, in a `date` segment, its `sort`
-  (`making.json` is an example). `subject_plan.py --check` checks them
+  `topic`, its `palette`, in a `date` segment its `sort`, and once the
+  parts are shared out its `part`, the author part that writes it
+  (`making.json` is an example). The plan's `owners` gives each shared
+  name its owner (§3). `subject_plan.py --check` checks them
   before anyone writes: sorts rising within each segment, topics at most
   40 characters and unique, palettes in `subject.json`, and a warning where
   a palette repeats down a segment. Three runs kept these only in the
@@ -125,8 +127,9 @@ lookup`, never from memory; the id is lookup's, so two authors reach the
   from its own angle), and writes a mark spec,
   `create-tools/names/examples/<subject>-<segment>.json`, checked with
   `names.py mark <spec> --check --drafts <its drafts>` until it exits 0
-  (`lookup --expect` on every id it drafts, which warns of a set-index
-  page or an item of the wrong class),
+  (`lookup --expect` on every id it drafts, which checks the article and
+  warns of a set-index page, with `--expect-item` where an article and its
+  item may differ, a blood group's and its protein's),
   reading the sentence it prints for each mark and acting on any warning
   that a mark misses the bold mention. An existing name whose description
   is written from another subject's angle only is reported, not edited.
@@ -206,18 +209,28 @@ Things authors working at once cannot see, so the brief settles them:
   found it so). Put the anchor in the brief's own checking command for a
   trail part, too: sprint 030's brief gave `--only <your frames>`, and two
   trail authors built stand-ins by hand for anchors already live. Commit
-  anchors first, or tell the
-  trail's author to validate against a stand-in (the subject-plan README
-  says how); the complete copy leaves such frames out and names them. The
+  anchors first, or give the trail's author `--stand-in <anchor>` in the
+  checking command, which puts a placeholder for the anchor in the copy
+  from the plan (sprint 033; authors in sprints 025 to 030 built one by
+  hand); without either, the complete copy leaves such frames out and
+  names them. The
   anchor's author finishes the anchor, `frame.json` and all, before the
   rest of their frames.
 - **Dated sorts.** Each frame of a `date` segment has its year in the
   plan, which `--check` keeps rising along the segment: sprint 021's plan
   put 1850 after 1859, and every author's copy failed on it until review.
   If an author finds a date was wrong, change the plan and re-check.
-- **One owner for each shared name** (sprint 029). The brief lists every
+- **One owner for each shared name** (sprint 029; in the plan since sprint
+  033). **The plan's `"owners": {"<name id>": "<part>"}`** lists every
   name two or more parts will mark, and assigns each to **the part planned
-  to commit first** among them. That part drafts it, home or not; the
+  to commit first** among them; the brief quotes it, as it quotes topics.
+  `subject_plan.py --check` refuses an owner that is not a part of the
+  plan, and **`names.py drafts <subject>`** lists who has drafted what
+  (id, item, home, part) and exits 1 on a name two parts drafted or a
+  draft by a part that does not own it. Run it before the brief goes out,
+  and before each part is committed (sprint 030's authors found owners by
+  grepping `.scratch/names/*`, and two names were drafted twice because the
+  brief's prose and the commit order disagreed). That part drafts it, home or not; the
   others only borrow, passing the owner's drafts directory with `--drafts`
   and never drafting it themselves. If the name's `home` is a frame in a
   later part, the owner drafts it without `home`, and the home frame's
@@ -226,14 +239,14 @@ Things authors working at once cannot see, so the brief settles them:
   `reprap`, `chuck-hull` and `3d-systems` despite grepping, and sprint 028,
   which gave each name to its home's author, had twelve reach the registry
   first from a borrower's draft, without `home`, before their owner's
-  frame landed. The brief's owner list is a plan, and the drafts are the
-  fact: where a part due to commit earlier has already drafted a name the
-  list gives to a later one, the earlier draft stands and the listed owner
-  borrows it (sprint 030: two names drafted twice that way, both from the
-  brief's list). A name the brief does not list goes to the part chiefly
-  about it, its home, unless an earlier part already drafted it. Authors
-  still grep `.scratch/names/*/` before drafting a name the brief does not
-  list, pass every drafts directory to
+  frame landed. The owners are a plan, and the drafts are the fact: where a
+  part due to commit earlier has already drafted a name the plan gives to a
+  later one, the earlier draft stands, the listed owner borrows it, and the
+  plan's `owners` is changed to match, so `names.py drafts` passes again
+  (sprint 030: two names drafted twice that way). A name the plan does not
+  list goes to the part chiefly about it, its home, unless an earlier part
+  already drafted it. Authors run `names.py drafts <subject>` before
+  drafting a name the plan does not list, pass every drafts directory to
   `--complete` and `mark --check`, and check with `--only <their frames>`
   so no one else's half-written frame fails them.
   They write contact sheets to their own `--png`, never run

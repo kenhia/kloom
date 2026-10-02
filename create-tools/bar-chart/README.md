@@ -19,15 +19,16 @@ python3 create-tools/bar-chart/bar_chart.py create-tools/bar-chart/examples/book
 
 See `examples/book-output.json`, the printing-press chart.
 
-| Field                         | Meaning                                                                                       |
-| ----------------------------- | --------------------------------------------------------------------------------------------- |
-| `title`, `description`        | The SVG's accessible name and description.                                                    |
-| `heading`                     | The small caption across the top.                                                             |
-| `unit`                        | Suffix for the value labels (`"M"`).                                                          |
-| `scale`                       | Optional: `"log"` for a log10 axis (sprint 006, for quantities spanning orders of magnitude). |
-| `axis`                        | `max` (and `min`, required for `log`), and `ticks` as `[value, label]` pairs.                 |
-| `bars`                        | `label`, optional `sublabel`, `value`, optional `display` (the value's label), `highlight`.   |
-| `width`, `height`, `barWidth` | Optional; default 480, 300 and 56.                                                            |
+| Field                         | Meaning                                                                                         |
+| ----------------------------- | ----------------------------------------------------------------------------------------------- |
+| `title`, `description`        | The SVG's accessible name and description.                                                      |
+| `heading`                     | The small caption across the top.                                                               |
+| `unit`                        | Suffix for the value labels (`"M"`).                                                            |
+| `scale`                       | Optional: `"log"` for a log10 axis (sprint 006, for quantities spanning orders of magnitude).   |
+| `axis`                        | `max` (and `min`, required for `log`), and `ticks` as `[value, label]` pairs.                   |
+| `bars`                        | `label`, optional `sublabel`, `value`, optional `display` (the value's label), `highlight`.     |
+| `width`, `height`, `barWidth` | Optional; default 480, 300 and 56.                                                              |
+| `source`                      | Optional: `container`, `doi` and/or `url`, `accessed`. The chart's `media` citation is printed. |
 
 A value's label has one decimal under 100 unless the value is whole: 28, not 28.0 (sprint 015).
 
@@ -43,7 +44,13 @@ before it goes live with `contact_sheet.py <subject> <frame> --charts`.
 
 The chart is media, so the frame needs a `media` citation for the file. Give
 it a licence (the repo's MIT for a chart drawn here), and put the data's
-source in the citation's `url` and `container`.
+source in the citation's `container`, with its DOI in `doi` (bare,
+`10.1289/EHP7932`) or, without one, its `url`. A media citation's DOI is
+its data's: the bibliography gives it as "Data: https://doi.org/…" and the
+caption credit as "data doi:…", and `url` stays for an image's or a file's
+own page (sprint 033). Give the spec a `source` (`container`, `doi` and/or
+`url`, and `accessed` if not today) and the tool prints that citation, ready
+to paste.
 
 ## The charts made with it
 

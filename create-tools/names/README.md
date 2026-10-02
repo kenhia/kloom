@@ -1,13 +1,14 @@
 # names
 
 Names the people, places and things a subject mentions, for the shared name
-registry (`names/`, docs/design.md §Connections). Six commands.
+registry (`names/`, docs/design.md §Connections). Seven commands.
 
 ```sh
 python3 create-tools/names/names.py lookup "Johannes Gutenberg" "Printing press"
 python3 create-tools/names/names.py add drafts/ [--update] [--check]
 python3 create-tools/names/names.py mark create-tools/names/examples/western-civ.json
 python3 create-tools/names/names.py mark create-tools/names/examples/western-civ.json --check
+python3 create-tools/names/names.py drafts nursing
 python3 create-tools/names/names.py density
 python3 create-tools/names/names.py reach western-civ
 python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/hand
@@ -21,7 +22,10 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   article on a namesake passes every other check ("Hideo Kodama" is a
   politician, "Robin Forrest" a priest; sprint 026 met four), and
   `--expect WORD` warns, and exits 1, for each article whose description
-  and first line lack WORD (`--expect printing`). A title that redirects
+  and first line lack WORD (`--expect printing`); a title may carry its
+  own, `"Army Medical School=London"`, for a batch of different things.
+  The check is shared with `wiki_cite.py --expect`
+  (`create-tools/lib/article_check.py`), so the two never drift. A title that redirects
   says so in `redirected`, because the article it lands on may be a wider
   thing: "Project MAC" lands on CSAIL. Look such an item up on Wikidata
   itself (`wbsearchentities`), and check units and namesakes there too:
@@ -30,16 +34,19 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   compounds of one name, sprint 029), prints `ambiguous` and no item,
   rather than the page's own: choose the article meant and look that up.
   Each row also gives what Wikidata says the item is, `instance_of` (its
-  classes) and `item_description`, and `--expect` checks those too: an
-  article can be right while its item is something else ("Duffy antigen
-  system" is a blood group's article whose item, Q205042, is the ACKR1
-  protein; sprint 028 met it). Such an item may be the only one Wikidata
-  has, as there; then keep it, and say so in the report. Because the
-  item check reads Wikidata's few words, it also warns on a right item
-  described in other words ("Second Geneva Convention" is a treaty,
-  "Lucile Petry Leone" a nursing administrator): choose a WORD such a
-  short description would use, check one title at a time, and read the
-  item before acting on the warning (sprint 030, where six authors met it). A
+  classes) and `item_description`, and **`--expect-item WORD`** checks
+  those, opt-in: an article can be right while its item is something else
+  ("Duffy antigen system" is a blood group's article whose item, Q205042,
+  is the ACKR1 protein; sprint 028 met it). Such an item may be the only
+  one Wikidata has, as there; then keep it, and say so in the report.
+  Because the item check reads Wikidata's few words, it also warns on a
+  right item described in other words ("Second Geneva Convention" is a
+  treaty, "Lucile Petry Leone" a nursing administrator), so it is its own
+  flag: sprint 029 ran it under `--expect`, six of sprint 030's authors met
+  it on right items, and sprint 033 split it out. Use it where an article
+  and its item may differ (a blood group, a gene, a protein), with a WORD
+  such a short description would use, and read the item before acting on a
+  warning. A
   title with no article prints `missing`. Ids spell a Greek letter ("π" is
   `pi`) and a bare number in words (Wikipedia's "0" is `zero`), since
   sprint 027.
@@ -95,6 +102,17 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   specs being checked mark are named; other authors' stale drafts passed
   with `--drafts` are counted in one line, since naming them all buried an
   author's own warnings (sprint 028).
+- **`drafts <subject>`** lists the name drafts a subject's authors have
+  written, one line each: id, Wikidata item, home and the part that
+  drafted it (the drafts directory is `.scratch/names/<subject>-<part>/`,
+  `--dir` for another root). It exits 1 on a name two parts drafted (one
+  id, or one item under two ids) and on a draft by a part the plan's
+  `owners` does not give it to (`--plan`, by default
+  `create-tools/subject-plan/<subject>.json`). Drafts already in the
+  registry are counted in a note: those have been added. Run it before a
+  brief goes out and before each commit (sprint 033: sprint 030's authors
+  found owners by grepping `.scratch/names/*`, and two names were drafted
+  twice because the brief's owner list and the commit order disagreed).
 - **`density`** prints, per subject: frames, marks, distinct names, marks
   per frame, frames with no mark, connections stored on its frames and
   touching them (either end), and connections per frame. `--json` for one

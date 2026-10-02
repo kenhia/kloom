@@ -3,7 +3,7 @@ import json, os, shutil, subprocess, sys, tempfile, unittest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from subject_plan import merge_drafts, plan_problems  # noqa: E402
+from subject_plan import merge_drafts, owner_problems, plan_problems  # noqa: E402
 
 PALETTES = {'flint', 'chalk'}
 
@@ -109,10 +109,6 @@ class MergeDrafts(unittest.TestCase):
             shutil.rmtree(root)
 
 
-if __name__ == '__main__':
-    unittest.main()
-
-
 class CompleteWithDrafts(unittest.TestCase):
     """--complete --with-drafts (sprint 029): a frame.json.draft goes into the copy as frame.json."""
 
@@ -156,3 +152,71 @@ class CompleteWithDrafts(unittest.TestCase):
                 self.assertEqual(json.load(fh)['from'], 'frame.json.draft')
             self.assertFalse(os.path.exists(os.path.join(frames, f, 'frame.json.draft')))
         self.assertIn('c: the copy holds its frame.json.draft', said)
+
+
+class Owners(unittest.TestCase):
+    """The plan's owners of shared names (sprint 033): what names.py drafts checks the drafts against."""
+
+    def test_an_owner_is_a_part_of_the_plan(self):
+        p = {**plan(), 'trails': [{'id': 't', 'anchor': 'a', 'spine': {'segments': []}}],
+             'owners': {'reprap': 's', 'chuck-hull': 't', 'Bad Id': 's', 'x': 'nowhere'}}
+        self.assertEqual(owner_problems(p), ['owners.Bad Id: not a name id (lower-case words joined by "-")',
+                                             'owners.x: "nowhere" is not a part of the plan (s, t)'])
+        self.assertEqual(owner_problems(plan()), [])
+
+    def test_frames_name_their_parts(self):
+        p = {**plan({'a': {'part': 'navy1'}, 'b': {'part': 'navy2'}}), 'owners': {'reprap': 'navy2', 'x': 's'}}
+        self.assertEqual(owner_problems(p), ['owners.x: "s" is not a part of the plan (navy1, navy2)'])
+
+
+class StandIn(unittest.TestCase):
+    """--complete --stand-in (sprint 033): a trail's anchor not yet written, in the copy only."""
+
+    def setUp(self):
+        self.dir = tempfile.mkdtemp()
+        self.subj = os.path.join(self.dir, 'subjects', 'subj')
+        os.makedirs(os.path.join(self.subj, 'frames', 'b'))
+        os.makedirs(os.path.join(self.subj, 'frames', 't1'))
+        for f in ('b', 't1'):
+            with open(os.path.join(self.subj, 'frames', f, 'frame.json'), 'w') as fh:
+                json.dump({'id': f}, fh)
+        with open(os.path.join(self.subj, 'subject.json'), 'w') as fh:
+            json.dump({'palettes': {'flint': {}, 'chalk': {}}}, fh)
+        self.names = os.path.join(self.dir, 'names')
+        os.makedirs(self.names)
+        p = {**plan({'a': {'topic': 'The anchor', 'sort': 1850, 'palette': 'chalk'}}, ids=('a', 'b')),
+             'trails': [{'id': 'trail', 'title': 'T', 'anchor': 'a',
+                         'spine': {'segments': [{'id': 'ts', 'title': 'TS', 'labelKind': 'category', 'frames': ['t1']}]}}]}
+        self.plan = os.path.join(self.dir, 'plan.json')
+        with open(self.plan, 'w') as fh:
+            json.dump(p, fh)
+
+    def tearDown(self):
+        shutil.rmtree(self.dir)
+
+    def run_plan(self, *extra):
+        return subprocess.run([sys.executable, os.path.join(HERE, 'subject_plan.py'), self.plan, self.subj,
+                               '--names', self.names, *extra], capture_output=True, text=True)
+
+    def test_puts_the_anchor_and_its_trail_on_the_copys_spine(self):
+        out = os.path.join(self.dir, 'copy')
+        r = self.run_plan('--complete', out, '--stand-in', 'a')
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn('wrote a stand-in for a', r.stdout)
+        with open(os.path.join(out, 'subj', 'frames', 'a', 'frame.json')) as fh:
+            frame = json.load(fh)
+        self.assertEqual((frame['topic'], frame['position'], frame['scene']['palette']),
+                         ('The anchor', {'label': '1850', 'sort': 1850}, 'chalk'))
+        self.assertNotIn('connections', frame)
+        self.assertTrue(os.path.exists(os.path.join(out, 'subj', 'trails', 'trail.json')))
+        # The live subject is untouched.
+        self.assertFalse(os.path.exists(os.path.join(self.subj, 'frames', 'a')))
+
+    def test_refuses_without_a_copy_and_for_a_frame_no_trail_hangs_from(self):
+        self.assertNotEqual(self.run_plan('--stand-in', 'a').returncode, 0)
+        r = self.run_plan('--complete', os.path.join(self.dir, 'copy'), '--stand-in', 'b')
+        self.assertIn('not the anchor of any trail', r.stderr)
+
+
+if __name__ == '__main__':
+    unittest.main()

@@ -10,6 +10,7 @@ import {
 	citedInProblems,
 	keySource,
 	keySources,
+	legalText,
 	needsCaption,
 	publishedYear,
 	type Citation
@@ -410,7 +411,7 @@ describe('citationProblems', () => {
 				authors: ['NASA']
 			})
 		).toEqual([
-			'kind must be one of web, wikipedia, book, article, chapter, report, media, letter, encyclopedia, diary',
+			'kind must be one of web, wikipedia, book, article, chapter, report, media, letter, encyclopedia, diary, case, statute',
 			'url must be http(s)',
 			'accessed date is required, as YYYY-MM-DD',
 			'published must be YYYY, YYYY-MM or YYYY-MM-DD, a shorter year (888), or a year BC (1550 BC)',
@@ -580,7 +581,7 @@ describe('the schema for older, translated and second-hand sources (sprint 027)'
 		);
 		expect(citationProblems({ ...article, citedIn: '', read: 'yes' })).toEqual([
 			'citedIn must be text',
-			'read must be one of abstract, first-page, excerpt'
+			'read must be one of abstract, first-page, excerpt, record'
 		]);
 		expect(citationProblems({ ...article, abstractOnly: true })).toEqual([
 			'abstractOnly is now read: "abstract"'
@@ -722,5 +723,172 @@ describe('the schema for older, translated and second-hand sources (sprint 027)'
 			'engravers must each have a family name or a name',
 			'edition must be text'
 		]);
+	});
+});
+
+describe('the forms from Keeping Watch (sprint 033)', () => {
+	const frank: Citation = {
+		kind: 'case',
+		title: 'Frank v. South',
+		reporter: { volume: '175', name: 'Ky.', page: '416' },
+		published: '1917-05-04',
+		container: 'Caselaw Access Project',
+		publisher: 'Harvard Law School Library',
+		url: 'https://static.case.law/ky/175/html/0416-01.html',
+		accessed: '2026-10-01'
+	};
+	const nursesAct: Citation = {
+		kind: 'statute',
+		title: 'Army-Navy Nurses Act of 1947',
+		publicLaw: '80-36',
+		code: { volume: '61', name: 'Stat.', page: '41' },
+		published: '1947-04-16',
+		container: 'United States Statutes at Large',
+		url: 'https://www.govinfo.gov/content/pkg/STATUTE-61/pdf/STATUTE-61-Pg41.pdf',
+		accessed: '2026-10-01'
+	};
+
+	it('sets a case in legal form, its name in italics', () => {
+		expect(chicagoText(frank)).toBe(
+			'Frank v. South, 175 Ky. 416 (1917). Caselaw Access Project. Harvard Law School Library. ' +
+				'Accessed October 1, 2026. https://static.case.law/ky/175/html/0416-01.html.'
+		);
+		expect(chicago(frank)[0]).toEqual({ text: 'Frank v. South', italic: true });
+		expect(
+			legalText({
+				...frank,
+				title: 'Sparger v. Worley Hospital, Inc.',
+				reporter: { volume: '547', name: 'S.W.2d', page: '582' },
+				court: 'Tex.',
+				published: '1977-03-02'
+			})
+		).toBe('Sparger v. Worley Hospital, Inc., 547 S.W.2d 582 (Tex. 1977)');
+		// A neutral citation carries its own year and court.
+		expect(
+			legalText({
+				...frank,
+				reporter: undefined,
+				title: 'Getty Images v Stability AI',
+				neutral: '[2025] EWHC 2863 (Ch)',
+				published: '2025-11-04'
+			})
+		).toBe('Getty Images v Stability AI [2025] EWHC 2863 (Ch)');
+	});
+
+	it('sets a statute in legal form, its year where the cite does not already say it', () => {
+		expect(chicagoText(nursesAct)).toBe(
+			'Army-Navy Nurses Act of 1947, Pub. L. No. 80-36, 61 Stat. 41. United States Statutes at Large. ' +
+				'Accessed October 1, 2026. https://www.govinfo.gov/content/pkg/STATUTE-61/pdf/STATUTE-61-Pg41.pdf.'
+		);
+		expect(chicago(nursesAct)[0]).toEqual({ text: 'Army-Navy Nurses Act of 1947' });
+		const act = { ...nursesAct, title: 'An Act to grant military rank', publicLaw: '78-238' };
+		expect(legalText(act)).toBe(
+			'An Act to grant military rank, Pub. L. No. 78-238, 61 Stat. 41 (1947)'
+		);
+		// A session law's chapter and section come before its volume; a code's section after it.
+		expect(
+			legalText({
+				...act,
+				publicLaw: undefined,
+				chapter: '192',
+				section: '§ 19',
+				code: { volume: '31', name: 'Stat.', page: '753' },
+				published: '1901-02-02'
+			})
+		).toBe('An Act to grant military rank, ch. 192, § 19, 31 Stat. 753 (1901)');
+		expect(
+			legalText({
+				...act,
+				title: 'Condition of Participation: Nursing Services',
+				publicLaw: undefined,
+				code: { volume: '42', name: 'C.F.R.' },
+				section: '§ 482.23',
+				published: undefined
+			})
+		).toBe('Condition of Participation: Nursing Services, 42 C.F.R. § 482.23');
+		expect(
+			legalText({
+				...act,
+				title: 'House Bill 2697',
+				publicLaw: undefined,
+				code: { volume: '2023', name: 'Or. Laws' },
+				chapter: '507',
+				published: '2023-08-01'
+			})
+		).toBe('House Bill 2697, 2023 Or. Laws ch. 507');
+	});
+
+	it('lists a case or a statute under Sources by its legal form', () => {
+		expect(keySource({ ...frank, key: true, note: 'The opinion' })).toEqual({
+			title: 'Frank v. South, 175 Ky. 416 (1917)',
+			url: 'https://static.case.law/ky/175/html/0416-01.html',
+			note: 'Caselaw Access Project. The opinion'
+		});
+	});
+
+	it('checks a case and a statute have what their legal form needs', () => {
+		expect(citationProblems(frank)).toEqual([]);
+		expect(citationProblems(nursesAct)).toEqual([]);
+		expect(
+			citationProblems({
+				...frank,
+				reporter: { volume: '175', name: 'Ky.' },
+				published: undefined,
+				authors: [{ name: 'Court of Appeals of Kentucky' }],
+				publicLaw: '80-36'
+			})
+		).toEqual([
+			'publicLaw is for a statute',
+			'reporter needs its volume, name and first page as text: {"volume": "175", "name": "Ky.", "page": "416"}',
+			'a case needs the date it was decided, in published',
+			'a case names no authors: a case is named by its parties and its court goes in court, a law by its own name'
+		]);
+		expect(citationProblems({ ...frank, neutral: '[1917] KY 1' })).toEqual([
+			'a case needs its reporter or its neutral citation, one of the two'
+		]);
+		expect(
+			citationProblems({ ...nursesAct, publicLaw: '36', code: { volume: 61 }, court: 'Ky.' })
+		).toEqual([
+			'court is for a case',
+			'publicLaw is the number as Congress and law: "80-36"',
+			'code needs its name, and its volume and page as text when it has them'
+		]);
+		expect(citationProblems({ ...nursesAct, publicLaw: undefined, code: undefined })).toEqual([
+			'a statute needs its publicLaw number, or the code or session laws it is in'
+		]);
+		expect(citationProblems({ ...web, reporter: frank.reporter, section: '§ 1' })).toEqual([
+			'reporter is for a case or a statute',
+			'section is for a case or a statute'
+		]);
+	});
+
+	it('says when only a work’s catalogue record was read', () => {
+		expect(chicagoText({ ...article, read: 'record' })).toContain(
+			'737–38. Read in its catalogue record only. Accessed'
+		);
+	});
+
+	it('credits a chart’s data source by its DOI, apart from where the chart is', () => {
+		const chart: Citation = {
+			kind: 'media',
+			title: 'Blood lead in US children',
+			doi: '10.1289/EHP7932',
+			accessed: '2026-09-30',
+			authors: [{ name: 'kloom contributors' }],
+			container: 'Chart drawn for kloom from Egan et al. (2021), Table 2',
+			licence: 'MIT',
+			file: 'blood-lead.svg'
+		};
+		expect(chicagoText(chart)).toBe(
+			'kloom contributors. Blood lead in US children. Chart drawn for kloom from Egan et al. (2021), ' +
+				'Table 2. MIT. Data: https://doi.org/10.1289/EHP7932. Accessed September 30, 2026.'
+		);
+		const both = { ...chart, url: 'https://example.org/chart-page' };
+		expect(chicago(both).filter((p) => p.href)).toEqual([
+			{ text: 'https://doi.org/10.1289/EHP7932', href: 'https://doi.org/10.1289/EHP7932' },
+			{ text: 'https://example.org/chart-page', href: 'https://example.org/chart-page' }
+		]);
+		expect(captionCredit(chart)).toBe('kloom contributors / MIT / data doi:10.1289/EHP7932');
+		expect(citationProblems(chart)).toEqual([]);
 	});
 });

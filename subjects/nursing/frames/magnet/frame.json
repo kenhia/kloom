@@ -222,14 +222,14 @@
 			"read": "abstract"
 		},
 		{
-			"kind": "web",
+			"kind": "statute",
 			"key": true,
-			"title": "42 CFR § 482.23, Condition of Participation: Nursing Services",
-			"authors": [
-				{
-					"name": "Centers for Medicare & Medicaid Services"
-				}
-			],
+			"title": "Condition of Participation: Nursing Services",
+			"section": "§ 482.23",
+			"code": {
+				"volume": "42",
+				"name": "C.F.R."
+			},
 			"container": "Electronic Code of Federal Regulations",
 			"publisher": "National Archives and Records Administration",
 			"url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-C/section-482.23",

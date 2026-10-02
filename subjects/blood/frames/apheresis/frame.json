@@ -85,8 +85,13 @@
 			"note": "Filed 8 August 1966; assigned to the United States as represented by the Surgeon General"
 		},
 		{
-			"kind": "web",
-			"title": "21 CFR Part 640, Subpart C—Platelets (§§ 640.20–640.25)",
+			"kind": "statute",
+			"title": "Platelets",
+			"section": "§§ 640.20–640.25",
+			"code": {
+				"volume": "21",
+				"name": "C.F.R."
+			},
 			"container": "Electronic Code of Federal Regulations",
 			"publisher": "US National Archives and Records Administration",
 			"url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-F/part-640/subpart-C",

@@ -11,6 +11,8 @@
  * (sprint 008). `media` credits an image or chart a frame uses. `letter` is a
  * letter to its `recipients`, and `encyclopedia` an entry in one (sprint 027).
  * `diary` is a dated entry in a named edition of a diary (sprint 029).
+ * `case` is a court's opinion and `statute` a law or a regulation, each
+ * rendered in legal form (sprint 033).
  */
 export const CITATION_KINDS = [
 	'web',
@@ -22,18 +24,36 @@ export const CITATION_KINDS = [
 	'media',
 	'letter',
 	'encyclopedia',
-	'diary'
+	'diary',
+	'case',
+	'statute'
 ] as const;
 export type CitationKind = (typeof CITATION_KINDS)[number];
 
-/** How much of a source was read, when not all of it (sprint 029). */
-export const READ_EXTENTS = ['abstract', 'first-page', 'excerpt'] as const;
+/**
+ * How much of a source was read, when not all of it (sprint 029). `record`
+ * is a work whose own bibliographic record was reached (Crossref, a
+ * publisher's landing page) but not its text (sprint 033).
+ */
+export const READ_EXTENTS = ['abstract', 'first-page', 'excerpt', 'record'] as const;
 export type ReadExtent = (typeof READ_EXTENTS)[number];
 const READ_TEXT: Record<ReadExtent, string> = {
 	abstract: 'Read in its abstract.',
 	'first-page': 'Read in its first page.',
-	excerpt: 'Read in an excerpt.'
+	excerpt: 'Read in an excerpt.',
+	record: 'Read in its catalogue record only.'
 };
+
+/**
+ * Where a case or a law is printed, as the legal form cites it: a reporter
+ * ("175 Ky. 416"), a session-law volume ("61 Stat. 41") or a code ("42
+ * C.F.R."), each `volume name page`, with any part a code has not left out.
+ */
+export interface LegalCite {
+	volume?: string;
+	name: string;
+	page?: string;
+}
 
 /** A person (`family`, optionally `given`) or an organisation (`name`). */
 export type Author = { family: string; given?: string } | { name: string };
@@ -120,6 +140,20 @@ export interface Citation {
 	 * `excerpt` (sprint 029; replaces `abstractOnly`).
 	 */
 	read?: ReadExtent;
+	/** A case's reporter: volume, reporter and first page, all three ("175 Ky. 416"). */
+	reporter?: LegalCite;
+	/** A case's neutral citation, in place of a reporter: "[2025] EWHC 2863 (Ch)". */
+	neutral?: string;
+	/** A case's court, as the parenthetical abbreviates it ("Tex."), when the reporter does not say it. */
+	court?: string;
+	/** A statute's public law number: "80-36" ("Pub. L. No. 80-36"). */
+	publicLaw?: string;
+	/** A statute's chapter in its session laws: "192" ("ch. 192"). */
+	chapter?: string;
+	/** A statute's section, as written: "§ 19", "§§ 640.20–640.25". */
+	section?: string;
+	/** A statute's session laws or code: "61 Stat. 41", "42 C.F.R.". */
+	code?: LegalCite;
 	/** Media only: "Public domain", "CC BY-SA 4.0", … */
 	licence?: string;
 	/** Media only: the file this credits, in the frame's directory. */
@@ -195,10 +229,56 @@ const wikipediaLanguage = (url: string) =>
 
 /**
  * The link an entry carries: the DOI at doi.org when there is one, else the
- * url; none for a source seen only in another work.
+ * url; none for a source seen only in another work. A media citation's DOI
+ * is its chart's data source, not where the chart is (sprint 033), so its
+ * link is its url.
  */
 export const citationHref = (c: Citation): string | undefined =>
-	c.doi ? `https://doi.org/${c.doi}` : c.url;
+	c.kind === 'media' ? c.url : c.doi ? `https://doi.org/${c.doi}` : c.url;
+
+/** "175 Ky. 416", "61 Stat. 41", "42 C.F.R.". */
+const legalCite = (l: LegalCite) => [l.volume, l.name, l.page].filter(Boolean).join(' ');
+
+/**
+ * A case or a statute in legal form, after its name (sprint 033):
+ *
+ * - a case: ", 175 Ky. 416 (1917)", ", 547 S.W.2d 582 (Tex. 1977)", or its
+ *   neutral citation, " [2025] EWHC 2863 (Ch)", which carries its own year;
+ * - a statute: ", Pub. L. No. 80-36, 61 Stat. 41 (1947)". A session law's
+ *   chapter and section come before the volume they are printed in ("ch.
+ *   192, § 19, 31 Stat. 753"); a code cited by section, or a state's session
+ *   laws cited by chapter, take theirs after it ("42 C.F.R. § 482.23",
+ *   "2023 Or. Laws ch. 507"). The year is left out where the cite already
+ *   says it: in the name ("…Act of 1947") or as the volume ("2023 Or. Laws").
+ *
+ * Undefined for any other kind.
+ */
+export function legalForm(c: Citation): string | undefined {
+	const year = c.published ? (DATE.exec(c.published)?.[1] ?? c.published) : undefined;
+	if (c.kind === 'case') {
+		if (c.neutral) return ` ${c.neutral}`;
+		const when = [c.court, year].filter(Boolean).join(' ');
+		return `${c.reporter ? `, ${legalCite(c.reporter)}` : ''}${when ? ` (${when})` : ''}`;
+	}
+	if (c.kind !== 'statute') return undefined;
+	const at = [c.chapter && `ch. ${c.chapter}`, c.section];
+	const parts = [c.publicLaw && `Pub. L. No. ${c.publicLaw}`];
+	if (!c.code) parts.push(...at);
+	else if (c.code.page) parts.push(...at, legalCite(c.code));
+	else
+		parts.push(
+			[legalCite(c.code), c.section, c.chapter && `ch. ${c.chapter}`].filter(Boolean).join(' ')
+		);
+	const cite = parts.filter(Boolean).join(', ');
+	const said = !year || c.title.includes(year) || c.code?.volume === year;
+	return `${cite ? `, ${cite}` : ''}${said ? '' : ` (${year})`}`;
+}
+
+/** A case or a statute as one line of plain text: "Frank v. South, 175 Ky. 416 (1917)". */
+export const legalText = (c: Citation) => {
+	const form = legalForm(c);
+	return form === undefined ? undefined : `${c.title}${form}`;
+};
 
 /** A mirror's host, for "(copy at host)". */
 const mirrorHost = (c: Citation) =>
@@ -273,7 +353,12 @@ export function chicago(c: Citation): Part[] {
 	if (c.authors?.length) add(`${stop(chicagoAuthors(c.authors, c.etAl))} `);
 
 	const italicTitle = c.kind === 'book' || c.kind === 'report' || c.kind === 'media';
-	if (c.kind === 'diary') {
+	const legal = legalForm(c);
+	if (legal !== undefined) {
+		// A case's name is italic, a statute's is not; the cite follows either.
+		add(c.title, c.kind === 'case');
+		add(`${stop(legal)} `);
+	} else if (c.kind === 'diary') {
 		// The entry is the item, the diary its edition: "Diary entry, date, in _Diary_, edited by …".
 		const rest = [
 			c.editors?.length && `edited by ${series(c.editors.map(natural))}`,
@@ -352,8 +437,15 @@ export function chicago(c: Citation): Part[] {
 		case 'media':
 			if (date) add(`${stop(date)} `);
 			if (c.container) add(`${stop(c.container)} `);
+			if (c.number) add(`${stop(c.number)} `);
 			if (c.publisher) add(`${stop(c.publisher)} `);
 			if (c.licence) add(`${stop(c.licence)} `);
+			break;
+		case 'case':
+		case 'statute':
+			// Where it was read: the date is in the cite already.
+			if (c.container) add(`${stop(c.container)} `);
+			if (c.publisher) add(`${stop(c.publisher)} `);
 			break;
 		case 'article': {
 			if (c.container) add(c.container, true);
@@ -377,7 +469,15 @@ export function chicago(c: Citation): Part[] {
 
 	if (c.language) add(`In ${languageName(c.language)}. `);
 	for (const seen of seenAs(c)) add(`${seen} `);
+	// A chart's data source, by its DOI (sprint 033).
+	const data = c.kind === 'media' && c.doi ? `https://doi.org/${c.doi}` : undefined;
+	if (data) {
+		add('Data: ');
+		parts.push({ text: data, href: data });
+		add('. ');
+	}
 	const href = citationHref(c);
+	if (!href && data && c.accessed) add(`Accessed ${chicagoDate(c.accessed)}.`);
 	if (href) {
 		if (c.accessed) add(`Accessed ${chicagoDate(c.accessed)}. `);
 		parts.push({ text: href, href });
@@ -412,11 +512,15 @@ export const chicagoText = (c: Citation) =>
 /** A licence that needs a credit beside the image, not only in the list. */
 export const needsCaption = (licence: string) => !/^(public domain|cc0\b|pd\b)/i.test(licence);
 
-/** The short caption credit: "Jane Doe / CC BY-SA 4.0". */
+/**
+ * The short caption credit: "Jane Doe / CC BY-SA 4.0"; a chart's with its
+ * data's DOI, "kloom contributors / MIT / data doi:10.1289/EHP7932".
+ */
 export const captionCredit = (c: Citation) =>
 	[
 		c.authors?.length ? c.authors.map(natural).join(', ') + (c.etAl ? ' et al.' : '') : undefined,
-		c.licence
+		c.licence,
+		c.kind === 'media' && c.doi ? `data doi:${c.doi}` : undefined
 	]
 		.filter(Boolean)
 		.join(' / ');
@@ -443,7 +547,17 @@ function shortAuthors(c: Citation): string | undefined {
  * "Title — Wikipedia", as the curated frames always wrote it.
  */
 export function keySource(c: Citation): Source {
-	const url = citationHref(c) ?? '';
+	const url = citationHref(c) ?? (c.doi ? `https://doi.org/${c.doi}` : '');
+	const legal = legalText(c);
+	if (legal) {
+		// The legal form names it and dates it; where it was read follows.
+		const host = mirrorHost(c);
+		const seen = [...seenAs(c), host && `Copy at ${host}`];
+		const note = [c.container ?? c.publisher, ...seen.map((s) => s && s.replace(/\.$/, '')), c.note]
+			.filter(Boolean)
+			.join('. ');
+		return { title: legal, url, ...(note ? { note } : {}) };
+	}
 	if (c.kind === 'wikipedia') {
 		const lang = c.language && c.language !== 'en' ? `${languageName(c.language)} ` : '';
 		return { title: `${c.title} — ${lang}Wikipedia`, url };
@@ -574,6 +688,53 @@ export function citationProblems(c: unknown, options: { legacy?: boolean } = {})
 		if (!isText(c.licence)) out.push('a media citation needs a licence');
 		if (!isText(c.file)) out.push('a media citation needs the file it credits');
 	}
+	out.push(...legalProblems(c));
+	return out;
+}
+
+/** The fields only a case, or only a statute, carries (sprint 033). */
+const CASE_FIELDS = ['reporter', 'neutral', 'court'] as const;
+const STATUTE_FIELDS = ['publicLaw', 'chapter', 'section', 'code'] as const;
+
+/** A reporter or a code: a name, and a volume and page as text; `whole` needs both. */
+const isLegalCite = (v: unknown, whole: boolean) =>
+	isObj(v) &&
+	isText(v.name) &&
+	(['volume', 'page'] as const).every((k) =>
+		whole ? isText(v[k]) : v[k] === undefined || isText(v[k])
+	);
+
+function legalProblems(c: Obj): string[] {
+	const out: string[] = [];
+	const misplaced = (fields: readonly string[], belongs: string) => {
+		for (const k of fields) if (c[k] !== undefined) out.push(`${k} is for ${belongs}`);
+	};
+	if (c.kind === 'case') {
+		misplaced(STATUTE_FIELDS, 'a statute');
+		if ((c.reporter === undefined) === (c.neutral === undefined))
+			out.push('a case needs its reporter or its neutral citation, one of the two');
+		if (c.reporter !== undefined && !isLegalCite(c.reporter, true))
+			out.push(
+				'reporter needs its volume, name and first page as text: {"volume": "175", "name": "Ky.", "page": "416"}'
+			);
+		for (const k of ['neutral', 'court'] as const)
+			if (c[k] !== undefined && !isText(c[k])) out.push(`${k} must be text`);
+		if (c.published === undefined) out.push('a case needs the date it was decided, in published');
+	} else if (c.kind === 'statute') {
+		misplaced(CASE_FIELDS, 'a case');
+		if (c.publicLaw === undefined && c.code === undefined)
+			out.push('a statute needs its publicLaw number, or the code or session laws it is in');
+		if (c.publicLaw !== undefined && !(isText(c.publicLaw) && /^\d+-\d+$/.test(c.publicLaw)))
+			out.push('publicLaw is the number as Congress and law: "80-36"');
+		if (c.code !== undefined && !isLegalCite(c.code, false))
+			out.push('code needs its name, and its volume and page as text when it has them');
+		for (const k of ['chapter', 'section'] as const)
+			if (c[k] !== undefined && !isText(c[k])) out.push(`${k} must be text`);
+	} else misplaced([...CASE_FIELDS, ...STATUTE_FIELDS], 'a case or a statute');
+	if ((c.kind === 'case' || c.kind === 'statute') && c.authors !== undefined)
+		out.push(
+			`a ${c.kind} names no authors: a case is named by its parties and its court goes in court, a law by its own name`
+		);
 	return out;
 }
 

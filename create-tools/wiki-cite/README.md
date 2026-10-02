@@ -22,6 +22,13 @@ python3 create-tools/wiki-cite/wiki_cite.py --text .scratch/wiki "ENIAC"   # and
   disambiguation page ("Gerhard Frey"), is named on stderr and left out,
   and the run carries on and exits 1 after the citations that were found
   are printed (sprint 027).
+- `--expect WORD` checks that each article is the one meant, as `names.py
+lookup --expect` does, with the same code (`create-tools/lib/article_check.py`):
+  its short description or first line must say WORD, or a warning on
+  stderr names the article it landed on, and the run exits 1 after
+  printing. A title may carry its own word in a batch, `"Army Medical
+School=London"`; the others take `--expect` (sprint 033: "Army Medical
+  School" quietly cited the US school, a namesake of the one meant).
 - `--lang de` cites another language's Wikipedia (`de.wikipedia.org`),
   and the citation carries `"language": "de"`, which validation requires
   of a non-English Wikipedia (sprint 027). Its `container` stays

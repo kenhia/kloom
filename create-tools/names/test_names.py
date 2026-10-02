@@ -4,6 +4,7 @@ import json, os, shutil, subprocess, sys, tempfile, unittest
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import names  # noqa: E402
+from pathlib import Path  # noqa: E402
 
 READING = '''An opening that names Plato's pupil in passing.
 
@@ -38,17 +39,25 @@ class Lookup(unittest.TestCase):
         self.assertIsNone(names.unexpected(found, 'Politician'))
         self.assertIsNone(names.unexpected({'missing': 'x'}, 'anything'))
 
-    def test_expect_warns_on_an_item_that_is_something_else(self):
+    def test_expect_item_warns_on_an_item_that_is_something_else(self):
         # "Duffy antigen system"'s article is the blood group; its Wikidata item is the protein (sprint 029).
         found = {'id': 'duffy-antigen-system', 'name': 'Duffy antigen system', 'wikidata': 'Q205042',
                  'description': 'Human blood group classification',
                  'first_line': 'The Duffy antigen system is a blood group system.',
                  'item_description': 'mammalian protein found in Homo sapiens', 'instance_of': ['protein']}
-        why = names.unexpected(found, 'blood')
+        # --expect checks the article only (sprint 033): the item is opt-in, with --expect-item.
+        self.assertIsNone(names.unexpected(found, 'blood'))
+        why = names.unexpected(found, None, 'blood')
         self.assertIn('Q205042 is a protein', why)
-        self.assertIsNone(names.unexpected({**found, 'instance_of': ['blood group system']}, 'blood'))
-        # Without what Wikidata says, only the article is checked, as before.
-        self.assertIsNone(names.unexpected({k: v for k, v in found.items() if k not in ('instance_of',)}, 'blood'))
+        self.assertIsNone(names.unexpected({**found, 'instance_of': ['blood group system']}, 'blood', 'blood'))
+        # Without what Wikidata says, only the article is checked.
+        self.assertIsNone(names.unexpected({k: v for k, v in found.items() if k not in ('instance_of',)}, None, 'blood'))
+
+    def test_a_title_carries_its_own_expectation(self):
+        found = {'id': 'hideo-kodama', 'name': 'Hideo Kodama', 'description': 'Japanese politician', 'first_line': ''}
+        (title, keyword), = names.expectations(['Hideo Kodama=stereolithography'], 'politician')
+        self.assertEqual(title, 'Hideo Kodama')
+        self.assertIn('namesake', names.unexpected(found, keyword))
 
     def test_a_set_index_page_is_ambiguous(self):
         data = {'pages': {
@@ -205,6 +214,46 @@ class MarkCheck(unittest.TestCase):
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertNotIn('plato.json is already in the registry', r.stderr)
         self.assertIn('1 other drafts passed with --drafts are already in the registry', r.stderr)
+
+
+
+class Drafts(unittest.TestCase):
+    """`drafts` (sprint 033): who drafted which name, and what was drafted twice or by a non-owner."""
+
+    def setUp(self):
+        self.dir = tempfile.mkdtemp()
+        for part, name, item, home in (('nightingale', 'florence-nightingale', 'Q37103', 'nursing/scutari'),
+                                       ('nightingale', 'scutari', 'Q1', ''),
+                                       ('war', 'florence-nightingale', 'Q37103', ''),
+                                       ('war', 'scutari-barracks', 'Q1', ''),
+                                       ('war', 'red-cross', 'Q2', '')):
+            os.makedirs(os.path.join(self.dir, f'nursing-{part}'), exist_ok=True)
+            with open(os.path.join(self.dir, f'nursing-{part}', f'{name}.json'), 'w') as fh:
+                json.dump({'id': name, 'wikidata': item, **({'home': home} if home else {})}, fh)
+        os.makedirs(os.path.join(self.dir, 'blood-other'))
+
+    def tearDown(self):
+        shutil.rmtree(self.dir)
+
+    def test_lists_each_draft_with_its_part(self):
+        rows, _, _ = names.drafts('nursing', self.dir)
+        self.assertEqual(len(rows), 5)
+        self.assertIn({'id': 'florence-nightingale', 'wikidata': 'Q37103', 'home': 'nursing/scutari',
+                       'part': 'nightingale'}, rows)
+
+    def test_flags_a_name_drafted_twice_and_by_a_part_that_does_not_own_it(self):
+        _, problems, _ = names.drafts('nursing', self.dir, {'owners': {'red-cross': 'nightingale'}})
+        self.assertEqual(problems[0], 'florence-nightingale is drafted by 2 parts: nightingale, war')
+        self.assertIn('red-cross is drafted by war, but the plan gives it to nightingale', problems[1])
+        self.assertEqual(problems[2], 'Q1 is drafted under 2 ids: scutari, scutari-barracks')
+
+    def test_notes_a_draft_the_registry_already_holds(self):
+        registry = os.path.join(self.dir, 'names')
+        os.makedirs(registry)
+        with open(os.path.join(registry, 'red-cross.json'), 'w') as fh:
+            json.dump({'id': 'red-cross', 'wikidata': 'Q2'}, fh)
+        _, _, notes = names.drafts('nursing', self.dir, None, {'red-cross': Path(registry) / 'red-cross.json'})
+        self.assertIn('already in the registry', notes[0])
 
 
 if __name__ == '__main__':

@@ -464,10 +464,11 @@ describe('the western-civ subject', () => {
 	it('serves reading images from the frame, and inlines the chart, crediting it', () => {
 		const html = subject.frames['printing-press'].readingHtml;
 		expect(html).toContain('<img src="/media/printing-press/printing-shop-1499.jpg"');
-		// Public domain: no caption. The chart's MIT licence asks for one. The
-		// chart is inlined, named by the reading's alt text, its own ids prefixed.
+		// Public domain: no caption. The chart's MIT licence asks for one, with
+		// its data's DOI (sprint 033). The chart is inlined, named by the
+		// reading's alt text, its own ids prefixed.
 		expect(html).toMatch(
-			/<span class="figure chart" role="img" aria-label="[^"]+"><svg [^>]*aria-hidden="true"[^>]*>.*<\/svg><\/span><span class="credit">kloom contributors \/ MIT<\/span>/s
+			/<span class="figure chart" role="img" aria-label="[^"]+"><svg [^>]*aria-hidden="true"[^>]*>.*<\/svg><\/span><span class="credit">kloom contributors \/ MIT \/ data doi:10\.1017\/S0022050709000837<\/span>/s
 		);
 		expect(html).toContain('<title id="printing-press-book-output-t">');
 		expect(html).not.toContain('<img src="/media/printing-press/book-output.svg"');

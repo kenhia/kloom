@@ -35,18 +35,19 @@
 			"published": "2026"
 		},
 		{
-			"kind": "web",
+			"kind": "statute",
 			"key": true,
 			"title": "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 Laying Down Harmonised Rules on Artificial Intelligence (Artificial Intelligence Act)",
+			"code": {
+				"volume": "2024",
+				"name": "O.J. (L 1689)",
+				"page": "1"
+			},
+			"published": "2024-07-12",
 			"url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
 			"accessed": "2026-09-27",
-			"authors": [
-				{
-					"name": "European Parliament and Council of the European Union"
-				}
-			],
-			"container": "Official Journal of the European Union",
-			"published": "2024-07-12"
+			"container": "EUR-Lex",
+			"publisher": "Publications Office of the European Union"
 		},
 		{
 			"kind": "web",

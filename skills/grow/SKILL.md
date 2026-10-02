@@ -320,10 +320,14 @@ knowledge is not a source.
   a url or doi, and validation checks that it does. Such a citation is
   never `key`. **A paper you read only in part** carries `read`:
   `"abstract"` ("Read in its abstract"), `"first-page"` (an old letter a
-  journal shows only the opening of: "Read in its first page") or
-  `"excerpt"` ("Read in an excerpt"). Both show in the bibliography and in
-  the Sources list. (`abstractOnly` was the old field; validation refuses
-  it.)
+  journal shows only the opening of: "Read in its first page"),
+  `"excerpt"` ("Read in an excerpt") or `"record"` ("Read in its catalogue
+  record only"). Both show in the bibliography and in the Sources list.
+  (`abstractOnly` was the old field; validation refuses it.) **Which to
+  use** (sprint 033): `read: "record"` for a work whose own record you
+  reached, with its url or doi (its Crossref entry, its publisher's landing
+  page), but whose text you did not read; `citedIn` for a work you know
+  only through another work's references or quotation.
 - **Quotations** from work in copyright are a sentence at most. A US
   government record (a report, a hearing transcript) is public domain,
   but quote it no more than the reading needs.
@@ -336,7 +340,7 @@ knowledge is not a source.
   `YYYY-MM` or `YYYY-MM-DD`; a shorter year for a work before AD 1000
   (`"888"`, no leading zero); or a year BC (`"1550 BC"`). The kinds are
   `web`, `wikipedia`, `book`, `article`, `chapter`, `report`, `media`,
-  `letter`, `encyclopedia` and `diary`. A **`diary`** entry is the diary
+  `letter`, `encyclopedia`, `diary`, `case` and `statute`. A **`diary`** entry is the diary
   as `title`, the entry's date as `written` (required), and the edition's
   `editors`, `place`, `publisher` and `published`: "Pepys, Samuel. Diary
   entry, November 14, 1666, in _The Diary of Samuel Pepys_, edited by
@@ -381,7 +385,12 @@ knowledge is not a source.
   fetches) is still cited by its own URL. The page is the source; the
   archive was only how you read it.
 - `media` citations credit an image's file, and the page builds any
-  caption credit from them. They are not usually key sources.
+  caption credit from them. They are not usually key sources. **A chart's
+  data source with a DOI** goes in the chart's media citation's `doi`, and
+  is rendered with its credit ("Data: https://doi.org/…" in the entry,
+  "data doi:…" in the caption); `url` stays for an image's or a file's own
+  page (sprint 033). `bar-chart` prints the citation when its spec has a
+  `source`.
 - **Wikipedia is cited by revision.** A Wikipedia url must be a permanent
   link, `https://en.wikipedia.org/w/index.php?title=Printing_press&oldid=1376640142`,
   or validation fails. To get the current revision, fetch
@@ -475,10 +484,16 @@ add` writes name files and refuses one whose Wikidata ID the registry
   a politician, "Joseph R. Brown" a Minnesota senator, "Robin Forrest" a
   priest (sprint 026 met four). Read the description and the first line
   `lookup` prints before you cite it or draft a name, and pass
-  `--expect <a word the right one must say>` to have it warn. It checks
-  the item's class too: an article can be the thing meant while its item
-  is something else (the Duffy blood group's article has the ACKR1
-  protein's item).
+  `--expect <a word the right one must say>` to have it warn; it checks
+  the article (its description and first line), and a title in a batch may
+  carry its own word, `"Title=word"`. `wiki-cite --expect` runs the same
+  check before you cite an article ("Army Medical School" quietly cited the
+  US school, a namesake). Where an article and its Wikidata item may
+  differ (a blood group, a gene, a protein: the Duffy blood group's article
+  has the ACKR1 protein's item), add `--expect-item <word>` to check the
+  item's description and class too; it is opt-in because it also warns on
+  right items described in other words ("Second Geneva Convention" is a
+  treaty), so read the item before acting on it (sprint 033).
 - **Read the primary source.** Many papers are PDFs, and older ones are
   scans with no text layer. `uv run create-tools/read-source/read_source.py
 paper.pdf` prints the text and names the scanned pages; `--png DIR
@@ -565,12 +580,22 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   the RFC Editor (or, for the early ones, the Network Working Group) as
   `publisher`, and `doi` `10.17487/RFC0791`. A thesis is a `report` with
   the university as `publisher`. A patent is `web`, its number in the
-  title. An act of Congress, or any statute, is a `chapter` with the
-  statute book as `container` ("United States Statutes at Large, vol.
-  35"), its law number in the title, and its `pages`; a court opinion is
-  `web`, with the court as an author `name` and the case and its reporter
-  citation as the title (sprint 030 cited both, and found the skill
-  silent). A work read in a copy (a transcript, a mirror, a later edition)
+  title. **A court's opinion is a `case`** and **a law or a regulation a
+  `statute`**, each rendered in legal form (sprint 033, replacing 030's
+  `chapter` and `web`). A case's `title` is its name ("Frank v. South"),
+  with its `reporter` as `{"volume": "175", "name": "Ky.", "page": "416"}`
+  (or, for a court that gives one, its `neutral` citation, "[2025] EWHC
+  2863 (Ch)"), the `court` as the parenthetical abbreviates it when the
+  reporter does not say it ("Tex."), and the date decided in `published`:
+  "_Frank v. South_, 175 Ky. 416 (1917)." A statute's `title` is its name
+  ("Army-Navy Nurses Act of 1947", or its long title), with its
+  `publicLaw` ("80-36") and/or the session laws or code it is in, `code`
+  (`{"volume": "61", "name": "Stat.", "page": "41"}`, a pinpoint after a
+  comma, `"748, 753"`; `{"volume": "42", "name": "C.F.R."}` with a
+  `section`, `"§ 482.23"`), a `chapter` for an old or a state session law,
+  and the date enacted in `published`: "Army-Navy Nurses Act of 1947, Pub.
+  L. No. 80-36, 61 Stat. 41." Neither has `authors`. `container` and
+  `publisher` say where you read it (govinfo, the Caselaw Access Project). A work read in a copy (a transcript, a mirror, a later edition)
   is cited as the work, with a `note` naming the copy you read. **When no
   official copy exists anywhere** (a military handbook found only on an
   enthusiasts' site), cite the work with the mirror's `url` and `"mirror":
@@ -587,8 +612,9 @@ engine/svg.test.ts`, which loads every subject. While other authors are
   mid-frame, validate a copy holding only finished frames
   (`subject_plan.py … --complete DIR`, then the same tests with
   `KLOOM_TEST_SUBJECTS=DIR`). A trail frame whose anchor is not written
-  yet is left out of that copy; the subject-plan README says how to check
-  it against a stand-in. Keep `npx prettier --check` clean on your readings
+  yet is left out of that copy; add `--stand-in <anchor>` to `--complete`
+  and the copy gets a placeholder for the anchor, from the plan, so the
+  trail's frames validate (sprint 033). Keep `npx prettier --check` clean on your readings
   and JSON (Prettier does not format Python).
 - **Rate limits.** Wikipedia and Commons throttle a burst of requests.
   Send a descriptive User-Agent that names the project and never a

@@ -34,9 +34,9 @@ python3 create-tools/commons-media/commons_media.py crop .scratch/scan.png subje
 PD-old-100`), since "Public domain" hides which: `PD-Art` covers only
     a faithful photograph of a flat work, and a `PD-USGov` tag can sit on
     a photograph no government employee took;
-  - **no `container`**: it used to write "Via Wikimedia Commons", which
-    every author replaced with where the work is from (a museum, a book).
-    Add that from the file page;
+  - **no `container`**, except for the three institutions below: it used
+    to write "Via Wikimedia Commons", which every author replaced with
+    where the work is from (a museum, a book). Add that from the file page;
   - **authors** as family and given names when the Artist field is a
     plain personal name (life dates dropped), otherwise as a `name`, and
     none at all for boilerplate: an unknown author in any template
@@ -55,6 +55,32 @@ PD-old-100`), since "Public domain" hides which: `PD-Art` covers only
     found "c. 1504 BC" written as AD 1504). A span ("1941-01-01/1945-12-31", or NARA's "between 1941 and 1945"
     since sprint 030) is written as circa its first year, with a warning to check it (sprint
     028 found one written as an exact day).
+- **Three institutions' files are read further** (sprint 033, korg 3478:
+  most of sprint 030's authors still rewrote these by hand, writing credit
+  lines and NARA series names as authors). It reads the file page's
+  wikitext, and for a Wellcome file the Collection's own catalogue record.
+  Every other file is written as before. Each is tested on a real Keeping
+  Watch file kept in `fixtures/`.
+  - **NARA** (a `NARA-image-full` page): the record's series is the
+    `container` ("World War II Posters, National Archives and Records
+    Administration"), the agency the author (the last unit of NARA's
+    creator, said on stderr with the whole of it, so a parent can be named
+    instead: the poster's "Bureau of Special Services" is the Office of War
+    Information's), and its identifiers the `number` ("NAID 514214,
+    44-PA-726A"). A creator who is a person (a presidential library's
+    donor) is not written as the author.
+  - **US Navy** (a `PD-USGov-Military-Navy` file, or a Navy image ID): the
+    photographer from "photo by …" in the author or the description, with
+    rank and rate taken off ("Mass Communication Specialist 2nd Class Erika
+    N. Jones" is Jones, Erika N.); the container the Naval History and
+    Heritage Command; the Navy image ID the `number`.
+  - **Wellcome Collection** (a Wellcome Images file): the container, the
+    creator from the Collection's catalogue record, and the image number
+    (`L0000024`). Where that record is a book the image is a plate from,
+    the book goes in the container ("The history of nursing in the British
+    Empire, Wellcome Collection"), no author is written, and stderr names
+    the book's author, who did not make the plate.
+    A media citation's `number` is set after its container in the entry.
 - **`--page N`** takes one page of a PDF or DjVu on Commons as a JPEG (a
   scanned book's plate), named `<short-name>-pN.jpg`, and cites the file
   page with `?page=N`.
@@ -66,6 +92,9 @@ PD-old-100`), since "Public domain" hides which: `PD-Art` covers only
   image's pixels, out of a page image from outside Commons (a scan from the
   Internet Archive or a library), scales it down to `--width` (default 960) and writes a JPEG (sprint 029: authors cropped by hand). Cite such
   a page as the work it is from, with its own `media` citation.
+  `--rotate 90|180|270` first turns a page printed sideways upright, that
+  many degrees clockwise, so the box is in the upright page's pixels
+  (sprint 033: a book plate printed sideways needed PIL by hand).
 - The JPEG conversion needs Pillow, declared in the script's inline
   metadata (korg 3404). The script's shebang runs it under `uv run
 --script`, and run with a `python3` that lacks Pillow, a command that
