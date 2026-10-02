@@ -253,8 +253,14 @@
 				return job.progress ?? 'starting';
 			case 'applying':
 				return 'committing';
-			case 'done':
-				return `added ${job.result?.frames.map(titleOf).join(', ')}${job.result?.pushError ? ' (committed, not yet pushed)' : ''}`;
+			case 'done': {
+				const added = `added ${job.result?.frames.map(titleOf).join(', ')}`;
+				// A dev grow's content waits on its branch for review (korg 3442).
+				const where = job.result?.branch
+					? ` to ${job.result.branch}, for review; it shows here once merged`
+					: '';
+				return `${added}${where}${job.result?.pushError ? ' (committed, not yet pushed)' : ''}`;
+			}
 			case 'failed':
 				return `failed: ${job.error}`;
 		}

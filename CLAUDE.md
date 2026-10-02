@@ -240,6 +240,12 @@ validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
 `author-subject/SKILL.md` authors a whole subject, `review-notes/SKILL.md`
 works through flagged notes).
 
+**Before a sprint's own work, review grown content** (korg 3442): run
+`just grow-pending`. If it lists a pending grow branch (the service's
+`grow/kai`, a dev server's `grow/dev-<host>`, an older `grow-*`), run
+`skills/review-grown/SKILL.md` first and ship that review as its own PR,
+then start the sprint. Nothing pending (exit 0) costs one command.
+
 **Rules that are easy to break:**
 
 - `engine/` never names a subject; subject content and theme live under
@@ -263,4 +269,8 @@ works through flagged notes).
 - Reader data (places, bookmarks, notes, kept answers) goes through `ReaderStore`,
   never straight to SQLite; a schema change is a new migration, never an
   edit to a shipped one.
+- Grown content reaches `main` only through `skills/review-grown`: a grow
+  commits to a grow branch (`grow/kai`, `grow/dev-<host>`), never to `main`
+  or a sprint branch, and a review's squash carries the `Grow-reviewed`
+  trailer.
 - The repo is public.

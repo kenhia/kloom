@@ -75,12 +75,16 @@ and how long it took.
 
 ## Bringing grown content back
 
-Grow commits to `grow/kai` and pushes it. To bring it into main, open a PR
-from `grow/kai`, review it like any other change, and merge it. Any merge
-style works: the next restart (`systemctl --user restart kloom`, or the
-next deploy) sees what main has and moves the branch onto it. Make review
-edits in the merge or on main afterwards, not by pushing to `grow/kai`,
-because that branch is the service's.
+Grow commits to `grow/kai` and pushes it. Grown content reaches main only
+through review (korg 3442): `skills/review-grown/SKILL.md` cherry-picks the
+pending grow commits onto a review branch from `main`, checks and repairs
+them, and squash-merges a PR whose message ends with a
+`Grow-reviewed: <tip sha> (grow/kai)` trailer. Every sprint runs
+`just grow-pending` first, and reviews whatever it lists. The next restart
+(`systemctl --user restart kloom`, or the next deploy) sees what main has,
+the trailer included, and resets the branch onto it. That holds even when
+the review repaired the grown files. Never push review edits to `grow/kai`:
+that branch is the service's.
 
 If the journal says the clone **diverged**, main and the unmerged grow
 commits conflict, and the clone was left serving as it was. Resolve it by

@@ -57,6 +57,11 @@ export interface GrowJob {
 		summary: string;
 		/** Why the commit is not on the remote grow branch yet; the next push takes it. */
 		pushError?: string;
+		/**
+		 * A dev grow's branch (`grow/dev-<host>`): the content went there for
+		 * review, not into the subjects this server shows (korg 3442).
+		 */
+		branch?: string;
 	};
 	/** On failure: one line for the reader, and the validator's problems if any. */
 	error?: string;
