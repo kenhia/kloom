@@ -1,0 +1,221 @@
+{
+	"about": "The fixed question set for evaluating an ask provider (korg 3483). Each question is tied to a real frame and asked as ask asks it, without web. `kind` is what it tests; `trail` is set for a frame read on a side trail; `expect` is a note to the judge, never shown to the model. The `ken` questions are Ken's own, from his kept answers.",
+	"questions": [
+		{
+			"id": "q01",
+			"kind": "factual",
+			"subject": "western-civ",
+			"frame": "magna-carta",
+			"question": "When was Magna Carta sealed, and how long did it hold as a peace treaty?"
+		},
+		{
+			"id": "q02",
+			"kind": "factual",
+			"subject": "chemistry",
+			"frame": "haber-bosch",
+			"question": "Why did Haber push the pressure so high, and why couldn't he just run the reaction cold?"
+		},
+		{
+			"id": "q03",
+			"kind": "factual",
+			"subject": "physics",
+			"frame": "michelson-morley",
+			"question": "What was the interferometer mounted on, and why that?"
+		},
+		{
+			"id": "q04",
+			"kind": "factual",
+			"subject": "mathematics",
+			"frame": "konigsberg",
+			"question": "How did counting the bridges at each land show the walk was impossible?"
+		},
+		{
+			"id": "q05",
+			"kind": "factual",
+			"subject": "blood",
+			"frame": "rh-factor",
+			"question": "Why is it called the Rh factor?"
+		},
+		{
+			"id": "q06",
+			"kind": "factual",
+			"subject": "nursing",
+			"frame": "surgical-count",
+			"trail": "at-the-table",
+			"question": "How did the 1943 Letterman method keep track of the sponges?"
+		},
+		{
+			"id": "q07",
+			"kind": "factual",
+			"subject": "making",
+			"frame": "bloomery",
+			"question": "Walk me through how a bloomery turns ore into iron."
+		},
+		{
+			"id": "q08",
+			"kind": "factual",
+			"subject": "feynman",
+			"frame": "challenger",
+			"question": "What exactly did Feynman do with the O-ring at the hearing, and what did it show?"
+		},
+		{
+			"id": "q09",
+			"kind": "simpler",
+			"subject": "physics",
+			"frame": "uncertainty",
+			"trail": "quantum-revolution",
+			"question": "Can you explain this more simply, as if I'd never studied physics?"
+		},
+		{
+			"id": "q10",
+			"kind": "simpler",
+			"subject": "ai",
+			"frame": "self-attention",
+			"trail": "inside-transformer",
+			"question": "Explain self-attention more simply, with an everyday analogy."
+		},
+		{
+			"id": "q11",
+			"kind": "simpler",
+			"subject": "mathematics",
+			"frame": "rsa",
+			"trail": "primes",
+			"question": "Explain more simply why RSA is hard to break."
+		},
+		{
+			"id": "q12",
+			"kind": "simpler",
+			"subject": "chemistry",
+			"frame": "nmr",
+			"question": "In plain words, what does an NMR machine actually measure?"
+		},
+		{
+			"id": "q13",
+			"kind": "why",
+			"subject": "western-civ",
+			"frame": "printing-press",
+			"question": "Why did the printing press matter so much more than earlier ways of copying books?"
+		},
+		{
+			"id": "q14",
+			"kind": "why",
+			"subject": "computing",
+			"frame": "transistor",
+			"question": "Why did the transistor matter so much?"
+		},
+		{
+			"id": "q15",
+			"kind": "why",
+			"subject": "blood",
+			"frame": "citrate",
+			"question": "Why was citrate such a big deal for transfusion?"
+		},
+		{
+			"id": "q16",
+			"kind": "why",
+			"subject": "ai",
+			"frame": "backprop",
+			"question": "Why did backpropagation matter for neural networks?"
+		},
+		{
+			"id": "q17",
+			"kind": "citations",
+			"subject": "nursing",
+			"frame": "rose-diagram",
+			"question": "Where did Nightingale first publish the rose diagram, and which of these sources should I read to see it for myself?",
+			"expect": "Should point to the numbered sources by marker, and not invent a publication the sources do not support."
+		},
+		{
+			"id": "q18",
+			"kind": "citations",
+			"subject": "ai",
+			"frame": "scaling-laws",
+			"question": "Which paper set out the scaling laws described here, and what exactly did it find?",
+			"expect": "Should cite the frame's source for the paper by its marker."
+		},
+		{
+			"id": "q19",
+			"kind": "citations",
+			"subject": "physics",
+			"frame": "cmb",
+			"question": "Which of these sources reports the original discovery, and what did they actually measure?",
+			"expect": "Penzias and Wilson's 1965 paper is source [1]; a good answer marks it and says what was measured (excess antenna temperature at 4080 Mc/s)."
+		},
+		{
+			"id": "q20",
+			"kind": "unanswerable",
+			"subject": "mathematics",
+			"frame": "ishango-bone",
+			"question": "What was the name of the person who carved the Ishango bone?",
+			"expect": "Unknowable. The model must say no one knows; any name is an invention."
+		},
+		{
+			"id": "q21",
+			"kind": "unanswerable",
+			"subject": "computing",
+			"frame": "antikythera",
+			"question": "What was the name of the captain of the ship that sank carrying the Antikythera mechanism?",
+			"expect": "Unknown. The model must say so; any name is an invention."
+		},
+		{
+			"id": "q22",
+			"kind": "unanswerable",
+			"subject": "blood",
+			"frame": "drew-plasma",
+			"question": "What was the name of the first soldier saved by the Blood for Britain plasma?",
+			"expect": "Not recorded in the frame and not a known fact. The model must say so; any name is an invention."
+		},
+		{
+			"id": "q23",
+			"kind": "unanswerable",
+			"subject": "nursing",
+			"frame": "martha-ballard",
+			"question": "How many babies did Martha Ballard deliver, and what was the name of the last one?",
+			"expect": "The count is in the frame (816 deliveries, or the frame's own figure); the last baby's name is not, and a named baby is an invention unless the frame gives it."
+		},
+		{
+			"id": "q24",
+			"kind": "ken",
+			"subject": "ai",
+			"frame": "adaline",
+			"trail": "neural-nets",
+			"question": "Is the adaption needed by a modem to cancel a line's echo the reason that modems would \"screech\" for several seconds when establishing a connection?"
+		},
+		{
+			"id": "q25",
+			"kind": "ken",
+			"subject": "computing",
+			"frame": "logarithms",
+			"question": "Kepler is mentioned without any type of introduction, he appears again in the next narrative. Who is Kepler?"
+		},
+		{
+			"id": "q26",
+			"kind": "ken",
+			"subject": "computing",
+			"frame": "abacus",
+			"question": "I've read where people can use an abacus to do things like square roots and other \"advanced\" mathematics. Can you tell me a bit about that?"
+		},
+		{
+			"id": "q27",
+			"kind": "ken",
+			"subject": "nursing",
+			"frame": "scutari",
+			"question": "I don't understand the \"deaths a year per 100 sick\" where there are days that far exceed the \"deaths a year\". Can you explain?"
+		},
+		{
+			"id": "q28",
+			"kind": "ken",
+			"subject": "western-civ",
+			"frame": "eratosthenes",
+			"question": "What is the science discipline that concerns measuring? metrology?"
+		},
+		{
+			"id": "q29",
+			"kind": "ken",
+			"subject": "ai",
+			"frame": "turing-test",
+			"question": "We have agents that can pass the original Turing test now, are there modern revisits to this test that can distinguish between humans and agents more accurately?",
+			"expect": "Partly beyond the frame and time-sensitive; without web the model should flag that it is going beyond the frame and may be out of date."
+		}
+	]
+}

@@ -141,6 +141,18 @@ verify:
 bench times="5" *args: build
     node bench/content.mjs --times {{ times }} {{ args }}
 
+# Evaluate ask providers (korg 3483): every question in
+# bench/ask-eval/questions.json asked as ask asks it, under Sonnet 5 and the RA
+# (kvllm's resident model) at three reasoning efforts, graded blind by Opus 5.5.
+# Resumable; results under .scratch/ask-eval. `--only ra-low` or `--ids q01` narrow it;
+# `--only sonnet-web,ra-low-web` adds web (the RA's is a Wikipedia-only shim).
+# Ask the question set, grade the answers and print the tables
+ask-eval *args:
+    just build-content
+    node bench/ask-eval/run.mjs {{ args }}
+    node bench/ask-eval/judge.mjs
+    node bench/ask-eval/report.mjs
+
 # The library's size: words, the book they would make, and what else it holds
 stats:
     #!/usr/bin/env bash
