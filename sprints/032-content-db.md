@@ -223,3 +223,21 @@ figures are the steady state.
   two grows write into one subject (seen here when an engine edit landed
   mid-grow). The fix is a decision about what a reloaded queue should do
   with a job already in flight: adopt it, kill it, or refuse to reload.
+
+## Deployed
+
+2026-10-01 22:40 PDT on kai, by `just deploy` from merged main
+(`c037058`, PR #38). The start-up sync fast-forwarded the content clone
+(`grow/kai`) to `origin/main`. The library then built all ten subjects in
+1,422 ms (`~/.local/share/kloom/data/content.db`, 31 MB).
+`just verify` passed every check, including the two new ones: a frame's
+body comes from the library, and pages go compressed. It named build
+`2026-10-02T05:40:51.817Z 9a7458`.
+
+Live, on the ssh door:
+
+- `/physics` is 73 KB as Brotli in 14 ms, and 415 KB raw in 6 ms. It was
+  2,158,849 bytes in 0.30 s this morning.
+- `/ai/eliza` is 55 KB in 11 ms.
+- `/api/frame/physics/coulomb` is 9 KB in 2 ms.
+- `/api/map` is 275 KB, and `/api/stats` takes 1 ms.
