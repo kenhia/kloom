@@ -1,6 +1,6 @@
 """Wikipedia citations pinned to a revision, for a frame's `citations`.
 
-    python3 create-tools/wiki-cite/wiki_cite.py [--accessed YYYY-MM-DD] [--text DIR] [--lang xx] Title ...
+    python3 create-tools/wiki-cite/wiki_cite.py [--accessed YYYY-MM-DD] [--text DIR] [--lang xx] [--expect WORD] Title[=word] ...
 
 Prints a JSON list, one kloom `wikipedia` citation per title, each pointing
 at the article's current revision (`oldid=`) and dated by it. Redirects are
@@ -9,9 +9,19 @@ is named on stderr and left out, and the run exits 1 after the citations
 that were found are printed. `--text DIR` also writes each cited revision's
 readable text to DIR/<Title>.txt (DIR/<Title>.<lang>.txt for --lang), so what you read is the revision you cite;
 a formula is written once, as its TeX. `--lang` cites another language's
-Wikipedia, with the citation's `language`. Standard library only.
+Wikipedia, with the citation's `language`. `--expect WORD` checks that each
+article is the one meant, as `names.py lookup --expect` does and with the
+same code: its short description or first line must say WORD, or a warning
+on stderr names the article it landed on, and the run exits 1 after
+printing (sprint 033: "Army Medical School" quietly cited the US school, a
+namesake). A title may carry its own word, `"Army Medical School=London"`.
+Standard library only.
 """
 import argparse, datetime, html.parser, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
+
+# The article check, shared with names.py lookup so the two never drift (sprint 033).
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'lib'))
+from article_check import article_mismatch, expectations, untex  # noqa: E402
 
 AGENT = 'kloom-create-tools/1.0 (https://github.com/kenhia/kloom)'
 
@@ -36,15 +46,18 @@ def api(lang):
     return f'https://{lang}.wikipedia.org/w/api.php'
 
 
-def revisions(titles, lang='en'):
-    """{requested title: (canonical title, revid, date)} in batches of 50; a title that is missing or
-    a disambiguation page is named on stderr and left out."""
+def revisions(titles, lang='en', about=None):
+    """{requested title: (canonical title, revid, date)} in batches of 20 (the most intro extracts the
+    API gives in one request); a title that is missing or a disambiguation page is named on stderr
+    and left out. `about`, a dict, is filled with {canonical title: (short description, first line)},
+    for --expect."""
     out = {}
-    for i in range(0, len(titles), 50):
-        batch = titles[i:i + 50]
+    for i in range(0, len(titles), 20):
+        batch = titles[i:i + 20]
         query = urllib.parse.urlencode({
-            'action': 'query', 'prop': 'revisions|pageprops', 'rvprop': 'ids|timestamp',
-            'ppprop': 'disambiguation', 'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
+            'action': 'query', 'prop': 'revisions|pageprops|extracts', 'rvprop': 'ids|timestamp',
+            'ppprop': 'disambiguation|wikibase-shortdesc', 'exintro': 1, 'explaintext': 1, 'exsentences': 1,
+            'exlimit': 'max', 'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
         })
         data = get(f'{api(lang)}?{query}')['query']
         renamed = {}
@@ -67,6 +80,9 @@ def revisions(titles, lang='en'):
                 print(f'wiki_cite: "{t}" is cited as "{name}"', file=sys.stderr)
             rev = page['revisions'][0]
             out[t] = (name, rev['revid'], rev['timestamp'][:10])
+            if about is not None:
+                about[name] = (page.get('pageprops', {}).get('wikibase-shortdesc', ''),
+                               untex(' '.join(page.get('extract', '').split())))
     return out
 
 
@@ -166,10 +182,16 @@ def main():
     ap.add_argument('--accessed', default=datetime.date.today().isoformat())
     ap.add_argument('--text', metavar='DIR', help="also write each revision's readable text to DIR/<Title>.txt")
     ap.add_argument('--lang', default='en', help="the Wikipedia's language code (default en): de cites de.wikipedia.org")
+    ap.add_argument('--expect', metavar='WORD',
+                    help='warn, and exit 1, for an article whose description and first line lack this word '
+                         '(a title may carry its own: "Title=word")')
     a = ap.parse_args()
     if not re.fullmatch(r'[a-z][a-z-]*', a.lang):
         ap.error('--lang is a Wikipedia language code, like de')
-    revs = revisions(a.titles, a.lang)
+    asked = expectations(a.titles, a.expect)
+    a.titles = [t for t, _ in asked]
+    about = {}
+    revs = revisions(a.titles, a.lang, about)
     seen, found = set(), []  # titles that redirect to one article give one citation
     for t in a.titles:
         if t in revs and revs[t][0] not in seen:
@@ -184,8 +206,25 @@ def main():
                 fh.write(f'{name} (revision {revid})\n\n' + revision_text(revid, a.lang))
             print(f'wiki_cite: wrote {path}', file=sys.stderr)
     print(json.dumps([citation(*revs[t], a.accessed, a.lang) for t in found], indent='\t', ensure_ascii=False))
-    if len(revs) < len(a.titles):
-        sys.exit(1)  # the others are printed; a missing article or a disambiguation page is still an error
+    doubtful = mismatches(asked, revs, about)
+    for why in doubtful:
+        print(f'wiki_cite: warning: {why}', file=sys.stderr)
+    if len(revs) < len(a.titles) or doubtful:
+        sys.exit(1)  # the others are printed; a missing article, a disambiguation page or a namesake is still an error
+
+
+def mismatches(asked, revs, about):
+    """The --expect warnings: each asked title whose article does not say its keyword, naming the
+    article it landed on."""
+    out = []
+    for t, keyword in asked:
+        if t in revs:
+            name = revs[t][0]
+            description, first_line = about.get(name, ('', ''))
+            why = article_mismatch(name, description, first_line, keyword)
+            if why:
+                out.append(why if name == t else f'"{t}" landed on {why}')
+    return out
 
 
 if __name__ == '__main__':

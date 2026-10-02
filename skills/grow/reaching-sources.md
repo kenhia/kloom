@@ -199,10 +199,15 @@ never a person, and wait when a site tells you to.
     page numbers to drift from the PDF's as plates intervene (+3 to +21 in
     one, sprint 030), so find a passage through the book's index.
     Its full-text search API still answers with highlighted snippets,
-    `https://be-api.us.archive.org/fts/v1/search?q="<phrase>" AND identifier:<item>`:
-    what those snippets show may be cited as an excerpt, `"read":
-"excerpt"`, with a `note` saying it was read in snippets (sprint 030
-    read a 1942 _AJN_ article that way);
+    `https://be-api.us.archive.org/fts/v1/search?q="<phrase>" AND identifier:<item>`.
+    **Snippets are supporting evidence only** (Ken, 2026-10-02, korg
+    3478; sprint 030 allowed them without limits, reading a 1942 _AJN_
+    article that way):
+    - they may corroborate a fact or check a quotation, but are never a
+      frame's only source for a claim, and the citation is never `key`;
+    - cite with `"read": "excerpt"` and a `note` saying it was read through
+      the Internet Archive's full-text search snippets;
+    - quote only the words a snippet shows, never a sentence it cuts off;
 - **JSTOR** answers a script with a challenge page, and its `10.2307/N`
   DOIs do not resolve through Crossref. Cite a JSTOR-only article by its
   stable url, `https://www.jstor.org/stable/N`, with no check; the `N` is

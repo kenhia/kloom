@@ -85,19 +85,18 @@
 			"accessed": "2026-09-30"
 		},
 		{
-			"kind": "book",
-			"title": "The Statutes at Large; Being a Collection of All the Laws of Virginia, from the First Session of the Legislature, in the Year 1619. Vol. 1",
-			"editors": [
-				{
-					"family": "Hening",
-					"given": "William Waller"
-				}
-			],
-			"place": "New York",
-			"published": "1823",
+			"kind": "statute",
+			"title": "Act VII, February 1644/5",
+			"code": {
+				"volume": "1",
+				"name": "Hening",
+				"page": "291"
+			},
+			"published": "1645",
 			"url": "https://archive.org/details/statutesatlargeb01virg",
 			"accessed": "2026-09-30",
-			"note": "Act VII of the session of February 1644/5"
+			"note": "Act VII of the session of February 1644/5, on houses deserted and burned for their nails",
+			"container": "William Waller Hening, ed., The Statutes at Large; Being a Collection of All the Laws of Virginia, vol. 1 (New York, 1823)"
 		},
 		{
 			"kind": "book",

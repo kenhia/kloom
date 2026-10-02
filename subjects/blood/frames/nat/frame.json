@@ -342,11 +342,11 @@
 		{
 			"kind": "media",
 			"title": "The window period for HIV and hepatitis C, by screening test (chart)",
-			"url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1537-2995.2004.04215.x",
 			"accessed": "2026-10-01",
 			"container": "Drawn for kloom from Busch and colleagues (2005) and Petersen and colleagues (1994)",
 			"licence": "MIT",
-			"file": "window.svg"
+			"file": "window.svg",
+			"doi": "10.1111/j.1537-2995.2004.04215.x"
 		}
 	],
 	"connections": [

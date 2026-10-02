@@ -47,12 +47,17 @@
 			"accessed": "2026-10-01"
 		},
 		{
-			"kind": "web",
-			"title": "Public Law 90-130: An Act to amend titles 10, 32, and 37, United States Code, to remove restrictions on the careers of female officers in the Army, Navy, Air Force, and Marine Corps",
-			"container": "United States Statutes at Large, vol. 81",
-			"pages": "374–384",
-			"publisher": "U.S. Government Publishing Office",
+			"kind": "statute",
+			"title": "An Act to amend titles 10, 32, and 37, United States Code, to remove restrictions on the careers of female officers in the Army, Navy, Air Force, and Marine Corps",
+			"publicLaw": "90-130",
+			"code": {
+				"volume": "81",
+				"name": "Stat.",
+				"page": "374"
+			},
 			"published": "1967-11-08",
+			"container": "United States Statutes at Large",
+			"publisher": "U.S. Government Printing Office",
 			"url": "https://www.govinfo.gov/content/pkg/STATUTE-81/pdf/STATUTE-81-Pg374.pdf",
 			"accessed": "2026-10-01"
 		},

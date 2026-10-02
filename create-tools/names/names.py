@@ -1,21 +1,24 @@
 #!/usr/bin/env python3
 """Name the people, places and things a subject mentions (docs/design.md §Connections).
 
-Six commands:
+Seven commands:
 
   lookup   Wikipedia titles -> the name files' skeletons: the Wikidata item each
            article is about, Wikidata's own one-line description, to start
            from (rewrite it in the house style), and the article's first line.
            Read both: a real article on a namesake passes otherwise, and
-           `--expect WORD` warns when neither says WORD. A title that redirects says so
+           `--expect WORD` warns when neither says WORD (the article only; a title
+           may carry its own, `"Title=word"`). A title that redirects says so
            (`redirected`): the article it lands on may be about something wider
            (Project MAC lands on CSAIL), so look the item up on Wikidata instead.
            A title that lands on a disambiguation page, or a set-index page (a list
            of compounds or ships of one name, sprint 029), says `ambiguous`, and
            gives no item: choose the article that is meant and look that up.
            Each item's Wikidata class (`instance_of`) and description are given
-           too, and `--expect` checks them as well: an article on a blood group
-           whose item is the gene product ("ACKR1 protein") is warned of.
+           too, and `--expect-item WORD` checks them as well, opt-in: an article on
+           a blood group whose item is the gene product ("ACKR1 protein") is warned
+           of. (Sprint 029 checked the item under `--expect`; it warned on right
+           items for six of sprint 030's authors, so sprint 033 split it out.)
   add      Write name files into the registry, from JSON files or directories
            of them. A new name is written; one already there is left alone
            unless --update is given; a name whose Wikidata item another file
@@ -27,6 +30,13 @@ Six commands:
            table row, an image's alt text or another link. Words may wrap across
            lines. A name already marked in the frame is left alone.
 
+  drafts   The name drafts a subject's authors have written so far, one per line: id,
+           Wikidata item, home and the part that drafted it (the drafts directory
+           `.scratch/names/<subject>-<part>/`). It flags, and exits 1 on, a name drafted
+           by two parts (the same id, or the same item under two ids) and a name drafted
+           by a part the plan's `owners` does not give it to (sprint 033: sprint 030's
+           authors found owners by grepping, and two names were drafted twice).
+
   density  Names and connections per frame, by subject: what the map's
            defaults are set from.
   reach    For every other subject, its frames within one and within --steps
@@ -35,9 +45,10 @@ Six commands:
            what an author is shown as the quality bar, so no author copies a
            mark by hand (sprint 029). Marks are `mark`'s job, from a spec.
 
-  names.py lookup "Johannes Gutenberg" "Printing press"
+  names.py lookup "Johannes Gutenberg" "Printing press=printing" [--expect WORD] [--expect-item WORD]
   names.py add drafts/ [--names names] [--update] [--check]
   names.py mark examples/western-civ.json [...] [--root subjects] [--check [--placed]]
+  names.py drafts nursing [--plan create-tools/subject-plan/nursing.json] [--dir .scratch/names]
   names.py density [--root subjects]
   names.py reach western-civ [--steps 2] [--root subjects]
   names.py strip blood/abo blood/harvey [--root subjects] [--out DIR]
@@ -62,6 +73,10 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+
+# The article check, shared with wiki_cite.py so the two never drift (sprint 033).
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'lib'))
+from article_check import article_mismatch, expectations, item_mismatch, untex  # noqa: E402
 
 API = 'https://en.wikipedia.org/w/api.php'
 # A project URL, never a person: the Wikimedia APIs ask for a contact, and this is it.
@@ -190,36 +205,18 @@ def item_classes(qids):
                 'instance_of': [labels.get(k, k) for k in kinds[q] if k]} for q in items}
 
 
-def untex(text):
-    """Plain text without the TeX a formula leaves behind in an extract ("{\\displaystyle …}")."""
-    while (i := text.find('{\\displaystyle')) >= 0:
-        depth, j = 0, i
-        for j in range(i, len(text)):
-            depth += {'{': 1, '}': -1}.get(text[j], 0)
-            if depth == 0:
-                break
-        text = text[:i].rstrip() + text[j + 1:]
-    return text
-
-
-def unexpected(found, expect):
-    """Why a looked-up article may be a namesake: `expect` is in neither its description nor its
-    first line ("Hideo Kodama" --expect printing is a politician). None when it is there, or not found."""
-    if not expect or 'id' not in found:
+def unexpected(found, expect, expect_item=None):
+    """Why a looked-up article may not be the thing meant: `expect` is in neither its description
+    nor its first line (a namesake: "Hideo Kodama" --expect printing is a politician), or, with
+    `expect_item`, in neither its Wikidata item's description nor its class (a gene product for a
+    blood group, sprint 029). None when all is well, or the title was not found."""
+    if 'id' not in found:
         return None
-    text = f"{found.get('description', '')} {found.get('first_line', '')}".lower()
-    if expect.lower() not in text:
-        return f"\"{found['name']}\" does not say {expect!r}: is it a namesake? ({found.get('description') or found.get('first_line')})"
-    # The article may be right and its item something else: a gene product for a blood group (sprint 029).
-    if 'instance_of' in found:
-        item = f"{found.get('item_description', '')} {' '.join(found['instance_of'])}".lower()
-        if expect.lower() not in item:
-            what = ', '.join(found['instance_of']) or 'no class'
-            return (f"\"{found['name']}\"'s Wikidata item {found['wikidata']} is a {what} "
-                    f"({found.get('item_description') or 'no description'}), which does not say {expect!r}: "
-                    f"read the item; if it is the thing meant, described in other words, keep it, "
-                    f"and if it is something else, find the item the article means on Wikidata")
-    return None
+    why = article_mismatch(found['name'], found.get('description'), found.get('first_line'), expect)
+    if why or not expect_item or 'instance_of' not in found:
+        return why
+    return item_mismatch(found['name'], found.get('wikidata'), found.get('item_description'),
+                         found['instance_of'], expect_item)
 
 
 # What a mark may not sit inside: a link or image (alt text wraps lines), a
@@ -451,12 +448,22 @@ def main():
     lk = sub.add_parser('lookup', help='Wikipedia titles to name-file skeletons')
     lk.add_argument('titles', nargs='+')
     lk.add_argument('--expect', metavar='WORD',
-                    help='warn, and exit 1, for an article whose description and first line lack this word')
+                    help='warn, and exit 1, for an article whose description and first line lack this word '
+                         '(a title may carry its own: "Title=word")')
+    lk.add_argument('--expect-item', metavar='WORD',
+                    help="also warn, and exit 1, when the article's Wikidata item's description and class lack "
+                         'this word: an item that is something else (a gene product for a blood group)')
     ad = sub.add_parser('add', help='write name files into the registry')
     ad.add_argument('drafts', nargs='+', help='name files, or directories of them')
     ad.add_argument('--names', default='names', help='the registry directory')
     ad.add_argument('--update', action='store_true', help='rewrite names already there')
     ad.add_argument('--check', action='store_true', help='change nothing; exit 1 if any is refused')
+    dr = sub.add_parser('drafts', help="a subject's name drafts: who drafted what, and what was drafted twice")
+    dr.add_argument('subject')
+    dr.add_argument('--plan', help="the subject's plan, for its owners (default: create-tools/subject-plan/<subject>.json)")
+    dr.add_argument('--dir', default='.scratch/names', help='where the drafts directories are')
+    dr.add_argument('--names', default='names', help='the registry directory')
+    dr.add_argument('--json', action='store_true', help='one JSON line per draft')
     dn = sub.add_parser('density', help='names and connections per frame, by subject')
     dn.add_argument('--root', default='subjects', help='the subjects directory')
     dn.add_argument('--json', action='store_true', help='one JSON line per subject')
@@ -483,16 +490,37 @@ def main():
     args = p.parse_args()
 
     if args.command == 'lookup':
-        found = lookup(args.titles)
+        asked = expectations(args.titles, args.expect)
+        found = lookup([t for t, _ in asked])
         doubtful = 0
-        for t in args.titles:
+        for t, keyword in asked:
             row = found.get(t, {'missing': t})
             print(json.dumps(row, ensure_ascii=False))
-            why = unexpected(row, args.expect)
+            why = unexpected(row, keyword, args.expect_item)
             if why:
                 print(f'warning: {why}', file=sys.stderr)
                 doubtful += 1
         return 1 if doubtful else 0
+
+    if args.command == 'drafts':
+        plan_path = Path(args.plan or Path(__file__).resolve().parent.parent / 'subject-plan' / f'{args.subject}.json')
+        plan = json.loads(plan_path.read_text()) if plan_path.exists() else None
+        registry = {f.stem: f for f in Path(args.names).glob('*.json')} if Path(args.names).is_dir() else {}
+        rows, problems, notes = drafts(args.subject, args.dir, plan, registry)
+        for r in rows:
+            print(json.dumps(r) if args.json else f"{r['id']} | {r['wikidata']} | {r['home'] or '-'} | {r['part']}")
+        if plan is None:
+            print(f'note: no plan at {plan_path}, so no owners to check', file=sys.stderr)
+        elif not plan.get('owners'):
+            print(f'note: {plan_path} gives no owners', file=sys.stderr)
+        # Once a part is committed its drafts are all added; name a few, count the rest.
+        for line in notes[:3]:
+            print(f'note: {line}', file=sys.stderr)
+        if len(notes) > 3:
+            print(f'note: {len(notes) - 3} more drafts are already in the registry', file=sys.stderr)
+        for line in problems:
+            print(line, file=sys.stderr)
+        return 1 if problems else 0
 
     if args.command == 'strip':
         text, problems = strip_frames(args.root, args.frames, args.out)
@@ -521,6 +549,42 @@ def main():
         return 0
 
     return mark_spec(args)
+
+
+def drafts(subject, drafts_dir, plan=None, registry=None):
+    """(rows, problems, notes) for a subject's name drafts: a row per draft (id, wikidata, home, part),
+    a problem for a name two parts drafted or a part that does not own it, and a note for a draft the
+    registry already holds (it has been added; the draft can go)."""
+    owners = (plan or {}).get('owners', {})
+    rows, problems, notes = [], [], []
+    prefix = f'{subject}-'
+    for d in sorted(Path(drafts_dir).glob(f'{prefix}*')):
+        if not d.is_dir():
+            continue
+        part = d.name[len(prefix):]
+        for f in sorted(d.glob('*.json')):
+            body = json.loads(f.read_text())
+            rows.append({'id': f.stem, 'wikidata': body.get('wikidata', ''), 'home': body.get('home', ''), 'part': part})
+    by_id, by_item = {}, {}
+    for r in rows:
+        by_id.setdefault(r['id'], []).append(r['part'])
+        if r['wikidata']:
+            by_item.setdefault(r['wikidata'], set()).add(r['id'])
+    for name, parts in sorted(by_id.items()):
+        if len(parts) > 1:
+            problems.append(f'{name} is drafted by {len(parts)} parts: {", ".join(parts)}')
+        owner = owners.get(name)
+        for part in parts:
+            if owner and part != owner:
+                problems.append(f'{name} is drafted by {part}, but the plan gives it to {owner}: borrow '
+                                f"{owner}'s draft, or change the plan's owners if {part} is to commit first")
+    for item, ids in sorted(by_item.items()):
+        if len(ids) > 1:
+            problems.append(f'{item} is drafted under {len(ids)} ids: {", ".join(sorted(ids))}')
+    for stem, held, line in stale_drafts(registry or {}, {r['id']: Path(drafts_dir) / f"{prefix}{r['part']}" / f"{r['id']}.json"
+                                                          for r in rows}):
+        notes.append(line)
+    return rows, problems, notes
 
 
 def mark_spec(args):

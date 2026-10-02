@@ -58,18 +58,18 @@
 			"note": "From the Army Nurse Corps Newsletter: the letters of 1918 and 1940, Bolton's bills"
 		},
 		{
-			"kind": "web",
+			"kind": "statute",
 			"key": true,
-			"title": "Public Law 294: An Act to Authorize Male Nurses and Medical Specialists to Be Appointed as Reserve Officers",
-			"authors": [
-				{
-					"name": "United States Congress"
-				}
-			],
-			"container": "United States Statutes at Large, vol. 69",
-			"publisher": "U.S. Government Printing Office",
-			"pages": "579",
+			"title": "An Act to Authorize Male Nurses and Medical Specialists to Be Appointed as Reserve Officers",
+			"publicLaw": "84-294",
+			"code": {
+				"volume": "69",
+				"name": "Stat.",
+				"page": "579"
+			},
 			"published": "1955-08-09",
+			"container": "United States Statutes at Large",
+			"publisher": "U.S. Government Printing Office",
 			"url": "https://www.govinfo.gov/content/pkg/STATUTE-69/pdf/STATUTE-69-Pg579.pdf",
 			"accessed": "2026-10-01"
 		},

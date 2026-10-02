@@ -7,9 +7,11 @@ sanitiser, so it takes the reader's palette: it draws in currentColor (the
 page's ink), and the page colours its `muted` and `accent` classes. It
 carries <title> and <desc> for anyone opening the file on its own; in the
 page, the markdown image's alt text names it. Put the same numbers in a
-markdown table under the image too. Standard library only. See README.md.
+markdown table under the image too. A spec with a `source` also prints the
+chart's `media` citation, its data's DOI in `doi` (sprint 033). Standard
+library only. See README.md.
 """
-import json, math, sys
+import datetime, json, math, os, sys
 from xml.sax.saxutils import escape
 
 
@@ -105,14 +107,48 @@ def chart(spec):
     return '\n'.join(out) + '\n'
 
 
+def media_citation(spec, out, today=None):
+    """The chart's `media` citation, from the spec's `source` ({container, doi and/or url, accessed?}):
+    a chart drawn here, MIT, by kloom contributors, crediting its data. None without a source."""
+    src = spec.get('source')
+    if not src:
+        return None
+    today = today or datetime.date.today()
+    c = {'kind': 'media', 'title': spec['title'], 'authors': [{'name': 'kloom contributors'}],
+         'published': str(today.year), 'container': src['container']}
+    for k in ('url', 'doi'):
+        if src.get(k):
+            c[k] = src[k]
+    c.update(accessed=src.get('accessed', today.isoformat()), licence='MIT', file=os.path.basename(out))
+    return c
+
+
+def source_problems(spec):
+    """What a `source` lacks: where the data is from, and a link to it."""
+    src = spec.get('source')
+    if src is None:
+        return []
+    out = []
+    if not src.get('container'):
+        out.append('source needs its container: "Chart drawn for kloom from …"')
+    if not (src.get('doi') or src.get('url')):
+        out.append('source needs the data\'s doi (bare, 10.…) or url')
+    if str(src.get('doi', '')).startswith(('http', 'doi.org')):
+        out.append('source.doi is the bare DOI, 10.…, not a link')
+    return out
+
+
 if __name__ == '__main__':
     if len(sys.argv) != 3:
         sys.exit(__doc__)
     with open(sys.argv[1]) as fh:
         spec = json.load(fh)
-    wrong = problems(spec)
+    wrong = problems(spec) + source_problems(spec)
     if wrong:
         sys.exit('\n'.join(f'bar_chart: {w}' for w in wrong))
     svg = chart(spec)
     with open(sys.argv[2], 'w') as fh:
         fh.write(svg)
+    cited = media_citation(spec, sys.argv[2])
+    if cited:
+        print(json.dumps(cited, ensure_ascii=False, indent='\t'))

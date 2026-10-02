@@ -7,7 +7,10 @@ written: `{"spine": {"segments": [...]}, "trails": [{"id", "title", "anchor",
 "spine": {...}}]}`, in exactly the shape of `spine.json` and `trails/*.json`,
 and optionally `"frames": {"<id>": {"topic", "sort", "palette"}}`, what the
 brief settles for each frame (sprint 027), so they are checked before any
-author starts rather than only in the copies of the brief.
+author starts rather than only in the copies of the brief, with a `part`
+(the author's part, its drafts directory's suffix: `navy2`), and `"owners":
+{"<name id>": "<part>"}`, the part that drafts each name two parts will
+mark (sprint 033), which `names.py drafts` reads.
 This writes `spine.json` and one `trails/<id>.json` per trail, holding only
 the frames whose directories exist under `SUBJECT_DIR/frames/`: an empty
 segment is left out, and so is a trail whose anchor or every frame is
@@ -31,9 +34,14 @@ with any `--drafts` directories of names not yet added merged in (sprint
 `--with-drafts` puts each frame's `frame.json.draft` into the copy as its
 `frame.json`, so a frame not yet live is checked without copying it by hand
 (sprint 029; three of sprint 028's authors wrote wrappers to do it).
+`--stand-in ANCHOR` (repeatable) writes, into the copy only, a placeholder
+for a trail's anchor not yet written: its id, the plan's topic, sort and
+palette, a one-line reading and a one-line drawing, and no marks, media or connections, so the
+trail's frames land on a spine (sprint 033; authors in sprints 025 to 030
+built one by hand).
 Standard library only.
 """
-import argparse, json, os, shutil, subprocess, sys
+import argparse, datetime, json, os, re, shutil, subprocess, sys
 
 # engine/validate.ts's TOPIC_MAX: a map label, a list line.
 TOPIC_MAX = 40
@@ -100,6 +108,64 @@ def plan_problems(plan, palettes, written=None):
     return problems, warnings
 
 
+# A name id, as names.py makes them.
+NAME_ID = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
+
+
+def owner_problems(plan):
+    """Problems in a plan's `owners`: each a name id owned by a part the plan knows, one its frames
+    name as their `part`, or else a segment or trail of the plan."""
+    owners = plan.get('owners', {})
+    if not isinstance(owners, dict):
+        return ['owners must be {"<name id>": "<part>"}']
+    parts = {e['part'] for e in plan.get('frames', {}).values() if isinstance(e, dict) and e.get('part')}
+    parts = parts or {seg['id'] for seg in plan['spine']['segments']} | {t['id'] for t in plan.get('trails', [])}
+    out = []
+    for name, part in sorted(owners.items()):
+        if not NAME_ID.match(name):
+            out.append(f'owners.{name}: not a name id (lower-case words joined by "-")')
+        if part not in parts:
+            out.append(f'owners.{name}: "{part}" is not a part of the plan ({", ".join(sorted(parts))})')
+    return out
+
+
+def stand_in(plan, subject_dir, anchor, today=None):
+    """Write a placeholder frame for a trail's anchor into a checking copy (sprint 033): the plan's
+    topic, sort and palette, a one-line reading, no marks, media or connections. Returns what to say."""
+    if anchor not in {t['anchor'] for t in plan.get('trails', [])}:
+        sys.exit(f'subject_plan: --stand-in {anchor}: not the anchor of any trail in the plan')
+    where = os.path.join(subject_dir, 'frames', anchor)
+    if os.path.isfile(os.path.join(where, 'frame.json')):
+        return f'{anchor} is written; no stand-in needed'
+    seg = next(seg for seg in plan['spine']['segments'] if anchor in seg['frames'])
+    entry = plan.get('frames', {}).get(anchor, {})
+    with open(os.path.join(subject_dir, 'subject.json')) as fh:
+        palettes = list(json.load(fh).get('palettes', {}))
+    position = {'label': 'Stand-in'}
+    if seg['labelKind'] == 'date':
+        if not isinstance(entry.get('sort'), (int, float)):
+            sys.exit(f'subject_plan: --stand-in {anchor}: the plan gives no sort, which its date segment needs')
+        position = {'label': str(entry['sort']), 'sort': entry['sort']}
+    frame = {
+        'id': anchor,
+        'topic': entry.get('topic') or f'Stand-in for {anchor}'[:TOPIC_MAX],
+        'position': position,
+        'scene': {'headline': 'Not yet written', 'accent': f'STANDIN-{anchor.upper()}.',
+                  'palette': entry.get('palette') or palettes[0], 'illustration': 'scene.svg', 'metadata': []},
+        'citations': [{'kind': 'web', 'key': True, 'title': 'A stand-in for a frame not yet written',
+                       'url': 'https://github.com/kenhia/kloom', 'accessed': (today or datetime.date.today()).isoformat()}],
+    }
+    os.makedirs(where, exist_ok=True)
+    write(os.path.join(where, 'frame.json'), frame)
+    # Every frame of a subject is held to an illustration; a frame's rule, drawn on.
+    with open(os.path.join(where, 'scene.svg'), 'w') as fh:
+        fh.write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10">'
+                 '<path d="M0 5 H100" stroke="currentColor" fill="none" pathLength="1"/></svg>\n')
+    with open(os.path.join(where, 'reading.md'), 'w') as fh:
+        fh.write(f'A stand-in for {anchor}, in a checking copy only, until its own frame is written.\n')
+    return f'wrote a stand-in for {anchor} into the copy'
+
+
 def keep(spine, have):
     segments = []
     for seg in spine['segments']:
@@ -150,7 +216,13 @@ def main():
                     help='with --complete: a frame\'s frame.json.draft goes into the copy as its frame.json')
     ap.add_argument('--names', default=None, metavar='DIR',
                     help='with --complete: the name registry (default: the repository\'s names/)')
+    ap.add_argument('--stand-in', action='append', default=[], metavar='ANCHOR',
+                    help='with --complete: a placeholder in the copy for a trail\'s anchor not yet written (repeatable)')
     a = ap.parse_args()
+    if a.stand_in and not a.complete:
+        ap.error('--stand-in writes into a checking copy only: give --complete DIR')
+    with open(a.plan) as fh:
+        plan = json.load(fh)
     if a.complete:
         src = a.subject
         a.subject = os.path.join(a.complete, os.path.basename(os.path.normpath(src)))
@@ -186,8 +258,8 @@ def main():
         shutil.copytree(a.names or os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'names'), names)
         for line in merge_drafts(a.drafts, names):
             print(f'subject_plan: warning: {line}', file=sys.stderr)
-    with open(a.plan) as fh:
-        plan = json.load(fh)
+        for anchor in a.stand_in:
+            print(f'subject_plan: {stand_in(plan, a.subject, anchor)}')
     frames_dir = os.path.join(a.subject, 'frames')
     have = {d for d in os.listdir(frames_dir)
             if not d.startswith('.') and os.path.isfile(os.path.join(frames_dir, d, 'frame.json'))} \
@@ -210,6 +282,7 @@ def main():
             with open(os.path.join(frames_dir, f, 'frame.json')) as fh:
                 written[f] = json.load(fh)
         problems, warnings = plan_problems(plan, palettes, written)
+        problems += owner_problems(plan)
         bare = [f for f in planned if f not in plan.get('frames', {})]
         if bare:
             print(f'  {len(bare)} planned frames have no topic, sort or palette in the plan')

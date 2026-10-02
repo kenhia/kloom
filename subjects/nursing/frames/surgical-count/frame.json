@@ -70,29 +70,30 @@
 			"note": "Objective 7, counting sponges, sharps and instruments, pp. 72–75"
 		},
 		{
-			"kind": "web",
-			"title": "Ales v. Ryan, 8 Cal. 2d 82 (1936)",
-			"authors": [
-				{
-					"name": "Supreme Court of California"
-				}
-			],
-			"container": "Justia US Law",
+			"kind": "case",
+			"title": "Ales v. Ryan",
+			"reporter": {
+				"volume": "8",
+				"name": "Cal. 2d",
+				"page": "82"
+			},
 			"published": "1936-12-31",
+			"container": "Justia US Law",
 			"url": "https://law.justia.com/cases/california/supreme-court/2d/8/82.html",
 			"accessed": "2026-10-01"
 		},
 		{
-			"kind": "web",
+			"kind": "case",
 			"key": true,
-			"title": "Sparger v. Worley Hospital, Inc., 547 S.W.2d 582 (Tex. 1977)",
-			"authors": [
-				{
-					"name": "Supreme Court of Texas"
-				}
-			],
-			"container": "Justia US Law",
+			"title": "Sparger v. Worley Hospital, Inc.",
+			"reporter": {
+				"volume": "547",
+				"name": "S.W.2d",
+				"page": "582"
+			},
+			"court": "Tex.",
 			"published": "1977-03-02",
+			"container": "Justia US Law",
 			"url": "https://law.justia.com/cases/texas/supreme-court/1977/b-5721-0.html",
 			"accessed": "2026-10-01",
 			"note": "The nurses' count, the hospital's manual and the captain of the ship"
@@ -326,11 +327,11 @@
 		{
 			"kind": "media",
 			"title": "Risk ratios for a retained sponge or instrument, chart drawn for kloom from Gawande and others (2003), Table 3",
-			"url": "https://www.nejm.org/doi/full/10.1056/NEJMsa021721",
 			"accessed": "2026-10-01",
 			"container": "New England Journal of Medicine data; chart by kloom",
 			"licence": "MIT",
-			"file": "risk.svg"
+			"file": "risk.svg",
+			"doi": "10.1056/NEJMsa021721"
 		}
 	],
 	"connections": [

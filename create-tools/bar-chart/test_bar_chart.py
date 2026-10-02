@@ -22,5 +22,23 @@ class Fit(unittest.TestCase):
                 self.assertEqual(bar_chart.problems(json.load(fh)), [], path)
 
 
+class Citation(unittest.TestCase):
+    def test_prints_the_charts_media_citation_with_its_datas_doi(self):
+        import datetime
+        spec = {**SPEC, 'source': {'container': 'Chart drawn for kloom from Egan et al. (2021), Table 2',
+                                   'doi': '10.1289/EHP7932'}}
+        c = bar_chart.media_citation(spec, 'subjects/x/frames/y/blood-lead.svg', datetime.date(2026, 10, 2))
+        self.assertEqual(c, {'kind': 'media', 'title': 't', 'authors': [{'name': 'kloom contributors'}],
+                             'published': '2026', 'container': 'Chart drawn for kloom from Egan et al. (2021), Table 2',
+                             'doi': '10.1289/EHP7932', 'accessed': '2026-10-02', 'licence': 'MIT',
+                             'file': 'blood-lead.svg'})
+        self.assertIsNone(bar_chart.media_citation(SPEC, 'x.svg'))
+
+    def test_refuses_a_source_without_a_link_or_with_a_doi_link(self):
+        self.assertEqual(bar_chart.source_problems({**SPEC, 'source': {'container': 'c', 'doi': 'https://doi.org/10.1/x'}}),
+                         ['source.doi is the bare DOI, 10.…, not a link'])
+        self.assertEqual(len(bar_chart.source_problems({**SPEC, 'source': {}})), 2)
+
+
 if __name__ == '__main__':
     unittest.main()

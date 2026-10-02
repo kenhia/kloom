@@ -210,8 +210,13 @@
 			"accessed": "2026-10-01"
 		},
 		{
-			"kind": "web",
-			"title": "21 CFR Part 640, Subpart F—Cryoprecipitate (§§ 640.50–640.56)",
+			"kind": "statute",
+			"title": "Cryoprecipitate",
+			"section": "§§ 640.50–640.56",
+			"code": {
+				"volume": "21",
+				"name": "C.F.R."
+			},
 			"container": "Electronic Code of Federal Regulations",
 			"publisher": "US National Archives and Records Administration",
 			"url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-F/part-640/subpart-F",

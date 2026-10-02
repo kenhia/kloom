@@ -34,6 +34,10 @@ here.
 - **Output is content; the tool is not the source of truth.** What a tool
   writes is committed and may be edited by hand afterwards. Re-running a tool
   over a hand-edited file replaces it, so check `git diff` before you commit.
+- **Shared code goes in `lib/`**, never copied between tools: a tool puts
+  `create-tools/lib` on its path and imports it. `lib/article_check.py` is
+  the namesake check `names.py lookup --expect` and `wiki_cite.py --expect`
+  both run (sprint 033), so the two cannot drift; its tests are in `lib/`.
 - **Tested.** A tool's tests are `test_*.py` beside it, using the
   standard library's `unittest` and no network: `just tools-test` runs
   them all, and `just check` runs that (sprint 027, when the authoring

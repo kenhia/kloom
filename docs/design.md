@@ -170,7 +170,7 @@ baked into the engine.
     links the URL that was read, so a Wikipedia source links its pinned
     revision, not the live article.
   - Fields: `kind` (`web`, `wikipedia`, `book`, `article`, `chapter`,
-    `report`, `media`, `letter`, `encyclopedia`, `diary`), `title`, `url` and/or `doi`, `accessed`
+    `report`, `media`, `letter`, `encyclopedia`, `diary`, `case`, `statute`), `title`, `url` and/or `doi`, `accessed`
     (`YYYY-MM-DD`), and optionally `key`, `note` (a key source's remark in
     the Sources list: a page, why it matters), `authors` (`{family,
 given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
@@ -248,6 +248,40 @@ given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
       `https://www.jstor.org/stable/N`, with no Crossref check (JSTOR's
       `10.2307/…` DOIs do not resolve through Crossref). Any other
       www.jstor.org url is refused.
+  - **Forms from _Keeping Watch_** (sprint 033, Ken's decisions of
+    2026-10-02 on korg 3478):
+    - **`case`** and **`statute`**, rendered in legal form after the
+      name, with where it was read (`container`, `publisher`) after that,
+      and no `authors`. A case: its name in italics, then its `reporter`
+      (`{volume, name, page}`, all three) and a parenthetical of its
+      `court`, when the reporter does not say it, and the year of
+      `published`, which it needs: "_Sparger v. Worley Hospital, Inc._,
+      547 S.W.2d 582 (Tex. 1977)." A court's `neutral` citation stands in
+      for the reporter and carries its own year: "_Getty Images v
+      Stability AI_ [2025] EWHC 2863 (Ch)." A statute: its name, then its
+      `publicLaw` ("Pub. L. No. 80-36") and its `code` (`{volume?, name,
+page?}`: the session laws or the code it is in), the year left out
+      where the name or the volume already says it: "Army-Navy Nurses Act
+      of 1947, Pub. L. No. 80-36, 61 Stat. 41." A session law's `chapter`
+      and `section` come before the volume it is printed in ("ch. 192,
+      § 19, 31 Stat. 748, 753", a pinpoint after a comma); a code cited by
+      section, or a state's session laws by chapter, take theirs after it
+      ("42 C.F.R. § 482.23", "2023 Or. Laws ch. 507"). A statute needs a
+      `publicLaw` or a `code`. The Sources list names either by its legal
+      form. The 22 statutes, regulations and cases written before as
+      `chapter`, `web`, `book` or `report` were moved; "Andersen v.
+      Stability AI" stays `web`, a journal's piece about the case.
+    - **`read: "record"`**, "Read in its catalogue record only.", for a
+      work whose own bibliographic record was reached (Crossref, a
+      publisher's landing page) but not its text. `citedIn` stays for a
+      work known only through another work.
+    - **A chart's data source by its DOI.** A `media` citation's `doi` is
+      its data's, rendered with its credit: "Data: https://doi.org/…" in
+      the entry and "data doi:…" in the caption credit, where the entry's
+      own link is its `url`, an image's or a file's page. A chart drawn
+      here may have the DOI alone. `bar_chart.py` prints the citation.
+      A media citation's `number` (a NARA or Navy identifier, an image
+      number) follows its container.
   - A `media` citation may credit an image by its en.wikipedia.org file
     page (`/wiki/File:…`) without a revision: it is an image's page, not
     an article (sprint 027).
@@ -257,7 +291,8 @@ given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
     committee or institutional report, or a lab's system card: title in
     italics, then its `number`, series, and "Place: Publisher, Date".
   - **DOI.** `doi` holds the bare DOI (`10.1109/5.58323`) and the entry
-    links it at doi.org, in place of the url. A doi.org `url` is refused:
+    links it at doi.org, in place of the url (a `media` citation's is its
+    data's, above). A doi.org `url` is refused:
     it goes in `doi`.
   - Every citation needs a title, an http(s) url or a doi, and an accessed
     date, except one seen only in another work (above). Any Wikipedia url must be a permanent revision link (`oldid=`),

@@ -21,17 +21,21 @@
 	},
 	"citations": [
 		{
-			"kind": "chapter",
+			"kind": "statute",
 			"key": true,
 			"title": "An Act Making appropriations for the naval service for the fiscal year ending June thirtieth, nineteen hundred and nine, and for other purposes",
-			"container": "The Statutes at Large of the United States of America, vol. 35, part 1",
+			"chapter": "166",
+			"code": {
+				"volume": "35",
+				"name": "Stat.",
+				"page": "127, 146"
+			},
+			"published": "1908-05-13",
+			"container": "The Statutes at Large of the United States of America",
 			"publisher": "Government Printing Office",
-			"place": "Washington, DC",
-			"published": "1909",
-			"pages": "146",
 			"url": "https://archive.org/details/us_stat_35",
 			"accessed": "2026-10-01",
-			"note": "Chapter 166, approved May 13, 1908: the Nurse Corps (female) is established on p. 146"
+			"note": "The Nurse Corps (female) is established on p. 146"
 		},
 		{
 			"kind": "web",
@@ -100,16 +104,21 @@
 			"note": "Editorial comment: Hasson's career and her list of the first nurses appointed"
 		},
 		{
-			"kind": "chapter",
+			"kind": "statute",
 			"title": "An Act To increase the efficiency of the permanent military establishment of the United States",
-			"container": "The Statutes at Large of the United States of America, vol. 31",
+			"chapter": "192",
+			"section": "§ 19",
+			"code": {
+				"volume": "31",
+				"name": "Stat.",
+				"page": "748, 753"
+			},
+			"published": "1901-02-02",
+			"container": "The Statutes at Large of the United States of America",
 			"publisher": "Government Printing Office",
-			"place": "Washington, DC",
-			"published": "1901",
-			"pages": "753",
 			"url": "https://archive.org/details/us_stat_31",
 			"accessed": "2026-10-01",
-			"note": "Chapter 192, approved February 2, 1901, section 19: the Army nurses' pay and allowances"
+			"note": "Section 19, on p. 753: the Army nurses’ pay and allowances"
 		},
 		{
 			"kind": "web",

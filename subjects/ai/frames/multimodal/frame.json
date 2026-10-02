@@ -318,18 +318,14 @@
 			"published": "2025-08-26"
 		},
 		{
-			"kind": "web",
+			"kind": "case",
 			"key": true,
-			"title": "Getty Images (US) Inc & Ors v Stability AI Ltd [2025] EWHC 2863 (Ch)",
+			"title": "Getty Images (US) Inc & Ors v Stability AI Ltd",
+			"neutral": "[2025] EWHC 2863 (Ch)",
+			"published": "2025-11-04",
 			"url": "https://www.judiciary.uk/judgments/getty-images-v-stability-ai/",
 			"accessed": "2026-09-27",
-			"authors": [
-				{
-					"name": "High Court of Justice (England and Wales)"
-				}
-			],
-			"container": "Courts and Tribunals Judiciary",
-			"published": "2025-11-04"
+			"container": "Courts and Tribunals Judiciary"
 		},
 		{
 			"kind": "web",

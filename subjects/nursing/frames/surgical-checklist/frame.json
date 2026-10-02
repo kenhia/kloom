@@ -232,11 +232,11 @@
 		{
 			"kind": "media",
 			"title": "Deaths and complications before and after a surgical safety checklist, chart drawn for kloom from Haynes and others (2009) and Urbach and others (2014)",
-			"url": "https://www.nejm.org/doi/full/10.1056/NEJMsa0810119",
 			"accessed": "2026-10-01",
 			"container": "New England Journal of Medicine data; chart by kloom",
 			"licence": "MIT",
-			"file": "outcomes.svg"
+			"file": "outcomes.svg",
+			"doi": "10.1056/NEJMsa0810119"
 		}
 	],
 	"connections": [

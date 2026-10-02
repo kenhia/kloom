@@ -106,17 +106,22 @@
 			"note": "The cold tub-bath, pp. 131–134; typhoid fever, pp. 424–428"
 		},
 		{
-			"kind": "chapter",
+			"kind": "statute",
 			"key": true,
 			"title": "An Act To increase the efficiency of the permanent military establishment of the United States",
-			"container": "The Statutes at Large of the United States of America, vol. 31",
+			"chapter": "192",
+			"section": "§ 19",
+			"code": {
+				"volume": "31",
+				"name": "Stat.",
+				"page": "748, 753"
+			},
+			"published": "1901-02-02",
+			"container": "The Statutes at Large of the United States of America",
 			"publisher": "Government Printing Office",
-			"place": "Washington, DC",
-			"published": "1901",
-			"pages": "753",
 			"url": "https://archive.org/details/us_stat_31",
 			"accessed": "2026-10-01",
-			"note": "Chapter 192, approved February 2, 1901: section 19, the Nurse Corps (female)"
+			"note": "Section 19, on p. 753: the Nurse Corps (female)"
 		},
 		{
 			"kind": "report",

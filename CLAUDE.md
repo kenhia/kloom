@@ -201,6 +201,14 @@ swapped in by rename) that the app serves from, the page carrying every
 frame's head and the frames around it, the rest fetched per frame with
 neighbours ahead (`/api/frame`), compressed responses, and `just bench`,
 which measured every target met at 5× today's content.
+Sprint 033 the author-subject skill tuned a third time, from Keeping
+Watch's findings (korg 3478): `case` and `statute` citations in legal form
+(22 migrated), `read: "record"`, a chart's data DOI rendered with its
+credit; `subject_plan.py --stand-in`, `names.py drafts` with name owners
+and parts in the plan, `lookup --expect` split from `--expect-item` and
+shared with `wiki_cite.py --expect` (`create-tools/lib/`), `crop
+--rotate`, commons_media reading NARA, Navy and Wellcome files; and
+Internet Archive snippets as supporting evidence only.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

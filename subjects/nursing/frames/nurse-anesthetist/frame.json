@@ -36,12 +36,17 @@
 			"accessed": "2026-10-01"
 		},
 		{
-			"kind": "web",
+			"kind": "case",
 			"key": true,
-			"title": "Frank v. South, 175 Ky. 416 (1917)",
+			"title": "Frank v. South",
+			"reporter": {
+				"volume": "175",
+				"name": "Ky.",
+				"page": "416"
+			},
+			"published": "1917-05-04",
 			"container": "Caselaw Access Project",
 			"publisher": "Harvard Law School Library",
-			"published": "1917-05-04",
 			"url": "https://static.case.law/ky/175/html/0416-01.html",
 			"accessed": "2026-10-01",
 			"note": "The opinion of the Court of Appeals of Kentucky, with the agreed facts"
