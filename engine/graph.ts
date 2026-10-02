@@ -134,9 +134,12 @@ export interface NameCard {
 	groups: { subject: string; subjectTitle: string; entries: CardEntry[] }[];
 }
 
-/** What one subject's page needs: each frame's connections, and the cards of the names it marks. */
-export interface SubjectLinks {
-	connections: Record<string, FrameLink[]>;
+/**
+ * What one frame's reading shows of the graph (docs/design.md §Serving):
+ * its connections, both ways, and the cards of the names its reading marks.
+ */
+export interface FrameLinks {
+	connections: FrameLink[];
 	names: Record<string, NameCard>;
 }
 
@@ -184,22 +187,25 @@ export function nameCard(graph: Graph, id: string, subject: string): NameCard | 
 	};
 }
 
-export function linksFor(graph: Graph, subject: string): SubjectLinks {
-	const connections: Record<string, FrameLink[]> = {};
-	const add = (key: string, link: FrameLink) => {
-		const [s, frame] = key.split('/');
-		if (s === subject) (connections[frame] ??= []).push(link);
-	};
+/**
+ * Every frame's links, by `<subject>/<frame>`: computed once per build of
+ * the library, so a connection stored on another subject's frame shows here
+ * as soon as either is built. A frame with none has empty links.
+ */
+export function linksByFrame(graph: Graph): Map<string, FrameLinks> {
+	const out = new Map<string, FrameLinks>();
+	for (const key of graph.frames.keys()) out.set(key, { connections: [], names: {} });
+	const add = (key: string, link: FrameLink) => out.get(key)?.connections.push(link);
 	for (const l of graph.links) {
 		add(l.from, linkTo(graph, l.to, 'out', l.why));
 		// A backlink only from a frame that is there.
 		if (graph.frames.has(l.from)) add(l.to, linkTo(graph, l.from, 'in', l.why));
 	}
-	const names: Record<string, NameCard> = {};
 	for (const [id, at] of graph.mentions)
-		if (at.some((key) => key.startsWith(`${subject}/`))) {
-			const card = nameCard(graph, id, subject);
-			if (card) names[id] = card;
+		for (const key of at) {
+			const links = out.get(key);
+			const card = links && nameCard(graph, id, key.slice(0, key.indexOf('/')));
+			if (card) links.names[id] = card;
 		}
-	return { connections, names };
+	return out;
 }

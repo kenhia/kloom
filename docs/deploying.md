@@ -11,6 +11,7 @@ the operations side.
 | App (the deploy copy) | `~/.local/share/kloom/app`                                     |
 | Content clone         | `~/.local/share/kloom/content`, on `grow/kai`                  |
 | Grow jobs             | `~/.local/share/kloom/data`                                    |
+| The library (SQLite)  | `~/.local/share/kloom/data/content.db`, built from the clone   |
 | Reader data (SQLite)  | `~/.local/share/kloom/data/reader.db` (with `-wal`, `-shm`)    |
 | Unit                  | `deploy/kloom.service`, installed to `~/.config/systemd/user/` |
 | Serve entry           | k-homelab `manifests/kai.yml`, `tailscale_serve` port 4890     |
@@ -39,9 +40,10 @@ just deploy
 It refuses a dirty tree, because the app copy records the commit it came
 from (`app/DEPLOYED`). It re-runs `npm ci` only when `package-lock.json`
 changed, and it never touches the content clone. The restart makes the clone
-pick up merged main (below). `just verify` checks both doors, that the
-tailnet door refuses an anonymous write, and that reader data answers only
-a reader.
+pick up merged main (below), then build the library from it. `just verify`
+checks both doors, that the tailnet door refuses an anonymous write, that
+reader data answers only a reader, that a frame's body comes from the
+library and that pages go compressed, and names the library's build.
 
 `reader.db` holds every reader's places, bookmarks, notes (annotations
 among them) and kept answers. It is the one piece of state that is not
@@ -60,8 +62,16 @@ Flagged notes are worked through with the review-notes skill, from a
 checkout: `node skills/review-notes/review-notes.mjs --data
 ~/.local/share/kloom/data list` (`skills/review-notes/SKILL.md`).
 
-`journalctl --user -u kloom` shows the doors, and a `content:` line saying
-what the start-up sync did.
+`content.db` is the served library ([design.md](design.md) §Serving). It
+is derived from the content clone and can be deleted at any time: the next
+start, or the next read, builds it again. The service builds it at start
+and after every grow; a hand edit in the clone shows after a restart. A
+subject in the clone that fails validation keeps being served as it was
+last built, and the journal names its problems.
+
+`journalctl --user -u kloom` shows the doors, a `content:` line saying what
+the start-up sync did, and another saying which subjects the library built
+and how long it took.
 
 ## Bringing grown content back
 

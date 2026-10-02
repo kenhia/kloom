@@ -338,7 +338,7 @@ Built in sprint 004 (korg 3360).
 
 - **The server builds the context.** The client sends
   `{subject, frame, trail, question, model}` to `POST /api/ask`. The server reads the
-  frame's content from disk, never from the request, and refuses an unknown
+  frame's content from the library (§Serving), never from the request, and refuses an unknown
   frame, or a trail that does not hold the frame. Questions are capped at
   2000 characters. The model is honoured only if the app config lists it;
   anything else gets the default.
@@ -744,12 +744,12 @@ printing press). kloom has a layer for each. The map draws both (§The map).
   written. The narrative lists them under **Connections**, above Sources,
   each linked with the other frame's subject (when it is another), title,
   position and trail, and its _why_.
-- **The graph index.** `engine/graph.ts` builds it at load from every
-  served subject: frames, names, mentions and connections. It reads each
-  subject lightly (`readGraphSubject`: titles, positions, connections and
-  marked names; nothing rendered), about 40 ms for four subjects, per
-  request, beside the subject's own load, so content written to disk
-  shows at once. No cache yet: add one when the subjects make it slow.
+- **The graph index.** `engine/graph.ts` builds it from every served
+  subject: frames, names, mentions and connections. It reads each subject
+  lightly (`readGraphSubject`: titles, positions, connections and marked
+  names; nothing rendered). Since sprint 032 it is built when the library
+  is (§Serving), and each frame's links, the map's data and the counts are
+  derived from it and stored, so no request builds it.
 - **Detached, never a failure.** A connection whose target is not a frame
   shows as "Not found", and a home that is not a frame is left off the
   card. Subjects may be kept apart and change on their own, so a missing
@@ -1033,6 +1033,85 @@ was built from or developed in.
   build to `~/.local/share/kloom/app` and restarts the unit. The push uses
   the host user's existing GitHub credential, since the service already runs
   as that user; no new credential was minted.
+
+## Serving
+
+Built in sprint 032 (korg 3460, decided 2026-09-30). The files stay the
+source of truth. Agents write them, git is review, history and undo, and
+grow still commits files. What the app serves from is a compiled SQLite
+file, `content.db`, derived from them and rebuildable at any time
+(`engine/content-db.ts`).
+
+- **What it holds.**
+  - Each subject's head: title, palettes, segments, spine order, trails,
+    and every frame's small half (id, topic, position, scene, `asOf`).
+  - Every frame's body: the rendered reading (already sanitised), the
+    inlined drawing, citations and Sources, and the reading as authored,
+    which ask gives the model.
+  - The names, their mentions and the connections, with each frame's links
+    derived from them: its connections both ways, and the cards of the
+    names its reading marks.
+  - The map's data, the library's counts and each subject's start look.
+  - An FTS5 index over every reading's text and topic, for a later search.
+  - The schema version, the content's commit, the build time and what
+    compiled it.
+
+  Media stay files beside the subjects, named in the `media` table, and are
+  served from disk as before. Reader data is a separate file (`reader.db`,
+  §Reader data): `content.db` can be replaced, and reader data cannot.
+
+- **The compiler** (`compileContent`, `just build-content`).
+  - It validates every subject it builds, as the loader always did, so an
+    invalid subject never compiles. A strict build (the gate, the recipe)
+    fails with every problem named. The app's own builds keep serving such
+    a subject as it was last built, and say why in the journal.
+  - It is incremental. A subject whose files (path, size, modified time)
+    are unchanged since the last build keeps its rows. Only what spans
+    subjects is derived again: names, links, map and counts. One subject
+    rebuilds in about 0.35 s, and the whole library in about 1.5 s
+    (6.5 s at 5×).
+  - A build by another compiler starts afresh, so new rendering code
+    rebuilds everything. In a checkout the compiler is a hash of the
+    engine's source. In a deployed app, which has no engine source, it is
+    the build's commit.
+  - It builds into a temporary file and renames it over the old one, so a
+    reader never sees a half-built library. A server that finds a new file
+    opens it, so a build made by hand is picked up too.
+- **Keeping it current** (`src/lib/server/subject.ts`).
+  - The first read builds it, or finds it current. A service builds it at
+    start, after picking up main (§The content clone), and so on every
+    deploy.
+  - A grow job writes under the content gate, and the library is rebuilt
+    before the gate opens. Readers wait at the gate, so grown frames show
+    at once, as they always have.
+  - In the dev server, Vite's own watcher reports a change under `subjects/`
+    or `names/` (`vite.config.ts`), and the next read rebuilds what changed.
+    The app keeps no watcher of its own: one over every frame directory
+    cost 120 MB at 5×. A hand edit in a service's content clone shows after
+    a restart.
+- **The page and the frames.**
+  - The page carries the subject's head, and the bodies of the frame it
+    opens on and two either side.
+  - The shell asks for the bodies of the frame under the cursor, two either
+    side of it, and the narrative's frame (`onneed`). The page fetches the
+    ones it lacks from `/api/frame/<subject>/<frame>`, tagged with the build
+    (a 304 when unchanged), and keeps them for that subject and build. A new
+    build, as after a grow, starts the cache afresh.
+  - Until a frame's body arrives, the scene shows its head without the
+    drawing, and the reading says "Fetching the reading…". Annotations wait
+    for the reading rather than calling themselves detached.
+  - The contents, map, marks, random jumps and the start screen use heads,
+    the map's data and the start looks, never bodies.
+- **Compression.** HTML, JSON, SVG, CSS and JS responses over 1 KB go as
+  Brotli or gzip, as the client accepts (`src/lib/server/compress.ts`). The
+  map and the counts are compressed once per build. Ask's NDJSON stream is
+  never compressed, so it keeps streaming.
+- **Sized for 5×** (`just bench`: the library copied five times, compiled
+  and served by a production build). The targets, all met in sprint 032:
+  - a first page of 300 KB or less, compressed;
+  - a frame step of 100 ms or less on the LAN;
+  - the map and counts in 20 ms or less;
+  - a full compile well under a minute.
 
 ## Several subjects
 
@@ -1498,13 +1577,13 @@ pages would it be?_ The About panel answers, from the start screen's corner.
   accent, metadata), and everything of the reader's own (notes, kept
   answers, annotations). A word is a whitespace-separated token with a
   letter or digit in it.
-- **Counted live.** `engine/stats.ts` renders each reading with the same
-  markdown renderer the reader gets and strips it to text, per request
-  (`GET /api/stats`, a read open like the page, fetched when the panel first
-  opens). It reads the raw subjects, validating and sanitising nothing, so
-  the whole library costs about 150 ms, and it waits on the grow gate like
-  the subjects do. Grown content counts as soon as it is on disk; there is
-  no cache to go stale.
+- **Counted when the library is built.** `engine/stats.ts` renders each
+  reading with the same markdown renderer the reader gets and strips it to
+  text. Since sprint 032 that happens per subject when the library is built
+  (§Serving), and `GET /api/stats` (a read open like the page, fetched when
+  the panel first opens) sends the stored sum. Grown content counts once
+  its build lands, which is before the grow's gate opens. `just stats`
+  still counts straight from the files.
 - **What else it shows:** per subject, frames (a trail's included), trails,
   words and pages as a table; for the library, images, charts, tables,
   names in the registry, connections (each stored on one end, so counted

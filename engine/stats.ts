@@ -10,9 +10,9 @@ import type { RawSubject } from './validate';
  * headline, accent and metadata, and anything of the reader's own (notes,
  * kept answers, annotations) do not.
  *
- * Read from the raw subjects, nothing validated or sanitised, so counting the
- * whole library per request stays cheap and is never stale: grown content
- * counts the moment it is on disk.
+ * Read from the raw subjects, nothing validated or sanitised. The library
+ * counts each subject as it compiles it (docs/design.md §Serving), and
+ * `just stats` counts straight from the files.
  */
 
 /** Words to a printed page (Ken, 2026-09-30). */
@@ -64,12 +64,12 @@ const BREAK =
 const ENTITIES: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', nbsp: ' ' };
 
 /**
- * A rendered reading's words: its text with the markup gone, split on
- * whitespace. Inlined drawings and image credits never reach here (see
- * `readingStats`), and alt text lives in attributes, which go with the tags.
+ * A rendered reading's text as a reader sees it: the markup and inlined
+ * drawings gone, entities decoded, and a space wherever a block or line
+ * breaks. Alt text lives in attributes, which go with the tags.
  */
-export function wordCount(html: string): number {
-	const text = html
+export function plainText(html: string): string {
+	return html
 		.replace(/<svg\b[\s\S]*?<\/svg>/gi, ' ')
 		.replace(BREAK, ' ')
 		.replace(/<[^>]*>/g, '')
@@ -78,7 +78,16 @@ export function wordCount(html: string): number {
 				? String.fromCodePoint(e[1] === 'x' ? parseInt(e.slice(2), 16) : Number(e.slice(1)))
 				: (ENTITIES[e] ?? m)
 		);
-	return text.split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).length;
+}
+
+/**
+ * A rendered reading's words: its plain text split on whitespace. Image
+ * credits never reach here (see `readingStats`).
+ */
+export function wordCount(html: string): number {
+	return plainText(html)
+		.split(/\s+/)
+		.filter((w) => /[\p{L}\p{N}]/u.test(w)).length;
 }
 
 /**

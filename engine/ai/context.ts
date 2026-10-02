@@ -1,16 +1,18 @@
-import type { Subject } from '../model';
+import type { FrameSource } from '../served';
+import type { SubjectHead } from '../model';
 import type { AskContext } from './provider';
 
 /**
  * The ask context for a frame, built on the server from the subject it
- * serves: the client names a frame and trail, never their content. Null when
+ * serves (its head, and the frame's reading and citations from the
+ * library): the client names a frame and trail, never their content. Null when
  * the frame is unknown, or the trail is unknown or does not hold the frame.
  */
 export function askContext(
-	subject: Subject,
+	subject: SubjectHead,
 	frameId: unknown,
 	trailId: unknown,
-	reading: string
+	{ reading, citations }: FrameSource
 ): AskContext | null {
 	if (typeof frameId !== 'string' || !Object.hasOwn(subject.frames, frameId)) return null;
 	const trail =
@@ -32,7 +34,7 @@ export function askContext(
 			segment: segment.title,
 			reading,
 			...(frame.asOf ? { asOf: frame.asOf } : {}),
-			citations: frame.citations ?? []
+			citations
 		},
 		trail: trail ? { id: trail.id, title: trail.title } : null
 	};

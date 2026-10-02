@@ -80,6 +80,8 @@
 		detached?: string[];
 		/** Connections and name cards; absent, names are plain words. */
 		links?: LinksOffer | null;
+		/** The frame's body is still on its way (docs/design.md §Serving). */
+		pending?: boolean;
 	}
 
 	let {
@@ -96,7 +98,8 @@
 		annotating = null,
 		annotations = [],
 		detached = $bindable([]),
-		links = null
+		links = null,
+		pending = false
 	}: Props = $props();
 
 	const behind = $derived(frame.id !== spineFrame.id);
@@ -126,6 +129,11 @@
 		if (!root) return;
 		choice = null;
 		clearHighlights(root);
+		// Nothing to find words in until the reading arrives: none is detached yet.
+		if (pending) {
+			if (detached.length) detached = [];
+			return;
+		}
 		const lost: string[] = [];
 		for (const note of annotations) {
 			const at = note.anchor && findQuote(readingText(root).text, note.anchor);
@@ -383,9 +391,13 @@
 		{/if}
 
 		<div class="body" bind:this={body}>
-			<!-- Rendered on load with raw HTML escaped and unsafe links dropped. -->
-			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-			{@html frame.readingHtml}
+			{#if pending}
+				<p class="pending" role="status">Fetching the reading…</p>
+			{:else}
+				<!-- Rendered on load with raw HTML escaped and unsafe links dropped. -->
+				<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+				{@html frame.readingHtml}
+			{/if}
 		</div>
 
 		{#if detached.length}
@@ -451,21 +463,23 @@
 			{/key}
 		{/if}
 
-		<h3>Sources</h3>
-		<ol class="sources">
-			{#each frame.sources as source, i (i)}
-				<li>
-					{#if source.url}
-						<!-- An external source, not an app route. -->
-						<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
-						<a href={source.url} rel="noopener noreferrer">{source.title}</a>
-					{:else}
-						{source.title}
-					{/if}
-					{#if source.note}<span class="note">— {source.note}</span>{/if}
-				</li>
-			{/each}
-		</ol>
+		{#if !pending}
+			<h3>Sources</h3>
+			<ol class="sources">
+				{#each frame.sources as source, i (i)}
+					<li>
+						{#if source.url}
+							<!-- An external source, not an app route. -->
+							<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+							<a href={source.url} rel="noopener noreferrer">{source.title}</a>
+						{:else}
+							{source.title}
+						{/if}
+						{#if source.note}<span class="note">— {source.note}</span>{/if}
+					</li>
+				{/each}
+			</ol>
+		{/if}
 
 		{#if naming && links}
 			<!-- Each opening is its own card: it takes focus, and keeps its name. -->
@@ -541,6 +555,10 @@
 		margin: 0;
 		font-size: 0.75rem;
 		color: var(--ink);
+	}
+	.pending {
+		color: var(--muted);
+		font-size: 0.9rem;
 	}
 	.detached {
 		margin: 1.25rem 0 0;

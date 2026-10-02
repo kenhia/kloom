@@ -195,6 +195,12 @@ Sprint 031 ready for readers: the scene keeps to its row of the spine, the
 drawing giving way and long headlines set smaller, so nothing meets the
 HUD (`just scene-fit`, every frame at desktop and phone sizes), and
 About's note on accuracy with a Content feedback issue form.
+Sprint 032 content.db: the subjects compiled into one SQLite library
+(`engine/content-db.ts`; strict for the gate, incremental by subject,
+swapped in by rename) that the app serves from, the page carrying every
+frame's head and the frames around it, the rest fetched per frame with
+neighbours ahead (`/api/frame`), compressed responses, and `just bench`,
+which measured every target met at 5× today's content.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

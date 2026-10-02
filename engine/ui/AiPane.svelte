@@ -6,7 +6,7 @@
 	import type { GrowJob } from '../ai/grow';
 	import type { AiOffer } from '../ai/provider';
 	import { renderMarkdown } from '../markdown';
-	import type { Frame, Trail } from '../model';
+	import type { FrameHead, Trail } from '../model';
 	import { ASK_MODEL, GROW_MODEL, type Layout } from '../settings';
 	import type { UserSettings } from '../user-settings.svelte';
 
@@ -18,7 +18,7 @@
 		 * reader has turned following off it can differ from the spine's; they are
 		 * asking about what they read.
 		 */
-		frame: Frame;
+		frame: FrameHead;
 		trail: Trail | null;
 		settings: UserSettings;
 		offer: AiOffer;

@@ -1,27 +1,43 @@
 import { redirect } from '@sveltejs/kit';
 import { loadAppConfig, webMode } from '$lib/server/app-config';
-import { listSubjects } from '$lib/server/config';
 import { readerStore } from '$lib/server/reader-store';
-import { servedGraph, servedSubject } from '$lib/server/subject';
-import { linksFor } from '$engine/graph';
+import {
+	servedBody,
+	servedBuild,
+	servedStart,
+	servedSubject,
+	servedSubjects
+} from '$lib/server/subject';
 import type { Bookmark, Place } from '$engine/reader-data';
+import { around, type ServedBody } from '$engine/served';
 import type { PageServerLoad } from './$types';
 
 /** A reader-data record with its subject's title, for lists that span subjects. */
 export type Placed<T> = T & { subjectTitle: string };
 
-// Read per request, so content written to disk, and a model renamed in the
-// app config, show without a rebuild. An unknown subject is a 404.
-// `/<subject>/<frame>` is a deep link; one to a frame the subject no longer
-// has (a stale bookmark, say) opens the subject instead.
+// From the library (docs/design.md §Serving), current with the files on
+// disk; the app config is read per request, so a model renamed there shows
+// without a restart. An unknown subject is a 404. `/<subject>/<frame>` is a
+// deep link; one to a frame the subject no longer has (a stale bookmark, say)
+// opens the subject instead.
+//
+// The page carries every frame's head and only the bodies around the frame
+// it opens on; the shell fetches the rest as the reader moves.
 export const load: PageServerLoad = async ({ params, locals }) => {
-	const [subject, config, subjects, graph] = await Promise.all([
+	const [subject, config, subjects, build] = await Promise.all([
 		servedSubject(params.subject),
 		loadAppConfig(),
-		listSubjects(),
-		servedGraph()
+		servedSubjects(),
+		servedBuild()
 	]);
 	if (params.frame && !subject.frames[params.frame]) redirect(307, `/${subject.id}`);
+	const opening = params.frame ?? subject.spine.segments[0].frames[0];
+	const [start, ...found] = await Promise.all([
+		servedStart(subject.id),
+		...around(subject, opening).map(async (id) => [id, await servedBody(subject.id, id)] as const)
+	]);
+	const bodies: Record<string, ServedBody> = {};
+	for (const [id, body] of found) if (body) bodies[id] = JSON.parse(body.json);
 
 	// The reader's own data (korg 3413, 3414, 3409, 3390, 3424). Records naming a
 	// subject that is no longer served, or a frame this subject no longer has,
@@ -64,8 +80,9 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 	return {
 		subject,
 		subjects,
-		// Connections and name cards (§Connections), for this subject's frames.
-		links: linksFor(graph, subject.id),
+		start: start!,
+		bodies,
+		build,
 		frame: params.frame ?? null,
 		reader: locals.reader ? { name: locals.reader.name } : null,
 		readerData,

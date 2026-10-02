@@ -1,4 +1,4 @@
-import type { Subject } from './model';
+import type { SubjectHead } from './model';
 import { stops } from './navigation';
 
 /**
@@ -7,7 +7,7 @@ import { stops } from './navigation';
  */
 
 /** Every frame a spine walks: the main spine's, then each trail's. */
-export const walkedFrames = (subject: Subject): string[] => [
+export const walkedFrames = (subject: SubjectHead): string[] => [
 	...stops(subject.spine).map((s) => s.frameId),
 	...subject.trails.flatMap((t) => stops(t.spine).map((s) => s.frameId))
 ];

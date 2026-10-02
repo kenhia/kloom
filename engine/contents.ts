@@ -5,7 +5,7 @@
  * what is in it.
  */
 
-import type { Frame, Subject, Trail } from './model';
+import type { FrameHead, SubjectHead, Trail } from './model';
 
 export interface ContentsFrame {
 	id: string;
@@ -34,20 +34,20 @@ export interface ContentsSegment {
 	entries: ContentsEntry[];
 }
 
-const entryOf = (f: Frame): ContentsFrame => ({
+const entryOf = (f: FrameHead): ContentsFrame => ({
 	id: f.id,
 	title: `${f.scene.headline} ${f.scene.accent}`,
 	position: f.position.label,
 	topic: f.topic
 });
 
-const trailOf = (t: Trail, frames: Subject['frames']): ContentsTrail => ({
+const trailOf = (t: Trail, frames: SubjectHead['frames']): ContentsTrail => ({
 	id: t.id,
 	title: t.title,
 	frames: t.spine.segments.flatMap((s) => s.frames.map((id) => entryOf(frames[id])))
 });
 
-export function contentsOf(subject: Subject): ContentsSegment[] {
+export function contentsOf(subject: SubjectHead): ContentsSegment[] {
 	return subject.spine.segments.map((s) => ({
 		id: s.id,
 		title: s.title,
@@ -96,7 +96,7 @@ export const contentsCount = (contents: ContentsSegment[]) =>
  * The trails open when the contents open: the one the reader is on, or
  * those branching from the frame they are on.
  */
-export function openTrails(subject: Subject, frame: string, trail: string | null): Set<string> {
+export function openTrails(subject: SubjectHead, frame: string, trail: string | null): Set<string> {
 	if (trail) return new Set([trail]);
 	return new Set(subject.trails.filter((t) => t.anchor === frame).map((t) => t.id));
 }

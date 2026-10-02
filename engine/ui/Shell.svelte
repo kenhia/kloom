@@ -2,11 +2,11 @@
 	import { onMount, tick, untrack } from 'svelte';
 	import type { AiOffer } from '../ai/provider';
 	import type { Anchor } from '../anchor';
-	import type { SubjectLinks } from '../graph';
-	import type { Frame, Subject, Trail } from '../model';
+	import type { Frame, FrameHead, SubjectHead, Trail } from '../model';
 	import type { JumpItem, Note, ReaderLayer } from '../reader-data';
 	import { contentsOf, openTrails } from '../contents';
 	import { clamp, indexLabel, stops, WheelGate, type BackStop, type SyncMode } from '../navigation';
+	import { AHEAD, PENDING, type ServedBody } from '../served';
 	import { keyName, pageKey, SHORTCUTS, tabKey } from '../keys';
 	import { marksText, type FrameMarks } from '../marks';
 	import {
@@ -49,7 +49,15 @@
 	import Splitter from './Splitter.svelte';
 
 	interface Props {
-		subject: Subject;
+		/** Every frame's head (docs/design.md §Serving). */
+		subject: SubjectHead;
+		/**
+		 * The frame bodies the page has fetched, by frame id. A frame whose
+		 * body has not arrived shows its head, and its reading says it is coming.
+		 */
+		bodies?: Record<string, ServedBody>;
+		/** The frames the shell is about to show, nearest first: the page fetches those it lacks. */
+		onneed?: (ids: string[]) => void;
 		/** The reader's settings; the page makes them and loads them on mount. */
 		settings: UserSettings;
 		/** What the app config offers the AI pane. */
@@ -61,7 +69,7 @@
 		/** The frame to open on (a deep link); the first frame when absent. */
 		startAt?: string | null;
 		/** The frame on the spine changed: the page records the reader's place. */
-		onplace?: (frame: Frame) => void;
+		onplace?: (frame: FrameHead) => void;
 		/** The reader's bookmarks; absent when there is no reader to keep them for. */
 		bookmarks?: BookmarkOffer | null;
 		/** The reader's notes and kept answers; absent when there is no reader. */
@@ -70,8 +78,6 @@
 		onhome?: () => void;
 		/** A frame's own address, for the contents' links; the page resolves it. */
 		hrefOf?: (frame: string) => string;
-		/** Connections and name cards for this subject's frames (§Connections). */
-		links?: SubjectLinks | null;
 		/** Any frame's address, in any subject; the page resolves it. */
 		hrefTo?: (subject: string, frame: string) => string;
 		/** A jump to a frame, here or in another subject: the page navigates, with a way back. */
@@ -96,12 +102,14 @@
 		marked: Set<string>;
 		items: JumpItem[];
 		exportHref?: string;
-		ontoggle: (frame: Frame) => void;
+		ontoggle: (frame: FrameHead) => void;
 		onremove: (item: JumpItem) => void;
 	}
 
 	let {
 		subject,
+		bodies = {},
+		onneed,
 		settings,
 		ai = { web: 'deny' },
 		ongrown,
@@ -112,7 +120,6 @@
 		layer = null,
 		onhome,
 		hrefOf,
-		links = null,
 		hrefTo,
 		onfollow,
 		back = null,
@@ -147,7 +154,16 @@
 	const trail = $derived(trailId ? (subject.trails.find((t) => t.id === trailId) ?? null) : null);
 	const path = $derived(stops(trail ? trail.spine : subject.spine));
 	const stop = $derived(path[clamp(index, path.length)]);
-	const frame = $derived(subject.frames[stop.frameId]);
+	/** A frame whole: its head, and its body or, until that arrives, an empty one. */
+	const whole = (
+		head: FrameHead,
+		body: ServedBody | undefined
+	): Frame & Pick<ServedBody, 'links'> => ({
+		...head,
+		...(body ?? PENDING)
+	});
+	const spineBody = $derived(bodies[stop.frameId]);
+	const frame = $derived(whole(subject.frames[stop.frameId], spineBody));
 	/** A reader setting (§Interaction): the narrative follows the spine unless they said not to. */
 	const sync = $derived<SyncMode>(settings.get(followSpine.id) === 'manual' ? 'manual' : 'follow');
 	const shape = $derived((settings.get(layout.id) ?? layout.default) as Layout);
@@ -210,9 +226,25 @@
 	const palette = $derived(
 		paletteFor(subject, frame.scene.palette, settings.get(paletteMode.id) ?? paletteMode.default)
 	);
-	const narrativeFrame = $derived(
-		sync === 'follow' || !pinned ? frame : (subject.frames[pinned] ?? frame)
+	const narrativeId = $derived(
+		sync === 'follow' || !pinned || !subject.frames[pinned] ? stop.frameId : pinned
 	);
+	const narrativeBody = $derived(bodies[narrativeId]);
+	const narrativeFrame = $derived(whole(subject.frames[narrativeId], narrativeBody));
+	/** The narrative's frame has no body yet: its reading is on its way. */
+	const pending = $derived(!narrativeBody);
+	// The frames about to be shown, nearest first: the spine's, its
+	// neighbours either side, and the narrative's (§Serving).
+	$effect(() => {
+		const ids = [stop.frameId];
+		for (let d = 1; d <= AHEAD; d++)
+			for (const i of [index + d, index - d])
+				if (i >= 0 && i < path.length) ids.push(path[i].frameId);
+		ids.push(narrativeId);
+		// Read here, so bodies that go away (a new build) are asked for again.
+		const missing = ids.filter((id) => !bodies[id]);
+		if (missing.length) untrack(() => onneed?.(missing));
+	});
 	const trailsFrom = (id: string) => subject.trails.filter((t) => t.anchor === id);
 	/** The table of contents (§Contents, korg 3433): rebuilt when a grow adds frames. */
 	const contents = $derived(contentsOf(subject));
@@ -242,7 +274,7 @@
 		kept: layer?.kept[id] ?? 0,
 		notes: noteCounts[id] ?? 0
 	});
-	const titleOf = (f: Frame) => `${f.scene.headline} ${f.scene.accent}`;
+	const titleOf = (f: FrameHead) => `${f.scene.headline} ${f.scene.accent}`;
 	const announcement = $derived.by(() => {
 		const said = marksText(marksOf(frame.id));
 		const tail = said.length ? ` ${said.join(', ')}.`.replace(/ (\w)/, (m) => m.toUpperCase()) : '';
@@ -255,7 +287,7 @@
 	 */
 	interface Draft {
 		id?: string;
-		frame: Frame;
+		frame: FrameHead;
 		text: string;
 		flag: boolean;
 		/** The words it is on, for an annotation (§Annotations). */
@@ -434,10 +466,10 @@
 	);
 
 	const linksOffer = $derived<LinksOffer | null>(
-		links && hrefTo && onfollow
+		hrefTo && onfollow
 			? {
-					connections: links.connections[narrativeFrame.id] ?? [],
-					names: links.names,
+					connections: narrativeFrame.links.connections,
+					names: narrativeFrame.links.names,
 					subject: subject.id,
 					hrefOf: hrefTo,
 					onfollow,
@@ -492,7 +524,8 @@
 
 	untrack(() => startAt && goTo(startAt));
 
-	$effect(() => onplace?.(frame));
+	// The head, whose identity holds when the body arrives: one place per move.
+	$effect(() => onplace?.(subject.frames[stop.frameId]));
 
 	async function random(scope: RandomScope) {
 		if (!onrandom || !mayLeave()) return;
@@ -858,6 +891,7 @@
 			tab={tabs.length > 1 ? 'tab-narrative' : null}
 			hidden={tab !== 'narrative'}
 			frame={narrativeFrame}
+			{pending}
 			spineFrame={frame}
 			{sync}
 			trails={trail ? [] : trailsFrom(narrativeFrame.id)}

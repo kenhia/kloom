@@ -25,6 +25,34 @@ tools-test:
         python3 -m unittest discover -s "$d" -p 'test_*.py' -q
     done
 
+# The app builds its library itself on first use (docs/design.md §Serving);
+# this is a build by hand: every subject validated, unchanged ones kept, the
+# file swapped in whole, and an invalid subject fails it.
+# Compile subjects/ and names/ into the content.db the app serves
+build-content out="data/content.db":
+    #!/usr/bin/env bash
+    set -euo pipefail
+    node --input-type=module -e "
+    import { resolve } from 'node:path';
+    import { runnerImport } from 'vite';
+    const { module: m } = await runnerImport('./engine/content-db.ts', { configFile: false, logLevel: 'error' });
+    try {
+        const r = await m.compileContent({
+            subjectsDir: resolve('subjects'), namesDir: resolve('names'), out: resolve('{{ out }}'),
+            compiler: m.engineDigest(resolve('engine')) ?? '', strict: true,
+            source: process.env.SOURCE ?? '',
+        });
+        for (const p of r.nameProblems) console.error('names: ' + p);
+        console.log(r.changed
+            ? 'built ' + (r.built.join(', ') || 'the library') + (r.reused.length ? '; ' + r.reused.length + ' unchanged' : '') + (r.dropped.length ? '; dropped ' + r.dropped.join(', ') : '') + ' in ' + Math.round(r.ms) + ' ms'
+            : 'up to date (' + r.reused.length + ' subjects)');
+        console.log('{{ out }}: build ' + r.build);
+    } catch (e) {
+        console.error(e.message);
+        process.exit(1);
+    }
+    " 2> >(grep -v ExperimentalWarning >&2)
+
 # Serve locally on loopback
 dev:
     npm run dev
@@ -98,8 +126,20 @@ verify:
         "$(code 'http://127.0.0.1:4890/api/reader/notes?subject=western-civ')" 401
     check "ssh door reads its reader's notes" \
         "$(code 'http://127.0.0.1:4891/api/reader/notes?subject=western-civ')" 200
+    check "a frame's body comes from the library" \
+        "$(code http://127.0.0.1:4891/api/frame/western-civ/prometheus)" 200
+    check "pages go compressed" \
+        "$(curl -s -o /dev/null -H 'accept-encoding: br' -w '%header{content-encoding}' http://127.0.0.1:4891/western-civ)" br
+    echo "library: $(curl -s -o /dev/null -w '%header{x-kloom-build}' http://127.0.0.1:4891/api/stats)"
     echo "deployed $(cat "{{ home }}/app/DEPLOYED" | cut -c1-9); content $(git -C "{{ home }}/content" log -1 --format='%h on %D' | cut -c1-60)"
     exit $fail
+
+# The library copied `times` over, compiled and served by this checkout's
+# build, measured against the targets in docs/design.md §Serving (korg 3460).
+# `--app <dir>` serves another commit's build; `--skip-copy` reuses the copy.
+# Benchmark serving at several times today's content
+bench times="5" *args: build
+    node bench/content.mjs --times {{ times }} {{ args }}
 
 # The library's size: words, the book they would make, and what else it holds
 stats:

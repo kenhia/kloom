@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount, tick, untrack } from 'svelte';
-	import type { Frame } from '$engine/model';
+	import type { FrameHead } from '$engine/model';
 	import {
 		newerPlaces,
 		type Bookmark,
@@ -34,7 +34,8 @@
 		paletteFor,
 		paletteMode
 	} from '$engine/settings';
-	import { startLook, type StartLook } from '$engine/start';
+	import type { ServedBody } from '$engine/served';
+	import type { StartLook } from '$engine/start';
 	import type { LibraryStats } from '$engine/stats';
 	import { UserSettings } from '$engine/user-settings.svelte';
 	import { inscription, loomCredit } from '$lib/start/credit';
@@ -71,9 +72,7 @@
 	// is fetched when it is first selected, and kept.
 	let selected = $state(untrack(() => data.subject.id));
 	let looks = $state<Record<string, StartLook>>({});
-	const look = $derived(
-		selected === data.subject.id ? startLook(data.subject) : (looks[selected] ?? null)
-	);
+	const look = $derived(selected === data.subject.id ? data.start : (looks[selected] ?? null));
 	$effect(() => {
 		const id = selected;
 		if (id === data.subject.id || untrack(() => looks[id])) return;
@@ -83,7 +82,7 @@
 			.catch((e) => console.warn(`start look: ${id} failed`, e));
 	});
 	const startPalette = $derived.by(() => {
-		const l = look ?? startLook(data.subject);
+		const l = look ?? data.start;
 		return paletteFor(l, l.palette, settings.get(paletteMode.id)!);
 	});
 
@@ -117,11 +116,51 @@
 	// The reader's own data (docs/design.md §Reader data, korg 3413, 3414).
 	// Absent when there is no reader: nothing is kept, nothing is offered.
 	let shell = $state<ReturnType<typeof Shell>>();
+
+	// Frame bodies (docs/design.md §Serving, korg 3460): the load brought the
+	// ones around the frame the page opened on, and the rest are fetched as
+	// the shell asks for them, then kept for this subject and build. Another
+	// build (a grow landed) or another subject starts afresh.
+	const cacheKey = () => `${data.build} ${data.subject.id}`;
+	let bodies = $state.raw<Record<string, ServedBody>>(untrack(() => ({ ...data.bodies })));
+	let bodiesFor = untrack(cacheKey);
+	/** Fetches made for this cache, so none is made twice. Never rendered. */
+	let asked: Record<string, true> = {};
+	$effect.pre(() => {
+		const key = cacheKey();
+		const seed = data.bodies;
+		untrack(() => {
+			if (key === bodiesFor) bodies = { ...bodies, ...seed };
+			else {
+				bodiesFor = key;
+				asked = {};
+				bodies = { ...seed };
+			}
+		});
+	});
+	function need(ids: string[]) {
+		const subject = data.subject.id;
+		const key = bodiesFor;
+		for (const id of ids) {
+			if (bodies[id] || asked[id]) continue;
+			asked[id] = true;
+			fetch(resolve('/api/frame/[subject]/[frame]', { subject, frame: id }))
+				.then((res) => (res.ok ? (res.json() as Promise<ServedBody>) : Promise.reject(res.status)))
+				.then((body) => {
+					if (bodiesFor === key) bodies = { ...bodies, [id]: body };
+				})
+				.catch((e) => {
+					// Asked again the next time the shell needs it.
+					delete asked[id];
+					console.warn(`frame ${subject}/${id}: could not fetch its body`, e);
+				});
+		}
+	}
 	let marks = $state<(Bookmark & { subjectTitle: string })[]>(
 		untrack(() => data.readerData?.bookmarks ?? [])
 	);
 	const here = $derived(data.subjects.find((s) => s.id === data.subject.id)!);
-	const titleOf = (f: Frame) => `${f.scene.headline} ${f.scene.accent}`;
+	const titleOf = (f: FrameHead) => `${f.scene.headline} ${f.scene.accent}`;
 	const frameHref = (subject: string, frame: string) =>
 		resolve('/[subject]/[[frame]]', { subject, frame });
 
@@ -214,7 +253,7 @@
 
 	// Where the reader is: named in the URL, so refresh keeps it and it can be
 	// shared, and kept as their place a moment after they stop moving.
-	let current = $state<Frame | null>(null);
+	let current = $state<FrameHead | null>(null);
 	let placeTimer: ReturnType<typeof setTimeout> | undefined;
 	// Each subject's place as the reader's store has it (korg 3432): loaded
 	// with the page, and moved here at once as the reader moves, so the start
@@ -340,7 +379,7 @@
 			: null
 	);
 
-	async function toggleMark(f: Frame) {
+	async function toggleMark(f: FrameHead) {
 		const subject = data.subject.id;
 		if (marked.has(f.id)) return unmark(subject, f.id);
 		const mark = { subject, frame: f.id, label: titleOf(f) };
@@ -398,6 +437,8 @@
 	<Shell
 		bind:this={shell}
 		subject={data.subject}
+		{bodies}
+		onneed={need}
 		{settings}
 		ai={{ web: data.askWeb, grow: !!data.growModels }}
 		ongrown={() => {
@@ -411,7 +452,6 @@
 		{layer}
 		onhome={home}
 		hrefOf={(frame) => frameHref(data.subject.id, frame)}
-		links={data.links}
 		hrefTo={frameHref}
 		onfollow={follow}
 		back={backOffer}
