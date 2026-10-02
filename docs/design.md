@@ -671,13 +671,13 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
 - **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
-  T, B, N, A, C, R, M, D and W act only while focus is inside the spine, the narrative or the
+  T, B, N, A, O, C, R, M, D and W act only while focus is inside the spine, the narrative or the
   notes. They do nothing in the AI pane, in the settings panel, in the note
   editor, or on the bare page.
 - **And remappable** (WCAG 2.1.4's other remedy, sprint 011, korg 3363).
   Each character shortcut is a setting under "Keys": any letter, or Off
   (`kloom.key.sync`, `.trail`, `.bookmark`, `.note`, `.annotate`,
-  `.contents`, `.back`, `.map`, `.random`, `.anywhere`). `keymapOf` turns the
+  `.my-notes`, `.contents`, `.back`, `.map`, `.random`, `.anywhere`). `keymapOf` turns the
   settings into a keymap and `pageKey` reads it. The help bar, the Add a note
   button, the trail buttons and the sync line all show the reader's letters,
   and leave a key out when it is off. A letter given to two shortcuts is
@@ -1264,8 +1264,8 @@ user_version` counts how many a file has had, and opening it runs the
   a named remove button. Writes are optimistic and roll back if the server
   refuses them.
 - **Routes** (`src/routes/api/reader/`). `POST place`, `GET`/`POST`/`DELETE
-bookmarks`, `GET`/`POST`/`DELETE notes`, `GET`/`DELETE kept`, `GET export`
-  and `POST import`. A place, bookmark or note must name a served subject
+bookmarks`, `GET`/`POST`/`PATCH`/`DELETE notes`, `GET`/`POST my-notes`,
+  `GET`/`DELETE kept`, `GET export` and `POST import`. A place, bookmark or note must name a served subject
   (404) and a frame that subject has on disk (400).
 - **Export and import.** The export is a versioned JSON file
   (`kloom: "reader-data"`, `version: 3`) of every place, bookmark, note
@@ -1281,7 +1281,8 @@ bookmarks`, `GET`/`POST`/`DELETE notes`, `GET`/`DELETE kept`, `GET export`
 - **On it since sprint 011:** notes (§Notes) and kept answers (§Kept
   answers), each with its own table, added by the second migration. The
   third (sprint 012) gave a note an `anchor` column, which makes it an
-  annotation (§Annotations).
+  annotation (§Annotations), and the fourth (sprint 034) an `unseen` flag,
+  set when an agent answers it (§My notes).
 - **The adapter loads under plain Node.** `sqlite-reader-store.ts` imports
   only `node:` modules and types, so Node's type stripping can load it
   outside the app. The review-notes skill's script does that (§Notes), and so
@@ -1391,6 +1392,59 @@ skill, which quotes the words.
   It counts as a note on the spine's marks and the tab.
 - **An edit keeps its anchor**, as it keeps its frame. The words an
   annotation is on are fixed when it is made.
+
+## My notes
+
+Built in sprint 034 (korg 3481). Before it, a note could only be found on
+its own frame's Notes tab, so seeing which were flagged or answered meant
+visiting every frame, and an annotation left detached by a fix had nowhere
+to be cleared in bulk.
+
+- **One list, every subject.** A control in the spine's HUD, beside the
+  bookmarks, and O (remappable and scoped like the other shortcuts,
+  §Interaction) open a modal dialog listing every note and annotation the
+  reader has, grouped by subject, the last written first.
+  `GET /api/reader/my-notes` sends them, each with its subject's title and
+  its frame's topic and position as the library has them now; a note
+  whose subject or frame is gone stays listed, to be cleared, with nowhere
+  to go. The list is fetched each time the dialog opens.
+- **Each entry says its state in words**: Note or Annotation, then _Agent
+  review (pending)_, _Answered_ (with the agent's response under the note),
+  _Detached_, _No longer in the library_, or none. An annotation quotes its
+  words. The entry's link is named by the frame's topic and described by
+  its state and text, so a screen reader hears both.
+- **Detached is worked out as the reading pane does.** Each annotated
+  frame's reading is fetched (`/api/frame`, as any jump would), parsed
+  inert, and its annotations' words looked for with the same
+  `readingText` and `findQuote` (`engine/my-notes.ts`, `detachedIn`).
+  Until every frame is read, the status line says so and Clear detached
+  waits.
+- **Filters**: All, Agent review, Answered and Detached, a radio group
+  with a count on each. Answered and Detached can both hold one note.
+- **Per entry**: **Go to** (the link) jumps to the frame through the shared
+  jump path, so the Back chip and the browser's Back return, and opens the
+  Notes tab with focus on that note. **Clear** deletes it after a confirm.
+  The flag button does what the editor's box does, without touching the
+  text (`PATCH /api/reader/notes`): _Flag for agent review_, _Withdraw agent
+  review_, or, on an answered note, _Ask the agent again_, which flags it
+  afresh and clears the answer.
+- **In bulk**: _Clear answered_ and _Clear detached_ delete every note the
+  filter would show, after a confirm that says how many
+  (`DELETE /api/reader/notes` with `ids`). They delete what was shown,
+  never what the server has since.
+- **Keys in the list**: ↑/↓ between notes, Home/End to the ends, Enter
+  goes, Delete clears (with the confirm), Esc closes. The dialog is
+  `data-own-keys`, so the page's own keys stand down in it. Closing returns
+  focus where it was when the dialog opened.
+- **New answers are counted.** The review-notes skill's `handle` sets the
+  note's `unseen` flag. The control shows how many are waiting, a badge with
+  the number and "My notes, 2 new answers" as its name. Opening the dialog
+  marks the answers in it seen (`POST /api/reader/my-notes`), and so does
+  the Notes tab showing one; the dialog still marks them _Answered (new)_
+  while it stays open. Flagging a note afresh clears its flag. Answers given
+  before sprint 034 count as unseen: nothing recorded that they were seen.
+- **Works at 390 px**: the dialog takes the width less a margin, and its
+  filters, entries and bulk buttons wrap.
 
 ## Kept answers
 

@@ -78,6 +78,8 @@ export interface Note {
 	review: Review;
 	/** What the agent that handled it did, in its own words; null until then. */
 	response: string | null;
+	/** The agent's answer is waiting for the reader: handled since they last saw it. */
+	unseen: boolean;
 	created: string;
 	updated: string;
 }
@@ -134,6 +136,21 @@ export interface ReaderStore {
 	saveNote(reader: string, note: NoteInput): Promise<Note | null>;
 	/** Delete a note of theirs; false when there was none. */
 	deleteNote(reader: string, id: string): Promise<boolean>;
+	/** Every note of theirs, across subjects, the last written first (My notes, korg 3481). */
+	allNotes(reader: string): Promise<Note[]>;
+	/**
+	 * Tick or untick a note's "Agent review" box without touching its text,
+	 * as the editor's box does: ticked flags it afresh, unticked unflags a
+	 * flagged note and leaves a handled one handled. Null when they have no
+	 * such note.
+	 */
+	flagNote(reader: string, id: string, flag: boolean): Promise<Note | null>;
+	/** Delete several notes of theirs at once; how many there were. */
+	deleteNotes(reader: string, ids: string[]): Promise<number>;
+	/** How many of their notes have an agent's answer they have not seen. */
+	unseenAnswers(reader: string): Promise<number>;
+	/** They have seen these notes' answers; how many were waiting. */
+	seeNotes(reader: string, ids: string[]): Promise<number>;
 	/** Every flagged note, oldest first: one reader's, or, with none named, every reader's. */
 	flaggedNotes(reader?: string): Promise<ReviewNote[]>;
 	/** The agent dealt with a flagged note: it is handled, with what was done. */
@@ -296,6 +313,7 @@ function noteOf(v: unknown, anchored: boolean): Note | null {
 		anchor,
 		review: n.review as Review,
 		response: n.response as string | null,
+		unseen: n.unseen === true,
 		created: new Date(n.created).toISOString(),
 		updated: new Date(n.updated).toISOString()
 	};
@@ -314,6 +332,8 @@ export interface ReaderLayer {
 	/** Write a note (the page fills in the subject); null when it failed. */
 	saveNote(note: Omit<NoteInput, 'subject'>): Promise<Note | null>;
 	deleteNote(id: string): Promise<boolean>;
+	/** The reader has seen these notes' agent answers (§My notes). */
+	seen(ids: string[]): void;
 	/** The kept answers on a frame, fetched when the Q&A section opens; null when that failed. */
 	keptOn(frame: string): Promise<Kept[] | null>;
 	forget(frame: string, id: string): Promise<boolean>;

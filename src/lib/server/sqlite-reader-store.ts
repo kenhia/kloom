@@ -73,7 +73,11 @@ const MIGRATIONS = [
 	);
 	CREATE INDEX kept_frame ON kept (reader, subject, frame);`,
 	// Sprint 012: annotations (korg 3415), notes with an anchor (JSON).
-	`ALTER TABLE note ADD COLUMN anchor TEXT;`
+	`ALTER TABLE note ADD COLUMN anchor TEXT;`,
+	// Sprint 034: whether an agent's answer waits to be seen (korg 3481).
+	// Answers given before it are counted as waiting: nothing said they were seen.
+	`ALTER TABLE note ADD COLUMN unseen INTEGER NOT NULL DEFAULT 0;
+	UPDATE note SET unseen = 1 WHERE review = 'handled';`
 ];
 
 export const SCHEMA_VERSION = MIGRATIONS.length;
@@ -136,11 +140,15 @@ export function openReaderStore(
 	// Notes. An edit keeps its frame and creation date. The "Agent review" box
 	// flags a note (again) when ticked; unticked, a flagged note is unflagged
 	// and a handled one stays handled.
-	const noteCols = 'id, subject, frame, label, text, anchor, review, response, created, updated';
+	const noteCols =
+		'id, subject, frame, label, text, anchor, review, response, unseen, created, updated';
 	const notesIn = db.prepare(
 		`SELECT ${noteCols} FROM note WHERE reader = ? AND subject = ? ORDER BY created, id`
 	);
 	const allNotes = db.prepare(`SELECT ${noteCols} FROM note WHERE reader = ? ORDER BY created, id`);
+	const newestNotes = db.prepare(
+		`SELECT ${noteCols} FROM note WHERE reader = ? ORDER BY updated DESC, id`
+	);
 	const noteById = db.prepare(`SELECT ${noteCols} FROM note WHERE reader = ? AND id = ?`);
 	const addNote = db.prepare(
 		`INSERT INTO note (reader, id, subject, frame, label, text, anchor, review, created, updated)
@@ -149,8 +157,21 @@ export function openReaderStore(
 	const editNote = db.prepare(
 		`UPDATE note SET label = ?, text = ?, updated = ?,
 		 review = CASE WHEN ? THEN 'flagged' WHEN review = 'handled' THEN 'handled' ELSE 'none' END,
-		 response = CASE WHEN ? THEN NULL ELSE response END
+		 response = CASE WHEN ? THEN NULL ELSE response END,
+		 unseen = CASE WHEN ? THEN 0 ELSE unseen END
 		 WHERE reader = ? AND id = ?`
+	);
+	// The same box, from My notes: the flag alone, the text as it is.
+	const setFlag = db.prepare(
+		`UPDATE note SET
+		 review = CASE WHEN ? THEN 'flagged' WHEN review = 'handled' THEN 'handled' ELSE 'none' END,
+		 response = CASE WHEN ? THEN NULL ELSE response END,
+		 unseen = CASE WHEN ? THEN 0 ELSE unseen END
+		 WHERE reader = ? AND id = ?`
+	);
+	const unseenCount = db.prepare('SELECT count(*) AS n FROM note WHERE reader = ? AND unseen = 1');
+	const seeNote = db.prepare(
+		'UPDATE note SET unseen = 0 WHERE reader = ? AND id = ? AND unseen = 1'
 	);
 	const dropNote = db.prepare('DELETE FROM note WHERE reader = ? AND id = ?');
 	const flagged = db.prepare(
@@ -160,13 +181,15 @@ export function openReaderStore(
 		`SELECT reader, ${noteCols} FROM note WHERE review = 'flagged' AND reader = ? ORDER BY created, id`
 	);
 	const handle = db.prepare(
-		`UPDATE note SET review = 'handled', response = ? WHERE reader = ? AND id = ? AND review = 'flagged'`
+		`UPDATE note SET review = 'handled', response = ?, unseen = 1
+		 WHERE reader = ? AND id = ? AND review = 'flagged'`
 	);
 	const importNote = db.prepare(
-		`INSERT INTO note (reader, id, subject, frame, label, text, anchor, review, response, created, updated)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		`INSERT INTO note (reader, id, subject, frame, label, text, anchor, review, response, unseen, created, updated)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		 ON CONFLICT (reader, id) DO UPDATE SET label = excluded.label, text = excluded.text,
-		 review = excluded.review, response = excluded.response, updated = excluded.updated
+		 review = excluded.review, response = excluded.response, unseen = excluded.unseen,
+		 updated = excluded.updated
 		 WHERE excluded.updated > note.updated`
 	);
 
@@ -194,10 +217,10 @@ export function openReaderStore(
 
 	const stamp = () => now().toISOString();
 	const row = <T>(r: unknown) => (r ? ({ ...(r as object) } as T) : null);
-	/** A note row: its anchor is stored as JSON. */
+	/** A note row: its anchor is stored as JSON, and unseen as 0 or 1. */
 	const note = <T extends Note>(r: unknown): T | null => {
-		const n = row<T & { anchor: string | null }>(r);
-		return n && { ...n, anchor: n.anchor ? JSON.parse(n.anchor) : null };
+		const n = row<Omit<T, 'anchor' | 'unseen'> & { anchor: string | null; unseen: number }>(r);
+		return n && ({ ...n, anchor: n.anchor ? JSON.parse(n.anchor) : null, unseen: !!n.unseen } as T);
 	};
 	const anchorText = (a: Note['anchor'] | undefined) => (a ? JSON.stringify(a) : null);
 	const kept = (r: unknown): Kept => {
@@ -256,11 +279,32 @@ export function openReaderStore(
 				return note<Note>(noteById.get(reader, id));
 			}
 			const flag = n.flag ? 1 : 0;
-			const { changes } = editNote.run(n.label, n.text, at, flag, flag, reader, n.id);
+			const { changes } = editNote.run(n.label, n.text, at, flag, flag, flag, reader, n.id);
 			return changes ? note<Note>(noteById.get(reader, n.id)) : null;
 		},
 		async deleteNote(reader, id) {
 			return dropNote.run(reader, id).changes > 0;
+		},
+		async allNotes(reader) {
+			return newestNotes.all(reader).map((r) => note<Note>(r)!);
+		},
+		async flagNote(reader, id, flag) {
+			const f = flag ? 1 : 0;
+			const { changes } = setFlag.run(f, f, f, reader, id);
+			return changes ? note<Note>(noteById.get(reader, id)) : null;
+		},
+		async deleteNotes(reader, ids) {
+			return inTransaction(() =>
+				ids.reduce((n, id) => n + Number(dropNote.run(reader, id).changes), 0)
+			);
+		},
+		async unseenAnswers(reader) {
+			return (unseenCount.get(reader) as { n: number }).n;
+		},
+		async seeNotes(reader, ids) {
+			return inTransaction(() =>
+				ids.reduce((n, id) => n + Number(seeNote.run(reader, id).changes), 0)
+			);
 		},
 		async flaggedNotes(reader) {
 			return (reader ? flaggedBy.all(reader) : flagged.all()).map((r) => note<ReviewNote>(r)!);
@@ -319,6 +363,7 @@ export function openReaderStore(
 						anchorText(n.anchor),
 						n.review,
 						n.response,
+						n.unseen ? 1 : 0,
 						n.created,
 						n.updated
 					);

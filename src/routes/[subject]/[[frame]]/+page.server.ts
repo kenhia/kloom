@@ -54,12 +54,13 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		try {
 			const store = readerStore();
 			const login = locals.reader.login;
-			const [places, last, marks, notes, kept] = await Promise.all([
+			const [places, last, marks, notes, kept, unseen] = await Promise.all([
 				Promise.all(subjects.map((s) => store.lastVisited(login, s.id))),
 				store.lastVisited(login),
 				store.bookmarks(login),
 				store.notes(login, subject.id),
-				store.keptCounts(login, subject.id)
+				store.keptCounts(login, subject.id),
+				store.unseenAnswers(login)
 			]);
 			const onFrame = (id: string) => Object.hasOwn(subject.frames, id);
 			readerData = {
@@ -70,7 +71,9 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 				last: live(last),
 				bookmarks: marks.map(live).filter((b) => b !== null),
 				notes: notes.filter((n) => onFrame(n.frame)),
-				kept: Object.fromEntries(Object.entries(kept).filter(([id]) => onFrame(id)))
+				kept: Object.fromEntries(Object.entries(kept).filter(([id]) => onFrame(id))),
+				// Agent answers the reader has not seen, across subjects (§My notes).
+				unseen
 			};
 		} catch (e) {
 			console.error('reader data: could not read the store', e);

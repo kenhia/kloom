@@ -11,6 +11,7 @@
 		type ReaderLayer
 	} from '$engine/reader-data';
 	import { subjectOf, type MapData } from '$engine/map';
+	import type { MyNotesData, MyNotesOffer, NoteEntry } from '$engine/my-notes';
 	import { pickOther, walkedFrames } from '$engine/random';
 	import MapOverlay, { type MapOpen } from '$engine/ui/MapOverlay.svelte';
 	import Shell from '$engine/ui/Shell.svelte';
@@ -210,6 +211,10 @@
 						notes = notes.filter((n) => n.id !== id);
 						return true;
 					},
+					seen: (ids) => {
+						notes = notes.map((n) => (ids.includes(n.id) ? { ...n, unseen: false } : n));
+						see(ids);
+					},
 					keptOn: async (frame) => {
 						const q = new URLSearchParams({ subject: data.subject.id, frame });
 						const res = await send(`${resolve('/api/reader/kept')}?${q}`, 'GET');
@@ -225,6 +230,63 @@
 						return ok;
 					},
 					onkept: (frame) => (keptCounts = { ...keptCounts, [frame]: (keptCounts[frame] ?? 0) + 1 })
+				}
+			: null
+	);
+
+	// My notes (docs/design.md §My notes, korg 3481): every note across
+	// subjects, and how many agent answers wait to be seen. The list is
+	// fetched each time the panel opens; a change to this subject's notes
+	// there is carried into the notes the shell shows.
+	let unseen = $derived<number>(data.readerData?.unseen ?? 0);
+	async function see(ids: string[]) {
+		const res = await send(resolve('/api/reader/my-notes'), 'POST', { ids });
+		if (res) unseen = ((await res.json()) as { unseen: number }).unseen;
+	}
+	/** Opened on the Notes tab after a Go to lands. */
+	let noteToShow: string | null = null;
+	const myNotes = $derived<MyNotesOffer | null>(
+		data.reader
+			? {
+					unseen,
+					load: async () => {
+						const res = await send(resolve('/api/reader/my-notes'), 'GET');
+						const got: MyNotesData | null = res ? await res.json() : null;
+						if (got) unseen = got.unseen;
+						return got;
+					},
+					reading: async (subject, frame) => {
+						if (subject === data.subject.id && bodies[frame]) return bodies[frame].readingHtml;
+						const res = await fetch(resolve('/api/frame/[subject]/[frame]', { subject, frame }))
+							.then((r) => (r.ok ? r : null))
+							.catch(() => null);
+						return res ? ((await res.json()) as ServedBody).readingHtml : null;
+					},
+					seen: async (ids) => {
+						notes = notes.map((n) => (ids.includes(n.id) ? { ...n, unseen: false } : n));
+						await see(ids);
+					},
+					flag: async (n, flag) => {
+						const res = await send(resolve('/api/reader/notes'), 'PATCH', { id: n.id, flag });
+						const saved: Note | null = res ? await res.json() : null;
+						if (saved) notes = notes.map((x) => (x.id === saved.id ? saved : x));
+						return saved;
+					},
+					clear: async (ids) => {
+						const res = await send(resolve('/api/reader/notes'), 'DELETE', { ids });
+						if (!res) return null;
+						notes = notes.filter((n) => !ids.includes(n.id));
+						return ((await res.json()) as { deleted: number }).deleted;
+					},
+					go: (n: NoteEntry) => {
+						if (n.subject === data.subject.id && n.frame === current?.id) {
+							shell?.showNote(n.id);
+							return;
+						}
+						noteToShow = n.id;
+						follow(n.subject, n.frame);
+					},
+					hrefOf: frameHref
 				}
 			: null
 	);
@@ -301,8 +363,11 @@
 	afterNavigate(async (nav) => {
 		if (!jumped && nav.type !== 'popstate') return;
 		jumped = false;
+		const note = noteToShow;
+		noteToShow = null;
 		await tick();
-		shell?.focusSpine();
+		if (note && nav.type !== 'popstate') shell?.showNote(note);
+		else shell?.focusSpine();
 	});
 	// The map (docs/design.md §The map, korg 3441): its data is fetched when it
 	// first opens, and kept until a grow changes the subjects.
@@ -450,6 +515,7 @@
 		onplace={(f) => (current = f)}
 		bookmarks={bookmarkOffer}
 		{layer}
+		{myNotes}
 		onhome={home}
 		hrefOf={(frame) => frameHref(data.subject.id, frame)}
 		hrefTo={frameHref}

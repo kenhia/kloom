@@ -190,6 +190,42 @@
   and left on korg 3473 where it needs a decision —
   [record](../028-in-the-blood.md).
 
+- Sprint 029: the author-subject skill tuned a second time, from In the
+  Blood's findings (proposal 3476, covering 3473): `read` on citations,
+  `citedIn` without a link, a `diary` kind, mirrors and JSTOR stable urls;
+  `subject_plan.py --with-drafts`, a contact sheet per plate, `commons_media
+crop`, `names.py lookup`'s checks, readings shown to authors without
+  marks, and one owner per shared name —
+  [record](../029-tune-author-subject-second-pass.md).
+
+- Sprint 030: the tenth subject, _Keeping Watch_ (proposal 3471, covering
+  3470): 64 frames from care before nursing to the modern profession, four
+  trails, built around Ken's mother's career as a Navy surgical nurse and
+  ending on a dedication to her; the companion to In the Blood, with 13
+  links written into it — [record](../030-keeping-watch.md).
+
+- Sprint 031: ready for readers (proposal 3479, covering 3469 and 3477):
+  the scene keeps to its row of the spine (`just scene-fit`), and About's
+  note on accuracy with a Content feedback issue form —
+  [record](../031-ready-for-readers.md).
+
+- Sprint 032: content.db (proposal 3480, covering 3460): the subjects
+  compiled into one SQLite library the app serves from, frames fetched on
+  demand with their neighbours ahead, compressed responses, and `just
+bench` — [record](../032-content-db.md).
+
+- Sprint 033: the author-subject skill tuned a third time, from Keeping
+  Watch's findings (proposal 3485, covering 3478): `case` and `statute`
+  citations in legal form, `read: "record"`, a chart's data DOI, and the
+  tools' stand-ins, drafts and expectations —
+  [record](../033-tune-author-subject-third-pass.md).
+
+- Sprint 034: My notes (proposal 3482, covering 3481): every note and
+  annotation across subjects in one dialog (O), with its state in words,
+  filters, Go to, Clear, the agent-review flag, Clear answered and Clear
+  detached, and a count of agent answers not yet seen —
+  [record](../034-my-notes.md).
+
 ## Next
 
 - Whatever the korg Planning queue holds for project kloom (72).

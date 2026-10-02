@@ -6,6 +6,7 @@ import type { Subject } from '$engine/model';
 import { bodyOf, subjectHeadOf, type ServedBody } from '$engine/served';
 import { startLook } from '$engine/start';
 import { followSpine, keySettings, layout, paletteMode } from '$engine/settings';
+import type { MyNotesOffer } from '$engine/my-notes';
 import type { Note, ReaderLayer } from '$engine/reader-data';
 import Shell from '$engine/ui/Shell.svelte';
 import { UserSettings } from '$engine/user-settings.svelte';
@@ -684,6 +685,7 @@ describe('the reader’s layer on a frame', () => {
 		anchor: null,
 		review: 'none',
 		response: null,
+		unseen: false,
 		created: at,
 		updated: at,
 		...over
@@ -693,6 +695,7 @@ describe('the reader’s layer on a frame', () => {
 		kept: {},
 		saveNote: async () => null,
 		deleteNote: async () => false,
+		seen: () => {},
 		keptOn: async () => [],
 		forget: async () => false,
 		onkept: () => {},
@@ -790,6 +793,45 @@ describe('the reader’s layer on a frame', () => {
 		expect(said(body)).toContain('Notes 1, 1 on this frame');
 		// A plain note has neither.
 		expect(said(shell(layer({ notes: [note()] })))).not.toContain('Show in reading');
+	});
+});
+
+describe('My notes (§My notes)', () => {
+	const offer = (unseen: number): MyNotesOffer => ({
+		unseen,
+		load: async () => null,
+		reading: async () => null,
+		seen: async () => {},
+		flag: async () => null,
+		clear: async () => null,
+		go: () => {},
+		hrefOf: (s, f) => `/${s}/${f}`
+	});
+	const shell = (myNotes: MyNotesOffer | null) =>
+		render(Shell, {
+			props: { subject, bodies, settings: new UserSettings([], () => null), myNotes }
+		}).body;
+
+	it('is a control in the HUD that says how many answers are new, and a key in the help', () => {
+		const body = shell(offer(2));
+		expect(body).toMatch(/<button type="button" class="icon opener[^"]*" aria-haspopup="dialog"/);
+		expect(said(body)).toContain('My notes, 2 new answers');
+		expect(body).toMatch(/<span class="badge[^"]*" aria-hidden="true">2<\/span>/);
+		expect(said(body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0])).toContain('O my notes');
+		// Closed until opened: a dialog, with nothing loaded in it.
+		expect(body).toMatch(
+			/<dialog class="my-notes[^"]*" aria-labelledby="[^"]*" data-own-keys(="")?>/
+		);
+	});
+
+	it('has no count when nothing is new, and is absent without a reader', () => {
+		const body = shell(offer(0));
+		expect(said(body)).toContain('My notes');
+		expect(said(body)).not.toContain('new answer');
+		expect(body).not.toContain('class="badge');
+		const none = shell(null);
+		expect(none).not.toContain('my-notes');
+		expect(said(none)).not.toContain('O my notes');
 	});
 });
 

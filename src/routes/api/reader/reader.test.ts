@@ -5,7 +5,13 @@ import { DELETE as unmark, GET as marks, POST as mark } from './bookmarks/+serve
 import { GET as exportData } from './export/+server';
 import { POST as importData } from './import/+server';
 import { DELETE as forget, GET as keptOn } from './kept/+server';
-import { DELETE as dropNote, GET as notes, POST as saveNote } from './notes/+server';
+import { GET as myNotes, POST as seeNotes } from './my-notes/+server';
+import {
+	DELETE as dropNote,
+	GET as notes,
+	PATCH as flagNote,
+	POST as saveNote
+} from './notes/+server';
 import { POST as visit } from './place/+server';
 import { keptAnswer } from '$engine/ai/kept';
 import { context } from '$engine/ai/fixture';
@@ -46,6 +52,9 @@ describe('reader data needs a reader', () => {
 		expect(await call(notes, get('?subject=ai', null))).toMatchObject({ status: 401 });
 		expect(await call(saveNote, send('POST', {}, null))).toMatchObject({ status: 401 });
 		expect(await call(dropNote, send('DELETE', {}, null))).toMatchObject({ status: 401 });
+		expect(await call(flagNote, send('PATCH', {}, null))).toMatchObject({ status: 401 });
+		expect(await call(myNotes, read(null))).toMatchObject({ status: 401 });
+		expect(await call(seeNotes, send('POST', { ids: [] }, null))).toMatchObject({ status: 401 });
 		expect(await call(keptOn, get('?subject=ai&frame=turing', null))).toMatchObject({
 			status: 401
 		});
@@ -153,6 +162,67 @@ describe('annotations', () => {
 		expect(await body(await call(notes, get('?subject=ai')))).toEqual([saved]);
 		const edit = { ...aNote, id: saved.id, text: 'Now I see.' };
 		expect(await body(await call(saveNote, send('POST', edit)))).toMatchObject({ anchor });
+	});
+});
+
+describe('my notes', () => {
+	it('lists every note across subjects, with where each is now, and the answers waiting', async () => {
+		const a = await body(await call(saveNote, send('POST', aNote)));
+		const b = await body(
+			await call(saveNote, send('POST', { ...first, text: 'On fire', flag: false }))
+		);
+		await call(saveNote, send('POST', { ...aNote, text: 'hers' }, ada));
+		await readerStore().handleNote(ken.login, a.id, 'Answered.');
+		// A note whose frame went away (an import from elsewhere) is listed, with nowhere to go.
+		await readerStore().importData(ken.login, {
+			kloom: 'reader-data',
+			version: 3,
+			reader: ken.login,
+			exported: '2026-10-01T00:00:00.000Z',
+			places: [],
+			bookmarks: [],
+			notes: [{ ...b, id: 'gone', frame: 'no-such-frame', updated: '2020-01-01T00:00:00.000Z' }],
+			kept: []
+		});
+		const got = await body(await call(myNotes, read()));
+		expect(got.unseen).toBe(1);
+		// The last written first: the two written now, in either order within a millisecond.
+		const ids = got.notes.map((n: { id: string }) => n.id);
+		expect(ids.slice(0, 2).sort()).toEqual([a.id, b.id].sort());
+		expect(ids[2]).toBe('gone');
+		expect(got.notes.find((n: { id: string }) => n.id === a.id)).toMatchObject({
+			review: 'handled',
+			unseen: true,
+			subjectTitle: expect.any(String),
+			topic: expect.any(String),
+			position: expect.any(String)
+		});
+		expect(got.notes[2]).toMatchObject({ subject: 'western-civ', topic: null, position: null });
+		expect((await body(await call(myNotes, read(ada)))).notes).toHaveLength(1);
+
+		expect(await body(await call(seeNotes, send('POST', { ids: [a.id] })))).toEqual({ unseen: 0 });
+		expect(await call(seeNotes, send('POST', { ids: ['../x'] }))).toMatchObject({ status: 400 });
+		expect(await call(seeNotes, send('POST', {}))).toMatchObject({ status: 400 });
+	});
+
+	it('flags a note without its text, and clears several at once, only the reader’s own', async () => {
+		const a = await body(await call(saveNote, send('POST', { ...aNote, flag: false })));
+		const b = await body(await call(saveNote, send('POST', aNote)));
+		const c = await body(await call(saveNote, send('POST', aNote, ada)));
+		expect(await body(await call(flagNote, send('PATCH', { id: a.id, flag: true })))).toMatchObject(
+			{ id: a.id, review: 'flagged', text: aNote.text }
+		);
+		expect(await call(flagNote, send('PATCH', { id: a.id, flag: true }, ada))).toMatchObject({
+			status: 404
+		});
+		expect(await call(flagNote, send('PATCH', { id: a.id }))).toMatchObject({ status: 400 });
+
+		expect(await body(await call(dropNote, send('DELETE', { ids: [a.id, b.id, c.id] })))).toEqual({
+			deleted: 2
+		});
+		expect((await body(await call(myNotes, read()))).notes).toEqual([]);
+		expect((await body(await call(myNotes, read(ada)))).notes).toHaveLength(1);
+		expect(await call(dropNote, send('DELETE', { ids: 'all' }))).toMatchObject({ status: 400 });
 	});
 });
 
