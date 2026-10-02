@@ -321,3 +321,23 @@ How the proof run went:
     commits `main` lacks.
   - **The grow skill's new paragraph** shows its effect from the next grow
     onwards.
+
+## Deployed
+
+2026-10-02, `6b071b8` to the kloom service on kai, by `just deploy`. The
+review PR, #42 (`c6df465`), was already on `main`. The deploy built from
+merged `main`, restarted the unit and passed its own ten checks. The service
+journal shows `content: grow/kai fast-forwarded to origin/main`, then the
+library rebuilt (build `519e7c`).
+
+Verified live for this sprint:
+
+- `/western-civ/royal-society` serves, with the review's repair ("of a
+  master").
+- navy-pow's body has the rewritten Guam passage ("_Argentina Maru_",
+  "hard as wood"), and "fourth-rate" is gone.
+- The page's Sources list renders Olds's citation "(copy at mansell.com)".
+
+The grow lock, the dev worktree and `just grow-pending` are dev- and
+review-side. The service gets the lock with this deploy, and nothing in its
+behaviour changes without a grow.
