@@ -371,6 +371,12 @@ Built in sprint 004 (korg 3360).
   class beside `ClaudeCliProvider`, chosen by `provider.kind` in the app
   config.
 
+  The prompt asks for an answer "under 250 words". **That is a soft limit**
+  (Ken, 2026-10-02, korg 3490): an answer that runs over it is shown whole,
+  never truncated, refused or retried. Sonnet 5 runs over it in 10 to 13 of
+  29 answers, mostly by 10 to 60 words (sprint 035). If answers grow much
+  longer than that, the limit is revisited; `just ask-eval` measures it.
+
 - **The server builds the context.** The client sends
   `{subject, frame, trail, question, model}` to `POST /api/ask`. The server reads the
   frame's content from the library (§Serving), never from the request, and refuses an unknown

@@ -214,6 +214,12 @@ dialog (O, or the HUD), each with its state in words (agent review
 pending, answered, detached), filters, Go to, Clear, the flag, Clear
 answered and Clear detached, and a count of agent answers not yet seen
 (an `unseen` flag that `handle` sets).
+Sprint 035 the RA for ask, evaluated and declined: `just ask-eval`
+(`bench/ask-eval/`) asks 29 frame-tied questions the way ask does and has
+Opus grade the answers blind. Sonnet 5 beat kvllm's resident model
+(qwen3.8-27b) with and without web (a Wikipedia shim for the RA), and beat
+Haiku 4.5, which `claude -p` runs with thinking on and which left the models
+list. Ask's 250-word limit is soft.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

@@ -174,8 +174,9 @@ class Institutions(unittest.TestCase):
         self.assertIn('Sarah Anne Tooley', said[0])
         found, _ = fixture('wellcome-lister-spray')
         self.assertEqual(found, {'container': 'Wellcome Collection', 'number': 'M0003436'})
-        person = {**json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fixtures',
-                                                'wellcome-lister-spray.json')))}
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fixtures',
+                               'wellcome-lister-spray.json')) as f:
+            person = json.load(f)
         work = {**person['wellcome'], 'contributors': [{'label': 'Joseph Lister', 'primary': True}]}
         found = cm.institution(person['title'], person['meta'], person['tags'], person['wikitext'], work)
         self.assertEqual(found['authors'], [{'family': 'Lister', 'given': 'Joseph'}])
