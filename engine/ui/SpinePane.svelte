@@ -61,6 +61,14 @@
 		return () => pane.removeEventListener('wheel', handler);
 	});
 
+	/**
+	 * How much a headline's type shrinks with its length: not at all to 26
+	 * characters (most headlines), then with the square root of the excess, to
+	 * no less than 0.7 (the longest, about 52).
+	 */
+	const fit = (headline: string, accent: string) =>
+		Math.max(0.7, Math.min(1, Math.sqrt(26 / (headline.length + 1 + accent.length)))).toFixed(3);
+
 	function jumpTo(e: MouseEvent) {
 		const bar = e.currentTarget as HTMLElement;
 		const { left, width } = bar.getBoundingClientRect();
@@ -109,7 +117,7 @@
 						{/if}
 					</div>
 				{:else}
-					<p class="headline">
+					<p class="headline" style:--fit={fit(frame.scene.headline, frame.scene.accent)}>
 						<span class="words">{frame.scene.headline}</span>
 						<em class="accent">{frame.scene.accent}</em>
 					</p>
@@ -191,7 +199,7 @@
 	.spine {
 		position: relative;
 		display: grid;
-		grid-template-rows: auto 1fr auto auto;
+		grid-template-rows: auto minmax(0, 1fr) auto auto;
 		padding: 1.25rem 1.5rem 0.75rem;
 		overflow: hidden;
 		user-select: none;
@@ -282,28 +290,44 @@
 	 * there at once and the drawing starts drawing on; then the headline, then
 	 * its accent word, landing just before the drawing's last group (~2.9s).
 	 */
+	/*
+	 * The scene fills its row of the spine and never leaves it (sprint 031,
+	 * korg 3469): the words take the height they need and the drawing gives
+	 * way, down to nothing, so a long headline can never push the metadata
+	 * into the counter below or the drawing into the HUD above.
+	 */
 	.scene {
 		--headline-delay: 1s;
 		--headline-fade: 1s;
 		--accent-delay: 1.5s;
 		--accent-fade: 1s;
-		align-self: center;
-		display: grid;
-		justify-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		gap: min(1rem, 2dvh);
 		text-align: center;
 		min-height: 0;
 		padding-block: 0.5rem;
 	}
-	.illustration {
+	.scene > * {
+		flex: none;
+	}
+	.scene > .illustration {
+		flex: 0 1 auto;
+		display: flex;
+		justify-content: center;
+		min-height: 0;
+		max-width: 100%;
 		color: var(--line);
 	}
-	/* Sized by height as well as width, so a short window keeps the HUD clear. */
+	/* Sized by height as well as width, and no taller than the room left. */
 	.illustration :global(svg) {
 		display: block;
 		width: auto;
 		max-width: min(100%, 30rem);
 		height: min(38dvh, 20rem);
+		max-height: 100%;
 	}
 	/* Each path carries pathLength="1", so one dash is the whole stroke. */
 	.illustration :global(svg *) {
@@ -351,7 +375,8 @@
 	.headline {
 		margin: 0;
 		font-family: var(--serif);
-		font-size: clamp(1.75rem, min(5.5vw, 9dvh), 4.75rem);
+		/* Scaled down gently by length (fit, below): long headlines wrap less. */
+		font-size: clamp(1.5rem, calc(min(5.5vw, 9dvh) * var(--fit, 1)), calc(4.75rem * var(--fit, 1)));
 		line-height: 1;
 		text-transform: uppercase;
 		text-wrap: balance;

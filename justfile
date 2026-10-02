@@ -116,3 +116,18 @@ stats:
         .sort((a, b) => a.id.localeCompare(b.id));
     console.log(m.statsReport(await m.readLibraryStats(subjects, 'names')));
     "
+
+# Every frame's scene fits the spine at 1280x800, 1400x900 and 390 wide: nothing
+# runs into the HUD and the counter never meets the metadata (needs a local
+# Playwright and Chromium; starts a dev server unless one answers on :5415)
+scene-fit *subjects:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    url="${KLOOM_URL:-http://localhost:5415}"
+    if ! curl -sf -o /dev/null "$url/"; then
+        node_modules/.bin/vite dev --host 127.0.0.1 --port 5415 --strictPort >/dev/null 2>&1 &
+        server=$!
+        trap 'kill $server' EXIT
+        for _ in $(seq 60); do curl -sf -o /dev/null "$url/" && break; sleep 0.5; done
+    fi
+    node create-tools/scene-fit/scene_fit.mjs --url "$url" {{ subjects }}

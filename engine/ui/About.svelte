@@ -153,6 +153,22 @@
 			Every frame cites its sources. Images are in the public domain or freely licensed, credited
 			where they appear. The code is MIT licensed.
 		</p>
+		<p class="group">A note on accuracy</p>
+		<p>
+			kloom is written by agents working from sources, under skills and review meant to keep it
+			accurate. Where sources disagree on a fact, it gives both views. But the people and the agents
+			who make it both get things wrong, and the library is far too large for anyone to check every
+			line by hand. It is a hobby and a passion project, not a work of scholarship.
+		</p>
+		<p>
+			If you find something wrong, select the words and press <kbd>A</kbd> to annotate them, then
+			tick
+			<em>Agent review</em>; or
+			<a
+				href="https://github.com/kenhia/kloom/issues/new?template=content-feedback.yml"
+				rel="noopener noreferrer">report it on GitHub</a
+			>.
+		</p>
 		{#if build}<p class="muted build">Build {build}</p>{/if}
 	</div>
 </div>
@@ -269,6 +285,13 @@
 	a:focus-visible {
 		outline: 2px solid var(--accent);
 		outline-offset: 2px;
+	}
+	kbd {
+		font-family: var(--mono);
+		font-size: 0.75rem;
+		padding: 0 0.3rem;
+		border: 1px solid var(--muted);
+		border-radius: 0.2rem;
 	}
 	.build {
 		margin: 0.75rem 0 0;
