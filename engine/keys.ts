@@ -3,7 +3,7 @@
  * means, given where focus is. The shell listens on the window and acts on
  * the answer.
  *
- * S, T, B, N, A, C, R, M, D and W are single-character shortcuts, so WCAG 2.1.4 applies. They
+ * S, T, B, N, A, O, C, R, M, D and W are single-character shortcuts, so WCAG 2.1.4 applies. They
  * act only while focus is in the spine, the narrative or the notes (korg
  * 3366), never in the AI pane, the settings panel or on the bare page. And
  * the reader can remap each to another letter or turn it off (korg 3363):
@@ -23,6 +23,7 @@ export type PageKey =
 	| 'bookmark'
 	| 'note'
 	| 'annotate'
+	| 'my-notes'
 	| 'contents'
 	| 'back'
 	| 'map'
@@ -37,6 +38,7 @@ export type Shortcut =
 	| 'bookmark'
 	| 'note'
 	| 'annotate'
+	| 'my-notes'
 	| 'contents'
 	| 'back'
 	| 'map'
@@ -50,6 +52,7 @@ export const SHORTCUTS: { action: Shortcut; label: string; key: string }[] = [
 	{ action: 'bookmark', label: 'bookmark', key: 'b' },
 	{ action: 'note', label: 'add a note', key: 'n' },
 	{ action: 'annotate', label: 'annotate the reading', key: 'a' },
+	{ action: 'my-notes', label: 'open my notes', key: 'o' },
 	{ action: 'contents', label: 'open the contents', key: 'c' },
 	{ action: 'back', label: 'go back after a jump', key: 'r' },
 	{ action: 'map', label: 'open the map', key: 'm' },

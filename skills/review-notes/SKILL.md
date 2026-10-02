@@ -77,9 +77,11 @@ records.
    response what they became. Handle a note once the fix is committed (or the item filed), not
    before: the reader takes "handled" to mean it is done.
 
-A handled note stays in the reader's list with your response. If they tick
-Agent review again after editing it, it comes back flagged, and your old
-response is cleared.
+A handled note stays in the reader's list with your response. Handling it
+also counts it as a new answer on their My notes control until they have
+seen it, and My notes lists it as Answered, where they can clear it. If they
+tick Agent review again (in the editor, or "Ask the agent again" in My
+notes), it comes back flagged, and your old response is cleared.
 
 ## Rules
 

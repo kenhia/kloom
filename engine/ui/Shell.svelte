@@ -3,6 +3,7 @@
 	import type { AiOffer } from '../ai/provider';
 	import type { Anchor } from '../anchor';
 	import type { Frame, FrameHead, SubjectHead, Trail } from '../model';
+	import type { MyNotesOffer } from '../my-notes';
 	import type { JumpItem, Note, ReaderLayer } from '../reader-data';
 	import { contentsOf, openTrails } from '../contents';
 	import { clamp, indexLabel, stops, WheelGate, type BackStop, type SyncMode } from '../navigation';
@@ -32,6 +33,7 @@
 	import type { UserSettings } from '../user-settings.svelte';
 	import AiPane from './AiPane.svelte';
 	import Bookmarks from './Bookmarks.svelte';
+	import MyNotes from './MyNotes.svelte';
 	import Contents from './Contents.svelte';
 	import type { MapOpen } from './MapOverlay.svelte';
 	import BackChip from './BackChip.svelte';
@@ -74,6 +76,8 @@
 		bookmarks?: BookmarkOffer | null;
 		/** The reader's notes and kept answers; absent when there is no reader. */
 		layer?: ReaderLayer | null;
+		/** Every note across subjects (§My notes); absent when there is no reader. */
+		myNotes?: MyNotesOffer | null;
 		/** Back to the start screen (the Home button, left of the gear); none without it. */
 		onhome?: () => void;
 		/** A frame's own address, for the contents' links; the page resolves it. */
@@ -118,6 +122,7 @@
 		onplace,
 		bookmarks = null,
 		layer = null,
+		myNotes = null,
 		onhome,
 		hrefOf,
 		hrefTo,
@@ -362,6 +367,28 @@
 		narrative?.annotate(from);
 	}
 
+	let myNotesEl = $state<ReturnType<typeof MyNotes>>();
+
+	/**
+	 * Open the Notes tab on one of its notes (My notes' Go to): the shell has
+	 * moved to its frame already. Focus lands on the note, or the spine.
+	 */
+	export async function showNote(id: string) {
+		if (!layer) return slider?.focus();
+		tab = 'notes';
+		await tick();
+		const el = document.getElementById(`note-${id}`);
+		el?.scrollIntoView({ block: 'nearest' });
+		(el ?? slider)?.focus();
+	}
+
+	// An agent's answer on the Notes tab has been seen (§My notes): the count clears.
+	$effect(() => {
+		if (tab !== 'notes' || !layer) return;
+		const waiting = frameNotes.filter((n) => n.unseen).map((n) => n.id);
+		if (waiting.length) untrack(() => layer.seen(waiting));
+	});
+
 	async function showAnnotation(note: Note) {
 		tab = 'narrative';
 		await tick();
@@ -442,6 +469,7 @@
 				keys[s.action] &&
 				(s.action !== 'bookmark' || bookmarks) &&
 				((s.action !== 'note' && s.action !== 'annotate') || layer) &&
+				(s.action !== 'my-notes' || myNotes) &&
 				(s.action !== 'back' || back) &&
 				(s.action !== 'map' || onmap) &&
 				((s.action !== 'random' && s.action !== 'anywhere') || onrandom)
@@ -456,6 +484,7 @@
 				bookmark: 'bookmark',
 				note: 'note',
 				annotate: 'annotate',
+				'my-notes': 'my notes',
 				contents: 'contents',
 				back: 'back',
 				map: 'map',
@@ -676,6 +705,10 @@
 				if (!layer) return;
 				annotate();
 				break;
+			case 'my-notes':
+				if (!myNotes) return;
+				myNotesEl?.show();
+				break;
 			case 'contents':
 				contentsEl?.show();
 				break;
@@ -812,6 +845,9 @@
 						onjump={goTo}
 						onremove={bookmarks.onremove}
 					/>
+				{/if}
+				{#if myNotes}
+					<MyNotes offer={myNotes} key={shown(keys['my-notes'])} bind:this={myNotesEl} />
 				{/if}
 			{/snippet}
 		</SpinePane>

@@ -209,6 +209,11 @@ and parts in the plan, `lookup --expect` split from `--expect-item` and
 shared with `wiki_cite.py --expect` (`create-tools/lib/`), `crop
 --rotate`, commons_media reading NARA, Navy and Wellcome files; and
 Internet Archive snippets as supporting evidence only.
+Sprint 034 My notes: every note and annotation across subjects in one
+dialog (O, or the HUD), each with its state in words (agent review
+pending, answered, detached), filters, Go to, Clear, the flag, Clear
+answered and Clear detached, and a count of agent answers not yet seen
+(an `unseen` flag that `handle` sets).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

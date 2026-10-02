@@ -28,3 +28,16 @@ export async function requireRecord(body: unknown) {
 	if (!found) error(400, `No frame "${r.frame}" in ${r.subject}.`);
 	return r;
 }
+
+/** What a note id looks like: the store makes them (UUIDs). */
+export const NOTE_ID = /^[\w-]{1,64}$/;
+
+/** Most notes one request may name: a bulk clear, or answers seen. */
+const IDS_MAX = 1000;
+
+/** A body's `ids`, a list of note ids; null when it is not one. */
+export function noteIds(body: Record<string, unknown> | null): string[] | null {
+	const ids = body?.ids;
+	if (!Array.isArray(ids) || ids.length > IDS_MAX) return null;
+	return ids.every((id) => typeof id === 'string' && NOTE_ID.test(id)) ? (ids as string[]) : null;
+}

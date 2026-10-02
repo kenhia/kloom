@@ -125,6 +125,88 @@ describe('notes', () => {
 	});
 });
 
+describe('every note, for My notes', () => {
+	it('lists a reader’s notes across subjects, newest first', async () => {
+		const store = openReaderStore(':memory:', clock());
+		await store.saveNote(ken, note('turing', 'first'));
+		await store.saveNote(ken, { ...note('fire', 'elsewhere'), subject: 'western-civ' });
+		const c = (await store.saveNote(ken, note('alexnet', 'third')))!;
+		await store.saveNote(ada, note('turing', 'ada’s'));
+		expect((await store.allNotes(ken)).map((n) => n.text)).toEqual(['third', 'elsewhere', 'first']);
+		// An edit brings a note forward: newest is the last written.
+		await store.saveNote(ken, {
+			...note('turing', 'first, edited'),
+			id: (await store.allNotes(ken))[2].id
+		});
+		expect((await store.allNotes(ken)).map((n) => n.text)).toEqual([
+			'first, edited',
+			'third',
+			'elsewhere'
+		]);
+		expect(c.unseen).toBe(false);
+	});
+
+	it('counts an agent’s answer as unseen until the reader has seen it', async () => {
+		const store = openReaderStore(':memory:', clock());
+		const a = (await store.saveNote(ken, note('turing', 'one', true)))!;
+		const b = (await store.saveNote(ken, note('alexnet', 'two', true)))!;
+		await store.saveNote(ada, note('turing', 'hers', true));
+		expect(await store.unseenAnswers(ken)).toBe(0);
+		await store.handleNote(ken, a.id, 'Fixed.');
+		await store.handleNote(ken, b.id, 'Answered.');
+		expect(await store.unseenAnswers(ken)).toBe(2);
+		expect(await store.unseenAnswers(ada)).toBe(0);
+		expect((await store.allNotes(ken)).every((n) => n.unseen)).toBe(true);
+
+		// Seeing one of them, or someone else's id, changes only what is theirs.
+		expect(await store.seeNotes(ada, [a.id])).toBe(0);
+		expect(await store.seeNotes(ken, [a.id])).toBe(1);
+		expect(await store.unseenAnswers(ken)).toBe(1);
+		// Flagged afresh, an answer is no longer waiting to be seen.
+		await store.saveNote(ken, { ...note('alexnet', 'two again', true), id: b.id });
+		expect(await store.unseenAnswers(ken)).toBe(0);
+		await store.handleNote(ken, b.id, 'Answered again.');
+		expect(await store.unseenAnswers(ken)).toBe(1);
+		expect(await store.seeNotes(ken, [a.id, b.id])).toBe(1);
+		expect(await store.unseenAnswers(ken)).toBe(0);
+	});
+
+	it('flags and unflags a note without its text, as the editor’s box does', async () => {
+		const store = openReaderStore(':memory:', clock());
+		const n = (await store.saveNote(ken, note('turing', 'look')))!;
+		expect(await store.flagNote(ada, n.id, true)).toBeNull();
+		expect(await store.flagNote(ken, n.id, true)).toMatchObject({
+			review: 'flagged',
+			text: 'look'
+		});
+		expect(await store.flagNote(ken, n.id, false)).toMatchObject({ review: 'none' });
+		await store.flagNote(ken, n.id, true);
+		await store.handleNote(ken, n.id, 'Done.');
+		// Unflagged, a handled note stays handled; flagged, it asks afresh.
+		expect(await store.flagNote(ken, n.id, false)).toMatchObject({
+			review: 'handled',
+			response: 'Done.'
+		});
+		expect(await store.flagNote(ken, n.id, true)).toMatchObject({
+			review: 'flagged',
+			response: null,
+			unseen: false
+		});
+	});
+
+	it('deletes several of a reader’s notes at once, and only theirs', async () => {
+		const store = openReaderStore(':memory:', clock());
+		const a = (await store.saveNote(ken, note('turing', 'one')))!;
+		const b = (await store.saveNote(ken, note('alexnet', 'two')))!;
+		const c = (await store.saveNote(ada, note('turing', 'hers')))!;
+		await store.saveNote(ken, note('turing', 'kept'));
+		expect(await store.deleteNotes(ken, [a.id, b.id, c.id, 'nope'])).toBe(2);
+		expect((await store.allNotes(ken)).map((n) => n.text)).toEqual(['kept']);
+		expect(await store.allNotes(ada)).toHaveLength(1);
+		expect(await store.deleteNotes(ken, [])).toBe(0);
+	});
+});
+
 const words = { exact: 'the second paragraph', prefix: 'Read ', suffix: ' again.', start: 5 };
 
 describe('annotations', () => {
@@ -329,6 +411,27 @@ describe('the file', () => {
 		const store = openReaderStore(path, clock());
 		expect(await store.notes(ken, 'ai')).toMatchObject([{ id: 'n1', text: 'old', anchor: null }]);
 		expect((await store.flaggedNotes())[0]).toMatchObject({ id: 'n1', anchor: null });
+		store.close();
+	});
+
+	it('moves a file made at schema 3 forward: answers already given count as unseen', async () => {
+		dir = mkdtempSync(join(tmpdir(), 'kloom-reader-'));
+		const path = join(dir, 'reader.db');
+		const before = openReaderStore(path, clock());
+		const n = (await before.saveNote(ken, note('turing', 'old', true)))!;
+		await before.handleNote(ken, n.id, 'Fixed.');
+		await before.saveNote(ken, note('turing', 'plain'));
+		before.close();
+		// Back to sprint 012's schema, as a file from before this one would be.
+		const raw = new DatabaseSync(path);
+		raw.exec('ALTER TABLE note DROP COLUMN unseen; PRAGMA user_version = 3;');
+		raw.close();
+		const store = openReaderStore(path, clock());
+		expect(await store.unseenAnswers(ken)).toBe(1);
+		expect((await store.allNotes(ken)).map((x) => [x.text, x.unseen])).toEqual([
+			['plain', false],
+			['old', true]
+		]);
 		store.close();
 	});
 

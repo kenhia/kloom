@@ -54,7 +54,8 @@
 		{#if notes.length}
 			<ol>
 				{#each notes as note (note.id)}
-					<li class:current={note.id === editing}>
+					<!-- Focused from My notes' Go to (§My notes). -->
+					<li id="note-{note.id}" tabindex="-1" class:current={note.id === editing}>
 						{#if note.anchor}
 							<blockquote class="quote">
 								<span class="visually-hidden">On the words: </span>{note.anchor.exact}
