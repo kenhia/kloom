@@ -97,3 +97,18 @@ Nothing outside the covered items.
 - None filed. Running `just scene-fit` in CI would mean a browser in the
   workflow. That is worth weighing with the public site (3458), not
   before it.
+
+## Deployed
+
+2026-10-02, `just deploy` from merged `main` (`889a609`, PR #36) to the
+kloom service on kai. `just verify` passed all eight checks on both
+doors. Live checks of this sprint's work:
+
+- `scene_fit.mjs --url http://127.0.0.1:4891` against the deployed
+  service: 0 misfits in 615 frames at 1280×800, 1400×900 and 390×844.
+- The deployed client build carries "A note on accuracy" and the
+  `issues/new?template=content-feedback.yml` link.
+- The issue form: GitHub's page for
+  `.github/ISSUE_TEMPLATE/content-feedback.yml` on `main` renders the
+  form's fields with no template error. The new-issue pages need a
+  signed-in session, so the signed-in preview was not seen.
