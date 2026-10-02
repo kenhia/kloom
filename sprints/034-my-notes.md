@@ -113,3 +113,31 @@ annotations stayed behind, detached, with nowhere to clear them.
 - The live test is the deploy's: Ken's three handled annotations from
   kloom#35 are on the service, detached and answered, and _Clear answered_
   should remove all three.
+
+## Deployed
+
+2026-10-02, `just deploy` on kai, from merged main `1f921d6` (PR #40). The
+recipe's `verify` passed all ten checks, and the library rebuilt as
+`3bbdf2`.
+
+- **The migration ran a few minutes early.** Before the deploy, a
+  `review-notes.mjs list` to read the live store loaded the adapter from
+  merged main, and that opened `reader.db` and ran the fourth migration
+  while the previous release was still serving. It added a column and
+  marked handled notes unseen, nothing else. The old release kept working,
+  since its statements name their columns, and the restart brought the code
+  that expects the column.
+- **Reader data held.** Read through the adapter after the migration and
+  again after the deploy: ken.hiatt@gmail.com has 3 notes, all 3
+  annotations, all 3 handled, all 3 unseen. These are the three from
+  kloom#35, so the control shows 3 until they are seen. The host's own
+  reader (ken@kai) has none.
+- **Live checks on this sprint's routes:** `GET /api/reader/my-notes` is
+  refused with no reader (401) and answers through the ssh door
+  (`{"notes":[],"unseen":0}`). `PATCH /api/reader/notes` refuses a body with
+  no flag (400). `DELETE` with `ids: []` deletes nothing
+  (`{"deleted":0}`). The served page carries the My notes control (title
+  "My notes (O)").
+- **Still to do: the live test is Ken's.** In the browser, open My notes and
+  run _Clear answered_; it should ask about 3 and remove all three. It is
+  his data, so nobody cleared it for him.
