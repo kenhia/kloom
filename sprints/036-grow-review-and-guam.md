@@ -208,3 +208,116 @@ ran the sprint's current code:
   `main`.
 - It wrote `{server, child}` to the job's lock.
 - It left the checkout on `036-grow-review-and-guam`.
+
+How the proof run went:
+
+- **The grow** (about 12 minutes, Opus 5.5, with web) committed `72b49aa`,
+  `grow(western-civ): add royal-society`, on `grow/dev-kai`.
+  - It added one frame, the name `christopher-wren`, and connections to
+    `physics/prism` and `western-civ/harrison-chronometer`.
+  - Its message ends `Validated: yes`, and the AI pane's result carries
+    `branch: grow/dev-kai`.
+  - It pushed with no error, and released its lock.
+  - The checkout stayed on the sprint branch, and its subjects were
+    untouched.
+  - `just grow-pending` then exited 1, listing `grow/dev-kai` and
+    `origin/grow/dev-kai`.
+
+  The job's summary still says "the validator runs after I finish, so I
+  haven't seen it pass". The grow skill's new paragraph wasn't in effect
+  yet, since the job read the skill as `main` had it.
+
+- **The review** followed the skill: a branch from `origin/main`,
+  `review-grown/grow-dev-kai-20261002`, with `72b49aa` cherry-picked onto it.
+  - **Checked against volume 1** (the frame's own Project Gutenberg
+    citation):
+    - the date line;
+    - the introduction's quotation, word for word;
+    - Hooke's note on Jupiter, word for word;
+    - the contents as the reading lists them;
+    - sixteen pages (issue 2 begins on page 17).
+  - **Checked against the Royal Society's history pages:**
+    - the 1660 meeting;
+    - the 1662 charter and the motto's gloss, word for word;
+    - the shilling;
+    - the journal's losses;
+    - 1752, and the 1830s.
+  - **Checked against the pinned revisions:**
+    - the twelve men and the "Colledge" quotation;
+    - the 1663 charter and its arms;
+    - Hooke's curatorship;
+    - the Council's 1 March 1664/5 order;
+    - Oldenburg's letter to Boyle, word for word.
+  - **Wren's** Wikidata item is right (Q170373, by `names.py lookup`).
+  - **Both connections** are true against the other frames' readings.
+  - **The plate,** rendered at 1400×900, draws what the reading says, and
+    `just scene-fit western-civ` reports 0 misfits.
+- **What the review repaired,** in its own commit:
+  - Horace's line was misquoted inside quotation marks ("of any master";
+    the source has "of a master").
+  - "Wikipedia gives its print run as 1,000 copies" sat in the 1665
+    paragraph, but the pinned revision gives that run for the 1850s.
+
+  Neither is something `validate()` could catch, and neither was caught by
+  the model that read the same pages. That is the case for the review.
+
+- **PR #42** listed what was checked, what was repaired and nothing flagged.
+  Ken approved the merge, and it was squash-merged as `c6df465` with
+  `Grow-reviewed: 72b49aa62e7cfbc0a11d8382e3b2338cfdcc239a (grow/dev-kai)`
+  as its last paragraph. `just grow-pending` then read all four grow
+  branches as merged, `grow/dev-kai` included: `main` holds the repaired
+  text, and only the trailer makes it count. The sprint branch was rebased
+  onto it.
+- A dev server left running from sprint 034's session held :5416 with a
+  scratch data directory. It ran the job correctly, and was stopped
+  afterwards.
+
+## What shipped
+
+- **navy-pow's Guam passage, rewritten from Marion Olds's own account.**
+  Olds is now a key source, marked `mirror`. The NHHC page points at its
+  Wayback snapshot, and Guampedia names its author.
+- **A grow job keeps one running copy under a dev reload** (`globalThis`
+  state). Each job has a lock (`{server, child}`), with adoption on load and
+  a stale-lock resume. `onSpawn` on `GrowRequest` and `GrowHost` carries the
+  child's pid.
+- **The review path for grown content:**
+  - dev grows go to `grow/dev-<host>` in a worktree;
+  - every grow commit ends `Validated: yes`;
+  - `src/lib/server/grow-branches.ts` holds `growWorktree`, `growBranches`,
+    `contentMerged` and the shared `lastMerged`, which now honours the
+    `Grow-reviewed` trailer;
+  - `just grow-pending` is the sprint-start check;
+  - `skills/review-grown/SKILL.md` is the procedure;
+  - the AI pane says where a dev grow went;
+  - CLAUDE.md, `docs/design.md` (§Grow, §The content clone, a new
+    §Reviewing grown content) and `docs/deploying.md` are updated, and the
+    grow skill says the job validates after it.
+- **western-civ gains `royal-society`** (merged separately as PR #42, the
+  proof run).
+
+## Verified
+
+- `just check`: svelte-check, lint, and 1,285 tests, including the new
+  lock, reload, worktree, pending-branch and trailer tests. Each of the new
+  gates was seen to fail with its bug planted:
+  - **lock liveness off:** three tests fail;
+  - **queue state back in module scope:** the reload test fails;
+  - **content check off:** the squash test fails;
+  - **no trailer:** a repaired merge isn't recognised.
+- **The Guam frame** validates, and Olds's citation renders "(copy at
+  mansell.com)".
+- **The proposal's 3442 gate, live:**
+  - a real dev grow landed on `grow/dev-kai`, not the current branch;
+  - `review-grown` produced PR #42, which merged;
+  - `just grow-pending` found nothing pending afterwards.
+
+## Follow-ups
+
+- None filed. Two notes for later:
+  - **The worktree's catch-up compares against local `main`.** Until a
+    checkout pulls, the next dev grow starts from the reviewed grow commit
+    rather than from `main`. That's harmless: the review takes only the
+    commits `main` lacks.
+  - **The grow skill's new paragraph** shows its effect from the next grow
+    onwards.
