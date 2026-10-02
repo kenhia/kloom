@@ -26,7 +26,10 @@ beforeAll(async () => {
 	env.KLOOM_SUBJECTS_DIR = root;
 });
 afterAll(() => {
-	env.KLOOM_SUBJECTS_DIR = saved;
+	// Assigning undefined would leave the string "undefined" behind, for the
+	// next test file in this worker to serve its subjects from.
+	if (saved === undefined) delete env.KLOOM_SUBJECTS_DIR;
+	else env.KLOOM_SUBJECTS_DIR = saved;
 });
 
 describe('the served subjects', () => {

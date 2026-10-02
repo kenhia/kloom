@@ -102,14 +102,25 @@ export interface FrameFile {
 	connections?: Connection[];
 }
 
-/** A frame ready to render: both halves, markdown already turned to HTML. */
-export interface Frame extends FrameFile {
+/**
+ * A frame's head: what every frame of a subject sends with the page, for the
+ * spine's ticks, the contents, the HUD and the scene's words (docs/design.md
+ * §Serving). Small: no reading, no drawing, no citations.
+ */
+export type FrameHead = Omit<FrameFile, 'citations'>;
+
+/** A frame's body: what is fetched as the reader comes to it (§Serving). */
+export interface FrameBody {
+	citations: Citation[];
 	/** The Sources list, derived from the key citations. */
 	sources: Source[];
 	readingHtml: string;
 	/** The illustration's markup, inlined so it can draw itself on. */
 	svg: string | null;
 }
+
+/** A frame ready to render: both halves, markdown already turned to HTML. */
+export interface Frame extends FrameFile, FrameBody {}
 
 export interface Palette {
 	scheme: 'dark' | 'light';
@@ -134,12 +145,18 @@ export interface Manifest {
 	palettes: Record<string, Palette>;
 }
 
-export interface Subject {
+/** A subject as its page has it: every frame's head, no frame's body (§Serving). */
+export interface SubjectHead {
 	id: string;
 	title: string;
 	subtitle?: string;
 	palettes: Record<string, Palette>;
 	spine: Spine;
 	trails: Trail[];
+	frames: Record<string, FrameHead>;
+}
+
+/** A subject loaded whole, every frame rendered: what the compiler builds from. */
+export interface Subject extends Omit<SubjectHead, 'frames'> {
 	frames: Record<string, Frame>;
 }

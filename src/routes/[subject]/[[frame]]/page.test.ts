@@ -3,6 +3,8 @@ import { render } from 'svelte/server';
 import { beforeAll, describe, expect, it, vi } from 'vitest';
 import { loadSubject } from '$engine/load';
 import type { Subject } from '$engine/model';
+import { bodyOf, subjectHeadOf, type ServedBody } from '$engine/served';
+import { startLook } from '$engine/start';
 import { followSpine, keySettings, layout, paletteMode } from '$engine/settings';
 import type { Note, ReaderLayer } from '$engine/reader-data';
 import Shell from '$engine/ui/Shell.svelte';
@@ -20,10 +22,27 @@ vi.mock('$app/state', () => ({
 }));
 
 let subject: Subject;
+/** Every frame's body, as the page would have fetched them (§Serving). */
+let bodies: Record<string, ServedBody>;
+const withLinks = (links: Record<string, ServedBody['links']> = {}) =>
+	Object.fromEntries(
+		Object.entries(subject.frames).map(([id, f]) => [
+			id,
+			{ ...bodyOf(f), links: links[id] ?? { connections: [], names: {} } }
+		])
+	);
 beforeAll(async () => {
 	subject = await loadSubject(
 		join(import.meta.dirname, '..', '..', '..', '..', 'subjects', 'western-civ')
 	);
+	bodies = withLinks();
+});
+/** What the load gives the page of its subject (§Serving). */
+const served = () => ({
+	subject: subjectHeadOf(subject),
+	start: startLook(subject),
+	bodies,
+	build: 'test'
 });
 
 const askModels = {
@@ -40,7 +59,16 @@ const page = (
 	extra: Record<string, unknown> = {}
 ) =>
 	render(Page, {
-		props: { data: { subject, subjects, askModels, askWeb, growModels: grow, ...extra } } as never
+		props: {
+			data: {
+				...served(),
+				subjects,
+				askModels,
+				askWeb,
+				growModels: grow,
+				...extra
+			}
+		} as never
 	});
 const subjects = [
 	{ id: 'ai', title: 'History and Current State of AI' },
@@ -168,7 +196,7 @@ describe('the subject list', () => {
 	it('is absent when the app serves one subject', () => {
 		const one = render(Page, {
 			props: {
-				data: { subject, subjects: [subjects[1]], askModels, askWeb: 'allow', growModels }
+				data: { ...served(), subjects: [subjects[1]], askModels, askWeb: 'allow', growModels }
 			} as never
 		});
 		expect(one.body).not.toContain('role="listbox"');
@@ -192,7 +220,7 @@ describe('the Home control', () => {
 
 	it('is not offered by a shell with nowhere to go home to', () => {
 		const settings = new UserSettings([layout], () => null);
-		expect(render(Shell, { props: { subject, settings } }).body).not.toContain('Home');
+		expect(render(Shell, { props: { subject, bodies, settings } }).body).not.toContain('Home');
 	});
 });
 
@@ -221,7 +249,7 @@ describe('the settings control', () => {
 	it('sits in the row heading the right-hand pane in the other layouts too', () => {
 		const settings = new UserSettings([layout], () => null);
 		settings.set('layout', 'columns');
-		const { body } = render(Shell, { props: { subject, settings } });
+		const { body } = render(Shell, { props: { subject, bodies, settings } });
 		expect(body.indexOf('class="tab-row')).toBeLessThan(body.indexOf('icon-button gear'));
 		expect(body.indexOf('icon-button gear')).toBeLessThan(body.indexOf('id="sync-state"'));
 	});
@@ -275,7 +303,7 @@ describe('narrative following', () => {
 	it('says the reading is in step when the reader has turned following off', () => {
 		const settings = new UserSettings([followSpine], () => null);
 		settings.set('followSpine', 'manual');
-		expect(text(render(Shell, { props: { subject, settings } }).body)).toContain(
+		expect(text(render(Shell, { props: { subject, bodies, settings } }).body)).toContain(
 			'In step with the spine.'
 		);
 	});
@@ -340,7 +368,7 @@ describe('the palette mode', () => {
 	const shell = (mode: string) => {
 		const settings = new UserSettings([paletteMode], () => null);
 		settings.set('palette', mode);
-		return render(Shell, { props: { subject, settings } }).body;
+		return render(Shell, { props: { subject, bodies, settings } }).body;
 	};
 
 	it('paints the first frame (night) as itself in Mixed and Dark', () => {
@@ -367,7 +395,7 @@ describe('reader data on the page', () => {
 		render(Page, {
 			props: {
 				data: {
-					subject,
+					...served(),
 					subjects,
 					askModels,
 					askWeb: 'allow',
@@ -488,7 +516,7 @@ describe('the table of contents', () => {
 		const reader = render(Page, {
 			props: {
 				data: {
-					subject,
+					...served(),
 					subjects,
 					askModels,
 					askWeb: 'allow',
@@ -550,7 +578,7 @@ describe('the layout', () => {
 	const shell = (shape: string) => {
 		const settings = new UserSettings([layout], () => null);
 		settings.set('layout', shape);
-		return render(Shell, { props: { subject, settings } }).body;
+		return render(Shell, { props: { subject, bodies, settings } }).body;
 	};
 
 	it('is a setting, two panes with tabs by default', () => {
@@ -627,7 +655,7 @@ describe('the reader’s keys', () => {
 	const shell = (keys: Record<string, string>) => {
 		const settings = new UserSettings([layout, ...keySettings], () => null);
 		for (const [k, v] of Object.entries(keys)) settings.set(`key.${k}`, v);
-		return render(Shell, { props: { subject, settings } }).body;
+		return render(Shell, { props: { subject, bodies, settings } }).body;
 	};
 
 	it('name the reader’s letters in the help, and leave out one turned off', () => {
@@ -673,7 +701,7 @@ describe('the reader’s layer on a frame', () => {
 	const shell = (l: ReaderLayer | null, shape = 'tabs') => {
 		const settings = new UserSettings([layout], () => null);
 		settings.set('layout', shape);
-		return render(Shell, { props: { subject, settings, layer: l } }).body;
+		return render(Shell, { props: { subject, bodies, settings, layer: l } }).body;
 	};
 
 	it('adds a Notes tab beside Narrative, in every layout, when there is a reader', () => {
@@ -765,10 +793,32 @@ describe('the reader’s layer on a frame', () => {
 	});
 });
 
+describe('a frame whose body is on its way (§Serving)', () => {
+	const shell = (b: typeof bodies) =>
+		render(Shell, { props: { subject, bodies: b, settings: new UserSettings([], () => null) } })
+			.body;
+
+	it('shows the scene from its head, and says the reading is coming', () => {
+		const body = shell({});
+		expect(said(body)).toContain('We stole FIRE.');
+		expect(body).toMatch(/<p class="pending[^"]*" role="status">Fetching the reading…<\/p>/);
+		expect(body).not.toContain('class="illustration');
+		expect(said(body)).not.toContain('Sources');
+	});
+
+	it('shows the reading and the drawing once it has arrived', () => {
+		const body = shell(bodies);
+		expect(body).not.toContain('Fetching the reading');
+		expect(body).toContain('class="illustration');
+		expect(said(body)).toContain('Sources');
+	});
+});
+
 describe('connections and names (§Connections)', () => {
-	const links = {
-		connections: {
-			prometheus: [
+	const connections = {
+		prometheus: {
+			names: {},
+			connections: [
 				{
 					direction: 'out',
 					why: 'Fire, then fire put to work.',
@@ -802,12 +852,11 @@ describe('connections and names (§Connections)', () => {
 					detached: true
 				}
 			]
-		},
-		names: {}
+		}
 	};
 
 	it("lists a frame's connections above its Sources, each with its why", () => {
-		const html = page('allow', growModels, { links }).body;
+		const html = page('allow', growModels, { bodies: withLinks(connections as never) }).body;
 		const at = html.search(/<h3[^>]*>Connections<\/h3>/);
 		const sources = html.search(/<h3[^>]*>Sources<\/h3>/);
 		expect(at).toBeGreaterThan(0);
@@ -822,7 +871,7 @@ describe('connections and names (§Connections)', () => {
 	});
 
 	it("marks a name's first mention in the reading as a button, not a link", () => {
-		expect(page('allow', growModels, { links }).body).toMatch(
+		expect(page('allow', growModels, { bodies: withLinks(connections as never) }).body).toMatch(
 			/<button type="button" class="name" data-name="prometheus" aria-haspopup="dialog" aria-expanded="false">/
 		);
 	});

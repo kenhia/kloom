@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildGraph, graphProblems, linksFor, nameCard, type GraphSubject } from './graph';
+import { buildGraph, graphProblems, linksByFrame, nameCard, type GraphSubject } from './graph';
 import type { Name } from './names';
 
 const frame = (
@@ -60,10 +60,11 @@ const names: Record<string, Name> = {
 
 describe('the graph', () => {
 	const graph = buildGraph(subjects(), names);
+	const links = linksByFrame(graph);
+	const on = (key: string) => links.get(key)!.connections;
 
 	it('shows a connection on both frames, with its why', () => {
-		const ai = linksFor(graph, 'ai').connections;
-		expect(ai['turing-machine']).toEqual([
+		expect(on('ai/turing-machine')).toEqual([
 			{
 				direction: 'out',
 				why: 'The stored program.',
@@ -77,7 +78,7 @@ describe('the graph', () => {
 				detached: false
 			}
 		]);
-		expect(ai['turing-test']).toEqual([
+		expect(on('ai/turing-test')).toEqual([
 			expect.objectContaining({
 				direction: 'in',
 				frame: 'bombe',
@@ -85,13 +86,13 @@ describe('the graph', () => {
 				why: 'Turing, before the game.'
 			})
 		]);
-		expect(linksFor(graph, 'computing').connections.edvac).toEqual([
+		expect(on('computing/edvac')).toEqual([
 			expect.objectContaining({ direction: 'in', subject: 'ai', frame: 'turing-machine' })
 		]);
 	});
 
 	it('shows a connection to a frame that is not there as detached', () => {
-		expect(linksFor(graph, 'computing').connections.bombe[1]).toEqual({
+		expect(on('computing/bombe')[1]).toEqual({
 			direction: 'out',
 			why: 'A subject not served.',
 			subject: 'feynman',
@@ -111,8 +112,10 @@ describe('the graph', () => {
 		expect(nameCard(graph, 'alan-turing', 'ai')!.groups[0].subject).toBe('ai');
 	});
 
-	it("gives a subject the cards of the names it marks, and only the registry's", () => {
-		expect(Object.keys(linksFor(graph, 'computing').names)).toEqual(['alan-turing']);
+	it("gives a frame the cards of the names it marks, and only the registry's", () => {
+		expect(Object.keys(links.get('computing/bombe')!.names)).toEqual(['alan-turing']);
+		expect(links.get('computing/bombe')!.names['alan-turing'].groups[0].subject).toBe('computing');
+		expect(links.get('computing/edvac')).toEqual({ connections: [expect.anything()], names: {} });
 		expect(nameCard(graph, 'bletchley', 'computing')).toBeNull();
 	});
 

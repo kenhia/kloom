@@ -1,19 +1,23 @@
 import { json, type Handle, type ServerInit } from '@sveltejs/kit';
 import { dev } from '$app/environment';
 import { env } from '$env/dynamic/private';
+import { compress } from '$lib/server/compress';
 import { dataDir } from '$lib/server/config';
 import { syncContentAtStart } from '$lib/server/content';
 import { loadGrowQueues } from '$lib/server/grow-service';
 import { migrateKeptFiles } from '$lib/server/kept-files';
 import { doorOf, isWrite, localLogin, readerOf } from '$lib/server/reader';
 import { readerStore } from '$lib/server/reader-store';
+import { library } from '$lib/server/subject';
 
-// The content clone picks up merged main first (a deploy is a restart), then
-// kept-answer files from before the reader store move into it, then grow
-// jobs are loaded: they are persisted, and a restart picks every subject's
-// queue up where it left off.
+// The content clone picks up merged main first (a deploy is a restart), and
+// the library is built from it (docs/design.md §Serving); then kept-answer
+// files from before the reader store move into it, then grow jobs are
+// loaded: they are persisted, and a restart picks every subject's queue up
+// where it left off.
 export const init: ServerInit = async () => {
 	await syncContentAtStart();
+	await library().catch((e) => console.error('content: could not build the library', e));
 	await moveKeptFiles();
 	await loadGrowQueues().catch((e) => console.error('grow: could not load the queues', e));
 };
@@ -43,5 +47,5 @@ export const handle: Handle = async ({ event, resolve }) => {
 			},
 			{ status: 401 }
 		);
-	return resolve(event);
+	return compress(event.request, await resolve(event));
 };

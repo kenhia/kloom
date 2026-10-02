@@ -4,7 +4,7 @@ import { GET } from './+server';
 
 describe('the library stats', () => {
 	it('count every served subject, and sum to the library', async () => {
-		const res = await GET({} as never);
+		const res = await GET({ request: new Request('http://x/') } as never);
 		const s = (await res.json()) as LibraryStats;
 		expect(s.subjects.map((x) => x.id)).toEqual(
 			expect.arrayContaining(['ai', 'computing', 'feynman', 'physics', 'western-civ'])

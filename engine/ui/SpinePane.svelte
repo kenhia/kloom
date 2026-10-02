@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import { hasMarks, marksText, NO_MARKS, type FrameMarks } from '../marks';
-	import type { Frame, Trail } from '../model';
+	import type { Frame, FrameHead, Trail } from '../model';
 	import { cursorAt, indexLabel, type Stop } from '../navigation';
 
 	interface Props {
@@ -14,7 +14,7 @@
 		branches: Set<string>;
 		/** The reader's marks on a frame: bookmark, kept answers, notes. */
 		marksOf?: (frame: string) => FrameMarks;
-		frames: Record<string, Frame>;
+		frames: Record<string, FrameHead>;
 		onstep: (delta: number) => void;
 		onjump: (index: number) => void;
 		onwheel: (event: WheelEvent) => void;
