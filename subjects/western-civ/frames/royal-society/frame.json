@@ -1,0 +1,167 @@
+{
+	"id": "royal-society",
+	"topic": "Philosophical Transactions",
+	"position": {
+		"label": "AD 1665",
+		"sort": 1665
+	},
+	"scene": {
+		"headline": "We printed it to be",
+		"accent": "CHECKED.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · ROYAL SOCIETY · HENRY OLDENBURG",
+			"PHILOSOPHICAL TRANSACTIONS · NO. 1 · 6 MARCH 1664/5"
+		],
+		"counter": {
+			"value": "16",
+			"label": "pages in the first number"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Introduction to This Tract",
+			"doi": "10.1098/rstl.1665.0002",
+			"accessed": "2026-10-02",
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "1",
+			"issue": "1",
+			"pages": "1–2",
+			"published": "1665-03-06",
+			"note": "Read in the Project Gutenberg transcription of volume 1"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Spot in One of the Belts of Jupiter",
+			"doi": "10.1098/rstl.1665.0005",
+			"accessed": "2026-10-02",
+			"authors": [{ "family": "Hooke", "given": "Robert" }],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "1",
+			"issue": "1",
+			"pages": "3",
+			"published": "1665-03-06"
+		},
+		{
+			"kind": "article",
+			"title": "A Narrative Concerning the Success of Pendulum-Watches at Sea for the Longitudes",
+			"doi": "10.1098/rstl.1665.0011",
+			"accessed": "2026-10-02",
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "1",
+			"issue": "1",
+			"pages": "13–15",
+			"published": "1665-03-06"
+		},
+		{
+			"kind": "book",
+			"title": "Philosophical Transactions of the Royal Society, Vol. 1, 1665–1666",
+			"url": "https://www.gutenberg.org/ebooks/28758",
+			"accessed": "2026-10-02",
+			"editors": [{ "family": "Oldenburg", "given": "Henry" }],
+			"publisher": "Project Gutenberg"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "History of the Royal Society",
+			"url": "https://royalsociety.org/about-us/who-we-are/history/",
+			"accessed": "2026-10-02",
+			"authors": [{ "name": "Royal Society" }],
+			"publisher": "Royal Society"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "History of Philosophical Transactions",
+			"url": "https://royalsociety.org/journals/publishing-activities/publishing350/history-philosophical-transactions/",
+			"accessed": "2026-10-02",
+			"authors": [{ "name": "Royal Society" }],
+			"publisher": "Royal Society"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Philosophical Transactions of the Royal Society",
+			"url": "https://en.wikipedia.org/w/index.php?title=Philosophical_Transactions_of_the_Royal_Society&oldid=1373925220",
+			"accessed": "2026-10-02",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to Robert Boyle",
+			"authors": [{ "family": "Oldenburg", "given": "Henry" }],
+			"recipients": [{ "family": "Boyle", "given": "Robert" }],
+			"written": "1664-11-24",
+			"citedIn": "Philosophical Transactions of the Royal Society"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Royal Society",
+			"url": "https://en.wikipedia.org/w/index.php?title=Royal_Society&oldid=1374481353",
+			"accessed": "2026-10-02",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Oldenburg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Oldenburg&oldid=1368127011",
+			"accessed": "2026-10-02",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nullius in verba",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nullius_in_verba&oldid=1293141973",
+			"accessed": "2026-10-02",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-05-30"
+		},
+		{
+			"kind": "web",
+			"title": "Henry Oldenburg (and the Philosophical Transactions)",
+			"url": "https://www.digitens.org/en/notices/henry-oldenburg-and-philosophical-transactions.html",
+			"accessed": "2026-10-02",
+			"authors": [{ "family": "Banks", "given": "David" }],
+			"container": "Digitens: Digital Encyclopedia of British Sociability in the Long Eighteenth Century"
+		},
+		{
+			"kind": "article",
+			"title": "A Letter of Mr. Isaac Newton, Professor of the Mathematicks in the University of Cambridge; Containing His New Theory about Light and Colors",
+			"doi": "10.1098/rstl.1671.0072",
+			"accessed": "2026-10-02",
+			"authors": [{ "family": "Newton", "given": "Isaac" }],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "6",
+			"issue": "80",
+			"pages": "3075–3087",
+			"published": "1672-02-19",
+			"read": "record"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/prism",
+			"why": "Newton's prism experiments reached the world as his first paper, a letter printed in the Philosophical Transactions on 19 February 1672."
+		},
+		{
+			"to": "western-civ/harrison-chronometer",
+			"why": "The journal's first number printed Major Holmes's report that Huygens's pendulum watches had found the longitude at sea; pendulum clocks proved unequal to a ship, and the problem waited for Harrison."
+		}
+	]
+}
