@@ -36,6 +36,8 @@ COPY --from=deps /app/node_modules node_modules
 COPY package.json serve.js admin.mjs ./
 # admin.mjs opens these with plain Node; they import nothing but node: modules.
 COPY src/lib/server/accounts.ts src/lib/server/sqlite-reader-store.ts src/lib/server/
+# The detached-note check's (korg 3504): finding an annotation's words.
+COPY engine/anchor.ts engine/
 COPY --from=build /src/build-reader build-reader
 COPY build-public/media media
 COPY build-public/content.db content.db

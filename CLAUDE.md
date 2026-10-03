@@ -255,6 +255,12 @@ with `reader.db` on a volume, HSTS, an app-scoped deploy token in kai's
 secrets file (`deploy/fly.sh`), and `just publish-public` (clean `main`
 only), `verify-public`, `invite`, `readers`, `disable-reader` and
 `pull-notes` (docs/deploying.md §Public reader site).
+Sprint 041 the public site's notes return trip: `admin.mjs` answers flagged
+notes in the live store (`handle-note`, refusing one gone, unflagged or
+edited since it was read, with `--args-b64` for `fly ssh`), `review-notes.mjs
+--public` drives it, and `verify-public` reports detached notes; and Suggest a
+subject in About (a `suggestion` table, reviewed with `suggestions` and
+`mark-suggestion`).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

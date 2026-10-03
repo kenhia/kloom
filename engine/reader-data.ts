@@ -112,6 +112,76 @@ export interface Kept {
 	grown: string[] | null;
 }
 
+/**
+ * Where a suggested subject stands (korg 3459): new until Ken or an agent
+ * moves it on. The reader sees it; only the review side changes it.
+ */
+export type SuggestionStatus = 'new' | 'planned' | 'written' | 'declined';
+export const SUGGESTION_STATUSES: readonly SuggestionStatus[] = [
+	'new',
+	'planned',
+	'written',
+	'declined'
+];
+
+/**
+ * A subject a reader would like kloom to have (docs/design.md §Suggestions).
+ * A note to Ken, never a job: nothing agentic runs from one. Not in the
+ * export, which is reading data; a deleted reader's go with them.
+ */
+export interface Suggestion {
+	/** Made by the store; unique per reader. */
+	id: string;
+	title: string;
+	/** What it should cover, in their words. */
+	cover: string;
+	/** Why they would like it; may be empty. */
+	why: string;
+	status: SuggestionStatus;
+	created: string;
+	updated: string;
+}
+
+/** A suggestion as a reader writes it. */
+export type SuggestionInput = Pick<Suggestion, 'title' | 'cover' | 'why'>;
+
+/** A suggestion for the review side: who made it, by login and by the name they went by. */
+export type ReviewSuggestion = Suggestion & { reader: string; name: string };
+
+/** What the page offers the About panel's Suggest a subject (korg 3459); absent with no reader. */
+export interface SuggestOffer {
+	/** The reader's own suggestions, newest first; null when they could not be had. */
+	list(): Promise<Suggestion[] | null>;
+	/** Send one: the stored suggestion, or what was wrong, in words. */
+	send(s: SuggestionInput): Promise<Suggestion | { error: string }>;
+}
+
+/** A status in words, for the reader. */
+export const SUGGESTION_STATUS_WORDS: Record<SuggestionStatus, string> = {
+	new: 'Sent',
+	planned: 'Planned',
+	written: 'Written',
+	declined: 'Declined'
+};
+
+/** Longest suggested title, and longest of each of its two texts, in characters. */
+export const SUGGESTION_TITLE_MAX = 120;
+export const SUGGESTION_TEXT_MAX = 2000;
+/** Most suggestions one reader may have waiting (new) at once: a note to Ken, not a queue. */
+export const SUGGESTIONS_WAITING_MAX = 20;
+
+/** A suggestion from a request, checked and trimmed; null without a title, or with anything too long. */
+export function suggestionOf(v: unknown): SuggestionInput | null {
+	if (typeof v !== 'object' || v === null) return null;
+	const r = v as Record<string, unknown>;
+	const text = (x: unknown) => (x === undefined || x === null ? '' : isText(x) ? x.trim() : null);
+	const [title, cover, why] = [text(r.title), text(r.cover), text(r.why)];
+	if (!title || title.length > SUGGESTION_TITLE_MAX) return null;
+	if (cover === null || why === null) return null;
+	if (cover.length > SUGGESTION_TEXT_MAX || why.length > SUGGESTION_TEXT_MAX) return null;
+	return { title, cover, why };
+}
+
 /** Longest note accepted, in characters. */
 export const NOTE_MAX = 10_000;
 
@@ -153,8 +223,24 @@ export interface ReaderStore {
 	seeNotes(reader: string, ids: string[]): Promise<number>;
 	/** Every flagged note, oldest first: one reader's, or, with none named, every reader's. */
 	flaggedNotes(reader?: string): Promise<ReviewNote[]>;
-	/** The agent dealt with a flagged note: it is handled, with what was done. */
-	handleNote(reader: string, id: string, response: string): Promise<boolean>;
+	/**
+	 * The agent dealt with a flagged note: it is handled, with what was done.
+	 * False when it is gone or no longer flagged, and, given `seen` (the
+	 * note's `updated` when it was read), when the reader has edited it since:
+	 * an answer never lands on words it did not answer.
+	 */
+	handleNote(reader: string, id: string, response: string, seen?: string): Promise<boolean>;
+	/** Every reader's every note, oldest first: for the detached-note check (§Annotations). */
+	everyNote(): Promise<ReviewNote[]>;
+
+	/** Suggest a subject (korg 3459), as `name`, the reader's display name now. */
+	suggest(reader: string, name: string, s: SuggestionInput): Promise<Suggestion>;
+	/** Their own suggestions, the newest first. */
+	suggestions(reader: string): Promise<Suggestion[]>;
+	/** Every reader's suggestions, oldest first, or only those with `status`: Ken's list. */
+	allSuggestions(status?: SuggestionStatus): Promise<ReviewSuggestion[]>;
+	/** Ken or an agent moved a suggestion on; false when there is no such suggestion. */
+	markSuggestion(reader: string, id: string, status: SuggestionStatus): Promise<boolean>;
 
 	/** Keep an answer for them. Keeping the same answer twice keeps the first. */
 	keep(reader: string, answer: KeptAnswer): Promise<void>;
@@ -174,7 +260,12 @@ export interface ReaderStore {
 	/** Merge an export in as `reader`'s; the newer of two records wins. */
 	importData(reader: string, data: ReaderExport): Promise<ImportCounts>;
 	/** Remove everything the store holds for `reader` (a deleted account); what there was. */
-	deleteReader(reader: string): Promise<ImportCounts>;
+	deleteReader(reader: string): Promise<DeletedCounts>;
+}
+
+/** What `deleteReader` removed: everything an import carries, and suggestions, which it does not. */
+export interface DeletedCounts extends ImportCounts {
+	suggestions: number;
 }
 
 export interface ImportCounts {

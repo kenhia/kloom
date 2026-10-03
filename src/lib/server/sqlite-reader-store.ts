@@ -9,7 +9,9 @@ import type {
 	Place,
 	ReaderExport,
 	ReaderStore,
-	ReviewNote
+	ReviewNote,
+	ReviewSuggestion,
+	Suggestion
 } from '$engine/reader-data';
 import type { KeptAnswer } from '$engine/ai/kept';
 
@@ -104,7 +106,23 @@ const MIGRATIONS = [
 		expires TEXT NOT NULL,
 		used TEXT
 	);
-	CREATE INDEX invite_account ON invite (username);`
+	CREATE INDEX invite_account ON invite (username);`,
+	// Sprint 041: subjects readers suggest (korg 3459). `name` is the
+	// reader's display name when they suggested it, so the credit survives
+	// a rename; the status is only ever changed from the review side.
+	`CREATE TABLE suggestion (
+		reader TEXT NOT NULL,
+		id TEXT NOT NULL,
+		name TEXT NOT NULL,
+		title TEXT NOT NULL,
+		cover TEXT NOT NULL,
+		why TEXT NOT NULL,
+		status TEXT NOT NULL DEFAULT 'new' CHECK (status IN ('new', 'planned', 'written', 'declined')),
+		created TEXT NOT NULL,
+		updated TEXT NOT NULL,
+		PRIMARY KEY (reader, id)
+	);
+	CREATE INDEX suggestion_status ON suggestion (status, created);`
 ];
 
 export const SCHEMA_VERSION = MIGRATIONS.length;
@@ -216,9 +234,33 @@ export function openReaderStore(
 	const flaggedBy = db.prepare(
 		`SELECT reader, ${noteCols} FROM note WHERE review = 'flagged' AND reader = ? ORDER BY created, id`
 	);
+	// Given the `updated` the agent read, an edit since then refuses it.
 	const handle = db.prepare(
 		`UPDATE note SET review = 'handled', response = ?, unseen = 1
-		 WHERE reader = ? AND id = ? AND review = 'flagged'`
+		 WHERE reader = ? AND id = ? AND review = 'flagged' AND (? IS NULL OR updated = ?)`
+	);
+	const everyNote = db.prepare(`SELECT reader, ${noteCols} FROM note ORDER BY created, id`);
+
+	// Suggestions (korg 3459).
+	const suggestionCols = 'id, title, cover, why, status, created, updated';
+	const addSuggestion = db.prepare(
+		`INSERT INTO suggestion (reader, id, name, title, cover, why, created, updated)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
+	);
+	const suggestionById = db.prepare(
+		`SELECT ${suggestionCols} FROM suggestion WHERE reader = ? AND id = ?`
+	);
+	const suggestionsOf = db.prepare(
+		`SELECT ${suggestionCols} FROM suggestion WHERE reader = ? ORDER BY created DESC, id`
+	);
+	const allSuggestions = db.prepare(
+		`SELECT reader, name, ${suggestionCols} FROM suggestion ORDER BY created, id`
+	);
+	const suggestionsIn = db.prepare(
+		`SELECT reader, name, ${suggestionCols} FROM suggestion WHERE status = ? ORDER BY created, id`
+	);
+	const markSuggestion = db.prepare(
+		'UPDATE suggestion SET status = ?, updated = ? WHERE reader = ? AND id = ?'
 	);
 	const importNote = db.prepare(
 		`INSERT INTO note (reader, id, subject, frame, label, text, anchor, review, response, unseen, created, updated)
@@ -290,7 +332,8 @@ export function openReaderStore(
 		place: db.prepare('DELETE FROM place WHERE reader = ?'),
 		bookmark: db.prepare('DELETE FROM bookmark WHERE reader = ?'),
 		note: db.prepare('DELETE FROM note WHERE reader = ?'),
-		kept: db.prepare('DELETE FROM kept WHERE reader = ?')
+		kept: db.prepare('DELETE FROM kept WHERE reader = ?'),
+		suggestion: db.prepare('DELETE FROM suggestion WHERE reader = ?')
 	};
 
 	return {
@@ -353,8 +396,30 @@ export function openReaderStore(
 		async flaggedNotes(reader) {
 			return (reader ? flaggedBy.all(reader) : flagged.all()).map((r) => note<ReviewNote>(r)!);
 		},
-		async handleNote(reader, id, response) {
-			return handle.run(response, reader, id).changes > 0;
+		async handleNote(reader, id, response, seen) {
+			const at = seen ?? null;
+			return handle.run(response, reader, id, at, at).changes > 0;
+		},
+		async everyNote() {
+			return everyNote.all().map((r) => note<ReviewNote>(r)!);
+		},
+
+		async suggest(reader, name, s) {
+			const id = randomUUID();
+			const at = stamp();
+			addSuggestion.run(reader, id, name, s.title, s.cover, s.why, at, at);
+			return row<Suggestion>(suggestionById.get(reader, id))!;
+		},
+		async suggestions(reader) {
+			return suggestionsOf.all(reader).map((r) => row<Suggestion>(r)!);
+		},
+		async allSuggestions(status) {
+			return (status ? suggestionsIn.all(status) : allSuggestions.all()).map((r) =>
+				row<ReviewSuggestion>(r)!
+			);
+		},
+		async markSuggestion(reader, id, status) {
+			return markSuggestion.run(status, stamp(), reader, id).changes > 0;
 		},
 
 		async keep(reader, answer) {
@@ -421,12 +486,13 @@ export function openReaderStore(
 			};
 		},
 		async deleteReader(reader) {
-			const n = { places: 0, bookmarks: 0, notes: 0, kept: 0 };
+			const n = { places: 0, bookmarks: 0, notes: 0, kept: 0, suggestions: 0 };
 			inTransaction(() => {
 				n.places = Number(dropAll.place.run(reader).changes);
 				n.bookmarks = Number(dropAll.bookmark.run(reader).changes);
 				n.notes = Number(dropAll.note.run(reader).changes);
 				n.kept = Number(dropAll.kept.run(reader).changes);
+				n.suggestions = Number(dropAll.suggestion.run(reader).changes);
 			});
 			return n;
 		},

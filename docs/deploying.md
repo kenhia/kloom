@@ -197,7 +197,20 @@ node admin.mjs disable <username>                 # their sessions end
 node admin.mjs enable <username>
 node admin.mjs list [--json]                      # status, last seen, sessions
 node admin.mjs delete <username> --yes            # the account and everything they wrote
+node admin.mjs flagged [--reader R] [--json]       # notes flagged for Agent review, readers named
+node admin.mjs handle-note <reader> <id> <response> [--seen UPDATED]
+node admin.mjs handle-notes '<JSON list>'          # several answers in one call
+node admin.mjs detached [--library FILE] [--json]  # notes whose frame or words are gone
+node admin.mjs suggestions [--status S] [--json]   # subjects readers suggested
+node admin.mjs mark-suggestion <reader> <id> new|planned|written|declined
 ```
+
+A reader is a username or a login. `handle-note` refuses a note that is gone
+or no longer flagged and, given `--seen` (the `updated` it was listed with),
+one the reader has edited since. `--args-b64 <base64 JSON list>` stands for
+any arguments, so text with quotes or spaces passes `fly ssh console -C`,
+which splits on spaces, whole. review-notes calls it that way (§Readers'
+notes and the backup).
 
 `--data DIR` (or `$KLOOM_DATA_DIR`) says where `reader.db` is, and `--base
 URL` (or `$KLOOM_PUBLIC_URL`) says what the link starts with.
@@ -265,6 +278,11 @@ deploy/fly.sh deploy -a kloom-reader --image registry.fly.io/kloom-reader:<label
 - a frame's body comes from the library, and the library names its build
 - Fly's proxy overwrites a `Fly-Client-IP` a client sends, so sign-in
   backoff keys on the real address
+- then, as `note` lines, readers' notes this library has left detached
+  (`admin.mjs detached`): a frame it no longer has, or an annotation whose
+  words its reading lost. They are reported, never dropped. The reader sees
+  them as detached in My notes, where they can clear them. A failure to run
+  the check fails the recipe; a detached note does not.
 
 It signs in as the reader `kloom-verify`. Each run invites it afresh with a
 random password, and disables it at the end. The `Fly-Client-IP` check
@@ -287,6 +305,27 @@ it, and `fly wireguard remove personal <name>` lets flyctl make a new one.
 
 ### Readers' notes and the backup
 
+Notes flagged for Agent review are answered in the live store, one guarded
+write each, never by pushing a database back (korg 3504). The review-notes
+skill does it with `--public`:
+
+```sh
+node skills/review-notes/review-notes.mjs --public list
+node skills/review-notes/review-notes.mjs --public handle <login> <id> "<response>" --seen <updated>
+node skills/review-notes/review-notes.mjs --public handle --file results.json
+```
+
+Each runs `admin.mjs` on the machine through `fly ssh console`, with its
+arguments base64'd (§The admin CLI): `list` is `flagged --json`, live, each
+note with its reader's display name and the `--seen` value to answer it
+with, and `handle` is `handle-notes`. An answer is refused when the note is
+gone, no longer flagged, or edited since it was listed, so nothing a reader
+wrote after the listing is answered blind or overwritten. `handle --file`
+sends a JSON list of `{reader, id, response, seen}` in one call, which saves
+a few seconds of ssh per note when there are several. The reader sees the
+answer under their note, counted as new on My notes until they have seen
+it.
+
 ```sh
 just pull-notes
 ```
@@ -294,8 +333,14 @@ just pull-notes
 It takes a consistent copy of `reader.db` on the machine (`node:sqlite`'s
 backup), fetches it to `public/reader-YYYYMMDD-HHMM.db` (mode 600), and
 deletes the copy on the machine. That copy is the backup beyond Fly's daily
-volume snapshots, which keep five days. It is also what review-notes reads:
-put it in a directory as `reader.db` and pass `--data` that directory.
+volume snapshots, which keep five days. Reading it offline still works (put
+it in a directory as `reader.db` and pass `--data` that directory), but
+answer through `--public`: an answer written into the copy never reaches the
+site.
+
+Subjects readers suggest (korg 3459) are in the same store and come back the
+same way: `review-notes.mjs --public suggestions`, and `mark-suggestion`
+(skills/review-notes/SKILL.md §Suggested subjects).
 
 **Cost.** One always-on `shared-cpu-1x` 512 MB machine and a 1 GB volume
 come to about $4–6 a month. Ask Ken before scaling past that.

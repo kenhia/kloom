@@ -1,15 +1,19 @@
 <script lang="ts">
+	import type { SuggestOffer } from '../reader-data';
 	import type { LibraryStats } from '../stats';
 	import IconButton from './IconButton.svelte';
+	import Suggest from './Suggest.svelte';
 
 	interface Props {
 		/** The library's counts, fetched when the panel first opens. */
 		stats: () => Promise<LibraryStats>;
 		/** Which build this is: a short commit hash and its date. */
 		build?: string;
+		/** Suggest a subject (korg 3459), for a reader; absent with none. */
+		suggest?: SuggestOffer | null;
 	}
 
-	let { stats, build }: Props = $props();
+	let { stats, build, suggest }: Props = $props();
 
 	const id = $props.id();
 	let open = $state(false);
@@ -169,6 +173,7 @@
 				rel="noopener noreferrer">report it on GitHub</a
 			>.
 		</p>
+		{#if suggest}<Suggest offer={suggest} active={open} />{/if}
 		{#if build}<p class="muted build">Build {build}</p>{/if}
 	</div>
 </div>

@@ -3,7 +3,9 @@ import { beforeAll, describe, expect, it } from 'vitest';
 import {
 	anchorOf,
 	CONTEXT,
+	detachment,
 	findQuote,
+	htmlText,
 	moveEnd,
 	moveStart,
 	quoteOf,
@@ -14,17 +16,6 @@ import {
 } from './anchor';
 import { loadSubject } from './load';
 import type { Frame } from './model';
-
-/** Visible text of rendered HTML, as the reading's text nodes would give it. */
-const textOf = (html: string) =>
-	html
-		.replace(/<svg[\s\S]*?<\/svg>/g, '')
-		.replace(/<[^>]*>/g, '')
-		.replace(/&amp;/g, '&')
-		.replace(/&quot;/g, '"')
-		.replace(/&#39;/g, "'")
-		.replace(/&lt;/g, '<')
-		.replace(/&gt;/g, '>');
 
 /** Anchor the first occurrence of `quote` in `text`. */
 function anchorAt(text: string, quote: string): Anchor {
@@ -125,12 +116,12 @@ describe('annotations on a real reading survive the edits grow makes', () => {
 	};
 
 	it('re-finds, re-finds and detaches', () => {
-		const before = textOf(frame.readingHtml);
+		const before = htmlText(frame.readingHtml);
 		const a = Object.fromEntries(
 			Object.entries(quotes).map(([k, q]) => [k, anchorAt(before, q)])
 		) as Record<keyof typeof quotes, Anchor>;
 
-		const after = textOf(frame.readingHtml)
+		const after = htmlText(frame.readingHtml)
 			.replace(
 				'Johannes Gutenberg worked',
 				'A new paragraph, as grow might add one, sits here now.\n\nJohannes Gutenberg worked'
@@ -211,5 +202,34 @@ describe('anchorOf', () => {
 		expect(anchorOf({ ...good, start: -1 })).toBeNull();
 		expect(anchorOf({ ...good, start: 1.5 })).toBeNull();
 		expect(anchorOf({ ...good, suffix: 3 })).toBeNull();
+	});
+});
+
+describe("htmlText, the reading's text without a DOM", () => {
+	it('gives what the text nodes give: no text for tags, drawings left out, entities decoded', () => {
+		expect(htmlText('<p>One &amp; <em>two</em></p>\n<p>three&#39;s&nbsp;&#x2014; four</p>')).toBe(
+			"One & two\nthree's\u00a0— four"
+		);
+		expect(htmlText('<p>a</p><p>b</p>')).toBe('ab');
+		expect(htmlText('<p>Before <svg viewBox="0 0 1 1"><text>label</text></svg>after</p>')).toBe(
+			'Before after'
+		);
+		expect(htmlText('x &unknown; y')).toBe('x &unknown; y');
+	});
+});
+
+describe('detachment', () => {
+	const html = '<p>The cat sat on the mat, well away from the dog.</p>';
+	const a = quoteOf(htmlText(html), 4, 11)!;
+
+	it('is null while a note finds its frame and words', () => {
+		expect(detachment(a, html)).toBeNull();
+		expect(detachment(null, html)).toBeNull();
+	});
+
+	it('names the frame when the library has it no longer, the words when the reading lost them', () => {
+		expect(detachment(a, null)).toBe('frame');
+		expect(detachment(null, null)).toBe('frame');
+		expect(detachment(a, '<p>A dog slept on the mat.</p>')).toBe('words');
 	});
 });

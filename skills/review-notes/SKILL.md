@@ -1,6 +1,6 @@
 ---
 name: kloom-review-notes
-description: Find the notes and annotations kloom readers flagged for "Agent review", deal with each one (usually a fix to the frame it is on), and mark it handled with what was done. Use when Ken asks to review flagged notes, "look at my kloom notes", or run the review-notes skill.
+description: Find the notes and annotations kloom readers flagged for "Agent review" (on kai's service, a dev server, or the public reader site), deal with each one (usually a fix to the frame it is on), and mark it handled with what was done; and list the subjects readers suggested, promote one to korg and mark its status. Use when Ken asks to review flagged notes, "look at my kloom notes", "what subjects have readers suggested", or run the review-notes skill.
 ---
 
 # Reviewing flagged notes
@@ -22,23 +22,33 @@ any other tool**: the adapter is the only way in (`CLAUDE.md`).
 
 ## Where the notes are
 
-Run the script from the kloom checkout with Node 24 or later. `--data`
-names the app's data directory:
+Run the script from the kloom checkout with Node 24 or later. Say where
+the notes are first:
 
-- **the service on kai** (where readers actually read):
+- **the public reader site**, kloom.kenhiatt.us: `--public`. The script
+  runs `admin.mjs` on the Fly machine through `fly ssh console`
+  (`deploy/fly.sh`, so only on kai), reading and writing the live store.
+  It never pushes a database back, and never needs `just pull-notes`
+  first.
+- **the service on kai** (where Ken reads):
   `--data ~/.local/share/kloom/data`
 - the dev server: `./data`, the default
 
 ```sh
+node skills/review-notes/review-notes.mjs --public list
 node skills/review-notes/review-notes.mjs --data ~/.local/share/kloom/data list
 ```
 
-`list` prints each flagged note, oldest first. Each entry shows the reader,
-the note id, the frame (`subject/frame`, and its title as the reader saw
-it), the frame's content directory, and the note's text. An annotation is
-marked `(annotation)` and quotes the words it is on (`> …`), whitespace
-collapsed, as they read in the narrative, so look for them in `reading.md`
-across line breaks. Add
+Review each place that has readers. A note belongs to the store it is in:
+answer it there.
+
+`list` prints each flagged note, oldest first. Each entry shows the reader
+(their display name and login, on the public site), the note id, the frame
+(`subject/frame`, and its title as the reader saw it), the frame's content
+directory, when it was written, the `--seen` value to answer it with, and
+the note's text. An annotation is marked `(annotation)` and quotes the
+words it is on (`> …`), whitespace collapsed, as they read in the
+narrative, so look for them in `reading.md` across line breaks. Add
 `--reader <login>` to see one reader's notes only, or `--json` for the
 records.
 
@@ -67,9 +77,18 @@ records.
    their note:
 
    ```sh
-   node skills/review-notes/review-notes.mjs --data ~/.local/share/kloom/data \
-     handle <login> <note-id> "Reworded the second paragraph; the ember was in a fennel stalk, not a reed."
+   node skills/review-notes/review-notes.mjs --public \
+     handle <login> <note-id> "Reworded the second paragraph; the ember was in a fennel stalk, not a reed." \
+     --seen <updated>
    ```
+
+   With the same target as the `list`, and `--seen` the value it printed.
+   The answer is refused if the reader has deleted the note, unflagged it,
+   or edited it since you listed it: list again and read what they wrote
+   now. With several answers ready, put them in a JSON file, a list of
+   `{"reader", "id", "response", "seen"}`, and send them in one call:
+   `handle --file results.json`. A refusal names the note and why; the
+   others still land.
 
    Say what you changed and where, or what you filed, or why nothing
    changed. If you reworded an annotation's quoted words, it can no longer
@@ -82,6 +101,30 @@ also counts it as a new answer on their My notes control until they have
 seen it, and My notes lists it as Answered, where they can clear it. If they
 tick Agent review again (in the editor, or "Ask the agent again" in My
 notes), it comes back flagged, and your old response is cleared.
+
+## Suggested subjects
+
+Readers can suggest a subject from the start screen's About panel (korg
+3459): a title, what it should cover, and why they would like it. Each is a
+note to Ken, never a job: nothing runs from one. They are in the same store
+as the notes, and the same targets reach them:
+
+```sh
+node skills/review-notes/review-notes.mjs --public suggestions [--status new] [--json]
+node skills/review-notes/review-notes.mjs --public mark-suggestion <login> <id> planned
+```
+
+A status is `new` (the reader sees "Sent"), `planned`, `written` or
+`declined`, and the reader sees it beside their suggestion. Only this side
+changes it.
+
+- **To promote one**, file a korg work item in project `kloom` titled
+  `Future subject: <title>`, like the others already filed (search korg for
+  "Future subject" first: if one exists, comment on it instead). Say who
+  suggested it by display name, and quote what they asked it to cover. Then
+  mark the suggestion `planned` and tell Ken the item's number.
+- `written` is for when the subject ships; `declined` needs Ken's say.
+  Don't decline one on your own judgement: list it for Ken.
 
 ## Rules
 

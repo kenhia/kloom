@@ -1373,7 +1373,7 @@ user_version` counts how many a file has had, and opening it runs the
   refuses them.
 - **Routes** (`src/routes/api/reader/`). `POST place`, `GET`/`POST`/`DELETE
 bookmarks`, `GET`/`POST`/`PATCH`/`DELETE notes`, `GET`/`POST my-notes`,
-  `GET`/`DELETE kept`, `GET export` and `POST import`. A place, bookmark or note must name a served subject
+  `GET`/`DELETE kept`, `GET`/`POST suggestions`, `GET export` and `POST import`. A place, bookmark or note must name a served subject
   (404) and a frame that subject has on disk (400).
 - **Export and import.** The export is a versioned JSON file
   (`kloom: "reader-data"`, `version: 3`) of every place, bookmark, note
@@ -1390,7 +1390,10 @@ bookmarks`, `GET`/`POST`/`PATCH`/`DELETE notes`, `GET`/`POST my-notes`,
   answers), each with its own table, added by the second migration. The
   third (sprint 012) gave a note an `anchor` column, which makes it an
   annotation (§Annotations), and the fourth (sprint 034) an `unseen` flag,
-  set when an agent answers it (§My notes).
+  set when an agent answers it (§My notes). The fifth (sprint 039) holds the
+  reader edition's accounts, and the sixth (sprint 041) suggested subjects
+  (§Suggestions), which the export leaves out: they are a note to Ken, not
+  reading data. Deleting a reader deletes theirs.
 - **The adapter loads under plain Node.** `sqlite-reader-store.ts` imports
   only `node:` modules and types, so Node's type stripping can load it
   outside the app. The review-notes skill's script does that (§Notes), and so
@@ -1500,6 +1503,15 @@ skill, which quotes the words.
   It counts as a note on the spine's marks and the tab.
 - **An edit keeps its anchor**, as it keeps its frame. The words an
   annotation is on are fixed when it is made.
+- **Checked after each publish** (sprint 041, korg 3504). The public site's
+  readers cannot be asked what a publish detached, so `just verify-public`
+  asks the store: `admin.mjs detached` runs on the machine, against the
+  library it serves, and lists every note whose frame the library no longer
+  has and every annotation whose words its reading lost. It reads the
+  reading's text off the rendered HTML without a DOM (`htmlText` in
+  `engine/anchor.ts`, the same text the page's text nodes give, so a quote
+  found there is found here), and finds the words with the same
+  `findQuote`. A detached note is reported, never dropped.
 
 ## My notes
 
@@ -1822,8 +1834,40 @@ pages would it be?_ The About panel answers, from the start screen's corner.
   quoted text, what is wrong, a source; labelled `content-feedback`). Blank
   issues stay open for code bugs. It is worded for a reader who is not Ken,
   since the public reader site will show the same panel.
+- **Suggest a subject** (sprint 041, korg 3459) follows the note on
+  accuracy, for a reader: §Suggestions.
 - **`just stats`** prints the same counts as a Markdown table, through the
   same engine code, for sprint records.
+
+## Suggestions
+
+Sprint 041 (korg 3459, Ken 2026-09-30). A reader can suggest a subject
+kloom should have, on Ken's instance and on the public site alike.
+
+- **In About, not on the start screen.** The start screen's own controls are
+  already many (korg 3514), so the control is a section of the About panel,
+  after the note on accuracy: a line saying what a suggestion is, and a
+  _Suggest a subject…_ button (`aria-expanded`) that opens a form in place,
+  focused on its first field. The form asks for the subject (required, 120
+  characters at most), what it should cover and, optionally, why they would
+  like it (2,000 each). Send closes it, returns focus to the button and says
+  "Sent: …" in a status line; a refusal is said in an alert and the form
+  stays. Below it, _Your suggestions_ lists theirs, the newest first, each
+  with its status in words: Sent, Planned, Written or Declined. It is the
+  panel's own markup, so it fits at 390px as the panel does
+  (`engine/ui/Suggest.svelte`).
+- **A note to Ken, never a job.** Nothing agentic runs from a suggestion.
+  So it is in the reader edition, where ask and grow are not, and
+  `reader-gate` has nothing to strip. A reader with 20 waiting (still Sent)
+  is asked to wait.
+- **Stored in the reader store** (`suggestion`, the sixth migration) under
+  the reader's login and their name when they made it, so the credit
+  survives a rename. Only the review side moves the status:
+  `review-notes.mjs suggestions` and `mark-suggestion`, on any store
+  including the public site's (`--public`), and the review-notes skill says
+  how to promote one into a korg "Future subject" item that credits whoever
+  suggested it.
+- **With no reader**, there is no section.
 
 ## Illustrations (what worked in sprint 002)
 

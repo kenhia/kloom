@@ -192,3 +192,54 @@ export function anchorOf(v: unknown): Anchor | null {
 	if (typeof start !== 'number' || !Number.isInteger(start) || start < 0) return null;
 	return { exact, prefix, suffix, start };
 }
+
+/** The named entities a rendered reading uses; others are left as written. */
+const ENTITIES: Record<string, string> = {
+	amp: '&',
+	lt: '<',
+	gt: '>',
+	quot: '"',
+	apos: "'",
+	nbsp: ' ',
+	ndash: '–',
+	mdash: '—',
+	hellip: '…',
+	lsquo: '‘',
+	rsquo: '’',
+	ldquo: '“',
+	rdquo: '”'
+};
+
+/**
+ * A rendered reading's text from its HTML, without a DOM: what
+ * `engine/ui/reading-text.ts` reads off the page's text nodes, so a quote
+ * found here is found there. Inlined drawings and charts are left out, as
+ * there, and tags give no text of their own: `<p>a</p><p>b</p>` is `ab`, as
+ * the DOM has it. For plain Node (the admin CLI's detached-note check on the
+ * public site), so it imports nothing.
+ */
+export function htmlText(html: string): string {
+	return html
+		.replace(/<(svg|style|script)\b[\s\S]*?<\/\1\s*>/gi, '')
+		.replace(/<!--[\s\S]*?-->/g, '')
+		.replace(/<[^>]*>/g, '')
+		.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e: string) =>
+			e[0] === '#'
+				? String.fromCodePoint(
+						e[1] === 'x' || e[1] === 'X' ? parseInt(e.slice(2), 16) : Number(e.slice(1))
+					)
+				: (ENTITIES[e] ?? m)
+		);
+}
+
+/**
+ * Why a note no longer finds what it is on (docs/design.md §Annotations): its
+ * frame is not in the library (`html` null), or, for an annotation, its words
+ * are not in the reading. Null when it still finds them. Never a reason to
+ * drop a note: a detached one is shown, and said to be, until its reader
+ * clears it.
+ */
+export function detachment(anchor: Anchor | null, html: string | null): 'frame' | 'words' | null {
+	if (html === null) return 'frame';
+	return anchor && !findQuote(htmlText(html), anchor) ? 'words' : null;
+}
