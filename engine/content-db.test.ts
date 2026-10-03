@@ -156,6 +156,18 @@ describe('the content compiler', () => {
 		expect(db.search('fennel', 5).every((h) => h.subject === 'western-civ')).toBe(true);
 	});
 
+	it('compiles only the subjects it is given, when given a list', async () => {
+		const report = await compile({ only: ['copy'] });
+		expect(report.built).toEqual(['copy']);
+		expect(
+			open()
+				.subjects()
+				.map((s) => s.id)
+		).toEqual(['copy']);
+		// A subject on the list that is not on disk is refused, not quietly left out.
+		await expect(compile({ only: ['copy', 'nowhere'] })).rejects.toThrow(/nowhere/);
+	});
+
 	it('swaps the new file in with a rename, leaving no temporary file', async () => {
 		await compile();
 		const reader = open();

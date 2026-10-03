@@ -265,3 +265,128 @@ colours-check:
         for _ in $(seq 60); do curl -sf -o /dev/null "$url/" && break; sleep 0.5; done
     fi
     node create-tools/colours-check/colours_check.mjs --url "$url"
+
+# ---- The public reader site: kloom.kenhiatt.us on Fly app kloom-reader ----
+# docs/deploying.md §Public reader site (korg 3503). Run on kai: flyctl is
+# Ken's install there, and the deploy token is kai's FLY_API_TOKEN, which
+# deploy/fly.sh reads per run.
+
+fly := "deploy/fly.sh"
+fly_app := "kloom-reader"
+public_url := "https://kloom.kenhiatt.us"
+public_home := home / "public"
+
+# Compile publish.json's subjects from this checkout into build-public/ (content.db and the media it lists)
+stage-public:
+    node --disable-warning=ExperimentalWarning deploy/stage-public.mjs
+
+# Refuses anything but a clean main that GitHub has. Builds the image here,
+# library and media last, deploys it, runs verify-public, and records the
+# release with the library's source commit in public/publishes.log. Rollback:
+# `deploy/fly.sh deploy -a kloom-reader --image <an earlier image>` (the log
+# names each one).
+# Publish this commit of main to the public site
+publish-public:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    [ "$(git branch --show-current)" = main ] || { echo "publish-public ships main: check out main" >&2; exit 1; }
+    [ -z "$(git status --porcelain)" ] || { echo "publish-public ships a commit: the tree is not clean" >&2; exit 1; }
+    git fetch --quiet origin main
+    [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ] || { echo "main is not origin/main: pull or push first" >&2; exit 1; }
+    just stage-public
+    commit="$(git rev-parse HEAD)"
+    {{ fly }} deploy -a {{ fly_app }} --local-only --ha=false --yes \
+        --build-arg KLOOM_BUILD="$(git log -1 --format='%h · %cs')" \
+        --image-label "$(git rev-parse --short=9 HEAD)-$(date -u +%Y%m%d%H%M)"
+    just verify-public
+    mkdir -p "{{ public_home }}"
+    release="$({{ fly }} releases -a {{ fly_app }} --image --json | node -e "const r = JSON.parse(require('fs').readFileSync(0, 'utf8'))[0]; console.log('v' + r.Version + ' image ' + (r.ImageRef ?? r.Image ?? '?'))")"
+    echo "$(date -u +%Y-%m-%dT%H:%MZ) $release commit $commit $(cat build-public/LIBRARY)" | tee -a "{{ public_home }}/publishes.log"
+
+# The public site as a stranger and as a reader sees it: TLS, the sign-in
+# wall, robots, ask/grow/keep gone, compression, the library build, and that
+# Fly's proxy overwrites a Fly-Client-IP a client sends. Signs in as the
+# `kloom-verify` reader (a fresh welcome link each run, disabled after). The
+# last check leaves this address waiting 30 s at sign-in, longer if run again
+# within the hour.
+# Check the public site
+verify-public:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    url="{{ public_url }}"
+    tmp="$(mktemp -d)"; trap 'rm -rf "$tmp"' EXIT
+    jar="$tmp/jar"
+    fail=0
+    check() { if [ "$2" = "$3" ]; then echo "ok   $1"; else echo "FAIL $1: got $2, want $3"; fail=1; fi; }
+    code() { curl -s -o /dev/null -w '%{http_code}' "$@"; }
+    admin() { {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning /app/admin.mjs --data /data $*" 2>&1; }
+
+    for i in $(seq 30); do [ "$(code "$url/robots.txt")" = 200 ] && break; sleep 2; done
+    check "TLS verifies" "$(curl -s -o /dev/null -w '%{ssl_verify_result}' "$url/robots.txt" || echo error)" 0
+    check "robots.txt disallows everything" "$(curl -s "$url/robots.txt" | grep -cx 'Disallow: /')" 1
+    check "a stranger is sent to sign in" "$(curl -s -o /dev/null -w '%{http_code} %{redirect_url}' "$url/")" "303 $url/signin"
+    check "a stranger's deep link comes back after" "$(curl -s -o /dev/null -w '%{redirect_url}' "$url/western-civ")" "$url/signin?next=%2Fwestern-civ"
+    check "the API refuses a stranger" "$(code "$url/api/stats")" 401
+    check "http goes to https" "$(code "http://${url#https://}/robots.txt")" 301
+
+    admin enable kloom-verify >/dev/null || admin add kloom-verify "Publish check" >/dev/null
+    link="$(admin invite kloom-verify --base "$url" | grep -o "$url/welcome/[A-Za-z0-9_-]*" || true)"
+    [ -n "$link" ] || { echo "FAIL no welcome link from the admin CLI"; exit 1; }
+    pw="$(head -c 18 /dev/urandom | base64 | tr -d '/+=')"
+    curl -s -o /dev/null -c "$jar" -H "origin: $url" --data-urlencode "password=$pw" --data-urlencode "confirm=$pw" "$link"
+    check "a welcome link signs the reader in" "$(code -b "$jar" "$url/api/stats")" 200
+    for p in ask grow keep; do
+        check "ask, grow and keep are gone: $p" \
+            "$(code -b "$jar" -X POST -H "origin: $url" -H 'content-type: application/json' -d '{}' "$url/api/$p")" 404
+    done
+    check "kept answers are gone" "$(code -b "$jar" "$url/api/reader/kept?subject=western-civ")" 404
+    check "pages go compressed" \
+        "$(curl -s -o /dev/null -b "$jar" -H 'accept-encoding: br' -w '%header{content-encoding}' "$url/western-civ")" br
+    check "a frame's body comes from the library" "$(code -b "$jar" "$url/api/frame/western-civ/prometheus")" 200
+    build="$(curl -s -o /dev/null -b "$jar" -w '%header{x-kloom-build}' "$url/api/stats")"
+    check "the library names its build" "$([ -n "$build" ] && echo yes || echo no)" yes
+    curl -s -o /dev/null -b "$jar" -X POST -H "origin: $url" "$url/signout"
+    admin disable kloom-verify >/dev/null
+
+    # Backoff keys on Fly-Client-IP (src/lib/server/session.ts). If Fly's proxy
+    # passed a client's own through, each try below would count against a
+    # made-up address and none would wait; overwritten, they are all this
+    # address's, and the twenty-first waits. Fresh usernames, so only the
+    # address can be what waits.
+    waited=no
+    for i in $(seq 21); do
+        c="$(code -X POST -H "origin: $url" -H "fly-client-ip: 203.0.113.$i" \
+            --data-urlencode "username=nobody-$RANDOM$RANDOM" --data-urlencode "password=not-a-password" "$url/signin")"
+        [ "$c" = 429 ] && { waited=yes; break; }
+    done
+    check "Fly overwrites a client's Fly-Client-IP (backoff keys on the real address)" "$waited" yes
+
+    echo "library: $build"
+    exit $fail
+
+# Invite a public reader, adding them when given a display name; prints their welcome link (also the reset)
+invite username *name:
+    {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning /app/admin.mjs --data /data invite {{ username }} {{ name }}"
+
+# List the public site's readers
+readers:
+    {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning /app/admin.mjs --data /data list"
+
+# Disable a public reader: their sessions end
+disable-reader username:
+    {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning /app/admin.mjs --data /data disable {{ username }}"
+
+# A consistent copy of the site's reader.db (node:sqlite's backup, on the
+# machine), fetched to public/reader-YYYYMMDD-HHMM.db here: the backup beyond
+# Fly's snapshots, and what review-notes reads (`--data` a directory holding
+# it as reader.db).
+# Copy the public site's reader data to kai
+pull-notes:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    mkdir -p "{{ public_home }}"
+    out="{{ public_home }}/reader-$(date -u +%Y%m%d-%H%M).db"
+    {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning -e \"require('node:sqlite').backup(new (require('node:sqlite').DatabaseSync)('/data/reader.db'), '/data/pull.db').then(() => console.log('backed up'))\""
+    {{ fly }} ssh sftp get -a {{ fly_app }} /data/pull.db "$out" >/dev/null
+    {{ fly }} ssh console -a {{ fly_app }} -q -C "rm -f /data/pull.db"
+    echo "$out ($(du -h "$out" | cut -f1))"

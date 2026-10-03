@@ -1,0 +1,18 @@
+# The public site's build context (Dockerfile): the source the reader edition
+# is built from, and the staged library and media. Nothing else.
+.git
+.scratch
+.env
+.korg-sprint-proposal
+node_modules
+.svelte-kit
+build
+build-reader
+data
+subjects
+bench
+sprints
+create-tools
+skills
+docs
+**/__pycache__
