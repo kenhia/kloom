@@ -229,7 +229,8 @@ describe('deleting a reader', () => {
 			places: 1,
 			bookmarks: 1,
 			notes: 1,
-			kept: 0
+			kept: 0,
+			suggestions: 0
 		});
 		expect(accounts.remove('j-n-k')).toBe(true);
 		expect(accounts.get('j-n-k')).toBeNull();

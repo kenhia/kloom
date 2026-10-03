@@ -305,7 +305,8 @@ publish-public:
 
 # The public site as a stranger and as a reader sees it: TLS and HSTS, the
 # sign-in wall, robots, ask/grow/keep gone, compression, the library build, and that
-# Fly's proxy overwrites a Fly-Client-IP a client sends. Signs in as the
+# Fly's proxy overwrites a Fly-Client-IP a client sends; then reports readers'
+# notes the library has left detached. Signs in as the
 # `kloom-verify` reader (a fresh welcome link each run, disabled after). The
 # last check leaves this address waiting 30 s at sign-in, longer if run again
 # within the hour.
@@ -370,6 +371,12 @@ verify-public:
     check "Fly overwrites a client's Fly-Client-IP (backoff keys on the real address)" "$waited" yes
 
     echo "library: $build"
+
+    # Readers' notes against this library (korg 3504): a note whose frame, or
+    # annotation whose words, it no longer has is reported, never dropped.
+    # Its reader sees it as detached in My notes; this is so Ken does too.
+    if notes="$(admin detached)"; then echo "$notes" | sed 's/^/note /'
+    else echo "FAIL the detached-note check: $notes"; fail=1; fi
     exit $fail
 
 # Invite a public reader, adding them when given a display name; prints their welcome link (also the reset)
@@ -386,8 +393,8 @@ disable-reader username:
 
 # A consistent copy of the site's reader.db (node:sqlite's backup, on the
 # machine), fetched to public/reader-YYYYMMDD-HHMM.db here: the backup beyond
-# Fly's snapshots, and what review-notes reads (`--data` a directory holding
-# it as reader.db).
+# Fly's snapshots. Readable offline (`--data` a directory holding it as
+# reader.db); notes are answered live, with review-notes' `--public`.
 # Copy the public site's reader data to kai
 pull-notes:
     #!/usr/bin/env bash

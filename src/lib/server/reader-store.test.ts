@@ -125,6 +125,70 @@ describe('notes', () => {
 	});
 });
 
+describe('answering a note read from a copy (the public site, korg 3504)', () => {
+	it('refuses an answer to a note edited since it was read, and takes one that was not', async () => {
+		const store = openReaderStore(':memory:', clock());
+		const n = (await store.saveNote(ken, note('turing', 'is this right?', true)))!;
+		const read = n.updated;
+		await store.saveNote(ken, {
+			...note('turing', 'is this right? I mean the year', true),
+			id: n.id
+		});
+		expect(await store.handleNote(ken, n.id, 'Yes.', read)).toBe(false);
+		const now = (await store.flaggedNotes(ken))[0];
+		expect(await store.handleNote(ken, n.id, 'Yes, 1936.', now.updated)).toBe(true);
+		expect((await store.notes(ken, 'ai'))[0]).toMatchObject({ review: 'handled', unseen: true });
+	});
+
+	it("lists every reader's every note, flagged or not, for the detached check", async () => {
+		const store = openReaderStore(':memory:', clock());
+		await store.saveNote(ken, note('turing', 'one'));
+		await store.saveNote(ada, note('alexnet', 'two', true));
+		expect((await store.everyNote()).map((n) => [n.reader, n.frame])).toEqual([
+			[ken, 'turing'],
+			[ada, 'alexnet']
+		]);
+	});
+});
+
+describe('suggestions', () => {
+	const idea = { title: 'Music', cover: 'From plainchant to the synthesiser.', why: '' };
+
+	it('are kept per reader, newest first, and listed for review oldest first', async () => {
+		const store = openReaderStore(':memory:', clock());
+		const first = await store.suggest(ken, 'Ken', idea);
+		expect(first).toMatchObject({ ...idea, status: 'new' });
+		await store.suggest(ada, 'Ada', { ...idea, title: 'Astronomy' });
+		await store.suggest(ken, 'Ken', { ...idea, title: 'Geology' });
+		expect((await store.suggestions(ken)).map((s) => s.title)).toEqual(['Geology', 'Music']);
+		expect((await store.allSuggestions()).map((s) => [s.name, s.title])).toEqual([
+			['Ken', 'Music'],
+			['Ada', 'Astronomy'],
+			['Ken', 'Geology']
+		]);
+	});
+
+	it('move on from the review side, and a status narrows the list', async () => {
+		const store = openReaderStore(':memory:', clock());
+		const s = await store.suggest(ken, 'Ken', idea);
+		expect(await store.markSuggestion(ada, s.id, 'planned')).toBe(false);
+		expect(await store.markSuggestion(ken, s.id, 'planned')).toBe(true);
+		const [now] = await store.suggestions(ken);
+		expect(now.status).toBe('planned');
+		expect(now.updated > s.updated).toBe(true);
+		expect(await store.allSuggestions('new')).toEqual([]);
+		expect((await store.allSuggestions('planned')).map((x) => x.id)).toEqual([s.id]);
+	});
+
+	it('go with a deleted reader, and are not in the export', async () => {
+		const store = openReaderStore(':memory:', clock());
+		await store.suggest(ken, 'Ken', idea);
+		expect(Object.keys(await store.exportData(ken))).not.toContain('suggestions');
+		expect((await store.deleteReader(ken)).suggestions).toBe(1);
+		expect(await store.suggestions(ken)).toEqual([]);
+	});
+});
+
 describe('every note, for My notes', () => {
 	it('lists a reader’s notes across subjects, newest first', async () => {
 		const store = openReaderStore(':memory:', clock());
@@ -425,7 +489,7 @@ describe('the file', () => {
 		// Back to sprint 012's schema, as a file from before this one would be.
 		const raw = new DatabaseSync(path);
 		raw.exec(`ALTER TABLE note DROP COLUMN unseen;
-			DROP TABLE account; DROP TABLE session; DROP TABLE invite;
+			DROP TABLE account; DROP TABLE session; DROP TABLE invite; DROP TABLE suggestion;
 			PRAGMA user_version = 3;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
@@ -445,7 +509,7 @@ describe('the file', () => {
 		before.close();
 		// Back to sprint 034's schema, before the reader edition's sign-in.
 		const raw = new DatabaseSync(path);
-		raw.exec(`DROP TABLE account; DROP TABLE session; DROP TABLE invite;
+		raw.exec(`DROP TABLE account; DROP TABLE session; DROP TABLE invite; DROP TABLE suggestion;
 			PRAGMA user_version = 4;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
@@ -455,6 +519,22 @@ describe('the file', () => {
 		expect(after.prepare('SELECT count(*) AS n FROM account').get()).toEqual({ n: 0 });
 		expect(after.prepare('PRAGMA user_version').get()).toEqual({ user_version: SCHEMA_VERSION });
 		after.close();
+	});
+
+	it('moves a file made at schema 5 forward: suggestions arrive, the readers stay', async () => {
+		dir = mkdtempSync(join(tmpdir(), 'kloom-reader-'));
+		const path = join(dir, 'reader.db');
+		const before = openReaderStore(path, clock());
+		await before.saveNote(ken, note('turing', 'kept'));
+		before.close();
+		// Back to sprint 039's schema, the one the public site first shipped with.
+		const raw = new DatabaseSync(path);
+		raw.exec(`DROP TABLE suggestion; PRAGMA user_version = 5;`);
+		raw.close();
+		const store = openReaderStore(path, clock());
+		expect((await store.allNotes(ken)).map((x) => x.text)).toEqual(['kept']);
+		expect(await store.suggestions(ken)).toEqual([]);
+		store.close();
 	});
 
 	it('refuses a file from a newer app rather than guess at its schema', () => {

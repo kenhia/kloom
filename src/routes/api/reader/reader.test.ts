@@ -13,8 +13,10 @@ import {
 	POST as saveNote
 } from './notes/+server';
 import { POST as visit } from './place/+server';
+import { GET as suggestions, POST as suggest } from './suggestions/+server';
 import { keptAnswer } from '$engine/ai/kept';
 import { context } from '$engine/ai/fixture';
+import { SUGGESTIONS_WAITING_MAX as WAITING_MAX } from '$engine/reader-data';
 import { readerStore } from '$lib/server/reader-store';
 
 /** A handler's response, or the error it threw (SvelteKit's `error()` throws). */
@@ -54,6 +56,8 @@ describe('reader data needs a reader', () => {
 		expect(await call(dropNote, send('DELETE', {}, null))).toMatchObject({ status: 401 });
 		expect(await call(flagNote, send('PATCH', {}, null))).toMatchObject({ status: 401 });
 		expect(await call(myNotes, read(null))).toMatchObject({ status: 401 });
+		expect(await call(suggestions, read(null))).toMatchObject({ status: 401 });
+		expect(await call(suggest, send('POST', { title: 'x' }, null))).toMatchObject({ status: 401 });
 		expect(await call(seeNotes, send('POST', { ids: [] }, null))).toMatchObject({ status: 401 });
 		expect(await call(keptOn, get('?subject=ai&frame=turing', null))).toMatchObject({
 			status: 401
@@ -261,5 +265,39 @@ describe('kept answers', () => {
 		});
 		await call(forget, send('DELETE', { subject: 'western-civ', id }));
 		expect(await body(await call(keptOn, get(where)))).toEqual([]);
+	});
+});
+
+describe('suggestions', () => {
+	const idea = { title: '  Music  ', cover: 'From plainchant to the synthesiser.' };
+
+	it('are kept under the reader, with their name, and listed back to them alone', async () => {
+		const made = await call(suggest, send('POST', idea));
+		expect(made).toMatchObject({ status: 201 });
+		expect(await body(made)).toMatchObject({ title: 'Music', why: '', status: 'new' });
+		expect(await body(await call(suggestions, read()))).toMatchObject([{ title: 'Music' }]);
+		expect(await body(await call(suggestions, read(ada)))).toEqual([]);
+		expect((await readerStore().allSuggestions())[0]).toMatchObject({
+			reader: ken.login,
+			name: 'Ken'
+		});
+	});
+
+	it('refuses one with no title, or too long', async () => {
+		expect(await call(suggest, send('POST', { cover: 'no title' }))).toMatchObject({ status: 400 });
+		expect(await call(suggest, send('POST', { title: 'x'.repeat(121) }))).toMatchObject({
+			status: 400
+		});
+		expect(await call(suggest, send('POST', { title: 'ok', why: 7 }))).toMatchObject({
+			status: 400
+		});
+	});
+
+	it(`stops at ${WAITING_MAX} waiting`, async () => {
+		for (let i = 0; i < WAITING_MAX; i++) await call(suggest, send('POST', { title: `s${i}` }));
+		expect(await call(suggest, send('POST', { title: 'one more' }))).toMatchObject({ status: 429 });
+		const [last] = await readerStore().suggestions(ken.login);
+		await readerStore().markSuggestion(ken.login, last.id, 'planned');
+		expect(await call(suggest, send('POST', { title: 'one more' }))).toMatchObject({ status: 201 });
 	});
 });

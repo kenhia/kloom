@@ -3,6 +3,7 @@
 	import { bibliography, chicago, type Citation } from '../citation';
 	import type { Palette } from '../model';
 	import type { LibraryStats } from '../stats';
+	import type { SuggestOffer } from '../reader-data';
 	import type { UserSettings } from '../user-settings.svelte';
 	import About from './About.svelte';
 	import Settings from './Settings.svelte';
@@ -51,7 +52,11 @@
 		/** The reader's settings: the gear top right, the shell's own pop-up. */
 		settings?: UserSettings;
 		/** The About panel top right, left of the gear: the library's counts and this build. */
-		about?: { stats: () => Promise<LibraryStats>; build?: string };
+		about?: {
+			stats: () => Promise<LibraryStats>;
+			build?: string;
+			suggest?: SuggestOffer | null;
+		};
 		/** The Welcome and How-To page's address (korg 3502), offered under Begin. */
 		help?: string;
 		/**

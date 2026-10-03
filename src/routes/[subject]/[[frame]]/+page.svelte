@@ -8,7 +8,9 @@
 		type Kept,
 		type Note,
 		type Place,
-		type ReaderLayer
+		type ReaderLayer,
+		type SuggestOffer,
+		type Suggestion
 	} from '$engine/reader-data';
 	import { subjectOf, type MapData } from '$engine/map';
 	import type { MyNotesData, MyNotesOffer, NoteEntry } from '$engine/my-notes';
@@ -257,6 +259,28 @@
 		const res = await send(resolve('/api/reader/my-notes'), 'POST', { ids });
 		if (res) unseen = ((await res.json()) as { unseen: number }).unseen;
 	}
+	// Suggest a subject (korg 3459), in About: the reader's own, and a new one.
+	const suggest = $derived<SuggestOffer | null>(
+		data.reader
+			? {
+					list: async () => {
+						const res = await send(resolve('/api/reader/suggestions'), 'GET');
+						return res ? ((await res.json()) as Suggestion[]) : null;
+					},
+					send: async (s) => {
+						const res = await fetch(resolve('/api/reader/suggestions'), {
+							method: 'POST',
+							headers: { 'content-type': 'application/json' },
+							body: JSON.stringify(s)
+						}).catch(() => null);
+						if (res?.ok) return (await res.json()) as Suggestion;
+						const said =
+							res && ((await res.json().catch(() => null)) as { message?: string } | null);
+						return { error: said?.message ?? 'It could not be sent just now. Please try again.' };
+					}
+				}
+			: null
+	);
 	/** Opened on the Notes tab after a Go to lands. */
 	let noteToShow: string | null = null;
 	const myNotes = $derived<MyNotesOffer | null>(
@@ -562,7 +586,7 @@
 		onmap={(refocus) =>
 			openMap({ target: { view: 'library' }, scheme: startPalette.scheme, refocus })}
 		{settings}
-		about={{ stats: loadStats, build: __KLOOM_BUILD__ || undefined }}
+		about={{ stats: loadStats, build: __KLOOM_BUILD__ || undefined, suggest }}
 		help={resolve('/welcome')}
 		signOut={data.reader?.signedIn ? { action: resolve('/signout'), who: data.reader.name } : null}
 	/>
