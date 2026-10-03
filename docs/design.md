@@ -354,7 +354,8 @@ page?}`: the session laws or the code it is in), the year left out
   (§Grow).
 - **Provider interface** — every model call goes through one interface, so a
   Claude API adapter (or another provider) is an additive change, not a
-  rewrite. Built in sprint 004; see §Ask.
+  rewrite. Built in sprint 004; see §Ask. The API adapter came in sprint 046
+  (§Ask on the Claude API), and it is ask only: grow stays on `claude -p`.
 
 ## Ask
 
@@ -372,9 +373,11 @@ Built in sprint 004 (korg 3360).
 
   The prompt (`engine/ai/prompt.ts`) is shared by every adapter. It numbers
   the frame's citations (every source is one since sprint 008), and asks the
-  model to mark what it drew on with `[n]`. A Claude API adapter is one more
-  class beside `ClaudeCliProvider`, chosen by `provider.kind` in the app
-  config.
+  model to mark what it drew on with `[n]`. Since sprint 046 the Claude API
+  adapter, `AnthropicApiProvider`, is a second class beside
+  `ClaudeCliProvider`. The model entry names which provider runs it
+  (§Settings). A provider that bills by use also yields one `usage` event,
+  which the server prices and logs and never sends on (§Ask costs).
 
   The prompt asks for an answer "under 250 words". **That is a soft limit**
   (Ken, 2026-10-02, korg 3490): an answer that runs over it is shown whole,
@@ -502,6 +505,118 @@ Built in sprint 005 (korg 3376, Ken's decisions of 2026-09-27).
   current revision at keep time (`engine/ai/wikipedia.ts`, twin of
   `create-tools/wiki-cite`), as a `wikipedia` citation. If the lookup fails,
   the keep fails rather than store an unpinned link.
+
+## Ask on the Claude API
+
+Built in sprint 046 (korg 3529, Ken's decisions of 2026-10-03).
+
+- **`AnthropicApiProvider`** (`engine/ai/anthropic-api.ts`) runs ask on the
+  Claude API with the official SDK (`@anthropic-ai/sdk`), with the same
+  prompt (`askSystem`, `askPrompt`) and the same events as `claude -p`. It
+  streams through the beta Messages endpoint so a model may send the
+  server-side refusal fallback. A paused server-tool turn (`pause_turn`) is
+  resumed, at most four times.
+- **The key** is an Anthropic API key, never subscription credentials
+  (Ken, 2026-10-03). It is read per ask, so a rotated key needs no restart:
+  from `$ANTHROPIC_API_KEY` (the reader site's Fly secret), or else that one
+  key from `keyFile` (kai's `/etc/khomelab/secrets.env`, k-homelab store
+  entry `anthropic-api-key`). Nothing else in that file reaches the app.
+  `claude -p` is spawned with any `ANTHROPIC_API_KEY` or
+  `ANTHROPIC_AUTH_TOKEN` taken out of its environment (`cliEnv`): with one
+  set, claude bills the key instead of the host's subscription.
+- **Web**, when a turn may use it, is the API's server-side `web_search` and
+  `web_fetch`, capped per turn from the provider's `web`: at most 3
+  searches and 2 fetches, each fetch at most 8,000 tokens of page. The caps
+  are what keep a question from costing dollars. Uncapped, one question
+  read 1.02M input tokens and cost $2.13 (2026-10-03); capped, the dearest
+  of the same eight cost $0.154. Sonnet and Opus 4.6 and later take the
+  `_20260209` tool versions, and Haiku 4.5 takes the basic ones
+  (`web_search_20250305`, `web_fetch_20250910`), chosen per model
+  (`webTools`). A search start is a `searching` status, as with `claude -p`.
+- **Refusals.** An entry with `fallbacks: true` (Sonnet 5.5) sends
+  `fallbacks: "default"` with the `server-side-fallback-2026-07-01` header,
+  so the API re-runs a declined turn on a model that answers. The switch
+  arrives as a `fallback` block, which becomes a `retrying` status: the text
+  before it was the declining model's, and the pane drops it and says the
+  model "is answering again". A turn the whole chain declines
+  (`stop_reason: "refusal"`) is an error with `declined: true`, shown
+  plainly: "Claude declined to answer this question. Try asking it another
+  way."
+- **Errors** name the failure, never the key: a refused key, a busy or
+  spent API (429, which is also what the Console's spend limit answers), a
+  timeout, a dropped connection.
+- **Models.** On Ken's instance the ask setting lists the `claude -p`
+  models ("Sonnet 5.5", the default, and "Opus 5.5") and the API's ("Sonnet
+  5.5 · API" and "Haiku 4.5 · API") side by side. Grow is unchanged.
+
+## Ask costs
+
+Built in sprint 046 (korg 3529).
+
+- **Every turn on the API is logged**, in the `ask_cost` table of
+  `reader.db` (the store's migration 8, `src/lib/server/ask-ledger.ts`).
+  A row holds when, the reader, the subject and frame, the provider, the
+  model asked for, whether web was on, the input, output, cache-read and
+  cache-write tokens, the searches and fetches, the milliseconds, the cost
+  in US dollars, and the outcome (`done`, `stopped`, `failed`,
+  `declined`). It never holds the question. A stopped or declined turn is
+  logged too: it was billed. A turn stopped mid-stream logs what the API
+  reported before it stopped, which may be nothing, so a stop can go
+  slightly under-counted.
+- **The cost comes from the API's usage block**, never an estimate, priced
+  from `prices` in the app config. That table is checked by hand against
+  Anthropic's pricing page and records the date it was checked
+  (2026-10-03, Sonnet 5.5 $2 in and $10 out per million tokens, Haiku 4.5
+  $1 and $5, cache reads at a tenth, 5-minute cache writes at 1.25×, web
+  search $10 a thousand, fetch free). A turn that lists its iterations (a
+  fallback, a server-tool loop) is priced per model, each at its own rate.
+  The API names the serving model by its dated id
+  (`claude-haiku-4-5-20251001`), which is priced at its alias's rate. A
+  model the table lacks is priced at the dearest rate it has, so a cap is
+  never undercounted.
+- **`just ask-costs`** (`admin.mjs ask-costs`, over the service's store on
+  kai) prints, per model and overall: the count; the total, mean, p50 and
+  p90 cost per ask; the cost per thousand output tokens; how many asks had
+  web and how many searched; the searching asks' share of the cost; and the
+  mean time. `--since`, `--until`, `--reader`, `--model` and `--json`
+  narrow it. `just public-ask-costs` is the same for the reader site.
+
+## Ask on the reader site
+
+Built in sprint 046 (korg 3530, Ken's decisions of 2026-10-03).
+
+- **For the readers Ken allows, and nobody else.** The reader edition holds
+  ask and keep on the Claude API only (§Editions in docs/deploying.md).
+  `admin.mjs reader-ask enable <reader>` puts a reader on the allow-list
+  (`ask_access`), and `disable` takes them off. A reader who is not on it
+  sees no AI pane, and its routes (ask, keep, kept answers) answer them
+  with the same 404 as a route the edition lacks. `jkh` is the first.
+- **What they get** (`kloom.reader.json`): Haiku 4.5 by default, with Sonnet
+  5.5 offered; web on by default, with the caps above; a reader can untick
+  Web per question. Keep this keeps an answer in their own store, as on
+  Ken's instance, and it comes back with `just pull-notes`. There is no
+  grow, and no grow control.
+- **Caps** (`ask.caps`): $5 a month for each reader unless the allow-list
+  gives them their own (`--cap`), and $15 a month site-wide. The
+  workspace's own $20 spend limit in the Console is the last backstop.
+  Months are UTC calendar months, counted from the cost log. Before each ask
+  the server checks both caps. At either one, ask **rests**: the server
+  answers with a `budget` event and runs no turn, and the pane says "Ask is
+  resting until November 1: this month's questions are used up", disables
+  Ask, and puts the question back in the box. Past 80% of either cap
+  (`nearShare`) the pane says ask is nearly at this month's limit. Each
+  answer ends with the reader's standing, and the page brings it on load,
+  so a reader at the cap knows before they type. A cap can be overshot by
+  the one ask that crosses it (at most about $0.15 with web), never by two.
+- **The spend report for kmon** (korg 3533) is `admin.mjs ask-usage
+--json` through the existing admin path (`just ask-usage --json` on kai,
+  `fly ssh`): the month, when it was generated, the site's spend and cap and
+  ask count, and each reader's, every allowed reader listed even at $0. No
+  public endpoint was added.
+- **The copy.** About, the Welcome page and the User's Guide tell a reader
+  with ask, in a sentence or two, that Claude, an AI made by Anthropic and
+  provided by Ken, writes the answers, that they can be wrong, and how to
+  say so (tell Ken, or a note with Agent review).
 
 ## Grow
 
@@ -2199,32 +2314,58 @@ Built in sprint 003 (korg 3373, 3372).
 
   ```json
   {
-  	"provider": {
-  		"kind": "claude-cli",
-  		"command": "claude",
-  		"timeoutSeconds": 120,
-  		"webTimeoutSeconds": 180
-  	},
-  	"models": [{ "id": "claude-sonnet-5", "label": "Sonnet 5" }, "…"],
-  	"ask": { "defaultModel": "claude-sonnet-5", "web": "allow" },
+  	"providers": [
+  		{ "id": "cli", "kind": "claude-cli", "command": "claude", "timeoutSeconds": 120 },
+  		{
+  			"id": "api",
+  			"kind": "anthropic-api",
+  			"timeoutSeconds": 120,
+  			"keyFile": "/etc/khomelab/secrets.env",
+  			"web": { "searchMaxUses": 3, "fetchMaxUses": 2, "fetchMaxContentTokens": 8000 }
+  		}
+  	],
+  	"models": [
+  		{ "id": "claude-sonnet-5-5", "label": "Sonnet 5.5", "provider": "cli" },
+  		{
+  			"id": "api:claude-haiku-4-5",
+  			"label": "Haiku 4.5 · API",
+  			"provider": "api",
+  			"model": "claude-haiku-4-5"
+  		},
+  		"…"
+  	],
+  	"prices": { "checked": "2026-10-03", "source": "…", "webSearchPerThousand": 10, "models": {} },
+  	"ask": { "defaultModel": "claude-sonnet-5-5", "web": "allow" },
   	"grow": { "defaultModel": "claude-opus-5-5", "timeoutSeconds": 900, "web": true }
   }
   ```
 
-  Validation (`src/lib/server/app-config.ts`) requires a non-empty model
-  list. Ids must be letters, digits, `.`, `-` and `_`, never starting with a
-  dash, so a hand edit cannot make one a CLI flag. The default must be
-  listed. `ask.web` is `allow`, `offer` or `deny`. `grow` is optional:
-  without it, grow is not offered. Its default model must be listed too.
+  Since sprint 046 (korg 3529) **providers are a list**, each with an id and a
+  kind (`claude-cli`, `anthropic-api`), and **each model names its
+  provider**. An entry's `id` is what the reader's setting stores and is
+  unique; its `model` is what the provider is given (the `id` when absent),
+  so one model can be offered on both routes side by side. Validation
+  (`src/lib/server/app-config.ts`) requires a non-empty model list, and a
+  provider that exists for each model. A model id must be letters, digits,
+  `.`, `-` and `_`, never starting with a dash, so a hand edit cannot make it
+  a CLI flag. An entry id may also hold a colon (`api:…`). The default must
+  be listed. `ask.web` is `allow`, `offer` or `deny`. `grow` is optional:
+  without it, grow is not offered. Its default model must be on a
+  `claude-cli` provider, because grow needs `claude -p`'s file tools. A model
+  on the API needs a price in `prices` (§Ask costs). `ask.caps` sets monthly
+  dollar caps (§Ask on the reader site). The reader edition reads its own
+  file, `kloom.reader.json`.
 
 - **The ask model** (sprint 004) is a user setting over that list. It is a
-  drop-down labelled "Ask model", Sonnet 5 by default, stored under
-  `kloom.askModel`. The page's server load serves the choices, and
-  `modelSetting` (`engine/settings.ts`) turns them into a row. The pick is
-  what `claude -p --model` gets. The server honours it only if the config
-  lists it, so a client string never reaches the command line. The **grow
-  model** (sprint 005) is a second row built the same way: "Grow model",
-  Opus 5.5 by default, `kloom.growModel`.
+  drop-down labelled "Ask model", stored under `kloom.askModel`. Its default
+  was Sonnet 5 until sprint 046, and is now Sonnet 5.5 on `claude -p`; the
+  API's entries are labelled "· API". A reader's stored pick that the list no
+  longer has gets the default. The page's server load serves the choices, and
+  `modelSetting` (`engine/settings.ts`) turns them into a row. The server
+  honours the pick only if the config lists it, so a client string never
+  reaches a command line or the API. The **grow model** (sprint 005) is a
+  second row built the same way, from the `claude -p` models only: "Grow
+  model", Opus 5.5 by default, `kloom.growModel`.
 - **The layout** (sprint 010) is a row too: "Layout", two panes with tabs by
   default, `kloom.layout` (§Layout).
 - **Keys** were rows in the pop-up from sprint 011 to 036, a letter or Off

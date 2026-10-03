@@ -6,17 +6,19 @@ the operations side. The public site's build, the reader edition, and its
 sign-in are at the end (§Editions, §Signing in), and the public site itself
 after them (§Public reader site).
 
-| What                  | Where                                                          |
-| --------------------- | -------------------------------------------------------------- |
-| Tailnet URL           | `https://kai.encke-wahoo.ts.net:4890`                          |
-| ssh door              | `127.0.0.1:4891` on kai, for `ssh -L`                          |
-| App (the deploy copy) | `~/.local/share/kloom/app`                                     |
-| Content clone         | `~/.local/share/kloom/content`, on `grow/kai`                  |
-| Grow jobs             | `~/.local/share/kloom/data`                                    |
-| The library (SQLite)  | `~/.local/share/kloom/data/content.db`, built from the clone   |
-| Reader data (SQLite)  | `~/.local/share/kloom/data/reader.db` (with `-wal`, `-shm`)    |
-| Unit                  | `deploy/kloom.service`, installed to `~/.config/systemd/user/` |
-| Serve entry           | k-homelab `manifests/kai.yml`, `tailscale_serve` port 4890     |
+| What                  | Where                                                            |
+| --------------------- | ---------------------------------------------------------------- |
+| Tailnet URL           | `https://kai.encke-wahoo.ts.net:4890`                            |
+| ssh door              | `127.0.0.1:4891` on kai, for `ssh -L`                            |
+| App (the deploy copy) | `~/.local/share/kloom/app`                                       |
+| Content clone         | `~/.local/share/kloom/content`, on `grow/kai`                    |
+| Grow jobs             | `~/.local/share/kloom/data`                                      |
+| The library (SQLite)  | `~/.local/share/kloom/data/content.db`, built from the clone     |
+| Reader data (SQLite)  | `~/.local/share/kloom/data/reader.db` (with `-wal`, `-shm`)      |
+| Ask's API key         | `ANTHROPIC_API_KEY` in `/etc/khomelab/secrets.env`, read per ask |
+| Ask's cost log        | `ask_cost` in `reader.db`; `just ask-costs`                      |
+| Unit                  | `deploy/kloom.service`, installed to `~/.config/systemd/user/`   |
+| Serve entry           | k-homelab `manifests/kai.yml`, `tailscale_serve` port 4890       |
 
 ## First time on a host
 
@@ -29,7 +31,11 @@ sudo tailscale serve --bg --https=4890 http://127.0.0.1:4890
 Declare the serve entry in k-homelab's manifest for the host too, or a
 rebuilt host comes back without the URL. The unit needs lingering on for the
 user, and a logged-in Claude Code at `~/.local/bin/claude`, which grow and
-ask run as the host's user.
+ask run as the host's user. The API models of ask (sprint 046) need the key in the host's
+secrets file (k-homelab store entry `anthropic-api-key`, the host's
+manifest, `bin/apply <host> khomelab-secrets`). The app reads that one key
+per ask, so it needs the unit's user in the `khomelab` group, and no
+restart after a rotation. `claude -p` never sees it.
 
 ## Deploying new app code
 
@@ -116,15 +122,19 @@ the build is the whole of the difference.
 | `full`   | `just build` → `build/`               | Ken and the tailnet, on kai      | the two loopback doors above          |
 | `reader` | `just build-reader` → `build-reader/` | invited readers, the public site | one, `0.0.0.0:$PORT` (8080), no doors |
 
-The **reader edition** has no ask, grow or keep, and no kept answers. It is
-**stripped, not switched off**: `KLOOM_EDITION=reader` at build time points
-the `$edition` alias at `src/lib/edition/reader/`, whose modules import none
-of the agent code, and `__KLOOM_EDITION__` lets the shared code drop the
-rest (the AI pane, the Q&A section, the library build). The ask, grow, keep
-and kept-answer routes are still there and answer 404. `just reader-gate`,
-part of `just check`, builds it and fails if the build holds the providers,
-an import of `node:child_process`, or code from ask, grow, keep or
-editor-only modules. It checks by category, through markers, and a marker
+The **reader edition** has no grow and no `claude -p`. Since sprint 046
+(korg 3530) it has **ask and keep on the Claude API, for the readers Ken
+allows** (docs/design.md §Ask on the reader site); for everyone else the ask,
+keep and kept-answer routes answer 404, and the page offers no AI pane. What
+it lacks is **stripped, not switched off**: `KLOOM_EDITION=reader` at build
+time points the `$edition` alias at `src/lib/edition/reader/`, whose
+`providers` module builds the API provider only and imports none of
+`claude -p`, and `__KLOOM_EDITION__` lets the shared code drop the rest (the
+AI pane's grow requests, the library build). The grow route is still there
+and answers 404. `just reader-gate`, part of `just check`, builds it and
+fails if the build holds `claude -p`'s adapter, an import of
+`node:child_process`, grow, or editor-only code, or if the browser's code
+holds a grow request. It checks by category, through markers, and a marker
 that is no longer in its source fails the gate too. **A new editor-only
 feature goes behind `$edition` and gets a marker there.**
 
@@ -139,6 +149,8 @@ reads:
 | `ORIGIN`             | the site's own URL; SvelteKit's origin check needs it behind a proxy |
 | `PORT`, `HOST`       | the listener (8080 on 0.0.0.0)                                       |
 | `KLOOM_LOGIN_DOMAIN` | readers' logins are `<username>@` this (`kloom.kenhiatt.us`)         |
+| `KLOOM_CONFIG`       | the app config: `kloom.reader.json` (ask's models, prices and caps)  |
+| `ANTHROPIC_API_KEY`  | the Claude API key ask uses: the Fly secret, never in the image      |
 
 To run it on kai as the public site runs it, on loopback, against this
 checkout's library and media and `data/reader.db`:
@@ -221,17 +233,18 @@ The reader edition runs on Fly.io as the app `kloom-reader`, at
 <https://kloom.kenhiatt.us> (korg 3503). Everything is done from kai, with
 the recipes below.
 
-| What             | Where                                                                         |
-| ---------------- | ----------------------------------------------------------------------------- |
-| App              | Fly `kloom-reader`, org `personal`, region `iad`                              |
-| Machine          | one `shared-cpu-1x`, 512 MB, always on (`fly.toml`)                           |
-| Readers' data    | `reader.db` on the 1 GB volume `kloom_data`, at `/data`                       |
-| The image        | `Dockerfile`: the reader edition, `admin.mjs`, the library, its media         |
-| What is public   | `publish.json`: the subjects the library is built from                        |
-| Deploy token     | `FLY_API_TOKEN` in kai's `/etc/khomelab/secrets.env`, read by `deploy/fly.sh` |
-| Publish record   | `~/.local/share/kloom/public/publishes.log` on kai                            |
-| Pulled reader.db | `~/.local/share/kloom/public/reader-YYYYMMDD-HHMM.db` on kai                  |
-| DNS and the cert | GoDaddy CNAMEs `kloom` and `_acme-challenge.kloom`; Fly's Let's Encrypt cert  |
+| What             | Where                                                                           |
+| ---------------- | ------------------------------------------------------------------------------- |
+| App              | Fly `kloom-reader`, org `personal`, region `iad`                                |
+| Machine          | one `shared-cpu-1x`, 512 MB, always on (`fly.toml`)                             |
+| Readers' data    | `reader.db` on the 1 GB volume `kloom_data`, at `/data`                         |
+| The image        | `Dockerfile`: the reader edition, `admin.mjs`, the library, its media           |
+| What is public   | `publish.json`: the subjects the library is built from                          |
+| Deploy token     | `FLY_API_TOKEN` in kai's `/etc/khomelab/secrets.env`, read by `deploy/fly.sh`   |
+| Ask's API key    | the Fly secret `ANTHROPIC_API_KEY`, from store entry `anthropic-api-key-reader` |
+| Publish record   | `~/.local/share/kloom/public/publishes.log` on kai                              |
+| Pulled reader.db | `~/.local/share/kloom/public/reader-YYYYMMDD-HHMM.db` on kai                    |
+| DNS and the cert | GoDaddy CNAMEs `kloom` and `_acme-challenge.kloom`; Fly's Let's Encrypt cert    |
 
 **The token.** The recipes never use Ken's flyctl login. `deploy/fly.sh`
 runs flyctl (`~/.fly/bin/flyctl`, by full path) with a deploy token scoped
@@ -273,11 +286,14 @@ deploy/fly.sh deploy -a kloom-reader --image registry.fly.io/kloom-reader:<label
 - TLS verifies
 - `robots.txt` disallows everything, and http goes to https
 - a stranger is sent to sign in, and the API refuses one
-- signed in, ask, grow, keep and kept answers are 404
+- signed in as a reader without ask, ask, keep and kept answers are 404, and
+  grow is 404 for everyone
 - pages go compressed
 - a frame's body comes from the library, and the library names its build
 - Fly's proxy overwrites a `Fly-Client-IP` a client sends, so sign-in
   backoff keys on the real address
+- the month's ask spend report runs (`ask:` line: spend against the site
+  cap, asks, readers with ask)
 - then, as `note` lines, readers' notes this library has left detached
   (`admin.mjs detached`): a frame it no longer has, or an annotation whose
   words its reading lost. They are reported, never dropped. The reader sees
@@ -302,6 +318,33 @@ These run `admin.mjs` on the machine through `fly ssh console`
 (§The admin CLI). If `fly ssh console` hangs at `Connecting to fdaa:…`, the
 host's WireGuard peer has gone stale. `fly wireguard list personal` names
 it, and `fly wireguard remove personal <name>` lets flyctl make a new one.
+
+### Ask
+
+Ask on the site (korg 3530; docs/design.md §Ask on the reader site) runs on
+its own Claude API key, in the Console workspace `kloom-reader`, whose spend
+limit is $20 a month. **The key expires on 2027-01-31**; kmon warns 14 days
+ahead (korg 3533). Its age-store entry is k-homelab's
+`anthropic-api-key-reader`, and its rotation is in krot
+(`registry/anthropic.toml`). Ken keeps an escrow copy in LastPass, which a
+rotation must update too.
+
+```sh
+just public-ask-key                        # the age store's key into the Fly secret, staged for the next deploy
+just reader-ask enable jkh                 # give a reader ask, at the $5 default cap
+just reader-ask enable jkh --cap 8         # or their own
+just reader-ask disable jkh                # take it away; their kept answers stay
+just reader-ask list
+just ask-usage                             # this month's spend, site and readers, each with its cap
+just ask-usage --json                      # the report kmon collects daily
+just public-ask-costs                      # cost per ask, per model (`--since`, `--reader`, `--model`)
+```
+
+`public-ask-key` pipes `bin/secret get` on kubs0 into `flyctl secrets import
+--stage`, so the value is never printed or written to a file on kai. A
+staged secret goes live at the next `just publish-public`.
+`deploy/fly.sh secrets deploy -a kloom-reader` makes it live at once, and
+restarts the machine.
 
 ### Readers' notes and the backup
 

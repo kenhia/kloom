@@ -7,9 +7,6 @@
 
 	let { data }: PageProps = $props();
 
-	/** The public site (the reader edition) has no asking or growing (korg 3500). */
-	const full = __KLOOM_EDITION__ !== 'reader';
-
 	/** The parts of the guide, for its own contents at the top. */
 	const parts = $derived([
 		['start', 'The start screen'],
@@ -26,7 +23,7 @@
 		['colors', 'Colors'],
 		['keys', 'Keyboard'],
 		['touch', 'Phones and tablets'],
-		...(full ? [['ai', 'Asking and growing']] : []),
+		...(data.ask ? [['ai', data.grow ? 'Asking and growing' : 'Asking']] : []),
 		...(data.reader?.signedIn ? [['account', 'Signing in and out']] : []),
 		['help', 'Help']
 	]);
@@ -355,8 +352,10 @@
 			<strong>Narrative</strong>: whether the reading follows the spine, or stays until you press
 			<kbd>S</kbd>.
 		</li>
-		{#if full}
-			<li><strong>Layout</strong>, and the models that ask and grow use.</li>
+		{#if data.ask}
+			<li>
+				<strong>Layout</strong>, and the model{data.grow ? 's that ask and grow use' : ' ask uses'}.
+			</li>
 		{/if}
 		<li>
 			<strong>Advanced</strong> holds <strong>Light brightness</strong> and
@@ -446,13 +445,24 @@
 		</li>
 	</ul>
 
-	{#if full}
+	{#if data.grow}
 		<h2 id="ai">Asking and growing</h2>
 		<p>
 			On this copy of kloom the AI pane can also answer a question about the frame you are on (Ask),
 			or write new frames and trails (Grow). Choose Ask or Grow, type, and send. An answer worth
 			keeping can be kept on its frame. Grown frames are reviewed before they become part of the
 			subject.
+		</p>
+	{:else if data.ask}
+		<h2 id="ai">Asking</h2>
+		<p>
+			Ken has turned on <strong>Ask</strong> for you. The AI pane, under the reading, answers a
+			question about the frame you are on: type it and press Ask. The answers are written by Claude,
+			an AI made by Anthropic, which Ken provides; they can be wrong, so check anything that matters
+			against the frame's sources. If an answer is wrong or strange, tell Ken, or note it on the
+			frame with <em>Agent review</em> ticked. <strong>Web</strong> lets Claude search the web for
+			that question. <strong>Keep this</strong> keeps an answer on its frame, under Q&amp;A. Questions
+			have a monthly allowance; if it runs out, Ask rests until the first of the next month.
 		</p>
 	{/if}
 

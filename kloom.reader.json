@@ -1,19 +1,11 @@
 {
 	"providers": [
 		{
-			"id": "cli",
-			"kind": "claude-cli",
-			"command": "claude",
-			"timeoutSeconds": 120,
-			"webTimeoutSeconds": 180
-		},
-		{
 			"id": "api",
 			"kind": "anthropic-api",
 			"timeoutSeconds": 120,
 			"webTimeoutSeconds": 180,
 			"keyEnv": "ANTHROPIC_API_KEY",
-			"keyFile": "/etc/khomelab/secrets.env",
 			"web": {
 				"searchMaxUses": 3,
 				"fetchMaxUses": 2,
@@ -23,27 +15,17 @@
 	],
 	"models": [
 		{
-			"id": "claude-sonnet-5-5",
-			"label": "Sonnet 5.5",
-			"provider": "cli"
-		},
-		{
-			"id": "claude-opus-5-5",
-			"label": "Opus 5.5",
-			"provider": "cli"
+			"id": "api:claude-haiku-4-5",
+			"label": "Haiku 4.5",
+			"provider": "api",
+			"model": "claude-haiku-4-5"
 		},
 		{
 			"id": "api:claude-sonnet-5-5",
-			"label": "Sonnet 5.5 · API",
+			"label": "Sonnet 5.5",
 			"provider": "api",
 			"model": "claude-sonnet-5-5",
 			"fallbacks": true
-		},
-		{
-			"id": "api:claude-haiku-4-5",
-			"label": "Haiku 4.5 · API",
-			"provider": "api",
-			"model": "claude-haiku-4-5"
 		}
 	],
 	"prices": {
@@ -90,12 +72,12 @@
 		}
 	},
 	"ask": {
-		"defaultModel": "claude-sonnet-5-5",
-		"web": "allow"
-	},
-	"grow": {
-		"defaultModel": "claude-opus-5-5",
-		"timeoutSeconds": 900,
-		"web": true
+		"defaultModel": "api:claude-haiku-4-5",
+		"web": "allow",
+		"caps": {
+			"readerUsd": 5,
+			"siteUsd": 15,
+			"nearShare": 0.8
+		}
 	}
 }

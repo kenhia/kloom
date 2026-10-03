@@ -1,6 +1,8 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { openAccounts, type Accounts } from '$lib/server/accounts';
-import { useAccounts } from '$lib/server/reader-store';
+import { useConfigPath } from '$lib/server/app-config';
+import { openAskLedger, type AskLedger } from '$lib/server/ask-ledger';
+import { useAccounts, useAskLedger } from '$lib/server/reader-store';
 import { SESSION_COOKIE } from '$lib/server/session';
 import { openReaderDb } from '$lib/server/sqlite-reader-store';
 import * as ask from './ask';
@@ -8,6 +10,7 @@ import * as grow from './grow';
 import { handle } from './hooks';
 import * as keep from './keep';
 import * as kept from './kept';
+import { aiOffer } from './offer';
 import { actions as signInActions, load as signInLoad } from './signin';
 import { actions as welcomeActions, load as welcomeLoad } from './welcome-link';
 
@@ -16,10 +19,17 @@ import { actions as welcomeActions, load as welcomeLoad } from './welcome-link';
 
 const SITE = 'https://kloom.example';
 let accounts: Accounts;
+let ledger: AskLedger;
 
 beforeEach(() => {
-	accounts = openAccounts(openReaderDb(':memory:'), { domain: 'kloom.example' });
+	const db = openReaderDb(':memory:');
+	accounts = openAccounts(db, { domain: 'kloom.example' });
+	ledger = openAskLedger(db);
 	useAccounts(accounts);
+	useAskLedger(ledger);
+	// The reader edition's own config: the API only, with caps (kloom.reader.json).
+	useConfigPath('kloom.reader.json');
+	return () => useConfigPath(null);
 });
 
 /** A cookie jar standing in for SvelteKit's. */
@@ -167,9 +177,87 @@ describe('the reader edition hook', () => {
 });
 
 describe('what the reader edition does not have', () => {
-	it('answers ask, grow, keep and kept answers with a 404', async () => {
-		for (const handler of [ask.POST, grow.GET, grow.POST, keep.POST, kept.GET, kept.DELETE])
+	it('answers grow with a 404, for everyone', async () => {
+		for (const handler of [grow.GET, grow.POST])
 			expect(await outcome(() => handler({} as never))).toMatchObject({ status: 404 });
+	});
+});
+
+describe('ask on the reader site (korg 3530)', () => {
+	const jkh = { login: 'jkh@kloom.example', name: 'Joel and Kathy', via: 'session' as const };
+	const asking = (reader: typeof jkh | null, body: object) => ({
+		request: new Request(`${SITE}/api/ask`, { method: 'POST', body: JSON.stringify(body) }),
+		locals: { reader } as App.Locals
+	});
+	const question = { subject: 'western-civ', frame: 'prometheus', question: 'Why fire?' };
+
+	it('answers ask, keep and kept answers with a 404 for a reader Ken has not given ask', async () => {
+		for (const reader of [null, jkh]) {
+			const e = asking(reader, question);
+			for (const handler of [ask.POST, keep.POST, kept.GET, kept.DELETE])
+				expect(await outcome(() => handler({ ...e, url: new URL(SITE) } as never))).toMatchObject({
+					status: 404
+				});
+			expect(await aiOffer(reader?.login ?? null)).toBeNull();
+		}
+	});
+
+	it('lets a reader with ask through to the question, and offers the API’s models and no grow', async () => {
+		ledger.allow(jkh.login, null);
+		expect(
+			await outcome(() => ask.POST(asking(jkh, { ...question, frame: 'no-such-frame' }) as never))
+		).toMatchObject({ status: 400 });
+		const offer = await aiOffer(jkh.login);
+		expect(offer).toMatchObject({
+			askModels: { default: 'api:claude-haiku-4-5' },
+			askWeb: 'allow',
+			growModels: null,
+			budget: { state: 'open' }
+		});
+		expect(offer!.askModels.choices.map((c) => c.label)).toEqual(['Haiku 4.5', 'Sonnet 5.5']);
+	});
+
+	const spend = (reader: string, usd: number) =>
+		ledger.log({
+			at: new Date().toISOString(),
+			reader,
+			subject: 'western-civ',
+			frame: 'fire',
+			provider: 'anthropic-api',
+			model: 'claude-haiku-4-5',
+			web: true,
+			inputTokens: 1,
+			outputTokens: 1,
+			cacheReadTokens: 0,
+			cacheWriteTokens: 0,
+			webSearches: 0,
+			webFetches: 0,
+			ms: 1,
+			usd,
+			outcome: 'done'
+		});
+
+	it('rests ask at the reader’s cap, gracefully: a budget event and no turn', async () => {
+		ledger.allow(jkh.login, 0.01);
+		spend(jkh.login, 0.011);
+		const res = (await ask.POST(asking(jkh, question) as never)) as Response;
+		expect(res.status).toBe(200);
+		const events = (await res.text())
+			.trim()
+			.split('\n')
+			.map((l) => JSON.parse(l));
+		expect(events).toEqual([
+			{ type: 'budget', budget: { state: 'resting', until: expect.stringMatching(/-01$/) } }
+		]);
+		expect((await aiOffer(jkh.login))?.budget?.state).toBe('resting');
+	});
+
+	it('rests it for everyone at the site’s cap, and says near past 80% of either', async () => {
+		ledger.allow(jkh.login, null);
+		spend(jkh.login, 4.1);
+		expect((await aiOffer(jkh.login))?.budget?.state).toBe('near');
+		spend('someone@kloom.example', 11);
+		expect((await aiOffer(jkh.login))?.budget?.state).toBe('resting');
 	});
 });
 

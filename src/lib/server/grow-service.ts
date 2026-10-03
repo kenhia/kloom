@@ -5,7 +5,7 @@ import { env } from '$env/dynamic/private';
 import type { GrowJob } from '$engine/ai/grow';
 import { keptAnswerProblems, type KeptAnswer } from '$engine/ai/kept';
 import { loadAppConfig } from './app-config';
-import { providerFor } from './ask';
+import { growProvider } from './ask';
 import { dataDir, listSubjects, namesDir, subjectDirFor } from './config';
 import { contentRepo, growBranch, offBranch, pushGrowBranch } from './content';
 import { GrowQueue, runGrowJob } from './grow';
@@ -117,7 +117,7 @@ async function runOne(
 		{
 			subjectDir: where.subjectDir ?? dir,
 			formatAs: where.subjectDir ? dir : undefined,
-			provider: providerFor(config),
+			provider: growProvider(config),
 			instructions: await readFile(resolve(INSTRUCTIONS), 'utf8'),
 			reference: Object.fromEntries(
 				Object.entries(REFERENCE).map(([to, from]) => [to, resolve(from)])

@@ -4,9 +4,6 @@
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
-
-	/** The public site (the reader edition) has no asking or growing (korg 3500). */
-	const full = __KLOOM_EDITION__ !== 'reader';
 </script>
 
 <!--
@@ -80,12 +77,20 @@
 		and has another way to report a problem.
 	</p>
 
-	{#if full}
+	{#if data.grow}
 		<h2>Asking and growing</h2>
 		<p>
 			On this copy of kloom the AI pane can also answer a question about the frame you are on (Ask),
 			or write new frames and trails (Grow). Grown frames are reviewed before they become part of
 			the subject.
+		</p>
+	{:else if data.ask}
+		<h2>Asking</h2>
+		<p>
+			Ken has turned on <strong>Ask</strong> for you: the AI pane, under the reading, answers a
+			question about the frame you are on. The answers come from Claude, an AI made by Anthropic,
+			which Ken provides, and they can be wrong. The
+			<a href={resolve('/guide')}>User's Guide</a> says more.
 		</p>
 	{/if}
 

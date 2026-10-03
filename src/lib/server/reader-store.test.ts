@@ -146,7 +146,9 @@ describe('what is new to a reader (korg 3525)', () => {
 		later.close();
 		// Back to sprint 041's schema, with the records kept.
 		const raw = new DatabaseSync(path);
-		raw.exec(`DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; PRAGMA user_version = 6;`);
+		raw.exec(
+			`DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; PRAGMA user_version = 6;`
+		);
 		raw.close();
 		const store = openReaderStore(path, settable('2026-10-03T09:00:00Z'));
 		expect(await store.readings(ken)).toEqual({
@@ -614,7 +616,7 @@ describe('the file', () => {
 		const raw = new DatabaseSync(path);
 		raw.exec(`ALTER TABLE note DROP COLUMN unseen;
 			DROP TABLE account; DROP TABLE session; DROP TABLE invite; DROP TABLE suggestion;
-			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity;
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access;
 			PRAGMA user_version = 3;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
@@ -635,7 +637,7 @@ describe('the file', () => {
 		// Back to sprint 034's schema, before the reader edition's sign-in.
 		const raw = new DatabaseSync(path);
 		raw.exec(`DROP TABLE account; DROP TABLE session; DROP TABLE invite; DROP TABLE suggestion;
-			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity;
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access;
 			PRAGMA user_version = 4;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
@@ -656,12 +658,32 @@ describe('the file', () => {
 		// Back to sprint 039's schema, the one the public site first shipped with.
 		const raw = new DatabaseSync(path);
 		raw.exec(`DROP TABLE suggestion;
-			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; PRAGMA user_version = 5;`);
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; PRAGMA user_version = 5;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
 		expect((await store.allNotes(ken)).map((x) => x.text)).toEqual(['kept']);
 		expect(await store.suggestions(ken)).toEqual([]);
 		store.close();
+	});
+
+	it('moves a file made at schema 7 forward: the ask ledger arrives, the readers stay (sprint 046)', async () => {
+		dir = mkdtempSync(join(tmpdir(), 'kloom-reader-'));
+		const path = join(dir, 'reader.db');
+		const before = openReaderStore(path, clock());
+		await before.saveNote(ken, note('turing', 'kept'));
+		before.close();
+		// Back to sprint 043's schema, the one the public site ran before ask.
+		const raw = new DatabaseSync(path);
+		raw.exec(`DROP TABLE ask_cost; DROP TABLE ask_access; PRAGMA user_version = 7;`);
+		raw.close();
+		const store = openReaderStore(path, clock());
+		expect((await store.allNotes(ken)).map((x) => x.text)).toEqual(['kept']);
+		store.close();
+		const after = new DatabaseSync(path);
+		expect(after.prepare('SELECT count(*) AS n FROM ask_cost').get()).toEqual({ n: 0 });
+		expect(after.prepare('SELECT count(*) AS n FROM ask_access').get()).toEqual({ n: 0 });
+		expect(after.prepare('PRAGMA user_version').get()).toEqual({ user_version: SCHEMA_VERSION });
+		after.close();
 	});
 
 	it('refuses a file from a newer app rather than guess at its schema', () => {

@@ -1,10 +1,10 @@
 <script lang="ts">
 	// Escape anywhere in this pane returns to the spine; the shell handles it.
-	import { onMount } from 'svelte';
+	import { onMount, untrack } from 'svelte';
 	import { readAskStream } from '../ai/client';
 	import { aiVerbs, isGrow, type AiVerb } from '../ai/control';
 	import type { GrowJob } from '../ai/grow';
-	import type { AiOffer } from '../ai/provider';
+	import type { AiOffer, AskBudget } from '../ai/provider';
 	import { renderMarkdown } from '../markdown';
 	import type { FrameHead, Trail } from '../model';
 	import { ASK_MODEL, GROW_MODEL, type Layout } from '../settings';
@@ -56,7 +56,7 @@
 		onkept
 	}: Props = $props();
 
-	type Phase = 'asking' | 'queued' | 'answering' | 'done' | 'stopped' | 'failed';
+	type Phase = 'asking' | 'queued' | 'answering' | 'done' | 'stopped' | 'failed' | 'resting';
 
 	/**
 	 * One question and its answer. It keeps the frame it was asked about, so
@@ -81,6 +81,29 @@
 	let includeWeb = $derived(offer.web === 'allow');
 	let turn = $state<Turn | null>(null);
 	let status = $state('');
+	/**
+	 * A capped reader's month (the reader site, korg 3530): near the cap a
+	 * gentle notice, at it ask rests until the first of next month. Never an
+	 * error; the page's offer brings it, and each answer updates it.
+	 */
+	let budget = $state<AskBudget | undefined>(untrack(() => offer.budget));
+	const resting = $derived(budget?.state === 'resting');
+	const restDate = $derived(
+		budget
+			? new Date(`${budget.until}T12:00:00Z`).toLocaleDateString(undefined, {
+					day: 'numeric',
+					month: 'long',
+					timeZone: 'UTC'
+				})
+			: ''
+	);
+	const budgetNote = $derived(
+		budget?.state === 'resting'
+			? `Ask is resting until ${restDate}: this month’s questions are used up.`
+			: budget?.state === 'near'
+				? `Ask is nearly at this month’s limit; it rests from then until ${restDate}.`
+				: ''
+	);
 	let controller: AbortController | null = null;
 
 	const running = $derived(
@@ -148,9 +171,21 @@
 					mine.phase = 'queued';
 					status = 'Waiting for another question to finish…';
 				} else if (e.type === 'status') {
-					// Anything before a search was the model thinking aloud.
+					// Anything before a search, or a fallback, was not the answer.
 					mine.text = '';
-					status = `${mine.model} is searching the web…`;
+					status =
+						e.status === 'retrying'
+							? `${mine.model} is answering again…`
+							: `${mine.model} is searching the web…`;
+				} else if (e.type === 'budget') {
+					budget = e.budget;
+					if (e.budget.state === 'resting' && mine.phase === 'asking') {
+						// Nothing was asked: the question goes back in the box for next month.
+						mine.phase = 'resting';
+						turn = null;
+						text ||= mine.question;
+						status = budgetNote;
+					}
 				} else if (e.type === 'text') {
 					if (mine.phase !== 'answering') status = `${mine.model} is answering…`;
 					mine.phase = 'answering';
@@ -162,6 +197,7 @@
 				} else if (e.type === 'error') fail(e.message);
 			});
 			if (['asking', 'queued', 'answering'].includes(mine.phase)) fail('The answer was cut off.');
+			if (mine.phase === 'done' && budget?.state === 'near') status = `Answer ready. ${budgetNote}`;
 		} catch (e) {
 			fail(`Asking failed: ${(e as Error).message}`);
 		}
@@ -172,7 +208,7 @@
 		if (isGrow(verb)) return queueGrow();
 		if (running) return stop();
 		const q = text.trim();
-		if (!q) return;
+		if (!q || resting) return;
 		text = '';
 		ask(q);
 	}
@@ -197,7 +233,9 @@
 			if (!res.ok) throw new Error(body?.message ?? `status ${res.status}`);
 			t.kept = 'kept';
 			onkept?.(t.frame);
-			status = 'Kept, in the frame’s Q&A. Grow can turn it into content.';
+			status = offer.grow
+				? 'Kept, in the frame’s Q&A. Grow can turn it into content.'
+				: 'Kept, in the frame’s Q&A.';
 		} catch (e) {
 			t.kept = 'no';
 			status = `Could not keep it: ${(e as Error).message}`;
@@ -268,6 +306,8 @@
 
 	/** Fetch the job list; announce what finished since last time, and keep polling while any runs. */
 	async function refreshJobs(first = false) {
+		// Grow is not in the reader edition's build (korg 3500): this folds away there.
+		if (__KLOOM_EDITION__ === 'reader') return;
 		clearTimeout(poll);
 		let next: GrowJob[];
 		try {
@@ -295,6 +335,7 @@
 	}
 
 	async function queueGrow() {
+		if (__KLOOM_EDITION__ === 'reader') return;
 		const request = text.trim();
 		if (growing || !isGrow(verb) || (!request && !growKept)) return;
 		growing = true;
@@ -448,10 +489,15 @@
 			{#if isGrow(verb)}
 				<button type="submit" class="grow" disabled={growing}>{current.send}</button>
 			{:else}
-				<button type="submit">{running ? 'Stop' : current.send}</button>
+				<button type="submit" disabled={resting && !running}
+					>{running ? 'Stop' : current.send}</button
+				>
 			{/if}
 		</div>
 	</form>
+	{#if budgetNote && !isGrow(verb)}
+		<p class="note budget">{budgetNote}</p>
+	{/if}
 	{#if isGrow(verb)}
 		<p class="note grow-note">
 			Grow queues a job on {modelLabel(settings.get(GROW_MODEL) ?? '', GROW_MODEL)} that writes new content

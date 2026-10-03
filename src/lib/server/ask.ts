@@ -1,13 +1,14 @@
 import { randomBytes } from 'node:crypto';
-import { ClaudeCliProvider } from '$engine/ai/claude-cli';
+import { makeProvider } from '$edition/providers';
 import { answerId, keptAnswer, type Answer, type KeptAnswer } from '$engine/ai/kept';
 import { webReferences } from '$engine/ai/prompt';
 import { pinWikipedia, wikipediaArticle, type Fetch } from '$engine/ai/wikipedia';
 import type { Citation } from '$engine/model';
-import type { AskContext, AskStreamEvent, Provider } from '$engine/ai/provider';
+import type { AskContext, AskStreamEvent, AskUsage, Provider } from '$engine/ai/provider';
 import type { ReaderStore } from '$engine/reader-data';
 import { QueueFull, TurnQueue } from '$engine/ai/queue';
-import type { AppConfig } from './app-config';
+import { modelId, type AppConfig, type AskCaps, type ModelEntry, type Prices } from './app-config';
+import { askCostUsd, standing, usageColumns, type AskLedger } from './ask-ledger';
 
 /**
  * The server side of ask (docs/design.md §Ask): one turn at a time, the
@@ -20,21 +21,25 @@ export const MAX_QUESTION = 2000;
 
 export const queue = new TurnQueue(1, 3);
 
-let cached: { key: string; provider: Provider } | null = null;
+const cached = new Map<string, { key: string; provider: Provider }>();
 
-/** The provider the app config names; rebuilt only when that part changes. */
-export function providerFor(config: AppConfig): Provider {
-	const key = JSON.stringify(config.provider);
-	if (cached?.key !== key)
-		cached = {
-			key,
-			provider: new ClaudeCliProvider({
-				command: config.provider.command,
-				timeoutMs: config.provider.timeoutSeconds * 1000,
-				webTimeoutMs: (config.provider.webTimeoutSeconds ?? 180) * 1000
-			})
-		};
-	return cached.provider;
+/**
+ * The provider that runs a model entry, as the app config describes it;
+ * each is rebuilt only when its part of the config changes.
+ */
+export function providerFor(config: AppConfig, entry: ModelEntry): Provider {
+	const p = config.providers.find((x) => x.id === entry.provider)!;
+	const fallbacks = config.models.filter((m) => m.provider === p.id && m.fallbacks).map(modelId);
+	const key = JSON.stringify([p, fallbacks]);
+	let c = cached.get(p.id);
+	if (c?.key !== key) cached.set(p.id, (c = { key, provider: makeProvider(p, config) }));
+	return c.provider;
+}
+
+/** Grow's provider: `claude -p` (the config checks grow's models are on it). */
+export function growProvider(config: AppConfig): Provider {
+	const id = config.models.find((m) => m.id === config.grow?.defaultModel)?.provider;
+	return providerFor(config, { id: '', label: '', provider: id ?? config.providers[0].id });
 }
 
 /** Finished answers, newest last; the oldest go first, and after an hour. */
@@ -67,6 +72,7 @@ export interface AskTurn {
 	subject: string;
 	context: AskContext;
 	question: string;
+	/** The model id the provider is given. */
 	model: string;
 	/** Already checked against the app config (`resolveWeb`). */
 	web?: boolean;
@@ -75,6 +81,12 @@ export interface AskTurn {
 	answers: RecentAnswers;
 	signal: AbortSignal;
 	now?: () => Date;
+	/**
+	 * Where a turn that reports its usage is logged, priced from `prices`
+	 * (docs/design.md §Ask costs), and who asked. With `caps`, the reader's
+	 * standing follows the answer.
+	 */
+	cost?: { ledger: AskLedger; prices: Prices; reader: string; caps?: AskCaps };
 }
 
 /** Run one turn as wire events. A complete answer is remembered for keeping. */
@@ -93,6 +105,9 @@ export async function* askEvents(t: AskTurn): AsyncIterable<AskStreamEvent> {
 	}
 
 	let text = '';
+	let usage: AskUsage | null = null;
+	let outcome = 'done';
+	const started = performance.now();
 	try {
 		for await (const event of t.provider.ask({
 			context: t.context,
@@ -101,14 +116,24 @@ export async function* askEvents(t: AskTurn): AsyncIterable<AskStreamEvent> {
 			web: t.web ?? false,
 			signal: t.signal
 		})) {
+			// What it cost stays on the server.
+			if (event.type === 'usage') {
+				usage = event.usage;
+				continue;
+			}
 			yield event;
-			if (event.type === 'error') return;
+			if (event.type === 'error') {
+				outcome = event.declined ? 'declined' : 'failed';
+				return;
+			}
 			// Text before a search was thinking aloud; the answer starts after it.
 			if (event.type === 'status') text = '';
 			else text += event.text;
 		}
 	} finally {
 		release();
+		if (t.signal.aborted && outcome === 'done') outcome = 'stopped';
+		if (usage && t.cost) logCost(t, askedAt, usage, performance.now() - started, outcome);
 	}
 	if (t.signal.aborted) return;
 	if (!text.trim()) {
@@ -126,7 +151,33 @@ export async function* askEvents(t: AskTurn): AsyncIterable<AskStreamEvent> {
 		askedAt: askedAt.toISOString(),
 		web: t.web ?? false
 	});
+	if (t.cost?.caps) {
+		const { state, until } = standing(t.cost.ledger, t.cost.reader, t.cost.caps, t.now?.());
+		yield { type: 'budget', budget: { state, until } };
+	}
 	yield { type: 'done' };
+}
+
+/** One row in the cost log; a failure to write it is reported, never the reader's problem. */
+function logCost(t: AskTurn, at: Date, usage: AskUsage, ms: number, outcome: string) {
+	const { ledger, prices, reader } = t.cost!;
+	try {
+		ledger.log({
+			at: at.toISOString(),
+			reader,
+			subject: t.subject,
+			frame: t.context.frame.id,
+			provider: t.provider.name,
+			model: t.model,
+			web: t.web ?? false,
+			...usageColumns(usage),
+			ms,
+			usd: askCostUsd(usage, prices),
+			outcome
+		});
+	} catch (e) {
+		console.error('ask: could not log the cost', e);
+	}
 }
 
 /** NDJSON over a byte stream; cancelling it (the reader went away) aborts the turn. */

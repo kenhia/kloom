@@ -5,9 +5,10 @@
 //
 //   node create-tools/reader-gate/reader_gate.mjs [--no-build] [--out DIR]
 //
-// It looks by category, not by route: ask (the providers and their
-// config), grow, keep (kept answers), and editor-only (building the library,
-// syncing the content clone). Each category is a list of markers, a string
+// It looks by category, not by route: `claude -p` (the CLI provider), grow,
+// and editor-only (building the library, syncing the content clone, moving
+// kept-answer files). Ask and keep are in the reader edition since sprint
+// 046, on the Claude API only, for readers Ken allows (korg 3530). Each category is a list of markers, a string
 // that one module's source holds and its build output keeps. A marker no
 // longer in its source fails the gate too, so a rename cannot quietly turn
 // a check into one that always passes. A new editor-only control adds its
@@ -29,36 +30,30 @@ const noBuild = args.includes('--no-build');
 const outAt = args.indexOf('--out');
 const out = resolve(root, outAt >= 0 ? args[outAt + 1] : 'build-reader');
 
-/** What the reader edition must not hold: category → [source file, marker]. */
+/**
+ * What the reader edition must not hold: category → [source file, marker].
+ * Since sprint 046 (korg 3530) it holds ask and keep, on the Claude API, for
+ * the readers Ken gives them; `claude -p`, grow and the editor's tools stay
+ * out, and so does the full edition's way of choosing a provider.
+ */
 export const MARKERS = {
-	ask: [
+	'claude -p': [
 		['engine/ai/claude-cli.ts', '--output-format'],
-		['src/lib/server/ask.ts', 'ask failed'],
-		['engine/ai/wikipedia.ts', '/w/api.php?'],
-		['src/lib/server/app-config.ts', 'kloom.config.json']
+		['engine/ai/claude-cli.ts', '--strict-mcp-config']
 	],
 	grow: [
 		['src/lib/server/grow.ts', 'grow@kloom.local'],
 		['src/lib/server/grow-service.ts', 'grow: could not read the kept answer']
 	],
-	keep: [
-		['src/lib/server/kept-files.ts', 'kept-migrated'],
-		['src/lib/edition/full/keep.ts', 'That answer is no longer held'],
-		['src/lib/edition/full/kept.ts', 'A kept answer id is required.']
-	],
 	'editor-only': [
 		['src/lib/server/subject.ts', 'content: built '],
-		['src/lib/server/content.ts', 'the content clone has uncommitted changes']
+		['src/lib/server/content.ts', 'the content clone has uncommitted changes'],
+		['src/lib/server/kept-files.ts', 'kept-migrated']
 	]
 };
 
-/** What the reader's browser must never be sent: the AI pane's requests and kept answers'. */
-export const CLIENT_MARKERS = [
-	['engine/ui/AiPane.svelte', "'/api/ask'", '/api/ask'],
-	['engine/ui/AiPane.svelte', "'/api/grow'", '/api/grow'],
-	['engine/ui/AiPane.svelte', "'/api/keep'", '/api/keep'],
-	['src/routes/[subject]/[[frame]]/+page.svelte', "'/api/reader/kept'", '/api/reader/kept']
-];
+/** What the reader's browser must never be sent: the AI pane's grow requests. */
+export const CLIENT_MARKERS = [['engine/ui/AiPane.svelte', "'/api/grow'", '/api/grow']];
 
 const problems = [];
 

@@ -19,6 +19,7 @@
 		"test": "npm run test:unit -- --run"
 	},
 	"dependencies": {
+		"@anthropic-ai/sdk": "^0.131.0",
 		"3d-force-graph": "^1.80.1",
 		"d3-force": "^3.0.0",
 		"marked": "^18.0.14",

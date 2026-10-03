@@ -86,6 +86,7 @@ reader-gate:
 serve-reader port="8080": build-reader
     KLOOM_EDITION=reader PORT={{ port }} HOST=127.0.0.1 ORIGIN=http://127.0.0.1:{{ port }} \
         KLOOM_PUBLIC_URL=http://127.0.0.1:{{ port }} KLOOM_CONTENT_DB="$PWD/data/content.db" \
+        KLOOM_CONFIG="$PWD/kloom.reader.json" \
         KLOOM_MEDIA_DIR="$PWD/subjects" node serve.js
 
 # The reader edition's admin (admin.mjs): add, invite, disable, enable, list,
@@ -206,6 +207,14 @@ ask-eval *args:
     node bench/ask-eval/judge.mjs
     node bench/ask-eval/report.mjs
 
+# What API asks cost (korg 3529), from the cost log in the service's
+# reader.db on this host: count, total, mean, p50 and p90 per ask, cost per
+# 1k output tokens and the web's share, per model. `--since DATE`, `--until
+# DATE`, `--reader R`, `--model M`, `--json`. The public site's: public-ask-costs.
+# Report the cost per API ask
+ask-costs *args:
+    node --disable-warning=ExperimentalWarning admin.mjs --data "{{ home }}/data" ask-costs {{ args }}
+
 # The library's size: words, the book they would make, and what else it holds
 stats:
     #!/usr/bin/env bash
@@ -321,7 +330,8 @@ publish-public:
     echo "$(date -u +%Y-%m-%dT%H:%MZ) $release commit $commit $(cat build-public/LIBRARY)" | tee -a "{{ public_home }}/publishes.log"
 
 # The public site as a stranger and as a reader sees it: TLS and HSTS, the
-# sign-in wall, robots, ask/grow/keep gone, compression, the library build, and that
+# sign-in wall, robots, grow gone and ask/keep gone for a reader without ask,
+# compression, the library build, the ask spend report (korg 3530), and that
 # Fly's proxy overwrites a Fly-Client-IP a client sends; then reports readers'
 # notes the library has left detached. Signs in as the
 # `kloom-verify` reader (a fresh welcome link each run, disabled after). The
@@ -356,11 +366,13 @@ verify-public:
     pw="$(head -c 18 /dev/urandom | base64 | tr -d '/+=')"
     curl -s -o /dev/null -c "$jar" -H "origin: $url" --data-urlencode "password=$pw" --data-urlencode "confirm=$pw" "$link"
     check "a welcome link signs the reader in" "$(code -b "$jar" "$url/api/stats")" 200
+    # kloom-verify is never given ask, so ask and keep are 404 for it as for
+    # anyone Ken has not allowed; grow is 404 for everyone.
     for p in ask grow keep; do
-        check "ask, grow and keep are gone: $p" \
+        check "grow, and ask and keep without ask, are 404: $p" \
             "$(code -b "$jar" -X POST -H "origin: $url" -H 'content-type: application/json' -d '{}' "$url/api/$p")" 404
     done
-    check "kept answers are gone" "$(code -b "$jar" "$url/api/reader/kept?subject=western-civ")" 404
+    check "kept answers are 404 without ask" "$(code -b "$jar" "$url/api/reader/kept?subject=western-civ")" 404
     check "pages go compressed" \
         "$(curl -s -o /dev/null -b "$jar" -H 'accept-encoding: br' -w '%header{content-encoding}' "$url/western-civ")" br
     check "HSTS, a year, this host only: a reader's page" "$(hsts -b "$jar" "$url/western-civ")" "max-age=31536000"
@@ -389,6 +401,10 @@ verify-public:
 
     echo "library: $build"
 
+    # The month's ask spend against the caps (korg 3530): the report kmon reads.
+    if usage="$(admin ask-usage --json)" && echo "$usage" | node -e "const u=JSON.parse(require('fs').readFileSync(0,'utf8')); if (typeof u.site?.spentUsd!=='number') process.exit(1); console.log('ask: ' + u.month + ' \$' + u.site.spentUsd.toFixed(2) + ' of \$' + u.site.capUsd + ', ' + u.site.asks + ' asks, ' + u.readers.filter((r) => r.allowed).length + ' reader(s) with ask')"; then :
+    else echo "FAIL the ask spend report: $usage"; fail=1; fi
+
     # Readers' notes against this library (korg 3504): a note whose frame, or
     # annotation whose words, it no longer has is reported, never dropped.
     # Its reader sees it as detached in My notes; this is so Ken does too.
@@ -407,6 +423,36 @@ readers:
 # Disable a public reader: their sessions end
 disable-reader username:
     {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning /app/admin.mjs --data /data disable {{ username }}"
+
+# Ask on the public site (korg 3530): `enable <reader> [--cap USD]` gives a
+# reader ask at the configured cap ($5) or their own; `disable <reader>`
+# takes it away; `list`. Everyone else sees no ask at all.
+# Give a public reader ask, or take it away
+reader-ask action *args:
+    {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning /app/admin.mjs --data /data reader-ask {{ action }} {{ args }}"
+
+# This month's spend on the public site, per reader and site-wide, each with
+# its cap (kloom.reader.json): `--json` is the report kmon collects (korg
+# 3533), `--month YYYY-MM` another month.
+# The public site's ask spend against its caps
+ask-usage *args:
+    {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning /app/admin.mjs --data /data ask-usage {{ args }}"
+
+# Cost per API ask from the public site's cost log (`ask-costs`' options)
+public-ask-costs *args:
+    {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning /app/admin.mjs --data /data ask-costs {{ args }}"
+
+# The public site's Claude API key (korg 3530), from k-homelab's age store
+# entry anthropic-api-key-reader on kubs0 straight into the app's Fly secret
+# ANTHROPIC_API_KEY, staged for the next deploy. Never printed, never in a
+# file here.
+# Set the public site's API key from the age store
+public-ask-key:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    { printf 'ANTHROPIC_API_KEY='; ssh kubs0 'cd ~/k-homelab && bin/secret get anthropic-api-key-reader' | tr -d '\n'; echo; } \
+        | {{ fly }} secrets import -a {{ fly_app }} --stage
+    {{ fly }} secrets list -a {{ fly_app }}
 
 # A consistent copy of the site's reader.db (node:sqlite's backup, on the
 # machine), fetched to public/reader-YYYYMMDD-HHMM.db here: the backup beyond
