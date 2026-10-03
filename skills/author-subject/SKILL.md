@@ -324,7 +324,13 @@ As each author reports:
    parts land out of the planned order, commit the owner's draft of the
    name with whichever part needs it first, still the owner's, and say so
    in the record.
-6. **Connections between the authors' frames** wait for review: each
+6. **A frame already committed is published.** Revising one later in the
+   run, or another subject's frame (a neighbour the new subject corrects),
+   means a fact, date, attribution, quotation or source changed, or a
+   section rewritten: add an entry to its `edits`, as
+   `skills/grow/SKILL.md` §Edits and corrections says. Adding a connection
+   or a name mark is not an edit.
+7. **Connections between the authors' frames** wait for review: each
    author lists the ones they want in this subject, and the reviewer adds
    them once both ends are committed, checking each _why_ against a
    reading. Sprint 021 added 45 this way.

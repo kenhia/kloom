@@ -27,7 +27,7 @@ export const AHEAD = 2;
 /** A frame's head: everything but its body. */
 export function headOf(frame: Frame): FrameHead {
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
-	const { citations, sources, readingHtml, svg, ...head } = frame;
+	const { citations, sources, readingHtml, svg, edits, ...head } = frame;
 	return head;
 }
 
@@ -36,7 +36,8 @@ export const bodyOf = (frame: Frame): FrameBody => ({
 	citations: frame.citations,
 	sources: frame.sources,
 	readingHtml: frame.readingHtml,
-	svg: frame.svg
+	svg: frame.svg,
+	edits: frame.edits
 });
 
 /** A whole subject as its page carries it: the same, with every frame cut to its head. */
@@ -51,6 +52,7 @@ export const PENDING: ServedBody = {
 	sources: [],
 	readingHtml: '',
 	svg: null,
+	edits: [],
 	links: { connections: [], names: {} }
 };
 

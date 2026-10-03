@@ -36,7 +36,13 @@ describe('an export file', () => {
 	});
 
 	it('reads a version 1 file as one with no notes or kept answers', () => {
-		expect(parseExport(good)).toMatchObject({ version: 3, notes: [], kept: [] });
+		expect(parseExport(good)).toMatchObject({
+			version: 4,
+			notes: [],
+			kept: [],
+			readings: [],
+			seen: []
+		});
 	});
 
 	it('reads version 2’s notes, and refuses a bad one', () => {
@@ -97,7 +103,10 @@ describe('an export file', () => {
 
 	it('refuses something that is not an export, or a version it does not know', () => {
 		expect(parseExport([])).toMatchObject({ error: 'not a kloom reader-data export' });
-		expect(parseExport({ ...good, version: 4 })).toEqual({ error: 'unknown version 4' });
+		expect(parseExport({ ...good, version: 5 })).toEqual({ error: 'unknown version 5' });
+		expect(parseExport({ ...good, version: 4, notes: [], kept: [] })).toEqual({
+			error: 'readings and seen must be lists'
+		});
 		expect(parseExport({ ...good, places: 'x' })).toMatchObject({ error: /lists/ });
 	});
 });

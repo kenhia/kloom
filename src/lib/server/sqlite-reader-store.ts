@@ -8,9 +8,11 @@ import type {
 	Note,
 	Place,
 	ReaderExport,
+	Reading,
 	ReaderStore,
 	ReviewNote,
 	ReviewSuggestion,
+	SeenFrame,
 	Suggestion
 } from '$engine/reader-data';
 import type { KeptAnswer } from '$engine/ai/kept';
@@ -122,8 +124,54 @@ const MIGRATIONS = [
 		updated TEXT NOT NULL,
 		PRIMARY KEY (reader, id)
 	);
-	CREATE INDEX suggestion_status ON suggestion (status, created);`
+	CREATE INDEX suggestion_status ON suggestion (status, created);`,
+	// Sprint 043: what's new to a reader (korg 3525). Each subject's first
+	// visit and the watermark "I'm caught up" sets, the frames they have
+	// opened or marked seen, and when they were last active, for "since my
+	// last visit". Readers from before it are taken to have started a subject
+	// with their earliest record in it, and to have opened every frame they
+	// placed, bookmarked, wrote on or kept an answer on.
+	`CREATE TABLE reading (
+		reader TEXT NOT NULL,
+		subject TEXT NOT NULL,
+		first TEXT NOT NULL,
+		caught_up TEXT,
+		PRIMARY KEY (reader, subject)
+	);
+	CREATE TABLE seen (
+		reader TEXT NOT NULL,
+		subject TEXT NOT NULL,
+		frame TEXT NOT NULL,
+		at TEXT NOT NULL,
+		PRIMARY KEY (reader, subject, frame)
+	);
+	CREATE TABLE activity (
+		reader TEXT PRIMARY KEY,
+		active TEXT NOT NULL,
+		previous TEXT
+	);
+	INSERT INTO reading (reader, subject, first)
+		SELECT reader, subject, min(at) FROM (
+			SELECT reader, subject, at FROM place
+			UNION ALL SELECT reader, subject, at FROM bookmark
+			UNION ALL SELECT reader, subject, created FROM note
+			UNION ALL SELECT reader, subject, kept_at FROM kept
+		) GROUP BY reader, subject;
+	INSERT INTO seen (reader, subject, frame, at)
+		SELECT reader, subject, frame, min(at) FROM (
+			SELECT reader, subject, frame, at FROM place
+			UNION ALL SELECT reader, subject, frame, at FROM bookmark
+			UNION ALL SELECT reader, subject, frame, created FROM note
+			UNION ALL SELECT reader, subject, frame, kept_at FROM kept
+		) GROUP BY reader, subject, frame;
+	INSERT INTO activity (reader, active) SELECT reader, max(at) FROM place GROUP BY reader;`
 ];
+
+/**
+ * A pause this long between moves ends a visit (korg 3525): "since my last
+ * visit" counts from the end of the one before.
+ */
+export const VISIT_GAP_MS = 2 * 60 * 60 * 1000;
 
 export const SCHEMA_VERSION = MIGRATIONS.length;
 
@@ -293,6 +341,47 @@ export function openReaderStore(
 	);
 	const dropKept = db.prepare('DELETE FROM kept WHERE reader = ? AND subject = ? AND id = ?');
 
+	// What's new (korg 3525): first visits, watermarks, what was opened, and activity.
+	const startReading = db.prepare(
+		`INSERT INTO reading (reader, subject, first) VALUES (?, ?, ?)
+		 ON CONFLICT (reader, subject) DO NOTHING`
+	);
+	const putReading = db.prepare(
+		`INSERT INTO reading (reader, subject, first, caught_up) VALUES (?, ?, ?, ?)
+		 ON CONFLICT (reader, subject) DO UPDATE
+		 SET first = min(reading.first, excluded.first),
+		 caught_up = CASE
+			WHEN excluded.caught_up IS NULL THEN reading.caught_up
+			WHEN reading.caught_up IS NULL THEN excluded.caught_up
+			ELSE max(reading.caught_up, excluded.caught_up) END`
+	);
+	const readingOf = db.prepare(
+		'SELECT first, caught_up AS caughtUp FROM reading WHERE reader = ? AND subject = ?'
+	);
+	const readingsOf = db.prepare(
+		'SELECT subject, first, caught_up AS caughtUp FROM reading WHERE reader = ? ORDER BY subject'
+	);
+	const catchUp = db.prepare('UPDATE reading SET caught_up = ? WHERE reader = ? AND subject = ?');
+	const putSeen = db.prepare(
+		`INSERT INTO seen (reader, subject, frame, at) VALUES (?, ?, ?, ?)
+		 ON CONFLICT (reader, subject, frame) DO UPDATE SET at = min(seen.at, excluded.at)`
+	);
+	const seenOf = db.prepare(
+		'SELECT subject, frame, at FROM seen WHERE reader = ? ORDER BY subject, frame'
+	);
+	const activityOf = db.prepare('SELECT active, previous FROM activity WHERE reader = ?');
+	const putActivity = db.prepare(
+		`INSERT INTO activity (reader, active, previous) VALUES (?, ?, ?)
+		 ON CONFLICT (reader) DO UPDATE SET active = excluded.active, previous = excluded.previous`
+	);
+	/** A move at `at`: a gap long enough since the last one starts a new visit. */
+	const touch = (reader: string, at: string) => {
+		const a = activityOf.get(reader) as { active: string; previous: string | null } | undefined;
+		if (a && Date.parse(at) < Date.parse(a.active)) return;
+		const ended = a && Date.parse(at) - Date.parse(a.active) > VISIT_GAP_MS;
+		putActivity.run(reader, at, ended ? a.active : (a?.previous ?? null));
+	};
+
 	const stamp = () => now().toISOString();
 	const row = <T>(r: unknown) => (r ? ({ ...(r as object) } as T) : null);
 	/** A note row: its anchor is stored as JSON, and unseen as 0 or 1. */
@@ -333,12 +422,55 @@ export function openReaderStore(
 		bookmark: db.prepare('DELETE FROM bookmark WHERE reader = ?'),
 		note: db.prepare('DELETE FROM note WHERE reader = ?'),
 		kept: db.prepare('DELETE FROM kept WHERE reader = ?'),
-		suggestion: db.prepare('DELETE FROM suggestion WHERE reader = ?')
+		suggestion: db.prepare('DELETE FROM suggestion WHERE reader = ?'),
+		reading: db.prepare('DELETE FROM reading WHERE reader = ?'),
+		seen: db.prepare('DELETE FROM seen WHERE reader = ?'),
+		activity: db.prepare('DELETE FROM activity WHERE reader = ?')
 	};
 
 	return {
 		async visit(reader, p) {
-			putPlace.run(reader, p.subject, p.frame, p.label, stamp());
+			const at = stamp();
+			inTransaction(() => {
+				putPlace.run(reader, p.subject, p.frame, p.label, at);
+				// Being on a frame opens it, and the first visit to a subject starts it.
+				startReading.run(reader, p.subject, at);
+				putSeen.run(reader, p.subject, p.frame, at);
+				touch(reader, at);
+			});
+		},
+		async readings(reader) {
+			const out: Record<string, Reading> = {};
+			for (const r of readingsOf.all(reader) as unknown as ({ subject: string } & Reading)[])
+				out[r.subject] = { first: r.first, caughtUp: r.caughtUp };
+			return out;
+		},
+		async seenFrames(reader) {
+			const out: Record<string, string[]> = {};
+			for (const r of seenOf.all(reader) as { subject: string; frame: string }[])
+				(out[r.subject] ??= []).push(r.frame);
+			return out;
+		},
+		async markSeen(reader, subject, frames) {
+			const at = stamp();
+			inTransaction(() => {
+				for (const f of frames) putSeen.run(reader, subject, f, at);
+			});
+		},
+		async catchUp(reader, subject) {
+			const at = stamp();
+			return inTransaction(() => {
+				startReading.run(reader, subject, at);
+				catchUp.run(at, reader, subject);
+				const r = readingOf.get(reader, subject) as unknown as Reading;
+				return { first: r.first, caughtUp: r.caughtUp };
+			});
+		},
+		async lastVisit(reader) {
+			const a = activityOf.get(reader) as { active: string; previous: string | null } | undefined;
+			if (!a) return null;
+			// Away long enough, the visit that ended is the last one; otherwise this one goes on.
+			return now().getTime() - Date.parse(a.active) > VISIT_GAP_MS ? a.active : a.previous;
 		},
 		async lastVisited(reader, subject) {
 			return row<Place>(subject ? placeIn.get(reader, subject) : lastPlace.get(reader));
@@ -448,13 +580,17 @@ export function openReaderStore(
 		async exportData(reader): Promise<ReaderExport> {
 			return {
 				kloom: 'reader-data',
-				version: 3,
+				version: 4,
 				reader,
 				exported: stamp(),
 				places: places.all(reader).map((r) => row<Place>(r)!),
 				bookmarks: marks.all(reader).map((r) => row<Bookmark>(r)!),
 				notes: allNotes.all(reader).map((r) => note<Note>(r)!),
-				kept: allKept.all(reader).map(kept)
+				kept: allKept.all(reader).map(kept),
+				readings: (readingsOf.all(reader) as unknown as ({ subject: string } & Reading)[]).map(
+					(r) => ({ subject: r.subject, first: r.first, caughtUp: r.caughtUp })
+				),
+				seen: seenOf.all(reader).map((r) => row<SeenFrame>(r)!)
 			};
 		},
 		async importData(reader, data) {
@@ -477,21 +613,37 @@ export function openReaderStore(
 						n.updated
 					);
 				for (const k of data.kept) storeKept(reader, k.answer, k.grown);
+				// The earlier first visit and the later watermark win; seen only grows.
+				for (const r of data.readings) putReading.run(reader, r.subject, r.first, r.caughtUp);
+				for (const f of data.seen) putSeen.run(reader, f.subject, f.frame, f.at);
 			});
 			return {
 				places: data.places.length,
 				bookmarks: data.bookmarks.length,
 				notes: data.notes.length,
-				kept: data.kept.length
+				kept: data.kept.length,
+				readings: data.readings.length,
+				seen: data.seen.length
 			};
 		},
 		async deleteReader(reader) {
-			const n = { places: 0, bookmarks: 0, notes: 0, kept: 0, suggestions: 0 };
+			const n = {
+				places: 0,
+				bookmarks: 0,
+				notes: 0,
+				kept: 0,
+				readings: 0,
+				seen: 0,
+				suggestions: 0
+			};
 			inTransaction(() => {
 				n.places = Number(dropAll.place.run(reader).changes);
 				n.bookmarks = Number(dropAll.bookmark.run(reader).changes);
 				n.notes = Number(dropAll.note.run(reader).changes);
 				n.kept = Number(dropAll.kept.run(reader).changes);
+				n.readings = Number(dropAll.reading.run(reader).changes);
+				n.seen = Number(dropAll.seen.run(reader).changes);
+				dropAll.activity.run(reader);
 				n.suggestions = Number(dropAll.suggestion.run(reader).changes);
 			});
 			return n;

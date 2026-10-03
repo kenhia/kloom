@@ -39,6 +39,8 @@ export interface Trail {
 	/** The main-spine frame this trail branches from. */
 	anchor: string;
 	spine: Spine;
+	/** As a frame's `added` (korg 3525): an override when written, the date in force when served. */
+	added?: string;
 }
 
 export interface Position {
@@ -106,6 +108,34 @@ export interface FrameFile {
 	 */
 	asOf?: string;
 	connections?: Connection[];
+	/**
+	 * When the frame was added, `YYYY-MM-DD` (korg 3525). Written only to
+	 * override what git says, for history git cannot see (an import, a subject
+	 * moved from another repository). In a served head it is the date in force:
+	 * this, or the compile's first appearance of the frame in the content's
+	 * history, as an ISO 8601 time.
+	 */
+	added?: string;
+	/** Meaningful revisions to the frame, newest first (korg 3526, §Edits and corrections). */
+	edits?: Edit[];
+}
+
+/** What kind of change an edit record says: a fact put right, or the frame reworked. */
+export const EDIT_KINDS = ['correction', 'revision'] as const;
+export type EditKind = (typeof EDIT_KINDS)[number];
+
+/**
+ * One meaningful change to a frame already published (korg 3526): a fact,
+ * date, attribution, quotation or source changed, or a section rewritten.
+ * Typo and formatting fixes are never recorded. Written by whoever made the
+ * change, through the skills.
+ */
+export interface Edit {
+	/** `YYYY-MM-DD`: when the change reached the content. */
+	date: string;
+	kind: EditKind;
+	/** One or two sentences: what changed and why. */
+	summary: string;
 }
 
 /**
@@ -113,7 +143,7 @@ export interface FrameFile {
  * spine's ticks, the contents, the HUD and the scene's words (docs/design.md
  * §Serving). Small: no reading, no drawing, no citations.
  */
-export type FrameHead = Omit<FrameFile, 'citations'>;
+export type FrameHead = Omit<FrameFile, 'citations' | 'edits'>;
 
 /** A frame's body: what is fetched as the reader comes to it (§Serving). */
 export interface FrameBody {
@@ -123,10 +153,12 @@ export interface FrameBody {
 	readingHtml: string;
 	/** The illustration's markup, inlined so it can draw itself on. */
 	svg: string | null;
+	/** Its edits and corrections, newest first; empty for none. */
+	edits: Edit[];
 }
 
 /** A frame ready to render: both halves, markdown already turned to HTML. */
-export interface Frame extends FrameFile, FrameBody {}
+export interface Frame extends Omit<FrameFile, 'edits'>, FrameBody {}
 
 export interface Palette {
 	scheme: 'dark' | 'light';
@@ -160,6 +192,12 @@ export interface SubjectHead {
 	spine: Spine;
 	trails: Trail[];
 	frames: Record<string, FrameHead>;
+	/**
+	 * When the subject was first published: its earliest frame's `added`
+	 * (korg 3525). Absent where the content has no history (a checkout
+	 * without git, a test's fixture).
+	 */
+	created?: string;
 }
 
 /** A subject loaded whole, every frame rendered: what the compiler builds from. */

@@ -2,6 +2,7 @@ import { redirect } from '@sveltejs/kit';
 import { aiOffer } from '$edition/offer';
 import type { AiOffered } from '$lib/edition/full/offer';
 import { readerStore } from '$lib/server/reader-store';
+import { readerNews } from '$lib/server/whats-new';
 import {
 	servedBody,
 	servedBuild,
@@ -54,7 +55,7 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		try {
 			const store = readerStore();
 			const login = locals.reader.login;
-			const [places, last, marks, notes, kept, unseen] = await Promise.all([
+			const [places, last, marks, notes, kept, unseen, news] = await Promise.all([
 				Promise.all(subjects.map((s) => store.lastVisited(login, s.id))),
 				store.lastVisited(login),
 				store.bookmarks(login),
@@ -63,7 +64,8 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 				__KLOOM_EDITION__ === 'reader'
 					? Promise.resolve({} as Record<string, number>)
 					: store.keptCounts(login, subject.id),
-				store.unseenAnswers(login)
+				store.unseenAnswers(login),
+				readerNews(store, login)
 			]);
 			const onFrame = (id: string) => Object.hasOwn(subject.frames, id);
 			readerData = {
@@ -76,7 +78,9 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 				notes: notes.filter((n) => onFrame(n.frame)),
 				kept: Object.fromEntries(Object.entries(kept).filter(([id]) => onFrame(id))),
 				// Agent answers the reader has not seen, across subjects (§My notes).
-				unseen
+				unseen,
+				// What's new to them (§What's new): started subjects, last visit, new frames.
+				news
 			};
 		} catch (e) {
 			console.error('reader data: could not read the store', e);

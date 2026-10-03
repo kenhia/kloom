@@ -41,7 +41,7 @@ build-content out="data/content.db":
         const r = await m.compileContent({
             subjectsDir: resolve('subjects'), namesDir: resolve('names'), out: resolve('{{ out }}'),
             compiler: m.engineDigest(resolve('engine')) ?? '', strict: true,
-            source: process.env.SOURCE ?? '',
+            source: process.env.SOURCE ?? '', added: await m.gitAddedDates(resolve('subjects')),
         });
         for (const p of r.nameProblems) console.error('names: ' + p);
         console.log(r.changed

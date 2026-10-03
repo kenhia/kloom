@@ -1,6 +1,6 @@
 import { citationProblems, citedInProblems } from './citation';
 import { imageRefs, kloomRefs, nameRefs } from './markdown';
-import { LABEL_KINDS, type Spine } from './model';
+import { EDIT_KINDS, LABEL_KINDS, type Spine } from './model';
 import { FRAME_REF, NAME_HREF } from './names';
 import { sanitiseSvg } from './svg';
 
@@ -40,6 +40,16 @@ export const TOPIC_MAX = 40;
 
 /** A subject's subtitle is one line under its title, never a paragraph. */
 export const SUBTITLE_MAX = 60;
+
+/** The longest an edit's summary may be: a sentence or two, not a changelog of its own. */
+export const EDIT_SUMMARY_MAX = 400;
+
+/** A calendar date, `YYYY-MM-DD`, that is a real day. */
+export function isDay(v: unknown): v is string {
+	if (typeof v !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(v)) return false;
+	const d = new Date(`${v}T00:00:00Z`);
+	return !Number.isNaN(d.getTime()) && d.toISOString().slice(0, 10) === v;
+}
 
 /** Files a frame may serve to the reading pane: a plain name, an image type. */
 export const MEDIA_FILE = /^[\w-][\w.-]*\.(png|jpe?g|webp|gif|svg)$/i;
@@ -171,6 +181,8 @@ export function validate(raw: RawSubject, options: ValidateOptions = {}): string
 		}
 		if (trail.id !== stem) fail(where, `id must match the file name ("${stem}")`);
 		if (!isText(trail.title)) fail(where, 'title is required');
+		if (trail.added !== undefined && !isDay(trail.added))
+			fail(where, 'added, when given, is a date: YYYY-MM-DD');
 		if (!isText(trail.anchor) || !mainFrames.has(trail.anchor))
 			fail(where, `unknown anchor "${String(trail.anchor)}" (must be a main-spine frame)`);
 		checkSpine(where, trail.spine);
@@ -260,6 +272,39 @@ export function validate(raw: RawSubject, options: ValidateOptions = {}): string
 			!(isText(frame.asOf) && /^\d{4}-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?$/.test(frame.asOf))
 		)
 			fail(where, 'asOf must be YYYY-MM or YYYY-MM-DD');
+
+		// When it was added (korg 3525): git says, and this overrides it.
+		if (frame.added !== undefined && !isDay(frame.added))
+			fail(where, 'added, when given, is a date: YYYY-MM-DD');
+
+		// Edits and corrections (korg 3526): each dated, of a kind, and saying
+		// what changed; newest first, as the reading pane lists them.
+		if (frame.edits !== undefined) {
+			if (!Array.isArray(frame.edits)) fail(where, 'edits must be a list');
+			else {
+				let later: string | undefined;
+				frame.edits.forEach((e: unknown, i: number) => {
+					const at = `${where} edit ${i}`;
+					if (!isObj(e)) return fail(at, 'not an object');
+					if (!isDay(e.date)) fail(at, 'date must be YYYY-MM-DD');
+					else {
+						if (later !== undefined && e.date > later)
+							fail(at, `${e.date} comes after ${later}: edits are listed newest first`);
+						later = e.date;
+					}
+					if (!EDIT_KINDS.includes(e.kind as never))
+						fail(at, `kind must be one of ${EDIT_KINDS.join(', ')}`);
+					if (!isText(e.summary)) fail(at, 'summary is required: what changed, and why');
+					else if (e.summary.trim().length > EDIT_SUMMARY_MAX)
+						fail(
+							at,
+							`summary is ${e.summary.trim().length} characters; at most ${EDIT_SUMMARY_MAX}`
+						);
+					for (const k of Object.keys(e))
+						if (!['date', 'kind', 'summary'].includes(k)) fail(at, `unknown field "${k}"`);
+				});
+			}
+		}
 
 		// Connections (§Connections): to a frame anywhere, each saying why. A
 		// missing target is not checked here: it is shown detached, and the

@@ -46,7 +46,9 @@ try {
 		compiler: m.engineDigest(join(repo, 'engine')) ?? '',
 		strict: true,
 		source,
-		only: subjects
+		only: subjects,
+		// Capped at this commit: nothing after it is in its history (korg 3525).
+		added: await m.gitAddedDates(join(repo, 'subjects'))
 	});
 } catch (e) {
 	console.error(e.message);

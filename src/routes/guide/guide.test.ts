@@ -24,7 +24,8 @@ const ICONS: IconName[] = [
 	'anywhere',
 	'home',
 	'settings',
-	'about'
+	'about',
+	'whats-new'
 ];
 const drawn = (name: IconName, filled = false) =>
 	render(Icon, { props: { name, filled } }).body.replace(/<!--.*?-->/g, '');
@@ -61,6 +62,12 @@ describe("the User's Guide", () => {
 			'Annotate',
 			'detached',
 			'Export my reading data',
+			"What's new",
+			'Edits and corrections',
+			'new to you',
+			"I'm caught up on this subject",
+			'Mark all as seen',
+			'Since my last visit'.toLowerCase(),
 			'Suggest a subject',
 			'Keyboard shortcuts…',
 			'Phones and tablets'

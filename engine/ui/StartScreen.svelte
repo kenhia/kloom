@@ -6,6 +6,8 @@
 	import type { SuggestOffer } from '../reader-data';
 	import type { UserSettings } from '../user-settings.svelte';
 	import About from './About.svelte';
+	import Icon from './Icon.svelte';
+	import IconButton from './IconButton.svelte';
 	import Settings from './Settings.svelte';
 
 	interface Props {
@@ -49,6 +51,13 @@
 		onopen: (id: string) => void;
 		/** Open the map on the library (§The map); focus comes back to its button. */
 		onmap?: (refocus: () => void) => void;
+		/** Open the Changelog (§What's new), from the corner; focus comes back to its button. */
+		onchangelog?: (refocus: () => void) => void;
+		/**
+		 * What is new to the reader in the selected subject, in words ("3 new
+		 * since you started"), said under Begin; absent when nothing is.
+		 */
+		fresh?: string | null;
 		/** The reader's settings: the gear top right, the shell's own pop-up. */
 		settings?: UserSettings;
 		/** The About panel top right, left of the gear: the library's counts and this build. */
@@ -93,6 +102,8 @@
 		onfirst,
 		onopen,
 		onmap,
+		onchangelog,
+		fresh = null,
 		settings,
 		about,
 		help,
@@ -103,6 +114,7 @@
 	const id = $props.id();
 	let button = $state<HTMLButtonElement>();
 	let mapButton = $state<HTMLButtonElement>();
+	let changelogButton = $state<IconButton>();
 	let list = $state<HTMLElement>();
 	let leaving = $state(false);
 	const chosen = $derived(subjects.find((s) => s.id === selected));
@@ -300,6 +312,9 @@
 				{/each}
 			</ul>
 		{/if}
+		{#if fresh}
+			<p class="fresh">{fresh}</p>
+		{/if}
 		{#if onmap}
 			<button
 				type="button"
@@ -334,9 +349,20 @@
 		{/if}
 	</div>
 
-	{#if about || settings}
+	{#if about || settings || onchangelog}
 		<!-- Top right, as in the shell, the gear rightmost; last in the tab order. -->
 		<div class="corner">
+			{#if onchangelog}
+				<IconButton
+					label="What's new"
+					title="What's new: the Changelog"
+					aria-haspopup="dialog"
+					bind:this={changelogButton}
+					onclick={() => onchangelog(() => changelogButton?.focus())}
+				>
+					<Icon name="whats-new" />
+				</IconButton>
+			{/if}
 			{#if about}<About {...about} />{/if}
 			{#if settings}<Settings {settings} />{/if}
 		</div>
@@ -390,6 +416,8 @@
 		width: min(92vw, 44rem);
 		min-height: 0;
 		color: var(--start-line);
+		/* Decoration: a control it overlaps (Begin, on a short screen) still takes the click. */
+		pointer-events: none;
 	}
 	.dial {
 		grid-area: 1 / 1;
@@ -654,6 +682,12 @@
 		border: 1px solid var(--start-muted);
 		border-radius: 0.2rem;
 		color: var(--start-muted);
+	}
+
+	.fresh {
+		margin: 0.5rem 0 0;
+		font-size: 0.85rem;
+		color: var(--start-accent);
 	}
 
 	/* The pop-ups here take the start screen's colours. */

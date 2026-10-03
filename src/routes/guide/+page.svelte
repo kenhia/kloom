@@ -18,6 +18,7 @@
 		['contents', 'Contents'],
 		['map', 'The map'],
 		['bookmarks', 'Bookmarks'],
+		['new', "What's new"],
 		['notes', 'Notes and annotations'],
 		['review', 'Agent review'],
 		['about', 'About kloom'],
@@ -73,8 +74,12 @@
 			<strong>Welcome and how to read kloom</strong> and <strong>User's Guide</strong> open these pages.
 		</li>
 		<li>
-			{@render icon('about')}
+			{@render icon('whats-new')} <strong>What's new</strong>, {@render icon('about')}
 			<strong>About</strong> and {@render icon('settings')} <strong>Settings</strong> are at the top right.
+		</li>
+		<li>
+			Once you have started a subject, the list says how many frames are new to you in it, and so
+			does the line under Begin (<a href="#new">more</a>).
 		</li>
 		<li>
 			{@render icon('home')}
@@ -99,6 +104,13 @@
 		<li>
 			{@render icon('map')}
 			<span><strong>Map</strong>: how this frame connects to others (<a href="#map">more</a>).</span
+			>
+		</li>
+		<li>
+			{@render icon('whats-new')}
+			<span
+				><strong>What's new</strong>: what was added and what was corrected, in every subject. A
+				number on it counts the frames new to you in this subject (<a href="#new">more</a>).</span
 			>
 		</li>
 		<li>
@@ -178,6 +190,10 @@
 			<strong>Sources</strong>, at the very end, lists where the reading comes from. The full
 			citations are in the closed section beneath it.
 		</li>
+		<li>
+			<strong>Edits and corrections</strong>, under the citations on some frames, says what has been
+			changed in the frame since it was first published, when, and why.
+		</li>
 	</ul>
 
 	<h2 id="contents">Contents</h2>
@@ -238,6 +254,36 @@
 		go there, or remove it from the list. "Export my reading data" at the bottom saves a copy of your
 		bookmarks, notes and places as a file.
 	</p>
+
+	<h2 id="new">What's new</h2>
+	<p>
+		kloom grows: frames, trails and whole subjects are added, and frames are sometimes corrected.
+		{@render icon('whats-new')} <strong>What's new</strong> lists it all.
+	</p>
+	<ul>
+		<li>
+			<strong>Added</strong> lists new frames and trails, newest first, by day and subject. A new subject
+			is one line, "First published". Choose an entry to go there; ↩ Back to… brings you back.
+		</li>
+		<li>
+			<strong>Edits and corrections</strong> lists the changes made to frames already published, each
+			with a sentence on what changed and why.
+		</li>
+		<li>
+			Narrow either list with the <strong>Subjects</strong> boxes, and with <strong>When</strong>:
+			all time, since my last visit, since I caught up, the last 7 or 30 days, or between two dates.
+		</li>
+		<li>
+			Once you start a subject, anything added to it after that is <strong>new to you</strong>
+			until you open it. The spine marks it with a small spark under the line, and Contents, trails and
+			What's new say "new to you" beside it.
+		</li>
+		<li>
+			If you read a subject straight through, choose <strong>I'm caught up on this subject</strong>
+			in Contents when you finish. From then on, only what is added later is new to you.
+			<strong>Mark all as seen</strong> in What's new clears the marks on everything the list is showing.
+		</li>
+	</ul>
 
 	<h2 id="notes">Notes and annotations</h2>
 	<ul>

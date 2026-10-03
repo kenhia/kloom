@@ -42,6 +42,8 @@
 <script lang="ts">
 	import { findQuote, moveEnd, moveStart, quoteOf, sentences, words, type Span } from '../anchor';
 	import { bibliography, chicago, chicagoDate } from '../citation';
+	import { FRESH_TEXT } from '../marks';
+	import { EDIT_WORD } from '../whats-new';
 	import type { Frame, Trail } from '../model';
 	import type { SyncMode } from '../navigation';
 	import KeptQa from './KeptQa.svelte';
@@ -63,6 +65,8 @@
 		sync: SyncMode;
 		/** Trails that branch from the narrative's frame. */
 		trails: Trail[];
+		/** Trails with a frame new to the reader on them (§What's new): their markers say so. */
+		freshTrails?: ReadonlySet<string>;
 		onenter: (trail: Trail) => void;
 		/** The scrolling element, so the shell can drive it from the keyboard. */
 		element?: HTMLElement;
@@ -89,6 +93,7 @@
 		spineFrame,
 		sync,
 		trails,
+		freshTrails = new Set(),
 		onenter,
 		element = $bindable(),
 		keys = { sync: 'S', trail: 'T' },
@@ -411,6 +416,7 @@
 					<li>
 						<button type="button" onclick={() => onenter(trail)}
 							>{trail.title}
+							{#if freshTrails.has(trail.id)}<span class="fresh">· {FRESH_TEXT}</span>{/if}
 							{#if keys.trail}<kbd>{keys.trail}</kbd>{/if}</button
 						>
 					</li>
@@ -513,6 +519,21 @@
 									<a href={part.href} rel="noopener noreferrer">{part.text}</a>
 								{:else if part.italic}<i>{part.text}</i>{:else}{part.text}{/if}
 							{/each}
+						</li>
+					{/each}
+				</ul>
+			</details>
+		{/if}
+
+		{#if frame.edits?.length}
+			<!-- Meaningful revisions, as whoever made them recorded them (korg 3526). -->
+			<details class="citations edits">
+				<summary>Edits and corrections ({frame.edits.length})</summary>
+				<ul>
+					{#each frame.edits as e, i (i)}
+						<li>
+							<span class="kind">{EDIT_WORD[e.kind]} · {chicagoDate(e.date)}</span>
+							<span class="summary">{e.summary}</span>
 						</li>
 					{/each}
 				</ul>
@@ -733,6 +754,19 @@
 		text-indent: -1.5em;
 		list-style: none;
 		overflow-wrap: anywhere;
+	}
+	.edits li {
+		padding-left: 0;
+		text-indent: 0;
+	}
+	.edits .kind {
+		display: block;
+		font-family: var(--mono);
+		font-size: 0.75rem;
+		color: var(--muted);
+	}
+	.trails .fresh {
+		color: var(--accent);
 	}
 	.citations a {
 		color: inherit;

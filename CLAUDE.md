@@ -265,6 +265,15 @@ Sprint 042 Home as a history entry at `/<subject>` (a reload stays home,
 Back returns to the frame; `just home-check`), the User's Guide (`/guide`,
 every control with its icon from `engine/ui/Icon.svelte`, which the shell
 draws its icons from too), and a shorter Welcome that hands off to it.
+Sprint 043 what's new and what changed: added dates compiled from git
+(`engine/history.ts`; the squash merge, an `added` override, capped at the
+published commit on the public site), the Changelog (`/api/changelog`,
+filters by subject and date, presets since my last visit and since I
+caught up), "new to you" marks for frames added after a reader started a
+subject and not yet opened (a fourth spine mark, the contents, trails, the
+start screen), "I'm caught up" and "Mark all as seen", and a per-frame
+`edits` record of corrections and revisions, shown under Citations and
+written through the skills.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -318,6 +327,11 @@ then start the sprint. Nothing pending (exit 0) costs one command.
 - The reader edition holds no agent code. Ask, grow, keep and anything
   editor-only go behind `$edition` (`src/lib/edition/`) or
   `__KLOOM_EDITION__`, and `just reader-gate` gets a marker for them.
+- A meaningful change to a published frame (a fact, date, attribution,
+  quotation or source changed, or a section rewritten) adds an entry to its
+  `edits`, newest first, in the same commit, whoever makes it, a sprint
+  included (`skills/grow/SKILL.md` §Edits and corrections). A typo or
+  formatting fix never does.
 - Grown content reaches `main` only through `skills/review-grown`: a grow
   commits to a grow branch (`grow/kai`, `grow/dev-<host>`), never to `main`
   or a sprint branch, and a review's squash carries the `Grow-reviewed`
