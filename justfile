@@ -303,8 +303,8 @@ publish-public:
     release="$({{ fly }} releases -a {{ fly_app }} --image --json | node -e "const r = JSON.parse(require('fs').readFileSync(0, 'utf8'))[0]; console.log('v' + r.Version + ' image ' + (r.ImageRef ?? r.Image ?? '?'))")"
     echo "$(date -u +%Y-%m-%dT%H:%MZ) $release commit $commit $(cat build-public/LIBRARY)" | tee -a "{{ public_home }}/publishes.log"
 
-# The public site as a stranger and as a reader sees it: TLS, the sign-in
-# wall, robots, ask/grow/keep gone, compression, the library build, and that
+# The public site as a stranger and as a reader sees it: TLS and HSTS, the
+# sign-in wall, robots, ask/grow/keep gone, compression, the library build, and that
 # Fly's proxy overwrites a Fly-Client-IP a client sends. Signs in as the
 # `kloom-verify` reader (a fresh welcome link each run, disabled after). The
 # last check leaves this address waiting 30 s at sign-in, longer if run again
@@ -324,6 +324,9 @@ verify-public:
     for i in $(seq 30); do [ "$(code "$url/robots.txt")" = 200 ] && break; sleep 2; done
     check "TLS verifies" "$(curl -s -o /dev/null -w '%{ssl_verify_result}' "$url/robots.txt" || echo error)" 0
     check "robots.txt disallows everything" "$(curl -s "$url/robots.txt" | grep -cx 'Disallow: /')" 1
+    hsts() { curl -s -o /dev/null -w '%header{strict-transport-security}' "$@"; }
+    check "HSTS, a year, this host only: robots.txt" "$(hsts "$url/robots.txt")" "max-age=31536000"
+    check "HSTS, a year, this host only: the way to sign in" "$(hsts "$url/western-civ")" "max-age=31536000"
     check "a stranger is sent to sign in" "$(curl -s -o /dev/null -w '%{http_code} %{redirect_url}' "$url/")" "303 $url/signin"
     check "a stranger's deep link comes back after" "$(curl -s -o /dev/null -w '%{redirect_url}' "$url/western-civ")" "$url/signin?next=%2Fwestern-civ"
     check "the API refuses a stranger" "$(code "$url/api/stats")" 401
@@ -342,6 +345,7 @@ verify-public:
     check "kept answers are gone" "$(code -b "$jar" "$url/api/reader/kept?subject=western-civ")" 404
     check "pages go compressed" \
         "$(curl -s -o /dev/null -b "$jar" -H 'accept-encoding: br' -w '%header{content-encoding}' "$url/western-civ")" br
+    check "HSTS, a year, this host only: a reader's page" "$(hsts -b "$jar" "$url/western-civ")" "max-age=31536000"
     check "a frame's body comes from the library" "$(code -b "$jar" "$url/api/frame/western-civ/prometheus")" 200
     build="$(curl -s -o /dev/null -b "$jar" -w '%header{x-kloom-build}' "$url/api/stats")"
     check "the library names its build" "$([ -n "$build" ] && echo yes || echo no)" yes
