@@ -1,5 +1,6 @@
 import { redirect } from '@sveltejs/kit';
-import { loadAppConfig, webMode } from '$lib/server/app-config';
+import { aiOffer } from '$edition/offer';
+import type { AiOffered } from '$lib/edition/full/offer';
 import { readerStore } from '$lib/server/reader-store';
 import {
 	servedBody,
@@ -16,17 +17,16 @@ import type { PageServerLoad } from './$types';
 export type Placed<T> = T & { subjectTitle: string };
 
 // From the library (docs/design.md §Serving), current with the files on
-// disk; the app config is read per request, so a model renamed there shows
-// without a restart. An unknown subject is a 404. `/<subject>/<frame>` is a
+// disk; the AI pane's offer comes from the edition (src/lib/edition/). An unknown subject is a 404. `/<subject>/<frame>` is a
 // deep link; one to a frame the subject no longer has (a stale bookmark, say)
 // opens the subject instead.
 //
 // The page carries every frame's head and only the bodies around the frame
 // it opens on; the shell fetches the rest as the reader moves.
 export const load: PageServerLoad = async ({ params, locals }) => {
-	const [subject, config, subjects, build] = await Promise.all([
+	const [subject, ai, subjects, build] = await Promise.all([
 		servedSubject(params.subject),
-		loadAppConfig(),
+		aiOffer() as Promise<AiOffered>,
 		servedSubjects(),
 		servedBuild()
 	]);
@@ -59,7 +59,10 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 				store.lastVisited(login),
 				store.bookmarks(login),
 				store.notes(login, subject.id),
-				store.keptCounts(login, subject.id),
+				// Kept answers are the full edition's (korg 3500).
+				__KLOOM_EDITION__ === 'reader'
+					? Promise.resolve({} as Record<string, number>)
+					: store.keptCounts(login, subject.id),
 				store.unseenAnswers(login)
 			]);
 			const onFrame = (id: string) => Object.hasOwn(subject.frames, id);
@@ -87,18 +90,12 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		bodies,
 		build,
 		frame: params.frame ?? null,
-		reader: locals.reader ? { name: locals.reader.name } : null,
+		// A signed-in public reader (the reader edition) may sign out.
+		reader: locals.reader
+			? { name: locals.reader.name, signedIn: locals.reader.via === 'session' }
+			: null,
 		readerData,
-		askModels: {
-			choices: config.models.map((m) => ({ value: m.id, label: m.label })),
-			default: config.ask.defaultModel
-		},
-		askWeb: webMode(config),
-		growModels: config.grow
-			? {
-					choices: config.models.map((m) => ({ value: m.id, label: m.label })),
-					default: config.grow.defaultModel
-				}
-			: null
+		// The AI pane's offer; null in the reader edition, which has no AI pane.
+		ai
 	};
 };

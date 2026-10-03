@@ -226,6 +226,33 @@ bench` — [record](../032-content-db.md).
   detached, and a count of agent answers not yet seen —
   [record](../034-my-notes.md).
 
+- Sprint 035: the RA for ask, evaluated and declined (proposal 3484,
+  covering 3483): `just ask-eval` asks 29 frame-tied questions as ask does
+  and has Opus grade them blind; Sonnet 5 stays ask's model —
+  [record](../035-ra-for-ask.md).
+
+- Sprint 036: grown content reviewed into main (proposal 3492, covering
+  3442, 3486 and 3487): grow branches, `just grow-pending`,
+  `skills/review-grown`, one grow job under a dev reload, and navy-pow's
+  Guam section re-sourced —
+  [record](../036-grow-review-and-guam.md).
+
+- Sprint 037: keyboard shortcuts in their own dialog (proposal 3494,
+  covering 3493): key capture with modifiers, reserved combinations refused,
+  and a settings pop-up whose selects keep their width —
+  [record](../037-keyboard-shortcuts-dialog.md).
+
+- Sprint 038: colours by section (proposal 3498, covering 3495): a palette
+  per section, the scene and the reading coloured apart, brightness sliders,
+  and every subject re-paletted — [record](../038-colours-by-section.md).
+
+- Sprint 039: the reader edition and sign-in (proposal 3505, covering 3500,
+  3501 and 3502; the first slice of program 3508, the public reader site): a
+  build with ask, grow, keep and the agent code stripped out, checked by
+  `just reader-gate`; invite-only accounts with one-time welcome links,
+  year-long sessions and an admin CLI; and the Welcome and How-To page —
+  [record](../039-reader-edition-and-sign-in.md).
+
 ## Next
 
 - Whatever the korg Planning queue holds for project kloom (72).

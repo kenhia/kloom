@@ -242,6 +242,12 @@ Light and Dark brightness sliders that keep 4.5:1 (`engine/colour.ts`,
 `just colours-check`); the old Palette setting migrated; and the
 authoring rule that made frames alternate replaced by a palette per
 section.
+Sprint 039 the reader edition, the public site's first slice (program
+korg 3508): a build (`KLOOM_EDITION=reader`, `just build-reader`) with ask,
+grow and keep stripped out, not switched off, and checked by `just
+reader-gate`; invite-only sign-in (accounts in `reader.db`, one-time
+welcome links that double as resets, year-long sessions, `admin.mjs`, no
+web admin); and the Welcome and How-To page (`/welcome`).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -284,13 +290,17 @@ then start the sprint. Nothing pending (exit 0) costs one command.
   adapter, not the architecture.
 - Keyboard and screen-reader support are requirements; verify keyboard-only
   when you change interaction.
-- Every request that is not a read needs a reader (`src/hooks.server.ts`); a
-  new write path goes through that gate, never around it. Reader data is
+- Every request that is not a read needs a reader (`src/hooks.server.ts`,
+  the edition's hooks); in the reader edition every request does, reads
+  included. A new write path goes through that gate, never around it. Reader data is
   keyed by that reader, and its routes refuse a request with none, reads
   included.
 - Reader data (places, bookmarks, notes, kept answers) goes through `ReaderStore`,
   never straight to SQLite; a schema change is a new migration, never an
   edit to a shipped one.
+- The reader edition holds no agent code. Ask, grow, keep and anything
+  editor-only go behind `$edition` (`src/lib/edition/`) or
+  `__KLOOM_EDITION__`, and `just reader-gate` gets a marker for them.
 - Grown content reaches `main` only through `skills/review-grown`: a grow
   commits to a grow branch (`grow/kai`, `grow/dev-<host>`), never to `main`
   or a sprint branch, and a review's squash carries the `Grow-reviewed`

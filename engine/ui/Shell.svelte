@@ -61,8 +61,11 @@
 		onneed?: (ids: string[]) => void;
 		/** The reader's settings; the page makes them and loads them on mount. */
 		settings: UserSettings;
-		/** What the app config offers the AI pane. */
-		ai?: AiOffer;
+		/**
+		 * What the app config offers the AI pane; null for no AI pane at all
+		 * (the reader edition, korg 3500): no AI tab, no kept answers.
+		 */
+		ai?: AiOffer | null;
 		/** A grow job finished: the page reloads the subject from disk. */
 		ongrown?: () => void;
 		/** False while something (the start screen) sits in front of the shell. */
@@ -170,12 +173,18 @@
 	const frame = $derived(whole(subject.frames[stop.frameId], spineBody));
 	/** A reader setting (§Interaction): the narrative follows the spine unless they said not to. */
 	const sync = $derived<SyncMode>(settings.get(followSpine.id) === 'manual' ? 'manual' : 'follow');
-	const shape = $derived((settings.get(layout.id) ?? layout.default) as Layout);
+	/**
+	 * Whether there is an AI pane. The reader edition's build has none
+	 * (`__KLOOM_EDITION__`), so the pane's code is not in it at all.
+	 */
+	const hasAi = $derived(__KLOOM_EDITION__ !== 'reader' && ai !== null);
+	// With no AI pane, the layout is two panes and the setting does not apply.
+	const shape = $derived((hasAi ? (settings.get(layout.id) ?? layout.default) : 'tabs') as Layout);
 	const tabbed = $derived(shape === 'tabs');
 	const tabs = $derived<Tab[]>([
 		...(layer || tabbed ? ['narrative' as const] : []),
 		...(layer ? ['notes' as const] : []),
-		...(tabbed ? ['ai' as const] : [])
+		...(tabbed && hasAi ? ['ai' as const] : [])
 	]);
 	// A tab that went away (the layout changed) hands back to the narrative.
 	$effect(() => {
@@ -537,7 +546,7 @@
 	);
 
 	const qa = $derived<QaOffer | null>(
-		layer
+		layer && hasAi
 			? {
 					count: (id) => layer.kept[id] ?? 0,
 					load: (id) => layer.keptOn(id),
@@ -769,6 +778,7 @@
 			error={saveError}
 			onsave={saveNote}
 			oncancel={cancelNote}
+			flagHint={layer?.reviewSays}
 		/>
 	{/if}
 {/snippet}
@@ -980,21 +990,23 @@
 			/>
 		{/if}
 
-		<AiPane
-			subject={subject.id}
-			frame={narrativeFrame}
-			{trail}
-			{settings}
-			offer={ai}
-			mainFrames={stops(subject.spine).map((s) => s.frameId)}
-			titleOf={(id) => (subject.frames[id] ? titleOf(subject.frames[id]) : id)}
-			{ongrown}
-			layout={shape}
-			showResults={!tabbed || tab === 'ai'}
-			onshow={() => (tab = 'ai')}
-			onactivity={(a) => (aiActivity = a)}
-			onkept={(id) => layer?.onkept(id)}
-		/>
+		{#if __KLOOM_EDITION__ !== 'reader' && ai}
+			<AiPane
+				subject={subject.id}
+				frame={narrativeFrame}
+				{trail}
+				{settings}
+				offer={ai}
+				mainFrames={stops(subject.spine).map((s) => s.frameId)}
+				titleOf={(id) => (subject.frames[id] ? titleOf(subject.frames[id]) : id)}
+				{ongrown}
+				layout={shape}
+				showResults={!tabbed || tab === 'ai'}
+				onshow={() => (tab = 'ai')}
+				onactivity={(a) => (aiActivity = a)}
+				onkept={(id) => layer?.onkept(id)}
+			/>
+		{/if}
 
 		{#each dividers as d (d.id)}
 			{@const b = bounds(panes, shape, d.id)}
@@ -1025,8 +1037,8 @@
 			<!-- prettier-ignore -->
 			<span>{#each hintRuns[1] as h (h.action)}{h.lead}<kbd>{h.key}</kbd>&nbsp;{h.label}{/each}, anywhere</span>
 		{/if}
-		· <kbd>Tab</kbd> into and out of the AI pane · <kbd>Esc</kbd> back to the spine · drag a divider,
-		or focus it and use the arrows
+		{#if hasAi}· <kbd>Tab</kbd> into and out of the AI pane{/if} · <kbd>Esc</kbd> back to the spine ·
+		drag a divider, or focus it and use the arrows
 	</p>
 </div>
 

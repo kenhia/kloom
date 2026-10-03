@@ -13,6 +13,7 @@ import {
 	type SubjectEntry
 } from '$engine/content-db';
 import type { Graph } from '$engine/graph';
+import { readMedia } from '$engine/load';
 import type { SubjectHead } from '$engine/model';
 import type { FrameSource } from '$engine/served';
 import type { StartLook } from '$engine/start';
@@ -47,9 +48,9 @@ const startedAt = new Date().toISOString();
 export const compilerId = () =>
 	engineDigest(resolve('engine')) ?? (__KLOOM_BUILD__ || `process ${startedAt}`);
 
-const run = promisify(execFile);
+// Made when first used, so a build that never builds (the reader edition) has no git in it.
 const sourceCommit = () =>
-	run('git', ['rev-parse', 'HEAD'], { cwd: subjectsDir() }).then(
+	promisify(execFile)('git', ['rev-parse', 'HEAD'], { cwd: subjectsDir() }).then(
 		(r) => r.stdout.trim(),
 		() => ''
 	);
@@ -133,8 +134,13 @@ function opened(): ContentDb {
 	return open.db;
 }
 
-/** The library, current with the sources and past the gate. */
+/**
+ * The library, current with the sources and past the gate. The reader
+ * edition serves a library built elsewhere and baked in (korg 3500): it
+ * opens it as it is and never builds, so none of the building is in it.
+ */
 export async function library(): Promise<ContentDb> {
+	if (__KLOOM_EDITION__ === 'reader') return opened();
 	await gate;
 	await current();
 	return opened();
@@ -148,7 +154,7 @@ function once<T>(key: string, read: () => T): T {
 
 /**
  * The subject's directory, or a 404 for an id the app does not serve: for
- * what writes to a subject or reads its files (grow, media, reader data).
+ * what writes to a subject's files (grow). Reads ask the library.
  */
 export async function requireSubjectDir(id: unknown): Promise<string> {
 	const dir = await subjectDirFor(id);
@@ -160,6 +166,29 @@ export async function requireSubjectDir(id: unknown): Promise<string> {
 export async function servedSubjects(): Promise<SubjectEntry[]> {
 	const db = await library();
 	return once('subjects', () => db.subjects());
+}
+
+/**
+ * Whether a served subject has this frame: what a reader's place, bookmark
+ * or note may name. A 404 for an unknown subject.
+ */
+export async function servedFrame(subject: unknown, frame: unknown): Promise<boolean> {
+	const head = await servedSubject(subject);
+	return typeof frame === 'string' && Object.hasOwn(head.frames, frame);
+}
+
+/**
+ * Where the media files are: `$KLOOM_MEDIA_DIR`, laid out as the subjects
+ * are (`<subject>/frames/<frame>/<file>`), or the subjects themselves. The
+ * reader edition has media beside its library and no subjects.
+ */
+export const mediaDir = () => resolve(env.KLOOM_MEDIA_DIR ?? subjectsDir());
+
+/** A served frame's media file, or null when the library does not list it. */
+export async function servedMedia(subject: string, frame: string, file: string) {
+	const db = await library();
+	if (!SUBJECT_ID.test(subject) || !db.hasMedia(subject, frame, file)) return null;
+	return readMedia(join(mediaDir(), subject), frame, file);
 }
 
 /** A served subject's head (every frame's small half); a 404 for an unknown id. */

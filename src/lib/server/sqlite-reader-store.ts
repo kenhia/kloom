@@ -77,7 +77,34 @@ const MIGRATIONS = [
 	// Sprint 034: whether an agent's answer waits to be seen (korg 3481).
 	// Answers given before it are counted as waiting: nothing said they were seen.
 	`ALTER TABLE note ADD COLUMN unseen INTEGER NOT NULL DEFAULT 0;
-	UPDATE note SET unseen = 1 WHERE review = 'handled';`
+	UPDATE note SET unseen = 1 WHERE review = 'handled';`,
+	// Sprint 039: the reader edition's sign-in (korg 3501), in accounts.ts.
+	// An account is a login, not a person; session ids and invite tokens are
+	// stored as their sha256, never as themselves.
+	`CREATE TABLE account (
+		username TEXT PRIMARY KEY,
+		display_name TEXT NOT NULL,
+		password TEXT,
+		disabled INTEGER NOT NULL DEFAULT 0,
+		created TEXT NOT NULL,
+		last_seen TEXT
+	);
+	CREATE TABLE session (
+		id TEXT PRIMARY KEY,
+		username TEXT NOT NULL,
+		created TEXT NOT NULL,
+		seen TEXT NOT NULL,
+		expires TEXT NOT NULL
+	);
+	CREATE INDEX session_account ON session (username);
+	CREATE TABLE invite (
+		token TEXT PRIMARY KEY,
+		username TEXT NOT NULL,
+		created TEXT NOT NULL,
+		expires TEXT NOT NULL,
+		used TEXT
+	);
+	CREATE INDEX invite_account ON invite (username);`
 ];
 
 export const SCHEMA_VERSION = MIGRATIONS.length;
@@ -104,15 +131,24 @@ export interface SqliteReaderStore extends ReaderStore {
 	close(): void;
 }
 
-/** Open (creating and migrating) a store at `path`; `:memory:` for a throwaway one. */
-export function openReaderStore(
-	path: string,
-	now: () => Date = () => new Date()
-): SqliteReaderStore {
+/**
+ * Open (creating and migrating) the database at `path`; `:memory:` for a
+ * throwaway one. The store and the accounts (accounts.ts) share it.
+ */
+export function openReaderDb(path: string): DatabaseSync {
 	if (path !== ':memory:') mkdirSync(dirname(path), { recursive: true });
 	const db = new DatabaseSync(path);
 	db.exec('PRAGMA journal_mode = WAL; PRAGMA busy_timeout = 2000;');
 	migrate(db);
+	return db;
+}
+
+/** Open a store at `path` (see `openReaderDb`), or on a database already open. */
+export function openReaderStore(
+	at: string | DatabaseSync,
+	now: () => Date = () => new Date()
+): SqliteReaderStore {
+	const db = typeof at === 'string' ? openReaderDb(at) : at;
 
 	// Newer wins, so a visit or an import never moves someone back in time.
 	const putPlace = db.prepare(
@@ -249,6 +285,14 @@ export function openReaderStore(
 		}
 	};
 
+	// Everything one reader has, for `deleteReader`.
+	const dropAll = {
+		place: db.prepare('DELETE FROM place WHERE reader = ?'),
+		bookmark: db.prepare('DELETE FROM bookmark WHERE reader = ?'),
+		note: db.prepare('DELETE FROM note WHERE reader = ?'),
+		kept: db.prepare('DELETE FROM kept WHERE reader = ?')
+	};
+
 	return {
 		async visit(reader, p) {
 			putPlace.run(reader, p.subject, p.frame, p.label, stamp());
@@ -375,6 +419,16 @@ export function openReaderStore(
 				notes: data.notes.length,
 				kept: data.kept.length
 			};
+		},
+		async deleteReader(reader) {
+			const n = { places: 0, bookmarks: 0, notes: 0, kept: 0 };
+			inTransaction(() => {
+				n.places = Number(dropAll.place.run(reader).changes);
+				n.bookmarks = Number(dropAll.bookmark.run(reader).changes);
+				n.notes = Number(dropAll.note.run(reader).changes);
+				n.kept = Number(dropAll.kept.run(reader).changes);
+			});
+			return n;
 		},
 		close: () => db.close()
 	};

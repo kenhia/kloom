@@ -449,7 +449,8 @@
 			</ul>
 		{/if}
 
-		{#if qa && qa.count(frame.id) > 0}
+		<!-- Kept answers are not in the reader edition's build (korg 3500). -->
+		{#if __KLOOM_EDITION__ !== 'reader' && qa && qa.count(frame.id) > 0}
 			<!-- Remounted when the count changes, so a new kept answer is fetched. -->
 			{#key `${frame.id}:${qa.count(frame.id)}`}
 				<KeptQa

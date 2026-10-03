@@ -92,12 +92,15 @@ SvelteKit + TypeScript on Node 22.13+ or 24:
 ```sh
 npm ci
 just dev      # http://127.0.0.1:5173, loopback only
-just check    # types + a11y lints, prettier/eslint, unit tests, content validation
+just check    # types + a11y lints, prettier/eslint, unit tests, content validation, reader gate
 just build    # Node server in build/; run with `node serve.js`
+just build-reader  # the reader edition in build-reader/; `KLOOM_EDITION=reader node serve.js`
 ```
 
 On kai it runs as a service behind `tailscale serve`, where ask, keep and
-grow need a signed-in tailnet user. See [docs/deploying.md](docs/deploying.md).
+grow need a signed-in tailnet user. The public site runs the reader
+edition: no ask, grow or keep, and invited readers who sign in. See
+[docs/deploying.md](docs/deploying.md).
 
 Code lives in four places. `engine/` is the subject-agnostic model, loader,
 validation and UI. `subjects/<subject>/` holds one subject's content, one

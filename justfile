@@ -13,6 +13,7 @@ check:
     npm run lint
     npm test
     just tools-test
+    just reader-gate
     @# Every mark is placed from a spec: one typed by hand, or a spec's mark not placed, fails.
     python3 create-tools/names/names.py mark create-tools/names/examples/*.json --check --placed
 
@@ -60,6 +61,36 @@ dev:
 # Build the Node server
 build:
     npm run build
+
+# The public site's edition (docs/deploying.md §Editions, korg 3500): ask,
+# grow, keep and the agent code stripped out, into build-reader/. Then the
+# generated types are put back to the full edition's.
+# Build the reader edition
+build-reader:
+    KLOOM_EDITION=reader npm run build
+    npx svelte-kit sync
+
+# Builds the reader edition and fails if it holds the providers, a spawn,
+# or ask, grow, keep or editor-only code (create-tools/reader-gate).
+# Check the reader edition is stripped, not switched off
+reader-gate:
+    node create-tools/reader-gate/reader_gate.mjs
+
+# Loopback only, serving this checkout's library (`just build-content`) and
+# subjects' media, with readers in data/reader.db. Add one with
+# `just admin invite <username> <display name> --base http://127.0.0.1:8080`,
+# then open the link it prints.
+# Run the reader edition locally, as the public site runs it
+serve-reader port="8080": build-reader
+    KLOOM_EDITION=reader PORT={{ port }} HOST=127.0.0.1 ORIGIN=http://127.0.0.1:{{ port }} \
+        KLOOM_PUBLIC_URL=http://127.0.0.1:{{ port }} KLOOM_CONTENT_DB="$PWD/data/content.db" \
+        KLOOM_MEDIA_DIR="$PWD/subjects" node serve.js
+
+# The reader edition's admin (admin.mjs): add, invite, disable, enable, list,
+# delete. Against data/reader.db here; on Fly through `fly ssh console -C`.
+# Manage the reader edition's readers
+admin *args:
+    node admin.mjs {{ args }}
 
 # The service's home on this host: app/ (the deploy copy), content/ (its own
 # clone, on its grow branch) and data/ (kept answers, grow jobs)

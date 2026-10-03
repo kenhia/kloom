@@ -55,19 +55,20 @@
 	let loom = $state<string | null>(null);
 
 	// The reader's settings. The ask and grow models' choices come from the app
-	// config, once per page load.
-	const growModels = untrack(() => data.growModels);
+	// config, once per page load; with no AI pane (the reader edition) there
+	// is no layout to choose and no model.
+	const ai = untrack(() => data.ai);
 	const settings = new UserSettings([
 		sceneColours,
 		readingColours,
 		followSpine,
-		layout,
-		modelSetting(
-			ASK_MODEL,
-			'Ask model',
-			untrack(() => data.askModels)
-		),
-		...(growModels ? [modelSetting(GROW_MODEL, 'Grow model', growModels)] : []),
+		...(__KLOOM_EDITION__ !== 'reader' && ai
+			? [
+					layout,
+					modelSetting(ASK_MODEL, 'Ask model', ai.askModels),
+					...(ai.growModels ? [modelSetting(GROW_MODEL, 'Grow model', ai.growModels)] : [])
+				]
+			: []),
 		lightBrightness,
 		darkBrightness
 	]);
@@ -201,6 +202,11 @@
 			? {
 					notes,
 					kept: keptCounts,
+					// On the public site a flagged note goes to Ken (korg 3502): said where it is ticked.
+					reviewSays:
+						__KLOOM_EDITION__ === 'reader'
+							? 'Sends this note to Ken and the agents he works with, who read it and may answer it here.'
+							: undefined,
 					saveNote: async (n) => {
 						const res = await send(resolve('/api/reader/notes'), 'POST', {
 							...n,
@@ -220,12 +226,15 @@
 						notes = notes.map((n) => (ids.includes(n.id) ? { ...n, unseen: false } : n));
 						see(ids);
 					},
+					// Kept answers are not in the reader edition's build (korg 3500).
 					keptOn: async (frame) => {
+						if (__KLOOM_EDITION__ === 'reader') return [];
 						const q = new URLSearchParams({ subject: data.subject.id, frame });
 						const res = await send(`${resolve('/api/reader/kept')}?${q}`, 'GET');
 						return res ? ((await res.json()) as Kept[]) : null;
 					},
 					forget: async (frame, id) => {
+						if (__KLOOM_EDITION__ === 'reader') return false;
 						const ok = await write(resolve('/api/reader/kept'), 'DELETE', {
 							subject: data.subject.id,
 							id
@@ -510,7 +519,7 @@
 		{bodies}
 		onneed={need}
 		{settings}
-		ai={{ web: data.askWeb, grow: !!data.growModels }}
+		ai={data.ai ? { web: data.ai.askWeb, grow: !!data.ai.growModels } : null}
 		ongrown={() => {
 			mapData = null;
 			invalidateAll();
@@ -538,7 +547,9 @@
 		subjects={listed}
 		bind:selected
 		current={data.subject.id}
-		subtitle="A timeline you can read, question and grow"
+		subtitle={data.ai
+			? 'A timeline you can read, question and grow'
+			: 'A timeline you can read and annotate'}
 		{inscription}
 		art={loom}
 		credits={[loomCredit]}
@@ -552,5 +563,7 @@
 			openMap({ target: { view: 'library' }, scheme: startPalette.scheme, refocus })}
 		{settings}
 		about={{ stats: loadStats, build: __KLOOM_BUILD__ || undefined }}
+		help={resolve('/welcome')}
+		signOut={data.reader?.signedIn ? { action: resolve('/signout'), who: data.reader.name } : null}
 	/>
 {/if}

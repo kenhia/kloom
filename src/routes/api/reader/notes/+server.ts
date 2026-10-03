@@ -3,14 +3,14 @@ import { anchorOf } from '$engine/anchor';
 import { NOTE_MAX } from '$engine/reader-data';
 import { readerStore } from '$lib/server/reader-store';
 import { NOTE_ID, noteIds, requireReader, requireRecord } from '$lib/server/reader-data';
-import { requireSubjectDir } from '$lib/server/subject';
+import { servedSubject } from '$lib/server/subject';
 import type { RequestHandler } from './$types';
 
 /** The reader's notes in a subject (`?subject=`), oldest first. */
 export const GET: RequestHandler = async ({ url, locals }) => {
 	const reader = requireReader(locals.reader);
 	const subject = url.searchParams.get('subject');
-	await requireSubjectDir(subject);
+	await servedSubject(subject);
 	return json(await readerStore().notes(reader.login, subject!));
 };
 
