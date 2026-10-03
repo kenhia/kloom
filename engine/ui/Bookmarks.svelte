@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Icon from './Icon.svelte';
 	import type { JumpItem } from '../reader-data';
 
 	interface Props {
@@ -53,9 +54,7 @@
 		title="Bookmark this frame (B)"
 		onclick={ontoggle}
 	>
-		<svg viewBox="0 0 24 24" aria-hidden="true" fill={marked ? 'currentColor' : 'none'}>
-			<path d="M6.5 3.5h11v17l-5.5-4.25-5.5 4.25z" stroke="currentColor" stroke-width="1.5" />
-		</svg>
+		<Icon name="bookmark" filled={marked} />
 		<span class="visually-hidden">Bookmark this frame</span>
 	</button>
 	<button
@@ -67,9 +66,7 @@
 		onclick={() => (open = !open)}
 		onkeydown={escape}
 	>
-		<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor">
-			<path d="M4 6.5h16M4 12h16M4 17.5h10" stroke-width="1.5" />
-		</svg>
+		<Icon name="bookmarks" />
 		<span class="visually-hidden">Bookmarks ({items.length})</span>
 	</button>
 
@@ -141,7 +138,7 @@
 	.icon[aria-pressed='true'] {
 		color: var(--accent);
 	}
-	.icon svg {
+	.icon :global(svg) {
 		width: 1.25rem;
 		height: 1.25rem;
 	}

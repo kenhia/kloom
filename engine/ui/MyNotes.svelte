@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Icon from './Icon.svelte';
 	import { tick } from 'svelte';
 	import {
 		annotatedFrames,
@@ -197,10 +198,7 @@
 	onclick={show}
 >
 	<!-- A page with lines and a corner turned: the reader's own writing. -->
-	<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor">
-		<path d="M6 3.5h8.5l3.5 3.5v13.5H6z" stroke-width="1.5" />
-		<path d="M9 10.5h6M9 13.5h6M9 16.5h4" stroke-width="1.5" />
-	</svg>
+	<Icon name="my-notes" />
 	<span class="visually-hidden">My notes{unseenSaid}</span>
 	{#if offer.unseen}
 		<span class="badge" aria-hidden="true">{offer.unseen}</span>
@@ -357,7 +355,7 @@
 		color: var(--ink);
 		border-color: var(--muted);
 	}
-	.icon svg {
+	.icon :global(svg) {
 		width: 1.25rem;
 		height: 1.25rem;
 	}

@@ -22,6 +22,12 @@ describe('the Welcome and How-To page', () => {
 		expect(body).toContain('private to your login');
 	});
 
+	it("is the first visit, handing off to the User's Guide (korg 3515)", () => {
+		const html = page({ name: 'Joel and Kathy', signedIn: true });
+		expect(html).toContain('href="/guide"');
+		expect(text(html)).toContain("User's Guide");
+	});
+
 	it('never writes to one person: a login may be two', () => {
 		const body = text(page({ name: 'Joel and Kathy', signedIn: true }));
 		expect(body).toContain('If two of you share a login');

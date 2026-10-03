@@ -250,6 +250,21 @@ keys-check:
     fi
     node create-tools/keys-check/keys_check.mjs --url "$url"
 
+# The Home button (korg 3517): home is a history entry at /<subject>, so a
+# reload stays home, Back returns to the frame and Forward comes home (same
+# Playwright and dev server as scene-fit)
+home-check:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    url="${KLOOM_URL:-http://localhost:5415}"
+    if ! curl -sf -o /dev/null "$url/"; then
+        node_modules/.bin/vite dev --host 127.0.0.1 --port 5415 --strictPort >/dev/null 2>&1 &
+        server=$!
+        trap 'kill $server' EXIT
+        for _ in $(seq 60); do curl -sf -o /dev/null "$url/" && break; sleep 0.5; done
+    fi
+    node create-tools/home-check/home_check.mjs --url "$url"
+
 # Scene and reading colours (korg 3495), keyboard-only at 1280x800 and 390
 # wide: the panes coloured apart, the old Palette setting carried over, both
 # brightness sliders at both ends with contrast read off the page, and the
