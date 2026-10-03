@@ -138,3 +138,14 @@ dialog of their own that captures keys, modifiers included.
 ## Follow-ups
 
 None filed.
+
+## Deployed
+
+2026-10-03, on kai, by `just deploy` from merged `main` (`5b861a0`, PR #44).
+`just verify` passed all ten checks: both doors read, writes are gated, reader
+data is kept from an anonymous read, frame bodies come from the library, and
+pages go compressed. The sprint's own behaviour was then checked live:
+`keys_check.mjs --url http://127.0.0.1:4891` passed 66/66 against the
+deployed service at 1280×800 and 390×844. That covers the pop-up's selects
+at 9rem or more with long labels, the dialog keyboard-only (capture, refusal,
+swap, Esc), Alt+Y opening the map, and a stored single letter still binding.
