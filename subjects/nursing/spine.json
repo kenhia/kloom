@@ -4,6 +4,7 @@
 			"id": "before",
 			"title": "Care before nursing",
 			"labelKind": "date",
+			"palette": "cloister",
 			"frames": [
 				"basiliad",
 				"monastic-infirmary",
@@ -18,6 +19,7 @@
 			"id": "nightingale",
 			"title": "Nightingale and the profession",
 			"labelKind": "date",
+			"palette": "lamplight",
 			"frames": [
 				"scutari",
 				"seacole",
@@ -32,6 +34,7 @@
 			"id": "theatre",
 			"title": "The operating room",
 			"labelKind": "date",
+			"palette": "gown",
 			"frames": [
 				"ether",
 				"semmelweis",
@@ -46,6 +49,7 @@
 			"id": "military",
 			"title": "Nurses at war",
 			"labelKind": "date",
+			"palette": "canvas",
 			"frames": [
 				"civil-war-nurses",
 				"army-nurse-corps",
@@ -62,6 +66,7 @@
 			"id": "profession",
 			"title": "The modern profession",
 			"labelKind": "date",
+			"palette": "nightshift",
 			"frames": [
 				"training-schools",
 				"henry-street",
@@ -79,12 +84,14 @@
 			"id": "today",
 			"title": "Today",
 			"labelKind": "category",
+			"palette": "nightshift",
 			"frames": ["where-nursing-is"]
 		},
 		{
 			"id": "dedication-seg",
 			"title": "Dedication",
 			"labelKind": "category",
+			"palette": "dressblue",
 			"frames": ["dedication"]
 		}
 	]

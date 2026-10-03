@@ -8,6 +8,7 @@
 				"id": "primes",
 				"title": "The primes",
 				"labelKind": "date",
+				"palette": "vellum",
 				"frames": [
 					"sieve-of-eratosthenes",
 					"disquisitiones",

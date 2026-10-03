@@ -4,24 +4,28 @@
 			"id": "counting",
 			"title": "Counting and gears",
 			"labelKind": "date",
+			"palette": "walnut",
 			"frames": ["abacus", "antikythera", "logarithms"]
 		},
 		{
 			"id": "engines",
 			"title": "Engines of arithmetic",
 			"labelKind": "date",
+			"palette": "walnut",
 			"frames": ["pascaline", "jacquard-loom", "difference-engine"]
 		},
 		{
 			"id": "cards-relays",
 			"title": "Cards, gears and relays",
 			"labelKind": "date",
+			"palette": "cardstock",
 			"frames": ["hollerith", "differential-analyzer", "z3"]
 		},
 		{
 			"id": "electronic",
 			"title": "The electronic machine",
 			"labelKind": "date",
+			"palette": "console",
 			"frames": [
 				"colossus",
 				"harvard-mark-i",
@@ -36,36 +40,42 @@
 			"id": "mainframes",
 			"title": "Transistors and mainframes",
 			"labelKind": "date",
+			"palette": "teletype",
 			"frames": ["transistor", "whirlwind", "fortran", "time-sharing", "ibm-360", "minicomputer"]
 		},
 		{
 			"id": "microprocessor",
 			"title": "The microprocessor",
 			"labelKind": "date",
+			"palette": "circuit",
 			"frames": ["microprocessor", "altair"]
 		},
 		{
 			"id": "networks",
 			"title": "Networks",
 			"labelKind": "technology",
+			"palette": "circuit",
 			"frames": ["packet-switching", "arpanet", "internet", "world-wide-web"]
 		},
 		{
 			"id": "shared-software",
 			"title": "Software, shared",
 			"labelKind": "technology",
+			"palette": "schematic",
 			"frames": ["unix", "free-software", "linux", "open-source"]
 		},
 		{
 			"id": "everywhere",
 			"title": "Computing everywhere",
 			"labelKind": "technology",
+			"palette": "schematic",
 			"frames": ["arm", "smartphone", "cloud"]
 		},
 		{
 			"id": "open-questions",
 			"title": "Open questions",
 			"labelKind": "category",
+			"palette": "schematic",
 			"frames": ["security", "where-computing-is"]
 		}
 	]

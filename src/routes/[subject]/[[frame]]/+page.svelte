@@ -27,12 +27,16 @@
 	import { page } from '$app/state';
 	import {
 		ASK_MODEL,
+		coloursOf,
+		darkBrightness,
 		followSpine,
+		framePalettes,
 		GROW_MODEL,
 		layout,
+		lightBrightness,
 		modelSetting,
-		paletteFor,
-		paletteMode
+		readingColours,
+		sceneColours
 	} from '$engine/settings';
 	import type { ServedBody } from '$engine/served';
 	import type { StartLook } from '$engine/start';
@@ -54,7 +58,8 @@
 	// config, once per page load.
 	const growModels = untrack(() => data.growModels);
 	const settings = new UserSettings([
-		paletteMode,
+		sceneColours,
+		readingColours,
 		followSpine,
 		layout,
 		modelSetting(
@@ -62,12 +67,14 @@
 			'Ask model',
 			untrack(() => data.askModels)
 		),
-		...(growModels ? [modelSetting(GROW_MODEL, 'Grow model', growModels)] : [])
+		...(growModels ? [modelSetting(GROW_MODEL, 'Grow model', growModels)] : []),
+		lightBrightness,
+		darkBrightness
 	]);
 
 	// The start screen's subject list (korg 3424): the selection shows its
-	// title, its place and its own drawings, and wears its first frame's
-	// palette, in the reader's mode. This subject's look is at hand; another's
+	// title, its place and its own drawings, and wears its first section's
+	// palette, as the reader colours scenes. This subject's look is at hand; another's
 	// is fetched when it is first selected, and kept.
 	let selected = $state(untrack(() => data.subject.id));
 	let looks = $state<Record<string, StartLook>>({});
@@ -82,7 +89,7 @@
 	});
 	const startPalette = $derived.by(() => {
 		const l = look ?? data.start;
-		return paletteFor(l, l.palette, settings.get(paletteMode.id)!);
+		return framePalettes(l, l.palette, l.palette, coloursOf(settings)).scene;
 	});
 
 	// Arriving in another subject selects it.

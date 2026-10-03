@@ -8,6 +8,7 @@
 				"id": "flt",
 				"title": "Fermat's Last Theorem",
 				"labelKind": "date",
+				"palette": "quarto",
 				"frames": [
 					"fermats-margin",
 					"euler-cubes",

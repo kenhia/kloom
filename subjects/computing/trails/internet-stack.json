@@ -8,6 +8,7 @@
 				"id": "layers",
 				"title": "Layers",
 				"labelKind": "technology",
+				"palette": "circuit",
 				"frames": ["ethernet", "ip-routing", "tcp", "dns", "tls"]
 			}
 		]

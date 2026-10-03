@@ -8,6 +8,7 @@
 				"id": "table",
 				"title": "The scrub nurse's work",
 				"labelKind": "date",
+				"palette": "gown",
 				"frames": [
 					"surgical-scrub",
 					"surgical-mask",

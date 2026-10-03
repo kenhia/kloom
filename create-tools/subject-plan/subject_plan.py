@@ -19,9 +19,14 @@ once) validates at every step, and the plan says what is still to come.
 
 `--check` writes nothing and lists the planned frames not yet written. It
 checks the plan's frames too: sorts rise within each `date` segment, topics
-fit the 40-character cap and are unique, palettes are in `subject.json`;
-it warns where a palette repeats down a segment and where a written frame
-differs from its plan. It exits 1 on a problem, never on a warning.
+fit the 40-character cap and are unique, palettes are in `subject.json`.
+A segment carries its section's `palette` (sprint 038, korg 3495: a palette
+per section, tracking its era or theme, in place of the old rule that dark
+and light alternate frame by frame), which `spine.json` keeps; it warns
+where a frame's palette differs from its section's with no `paletteWhy` on
+its entry, where a segment whose frames name palettes names none itself,
+and where a written frame differs from its plan. It exits 1 on a problem,
+never on a warning.
 `--complete DIR` writes the spine into a copy of the subject at
 DIR/<subject> that holds only the frames with a `frame.json` that land on a
 spine (a trail frame whose anchor is not written yet is left out, and named),
@@ -66,7 +71,15 @@ def plan_problems(plan, palettes, written=None):
     topics = {}
     for where, seg in spines(plan):
         at = f'{where} segment {seg["id"]}'
-        previous = last_palette = None
+        previous = None
+        # The section's palette (korg 3495): the segment's own, or else its first frame's.
+        section = seg.get('palette')
+        if section is not None and section not in palettes:
+            problems.append(f'{at}: unknown palette "{section}" (subject.json has {", ".join(sorted(palettes))})')
+        named = [entries.get(f, {}).get('palette') for f in seg['frames']]
+        if section is None and any(named):
+            warnings.append(f'{at}: give the segment its section\'s "palette"; its frames name theirs')
+            section = next(n for n in named if n)
         for f in seg['frames']:
             e = entries.get(f, {})
             sort, topic, palette = e.get('sort'), e.get('topic'), e.get('palette')
@@ -93,9 +106,9 @@ def plan_problems(plan, palettes, written=None):
             if palette is not None:
                 if palette not in palettes:
                     problems.append(f'frames.{f}: unknown palette "{palette}" (subject.json has {", ".join(sorted(palettes))})')
-                elif palette == last_palette:
-                    warnings.append(f'{at}: {f} repeats the palette "{palette}" of the frame before it')
-            last_palette = palette
+                elif palette != section and not e.get('paletteWhy'):
+                    warnings.append(f'{at}: {f} wears "{palette}", not its section\'s "{section}"; '
+                                    f'match it, or say why in frames.{f}.paletteWhy')
             # The plan is what the brief quotes; a frame that differs from it is worth a look.
             have = (written or {}).get(f)
             if have:
@@ -151,7 +164,7 @@ def stand_in(plan, subject_dir, anchor, today=None):
         'topic': entry.get('topic') or f'Stand-in for {anchor}'[:TOPIC_MAX],
         'position': position,
         'scene': {'headline': 'Not yet written', 'accent': f'STANDIN-{anchor.upper()}.',
-                  'palette': entry.get('palette') or palettes[0], 'illustration': 'scene.svg', 'metadata': []},
+                  'palette': entry.get('palette') or seg.get('palette') or palettes[0], 'illustration': 'scene.svg', 'metadata': []},
         'citations': [{'kind': 'web', 'key': True, 'title': 'A stand-in for a frame not yet written',
                        'url': 'https://github.com/kenhia/kloom', 'accessed': (today or datetime.date.today()).isoformat()}],
     }

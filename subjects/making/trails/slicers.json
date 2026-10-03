@@ -8,6 +8,7 @@
 				"id": "slicing",
 				"title": "From model to print",
 				"labelKind": "category",
+				"palette": "filament",
 				"frames": ["stl-meshes", "slicing", "supports", "printed-fits"]
 			}
 		]

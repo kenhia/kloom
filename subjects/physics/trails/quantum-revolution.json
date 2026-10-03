@@ -8,6 +8,7 @@
 				"id": "revolution",
 				"title": "The revolution",
 				"labelKind": "date",
+				"palette": "cloudchamber",
 				"frames": [
 					"photon",
 					"bohr-atom",

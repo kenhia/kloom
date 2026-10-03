@@ -5,12 +5,14 @@
 				"id": "dreams",
 				"title": "Dreams of thinking machines",
 				"labelKind": "category",
+				"palette": "blueprint",
 				"frames": ["talos", "leibniz"]
 			},
 			{
 				"id": "foundations",
 				"title": "Foundations",
 				"labelKind": "date",
+				"palette": "drafting",
 				"frames": [
 					"analytical-engine",
 					"laws-of-thought",
@@ -23,30 +25,35 @@
 				"id": "symbolic",
 				"title": "The symbolic age",
 				"labelKind": "date",
+				"palette": "terminal",
 				"frames": ["dartmouth", "logic-theorist", "perceptron", "eliza", "shakey"]
 			},
 			{
 				"id": "winters",
 				"title": "Winters and booms",
 				"labelKind": "date",
+				"palette": "terminal",
 				"frames": ["lighthill", "expert-systems", "backprop", "lisp-collapse"]
 			},
 			{
 				"id": "learning",
 				"title": "Learning from data",
 				"labelKind": "date",
+				"palette": "printout",
 				"frames": ["lenet", "lstm", "deep-blue", "imagenet", "alexnet"]
 			},
 			{
 				"id": "deep",
 				"title": "Deep learning",
 				"labelKind": "technology",
+				"palette": "whitepaper",
 				"frames": ["word2vec", "gans", "resnet", "alphago"]
 			},
 			{
 				"id": "transformers",
 				"title": "The transformer era",
 				"labelKind": "technology",
+				"palette": "neural",
 				"frames": [
 					"transformer",
 					"pretraining",
@@ -61,12 +68,14 @@
 				"id": "frontier",
 				"title": "The frontier",
 				"labelKind": "technology",
+				"palette": "neural",
 				"frames": ["multimodal", "agents", "reasoning-models", "open-weights", "compute"]
 			},
 			{
 				"id": "questions",
 				"title": "Open questions",
 				"labelKind": "category",
+				"palette": "whitepaper",
 				"frames": ["alignment", "interpretability", "governance", "where-we-are"]
 			}
 		]
@@ -82,6 +91,7 @@
 						"id": "connectionism",
 						"title": "Connectionism",
 						"labelKind": "date",
+						"palette": "terminal",
 						"frames": [
 							"hebbian-learning",
 							"adaline",
@@ -105,6 +115,7 @@
 						"id": "play",
 						"title": "Games",
 						"labelKind": "date",
+						"palette": "printout",
 						"frames": [
 							"mechanical-turk",
 							"shannon-chess",
@@ -128,6 +139,7 @@
 						"id": "mechanism",
 						"title": "The mechanism",
 						"labelKind": "technology",
+						"palette": "neural",
 						"frames": [
 							"tokens",
 							"token-embeddings",
@@ -150,6 +162,7 @@
 						"id": "problems",
 						"title": "Problems and practices",
 						"labelKind": "category",
+						"palette": "whitepaper",
 						"frames": [
 							"specification-gaming",
 							"constitutional-ai",

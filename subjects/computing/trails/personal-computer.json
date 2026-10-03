@@ -8,6 +8,7 @@
 				"id": "pc",
 				"title": "On a desk",
 				"labelKind": "date",
+				"palette": "circuit",
 				"frames": ["xerox-alto", "apple-ii", "visicalc", "ibm-pc", "macintosh"]
 			}
 		]

@@ -8,6 +8,7 @@
 				"id": "building",
 				"title": "Building the model",
 				"labelKind": "date",
+				"palette": "photoplate",
 				"frames": ["neutrino", "quarks", "electroweak", "asymptotic-freedom", "w-and-z", "higgs"]
 			}
 		]

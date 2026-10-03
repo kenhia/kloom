@@ -10,7 +10,8 @@ import {
 	type Keymap,
 	type Shortcut
 } from './keys';
-import type { Palette, Subject } from './model';
+import { brighten } from './colour';
+import type { Palette, Segment, Subject } from './model';
 
 /**
  * User settings (docs/design.md §Settings): one reader's choices, made in the
@@ -39,6 +40,13 @@ export interface Setting {
 	storageKey: string;
 	/** A heading the pop-up gathers it under, with the rest of its group. */
 	group?: string;
+	/**
+	 * How the pop-up shows it: a drop-down (the default), or a slider over
+	 * the choices in order, for a setting that is a scale.
+	 */
+	control?: 'select' | 'range';
+	/** Shown under the pop-up's collapsed Advanced disclosure. */
+	advanced?: boolean;
 }
 
 /** The part of `Storage` a setting needs; tests pass a Map-backed one. */
@@ -87,25 +95,113 @@ export function writeSetting(
 	}
 }
 
-export type PaletteMode = 'mixed' | 'dark' | 'light';
-
-/** The palette mode: every frame's own palette, or all dark, or all light. */
-export const paletteMode: Setting = {
-	id: 'palette',
-	label: 'Palette',
+/**
+ * Scene colours (docs/design.md §Colours, korg 3495): the spine's scene, and
+ * its HUD, coloured by section (the default), by each frame's own palette,
+ * or always dark or always light.
+ */
+export const sceneColours: Setting = {
+	id: 'scene',
+	label: 'Scene colours',
 	choices: [
-		{ value: 'mixed', label: 'Mixed — each frame’s own' },
-		{ value: 'dark', label: 'Dark' },
-		{ value: 'light', label: 'Light' }
+		{ value: 'section', label: 'By section' },
+		{ value: 'frame', label: 'Each frame' },
+		{ value: 'dark', label: 'Always dark' },
+		{ value: 'light', label: 'Always light' }
 	],
-	default: 'mixed',
-	storageKey: 'kloom.palette'
+	default: 'section',
+	storageKey: 'kloom.scene'
+};
+
+/** Reading colours: the reading pane, and the panes beside it, as the scene or always one scheme. */
+export const readingColours: Setting = {
+	id: 'reading',
+	label: 'Reading colours',
+	choices: [
+		{ value: 'same', label: 'Same as scene' },
+		{ value: 'light', label: 'Always light' },
+		{ value: 'dark', label: 'Always dark' }
+	],
+	default: 'same',
+	storageKey: 'kloom.reading'
 };
 
 /**
- * The palette a frame wears under a mode. Mixed, or a palette already of the
- * mode's scheme, keeps the frame's own; otherwise its `counterpart` stands in.
- * A palette with no counterpart keeps itself in every mode.
+ * A brightness setting: steps of BRIGHTNESS_STEP either side of the palettes
+ * as designed (0). Still a pick from a fixed list, shown as a slider. The
+ * range is where every subject's palettes keep MIN_CONTRAST, which a test
+ * checks at both ends.
+ */
+const brightness = (
+	id: string,
+	label: string,
+	min: number,
+	max: number,
+	dimmer: string,
+	brighter: string
+): Setting => ({
+	id,
+	label,
+	choices: Array.from({ length: max - min + 1 }, (_, i) => {
+		const n = min + i;
+		const steps = Math.abs(n) === 1 ? 'step' : 'steps';
+		return {
+			value: String(n),
+			label: n === 0 ? 'As designed' : `${Math.abs(n)} ${steps} ${n < 0 ? dimmer : brighter}`
+		};
+	}),
+	default: '0',
+	storageKey: `kloom.${id}`,
+	control: 'range',
+	advanced: true
+});
+
+/** The light palettes' background: mostly dimmer, for a reader who finds them bright. */
+export const lightBrightness = brightness(
+	'lightBrightness',
+	'Light brightness',
+	-6,
+	1,
+	'dimmer',
+	'brighter'
+);
+
+/** The dark palettes' background: mostly lifted, toward a softer dark. */
+export const darkBrightness = brightness(
+	'darkBrightness',
+	'Dark brightness',
+	-2,
+	6,
+	'darker',
+	'lighter'
+);
+
+/** Where sprint 003's single Palette setting was stored: Mixed, Dark or Light. */
+export const LEGACY_PALETTE_KEY = 'kloom.palette';
+
+/**
+ * Carry a remembered Palette over to the two settings that replaced it, once:
+ * Mixed is By section and Same as scene, Dark and Light are Always on both.
+ * Nothing is written when either new setting is already remembered.
+ */
+export function migratePaletteSetting(storage: SettingsStorage | null) {
+	try {
+		if (!storage) return;
+		const old = storage.getItem(LEGACY_PALETTE_KEY);
+		if (old !== 'mixed' && old !== 'dark' && old !== 'light') return;
+		if (storage.getItem(sceneColours.storageKey) || storage.getItem(readingColours.storageKey))
+			return;
+		storage.setItem(sceneColours.storageKey, old === 'mixed' ? 'section' : old);
+		storage.setItem(readingColours.storageKey, old === 'mixed' ? 'same' : old);
+	} catch {
+		// Blocked storage: the defaults are fine.
+	}
+}
+
+/**
+ * The palette a frame wears under a scheme. A palette already of that
+ * scheme, or anything but `dark` or `light`, keeps the frame's own; otherwise
+ * its `counterpart` stands in. A palette with no counterpart keeps itself.
  */
 export function paletteFor(
 	subject: Pick<Subject, 'palettes'>,
@@ -116,6 +212,58 @@ export function paletteFor(
 	if (mode !== 'dark' && mode !== 'light') return own;
 	if (own.scheme === mode || !own.counterpart) return own;
 	return subject.palettes[own.counterpart] ?? own;
+}
+
+/** A section's palette: the one its segment names, or else its first frame's. */
+export function sectionPalette(
+	subject: { frames: Record<string, { scene: { palette: string } }> },
+	segment: Pick<Segment, 'palette' | 'frames'>
+): string {
+	return segment.palette ?? subject.frames[segment.frames[0]].scene.palette;
+}
+
+/** The reader's colour settings, read once for every palette worked out under them. */
+export interface Colours {
+	scene: string;
+	reading: string;
+	/** Brightness steps for light and for dark palettes. */
+	light: number;
+	dark: number;
+}
+
+const steps = (v: string | undefined) => (v && Number.isInteger(Number(v)) ? Number(v) : 0);
+
+export function coloursOf(settings: { get(id: string): string | undefined }): Colours {
+	return {
+		scene: settings.get(sceneColours.id) ?? sceneColours.default,
+		reading: settings.get(readingColours.id) ?? readingColours.default,
+		light: steps(settings.get(lightBrightness.id)),
+		dark: steps(settings.get(darkBrightness.id))
+	};
+}
+
+/** A palette at the reader's brightness for its scheme. */
+export const atBrightness = (p: Palette, c: Pick<Colours, 'light' | 'dark'>) =>
+	brighten(p, p.scheme === 'light' ? c.light : c.dark);
+
+/**
+ * What a frame wears, scene and reading (korg 3495). By section, the frame's
+ * own palette takes its section's scheme through `counterpart`; Each frame
+ * keeps its own; Always dark or light is that scheme. The reading is the
+ * scene's palette, or its own palette in the scheme the reader fixed. Both
+ * at the reader's brightness.
+ */
+export function framePalettes(
+	subject: Pick<Subject, 'palettes'>,
+	own: string,
+	section: string,
+	c: Colours
+): { scene: Palette; reading: Palette } {
+	const mode = c.scene === 'section' ? subject.palettes[section].scheme : c.scene;
+	const scene = paletteFor(subject, own, mode);
+	const reading =
+		c.reading === 'light' || c.reading === 'dark' ? paletteFor(subject, own, c.reading) : scene;
+	return { scene: atBrightness(scene, c), reading: atBrightness(reading, c) };
 }
 
 /**

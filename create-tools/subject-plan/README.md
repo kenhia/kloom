@@ -35,9 +35,11 @@ npx prettier --write subjects/ai
   name. It checks the plan's `frames`: sorts rise within each `date`
   segment, topics are titles of at most 40 characters and unique, and
   palettes are in `subject.json`; a `frames` entry for an id on no spine
-  is refused. It warns where a palette repeats from one frame to the next
-  down a segment, and where a written frame's topic, sort or palette
-  differs from its plan. It exits 1 on a problem, and never on a warning
+  is refused. A segment's `palette` (its section's, sprint 038) must be in
+  `subject.json` too, and `spine.json` keeps it. It warns where a frame's
+  palette is not its section's and its entry gives no `paletteWhy`, where a
+  segment's frames name palettes but the segment names none, and where a
+  written frame's topic, sort or palette differs from its plan. It exits 1 on a problem, and never on a warning
   or on frames still to write.
 - `--complete DIR` writes a copy of the subject at `DIR/<subject>` holding
   only the frames that have a `frame.json`, with its spine and trails. With

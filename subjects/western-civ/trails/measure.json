@@ -8,18 +8,21 @@
 				"id": "bodies",
 				"title": "Bodies and rods",
 				"labelKind": "date",
+				"palette": "parchment",
 				"frames": ["royal-cubit"]
 			},
 			{
 				"id": "earth-and-sky",
 				"title": "Earth and sky",
 				"labelKind": "date",
+				"palette": "parchment",
 				"frames": ["harrison-chronometer", "metre-survey"]
 			},
 			{
 				"id": "constants",
 				"title": "Constants",
 				"labelKind": "date",
+				"palette": "night",
 				"frames": ["si-redefinition"]
 			}
 		]

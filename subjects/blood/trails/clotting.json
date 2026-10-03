@@ -8,6 +8,7 @@
 				"id": "clot",
 				"title": "Clotting and its drugs",
 				"labelKind": "date",
+				"palette": "ward",
 				"frames": [
 					"royal-hemophilia",
 					"heparin",

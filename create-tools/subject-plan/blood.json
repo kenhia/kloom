@@ -5,12 +5,14 @@
 				"id": "belief",
 				"title": "What we believed",
 				"labelKind": "date",
+				"palette": "vellum",
 				"frames": ["humours", "galen", "ibn-al-nafis"]
 			},
 			{
 				"id": "learned",
 				"title": "What we learned",
 				"labelKind": "date",
+				"palette": "anatomy",
 				"frames": [
 					"harvey",
 					"malpighi",
@@ -25,6 +27,7 @@
 				"id": "transfusion",
 				"title": "Transfusion",
 				"labelKind": "date",
+				"palette": "vein",
 				"frames": [
 					"early-transfusion",
 					"blundell",
@@ -42,6 +45,7 @@
 				"id": "uses",
 				"title": "What we do with blood",
 				"labelKind": "date",
+				"palette": "ward",
 				"frames": [
 					"fractionation",
 					"bone-marrow",
@@ -59,6 +63,7 @@
 				"id": "bench",
 				"title": "The bench, by hand and by machine",
 				"labelKind": "date",
+				"palette": "slide",
 				"frames": [
 					"hemocytometer",
 					"stained-film",
@@ -74,12 +79,14 @@
 				"id": "today",
 				"title": "Today",
 				"labelKind": "category",
+				"palette": "vein",
 				"frames": ["where-blood-is"]
 			},
 			{
 				"id": "dedication-seg",
 				"title": "Dedication",
 				"labelKind": "category",
+				"palette": "maroon",
 				"frames": ["dedication"]
 			}
 		]
@@ -95,6 +102,7 @@
 						"id": "wrong",
 						"title": "Beliefs that lasted",
 						"labelKind": "date",
+						"palette": "vellum",
 						"frames": [
 							"purity-of-blood",
 							"bloodletting",
@@ -116,6 +124,7 @@
 						"id": "groups",
 						"title": "More groups, more uses",
 						"labelKind": "date",
+						"palette": "vein",
 						"frames": ["forensic-typing", "bernstein", "more-antigens", "bombay", "hla"]
 					}
 				]
@@ -131,6 +140,7 @@
 						"id": "war",
 						"title": "Blood for soldiers",
 						"labelKind": "date",
+						"palette": "maroon",
 						"frames": [
 							"whole-blood-wwii",
 							"korea-blood",
@@ -153,6 +163,7 @@
 						"id": "clot",
 						"title": "Clotting and its drugs",
 						"labelKind": "date",
+						"palette": "ward",
 						"frames": [
 							"royal-hemophilia",
 							"heparin",
@@ -169,7 +180,7 @@
 	"frames": {
 		"humours": {
 			"topic": "The four humours",
-			"palette": "humour",
+			"palette": "vellum",
 			"sort": -400
 		},
 		"galen": {
@@ -179,7 +190,7 @@
 		},
 		"ibn-al-nafis": {
 			"topic": "Ibn al-Nafis and pulmonary transit",
-			"palette": "humour",
+			"palette": "vellum",
 			"sort": 1242
 		},
 		"harvey": {
@@ -189,7 +200,7 @@
 		},
 		"malpighi": {
 			"topic": "Malpighi's capillaries",
-			"palette": "folio",
+			"palette": "anatomy",
 			"sort": 1661
 		},
 		"red-cells": {
@@ -199,7 +210,7 @@
 		},
 		"hales": {
 			"topic": "Hales measures blood pressure",
-			"palette": "folio",
+			"palette": "anatomy",
 			"sort": 1733
 		},
 		"hemoglobin": {
@@ -209,7 +220,7 @@
 		},
 		"sickle-cell": {
 			"topic": "Sickle cell, a molecular disease",
-			"palette": "folio",
+			"palette": "anatomy",
 			"sort": 1949
 		},
 		"perutz-hemoglobin": {
@@ -224,7 +235,7 @@
 		},
 		"blundell": {
 			"topic": "Blundell's human transfusions",
-			"palette": "plasma",
+			"palette": "vein",
 			"sort": 1818
 		},
 		"abo": {
@@ -234,7 +245,7 @@
 		},
 		"citrate": {
 			"topic": "Citrate and stored blood",
-			"palette": "plasma",
+			"palette": "vein",
 			"sort": 1914
 		},
 		"robertson-depot": {
@@ -244,7 +255,7 @@
 		},
 		"blood-banks": {
 			"topic": "The first blood banks",
-			"palette": "plasma",
+			"palette": "vein",
 			"sort": 1936
 		},
 		"drew-plasma": {
@@ -254,7 +265,7 @@
 		},
 		"rh-factor": {
 			"topic": "The Rh factor",
-			"palette": "plasma",
+			"palette": "vein",
 			"sort": 1940
 		},
 		"coombs": {
@@ -264,12 +275,12 @@
 		},
 		"blood-bag": {
 			"topic": "The plastic blood bag",
-			"palette": "plasma",
+			"palette": "vein",
 			"sort": 1950
 		},
 		"fractionation": {
 			"topic": "Cohn's plasma fractionation",
-			"palette": "cryo",
+			"palette": "ward",
 			"sort": 1941
 		},
 		"bone-marrow": {
@@ -279,7 +290,7 @@
 		},
 		"cryoprecipitate": {
 			"topic": "Pool's cryoprecipitate",
-			"palette": "cryo",
+			"palette": "ward",
 			"sort": 1964
 		},
 		"apheresis": {
@@ -289,7 +300,7 @@
 		},
 		"rhogam": {
 			"topic": "Rh immune globulin",
-			"palette": "cryo",
+			"palette": "ward",
 			"sort": 1968
 		},
 		"gift-relationship": {
@@ -299,7 +310,7 @@
 		},
 		"hepatitis": {
 			"topic": "Hepatitis and the first screening",
-			"palette": "cryo",
+			"palette": "ward",
 			"sort": 1971
 		},
 		"hiv-blood": {
@@ -309,7 +320,7 @@
 		},
 		"epo": {
 			"topic": "Erythropoietin",
-			"palette": "cryo",
+			"palette": "ward",
 			"sort": 1985
 		},
 		"nat": {
@@ -319,7 +330,7 @@
 		},
 		"hemocytometer": {
 			"topic": "Counting cells on the hemocytometer",
-			"palette": "bench",
+			"palette": "slide",
 			"sort": 1852
 		},
 		"stained-film": {
@@ -329,7 +340,7 @@
 		},
 		"hematocrit": {
 			"topic": "Wintrobe's hematocrit tube",
-			"palette": "bench",
+			"palette": "slide",
 			"sort": 1929
 		},
 		"tube-typing": {
@@ -339,7 +350,7 @@
 		},
 		"coulter": {
 			"topic": "The Coulter principle",
-			"palette": "bench",
+			"palette": "slide",
 			"sort": 1953
 		},
 		"autoanalyzer": {
@@ -349,7 +360,7 @@
 		},
 		"lis": {
 			"topic": "Laboratory information systems",
-			"palette": "bench",
+			"palette": "slide",
 			"sort": 1965
 		},
 		"gel-card": {
@@ -372,7 +383,7 @@
 		},
 		"bloodletting": {
 			"topic": "Bloodletting and Washington's death",
-			"palette": "humour",
+			"palette": "vellum",
 			"sort": 1799
 		},
 		"louis-numerical": {
@@ -382,7 +393,7 @@
 		},
 		"race-serology": {
 			"topic": "Blood groups and race science",
-			"palette": "humour",
+			"palette": "vellum",
 			"sort": 1919
 		},
 		"segregated-blood": {
@@ -392,7 +403,7 @@
 		},
 		"forensic-typing": {
 			"topic": "Typing a bloodstain",
-			"palette": "plasma",
+			"palette": "vein",
 			"sort": 1915
 		},
 		"bernstein": {
@@ -402,7 +413,7 @@
 		},
 		"more-antigens": {
 			"topic": "Kell, Duffy and Kidd",
-			"palette": "plasma",
+			"palette": "vein",
 			"sort": 1946
 		},
 		"bombay": {
@@ -412,7 +423,7 @@
 		},
 		"hla": {
 			"topic": "Dausset and the HLA antigens",
-			"palette": "plasma",
+			"palette": "vein",
 			"sort": 1958
 		},
 		"whole-blood-wwii": {
@@ -422,7 +433,7 @@
 		},
 		"korea-blood": {
 			"topic": "Blood in the Korean War",
-			"palette": "branch",
+			"palette": "maroon",
 			"sort": 1950
 		},
 		"asbp": {
@@ -432,7 +443,7 @@
 		},
 		"vietnam-blood": {
 			"topic": "The blood program in Vietnam",
-			"palette": "branch",
+			"palette": "maroon",
 			"sort": 1965
 		},
 		"walking-blood-bank": {
@@ -442,7 +453,7 @@
 		},
 		"whole-blood-returns": {
 			"topic": "Low-titer O whole blood",
-			"palette": "branch",
+			"palette": "maroon",
 			"sort": 2016
 		},
 		"royal-hemophilia": {
@@ -452,7 +463,7 @@
 		},
 		"heparin": {
 			"topic": "The discovery of heparin",
-			"palette": "cryo",
+			"palette": "ward",
 			"sort": 1916
 		},
 		"prothrombin-time": {
@@ -462,7 +473,7 @@
 		},
 		"warfarin": {
 			"topic": "Sweet clover and warfarin",
-			"palette": "cryo",
+			"palette": "ward",
 			"sort": 1940
 		},
 		"hemophilia-hiv": {
@@ -472,7 +483,7 @@
 		},
 		"recombinant-factor": {
 			"topic": "Recombinant factor VIII",
-			"palette": "cryo",
+			"palette": "ward",
 			"sort": 1984
 		}
 	}

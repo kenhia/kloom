@@ -38,14 +38,16 @@ Decide the whole shape before writing a frame.
 - **Scale.** Match the depth asked for, not a count. For scale, western-civ
   has 16 main-spine frames and one trail; ai has 41 and four trails.
 - Write the plan as `create-tools/subject-plan/<subject>.json`: the shape of
-  `spine.json` plus `trails`, and a `frames` entry for every frame with its
+  `spine.json` plus `trails`, a `palette` on every segment (its section's,
+  below), and a `frames` entry for every frame with its
   `topic`, its `palette`, in a `date` segment its `sort`, and once the
   parts are shared out its `part`, the author part that writes it
   (`making.json` is an example). The plan's `owners` gives each shared
   name its owner (§3). `subject_plan.py --check` checks them
   before anyone writes: sorts rising within each segment, topics at most
   40 characters and unique, palettes in `subject.json`, and a warning where
-  a palette repeats down a segment. Three runs kept these only in the
+  a frame's palette is not its section's and its entry gives no
+  `paletteWhy`. Three runs kept these only in the
   brief's prose, where nothing checked them (sprint 021 put 1850 after
   1859). `subject_plan.py` writes the spine and trails from the plan
   holding only the frames written so far, so every commit validates.
@@ -60,7 +62,21 @@ Decide the whole shape before writing a frame.
   dark/light pairs that name each other as `counterpart`. Tie a pair to a
   part of the story (an era, a place, a mode of work). Check ink, muted,
   accent and line at **4.5:1 or better** against the background, and write
-  the check down (the sprint record keeps the numbers).
+  the check down (the sprint record keeps the numbers). The brightness
+  sliders (korg 3495) dim a light background and lift a dark one; a new
+  palette must keep that ratio across their range too, which
+  `engine/colour.test.ts` checks for every subject.
+- **A palette per section** (sprint 038, korg 3495). A segment's palette
+  tracks its era or theme, the way western-civ's do, and every frame in it
+  wears that palette; set it as the segment's `palette` in the plan, which
+  `spine.json` keeps. Do not alternate dark and light from frame to frame:
+  until sprint 038 the rules asked for that, and five subjects switched
+  scheme on every step, which readers found distracting. Keep the
+  subject's balance across sections instead (a dark section, a light one,
+  as the story turns). A trail takes its anchor's section's palette unless
+  its own era says otherwise. A frame that must stand apart (a dedication)
+  is its own one-frame segment, or says why in its plan entry's
+  `paletteWhy`.
 - **The voice.** Decide the headline voice once. western-civ and ai use a
   collective "we"; a subject built on a person may need "he" or "she", or
   the person's own name.
@@ -173,8 +189,8 @@ Things authors working at once cannot see, so the brief settles them:
   open from one event: sprint 028's `hiv-blood` and `hemophilia-hiv` both
   began from the CDC's report of July 1982, and one was rewritten after
   the other was committed.
-- **Each frame's palette.** It is in the plan and quoted in the brief, so
-  that dark and light alternate along the spine however the frames are
+- **Each frame's palette.** It is its section's, in the plan and quoted
+  in the brief, so a section stays one palette however its frames are
   shared out.
 - **Accents and images** must not repeat across the subject. Tell authors
   to grep before choosing and again before reporting, and settle clashes

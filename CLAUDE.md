@@ -234,6 +234,14 @@ single letters still read), reserved combinations refused with a reason,
 clashes swapped; a binding with Alt, Ctrl or Meta acts page-wide (exempt
 from 2.1.4); and a pop-up whose selects never go below 9rem
 (`just keys-check`).
+Sprint 038 colours by section: a `palette` per segment, worn by every
+frame in it, and every subject re-paletted that way (switches between
+dark and light down from up to 100% of steps to at most 14%); Scene
+colours and Reading colours set the scene pane and the reading apart;
+Light and Dark brightness sliders that keep 4.5:1 (`engine/colour.ts`,
+`just colours-check`); the old Palette setting migrated; and the
+authoring rule that made frames alternate replaced by a palette per
+section.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

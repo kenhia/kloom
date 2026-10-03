@@ -5,12 +5,14 @@
 				"id": "counting",
 				"title": "Counting",
 				"labelKind": "date",
+				"palette": "clay",
 				"frames": ["ishango-bone", "ybc-7289", "rhind-papyrus"]
 			},
 			{
 				"id": "greeks",
 				"title": "The Greeks",
 				"labelKind": "date",
+				"palette": "vellum",
 				"frames": [
 					"incommensurable",
 					"euclid-elements",
@@ -23,30 +25,35 @@
 				"id": "beyond-greece",
 				"title": "Beyond Greece",
 				"labelKind": "date",
+				"palette": "vellum",
 				"frames": ["nine-chapters", "brahmagupta-zero", "al-khwarizmi", "fibonacci", "madhava"]
 			},
 			{
 				"id": "new-mathematics",
 				"title": "The new mathematics",
 				"labelKind": "date",
+				"palette": "oakgall",
 				"frames": ["cardano-cubic", "descartes-geometry", "calculus", "konigsberg"]
 			},
 			{
 				"id": "algebra",
 				"title": "Algebra",
 				"labelKind": "category",
+				"palette": "blackboard",
 				"frames": ["quintic", "groups", "matrices", "noether", "monster"]
 			},
 			{
 				"id": "analysis",
 				"title": "Analysis",
 				"labelKind": "category",
+				"palette": "blackboard",
 				"frames": ["complex-numbers", "fourier", "rigour", "gradient-descent", "chaos"]
 			},
 			{
 				"id": "geometry",
 				"title": "Geometry",
 				"labelKind": "category",
+				"palette": "graphpaper",
 				"frames": [
 					"perspective",
 					"non-euclidean",
@@ -60,6 +67,7 @@
 				"id": "probability",
 				"title": "Probability",
 				"labelKind": "category",
+				"palette": "printout",
 				"frames": [
 					"problem-of-points",
 					"large-numbers",
@@ -75,6 +83,7 @@
 				"id": "logic",
 				"title": "Logic and foundations",
 				"labelKind": "category",
+				"palette": "terminal",
 				"frames": [
 					"boole",
 					"cantor",
@@ -88,6 +97,7 @@
 				"id": "now",
 				"title": "Mathematics now",
 				"labelKind": "category",
+				"palette": "terminal",
 				"frames": ["computer-proof", "where-mathematics-is"]
 			}
 		]
@@ -103,6 +113,7 @@
 						"id": "flt",
 						"title": "Fermat's Last Theorem",
 						"labelKind": "date",
+						"palette": "quarto",
 						"frames": [
 							"fermats-margin",
 							"euler-cubes",
@@ -125,6 +136,7 @@
 						"id": "primes",
 						"title": "The primes",
 						"labelKind": "date",
+						"palette": "vellum",
 						"frames": [
 							"sieve-of-eratosthenes",
 							"disquisitiones",
@@ -147,6 +159,7 @@
 						"id": "infinity",
 						"title": "Infinity",
 						"labelKind": "date",
+						"palette": "terminal",
 						"frames": ["zeno", "galileos-paradox", "banach-tarski", "continuum-hypothesis"]
 					}
 				]

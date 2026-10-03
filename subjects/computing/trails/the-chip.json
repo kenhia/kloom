@@ -8,6 +8,7 @@
 				"id": "chip",
 				"title": "The chip",
 				"labelKind": "date",
+				"palette": "teletype",
 				"frames": [
 					"silicon-valley",
 					"integrated-circuit",

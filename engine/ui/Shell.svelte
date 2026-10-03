@@ -22,10 +22,11 @@
 	} from '../panes';
 	import {
 		browserStorage,
+		coloursOf,
 		followSpine,
+		framePalettes,
 		layout,
-		paletteFor,
-		paletteMode,
+		sectionPalette,
 		type Layout
 	} from '../settings';
 	import type { UserSettings } from '../user-settings.svelte';
@@ -225,9 +226,21 @@
 			? [{ id: 'upper' as const, label: 'Resize the narrative', controls: 'narrative-panel' }]
 			: [])
 	]);
-	const palette = $derived(
-		paletteFor(subject, frame.scene.palette, settings.get(paletteMode.id) ?? paletteMode.default)
+	/**
+	 * The scene's colours and the reading's (docs/design.md §Colours, korg
+	 * 3495), worked out from the frame on the spine. The scene pane wears the
+	 * first; the shell, and so the reading, the notes, the AI pane, the tab row
+	 * and the hint line, wears the second.
+	 */
+	const palettes = $derived(
+		framePalettes(
+			subject,
+			frame.scene.palette,
+			sectionPalette(subject, stop.segment),
+			coloursOf(settings)
+		)
 	);
+	const palette = $derived(palettes.reading);
 	const narrativeId = $derived(
 		sync === 'follow' || !pinned || !subject.frames[pinned] ? stop.frameId : pinned
 	);
@@ -257,7 +270,7 @@
 		const key = `${subject.id}/${frame.id}`;
 		onmap?.({
 			target: { view: 'frame', key, steps: 2 },
-			scheme: palette.scheme,
+			scheme: palettes.scene.scheme,
 			here: key,
 			refocus: () => mapButton?.focus()
 		});
@@ -785,6 +798,7 @@
 			{path}
 			index={clamp(index, path.length)}
 			{frame}
+			palette={palettes.scene}
 			{trail}
 			{branches}
 			{marksOf}
@@ -1022,7 +1036,8 @@
 	 * properties snap, so everything painted straight from a variable (accent
 	 * words, buttons, borders, SVG strokes) used to change at once while the
 	 * background faded behind it: a flash bulb (korg 3370). The initial values
-	 * are only fallbacks; each frame's palette sets them.
+	 * are only fallbacks; each frame's palette sets them, the reading's here
+	 * and the scene's on the spine pane.
 	 */
 	@property --background {
 		syntax: '<color>';

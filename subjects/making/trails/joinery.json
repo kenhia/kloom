@@ -8,6 +8,7 @@
 				"id": "joinery-joints",
 				"title": "Joints",
 				"labelKind": "category",
+				"palette": "shavings",
 				"frames": ["mortise-and-tenon", "dovetail", "wood-screws"]
 			}
 		]

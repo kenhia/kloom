@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { Setting } from '../settings';
 	import type { UserSettings } from '../user-settings.svelte';
 	import IconButton from './IconButton.svelte';
 	import KeysDialog from './KeysDialog.svelte';
@@ -36,9 +37,55 @@
 	}
 
 	const ticks = [0, 45, 90, 135, 180, 225, 270, 315];
+
+	/** The rows in the open, and those kept under Advanced (korg 3495). */
+	const plain = $derived(settings.list.filter((s) => !s.advanced));
+	const advanced = $derived(settings.list.filter((s) => s.advanced));
+
+	/** A slider's position: the index of the current choice. */
+	const at = (s: Setting) =>
+		Math.max(
+			0,
+			s.choices.findIndex((c) => c.value === settings.get(s.id))
+		);
 </script>
 
 <svelte:window onpointerdown={outside} />
+
+<!-- One setting: a labelled drop-down, or a slider over its choices in order. -->
+{#snippet row(setting: Setting)}
+	<label for="{id}-{setting.id}">{setting.label}</label>
+	{#if setting.control === 'range'}
+		{@const i = at(setting)}
+		<div class="range">
+			<input
+				id="{id}-{setting.id}"
+				type="range"
+				min="0"
+				max={setting.choices.length - 1}
+				step="1"
+				value={i}
+				aria-valuetext={setting.choices[i].label}
+				aria-describedby="{id}-{setting.id}-said"
+				oninput={(e) => settings.set(setting.id, setting.choices[+e.currentTarget.value].value)}
+				onkeydown={escape}
+			/>
+			<output id="{id}-{setting.id}-said" for="{id}-{setting.id}">{setting.choices[i].label}</output
+			>
+		</div>
+	{:else}
+		<select
+			id="{id}-{setting.id}"
+			value={settings.get(setting.id)}
+			onchange={(e) => settings.set(setting.id, e.currentTarget.value)}
+			onkeydown={escape}
+		>
+			{#each setting.choices as choice (choice.value)}
+				<option value={choice.value}>{choice.label}</option>
+			{/each}
+		</select>
+	{/if}
+{/snippet}
 
 <div class="settings" bind:this={root}>
 	<IconButton
@@ -76,22 +123,22 @@
 		hidden={!open}
 	>
 		<p id="{id}-title" class="title">Settings</p>
-		{#each settings.list as setting, i (setting.id)}
-			{#if setting.group && setting.group !== settings.list[i - 1]?.group}
+		{#each plain as setting, i (setting.id)}
+			{#if setting.group && setting.group !== plain[i - 1]?.group}
 				<p class="group">{setting.group}</p>
 			{/if}
-			<label for="{id}-{setting.id}">{setting.label}</label>
-			<select
-				id="{id}-{setting.id}"
-				value={settings.get(setting.id)}
-				onchange={(e) => settings.set(setting.id, e.currentTarget.value)}
-				onkeydown={escape}
-			>
-				{#each setting.choices as choice (choice.value)}
-					<option value={choice.value}>{choice.label}</option>
-				{/each}
-			</select>
+			{@render row(setting)}
 		{/each}
+		{#if advanced.length}
+			<details class="advanced">
+				<summary onkeydown={escape}>Advanced</summary>
+				<div class="rows">
+					{#each advanced as setting (setting.id)}
+						{@render row(setting)}
+					{/each}
+				</div>
+			</details>
+		{/if}
 		<button
 			type="button"
 			class="keys"
@@ -137,7 +184,8 @@
 	.title,
 	.group,
 	.note,
-	.keys {
+	.keys,
+	.advanced {
 		grid-column: 1 / -1;
 		margin: 0;
 	}
@@ -171,6 +219,37 @@
 		background: var(--background);
 		border: 1px solid var(--muted);
 		border-radius: 0.25rem;
+	}
+	/* Advanced keeps the panel's two columns for its own rows. */
+	.advanced .rows {
+		display: grid;
+		grid-template-columns: minmax(0, auto) minmax(9rem, max-content);
+		align-items: center;
+		gap: 0.5rem 0.75rem;
+		margin-top: 0.5rem;
+	}
+	summary {
+		width: max-content;
+		cursor: pointer;
+		font-family: var(--mono);
+		font-size: 0.75rem;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: var(--muted);
+	}
+	.range {
+		display: grid;
+		gap: 0.15rem;
+		min-width: 9rem;
+	}
+	input[type='range'] {
+		width: 100%;
+		margin: 0;
+		accent-color: var(--accent);
+	}
+	output {
+		font-size: 0.75rem;
+		color: var(--muted);
 	}
 	.keys {
 		justify-self: start;

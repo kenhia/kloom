@@ -218,3 +218,19 @@ keys-check:
         for _ in $(seq 60); do curl -sf -o /dev/null "$url/" && break; sleep 0.5; done
     fi
     node create-tools/keys-check/keys_check.mjs --url "$url"
+
+# Scene and reading colours (korg 3495), keyboard-only at 1280x800 and 390
+# wide: the panes coloured apart, the old Palette setting carried over, both
+# brightness sliders at both ends with contrast read off the page, and the
+# pop-up on screen (same Playwright and dev server as scene-fit)
+colours-check:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    url="${KLOOM_URL:-http://localhost:5415}"
+    if ! curl -sf -o /dev/null "$url/"; then
+        node_modules/.bin/vite dev --host 127.0.0.1 --port 5415 --strictPort >/dev/null 2>&1 &
+        server=$!
+        trap 'kill $server' EXIT
+        for _ in $(seq 60); do curl -sf -o /dev/null "$url/" && break; sleep 0.5; done
+    fi
+    node create-tools/colours-check/colours_check.mjs --url "$url"

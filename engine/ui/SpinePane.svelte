@@ -1,13 +1,19 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import { hasMarks, marksText, NO_MARKS, type FrameMarks } from '../marks';
-	import type { Frame, FrameHead, Trail } from '../model';
+	import type { Frame, FrameHead, Palette, Trail } from '../model';
 	import { cursorAt, indexLabel, type Stop } from '../navigation';
 
 	interface Props {
 		path: Stop[];
 		index: number;
 		frame: Frame;
+		/**
+		 * What the scene wears (korg 3495): the scene and its HUD are coloured
+		 * apart from the reading, so the reader can keep one calm and the other
+		 * by section.
+		 */
+		palette: Palette;
 		/** The trail being walked, or null on the main spine. */
 		trail: Trail | null;
 		/** Frame ids on this spine that have a trail branching from them. */
@@ -31,6 +37,7 @@
 		path,
 		index,
 		frame,
+		palette,
 		trail,
 		branches,
 		marksOf = () => NO_MARKS,
@@ -76,7 +83,18 @@
 	}
 </script>
 
-<section id="spine-pane" class="spine" aria-label="Spine" bind:this={pane}>
+<section
+	id="spine-pane"
+	class="spine"
+	aria-label="Spine"
+	style:--background={palette.background}
+	style:--ink={palette.ink}
+	style:--muted={palette.muted}
+	style:--accent={palette.accent}
+	style:--line={palette.line}
+	style:color-scheme={palette.scheme}
+	bind:this={pane}
+>
 	<span class="bracket tl" aria-hidden="true"></span>
 	<span class="bracket tr" aria-hidden="true"></span>
 	<span class="bracket bl" aria-hidden="true"></span>
@@ -203,6 +221,20 @@
 		padding: 1.25rem 1.5rem 0.75rem;
 		overflow: hidden;
 		user-select: none;
+		color: var(--ink);
+		background: var(--background);
+		/* Its own palette fades as the shell's does (docs/design.md §Palette transitions). */
+		transition:
+			--background var(--palette-fade),
+			--ink var(--palette-fade),
+			--muted var(--palette-fade),
+			--accent var(--palette-fade),
+			--line var(--palette-fade);
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.spine {
+			transition: none;
+		}
 	}
 
 	.bracket {

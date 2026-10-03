@@ -8,6 +8,7 @@
 				"id": "alchemists",
 				"title": "Alchemy's last century",
 				"labelKind": "date",
+				"palette": "alum",
 				"frames": ["brand-phosphorus", "newton-alchemy", "bottger-porcelain"]
 			}
 		]

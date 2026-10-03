@@ -8,6 +8,7 @@
 				"id": "field",
 				"title": "The field",
 				"labelKind": "date",
+				"palette": "foolscap",
 				"frames": ["oersted", "ampere", "faraday-lines", "displacement-current", "hertz"]
 			}
 		]

@@ -8,6 +8,7 @@
 				"id": "bell-labs",
 				"title": "From Bell Labs",
 				"labelKind": "date",
+				"palette": "schematic",
 				"frames": ["multics", "c-language", "pipes", "bsd", "unix-wars"]
 			}
 		]

@@ -5,7 +5,7 @@ import { loadSubject } from '$engine/load';
 import type { Subject } from '$engine/model';
 import { bodyOf, subjectHeadOf, type ServedBody } from '$engine/served';
 import { startLook } from '$engine/start';
-import { followSpine, layout, paletteMode } from '$engine/settings';
+import { followSpine, layout, readingColours, sceneColours } from '$engine/settings';
 import { parseBinding, type Shortcut } from '$engine/keys';
 import type { MyNotesOffer } from '$engine/my-notes';
 import type { Note, ReaderLayer } from '$engine/reader-data';
@@ -131,8 +131,8 @@ describe('the shell', () => {
 		);
 		expect(citations).toContain('<i>Theogony</i>');
 		// Between the sources and the AI pane in document (and so tab) order.
-		expect(body.indexOf('Sources')).toBeLessThan(body.indexOf('<details'));
-		expect(body.indexOf('<details')).toBeLessThan(body.indexOf('id="ai-input"'));
+		expect(body.indexOf('Sources')).toBeLessThan(body.indexOf('<details class="citations'));
+		expect(body.indexOf('<details class="citations')).toBeLessThan(body.indexOf('id="ai-input"'));
 	});
 
 	it('paints the first frame’s palette', () => {
@@ -268,10 +268,26 @@ describe('the settings control', () => {
 	it('renders each setting as a labelled select, starting at its default', () => {
 		const { body } = page();
 		const id = body.match(/<select[^>]*id="([^"]+)"/)![1];
-		expect(body).toMatch(new RegExp(`<label for="${id}"[^>]*>Palette</label>`));
-		expect(body).toMatch(/<option value="mixed"[^>]*selected/);
-		expect(text(body)).toContain('Dark');
-		expect(text(body)).toContain('Light');
+		expect(body).toMatch(new RegExp(`<label for="${id}"[^>]*>Scene colours</label>`));
+		expect(body).toMatch(/<option value="section"[^>]*selected/);
+		expect(body).toMatch(/<option value="same"[^>]*selected/);
+		expect(text(body)).toContain('Always dark');
+		expect(text(body)).toContain('Always light');
+		// The old single Palette row is gone (korg 3495).
+		expect(body).not.toMatch(/>Palette<\/label>/);
+	});
+
+	it('keeps the brightness sliders under a collapsed Advanced, each at As designed', () => {
+		const { body } = page();
+		const advanced = body.slice(body.indexOf('<details class="advanced'));
+		expect(advanced).toMatch(/^<details class="advanced[^"]*">/);
+		expect(advanced).not.toMatch(/^<details[^>]*\bopen\b/);
+		for (const label of ['Light brightness', 'Dark brightness']) {
+			const id = new RegExp(`<label for="([^"]+)"[^>]*>${label}</label>`).exec(advanced)![1];
+			const input = new RegExp(`<input[^>]*id="${id}"[^>]*>`).exec(advanced)![0];
+			expect(input).toContain('type="range"');
+			expect(input).toContain('aria-valuetext="As designed"');
+		}
 	});
 
 	it('offers the ask model as a drop-down of the app config’s models, Sonnet 5 by default', () => {
@@ -361,22 +377,40 @@ describe('the web switch in the AI pane', () => {
 	});
 });
 
-describe('the palette mode', () => {
-	const shell = (mode: string) => {
-		const settings = new UserSettings([paletteMode], () => null);
-		settings.set('palette', mode);
-		return render(Shell, { props: { subject, bodies, settings } }).body;
+describe('scene and reading colours (korg 3495)', () => {
+	const shell = (scene: string, reading = 'same', frame?: string) => {
+		const settings = new UserSettings([sceneColours, readingColours], () => null);
+		settings.set('scene', scene);
+		settings.set('reading', reading);
+		const body = render(Shell, { props: { subject, bodies, settings, startAt: frame } }).body;
+		// The scene pane's own style, and the shell's, which the reading wears.
+		const style = (re: RegExp) => body.match(re)?.[1] ?? '';
+		return {
+			scene: style(/id="spine-pane"[^>]*style="([^"]*)"/),
+			reading: style(/class="shell[^"]*"[^>]*style="([^"]*)"/)
+		};
 	};
+	const bg = (name: string) => `--background: ${subject.palettes[name].background}`;
 
-	it('paints the first frame (night) as itself in Mixed and Dark', () => {
-		expect(shell('mixed')).toContain(`--background: ${subject.palettes.night.background}`);
-		expect(shell('dark')).toContain(`--background: ${subject.palettes.night.background}`);
+	it('paints the first frame (night) as itself by section, by frame and in Dark', () => {
+		for (const mode of ['section', 'frame', 'dark']) {
+			const { scene, reading } = shell(mode);
+			expect(scene).toContain(bg('night'));
+			expect(reading).toContain(bg('night'));
+		}
 	});
 
 	it('paints the first frame in its light counterpart in Light', () => {
-		const body = shell('light');
-		expect(body).toContain(`--background: ${subject.palettes.parchment.background}`);
-		expect(body).toContain('color-scheme: light');
+		const { scene } = shell('light');
+		expect(scene).toContain(bg('parchment'));
+		expect(scene).toContain('color-scheme: light');
+	});
+
+	it('colours the reading apart from the scene when the reader fixes it', () => {
+		const { scene, reading } = shell('section', 'light');
+		expect(scene).toContain(bg('night'));
+		expect(reading).toContain(bg('parchment'));
+		expect(reading).toContain('color-scheme: light');
 	});
 
 	it('gives every palette of the subject a counterpart of the other scheme', () => {

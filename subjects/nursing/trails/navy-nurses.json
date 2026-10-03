@@ -8,6 +8,7 @@
 				"id": "navy",
 				"title": "The Navy Nurse Corps",
 				"labelKind": "date",
+				"palette": "whites",
 				"frames": ["hospital-ships", "navy-pow", "nurse-rank", "saigon-1964", "repose", "duerk"]
 			}
 		]

@@ -287,6 +287,14 @@ describe('validate', () => {
 		]);
 	});
 
+	it('takes a section palette the subject defines, and fails one it does not (korg 3495)', () => {
+		const r = raw();
+		(r.spine as Loose).segments[0].palette = 'night';
+		expect(validate(r)).toEqual([]);
+		(r.spine as Loose).segments[0].palette = 'neon';
+		expect(validate(r)).toEqual(['spine.json segment 0: unknown palette "neon"']);
+	});
+
 	it('fails a palette counterpart that is unknown or of the same scheme', () => {
 		const r = raw();
 		const palettes = (r.manifest as Loose).palettes;

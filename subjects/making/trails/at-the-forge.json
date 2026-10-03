@@ -8,6 +8,7 @@
 				"id": "forge-work",
 				"title": "Forge work",
 				"labelKind": "category",
+				"palette": "ember",
 				"frames": ["drawing-out", "forge-welding", "pattern-welding", "heat-treatment"]
 			}
 		]
