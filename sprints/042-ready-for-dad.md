@@ -120,3 +120,28 @@ with the labels taken out, has no British spellings.
 ## Follow-ups
 
 None filed.
+
+## Deployed
+
+On 2026-10-03 (23:30 PDT on the 2nd), from merged `main` `b8a19f8`
+(PR #49) on kai, under overseer clearance (comment 3403). Every probe ran
+from kai.
+
+- **The kai service** (`.sprint-deploy`, `recipe: deploy`): `just deploy`.
+  `just verify` passed all ten checks and printed `deployed b8a19f8c2`,
+  library `2026-10-03T06:30:25.074Z 7a1297`. On the ssh door, `/guide`,
+  `/welcome` and `/western-civ` answered 200. Each carries its guide
+  links (`./guide`, since SvelteKit writes relative paths), and `/guide`
+  has its Colors section.
+- **The public site:** `just publish-public`, release **v5**, image
+  `registry.fly.io/kloom-reader:b8a19f8c2-202610030630`, library
+  `2026-10-03T06:30:40.669Z b21b9f`. `verify-public` passed every check
+  inside the publish and again when run alone (`note 0 notes, 0 detached`).
+  For a stranger, `/guide` answers `303` to `/signin?next=%2Fguide`.
+- **Signed in on the public site**, as the throwaway `kloom-verify`
+  reader (enabled, invited and signed in, then disabled again with 0
+  sessions; `jkh` untouched, still "invited, last seen never"):
+  - `/guide` answered 200, with the Colors section, 21 icons drawn, no
+    "Asking and growing", and the sign-in section.
+  - `/western-civ` answered 200 and links to the guide once.
+  - `/welcome` answered 200 and links to the guide three times.
