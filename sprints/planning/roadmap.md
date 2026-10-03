@@ -253,6 +253,15 @@ bench` — [record](../032-content-db.md).
   year-long sessions and an admin CLI; and the Welcome and How-To page —
   [record](../039-reader-edition-and-sign-in.md).
 
+- Sprint 040: the reader site on Fly.io (proposal 3506, covering 3503; the
+  second slice of program 3508): the reader edition published at
+  kloom.kenhiatt.us from an image built on kai (`publish.json` and
+  `just stage-public`, the library and media as its last layers), `fly.toml` with
+  a volume for `reader.db`, HSTS, an app-scoped deploy token in k-homelab and
+  krot, and `just publish-public`, `verify-public`, `invite`, `readers` and
+  `pull-notes`; Joel and Kathy invited as `jkh` —
+  [record](../040-reader-site-on-fly.md).
+
 ## Next
 
 - Whatever the korg Planning queue holds for project kloom (72).

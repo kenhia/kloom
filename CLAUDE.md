@@ -248,6 +248,13 @@ grow and keep stripped out, not switched off, and checked by `just
 reader-gate`; invite-only sign-in (accounts in `reader.db`, one-time
 welcome links that double as resets, year-long sessions, `admin.mjs`, no
 web admin); and the Welcome and How-To page (`/welcome`).
+Sprint 040 the reader site on Fly.io, kloom.kenhiatt.us (app
+`kloom-reader`): an image built on kai from `publish.json`'s subjects
+(`just stage-public`, library and media as the last layers), `fly.toml`
+with `reader.db` on a volume, HSTS, an app-scoped deploy token in kai's
+secrets file (`deploy/fly.sh`), and `just publish-public` (clean `main`
+only), `verify-public`, `invite`, `readers`, `disable-reader` and
+`pull-notes` (docs/deploying.md §Public reader site).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
