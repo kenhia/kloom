@@ -8,7 +8,7 @@
 	import { contentsOf, openTrails } from '../contents';
 	import { clamp, indexLabel, stops, WheelGate, type BackStop, type SyncMode } from '../navigation';
 	import { AHEAD, PENDING, type ServedBody } from '../served';
-	import { keyName, pageKey, SHORTCUTS, tabKey } from '../keys';
+	import { keyName, modified, onMac, pageKey, SHORTCUTS, tabKey, type Binding } from '../keys';
 	import { marksText, type FrameMarks } from '../marks';
 	import {
 		bounds,
@@ -23,8 +23,6 @@
 	import {
 		browserStorage,
 		followSpine,
-		keymapOf,
-		keyWarnings,
 		layout,
 		paletteFor,
 		paletteMode,
@@ -189,10 +187,9 @@
 		ai: 'ai-results'
 	};
 
-	/** The reader's keys (korg 3363): their letter for each shortcut, or none. */
-	const keys = $derived(keymapOf((id) => settings.get(id)));
-	const shown = (k: string | null) => (k ? keyName(k) : null);
-	const clashes = $derived(keyWarnings(keys));
+	/** The reader's keys (korg 3363, 3493): their binding for each shortcut, or none. */
+	const keys = $derived(settings.keys.map);
+	const shown = (k: Binding | null) => (k ? keyName(k, onMac()) : null);
 	// Pane sizes (§Layout): dragged at the dividers, remembered per layout.
 	let saved = $state<SavedPanes>({});
 	let panesEl = $state<HTMLElement>();
@@ -473,11 +470,11 @@
 				(s.action !== 'back' || back) &&
 				(s.action !== 'map' || onmap) &&
 				((s.action !== 'random' && s.action !== 'anywhere') || onrandom)
-		).map((s, i, all) => ({
+		).map((s) => ({
 			action: s.action,
-			/** What comes before it: nothing, a comma, or "and" before the last. */
-			lead: i === 0 ? '' : i === all.length - 1 ? ' and ' : ', ',
-			key: keyName(keys[s.action]!),
+			/** Alt, Ctrl or Meta held: it acts anywhere, not only in the panes (WCAG 2.1.4). */
+			anywhere: modified(keys[s.action]!),
+			key: shown(keys[s.action])!,
 			label: {
 				sync: 'sync',
 				trail: 'trail',
@@ -492,6 +489,17 @@
 				anywhere: 'anywhere'
 			}[s.action]
 		}))
+	);
+
+	/** The hints in two runs, the scoped ones and those that act anywhere, each with its joins. */
+	const hintRuns = $derived(
+		[hints.filter((h) => !h.anywhere), hints.filter((h) => h.anywhere)].map((run) =>
+			run.map((h, i) => ({
+				...h,
+				/** What comes before it: nothing, a comma, or "and" before the last. */
+				lead: i === 0 ? '' : i === run.length - 1 ? ' and ' : ', '
+			}))
+		)
 	);
 
 	const linksOffer = $derived<LinksOffer | null>(
@@ -655,9 +663,9 @@
 
 	/** Page-wide keys: engine/keys.ts decides what a press means where focus is. */
 	function keydown(e: KeyboardEvent) {
-		if (!active || e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
+		if (!active || e.defaultPrevented) return;
 		const target = e.target instanceof Element ? e.target : null;
-		const action = pageKey(e.key, target, keys);
+		const action = pageKey(e, target, keys);
 		switch (action) {
 			case 'to-spine':
 				slider?.focus();
@@ -919,7 +927,7 @@
 						{@html homeIcon}
 					</IconButton>
 				{/if}
-				<Settings {settings} warnings={clashes} />
+				<Settings {settings} />
 			</div>
 		</div>
 
@@ -993,10 +1001,15 @@
 
 	<p id="ai-hint" class="hint">
 		<kbd>←</kbd><kbd>→</kbd> spine · <kbd>↑</kbd><kbd>↓</kbd> narrative
-		{#if hints.length}
+		{#if hintRuns[0].length}
 			·
 			<!-- prettier-ignore -->
-			<span>{#each hints as h (h.action)}{h.lead}<kbd>{h.key}</kbd>&nbsp;{h.label}{/each}, in the spine{layer ? ', narrative or notes' : ' or narrative'}</span>
+			<span>{#each hintRuns[0] as h (h.action)}{h.lead}<kbd>{h.key}</kbd>&nbsp;{h.label}{/each}, in the spine{layer ? ', narrative or notes' : ' or narrative'}</span>
+		{/if}
+		{#if hintRuns[1].length}
+			·
+			<!-- prettier-ignore -->
+			<span>{#each hintRuns[1] as h (h.action)}{h.lead}<kbd>{h.key}</kbd>&nbsp;{h.label}{/each}, anywhere</span>
 		{/if}
 		· <kbd>Tab</kbd> into and out of the AI pane · <kbd>Esc</kbd> back to the spine · drag a divider,
 		or focus it and use the arrows

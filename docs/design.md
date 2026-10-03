@@ -699,16 +699,27 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
 - **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
   T, B, N, A, O, C, R, M, D and W act only while focus is inside the spine, the narrative or the
   notes. They do nothing in the AI pane, in the settings panel, in the note
-  editor, or on the bare page.
-- **And remappable** (WCAG 2.1.4's other remedy, sprint 011, korg 3363).
-  Each character shortcut is a setting under "Keys": any letter, or Off
-  (`kloom.key.sync`, `.trail`, `.bookmark`, `.note`, `.annotate`,
-  `.my-notes`, `.contents`, `.back`, `.map`, `.random`, `.anywhere`). `keymapOf` turns the
-  settings into a keymap and `pageKey` reads it. The help bar, the Add a note
-  button, the trail buttons and the sync line all show the reader's letters,
-  and leave a key out when it is off. A letter given to two shortcuts is
-  allowed: the first in `SHORTCUTS` order acts, and the settings panel says
-  which. The arrows, Home/End, Esc and Tab are not remappable. They are not
+  editor, or on the bare page. That holds for any binding without Alt, Ctrl
+  or Meta, Shift included, since Shift with a letter is still a character
+  key.
+- **A binding with Alt, Ctrl or Meta acts page-wide** (sprint 037, korg
+  3493). WCAG 2.1.4 is about single character keys, and a combination with
+  one of those modifiers is not one, so it is exempt. It still stands down in
+  a text field and in anything marked `data-own-keys` (a dialog, the
+  settings), where Option with a letter types a character on a Mac. The help
+  bar lists such bindings apart, ending "anywhere".
+- **And rebindable** (WCAG 2.1.4's other remedy, sprint 011, korg 3363;
+  modifiers from sprint 037, korg 3493). Each shortcut is rebound, turned off
+  or reset in the keyboard shortcuts dialog (§Keyboard shortcuts). A binding
+  is `{key, shift, alt, ctrl, meta}` (`Binding` in `engine/keys.ts`) and
+  `pageKey` matches the key and the modifiers. Shift is let off a plain
+  binding (N is n, as it always was), never the other way. The help bar, the
+  Add a note button, the trail buttons and the sync line all show the
+  reader's keys, modifiers included, and leave one out when it is off. One
+  binding given to two shortcuts is allowed: the first in `SHORTCUTS` order
+  acts, and the dialog says which. The arrows, Home/End, Esc and Tab are
+  not rebindable, and stand down under Alt, Ctrl or Meta (Alt+← is the
+  browser's Back). They are not
   character keys, so 2.1.4 does not reach them, and they are the slider's,
   tabs' and splitter's own ARIA keys, which assistive technology expects.
   The arrows, Home/End and Esc are not character keys, so they stay
@@ -1912,9 +1923,18 @@ Built in sprint 003 (korg 3373, 3372).
   Opus 5.5 by default, `kloom.growModel`.
 - **The layout** (sprint 010) is a row too: "Layout", two panes with tabs by
   default, `kloom.layout` (§Layout).
-- **Keys** (sprint 011): one row per character shortcut, gathered under a
-  "Keys" heading (a setting's optional `group`), each any letter or Off
-  (§Interaction). The panel scrolls when it outgrows the window.
+- **Keys** were rows in the pop-up from sprint 011 to 036, a letter or Off
+  each. Since sprint 037 (korg 3493) they are in their own dialog
+  (§Keyboard shortcuts), behind a "Keyboard shortcuts…" button at the
+  foot of the pop-up. A binding is not a pick from a list, so the shortcuts
+  are not settings rows: `UserSettings.keys` (a `UserKeys`) holds them.
+- **No label can squeeze a control.** The pop-up's grid is
+  `minmax(0, auto) minmax(9rem, max-content)`: labels wrap rather than set
+  the column, and every select is at least 9rem. Until sprint 037 the label
+  column took the longest label in the pop-up ("Go to a random frame in
+  this subject") and the selects, at `min-width: 0`, got what was left, down
+  to "Ligh" and "Opu". `just keys-check` measures it with every label made
+  long. The panel scrolls when it outgrows the window.
 - **The registry.** `engine/settings.ts` defines a `Setting` as
   `{id, label, choices: [{value, label}], default, storageKey}`. Every
   setting is a pick from a fixed list, and there is no free-text kind. A
@@ -1955,6 +1975,48 @@ Built in sprint 003 (korg 3373, 3372).
   The start screen follows the mode as well. It is server-rendered in the
   default mode, so a reader with a remembered Light choice sees it switch
   once on load.
+
+## Keyboard shortcuts
+
+Sprint 037, korg 3493. A modal `<dialog>` (`engine/ui/KeysDialog.svelte`),
+opened from the settings pop-up's "Keyboard shortcuts…" button, on the gear
+in the shell and on the start screen.
+
+- **A row per shortcut** (`SHORTCUTS`): what it does, its binding as
+  keycaps (marked "anywhere" when it has Alt, Ctrl or Meta), and Change,
+  Off and Reset. "Reset all to defaults" and Done close the dialog's foot.
+  Below the rows, what kloom keeps for itself (`FIXED_KEYS`: the arrows,
+  Home/End, Tab, Esc), which cannot be rebound.
+- **Change captures the next key press**, modifiers included: a letter, a
+  digit or F1 to F12 with any of Shift, Alt/Option, Ctrl and Meta/Cmd. A
+  press of a modifier alone waits for the key. The physical key stands in
+  when a modifier made another character (Option+M is µ, Shift+1 is !).
+  Esc cancels the capture and leaves the dialog open; Tab cancels it and
+  moves on, so capture never traps focus. Any other key is refused with what
+  a shortcut may be.
+- **Reserved combinations are refused, with the reason**: `reserved()`
+  holds a small tested list of what browsers and systems keep (Ctrl or Cmd
+  with T, W, N, L, R, F, P, Q, the digits, the clipboard and the like;
+  Ctrl+Shift with I, J, C, T, N; Alt with D, E, F, F4; F1, F3, F5, F6, F7,
+  F11, F12). Ctrl and Cmd are checked alike. A stored binding that is
+  reserved reads as the default.
+- **A clash asks**: keys another shortcut has offer Swap (the other takes
+  this one's old binding, or goes off), Use for both, or Cancel, with focus
+  on Swap. A shared binding left in place is named under the rows.
+- **Stored** under the old names (`kloom.key.sync`, …) as the binding's text,
+  modifiers in a fixed order (`ctrl+alt+shift+meta+m`), or `off`. A single
+  letter, all a key was before sprint 037, reads as itself, so stored keys
+  needed no rewrite. They live in the browser only. The reader store has
+  never held settings, so it had nothing to migrate.
+- **Accessibility.** The dialog opens on the first row's Change, and Esc
+  (when not capturing) or Done closes it with focus back on the button.
+  Every row's buttons are described by the row's label. Capture and each
+  outcome are said in a `role="status"` line ("Press the new keys for
+  bookmark, or Escape to cancel."). Rows stack at phone width. Its content
+  renders only while it is open. `just keys-check` drives it keyboard-only
+  at 1280×800 and 390×844 in the machine's Playwright and Chromium
+  (`create-tools/keys-check/keys_check.mjs`), so like scene-fit it is not
+  part of `just check`.
 
 ## Scene entrance
 

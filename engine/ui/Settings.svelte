@@ -1,14 +1,14 @@
 <script lang="ts">
 	import type { UserSettings } from '../user-settings.svelte';
 	import IconButton from './IconButton.svelte';
+	import KeysDialog from './KeysDialog.svelte';
 
 	interface Props {
 		settings: UserSettings;
-		/** Things to say about the choices as they stand (two shortcuts on one key, say). */
-		warnings?: string[];
 	}
 
-	let { settings, warnings = [] }: Props = $props();
+	let { settings }: Props = $props();
+	let keysDialog = $state<KeysDialog>();
 
 	const id = $props.id();
 	let open = $state(false);
@@ -92,11 +92,16 @@
 				{/each}
 			</select>
 		{/each}
-		{#each warnings as w (w)}
-			<p class="warning" role="status">{w}</p>
-		{/each}
+		<button
+			type="button"
+			class="keys"
+			aria-haspopup="dialog"
+			onclick={() => keysDialog?.show()}
+			onkeydown={escape}>Keyboard shortcuts…</button
+		>
 		<p class="note">Remembered in this browser.</p>
 	</div>
+	<KeysDialog keys={settings.keys} bind:this={keysDialog} />
 </div>
 
 <style>
@@ -111,7 +116,8 @@
 		z-index: 5;
 		box-sizing: border-box;
 		display: grid;
-		grid-template-columns: auto 1fr;
+		/* Labels wrap rather than set the width; a select never goes below its minimum. */
+		grid-template-columns: minmax(0, auto) minmax(9rem, max-content);
 		align-items: center;
 		gap: 0.5rem 0.75rem;
 		width: max-content;
@@ -131,18 +137,18 @@
 	.title,
 	.group,
 	.note,
-	.warning {
+	.keys {
 		grid-column: 1 / -1;
 		margin: 0;
+	}
+	label {
+		min-width: 0;
+		overflow-wrap: break-word;
 	}
 	.group {
 		margin-top: 0.35rem;
 		padding-top: 0.5rem;
 		border-top: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
-	}
-	.warning {
-		font-size: 0.8rem;
-		color: var(--accent);
 	}
 	.title,
 	.group {
@@ -158,11 +164,23 @@
 	}
 	select {
 		font: inherit;
-		min-width: 0;
+		width: 100%;
+		min-width: 9rem;
 		padding: 0.25rem 0.4rem;
 		color: var(--ink);
 		background: var(--background);
 		border: 1px solid var(--muted);
 		border-radius: 0.25rem;
+	}
+	.keys {
+		justify-self: start;
+		margin-top: 0.35rem;
+		font: inherit;
+		padding: 0.25rem 0.6rem;
+		color: var(--ink);
+		background: none;
+		border: 1px solid var(--muted);
+		border-radius: 0.25rem;
+		cursor: pointer;
 	}
 </style>

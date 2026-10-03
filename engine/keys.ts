@@ -3,11 +3,14 @@
  * means, given where focus is. The shell listens on the window and acts on
  * the answer.
  *
- * S, T, B, N, A, O, C, R, M, D and W are single-character shortcuts, so WCAG 2.1.4 applies. They
- * act only while focus is in the spine, the narrative or the notes (korg
- * 3366), never in the AI pane, the settings panel or on the bare page. And
- * the reader can remap each to another letter or turn it off (korg 3363):
- * the keymap is theirs, from the settings.
+ * S, T, B, N, A, O, C, R, M, D and W are the shortcuts out of the box, and
+ * the reader can rebind each, modifiers included, or turn it off (korg 3363,
+ * 3493): the keymap is theirs, from the keyboard shortcuts dialog. A binding
+ * with no Alt, Ctrl or Meta is a character key, so WCAG 2.1.4 applies: it
+ * acts only while focus is in the spine, the narrative or the notes (korg
+ * 3366), never in the AI pane, the settings or on the bare page. A binding
+ * with one of those modifiers is exempt and acts page-wide, except in a text
+ * field or a dialog that keeps its own keys.
  */
 
 export type PageKey =
@@ -31,7 +34,7 @@ export type PageKey =
 	| 'anywhere'
 	| 'to-spine';
 
-/** The character shortcuts: the page keys a reader may remap or turn off. */
+/** The shortcuts: the page keys a reader may rebind or turn off. */
 export type Shortcut =
 	| 'sync'
 	| 'trail'
@@ -60,25 +63,214 @@ export const SHORTCUTS: { action: Shortcut; label: string; key: string }[] = [
 	{ action: 'anywhere', label: 'go to a random frame anywhere', key: 'w' }
 ];
 
-/** Which lower-case letter does what; null is turned off. */
-export type Keymap = Record<Shortcut, string | null>;
+/**
+ * A key and the modifiers held with it. `key` is a lower-case letter, a digit
+ * or a function key (`f1`…`f12`): the only keys a shortcut may take.
+ */
+export interface Binding {
+	key: string;
+	shift: boolean;
+	alt: boolean;
+	ctrl: boolean;
+	meta: boolean;
+}
 
-export const DEFAULT_KEYS = Object.fromEntries(SHORTCUTS.map((s) => [s.action, s.key])) as Keymap;
+/** Which binding does what; null is turned off. */
+export type Keymap = Record<Shortcut, Binding | null>;
 
-/** A key as the reader sees it written: the letter in capitals. */
-export const keyName = (key: string) => key.toUpperCase();
+/** A plain key, no modifiers. */
+export const plain = (key: string): Binding => ({
+	key,
+	shift: false,
+	alt: false,
+	ctrl: false,
+	meta: false
+});
+
+export const DEFAULT_KEYS = Object.fromEntries(
+	SHORTCUTS.map((s) => [s.action, plain(s.key)])
+) as Keymap;
+
+/** Alt, Ctrl or Meta held: the binding is not a character key (WCAG 2.1.4). */
+export const modified = (b: Binding) => b.alt || b.ctrl || b.meta;
+
+const BINDABLE = /^([a-z0-9]|f([1-9]|1[0-2]))$/;
 
 /**
- * Letters the keymap gives to more than one shortcut. The first in
- * `SHORTCUTS` order acts; the settings say so.
+ * A binding as stored: its modifiers and key joined with `+`, in a fixed
+ * order (`ctrl+alt+shift+meta+m`). A plain letter is just the letter, which
+ * is what every stored key was before modifiers, so those still read.
  */
-export function keyClashes(keys: Keymap): { key: string; actions: Shortcut[] }[] {
+export function bindingText(b: Binding): string {
+	const mods = (['ctrl', 'alt', 'shift', 'meta'] as const).filter((m) => b[m]);
+	return [...mods, b.key].join('+');
+}
+
+/** The binding a stored string names, or null when it names none. */
+export function parseBinding(text: string): Binding | null {
+	const parts = text.toLowerCase().split('+');
+	const key = parts.pop()!;
+	if (!BINDABLE.test(key)) return null;
+	const b = plain(key);
+	for (const m of parts) {
+		if (m !== 'ctrl' && m !== 'alt' && m !== 'shift' && m !== 'meta') return null;
+		if (b[m]) return null;
+		b[m] = true;
+	}
+	return b;
+}
+
+/** Two bindings are the same keys. */
+export const sameBinding = (a: Binding | null, b: Binding | null) =>
+	!!a && !!b && bindingText(a) === bindingText(b);
+
+/**
+ * A binding as the reader sees it written: `Alt+M`, `Ctrl+Shift+5`, `F2`.
+ * Meta is Cmd on a Mac.
+ */
+export function keyName(b: Binding, mac = false): string {
+	const names = [
+		b.ctrl && 'Ctrl',
+		b.alt && (mac ? 'Option' : 'Alt'),
+		b.shift && 'Shift',
+		b.meta && (mac ? 'Cmd' : 'Meta')
+	].filter(Boolean);
+	return [...names, b.key.toUpperCase()].join('+');
+}
+
+/** Whether this is a Mac, where Meta is Cmd and Alt is Option. False on the server. */
+export function onMac(): boolean {
+	return typeof navigator !== 'undefined' && /Mac|iPhone|iPad/.test(navigator.platform);
+}
+
+/** The part of a key press that matters here: tests pass a plain object. */
+export interface Press {
+	key: string;
+	/** The physical key (`KeyM`), for when `key` is a character a modifier made. */
+	code?: string;
+	shiftKey?: boolean;
+	altKey?: boolean;
+	ctrlKey?: boolean;
+	metaKey?: boolean;
+}
+
+/**
+ * The bindable key a press is of, lower-cased, or null. With Option on a Mac
+ * or Shift on a digit, `key` is the character made (µ, !), so the physical
+ * key stands in.
+ */
+export function pressedKey(p: Press): string | null {
+	const key = p.key.toLowerCase();
+	if (BINDABLE.test(key)) return key;
+	const code = /^(?:Key([A-Z])|Digit([0-9]))$/.exec(p.code ?? '');
+	return code ? (code[1] ?? code[2]).toLowerCase() : null;
+}
+
+/** The binding a press would make, or null when its key is not bindable. */
+export function bindingOf(p: Press): Binding | null {
+	const key = pressedKey(p);
+	if (!key) return null;
+	return {
+		key,
+		shift: !!p.shiftKey,
+		alt: !!p.altKey,
+		ctrl: !!p.ctrlKey,
+		meta: !!p.metaKey
+	};
+}
+
+/**
+ * Bindings the browser or the system keeps, and what for. Ctrl and Cmd are
+ * both checked, since a reader's Ctrl on one machine is Cmd on another.
+ * Small on purpose: these are the ones that are taken everywhere.
+ */
+const WITH_CTRL: Record<string, string> = {
+	a: 'select all',
+	c: 'copy',
+	d: 'bookmark the page',
+	e: 'search',
+	f: 'find',
+	g: 'find again',
+	h: 'history, or hide the window',
+	j: 'downloads',
+	k: 'search',
+	l: 'the address bar',
+	m: 'minimise the window',
+	n: 'a new window',
+	o: 'open a file',
+	p: 'print',
+	q: 'quit',
+	r: 'reload',
+	s: 'save the page',
+	t: 'a new tab',
+	u: 'the page source',
+	v: 'paste',
+	w: 'close the tab',
+	x: 'cut',
+	y: 'redo, or history',
+	z: 'undo'
+};
+const WITH_CTRL_SHIFT: Record<string, string> = {
+	b: 'the bookmarks bar',
+	c: 'the developer tools',
+	i: 'the developer tools',
+	j: 'the developer tools',
+	n: 'a private window',
+	p: 'a private window',
+	t: 'reopen a closed tab'
+};
+const WITH_ALT: Record<string, string> = {
+	d: 'the address bar',
+	e: 'the browser menu',
+	f: 'the browser menu',
+	f4: 'close the window'
+};
+const FUNCTION_KEYS: Record<string, string> = {
+	f1: 'help',
+	f3: 'find again',
+	f5: 'reload',
+	f6: 'the address bar',
+	f7: 'caret browsing',
+	f11: 'full screen',
+	f12: 'the developer tools'
+};
+
+/** Why a binding cannot be had, or null when it can. */
+export function reserved(b: Binding, mac = false): string | null {
+	const name = keyName(b, mac);
+	const taken = (what: string) => `${name} belongs to the browser or the system (${what}).`;
+	if (FUNCTION_KEYS[b.key]) return taken(FUNCTION_KEYS[b.key]);
+	if (b.ctrl || b.meta) {
+		if (/^[0-9]$/.test(b.key)) return taken('switch tabs');
+		const why = (b.shift && WITH_CTRL_SHIFT[b.key]) || WITH_CTRL[b.key];
+		if (why) return taken(why);
+	}
+	if (b.alt && WITH_ALT[b.key]) return taken(WITH_ALT[b.key]);
+	return null;
+}
+
+/** The keys kloom keeps for itself, which no shortcut may take. */
+export const FIXED_KEYS: { keys: string; does: string }[] = [
+	{ keys: '← →', does: 'move along the spine' },
+	{ keys: 'Home, End', does: 'go to the first or last frame' },
+	{ keys: '↑ ↓', does: 'scroll the reading' },
+	{ keys: 'Tab', does: 'move between the panes' },
+	{ keys: 'Esc', does: 'leave a trail, close a dialog, or go back to the spine' }
+];
+
+/**
+ * Bindings the keymap gives to more than one shortcut. The first in
+ * `SHORTCUTS` order acts; the shortcuts dialog says so.
+ */
+export function keyClashes(keys: Keymap): { binding: Binding; actions: Shortcut[] }[] {
 	const by = new Map<string, Shortcut[]>();
 	for (const { action } of SHORTCUTS) {
-		const k = keys[action];
-		if (k) by.set(k, [...(by.get(k) ?? []), action]);
+		const b = keys[action];
+		if (b) by.set(bindingText(b), [...(by.get(bindingText(b)) ?? []), action]);
 	}
-	return [...by].filter(([, a]) => a.length > 1).map(([key, actions]) => ({ key, actions }));
+	return [...by]
+		.filter(([, a]) => a.length > 1)
+		.map(([text, actions]) => ({ binding: parseBinding(text)!, actions }));
 }
 
 /** The part of an element this needs: tests pass a stand-in. */
@@ -93,20 +285,31 @@ export const OWN_KEYS =
 /** Where the character shortcuts act. */
 export const SHORTCUT_PANES = '.spine, .narrative, .notes';
 
+/** The shortcut a press is bound to: exact modifiers first, then Shift let off. */
+function shortcutOf(p: Press, keys: Keymap): Shortcut | null {
+	const b = bindingOf(p);
+	if (!b) return null;
+	const find = (want: Binding) =>
+		SHORTCUTS.find((s) => sameBinding(keys[s.action], want))?.action ?? null;
+	// Shift with a plain letter has always meant the letter: N for n.
+	return find(b) ?? (b.shift ? find({ ...b, shift: false }) : null);
+}
+
 export function pageKey(
-	key: string,
+	press: Press | string,
 	target: KeyTarget | null,
 	keys: Keymap = DEFAULT_KEYS
 ): PageKey | null {
+	const p = typeof press === 'string' ? { key: press } : press;
 	const within = (selectors: string) => !!target?.closest(selectors);
-	if (key === 'Escape' && within('.ai')) return 'to-spine';
+	const held = !!(p.altKey || p.ctrlKey || p.metaKey);
+	if (p.key === 'Escape' && !held && within('.ai')) return 'to-spine';
 	if (within(OWN_KEYS)) return null;
-	if (key.length === 1) {
-		const letter = key.toLowerCase();
-		const action = SHORTCUTS.find((s) => keys[s.action] === letter)?.action;
-		return action && within(SHORTCUT_PANES) ? action : null;
-	}
-	switch (key) {
+	const action = shortcutOf(p, keys);
+	if (action) return held || within(SHORTCUT_PANES) ? action : null;
+	// The fixed keys stand down under a modifier: Alt+← is the browser's Back.
+	if (held) return null;
+	switch (p.key) {
 		case 'ArrowRight':
 			return 'next';
 		case 'ArrowLeft':

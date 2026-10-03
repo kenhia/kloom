@@ -7,13 +7,10 @@
 //   node create-tools/scene-fit/scene_fit.mjs [--url URL] [--viewports 1280x800,…] [subject…]
 //
 // No subjects means every subject under subjects/. Exits 1 on any misfit.
-// Uses the Playwright already on this machine rather than a dependency of the
-// repo: $PLAYWRIGHT_CORE (a path to playwright-core's index.mjs) or the bun
-// or npx cache, and $CHROME or ~/.cache/ms-playwright's Chromium.
+// Uses the Playwright already on this machine (create-tools/lib/browser.mjs).
 import { existsSync, readdirSync } from 'node:fs';
-import { homedir } from 'node:os';
 import { join } from 'node:path';
-import { pathToFileURL } from 'node:url';
+import { launch } from '../lib/browser.mjs';
 
 const args = process.argv.slice(2);
 const opt = (name, fallback) => {
@@ -31,38 +28,6 @@ const subjects = args.length
 	: readdirSync('subjects')
 			.filter((d) => existsSync(join('subjects', d, 'subject.json')))
 			.sort();
-
-/** The newest match of each candidate pattern: dir/prefix*suffix. */
-function newest(dir, prefix, suffix) {
-	if (!existsSync(dir)) return [];
-	return readdirSync(dir)
-		.filter((n) => n.startsWith(prefix))
-		.sort()
-		.reverse()
-		.map((n) => join(dir, n, suffix))
-		.filter(existsSync);
-}
-
-function playwright() {
-	const found = [
-		process.env.PLAYWRIGHT_CORE,
-		...newest(join(homedir(), '.bun/install/cache'), 'playwright-core@', 'index.mjs'),
-		...newest(join(homedir(), '.npm/_npx'), '', 'node_modules/playwright-core/index.mjs')
-	].filter(Boolean);
-	if (!found.length) fail('no playwright-core found; set $PLAYWRIGHT_CORE to its index.mjs');
-	return found[0];
-}
-
-function chrome() {
-	const cache = join(homedir(), '.cache/ms-playwright');
-	const found = [
-		process.env.CHROME,
-		...newest(cache, 'chromium-', 'chrome-linux64/chrome'),
-		...newest(cache, 'chromium_headless_shell-', 'chrome-linux64/chrome-headless-shell')
-	].filter(Boolean);
-	if (!found.length) fail('no Chromium found; set $CHROME');
-	return found[0];
-}
 
 function fail(message) {
 	console.error(`scene_fit: ${message}`);
@@ -96,8 +61,7 @@ function measure() {
 	return misfits;
 }
 
-const { chromium } = await import(pathToFileURL(playwright()).href);
-const browser = await chromium.launch({ executablePath: chrome() });
+const browser = await launch(fail);
 const context = await browser.newContext({ reducedMotion: 'reduce' });
 
 const frames = subjects.flatMap((s) =>

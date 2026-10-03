@@ -5,7 +5,8 @@ import { loadSubject } from '$engine/load';
 import type { Subject } from '$engine/model';
 import { bodyOf, subjectHeadOf, type ServedBody } from '$engine/served';
 import { startLook } from '$engine/start';
-import { followSpine, keySettings, layout, paletteMode } from '$engine/settings';
+import { followSpine, layout, paletteMode } from '$engine/settings';
+import { parseBinding, type Shortcut } from '$engine/keys';
 import type { MyNotesOffer } from '$engine/my-notes';
 import type { Note, ReaderLayer } from '$engine/reader-data';
 import Shell from '$engine/ui/Shell.svelte';
@@ -255,18 +256,13 @@ describe('the settings control', () => {
 		expect(body.indexOf('icon-button gear')).toBeLessThan(body.indexOf('id="sync-state"'));
 	});
 
-	it('gathers the shortcut keys under Keys, each a letter or off (korg 3363)', () => {
+	it('keeps the shortcuts out of the pop-up, behind a Keyboard shortcuts button (korg 3493)', () => {
 		const { body } = page();
-		expect(body).toMatch(/<p class="group[^"]*">Keys<\/p>/);
-		for (const label of ['Sync the narrative', 'Enter a trail', 'Bookmark', 'Add a note'])
-			expect(body).toMatch(new RegExp(`<label for="[^"]+"[^>]*>${label}</label>`));
-		const id = /<label for="([^"]+)"[^>]*>Add a note<\/label>/.exec(body)![1];
-		const select = body.slice(
-			body.indexOf(`id="${id}"`),
-			body.indexOf('</select>', body.indexOf(`id="${id}"`))
-		);
-		expect(select).toMatch(/<option value="n"[^>]*selected[^>]*>N</);
-		expect(select).toMatch(/<option value="off"[^>]*>Off</);
+		expect(body).not.toMatch(/<p class="group[^"]*">Keys<\/p>/);
+		expect(body).not.toMatch(/<label for="[^"]+"[^>]*>Add a note<\/label>/);
+		expect(body).toMatch(/<button[^>]*aria-haspopup="dialog"[^>]*>Keyboard shortcuts…<\/button>/);
+		// The dialog is there, closed and empty until it opens.
+		expect(body).toMatch(/<dialog class="keys-dialog[^"]*"[^>]*data-own-keys/);
 	});
 
 	it('renders each setting as a labelled select, starting at its default', () => {
@@ -654,22 +650,29 @@ describe('the layout', () => {
 
 describe('the reader’s keys', () => {
 	const shell = (keys: Record<string, string>) => {
-		const settings = new UserSettings([layout, ...keySettings], () => null);
-		for (const [k, v] of Object.entries(keys)) settings.set(`key.${k}`, v);
+		const settings = new UserSettings([layout], () => null);
+		for (const [k, v] of Object.entries(keys))
+			settings.keys.set(k as Shortcut, v === 'off' ? null : parseBinding(v));
 		return render(Shell, { props: { subject, bodies, settings } }).body;
 	};
+	const hint = (body: string) => said(body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
 
-	it('name the reader’s letters in the help, and leave out one turned off', () => {
-		const hint = said(shell({ sync: 'y', trail: 'off' }).match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
-		expect(hint).toContain('Y sync and C contents, in the spine or narrative');
-		expect(hint).not.toContain('T trail');
+	it('name the reader’s keys in the help, and leave out one turned off', () => {
+		const h = hint(shell({ sync: 'y', trail: 'off' }));
+		expect(h).toContain('Y sync and C contents, in the spine or narrative');
+		expect(h).not.toContain('T trail');
 	});
 
-	it('say in the settings when one letter is set for two shortcuts', () => {
-		expect(said(shell({ trail: 's' }))).toContain(
-			'S is set for sync the narrative and enter a trail; it will sync the narrative.'
-		);
-		expect(shell({})).not.toContain('class="warning');
+	it('name a binding with a modifier apart, as acting anywhere (korg 3493)', () => {
+		const h = hint(shell({ contents: 'alt+c', sync: 'ctrl+shift+y' }));
+		expect(h).toContain('T trail, in the spine or narrative');
+		expect(h).toContain('Ctrl+Shift+Y sync and Alt+C contents, anywhere');
+	});
+
+	it('keep the settings pop-up to settings, with the shortcuts a button away', () => {
+		const body = shell({});
+		expect(body).toContain('Keyboard shortcuts…');
+		expect(body).not.toMatch(/<label[^>]*>Go to a random frame/);
 	});
 });
 

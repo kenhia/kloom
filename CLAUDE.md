@@ -227,6 +227,13 @@ reviews and merges with a `Grow-reviewed` trailer (first run: western-civ's
 `royal-society`); a grow job keeps one running copy under a dev reload
 (`globalThis` queues, a lock per job); and navy-pow's Guam passage was
 rewritten from Chief Nurse Olds's own 1943 account.
+Sprint 037 keyboard shortcuts in their own dialog (the settings pop-up's
+"Keyboard shortcuts…"): key capture with modifiers (`Binding` in
+`engine/keys.ts`, stored as `alt+m` under the old `kloom.key.*` names, so
+single letters still read), reserved combinations refused with a reason,
+clashes swapped; a binding with Alt, Ctrl or Meta acts page-wide (exempt
+from 2.1.4); and a pop-up whose selects never go below 9rem
+(`just keys-check`).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

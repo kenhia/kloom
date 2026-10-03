@@ -1,4 +1,15 @@
-import { keyClashes, keyName, SHORTCUTS, type Keymap, type Shortcut } from './keys';
+import {
+	bindingText,
+	DEFAULT_KEYS,
+	keyClashes,
+	keyName,
+	parseBinding,
+	reserved,
+	SHORTCUTS,
+	type Binding,
+	type Keymap,
+	type Shortcut
+} from './keys';
 import type { Palette, Subject } from './model';
 
 /**
@@ -166,42 +177,56 @@ export const modelSetting = (
 	storageKey: `kloom.${id}`
 });
 
-const LETTERS: Choice[] = [...'abcdefghijklmnopqrstuvwxyz'].map((l) => ({
-	value: l,
-	label: l.toUpperCase()
-}));
-
-/** What a key setting stores for a shortcut turned off. */
+/** What a shortcut's stored value is when it is turned off. */
 export const KEY_OFF = 'off';
 
-/**
- * A character shortcut's key (korg 3363, WCAG 2.1.4): any letter, or off.
- * Each is a pick from a fixed list like every other setting, and the pop-up
- * gathers them under "Keys".
- */
-export const keySettings: Setting[] = SHORTCUTS.map((s) => ({
-	id: `key.${s.action}`,
-	label: s.label[0].toUpperCase() + s.label.slice(1),
-	choices: [...LETTERS, { value: KEY_OFF, label: 'Off' }],
-	default: s.key,
-	storageKey: `kloom.key.${s.action}`,
-	group: 'Keys'
-}));
+/** Where a shortcut's binding is remembered: `kloom.key.sync`, and so on. */
+export const keyStorageKey = (action: Shortcut) => `kloom.key.${action}`;
 
-/** The reader's keymap, from their key settings; a shortcut with no setting keeps its letter. */
-export function keymapOf(get: (id: string) => string | undefined): Keymap {
-	const keys = {} as Keymap;
-	for (const s of SHORTCUTS) {
-		const v = get(`key.${s.action}`) ?? s.key;
-		keys[s.action as Shortcut] = v === KEY_OFF ? null : v;
+/**
+ * The reader's keymap, from storage (korg 3363, 3493). Each shortcut is
+ * stored as its binding's text (`alt+m`), or `off`. A single letter, which is
+ * all a stored key was before modifiers, is read as itself, so those keep
+ * working without being rewritten. Anything else, or a binding that has since
+ * become reserved, is the default.
+ */
+export function readKeymap(storage: SettingsStorage | null): Keymap {
+	const keys = { ...DEFAULT_KEYS };
+	for (const { action } of SHORTCUTS) {
+		let stored: string | null = null;
+		try {
+			stored = storage?.getItem(keyStorageKey(action)) ?? null;
+		} catch {
+			// Blocked storage: the default is fine.
+		}
+		if (stored === KEY_OFF) keys[action] = null;
+		else if (stored) {
+			const b = parseBinding(stored);
+			if (b && !reserved(b)) keys[action] = b;
+		}
 	}
 	return keys;
 }
 
-/** What the settings pop-up says about a keymap: each key set for two shortcuts, and which wins. */
-export function keyWarnings(keys: Keymap): string[] {
-	return keyClashes(keys).map(({ key, actions }) => {
+/** Remember one shortcut's binding, or that it is off; false when it could not be stored. */
+export function writeKey(
+	action: Shortcut,
+	binding: Binding | null,
+	storage: SettingsStorage | null
+): boolean {
+	if (!storage) return false;
+	try {
+		storage.setItem(keyStorageKey(action), binding ? bindingText(binding) : KEY_OFF);
+		return true;
+	} catch {
+		return false;
+	}
+}
+
+/** What the shortcuts dialog says about a keymap: each binding set for two shortcuts, and which wins. */
+export function keyWarnings(keys: Keymap, mac = false): string[] {
+	return keyClashes(keys).map(({ binding, actions }) => {
 		const [first, ...rest] = actions.map((a) => SHORTCUTS.find((s) => s.action === a)!.label);
-		return `${keyName(key)} is set for ${[first, ...rest].join(' and ')}; it will ${first}.`;
+		return `${keyName(binding, mac)} is set for ${[first, ...rest].join(' and ')}; it will ${first}.`;
 	});
 }
