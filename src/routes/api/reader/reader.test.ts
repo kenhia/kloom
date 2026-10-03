@@ -13,6 +13,9 @@ import {
 	POST as saveNote
 } from './notes/+server';
 import { POST as visit } from './place/+server';
+import { POST as catchUp } from './caught-up/+server';
+import { POST as markSeen } from './seen/+server';
+import { readerNews } from '$lib/server/whats-new';
 import { GET as suggestions, POST as suggest } from './suggestions/+server';
 import { keptAnswer } from '$engine/ai/kept';
 import { context } from '$engine/ai/fixture';
@@ -63,6 +66,61 @@ describe('reader data needs a reader', () => {
 			status: 401
 		});
 		expect(await call(forget, send('DELETE', {}, null))).toMatchObject({ status: 401 });
+		expect(await call(markSeen, send('POST', {}, null))).toMatchObject({ status: 401 });
+		expect(await call(catchUp, send('POST', {}, null))).toMatchObject({ status: 401 });
+	});
+});
+
+describe('what is new to a reader (korg 3525)', () => {
+	it('is, in a subject they started, what was added after and not opened; opening or marking clears it', async () => {
+		const store = readerStore();
+		// Started western-civ before anything was added: every dated frame since is new.
+		await store.importData(ken.login, {
+			kloom: 'reader-data',
+			version: 4,
+			reader: ken.login,
+			exported: '2000-01-01T00:00:00.000Z',
+			places: [],
+			bookmarks: [],
+			notes: [],
+			kept: [],
+			readings: [{ subject: 'western-civ', first: '2000-01-01T00:00:00.000Z', caughtUp: null }],
+			seen: []
+		});
+		const before = (await readerNews(store, ken.login)).fresh['western-civ'] ?? [];
+		// The gate's library is dated from this repository's own history.
+		expect(before).toContain('prometheus');
+		expect((await readerNews(store, ada.login)).fresh).toEqual({});
+
+		await call(visit, send('POST', first));
+		expect((await readerNews(store, ken.login)).fresh['western-civ']).not.toContain('prometheus');
+		expect(
+			await body(
+				await call(
+					markSeen,
+					send('POST', { subject: 'western-civ', frames: ['writing', 'writing'] })
+				)
+			)
+		).toEqual({ ok: true });
+		expect((await readerNews(store, ken.login)).fresh['western-civ']).not.toContain('writing');
+
+		const r = await body(await call(catchUp, send('POST', { subject: 'western-civ' })));
+		expect(r.first).toBe('2000-01-01T00:00:00.000Z');
+		expect(Date.parse(r.caughtUp)).toBeGreaterThan(Date.parse(r.first));
+		expect((await readerNews(store, ken.login)).fresh['western-civ']).toBeUndefined();
+	});
+
+	it('refuses frames a subject does not have, and a subject the app does not serve', async () => {
+		expect(
+			await call(markSeen, send('POST', { subject: 'western-civ', frames: ['nope'] }))
+		).toMatchObject({ status: 400 });
+		expect(
+			await call(markSeen, send('POST', { subject: 'western-civ', frames: 'writing' }))
+		).toMatchObject({ status: 400 });
+		expect(await call(markSeen, send('POST', { subject: 'nope', frames: [] }))).toMatchObject({
+			status: 404
+		});
+		expect(await call(catchUp, send('POST', { subject: '../x' }))).toMatchObject({ status: 404 });
 	});
 });
 
@@ -102,13 +160,15 @@ describe('export and import', () => {
 			/^attachment; filename="kloom-reader-data-\d{4}-\d{2}-\d{2}\.json"$/
 		);
 		const file = await res.json();
-		expect(file).toMatchObject({ kloom: 'reader-data', version: 3, reader: 'ken@github' });
+		expect(file).toMatchObject({ kloom: 'reader-data', version: 4, reader: 'ken@github' });
 
 		expect(await body(await call(importData, send('POST', file, ada)))).toEqual({
 			places: 1,
 			bookmarks: 1,
 			notes: 0,
-			kept: 0
+			kept: 0,
+			readings: 1,
+			seen: 1
 		});
 		expect(await body(await call(marks, read(ada)))).toMatchObject([{ frame: 'prometheus' }]);
 	});
@@ -180,13 +240,15 @@ describe('my notes', () => {
 		// A note whose frame went away (an import from elsewhere) is listed, with nowhere to go.
 		await readerStore().importData(ken.login, {
 			kloom: 'reader-data',
-			version: 3,
+			version: 4,
 			reader: ken.login,
 			exported: '2026-10-01T00:00:00.000Z',
 			places: [],
 			bookmarks: [],
 			notes: [{ ...b, id: 'gone', frame: 'no-such-frame', updated: '2020-01-01T00:00:00.000Z' }],
-			kept: []
+			kept: [],
+			readings: [],
+			seen: []
 		});
 		const got = await body(await call(myNotes, read()));
 		expect(got.unseen).toBe(1);

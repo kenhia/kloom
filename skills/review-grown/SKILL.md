@@ -88,7 +88,12 @@ and is what you review.
 3. **Repair what you can, as commits of your own** on the review branch.
    Each says what it fixes (`review-grown(nursing): navy-pow — Olds, not
 Jackson, for the barracks`). A repair follows the same rules as any
-   content: `just check`, a key citation, Wikipedia by `oldid`.
+   content: `just check`, a key citation, Wikipedia by `oldid`. A repair to
+   a grown frame's facts (a claim, date, attribution, quotation or source
+   changed or cut) adds an entry to its `edits`, as `skills/grow/SKILL.md`
+   §Edits and corrections says: the frame may already have been read on
+   the service, where it showed as soon as it was grown. A repair of
+   wording alone does not.
 
 4. **Flag what you can't repair.** That is a claim you could not check
    (the source is unreachable from here), or a choice that is Ken's (a frame

@@ -18,6 +18,9 @@
 
 import { anchorOf, type Anchor } from './anchor';
 import { keptAnswerProblems, type KeptAnswer } from './ai/kept';
+import type { Reading } from './whats-new';
+
+export type { Reading } from './whats-new';
 
 /** Where a reader last was in a subject. */
 export interface Place {
@@ -43,6 +46,14 @@ export function newerPlaces<P extends Place>(
 	for (const [subject, p] of Object.entries(loaded))
 		if (!out[subject] || p.at >= out[subject].at) out[subject] = p;
 	return out;
+}
+
+/** A frame a reader has opened, or marked as seen (korg 3525): never new to them again. */
+export interface SeenFrame {
+	subject: string;
+	frame: string;
+	/** When it was first seen. */
+	at: string;
 }
 
 /** A frame a reader marked to come back to. */
@@ -186,8 +197,22 @@ export function suggestionOf(v: unknown): SuggestionInput | null {
 export const NOTE_MAX = 10_000;
 
 export interface ReaderStore {
-	/** Record that `reader` is on this frame now: their place in its subject. */
+	/**
+	 * Record that `reader` is on this frame now: their place in its subject.
+	 * It also opens the frame, starts the subject if this is their first
+	 * visit to it, and counts as activity, for "since my last visit".
+	 */
 	visit(reader: string, place: Omit<Place, 'at'>): Promise<void>;
+	/** Each subject they have started: their first visit, and when they caught up (korg 3525). */
+	readings(reader: string): Promise<Record<string, Reading>>;
+	/** The frames they have opened or marked seen, by subject. */
+	seenFrames(reader: string): Promise<Record<string, string[]>>;
+	/** "Mark all as seen": these frames are not new to them any more. */
+	markSeen(reader: string, subject: string, frames: string[]): Promise<void>;
+	/** "I'm caught up on this subject": its watermark is now. Their reading of it, after. */
+	catchUp(reader: string, subject: string): Promise<Reading>;
+	/** When their last visit ended, a visit being moves with no long pause; null before one has. */
+	lastVisit(reader: string): Promise<string | null>;
 	/** Their place in `subject`, or, with no subject, the last place anywhere. */
 	lastVisited(reader: string, subject?: string): Promise<Place | null>;
 	/** Every bookmark of theirs, across subjects, newest first. */
@@ -273,17 +298,21 @@ export interface ImportCounts {
 	bookmarks: number;
 	notes: number;
 	kept: number;
+	readings: number;
+	seen: number;
 }
 
 /**
  * The export format: versioned, so an older file can still be read. Version
- * 2 (sprint 011) added notes and kept answers, and version 3 (sprint 012)
- * notes' anchors. A version 1 file reads as one with no notes or kept
- * answers, and a version 2 file's notes have no anchors.
+ * 2 (sprint 011) added notes and kept answers, version 3 (sprint 012)
+ * notes' anchors, and version 4 (sprint 043) what's new to the reader: the
+ * subjects they started and the frames they have seen. A version 1 file
+ * reads as one with no notes or kept answers, a version 2 file's notes have
+ * no anchors, and a file before version 4 has no readings or seen frames.
  */
 export interface ReaderExport {
 	kloom: 'reader-data';
-	version: 3;
+	version: 4;
 	/** Who it was exported for; an import files it under whoever imports it. */
 	reader: string;
 	exported: string;
@@ -291,6 +320,8 @@ export interface ReaderExport {
 	bookmarks: Bookmark[];
 	notes: Note[];
 	kept: Kept[];
+	readings: ({ subject: string } & Reading)[];
+	seen: SeenFrame[];
 }
 
 /** One bookmark in the jump list (`engine/ui/Bookmarks.svelte`); the page resolves where it goes. */
@@ -332,7 +363,7 @@ export function parseExport(v: unknown): ReaderExport | { error: string } {
 	if (typeof v !== 'object' || v === null) return { error: 'not a JSON object' };
 	const d = v as Record<string, unknown>;
 	if (d.kloom !== 'reader-data') return { error: 'not a kloom reader-data export' };
-	if (d.version !== 1 && d.version !== 2 && d.version !== 3)
+	if (d.version !== 1 && d.version !== 2 && d.version !== 3 && d.version !== 4)
 		return { error: `unknown version ${String(d.version)}` };
 	if (!Array.isArray(d.places) || !Array.isArray(d.bookmarks))
 		return { error: 'places and bookmarks must be lists' };
@@ -356,7 +387,7 @@ export function parseExport(v: unknown): ReaderExport | { error: string } {
 		if (!Array.isArray(d.notes) || !Array.isArray(d.kept))
 			return { error: 'notes and kept must be lists' };
 		for (const [i, item] of d.notes.entries()) {
-			const n = noteOf(item, d.version === 3);
+			const n = noteOf(item, d.version >= 3);
 			if (!n) return { error: `note ${i} is not a valid note` };
 			notes.push(n);
 		}
@@ -372,15 +403,44 @@ export function parseExport(v: unknown): ReaderExport | { error: string } {
 			kept.push({ answer: k.answer as KeptAnswer, grown: grown as string[] | null });
 		}
 	}
+	const readings: ReaderExport['readings'] = [];
+	const seen: SeenFrame[] = [];
+	if (d.version === 4) {
+		if (!Array.isArray(d.readings) || !Array.isArray(d.seen))
+			return { error: 'readings and seen must be lists' };
+		for (const [i, item] of d.readings.entries()) {
+			const r = item as Record<string, unknown> | null;
+			if (
+				!r ||
+				!isId(r.subject) ||
+				!isTime(r.first) ||
+				!(r.caughtUp === null || isTime(r.caughtUp))
+			)
+				return { error: `reading ${i} is not a valid reading` };
+			readings.push({
+				subject: r.subject,
+				first: new Date(r.first).toISOString(),
+				caughtUp: r.caughtUp === null ? null : new Date(r.caughtUp as string).toISOString()
+			});
+		}
+		for (const [i, item] of d.seen.entries()) {
+			const r = item as Record<string, unknown> | null;
+			if (!r || !isId(r.subject) || !isId(r.frame) || !isTime(r.at))
+				return { error: `seen frame ${i} is not a valid record` };
+			seen.push({ subject: r.subject, frame: r.frame, at: new Date(r.at).toISOString() });
+		}
+	}
 	return {
 		kloom: 'reader-data',
-		version: 3,
+		version: 4,
 		reader: isText(d.reader) ? d.reader : '',
 		exported: isTime(d.exported) ? d.exported : new Date(0).toISOString(),
 		places,
 		bookmarks,
 		notes,
-		kept
+		kept,
+		readings,
+		seen
 	};
 }
 

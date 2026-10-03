@@ -3,7 +3,7 @@
 	import { onMount, tick, untrack } from 'svelte';
 	import type { AiOffer } from '../ai/provider';
 	import type { Anchor } from '../anchor';
-	import type { Frame, FrameHead, SubjectHead, Trail } from '../model';
+	import type { Frame, FrameHead, Palette, SubjectHead, Trail } from '../model';
 	import type { MyNotesOffer } from '../my-notes';
 	import type { JumpItem, Note, ReaderLayer } from '../reader-data';
 	import { contentsOf, openTrails } from '../contents';
@@ -97,6 +97,20 @@
 		 * library, never this one. False when there was nowhere to go.
 		 */
 		onrandom?: (scope: RandomScope) => Promise<boolean>;
+		/**
+		 * What is new to the reader here (§What's new, korg 3525): the frames,
+		 * and "I'm caught up on this subject". Absent with no reader.
+		 */
+		fresh?: FreshOffer | null;
+		/** Open the Changelog (§What's new) in the reading's colours; focus goes back through `refocus`. */
+		onchangelog?: (refocus: () => void, palette: Palette) => void;
+	}
+
+	/** What the page offers for frames new to the reader in this subject. */
+	interface FreshOffer {
+		frames: ReadonlySet<string>;
+		/** "I'm caught up on this subject": false when it could not be saved. */
+		oncaughtup: () => Promise<boolean>;
 	}
 
 	/** Where a random jump may land. */
@@ -131,7 +145,9 @@
 		onfollow,
 		back = null,
 		onmap,
-		onrandom
+		onrandom,
+		fresh = null,
+		onchangelog
 	}: Props = $props();
 
 	let trailId = $state<string | null>(null);
@@ -296,8 +312,24 @@
 	const marksOf = (id: string): FrameMarks => ({
 		bookmarked: marked.has(id),
 		kept: layer?.kept[id] ?? 0,
-		notes: noteCounts[id] ?? 0
+		notes: noteCounts[id] ?? 0,
+		fresh: fresh?.frames.has(id) ?? false
 	});
+	/** Trails with a frame new to the reader on them: their markers say so. */
+	const freshTrails = $derived(
+		new Set(
+			subject.trails
+				.filter((t) => stops(t.spine).some((s) => fresh?.frames.has(s.frameId)))
+				.map((t) => t.id)
+		)
+	);
+	let changelogButton = $state<HTMLButtonElement>();
+	async function caughtUp() {
+		if (!fresh) return;
+		markNote = (await fresh.oncaughtup())
+			? `Caught up on ${subject.title}: nothing here is new to you now.`
+			: 'Could not save that you are caught up. Try again.';
+	}
 	const titleOf = (f: FrameHead) => `${f.scene.headline} ${f.scene.accent}`;
 	const announcement = $derived.by(() => {
 		const said = marksText(marksOf(frame.id));
@@ -840,6 +872,7 @@
 					current={frame.id}
 					startOpen={openTrails(subject, frame.id, trailId)}
 					{marksOf}
+					fresh={fresh ? { count: fresh.frames.size, oncaughtup: caughtUp } : null}
 					{hrefOf}
 					key={shown(keys.contents)}
 					onjump={goTo}
@@ -855,6 +888,27 @@
 					>
 						<Icon name="map" />
 					</IconButton>
+				{/if}
+				{#if onchangelog}
+					<!-- What's new (§What's new): a count of the frames new to the reader here. -->
+					<button
+						type="button"
+						class="icon-badged"
+						aria-haspopup="dialog"
+						title={fresh?.frames.size
+							? `What's new: ${fresh.frames.size} new to you here`
+							: "What's new"}
+						bind:this={changelogButton}
+						onclick={() => onchangelog(() => changelogButton?.focus(), palette)}
+					>
+						<Icon name="whats-new" />
+						<span class="visually-hidden"
+							>What's new{fresh?.frames.size ? `, ${fresh.frames.size} new to you here` : ''}</span
+						>
+						{#if fresh?.frames.size}
+							<span class="fresh-count" aria-hidden="true">{fresh.frames.size}</span>
+						{/if}
+					</button>
 				{/if}
 				{#if bookmarks}
 					<Bookmarks
@@ -939,6 +993,7 @@
 			spineFrame={frame}
 			{sync}
 			trails={trail ? [] : trailsFrom(narrativeFrame.id)}
+			{freshTrails}
 			onenter={enter}
 			keys={{ sync: shown(keys.sync), trail: shown(keys.trail) }}
 			{qa}
@@ -1019,6 +1074,39 @@
 </div>
 
 <style>
+	/* An icon button with a count beside it, as My notes has (§What's new). */
+	.icon-badged {
+		position: relative;
+		display: grid;
+		place-items: center;
+		width: 2rem;
+		height: 2rem;
+		padding: 0;
+		color: var(--muted);
+		background: none;
+		border: 1px solid transparent;
+		border-radius: 0.25rem;
+		cursor: pointer;
+	}
+	.icon-badged:hover {
+		color: var(--ink);
+		border-color: var(--muted);
+	}
+	.icon-badged :global(svg) {
+		width: 1.25rem;
+		height: 1.25rem;
+	}
+	.fresh-count {
+		position: absolute;
+		top: -0.3rem;
+		right: -0.3rem;
+		min-width: 1rem;
+		padding: 0 0.2rem;
+		font: 0.65rem/1rem var(--mono);
+		color: var(--background);
+		background: var(--accent);
+		border-radius: 0.5rem;
+	}
 	/*
 	 * Registered so the palette itself interpolates. Unregistered custom
 	 * properties snap, so everything painted straight from a variable (accent

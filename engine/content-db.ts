@@ -11,6 +11,9 @@ import {
 import { dirname, join, relative } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
 import { buildGraph, linksByFrame, type Graph, type GraphSubject } from './graph';
+import type { AddedDates } from './history';
+
+export { gitAddedDates } from './history';
 import { buildSubject, loadNames, readGraphSubject, readSubject, SubjectError } from './load';
 import { mapDataOf } from './map';
 import type { Subject, SubjectHead } from './model';
@@ -19,13 +22,16 @@ import { bodyOf, subjectHeadOf, type FrameSource } from './served';
 import { startLook, type StartLook } from './start';
 import { libraryStats, plainText, subjectStats, type SubjectStats } from './stats';
 import type { RawSubject } from './validate';
+import { changelogOf, dayTime, type FrameEdit } from './whats-new';
 
 /**
  * The compiled library (docs/design.md §Serving, korg 3460): the subjects'
  * files stay the source, and `content.db` is what the app serves from. One
  * SQLite file holds each subject's head, every frame's body, the names, the
  * graph's derived links, the map's data, the library's counts and a
- * full-text index; media stay files beside it, named by path.
+ * full-text index; media stay files beside it, named by path. When each
+ * frame and trail was added (git's dates, or a frame's own override) and
+ * every frame's edits make the Changelog (korg 3525, 3526).
  *
  * The compiler validates every subject it builds, so an invalid subject never
  * compiles. It builds into a temporary file and renames it over the old one,
@@ -37,7 +43,7 @@ import type { RawSubject } from './validate';
  */
 
 /** The file's layout. A build by another version starts afresh. */
-export const CONTENT_SCHEMA = 1;
+export const CONTENT_SCHEMA = 2;
 
 const SCHEMA = `
 	CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
@@ -85,6 +91,22 @@ const SCHEMA = `
 		PRIMARY KEY (subject, frame)
 	);
 	CREATE TABLE library (key TEXT PRIMARY KEY, value TEXT NOT NULL);
+	CREATE TABLE edit (
+		subject TEXT NOT NULL,
+		frame TEXT NOT NULL,
+		ord INTEGER NOT NULL,
+		date TEXT NOT NULL,
+		kind TEXT NOT NULL,
+		summary TEXT NOT NULL,
+		PRIMARY KEY (subject, frame, ord)
+	);
+	CREATE TABLE added (
+		subject TEXT NOT NULL,
+		kind TEXT NOT NULL CHECK (kind IN ('frame', 'trail')),
+		id TEXT NOT NULL,
+		at TEXT NOT NULL,
+		PRIMARY KEY (subject, kind, id)
+	);
 	CREATE VIRTUAL TABLE frame_text USING fts5 (
 		subject UNINDEXED, frame UNINDEXED, topic, text, tokenize = 'porter unicode61'
 	);
@@ -167,6 +189,12 @@ export interface CompileOptions {
 	 * from a list holds nothing else. Every one must be on disk.
 	 */
 	only?: string[];
+	/**
+	 * When each frame and trail first appeared in the content's history
+	 * (`gitAddedDates`, engine/history.ts); absent or null where there is
+	 * none, and then only a frame's own `added` dates it.
+	 */
+	added?: AddedDates | null;
 }
 
 export interface CompileReport {
@@ -189,6 +217,7 @@ export interface CompileReport {
 interface Previous {
 	compiler: string;
 	names: string;
+	added: string;
 	build: string;
 	subjects: Map<string, string>;
 }
@@ -208,6 +237,7 @@ function previous(path: string): Previous | null {
 		return {
 			compiler: meta.compiler ?? '',
 			names: meta.names ?? '',
+			added: meta.added ?? '',
 			build: meta.build ?? '',
 			subjects: new Map(rows.map((r) => [r.id, r.digest]))
 		};
@@ -226,7 +256,7 @@ const metaOf = (db: DatabaseSync): Record<string, string> =>
 	);
 
 function dropSubject(db: DatabaseSync, id: string) {
-	for (const table of ['subject', 'frame', 'media', 'frame_text'])
+	for (const table of ['subject', 'frame', 'media', 'frame_text', 'edit'])
 		db.prepare(`DELETE FROM ${table} WHERE ${table === 'subject' ? 'id' : 'subject'} = ?`).run(id);
 }
 
@@ -254,26 +284,82 @@ function insertSubject(
 	const text = db.prepare(
 		'INSERT INTO frame_text (subject, frame, topic, text) VALUES (?, ?, ?, ?)'
 	);
+	const edit = db.prepare(
+		'INSERT INTO edit (subject, frame, ord, date, kind, summary) VALUES (?, ?, ?, ?, ?, ?)'
+	);
 	for (const [id, f] of Object.entries(subject.frames)) {
 		frame.run(subject.id, id, JSON.stringify(bodyOf(f)), raw.frames[id].reading ?? '');
+		f.edits.forEach((e, i) => edit.run(subject.id, id, i, e.date, e.kind, e.summary.trim()));
 		for (const file of raw.frames[id].media) media.run(subject.id, id, file);
 		text.run(subject.id, id, f.topic, plainText(f.readingHtml).replace(/\s+/g, ' ').trim());
 	}
 }
 
 /**
- * Derive what spans subjects from the rows standing: the graph, each frame's
- * links, the mention and connection tables, the map's data and the counts.
+ * A head with the dates in force (korg 3525, `addedIn`) in place of the
+ * overrides it was written with, and the subject's `created`: its earliest
+ * frame's.
  */
-function deriveLibrary(db: DatabaseSync, names: Record<string, Name>) {
-	const rows = db.prepare('SELECT graph, stats FROM subject ORDER BY id').all() as {
+export function datedHead(
+	head: SubjectHead,
+	d: { frames: Record<string, string>; trails: Record<string, string> }
+): SubjectHead {
+	const frames = Object.fromEntries(
+		Object.entries(head.frames).map(([id, f]) => {
+			const { added: _own, ...rest } = f; // eslint-disable-line @typescript-eslint/no-unused-vars
+			return [id, d.frames[id] ? { ...rest, added: d.frames[id] } : rest];
+		})
+	);
+	const trails = head.trails.map((t) => {
+		const { added: _own, ...rest } = t; // eslint-disable-line @typescript-eslint/no-unused-vars
+		return d.trails[t.id] ? { ...rest, added: d.trails[t.id] } : rest;
+	});
+	const times = Object.values(d.frames).sort();
+	const { created: _was, ...plain } = head; // eslint-disable-line @typescript-eslint/no-unused-vars
+	return { ...plain, frames, trails, ...(times.length ? { created: times[0] } : {}) };
+}
+
+/** Each frame's and trail's `added` in force: its own override (a day, as its noon UTC), or git's date. */
+function addedIn(
+	head: SubjectHead,
+	git: AddedDates[string] | undefined
+): { frames: Record<string, string>; trails: Record<string, string> } {
+	const pick = (own: string | undefined, found: string | undefined) => (own ? dayTime(own) : found);
+	const frames: Record<string, string> = {};
+	for (const f of Object.values(head.frames)) {
+		const at = pick(f.added, git?.frames[f.id]);
+		if (at) frames[f.id] = at;
+	}
+	const trails: Record<string, string> = {};
+	for (const t of head.trails) {
+		const at = pick(t.added, git?.trails[t.id]);
+		if (at) trails[t.id] = at;
+	}
+	return { frames, trails };
+}
+
+/** A digest of the dates, so a build whose files are unchanged still notices new history. */
+const datesDigest = (added: AddedDates | null | undefined) =>
+	createHash('sha256')
+		.update(JSON.stringify(added ?? null))
+		.digest('hex');
+
+/**
+ * Derive what spans subjects from the rows standing: the graph, each frame's
+ * links, the mention and connection tables, the map's data, the counts, and
+ * when everything was added, with the Changelog made from that.
+ */
+function deriveLibrary(db: DatabaseSync, names: Record<string, Name>, git: AddedDates | null) {
+	const rows = db.prepare('SELECT id, head, graph, stats FROM subject ORDER BY id').all() as {
+		id: string;
+		head: string;
 		graph: string;
 		stats: string;
 	}[];
 	const subjects = rows.map((r) => JSON.parse(r.graph) as GraphSubject);
 	const graph = buildGraph(subjects, names);
 
-	for (const table of ['name', 'mention', 'connection', 'frame_links', 'library'])
+	for (const table of ['name', 'mention', 'connection', 'frame_links', 'library', 'added'])
 		db.exec(`DELETE FROM ${table}`);
 	const name = db.prepare('INSERT INTO name (id, body) VALUES (?, ?)');
 	for (const [id, n] of Object.entries(names)) name.run(id, JSON.stringify(n));
@@ -304,6 +390,20 @@ function deriveLibrary(db: DatabaseSync, names: Record<string, Name>) {
 			)
 		)
 	);
+
+	// When everything was added (korg 3525), and the Changelog made from it.
+	const added = db.prepare('INSERT INTO added (subject, kind, id, at) VALUES (?, ?, ?, ?)');
+	const heads = rows.map((r) => {
+		const head = JSON.parse(r.head) as SubjectHead;
+		const dates = addedIn(head, git?.[r.id]);
+		for (const [id, at] of Object.entries(dates.frames)) added.run(r.id, 'frame', id, at);
+		for (const [id, at] of Object.entries(dates.trails)) added.run(r.id, 'trail', id, at);
+		return datedHead(head, dates);
+	});
+	const edits = db
+		.prepare('SELECT subject, frame, date, kind, summary FROM edit ORDER BY subject, frame, ord')
+		.all() as unknown as FrameEdit[];
+	library.run('changelog', JSON.stringify(changelogOf(heads, edits)));
 }
 
 /**
@@ -321,6 +421,7 @@ export async function compileContent(o: CompileOptions): Promise<CompileReport> 
 	}
 	const digests = new Map(ids.map((id) => [id, treeDigest(join(o.subjectsDir, id))]));
 	const namesDigest = treeDigest(o.namesDir);
+	const addedDigest = datesDigest(o.added);
 	const compiler = o.compiler ?? '';
 
 	const before = previous(o.out);
@@ -337,7 +438,13 @@ export async function compileContent(o: CompileOptions): Promise<CompileReport> 
 		build: before?.build ?? null,
 		ms: 0
 	};
-	if (reuse && !changed.length && !dropped.length && reuse.names === namesDigest) {
+	if (
+		reuse &&
+		!changed.length &&
+		!dropped.length &&
+		reuse.names === namesDigest &&
+		reuse.added === addedDigest
+	) {
 		report.changed = false;
 		report.ms = performance.now() - started;
 		return report;
@@ -372,12 +479,13 @@ export async function compileContent(o: CompileOptions): Promise<CompileReport> 
 		}
 		if (o.strict && report.failed.length) throw new ContentError(report.failed);
 
-		deriveLibrary(db, names);
+		deriveLibrary(db, names, o.added ?? null);
 		const build = `${new Date().toISOString()} ${randomBytes(3).toString('hex')}`;
 		const meta = db.prepare('INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)');
 		meta.run('schema', String(CONTENT_SCHEMA));
 		meta.run('compiler', compiler);
 		meta.run('names', namesDigest);
+		meta.run('added', addedDigest);
 		meta.run('build', build);
 		meta.run('source', o.source ?? '');
 		db.exec('COMMIT');
@@ -395,6 +503,9 @@ export async function compileContent(o: CompileOptions): Promise<CompileReport> 
 	report.ms = performance.now() - started;
 	return report;
 }
+
+/** The library-wide values, each served whole. */
+export type LibraryKey = 'map' | 'stats' | 'changelog';
 
 /** A subject the library serves: its id, title and subtitle. */
 export interface SubjectEntry {
@@ -463,9 +574,28 @@ export class ContentDb {
 		return row?.v ?? null;
 	}
 
+	/** A subject's head, with when each frame and trail was added and when it was created. */
 	head(id: string): SubjectHead | null {
 		const v = this.subjectColumn(id, 'head');
-		return v === null ? null : JSON.parse(v);
+		if (v === null) return null;
+		const dates = { frames: {} as Record<string, string>, trails: {} as Record<string, string> };
+		for (const r of this.db.prepare('SELECT kind, id, at FROM added WHERE subject = ?').all(id) as {
+			kind: 'frame' | 'trail';
+			id: string;
+			at: string;
+		}[])
+			(r.kind === 'frame' ? dates.frames : dates.trails)[r.id] = r.at;
+		return datedHead(JSON.parse(v), dates);
+	}
+
+	/** When each frame of every subject was added: what "new to you" is worked out from. */
+	addedFrames(): Record<string, Record<string, string>> {
+		const out: Record<string, Record<string, string>> = {};
+		for (const r of this.db
+			.prepare("SELECT subject, id, at FROM added WHERE kind = 'frame'")
+			.all() as { subject: string; id: string; at: string }[])
+			(out[r.subject] ??= {})[r.id] = r.at;
+		return out;
 	}
 
 	start(id: string): StartLook | null {
@@ -501,8 +631,11 @@ export class ContentDb {
 			.get(subject, frame, file);
 	}
 
-	/** One of the library-wide values, as JSON: `map` (MapData), `stats` (LibraryStats). */
-	libraryJson(key: 'map' | 'stats'): string {
+	/**
+	 * One of the library-wide values, as JSON: `map` (MapData), `stats`
+	 * (LibraryStats), `changelog` (ChangelogData).
+	 */
+	libraryJson(key: LibraryKey): string {
 		const row = this.db.prepare('SELECT value FROM library WHERE key = ?').get(key) as
 			{ value: string } | undefined;
 		return row?.value ?? 'null';

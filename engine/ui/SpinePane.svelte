@@ -194,6 +194,7 @@
 					{#if hasMarks(m)}
 						<!-- The reader's layer, under the line: each kind in its own place and shape. -->
 						<span class="marks" aria-hidden="true">
+							{#if m.fresh}<span class="mark fresh"></span>{/if}
 							{#if m.bookmarked}<span class="mark bookmark"></span>{/if}
 							{#if m.kept}<span class="mark kept"></span>{/if}
 							{#if m.notes}<span class="mark note"></span>{/if}
@@ -476,8 +477,8 @@
 		align-items: center;
 		gap: 0.75rem;
 		margin-top: 0.75rem;
-		/* Room for the reader's marks under the line. */
-		padding-bottom: 1rem;
+		/* Room for the reader's marks under the line, four rows of them. */
+		padding-bottom: 1.4rem;
 	}
 	.step {
 		font: 1.25rem/1 var(--serif);
@@ -530,15 +531,15 @@
 	/*
 	 * The reader's layer (docs/design.md §Marks), under the line where the
 	 * branch ring sits above it. Each kind keeps its own row whether or not the
-	 * others are there: a bookmark's flag first, then a kept answer's dot, then
-	 * a note's lines.
+	 * others are there: a spark for a frame new to the reader first, then a
+	 * bookmark's flag, a kept answer's dot, and a note's lines.
 	 */
 	.marks {
 		position: absolute;
 		top: calc(100% + 0.15rem);
 		left: -0.2rem;
 		display: grid;
-		grid-template-rows: repeat(3, 0.45rem);
+		grid-template-rows: repeat(4, 0.45rem);
 		row-gap: 0.12rem;
 		width: 0.4rem;
 	}
@@ -546,19 +547,25 @@
 		display: block;
 		width: 0.4rem;
 	}
-	.bookmark {
+	.fresh {
 		grid-row: 1;
+		height: 0.45rem;
+		background: var(--accent);
+		clip-path: polygon(50% 0, 64% 36%, 100% 50%, 64% 64%, 50% 100%, 36% 64%, 0 50%, 36% 36%);
+	}
+	.bookmark {
+		grid-row: 2;
 		background: var(--accent);
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 70%, 0 100%);
 	}
 	.kept {
-		grid-row: 2;
+		grid-row: 3;
 		height: 0.4rem;
 		border-radius: 50%;
 		background: var(--accent);
 	}
 	.note {
-		grid-row: 3;
+		grid-row: 4;
 		border-top: 1px solid var(--accent);
 		border-bottom: 1px solid var(--accent);
 	}

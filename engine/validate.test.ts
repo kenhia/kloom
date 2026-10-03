@@ -116,6 +116,49 @@ describe('validate', () => {
 		}
 	});
 
+	it('takes an added date on a frame or a trail, overriding git, and nothing but a day', () => {
+		const r = raw();
+		(r.frames.a.frame as Loose).added = '2025-02-28';
+		(r.trails.t as Loose).added = '2024-12-01';
+		expect(validate(r)).toEqual([]);
+		for (const bad of ['2025-02-30', '2025-02', '28 February 2025', 20250228]) {
+			(r.frames.a.frame as Loose).added = bad;
+			(r.trails.t as Loose).added = bad;
+			expect(validate(r)).toEqual([
+				'trails/t.json: added, when given, is a date: YYYY-MM-DD',
+				'frames/a: added, when given, is a date: YYYY-MM-DD'
+			]);
+		}
+	});
+
+	it('takes edits and corrections, newest first, each dated, of a kind and summarised', () => {
+		const r = raw();
+		const f = r.frames.b.frame as Loose;
+		f.edits = [
+			{ date: '2026-10-02', kind: 'correction', summary: 'Corrected: the beds were the nurses’.' },
+			{ date: '2026-10-02', kind: 'revision', summary: 'Revised: the section rewritten.' },
+			{ date: '2026-09-30', kind: 'revision', summary: 'Revised: Kepler introduced.' }
+		];
+		expect(validate(r)).toEqual([]);
+		f.edits = [
+			{ date: '2026-09-30', kind: 'revision', summary: 'Older.' },
+			{ date: '2026-10-02', kind: 'typo', summary: '  ' },
+			{ date: '2 Oct', kind: 'correction', summary: 'x'.repeat(401), by: 'me' },
+			'a string'
+		];
+		expect(validate(r)).toEqual([
+			'frames/b edit 1: 2026-10-02 comes after 2026-09-30: edits are listed newest first',
+			'frames/b edit 1: kind must be one of correction, revision',
+			'frames/b edit 1: summary is required: what changed, and why',
+			'frames/b edit 2: date must be YYYY-MM-DD',
+			'frames/b edit 2: summary is 401 characters; at most 400',
+			'frames/b edit 2: unknown field "by"',
+			'frames/b edit 3: not an object'
+		]);
+		f.edits = 'none';
+		expect(validate(r)).toEqual(['frames/b: edits must be a list']);
+	});
+
 	it('requires a plain topic: short, not a sentence, not the accent, not another frame’s', () => {
 		const r = raw();
 		const a = r.frames.a.frame as Loose;

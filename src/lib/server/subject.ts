@@ -9,7 +9,9 @@ import {
 	compileContent,
 	ContentDb,
 	engineDigest,
+	gitAddedDates,
 	SUBJECT_ID,
+	type LibraryKey,
 	type SubjectEntry
 } from '$engine/content-db';
 import type { Graph } from '$engine/graph';
@@ -73,7 +75,8 @@ async function build() {
 		namesDir: namesDir(),
 		out: contentDbPath(),
 		compiler: compilerId(),
-		source: await sourceCommit()
+		source: await sourceCommit(),
+		added: await gitAddedDates(subjectsDir())
 	});
 	for (const f of report.failed)
 		console.error(
@@ -222,11 +225,11 @@ export async function servedStart(id: string): Promise<StartLook | null> {
 }
 
 /**
- * The map's data or the library's counts as a response: the stored JSON,
- * compressed once per build for the encodings the client takes, since the
- * map is large and the same for every reader.
+ * The map's data, the library's counts or the Changelog as a response: the
+ * stored JSON, compressed once per build for the encodings the client takes,
+ * since each is large and the same for every reader.
  */
-export async function servedLibrary(key: 'map' | 'stats', request: Request): Promise<Response> {
+export async function servedLibrary(key: LibraryKey, request: Request): Promise<Response> {
 	const db = await library();
 	const json = once(key, () => Buffer.from(db.libraryJson(key)));
 	const accept = request.headers.get('accept-encoding') ?? '';
@@ -246,6 +249,12 @@ export async function servedLibrary(key: 'map' | 'stats', request: Request): Pro
 			'x-kloom-build': db.build
 		}
 	});
+}
+
+/** When each frame of every served subject was added (korg 3525), by subject. */
+export async function servedAdded(): Promise<Record<string, Record<string, string>>> {
+	const db = await library();
+	return once('added', () => db.addedFrames());
 }
 
 /** The graph index across every served subject (docs/design.md §Connections). */

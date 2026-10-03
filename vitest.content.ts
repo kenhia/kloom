@@ -1,7 +1,7 @@
 import { mkdtempSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
-import { compileContent, engineDigest } from './engine/content-db';
+import { compileContent, engineDigest, gitAddedDates } from './engine/content-db';
 
 /**
  * The gate's library (docs/design.md §Serving): every subject compiled once,
@@ -18,7 +18,8 @@ export default async function () {
 		namesDir: resolve('names'),
 		out,
 		compiler: engineDigest(resolve('engine')) ?? '',
-		strict: true
+		strict: true,
+		added: await gitAddedDates(resolve('subjects'))
 	});
 	if (report.nameProblems.length) throw new Error(`names: ${report.nameProblems.join('; ')}`);
 	process.env.KLOOM_CONTENT_DB = out;

@@ -3,7 +3,7 @@
 	import { tick } from 'svelte';
 	import { SvelteSet } from 'svelte/reactivity';
 	import { contentsCount, filterContents, type ContentsSegment } from '../contents';
-	import { marksText, NO_MARKS, type FrameMarks } from '../marks';
+	import { FRESH_TEXT, marksText, NO_MARKS, type FrameMarks } from '../marks';
 	import IconButton from './IconButton.svelte';
 
 	interface Props {
@@ -19,6 +19,11 @@
 		hrefOf?: (frame: string) => string;
 		/** The reader's letter for opening it, or null when it has none. */
 		key?: string | null;
+		/**
+		 * Frames new to the reader here, and "I'm caught up on this subject"
+		 * (§What's new); absent with no reader.
+		 */
+		fresh?: { count: number; oncaughtup: () => void } | null;
 		onjump: (frame: string) => void;
 	}
 
@@ -29,6 +34,7 @@
 		marksOf = () => NO_MARKS,
 		hrefOf,
 		key = null,
+		fresh = null,
 		onjump
 	}: Props = $props();
 
@@ -190,6 +196,15 @@
 			<p id="{id}-found" class="found" role="status">
 				{#if filtering}{found === 1 ? '1 frame' : `${found} frames`}{/if}
 			</p>
+			{#if fresh?.count}
+				<!-- The reader who reads straight through clears their marks here (korg 3525). -->
+				<p class="fresh">
+					<span>{fresh.count === 1 ? '1 frame' : `${fresh.count} frames`} {FRESH_TEXT}</span>
+					<button type="button" class="caught-up" data-stop onclick={fresh.oncaughtup}
+						>I’m caught up on this subject</button
+					>
+				</p>
+			{/if}
 		</div>
 
 		{#each shown as segment (segment.id)}
@@ -215,7 +230,11 @@
 									<span class="chevron" aria-hidden="true">›</span>
 									Trail: {t.title}
 									<span class="count"
-										>{t.frames.length === 1 ? '1 frame' : `${t.frames.length} frames`}</span
+										>{t.frames.length === 1
+											? '1 frame'
+											: `${t.frames.length} frames`}{#if t.frames.some((f) => marksOf(f.id).fresh)}<span
+												class="marks">· {FRESH_TEXT}</span
+											>{/if}</span
 									>
 								</button>
 							{/if}
@@ -312,6 +331,24 @@
 	.note {
 		font-size: 0.8rem;
 		color: var(--muted);
+	}
+	.fresh {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.25rem 0.6rem;
+		margin: 0;
+		font-size: 0.8rem;
+		color: var(--accent);
+	}
+	.caught-up {
+		font: inherit;
+		padding: 0.1rem 0.5rem;
+		color: var(--ink);
+		background: none;
+		border: 1px solid var(--muted);
+		border-radius: 0.25rem;
+		cursor: pointer;
 	}
 	.found:empty {
 		display: none;

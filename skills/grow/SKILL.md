@@ -407,6 +407,32 @@ knowledge is not a source.
   book, a well-known article, or a Wikipedia revision you are given in the
   kept answer or the existing frames. Never make up an `oldid`.
 
+## Edits and corrections
+
+A frame already published carries a record of its meaningful revisions
+(docs/design.md §What's new): `edits` in `frame.json`, newest first, each
+`{"date": "YYYY-MM-DD", "kind": "correction" | "revision", "summary": "…"}`.
+The reading pane lists them under Citations, and the Changelog lists them
+across subjects.
+
+- **Meaningful** is a fact, a date, an attribution, a quotation or a source
+  changed, or a section rewritten. That always gets an entry. A typo or
+  formatting fix never does. A wording-only clarity edit is your call.
+- **`correction`** puts something right that was wrong; **`revision`**
+  reworks what was not wrong (a section rewritten, a claim made clearer).
+- **The summary** is one or two sentences, at most 400 characters, saying
+  what changed and why, with the source when one decided it: "Corrected:
+  the straw mattresses were the nurses' own beds, not their patients'
+  (Olds, 1943)." Plain text, no markdown.
+- **The date** is the day the change reaches the content: the day you make
+  it.
+
+A grow job never changes an existing frame, so it writes no edits. Whoever
+does change a published frame writes the entry in the same commit: the
+review of a grown frame (`skills/review-grown`), an answer to a reader's
+note (`skills/review-notes`), an author revising a frame already committed
+(`skills/author-subject`), and any sprint that rewrites content.
+
 ## Before you finish
 
 Check your own work against this list. **The job runs the validator after

@@ -10,7 +10,8 @@
 		| 'anywhere'
 		| 'home'
 		| 'settings'
-		| 'about';
+		| 'about'
+		| 'whats-new';
 </script>
 
 <script lang="ts">
@@ -78,6 +79,14 @@
 					transform="rotate({a} 12 12)"
 				/>
 			{/each}
+		{:else if name === 'whats-new'}
+			<!-- What's new: a spark, as the spine marks a frame new to the reader. -->
+			<path
+				d="M10 3.5 11.6 8.4 16.5 10 11.6 11.6 10 16.5 8.4 11.6 3.5 10 8.4 8.4z"
+				stroke-width="1.5"
+				stroke-linejoin="round"
+			/>
+			<path d="M17.5 14.5v6M14.5 17.5h6" stroke-width="1.5" />
 		{:else if name === 'about'}
 			<circle cx="12" cy="12" r="9" stroke-width="1.5" />
 			<line x1="12" y1="10.5" x2="12" y2="17" stroke-width="1.75" />

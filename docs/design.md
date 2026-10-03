@@ -146,7 +146,10 @@ baked into the engine.
   accent word, ignoring case and the full stop (sprint 006; grow is held to
   it too). A time-sensitive frame may carry `asOf` (`YYYY-MM` or
   `YYYY-MM-DD`): the reading pane shows "As of September 27, 2026" beside
-  the position, and ask's prompt says the frame is dated. Validation collects every problem in one
+  the position, and ask's prompt says the frame is dated. A frame (or a
+  trail) may carry `added` (`YYYY-MM-DD`), overriding the date git gives it,
+  and `edits`, its record of meaningful revisions (sprint 043, §What's
+  new). Validation collects every problem in one
   pass and the site refuses to serve an invalid subject. Reading markdown is
   rendered with raw HTML escaped. Links and images are kept only for http(s)
   or scheme-less URLs, judged after the entity and control-character
@@ -1195,6 +1198,8 @@ file, `content.db`, derived from them and rebuildable at any time
     names its reading marks.
   - The map's data, the library's counts and each subject's start look.
   - An FTS5 index over every reading's text and topic, for a later search.
+  - When each frame and trail was added, every frame's edits, and the
+    Changelog made from them (sprint 043, §What's new).
   - The schema version, the content's commit, the build time and what
     compiled it.
 
@@ -1373,11 +1378,13 @@ user_version` counts how many a file has had, and opening it runs the
   refuses them.
 - **Routes** (`src/routes/api/reader/`). `POST place`, `GET`/`POST`/`DELETE
 bookmarks`, `GET`/`POST`/`PATCH`/`DELETE notes`, `GET`/`POST my-notes`,
-  `GET`/`DELETE kept`, `GET`/`POST suggestions`, `GET export` and `POST import`. A place, bookmark or note must name a served subject
+  `GET`/`DELETE kept`, `GET`/`POST suggestions`, `POST seen`, `POST
+caught-up`, `GET export` and `POST import`. A place, bookmark or note must name a served subject
   (404) and a frame that subject has on disk (400).
 - **Export and import.** The export is a versioned JSON file
-  (`kloom: "reader-data"`, `version: 3`) of every place, bookmark, note
-  (annotations included) and kept answer, and it downloads from the jump
+  (`kloom: "reader-data"`, `version: 4`) of every place, bookmark, note
+  (annotations included), kept answer, subject started and frame seen
+  (version 4, sprint 043; an older file has none of the last two), and it downloads from the jump
   list's _Export my reading data_. A version 1 file (sprint 009's) still
   imports, as one with no notes or kept answers, and a version 2 file
   (sprint 011's) as one whose notes have no anchors. Import takes
@@ -1393,7 +1400,10 @@ bookmarks`, `GET`/`POST`/`PATCH`/`DELETE notes`, `GET`/`POST my-notes`,
   set when an agent answers it (§My notes). The fifth (sprint 039) holds the
   reader edition's accounts, and the sixth (sprint 041) suggested subjects
   (§Suggestions), which the export leaves out: they are a note to Ken, not
-  reading data. Deleting a reader deletes theirs.
+  reading data. The seventh (sprint 043) keeps what's new to a reader
+  (§What's new): each subject's first visit and caught-up watermark, the
+  frames opened or marked seen, and when they were last active. Deleting a
+  reader deletes theirs.
 - **The adapter loads under plain Node.** `sqlite-reader-store.ts` imports
   only `node:` modules and types, so Node's type stripping can load it
   outside the app. The review-notes skill's script does that (§Notes), and so
@@ -1408,13 +1418,15 @@ for a trail branching from a frame, sits **above** the line. The reader's
 marks sit **below** it, each kind in a fixed row and shape, whether or not
 the others are there:
 
-1. a **bookmark**: a small filled flag;
-2. **kept answers**: a filled dot;
-3. **notes**: two short lines, like ruled paper.
+1. **new to you** (sprint 043, §What's new): a small four-pointed spark;
+2. a **bookmark**: a small filled flag;
+3. **kept answers**: a filled dot;
+4. **notes**: two short lines, like ruled paper.
 
 A mark is never shape alone. `marksText` (`engine/marks.ts`) says the same
-facts in words ("bookmarked", "2 kept answers", "1 note"), and the tick's
-title, the slider's `aria-valuetext` and the spine announcement all use it.
+facts in words ("new to you", "bookmarked", "2 kept answers", "1 note"),
+and the tick's title, the slider's `aria-valuetext`, the spine
+announcement and the contents all use it.
 
 ## Notes
 
@@ -1714,6 +1726,90 @@ whose findings go to korg 3461. It is described in its sprint record.
   industry, dyes, drugs and materials, helix and agar for the bond, life
   and the present. The lowest contrast is 5.6:1.
 
+## What's new
+
+Built in sprint 043 (korg 3525, 3526, Ken's decisions of 2026-10-03).
+kloom grows (grow, new subjects, sprints) and is corrected, and readers
+should be able to see both. Two ways of reading are served: a reader who
+browses wants a Changelog filtered by subject and date, and a reader who
+reads a subject straight through wants "new to you" marks on what appeared
+after they started it.
+
+- **Added dates come from git** (`engine/history.ts`). The compile records
+  each frame's and trail's first appearance on the first-parent line of
+  the commit checked out: on `main`, the squash merge that reviewed it in
+  (korg 3442). A path added again keeps its first date; a renamed frame
+  dates from the rename. `added: "YYYY-MM-DD"` in `frame.json` or a trail
+  overrides git, for history it cannot see (an import, a subject moved
+  from another repository); it is taken as that day's noon UTC, so it
+  reads as the same day wherever a reader is. A frame git has never seen
+  (written, not committed) has no date, and is in no list. A subject's
+  `created` is its earliest frame's, and everything with that date is its
+  first publish. The library's dates are a digest in its meta, so new
+  history rebuilds what spans subjects even when no file changed. In a
+  served head, `added` is the date in force and `created` is set
+  (`ContentDb.head`).
+- **Capped on the public site.** `just stage-public` compiles from a clean
+  `main` at the commit being published, so its history ends there:
+  nothing is shown as added before Ken publishes it. The service's
+  content clone is on its grow branch, so a grown frame dates from its
+  grow commit on Ken's instance.
+- **Edits and corrections** (korg 3526). `edits: [{date, kind, summary}]`
+  in `frame.json`, newest first: `kind` is `correction` (a fact put
+  right) or `revision` (the frame reworked), `summary` one or two
+  sentences, at most 400 characters, on what changed and why. Validation
+  checks the date, the kind, the order and the summary. The reading pane
+  lists them in a closed "Edits and corrections" section below Citations,
+  built like it, and hidden when there are none. Every agent path that
+  makes a meaningful change to a published frame writes one, through its
+  skill (review-notes, review-grown, grow, author-subject, and any sprint
+  that rewrites content): a fact, date, attribution, quotation or source
+  changed, or a section rewritten. Typo and formatting fixes never do;
+  wording-only clarity edits are the author's call. The first were
+  backfilled: kloom#35's three reader-note revisions and navy-pow's Guam
+  correction (korg 3487).
+- **The Changelog** (`engine/ui/Changelog.svelte`, `/api/changelog`, built
+  with the library by `changelogOf` in `engine/whats-new.ts`). A modal
+  dialog in the colours of what it opened over, from the HUD (the spark
+  icon, with a count of the frames new to the reader in this subject) and
+  from the start screen's corner, left of About. Two tabs, _Added_ and
+  _Edits and corrections_, each newest first, grouped by day and then
+  subject. An added entry is a frame (its topic, position and trail), a
+  trail with the frames it came with, or a subject's first publish (one
+  line, "First published · 62 frames"); each jumps through the shared
+  jump path, so the Back chip returns. Filters: subject checkboxes (none
+  ticked is every subject) and _When_: all time, since my last visit,
+  since I caught up, the last 7 or 30 days, or between two days. "Since
+  I caught up" counts from each subject's own mark, its watermark or,
+  before one, the first visit; a subject never visited shows everything.
+  The reader's two presets are not offered with no reader. ↑/↓ move
+  between entries, Esc closes; it works at 390px.
+- **New to you.** A frame is new to a reader when it was added after
+  their first visit to its subject (or after they last caught up on it)
+  and they have not opened it (`newToYou`). A subject never visited has
+  nothing new: all of it is. Opening is being on the frame when the
+  place is written (800 ms after the reader stops); the store's `visit`
+  also starts the subject and counts as activity. Shown: on the spine
+  (the spark, §Marks), in the contents and on trail markers (a trail with
+  a new frame says so), on the HUD's count, and on the start screen ("2
+  new" in the subject list, "3 new since you started" under Begin). The
+  page computes the frames from the library's dates and the reader's
+  records (`readerNews`), and keeps them current as the reader opens,
+  marks or catches up.
+- **I'm caught up; Mark all as seen.** "I'm caught up on this subject", in
+  the contents (with the count) and in the Changelog when one subject is
+  filtered, sets the reader's watermark for the subject to now
+  (`POST /api/reader/caught-up`). "Mark all as seen", in the Changelog,
+  marks the new frames of every entry it shows (`POST /api/reader/seen`).
+- **Since my last visit.** A visit is a run of activity with no pause of
+  two hours or more; the store keeps the last activity and the one before
+  the last pause, and "since my last visit" counts from the end of the
+  previous visit.
+- **Readers from before it** (the seventh migration) are taken to have
+  started a subject with their earliest record in it, and to have opened
+  every frame they placed, bookmarked, noted or kept an answer on. On the
+  reader site, these records live in its own `reader.db`.
+
 ## Start screen
 
 Built in sprint 002 (korg 3359). The page opens on a modal start screen over
@@ -1774,8 +1870,9 @@ past two subjects:
   a name card, the map) keep the title alone.
 
 - **The corner** (sprint 022, korg 3456). The start screen's upper right
-  holds two icon buttons in the shell's look: _About_, then the settings
-  gear rightmost, as in the shell. The gear is the shell's own pop-up
+  holds icon buttons in the shell's look: _What's new_ (sprint 043,
+  §What's new), _About_, then the settings gear rightmost, as in the
+  shell. The gear is the shell's own pop-up
   (`engine/ui/Settings.svelte` over the same settings), so colours,
   layout, models and keys can be set before a subject is begun. Both are
   last in the dialog's tab order, after _Map of the library_. Esc in either

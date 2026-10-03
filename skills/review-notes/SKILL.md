@@ -64,7 +64,11 @@ records.
    - **A fix you can make:** wording, a wrong date, a missing step, a broken
      citation. Make it the way the grow skill says content is written
      (`skills/grow/SKILL.md`): the same voice, Chicago-style citations, at
-     least one key citation, Wikipedia by `oldid`. Then run `just check`.
+     least one key citation, Wikipedia by `oldid`. A fix that changes a
+     claim (a fact, date, attribution, quotation or source), or rewrites a
+     section, also adds an entry to the frame's `edits`, newest first, as
+     `skills/grow/SKILL.md` §Edits and corrections says; a typo or
+     formatting fix does not. Then run `just check`.
      A content change ships like any other: on a branch, through a PR.
    - **A question:** answer it in the response. If the frame should answer
      it too, that is a fix.

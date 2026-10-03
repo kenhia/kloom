@@ -118,6 +118,27 @@ describe('the shell', () => {
 		);
 	});
 
+	it('lists a frame’s edits and corrections in a closed control below Citations, and none when there are none', () => {
+		expect(page().body).not.toContain('<details class="citations edits');
+		const edited = {
+			...bodies,
+			prometheus: {
+				...bodies.prometheus,
+				edits: [
+					{ date: '2026-10-02', kind: 'correction' as const, summary: 'Corrected: a date.' },
+					{ date: '2026-09-30', kind: 'revision' as const, summary: 'Revised: rewritten.' }
+				]
+			}
+		};
+		const { body } = page('allow', growModels, { bodies: edited });
+		const edits = body.slice(body.indexOf('<details class="citations edits'));
+		expect(edits).not.toMatch(/^<details[^>]*\bopen\b/);
+		expect(text(edits)).toMatch(
+			/Edits and corrections \(2\)\s*Correction · October 2, 2026\s*Corrected: a date\.\s*Revision · September 30, 2026/
+		);
+		expect(body.indexOf('Citations (4)')).toBeLessThan(body.indexOf('Edits and corrections ('));
+	});
+
 	it('keeps citations in a closed control under Sources, in Chicago style', () => {
 		const { body } = page();
 		const citations = body.slice(body.indexOf('<details class="citations'));
@@ -467,12 +488,34 @@ describe('reader data on the page', () => {
 		expect(body).toContain('href="/api/reader/export"');
 	});
 
+	it('marks what is new to the reader: the spine, the HUD’s count, the subject list and Begin', () => {
+		const news = {
+			readings: { 'western-civ': { first: at, caughtUp: null }, ai: { first: at, caughtUp: at } },
+			lastVisit: null,
+			fresh: { 'western-civ': ['prometheus'], ai: ['alexnet', 'transformer'] }
+		};
+		const body = withReader({ news });
+		expect(body).toMatch(/role="slider"[^>]*aria-valuetext="[^"]*, new to you"/);
+		expect(body).toMatch(
+			/title="Myth, new to you"[^>]*>(\s*<!--[^>]*-->)*\s*<span class="marks[^"]*" aria-hidden="true">(\s*<!--[^>]*-->)*\s*<span class="mark fresh/
+		);
+		expect(text(body)).toContain("What's new, 1 new to you here");
+		const at0 = body.indexOf('role="listbox"');
+		expect(text(body.slice(at0, body.indexOf('<h2', at0)))).toMatch(
+			/History and Current State of AI\s*2 new/
+		);
+		// The selection is this subject: Begin says what is new in it.
+		expect(text(body)).toContain('1 new since you started');
+		// Nothing is new without a reader, or in a subject not started.
+		expect(text(withReader({}))).not.toContain('new to you');
+	});
+
 	it('marks a bookmarked frame on the spine, in words as well as the mark', () => {
 		const body = withReader({ bookmarks: [mark('prometheus'), mark('alexnet', 'ai', 'AI')] });
 		expect(body).toMatch(/<button[^>]*aria-pressed="true"/);
 		expect(body).toMatch(/role="slider"[^>]*aria-valuetext="[^"]*, bookmarked"/);
 		expect(body).toMatch(
-			/class="tick[^"]*"[^>]*title="[^"]*, bookmarked"[^>]*>(<!--[^>]*-->)*<span class="marks[^"]*" aria-hidden="true">(<!--[^>]*-->)*<span class="mark bookmark/
+			/class="tick[^"]*"[^>]*title="[^"]*, bookmarked"[^>]*>(<!--[^>]*-->)*<span class="marks[^"]*" aria-hidden="true">(\s*<!--[^>]*-->)*\s*<span class="mark bookmark/
 		);
 		expect(body).toContain('Bookmarks (2)');
 		// This subject's bookmark moves the shell; the other subject's is a link to it.

@@ -47,6 +47,126 @@ describe('last visited', () => {
 	});
 });
 
+describe('what is new to a reader (korg 3525)', () => {
+	/** A clock the test sets. */
+	const settable = (start: string) => {
+		let t = Date.parse(start);
+		const now = () => new Date(t);
+		now.set = (iso: string) => (t = Date.parse(iso));
+		return now;
+	};
+
+	it('starts a subject on the first visit to it, and opens each frame visited', async () => {
+		const now = settable('2026-10-01T09:00:00Z');
+		const store = openReaderStore(':memory:', now);
+		expect(await store.readings(ken)).toEqual({});
+		await store.visit(ken, at('nursing', 'nightingale'));
+		now.set('2026-10-02T09:00:00Z');
+		await store.visit(ken, at('nursing', 'navy-pow'));
+		await store.visit(ada, at('blood', 'harvey'));
+		expect(await store.readings(ken)).toEqual({
+			nursing: { first: '2026-10-01T09:00:00.000Z', caughtUp: null }
+		});
+		expect(await store.seenFrames(ken)).toEqual({ nursing: ['navy-pow', 'nightingale'] });
+		expect(await store.seenFrames(ada)).toEqual({ blood: ['harvey'] });
+	});
+
+	it('marks frames seen, and catching up sets the watermark to now', async () => {
+		const now = settable('2026-10-01T09:00:00Z');
+		const store = openReaderStore(':memory:', now);
+		await store.markSeen(ken, 'blood', ['harvey', 'landsteiner']);
+		await store.markSeen(ken, 'blood', ['harvey']);
+		expect(await store.seenFrames(ken)).toEqual({ blood: ['harvey', 'landsteiner'] });
+		// Catching up on a subject never visited starts it too.
+		now.set('2026-10-03T09:00:00Z');
+		expect(await store.catchUp(ken, 'blood')).toEqual({
+			first: '2026-10-03T09:00:00.000Z',
+			caughtUp: '2026-10-03T09:00:00.000Z'
+		});
+		now.set('2026-10-04T09:00:00Z');
+		await store.visit(ken, at('blood', 'harvey'));
+		expect((await store.readings(ken)).blood).toEqual({
+			first: '2026-10-03T09:00:00.000Z',
+			caughtUp: '2026-10-03T09:00:00.000Z'
+		});
+	});
+
+	it('says when the last visit ended: the previous run of moves, after a long pause', async () => {
+		const now = settable('2026-10-01T09:00:00Z');
+		const store = openReaderStore(':memory:', now);
+		expect(await store.lastVisit(ken)).toBeNull();
+		await store.visit(ken, at('ai', 'turing'));
+		now.set('2026-10-01T09:30:00Z');
+		await store.visit(ken, at('ai', 'dartmouth'));
+		// Still the first visit: there was none before it.
+		expect(await store.lastVisit(ken)).toBeNull();
+		// Back the next day: the visit that ended at 09:30 is the last one, before and after a move.
+		now.set('2026-10-02T08:00:00Z');
+		expect(await store.lastVisit(ken)).toBe('2026-10-01T09:30:00.000Z');
+		await store.visit(ken, at('ai', 'turing'));
+		now.set('2026-10-02T08:20:00Z');
+		await store.visit(ken, at('ai', 'transformer'));
+		expect(await store.lastVisit(ken)).toBe('2026-10-01T09:30:00.000Z');
+	});
+
+	it('carries readings and seen frames through an export: earlier first visits, later watermarks', async () => {
+		const from = openReaderStore(':memory:', settable('2026-10-01T09:00:00Z'));
+		await from.visit(ken, at('ai', 'turing'));
+		await from.catchUp(ken, 'ai');
+		const parsed = parseExport(JSON.parse(JSON.stringify(await from.exportData(ken))));
+		if ('error' in parsed) throw new Error(parsed.error);
+		expect(parsed.readings).toEqual([
+			{ subject: 'ai', first: '2026-10-01T09:00:00.000Z', caughtUp: '2026-10-01T09:00:00.000Z' }
+		]);
+		const now = settable('2026-10-05T09:00:00Z');
+		const to = openReaderStore(':memory:', now);
+		await to.visit(ada, at('ai', 'dartmouth'));
+		await to.catchUp(ada, 'ai');
+		await to.importData(ada, parsed);
+		expect((await to.readings(ada)).ai).toEqual({
+			first: '2026-10-01T09:00:00.000Z',
+			caughtUp: '2026-10-05T09:00:00.000Z'
+		});
+		expect(await to.seenFrames(ada)).toEqual({ ai: ['dartmouth', 'turing'] });
+		// One bad record refuses the file.
+		expect(parseExport({ ...parsed, seen: [{ subject: 'ai', frame: '../x', at: 'x' }] })).toEqual({
+			error: 'seen frame 0 is not a valid record'
+		});
+	});
+
+	it('takes readers from before it to have started a subject with their first record in it', async () => {
+		dir = mkdtempSync(join(tmpdir(), 'kloom-reader-'));
+		const path = join(dir, 'reader.db');
+		const before = openReaderStore(path, settable('2026-09-20T09:00:00Z'));
+		await before.saveNote(ken, note('turing', 'early'));
+		before.close();
+		const later = openReaderStore(path, settable('2026-10-01T09:00:00Z'));
+		await later.visit(ken, at('ai', 'dartmouth'));
+		await later.bookmark(ken, at('western-civ', 'fire'));
+		later.close();
+		// Back to sprint 041's schema, with the records kept.
+		const raw = new DatabaseSync(path);
+		raw.exec(`DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; PRAGMA user_version = 6;`);
+		raw.close();
+		const store = openReaderStore(path, settable('2026-10-03T09:00:00Z'));
+		expect(await store.readings(ken)).toEqual({
+			ai: { first: '2026-09-20T09:00:00.000Z', caughtUp: null },
+			'western-civ': { first: '2026-10-01T09:00:00.000Z', caughtUp: null }
+		});
+		expect(await store.seenFrames(ken)).toEqual({
+			ai: ['dartmouth', 'turing'],
+			'western-civ': ['fire']
+		});
+		expect(await store.lastVisit(ken)).toBe('2026-10-01T09:00:00.000Z');
+		store.close();
+	});
+	let dir: string | undefined;
+	afterEach(() => {
+		if (dir) rmSync(dir, { recursive: true, force: true });
+		dir = undefined;
+	});
+});
+
 describe('bookmarks', () => {
 	it('lists a reader’s marks across subjects, newest first, and removes one', async () => {
 		const store = openReaderStore(':memory:', clock());
@@ -383,7 +503,9 @@ describe('export and import', () => {
 			places: 1,
 			bookmarks: 1,
 			notes: 0,
-			kept: 0
+			kept: 0,
+			readings: 1,
+			seen: 1
 		});
 		expect(await to.lastVisited(ada, 'ai')).toMatchObject({
 			frame: 'turing',
@@ -397,13 +519,15 @@ describe('export and import', () => {
 		await store.visit(ken, at('ai', 'transformer'));
 		await store.importData(ken, {
 			kloom: 'reader-data',
-			version: 3,
+			version: 4,
 			reader: ken,
 			exported: '2026-01-01T00:00:00.000Z',
 			places: [{ ...at('ai', 'turing'), at: '2026-01-01T00:00:00.000Z' }],
 			bookmarks: [],
 			notes: [],
-			kept: []
+			kept: [],
+			readings: [],
+			seen: []
 		});
 		expect(await store.lastVisited(ken, 'ai')).toMatchObject({ frame: 'transformer' });
 	});
@@ -490,6 +614,7 @@ describe('the file', () => {
 		const raw = new DatabaseSync(path);
 		raw.exec(`ALTER TABLE note DROP COLUMN unseen;
 			DROP TABLE account; DROP TABLE session; DROP TABLE invite; DROP TABLE suggestion;
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity;
 			PRAGMA user_version = 3;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
@@ -510,6 +635,7 @@ describe('the file', () => {
 		// Back to sprint 034's schema, before the reader edition's sign-in.
 		const raw = new DatabaseSync(path);
 		raw.exec(`DROP TABLE account; DROP TABLE session; DROP TABLE invite; DROP TABLE suggestion;
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity;
 			PRAGMA user_version = 4;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
@@ -529,7 +655,8 @@ describe('the file', () => {
 		before.close();
 		// Back to sprint 039's schema, the one the public site first shipped with.
 		const raw = new DatabaseSync(path);
-		raw.exec(`DROP TABLE suggestion; PRAGMA user_version = 5;`);
+		raw.exec(`DROP TABLE suggestion;
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; PRAGMA user_version = 5;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
 		expect((await store.allNotes(ken)).map((x) => x.text)).toEqual(['kept']);

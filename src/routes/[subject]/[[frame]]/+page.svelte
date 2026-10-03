@@ -16,6 +16,13 @@
 	import type { MyNotesData, MyNotesOffer, NoteEntry } from '$engine/my-notes';
 	import { pickOther, walkedFrames } from '$engine/random';
 	import MapOverlay, { type MapOpen } from '$engine/ui/MapOverlay.svelte';
+	import Changelog, { type ChangelogOffer } from '$engine/ui/Changelog.svelte';
+	import {
+		readingFrom,
+		type ChangelogData,
+		type ReaderNews,
+		type Reading
+	} from '$engine/whats-new';
 	import Shell from '$engine/ui/Shell.svelte';
 	import StartScreen from '$engine/ui/StartScreen.svelte';
 	import {
@@ -102,13 +109,51 @@
 	});
 
 	const listed = $derived(
-		data.subjects.map((s) => ({
-			id: s.id,
-			title: s.title,
-			subtitle: s.subtitle,
-			note: data.readerData?.last?.subject === s.id ? 'Last read' : undefined
-		}))
+		data.subjects.map((s) => {
+			const n = news?.fresh[s.id]?.length ?? 0;
+			const note = [
+				...(data.readerData?.last?.subject === s.id ? ['Last read'] : []),
+				...(n ? [`${n} new`] : [])
+			].join(' · ');
+			return { id: s.id, title: s.title, subtitle: s.subtitle, note: note || undefined };
+		})
 	);
+
+	// What's new (docs/design.md §What's new, korg 3525): the reader's side,
+	// loaded with the page and kept current here as they open frames, mark
+	// them seen or catch up. Absent with no reader.
+	let news = $derived<ReaderNews | null>(data.readerData?.news ?? null);
+	const freshHere = $derived(new Set(news?.fresh[data.subject.id] ?? []));
+	/** These frames are not new to the reader any more. */
+	function seenHere(subject: string, frames: string[]) {
+		if (!news) return;
+		const left = (news.fresh[subject] ?? []).filter((f) => !frames.includes(f));
+		const fresh = { ...news.fresh, [subject]: left };
+		if (!left.length) delete fresh[subject];
+		news = { ...news, fresh };
+	}
+	async function markSeen(subject: string, frames: string[]) {
+		const ok = await write(resolve('/api/reader/seen'), 'POST', { subject, frames });
+		if (ok) seenHere(subject, frames);
+		return ok;
+	}
+	async function caughtUp(subject: string) {
+		const res = await send(resolve('/api/reader/caught-up'), 'POST', { subject });
+		if (!res || !news) return false;
+		const reading = (await res.json()) as Reading;
+		const fresh = { ...news.fresh };
+		delete fresh[subject];
+		news = { ...news, readings: { ...news.readings, [subject]: reading }, fresh };
+		return true;
+	}
+	/** Said under Begin: what is new to the reader in the selected subject. */
+	const freshLine = $derived.by(() => {
+		const n = news?.fresh[selected]?.length ?? 0;
+		const r = news?.readings[selected];
+		if (!n || !r) return null;
+		const since = readingFrom(r) === r.first ? 'you started' : 'you caught up';
+		return `${n} new since ${since}`;
+	});
 
 	/**
 	 * Back to the start screen over this subject, where Begin or Esc returns.
@@ -395,8 +440,16 @@
 				[subject]: { subject, frame: f.id, label, at, subjectTitle: here.title }
 			};
 			clearTimeout(placeTimer);
-			placeTimer = setTimeout(() => {
-				write(resolve('/api/reader/place'), 'POST', { subject, frame: f.id, label });
+			placeTimer = setTimeout(async () => {
+				if (!(await write(resolve('/api/reader/place'), 'POST', { subject, frame: f.id, label })))
+					return;
+				// Being on it opened it, and a first visit started the subject (§What's new).
+				seenHere(subject, [f.id]);
+				if (news && !news.readings[subject])
+					news = {
+						...news,
+						readings: { ...news.readings, [subject]: { first: at, caughtUp: null } }
+					};
 			}, 800);
 		});
 	});
@@ -465,6 +518,31 @@
 		if (to) follow(subjectOf(to), to.slice(to.indexOf('/') + 1));
 		return !!to;
 	}
+
+	// The Changelog's entries: fetched when it first opens, and kept for the build.
+	let changelog = $state<ReturnType<typeof Changelog>>();
+	let changelogData: { build: string; got: Promise<ChangelogData | null> } | null = null;
+	function loadChangelog() {
+		if (changelogData?.build !== data.build)
+			changelogData = {
+				build: data.build,
+				got: fetch(resolve('/api/changelog'))
+					.then((res) => (res.ok ? (res.json() as Promise<ChangelogData>) : null))
+					.catch(() => null)
+			};
+		const asked = changelogData;
+		return asked.got.then((d) => {
+			if (!d && changelogData === asked) changelogData = null;
+			return d;
+		});
+	}
+	const changelogOffer = $derived<ChangelogOffer>({
+		load: loadChangelog,
+		news,
+		hrefOf: frameHref,
+		onfollow: (subject, frame) => followFromMap(subject, frame),
+		...(data.reader ? { onseen: markSeen, oncaughtup: caughtUp } : {})
+	});
 
 	const backOffer = $derived.by(() => {
 		const stack = page.state.back ?? [];
@@ -580,10 +658,13 @@
 		back={backOffer}
 		onmap={openMap}
 		onrandom={random}
+		fresh={data.reader ? { frames: freshHere, oncaughtup: () => caughtUp(data.subject.id) } : null}
+		onchangelog={(refocus, palette) => changelog?.show({ refocus, palette })}
 	/>
 {/key}
 
 <MapOverlay bind:this={map} load={loadMap} hrefOf={frameHref} onfollow={followFromMap} />
+<Changelog bind:this={changelog} offer={changelogOffer} />
 
 {#if !started}
 	<StartScreen
@@ -604,6 +685,8 @@
 		onopen={open}
 		onmap={(refocus) =>
 			openMap({ target: { view: 'library' }, scheme: startPalette.scheme, refocus })}
+		onchangelog={(refocus) => changelog?.show({ refocus, palette: startPalette })}
+		fresh={freshLine}
 		{settings}
 		about={{ stats: loadStats, build: __KLOOM_BUILD__ || undefined, suggest }}
 		help={resolve('/welcome')}

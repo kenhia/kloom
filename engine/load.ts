@@ -117,6 +117,7 @@ export function buildSubject(id: string, raw: RawSubject, options: BuildOptions 
 		};
 		frames[dir] = {
 			...file,
+			edits: file.edits ?? [],
 			sources: keySources(file.citations),
 			readingHtml: renderMarkdown(r.reading!, { image }),
 			// The re-serialised parse, never the file's own text (engine/svg.ts).
