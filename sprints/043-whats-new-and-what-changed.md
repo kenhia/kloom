@@ -171,3 +171,30 @@ Ken's decisions are recorded on both items:
 ## Follow-ups
 
 - None filed.
+
+## Deployed
+
+2026-10-03, from merged `main` at `5c9d652` (PR #50).
+
+- **kai** (`just deploy`, declared in `.sprint-deploy`). The service's
+  `reader.db` was copied first, at schema 6, to `reader.db.pre-043` beside
+  it. `just verify` passed all 10 checks.
+  - Live, `/api/changelog` serves 29 entries and 4 edits. Its newest entry
+    is `royal-society` (2026-10-02T22:49Z), and navy-pow's body carries its
+    correction.
+  - The store is at schema 7, and its counts are unchanged: 19 places, 1
+    bookmark, 3 kept answers. The backfill made 19 readings, 23 seen frames
+    and 2 activity rows.
+- **kloom.kenhiatt.us** (`just publish-public`, after Ken approved it in
+  session).
+  - Before: the site's store (schema 6: 4 accounts, 2 places, no notes or
+    bookmarks) was copied to `public/reader-20261003-1705.db` and passed
+    `integrity_check`.
+  - Published as release v6, image `kloom-reader:5c9d65234-202610031712`.
+    `verify-public` passed every check, with 0 notes and 0 detached.
+  - After (`public/reader-20261003-1713.db`): schema 7, with 4 accounts and
+    2 places intact. The backfill made 2 readings, 2 seen frames and 1
+    activity row.
+  - On the machine, `/app/content.db`'s source is `5c9d652` and its
+    Changelog's newest entry is `royal-society`: nothing after the
+    published commit.
