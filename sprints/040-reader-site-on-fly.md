@@ -206,3 +206,29 @@ the krot-register skill were followed.
 ## Follow-ups
 
 None filed.
+
+## Deployed
+
+On 2026-10-03, from merged `main` `f9e90d1` (PR #47) on kai, under overseer
+clearance (comment 3392). Every probe ran from kai.
+
+- **k-homelab PR #114** was merged first, as `07964c3`, and kubs0's clone
+  was pulled. `bin/audit kai` reported `khomelab-secrets: ok`, so
+  `FLY_API_TOKEN` is now declared on `main` as well as applied.
+- **The kai service** (`.sprint-deploy`, `recipe: deploy`): `just deploy`.
+  `just verify` passed all ten checks, library `2026-10-03T05:33:00.580Z
+e4d531`, deployed `f9e90d192`. The full edition's own behaviour did not
+  change in this sprint; this deploy keeps kai on `main`.
+- **The public site:** `just publish-public`. This was the first publish
+  from `main`, release v3, image
+  `registry.fly.io/kloom-reader:f9e90d192-202610030533`. `verify-public`
+  passed 18 of 18, HSTS and the `Fly-Client-IP` check included. The first
+  line of `~/.local/share/kloom/public/publishes.log`:
+  `2026-10-03T05:34Z v3 … commit f9e90d1… library 2026-10-03T05:33:06.022Z
+4cc80e source f9e90d1…`.
+- **What this sprint changed, checked live:**
+  - The build stamp in the image is `f9e90d1 · 2026-10-02`, `main`'s
+    commit, no longer the branch's.
+  - The volume came through the deploy untouched. `just readers` still
+    lists `jkh` (invited, link pending), `kloom-test` (active) and
+    `kloom-verify` (disabled).
