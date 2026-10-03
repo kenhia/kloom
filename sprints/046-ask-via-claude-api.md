@@ -188,5 +188,33 @@ What this sprint changed, checked live through the ssh door:
 The key in use is Ken's original, which was exposed and is due for rotation
 (korg 3534). One more ask follows that rotation.
 
-The public reader site is not yet published with this sprint. That is the
-next step, after asking Ken.
+The public reader site was published the same day at Ken's word
+(below).
+
+### The public reader site
+
+2026-10-03, `just publish-public` from `b78d2a0` (Fly release v8, image
+`b78d2a0a8-202610032113`).
+
+- **Backup first:** `pull-notes` backed up the readers' store first
+  (`reader-20261003-2113.db`): schema 7, 4 accounts, 1 note, 2 places.
+- **verify-public:** every check passed, including the new ones. A reader
+  without ask gets 404 from ask, keep and kept answers, and the spend report
+  runs.
+- **The key:** the staged `ANTHROPIC_API_KEY` secret went live with the
+  release, and the site's logs hold no key.
+- **Ask given:** `jkh` and `ken`, at Ken's word, each at the $5 default
+  cap.
+- **The live proof:** done with the test reader `kloom-verify`, so Ken's
+  and his parents' accounts were left alone.
+  - Before it had ask, it got a 404.
+  - Given ask at a $0.01 cap, it asked one real question (Harvey's proof of
+    circulation) and got a sound answer, logged at $0.003.
+  - Further asks went open, then near, then resting, and the next was
+    refused with a resting budget and no turn.
+  - `ask-usage --json` ($0.012136 over 4 asks) matched `ask-costs` exactly.
+  - Then its ask was taken away and the account disabled again. Its $0.012
+    stays in October's spend.
+
+`jkh` is still `invited`. Ken's parents need to use their welcome link,
+or a new one (`just invite jkh`), before they can sign in.
