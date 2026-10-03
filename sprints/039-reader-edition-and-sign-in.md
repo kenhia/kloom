@@ -201,3 +201,31 @@ None filed. What this slice leaves to 3506 is already that item's scope:
 - `ORIGIN`, `KLOOM_CONTENT_DB`, `KLOOM_MEDIA_DIR` and
   `KLOOM_DATA_DIR=/data` in `fly.toml`
 - the `just invite` and `just pull-notes` wrappers
+
+## Deployed
+
+**2026-10-02 21:39 PDT,** to kai's `kloom.service`, by `just deploy` (the
+`recipe: deploy` line in `.sprint-deploy`) from merged `main` at `423a671`
+(PR #46).
+
+**`just verify`: every check ok.**
+
+- Both doors read.
+- The tailnet door refuses an anonymous write, and the ssh door lets one
+  through.
+- Reader data and notes are refused anonymously and read on the ssh door.
+- A frame body is served from the library.
+- Pages go compressed.
+
+The library is build `2026-10-03T04:39:21.986Z`, and the content clone is
+at `423a671`.
+
+**This sprint's changes, checked live on the ssh door:**
+
+- `/welcome` returns 200, and the start screen links to it.
+- `/signin`, `/welcome/<token>` and `POST /signout` return 404 in the full
+  edition.
+- A listed media file returns 200, and an unlisted one returns 404.
+- Kept answers return 200, and the AI pane is still on the page.
+
+The reader edition is not deployed anywhere yet; that is slice 3506.
