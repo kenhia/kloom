@@ -12,7 +12,9 @@
 <!--
 	The Welcome and How-To page (korg 3502). Written for readers who are not
 	technical, and for a login two people may share: it says "you", never
-	"you alone". Short sections, so it reads on a phone with large text.
+	"you alone". Short sections, so it reads on a phone with large text. The
+	first visit only (korg 3515): every control is in the User's Guide, and
+	Agent review keeps its full statement here.
 -->
 <Plain title="Welcome">
 	<h1>Welcome{data.reader?.signedIn ? `, ${data.reader.name}` : ''}</h1>
@@ -20,7 +22,10 @@
 		kloom is a shelf of illustrated histories. Each subject is told one frame at a time: a picture,
 		and a short reading about it.
 	</p>
-	<p><a href={resolve('/')}>Start reading</a>, or read on for how it works.</p>
+	<p>
+		<a href={resolve('/')}>Start reading</a>, or read on for the few things worth knowing first. The
+		<a href={resolve('/guide')}>User's Guide</a> explains every button, the map and notes in full.
+	</p>
 
 	<h2>Reading</h2>
 	<ul>
@@ -30,51 +35,19 @@
 			between them. On a keyboard, <kbd>←</kbd> and <kbd>→</kbd> do the same.
 		</li>
 		<li>
-			The <strong>reading</strong> sits beside the picture, or below it on a phone. It follows the
-			spine. Scroll it, or use <kbd>↑</kbd> and <kbd>↓</kbd>.
+			The <strong>reading</strong> sits beside the picture, or below it on a phone, and follows the spine.
 		</li>
 		<li>
-			Some frames have <strong>trails</strong>: side paths that go deeper. They are listed under
-			"Trails from here" at the end of a reading. Tap one to follow it. "Main story", at the top of
-			the picture, brings you back.
-		</li>
-		<li>
-			A name with a dotted underline opens a short card about that person, place or thing. Some
-			readings link to a frame in another subject. After a jump, "Back to…" returns you to where you
-			were.
+			The buttons over the picture open the contents, the map, your bookmarks and your notes. The
+			<a href={resolve('/guide#buttons')}>User's Guide</a> shows each one.
 		</li>
 	</ul>
 
-	<h2>Finding your way</h2>
+	<h2>Notes</h2>
 	<ul>
 		<li>
-			The <strong>start screen</strong> lists every subject. "Continue where you were" takes you back
-			to the last frame you read in that subject.
-		</li>
-		<li>
-			<strong>Contents</strong>, over the picture, lists every frame in the subject. The
-			<strong>map</strong> shows how frames connect, across subjects too.
-		</li>
-		<li>
-			The <strong>bookmark</strong> button over the picture marks a frame. The list button beside it shows
-			your bookmarks, so you can go straight back to one.
-		</li>
-		<li>The dice take you to a frame at random, for fun.</li>
-	</ul>
-
-	<h2>Notes and annotations</h2>
-	<ul>
-		<li>
-			<strong>A note</strong> is about a whole frame. Open the <strong>Notes</strong> tab beside the reading
-			and choose "Add a note".
-		</li>
-		<li>
-			<strong>An annotation</strong> is a note on particular words. Select the words in the reading, then
-			choose "Annotate".
-		</li>
-		<li>
-			<strong>My notes</strong>, over the picture, lists every note you have written, in every
-			subject.
+			Write a <strong>note</strong> on a frame from the <strong>Notes</strong> tab beside the
+			reading, or an <strong>annotation</strong> on particular words by selecting them and choosing "Annotate".
 		</li>
 		<li>
 			Your notes, bookmarks and places are <strong>private to your login</strong>. Other readers
@@ -116,12 +89,6 @@
 		</p>
 	{/if}
 
-	<h2>Settings and keys</h2>
-	<p>
-		The gear, at the top right, changes colours and brightness, and whether the reading follows the
-		spine. "Keyboard shortcuts…" there lists every key and lets you change them.
-	</p>
-
 	{#if data.reader?.signedIn}
 		<h2>Signing in and out</h2>
 		<p>
@@ -132,6 +99,9 @@
 	{/if}
 
 	<h2>Help</h2>
-	<p>If anything is confusing or broken, ask Ken, who would like to know.</p>
+	<p>
+		The <a href={resolve('/guide')}>User's Guide</a> has the rest. If anything is confusing or broken,
+		ask Ken, who would like to know.
+	</p>
 	<p><a href={resolve('/')}>Start reading</a></p>
 </Plain>

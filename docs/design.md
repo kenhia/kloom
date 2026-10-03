@@ -1787,7 +1787,7 @@ past two subjects:
   the map, a link to the Welcome and How-To page, in both editions. A reader
   signed in to the reader edition also sees "Signed in as" their display
   name and a _Sign out_ button, a plain form so it works before the script
-  loads.
+  loads. Beside Welcome, the _User's Guide_ (sprint 042, korg 3515).
 
 ## Welcome and How-To
 
@@ -1803,6 +1803,37 @@ than repeating it. The words never assume one person, since a login may be
 two. Both editions show it: the full edition adds a line on ask and grow,
 and only a signed-in public reader is told how to sign out. The note
 editor's flag says the same at the box, in the reader edition.
+
+Sprint 042 (korg 3515) made Welcome the first visit only: the spine and
+the reading, a line on the buttons, notes in two lines and their privacy,
+then Agent review whole, as above. Everything else moved to the guide,
+which Welcome links at the top, at the buttons and under Help.
+
+## User's Guide
+
+Sprint 042 (korg 3515). One page, `/guide`, in both editions, linked from
+the start screen beside Welcome and from Welcome. It is the reference: the
+start screen, every button over the picture and in the corner, reading
+(spine, tabs, the divider, trails, name cards, connections, sources),
+contents, the map (dots, lines, centring and going, its Back, how far out,
+the list, 3D), bookmarks and export, notes, annotations and detached ones,
+My notes, Agent review with the same plain statement Welcome makes, About
+with Suggest a subject, settings, the keyboard, and phones. Its own list
+of parts links to each.
+
+- **Icons as they look.** The shell's icons live in one component,
+  `engine/ui/Icon.svelte` (by name: contents, map, bookmark, bookmarks,
+  my-notes, random, anywhere, home, settings, about). Every control draws
+  its icon from it, and so does the guide, so a changed icon changes in
+  both. The guide's test renders each icon on its own and finds it in the
+  page.
+- **Keys from the registry.** The keyboard section lists `FIXED_KEYS` and
+  `SHORTCUTS` from `engine/keys.ts`, each shortcut at its letter out of
+  the box, so a new shortcut is in the guide without editing it.
+- **Editions.** Ask and grow, and the full edition's Layout and model
+  settings, appear only in the full edition; signing in and out only to a
+  signed-in public reader. In the reader edition `/guide` is behind sign-in
+  like every other page.
 
 With **no AI pane** (the reader edition) the shell is two panes, Narrative
 and Notes as tabs. There is no Layout setting, no model setting and no Q&A

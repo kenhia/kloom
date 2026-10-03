@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Icon from './Icon.svelte';
 	import { tick } from 'svelte';
 	import { SvelteSet } from 'svelte/reactivity';
 	import { contentsCount, filterContents, type ContentsSegment } from '../contents';
@@ -150,9 +151,7 @@
 			}
 		}}
 	>
-		<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor">
-			<path d="M4 6h2M9 6h11M4 12h2M9 12h11M11 18h9" stroke-width="1.5" />
-		</svg>
+		<Icon name="contents" />
 	</IconButton>
 
 	<!-- A popover, as the gear's and the bookmarks' are: Tab leaves it, Esc closes it.

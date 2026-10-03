@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Icon from './Icon.svelte';
 	import type { Setting } from '../settings';
 	import type { UserSettings } from '../user-settings.svelte';
 	import IconButton from './IconButton.svelte';
@@ -35,8 +36,6 @@
 	function outside(e: PointerEvent) {
 		if (open && !root?.contains(e.target as Node)) close(false);
 	}
-
-	const ticks = [0, 45, 90, 135, 180, 225, 270, 315];
 
 	/** The rows in the open, and those kept under Advanced (korg 3495). */
 	const plain = $derived(settings.list.filter((s) => !s.advanced));
@@ -97,20 +96,7 @@
 		onclick={() => (open = !open)}
 		onkeydown={escape}
 	>
-		<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor">
-			<circle cx="12" cy="12" r="6.25" stroke-width="1.5" />
-			<circle cx="12" cy="12" r="2.25" stroke-width="1.25" />
-			{#each ticks as a (a)}
-				<line
-					x1="12"
-					y1="2.25"
-					x2="12"
-					y2="5.75"
-					stroke-width="2.5"
-					transform="rotate({a} 12 12)"
-				/>
-			{/each}
-		</svg>
+		<Icon name="settings" />
 	</IconButton>
 
 	<!-- The page's own keys (arrows and the shortcuts) stand down in here: data-own-keys. -->

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Icon from './Icon.svelte';
 	import type { SuggestOffer } from '../reader-data';
 	import type { LibraryStats } from '../stats';
 	import IconButton from './IconButton.svelte';
@@ -70,11 +71,7 @@
 		bind:this={button}
 		onclick={toggle}
 	>
-		<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor">
-			<circle cx="12" cy="12" r="9" stroke-width="1.5" />
-			<line x1="12" y1="10.5" x2="12" y2="17" stroke-width="1.75" />
-			<circle cx="12" cy="7.25" r="0.6" fill="currentColor" stroke-width="1" />
-		</svg>
+		<Icon name="about" />
 	</IconButton>
 
 	<div

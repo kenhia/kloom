@@ -607,6 +607,7 @@
 		{settings}
 		about={{ stats: loadStats, build: __KLOOM_BUILD__ || undefined, suggest }}
 		help={resolve('/welcome')}
+		guide={resolve('/guide')}
 		signOut={data.reader?.signedIn ? { action: resolve('/signout'), who: data.reader.name } : null}
 	/>
 {/if}

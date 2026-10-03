@@ -59,6 +59,8 @@
 		};
 		/** The Welcome and How-To page's address (korg 3502), offered under Begin. */
 		help?: string;
+		/** The User's Guide's address (korg 3515), beside Welcome. */
+		guide?: string;
 		/**
 		 * Signing out, for a reader signed in to the reader edition (korg 3501):
 		 * the form's action, and the login's display name.
@@ -94,6 +96,7 @@
 		settings,
 		about,
 		help,
+		guide,
 		signOut = null
 	}: Props = $props();
 
@@ -308,12 +311,17 @@
 				Map of the library
 			</button>
 		{/if}
-		{#if help || signOut}
+		{#if help || guide || signOut}
 			<div class="account">
 				{#if help}
 					<!-- An app route, resolved by the page. -->
 					<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 					<a href={help}>Welcome and how to read kloom</a>
+				{/if}
+				{#if guide}
+					<!-- An app route, resolved by the page. -->
+					<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+					<a href={guide}>User's Guide</a>
 				{/if}
 				{#if signOut}
 					<!-- A plain form, so signing out works before the page's script has loaded. -->

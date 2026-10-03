@@ -641,6 +641,14 @@ describe('the start screen’s Welcome link and sign-out (korg 3501, 3502)', () 
 		expect(tailnet).toMatch(/Welcome and how to read kloom/);
 		expect(tailnet).not.toMatch(/action="\/signout"/);
 	});
+
+	it("links to the User's Guide beside Welcome (korg 3515)", () => {
+		const body = page().body;
+		const welcome = body.search(/<a href="\/welcome"/);
+		const guide = body.search(/<a href="\/guide"[^>]*>User(&#39;|')s Guide<\/a>/);
+		expect(guide).toBeGreaterThan(welcome);
+		expect(welcome).toBeGreaterThan(-1);
+	});
 });
 
 describe('the layout', () => {

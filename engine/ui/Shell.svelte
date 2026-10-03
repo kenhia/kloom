@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Icon from './Icon.svelte';
 	import { onMount, tick, untrack } from 'svelte';
 	import type { AiOffer } from '../ai/provider';
 	import type { Anchor } from '../anchor';
@@ -45,7 +46,6 @@
 	import Notes from './Notes.svelte';
 	import Settings from './Settings.svelte';
 	import IconButton from './IconButton.svelte';
-	import homeIcon from './icons/home.svg?raw';
 	import SpinePane from './SpinePane.svelte';
 	import Splitter from './Splitter.svelte';
 
@@ -832,13 +832,7 @@
 							: 'Random frame in this subject'}
 						onclick={() => random('subject')}
 					>
-						<!-- One die: here. -->
-						<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor">
-							<rect x="4.5" y="4.5" width="15" height="15" rx="2.5" stroke-width="1.5" />
-							<circle cx="9" cy="9" r="1.1" fill="currentColor" stroke="none" />
-							<circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none" />
-							<circle cx="15" cy="15" r="1.1" fill="currentColor" stroke="none" />
-						</svg>
+						<Icon name="random" />
 					</IconButton>
 				{/if}
 				<Contents
@@ -859,13 +853,7 @@
 						bind:this={mapButton}
 						onclick={openMap}
 					>
-						<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor">
-							<circle cx="12" cy="12" r="2.5" stroke-width="1.5" />
-							<circle cx="5" cy="6" r="1.75" stroke-width="1.5" />
-							<circle cx="19" cy="7" r="1.75" stroke-width="1.5" />
-							<circle cx="17" cy="19" r="1.75" stroke-width="1.5" />
-							<path d="M6.5 7 10 10.5M17.4 7.9 14.2 10.8M13.6 14 16 17.5" stroke-width="1.5" />
-						</svg>
+						<Icon name="map" />
 					</IconButton>
 				{/if}
 				{#if bookmarks}
@@ -925,17 +913,7 @@
 							: 'Random frame anywhere in the library'}
 						onclick={() => random('library')}
 					>
-						<!-- Two dice: anywhere. -->
-						<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor">
-							<rect x="2.5" y="8.5" width="11" height="11" rx="2" stroke-width="1.5" />
-							<path
-								d="M10.5 8.5V6.5a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-6"
-								stroke-width="1.5"
-							/>
-							<circle cx="5.75" cy="11.75" r="1" fill="currentColor" stroke="none" />
-							<circle cx="10.25" cy="16.25" r="1" fill="currentColor" stroke="none" />
-							<circle cx="17.5" cy="8.5" r="1" fill="currentColor" stroke="none" />
-						</svg>
+						<Icon name="anywhere" />
 					</IconButton>
 				{/if}
 				{#if onhome}
@@ -946,9 +924,7 @@
 						bind:this={homeButton}
 						onclick={goHome}
 					>
-						<!-- kloom's own icon, from the repository (engine/ui/icons). -->
-						<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-						{@html homeIcon}
+						<Icon name="home" />
 					</IconButton>
 				{/if}
 				<Settings {settings} />

@@ -1,0 +1,409 @@
+<script lang="ts">
+	import Icon, { type IconName } from '$engine/ui/Icon.svelte';
+	import { FIXED_KEYS, SHORTCUTS } from '$engine/keys';
+	import { resolve } from '$app/paths';
+	import Plain from '$lib/page/Plain.svelte';
+	import type { PageProps } from './$types';
+
+	let { data }: PageProps = $props();
+
+	/** The public site (the reader edition) has no asking or growing (korg 3500). */
+	const full = __KLOOM_EDITION__ !== 'reader';
+
+	/** The parts of the guide, for its own contents at the top. */
+	const parts = $derived([
+		['start', 'The start screen'],
+		['buttons', 'The buttons'],
+		['reading', 'Reading a subject'],
+		['contents', 'Contents'],
+		['map', 'The map'],
+		['bookmarks', 'Bookmarks'],
+		['notes', 'Notes and annotations'],
+		['review', 'Agent review'],
+		['about', 'About kloom'],
+		['settings', 'Settings'],
+		['keys', 'Keyboard'],
+		['touch', 'Phones and tablets'],
+		...(full ? [['ai', 'Asking and growing']] : []),
+		...(data.reader?.signedIn ? [['account', 'Signing in and out']] : []),
+		['help', 'Help']
+	]);
+</script>
+
+<!--
+	The User's Guide (korg 3515): every control, the map and notes, for readers
+	who are not technical. The icons are drawn by the app's own Icon component,
+	so they always look as they do on screen. A login may be shared, so it says
+	"you", never "you alone". Welcome is the short first visit; this is the
+	reference it hands off to.
+-->
+{#snippet icon(name: IconName, filled = false)}
+	<span class="icon" aria-hidden="true"><Icon {name} {filled} /></span>
+{/snippet}
+
+<Plain title="User's Guide">
+	<h1>User's Guide</h1>
+	<p>
+		Everything kloom's buttons and screens do, in one place. New to kloom? <a
+			href={resolve('/welcome')}>Welcome</a
+		> is the short version.
+	</p>
+	<nav aria-label="In this guide">
+		<ul class="parts">
+			{#each parts as [id, title] (id)}
+				<li><a href="#{id}">{title}</a></li>
+			{/each}
+		</ul>
+	</nav>
+
+	<h2 id="start">The start screen</h2>
+	<p>The start screen is where kloom opens. It lists every subject on the shelf.</p>
+	<ul>
+		<li>
+			Choose a subject from the list. Its title, its pictures and where you left off in it show
+			beside the list. On a keyboard, <kbd>↑</kbd> and <kbd>↓</kbd> move through the list.
+		</li>
+		<li><strong>Begin</strong> starts the subject from its first frame.</li>
+		<li>
+			<strong>Continue where you were</strong> takes you back to the last frame you read in that subject.
+		</li>
+		<li><strong>Map of the library</strong> opens the map on every subject at once.</li>
+		<li>
+			<strong>Welcome and how to read kloom</strong> and <strong>User's Guide</strong> open these pages.
+		</li>
+		<li>
+			{@render icon('about')}
+			<strong>About</strong> and {@render icon('settings')} <strong>Settings</strong> are at the top right.
+		</li>
+		<li>
+			{@render icon('home')}
+			<strong>Home</strong>, at the top right of a subject, brings you back here. Your browser's
+			Back button then returns you to the frame you left.
+		</li>
+	</ul>
+
+	<h2 id="buttons">The buttons</h2>
+	<p>Over the picture, in a row along the top:</p>
+	<ul class="buttons">
+		<li>
+			{@render icon('random')}
+			<span><strong>Random frame in this subject</strong>, for fun.</span>
+		</li>
+		<li>
+			{@render icon('contents')}
+			<span
+				><strong>Contents</strong>: every frame in the subject (<a href="#contents">more</a>).</span
+			>
+		</li>
+		<li>
+			{@render icon('map')}
+			<span><strong>Map</strong>: how this frame connects to others (<a href="#map">more</a>).</span
+			>
+		</li>
+		<li>
+			{@render icon('bookmark')}
+			<span
+				><strong>Bookmark this frame</strong>. It fills in
+				{@render icon('bookmark', true)} when the frame is bookmarked. Press it again to remove the bookmark.</span
+			>
+		</li>
+		<li>
+			{@render icon('bookmarks')}
+			<span><strong>Bookmarks</strong>: your list (<a href="#bookmarks">more</a>).</span>
+		</li>
+		<li>
+			{@render icon('my-notes')}
+			<span
+				><strong>My notes</strong>: every note you have written, in every subject. A number on it
+				counts answers you have not read yet (<a href="#notes">more</a>).</span
+			>
+		</li>
+	</ul>
+	<p>At the top right of the reading:</p>
+	<ul class="buttons">
+		<li>
+			{@render icon('anywhere')}
+			<span><strong>Random frame anywhere</strong> in the library, in any subject.</span>
+		</li>
+		<li>
+			{@render icon('home')}
+			<span><strong>Home</strong>: back to the start screen.</span>
+		</li>
+		<li>
+			{@render icon('settings')}
+			<span><strong>Settings</strong> (<a href="#settings">more</a>).</span>
+		</li>
+	</ul>
+	<p>
+		After you follow a link to another frame, a <strong>↩ Back to…</strong> button appears over the picture.
+		It names the frame you came from and takes you back there, just as the browser's Back button does.
+	</p>
+
+	<h2 id="reading">Reading a subject</h2>
+	<ul>
+		<li>
+			Each subject is a line of <strong>frames</strong>, and each frame is a picture with a reading.
+			The picture side is the <strong>spine</strong>. Move along it with the <strong>‹</strong> and
+			<strong>›</strong> buttons under the picture, or tap or drag the bar between them. On a
+			keyboard,
+			<kbd>←</kbd> and <kbd>→</kbd> do the same, and <kbd>Home</kbd> and <kbd>End</kbd> go to the first
+			and last frame.
+		</li>
+		<li>
+			The <strong>reading</strong> sits beside the picture, or below it on a phone. It follows the
+			spine as you move. You can change that in Settings, so that the reading stays put until you
+			press
+			<kbd>S</kbd>.
+		</li>
+		<li>
+			The tabs above the reading switch between the <strong>Narrative</strong> and your
+			<strong>Notes</strong> on the frame. The line between the picture and the reading can be dragged
+			to make either side wider.
+		</li>
+		<li>
+			<strong>Trails</strong> are side paths that go deeper. They are listed under "Trails from
+			here" at the end of a reading. Follow one, or press <kbd>T</kbd>. While you are on a trail,
+			"Main story" at the top of the picture brings you back, as does <kbd>Esc</kbd>.
+		</li>
+		<li>
+			A <strong>name with a dotted underline</strong> opens a card about that person, place or thing.
+			The card says where else the name appears, and "Show on the map" draws them.
+		</li>
+		<li>
+			<strong>Connections</strong>, at the end of some readings, link to frames in this subject or
+			in another, each with a line on why. Following one is a jump: ↩ Back to… returns you.
+		</li>
+		<li>
+			<strong>Sources</strong>, at the very end, lists where the reading comes from. The full
+			citations are in the closed section beneath it.
+		</li>
+	</ul>
+
+	<h2 id="contents">Contents</h2>
+	<p>
+		{@render icon('contents')} Contents, or <kbd>C</kbd>, lists every frame in the subject, grouped
+		into its sections. Trails are listed under the frame they start from. Your bookmarks and notes
+		are marked beside their frames. Type in the box at the top to find a frame by its title, date or
+		topic. Choose a frame to go there.
+	</p>
+
+	<h2 id="map">The map</h2>
+	<p>
+		{@render icon('map')} The map, or <kbd>M</kbd>, is a drawing of how frames connect. It fills the
+		screen;
+		<kbd>Esc</kbd> or the × at the top closes it.
+	</p>
+	<ul>
+		<li>
+			Each <strong>dot</strong> is a frame, and its colour and shape say which subject it belongs
+			to. The key at the bottom names them. A plain round dot with an outline is a
+			<strong>name</strong>: a person, place or thing.
+		</li>
+		<li>
+			A <strong>solid line</strong> is a connection between two frames. A
+			<strong>dotted line</strong> joins a name to the frames that mention it.
+		</li>
+		<li>
+			Point at a dot, or move to it with the arrow keys, to bring it forward: its lines and its
+			neighbours light up, and the details under the map say what it is.
+		</li>
+		<li>
+			Choose a dot to put it in the middle and see what it connects to. To go to a frame, choose "Go
+			to" in the details, double-click its dot, or press <kbd>Enter</kbd>. On a keyboard,
+			<kbd>Space</kbd> puts the dot in the middle.
+		</li>
+		<li>
+			<strong>Back</strong>, at the top left of the map, steps back through the views you have seen.
+			"This frame" returns to the frame you are reading, and "Library" shows every subject.
+		</li>
+		<li>
+			"How far out" shows one or two steps of connections from the frame in the middle.
+			<strong>Show as list</strong> gives the same thing as a plain list.
+		</li>
+		<li>
+			<strong>3D</strong> shows the whole library as a cloud you can turn: drag to turn it, scroll or
+			pinch to zoom, and choose a frame or a name to fly to it. It is for fun; the flat map shows the
+			same links.
+		</li>
+		<li>
+			Going to a frame from the map is a jump, so ↩ Back to… brings you back to where you were.
+		</li>
+	</ul>
+
+	<h2 id="bookmarks">Bookmarks</h2>
+	<p>
+		{@render icon('bookmark')} marks the frame you are on, or press <kbd>B</kbd>.
+		{@render icon('bookmarks')} lists your bookmarks, from every subject, newest first. Choose one to
+		go there, or remove it from the list. "Export my reading data" at the bottom saves a copy of your
+		bookmarks, notes and places as a file.
+	</p>
+
+	<h2 id="notes">Notes and annotations</h2>
+	<ul>
+		<li>
+			<strong>A note</strong> is about a whole frame. Open the <strong>Notes</strong> tab and choose
+			"Add a note", or press <kbd>N</kbd>. The note opens where the picture was. "Save" keeps it.
+		</li>
+		<li>
+			<strong>An annotation</strong> is a note on particular words. Select the words in the reading,
+			then choose "Annotate", or press <kbd>A</kbd>. Without a mouse, press <kbd>A</kbd> with nothing
+			selected and choose the words with the arrow keys.
+		</li>
+		<li>
+			The Notes tab lists the notes on the frame you are on. Each has "Edit" and "Delete", and an
+			annotation has "Show in reading", which finds its words.
+		</li>
+		<li>
+			If the reading is later rewritten and an annotation's words are gone, it is kept and marked
+			<strong>detached</strong>, so nothing you wrote is lost.
+		</li>
+		<li>
+			{@render icon('my-notes')}
+			<strong>My notes</strong>, or <kbd>O</kbd>, lists every note and annotation you have written,
+			in every subject. Show all of them, or only those sent for Agent review, answered, or
+			detached. "Go to" opens a note on its frame, and "Clear" removes the ones shown.
+		</li>
+		<li>
+			Your notes, bookmarks and places are <strong>private to your login</strong>. Other readers
+			cannot see them. If two of you share a login, you share them with each other.
+		</li>
+	</ul>
+
+	<h2 id="review">Agent review</h2>
+	<p>
+		When you write a note or an annotation, you will see a box called <strong>Agent review</strong>.
+	</p>
+	<ul>
+		<li>
+			Ticking it <strong>sends that note to Ken and to the AI agents Ken works with</strong>. They
+			read it. A note you leave unticked stays private.
+		</li>
+		<li>
+			This is how mistakes in kloom get fixed. If something looks wrong, unclear or missing, a
+			ticked note is the best way to say so.
+		</li>
+		<li>
+			An answer may come back on the note itself, marked "Agent:". My notes shows a count when one
+			is waiting for you.
+		</li>
+	</ul>
+
+	<h2 id="about">About kloom</h2>
+	<p>
+		{@render icon('about')} About, at the top right of the start screen, tells you what kloom is and how
+		big the library is. It also has the credits, and a note on accuracy with another way to report a problem.
+		<strong>Suggest a subject</strong> is there too: say what you would like to read about next, and see
+		what you have suggested before.
+	</p>
+
+	<h2 id="settings">Settings</h2>
+	<p>{@render icon('settings')} The gear, at the top right, opens the settings:</p>
+	<ul>
+		<li>
+			<strong>Scene colours</strong> and <strong>Reading colours</strong>: light or dark, or the
+			colours each section was made in.
+		</li>
+		<li>
+			<strong>Narrative</strong>: whether the reading follows the spine, or stays until you press
+			<kbd>S</kbd>.
+		</li>
+		{#if full}
+			<li><strong>Layout</strong>, and the models that ask and grow use.</li>
+		{/if}
+		<li><strong>Advanced</strong> makes light and dark brighter or dimmer.</li>
+		<li><strong>Keyboard shortcuts…</strong> lists every key and lets you change them.</li>
+	</ul>
+	<p>Settings are remembered in this browser, so another phone or computer keeps its own.</p>
+
+	<h2 id="keys">Keyboard</h2>
+	<p>kloom can be used without a mouse. These keys are always the same:</p>
+	<ul class="keys">
+		{#each FIXED_KEYS as k (k.keys)}
+			<li><kbd>{k.keys}</kbd> {k.does}</li>
+		{/each}
+	</ul>
+	<p>
+		These letters work while you are in the picture, the reading or the notes. You can change them
+		in Settings, under Keyboard shortcuts…. Out of the box they are:
+	</p>
+	<ul class="keys">
+		{#each SHORTCUTS as s (s.action)}
+			<li><kbd>{s.key.toUpperCase()}</kbd> {s.label}</li>
+		{/each}
+	</ul>
+
+	<h2 id="touch">Phones and tablets</h2>
+	<ul>
+		<li>
+			On a phone the reading is below the picture. Scroll down to read, and back up for the buttons.
+		</li>
+		<li>Tap the ‹ and › buttons, or drag the bar between them, to move along the spine.</li>
+		<li>
+			To annotate, hold your finger on a word until it is selected, drag the handles to cover the
+			words you want, then tap "Annotate".
+		</li>
+		<li>
+			On the map, tap a dot to put it in the middle, then tap "Go to" in the details to go there.
+		</li>
+	</ul>
+
+	{#if full}
+		<h2 id="ai">Asking and growing</h2>
+		<p>
+			On this copy of kloom the AI pane can also answer a question about the frame you are on (Ask),
+			or write new frames and trails (Grow). Choose Ask or Grow, type, and send. An answer worth
+			keeping can be kept on its frame. Grown frames are reviewed before they become part of the
+			subject.
+		</p>
+	{/if}
+
+	{#if data.reader?.signedIn}
+		<h2 id="account">Signing in and out</h2>
+		<p>
+			You stay signed in on this phone or computer for a year after you last used kloom. To sign
+			out, use "Sign out" on the start screen. To sign in on another device, use your username and
+			password. If you forget the password, ask Ken for a new welcome link.
+		</p>
+	{/if}
+
+	<h2 id="help">Help</h2>
+	<p>If anything is confusing or broken, ask Ken, who would like to know.</p>
+	<p><a href={resolve('/')}>Start reading</a></p>
+</Plain>
+
+<style>
+	/* An icon as the shell draws it: the IconButton's size and ink. */
+	.icon {
+		display: inline-grid;
+		place-items: center;
+		width: 1.75rem;
+		height: 1.75rem;
+		vertical-align: middle;
+		color: var(--ink);
+		border: 1px solid var(--line);
+		border-radius: 0.25rem;
+	}
+	.icon :global(svg) {
+		width: 1.25rem;
+		height: 1.25rem;
+	}
+	.buttons {
+		padding: 0;
+		list-style: none;
+	}
+	.buttons li {
+		display: flex;
+		gap: 0.75rem;
+		align-items: flex-start;
+	}
+	.buttons .icon {
+		flex: none;
+	}
+	.parts {
+		columns: 2 12rem;
+	}
+	.keys {
+		padding: 0;
+		list-style: none;
+	}
+</style>

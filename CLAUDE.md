@@ -261,6 +261,10 @@ edited since it was read, with `--args-b64` for `fly ssh`), `review-notes.mjs
 --public` drives it, and `verify-public` reports detached notes; and Suggest a
 subject in About (a `suggestion` table, reviewed with `suggestions` and
 `mark-suggestion`).
+Sprint 042 Home as a history entry at `/<subject>` (a reload stays home,
+Back returns to the frame; `just home-check`), the User's Guide (`/guide`,
+every control with its icon from `engine/ui/Icon.svelte`, which the shell
+draws its icons from too), and a shorter Welcome that hands off to it.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

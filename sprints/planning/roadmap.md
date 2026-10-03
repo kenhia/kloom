@@ -271,6 +271,13 @@ bench` — [record](../032-content-db.md).
   `mark-suggestion` —
   [record](../041-public-notes-return-and-suggestions.md).
 
+- Sprint 042: ready for readers (proposal 3520, covering 3517 and 3515):
+  Home is a history entry at `/<subject>`, so a reload stays home and Back
+  returns to the frame (`just home-check`); the User's Guide at `/guide`,
+  every control with its icon drawn by the shell's own `Icon` component and
+  the keys from the registry; and a shorter Welcome that hands off to it —
+  [record](../042-ready-for-dad.md).
+
 ## Next
 
 - Whatever the korg Planning queue holds for project kloom (72).
