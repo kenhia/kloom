@@ -170,3 +170,36 @@ kloom-test` for a fresh password, sign in with the link, flag a note on
 ## Follow-ups
 
 None filed.
+
+## Deployed
+
+On 2026-10-03, from merged `main` `a877876` (PR #48) on kai, under overseer
+clearance (comment 3397). Every probe ran from kai.
+
+- **The kai service** (`.sprint-deploy`, `recipe: deploy`): `just deploy`.
+  `just verify` passed all ten checks, deployed `a87787619`, library
+  `2026-10-03T05:57:45.211Z 697c1a`. `GET /api/reader/suggestions` on the
+  ssh door answered `200 []`.
+- **The public site:** `just publish-public`, release **v4**, image
+  `registry.fly.io/kloom-reader:a87787619-202610030557`. `verify-public`
+  passed 18 of 18 and printed the new line, `note 0 notes, 0 detached`.
+  `publishes.log`: `2026-10-03T05:59Z v4 … commit a877876… library
+2026-10-03T05:57:55.133Z 1f302d source a877876…`.
+- **The live round trip with `kloom-test`** (comment 3393, steps 1–6), all
+  passing:
+  1. `just invite kloom-test` gave a fresh link; it signed in (200) and
+     `/api/stats` answered 200.
+  2. A note flagged on `western-civ/prometheus` through
+     `/api/reader/notes`.
+  3. `just pull-notes` fetched the backup (96 KB,
+     `reader-20261003-0559.db`). `review-notes.mjs --public list` showed the
+     note live, as "Test reader (kloom-test@kloom.kenhiatt.us)", with its
+     `--seen`. A stale `--seen` was refused (exit 1), and the right one was
+     handled, with a response carrying quotes and an em dash.
+  4. `/api/reader/my-notes` for `kloom-test`: unseen 1, the note `handled`
+     with the response intact.
+  5. `admin detached`: `1 notes, 0 detached`.
+  6. A suggestion posted live (201) and listed by `--public suggestions`.
+     Then `admin delete kloom-test --yes`: `1 notes, 0 bookmarks, 2 places,
+0 kept answers, 1 suggestions`. `just readers` now lists `jkh` (invited,
+     untouched) and `kloom-verify` (disabled) only.
