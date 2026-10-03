@@ -6,7 +6,7 @@
 	},
 	"asOf": "2026-09-30",
 	"scene": {
-		"headline": "Four colours",
+		"headline": "Four colors",
 		"accent": "SUFFICE.",
 		"palette": "terminal",
 		"illustration": "scene.svg",
@@ -346,7 +346,7 @@
 	"connections": [
 		{
 			"to": "ai/logic-theorist",
-			"why": "The Logic Theorist proved theorems of Principia Mathematica in 1956, and its makers predicted in 1958 that a computer would soon prove an important new theorem; the four colour theorem of 1976 was the first major one that needed a computer."
+			"why": "The Logic Theorist proved theorems of Principia Mathematica in 1956, and its makers predicted in 1958 that a computer would soon prove an important new theorem; the four color theorem of 1976 was the first major one that needed a computer."
 		}
 	]
 }

@@ -368,7 +368,7 @@ export function validate(raw: RawSubject, options: ValidateOptions = {}): string
 					fail(where, `image "${ref}" must be an image file in the frame's directory`);
 				else {
 					if (!credited.has(ref))
-						fail(where, `image "${ref}" needs a media citation with a licence`);
+						fail(where, `image "${ref}" needs a media citation with a \`licence\``);
 					// An SVG image is inlined (a chart takes the page's palette), so it
 					// passes the same allowlist as an illustration.
 					if (ref.endsWith('.svg'))

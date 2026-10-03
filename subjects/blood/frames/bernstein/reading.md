@@ -20,7 +20,7 @@ Crow's account works it with one population from Bernstein's 1925 paper, 502 Jap
 | B     |          103 |                71 |                      98 |
 | AB    |           39 |                71 |                      46 |
 
-The plate draws both models to scale: on the left the square of three alleles, each rectangle a genotype's share and the two hatched ones AB; on the right the two-gene square, where AB is the hatched corner. Crow, redoing the comparison in 1993 by modern likelihood, found the three-allele model favoured by odds of some hundreds of millions to one. Population after population in Bernstein's 1925 survey of the world's counts, which had been gathering since the Hirszfelds' wartime survey of soldiers in 1919, fitted three alleles.
+The plate draws both models to scale: on the left the square of three alleles, each rectangle a genotype's share and the two hatched ones AB; on the right the two-gene square, where AB is the hatched corner. Crow, redoing the comparison in 1993 by modern likelihood, found the three-allele model favored by odds of some hundreds of millions to one. Population after population in Bernstein's 1925 survey of the world's counts, which had been gathering since the Hirszfelds' wartime survey of soldiers in 1919, fitted three alleles.
 
 ## What it changed
 

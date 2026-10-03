@@ -1,4 +1,4 @@
-Since the wounded of the Second World War it had been plain that a transfusion could give a patient jaundice weeks or months later, "serum hepatitis", and no one could see what caused it or test a donor for it. The test, when it came, was found by a man who was not looking for hepatitis at all. **[Baruch Blumberg](kloom:e/baruch-samuel-blumberg)**, a physician and geneticist at the **[National Institutes of Health](kloom:e/national-institutes-of-health)** in Bethesda, was studying how human blood proteins vary from one population to another, and the line that led him to the virus was the wrong colour.
+Since the wounded of the Second World War it had been plain that a transfusion could give a patient jaundice weeks or months later, "serum hepatitis", and no one could see what caused it or test a donor for it. The test, when it came, was found by a man who was not looking for hepatitis at all. **[Baruch Blumberg](kloom:e/baruch-samuel-blumberg)**, a physician and geneticist at the **[National Institutes of Health](kloom:e/national-institutes-of-health)** in Bethesda, was studying how human blood proteins vary from one population to another, and the line that led him to the virus was the wrong color.
 
 ## Wells in agar
 
@@ -7,11 +7,11 @@ Blumberg's idea, tested from 1960, was that patients given many transfusions mig
 | Step  | What was done                                                                                              |
 | ----- | ---------------------------------------------------------------------------------------------------------- |
 | Gel   | Coat a glass lantern slide with 0.9% agar                                                                  |
-| Wells | Cut a "7 cup" pattern: one well in the centre, six around it                                               |
-| Fill  | The suspect antiserum, from a much-transfused patient, in the centre; serum from six people in the ring    |
+| Wells | Cut a "7 cup" pattern: one well in the center, six around it                                               |
+| Fill  | The suspect antiserum, from a much-transfused patient, in the center; serum from six people in the ring    |
 | Wait  | Leave at room temperature while both diffuse outward through the gel                                       |
 | Read  | Where an antigen meets its antibody in proportion, a white line of precipitate forms between the two wells |
-| Stain | Dry the gel; stain with Sudan black, which colours lipid, then counterstain with azocarmine for protein    |
+| Stain | Dry the gel; stain with Sudan black, which colors lipid, then counterstain with azocarmine for protein     |
 
 Each slide tested one antiserum against six people at once. Among the sera of 13 much-transfused patients, the first find was a family of antibodies against variants of the low-density lipoproteins, whose lines stained blue-black for their fat. Then, in 1963, the serum of a hemophilia patient from New York, transfused many times, made a line that would not take the lipid stain but turned red with azocarmine. It formed against only one of the 24 sera in that panel, and that one came from an Aboriginal Australian, sent by Robert Kirk in Australia. The team called the unknown protein the **[Australia antigen](kloom:e/hbsag)**. The plate draws the pattern, with the one line among six wells. Accounts date the find differently: Blumberg's Nobel lecture and Alter's review give 1963 for the line, the first paper came in 1965, and Wikipedia's article on hepatitis B says 1966.
 
@@ -21,7 +21,7 @@ The first paper, in 1965, reported the antigen in about one American in a thousa
 
 Others closed the case. In Tokyo, Kazuo Okochi had found the same antibody independently; he showed that transfused blood carrying the antigen gave recipients hepatitis. In 1968 Alfred Prince found it in patients in the incubation period of serum hepatitis. The antigen was the coat of the virus, later named hepatitis B surface antigen, **HBsAg**, and in 1970 an electron microscope showed the whole particle.
 
-![An electron micrograph of a few round virus particles with fringed coats, clustered on a grey background](hbv-virions.jpg)
+![An electron micrograph of a few round virus particles with fringed coats, clustered on a gray background](hbv-virions.jpg)
 
 ## Screening donors
 

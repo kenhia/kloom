@@ -45,7 +45,7 @@ side; the whole horn turns in a thirty-foot wheel to raise or lower its
 gaze, and its base turns on a circular track. Penzias and
 Wilson meant to use it for radio astronomy.
 
-![The Holmdel horn antenna on Crawford Hill: a long, flaring aluminium horn laid on its side, turning in a large spoked elevation wheel, on a steel base with stairs up to its equipment cab](holmdel-horn.jpg)
+![The Holmdel horn antenna on Crawford Hill: a long, flaring aluminum horn laid on its side, turning in a large spoked elevation wheel, on a steel base with stairs up to its equipment cab](holmdel-horn.jpg)
 
 They accounted for everything. Their receiver was cooled with liquid
 helium; they measured the air's contribution by tipping the antenna; they
@@ -60,7 +60,7 @@ than it should.
 | Unexplained, the same in every direction |    3.5 |
 | Total measured                           |    6.7 |
 
-Sixty kilometres away, at Princeton, Robert Dicke, **Jim Peebles**, Peter
+Sixty kilometers away, at Princeton, Robert Dicke, **Jim Peebles**, Peter
 Roll and David Wilkinson were building a receiver to search for exactly
 this, reasoning as Alpher and Herman had. A
 friend told Penzias of Peebles's preprint; Penzias rang Dicke; and, as

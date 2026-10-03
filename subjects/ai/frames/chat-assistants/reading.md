@@ -28,7 +28,7 @@ independently audited.
 
 The other laboratories moved quickly. [Meta](kloom:e/meta-platforms) released the first **[Llama](kloom:e/llama-language-model)**
 models on 24 February 2023, to researchers only; the weights leaked and were
-shared by BitTorrent, and later versions came with licences that allowed
+shared by BitTorrent, and later versions came with licenses that allowed
 some commercial use.
 [Google](kloom:e/google) opened a waitlist for **Bard** on 21 March 2023 and renamed it
 **[Gemini](kloom:e/gemini-language-model)** in February 2024. [Anthropic](kloom:e/anthropic) released **[Claude](kloom:e/claude-ai)** in March 2023. [xAI](kloom:e/spacexai) previewed **[Grok](kloom:e/grok-chatbot)** to paying users of
@@ -50,7 +50,7 @@ Store, and Nvidia's share price fell 18%.
 | Qwen     | Alibaba            | Apr 2023 (beta)      | Qwen3.8-Max (Aug 2026)                                                         |
 | DeepSeek | DeepSeek           | Jan 2025 (app)       | DeepSeek-V4-Pro (Aug 2026); V4.1-Flash (Sep 2026)                              |
 
-"Flagship" is a judgement: the table gives each lab's most capable generally
+"Flagship" is a judgment: the table gives each lab's most capable generally
 available model, or its newest where that is clearer, from the labs' own
 announcements and release notes.
 
@@ -58,7 +58,7 @@ announcements and release notes.
 
 By September 2026 the leading labs were releasing new models every few
 weeks, and several were holding their most capable versions back. Anthropic
-kept its **Claude Mythos** models to vetted organisations, citing their
+kept its **Claude Mythos** models to vetted organizations, citing their
 ability to find software vulnerabilities, and in September released
 Claude Fable 5.1 to the public as the same model with stricter safeguards.
 OpenAI released **GPT-6 Astra** on 3 September as a limited preview and to

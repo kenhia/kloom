@@ -14,7 +14,7 @@ The story of how he set about it was printed in [Paris](kloom:e/paris) in 1829, 
 three or four able colleagues he would not live to finish. Then, outside a
 bookshop, he saw the fine London edition of **[Adam Smith](kloom:e/adam-smith)**'s _Wealth of
 Nations_, opened it at random, and fell on the first chapter, on the
-division of labour, with its famous example of the making of pins. He
+division of labor, with its famous example of the making of pins. He
 conceived at once the plan of manufacturing his logarithms as one
 manufactures pins. He was lecturing at the time on the _method of
 differences_ and interpolation, and it was the method that made the
@@ -26,7 +26,7 @@ calculations separately, each a check on the other.
 
 The anecdote came from a pamphlet written to win money for printing the
 tables, and [Doron Swade](kloom:e/doron-swade) notes, after Ivor Grattan-Guinness, that its
-grandeur may have been doing promotional work. The organisation it
+grandeur may have been doing promotional work. The organization it
 describes is not in doubt. Babbage's account gives three sections:
 
 | Section | Who                                            | How many | What they did                                                              |

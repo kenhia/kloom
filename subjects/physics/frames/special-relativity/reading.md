@@ -70,7 +70,7 @@ preserve an independent reality." Einstein at first dismissed the
 four-dimensional version as "learned superfluousness"; by 1912 he was
 building on it. Minkowski died of appendicitis the following January.
 
-![Minkowski's hand-drawn and coloured transparency for the 1908 lecture, headed "Kontraktion der Elektronen": a hyperbola and light lines on axes t and x, tilted axes t′ and x′, and two coloured bands for a rod at rest and in motion](minkowski-diagram.jpg)
+![Minkowski's hand-drawn and colored transparency for the 1908 lecture, headed "Kontraktion der Elektronen": a hyperbola and light lines on axes t and x, tilted axes t′ and x′, and two colored bands for a rod at rest and in motion](minkowski-diagram.jpg)
 
 ## Tested
 
@@ -79,7 +79,7 @@ second at rest, far too short to reach the ground. In 1962 David Frisch
 and Smith counted about 563 an hour on Mount Washington and about
 412 at sea level in Cambridge, Massachusetts; without time dilation about
 27 would have survived the fall. In October 1971 Joseph Hafele and Richard
-Keating flew caesium clocks round the world on airliners, east and then
+Keating flew cesium clocks round the world on airliners, east and then
 west, and compared them with clocks at the US Naval Observatory: the
 **[Hafele–Keating experiment](kloom:e/hafele-keating-experiment)**. Their predictions include the effect of height,
 from general relativity.
@@ -90,7 +90,7 @@ from general relativity.
 | Westward                         | +275 ± 21 | +273 ± 7 |
 
 Satellite navigation takes both effects into account routinely, and since 1983
-the metre has been the distance light travels in 1/299,792,458 of a
+the meter has been the distance light travels in 1/299,792,458 of a
 second, a definition that only works because every observer measures the
 same _c_. Special relativity left one thing out, gravity. Einstein's ten
 years' work on it is the next frame.

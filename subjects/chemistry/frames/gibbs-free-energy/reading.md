@@ -28,7 +28,7 @@ At room temperature the heat the reaction needs outweighs the disorder it makes,
 
 For a mixture, Gibbs asked how the energy changes when a little more of one substance is added, and called the answer that substance's potential, now its **[chemical potential](kloom:e/chemical-potential)**. Matter flows from where its potential is higher to where it is lower, as heat flows from hot to cold, and equilibrium comes when each substance's potential is the same everywhere.
 
-From that followed the **[phase rule](kloom:e/phase-rule)**. A system of _n_ substances in _r_ phases, such as solid, liquid and vapour, has _n_ + 2 − _r_ ways it can vary and stay as it is. Gibbs gave the examples himself. Water alone, with ice, liquid and vapour together, has 1 + 2 − 3 = 0: they can coexist at only one temperature and one pressure, the triple point. A salt solution with its vapour and two kinds of crystal is 2 + 2 − 4 = 0 again.
+From that followed the **[phase rule](kloom:e/phase-rule)**. A system of _n_ substances in _r_ phases, such as solid, liquid and vapor, has _n_ + 2 − _r_ ways it can vary and stay as it is. Gibbs gave the examples himself. Water alone, with ice, liquid and vapor together, has 1 + 2 − 3 = 0: they can coexist at only one temperature and one pressure, the triple point. A salt solution with its vapor and two kinds of crystal is 2 + 2 − 4 = 0 again.
 
 ## Read late
 

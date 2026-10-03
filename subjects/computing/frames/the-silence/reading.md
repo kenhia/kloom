@@ -9,7 +9,7 @@ photographs.
 ## Broken up, and two kept
 
 Eight of the ten were dismantled, [GCHQ](kloom:e/gchq) says, so that their parts could be
-reused; some of the parts, sanitised, went to Max Newman's new computing
+reused; some of the parts, sanitized, went to Max Newman's new computing
 laboratory at Manchester. Two Colossi and two [Tunny](kloom:e/lorenz-cipher) machines went with the
 codebreakers to GCHQ's new headquarters at Eastcote in April 1946, and to
 Cheltenham between 1952 and 1954. There they were put to other work, among it
@@ -41,7 +41,7 @@ many good computer projects after the war.
 
 The silence broke from outside. **[Brian Randell](kloom:e/brian-randell)**, a computer scientist at
 Newcastle, wrote to the Prime Minister, Edward Heath, in 1972 about the
-wartime work and got the first official admission that the organisation had
+wartime work and got the first official admission that the organization had
 existed. F. W. Winterbotham's _The Ultra Secret_ of 1974 told the Enigma
 story. In October 1975 the government released a set of captioned
 photographs of Colossus, and in June 1976 Randell presented a paper on it at

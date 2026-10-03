@@ -77,7 +77,7 @@ Medal for it in 1998.
 The classification's proof runs to tens of thousands of pages, in several
 hundred articles by about a hundred authors, published mostly between 1955
 and 2004. When it was finished is itself disputed. Daniel Gorenstein, who
-organised the effort, wrote in a draft preface that it was complete in
+organized the effort, wrote in a draft preface that it was complete in
 August 1980, and in print said February 1981; many accounts give 1983. But
 a manuscript of some 800 pages on the _quasithin_ groups, never published,
 proved to be incomplete, and Aschbacher and Stephen Smith spent seven years
@@ -90,7 +90,7 @@ Solomon, is meant to put the whole argument in one place; ten volumes had
 appeared by 2023, with more to come. Machines are checking pieces of it. The
 odd order theorem of Feit and Thompson, 255 pages in 1963, was verified in
 the Coq proof assistant in 2012, and a preprint of August 2026 reports an
-AI-assisted formalisation in Lean that reaches further into the
+AI-assisted formalization in Lean that reaches further into the
 classification, though not yet to the end.
 
 The Monster is algebra at its most finite. The spine turns next to

@@ -42,12 +42,12 @@ move each unknown against its own derivative, by the same small multiple
 θ: to _x_ − θ_X_, _y_ − θ_Y_, _z_ − θ_Z_. To first order _u_ falls by
 θ(_X_² + _Y_² + _Z_²), which is positive unless you are already at the
 bottom. Repeat, and the values fall "smaller and smaller". For several
-equations at once, _u_ = 0, _v_ = 0, _w_ = 0, he minimised
+equations at once, _u_ = 0, _v_ = 0, _w_ = 0, he minimized
 _u_² + _v_² + _w_², the sum of squares that Legendre and Gauss had argued
 over forty years before, a quarrel the frame on the normal distribution
 tells.
 
-Cauchy promised a fuller memoir, and it never appeared. The optimiser
+Cauchy promised a fuller memoir, and it never appeared. The optimizer
 Claude Lemaréchal, in 2012, bet that Cauchy had
 underestimated the problem: his hope that the method always finds a zero
 is false, since a sum of squares can have false valleys, and the choice of
@@ -93,10 +93,10 @@ layers: "To minimize _E_ by gradient descent", its authors wrote, it is
 necessary to compute the derivative of the error with respect to every
 weight, and their backward pass does that in one sweep.
 
-The optimisers now in use change the step, not the idea. Adam (2014) keeps
+The optimizers now in use change the step, not the idea. Adam (2014) keeps
 running averages of the gradients and scales each parameter's step.
 Moonshot AI's Kimi K2, a model with a trillion parameters, was trained in
-2025 with an optimiser called MuonClip, whose every step begins from the
+2025 with an optimizer called MuonClip, whose every step begins from the
 gradient. The reason a method from 1847 still wins is cost.
 Backpropagation delivers the whole gradient in one backward sweep through
 the network. Newton's method,

@@ -1,5 +1,5 @@
 **[Emmy Noether](kloom:e/emmy-noether)** was born in 1882 in Erlangen, the town where **[Felix Klein](kloom:e/felix-klein)**
-had printed his programme ten years before, into a Jewish family; her
+had printed his program ten years before, into a Jewish family; her
 father Max was a professor of mathematics at its university. Women could
 at first only audit lectures there, but by 1907 she had a doctorate. For
 seven years after it she taught at Erlangen without pay, sometimes in her
@@ -10,7 +10,7 @@ that physicists still use daily, and a new way of doing algebra.
 ## Göttingen
 
 In 1915 **[David Hilbert](kloom:e/david-hilbert)** and Felix Klein asked her to the
-**[University of Göttingen](kloom:e/university-of-gottingen)**, the centre of German mathematics. The
+**[University of Göttingen](kloom:e/university-of-gottingen)**, the center of German mathematics. The
 historians and philologists of the faculty refused to let a woman
 qualify to teach; one asked what the soldiers would think, coming back
 from the war to learn "at the feet of a woman". Hilbert's answer is often

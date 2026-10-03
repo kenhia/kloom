@@ -50,7 +50,7 @@ the corners of an equilateral triangle in the complex plane, is this one.
 ![Felix Klein in about 1912, painted by Max Liebermann: a bearded man in a dark suit, seated, turned three-quarters to the viewer, a roll of papers under his arm](felix-klein.jpg)
 
 **[Felix Klein](kloom:e/felix-klein)** was 23 when he joined the faculty at Erlangen in 1872, and
-the programme he printed for the occasion put groups at the centre of
+the program he printed for the occasion put groups at the center of
 geometry. The century had produced too many geometries: Euclid's,
 projective geometry, the new non-Euclidean ones. Klein proposed that each
 is fixed by a group of transformations, and is the study of what that
@@ -84,7 +84,7 @@ hadrons into families of eight and ten by the symmetry of SU(3), the
 **[Eightfold Way](kloom:e/eightfold-way-physics)**, and predicted a missing member that was found in 1964.
 The **[Standard Model](kloom:e/standard-model)** of particle physics, completed in the 1970s, is
 defined by its symmetry group, SU(3) × SU(2) × U(1): SU(3) for the strong
-force, acting on the three "colours" of a quark (not Gell-Mann's SU(3) of flavours, but the same group put to another use), and SU(2) × U(1) for the weak and electromagnetic forces.
+force, acting on the three "colours" of a quark (not Gell-Mann's SU(3) of flavors, but the same group put to another use), and SU(2) × U(1) for the weak and electromagnetic forces.
 
 Why a symmetry of the laws should matter so much to physics was answered
 in 1918 by Emmy Noether, whose theorem ties each continuous symmetry to a

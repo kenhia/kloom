@@ -1,4 +1,4 @@
-In 1599 a company of [London](kloom:e/london) actors, short of a theatre, took the timbers of
+In 1599 a company of [London](kloom:e/london) actors, short of a theater, took the timbers of
 their old playhouse across the [Thames](kloom:e/river-thames) and built a new one on the south bank
 at Bankside. They called it the **[Globe](kloom:e/globe-theatre)**. One of the company's shareholders,
 its leading playwright and an occasional actor, was **[William Shakespeare](kloom:e/william-shakespeare)**,

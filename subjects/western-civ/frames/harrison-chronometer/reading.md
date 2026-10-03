@@ -25,7 +25,7 @@ and a self-taught clockmaker. He spent most of his working life on the
 problem. His first sea clock, **H1**, a large brass machine, was tried on a
 voyage to Lisbon aboard HMS _Centurion_ in 1736. H2 followed, and H3 took him
 seventeen years and still fell short. Then he changed direction entirely.
-**H4**, finished in 1759, was a watch, about 13 centimetres across.
+**H4**, finished in 1759, was a watch, about 13 centimeters across.
 
 In November 1761 H4 sailed from Portsmouth aboard HMS _Deptford_. After 81
 days and 5 hours the ship reached Jamaica, and the watch was found to be 5
@@ -39,7 +39,7 @@ longitude.
 The Board of Longitude did not simply pay up. Its astronomers were backing a
 rival method, _lunar distances_, which read the time from the [Moon](kloom:e/moon)'s position
 among the stars, and **[Nevil Maskelyne](kloom:e/nevil-maskelyne)**, later Astronomer Royal, reported
-unfavourably on H4, suggesting its errors had happened to cancel out. The
+unfavorably on H4, suggesting its errors had happened to cancel out. The
 Board also wanted to know that a watch like it could be made again, by other
 hands, not only once by its inventor. Harrison received £10,000 in 1765 and a
 further £8,750 from Parliament in 1773, when he was eighty; he never received
@@ -52,4 +52,4 @@ accurate. Harrison's watches are now at the Royal Observatory, Greenwich.
 
 Harrison measured the world by carrying one fixed quantity, time, faithfully
 from one place to another. The next frame on this trail does the opposite:
-it measures the world in order to fix a quantity, the metre.
+it measures the world in order to fix a quantity, the meter.

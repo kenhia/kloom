@@ -52,12 +52,12 @@ it, and London came to see a superconductor as one quantum state spread
 through the whole metal, the same kind of explanation he gave for
 superfluid helium.
 
-![A small rectangular magnet floating in the air above a flat disc of superconductor, cooled by liquid nitrogen, with wisps of vapour around it](levitation.jpg)
+![A small rectangular magnet floating in the air above a flat disc of superconductor, cooled by liquid nitrogen, with wisps of vapor around it](levitation.jpg)
 
 A magnet floating over a superconductor, the familiar demonstration, is
 not quite the Meissner effect. This one is a copper oxide ceramic at
 −196 °C, and in such materials the field threads through in fine
-quantised tubes, which defects in the ceramic pin in place, holding the
+quantized tubes, which defects in the ceramic pin in place, holding the
 magnet where it is.
 
 ## Pairs

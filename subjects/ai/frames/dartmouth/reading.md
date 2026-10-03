@@ -27,7 +27,7 @@ of information theory. It opens:
 The document is credited with introducing the term _artificial
 intelligence_. McCarthy chose it partly for its neutrality: it avoided
 tying the field to narrow automata theory, and it avoided cybernetics, which
-was built around analogue feedback and would have meant accepting [Norbert
+was built around analog feedback and would have meant accepting [Norbert
 Wiener](kloom:e/norbert-wiener) as its guru, or arguing with him. The proposal then listed seven
 "aspects of the artificial intelligence problem":
 
@@ -52,7 +52,7 @@ language, neural networks, search, learning. The money asked for was small.
 | 8 travel and rent allowances, averaging $300 |      $2,400 |
 | 2 graduate-student salaries of $700          |      $1,400 |
 | Secretarial and organisational expense       |        $850 |
-| Additional travelling expenses               |        $600 |
+| Additional traveling expenses                |        $600 |
 | Contingencies                                |        $550 |
 | **Total**                                    | **$13,500** |
 

@@ -49,7 +49,7 @@ someone finds the way to talk it out of its purpose.
 ## From story to plan
 
 For two thousand years after Talos, artificial beings stayed in stories and
-rumours: medieval tales of brazen heads that answered questions, the [golem](kloom:e/golem) of
+rumors: medieval tales of brazen heads that answered questions, the [golem](kloom:e/golem) of
 Jewish legend, clockwork figures that played music. None of them thought. The
 next step was not a better story but a different idea: that thinking itself
 might be a kind of calculation, and so something a machine could do. That

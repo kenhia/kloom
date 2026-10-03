@@ -2,7 +2,7 @@ In 1828 **[Friedrich Wöhler](kloom:e/friedrich-wohler)**, a twenty-seven-year-o
 
 ## A crystal that was not a salt
 
-Wöhler was chasing cyanates. Mixing a cyanate with ammonia by the usual double exchange (lead cyanate with ammonia, or silver cyanate with sal ammoniac) should have given ammonium cyanate, a salt. Instead he got long, clear, four-sided crystals that behaved like no cyanate. Potash drove no ammonia out of them; acids released no cyanic acid; they would not throw down lead or silver salts. With nitric acid they gave shining scales, which he nearly took for a new acid. That behaviour sent him to compare them with "completely pure urea separated from urine", and the two were identical.
+Wöhler was chasing cyanates. Mixing a cyanate with ammonia by the usual double exchange (lead cyanate with ammonia, or silver cyanate with sal ammoniac) should have given ammonium cyanate, a salt. Instead he got long, clear, four-sided crystals that behaved like no cyanate. Potash drove no ammonia out of them; acids released no cyanic acid; they would not throw down lead or silver salts. With nitric acid they gave shining scales, which he nearly took for a new acid. That behavior sent him to compare them with "completely pure urea separated from urine", and the two were identical.
 
 Then he did the arithmetic. If cyanic acid and ammonia gave only urea, urea must have the composition of ammonium cyanate, and he set the analysis that **[William Prout](kloom:e/william-prout)** had published of urea beside the composition he calculated for the salt from the newest atomic weights, those just published in Stockholm. We add the formula's percentages, by our arithmetic from today's atomic weights:
 
@@ -19,7 +19,7 @@ Then he did the arithmetic. If cyanic acid and ammonia gave only urea, urea must
 
 ## Same parts, different things
 
-The same page says what interested Wöhler more. He "refrains from all the considerations" the fact suggests, especially about compounds of "the same elementary and quantitative composition" with very different properties, such as fulminic acid and cyanic acid. That pair was his and **[Justus von Liebig](kloom:e/justus-von-liebig)**'s. The explosive silver fulminate that Liebig analysed and the stable silver cyanate that Wöhler made had come out the same by analysis in the 1820s.
+The same page says what interested Wöhler more. He "refrains from all the considerations" the fact suggests, especially about compounds of "the same elementary and quantitative composition" with very different properties, such as fulminic acid and cyanic acid. That pair was his and **[Justus von Liebig](kloom:e/justus-von-liebig)**'s. The explosive silver fulminate that Liebig analyzed and the stable silver cyanate that Wöhler made had come out the same by analysis in the 1820s.
 
 In 1830, in a paper on tartaric and racemic acids, **[Jöns Jacob Berzelius](kloom:e/jons-jacob-berzelius)**, Wöhler's teacher in Stockholm, gave such bodies a name. He weighed "homosynthetic" against "isomeric" and chose the second, from the Greek for "of equal parts", for its brevity and sound: bodies with the same composition and the same atomic weight but different properties. His examples were the two oxides of tin, fulminic and cyanic acid, and the phosphoric acids; racemic acid, he wrote, had come "at just the right time". Urea and ammonium cyanate are one of the plainest pairs of **[isomers](kloom:e/isomer)**, and the idea was a hard one for a chemistry that knew only what compounds were made of, not how their atoms were joined.
 

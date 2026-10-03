@@ -45,7 +45,7 @@ prize, and was told that refusing would make more fuss than accepting.
 In Stockholm on 10 December he received it from King Gustaf VI Adolf.
 Tomonaga, kept away by an accident, could not come. At the banquet that night
 Feynman said the joy in all those messages had taught him something about
-honours and trumpets and kings: "such things provide entrance to the
+honors and trumpets and kings: "such things provide entrance to the
 heart." In the months that followed, the physicist David Goodstein, who
 joined Caltech then, recalled a brief spell of dejection, in which Feynman
 doubted that he could still do original work at the frontier.
@@ -70,10 +70,10 @@ Dirac's equation for the electron. He hoped for the same in three
 dimensions and never found it. Most of the ideas that got him there, he
 said, were not used in the end: the half-backward waves, the action
 without fields, the electron that never acts on itself. He called
-renormalisation "a way to sweep the difficulties of the divergences of
+renormalization "a way to sweep the difficulties of the divergences of
 electrodynamics under the rug". And he closed by comparing the theory he had
 fallen for as a young man to an old woman: no longer attractive, but a good
-mother, with children the Academy had just honoured.
+mother, with children the Academy had just honored.
 
 The dejection ended, in Goodstein's telling, at the University of Chicago's faculty club in
 February 1967, where Feynman sat up reading [James Watson](kloom:e/james-watson)'s manuscript of

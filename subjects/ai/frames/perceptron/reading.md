@@ -28,7 +28,7 @@ ran to millions.
 
 ## "The embryo of an electronic computer"
 
-In 1958 the Navy organised a press conference for Rosenblatt in
+In 1958 the Navy organized a press conference for Rosenblatt in
 Washington. Early demonstrations were simple: telling sheets of paper marked
 on the right from sheets marked on the left. On 8 July _The New York Times_
 ran the story on page 25 as "New Navy Device Learns by Doing", and it began:
@@ -46,7 +46,7 @@ government funding ended with symbolic AI the winner.
 ## The Mark I
 
 Rosenblatt wanted a machine, not a program. The **[Mark I Perceptron](kloom:e/mark-i-perceptron)** was a
-custom analogue computer. Its retina was a 20 × 20 grid of 400 photocells.
+custom analog computer. Its retina was a 20 × 20 grid of 400 photocells.
 Each could connect to up to 40 of 512 association units, wired at random
 through a plugboard according to a table of random numbers, because
 Rosenblatt believed the retina was randomly connected to the visual cortex.

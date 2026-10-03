@@ -1,7 +1,7 @@
 In 1950 the Belgian geologist **[Jean de Heinzelin](kloom:e/jean-de-heinzelin-de-braucourt)** was digging at
 **Ishango**, a fishing settlement on the Semliki River where it leaves Lake
 Edward, in what was then the Belgian Congo. Among stone tools and human
-remains he found a dark, curved bone about ten centimetres long, with a
+remains he found a dark, curved bone about ten centimeters long, with a
 chip of quartz fixed into one end and rows of notches cut along its
 length. It is now in the **[Museum of Natural Sciences](kloom:e/museum-of-natural-sciences)** in Brussels, and
 the **[Ishango bone](kloom:e/ishango-bone)** is often called the oldest mathematical object we

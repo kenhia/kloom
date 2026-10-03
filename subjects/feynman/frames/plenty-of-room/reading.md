@@ -12,7 +12,7 @@ anything is another question.
 He began with a sum. The head of a
 pin is a sixteenth of an inch across. Magnify it 25,000 times and its area
 equals that of every page of the _Encyclopaedia Britannica_. So to write the
-encyclopaedia on a pinhead, shrink its print 25,000 times. The smallest dot
+encyclopedia on a pinhead, shrink its print 25,000 times. The smallest dot
 in its halftone pictures, about 1/120 of an inch, would still be some 80
 ångströms wide, 32 atoms across. The letters could be written with a beam
 of ions and read with an electron microscope. The plate sets his numbers on
@@ -27,7 +27,7 @@ that, he pointed out, in [DNA](kloom:e/dna). The rest of the talk ranged over:
 - **better electron microscopes**, a hundred times sharper, so that biologists
   could simply look at the order of the bases in DNA;
 - **computers** with wires ten or a hundred atoms across, and so many more
-  elements that they might, like a brain, recognise a face;
+  elements that they might, like a brain, recognize a face;
 - a friend's idea, **[Albert Hibbs](kloom:e/albert-hibbs)**'s, of a surgeon you could swallow;
 - sets of **mechanical hands**, each building a set a quarter its size, down
   to a billion tiny factories;
@@ -47,14 +47,14 @@ Pasadena, carried a grocery carton into Feynman's laboratory. Inside was a
 microscope, and under it a motor of thirteen parts weighing 250 micrograms,
 built in two and a half months of lunch hours with a watchmaker's lathe and
 a toothpick. Feynman had never formally set up the prize; he sent McLellan
-the cheque anyway. McLellan had met the challenge with conventional tools,
+the check anyway. McLellan had met the challenge with conventional tools,
 which surprised Feynman, and the motor opened no new field. It was shown at Caltech and ran
 until 1991.
 
 The page took twenty-five years. In 1985 **Tom Newman**, a Stanford
 graduate student working with Fabian Pease, used a beam of electrons to
 write the first page of Dickens's _A Tale of Two Cities_ at 1/25,000 scale,
-a page about six micrometres wide (the width is this frame's arithmetic for
+a page about six micrometers wide (the width is this frame's arithmetic for
 a six-inch page). The hard part, he found, was locating the text again on
 the chip. Feynman paid in November 1985.
 
@@ -79,9 +79,9 @@ only in 1992.
 | 13 years after Drexler's 1981 | 63              |
 
 Toumey also asked the inventors. Gerd Binnig and Heinrich Rohrer, whose
-[scanning tunnelling microscope](kloom:e/scanning-tunneling-microscope) of the early 1980s first let people see and
+[scanning tunneling microscope](kloom:e/scanning-tunneling-microscope) of the early 1980s first let people see and
 move single atoms, had not heard of the talk until after their work was
-recognised; Calvin Quate, of the atomic force microscope, had not read it.
+recognized; Calvin Quate, of the atomic force microscope, had not read it.
 Don Eigler, who spelled "IBM" in xenon atoms in 1990, had read it years
 before but said it had not shaped his work. Toumey's conclusion was that the
 field grew from its instruments and was then given Feynman as a founder,

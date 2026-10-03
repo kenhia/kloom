@@ -20,10 +20,10 @@ itself.
 
 At King's College London, **[Rosalind Franklin](kloom:e/rosalind-franklin)**, an expert in X-ray
 crystallography, and her student **Raymond Gosling** were photographing DNA
-fibres with X-rays. In May 1952 they took an exceptionally clear image of the
+fibers with X-rays. In May 1952 they took an exceptionally clear image of the
 hydrated form of DNA, later known as **[Photo 51](kloom:e/photo-51)**. Its distinctive X-shaped
 pattern is the signature of a helix, and its spacings give the helix's
-dimensions: a full turn every 3.4 nanometres.
+dimensions: a full turn every 3.4 nanometers.
 
 Early in 1953 Franklin's colleague **Maurice Wilkins** showed the photograph
 to Watson, without her knowledge. Watson and Crick, who had been building
@@ -35,7 +35,7 @@ A always with T, G always with C.
 Their letter appeared alongside two papers from King's, one by Wilkins and
 his colleagues and one by Franklin and Gosling, that supplied the
 experimental evidence. Watson, Crick and Wilkins shared the Nobel Prize in 1962. Franklin had died of cancer in 1958, aged 37; the prize is not awarded
-posthumously. Her part in the discovery is now widely recognised.
+posthumously. Her part in the discovery is now widely recognized.
 
 ## A code
 

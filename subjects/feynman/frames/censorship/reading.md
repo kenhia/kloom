@@ -1,6 +1,6 @@
 Censoring the mail of people inside the United States was not something
 the Army could simply order. At [Los Alamos](kloom:e/los-alamos-national-laboratory) it began, according to the
-laboratory's official history, with a rumour in 1943 that letters were
+laboratory's official history, with a rumor in 1943 that letters were
 already being opened. The director protested to General [Groves](kloom:e/leslie-groves), whose
 investigation found nothing; but by then many of the scientists wanted
 official censorship rather than a suspicion of the unofficial kind, and it

@@ -40,7 +40,7 @@ The story around it is disputed. Twelve hours earlier Tristan Buckmaster
 of New York University had released results with Levent Alpöge, who works
 at the rival company Anthropic, including a blowup for the Euler
 equations, the same fluid without friction, found with AI models of both
-companies. OpenAI said its search began after it heard rumours of their
+companies. OpenAI said its search began after it heard rumors of their
 work. Buckmaster suggested that their private work might have reached
 OpenAI's system; OpenAI, after an investigation, said his prompts to its
 models could not have influenced it. Both groups built on a method found
@@ -77,9 +77,9 @@ The other cases known, by our arithmetic from their formulas:
 |        24 | Leech lattice    |  0.0019 | Cohn and others, 2016 |
 
 In the E₈ packing each sphere touches 240 others. Drawn flat, the
-centres of those 240 make the pattern in the picture.
+centers of those 240 make the pattern in the picture.
 
-![A circular pattern of many thin coloured lines in eight concentric rings of thirty points each, blue and green outside, red and magenta within, on black](e8-roots.jpg)
+![A circular pattern of many thin colored lines in eight concentric rings of thirty points each, blue and green outside, red and magenta within, on black](e8-roots.jpg)
 In February 2026 Viazovska's proof for
 eight dimensions was checked in Lean, its last stages written by an AI
 model, Gauss, from the company Math Inc.
@@ -90,7 +90,7 @@ model, Gauss, from the company Math Inc.
 | ---- | -----------------------------: | ---------------------------------------- |
 | 2024 |                             28 | Translated into Lean; up to three days   |
 | 2025 |                             35 | Natural language, within 4.5 hours       |
-| 2026 |                             42 | Several models, graded by the organisers |
+| 2026 |                             42 | Several models, graded by the organizers |
 
 At the **[International Mathematical Olympiad](kloom:e/international-mathematical-olympiad)** of 2024, **[Google
 DeepMind](kloom:e/google-deepmind)**'s AlphaProof and AlphaGeometry 2 scored at silver-medal level.

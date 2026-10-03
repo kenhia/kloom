@@ -12,7 +12,7 @@ computer in regular service; Wikipedia's article puts it second, after the
 **[Maurice Wilkes](kloom:e/maurice-wilkes)**, the laboratory's director, attended the last weeks of
 the Moore School lectures in Philadelphia in August 1946 and, in his
 telling, began sketching EDSAC on the _Queen Mary_ on the way home. His
-rules were modest: simple, serial, modelled on the [EDVAC](kloom:e/edvac) design, and built
+rules were modest: simple, serial, modeled on the [EDVAC](kloom:e/edvac) design, and built
 from tried parts, so that programming could start early. He ran it at
 500 kHz where others aimed at a megahertz. For the store he took the
 [_mercury delay line_](kloom:e/delay-line-memory), which he later said was Eckert's suggestion and "the
@@ -32,7 +32,7 @@ wait. A number can be read only as it comes past, and the speed of sound in
 mercury changes with temperature, so the tanks were kept at a steady heat.
 
 The arithmetic of one tank, worked from the laboratory's own figures (the
-last line uses the speed of sound in mercury, about 1,450 metres a second):
+last line uses the speed of sound in mercury, about 1,450 meters a second):
 
 | Quantity                               | Working              |          Value |
 | -------------------------------------- | -------------------- | -------------: |
@@ -71,7 +71,7 @@ Computer_, the first book on programming.
 ## A service
 
 Users did their own programming, and the laboratory made no attempt at
-selling: students learnt it from each other. Tapes waited their turn on a
+selling: students learned it from each other. Tapes waited their turn on a
 line strung beside the reader, a job queue before the name, and a loudspeaker on
 the accumulator let operators hear a program stuck in a loop. For Ronald
 Fisher, Wheeler solved a differential equation in gene frequencies by April

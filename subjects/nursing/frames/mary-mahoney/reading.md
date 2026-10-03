@@ -4,7 +4,7 @@ In the year that ended on 30 September 1879, the committee on nurses of the **[N
 
 ## The course she finished
 
-The hospital had been founded in 1862 by women physicians, led by Marie Zakrzewska, to give women doctors a place to practise and to train, and it trained nurses from its first years. Its resident physician Susan Dimock reorganized the nurses' school in the early 1870s, and the hospital's report for 1875 sets out the course as it stood when Mahoney entered it:
+The hospital had been founded in 1862 by women physicians, led by Marie Zakrzewska, to give women doctors a place to practice and to train, and it trained nurses from its first years. Its resident physician Susan Dimock reorganized the nurses' school in the early 1870s, and the hospital's report for 1875 sets out the course as it stood when Mahoney entered it:
 
 | Stage           | What the 1875 report requires                                                                             |
 | --------------- | --------------------------------------------------------------------------------------------------------- |

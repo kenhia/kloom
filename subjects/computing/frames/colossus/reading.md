@@ -42,7 +42,7 @@ through the moving tape onto photocells, and the machine took its clock
 from the tape's own sprocket holes, so that whatever the tape's speed the
 electronics stayed in step with it. In tests the tape ran at 9,700
 characters a second before it disintegrated; 5,000 a second, about 12
-metres of tape every second, was settled on for service.
+meters of tape every second, was settled on for service.
 
 Inside, the wheels of the German machine were imitated by **rings of
 thyratrons**, gas-filled valves that each held one bit: a pulse struck the
@@ -87,7 +87,7 @@ Each run was chosen by a cryptanalyst, who read the printed scores and set
 up the next. By the war's end the section that ran the machines had 272
 Wrens and 27 men.
 
-![The selection panel of a Colossus in a wartime photograph: two columns of switch plates labelled Near and Far for the two tapes, Z and ΔZ, χ and Δχ, ψ and Δψ, motor and limitation control, and span control](selection-panel.png)
+![The selection panel of a Colossus in a wartime photograph: two columns of switch plates labeled Near and Far for the two tapes, Z and ΔZ, χ and Δχ, ψ and Δψ, motor and limitation control, and span control](selection-panel.png)
 
 How Tunny was broken without a captured machine, and what Colossus went on
 to do, is the trail that starts here: it begins with the machine

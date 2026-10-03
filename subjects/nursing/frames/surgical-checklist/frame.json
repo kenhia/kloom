@@ -242,7 +242,7 @@
 	"connections": [
 		{
 			"to": "blood/lis",
-			"why": "The checklist's sign out has the nurse read each specimen's label aloud with the patient's name, against the mislabelled specimen that laboratory information systems were built to catch."
+			"why": "The checklist's sign out has the nurse read each specimen's label aloud with the patient's name, against the mislabeled specimen that laboratory information systems were built to catch."
 		},
 		{
 			"to": "nursing/surgical-count",

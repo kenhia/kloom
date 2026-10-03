@@ -253,7 +253,7 @@
 	"connections": [
 		{
 			"to": "physics/matrix-mechanics",
-			"why": "Heisenberg began from the Fourier series of an electron's orbit, keeping only the frequencies an atom gives out; each term, labelled by the two states of a jump, became an entry in a matrix."
+			"why": "Heisenberg began from the Fourier series of an electron's orbit, keeping only the frequencies an atom gives out; each term, labeled by the two states of a jump, became an entry in a matrix."
 		},
 		{
 			"to": "mathematics/madhava",

@@ -1,4 +1,4 @@
-Deep networks had learned to recognise images from millions of labelled
+Deep networks had learned to recognize images from millions of labeled
 examples. Much of what an intelligent agent has to do comes with no labels:
 it has to act, and find out afterwards whether it did well. That is
 [_reinforcement learning_](kloom:e/reinforcement-learning), learning from reward. Between 2013 and 2016 a
@@ -54,12 +54,12 @@ played at 1 in 10,000.
 ![The full record of game 2: Lee Sedol (white) against AlphaGo (black), every stone numbered in the order played. AlphaGo's move 37 is on the right side of the board, on the fifth line](game-2.png)
 
 In the fourth game Lee answered in kind. His 78th move, a wedge into the
-centre that the Chinese professional Gu Li called a "divine move", was
+center that the Chinese professional Gu Li called a "divine move", was
 another that DeepMind put at 1 in 10,000. AlphaGo's reply was poor, and a few
 moves later its own estimate of its chances collapsed; it resigned. It won
 the fifth game, and the match, **4–1**. The prize went to charities.
 
-![The board in game 4 just after Lee Sedol's move 78, the white stone marked 78 at L11, wedged between black stones in the centre](move-78.jpg)
+![The board in game 4 just after Lee Sedol's move 78, the white stone marked 78 at L11, wedged between black stones in the center](move-78.jpg)
 
 Lee said the defeat was his own, "not a defeat of mankind". [Murray Campbell](kloom:e/murray-campbell),
 one of [Deep Blue](kloom:e/deep-blue-chess-computer)'s designers, called the result "the end of an era... board

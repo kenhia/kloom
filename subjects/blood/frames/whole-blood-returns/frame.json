@@ -12,12 +12,12 @@
 		"palette": "maroon",
 		"illustration": "scene.svg",
 		"metadata": [
-			"75TH RANGER REGIMENT · ARMED SERVICES BLOOD PROGRAM · TRAUMA CENTRES",
+			"75TH RANGER REGIMENT · ARMED SERVICES BLOOD PROGRAM · TRAUMA CENTERS",
 			"GROUP O · ANTI-A AND ANTI-B BELOW 1 IN 256 · IMMEDIATE SPIN"
 		],
 		"counter": {
 			"value": "382",
-			"label": "US trauma centres giving low-titre O whole blood in 2024"
+			"label": "US trauma centers giving low-titer O whole blood in 2024"
 		}
 	},
 	"citations": [
@@ -288,11 +288,11 @@
 	"connections": [
 		{
 			"to": "blood/tube-typing",
-			"why": "A titre is read by the same tube agglutination graded 4+ to 0 as typing and crossmatch by hand."
+			"why": "A titer is read by the same tube agglutination graded 4+ to 0 as typing and crossmatch by hand."
 		},
 		{
 			"to": "blood/robertson-depot",
-			"why": "Group O blood kept on ice was given to the wounded in 1917; low-titre group O whole blood came back a century later."
+			"why": "Group O blood kept on ice was given to the wounded in 1917; low-titer group O whole blood came back a century later."
 		}
 	]
 }

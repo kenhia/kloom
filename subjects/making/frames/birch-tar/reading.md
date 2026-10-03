@@ -10,7 +10,7 @@ Birch bark is rich in [betulin](kloom:e/betulin), the compound that makes it whi
 | Pit roll         | a roll of bark over a small pit, capped with embers                 |            up to 2.4 g |
 | Raised structure | bark on a mesh over a pit and a bark cup, earthed over, fire on top |            up to 9.6 g |
 
-In every successful run, some point in the fire passed 400 °C while another, in the bottom of the roll or pit, stayed below about 200 °C. Between those two, in a gradient, the bark distils; for birch it starts somewhere between 250 and 300 °C. So the control needed was coarser than had been assumed. What a Neanderthal had to judge was not a temperature but the result: whether the brown ooze was sticky enough to hold.
+In every successful run, some point in the fire passed 400 °C while another, in the bottom of the roll or pit, stayed below about 200 °C. Between those two, in a gradient, the bark distills; for birch it starts somewhere between 250 and 300 °C. So the control needed was coarser than had been assumed. What a Neanderthal had to judge was not a temperature but the result: whether the brown ooze was sticky enough to hold.
 
 The larger lump of tar on a Campitello flake would have weighed at most 14.6 grams when fresh, by Kozowyk's estimate. That is six to eleven of Kozowyk's best runs with the ash mound or the pit roll. With the raised structure, by our arithmetic, it is one run on about 150 grams of bark, a few strips from a single tree.
 
@@ -18,7 +18,7 @@ The larger lump of tar on a Campitello flake would have weighed at most 14.6 gra
 
 In 2019 Patrick Schmidt and colleagues at Tübingen found a simpler way. Burn a roll of birch bark in the open next to a smooth stone, and tar condenses on the stone where the smoke touches it, to be scraped off and gathered. It needs no pit, no seal and no plan, and it might have been discovered by accident beside any campfire. So, they argued, tar alone does not prove that its makers could plan as we do.
 
-Then they asked which way the Neanderthals had actually used. **[Königsaue](kloom:e/konigsaue)**, in an opencast coal mine in central Germany, has given two lumps of birch tar between 45,000 and 80,000 years old, the larger still moulded around the stone tool it once held. In 2023 Schmidt's team compared their chemistry with tars made every known Stone Age way. Tar made in the open, with oxygen around it, has a different fingerprint. The Königsaue tar was made underground, in a deliberately sealed space where the process could not be watched. A method like that is unlikely to have been invented in one step, they concluded; it looks like the condensation trick improved over generations, a cumulative culture.
+Then they asked which way the Neanderthals had actually used. **[Königsaue](kloom:e/konigsaue)**, in an opencast coal mine in central Germany, has given two lumps of birch tar between 45,000 and 80,000 years old, the larger still molded around the stone tool it once held. In 2023 Schmidt's team compared their chemistry with tars made every known Stone Age way. Tar made in the open, with oxygen around it, has a different fingerprint. The Königsaue tar was made underground, in a deliberately sealed space where the process could not be watched. A method like that is unlikely to have been invented in one step, they concluded; it looks like the condensation trick improved over generations, a cumulative culture.
 
 ![A small flint flake with a dark coat of tar over most of one face, mounted on a museum pin](zandmotor-tool.jpg)
 

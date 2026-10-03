@@ -3,7 +3,7 @@
 	"topic": "The Hall–Héroult process",
 	"asOf": "2026-09-30",
 	"position": {
-		"label": "Aluminium"
+		"label": "Aluminum"
 	},
 	"scene": {
 		"headline": "We turned a precious metal into",
@@ -16,7 +16,7 @@
 		],
 		"counter": {
 			"value": "2,980 Ah",
-			"label": "of charge for each kilogram of aluminium"
+			"label": "of charge for each kilogram of aluminum"
 		}
 	},
 	"citations": [
@@ -204,11 +204,11 @@
 	"connections": [
 		{
 			"to": "physics/oersted",
-			"why": "Ørsted, who found that a current turns a compass needle, also made the first impure lump of aluminium in 1825; sixty years later electric current made the metal cheap."
+			"why": "Ørsted, who found that a current turns a compass needle, also made the first impure lump of aluminum in 1825; sixty years later electric current made the metal cheap."
 		},
 		{
 			"to": "chemistry/faraday-electrolysis",
-			"why": "The Hall–Héroult cell obeys Faraday's law: about 2,980 ampere-hours for each kilogram of aluminium."
+			"why": "The Hall–Héroult cell obeys Faraday's law: about 2,980 ampere-hours for each kilogram of aluminum."
 		}
 	]
 }

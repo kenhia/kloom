@@ -20,11 +20,11 @@ Archaeologists measure that thinness. **[François Bordes](kloom:e/francois-bord
 | Greatest width (m) | 90 mm  | L ÷ m = 1.56, Bordes's almond shape |
 | Thickness (e)      | 36 mm  | m ÷ e = 2.5, its refinement         |
 
-A thicker hand axe of the same outline, 45 millimetres through, would score 2.0. Getting from 2.0 to 2.5 is the soft hammer's work, and the knapper's.
+A thicker hand axe of the same outline, 45 millimeters through, would score 2.0. Getting from 2.0 to 2.5 is the soft hammer's work, and the knapper's.
 
 ## How long it takes to learn
 
-In a study published in 2015, Dietrich Stout and colleagues trained six archaeology students in Palaeolithic toolmaking for nearly two years, coached by expert knappers, and scanned their brains as they learned. After an average of 167 hours of practice over 22 months, the flakes they struck in Oldowan style had tripled in area. Their hand axes had not improved at all by the measure in the table: a refinement of 2.23 at the start and 2.25 at the end. An expert, on the other hand, can make a good hand axe in under fifteen minutes.
+In a study published in 2015, Dietrich Stout and colleagues trained six archaeology students in Paleolithic toolmaking for nearly two years, coached by expert knappers, and scanned their brains as they learned. After an average of 167 hours of practice over 22 months, the flakes they struck in Oldowan style had tripled in area. Their hand axes had not improved at all by the measure in the table: a refinement of 2.23 at the start and 2.25 at the end. An expert, on the other hand, can make a good hand axe in under fifteen minutes.
 
 The soft hammers themselves rarely survive. The oldest are at **[Boxgrove](kloom:e/boxgrove-palaeolithic-site)** in Sussex, about 480,000 years old, where knappers used antler and bone. In January 2026 Simon Parfitt and Silvia Bello described one more from Boxgrove: a flake of elephant limb bone, itself knapped into shape, with chips of flint still embedded in its surface from resharpening hand axes.
 

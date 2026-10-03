@@ -61,7 +61,7 @@ air raid on Berlin on 21 December 1943. The Z1 went too: in the same month
 by one account, on 30 January 1944 by another. Zuse's company built a
 working replica of the Z3 in 1961, now in the Deutsches Museum in Munich.
 
-![The 1961 replica of the Z3 in the Deutsches Museum: two tall grey racks of relays behind glass, with a grey desk in front carrying the console under a glass cover](z3.jpg)
+![The 1961 replica of the Z3 in the Deutsches Museum: two tall gray racks of relays behind glass, with a gray desk in front carrying the console under a glass cover](z3.jpg)
 
 ## Universal, in principle
 

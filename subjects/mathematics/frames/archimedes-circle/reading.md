@@ -25,7 +25,7 @@ Eudoxus. Suppose the circle is larger than the triangle. Inscribe a square,
 then an 8-gon, a 16-gon, halving the arcs each time, until the slivers
 left between polygon and circle add up to less than the excess. That
 polygon is now larger than the triangle, yet its perimeter is shorter than
-the circumference and its distance from the centre to each side shorter
+the circumference and its distance from the center to each side shorter
 than the radius, so it must be smaller. The circle is not larger. A
 matching argument with polygons drawn outside shows it is not smaller
 either. Nothing infinite is ever used; each step is a finite polygon.
@@ -86,7 +86,7 @@ past anything he needed, and then filled with sand a universe far larger
 than the usual one, the one proposed by **[Aristarchus of Samos](kloom:e/aristarchus-of-samos)**, in which
 the Earth goes round the Sun. The count came to fewer than 10⁶³ grains.
 The book is one of the few witnesses that Aristarchus proposed a
-Sun-centred world at all.
+Sun-centered world at all.
 
 The circle had been measured. Apollonius of Perga, a generation younger,
 turned to the curves a plane cuts from a cone.

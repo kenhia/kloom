@@ -6,14 +6,14 @@ Taylor was a machinist and foreman who had risen to chief engineer at the **[Mid
 
 ## Hotter than cherry red
 
-Before 1898 the best tools were "self-hardening" steels, descended from the tungsten steel **[Robert Mushet](kloom:e/robert-forester-mushet)** made in 1868, which hardened as they cooled in air without quenching. Their makers set the limit at a bright cherry red. Taylor and White's patent, filed in October 1899, gives the temperatures by colour:
+Before 1898 the best tools were "self-hardening" steels, descended from the tungsten steel **[Robert Mushet](kloom:e/robert-forester-mushet)** made in 1868, which hardened as they cooled in air without quenching. Their makers set the limit at a bright cherry red. Taylor and White's patent, filed in October 1899, gives the temperatures by color:
 
-| Heat before use           | Colour, as the patent gives it | °F           | °C, by our arithmetic |
-| ------------------------- | ------------------------------ | ------------ | --------------------- |
-| The makers' limit         | bright cherry red              | 1,500–1,550  | 816–843               |
-| "The breaking-down point" | up to a light salmon           | 1,550–1,700  | 843–927               |
-| Taylor–White treatment    | above the breaking-down point  | 1,725 upward | 941 upward            |
-| Until the steel softens   | crumbles when touched          | 1,900–2,000  | 1,038–1,093           |
+| Heat before use           | Color, as the patent gives it | °F           | °C, by our arithmetic |
+| ------------------------- | ----------------------------- | ------------ | --------------------- |
+| The makers' limit         | bright cherry red             | 1,500–1,550  | 816–843               |
+| "The breaking-down point" | up to a light salmon          | 1,550–1,700  | 843–927               |
+| Taylor–White treatment    | above the breaking-down point | 1,725 upward | 941 upward            |
+| Until the steel softens   | crumbles when touched         | 1,900–2,000  | 1,038–1,093           |
 
 Steels with chromium and tungsten heated through the dangerous band and on towards melting, the patent says, cut one and a half to two and a half times as fast. Taylor's 1906 paper says two to four times as much work, and later summaries say speeds tripled, from 30 to 90 feet a minute. What the heat gave was not hardness: at their hardest the new tools were "little, if any, harder" than the old. It was what Taylor named _red hardness_, the property of keeping their edge "even after the tool has been heated up in use … until it is almost, or quite, red hot." In Paris a twin of Taylor's Bethlehem test lathe ran such a tool before the public. The two patents were challenged, and a court struck them down in 1909, holding that Taylor and White had invented no new composition of steel.
 
@@ -21,7 +21,7 @@ Steels with chromium and tungsten heated through the dangerous band and on towar
 
 The speed a tool can stand depends on how long it must last. Taylor measured it by running a tool until it was ruined, and fixed on twenty minutes as the standard test. For one of his high-speed tools, cutting an annealed steel forging about 24 inches across, he fitted the curve below:
 
-![A graph of cutting speed falling with the time a tool lasts, through four test points at 10, 20, 40 and 80 minutes, labelled "the curve represents the formula V = 90 over T to the one-eighth"](taylor-fig104.jpg)
+![A graph of cutting speed falling with the time a tool lasts, through four test points at 10, 20, 40 and 80 minutes, labeled "the curve represents the formula V = 90 over T to the one-eighth"](taylor-fig104.jpg)
 
 Taylor wrote it as _V_ = 90 ÷ _T_ to the power ⅛, with _V_ in feet a minute and _T_ the minutes before regrinding. It is now written _VTⁿ_ = _C_, where _n_ and _C_ depend on the tool, the work and the feed. Worked through, by our arithmetic:
 

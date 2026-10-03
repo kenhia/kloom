@@ -4,7 +4,7 @@ On 15 December 1593 the States of Holland granted a patent to a man from the vil
 
 For as long as there had been planks, most of them had been sawn by two men with a long saw over a pit, one standing on the log and one beneath it, the man on top following a chalk line. Machines that sawed were old too. A relief on a sarcophagus at Hierapolis, in Roman Asia Minor, from the second half of the third century AD, shows a waterwheel driving two frame saws through cranks and connecting rods, and the **[Hierapolis sawmill](kloom:e/hierapolis-sawmill)** is the earliest known machine to combine the two. Water-powered **[sawmills](kloom:e/sawmill)** for timber were at work in Germany and Norway by the sixteenth century, and German books described them.
 
-When Cornelis built his first mill is disputed. The provincial heritage site of North Holland and an eighteenth-century print in his honour say 1592, before the patent; the English Wikipedia and the Twickel sawmill's history say 1594, a small mill on a raft called _Het Juffertje_, later sold and towed to Zaandam. In 1597 he was granted a second patent, for ten years, for a shaft with several cranks.
+When Cornelis built his first mill is disputed. The provincial heritage site of North Holland and an eighteenth-century print in his honor say 1592, before the patent; the English Wikipedia and the Twickel sawmill's history say 1594, a small mill on a raft called _Het Juffertje_, later sold and towed to Zaandam. In 1597 he was granted a second patent, for ten years, for a shaft with several cranks.
 
 ![An eighteenth-century allegorical print: gods and cherubs around a picture of a small windmill sawmill, above a poem praising Cornelis Corneliszoon of Uitgeest](juffertje-allegory.jpg)
 
@@ -20,7 +20,7 @@ The machine is a chain of conversions. The sails turn a shaft, gearing turns the
 | Spacer blocks  | Set the distance between blades, and so the plank                                       |
 | Ratchet feed   | On each upstroke, pawl and ratchet wheel pull the log's carriage forward a tooth        |
 
-Dutch Wikipedia's article on sawmills gives a working speed of about 80 sail passes a minute, 20 turns of a four-sailed mill, and an example at 77 to 78 passes with gearing of 1.83 to the crankshaft. By our arithmetic that is about 36 strokes a minute. The Twickel sawmill at Delden, which still saws, sets its feed at two to five metres an hour. Together, again by our arithmetic, the log moves forward roughly one to two and a half millimetres for each cut. Twickel's saws need sharpening after about forty metres, and their teeth are set alternately left and right so the kerf is wider than the blade.
+Dutch Wikipedia's article on sawmills gives a working speed of about 80 sail passes a minute, 20 turns of a four-sailed mill, and an example at 77 to 78 passes with gearing of 1.83 to the crankshaft. By our arithmetic that is about 36 strokes a minute. The Twickel sawmill at Delden, which still saws, sets its feed at two to five meters an hour. Together, again by our arithmetic, the log moves forward roughly one to two and a half millimeters for each cut. Twickel's saws need sharpening after about forty meters, and their teeth are set alternately left and right so the kerf is wider than the blade.
 
 ![The top of a sawmill's frame, with five saw blades hung side by side and wooden spacer blocks between them](saw-frame.jpg)
 

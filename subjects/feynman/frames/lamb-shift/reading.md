@@ -10,7 +10,7 @@ There had been hints that hydrogen disagreed with **Paul Dirac**'s theory of 192
 
 Dirac's theory says that two of hydrogen's excited states, called 2S1/2 and 2P1/2, have exactly the same energy. **[Willis Lamb](kloom:e/willis-lamb)** at Columbia had spent the war in the Columbia Radiation Laboratory, working on microwaves for radar, and saw that they could test that prediction directly. With his student **Robert Retherford** he sent a beam of hydrogen atoms in the 2S state, which is long-lived, through a microwave cavity in a magnetic field. When the microwaves had the right frequency they tipped atoms into a P state, which decays at once, and the beam's signal at the detector dropped. The two states were not equal. The 2S state sat higher, by about 1,000 megahertz in frequency: a few millionths of an electronvolt, or about a part in a million of the energy that binds the electron at that level. The plate draws the n = 2 levels to scale, then magnifies the gap six times.
 
-![The Ram's Head Inn on Shelter Island in summer: a long, dark-shingled inn of two storeys with dormer windows and a striped awning, seen across a lawn under old trees](rams-head-inn.jpg)
+![The Ram's Head Inn on Shelter Island in summer: a long, dark-shingled inn of two stories with dormer windows and a striped awning, seen across a lawn under old trees](rams-head-inn.jpg)
 
 ## Shelter Island
 
@@ -26,8 +26,8 @@ Lamb reported the result at a small conference of about two dozen physicists at 
 | Relativistic calculations, 1949           |     1,052 |
 | The accepted value today (theory and lab) |    ~1,058 |
 
-The later values are from G. Jordan Maclay's history of the shift (2020). Accounts of the train differ: Feynman, in his Nobel lecture, said it ran from Ithaca and that Bethe telephoned him from Schenectady with the result, while other accounts have Bethe travelling home from the conference by way of New York.
+The later values are from G. Jordan Maclay's history of the shift (2020). Accounts of the train differ: Feynman, in his Nobel lecture, said it ran from Ithaca and that Bethe telephoned him from Schenectady with the result, while other accounts have Bethe traveling home from the conference by way of New York.
 
-## Renormalisation
+## Renormalization
 
-Bethe's calculation was rough, but it carried the idea that rescued the theory: [_renormalisation_](kloom:e/renormalization). Write every answer in terms of the mass and charge that are actually measured, and the infinities are absorbed into quantities that are never seen on their own, leaving finite differences that can be compared with experiment. Feynman called Bethe's estimate the most important discovery in the history of QED. Doing it properly, with relativity, took two years and three different methods, by **[Julian Schwinger](kloom:e/julian-schwinger)**, **[Sin-Itiro Tomonaga](kloom:e/shin-ichir-tomonaga)** and Feynman. Feynman's came with pictures, and its rules are in the next frame, Propagators.
+Bethe's calculation was rough, but it carried the idea that rescued the theory: [_renormalization_](kloom:e/renormalization). Write every answer in terms of the mass and charge that are actually measured, and the infinities are absorbed into quantities that are never seen on their own, leaving finite differences that can be compared with experiment. Feynman called Bethe's estimate the most important discovery in the history of QED. Doing it properly, with relativity, took two years and three different methods, by **[Julian Schwinger](kloom:e/julian-schwinger)**, **[Sin-Itiro Tomonaga](kloom:e/shin-ichir-tomonaga)** and Feynman. Feynman's came with pictures, and its rules are in the next frame, Propagators.

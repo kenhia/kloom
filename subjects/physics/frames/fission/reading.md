@@ -24,7 +24,7 @@ multiplied, each harder to explain. In July 1938, after Germany annexed
 Austria and her passport became worthless, Meitner, who was of Jewish
 descent, escaped to the Netherlands and went on to Stockholm.
 
-![Otto Hahn and Lise Meitner in their laboratory in Berlin around 1912: a man with a moustache in a white coat stands behind a young woman, also in a white coat, seated at a bench, with shelves of reagent bottles behind them](hahn-meitner.jpg)
+![Otto Hahn and Lise Meitner in their laboratory in Berlin around 1912: a man with a mustache in a white coat stands behind a young woman, also in a white coat, seated at a bench, with shelves of reagent bottles behind them](hahn-meitner.jpg)
 
 That autumn Hahn and Strassmann thought they had found radium among their
 products. Meitner, meeting Hahn in Copenhagen in November, did not believe

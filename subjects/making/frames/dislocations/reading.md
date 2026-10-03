@@ -13,7 +13,7 @@ To move a heavy rug across a floor, you can drag the whole of it, against the fr
 
 Because only one line of bonds is under strain at a time, the stress needed is a tiny fraction of the stress to shear a whole plane. Taylor's paper, received by the Royal Society on 7 February 1934, called the passing slip "analogous to the propagation of a crack", the idea **[A. A. Griffith](kloom:e/alan-arnold-griffith)** had used for glass, and drew the atoms row by row.
 
-Taylor's own example gives the size of the gap. He quoted Erich Schmid's single crystals of zinc, which began to slip at 49 grams on a square millimetre when nearly pure, about 0.48 MPa, and at 94 grams with a little more impurity. Zinc's shear modulus is about 43 GPa, and a sixth of that is about 7,000 MPa. By our arithmetic, the purest crystal gave way at about one fourteen-thousandth of the stress a perfect one would need. (Zinc is stiffer in some directions than others, so this is a rough figure.)
+Taylor's own example gives the size of the gap. He quoted Erich Schmid's single crystals of zinc, which began to slip at 49 grams on a square millimeter when nearly pure, about 0.48 MPa, and at 94 grams with a little more impurity. Zinc's shear modulus is about 43 GPa, and a sixth of that is about 7,000 MPa. By our arithmetic, the purest crystal gave way at about one fourteen-thousandth of the stress a perfect one would need. (Zinc is stiffer in some directions than others, so this is a rough figure.)
 
 ## Seeing them
 
@@ -21,9 +21,9 @@ For twenty years dislocations were a theory, and too convenient a one: they coul
 
 ![A raft of tiny soap bubbles packed in a close hexagonal array, with a few dark gaps where bubbles are missing](bubble-raft.jpg)
 
-The sight itself came in 1956. In **[Peter Hirsch](kloom:e/peter-hirsch-metallurgist)**'s telling, he and Michael Whelan had been looking since October 1955 at beaten aluminium foil in a new Siemens **[electron microscope](kloom:e/electron-microscope)** at the Cavendish, operated with Robert Horne, and had seen rows of dots along the boundaries of grains, which might have been dislocations or might have been moiré patterns from overlapping crystals. On 3 May 1956, at 40,000 times magnification, they took out an aperture, and the dots and lines began to move across the foil, leaving tracks along the crystal's slip planes. They published in July. Walter Bollmann in Geneva saw dislocations in stainless steel the same year, but his microscope could not show them moving.
+The sight itself came in 1956. In **[Peter Hirsch](kloom:e/peter-hirsch-metallurgist)**'s telling, he and Michael Whelan had been looking since October 1955 at beaten aluminum foil in a new Siemens **[electron microscope](kloom:e/electron-microscope)** at the Cavendish, operated with Robert Horne, and had seen rows of dots along the boundaries of grains, which might have been dislocations or might have been moiré patterns from overlapping crystals. On 3 May 1956, at 40,000 times magnification, they took out an aperture, and the dots and lines began to move across the foil, leaving tracks along the crystal's slip planes. They published in July. Walter Bollmann in Geneva saw dislocations in stainless steel the same year, but his microscope could not show them moving.
 
-![Dislocations in a single crystal of an iron alloy, seen in an electron microscope as bright lines and fringes against a dark field, with scale bars of 100 and 50 nanometres](tem-dislocations.jpg)
+![Dislocations in a single crystal of an iron alloy, seen in an electron microscope as bright lines and fringes against a dark field, with scale bars of 100 and 50 nanometers](tem-dislocations.jpg)
 
 ## Why metal hardens
 
@@ -36,4 +36,4 @@ Dislocations explain how a smith makes metal stronger. Every method puts somethi
 | Smaller grains                              | dislocations pile up at the boundaries between crystals                                    |
 | Heating and slow cooling                    | undoes the tangles: annealing restores softness                                            |
 
-Taylor saw the first of these in 1934: his crystals hardened in proportion to the square root of how far they had been strained, and his tangled dislocations gave the same curve. A wire bent back and forth stiffens, and annealed it goes soft again. The next frame turns from metals to a fibre made by baking a textile: carbon fibre.
+Taylor saw the first of these in 1934: his crystals hardened in proportion to the square root of how far they had been strained, and his tangled dislocations gave the same curve. A wire bent back and forth stiffens, and annealed it goes soft again. The next frame turns from metals to a fiber made by baking a textile: carbon fiber.

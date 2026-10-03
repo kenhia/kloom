@@ -5,7 +5,7 @@ proved theorems of logic.
 
 ## A program that proved theorems
 
-Simon was a political scientist who studied how organisations make
+Simon was a political scientist who studied how organizations make
 decisions; his theory of _bounded rationality_ would later win him the
 Nobel Memorial Prize in Economic Sciences, in 1978. Consulting at the **[RAND
 Corporation](kloom:e/rand-corporation)** in Santa Monica in the early 1950s, he watched a printer type
@@ -57,7 +57,7 @@ explosion_, became central ideas of AI, and remain so. To write the program the
 three also invented a language, **[IPL](kloom:e/information-processing-language)**, whose symbolic list processing
 later formed the basis of [McCarthy](kloom:e/john-mccarthy-computer-scientist)'s [Lisp](kloom:e/lisp-programming-language).
 
-They generalised it in 1957 as the **[General Problem Solver](kloom:e/general-problem-solver)**, the first
+They generalized it in 1957 as the **[General Problem Solver](kloom:e/general-problem-solver)**, the first
 program to keep its knowledge of a problem apart from its strategy for
 solving it. GPS used _means–ends analysis_, setting subgoals that close the
 gap between where it is and where it wants to be. It solved tidy puzzles

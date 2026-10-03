@@ -4,6 +4,6 @@
 	"name": "Backpropagation",
 	"aliases": ["backprop"],
 	"kind": "idea",
-	"description": "The method of training a layered neural network by passing its error backwards with the chain rule, popularised in 1986.",
+	"description": "The method of training a layered neural network by passing its error backwards with the chain rule, popularized in 1986.",
 	"home": "ai/backprop"
 }

@@ -80,7 +80,7 @@ Cambodia.
 
 ## West to Baghdad
 
-Brahmagupta's books travelled. An embassy from Sindh brought Indian
+Brahmagupta's books traveled. An embassy from Sindh brought Indian
 astronomy to the court of the caliph al-Mansur in Baghdad, who reigned
 from 754 to 775, and it was put into Arabic as the _Sindhind_. Within fifty years a scholar in
 Baghdad had written a book on reckoning with the Indian numerals, zero

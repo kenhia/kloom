@@ -68,7 +68,7 @@ round, rather than straight between two bodies, was new.
 The paper did what it was sent to do. In London **[Humphry Davy](kloom:e/humphry-davy)**, with his
 assistant Michael Faraday, repeated the experiments at once, and the Royal
 Society gave Ørsted its Copley Medal that year. In Paris **[François Arago](kloom:e/francois-arago)**,
-just back from abroad, showed the effect to a sceptical Academy of Sciences; the
+just back from abroad, showed the effect to a skeptical Academy of Sciences; the
 sources give the date as 4 September or 11 September. By the end of
 September Ampère had found that two currents act on each other, and on 30
 October Jean-Baptiste Biot and Félix Savart gave the law of the force round
@@ -85,6 +85,6 @@ seventy-five years later.
 | December     | The Prussian Academy elects Ørsted                   |
 
 Ørsted himself did little more with it; he went back to the compression of
-gases, isolated aluminium in 1825, and founded Denmark's polytechnic in 1829. C. W. Eckersberg's portrait of him, painted in 1822 or 1823 (the
+gases, isolated aluminum in 1825, and founded Denmark's polytechnic in 1829. C. W. Eckersberg's portrait of him, painted in 1822 or 1823 (the
 sources differ), shows the compass needle on the table, small beside the acoustic plate in his hand. The mathematics of the
 new effect was made in Paris, by André-Marie Ampère.

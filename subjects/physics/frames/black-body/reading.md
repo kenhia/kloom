@@ -82,7 +82,7 @@ frequency, and the full Rayleigh–Jeans law, the curve that runs off the top
 of the plate, came in 1905. But Planck did not accept the equipartition of
 energy it rests on and ignored it, and the phrase was Paul Ehrenfest's, in 1911. What drove Planck was entropy and the Berlin measurements.
 
-## Did Planck quantise?
+## Did Planck quantize?
 
 Whether he meant energy really comes in lumps is disputed. In 1978 the
 historian Thomas Kuhn argued that he did not: nowhere in 1900–01 does

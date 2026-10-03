@@ -79,7 +79,7 @@ and its price.
 
 Minicomputers were made for control and measurement more than for
 calculation. A PDP-8 could be wired straight to a laboratory's instruments,
-reading analogue-to-digital converters through a direct path into memory,
+reading analog-to-digital converters through a direct path into memory,
 and many were sold to other firms, which built them into typesetting
 systems, instruments and control equipment and sold them under their own
 names. Nearly

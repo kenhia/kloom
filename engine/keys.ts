@@ -195,7 +195,7 @@ const WITH_CTRL: Record<string, string> = {
 	j: 'downloads',
 	k: 'search',
 	l: 'the address bar',
-	m: 'minimise the window',
+	m: 'minimize the window',
 	n: 'a new window',
 	o: 'open a file',
 	p: 'print',

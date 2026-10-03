@@ -6,8 +6,8 @@ to make one forearm official and copy it.
 
 ## The royal cubit
 
-The Egyptian **royal cubit**, _meh niswt_, was a little over 52 centimetres long;
-surviving examples run from 523.5 to 529.2 millimetres. It was divided into
+The Egyptian **royal cubit**, _meh niswt_, was a little over 52 centimeters long;
+surviving examples run from 523.5 to 529.2 millimeters. It was divided into
 seven _palms_ of four _fingers_ each, twenty-eight fingers in all, and the
 fingers were divided again into fractions. The unit is old: the **Palermo
 Stone** records the height of the Nile flood in cubits in the reign of the
@@ -17,7 +17,7 @@ early as the Step Pyramid of **Djoser**, around 2700 BC.
 A unit is only as good as its copies, and the copies were _cubit rods_. In
 1865 the German Egyptologist **Karl Richard Lepsius** described and compared
 fourteen of them. Among the finest is one from the tomb of **Maya**, a
-treasurer of the Eighteenth Dynasty, at Saqqara: 52.3 centimetres long and
+treasurer of the Eighteenth Dynasty, at Saqqara: 52.3 centimeters long and
 dated to about 1336–1327 BC. Another came from the tomb of the architect
 **Kha** at Thebes. Many of the surviving rods are carefully inscribed and
 were buried with their owners, so they tell us as much about the prestige
@@ -28,15 +28,15 @@ of measuring as about the everyday tools of a building site.
 The **[Great Pyramid of Giza](kloom:e/great-pyramid-of-giza)**, built around 2600 BC over about twenty-six
 years, shows what a shared unit could do. Its plan works out in round
 numbers of royal cubits: 440 along each side of the base, about 230.33
-metres, and an original height of 280. Half the base against the height is
+meters, and an original height of 280. Half the base against the height is
 220 to 280, a ratio of 11 to 14, which fixes the steep slope of the faces at
 a little under 52 degrees.
 
 The precision is the remarkable part. The four sides of the base have an
-average error in length of only 58 millimetres, and they are aligned to
+average error in length of only 58 millimeters, and they are aligned to
 the cardinal directions to within about three and a half minutes of arc.
 Exactly how the builders achieved it — with cords, sighting on stars,
-levelling with water — is still argued over, and the figures are modern
+leveling with water — is still argued over, and the figures are modern
 survey estimates of a monument whose casing stones have long since been
 stripped away. But none of it is possible unless the gangs laying out one
 corner are using the same cubit as the gangs laying out another.

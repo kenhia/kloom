@@ -190,11 +190,11 @@
 	"connections": [
 		{
 			"to": "feynman/every-path",
-			"why": "The same two slits, worked through with Feynman's arrows: Young's bands are the arrows from the two slits adding and cancelling, and electrons sent one at a time build the same bands."
+			"why": "The same two slits, worked through with Feynman's arrows: Young's bands are the arrows from the two slits adding and canceling, and electrons sent one at a time build the same bands."
 		},
 		{
 			"to": "feynman/qed-book",
-			"why": "Young explained Newton's coloured rings as light reflected from the two faces of a thin film interfering, the partial reflection that Feynman's QED explains again with arrows."
+			"why": "Young explained Newton's colored rings as light reflected from the two faces of a thin film interfering, the partial reflection that Feynman's QED explains again with arrows."
 		},
 		{
 			"to": "western-civ/maxwell",
@@ -202,7 +202,7 @@
 		},
 		{
 			"to": "physics/prism",
-			"why": "Young set his wave theory against Newton's corpuscles, and worked out wavelengths from Newton's own measurements of coloured rings."
+			"why": "Young set his wave theory against Newton's corpuscles, and worked out wavelengths from Newton's own measurements of colored rings."
 		}
 	]
 }

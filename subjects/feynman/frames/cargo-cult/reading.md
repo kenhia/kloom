@@ -8,13 +8,13 @@ demanded of a person.
 ## The planes don't land
 
 He began with what he had been looking into: isolation tanks, Esalen, a
-man practising reflexology on a woman's toe, Uri Geller failing to bend a
+man practicing reflexology on a woman's toe, Uri Geller failing to bend a
 key in a hotel bathroom. Then he turned to things more people believed:
 methods of teaching reading, and of treating criminals, that were called
 scientific and had not been shown to work.
 
 His image for all of it came from the South Seas. During the war, he said,
-islanders had watched aeroplanes land with wonderful goods, and now they
+islanders had watched airplanes land with wonderful goods, and now they
 built runways, lit fires beside them, and put a man in a wooden hut with
 wooden headphones to wait for the planes. The form was perfect; no planes
 landed. Research that copies the outward forms of science without its
@@ -75,7 +75,7 @@ care. For decades nobody could find the paper. In 2023 the writer Gwern
 Branwen, with a reader's help, traced the work to **Quin Fischer Curtis**,
 whose theses at the [University of Michigan](kloom:e/university-of-michigan) in 1931 and 1936 controlled the
 rats' floor cues in exactly this way, sand included, in a research
-programme that published little. The name and date in the talk were
+program that published little. The name and date in the talk were
 wrong; the experiment was real.
 
 ## His own standard

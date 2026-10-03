@@ -145,6 +145,6 @@
 		}
 	],
 	"connections": [
-		{ "to": "blood/segregated-blood", "why": "Fantus's donor form recorded each donor's colour." }
+		{ "to": "blood/segregated-blood", "why": "Fantus's donor form recorded each donor's color." }
 	]
 }

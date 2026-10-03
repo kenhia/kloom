@@ -2,7 +2,7 @@
 	"id": "gradient-descent",
 	"topic": "Gradient descent",
 	"position": {
-		"label": "Optimisation"
+		"label": "Optimization"
 	},
 	"scene": {
 		"headline": "We walked",
@@ -290,7 +290,7 @@
 		},
 		{
 			"to": "mathematics/normal-distribution",
-			"why": "Cauchy's 1847 method minimises a sum of squares, the quantity whose least value Legendre and Gauss argued over."
+			"why": "Cauchy's 1847 method minimizes a sum of squares, the quantity whose least value Legendre and Gauss argued over."
 		}
 	]
 }

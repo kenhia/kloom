@@ -1,5 +1,5 @@
 On 22 January 1984, in the third quarter of the Super Bowl, American
-television showed a minute of grey drones in a hall, a giant face on a
+television showed a minute of gray drones in a hall, a giant face on a
 screen, and a woman in red shorts who ran in and threw a hammer through it.
 Then a line of text: on 24 January [Apple](kloom:e/apple-inc) would introduce [Macintosh](kloom:e/macintosh-128k), "And
 you'll see why 1984 won't be like '1984'." The advertisement, directed by

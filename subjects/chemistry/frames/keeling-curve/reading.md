@@ -6,13 +6,13 @@ The first to calculate what the gas does to the climate was the Swedish chemist 
 
 ## The breathing of the planet
 
-**[Charles David Keeling](kloom:e/charles-david-keeling)** found in the 1950s that the gas could be measured far more precisely than anyone had managed. As a postdoctoral fellow at Caltech he built a manometer good to 0.1 per cent and carried flasks to remote places in the western states; he found about 310 parts per million in clean afternoon air wherever he went. Roger Revelle brought him to the **[Scripps Institution of Oceanography](kloom:e/scripps-institution-of-oceanography)**, and for the International Geophysical Year the Weather Bureau paid for infrared analysers in Antarctica and at the **[Mauna Loa Observatory](kloom:e/mauna-loa-observatory)**, 3,400 metres up the volcano on the island of Hawaii. The first reading there, on 29 March 1958, was 313 ppm.
+**[Charles David Keeling](kloom:e/charles-david-keeling)** found in the 1950s that the gas could be measured far more precisely than anyone had managed. As a postdoctoral fellow at Caltech he built a manometer good to 0.1 per cent and carried flasks to remote places in the western states; he found about 310 parts per million in clean afternoon air wherever he went. Roger Revelle brought him to the **[Scripps Institution of Oceanography](kloom:e/scripps-institution-of-oceanography)**, and for the International Geophysical Year the Weather Bureau paid for infrared analyzers in Antarctica and at the **[Mauna Loa Observatory](kloom:e/mauna-loa-observatory)**, 3,400 meters up the volcano on the island of Hawaii. The first reading there, on 29 March 1958, was 313 ppm.
 
 Power failures and broken equipment broke up the first year's record. "I became anxious that the concentration was going to be hopelessly erratic," Keeling recalled in 1978. A full year made sense of it. The level peaked in May and fell to a low in the autumn, as the forests and fields of the northern hemisphere took in carbon in summer and gave it back in winter: the planet breathing. And each year's average was higher than the last. By 1960 Keeling wrote in _Tellus_ that at the South Pole the rise was "nearly that to be expected from the combustion of fossil fuel". The plate draws the curve month by month from 1958 to August 2026, from the monthly record kept by NOAA, which has made its own measurements beside Scripps's since 1974.
 
 ![Two men smiling beside a bronze plaque on a white wall that shows the rising, saw-toothed Keeling Curve: Charles David Keeling, in a blue jacket with a lei, and John Chin of NOAA, in a plaid jacket and cap](keeling-chin.jpg)
 
-In November 1997 the observatory's building was named for Keeling, who is shown with John Chin of NOAA beside its plaque. Keeling died in 2005, and his son Ralph runs the Scripps programme.
+In November 1997 the observatory's building was named for Keeling, who is shown with John Chin of NOAA beside its plaque. Keeling died in 2005, and his son Ralph runs the Scripps program.
 
 ## From parts per million to tonnes
 

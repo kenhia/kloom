@@ -5,7 +5,7 @@ two people stood on the [Moon](kloom:e/moon).
 ## The machine
 
 The Saturn V remains one of the most powerful machines ever flown: a
-three-stage rocket 111 metres tall, taller than the Statue of Liberty on its
+three-stage rocket 111 meters tall, taller than the Statue of Liberty on its
 pedestal. Its first stage burned for less than three minutes, drinking
 kerosene and liquid oxygen at a rate of tonnes per second. At the top, beneath a
 launch escape tower, sat the spacecraft: the command module **Columbia**, its
@@ -39,8 +39,8 @@ audience estimated at hundreds of millions.
 
 All three men returned safely on 24 July. Ten more astronauts walked on the
 Moon on the missions that followed, the last in December 1972. The most
-lasting image from the programme may not be of the Moon at all, but of the
-[Earth](kloom:e/earth): a small blue sphere hanging in the dark above a grey horizon. The
+lasting image from the program may not be of the Moon at all, but of the
+[Earth](kloom:e/earth): a small blue sphere hanging in the dark above a gray horizon. The
 long story of learning — the counting, measuring, copying, printing and
 calculating that fill this timeline — had taken its authors off the planet
 where it began.

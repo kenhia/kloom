@@ -6,7 +6,7 @@ hundred dimensions, learned from nothing but the text around it. Words used in
 similar ways ended up close together, and some of the directions between them
 turned out to mean something.
 
-## You shall know a word by its neighbours
+## You shall know a word by its neighbors
 
 The idea behind it is old. Linguists call it the _distributional hypothesis_,
 associated with [J. R. Firth](kloom:e/john-rupert-firth): words that occur in similar contexts have
@@ -16,7 +16,7 @@ slow. In January 2013 **[Tomas Mikolov](kloom:e/tomas-mikolov)**, Kai Chen, Greg
 Dean](kloom:e/jeff-dean) at Google described two much simpler architectures. _Continuous
 bag-of-words_ predicts a word from the words around it, as in a
 fill-in-the-blank test. _Skip-gram_ does the reverse, predicting the
-neighbours from the word. Both are shallow networks, and the vector each word
+neighbors from the word. Both are shallow networks, and the vector each word
 is given along the way is what is kept.
 
 What made the method matter was speed. The paper reported learning
@@ -61,11 +61,11 @@ expected to be careful. Their paper proposed a way to remove the bias along
 that direction while keeping useful associations, such as _queen_ with
 _female_.
 
-![A two-dimensional map of word embeddings trained on nineteenth-century novels, coloured by part of speech, with four circled clusters where gendered words by female and by male authors fall in different places](embedding-map.png)
+![A two-dimensional map of word embeddings trained on nineteenth-century novels, colored by part of speech, with four circled clusters where gendered words by female and by male authors fall in different places](embedding-map.png)
 
 The map above makes a related point on a smaller scale: in embeddings trained
 on nineteenth-century novels, the gendered words used by women and by men
-land in different neighbourhoods. An embedding is a summary of its corpus,
+land in different neighborhoods. An embedding is a summary of its corpus,
 and it learns the corpus's habits along with its grammar.
 
 Word2vec's vectors are _static_: each word gets one vector, whatever sentence

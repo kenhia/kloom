@@ -35,7 +35,7 @@ he split the gain into bigger chips, smaller features and what he called
 "circuit and device cleverness", and the last, he judged, was nearly used
 up. The slope might approximate "a doubling every two years, rather than
 every year, by the end of the decade". The name [_Moore's law_](kloom:e/moores-law) came later: the
-[Caltech](kloom:e/california-institute-of-technology) professor [Carver Mead](kloom:e/carver-mead) popularised it.
+[Caltech](kloom:e/california-institute-of-technology) professor [Carver Mead](kloom:e/carver-mead) popularized it.
 
 ![Gordon Moore, seated with a pen over papers, and Robert Noyce, standing and looking down at them, at Intel in 1970](moore-noyce.png)
 
@@ -58,7 +58,7 @@ same, only smaller and faster:
 
 The last line is the one that mattered. Shrink the features by 30 per
 cent, κ about 1.4, and a chip holds twice as many transistors, each faster,
-for the same power per square millimetre. For thirty years each new
+for the same power per square millimeter. For thirty years each new
 generation of chips was denser, faster and no hotter than the last, and
 cheaper per transistor too.
 
@@ -84,7 +84,7 @@ the first single-chip microprocessor, to [Nvidia](kloom:e/nvidia)'s _Rubin_ of 2
 From the 4004 to Rubin is a factor of about 146 million, some 27
 doublings in 55 years: one every two years, as Moore revised it. (That is
 our arithmetic on these nine chips, which mix processors, a laptop system
-on a chip and a two-die graphics processor for AI data centres; a
+on a chip and a two-die graphics processor for AI data centers; a
 different choice would move it a little.) [Richard Feynman](kloom:e/richard-feynman) had told physicists in
 1959 that there was [plenty of room at the bottom](kloom:e/theres-plenty-of-room-at-the-bottom); the industry spent half
 a century using it.

@@ -231,7 +231,7 @@
 	"connections": [
 		{
 			"to": "ai/adaline",
-			"why": "ADALINE learned by least mean squares, minimising squared error one example at a time: the criterion Legendre and Gauss had used to fit orbits to observations."
+			"why": "ADALINE learned by least mean squares, minimizing squared error one example at a time: the criterion Legendre and Gauss had used to fit orbits to observations."
 		},
 		{
 			"to": "physics/maxwells-demon",
@@ -243,7 +243,7 @@
 		},
 		{
 			"to": "western-civ/metre-survey",
-			"why": "Legendre first showed least squares on the arc of the meridian from Dunkirk to Barcelona that Delambre and Méchain measured to define the metre."
+			"why": "Legendre first showed least squares on the arc of the meridian from Dunkirk to Barcelona that Delambre and Méchain measured to define the meter."
 		}
 	]
 }

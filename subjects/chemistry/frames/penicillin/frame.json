@@ -7,7 +7,7 @@
 	},
 	"scene": {
 		"headline": "We grew a drug from",
-		"accent": "MOULD.",
+		"accent": "MOLD.",
 		"palette": "coaltar",
 		"illustration": "scene.svg",
 		"metadata": [
@@ -170,7 +170,7 @@
 	"connections": [
 		{
 			"to": "chemistry/mauveine",
-			"why": "The trail began with Perkin, who set out to make a drug, quinine, and made a dye; it ends with a drug grown by a mould."
+			"why": "The trail began with Perkin, who set out to make a drug, quinine, and made a dye; it ends with a drug grown by a mold."
 		}
 	]
 }

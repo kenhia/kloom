@@ -54,7 +54,7 @@ in April 2026 lower _Tracked Capability Levels_ to catch risks before they
 reach the critical ones.
 
 In February 2026 Anthropic rewrote its policy and said, with unusual
-candour, that parts of its theory had failed. Models had entered a "zone of
+candor, that parts of its theory had failed. Models had entered a "zone of
 ambiguity" where tests could no longer show risks were low but could not
 prove them high; governments had moved toward competitiveness rather than
 safety; and the safeguards planned for higher levels might be "outright

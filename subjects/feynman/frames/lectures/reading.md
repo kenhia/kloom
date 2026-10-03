@@ -29,7 +29,7 @@ to chew on without losing the rest. Make each lecture stand alone, with a
 beginning, a climax and an end. His wife told him he had worked sixteen
 hours a day.
 
-![The arcaded walk of the Norman Bridge Laboratory of Physics at Caltech in 2017: a long cream-coloured building with round arches, a vine climbing one pier and a jacaranda in flower beside the path](bridge-laboratory.jpg)
+![The arcaded walk of the Norman Bridge Laboratory of Physics at Caltech in 2017: a long cream-colored building with round arches, a vine climbing one pier and a jacaranda in flower beside the path](bridge-laboratory.jpg)
 
 ## How the books were made
 

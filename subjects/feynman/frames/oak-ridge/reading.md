@@ -30,7 +30,7 @@ Feynman said, to work out safe limits. **[Robert Christy](kloom:e/robert-f-chris
 solutions and Feynman's group the dry salts in boxes, the harder case;
 because they needed only safe bounds, not exact critical amounts, they
 could be generous. Christy was to take the answers east, caught pneumonia,
-and Feynman went instead, on his first aeroplane flight.
+and Feynman went instead, on his first airplane flight.
 
 ## Telling them how it worked
 

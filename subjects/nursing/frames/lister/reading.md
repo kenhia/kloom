@@ -18,7 +18,7 @@ For cuts made at operation, he said in Dublin, "a solution of carbolic acid in t
 
 ## The numbers
 
-In nine months, he told the British Medical Association in 1867, his two large wards, once among the unhealthiest in the infirmary, had had not one case of pyaemia, hospital gangrene or erysipelas. In January 1870 he gave his amputations:
+In nine months, he told the British Medical Association in 1867, his two large wards, once among the unhealthiest in the infirmary, had had not one case of pyemia, hospital gangrene or erysipelas. In January 1870 he gave his amputations:
 
 | Period                   | Amputations | Deaths | Per 100, by our arithmetic |
 | ------------------------ | ----------: | -----: | -------------------------: |

@@ -21,7 +21,7 @@ been the law of large numbers.
 ![The title page of Ars Conjectandi: Jacobi Bernoulli, Ars Conjectandi, opus posthumum, with a treatise on infinite series and a letter in French on the game of tennis, printed at Basel by the Thurneysen brothers in 1713](ars-conjectandi.gif)
 
 He set it out with an urn. Hidden in it, without your knowledge, are
-3,000 white pebbles and 2,000 black. Draw one, note its colour, put it
+3,000 white pebbles and 2,000 black. Draw one, note its color, put it
 back, and draw again. Can you draw so often that it becomes "ten, a
 hundred, a thousand, etc., times more probable" that the share of white
 you have drawn lies close to three in five than that it does not? Close

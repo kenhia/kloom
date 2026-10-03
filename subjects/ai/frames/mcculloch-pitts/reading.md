@@ -1,6 +1,6 @@
-[Turing](kloom:e/alan-turing) had imagined a machine modelled on a person doing sums. In 1943 a
+[Turing](kloom:e/alan-turing) had imagined a machine modeled on a person doing sums. In 1943 a
 psychiatrist and a teenage logician in Chicago went the other way: they
-modelled the brain as a machine, and showed that a net of idealised neurons
+modeled the brain as a machine, and showed that a net of idealized neurons
 could compute anything logic can express. Their paper is where the idea of
 the [_artificial neuron_](kloom:e/artificial-neuron), and so of every neural network since, begins.
 
@@ -59,7 +59,7 @@ notation from _Principia_.
 ## What it started
 
 The paper was cited by **[John von Neumann](kloom:e/john-von-neumann)**. The logician Stephen Kleene
-studied what such nets can recognise, and in 1951 named the answer the
+studied what such nets can recognize, and in 1951 named the answer the
 _regular_ events, a term computer science still uses. [Marvin Minsky](kloom:e/marvin-minsky)
 built an early neural-network machine, SNARC, in 1951. McCulloch chaired
 the [Macy conferences](kloom:e/macy-conferences) of 1946–53 at which [_cybernetics_](kloom:e/cybernetics) took shape, and [Frank
@@ -70,7 +70,7 @@ For Pitts, the story ended badly. He received an Associate of
 Arts degree from Chicago for the paper (his only earned degree), and moved to MIT
 to work with [Norbert Wiener](kloom:e/norbert-wiener). In 1959 he, McCulloch, Lettvin and Humberto
 Maturana published _What the Frog's Eye Tells the Frog's Brain_, which showed
-the eye doing much of its interpretation by analogue processes rather than
+the eye doing much of its interpretation by analog processes rather than
 neuron-by-neuron logic. Pitts burned his unpublished dissertation, withdrew,
 and died in 1969. McCulloch died the same year.
 

@@ -6,11 +6,11 @@ wants what we meant, interpretability asks whether we could ever check.
 
 ## Features and circuits
 
-Much of the modern programme began with **[Chris Olah](kloom:e/chris-olah)**, who worked on it at
+Much of the modern program began with **[Chris Olah](kloom:e/chris-olah)**, who worked on it at
 [Google Brain](kloom:e/google-brain), then [OpenAI](kloom:e/openai), then [Anthropic](kloom:e/anthropic), which he co-founded, and who
 published with colleagues in the online journal _Distill_, which he had also
 co-founded. _Feature Visualization_ (2017) showed what parts of an image
-network "are looking for" by generating idealised examples that excite
+network "are looking for" by generating idealized examples that excite
 them. _Zoom In_ (2020) began with the microscope, which let biology see cells: at
 such moments, it said, science "zoomed in". It then made three deliberately
 speculative claims about a vision network, InceptionV1: that its basic units are _features_, which

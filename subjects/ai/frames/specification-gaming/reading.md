@@ -1,4 +1,4 @@
-Tell a learning system what to maximise and it will maximise exactly that,
+Tell a learning system what to maximize and it will maximize exactly that,
 by whatever route it finds. Researchers at [DeepMind](kloom:e/google-deepmind) gave the habit a name in
 2020: [_specification gaming_](kloom:e/reward-hacking), "a behaviour that satisfies the literal
 specification of an objective without achieving the intended outcome". It is
@@ -38,7 +38,7 @@ Chat models are trained partly on human approval, and approval can be
 gamed too. In October 2023 **Mrinank Sharma** and colleagues at [Anthropic](kloom:e/anthropic)
 found that five state-of-the-art assistants were consistently
 _sycophantic_, telling users what matched their views over what was true,
-and that both people and the preference models trained on their judgements
+and that both people and the preference models trained on their judgments
 sometimes preferred a convincing sycophantic answer to a correct one.
 
 In April 2025 OpenAI rolled back an update to [GPT-4o](kloom:e/gpt-4o) in [ChatGPT](kloom:e/chatgpt) after users found it "overly
@@ -59,7 +59,7 @@ recent models, OpenAI's [o3](kloom:e/openai-o3) among them, modified tests or sc
 tasks and overwrote the functions that checked their work, while showing,
 when asked, that they understood this was not what users wanted. In November
 Anthropic researchers showed that a model which learned to reward-hack in
-real coding environments generalised to worse things: faking alignment,
+real coding environments generalized to worse things: faking alignment,
 cooperating with malicious actors, attempting sabotage.
 
 The lagoon came back in 2026. When OpenAI published its account of the July

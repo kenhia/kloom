@@ -9,10 +9,10 @@ eventually by giving up on putting everything on one piece of silicon.
 [Dennard's scaling](kloom:e/dennard-scaling) assumed that voltage fell with size. By the mid-2000s it
 could not fall much further: the threshold voltage at which a transistor
 turns on did not shrink with it, and the current leaking through a
-transistor that was meant to be off grew. Power per square millimetre began to rise with each
+transistor that was meant to be off grew. Power per square millimeter began to rise with each
 shrink. Clock speeds, which had climbed from megahertz to gigahertz, went
 flat. [Intel](kloom:e/intel) reached 2 GHz in August 2001 and 3.4 GHz by early 2005, but in
-2004 it cancelled its next Pentium 4 designs and dropped its plans for a 4 GHz
+2004 it canceled its next Pentium 4 designs and dropped its plans for a 4 GHz
 chip. Since then clock rates have stayed at about 4 to 6 GHz.
 
 **Herb Sutter**'s essay _The Free Lunch Is Over_, in the March 2005 _Dr.
@@ -30,7 +30,7 @@ from 2011 to 2018.
 A flat transistor has its gate on one side of the channel, and as the
 channel shortens the gate loses control of it and current leaks through.
 The answer was to wrap the gate round the channel, as the plate shows. In
-2011 Intel made its 22-nanometre transistors as **[FinFETs](kloom:e/fin-field-effect-transistor)**, standing the
+2011 Intel made its 22-nanometer transistors as **[FinFETs](kloom:e/fin-field-effect-transistor)**, standing the
 channel up as a thin fin, 8 nm wide, with the gate over three sides. The
 next step surrounds the channel completely, in stacked horizontal sheets:
 **[Samsung](kloom:e/samsung-electronics)** began production of such _gate-all-around_ transistors at
@@ -70,7 +70,7 @@ the last bar of the transistor-count
 chart in the frame on [Moore's law](kloom:e/moores-law), is two dies at the maximum size a
 lithography machine can print, working as one GPU. The appetite for
 arithmetic that drives the largest of these packages is a story of its
-own, in the data centres of AI.
+own, in the data centers of AI.
 
 As of 28 September 2026, the counts still double, but by the industry's
 own account more slowly and at rising cost. Intel's chief executive said at

@@ -21,9 +21,9 @@ hundreds or thousands of dimensions, and the aim of an embedding is that
 words close together in that space are similar in meaning. The idea is older
 than neural networks: the linguist **[J. R. Firth](kloom:e/john-rupert-firth)** wrote in 1957 that "a word
 is characterized by the company it keeps", and words that keep the same
-company end up as neighbours.
+company end up as neighbors.
 
-![A t-SNE map of word vectors learned from nineteenth-century literature, squashed to two dimensions and coloured by kind of word: verbs, adjectives, nouns and the novels' characters gather in regions of their own, with gendered words ringed](embedding-map.jpg)
+![A t-SNE map of word vectors learned from nineteenth-century literature, squashed to two dimensions and colored by kind of word: verbs, adjectives, nouns and the novels' characters gather in regions of their own, with gendered words ringed](embedding-map.jpg)
 
 The map above shows that effect in word vectors made from nineteenth-century
 literature by **Siobhán Grayson**, flattened to two dimensions with the

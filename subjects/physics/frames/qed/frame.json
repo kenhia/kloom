@@ -11,7 +11,7 @@
 		"illustration": "scene.svg",
 		"metadata": [
 			"DIRAC · TOMONAGA · SCHWINGER · FEYNMAN · DYSON",
-			"1927–1949 · RENORMALISED MASS AND CHARGE"
+			"1927–1949 · RENORMALIZED MASS AND CHARGE"
 		],
 		"counter": {
 			"value": "7%",
@@ -207,7 +207,7 @@
 	"connections": [
 		{
 			"to": "feynman/lamb-shift",
-			"why": "Tomonaga learned of the Lamb shift from an American magazine's science column, and his group set out to calculate it with the renormalisation Bethe's estimate had pointed to."
+			"why": "Tomonaga learned of the Lamb shift from an American magazine's science column, and his group set out to calculate it with the renormalization Bethe's estimate had pointed to."
 		},
 		{
 			"to": "feynman/dyson",
@@ -215,7 +215,7 @@
 		},
 		{
 			"to": "feynman/magnetic-moment",
-			"why": "Schwinger's α/2π was the first finite prediction of renormalised QED; the electron's magnetic moment is still where the theory is tested hardest, to about a part in a trillion."
+			"why": "Schwinger's α/2π was the first finite prediction of renormalized QED; the electron's magnetic moment is still where the theory is tested hardest, to about a part in a trillion."
 		},
 		{
 			"to": "physics/antimatter",

@@ -2,7 +2,7 @@ In August 1785 **[Thomas Jefferson](kloom:e/thomas-jefferson)**, the American mi
 
 ## A demonstration, and a legend
 
-Blanc had the patronage of General Gribeauval, who had standardised France's artillery, and he made his parts by filing them against gauges and master pieces. Not everyone was convinced. Gaspard Cotty, a French artillery officer, wrote in 1806 that when Blanc's locks were taken apart and mixed in front of Gribeauval, "the defects of fit were soon recognised." The historian Ken Alder, as John Lienhard reports him, argues that the French state abandoned the method in 1806 because it freed manufacturers from its control of the skilled trades, not because it failed.
+Blanc had the patronage of General Gribeauval, who had standardized France's artillery, and he made his parts by filing them against gauges and master pieces. Not everyone was convinced. Gaspard Cotty, a French artillery officer, wrote in 1806 that when Blanc's locks were taken apart and mixed in front of Gribeauval, "the defects of fit were soon recognised." The historian Ken Alder, as John Lienhard reports him, argues that the French state abandoned the method in 1806 because it freed manufacturers from its control of the skilled trades, not because it failed.
 
 In America the credit went for a century to **[Eli Whitney](kloom:e/eli-whitney)**, the inventor of the cotton gin. In January 1798 Whitney, who had never made a gun, contracted to deliver ten thousand muskets (one account says twelve thousand). In 1801 he put on a demonstration for the government, assembling locks from mixed parts, and Jefferson wrote to James Monroe that year that Whitney had "invented molds and machines for making all the pieces of his locks so exactly equal" that a hundred could be mixed and reassembled. Roe's _English and American Tool Builders_ of 1916 took him at his word. The historian Merritt Roe Smith concluded that the demonstration was staged; in Lienhard's account the parts had been fitted by hand beforehand. Whitney delivered the muskets in 1809, nine years late, and they were not interchangeable.
 
@@ -20,7 +20,7 @@ Hall's machines cut close to size; a man then filed each part to the gauge, with
 
 **A model.** Gauges copy a master. When Simeon North was given two model rifles to work from and found them unlike, he asked to have one set aside and to gauge everything from the other.
 
-**Two limits.** A gauge does not measure a part; it passes or fails it. A **[go/no-go gauge](kloom:e/go-no-go-gauge)** for a hole has two plugs. Wikipedia's example is a hole that may be anything from 12.60 to 12.90 mm across. The go plug, 12.60 mm, must enter: if it does not, the hole is too small. The no-go plug, 12.90 mm, must not enter: if it does, the hole is too big. The gauge in the photograph allows only 0.03 mm, a thirtieth of a millimetre, between its ends.
+**Two limits.** A gauge does not measure a part; it passes or fails it. A **[go/no-go gauge](kloom:e/go-no-go-gauge)** for a hole has two plugs. Wikipedia's example is a hole that may be anything from 12.60 to 12.90 mm across. The go plug, 12.60 mm, must enter: if it does not, the hole is too small. The no-go plug, 12.90 mm, must not enter: if it does, the hole is too big. The gauge in the photograph allows only 0.03 mm, a thirtieth of a millimeter, between its ends.
 
 ![A steel double-ended plug gauge with a knurled handle, its ends stamped GO 20.94 and NO GO 20.97](plug-gauge.jpg)
 

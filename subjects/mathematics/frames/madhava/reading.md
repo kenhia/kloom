@@ -59,7 +59,7 @@ adds them up, using the sums of the powers of the whole numbers, 1² + 2²
 
 - 3² and so on. **[Ibn al-Haytham](kloom:e/ibn-al-haytham)** had worked out such sums in Egypt four
   centuries before; the Kerala texts name no predecessor, and the historian
-  Victor Katz thought the idea might have travelled from the Islamic world
+  Victor Katz thought the idea might have traveled from the Islamic world
   to India.
 
 ## Two centuries early
@@ -85,5 +85,5 @@ nineteenth century". Kim Plofker and others warn against calling it
 calculus at all. The Kerala series are exact and brilliant, but they
 belong to the sine and the arc; Katz's view is that Newton and Leibniz
 were the ones who joined many such ideas into one method, with the
-derivative and the integral at its centre. That joining is the story of
+derivative and the integral at its center. That joining is the story of
 the invention of the calculus.

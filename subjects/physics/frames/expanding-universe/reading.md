@@ -11,7 +11,7 @@ growing.
 
 The first step was taken at Harvard by **[Henrietta Swan Leavitt](kloom:e/henrietta-swan-leavitt)**, one of
 the women the observatory paid to measure its photographic plates. She was
-cataloguing variable stars in the Small Magellanic Cloud, 1,777 of them in
+cataloging variable stars in the Small Magellanic Cloud, 1,777 of them in
 the two Clouds, and in a circular of March 1912 she set out the periods of 25. "A remarkable relation between the brightness of these variables and
 the length of their periods will be noticed," it reads: the brighter
 _Cepheids_ pulse more slowly. Because the stars of one cloud are all at
@@ -35,7 +35,7 @@ The size of the universe was argued out in public on 26 April 1920, in the
 **[Great Debate](kloom:e/great-debate-astronomy)** in Washington. Harlow Shapley held that the spirals were
 parts of a Milky Way some 300,000 light-years across; Heber Curtis that they
 were island universes like our own. Shapley was right that the Sun is far
-from the centre of the galaxy, and wrong about the rest. In 1923–24
+from the center of the galaxy, and wrong about the rest. In 1923–24
 **[Edwin Hubble](kloom:e/edwin-hubble)**, with the new 100-inch telescope on Mount Wilson, found
 Cepheids in Andromeda, and Leavitt's yardstick put it far outside our
 galaxy. Leavitt did not see it: she had died in 1921.
@@ -60,7 +60,7 @@ draws his diagram: 24 galaxies whose distances he had estimated, with their
 speeds, most measured by Slipher and the newest by **Milton Humason**, a
 former mule driver who had become Mount Wilson's most careful observer of
 faint spectra. The points scatter, but they climb. Hubble's slope was
-500 kilometres a second for every million parsecs.
+500 kilometers a second for every million parsecs.
 
 That number was about seven times too large. Hubble's distances were too
 small, chiefly because Cepheids come in two kinds of different true
@@ -90,7 +90,7 @@ and when his paper was translated for the Royal Astronomical Society in
 1931 his own estimate of the constant was left out. For decades that looked
 like suppression; in 2011 Mario Livio found Lemaître's letter showing he had
 cut it himself, deferring to Hubble's better data. In October 2018 the
-members of the International Astronomical Union voted, 78% in favour, to
+members of the International Astronomical Union voted, 78% in favor, to
 recommend calling it the **[Hubble–Lemaître law](kloom:e/hubbles-law)**.
 
 In 1931 Lemaître drew the conclusion Hubble would not: if the galaxies are

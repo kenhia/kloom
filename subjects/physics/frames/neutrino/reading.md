@@ -41,7 +41,7 @@ catch neutrinos from a nuclear bomb, with a detector dropped down a shaft
 at the moment of the blast. They used a reactor instead. After a first
 attempt at Hanford in 1953, they moved in late 1955 to the Savannah River
 Plant in South Carolina, 11 m from a reactor and 12 m underground. Tanks
-holding about 200 litres of water with cadmium chloride dissolved in it
+holding about 200 liters of water with cadmium chloride dissolved in it
 sat between tanks of liquid scintillator watched by photomultiplier tubes.
 An antineutrino striking a proton in the water makes a positron and a
 neutron; the positron annihilates at once, and the cadmium swallows the
@@ -68,7 +68,7 @@ year after year, from 1970 to 1994.
 ![The Homestake detector's tank a mile underground: a huge white cylinder lying in a rock cavern hung with safety netting, crossed by metal walkways, with a worker in a hard hat on the gantry](homestake-tank.jpg)
 
 The answer had been suggested by Bruno Pontecorvo: neutrinos come in
-kinds, or _flavours_ (a muon neutrino was found in 1962), and if they
+kinds, or _flavors_ (a muon neutrino was found in 1962), and if they
 have mass they can change from one to another in flight. In 1998
 **Super-Kamiokande**, 50,000 tonnes of pure water under a Japanese
 mountain, found that muon neutrinos made by cosmic rays arriving from
@@ -80,10 +80,10 @@ reports for its higher-energy events, it saw about half as many going up. Reines
 | ----------------------------------------------------------- | ---: |
 | electron neutrinos only                                     | 1.76 |
 | muon and tau neutrinos                                      | 3.41 |
-| all flavours together                                       | 5.09 |
+| all flavors together                                        | 5.09 |
 
 The Sudbury Neutrino Observatory in Canada, 1,000 tonnes of heavy water
-2,100 m down a nickel mine, could count every flavour at once. In 2001
+2,100 m down a nickel mine, could count every flavor at once. In 2001
 and 2002 it found the Sun's total right, and only about a third of it
 still electron neutrinos, by our arithmetic. The Sun had been making the
 neutrinos all along; many arrived as another kind. For those high-energy

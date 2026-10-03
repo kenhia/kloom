@@ -50,7 +50,7 @@ The WHO's poster gives the rub, which takes 20 to 30 seconds in all:
 | 7    | The clasped fingertips of each hand rubbed round in the other palm       |
 | 8    | Once dry, the hands are safe                                             |
 
-Soap and water is kept for hands visibly dirty or soiled with blood or body fluids, after the toilet, and where spore-forming bacteria such as _Clostridium difficile_ are about, which alcohol does not kill. For hospitals that could not buy a rub, the guidelines give a recipe: 833.3 ml of 96% ethanol, 41.7 ml of 3% hydrogen peroxide and 14.5 ml of 98% glycerol, topped up to a litre with clean water.
+Soap and water is kept for hands visibly dirty or soiled with blood or body fluids, after the toilet, and where spore-forming bacteria such as _Clostridium difficile_ are about, which alcohol does not kill. For hospitals that could not buy a rub, the guidelines give a recipe: 833.3 ml of 96% ethanol, 41.7 ml of 3% hydrogen peroxide and 14.5 ml of 98% glycerol, topped up to a liter with clean water.
 
 ![A Navy nurse in a dark uniform holds her hands under a small ultraviolet lamp while a group of nurses in white uniforms watches; a bottle of fluorescent lotion stands on the table](navy-handwash.jpg)
 

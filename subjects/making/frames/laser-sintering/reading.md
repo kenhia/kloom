@@ -22,7 +22,7 @@ A modern machine runs one cycle over and over. A 2021 review by Federico Lupone 
 | Lower   | the build platform drops by one layer, and a feed piston beside it rises          |
 | Repeat  | until the last layer, then the whole block cools before the parts are dug out     |
 
-The preheat matters most. The laser has to add only the last few degrees and the heat of melting, and the melted slice sits in warm powder above the temperature at which nylon crystallises, so it does not set before the next layer joins it. A good powder has a wide gap between the temperature where it melts and the one where it crystallises again; too narrow a gap, and the review warns of distorted parts.
+The preheat matters most. The laser has to add only the last few degrees and the heat of melting, and the melted slice sits in warm powder above the temperature at which nylon crystallizes, so it does not set before the next layer joins it. A good powder has a wide gap between the temperature where it melts and the one where it crystallizes again; too narrow a gap, and the review warns of distorted parts.
 
 How much energy the laser leaves in the powder is set by four numbers. Starr and colleagues defined a _volume energy density_: the laser's power _P_ divided by the hatch spacing _h_ between scan lines, the layer thickness _z_ and the scan speed _v_. Here it is with invented numbers:
 

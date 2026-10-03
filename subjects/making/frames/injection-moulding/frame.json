@@ -1,6 +1,6 @@
 {
 	"id": "injection-moulding",
-	"topic": "Injection moulding",
+	"topic": "Injection molding",
 	"position": {
 		"label": "1872–1956",
 		"sort": 1956
@@ -22,7 +22,7 @@
 	"connections": [
 		{
 			"to": "chemistry/polymers",
-			"why": "Bakelite, which sets for good once moulded, would seize a heated injection barrel; the screw machines were built for thermoplastics, whose long chains melt and set again."
+			"why": "Bakelite, which sets for good once molded, would seize a heated injection barrel; the screw machines were built for thermoplastics, whose long chains melt and set again."
 		}
 	],
 	"citations": [

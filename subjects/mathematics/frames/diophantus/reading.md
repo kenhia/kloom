@@ -11,7 +11,7 @@ problems of arithmetic by what we would call algebra.
 ## A sign for the unknown
 
 Diophantus did not invent algebra, though Lagrange called him its
-inventor: it was practised and passed on by word of mouth before him, and
+inventor: it was practiced and passed on by word of mouth before him, and
 he took up its techniques. What is new in his book is the
 notation. In the nineteenth century Georg Nesselmann sorted algebra into
 three stages: _rhetorical_, written out in words; _syncopated_, with
@@ -80,7 +80,7 @@ the missing books. Then four of them turned up in a manuscript copied in
 1198 and kept in the shrine library at Mashhad, in Iran. The historian of
 science Fuat Sezgin found it in 1968, by Jan Hogendijk's account;
 Schappacher dates its resurfacing to around 1971, and says it had been
-catalogued under the translator's name. Jacques Sesiano and Roshdi Rashed
+cataloged under the translator's name. Jacques Sesiano and Roshdi Rashed
 edited it, and showed that these are Books IV to VII, so that the last
 three Greek books must come later in the work.
 

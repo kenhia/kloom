@@ -1,4 +1,4 @@
-In the spring of 1949 [Feynman](kloom:e/richard-feynman) sent the [_Physical Review_](kloom:e/physical-review) the first of his two papers on [quantum electrodynamics](kloom:e/quantum-electrodynamics). It was called "The Theory of Positrons", it was received on 8 April and printed that September, and its central move is still startling to read. A [positron](kloom:e/positron), the electron's antiparticle, can be treated as an electron travelling backwards in time.
+In the spring of 1949 [Feynman](kloom:e/richard-feynman) sent the [_Physical Review_](kloom:e/physical-review) the first of his two papers on [quantum electrodynamics](kloom:e/quantum-electrodynamics). It was called "The Theory of Positrons", it was received on 8 April and printed that September, and its central move is still startling to read. A [positron](kloom:e/positron), the electron's antiparticle, can be treated as an electron traveling backwards in time.
 
 ## Holes in a sea
 

@@ -9,7 +9,7 @@ recorded," one of its staff wrote, "it just cannot be found."
 
 **[Tim Berners-Lee](kloom:e/tim-berners-lee)** wrote "Information Management: A Proposal" in March
 1989 and sent it round again, unchanged but for the date, in May 1990. It
-argued that CERN's real working structure was not its organisation chart
+argued that CERN's real working structure was not its organization chart
 but "a multiply connected 'web' whose interconnections evolve with time",
 and that its documents should be linked the same way: [_hypertext_](kloom:e/hypertext), text
 whose words lead to other texts, spread across many computers "without

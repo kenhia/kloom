@@ -32,8 +32,8 @@ wander. It wanders slowly and irregularly: its average distance from where
 it started grows not with the time but with the square root of the time.
 And the rate depends on the number of molecules in a gram-molecule, the
 **[Avogadro constant](kloom:e/avogadro-constant)**, so that watching the wandering would count them. For
-grains a thousandth of a millimetre across in water at 17 °C he worked out
-about 0.8 thousandths of a millimetre in a second, and about 6 in a minute.
+grains a thousandth of a millimeter across in water at 17 °C he worked out
+about 0.8 thousandths of a millimeter in a second, and about 6 in a minute.
 
 He did not claim to have explained Brown's specks. "It is possible", he
 wrote, that the two are the same, but what he knew of Brownian motion was
@@ -46,14 +46,14 @@ independently, by a different route and with a slightly different factor.
 
 The experiments that answered were made in Paris by **[Jean Perrin](kloom:e/jean-perrin)**. He
 needed grains all of one size, and made them from gamboge, a resin used for
-watercolours, and from mastic, sorting them by spinning them in a
+watercolors, and from mastic, sorting them by spinning them in a
 centrifuge again and again. A drop of such an emulsion, he reasoned, is a
 tiny atmosphere: the grains settle under gravity and are kicked back up by
 the molecules, and should thin out with height as air does. The plate
-draws his most careful series. In a cell a tenth of a millimetre deep he
-counted 13,000 grains of radius 0.212 thousandths of a millimetre at four
+draws his most careful series. In a cell a tenth of a millimeter deep he
+counted 13,000 grains of radius 0.212 thousandths of a millimeter at four
 levels, and they fell as 100, 47, 22.6 and 12, halving every 30
-thousandths of a millimetre. Air halves in about 6 kilometres. From the
+thousandths of a millimeter. Air halves in about 6 kilometers. From the
 ratio and the weight of a grain came the Avogadro constant: in 1909, 70.5 ×
 10²² in a gram-molecule.
 

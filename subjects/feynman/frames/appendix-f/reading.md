@@ -52,7 +52,7 @@ ferrite-core memories, and he suggested modern machines would do better.
 The sensors and the thrusters, by contrast, had failures that were
 tolerated rather than fixed.
 
-![Two generations of the shuttle's general-purpose computer on a blue ground: at right the original IBM AP-101, two grey boxes with round connectors on their faces, and at left the upgraded single box that replaced it](shuttle-computers.jpg)
+![Two generations of the shuttle's general-purpose computer on a blue ground: at right the original IBM AP-101, two gray boxes with round connectors on their faces, and at left the upgraded single box that replaced it](shuttle-computers.jpg)
 
 NASA replaced the computers in 1991 with the upgraded model, which did the
 work of the old pair in a single box.
@@ -66,7 +66,7 @@ flew with a chance of failure of the order of a percent, while management
 claimed a thousand times less, whether to reassure Congress or because they
 did not hear their own engineers. Ordinary citizens had been invited to fly
 as if it were an airliner. The astronauts, like test pilots, should know
-their risks; he honoured their courage, and wrote that [Christa McAuliffe](kloom:e/christa-mcauliffe) had
+their risks; he honored their courage, and wrote that [Christa McAuliffe](kloom:e/christa-mcauliffe) had
 shown the same courage, closer to knowing the true risk than NASA
 management would have had the public believe. NASA owed the public
 frankness, so that they could decide how to spend what they had. Then his

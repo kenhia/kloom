@@ -9,7 +9,7 @@ remembered, though he could not put a year to it.
 ## An offer of work
 
 The story of what came next is told in James Gleick's biography and
-summarised in Wikipedia. Gweneth was earning about $25 a month. Feynman
+summarized in Wikipedia. Gweneth was earning about $25 a month. Feynman
 offered her $20 a week to come to California and keep house for him. He
 knew how it would look, and his friend **[Matthew Sands](kloom:e/matthew-sands)** acted as her
 sponsor rather than he. She told him she already had two boyfriends, and
@@ -22,7 +22,7 @@ Pasadena, a resort hotel built in 1907. Sands, who
 had sponsored her, was at the wedding: in a memoir of 2005 he remembered
 taking part in it, though he placed it, wrongly, in the mid-1950s.
 
-![An architect's elevation of the Huntington Hotel in Pasadena, drawn for the Historic American Buildings Survey: a long six-storey building in the Mission Revival style with rows of arched windows, a tiled roof and a belvedere at one end, with a scale in feet and metres](huntington-hotel.png)
+![An architect's elevation of the Huntington Hotel in Pasadena, drawn for the Historic American Buildings Survey: a long six-story building in the Mission Revival style with rows of arched windows, a tiled roof and a belvedere at one end, with a scale in feet and meters](huntington-hotel.png)
 
 The plate draws the distance between the two places on the globe, along the
 great circle from Geneva to Pasadena: about a quarter of the way round the
@@ -46,7 +46,7 @@ Weiner in June 1966 that his boy was four. Both fit 1962, the year the
 biographies give, and this frame follows them.
 
 The marriage lasted until his death, twenty-seven years later, and the
-house in Altadena was its centre. When he worked on the introductory course
+house in Altadena was its center. When he worked on the introductory course
 at Caltech in 1961, it was Gweneth, he said, who told him afterwards that
 he had been at it sixteen hours a day. When the Nobel Prize was announced
 in 1965 she and Carl were with him at the press conference in Caltech's

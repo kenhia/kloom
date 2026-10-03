@@ -5,7 +5,7 @@ better than any program before it.
 
 ## One network, one search, three games
 
-**[AlphaZero](kloom:e/alphazero)** generalised _AlphaGo Zero_, the self-taught successor of the
+**[AlphaZero](kloom:e/alphazero)** generalized _AlphaGo Zero_, the self-taught successor of the
 AlphaGo that had beaten Lee Sedol at Go in 2016. The preprint by **[David
 Silver](kloom:e/david-silver-computer-scientist)** and colleagues put the claim plainly: "Starting from random play,
 and given no domain knowledge except the game rules, AlphaZero achieved

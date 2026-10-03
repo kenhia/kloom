@@ -13,7 +13,7 @@
 		"illustration": "scene.svg",
 		"metadata": [
 			"BOSTON · CARL W. WALTER · FENWAL",
-			"PLASTICISED PVC · A CLOSED SYSTEM · SATELLITE BAGS"
+			"PLASTICIZED PVC · A CLOSED SYSTEM · SATELLITE BAGS"
 		],
 		"counter": {
 			"value": "300 ft",
@@ -288,7 +288,7 @@
 	"connections": [
 		{
 			"to": "chemistry/polymers",
-			"why": "A blood bag is soft only because its plasticiser, DEHP, sits between the long chains of PVC, the kind of molecule the polymers frame shows Staudinger proving real, without being bonded to them, which is why it leaches into stored blood."
+			"why": "A blood bag is soft only because its plasticizer, DEHP, sits between the long chains of PVC, the kind of molecule the polymers frame shows Staudinger proving real, without being bonded to them, which is why it leaches into stored blood."
 		}
 	]
 }

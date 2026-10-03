@@ -21,12 +21,12 @@ He claimed his figures could not be "a two hundredth part" from the truth; they 
 
 In 1787 Lavoisier, Louis-Bernard Guyton de Morveau, Claude-Louis Berthollet and Antoine-François de Fourcroy published the _Méthode de nomenclature chimique_, which named a substance for what it is and a compound for what it is made of: dephlogisticated air became oxygen, inflammable air hydrogen, and phlogisticated air azote, our nitrogen. The _Traité_ then listed the "simple substances", those no analysis had yet broken down. There are thirty-three:
 
-| Class in the _Traité_                                | How many | What we would say                                                                    |
-| ---------------------------------------------------- | -------: | ------------------------------------------------------------------------------------ |
-| Light, caloric, oxygen, azote, hydrogen              |        5 | Oxygen, nitrogen and hydrogen are elements; light and heat are not substances at all |
-| Sulphur, phosphorus, charcoal, three acid "radicals" |        6 | All elements: the radicals are chlorine, fluorine and boron, then unknown            |
-| Metals                                               |       17 | All elements                                                                         |
-| Earths: lime, magnesia, barytes, argill, silex       |        5 | Oxides of calcium, magnesium, barium, aluminium and silicon                          |
+| Class in the _Traité_                               | How many | What we would say                                                                    |
+| --------------------------------------------------- | -------: | ------------------------------------------------------------------------------------ |
+| Light, caloric, oxygen, azote, hydrogen             |        5 | Oxygen, nitrogen and hydrogen are elements; light and heat are not substances at all |
+| Sulfur, phosphorus, charcoal, three acid "radicals" |        6 | All elements: the radicals are chlorine, fluorine and boron, then unknown            |
+| Metals                                              |       17 | All elements                                                                         |
+| Earths: lime, magnesia, barytes, argill, silex      |        5 | Oxides of calcium, magnesium, barium, aluminum and silicon                           |
 
 So, by our reading, twenty-six of the thirty-three are elements. Lavoisier kept **[caloric](kloom:e/caloric-theory)**, the weightless matter of heat, among his elements. But he saw the other weak points: he wrote that the earths "must soon cease to be considered as simple bodies", perhaps metals already saturated with oxygen, and he left potash and soda off the table because they were "evidently compound substances".
 
@@ -42,7 +42,7 @@ David's portrait of the two in 1788 shows her standing over him as he writes, am
 
 ## The scaffold
 
-Lavoisier sat on the commission that made the metric system. On 23 December 1793 it was purged, and struck off it with him were the mathematicians Borda and Laplace, the physicist Coulomb, and **[Jean-Baptiste Delambre](kloom:e/jean-baptiste-delambre)**, the astronomer then measuring the meridian for the metre. Arrested as a former tax farmer, Lavoisier was guillotined on 8 May 1794 with twenty-seven others, among them his father-in-law. The judge's retort that "the Republic needs neither scholars nor chemists" is a legend.
+Lavoisier sat on the commission that made the metric system. On 23 December 1793 it was purged, and struck off it with him were the mathematicians Borda and Laplace, the physicist Coulomb, and **[Jean-Baptiste Delambre](kloom:e/jean-baptiste-delambre)**, the astronomer then measuring the meridian for the meter. Arrested as a former tax farmer, Lavoisier was guillotined on 8 May 1794 with twenty-seven others, among them his father-in-law. The judge's retort that "the Republic needs neither scholars nor chemists" is a legend.
 
 **[Joseph-Louis Lagrange](kloom:e/joseph-louis-lagrange)**'s remark is better attested, though only just. Delambre, in his memoir of Lagrange, remembered him saying on the day after the execution, in our translation: "It took them only a moment to cut off that head, and a hundred years may not be enough to produce another like it."
 

@@ -8,16 +8,16 @@ the habits of scientific thinking, which he believed were fragile, should be
 planted somewhere else. By the time he got to Rio, he said, the fear had
 mostly faded. The affection for Brazil did not.
 
-## A centre, a language and a band
+## A center, a language and a band
 
 He had first visited in 1949, for six weeks, after sitting next to the
 Brazilian physicist **[Jayme Tiomno](kloom:e/jayme-tiomno)** at a meeting of the American Physical
 Society and saying he was thinking of South America. Tiomno arranged an
 invitation to the **[Centro Brasileiro de Pesquisas Físicas](kloom:e/centro-brasileiro-de-pesquisas-fisicas)** (CBPF), a
-research centre founded that January by Tiomno, **[José Leite Lopes](kloom:e/jose-leite-lopes)** and
+research center founded that January by Tiomno, **[José Leite Lopes](kloom:e/jose-leite-lopes)** and
 [César Lattes](kloom:e/cesar-lattes), whose share in discovering the pion had made him a national
 hero. The universities, Feynman said, would not easily take in physicists
-trained abroad, so the centre was set up outside them.
+trained abroad, so the center was set up outside them.
 
 He learned the language in his own way. At Cornell he had taken Spanish,
 because more countries spoke it; when Brazil came up, a Portuguese member
@@ -26,7 +26,7 @@ into rough Portuguese. Technical Portuguese turned out to be easy, he said,
 since the long words are nearly English; it was the short everyday ones
 that were hard. He lectured in Portuguese from the start. Leite Lopes later
 confirmed that he spoke it reasonably well and taught all year, at the
-university's Faculdade Nacional de Filosofia and at the centre.
+university's Faculdade Nacional de Filosofia and at the center.
 
 He did physics too. He worked with Leite Lopes on meson theory, wrote to
 [Enrico Fermi](kloom:e/enrico-fermi) from his hotel about pion scattering, and kept up with Caltech
@@ -43,13 +43,13 @@ through the rest of his life is another frame's story.
 
 What he is best remembered for in Brazil is a lecture. Teaching electricity
 and magnetism, he found that his students could recite laws perfectly and
-use none of them. His favourite example was **[Brewster's angle](kloom:e/brewsters-angle)**. Asked
+use none of them. His favorite example was **[Brewster's angle](kloom:e/brewsters-angle)**. Asked
 about it, they answered at once: light reflected from a material of index
-_n_ is completely polarised when the tangent of the angle equals _n_. Yet
+_n_ is completely polarized when the tangent of the angle equals _n_. Yet
 when he handed them a piece of Polaroid and told them to look at the light
 off the bay, they were astonished that turning it made the water go dark.
 They had never connected the sentence to anything they could see. The plate
-draws the geometry they had memorised.
+draws the geometry they had memorized.
 
 | Surface | Index _n_ | Brewster's angle |
 | ------- | --------- | ---------------- |

@@ -9,26 +9,26 @@ with a computer.
 
 ## A map that needs four
 
-Colour a map so that no two regions
-sharing a border have the same colour: how many colours can we be forced
-to use? In 1852 **Francis Guthrie**, colouring the counties of England,
+Color a map so that no two regions
+sharing a border have the same color: how many colors can we be forced
+to use? In 1852 **Francis Guthrie**, coloring the counties of England,
 noticed that four always seemed enough, and the question reached
-**Augustus De Morgan** in London. The **[four colour theorem](kloom:e/four-color-theorem)** says that
+**Augustus De Morgan** in London. The **[four color theorem](kloom:e/four-color-theorem)** says that
 four always is.
 
 Why can't three do? The plate draws the smallest kind of proof. A region
-in the middle has five neighbours, set in a ring. Go round the ring with
-two colours, 1 and 2, alternating: five is odd, so the fifth region
-borders two regions already coloured 1 and 2, and needs a third. The
+in the middle has five neighbors, set in a ring. Go round the ring with
+two colors, 1 and 2, alternating: five is odd, so the fifth region
+borders two regions already colored 1 and 2, and needs a third. The
 middle region touches all five, so it needs a fourth. The same reasoning
-works for any region with an odd number of neighbours; the mainland
-United States needs four colours for this reason around Nevada, which
+works for any region with an odd number of neighbors; the mainland
+United States needs four colors for this reason around Nevada, which
 has five. The hard part is showing that no map ever needs five.
 
 Alfred Kempe's proof of 1879 stood for eleven years, until Percy Heawood
 found its flaw. Its method survived: show that a smallest map needing
-five colours must contain some small arrangement of regions, a
-_configuration_, that could be removed, coloured and put back, so that
+five colors must contain some small arrangement of regions, a
+_configuration_, that could be removed, colored and put back, so that
 the map was not the smallest after all.
 
 ## Fewer than two thousand cases
@@ -37,7 +37,7 @@ Appel and Haken, building on the German mathematician Heinrich Heesch,
 found a list that was both unavoidable and reducible, announced in June 1976. The unavoidable half was argued by hand, in hundreds of pages
 checked with the help of Haken's daughter Dorothea. The reducible half
 was run by computer, over a thousand hours of it: every configuration's
-possible colourings were checked one by one. Sources disagree on the
+possible colorings were checked one by one. Sources disagree on the
 list's length. Their announcement of 1976 says "fewer than
 2000"; the Smithsonian, which holds the meter strip, says 1,936; Robin
 Thomas and his colleagues count 1,476 in Appel and Haken's final version,
@@ -57,12 +57,12 @@ simpler, and still needed a computer.
 
 Others followed.
 
-| Year | Theorem                     | What the computer did                              |
-| ---- | --------------------------- | -------------------------------------------------- |
-| 1976 | Four colour theorem         | Checked the colourings of each configuration       |
-| 1996 | Robbins conjecture          | Found the proof itself, in eight days              |
-| 1998 | Kepler conjecture           | Solved about 100,000 linear programmes             |
-| 2016 | Boolean Pythagorean triples | Searched every colouring; the proof is 200 TB long |
+| Year | Theorem                     | What the computer did                             |
+| ---- | --------------------------- | ------------------------------------------------- |
+| 1976 | Four color theorem          | Checked the colorings of each configuration       |
+| 1996 | Robbins conjecture          | Found the proof itself, in eight days             |
+| 1998 | Kepler conjecture           | Solved about 100,000 linear programs              |
+| 2016 | Boolean Pythagorean triples | Searched every coloring; the proof is 200 TB long |
 
 In 1998 **[Thomas Hales](kloom:e/thomas-callister-hales)** and his student Samuel Ferguson proved the
 **[Kepler conjecture](kloom:e/kepler-conjecture)**, that no stacking of equal spheres is denser than
@@ -87,7 +87,7 @@ to 7,825 cannot, in a proof of almost 200 terabytes.
 The deeper change was the _proof assistant_, a program that checks every
 step of a formal proof from the axioms up.
 Nicolaas de Bruijn's Automath began it in 1967. In 2005 Georges Gonthier
-and Benjamin Werner finished a proof of the four colour theorem in Coq,
+and Benjamin Werner finished a proof of the four color theorem in Coq,
 so that the only program to trust was Coq's small kernel. **[Lean](kloom:e/lean-proof-assistant)**,
 launched by Leonardo de Moura in 2013, grew a shared library, _mathlib_,
 which on 30 September 2026 held 289,504 theorems and 137,875 definitions,

@@ -6,7 +6,7 @@ After the Crimean War the British public gave **[Florence Nightingale](kloom:e/f
 
 Nightingale wrote the plan and never taught in it. Confined to her room, Cook says, she was unable to visit the hospital; the matron and the medical officer ran the school, and reported to her in detail. The probationers worked as assistant nurses in the wards, were taught there by the ward sisters and the resident medical officer, and heard lectures from members of the medical staff. What they were to learn was printed in the Fund committee's first report as the "Duties of Probationers":
 
-| Required to be          | Expected to become skilful in                                                                                                              |
+| Required to be          | Expected to become skillful in                                                                                                             |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Sober, honest, truthful | Dressing blisters, burns, sores and wounds; fomentations, poultices, minor dressings                                                       |
 | Punctual                | Applying leeches, externally and internally; giving enemas                                                                                 |

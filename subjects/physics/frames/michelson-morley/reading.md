@@ -18,7 +18,7 @@ electromagnetic wave, his equations were read as describing strains in the
 ether.
 
 If the ether stood still and the Earth moved through it at some 30
-kilometres a second on its orbit, a laboratory should feel an ether wind,
+kilometers a second on its orbit, a laboratory should feel an ether wind,
 and light should take longer to cross it in one direction than another.
 The difference was tiny: Earth's speed is about a ten-thousandth of
 light's, and in a round trip the effect goes as the square of that ratio.
@@ -37,11 +37,11 @@ relative to the other, the fringes shift sideways by that fraction. Turning
 the instrument should swing an ether wind from one arm to the other.
 
 The 1881 attempt was inconclusive. In 1887 he and Morley rebuilt it. The
-optics were mounted on a slab of sandstone about 1.5 metres square and 30
-centimetres thick, resting on a wooden float in a trough of mercury, so
+optics were mounted on a slab of sandstone about 1.5 meters square and 30
+centimeters thick, resting on a wooden float in a trough of mercury, so
 that it could be turned slowly and smoothly, once every six minutes,
 without being stopped and strained. Mirrors at the corners folded each arm
-so that the light travelled about eleven metres, which should have given a
+so that the light traveled about eleven meters, which should have given a
 shift of 0.4 of a fringe.
 
 ![The 1887 apparatus in the Cleveland basement: a large square slab with a wooden cover over the optics, resting on a circular float, in front of a brick wall](mm-apparatus.jpg)
@@ -78,10 +78,10 @@ the historian Jeroen van Dongen reads it as evidence that he knew of the
 result before 1905. Most historians since Gerald Holton give it an indirect part.
 
 Michelson himself took his instrument on to other work. In 1892–93, at the
-International Bureau of Weights and Measures, he measured the metre in
-wavelengths of the red light of cadmium, the first step towards a metre
+International Bureau of Weights and Measures, he measured the meter in
+wavelengths of the red light of cadmium, the first step towards a meter
 defined by light. In 1907 he became the first American to win a Nobel Prize
-in a science. His interferometer, grown to arms four kilometres long, is
+in a science. His interferometer, grown to arms four kilometers long, is
 the instrument of **[LIGO](kloom:e/ligo)**, whose story is the frame on gravitational
 waves.
 

@@ -18,7 +18,7 @@ the summer of 1958, too new to take the company's summer holiday. He spent
 it on the tyranny of numbers and concluded that every component, resistors
 and capacitors included, could be made of the same semiconductor as the
 transistors, so that a whole circuit could come from one crystal. On 12 September 1958 he showed a phase-shift
-oscillator on a sliver of [germanium](kloom:e/germanium) about 10 by 1.6 millimetres, cut from a
+oscillator on a sliver of [germanium](kloom:e/germanium) about 10 by 1.6 millimeters, cut from a
 standard wafer of mesa transistors: a transistor, a capacitor and
 resistors, all germanium, joined by fine gold wires bonded between them in
 the air. A week later he showed an amplifier. TI announced the _solid
@@ -38,7 +38,7 @@ At [Fairchild](kloom:e/fairchild-semiconductor), **[Jean Hoerni](kloom:e/jean-ho
 sealed under a flat layer of silicon oxide. Pressed by the company's
 patent attorney to think of other uses for it, **[Robert Noyce](kloom:e/robert-noyce)** wrote down
 his idea in January 1959: make every component in one chip of silicon by
-diffusing it through windows in the oxide, then lay aluminium over
+diffusing it through windows in the oxide, then lay aluminum over
 the oxide and let it drop through small openings to the contacts. The oxide
 insulates the wiring from the silicon beneath, and the wiring is made in
 one printing step with the rest. The plate sets the two side by side.
@@ -58,15 +58,15 @@ Series 51 that October.
 | Shown or conceived   | shown 12 September 1958                                 | conceived January 1959; working chips 1960 |
 | Material             | germanium                                               | silicon                                    |
 | Components           | mesa transistor; resistors and capacitors from the bulk | all diffused through the oxide             |
-| Wiring               | gold wires bonded in the air                            | aluminium laid on the oxide                |
+| Wiring               | gold wires bonded in the air                            | aluminum laid on the oxide                 |
 | Patent filed, issued | 6 February 1959, 23 June 1964                           | 30 July 1959, 25 April 1961                |
 
 ## The dispute
 
 The patents overlapped, and the companies fought over them for years. TI
 also contested Lehovec's isolation patent and lost that fight in April 1966. The museum says the courts eventually ruled for Noyce, but by then
-the companies had already settled on a cross-licence with a net payment to
-Fairchild; Wikipedia dates the cross-licensing agreement to the summer of 1966. Japan, where TI had fought for years to manufacture, recognised
+the companies had already settled on a cross-license with a net payment to
+Fairchild; Wikipedia dates the cross-licensing agreement to the summer of 1966. Japan, where TI had fought for years to manufacture, recognized
 Kilby's patent only in 1989, and royalties followed in the 1990s.
 
 Credit was settled more generously than the patents. Both men received

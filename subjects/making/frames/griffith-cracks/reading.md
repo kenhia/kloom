@@ -23,11 +23,11 @@ Griffith tested it on glass, which stays elastic until it breaks. He bought test
 
 The third column is our arithmetic: each bulb's stress predicted from the first's by the square-root rule. A crack six times as long burst the glass at 42 per cent of the stress, close to the 41 per cent the rule gives. Across his bulbs and tubes the product averaged 239, against 266 from his theory.
 
-That agreement was partly luck. The formula Griffith printed had an error in its strain energy, which he corrected in 1924 without much explanation. Dietrich Munz and Theo Fett, who traced the error in 2015, found that the corrected formula predicts a figure well below his measurements, and put the gap down to the bulging of a pressurised bulb's cracked wall, which no flat plate has.
+That agreement was partly luck. The formula Griffith printed had an error in its strain energy, which he corrected in 1924 without much explanation. Dietrich Munz and Theo Fett, who traced the error in 2015, found that the corrected formula predicts a figure well below his measurements, and put the gap down to the bulging of a pressurized bulb's cracked wall, which no flat plate has.
 
-![Griffith's glass fibres, strength against diameter: the thinnest, a two-hundred-and-fortieth the diameter of a thick rod, twenty times as strong](fibre-strength.svg)
+![Griffith's glass fibers, strength against diameter: the thinnest, a two-hundred-and-fortieth the diameter of a thick rod, twenty times as strong](fibre-strength.svg)
 
-| Fibre diameter |  Strength |
+| Fiber diameter |  Strength |
 | -------------: | --------: |
 | 1,016 µm (rod) |   172 MPa |
 |         107 µm |   292 MPa |
@@ -37,7 +37,7 @@ That agreement was partly luck. The formula Griffith printed had an error in its
 |         6.6 µm | 2,289 MPa |
 |         4.2 µm | 3,434 MPa |
 
-Then he drew glass into fibres, the thinner the fewer the flaws they could hold. Fibres four thousandths of a millimetre across were twenty times as strong as a thick rod, and freshly drawn ones, before the air had worked on their surfaces, stronger still. If the flaws could be removed, he wrote, the strength of technical materials "might be increased 10 or 20 times at least".
+Then he drew glass into fibers, the thinner the fewer the flaws they could hold. Fibers four thousandths of a millimeter across were twenty times as strong as a thick rod, and freshly drawn ones, before the air had worked on their surfaces, stronger still. If the flaws could be removed, he wrote, the strength of technical materials "might be increased 10 or 20 times at least".
 
 ## Ships that broke in two
 

@@ -14,9 +14,9 @@ His theory, set out in the _Opus paramirum_ of about 1530, gave every body three
 
 ## The dose makes the poison
 
-That made his medicines suspect. Physicians said his recipes were poison and corrosive, and in 1538 he answered them in his third _Defence_: "All things are poison, and nothing is without poison; the dose alone makes a thing not a poison." Every food and drink, he went on, is poison past its dose. Then he gave an example, and it can be checked. White **[arsenic](kloom:e/arsenic)**, he wrote, "is one of the highest poisons, and a drachm of it kills any horse"; fire it with saltpetre, and it is poison no longer, and ten pounds of it may be eaten without harm.
+That made his medicines suspect. Physicians said his recipes were poison and corrosive, and in 1538 he answered them in his third _Defence_: "All things are poison, and nothing is without poison; the dose alone makes a thing not a poison." Every food and drink, he went on, is poison past its dose. Then he gave an example, and it can be checked. White **[arsenic](kloom:e/arsenic)**, he wrote, "is one of the highest poisons, and a drachm of it kills any horse"; fire it with saltpeter, and it is poison no longer, and ten pounds of it may be eaten without harm.
 
-The chemistry of his recipe is an oxidation. Melted with saltpetre, potassium nitrate, arsenic in its +3 state becomes arsenic +5, a potassium arsenate, while the nitrate's nitrogen takes the electrons and leaves as brown fumes. Balanced by our arithmetic:
+The chemistry of his recipe is an oxidation. Melted with saltpeter, potassium nitrate, arsenic in its +3 state becomes arsenic +5, a potassium arsenate, while the nitrate's nitrogen takes the electrons and leaves as brown fumes. Balanced by our arithmetic:
 
 > As₂O₃ + 2 KNO₃ → 2 KAsO₃ + NO + NO₂
 
@@ -31,7 +31,7 @@ The chemistry of his recipe is an oxidation. Melted with saltpetre, potassium ni
 
 The horse is our assumption, and the numbers are by our arithmetic. The Merck Veterinary Manual puts a single lethal dose of trivalent arsenic at 1 to 25 mg per kilogram, so his drachm would indeed kill a horse. And the firing does help: the manual reckons arsenates four to ten times less toxic than arsenites. But every atom of arsenic is still in the pot, and ten pounds is 960 drachms: even at a tenth of the toxicity, about a hundred deadly doses for a horse. His principle was right, and his example was wrong by a factor of a hundred.
 
-The principle has outlived him. Arsenic trioxide, the same white arsenic, was approved in the United States in 2000 as a medicine, at a measured dose, for a form of leukaemia.
+The principle has outlived him. Arsenic trioxide, the same white arsenic, was approved in the United States in 2000 as a medicine, at a measured dose, for a form of leukemia.
 
 ## After Basel
 

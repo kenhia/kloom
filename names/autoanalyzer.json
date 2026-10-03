@@ -4,6 +4,6 @@
 	"name": "AutoAnalyzer",
 	"aliases": ["Technicon AutoAnalyzer", "continuous flow analysis", "segmented flow analysis"],
 	"kind": "artifact",
-	"description": "Leonard Skeggs's continuous-flow chemical analyser, made by Technicon from 1957, which pumps samples and reagents through tubing in a stream segmented by air bubbles and reads the colour formed; it automated clinical chemistry and later water and soil testing.",
+	"description": "Leonard Skeggs's continuous-flow chemical analyzer, made by Technicon from 1957, which pumps samples and reagents through tubing in a stream segmented by air bubbles and reads the color formed; it automated clinical chemistry and later water and soil testing.",
 	"home": "blood/autoanalyzer"
 }

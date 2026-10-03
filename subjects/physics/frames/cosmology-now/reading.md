@@ -19,7 +19,7 @@ and 2013, in its final analysis of 2018.
 | Density of ordinary matter, Ωb h²         | 0.0224 ± 0.0001    |
 | Density of cold dark matter, Ωc h²        | 0.120 ± 0.001      |
 | Angular size of the sound horizon, 100 θ  | 1.04089            |
-| Optical depth to reionisation, τ          | 0.054 ± 0.007      |
+| Optical depth to reionization, τ          | 0.054 ± 0.007      |
 | Amplitude of the ripples, ln(10¹⁰ As)     | 3.043 ± 0.014      |
 | Tilt of the ripples, ns                   | 0.965 ± 0.004      |
 | _Derived:_ Hubble constant, H₀ (km/s/Mpc) | 67.4 ± 0.5         |
@@ -34,7 +34,7 @@ universe for what we should measure nearby today.
 
 ## The Hubble tension
 
-We should measure an expansion rate of about 67 kilometres a second for
+We should measure an expansion rate of about 67 kilometers a second for
 every megaparsec of distance. Measured nearby, it comes out about 73. The
 plate draws the two routes. The early one reads the size of sound waves in
 the young universe from the microwave background and carries it forward
@@ -86,7 +86,7 @@ are more than a hundred times more common than predicted before Webb;
 MoM-z14 is also richer in heavy elements than models of early galaxy
 formation account for.
 
-![A field of hundreds of small galaxies on black, with a box enlarging one faint, fuzzy yellow-green blob labelled MoM-z14](mom-z14.jpg)
+![A field of hundreds of small galaxies on black, with a box enlarging one faint, fuzzy yellow-green blob labeled MoM-z14](mom-z14.jpg)
 
 ## What the next years test
 

@@ -3,7 +3,7 @@ hundred pages called **[_Disquisitiones Arithmeticae_](kloom:e/disquisitiones-ar
 Investigations". Its author, **[Carl Friedrich Gauss](kloom:e/carl-friedrich-gauss)**, was twenty-four,
 from a poor family in Brunswick, and had been kept at school and
 university by **[Charles William Ferdinand, Duke of Brunswick](kloom:e/charles-william-ferdinand-duke-of-brunswick)**. The
-dedication, signed in July 1801, says that without the duke's favour he
+dedication, signed in July 1801, says that without the duke's favor he
 could never have given himself to mathematics, and that the duke's
 generosity had cleared away what was holding the printing up. Most of it
 was written by 1798, when he was twenty-one. The book turned the study

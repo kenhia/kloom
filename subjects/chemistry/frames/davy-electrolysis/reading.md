@@ -10,7 +10,7 @@ The **[voltaic pile](kloom:e/voltaic-pile)** was the tool; the question was what
 
 ## The lecturer
 
-Davy came to the Royal Institution in 1801 at twenty-two, from a Bristol clinic where he had breathed nitrous oxide and made his name. His lectures filled the theatre on Albemarle Street, nearly five hundred people by June of his first year, and Coleridge said he went to them to enlarge his stock of metaphors. In 1806, in a lecture to the Royal Society, he argued that chemical attraction was electrical, and that a current was the likeliest means of taking any compound back to its elements. France, then at war with Britain, gave him Napoleon's prize for it.
+Davy came to the Royal Institution in 1801 at twenty-two, from a Bristol clinic where he had breathed nitrous oxide and made his name. His lectures filled the theater on Albemarle Street, nearly five hundred people by June of his first year, and Coleridge said he went to them to enlarge his stock of metaphors. In 1806, in a lecture to the Royal Society, he argued that chemical attraction was electrical, and that a current was the likeliest means of taking any compound back to its elements. France, then at war with Britain, gave him Napoleon's prize for it.
 
 ![A cartoon of a lecture at the Royal Institution: a lecturer holding a gentleman's nose while the man breathes from a tube and gas bursts from behind him, a young assistant at the table with a pair of bellows, and a crowded audience](gillray.jpg)
 
@@ -20,14 +20,14 @@ James Gillray drew the Royal Institution's lectures in 1802, with the young Davy
 
 The alkalies did not come easily. Davy's paper of 1808 tells it. A strong solution of potash, under the full battery, gave only hydrogen and oxygen: the water took the current. Potash melted over a lamp in a platinum spoon gave "a most intense light" and flames at the wire, but nothing he could collect. What worked was dry potash left a few seconds in the air, just damp enough on its surface to conduct, so that the current itself melted it and split it. The battery that did it had 250 pairs of copper and zinc plates, six and four inches square. **[Sodium](kloom:e/sodium)** came from soda a few days later, and needed thinner pieces and more power. When he first saw the globules, his brother John wrote, on the word of Edmund Davy, a relative who assisted him, Davy "danced about the room in ecstatic delight".
 
-When is disputed. Davy gave 6 October 1807; his biographer John Ayrton Paris read the laboratory register and put the first success on 19 October. Wikipedia says he electrolysed "molten" potash and soda; his own paper says he could not get the metal that way.
+When is disputed. Davy gave 6 October 1807; his biographer John Ayrton Paris read the laboratory register and put the first success on 19 October. Wikipedia says he electrolyzed "molten" potash and soda; his own paper says he could not get the metal that way.
 
 In modern terms the potash is potassium hydroxide, K⁺ and OH⁻ ions. At the platinum disc, the negative pole, each potassium ion takes an electron; at the wire, the hydroxide gives electrons up and fizzes off as oxygen:
 
 | Where         | Reaction                           | For each gram of potassium, by our arithmetic   |
 | ------------- | ---------------------------------- | ----------------------------------------------- |
 | Negative disc | K⁺ + e⁻ → K                        | 1 gram of metal                                 |
-| Positive wire | 4 OH⁻ → O₂ + 2 H₂O + 4 e⁻          | 0.2 gram of oxygen, about 150 millilitres       |
+| Positive wire | 4 OH⁻ → O₂ + 2 H₂O + 4 e⁻          | 0.2 gram of oxygen, about 150 milliliters       |
 | The circuit   | one electron per atom of potassium | about 2,470 coulombs: one ampere for 41 minutes |
 
 The arithmetic uses the modern charge on a mole of electrons, 96,485 coulombs, and potassium's atomic weight of 39.1. Sodium, whose atoms are lighter, needs about 4,200 coulombs a gram. Why the charge follows the atoms so exactly is Faraday's to find.

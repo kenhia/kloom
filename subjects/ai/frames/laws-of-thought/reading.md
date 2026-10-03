@@ -17,7 +17,7 @@ the first professor of mathematics at Queen's College, Cork, in Ireland.
 
 His first book on logic, _The Mathematical Analysis of Logic_, came out in 1847. He later thought it a flawed statement of his system, and wanted the
 second, [_An Investigation of the Laws of Thought_](kloom:e/the-laws-of-thought) (1854), to be read as the
-mature one. It begins with an ambition Leibniz would have recognised:
+mature one. It begins with an ambition Leibniz would have recognized:
 
 > The design of the following treatise is to investigate the fundamental laws
 > of those operations of the mind by which reasoning is performed; to give
@@ -58,7 +58,7 @@ claim that it showed how the mind itself works. Boole died in 1864.
 
 In 1932 **[Claude Shannon](kloom:e/claude-shannon)** went to the University of Michigan and met
 Boole's work there. In 1936 he went to [MIT](kloom:e/massachusetts-institute-of-technology) to work on [Vannevar Bush](kloom:e/vannevar-bush)'s
-[_differential analyzer_](kloom:e/differential-analyser), an analogue computer whose switching circuits
+[_differential analyzer_](kloom:e/differential-analyser), an analog computer whose switching circuits
 were complicated and designed case by case. His master's thesis, [_A Symbolic Analysis
 of Relay and Switching Circuits_](kloom:e/a-symbolic-analysis-of-relay-and-switching-circuits), written in 1937 and published in 1938,
 showed that Boole's two-valued algebra describes such circuits exactly. A

@@ -36,7 +36,7 @@ same four sixty-places, without saying where they came from.
 
 ## What the student was doing
 
-The side of the square is labelled 30, and under the diagonal is a second
+The side of the square is labeled 30, and under the diagonal is a second
 number, 42;25,35, which is 30 times the root: the length of the diagonal
 of a square of side 30. The plate draws the square as the scribes would
 have drawn it, sides level, with the diagonal swung down by a compass to
@@ -54,9 +54,9 @@ giving reasons to be wary of it.
 The tablet's shape tells us who held it. A small, round "hand tablet" with
 large writing was used for rough work by a student, and the student
 probably copied the root from a table of constants. One such table, YBC
-7243, gives the same value on its tenth line, labelled "the diagonal of a
+7243, gives the same value on its tenth line, labeled "the diagonal of a
 square". Another tablet shows a step-by-step procedure for working such a
-root out. The mathematical meaning of YBC 7289 was first recognised by
+root out. The mathematical meaning of YBC 7289 was first recognized by
 **[Otto Neugebauer](kloom:e/otto-e-neugebauer)** and Abraham Sachs, in 1945.
 
 ## Plimpton 322

@@ -16,6 +16,8 @@ check:
     just reader-gate
     @# Every mark is placed from a spec: one typed by hand, or a spec's mark not placed, fails.
     python3 create-tools/names/names.py mark create-tools/names/examples/*.json --check --placed
+    @# kloom's own words are American English; quotations, titles and names keep theirs (korg 3521).
+    python3 create-tools/spelling/american.py check subjects names src engine
 
 # The authoring tools' own tests: each tool's test_*.py (standard library unittest)
 tools-test:

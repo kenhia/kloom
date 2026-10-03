@@ -44,7 +44,7 @@ the section itself, says the first machines, "pilot models of somewhat
 uncertain behaviour", arrived in April. The [Wrens](kloom:e/womens-royal-naval-service) who ran it named it
 **[Heath Robinson](kloom:e/heath-robinson-codebreaking-machine)**, after the cartoonist of absurd contraptions.
 
-![The working replica of Heath Robinson at the National Museum of Computing: grey racks of relays, valves and plug panels on the left, and on the right the tall upended frame of the bedstead, its pulleys carrying loops of paper tape](robinson-replica.jpg)
+![The working replica of Heath Robinson at the National Museum of Computing: gray racks of relays, valves and plug panels on the left, and on the right the tall upended frame of the bedstead, its pulleys carrying loops of paper tape](robinson-replica.jpg)
 
 The message and the chi pattern were both punched on paper tape, and both
 tapes were joined into loops and run round pulleys on a tall frame the staff

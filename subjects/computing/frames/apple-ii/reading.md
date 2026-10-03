@@ -1,8 +1,8 @@
 On 10 June 1977 a small company in [Cupertino](kloom:e/cupertino-california), California, began selling a
 computer that needed no soldering. The **[Apple II](kloom:e/apple-ii)** came assembled, in a
-moulded plastic case like a kitchen appliance, with a keyboard, a
+molded plastic case like a kitchen appliance, with a keyboard, a
 programming language in its memory chips and a video output that a monitor,
-or a television through a small modulator, could show. It drew in colour. Its designer, **[Steve Wozniak](kloom:e/steve-wozniak)**, opened his
+or a television through a small modulator, could show. It drew in color. Its designer, **[Steve Wozniak](kloom:e/steve-wozniak)**, opened his
 description of it in [_Byte_](kloom:e/byte-magazine) that May with his creed: a personal computer
 should be small, reliable, convenient to use and inexpensive. The Apple II
 kept that promise for sixteen years.
@@ -12,8 +12,8 @@ kept that promise for sixteen years.
 Wozniak's design is a study in doing several jobs with one part. A single
 crystal oscillator at 14.318 MHz set every rhythm in the machine. Divided by
 fourteen, it clocked the [6502](kloom:e/mos-technology-6502) microprocessor at 1.023 MHz. Divided by four,
-it gave 3.58 MHz, the frequency at which an American colour television
-expects its colour signal. The plate draws two processor cycles of that
+it gave 3.58 MHz, the frequency at which an American color television
+expects its color signal. The plate draws two processor cycles of that
 timing.
 
 The 6502 used memory only in one half of each clock cycle. In the other
@@ -24,15 +24,15 @@ _dynamic_ memory chips, which forget unless each of their rows is read again
 and again; the video scan read every row as it went, so the refresh came
 free and the usual refresh circuit could be left out.
 
-Colour came the same way. A colour television reads hue from the timing of
+Color came the same way. A color television reads hue from the timing of
 a signal against its 3.58 MHz reference. In the high-resolution mode, 280
 dots across by 192 down in 8 KB of memory, the Apple II sent out two dots in
 each cycle of that reference, and simply which dots were lit set the hue:
 dots in even columns showed violet, dots in odd columns green, and two side
-by side white. There was no colour circuitry to speak of; the colour was in
+by side white. There was no color circuitry to speak of; the color was in
 the arithmetic of the clock. A coarser mode gave a grid of 40 by 48 blocks
-in fifteen colours. Wozniak had designed the arcade game _Breakout_ in
-hardware for [Atari](kloom:e/atari-inc), and said later that he put paddles, sound and colour
+in fifteen colors. Wozniak had designed the arcade game _Breakout_ in
+hardware for [Atari](kloom:e/atari-inc), and said later that he put paddles, sound and color
 into the Apple II so that it could be written in BASIC instead.
 
 ## Slots and a disk

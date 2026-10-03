@@ -9,12 +9,12 @@ and won by more than ten points.
 **[Alex Krizhevsky](kloom:e/alex-krizhevsky)** and **[Ilya Sutskever](kloom:e/ilya-sutskever)** were graduate students; **[Geoffrey
 Hinton](kloom:e/geoffrey-hinton)** was Krizhevsky's doctoral adviser. In 2011 Hinton had been asking colleagues
 what it would take to convince them that neural networks were the future, and
-Jitendra Malik, a sceptic, pointed him at the ImageNet challenge. Krizhevsky
+Jitendra Malik, a skeptic, pointed him at the ImageNet challenge. Krizhevsky
 had already written _cuda-convnet_, code for training [convolutional networks](kloom:e/convolutional-neural-network)
 on a graphics processor. Sutskever persuaded him to try it on ImageNet, and
 Krizhevsky extended it to run on two. By one account the network was trained
 in his bedroom at his parents' house. Hinton later summed up the division of
-labour: "Ilya thought we should do it, Alex made it work, and I got the Nobel
+labor: "Ilya thought we should do it, Alex made it work, and I got the Nobel
 Prize."
 
 The network, later called **[AlexNet](kloom:e/alexnet)**, had five convolutional layers and three
@@ -53,7 +53,7 @@ The chart shows the winning top-5 error in each year of the challenge. The
 drop in 2012 was only the start. In 2013 the great majority of entries used
 deep convolutional networks, and in 2014 GoogLeNet's error of 6.7 per cent
 came close to that of a trained human: **Andrej Karpathy**, a co-author of
-the challenge's own report, labelled 1,500 test images himself and missed 5.1 per
+the challenge's own report, labeled 1,500 test images himself and missed 5.1 per
 cent. In 2015 a network from
 Microsoft Research got under that, at 3.57 per cent. [Yann LeCun](kloom:e/yann-lecun) called
 AlexNet "an unequivocal turning point in the history of computer vision".
@@ -72,12 +72,12 @@ AlexNet "an unequivocal turning point in the history of computer vision".
 | 2017 | WMW                   |       2.25% |
 
 The figures are each year's lowest top-5 classification error using only the
-challenge's own training data, from the organisers' published tables and
+challenge's own training data, from the organizers' published tables and
 results pages; the 2015 figure is the one reported in the ResNet paper.
 
 None of the pieces was new. Convolutional networks went back to Yann LeCun's
 [LeNet](kloom:e/lenet), graphics processors had trained neural networks before, and ImageNet
 existed. [Fei-Fei Li](kloom:e/fei-fei-li) later called the moment symbolic because three things
-converged for the first time: big labelled data, graphics processors and
+converged for the first time: big labeled data, graphics processors and
 deep networks. The next frames follow the same shift, from representations
 built by hand to representations learned, from pictures to words.

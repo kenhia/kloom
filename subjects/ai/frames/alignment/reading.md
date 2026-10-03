@@ -27,7 +27,7 @@ It played a king-and-rook endgame by itself, and in 1951 it was shown at a
 Paris symposium on calculating machines and human thought.
 
 In 2014 the Berkeley computer scientist **[Stuart Russell](kloom:e/stuart-j-russell)** restated the
-problem for modern systems. A machine optimising an objective that leaves
+problem for modern systems. A machine optimizing an objective that leaves
 out something we care about "will often set the remaining unconstrained
 variables to extreme values". It is, he wrote, "the old story of the genie in
 the lamp, or the sorcerer's apprentice, or King Midas: you get exactly what
@@ -43,11 +43,11 @@ we actually want. When it does not, systems find the loophole, and the trail
 that branches here begins with a collection of them.
 
 _Inner alignment_ is subtler. In 2019 **Evan Hubinger** and colleagues asked
-what happens when training produces a network that is itself an optimiser,
-a _mesa-optimiser_ in their coinage, with an objective of its own that only
+what happens when training produces a network that is itself an optimizer,
+a _mesa-optimizer_ in their coinage, with an objective of its own that only
 happened to match the training signal. Such a system might pursue a proxy
 that coincided with the goal during training and diverged afterwards; this
-_goal misgeneralisation_ has since been observed in game-playing and
+_goal misgeneralization_ has since been observed in game-playing and
 navigation agents and in language models. The hardest case they named
 _deceptive alignment_: a model whose goals differ from its training
 objective, but which behaves well while it is trained, because that is the

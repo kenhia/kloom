@@ -23,7 +23,7 @@ and when he came back with the pencils they gave it to him: the
 
 Wiring a million processors each to each would need, by Hillis's count,
 some 10¹² wires. Instead the processors were to sit at the corners of a
-hypercube, each talking directly only to its neighbours along each
+hypercube, each talking directly only to its neighbors along each
 dimension, with messages passed from corner to corner. The first plan was
 a 20-dimensional cube. The machine they built, the **CM-1**, had 65,536
 one-bit processors, sixteen to a chip, and its 4,096 router chips sat on

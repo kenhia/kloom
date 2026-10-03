@@ -24,7 +24,7 @@ Scheutzes had a full-sized engine built in the works of **J. W.
 Bergström**, completed in October 1853. The plate draws its layout: a grid
 of number wheels fifteen figures wide and five rows deep, the table and
 four differences, each row added into the one above. Only the table row
-was printed, to its eight leading figures, pressed into a soft mould from
+was printed, to its eight leading figures, pressed into a soft mold from
 which a printer could cast a plate. (Babbage gave it fourteen places of
 figures; Merzbach's history gives fifteen.)
 
@@ -33,7 +33,7 @@ figures; Merzbach's history gives fifteen.)
 The engine came to London in 1854, was patented and examined by a
 committee of the Royal Society, and in 1855 was shown at the Universal
 Exposition in [Paris](kloom:e/paris), where it won a gold medal. Babbage, who might have
-been its rival, championed it: in 1856 he wrote that honour "must always
+been its rival, championed it: in 1856 he wrote that honor "must always
 be given to Sweden" as the country that first built a machine to print
 the results of calculation. At the [Paris Observatory](kloom:e/paris-observatory), though, [Urbain Le
 Verrier](kloom:e/urbain-le-verrier) advised against buying it: it did, he said, only a fifth of the

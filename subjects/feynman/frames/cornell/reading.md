@@ -44,7 +44,7 @@ never sent.
 He had meant to take a short rest and then go back to the research he had
 put aside for the war. The rest did not end. He read the _Arabian Nights_
 in the library, went to student dances, played his drums and sat on the
-grass. Preparing courses, which he later recognised as a full-time job,
+grass. Preparing courses, which he later recognized as a full-time job,
 seemed to him then like nothing. He became convinced, he told the
 interviewer, that he was burned out and would never accomplish anything
 again.

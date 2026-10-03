@@ -62,4 +62,4 @@ game solved to that date.
 
 It also ended an argument that [Samuel](kloom:e/arthur-samuel-computer-scientist)'s single win of 1962 had started.
 Checkers had been called solved for forty-five years; now it was, in a
-sense that could be checked. [Chess](kloom:e/chess), with far more positions, has been solved only for endgames of up to seven pieces, and may never be solved in full. Its best programs still play by search and judgement, and since 2017 that judgement can be learned by self-play, as the next frame shows.
+sense that could be checked. [Chess](kloom:e/chess), with far more positions, has been solved only for endgames of up to seven pieces, and may never be solved in full. Its best programs still play by search and judgment, and since 2017 that judgment can be learned by self-play, as the next frame shows.

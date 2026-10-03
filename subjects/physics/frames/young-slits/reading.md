@@ -8,7 +8,7 @@ for a century. Young's case rested on one idea, which he called the general
 law of the interference of light, and on an experiment simple enough to do
 with a sunbeam and a card.
 
-![A portrait of Thomas Young in middle age: a clean-shaven man with curling grey hair, in a high white stock and dark coat, looking a little to the side](young-lawrence.jpg)
+![A portrait of Thomas Young in middle age: a clean-shaven man with curling gray hair, in a high white stock and dark coat, looking a little to the side](young-lawrence.jpg)
 
 ## Two portions of one light
 
@@ -20,22 +20,22 @@ of waves entering one channel make higher waves where crest meets crest,
 and smooth water where crest meets trough. Whenever two portions of the
 same light reach the eye by routes of different length, he wrote, the light
 is brightest when the difference is a whole number of some small length,
-and weakest in between, and the length differs from colour to colour.
+and weakest in between, and the length differs from color to color.
 
-He used it to explain the coloured rings Newton had seen where a lens
+He used it to explain the colored rings Newton had seen where a lens
 presses on glass. Light reflected from the top and the bottom of the thin
 film of air between them interferes. From Newton's own measurements of the
 film's thickness at each ring, Young worked out the length of a wave of
-each colour. The table converts some of his figures; the conversion to
-nanometres is ours.
+each color. The table converts some of his figures; the conversion to
+nanometers is ours.
 
-| Young's colour, 1802 | Wave, parts of an inch | In nanometres, by our conversion |
-| -------------------- | ---------------------: | -------------------------------: |
-| Extreme red          |              0.0000266 |                              676 |
-| Yellow               |              0.0000227 |                              577 |
-| Green                |              0.0000211 |                              536 |
-| Blue                 |              0.0000196 |                              498 |
-| Extreme violet       |              0.0000167 |                              424 |
+| Young's color, 1802 | Wave, parts of an inch | In nanometers, by our conversion |
+| ------------------- | ---------------------: | -------------------------------: |
+| Extreme red         |              0.0000266 |                              676 |
+| Yellow              |              0.0000227 |                              577 |
+| Green               |              0.0000211 |                              536 |
+| Blue                |              0.0000196 |                              498 |
+| Extreme violet      |              0.0000167 |                              424 |
 
 On 24 November 1803 he gave the Royal Society what he called a proof "so
 simple and so demonstrative" that it would convince "the most prejudiced".
@@ -70,12 +70,12 @@ engineer, took up diffraction in 1815 while out of work for having opposed
 Napoleon's return from Elba. He combined Young's interference with
 Huygens's idea that every point of a wave sends out wavelets of its own,
 and added up the wavelets with their phases. In 1817 the Academy of
-Sciences, whose leading physicists favoured particles, set diffraction as
+Sciences, whose leading physicists favored particles, set diffraction as
 the subject of its prize for 1818. Fresnel's memoir, deposited on 29 July
 1818, won it the next March.
 
 On the committee, **[Siméon Denis Poisson](kloom:e/simeon-denis-poisson)** worked out a consequence of
-Fresnel's mathematics: at the very centre of the shadow of a small disc
+Fresnel's mathematics: at the very center of the shadow of a small disc
 there should be a bright spot. The usual story is that he meant it as a
 reductio, and that **François Arago** tested it with a disc of about 2 mm
 waxed to glass and found the spot. The historian E. T. Whittaker, writing
@@ -83,7 +83,7 @@ in 1910, says instead that Poisson suggested the test and the results
 confirmed the theory. Either way the **[Arago spot](kloom:e/arago-spot)** is real, and had been
 seen a century earlier and forgotten.
 
-![A photograph of the shadow of a small disc: a dark circle ringed by pale fringes, with a faint bright point at its exact centre](arago-spot.png)
+![A photograph of the shadow of a small disc: a dark circle ringed by pale fringes, with a faint bright point at its exact center](arago-spot.png)
 
 One puzzle remained. Light can be polarized, and a wave like sound, which
 vibrates along its direction of travel, cannot. In January 1817 Young

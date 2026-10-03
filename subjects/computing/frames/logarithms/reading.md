@@ -75,7 +75,7 @@ over the stock's 2, and the cursor, at the slide's 3, reads 6.
 The [slide rule](kloom:e/slide-rule) lasted three and a half centuries. Amédée Mannheim, a French
 artillery officer, gave it the layout and the cursor it kept from 1859.
 Engineers carried ten-inch rules in belt holsters into the mid-1970s, and
-aluminium Pickett rules went to the [Moon](kloom:e/moon) on Apollo. They gave about three
+aluminum Pickett rules went to the [Moon](kloom:e/moon) on Apollo. They gave about three
 significant figures, and made the user track the decimal point in their
 head. Handheld electronic calculators ended them within a few years: by
 1976 a Texas Instruments scientific calculator cost less than $25.

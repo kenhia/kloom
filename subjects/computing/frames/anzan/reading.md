@@ -36,13 +36,13 @@ faintly, and a few columns held in full.
 ## Does it make children cleverer?
 
 Anzan schools promise more than arithmetic: better memory, concentration
-and "mental capability". A randomised trial tested some of that. From June
+and "mental capability". A randomized trial tested some of that. From June
 2010 to March 2013, Barner, Frank and colleagues followed 204 children,
 five to seven years old at the start, at a school for low-income families
 in **Vadodara**, India, assigned at random to mental abacus or to a
 control group. The abacus
 children did better at arithmetic than the controls, so the skill can be
-learnt in an ordinary classroom. But the training did not change their
+learned in an ordinary classroom. But the training did not change their
 basic cognitive abilities, and the children who gained most were those
 who began with better _spatial_ working memory. The broader claims are,
 on this evidence, not shown.

@@ -17,12 +17,12 @@ theory of gravity, is empty.
 
 **Quantum gravity** matters where both are strong at once: inside black
 holes and in the first instant after the Big Bang. Its effects are
-expected at the Planck length, about 10⁻³⁵ metres, far beyond any
+expected at the Planck length, about 10⁻³⁵ meters, far beyond any
 experiment. The most studied candidate, **[string theory](kloom:e/string-theory)**, makes every
 particle a vibration of a tiny string and includes gravity from the
 start, but it admits an enormous number of possible universes, commonly
 estimated at around 10⁵⁰⁰, which critics say leaves it predicting almost
-nothing. **[Loop quantum gravity](kloom:e/loop-quantum-gravity)** quantises space itself into discrete
+nothing. **[Loop quantum gravity](kloom:e/loop-quantum-gravity)** quantizes space itself into discrete
 loops without trying to unify the forces. Neither has made a prediction
 that an experiment has confirmed.
 
@@ -41,7 +41,7 @@ cancel them; the LHC has found no evidence of it.
 The LHC's third run ended in mid-2026, and the machine is shut down
 until about 2030 for its high-luminosity upgrade, which will give it
 about ten times the collisions. On 22 May 2026 the CERN Council, meeting
-in Budapest, recommended a 91-kilometre Future Circular Collider,
+in Budapest, recommended a 91-kilometer Future Circular Collider,
 colliding electrons with positrons first, as CERN's next flagship; the
 decision to build it is not expected before 2028.
 

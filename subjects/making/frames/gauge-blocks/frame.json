@@ -16,13 +16,13 @@
 		],
 		"counter": {
 			"value": "200,000",
-			"label": "lengths, a micrometre apart, from Johansson's 112 blocks of 1909"
+			"label": "lengths, a micrometer apart, from Johansson's 112 blocks of 1909"
 		}
 	},
 	"connections": [
 		{
 			"to": "western-civ/metre-survey",
-			"why": "Gauge blocks are end standards, measured between two faces like the Mètre des Archives that the meridian survey produced in 1799, and Johansson's carried the metre into the workshop and fixed the inch at exactly 25.4 millimetres of it."
+			"why": "Gauge blocks are end standards, measured between two faces like the Mètre des Archives that the meridian survey produced in 1799, and Johansson's carried the meter into the workshop and fixed the inch at exactly 25.4 millimeters of it."
 		},
 		{
 			"to": "making/assembly-line",

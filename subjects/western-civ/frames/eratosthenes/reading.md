@@ -4,7 +4,7 @@ stick, a well, and a piece of reasoning.
 
 By then educated Greeks already knew the Earth was round. Aristotle had
 pointed out that its shadow on the [Moon](kloom:e/moon) during an eclipse is always curved,
-and that travellers going south see new stars rise above the horizon. The
+and that travelers going south see new stars rise above the horizon. The
 open question was how big it was.
 
 ## The measurement
@@ -18,7 +18,7 @@ one-fiftieth of a full circle — a little over seven degrees.
 
 Eratosthenes assumed the Sun is so far away that its rays arrive parallel.
 Then the angle of the shadow at Alexandria equals the angle between the two
-cities at the centre of the Earth. If Alexandria and Syene are one-fiftieth
+cities at the center of the Earth. If Alexandria and Syene are one-fiftieth
 of the way around, the whole circumference is fifty times the distance
 between them.
 
@@ -29,8 +29,8 @@ ancient sources give 252,000, a figure that divides neatly by sixty.
 ## How close was he?
 
 That depends on the length of a stadion, and nobody knows for certain which
-one he used. With the common Attic stadion of roughly 185 metres, 250,000
-stadia comes to about 46,000 kilometres, some 15 per cent too large; with
+one he used. With the common Attic stadion of roughly 185 meters, 250,000
+stadia comes to about 46,000 kilometers, some 15 per cent too large; with
 some shorter estimates it lands within a few per cent of the true 40,000. His
 assumptions were not quite right either: Syene is not exactly on the Tropic,
 nor exactly due south of Alexandria.

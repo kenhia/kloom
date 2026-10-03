@@ -2,7 +2,7 @@ In the 1240s a young physician in [Cairo](kloom:e/cairo) wrote a commentary on t
 
 ## A physician of Damascus and Cairo
 
-Ibn al-Nafis was born in or near **[Damascus](kloom:e/damascus)** in 1213 and trained at the city's great hospital, the Bimaristan al-Nuri. At about twenty-three he moved to Cairo, where he worked at the Nasiri Hospital and later became chief physician at the Mansuri. He was twenty-nine, by John West's account, when he wrote the _Commentary_, which puts it around 1242. He wrote on law, theology and philosophy as well as medicine, began a medical encyclopedia planned to run to three hundred volumes, and left it, with his library, to the hospital where he worked. Avicenna, whose _Canon_ he was explaining, had died two centuries before him, and the _Canon_ itself was Galen's physiology organised and extended.
+Ibn al-Nafis was born in or near **[Damascus](kloom:e/damascus)** in 1213 and trained at the city's great hospital, the Bimaristan al-Nuri. At about twenty-three he moved to Cairo, where he worked at the Nasiri Hospital and later became chief physician at the Mansuri. He was twenty-nine, by John West's account, when he wrote the _Commentary_, which puts it around 1242. He wrote on law, theology and philosophy as well as medicine, began a medical encyclopedia planned to run to three hundred volumes, and left it, with his library, to the hospital where he worked. Avicenna, whose _Canon_ he was explaining, had died two centuries before him, and the _Canon_ itself was Galen's physiology organized and extended.
 
 ## The argument
 
@@ -14,7 +14,7 @@ The _Commentary_ makes three claims that matter here, set out in the translation
 
 The plate draws the heart as he described it: a solid, thickened septum, Galen's route through it struck out, and the only way left, up through the lung and down again. It is the route of the [_pulmonary circulation_](kloom:e/pulmonary-circulation), sometimes called the lesser circulation, and it is still drawn this way.
 
-His reasoning ran on both anatomy and argument. Galen's pores were invisible by Galen's own admission, so the question was whether anything required them. Ibn al-Nafis took away the requirement. Blood had a road through the lung, so the pores had no work to do, and a wall made thicker than its neighbours to keep blood out could not also be a sieve to let it in. Whether he dissected human hearts himself is argued. He wrote that his beliefs kept him from dissection, while some modern anatomists who have studied the _Commentary_ conclude that he must have seen hearts, in dissection or in surgery.
+His reasoning ran on both anatomy and argument. Galen's pores were invisible by Galen's own admission, so the question was whether anything required them. Ibn al-Nafis took away the requirement. Blood had a road through the lung, so the pores had no work to do, and a wall made thicker than its neighbors to keep blood out could not also be a sieve to let it in. Whether he dissected human hearts himself is argued. He wrote that his beliefs kept him from dissection, while some modern anatomists who have studied the _Commentary_ conclude that he must have seen hearts, in dissection or in surgery.
 
 ![An open manuscript in Arabic script, with a small diagram of two circles joined by crossing lines below a semicircle on the left-hand page](sharh-tashrih-1334.jpg)
 

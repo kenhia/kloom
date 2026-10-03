@@ -1,10 +1,10 @@
-In December 1904 a twenty-year-old dental student from Grenada, Walter Clement Noel, was admitted to the Presbyterian Hospital in Chicago with anaemia. The intern who looked at his blood under the microscope, Ernest Irons, saw red cells unlike any he knew: "peculiar elongated and sickle-shaped". His chief, the physician **[James B. Herrick](kloom:e/james-b-herrick)**, published the case in 1910 and did not pretend to understand it. "Whether the blood picture represents merely a freakish poikilocytosis," he wrote, "or is dependent on some peculiar physical or chemical condition of the blood, or is characteristic of some particular disease, I cannot at present answer." Noel finished his studies, went home to practise dentistry in Grenada, and died of pneumonia in 1916. The disease named from his cells is **[sickle cell disease](kloom:e/sickle-cell-disease)**, and in 1949 it became the first disease traced to a change in a single kind of molecule.
+In December 1904 a twenty-year-old dental student from Grenada, Walter Clement Noel, was admitted to the Presbyterian Hospital in Chicago with anemia. The intern who looked at his blood under the microscope, Ernest Irons, saw red cells unlike any he knew: "peculiar elongated and sickle-shaped". His chief, the physician **[James B. Herrick](kloom:e/james-b-herrick)**, published the case in 1910 and did not pretend to understand it. "Whether the blood picture represents merely a freakish poikilocytosis," he wrote, "or is dependent on some peculiar physical or chemical condition of the blood, or is characteristic of some particular disease, I cannot at present answer." Noel finished his studies, went home to practice dentistry in Grenada, and died of pneumonia in 1916. The disease named from his cells is **[sickle cell disease](kloom:e/sickle-cell-disease)**, and in 1949 it became the first disease traced to a change in a single kind of molecule.
 
 ![A stained blood smear under the microscope: many round pink red cells, and among them elongated, crescent-shaped and pointed ones](sickle-cell-smear.jpg)
 
 ## Cells that change shape
 
-By the 1940s two things were known. The cells change shape only when oxygen is short: they turn from discs to crescents, and given oxygen or carbon monoxide again they turn back. And the tendency runs in families. In 1949, as **[Linus Pauling](kloom:e/linus-pauling)** and his colleagues summarised it, about 8 per cent of Black Americans carried the trait, and about one in forty of those had the severe anaemia, from the excessive destruction of their red cells. Since the change followed the gas bound to the hemoglobin inside the cell, Pauling's group at Caltech asked whether the hemoglobin itself was different.
+By the 1940s two things were known. The cells change shape only when oxygen is short: they turn from discs to crescents, and given oxygen or carbon monoxide again they turn back. And the tendency runs in families. In 1949, as **[Linus Pauling](kloom:e/linus-pauling)** and his colleagues summarized it, about 8 per cent of Black Americans carried the trait, and about one in forty of those had the severe anemia, from the excessive destruction of their red cells. Since the change followed the gas bound to the hemoglobin inside the cell, Pauling's group at Caltech asked whether the hemoglobin itself was different.
 
 ## Separating the molecules by charge
 
@@ -14,10 +14,10 @@ A protein in water carries charges on its surface, more positive or more negativ
 | -------------- | ------------------------------------------------------------------------------ |
 | Blood          | from patients not transfused in the previous three months                      |
 | Hemoglobin     | freed of cell membranes, diluted to about 0.5 g per 100 mL                     |
-| Buffer         | dialysed against it for 12 to 24 hours at 4 °C                                 |
+| Buffer         | dialyzed against it for 12 to 24 hours at 4 °C                                 |
 | Forms compared | bound to carbon monoxide; and oxygen-free, kept with dithionite under nitrogen |
-| Run            | 4.8 to 8.4 volts per centimetre, for 6 to 20 hours                             |
-| People         | 15 with the anaemia, 8 with the trait, 7 without either                        |
+| Run            | 4.8 to 8.4 volts per centimeter, for 6 to 20 hours                             |
+| People         | 15 with the anemia, 8 with the trait, 7 without either                         |
 
 The result was plain at pH 6.9, in phosphate buffer. There "the sickle cell anemia carbonmonoxyhemoglobin moves as a positive ion, while the normal compound moves as a negative ion". Their isoelectric points differed by 0.22 to 0.23 of a pH unit (6.87 against 7.09 for the carbon monoxide forms), which by their titrations meant two to four more positive charges on each sickle molecule. The plate draws the cell and their four traces. Blood from people with the trait gave two peaks, normal and sickle, the sickle about 40 per cent. Pauling's paper called it "a clear case of a change produced in a protein molecule by an allelic change in a single gene", and its title named a new idea: _a molecular disease_.
 

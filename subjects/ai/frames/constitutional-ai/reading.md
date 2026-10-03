@@ -5,7 +5,7 @@ model is trained to please the reward model; [OpenAI](kloom:e/openai)'s Instruct
 March 2022 set out the recipe. It has costs that [Anthropic](kloom:e/anthropic) later
 listed plainly: raters must read disturbing outputs, the work does not
 scale as answers grow longer and more technical, and the values it teaches
-stay implicit, spread across thousands of individual judgements.
+stay implicit, spread across thousands of individual judgments.
 
 ## Rules instead of raters
 
@@ -16,7 +16,7 @@ phases. In the first, a model answers a prompt, critiques its own answer
 against a principle drawn from the list, revises it, and is fine-tuned on
 the revisions. In the second, the model compares pairs of its own answers
 and judges which better follows the principles; a preference model trained
-on those AI judgements then supplies the reward for reinforcement learning.
+on those AI judgments then supplies the reward for reinforcement learning.
 The authors called this _RL from AI Feedback_, or RLAIF. The result, they
 reported, was an assistant that was "harmless but non-evasive": instead of
 refusing, it engaged with harmful requests by explaining its objections.
@@ -27,7 +27,7 @@ practice including [Apple](kloom:e/apple-inc)'s terms of service, principles fro
 such as [DeepMind](kloom:e/google-deepmind)'s rules for its _Sparrow_ chatbot, and an effort to
 include non-Western perspectives. It also conceded that "this selection
 reflects our own choices as designers". In September 2023 a team led by
-Harrison Lee compared the two methods on summarisation and dialogue and found RLAIF
+Harrison Lee compared the two methods on summarization and dialogue and found RLAIF
 performed on a par with RLHF.
 
 ## Who writes the rules?
@@ -52,7 +52,7 @@ the constitution's ideals".
 
 ## Other labs, other documents
 
-The idea of writing behaviour down is not Anthropic's alone. DeepMind's
+The idea of writing behavior down is not Anthropic's alone. DeepMind's
 _Sparrow_ (September 2022) broke good dialogue into natural-language rules
 and had raters judge each rule separately; under adversarial probing, the
 model broke them 8% of the time. **OpenAI** published its _Model Spec_ in

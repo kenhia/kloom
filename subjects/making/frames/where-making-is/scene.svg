@@ -53,6 +53,6 @@
 		<text x="335.5" y="224" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1 nm</text>
 		<text x="60" y="108" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BORE</text>
 		<text x="344" y="98" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OVERLAY</text>
-		<text x="200" y="286" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE ERROR, MILLIMETRES TO NANOMETRES, LOG SCALE</text>
+		<text x="200" y="286" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE ERROR, MILLIMETERS TO NANOMETERS, LOG SCALE</text>
 	</g>
 </svg>

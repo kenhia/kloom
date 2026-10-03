@@ -55,7 +55,7 @@ Because it can run freely and produce new patterns like its examples, the
 Boltzmann machine was an early _generative model_. It was also slow: every
 learning step needed long simulations to reach equilibrium twice, and the
 Nobel Committee for Physics judged it "initially of limited use". When
-[backpropagation](kloom:e/backpropagation) was popularised in 1986, it took the field's attention.
+[backpropagation](kloom:e/backpropagation) was popularized in 1986, it took the field's attention.
 
 ## Restricted
 
@@ -72,7 +72,7 @@ in the drawing. Now called a [_restricted Boltzmann machine_](kloom:e/restricted
 own after 2002, when Hinton published a fast approximate way to train it,
 _contrastive divergence_, which the Nobel committee called "much faster" than
 the original. Restricted Boltzmann machines were later used, among other
-things, to recommend films and television programmes.
+things, to recommend films and television programs.
 
 The Nobel citation of 2024 named the Boltzmann machine as Hinton's
 contribution. But the idea that mattered most came when he stopped using one

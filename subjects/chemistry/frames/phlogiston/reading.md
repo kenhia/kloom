@@ -4,7 +4,7 @@ For most of the eighteenth century, chemists explained fire with a substance tha
 
 ## A fatty earth
 
-Becher's _Physica subterranea_, a book on the making of minerals underground, kept the old idea that bodies are built of a few principles, but replaced fire and air among them with three kinds of earth. One of them, the _terra pinguis_ or fatty earth, was what made a thing oily, sulphurous and combustible, and it left when the thing burned. Wikipedia's article on the theory dates the book 1667 in one paragraph and 1669 in another, and the 1911 _Encyclopaedia Britannica_ gives 1669.
+Becher's _Physica subterranea_, a book on the making of minerals underground, kept the old idea that bodies are built of a few principles, but replaced fire and air among them with three kinds of earth. One of them, the _terra pinguis_ or fatty earth, was what made a thing oily, sulfurous and combustible, and it left when the thing burned. Wikipedia's article on the theory dates the book 1667 in one paragraph and 1669 in another, and the 1911 _Encyclopaedia Britannica_ gives 1669.
 
 Stahl republished Becher's book in 1703, with a _Specimen Becherianum_ of his own, and in his books up to the _Fundamenta chymiae_ of 1723 he called the principle _phlogiston_, an older word from the Greek for "burnt". In the Britannica's summary of the system, a combustible body is phlogiston joined to something else, and the fiercer the burning, the more phlogiston it holds. Charcoal, which burns away to almost nothing, was very nearly pure phlogiston.
 

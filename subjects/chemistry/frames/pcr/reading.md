@@ -8,7 +8,7 @@ His colleagues, he said, were not excited. His first experiment, set up at midni
 
 ## Doubling, and nearly doubling
 
-The first paper, by Saiki and six colleagues including Mullis in _Science_ in December 1985, amplified a 110-base-pair piece of the β-globin gene to diagnose sickle-cell anaemia. Each of its 20 cycles took six or seven minutes by hand: boil at 95 °C, cool to 30 °C so the primers bind, and add fresh enzyme, because the heat destroyed the polymerase every time. The paper measured the yield and wrote the arithmetic out: if a fraction _X_ of the molecules is copied in each cycle, _n_ cycles multiply them by (1 + _X_)ⁿ. It found about 85 per cent a cycle, and 1.85²⁰ ≈ 220,000.
+The first paper, by Saiki and six colleagues including Mullis in _Science_ in December 1985, amplified a 110-base-pair piece of the β-globin gene to diagnose sickle-cell anemia. Each of its 20 cycles took six or seven minutes by hand: boil at 95 °C, cool to 30 °C so the primers bind, and add fresh enzyme, because the heat destroyed the polymerase every time. The paper measured the yield and wrote the arithmetic out: if a fraction _X_ of the molecules is copied in each cycle, _n_ cycles multiply them by (1 + _X_)ⁿ. It found about 85 per cent a cycle, and 1.85²⁰ ≈ 220,000.
 
 That exponent is why efficiency matters so much. By our arithmetic, for 30 cycles from one molecule:
 

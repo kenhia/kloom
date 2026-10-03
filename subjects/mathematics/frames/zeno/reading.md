@@ -28,7 +28,7 @@ The dichotomy asks us to add up infinitely many pieces: ½ + ¼ + ⅛ + …. The
 |   10 |        1023/1024 |      1/1024 |
 |   20 |  1048575/1048576 |   1/1048576 |
 
-No finite number of runs finishes the course, but whatever gap is named, a millionth or a billionth, some number of runs leaves less than it. That is what it means, since **[Augustin-Louis Cauchy](kloom:e/augustin-louis-cauchy)** made it precise in the nineteenth century, to say that the infinite sum _is_ 1. The time sums the same way: if the whole course takes a minute, the runs take ½, ¼, ⅛ of a minute, and they are all done when the minute is. Achilles is the same sum in other numbers. Give the tortoise, by our own invention, a 90-metre start, Achilles ten times its speed, and he runs 90 + 9 + 0.9 + … metres, which is 100, where he passes it.
+No finite number of runs finishes the course, but whatever gap is named, a millionth or a billionth, some number of runs leaves less than it. That is what it means, since **[Augustin-Louis Cauchy](kloom:e/augustin-louis-cauchy)** made it precise in the nineteenth century, to say that the infinite sum _is_ 1. The time sums the same way: if the whole course takes a minute, the runs take ½, ¼, ⅛ of a minute, and they are all done when the minute is. Achilles is the same sum in other numbers. Give the tortoise, by our own invention, a 90-meter start, Achilles ten times its speed, and he runs 90 + 9 + 0.9 + … meters, which is 100, where he passes it.
 
 ## Is that an answer?
 

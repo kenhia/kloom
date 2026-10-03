@@ -54,7 +54,10 @@ and is what you review.
 
 2. **Check it is correct.** "Correct" for grown content has five parts:
    - **It validates.** `just check`. The job already ran the validator, but
-     `main` may have moved since.
+     `main` may have moved since, and the validator does not check
+     spelling: a British spelling `just check` flags in the grown frames is
+     a wording repair (`python3 create-tools/spelling/american.py apply
+<the frames>`), with no `edits` entry.
    - **The fact rule:** every claim against the source it rests on, read
      where the grow job could not.
      - Open each key citation, and the citations that carry a reading's

@@ -16,7 +16,7 @@ asked him to explain the physics of small particles in a way she could
 follow; her husband, **Leonard Mautner**, had been Feynman's friend since
 their boyhood in Far Rockaway, and the lecture series was founded in her
 memory after her death. [Ralph Leighton](kloom:e/ralph-leighton) transcribed and edited the UCLA talks, and
-Feynman's acknowledgement notes that the manuscript was then considerably
+Feynman's acknowledgment notes that the manuscript was then considerably
 reworked. In 1996 two physicists at Auckland, J. M. Dudley and A. M.
 Kwan, compared the book with the Auckland tapes, listed where they
 differ, and argued that the spoken versions show more of the man.
@@ -58,11 +58,11 @@ full turn of the back arrow.
 | 360°                    | 0                 | 0%        |
 
 The steps are this frame's; the rule and the 0% to 16% are the book's.
-The same arithmetic colours a soap film. Where the film drains thinner
+The same arithmetic colors a soap film. Where the film drains thinner
 than a small fraction of a wavelength, the back arrow has hardly turned,
 the reversed front arrow cancels it, and the film goes black.
 
-![A draining soap film, seen close up in reflected light: bright bands of interference colour at one edge, and across the rest grey and black patches where the film has thinned almost to nothing](soap-film.jpg)
+![A draining soap film, seen close up in reflected light: bright bands of interference color at one edge, and across the rest gray and black patches where the film has thinned almost to nothing](soap-film.jpg)
 
 ## The whole theory in three actions
 

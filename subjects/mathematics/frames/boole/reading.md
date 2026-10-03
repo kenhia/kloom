@@ -29,7 +29,7 @@ With Jevons's "or", written in Boole's own signs as _x_ + _y_ − _xy_, one of D
 
 Once logic was a calculation, someone would build a machine to do it. Jevons had a clockmaker in Salford build his _logic piano_ in 1869. Its keys took the terms of an argument, and its face showed every combination of four terms and their negations, sixteen in all, dropping those the premises ruled out. It survives in the History of Science Museum at Oxford.
 
-![Jevons's logic piano: a tall wooden cabinet with four rows of small labelled tiles, the letters A, B, C and D in capitals and lower case, across its face, and a row of ivory keys at its foot](logic-piano.jpg)
+![Jevons's logic piano: a tall wooden cabinet with four rows of small labeled tiles, the letters A, B, C and D in capitals and lower case, across its face, and a row of ivory keys at its foot](logic-piano.jpg)
 
 In 1880 the Cambridge logician **[John Venn](kloom:e/john-venn)** published the overlapping circles now named after him, drawn so that every combination of classes has a region of its own: a picture of the same combinations. And in a letter of 1886 the American philosopher **[Charles Sanders Peirce](kloom:e/charles-sanders-peirce)** told his former student Allan Marquand, who had built a logic machine of his own, that the same combinations could be made with electric switches. It lay unpublished for decades.
 

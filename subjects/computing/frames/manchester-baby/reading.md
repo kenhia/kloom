@@ -73,7 +73,7 @@ September 1948 reported the long run: the highest factor of 2¹⁸, found in
 52 minutes, with about 130,000 numbers tried and some 3.5 million
 operations.
 
-![The Baby's replica in Manchester's Science and Industry Museum: a row of tall grey open steel racks crowded with valves and chassis, with visitors reading the panels in front](baby-replica.jpg)
+![The Baby's replica in Manchester's Science and Industry Museum: a row of tall gray open steel racks crowded with valves and chassis, with visitors reading the panels in front](baby-replica.jpg)
 
 When that run happened is told two ways. The usual account, Wikipedia's
 among them, puts the 52-minute run on 21 June itself. The [University of

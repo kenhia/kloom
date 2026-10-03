@@ -35,8 +35,8 @@ The first proposition shows the form every other one takes. In Thomas
 Heath's translation of 1908 it reads: "On a given finite straight line to
 construct an equilateral triangle."
 
-Let the line be _AB_. With centre _A_ and distance _AB_, draw a circle
-(postulate 3). With centre _B_ and distance _BA_, draw another (postulate
+Let the line be _AB_. With center _A_ and distance _AB_, draw a circle
+(postulate 3). With center _B_ and distance _BA_, draw another (postulate
 3 again). From _C_, where the circles cut one another, join _CA_ and _CB_
 (postulate 1). Now _CA_ equals _AB_, because both are radii of the first
 circle, and _CB_ equals _BA_, as radii of the second. Things equal to the
@@ -82,7 +82,7 @@ followed.
 For most of that time the _Elements_ was geometry. The historian W. W. Rouse
 Ball thought that its having been "the usual text-book on the subject" for
 two thousand years raised "a strong presumption that it is not unsuitable
-for that purpose." Its form travelled further than its figures. **[Isaac
+for that purpose." Its form traveled further than its figures. **[Isaac
 Newton](kloom:e/isaac-newton)** set out his _Principia_ of 1687 in the same order: definitions,
 then "axioms, or laws of motion", then propositions proved from them. Only
 in the nineteenth century did schools give Euclid up for newer textbooks,

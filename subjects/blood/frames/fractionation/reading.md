@@ -14,9 +14,9 @@ Salt had been the chemist's way to throw a protein out of solution. Cohn replace
 
 Fraction IV-1 was taken out after II + III by lowering the ethanol again, a later refinement. The figures for the first four come from Cohn's 1948 history, which quotes his 1946 paper; for Fraction V he wrote only "near its isoelectric point", and the pH 4.8 is Wikipedia's and his 1940 report's range of 4.4 to 4.8. The ethanol is per cent by volume and the pH as measured at 25 °C, as Cohn specified.
 
-![Bar chart of grams of protein per litre of plasma in each Cohn fraction: I 3.4, II plus III 19.0, IV-1 5.1, IV-4 5.8, V 31.5, VI 1.0](fractions.svg)
+![Bar chart of grams of protein per liter of plasma in each Cohn fraction: I 3.4, II plus III 19.0, IV-1 5.1, IV-4 5.8, V 31.5, VI 1.0](fractions.svg)
 
-| Fraction    | Grams per litre of plasma |
+| Fraction    | Grams per liter of plasma |
 | ----------- | ------------------------: |
 | I           |                       3.4 |
 | II + III    |                      19.0 |

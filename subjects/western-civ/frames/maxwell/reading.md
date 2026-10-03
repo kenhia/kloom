@@ -26,7 +26,7 @@ through empty space.
 The equations also said how fast such a wave must travel, and the speed came
 from two constants measured in ordinary electrical experiments, with coils
 and capacitors, not with light at all. Using the measurements of his day,
-Maxwell calculated about 310,740 kilometres per second. Measured values for
+Maxwell calculated about 310,740 kilometers per second. Measured values for
 the [speed of light](kloom:e/speed-of-light) were very close. He concluded:
 
 > The agreement of the results seems to show that light and magnetism are
@@ -45,6 +45,6 @@ does the telescope at the end of this timeline, which sees in [infrared](kloom:e
 Maxwell's original equations were many and cumbersome; Oliver Heaviside later
 rewrote them in the compact vector form of four equations familiar to physics
 students today, and printed on their T-shirts. Maxwell also made the first
-durable colour photograph, in 1861, and laid the foundations of the kinetic
+durable color photograph, in 1861, and laid the foundations of the kinetic
 theory of gases. Einstein kept his picture on the wall. The world's wires
 and airwaves are, in a sense, his field made useful.

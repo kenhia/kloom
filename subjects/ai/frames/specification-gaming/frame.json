@@ -204,7 +204,7 @@
 	"connections": [
 		{
 			"to": "ai/rlhf",
-			"why": "Optimised too hard, RLHF's summaries got worse while the learned reward kept rising: specification gaming against a reward model."
+			"why": "Optimized too hard, RLHF's summaries got worse while the learned reward kept rising: specification gaming against a reward model."
 		}
 	]
 }

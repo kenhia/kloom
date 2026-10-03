@@ -1,15 +1,15 @@
 {
 	"id": "between-centres",
-	"topic": "Turning between centres",
+	"topic": "Turning between centers",
 	"position": {
-		"label": "Between centres"
+		"label": "Between centers"
 	},
 	"scene": {
 		"headline": "We held it between two",
 		"accent": "POINTS.",
 		"palette": "drafting",
 		"illustration": "scene.svg",
-		"metadata": ["MOXON · NASMYTH · THE MACHINIST'S MANUAL", "60° CENTRES · A DOG · A SLIDE REST"],
+		"metadata": ["MOXON · NASMYTH · THE MACHINIST'S MANUAL", "60° CENTERS · A DOG · A SLIDE REST"],
 		"counter": {
 			"value": "191",
 			"label": "revolutions a minute for 30 m/min on a 50 mm bar"

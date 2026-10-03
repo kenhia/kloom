@@ -1,4 +1,4 @@
-Every story of civilisation has to begin somewhere, and the Greeks began theirs
+Every story of civilization has to begin somewhere, and the Greeks began theirs
 with a theft.
 
 In [Hesiod](kloom:e/hesiod)'s _Theogony_ and _Works and Days_, composed around 700 BC, the Titan

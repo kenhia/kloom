@@ -329,7 +329,8 @@ As each author reports:
    means a fact, date, attribution, quotation or source changed, or a
    section rewritten: add an entry to its `edits`, as
    `skills/grow/SKILL.md` §Edits and corrections says. Adding a connection
-   or a name mark is not an edit.
+   or a name mark is not an edit, and neither is respelling to American
+   English.
 7. **Connections between the authors' frames** wait for review: each
    author lists the ones they want in this subject, and the reviewer adds
    them once both ends are committed, checking each _why_ against a

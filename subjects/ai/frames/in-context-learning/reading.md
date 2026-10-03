@@ -1,5 +1,5 @@
 Pretraining had a second step: to teach a model a task, you fine-tuned it on
-thousands of labelled examples. In May 2020 [OpenAI](kloom:e/openai) showed that a large enough
+thousands of labeled examples. In May 2020 [OpenAI](kloom:e/openai) showed that a large enough
 model could often skip that step. You wrote a few examples of the task into
 the prompt, and it carried on the pattern, its weights untouched.
 

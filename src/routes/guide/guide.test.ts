@@ -86,7 +86,7 @@ describe("the User's Guide", () => {
 	});
 
 	it('is written in American English, naming controls as they are labeled', () => {
-		const labels = /Scene colours|Reading colours|Centre on it/g;
+		const labels = /Scene colors|Reading colors|Center on it/g;
 		const prose = body.replace(labels, '');
 		expect(prose).not.toMatch(/colour|centre|neighbour|behaviour|favour|grey/i);
 	});

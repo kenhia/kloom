@@ -12,7 +12,7 @@
 		"illustration": "scene.svg",
 		"metadata": [
 			"HEIDELBERG · GUSTAV KIRCHHOFF · ROBERT BUNSEN",
-			"FRAUNHOFER 1814 · CAESIUM 1860 · HELIUM 1868 · BALMER 1885"
+			"FRAUNHOFER 1814 · CESIUM 1860 · HELIUM 1868 · BALMER 1885"
 		],
 		"counter": {
 			"value": "1/3,000,000",
@@ -277,11 +277,11 @@
 	"connections": [
 		{
 			"to": "western-civ/jwst",
-			"why": "Webb's spectrum of water in another planet's atmosphere is Kirchhoff's method of 1859: a cool gas takes its own colours out of the light that passes through it."
+			"why": "Webb's spectrum of water in another planet's atmosphere is Kirchhoff's method of 1859: a cool gas takes its own colors out of the light that passes through it."
 		},
 		{
 			"to": "western-civ/si-redefinition",
-			"why": "Caesium, found in 1860 by lines in its spectrum, now defines the second by the frequency of another of its spectral lines, one of the seven exact numbers of the 2019 SI."
+			"why": "Cesium, found in 1860 by lines in its spectrum, now defines the second by the frequency of another of its spectral lines, one of the seven exact numbers of the 2019 SI."
 		}
 	]
 }

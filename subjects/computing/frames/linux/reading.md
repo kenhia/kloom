@@ -1,6 +1,6 @@
 By 1991 the [GNU](kloom:e/gnu) system had a compiler, a shell, an editor and a library,
 and no kernel. A student in Helsinki who wanted a [Unix](kloom:e/unix) for his new PC wrote
-one, gave it away, soon under GNU's licence, and let anyone on the Internet send
+one, gave it away, soon under GNU's license, and let anyone on the Internet send
 him changes. Thirty-five years later it runs every one of the world's
 fastest supercomputers and most of its phones. What follows was true as of
 28 September 2026.
@@ -23,7 +23,7 @@ Lemmke, named the directory [_Linux_](kloom:e/linux), and the name stuck.
 
 ![Linus Torvalds, young, in glasses and a white sweatshirt, walking down a crowded trade-show aisle at LinuxWorld in New York in 2000, carrying a boxed Linux distribution](torvalds-2000.jpg)
 
-The first licence forbade selling it, "not even 'handling' costs". The
+The first license forbade selling it, "not even 'handling' costs". The
 release notes of version 0.12 changed that: people had asked for it to be
 compatible with the GNU copyleft, and he agreed, so that the [GPL](kloom:e/gnu-general-public-license) took
 effect on 1 February 1992. Version 0.95, in March, was the first published

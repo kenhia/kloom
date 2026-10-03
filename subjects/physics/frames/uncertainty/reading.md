@@ -7,7 +7,7 @@ rather tense". In late February 1927 Bohr went skiing in Norway. Heisenberg,
 alone, wrote out his answer in a fourteen-page letter to Pauli, and then as
 a paper, which the _Zeitschrift für Physik_ received on 23 March.
 
-![The Niels Bohr Institute on Blegdamsvej in Copenhagen in 2020: a cream-coloured three-storey building with a red tiled roof and dormer windows, NIELS BOHR INSTITUTET 1920 lettered over the door, with cars parked along the street in front](bohr-institute.jpg)
+![The Niels Bohr Institute on Blegdamsvej in Copenhagen in 2020: a cream-colored three-story building with a red tiled roof and dormer windows, NIELS BOHR INSTITUTET 1920 lettered over the door, with cars parked along the street in front](bohr-institute.jpg)
 
 ## The microscope
 

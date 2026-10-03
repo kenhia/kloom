@@ -66,7 +66,7 @@ papers by a committee, only in 1752, and refereeing became systematic only in
 the 1830s.
 
 Within a few years the young [Isaac Newton](kloom:e/isaac-newton)'s first paper, on light and
-colours, went out in its pages in February 1672. Huygens's watches, for their
+colors, went out in its pages in February 1672. Huygens's watches, for their
 part, did not keep time well enough at sea. That problem waited for
 Harrison's marine chronometer. A century on, the same habit of report and
 trial met iron and coal in Watt's steam engine.

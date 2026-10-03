@@ -275,7 +275,7 @@ page?}`: the session laws or the code it is in), the year left out
       form. The 22 statutes, regulations and cases written before as
       `chapter`, `web`, `book` or `report` were moved; "Andersen v.
       Stability AI" stays `web`, a journal's piece about the case.
-    - **`read: "record"`**, "Read in its catalogue record only.", for a
+    - **`read: "record"`**, "Read in its catalog record only.", for a
       work whose own bibliographic record was reached (Crossref, a
       publisher's landing page) but not its text. `citedIn` stays for a
       work known only through another work.
@@ -1037,6 +1037,35 @@ subject in order, the headline does, and the topic goes beside it.**
   one agent per subject for the rest, reviewed and committed per subject.
   It is authored content, not grown, so it went through the sprint's own
   review rather than the grown-content path (korg 3442).
+
+## Spelling
+
+kloom's own words are American English (korg 3521, sprint 044): the
+readings, the scenes, topics, captions and alt text, section and trail
+titles, names' descriptions, connections' _why_, and the app's labels and
+copy. What kloom quotes keeps its own spelling: quotations and block
+quotes, titles of works, proper names ("Royal College of Nursing",
+"Ministry of Defence", the "Metre Convention") and every citation field,
+which are the source's words.
+
+- **Not a revision.** Respelling changes how a word is spelled, not what a
+  frame says, so it never adds an `edits` entry (§What's new), and since a
+  frame's added date is its first appearance on `main`, it adds nothing to
+  the Changelog either.
+- **The tool and the gate.** `create-tools/spelling/american.py` knows
+  British spellings from a word list (a word it was not told about is never
+  changed) and skips quotations, capitalized titles, proper names, code and
+  link targets. `just check` runs it over `subjects`, `names`, `src` and
+  `engine`; `suspects` lists the words that look British and the list
+  lacks.
+- **Names.** A name in the registry that is a common noun is spelled the
+  American way (Hemophilia, Aluminum), with the British form kept among its
+  aliases; a proper name keeps its own. Ids never change for spelling.
+- **Settings keep their keys.** Labels changed (Scene colors, Reading
+  colors); the stored keys (`kloom.scene`, `kloom.reading`) did not, so
+  readers' saved settings carry over.
+- Code identifiers, the citation field `licence`, palette names and older
+  docs are not swept; new writing follows the rule.
 
 ## Risks
 
@@ -1918,7 +1947,7 @@ My notes, Agent review with the same plain statement Welcome makes, About
 with Suggest a subject, settings, colors (a section of its own: both
 settings, every choice, both sliders, the two sides colored apart), the
 keyboard, and phones. Its prose is American English, and it names each
-control exactly as labeled, so "Scene colours" until the labels change. Its own list
+control exactly as labeled ("Scene colors", since sprint 044). Its own list
 of parts links to each.
 
 - **Icons as they look.** The shell's icons live in one component,
@@ -2116,13 +2145,13 @@ distracting, dark readings hard to read and light a little bright.
   content was re-paletted this way in sprint 038, and the authoring skills
   and `subject_plan.py` choose a palette per section (`skills/grow`,
   `skills/author-subject`).
-- **Scene colours** (`kloom.scene`): _By section_ (the default), _Each
+- **Scene colors** (`kloom.scene`): _By section_ (the default), _Each
   frame_, _Always dark_, _Always light_. By section, a frame wears its own
   palette in its section palette's scheme, through `counterpart`. So a
   subject whose sections are one palette each looks the same either way.
   A frame that stands apart keeps its colours by being a one-frame section
   (the dedications). A trail's segments are sections like any other.
-- **Reading colours** (`kloom.reading`): _Same as scene_ (the default),
+- **Reading colors** (`kloom.reading`): _Same as scene_ (the default),
   _Always light_, _Always dark_. A fixed reading wears its frame's own
   palette in that scheme.
 - **Which side is which.** The scene pane (the scene, its HUD and their
@@ -2249,7 +2278,7 @@ Built in sprint 003 (korg 3373, 3372).
   Sync Narrative button until that button went. The old `kloom.sync` key is
   not read, so everyone starts on the new default.
 - **Colours** (sprint 038; the Palette mode of sprints 003 to 037 before
-  it): Scene colours, Reading colours, and the brightness sliders under
+  it): Scene colors, Reading colors, and the brightness sliders under
   Advanced (§Colours). The OS `prefers-color-scheme` is not consulted. By
   section is the designed experience, the palette tracking the era, and a
   single scheme is a reader's explicit choice rather than an inference.

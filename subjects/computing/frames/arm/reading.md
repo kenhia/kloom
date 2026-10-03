@@ -44,7 +44,7 @@ Phoenix, where the 6502's successor was being designed in a suburban
 bungalow, persuaded them that a small team could do it. The project began
 in October 1983, with Wilson's instruction set simulated in BBC BASIC.
 
-![An Acorn ARM Evaluation System board: a square gold-lidded ARM processor in a socket at the centre of a green circuit board, surrounded by memory chips, with Acorn's logo printed beside it](arm-evaluation.jpg)
+![An Acorn ARM Evaluation System board: a square gold-lidded ARM processor in a socket at the center of a green circuit board, surrounded by memory chips, with Acorn's logo printed beside it](arm-evaluation.jpg)
 
 VLSI Technology made it. The design was checked at VLSI's offices in
 Munich in January 1985, and the first chips came back on 26 April; by the
@@ -62,7 +62,7 @@ instruction. Its first four bits are a condition, so almost any instruction
 can be told to happen only if, say, the last result was zero, which saves
 short branches.
 
-## Licences, not chips
+## Licenses, not chips
 
 The ARM2 went into Acorn's Archimedes in 1987, with 30,000 transistors
 against about 68,000 in Motorola's 68000. Then Apple wanted the chip for its
@@ -79,14 +79,14 @@ small, frugal core that others could put beside their own circuits.
 | 2010 | ARM-based processors shipped in the year           | 6.1 billion      | Wikipedia      |
 | 2026 | ARM-based chips shipped since the start            | over 350 billion | Arm, May 2026  |
 | 2026 | Arm's royalty revenue, year to March               | $2.61 billion    | Arm, May 2026  |
-| 2026 | Arm-designed Neoverse data-centre cores shipped    | over 1.5 billion | Arm, July 2026 |
+| 2026 | Arm-designed Neoverse data-center cores shipped    | over 1.5 billion | Arm, July 2026 |
 
 By 2005 about 98 per cent of mobile phones sold held at least one ARM
 processor; the first [iPhone](kloom:e/iphone), in 2007, ran on a Samsung-made ARM chip. Since 2011 the architecture has
 been 64-bit as well. It reached the top of the supercomputer list in June
 2020 with Japan's Fugaku. And in 2026 the company that had sold only
 designs for more than three decades announced its first chip of its own, the AGI
-CPU, for data centres running AI.
+CPU, for data centers running AI.
 
 The processor that a school-computer company designed because it could not
 buy one is the processor of the smartphone.

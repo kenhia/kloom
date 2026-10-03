@@ -13,7 +13,7 @@ unchanged, and the deeper network computes exactly the same thing. Yet when
 **[Kaiming He](kloom:e/kaiming-he)**, Xiangyu Zhang, Shaoqing Ren and Jian Sun trained plain
 networks of increasing depth, the deeper ones had _higher_ error, and not
 only on new images: they were worse on the very images they were trained on.
-So this was not overfitting. The optimiser simply could not find the
+So this was not overfitting. The optimizer simply could not find the
 solution that was known to exist.
 
 Their own comparison on [ImageNet](kloom:e/imagenet) shows it. In the table below, adding sixteen
@@ -29,14 +29,14 @@ _Top-1 error on the ImageNet validation set, 10-crop testing (He et al.,
 table 2)._
 
 It was not the old problem of [_vanishing gradients_](kloom:e/vanishing-gradient-problem), they argued. Their plain
-networks used **batch normalisation**, a technique published that February
+networks used **batch normalization**, a technique published that February
 by Sergey Ioffe and Christian Szegedy at Google, which rescales the inputs to
 each layer over every mini-batch of training examples. Ioffe and Szegedy had
 shown that it let networks train with much higher learning rates, reaching
 the same accuracy in fourteen times fewer steps, and with it they had pushed
-ImageNet top-5 error to 4.9 per cent. With batch normalisation the signals in
+ImageNet top-5 error to 4.9 per cent. With batch normalization the signals in
 He's plain networks did not vanish, going forward or back. The networks were
-just hard to optimise. (Why batch normalisation itself works is still debated: its
+just hard to optimize. (Why batch normalization itself works is still debated: its
 authors said it reduced shifts in each layer's inputs during training, and
 later experiments suggest that is not the reason.)
 
@@ -59,7 +59,7 @@ the 19.6 billion of the 19-layer VGG. On a smaller dataset, CIFAR-10, they
 trained networks of more than 100 layers and explored one of more than
 1,000. An ensemble of residual networks reached 3.57 per cent top-5 error on
 the ImageNet test set and won the 2015 challenge's classification task; the
-same networks won its detection and localisation tasks, and detection and
+same networks won its detection and localization tasks, and detection and
 segmentation in the COCO competition.
 
 ## Everywhere since

@@ -28,7 +28,7 @@ should. He tried it, and they did.
 The apparatus is in his first memoir. One wire is fixed; the other is part
 of a rectangle hung from a glass axis on fine steel points, resting in cups
 of mercury that carry the current, under a glass case to keep off
-draughts. The two stay parallel, and the hanging one swings towards the
+drafts. The two stay parallel, and the hanging one swings towards the
 fixed one or away from it. The top half of the plate draws the same pair
 end-on, each wire ringed by its own magnetic circles.
 
@@ -39,7 +39,7 @@ first idea was that a bar magnet carries currents circling its axis.
 **[Augustin Fresnel](kloom:e/augustin-jean-fresnel)**, his friend and the maker of the wave theory of light,
 objected that iron conducts poorly and such currents would heat the magnet,
 and suggested instead a tiny current round each molecule. Ampère took the
-idea at once. Lined up, the molecular currents cancel where neighbours
+idea at once. Lined up, the molecular currents cancel where neighbors
 touch and add up round the edge, as the lower half of the plate draws. The
 _electrodynamic molecule_ was a hypothesis with nothing to show for it, and
 Faraday among others distrusted it for that reason.
@@ -86,11 +86,11 @@ it in 1948:
 
 | From | The ampere is the current that…                                              |
 | ---- | ---------------------------------------------------------------------------- |
-| 1948 | in two long parallel wires 1 metre apart pulls them together at 2 × 10⁻⁷ N/m |
+| 1948 | in two long parallel wires 1 meter apart pulls them together at 2 × 10⁻⁷ N/m |
 | 2019 | carries 10¹⁹ ÷ 1.602176634 elementary charges past a point each second       |
 
 The wire definition fixed the magnetic constant exactly but was hard to
-realise, and laboratories came to keep the ampere through quantum
+realize, and laboratories came to keep the ampere through quantum
 electrical standards instead. Since 20 May 2019 the ampere has been
 defined by fixing the elementary charge, _e_ = 1.602176634 × 10⁻¹⁹
 coulomb: about 6.24 × 10¹⁸ charges a second. Ampère's parallel wires are

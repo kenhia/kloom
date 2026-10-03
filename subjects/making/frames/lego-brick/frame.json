@@ -13,7 +13,7 @@
 		"metadata": ["BILLUND · GODTFRED KIRK CHRISTIANSEN", "ABS · STUDS AND TUBES · AN 8 MM GRID"],
 		"counter": {
 			"value": "0.005 mm",
-			"label": "the accuracy of Lego's moulds, by the company's 2011 account"
+			"label": "the accuracy of Lego's molds, by the company's 2011 account"
 		}
 	},
 	"citations": [
@@ -183,7 +183,7 @@
 	"connections": [
 		{
 			"to": "making/injection-moulding",
-			"why": "Lego bought an injection moulding machine from England in 1947, the machine that made its plastic bricks."
+			"why": "Lego bought an injection molding machine from England in 1947, the machine that made its plastic bricks."
 		}
 	]
 }

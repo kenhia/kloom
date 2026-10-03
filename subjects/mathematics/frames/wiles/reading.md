@@ -17,7 +17,7 @@ his method could not reach. In January 1993 he took his Princeton
 colleague **[Nick Katz](kloom:e/nick-katz)** into his confidence to check the argument.
 
 He chose to announce it in Cambridge, at a conference at the **[Isaac
-Newton Institute](kloom:e/isaac-newton-institute)** organised by Coates. He gave three lectures, from 21 to
+Newton Institute](kloom:e/isaac-newton-institute)** organized by Coates. He gave three lectures, from 21 to
 23 June 1993, under a title that did not mention Fermat. At the end of
 the last one he wrote the theorem on the board, said he had proved it, and
 added, "I think I'll stop there."
@@ -67,14 +67,14 @@ checks prime by prime. So no solution exists.
 In 2001 Christophe Breuil, Brian Conrad, Fred Diamond and Taylor proved
 that every elliptic curve over the rationals is modular, the whole of
 Taniyama's conjecture. **[Kevin Buzzard](kloom:e/kevin-buzzard)** of Imperial College began in 2024
-to formalise the proof in the proof assistant **[Lean](kloom:e/lean-proof-assistant)**, with a
+to formalize the proof in the proof assistant **[Lean](kloom:e/lean-proof-assistant)**, with a
 five-year grant to reduce it to results known by the 1980s. On 4
 September 2026 **[Anthropic](kloom:e/anthropic)** announced that its model Claude, as dozens of
 agents in a harness built on Claude Code, had written a complete Lean
 proof in eleven days that August: 13 million lines, following the 1995
 exposition by Henri Darmon, Diamond and Taylor. Buzzard compiled it and
 checked it: "it checks out". It closed the last of Freek Wiedijk's list of
-100 theorems to be formalised. Mathematically, he wrote, it "tells us
+100 theorems to be formalized. Mathematically, he wrote, it "tells us
 essentially nothing", since number theorists were already sure of the
 proof; what it shows is what machines can now check. As of 30 September
 2026 his own project goes on, towards a document in which people can explore the modern proof.

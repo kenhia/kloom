@@ -11,7 +11,7 @@ was built by arguing against them point by point.
 ## Every thing in its place
 
 Aristotle took the four elements of Empedocles, earth, water, air and fire,
-and gave each a **natural place**. Earth's is the centre of the universe,
+and gave each a **natural place**. Earth's is the center of the universe,
 which is why the Earth is there and why a stone falls. Water's is a shell
 above earth; air's, a shell above water; fire's, a shell above air, just
 under the sphere that carries the Moon. The plate draws a slice of this

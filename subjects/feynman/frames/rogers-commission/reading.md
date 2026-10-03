@@ -27,7 +27,7 @@ procedure and worried constantly about leaks to the press.
 | Albert Wheelon    | Physicist, executive vice president of Hughes Aircraft |
 | Chuck Yeager      | Test pilot, the first to fly faster than sound         |
 
-![Two members of the commission's party in dark suits walking towards the camera at Kennedy Space Center in March 1986, carrying briefcases, with the tall white rockets of the visitor centre's display behind them](commission-arrives.jpg)
+![Two members of the commission's party in dark suits walking towards the camera at Kennedy Space Center in March 1986, carrying briefcases, with the tall white rockets of the visitor center's display behind them](commission-arrives.jpg)
 
 Feynman had been recruited by **[William Graham](kloom:e/william-robert-graham)**, NASA's acting
 administrator and once his student. By his own account, told in a talk at

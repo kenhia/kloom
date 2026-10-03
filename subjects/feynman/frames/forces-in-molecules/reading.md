@@ -2,7 +2,7 @@
 
 ## Mathematics, engineering, physics
 
-He began in mathematics. Some time in his first year he went to the head of the department and asked what higher mathematics was for, apart from teaching more of it. Becoming an actuary, he was told. In his 1966 interview with Charles Weiner he remembered deciding that he needed to get his hands dirty, switching to electrical engineering, and then realising within months that he had gone too far and that physics lay in between.
+He began in mathematics. Some time in his first year he went to the head of the department and asked what higher mathematics was for, apart from teaching more of it. Becoming an actuary, he was told. In his 1966 interview with Charles Weiner he remembered deciding that he needed to get his hands dirty, switching to electrical engineering, and then realizing within months that he had gone too far and that physics lay in between.
 
 He moved fast. Advised by older students in his fraternity, Phi Beta Delta, he passed the examinations for first-year calculus before he arrived. As a sophomore he took **[John Slater](kloom:e/john-c-slater)**'s advanced course in theoretical physics, meant for seniors and graduate students, and sat next to the only other sophomore in the room, **Theodore Welton**, who became his closest friend and sparring partner. **[Philip Morse](kloom:e/philip-m-morse)** taught the two of them quantum mechanics privately, an hour a week in his office, and set them a research problem on the energy levels of light atoms.
 

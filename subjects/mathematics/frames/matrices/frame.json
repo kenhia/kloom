@@ -303,7 +303,7 @@
 	"connections": [
 		{
 			"to": "physics/matrix-mechanics",
-			"why": "Heisenberg's tables of transition amplitudes multiplied by a rule he had invented; Born recognised it as the matrix multiplication he had learned as a student, the product Cayley had shown does not commute."
+			"why": "Heisenberg's tables of transition amplitudes multiplied by a rule he had invented; Born recognized it as the matrix multiplication he had learned as a student, the product Cayley had shown does not commute."
 		},
 		{
 			"to": "ai/compute",

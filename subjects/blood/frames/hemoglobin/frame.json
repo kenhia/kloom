@@ -3,13 +3,13 @@
 	"topic": "Hemoglobin and its spectrum",
 	"position": { "label": "1840–64", "sort": 1840 },
 	"scene": {
-		"headline": "We read the blood's colour in a",
+		"headline": "We read the blood's color in a",
 		"accent": "PRISM.",
 		"palette": "anatomy",
 		"illustration": "scene.svg",
 		"metadata": [
 			"TÜBINGEN · CAMBRIDGE · HOPPE-SEYLER · STOKES",
-			"A TEST TUBE · A SLIT · A PRISM · FERROUS SULPHATE"
+			"A TEST TUBE · A SLIT · A PRISM · FERROUS SULFATE"
 		],
 		"counter": {
 			"value": "2 → 1",
@@ -93,7 +93,7 @@
 	"connections": [
 		{
 			"to": "physics/energy",
-			"why": "Mayer's conservation of energy began with the colour of the venous blood he let in the tropics: redder because the body used less oxygen, the difference between blood with and without oxygen that the spectroscope showed."
+			"why": "Mayer's conservation of energy began with the color of the venous blood he let in the tropics: redder because the body used less oxygen, the difference between blood with and without oxygen that the spectroscope showed."
 		},
 		{
 			"to": "blood/perutz-hemoglobin",

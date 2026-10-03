@@ -1,7 +1,7 @@
 For most of the history of computing, using a computer meant owning one,
 or renting time on somebody else's. Since 2006 a program can instead ask,
 over the network, for a machine that exists only in software, pay for it
-by the hour and give it back. By the end of 2025 about half the world's data-centre
+by the hour and give it back. By the end of 2025 about half the world's data-center
 capacity sat in some 1,360 very large buildings run for that trade and its
 owners' own services. What follows was true as of
 28 September 2026.
@@ -54,14 +54,14 @@ network access, pooled resources, rapid elasticity and measured service.
 ## Hyperscale
 
 Pooling pays at scale, and the scale is now vast. Synergy Research counted
-1,360 _hyperscale_ data centres, the largest operated by the biggest cloud
+1,360 _hyperscale_ data centers, the largest operated by the biggest cloud
 and internet companies, at the end of 2025, holding 48% of the world's
-data-centre capacity. In 2018, 56% had been in companies' own buildings;
+data-center capacity. In 2018, 56% had been in companies' own buildings;
 by 2025 that was 32%. In August 2026 it found that twenty places held 60%
 of hyperscale capacity, with Northern Virginia and the Greater Beijing
 area alone holding 17%.
 
-![A Microsoft data centre at Middenmeer in the Netherlands: long, low green-grey halls behind a security fence under a wide sky, with two lattice masts above them](middenmeer.jpg)
+![A Microsoft data center at Middenmeer in the Netherlands: long, low green-gray halls behind a security fence under a wide sky, with two lattice masts above them](middenmeer.jpg)
 
 Synergy estimates spending on cloud infrastructure services (rented
 computing, storage and platforms) for each quarter from the providers'

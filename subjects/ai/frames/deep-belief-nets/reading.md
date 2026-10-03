@@ -1,5 +1,5 @@
 By the early 2000s neural networks had real uses, reading handwritten
-cheques among them, but deep ones did not work. "To many researchers in the
+checks among them, but deep ones did not work. "To many researchers in the
 field," the Nobel Committee for Physics later wrote, "training dense
 multilayered networks seemed out of reach." In 2006 a small group funded by a Canadian
 research institute showed a way to train them, one layer at a time.
@@ -39,7 +39,7 @@ made 1.25 per cent errors, better than the best [support vector machine](kloom:e
 the best backpropagation networks, when none was given any knowledge of
 image geometry.
 
-![Bar chart: test error on the MNIST handwritten digits, with no knowledge of image geometry built in. Deep belief net 1.25 per cent; support vector machine 1.4; backpropagation nets 1.51 and 1.53; nearest neighbour 2.8.](mnist-error.svg)
+![Bar chart: test error on the MNIST handwritten digits, with no knowledge of image geometry built in. Deep belief net 1.25 per cent; support vector machine 1.4; backpropagation nets 1.51 and 1.53; nearest neighbor 2.8.](mnist-error.svg)
 
 | Method (no geometry built in)                 | Test error |
 | --------------------------------------------- | ---------: |
@@ -47,7 +47,7 @@ image geometry.
 | Support vector machine, degree-9 kernel       |       1.4% |
 | Backpropagation, 784-500-300-10               |      1.51% |
 | Backpropagation, 784-800-10                   |      1.53% |
-| Nearest neighbour, all 60,000 training images |       2.8% |
+| Nearest neighbor, all 60,000 training images  |       2.8% |
 
 The same table in the paper is honest about the limits. Networks that were
 told about geometry did better still: LeCun's convolutional [LeNet-5](kloom:e/lenet) made 0.95

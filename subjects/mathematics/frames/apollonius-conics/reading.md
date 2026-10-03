@@ -73,7 +73,7 @@ The eighth book is lost. In 1710 **[Edmond Halley](kloom:e/edmond-halley)**, the
 Oxford, published all eight: the first four in Greek with
 a Latin translation, Books V to VII in Latin from the Arabic, and Book
 VIII restored from the lemmas that Pappus of Alexandria had written for
-it. How much of Halley's eighth book Apollonius would recognise, nobody
+it. How much of Halley's eighth book Apollonius would recognize, nobody
 can know.
 
 ## The second life of the curves
@@ -83,7 +83,7 @@ to solve problems such as cubic equations, as Omar Khayyam did in Persia.
 Then they turned out to be the paths of the planets. **[Johannes Kepler](kloom:e/johannes-kepler)** named
 the _foci_ of a conic in 1604, and in the _Astronomia nova_ of 1609 he
 put Mars on an ellipse with the Sun at one focus. **[Isaac Newton](kloom:e/isaac-newton)**, in
-the _Principia_ of 1687, proved that a body pulled towards a centre by a force falling off as the
+the _Principia_ of 1687, proved that a body pulled towards a center by a force falling off as the
 square of the distance moves on a conic section, and a planet on an
 ellipse. It was Halley who had asked him the question, and who paid for
 the book to be printed.

@@ -30,7 +30,7 @@ Academy, the way a claim was then staked without being published, and
 Lamé brought a second memoir in April and a third in May.
 
 The answer came from Breslau. The proceedings of 24 May printed a letter
-to Liouville from **[Ernst Kummer](kloom:e/ernst-kummer)**, dated 28 April. Unique factorisation,
+to Liouville from **[Ernst Kummer](kloom:e/ernst-kummer)**, dated 28 April. Unique factorization,
 Kummer wrote, "does not hold in general" for these numbers, and he had
 shown as much in a memoir of 1844; "but one can save it by introducing a
 new kind of complex number, which I have called an ideal complex number."
@@ -47,7 +47,7 @@ Give each number its _norm_, _N_(_a_ + *b*√−5) = _a_² + 5_b_², which
 multiplies as the numbers do. _N_(2) = 4, _N_(3) = 9 and _N_(1 ± √−5) = 6.
 A factor of 2 would need norm 2, and a factor of 3 norm 3, but _a_² + 5_b_²
 is never 2 or 3. So none of the four numbers breaks any further, and 6
-has two different factorisations into numbers that cannot be split. The
+has two different factorizations into numbers that cannot be split. The
 plate draws the numbers as a lattice, with a circle for each norm: the
 circles of norm 2 and 3 pass through no point at all.
 
@@ -80,7 +80,7 @@ research on complex numbers composed of roots of unity and whole numbers".
 
 Whether Fermat was what drove him is argued. In 1910 Kurt Hensel told how
 Kummer, like Lamé, had once believed he had a proof until Dirichlet
-pointed out that it assumed unique factorisation; the MacTutor archive
+pointed out that it assumed unique factorization; the MacTutor archive
 still says Kummer invented ideal numbers because of Fermat. The historian
 Harold Edwards found Hensel's story probably garbled and judged that
 Kummer's real interest was the higher reciprocity laws; Kummer called his

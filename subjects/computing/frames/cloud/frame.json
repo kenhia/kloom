@@ -268,7 +268,7 @@
 	"connections": [
 		{
 			"to": "ai/compute",
-			"why": "Frontier models are trained on rented data centres: computing bought by the hour, at the scale of power stations."
+			"why": "Frontier models are trained on rented data centers: computing bought by the hour, at the scale of power stations."
 		},
 		{
 			"to": "computing/time-sharing",

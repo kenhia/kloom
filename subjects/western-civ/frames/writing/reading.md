@@ -1,6 +1,6 @@
 In the cities of southern [Mesopotamia](kloom:e/mesopotamia), late in the fourth millennium BC,
 scribes began pressing marks into wet clay to keep accounts: grain,
-livestock, rations, labour owed. The earliest tablets, many of them from the
+livestock, rations, labor owed. The earliest tablets, many of them from the
 city of **[Uruk](kloom:e/uruk)**, are mostly lists — numbers beside pictures of the things
 being counted.
 

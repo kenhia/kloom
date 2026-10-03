@@ -2,7 +2,7 @@ Two elements were found in 1898 by a property nobody had used to find anything b
 
 ## A number for the rays
 
-Her instrument was the one the plate draws. The powdered sample lay on the lower of two metal plates, charged by a battery. The rays made the air between the plates conduct, and a small current leaked across to the upper plate, which was joined to an electrometer. Rather than read the electrometer's swing, she cancelled it: a sheet of quartz, stretched by weights in a pan, gives off a known charge, and the weight needed to hold the needle still measured the current. Radioactivity became a figure in amperes, "a phenomenon capable of being measured with a certain accuracy", she wrote in her thesis. The quartz balance and electrometer were Pierre's and his brother's, devised some fifteen years before.
+Her instrument was the one the plate draws. The powdered sample lay on the lower of two metal plates, charged by a battery. The rays made the air between the plates conduct, and a small current leaked across to the upper plate, which was joined to an electrometer. Rather than read the electrometer's swing, she canceled it: a sheet of quartz, stretched by weights in a pan, gives off a known charge, and the weight needed to hold the needle still measured the current. Radioactivity became a figure in amperes, "a phenomenon capable of being measured with a certain accuracy", she wrote in her thesis. The quartz balance and electrometer were Pierre's and his brother's, devised some fifteen years before.
 
 ![Pierre Curie seated at a laboratory bench beside a tall brass instrument on a tripod stand, the quartz piezoelectric electroscope with which radium's rays were measured](electroscope.jpg)
 
@@ -12,7 +12,7 @@ The figures held a surprise. Uranium metal gave 2.3 × 10⁻¹¹ amperes, but **
 
 So the Curies used the electrometer as a chemist uses a test: dissolve the ore, split it by the ordinary reactions, and measure every fraction. On 18 July 1898 they told the Academy of Sciences that the activity followed bismuth, and that they had concentrated it to 400 times uranium's. "If the existence of this new metal is confirmed, we propose to call it **[polonium](kloom:e/polonium)**", after her country, then partitioned among three empires. Their spectroscopist, **[Eugène Demarçay](kloom:e/eugene-anatole-demarcay)**, could find no new line in it, and they said so. (Wikipedia's article on polonium dates the discovery 18 August; the paper was read on 18 July.)
 
-On 26 December, with the chemist Gustave Bémont, they reported a second active substance that behaved like barium, concentrated 900 times. This time Demarçay found a line at 381.47 nanometres that belonged to no known element, and it strengthened as the activity rose. They named it **[radium](kloom:e/radium)**.
+On 26 December, with the chemist Gustave Bémont, they reported a second active substance that behaved like barium, concentrated 900 times. This time Demarçay found a line at 381.47 nanometers that belonged to no known element, and it strengthened as the activity rose. They named it **[radium](kloom:e/radium)**.
 
 ## Tonnes for a tenth of a gram
 
@@ -20,7 +20,7 @@ To prove an element, chemists wanted it pure and weighed. The Curies' paper of D
 
 ![A workman in a waistcoat stirring a wide, shallow iron basin set into a brick furnace, with pans and jars on a bench behind him](shed.jpg)
 
-The thesis gives the yield. A ton of residue gave 10 to 20 kilograms of crude sulfates, and those about 8 kilograms of mixed barium and radium chlorides. Radium chloride is a little less soluble than barium's, so she crystallised the mixture again and again, each crystallisation leaving the crystals about five times as active as the liquid. In March 1902 she had 0.12 grams of radium chloride. Wikipedia's article on her says a tenth of a gram came from one tonne of ore; its article on radium, that a ton of pitchblende holds about a seventh of a gram of radium. By our arithmetic that is one part in seven million.
+The thesis gives the yield. A ton of residue gave 10 to 20 kilograms of crude sulfates, and those about 8 kilograms of mixed barium and radium chlorides. Radium chloride is a little less soluble than barium's, so she crystallized the mixture again and again, each crystallization leaving the crystals about five times as active as the liquid. In March 1902 she had 0.12 grams of radium chloride. Wikipedia's article on her says a tenth of a gram came from one tonne of ore; its article on radium, that a ton of pitchblende holds about a seventh of a gram of radium. By our arithmetic that is one part in seven million.
 
 ## Weighing radium through silver
 
@@ -52,4 +52,4 @@ Three such measurements gave her 225. The number had crept up as her samples gre
 | Nearly pure radium chloride, 1902 |                 225 |
 | Radium today                      |                 226 |
 
-The Curies shared the 1903 Nobel Prize in Physics with Becquerel. In 1910 Marie Curie and André Debierne made the metal itself, by electrolysing radium chloride onto mercury, and in 1911 she received the Nobel Prize in Chemistry, alone, for the two elements. Polonium she never isolated: its common isotope halves in 138 days. The rays had given chemistry a way to find what its reagents could not see, and the next frame turns from the atom to the factory.
+The Curies shared the 1903 Nobel Prize in Physics with Becquerel. In 1910 Marie Curie and André Debierne made the metal itself, by electrolyzing radium chloride onto mercury, and in 1911 she received the Nobel Prize in Chemistry, alone, for the two elements. Polonium she never isolated: its common isotope halves in 138 days. The rays had given chemistry a way to find what its reagents could not see, and the next frame turns from the atom to the factory.

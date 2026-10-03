@@ -2,13 +2,13 @@ Shortly before 1310 a Latin book on alchemy appeared under the name of Geber, th
 
 ## Our dissolving water
 
-The recipe is not in the _Summa_ itself but in a companion book, the _Liber de inventione veritatis_, "the book of finding the truth", which Newman takes to have been written soon after as a commentary on it. The historian of chemistry Vladimír Karpenko calls it the first unambiguous European recipe for **[nitric acid](kloom:e/nitric-acid)**. It takes a pound of vitriol, half a pound of saltpetre and a quarter-pound of alum, and distils them with the vessel glowing red. The book calls the distillate _aqua nostra dissolutiva_, our dissolving water, and says it had been mentioned in the _Summa_; Karpenko finds no such water there, and reads the reference as a bid to tie the two books together. Then the recipe adds a quarter-pound of sal ammoniac, and ends: "This liquid then dissolves gold, sulfur, and silver." With the sal ammoniac it had become **[aqua regia](kloom:e/aqua-regia)**, royal water, Europe's first known solvent for gold.
+The recipe is not in the _Summa_ itself but in a companion book, the _Liber de inventione veritatis_, "the book of finding the truth", which Newman takes to have been written soon after as a commentary on it. The historian of chemistry Vladimír Karpenko calls it the first unambiguous European recipe for **[nitric acid](kloom:e/nitric-acid)**. It takes a pound of vitriol, half a pound of saltpeter and a quarter-pound of alum, and distills them with the vessel glowing red. The book calls the distillate _aqua nostra dissolutiva_, our dissolving water, and says it had been mentioned in the _Summa_; Karpenko finds no such water there, and reads the reference as a bid to tie the two books together. Then the recipe adds a quarter-pound of sal ammoniac, and ends: "This liquid then dissolves gold, sulfur, and silver." With the sal ammoniac it had become **[aqua regia](kloom:e/aqua-regia)**, royal water, Europe's first known solvent for gold.
 
-In the still, heat breaks down the vitriol, a copper or iron sulfate, and the saltpetre's nitrogen and oxygen come over as nitric acid, which condenses in the receiver, by a chain of steps Karpenko sets out. For dried copper vitriol he gives the overall reaction:
+In the still, heat breaks down the vitriol, a copper or iron sulfate, and the saltpeter's nitrogen and oxygen come over as nitric acid, which condenses in the receiver, by a chain of steps Karpenko sets out. For dried copper vitriol he gives the overall reaction:
 
 2 KNO₃ + CuSO₄·3H₂O → 2 HNO₃ + K₂SO₄ + CuO + 2 H₂O
 
-By our arithmetic, since a molecule of nitric acid weighs 63 against saltpetre's 101, saltpetre can give at most 62% of its own weight in acid: five ounces from the recipe's half-pound. In the 1950s the chemist Schröder distilled 150 grams of saltpetre with 150 of vitriol and 50 of alum at about 800 °C and collected 70 grams of nitric acid, 74% of what the equation allows, as a 51% solution.
+By our arithmetic, since a molecule of nitric acid weighs 63 against saltpeter's 101, saltpeter can give at most 62% of its own weight in acid: five ounces from the recipe's half-pound. In the 1950s the chemist Schröder distilled 150 grams of saltpeter with 150 of vitriol and 50 of alum at about 800 °C and collected 70 grams of nitric acid, 74% of what the equation allows, as a 51% solution.
 
 ## Why gold stays
 
@@ -41,6 +41,6 @@ Europe may not have been first. Holmyard reported that chemists at the Cairo min
 
 ## Water of life
 
-The same stills made a gentler water. Recipes for _aqua ardens_, burning water, made by distilling wine with salt, appear in Latin from the twelfth century, and the physician Taddeo Alderotti (1223–1296) concentrated it to about 90% alcohol by repeated distillation through a water-cooled still. It came to be called _aqua vitae_, the water of life. The two waters met: the cardinal Vitalis de Furno, who died in 1327, distilled saltpetre and copper vitriol with _aqua ardens_ for a water said to dissolve every metal.
+The same stills made a gentler water. Recipes for _aqua ardens_, burning water, made by distilling wine with salt, appear in Latin from the twelfth century, and the physician Taddeo Alderotti (1223–1296) concentrated it to about 90% alcohol by repeated distillation through a water-cooled still. It came to be called _aqua vitae_, the water of life. The two waters met: the cardinal Vitalis de Furno, who died in 1327, distilled saltpeter and copper vitriol with _aqua ardens_ for a water said to dissolve every metal.
 
 The next frame turns from dissolving metals to casting them: the alloy of the printer's type.

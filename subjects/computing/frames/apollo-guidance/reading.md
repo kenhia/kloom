@@ -27,7 +27,7 @@ The counts differ with the source and the model of the computer:
 The flights carried Block II, whose flat-packs each held two gates. The
 purchases were large for so young an industry. Tomayko writes that by the
 summer of 1963, 60 per cent of all the microcircuits made in the United
-States were going into Apollo prototypes; the museum says the programme
+States were going into Apollo prototypes; the museum says the program
 bought about 200,000 at $20 to $30 each and was the largest user of
 integrated circuits through 1965, when the Minuteman II missile overtook
 it. In April 1965 [Gordon Moore](kloom:e/gordon-moore) cited Apollo as proof that whole circuits

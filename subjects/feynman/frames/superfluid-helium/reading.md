@@ -42,10 +42,10 @@ dip in the energy: Landau's rotons, on the same curve as the phonons. The
 plate draws the two curves one above the other; its _S_(_k_) is a smooth
 model with the right shape, not the measured function.
 
-The way he got there is one of his favourite stories. His first guess at
+The way he got there is one of his favorite stories. His first guess at
 _S_(_k_) had no peak, and the specific heat came out wrong. Sure of his
 reasoning, he worked backwards from the experiment to the function he
-needed, found it must rise to a peak, and recognised the peak as the
+needed, found it must rise to a peak, and recognized the peak as the
 diffraction ring. Only then did he remember someone telling him about
 Landau's roton formula.
 
@@ -74,9 +74,9 @@ friction far faster than it really does, so something must break the flow,
 and his wave functions could not rotate. Lying awake, he imagined the
 liquid moving on one side of a thin sheet and still on the other, then
 pulled the sheet away. The phases could only be stitched together along
-thin lines, with the phase turning by a whole 2π around each: **[quantised
+thin lines, with the phase turning by a whole 2π around each: **[quantized
 vortex lines](kloom:e/quantum-vortex)**, each carrying a circulation of _h_/_m_, about 10⁻⁷ square
-metres per second for helium. He published it in 1955 and then found that
+meters per second for helium. He published it in 1955 and then found that
 Onsager had said the same in a remark at a conference in 1949, and had
 hardly published it. In 1961 W. F. Vinen detected single quanta of
 circulation. The lambda transition itself, how exactly the liquid tips over

@@ -41,7 +41,7 @@ players, as net points lost:
 Version 2.0 made its public debut at the 1992 World Cup of Backgammon. The
 former world champion **Bill Robertie** judged version 2.1 to play "at a
 strong master level" within a few hundredths of a point a game of the best
-humans, and thought its steadiness would make it the favourite in a long
+humans, and thought its steadiness would make it the favorite in a long
 session.
 
 ## The student taught the experts

@@ -164,11 +164,11 @@
 	"connections": [
 		{
 			"to": "feynman/qed-book",
-			"why": "Newton measured the coloured rings between two glasses and could not explain them; Feynman's QED explains the same partial reflection by adding arrows, one for each surface."
+			"why": "Newton measured the colored rings between two glasses and could not explain them; Feynman's QED explains the same partial reflection by adding arrows, one for each surface."
 		},
 		{
 			"to": "western-civ/jwst",
-			"why": "Newton built the first working reflecting telescope because a mirror sends every colour to one focus; Webb gathers its infrared with a 6.5-metre mirror of gold-coated segments."
+			"why": "Newton built the first working reflecting telescope because a mirror sends every color to one focus; Webb gathers its infrared with a 6.5-meter mirror of gold-coated segments."
 		}
 	]
 }

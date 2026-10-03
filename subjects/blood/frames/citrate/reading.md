@@ -17,7 +17,7 @@ The order of the four is still argued over, and Argentina, Belgium and the Unite
 
 Lewisohn's contribution was the dose. He asked three questions: what is the least citrate that keeps blood liquid for twenty to thirty minutes, does it slow the recipient's own clotting, and is it toxic in that amount? His first experiment was a rack of test tubes:
 
-![A paragraph of a 1915 journal page, numbered 1, describing ten cubic centimetres of dog's blood added to different amounts of a 10 per cent sodium citrate solution, and concluding that citrate must be added at the ratio of 0.2 per cent](lewisohn-dose.jpg)
+![A paragraph of a 1915 journal page, numbered 1, describing ten cubic centimeters of dog's blood added to different amounts of a 10 per cent sodium citrate solution, and concluding that citrate must be added at the ratio of 0.2 per cent](lewisohn-dose.jpg)
 
 | 10% citrate solution in 10 c.c. of dog's blood | Citrate in the blood, by our arithmetic | Result                     |
 | ---------------------------------------------- | --------------------------------------- | -------------------------- |

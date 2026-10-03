@@ -27,7 +27,7 @@ The last row is the exception, and Lewis named it himself: a molecule with an od
 
 ## Langmuir's octet, Lewis's missing prize
 
-**[Irving Langmuir](kloom:e/irving-langmuir)**, a chemist at General Electric, took up the theory in 1919 in a long paper that spoke of _octets_ and gave the word **covalence** to "the number of pairs of electrons that a given atom shares with its neighbors". The two fell into a dispute over priority. Wikipedia's article on Langmuir puts it that his skill as a presenter did most to popularise the theory, and that the credit for the theory itself "belongs mostly to Lewis". The rule of eight became the **[octet rule](kloom:e/octet-rule)**.
+**[Irving Langmuir](kloom:e/irving-langmuir)**, a chemist at General Electric, took up the theory in 1919 in a long paper that spoke of _octets_ and gave the word **covalence** to "the number of pairs of electrons that a given atom shares with its neighbors". The two fell into a dispute over priority. Wikipedia's article on Langmuir puts it that his skill as a presenter did most to popularize the theory, and that the credit for the theory itself "belongs mostly to Lewis". The rule of eight became the **[octet rule](kloom:e/octet-rule)**.
 
 The Nobel Committee's archive lists Lewis as nominated 41 times for the chemistry prize, from 1922 to 1946, once, in 1933, by Langmuir, who had won it himself in 1932 for surface chemistry. Lewis never won. On 23 March 1946 he was found dead in his laboratory, where he had been working with hydrogen cyanide. The coroner ruled that he died of heart disease; some colleagues believed it was suicide, and Michael Kasha recalled years later that Lewis had lunched with Langmuir that day and came back in a dark mood. Which is true is not known.
 

@@ -27,7 +27,7 @@ the putty, to the ring.
 ## Joint rotation
 
 The trouble was found before the shuttle ever flew. In a 1977 test, with
-a case pressurised by water, the joint bent: the case wall bulged outward
+a case pressurized by water, the joint bent: the case wall bulged outward
 more than the stiffer joint, the tang and clevis rotated relative to each
 other, and the gap the O-rings sealed opened instead of closing. The
 commission's analysis put the opening at about 0.029 inches at the primary

@@ -21,7 +21,7 @@ parts he called _organs_: a central arithmetic part, **CA**; a central
 control, **CC**; a memory, **M**; input, **I**, and output, **O**; and the
 outside recording medium, **R**, such as punched cards or tape. He
 described them in the language of neurons, citing [McCulloch](kloom:e/warren-sturgis-mcculloch) and [Pitts](kloom:e/walter-pitts), and
-built his circuits from idealised _E-elements_ that fire or do not. The
+built his circuits from idealized _E-elements_ that fire or do not. The
 decisive sentence is in section 2.5: it is "tempting to treat the entire
 memory as one organ". Numbers and orders would share it, and the control
 would take its orders "from the same place where the numerical material is
@@ -60,7 +60,7 @@ again, so that the line held whatever was passing through it. He planned
 to a millisecond for any word to come round. The plate draws the organs and
 one line. (A worked figure, not the report's: at one digit a microsecond, a
 1,024-digit line must delay a pulse about a millisecond, and sound in
-mercury, about 1,450 metres a second, covers about 1.5 metres in that
+mercury, about 1,450 meters a second, covers about 1.5 meters in that
 time.) Eckert had proposed a mercury delay line for program and data in
 January 1944.
 

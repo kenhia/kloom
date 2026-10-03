@@ -1,6 +1,6 @@
 Around 1550 BC, in the thirty-third year of the Hyksos king Apophis, a
 scribe named **[Ahmes](kloom:e/ahmes)** copied out a scroll of mathematics about five
-metres long. He says he copied it from an older book made in the reign of
+meters long. He says he copied it from an older book made in the reign of
 **[Amenemhat III](kloom:e/amenemhat-iii)**, who ruled some three centuries before, and the
 Egyptologist T. Eric Peet saw no reason to doubt him. The **[Rhind
 Mathematical Papyrus](kloom:e/rhind-mathematical-papyrus)** is named for **[Alexander Henry Rhind](kloom:e/alexander-henry-rhind)**, the

@@ -51,7 +51,7 @@ keeping Panzer divisions in Belgium.
 GCHQ's own account is more careful: planning for D-Day was well advanced by
 the time Colossus arrived, and it was one of the machines that helped show
 Hitler had been convinced the invasion would come by the Pas de Calais.
-**Tommy Flowers**, in his telling, went further: a note summarising a Colossus
+**Tommy Flowers**, in his telling, went further: a note summarizing a Colossus
 decrypt was handed to [Eisenhower](kloom:e/dwight-d-eisenhower) at a staff meeting on 5 June, confirming that
 Hitler wanted no more troops moved to Normandy, and Eisenhower said "We go
 tomorrow"; an earlier decrypt of a report by Rommel, he said, moved an
@@ -78,7 +78,7 @@ German high-command traffic were decrypted by about 550 people.
 
 In 1945 three of the Newmanry, **Jack Good**, **Donald Michie** and
 **Geoffrey Timms**, wrote its history, the _General Report on Tunny_. It
-covers the cipher, the statistics, the machines and the organisation, in a
+covers the cipher, the statistics, the machines and the organization, in a
 voice not usually found in a secret report: it regrets that it cannot convey
 "the fantastic speed of thin paper tape round the glittering pulleys". It was
 kept secret for fifty-five years. What happened to the machines, and to the

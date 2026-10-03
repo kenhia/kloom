@@ -23,7 +23,7 @@ to six decimal places. That was too good. His count of tosses is just the one th
 fraction possible, and his intermediate results sit too close to
 expectation to be believed.
 
-![The FERMIAC in a museum case: a brass trolley about 30 centimetres long, two frames each carrying a drum with numbered settings, above a clear plastic plate engraved with radiating lines](fermiac.jpg)
+![The FERMIAC in a museum case: a brass trolley about 30 centimeters long, two frames each carrying a drum with numbered settings, above a clear plastic plate engraved with radiating lines](fermiac.jpg)
 
 **[Enrico Fermi](kloom:e/enrico-fermi)** had done it quietly. His student Emilio Segrè wrote that
 in Rome in the early 1930s Fermi "had invented, but of course not named,

@@ -6,21 +6,21 @@ On 13 April 2006, after an insurgent attack in Al Anbar Province, Marines, sailo
 
 It had never really gone. In 2006 David Kauvar, John Holcomb and their colleagues, reviewing every blood product given to American casualties in the **[Iraq War](kloom:e/iraq-war)** from March to December 2003, wrote that military doctors had used fresh whole blood in every combat operation since the First World War. They used it most when massive transfusions emptied the stored supply. In **[Baghdad](kloom:e/baghdad)** the 31st Combat Support Hospital went further: from October 2004 its surgeons gave warm fresh blood to the sickest patients on purpose, as part of a transfusion protocol built around it, giving stored red cells and plasma one to one while the donors were called in.
 
-The reason was clotting. A badly wounded man bleeds out the factors and **[platelets](kloom:e/platelet)** that stop bleeding, and stored red cells carry neither. Platelets keep only five days at room temperature, too short for the flight from the United States, so every platelet transfused in the theatre had to be collected there; the forward surgical teams in the **[war in Afghanistan](kloom:e/war-in-afghanistan-2001-2021)** often had none at all. A unit of fresh whole blood brought working platelets, plasma and red cells together, in about 63 mL of anticoagulant against roughly 279 mL in the equivalent made up from three stored components.
+The reason was clotting. A badly wounded man bleeds out the factors and **[platelets](kloom:e/platelet)** that stop bleeding, and stored red cells carry neither. Platelets keep only five days at room temperature, too short for the flight from the United States, so every platelet transfused in the theater had to be collected there; the forward surgical teams in the **[war in Afghanistan](kloom:e/war-in-afghanistan-2001-2021)** often had none at all. A unit of fresh whole blood brought working platelets, plasma and red cells together, in about 63 mL of anticoagulant against roughly 279 mL in the equivalent made up from three stored components.
 
 ## The drill
 
 The practice was written down by the Joint Trauma System as a clinical practice guideline, first in 2006 and revised in 2012 and 2018. The 2018 version's emergency collection procedure runs, in short:
 
-| Step                | What is done                                                                                            | The numbers                                                             |
-| ------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| Decide              | A physician orders fresh blood only when stored products are missing, too slow or not working           | Shock or coagulopathy, such as an INR above 1.5                         |
-| Call donors         | From the pre-screened roster: low-titre group O first, then donors of the casualty's own group          | Screened within 90 days first, then within a year, then past donors     |
-| Screen at the cot   | A questionnaire, then temperature, pulse, blood pressure and hemoglobin                                 | ≤37.5 °C; pulse 50–100; systolic 90–180; Hb ≥13.0 g/dL men, ≥12.5 women |
-| Type                | Donor and casualty typed on a card; the blood group on a dog tag is never trusted                       | About 4 percent of tags were found wrong                                |
-| Collect             | A 16-gauge needle in the elbow vein, a cuff at 40–60 mm Hg, the bag on a trip scale                     | 450 mL weighs 585 g; one unit per donor, two only in extremity          |
-| Test                | Sample tubes spun and run on rapid kits for HIV, hepatitis B and C, malaria and syphilis                | 2 red-top, 4 purple-top tubes; spun 5 minutes at 4,000 rpm              |
-| Issue and follow up | Labelled, and if low-titre O marked so; samples sent home for licensed testing; recipients tested again | Used within 24 hours warm; recipients retested at 3, 6 and 12 months    |
+| Step                | What is done                                                                                           | The numbers                                                             |
+| ------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| Decide              | A physician orders fresh blood only when stored products are missing, too slow or not working          | Shock or coagulopathy, such as an INR above 1.5                         |
+| Call donors         | From the pre-screened roster: low-titer group O first, then donors of the casualty's own group         | Screened within 90 days first, then within a year, then past donors     |
+| Screen at the cot   | A questionnaire, then temperature, pulse, blood pressure and hemoglobin                                | ≤37.5 °C; pulse 50–100; systolic 90–180; Hb ≥13.0 g/dL men, ≥12.5 women |
+| Type                | Donor and casualty typed on a card; the blood group on a dog tag is never trusted                      | About 4 percent of tags were found wrong                                |
+| Collect             | A 16-gauge needle in the elbow vein, a cuff at 40–60 mm Hg, the bag on a trip scale                    | 450 mL weighs 585 g; one unit per donor, two only in extremity          |
+| Test                | Sample tubes spun and run on rapid kits for HIV, hepatitis B and C, malaria and syphilis               | 2 red-top, 4 purple-top tubes; spun 5 minutes at 4,000 rpm              |
+| Issue and follow up | Labeled, and if low-titer O marked so; samples sent home for licensed testing; recipients tested again | Used within 24 hours warm; recipients retested at 3, 6 and 12 months    |
 
 The plate draws the collection: the bag on its beam, tipping when it reaches 585 grams, and the six tubes drawn beside it. The guideline recommends four staff to screen and bleed eight to ten donors.
 

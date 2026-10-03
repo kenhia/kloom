@@ -274,6 +274,12 @@ subject and not yet opened (a fourth spine mark, the contents, trails, the
 start screen), "I'm caught up" and "Mark all as seen", and a per-frame
 `edits` record of corrections and revisions, shown under Citations and
 written through the skills.
+Sprint 044 American English as house style: kloom's own words (readings,
+scenes, captions, names' descriptions, the app's labels) respelled by
+`create-tools/spelling/american.py`, which skips quotations, titles,
+proper names and citation fields, and is run by `just check`; setting keys
+kept, and no `edits` or Changelog entries, since spelling is not a
+revision.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -332,6 +338,10 @@ then start the sprint. Nothing pending (exit 0) costs one command.
   `edits`, newest first, in the same commit, whoever makes it, a sprint
   included (`skills/grow/SKILL.md` §Edits and corrections). A typo or
   formatting fix never does.
+- kloom's own words are American English (color, center, organize);
+  quotations, titles of works, proper names and citation fields keep their
+  own spelling (docs/design.md §Spelling). `just check` flags a British
+  spelling; respelling is never an `edits` entry.
 - Grown content reaches `main` only through `skills/review-grown`: a grow
   commits to a grow branch (`grow/kai`, `grow/dev-<host>`), never to `main`
   or a sprint branch, and a review's squash carries the `Grow-reviewed`

@@ -1,4 +1,4 @@
-In 1669, in **Hamburg**, a man boiling urine in search of the philosophers' stone got something else: a white, waxy stuff that shone in the dark. **[Hennig Brand](kloom:e/hennig-brand)** had been a soldier, and was called a merchant by some and a physician by others; a wealthy second wife, Margaretha, paid for his furnace. What he caught in his receiver was **[phosphorus](kloom:e/phosphorus)**, and he is usually counted as the first person known by name to have discovered an element. Gold, lead and sulphur had been known since before writing; nobody knows who first saw them.
+In 1669, in **Hamburg**, a man boiling urine in search of the philosophers' stone got something else: a white, waxy stuff that shone in the dark. **[Hennig Brand](kloom:e/hennig-brand)** had been a soldier, and was called a merchant by some and a physician by others; a wealthy second wife, Margaretha, paid for his furnace. What he caught in his receiver was **[phosphorus](kloom:e/phosphorus)**, and he is usually counted as the first person known by name to have discovered an element. Gold, lead and sulfur had been known since before writing; nobody knows who first saw them.
 
 ![A painting: in a dark Gothic room an old, bearded alchemist kneels with his arms spread before a round glass flask that shines white, fed by the neck of a retort built into a brick furnace; two young assistants watch from a table behind](alchymist.jpg)
 
@@ -18,20 +18,20 @@ The chemistry is a reduction. Urine carries phosphates, and in the red-hot retor
 
 4 NaPO₃ + 2 SiO₂ + 10 C → 2 Na₂SiO₃ + 10 CO + P₄
 
-The phosphorus comes over as a vapour of P₄, four atoms in a tetrahedron, and condenses under the water. It glows because it burns slowly. The vapour above the solid reacts with the oxygen of the air, and short-lived molecules made in the reaction, HPO and P₂O₂, give off the energy as green light. That is **[chemiluminescence](kloom:e/chemiluminescence)**, light from a chemical reaction, and not phosphorescence, which is light stored and given back, although the word was named after the element.
+The phosphorus comes over as a vapor of P₄, four atoms in a tetrahedron, and condenses under the water. It glows because it burns slowly. The vapor above the solid reacts with the oxygen of the air, and short-lived molecules made in the reaction, HPO and P₂O₂, give off the energy as green light. That is **[chemiluminescence](kloom:e/chemiluminescence)**, light from a chemical reaction, and not phosphorescence, which is light stored and given back, although the word was named after the element.
 
 ## A bucket of urine
 
-How much is there to catch? A 2015 review of what people excrete found reports of 0.35 to 2.5 grams of phosphorus in a litre of fresh urine, and 0.4 to 2.5 grams a day in a median of 1.4 litres. By our arithmetic, at about a gram a litre:
+How much is there to catch? A 2015 review of what people excrete found reports of 0.35 to 2.5 grams of phosphorus in a liter of fresh urine, and 0.4 to 2.5 grams a day in a median of 1.4 liters. By our arithmetic, at about a gram a liter:
 
-| Urine                        | Phosphorus in it, at 1 g a litre |
+| Urine                        | Phosphorus in it, at 1 g a liter |
 | ---------------------------- | -------------------------------: |
-| A day's, 1.4 litres          |                      about 1.4 g |
-| A 10-litre bucket            |                       about 10 g |
-| 4,500 litres (1,200 gallons) |                     about 4.5 kg |
-| 5,700 litres (1,500 gallons) |                     about 5.7 kg |
+| A day's, 1.4 liters          |                      about 1.4 g |
+| A 10-liter bucket            |                       about 10 g |
+| 4,500 liters (1,200 gallons) |                     about 4.5 kg |
+| 5,700 liters (1,500 gallons) |                     about 5.7 kg |
 
-Nobody measured Brand's. The Science History Institute says he boiled down about 1,200 gallons over two weeks; Wikipedia says about 1,500 US gallons, to make 120 grams, and explains that he threw away the salty part of the residue, which held most of the phosphate. If both are right he caught two or three grams in every hundred. (Wikipedia's article on Brand puts a litre's phosphorus at 0.11 grams, ten times less than the review.)
+Nobody measured Brand's. The Science History Institute says he boiled down about 1,200 gallons over two weeks; Wikipedia says about 1,500 US gallons, to make 120 grams, and explains that he threw away the salty part of the residue, which held most of the phosphate. If both are right he caught two or three grams in every hundred. (Wikipedia's article on Brand puts a liter's phosphorus at 0.11 grams, ten times less than the review.)
 
 ## The painting
 

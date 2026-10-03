@@ -18,7 +18,7 @@ our original, 'Can machines think?'"
 
 ![Alan Turing, photographed by Elliott & Fry on 29 March 1951: a studio portrait of a man in a tweed jacket and a dotted tie](turing-1951.jpg)
 
-The test is about behaviour, not about what goes on inside. The original
+The test is about behavior, not about what goes on inside. The original
 question Turing thought "too meaningless to deserve discussion"; the game put
 something that could be tested in its place.
 
@@ -36,7 +36,7 @@ contrary to his own:
 |   5 | Various disabilities             | "you will never be able to make one do X"                  |
 |   6 | Lady Lovelace's                  | a machine can only do what we order it to perform          |
 |   7 | Continuity in the nervous system | the brain is not a discrete-state machine                  |
-|   8 | Informality of behaviour         | no set of rules can cover every circumstance               |
+|   8 | Informality of behavior          | no set of rules can cover every circumstance               |
 |   9 | Extrasensory perception          | telepathy would give a human player away                   |
 
 The sixth goes back to [Ada Lovelace](kloom:e/ada-lovelace)'s note on [Babbage](kloom:e/charles-babbage)'s engine, that it "has
@@ -85,7 +85,7 @@ philosopher **[John Searle](kloom:e/john-searle)** argued, with his [_Chinese ro
 could pass by manipulating symbols it did not understand, so passing could
 not show that a machine thinks. The Loebner Prize ran contests from 1991 to
 2019; its first winner succeeded partly by imitating human typing errors. In a preprint of March 2025, Cameron Jones and Benjamin Bergen
-reported randomised three-party tests with five-minute conversations: told
+reported randomized three-party tests with five-minute conversations: told
 to adopt a human persona, GPT-4.5 was picked as the human 73 per
 cent of the time, more often than the real humans, while [ELIZA](kloom:e/eliza) managed 23
 per cent. They called it the first empirical evidence that an artificial

@@ -441,7 +441,7 @@ describe('validate', () => {
 		r.frames.a.reading = '![one](map.png) ![two](https://example.org/x.png) ![three](../b/x.png)';
 		r.frames.a.media = ['map.png'];
 		expect(validate(r)).toEqual([
-			'frames/a: image "map.png" needs a media citation with a licence',
+			'frames/a: image "map.png" needs a media citation with a `licence`',
 			'frames/a: image "https://example.org/x.png" must be an image file in the frame\'s directory',
 			'frames/a: image "../b/x.png" must be an image file in the frame\'s directory'
 		]);
@@ -469,9 +469,9 @@ describe('validate', () => {
 		void licence;
 		(r.frames.a.frame as Loose).citations.push(unlicensed, { ...pd, file: 'gone.png' });
 		expect(validate(r)).toEqual([
-			'frames/a citation 1: a media citation needs a licence',
+			'frames/a citation 1: a media citation needs a `licence`',
 			'frames/a citation 2: credits "gone.png", which is not in the directory',
-			'frames/a: image "map.png" needs a media citation with a licence'
+			'frames/a: image "map.png" needs a media citation with a `licence`'
 		]);
 	});
 

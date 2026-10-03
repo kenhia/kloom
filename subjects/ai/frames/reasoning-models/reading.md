@@ -35,7 +35,7 @@ think o3 is AGI yet."
 
 OpenAI did not publish how o1 was trained. In January 2025 the Chinese lab
 **[DeepSeek](kloom:e/deepseek)** did, for **DeepSeek-R1**, and released the weights under the MIT
-licence. Its striking result was _R1-Zero_, trained by reinforcement learning
+license. Its striking result was _R1-Zero_, trained by reinforcement learning
 alone, rewarded only for correct answers, with no human-written examples of
 reasoning first. Its score on AIME 2024 rose during training from 15.6% to
 71.0%, and the authors described an "aha moment" when the model learned to

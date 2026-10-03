@@ -34,10 +34,10 @@ to change that state by forces impressed thereon." The second makes a change
 of motion proportional to the force; the third says every action has an
 equal and opposite reaction.
 
-The first book proves what follows. Any force aimed at one centre gives
+The first book proves what follows. Any force aimed at one center gives
 Kepler's equal areas in equal times; an inverse-square force gives orbits
 that are conic sections, ellipses among them. And a sphere attracts as if all
-its mass were at its centre, the result Newton had lacked for twenty years
+its mass were at its center, the result Newton had lacked for twenty years
 and that let him treat the Earth as a point. The third book, _The System of
 the World_, applies it all: **[universal gravitation](kloom:e/newtons-law-of-universal-gravitation)**, every particle
 pulling every other with a force proportional to their masses and inversely
@@ -83,7 +83,7 @@ Hooke agreed that the demonstration was Newton's, and the mathematician
 Alexis Clairaut later put the difference in a sentence: it shows "what a
 distance there is between a truth that is glimpsed and a truth that is
 demonstrated". A second quarrel, with Leibniz over calculus, was judged in
-Newton's favour in 1713 by a Royal Society report that Newton wrote himself.
+Newton's favor in 1713 by a Royal Society report that Newton wrote himself.
 
 The deepest objection was to gravity itself. Huygens and Leibniz could not
 accept a pull across empty space with nothing to carry it. In the second

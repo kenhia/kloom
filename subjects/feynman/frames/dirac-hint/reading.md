@@ -28,7 +28,7 @@ the quantum rule turns into the classical [principle of least action](kloom:e/ac
 
 | What Dirac said                                     | What he did not say                      |
 | --------------------------------------------------- | ---------------------------------------- |
-| the short-time amplitude _corresponds to_ e^(iεL/ħ) | that it is equal, or how to normalise it |
+| the short-time amplitude _corresponds to_ e^(iεL/ħ) | that it is equal, or how to normalize it |
 | amplitudes compose by integrating over the middle   | that the integral runs over whole paths  |
 | small _ħ_ leaves only the stationary action         | how to compute anything with it          |
 

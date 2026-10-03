@@ -15,7 +15,7 @@ along its axis and swells round its middle. So Maxwell filled space with
 small cells, each spinning about an axis that runs along the magnetic
 line through it, faster where the field is stronger.
 
-That raised a mechanical problem. Two neighbouring cells spinning the same
+That raised a mechanical problem. Two neighboring cells spinning the same
 way rub against each other in opposite directions where they touch. The
 answer came from engineering: "In mechanism, when two wheels are intended
 to revolve in the same direction, a wheel is placed between them so as to
@@ -67,7 +67,7 @@ value for that ratio to hand. Back in London in the autumn he found one.
 **[Wilhelm Weber](kloom:e/wilhelm-eduard-weber)** and **[Rudolf Kohlrausch](kloom:e/rudolf-kohlrausch)** had measured it in 1855–56 by
 charging a Leyden jar, measuring its charge once by the electric force it
 exerted and once by the magnetic effect of discharging it. In Maxwell's units their result
-was 310,740 kilometres a second. **[Hippolyte Fizeau](kloom:e/hippolyte-fizeau)** had measured the
+was 310,740 kilometers a second. **[Hippolyte Fizeau](kloom:e/hippolyte-fizeau)** had measured the
 **[speed of light](kloom:e/speed-of-light)** in 1849.
 
 | Figure                                          | km per second |
@@ -93,7 +93,7 @@ Maxwell miscopied Fizeau, printing 70,843 leagues for 70,948.
 
 The fourth part used the vortices to explain the Faraday effect. Then, in
 1864, Maxwell dropped the machinery and derived the same equations from
-general dynamics: the paper that western civilisation's "Let there be
+general dynamics: the paper that western civilization's "Let there be
 LIGHT" tells. Why he did so is argued too; Hunt traces it to 1863, a year
 spent measuring the ohm with telegraph engineers. No one made a wave that
 was not light until Heinrich Hertz, in a lecture room at Karlsruhe,

@@ -33,7 +33,7 @@ in the 1997 match the average speed in searches longer than a minute was 126
 million positions a second, and the fastest sustained speed was 330 million.
 The knowledge was human. Between the matches the team rebuilt the evaluation
 function to use more than 8,000 features, grandmasters tuned it and prepared
-an opening book of about 4,000 positions, and an "extended book" summarised
+an opening book of about 4,000 positions, and an "extended book" summarized
 700,000 grandmaster games.
 
 ![A museum panel showing an enlarged photograph of one of Deep Blue's chess chips, with a label saying each chip held 1.5 million transistors and ran at 24 MHz](chess-chip.jpg)

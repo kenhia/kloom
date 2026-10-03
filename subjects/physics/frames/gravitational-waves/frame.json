@@ -16,7 +16,7 @@
 		],
 		"counter": {
 			"value": "390",
-			"label": "gravitational-wave signals in the catalogue, as of GWTC-5.0 (May 2026)"
+			"label": "gravitational-wave signals in the catalog, as of GWTC-5.0 (May 2026)"
 		}
 	},
 	"citations": [
@@ -333,7 +333,7 @@
 	"connections": [
 		{
 			"to": "physics/michelson-morley",
-			"why": "LIGO's detectors are Michelson interferometers with arms four kilometres long."
+			"why": "LIGO's detectors are Michelson interferometers with arms four kilometers long."
 		}
 	]
 }
