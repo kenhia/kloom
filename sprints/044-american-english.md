@@ -132,3 +132,17 @@ check subjects names src engine` (about a second). A grown frame written
 ## Follow-ups
 
 - None filed. Publishing to the reader site waits on Ken, as 3527's did.
+
+## Deployed
+
+2026-10-03, `just deploy` (`.sprint-deploy`) to the service on kai from
+merged `main` (`b6eb959`, PR #51). The content clone is on `b6eb959` too.
+Every deploy check passed (both doors, write gating, reader data, the
+library, compression). Checked live on :4891:
+
+- the settings label reads "Scene colors";
+- `western-civ/dna`'s reading serves fibers, nanometers and recognized;
+- `/api/changelog` is as 043 recorded: 29 additions, the newest still
+  `royal-society` (2026-10-02T22:49Z), and 4 edits. Nothing new.
+
+The public reader site was not published; that waits on Ken.
