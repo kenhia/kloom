@@ -39,5 +39,8 @@ of illustrated readings to wander through, so the description now says
 2026-10-03, `just deploy` to the service on kai from merged `main`
 (`be05f0c`, PR #52). Every deploy check passed, and the live About copy
 reads "growable timeline for exploring a subject". The GitHub description
-was set with `gh repo edit`. The public reader site was not published;
-that waits on Ken, with sprint 044.
+was set with `gh repo edit`. The public reader site was published the
+same day at Ken's word: `just publish-public` from `2d5bef8` (Fly release
+v7), carrying sprints 044 and 045. `verify-public` passed every check.
+Before it ran, `pull-notes` backed up the readers' store; the store before
+and after holds 4 accounts, 2 places and no notes.
