@@ -3,7 +3,8 @@
 kloom runs on kai as a systemd user unit, `kloom.service`. The design is in
 [design.md](design.md) §Who may write and §The content clone. This page is
 the operations side. The public site's build, the reader edition, and its
-sign-in are at the end (§Editions, §Signing in).
+sign-in are at the end (§Editions, §Signing in), and the public site itself
+after them (§Public reader site).
 
 | What                  | Where                                                          |
 | --------------------- | -------------------------------------------------------------- |
@@ -157,7 +158,7 @@ and back after. `robots.txt` disallows everything, and every response says
 for the people Ken invites.
 
 - **Accounts are logins, not people.** Two people may share one, as Ken's
-  parents do (`J-n-K`). A reader has a username (typed, case-insensitive,
+  parents do (`jkh`). A reader has a username (typed, case-insensitive,
   `[A-Za-z0-9-]`), a display name (shown), and a store login,
   `<username>@kloom.kenhiatt.us`, which keys their data. A public reader
   never meets a tailnet login (`ken@github`) when notes come back to be
@@ -200,3 +201,101 @@ node admin.mjs delete <username> --yes            # the account and everything t
 
 `--data DIR` (or `$KLOOM_DATA_DIR`) says where `reader.db` is, and `--base
 URL` (or `$KLOOM_PUBLIC_URL`) says what the link starts with.
+
+## Public reader site
+
+The reader edition runs on Fly.io as the app `kloom-reader`, at
+<https://kloom.kenhiatt.us> (korg 3503). Everything is done from kai, with
+the recipes below.
+
+| What             | Where                                                                         |
+| ---------------- | ----------------------------------------------------------------------------- |
+| App              | Fly `kloom-reader`, org `personal`, region `iad`                              |
+| Machine          | one `shared-cpu-1x`, 512 MB, always on (`fly.toml`)                           |
+| Readers' data    | `reader.db` on the 1 GB volume `kloom_data`, at `/data`                       |
+| The image        | `Dockerfile`: the reader edition, `admin.mjs`, the library, its media         |
+| What is public   | `publish.json`: the subjects the library is built from                        |
+| Deploy token     | `FLY_API_TOKEN` in kai's `/etc/khomelab/secrets.env`, read by `deploy/fly.sh` |
+| Publish record   | `~/.local/share/kloom/public/publishes.log` on kai                            |
+| Pulled reader.db | `~/.local/share/kloom/public/reader-YYYYMMDD-HHMM.db` on kai                  |
+| DNS and the cert | GoDaddy CNAMEs `kloom` and `_acme-challenge.kloom`; Fly's Let's Encrypt cert  |
+
+**The token.** The recipes never use Ken's flyctl login. `deploy/fly.sh`
+runs flyctl (`~/.fly/bin/flyctl`, by full path) with a deploy token scoped
+to this one app, read from the host's secrets file on each run and passed
+in the environment. Its store entry is k-homelab's
+`fly-deploy-token-kloom-reader`, and its rotation is in krot
+(`registry/fly.toml`).
+
+### Publishing
+
+```sh
+just publish-public
+```
+
+It refuses anything but a clean `main` that matches `origin/main`, so what
+is public is always a commit GitHub has. Then it runs these steps:
+
+1. **`just stage-public`** compiles the subjects in `publish.json` into
+   `build-public/content.db` from this checkout. It never uses the service's
+   grow clone. It copies the media that library lists into
+   `build-public/media/`.
+2. **`fly deploy --local-only`** builds the image here and pushes it. The
+   library and media are the last two layers, so a publish that changed
+   only content pushes only those. The volume is not touched.
+3. **`just verify-public`** runs.
+4. One line goes into `publishes.log`: the release, its image, the commit,
+   and the library's build and source.
+
+A subject can be held back by taking it out of `publish.json`.
+
+**Rollback** is the previous image, named in the log:
+
+```sh
+deploy/fly.sh deploy -a kloom-reader --image registry.fly.io/kloom-reader:<label>
+```
+
+`just verify-public` checks the live site as a stranger and as a reader:
+
+- TLS verifies
+- `robots.txt` disallows everything, and http goes to https
+- a stranger is sent to sign in, and the API refuses one
+- signed in, ask, grow, keep and kept answers are 404
+- pages go compressed
+- a frame's body comes from the library, and the library names its build
+- Fly's proxy overwrites a `Fly-Client-IP` a client sends, so sign-in
+  backoff keys on the real address
+
+It signs in as the reader `kloom-verify`. Each run invites it afresh with a
+random password, and disables it at the end. The `Fly-Client-IP` check
+spends up to 21 wrong passwords from kai's address, so sign-in from that
+address (the house) waits 30 seconds afterwards. A second run within the
+hour doubles the wait.
+
+### Readers
+
+```sh
+just invite <username> [display name]   # prints the welcome link; adds them if named; also the reset
+just readers                            # list
+just disable-reader <username>          # their sessions end
+```
+
+These run `admin.mjs` on the machine through `fly ssh console`
+(§The admin CLI). If `fly ssh console` hangs at `Connecting to fdaa:…`, the
+host's WireGuard peer has gone stale. `fly wireguard list personal` names
+it, and `fly wireguard remove personal <name>` lets flyctl make a new one.
+
+### Readers' notes and the backup
+
+```sh
+just pull-notes
+```
+
+It takes a consistent copy of `reader.db` on the machine (`node:sqlite`'s
+backup), fetches it to `public/reader-YYYYMMDD-HHMM.db` (mode 600), and
+deletes the copy on the machine. That copy is the backup beyond Fly's daily
+volume snapshots, which keep five days. It is also what review-notes reads:
+put it in a directory as `reader.db` and pass `--data` that directory.
+
+**Cost.** One always-on `shared-cpu-1x` 512 MB machine and a 1 GB volume
+come to about $4–6 a month. Ask Ken before scaling past that.

@@ -5,8 +5,13 @@ import { defineConfig } from 'vitest/config';
 import adapter from '@sveltejs/adapter-node';
 import { sveltekit } from '@sveltejs/kit/vite';
 
-/** Which commit this build is, for the About panel: `<short hash> <date>`, or empty. */
+/**
+ * Which commit this build is, for the About panel: `<short hash> <date>`, or
+ * empty. `$KLOOM_BUILD` says so where there is no git, as in the public
+ * site's image (Dockerfile).
+ */
 function build(): string {
+	if (process.env.KLOOM_BUILD) return process.env.KLOOM_BUILD;
 	try {
 		return execFileSync('git', ['log', '-1', '--format=%h · %cs'], { encoding: 'utf8' }).trim();
 	} catch {

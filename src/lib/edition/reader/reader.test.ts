@@ -79,18 +79,16 @@ async function signedIn() {
 describe('the reader edition hook', () => {
 	it('sends a page asked for without a session to sign in, and back after', async () => {
 		const resolve = resolved();
-		expect(
-			await outcome(() => handle({ event: event('/western-civ/fire?x=1'), resolve } as never))
-		).toMatchObject({ status: 303, location: '/signin?next=%2Fwestern-civ%2Ffire%3Fx%3D1' });
-		expect(await outcome(() => handle({ event: event('/'), resolve } as never))).toMatchObject({
+		const sent = async (path: string) => {
+			const res = (await handle({ event: event(path), resolve } as never)) as Response;
+			return { status: res.status, location: res.headers.get('location') };
+		};
+		expect(await sent('/western-civ/fire?x=1')).toEqual({
 			status: 303,
-			location: '/signin'
+			location: '/signin?next=%2Fwestern-civ%2Ffire%3Fx%3D1'
 		});
-		expect(
-			await outcome(() => handle({ event: event('/welcome'), resolve } as never))
-		).toMatchObject({
-			status: 303
-		});
+		expect(await sent('/')).toEqual({ status: 303, location: '/signin' });
+		expect(await sent('/welcome')).toEqual({ status: 303, location: '/signin?next=%2Fwelcome' });
 		expect(resolve).not.toHaveBeenCalled();
 	});
 
@@ -128,6 +126,21 @@ describe('the reader edition hook', () => {
 			resolve: resolved()
 		} as never)) as Response;
 		expect(page.headers.get('x-robots-tag')).toBe('noindex, nofollow');
+	});
+
+	it('keeps browsers to https on every response, and leaves the other hosts of the domain alone', async () => {
+		const session = await signedIn();
+		const asked = [
+			event('/robots.txt'),
+			event('/western-civ'),
+			event('/api/map'),
+			event('/signin'),
+			event('/western-civ', { cookies: jar({ [SESSION_COOKIE]: session }) })
+		];
+		for (const e of asked) {
+			const res = (await handle({ event: e, resolve: resolved() } as never)) as Response;
+			expect(res.headers.get('strict-transport-security'), e.url.pathname).toBe('max-age=31536000');
+		}
 	});
 
 	it('takes the reader from their session, and ignores door marks and tailnet headers', async () => {

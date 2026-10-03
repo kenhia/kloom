@@ -162,6 +162,11 @@ export interface CompileOptions {
 	strict?: boolean;
 	/** The content's commit, recorded with the build. */
 	source?: string | null;
+	/**
+	 * Only these subjects (the public site's `publish.json`); a library built
+	 * from a list holds nothing else. Every one must be on disk.
+	 */
+	only?: string[];
 }
 
 export interface CompileReport {
@@ -308,7 +313,12 @@ function deriveLibrary(db: DatabaseSync, names: Record<string, Name>) {
  */
 export async function compileContent(o: CompileOptions): Promise<CompileReport> {
 	const started = performance.now();
-	const ids = subjectIds(o.subjectsDir);
+	let ids = subjectIds(o.subjectsDir);
+	if (o.only) {
+		const missing = o.only.filter((id) => !ids.includes(id));
+		if (missing.length) throw new Error(`not subjects here:${missing.join(', ')}`);
+		ids = ids.filter((id) => o.only!.includes(id));
+	}
 	const digests = new Map(ids.map((id) => [id, treeDigest(join(o.subjectsDir, id))]));
 	const namesDigest = treeDigest(o.namesDir);
 	const compiler = o.compiler ?? '';

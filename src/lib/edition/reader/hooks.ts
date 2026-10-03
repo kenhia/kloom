@@ -1,4 +1,4 @@
-import { json, redirect, type Handle, type ServerInit } from '@sveltejs/kit';
+import { json, type Handle, type ServerInit } from '@sveltejs/kit';
 import { compress } from '$lib/server/compress';
 import { accounts } from '$lib/server/reader-store';
 import { clearSession, SESSION_COOKIE } from '$lib/server/session';
@@ -28,11 +28,31 @@ const ROBOTS = 'User-agent: *\nDisallow: /\n';
 const NOINDEX = 'noindex, nofollow';
 
 /**
+ * Browsers keep to https here for a year. Without `includeSubDomains`:
+ * kenhiatt.us has other hosts, which are not this site's to decide for.
+ */
+const HSTS = 'max-age=31536000';
+
+/** Every response says HSTS, the way to sign in included. */
+export const handle: Handle = async (input) => {
+	let response = await guard(input);
+	try {
+		response.headers.set('strict-transport-security', HSTS);
+	} catch {
+		// Headers that cannot change: the same response, with ones that can.
+		response = new Response(response.body, response);
+		response.headers.set('strict-transport-security', HSTS);
+	}
+	return response;
+};
+
+/**
  * Every page needs a signed-in reader, reads included (korg 3501). A page
  * asked for without one is sent to sign in, and back after; anything else
- * (the API, the media) is refused.
+ * (the API, the media) is refused. The way to sign in is returned, not
+ * thrown, so it carries `handle`'s headers too.
  */
-export const handle: Handle = async ({ event, resolve }) => {
+const guard: Handle = async ({ event, resolve }) => {
 	const path = event.url.pathname;
 	if (path === '/robots.txt')
 		return new Response(ROBOTS, {
@@ -48,7 +68,8 @@ export const handle: Handle = async ({ event, resolve }) => {
 		const page = ['GET', 'HEAD'].includes(event.request.method) && !path.startsWith('/api/');
 		if (page) {
 			const back = path.replace(/\/__data\.json$/, '') + event.url.search;
-			redirect(303, back === '/' ? '/signin' : `/signin?next=${encodeURIComponent(back)}`);
+			const location = back === '/' ? '/signin' : `/signin?next=${encodeURIComponent(back)}`;
+			return new Response(null, { status: 303, headers: { location, 'x-robots-tag': NOINDEX } });
 		}
 		return json(
 			{ message: 'Sign in to read kloom.' },
