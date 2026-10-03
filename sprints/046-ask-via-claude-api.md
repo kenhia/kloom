@@ -168,3 +168,25 @@ The rule it taught is now in CLAUDE.md: never print a secrets file.
   can be enabled before it. `jkh` is still `invited` (never signed in), so
   Ken's parents need their welcome link used, or a new one
   (`just invite jkh`), before the call.
+
+## Deployed
+
+2026-10-03, `just deploy` (the `.sprint-deploy` recipe) to the service on
+kai from merged `main` (`3ae7cee`, PR #53). Every `verify` check passed (both
+doors, the write gate, reader data, the library, compression).
+
+What this sprint changed, checked live through the ssh door:
+
+- A Haiku 4.5 · API ask streamed an answer, and `just ask-costs` shows its
+  row at $0.0031, Haiku's real price, so the dated-model pricing fix holds
+  in production.
+- The ask setting offers Sonnet 5.5 (the default, on `claude -p`) beside
+  Sonnet 5.5 · API and Haiku 4.5 · API.
+- The service's `reader.db` is at schema 8 with its records intact (19
+  places, 1 bookmark, 4 kept answers).
+
+The key in use is Ken's original, which was exposed and is due for rotation
+(korg 3534). One more ask follows that rotation.
+
+The public reader site is not yet published with this sprint. That is the
+next step, after asking Ken.
