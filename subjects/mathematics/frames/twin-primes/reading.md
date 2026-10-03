@@ -95,7 +95,7 @@ Polymath paper showed, sieve methods of this kind could get no lower than
 As of 30 September 2026 the bound had just begun to move again. On 31
 August **[Julia Stadlmann](kloom:e/julia-stadlmann)** posted a preprint lowering it to 240, and on 3
 September a group at the company Axiom Math dated a preliminary draft
-claiming 212 by optimising her method, with part of the argument checked
+claiming 212 by optimizing her method, with part of the argument checked
 by machine in the Lean language, in a certificate written by their AI
 prover. Neither had yet been refereed;
 Wikipedia's article on Zhang already gives 212. Euclid's proof, where

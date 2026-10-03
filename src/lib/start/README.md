@@ -3,7 +3,7 @@
 `loom.svg` is kloom's opening drawing: a power loom, traced to vector and
 re-inked by the page (gold on black for the western-civ subject).
 
-## Source and licence
+## Source and license
 
 - **Work:** "Modern Loose Reed Power Loom", an engraving from Richard
   Marsden, _Cotton Weaving: Its Development, Principles, and Practice_
@@ -12,7 +12,7 @@ re-inked by the page (gold on black for the western-civ subject).
 - **File:** [File:Modern_Loose_Reed_Power_Loom-marsden.png](https://commons.wikimedia.org/wiki/File:Modern_Loose_Reed_Power_Loom-marsden.png)
   on Wikimedia Commons, scanned and uploaded by Clem Rutter (2009), used in
   the Wikipedia article _Lancashire Loom_.
-- **Licence:** public domain. Checked on 2026-09-26: the file page carries
+- **License:** public domain. Checked on 2026-09-26: the file page carries
   `{{PD-UK-unknown}}` and `{{PD-1923}}` (public domain in the United
   States), and its metadata states "Public domain", attribution not
   required. We credit it anyway, in the start screen's _Image credit_ and in

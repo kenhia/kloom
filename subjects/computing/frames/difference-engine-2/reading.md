@@ -17,7 +17,7 @@ even ones in one half of each cycle and the even into the odd in the
 other, so the cycle takes the same time however many differences are in
 use; Swade calls it pipelining. Its output apparatus prints each result to
 30 figures on paper and presses it at the same time into soft material,
-as a mould for printing plates, so that no compositor could ever set a
+as a mold for printing plates, so that no compositor could ever set a
 wrong figure. Babbage offered the design to the government in 1852. It was
 declined, and the 20 main drawings stayed on paper.
 
@@ -49,7 +49,7 @@ The rule was to be able to answer the charge, as Swade put it, "Yes, you
 built the engine, but Babbage could not have." Bromley and Michael Wright had measured parts of the first engine
 and found [Clement](kloom:e/joseph-clement)'s repeated parts made to within two-thousandths of an
 inch, so no repeated part was made more precisely than that. Imperial
-College analysed the gunmetal of Babbage's surviving loose parts, and a
+College analyzed the gunmetal of Babbage's surviving loose parts, and a
 close modern bronze was found. The engineer **Reg Crick** turned the 20
 views into 100 working drawings of 4,000 parts, by hand; **Barrie
 Holloway** managed the ordering. Forty-six firms made the parts in six

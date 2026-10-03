@@ -178,7 +178,7 @@
 	"connections": [
 		{
 			"to": "blood/coulter",
-			"why": "Analysers now measure the cells' mean volume, as Coulter's pulse heights do, and calculate the hematocrit from it."
+			"why": "Analyzers now measure the cells' mean volume, as Coulter's pulse heights do, and calculate the hematocrit from it."
 		},
 		{
 			"to": "blood/hemocytometer",
@@ -186,7 +186,7 @@
 		},
 		{
 			"to": "blood/humours",
-			"why": "Wintrobe's tube measures, in millimetres, the layers that drawn blood forms as it stands or is spun, the layers Robin Fåhræus thought had given the ancients their four humours."
+			"why": "Wintrobe's tube measures, in millimeters, the layers that drawn blood forms as it stands or is spun, the layers Robin Fåhræus thought had given the ancients their four humors."
 		}
 	]
 }

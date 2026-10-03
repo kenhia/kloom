@@ -43,7 +43,7 @@ once; the instruction is the same. Microcode also let several models
 imitate IBM's older machines, so a customer's 1401 or 7090 programs could
 keep running.
 
-![An IBM System/360 Model 30 at the Computer History Museum: the processor's grey panel of lamps and switches, and beyond it tape drives and a disk drive](s360.jpg)
+![An IBM System/360 Model 30 at the Computer History Museum: the processor's gray panel of lamps and switches, and beyond it tape drives and a disk drive](s360.jpg)
 
 ## The byte
 
@@ -103,6 +103,6 @@ recorded up to each year, adjusted for inflation by Our World in Data;
 2023 is the latest year it gives. Over 67 years the price of a gigabyte fell
 about eight billion times.
 
-The System/360 was big iron for big organisations. Beside it, a company
+The System/360 was big iron for big organizations. Beside it, a company
 founded by two engineers from MIT was selling computers small enough for a
 single laboratory.

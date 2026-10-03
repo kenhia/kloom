@@ -24,6 +24,6 @@ The counts differ by source:
 | --------------------------------------------- | --------------------------: | ----------: |
 | Army Center of Military History, 1993         |                          67 |             |
 | The Army's medical history, 1998              |       57, then 10 more (67) |          11 |
-| Elizabeth Norman, as Wikipedia summarises her | 66, and a nurse anesthetist |          11 |
+| Elizabeth Norman, as Wikipedia summarizes her | 66, and a nurse anesthetist |          11 |
 
 The pamphlet counts 55 nurses left in the tunnel and ten from Mindanao, yet gives 67 in all; the medical history counts 57 and ten. Theirs was the largest group of American women ever taken prisoner by an enemy. The next frame follows the Army's nurses into the air, as flight nurses.

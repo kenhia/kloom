@@ -14,13 +14,13 @@ The paper sets the method out exactly, and the antiglobulin tests that came afte
 
 | Stage     | Coombs, Mourant and Race, 1945                                                                                                                                                                                                            |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sensitise | Two drops of a 2 per cent suspension of washed red cells of a chosen Rh type and two drops of the serum under test, in a 50 × 7 mm tube, with controls of inert serum and of saline; cap the tubes and incubate at 37 °C for half an hour |
+| Sensitize | Two drops of a 2 per cent suspension of washed red cells of a chosen Rh type and two drops of the serum under test, in a 50 × 7 mm tube, with controls of inert serum and of saline; cap the tubes and incubate at 37 °C for half an hour |
 | Look      | Draw a little of the settled cells onto a slide; if they are already clumped, the serum holds an ordinary antibody and the test stops                                                                                                     |
 | Wash      | Wash the cells three times in saline and make them up again to 2 per cent in two drops                                                                                                                                                    |
 | Add       | An equal volume of rabbit anti-human-globulin serum, absorbed with A, B and O cells and diluted, usually 1 in 8                                                                                                                           |
 | Read      | Incubate at 37 °C for half an hour to an hour, until the cells have settled, and read the clumping by eye and under the microscope, graded from +++ to none                                                                               |
 
-The clumping often appeared within minutes of adding the rabbit serum. The three sera they tried worked up to a dilution of 1 in 64; serum from six rabbits that had never been immunised clumped nothing. A sensitised cell, they found, clumped more strongly in the second stage the weaker its reaction in the first. They thanked Mrs M. E. Adair, who made the rabbit antisera.
+The clumping often appeared within minutes of adding the rabbit serum. The three sera they tried worked up to a dilution of 1 in 64; serum from six rabbits that had never been immunized clumped nothing. A sensitized cell, they found, clumped more strongly in the second stage the weaker its reaction in the first. They thanked Mrs M. E. Adair, who made the rabbit antisera.
 
 ## Why wash
 
@@ -32,6 +32,6 @@ The test of 1945 coats cells in the tube with the patient's serum. It is now the
 
 ## Moreschi's version
 
-Before the paper went to press the authors learned that it had been done before. In an addendum they cite a 1908 paper by the Italian physician Carlo Moreschi, who had coated rabbit red cells with a goat serum too weak to clump them, washed them, and clumped them with the serum of a rabbit immunised against goat serum. The principle was the same, but nobody yet knew of incomplete antibodies, and Moreschi's test was forgotten for thirty-seven years. The same paper also took issue with Wiener, who had just published a test for incomplete antibodies of his own in undiluted serum, over his name for it, _conglutination_.
+Before the paper went to press the authors learned that it had been done before. In an addendum they cite a 1908 paper by the Italian physician Carlo Moreschi, who had coated rabbit red cells with a goat serum too weak to clump them, washed them, and clumped them with the serum of a rabbit immunized against goat serum. The principle was the same, but nobody yet knew of incomplete antibodies, and Moreschi's test was forgotten for thirty-seven years. The same paper also took issue with Wiener, who had just published a test for incomplete antibodies of his own in undiluted serum, over his name for it, _conglutination_.
 
 The frame on typing and crossmatch by hand shows the test as one step of a full crossmatch. The next frame on this spine takes the blood itself out of the glass bottle.

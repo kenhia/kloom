@@ -44,13 +44,13 @@ The "knobby" ADALINE, above, kept its weights on knobs turned by hand.
 To make adaptation automatic, Widrow and Hoff invented the _memistor_, a
 resistor whose conductance was changed by electroplating copper onto
 graphite. The largest MADALINE, built in the early 1960s, had 1,000
-memistor weights. Adalines and Madalines were set to recognise speech and
+memistor weights. Adalines and Madalines were set to recognize speech and
 patterns, forecast the weather and balance an inverted pendulum.
 
 ## Into the telephone
 
 Unable to train deeper networks, Widrow's lab moved to _adaptive signal
-processing_: antennas that steer themselves, noise cancelling, seismic
+processing_: antennas that steer themselves, noise canceling, seismic
 data. The biggest use came from others. In Widrow's words, work "by Lucky and
 others at [Bell Laboratories](kloom:e/bell-labs) led to major commercial applications of adaptive
 filters and the LMS algorithm to adaptive equalization in high-speed modems
@@ -61,9 +61,9 @@ Echo is a modem's particular problem. An ordinary telephone line carries
 both directions on the same pair of wires, so some of a modem's outgoing
 signal comes back to it, and it cannot tell that echo from the far end's
 signal. Early modems split the band, each end talking in its own tones.
-Cancelling the echo instead, by subtracting an estimate of it, let both
+Canceling the echo instead, by subtracting an estimate of it, let both
 modems use the full band and roughly doubled the possible speed. Because a
-line's echo is not known in advance, the canceller has to adapt, which is the
+line's echo is not known in advance, the canceler has to adapt, which is the
 job an LMS-style filter does.
 
 Hoff left in 1968 for [Intel](kloom:e/intel), where he helped conceive the [Intel 4004](kloom:e/intel-4004), the

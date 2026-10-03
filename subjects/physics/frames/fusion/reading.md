@@ -14,7 +14,7 @@ variable stars. Francis Aston had just measured a helium atom as about 0.8 per
 cent lighter than four hydrogen atoms; if a star turned even a few per cent
 of its mass of hydrogen into helium, Eddington argued, that would pay for
 its light. How two positive nuclei got close enough to join was
-unknown until George Gamow's quantum tunnelling gave the odds in 1928.
+unknown until George Gamow's quantum tunneling gave the odds in 1928.
 
 **[Hans Bethe](kloom:e/hans-bethe)** worked out the reactions. In 1938, with Charles Critchfield,
 he proposed the _proton–proton chain_, and in his 1939 paper "Energy Production in
@@ -38,12 +38,12 @@ At wartime Los Alamos, Edward Teller led the work on a bomb that would use
 a fission explosion to ignite fusion in heavy hydrogen, the "Super". In
 December 1945 the first problem run on the electronic computer ENIAC
 was a Los Alamos calculation on the Super. After the
-first Soviet atomic test, President Truman ordered a full-scale programme in
+first Soviet atomic test, President Truman ordered a full-scale program in
 January 1950. In March 1951 Teller and the mathematician Stanisław Ulam
 described a design in which radiation from a fission stage compresses a
 separate fusion stage, and on 1 November 1952 the United States tested it at
 Enewetak Atoll in the Pacific. **[Ivy Mike](kloom:e/ivy-mike)** yielded 10.4 megatons, by our
-arithmetic some five hundred times the Nagasaki bomb, and left a crater 1.9 kilometres wide
+arithmetic some five hundred times the Nagasaki bomb, and left a crater 1.9 kilometers wide
 where the island of Elugelab had been.
 
 ## Bottling it
@@ -59,7 +59,7 @@ degrees; a British team took a laser to Moscow to check, confirmed it in
 draws one in section: the plasma's nested magnetic surfaces, a field coil,
 and the central solenoid that drives the plasma's current.
 
-![The inside of the JET tokamak's vacuum vessel, seen through a wide-angle lens: a ring-shaped chamber lined with grey tiles, its central column faced with rows of tiles, and a robot arm entering from the left](jet-vessel.jpg)
+![The inside of the JET tokamak's vacuum vessel, seen through a wide-angle lens: a ring-shaped chamber lined with gray tiles, its central column faced with rows of tiles, and a robot arm entering from the left](jet-vessel.jpg)
 
 The biggest of its generation was the **[Joint European Torus](kloom:e/joint-european-torus)** at Culham, near Oxford, which
 ran from 1983 to 2023 and in 1991 was the first to burn the working fuel,

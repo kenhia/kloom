@@ -10,15 +10,15 @@ Gladstone's objection is the one Mendeleev answered. His table assumed from the 
 
 ## Filling a gap by arithmetic
 
-In 1871 Mendeleev described three missing elements in detail, naming each with the Sanskrit _eka_, one: eka-boron, eka-aluminium and eka-silicon. His method he called "atomic analogy": an element's properties follow from its four neighbours, the two beside it in its row and the two above and below it in its group. The plate draws it for eka-silicon, between silicon and tin, and between eka-aluminium and arsenic.
+In 1871 Mendeleev described three missing elements in detail, naming each with the Sanskrit _eka_, one: eka-boron, eka-aluminum and eka-silicon. His method he called "atomic analogy": an element's properties follow from its four neighbors, the two beside it in its row and the two above and below it in its group. The plate draws it for eka-silicon, between silicon and tin, and between eka-aluminum and arsenic.
 
-He gave eka-silicon an atomic weight of 72, and an atomic volume, the space its atomic weight in grams fills, of 13 cubic centimetres, reading along the row from zinc's 9 and arsenic's 14. Weight divided by volume is density: 72 ÷ 13 = 5.5 grams per cubic centimetre, the figure he printed. The same sum for eka-aluminium, 68 ÷ 11.5, gives 5.9. The division is ours; the numbers are his.
+He gave eka-silicon an atomic weight of 72, and an atomic volume, the space its atomic weight in grams fills, of 13 cubic centimeters, reading along the row from zinc's 9 and arsenic's 14. Weight divided by volume is density: 72 ÷ 13 = 5.5 grams per cubic centimeter, the figure he printed. The same sum for eka-aluminum, 68 ÷ 11.5, gives 5.9. The division is ours; the numbers are his.
 
 ## Three finds
 
 On 27 August 1875, "between three and four at night", **[Paul-Émile Lecoq de Boisbaudran](kloom:e/paul-emile-lecoq-de-boisbaudran)** saw a violet line no known element made, in the spectrum of a zinc ore from Pierrefitte in the Pyrenees. The spectroscope of Bunsen and Kirchhoff had found another element, and he named it **[gallium](kloom:e/gallium)**. His first density, 4.7, was the one property that missed; Mendeleev wrote to him that it should be near 5.9, and after purifying the metal Lecoq found 5.935. "The prevision of Mendeleev is thus exactly verified," he wrote, but added that he had not known of the prediction, and that it would not have led him to gallium. In 1879 Lars Fredrik Nilson found scandium in Scandinavian minerals, and the Swedish chemist Per Teodor Cleve saw that it was eka-boron.
 
-The last was the cleanest test. In 1885 **[Clemens Winkler](kloom:e/clemens-winkler)**, at Freiberg in Saxony, analysed a new silver ore and could never account for 6 to 7 per cent of it. Early in 1886 he found why: an element he named **[germanium](kloom:e/germanium)**. He took it at first for Mendeleev's eka-antimony, and learned otherwise, he wrote, "how treacherous it can be to build upon analogies". It was eka-silicon, "prognosticated fifteen years ago":
+The last was the cleanest test. In 1885 **[Clemens Winkler](kloom:e/clemens-winkler)**, at Freiberg in Saxony, analyzed a new silver ore and could never account for 6 to 7 per cent of it. Early in 1886 he found why: an element he named **[germanium](kloom:e/germanium)**. He took it at first for Mendeleev's eka-antimony, and learned otherwise, he wrote, "how treacherous it can be to build upon analogies". It was eka-silicon, "prognosticated fifteen years ago":
 
 | Property                 | Eka-silicon, as Mendeleev foretold | Germanium, as Winkler measured |
 | ------------------------ | ---------------------------------- | ------------------------------ |
@@ -34,7 +34,7 @@ Wikipedia's article on germanium gives the predicted weight as 72.64, which is t
 
 **[Lothar Meyer](kloom:e/lothar-meyer)** of the Karlsruhe Polytechnic published a table of his own in a paper dated December 1869, with a curve of each element's atomic volume against its atomic weight that rose to a sharp peak at every alkali metal. He and Mendeleev shared the Royal Society's Davy Medal in 1882; Newlands had his in 1887.
 
-![Lothar Meyer's curve of 1870 on squared paper: atomic volume rising and falling against atomic weight, with tall peaks at lithium, sodium, potassium, rubidium and caesium, and the elements' symbols along the bottom](meyer-1870.jpg)
+![Lothar Meyer's curve of 1870 on squared paper: atomic volume rising and falling against atomic weight, with tall peaks at lithium, sodium, potassium, rubidium and cesium, and the elements' symbols along the bottom](meyer-1870.jpg)
 
 The best-known story is that the table came to Mendeleev in a dream. It rests on one memoir, by his friend the geologist Alexander Inostrantsev, written after Mendeleev's death. Mendeleev never told it himself, and spoke instead of years of work; Vladimir Shiltsev and Elizaveta Shiltseva, writing at Fermilab, count it among the myths about him. Another has him laying out the elements on cards, like patience.
 

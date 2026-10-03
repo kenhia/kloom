@@ -29,7 +29,7 @@ late, held less than planned, and took constant repair.
 Forrester had thought about a three-dimensional store since 1947. In the
 spring of 1949 he saw an advertisement for **Deltamax**, a magnetic alloy
 with a nearly square _hysteresis loop_, and saw how to build it. A small
-ring, a [_core_](kloom:e/magnetic-core-memory), magnetised one way round holds a 1 and the other way a 0,
+ring, a [_core_](kloom:e/magnetic-core-memory), magnetized one way round holds a 1 and the other way a 0,
 and keeps it with the power off. Its square loop is the point: a current
 below a threshold leaves the core as it was, while one above it flips the
 core completely.
@@ -83,7 +83,7 @@ round display tubes and picked one out with a **light gun**, invented at
 direction centers and 3 combat centers, with 24 FSQ-7s and 3 FSQ-8s built;
 IBM's history says 27 centers and 56 computers. SAGE ran until January 1984.
 
-![A SAGE weapons director's console at the Computer History Museum: a large round yellow-tinted display tube set in a grey panel of switches, with the pistol-shaped light gun lying on the desk before it](sage-console.jpg)
+![A SAGE weapons director's console at the Computer History Museum: a large round yellow-tinted display tube set in a gray panel of switches, with the pistol-shaped light gun lying on the desk before it](sage-console.jpg)
 
 SAGE's programs ran to more than 500,000 lines, by far the largest yet
 written. Writing programs was becoming as big a job as building machines,

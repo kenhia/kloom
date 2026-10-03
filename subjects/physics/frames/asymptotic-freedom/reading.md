@@ -6,7 +6,7 @@ rattle about freely inside, looked like a contradiction. In 1973 a
 calculation showed it was not, and the theory of the strong force,
 **[quantum chromodynamics](kloom:e/quantum-chromodynamics)**, followed from it.
 
-## Colour
+## Color
 
 The first clue was a counting problem. The quark model built the Δ⁺⁺
 particle from three up quarks with their spins aligned, and the Pauli
@@ -15,14 +15,14 @@ In 1964 **Oscar Greenberg** proposed that quarks carry a hidden
 three-valued property, and in 1965 **Moo-Young Han** and **Yoichiro Nambu**
 made it the charge of a gauge symmetry, SU(3), with an octet of carriers
 between the quarks: the **[gluons](kloom:e/gluon)**. Early in the 1970s **[Murray Gell-Mann](kloom:e/murray-gell-mann)**
-named the property _colour_, the three values red, green and blue, and
-with Harald Fritzsch argued for a field theory of coloured quarks and
-gluons. Only colourless combinations, three quarks of different colours
+named the property _color_, the three values red, green and blue, and
+with Harald Fritzsch argued for a field theory of colored quarks and
+gluons. Only colorless combinations, three quarks of different colors
 or a quark and its antiquark, were ever seen.
 
-Field theory itself was then out of favour for the strong force. In
+Field theory itself was then out of favor for the strong force. In
 quantum electrodynamics a charge is screened by the pairs of virtual
-particles it polarises around it, so its effective strength grows at short
+particles it polarizes around it, so its effective strength grows at short
 distances; it seemed any theory must behave so. A force that grows at
 short distance could not explain SLAC's free-looking quarks. Until 1973, [David Gross](kloom:e/david-gross)
 recalled, a field theory was not used without apologies: as late as 1972
@@ -45,9 +45,9 @@ time; the results agreed, and their papers appeared side by side in
 the same issue of _Physical Review Letters_. Others, among them Gerard 't Hooft in 1972, had
 come across the sign before; no one had seen what it meant.
 
-What it meant is **[asymptotic freedom](kloom:e/asymptotic-freedom)**. Gluons carry colour themselves,
+What it meant is **[asymptotic freedom](kloom:e/asymptotic-freedom)**. Gluons carry color themselves,
 unlike photons, which carry no charge. Their virtual cloud around a quark
-does not screen its colour but spreads it out, so the closer one looks,
+does not screen its color but spreads it out, so the closer one looks,
 the weaker the force. The plate draws the result: the strong coupling,
 _α_s, against the energy of a collision, falling slowly as the energy rises.
 The curve is this frame's own computation from the lowest-order formula
@@ -65,7 +65,7 @@ is not a fit to data, and it understates the rise below a few GeV.
 
 Run the argument the other way and the force grows with distance. Gross
 and Wilczek argued in 1973 that this would lock quarks and gluons into
-colourless particles for good, which Georgi and Glashow later called
+colorless particles for good, which Georgi and Glashow later called
 _infrared slavery_. It is believed, borne out by calculation, and still
 unproven: it is one of the Clay Institute's Millennium Prize problems.
 

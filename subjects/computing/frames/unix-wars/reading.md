@@ -11,10 +11,10 @@ its family fell out.
 
 AT&T's System III came in 1982, and [**System V**](kloom:e/unix-system-v) in January 1983. The
 Research Unix of the 1970s had cost a university $150 and anyone else $20,000;
-the licence for System V, Release 2 cost a company $43,000 for its first
+the license for System V, Release 2 cost a company $43,000 for its first
 processor.
 
-| Licence                               |       Year | Price                             |
+| License                               |       Year | Price                             |
 | ------------------------------------- | ---------: | --------------------------------- |
 | Sixth Edition, to a university        |       1975 | $150                              |
 | Sixth Edition, to anyone else         |       1975 | $20,000                           |
@@ -42,9 +42,9 @@ letters stood for "Oppose Sun Forever". AT&T answered with **Unix
 International**. One analyst took comfort that "Two Unixes are a lot better
 than 225".
 
-![A licence plate in New Hampshire's style: LIVE FREE OR DIE along the top, UNIX in large green letters across the middle, and TRADEMARK OF BELL LABS along the bottom](unix-plate.jpg)
+![A license plate in New Hampshire's style: LIVE FREE OR DIE along the top, UNIX in large green letters across the middle, and TRADEMARK OF BELL LABS along the bottom](unix-plate.jpg)
 
-Stettner had earlier designed this licence plate as a promotion, borrowing
+Stettner had earlier designed this license plate as a promotion, borrowing
 New Hampshire's motto and carrying Bell Labs' trademark notice. The drawing
 sets the family out as lanes on a time line, with the branches, the merger
 and the two years of the lawsuit.
@@ -75,7 +75,7 @@ AT&T, Wikipedia's article on the case notes, had shipped its own 32/V
 without copyright notices. Wikipedia's BSD article says instead that the
 suit brought an injunction on Net/2. The university countersued in
 California, claiming AT&T had used Berkeley code in System V without the
-credit its licence required.
+credit its license required.
 
 Novell's chief executive, Ray Noorda, preferred the market to the court.
 The case was settled in January 1994 (McKusick; Wikipedia says February):

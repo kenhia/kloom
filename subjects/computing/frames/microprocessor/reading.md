@@ -1,7 +1,7 @@
 In 1969 a Japanese calculator maker asked a young memory company in
 California to make the chips for a new range of machines. What it got back,
 two years later, was a computer's processor on one sliver of silicon,
-twelve square millimetres, and on 15 November 1971 [Intel](kloom:e/intel) began selling it
+twelve square millimeters, and on 15 November 1971 [Intel](kloom:e/intel) began selling it
 to anyone who wanted one. The processor had become a component, bought by
 the tray, like a resistor.
 
@@ -33,7 +33,7 @@ instruction set with them so that a calculator program would fit.
 
 Nobody had yet designed the circuits. In April 1970 Intel hired **[Federico
 Faggin](kloom:e/federico-faggin)** from Fairchild, where in 1968 he had developed the _silicon-gate_
-process: transistor gates of polysilicon rather than aluminium, which
+process: transistor gates of polysilicon rather than aluminum, which
 halved the area a circuit needed and made it faster. He found the project
 stalled, and Shima, just back from Japan to check the logic, dismayed. Both
 worked long nights. Faggin added two inventions without which, the account
@@ -45,12 +45,12 @@ out. The January 1971 run worked, and Busicom's printing calculator, the
 141-PF, ran by April. Faggin etched his initials, F.F., into a corner of the
 chip.
 
-![A large printed layout of the 4004 hanging on a wall: a rectangle of green and grey rectangles and wiring, the Intel logo and the number 4004 near one corner](4004-layout.jpg)
+![A large printed layout of the 4004 hanging on a wall: a rectangle of green and gray rectangles and wiring, the Intel logo and the number 4004 near one corner](4004-layout.jpg)
 
 How many transistors it holds depends on who counts. **Intel** says 2,300.
 Shima, describing his logic design in 2007, gave his own count, unit by
 unit, as 2,238, against an Intel target of about 2,000. It was built in
-lines ten micrometres wide and clocked at 740 kilohertz.
+lines ten micrometers wide and clocked at 740 kilohertz.
 
 The plate draws its data path and the price of its package. A 12-bit
 address, an 8-bit instruction and 4-bit data all had to pass through

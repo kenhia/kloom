@@ -1,4 +1,4 @@
-In 1907, in a home laboratory in Yonkers, New York, the Belgian chemist **[Leo Baekeland](kloom:e/leo-baekeland)** heated two ordinary chemicals, phenol and formaldehyde, in a sealed vessel under heat and pressure. Out came a hard, amber resin that would neither melt nor dissolve once it had set. He applied for a patent that July and announced it to the American Chemical Society in February 1909. **[Bakelite](kloom:e/bakelite)**, the first plastic made entirely from synthetic chemicals, was moulded into insulators, radios and telephones, and when Baekeland died in 1944 the world made about 175,000 tons of it a year. Nobody could yet say what it was.
+In 1907, in a home laboratory in Yonkers, New York, the Belgian chemist **[Leo Baekeland](kloom:e/leo-baekeland)** heated two ordinary chemicals, phenol and formaldehyde, in a sealed vessel under heat and pressure. Out came a hard, amber resin that would neither melt nor dissolve once it had set. He applied for a patent that July and announced it to the American Chemical Society in February 1909. **[Bakelite](kloom:e/bakelite)**, the first plastic made entirely from synthetic chemicals, was molded into insulators, radios and telephones, and when Baekeland died in 1944 the world made about 175,000 tons of it a year. Nobody could yet say what it was.
 
 ![A black Bakelite desk telephone of the 1930s or 1940s, its handset resting on a cradle above a square base with a round dial plate](bakelite-telephone.jpg)
 
@@ -23,7 +23,7 @@ By our arithmetic, that one molecule holds some 3,560 links, twenty times the li
 
 ## Built to order
 
-At **[DuPont](kloom:e/dupont)**, **[Wallace Carothers](kloom:e/wallace-carothers)** came at the question from the other side. Hired in 1928 to do pure research, he set out to build long molecules from small ones by well-understood reactions, joining molecules with a reactive group at each end. Each link split off a molecule of water, and his first polyesters stuck at molecular weights of about 4,000, held short, he concluded, by the water the reaction made. Removing it in a molecular still, his colleague Julian Hill made polyesters of about 12,000 in 1930 and drew them out into fibres. On 28 February 1935 Gerard Berchet, in Carothers's group, made a polyamide from adipic acid and hexamethylenediamine, each with six carbons: **[nylon 66](kloom:e/nylon-66)**.
+At **[DuPont](kloom:e/dupont)**, **[Wallace Carothers](kloom:e/wallace-carothers)** came at the question from the other side. Hired in 1928 to do pure research, he set out to build long molecules from small ones by well-understood reactions, joining molecules with a reactive group at each end. Each link split off a molecule of water, and his first polyesters stuck at molecular weights of about 4,000, held short, he concluded, by the water the reaction made. Removing it in a molecular still, his colleague Julian Hill made polyesters of about 12,000 in 1930 and drew them out into fibers. On 28 February 1935 Gerard Berchet, in Carothers's group, made a polyamide from adipic acid and hexamethylenediamine, each with six carbons: **[nylon 66](kloom:e/nylon-66)**.
 
 n HOOC(CH₂)₄COOH + n H₂N(CH₂)₆NH₂ → [–OC(CH₂)₄CO–NH(CH₂)₆NH–]ₙ + 2n H₂O
 
@@ -31,6 +31,6 @@ Every amide bond releases one water, so the reaction runs only as water is drive
 
 ## Rubber in the cold
 
-Rubber's spring is its long chains uncoiling when stretched and coiling back, tied together at a few points so they cannot flow away. Cool a rubber and its chains move ever more sluggishly, until below its glass transition, about −70 °C for tyre rubber, it is hard and glassy. In 1986 the physicist Richard Feynman showed that stiffening at the temperature of ice, with O-ring rubber from a model of the Challenger shuttle's booster joint, squeezed in a clamp and dropped in a glass of iced water.
+Rubber's spring is its long chains uncoiling when stretched and coiling back, tied together at a few points so they cannot flow away. Cool a rubber and its chains move ever more sluggishly, until below its glass transition, about −70 °C for tire rubber, it is hard and glassy. In 1986 the physicist Richard Feynman showed that stiffening at the temperature of ice, with O-ring rubber from a model of the Challenger shuttle's booster joint, squeezed in a clamp and dropped in a glass of iced water.
 
 The next frame is a chemist who made two new molecules for General Motors: a lead compound for petrol, and a gas for refrigerators.

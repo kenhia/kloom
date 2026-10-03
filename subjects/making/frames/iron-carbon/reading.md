@@ -6,7 +6,7 @@ In 1900 the Dutch chemist **[Hendrik Willem Bakhuis Roozeboom](kloom:e/hendrik-w
 
 The phases took their names in those years. Floris Osmond named **[martensite](kloom:e/martensite)**, the hard structure of quenched steel, after **[Adolf Martens](kloom:e/adolf-martens)**, a German pioneer of the metallurgical microscope. The names moved about before they settled: in definitions Henry Marion Howe and Albert Sauveur proposed in 1912, they noted that austenite had often been called martensite before 1900.
 
-![A printed diagram of temperature against percentage of carbon, from 0 to 6.67, with curved lines dividing it into numbered regions labelled austenite, cementite and pearlite](howe-diagram.jpg)
+![A printed diagram of temperature against percentage of carbon, from 0 to 6.67, with curved lines dividing it into numbered regions labeled austenite, cementite and pearlite](howe-diagram.jpg)
 
 ## Reading it for a steel
 
@@ -35,4 +35,4 @@ The lines moved. Howe's diagram in the _Encyclopædia Britannica_ of 1911 put th
 | Most carbon in austenite | about 2.2%       | 2.04–2.14% · 1,146–1,148 °C |
 | Eutectic                 | 4.30% · 1,130 °C | 4.3% · 1,147 °C             |
 
-The diagram is a map of steel. The next frame is about an alloy whose hardening the map could not explain at first: an aluminium that grew hard while it waited.
+The diagram is a map of steel. The next frame is about an alloy whose hardening the map could not explain at first: an aluminum that grew hard while it waited.

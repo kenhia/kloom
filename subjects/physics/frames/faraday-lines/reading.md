@@ -6,20 +6,20 @@ nothing more. Between 1845 and 1852 he found three things that made the
 lines harder to dismiss, and then argued, carefully and in print, that
 they were really there.
 
-## A magnetised ray of light
+## A magnetized ray of light
 
 Faraday had believed for years that light, electricity and magnetism were
 forms of one power, and had looked for a link between them without
 success. On 13 September 1845 he tried a piece of heavy glass, a
 borate of lead and silica he had made in his work on optical glass in the
-late 1820s. He polarised the light of a lamp by reflection, turned an
+late 1820s. He polarized the light of a lamp by reflection, turned an
 eyepiece until the flame vanished, and put the glass between the opposite
 poles of an electromagnet, so that the ray ran along the lines of force.
 When the current went on, the flame came back into view. When it went
 off, the flame disappeared. His notebook entry for the day says that
 "magnetic force and light were proved to have relation to each other."
 
-The magnet had turned the plane of polarisation, and the plate draws the
+The magnet had turned the plane of polarization, and the plate draws the
 arrangement. The **[Faraday effect](kloom:e/faraday-effect)** is proportional to the strength of the field
 along the ray, as Émile Verdet showed by measurement between 1854 and 1863. Faraday reported it to the Royal Society in November 1845 under a
 title, "the magnetization of light and the illumination of magnetic lines
@@ -53,7 +53,7 @@ another." He filled the time with a speculation, then wrote it up as a
 letter to the _Philosophical Magazine_ that May.
 
 Perhaps, it said, light is a vibration of the lines of force themselves,
-sideways, as the polarisation of light requires. The proposal "endeavours
+sideways, as the polarization of light requires. The proposal "endeavours
 to dismiss the aether, but not the vibrations": no **[luminiferous aether](kloom:e/luminiferous-aether)**
 is needed if the lines can carry the shake, and the shake would take time
 to travel. Faraday called it "the shadow of a speculation." Eighteen years
@@ -68,10 +68,10 @@ lines with iron filings: level paper over the magnet, filings through a fine sie
 light tap with a pen-holder, and a gummed sheet pressed down to fix the
 pattern for good. He kept many such sheets.
 
-![A sheet of Faraday's fixed iron filings: dark filings in long curving chains running out from three points along a vertical bar and looping from one point to the next, on a grey ground](iron-filings.jpg)
+![A sheet of Faraday's fixed iron filings: dark filings in long curving chains running out from three points along a vertical bar and looping from one point to the next, on a gray ground](iron-filings.jpg)
 
 In June 1852, in "On the Physical Character of the Lines of Magnetic
-Force," he made the case. Rays of light could be bent, polarised and
+Force," he made the case. Rays of light could be bent, polarized and
 timed, so their lines had a physical existence. Gravity's could not.
 Filings alone could not decide it for magnetism, he admitted, since
 straight attractions between the filings might make the same pattern. But

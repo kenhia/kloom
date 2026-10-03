@@ -387,7 +387,7 @@ describe('citationProblems', () => {
 		void licence;
 		void file;
 		expect(citationProblems(bare)).toEqual([
-			'a media citation needs a licence',
+			'a media citation needs a `licence`',
 			'a media citation needs the file it credits'
 		]);
 	});
@@ -864,7 +864,7 @@ describe('the forms from Keeping Watch (sprint 033)', () => {
 
 	it('says when only a work’s catalogue record was read', () => {
 		expect(chicagoText({ ...article, read: 'record' })).toContain(
-			'737–38. Read in its catalogue record only. Accessed'
+			'737–38. Read in its catalog record only. Accessed'
 		);
 	});
 

@@ -25,7 +25,7 @@ The famous snowflake, three Koch curves around a triangle, is credited to Koch, 
 
 ## Rulers and coasts
 
-Mandelbrot's evidence came from **[Lewis Fry Richardson](kloom:e/lewis-fry-richardson)**, an English meteorologist who around 1950 was studying whether the length of the border two countries share has to do with their going to war. Neighbours did not even agree: by Wikipedia's account Portugal put its border with Spain at 987 kilometres and Spain at 1,214. Richardson measured maps with dividers set to shorter and shorter steps, and found that the length _L_ grew with the step _G_ as _L_ = _F_ × _G_¹⁻ᴰ, with a different _D_ for every border. His paper appeared in 1961, after his death, and attracted no attention until Mandelbrot read it as a measurement of dimension:
+Mandelbrot's evidence came from **[Lewis Fry Richardson](kloom:e/lewis-fry-richardson)**, an English meteorologist who around 1950 was studying whether the length of the border two countries share has to do with their going to war. Neighbors did not even agree: by Wikipedia's account Portugal put its border with Spain at 987 kilometers and Spain at 1,214. Richardson measured maps with dividers set to shorter and shorter steps, and found that the length _L_ grew with the step _G_ as _L_ = _F_ × _G_¹⁻ᴰ, with a different _D_ for every border. His paper appeared in 1961, after his death, and attracted no attention until Mandelbrot read it as a measurement of dimension:
 
 | Frontier (Richardson's data)  |  _D_ |
 | ----------------------------- | ---: |

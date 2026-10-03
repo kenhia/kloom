@@ -11,7 +11,7 @@ to particular (in [ImageNet](kloom:e/imagenet) it runs nine levels deep, from _m
 _German shepherd_). Li decided to build an image database on that skeleton, starting from WordNet's
 roughly 22,000 nouns, and to fill each synset with hundreds of photographs.
 The plate on the left is that design: a tree of concepts, and a stack of
-labelled images hanging from every leaf.
+labeled images hanging from every leaf.
 
 The first paper, by **Jia Deng**, Li and their colleagues at the 2009
 Conference on Computer Vision and Pattern Recognition (CVPR), described
@@ -22,7 +22,7 @@ annotated images".
 
 ![Fei-Fei Li speaking at a lectern at the ITU's AI for Good summit in 2017](fei-fei-li.jpg)
 
-## Forty-nine thousand labellers
+## Forty-nine thousand labelers
 
 The candidates came from image search engines, queried with each synset's
 synonyms and their translations into Chinese, Spanish, Dutch and Italian.
@@ -33,7 +33,7 @@ Several workers judged each image independently, and it was kept only with a
 convincing majority. The majority needed depended on the synset: a few votes
 settle "cat", but the paper found that "Burmese cat" could take five. The
 result, checked by sampling, was 99.7 per cent precise.
-Labelling ran from July 2008 to April 2010. By one account 49,000 workers in
+Labeling ran from July 2008 to April 2010. By one account 49,000 workers in
 167 countries filtered more than 160 million candidate images, and in 2012
 ImageNet was the largest academic user of Mechanical Turk in the world.
 
@@ -51,12 +51,12 @@ labels.
 ## The challenge
 
 A dataset only changes a field if people use it. In 2010 Li's group started
-the **ImageNet Large Scale Visual Recognition Challenge** (ILSVRC), modelled
+the **ImageNet Large Scale Visual Recognition Challenge** (ILSVRC), modeled
 on the smaller PASCAL VOC contest, which in 2010 had 20 object classes and
 19,737 images. ILSVRC used 1,000 classes (from 2012, 120 of them breeds of dog), with
 about 1.2 million training images, 50,000 for validation and 100,000 for a
 test set whose labels, after the first year, were kept secret. Each image
-carried one label, but a photograph labelled _strawberry_ might show an apple
+carried one label, but a photograph labeled _strawberry_ might show an apple
 too, so a program was allowed five guesses. It was scored by its _top-5
 error_: how often the right answer was not among them.
 

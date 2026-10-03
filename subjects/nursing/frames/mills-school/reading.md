@@ -1,6 +1,6 @@
 On 17 December 1888 a training school for male nurses took its first pupils at **[Bellevue Hospital](kloom:e/bellevue-hospital)** in New York. Its managers' report of 1892 says it was founded for two reasons: "to give to Bellevue Hospital a corps of educated male nurses," and "to furnish a new calling and profession to young men." The money came from the banker **[Darius Ogden Mills](kloom:e/darius-ogden-mills)**, and it was known as the Mills Training School for Male Nurses. Bellevue's school for women, opened in 1873, had remade the nursing of its wards, but the hospital still employed untrained men in its men's wards, and its physicians wanted them trained "according to the same methods as the women."
 
-![An engraving of a five-storey brick building with arched windows on a city corner, captioned "D. O. Mills Training School for Male Nurses, 431 East 26th Street"](mills-school-building.jpg)
+![An engraving of a five-story brick building with arched windows on a city corner, captioned "D. O. Mills Training School for Male Nurses, 431 East 26th Street"](mills-school-building.jpg)
 
 ## The course
 

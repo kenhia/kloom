@@ -1,7 +1,7 @@
 Walk into the [Pantheon](kloom:e/pantheon-rome) in [Rome](kloom:e/rome) today and you are inside a building that has
 been in continuous use for nineteen centuries. Above you is a concrete dome
-43 metres across, and at its centre an open circle, the **oculus**, nine
-metres wide, through which the sky — and occasionally the rain — comes in.
+43 meters across, and at its center an open circle, the **oculus**, nine
+meters wide, through which the sky — and occasionally the rain — comes in.
 
 ## Built on a sphere
 
@@ -12,7 +12,7 @@ That building burned. The one standing now was completed under the emperor
 **[Hadrian](kloom:e/hadrian)**, around AD 126, and he kept the old inscription.
 
 Its geometry is simple and radical. The height from the floor to the top of
-the oculus is the same as the diameter of the rotunda, 43 metres, so a
+the oculus is the same as the diameter of the rotunda, 43 meters, so a
 complete sphere would fit exactly inside it, resting on the floor. The lower
 half of that imagined sphere is a cylinder of walls; the upper half is the
 dome.
@@ -35,7 +35,7 @@ earthquakes, sieges and the fall of the empire that built it.
 
 ## Why "still standing" matters
 
-Rome's great engineering — the aqueducts, roads, bridges, harbours and the
+Rome's great engineering — the aqueducts, roads, bridges, harbors and the
 Colosseum, which held some 50,000 spectators — was built to last, and much of
 it did. When the western empire fragmented in the fifth century, the
 knowledge of how to build like this faded in the west, but the buildings

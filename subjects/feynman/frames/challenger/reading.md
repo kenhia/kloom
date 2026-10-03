@@ -20,7 +20,7 @@ February President Reagan set up a [Presidential Commission](kloom:e/rogers-comm
 Secretary of State **[William P. Rogers](kloom:e/william-p-rogers)**, and Feynman was on it.
 
 He was sixty-seven and not well. Surgeons had removed a large abdominal
-tumour, a rare cancer, in 1978; during the investigation, he mentioned
+tumor, a rare cancer, in 1978; during the investigation, he mentioned
 later, his cardiologist was looking after him by telephone; and in 1986 his
 doctors found a second cancer. He took the red-eye to Washington anyway,
 after a day of briefings from engineers at the Jet Propulsion Laboratory in

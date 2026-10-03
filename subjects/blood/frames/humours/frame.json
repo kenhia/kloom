@@ -1,6 +1,6 @@
 {
 	"id": "humours",
-	"topic": "The four humours",
+	"topic": "The four humors",
 	"position": {
 		"label": "c. 400 BC",
 		"sort": -400
@@ -120,11 +120,11 @@
 	"connections": [
 		{
 			"to": "chemistry/four-elements",
-			"why": "The humours carried the same four qualities, two at a time, that Aristotle used to build the elements: blood hot and moist like air, yellow bile hot and dry like fire, phlegm cold and moist like water, black bile cold and dry like earth."
+			"why": "The humors carried the same four qualities, two at a time, that Aristotle used to build the elements: blood hot and moist like air, yellow bile hot and dry like fire, phlegm cold and moist like water, black bile cold and dry like earth."
 		},
 		{
 			"to": "chemistry/jabir",
-			"why": "Jabir's alchemy borrowed the physician's logic of the humours: a metal's hot, cold, moist and dry natures could be rebalanced by an elixir, as a drug restores a patient's humours."
+			"why": "Jabir's alchemy borrowed the physician's logic of the humors: a metal's hot, cold, moist and dry natures could be rebalanced by an elixir, as a drug restores a patient's humors."
 		}
 	]
 }

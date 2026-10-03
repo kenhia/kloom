@@ -31,6 +31,6 @@ In 1766 **[Henry Cavendish](kloom:e/henry-cavendish)** sent the Royal Society th
 
 ## Heat that hides
 
-In 1756 Black moved to the University of Glasgow. There, around 1761, he found that ice at its melting point takes in heat without getting warmer, and boiling water the same: the heat became _latent_. The university's instrument maker was **[James Watt](kloom:e/james-watt)**, and the two became friends. According to Wikipedia's biography, Watt came to the importance of **[latent heat](kloom:e/latent-heat)** himself while studying steam engines, unaware that Black had found it first, and Black later lent him money for the engine. Western civilisation's frame on the steam engine tells what Watt built.
+In 1756 Black moved to the University of Glasgow. There, around 1761, he found that ice at its melting point takes in heat without getting warmer, and boiling water the same: the heat became _latent_. The university's instrument maker was **[James Watt](kloom:e/james-watt)**, and the two became friends. According to Wikipedia's biography, Watt came to the importance of **[latent heat](kloom:e/latent-heat)** himself while studying steam engines, unaware that Black had found it first, and Black later lent him money for the engine. Western civilization's frame on the steam engine tells what Watt built.
 
 Black, like Cavendish, kept the language of phlogiston. The next frame is the discovery of the gas that would end it: oxygen.

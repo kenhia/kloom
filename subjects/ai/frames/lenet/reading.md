@@ -12,11 +12,11 @@ with Geoffrey Hinton in Toronto. The problem the group took on came from the
 US Postal Service: 9,298 handwritten digits cut out of zip codes on mail
 passing through the post office in [Buffalo](kloom:e/buffalo-new-york), New York, written "by many
 different people, using a great variety of sizes, writing styles, and
-instruments". Each was scaled to a 16 × 16 grid of grey levels. Some were
-ambiguous, some unclassifiable, some mislabelled; two people who tried the
+instruments". Each was scaled to a 16 × 16 grid of gray levels. Some were
+ambiguous, some unclassifiable, some mislabeled; two people who tried the
 test set made mistakes on 2.5 per cent of it.
 
-The group's earlier recogniser had used feature detectors designed by hand.
+The group's earlier recognizer had used feature detectors designed by hand.
 The 1989 paper, "Backpropagation Applied to Handwritten Zip Code
 Recognition", by LeCun and six colleagues, let [backpropagation](kloom:e/backpropagation) learn
 everything, "going from the normalized image of the character to the final
@@ -28,8 +28,8 @@ weights. Twelve such detectors made twelve 8 × 8 _feature maps_; a second
 layer did the same over them at 4 × 4; then 30 ordinary units, and ten
 outputs, one per digit. The network had 64,660 connections but only 9,760
 free parameters, and that economy, the authors argued, was what let it
-generalise from 7,291 training examples. The paper cites **[Kunihiko
-Fukushima](kloom:e/kunihiko-fukushima)**'s [_neocognitron_](kloom:e/neocognitron) of 1980, an earlier layered network for recognising
+generalize from 7,291 training examples. The paper cites **[Kunihiko
+Fukushima](kloom:e/kunihiko-fukushima)**'s [_neocognitron_](kloom:e/neocognitron) of 1980, an earlier layered network for recognizing
 patterns "unaffected by shift in position".
 
 It trained for three days on a Sun workstation. On the 2,007 test digits it
@@ -39,19 +39,19 @@ worse, at 8.1 per cent. Some of the kernels it learned were, in the authors' wor
 off-the-shelf AT&T signal-processing chip, it read 10 to 12 digits a second,
 camera to answer.
 
-## Reading cheques
+## Reading checks
 
 Bell Labs worked with [NCR](kloom:e/ncr-voyix), which AT&T bought in 1991, to put the network into
-ATMs that read the amounts written on cheques. From June 1996 a larger system
+ATMs that read the amounts written on checks. From June 1996 a larger system
 ran in banks' back offices, and by 2001 it was estimated to be reading 20
-million cheques a day, about a tenth of all the cheques written in the United
+million checks a day, about a tenth of all the checks written in the United
 States.
 
 The design was written up in full in 1998, in "Gradient-Based Learning
 Applied to Document Recognition" by LeCun, **Léon Bottou**, **[Yoshua
 Bengio](kloom:e/yoshua-bengio)** and **Patrick Haffner**. Its network, **[LeNet-5](kloom:e/lenet)**, has two
 convolutional layers, two subsampling layers and three fully connected ones,
-about 60,000 trainable weights in all, and the paper reports a cheque reader
+about 60,000 trainable weights in all, and the paper reports a check reader
 built around it that "reads several million checks per day".
 
 ![A grid of handwritten digits from the MNIST test set: sixteen samples each of 0 to 9, in many hands, thick and thin, slanted and upright](mnist-examples.png)

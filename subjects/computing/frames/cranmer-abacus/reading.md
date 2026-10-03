@@ -10,7 +10,7 @@ calculator they could read.
 age of nine. He taught himself physics, chemistry and computer science
 largely from [braille](kloom:e/braille) books, and was, as his [abacus](kloom:e/abacus) manual put it,
 "extremely interested in radio and electronics". He worked as a piano
-technician, and invented a key-levelling tool that sighted technicians
+technician, and invented a key-leveling tool that sighted technicians
 used too; from 1952 he worked for Kentucky's services for the blind,
 whose division he went on to direct. He studied Japanese abacuses and changed one thing about them:
 behind the beads he laid a soft backing, felt or rubber, that holds each

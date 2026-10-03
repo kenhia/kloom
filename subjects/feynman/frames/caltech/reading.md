@@ -27,7 +27,7 @@ give him the year in Brazil at the start, and even agreed when he warned
 that he might stay in Brazil for good.
 
 He gave Weiner other reasons too, and they are revealing. One was the Ithaca
-winter: a day of cold slush when he had to fit chains to his car's tyres
+winter: a day of cold slush when he had to fit chains to his car's tires
 with freezing hands, and decided he was done with that part of the world.
 The other was Cornell itself. It was a whole university, with a hotel
 school and a department of home economics, and he found the conversation in
@@ -35,7 +35,7 @@ its cafeteria diluted. Caltech was nearly all science and engineering. He
 could sit down beside any student or professor, in biology or astronomy,
 and expect to be understood. It was, he agreed, his kind of place.
 
-![The Norman Bridge Laboratory of Physics at Caltech in 1944: a pale, four-storey building with rows of tall windows and a square tower at one end, behind a low wall and clipped hedges](bridge-laboratory-1944.jpg)
+![The Norman Bridge Laboratory of Physics at Caltech in 1944: a pale, four-story building with rows of tall windows and a square tower at one end, behind a low wall and clipped hedges](bridge-laboratory-1944.jpg)
 
 ## Arriving
 
@@ -70,9 +70,9 @@ Kansas, who was studying the history of Mexican art and textiles. She
 followed him to Caltech, and while he was in Brazil she taught at Michigan
 State. He proposed to her by letter from Rio, and they married in Boise,
 Idaho, on 28 June 1952, soon after he returned. It was his second marriage;
-his first wife, Arline, had died in 1945. It went badly. They quarrelled,
+his first wife, Arline, had died in 1945. It went badly. They quarreled,
 disagreed about politics, and separated in May 1956. The divorce was granted
-on grounds of "extreme cruelty", and her testimony, summarised later in an
+on grounds of "extreme cruelty", and her testimony, summarized later in an
 FBI report, described a man who worked calculus problems in his head from
 the moment he woke, and a violent temper when he was interrupted. That
 record is hers and the FBI's; he left no public account of the marriage.

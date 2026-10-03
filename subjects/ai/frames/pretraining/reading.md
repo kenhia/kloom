@@ -1,9 +1,9 @@
 Until 2018 a language system was usually trained for one job, on examples
-people had labelled for that job: sentences marked positive or negative,
-questions paired with answers. Labelled data is slow and costly to make, and
-unlabelled text is almost free. In 2018 three groups showed that a model
+people had labeled for that job: sentences marked positive or negative,
+questions paired with answers. Labeled data is slow and costly to make, and
+unlabeled text is almost free. In 2018 three groups showed that a model
 could learn most of what it needed from plain text first, and be taught the
-job afterwards with a little labelled data. The recipe, _pretraining_ and
+job afterwards with a little labeled data. The recipe, _pretraining_ and
 then _fine-tuning_, became the way language models were made.
 
 ## Three recipes in one year
@@ -41,7 +41,7 @@ In February 2019 OpenAI announced **[GPT-2](kloom:e/gpt-2)**, the same design sc
 than tenfold, to 1.5 billion parameters. Its training set, _WebText_, was
 built from outbound links posted on [Reddit](kloom:e/reddit) that had earned at least three
 karma: slightly over 8 million documents, 40 GB of text. Without fine-tuning
-at all, it could be steered into translating, summarising and answering
+at all, it could be steered into translating, summarizing and answering
 questions, and it wrote what _The Guardian_ called "plausible newspaper
 prose".
 

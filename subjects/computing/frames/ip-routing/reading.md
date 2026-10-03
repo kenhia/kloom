@@ -47,15 +47,15 @@ Their example: for a packet to 10.144.2.5, with routes to 10.0.0.0/8,
 10.144.0.0/16 and 10.144.2.0/24, the router uses the /24, the most specific
 route that fits. It then lowers the time to live, and passes the packet on.
 
-![Cisco's Advanced Gateway Server router of 1986 in a museum case: an open metal chassis with circuit boards stacked in slots and grey ribbon cables looping out of them](ags.jpg)
+![Cisco's Advanced Gateway Server router of 1986 in a museum case: an open metal chassis with circuit boards stacked in slots and gray ribbon cables looping out of them](ags.jpg)
 
-Inside one organisation, routers learn their prefixes from each other.
-Between organisations, the tables are built by the **[Border Gateway
+Inside one organization, routers learn their prefixes from each other.
+Between organizations, the tables are built by the **[Border Gateway
 Protocol](kloom:e/border-gateway-protocol)**. In January 1989, at an IETF meeting in Austin, **Yakov
 Rekhter**, **Kirk Lougheed** and **[Len Bosack](kloom:e/leonard-bosack)** sketched it on two napkins;
 it was published that year as RFC 1105. Each independently run network, an
-_autonomous system_, tells its neighbours which prefixes it can reach and
-through which chain of networks, and each neighbour chooses by its own
+_autonomous system_, tells its neighbors which prefixes it can reach and
+through which chain of networks, and each neighbor chooses by its own
 policy. BGP-4, with support for CIDR, followed in 1994. On 28 September
 2026 the global table held 1,079,014 IPv4 prefixes, announced by about
 79,500 autonomous systems, according to the CIDR Report. Its growth is a

@@ -57,7 +57,7 @@ measured values. The results, he wrote, agree with [Schwinger](kloom:e/julian-sc
 paper points to **[Freeman Dyson](kloom:e/freeman-dyson)**'s proof, published earlier that year,
 that the two methods are equivalent.
 
-![A hand-coloured postcard of Rockefeller Hall on the Cornell campus, a large brick building with a low hipped roof behind a tree on a grassy slope, captioned "Rockefeller Hall, Department of Physics, Cornell University, Ithaca, N.Y."](rockefeller-hall.jpg)
+![A hand-colored postcard of Rockefeller Hall on the Cornell campus, a large brick building with a low hipped roof behind a tree on a grassy slope, captioned "Rockefeller Hall, Department of Physics, Cornell University, Ithaca, N.Y."](rockefeller-hall.jpg)
 
 ## One evening
 

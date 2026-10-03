@@ -19,7 +19,7 @@ Weisskopf** showed by 1939 that the worst of it grew only with the
 logarithm of the highest energy counted. A second infinity came from the
 empty space around a charge, where the theory filled the vacuum with
 short-lived electron–positron pairs that turned their ends toward the
-charge and partly cancelled it: **[vacuum polarisation](kloom:e/vacuum-polarization)**. Many physicists
+charge and partly canceled it: **[vacuum polarization](kloom:e/vacuum-polarization)**. Many physicists
 came to distrust the whole theory, and some concluded that quantum
 mechanics and relativity could not be joined without something new.
 
@@ -45,7 +45,7 @@ conclusion plainly. The theory cannot calculate those two changes, but it
 never needs to, because the mass and charge anyone measures already
 include them: put the measured values in, and everything else comes out
 finite. "When a theory is incompetent in part, it is a common procedure to
-rely on experiment for that part." The procedure is **[renormalisation](kloom:e/renormalization)**.
+rely on experiment for that part." The procedure is **[renormalization](kloom:e/renormalization)**.
 
 ![Paul Dirac and Richard Feynman in conversation at the conference on general relativity at Jabłonna, near Warsaw, in July 1962: Dirac leaning against a stone pedestal under a tree, Feynman facing him with his hands raised as he talks](dirac-feynman.png)
 
@@ -57,7 +57,7 @@ began its own relativistic calculation of it.
 | The infinity                    | Where it comes from                          | Absorbed into       |
 | ------------------------------- | -------------------------------------------- | ------------------- |
 | Self-energy                     | the electron acting on its own field         | the measured mass   |
-| Vacuum polarisation             | virtual pairs screening the charge           | the measured charge |
+| Vacuum polarization             | virtual pairs screening the charge           | the measured charge |
 | Anything else in the scattering | nothing: once those two are absorbed, finite | —                   |
 
 ## Three routes, one theory
@@ -74,7 +74,7 @@ accepted it: neglecting a quantity because it is infinitely great and you
 do not want it, he said in 1975, is not sensible mathematics. The answer
 that satisfied most physicists came from **Kenneth Wilson** in the 1970s:
 a field theory describes nature down to some scale, what happens below it
-is folded into a few measured numbers, and renormalisation is the
+is folded into a few measured numbers, and renormalization is the
 bookkeeping of how those numbers change with the scale you look at.
 
 ## The charge runs
@@ -94,7 +94,7 @@ about 7 per cent stronger there.
 | 91 GeV (the Z boson's mass)    | 127.93  |
 
 QED became the pattern for the rest of particle physics: a field whose
-symmetry fixes how it couples to charge, renormalised. Its precision is
+symmetry fixes how it couples to charge, renormalized. Its precision is
 still unmatched. The electron's magnetic moment is measured and calculated
 to about a part in a trillion, and theory and experiment agree; the
 Feynman subject's frame on the magnetic moment gives both. Put the same

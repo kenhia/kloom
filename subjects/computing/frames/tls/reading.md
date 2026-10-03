@@ -83,7 +83,7 @@ user's permission before first loading any public site without HTTPS.
 A recording of encrypted traffic can be kept for decades. If a large
 [quantum computer](kloom:e/quantum-computing) is ever built, [Shor's algorithm](kloom:e/shors-algorithm) would recover the keys
 from today's key exchanges, so an attacker can harvest now and decrypt
-later. The answer is already deployed. NIST standardised [**ML-KEM**](kloom:e/ml-kem), a key
+later. The answer is already deployed. NIST standardized [**ML-KEM**](kloom:e/ml-kem), a key
 exchange based on lattice problems, as FIPS 203 in August 2024, and TLS 1.3
 now runs it alongside the classical exchange, X25519, so the session stays
 safe while either one holds; the plate draws the two feeding one key
@@ -96,5 +96,5 @@ Cloudflare set 2029 as its target for finishing the change.
 Five layers, each doing one job and trusting nothing from the others: a
 cable shared by taking turns, an address on every packet, a stream made
 out of losses, a tree of names, and a sealed envelope over all of it. That
-division of labour is what the internetworking design of the 1970s
+division of labor is what the internetworking design of the 1970s
 promised; this trail began at TCP/IP.

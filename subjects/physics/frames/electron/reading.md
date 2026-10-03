@@ -58,7 +58,7 @@ perfume atomizer, and it worked. In the **[oil drop
 experiment](kloom:e/oil-drop-experiment)** a charged droplet between two plates falls under gravity at a
 speed set by its size and by the viscosity of air, and rises when the
 field is switched on; timing both gives its charge. As a drop picked up
-charges from the air, which an X-ray tube in the apparatus ionised, its
+charges from the air, which an X-ray tube in the apparatus ionized, its
 charge jumped, always by whole multiples of one amount.
 
 ![Millikan's diagram of his oil-drop apparatus: a brass chamber immersed in a tank of oil, with the atomizer at the top, two plates M and N inside, the batteries and a manometer at the left, a lamp and filters at the lower left, and an X-ray tube at the lower right](millikan-scheme.jpg)

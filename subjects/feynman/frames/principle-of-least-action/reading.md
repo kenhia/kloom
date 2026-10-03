@@ -17,8 +17,8 @@ _quickest_, provided it travels more slowly in the denser medium. That one
 assumption gave the ordinary law of refraction.
 
 The plate works an example. The numbers are invented for this frame: a
-lamp at A, one metre above still water, and a point B one metre below the
-surface and two metres along. Light is taken to move 1.33 times slower in
+lamp at A, one meter above still water, and a point B one meter below the
+surface and two meters along. Light is taken to move 1.33 times slower in
 water than in air.
 
 | Where the ray crosses the surface | Time from A to B |

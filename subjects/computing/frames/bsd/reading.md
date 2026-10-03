@@ -33,7 +33,7 @@ into the kernel. Over the Christmas break of 1978 users found themselves
 logged in to one system or the other. It was working by January 1979, and
 in December Joy shipped 3BSD, a whole system, to nearly a hundred sites.
 
-![A DEC VAX-11/780: a tall cream-coloured cabinet with two doors, rows of ventilation slots, and a blue band across the top carrying the digital logo, the name VAX 11/780 and a row of switches](vax-11-780.jpg)
+![A DEC VAX-11/780: a tall cream-colored cabinet with two doors, rows of ventilation slots, and a blue band across the top carrying the digital logo, the name VAX 11/780 and a row of switches](vax-11-780.jpg)
 
 ## DARPA's network
 
@@ -62,15 +62,15 @@ is like reading a file. The protocol under it, TCP, has its own story.
 | 3BSD    | December 1979 | nearly 100                            |
 | 4BSD    | October 1980  | nearly 150, on about 500 machines     |
 | 4.1BSD  | June 1981     | about 400                             |
-| 4.2BSD  | August 1983   | over 1,000 site licences in 18 months |
+| 4.2BSD  | August 1983   | over 1,000 site licenses in 18 months |
 
-![Bar chart of copies shipped per Berkeley release: about 30 of 1BSD, 75 of 2BSD, 100 of 3BSD, 150 of 4BSD, 400 of 4.1BSD, and over 1,000 site licences for 4.2BSD](copies-shipped.svg)
+![Bar chart of copies shipped per Berkeley release: about 30 of 1BSD, 75 of 2BSD, 100 of 3BSD, 150 of 4BSD, 400 of 4.1BSD, and over 1,000 site licenses for 4.2BSD](copies-shipped.svg)
 
 4.2BSD sold more copies than every earlier Berkeley release together, and
 most Unix vendors shipped it rather than AT&T's System V, which had neither
 networking nor the new file system. It carried the internet's protocols
 into the universities: in 1989 David Curry could still write that most
-university and government computer centres running Unix ran Berkeley's.
+university and government computer centers running Unix ran Berkeley's.
 When BBN complained that Berkeley was
 still running its old prototype of TCP/IP, DARPA had Mike Muuse of the
 Ballistic Research Laboratory compare the two; Berkeley's code ran every
@@ -78,7 +78,7 @@ test while BBN's crashed under some, and **4.3BSD** kept it in June 1986.
 
 ## Freeing the code
 
-Every BSD so far had needed an AT&T source licence. In June 1989 Berkeley
+Every BSD so far had needed an AT&T source license. In June 1989 Berkeley
 released its networking code alone, with none of AT&T's, free for anyone
 to copy for the price of a $1,000 tape. Keith Bostic then had volunteers
 rewrite the standard utilities from their published descriptions, and by

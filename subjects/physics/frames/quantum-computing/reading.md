@@ -51,14 +51,14 @@ Every gate must be much faster than that.
 Errors cannot be fixed as in ordinary memory by keeping copies: an
 unknown quantum state cannot be copied at all (the no-cloning theorem of
 1982). **[Quantum error correction](kloom:e/quantum-error-correction)** spreads one logical qubit over many
-physical ones and measures only whether neighbouring qubits agree, which
+physical ones and measures only whether neighboring qubits agree, which
 reveals where an error happened without revealing, and so destroying, the
 data. If each physical operation fails rarely enough, below a threshold,
 adding qubits makes the logical qubit better rather than worse. The code
 most machines aim at, the _surface code_, lays the qubits out as a square
-patch on a chip, each checking its neighbours.
+patch on a chip, each checking its neighbors.
 
-![A NIST ion trap of 2011: a square gold chip 7.4 millimetres on a side, on an aluminium nitride board with screws, small components and three broad gold electrodes leading away](ion-trap.jpg)
+![A NIST ion trap of 2011: a square gold chip 7.4 millimeters on a side, on an aluminum nitride board with screws, small components and three broad gold electrodes leading away](ion-trap.jpg)
 
 In the NIST trap above, two ions hovered over the middle of the gold
 square and were entangled by microwaves carried in its wiring, rather than
@@ -71,13 +71,13 @@ by lasers.
 | Superconducting circuits | a transmon: a Josephson junction and a capacitor    | capacitors and microwave resonators on the chip | below 15 mK, in a dilution refrigerator |
 | Trapped ions             | two levels of an ion held by radio-frequency fields | the shared vibration of the ion string          | ions laser-cooled; trap in vacuum       |
 | Neutral atoms            | two levels of an atom in a laser tweezer            | the Rydberg blockade of highly excited atoms    | microkelvin atoms, in vacuum            |
-| Photons                  | a photon's polarisation or path                     | measurement and teleportation (the KLM scheme)  | light in optical circuits               |
+| Photons                  | a photon's polarization or path                     | measurement and teleportation (the KLM scheme)  | light in optical circuits               |
 
 The **[transmon](kloom:e/transmon)**, designed at Yale in 2007, is the qubit of most large
-processors, Google's and IBM's among them. It rests on work honoured by
+processors, Google's and IBM's among them. It rests on work honored by
 the Nobel Prize in Physics of 2025: in 1985 John Clarke, Michel Devoret
 and John Martinis showed that a current in a superconducting circuit big
-enough to hold in the hand tunnels and takes quantised energies like a
+enough to hold in the hand tunnels and takes quantized energies like a
 single atom. Trapped ions came first: Ignacio Cirac and Peter Zoller
 proposed a controlled-NOT gate for them in 1995, and a group at NIST made
 the key step that year. Ions give the most accurate operations; neutral

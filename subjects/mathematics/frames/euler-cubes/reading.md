@@ -79,7 +79,7 @@ proved the fact he needed by other means elsewhere, so historians still
 credit him with the first proof for cubes. One clean repair adds the
 numbers halfway between the lattice's rows, _a_ + _b_ω with ω =
 (−1 + √−3)/2, now called **[Eisenstein integers](kloom:e/eisenstein-integer)**: the small circles in the
-plate. In that larger system factorisation is unique again. **[Adrien-Marie
+plate. In that larger system factorization is unique again. **[Adrien-Marie
 Legendre](kloom:e/adrien-marie-legendre)**, giving a new proof for cubes in his memoir of 1823, still
 credited the case to Euler.
 

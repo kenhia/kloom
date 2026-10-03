@@ -75,7 +75,7 @@ and a native PL/I compiler replaced EPL at the end of the year.
 ## Thirty-five years
 
 GE sold its computer business to Honeywell in 1970, and Honeywell sold
-Multics as a product until it cancelled it in 1985, to about eighty sites
+Multics as a product until it canceled it in 1985, to about eighty sites
 in universities, companies and governments; Bull sold 31 in France. In 1985
 it became the first system rated B2 for security by the National Computer
 Security Center. MIT shut its own down in January 1988. The last, at the

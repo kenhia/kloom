@@ -13,7 +13,7 @@ Shockley](kloom:e/william-shockley)**, and among its aims, the Computer History 
 says, was a semiconductor replacement for the unreliable valves and
 electromechanical switches of the Bell System. The war had taught
 laboratories to purify germanium and silicon for radar detectors, and in
-his Nobel lecture **[John Bardeen](kloom:e/john-bardeen)** says the semiconductor programme began
+his Nobel lecture **[John Bardeen](kloom:e/john-bardeen)** says the semiconductor program began
 in early 1946 with that material in hand.
 
 Shockley's first idea was a _field-effect_ amplifier: a voltage on a plate
@@ -65,7 +65,7 @@ Brattain off the junction work, and Bardeen left Bell Labs that year.
 In 1956 the three shared the [Nobel Prize in Physics](kloom:e/nobel-prize-in-physics) "for their researches
 on semiconductors and their discovery of the transistor effect".
 
-![A replica of the first transistor: a clear plastic frame holding a spring and a bent wire that press a small plastic wedge onto a slab on a gold-coloured base, with a small three-legged packaged transistor beside it](first-transistor.jpg)
+![A replica of the first transistor: a clear plastic frame holding a spring and a bent wire that press a small plastic wedge onto a slab on a gold-colored base, with a small three-legged packaged transistor beside it](first-transistor.jpg)
 
 ## A switch for computers
 
@@ -76,7 +76,7 @@ built by Richard Grimsdale and Douglas Webb under [Tom Kilburn](kloom:e/tom-kilb
 November 1953, with 92 point-contact transistors and 550 diodes. Bell's
 **TRADIC**, built for the US Air Force in 1954, used about 700
 point-contact transistors and over 10,000 diodes at 1 MHz on less than
-100 watts. The museum calls TRADIC fully transistorised; Wikipedia says a
+100 watts. The museum calls TRADIC fully transistorized; Wikipedia says a
 single valve amplifier still supplied its clock power, as a few valves
 did in Manchester's machine.
 

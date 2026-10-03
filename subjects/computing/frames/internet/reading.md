@@ -36,7 +36,7 @@ demonstration. In 1978 the single program was split in two layers: [IP](kloom:e/
 which carries packets between networks and promises nothing, and TCP,
 which runs on top in the hosts and makes a reliable stream of them.
 
-![A 1991 visualisation of the NSFNET backbone: the map of the United States in perspective, with the backbone's nodes floating above it joined by white lines, and coloured lines down from each node to the networks it served, brighter for more traffic](nsfnet-1991.jpg)
+![A 1991 visualisation of the NSFNET backbone: the map of the United States in perspective, with the backbone's nodes floating above it joined by white lines, and colored lines down from each node to the networks it served, brighter for more traffic](nsfnet-1991.jpg)
 
 ## End to end
 

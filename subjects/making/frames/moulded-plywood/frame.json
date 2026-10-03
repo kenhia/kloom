@@ -1,6 +1,6 @@
 {
 	"id": "moulded-plywood",
-	"topic": "Moulded plywood",
+	"topic": "Molded plywood",
 	"position": {
 		"label": "1942",
 		"sort": 1942
@@ -22,7 +22,7 @@
 	"connections": [
 		{
 			"to": "chemistry/polymers",
-			"why": "The Eameses bonded their moulded veneers with a thermosetting phenol-formaldehyde resin, the chemistry of Baekeland's Bakelite."
+			"why": "The Eameses bonded their molded veneers with a thermosetting phenol-formaldehyde resin, the chemistry of Baekeland's Bakelite."
 		},
 		{
 			"to": "making/thonet-chair",

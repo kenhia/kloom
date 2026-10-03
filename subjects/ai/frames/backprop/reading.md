@@ -48,7 +48,7 @@ input said so.
 
 ## Who invented it
 
-The Nature paper popularised [backpropagation](kloom:e/backpropagation); it did not originate it, and
+The Nature paper popularized [backpropagation](kloom:e/backpropagation); it did not originate it, and
 the history is tangled. The chain rule itself goes back to **[Leibniz](kloom:e/gottfried-wilhelm-leibniz)** in 1676. **[Frank Rosenblatt](kloom:e/frank-rosenblatt)** used the phrase "back-propagating error correction"
 in 1962 without having a way to do it. In 1970 the Finnish student **[Seppo
 Linnainmaa](kloom:e/seppo-linnainmaa)** described the _reverse mode of automatic differentiation_ in his

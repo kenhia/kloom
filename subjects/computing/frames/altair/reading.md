@@ -1,8 +1,8 @@
 In the week before Christmas 1974 the January issue of _Popular
-Electronics_ reached the newsstands with a blue-grey box on its cover, a
+Electronics_ reached the newsstands with a blue-gray box on its cover, a
 row of lamps and a row of switches across its face. "The era of the
 computer in every home", the article began, "has arrived!" The machine
-cost about as much as a colour television, if you built it yourself. Within a
+cost about as much as a color television, if you built it yourself. Within a
 year thousands had, and the two young programmers who wrote its first
 programming language had started a software company.
 
@@ -44,7 +44,7 @@ delivered by the end of May and more than 5,000 by August.
 ## Switches and lamps
 
 The basic [Altair](kloom:e/altair-8800) had 256 bytes of memory and no keyboard or screen. Its
-front panel, modelled on Data General's Nova minicomputer, carried 36
+front panel, modeled on Data General's Nova minicomputer, carried 36
 lamps, sixteen for the address, eight for data and twelve for the
 processor's status, and sixteen address switches, the low eight of which
 set data. To program it, you set a byte on the switches in binary and

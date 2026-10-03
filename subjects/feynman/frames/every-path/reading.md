@@ -14,9 +14,9 @@ wavelength. The chance of arriving is the square of the length of the sum
 of the arrows.
 
 The numbers below are invented for this worked example: light of wavelength
-500 nm, slits 0.10 mm apart, and a wall one metre away. A point _x_
-millimetres from the middle of the wall is farther from one slit than the
-other by about _x_ × 0.1 micrometres. Brightness is measured against one
+500 nm, slits 0.10 mm apart, and a wall one meter away. A point _x_
+millimeters from the middle of the wall is farther from one slit than the
+other by about _x_ × 0.1 micrometers. Brightness is measured against one
 slit open alone, which gives 1.
 
 | Point on the wall | Extra path | Angle between the arrows | Length of the sum | Brightness |

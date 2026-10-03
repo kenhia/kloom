@@ -16,7 +16,7 @@ after two months spent looking through the literature" and talking to people
 in the field. The Council published it with replies from four scientists who
 disagreed with parts of it, among them **[Donald Michie](kloom:e/donald-michie)** of [Edinburgh](kloom:e/university-of-edinburgh). The Council's decision to ask
 for a review was partly a reaction to open discord inside Edinburgh's AI
-department, one of the earliest and biggest centres of the subject in Britain.
+department, one of the earliest and biggest centers of the subject in Britain.
 
 Lighthill sorted the field into three. Category **A**, _Advanced Automation_,
 was applied work such as character recognition and industrial design.
@@ -55,16 +55,16 @@ explosion problem has been recognized in AI from the beginning".
 The report "formed the basis for the decision by the British government to
 end support for AI research in most British universities". Accounts differ on
 how many kept going; one names Edinburgh, Essex and Sussex. Large-scale British
-funding did not return until 1983, when the government's **Alvey** programme
+funding did not return until 1983, when the government's **Alvey** program
 answered Japan's [Fifth Generation](kloom:e/fifth-generation-computer-systems) project with £350 million.
 
 In the United States the squeeze had begun earlier and for other reasons. The
-**Mansfield Amendment** of 1969, part of the military authorisation act for
+**Mansfield Amendment** of 1969, part of the military authorization act for
 1970, barred military funding of research that lacked a direct or apparent
 relationship to a specific military function, and a second amendment in 1973
 limited [ARPA](kloom:e/darpa) itself to projects with a direct military application. The agency, which had given AI laboratories millions
 with few strings attached, now wanted "mission-oriented direct research, rather
-than basic undirected research". In 1974 it cancelled a three-million-dollar
+than basic undirected research". In 1974 it canceled a three-million-dollar
 annual contract for speech understanding at [Carnegie Mellon](kloom:e/carnegie-mellon-university), feeling it had
 been promised more than it got. The roboticist **[Hans Moravec](kloom:e/hans-moravec)** blamed his own
 colleagues: "Many researchers were caught up in a web of increasing

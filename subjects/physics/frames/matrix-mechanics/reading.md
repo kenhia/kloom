@@ -33,7 +33,7 @@ The paper's title promised a "quantum-theoretical reinterpretation" of
 mechanics, the [_Umdeutung_](kloom:e/umdeutung-paper). Heisenberg kept Newton's equations but changed
 what went into them. Position was no longer a number that changes along an
 orbit. It became a table of numbers, one for each jump between two states
-of the atom, labelled by both: an entry for the jump from state 3 to state
+of the atom, labeled by both: an entry for the jump from state 3 to state
 2, another for 2 to 1. Each entry oscillates at the frequency of the light
 that jump gives out, and its square sets the brightness of the line.
 
@@ -81,7 +81,7 @@ give, with no orbit anywhere in the calculation.
 
 Einstein nominated Heisenberg, Born and Jordan for the Nobel Prize in 1928. In November 1933 it went to Heisenberg alone, "for the creation of
 quantum mechanics". He wrote to Born of a "bad conscience" that he had
-been honoured for work done in Göttingen "in collaboration – you, Jordan
+been honored for work done in Göttingen "in collaboration – you, Jordan
 and I". Born received his own in 1954, for his reading of the wave function,
 which belongs to the next frame. Jordan, who joined the Nazi party in
 1933, never did.

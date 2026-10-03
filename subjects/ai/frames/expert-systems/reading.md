@@ -24,7 +24,7 @@ an unknown organic compound, it used rules of chemistry to cut the number of
 possible molecular structures down to a few a chemist could check by hand.
 
 **[MYCIN](kloom:e/mycin)**, written in [Lisp](kloom:e/lisp-programming-language) in the early 1970s as **Edward Shortliffe**'s
-doctoral work, diagnosed severe bacterial infections such as bacteraemia and
+doctoral work, diagnosed severe bacterial infections such as bacteremia and
 meningitis and recommended antibiotics, with the dose adjusted for the
 patient's weight. It held about 600 rules. In an evaluation at Stanford's
 medical school, specialists rated its prescriptions acceptable 65 per cent of

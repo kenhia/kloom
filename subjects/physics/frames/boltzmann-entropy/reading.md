@@ -86,7 +86,7 @@ matter, the real stuff. Boltzmann argued for atoms for the rest of his
 life. Ill and depressed, he took his own life at Duino, near Trieste, on
 5 September 1906. He is buried in Vienna's Central Cemetery, under the
 formula Planck wrote for him. Within a few years the argument over atoms
-was settled in his favour, the story of the frame on Einstein and Perrin.
+was settled in his favor, the story of the frame on Einstein and Perrin.
 On this trail the next question is Maxwell's again, now in Boltzmann's
 terms: if entropy counts the arrangements we cannot see, what does it
 cost to see one? Szilard's engine answered in 1929.

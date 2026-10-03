@@ -1,5 +1,5 @@
 Every frame on this stretch of the spine ran on the same resource: vast
-amounts of arithmetic, done by specialised chips, in buildings that draw as
+amounts of arithmetic, done by specialized chips, in buildings that draw as
 much power as a town. By 2026 the supply of that arithmetic, and who is
 allowed to buy it, had become a question of industrial policy.
 
@@ -14,19 +14,19 @@ market for GPUs used to train and run AI models. In March 2022 Nvidia announced 
 **H100** of its _Hopper_ architecture: 80 billion transistors,
 made by [TSMC](kloom:e/tsmc). Its successor, **Blackwell** (March 2024), has 208 billion,
 and Nvidia said in May 2026 that the next, _Vera Rubin_, was ramping into
-full production. Nvidia's data-centre revenue in its
+full production. Nvidia's data-center revenue in its
 2026 financial year was $193.7 billion, up 68% on the year before.
 
 **[Google](kloom:e/google)** took another route. In May 2016 it revealed the **[Tensor
 Processing Unit](kloom:e/tensor-processing-unit)**, at heart a matrix-multiplication engine designed for
 neural networks, which it had
-already been running in its data centres for more than a year. Its
+already been running in its data centers for more than a year. Its
 engineers reported the first TPU to be 15 to 30 times faster than
 contemporary GPUs and CPUs on their workloads. By 2025 Google was on its
 seventh generation, _Ironwood_, in pods of 9,216 chips; [Amazon](kloom:e/amazon-company) designs its own,
 _Trainium_.
 
-![A TPU v4 board: four liquid-cooled chip packages, each a chip with four stacks of high-bandwidth memory, joined by coloured coolant hoses to a manifold, with network connectors along the edge. From Jouppi et al. (2023), CC BY 4.0](tpu-v4-board.jpg)
+![A TPU v4 board: four liquid-cooled chip packages, each a chip with four stacks of high-bandwidth memory, joined by colored coolant hoses to a manifold, with network connectors along the edge. From Jouppi et al. (2023), CC BY 4.0](tpu-v4-board.jpg)
 
 ## Clusters and power
 
@@ -36,12 +36,12 @@ once. [Meta](kloom:e/meta-platforms) described two clusters of 24,576 H100s each
 In January 2025 [OpenAI](kloom:e/openai), SoftBank, Oracle and MGX announced _Stargate_, which
 intended to invest $500 billion over four years in AI infrastructure for
 OpenAI in the United States. [Epoch AI](kloom:e/epoch-ai) reported in June 2026 that the record
-for computing capacity in a single data centre had doubled every seven
+for computing capacity in a single data center had doubled every seven
 months since 2024.
 
-![Aerial view of a Google data centre at Council Bluffs, Iowa, at sunset: long low halls, with rows of cooling equipment along one side. Photo: Chad Davis, 2017, CC BY 2.0](data-centre.jpg)
+![Aerial view of a Google data center at Council Bluffs, Iowa, at sunset: long low halls, with rows of cooling equipment along one side. Photo: Chad Davis, 2017, CC BY 2.0](data-centre.jpg)
 
-The **International Energy Agency** estimated that data centres used about
+The **International Energy Agency** estimated that data centers used about
 415 terawatt-hours of electricity in 2024, around 1.5% of the world's
 consumption, and projected that this would more than double, to around 945
 TWh, by 2030, with AI the most important driver.
@@ -56,7 +56,7 @@ largest models of 2026 is a factor of about two billion.
 
 ![Bar chart on a logarithmic scale of the training compute of eleven notable AI models, in floating-point operations: from 4.7×10¹⁷ for AlexNet in 2012 to about 10²⁷ for GPT-6 Astra in 2026](training-compute.svg)
 
-| Model          | Released | Organisation  | Training compute (FLOP) | Epoch's confidence |
+| Model          | Released | Organization  | Training compute (FLOP) | Epoch's confidence |
 | -------------- | -------- | ------------- | ----------------------: | ------------------ |
 | AlexNet        | 2012     | Univ. Toronto |                4.7×10¹⁷ | Confident          |
 | Seq2Seq LSTM   | 2014     | Google        |                5.6×10¹⁹ | Confident          |
@@ -80,12 +80,12 @@ Epoch gives no figure at all.
 The chips became an instrument of policy. From October 2022 the US Commerce Department
 restricted exports of advanced AI chips to China, and in October 2023
 changed its tests for which chips are restricted to "preempt future
-workarounds". When it required a licence for Nvidia's China-specific H20 in April
+workarounds". When it required a license for Nvidia's China-specific H20 in April
 2025, Nvidia said it expected charges of up to $5.5 billion. The rules have
 moved back and forth since: in January 2026 the department began reviewing
 H200 sales to China case by case, but Nvidia reported that China's
 government discouraged its companies from buying, and that such sales came
-to less than 1% of its data-centre revenue.
+to less than 1% of its data-center revenue.
 
 Whether more compute keeps buying more capability, and whether those
 capabilities stay under human control, are the open questions that begin

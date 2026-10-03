@@ -22,17 +22,17 @@ A plane is a chisel held at a fixed angle by a block that rides on the wood. The
 
 Three settings decide how cleanly it cuts. The first is the angle at which the blade is bedded, which joiners called its pitch. Holtzapffel gives the English pitches, with the Silchester plane for comparison:
 
-| Pitch            | Blade to the sole | Holtzapffel's use                             |
-| ---------------- | ----------------: | --------------------------------------------- |
-| Common           |               45° | bench planes for deal and other soft woods    |
-| York             |               50° | bench planes for mahogany and hard woods      |
-| Middle           |               55° | moulding planes for deal, smoothing mahogany  |
-| Half             |               60° | moulding planes for mahogany, difficult woods |
-| Silchester plane |               70° | (Evans's measurement)                         |
+| Pitch            | Blade to the sole | Holtzapffel's use                            |
+| ---------------- | ----------------: | -------------------------------------------- |
+| Common           |               45° | bench planes for deal and other soft woods   |
+| York             |               50° | bench planes for mahogany and hard woods     |
+| Middle           |               55° | molding planes for deal, smoothing mahogany  |
+| Half             |               60° | molding planes for mahogany, difficult woods |
+| Silchester plane |               70° | (Evans's measurement)                        |
 
 The higher the pitch, the more sharply the shaving is bent as it rises up the blade, so that it breaks before it can split the wood ahead of the edge. Holtzapffel's top iron, a second blade screwed over the first, worked the same way, giving the shaving a steeper wall to climb: the work came out smoother, and the plane pushed harder. At 90° the blade only scrapes.
 
-The second is the mouth, the slot in the sole in front of the blade. A wide one lets the fibres split ahead of the edge and tear up out of the surface, so the work is left "rough and torn"; a close one holds the wood down until the edge reaches it. By our arithmetic, a blade 5⁄16 inch thick at 70° fills about a third of an inch of the sole's length, so if Evans's "about ⅜ inch" was exact, the Silchester plane's mouth had a gap of about a millimetre in front of the edge, a fine mouth for a smoothing cut. The third is the edge itself: Holtzapffel grinds it at 25° and hones it at 35°, which at common pitch leaves 10° of clearance beneath it.
+The second is the mouth, the slot in the sole in front of the blade. A wide one lets the fibers split ahead of the edge and tear up out of the surface, so the work is left "rough and torn"; a close one holds the wood down until the edge reaches it. By our arithmetic, a blade 5⁄16 inch thick at 70° fills about a third of an inch of the sole's length, so if Evans's "about ⅜ inch" was exact, the Silchester plane's mouth had a gap of about a millimeter in front of the edge, a fine mouth for a smoothing cut. The third is the edge itself: Holtzapffel grinds it at 25° and hones it at 35°, which at common pitch leaves 10° of clearance beneath it.
 
 ## The saw that clears itself
 

@@ -291,7 +291,7 @@ describe('the settings control', () => {
 	it('renders each setting as a labelled select, starting at its default', () => {
 		const { body } = page();
 		const id = body.match(/<select[^>]*id="([^"]+)"/)![1];
-		expect(body).toMatch(new RegExp(`<label for="${id}"[^>]*>Scene colours</label>`));
+		expect(body).toMatch(new RegExp(`<label for="${id}"[^>]*>Scene colors</label>`));
 		expect(body).toMatch(/<option value="section"[^>]*selected/);
 		expect(body).toMatch(/<option value="same"[^>]*selected/);
 		expect(text(body)).toContain('Always dark');

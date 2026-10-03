@@ -66,10 +66,10 @@ mix of many of them, refined by the layers above.
 ## Keeping it stable
 
 A running sum over dozens of layers can grow or drift, so transformers also
-use **layer normalisation**, proposed by Jimmy Lei Ba, Jamie Ryan Kiros and
+use **layer normalization**, proposed by Jimmy Lei Ba, Jamie Ryan Kiros and
 [Geoffrey Hinton](kloom:e/geoffrey-hinton) in 2016: rescale each vector using its own mean and variance.
-The 2017 model normalised _after_ each addition. GPT-2 moved the
-normalisation "to the input of each sub-block", added one more after the last
+The 2017 model normalized _after_ each addition. GPT-2 moved the
+normalization "to the input of each sub-block", added one more after the last
 block, and scaled down the weights of the residual layers at the start of
 training to allow for everything accumulating on the residual path. That
 _pre-LN_ arrangement proved easier to train, without the slow warm-up the

@@ -14,7 +14,7 @@ the matter that gives off light; Einstein gave it to the light itself.
 The strongest case in the paper was the **[photoelectric effect](kloom:e/photoelectric-effect)**. Light
 shone on a metal knocks electrons out of it, and in 1902 Philipp Lenard had
 found something no wave theory explained: the electrons' energy does not
-depend on how bright the light is, only on its colour. A brighter light
+depend on how bright the light is, only on its color. A brighter light
 releases more electrons, not faster ones, and light below a certain
 frequency releases none at all, however bright.
 

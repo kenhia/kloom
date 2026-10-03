@@ -26,7 +26,7 @@ looking up the answer.
 | Chapter | Subject                                                     |
 | ------- | ----------------------------------------------------------- |
 | 1       | Introduction to computers: the file clerk                   |
-| 2       | Computer organisation: gates, memory, instructions          |
+| 2       | Computer organization: gates, memory, instructions          |
 | 3       | The theory of computation: finite-state and Turing machines |
 | 4       | Coding and information theory: Shannon's theorem            |
 | 5       | Reversible computation and the thermodynamics of computing  |
@@ -35,7 +35,7 @@ looking up the answer.
 
 ## What a bit costs
 
-The chapter at the book's centre asks the question the physics of
+The chapter at the book's center asks the question the physics of
 computation began with: is there a least amount of energy a computation
 must spend? The answer that [Landauer](kloom:e/rolf-landauer) and Bennett had given, and Feynman
 worked through for students, is that computing need cost nothing, but

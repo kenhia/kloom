@@ -36,7 +36,7 @@ Feynman brought the questions of his 1981 talk. How small can a computing
 element be? What does a step of computation cost in energy? What can a
 machine built from quantum parts do that an ordinary one cannot?
 
-![Carver Mead in 2005, grey-bearded, speaking into a hand microphone from a stairway landing at the Computer History Museum](mead.jpg)
+![Carver Mead in 2005, gray-bearded, speaking into a hand microphone from a stairway landing at the Computer History Museum](mead.jpg)
 
 ## A course that would not stay one course
 
@@ -45,13 +45,13 @@ says the three co-taught it as a yearlong course in 1981–82 and that it
 was given for three years; Caltech's magazine, in 2025, says it ran
 intermittently from 1981 to 1983; Wikipedia's article on Hopfield gives
 1981 to 1983 as well. The account of the [Computation and Neural Systems](kloom:e/computation-and-neural-systems)
-programme has Mead and Hopfield teaching the first year alone, and
+program has Mead and Hopfield teaching the first year alone, and
 Feynman joining the next. A 2018 account by three physicists, one of them
 a Caltech graduate student at the time, dates it to 1982 and remembers it
 as chaotic: a vague syllabus, lecturers who did not know what would come
 next, and Feynman sometimes presenting what had occurred to him the night
 before as he fell asleep. Students came religiously, they say, for the
-spectacle of three points of view criticising each other in public.
+spectacle of three points of view criticizing each other in public.
 
 All the accounts agree on what happened next. The material outgrew one
 course and split into three.
@@ -66,10 +66,10 @@ course and split into three.
 
 The course is remembered less for its lectures than for what grew from
 it. In 1986 Caltech's provost, **Rochus Vogt**, approved an
-interdivisional PhD programme, **Computation and Neural Systems**, with
+interdivisional PhD program, **Computation and Neural Systems**, with
 Hopfield as its first chair and Mead among its founding faculty. It
 brought physicists, engineers, mathematicians and biologists into one
-programme on brains and computers, and was the first of its kind.
+program on brains and computers, and was the first of its kind.
 
 For Feynman the course was a start, not a destination. [Hopfield's network](kloom:e/hopfield-network)
 turned up again in his summer job with a start-up near Boston, where he

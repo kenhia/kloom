@@ -13,7 +13,7 @@ Molecules", was to stop asking classical physics for permission.
 
 ## Stationary states
 
-Bohr laid down rules that made no pretence of following from anything. An
+Bohr laid down rules that made no pretense of following from anything. An
 electron in an atom can move only in certain orbits, **stationary states**,
 and in them it does not radiate at all. It gives off light only when it
 jumps from one stationary state to another, and then as a single quantum
@@ -33,7 +33,7 @@ further, and it said why every hydrogen atom is the same size.
 Since 1885 spectroscopists had had Johann Balmer's formula for the visible
 lines of hydrogen, with no idea why it worked. Bohr's ladder produced it at
 once: the **[Balmer series](kloom:e/balmer-series)** is the jumps that end on the second rung, and
-the red line at 656 nanometres is the jump from 3 to 2. Jumps ending on
+the red line at 656 nanometers is the jump from 3 to 2. Jumps ending on
 the third rung gave the infrared series Paschen had found, and Bohr
 predicted series ending on the first, in the far ultraviolet, that no one
 had yet seen.
@@ -61,9 +61,9 @@ convince Rutherford.
 ## Tests, and limits
 
 In 1914 **James Franck** and **Gustav Hertz**, in Berlin, fired electrons
-through mercury vapour and found that they lost energy only in lumps of 4.9
-electronvolts, and that the vapour then glowed at 254 nanometres, the
-wavelength that energy gives. They took 4.9 volts for mercury's ionisation
+through mercury vapor and found that they lost energy only in lumps of 4.9
+electronvolts, and that the vapor then glowed at 254 nanometers, the
+wavelength that energy gives. They took 4.9 volts for mercury's ionization
 energy, and, Franck said in 1960, had not known Bohr's work. Bohr read the
 **[Franck–Hertz experiment](kloom:e/franck-hertz-experiment)** as the jump to a stationary state, and that
 reading won; they shared the Nobel Prize for 1925.

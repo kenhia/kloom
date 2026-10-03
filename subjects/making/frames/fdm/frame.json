@@ -1,6 +1,6 @@
 {
 	"id": "fdm",
-	"topic": "Fused deposition modelling",
+	"topic": "Fused deposition modeling",
 	"position": {
 		"label": "1989",
 		"sort": 1989
@@ -22,7 +22,7 @@
 	"connections": [
 		{
 			"to": "chemistry/polymers",
-			"why": "Fused deposition modelling works only with a thermoplastic that melts and sets again and again, the opposite of Baekeland's Bakelite, which once set would neither melt nor dissolve."
+			"why": "Fused deposition modeling works only with a thermoplastic that melts and sets again and again, the opposite of Baekeland's Bakelite, which once set would neither melt nor dissolve."
 		}
 	],
 	"citations": [

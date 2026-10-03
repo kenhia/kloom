@@ -10,7 +10,7 @@ think for itself.
 
 **[Charles Babbage](kloom:e/charles-babbage)**'s first machine, the [_Difference Engine_](kloom:e/difference-engine), was built to
 tabulate functions by the method of finite differences. It was never
-completed: Babbage quarrelled with his chief engineer, Joseph Clement, and the
+completed: Babbage quarreled with his chief engineer, Joseph Clement, and the
 British government withdrew its funding. While working on it, around 1833, he
 saw that a much more general machine was possible, and he first described
 the **[Analytical Engine](kloom:e/analytical-engine)** in 1837.
@@ -56,7 +56,7 @@ of music of any degree of complexity or extent." In Note F she points out
 that a woven portrait of Jacquard had needed 24,000 cards, and that the
 engine's power to repeat a set of cards (a loop) would save most of them.
 
-![Watercolour portrait of Ada Lovelace by Alfred Edward Chalon, about 1840: a young woman in a lilac dress and a black lace shawl, holding a closed fan](lovelace-chalon.jpg)
+![Watercolor portrait of Ada Lovelace by Alfred Edward Chalon, about 1840: a young woman in a lilac dress and a black lace shawl, holding a closed fan](lovelace-chalon.jpg)
 
 Note G works one problem in full: computing the **[Bernoulli numbers](kloom:e/bernoulli-number)**, a
 sequence used in analysis, each from the ones before it. She set it out as a

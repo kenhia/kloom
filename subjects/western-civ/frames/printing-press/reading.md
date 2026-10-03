@@ -12,7 +12,7 @@ its own. Movable type had been made in China by the eleventh century, and
 Korean printers were casting it in metal before Gutenberg was born. What
 Gutenberg put together was a _system_ suited to the Latin alphabet:
 
-- a **hand mould** for casting any letter quickly and to the same height,
+- a **hand mold** for casting any letter quickly and to the same height,
   so thousands of identical pieces of type could be made;
 - a **type metal** of lead, tin and antimony that melted at a low
   temperature, cast cleanly and wore well;
@@ -25,7 +25,7 @@ Gutenberg put together was a _system_ suited to the Latin alphabet:
 
 The woodcut above, from a _Danse macabre_ printed in Lyon in 1499, is the
 oldest known picture of a printing shop. On the left a compositor sets type
-from a case; in the centre the pressman pulls the bar of the press while his
+from a case; in the center the pressman pulls the bar of the press while his
 partner inks the forme; on the right a bookseller keeps his shop.
 
 ## Knowledge went viral

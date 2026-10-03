@@ -4,13 +4,13 @@ In 1638, under house arrest at Arcetri and forbidden to publish, [Galileo](kloom
 
 ## The beam in the wall
 
-Galileo's figure is a cantilever: a beam fixed into a wall, with a weight hung from its end. If it breaks, he argues, it breaks at the wall, turning about the lower edge of the joint as about the fulcrum of a lever. The weight acts on the long arm, the beam's length. The resistance is the strength of all the fibres in the section, which act, he supposes, as if gathered at its centre, so they work on a short arm of half the beam's depth.
+Galileo's figure is a cantilever: a beam fixed into a wall, with a weight hung from its end. If it breaks, he argues, it breaks at the wall, turning about the lower edge of the joint as about the fulcrum of a lever. The weight acts on the long arm, the beam's length. The resistance is the strength of all the fibers in the section, which act, he supposes, as if gathered at its center, so they work on a short arm of half the beam's depth.
 
-From that one lever he draws the rules a carpenter needs. A beam twice as long carries half the weight at its end. Stand a flat ruler on edge and it carries more than when it lies flat, "in the ratio of the width to the thickness". The fibres are the same; only the arm they pull on has changed. A beam's own weight is worse: making it longer adds both weight and leverage, so the moment that would break it grows as the square of its length.
+From that one lever he draws the rules a carpenter needs. A beam twice as long carries half the weight at its end. Stand a flat ruler on edge and it carries more than when it lies flat, "in the ratio of the width to the thickness". The fibers are the same; only the arm they pull on has changed. A beam's own weight is worse: making it longer adds both weight and leverage, so the moment that would break it grows as the square of its length.
 
 ## A plank, worked
 
-Put together, the rules say a beam's strength goes as its width times its depth squared, and inversely as its length. Here is a plank with invented numbers: 200 by 50 millimetres, reaching 2 metres from a wall, of a wood whose fibres break at 40 megapascals. The loads are by our arithmetic:
+Put together, the rules say a beam's strength goes as its width times its depth squared, and inversely as its length. Here is a plank with invented numbers: 200 by 50 millimeters, reaching 2 meters from a wall, of a wood whose fibers break at 40 megapascals. The loads are by our arithmetic:
 
 | The same plank, 2 m out           | Laid flat   | On edge     |
 | --------------------------------- | ----------- | ----------- |
@@ -22,7 +22,7 @@ On edge the plank is four times as strong, by either reckoning, because its dept
 
 ## The fulcrum in the wrong place
 
-Galileo's fibres pull with their full strength and never stretch, so the beam turns about its bottom edge. A real beam bends. Its fibres stretch above and are squeezed below, and between them, at mid-depth for a rectangle, runs a line that does neither, the neutral axis. Henry Crew, who translated the book into English in 1914, called this "the one fundamental error" of the Second Day, and gave the correction to **[Edme Mariotte](kloom:e/edme-mariotte)** in 1680 and Antoine Parent in 1713. The rule engineers use now, from the elastic beam theory of the eighteenth century, divides the beam's depth squared by six where Galileo's divided it by two: a third of his load. The error, Crew noted, spoils none of Galileo's proportions, because those compare beams with each other, not with a breaking test. Wikipedia's history of the theory adds that Jacob Bernoulli, in 1705, still put the axis at one face.
+Galileo's fibers pull with their full strength and never stretch, so the beam turns about its bottom edge. A real beam bends. Its fibers stretch above and are squeezed below, and between them, at mid-depth for a rectangle, runs a line that does neither, the neutral axis. Henry Crew, who translated the book into English in 1914, called this "the one fundamental error" of the Second Day, and gave the correction to **[Edme Mariotte](kloom:e/edme-mariotte)** in 1680 and Antoine Parent in 1713. The rule engineers use now, from the elastic beam theory of the eighteenth century, divides the beam's depth squared by six where Galileo's divided it by two: a third of his load. The error, Crew noted, spoils none of Galileo's proportions, because those compare beams with each other, not with a breaking test. Wikipedia's history of the theory adds that Jacob Bernoulli, in 1705, still put the axis at one face.
 
 ## Bones and giants
 
@@ -32,4 +32,4 @@ The proportions held something stranger. A beam's strength grows as the cube of 
 
 A giant built like a man, Salviati concludes, would need a harder material for his bones or would fall and be crushed. A small dog could carry two or three dogs its size; a horse could not carry one horse.
 
-Galileo treated his material as a bundle of fibres of one strength. The next frame looks inside the material: in Sheffield, with a microscope, at steel.
+Galileo treated his material as a bundle of fibers of one strength. The next frame looks inside the material: in Sheffield, with a microscope, at steel.

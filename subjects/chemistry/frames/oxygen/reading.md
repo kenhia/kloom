@@ -20,14 +20,14 @@ By our arithmetic, from the atomic weights (mercury 200.6, oxygen 16.0), a molec
 
 | Red calx heated | Mercury left | Oxygen given off |  Its volume, at 20 °C |
 | --------------: | -----------: | ---------------: | --------------------: |
-|           100 g |       92.6 g |            7.4 g |      about 5.6 litres |
-|   7 g (¼ ounce) |        6.5 g |            0.5 g | about 390 millilitres |
+|           100 g |       92.6 g |            7.4 g |      about 5.6 liters |
+|   7 g (¼ ounce) |        6.5 g |            0.5 g | about 390 milliliters |
 
-So a heap of red powder holds a surprising volume of gas. After Paris, Priestley heated a quarter of an ounce of the calx gently and collected "an ounce-measure of air", about 30 millilitres: by our arithmetic, less than a tenth of what it held. His "four and five times as good" was a fair measurement too: air is about 21 per cent oxygen, and pure oxygen holds 100 ÷ 21, about 4.8 times as much. (The lower row assumes an avoirdupois ounce; Priestley does not say which ounce he meant.)
+So a heap of red powder holds a surprising volume of gas. After Paris, Priestley heated a quarter of an ounce of the calx gently and collected "an ounce-measure of air", about 30 milliliters: by our arithmetic, less than a tenth of what it held. His "four and five times as good" was a fair measurement too: air is about 21 per cent oxygen, and pure oxygen holds 100 ÷ 21, about 4.8 times as much. (The lower row assumes an avoirdupois ounce; Priestley does not say which ounce he meant.)
 
 ## Who found it first
 
-Oxygen was found three times in five years, and the priority has been argued ever since. The Swedish apothecary **[Carl Wilhelm Scheele](kloom:e/carl-wilhelm-scheele)** made it first. His laboratory notebooks show that by 1771–72, at Uppsala, he was getting it by heating black manganese with oil of vitriol, and he got it too from saltpetre, mercury calx and silver carbonate. He called it _fire air_. His book, _Chemische Abhandlung von der Luft und dem Feuer_ (a chemical treatise on air and fire), was written in 1775 and sent to the printer that December, but it waited for an introduction by his patron Torbern Bergman and came out only in the summer of 1777, after Priestley's.
+Oxygen was found three times in five years, and the priority has been argued ever since. The Swedish apothecary **[Carl Wilhelm Scheele](kloom:e/carl-wilhelm-scheele)** made it first. His laboratory notebooks show that by 1771–72, at Uppsala, he was getting it by heating black manganese with oil of vitriol, and he got it too from saltpeter, mercury calx and silver carbonate. He called it _fire air_. His book, _Chemische Abhandlung von der Luft und dem Feuer_ (a chemical treatise on air and fire), was written in 1775 and sent to the printer that December, but it waited for an introduction by his patron Torbern Bergman and came out only in the summer of 1777, after Priestley's.
 
 Scheele also wrote to Lavoisier, on 30 September 1774, telling him how to make the air from silver carbonate with a burning glass, and asking him to try it. Lavoisier never acknowledged the letter. Where it went is itself disputed: Wikipedia's article on oxygen says a copy was found among Scheele's things after his death, while the chemist Pier Remigio Salvi, in a 2021 review, says Scheele's draft is in Stockholm and the letter itself turned up in the archives of the Paris Academy in 1890.
 

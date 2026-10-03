@@ -3,7 +3,7 @@ statement of the trouble came from outside mathematics. In 1734 **[George
 Berkeley](kloom:e/george-berkeley)**, the Irish philosopher, published
 **[_The Analyst_](kloom:e/the-analyst)**, "a discourse addressed to an infidel mathematician",
 thought to be Edmond Halley, a free-thinker who had mocked Berkeley's
-defence of faith. If
+defense of faith. If
 mathematicians took their own foundations on trust, Berkeley asked, what
 right had they to scorn believers for taking mysteries on faith?
 
@@ -17,7 +17,7 @@ came by making it zero. Newton's fluxions and Leibniz's infinitesimals, he
 wrote, "are neither finite Quantities nor Quantities infinitely small, nor
 yet nothing. May we not call them the Ghosts of departed Quantities?"
 
-Berkeley did not doubt the answers; he thought two errors cancelled to
+Berkeley did not doubt the answers; he thought two errors canceled to
 give them. The historian Judith Grabiner judged his criticisms "witty,
 unkind, and … essentially correct". Answers came, from Thomas Bayes in 1736 and
 Colin Maclaurin in 1742, but the calculus went on for another century

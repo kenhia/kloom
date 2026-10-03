@@ -1,7 +1,7 @@
 // Scene and reading colours in a real browser (korg 3495). Each viewport gets
 // a fresh page and runs every check:
 //
-// - the scene pane and the reading wear their own palettes: Reading colours
+// - the scene pane and the reading wear their own palettes: Reading colors
 //   set to Always light leaves a dark section's scene dark;
 // - the old Palette setting (kloom.palette) is carried over on load: Mixed,
 //   Dark and Light each to the two settings that replaced it;
@@ -148,7 +148,7 @@ async function run([width, height]) {
 		['light', ['light', 'light']]
 	]) {
 		await load({ 'kloom.palette': old });
-		const got = [(await value('Scene colours')).value, (await value('Reading colours')).value];
+		const got = [(await value('Scene colors')).value, (await value('Reading colors')).value];
 		expect(
 			got.join() === want.join(),
 			`${at}: Palette ${old} becomes Scene ${want[0]}, Reading ${want[1]} (got ${got})`
@@ -164,11 +164,11 @@ async function run([width, height]) {
 	await load();
 	await page.locator('.shell .gear').focus();
 	await page.keyboard.press('Enter');
-	expect(await tabTo('Reading colours'), `${at}: Tab reaches Reading colours`);
+	expect(await tabTo('Reading colors'), `${at}: Tab reaches Reading colors`);
 	await page.keyboard.press('ArrowDown'); // Same as scene -> Always light
 	expect(
-		(await value('Reading colours')).value === 'light',
-		`${at}: ArrowDown picks Always light (${(await value('Reading colours')).value})`
+		(await value('Reading colors')).value === 'light',
+		`${at}: ArrowDown picks Always light (${(await value('Reading colors')).value})`
 	);
 	const s1 = await scene();
 	const r1 = await reading();

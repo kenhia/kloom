@@ -5,7 +5,7 @@ chaotic system a tiny difference in the starting state grows, step by
 step, until the two futures have nothing in common, and no measurement is
 ever exact. It was found three times: by a mathematician who had made a
 mistake, by a meteorologist who went for a coffee, and by a biologist
-modelling insects.
+modeling insects.
 
 ## The prize and the error
 
@@ -49,7 +49,7 @@ were unrecognisably different. The machine carried about six decimal
 places; the printout, to fit twelve numbers on a line, gave three.
 Wikipedia dates the day to 1961.
 
-![An LGP-30 at Manhattan College in August 1965: a grey cabinet the size of a desk with a small panel of indicator lights, beside it a typewriter console with paper in its carriage and punched paper tape running down to the floor](lgp-30.jpg)
+![An LGP-30 at Manhattan College in August 1965: a gray cabinet the size of a desk with a small panel of indicator lights, beside it a typewriter console with paper in its carriage and punched paper tape running down to the floor](lgp-30.jpg)
 
 In 1963 Lorenz published a model cut down to three equations for a fluid
 heated from below, with constants σ = 10, _r_ = 28 and _b_ = 8/3, stepped

@@ -18,10 +18,10 @@ drown out the faint signals it is looking for.
 
 ## An origami observatory
 
-Webb's primary mirror is 6.5 metres across, made of 18 hexagonal segments of
+Webb's primary mirror is 6.5 meters across, made of 18 hexagonal segments of
 gold-coated beryllium. It was too big to fit inside any rocket, so the
 telescope launched folded. Over the following weeks, a million and a half
-kilometres from [Earth](kloom:e/earth), it unfolded itself: a sunshield the size of a tennis
+kilometers from [Earth](kloom:e/earth), it unfolded itself: a sunshield the size of a tennis
 court, five layers of thin film, spread out to keep the telescope in
 permanent shade; the mirror wings swung into place; the segments were
 adjusted, one by one, until they worked together as a single mirror.
@@ -33,7 +33,7 @@ degrees above absolute zero.
 
 ## The first deep field
 
-The first image, **[Webb's First Deep Field](kloom:e/webbs-first-deep-field)**, is centred on a galaxy cluster
+The first image, **[Webb's First Deep Field](kloom:e/webbs-first-deep-field)**, is centered on a galaxy cluster
 called SMACS 0723, seen as it was about 4.6 billion years ago. The cluster's
 huge mass bends and magnifies the light of galaxies far behind it, acting as
 a natural lens. Among them are galaxies whose light set out some 13 billion

@@ -90,7 +90,7 @@ a professorship, found good material "expressed in a deficient form".
 ## The arithmetic of the machines
 
 In 1925 **[Werner Heisenberg](kloom:e/werner-heisenberg)** built a mechanics of the atom from tables of
-numbers with a strange product. Max Born recognised them after a week of thought: such square arrays, he recalled in his Nobel lecture, "in conjunction with a specific
+numbers with a strange product. Max Born recognized them after a week of thought: such square arrays, he recalled in his Nobel lecture, "in conjunction with a specific
 rule for multiplication, are called matrices." Matrix mechanics, as its own
 frame in physics tells, put Cayley's unconvertible product at the heart of
 quantum theory.

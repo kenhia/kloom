@@ -8,7 +8,7 @@ out each problem on a form, one arithmetic step to a line, so that several
 computers could work on it at once. Women of the Women's Army Corps joined
 over the first summer and came to make up about half the group, which grew
 to twenty-five, the largest in the division. The mathematician **Donald
-Flanders** became its leader, group **T-5**, and standardised it on
+Flanders** became its leader, group **T-5**, and standardized it on
 ten-digit Marchant calculators.
 
 The Marchants broke under the load, and sending them to Santa Fe or
@@ -46,7 +46,7 @@ crates and put the machines together from the wiring blueprints. The
 plate draws the machine room as a ring: one pass of a deck of cards round
 the machines was one step of the calculation.
 
-## Colours and errors
+## Colors and errors
 
 The work went slowly. The operators were soldiers of the **Special
 Engineer Detachment**, clever young men who were forbidden to know what
@@ -60,9 +60,9 @@ their operators throughout.
 Feynman's first change, with Oppenheimer's permission, was to tell the
 operators what they were calculating and why. They began inventing
 improvements themselves. The best was to run two or three problems at
-once, each on its own colour of card, out of phase round the same machines.
+once, each on its own color of card, out of phase round the same machines.
 Another dealt with mistakes. A wrong number on one card spreads to its
-neighbours each cycle, as the plate draws, so rather than stop, they
+neighbors each cycle, as the plate draws, so rather than stop, they
 copied a small deck of cards round the error and ran it round fast,
 catching the error up and patching the big deck.
 

@@ -1,6 +1,6 @@
 The ARPANET and the early internet were built by people who knew one
 another, and trust was built in with them. A Unix machine could be told to
-accept logins from its neighbours without a password; the standard mail
+accept logins from its neighbors without a password; the standard mail
 program had a hole in its debugging mode; passwords were often plain
 words. On
 the evening of 2 November 1988 a program showed what that trust was worth.
@@ -29,7 +29,7 @@ put it at 1,000 to 3,000, and the cost at $100,000 to $10 million. Morris's was 
 and Abuse Act; he was
 sentenced to three years' probation, 400 hours of community service and a
 fine. In mid-November 1988 DARPA set up the **Computer Emergency Response
-Team** (CERT), a five-person coordination centre at Carnegie Mellon
+Team** (CERT), a five-person coordination center at Carnegie Mellon
 University.
 
 ![The Morris worm's source code on a black floppy disk in a perspex case, under a museum placard that reads "The Morris Internet Worm source code"](morris-worm-disk.jpg)
@@ -80,7 +80,7 @@ died just before it appeared.
 
 As of 28 September 2026 the FBI counts _ransomware_ among the most
 reported threats to critical infrastructure: break in, encrypt or steal an
-organisation's data, and demand payment.
+organization's data, and demand payment.
 Measures disagree by a factor of twenty-five, because they measure
 different things.
 

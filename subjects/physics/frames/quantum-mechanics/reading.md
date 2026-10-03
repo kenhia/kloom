@@ -1,7 +1,7 @@
 Between the summer of 1925 and the spring of 1927 a handful of physicists in
 Göttingen, Copenhagen, Cambridge and Zurich built a new mechanics for
 atoms, and it is still the one we use. Quantum mechanics predicts the
-colours of atoms, the chemistry of the elements and the working of
+colors of atoms, the chemistry of the elements and the working of
 transistors and lasers, and no experiment has contradicted it.
 What its equations say about the world is another matter. On that, the
 physicists who use it every day still disagree.
@@ -84,20 +84,20 @@ interpretation](kloom:e/many-worlds-interpretation)**: every result happens, eac
 theories change the equation; information-based views read the wave
 function as knowledge.
 
-![Bar chart: the favoured interpretation of 1,101 researchers in Nature's 2025 survey. Copenhagen 36 per cent; information-based 17; many worlds 15; pilot wave 7; spontaneous collapse 4; relational 4; all other answers 18.](interpretations.svg)
+![Bar chart: the favored interpretation of 1,101 researchers in Nature's 2025 survey. Copenhagen 36 per cent; information-based 17; many worlds 15; pilot wave 7; spontaneous collapse 4; relational 4; all other answers 18.](interpretations.svg)
 
-| Favoured interpretation, Nature survey, 2025 | Respondents | Share |
-| -------------------------------------------- | ----------: | ----: |
-| Copenhagen                                   |         397 |   36% |
-| Information-based                            |         183 |   17% |
-| Many worlds (with consistent histories)      |         165 |   15% |
-| Pilot wave (de Broglie–Bohm)                 |          73 |    7% |
-| Spontaneous collapse                         |          41 |    4% |
-| Relational                                   |          39 |    4% |
-| Everything else                              |         203 |   18% |
+| Favored interpretation, Nature survey, 2025 | Respondents | Share |
+| ------------------------------------------- | ----------: | ----: |
+| Copenhagen                                  |         397 |   36% |
+| Information-based                           |         183 |   17% |
+| Many worlds (with consistent histories)     |         165 |   15% |
+| Pilot wave (de Broglie–Bohm)                |          73 |    7% |
+| Spontaneous collapse                        |          41 |    4% |
+| Relational                                  |          39 |    4% |
+| Everything else                             |         203 |   18% |
 
 For the theory's centenary in 2025 _Nature_ asked researchers in quantum
-physics which they favour; 1,101 gave usable answers. The
+physics which they favor; 1,101 gave usable answers. The
 counts are ours, from the survey's published data. Copenhagen led with
 only just over a third, and only 267, about 24 per cent, said they were
 confident their choice was correct. As of September 2026, there is still no

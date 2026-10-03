@@ -22,7 +22,7 @@
 	"connections": [
 		{
 			"to": "computing/free-software",
-			"why": "Slic3r was released under the GNU Affero GPL, a copyleft licence, so the slicers forked from it, PrusaSlicer and Bambu Studio among them, had to keep its licence and publish their source."
+			"why": "Slic3r was released under the GNU Affero GPL, a copyleft license, so the slicers forked from it, PrusaSlicer and Bambu Studio among them, had to keep its license and publish their source."
 		},
 		{
 			"to": "making/g-code",

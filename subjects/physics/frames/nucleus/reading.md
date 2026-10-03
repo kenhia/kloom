@@ -5,20 +5,20 @@ probe to fire through thin metal. The atom most physicists
 pictured was J. J. Thomson's, a sphere of thinly spread positive charge with
 electrons dotted through it. An alpha particle should pass through such an
 atom almost untouched. Within four years we knew that the atom was nearly
-all empty space, with almost all its mass in a centre a hundred thousand
+all empty space, with almost all its mass in a center a hundred thousand
 times smaller than itself.
 
 ## Backwards from the foil
 
 **[Hans Geiger](kloom:e/hans-geiger)** had been measuring how a foil spreads a narrow beam of alpha
-particles, counting each one by the flash it made on a zinc sulphide
+particles, counting each one by the flash it made on a zinc sulfide
 screen through a microscope. Rutherford suggested that
 **[Ernest Marsden](kloom:e/ernest-marsden)**, an undergraduate, look for particles coming back off
 the metal, though nobody expected any. Marsden found them.
 In their 1909 paper Geiger and Marsden reported that about one alpha
 particle in 8,000 striking a platinum plate was turned back towards the
 side it came from. Heavy metals such as gold turned back more than
-light ones such as aluminium, and a thin foil did it too, so it happened
+light ones such as aluminum, and a thin foil did it too, so it happened
 inside the metal, not at its surface.
 
 The experiment is remembered for its gold foil, but the 1909 paper tried
@@ -35,16 +35,16 @@ written that atoms "must be the seat of very intense electrical forces";
 the backward scattering confirmed a suspicion as much as it overturned a
 belief.
 
-## A minute centre
+## A minute center
 
 Rutherford's paper of May 1911 argued that so large a deflection must come
 from a single encounter, which was only possible if the atom's charge sat in a tiny
-centre. He worked out how many particles should come out at each angle,
+center. He worked out how many particles should come out at each angle,
 and in 1913 Geiger and Marsden, with a microscope on a turntable, confirmed
 it: the counts followed his formula for the angle, the foil's thickness, the
 atom's weight and the particles' speed. The plate draws what he
 calculated: each path a hyperbola, most bent only a little, and one aimed
-almost straight at the centre that comes back.
+almost straight at the center that comes back.
 
 The 1911 paper did not yet name it. It spoke of a "central charge",
 said that the results would fit it whether it was positive or negative,
@@ -89,11 +89,11 @@ Same number of protons, different numbers of neutrons.
 ## The puzzle left over
 
 Protons repel each other, and a nucleus holds them about a million-millionth
-of a millimetre apart. Something stronger held them, and only at close range.
+of a millimeter apart. Something stronger held them, and only at close range.
 Werner Heisenberg wrote down a nucleus of protons and neutrons held by an
 exchange force within months of Chadwick's letter, and in 1934 Hideki
 Yukawa proposed that the force was carried by a new, heavy particle. The
-force, we now know, is attractive at about a femtometre and negligible
+force, we now know, is attractive at about a femtometer and negligible
 beyond about two and a half.
 
 Rutherford's method outlived his question. Scattering became particle

@@ -12,7 +12,7 @@ surgery did to thinking, and wrote his book while working with Lashley again
 at the Yerkes primate laboratories in Florida. [_The Organization of
 Behavior](kloom:e/organization-of-behavior): A Neuropsychological Theory_ came out from Wiley in New York in
 1949, after he had returned to [McGill](kloom:e/mcgill-university) as a professor. Its aim was to explain
-behaviour and thought in terms of what the brain's cells actually do.
+behavior and thought in terms of what the brain's cells actually do.
 
 On page 62 is the passage everyone quotes. Hebb introduced it as an
 assumption:

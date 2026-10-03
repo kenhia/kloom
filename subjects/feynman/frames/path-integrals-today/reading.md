@@ -33,7 +33,7 @@ the two ran through it.
 
 In 1974 **[Kenneth Wilson](kloom:e/kenneth-g-wilson)** wrote the theory of quarks and gluons on a grid
 of points in space and time, with the gluon field living on the links
-between neighbouring points, as the plate draws, and a closed loop of links
+between neighboring points, as the plate draws, and a closed loop of links
 measuring the field inside it. On a lattice, in imaginary time, the path
 integral is an ordinary integral over a very large but finite number of
 variables, with positive weights, and it can be estimated by sampling. In

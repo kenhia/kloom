@@ -17,7 +17,7 @@ was running.
 
 The plate draws one integrator. A flat disc turns with the independent
 variable, _x_. A thin wheel stands on it, and a lead screw sets the wheel's
-distance from the disc's centre to the value of a second variable, _y_. The
+distance from the disc's center to the value of a second variable, _y_. The
 wheel turns in proportion to _y_ times the turning of the disc, so, as
 _x_ runs on, the total turning of the wheel is the integral of _y_ with
 respect to _x_. It is exact in principle and limited only by slip and the
@@ -103,6 +103,6 @@ worked out with [Presper Eckert](kloom:e/j-presper-eckert), sketching an electro
 do the same work far faster. Their machine would be named, like
 Bush's, for what it did: an _integrator_.
 
-It was analogue, a machine of quantities rather than digits. In Berlin, a
+It was analog, a machine of quantities rather than digits. In Berlin, a
 civil engineer was building a machine that did the opposite, digit by digit,
 with telephone relays.

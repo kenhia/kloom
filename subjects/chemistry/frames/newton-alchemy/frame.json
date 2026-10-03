@@ -12,7 +12,7 @@
 		"illustration": "scene.svg",
 		"metadata": [
 			"TRINITY COLLEGE, CAMBRIDGE · ISAAC NEWTON",
-			"STIBNITE · IRON · SALTPETRE · THE STAR REGULUS"
+			"STIBNITE · IRON · SALTPETER · THE STAR REGULUS"
 		],
 		"counter": {
 			"value": "1,000,000",
@@ -196,7 +196,7 @@
 	"connections": [
 		{
 			"to": "physics/prism",
-			"why": "Newton borrowed the chymists' redintegration, taking a compound apart and putting it back together, for recombining the prism's colours into white light."
+			"why": "Newton borrowed the chymists' redintegration, taking a compound apart and putting it back together, for recombining the prism's colors into white light."
 		},
 		{
 			"to": "physics/principia",

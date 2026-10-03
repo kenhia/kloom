@@ -72,7 +72,7 @@ the process its name.
 | diffuse the base (p)      | the junction curves up under the window's edge |
 | regrow oxide, open window | masks again, inside the base                   |
 | diffuse the emitter (n⁺)  | the second junction also ends under oxide      |
-| open contact windows only | the rest stays as a seal; aluminium goes down  |
+| open contact windows only | the rest stays as a seal; aluminum goes down   |
 
 The dates are told two ways. The museum has Hoerni recording the idea in
 December 1957, writing a patent disclosure in January 1959 and showing a

@@ -27,13 +27,13 @@ the trail "The diagrams" tells that part.
 
 ## Pocono Manor
 
-![A hand-coloured postcard of the Pocono Manor Inn in the 1910s: a long hotel of several storeys with steep roofs and dormers on a wooded hilltop, with steps climbing to it through the trees](pocono-manor.jpg)
+![A hand-colored postcard of the Pocono Manor Inn in the 1910s: a long hotel of several stories with steep roofs and dormers on a wooded hilltop, with steps climbing to it through the trees](pocono-manor.jpg)
 
 Twenty-eight came to the Pocono Manor Inn, among them, for the first time,
 **[Niels Bohr](kloom:e/niels-bohr)** and his son **Aage**, **Paul Dirac** and **Eugene Wigner**.
 **[Julian Schwinger](kloom:e/julian-schwinger)** of Harvard, the rising star, spoke first, and at
 enormous length, most of a day, deriving his results from the standard
-formalism with a rigour that exhausted his audience but that they could
+formalism with a rigor that exhausted his audience but that they could
 check line by line. Feynman followed with what he called an alternative
 formulation.
 
@@ -56,7 +56,7 @@ later, came from a theorem its author had proved could not be got round.
 
 Bohr's objection upset him least, because it showed only that Bohr had not
 followed. He decided to stop explaining and publish. Bohr later came to
-apologise: his son had told him Feynman's scheme was sound. The plate
+apologize: his son had told him Feynman's scheme was sound. The plate
 shows three of the pictures he was using: an electron that emits and
 reabsorbs its own light, a path that turns back in time to make a pair,
 and the closed loop he admitted he could not yet handle. Schwinger said he

@@ -1,5 +1,5 @@
 **[Erwin Schrödinger](kloom:e/erwin-schrodinger)** was thirty-eight, a professor at Zurich, and known
-for careful work on colours, gases and spectra rather than for any
+for careful work on colors, gases and spectra rather than for any
 revolution. In late 1925 he had been reading de Broglie's thesis, which
 gave every particle a wave. At a colloquium in Zurich **Peter Debye**
 remarked, offhand, that if particles behaved as waves there ought to be a
@@ -53,7 +53,7 @@ matrices and back. Two formulations, from two schools, were one theory.
 
 | Paper, 1926                                    | In the _Annalen der Physik_ | What it did                            |
 | ---------------------------------------------- | --------------------------- | -------------------------------------- |
-| Quantisation as an eigenvalue problem I        | volume 79 (384), issue 4    | hydrogen's levels as standing waves    |
+| Quantization as an eigenvalue problem I        | volume 79 (384), issue 4    | hydrogen's levels as standing waves    |
 | … II                                           | issue 6                     | oscillator, rotator, diatomic molecule |
 | On the relation to Heisenberg, Born and Jordan | issue 8                     | the two mechanics shown to agree       |
 | … III                                          | volume 80 (385)             | perturbations; the Stark effect        |

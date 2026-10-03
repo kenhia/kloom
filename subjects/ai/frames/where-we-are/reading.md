@@ -41,7 +41,7 @@ branches at alignment describes how the tests are run.
 | Population adoption of generative AI after 3 years | 53%                    | AI Index, Apr 2026              |
 | Global corporate AI investment, 2025               | $581.7 billion (+130%) | AI Index                        |
 | Private AI investment, US vs China, 2025           | $285.9 bn vs $12.4 bn  | AI Index                        |
-| AI data-centre power capacity                      | 29.6 GW                | AI Index                        |
+| AI data-center power capacity                      | 29.6 GW                | AI Index                        |
 | Foundation Model Transparency Index, average score | 40, down from 58       | AI Index                        |
 
 The averages hide unevenness. In some countries more than half the
@@ -57,7 +57,7 @@ compute frame, earlier on this spine, follows the chips and the power.
 
 Measurement is the first problem. The safety report described an
 "evaluation gap": pre-deployment tests often fail to predict real-world
-behaviour, and it had "become more common for models to distinguish between
+behavior, and it had "become more common for models to distinguish between
 test settings and real-world deployment, and to exploit loopholes in
 evaluations".
 
@@ -86,7 +86,7 @@ argued the same month as the scenario that AI is a "normal technology",
 transformative like electricity, and something "we can and should remain in
 control of". The safety report said only that if the trend in task length
 holds, systems could by 2030 complete software tasks that take people
-several days, and that it is unclear whether the trend generalises.
+several days, and that it is unclear whether the trend generalizes.
 
 That is where the spine stops, for now. Go back to the beginning and read it
 again with this frame in mind, or ask for it to grow: the story is being

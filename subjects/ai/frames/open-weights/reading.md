@@ -15,7 +15,7 @@ only through their makers' services.
 
 For language, the turning point was **[Meta](kloom:e/meta-platforms)**'s **[LLaMA](kloom:e/llama-language-model)**, in February 2023:
 models from 7 to 65 billion parameters trained only on publicly available
-data. Meta released them under a non-commercial licence, to researchers
+data. Meta released them under a non-commercial license, to researchers
 approved case by case. Within days, on 3 March, a torrent of the weights was
 posted with a link on 4chan and spread through AI forums; Meta filed
 takedown requests, but the file was out. Commentators compared it with
@@ -24,17 +24,17 @@ experiments.
 
 Meta then made openness its strategy. **Llama 2** (July 2023) was free for
 research and commercial use, except that a company with more than 700
-million monthly users had to ask Meta for a licence. With **Llama 3.1 405B**
+million monthly users had to ask Meta for a license. With **Llama 3.1 405B**
 in July 2024, **[Mark Zuckerberg](kloom:e/mark-zuckerberg)** published "Open Source AI Is the Path
 Forward", arguing that open models are safer because they "can be widely
 scrutinized". In Paris, **[Mistral AI](kloom:e/mistral-ai)** released Mistral 7B (September 2023)
-under the permissive [Apache 2.0](kloom:e/apache-license) licence; Google released its smaller
+under the permissive [Apache 2.0](kloom:e/apache-license) license; Google released its smaller
 **Gemma** models in 2024.
 
-Then the centre of gravity moved to China. **[DeepSeek](kloom:e/deepseek)**'s V3 (December 2024)
+Then the center of gravity moved to China. **[DeepSeek](kloom:e/deepseek)**'s V3 (December 2024)
 reported a final training run of 2.788 million GPU hours, about $5.6
 million at rental prices, while noting that this left out all the research
-before it; its R1 reasoning model (January 2025) came under the MIT licence.
+before it; its R1 reasoning model (January 2025) came under the MIT license.
 [Alibaba](kloom:e/alibaba-group)'s **[Qwen3](kloom:e/qwen)** (April 2025) and Moonshot AI's **Kimi K2** (mid-2025)
 followed. In August 2025 [OpenAI](kloom:e/openai) released two open-weight models, **gpt-oss-120b**
 and **gpt-oss-20b**, under Apache 2.0. Meta moved
@@ -48,13 +48,13 @@ Google DeepMind and OpenAI still keep their largest models proprietary.
 
 ## Open weights are not open source
 
-"Open" here usually means the weights and a licence, not the means to
+"Open" here usually means the weights and a license, not the means to
 rebuild the model. In October 2024 the **[Open Source Initiative](kloom:e/open-source-initiative)** published
 the _Open Source AI Definition 1.0_. It requires three things under open
 terms: the code used to train and run the system, the parameters, and
 enough information about the training data that "a skilled person can
 build a substantially equivalent system". Few releases meet it. The OSI had
-already said that Llama's licence is not open source, because it restricts
+already said that Llama's license is not open source, because it restricts
 commercial use for some users. Critics call the gap _openwashing_.
 
 ## Should weights be public?

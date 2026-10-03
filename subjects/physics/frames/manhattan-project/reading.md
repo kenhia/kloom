@@ -9,9 +9,9 @@ reached Roosevelt on 11 October, and he set up a committee on uranium,
 which moved slowly. The decisive push came from Britain: in
 March 1940 Otto Frisch and Rudolf Peierls, refugees in Birmingham,
 calculated that the critical mass of pure uranium-235 was not tons but of
-the order of ten kilograms, small enough for an aeroplane.
+the order of ten kilograms, small enough for an airplane.
 
-In June 1942 the US Army Corps of Engineers took the programme over, as the
+In June 1942 the US Army Corps of Engineers took the program over, as the
 Manhattan District, and on 23 September Brigadier General **Leslie Groves**
 took command. The **[Manhattan Project](kloom:e/manhattan-project)**, as it came to be called, built
 the first nuclear weapons with Britain and Canada, employed some 129,000
@@ -31,7 +31,7 @@ chemistry. On the Columbia River in Washington, at the **[Hanford Site](kloom:e/
 the B Reactor went critical in late September 1944 and made its first
 plutonium on 6 November.
 
-![The front face of Hanford's B Reactor during the war: a wall of hundreds of fuel-channel tubes rising several storeys, with men in white coveralls working on the loading platform at its foot](b-reactor.jpg)
+![The front face of Hanford's B Reactor during the war: a wall of hundreds of fuel-channel tubes rising several stories, with men in white coveralls working on the loading platform at its foot](b-reactor.jpg)
 
 The factories were the project. By the end of 1945 more than four-fifths of
 the money had gone to Oak Ridge and Hanford, most of it on construction.
@@ -64,7 +64,7 @@ reactor contained enough plutonium-240, which fissions spontaneously, to
 start the chain before a gun could close the gap, and the bomb would fizzle.
 The answer was _implosion_: a sphere of plutonium crushed from outside by
 explosives shaped into 32 lenses, a problem in converging shock waves that
-reorganised the whole laboratory in August 1944. Its hydrodynamics were
+reorganized the whole laboratory in August 1944. Its hydrodynamics were
 beyond hand calculation, and were run on IBM punched-card machines at Los
 Alamos and on Harvard's Mark I.
 

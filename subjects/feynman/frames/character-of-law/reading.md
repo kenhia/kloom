@@ -32,7 +32,7 @@ It goes in three steps, and the plate draws the second and third.
    by the same angle. Draw all the velocities from one point, and their tips
    lie on a circle.
 3. **The ellipse.** That circle, with the point it is drawn from set off
-   its centre, is the starting point of a construction every geometry
+   its center, is the starting point of a construction every geometry
    student could follow, and it traces an ellipse. The orbit is that
    ellipse turned through a right angle.
 
@@ -79,5 +79,5 @@ law in three moves: "First we guess it." Then you work out what the guess
 predicts, and then you compare the predictions with nature, by experiment.
 If they disagree, the guess is wrong, however beautiful it is and however
 clever or famous the person who made it. What the method never supplies is
-the guess itself, and Feynman made no pretence that it did. A year later,
+the guess itself, and Feynman made no pretense that it did. A year later,
 in Stockholm, he would describe his own guesses, most of them wrong.

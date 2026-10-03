@@ -90,7 +90,7 @@ Carnot had already begun to doubt caloric. His brother Hippolyte, who kept
 and then destroyed most of his papers, published some notes in 1878. In
 them, by the spring of 1832, Carnot writes that heat is "motion that has
 changed form", and puts a figure on how much work a given heat is worth:
-370 kilogram-metres to the kilocalorie, against about 427 today. He
+370 kilogram-meters to the kilocalorie, against about 427 today. He
 published none of it. Others found the figure again in the 1840s, and the
 waterfall had to be rebuilt on it: heat does not only fall through an
 engine, some of it is used up.

@@ -15,7 +15,7 @@
 		],
 		"counter": {
 			"value": "127",
-			"label": "teeth on the gear that turns inches into millimetres"
+			"label": "teeth on the gear that turns inches into millimeters"
 		}
 	},
 	"connections": [
@@ -29,7 +29,7 @@
 		},
 		{
 			"to": "making/gauge-blocks",
-			"why": "The 127-tooth change gear exists because an inch is exactly 25.4 millimetres, the industrial inch Johansson's blocks fixed."
+			"why": "The 127-tooth change gear exists because an inch is exactly 25.4 millimeters, the industrial inch Johansson's blocks fixed."
 		}
 	],
 	"citations": [

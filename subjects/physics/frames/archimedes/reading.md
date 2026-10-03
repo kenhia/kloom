@@ -18,7 +18,7 @@ weight four units out balance four units three units out.
 The plate draws the heart of the proof. Cut the two weights into seven
 equal pieces and hang them one unit apart along the beam. The row is
 symmetrical about the fulcrum, so it balances; and the four pieces on one
-side and three on the other have the same centres of gravity as the whole
+side and three on the other have the same centers of gravity as the whole
 weights they came from. The lever is reduced to symmetry.
 
 It is not quite complete. Proposition 7, for weights with no common
@@ -35,7 +35,7 @@ _On Floating Bodies_ does the same for fluids. From a postulate about how
 fluid presses on fluid, it proves that a solid immersed in a fluid is
 lightened by the weight of the fluid it pushes aside: **[Archimedes'
 principle](kloom:e/archimedes-principle)**. Its second book, on when a floating paraboloid rights itself
-and when it capsizes, was unmatched in antiquity and rarely equalled before
+and when it capsizes, was unmatched in antiquity and rarely equaled before
 the late Renaissance.
 
 The famous story is not in it. **[Vitruvius](kloom:e/vitruvius)**, writing some two centuries
@@ -50,7 +50,7 @@ accurate, it is based on demonstrations found by Archimedes himself."
 
 A worked example shows why, with invented numbers. A wreath of 1,000 grams
 of pure gold, which is 19.3 times as dense as water, displaces about 51.8
-cubic centimetres. Make it of 700 grams of gold and 300 of silver (10.5)
+cubic centimeters. Make it of 700 grams of gold and 300 of silver (10.5)
 and it displaces about 64.8. In a bath the difference is a rise in level
 too small to see. On a balance under water it is about 13 grams of lost
 weight, which a good balance shows at once.

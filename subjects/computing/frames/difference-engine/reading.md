@@ -71,7 +71,7 @@ each started from values worked out by hand. Babbage pointed out another
 virtue: compute the last line of a stretch directly, and if it agrees, every
 line before it is right. The machine had to add, carry tens reliably, and,
 because compositors made errors too, print. He designed type that a wire
-through notches would check, and moulds for stereotype plates.
+through notches would check, and molds for stereotype plates.
 
 ## A model, and a grant
 

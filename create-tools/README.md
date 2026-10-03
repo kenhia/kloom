@@ -16,6 +16,7 @@ here.
 | [read-source](read-source/)     | A PDF source's text, or its scanned pages as PNG, to read before citing it.                  |
 | [names](names/)                 | Name files for the shared registry (Wikidata IDs), and a reading's first mentions marked.    |
 | [openalex](openalex/)           | OpenAlex with the homelab's API key: a paper's open copies, abstract and metadata.           |
+| [spelling](spelling/)           | kloom's own words in American English; quotations, titles and names left as they are.        |
 
 ## Conventions
 

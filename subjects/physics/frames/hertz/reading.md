@@ -10,39 +10,39 @@ prize had lapsed unclaimed. The little spark told him how to try.
 ## A spark and a ring
 
 His source of waves was two straight wires in a line, each ending in a
-large plate or sphere, with a gap a few millimetres wide between their
+large plate or sphere, with a gap a few millimeters wide between their
 inner ends. An induction coil charged the two halves until a spark crossed
 the gap; while it lasted, charge surged back and forth along the wires
 tens of millions of times a second, and the wires radiated. The detector
-was simpler still: a ring of copper wire, 35 centimetres in radius, broken
+was simpler still: a ring of copper wire, 35 centimeters in radius, broken
 by a gap that a screw could narrow to a hair's breadth. When a wave passed,
 a tiny spark crossed it, visible only in a darkened room. A ring the right
 size for the oscillator answered it best: the two were tuned to each
 other.
 
-![Hertz's own figure of the apparatus: two square plates A and A′ on a rod with a spark gap between them, fed by an induction coil J; a wire running off to the left from a plate P beside A; and two wire circuits, B and C, with small spark gaps, placed along the dotted line of the room's axis, marked off in metres](hertz-expt.png)
+![Hertz's own figure of the apparatus: two square plates A and A′ on a rod with a spark gap between them, fed by an induction coil J; a wire running off to the left from a plate P beside A; and two wire circuits, B and C, with small spark gaps, placed along the dotted line of the room's axis, marked off in meters](hertz-expt.png)
 
 The figure is Hertz's, from his paper of 1888 on the finite speed of
-electrical action. In March 1888 he fixed a sheet of zinc 4 metres high
+electrical action. In March 1888 he fixed a sheet of zinc 4 meters high
 and 2 wide to the sandstone wall of his lecture room and set the
-oscillator 13 metres in front of it. The wave running to the wall and the
+oscillator 13 meters in front of it. The wave running to the wall and the
 wave reflected from it made a standing wave, and the ring, carried along
 the line between them, found places where its spark died away and places
 where it was strongest. The plate draws Hertz's own reading of it: nodes
-4.8 metres apart, with the first just behind the wall. (Some modern
-accounts give 12 metres and waves 4 metres long; Hertz's paper gives the
+4.8 meters apart, with the first just behind the wall. (Some modern
+accounts give 12 meters and waves 4 meters long; Hertz's paper gives the
 numbers used here.)
 
 ## Light without the light
 
-Waves of nine or ten metres were awkward to handle, so Hertz made a much
-smaller oscillator, with waves about 60 centimetres long. With
+Waves of nine or ten meters were awkward to handle, so Hertz made a much
+smaller oscillator, with waves about 60 centimeters long. With
 these the whole of optics followed. A parabolic mirror of bent zinc, 2
-metres high, made a beam that could be felt 5 or 6 metres away. A flat
+meters high, made a beam that could be felt 5 or 6 meters away. A flat
 sheet reflected it. A screen of parallel wires stopped the beam or let it
-through, depending on how it was turned: the waves were polarised, as the
+through, depending on how it was turned: the waves were polarized, as the
 oscillator's straight wires said they should be. A prism of pitch, 1.5
-metres tall and weighing about 12 hundredweight, bent the beam by 22
+meters tall and weighing about 12 hundredweight, bent the beam by 22
 degrees. The experiments, Hertz wrote, were "adapted to remove any doubt
 as to the identity of light, radiant heat, and electromagnetic
 wave-motion."

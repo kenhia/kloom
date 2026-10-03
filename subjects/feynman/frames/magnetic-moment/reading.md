@@ -2,7 +2,7 @@ An electron is a small magnet. [Dirac's equation](kloom:e/dirac-equation) of 192
 
 ## Alpha over two pi
 
-The first calculation was **[Julian Schwinger](kloom:e/julian-schwinger)**'s, published in February 1948 with his new, renormalised theory and without diagrams. The electron emits a virtual photon, is kicked by the magnetic field, and reabsorbs the photon, and the kick comes out stronger by a fraction α/2π, about 0.00116. The plate draws that process as a diagram, the one diagram of the first order. The result is cut into his headstone at Mount Auburn Cemetery in Cambridge, Massachusetts.
+The first calculation was **[Julian Schwinger](kloom:e/julian-schwinger)**'s, published in February 1948 with his new, renormalized theory and without diagrams. The electron emits a virtual photon, is kicked by the magnetic field, and reabsorbs the photon, and the kick comes out stronger by a fraction α/2π, about 0.00116. The plate draws that process as a diagram, the one diagram of the first order. The result is cut into his headstone at Mount Auburn Cemetery in Cambridge, Massachusetts.
 
 ![Julian Schwinger's granite headstone, with α/2π carved above his name and dates, 1918–1994, and those of his wife Clarice](schwinger-headstone.jpg)
 
@@ -26,6 +26,6 @@ In February 2023 **Xing Fan**, **Thomas Myers**, **Benedict Sukra** and **[Geral
 
 ## The fine-structure constant
 
-To compare, the theory needs α itself, and α has to be measured some other way. The two best measurements, from caesium atoms at Berkeley in 2018 and rubidium atoms in Paris in 2020, disagree with each other by about five and a half standard deviations. With either one, theory and experiment agree to within about 0.7 parts per trillion; which of the two is right decides whether the agreement is better still or shows a gap. A review by Gabrielse and **Graziano Venanzoni**, revised in February 2026, still calls the α discrepancy unresolved, and this frame found no newer measurement that settles it. A new apparatus at Northwestern aims to measure the electron ten times more precisely, and to measure the positron, last done in 1987, as well.
+To compare, the theory needs α itself, and α has to be measured some other way. The two best measurements, from cesium atoms at Berkeley in 2018 and rubidium atoms in Paris in 2020, disagree with each other by about five and a half standard deviations. With either one, theory and experiment agree to within about 0.7 parts per trillion; which of the two is right decides whether the agreement is better still or shows a gap. A review by Gabrielse and **Graziano Venanzoni**, revised in February 2026, still calls the α discrepancy unresolved, and this frame found no newer measurement that settles it. A new apparatus at Northwestern aims to measure the electron ten times more precisely, and to measure the positron, last done in 1987, as well.
 
-What Karplus and Kroll did in 1950 was taught, not found in print: the next frame, Dispersion, follows how the diagrams travelled.
+What Karplus and Kroll did in 1950 was taught, not found in print: the next frame, Dispersion, follows how the diagrams traveled.

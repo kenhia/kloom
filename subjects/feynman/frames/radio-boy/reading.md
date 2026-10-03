@@ -21,7 +21,7 @@ radio station's own signal drives the phones.
 
 His first repairs were the easy kind, he told an interviewer in 1966: a wire
 hanging loose, a bad connection. The rest he learned by going deeper into
-each set. By high school he was mending the neighbours' radios for money,
+each set. By high school he was mending the neighbors' radios for money,
 and spending the money on more junk for the laboratory.
 
 ## The story he told

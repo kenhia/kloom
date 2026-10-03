@@ -12,7 +12,7 @@ turns an image into a vector, the other turns a caption into a vector. The
 paper, by **[Alec Radford](kloom:e/alec-radford)** and colleagues, trained them on 400 million
 image–text pairs collected from the internet. In each batch the matching
 pairs are pulled together and every other pairing pushed apart: the
-diagonal of the grid in the drawing. Nobody labelled the pictures; the
+diagonal of the grid in the drawing. Nobody labeled the pictures; the
 captions people had already written were the supervision.
 
 The payoff was _zero-shot_ classification. Give CLIP the names of some
@@ -59,7 +59,7 @@ built around it. Image generation moved inside the chat models: GPT-4o in
 March 2025, Google's Gemini 2.5 Flash Image in August 2025.
 
 The costs showed quickly. Sora 2 allowed copyrighted material by default
-unless rights holders opted out, and was criticised for it by the Motion
+unless rights holders opted out, and was criticized for it by the Motion
 Picture Association; tools that removed its watermark appeared within a
 week. Labs answered with provenance marks: C2PA metadata on OpenAI's images,
 Google's invisible SynthID watermark on its own. In a closely watched case,

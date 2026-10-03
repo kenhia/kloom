@@ -4,5 +4,5 @@
 	"name": "Tensor Processing Unit",
 	"aliases": ["TPU", "TPUs"],
 	"kind": "artifact",
-	"description": "Google's chip for neural-network arithmetic, in use in its data centres from 2015."
+	"description": "Google's chip for neural-network arithmetic, in use in its data centers from 2015."
 }

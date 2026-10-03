@@ -59,7 +59,7 @@ interesting though quite special cases", and that a grain's path was one
 of the irregular ones. **[Norbert Wiener](kloom:e/norbert-wiener)**, a young instructor at MIT who
 had read Perrin, took him at his word.
 
-![Norbert Wiener in later life, head bowed over something he is reading, in heavy dark-rimmed glasses, with a white moustache and a tweed jacket](norbert-wiener.jpg)
+![Norbert Wiener in later life, head bowed over something he is reading, in heavy dark-rimmed glasses, with a white mustache and a tweed jacket](norbert-wiener.jpg)
 
 In "Differential Space", published in 1923, Wiener built a probability
 on a set of paths rather than of numbers. Every continuous path starting
@@ -71,7 +71,7 @@ time. He quoted Perrin in it. The paper gave a first argument that such
 paths have no slopes; the proof that almost every one of them is
 differentiable nowhere came ten years later, in 1933, with Raymond Paley
 and Antoni Zygmund. The historian Arthur Genthon points out that Wiener
-knew his paths were an idealisation: a real grain between collisions does
+knew his paths were an idealization: a real grain between collisions does
 have a velocity, as the physicists Ornstein and Uhlenbeck insisted. The
 mathematical object took Wiener's name, the Wiener process, and its
 measure is the Wiener measure. The probabilist William Feller had called

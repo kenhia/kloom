@@ -16,7 +16,7 @@ In February 1944 **[Oswald Avery](kloom:e/oswald-avery)**, Colin MacLeod and Mac
 
 ## Chargaff's ratios
 
-**[Erwin Chargaff](kloom:e/erwin-chargaff)**, a biochemist at **[Columbia University](kloom:e/columbia-university)**, read Avery's paper as a challenge: if DNA carries heredity, DNA from different species should differ. His laboratory hydrolysed DNA, separated the bases on strips of filter paper and measured each by its ultraviolet absorption, from two or three milligrams. In June 1950 he summed up in _Experientia_, giving each base in moles per mole of phosphorus. Four of his preparations, with our arithmetic in the last three columns:
+**[Erwin Chargaff](kloom:e/erwin-chargaff)**, a biochemist at **[Columbia University](kloom:e/columbia-university)**, read Avery's paper as a challenge: if DNA carries heredity, DNA from different species should differ. His laboratory hydrolyzed DNA, separated the bases on strips of filter paper and measured each by its ultraviolet absorption, from two or three milligrams. In June 1950 he summed up in _Experientia_, giving each base in moles per mole of phosphorus. Four of his preparations, with our arithmetic in the last three columns:
 
 | DNA                            | A    | T    | G    | C    | A/T  | G/C  | (A + T)/(G + C) |
 | ------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- | --------------: |

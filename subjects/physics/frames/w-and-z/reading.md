@@ -60,7 +60,7 @@ achievement was making the particles, not detecting them.
 ## Counting neutrinos
 
 The Z's precision came next. The **[Large Electron–Positron Collider](kloom:e/large-electron-positron-collider)**,
-LEP, a ring 27 kilometres round, began in August 1989 by colliding
+LEP, a ring 27 kilometers round, began in August 1989 by colliding
 electrons and positrons at the Z's mass. The Z can decay into any pair
 of light particles, neutrinos included, so the more kinds of neutrino there
 are, the shorter its life, the broader its peak and the lower its height.

@@ -47,12 +47,12 @@ office. Feynman, as he always did once the subject was physics, forgot whom
 he was talking to and told the division's leader he was crazy, again and
 again, and was nearly always the one who was wrong. That, he decided
 afterwards, was exactly what Bethe wanted. Colleagues likened the pair to a
-battleship ploughing steadily through a problem and a mosquito boat
+battleship plowing steadily through a problem and a mosquito boat
 darting round it. They raced each other at arithmetic too: Bethe squared 48
 in his head before Feynman could reach for the Marchant calculator.
 
 By November 1943 Oppenheimer was writing that Feynman was "by all odds the
-most brilliant young physicist here". When T Division was organised into
+most brilliant young physicist here". When T Division was organized into
 groups in March 1944, he was given one of them.
 
 | Group | Subject                               | Leader           |

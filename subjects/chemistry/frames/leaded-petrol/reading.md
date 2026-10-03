@@ -10,20 +10,20 @@ Knock is a chain reaction of free radicals. Tetraethyllead's four carbon–lead 
 
 Left alone, that oxide would foul the engine, so the fuel also carried dibromoethane and dichloroethane, which turn the lead into volatile lead bromide and chloride. They carried it out of the exhaust, and into the air.
 
-How much lead was that? The dose Midgley defended was 1 part tetraethyllead to 1,300 of petrol by weight. By our arithmetic, from the atomic weights and a petrol of 0.755 kilograms a litre:
+How much lead was that? The dose Midgley defended was 1 part tetraethyllead to 1,300 of petrol by weight. By our arithmetic, from the atomic weights and a petrol of 0.755 kilograms a liter:
 
 | Step                      | Working                        |      Result |
 | ------------------------- | ------------------------------ | ----------: |
 | Molar mass of Pb(C₂H₅)₄   | 207.2 + 8 × 12.01 + 20 × 1.008 | 323.4 g/mol |
 | Lead's share of it        | 207.2 ÷ 323.4                  |         64% |
-| Tetraethyllead in a litre | 755 g ÷ 1,300                  |      0.58 g |
-| Lead in a litre           | 0.58 g × 0.64                  |      0.37 g |
+| Tetraethyllead in a liter | 755 g ÷ 1,300                  |      0.58 g |
+| Lead in a liter           | 0.58 g × 0.64                  |      0.37 g |
 
-That is close to the 0.4 grams a litre that Wikipedia gives as the average of American leaded petrol from 1926 to 1985: some 20 trillion litres, and about 8 million tonnes of lead.
+That is close to the 0.4 grams a liter that Wikipedia gives as the average of American leaded petrol from 1926 to 1985: some 20 trillion liters, and about 8 million tonnes of lead.
 
 ## The plants
 
-Making the compound was deadly from the start. Two workers died at the pilot plant in Dayton, and eight more at **[DuPont](kloom:e/dupont)**'s plant in Deepwater, New Jersey, over the following year. In 1924 General Motors and Standard Oil of New Jersey set up the Ethyl Gasoline Corporation, and in its first two months its new plant at Bayway had cases of hallucination and insanity, and five deaths. Midgley himself had taken a long holiday in 1923 to recover from lead poisoning. On 30 October 1924, at a press conference, he poured tetraethyllead over his hands and breathed its vapour for a minute to show that it was safe. Days later New Jersey closed the Bayway plant. Production resumed in 1926.
+Making the compound was deadly from the start. Two workers died at the pilot plant in Dayton, and eight more at **[DuPont](kloom:e/dupont)**'s plant in Deepwater, New Jersey, over the following year. In 1924 General Motors and Standard Oil of New Jersey set up the Ethyl Gasoline Corporation, and in its first two months its new plant at Bayway had cases of hallucination and insanity, and five deaths. Midgley himself had taken a long holiday in 1923 to recover from lead poisoning. On 30 October 1924, at a press conference, he poured tetraethyllead over his hands and breathed its vapor for a minute to show that it was safe. Days later New Jersey closed the Bayway plant. Production resumed in 1926.
 
 ![A rusted enamel plate on a red petrol pump reading "For use as a motor fuel only. Contains lead (tetraethyl)"](lead-warning.jpg)
 
@@ -33,7 +33,7 @@ The lead's spread was found by accident. At Caltech, the geochemist **[Clair Pat
 
 American cars built from 1975 needed unleaded petrol to protect their catalytic converters, and leaded petrol for road vehicles was banned in the United States from 1 January 1996. Children's blood lead fell with it, though old paint and the solder in food cans were sources too:
 
-![Bar chart of the mean blood lead level in US children aged 1 to 5: 15.2 micrograms per decilitre in 1976–80, 3.6 in 1988–91, 2.7 in 1991–94, 1.9 in 1999–2002, 1.6 in 2003–06, 1.3 in 2007–10 and 0.8 in 2011–16](blood-lead.svg)
+![Bar chart of the mean blood lead level in US children aged 1 to 5: 15.2 micrograms per deciliter in 1976–80, 3.6 in 1988–91, 2.7 in 1991–94, 1.9 in 1999–2002, 1.6 in 2003–06, 1.3 in 2007–10 and 0.8 in 2011–16](blood-lead.svg)
 
 | Survey    | Mean blood lead, ages 1–5 (µg/dL) |
 | --------- | --------------------------------: |

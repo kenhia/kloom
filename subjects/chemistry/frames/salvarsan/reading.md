@@ -1,10 +1,10 @@
 On 31 August 1909, in Frankfurt, the Japanese bacteriologist **[Sahachiro Hata](kloom:e/sahachiro-hata)** injected a yellow [arsenic](kloom:e/arsenic) compound into the vein of a rabbit weighing 2,150 grams, 0.04 grams for every kilogram of rabbit. The rabbit had a syphilitic sore on its scrotum, teeming with the corkscrew bacteria that cause the disease. The next day he could find none, and in under three weeks the sore had healed to a scar. The compound was number 606 in the series made in **[Paul Ehrlich](kloom:e/paul-ehrlich)**'s institute, and as **[Salvarsan](kloom:e/arsphenamine)** it became, in 1910, what is often called the first modern antimicrobial drug.
 
-![Paul Ehrlich, grey-bearded and in spectacles and a dark suit, looks down at a paper that Sahachiro Hata, younger and in a white laboratory coat, holds beside him](ehrlich-hata.jpg)
+![Paul Ehrlich, gray-bearded and in spectacles and a dark suit, looks down at a paper that Sahachiro Hata, younger and in a white laboratory coat, holds beside him](ehrlich-hata.jpg)
 
 ## Dyes that choose
 
-Ehrlich began with dyes. As a young doctor he stained tissues with the new aniline colours and noticed that each dye took to some cells and not others: **[methylene blue](kloom:e/methylene-blue)**, injected into a living animal, picked out its nerves. If a dye could choose, he reasoned, a poison might choose too, and kill a microbe while sparing the patient. In 1891 he treated two malaria patients with methylene blue, with some success, though not more than quinine gave. His rule was _corpora non agunt nisi fixata_, "drugs will not act unless they are bound", and in his side-chain theory of 1897 cells carried side-chains, receptors, that a toxin fitted like a key. The drug he wanted he called a _Zauberkugel_, a **[magic bullet](kloom:e/magic-bullet-medicine)**, after the bullets that never miss in Weber's opera _Der Freischütz_. He shared the Nobel Prize in Physiology or Medicine in 1908 for his work on immunity.
+Ehrlich began with dyes. As a young doctor he stained tissues with the new aniline colors and noticed that each dye took to some cells and not others: **[methylene blue](kloom:e/methylene-blue)**, injected into a living animal, picked out its nerves. If a dye could choose, he reasoned, a poison might choose too, and kill a microbe while sparing the patient. In 1891 he treated two malaria patients with methylene blue, with some success, though not more than quinine gave. His rule was _corpora non agunt nisi fixata_, "drugs will not act unless they are bound", and in his side-chain theory of 1897 cells carried side-chains, receptors, that a toxin fitted like a key. The drug he wanted he called a _Zauberkugel_, a **[magic bullet](kloom:e/magic-bullet-medicine)**, after the bullets that never miss in Weber's opera _Der Freischütz_. He shared the Nobel Prize in Physiology or Medicine in 1908 for his work on immunity.
 
 ## Six hundred and six
 
@@ -25,7 +25,7 @@ Why did the error last so long? Every candidate structure is a whole number of t
 | ring of three        | (C₆H₆AsNO)₃ |                549.1 |   40.9% |
 | ring of five         | (C₆H₆AsNO)₅ |                915.2 |   40.9% |
 
-An elemental analysis, which burns a sample and weighs its parts, gives the same percentages for all of them; Lloyd's own sample, as the hydrochloride with a molecule of water, analysed exactly as Ehrlich's had. Only a method that weighs whole molecules can tell a ring of three from a ring of five, and the spectrum shows each ring, plus one proton, at 550 and 916.
+An elemental analysis, which burns a sample and weighs its parts, gives the same percentages for all of them; Lloyd's own sample, as the hydrochloride with a molecule of water, analyzed exactly as Ehrlich's had. Only a method that weighs whole molecules can tell a ring of three from a ring of five, and the spectrum shows each ring, plus one proton, at 550 and 916.
 
 ![Bar chart of the peaks for arsenic rings in the mass spectrum of Salvarsan in water: rings of three arsenic atoms 100, four 43, five 90, six 18, seven 4 and eight 2](ring-sizes.svg)
 

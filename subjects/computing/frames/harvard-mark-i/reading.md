@@ -9,7 +9,7 @@ Bessel engine, after the functions it tabulated.
 
 **[Howard Aiken](kloom:e/howard-h-aiken)**, a graduate student in physics at Harvard in the late
 1930s, kept meeting differential equations that could only be solved by
-long numerical labour. In 1937 he pictured the cure as "a switchboard on
+long numerical labor. In 1937 he pictured the cure as "a switchboard on
 which are mounted various pieces of calculating machine apparatus". After two
 rejections by possible builders, he was shown a set of calculating
 wheels that [Charles Babbage](kloom:e/charles-babbage)'s son had given Harvard some seventy years

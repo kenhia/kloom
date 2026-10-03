@@ -9,7 +9,7 @@ and made the copying of books — sacred and classical alike — part of the
 monks' work. The Rule of Saint Benedict, written in the same century, set
 aside hours each day for reading, and reading needed books.
 
-## Copying as labour
+## Copying as labor
 
 A book began as animal skin. [Parchment](kloom:e/parchment), or the finer [vellum](kloom:e/vellum) made from
 calfskin, was soaked, scraped, stretched and dried; a large volume took the

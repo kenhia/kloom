@@ -41,7 +41,7 @@ const READ_TEXT: Record<ReadExtent, string> = {
 	abstract: 'Read in its abstract.',
 	'first-page': 'Read in its first page.',
 	excerpt: 'Read in an excerpt.',
-	record: 'Read in its catalogue record only.'
+	record: 'Read in its catalog record only.'
 };
 
 /**
@@ -685,7 +685,7 @@ export function citationProblems(c: unknown, options: { legacy?: boolean } = {})
 	if (c.kind === 'diary' && c.written === undefined)
 		out.push('a diary entry needs the date it was written');
 	if (c.kind === 'media') {
-		if (!isText(c.licence)) out.push('a media citation needs a licence');
+		if (!isText(c.licence)) out.push('a media citation needs a `licence`');
 		if (!isText(c.file)) out.push('a media citation needs the file it credits');
 	}
 	out.push(...legalProblems(c));

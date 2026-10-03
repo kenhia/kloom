@@ -8,7 +8,7 @@ This frame gives its root servers as they stood at the end of September 2026.
 
 ## One file for the whole network
 
-In 1971 **Peggy Karp** of MITRE proposed a standard list of short names for
+In 1971 **Peggy Karp** of MITER proposed a standard list of short names for
 the network's hosts, RFC 226, and the list grew into a file, `HOSTS.TXT`,
 kept at the Network Information Center at the [Stanford Research Institute](kloom:e/sri-international).
 The NIC was directed by **[Elizabeth "Jake" Feinler](kloom:e/elizabeth-j-feinler)**, whose team ran the
@@ -61,7 +61,7 @@ who serves each top-level domain. There are thirteen of them by name,
 `a.root-servers.net` to `m.root-servers.net`, a number set by the original
 limit of 512 bytes on a DNS reply carried in one UDP datagram, which the
 list of servers had to fit. They are run by twelve independent
-organisations: Verisign, which runs two, and Cogent; the University of
+organizations: Verisign, which runs two, and Cogent; the University of
 Maryland and USC's Information Sciences Institute; NASA and two arms of the
 US military; the Internet Systems Consortium; [ICANN](kloom:e/icann); Europe's RIPE NCC and
 Sweden's Netnod; and Japan's WIDE Project.
@@ -72,7 +72,7 @@ query to the nearest copy. At the end of September 2026
 root-servers.org counted 2,045 operational instances; Wikipedia's article,
 current to December 2025, gives 1,954.
 
-![A rack at the Amsterdam Internet Exchange in 2006: routers and a server labelled K.ROOT-SERVERS.NET, hung with green, blue and orange network cables](k-root.jpg)
+![A rack at the Amsterdam Internet Exchange in 2006: routers and a server labeled K.ROOT-SERVERS.NET, hung with green, blue and orange network cables](k-root.jpg)
 
 ![Bar chart: operational sites for each DNS root server letter, September 2026, from 6 for B and G to 386 for F](root-sites.svg)
 

@@ -40,7 +40,7 @@
 	const KIND: Record<NameCard['kind'], string> = {
 		person: 'Person',
 		place: 'Place',
-		org: 'Organisation',
+		org: 'Organization',
 		artifact: 'Artifact',
 		idea: 'Idea',
 		event: 'Event'

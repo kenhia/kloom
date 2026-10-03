@@ -7,12 +7,12 @@
 	},
 	"scene": {
 		"headline": "The computer came in",
-		"accent": "COLOUR.",
+		"accent": "COLOR.",
 		"palette": "circuit",
 		"illustration": "scene.svg",
 		"metadata": [
 			"CUPERTINO · STEVE WOZNIAK · STEVE JOBS · MIKE MARKKULA",
-			"MOS 6502 · COLOUR GRAPHICS · EIGHT SLOTS · DISK II"
+			"MOS 6502 · COLOR GRAPHICS · EIGHT SLOTS · DISK II"
 		],
 		"counter": {
 			"value": "6 million",

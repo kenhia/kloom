@@ -3,7 +3,7 @@ figure wheels, sectors, levers and locks had to be cut alike, to fit one
 another and to work in step, and in the 1820s parts were still made one at a
 time and filed until they fitted. So from 1823 the [Difference Engine](kloom:e/difference-engine) was built by a man who first had to
 make the tools that could build it: **[Joseph Clement](kloom:e/joseph-clement)**, one of the best
-draughtsmen and mechanics in [London](kloom:e/london).
+draftsmen and mechanics in [London](kloom:e/london).
 
 ## A workshop south of the river
 

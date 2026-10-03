@@ -18,7 +18,7 @@ slept in his laboratory. His paper, "On a New Kind of Rays",
 went to the Würzburg Physical-Medical Society on 28 December. It begins
 with the experiment the plate draws: the tube in a close-fitting shield of
 black paper, the screen lighting up "with brilliant fluorescence", still
-visible two metres away. The rays passed through paper, wood and books,
+visible two meters away. The rays passed through paper, wood and books,
 and were stopped by lead. Because he did not know what they were,
 he called them **[X-rays](kloom:e/x-ray)**.
 
@@ -78,7 +78,7 @@ loss in 1896. **Clarence Dally**, a glassblower who tested tubes on his own
 hands for Thomas Edison, died in 1904 after both arms were amputated, the
 first death known to be caused by X-rays. Becquerel was burned by radium he
 carried in a waistcoat pocket, and both Curies had radium burns. Marie
-Curie died in 1934 of aplastic anaemia, probably from her exposure; her
+Curie died in 1934 of aplastic anemia, probably from her exposure; her
 notebooks are still radioactive and are kept in lead-lined boxes.
 
 In 1912 Max von Laue showed that crystals diffract X-rays, proving them

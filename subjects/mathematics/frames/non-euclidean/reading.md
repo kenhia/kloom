@@ -85,7 +85,7 @@ can exceed π, about 3.14.
 ## As consistent as Euclid
 
 Nobody had yet shown that the new geometry could not one day contradict
-itself. In 1868 **[Eugenio Beltrami](kloom:e/eugenio-beltrami)** did the next best thing. He realised
+itself. In 1868 **[Eugenio Beltrami](kloom:e/eugenio-beltrami)** did the next best thing. He realized
 it on a surface in ordinary space, the trumpet-shaped _pseudosphere_,
 whose shortest paths obey it, and then in models inside a disc, among them
 the one in the plate. Any contradiction in the new geometry would be a

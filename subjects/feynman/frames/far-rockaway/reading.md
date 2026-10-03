@@ -10,7 +10,7 @@ His father, **Melville Feynman**, had come to the United States from Minsk
 as a small child. He tried several trades, selling car-care products for a time,
 before he settled as sales manager for a uniform company. His mother,
 **Lucille Phillips**, the daughter of Polish-Jewish immigrants, had trained
-as a teacher, and Richard's lifelong sense of humour came from her. A brother, Henry, died at four weeks old
+as a teacher, and Richard's lifelong sense of humor came from her. A brother, Henry, died at four weeks old
 when Richard was five. His sister **[Joan](kloom:e/joan-feynman)** was born nine years after him,
 and he encouraged her interest in the sky, once taking her out to see the
 northern lights. She became an astrophysicist who studied them.
@@ -28,7 +28,7 @@ the method.
 
 The family owned an [_Encyclopaedia Britannica_](kloom:e/encyclopaedia-britannica), and his father read it aloud
 to him on his lap. When an entry said a dinosaur stood some twenty feet
-tall, he stopped and translated. A storey of a house is about ten feet, so
+tall, he stopped and translated. A story of a house is about ten feet, so
 the animal standing in their front yard would look straight in at the
 bedroom window on the second floor, and its head would be too wide to come
 through. The plate draws that sum. Feynman called the habit a disease he
@@ -52,7 +52,7 @@ events, though it is still his memory.
 The family moved between Far Rockaway, Baldwin and Cedarhurst on Long
 Island, and for long stretches shared a house in Far Rockaway with cousins.
 By the early 1930s money was tight. He remembered taking his father's weekly
-pay cheque, about a hundred dollars, to the bank himself, and deciding that
+pay check, about a hundred dollars, to the bank himself, and deciding that
 five thousand a year was all anyone would need. He never felt poor, he said.
 
 | Year    | Where the family lived                          |
@@ -63,5 +63,5 @@ five thousand a year was all anyone would need. He never felt poor, he said.
 
 The dates in the table are his own estimates from 1966, and he said himself
 that he could not fix them. What he could fix, in detail, was what he had
-built in his bedroom: a laboratory, and a trade in mending the neighbours'
+built in his bedroom: a laboratory, and a trade in mending the neighbors'
 radios.

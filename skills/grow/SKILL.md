@@ -207,6 +207,15 @@ charts and tables; see §Authoring with tools.)
 - The frame's title is already the pane's heading, so start with an
   opening paragraph, then sections as `##` headings (two to four of them).
 - **Bold** the key names on first use; use _italics_ for titles and terms.
+- **American English** for kloom's own words, wherever you write them: the
+  reading, the scene, the topic, a caption or alt text, a name's
+  description, a connection's _why_ (color, center, organize, catalog,
+  meter, hemoglobin). What kloom quotes keeps its own spelling: a
+  quotation, a block quote, the title of a work, a proper name ("Royal
+  College of Nursing", "Ministry of Defence") and a citation's fields.
+  `just check` runs `create-tools/spelling/american.py check`, which
+  flags a British spelling outside those, and `american.py apply <paths>`
+  fixes it.
 - Be concrete: dates, places, names, numbers, and what changed because of
   it. Say where historians disagree or where a number is an estimate.
 - End with a sentence that points onward: to the next frame, or into the
@@ -417,7 +426,9 @@ across subjects.
 
 - **Meaningful** is a fact, a date, an attribution, a quotation or a source
   changed, or a section rewritten. That always gets an entry. A typo or
-  formatting fix never does. A wording-only clarity edit is your call.
+  formatting fix never does, and neither does respelling to American
+  English (§The reading): that changes how a word is spelled, not what the
+  frame says. A wording-only clarity edit is your call.
 - **`correction`** puts something right that was wrong; **`revision`**
   reworks what was not wrong (a section rewritten, a claim made clearer).
 - **The summary** is one or two sentences, at most 400 characters, saying

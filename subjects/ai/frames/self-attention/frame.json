@@ -6,7 +6,7 @@
 	},
 	"scene": {
 		"headline": "Each word weighs its",
-		"accent": "NEIGHBOURS.",
+		"accent": "NEIGHBORS.",
 		"palette": "neural",
 		"illustration": "scene.svg",
 		"metadata": ["QUERIES · KEYS · VALUES", "SOFTMAX(QKᵀ/√dₖ)V · CAUSAL MASK"],

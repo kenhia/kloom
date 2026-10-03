@@ -52,7 +52,7 @@ of them early, gave 1 in 500 as a floor for surprises alone.
 
 ## What a run of successes proves
 
-Management's defence was experience: twenty-four flights had come home. The
+Management's defense was experience: twenty-four flights had come home. The
 plate draws why that proves little. Its three curves are the chance of
 getting through a given number of flights with no loss, at three rates of
 failure. At 1 in 100,000 the line hardly leaves the top. At 1 in 100, a run

@@ -9,7 +9,7 @@ knows what it is.
 
 In 1933 **[Fritz Zwicky](kloom:e/fritz-zwicky)**, a Swiss astronomer at Caltech, looked at the
 Coma cluster, a swarm of some eight hundred galaxies, and at how fast they
-moved within it: a spread of a thousand kilometres a second or more. A
+moved within it: a spread of a thousand kilometers a second or more. A
 cluster held together by its own gravity cannot let its members move
 faster than its mass allows. Adding up the mass the galaxies' light
 implied, Zwicky found the cluster should have flown apart long ago. To hold
@@ -27,14 +27,14 @@ Carnegie Institution's Department of Terrestrial Magnetism, worked with the
 instrument-maker Kent Ford, whose image-tube spectrograph cut the long
 exposures of faint spectra by a factor of ten. In 1970 they published the
 rotation of the Andromeda galaxy from sixty-seven glowing gas clouds out to
-24 kiloparsecs from its centre. Through the 1970s they measured more
-spirals, and the pattern held: far from the centre, where the light thins
+24 kiloparsecs from its center. Through the 1970s they measured more
+spirals, and the pattern held: far from the center, where the light thins
 out, the stars do not slow down.
 
 ![Vera Rubin at Kitt Peak National Observatory in the 1970s, smiling as she adjusts Kent Ford's image-tube spectrograph mounted under the 36-inch telescope](rubin-kitt-peak.jpg)
 
 The plate shows why that matters. If a galaxy's mass were where its light
-is, most of it near the centre, the outer stars should orbit more slowly
+is, most of it near the center, the outer stars should orbit more slowly
 the farther out they are, as the outer planets do. Instead the speeds stay
 level. The plate is drawn from a model, not from data, but its shape is
 theirs: a flat curve needs mass that keeps growing with distance, a halo
@@ -63,7 +63,7 @@ rest is, it is not atoms.
 
 ## The search
 
-The long favourite has been the **[weakly interacting massive particle](kloom:e/weakly-interacting-massive-particle)**, or
+The long favorite has been the **[weakly interacting massive particle](kloom:e/weakly-interacting-massive-particle)**, or
 WIMP: a heavy particle felt only through gravity and the weak force, which
 would have been made in about the right amount in the hot early universe.
 Another candidate is the _axion_, a very light particle proposed in 1977–78

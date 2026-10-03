@@ -10,7 +10,7 @@ The [absorber theory](kloom:e/wheeler-feynman-absorber-theory) had left him with
 | A differential equation, and a Hamiltonian      | A principle of least action                       |
 | A delay needs a field to remember the past      | A delay is just two different times in the action |
 
-He tried models first, two harmonic oscillators coupled with a delay, and could quantise those, but they were too simple to show the general rule.
+He tried models first, two harmonic oscillators coupled with a delay, and could quantize those, but they were too simple to show the general rule.
 
 ## The key
 
@@ -20,15 +20,15 @@ quantum mechanics, and Feynman made the most of one word in it. How that
 became a sum over every path a particle might take is the story of the
 trail that begins here.
 
-![The front of Palmer Physical Laboratory, Princeton's physics building in Feynman's day: a long two-storey range of red brick with stone trim and tall chimneys, behind a stone colonnade and a lawn](palmer-laboratory.jpg)
+![The front of Palmer Physical Laboratory, Princeton's physics building in Feynman's day: a long two-story range of red brick with stone trim and tall chimneys, behind a stone colonnade and a lawn](palmer-laboratory.jpg)
 
 ## Into the drawer, and out again
 
 With the new method he could write the quantum mechanics of slowly moving charges interacting with delays. He could not make it work for relativistic electrons, and when he checked energy in the delayed case, as [Wheeler](kloom:e/john-archibald-wheeler) had trained him to, he ran into difficulties he could not resolve. Then Robert Wilson's isotron project took him over, and the work went into a drawer.
 
-Wheeler told him that the new formulation of ordinary quantum mechanics was a thesis in itself. Feynman disagreed. It was only equivalent to what everyone already knew, he felt; the contribution would be the electrodynamics. But he knew from experience that half-analysed research is unreadable later unless it is written down, so he asked for leave from the war work, a few weeks, and got it. By his own account he spent the first days lying on the grass looking at the sky, feeling guilty, and then began to think, and thought he had straightened out the difficulties. He wrote it up for Wheeler and Wigner, and passed.
+Wheeler told him that the new formulation of ordinary quantum mechanics was a thesis in itself. Feynman disagreed. It was only equivalent to what everyone already knew, he felt; the contribution would be the electrodynamics. But he knew from experience that half-analyzed research is unreadable later unless it is written down, so he asked for leave from the war work, a few weeks, and got it. By his own account he spent the first days lying on the grass looking at the sky, feeling guilty, and then began to think, and thought he had straightened out the difficulties. He wrote it up for Wheeler and Wigner, and passed.
 
-Later he found that the generalisations in the thesis were probably wrong as written. The parts that were right, the least-action formulation of ordinary quantum mechanics, he published after the war as "Space-Time Approach to Non-Relativistic Quantum Mechanics" in _Reviews of Modern Physics_ in 1948. The thesis itself was available only on microfilm; he told Weiner in 1966 that for years he could not get a copy of his own. It was finally printed in 2005, edited by his former student **Laurie Brown**, as _Feynman's Thesis: A New Approach to Quantum Theory_.
+Later he found that the generalizations in the thesis were probably wrong as written. The parts that were right, the least-action formulation of ordinary quantum mechanics, he published after the war as "Space-Time Approach to Non-Relativistic Quantum Mechanics" in _Reviews of Modern Physics_ in 1948. The thesis itself was available only on microfilm; he told Weiner in 1966 that for years he could not get a copy of his own. It was finally printed in 2005, edited by his former student **Laurie Brown**, as _Feynman's Thesis: A New Approach to Quantum Theory_.
 
 His parents came to the commencement in June 1942. Before the month was out he married [Arline Greenbaum](kloom:e/arline-feynman).
 

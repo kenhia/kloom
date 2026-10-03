@@ -1,6 +1,6 @@
 In 1418 [Florence](kloom:e/florence) had a problem the size of a hole in the sky. Its new
 cathedral, **[Santa Maria del Fiore](kloom:e/florence-cathedral)**, begun in 1296, had been built up to the
-base of an enormous octagonal crossing — almost 42 metres across — and the
+base of an enormous octagonal crossing — almost 42 meters across — and the
 design called for a dome over it. Nobody knew how to build one that large.
 
 ## The design no one could build
@@ -9,14 +9,14 @@ The plan, fixed in a model by Neri di Fioravanti decades earlier, was bold
 to the point of defiance. It had no flying buttresses, the Gothic answer
 used in the cathedrals of northern Europe, which Italian builders regarded
 as ugly makeshifts. And the usual way to build any arch or dome — a timber
-framework called **centring** to hold it up until the mortar set — was
+framework called **centering** to hold it up until the mortar set — was
 impossible here: there was no timber long enough and no structure strong
 enough to support the whole weight at that height.
 
 In 1418 the wool merchants' guild, which ran the building works, announced a
 competition. Two goldsmiths emerged as the main contenders: Lorenzo Ghiberti
 and **[Filippo Brunelleschi](kloom:e/filippo-brunelleschi)**. Brunelleschi claimed he could build the dome
-without centring and, famously, would not say how. He and Ghiberti were
+without centering and, famously, would not say how. He and Ghiberti were
 appointed jointly; within a few years the work was effectively his.
 
 ## How he did it
@@ -44,7 +44,7 @@ was finished after his death.
 ## Rebirth
 
 The dome is the emblem of the period later called the **[Renaissance](kloom:e/renaissance)**, the
-"rebirth" of learning modelled on Greece and Rome. It was not a copy of
+"rebirth" of learning modeled on Greece and Rome. It was not a copy of
 anything ancient. It was what people who had studied the ancients could do
 next — a technical problem solved with mathematics, craft and nerve.
 Brunelleschi is also credited with working out the rules of linear

@@ -333,7 +333,7 @@
 	"connections": [
 		{
 			"to": "making/knapping",
-			"why": "The precision of making is measured here from the knappers of Lomekwi, who controlled a flake only by where and at what angle they struck, to machines that align a chip's layers within a nanometre."
+			"why": "The precision of making is measured here from the knappers of Lomekwi, who controlled a flake only by where and at what angle they struck, to machines that align a chip's layers within a nanometer."
 		},
 		{
 			"to": "making/wilkinson-boring",
@@ -345,11 +345,11 @@
 		},
 		{
 			"to": "making/handaxe",
-			"why": "Knapping is still learned the slow way: the students of the hand-axe study practised for 167 hours and their hand axes grew no thinner."
+			"why": "Knapping is still learned the slow way: the students of the hand-axe study practiced for 167 hours and their hand axes grew no thinner."
 		},
 		{
 			"to": "making/euv",
-			"why": "The finest step in the table of precision is the EUV machine, aligning a chip's layers to within a nanometre."
+			"why": "The finest step in the table of precision is the EUV machine, aligning a chip's layers to within a nanometer."
 		}
 	]
 }

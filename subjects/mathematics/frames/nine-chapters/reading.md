@@ -22,7 +22,7 @@ the _Nine Chapters_ gives methods that work for every problem of a kind.
 The arithmetic was done with **[counting rods](kloom:e/counting-rods)**, small sticks of bamboo or
 bone laid out on a flat surface. A digit was a group of rods, and its
 column gave it its place: units stood upright, tens lay flat, hundreds
-stood upright again, so that neighbouring digits could not run together.
+stood upright again, so that neighboring digits could not run together.
 Six to nine used one crossing rod for five. An empty column was zero,
 long before there was a sign for it, though sources differ on whether a
 blank counts as a zero: Wikipedia's article on the rods says so, and its
@@ -68,7 +68,7 @@ answers the book prints. The plate shows the board before and after.
 
 This is the method now taught as **[Gaussian elimination](kloom:e/gaussian-elimination)**, named after
 **[Carl Friedrich Gauss](kloom:e/carl-friedrich-gauss)** (1777–1855); the only difference, MacTutor observes, is that the Chinese board works on
-columns where we work on rows. Whether the method travelled west is
+columns where we work on rows. Whether the method traveled west is
 argued. [Leibniz](kloom:e/gottfried-wilhelm-leibniz), who studied elimination from 1678, admired China and
 read what Chinese texts he could; the historian Joseph Grcar concluded
 that elimination was found independently in several cultures, and

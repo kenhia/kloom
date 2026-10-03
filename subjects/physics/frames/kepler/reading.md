@@ -40,10 +40,10 @@ have been!" The book, [_Astronomia nova_](kloom:e/astronomia-nova), was finished
 Heidelberg in 1609. For the first time a planet's path was a curve in space,
 driven by a force from the Sun, not a combination of circles.
 
-![Kepler's woodcut of the path of Mars as seen from the Earth from 1580 to 1596: a tangle of loops inside a circle of zodiac signs, with the Earth at the centre](mars-retrograde.jpg)
+![Kepler's woodcut of the path of Mars as seen from the Earth from 1580 to 1596: a tangle of loops inside a circle of zodiac signs, with the Earth at the center](mars-retrograde.jpg)
 
 The plate draws the result for Mars: the ellipse, so nearly a circle that
-the difference is not visible, and the Sun well off its centre. Two sectors
+the difference is not visible, and the Sun well off its center. Two sectors
 cut in equal times, one at each end, have equal areas. The empty focus sits
 about where Ptolemy's equant had sat, which is part of why the equant had worked
 so well: the astronomer Ismaël Bullialdus later kept the ellipse and

@@ -20,11 +20,11 @@ Medicine in 1981.
 **[Kunihiko Fukushima](kloom:e/kunihiko-fukushima)** (born 1936) studied electronics at Kyoto University
 and worked at the research laboratories of [NHK](kloom:e/nhk), Japan's public broadcaster.
 In 1969 he published a layered network for picking out visual features,
-modelled on Hubel and Wiesel. "All the elements in one layer have the same
+modeled on Hubel and Wiesel. "All the elements in one layer have the same
 set of interconnecting coefficients," he wrote. Its connections were designed
 by hand; the same paper introduced the [_rectified linear unit_](kloom:e/rectified-linear-unit), now the most
 common activation function in deep learning. In 1975 came the _cognitron_,
-which organised itself by learning but took a pattern in a new position for
+which organized itself by learning but took a pattern in a new position for
 a different pattern. Its successor, first reported in 1979, was published in
 _Biological Cybernetics_ in 1980 under the title "Neocognitron: A
 self-organizing neural network model for a mechanism of pattern recognition
@@ -75,7 +75,7 @@ colleagues trained the weights of a convolutional network directly from
 images of handwritten digits by [backpropagation](kloom:e/backpropagation), and the Nobel Committee for
 Physics, writing in 2024, traced that architecture's roots to the
 neocognitron, and through it to Hubel and Wiesel. LeCun's networks were
-reading handwritten digits on cheques for several American banks from the
+reading handwritten digits on checks for several American banks from the
 mid-1990s. Fukushima, who later taught at Osaka University and elsewhere,
 received the Bower Award for Achievement in Science in 2020.
 

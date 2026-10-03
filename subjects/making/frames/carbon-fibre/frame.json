@@ -1,6 +1,6 @@
 {
 	"id": "carbon-fibre",
-	"topic": "Carbon fibre",
+	"topic": "Carbon fiber",
 	"position": {
 		"label": "1963",
 		"sort": 1963
@@ -23,7 +23,7 @@
 	"connections": [
 		{
 			"to": "chemistry/polymers",
-			"why": "Carbon fibre is baked from polyacrylonitrile, which Watt pictured as a chain of polythene with a nitrile group on every second carbon, and its stiffness comes from keeping those long chains aligned."
+			"why": "Carbon fiber is baked from polyacrylonitrile, which Watt pictured as a chain of polythene with a nitrile group on every second carbon, and its stiffness comes from keeping those long chains aligned."
 		}
 	],
 	"citations": [

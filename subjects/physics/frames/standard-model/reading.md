@@ -40,7 +40,7 @@ every point in space and time, and they can do so only if a field is there
 to carry the difference from point to point. The field's quanta are the
 force's carriers. The symmetry of electromagnetism, U(1), gives the photon;
 the weak force's SU(2) gives the W and Z; the strong force's SU(3), acting
-on the three _colours_ a quark can carry, gives eight gluons. The whole is
+on the three _colors_ a quark can carry, gives eight gluons. The whole is
 written SU(3) × SU(2) × U(1). A field that fills space, the Higgs field,
 breaks the weak symmetry and gives the W, the Z and the matter particles
 their masses; the **[Higgs boson](kloom:e/higgs-boson)** is its quantum. Written out as

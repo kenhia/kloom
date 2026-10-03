@@ -45,7 +45,7 @@ At _x_ = π/2, where the wave jumps, every term is zero, and the series
 lands half way between the two levels. In 1829 **[Peter Gustav Lejeune
 Dirichlet](kloom:e/peter-gustav-lejeune-dirichlet)** gave the first proof of when such a series really converges:
 for a function with finitely many jumps and turns it does, and at a jump
-it settles on the midpoint. The rigour Fourier's judges wanted arrived
+it settles on the midpoint. The rigor Fourier's judges wanted arrived
 seven years after his book.
 
 ## The overshoot
@@ -56,11 +56,11 @@ overshoot closer to the jump but never shrinks it. Henry Wilbraham
 described this in 1848, and was ignored.
 
 In 1898 **[Albert A. Michelson](kloom:e/albert-a-michelson)** and Samuel Stratton built a harmonic
-analyser, a machine that added waves together and drew their sum. A story often told says that its square waves wobbled
+analyzer, a machine that added waves together and drew their sum. A story often told says that its square waves wobbled
 at the corners and Michelson blamed the machine. Their paper's figures
 hardly show the wobble, and the paper does not mention it.
 
-![Six curves drawn by Michelson and Stratton's harmonic analyser, one above another, labelled one term, three terms, five, seven, twenty-one and seventy-nine: a single smooth wave becomes, step by step, a square wave with sharp corners and faint ripples](michelson-approximations.jpg)
+![Six curves drawn by Michelson and Stratton's harmonic analyzer, one above another, labeled one term, three terms, five, seven, twenty-one and seventy-nine: a single smooth wave becomes, step by step, a square wave with sharp corners and faint ripples](michelson-approximations.jpg)
 
 Correspondence in _Nature_ about the machine drew in **[Josiah Willard
 Gibbs](kloom:e/josiah-willard-gibbs)**, who wrote a note on the question in 1898, described the limit
@@ -98,7 +98,7 @@ transform; an MRI scanner records the Fourier transform of a slice of the
 body and computes the picture back from it. And in 1925 **[Werner
 Heisenberg](kloom:e/werner-heisenberg)** began quantum mechanics from a Fourier series: the series for
 an electron's orbit, whose terms he kept only for the frequencies an atom
-actually gives out, labelling each by the two states of a jump. Those
+actually gives out, labeling each by the two states of a jump. Those
 terms became matrices.
 
 Fourier had said that any function could be written his way. Saying which

@@ -1,4 +1,4 @@
-Networks that recognise pictures had learned to say what was in an image. In
+Networks that recognize pictures had learned to say what was in an image. In
 2014 a doctoral student in Montreal proposed a way to teach one to make
 images, by setting it against a second network whose only job was to catch it
 out.
@@ -22,7 +22,7 @@ data exactly, and the discriminator, unable to tell the difference, answers
 one half for everything. The plate on the left redraws the paper's own
 picture of this in one dimension: noise _z_ below, mapped by the generator
 onto _x_; the data's distribution; the generator's, still to one side; and the
-discriminator's judgement, dashed, which falls to one half where the two
+discriminator's judgment, dashed, which falls to one half where the two
 agree. Both networks were ordinary multilayer networks, trained by
 [backpropagation](kloom:e/backpropagation).
 

@@ -1,9 +1,9 @@
 {
 	"id": "differential-analyser",
 	"wikidata": "Q953377",
-	"name": "Differential analyser",
-	"aliases": ["differential analyzer"],
+	"name": "Differential analyzer",
+	"aliases": ["differential analyser"],
 	"kind": "artifact",
-	"description": "Analogue computer for solving differential equations, built by Vannevar Bush at MIT from 1928.",
+	"description": "Analog computer for solving differential equations, built by Vannevar Bush at MIT from 1928.",
 	"home": "computing/differential-analyzer"
 }

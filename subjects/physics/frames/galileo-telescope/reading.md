@@ -14,7 +14,7 @@ the other, and made things look three times nearer. He ground his own
 lenses and pushed on to an instrument that showed things "more than thirty
 times nearer", as he put it in the book; the Wikipedia account of it gives
 about twenty. One of his two surviving telescopes, in the Museo
-Galileo in Florence, is 927 millimetres long and, with a nineteenth-century replacement
+Galileo in Florence, is 927 millimeters long and, with a nineteenth-century replacement
 eyepiece, magnifies 21 times, with a field of view of 15 minutes of arc: half the Moon at a time, by our
 reckoning.
 
@@ -84,7 +84,7 @@ to write on the question as a hypothesis. The [_Dialogue Concerning the Two
 Chief World Systems_](kloom:e/dialogue-concerning-the-two-chief-world-systems), of 1632, argued for the Earth's motion through three
 characters and put the pope's own argument in the mouth of the one called
 Simplicio. Its chief physical proof, that the tides come from the Earth's
-motion, was wrong. The pope took offence, the sale was stopped, and in 1633
+motion, was wrong. The pope took offense, the sale was stopped, and in 1633
 Galileo, aged sixty-nine, was tried in Rome and threatened with torture. On
 22 June he was found "vehemently suspect of heresy", made to abjure, and
 sentenced to prison, commuted to house arrest in his villa at Arcetri,

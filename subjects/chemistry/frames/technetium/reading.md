@@ -1,6 +1,6 @@
 When **[Dmitri Mendeleev](kloom:e/dmitri-mendeleev)** laid out his table, one square under manganese stood empty, between molybdenum, element 42, and ruthenium, 44. He called the missing element _eka-manganese_ and predicted that it would behave like manganese. No one found it. Henry Moseley's X-ray measurements of 1913 and 1914, the frame before this one, fixed each element's number and showed 43 still missing, and by 1925 hafnium and rhenium had filled two of the other gaps. Element 43 was the first element to be made before it was found. It is **[technetium](kloom:e/technetium)**, and the reason no one could find it is that the Earth had lost it: every one of its isotopes is radioactive, and the longest-lived have half-lives of about four million years, a thousandth of the Earth's age.
 
-![A sealed glass ampoule, about as long as a finger, lying on white paper, with a small grey strip of gold foil inside it plated with technetium-99](technetium-sample.jpg)
+![A sealed glass ampoule, about as long as a finger, lying on white paper, with a small gray strip of gold foil inside it plated with technetium-99](technetium-sample.jpg)
 
 ## Masurium
 
@@ -12,7 +12,7 @@ It has been reopened. Uranium splits on its own, very rarely, and some of the fr
 
 In the summer of 1936 the Italian physicist **[Emilio Segrè](kloom:e/emilio-segre)**, newly made a professor at Palermo, visited **[Ernest Lawrence](kloom:e/ernest-lawrence)**'s Radiation Laboratory at Berkeley and talked him into sending home some discarded parts that had grown radioactive in the **[cyclotron](kloom:e/cyclotron)**, the machine that whirls charged particles in a spiral between two D-shaped electrodes. In February 1937 a strip of molybdenum arrived by mail. It had been part of the deflector, the plate at the rim that steers the beam out, and it had been struck by deuterons, the nuclei of heavy hydrogen. The plate draws the machine in plan.
 
-The question was chemical, so he turned to the Palermo mineralogist **[Carlo Perrier](kloom:e/carlo-perrier)**. They dissolved the foil and followed its radioactivity through chemical separations. Part of it left the molybdenum behind and behaved like manganese, and still more like rhenium, the elements above and below the gap. They found three half-lives, of about 90, 80 and 50 days, far too little of anything to weigh, recognised only by its radiation and its chemistry. A deuteron carries one proton and one neutron into the nucleus, and in one of the reactions it leaves the neutron behind:
+The question was chemical, so he turned to the Palermo mineralogist **[Carlo Perrier](kloom:e/carlo-perrier)**. They dissolved the foil and followed its radioactivity through chemical separations. Part of it left the molybdenum behind and behaved like manganese, and still more like rhenium, the elements above and below the gap. They found three half-lives, of about 90, 80 and 50 days, far too little of anything to weigh, recognized only by its radiation and its chemistry. A deuteron carries one proton and one neutron into the nucleus, and in one of the reactions it leaves the neutron behind:
 
 ⁹⁶Mo + ²H → ⁹⁷Tc + n
 
@@ -20,7 +20,7 @@ The charges balance, 42 + 1 = 43, and so do the masses, 96 + 2 = 97 + 1. The thr
 
 ## Six hours
 
-In 1938 Segrè went back to Berkeley to study the element's short-lived isotopes, which did not survive the mail, and Italy's new racial laws, passed while he travelled, kept him there. With **Glenn Seaborg** he found an isotope that decays mostly by giving off a gamma ray, with a half-life they measured at 6.6 hours and is now put at 6.0: **[technetium-99m](kloom:e/technetium-99m)**. It became medicine's workhorse. It is made where it is used, from its parent, molybdenum-99, in a shielded column of alumina. The molybdate clings to the alumina; the pertechnetate ion, TcO₄⁻, that it decays into clings less, and is washed out with salt water. Brookhaven's historians date the first such generator to 1957; Wikipedia gives 1958.
+In 1938 Segrè went back to Berkeley to study the element's short-lived isotopes, which did not survive the mail, and Italy's new racial laws, passed while he traveled, kept him there. With **Glenn Seaborg** he found an isotope that decays mostly by giving off a gamma ray, with a half-life they measured at 6.6 hours and is now put at 6.0: **[technetium-99m](kloom:e/technetium-99m)**. It became medicine's workhorse. It is made where it is used, from its parent, molybdenum-99, in a shielded column of alumina. The molybdate clings to the alumina; the pertechnetate ion, TcO₄⁻, that it decays into clings less, and is washed out with salt water. Brookhaven's historians date the first such generator to 1957; Wikipedia gives 1958.
 
 The six hours are the point. They are long enough to make a dose and image it, and short enough that little is left to irradiate the patient. By our arithmetic, with the half-life of 6.0066 hours:
 

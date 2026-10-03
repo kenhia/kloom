@@ -5,14 +5,14 @@ strangely hard.
 
 ## From text to integers
 
-Tokenisation happens in three steps. A _pretokeniser_ splits the text into
-rough pieces, usually at spaces and punctuation. A _tokeniser_ then cuts each
+Tokenization happens in three steps. A _pretokeniser_ splits the text into
+rough pieces, usually at spaces and punctuation. A _tokenizer_ then cuts each
 piece into **tokens**, strings drawn from a fixed list called the
 _vocabulary_. Finally each token is replaced by its position in that list, its
 **token id**. The mapping runs both ways, so a model's output ids can be
 turned back into text.
 
-Here is the sentence "The cat sat on the mat." as the [GPT-2](kloom:e/gpt-2) tokeniser splits
+Here is the sentence "The cat sat on the mat." as the [GPT-2](kloom:e/gpt-2) tokenizer splits
 it. Notice that the space belongs to the start of the following token, so
 " cat" with its space is a different token from "cat" without one.
 
@@ -76,7 +76,7 @@ crossing character categories, except for spaces. Its vocabulary came to
 A larger vocabulary makes text shorter, in tokens, but makes the model's
 first and last layers bigger. Real models have chosen differently:
 
-| Model               | Year | Tokeniser            |   Vocabulary |
+| Model               | Year | Tokenizer            |   Vocabulary |
 | ------------------- | ---: | -------------------- | -----------: |
 | Transformer (En–De) | 2017 | BPE, shared          | about 37,000 |
 | BERT                | 2018 | WordPiece            |       30,000 |
@@ -98,9 +98,9 @@ letters inside it; without the space the word becomes three tokens, "st",
 single digits.
 
 Many models have failed to count the r's in "strawberry". Studies have
-blamed tokenisation, the limits of the attention mechanism, or the lack of
+blamed tokenization, the limits of the attention mechanism, or the lack of
 character-level training data. A 2024 study by **Tairan
-Fu** and colleagues found that models could recognise the letters in a word
+Fu** and colleagues found that models could recognize the letters in a word
 but not count them, that errors rose with the number of letters and tokens,
 and that most models failed on words where a letter appears more than twice.
 Tokens are part of the story, but not all of it.

@@ -17,7 +17,7 @@ it to a student, Antonio Maria Fior.
 
 Fior used it. In 1535 he challenged **[Niccolò Tartaglia](kloom:e/nicolo-tartaglia)**, a self-taught
 teacher in Venice whose nickname means "the stammerer": a French soldier's
-sabre had cut his jaw in the sack of Brescia in 1512. Each man lodged thirty
+saber had cut his jaw in the sack of Brescia in 1512. Each man lodged thirty
 problems with a notary. All of Fior's were cubes and things equal to a
 number, dressed as puzzles: "A man sells a sapphire for 500 ducats, making a
 profit of the cube root of his capital." In Tartaglia's own telling, printed

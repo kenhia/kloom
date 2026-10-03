@@ -37,7 +37,7 @@ memory. The paper's abstract calls this a _content-addressable memory_, which
 
 The equations were familiar to any physicist. The same two formulas describe
 magnetic materials, where each atom's _spin_ makes it a tiny magnet that
-pushes its neighbours to align. Hopfield knew them from work on _spin
+pushes its neighbors to align. Hopfield knew them from work on _spin
 glasses_, and that bridge let later physicists work out the network's
 properties analytically. One result was a hard limit: a classic [Hopfield network](kloom:e/hopfield-network)
 stores only about 138 patterns for every 1,000 units before recall breaks
@@ -47,13 +47,13 @@ The network in the 1982 paper was tiny. It had 30 units, and so 435
 connections; Hopfield tried 100 units, but that was too much for the computer
 he had. In 1984 he showed that units with continuous values, whose dynamics are
 those of an electronic circuit, behave the same way, and with **David Tank** he used such
-circuits to attack hard optimisation problems.
+circuits to attack hard optimization problems.
 
 Hopfield was not the only source of the idea. Kaoru Nakano in 1971, Shun'ichi
 Amari in 1972 and William Little in 1974 had proposed Hebbian weights on
 models like this one, and Hopfield acknowledged Little's work in the 1982
 paper. What his paper added was the energy function, the physics, and the
-clear demonstration that a memory could emerge from the collective behaviour
+clear demonstration that a memory could emerge from the collective behavior
 of many simple parts.
 
 ## The prize

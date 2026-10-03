@@ -41,7 +41,7 @@ Microsystems](kloom:e/sun-microsystems)** had become powerful alternatives, comp
 Franz sold Lisp systems that ran on any [Unix](kloom:e/unix) machine, and desktop computers
 from [Apple](kloom:e/apple-inc) and [IBM](kloom:e/ibm), some of them as powerful as the expensive Lisp machines by
 1987, could run rule-based engines such as CLIPS. There was no longer a
-reason to buy a specialised computer. An industry worth half a billion dollars
+reason to buy a specialized computer. An industry worth half a billion dollars
 was replaced in a single year. By the early 1990s most commercial Lisp
 companies had failed, among them Symbolics, Lisp Machines Inc. and Lucid;
 at Symbolics, a fight between its founder and its chief executive over

@@ -17,7 +17,7 @@ convertible, and falling, motion and heat are one force in different forms.
 The leading physics journal, Poggendorff's _Annalen_, did not print his
 first attempt; a second appeared in Liebig's chemistry journal in May 1842. He put a number on the conversion, reached not by experiment but by
 reasoning from the extra heat a gas takes to expand at constant pressure:
-365 kilogram-metres of work for each kilocalorie of heat, which he later
+365 kilogram-meters of work for each kilocalorie of heat, which he later
 revised to 425.
 
 His reward was neglect, and then a quarrel. When his priority was pressed
@@ -62,7 +62,7 @@ agreement as proof.
 1845; the table takes Joule's own summary in the paper of 1850.)
 
 In 1847 Joule spoke at the British Association in Oxford. William Thomson,
-later Lord Kelvin, was in the room, intrigued and sceptical. They met
+later Lord Kelvin, was in the room, intrigued and skeptical. They met
 again that summer at Chamonix, where Joule was on his honeymoon, and made
 plans to measure whether a waterfall's water is warmer at the bottom than
 at the top. It proved impractical. By 1851 Thomson was convinced.

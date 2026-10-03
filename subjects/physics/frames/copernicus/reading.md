@@ -4,7 +4,7 @@ finished a folio of six books with a title that promised only astronomy:
 Spheres_. Its author, **[Nicolaus Copernicus](kloom:e/nicolaus-copernicus)**, a canon of the cathedral
 chapter at Frombork on the Baltic, was seventy and dying. By one account he
 held a finished copy on the day he died, 24 May. The book put the Sun near
-the centre of the planets' circles and set the Earth moving round it, once a
+the center of the planets' circles and set the Earth moving round it, once a
 year, while turning once a day.
 
 ## A more reasonable arrangement
@@ -14,7 +14,7 @@ a short sketch, now called the **[Commentariolus](kloom:e/commentariolus)**, and
 astronomers; a Cracow professor listed "a manuscript of six leaves" in 1514
 whose author "asserts that the earth moves while the sun stands still".
 What troubled him was not Ptolemy's accuracy but his [equant](kloom:e/equant), which moved a
-planet evenly about a point that was not the centre of its circle. So, he
+planet evenly about a point that was not the center of its circle. So, he
 wrote, "I often considered whether there could perhaps be found a more
 reasonable arrangement of circles", in which every motion would be uniform,
 "as is required by the rule of perfect motion".
@@ -27,7 +27,7 @@ months, the Earth in one year, Mars in two, Jupiter in twelve, Saturn in
 thirty. The heavens, he wrote, are "so linked together" that no part can
 be moved without disrupting the rest.
 
-![A page of Copernicus's own manuscript of De revolutionibus: seven concentric circles drawn in ink, labelled in Latin from the sphere of the fixed stars inwards through Saturn, Jupiter, Mars, the Earth with the Moon, Venus and Mercury to Sol at the centre, with lines of handwritten text above and beside them](manuscript-heliocentric.jpg)
+![A page of Copernicus's own manuscript of De revolutionibus: seven concentric circles drawn in ink, labeled in Latin from the sphere of the fixed stars inwards through Saturn, Jupiter, Mars, the Earth with the Moon, Venus and Mercury to Sol at the center, with lines of handwritten text above and beside them](manuscript-heliocentric.jpg)
 
 The plate draws the most visible gain. The Earth, on the inner circle,
 moves faster than Mars. As it overtakes Mars, the line of sight from Earth
@@ -36,7 +36,7 @@ run backwards and go on. Ptolemy needed an epicycle for each planet to make
 that loop; for Copernicus it was the Earth's own motion, seen from a moving
 platform.
 
-He was not the first. **[Aristarchus of Samos](kloom:e/aristarchus-of-samos)** had put the Sun at the centre
+He was not the first. **[Aristarchus of Samos](kloom:e/aristarchus-of-samos)** had put the Sun at the center
 in the third century BC, as Archimedes reports. Copernicus named Aristarchus
 in a passage of his manuscript that he struck out before printing, and the
 historian Owen Gingerich found no sign that he owed Aristarchus the idea.
@@ -45,7 +45,7 @@ historian Owen Gingerich found no sign that he owed Aristarchus the idea.
 
 Copernicus kept the ancient rule that the heavens move in uniform circles,
 so he could not do without small circles on circles. The Sun is not quite
-at the centre of his system, and to match Ptolemy's accuracy he needed
+at the center of his system, and to match Ptolemy's accuracy he needed
 about as many circles as Ptolemy had. Thomas Kuhn counted over thirty in
 each, and judged that "there was little to choose between them in
 economy", nor in accuracy. What most sixteenth-century astronomers admired,

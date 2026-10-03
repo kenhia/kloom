@@ -10,7 +10,7 @@ carried the plan out, in a building rather than on paper.
 The project was funded by the [Defense Advanced Research Projects Agency](kloom:e/darpa),
 from an SRI proposal of April 1964 for research in "intelligent automata",
 and its managers were **Charles Rosen**, **[Nils Nilsson](kloom:e/nils-john-nilsson)** and **[Peter
-Hart](kloom:e/peter-e-hart)**. The team kept the machine simple: no arm, and no miniaturisation,
+Hart](kloom:e/peter-e-hart)**. The team kept the machine simple: no arm, and no miniaturization,
 just an electronics rack on wheels with a television camera and a homemade
 laser rangefinder on top, "bump detectors" to feel for collisions, and an
 antenna for the radio link to its computer. That was an [SDS 940](kloom:e/sds-940) at first,
@@ -18,7 +18,7 @@ and from 1970 a [DEC](kloom:e/digital-equipment-corporation) [PDP-10](kloom:e/pd
 at its birth. The name was chosen after a month of looking for a better
 one: "it shakes like hell and moves around, let's just call it Shakey."
 
-![Shakey in 1972, with its parts labelled: the antenna for the radio link, the television camera and range finder on its head, the on-board logic and camera control unit, bump detectors, and the drive motor, drive wheel and caster wheel. Photograph by SRI International, CC BY-SA 3.0.](shakey-callouts.jpg)
+![Shakey in 1972, with its parts labeled: the antenna for the radio link, the television camera and range finder on its head, the on-board logic and camera control unit, bump detectors, and the drive motor, drive wheel and caster wheel. Photograph by SRI International, CC BY-SA 3.0.](shakey-callouts.jpg)
 
 Its world was built to match. It was half a dozen rooms joined by doorways,
 with large geometric blocks painted so their edges showed up on the
@@ -47,7 +47,7 @@ _means–ends analysis_ of [Newell](kloom:e/allen-newell) and [Simon](kloom:e/he
 theorem proving in the predicate calculus. Each action was written as a
 rule with _preconditions_ that must hold before it, a _delete list_ of facts
 it makes false and an _add list_ of facts it makes true. STRIPS rules, or
-their descendants, are used in most planners since. PLANEX generalised
+their descendants, are used in most planners since. PLANEX generalized
 plans into _triangle tables_ that recorded how the steps depended on one
 another, so that when something went wrong in the real world it could reuse what still held,
 or skip ahead if luck had brought it closer to the goal.
@@ -55,7 +55,7 @@ or skip ahead if luck had brought it closer to the goal.
 To move between rooms, Shakey needed shortest paths, and Nilsson first
 proposed an existing method, the Graph Traverser, which chose the next point
 to explore by an estimate _h(n)_ of the distance still to go. **Bertram
-Raphael** suggested adding the distance already travelled, _g(n)_, and Hart
+Raphael** suggested adding the distance already traveled, _g(n)_, and Hart
 worked out the conditions on the estimate that made the result provably
 best. The algorithm, **[A\*](kloom:e/a-search-algorithm)**, was published in 1968; the leading journals had
 rejected it first. It is still widely used for finding paths. The drawing on the

@@ -1,7 +1,7 @@
 In the early 1950s a computer was programmed in its own numbers: an
 operation code and an address for every step, loops and addresses worked
 out by hand. **[John Backus](kloom:e/john-backus)** of [IBM](kloom:e/ibm) reckoned that by 1954 a computer
-centre spent at least as much on its programmers as on its machine, and
+center spent at least as much on its programmers as on its machine, and
 that a quarter to a half of the machine's time went on debugging, so that
 programming cost up to three-quarters of the bill. The machines were
 getting cheaper; the programmers were not.
@@ -46,7 +46,7 @@ Sheridan, Roy Nutt, Robert Nelson, Irving Ziller, Lois Haibt, David Sayre
 and others) spent two and a half years and eighteen man-years on it, and
 kept promising it in six months. In April 1957 it went out to the 704
 installations: on magnetic tape, after an attempt to punch copies as
-binary decks of about 2,000 cards failed. The optimising
+binary decks of about 2,000 cards failed. The optimizing
 section by Nelson and Ziller moved work out of loops and exploited the
 order in which arrays were scanned; Backus said later that its code
 startled the programmers who studied it, and that nothing matched it until
@@ -57,7 +57,7 @@ and 47 statements to write, compiled in six minutes into about 1,000
 instructions, and would, its author thought, have taken three days by
 hand.
 
-![A pink FORTRAN punched card from ESOC, the European Space Agency's operations centre in Darmstadt, printed with fields headed NUMBER, EXPRESSION and LABEL and punched with a comment line](fortran-card.jpg)
+![A pink FORTRAN punched card from ESOC, the European Space Agency's operations center in Darmstadt, printed with fields headed NUMBER, EXPRESSION and LABEL and punched with a comment line](fortran-card.jpg)
 
 A statement went on a card, one line to a card: columns 1 to 5 for its
 number, 6 to mark a continuation, 7 to 72 for the statement. Columns 73 to

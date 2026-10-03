@@ -26,7 +26,7 @@ on nothing earlier. The share of time it spends in each state still
 settles to a fixed value. That was a law of large numbers for dependent
 events, and Nekrasov's argument lost its footing. In 1913, when the Tsar
 called for celebrations of three hundred years of Romanov rule, Markov
-organised a meeting to mark another anniversary: two hundred years of
+organized a meeting to mark another anniversary: two hundred years of
 Bernoulli's _Ars Conjectandi_. The science writer Brian Hayes, whose
 account this follows, relied on the historians Eugene Seneta, Oscar
 Sheynin and David Link for the Russian sources.
@@ -75,7 +75,7 @@ which, he wrote, "agrees very well".
 ## From letters to the web
 
 Markov's paper was little read outside Russia; the first widely
-available English translation appeared in 2006. The idea travelled anyway. In 1948
+available English translation appeared in 2006. The idea traveled anyway. In 1948
 **[Claude Shannon](kloom:e/claude-shannon)**, measuring information at Bell Labs, built a series of
 "approximations to English". The first chose letters with English
 frequencies; the next chose each letter by the one before it, then by the

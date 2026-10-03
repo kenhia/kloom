@@ -26,7 +26,7 @@ again, "Voici ce que j'ai trouvé": here is what I have found.
 
 Her plan was this. For a prime exponent _p_, take a helper prime θ of the
 form 2_Np_ + 1. If no two of the nonzero _p_-th powers counted modulo θ
-are neighbours, then θ must divide one of _x_, _y_, _z_. Find infinitely
+are neighbors, then θ must divide one of _x_, _y_, _z_. Find infinitely
 many such θ, and no solution can exist, since a number has only finitely
 many prime factors. She had pushed the helpers far, she told Gauss, and
 could show that any solution would be of a size "that frightens the
@@ -87,7 +87,7 @@ larger counts are the Prime Pages':
 
 As of 30 September 2026 the largest known is 2,618,163,402,417 ×
 2¹²⁹⁰⁰⁰⁰ − 1, of 388,342 digits, found in 2016. Their partners, the _safe primes_ 2_p_ + 1, guard secrets: the
-groups that TLS standardised for the **[Diffie–Hellman key exchange](kloom:e/diffie-hellman-key-exchange)** in
+groups that TLS standardized for the **[Diffie–Hellman key exchange](kloom:e/diffie-hellman-key-exchange)** in
 2016 all use a safe prime, and the small worked example of the exchange
 in the computing subject's frame on network security, modulo 23, uses one
 without saying so: 23 is 2 × 11 + 1.

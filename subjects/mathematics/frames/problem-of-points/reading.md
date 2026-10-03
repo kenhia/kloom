@@ -15,7 +15,7 @@ before by **[Gerolamo Cardano](kloom:e/gerolamo-cardano)**, physician, astrologe
 habitual gambler. His _Liber de ludo aleae_, the book on games of chance,
 was written around 1564 but printed only in 1663, long after his death,
 and had little influence. In it he counted the ways dice can fall,
-treated a fair chance as a ratio of favourable cases to the rest, and
+treated a fair chance as a ratio of favorable cases to the rest, and
 added a section on how to cheat.
 
 In Paris the questions came from **[Antoine Gombaud](kloom:e/antoine-gombaud)**, a salon essayist who

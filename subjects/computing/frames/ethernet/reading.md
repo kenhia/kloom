@@ -10,7 +10,7 @@ it was built to survive no longer happen.
 The idea came from radio. At the University of Hawaii, **[Norman Abramson](kloom:e/norman-abramson)**
 and **Franklin Kuo** built [_ALOHAnet_](kloom:e/alohanet), in operation from June 1971, which
 linked terminals on several islands to one computer over a shared radio
-channel. A terminal simply sent its packet; if no acknowledgement came, it
+channel. A terminal simply sent its packet; if no acknowledgment came, it
 waited a random time and sent again. The cost was waste: when traffic is
 heavy, pure ALOHA delivers at best 18.4 per cent of the channel, and the
 slotted version 36.8 per cent. (Wikipedia's articles disagree on ALOHAnet's
@@ -25,10 +25,10 @@ for the [luminiferous ether](kloom:e/luminiferous-aether) once thought to carry 
 Boggs](kloom:e/david-boggs)** he had it running on 11 November 1973, at 2.94 Mbit/s; Boggs
 counted that day, not the memo's, as Ethernet's birth.
 
-![Parts of a thick-cable Ethernet: a black transceiver box, two smaller adapters, a grey drop cable, a length of yellow coaxial cable with a tap clamped on it, terminators and an orange coring tool for drilling the cable](transceivers.jpg)
+![Parts of a thick-cable Ethernet: a black transceiver box, two smaller adapters, a gray drop cable, a length of yellow coaxial cable with a tap clamped on it, terminators and an orange coring tool for drilling the cable](transceivers.jpg)
 
 Their 1976 paper in _Communications of the ACM_ describes a network of 100
-stations along a kilometre of coaxial cable. It rounds the rate to three
+stations along a kilometer of coaxial cable. It rounds the rate to three
 megabits a second, chosen as a comfortable speed for the minicomputers on
 it. An address took one byte, so an Ethernet could hold 256 stations.
 
@@ -57,7 +57,7 @@ towards slotted ALOHA's 1/_e_.
 Metcalfe, with Gordon Bell and David Liddle, persuaded Digital, Intel and
 Xerox to publish a 10 Mbit/s Ethernet as an open specification, the "Blue
 Book" of 30 September 1980; by then he had left Xerox to found 3Com. The IEEE's 802.3 committee followed it, with
-Token Ring and token bus standardised in rival groups. When 802.3 counts as
+Token Ring and token bus standardized in rival groups. When 802.3 counts as
 approved depends on the source: the IEEE 802.3 article gives June 1983 and
 publication in 1985; the Ethernet article has the committee approving it in
 December 1982. Xerox gave its patents to the IEEE, so anyone could build it.

@@ -8,7 +8,7 @@ The chapter is short, and every sentence in it is an instruction. The sick are t
 
 Three centuries later a monk drew what the chapter asks for. The **[Plan of Saint Gall](kloom:e/plan-of-saint-gall)** is a drawing of a whole Benedictine monastery on five sewn pieces of parchment, about 112 by 78 centimeters, made at **[Reichenau](kloom:e/reichenau-island)** around 820–830 and dedicated to Gozbert, abbot of **Saint Gall** in what is now Switzerland. Its buildings are drawn in red ink, and about 333 brown inscriptions say what each is for. Nobody ever built it. Scholars disagree about what it was: Walter Horn and Ernest Born argued that it copies an ideal plan sent out after the reforming synods at Aachen in 816–817, a model of how a monastery under the Rule should look, while Werner Jacobsen and others, from the compass marks and corrections in the parchment, argue that it is an original drawn for Gozbert's own rebuilding.
 
-![A section of a ninth-century parchment plan in red ink: a square cloister with arcades, rooms around it, and smaller buildings beside it, each labelled in small brown Latin script](st-gall-infirmary.jpg)
+![A section of a ninth-century parchment plan in red ink: a square cloister with arcades, rooms around it, and smaller buildings beside it, each labeled in small brown Latin script](st-gall-infirmary.jpg)
 
 Either way, the infirmary is the Rule made into rooms. We read its inscriptions from the manuscript, in our translation:
 
@@ -23,7 +23,7 @@ The infirmary shares a church with the house of the novices, back to back across
 
 ## The physician's house
 
-Beyond the infirmary the plan goes further than the Rule. Benedict asks for an attendant and says nothing of physicians; the plan gives them a house of their own, labelled "the house of the physicians", with "a little room for the very sick", "a cupboard of drugs", and "the lodging of the physician himself". Next to it is the _herbularius_, a physic garden of sixteen beds, each named: lilies and roses, pennyroyal, cumin and lovage among them. A separate house is labelled "here the bled, or those taking potions, are to eat". The plan expects **[bloodletting](kloom:e/bloodletting)** to be common enough to give the monks who had just been bled, like those dosed with potions, a dining room of their own while they recovered, and the infirmary's kitchen cooks for them too.
+Beyond the infirmary the plan goes further than the Rule. Benedict asks for an attendant and says nothing of physicians; the plan gives them a house of their own, labeled "the house of the physicians", with "a little room for the very sick", "a cupboard of drugs", and "the lodging of the physician himself". Next to it is the _herbularius_, a physic garden of sixteen beds, each named: lilies and roses, pennyroyal, cumin and lovage among them. A separate house is labeled "here the bled, or those taking potions, are to eat". The plan expects **[bloodletting](kloom:e/bloodletting)** to be common enough to give the monks who had just been bled, like those dosed with potions, a dining room of their own while they recovered, and the infirmary's kitchen cooks for them too.
 
 The plan shows two kinds of care side by side. The infirmarian and his attendants were monks, nursing their brothers as the Rule told them to, as part of the religious life. The physician brought learning from outside it. The same division, a vocation to care and a profession to cure, runs through every frame that follows.
 

@@ -8,7 +8,7 @@ Whether it is also distillation is disputed. Martin Levey, a historian of chemis
 
 ## Glass by the mina
 
-The fullest chemical recipes from Mesopotamia are for glass. A set of tablets from the library of **[Ashurbanipal](kloom:e/ashurbanipal)** at **[Nineveh](kloom:e/nineveh)**, of the seventh century BC, and older ones from Middle Assyrian Assur, tell a glassmaker how to build a kiln, what to burn under it, and what to put in. The kiln's foundations are to be laid in a favourable month, with figures of the Kūbu spirits set down in its house so that no stranger enters; on the day the glass goes in, a sheep is sacrificed and honey poured over juniper. Then the chemistry:
+The fullest chemical recipes from Mesopotamia are for glass. A set of tablets from the library of **[Ashurbanipal](kloom:e/ashurbanipal)** at **[Nineveh](kloom:e/nineveh)**, of the seventh century BC, and older ones from Middle Assyrian Assur, tell a glassmaker how to build a kiln, what to burn under it, and what to put in. The kiln's foundations are to be laid in a favorable month, with figures of the Kūbu spirits set down in its house so that no stranger enters; on the day the glass goes in, a sheep is sacrificed and honey poured over juniper. Then the chemistry:
 
 > If you want to make "lapis lazuli": you grind separately 10 minas of immanakku-stone, 15 minas of salicornia ashes, and 1⅔ minas of "white plant." You mix them together.
 
@@ -24,8 +24,8 @@ By our arithmetic, the recipe puts one and a half parts of ash to every part of 
 
 ![A clay tablet covered in small, dense cuneiform on both halves of its face, cracked across the middle](dye-tablet.jpg)
 
-## Recipes for colour
+## Recipes for color
 
-The scribes wrote recipes for dyes too. A Neo-Babylonian tablet of the sixth century BC from **[Sippar](kloom:e/sippar)**, now in the **[British Museum](kloom:e/british-museum)** (BM 62788), gives instructions for dyeing wool purple and blue: the colours of the murex vats, recorded in the same wedges that had once counted grain.
+The scribes wrote recipes for dyes too. A Neo-Babylonian tablet of the sixth century BC from **[Sippar](kloom:e/sippar)**, now in the **[British Museum](kloom:e/british-museum)** (BM 62788), gives instructions for dyeing wool purple and blue: the colors of the murex vats, recorded in the same wedges that had once counted grain.
 
 The glass texts end with a colophon naming the "palace of Ashurbanipal, king of the world", which kept them among its tablets of omens, medicine and literature. For two thousand years after, the craft knowledge of metal, dye and glass would sit beside a new question, first asked by Greeks: what is everything made of? The next frame is their answer, the four elements.

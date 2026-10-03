@@ -46,7 +46,7 @@ Mr. Bader calling him down after class.
 
 He was already ahead of the school. He borrowed _Calculus for the Practical
 Man_ from the library by telling the librarian it was for his father; when
-his father could not follow its first pages, Feynman realised for the first
+his father could not follow its first pages, Feynman realized for the first
 time that he understood something his father did not. That attempt did not
 stick. His father then bought him _Calculus Made Easy_ at Macy's, and this
 time he wrote the book out into a notebook of his own. By fifteen he had
@@ -57,7 +57,7 @@ A teacher sent him to the back of the room with a book called _Advanced
 Calculus_ and told him to come back when he knew what was in it. He won the
 New York University mathematics championship in his last year.
 
-![Far Rockaway High School from above in 2019: the pale-brick building of three and four storeys, finished in 1929, among houses and trees, with Jamaica Bay beyond](far-rockaway-high-school.jpg)
+![Far Rockaway High School from above in 2019: the pale-brick building of three and four stories, finished in 1929, among houses and trees, with Jamaica Bay beyond](far-rockaway-high-school.jpg)
 
 The school, which opened in 1897 and closed in 2011, moved into the building
 Feynman knew in 1929. It taught three future Nobel laureates: Feynman, **[Burton Richter](kloom:e/burton-richter)** and **[Baruch Blumberg](kloom:e/baruch-samuel-blumberg)**.

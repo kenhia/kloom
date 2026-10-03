@@ -28,7 +28,7 @@ The first paper showed that Schwinger's theory, **[Sin-Itiro Tomonaga](kloom:e/s
 
 ## Teaching it
 
-At the Institute Dyson joined the largest group of young theorists [Robert Oppenheimer](kloom:e/j-robert-oppenheimer) had yet gathered there, ten or eleven by Kaiser's two counts. Their new building was not finished, so for the first weeks they shared one room, and Dyson became their teacher, lecturing, answering questions and setting pairs of them to work on calculations. Oppenheimer was sceptical at first. In February 1949 Feynman came down for three days and gave about eight hours of seminars, and Dyson wrote that even Oppenheimer began to get the spirit of the thing. His lecture notes of 1951, circulated in mimeograph and not published as a book until 2007, reached more physicists still.
+At the Institute Dyson joined the largest group of young theorists [Robert Oppenheimer](kloom:e/j-robert-oppenheimer) had yet gathered there, ten or eleven by Kaiser's two counts. Their new building was not finished, so for the first weeks they shared one room, and Dyson became their teacher, lecturing, answering questions and setting pairs of them to work on calculations. Oppenheimer was skeptical at first. In February 1949 Feynman came down for three days and gave about eight hours of seminars, and Dyson wrote that even Oppenheimer began to get the spirit of the thing. His lecture notes of 1951, circulated in mimeograph and not published as a book until 2007, reached more physicists still.
 
 When the Nobel Prize went to Tomonaga, Schwinger and Feynman in 1965, Dyson wrote to his parents that he was glad they shared it equally, and that his paper had been the first to do all three justice. He was not included.
 

@@ -1,5 +1,5 @@
 Toss a coin thousands of times, count the heads, and do it again. The counts pile up around the middle in a shape that is the same
-whatever the coin, whatever the number of tosses: high in the centre, falling away steeply, never quite reaching zero. It turned out to
+whatever the coin, whatever the number of tosses: high in the center, falling away steeply, never quite reaching zero. It turned out to
 be the shape of errors in astronomers' measurements, of the heights of
 conscripts, of the speeds of molecules. The **[normal distribution](kloom:e/normal-distribution)** was
 found three times over, by three men looking for three different things.
@@ -48,7 +48,7 @@ his position that December.
 Fitting a curve to observations that do not quite agree needs a rule for
 the best compromise. **[Adrien-Marie Legendre](kloom:e/adrien-marie-legendre)** published one in 1805:
 choose the values that make the sum of the squares of the errors as small
-as possible, the method of **[least squares](kloom:e/least-squares)**. His appendix tried it on the arc of the meridian from Dunkirk to Barcelona, measured by Delambre and Méchain to fix the metre. In 1809 Gauss wrote that "our principle, which we have
+as possible, the method of **[least squares](kloom:e/least-squares)**. His appendix tried it on the arc of the meridian from Dunkirk to Barcelona, measured by Delambre and Méchain to fix the meter. In 1809 Gauss wrote that "our principle, which we have
 made use of since the year 1795, has lately been published by Legendre", and a priority dispute followed. The sources weigh it differently: Gauss
 very likely used the method on Ceres, but published nothing on it first, and said the method he had used in 1801 had changed so
 much that "scarcely any trace of resemblance remains". What Gauss added

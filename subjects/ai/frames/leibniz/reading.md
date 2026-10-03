@@ -54,7 +54,7 @@ of increasing length, so turning it adds any digit from one to nine.
 Neither project worked as planned. The stepped reckoner's gearing was beyond
 the metalwork of the time and its carry mechanism was flawed, though the
 stepped drum itself was used in calculators for two hundred years, into the
-1970s. The universal characteristic was never written. But the programme
+1970s. The universal characteristic was never written. But the program
 outlived both men: reasoning as symbol manipulation, and a machine to carry
 it out. The cybernetician **[Norbert Wiener](kloom:e/norbert-wiener)** later called the modern
 computer "nothing but a mechanization of Leibniz's calculus ratiocinator".

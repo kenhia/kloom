@@ -347,7 +347,7 @@
 	<p>{@render icon('settings')} The gear, at the top right, opens the settings:</p>
 	<ul>
 		<li>
-			<strong>Scene colours</strong> and <strong>Reading colours</strong>: light or dark (<a
+			<strong>Scene colors</strong> and <strong>Reading colors</strong>: light or dark (<a
 				href="#colors">more</a
 			>).
 		</li>
@@ -375,11 +375,11 @@
 	<ul>
 		<li>
 			<strong>The two sides are colored apart.</strong> The picture side, with its buttons and the
-			lists they open, follows <strong>Scene colours</strong>. The reading, the notes, the tabs and
-			the settings follow <strong>Reading colours</strong>.
+			lists they open, follows <strong>Scene colors</strong>. The reading, the notes, the tabs and
+			the settings follow <strong>Reading colors</strong>.
 		</li>
 		<li>
-			<strong>Scene colours</strong>:
+			<strong>Scene colors</strong>:
 			<ul>
 				<li>
 					<strong>By section</strong>, the first choice: every frame in a section is light, or every
@@ -394,7 +394,7 @@
 			</ul>
 		</li>
 		<li>
-			<strong>Reading colours</strong>:
+			<strong>Reading colors</strong>:
 			<ul>
 				<li><strong>Same as scene</strong>, the first choice: the reading matches the picture.</li>
 				<li>

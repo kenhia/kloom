@@ -96,7 +96,7 @@ language, the output of compilers for other languages such as Modula-3 and
 Eiffel. Wikipedia's list of the languages it influenced runs from AWK and
 C# through Go, Java and Python to Rust and Zig. Ritchie was frank about the
 costs. The two ideas most characteristic of C, arrays that are really
-pointers and declarations that mimic use, were also its most criticised,
+pointers and declarations that mimic use, were also its most criticized,
 and the worst of it, compilers' tolerance of mismatched types, came from a
 language grown out of one that had no types at all.
 

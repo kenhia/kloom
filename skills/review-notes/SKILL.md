@@ -67,8 +67,8 @@ records.
      least one key citation, Wikipedia by `oldid`. A fix that changes a
      claim (a fact, date, attribution, quotation or source), or rewrites a
      section, also adds an entry to the frame's `edits`, newest first, as
-     `skills/grow/SKILL.md` §Edits and corrections says; a typo or
-     formatting fix does not. Then run `just check`.
+     `skills/grow/SKILL.md` §Edits and corrections says; a typo, a
+     respelling to American English or a formatting fix does not. Then run `just check`.
      A content change ships like any other: on a branch, through a PR.
    - **A question:** answer it in the response. If the frame should answer
      it too, that is a fix.

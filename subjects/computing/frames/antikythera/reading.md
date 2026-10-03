@@ -1,11 +1,11 @@
 In 1900 sponge divers sheltering off the small Greek island of Antikythera
-found the wreck of a Roman cargo ship, forty-odd metres down. The salvage,
+found the wreck of a Roman cargo ship, forty-odd meters down. The salvage,
 over the following year, brought up bronze and marble statues, glass and
 coins, and a lump of corroded bronze and wood. It lay unnoticed in the
 [National Archaeological Museum](kloom:e/national-archaeological-museum-athens) in Athens until 17 May 1902, when the
 archaeologist **Valerios Stais** saw a gear wheel in one of the pieces. It
 turned out to be a calculator of the sky, and it is the oldest known
-analogue computer.
+analog computer.
 
 ## Dating a machine from a wreck
 
@@ -21,7 +21,7 @@ astronomical clocks of fourteenth-century Europe.
 
 What survives is 82 fragments. Only about a third of the machine is left,
 with **30** corroded bronze gears; the largest, the four-spoked wheel in
-fragment A, is about thirteen centimetres across. The historian of science
+fragment A, is about thirteen centimeters across. The historian of science
 **[Derek de Solla Price](kloom:e/derek-j-de-solla-price)** counted most of the teeth from radiographs and in
 1974 published _Gears from the Greeks_, calling it a "calendar computer".
 In 2005 the [Antikythera Mechanism](kloom:e/antikythera-mechanism) Research Project scanned the fragments
@@ -59,7 +59,7 @@ written along the spiral, like a needle following a record's groove.
 The Moon was the hard part. It goes round 254 times in the same 19 years,
 and not evenly: faster near Earth, slower far away. The train that gives
 254/19 ends in a pair of gears mounted face to face on slightly different
-centres, one driving the other by a pin in a slot, so that the pin speeds
+centers, one driving the other by a pin in a slot, so that the pin speeds
 and slows the follower through each turn. The pair rides on a larger gear
 that turns the whole effect slowly round, as the Moon's orbit itself turns
 in about nine years. A small ball, half black and half white, turned by
@@ -90,6 +90,6 @@ group found no such route to Saturn's 427 in 442, and proposed instead a
 way of combining older Babylonian cycles, which they name after
 Parmenides.
 
-It is an _analogue_ computer: its quantities are angles, and a turn of
+It is an _analog_ computer: its quantities are angles, and a turn of
 the crank stands for a span of time. The next great aid to calculation was
 not a machine at all but a table of numbers, printed in [Edinburgh](kloom:e/edinburgh) in 1614.

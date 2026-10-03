@@ -31,13 +31,13 @@ The heavier gas had been seen once before. In 1785 **[Henry Cavendish](kloom:e/h
 
 Argon broke the periodic table. The speed of sound in it showed its molecules were single atoms, so its atomic weight was about 40: more than potassium's 39.1, the next element up. The paper wondered whether "the periodic classification of the elements is complete", and whether argon belonged in an eighth group, after chlorine. "Argon must not be deemed rare," Rayleigh said later. "A large hall may easily contain a greater weight of it than a man can carry."
 
-![A small glass jar with a ground stopper, holding grey lumps of mineral, labelled by hand "Original Clevite from which He was first made, N. Collie", from University College London](cleveite.jpg)
+![A small glass jar with a ground stopper, holding gray lumps of mineral, labeled by hand "Original Clevite from which He was first made, N. Collie", from University College London](cleveite.jpg)
 
 ## A new column
 
-Looking for something argon might react with, Ramsay read that a uranium mineral gave off nitrogen when boiled with acid. He doubted it. In March 1895 he boiled **cleveite** in weak sulfuric acid and put the gas in a discharge tube, and a brilliant yellow line appeared near sodium's. William Crookes measured it at 587.49 nanometres: the line D₃, seen in the Sun in 1868 and credited to an element no one had held. It was **[helium](kloom:e/helium)**, on Earth at last, and Cleve and Langlet found it in cleveite independently.
+Looking for something argon might react with, Ramsay read that a uranium mineral gave off nitrogen when boiled with acid. He doubted it. In March 1895 he boiled **cleveite** in weak sulfuric acid and put the gas in a discharge tube, and a brilliant yellow line appeared near sodium's. William Crookes measured it at 587.49 nanometers: the line D₃, seen in the Sun in 1868 and credited to an element no one had held. It was **[helium](kloom:e/helium)**, on Earth at last, and Cleve and Langlet found it in cleveite independently.
 
-![Five glowing glass discharge tubes labelled He, Ne, Ar, Kr and Xe: helium a pale orange-white, neon a deep red-orange, argon violet, krypton a pale blue-white and xenon a bright blue-white](discharge-tubes.jpg)
+![Five glowing glass discharge tubes labeled He, Ne, Ar, Kr and Xe: helium a pale orange-white, neon a deep red-orange, argon violet, krypton a pale blue-white and xenon a bright blue-white](discharge-tubes.jpg)
 
 In 1898 Ramsay and his assistant **[Morris Travers](kloom:e/morris-travers)** borrowed large amounts of liquid air from William Hampson, liquefied their argon and boiled it off in fractions. The heavy end gave krypton, "hidden", on 30 May; the light end neon, "new", in June; and a third, xenon, "stranger", soon after. The **[noble gases](kloom:e/noble-gas)** filled a column with no place for chemistry at all, and in 1902, Wikipedia's account says, Mendeleev put them into his table as group 0. A sixth, radon, is given off by radium. Rayleigh received the 1904 Nobel Prize in Physics and Ramsay that year's prize in chemistry.
 

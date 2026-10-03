@@ -7,7 +7,7 @@ computing, and it outlived almost every machine in this story.
 ## Pebbles on a board
 
 The oldest counting board known is the **[Salamis tablet](kloom:e/salamis-tablet)**, a slab of white
-marble about 150 by 75 centimetres, dated to around 300 BC and now in the
+marble about 150 by 75 centimeters, dated to around 300 BC and now in the
 Epigraphical Museum in [Athens](kloom:e/athens). It carries two sets of ruled lines, one of
 five lines and one of eleven, with a crack between them, and rows of Greek
 numeral signs along its edges. Nobody wrote down how it was used; the usual

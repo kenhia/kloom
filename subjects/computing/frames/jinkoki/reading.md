@@ -1,7 +1,7 @@
 A bead frame only holds a number, but a trained hand can make it do far
 more than add. By the early seventeenth century the bead [abacus](kloom:e/abacus) had its
 own textbooks, and they taught multiplication, division and the extraction
-of square and cube roots, by sequences of bead moves learnt by heart.
+of square and cube roots, by sequences of bead moves learned by heart.
 
 ## A merchant's arithmetic
 
@@ -13,8 +13,8 @@ a local official rather than a professional mathematician. It is,
 in effect, a general arithmetic for the abacus, with 595 problems. Sources
 differ on how they are divided: the MacTutor biography and one Wikipedia
 article give twelve chapters, another Wikipedia article seventeen. Many of
-its formulas were set in verse, to be learnt by rote. Division on the
-[suanpan](kloom:e/suanpan) leans, in several of its methods, on a memorised _division
+its formulas were set in verse, to be learned by rote. Division on the
+[suanpan](kloom:e/suanpan) leans, in several of its methods, on a memorized _division
 table_, and the methods explain the suanpan's extra beads: the topmost
 and bottommost beads on each rod are rarely touched in addition, but some
 multiplication methods and the division method need them. Cheng's book
@@ -25,14 +25,14 @@ he published an abridgement.
 
 In Japan the equivalent was the [_Jinkōki_](kloom:e/jinkoki), published in 1627 by
 **[Yoshida Mitsuyoshi](kloom:e/yoshida-mitsuyoshi)** and used as the [soroban](kloom:e/soroban)'s textbook throughout the
-[Edo period](kloom:e/edo-period). Japan's National Diet Library says he modelled it on the _Suanfa tongzong_, which a relative,
+[Edo period](kloom:e/edo-period). Japan's National Diet Library says he modeled it on the _Suanfa tongzong_, which a relative,
 Suminokura Soan, had told him about; Wikipedia says only that it rests
 partly on Yuan-dynasty Chinese works. Its first volume taught
 multiplication and division on the soroban; the rest mixed practical
 problems (the area of rice fields, the building of river banks, interest,
 currency) with puzzles such as the Josephus problem. It took the reader
 on to square and cube roots. It was the first Japanese book printed in
-colour, Yoshida revised it several times, and by one count more than 400
+color, Yoshida revised it several times, and by one count more than 400
 editions had appeared by the Meiji era.
 
 ## Taking a root

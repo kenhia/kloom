@@ -13,16 +13,16 @@ paths, each bent a little more than the last. Near the classical path the
 action is stationary: bending the path changes the action only to second
 order, so the arrows of all the nearby paths point almost the same way and
 add up to a long arrow. Farther out the action changes faster and faster,
-each arrow is turned a little more than its neighbour, and they curl round
+each arrow is turned a little more than its neighbor, and they curl round
 on themselves and add up to almost nothing.
 
 The plate draws those arrows, laid head to tail, as the **Cornu spiral**.
 The phase is taken to grow as the square of _u_, a measure of how far a
 path bends, which is how any action behaves near its stationary point. The
 nearly straight stretch through the middle is the classical path and its
-neighbours. The tight coils at each end are the paths far away, winding
-round two points and cancelling. The total is the line from one coil's
-centre to the other's. **Augustin Fresnel** met the same integrals in 1818
+neighbors. The tight coils at each end are the paths far away, winding
+round two points and canceling. The total is the line from one coil's
+center to the other's. **Augustin Fresnel** met the same integrals in 1818
 in the diffraction of light, and **Alfred Cornu** drew them as this spiral
 in 1874, to read diffraction off a graph. The method is due to **George
 Stokes** and **Lord Kelvin**.
@@ -41,15 +41,15 @@ each band two units of _u_ wide. The units are the drawing's own.
 The band around the true path gives more than the whole sum; everything
 else only winds it back a little. That is why the true path appears to be
 the one taken, and why it is the path of stationary action: stationary is
-exactly the condition for the neighbours to agree. [Feynman](kloom:e/richard-feynman) made this
+exactly the condition for the neighbors to agree. [Feynman](kloom:e/richard-feynman) made this
 argument in the [_Lectures on Physics_](kloom:e/the-feynman-lectures-on-physics), in the chapter that begins with
 Mr. Bader.
 
-![Alfred Cornu, photographed in the late nineteenth century: a man with receding hair, a moustache and a pointed beard, in a dark suit with a watch chain](cornu.jpg)
+![Alfred Cornu, photographed in the late nineteenth century: a man with receding hair, a mustache and a pointed beard, in a dark suit with a watch chain](cornu.jpg)
 
 ## How big is big?
 
-Whether the neighbours agree depends on how much the action changes when a
+Whether the neighbors agree depends on how much the action changes when a
 path is bent, measured in units of _ħ_. For a particle moving freely, or in
 uniform gravity, bending the path sideways by a hump of height _a_ over a
 time _T_ adds exactly _m_ _a_² π² / 4 _T_ to the action. The objects and
@@ -63,10 +63,10 @@ distances below are invented examples; the arithmetic is exact.
 | electron, 1 ns in flight   | 0.1 µm | 2.2 × 10⁻³⁵ J·s | 0.21 radians       |
 
 The first row is the humped path of the least-action frame on the main
-spine. For the ball, bending the path by a thousandth of a millimetre turns
-its arrow some 10²¹ radians: its neighbours cancel at once, and only an
+spine. For the ball, bending the path by a thousandth of a millimeter turns
+its arrow some 10²¹ radians: its neighbors cancel at once, and only an
 unimaginably thin tube of paths around the classical one survives. That
-tube is the trajectory. For the electron, paths a tenth of a micrometre
+tube is the trajectory. For the electron, paths a tenth of a micrometer
 apart are nearly in step, so a wide band of them adds up, and the electron
 behaves like a wave that can pass through two slits.
 

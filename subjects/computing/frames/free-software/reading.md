@@ -1,8 +1,8 @@
 Unix had spread because its source code came with it. By the early 1980s
 that was ending: software had become a product, and a program came as a
-binary with a licence that forbade sharing it. One programmer at [MIT](kloom:e/massachusetts-institute-of-technology)
+binary with a license that forbade sharing it. One programmer at [MIT](kloom:e/massachusetts-institute-of-technology)
 decided to write a whole Unix-compatible system that anyone could share,
-and then wrote a licence to keep it that way.
+and then wrote a license to keep it that way.
 
 ## A printer and a promise
 
@@ -50,20 +50,20 @@ distribute changed versions (3). The first and third require the source.
 
 ## Copyleft
 
-A licence that grants those freedoms and nothing more lets someone take the
+A license that grants those freedoms and nothing more lets someone take the
 code, change it and ship the result closed. Stallman's example was the X
-Window System, released by MIT under a permissive licence and soon
+Window System, released by MIT under a permissive license and soon
 shipped by computer companies in binary form under nondisclosure, so that
 most of its users had no freedom at all. His answer was [_copyleft_](kloom:e/copyleft): use
 copyright to give everyone permission to run, copy, change and
 redistribute the program, but not to add restrictions of their own. Any
 distributed version, and anything combined with it, must carry the same
 terms and its source. The plate draws the difference: under a permissive
-licence one descendant closes its code and every version made from it
-stays closed; under copyleft the source and the licence travel with every
+license one descendant closes its code and every version made from it
+stays closed; under copyleft the source and the license travel with every
 copy.
 
-Emacs, the GNU debugger and the GNU C compiler each had a licence of this
+Emacs, the GNU debugger and the GNU C compiler each had a license of this
 kind, all similar and mutually incompatible. On 25 February 1989 the FSF
 merged them into one, the **[GNU General Public License](kloom:e/gnu-general-public-license)**. Version 2
 followed in June 1991 and version 3 on 29 June 2007, after a public

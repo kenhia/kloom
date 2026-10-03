@@ -14,12 +14,12 @@ psychologist who headed it from October 1962, sent a memorandum on 23 April
 Affiliates of the Intergalactic Computer Network". Most of it is a user's
 wish list: to find a curve-fitting program on a disc in Berkeley and run it
 on his data in Santa Monica. Its hard question was agreement. If each
-centre spoke its own language, should they not share "some conventions for
+center spoke its own language, should they not share "some conventions for
 asking such questions as 'What language do you speak?'" It is the
 problem a _protocol_ solves.
 
 Taylor persuaded ARPA's director, **Charles Herzfeld**, to fund a network
-in February 1966; a million dollars was moved from missile defence. He
+in February 1966; a million dollars was moved from missile defense. He
 recruited **[Larry Roberts](kloom:e/larry-roberts-computer-scientist)** from MIT's Lincoln Laboratory, who arrived in
 December 1966 (or January 1967, as the [ARPANET](kloom:e/arpanet)'s own history gives it).
 Roberts first meant the big host computers to be joined to one another
@@ -35,7 +35,7 @@ second.
 ARPA's request for quotations went out in July 1968; twelve firms bid, and
 in the week before Christmas the contract went to **[Bolt Beranek and
 Newman](kloom:e/rtx-bbn-technologies)** (BBN) in Cambridge, Massachusetts, whose team under **Frank
-Heart** began work on 2 January 1969. An IMP was a ruggedised Honeywell
+Heart** began work on 2 January 1969. An IMP was a ruggedized Honeywell
 DDP-516 minicomputer with core memory, special interfaces and about six
 thousand words of hand-written assembly code. Senator Edward Kennedy's
 telegram of congratulation thanked BBN for its "Interfaith Message

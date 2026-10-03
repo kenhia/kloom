@@ -9,7 +9,7 @@ and geometry together.
 ## A story from Cairo
 
 In a story first told two centuries after him, he came to Egypt offering
-the Fatimid caliph **al-Hakim** a scheme to regulate the Nile. Travelling
+the Fatimid caliph **al-Hakim** a scheme to regulate the Nile. Traveling
 upriver, he saw that it could not work and said so. To escape a ruler known
 for his cruelty he feigned madness, and was kept in his house until
 al-Hakim died in 1021. The versions disagree in their details; the
@@ -28,7 +28,7 @@ the eye instead, but gave it no geometry. Ibn al-Haytham argued against
 emission. Looking at the Sun hurts the eye, and it is hard to believe that
 the eye reaches the stars
 the instant the eyelids open. Following al-Kindi, he took every point of a
-lit body to send out light and colour along every straight line, and so
+lit body to send out light and color along every straight line, and so
 into the eye.
 
 That raised its own problem. If every point of an object sends rays to every
@@ -37,13 +37,13 @@ only by the ray that meets the eye's surface at right angles, one from each
 point, making a cone with its tip inside the eye; oblique rays are refracted
 and weakened. It was wrong in detail, but no theory of its day was so
 complete. It joined Euclid's geometry, Galen's anatomy of the eye and
-Aristotle's inward-travelling forms into one account.
+Aristotle's inward-traveling forms into one account.
 
-![A page from an early copy of the Book of Optics: two eyes drawn as nested circles, with the optic nerves running up from them to join in a single channel towards the brain, every part labelled in Arabic script](alhazen-eye.jpg)
+![A page from an early copy of the Book of Optics: two eyes drawn as nested circles, with the optic nerves running up from them to join in a single channel towards the brain, every part labeled in Arabic script](alhazen-eye.jpg)
 
 ## The dark room
 
-The plate draws one of his arguments that light and colour do not mingle in
+The plate draws one of his arguments that light and color do not mingle in
 the air. Set several candles in different places before a small opening
 into a dark room, with a white wall inside facing it. Each candle throws its
 own spot on the wall, on the straight line from its flame through the
@@ -67,7 +67,7 @@ Later, between about 1025 and 1028, he wrote _al-Shukūk ʿalā Baṭlamyūs_,
 the _Doubts concerning Ptolemy_. It set the Almagest, the _Planetary
 Hypotheses_ and the _Optics_ against each other and found them
 contradicting themselves, above all over the **[equant](kloom:e/equant)**, a point about which
-a body turns evenly although it is not the centre of its circle. "Ptolemy
+a body turns evenly although it is not the center of its circle. "Ptolemy
 assumed an arrangement that cannot exist," he wrote: to imagine a circle in
 the heavens does not make a planet move on it. In the same book, in Sabra's
 translation, he said what a reader owes a book: the seeker after truth is

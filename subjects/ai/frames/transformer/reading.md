@@ -20,7 +20,7 @@ sequential: word ten cannot be processed until word nine is done. That made
 these networks hard to spread across the thousands of parallel units of a
 GPU. **Jakob Uszkoreit** suspected attention alone would be enough, against
 the conventional wisdom of the time; his father, the computational linguist
-Hans Uszkoreit, was among the sceptics.
+Hans Uszkoreit, was among the skeptics.
 
 The transformer kept the encoder–decoder shape and removed the recurrence.
 Its encoder is a stack of six identical layers, and so is its decoder. Each
@@ -35,7 +35,7 @@ _positional encoding_ made of sine and cosine waves.
 
 ![A diagram of the full transformer: on the left the encoder, a stack of layers each with multi-headed self-attention and a feed-forward network; on the right the decoder, with masked self-attention, cross-attention to the encoder's output, and a feed-forward network, ending in a linear layer that makes predictions. Diagram by dvgodoy, CC BY 4.0.](transformer-architecture.png)
 
-The diagram above shows the whole machine. It draws the normalisation
+The diagram above shows the whole machine. It draws the normalization
 _before_ each sub-layer, as GPT-2 and later models arranged it; the 2017
 paper applied it after.
 

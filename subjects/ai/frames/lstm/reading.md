@@ -30,7 +30,7 @@ November 1997, after a technical report in 1995 and a conference paper in 1996.
 They called it **[Long Short-Term Memory](kloom:e/long-short-term-memory)**, because it gives a network's
 short-term memory, held in its activity, a very long reach.
 
-The idea is in the drawing on the left. At the centre of each _memory cell_ is
+The idea is in the drawing on the left. At the center of each _memory cell_ is
 a linear unit connected to itself with a fixed weight of exactly 1.0. An error
 signal passing round that loop is multiplied by one at every step, so it
 neither grows nor shrinks; the authors called the loop a _constant error

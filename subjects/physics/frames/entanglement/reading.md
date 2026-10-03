@@ -45,7 +45,7 @@ Shimony and Holt. Two observers each choose one of two settings and record
 ±1; a sum _S_ of four averaged correlations can be no larger than 2 in any
 local theory. Quantum mechanics predicts up to 2√2, about 2.83, for the
 right choice of angles. The plate draws the reason: for photons the quantum
-correlation between two polarisers follows a cosine with the angle between
+correlation between two polarizers follows a cosine with the angle between
 them, while the best local model is a straight line; the curve bows beyond
 the line, and the gap is the violation.
 
@@ -68,7 +68,7 @@ source, so that no signal could tell one side what the other would
 measure. Each test left loopholes, such as detectors that miss most
 photons, until in 2015 groups at Delft, Vienna and Boulder closed the main
 ones in one experiment each. The Delft team, entangling electron spins in
-two diamonds 1.3 kilometres apart, measured _S_ = 2.42 ± 0.20.
+two diamonds 1.3 kilometers apart, measured _S_ = 2.42 ± 0.20.
 
 The Nobel Prize in Physics for 2022 went to Aspect, Clauser and **Anton
 Zeilinger** "for experiments with entangled photons, establishing the

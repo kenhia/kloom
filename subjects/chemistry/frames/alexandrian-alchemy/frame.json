@@ -7,7 +7,7 @@
 	},
 	"scene": {
 		"headline": "We caught the rising",
-		"accent": "VAPOUR.",
+		"accent": "VAPOR.",
 		"palette": "alum",
 		"illustration": "scene.svg",
 		"metadata": [
@@ -239,7 +239,7 @@
 	"connections": [
 		{
 			"to": "chemistry/tyrian-purple",
-			"why": "The papyri's recipes dye wool purple with alkanet, archil and gall-nut rather than with murex snails: cheaper stand-ins for the most expensive colour."
+			"why": "The papyri's recipes dye wool purple with alkanet, archil and gall-nut rather than with murex snails: cheaper stand-ins for the most expensive color."
 		},
 		{
 			"to": "chemistry/clay-recipes",

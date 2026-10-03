@@ -8,11 +8,11 @@ The process Morris used is **[selective laser melting](kloom:e/selective-laser-m
 
 ## The build
 
-The plate shows a build in section. A blade spreads a layer of powder across a steel build plate, a laser steered by mirrors melts that layer's slice of the part, the plate drops by one layer, and the cycle repeats, in a chamber flooded with argon so the hot metal does not oxidise. A study of **[Inconel](kloom:e/inconel)** 625, a nickel superalloy, published its settings in full, and they are a fair example:
+The plate shows a build in section. A blade spreads a layer of powder across a steel build plate, a laser steered by mirrors melts that layer's slice of the part, the plate drops by one layer, and the cycle repeats, in a chamber flooded with argon so the hot metal does not oxidize. A study of **[Inconel](kloom:e/inconel)** 625, a nickel superalloy, published its settings in full, and they are a fair example:
 
 | Setting              | In the Inconel 625 study                |
 | -------------------- | --------------------------------------- |
-| Powder               | gas-atomised spheres, 15–45 µm across   |
+| Powder               | gas-atomized spheres, 15–45 µm across   |
 | Layer                | 40 µm                                   |
 | Laser                | 250 W, moving at 750 mm/s               |
 | Space between tracks | 0.11 mm                                 |
@@ -20,7 +20,7 @@ The plate shows a build in section. A blade spreads a layer of powder across a s
 | Build plate          | preheated to 80 °C                      |
 | After the build      | 870 °C for one hour, still on the plate |
 
-By our arithmetic, a part 50 mm tall at 40 µm a layer is 1,250 layers, and the melt pool, a fraction of a millimetre across, runs over every square millimetre of every slice. Wikipedia gives oxygen below 1,000 parts per million (0.1%) as the usual limit, half the level this study allowed.
+By our arithmetic, a part 50 mm tall at 40 µm a layer is 1,250 layers, and the melt pool, a fraction of a millimeter across, runs over every square millimeter of every slice. Wikipedia gives oxygen below 1,000 parts per million (0.1%) as the usual limit, half the level this study allowed.
 
 ## Stress, and the plate
 

@@ -15,7 +15,7 @@ address book, fax and email, on an x86 processor, for $899 with a two-year
 contract. Its battery lasted about an hour. BellSouth sold about 50,000
 before it was withdrawn in February 1995.
 
-![The IBM Simon in a museum case: a black handset like a brick, with a greyscale touch screen filling most of its face, beside a panel showing its screen of icons](ibm-simon.jpg)
+![The IBM Simon in a museum case: a black handset like a brick, with a grayscale touch screen filling most of its face, beside a panel showing its screen of icons](ibm-simon.jpg)
 
 Business took up the idea from Canada. **Research In Motion** of Waterloo,
 Ontario, launched the first [**BlackBerry**](kloom:e/blackberry) in 1999, a two-way pager for
@@ -59,7 +59,7 @@ maker could build a phone on it.
 
 | Year | Device                    | What it added                                 |
 | ---- | ------------------------- | --------------------------------------------- |
-| 1994 | IBM Simon                 | Phone, organiser, fax and email, touch screen |
+| 1994 | IBM Simon                 | Phone, organizer, fax and email, touch screen |
 | 1999 | BlackBerry 850            | Email pushed to a pager with a keyboard       |
 | 2002 | BlackBerry 5810           | The same, and a phone                         |
 | 2007 | iPhone                    | Multi-touch, a full web browser               |

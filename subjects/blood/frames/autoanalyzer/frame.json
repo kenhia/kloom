@@ -9,7 +9,7 @@
 		"illustration": "scene.svg",
 		"metadata": [
 			"CLEVELAND · LEONARD SKEGGS · TECHNICON",
-			"PUMP · AIR BUBBLES · DIALYSER · FLOW-CELL COLORIMETER"
+			"PUMP · AIR BUBBLES · DIALYZER · FLOW-CELL COLORIMETER"
 		],
 		"counter": { "value": "$3,200", "label": "the price of each of the first ten AutoAnalyzers" }
 	},
@@ -104,7 +104,7 @@
 	"connections": [
 		{
 			"to": "chemistry/enzymes",
-			"why": "Folin and Wu split blood urea with an extract of jack-bean meal, the urease Sumner crystallised in 1926 as the first enzyme shown to be a protein, and Skeggs's first AutoAnalyzer ran the same urease reaction in a stream."
+			"why": "Folin and Wu split blood urea with an extract of jack-bean meal, the urease Sumner crystallized in 1926 as the first enzyme shown to be a protein, and Skeggs's first AutoAnalyzer ran the same urease reaction in a stream."
 		},
 		{
 			"to": "chemistry/wohler-urea",

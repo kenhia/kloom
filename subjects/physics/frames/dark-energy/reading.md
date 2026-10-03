@@ -64,7 +64,7 @@ orders of magnitude". That is the number usually quoted, and the reason
 this has been called the worst prediction in physics. It is not the only
 estimate. Jérôme Martin argued in 2012 that cutting the sum off at the
 Planck scale breaks the symmetry of relativity, and that a properly
-renormalised calculation gives a mismatch of "something like 54 orders
+renormalized calculation gives a mismatch of "something like 54 orders
 of magnitude". Either way, no known theory gives the small value
 observed.
 
@@ -72,7 +72,7 @@ observed.
 
 A cosmological constant is constant: as the universe grows, its density
 stays the same. The **[Dark Energy Spectroscopic Instrument](kloom:e/dark-energy-spectroscopic-instrument)** (DESI), 5,000
-robot-positioned fibres on the Mayall telescope at Kitt Peak in Arizona,
+robot-positioned fibers on the Mayall telescope at Kitt Peak in Arizona,
 began its survey in May 2021 to test that. It maps galaxies in three
 dimensions and measures, at several epochs, a ripple of fixed size left in
 their spacing by sound waves in the early universe.
@@ -83,7 +83,7 @@ Its second data release, in March 2025, drew on more than 14 million
 galaxies and quasars. Combined with the cosmic microwave background, it
 preferred dark energy that weakens over time to **dark energy** that
 stays constant, by 3.1 standard deviations, and by 2.8 to 4.2 with
-supernovae added, depending on which catalogue of supernovae was used.
+supernovae added, depending on which catalog of supernovae was used.
 Physics asks for five before it calls something a discovery.
 
 ![Bar chart of the preference for evolving dark energy over a cosmological constant, in standard deviations: DESI with the CMB, 3.1; adding Pantheon+ supernovae, 2.8; Union3, 3.8; the Dark Energy Survey's supernovae, 4.2; the same supernovae recalibrated in 2026, 3.2; the full Dark Energy Survey alone, 2.2. Five is the usual threshold for a discovery](significance.svg)

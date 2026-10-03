@@ -32,7 +32,7 @@ Nearly everything else was bought:
 | Monitor          | an existing design of IBM Japan |
 | BIOS             | IBM, in one 8 KB ROM            |
 
-![An IBM PC on a desk: a flat grey system unit with two floppy drive slots, a monitor on top showing a line graph, and a keyboard in front](ibm-pc.jpg)
+![An IBM PC on a desk: a flat gray system unit with two floppy drive slots, a monitor on top showing a line graph, and a keyboard in front](ibm-pc.jpg)
 
 ## The 8088 and the megabyte
 

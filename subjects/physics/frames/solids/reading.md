@@ -12,7 +12,7 @@ four years, and explained the material of modern electronics.
 In Leipzig in 1928 **[Felix Bloch](kloom:e/felix-bloch)**, Heisenberg's first doctoral student,
 asked how an electron moves through a perfectly regular lattice of atoms.
 His answer, published early the next year, is now called Bloch's theorem:
-the electron's wave is a plain travelling wave multiplied by a pattern
+the electron's wave is a plain traveling wave multiplied by a pattern
 that repeats with the lattice. Such a wave passes through a perfect
 crystal without scattering at all. Resistance, in Bloch's picture, comes
 only from what spoils the regularity: impurities, defects and the
@@ -20,7 +20,7 @@ vibrations of the atoms.
 
 The same waves have forbidden energies. Where an electron's wavelength
 fits the spacing of the atoms, waves reflected from successive rows add
-up, and no travelling wave of that energy exists. The allowed energies
+up, and no traveling wave of that energy exists. The allowed energies
 fall into **bands**, separated by **gaps**; the plate computes them for a
 row of atoms, the parabola of a free electron broken where it meets the
 edges of the zone. In 1929 **[Rudolf Peierls](kloom:e/rudolf-peierls)** used Bloch's waves to show
@@ -43,7 +43,7 @@ why samples of the same material disagreed so wildly. The theory of
 interest in it at Cambridge, turned to nuclear physics, and after the war
 left science for industry, ending as chairman of Glaxo.
 
-![Bar chart on a logarithmic scale of the electrical resistivity of five materials at room temperature, in ohm-metres: copper 1.7 × 10⁻⁸; germanium 0.46; silicon 2,300; diamond 10¹²; fused quartz 7.5 × 10¹⁷](resistivity.svg)
+![Bar chart on a logarithmic scale of the electrical resistivity of five materials at room temperature, in ohm-meters: copper 1.7 × 10⁻⁸; germanium 0.46; silicon 2,300; diamond 10¹²; fused quartz 7.5 × 10¹⁷](resistivity.svg)
 
 | Material     | Band gap, eV | Resistivity, Ω·m |
 | ------------ | -----------: | ---------------: |
@@ -74,9 +74,9 @@ accounts date the discovery to 1939, when the odd rod first puzzled a
 colleague.
 
 How much a trace matters is easy to work out. Pure silicon holds about
-5 × 10²² atoms in a cubic centimetre. Replace one in five million with
-phosphorus, 10¹⁶ per cubic centimetre, and with an electron mobility of
-1,400 cm²/V·s its resistivity falls from 2,300 to about 0.0045 ohm-metres:
+5 × 10²² atoms in a cubic centimeter. Replace one in five million with
+phosphorus, 10¹⁶ per cubic centimeter, and with an electron mobility of
+1,400 cm²/V·s its resistivity falls from 2,300 to about 0.0045 ohm-meters:
 half a million times lower. (The arithmetic is ours, from the sourced
 figures.)
 

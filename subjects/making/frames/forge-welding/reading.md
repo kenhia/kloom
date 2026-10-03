@@ -6,7 +6,7 @@ John Lord Bacon, teaching forge-work in Chicago in 1904, put it plainly. As iron
 
 The enemy is scale. Hot iron in air grows a skin of iron oxide, which will not melt at a heat the iron can survive, and a skin left between two pieces keeps them apart. The smith's answer is a flux, a dust thrown on at a yellow heat. Joseph Moxon's smiths in 1677 took "a little white Sand between your Finger and your Thumb". Bacon's used sand or **[borax](kloom:e/borax)**, or four parts borax to one of sal ammoniac for tool steel. The flux melts over the iron, keeps air off it and dissolves the oxide already there into a runny slag that the blows squeeze out of the joint. It is not a glue, Bacon insists: it "does not in any way stick the pieces together". The same article gives the chemistry of the oldest flux: silica from the sand joins the iron oxide to make fayalite, an iron silicate that melts just below the welding heat. Slag of that kind, the archaeometallurgist Alan Williams notes, runs liquid at about 1,100–1,200 °C.
 
-How hot is a welding heat? Moxon said the iron should be almost "ready to Run" inside as well as out, Bacon that it should "seem almost white", and both warned that a little more burns it. Bacon's sign of burning iron is a shower of white, exploding, star-shaped sparks; burnt iron comes out spongy and brittle, "absolutely worthless". In the colour table Wikipedia attributes to Chapman, almost white is about 1,260–1,310 °C. Wikipedia's article on forge welding puts pure iron higher, at 1,400–1,500 °C, close to its melting point, and steel lower the more carbon it holds, down to 900–1,100 °C at 2 per cent: the more carbon, the lower the welding heat.
+How hot is a welding heat? Moxon said the iron should be almost "ready to Run" inside as well as out, Bacon that it should "seem almost white", and both warned that a little more burns it. Bacon's sign of burning iron is a shower of white, exploding, star-shaped sparks; burnt iron comes out spongy and brittle, "absolutely worthless". In the color table Wikipedia attributes to Chapman, almost white is about 1,260–1,310 °C. Wikipedia's article on forge welding puts pure iron higher, at 1,400–1,500 °C, close to its melting point, and steel lower the more carbon it holds, down to 900–1,100 °C at 2 per cent: the more carbon, the lower the welding heat.
 
 ## A lap weld, step by step
 
@@ -20,7 +20,7 @@ Bacon's instructions for joining two flat bars end to end:
 | Lay   | the helper's piece scarf up, the smith's scarf down on top, thin edges over the thick ridge      | so the blows close the joint from the middle outwards      |
 | Weld  | rapid blows, the thin edges and points first                                                     | they cool first                                            |
 
-The scarf should be about one and a half times as long as the bar is thick: three quarters of an inch on a half-inch bar, or, by our arithmetic, 30 millimetres on a bar 20 millimetres thick. A concave scarf is the classic mistake. Its edges meet first, weld shut, and trap a pocket of melted scale in the middle of the joint. A weld taken too cold fails the other way: the pieces "will not stick, and no amount of hammering will weld them".
+The scarf should be about one and a half times as long as the bar is thick: three quarters of an inch on a half-inch bar, or, by our arithmetic, 30 millimeters on a bar 20 millimeters thick. A concave scarf is the classic mistake. Its edges meet first, weld shut, and trap a pocket of melted scale in the middle of the joint. A weld taken too cold fails the other way: the pieces "will not stick, and no amount of hammering will weld them".
 
 ## Anchors, pillars and barrels
 
@@ -28,7 +28,7 @@ Big work was built the same way, many bars at a time. Moxon noted that anchor-sm
 
 ![An eighteenth-century engraving of an anchor forge: men turning a long bundle of iron bars, slung from a crane, under the hammer, with the stages of the shank drawn below](anchor-forge.jpg)
 
-Bacon called it faggot or pile welding: scrap tied into a pile, brought to a welding heat in a furnace with sand for flux, and hammered into one lump. Because iron was made in small amounts, Wikipedia's article on forge welding notes, any large object had to be built up from smaller pieces. The **[iron pillar of Delhi](kloom:e/iron-pillar-of-delhi)**, made for the Gupta emperor Chandragupta II around AD 400, is more than six tonnes of iron, 7.21 metres tall, forge welded from pieces of wrought iron.
+Bacon called it faggot or pile welding: scrap tied into a pile, brought to a welding heat in a furnace with sand for flux, and hammered into one lump. Because iron was made in small amounts, Wikipedia's article on forge welding notes, any large object had to be built up from smaller pieces. The **[iron pillar of Delhi](kloom:e/iron-pillar-of-delhi)**, made for the Gupta emperor Chandragupta II around AD 400, is more than six tonnes of iron, 7.21 meters tall, forge welded from pieces of wrought iron.
 
 ![A dark iron pillar with a ribbed capital standing in a stone courtyard inside a carved archway, with two visitors beside its railing](delhi-pillar.jpg)
 

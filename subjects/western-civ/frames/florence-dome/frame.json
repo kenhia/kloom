@@ -10,7 +10,7 @@
 		"accent": "REBIRTH.",
 		"palette": "parchment",
 		"illustration": "scene.svg",
-		"metadata": ["FLORENCE · FILIPPO BRUNELLESCHI", "BUILT 1420–1436 WITHOUT CENTRING"],
+		"metadata": ["FLORENCE · FILIPPO BRUNELLESCHI", "BUILT 1420–1436 WITHOUT CENTERING"],
 		"counter": {
 			"value": "4,000,000+",
 			"label": "bricks"
@@ -51,7 +51,7 @@
 	"connections": [
 		{
 			"to": "western-civ/pantheon",
-			"why": "Florence needed a dome larger than any built since the Pantheon's 43 metres; Brunelleschi, said to have studied Rome's ruins, raised one almost 42 metres across without centring."
+			"why": "Florence needed a dome larger than any built since the Pantheon's 43 meters; Brunelleschi, said to have studied Rome's ruins, raised one almost 42 meters across without centering."
 		}
 	]
 }

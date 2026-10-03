@@ -8,7 +8,7 @@ September 2026.
 ## A name for a business case
 
 On **22 January 1998** [Netscape](kloom:e/netscape) announced that it would give its Navigator browser away and publish the
-source code of the next version of Communicator, under a licence it said
+source code of the next version of Communicator, under a license it said
 built on the heritage of the GNU GPL, to "harness the creative power of
 thousands of programmers on the Internet". The code went out in March,
 and became the Mozilla project.

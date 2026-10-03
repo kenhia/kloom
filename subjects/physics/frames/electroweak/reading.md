@@ -14,7 +14,7 @@ could not be tamed as those of quantum electrodynamics had been.
 The way to a theory without those infinities ran through a symmetry.
 Electromagnetism is a _gauge theory_: the photon is what a local symmetry
 of the electron's field requires. In 1954 **Chen-Ning Yang** and Robert
-Mills generalised the idea to symmetries whose operations do not commute,
+Mills generalized the idea to symmetries whose operations do not commute,
 the **[Yang–Mills theory](kloom:e/yang-mills-theory)**. Its carriers came out massless, and when Yang
 presented it at Princeton, Wolfgang Pauli pressed him on the mass. The
 paper conceded that the authors did not have "a satisfactory answer".
@@ -26,7 +26,7 @@ Copenhagen in 1960 Glashow found the right symmetry group, SU(2) × U(1),
 with two neutral carriers: the massless photon and a heavy one he called B,
 now the Z. **[Abdus Salam](kloom:e/abdus-salam)** and John Ward reached it independently. But
 Glashow put the masses in by hand, the strength of the neutral force was
-left open, and the model could not be renormalised. He later wrote that he
+left open, and the model could not be renormalized. He later wrote that he
 had "completely missed the boat".
 
 ## The right ideas, the wrong problem
@@ -48,7 +48,7 @@ and the Z. The photon stays massless, the W and Z become heavy, and one
 measured angle fixes the Z's mass and the neutral force's strength. Today
 sin²θ_W is about 0.23.
 
-Weinberg suspected that the theory could be renormalised but could not
+Weinberg suspected that the theory could be renormalized but could not
 prove it, and for four years it drew almost no attention.
 
 ## Utrecht, 1971
@@ -64,8 +64,8 @@ a _neutral current_, a weak interaction in which no charge changes hands.
 
 ## Gargamelle
 
-**[Gargamelle](kloom:e/gargamelle)** was a bubble chamber at **CERN** built at Saclay, 4.8 metres
-long and holding 12 cubic metres of heavy Freon, run by a collaboration of
+**[Gargamelle](kloom:e/gargamelle)** was a bubble chamber at **CERN** built at Saclay, 4.8 meters
+long and holding 12 cubic meters of heavy Freon, run by a collaboration of
 seven laboratories under André Lagarrigue. Neutral currents were fifth on
 its list of priorities. Weinberg calculated late in 1971 that his theory
 predicted rates low enough to have escaped earlier searches.

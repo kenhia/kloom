@@ -33,12 +33,12 @@ to yellow to orange, clouds form and vanish as the shock passed through the
 air, and an orange ball rise and blacken at its edges, with a purple glow
 around it that did not move when he moved his eyes.
 
-![The Trinity fireball sixteen thousandths of a second after the explosion: a dome of light about two hundred metres high, its surface mottled, sitting on the desert floor with a skirt of dust at its base](trinity-fireball.jpg)
+![The Trinity fireball sixteen thousandths of a second after the explosion: a dome of light about two hundred meters high, its surface mottled, sitting on the desert floor with a skirt of dust at its base](trinity-fireball.jpg)
 
 Then, after a silence of about a minute and a half, came a sharp crack and
 a long rumble. That, he said, was what convinced him. The arithmetic bears
-his memory out. Sound in air travels at about 340 metres a second, and
-twenty miles is 32 kilometres, so the crack should have taken about 95
+his memory out. Sound in air travels at about 340 meters a second, and
+twenty miles is 32 kilometers, so the crack should have taken about 95
 seconds. The man beside him, the _New York Times_ reporter **[William
 Laurence](kloom:e/william-l-laurence)**, asked what it was.
 
@@ -52,7 +52,7 @@ had watched with one eye covered by welder's glass and the other open.
 The explosion was far bigger than T Division's forecast. **[Enrico Fermi](kloom:e/enrico-fermi)**
 dropped scraps of paper as the blast went by and paced out how far they
 flew: about ten thousand tons of TNT, he estimated. The radiochemists who
-analysed the soil in the crater put it at 18.6 kilotons; the official
+analyzed the soil in the crater put it at 18.6 kilotons; the official
 figure is 21; and a Los Alamos team using modern mass spectrometry put it
 in 2021 at 24.8, give or take 2.
 

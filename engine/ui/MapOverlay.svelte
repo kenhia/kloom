@@ -326,7 +326,7 @@
 		[
 			n.full,
 			n.detail,
-			n.id === view?.center && view.target.view !== 'library' ? 'centre' : null,
+			n.id === view?.center && view.target.view !== 'library' ? 'center' : null,
 			n.id === `f:${here}` ? 'you are here' : null
 		]
 			.filter(Boolean)
@@ -490,7 +490,7 @@
 										</a>
 										<!-- eslint-enable svelte/no-navigation-without-resolve -->
 										<button type="button" class="centre" onclick={() => centre(item.node)}>
-											Centre<span class="visually-hidden"> the map on {item.label}</span>
+											Center<span class="visually-hidden"> the map on {item.label}</span>
 										</button>
 									{:else}
 										<button type="button" class="entry" data-stop onclick={() => centre(item.node)}>
@@ -515,7 +515,7 @@
 			<div
 				class="canvas"
 				role="group"
-				aria-label="{view.title}: arrows move between neighbours, Enter goes, Space centres"
+				aria-label="{view.title}: arrows move between neighbors, Enter goes, Space centers"
 				bind:this={canvas}
 				bind:clientWidth={width}
 				bind:clientHeight={height}
@@ -597,7 +597,7 @@
 							{/if}
 							{#if detail.n.id !== view.center}
 								<button type="button" onclick={() => centre(detail.n.id)}>
-									Centre on it <kbd>Space</kbd>
+									Center on it <kbd>Space</kbd>
 								</button>
 							{/if}
 						</p>

@@ -73,7 +73,7 @@ ten seconds "destroys the illusion of having one's own computer". By 1972
 it served more than a hundred users at once, because most of what they
 asked took less than a second of computer time.
 
-![A Teletype Model 33 ASR at the Computer History Museum, its roll of paper above the keyboard and paper-tape punch and reader at its left, labelled TimeShare](asr33.jpg)
+![A Teletype Model 33 ASR at the Computer History Museum, its roll of paper above the keyboard and paper-tape punch and reader at its left, labeled TimeShare](asr33.jpg)
 
 | System | Running from | Computer           | Terminals                        |
 | ------ | ------------ | ------------------ | -------------------------------- |
@@ -86,6 +86,6 @@ McCarthy drew the conclusion in a talk at MIT's centennial in 1961:
 computing "may someday be organized as a public utility", like the
 telephone system. General Electric sold time on systems grown from
 Dartmouth's, and for two decades mainframe makers and bureaus rented
-computing time to banks and businesses from their own data centres. MIT, for its part, waited for a new machine: IBM
+computing time to banks and businesses from their own data centers. MIT, for its part, waited for a new machine: IBM
 asked it to hold off, McCarthy recalled, while it designed a family that
 took longer than expected.

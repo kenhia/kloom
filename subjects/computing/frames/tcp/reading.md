@@ -8,14 +8,14 @@ does it with numbers, a timer and, since 1988, a sense of when to slow down.
 
 TCP's first specification, **RFC 675** of December 1974 by **[Vint Cerf](kloom:e/vint-cerf)**,
 **Yogen Dalal** and **Carl Sunshine**, described one program that did
-everything; the version standardised as **RFC 793** in September 1981 left
+everything; the version standardized as **RFC 793** in September 1981 left
 addressing and routing to IP. Its method takes a few sentences of RFC 793.
 Every byte sent is given a _sequence number_. The receiver sends back an
-_acknowledgement_ naming the next byte it expects, which confirms everything
-before it. A sender that hears no acknowledgement within a timeout sends
+_acknowledgment_ naming the next byte it expects, which confirms everything
+before it. A sender that hears no acknowledgment within a timeout sends
 the data again. The receiver uses the numbers to put segments back in
 order and to throw away duplicates, a checksum on every segment catches
-damage, and a _window_ in each acknowledgement tells the sender how much
+damage, and a _window_ in each acknowledgment tells the sender how much
 more it may send.
 
 Before any data flows, the two ends agree on where their numbering starts,
@@ -33,7 +33,7 @@ segment from an old connection cannot be mistaken for part of a new one.
 RFC 793 took the starting number from a 32-bit clock ticking about every
 four microseconds, which wraps round every 4.55 hours, longer than a
 segment was expected to survive in the network. After the handshake, the
-plate loses a data segment: no acknowledgement comes, the timer runs out,
+plate loses a data segment: no acknowledgment comes, the timer runs out,
 and A sends the same bytes again.
 
 ## Collapse
@@ -54,11 +54,11 @@ packet into the network only as an old one leaves. Two rules did most of the
 work, both governed by a _congestion window_ that caps how much a sender
 has in flight:
 
-| Rule                 | What the sender does                                   |
-| -------------------- | ------------------------------------------------------ |
-| Slow start           | begin at one packet; add one for every acknowledgement |
-| Congestion avoidance | on a timeout, halve the window                         |
-|                      | otherwise, grow by about one packet per round trip     |
+| Rule                 | What the sender does                                  |
+| -------------------- | ----------------------------------------------------- |
+| Slow start           | begin at one packet; add one for every acknowledgment |
+| Congestion avoidance | on a timeout, halve the window                        |
+|                      | otherwise, grow by about one packet per round trip    |
 
 Slow start, despite its name, doubles the window every round trip until it
 finds the path's limit. The halving and the slow growth after it are
@@ -86,7 +86,7 @@ that argument built.
 TCP has kept evolving at the ends. In August 2022 **RFC 9293** gathered
 four decades of amendments into one document and retired RFC 793. Linux
 has used a newer congestion rule, CUBIC, by default since 2006, and Google
-introduced BBR, which models the path instead of waiting for losses, in 2016. [**QUIC**](kloom:e/quic), standardised in May 2021, rebuilds reliable streams on top
+introduced BBR, which models the path instead of waiting for losses, in 2016. [**QUIC**](kloom:e/quic), standardized in May 2021, rebuilds reliable streams on top
 of UDP with encryption built in, and HTTP/3 runs over it. A reliable
 connection still needs an address to connect to, and people remember names
 instead, which is the next layer's work.

@@ -2,7 +2,7 @@ In 1925 Howard Carter, unwrapping the mummy of Tutankhamun, found two daggers ag
 
 ## From the sky to the ground
 
-Nathaniel Erb-Satullo's 2019 review of the evidence finds that the iron objects analysed from before 2000 BC are meteoritic, and that small amounts of iron were smelted in Anatolia early in the second millennium BC. In the thirteenth century BC the **[Hittite](kloom:e/hittites)** king Hattušili III wrote to an Assyrian king that his store of "good iron" had run out and "it is not a suitable time to produce iron". That letter once supported the idea of a Hittite monopoly on iron; the review counts the idea "convincingly rejected". Iron turns up more regularly after about 1200 BC, the conventional start of the **[Iron Age](kloom:e/iron-age)** in the eastern Mediterranean, with Cyprus and the southern Levant among the first to take it up, but workshops and their debris become common only in the tenth and ninth centuries.
+Nathaniel Erb-Satullo's 2019 review of the evidence finds that the iron objects analyzed from before 2000 BC are meteoritic, and that small amounts of iron were smelted in Anatolia early in the second millennium BC. In the thirteenth century BC the **[Hittite](kloom:e/hittites)** king Hattušili III wrote to an Assyrian king that his store of "good iron" had run out and "it is not a suitable time to produce iron". That letter once supported the idea of a Hittite monopoly on iron; the review counts the idea "convincingly rejected". Iron turns up more regularly after about 1200 BC, the conventional start of the **[Iron Age](kloom:e/iron-age)** in the eastern Mediterranean, with Cyprus and the southern Levant among the first to take it up, but workshops and their debris become common only in the tenth and ninth centuries.
 
 Why iron won is still argued. It was not harder: unless carbon is worked into it and it is quenched, iron is no harder than a bronze of 10 per cent tin, and the review finds little sign that early smiths did either consistently. But iron is everywhere. The Earth's crust holds about 54,000 parts per million of iron against 50 of copper, and the tin that bronze needs may have come from as far away as Central Asia.
 
@@ -18,7 +18,7 @@ Lee Sauder and Skip Williams, smiths in Virginia, published their method in 2002
 | The ore             | goethite, 58% iron, roasted and broken to under 20 mm             |
 | Preheating          | a wood fire, then charcoal and blast, for 1½ hours                |
 | Charging            | 6.8 kg of charcoal, then 6.8 kg of ore, about every 20 minutes    |
-| The blast           | 1,275 to 1,625 litres of air a minute                             |
+| The blast           | 1,275 to 1,625 liters of air a minute                             |
 | Tapping and feeding | slag drawn off, broken up and fed back with charcoal              |
 | Last charge         | fresh ore, to take carbon out of the bloom                        |
 | After 5½ hours      | a 14 kg bloom: 60% of the iron in the ore, for 94 kg of charcoal  |

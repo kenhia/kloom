@@ -1,14 +1,14 @@
 In May 1981 about fifty physicists and computer scientists spent three
-days at **[Endicott House](kloom:e/endicott-house)**, MIT's conference centre in a mansion in
+days at **[Endicott House](kloom:e/endicott-house)**, MIT's conference center in a mansion in
 Dedham, Massachusetts, at a meeting called the **Physics of
-Computation**. It was organised by **[Ed Fredkin](kloom:e/edward-fredkin)** of MIT, **[Rolf
+Computation**. It was organized by **[Ed Fredkin](kloom:e/edward-fredkin)** of MIT, **[Rolf
 Landauer](kloom:e/rolf-landauer)** of IBM and **[Tommaso Toffoli](kloom:e/tommaso-toffoli)**, and its question was what the
 laws of physics allow a computer to do. [Feynman](kloom:e/richard-feynman) gave the keynote. His
 talk, printed the next year as **"Simulating Physics with Computers"** in
 the _International Journal of Theoretical Physics_, is now read as the
 founding statement of [quantum simulation](kloom:e/quantum-simulator).
 
-![Endicott House in Dedham in 2010: a three-storey brick mansion with a steep slate roof, dormer windows and tall chimneys, a flag by the entrance and a lawn in front](endicott-house.jpg)
+![Endicott House in Dedham in 2010: a three-story brick mansion with a steep slate roof, dormer windows and tall chimneys, a flag by the entrance and a lawn in front](endicott-house.jpg)
 
 ## The rules of the game
 
@@ -54,7 +54,7 @@ quarters of the time: cos² 30°.
 Now suppose each photon carries its answers with it, fixed in advance for
 every angle, so that a local machine could simulate it. Feynman took six
 angles, 30° apart, and marked each O or E. Whatever the pattern, the
-chance that neighbouring angles agree can never exceed two thirds. Three
+chance that neighboring angles agree can never exceed two thirds. Three
 quarters is more than two thirds, and no local classical machine can make
 up the difference. He had squeezed the strangeness of quantum mechanics,
 he said, into one number being bigger than another. It is, in effect,

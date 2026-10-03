@@ -8,13 +8,13 @@ atom.
 
 ## Lines in the Sun
 
-Newton had spread sunlight into a band of colours with a prism, and it
+Newton had spread sunlight into a band of colors with a prism, and it
 looked continuous. In 1802 William Hyde Wollaston saw a few dark lines
 across it. In 1814 a Munich glassmaker and optician, **[Joseph von
 Fraunhofer](kloom:e/joseph-von-fraunhofer)**, looked with a far better prism and a small telescope, and
 found hundreds. Accounts of how many differ: Wikipedia's articles give 574,
 or "over 570"; Arthur Berry's history of 1898 says he saw about 600 and
-mapped 324. He labelled the strongest with letters, A to K, and used them
+mapped 324. He labeled the strongest with letters, A to K, and used them
 as fixed marks to measure the refraction of his glass. The **[Fraunhofer
 lines](kloom:e/fraunhofer-lines)** appeared in a different pattern in the spectra of bright stars, so
 they belonged to the light's source, not to our air. Nobody
@@ -28,15 +28,15 @@ salt in it was well known to show a bright yellow pair in the same place.
 ## Two professors and a burner
 
 At Heidelberg in 1859 the chemist **[Robert Bunsen](kloom:e/robert-bunsen)** was studying the
-colours salts give to a flame, using the hot, nearly colourless gas burner
+colors salts give to a flame, using the hot, nearly colorless gas burner
 he and his assistant Peter Desaga had perfected. The physicist **[Gustav
-Kirchhoff](kloom:e/gustav-kirchhoff)** suggested looking at the colours through a prism. By October
+Kirchhoff](kloom:e/gustav-kirchhoff)** suggested looking at the colors through a prism. By October
 they had a spectroscope: a slit, a lens to make its light parallel, a
 prism in a blackened box, and a small telescope to view the result. The
 plate draws the light's path through such a prism. Each metal, purified
 over and over, gave its own set of bright lines, whatever salt it came in
 and however it was heated. The test was absurdly sensitive: burning three
-milligrams of sodium salt in a far corner of a room of 60 cubic metres
+milligrams of sodium salt in a far corner of a room of 60 cubic meters
 lit the sodium line in their flame for ten minutes, and they reckoned
 the eye could see "with the greatest ease" less than a three-millionth of
 a milligram.
@@ -44,10 +44,10 @@ a milligram.
 ![A wood engraving of Kirchhoff and Bunsen's spectroscope: a box on three legs holding a prism, with a tube carrying the slit pointed at a burner flame and a viewing telescope set at an angle on the other side](spectroscope-1860.jpg)
 
 Then Kirchhoff sent sunlight through a sodium flame. The dark D lines did
-not fill in; they grew darker. A cool vapour, he concluded, absorbs the
-very colours it emits when hot. Sunlight comes from a hot body wrapped in
+not fill in; they grew darker. A cool vapor, he concluded, absorbs the
+very colors it emits when hot. Sunlight comes from a hot body wrapped in
 cooler gas, and each dark line is an element in that gas taking its own
-colour out of the light. From the D lines, "the presence of sodium in the
+color out of the light. From the D lines, "the presence of sodium in the
 sun's atmosphere may be concluded." He argued the point against the
 obvious objection that the lines came from our own air: they did not
 darken as the Sun set, and some stars lacked them. **Kirchhoff's law of
@@ -60,9 +60,9 @@ there.
 
 The method worked the other way round too. In 1860, in the spectrum of
 mineral water from Dürkheim, Bunsen saw two blue lines that belonged to no
-known element. Some forty tons of the water, about 44,000 litres, were boiled
+known element. Some forty tons of the water, about 44,000 liters, were boiled
 down to 240 kilograms of brine to get at it. They named the element
-**[caesium](kloom:e/caesium)**, from the Latin for bluish grey. Since 1967 a line in its
+**[cesium](kloom:e/caesium)**, from the Latin for bluish gray. Since 1967 a line in its
 spectrum, far out in the microwaves, has defined the second. In 1861 came rubidium, named
 for the deep red of its lines.
 
@@ -85,7 +85,7 @@ The spectra were a code no one could read. Hydrogen, the simplest gas,
 showed four lines in the visible, measured with great care by Anders
 Ångström. In 1885 **[Johann Jakob Balmer](kloom:e/johann-jakob-balmer)**, a sixty-year-old mathematics
 teacher at a girls' school in Basel, found that all four fitted one rule:
-multiply 364.56 nanometres by _n_²/(_n_² − 4), for _n_ = 3, 4, 5 and 6.
+multiply 364.56 nanometers by _n_²/(_n_² − 4), for _n_ = 3, 4, 5 and 6.
 He predicted a fifth line from _n_ = 7, and his colleague Eduard Hagenbach
 told him Ångström had already measured one there.
 

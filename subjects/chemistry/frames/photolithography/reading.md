@@ -4,9 +4,9 @@ Every chip is a photograph. A film that light changes is spread on a wafer, a pa
 
 The first photoresist was a tar. **[Nicéphore Niépce](kloom:e/nicephore-niepce)**, working at his estate at Saint-Loup-de-Varennes in Burgundy, dissolved _bitumen of Judea_, a natural asphalt, in oil of lavender, spread it thin on a pewter plate and set the plate in a camera obscura at an upstairs window. Light hardened the bitumen where it fell; a wash of lavender oil and white petroleum then carried off the soft, unlit parts. The result, made in 1827, is the oldest surviving photograph from a camera. How long it took is disputed: the traditional estimate, from the sun lighting buildings on both sides, is about eight hours, while the Harry Ransom Center, which owns the plate, says several days.
 
-![A dim grey image on a battered metal plate: the roofs of farm buildings on either side, and a pale sky between them](le-gras.jpg)
+![A dim gray image on a battered metal plate: the roofs of farm buildings on either side, and a pale sky between them](le-gras.jpg)
 
-Bitumen was a _negative_ resist: light made it insoluble, so the image kept the lit parts. Its synthetic successor came from **[Eastman Kodak](kloom:e/kodak)**. In March 1950 Louis Minsk and his colleagues there applied for a patent on _polyvinyl cinnamate_ with a nitro-compound sensitiser, a plastic that light renders insoluble in organic solvents; the patent was granted in September 1952, and Kodak sold the material as KPR, Kodak Photo Resist.
+Bitumen was a _negative_ resist: light made it insoluble, so the image kept the lit parts. Its synthetic successor came from **[Eastman Kodak](kloom:e/kodak)**. In March 1950 Louis Minsk and his colleagues there applied for a patent on _polyvinyl cinnamate_ with a nitro-compound sensitizer, a plastic that light renders insoluble in organic solvents; the patent was granted in September 1952, and Kodak sold the material as KPR, Kodak Photo Resist.
 
 ## A microscope turned round
 
@@ -40,7 +40,7 @@ The finest line a lens can print is about _k_₁λ/NA: the wavelength over the n
 | EUV           | 13.5 nm | 0.33 | 13 nm      | 0.32                       |
 | EUV, high NA  | 13.5 nm | 0.55 | 8 nm       | 0.33                       |
 
-![A 300-millimetre silicon wafer coated with a resist for extreme ultraviolet light, marked in a ring of fifteen spots exposed at rising doses: the first are faint, and from the dose marked E₀ onward the resist has cleared to bare silicon](euv-resist.jpg)
+![A 300-millimeter silicon wafer coated with a resist for extreme ultraviolet light, marked in a ring of fifteen spots exposed at rising doses: the first are faint, and from the dose marked E₀ onward the resist has cleared to bare silicon](euv-resist.jpg)
 
 **[Extreme-ultraviolet lithography](kloom:e/euv-lithography)** gains the wavelength, and pays in chemistry. A photon of 13.5 nm carries about 92 electronvolts against 6.4 at 193 nm, far more than the 3.6 needed to break a carbon–carbon bond, so a given dose arrives as about fourteen times fewer photons, and chance decides where each lands. Amplified resists still carry it, and the acid's wandering both multiplies each photon and blurs the edge.
 

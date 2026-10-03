@@ -61,7 +61,7 @@ on for years.
 In 1962 the program played **Robert Nealey**, a visually impaired player from Stamford,
 Connecticut, whom IBM described as "a former Connecticut checkers champion,
 and one of the nation's foremost players". The program won. Schaeffer, who
-later analysed the game with his own program, found it a draw until Nealey
+later analyzed the game with his own program, found it a draw until Nealey
 blundered at move 16, and pointed out that Nealey was not yet a state
 champion; he won that title in 1966. (Schaeffer's 2007 paper in _Science_
 dates the match to 1963.)

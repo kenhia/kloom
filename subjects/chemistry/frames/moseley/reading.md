@@ -4,13 +4,13 @@ Until 1913 an element's number meant only its place in a list. Chemists ordered 
 
 Moseley worked at the **[University of Manchester](kloom:e/university-of-manchester)**, in the laboratory of **[Ernest Rutherford](kloom:e/ernest-rutherford)**, who had just found the atom's nucleus. A year before, crystals had been shown to diffract X-rays, and the Braggs, father and son, had turned that into a way to measure an X-ray's wavelength: a ray reflects strongly from a crystal only at angles where _n_λ = 2_d_ sin θ, with _d_ the spacing of the crystal's layers.
 
-Moseley put samples of different elements on a small truck inside an X-ray tube, so that a magnet could bring each in turn under the cathode rays. The rays each element gave off passed through a thin aluminium window, fell on a crystal of potassium ferrocyanide, and were caught on a photographic plate, usually in a five-minute exposure. The plate draws the geometry. Every element gave two lines, a strong one he called α and a weaker β, and from element to element they moved in a steady march.
+Moseley put samples of different elements on a small truck inside an X-ray tube, so that a magnet could bring each in turn under the cathode rays. The rays each element gave off passed through a thin aluminum window, fell on a crystal of potassium ferrocyanide, and were caught on a photographic plate, usually in a five-minute exposure. The plate draws the geometry. Every element gave two lines, a strong one he called α and a weaker β, and from element to element they moved in a steady march.
 
 ![Moseley's photographic plate of 1913: short bright bars, each pair the X-ray lines of one element, stepping diagonally down from calcium through titanium, vanadium, chromium, manganese, iron, cobalt, nickel and copper to brass](xray-lines.jpg)
 
 ## A number that steps by one
 
-He turned each α line's wavelength into a frequency, _ν_, and compared it with ¾ of the frequency in hydrogen's own spectrum, the Rydberg frequency _ν_₀. The quantity _Q_ = √(_ν_ ÷ ¾_ν_₀) went up by one, almost exactly, from each element to the next. By our arithmetic, from the wavelengths in his table (the speed of light 3.00 × 10¹⁰ centimetres a second, _ν_₀ = 3.29 × 10¹⁵ a second), his figures come back to the second decimal:
+He turned each α line's wavelength into a frequency, _ν_, and compared it with ¾ of the frequency in hydrogen's own spectrum, the Rydberg frequency _ν_₀. The quantity _Q_ = √(_ν_ ÷ ¾_ν_₀) went up by one, almost exactly, from each element to the next. By our arithmetic, from the wavelengths in his table (the speed of light 3.00 × 10¹⁰ centimeters a second, _ν_₀ = 3.29 × 10¹⁵ a second), his figures come back to the second decimal:
 
 | Element  | Place, _N_ | α wavelength, 10⁻⁸ cm | His _Q_ | _N_ − 1 |
 | -------- | ---------: | --------------------: | ------: | ------: |
@@ -31,7 +31,7 @@ The ¾ was not a guess. It is 1 − ¼, the step from the second to the first or
 
 ## Three gaps
 
-Late in 1913 he moved to the Electrical Laboratory at Oxford (Wikipedia's article on him gives that date in one place and has him leaving Manchester in 1914 in another), and by April 1914 he had measured some forty elements from aluminium to gold. Listed by number, they left gaps only at 43, 61 and 75, and he concluded that "three, and only three, more elements are likely to exist between Al and Au". Wikipedia's article on him counts four gaps, adding 72. His own diagram does not: it gives 72 to lutetium, because the rare earths were then so tangled that thulium took two places. Element 72, hafnium, was found in 1922 by Coster and Hevesy, by its X-ray lines, in zircon; rhenium, 75, followed. The chemists' swaps (argon and potassium, tellurium and iodine) were all confirmed.
+Late in 1913 he moved to the Electrical Laboratory at Oxford (Wikipedia's article on him gives that date in one place and has him leaving Manchester in 1914 in another), and by April 1914 he had measured some forty elements from aluminum to gold. Listed by number, they left gaps only at 43, 61 and 75, and he concluded that "three, and only three, more elements are likely to exist between Al and Au". Wikipedia's article on him counts four gaps, adding 72. His own diagram does not: it gives 72 to lutetium, because the rare earths were then so tangled that thulium took two places. Element 72, hafnium, was found in 1922 by Coster and Hevesy, by its X-ray lines, in zircon; rhenium, 75, followed. The chemists' swaps (argon and potassium, tellurium and iodine) were all confirmed.
 
 When the war came, Moseley joined the Royal Engineers. He was a signals officer at Gallipoli, and on 10 August 1915 he was shot and killed, aged twenty-seven. He has no known grave. Almost fifty years later Niels Bohr said that the "great change came from Moseley".
 

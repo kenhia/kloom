@@ -70,7 +70,7 @@ Kenneth Colby worked on a therapeutic program based on ELIZA,
 Weizenbaum was disturbed that anyone would treat a mindless program as a
 serious tool of therapy. His book _Computer Power and Human Reason_ (1976)
 drew a line between _deciding_, a computation that can be programmed, and
-_choosing_, which is a matter of judgement and values; computers, he argued,
+_choosing_, which is a matter of judgment and values; computers, he argued,
 should not be given decisions that need compassion and wisdom. The book
 estranged him from much of the AI community, a distance he said he came to
 take pride in.

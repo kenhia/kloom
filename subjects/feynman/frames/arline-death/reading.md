@@ -15,7 +15,7 @@ Gleick's biography, have him borrowing Fuchs's Buick for the ordinary
 weekends as well. Money was tight: his salary, $380 a month, covered about
 half of their costs and her medical bills, and they spent down her savings.
 
-![The Presbyterian sanatorium in Albuquerque photographed in 1911: a long two-storey building with deep verandas on both floors, set above a dirt road where a single early motor car is parked](presbyterian-sanatorium.jpg)
+![The Presbyterian sanatorium in Albuquerque photographed in 1911: a long two-story building with deep verandas on both floors, set above a dirt road where a single early motor car is parked](presbyterian-sanatorium.jpg)
 
 In his memory it was a happier time than New Jersey had been. The rules
 were easier, and her room filled with books, a record player and brushes
@@ -31,7 +31,7 @@ censor from the end of 1943, are the story of the trail frame
 
 In June 1945 his [IBM](kloom:e/ibm) group was racing to finish a calculation for the test
 of the bomb when the hospital telephoned. He borrowed Fuchs's car and drove
-south with some soldiers he had picked up. The tyres gave out on the way:
+south with some soldiers he had picked up. The tires gave out on the way:
 four flats in the 1966 telling, three in the 1975 one. The soldiers talked
 a garage into fixing one at once; after the last he left the car twenty or
 thirty miles out and hitchhiked in. Her father was already there.
@@ -48,7 +48,7 @@ clock worked; the plate draws numbers on turning drums.
 | What he told          | 1966 interview | 1975 talk                           |
 | --------------------- | -------------- | ----------------------------------- |
 | Whose car             | Klaus Fuchs's  | Klaus Fuchs's                       |
-| Flat tyres on the way | four           | three                               |
+| Flat tires on the way | four           | three                               |
 | Where Arline lay      | Albuquerque    | Albuquerque; Santa Fe, in one aside |
 
 ## Keeping a straight face
@@ -59,7 +59,7 @@ stayed near him, and hardly anyone put on a long face. Fuchs took him
 visiting, and he sat eating grapes in a psychologist's house, wondering
 whether anyone so observant could tell what he felt, if he chose not to
 show it. Years later, when Fuchs confessed in 1950 to spying for the
-Soviet Union, Feynman savoured the irony: in that room two men had been
+Soviet Union, Feynman savored the irony: in that room two men had been
 hiding what was in their heads.
 
 He did not cry then. In 1966 he said it came a month or two later; in
@@ -70,7 +70,7 @@ His father died on 8 October 1946. Nine days later Feynman wrote Arline a
 letter, telling her that he loved her still, and put it away unsent. It
 was published in _Perfectly Reasonable Deviations from the Beaten Track_
 (2005), the collection of his letters. "I love my wife. My wife is dead,"
-he wrote, and he ended with a postscript apologising for not mailing it,
+he wrote, and he ended with a postscript apologizing for not mailing it,
 since he did not know her new address.
 
 Her death came a month before the test she had never been told about. He

@@ -16,7 +16,7 @@ work after a nuclear attack. He briefed the Air Force in the summer of 1961
 (briefing B-265), wrote it up as RAND paper P-2626, and in August 1964
 published the whole design as eleven memoranda, _On Distributed
 Communications_. The first volume, RM-3420-PR, compares three shapes: a
-_centralised_ star, a _decentralised_ set of stars, and a _distributed_
+_centralized_ star, a _decentralized_ set of stars, and a _distributed_
 mesh. A star dies with its hub. Baran measured a network by the share of
 its stations still connected to the largest surviving group after nodes
 and links are destroyed, and found that a mesh with three times the
@@ -37,7 +37,7 @@ central controller was left for an attack to destroy. [AT&T](kloom:e/at-and-t)'s
 scoffed at voice without dedicated circuits, and the military never built
 it.
 
-![A blue enamelled plaque on a brick wall, in English and Welsh: born in Treorchy, Donald Watts Davies, 1924 to 2000, computer scientist whose work was instrumental in the establishment of the internet](davies-plaque.jpg)
+![A blue enameled plaque on a brick wall, in English and Welsh: born in Treorchy, Donald Watts Davies, 1924 to 2000, computer scientist whose work was instrumental in the establishment of the internet](davies-plaque.jpg)
 
 ## A packet, and a name
 

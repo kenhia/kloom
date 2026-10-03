@@ -17,12 +17,12 @@ Moore and the hospital's control of infection officer, A. M. N. Gardner of its d
 | Sepsis seen    | The control of infection officer inspected the wound with her                    |
 | After          | Swabs weekly, or more often; patients followed to outlying hospitals and clinics |
 | The laboratory | Swabs sent by overnight post to Exeter; every _S. aureus_ phage-typed            |
-| The theatre    | Nasal swabs from every surgeon and theatre nurse (later, every two months)       |
+| The theater    | Nasal swabs from every surgeon and theater nurse (later, every two months)       |
 | The record     | Each patient entered in a special book, then on punched cards for counting       |
 
 The hospital laboratory was too busy for the work, which is why the swabs went by post. **[Phage typing](kloom:e/phage-typing)** was what made the counting mean something: a lawn of each patient's staphylococcus was spotted with a grid of drops of different bacteriophages, and the pattern of clear spots where the bacteria died named its type, so that two wounds infected with the same type pointed to one source. The plate draws such a dish.
 
-Of 559 patients, 71 wounds (12.7%) became septic and 48 (8.6%) grew staphylococci. The typing found that at least five of the infections came from two members of the theatre staff who carried group 80 staphylococci in their noses and had septic skin themselves.
+Of 559 patients, 71 wounds (12.7%) became septic and 48 (8.6%) grew staphylococci. The typing found that at least five of the infections came from two members of the theater staff who carried group 80 staphylococci in their noses and had septic skin themselves.
 
 ## Counting, and telling
 

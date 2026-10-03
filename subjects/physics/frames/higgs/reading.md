@@ -27,7 +27,7 @@ Frank Close has noted, only his dwelt on the new massive
 particle with no spin that the mechanism leaves behind.
 
 The plate draws the field's energy as it is usually pictured. The lowest
-point is not at the centre, where the field is zero and everything is
+point is not at the center, where the field is zero and everything is
 symmetric, but anywhere round a circular trough, at a value of 246 GeV.
 The field settles somewhere on the rim. Moving round the trough costs no
 energy; those would-be massless modes become part of the W and Z. Moving
@@ -38,14 +38,14 @@ mass is not predicted; it is a number to measure.
 
 LEP searched until 2000 and ruled out a Higgs lighter than 114.4 GeV;
 Fermilab's Tevatron excluded 147 to 180 GeV. The American answer was to
-have been the **[Superconducting Super Collider](kloom:e/superconducting-super-collider)**, an 87-kilometre ring near
+have been the **[Superconducting Super Collider](kloom:e/superconducting-super-collider)**, an 87-kilometer ring near
 Waxahachie, Texas, meant to collide protons of 20 TeV each. With 22.5
-kilometres of tunnel bored and about $2 billion spent, Congress cancelled
+kilometers of tunnel bored and about $2 billion spent, Congress canceled
 it in October 1993. Leon Lederman's book of that year, written as support
 drained away, named the Higgs "the God particle", which Higgs found
 embarrassing.
 
-CERN built the **[Large Hadron Collider](kloom:e/large-hadron-collider)** in LEP's 27-kilometre tunnel. It
+CERN built the **[Large Hadron Collider](kloom:e/large-hadron-collider)** in LEP's 27-kilometer tunnel. It
 had been in view for years: Tim Berners-Lee's proposal of 1989 for what
 became the web begins with the question CERN kept asking about "the LHC
 era": how would anyone keep track of so large a project? The first beam
@@ -66,7 +66,7 @@ to at most three; in 2014, in what proved Guralnik's last paper, he and
 Hagen argued that physicists and the Nobel committee still misunderstood
 what the 1964 papers had shown.
 
-![A computer display from CMS: a translucent blue cylinder of detector seen from outside, orange tracks bursting from the collision point at its centre, green towers of deposited energy, and two long red tracks leaving through boxes at the edge, a candidate Higgs boson decaying through two Z bosons into electrons and muons](cms-event.png)
+![A computer display from CMS: a translucent blue cylinder of detector seen from outside, orange tracks bursting from the collision point at its center, green towers of deposited energy, and two long red tracks leaving through boxes at the edge, a candidate Higgs boson decaying through two Z bosons into electrons and muons](cms-event.png)
 
 ## Measured since
 

@@ -31,7 +31,7 @@ fooling a man that quick.
 
 The new cabinets had a combination lock on the top drawer, made, in his
 1966 account, by the **[Mosler Safe Company](kloom:e/mosler-safe-company)**. Behind the dial are three
-wheels, each with a notch, the _gate_. Dialling the right three numbers
+wheels, each with a notch, the _gate_. Dialing the right three numbers
 lines up the gates so that a bar, the _fence_, can drop into them; the
 plate draws the dial and the wheel pack. This design gave no click or give
 to feel for, because the fence did not touch the wheels until the dial was
@@ -52,7 +52,7 @@ document was needed from a safe whose owner was away, he would go for his
 "tools", really to look up the list, shut himself in, and sit reading for
 twenty minutes or so before emerging, so that no one would think it easy.
 
-![A page from the Mosler Safe Company's 1937 catalogue: a bird's-eye drawing of the company's long factory sheds and clock tower at Hamilton, Ohio, above the words "The Largest Builders of Safes and Vaults in the World"](mosler-catalogue.jpg)
+![A page from the Mosler Safe Company's 1937 catalog: a bird's-eye drawing of the company's long factory sheds and clock tower at Hamilton, Ohio, above the words "The Largest Builders of Safes and Vaults in the World"](mosler-catalogue.jpg)
 
 ## The safes of Oak Ridge, and after
 

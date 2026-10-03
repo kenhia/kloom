@@ -42,7 +42,7 @@ in 1972. The Third Edition manual that first describes them is dated
 February 1973, and McIlroy lists them under it; the Fourth, with `|`, came
 that November.
 
-![Doug McIlroy in 2011, grey-haired, in glasses and a tweed jacket, smiling a little](mcilroy.jpg)
+![Doug McIlroy in 2011, gray-haired, in glasses and a tweed jacket, smiling a little](mcilroy.jpg)
 
 ## How a pipe works
 

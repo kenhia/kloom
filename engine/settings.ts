@@ -96,13 +96,13 @@ export function writeSetting(
 }
 
 /**
- * Scene colours (docs/design.md §Colours, korg 3495): the spine's scene, and
+ * Scene colors (docs/design.md §Colours, korg 3495): the spine's scene, and
  * its HUD, coloured by section (the default), by each frame's own palette,
  * or always dark or always light.
  */
 export const sceneColours: Setting = {
 	id: 'scene',
-	label: 'Scene colours',
+	label: 'Scene colors',
 	choices: [
 		{ value: 'section', label: 'By section' },
 		{ value: 'frame', label: 'Each frame' },
@@ -113,10 +113,10 @@ export const sceneColours: Setting = {
 	storageKey: 'kloom.scene'
 };
 
-/** Reading colours: the reading pane, and the panes beside it, as the scene or always one scheme. */
+/** Reading colors: the reading pane, and the panes beside it, as the scene or always one scheme. */
 export const readingColours: Setting = {
 	id: 'reading',
-	label: 'Reading colours',
+	label: 'Reading colors',
 	choices: [
 		{ value: 'same', label: 'Same as scene' },
 		{ value: 'light', label: 'Always light' },
