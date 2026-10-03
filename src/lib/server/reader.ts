@@ -18,10 +18,10 @@ import { env } from '$env/dynamic/private';
  */
 
 export interface Reader {
-	/** `ken@github` from serve, or the host's `user@host` for the other two. */
+	/** `ken@github` from serve, the host's `user@host` for ssh and dev, or a public reader's `<username>@<domain>` (accounts.ts). */
 	login: string;
 	name: string;
-	via: 'tailscale-serve' | 'ssh' | 'dev';
+	via: 'tailscale-serve' | 'ssh' | 'dev' | 'session';
 }
 
 export type Door = 'tailnet' | 'local';

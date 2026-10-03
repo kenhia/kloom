@@ -65,9 +65,7 @@ const page = (
 			data: {
 				...served(),
 				subjects,
-				askModels,
-				askWeb,
-				growModels: grow,
+				ai: { askModels, askWeb, growModels: grow },
 				...extra
 			}
 		} as never
@@ -198,7 +196,11 @@ describe('the subject list', () => {
 	it('is absent when the app serves one subject', () => {
 		const one = render(Page, {
 			props: {
-				data: { ...served(), subjects: [subjects[1]], askModels, askWeb: 'allow', growModels }
+				data: {
+					...served(),
+					subjects: [subjects[1]],
+					ai: { askModels, askWeb: 'allow', growModels }
+				}
 			} as never
 		});
 		expect(one.body).not.toContain('role="listbox"');
@@ -428,9 +430,7 @@ describe('reader data on the page', () => {
 				data: {
 					...served(),
 					subjects,
-					askModels,
-					askWeb: 'allow',
-					growModels,
+					ai: { askModels, askWeb: 'allow', growModels },
 					frame,
 					reader: { name: 'Ken' },
 					readerData: { places: {}, last: null, bookmarks: [], ...readerData }
@@ -549,9 +549,7 @@ describe('the table of contents', () => {
 				data: {
 					...served(),
 					subjects,
-					askModels,
-					askWeb: 'allow',
-					growModels,
+					ai: { askModels, askWeb: 'allow', growModels },
 					frame: null,
 					reader: { name: 'Ken' },
 					readerData: { places: {}, last: null, bookmarks: [] }
@@ -602,6 +600,46 @@ describe('the table of contents', () => {
 		}).body;
 		const at = body.indexOf('href="#prometheus"');
 		expect(text(body.slice(at, body.indexOf('</a>', at)))).toContain('bookmarked');
+	});
+});
+
+describe('with no AI pane (the reader edition, korg 3500)', () => {
+	const bare = (extra: Record<string, unknown> = {}) =>
+		render(Page, {
+			props: { data: { ...served(), subjects, ai: null, ...extra } } as never
+		}).body;
+
+	it('has no AI pane, no AI tab, and no layout or model to choose', () => {
+		const body = bare();
+		expect(body).not.toMatch(/id="ai-pane"|id="ai-input"|id="tab-ai"/);
+		expect(body).not.toMatch(/>Layout<\/label>|>Ask model<\/label>|>Grow model<\/label>/);
+		expect(text(body)).not.toContain('into and out of the AI pane');
+		expect(text(body)).toContain('A timeline you can read and annotate');
+	});
+
+	it('keeps the notes, with the reader’s tabs', () => {
+		const body = bare({
+			reader: { name: 'Joel and Kathy', signedIn: true },
+			readerData: { places: {}, last: null, bookmarks: [], notes: [], kept: {}, unseen: 0 }
+		});
+		expect(body).toMatch(/id="tab-narrative"/);
+		expect(body).toMatch(/id="tab-notes"/);
+	});
+});
+
+describe('the start screen’s Welcome link and sign-out (korg 3501, 3502)', () => {
+	it('links to the Welcome and How-To page always, and offers sign-out to a signed-in reader', () => {
+		const signedIn = page('allow', growModels, {
+			reader: { name: 'Joel and Kathy', signedIn: true }
+		}).body;
+		expect(signedIn).toMatch(/<a href="\/welcome"[^>]*>Welcome and how to read kloom<\/a>/);
+		expect(signedIn).toMatch(/<form method="POST" action="\/signout"/);
+		expect(text(signedIn)).toContain('Signed in as Joel and Kathy');
+		const tailnet = page('allow', growModels, {
+			reader: { name: 'Ken', signedIn: false }
+		}).body;
+		expect(tailnet).toMatch(/Welcome and how to read kloom/);
+		expect(tailnet).not.toMatch(/action="\/signout"/);
 	});
 });
 

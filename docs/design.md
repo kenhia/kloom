@@ -1066,6 +1066,15 @@ Built in sprint 007 (korg 3384 decided it, 3388 built it). Operations are in
   door and a key made at start, overwriting any mark a client sent. The app
   trusts no mark without that key. With no mark, only `vite dev` is trusted.
   A plain `node build`, or `vite preview`, reads but never writes.
+- **The reader edition has no doors.** The public site's build (sprint
+  039, korg 3500, 3501) listens on one public port and takes its reader
+  from a session: an invited login, signed in with a password chosen on a
+  one-time welcome link. There, **every request needs a reader, reads
+  included**; only signing in and a welcome link do not. Door marks and
+  Tailscale headers mean nothing to it. It has no ask, grow or keep at all:
+  they are stripped from its build, not switched off. Operations, and the
+  admin CLI that adds readers, are in [deploying.md](deploying.md)
+  §Editions and §Signing in.
 - **The reader goes on the grow job** (`by`) and becomes the commit's
   author. Keep does not record one yet. Reader data keys every row by the
   reader (§Reader data), and its routes refuse a request with none, reads
@@ -1752,6 +1761,32 @@ past two subjects:
   pop-up closes it and returns focus to its button without leaving the start
   screen; a second Esc begins as before. Both hang from the corner's right
   edge, so neither leaves a 390px screen.
+
+- **Welcome and sign-out** (sprint 039, korg 3501, 3502). Under _Begin_ and
+  the map, a link to the Welcome and How-To page, in both editions. A reader
+  signed in to the reader edition also sees "Signed in as" their display
+  name and a _Sign out_ button, a plain form so it works before the script
+  loads.
+
+## Welcome and How-To
+
+Sprint 039 (korg 3502). One page, `/welcome`, not per subject: where a
+welcome link lands, and linked from the start screen. It explains kloom to
+a reader who is not technical: reading (the spine, the reading, trails,
+names and jumps), finding the way back (Continue, contents, the map,
+bookmarks), notes and annotations, and that they are private to the login.
+It says plainly, before anyone ticks it, that **Agent review sends the
+note to Ken and the agents Ken works with**, and that this is how mistakes
+get fixed. About keeps the note on accuracy; the page points to it rather
+than repeating it. The words never assume one person, since a login may be
+two. Both editions show it: the full edition adds a line on ask and grow,
+and only a signed-in public reader is told how to sign out. The note
+editor's flag says the same at the box, in the reader edition.
+
+With **no AI pane** (the reader edition) the shell is two panes, Narrative
+and Notes as tabs. There is no Layout setting, no model setting and no Q&A
+section, and the start screen's line reads "A timeline you can read and
+annotate".
 
 ## About
 

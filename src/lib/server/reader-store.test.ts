@@ -424,7 +424,9 @@ describe('the file', () => {
 		before.close();
 		// Back to sprint 012's schema, as a file from before this one would be.
 		const raw = new DatabaseSync(path);
-		raw.exec('ALTER TABLE note DROP COLUMN unseen; PRAGMA user_version = 3;');
+		raw.exec(`ALTER TABLE note DROP COLUMN unseen;
+			DROP TABLE account; DROP TABLE session; DROP TABLE invite;
+			PRAGMA user_version = 3;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
 		expect(await store.unseenAnswers(ken)).toBe(1);
@@ -433,6 +435,26 @@ describe('the file', () => {
 			['old', true]
 		]);
 		store.close();
+	});
+
+	it('moves a file made at schema 4 forward: the accounts arrive, the notes stay', async () => {
+		dir = mkdtempSync(join(tmpdir(), 'kloom-reader-'));
+		const path = join(dir, 'reader.db');
+		const before = openReaderStore(path, clock());
+		await before.saveNote(ken, note('turing', 'kept'));
+		before.close();
+		// Back to sprint 034's schema, before the reader edition's sign-in.
+		const raw = new DatabaseSync(path);
+		raw.exec(`DROP TABLE account; DROP TABLE session; DROP TABLE invite;
+			PRAGMA user_version = 4;`);
+		raw.close();
+		const store = openReaderStore(path, clock());
+		expect((await store.allNotes(ken)).map((x) => x.text)).toEqual(['kept']);
+		store.close();
+		const after = new DatabaseSync(path);
+		expect(after.prepare('SELECT count(*) AS n FROM account').get()).toEqual({ n: 0 });
+		expect(after.prepare('PRAGMA user_version').get()).toEqual({ user_version: SCHEMA_VERSION });
+		after.close();
 	});
 
 	it('refuses a file from a newer app rather than guess at its schema', () => {

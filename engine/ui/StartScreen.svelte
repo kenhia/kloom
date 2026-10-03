@@ -52,6 +52,13 @@
 		settings?: UserSettings;
 		/** The About panel top right, left of the gear: the library's counts and this build. */
 		about?: { stats: () => Promise<LibraryStats>; build?: string };
+		/** The Welcome and How-To page's address (korg 3502), offered under Begin. */
+		help?: string;
+		/**
+		 * Signing out, for a reader signed in to the reader edition (korg 3501):
+		 * the form's action, and the login's display name.
+		 */
+		signOut?: { action: string; who: string } | null;
 	}
 
 	interface Resume {
@@ -80,7 +87,9 @@
 		onopen,
 		onmap,
 		settings,
-		about
+		about,
+		help,
+		signOut = null
 	}: Props = $props();
 
 	const id = $props.id();
@@ -293,6 +302,22 @@
 			>
 				Map of the library
 			</button>
+		{/if}
+		{#if help || signOut}
+			<div class="account">
+				{#if help}
+					<!-- An app route, resolved by the page. -->
+					<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+					<a href={help}>Welcome and how to read kloom</a>
+				{/if}
+				{#if signOut}
+					<!-- A plain form, so signing out works before the page's script has loaded. -->
+					<form method="POST" action={signOut.action}>
+						<span>Signed in as {signOut.who}</span>
+						<button type="submit">Sign out</button>
+					</form>
+				{/if}
+			</div>
 		{/if}
 	</div>
 
@@ -511,6 +536,39 @@
 		border-color: color-mix(in srgb, var(--start-muted) 60%, transparent);
 	}
 	.map-button:focus-visible {
+		outline: 2px solid var(--start-accent);
+		outline-offset: 2px;
+	}
+	.account {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: baseline;
+		gap: 0.25rem 1.25rem;
+		margin-top: 0.75rem;
+		font: 0.85rem var(--sans);
+		color: var(--start-muted);
+	}
+	.account a {
+		color: var(--start-ink);
+		text-underline-offset: 0.2em;
+	}
+	.account form {
+		display: flex;
+		align-items: baseline;
+		gap: 0.5rem;
+	}
+	.account button {
+		font: inherit;
+		padding: 0.15rem 0.6rem;
+		color: var(--start-ink);
+		background: none;
+		border: 1px solid color-mix(in srgb, var(--start-muted) 60%, transparent);
+		border-radius: 0.25rem;
+		cursor: pointer;
+	}
+	.account a:focus-visible,
+	.account button:focus-visible {
 		outline: 2px solid var(--start-accent);
 		outline-offset: 2px;
 	}

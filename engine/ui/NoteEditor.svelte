@@ -3,6 +3,8 @@
 	import { NOTE_MAX } from '../reader-data';
 
 	interface Props {
+		/** What ticking "Agent review" does, said beside the box. */
+		flagHint?: string;
 		/** A new note, or an edit of one. */
 		editing: boolean;
 		/** The frame it is on: headline and accent. */
@@ -31,7 +33,8 @@
 		saving = false,
 		error = '',
 		onsave,
-		oncancel
+		oncancel,
+		flagHint = 'Flag it for an agent to look at later.'
 	}: Props = $props();
 
 	const id = $props.id();
@@ -93,7 +96,7 @@
 			<input type="checkbox" bind:checked={flag} aria-describedby="{id}-flag" />
 			Agent review
 		</label>
-		<span id="{id}-flag" class="hint">Flag it for an agent to look at later.</span>
+		<span id="{id}-flag" class="hint">{flagHint}</span>
 	</div>
 	<div class="row">
 		<button type="submit" class="save" disabled={saving || !text.trim()}>

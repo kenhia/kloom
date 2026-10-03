@@ -173,6 +173,8 @@ export interface ReaderStore {
 	exportData(reader: string): Promise<ReaderExport>;
 	/** Merge an export in as `reader`'s; the newer of two records wins. */
 	importData(reader: string, data: ReaderExport): Promise<ImportCounts>;
+	/** Remove everything the store holds for `reader` (a deleted account); what there was. */
+	deleteReader(reader: string): Promise<ImportCounts>;
 }
 
 export interface ImportCounts {
@@ -327,6 +329,11 @@ function noteOf(v: unknown, anchored: boolean): Note | null {
 export interface ReaderLayer {
 	/** This subject's notes, oldest first. */
 	notes: Note[];
+	/**
+	 * What ticking "Agent review" does, said beside the box; the page says
+	 * who reads a flagged note (korg 3502). A plain default when absent.
+	 */
+	reviewSays?: string;
 	/** Kept answers per frame id, in this subject. */
 	kept: Record<string, number>;
 	/** Write a note (the page fills in the subject); null when it failed. */
