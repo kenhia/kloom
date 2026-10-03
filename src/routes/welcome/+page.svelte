@@ -89,8 +89,8 @@
 	</p>
 	<ul>
 		<li>
-			Ticking it <strong>sends that note to Ken and the AI agents he works with</strong>. They read
-			it. A note you leave unticked stays private.
+			Ticking it <strong>sends that note to Ken and to the AI agents Ken works with</strong>. They
+			read it. A note you leave unticked stays private.
 		</li>
 		<li>
 			This is how mistakes in kloom get fixed. If something looks wrong, unclear or missing, a
@@ -132,6 +132,6 @@
 	{/if}
 
 	<h2>Help</h2>
-	<p>If anything is confusing or broken, ask Ken. He would like to know.</p>
+	<p>If anything is confusing or broken, ask Ken, who would like to know.</p>
 	<p><a href={resolve('/')}>Start reading</a></p>
 </Plain>

@@ -115,7 +115,7 @@ karc leg, overseen.
 and the start screen links to it from under Begin. Its copy is quoted in
 full in the wrap-up handoff on korg 3505, for Ken's review. The note
 editor's "Agent review" hint now says the same thing at the box, in the
-reader edition: "Sends this note to Ken and the agents he works with, who
+reader edition: "Sends this note to Ken and Ken’s agents, who
 read it and may answer it here."
 
 ## Decisions

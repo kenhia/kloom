@@ -1776,7 +1776,7 @@ a reader who is not technical: reading (the spine, the reading, trails,
 names and jumps), finding the way back (Continue, contents, the map,
 bookmarks), notes and annotations, and that they are private to the login.
 It says plainly, before anyone ticks it, that **Agent review sends the
-note to Ken and the agents he works with**, and that this is how mistakes
+note to Ken and the agents Ken works with**, and that this is how mistakes
 get fixed. About keeps the note on accuracy; the page points to it rather
 than repeating it. The words never assume one person, since a login may be
 two. Both editions show it: the full edition adds a line on ask and grow,

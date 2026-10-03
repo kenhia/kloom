@@ -17,7 +17,7 @@ describe('the Welcome and How-To page', () => {
 
 	it('says plainly, before the box is ticked, who reads a note flagged for Agent review', () => {
 		const body = text(page({ name: 'Joel and Kathy', signedIn: true }));
-		expect(body).toMatch(/sends that note to Ken and the AI agents he works with/i);
+		expect(body).toMatch(/sends that note to Ken and to the AI agents Ken works with/i);
 		expect(body).toContain('how mistakes in kloom get fixed');
 		expect(body).toContain('private to your login');
 	});

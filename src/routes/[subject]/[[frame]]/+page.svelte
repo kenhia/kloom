@@ -205,7 +205,7 @@
 					// On the public site a flagged note goes to Ken (korg 3502): said where it is ticked.
 					reviewSays:
 						__KLOOM_EDITION__ === 'reader'
-							? 'Sends this note to Ken and the agents he works with, who read it and may answer it here.'
+							? 'Sends this note to Ken and Ken’s agents, who read it and may answer it here.'
 							: undefined,
 					saveNote: async (n) => {
 						const res = await send(resolve('/api/reader/notes'), 'POST', {
