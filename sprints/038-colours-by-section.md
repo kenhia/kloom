@@ -155,3 +155,19 @@ of every subject names its palette, and the dedication frames kept theirs
   expected): the library was rebuilt between its two requests. Run alone
   three times, and in a full `just check` once the content had settled,
   it passed.
+
+## Deployed
+
+2026-10-03, to the service on kai, by `just deploy` from merged `main`
+(`992ee44`, PR #45). `just verify` passed all ten checks: both doors read,
+anonymous writes and reads refused on the tailnet door, a frame's body from
+the library, and pages compressed. The library rebuilt as build `01347f`,
+and the content clone is on `992ee44`.
+
+Checked live on the ssh door (:4891), on `/physics/x-rays`:
+
+- The settings pop-up has Scene colours, Reading colours, Light brightness
+  and Dark brightness, and no Palette row.
+- The scene pane wears gaslight (`--background: #221a1e`), the palette of
+  its section, Cracks in the classical.
+- The served head carries the segment's `palette: "gaslight"`.
