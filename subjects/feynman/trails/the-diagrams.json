@@ -8,6 +8,7 @@
 				"id": "qed",
 				"title": "Quantum electrodynamics",
 				"labelKind": "technology",
+				"palette": "chalkboard",
 				"frames": [
 					"lamb-shift",
 					"propagators",

@@ -8,8 +8,11 @@ from subject_plan import merge_drafts, owner_problems, plan_problems  # noqa: E4
 PALETTES = {'flint', 'chalk'}
 
 
-def plan(frames=None, kind='date', ids=('a', 'b', 'c')):
-    return {'spine': {'segments': [{'id': 's', 'title': 'S', 'labelKind': kind, 'frames': list(ids)}]},
+def plan(frames=None, kind='date', ids=('a', 'b', 'c'), palette=None):
+    seg = {'id': 's', 'title': 'S', 'labelKind': kind, 'frames': list(ids)}
+    if palette:
+        seg['palette'] = palette
+    return {'spine': {'segments': [seg]},
             'trails': [], **({'frames': frames} if frames is not None else {})}
 
 
@@ -40,10 +43,28 @@ class PlanProblems(unittest.TestCase):
         problems, _ = plan_problems(plan({'a': {'palette': 'ember'}}), PALETTES)
         self.assertIn('unknown palette "ember"', problems[0])
 
-    def test_warns_where_a_palette_repeats_down_a_segment(self):
-        problems, warnings = plan_problems(plan({'a': {'palette': 'flint'}, 'b': {'palette': 'flint'}}), PALETTES)
+    def test_a_section_keeps_one_palette_without_a_warning(self):
+        # The old rule (dark and light alternating) is gone: a repeat is the point (korg 3495).
+        frames = {'a': {'palette': 'flint'}, 'b': {'palette': 'flint'}}
+        self.assertEqual(plan_problems(plan(frames, palette='flint'), PALETTES), ([], []))
+
+    def test_warns_where_a_frame_leaves_its_section_with_no_reason(self):
+        frames = {'a': {'palette': 'flint'}, 'b': {'palette': 'chalk'}}
+        problems, warnings = plan_problems(plan(frames, palette='flint'), PALETTES)
         self.assertEqual(problems, [])
-        self.assertEqual(warnings, ['spine segment s: b repeats the palette "flint" of the frame before it'])
+        self.assertEqual(warnings, ['spine segment s: b wears "chalk", not its section\'s "flint"; '
+                                    'match it, or say why in frames.b.paletteWhy'])
+        frames['b']['paletteWhy'] = 'the frame is a night scene'
+        self.assertEqual(plan_problems(plan(frames, palette='flint'), PALETTES), ([], []))
+
+    def test_warns_where_a_segment_names_no_palette_of_its_own(self):
+        problems, warnings = plan_problems(plan({'a': {'palette': 'flint'}}), PALETTES)
+        self.assertEqual(problems, [])
+        self.assertEqual(warnings, ['spine segment s: give the segment its section\'s "palette"; its frames name theirs'])
+
+    def test_a_section_palette_must_be_the_subjects(self):
+        problems, _ = plan_problems(plan(palette='ember'), PALETTES)
+        self.assertIn('segment s: unknown palette "ember"', problems[0])
 
     def test_an_entry_for_a_frame_on_no_spine_is_refused(self):
         problems, _ = plan_problems(plan({'z': {'topic': 'Zed'}}), PALETTES)
@@ -51,7 +72,8 @@ class PlanProblems(unittest.TestCase):
 
     def test_warns_where_a_written_frame_differs_from_its_plan(self):
         written = {'a': {'topic': 'Other', 'position': {'sort': 1}, 'scene': {'palette': 'flint'}}}
-        _, warnings = plan_problems(plan({'a': {'topic': 'Planned', 'sort': 1, 'palette': 'flint'}}), PALETTES, written)
+        _, warnings = plan_problems(plan({'a': {'topic': 'Planned', 'sort': 1, 'palette': 'flint'}}, palette='flint'),
+                                    PALETTES, written)
         self.assertEqual(warnings, ["frames.a: the plan's topic is 'Planned', the frame's 'Other'"])
 
 

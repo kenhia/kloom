@@ -8,6 +8,7 @@
 				"id": "connectionism",
 				"title": "Connectionism",
 				"labelKind": "date",
+				"palette": "terminal",
 				"frames": [
 					"hebbian-learning",
 					"adaline",

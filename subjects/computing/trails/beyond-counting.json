@@ -8,6 +8,7 @@
 				"id": "bead-arithmetic",
 				"title": "What beads can do",
 				"labelKind": "date",
+				"palette": "walnut",
 				"frames": ["jinkoki", "cranmer-abacus", "anzan"]
 			}
 		]

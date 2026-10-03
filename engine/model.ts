@@ -19,6 +19,12 @@ export interface Segment {
 	labelKind: LabelKind;
 	/** Frame ids, in spine order. */
 	frames: string[];
+	/**
+	 * The section's palette (korg 3495): its frames take this palette's scheme
+	 * when the reader colours scenes by section. Optional; the first frame's
+	 * palette stands in.
+	 */
+	palette?: string;
 }
 
 /** An ordered list of frames, split into segments. The scroller walks it. */
@@ -131,8 +137,8 @@ export interface Palette {
 	line: string;
 	/**
 	 * The palette of the other scheme that stands in for this one when the
-	 * reader picks an all-dark or all-light palette mode. Without one, this
-	 * palette is kept in every mode.
+	 * frame is to wear that scheme: by section, or always dark or light.
+	 * Without one, this palette is kept in every mode.
 	 */
 	counterpart?: string;
 }

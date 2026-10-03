@@ -8,6 +8,7 @@
 				"id": "engines",
 				"title": "The engines",
 				"labelKind": "date",
+				"palette": "walnut",
 				"frames": [
 					"prony-tables",
 					"clement-fragment",

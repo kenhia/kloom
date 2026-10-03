@@ -8,6 +8,7 @@
 				"id": "mechanism",
 				"title": "The mechanism",
 				"labelKind": "technology",
+				"palette": "neural",
 				"frames": [
 					"tokens",
 					"token-embeddings",

@@ -8,6 +8,7 @@
 				"id": "lathe",
 				"title": "At the lathe",
 				"labelKind": "category",
+				"palette": "drafting",
 				"frames": ["pole-lathe", "between-centres", "screw-cutting", "ornamental-turning"]
 			}
 		]

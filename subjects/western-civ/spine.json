@@ -4,24 +4,28 @@
 			"id": "myth",
 			"title": "Myth",
 			"labelKind": "category",
+			"palette": "night",
 			"frames": ["prometheus"]
 		},
 		{
 			"id": "antiquity",
 			"title": "Antiquity",
 			"labelKind": "date",
+			"palette": "parchment",
 			"frames": ["writing", "greek-inquiry", "eratosthenes", "pantheon"]
 		},
 		{
 			"id": "middle-ages",
 			"title": "The long middle",
 			"labelKind": "date",
+			"palette": "parchment",
 			"frames": ["scriptorium", "magna-carta"]
 		},
 		{
 			"id": "rebirth",
 			"title": "Rebirth",
 			"labelKind": "date",
+			"palette": "parchment",
 			"frames": [
 				"florence-dome",
 				"printing-press",
@@ -36,12 +40,14 @@
 			"id": "machines",
 			"title": "Machines and fields",
 			"labelKind": "date",
+			"palette": "parchment",
 			"frames": ["steam", "faraday-induction", "maxwell"]
 		},
 		{
 			"id": "code-and-cosmos",
 			"title": "Code and cosmos",
 			"labelKind": "date",
+			"palette": "night",
 			"frames": ["dna", "moon-landing", "jwst"]
 		}
 	]

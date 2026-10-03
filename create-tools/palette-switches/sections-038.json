@@ -1,0 +1,190 @@
+{
+	"physics": {
+		"segments": {
+			"greeks": "bronze",
+			"light-and-motion": "papyrus",
+			"new-science": "papyrus",
+			"heat-light-charge": "foolscap",
+			"cracks": "gaslight",
+			"relativity": "deepfield",
+			"quantum": "cloudchamber",
+			"nucleus": "photoplate",
+			"particles": "photoplate",
+			"cosmos": "deepfield",
+			"open": "deepfield"
+		},
+		"trails": {
+			"heat-and-information": "foolscap",
+			"quantum-revolution": "cloudchamber",
+			"standard-model": "photoplate",
+			"the-field": "foolscap"
+		}
+	},
+	"blood": {
+		"segments": {
+			"belief": "vellum",
+			"learned": "anatomy",
+			"transfusion": "vein",
+			"uses": "ward",
+			"bench": "slide",
+			"today": "vein",
+			"dedication-seg": "maroon"
+		},
+		"trails": {
+			"misconceptions": "vellum",
+			"blood-groups": "vein",
+			"clotting": "ward",
+			"military-blood": "maroon"
+		}
+	},
+	"western-civ": {
+		"frames": false,
+		"segments": {
+			"myth": "night",
+			"antiquity": "parchment",
+			"middle-ages": "parchment",
+			"rebirth": "parchment",
+			"machines": "parchment",
+			"code-and-cosmos": "night"
+		},
+		"trails": {
+			"measure": { "bodies": "parchment", "earth-and-sky": "parchment", "constants": "night" },
+			"printing": "parchment"
+		}
+	},
+	"ai": {
+		"segments": {
+			"dreams": "blueprint",
+			"foundations": "drafting",
+			"symbolic": "terminal",
+			"winters": "terminal",
+			"learning": "printout",
+			"deep": "whitepaper",
+			"transformers": "neural",
+			"frontier": "neural",
+			"questions": "whitepaper"
+		},
+		"trails": {
+			"games": "printout",
+			"inside-transformer": "neural",
+			"neural-nets": "terminal",
+			"safety": "whitepaper"
+		}
+	},
+	"chemistry": {
+		"segments": {
+			"fire-and-earth": "furnace",
+			"alchemy": "alum",
+			"revolution": "filter",
+			"atoms": "retort",
+			"industry": "coaltar",
+			"bond": "agar",
+			"materials": "enamel",
+			"life": "helix",
+			"now": "helix"
+		},
+		"trails": {
+			"alchemy-last-century": "alum",
+			"dyes-to-drugs": "coaltar",
+			"finding-the-elements": "retort"
+		}
+	},
+	"computing": {
+		"segments": {
+			"counting": "walnut",
+			"engines": "walnut",
+			"cards-relays": "cardstock",
+			"electronic": "console",
+			"mainframes": "teletype",
+			"microprocessor": "circuit",
+			"networks": "circuit",
+			"shared-software": "schematic",
+			"everywhere": "schematic",
+			"open-questions": "schematic"
+		},
+		"trails": {
+			"babbages-engines": "walnut",
+			"beyond-counting": "walnut",
+			"bletchley": "console",
+			"internet-stack": "circuit",
+			"personal-computer": "circuit",
+			"the-chip": "teletype",
+			"unix-and-c": "schematic"
+		}
+	},
+	"feynman": {
+		"segments": {
+			"far-rockaway": "lamplight",
+			"mit-princeton": "graphpaper",
+			"los-alamos": "blueprint",
+			"cornell": "chalkboard",
+			"caltech": "chalkboard",
+			"wider": "manila",
+			"last-years": "vellum",
+			"afterlife": "lamplight"
+		},
+		"trails": {
+			"computing": "vellum",
+			"sum-over-histories": "graphpaper",
+			"the-commission": "vellum",
+			"the-diagrams": "chalkboard",
+			"the-hill": "blueprint"
+		}
+	},
+	"making": {
+		"segments": {
+			"stone": "flint",
+			"clay-glass": "chalk",
+			"wood": "shavings",
+			"forge": "ember",
+			"machine-tools": "drafting",
+			"mass": "drafting",
+			"code": "blueprint",
+			"additive": "filament",
+			"now": "chalk"
+		},
+		"trails": {
+			"at-the-forge": "ember",
+			"joinery": "shavings",
+			"lathe-work": "drafting",
+			"materials": "drafting",
+			"slicers": "filament"
+		}
+	},
+	"mathematics": {
+		"segments": {
+			"counting": "clay",
+			"greeks": "vellum",
+			"beyond-greece": "vellum",
+			"new-mathematics": "oakgall",
+			"algebra": "blackboard",
+			"analysis": "blackboard",
+			"geometry": "graphpaper",
+			"probability": "printout",
+			"logic": "terminal",
+			"now": "terminal"
+		},
+		"trails": {
+			"fermats-last-theorem": "quarto",
+			"infinity": "terminal",
+			"primes": "vellum"
+		}
+	},
+	"nursing": {
+		"segments": {
+			"before": "cloister",
+			"nightingale": "lamplight",
+			"theatre": "gown",
+			"military": "canvas",
+			"profession": "nightshift",
+			"today": "nightshift",
+			"dedication-seg": "dressblue"
+		},
+		"trails": {
+			"at-the-table": "gown",
+			"navy-nurses": "whites",
+			"nightingales-numbers": "ledger",
+			"who-was-let-in": "nightshift"
+		}
+	}
+}

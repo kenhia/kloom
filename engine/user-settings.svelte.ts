@@ -1,6 +1,7 @@
 import { DEFAULT_KEYS, plain, SHORTCUTS, type Binding, type Keymap, type Shortcut } from './keys';
 import {
 	browserStorage,
+	migratePaletteSetting,
 	readKeymap,
 	readSetting,
 	writeKey,
@@ -44,6 +45,7 @@ export class UserSettings {
 	/** Read every remembered value, the shortcuts too. Call from `onMount`. */
 	load() {
 		const storage = this.storage();
+		migratePaletteSetting(storage);
 		for (const s of this.list) this.#values[s.id] = readSetting(s, storage);
 		this.keys.load();
 	}

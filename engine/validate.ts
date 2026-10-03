@@ -126,6 +126,8 @@ export function validate(raw: RawSubject, options: ValidateOptions = {}): string
 			if (!isText(seg.title)) fail(at, 'title is required');
 			if (!LABEL_KINDS.includes(seg.labelKind as never))
 				fail(at, `labelKind must be one of ${LABEL_KINDS.join(', ')}`);
+			if (seg.palette !== undefined && (!isText(seg.palette) || !palettes.has(seg.palette)))
+				fail(at, `unknown palette "${String(seg.palette)}"`);
 			if (!Array.isArray(seg.frames) || seg.frames.length === 0)
 				return fail(at, 'needs at least one frame');
 

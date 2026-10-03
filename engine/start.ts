@@ -1,9 +1,10 @@
 import { stops } from './navigation';
+import { sectionPalette } from './settings';
 import type { Palette, Subject } from './model';
 
 /**
  * How a subject looks on the start screen: its palettes and the name of the
- * one it opens in (its first frame's), and a sample of its frames'
+ * one it opens in (its first section's, then its first frame's), and a sample of its frames'
  * illustrations to draw in a ring around the loom (docs/design.md §Start
  * screen). The illustrations are the loader's own sanitised markup.
  */
@@ -27,7 +28,7 @@ export function startLook(subject: Subject, n = RING): StartLook {
 	const count = Math.min(n, drawn.length);
 	return {
 		palettes: subject.palettes,
-		palette: subject.frames[subject.spine.segments[0].frames[0]].scene.palette,
+		palette: sectionPalette(subject, subject.spine.segments[0]),
 		illustrations: Array.from(
 			{ length: count },
 			(_, i) => drawn[Math.floor((i * drawn.length) / count)]

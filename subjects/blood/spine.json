@@ -4,12 +4,14 @@
 			"id": "belief",
 			"title": "What we believed",
 			"labelKind": "date",
+			"palette": "vellum",
 			"frames": ["humours", "galen", "ibn-al-nafis"]
 		},
 		{
 			"id": "learned",
 			"title": "What we learned",
 			"labelKind": "date",
+			"palette": "anatomy",
 			"frames": [
 				"harvey",
 				"malpighi",
@@ -24,6 +26,7 @@
 			"id": "transfusion",
 			"title": "Transfusion",
 			"labelKind": "date",
+			"palette": "vein",
 			"frames": [
 				"early-transfusion",
 				"blundell",
@@ -41,6 +44,7 @@
 			"id": "uses",
 			"title": "What we do with blood",
 			"labelKind": "date",
+			"palette": "ward",
 			"frames": [
 				"fractionation",
 				"bone-marrow",
@@ -58,6 +62,7 @@
 			"id": "bench",
 			"title": "The bench, by hand and by machine",
 			"labelKind": "date",
+			"palette": "slide",
 			"frames": [
 				"hemocytometer",
 				"stained-film",
@@ -73,12 +78,14 @@
 			"id": "today",
 			"title": "Today",
 			"labelKind": "category",
+			"palette": "vein",
 			"frames": ["where-blood-is"]
 		},
 		{
 			"id": "dedication-seg",
 			"title": "Dedication",
 			"labelKind": "category",
+			"palette": "maroon",
 			"frames": ["dedication"]
 		}
 	]

@@ -8,6 +8,7 @@
 				"id": "project-y",
 				"title": "Project Y",
 				"labelKind": "date",
+				"palette": "blueprint",
 				"frames": ["bethe-feynman", "punched-cards", "censorship", "safecracking", "oak-ridge"]
 			}
 		]

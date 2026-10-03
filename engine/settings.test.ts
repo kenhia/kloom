@@ -2,10 +2,17 @@ import { describe, expect, it } from 'vitest';
 import { DEFAULT_KEYS, parseBinding, plain } from './keys';
 import type { Palette } from './model';
 import {
+	coloursOf,
+	darkBrightness,
 	followSpine,
+	framePalettes,
 	layout,
+	lightBrightness,
+	migratePaletteSetting,
 	paletteFor,
-	paletteMode,
+	readingColours,
+	sceneColours,
+	sectionPalette,
 	keyWarnings,
 	readKeymap,
 	readSetting,
@@ -73,20 +80,35 @@ describe('readSetting and writeSetting', () => {
 		expect(writeSetting(model, 'b-2', s)).toBe(false);
 	});
 
-	it('defaults the palette mode to Mixed, which is one of its choices', () => {
-		expect(paletteMode.default).toBe('mixed');
-		expect(paletteMode.choices.map((c) => c.value)).toEqual(['mixed', 'dark', 'light']);
+	it('colours scenes by section and readings as the scene, by default (korg 3495)', () => {
+		expect(sceneColours.default).toBe('section');
+		expect(sceneColours.choices.map((c) => c.value)).toEqual(['section', 'frame', 'dark', 'light']);
+		expect(readingColours.default).toBe('same');
+		expect(readingColours.choices.map((c) => c.value)).toEqual(['same', 'light', 'dark']);
+	});
+
+	it('keeps brightness under Advanced, as a slider whose default is the palettes as designed', () => {
+		for (const b of [lightBrightness, darkBrightness]) {
+			expect(b.control).toBe('range');
+			expect(b.advanced).toBe(true);
+			expect(b.default).toBe('0');
+			expect(b.choices.find((c) => c.value === '0')!.label).toBe('As designed');
+			const n = b.choices.map((c) => Number(c.value));
+			expect(n).toEqual([...n].sort((a, z) => a - z));
+		}
+		expect(lightBrightness.choices[0].label).toBe('6 steps dimmer');
+		expect(darkBrightness.choices.at(-1)!.label).toBe('6 steps lighter');
 	});
 });
 
 describe('UserSettings', () => {
 	it('starts at the defaults and loads what was remembered', () => {
 		const s = memory();
-		s.map.set('kloom.palette', 'light');
-		const settings = new UserSettings([paletteMode, model], () => s);
-		expect(settings.get('palette')).toBe('mixed');
+		s.map.set('kloom.scene', 'light');
+		const settings = new UserSettings([sceneColours, model], () => s);
+		expect(settings.get('scene')).toBe('section');
 		settings.load();
-		expect(settings.get('palette')).toBe('light');
+		expect(settings.get('scene')).toBe('light');
 		expect(settings.get('model')).toBe('a-1');
 	});
 
@@ -135,8 +157,8 @@ describe('paletteFor', () => {
 	const at = (name: string, mode: string) =>
 		Object.entries(palettes).find(([, p]) => p === paletteFor({ palettes }, name, mode))![0];
 
-	it('keeps every frame’s own palette in Mixed', () => {
-		expect(at('night', 'mixed')).toBe('night');
+	it('keeps every frame’s own palette for a mode that is not a scheme', () => {
+		expect(at('night', 'frame')).toBe('night');
 		expect(at('parchment', 'mixed')).toBe('parchment');
 	});
 
@@ -148,9 +170,127 @@ describe('paletteFor', () => {
 		expect(at('ember', 'light')).toBe('parchment');
 	});
 
-	it('keeps a palette with no counterpart, and treats an unknown mode as Mixed', () => {
+	it('keeps a palette with no counterpart, and treats an unknown mode as its own', () => {
 		expect(at('lone', 'dark')).toBe('lone');
 		expect(at('parchment', 'sepia')).toBe('parchment');
+	});
+});
+
+describe('the old Palette setting, migrated (korg 3495)', () => {
+	const after = (old: string | null, set: Record<string, string> = {}) => {
+		const s = memory();
+		if (old) s.map.set('kloom.palette', old);
+		for (const [k, v] of Object.entries(set)) s.map.set(k, v);
+		const settings = new UserSettings([sceneColours, readingColours], () => s);
+		settings.load();
+		return [settings.get('scene'), settings.get('reading')];
+	};
+
+	it('carries Mixed to By section and Same as scene', () => {
+		expect(after('mixed')).toEqual(['section', 'same']);
+	});
+
+	it('carries Dark and Light to Always, scene and reading both', () => {
+		expect(after('dark')).toEqual(['dark', 'dark']);
+		expect(after('light')).toEqual(['light', 'light']);
+	});
+
+	it('leaves the defaults with nothing, or nonsense, remembered', () => {
+		expect(after(null)).toEqual(['section', 'same']);
+		expect(after('sepia')).toEqual(['section', 'same']);
+	});
+
+	it('never overrides a choice made since', () => {
+		expect(after('dark', { 'kloom.reading': 'light' })).toEqual(['section', 'light']);
+	});
+
+	it('survives blocked storage', () => {
+		expect(() => migratePaletteSetting(memory(true))).not.toThrow();
+		expect(() => migratePaletteSetting(null)).not.toThrow();
+	});
+});
+
+describe('framePalettes (korg 3495)', () => {
+	const colours = {
+		background: '#000000',
+		ink: '#ffffff',
+		muted: '#bbbbbb',
+		accent: '#ffcc00',
+		line: '#eeeeee'
+	};
+	const light = {
+		background: '#ffffff',
+		ink: '#000000',
+		muted: '#555555',
+		accent: '#aa2200',
+		line: '#222222'
+	};
+	const subject = {
+		palettes: {
+			night: { scheme: 'dark', ...colours, counterpart: 'parchment' },
+			parchment: { scheme: 'light', ...light, counterpart: 'night' },
+			ember: { scheme: 'dark', ...colours, accent: '#ff6600', counterpart: 'scale' },
+			scale: { scheme: 'light', ...light, accent: '#993300', counterpart: 'ember' }
+		} satisfies Record<string, Palette>
+	};
+	const p = subject.palettes;
+	const c = (
+		scene: string,
+		reading = 'same',
+		bright: Partial<{ light: number; dark: number }> = {}
+	) => ({
+		scene,
+		reading,
+		light: 0,
+		dark: 0,
+		...bright
+	});
+
+	it('gives a frame its section’s scheme, keeping its own palette’s family', () => {
+		expect(framePalettes(subject, 'ember', 'parchment', c('section')).scene).toBe(p.scale);
+		expect(framePalettes(subject, 'ember', 'night', c('section')).scene).toBe(p.ember);
+	});
+
+	it('keeps the frame’s own under Each frame, and fixes the scheme under Always', () => {
+		expect(framePalettes(subject, 'ember', 'parchment', c('frame')).scene).toBe(p.ember);
+		expect(framePalettes(subject, 'ember', 'night', c('light')).scene).toBe(p.scale);
+		expect(framePalettes(subject, 'scale', 'parchment', c('dark')).scene).toBe(p.ember);
+	});
+
+	it('reads as the scene, or in the scheme the reader fixed for reading', () => {
+		const same = framePalettes(subject, 'ember', 'night', c('section'));
+		expect(same.reading).toBe(same.scene);
+		const apart = framePalettes(subject, 'ember', 'night', c('section', 'light'));
+		expect(apart.scene).toBe(p.ember);
+		expect(apart.reading).toBe(p.scale);
+	});
+
+	it('brightens each scheme by its own slider', () => {
+		const { scene, reading } = framePalettes(
+			subject,
+			'night',
+			'night',
+			c('dark', 'light', { light: -4, dark: 3 })
+		);
+		expect(scene.background).not.toBe(p.night.background);
+		expect(reading.background).not.toBe(p.parchment.background);
+		expect(scene.scheme).toBe('dark');
+		expect(reading.scheme).toBe('light');
+	});
+
+	it('reads the settings, a step that is not a number counting as none', () => {
+		const get = (v: Record<string, string>) => ({ get: (id: string) => v[id] });
+		expect(coloursOf(get({}))).toEqual({ scene: 'section', reading: 'same', light: 0, dark: 0 });
+		expect(coloursOf(get({ lightBrightness: '-3', darkBrightness: 'x' }))).toMatchObject({
+			light: -3,
+			dark: 0
+		});
+	});
+
+	it('takes a section’s palette from its segment, or else its first frame', () => {
+		const frames = { a: { scene: { palette: 'ember' } } };
+		expect(sectionPalette({ frames }, { frames: ['a'] })).toBe('ember');
+		expect(sectionPalette({ frames }, { frames: ['a'], palette: 'night' })).toBe('night');
 	});
 });
 
@@ -238,7 +378,7 @@ describe('the reader’s keymap (korg 3363, 3493)', () => {
 	it('is loaded, changed and reset through the settings’ keys', () => {
 		const s = memory();
 		s.map.set('kloom.key.contents', 'shift+c');
-		const settings = new UserSettings([paletteMode], () => s);
+		const settings = new UserSettings([sceneColours], () => s);
 		expect(settings.keys.map.contents).toEqual(plain('c'));
 		settings.load();
 		expect(settings.keys.map.contents).toEqual({ ...plain('c'), shift: true });

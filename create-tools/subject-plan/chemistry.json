@@ -5,12 +5,14 @@
 				"id": "fire-and-earth",
 				"title": "Fire and earth",
 				"labelKind": "date",
+				"palette": "furnace",
 				"frames": ["copper-smelting", "tyrian-purple", "clay-recipes"]
 			},
 			{
 				"id": "alchemy",
 				"title": "Elements and alchemy",
 				"labelKind": "date",
+				"palette": "alum",
 				"frames": [
 					"four-elements",
 					"alexandrian-alchemy",
@@ -27,12 +29,14 @@
 				"id": "revolution",
 				"title": "The chemical revolution",
 				"labelKind": "date",
+				"palette": "filter",
 				"frames": ["boyle", "phlogiston", "fixed-air", "oxygen", "lavoisier", "davy-electrolysis"]
 			},
 			{
 				"id": "atoms",
 				"title": "Atoms and the table",
 				"labelKind": "date",
+				"palette": "retort",
 				"frames": [
 					"dalton",
 					"wohler-urea",
@@ -50,6 +54,7 @@
 				"id": "industry",
 				"title": "Industry",
 				"labelKind": "category",
+				"palette": "coaltar",
 				"frames": [
 					"leblanc-solvay",
 					"mauveine",
@@ -63,6 +68,7 @@
 				"id": "bond",
 				"title": "The chemical bond",
 				"labelKind": "category",
+				"palette": "agar",
 				"frames": [
 					"crystallography",
 					"electron-pair",
@@ -75,12 +81,14 @@
 				"id": "materials",
 				"title": "Materials",
 				"labelKind": "category",
+				"palette": "enamel",
 				"frames": ["bessemer-steel", "aluminium", "silicon", "photolithography", "lithium-battery"]
 			},
 			{
 				"id": "life",
 				"title": "The chemistry of life",
 				"labelKind": "category",
+				"palette": "helix",
 				"frames": [
 					"enzymes",
 					"dna-chemistry",
@@ -94,6 +102,7 @@
 				"id": "now",
 				"title": "Chemistry now",
 				"labelKind": "category",
+				"palette": "helix",
 				"frames": ["ozone-hole", "keeling-curve", "where-chemistry-is"]
 			}
 		]
@@ -109,6 +118,7 @@
 						"id": "alchemists",
 						"title": "Alchemy's last century",
 						"labelKind": "date",
+						"palette": "alum",
 						"frames": ["brand-phosphorus", "newton-alchemy", "bottger-porcelain"]
 					}
 				]
@@ -124,6 +134,7 @@
 						"id": "elements",
 						"title": "Finding the elements",
 						"labelKind": "date",
+						"palette": "retort",
 						"frames": ["noble-gases", "moseley", "technetium", "transuranium", "superheavy"]
 					}
 				]
@@ -139,6 +150,7 @@
 						"id": "dyes-to-drugs",
 						"title": "From dyes to drugs",
 						"labelKind": "date",
+						"palette": "coaltar",
 						"frames": ["synthetic-indigo", "aspirin", "salvarsan", "prontosil", "penicillin"]
 					}
 				]

@@ -4,18 +4,21 @@
 			"id": "stone",
 			"title": "Stone and fire",
 			"labelKind": "date",
+			"palette": "flint",
 			"frames": ["knapping", "handaxe", "birch-tar"]
 		},
 		{
 			"id": "clay-glass",
 			"title": "Clay and glass",
 			"labelKind": "date",
+			"palette": "chalk",
 			"frames": ["potters-wheel", "glassblowing", "float-glass"]
 		},
 		{
 			"id": "wood",
 			"title": "Wood",
 			"labelKind": "date",
+			"palette": "shavings",
 			"frames": [
 				"neolithic-wells",
 				"egyptian-carpentry",
@@ -31,6 +34,7 @@
 			"id": "forge",
 			"title": "Metal by fire",
 			"labelKind": "date",
+			"palette": "ember",
 			"frames": [
 				"lost-wax",
 				"bloomery",
@@ -47,6 +51,7 @@
 			"id": "machine-tools",
 			"title": "Machines that make machines",
 			"labelKind": "date",
+			"palette": "drafting",
 			"frames": [
 				"wilkinson-boring",
 				"maudslay",
@@ -60,6 +65,7 @@
 			"id": "mass",
 			"title": "Making many",
 			"labelKind": "date",
+			"palette": "drafting",
 			"frames": [
 				"block-mills",
 				"interchangeable-parts",
@@ -73,12 +79,14 @@
 			"id": "code",
 			"title": "Code and machine",
 			"labelKind": "date",
+			"palette": "blueprint",
 			"frames": ["numerical-control", "bezier-curves", "g-code"]
 		},
 		{
 			"id": "additive",
 			"title": "Layer by layer",
 			"labelKind": "date",
+			"palette": "filament",
 			"frames": [
 				"stereolithography",
 				"laser-sintering",
@@ -92,6 +100,7 @@
 			"id": "now",
 			"title": "Making now",
 			"labelKind": "category",
+			"palette": "chalk",
 			"frames": ["euv", "where-making-is"]
 		}
 	]

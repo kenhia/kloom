@@ -15,9 +15,10 @@ hook.
 
 - **Palette tracks the era.** Dark night + gold for the mythic and modern
   bookends; parchment + engineering line drawings for the long middle. The
-  palette is a property of each frame and transitions as the cursor moves.
-  That is the _Mixed_ palette mode, the default; a reader may pick all-dark
-  or all-light instead (§Settings).
+  palette is a property of each section, worn by every frame in it, and
+  transitions as the cursor crosses into the next. A reader may colour by
+  each frame instead, or fix the scene or the reading to dark or light
+  (§Colours).
 - **Scene grammar.** A huge serif headline, usually in a collective "we"
   voice, with one accent word in red or gold ("BACK.", "VIRAL.", "WORK.",
   "LIFE."); one line illustration that draws itself on; small monospace
@@ -327,7 +328,8 @@ page?}`: the session laws or the code it is in), the year left out
   agent creating a subject may add tools.
 - **Palette counterparts** (sprint 003) — a palette may name a
   `counterpart`: a palette of the other scheme that stands in for it when
-  the reader picks Dark or Light. Validation requires it to exist and to be
+  a frame is to wear that scheme (by section, or always dark or light,
+  §Colours). Validation requires it to exist and to be
   of the other scheme. Without one, a palette is kept in every mode. So the
   subject decides its own dark and light looks, and the engine names none.
   A subject with several dark palettes keeps their variety in Dark mode;
@@ -1265,7 +1267,7 @@ Built in sprint 006 (korg 3396). One running app serves every subject.
   another subject. Kept answers and grow jobs were already filed under
   `<dataDir>/<subject>/`, and a grow job commits to its own subject's
   directory.
-- **Settings stay global.** Palette mode, narrative following and the
+- **Settings stay global.** Colours, narrative following and the
   models are one reader's choices about reading, not about a subject. None
   is clearly per-subject, so none is scoped.
 - The engine still never names a subject: the shell passes `subject.id`
@@ -1291,8 +1293,9 @@ rule's test, and it is described in its sprint record.
   points with rings. It held 41 stops at phone width.
 - **Its own look.** Three pairs of dark and light palettes, each the
   other's counterpart: blueprint and drafting, terminal and printout,
-  neural and whitepaper. They follow the eras loosely, and they alternate
-  within a segment where western-civ's stay in one.
+  neural and whitepaper. They followed the eras loosely, and alternated
+  within a segment where western-civ's stayed in one, until sprint 038 gave
+  each section one palette (§Colours).
 - **Authored the way the framework will author.** A plan comes first
   (`create-tools/subject-plan/ai.json`). Frames were written by following
   `skills/grow/SKILL.md`, by several authors at once, and committed
@@ -1723,7 +1726,7 @@ past two subjects:
   loom. Below 60rem it lies flat above the title, and ←/→ work as well as
   ↑/↓. With one subject served there is no list.
 - **The selection's look.** The title, the _Continue_ offer, the palette
-  (the selected subject's first frame's, in the reader's palette mode) and
+  (the selected subject's first section's, as the reader colours scenes) and
   a ring of its own illustrations around the loom all follow the
   selection. The ring is a sample of about ten (`engine/start.ts`, spread
   evenly along the main spine, first frame first). The drawings sit just
@@ -1743,7 +1746,7 @@ past two subjects:
 - **The corner** (sprint 022, korg 3456). The start screen's upper right
   holds two icon buttons in the shell's look: _About_, then the settings
   gear rightmost, as in the shell. The gear is the shell's own pop-up
-  (`engine/ui/Settings.svelte` over the same settings), so palette mode,
+  (`engine/ui/Settings.svelte` over the same settings), so colours,
   layout, models and keys can be set before a subject is begun. Both are
   last in the dialog's tab order, after _Map of the library_. Esc in either
   pop-up closes it and returns focus to its button without leaving the start
@@ -1858,7 +1861,7 @@ dark frame stayed dark when the reader picked Light mode.
 - **Palette hooks.** A chart draws in `currentColor`, which the reading
   pane sets to `--ink`, and marks two classes that the pane colours: `muted`
   (`--muted`: axis, ticks, sublabels) and `accent` (`--accent`: a
-  highlighted bar). It has no background. So it follows the palette mode and
+  highlighted bar). It has no background. So it follows the reading colours and
   fades with the page's palette transition. `create-tools/bar-chart` draws
   this way.
 - **Named by the alt text.** The inlined drawing is wrapped in
@@ -1873,10 +1876,63 @@ dark frame stayed dark when the reader picked Light mode.
 ## Palette transitions
 
 The palette colours are registered custom properties (`@property`, syntax
-`<color>`) and transition together on the shell, 1.5s ease-in-out, so every
+`<color>`) and transition together, 1.5s ease-in-out, so every
 consumer — accent words, buttons, borders, SVG strokes — fades with the
-background instead of snapping ahead of it (korg 3370). Reduced motion turns
-the transition off.
+background instead of snapping ahead of it (korg 3370). They are set, and
+fade, in two places since sprint 038: the shell (the reading's palette) and
+the spine pane (the scene's), one `--palette-fade` timing for both. Reduced
+motion turns the transition off.
+
+## Colours
+
+Built in sprint 038 (korg 3495). Until then one palette, the spine frame's,
+was set on the whole shell, and the authoring rules made neighbouring frames
+alternate dark and light: five subjects switched scheme on every step
+(the table is in `sprints/038-colours-by-section.md`). Ken found it
+distracting, dark readings hard to read and light a little bright.
+
+- **A palette per section.** A segment in `spine.json` may name its
+  `palette`; without one, its first frame's palette is the section's.
+  Validation requires it to be one `subject.json` defines. Every subject's
+  content was re-paletted this way in sprint 038, and the authoring skills
+  and `subject_plan.py` choose a palette per section (`skills/grow`,
+  `skills/author-subject`).
+- **Scene colours** (`kloom.scene`): _By section_ (the default), _Each
+  frame_, _Always dark_, _Always light_. By section, a frame wears its own
+  palette in its section palette's scheme, through `counterpart`. So a
+  subject whose sections are one palette each looks the same either way.
+  A frame that stands apart keeps its colours by being a one-frame section
+  (the dedications). A trail's segments are sections like any other.
+- **Reading colours** (`kloom.reading`): _Same as scene_ (the default),
+  _Always light_, _Always dark_. A fixed reading wears its frame's own
+  palette in that scheme.
+- **Which side is which.** The scene pane (the scene, its HUD and their
+  pop-ups: contents, bookmarks, my notes, the note editor in the scene's
+  place) wears the scene's palette. The shell wears the reading's: the
+  narrative, the notes, the tab row with the gear and its pop-up, the AI
+  pane in every layout, and the hint line. Text belongs with the reading,
+  which is what a reader fixing it wants calm. The map opened from the HUD
+  takes the scene's scheme; opened from a name card in the reading, the
+  reading's.
+- **Brightness**, under a collapsed _Advanced_ in the settings pop-up:
+  _Light brightness_ and _Dark brightness_ (`kloom.lightBrightness`,
+  `kloom.darkBrightness`), each a slider over steps of 0.025 OKLCH
+  lightness, _As designed_ (0, today's look) by default. Light runs from
+  six steps dimmer to one brighter; dark from two darker to six lighter.
+  Every colour of a palette moves together, so it keeps its look, and a
+  foreground that falls under **4.5:1** against the moved background is
+  pushed away from it until it holds (`engine/colour.ts`, no dependency).
+  `engine/colour.test.ts` checks ink, muted, accent and line at every step
+  of every palette of every subject, and fails a range widened past where
+  that holds.
+- **The old Palette setting migrates** on load, once, and only when neither
+  new setting is remembered: Mixed to By section and Same as scene, Dark to
+  Always dark for both, Light to Always light for both.
+  `kloom.palette` is left in place, unread after that.
+- `just colours-check` drives it in a real browser at 1280×800 and 390
+  wide, keyboard-only: the panes coloured apart, the migration, both
+  sliders at both ends with contrast read off the page's computed colours,
+  the pop-up on screen, the choices remembered.
 
 ## Settings
 
@@ -1936,7 +1992,9 @@ Built in sprint 003 (korg 3373, 3372).
   to "Ligh" and "Opu". `just keys-check` measures it with every label made
   long. The panel scrolls when it outgrows the window.
 - **The registry.** `engine/settings.ts` defines a `Setting` as
-  `{id, label, choices: [{value, label}], default, storageKey}`. Every
+  `{id, label, choices: [{value, label}], default, storageKey}`, with an
+  optional `control` (`range` for a scale) and `advanced` (shown under the
+  collapsed Advanced disclosure). Every
   setting is a pick from a fixed list, and there is no free-text kind. A
   stored value that is no longer a choice falls back to the default, which
   covers a model that is dropped from the app config. The page builds the list
@@ -1944,10 +2002,13 @@ Built in sprint 003 (korg 3373, 3372).
   so a row whose choices come from the server is built at runtime like any
   other. Values start at the defaults and are loaded on mount, so the server
   render and the first client render agree.
-- **One control kind: a native `<select>` with a visible `<label>`.** Model
-  rows must be drop-downs, so the palette mode is one too, for consistency
+- **A native `<select>` with a visible `<label>`.** Model
+  rows must be drop-downs, so the colour rows are too, for consistency
   rather than a radio group. A select is compact at 390px and needs no custom
-  arrow-key handling.
+  arrow-key handling. A scale (brightness, sprint 038) is a native
+  `<input type="range">` over the choices' indices, its `aria-valuetext`
+  and a visible `<output>` the choice's label ("3 steps dimmer"), and held
+  to the same 9rem.
 - **A disclosure, not a modal.** The gear is a `<button>` (named
   "Settings", with `aria-expanded`/`aria-controls`) that shows a panel below
   it. It is not a `<dialog>`, for two reasons. A setting like the palette
@@ -1968,12 +2029,13 @@ Built in sprint 003 (korg 3373, 3372).
   under `kloom.followSpine`. It sat in the toolbar as a checkbox beside the
   Sync Narrative button until that button went. The old `kloom.sync` key is
   not read, so everyone starts on the new default.
-- **Palette mode:** Mixed (each frame's own palette, the default), Dark or
-  Light, stored under `kloom.palette`. The OS `prefers-color-scheme` is not
-  consulted. Mixed is the designed experience, the palette tracking the era,
-  and a single scheme is a reader's explicit choice rather than an inference.
-  The start screen follows the mode as well. It is server-rendered in the
-  default mode, so a reader with a remembered Light choice sees it switch
+- **Colours** (sprint 038; the Palette mode of sprints 003 to 037 before
+  it): Scene colours, Reading colours, and the brightness sliders under
+  Advanced (§Colours). The OS `prefers-color-scheme` is not consulted. By
+  section is the designed experience, the palette tracking the era, and a
+  single scheme is a reader's explicit choice rather than an inference.
+  The start screen follows the scene colours. It is server-rendered in the
+  defaults, so a reader with a remembered Always light sees it switch
   once on load.
 
 ## Keyboard shortcuts

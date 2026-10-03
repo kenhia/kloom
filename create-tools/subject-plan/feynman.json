@@ -5,30 +5,35 @@
 				"id": "far-rockaway",
 				"title": "Far Rockaway",
 				"labelKind": "date",
+				"palette": "lamplight",
 				"frames": ["far-rockaway", "radio-boy", "least-action"]
 			},
 			{
 				"id": "mit-princeton",
 				"title": "MIT and Princeton",
 				"labelKind": "date",
+				"palette": "graphpaper",
 				"frames": ["forces-in-molecules", "princeton", "absorber-theory", "thesis", "arline"]
 			},
 			{
 				"id": "los-alamos",
 				"title": "Los Alamos",
 				"labelKind": "date",
+				"palette": "blueprint",
 				"frames": ["los-alamos", "arline-death", "trinity"]
 			},
 			{
 				"id": "cornell",
 				"title": "Cornell",
 				"labelKind": "date",
+				"palette": "chalkboard",
 				"frames": ["cornell", "wobbling-plate", "pocono", "diagrams"]
 			},
 			{
 				"id": "caltech",
 				"title": "Caltech",
 				"labelKind": "date",
+				"palette": "chalkboard",
 				"frames": [
 					"caltech",
 					"brazil",
@@ -45,6 +50,7 @@
 				"id": "wider",
 				"title": "The wider world",
 				"labelKind": "date",
+				"palette": "manila",
 				"frames": [
 					"partons",
 					"cargo-cult",
@@ -58,12 +64,14 @@
 				"id": "last-years",
 				"title": "The last years",
 				"labelKind": "date",
+				"palette": "vellum",
 				"frames": ["challenger", "last-days"]
 			},
 			{
 				"id": "afterlife",
 				"title": "Afterlife",
 				"labelKind": "category",
+				"palette": "lamplight",
 				"frames": ["the-legend", "legacy"]
 			}
 		]
@@ -79,6 +87,7 @@
 						"id": "paths",
 						"title": "Paths",
 						"labelKind": "technology",
+						"palette": "graphpaper",
 						"frames": [
 							"principle-of-least-action",
 							"dirac-hint",
@@ -101,6 +110,7 @@
 						"id": "qed",
 						"title": "Quantum electrodynamics",
 						"labelKind": "technology",
+						"palette": "chalkboard",
 						"frames": [
 							"lamb-shift",
 							"propagators",
@@ -123,6 +133,7 @@
 						"id": "project-y",
 						"title": "Project Y",
 						"labelKind": "date",
+						"palette": "blueprint",
 						"frames": ["bethe-feynman", "punched-cards", "censorship", "safecracking", "oak-ridge"]
 					}
 				]
@@ -138,6 +149,7 @@
 						"id": "machines",
 						"title": "Machines",
 						"labelKind": "date",
+						"palette": "vellum",
 						"frames": [
 							"physics-of-computation",
 							"connection-machine",
@@ -159,6 +171,7 @@
 						"id": "inquiry",
 						"title": "The inquiry",
 						"labelKind": "date",
+						"palette": "vellum",
 						"frames": [
 							"rogers-commission",
 							"the-joint",

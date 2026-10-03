@@ -8,6 +8,7 @@
 				"id": "groups",
 				"title": "More groups, more uses",
 				"labelKind": "date",
+				"palette": "vein",
 				"frames": ["forensic-typing", "bernstein", "more-antigens", "bombay", "hla"]
 			}
 		]

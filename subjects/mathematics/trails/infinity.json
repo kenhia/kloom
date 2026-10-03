@@ -8,6 +8,7 @@
 				"id": "infinity",
 				"title": "Infinity",
 				"labelKind": "date",
+				"palette": "terminal",
 				"frames": ["zeno", "galileos-paradox", "banach-tarski", "continuum-hypothesis"]
 			}
 		]

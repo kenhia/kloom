@@ -8,6 +8,7 @@
 				"id": "information",
 				"title": "Entropy and information",
 				"labelKind": "date",
+				"palette": "foolscap",
 				"frames": [
 					"maxwells-demon",
 					"boltzmann-entropy",

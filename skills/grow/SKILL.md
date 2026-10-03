@@ -146,11 +146,13 @@ check its claims as you would any source; do not copy its prose.
   thing its subject. Follow the existing frames. The headline and accent
   together are the frame's title. **No accent word may repeat another in
   the subject**: grep every `frame.json` before you choose.
-- **Palette:** a name from `subject.json`. Follow the neighbours. Where the
-  palettes track an era, pick the one for the frame's era, and in a trail
-  that means the trail frame's own era, not its anchor's. Where
-  neighbouring frames alternate between a dark palette and its light
-  counterpart, keep alternating.
+- **Palette:** a name from `subject.json`: its section's. A segment in
+  `spine.json` may name its `palette`; otherwise its first frame's is the
+  section's. A frame inserted into a segment wears that palette, and so
+  does a frame in a trail, unless the trail's own era clearly calls for
+  another. Do not alternate dark and light between neighbours; the rule
+  that asked for it was retired in sprint 038 (korg 3495). A new segment
+  gets a `palette` of its own, chosen for its era or theme.
 - **Metadata:** one to three short upper-case lines: the place, people and
   things that matter. For a paper or a technique, the lab, the authors and
   the venue ("MIND · OCTOBER 1950") usually matter more than a place.

@@ -8,6 +8,7 @@
 				"id": "park",
 				"title": "Bletchley Park",
 				"labelKind": "date",
+				"palette": "console",
 				"frames": ["bombe", "tunny", "heath-robinson", "colossus-d-day", "the-silence"]
 			}
 		]

@@ -8,6 +8,7 @@
 				"id": "elements",
 				"title": "Finding the elements",
 				"labelKind": "date",
+				"palette": "retort",
 				"frames": ["noble-gases", "moseley", "technetium", "transuranium", "superheavy"]
 			}
 		]

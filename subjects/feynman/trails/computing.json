@@ -8,6 +8,7 @@
 				"id": "machines",
 				"title": "Machines",
 				"labelKind": "date",
+				"palette": "vellum",
 				"frames": [
 					"physics-of-computation",
 					"connection-machine",
