@@ -2,8 +2,8 @@ import { render } from 'svelte/server';
 import { describe, expect, it } from 'vitest';
 import Page from './+page.svelte';
 
-const page = (reader: { name: string; signedIn: boolean } | null) =>
-	render(Page, { props: { data: { reader } } as never }).body;
+const page = (reader: { name: string; signedIn: boolean } | null, ask = false, grow = false) =>
+	render(Page, { props: { data: { reader, ask, grow } } as never }).body;
 const text = (html: string) => html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
 
 // The Welcome and How-To page (korg 3502). Its words are Ken's to review;
@@ -35,8 +35,15 @@ describe('the Welcome and How-To page', () => {
 	});
 
 	it('has no sign-out section for a reader the tailnet names, and says what ask and grow are there', () => {
-		const body = text(page({ name: 'Ken', signedIn: false }));
+		const body = text(page({ name: 'Ken', signedIn: false }, true, true));
 		expect(body).not.toContain('Signing in and out');
 		expect(body).toContain('Asking and growing');
+	});
+
+	it('tells a public reader with ask, and only them, that Claude answers and can be wrong (korg 3530)', () => {
+		const ask = text(page({ name: 'Joel and Kathy', signedIn: true }, true));
+		for (const words of ['Claude, an AI made by Anthropic', 'which Ken provides', 'can be wrong'])
+			expect(ask, words).toContain(words);
+		expect(text(page({ name: 'Joel and Kathy', signedIn: true }))).not.toContain('Asking');
 	});
 });

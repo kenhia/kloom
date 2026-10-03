@@ -190,10 +190,11 @@
 	/** A reader setting (§Interaction): the narrative follows the spine unless they said not to. */
 	const sync = $derived<SyncMode>(settings.get(followSpine.id) === 'manual' ? 'manual' : 'follow');
 	/**
-	 * Whether there is an AI pane. The reader edition's build has none
-	 * (`__KLOOM_EDITION__`), so the pane's code is not in it at all.
+	 * Whether there is an AI pane: the page offered one. On the reader site
+	 * only readers Ken gave ask get it (korg 3530), and grow is not in that
+	 * build at all.
 	 */
-	const hasAi = $derived(__KLOOM_EDITION__ !== 'reader' && ai !== null);
+	const hasAi = $derived(ai !== null);
 	// With no AI pane, the layout is two panes and the setting does not apply.
 	const shape = $derived((hasAi ? (settings.get(layout.id) ?? layout.default) : 'tabs') as Layout);
 	const tabbed = $derived(shape === 'tabs');
@@ -1021,7 +1022,7 @@
 			/>
 		{/if}
 
-		{#if __KLOOM_EDITION__ !== 'reader' && ai}
+		{#if ai}
 			<AiPane
 				subject={subject.id}
 				frame={narrativeFrame}

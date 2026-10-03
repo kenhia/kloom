@@ -3,7 +3,7 @@ import { ANSWER_ID } from '$engine/ai/kept';
 import { RECORD_ID } from '$engine/reader-data';
 import { readerStore } from '$lib/server/reader-store';
 import { requireReader } from '$lib/server/reader-data';
-import { requireSubjectDir } from '$lib/server/subject';
+import { servedSubject } from '$lib/server/subject';
 import type { RequestHandler } from '@sveltejs/kit';
 
 /**
@@ -15,7 +15,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	const reader = requireReader(locals.reader);
 	const subject = url.searchParams.get('subject');
 	const frame = url.searchParams.get('frame');
-	await requireSubjectDir(subject);
+	await servedSubject(subject);
 	if (!frame || !RECORD_ID.test(frame)) error(400, 'A frame is required.');
 	return json(await readerStore().keptOn(reader.login, subject!, frame), {
 		headers: { 'cache-control': 'no-store' }
@@ -26,7 +26,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 export const DELETE: RequestHandler = async ({ request, locals }) => {
 	const reader = requireReader(locals.reader);
 	const body = (await request.json().catch(() => null)) as Record<string, unknown> | null;
-	await requireSubjectDir(body?.subject);
+	await servedSubject(body?.subject);
 	const id = body?.id;
 	if (typeof id !== 'string' || !ANSWER_ID.test(id)) error(400, 'A kept answer id is required.');
 	if (!(await readerStore().forget(reader.login, body!.subject as string, id)))

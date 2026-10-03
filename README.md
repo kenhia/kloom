@@ -117,9 +117,10 @@ lives in. As a service, that is the service's own content clone, on a grow
 branch that it pushes.
 
 Ask runs headless `claude -p` on the host, so the server needs a logged-in
-Claude Code on its `PATH`. The models on offer, and which one ask defaults
-to, are in the app config `kloom.config.json` (`KLOOM_CONFIG` to use
-another). Kept answers are written under `data/` (`KLOOM_DATA_DIR`), which is
+Claude Code on its `PATH`. It can also run on the Claude API with an API
+key, `ANTHROPIC_API_KEY`, which logs what each ask costs (`just ask-costs`).
+The providers, the models on offer and which one ask defaults to are in the
+app config `kloom.config.json` (`KLOOM_CONFIG` to use another). Kept answers are written under `data/` (`KLOOM_DATA_DIR`), which is
 git-ignored.
 
 ## License

@@ -28,6 +28,18 @@ export interface ClaudeCliOptions {
 	spawn?: (command: string, args: string[], cwd: string) => ChildProcessWithoutNullStreams;
 }
 
+/**
+ * The environment `claude -p` runs in: the server's, less any Anthropic API
+ * credential. With `ANTHROPIC_API_KEY` set, claude bills that key instead of
+ * the host's subscription, and the server holds one for the API provider
+ * (korg 3529). The CLI route stays on the subscription.
+ */
+export function cliEnv(env: NodeJS.ProcessEnv = process.env): NodeJS.ProcessEnv {
+	const out = { ...env };
+	for (const k of ['ANTHROPIC_API_KEY', 'ANTHROPIC_AUTH_TOKEN']) delete out[k];
+	return out;
+}
+
 /** The only tools a web turn gets. Pages can carry prompt injection; with
  * these two the worst case is a wrong answer, never an action. */
 export const WEB_TOOLS = 'WebSearch,WebFetch';
@@ -163,7 +175,8 @@ export class ClaudeCliProvider implements Provider {
 		this.#cwd = options.cwd ?? join(tmpdir(), 'kloom-ask');
 		this.#spawn =
 			options.spawn ??
-			((command, args, cwd) => nodeSpawn(command, args, { cwd, stdio: ['pipe', 'pipe', 'pipe'] }));
+			((command, args, cwd) =>
+				nodeSpawn(command, args, { cwd, env: cliEnv(), stdio: ['pipe', 'pipe', 'pipe'] }));
 	}
 
 	async *ask({ context, question, model, web, signal }: AskRequest): AsyncIterable<ProviderEvent> {

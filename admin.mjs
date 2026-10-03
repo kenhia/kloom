@@ -18,6 +18,11 @@
 //   node admin.mjs [--data DIR] detached [--library FILE] [--json]
 //   node admin.mjs [--data DIR] suggestions [--status STATUS] [--json]
 //   node admin.mjs [--data DIR] mark-suggestion READER SUGGESTION_ID STATUS
+//   node admin.mjs [--data DIR] reader-ask enable READER [--cap USD]
+//   node admin.mjs [--data DIR] reader-ask disable READER
+//   node admin.mjs [--data DIR] reader-ask list [--json]
+//   node admin.mjs [--data DIR] ask-usage [--month YYYY-MM] [--config FILE] [--json]
+//   node admin.mjs [--data DIR] ask-costs [--since DATE] [--until DATE] [--reader READER] [--model MODEL] [--json]
 //   node admin.mjs [--data DIR] --args-b64 BASE64
 //
 // `invite` prints a welcome link, good once for a week; a display name adds
@@ -40,15 +45,32 @@
 // `suggestions` and `mark-suggestion` are the subjects readers suggested
 // (korg 3459) and their status: new, planned, written or declined.
 //
+// Ask's costs and the reader site's allow-list (korg 3529, 3530; the ask
+// ledger, src/lib/server/ask-ledger.ts). `reader-ask enable` gives a reader
+// ask, at the configured monthly cap or `--cap` dollars of their own;
+// `disable` takes it away (their kept answers stay theirs). `ask-usage` is
+// the month's spend, site-wide and per reader, each with its cap (FILE's
+// `ask.caps`: $KLOOM_CONFIG, else ./kloom.config.json), as kmon collects it
+// with --json. `ask-costs` is the cost per ask over any span: count, total,
+// mean, p50, p90, per 1k output tokens and the web's share, per model.
+//
 // `--args-b64` stands for arguments given as a base64 JSON list, so text
 // passes `fly ssh console -C`, which splits on spaces and keeps no quotes,
 // whole.
 
+import { readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
 import { detachment } from './engine/anchor.ts';
 import { AccountError, DEFAULT_DOMAIN, openAccounts } from './src/lib/server/accounts.ts';
 import { openReaderDb, openReaderStore } from './src/lib/server/sqlite-reader-store.ts';
+import {
+	costReport,
+	monthOf,
+	openAskLedger,
+	summarize,
+	usageReport
+} from './src/lib/server/ask-ledger.ts';
 
 const usage = `usage:
   admin.mjs [--data DIR] add USERNAME DISPLAY NAME...
@@ -63,6 +85,11 @@ const usage = `usage:
   admin.mjs [--data DIR] detached [--library FILE] [--json]
   admin.mjs [--data DIR] suggestions [--status STATUS] [--json]
   admin.mjs [--data DIR] mark-suggestion READER SUGGESTION_ID STATUS
+  admin.mjs [--data DIR] reader-ask enable READER [--cap USD]
+  admin.mjs [--data DIR] reader-ask disable READER
+  admin.mjs [--data DIR] reader-ask list [--json]
+  admin.mjs [--data DIR] ask-usage [--month YYYY-MM] [--config FILE] [--json]
+  admin.mjs [--data DIR] ask-costs [--since DATE] [--until DATE] [--reader READER] [--model MODEL] [--json]
   admin.mjs [--data DIR] --args-b64 BASE64`;
 
 const STATUSES = ['new', 'planned', 'written', 'declined'];
@@ -113,12 +140,30 @@ const readerOpt = option('--reader');
 const seen = option('--seen');
 const statusOpt = option('--status');
 const libraryOpt = option('--library');
+const capOpt = option('--cap');
+const monthOpt = option('--month');
+const sinceOpt = option('--since');
+const untilOpt = option('--until');
+const modelOpt = option('--model');
+const configOpt = option('--config');
 const [command, username, ...rest] = args;
 if (!command) fail(usage);
 
 const db = openReaderDb(join(dataDir, 'reader.db'));
 const accounts = openAccounts(db, { domain: process.env.KLOOM_LOGIN_DOMAIN || DEFAULT_DOMAIN });
 const store = openReaderStore(db);
+const ledger = openAskLedger(db);
+
+/** The ask caps in the app config, or undefined (uncapped). */
+function askCaps() {
+	const path = resolve(configOpt ?? process.env.KLOOM_CONFIG ?? 'kloom.config.json');
+	try {
+		return JSON.parse(readFileSync(path, 'utf8')).ask?.caps;
+	} catch (e) {
+		fail(`Could not read the app config ${path}: ${e.message}`);
+	}
+}
+const usd = (n) => `$${n.toFixed(2)}`;
 
 const needUser = () => username ?? fail(usage);
 /** A login from a login or a username. */
@@ -212,6 +257,8 @@ try {
 					`This deletes ${a.username}'s account and everything they wrote. Run again with --yes.`
 				);
 			const removed = await store.deleteReader(accounts.loginOf(a.username));
+			// Their ask goes; what they spent stays in the cost log, which holds no words of theirs.
+			ledger.revoke(accounts.loginOf(a.username));
 			accounts.remove(a.username);
 			console.log(
 				`deleted ${a.username}: ${removed.notes} notes, ${removed.bookmarks} bookmarks, ` +
@@ -319,6 +366,67 @@ try {
 			if (!(await store.markSuggestion(loginFor(username), id, status)))
 				fail(`There is no suggestion ${id} of ${username}'s.`);
 			console.log(`${id}: ${status}`);
+			break;
+		}
+		case 'reader-ask': {
+			const [who] = rest;
+			if (username === 'list') {
+				const all = ledger.allowed().map((a) => ({ ...a, name: nameOf(a.reader) }));
+				if (json) console.log(JSON.stringify(all, null, 2));
+				else if (!all.length) console.log('No reader has ask.');
+				else
+					for (const a of all)
+						console.log(
+							`${a.name} (${a.reader})  cap ${a.capUsd === null ? 'the default' : usd(a.capUsd)}  since ${when(a.enabled)}`
+						);
+				break;
+			}
+			if (!['enable', 'disable'].includes(username) || !who) fail(usage);
+			if (!who.includes('@') && !accounts.get(who)) fail(`There is no reader "${who}".`);
+			const login = loginFor(who);
+			if (username === 'disable') {
+				if (!ledger.revoke(login)) fail(`${who} does not have ask.`);
+				console.log(`${who}: ask taken away; their kept answers stay theirs`);
+				break;
+			}
+			let cap = null;
+			if (capOpt !== undefined) {
+				cap = Number(capOpt);
+				if (!(cap > 0)) fail('--cap is a number of dollars a month, above 0');
+			}
+			const a = ledger.allow(login, cap);
+			console.log(
+				`${who}: ask enabled, capped at ${a.capUsd === null ? 'the default' : usd(a.capUsd)} a month`
+			);
+			break;
+		}
+		case 'ask-usage': {
+			const month = monthOpt ?? monthOf(new Date()).month;
+			if (!/^\d{4}-\d\d$/.test(month)) fail('--month is YYYY-MM');
+			const report = usageReport(ledger, askCaps(), month);
+			if (json) {
+				console.log(JSON.stringify(report, null, 2));
+				break;
+			}
+			const cap = (c) => (c === null ? 'uncapped' : `of ${usd(c)}`);
+			console.log(
+				`${report.month}: ${usd(report.site.spentUsd)} ${cap(report.site.capUsd)} site-wide, ${report.site.asks} asks`
+			);
+			for (const r of report.readers)
+				console.log(
+					`  ${nameOf(r.reader)} (${r.reader})  ${usd(r.spentUsd)} ${cap(r.capUsd)}, ${r.asks} asks${r.allowed ? '' : '  (no longer has ask)'}`
+				);
+			break;
+		}
+		case 'ask-costs': {
+			const rows = ledger.rows({
+				since: sinceOpt,
+				until: untilOpt,
+				reader: readerOpt && loginFor(readerOpt),
+				model: modelOpt
+			});
+			if (json) console.log(JSON.stringify(summarize(rows), null, 2));
+			else console.log(costReport(rows));
 			break;
 		}
 		default:

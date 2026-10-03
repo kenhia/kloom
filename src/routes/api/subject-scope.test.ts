@@ -12,7 +12,9 @@ const call = (handler: (e: never) => unknown, event: object) =>
 		.catch((e: { status: number }) => e);
 
 const post = (body: object) => ({
-	request: new Request('http://x/', { method: 'POST', body: JSON.stringify(body) })
+	request: new Request('http://x/', { method: 'POST', body: JSON.stringify(body) }),
+	// The hook has let a write through, so there is a reader.
+	locals: { reader: { login: 'ken@test', name: 'Ken', via: 'ssh' } }
 });
 
 describe('every API names its subject', () => {

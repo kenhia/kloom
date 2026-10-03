@@ -1,6 +1,6 @@
 import { redirect } from '@sveltejs/kit';
 import { aiOffer } from '$edition/offer';
-import type { AiOffered } from '$lib/edition/full/offer';
+import type { AiOffered } from '$lib/server/offer';
 import { readerStore } from '$lib/server/reader-store';
 import { readerNews } from '$lib/server/whats-new';
 import {
@@ -27,7 +27,7 @@ export type Placed<T> = T & { subjectTitle: string };
 export const load: PageServerLoad = async ({ params, locals }) => {
 	const [subject, ai, subjects, build] = await Promise.all([
 		servedSubject(params.subject),
-		aiOffer() as Promise<AiOffered>,
+		aiOffer(locals.reader?.login ?? null) as Promise<AiOffered>,
 		servedSubjects(),
 		servedBuild()
 	]);
@@ -60,10 +60,7 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 				store.lastVisited(login),
 				store.bookmarks(login),
 				store.notes(login, subject.id),
-				// Kept answers are the full edition's (korg 3500).
-				__KLOOM_EDITION__ === 'reader'
-					? Promise.resolve({} as Record<string, number>)
-					: store.keptCounts(login, subject.id),
+				store.keptCounts(login, subject.id),
 				store.unseenAnswers(login),
 				readerNews(store, login)
 			]);

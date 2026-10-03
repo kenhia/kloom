@@ -12,9 +12,11 @@
 		build?: string;
 		/** Suggest a subject (korg 3459), for a reader; absent with none. */
 		suggest?: SuggestOffer | null;
+		/** Whether this reader may ask (korg 3530): About then says who answers. */
+		ask?: boolean;
 	}
 
-	let { stats, build, suggest }: Props = $props();
+	let { stats, build, suggest, ask = false }: Props = $props();
 
 	const id = $props.id();
 	let open = $state(false);
@@ -170,6 +172,13 @@
 				rel="noopener noreferrer">report it on GitHub</a
 			>.
 		</p>
+		{#if ask}
+			<p>
+				Answers to questions you ask come from Claude, an AI made by Anthropic, which Ken provides.
+				They can be wrong too; if one is, tell Ken, or note it on the frame with
+				<em>Agent review</em> ticked.
+			</p>
+		{/if}
 		{#if suggest}<Suggest offer={suggest} active={open} />{/if}
 		{#if build}<p class="muted build">Build {build}</p>{/if}
 	</div>

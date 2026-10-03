@@ -18,6 +18,8 @@ export interface AiOffer {
 	web: WebMode;
 	/** Whether grow is configured; the AI pane shows its form only then. */
 	grow?: boolean;
+	/** A capped reader's month so far (the reader site); absent when ask has no cap. */
+	budget?: AskBudget;
 }
 
 /** What the reader is looking at when they ask. The server builds it from disk. */
@@ -64,10 +66,40 @@ export interface AskRequest {
 export type ProviderEvent =
 	| { type: 'text'; text: string }
 	| { type: 'status'; status: ProviderStatus }
-	| { type: 'error'; message: string };
+	| {
+			type: 'error';
+			message: string;
+			/** The model refused (the API's `refusal`). */ declined?: boolean;
+	  }
+	| { type: 'usage'; usage: AskUsage };
 
-/** What the model is doing between words: an ask only ever searches. */
-export type ProviderStatus = 'searching' | 'reading' | 'writing';
+/**
+ * What the model is doing between words. An ask searches, or (the API's
+ * refusal fallback) starts its answer again on another model: either way,
+ * the text before it is dropped.
+ */
+export type ProviderStatus = 'searching' | 'reading' | 'writing' | 'retrying';
+
+/** One model's share of a turn's tokens, as the API's usage block reports them. */
+export interface TokenUse {
+	/** The model that served these tokens: a refusal fallback can bring in a second. */
+	model: string;
+	input: number;
+	output: number;
+	cacheRead: number;
+	cacheWrite: number;
+}
+
+/**
+ * What a turn used, as the provider measured it (docs/design.md §Ask costs).
+ * Only an adapter that bills by use reports it, once, before the turn ends;
+ * it is logged on the server and never sent to the reader.
+ */
+export interface AskUsage {
+	tokens: TokenUse[];
+	webSearches: number;
+	webFetches: number;
+}
 
 /**
  * One grow turn (docs/design.md §Grow): the model works on a copy of the
@@ -95,7 +127,7 @@ export interface GrowRequest {
 }
 
 export interface Provider {
-	/** Recorded on kept answers, e.g. "claude-cli". */
+	/** Recorded on kept answers and in the cost log: "claude-cli", "anthropic-api". */
 	readonly name: string;
 	/**
 	 * Stream one answer. The iterator ends when the answer is complete; a
@@ -118,5 +150,16 @@ export interface Provider {
 export type AskStreamEvent =
 	| { type: 'start'; id: string; model: string; frame: string }
 	| { type: 'queued' }
-	| ProviderEvent
+	| Exclude<ProviderEvent, { type: 'usage' }>
+	| { type: 'budget'; budget: AskBudget }
 	| { type: 'done' };
+
+/**
+ * Where a capped reader stands this month (docs/design.md §Ask on the reader
+ * site): `open`, `near` the cap (a gentle notice), or `resting` until the
+ * first of next month (`until`, `YYYY-MM-DD`), when ask pauses, never fails.
+ */
+export interface AskBudget {
+	state: 'open' | 'near' | 'resting';
+	until: string;
+}

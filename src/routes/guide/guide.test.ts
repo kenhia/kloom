@@ -5,8 +5,8 @@ import { darkBrightness, lightBrightness, readingColours, sceneColours } from '$
 import Icon, { type IconName } from '$engine/ui/Icon.svelte';
 import Page from './+page.svelte';
 
-const page = (reader: { name: string; signedIn: boolean } | null) =>
-	render(Page, { props: { data: { reader } } as never }).body;
+const page = (reader: { name: string; signedIn: boolean } | null, ask = false, grow = false) =>
+	render(Page, { props: { data: { reader, ask, grow } } as never }).body;
 const text = (html: string) =>
 	html
 		.replace(/<[^>]*>/g, ' ')
@@ -115,8 +115,24 @@ describe("the User's Guide", () => {
 
 	it('says how to sign out only to a signed-in reader, and what ask and grow are in the full edition', () => {
 		expect(body).toContain('Signing in and out');
-		const tailnet = text(page({ name: 'Ken', signedIn: false }));
+		const tailnet = text(page({ name: 'Ken', signedIn: false }, true, true));
 		expect(tailnet).not.toContain('Signing in and out');
 		expect(tailnet).toContain('Asking and growing');
+	});
+
+	it('tells a public reader with ask who answers, that it can be wrong, and how to say so (korg 3530)', () => {
+		const ask = text(page({ name: 'Joel and Kathy', signedIn: true }, true));
+		expect(ask).not.toContain('Asking and growing');
+		for (const words of [
+			'Claude, an AI made by Anthropic',
+			'which Ken provides',
+			'can be wrong',
+			'tell Ken',
+			'Agent review',
+			'Keep this',
+			'rests until'
+		])
+			expect(ask, words).toContain(words);
+		expect(body).not.toContain('Claude, an AI');
 	});
 });

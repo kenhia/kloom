@@ -1,8 +1,8 @@
 import { error, json } from '@sveltejs/kit';
 import { GROW_VERBS, type GrowVerb } from '$engine/ai/grow';
 import { ANSWER_ID } from '$engine/ai/kept';
-import { loadAppConfig, resolveModel } from '$lib/server/app-config';
-import { providerFor } from '$lib/server/ask';
+import { loadAppConfig, modelId, modelsOn, resolveModel } from '$lib/server/app-config';
+import { growProvider } from '$lib/server/ask';
 import { growQueue, readKept } from '$lib/server/grow-service';
 import { mainSpineFrames } from '$lib/server/grow';
 import { requireSubjectDir, servedSubject } from '$lib/server/subject';
@@ -59,8 +59,11 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 			anchor,
 			request: text,
 			kept,
-			provider: providerFor(config).name,
-			model: resolveModel(config, body?.model, config.grow.defaultModel),
+			provider: growProvider(config).name,
+			// Grow runs on `claude -p`; a model on the API is never its.
+			model: modelId(
+				resolveModel(config, body?.model, config.grow.defaultModel, modelsOn(config, 'claude-cli'))
+			),
 			web: config.grow.web,
 			// The hook refused a request without a reader, so there is one.
 			...(locals.reader ? { by: locals.reader } : {})

@@ -4,7 +4,9 @@ import { keptAnswerProblems } from '$engine/ai/kept';
 import type { AskStreamEvent, Provider, ProviderEvent } from '$engine/ai/provider';
 import { TurnQueue } from '$engine/ai/queue';
 import { askEvents, keep, ndjson, RecentAnswers } from './ask';
+import { openAskLedger } from './ask-ledger';
 import { openReaderStore } from './reader-store';
+import { openReaderDb } from './sqlite-reader-store';
 
 const provider = (events: ProviderEvent[], gate?: Promise<void>): Provider => ({
 	name: 'fake',
@@ -34,6 +36,88 @@ async function collect(it: AsyncIterable<AskStreamEvent>) {
 	for await (const e of it) out.push(e);
 	return out;
 }
+
+const prices = {
+	checked: '2026-10-03',
+	source: 'test',
+	webSearchPerThousand: 10,
+	models: { 'claude-haiku-4-5': { input: 1, output: 5, cacheRead: 0.1, cacheWrite: 1.25 } }
+};
+const used = {
+	type: 'usage' as const,
+	usage: {
+		tokens: [
+			{ model: 'claude-haiku-4-5', input: 4000, output: 500, cacheRead: 1000, cacheWrite: 0 }
+		],
+		webSearches: 2,
+		webFetches: 1
+	}
+};
+
+describe('what an API turn cost (korg 3529)', () => {
+	it('is logged under the reader who asked, priced, and never sent to the reader', async () => {
+		const ledger = openAskLedger(openReaderDb(':memory:'));
+		const events = await collect(
+			askEvents({
+				...turn(provider([{ type: 'text', text: 'Fire [1]' }, used])),
+				model: 'claude-haiku-4-5',
+				web: true,
+				now: () => new Date('2026-10-03T12:00:00Z'),
+				cost: { ledger, prices, reader: 'jkh@kloom.example' }
+			})
+		);
+		expect(events.map((e) => e.type)).toEqual(['start', 'text', 'done']);
+		const [row] = ledger.rows();
+		expect(row).toMatchObject({
+			at: '2026-10-03T12:00:00.000Z',
+			reader: 'jkh@kloom.example',
+			subject: 'western-civ',
+			frame: 'press',
+			provider: 'fake',
+			model: 'claude-haiku-4-5',
+			web: true,
+			inputTokens: 4000,
+			outputTokens: 500,
+			cacheReadTokens: 1000,
+			webSearches: 2,
+			webFetches: 1,
+			outcome: 'done'
+		});
+		// 4000 × $1 + 500 × $5 + 1000 × $0.10 per million, and two searches at $10 a thousand.
+		expect(row.usd).toBeCloseTo(0.0066 + 0.02, 10);
+	});
+
+	it('logs a declined or stopped turn too: it was billed', async () => {
+		const ledger = openAskLedger(openReaderDb(':memory:'));
+		const cost = { ledger, prices, reader: 'r' };
+		await collect(
+			askEvents({
+				...turn(provider([used, { type: 'error', message: 'No.', declined: true }])),
+				cost
+			})
+		);
+		const abort = new AbortController();
+		const stopped = provider([{ type: 'text', text: 'Half' }, used]);
+		const run = askEvents({ ...turn(stopped), signal: abort.signal, cost });
+		for await (const e of run) if (e.type === 'text') abort.abort();
+		expect(ledger.rows().map((r) => r.outcome)).toEqual(['declined', 'stopped']);
+	});
+
+	it('says where a capped reader stands after the answer', async () => {
+		const ledger = openAskLedger(openReaderDb(':memory:'));
+		const events = await collect(
+			askEvents({
+				...turn(provider([{ type: 'text', text: 'Yes' }, used])),
+				now: () => new Date('2026-10-03T12:00:00Z'),
+				cost: { ledger, prices, reader: 'r', caps: { readerUsd: 0.03, siteUsd: 15 } }
+			})
+		);
+		expect(events.at(-2)).toEqual({
+			type: 'budget',
+			budget: { state: 'near', until: '2026-11-01' }
+		});
+	});
+});
 
 describe('an ask turn', () => {
 	it('names the answer, streams it, ends with done, and remembers it for keeping', async () => {

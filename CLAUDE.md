@@ -280,6 +280,14 @@ scenes, captions, names' descriptions, the app's labels) respelled by
 proper names and citation fields, and is run by `just check`; setting keys
 kept, and no `edits` or Changelog entries, since spelling is not a
 revision.
+Sprint 046 ask on the Claude API: providers a list in `kloom.config.json`
+(`claude-cli`, and `anthropic-api` through the official SDK, with capped
+web and the refusal fallback), every API ask's cost logged in `reader.db`
+(`ask_cost`, `just ask-costs`), Sonnet 5.5 the default on `claude -p`; and
+ask on the reader site for the readers Ken allows (`just reader-ask`, `jkh`
+first): Haiku 4.5 by default with Sonnet 5.5 offered, web on, caps of $5 a
+reader and $15 a month site-wide that rest ask rather than fail it, and the
+spend report kmon reads (`just ask-usage --json`).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
@@ -330,9 +338,15 @@ then start the sprint. Nothing pending (exit 0) costs one command.
 - Reader data (places, bookmarks, notes, kept answers) goes through `ReaderStore`,
   never straight to SQLite; a schema change is a new migration, never an
   edit to a shipped one.
-- The reader edition holds no agent code. Ask, grow, keep and anything
-  editor-only go behind `$edition` (`src/lib/edition/`) or
-  `__KLOOM_EDITION__`, and `just reader-gate` gets a marker for them.
+- The reader edition holds no `claude -p` and no grow. It has ask and keep
+  on the Claude API only, for the readers on its allow-list (`ask_access`),
+  and a 404 for everyone else. Grow, `claude -p` and anything editor-only go
+  behind `$edition` (`src/lib/edition/`) or `__KLOOM_EDITION__`, and
+  `just reader-gate` gets a marker for them.
+- Never print a secrets file. Read one key by name, through the
+  fingerprint awk in krot-register, or not at all. A whole
+  `/etc/khomelab/secrets.env` printed into a transcript cost five
+  rotations in sprint 046.
 - A meaningful change to a published frame (a fact, date, attribution,
   quotation or source changed, or a section rewritten) adds an entry to its
   `edits`, newest first, in the same commit, whoever makes it, a sprint

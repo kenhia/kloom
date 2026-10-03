@@ -65,6 +65,7 @@
 			stats: () => Promise<LibraryStats>;
 			build?: string;
 			suggest?: SuggestOffer | null;
+			ask?: boolean;
 		};
 		/** The Welcome and How-To page's address (korg 3502), offered under Begin. */
 		help?: string;

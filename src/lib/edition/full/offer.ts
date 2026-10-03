@@ -1,18 +1,8 @@
-import { loadAppConfig, webMode } from '$lib/server/app-config';
+import { offerFor } from '$lib/server/offer';
 
-/**
- * What the page offers the AI pane, from the app config (read per request,
- * so a model renamed there shows without a restart). The reader edition
- * offers none, and has no AI pane (korg 3500).
- */
-export async function aiOffer() {
-	const config = await loadAppConfig();
-	const choices = config.models.map((m) => ({ value: m.id, label: m.label }));
-	return {
-		askModels: { choices, default: config.ask.defaultModel },
-		askWeb: webMode(config),
-		growModels: config.grow ? { choices, default: config.grow.defaultModel } : null
-	};
+/** The full edition offers the AI pane to every reader (src/lib/server/offer.ts). */
+export async function aiOffer(reader: string | null) {
+	return offerFor(reader);
 }
 
-export type AiOffered = Awaited<ReturnType<typeof aiOffer>> | null;
+export type { AiOffered } from '$lib/server/offer';

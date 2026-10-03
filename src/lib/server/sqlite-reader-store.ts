@@ -164,7 +164,36 @@ const MIGRATIONS = [
 			UNION ALL SELECT reader, subject, frame, created FROM note
 			UNION ALL SELECT reader, subject, frame, kept_at FROM kept
 		) GROUP BY reader, subject, frame;
-	INSERT INTO activity (reader, active) SELECT reader, max(at) FROM place GROUP BY reader;`
+	INSERT INTO activity (reader, active) SELECT reader, max(at) FROM place GROUP BY reader;`,
+	// Sprint 046 (korg 3529, 3530): what each API ask cost, and on the reader
+	// site who may ask and their own cap (ask-ledger.ts). A cost row holds
+	// numbers and where it was asked, never the question.
+	`CREATE TABLE ask_cost (
+		id INTEGER PRIMARY KEY,
+		at TEXT NOT NULL,
+		reader TEXT NOT NULL,
+		subject TEXT NOT NULL,
+		frame TEXT NOT NULL,
+		provider TEXT NOT NULL,
+		model TEXT NOT NULL,
+		web INTEGER NOT NULL,
+		input_tokens INTEGER NOT NULL,
+		output_tokens INTEGER NOT NULL,
+		cache_read_tokens INTEGER NOT NULL,
+		cache_write_tokens INTEGER NOT NULL,
+		web_searches INTEGER NOT NULL,
+		web_fetches INTEGER NOT NULL,
+		ms INTEGER NOT NULL,
+		usd REAL NOT NULL,
+		outcome TEXT NOT NULL
+	);
+	CREATE INDEX ask_cost_at ON ask_cost (at);
+	CREATE INDEX ask_cost_reader ON ask_cost (reader, at);
+	CREATE TABLE ask_access (
+		reader TEXT PRIMARY KEY,
+		cap_usd REAL,
+		enabled TEXT NOT NULL
+	);`
 ];
 
 /**

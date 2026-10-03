@@ -47,7 +47,8 @@ export const requester = (by: NonNullable<GrowJob['by']>) => {
 const DOING: Record<ProviderStatus, string> = {
 	searching: 'searching the web',
 	reading: 'reading the subject',
-	writing: 'writing'
+	writing: 'writing',
+	retrying: 'starting again'
 };
 
 /** What a job needs from the host; tests pass their own. */
@@ -270,7 +271,7 @@ export async function runGrowJob(
 					return { ok: false, error: event.message };
 				}
 				if (event.type === 'status') progress(DOING[event.status]);
-				else summary += event.text;
+				else if (event.type === 'text') summary += event.text;
 			}
 			if (host.signal?.aborted) return { ok: false, error: 'Stopped.' };
 			checked = await check(work, before, job, host, namesBefore);
