@@ -48,6 +48,16 @@ overseer's clearance, and Ken reviews the guide copy before then.
   notes to two. The Finding your way and Settings and keys sections moved
   to the guide.
 
+## The overseer's ruling, mid-flight
+
+Comment 3401 on the proposal, from Ken: the guide explains the colors in a
+section of its own: both colour settings and every choice, both brightness
+sliders, and the two sides colored apart (korg 3495). Its own prose is in
+American English, but controls are named exactly as labeled ("Scene
+colours"), because standardizing the labels is a separate item. Both are
+in, and a test holds each: every choice's label appears, and the prose,
+with the labels taken out, has no British spellings.
+
 ## What shipped
 
 **3517, Home.**

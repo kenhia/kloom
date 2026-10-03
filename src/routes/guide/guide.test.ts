@@ -1,6 +1,7 @@
 import { render } from 'svelte/server';
 import { describe, expect, it } from 'vitest';
 import { FIXED_KEYS, SHORTCUTS } from '$engine/keys';
+import { darkBrightness, lightBrightness, readingColours, sceneColours } from '$engine/settings';
 import Icon, { type IconName } from '$engine/ui/Icon.svelte';
 import Page from './+page.svelte';
 
@@ -65,6 +66,22 @@ describe("the User's Guide", () => {
 			'Phones and tablets'
 		])
 			expect(body, words).toContain(words);
+	});
+
+	it('explains the colors: both settings, every choice, both sliders and the sides colored apart', () => {
+		for (const s of [sceneColours, readingColours, lightBrightness, darkBrightness]) {
+			expect(body).toContain(s.label);
+			if (s.control !== 'range')
+				for (const c of s.choices) expect(body, c.label).toContain(c.label);
+		}
+		expect(body).toContain('As designed');
+		expect(body).toContain('The two sides are colored apart.');
+	});
+
+	it('is written in American English, naming controls as they are labeled', () => {
+		const labels = /Scene colours|Reading colours|Centre on it/g;
+		const prose = body.replace(labels, '');
+		expect(prose).not.toMatch(/colour|centre|neighbour|behaviour|favour|grey/i);
 	});
 
 	it('lists every shortcut at its letter out of the box, and the keys that never change', () => {

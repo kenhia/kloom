@@ -22,6 +22,7 @@
 		['review', 'Agent review'],
 		['about', 'About kloom'],
 		['settings', 'Settings'],
+		['colors', 'Colors'],
 		['keys', 'Keyboard'],
 		['touch', 'Phones and tablets'],
 		...(full ? [['ai', 'Asking and growing']] : []),
@@ -195,8 +196,8 @@
 	</p>
 	<ul>
 		<li>
-			Each <strong>dot</strong> is a frame, and its colour and shape say which subject it belongs
-			to. The key at the bottom names them. A plain round dot with an outline is a
+			Each <strong>dot</strong> is a frame, and its color and shape say which subject it belongs to.
+			The key at the bottom names them. A plain round dot with an outline is a
 			<strong>name</strong>: a person, place or thing.
 		</li>
 		<li>
@@ -205,7 +206,7 @@
 		</li>
 		<li>
 			Point at a dot, or move to it with the arrow keys, to bring it forward: its lines and its
-			neighbours light up, and the details under the map say what it is.
+			neighbors light up, and the details under the map say what it is.
 		</li>
 		<li>
 			Choose a dot to put it in the middle and see what it connects to. To go to a frame, choose "Go
@@ -300,8 +301,9 @@
 	<p>{@render icon('settings')} The gear, at the top right, opens the settings:</p>
 	<ul>
 		<li>
-			<strong>Scene colours</strong> and <strong>Reading colours</strong>: light or dark, or the
-			colours each section was made in.
+			<strong>Scene colours</strong> and <strong>Reading colours</strong>: light or dark (<a
+				href="#colors">more</a
+			>).
 		</li>
 		<li>
 			<strong>Narrative</strong>: whether the reading follows the spine, or stays until you press
@@ -310,10 +312,61 @@
 		{#if full}
 			<li><strong>Layout</strong>, and the models that ask and grow use.</li>
 		{/if}
-		<li><strong>Advanced</strong> makes light and dark brighter or dimmer.</li>
+		<li>
+			<strong>Advanced</strong> holds <strong>Light brightness</strong> and
+			<strong>Dark brightness</strong> (<a href="#colors">more</a>).
+		</li>
 		<li><strong>Keyboard shortcuts…</strong> lists every key and lets you change them.</li>
 	</ul>
 	<p>Settings are remembered in this browser, so another phone or computer keeps its own.</p>
+
+	<h2 id="colors">Colors</h2>
+	<p>
+		Every section of a subject has its own colors, light or dark, chosen to suit it. Four settings
+		under {@render icon('settings')} let you change how they look. The screen changes as you choose, so
+		you can try each one and see.
+	</p>
+	<ul>
+		<li>
+			<strong>The two sides are colored apart.</strong> The picture side, with its buttons and the
+			lists they open, follows <strong>Scene colours</strong>. The reading, the notes, the tabs and
+			the settings follow <strong>Reading colours</strong>.
+		</li>
+		<li>
+			<strong>Scene colours</strong>:
+			<ul>
+				<li>
+					<strong>By section</strong>, the first choice: every frame in a section is light, or every
+					frame is dark, so the screen does not flash between them as you move.
+				</li>
+				<li>
+					<strong>Each frame</strong>: each frame in the colors it was made in, light or dark.
+				</li>
+				<li>
+					<strong>Always dark</strong> or <strong>Always light</strong>: every frame that way.
+				</li>
+			</ul>
+		</li>
+		<li>
+			<strong>Reading colours</strong>:
+			<ul>
+				<li><strong>Same as scene</strong>, the first choice: the reading matches the picture.</li>
+				<li>
+					<strong>Always light</strong> or <strong>Always dark</strong>: the reading stays one way
+					whatever the picture does. Choose this if you find dark pages hard to read, or bright ones
+					tiring.
+				</li>
+			</ul>
+		</li>
+		<li>
+			<strong>Light brightness</strong> and <strong>Dark brightness</strong>, under
+			<strong>Advanced</strong>, are sliders. Light brightness makes the light pages dimmer, if they
+			feel too bright, or a little brighter. Dark brightness makes the dark pages softer and
+			lighter, or a little darker. <strong>As designed</strong>, in the middle, is how kloom was
+			made. Whichever you choose, the words keep enough contrast to read.
+		</li>
+	</ul>
+	<p>Colors are remembered in this browser, like the other settings.</p>
 
 	<h2 id="keys">Keyboard</h2>
 	<p>kloom can be used without a mouse. These keys are always the same:</p>

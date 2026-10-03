@@ -1818,7 +1818,10 @@ start screen, every button over the picture and in the corner, reading
 contents, the map (dots, lines, centring and going, its Back, how far out,
 the list, 3D), bookmarks and export, notes, annotations and detached ones,
 My notes, Agent review with the same plain statement Welcome makes, About
-with Suggest a subject, settings, the keyboard, and phones. Its own list
+with Suggest a subject, settings, colors (a section of its own: both
+settings, every choice, both sliders, the two sides colored apart), the
+keyboard, and phones. Its prose is American English, and it names each
+control exactly as labeled, so "Scene colours" until the labels change. Its own list
 of parts links to each.
 
 - **Icons as they look.** The shell's icons live in one component,
