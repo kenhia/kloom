@@ -33,3 +33,11 @@ of illustrated readings to wander through, so the description now says
   this change (no test touches the edited strings).
 - No other instance of "learning a subject" remains outside past sprint
   records, which describe what was true then.
+
+## Deployed
+
+2026-10-03, `just deploy` to the service on kai from merged `main`
+(`be05f0c`, PR #52). Every deploy check passed, and the live About copy
+reads "growable timeline for exploring a subject". The GitHub description
+was set with `gh repo edit`. The public reader site was not published;
+that waits on Ken, with sprint 044.
