@@ -63,7 +63,7 @@ over ceremony.
 
 ## Project
 
-kloom is an interactive, growable timeline for learning a subject: a spine
+kloom is an interactive, growable timeline for exploring a subject: a spine
 scroller (left), a narrative reading pane (right) and an AI pane (bottom) that
 answers questions (ask) or adds frames and side trails (grow). POC subject:
 the History of Western Civilization. Later: a framework (starter code, skills,

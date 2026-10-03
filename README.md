@@ -5,7 +5,7 @@
 > kloom has at least **two subjects** built on it and **tested skills** for
 > generating a new one.
 
-kloom is an interactive, growable timeline for learning a subject. Scrolling
+kloom is an interactive, growable timeline for exploring a subject. Scrolling
 moves a cursor along a "spine" of richly illustrated frames; a reading pane
 holds the narrative, charts, images and sources for the frame you are on; and
 an AI pane lets you ask for more detail or _grow_ the story — new frames on

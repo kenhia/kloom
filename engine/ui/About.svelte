@@ -135,7 +135,7 @@
 		{/if}
 		<p class="group">What it is</p>
 		<p>
-			An interactive, growable timeline for learning a subject: a spine of illustrated frames to
+			An interactive, growable timeline for exploring a subject: a spine of illustrated frames to
 			scroll, a narrative to read, and an AI to question it and grow it. A proof of concept and a
 			work in progress.
 		</p>
