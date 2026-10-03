@@ -262,6 +262,15 @@ bench` — [record](../032-content-db.md).
   `pull-notes`; Joel and Kathy invited as `jkh` —
   [record](../040-reader-site-on-fly.md).
 
+- Sprint 041: the public site's notes return trip and suggested subjects
+  (proposal 3507, covering 3504 and 3459; the third slice of program 3508):
+  `admin.mjs` answers flagged notes in the live store, refusing a note that
+  is gone, unflagged or edited since it was read, and `review-notes.mjs
+--public` drives it over `fly ssh`; `verify-public` reports detached notes;
+  and Suggest a subject in About, reviewed with `suggestions` and
+  `mark-suggestion` —
+  [record](../041-public-notes-return-and-suggestions.md).
+
 ## Next
 
 - Whatever the korg Planning queue holds for project kloom (72).
