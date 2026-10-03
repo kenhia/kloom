@@ -15,6 +15,8 @@ declare global {
 		interface PageState {
 			/** The jumps that led here, oldest first (§Connections); one per history entry. */
 			back?: BackStop[];
+			/** The start screen, gone to with Home (korg 3517); begun, the entry becomes the frame's. */
+			home?: boolean;
 		}
 	}
 }

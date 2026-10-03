@@ -110,11 +110,28 @@
 		}))
 	);
 
-	/** Back to the start screen over this subject, where Begin or Esc returns. */
+	/**
+	 * Back to the start screen over this subject, where Begin or Esc returns.
+	 * A history entry of its own at `/<subject>` (korg 3517), so a reload stays
+	 * home, Back returns to the frame and Forward comes home again.
+	 */
+	let goingHome = false;
 	function home() {
 		selected = data.subject.id;
 		begun = null;
+		goingHome = true;
+		goto(resolve('/[subject]/[[frame]]', { subject: data.subject.id }), {
+			state: { home: true }
+		}).finally(() => (goingHome = false));
 	}
+	// Coming back to a home entry (Forward, say) shows the start screen again.
+	$effect.pre(() => {
+		if (!page.state.home) return;
+		untrack(() => {
+			selected = data.subject.id;
+			begun = null;
+		});
+	});
 
 	/** Open another subject from the list: begun already, as the reader chose it there. */
 	function open(id: string) {
@@ -332,7 +349,8 @@
 	// A note with unsaved changes: leaving the subject, or the page, asks first.
 	// Leaving for good (a reload, closing the tab) gets the browser's own question.
 	beforeNavigate((nav) => {
-		if (!shell?.hasUnsavedNote()) return;
+		// Home keeps the subject, and the shell with the note in it.
+		if (goingHome || !shell?.hasUnsavedNote()) return;
 		if (nav.willUnload) nav.cancel();
 		else if (confirm('This note has changes that are not saved. Discard them?'))
 			shell.discardNote();
@@ -367,7 +385,8 @@
 		untrack(() => {
 			const href = frameHref(subject, f.id);
 			// The jumps that led here stay with the entry (§Connections).
-			if (location.pathname !== href) replaceState(href, page.state);
+			// A home entry the reader began from becomes the frame's (korg 3517).
+			if (location.pathname !== href) replaceState(href, { ...page.state, home: undefined });
 			if (!data.reader) return;
 			const label = titleOf(f);
 			const at = new Date().toISOString();

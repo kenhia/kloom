@@ -1735,7 +1735,16 @@ past two subjects:
   narrative and any unsaved note all survive. Esc returns to exactly where
   the reader was, and so does _Continue where you were_. Begin starts the
   subject from its first frame (sprint 016, korg 3432, §Reader data). Focus
-  goes back to Home, and the URL moves only if the reader does. Opening another subject from there is a navigation, so an unsaved
+  goes back to Home. Going home is a history entry of its own at
+  `/<subject>` (sprint 042, korg 3517), so the address always says what is
+  on screen: a reload stays on the start screen, Back returns to the frame
+  and Forward comes home again. When the reader begins or returns, that
+  entry is rewritten to the frame's address, so Back from the reading
+  never finds the start screen it already left. Going home is not a guarded
+  navigation, because the subject and its shell stay. `just home-check`
+  drives it in the machine's Playwright and Chromium
+  (`create-tools/home-check/home_check.mjs`), like keys-check, outside
+  `just check`. Opening another subject from there is a navigation, so an unsaved
   note meets the usual guard (§Notes), and a cancelled one leaves the start
   screen as it was. The gear and Home share `engine/ui/IconButton.svelte`.
   Home's icon and the four runners-up (loom, shuttle, return, title card)
