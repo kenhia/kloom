@@ -84,8 +84,8 @@
 
 	<h2>"Agent review": telling Ken about a problem</h2>
 	<p>
-		When you write a note, you will see a box called <strong>Agent review</strong>. Please read this
-		before you tick it.
+		When you write a note (or annotation), you will see a box called <strong>Agent review</strong>.
+		Please read this before you tick it.
 	</p>
 	<ul>
 		<li>
