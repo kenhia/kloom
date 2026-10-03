@@ -158,7 +158,7 @@ and back after. `robots.txt` disallows everything, and every response says
 for the people Ken invites.
 
 - **Accounts are logins, not people.** Two people may share one, as Ken's
-  parents do (`J-n-K`). A reader has a username (typed, case-insensitive,
+  parents do (`jkh`). A reader has a username (typed, case-insensitive,
   `[A-Za-z0-9-]`), a display name (shown), and a store login,
   `<username>@kloom.kenhiatt.us`, which keys their data. A public reader
   never meets a tailnet login (`ken@github`) when notes come back to be

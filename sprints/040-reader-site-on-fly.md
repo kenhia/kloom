@@ -12,8 +12,9 @@ The sprint ran as a karc leg, overseen. The overseer's notes (comment 3387) wrot
 
 1. After the first publish and a green `verify-public`, Ken looks at the
    live site himself, signed in as a throwaway reader, `kloom-test`.
-2. `just invite J-n-K` runs only once Ken has said so, and Ken sends the
-   link.
+2. Ken's parents' invite runs only once Ken has said so, and Ken sends
+   the link. Ken named the login `jkh`, display name "Joel and Kathy"
+   (planned as J-n-K until then).
 
 ## Premise, checked at start
 
@@ -68,7 +69,7 @@ environment and never on a command line.
   `origin/main`. It stages, deploys with `--local-only`, runs
   `verify-public`, and appends the release, image, commit and library to
   `~/.local/share/kloom/public/publishes.log`.
-- **`verify-public`** has 15 checks (docs/deploying.md §Publishing). It signs
+- **`verify-public`** has 18 checks (docs/deploying.md §Publishing). It signs
   in as `kloom-verify`, which each run re-invites with a random password and
   disables at the end.
 - **`invite`, `readers` and `disable-reader`** run `admin.mjs` on the machine
@@ -80,6 +81,14 @@ environment and never on a command line.
 **The deploy token** is `kloom-publish-kai`, scoped to the app. It was
 minted on kai straight into k-homelab's age store, then distributed to kai
 as `FLY_API_TOKEN` and registered in krot. See Cross-repo changes.
+
+**HSTS** (overseer finding, Ken approved). Every response from the reader
+edition's hooks says `Strict-Transport-Security: max-age=31536000`, without
+`includeSubDomains`, because kenhiatt.us has other hosts. The sign-in
+redirect is now returned rather than thrown, so it carries the header too.
+Static assets (`/_app/immutable/…`) are served by adapter-node's file
+handler before the hooks run, so they do not; a browser takes the policy
+from the first page it loads.
 
 **Docs.** `docs/deploying.md` has a new §Public reader site.
 
@@ -113,8 +122,8 @@ as `FLY_API_TOKEN` and registered in krot. See Cross-repo changes.
 
 ## Verified
 
-- **`just check` is green.** That covers svelte-check, lint, 1371 tests
-  (one new: `compileContent`'s `only`), tools tests, the reader gate and the
+- **`just check` is green.** That covers svelte-check, lint, 1372 tests
+  (new: `compileContent`'s `only`, and HSTS on every hook response), tools tests, the reader gate and the
   mark check.
 - **The image, locally** (Docker on kai):
   - an anonymous `/` gets a 303 to `/signin`, and `robots.txt` disallows
@@ -122,8 +131,12 @@ as `FLY_API_TOKEN` and registered in krot. See Cross-repo changes.
     signs in
   - signed in, `/api/stats` is 200 with a build, and pages go `br`
   - a POST to ask, grow or keep is 404
-- **Live, `just verify-public`: 15 of 15 ok**, every probe run from kai:
+- **Live, `just verify-public`: 18 of 18 ok** after the HSTS redeploy
+  (image `18e8259bb-202610030525`), every probe run from kai:
   - TLS verifies; http goes to https (301)
+  - HSTS on `robots.txt`, on the way to sign in, and on a reader's page.
+    Negative test: before that deploy, the live site sent no HSTS on
+    either of the first two, which those checks would have failed.
   - `robots.txt` disallows
   - a stranger gets a 303 to `/signin`, a deep link comes back with
     `next`, and the API returns 401
@@ -143,6 +156,14 @@ as `FLY_API_TOKEN` and registered in krot. See Cross-repo changes.
   `review-notes.mjs --data <dir> list` read it ("No flagged notes").
 - **`just readers`** lists `kloom-verify`, disabled.
 
+## The invite
+
+Ken looked at the live site as `kloom-test` and said it was OK. On his
+word, `just invite jkh "Joel and Kathy"` ran on 2026-10-03 at 05:26 UTC.
+The link is good once until 2026-10-10 05:26 UTC, and Ken sends it
+himself. `kloom-test` stays in place: slice 3507 uses one for its round
+trip and deletes it.
+
 ## Repaired in passing
 
 - **`fly ssh console` hung at `Connecting to fdaa:…`** with both the token
@@ -154,6 +175,7 @@ as `FLY_API_TOKEN` and registered in krot. See Cross-repo changes.
   stale-peer case.
 - **k-homelab's khomelab-secrets key table** was missing kai's
   `OPENALEX_API_KEY` row. I added it with `FLY_API_TOKEN` (PR #114).
+- **docs/deploying.md** named the shared login `J-n-K`; it is `jkh`.
 
 ## Cross-repo changes made
 
@@ -163,8 +185,9 @@ the krot-register skill were followed.
 
 - **k-homelab** (on kubs0), branch `kloom-fly-deploy-token`, **PR #114,
   open**:
-  - the store entry `fly-deploy-token-kloom-reader`, minted with `fly tokens
-create deploy` straight into `bin/secret set`, and never echoed
+  - the store entry `fly-deploy-token-kloom-reader`, minted with
+    `fly tokens create deploy` straight into `bin/secret set`, and never
+    echoed
   - its `secrets/index.yml` entry, with a probe (`bin/secret verify`: ok,
     negative control refused)
   - `FLY_API_TOKEN` in `manifests/kai.yml`
