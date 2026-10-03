@@ -351,13 +351,17 @@ verify-public:
     # Backoff keys on Fly-Client-IP (src/lib/server/session.ts). If Fly's proxy
     # passed a client's own through, each try below would count against a
     # made-up address and none would wait; overwritten, they are all this
-    # address's, and the twenty-first waits. Fresh usernames, so only the
-    # address can be what waits.
+    # address's, and the twenty-first waits (or the first, if an earlier run
+    # left this address waiting). Fresh usernames, so only the address can
+    # be what waits. Asked as the page's script asks, so the action's own
+    # status comes back: a plain form post answers 200 either way.
     waited=no
     for i in $(seq 21); do
-        c="$(code -X POST -H "origin: $url" -H "fly-client-ip: 203.0.113.$i" \
-            --data-urlencode "username=nobody-$RANDOM$RANDOM" --data-urlencode "password=not-a-password" "$url/signin")"
-        [ "$c" = 429 ] && { waited=yes; break; }
+        c="$(curl -s -X POST -H "origin: $url" -H 'accept: application/json' -H 'x-sveltekit-action: true' \
+            -H "fly-client-ip: 203.0.113.$i" --data-urlencode "username=nobody-$RANDOM$RANDOM" \
+            --data-urlencode "password=not-a-password" "$url/signin" | grep -o '"status":[0-9]*' || true)"
+        [ "$c" = '"status":429' ] && { waited=yes; break; }
+        [ "$c" = '"status":400' ] || { echo "FAIL sign-in answered ${c:-nothing}, not a refusal"; fail=1; break; }
     done
     check "Fly overwrites a client's Fly-Client-IP (backoff keys on the real address)" "$waited" yes
 
@@ -384,9 +388,11 @@ disable-reader username:
 pull-notes:
     #!/usr/bin/env bash
     set -euo pipefail
-    mkdir -p "{{ public_home }}"
+    # Readers' accounts are in it (hashes only, but still theirs): owner only.
+    mkdir -p -m 700 "{{ public_home }}"
     out="{{ public_home }}/reader-$(date -u +%Y%m%d-%H%M).db"
     {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning -e \"require('node:sqlite').backup(new (require('node:sqlite').DatabaseSync)('/data/reader.db'), '/data/pull.db').then(() => console.log('backed up'))\""
     {{ fly }} ssh sftp get -a {{ fly_app }} /data/pull.db "$out" >/dev/null
+    chmod 600 "$out"
     {{ fly }} ssh console -a {{ fly_app }} -q -C "rm -f /data/pull.db"
     echo "$out ($(du -h "$out" | cut -f1))"
