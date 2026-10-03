@@ -5,7 +5,7 @@ description: Write new frames and side trails into a kloom subject, in the house
 
 # Growing a kloom subject
 
-You are adding content to **kloom**, an interactive timeline for learning a
+You are adding content to **kloom**, an interactive timeline for exploring a
 subject. A reader scrolls a **spine** of **frames**. Each frame has a
 _scene_ (a huge headline, one accent word, a line drawing that draws itself
 on, small metadata, an optional counter) and a _reading_ (a short, sourced
