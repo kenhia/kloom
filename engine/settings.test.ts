@@ -1,11 +1,15 @@
 import { describe, expect, it } from 'vitest';
+import { DEFAULT_KEYS, parseBinding, plain } from './keys';
 import type { Palette } from './model';
 import {
 	followSpine,
 	layout,
 	paletteFor,
 	paletteMode,
+	keyWarnings,
+	readKeymap,
 	readSetting,
+	writeKey,
 	writeSetting,
 	type Setting
 } from './settings';
@@ -174,5 +178,77 @@ describe('layout', () => {
 
 	it('offers the three-column layout, and the two kept for comparison', () => {
 		expect(layout.choices.map((c) => c.value)).toEqual(['tabs', 'columns', 'strip', 'split']);
+	});
+});
+
+describe('the reader’s keymap (korg 3363, 3493)', () => {
+	it('is the defaults with nothing stored, or no storage', () => {
+		expect(readKeymap(memory())).toEqual(DEFAULT_KEYS);
+		expect(readKeymap(null)).toEqual(DEFAULT_KEYS);
+		expect(readKeymap(memory(true))).toEqual(DEFAULT_KEYS);
+	});
+
+	it('reads the keys stored before modifiers, a letter or off, unchanged', () => {
+		const s = memory();
+		s.map.set('kloom.key.sync', 'y');
+		s.map.set('kloom.key.bookmark', 'off');
+		const keys = readKeymap(s);
+		expect(keys.sync).toEqual(plain('y'));
+		expect(keys.bookmark).toBeNull();
+		expect(keys.trail).toEqual(plain('t'));
+		// Read, not rewritten: there is nothing to migrate.
+		expect(s.map.get('kloom.key.sync')).toBe('y');
+	});
+
+	it('remembers a binding with modifiers, and off, under the same keys', () => {
+		const s = memory();
+		expect(writeKey('map', parseBinding('alt+m'), s)).toBe(true);
+		expect(writeKey('note', null, s)).toBe(true);
+		expect(s.map.get('kloom.key.map')).toBe('alt+m');
+		expect(s.map.get('kloom.key.note')).toBe('off');
+		const keys = readKeymap(s);
+		expect(keys.map).toEqual({ ...plain('m'), alt: true });
+		expect(keys.note).toBeNull();
+		expect(writeKey('map', plain('m'), null)).toBe(false);
+		expect(writeKey('map', plain('m'), memory(true))).toBe(false);
+	});
+
+	it('falls back to the default for what is not a binding, or one now reserved', () => {
+		const s = memory();
+		s.map.set('kloom.key.sync', 'ArrowLeft');
+		s.map.set('kloom.key.map', 'ctrl+t');
+		const keys = readKeymap(s);
+		expect(keys.sync).toEqual(plain('s'));
+		expect(keys.map).toEqual(plain('m'));
+	});
+
+	it('says which shortcut acts when one binding is set for two', () => {
+		const keys = { ...DEFAULT_KEYS, trail: plain('s') };
+		expect(keyWarnings(keys)).toEqual([
+			'S is set for sync the narrative and enter a trail; it will sync the narrative.'
+		]);
+		expect(keyWarnings({ ...keys, trail: parseBinding('meta+s') })).toEqual([]);
+		const both = { ...DEFAULT_KEYS, map: parseBinding('meta+m'), contents: parseBinding('meta+m') };
+		expect(keyWarnings(both, true)).toEqual([
+			'Cmd+M is set for open the contents and open the map; it will open the contents.'
+		]);
+		expect(keyWarnings(DEFAULT_KEYS)).toEqual([]);
+	});
+
+	it('is loaded, changed and reset through the settings’ keys', () => {
+		const s = memory();
+		s.map.set('kloom.key.contents', 'shift+c');
+		const settings = new UserSettings([paletteMode], () => s);
+		expect(settings.keys.map.contents).toEqual(plain('c'));
+		settings.load();
+		expect(settings.keys.map.contents).toEqual({ ...plain('c'), shift: true });
+		settings.keys.set('map', parseBinding('alt+m'));
+		expect(s.map.get('kloom.key.map')).toBe('alt+m');
+		settings.keys.reset('map');
+		expect(settings.keys.map.map).toEqual(plain('m'));
+		settings.keys.set('note', null);
+		settings.keys.resetAll();
+		expect(settings.keys.map).toEqual(DEFAULT_KEYS);
+		expect(s.map.get('kloom.key.contents')).toBe('c');
 	});
 });

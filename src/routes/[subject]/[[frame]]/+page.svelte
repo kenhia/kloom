@@ -29,7 +29,6 @@
 		ASK_MODEL,
 		followSpine,
 		GROW_MODEL,
-		keySettings,
 		layout,
 		modelSetting,
 		paletteFor,
@@ -63,8 +62,7 @@
 			'Ask model',
 			untrack(() => data.askModels)
 		),
-		...(growModels ? [modelSetting(GROW_MODEL, 'Grow model', growModels)] : []),
-		...keySettings
+		...(growModels ? [modelSetting(GROW_MODEL, 'Grow model', growModels)] : [])
 	]);
 
 	// The start screen's subject list (korg 3424): the selection shows its

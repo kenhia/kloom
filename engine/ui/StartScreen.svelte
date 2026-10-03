@@ -2,7 +2,6 @@
 	import { onMount } from 'svelte';
 	import { bibliography, chicago, type Citation } from '../citation';
 	import type { Palette } from '../model';
-	import { keymapOf, keyWarnings } from '../settings';
 	import type { LibraryStats } from '../stats';
 	import type { UserSettings } from '../user-settings.svelte';
 	import About from './About.svelte';
@@ -301,10 +300,7 @@
 		<!-- Top right, as in the shell, the gear rightmost; last in the tab order. -->
 		<div class="corner">
 			{#if about}<About {...about} />{/if}
-			{#if settings}<Settings
-					{settings}
-					warnings={keyWarnings(keymapOf((k) => settings.get(k)))}
-				/>{/if}
+			{#if settings}<Settings {settings} />{/if}
 		</div>
 	{/if}
 
