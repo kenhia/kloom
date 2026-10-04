@@ -1,0 +1,297 @@
+{
+	"id": "serial-novel",
+	"topic": "Dickens and the serial novel",
+	"position": {
+		"label": "AD 1836–1837",
+		"sort": 1836
+	},
+	"scene": {
+		"headline": "We read the novel by the",
+		"accent": "MONTH.",
+		"palette": "brick",
+		"illustration": "scene.svg",
+		"metadata": ["LONDON · CHAPMAN & HALL · 1836–1837", "CHARLES DICKENS · ROBERT SEYMOUR · PHIZ"],
+		"counter": {
+			"value": "40,000",
+			"label": "copies of part fifteen, ordered by the binder"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Life of Charles Dickens",
+			"authors": [
+				{
+					"family": "Forster",
+					"given": "John"
+				}
+			],
+			"published": "1872",
+			"url": "https://www.gutenberg.org/ebooks/25851",
+			"accessed": "2026-10-03",
+			"note": "Pickwick's origin, Chapman's terms, the binder's orders and Thackeray's green covers; read in Project Gutenberg's text"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Pickwick Papers",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Pickwick_Papers&oldid=1364427463",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-16",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Pickwick Papers and the making of Charles Dickens",
+			"authors": [
+				{
+					"family": "Wormald",
+					"given": "Mark"
+				}
+			],
+			"publisher": "British Library",
+			"container": "Discovering Literature: Romantics and Victorians",
+			"url": "https://www.britishlibrary.cn/en/articles/the-pickwick-papers-and-the-making-charles-dickens/",
+			"accessed": "2026-10-03",
+			"note": "The first number's print run, price and wrapper, and the advertisements bound in"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Dickens",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Dickens&oldid=1377987760",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hablot Knight Browne",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hablot_Knight_Browne&oldid=1352155612",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Three-volume novel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Three-volume_novel&oldid=1372839629",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Edward Mudie",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Edward_Mudie&oldid=1373604822",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "article",
+			"title": "A Historiographical Survey of Literacy in Britain between 1780 and 1830",
+			"authors": [
+				{
+					"family": "Lemire",
+					"given": "Devon"
+				}
+			],
+			"container": "Constellations",
+			"volume": "4",
+			"issue": "1",
+			"pages": "248–255",
+			"published": "2013",
+			"doi": "10.29173/cons18862",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "WHSmith",
+			"url": "https://en.wikipedia.org/w/index.php?title=WHSmith&oldid=1378340655",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Oliver Twist",
+			"authors": [
+				{
+					"family": "Dickens",
+					"given": "Charles"
+				}
+			],
+			"published": "1838",
+			"url": "https://www.gutenberg.org/ebooks/730",
+			"accessed": "2026-10-03",
+			"note": "Chapter 2, read in Project Gutenberg's text"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oliver Twist",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oliver_Twist&oldid=1374224162",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Poor Law Amendment Act 1834",
+			"url": "https://en.wikipedia.org/w/index.php?title=Poor_Law_Amendment_Act_1834&oldid=1373044552",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "book",
+			"title": "Hard Times",
+			"authors": [
+				{
+					"family": "Dickens",
+					"given": "Charles"
+				}
+			],
+			"published": "1854",
+			"url": "https://www.gutenberg.org/ebooks/786",
+			"accessed": "2026-10-03",
+			"note": "Book I, chapter 5, read in Project Gutenberg's text"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hard Times (novel)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hard_Times_(novel)&oldid=1374617278",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Don Quixote",
+			"url": "https://en.wikipedia.org/w/index.php?title=Don_Quixote&oldid=1376726688",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robinson Crusoe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robinson_Crusoe&oldid=1371490207",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pamela; or, Virtue Rewarded",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pamela%3B_or,_Virtue_Rewarded&oldid=1370037809",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jane Austen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jane_Austen&oldid=1377221096",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Cover of serial, \"Pickwick Club\" by Charles Dickens",
+			"url": "https://commons.wikimedia.org/wiki/File:Pickwickclub_serial.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "pickwick-wrapper.jpg",
+			"authors": [
+				{
+					"family": "Seymour",
+					"given": "Robert"
+				}
+			],
+			"container": "Chapman & Hall, The Posthumous Papers of the Pickwick Club, No. I; British Library",
+			"published": "1836",
+			"note": "Wrapper designed by Robert Seymour (signed at foot); published in London in 1836"
+		}
+	]
+}

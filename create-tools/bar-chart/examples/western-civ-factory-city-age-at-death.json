@@ -1,0 +1,31 @@
+{
+	"title": "Average age at death by class, Manchester and Rutland, as Chadwick printed it in 1842",
+	"description": "Bar chart of the average age at death of the deceased, in years, by class, from returns printed in Edwin Chadwick's 1842 Report on the Sanitary Condition of the Labouring Population of Great Britain, page 157. Manchester: professional persons and gentry and their families, 38; tradesmen and their families, 20; mechanics, laborers and their families, 17. Rutland: 52, 41 and 38. Averages of ages at death, pulled down by the deaths of young children.",
+	"heading": "AVERAGE AGE AT DEATH · YEARS · 1842",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"max": 60,
+		"ticks": [
+			[0, "0"],
+			[20, "20"],
+			[40, "40"],
+			[60, "60"]
+		]
+	},
+	"bars": [
+		{ "label": "Gentry", "sublabel": "Manchester", "value": 38 },
+		{ "label": "Trades", "sublabel": "Manchester", "value": 20 },
+		{ "label": "Laborers", "sublabel": "Manchester", "value": 17, "highlight": true },
+		{ "label": "Gentry", "sublabel": "Rutland", "value": 52 },
+		{ "label": "Trades", "sublabel": "Rutland", "value": 41 },
+		{ "label": "Laborers", "sublabel": "Rutland", "value": 38 }
+	],
+	"source": {
+		"container": "Chadwick, Report on the Sanitary Condition of the Labouring Population of Great Britain (1842), p. 157",
+		"url": "https://archive.org/details/b21365143/page/n192",
+		"accessed": "2026-10-03"
+	}
+}

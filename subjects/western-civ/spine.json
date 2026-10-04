@@ -87,7 +87,14 @@
 			"title": "Machines and the masses",
 			"labelKind": "date",
 			"palette": "brick",
-			"frames": ["steam", "faraday-induction", "maxwell"]
+			"frames": [
+				"steam",
+				"beethoven-ninth",
+				"faraday-induction",
+				"serial-novel",
+				"factory-city",
+				"maxwell"
+			]
 		},
 		{
 			"id": "code-and-cosmos",
