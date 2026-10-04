@@ -1,0 +1,391 @@
+{
+	"id": "aquinas",
+	"topic": "Aquinas and the medieval university",
+	"position": {
+		"label": "AD 1265–1274",
+		"sort": 1265
+	},
+	"scene": {
+		"headline": "We put everything to the",
+		"accent": "QUESTION.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": ["BOLOGNA · PARIS · TOLEDO · ROME", "THOMAS AQUINAS · SUMMA THEOLOGIAE"],
+		"counter": {
+			"value": "2,669",
+			"label": "articles in the parts of the Summa Aquinas wrote"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Summa Theologica of St. Thomas Aquinas",
+			"authors": [
+				{
+					"name": "Thomas Aquinas"
+				}
+			],
+			"translators": [
+				{
+					"name": "Fathers of the English Dominican Province"
+				}
+			],
+			"edition": "2nd and rev. ed.",
+			"place": "London",
+			"publisher": "Burns Oates & Washbourne",
+			"published": "1920",
+			"url": "https://www.newadvent.org/summa/1002.htm",
+			"accessed": "2026-10-03",
+			"note": "First part, question 2, article 3, read in New Advent's copy"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Universities of Europe in the Middle Ages",
+			"authors": [
+				{
+					"family": "Rashdall",
+					"given": "Hastings"
+				}
+			],
+			"volume": "1",
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1895",
+			"url": "https://archive.org/details/universitieseur00rashgoog",
+			"accessed": "2026-10-03",
+			"note": "The statutes binding Bologna's professors, pp. 197–99"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Statutes for the University of Paris, 1215",
+			"authors": [
+				{
+					"name": "Robert of Courçon"
+				}
+			],
+			"container": "Translations and Reprints from the Original Sources of European History",
+			"volume": "2",
+			"number": "3",
+			"place": "Philadelphia",
+			"publisher": "Department of History of the University of Pennsylvania",
+			"published": "1897",
+			"circa": true,
+			"pages": "12–15",
+			"url": "https://sourcebooks.fordham.edu/source/courcon1.asp",
+			"accessed": "2026-10-03",
+			"note": "Read in the Internet Medieval Sourcebook's copy"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Condemnation of 1277",
+			"authors": [
+				{
+					"family": "Thijssen",
+					"given": "Hans"
+				}
+			],
+			"container": "Stanford Encyclopedia of Philosophy",
+			"editors": [
+				{
+					"family": "Zalta",
+					"given": "Edward N."
+				}
+			],
+			"published": "2023-12-18",
+			"url": "https://plato.stanford.edu/entries/condemnation/",
+			"accessed": "2026-10-03",
+			"note": "Wippel, Hissette and Wielockx on whether Aquinas was a target"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Aquinas",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Aquinas&oldid=1377649514",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Latin translations of the 12th century",
+			"url": "https://en.wikipedia.org/w/index.php?title=Latin_translations_of_the_12th_century&oldid=1348571612",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-13",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Summa Theologica",
+			"url": "https://en.wikipedia.org/w/index.php?title=Summa_Theologica&oldid=1375914628",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "University of Bologna",
+			"url": "https://en.wikipedia.org/w/index.php?title=University_of_Bologna&oldid=1378382887",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "University of Paris",
+			"url": "https://en.wikipedia.org/w/index.php?title=University_of_Paris&oldid=1370731122",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Medieval university",
+			"url": "https://en.wikipedia.org/w/index.php?title=Medieval_university&oldid=1375528582",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Academic degree",
+			"url": "https://en.wikipedia.org/w/index.php?title=Academic_degree&oldid=1373602859",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Authentica habita",
+			"url": "https://en.wikipedia.org/w/index.php?title=Authentica_habita&oldid=1284250873",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-04-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Authentica Habita",
+			"url": "https://la.wikipedia.org/w/index.php?title=Authentica_Habita&oldid=3948213",
+			"language": "la",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Scholasticism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Scholasticism&oldid=1376329735",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James of Venice",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_of_Venice&oldid=1339419315",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gerard of Cremona",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gerard_of_Cremona&oldid=1356348741",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Michael Scot",
+			"url": "https://en.wikipedia.org/w/index.php?title=Michael_Scot&oldid=1372790126",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Averroes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Averroes&oldid=1370869865",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William of Moerbeke",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_of_Moerbeke&oldid=1354315856",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Graeco-Arabic translation movement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Graeco-Arabic_translation_movement&oldid=1365930121",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Five Ways (Aquinas)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Five_Ways_(Aquinas)&oldid=1377246966",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Condemnations of 1210–1277",
+			"url": "https://en.wikipedia.org/w/index.php?title=Condemnations_of_1210%E2%80%931277&oldid=1365865222",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "media",
+			"title": "Aristotle gives a lecture to students, from a Liber ethicorum of Henricus de Alemannia",
+			"authors": [
+				{
+					"name": "Laurentius de Voltolina"
+				}
+			],
+			"container": "Kupferstichkabinett, Staatliche Museen zu Berlin",
+			"number": "Min 1233",
+			"published": "1350",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "bologna-lecture.jpg",
+			"note": "Bodycolor on parchment, second half of the fourteenth century; the museum's own title"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/aristotle-motion",
+			"why": "The first of Aquinas's five ways is Aristotle's argument from the Physics that whatever is moved is moved by something else, back to a first mover."
+		},
+		{
+			"to": "physics/merton-calculators",
+			"why": "The Oxford Calculators and Jean Buridan were masters of the universities' arts faculties, where Aristotle's newly translated physics was taught and argued with."
+		},
+		{
+			"to": "chemistry/jabir",
+			"why": "Gerard of Cremona, who put Aristotle's Physics into Latin at Toledo, also translated the Jabirian Book of Seventy."
+		}
+	]
+}

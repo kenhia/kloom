@@ -38,7 +38,15 @@
 			"title": "The long middle",
 			"labelKind": "date",
 			"palette": "parchment",
-			"frames": ["scriptorium", "house-of-wisdom", "crusades", "magna-carta"]
+			"frames": [
+				"scriptorium",
+				"house-of-wisdom",
+				"crusades",
+				"gothic-cathedral",
+				"magna-carta",
+				"aquinas",
+				"black-death"
+			]
 		},
 		{
 			"id": "rebirth",
