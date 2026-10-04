@@ -1,0 +1,348 @@
+{
+	"id": "great-war",
+	"topic": "The First World War",
+	"position": {
+		"label": "AD 1914–1918",
+		"sort": 1914
+	},
+	"scene": {
+		"headline": "We went over the",
+		"accent": "TOP.",
+		"palette": "steel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SARAJEVO · THE WESTERN FRONT · THE SOMME · VERSAILLES",
+			"FIRE TRENCH · SUPPORT LINE · RESERVE LINE"
+		],
+		"counter": {
+			"value": "57,470",
+			"label": "British casualties on the first day of the Somme"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "World War I",
+			"url": "https://en.wikipedia.org/w/index.php?title=World_War_I&oldid=1378305189",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03",
+			"key": true
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Notes for Infantry Officers on Trench Warfare",
+			"authors": [
+				{
+					"name": "British General Staff"
+				}
+			],
+			"number": "War Department Document No. 582",
+			"publisher": "Government Printing Office",
+			"place": "Washington",
+			"published": "1917",
+			"url": "https://archive.org/details/wd-no.-582-notes-for-infantry-officers-on-trench-warfare-1917",
+			"accessed": "2026-10-03",
+			"note": "The US Army's reprint of the British edition of November 1916; the trench system is in chapter II"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Causes of World War I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Causes_of_World_War_I&oldid=1377758058",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Treaty of Peace with Germany (Treaty of Versailles)",
+			"container": "The Avalon Project, Yale Law School",
+			"published": "1919-06-28",
+			"url": "https://avalon.law.yale.edu/imt/partviii.asp",
+			"accessed": "2026-10-03",
+			"note": "Part VIII, Reparation: Article 231 is quoted from it"
+		},
+		{
+			"kind": "book",
+			"title": "Ambassador Morgenthau's Story",
+			"authors": [
+				{
+					"family": "Morgenthau",
+					"given": "Henry"
+				}
+			],
+			"publisher": "Doubleday, Page & Company",
+			"place": "Garden City, NY",
+			"published": "1918",
+			"url": "https://www.gutenberg.org/ebooks/55343",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "Treaty of Peace with Germany (Treaty of Versailles), Part V: Military, Naval and Air Clauses",
+			"container": "The Avalon Project, Yale Law School",
+			"published": "1919-06-28",
+			"url": "https://avalon.law.yale.edu/imt/partv.asp",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "July Crisis",
+			"url": "https://en.wikipedia.org/w/index.php?title=July_Crisis&oldid=1373222481",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Sleepwalkers: How Europe Went to War in 1914",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Sleepwalkers%3A_How_Europe_Went_to_War_in_1914&oldid=1375774909",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fritz Fischer (historian)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fritz_Fischer_(historian)&oldid=1372541336",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Assassination of Archduke Franz Ferdinand",
+			"url": "https://en.wikipedia.org/w/index.php?title=Assassination_of_Archduke_Franz_Ferdinand&oldid=1375988004",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "First day on the Somme",
+			"url": "https://en.wikipedia.org/w/index.php?title=First_day_on_the_Somme&oldid=1370619759",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "World War I casualties",
+			"url": "https://en.wikipedia.org/w/index.php?title=World_War_I_casualties&oldid=1370055980",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Armenian genocide",
+			"url": "https://en.wikipedia.org/w/index.php?title=Armenian_genocide&oldid=1375054558",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Home front during World War I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Home_front_during_World_War_I&oldid=1356765678",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blockade of Germany (1914–1919)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blockade_of_Germany_(1914%E2%80%931919)&oldid=1375343772",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Haber process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Haber_process&oldid=1375265554",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spanish flu",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spanish_flu&oldid=1376983185",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Armistice of 11 November 1918",
+			"url": "https://en.wikipedia.org/w/index.php?title=Armistice_of_11_November_1918&oldid=1375738631",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Treaty of Versailles",
+			"url": "https://en.wikipedia.org/w/index.php?title=Treaty_of_Versailles&oldid=1374373251",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Article 231 of the Treaty of Versailles",
+			"url": "https://en.wikipedia.org/w/index.php?title=Article_231_of_the_Treaty_of_Versailles&oldid=1368988376",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "World War I reparations",
+			"url": "https://en.wikipedia.org/w/index.php?title=World_War_I_reparations&oldid=1376700552",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "Aerial Photography on the Western Front, 1916: British and German front line trenches east of Picantin and le Tilleloy",
+			"authors": [
+				{
+					"name": "No. 10 Squadron, Royal Flying Corps"
+				}
+			],
+			"container": "Imperial War Museum, First World War Aerial Photographs Collection",
+			"number": "HU 100394",
+			"published": "1916-06-09",
+			"licence": "Public domain",
+			"file": "trench-lines.jpg",
+			"url": "https://commons.wikimedia.org/wiki/File:Aerial_Photography_on_the_Western_Front,_1916._HU100394.jpg",
+			"accessed": "2026-10-03"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/chemical-warfare",
+			"why": "The chlorine released at Ypres on 22 April 1915 was Germany's first mass use of poison gas on the Western Front; the chemistry frame shows why the cloud sank into the trenches."
+		},
+		{
+			"to": "chemistry/haber-bosch",
+			"why": "Cut off from Chilean nitrate by the British blockade, Germany made the nitrates for its explosives from Haber process ammonia throughout the war."
+		},
+		{
+			"to": "nursing/wwi-nurses",
+			"why": "The US Army Nurse Corps grew from 403 nurses to more than 21,000 for this war, and the influenza of 1918 killed more of its nurses than the enemy did."
+		},
+		{
+			"to": "blood/robertson-depot",
+			"why": "Robertson laid in the first store of blood kept on ice for a British attack on the Western Front in 1917, at a casualty clearing station behind the trenches."
+		}
+	]
+}

@@ -99,6 +99,13 @@
 			]
 		},
 		{
+			"id": "modern",
+			"title": "The modern world",
+			"labelKind": "date",
+			"palette": "steel",
+			"frames": ["rite-of-spring", "great-war", "second-world-war"]
+		},
+		{
 			"id": "code-and-cosmos",
 			"title": "Code and cosmos",
 			"labelKind": "date",

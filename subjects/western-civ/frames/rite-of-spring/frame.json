@@ -1,0 +1,327 @@
+{
+	"id": "rite-of-spring",
+	"topic": "The Rite of Spring",
+	"position": {
+		"label": "AD 1913",
+		"sort": 1913
+	},
+	"scene": {
+		"headline": "We broke the",
+		"accent": "BEAT.",
+		"palette": "steel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · THÉÂTRE DES CHAMPS-ÉLYSÉES · 29 MAY 1913",
+			"STRAVINSKY · NIJINSKY · ROERICH · DIAGHILEV · MONTEUX"
+		],
+		"counter": {
+			"value": "27",
+			"label": "times the bar length changes in 33 bars of the final dance"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "The Rite of Spring",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Rite_of_Spring&oldid=1378244264",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Le Sacre du printemps: Tableaux de la Russie païenne en deux parties",
+			"authors": [
+				{
+					"family": "Stravinsky",
+					"given": "Igor"
+				}
+			],
+			"publisher": "Édition Russe de Musique; Boosey & Hawkes",
+			"place": "London",
+			"published": "1948",
+			"url": "https://archive.org/details/lesacreduprintem00stra_2",
+			"accessed": "2026-10-03",
+			"note": "Full score, plate B. & H. 16333, the corrected reprint of the 1929 printing of the 1921 score; the Sacrificial Dance opens on p. 112. Read in the University of Toronto's copy"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Rhythmical Aspect of the \"Sacrificial Dance\" by Igor Stravinsky",
+			"authors": [
+				{
+					"family": "Smirnov",
+					"given": "Dmitri"
+				}
+			],
+			"container": "Musical Pointers",
+			"published": "2004",
+			"url": "http://www.musicalpointers.co.uk/articles/generaltopics/Stravinsky_SacrificialDance.htm",
+			"accessed": "2026-10-03",
+			"note": "The time signatures of the refrain's 33 bars in the 1921 version"
+		},
+		{
+			"kind": "book",
+			"title": "Music After the Great War, and Other Studies",
+			"authors": [
+				{
+					"family": "Van Vechten",
+					"given": "Carl"
+				}
+			],
+			"publisher": "G. Schirmer",
+			"place": "New York",
+			"published": "1915",
+			"url": "https://www.gutenberg.org/ebooks/73668",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Igor Stravinsky",
+			"url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&oldid=1377317821",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vaslav Nijinsky",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vaslav_Nijinsky&oldid=1377388165",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sergei Diaghilev",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sergei_Diaghilev&oldid=1378356865",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ballets Russes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ballets_Russes&oldid=1363925758",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Théâtre des Champs-Élysées",
+			"url": "https://en.wikipedia.org/w/index.php?title=Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es&oldid=1372243930",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nicholas Roerich",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicholas_Roerich&oldid=1376865111",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre Monteux",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre_Monteux&oldid=1370773089",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Modernism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Modernism&oldid=1376343404",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cubism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cubism&oldid=1376479870",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pablo Picasso",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pablo_Picasso&oldid=1374341740",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Georges Braque",
+			"url": "https://en.wikipedia.org/w/index.php?title=Georges_Braque&oldid=1374250549",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Armory Show",
+			"url": "https://en.wikipedia.org/w/index.php?title=Armory_Show&oldid=1373263171",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Skandalkonzert",
+			"url": "https://en.wikipedia.org/w/index.php?title=Skandalkonzert&oldid=1361448922",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "In Search of Lost Time",
+			"url": "https://en.wikipedia.org/w/index.php?title=In_Search_of_Lost_Time&oldid=1378356764",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Joyce",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Joyce&oldid=1377634544",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "T. S. Eliot",
+			"url": "https://en.wikipedia.org/w/index.php?title=T._S._Eliot&oldid=1376843780",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "The Kiss to the Earth, scenery sketch for The Rite of Spring (second variant)",
+			"authors": [
+				{
+					"family": "Roerich",
+					"given": "Nicholas"
+				}
+			],
+			"container": "State Russian Museum, Saint Petersburg",
+			"published": "1912",
+			"licence": "Public domain",
+			"file": "roerich-kiss-earth.jpg",
+			"url": "https://commons.wikimedia.org/wiki/File:Roerich_Rite_of_Spring.jpg",
+			"accessed": "2026-10-03"
+		}
+	]
+}
