@@ -155,6 +155,17 @@ class MarkCheck(unittest.TestCase):
                                '--names', os.path.join(self.dir, 'names'), *extra],
                               capture_output=True, text=True)
 
+    def test_a_frame_not_in_the_copy_is_skipped_with_a_note(self):
+        # An author's copy built with --only leaves other frames out (sprint 049, where it crashed).
+        self.write(self.spec, {'subj/f': [['Aristotle', 'aristotle']], 'subj/unwritten': [['Aristotle', 'aristotle']]})
+        r = self.mark('--check')
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn('subj/unwritten: not in', r.stderr)
+
+    def test_placed_fails_on_a_frame_that_is_not_there(self):
+        self.write(self.spec, {'subj/unwritten': [['Aristotle', 'aristotle']]})
+        self.assertEqual(self.mark('--check', '--placed').returncode, 1)
+
     def test_would_place_is_success(self):
         r = self.mark('--check')
         self.assertEqual(r.returncode, 0, r.stderr)

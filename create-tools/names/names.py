@@ -621,6 +621,12 @@ def mark_one(args, spec_path, known):
             print(f'{ref}: {name} is not in the registry or a draft', file=sys.stderr)
             failed += 1
         path = Path(args.root) / ref.split('/')[0] / 'frames' / ref.split('/')[1] / 'reading.md'
+        if not path.exists():
+            # A checking copy built with --only leaves other authors' frames out (sprint 049, where
+            # this crashed); the gate's --placed still refuses a spec for a frame that is not there.
+            print(f'{ref}: not in {args.root}, skipped', file=sys.stderr)
+            failed += 1 if args.placed else 0
+            continue
         reading = before = path.read_text()
         landed = []
         for words, name in pairs:
