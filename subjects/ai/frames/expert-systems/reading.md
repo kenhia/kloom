@@ -27,8 +27,8 @@ possible molecular structures down to a few a chemist could check by hand.
 doctoral work, diagnosed severe bacterial infections such as bacteremia and
 meningitis and recommended antibiotics, with the dose adjusted for the
 patient's weight. It held about 600 rules. In an evaluation at Stanford's
-medical school, specialists rated its prescriptions acceptable 65 per cent of
-the time, against 42.5 to 62.5 per cent for five faculty members. It was never
+medical school, specialists rated its prescriptions acceptable 65 percent of
+the time, against 42.5 to 62.5 percent for five faculty members. It was never
 used on patients: it was a stand-alone program that needed every fact typed
 in, on a time-shared computer, before there were personal computers.
 
@@ -54,7 +54,7 @@ cable or a driver, which meant delays, angry customers and sometimes lawsuits.
 1978, drawing on DEC's own engineers, who sometimes disagreed about the right
 configuration. It went into use in 1980 at DEC's plant in Salem, New
 Hampshire. It eventually held about 2,500 rules; by 1986 it had processed
-80,000 orders with 95 to 98 per cent accuracy.
+80,000 orders with 95 to 98 percent accuracy.
 
 ![A DEC VAX-11/780-5 at a computer museum in Seattle: the processor cabinets on the right, and a rack of peripheral equipment on the left. Machines of this family, ordered part by part, were what XCON configured](vax-11-780.jpg)
 

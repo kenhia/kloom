@@ -12,8 +12,8 @@ and **Franklin Kuo** built [_ALOHAnet_](kloom:e/alohanet), in operation from Jun
 linked terminals on several islands to one computer over a shared radio
 channel. A terminal simply sent its packet; if no acknowledgment came, it
 waited a random time and sent again. The cost was waste: when traffic is
-heavy, pure ALOHA delivers at best 18.4 per cent of the channel, and the
-slotted version 36.8 per cent. (Wikipedia's articles disagree on ALOHAnet's
+heavy, pure ALOHA delivers at best 18.4 percent of the channel, and the
+slotted version 36.8 percent. (Wikipedia's articles disagree on ALOHAnet's
 speed, 4,800 or 9,600 bit/s; the article on ALOHAnet itself says 9,600.)
 
 **[Robert Metcalfe](kloom:e/robert-metcalfe)**, a Harvard graduate student whose thesis on the ARPANET
@@ -48,8 +48,7 @@ waits a random number of _slots_, a slot being one round trip on the cable,
 and after each further collision it doubles the range it picks from. The
 paper called this **binary exponential backoff**: the busier the cable, the
 further apart the retries spread. Metcalfe and Boggs calculated that for
-packets over about 4,000 bits the cable carried good data well over 95 per
-cent of the time; only for packets as short as a slot did efficiency fall
+packets over about 4,000 bits the cable carried good data well over 95 percent of the time; only for packets as short as a slot did efficiency fall
 towards slotted ALOHA's 1/_e_.
 
 ## A standard, then a switch

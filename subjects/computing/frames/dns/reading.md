@@ -93,7 +93,7 @@ current to December 2025, gives 1,954.
 | M      | WIDE Project                          |                30 |
 
 Caching keeps the load down, and much of what arrives is mistakes: a 2003
-survey found only 2 per cent of the queries reaching the roots legitimate.
+survey found only 2 percent of the queries reaching the roots legitimate.
 A name, though, only leads to an address. Nothing in DNS or IP as first
 built proves that the machine answering is the one meant, or keeps anyone
 along the way from reading the conversation. That is TLS.

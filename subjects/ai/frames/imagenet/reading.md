@@ -32,7 +32,7 @@ far beyond what a small group of annotators could do. The team turned to
 Several workers judged each image independently, and it was kept only with a
 convincing majority. The majority needed depended on the synset: a few votes
 settle "cat", but the paper found that "Burmese cat" could take five. The
-result, checked by sampling, was 99.7 per cent precise.
+result, checked by sampling, was 99.7 percent precise.
 Labeling ran from July 2008 to April 2010. By one account 49,000 workers in
 167 countries filtered more than 160 million candidate images, and in 2012
 ImageNet was the largest academic user of Mechanical Turk in the world.
@@ -63,9 +63,9 @@ error_: how often the right answer was not among them.
 Eleven teams entered the first year. The winner, a team from NEC Labs
 America, the University of Illinois and Rutgers, combined hand-designed image
 features (SIFT and LBP) with a
-[support vector machine](kloom:e/support-vector-machine), and it missed on 28.2 per cent of the test images.
+[support vector machine](kloom:e/support-vector-machine), and it missed on 28.2 percent of the test images.
 In 2011 the best entry, from Xerox Research Centre Europe, got that down to
-25.8 per cent.
+25.8 percent.
 
 ## What was in the pictures
 
@@ -74,7 +74,7 @@ A dataset built from the web and WordNet carries both with it. In 2019 and
 and judged 1,593 of them potentially offensive, and most of the rest not
 visual at all: only 158 described something a photograph could show. By 2021
 most of the person categories had been removed from the full dataset, and the
-faces in the challenge images were blurred. Studies have also estimated that more than 6 per cent of
+faces in the challenge images were blurred. Studies have also estimated that more than 6 percent of
 the labels in the challenge's validation set are wrong.
 
 None of this was visible yet in 2011. What was visible was a leaderboard,

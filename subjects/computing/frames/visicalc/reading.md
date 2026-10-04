@@ -25,7 +25,7 @@ in 6502 assembly language, using an assembler on MIT's [Multics](kloom:e/multics
 system at night, when an hour cost a dollar. The two founded **Software
 Arts** on 2 January 1979, working from the attic of Frankston's flat in
 Arlington, and Fylstra's **Personal Software** agreed to publish it for a
-royalty of 35.7 per cent.
+royalty of 35.7 percent.
 
 ![A VisiCalc sheet on an Apple II screen, green on black: an order for muck rakes, buzz cuts, toe toner and eye snuff, with a subtotal, 9.75% tax and a total](visicalc.png)
 

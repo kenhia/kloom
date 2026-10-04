@@ -10,7 +10,7 @@ mainframe.
 
 Investors in 1957 did not want a computer company; small ones kept failing.
 The one offer came from **Georges Doriot**'s American Research and
-Development Corporation, which put in $70,000 for 70 per cent and asked
+Development Corporation, which put in $70,000 for 70 percent and asked
 them to leave "computer" out of the name. **[Digital Equipment
 Corporation](kloom:e/digital-equipment-corporation)** set up in a former wool mill in Maynard, Massachusetts, and
 sold circuit modules first: $94,000 worth in 1958, at a profit.

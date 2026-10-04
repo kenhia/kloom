@@ -29,7 +29,7 @@ moves; a _value network_ estimated who was winning. They were trained first
 on about 30 million moves from 160,000 games by strong amateurs on an
 internet Go server, then improved by reinforcement learning, playing against
 versions of themselves. A tree search guided by both chose the move. AlphaGo
-won 99.8 per cent of its games against other Go programs, and in October
+won 99.8 percent of its games against other Go programs, and in October
 2015 it beat the European champion, **Fan Hui**, 5–0: the first time a
 program had beaten a professional on a full-sized board without a handicap,
 a feat the paper said had been thought at least a decade away.

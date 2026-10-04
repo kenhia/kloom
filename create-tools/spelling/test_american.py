@@ -20,6 +20,16 @@ class Words(unittest.TestCase):
     def test_keeps_case(self):
         self.assertEqual(A.respell('Colour. COLOUR. colour.'), 'Color. COLOR. color.')
 
+    def test_phrases(self):
+        # Two words, so the word tokenizer alone never saw it (korg 3553).
+        self.assertEqual(A.respell('a 40 per cent rise. Per cent of it; 12 per\ncent, PER CENT, a percent'),
+                         'a 40 percent rise. Percent of it; 12 percent, PERCENT, a percent')
+        text = 'books per century, a percent, perceived; "6 per cent" said Keynes, in _Five Per Cent Philanthropy_'
+        self.assertEqual(A.respell(text), text)
+        self.assertEqual([(w, u, why) for _a, _b, w, u, why in A.hits('the 5 Per Cent Rule and 5 per cent')],
+                         [('Per Cent', 'Percent', 'name'), ('per cent', 'percent', None)])
+        self.assertEqual(A.hits('a percent, PERCENT'), [])  # already American: no hit, or check never passes
+
     def test_leaves_words_it_does_not_know_or_that_are_both(self):
         text = 'an hour of flour; the contour, the glamour; two analyses; the advertised rise'
         self.assertEqual(A.respell(text), text)
@@ -92,6 +102,11 @@ class Files(unittest.TestCase):
         self.assertEqual(got['name'], 'Theatre Royal')
         self.assertEqual(got['aliases'], ['theatre'])
         self.assertEqual(got['description'], 'A theater in the center of town.')
+
+    def test_svg_phrase(self):
+        raw = '<svg><text x="64">HEAT TURNED INTO WORK · PER CENT</text><text>COPIES PER CENTURY</text></svg>'
+        self.assertEqual(A.respell_file('chart.svg', raw),
+                         '<svg><text x="64">HEAT TURNED INTO WORK · PERCENT</text><text>COPIES PER CENTURY</text></svg>')
 
     def test_svg_text_only(self):
         raw = '<svg><g id="colour"><text class="centre">COLOUR ÷4</text></g></svg>'

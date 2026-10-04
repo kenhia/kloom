@@ -16,7 +16,9 @@ spelling, and the tool leaves it alone:
 It knows a word only from `WORDS`, a list built from families (`organise`
 brings `organised`, `reorganisation`...). A spelling it has not been told
 about is never changed; `suspects` lists the words that look British and
-the list lacks, so it grows by review.
+the list lacks, so it grows by review. A British spelling written as two
+words is a phrase in `PHRASES` (`per cent` → `percent`, korg 3553), matched
+across a wrapped line and never inside a longer word (`per century`).
 
 ```sh
 python3 create-tools/spelling/american.py report [paths]      # what would change; --skipped for what is kept, and why

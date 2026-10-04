@@ -5,6 +5,7 @@
 	import { contentsCount, filterContents, type ContentsSegment } from '../contents';
 	import { FRESH_TEXT, marksText, NO_MARKS, type FrameMarks } from '../marks';
 	import IconButton from './IconButton.svelte';
+	import { inView } from './inView';
 
 	interface Props {
 		/** The subject's contents (engine/contents.ts). */
@@ -171,6 +172,7 @@
 		aria-labelledby="{id}-title"
 		data-own-keys
 		hidden={!open}
+		use:inView
 		bind:this={panel}
 		onkeydown={keydown}
 	>

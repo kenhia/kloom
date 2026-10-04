@@ -22,7 +22,7 @@ extra transistors would arrive as more processor _cores_, which only
 software written to run in parallel could use. Intel's dual-core Pentium
 D came out in May 2005. The gains for a single core
 slowed: by the figures Wikipedia gives, about
-52 per cent a year from 1986 to 2003, 23 per cent to 2011, and 7 per cent
+52 percent a year from 1986 to 2003, 23 percent to 2011, and 7 percent
 from 2011 to 2018.
 
 ## New shapes, new light

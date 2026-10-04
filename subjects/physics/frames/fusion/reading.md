@@ -1,7 +1,7 @@
 Fission splits the heaviest nuclei. The lightest
 release energy by joining. Four hydrogen nuclei that become
-one of helium lose about seven-tenths of one per cent of their mass. Fission, by our
-own arithmetic (200 MeV from 236 units of mass), turns under a tenth of one per cent.
+one of helium lose about seven-tenths of one percent of their mass. Fission, by our
+own arithmetic (200 MeV from 236 units of mass), turns under a tenth of one percent.
 We learned fusion from the stars, made it a weapon, and after seventy years
 have not made it a power station.
 
@@ -10,8 +10,7 @@ have not made it a power station.
 In 1920, in "The Internal Constitution of the Stars", **[Arthur
 Eddington](kloom:e/arthur-eddington)** asked what the stars burn. The leading theory, that stars
 shine by slowly contracting, did not fit what was seen of the Cepheid
-variable stars. Francis Aston had just measured a helium atom as about 0.8 per
-cent lighter than four hydrogen atoms; if a star turned even a few per cent
+variable stars. Francis Aston had just measured a helium atom as about 0.8 percent lighter than four hydrogen atoms; if a star turned even a few percent
 of its mass of hydrogen into helium, Eddington argued, that would pay for
 its light. How two positive nuclei got close enough to join was
 unknown until George Gamow's quantum tunneling gave the odds in 1928.

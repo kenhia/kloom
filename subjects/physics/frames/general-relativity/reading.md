@@ -35,7 +35,7 @@ The same bending, by a whole cluster of galaxies rather than one star, is the gr
 
 ## Clocks
 
-Einstein's slower clocks were the hardest prediction to test. In 1959 Robert Pound and Glen Rebka proposed to measure them in a tower at Harvard, 22.5 meters tall, using the sharp gamma-ray line of iron-57. The **[Pound–Rebka experiment](kloom:e/pound-rebka-experiment)**, published in 1960, found the frequency shift over that height, two and a half parts in 10¹⁵, and matched the prediction to within about ten per cent.
+Einstein's slower clocks were the hardest prediction to test. In 1959 Robert Pound and Glen Rebka proposed to measure them in a tower at Harvard, 22.5 meters tall, using the sharp gamma-ray line of iron-57. The **[Pound–Rebka experiment](kloom:e/pound-rebka-experiment)**, published in 1960, found the frequency shift over that height, two and a half parts in 10¹⁵, and matched the prediction to within about ten percent.
 
 Today the effect is engineering. A clock in a **[GPS](kloom:e/global-positioning-system)** satellite, far above the ground, runs fast because it sits higher in the Earth's gravity and slow because it moves; gravity wins. Neil Ashby's figures put the net gain at 4.4647 parts in 10¹⁰, which works out (the arithmetic is ours) to about 38.6 microseconds a day. Each satellite clock is set before launch to tick at 10.22999999543 MHz rather than 10.23. The laser reflector that **[Apollo 11](kloom:e/apollo-11)** left on the Moon in July 1969, ranged ever since, shows that the Earth and the Moon fall towards the Sun alike, as the equivalence principle says they must.
 

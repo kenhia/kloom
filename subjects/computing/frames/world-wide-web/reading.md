@@ -80,8 +80,8 @@ _Wanderer_.
 
 In the second half of 1993 the number doubled in under three months. The
 web overtook the internet's older uses as fast. On the NSFNET backbone it
-was half of one per cent of the traffic in June 1993 and 23.9 per cent in
-March 1995, level with file transfer, which had fallen from 42.9 per cent
+was half of one percent of the traffic in June 1993 and 23.9 percent in
+March 1995, level with file transfer, which had fallen from 42.9 percent
 to 24.2. The two counts in the chart were made in different ways and are
 not strictly comparable: in July 2026 Netcraft's survey had answers from
 1.49 billion sites on 305 million domains.

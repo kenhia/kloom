@@ -30,7 +30,7 @@ That autumn Hahn and Strassmann thought they had found radium among their
 products. Meitner, meeting Hahn in Copenhagen in November, did not believe
 it. They tried to
 separate the "radium" from the barium they added as a carrier, and could
-not: it was barium, an element some 40 per cent lighter than uranium. Hahn wrote to
+not: it was barium, an element some 40 percent lighter than uranium. Hahn wrote to
 Meitner, and on 22 December the two chemists sent a paper to
 _Naturwissenschaften_ that said as much and hesitated: "As chemists… we
 should substitute the symbols Ba, La, Ce for Ra, Ac, Th," but as nuclear

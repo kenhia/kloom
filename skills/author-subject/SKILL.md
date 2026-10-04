@@ -224,7 +224,13 @@ Things authors working at once cannot see, so the brief settles them:
   authors claim an accent before writing, a line `ACCENT part frame` in
   one shared file (`.scratch/<subject>/accents.txt`), the first claim
   winning: grepping alone let four clashes through in sprint 049, each
-  found only when another author's frame went live. Settle clashes
+  found only when another author's frame went live. **`subject_plan.py
+<plan> subjects/<subject> --check --accents <file>`** enforces it (sprint
+  050): it exits 1 on a claim of a word another claim, a written frame or
+  the plan already holds, naming both. An accent the lead settles goes in
+  the plan as the frame's `"accent"`, which wins over any claim; a frame's
+  later claim releases its earlier one. Have each author run the check
+  right after claiming, before writing a line. Settle clashes
   at review: in sprint 015 two authors chose FREE within minutes, and in
   sprint 030 CLOCK was committed while another author still held it in a
   draft. The later author changes theirs; tell them while they are still
@@ -295,7 +301,14 @@ Things authors working at once cannot see, so the brief settles them:
   same: the reviewer adds that draft to the registry with the earlier
   part, without `home` (sprint 049's `edward-gibbon`). An owner drafts a
   name only if a frame of its own marks it; one that no spec marks is
-  dropped before commit. Give the brief's checking command every owner's
+  dropped before commit. `names.py drafts` refuses such a draft once its
+  part's spec (`create-tools/names/examples/<subject>-<part>.json`) exists,
+  and notes it until then (sprint 050; sprint 049's `late2` drafted a name
+  and never marked it). Draft from the lookup, never by hand: **`names.py
+lookup "Title" … --write-draft .scratch/names/<subject>-<part>`** writes
+  each draft with its id, Wikidata item and name, and leaves `kind` and
+  `description` empty for the author, so `add` refuses it until they are
+  written (one of 049's authors typed a Wikidata id wrong). Give the brief's checking command every owner's
   drafts directory, not a placeholder. A name the plan does not
   list goes to the part chiefly about it, its home, unless an earlier part
   already drafted it. Authors run `names.py drafts <subject>` before
@@ -304,7 +317,9 @@ Things authors working at once cannot see, so the brief settles them:
   so no one else's half-written frame fails them.
   An author's copy grows as the reviewer commits other parts, so a later
   commit (a clashing accent) can fail a frame that passed: check again
-  just before reporting.
+  just before reporting. `--complete` ends by counting the copy, not the
+  live tree ("the copy at DIR/<subject> holds N of M planned frames";
+  three of sprint 049's authors read the old count as theirs).
   They write contact sheets to their own `--png`, never run
   `subject_plan.py` on the live subject, and never commit. Name their
   Prettier and plate commands by frame (`npx prettier --write

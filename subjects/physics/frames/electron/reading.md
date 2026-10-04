@@ -64,8 +64,7 @@ charge jumped, always by whole multiples of one amount.
 ![Millikan's diagram of his oil-drop apparatus: a brass chamber immersed in a tank of oil, with the atomizer at the top, two plates M and N inside, the batteries and a manometer at the left, a lamp and filters at the lower left, and an X-ray tube at the lower right](millikan-scheme.jpg)
 
 Millikan's paper of 1913 gave the **[elementary charge](kloom:e/elementary-charge)** as 4.774 × 10⁻¹⁰
-electrostatic units, 1.592 × 10⁻¹⁹ coulomb, with an uncertainty of 0.2 per
-cent. The academic rules let a student use a paper as a thesis only as
+electrostatic units, 1.592 × 10⁻¹⁹ coulomb, with an uncertainty of 0.2 percent. The academic rules let a student use a paper as a thesis only as
 sole author, and Millikan offered Fletcher the Brownian-motion paper on
 condition that the charge be Millikan's alone. Fletcher accepted, and
 saw that the story was not published until both were dead. Millikan
@@ -87,8 +86,8 @@ about the correction to Stokes's law, not about whether charge came in
 units. It was still untrue.
 
 Goodstein also wrote that today's value agrees with Millikan's within his
-0.2 per cent. It does not. Millikan used a wrong value for the viscosity of
-air, and his _e_ is about 0.6 per cent low, several times his stated
+0.2 percent. It does not. Millikan used a wrong value for the viscosity of
+air, and his _e_ is about 0.6 percent low, several times his stated
 error. Feynman made that, and the slow creep of later values up from it,
 his lesson in "Cargo Cult Science". Since 2019 the elementary charge has
 been exact by definition, 1.602176634 × 10⁻¹⁹ coulomb. And Karl Ferdinand

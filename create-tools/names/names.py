@@ -19,6 +19,8 @@ Seven commands:
            a blood group whose item is the gene product ("ACKR1 protein") is warned
            of. (Sprint 029 checked the item under `--expect`; it warned on right
            items for six of sprint 030's authors, so sprint 033 split it out.)
+           `--write-draft DIR` writes a draft per title found, its kind and
+           description left for the author (sprint 050).
   add      Write name files into the registry, from JSON files or directories
            of them. A new name is written; one already there is left alone
            unless --update is given; a name whose Wikidata item another file
@@ -35,7 +37,8 @@ Seven commands:
            `.scratch/names/<subject>-<part>/`). It flags, and exits 1 on, a name drafted
            by two parts (the same id, or the same item under two ids) and a name drafted
            by a part the plan's `owners` does not give it to (sprint 033: sprint 030's
-           authors found owners by grepping, and two names were drafted twice).
+           authors found owners by grepping, and two names were drafted twice). A
+           draft no spec marks is a problem once its part has a spec (sprint 050).
 
   density  Names and connections per frame, by subject: what the map's
            defaults are set from.
@@ -451,6 +454,8 @@ def main():
     lk.add_argument('--expect', metavar='WORD',
                     help='warn, and exit 1, for an article whose description and first line lack this word '
                          '(a title may carry its own: "Title=word")')
+    lk.add_argument('--write-draft', metavar='DIR',
+                    help='write a draft name file per title found into DIR (its kind and description left for you)')
     lk.add_argument('--expect-item', metavar='WORD',
                     help="also warn, and exit 1, when the article's Wikidata item's description and class lack "
                          'this word: an item that is something else (a gene product for a blood group)')
@@ -493,14 +498,17 @@ def main():
     if args.command == 'lookup':
         asked = expectations(args.titles, args.expect)
         found = lookup([t for t, _ in asked])
-        doubtful = 0
+        doubtful = set()
         for t, keyword in asked:
             row = found.get(t, {'missing': t})
             print(json.dumps(row, ensure_ascii=False))
             why = unexpected(row, keyword, args.expect_item)
             if why:
                 print(f'warning: {why}', file=sys.stderr)
-                doubtful += 1
+                doubtful.add(t)
+        if args.write_draft:
+            for line in write_drafts({t: found.get(t, {'missing': t}) for t, _ in asked}, args.write_draft, doubtful):
+                print(line, file=sys.stderr)
         return 1 if doubtful else 0
 
     if args.command == 'drafts':
@@ -552,10 +560,42 @@ def main():
     return mark_spec(args)
 
 
-def drafts(subject, drafts_dir, plan=None, registry=None):
+SPECS = Path(__file__).resolve().parent / 'examples'
+
+
+def write_drafts(found, out_dir, doubtful=()):
+    """`lookup --write-draft`: a draft name file per row looked up, so no Wikidata id is typed by hand
+    (korg 3554). Its kind and description are left empty for the author, and `add` refuses it until
+    they are written. A missing, ambiguous or warned-of title, or a draft already there, is not written.
+    Returns what to say."""
+    out_dir = Path(out_dir)
+    said = []
+    for asked, row in found.items():
+        if 'missing' in row or 'ambiguous' in row:
+            said.append(f"{asked}: {'missing' if 'missing' in row else 'ambiguous'}, not written")
+            continue
+        if asked in doubtful:
+            said.append(f'{asked}: warned of, not written')
+            continue
+        path = out_dir / f"{row['id']}.json"
+        if path.exists():
+            said.append(f'{path} is already there, left alone')
+            continue
+        out_dir.mkdir(parents=True, exist_ok=True)
+        draft = {'id': row['id'], 'wikidata': row.get('wikidata'), 'name': row['name'], 'aliases': [],
+                 'kind': '', 'description': ''}
+        path.write_text(json.dumps(draft, indent='\t', ensure_ascii=False) + '\n')
+        said.append(f'wrote {path}')
+    return said
+
+
+def drafts(subject, drafts_dir, plan=None, registry=None, specs=SPECS):
     """(rows, problems, notes) for a subject's name drafts: a row per draft (id, wikidata, home, part),
     a problem for a name two parts drafted or a part that does not own it, and a note for a draft the
-    registry already holds (it has been added; the draft can go)."""
+    registry already holds (it has been added; the draft can go).
+
+    A draft no spec marks is a problem once its part has a spec (`<subject>-<part>.json` in `specs`),
+    and a note before then (korg 3554)."""
     owners = (plan or {}).get('owners', {})
     rows, problems, notes = [], [], []
     prefix = f'{subject}-'
@@ -585,6 +625,17 @@ def drafts(subject, drafts_dir, plan=None, registry=None):
     for stem, held, line in stale_drafts(registry or {}, {r['id']: Path(drafts_dir) / f"{prefix}{r['part']}" / f"{r['id']}.json"
                                                           for r in rows}):
         notes.append(line)
+    specs = Path(specs)
+    marked = {pair[1] for sp in specs.glob('*.json') for pairs in json.loads(sp.read_text()).values() for pair in pairs}
+    unspecced = set()
+    for r in rows:
+        if r['id'] in marked or (registry and r['id'] in registry):
+            continue
+        if (specs / f"{prefix}{r['part']}.json").exists():
+            problems.append(f"{r['id']} is drafted by {r['part']}, and no spec marks it: add it to a spec, or drop the draft")
+        elif r['part'] not in unspecced:
+            unspecced.add(r['part'])
+            notes.append(f"{r['id']} is drafted by {r['part']}, which has no spec yet ({prefix}{r['part']}.json)")
     return rows, problems, notes
 
 

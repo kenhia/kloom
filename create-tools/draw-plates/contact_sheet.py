@@ -22,7 +22,7 @@ an image reader shrank past reading, and four of sprint 028's authors
 cropped by hand (sprint 029). `--per-plate` asks for that at any count,
 `--one-sheet` for the single sheet at any count. Standard library only.
 """
-import argparse, glob, html, json, os, subprocess, sys, tempfile
+import argparse, glob, html, json, os, re, subprocess, sys, tempfile
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..')
 
@@ -77,6 +77,42 @@ def shoot(html_path, png, cells, scale):
                     f'--window-size={w},{h}', f'--force-device-scale-factor={scale:g}', f'--screenshot={os.path.abspath(png)}',
                     'file://' + os.path.abspath(html_path)], check=True, capture_output=True)
     return round(w * scale), round(h * scale)
+
+
+# Monospace glyphs advance about 0.6 em, as bar_chart.py estimates a chart's text (sprint 021); a
+# capital stands about 0.75 em above its baseline, and a descender 0.25 em below.
+ADVANCE, ASCENT, DESCENT = 0.6, 0.75, 0.25
+TEXT = re.compile(r'<text\b([^>]*)>(.*?)</text>', re.S)
+
+
+def text_overflows(svg):
+    """Where a plate's text runs off its viewBox: one line each, by how far (korg 3554: bar_chart
+    warns of a chart's text, and a plate's labels ran off unseen in sprint 049). A turned label
+    (a `transform` or `rotate`) is not estimated."""
+    box = re.search(r'viewBox="\s*([-\d.]+)[\s,]+([-\d.]+)[\s,]+([-\d.]+)[\s,]+([-\d.]+)', svg)
+    if not box:
+        return []
+    x0, y0, w, h = map(float, box.groups())
+    out = []
+    for m in TEXT.finditer(svg):
+        attrs, body = m.group(1), html.unescape(re.sub(r'<[^>]+>', '', m.group(2)))
+        attr = lambda k, d=None: (re.search(rf'\b{k}="([^"]*)"', attrs) or [None, d])[1]  # noqa: E731
+        if attr('transform') or attr('rotate') or not body.strip():
+            continue
+        try:
+            x, y = float(attr('x', 0)), float(attr('y', 0))
+            size, spacing = float(attr('font-size', 9)), float(attr('letter-spacing', 0))
+        except ValueError:
+            continue
+        n = len(body)
+        wide = n * ADVANCE * size + (n - 1) * spacing
+        left = {'middle': x - wide / 2, 'end': x - wide}.get(attr('text-anchor', 'start'), x)
+        said = f'"{body}" runs ~{{:.0f}} units past the {{}}'
+        for over, edge in ((x0 - left, 'left edge'), (left + wide - (x0 + w), f'right edge ({x0 + w:g})'),
+                           (y0 - (y - ASCENT * size), 'top edge'), (y + DESCENT * size - (y0 + h), f'bottom edge ({y0 + h:g})')):
+            if over >= 1:
+                out.append(said.format(over, edge))
+    return out
 
 
 def palettes_for(args, known):
@@ -135,6 +171,8 @@ def main():
             continue
         p = palettes[s['palette']]
         for name, svg in svgs:
+            for line in text_overflows(svg):
+                print(f'contact_sheet: warning: {fid}/{name}: {line}', file=sys.stderr)
             title = (f'{html.escape(s["headline"])} <b style="color:{p["accent"]}">{html.escape(s["accent"])}</b>'
                      if name == s['illustration'] else html.escape(name))
             named.append(plate_png(a.png or 'plate.png', fid, name, s['illustration']))

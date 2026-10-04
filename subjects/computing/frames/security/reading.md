@@ -94,7 +94,7 @@ The FBI's Internet Crime Complaint Center counted losses reported to it
 for 2025 at just over $32 million, and says itself that the figure is
 artificially low. Chainalysis, tracing payments in cryptocurrency, found
 $820 million, expects it to approach or pass $900 million as more
-payments are traced, and reports that only 28 per cent of victims paid, a record low,
+payments are traced, and reports that only 28 percent of victims paid, a record low,
 while claims of new victims on the gangs' leak sites rose by half.
 
 The other front is _supply-chain_ attacks, which poison the software

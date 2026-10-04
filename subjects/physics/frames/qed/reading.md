@@ -86,7 +86,7 @@ grows with the energy of the collision. The plate draws the cloud and the
 climb. The Particle Data Group gives 1/α as about 137.036 at low energy
 and 127.93 at 91 GeV, the mass of the Z boson, and experiments at CERN's
 LEP collider saw the running directly. By our arithmetic, the force is
-about 7 per cent stronger there.
+about 7 percent stronger there.
 
 | Energy                         | 1/α     |
 | ------------------------------ | ------- |

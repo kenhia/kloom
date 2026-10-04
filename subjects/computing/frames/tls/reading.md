@@ -63,7 +63,7 @@ it issued 6.9 million certificates, and 692 million were active, covering
 
 ## How much is encrypted
 
-![Bar chart: the share of Firefox page loads made over HTTPS each September rose from 32 per cent in 2014 to 62 in 2017 and 84 in 2020, and has stayed between 81 and 86 since](https-share.svg)
+![Bar chart: the share of Firefox page loads made over HTTPS each September rose from 32 percent in 2014 to 62 in 2017 and 84 in 2020, and has stayed between 81 and 86 since](https-share.svg)
 
 | September       | 2014 | 2016 | 2017 | 2018 | 2020 | 2022 | 2024 | 2025 | 2026 |
 | --------------- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -72,10 +72,10 @@ it issued 6.9 million certificates, and 692 million were active, covering
 The two big browsers measure it differently and disagree. Firefox's
 telemetry, which Let's Encrypt publishes, has hovered in the low to middle
 80s since 2020. Chrome's security team reported in October 2025 that
-HTTPS had risen from 30–45 per cent of Chrome's page loads in 2015 to
-95–99 per cent by about 2020, after which progress "largely plateaued". Part of the gap is private
+HTTPS had risen from 30–45 percent of Chrome's page loads in 2015 to
+95–99 percent by about 2020, after which progress "largely plateaued". Part of the gap is private
 sites: counting only public ones, Chrome on Linux rose from 84 to nearly 97
-per cent. From version 154, in October 2026, Chrome planned to ask every
+percent. From version 154, in October 2026, Chrome planned to ask every
 user's permission before first loading any public site without HTTPS.
 
 ## Against a future computer
@@ -88,8 +88,7 @@ exchange based on lattice problems, as FIPS 203 in August 2024, and TLS 1.3
 now runs it alongside the classical exchange, X25519, so the session stays
 safe while either one holds; the plate draws the two feeding one key
 derivation. Chrome turned the hybrid on by default in November 2024, and
-Firefox in version 132. Cloudflare reported in April 2026 that over 65 per
-cent of human traffic to its network was post-quantum encrypted. The
+Firefox in version 132. Cloudflare reported in April 2026 that over 65 percent of human traffic to its network was post-quantum encrypted. The
 certificates are not yet: post-quantum signatures are larger, and
 Cloudflare set 2029 as its target for finishing the change.
 

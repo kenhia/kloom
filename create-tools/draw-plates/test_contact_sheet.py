@@ -29,6 +29,30 @@ class PerPlate(unittest.TestCase):
         self.assertEqual(cs.plate_png('me', 'abo'), 'me-abo.png')
 
 
+class TextFit(unittest.TestCase):
+    """A plate's text that runs off its edge (korg 3554), estimated as bar_chart.py does a chart's."""
+
+    def svg(self, *texts):
+        return ('<svg viewBox="0 0 400 300">' + ''.join(
+            f'<text x="{x}" y="{y}" font-size="9" text-anchor="{a}" letter-spacing="1">{t}</text>'
+            for x, y, a, t in texts) + '</svg>')
+
+    def test_text_inside_the_plate_is_fine(self):
+        self.assertEqual(cs.text_overflows(self.svg((200, 150, 'middle', 'A LABEL'), (10, 20, 'start', 'LEFT'),
+                                                    (390, 290, 'end', 'RIGHT'))), [])
+
+    def test_says_which_edge_and_by_how_much(self):
+        self.assertEqual(cs.text_overflows(self.svg((380, 150, 'start', 'RUNS OFF THE RIGHT'))),
+                         ['"RUNS OFF THE RIGHT" runs ~94 units past the right edge (400)'])
+        self.assertEqual(cs.text_overflows(self.svg((20, 150, 'end', 'LEFT'), (200, 4, 'middle', 'TOP'))),
+                         ['"LEFT" runs ~5 units past the left edge', '"TOP" runs ~3 units past the top edge'])
+
+    def test_reads_escapes_and_skips_a_turned_label(self):
+        svg = '<svg viewBox="0 0 100 50"><text x="90" y="20" transform="rotate(-90 90 20)">A LONG TURNED LABEL</text>' \
+              '<text x="50" y="20" font-size="9" text-anchor="middle">&amp;</text></svg>'
+        self.assertEqual(cs.text_overflows(svg), [])
+
+
 class Palettes(unittest.TestCase):
     known = {'flint': {}, 'chalk': {}}
 

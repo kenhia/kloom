@@ -16,7 +16,7 @@ Hull was not the first to try it. In April 1980 **Hideo Kodama**, at the Nagoya 
 
 ## Curing a layer
 
-Ultraviolet light is absorbed as it goes down into the resin, losing the same fraction for every equal depth it travels. The resin sets only where it has received at least a critical dose, *E*c. Paul Jacobs, in a 1992 textbook on the process, put the two together as the _working curve_: a layer cures to a depth *C*d = *D*p ln(_E_ / *E*c), where _E_ is the dose at the surface and *D*p is the depth in which the light falls to 1/_e_, about 37 per cent. Both numbers belong to the resin, and they are measured, not assumed. In 2017 Joe Bennett at NIST measured one commercial resin, PR48, at 405 nm: *D*p = 53 µm and *E*c = 6.3 mJ/cm². By our arithmetic, these are the depths it cures to:
+Ultraviolet light is absorbed as it goes down into the resin, losing the same fraction for every equal depth it travels. The resin sets only where it has received at least a critical dose, *E*c. Paul Jacobs, in a 1992 textbook on the process, put the two together as the _working curve_: a layer cures to a depth *C*d = *D*p ln(_E_ / *E*c), where _E_ is the dose at the surface and *D*p is the depth in which the light falls to 1/_e_, about 37 percent. Both numbers belong to the resin, and they are measured, not assumed. In 2017 Joe Bennett at NIST measured one commercial resin, PR48, at 405 nm: *D*p = 53 µm and *E*c = 6.3 mJ/cm². By our arithmetic, these are the depths it cures to:
 
 ![Bar chart of cure depth against dose: 37, 73, 110, 146 and 183 micrometers for 12.6, 25, 50, 100 and 200 millijoules per square centimeter](working-curve.svg)
 
@@ -28,7 +28,7 @@ Ultraviolet light is absorbed as it goes down into the resin, losing the same fr
 |                          100 |             146 |
 |                          200 |             183 |
 
-Every doubling of the dose adds the same 37 µm, *D*p × ln 2. So to print layers 100 µm thick, a maker picks a cure depth somewhat deeper, so that each layer bites into the one below; Hull's patent asks for laminae thick enough to adhere to their neighbors. Choosing 150 µm, our own figure, needs 6.3 × exp(150 ÷ 53) ≈ 107 mJ/cm², and a dose 10 per cent off changes the depth by only 5 µm. The logarithm forgives a wandering lamp. Jacobs advised keeping the cure depth under four times *D*p, here 212 µm.
+Every doubling of the dose adds the same 37 µm, *D*p × ln 2. So to print layers 100 µm thick, a maker picks a cure depth somewhat deeper, so that each layer bites into the one below; Hull's patent asks for laminae thick enough to adhere to their neighbors. Choosing 150 µm, our own figure, needs 6.3 × exp(150 ÷ 53) ≈ 107 mJ/cm², and a dose 10 percent off changes the depth by only 5 µm. The logarithm forgives a wandering lamp. Jacobs advised keeping the cure depth under four times *D*p, here 212 µm.
 
 The resin does not forgive. Bennett found *D*p and *E*c differing by as much as ten times among five commercial resins, so a dose that suits one resin can be badly wrong for another; differences that large, his paper says, "will clearly affect printed part quality". Early 3D Systems machines carried a built-in test for it, WINDOWPANE, which relied on curing resin and measuring its thickness with callipers.
 

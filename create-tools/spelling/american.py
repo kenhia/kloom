@@ -18,7 +18,8 @@ what is not kloom's to respell:
 
 It knows a word only from WORDS: a spelling it has not been told about is
 never changed. `suspects` lists the words that look British and WORDS does not
-hold, so the list can grow by review rather than by guessing.
+hold, so the list can grow by review rather than by guessing. A spelling of
+two words (`per cent`) is a phrase in PHRASES; `suspects` cannot find those.
 
     american.py report  [paths...]      every hit, what would change and what is skipped, and why
     american.py apply   [paths...]      make the changes `report` marks `change`
@@ -222,6 +223,14 @@ for gb, us in [
     if gb != us:
         WORDS[gb] = us
 
+# Phrases: a British spelling written as two words, which the word tokenizer never sees
+# whole. The pattern is matched case-insensitively and across a wrapped line; the
+# lookarounds keep `per century` out (korg 3553).
+PHRASES = [
+    (r'per(?:[ \t]+|[ \t]*\n[ \t]*)cent', 'percent'),
+]
+_PHRASE = [(re.compile(r'(?<![A-Za-z])' + gb + r'(?![A-Za-z])', re.I), us) for gb, us in PHRASES]
+
 # Respelled even when capitalized in mid-sentence: a period or a style, not a name.
 FORCE = {'palaeolithic', 'mediaeval'}
 
@@ -330,11 +339,12 @@ def hits(text):
     """Every British spelling in `text`: (start, end, word, american, why), why None when it changes."""
     spans = protected(text)
     out = []
-    for m in _WORD.finditer(text):
-        word = m.group()
-        us = _lookup(word)
+    found = [(m, _lookup(m.group())) for m in _WORD.finditer(text)]
+    found += [(m, _case(m.group(), us)) for rx, us in _PHRASE for m in rx.finditer(text)]
+    for m, us in sorted(found, key=lambda f: f[0].start()):
         if us is None:
             continue
+        word = m.group()
         a, b = m.span()
         why = next((w for s, e, w in spans if s <= a and b <= e), None)
         # Only the parts that change say whether it is a name: `Sun-centred` is not one.

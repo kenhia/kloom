@@ -17,7 +17,7 @@ steam-engines," runs the English translation of 1890, "would be to take
 away at the same time her coal and iron." Savery, Newcomen, Watt and
 their successors had made the engine by trial and ingenuity. Nobody could
 say how good an engine could ever be, or whether steam was the best thing
-to run it on. A typical engine of the day turned only about 5 to 7 per cent of
+to run it on. A typical engine of the day turned only about 5 to 7 percent of
 its fuel's heat into work.
 
 Carnot asked the two questions in general form. Is there a limit to the
@@ -62,7 +62,7 @@ engine with its boiler at 160 °C and its condenser at 40 °C, using a fall
 of 120 degrees out of the thousand that a coal fire offers. The chart puts
 his numbers into the later formula; the two limits are our arithmetic.
 
-![Bar chart of the share of heat turned into work. Engines of the 1820s: about 5 to 7 per cent. Carnot's limit for heat falling from 160 °C to 40 °C: 27.7 per cent. Carnot's limit for heat falling from 1,000 °C to 10 °C: 77.8 per cent.](efficiency.svg)
+![Bar chart of the share of heat turned into work. Engines of the 1820s: about 5 to 7 percent. Carnot's limit for heat falling from 160 °C to 40 °C: 27.7 percent. Carnot's limit for heat falling from 1,000 °C to 10 °C: 77.8 percent.](efficiency.svg)
 
 | Heat falls             | Share that can become work |
 | ---------------------- | -------------------------: |

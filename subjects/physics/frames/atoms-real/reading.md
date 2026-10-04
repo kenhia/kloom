@@ -91,7 +91,7 @@ methods that had nothing to do with each other.
 The agreement, he concluded, gives "the real existence of the molecule" a
 "probability bordering on certainty". Among the thirteen is Planck's, from
 the black-body curve of the frame before. By our arithmetic the value from his
-grains' distribution, 68.3, was about 13 per cent high.
+grains' distribution, 68.3, was about 13 percent high.
 
 Ostwald gave way in 1908, crediting J. J. Thomson's counting of charged
 gas molecules and Perrin's work on Brownian motion, and said so in the

@@ -27,7 +27,7 @@ transistors: 44,420 in one Wikipedia article, 44,500 in another, which also
 counts 31 instructions to the first's 32. At Stanford from 1981 **John
 Hennessy** led a similar project, _MIPS_, and in 1984 founded a company to
 sell it. The two shared the Turing Award for 2017; Berkeley's announcement said 99
-per cent of the more than 16 billion microprocessors made each year were
+percent of the more than 16 billion microprocessors made each year were
 RISC.
 
 ## Acorn's processor
@@ -81,7 +81,7 @@ small, frugal core that others could put beside their own circuits.
 | 2026 | Arm's royalty revenue, year to March               | $2.61 billion    | Arm, May 2026  |
 | 2026 | Arm-designed Neoverse data-center cores shipped    | over 1.5 billion | Arm, July 2026 |
 
-By 2005 about 98 per cent of mobile phones sold held at least one ARM
+By 2005 about 98 percent of mobile phones sold held at least one ARM
 processor; the first [iPhone](kloom:e/iphone), in 2007, ran on a Samsung-made ARM chip. Since 2011 the architecture has
 been 64-bit as well. It reached the top of the supercomputer list in June
 2020 with Japan's Fugaku. And in 2026 the company that had sold only

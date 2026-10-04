@@ -43,6 +43,28 @@ class Authors(unittest.TestCase):
         self.assertEqual(cm.authors('Caldesi & Montecchi Details on Google Art Project'),
                          [{'name': 'Caldesi & Montecchi'}])
 
+    def test_an_organisation_named_a_group_is_a_name(self):
+        # korg 3554: sprint 049's coins came as "Classical Numismatic Group", split into family and given.
+        self.assertEqual(cm.authors('Classical Numismatic Group'), [{'name': 'Classical Numismatic Group'}])
+
+    def test_reads_a_bnf_author_and_its_role(self):
+        # Gallica's form: "Family, Given (dates). Role" (korg 3554).
+        self.assertEqual(cm.authors('Desbuissons, Edouard (1827-1908). Auteur du texte'),
+                         [{'family': 'Desbuissons', 'given': 'Edouard'}])
+        self.assertEqual(cm.authors('Goussier, dessinateur'), [{'name': 'Goussier'}])
+        self.assertEqual(cm.authors('Villard, de Honnecourt, active 13th century.'),
+                         [{'name': 'Villard, de Honnecourt, active 13th century.'}])
+
+    def test_drops_wikidata_label_text_and_catalogue_numbers_from_a_title(self):
+        self.assertEqual(cm.clean_title('Italian: Cicerone denuncia Catilina Cicero Denounces Catilinelabel '
+                                        'QS:Les,"Cicerón denuncia a Catilina"'),
+                         'Italian: Cicerone denuncia Catilina Cicero Denounces Catiline')
+        self.assertEqual(cm.clean_title('Senate Revisions to House Proposed Amendments to the U.S. Constitution - '
+                                        'DPLA - 38dee369c6f314fbd7fd3825ad58842a (page 1)'),
+                         'Senate Revisions to House Proposed Amendments to the U.S. Constitution')
+        self.assertEqual(cm.clean_title('System of buttresses at the Reims cathedral LCCN2006681060'),
+                         'System of buttresses at the Reims cathedral')
+
     def test_drops_the_art_projects_template_text_from_a_title(self):
         self.assertEqual(cm.clean_title('The Royal Family, Osborne 1857title QS:P1476,en:"The Royal Family"'),
                          'The Royal Family, Osborne 1857')
@@ -192,6 +214,26 @@ class Institutions(unittest.TestCase):
         work = {**person['wellcome'], 'contributors': [{'label': 'Joseph Lister', 'primary': True}]}
         found = cm.institution(person['title'], person['meta'], person['tags'], person['wikitext'], work)
         self.assertEqual(found['authors'], [{'family': 'Lister', 'given': 'Joseph'}])
+
+    def test_a_nara_file_from_dpla_names_its_agency(self):
+        # korg 3554: a DPLA upload has no NARA template; its Artist is the agency's path and a date.
+        meta = {'Artist': 'Department of State. Agency for International Development. 1961-10/1/1979',
+                'Credit': 'This file was contributed to Wikimedia Commons by National Archives and Records '
+                          'Administration as part of a cooperation project. The donation was facilitated by the '
+                          'Digital Public Library of America, via its partner Digital Public Library of America. '
+                          'Record in source catalog DPLA identifier: 38cdd2964f7bb99e95f51a6936bb3acd National '
+                          'Archives Identifier: 19999523'}
+        said = []
+        found = cm.institution('File:Palais de Chaillot - DPLA - 38cdd2964f7bb99e95f51a6936bb3acd.jpg', meta,
+                               ['PD-USGov'], '', say=said.append)
+        self.assertEqual(found, {'container': 'National Archives and Records Administration',
+                                 'number': 'NAID 19999523',
+                                 'authors': [{'name': 'Agency for International Development'}]})
+        self.assertIn('Department of State', said[0])
+        found = cm.institution('File:Senate Revisions - DPLA - 38dee369c6f314fbd7fd3825ad58842a (page 1).jpg',
+                               {'Artist': 'U.S. Senate. 3/4/1789', 'Credit': 'File URL Catalog record'},
+                               ['PD-USGov'], '{{DPLA metadata}}')
+        self.assertEqual(found, {'authors': [{'name': 'U.S. Senate'}]})
 
     def test_every_other_file_is_as_before(self):
         self.assertEqual(cm.institution('File:Seacole - Challen.jpg', {'Artist': 'Albert Charles Challen'},

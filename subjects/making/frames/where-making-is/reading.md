@@ -29,7 +29,7 @@ Much of that making is now done by machines alone. The **[International Federati
 | Installed in the United States | almost 38,500 |
 | Installed in Japan             | 36,219        |
 
-China installed 59 per cent of them, and Chinese makers supplied 55 per cent of China's own. The machines that make the finest machines are fewer: ASML said in July 2026 that it could build about 65 of its 0.33 NA EUV machines that year, and planned 30 per cent more for 2027.
+China installed 59 percent of them, and Chinese makers supplied 55 percent of China's own. The machines that make the finest machines are fewer: ASML said in July 2026 that it could build about 65 of its 0.33 NA EUV machines that year, and planned 30 percent more for 2027.
 
 ## Making at home
 
@@ -37,7 +37,7 @@ At the other end, making has come back to the bench. The **[fab lab](kloom:e/fab
 
 ![A small computer-controlled milling machine on a table in a workshop, with laptops, a vinyl cutter and benches of electronics behind it](waag-fab-lab.jpg)
 
-More of the tools have gone into homes. The market analysts CONTEXT counted over a million **[3D printers](kloom:e/3d-printing)** under $2,500 shipped in the first three months of 2025 alone, 95 per cent of them from Chinese makers, and in 2025 one firm, Bambu Lab of Shenzhen, shipped 37 per cent of all such printers; shipments of such printers rose 26 per cent over 2025, and 39 per cent in the first quarter of 2026 on a year before. By our arithmetic that is something like 1.4 million in that one quarter, if the first quarter of 2025 was not far over a million.
+More of the tools have gone into homes. The market analysts CONTEXT counted over a million **[3D printers](kloom:e/3d-printing)** under $2,500 shipped in the first three months of 2025 alone, 95 percent of them from Chinese makers, and in 2025 one firm, Bambu Lab of Shenzhen, shipped 37 percent of all such printers; shipments of such printers rose 26 percent over 2025, and 39 percent in the first quarter of 2026 on a year before. By our arithmetic that is something like 1.4 million in that one quarter, if the first quarter of 2025 was not far over a million.
 
 ## What is still made by hand
 

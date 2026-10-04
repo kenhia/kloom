@@ -17,7 +17,7 @@ Indigo does not dissolve in water, so it cannot soak into a fiber. The dyer has 
 | In the vat | C₁₆H₁₀N₂O₂ + Na₂S₂O₄ + 4 NaOH → C₁₆H₁₀N₂O₂Na₂ + 2 Na₂SO₃ + 2 H₂O | 174 g dithionite, 160 g lye |
 | In the air | C₁₆H₁₀N₂O₂Na₂ + ½ O₂ + H₂O → C₁₆H₁₀N₂O₂ + 2 NaOH                 | 16 g of oxygen              |
 
-So at least two-thirds of a kilogram of dithionite goes into every kilogram of indigo. In the reduced form the central double bond has become single and the two carbonyls have become C–O⁻; the molecule twists out of flat, and the long run of alternating single and double bonds that absorbs orange light is broken. That is why the vat is yellow and the cloth turns blue. The plant was a poor source: its leaves hold 0.2 to 0.8 per cent of indican, and two indicans give one indigo, so by our arithmetic a tonne of leaves at 0.5 per cent yields at most 2.2 kilograms of dye.
+So at least two-thirds of a kilogram of dithionite goes into every kilogram of indigo. In the reduced form the central double bond has become single and the two carbonyls have become C–O⁻; the molecule twists out of flat, and the long run of alternating single and double bonds that absorbs orange light is broken. That is why the vat is yellow and the cloth turns blue. The plant was a poor source: its leaves hold 0.2 to 0.8 percent of indican, and two indicans give one indigo, so by our arithmetic a tonne of leaves at 0.5 percent yields at most 2.2 kilograms of dye.
 
 ## Seventeen years at Ludwigshafen
 

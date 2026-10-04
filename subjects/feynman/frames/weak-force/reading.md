@@ -47,8 +47,8 @@ Back at Caltech that summer the beta-decay experimenters told him the data
 were a mess, and that **[Murray Gell-Mann](kloom:e/murray-gell-mann)** thought it might even be vector
 after all. That released it, Feynman said. He worked through the night,
 found the muon's and the neutron's decay rates agreed with each other to
-within 9 per cent, then learned that a new measurement shifted the constant
-by 7 per cent; the difference fell to 2. He and Gell-Mann, who had been
+within 9 percent, then learned that a new measurement shifted the constant
+by 7 percent; the difference fell to 2. He and Gell-Mann, who had been
 circling the same idea, wrote it up together. "Theory of the Fermi
 Interaction", received on 16 September 1957, appeared on 1 January 1958.
 

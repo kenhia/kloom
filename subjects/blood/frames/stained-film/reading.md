@@ -30,15 +30,15 @@ The slower the stroke, or the steeper the angle, the thicker the film, and the p
 
 ## The hundred-cell count
 
-The **[differential count](kloom:e/white-blood-cell-differential)** was made with a mechanical stage, moving across and up and down the well-spread part of the film so that no field was counted twice, until one hundred white cells had been classified, unknown ones included. Each cell is then one per cent. The manual insisted on a total white count made at the same time, because only the two together give the absolute numbers. An invented tally, with a total count of 7,500 per µL:
+The **[differential count](kloom:e/white-blood-cell-differential)** was made with a mechanical stage, moving across and up and down the well-spread part of the film so that no field was counted twice, until one hundred white cells had been classified, unknown ones included. Each cell is then one percent. The manual insisted on a total white count made at the same time, because only the two together give the absolute numbers. An invented tally, with a total count of 7,500 per µL:
 
-| Cell                  | Tally | Per cent | Per µL, by our arithmetic | Normal per cent (1951) |
-| --------------------- | ----: | -------: | ------------------------: | ---------------------: |
-| Segmented neutrophils |    60 |       60 |                     4,500 |                  56–62 |
-| Band neutrophils      |     4 |        4 |                       300 |                    4–6 |
-| Lymphocytes           |    28 |       28 |                     2,100 |                  20–30 |
-| Monocytes             |     5 |        5 |                       375 |                    4–8 |
-| Eosinophils           |     2 |        2 |                       150 |                    1–3 |
-| Basophils             |     1 |        1 |                        75 |                 0–0.75 |
+| Cell                  | Tally | Percent | Per µL, by our arithmetic | Normal percent (1951) |
+| --------------------- | ----: | ------: | ------------------------: | --------------------: |
+| Segmented neutrophils |    60 |      60 |                     4,500 |                 56–62 |
+| Band neutrophils      |     4 |       4 |                       300 |                   4–6 |
+| Lymphocytes           |    28 |      28 |                     2,100 |                 20–30 |
+| Monocytes             |     5 |       5 |                       375 |                   4–8 |
+| Eosinophils           |     2 |       2 |                       150 |                   1–3 |
+| Basophils             |     1 |       1 |                        75 |                0–0.75 |
 
 The film and the count kept their weaknesses. The Air Force's laboratory course of 1978 noted that proficiency surveys found wide variation "among technicians reporting observations from identical blood smears", and put it down less to the stain than to the reader. Ehrlich's method had another future too: the idea that a dye could choose one cell and not another led him, thirty years later, to a drug that would choose a microbe. The next frame on the bench goes back to the red cells, and to Wintrobe's tube.

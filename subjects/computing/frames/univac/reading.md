@@ -68,8 +68,8 @@ printed as "00 TO 1", read since as 100 to 1:
 | Popular, Ike         |        32,915,049 |         34,075,529 |
 
 The men round the machine could not believe it. They cut a "national trend
-factor" from 40 per cent to 4 and ran it again; the 9:54 forecast, 268 to
-263, was the one broadcast. By 10:32 the returns had shown the 40 per cent
+factor" from 40 percent to 4 and ran it again; the 9:54 forecast, 268 to
+263, was the one broadcast. By 10:32 the returns had shown the 40 percent
 figure to be closer, and a Remington Rand executive went on air to
 explain. The figures here are from a report of January 1953; the popular
 vote is given as 32,915,949 in some later accounts, and [Eisenhower](kloom:e/dwight-d-eisenhower)'s actual

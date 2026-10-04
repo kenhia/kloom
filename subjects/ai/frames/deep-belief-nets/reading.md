@@ -35,11 +35,11 @@ digit through layers of 500 and 500 units to a top layer of 2,000, joined to
 ten label units: about 1.7 million weights in all. The greedy stage took "a
 few hours per layer" in Matlab on a 3 GHz Xeon; with fine-tuning, the whole
 training took about a week. On the 10,000 test digits of the [MNIST](kloom:e/mnist-database) set it
-made 1.25 per cent errors, better than the best [support vector machine](kloom:e/support-vector-machine) and
+made 1.25 percent errors, better than the best [support vector machine](kloom:e/support-vector-machine) and
 the best backpropagation networks, when none was given any knowledge of
 image geometry.
 
-![Bar chart: test error on the MNIST handwritten digits, with no knowledge of image geometry built in. Deep belief net 1.25 per cent; support vector machine 1.4; backpropagation nets 1.51 and 1.53; nearest neighbor 2.8.](mnist-error.svg)
+![Bar chart: test error on the MNIST handwritten digits, with no knowledge of image geometry built in. Deep belief net 1.25 percent; support vector machine 1.4; backpropagation nets 1.51 and 1.53; nearest neighbor 2.8.](mnist-error.svg)
 
 | Method (no geometry built in)                 | Test error |
 | --------------------------------------------- | ---------: |
@@ -51,7 +51,7 @@ image geometry.
 
 The same table in the paper is honest about the limits. Networks that were
 told about geometry did better still: LeCun's convolutional [LeNet-5](kloom:e/lenet) made 0.95
-per cent errors, and a convolutional net trained on extra, distorted images
+percent errors, and a convolutional net trained on extra, distorted images
 0.4. What mattered was not the best score on digits but that a deep network
 could be trained at all, with most of its learning done without labels.
 

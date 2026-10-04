@@ -51,7 +51,7 @@ seven years after his book.
 ## The overshoot
 
 Look again at the eleven-term sum in the plate. Beside each jump it
-overshoots, by about 9 per cent of the jump. Adding terms squeezes the
+overshoots, by about 9 percent of the jump. Adding terms squeezes the
 overshoot closer to the jump but never shrinks it. Henry Wilbraham
 described this in 1848, and was ignored.
 

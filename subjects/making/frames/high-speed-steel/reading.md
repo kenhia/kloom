@@ -31,6 +31,6 @@ Taylor wrote it as _V_ = 90 ÷ _T_ to the power ⅛, with _V_ in feet a minute a
 | 20 minutes     | 1.454        | 61.9          | 18.9         | 9.9                                  |
 | 80 minutes     | 1.729        | 52.0          | 15.9         | 8.3                                  |
 
-Quadrupling the tool's life costs 16 per cent of the speed, which is Taylor's own rule: multiply the 20-minute speed by 0.84 for an 80-minute cut. For tempered carbon tools he found _n_ was nearer one fifth, and an 80-minute cut 24 per cent slower. His conclusion was that nearly every shop ran its tools too slowly, saving the grinder's time and wasting the machine's.
+Quadrupling the tool's life costs 16 percent of the speed, which is Taylor's own rule: multiply the 20-minute speed by 0.84 for an 80-minute cut. For tempered carbon tools he found _n_ was nearer one fifth, and an 80-minute cut 24 percent slower. His conclusion was that nearly every shop ran its tools too slowly, saving the grinder's time and wasting the machine's.
 
 High-speed tools left the lathes and milling machines of the day too light and too slow to use them, and machine tools were rebuilt heavier to drive them. The next segment turns from the machines that cut parts to the ways of making many.

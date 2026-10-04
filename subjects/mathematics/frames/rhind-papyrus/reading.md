@@ -52,7 +52,7 @@ Problem 50 finds the area of a round field nine _khet_ across: "You are to
 subtract one-ninth of it, namely 1; remainder 8. You are to multiply 8
 eight times; it becomes 64." The circle is replaced by a square on eight
 ninths of its diameter, as the plate draws it. In our terms that makes π
-equal to 256/81, about 3.16, less than one per cent too large. It is a
+equal to 256/81, about 3.16, less than one percent too large. It is a
 rule, stated and applied, never proved.
 
 The last problems of the geometry section ask for a pyramid's _seked_,

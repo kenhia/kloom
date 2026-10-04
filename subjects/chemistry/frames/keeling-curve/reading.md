@@ -6,7 +6,7 @@ The first to calculate what the gas does to the climate was the Swedish chemist 
 
 ## The breathing of the planet
 
-**[Charles David Keeling](kloom:e/charles-david-keeling)** found in the 1950s that the gas could be measured far more precisely than anyone had managed. As a postdoctoral fellow at Caltech he built a manometer good to 0.1 per cent and carried flasks to remote places in the western states; he found about 310 parts per million in clean afternoon air wherever he went. Roger Revelle brought him to the **[Scripps Institution of Oceanography](kloom:e/scripps-institution-of-oceanography)**, and for the International Geophysical Year the Weather Bureau paid for infrared analyzers in Antarctica and at the **[Mauna Loa Observatory](kloom:e/mauna-loa-observatory)**, 3,400 meters up the volcano on the island of Hawaii. The first reading there, on 29 March 1958, was 313 ppm.
+**[Charles David Keeling](kloom:e/charles-david-keeling)** found in the 1950s that the gas could be measured far more precisely than anyone had managed. As a postdoctoral fellow at Caltech he built a manometer good to 0.1 percent and carried flasks to remote places in the western states; he found about 310 parts per million in clean afternoon air wherever he went. Roger Revelle brought him to the **[Scripps Institution of Oceanography](kloom:e/scripps-institution-of-oceanography)**, and for the International Geophysical Year the Weather Bureau paid for infrared analyzers in Antarctica and at the **[Mauna Loa Observatory](kloom:e/mauna-loa-observatory)**, 3,400 meters up the volcano on the island of Hawaii. The first reading there, on 29 March 1958, was 313 ppm.
 
 Power failures and broken equipment broke up the first year's record. "I became anxious that the concentration was going to be hopelessly erratic," Keeling recalled in 1978. A full year made sense of it. The level peaked in May and fell to a low in the autumn, as the forests and fields of the northern hemisphere took in carbon in summer and gave it back in winter: the planet breathing. And each year's average was higher than the last. By 1960 Keeling wrote in _Tellus_ that at the South Pole the rise was "nearly that to be expected from the combustion of fossil fuel". The plate draws the curve month by month from 1958 to August 2026, from the monthly record kept by NOAA, which has made its own measurements beside Scripps's since 1974.
 
@@ -47,6 +47,6 @@ What the ocean takes, it pays for in acid. Dissolved carbon dioxide makes carbon
 
 CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻
 
-The extra hydrogen ions meet carbonate, H⁺ + CO₃²⁻ → HCO₃⁻, and the carbonate that corals and shellfish build with grows scarcer. This is **[ocean acidification](kloom:e/ocean-acidification)**. Between 1950 and 2020 the surface ocean's pH fell from about 8.15 to 8.05; since pH is a logarithm, a fall of 0.1 means 10⁰·¹ = 1.26 times as many hydrogen ions, 26 per cent more.
+The extra hydrogen ions meet carbonate, H⁺ + CO₃²⁻ → HCO₃⁻, and the carbonate that corals and shellfish build with grows scarcer. This is **[ocean acidification](kloom:e/ocean-acidification)**. Between 1950 and 2020 the surface ocean's pH fell from about 8.15 to 8.05; since pH is a logarithm, a fall of 0.1 means 10⁰·¹ = 1.26 times as many hydrogen ions, 26 percent more.
 
 The next frame, the last on this spine, looks at where chemistry stands today.

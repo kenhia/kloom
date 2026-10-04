@@ -53,7 +53,7 @@ Thomas gave a new proof with 633 configurations and 32 rules for
 discharging, where Appel and Haken had used more than 300. It was
 simpler, and still needed a computer.
 
-## Referees who were 99 per cent certain
+## Referees who were 99 percent certain
 
 Others followed.
 

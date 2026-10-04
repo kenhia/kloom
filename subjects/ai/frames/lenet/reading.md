@@ -14,7 +14,7 @@ passing through the post office in [Buffalo](kloom:e/buffalo-new-york), New York
 different people, using a great variety of sizes, writing styles, and
 instruments". Each was scaled to a 16 × 16 grid of gray levels. Some were
 ambiguous, some unclassifiable, some mislabeled; two people who tried the
-test set made mistakes on 2.5 per cent of it.
+test set made mistakes on 2.5 percent of it.
 
 The group's earlier recognizer had used feature detectors designed by hand.
 The 1989 paper, "Backpropagation Applied to Handwritten Zip Code
@@ -33,8 +33,8 @@ Fukushima](kloom:e/kunihiko-fukushima)**'s [_neocognitron_](kloom:e/neocognitron
 patterns "unaffected by shift in position".
 
 It trained for three days on a Sun workstation. On the 2,007 test digits it
-made 102 mistakes, 5.0 per cent; an ordinary fully connected network did
-worse, at 8.1 per cent. Some of the kernels it learned were, in the authors' words,
+made 102 mistakes, 5.0 percent; an ordinary fully connected network did
+worse, at 8.1 percent. Some of the kernels it learned were, in the authors' words,
 "remarkably similar" to feature detectors found in biological vision. Loaded onto an
 off-the-shelf AT&T signal-processing chip, it read 10 to 12 digits a second,
 camera to answer.
@@ -62,8 +62,8 @@ A new benchmark followed in 1994, built from two collections made by the US Nati
 one written by Census Bureau employees, the other by high school students.
 Mixing them, so that training and test sets each held both, gave the
 **[MNIST](kloom:e/mnist-database)** database: 60,000 training digits and 10,000 test
-digits, each 28 × 28 pixels. A simple linear classifier gets about 12 per cent
-of them wrong. Later networks brought the error down to around 0.2 per cent,
+digits, each 28 × 28 pixels. A simple linear classifier gets about 12 percent
+of them wrong. Later networks brought the error down to around 0.2 percent,
 and MNIST became one of the most widely used datasets in machine learning.
 
 For all that, convolutional networks stayed a specialist tool through the

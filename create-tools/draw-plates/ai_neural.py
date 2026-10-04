@@ -271,7 +271,10 @@ def hopfield_network():
     d.group('thin')
     corners = [(cx + sx * u + 22 * v, cy + sy * v) for u, v in [(-2, -1.6), (2, -1.6), (2, 1.6), (-2, 1.6)]]
     d.line(*corners, closed=True)
-    d.line((corners[0][0] - 14, corners[0][1] + 40), (corners[0][0] - 14, corners[0][1] - 70))
+    # Beside the back-left corner, but on the plate: that corner is at its edge, and 14 units left of it
+    # the axis was drawn off the plate (sprint 050).
+    ax, ay = max(corners[0][0] - 14, 8), corners[0][1]
+    d.line((ax, ay + 40), (ax, ay - 70))
     # the object: the surface, as lines of constant v
     d.group()
     d.lines([[proj(u, v) for u in us] for v in vs])
@@ -303,7 +306,7 @@ def hopfield_network():
     for p in nodes:
         d.circle(*p, 4)
     d.group()
-    d.text(corners[0][0] - 20, corners[0][1] - 72, 'E', size=9, anchor='end')
+    d.text(ax, ay - 76, 'E', size=9)
     d.text(bx - 10, by - 12, 'INPUT', size=8, anchor='end')
     d.text(nx - nr - 10, ny + 3, 'EVERY PAIR JOINED', size=8, anchor='end')
     d.text(200, 286, 'MEMORIES ARE VALLEYS', size=8)
@@ -391,8 +394,10 @@ def deep_belief_nets():
             arrow(d, (cx - w1 / 2 - 14, y1 + 4), (cx - w0 / 2 - 14, y0 - 6), head=5)
     d.lines([[(lx + i * 9, 27), (cx - width(2000) / 2 + 20 + i * 18, rows[3][2] - 5)] for i in range(0, 10, 3)])
     d.group()
-    for name, n, y in rows:
+    for name, n, y in rows[1:]:
         d.text(cx + width(2000) / 2 + 64, y + 3, name, size=8, anchor='start')
+    # The image's label is longer than the others: it ends at the plate's edge rather than past it (sprint 050).
+    d.text(396, rows[0][2] + 3, rows[0][0], size=8, anchor='end')
     d.text(lx + 40, 12, '10 LABELS', size=8)
     return d
 

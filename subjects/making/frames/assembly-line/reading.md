@@ -37,7 +37,7 @@ The slowest station sets the pace for everyone. Here is a line of five stations,
 | Work (seconds) |  40 |  55 |  48 |  62 |  45 |   250 |
 | Rebalanced     |  50 |  50 |  50 |  52 |  48 |   250 |
 
-As first divided, the line can send a part on only every 62 seconds, and the other four men wait: 250 seconds of work in 5 × 62 = 310 seconds of paid time, 81 per cent used, by our arithmetic. Shift tasks between stations until none takes more than 52 seconds, and the pace is 52 seconds and the line 96 per cent used. Ford's men also tuned the speed by trial: the magneto rail at 60 inches a minute was too fast, at 18 too slow, and settled at 44. The chain, Arnold and Faurote wrote, ended up "hurrying the slow men, holding the fast men back."
+As first divided, the line can send a part on only every 62 seconds, and the other four men wait: 250 seconds of work in 5 × 62 = 310 seconds of paid time, 81 percent used, by our arithmetic. Shift tasks between stations until none takes more than 52 seconds, and the pace is 52 seconds and the line 96 percent used. Ford's men also tuned the speed by trial: the magneto rail at 60 inches a minute was too fast, at 18 too slow, and settled at 44. The chain, Arnold and Faurote wrote, ended up "hurrying the slow men, holding the fast men back."
 
 ## Five dollars a day
 

@@ -6,7 +6,7 @@ One of the first slicers that home printers used was **Skeinforge**, written for
 
 In 2011 **Alessandro Ranellucci**, from the RepRap community, began **[Slic3r](kloom:e/slic3r)** from scratch, aiming at code that others could read and maintain. David Braam's **[Cura](kloom:e/cura-software)**, maintained by the printer maker Ultimaker after it hired him, ran on a heavily modified Skeinforge until June 2013, when it got its own engine in C++. Slic3r's license was the GNU Affero General Public License, a form of **[copyleft](kloom:e/copyleft)**: anyone may copy and change the program, but every version they distribute must carry the same license and its source. So when **Prusa Research** forked it in 2016 as Slic3r Prusa Edition, renamed **[PrusaSlicer](kloom:e/prusaslicer)** in May 2019, its improvements stayed open. **[Bambu Lab](kloom:e/bambu-lab)**'s Bambu Studio says in its own description that it is based on PrusaSlicer, "which is from Slic3r", and OrcaSlicer is in turn a fork of Bambu Studio. Ken Hiatt's guide for his father, written in January 2026, sends a part from Fusion 360 to Bambu Studio for a Bambu Lab H2S: export the mesh, drag it onto the plate, press Slice Plate.
 
-![A grid of square test layers, each ringed by three perimeters, in rows of honeycomb, concentric, line and rectilinear infill at 20, 40, 60 and 80 per cent](infill-patterns.png)
+![A grid of square test layers, each ringed by three perimeters, in rows of honeycomb, concentric, line and rectilinear infill at 20, 40, 60 and 80 percent](infill-patterns.png)
 
 ## What a slicer decides for each layer
 
@@ -14,13 +14,13 @@ The first step is geometry. For each layer height _z_, every triangle that spans
 
 Then the loop is filled, in three kinds of path. Cura's defaults make the arithmetic plain:
 
-| Decision       | Cura's default      | For a 0.2 mm layer and 0.4 mm line, by our arithmetic |
-| -------------- | ------------------- | ----------------------------------------------------- |
-| Perimeters     | walls 0.8 mm thick  | 0.8 ÷ 0.4 = 2 loops, offset inward one line apart     |
-| Top and bottom | 0.8 mm thick        | 0.8 ÷ 0.2 = 4 solid layers on each face               |
-| Infill         | 20 per cent, a grid | lines spaced to fill a fifth of the interior          |
+| Decision       | Cura's default     | For a 0.2 mm layer and 0.4 mm line, by our arithmetic |
+| -------------- | ------------------ | ----------------------------------------------------- |
+| Perimeters     | walls 0.8 mm thick | 0.8 ÷ 0.4 = 2 loops, offset inward one line apart     |
+| Top and bottom | 0.8 mm thick       | 0.8 ÷ 0.2 = 4 solid layers on each face               |
+| Infill         | 20 percent, a grid | lines spaced to fill a fifth of the interior          |
 
-The perimeters are the visible skin. The solid layers seal the top and bottom. The infill is a lattice inside, and the Slic3r manual's advice is that 20 per cent is about the least that will hold up a flat ceiling and 40 per cent strong enough for almost anything. Too few top layers and the skin sags into the gaps of the lattice beneath it.
+The perimeters are the visible skin. The solid layers seal the top and bottom. The infill is a lattice inside, and the Slic3r manual's advice is that 20 percent is about the least that will hold up a flat ceiling and 40 percent strong enough for almost anything. Too few top layers and the skin sags into the gaps of the lattice beneath it.
 
 ## The lines it writes
 

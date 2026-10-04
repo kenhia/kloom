@@ -32,9 +32,10 @@
 	],
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "treaty",
 			"key": true,
-			"title": "Treaty of Westphalia; October 24, 1648: Peace Treaty between the Holy Roman Emperor and the King of France and their Respective Allies",
+			"title": "Treaty of Westphalia: Peace Treaty between the Holy Roman Emperor and the King of France and their Respective Allies",
+			"parties": ["Holy Roman Empire", "France"],
 			"container": "The Avalon Project",
 			"publisher": "Lillian Goldman Law Library, Yale Law School",
 			"published": "1648-10-24",

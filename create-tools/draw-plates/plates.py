@@ -42,6 +42,31 @@ class D:
         if d:
             self.path(d, cls)
 
+    def dashed(self, *pts, dash=4, gap=3, cls=None):
+        """A polyline drawn as dashes, every dash in one path so it draws on as one stroke: a
+        hypothetical link, a projection (sprint 050; sprint 049 drew a stemma's dash by dash).
+        A dash carries on round a corner; the last is cut short where the line ends."""
+        out, on, left, pen = [], True, dash, None
+        for (x0, y0), (x1, y1) in zip(pts, pts[1:]):
+            length, done = math.dist((x0, y0), (x1, y1)), 0.0
+            while length - done > 1e-9:
+                step = min(left, length - done)
+                t0, t1 = done / length, (done + step) / length
+                a = (x0 + (x1 - x0) * t0, y0 + (y1 - y0) * t0)
+                b = (x0 + (x1 - x0) * t1, y0 + (y1 - y0) * t1)
+                if on:
+                    if pen != a:
+                        out.append(f'M{f(a[0])} {f(a[1])}')
+                    out.append(f'L{f(b[0])} {f(b[1])}')
+                    pen = b
+                done += step
+                left -= step
+                if left <= 1e-9:
+                    on = not on
+                    left = dash if on else gap
+        if out:
+            self.path(' '.join(out), cls)
+
     def circle(self, cx, cy, r, cls=None):
         self.path(f'M{f(cx - r)} {f(cy)} a{f(r)} {f(r)} 0 1 0 {f(2 * r)} 0 a{f(r)} {f(r)} 0 1 0 {f(-2 * r)} 0', cls)
 

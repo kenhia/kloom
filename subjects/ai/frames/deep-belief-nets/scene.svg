@@ -89,10 +89,10 @@
 		<path pathLength="1" d="M30 27 L70 53 M57 27 L124 53 M84 27 L178 53 M111 27 L232 53"/>
 	</g>
 	<g>
-		<text x="354" y="265" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">28 × 28 PIXELS</text>
 		<text x="354" y="199" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">500</text>
 		<text x="354" y="133" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">500</text>
 		<text x="354" y="61" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2000</text>
+		<text x="396" y="265" font-size="8" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">28 × 28 PIXELS</text>
 		<text x="70" y="12" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10 LABELS</text>
 	</g>
 </svg>

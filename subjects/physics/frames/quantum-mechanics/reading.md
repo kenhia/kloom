@@ -84,7 +84,7 @@ interpretation](kloom:e/many-worlds-interpretation)**: every result happens, eac
 theories change the equation; information-based views read the wave
 function as knowledge.
 
-![Bar chart: the favored interpretation of 1,101 researchers in Nature's 2025 survey. Copenhagen 36 per cent; information-based 17; many worlds 15; pilot wave 7; spontaneous collapse 4; relational 4; all other answers 18.](interpretations.svg)
+![Bar chart: the favored interpretation of 1,101 researchers in Nature's 2025 survey. Copenhagen 36 percent; information-based 17; many worlds 15; pilot wave 7; spontaneous collapse 4; relational 4; all other answers 18.](interpretations.svg)
 
 | Favored interpretation, Nature survey, 2025 | Respondents | Share |
 | ------------------------------------------- | ----------: | ----: |
@@ -99,7 +99,7 @@ function as knowledge.
 For the theory's centenary in 2025 _Nature_ asked researchers in quantum
 physics which they favor; 1,101 gave usable answers. The
 counts are ours, from the survey's published data. Copenhagen led with
-only just over a third, and only 267, about 24 per cent, said they were
+only just over a third, and only 267, about 24 percent, said they were
 confident their choice was correct. As of September 2026, there is still no
 agreement on what one of the most accurate theories in physics is a theory of.
 

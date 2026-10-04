@@ -16,7 +16,7 @@ The heads changed last. **[P. L. Robertson](kloom:e/p-l-robertson)**, a Canadian
 
 ## Why a screw holds
 
-The US Forest Products Laboratory's _Wood Handbook_ gives the rules. A wood screw's root, the core inside the thread, is about two-thirds of its shank diameter. The top board gets a clearance hole the size of the shank, so the thread "slips through the first board" and engages only the second, as a 1911 carpentry book for boys puts it, and the head pulls the boards together. The lower board gets a pilot hole for the thread, about 70 per cent of the root's diameter in softwood and 90 per cent in hardwood, the sizes at which its strength figures were measured. A screw should be turned in, never hammered, which tears the fibers.
+The US Forest Products Laboratory's _Wood Handbook_ gives the rules. A wood screw's root, the core inside the thread, is about two-thirds of its shank diameter. The top board gets a clearance hole the size of the shank, so the thread "slips through the first board" and engages only the second, as a 1911 carpentry book for boys puts it, and the head pulls the boards together. The lower board gets a pilot hole for the thread, about 70 percent of the root's diameter in softwood and 90 percent in hardwood, the sizes at which its strength figures were measured. A screw should be turned in, never hammered, which tears the fibers.
 
 The handbook's withdrawal loads are 108.25 × *G*² × _D_ × _L_ newtons for a screw and 54.12 × *G*²·⁵ × _D_ × _L_ for a smooth nail, where _G_ is the wood's specific gravity, _D_ the shank diameter and _L_ the penetration of the thread or nail, in millimeters. Here they are for a wood of specific gravity 0.5 (an invented example), by our arithmetic:
 

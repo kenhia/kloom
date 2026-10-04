@@ -39,7 +39,7 @@ Her first measurement on the purest chloride, with her values for silver (107.8)
 | Weight of a mole of RaCl₂         | 0.09192 ÷ 0.0003104 = 296.1 |
 | Radium, less two chlorines (70.8) | **225.3**                   |
 
-Three such measurements gave her 225. The number had crept up as her samples grew purer, from barium's 137 through 140 and 174, and she took the climb itself as evidence. Radium's accepted weight is 226, the mass of radium-226, which makes almost all natural radium. She was about half a per cent low, with a tenth of a gram.
+Three such measurements gave her 225. The number had crept up as her samples grew purer, from barium's 137 through 140 and 174, and she took the climb itself as evidence. Radium's accepted weight is 226, the mass of radium-226, which makes almost all natural radium. She was about half a percent low, with a tenth of a gram.
 
 ![Bar chart: the atomic weight Marie Curie found as her radium chloride grew purer. Barium alone, 137.4; chloride 3,500 times as active as uranium, 140; 7,500 times, 145.8; about a million times, 173.8; nearly pure, 225; today's value, 226.](atomic-weight.svg)
 

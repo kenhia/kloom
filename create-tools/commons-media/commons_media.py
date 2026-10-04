@@ -29,7 +29,9 @@ metadata is what uploaders typed, and the page is where a licence is really
 stated.
 
 Three institutions' files are read further (sprint 033; most of sprint 030's
-authors rewrote these by hand). Every other file is written as before.
+authors rewrote these by hand), and since sprint 050 a NARA record uploaded
+through DPLA, whose Artist is an agency's path. Every other file is written
+as before.
 
 - **NARA** (a `NARA-image-full` file page): the record's series is the
   `container` ("World War II Posters, National Archives and Records
@@ -172,22 +174,36 @@ NO_AUTHOR = re.compile(r'unknown|anonymous|不明|unbekannt|inconnu|not provided
 ORG = re.compile(r'&|\b(Inc|Ltd|Co|Company|Museum|Library|University|Society|Archives?|Institution|Institute|'
                  r'Cent(er|re)|Colegio|College|School|Academy|Agency|Laborator(y|ies)|Department|Office|Service|'
                  r'Navy|Army|Corps|Command|Administration|Bureau|Ministry|Council|Foundation|Hospital|'
-                 r'Collection|Gallery|Studio)\b')
+                 r'Collection|Gallery|Studio|Group|Partners|Associates|Trust)\b')
+
+# A role after a name, as Gallica writes it ("Desbuissons, Edouard (1827-1908). Auteur du texte", sprint 049).
+ROLE = re.compile(r'[.,]\s*(?:auteur du texte|auteur|illustrateur|dessinateur|graveur|cartographe|'
+                  r'[ée]diteur(?: scientifique)?|traducteur|imprimeur(?:-libraire)?|lithographe|photographe)\.?\s*$', re.I)
+NAME_WORD = r"(?:[A-Z][\w'’.-]*\.?|van|von|de|da|der|du|la|le)"
+
 
 
 def clean_title(name):
     """The ObjectName without the Wikidata template text the Google Art Project's files carry after it
     ("The Royal Family, Osborne 1857title QS:P1476,en:…", sprint 028)."""
-    return re.sub(r'\s*(?:title\s*)?QS:P\d+.*$', '', name or '').strip()
+    name = re.sub(r'\s*(?:title|label)?\s*QS:(?:P\d+|L[a-z-]+),.*$', '', name or '')  # and "label QS:Les,…" (sprint 049)
+    # A DPLA upload's identifier, and a Library of Congress number, after the title (sprint 049).
+    name = re.sub(r'\s+-\s+DPLA\s+-\s+[0-9a-f]{32}(?:\s*\(page \d+\))?$|\s+LCCN\d+$', '', name)
+    return name.strip()
 
 
 def authors(artist):
     """The citation's `authors` from Commons' Artist field: [] when it is boilerplate, a person
     ("Richard Marsden (1859-1938)") as family and given names, anything else as a name."""
     artist = re.sub(r'\s*Details on Google Art Project\s*$', '', artist)  # the Art Project's link text
+    artist = ROLE.sub('', artist)
     artist = re.sub(r'\s*\((?:[^()]*\d{3,4}[^()]*)\)\s*$', '', artist).strip()  # life dates
     if not artist or NO_AUTHOR.search(artist):
         return []
+    # A catalogue's "Family, Given" (the BnF's, sprint 049).
+    inverted = re.fullmatch(rf'({NAME_WORD}(?: {NAME_WORD})*), ({NAME_WORD}(?: {NAME_WORD})*)', artist)
+    if inverted and not ORG.search(artist) and len(artist.split()) <= 4:
+        return [{'family': inverted.group(1), 'given': inverted.group(2)}]
     words = artist.split()
     person = 2 <= len(words) <= 4 and all(re.fullmatch(r"[A-Z][\w'’.-]*\.?|(van|von|de|da|der|du|la)", w)
                                           for w in words) and not ORG.search(artist)
@@ -327,8 +343,33 @@ def wellcome(title, meta, wikitext, work, say):
     return out
 
 
+DPLA = re.compile(r'\{\{DPLA metadata|\s-\sDPLA\s-\s[0-9a-f]{32}')
+
+
+def dpla(meta, say):
+    """A file the Digital Public Library of America uploaded (sprint 049): its Artist is an agency's
+    path and a date ("Department of State. Agency for International Development. 1961-10/1/1979"), the
+    agency that made it the last unit; a NARA record, as its credit line says, is NARA's, with its NAID."""
+    out = {}
+    credit = plain(meta.get('Credit', ''))
+    if 'National Archives and Records Administration' in credit:
+        out['container'] = 'National Archives and Records Administration'
+        m = re.search(r'National Archives Identifier:\s*(\d+)', credit)
+        if m:
+            out['number'] = f'NAID {m.group(1)}'
+    artist = plain(meta.get('Artist', ''))
+    # A unit ends at a stop, but not an initial's ("U.S. Senate. 3/4/1789").
+    units = [u.strip().rstrip('.') for u in re.split(r'(?<!\b[A-Z])\.\s+', artist) if u.strip()]
+    units = [u for u in units if not re.fullmatch(r'[\d/ -]+', u)]
+    if units:
+        out['authors'] = [{'name': units[-1]}]
+        if len(units) > 1:
+            say(f'author written as "{units[-1]}", the last unit of "{artist}"; name a parent if it reads better')
+    return out
+
+
 def institution(title, meta, tags, wikitext, work=None, say=lambda line: None):
-    """What NARA, the US Navy or the Wellcome Collection say beyond Commons' own fields: a dict of
+    """What NARA (on its own or through DPLA), the US Navy or the Wellcome Collection say beyond Commons' own fields: a dict of
     the citation's `container`, `authors` and `number`, empty for any other file (sprint 033)."""
     fields = template_fields(wikitext, 'NARA-image-full')
     if fields is not None:
@@ -337,6 +378,8 @@ def institution(title, meta, tags, wikitext, work=None, say=lambda line: None):
         return navy(title, meta, wikitext, say)
     if re.search(r'\{\{Wellcome Images\}\}|\bWellcome [LMV]\d{7}', f'{title} {wikitext}'):
         return wellcome(title, meta, wikitext, work, say)
+    if DPLA.search(f'{title} {wikitext}'):
+        return dpla(meta, say)
     return {}
 
 

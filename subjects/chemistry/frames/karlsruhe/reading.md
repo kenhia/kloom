@@ -16,7 +16,7 @@ The answer had been in print since 1811. The Italian scientist **[Amedeo Avogadr
 
 ## Weighing a molecule by its vapor
 
-Cannizzaro's method takes two steps. First, weigh a liter of a compound's vapor against a liter of hydrogen at the same temperature and pressure. By Avogadro's rule the two liters hold the same number of molecules, so the ratio of the weights is the ratio of the molecules. Hydrogen's molecule is two atoms, so on a scale where the hydrogen atom weighs 1 a molecule weighs twice its vapor's density. Second, analyze the compound and find how much of the molecule's weight is each element. Carbon dioxide's vapor is 22 times as heavy as hydrogen, so its molecule weighs 44; it is 27.3 per cent carbon, so the molecule holds 12 parts of carbon. That step is by our arithmetic; the rest of the table is Cannizzaro's own:
+Cannizzaro's method takes two steps. First, weigh a liter of a compound's vapor against a liter of hydrogen at the same temperature and pressure. By Avogadro's rule the two liters hold the same number of molecules, so the ratio of the weights is the ratio of the molecules. Hydrogen's molecule is two atoms, so on a scale where the hydrogen atom weighs 1 a molecule weighs twice its vapor's density. Second, analyze the compound and find how much of the molecule's weight is each element. Carbon dioxide's vapor is 22 times as heavy as hydrogen, so its molecule weighs 44; it is 27.3 percent carbon, so the molecule holds 12 parts of carbon. That step is by our arithmetic; the rest of the table is Cannizzaro's own:
 
 | Compound of carbon | Molecule's weight | Of which carbon | Carbon ÷ 12 |
 | ------------------ | ----------------: | --------------: | ----------: |

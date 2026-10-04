@@ -12,7 +12,8 @@
  * letter to its `recipients`, and `encyclopedia` an entry in one (sprint 027).
  * `diary` is a dated entry in a named edition of a diary (sprint 029).
  * `case` is a court's opinion and `statute` a law or a regulation, each
- * rendered in legal form (sprint 033).
+ * rendered in legal form (sprint 033); `treaty` an agreement between states,
+ * in legal form too (sprint 050).
  */
 export const CITATION_KINDS = [
 	'web',
@@ -26,7 +27,8 @@ export const CITATION_KINDS = [
 	'encyclopedia',
 	'diary',
 	'case',
-	'statute'
+	'statute',
+	'treaty'
 ] as const;
 export type CitationKind = (typeof CITATION_KINDS)[number];
 
@@ -152,8 +154,22 @@ export interface Citation {
 	chapter?: string;
 	/** A statute's section, as written: "§ 19", "§§ 640.20–640.25". */
 	section?: string;
-	/** A statute's session laws or code: "61 Stat. 41", "42 C.F.R.". */
+	/**
+	 * A statute's session laws or code: "61 Stat. 41", "42 C.F.R."; a treaty's series: "1 Consol. T.S. 271".
+	 * An English act's regnal year ("1 Will. & Mar. Sess. 2"), a foreign law's gazette, with `citeAs`.
+	 */
 	code?: LegalCite;
+	/**
+	 * A statute that is not a US one (sprint 050): `regnal`, an English act by regnal year and chapter
+	 * ("1 Will. & Mar. Sess. 2, c. 2"); `gazette`, a foreign law by the gazette that printed it
+	 * ("Reichsgesetzblatt 1935, Teil I, p. 1146").
+	 */
+	citeAs?: 'regnal' | 'gazette';
+	/**
+	 * A treaty's parties, as its title page names them: ["Holy Roman Empire", "France"]. Left out for
+	 * a treaty among many states, as legal form leaves them out (the Geneva Convention of 1864).
+	 */
+	parties?: string[];
 	/** Media only: "Public domain", "CC BY-SA 4.0", … */
 	licence?: string;
 	/** Media only: the file this credits, in the frame's directory. */
@@ -250,6 +266,11 @@ const legalCite = (l: LegalCite) => [l.volume, l.name, l.page].filter(Boolean).j
  *   laws cited by chapter, take theirs after it ("42 C.F.R. § 482.23",
  *   "2023 Or. Laws ch. 507"). The year is left out where the cite already
  *   says it: in the name ("…Act of 1947") or as the volume ("2023 Or. Laws").
+ *   An English act by regnal year: ", 1 Will. & Mar. Sess. 2, c. 2", the
+ *   regnal year its year; a foreign law by its gazette: ", Reichsgesetzblatt
+ *   1935, Teil I, p. 1146" (sprint 050);
+ * - a treaty: ", Holy Roman Empire–France, October 24, 1648", and its
+ *   series when it has one (", 1 Consol. T.S. 271"; sprint 050).
  *
  * Undefined for any other kind.
  */
@@ -260,7 +281,21 @@ export function legalForm(c: Citation): string | undefined {
 		const when = [c.court, year].filter(Boolean).join(' ');
 		return `${c.reporter ? `, ${legalCite(c.reporter)}` : ''}${when ? ` (${when})` : ''}`;
 	}
+	if (c.kind === 'treaty') {
+		const signed = c.published ? chicagoDate(c.published) : undefined;
+		const cite = [(c.parties ?? []).join('–'), signed, c.code && legalCite(c.code)];
+		return `, ${cite.filter(Boolean).join(', ')}`;
+	}
 	if (c.kind !== 'statute') return undefined;
+	if (c.citeAs === 'regnal') {
+		const cite = [c.code && legalCite(c.code), c.chapter && `c. ${c.chapter}`, c.section];
+		return `, ${cite.filter(Boolean).join(', ')}`;
+	}
+	if (c.citeAs === 'gazette') {
+		const cite = [c.code?.name, c.code?.volume, c.code?.page && `p. ${c.code.page}`, c.section];
+		const said = !year || c.title.includes(year) || (c.code?.name ?? '').includes(year);
+		return `, ${cite.filter(Boolean).join(', ')}${said ? '' : ` (${year})`}`;
+	}
 	const at = [c.chapter && `ch. ${c.chapter}`, c.section];
 	const parts = [c.publicLaw && `Pub. L. No. ${c.publicLaw}`];
 	if (!c.code) parts.push(...at);
@@ -443,6 +478,7 @@ export function chicago(c: Citation): Part[] {
 			break;
 		case 'case':
 		case 'statute':
+		case 'treaty':
 			// Where it was read: the date is in the cite already.
 			if (c.container) add(`${stop(c.container)} `);
 			if (c.publisher) add(`${stop(c.publisher)} `);
@@ -692,7 +728,7 @@ export function citationProblems(c: unknown, options: { legacy?: boolean } = {})
 	return out;
 }
 
-/** The fields only a case, or only a statute, carries (sprint 033). */
+/** The fields only a case, or only a statute, carries (sprint 033); `code` a treaty's too (sprint 050). */
 const CASE_FIELDS = ['reporter', 'neutral', 'court'] as const;
 const STATUTE_FIELDS = ['publicLaw', 'chapter', 'section', 'code'] as const;
 
@@ -709,6 +745,8 @@ function legalProblems(c: Obj): string[] {
 	const misplaced = (fields: readonly string[], belongs: string) => {
 		for (const k of fields) if (c[k] !== undefined) out.push(`${k} is for ${belongs}`);
 	};
+	if (c.kind !== 'statute') misplaced(['citeAs'], 'a statute');
+	if (c.kind !== 'treaty') misplaced(['parties'], 'a treaty');
 	if (c.kind === 'case') {
 		misplaced(STATUTE_FIELDS, 'a statute');
 		if ((c.reporter === undefined) === (c.neutral === undefined))
@@ -720,6 +758,38 @@ function legalProblems(c: Obj): string[] {
 		for (const k of ['neutral', 'court'] as const)
 			if (c[k] !== undefined && !isText(c[k])) out.push(`${k} must be text`);
 		if (c.published === undefined) out.push('a case needs the date it was decided, in published');
+	} else if (c.kind === 'statute' && c.citeAs !== undefined) {
+		misplaced(CASE_FIELDS, 'a case');
+		if (c.publicLaw !== undefined)
+			out.push(
+				'publicLaw is a US statute’s: an English act is cited by regnal year, a foreign law by its gazette'
+			);
+		if (c.citeAs === 'regnal') {
+			if (!(isLegalCite(c.code, false) && isText((c.code as Obj).volume) && isText(c.chapter)))
+				out.push(
+					'an act cited by regnal year needs its code ({"volume": "1", "name": "Will. & Mar. Sess. 2"}) and chapter'
+				);
+		} else if (c.citeAs === 'gazette') {
+			if (!(isLegalCite(c.code, false) && isText((c.code as Obj).page)))
+				out.push(
+					'a law cited by its gazette needs the gazette and its page in code: {"name": "…", "page": "1146"}'
+				);
+		} else
+			out.push(
+				'citeAs is "regnal" (an English act) or "gazette" (a foreign law); a US statute leaves it out'
+			);
+		for (const k of ['chapter', 'section'] as const)
+			if (c[k] !== undefined && !isText(c[k])) out.push(`${k} must be text`);
+	} else if (c.kind === 'treaty') {
+		misplaced([...CASE_FIELDS, 'publicLaw', 'chapter', 'section'], 'a case or a statute');
+		if (
+			c.parties !== undefined &&
+			!(Array.isArray(c.parties) && c.parties.length >= 2 && c.parties.every(isText))
+		)
+			out.push('parties are two or more, as text; a treaty among many states leaves them out');
+		if (c.published === undefined) out.push('a treaty needs the date it was signed, in published');
+		if (c.code !== undefined && !isLegalCite(c.code, false))
+			out.push('code needs its name, and its volume and page as text when it has them');
 	} else if (c.kind === 'statute') {
 		misplaced(CASE_FIELDS, 'a case');
 		if (c.publicLaw === undefined && c.code === undefined)
@@ -731,6 +801,8 @@ function legalProblems(c: Obj): string[] {
 		for (const k of ['chapter', 'section'] as const)
 			if (c[k] !== undefined && !isText(c[k])) out.push(`${k} must be text`);
 	} else misplaced([...CASE_FIELDS, ...STATUTE_FIELDS], 'a case or a statute');
+	if (c.kind === 'treaty' && c.authors !== undefined)
+		out.push('a treaty names no authors: its parties go in parties');
 	if ((c.kind === 'case' || c.kind === 'statute') && c.authors !== undefined)
 		out.push(
 			`a ${c.kind} names no authors: a case is named by its parties and its court goes in court, a law by its own name`

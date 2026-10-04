@@ -51,7 +51,7 @@ approximations and the percentages are our own arithmetic.
 | 10²⁴ | 18,435,599,767,349,200,867,866 | 18,095,603,412,635,492,818,797 |     1.8% | 18,435,599,767,366,347,775,144 | 17,146,907,278 |
 
 Both guesses win in the only sense the theorem claims: the ratio of each
-to π(_x_) tends to 1. But _x_/ln _x_ closes in slowly, still 1.8 per cent
+to π(_x_) tends to 1. But _x_/ln _x_ closes in slowly, still 1.8 percent
 short at 10²⁴, while li(_x_) is off by less than one part in ten billion.
 The plate draws the same race for _x_ up to 400, where π(_x_) is still a
 staircase with a step at every prime. That li(_x_) always stays above it

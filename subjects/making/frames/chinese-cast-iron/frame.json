@@ -19,11 +19,11 @@
 	"connections": [
 		{
 			"to": "chemistry/type-metal",
-			"why": "Cast iron and type metal are both eutectics: 4.3 per cent of carbon brings iron down to 1,146 °C, as about an eighth of antimony brings lead below the melting point of either metal."
+			"why": "Cast iron and type metal are both eutectics: 4.3 percent of carbon brings iron down to 1,146 °C, as about an eighth of antimony brings lead below the melting point of either metal."
 		},
 		{
 			"to": "chemistry/bessemer-steel",
-			"why": "Iron with about 4 per cent carbon melts near 1,150 °C, which is what let Chinese founders pour it; they took the carbon out again by fining in an open hearth under a blast, as Bessemer's converter did by blowing air through the molten iron."
+			"why": "Iron with about 4 percent carbon melts near 1,150 °C, which is what let Chinese founders pour it; they took the carbon out again by fining in an open hearth under a blast, as Bessemer's converter did by blowing air through the molten iron."
 		},
 		{
 			"to": "making/iron-carbon",
