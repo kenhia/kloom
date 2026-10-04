@@ -173,5 +173,11 @@
 			"container": "New York Public Library",
 			"published": "1792"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/french-revolution",
+			"why": "Wollstonecraft answered Talleyrand's report to the National Assembly, as Olympe de Gouges answered the Declaration of the Rights of Man."
+		}
 	]
 }

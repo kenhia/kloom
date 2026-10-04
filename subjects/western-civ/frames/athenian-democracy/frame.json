@@ -299,5 +299,11 @@
 			"container": "Ancient Agora Museum, Athens",
 			"published": "2009-03-14"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/greek-tragedy",
+			"why": "Athena founds a citizens' court in the Eumenides, and the city's rich paid for the tragic choruses."
+		}
 	]
 }

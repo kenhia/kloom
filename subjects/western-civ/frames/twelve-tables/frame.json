@@ -235,6 +235,14 @@
 		{
 			"to": "western-civ/hammurabi",
 			"why": "Both laws were set up in public to be read: Hammurabi's stele told a wronged man to stand before it, and Livy says the Twelve Tables were engraved in bronze and exhibited in the Forum."
+		},
+		{
+			"to": "western-civ/athenian-democracy",
+			"why": "Livy says the Romans sent to Athens to copy Solon's laws before writing the Tables."
+		},
+		{
+			"to": "western-civ/justinian",
+			"why": "Gaius's commentary on the Twelve Tables reached the Corpus Juris Civilis in excerpts."
 		}
 	]
 }

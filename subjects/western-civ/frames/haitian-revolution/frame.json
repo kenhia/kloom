@@ -217,5 +217,15 @@
 			"place": "Port-au-Prince",
 			"published": "1804"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/abolition",
+			"why": "The enslaved of Saint-Domingue freed themselves by arms in the 1790s, a generation before Britain's Slavery Abolition Act of 1833."
+		},
+		{
+			"to": "western-civ/french-revolution",
+			"why": "The Convention in Paris abolished slavery in every French colony by the law of 4 February 1794, and Bonaparte sent an army to undo it in 1802."
+		}
 	]
 }

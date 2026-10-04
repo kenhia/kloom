@@ -325,5 +325,19 @@
 			"licence": "Public domain",
 			"file": "frankfurt-assembly.jpg"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/french-revolution",
+			"why": "The Paris crowds of 1848 took up the words and the republic of 1789."
+		},
+		{
+			"to": "western-civ/unification",
+			"why": "German and Italian unity came after 1848, made by the revolutions' enemies."
+		},
+		{
+			"to": "western-civ/haitian-revolution",
+			"why": "France abolished slavery in its remaining colonies on 27 April 1848."
+		}
 	]
 }

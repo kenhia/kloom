@@ -403,6 +403,14 @@
 		{
 			"to": "western-civ/printing-press",
 			"why": "Johann Fust, who financed Gutenberg's press, printed Cicero's De officiis at Mainz in 1465 with Peter Schoeffer, one of the first classical books in print."
+		},
+		{
+			"to": "western-civ/augustus",
+			"why": "Cicero was killed in the proscriptions of 43 BC that Octavian, the future Augustus, agreed to."
+		},
+		{
+			"to": "western-civ/humanism",
+			"why": "Petrarch found Cicero's letters to Atticus at Verona in 1345."
 		}
 	]
 }

@@ -282,5 +282,11 @@
 			"published": "1824",
 			"circa": true
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/fall-of-the-wall",
+			"why": "Bernstein conducted the Ninth in Berlin at Christmas 1989, singing \"Freiheit\" for \"Freude\"."
+		}
 	]
 }

@@ -293,5 +293,11 @@
 			"published": "1836",
 			"note": "Wrapper designed by Robert Seymour (signed at foot); published in London in 1836"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/factory-city",
+			"why": "Dickens visited Manchester's mills, and Hard Times's Coketown drew on the factory towns."
+		}
 	]
 }

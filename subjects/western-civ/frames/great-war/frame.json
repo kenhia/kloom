@@ -343,6 +343,14 @@
 		{
 			"to": "blood/robertson-depot",
 			"why": "Robertson laid in the first store of blood kept on ice for a British attack on the Western Front in 1917, at a casualty clearing station behind the trenches."
+		},
+		{
+			"to": "western-civ/second-world-war",
+			"why": "Versailles capped Germany's army at 100,000 men, and Hitler broke the cap in 1935."
+		},
+		{
+			"to": "western-civ/udhr",
+			"why": "The Allies' declaration of 1915 on the Armenian massacres first named \"crimes against humanity\"."
 		}
 	]
 }

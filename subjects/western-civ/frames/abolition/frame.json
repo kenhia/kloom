@@ -376,5 +376,11 @@
 			"file": "brookes.jpg",
 			"note": "Library of Congress digital ID cph.3a34658 (https://www.loc.gov/pictures/item/98504459/); Commons credits it to the Plymouth committee, but this is the London committee's version, which Clarkson says improved Plymouth's"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/american-revolution",
+			"why": "The Constitution protected the slave trade until 1808, the year the US ban took effect."
+		}
 	]
 }

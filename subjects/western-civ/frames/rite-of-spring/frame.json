@@ -323,5 +323,11 @@
 			"url": "https://commons.wikimedia.org/wiki/File:Roerich_Rite_of_Spring.jpg",
 			"accessed": "2026-10-03"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/great-war",
+			"why": "When the war began a year later, Nijinsky was held in Hungary as an enemy citizen."
+		}
 	]
 }

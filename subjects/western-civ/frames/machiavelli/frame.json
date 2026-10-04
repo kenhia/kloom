@@ -226,5 +226,11 @@
 			"place": "Florence",
 			"published": "1532"
 		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/cicero",
+			"why": "The Prince's fox and lion answer Cicero's On Duties, which called force and fraud the ways of beasts."
+		}
 	]
 }
