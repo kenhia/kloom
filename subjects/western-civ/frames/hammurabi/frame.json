@@ -1,0 +1,110 @@
+{
+	"id": "hammurabi",
+	"topic": "The Code of Hammurabi",
+	"position": {
+		"label": "c. 1753 BC",
+		"sort": -1753
+	},
+	"scene": {
+		"headline": "We set the law in",
+		"accent": "STONE.",
+		"palette": "marble",
+		"illustration": "scene.svg",
+		"metadata": ["BABYLON · SIPPAR · SUSA · HAMMURABI", "BASALT STELE · OLD BABYLONIAN AKKADIAN"],
+		"counter": {
+			"value": "4,130",
+			"label": "lines of cuneiform, about"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Code of Hammurabi",
+			"authors": [
+				{
+					"name": "Hammurabi"
+				}
+			],
+			"translators": [
+				{
+					"family": "King",
+					"given": "L. W."
+				}
+			],
+			"published": "1910",
+			"url": "https://avalon.law.yale.edu/ancient/hamcode.asp",
+			"accessed": "2026-10-03",
+			"note": "Read in the Avalon Project's copy (Yale Law School); the laws are quoted from it"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Code de Hammurabi",
+			"publisher": "Musée du Louvre",
+			"container": "Louvre, collections",
+			"url": "https://collections.louvre.fr/en/ark:/53355/cl010174436",
+			"accessed": "2026-10-03",
+			"language": "fr",
+			"note": "Sb 8: basalt, 225 × 79 × 47 cm; found at Susa, 1901–02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Code of Hammurabi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Code_of_Hammurabi&oldid=1378337092",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hammurabi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hammurabi&oldid=1378378705",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Code of Ur-Nammu",
+			"url": "https://en.wikipedia.org/w/index.php?title=Code_of_Ur-Nammu&oldid=1373810185",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "media",
+			"title": "Code de Hammurabi, roi de Babylone ; détail de la face arrière",
+			"url": "https://commons.wikimedia.org/wiki/File:P1050553_Louvre_code_Hammurabi_d%C3%A9tail_rwk.JPG",
+			"accessed": "2026-10-03",
+			"licence": "CC BY 3.0",
+			"file": "hammurabi-columns.jpg",
+			"authors": [
+				{
+					"name": "Mbzt"
+				}
+			],
+			"container": "Musée du Louvre, Sb 8",
+			"published": "2011"
+		}
+	]
+}
