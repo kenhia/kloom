@@ -3,6 +3,7 @@
 	export type IconName =
 		| 'contents'
 		| 'map'
+		| 'zoom'
 		| 'bookmark'
 		| 'bookmarks'
 		| 'my-notes'
@@ -54,6 +55,10 @@
 			<circle cx="19" cy="7" r="1.75" stroke-width="1.5" />
 			<circle cx="17" cy="19" r="1.75" stroke-width="1.5" />
 			<path d="M6.5 7 10 10.5M17.4 7.9 14.2 10.8M13.6 14 16 17.5" stroke-width="1.5" />
+		{:else if name === 'zoom'}
+			<!-- Zoom drawing: four corners pushed outward (korg 3539; a magnifier is kept for search). -->
+			<path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5" stroke-width="1.5" />
+			<path d="M4.5 4.5 10 10M19.5 4.5 14 10M4.5 19.5 10 14M19.5 19.5 14 14" stroke-width="1.5" />
 		{:else if name === 'bookmarks'}
 			<path d="M4 6.5h16M4 12h16M4 17.5h10" stroke-width="1.5" />
 		{:else if name === 'my-notes'}

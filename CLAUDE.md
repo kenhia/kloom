@@ -288,6 +288,14 @@ ask on the reader site for the readers Ken allows (`just reader-ask`, `jkh`
 first): Haiku 4.5 by default with Sonnet 5.5 offered, web on, caps of $5 a
 reader and $15 a month site-wide that rest ask rather than fail it, and the
 spend report kmon reads (`just ask-usage --json`).
+Sprint 047 the start screen's elevator: the subject list in the dial's
+band, scrolling under a thin rail with carets, a leading "The " dropped in
+the list only, the big title fitted to one line, and a native picker below
+60rem (`just start-fit`).
+Sprint 048 HUD polish: one fast tooltip for every HUD icon (`use:tooltip`,
+400 ms, on keyboard focus too, Esc dismisses; no HUD `title`s), and Zoom
+drawing, the frame's drawing full-screen (Z, or the expand-corners icon
+between Map and What's new; `just hud-check`).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

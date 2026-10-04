@@ -41,7 +41,7 @@ describe('page keys', () => {
 		expect(pageKey('ArrowDown', settingsSelect)).toBeNull();
 	});
 
-	it('acts on S, T, B, N, A, O, C, R, M, D and W only in the spine, the narrative or the notes (WCAG 2.1.4)', () => {
+	it('acts on S, T, B, N, A, O, C, R, M, Z, D and W only in the spine, the narrative or the notes (WCAG 2.1.4)', () => {
 		for (const t of [slider, reading, gear, notes]) {
 			expect(pageKey('n', t)).toBe('note');
 			expect(pageKey('N', t)).toBe('note');
@@ -56,6 +56,8 @@ describe('page keys', () => {
 			expect(pageKey('c', t)).toBe('contents');
 			expect(pageKey('r', t)).toBe('back');
 			expect(pageKey('m', t)).toBe('map');
+			expect(pageKey('z', t)).toBe('zoom');
+			expect(pageKey('Z', t)).toBe('zoom');
 			expect(pageKey('d', t)).toBe('random');
 			expect(pageKey('W', t)).toBe('anywhere');
 		}
@@ -68,6 +70,7 @@ describe('page keys', () => {
 			expect(pageKey('o', t)).toBeNull();
 			expect(pageKey('c', t)).toBeNull();
 			expect(pageKey('r', t)).toBeNull();
+			expect(pageKey('z', t)).toBeNull();
 			expect(pageKey('d', t)).toBeNull();
 			expect(pageKey('w', t)).toBeNull();
 		}

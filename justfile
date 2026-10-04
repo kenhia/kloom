@@ -276,6 +276,23 @@ home-check:
     fi
     node create-tools/home-check/home_check.mjs --url "$url"
 
+# The HUD (korg 3540, 3539): every icon's tooltip on hover and keyboard
+# focus, quickly and with no native title, Esc dismissing it; and Zoom
+# drawing, Z or the button to open, Z, Esc, the × or the backdrop to close,
+# focus returned, dark, light and phone size, nothing opened from the AI box
+# or on a frame with no drawing (same Playwright and dev server as scene-fit)
+hud-check:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    url="${KLOOM_URL:-http://localhost:5415}"
+    if ! curl -sf -o /dev/null "$url/"; then
+        node_modules/.bin/vite dev --host 127.0.0.1 --port 5415 --strictPort >/dev/null 2>&1 &
+        server=$!
+        trap 'kill $server' EXIT
+        for _ in $(seq 60); do curl -sf -o /dev/null "$url/" && break; sleep 0.5; done
+    fi
+    node create-tools/hud-check/hud_check.mjs --url "$url"
+
 # The start screen (korg 3514) at 1024x768, 1280x800, 1400x900 and 390x844,
 # with the library as served and with 24 subjects: every title on one line
 # and on screen, the list in the dial's band and never meeting the title, the
