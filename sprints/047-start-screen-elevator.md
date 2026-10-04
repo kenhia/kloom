@@ -110,3 +110,6 @@ min(44rem, 64dvh))/2 − gap, 20rem)`. A fixed `vw` width truncated "History
   elevator's `max-height` removed, 107 failures (the list out of the dial's
   band, meeting the title). With the old balanced, unfitted title, 11
   failures (2–3 lines at 28px on a phone).
+- Ken signed off on the look in the session (2026-10-03), on kai's dev
+  servers with 10 and 24 subjects: "Scroll bar looks great. Drop-down for
+  mobile works!" The rail stays hidden when the list does not scroll.
