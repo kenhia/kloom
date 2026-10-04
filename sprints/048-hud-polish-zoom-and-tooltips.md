@@ -124,7 +124,7 @@ hidden "Bookmarks (N)" label.
   gating, reader-data and notes gating, library bodies, compression).
   `DEPLOYED` reads `59072bebc`.
 - **This sprint's work, checked live:** `hud_check.mjs --url
-  http://127.0.0.1:4891` (the ssh door, which carries a reader) passed
+http://127.0.0.1:4891` (the ssh door, which carries a reader) passed
   131/131. That covers the tooltips (no HUD `title`, the delay, along the
   row, focus, Esc, Bookmarks (N)) and Zoom drawing (Z/Z and Z/Esc in dark,
   light and at phone size, the button, the ×, the backdrop, the AI box, a
@@ -133,7 +133,7 @@ hidden "Bookmarks (N)" label.
   step.** An anonymous browser there has no reader, so there are no
   bookmarks, and the check expects a reader's page.
 - **The public reader site was not published.** That is `just
-  publish-public`, run separately.
+publish-public`, run separately.
 
 I published the public reader site the same day at Ken's word, with `just
 publish-public` from `3c49f08`. That is Fly release v10, image

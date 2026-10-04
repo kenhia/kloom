@@ -496,13 +496,27 @@ describe('the western-civ subject', () => {
 	});
 
 	// Validity, illustrations and citations for every subject: subjects.test.ts.
-	it('spans both palettes, opens on a myth and carries its trails', () => {
+	it('wears a palette per era, opens on a myth and carries its trails', () => {
+		// Seven dark/light pairs since sprint 049; the frames wear the light or dark one of each.
 		const palettes = new Set(Object.values(subject.frames).map((f) => f.scene.palette));
-		expect([...palettes].sort()).toEqual(['night', 'parchment']);
+		expect([...palettes].sort()).toEqual([
+			'brick',
+			'broadsheet',
+			'candle',
+			'fresco',
+			'marble',
+			'night',
+			'parchment',
+			'porphyry',
+			'steel'
+		]);
 		expect(subject.spine.segments[0].labelKind).toBe('category');
 		expect(subject.trails.map((t) => `${t.id}@${t.anchor}`).sort()).toEqual([
 			'measure@eratosthenes',
-			'printing@printing-press'
+			'printing@printing-press',
+			'revolutions@french-revolution',
+			'rights@magna-carta',
+			'rome@augustus'
 		]);
 	});
 

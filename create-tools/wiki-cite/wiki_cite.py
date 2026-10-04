@@ -179,7 +179,9 @@ def text_name(title, lang='en'):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument('titles', nargs='+')
-    ap.add_argument('--accessed', default=datetime.date.today().isoformat())
+    # UTC, as the revision dates are: a local date put `published` a day after `accessed` in the
+    # evening west of Greenwich (sprint 049).
+    ap.add_argument('--accessed', default=datetime.datetime.now(datetime.timezone.utc).date().isoformat())
     ap.add_argument('--text', metavar='DIR', help="also write each revision's readable text to DIR/<Title>.txt")
     ap.add_argument('--lang', default='en', help="the Wikipedia's language code (default en): de cites de.wikipedia.org")
     ap.add_argument('--expect', metavar='WORD',

@@ -58,14 +58,14 @@ function fakeProvider(...turns: ((req: GrowRequest) => Promise<void>)[]) {
 	return { provider, requests };
 }
 
-/** What a well-behaved model does for "frames": one frame, before shakespeare. */
+/** What a well-behaved model does for "frames": one frame, before valladolid (1550). */
 const addLuther =
 	(sort = 1540) =>
 	async ({ workDir }: GrowRequest) => {
 		await writeFrame(workDir, 'luther-theses', grownFrame('luther-theses', sort));
 		await editJson<Spine>(join(workDir, 'spine.json'), (s) => {
-			const seg = s.segments.find((x) => x.id === 'rebirth')!;
-			seg.frames.splice(seg.frames.indexOf('shakespeare'), 0, 'luther-theses');
+			const seg = s.segments.find((x) => x.id === 'reformation')!;
+			seg.frames.splice(seg.frames.indexOf('valladolid'), 0, 'luther-theses');
 		});
 	};
 
