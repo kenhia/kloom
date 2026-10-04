@@ -4,7 +4,7 @@ For over a thousand years, the [New Testament](kloom:e/new-testament) lived in L
 
 Erasmus had learned his Greek during the [Renaissance](kloom:e/renaissance) recovery of classical texts, studying under the best masters and reading the Church Fathers in their original language. He spent a decade comparing the Greek manuscripts he could reach. For the main body of his text he relied on eight Greek manuscripts in Basel, including one for the Gospels, another for Acts and the Epistles, and a third for Revelation. The work was rushed — Erasmus complained it was "precipitated rather than published" — but it was whole, critical, and grounded in real sources.
 
-The New Testament in Greek had not been in wide circulation since before the Middle Ages. Arabic and Hebrew texts stayed alive in their traditions, but Western Christendom had forgotten the Greek itself. Erasmus's printed edition brought it back, making the original language available to any scholar with the price of a book.
+The Greek New Testament had never been lost: in the Greek East it was copied and read in churches and monasteries throughout the Middle Ages. What the Latin West lacked was readers. Few scholars there knew Greek until teachers such as Manuel Chrysoloras brought it to Italy from 1397, and the manuscripts were scattered and costly. Erasmus's printed edition put the original language within reach of any scholar with the price of a book.
 
 ## The Reformation's foundation
 
