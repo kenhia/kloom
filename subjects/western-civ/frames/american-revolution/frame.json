@@ -1,0 +1,385 @@
+{
+	"id": "american-revolution",
+	"topic": "The American Revolution",
+	"position": {
+		"label": "AD 1776–1791",
+		"sort": 1776
+	},
+	"scene": {
+		"headline": "We hold these",
+		"accent": "TRUTHS.",
+		"palette": "candle",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PHILADELPHIA · JEFFERSON · MADISON · WASHINGTON",
+			"DECLARATION · CONVENTION · CONSTITUTION"
+		],
+		"counter": {
+			"value": "697,697",
+			"label": "people counted as slaves in the first US census, 1790"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/iron-gall-ink",
+			"why": "The Declaration of Independence and the Constitution, whose making this frame tells, were engrossed in iron gall ink on parchment, and the ink's acid bit into the surface."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Declaration of Independence: A Transcription",
+			"publisher": "National Archives",
+			"container": "America's Founding Documents",
+			"url": "https://www.archives.gov/founding-docs/declaration-transcript",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Constitution of the United States: A Transcription",
+			"publisher": "National Archives",
+			"container": "America's Founding Documents",
+			"url": "https://www.archives.gov/founding-docs/constitution-transcript",
+			"accessed": "2026-10-03",
+			"note": "Article I, sections 2 and 9, and Article IV, section 2, on the enslaved"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Autobiography",
+			"authors": [
+				{
+					"family": "Jefferson",
+					"given": "Thomas"
+				}
+			],
+			"published": "1830",
+			"url": "https://avalon.law.yale.edu/19th_century/jeffauto.asp",
+			"accessed": "2026-10-03",
+			"note": "Written in 1821; read in the Avalon Project's text, which shows the passages Congress struck from the Declaration"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Federalist No. 47: The Particular Structure of the New Government and the Distribution of Power Among Its Different Parts",
+			"authors": [
+				{
+					"family": "Madison",
+					"given": "James"
+				}
+			],
+			"container": "The Federalist Papers",
+			"published": "1788",
+			"url": "https://avalon.law.yale.edu/18th_century/fed47.asp",
+			"accessed": "2026-10-03",
+			"note": "Read in the Avalon Project's text, which dates it to the New York Packet of February 1, 1788"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter from Abigail Adams to John Adams",
+			"authors": [
+				{
+					"family": "Adams",
+					"given": "Abigail"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Adams",
+					"given": "John"
+				}
+			],
+			"written": "1776-03-31",
+			"container": "Adams Family Papers: An Electronic Archive",
+			"publisher": "Massachusetts Historical Society",
+			"url": "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Return of the Whole Number of Persons within the Several Districts of the United States",
+			"authors": [
+				{
+					"name": "United States, Department of State"
+				}
+			],
+			"published": "1791",
+			"url": "https://www.census.gov/library/publications/1793/dec/number-of-persons.html",
+			"accessed": "2026-10-03",
+			"note": "The schedule on p. 3, signed by Jefferson, October 24, 1791"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "American Revolution",
+			"url": "https://en.wikipedia.org/w/index.php?title=American_Revolution&oldid=1378206757",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United States Declaration of Independence",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Declaration_of_Independence&oldid=1376642424",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Constitutional Convention (United States)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Constitutional_Convention_(United_States)&oldid=1375648713",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Virginia Plan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Virginia_Plan&oldid=1376443903",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "New Jersey Plan",
+			"url": "https://en.wikipedia.org/w/index.php?title=New_Jersey_Plan&oldid=1364940665",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Connecticut Compromise",
+			"url": "https://en.wikipedia.org/w/index.php?title=Connecticut_Compromise&oldid=1366889495",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Three-fifths Compromise",
+			"url": "https://en.wikipedia.org/w/index.php?title=Three-fifths_Compromise&oldid=1376178806",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Federalist No. 47",
+			"url": "https://en.wikipedia.org/w/index.php?title=Federalist_No._47&oldid=1286646965",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-04-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Federalist Papers",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Federalist_Papers&oldid=1375916379",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Spirit of Law",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Spirit_of_Law&oldid=1368430995",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Constitution of the United States",
+			"url": "https://en.wikipedia.org/w/index.php?title=Constitution_of_the_United_States&oldid=1377487594",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1790 United States census",
+			"url": "https://en.wikipedia.org/w/index.php?title=1790_United_States_census&oldid=1376245093",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stamp Act 1765",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stamp_Act_1765&oldid=1374682177",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Battles of Lexington and Concord",
+			"url": "https://en.wikipedia.org/w/index.php?title=Battles_of_Lexington_and_Concord&oldid=1376384213",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Committee of Five",
+			"url": "https://en.wikipedia.org/w/index.php?title=Committee_of_Five&oldid=1377485091",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Jefferson and slavery",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Jefferson_and_slavery&oldid=1371806166",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Women's suffrage in the United States",
+			"url": "https://en.wikipedia.org/w/index.php?title=Women's_suffrage_in_the_United_States&oldid=1376374237",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "media",
+			"title": "Schedule of the whole number of persons within the several districts of the United States, 1790",
+			"authors": [
+				{
+					"name": "United States, Department of State"
+				}
+			],
+			"container": "Return of the Whole Number of Persons within the Several Districts of the United States, p. 3, US Census Bureau",
+			"published": "1791",
+			"url": "https://www.census.gov/library/publications/1793/dec/number-of-persons.html",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "census-1790.jpg",
+			"note": "A work of the United States government, printed in 1791; cropped from the Census Bureau's scan"
+		},
+		{
+			"kind": "media",
+			"title": "Enslaved people as a share of each state's population in the first US census, 1790",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "US Census Bureau, Return of the Whole Number of Persons within the Several Districts of the United States (1791); South Carolina from Wikipedia, 1790 United States census",
+			"url": "https://www.census.gov/library/publications/1793/dec/number-of-persons.html",
+			"accessed": "2026-10-03",
+			"licence": "MIT",
+			"file": "enslaved-1790.svg"
+		}
+	]
+}

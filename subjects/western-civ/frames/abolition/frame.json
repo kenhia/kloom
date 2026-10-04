@@ -1,0 +1,380 @@
+{
+	"id": "abolition",
+	"topic": "The abolition of slavery",
+	"position": {
+		"label": "AD 1787–1888",
+		"sort": 1787
+	},
+	"scene": {
+		"headline": "They made Britain",
+		"accent": "LOOK.",
+		"palette": "candle",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · LIVERPOOL · JAMAICA · EQUIANO · CLARKSON",
+			"PETITIONS · THE BROOKES · SUGAR BOYCOTT · 1807 · 1833"
+		],
+		"counter": {
+			"value": "12,500,000",
+			"label": "people carried from Africa as slaves, 1501–1866, estimated"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The History of the Rise, Progress, and Accomplishment of the Abolition of the African Slave-Trade by the British Parliament",
+			"authors": [
+				{
+					"family": "Clarkson",
+					"given": "Thomas"
+				}
+			],
+			"place": "London",
+			"published": "1808",
+			"url": "https://www.gutenberg.org/ebooks/12507",
+			"accessed": "2026-10-03",
+			"note": "Vol. 2 gives the Brookes's admeasurement and the sugar boycott; vol. 1 (Project Gutenberg 12428) the committee, its seal and Dolben's bill"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African",
+			"authors": [
+				{
+					"name": "Olaudah Equiano"
+				}
+			],
+			"place": "London",
+			"published": "1789",
+			"url": "https://www.gutenberg.org/ebooks/15399",
+			"accessed": "2026-10-03",
+			"note": "The Middle Passage is in chapter 2"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atlantic slave trade",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atlantic_slave_trade&oldid=1378375277",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Trans-Atlantic Slave Trade – Estimates",
+			"container": "SlaveVoyages",
+			"url": "https://www.slavevoyages.org/assessment/estimates",
+			"accessed": "2026-10-03",
+			"citedIn": "Atlantic slave trade",
+			"note": "The site is a script application; its totals are quoted from Anderson et al. in the Wikipedia article"
+		},
+		{
+			"kind": "article",
+			"title": "Using African Names to Identify the Origins of Captives in the Transatlantic Slave Trade: Crowd-Sourcing and the Registers of Liberated Africans, 1808–1862",
+			"authors": [
+				{
+					"family": "Anderson",
+					"given": "Richard"
+				},
+				{
+					"family": "Borucki",
+					"given": "Alex"
+				},
+				{
+					"family": "Domingues da Silva",
+					"given": "Daniel"
+				},
+				{
+					"family": "Eltis",
+					"given": "David"
+				},
+				{
+					"family": "Lachance",
+					"given": "Paul"
+				},
+				{
+					"family": "Misevich",
+					"given": "Philip"
+				},
+				{
+					"family": "Ojo",
+					"given": "Olatunji"
+				}
+			],
+			"container": "History in Africa",
+			"volume": "40",
+			"published": "2013",
+			"doi": "10.1017/hia.2013.3",
+			"accessed": "2026-10-03",
+			"citedIn": "Atlantic slave trade",
+			"pages": "165–191"
+		},
+		{
+			"kind": "web",
+			"title": "Context",
+			"container": "Legacies of British Slavery",
+			"publisher": "University College London",
+			"url": "https://www.ucl.ac.uk/lbs/project/context/",
+			"accessed": "2026-10-03",
+			"note": "Read in the Wayback Machine's copy; about half the £20 million stayed in Britain"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Middle Passage",
+			"url": "https://en.wikipedia.org/w/index.php?title=Middle_Passage&oldid=1375908990",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Voyages: The Trans-Atlantic Slave Trade Database",
+			"url": "https://en.wikipedia.org/w/index.php?title=Voyages%3A_The_Trans-Atlantic_Slave_Trade_Database&oldid=1367904515",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Olaudah Equiano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Olaudah_Equiano&oldid=1377849745",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Society for Effecting the Abolition of the Slave Trade",
+			"url": "https://en.wikipedia.org/w/index.php?title=Society_for_Effecting_the_Abolition_of_the_Slave_Trade&oldid=1377282895",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Clarkson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Clarkson&oldid=1372277222",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wedgwood anti-slavery medallion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wedgwood_anti-slavery_medallion&oldid=1372006524",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Abolitionism in the United Kingdom",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abolitionism_in_the_United_Kingdom&oldid=1373844029",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Brooks (1781 ship)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Brooks_(1781_ship)&oldid=1373015977",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Slave Trade Act 1788",
+			"url": "https://en.wikipedia.org/w/index.php?title=Slave_Trade_Act_1788&oldid=1363137773",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Wilberforce",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Wilberforce&oldid=1377558647",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Slave Trade Act 1807",
+			"url": "https://en.wikipedia.org/w/index.php?title=Slave_Trade_Act_1807&oldid=1377941859",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Act Prohibiting Importation of Slaves",
+			"url": "https://en.wikipedia.org/w/index.php?title=Act_Prohibiting_Importation_of_Slaves&oldid=1378015622",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Baptist War",
+			"url": "https://en.wikipedia.org/w/index.php?title=Baptist_War&oldid=1370430320",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Slavery Abolition Act 1833",
+			"url": "https://en.wikipedia.org/w/index.php?title=Slavery_Abolition_Act_1833&oldid=1375704847",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thirteenth Amendment to the United States Constitution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thirteenth_Amendment_to_the_United_States_Constitution&oldid=1372809435",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lei Áurea",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lei_%C3%81urea&oldid=1368931269",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Capitalism and Slavery",
+			"url": "https://en.wikipedia.org/w/index.php?title=Capitalism_and_Slavery&oldid=1341902916",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-05"
+		},
+		{
+			"kind": "media",
+			"title": "Stowage of the British slave ship \"Brookes\" under the Regulated Slave Trade Act of 1788",
+			"container": "Printed Ephemera Collection, Library of Congress",
+			"published": "1788",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Slaveshipposter.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "brookes.jpg",
+			"note": "Library of Congress digital ID cph.3a34658 (https://www.loc.gov/pictures/item/98504459/); Commons credits it to the Plymouth committee, but this is the London committee's version, which Clarkson says improved Plymouth's"
+		}
+	]
+}

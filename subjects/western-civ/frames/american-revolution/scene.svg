@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M200 88 L84 186 L316 186 Z"/>
+		<path pathLength="1" d="M8 272 L392 272"/>
+		<path pathLength="1" d="M200 14 L200 272"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M70 26 L330 26 L330 88 L70 88 Z"/>
+		<path pathLength="1" d="M26 186 L142 186 L142 230 L26 230 Z"/>
+		<path pathLength="1" d="M258 186 L374 186 L374 230 L258 230 Z"/>
+		<path pathLength="1" d="M200 26 L200 88"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M81.6 187.7 L128.6 89.7"/>
+		<path pathLength="1" d="M128.6 94.7 L128.6 89.7 L124.7 92.8"/>
+		<path pathLength="1" d="M121.4 86.3 L74.4 184.3"/>
+		<path pathLength="1" d="M74.4 179.3 L74.4 184.3 L78.3 181.2"/>
+		<path pathLength="1" d="M142 212 L258 212"/>
+		<path pathLength="1" d="M253.5 214.2 L258 212 L253.5 209.8"/>
+		<path pathLength="1" d="M275 88 L326 186"/>
+		<path pathLength="1" d="M322 183 L326 186 L325.9 181"/>
+		<path pathLength="1" d="M153 88 L106 186"/>
+		<path pathLength="1" d="M106 181 L106 186 L109.9 182.9"/>
+		<path pathLength="1" d="M12 272 L12 57 L70 57"/>
+		<path pathLength="1" d="M65.5 59.2 L70 57 L65.5 54.8"/>
+		<path pathLength="1" d="M44 272 L44 230"/>
+		<path pathLength="1" d="M46.2 234.5 L44 230 L41.8 234.5"/>
+		<path pathLength="1" d="M388 272 L388 266 M388 262 L388 256 M388 252 L388 246 M388 242 L388 236 M388 232 L388 226 M388 222 L388 216 M388 212 L388 206 M388 202 L388 196 M388 192 L388 186 M388 182 L388 176 M388 172 L388 166 M388 162 L388 156 M388 152 L388 146 M388 142 L388 136 M388 132 L388 126 M388 122 L388 116 M388 112 L388 106 M388 102 L388 96 M388 92 L388 86 M388 82 L388 76 M388 72 L388 66 M388 57 L382 57 M378 57 L372 57 M368 57 L362 57 M358 57 L352 57 M348 57 L342 57 M338 57 L332 57"/>
+		<path pathLength="1" d="M334.5 54.8 L330 57 L334.5 59.2"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="135" y="54" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HOUSE</text>
+		<text x="135" y="66" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">65 SEATS</text>
+		<text x="265" y="54" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SENATE</text>
+		<text x="265" y="66" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">26 SEATS</text>
+		<text x="200" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CONGRESS · ARTICLE I</text>
+		<text x="84" y="206" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PRESIDENT</text>
+		<text x="84" y="218" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARTICLE II</text>
+		<text x="316" y="206" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SUPREME COURT</text>
+		<text x="316" y="218" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARTICLE III</text>
+		<text x="92" y="134" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VETO</text>
+		<text x="92" y="144" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2/3 OVERRIDE</text>
+		<text x="126" y="120" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IMPEACHES</text>
+		<text x="200" y="202" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NOMINATES</text>
+		<text x="281" y="140" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CONFIRMS</text>
+		<text x="200" y="286" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WE THE PEOPLE · ELECTORS · STATE LEGISLATURES</text>
+	</g>
+</svg>

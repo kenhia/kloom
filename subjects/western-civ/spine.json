@@ -72,7 +72,15 @@
 			"title": "Reason and revolution",
 			"labelKind": "date",
 			"palette": "candle",
-			"frames": ["royal-society", "locke", "encyclopedie", "wealth-of-nations"]
+			"frames": [
+				"royal-society",
+				"locke",
+				"encyclopedie",
+				"wealth-of-nations",
+				"american-revolution",
+				"abolition",
+				"french-revolution"
+			]
 		},
 		{
 			"id": "machines",
