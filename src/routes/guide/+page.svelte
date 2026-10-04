@@ -60,8 +60,19 @@
 	<ul>
 		<li>
 			Choose a subject from the list. Its title, its pictures and where you left off in it show
-			beside the list. On a keyboard, <kbd>↑</kbd> and <kbd>↓</kbd> move through the list.
+			beside the list. On a keyboard, <kbd>↑</kbd> and <kbd>↓</kbd> move through the list, and
+			<kbd>Home</kbd> and <kbd>End</kbd> go to its ends.
 		</li>
+		<li>
+			When there are more subjects than fit beside the loom, the list scrolls. A line on its left
+			shows where you are in it, and an arrow above or below says there is more that way: click it
+			to move a page.
+		</li>
+		<li>
+			{@render icon('last-read')} An open book marks the subject you read last, and a number says how
+			many of a subject's frames are new to you.
+		</li>
+		<li>On a narrow screen, such as a phone, the list is a drop-down under the title.</li>
 		<li><strong>Begin</strong> starts the subject from its first frame.</li>
 		<li>
 			<strong>Continue where you were</strong> takes you back to the last frame you read in that subject.
@@ -75,8 +86,8 @@
 			<strong>About</strong> and {@render icon('settings')} <strong>Settings</strong> are at the top right.
 		</li>
 		<li>
-			Once you have started a subject, the list says how many frames are new to you in it, and so
-			does the line under Begin (<a href="#new">more</a>).
+			Once you have started a subject, the line under Begin also says how many frames are new to you
+			in it (<a href="#new">more</a>).
 		</li>
 		<li>
 			{@render icon('home')}

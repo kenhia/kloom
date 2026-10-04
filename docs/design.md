@@ -1935,8 +1935,8 @@ after they started it.
   place is written (800 ms after the reader stops); the store's `visit`
   also starts the subject and counts as activity. Shown: on the spine
   (the spark, §Marks), in the contents and on trail markers (a trail with
-  a new frame says so), on the HUD's count, and on the start screen ("2
-  new" in the subject list, "3 new since you started" under Begin). The
+  a new frame says so), on the HUD's count, and on the start screen (a "2
+  new" count in the subject list, "3 new since you started" under Begin). The
   page computes the frames from the library's dates and the reader's
   records (`readerNews`), and keeps them current as the reader opens,
   marks or catches up.
@@ -1990,11 +1990,46 @@ past two subjects:
   Home's icon and the four runners-up (loom, shuttle, return, title card)
   are in `engine/ui/icons/`. They are kloom's UI, not a subject's.
 - **The subject list** is a listbox (`aria-activedescendant`, selection
-  follows the arrows, Home/End, Enter begins, a click selects and a
+  follows ↑/↓, Home/End, Enter begins, a click selects and a
   double-click begins). It is in the dialog before the title, so Shift+Tab
-  from Begin reaches it. On a wide screen it stands down the left of the
-  loom. Below 60rem it lies flat above the title, and ←/→ work as well as
-  ↑/↓. With one subject served there is no list.
+  from Begin reaches it. With one subject served there is no list.
+  Sprint 047 (korg 3514) made it hold any number of subjects without
+  meeting the title:
+  - **The elevator.** From 60rem the list stands in a column left of the
+    loom, a column as wide on the right keeping the loom centred, and the
+    stage gives way to both. The column's width is what the dial leaves
+    (16–20rem). The list is no taller than the dial, `min(stage, 64dvh)`,
+    and is centred on it, so the title row below can never reach it,
+    however many subjects there are. It scrolls natively with its bar
+    hidden. A thin rail on its left, with a stop at each end and a car
+    showing where the list is, appears when it scrolls. Carets above and
+    below appear only when there is more that way, and a click scrolls a
+    page; they are `aria-hidden`, because the arrows are the keyboard's
+    way. A clipped edge fades. The selection, however it moved, is
+    scrolled into view inside the fades (`aria-activedescendant` scrolls
+    nothing), and the screen opens with the selection centred. Instant
+    under reduced motion.
+  - **What an entry says.** The title without a leading "The " (the
+    subject's own title keeps it: the big title, About and the map are
+    unchanged), then an open book (`engine/ui/icons/open-book.svg`, "Last
+    read" to a screen reader) for the subject last read, and a small
+    accent count of frames new to the reader. One line each: a title too
+    long for the column gives way to an ellipsis before its marks do.
+  - **The picker.** Below 60rem the list is a native `<select>` under the
+    title and tagline, styled when shut, the platform's own picker when
+    open. Its entries say the same in words ("— last read", "· 3 new").
+  - `just start-fit` guards all of it in the machine's Playwright and
+    Chromium (`create-tools/start-fit/start_fit.mjs`, outside `just
+check`): at 1024×768, 1280×800, 1400×900 and 390×844, with the
+    library as served and with 24 subjects (synthetic ones over a real
+    subject's frames, in a temporary library on its own dev server).
+- **The title fits one line** (sprint 047, korg 3514). The big title never
+  wraps: it is fitted to the width by measuring it, no larger than its
+  stylesheet size (`clamp(1.75rem, min(5vw, 7dvh), 3.5rem)`), down to a
+  floor of 1.5rem. Only a title that would need less than the floor wraps,
+  in two balanced lines, smaller than the floor if two lines need it. The
+  tagline under it wraps rather than be clipped, with its tracking eased
+  on a phone.
 - **The selection's look.** The title, the _Continue_ offer, the palette
   (the selected subject's first section's, as the reader colours scenes) and
   a ring of its own illustrations around the loom all follow the
@@ -2009,8 +2044,8 @@ past two subjects:
 - **The subtitle** (sprint 026, korg 3465). A subject's `subtitle` stands
   under its title on the start screen in place of kloom's tagline ("A
   timeline you can read, question and grow"), which a subject without one
-  keeps. It is also said under the title in the subject list and in About's
-  table of subjects. Labels that name a subject in passing (the back chip,
+  keeps. It is also said in About's table of subjects, but not in the
+  subject list (sprint 047). Labels that name a subject in passing (the back chip,
   a name card, the map) keep the title alone.
 
 - **The corner** (sprint 022, korg 3456). The start screen's upper right

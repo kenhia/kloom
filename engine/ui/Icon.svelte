@@ -11,11 +11,13 @@
 		| 'home'
 		| 'settings'
 		| 'about'
-		| 'whats-new';
+		| 'whats-new'
+		| 'last-read';
 </script>
 
 <script lang="ts">
 	import homeIcon from './icons/home.svg?raw';
+	import bookIcon from './icons/open-book.svg?raw';
 
 	interface Props {
 		name: IconName;
@@ -34,6 +36,10 @@
 	<!-- kloom's own icon, from the repository (engine/ui/icons). -->
 	<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 	{@html homeIcon}
+{:else if name === 'last-read'}
+	<!-- An open book, from the repository (engine/ui/icons): the subject last read. -->
+	<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+	{@html bookIcon}
 {:else if name === 'bookmark'}
 	<svg viewBox="0 0 24 24" aria-hidden="true" fill={filled ? 'currentColor' : 'none'}>
 		<path d="M6.5 3.5h11v17l-5.5-4.25-5.5 4.25z" stroke="currentColor" stroke-width="1.5" />
