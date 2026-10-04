@@ -1,0 +1,48 @@
+{
+	"western-civ/locke": [
+		["John Locke", "john-locke"],
+		["_Two Treatises of Government_", "two-treatises-of-government"],
+		["Exclusion Crisis", "exclusion-crisis"],
+		[
+			"Anthony Ashley Cooper, 1st Earl of Shaftesbury",
+			"anthony-ashley-cooper-1st-earl-of-shaftesbury"
+		],
+		["Robert Boyle", "robert-boyle"],
+		["Royal Society", "royal-society"],
+		["Isaac Newton", "isaac-newton"],
+		["_Essay Concerning Human Understanding_", "an-essay-concerning-human-understanding"],
+		["Robert Filmer", "robert-filmer"],
+		["_Letter Concerning Toleration_", "a-letter-concerning-toleration"],
+		["Fundamental Constitutions of Carolina", "fundamental-constitutions-of-carolina"],
+		["Royal African Company", "royal-african-company"]
+	],
+	"western-civ/encyclopedie": [
+		["André le Breton", "andre-le-breton"],
+		["Ephraim Chambers", "ephraim-chambers"],
+		["_Cyclopaedia_", "cyclopaedia-or-an-universal-dictionary-of-arts-and-sciences"],
+		["Denis Diderot", "denis-diderot"],
+		["Jean le Rond d'Alembert", "jean-le-rond-dalembert"],
+		["_Encyclopédie_", "encyclopedie"],
+		["Paris", "paris"],
+		["Francis Bacon", "francis-bacon"],
+		["Louis-Jacques Goussier", "louis-jacques-goussier"],
+		[
+			"Guillaume-Chrétien de Lamoignon de Malesherbes",
+			"guillaume-chretien-de-lamoignon-de-malesherbes"
+		],
+		["Louis de Jaucourt", "louis-de-jaucourt"],
+		["Voltaire", "voltaire"]
+	],
+	"western-civ/wealth-of-nations": [
+		["Adam Smith", "adam-smith"],
+		["Kirkcaldy", "kirkcaldy"],
+		["University of Glasgow", "university-of-glasgow"],
+		["_The Theory of Moral Sentiments_", "the-theory-of-moral-sentiments"],
+		["_The Wealth of Nations_", "the-wealth-of-nations"],
+		["division of labor", "division-of-labour"],
+		["_Encyclopédie_", "encyclopedie"],
+		["invisible hand", "invisible-hand"],
+		["mercantilism", "mercantilism"],
+		["East India Company", "east-india-company"]
+	]
+}

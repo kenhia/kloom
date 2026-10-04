@@ -1,0 +1,208 @@
+{
+	"id": "encyclopedie",
+	"topic": "Diderot's Encyclopédie",
+	"position": {
+		"label": "AD 1751–1772",
+		"sort": 1751
+	},
+	"scene": {
+		"headline": "We gathered all we",
+		"accent": "KNEW.",
+		"palette": "candle",
+		"illustration": "scene.svg",
+		"metadata": ["PARIS · DIDEROT · D’ALEMBERT · LE BRETON", "17 VOLUMES OF TEXT · 11 OF PLATES"],
+		"counter": {
+			"value": "72,000",
+			"label": "articles, about"
+		}
+	},
+	"connections": [
+		{
+			"to": "making/forge-welding",
+			"why": "Louis-Jacques Goussier, who drew the Encyclopédie's plate of compositors at the case, also drew its anchor forge, where a ship's anchor is welded from a bundle of bars."
+		},
+		{
+			"to": "western-civ/printing-press",
+			"why": "The Encyclopédie's plates of 1769 show compositors setting movable type by hand at the case, the craft Gutenberg's press began three centuries before."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Explication détaillée du système des connoissances humaines",
+			"authors": [
+				{
+					"family": "Diderot",
+					"given": "Denis"
+				}
+			],
+			"container": "Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers",
+			"volume": "1",
+			"pages": "xlvii–liii",
+			"place": "Paris",
+			"published": "1751",
+			"language": "fr",
+			"url": "https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/Explication_d%C3%A9taill%C3%A9e_du_syst%C3%A8me_des_connaissances_humaines",
+			"accessed": "2026-10-03",
+			"note": "Read in French Wikisource's transcription; the figurative system, translated in the reading"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Encyclopédie",
+			"authors": [
+				{
+					"family": "Diderot",
+					"given": "Denis"
+				}
+			],
+			"container": "Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers",
+			"volume": "5",
+			"pages": "635–648A",
+			"place": "Paris",
+			"published": "1755",
+			"language": "fr",
+			"url": "https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/ENCYCLOP%C3%89DIE",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Autorité politique",
+			"authors": [
+				{
+					"family": "Diderot",
+					"given": "Denis"
+				}
+			],
+			"container": "Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers",
+			"volume": "1",
+			"pages": "898–901",
+			"place": "Paris",
+			"published": "1751",
+			"language": "fr",
+			"url": "https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/AUTORIT%C3%89",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Slave trade",
+			"authors": [
+				{
+					"family": "Jaucourt",
+					"given": "Louis de"
+				}
+			],
+			"translators": [
+				{
+					"family": "Noble",
+					"given": "Stephanie"
+				}
+			],
+			"container": "The Encyclopedia of Diderot & d'Alembert Collaborative Translation Project",
+			"publisher": "Michigan Publishing, University of Michigan Library",
+			"place": "Ann Arbor",
+			"published": "2007",
+			"url": "http://hdl.handle.net/2027/spo.did2222.0000.114",
+			"accessed": "2026-10-03",
+			"note": "A translation of “Traite des nègres”, Encyclopédie vol. 16 (1765), pp. 532–533; read in the Wayback Machine's copy"
+		},
+		{
+			"kind": "book",
+			"title": "The Business of Enlightenment: A Publishing History of the Encyclopédie, 1775–1800",
+			"authors": [
+				{
+					"family": "Darnton",
+					"given": "Robert"
+				}
+			],
+			"publisher": "Belknap Press of Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1979",
+			"url": "https://archive.org/details/businessofenligh0000darn",
+			"accessed": "2026-10-03",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets: the estimate of about 25,000 sets before 1789, and the folio's 980 livres"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Encyclopédie",
+			"url": "https://en.wikipedia.org/w/index.php?title=Encyclop%C3%A9die&oldid=1377055652",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Denis Diderot",
+			"url": "https://en.wikipedia.org/w/index.php?title=Denis_Diderot&oldid=1377337603",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean Le Rond d'Alembert",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean_Le_Rond_d'Alembert&oldid=1377846210",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Guillaume-Chrétien de Lamoignon de Malesherbes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Guillaume-Chr%C3%A9tien_de_Lamoignon_de_Malesherbes&oldid=1367657731",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "media",
+			"title": "Imprimerie en lettres, l'opération de la casse (Encyclopédie, plates, vol. 7, plate I)",
+			"url": "https://commons.wikimedia.org/wiki/File:Planche_de_l%E2%80%99Encyclop%C3%A9die_de_Diderot_et_d%E2%80%99Alembert._Pl._1._Imprimerie_en_Lettres,_L%E2%80%99Op%C3%A9ration_de_la_casse,_G.33153.jpg",
+			"accessed": "2026-10-03",
+			"licence": "CC0",
+			"file": "imprimerie.jpg",
+			"authors": [
+				{
+					"family": "Goussier",
+					"given": "Louis-Jacques"
+				}
+			],
+			"engravers": [
+				{
+					"family": "Bénard",
+					"given": "Robert"
+				}
+			],
+			"container": "Musée Carnavalet, Paris Musées",
+			"number": "G.33153",
+			"published": "1769"
+		}
+	]
+}
