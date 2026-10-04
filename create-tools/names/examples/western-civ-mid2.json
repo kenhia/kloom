@@ -1,0 +1,53 @@
+{
+	"western-civ/gothic-cathedral": [
+		["Louis VII", "louis-vii-of-france"],
+		["Saint-Denis", "basilica-of-saint-denis"],
+		["Paris", "paris"],
+		["Suger", "suger"],
+		["Gothic architecture", "gothic-architecture"],
+		["flying buttress", "flying-buttress"],
+		["Amiens Cathedral", "amiens-cathedral"],
+		["Robert of Luzarches", "robert-of-luzarches"],
+		["York Minster", "york-minster"],
+		["Chartres Cathedral", "chartres-cathedral"],
+		["Pope Gregory I", "pope-gregory-i"],
+		["Villard de Honnecourt", "villard-de-honnecourt"],
+		["Beauvais Cathedral", "beauvais-cathedral"],
+		["Notre-Dame de Paris", "notre-dame-de-paris"]
+	],
+	"western-civ/aquinas": [
+		["Thomas Aquinas", "thomas-aquinas"],
+		["University of Paris", "university-of-paris"],
+		["_Summa theologiae_", "summa-theologica"],
+		["Aristotle", "aristotle"],
+		["Bologna", "university-of-bologna"],
+		["Digest", "digest-roman-law"],
+		["Frederick Barbarossa", "frederick-barbarossa"],
+		["Authentica habita", "authentica-habita"],
+		["scholasticism", "scholasticism"],
+		["James of Venice", "james-of-venice"],
+		["Toledo", "toledo-spain"],
+		["Gerard of Cremona", "gerard-of-cremona"],
+		["Baghdad", "baghdad"],
+		["Michael Scot", "michael-scot"],
+		["Averroes", "averroes"],
+		["William of Moerbeke", "william-of-moerbeke"]
+	],
+	"western-civ/black-death": [
+		["Messina", "messina"],
+		["Black Death", "black-death"],
+		["Gabriel de Mussis", "gabriel-de-mussis"],
+		["Golden Horde", "golden-horde"],
+		["Caffa", "feodosia"],
+		["_Yersinia pestis_", "yersinia-pestis"],
+		["Giovanni Boccaccio", "giovanni-boccaccio"],
+		["_The Decameron_", "the-decameron"],
+		["Agnolo di Tura", "agnolo-di-tura"],
+		["Edward III", "edward-iii"],
+		["Statute of Labourers", "statute-of-labourers-1351"],
+		["Peasants' Revolt", "peasants-revolt"],
+		["Pope Clement VI", "pope-clement-vi"],
+		["Ragusa", "republic-of-ragusa"],
+		["quarantine", "quarantine"]
+	]
+}

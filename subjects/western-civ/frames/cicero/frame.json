@@ -1,0 +1,416 @@
+{
+	"id": "cicero",
+	"topic": "Cicero and the end of the Republic",
+	"position": {
+		"label": "63 BC",
+		"sort": -63
+	},
+	"scene": {
+		"headline": "Words could not save the",
+		"accent": "REPUBLIC.",
+		"palette": "marble",
+		"illustration": "scene.svg",
+		"metadata": ["ROME · CICERO · CATILINE · CAESAR · ANTONY", "63 BC · 49 BC · 44 BC · 43 BC"],
+		"counter": {
+			"value": "97 of 193",
+			"label": "centuries needed to elect a consul"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "Against Catiline",
+			"authors": [
+				{
+					"name": "Cicero"
+				}
+			],
+			"translators": [
+				{
+					"family": "Yonge",
+					"given": "C. D."
+				}
+			],
+			"published": "1856",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0019:text=Catil.:speech=1:section=1",
+			"accessed": "2026-10-03",
+			"note": "The first speech, read in the Perseus Digital Library",
+			"key": true,
+			"publisher": "Henry G. Bohn",
+			"place": "London"
+		},
+		{
+			"kind": "book",
+			"title": "The War with Catiline",
+			"authors": [
+				{
+					"name": "Sallust"
+				}
+			],
+			"translators": [
+				{
+					"family": "Rolfe",
+					"given": "J. C."
+				}
+			],
+			"published": "1921",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Sallust/Bellum_Catilinae*.html",
+			"accessed": "2026-10-03",
+			"note": "Chapters 50–55, the debate of 5 December 63 BC",
+			"key": true,
+			"edition": "Loeb Classical Library ed.",
+			"container": "LacusCurtius"
+		},
+		{
+			"kind": "book",
+			"title": "Life of Cicero",
+			"authors": [
+				{
+					"name": "Plutarch"
+				}
+			],
+			"translators": [
+				{
+					"family": "Perrin",
+					"given": "Bernadotte"
+				}
+			],
+			"published": "1919",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Cicero*.html",
+			"accessed": "2026-10-03",
+			"note": "Chapters 48–49",
+			"edition": "Loeb Classical Library ed.",
+			"container": "LacusCurtius"
+		},
+		{
+			"kind": "book",
+			"title": "The History of Rome, Book 1",
+			"authors": [
+				{
+					"name": "Livy"
+				}
+			],
+			"translators": [
+				{
+					"family": "Roberts",
+					"given": "Canon"
+				}
+			],
+			"published": "1912",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=1:chapter=43",
+			"accessed": "2026-10-03",
+			"note": "Chapter 43, the classes and centuries",
+			"publisher": "E. P. Dutton",
+			"place": "New York"
+		},
+		{
+			"kind": "letter",
+			"title": "To Marcus Tullius Cicero",
+			"authors": [
+				{
+					"name": "Petrarch"
+				}
+			],
+			"recipients": [
+				{
+					"name": "Cicero"
+				}
+			],
+			"written": "1345-06-16",
+			"translators": [
+				{
+					"family": "Cosenza",
+					"given": "Mario Emilio"
+				}
+			],
+			"container": "Petrarch's Letters to Classical Authors",
+			"published": "1910",
+			"publisher": "University of Chicago Press",
+			"place": "Chicago",
+			"url": "https://archive.org/details/petrarchsletters00petruoft",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "letter",
+			"title": "Thomas Jefferson to Henry Lee",
+			"authors": [
+				{
+					"family": "Jefferson",
+					"given": "Thomas"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Lee",
+					"given": "Henry"
+				}
+			],
+			"written": "1825-05-08",
+			"container": "Founders Online",
+			"publisher": "National Archives",
+			"url": "https://founders.archives.gov/documents/Jefferson/98-01-02-5212",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cicero",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cicero&oldid=1377780830",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Catilinarian conspiracy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Catilinarian_conspiracy&oldid=1365041458",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Catilinarian orations",
+			"url": "https://en.wikipedia.org/w/index.php?title=Catilinarian_orations&oldid=1371847869",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cursus honorum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cursus_honorum&oldid=1373731828",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Centuriate assembly",
+			"url": "https://en.wikipedia.org/w/index.php?title=Centuriate_assembly&oldid=1376178966",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tribal assembly",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tribal_assembly&oldid=1324931840",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Roman Senate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Roman_Senate&oldid=1378222530",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Constitutional reforms of Sulla",
+			"url": "https://en.wikipedia.org/w/index.php?title=Constitutional_reforms_of_Sulla&oldid=1374460451",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Writings of Cicero",
+			"url": "https://en.wikipedia.org/w/index.php?title=Writings_of_Cicero&oldid=1371892783",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Epistulae ad Atticum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Epistulae_ad_Atticum&oldid=1322346857",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Crossing the Rubicon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Crossing_the_Rubicon&oldid=1370206882",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Assassination of Julius Caesar",
+			"url": "https://en.wikipedia.org/w/index.php?title=Assassination_of_Julius_Caesar&oldid=1378293084",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Second Triumvirate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Second_Triumvirate&oldid=1373042629",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Philippic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Philippic&oldid=1357013929",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "De Officiis",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_Officiis&oldid=1368406328",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peter Schöffer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peter_Sch%C3%B6ffer&oldid=1373211217",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "media",
+			"title": "Cicerone denuncia Catilina",
+			"authors": [
+				{
+					"family": "Maccari",
+					"given": "Cesare"
+				}
+			],
+			"published": "1888",
+			"circa": true,
+			"container": "Palazzo Madama, Rome",
+			"url": "https://commons.wikimedia.org/wiki/File:Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari_-_4.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "maccari.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/archimedes-circle",
+			"why": "As quaestor in Sicily in 75 BC, Cicero found Archimedes' neglected tomb outside Syracuse, marked by the sphere and cylinder."
+		},
+		{
+			"to": "western-civ/printing-press",
+			"why": "Johann Fust, who financed Gutenberg's press, printed Cicero's De officiis at Mainz in 1465 with Peter Schoeffer, one of the first classical books in print."
+		},
+		{
+			"to": "western-civ/augustus",
+			"why": "Cicero was killed in the proscriptions of 43 BC that Octavian, the future Augustus, agreed to."
+		},
+		{
+			"to": "western-civ/humanism",
+			"why": "Petrarch found Cicero's letters to Atticus at Verona in 1345."
+		}
+	]
+}

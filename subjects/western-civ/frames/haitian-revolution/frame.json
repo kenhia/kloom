@@ -1,0 +1,231 @@
+{
+	"id": "haitian-revolution",
+	"topic": "The Haitian Revolution",
+	"position": {
+		"label": "AD 1791–1804",
+		"sort": 1791
+	},
+	"scene": {
+		"headline": "The enslaved freed",
+		"accent": "THEMSELVES.",
+		"palette": "candle",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SAINT-DOMINGUE · LE CAP · GONAÏVES",
+			"TOUSSAINT LOUVERTURE · JEAN-JACQUES DESSALINES"
+		],
+		"counter": {
+			"value": "150,000,000",
+			"label": "francs France demanded for recognition, 1825"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Haitian Revolution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Haitian_Revolution&oldid=1378019905",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02",
+			"key": true
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Décret d'abolition de l'esclavage, proposé par Delacroix (de l'Eure), lors de la séance du 16 pluviôse an II (4 février 1794)",
+			"container": "Archives parlementaires de 1787 à 1860, première série (1787–1799)",
+			"volume": "84",
+			"publisher": "Librairie administrative P. Dupont",
+			"place": "Paris",
+			"published": "1962",
+			"pages": "284",
+			"url": "https://www.persee.fr/doc/arcpa_0000-0000_1962_num_84_1_34717_t1_0284_0000_5",
+			"accessed": "2026-10-03",
+			"language": "fr",
+			"note": "The Convention's decree of 4 February 1794, translated in the reading"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "1802, le rétablissement de l'esclavage",
+			"authors": [
+				{
+					"name": "Fondation pour la mémoire de l'esclavage"
+				}
+			],
+			"publisher": "Fondation pour la mémoire de l'esclavage",
+			"place": "Paris",
+			"published": "2023",
+			"url": "https://memoire-esclavage.org/sites/default/files/2023-04/DP%20-%201802%E2%80%AFle%20r%C3%A9tablissement%20de%20l%E2%80%99esclavage%20.pdf",
+			"accessed": "2026-10-03",
+			"language": "fr",
+			"note": "A teaching dossier: Bonaparte's words of 1800–1802, the law of 20 May 1802 and the restoration in Guadeloupe"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Root of Haiti's Misery: Reparations to Enslavers",
+			"authors": [
+				{
+					"family": "Porter",
+					"given": "Catherine"
+				},
+				{
+					"family": "Méheut",
+					"given": "Constant"
+				},
+				{
+					"family": "Apuzzo",
+					"given": "Matt"
+				},
+				{
+					"family": "Gebrekidan",
+					"given": "Selam"
+				}
+			],
+			"container": "The New York Times",
+			"published": "2022-05-20",
+			"url": "https://www.nytimes.com/2022/05/20/world/americas/haiti-history-colonized-france.html",
+			"accessed": "2026-10-03",
+			"note": "Part of \"The Ransom\"; read in the Internet Archive's copy"
+		},
+		{
+			"kind": "web",
+			"title": "The Declaration's Text (in Translation)",
+			"container": "Rediscovering Haiti's Declaration of Independence",
+			"publisher": "Duke University",
+			"url": "https://today.duke.edu/showcase/haitideclaration/declarationstext.html",
+			"accessed": "2026-10-03",
+			"note": "Laurent Dubois and John Garrigus's translation, from Slave Revolution in the Caribbean, 1789–1804"
+		},
+		{
+			"kind": "web",
+			"title": "Rediscovering Haiti's Declaration of Independence",
+			"publisher": "Duke University",
+			"url": "https://today.duke.edu/showcase/haitideclaration/",
+			"accessed": "2026-10-03",
+			"published": "2011-04-04"
+		},
+		{
+			"kind": "web",
+			"title": "Declaration of the Rights of Man, 1789",
+			"container": "The Avalon Project",
+			"publisher": "Yale Law School, Lillian Goldman Law Library",
+			"url": "https://avalon.law.yale.edu/18th_century/rightsof.asp",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bois Caïman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bois_Ca%C3%AFman&oldid=1378314697",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Toussaint Louverture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Toussaint_Louverture&oldid=1372334473",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean-Jacques Dessalines",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean-Jacques_Dessalines&oldid=1377689988",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Saint-Domingue expedition",
+			"url": "https://en.wikipedia.org/w/index.php?title=Saint-Domingue_expedition&oldid=1373644192",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1804 Haitian massacre",
+			"url": "https://en.wikipedia.org/w/index.php?title=1804_Haitian_massacre&oldid=1378023126",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Haitian independence debt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Haitian_independence_debt&oldid=1369393703",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-14"
+		},
+		{
+			"kind": "media",
+			"title": "Liberté ou la mort. Armée indigène",
+			"url": "https://commons.wikimedia.org/wiki/File:Deklarasyon_Endepandans_Ayiti.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "haiti-declaration.jpg",
+			"container": "The National Archives (UK)",
+			"number": "MFQ 1/184",
+			"publisher": "Imprimerie du Gouvernement",
+			"place": "Port-au-Prince",
+			"published": "1804"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/abolition",
+			"why": "The enslaved of Saint-Domingue freed themselves by arms in the 1790s, a generation before Britain's Slavery Abolition Act of 1833."
+		},
+		{
+			"to": "western-civ/french-revolution",
+			"why": "The Convention in Paris abolished slavery in every French colony by the law of 4 February 1794, and Bonaparte sent an army to undo it in 1802."
+		}
+	]
+}

@@ -1,0 +1,328 @@
+{
+	"id": "womens-suffrage",
+	"topic": "Women's suffrage",
+	"position": {
+		"label": "AD 1848–1928",
+		"sort": 1848
+	},
+	"scene": {
+		"headline": "Women won the",
+		"accent": "BALLOT.",
+		"palette": "broadsheet",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SENECA FALLS · WELLINGTON · LONDON · WASHINGTON",
+			"DECLARATION OF SENTIMENTS · JULY 1848"
+		],
+		"counter": {
+			"value": "72",
+			"label": "years from Seneca Falls to the Nineteenth Amendment"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Woman's Rights Convention, Held at Seneca Falls, N.Y., July 19th and 20th, 1848",
+			"place": "Rochester",
+			"publisher": "John Dick at the North Star Office",
+			"published": "1848",
+			"container": "Women's Rights National Historical Park",
+			"url": "https://www.nps.gov/wori/learn/historyculture/report-of-the-womans-rights-convention.htm",
+			"accessed": "2026-10-03",
+			"note": "Read in the National Park Service's transcription; the Declaration of Sentiments, the resolutions and the signers"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "World suffrage timeline",
+			"container": "New Zealand women and the vote",
+			"publisher": "Ministry for Culture and Heritage (NZHistory)",
+			"url": "https://nzhistory.govt.nz/politics/womens-suffrage/world-suffrage-timeline",
+			"accessed": "2026-10-03",
+			"note": "Read through the Internet Archive; the site refuses a script"
+		},
+		{
+			"kind": "web",
+			"title": "The Constitution: Amendments 11–27",
+			"container": "America's Founding Documents",
+			"publisher": "National Archives and Records Administration",
+			"url": "https://www.archives.gov/founding-docs/amendments-11-27",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "Universal Declaration of Human Rights",
+			"publisher": "United Nations",
+			"url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+			"accessed": "2026-10-03",
+			"note": "Article 21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Seneca Falls Convention",
+			"url": "https://en.wikipedia.org/w/index.php?title=Seneca_Falls_Convention&oldid=1370695282",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Declaration of Sentiments",
+			"url": "https://en.wikipedia.org/w/index.php?title=Declaration_of_Sentiments&oldid=1377525007",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frederick Douglass",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frederick_Douglass&oldid=1378309733",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Women's suffrage",
+			"url": "https://en.wikipedia.org/w/index.php?title=Women's_suffrage&oldid=1377297290",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Women's suffrage in New Zealand",
+			"url": "https://en.wikipedia.org/w/index.php?title=Women's_suffrage_in_New_Zealand&oldid=1374094914",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Women's suffrage by country",
+			"url": "https://en.wikipedia.org/w/index.php?title=Women's_suffrage_by_country&oldid=1375573356",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Women's suffrage in Switzerland",
+			"url": "https://en.wikipedia.org/w/index.php?title=Women's_suffrage_in_Switzerland&oldid=1366104724",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Representation of the People Act 1918",
+			"url": "https://en.wikipedia.org/w/index.php?title=Representation_of_the_People_Act_1918&oldid=1376843246",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Representation of the People (Equal Franchise) Act 1928",
+			"url": "https://en.wikipedia.org/w/index.php?title=Representation_of_the_People_(Equal_Franchise)_Act_1928&oldid=1370188774",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Women's suffrage in the United Kingdom",
+			"url": "https://en.wikipedia.org/w/index.php?title=Women's_suffrage_in_the_United_Kingdom&oldid=1375858795",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Women's Social and Political Union",
+			"url": "https://en.wikipedia.org/w/index.php?title=Women's_Social_and_Political_Union&oldid=1374426764",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Emmeline Pankhurst",
+			"url": "https://en.wikipedia.org/w/index.php?title=Emmeline_Pankhurst&oldid=1376295202",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Prisoners (Temporary Discharge for Ill-Health) Act 1913",
+			"url": "https://en.wikipedia.org/w/index.php?title=Prisoners_(Temporary_Discharge_for_Ill-Health)_Act_1913&oldid=1367248048",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Emily Davison",
+			"url": "https://en.wikipedia.org/w/index.php?title=Emily_Davison&oldid=1376668962",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Woman Suffrage Procession",
+			"url": "https://en.wikipedia.org/w/index.php?title=Woman_Suffrage_Procession&oldid=1377928041",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nineteenth Amendment to the United States Constitution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nineteenth_Amendment_to_the_United_States_Constitution&oldid=1377520120",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "The Cat and Mouse Act, passed by the Liberal Government",
+			"url": "https://commons.wikimedia.org/wiki/File:Cat_and_Mouse_Act_Poster_-_1914.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "cat-and-mouse.jpg",
+			"authors": [
+				{
+					"name": "Women's Social and Political Union"
+				}
+			],
+			"container": "Museum of London",
+			"published": "1914"
+		},
+		{
+			"kind": "media",
+			"title": "Years from Seneca Falls to women's suffrage",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Dates from NZHistory's world suffrage timeline (Ministry for Culture and Heritage)",
+			"url": "https://nzhistory.govt.nz/politics/womens-suffrage/world-suffrage-timeline",
+			"accessed": "2026-10-03",
+			"licence": "MIT",
+			"file": "years-to-vote.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/mary-mahoney",
+			"why": "Mary Mahoney, the first African American woman to finish nurse training in the United States, was among the first women in Boston to register to vote in 1920, the year the Nineteenth Amendment was ratified."
+		},
+		{
+			"to": "western-civ/udhr",
+			"why": "Article 21 of the Universal Declaration made \"universal and equal suffrage\" a human right."
+		}
+	]
+}

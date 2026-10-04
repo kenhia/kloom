@@ -1,0 +1,282 @@
+{
+	"id": "augustus",
+	"topic": "Augustus and the Roman Empire",
+	"position": {
+		"label": "27 BC",
+		"sort": -27
+	},
+	"scene": {
+		"headline": "We crowned no",
+		"accent": "KING.",
+		"palette": "marble",
+		"illustration": "scene.svg",
+		"metadata": ["ROME · ACTIUM · ANKARA · AUGUSTUS", "RES GESTAE DIVI AUGUSTI · 27 BC – AD 14"],
+		"counter": {
+			"value": "4,937,000",
+			"label": "Roman citizens at his last census, AD 14"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/pantheon",
+			"why": "Marcus Agrippa, who won Actium for Augustus, built the first Pantheon in his reign, and Hadrian's rebuilding kept Agrippa's name across the front."
+		},
+		{
+			"to": "western-civ/alexander",
+			"why": "Cleopatra was the last of Alexander's Ptolemies, and Actium ended the Hellenistic kingdoms."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Res Gestae Divi Augusti",
+			"authors": [
+				{
+					"name": "Augustus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Shipley",
+					"given": "Frederick W."
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1924",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/home.html",
+			"accessed": "2026-10-03",
+			"note": "Read in LacusCurtius's copy; chapters 1–8, 13, 17, 25–26 and 34–35 are quoted or summarized from it"
+		},
+		{
+			"kind": "book",
+			"title": "The Annals",
+			"authors": [
+				{
+					"name": "Tacitus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Church",
+					"given": "Alfred John"
+				},
+				{
+					"family": "Brodribb",
+					"given": "William Jackson"
+				}
+			],
+			"container": "Complete Works of Tacitus",
+			"publisher": "Random House",
+			"place": "New York",
+			"published": "1942",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0078%3Abook%3D1%3Achapter%3D2",
+			"accessed": "2026-10-03",
+			"note": "Read in the Perseus Digital Library: book 1, chapters 2, 3 and 11, and book 4, chapter 5"
+		},
+		{
+			"kind": "book",
+			"title": "The Life of Cnaeus Julius Agricola",
+			"authors": [
+				{
+					"name": "Tacitus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Church",
+					"given": "Alfred John"
+				},
+				{
+					"family": "Brodribb",
+					"given": "William Jackson"
+				}
+			],
+			"container": "Complete Works of Tacitus",
+			"publisher": "Random House",
+			"place": "New York",
+			"published": "1942",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0081%3Achapter%3D30",
+			"accessed": "2026-10-03",
+			"note": "Calgacus's speech is chapter 30"
+		},
+		{
+			"kind": "book",
+			"title": "The Life of Augustus",
+			"authors": [
+				{
+					"name": "Suetonius"
+				}
+			],
+			"translators": [
+				{
+					"family": "Rolfe",
+					"given": "J. C."
+				}
+			],
+			"container": "The Lives of the Caesars",
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1913",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Augustus*.html",
+			"accessed": "2026-10-03",
+			"note": "Read in LacusCurtius's copy: chapters 31 (the month Sextilis) and 49 (the army and the couriers)"
+		},
+		{
+			"kind": "book",
+			"title": "The Holy Bible, King James Version",
+			"url": "https://www.gutenberg.org/ebooks/10",
+			"accessed": "2026-10-03",
+			"published": "1611",
+			"note": "Luke 2:1–2, read in Project Gutenberg's copy"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Augustus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Augustus&oldid=1376715022",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Res Gestae Divi Augusti",
+			"url": "https://en.wikipedia.org/w/index.php?title=Res_Gestae_Divi_Augusti&oldid=1368089001",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Temple of Augustus and Rome",
+			"url": "https://en.wikipedia.org/w/index.php?title=Temple_of_Augustus_and_Rome&oldid=1368089033",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Demography of the Roman Empire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Demography_of_the_Roman_Empire&oldid=1376518506",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Census of Quirinius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Census_of_Quirinius&oldid=1377494347",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Battle of Actium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Battle_of_Actium&oldid=1378178531",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pax Romana",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pax_Romana&oldid=1376724035",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cicero",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cicero&oldid=1377780830",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "The Temple of Augustus and Rome with the Res Gestae Divi Augusti inscribed on the walls of the cella, Ancyra, Ankara",
+			"url": "https://commons.wikimedia.org/wiki/File:The_Temple_of_Augustus_and_Rome_with_the_Res_Gestae_Divi_Augusti_(%22Deeds_of_the_Divine_Augustus%22)_inscribed_on_the_walls_of_the_cella,_Ancyra,_Ankara_(Turkey)_(26068597826).jpg",
+			"accessed": "2026-10-03",
+			"licence": "CC BY-SA 2.0",
+			"file": "res-gestae-wall.jpg",
+			"authors": [
+				{
+					"family": "Raddato",
+					"given": "Carole"
+				}
+			],
+			"container": "Temple of Augustus and Rome, Ankara",
+			"published": "2016"
+		},
+		{
+			"kind": "media",
+			"title": "Roman citizens counted at the census, 70/69 BC to AD 14",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Res Gestae Divi Augusti 8; Demography of the Roman Empire, Wikipedia",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/2*.html",
+			"accessed": "2026-10-03",
+			"licence": "MIT",
+			"file": "census.svg"
+		}
+	]
+}

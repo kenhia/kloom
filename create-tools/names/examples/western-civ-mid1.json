@@ -1,0 +1,35 @@
+{
+	"western-civ/house-of-wisdom": [
+		["al-Mansur", "al-mansur"],
+		["Abbasid Caliphate", "abbasid-caliphate"],
+		["Islam", "islam"],
+		["Muhammad", "muhammad"],
+		["Baghdad", "baghdad"],
+		["Hunayn ibn Ishaq", "hunayn-ibn-ishaq"],
+		["Galen", "galen"],
+		["Banu Musa brothers", "banu-musa-brothers"],
+		["al-Ma'mun", "al-mamun"],
+		["House of Wisdom", "house-of-wisdom"],
+		["Al-Kindi", "al-kindi"],
+		["Al-Khwarizmi", "al-khwarizmi"],
+		["Ibn al-Haytham", "ibn-al-haytham"],
+		["Avicenna", "avicenna"],
+		["al-Andalus", "al-andalus"]
+	],
+	"western-civ/crusades": [
+		["Pope Urban II", "pope-urban-ii"],
+		["Crusades", "crusades"],
+		["Fulcher of Chartres", "fulcher-of-chartres"],
+		["Jerusalem", "jerusalem"],
+		["Council of Clermont", "council-of-clermont"],
+		["indulgence", "indulgence"],
+		["Fourth Crusade", "fourth-crusade"],
+		["Rhineland massacres", "rhineland-massacres"],
+		["First Crusade", "first-crusade"],
+		["crusader states", "crusader-states"],
+		["Knights Hospitaller", "knights-hospitaller"],
+		["Knights Templar", "knights-templar"],
+		["Saladin", "saladin"],
+		["Constantinople", "constantinople"]
+	]
+}

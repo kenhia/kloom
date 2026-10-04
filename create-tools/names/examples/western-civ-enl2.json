@@ -1,0 +1,58 @@
+{
+	"western-civ/french-revolution": [
+		["Estates-General", "estates-general-of-1789"],
+		["Louis XVI", "louis-xvi"],
+		["storming of the Bastille", "storming-of-the-bastille"],
+		["French Revolution", "french-revolution"],
+		[
+			"Declaration of the Rights of Man and of the Citizen",
+			"declaration-of-the-rights-of-man-and-of-the-citizen"
+		],
+		["Olympe de Gouges", "olympe-de-gouges"],
+		["Reign of Terror", "reign-of-terror"],
+		["Law of Suspects", "law-of-suspects"],
+		["Maximilien Robespierre", "maximilien-robespierre"],
+		["Antoine Lavoisier", "antoine-lavoisier"],
+		["French Republican calendar", "french-republican-calendar"],
+		["Napoleon", "napoleon"],
+		["Edmund Burke", "edmund-burke"],
+		["Thomas Paine", "thomas-paine"],
+		["Alexis de Tocqueville", "alexis-de-tocqueville"]
+	],
+	"western-civ/american-revolution": [
+		["British Empire", "british-empire"],
+		["Stamp Act", "stamp-act-1765"],
+		["American Revolution", "american-revolution"],
+		["Thomas Jefferson", "thomas-jefferson"],
+		["United States Declaration of Independence", "united-states-declaration-of-independence"],
+		["Abigail Adams", "abigail-adams"],
+		["Constitutional Convention", "constitutional-convention-united-states"],
+		["James Madison", "james-madison"],
+		["Connecticut Compromise", "connecticut-compromise"],
+		["Three-fifths Compromise", "three-fifths-compromise"],
+		["Montesquieu", "montesquieu"],
+		["_The Federalist_", "the-federalist-papers"],
+		["Constitution of the United States", "constitution-of-the-united-states"],
+		["George Washington", "george-washington"]
+	],
+	"western-civ/abolition": [
+		["Atlantic slave trade", "atlantic-slave-trade"],
+		["Middle Passage", "middle-passage"],
+		["Olaudah Equiano", "olaudah-equiano"],
+		[
+			"Society for Effecting the Abolition of the Slave Trade",
+			"society-for-effecting-the-abolition-of-the-slave-trade"
+		],
+		["Thomas Clarkson", "thomas-clarkson"],
+		["Josiah Wedgwood", "josiah-wedgwood"],
+		["_Brookes_", "brooks-1781-ship"],
+		["William Wilberforce", "william-wilberforce"],
+		["Slave Trade Act 1807", "slave-trade-act-1807"],
+		["Samuel Sharpe", "samuel-sharpe"],
+		["Slavery Abolition Act 1833", "slavery-abolition-act-1833"],
+		["British Empire", "british-empire"],
+		["Thirteenth Amendment", "thirteenth-amendment-to-the-united-states-constitution"],
+		["Lei Áurea", "lei-aurea"],
+		["Eric Williams", "eric-williams"]
+	]
+}

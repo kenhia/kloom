@@ -1,0 +1,30 @@
+{
+	"title": "The day of 1848 on which revolution broke out in six European cities",
+	"description": "Bar chart of the day of the year 1848 on which each city rose: Palermo on 12 January (day 12), Paris on 22–24 February (day 55), Vienna on 13 March (day 73), Pest on 15 March (day 75), and Berlin and Milan on 18 March (day 78). Data: Wikipedia, Revolutions of 1848 and the articles on each rising.",
+	"heading": "1848 · THE DAY OF THE YEAR EACH CITY ROSE",
+	"unit": "",
+	"axis": {
+		"max": 90,
+		"ticks": [
+			[0, "0"],
+			[30, "30"],
+			[60, "60"],
+			[90, "90"]
+		]
+	},
+	"bars": [
+		{ "label": "Palermo", "sublabel": "12 Jan", "value": 12 },
+		{ "label": "Paris", "sublabel": "24 Feb", "value": 55, "highlight": true },
+		{ "label": "Vienna", "sublabel": "13 Mar", "value": 73 },
+		{ "label": "Pest", "sublabel": "15 Mar", "value": 75 },
+		{ "label": "Berlin", "sublabel": "18 Mar", "value": 78 },
+		{ "label": "Milan", "sublabel": "18 Mar", "value": 78 }
+	],
+	"barWidth": 48,
+	"width": 500,
+	"source": {
+		"container": "Wikipedia, Revolutions of 1848",
+		"url": "https://en.wikipedia.org/w/index.php?title=Revolutions_of_1848&oldid=1372038790",
+		"accessed": "2026-10-03"
+	}
+}

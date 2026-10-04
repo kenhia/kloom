@@ -298,8 +298,9 @@ def name_problems(name):
     return problems
 
 
-def drafts(paths):
-    """Every name file under the given files and directories, in order."""
+def draft_files(paths):
+    """Every name file under the given files and directories, in order. (Named apart from `drafts`, the
+    subcommand, which shadowed it from sprint 033 until sprint 049 and broke `add`.)"""
     for p in map(Path, paths):
         yield from sorted(p.glob('*.json')) if p.is_dir() else [p]
 
@@ -313,7 +314,7 @@ def add(paths, names_dir, update=False, check=False):
         if item:
             held[item] = f.stem
     refused, writes, kept = [], [], []
-    for f in drafts(paths):
+    for f in draft_files(paths):
         name = json.loads(f.read_text())
         problems = name_problems(name)
         if problems:
@@ -620,6 +621,12 @@ def mark_one(args, spec_path, known):
             print(f'{ref}: {name} is not in the registry or a draft', file=sys.stderr)
             failed += 1
         path = Path(args.root) / ref.split('/')[0] / 'frames' / ref.split('/')[1] / 'reading.md'
+        if not path.exists():
+            # A checking copy built with --only leaves other authors' frames out (sprint 049, where
+            # this crashed); the gate's --placed still refuses a spec for a frame that is not there.
+            print(f'{ref}: not in {args.root}, skipped', file=sys.stderr)
+            failed += 1 if args.placed else 0
+            continue
         reading = before = path.read_text()
         landed = []
         for words, name in pairs:

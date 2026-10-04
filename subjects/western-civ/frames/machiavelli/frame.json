@@ -1,0 +1,236 @@
+{
+	"id": "machiavelli",
+	"topic": "Machiavelli's The Prince",
+	"position": {
+		"label": "AD 1513",
+		"sort": 1513
+	},
+	"scene": {
+		"headline": "Better to be",
+		"accent": "FEARED.",
+		"palette": "fresco",
+		"illustration": "scene.svg",
+		"metadata": ["FLORENCE · SAN CASCIANO · THE ROMAGNA", "NICCOLÒ MACHIAVELLI · DE PRINCIPATIBUS"],
+		"counter": {
+			"value": "15",
+			"label": "editions of The Prince before the Index of 1559, about"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Prince",
+			"authors": [
+				{
+					"family": "Machiavelli",
+					"given": "Niccolò"
+				}
+			],
+			"translators": [
+				{
+					"family": "Marriott",
+					"given": "W. K."
+				}
+			],
+			"published": "1908",
+			"url": "https://www.gutenberg.org/ebooks/1232",
+			"note": "Chapters I, VII, XII, XVII, XVIII and XXV; the letter to Vettori is quoted in the introduction",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Prince",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Prince&oldid=1377006975",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Niccolò Machiavelli",
+			"url": "https://en.wikipedia.org/w/index.php?title=Niccol%C3%B2_Machiavelli&oldid=1378324081",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cesare Borgia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cesare_Borgia&oldid=1376381506",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Discourses on Livy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Discourses_on_Livy&oldid=1365996297",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Machiavellianism (politics)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Machiavellianism_(politics)&oldid=1294037594",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pope Leo X",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pope_Leo_X&oldid=1368372595",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Strappado",
+			"url": "https://en.wikipedia.org/w/index.php?title=Strappado&oldid=1373288033",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Social Contract",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Social_Contract&oldid=1363694119",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-11"
+		},
+		{
+			"kind": "book",
+			"title": "Discourses on the First Decade of Titus Livius",
+			"authors": [
+				{
+					"family": "Machiavelli",
+					"given": "Niccolò"
+				}
+			],
+			"translators": [
+				{
+					"family": "Thomson",
+					"given": "Ninian Hill"
+				}
+			],
+			"publisher": "Kegan Paul, Trench & Co.",
+			"place": "London",
+			"published": "1883",
+			"url": "https://www.gutenberg.org/ebooks/10827",
+			"note": "Book I, chapter 58",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "The Social Contract & Discourses",
+			"authors": [
+				{
+					"family": "Rousseau",
+					"given": "Jean-Jacques"
+				}
+			],
+			"translators": [
+				{
+					"family": "Cole",
+					"given": "G. D. H."
+				}
+			],
+			"publisher": "J. M. Dent & Sons",
+			"place": "London",
+			"url": "https://www.gutenberg.org/ebooks/46333",
+			"note": "The Social Contract, book III, chapter 6",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "De Officiis",
+			"authors": [
+				{
+					"family": "Cicero",
+					"given": "Marcus Tullius"
+				}
+			],
+			"language": "la",
+			"citedIn": "The Prince",
+			"note": "Book I; quoted in Latin in Marriott's notes to chapter XVIII and translated here"
+		},
+		{
+			"kind": "media",
+			"title": "Il principe, 1532 edition, title page",
+			"url": "https://commons.wikimedia.org/wiki/File:Machiavelli_Il_principe_1532_title_page.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "principe-1532.jpg",
+			"authors": [
+				{
+					"family": "Machiavelli",
+					"given": "Niccolò"
+				}
+			],
+			"container": "Bayerische Staatsbibliothek, Munich",
+			"publisher": "Bernardo Giunta",
+			"place": "Florence",
+			"published": "1532"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/cicero",
+			"why": "The Prince's fox and lion answer Cicero's On Duties, which called force and fraud the ways of beasts."
+		}
+	]
+}

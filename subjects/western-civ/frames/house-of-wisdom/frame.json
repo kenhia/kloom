@@ -1,0 +1,331 @@
+{
+	"id": "house-of-wisdom",
+	"topic": "Baghdad's House of Wisdom",
+	"position": {
+		"label": "AD 762–c. 1000",
+		"sort": 830
+	},
+	"scene": {
+		"headline": "Aristotle learned",
+		"accent": "ARABIC.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BAGHDAD · AL-MANSUR · AL-MA'MUN · HUNAYN IBN ISHAQ",
+			"GREEK → SYRIAC → ARABIC · ON PAPER"
+		],
+		"counter": {
+			"value": "129",
+			"label": "works of Galen in Hunayn's list of 855–56"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Ḥunain ibn Isḥāq über die syrischen und arabischen Galen-Übersetzungen",
+			"authors": [
+				{
+					"name": "Hunayn ibn Ishaq"
+				}
+			],
+			"translators": [
+				{
+					"family": "Bergsträsser",
+					"given": "Gotthelf"
+				}
+			],
+			"place": "Leipzig",
+			"publisher": "Deutsche Morgenländische Gesellschaft",
+			"published": "1925",
+			"language": "de",
+			"url": "https://archive.org/details/HunainIbnIshaqberDieSyrischenUndArabischenGalen-bersetzungen",
+			"accessed": "2026-10-03",
+			"note": "Abhandlungen für die Kunde des Morgenlandes 17, no. 2; the preface, entries 3–8 and 115, and the closing date, quoted in our English"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "History of Physicians",
+			"authors": [
+				{
+					"name": "Ibn Abi Usaybi'a"
+				}
+			],
+			"translators": [
+				{
+					"family": "Kopf",
+					"given": "Lothar"
+				}
+			],
+			"publisher": "National Library of Medicine (typescript)",
+			"published": "1971",
+			"url": "https://www.tertullian.org/fathers/ibn_abi_usaibia_02.htm",
+			"accessed": "2026-10-03",
+			"note": "Chapter 8, on Hunayn: the gold, the dirhams, the Banu Musa's 500 dinars and Bayt al-Hikmah's administrator; read in Roger Pearse's transcription"
+		},
+		{
+			"kind": "book",
+			"title": "Baghdad during the Abbasid Caliphate, from Contemporary Arabic and Persian Sources",
+			"authors": [
+				{
+					"family": "Le Strange",
+					"given": "Guy"
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1900",
+			"url": "https://archive.org/details/india.history.resource.90825",
+			"accessed": "2026-10-03",
+			"note": "Chapter 2, The City of Mansur, pp. 15–30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Revolution by the Ream: A History of Paper",
+			"authors": [
+				{
+					"family": "Bloom",
+					"given": "Jonathan M."
+				}
+			],
+			"container": "Saudi Aramco World",
+			"volume": "50",
+			"issue": "3",
+			"pages": "26–39",
+			"published": "1999-05",
+			"url": "https://archive.aramcoworld.com/issue/199903/revolution.by.the.ream-a.history.of.paper.htm",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Greek Sources in Arabic and Islamic Philosophy",
+			"authors": [
+				{
+					"family": "D'Ancona",
+					"given": "Cristina"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2026-03-23",
+			"url": "https://plato.stanford.edu/entries/arabic-islamic-greek/",
+			"accessed": "2026-10-03",
+			"note": "The court library cannot be viewed as an institutional center for the translations"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Al-Kindi",
+			"authors": [
+				{
+					"family": "Adamson",
+					"given": "Peter"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2024-04-25",
+			"url": "https://plato.stanford.edu/entries/al-kindi/",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad and Early ʿAbbāsid Society",
+			"authors": [
+				{
+					"family": "Gutas",
+					"given": "Dimitri"
+				}
+			],
+			"place": "London",
+			"publisher": "Routledge",
+			"published": "1998",
+			"doi": "10.4324/9780203017432",
+			"accessed": "2026-10-03",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "House of Wisdom",
+			"url": "https://en.wikipedia.org/w/index.php?title=House_of_Wisdom&oldid=1375220873",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Graeco-Arabic translation movement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Graeco-Arabic_translation_movement&oldid=1365930121",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Round City of Baghdad",
+			"url": "https://en.wikipedia.org/w/index.php?title=Round_City_of_Baghdad&oldid=1368691646",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hunayn ibn Ishaq",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hunayn_ibn_Ishaq&oldid=1377809024",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Abbasid Caliphate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abbasid_Caliphate&oldid=1376851402",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Islam",
+			"url": "https://en.wikipedia.org/w/index.php?title=Islam&oldid=1378226688",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of paper",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_paper&oldid=1376858354",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Al-Ḥajjāj ibn Yūsuf ibn Maṭar",
+			"url": "https://en.wikipedia.org/w/index.php?title=Al-%E1%B8%A4ajj%C4%81j_ibn_Y%C5%ABsuf_ibn_Ma%E1%B9%ADar&oldid=1361438950",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Almagest",
+			"url": "https://en.wikipedia.org/w/index.php?title=Almagest&oldid=1363177543",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Umayyad state of Córdoba",
+			"url": "https://en.wikipedia.org/w/index.php?title=Umayyad_state_of_C%C3%B3rdoba&oldid=1378247637",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Al-Andalus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Al-Andalus&oldid=1377484892",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/al-khwarizmi",
+			"why": "Al-Khwarizmi wrote his algebra in Baghdad under al-Ma'mun, the caliph whose court sponsored the translations this frame describes."
+		},
+		{
+			"to": "blood/galen",
+			"why": "Hunayn ibn Ishaq and his circle put Galen's books into Syriac and Arabic, the road by which they became the core of medicine in the Islamic world and then in Latin Europe."
+		},
+		{
+			"to": "physics/ibn-al-haytham",
+			"why": "Ibn al-Haytham earned his keep in Cairo copying the Arabic translations of Euclid's Elements and the Almagest that the translation movement had made, and his optics argued with them."
+		},
+		{
+			"to": "physics/ptolemy",
+			"why": "Ptolemy's treatise was put into Arabic in Baghdad around 829, and its name came down through Arabic as the Almagest."
+		},
+		{
+			"to": "mathematics/euclid-elements",
+			"why": "Euclid's Elements was translated into Arabic twice in Baghdad by al-Hajjaj ibn Matar, and it was from Arabic that it first reached Latin Europe."
+		},
+		{
+			"to": "chemistry/jabir",
+			"why": "The Jabirian treatises quote Greek philosophy that Baghdad's translators put into Arabic only late in the ninth century, which is how Paul Kraus dated them."
+		}
+	]
+}

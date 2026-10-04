@@ -1,0 +1,445 @@
+{
+	"id": "second-world-war",
+	"topic": "The Second World War",
+	"position": {
+		"label": "AD 1939–1945",
+		"sort": 1939
+	},
+	"scene": {
+		"headline": "The whole world went to",
+		"accent": "WAR.",
+		"palette": "steel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"POLAND · STALINGRAD · NORMANDY · HIROSHIMA · NUREMBERG",
+			"AIRCRAFT · TANKS · FACTORIES · 1939–1945"
+		],
+		"counter": {
+			"value": "60–75 million",
+			"label": "dead, most of them civilians"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "World War II",
+			"url": "https://en.wikipedia.org/w/index.php?title=World_War_II&oldid=1378350264",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Economics of World War II: An Overview",
+			"authors": [
+				{
+					"family": "Harrison",
+					"given": "Mark"
+				}
+			],
+			"container": "The Economics of World War II: Six Great Powers in International Comparison",
+			"editors": [
+				{
+					"family": "Harrison",
+					"given": "Mark"
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1998",
+			"pages": "1–42",
+			"doi": "10.1017/cbo9780511523632.002",
+			"url": "https://warwick.ac.uk/fac/soc/economics/staff/mharrison/public/ww2overview1998.pdf",
+			"accessed": "2026-10-03",
+			"note": "Table 1-6, war production of the great powers, 1939 to August 1945; read in the author's own copy"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Secret Additional Protocol to the Treaty of Nonaggression between Germany and the Union of Soviet Socialist Republics",
+			"container": "The Avalon Project, Yale Law School",
+			"published": "1939-08-23",
+			"url": "https://avalon.law.yale.edu/20th_century/addsepro.asp",
+			"accessed": "2026-10-03",
+			"note": "Article 2, quoted, from the State Department's Nazi-Soviet Relations 1939–1941 (1948)"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Charter of the International Military Tribunal",
+			"container": "The Avalon Project, Yale Law School",
+			"published": "1945-08-08",
+			"url": "https://avalon.law.yale.edu/imt/imtconst.asp",
+			"accessed": "2026-10-03",
+			"note": "Article 6, the three crimes, quoted"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "World War II casualties",
+			"url": "https://en.wikipedia.org/w/index.php?title=World_War_II_casualties&oldid=1376835265",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "World War II casualties of the Soviet Union",
+			"url": "https://en.wikipedia.org/w/index.php?title=World_War_II_casualties_of_the_Soviet_Union&oldid=1353080711",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nazi Germany",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nazi_Germany&oldid=1377301809",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Munich Agreement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Munich_Agreement&oldid=1375060722",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Molotov–Ribbentrop Pact",
+			"url": "https://en.wikipedia.org/w/index.php?title=Molotov%E2%80%93Ribbentrop_Pact&oldid=1376223634",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Invasion of Poland",
+			"url": "https://en.wikipedia.org/w/index.php?title=Invasion_of_Poland&oldid=1375067910",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Battle of France",
+			"url": "https://en.wikipedia.org/w/index.php?title=Battle_of_France&oldid=1374579118",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Battle of Britain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Battle_of_Britain&oldid=1377015381",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Operation Barbarossa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Operation_Barbarossa&oldid=1376991625",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Battle of Stalingrad",
+			"url": "https://en.wikipedia.org/w/index.php?title=Battle_of_Stalingrad&oldid=1376542984",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bombing of Dresden",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bombing_of_Dresden&oldid=1377770921",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bombing of Tokyo (10 March 1945)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bombing_of_Tokyo_(10_March_1945)&oldid=1375715897",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Strategic bombing during World War II",
+			"url": "https://en.wikipedia.org/w/index.php?title=Strategic_bombing_during_World_War_II&oldid=1377701481",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atomic bombings of Hiroshima and Nagasaki",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atomic_bombings_of_Hiroshima_and_Nagasaki&oldid=1375714163",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Military production during World War II",
+			"url": "https://en.wikipedia.org/w/index.php?title=Military_production_during_World_War_II&oldid=1365704058",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Willow Run",
+			"url": "https://en.wikipedia.org/w/index.php?title=Willow_Run&oldid=1375819048",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lend-Lease",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lend-Lease&oldid=1374981909",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Holocaust",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Holocaust&oldid=1376446924",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Victory in Europe Day",
+			"url": "https://en.wikipedia.org/w/index.php?title=Victory_in_Europe_Day&oldid=1377439372",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Surrender of Japan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Surrender_of_Japan&oldid=1372687290",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nuremberg trials",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nuremberg_trials&oldid=1377649998",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Looking up one of the assembly lines at Ford's big Willow Run plant, where B-24E (Liberator) bombers are being made in great numbers",
+			"authors": [
+				{
+					"family": "Hollem",
+					"given": "Howard R."
+				}
+			],
+			"container": "Office of War Information; Franklin D. Roosevelt Library Public Domain Photographs, National Archives and Records Administration",
+			"number": "NAID 196389",
+			"published": "1943-02",
+			"licence": "Public domain",
+			"file": "willow-run.jpg",
+			"url": "https://commons.wikimedia.org/wiki/File:Looking_up_one_of_the_assembly_lines_at_Ford%27s_big_Willow_Run_plant,_where_B-24E_(Liberator)_bombers_are_being_made..._-_NARA_-_196389.jpg",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "media",
+			"title": "Combat aircraft built by the great powers, 1939 to August 1945",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Mark Harrison, \"The economics of World War II: an overview\", in The Economics of World War II (Cambridge University Press, 1998), table 1-6",
+			"doi": "10.1017/cbo9780511523632.002",
+			"accessed": "2026-10-03",
+			"licence": "MIT",
+			"file": "aircraft.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/manhattan-project",
+			"why": "The atomic bombs that destroyed Hiroshima and Nagasaki in August 1945 were built by the Manhattan Project, whose science and factories the physics frame tells."
+		},
+		{
+			"to": "computing/bombe",
+			"why": "Bletchley Park's codebreakers read the German Enigma traffic with the bombe, the electromechanical machine the computing frame takes apart."
+		},
+		{
+			"to": "nursing/pearl-harbor",
+			"why": "The attack on Pearl Harbor that brought the United States into the war is told there from the Navy's hospital and its nurses, who took in the burned that day."
+		},
+		{
+			"to": "blood/whole-blood-wwii",
+			"why": "From August 1944 the US Army flew whole blood across the Atlantic to its wounded in Europe, by 1945 more than a thousand pints a day: the blood frame sets out the chain."
+		},
+		{
+			"to": "nursing/navy-pow",
+			"why": "Japan held Allied soldiers and civilians in camps across its conquests, among them Manila's Santo Tomas, where captured Navy nurses kept a hospital running."
+		},
+		{
+			"to": "making/assembly-line",
+			"why": "Ford built B-24 bombers at Willow Run on the moving assembly line it had first used at Highland Park in 1913, turning one out every 63 minutes by 1944."
+		},
+		{
+			"to": "western-civ/holocaust",
+			"why": "The Holocaust was the war's center, carried out behind its fronts."
+		},
+		{
+			"to": "western-civ/udhr",
+			"why": "Nuremberg tried the war's crimes, and the Universal Declaration answered them."
+		}
+	]
+}

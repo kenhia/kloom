@@ -1,0 +1,31 @@
+{
+	"title": "Combat aircraft built by the great powers, 1939 to August 1945",
+	"description": "Bar chart in thousands of combat aircraft: United States 192.0 (from December 1941); Soviet Union 112.1 (from June 1941); United Kingdom 94.6; Germany 89.5; Japan 55.1; Italy 13.3. Data: Mark Harrison, The Economics of World War II (1998), table 1-6.",
+	"heading": "COMBAT AIRCRAFT BUILT · 1939 TO AUG 1945 · THOUSANDS",
+	"unit": "",
+	"axis": {
+		"max": 200,
+		"ticks": [
+			[0, "0"],
+			[50, "50"],
+			[100, "100"],
+			[150, "150"],
+			[200, "200"]
+		]
+	},
+	"bars": [
+		{ "label": "USA", "sublabel": "Allied", "value": 192, "highlight": true },
+		{ "label": "USSR", "sublabel": "Allied", "value": 112.1 },
+		{ "label": "UK", "sublabel": "Allied", "value": 94.6 },
+		{ "label": "Germany", "sublabel": "Axis", "value": 89.5 },
+		{ "label": "Japan", "sublabel": "Axis", "value": 55.1 },
+		{ "label": "Italy", "sublabel": "Axis", "value": 13.3 }
+	],
+	"barWidth": 48,
+	"width": 560,
+	"source": {
+		"container": "Mark Harrison, \"The economics of World War II: an overview\", in The Economics of World War II (Cambridge University Press, 1998), table 1-6",
+		"doi": "10.1017/cbo9780511523632.002",
+		"accessed": "2026-10-03"
+	}
+}

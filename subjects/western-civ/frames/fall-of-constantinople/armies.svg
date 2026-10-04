@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" role="img" aria-labelledby="t d">
+<title id="t">How big were the armies at Constantinople in 1453?</title>
+<desc id="d">Bar chart of estimates in thousands of men: Nicolò Barbaro 160; Jacopo Tedaldi 200; George Sphrantzes 200; Isidore of Kiev 300; Leonard of Chios 300; a modern estimate from Ottoman records, 50 to 80; and the defenders, under 8. Data: Wikipedia, Fall of Constantinople.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="600" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="600" y1="188.9" y2="188.9" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="192.9" text-anchor="end">100</text>
+<line x1="64" x2="600" y1="127.7" y2="127.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="131.7" text-anchor="end">200</text>
+<line x1="64" x2="600" y1="66.6" y2="66.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="70.6" text-anchor="end">300</text>
+</g>
+<rect x="80.3" y="152.2" width="44" height="97.8" fill-opacity="0.85"/>
+<text x="102.3" y="146.2" text-anchor="middle">160</text>
+<text x="102.3" y="266" text-anchor="middle">Barbaro</text>
+<text x="102.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">eyewitness</text>
+<rect x="156.9" y="127.7" width="44" height="122.3" fill-opacity="0.85"/>
+<text x="178.9" y="121.7" text-anchor="middle">200</text>
+<text x="178.9" y="266" text-anchor="middle">Tedaldi</text>
+<text x="178.9" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">eyewitness</text>
+<rect x="233.4" y="127.7" width="44" height="122.3" fill-opacity="0.85"/>
+<text x="255.4" y="121.7" text-anchor="middle">200</text>
+<text x="255.4" y="266" text-anchor="middle">Sphrantzes</text>
+<text x="255.4" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">eyewitness</text>
+<rect x="310.0" y="66.6" width="44" height="183.4" fill-opacity="0.85"/>
+<text x="332.0" y="60.6" text-anchor="middle">300</text>
+<text x="332.0" y="266" text-anchor="middle">Isidore</text>
+<text x="332.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">eyewitness</text>
+<rect x="386.6" y="66.6" width="44" height="183.4" fill-opacity="0.85"/>
+<text x="408.6" y="60.6" text-anchor="middle">300</text>
+<text x="408.6" y="266" text-anchor="middle">Leonard</text>
+<text x="408.6" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">eyewitness</text>
+<rect x="463.1" y="201.1" width="44" height="48.9" class="accent" fill="currentColor"/>
+<text x="485.1" y="195.1" text-anchor="middle">50–80</text>
+<text x="485.1" y="266" text-anchor="middle">Modern</text>
+<text x="485.1" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Ottoman records</text>
+<rect x="539.7" y="245.1" width="44" height="4.9" fill-opacity="0.85"/>
+<text x="561.7" y="239.1" text-anchor="middle">&lt;8</text>
+<text x="561.7" y="266" text-anchor="middle">Defenders</text>
+<text x="561.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">all told</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">CONSTANTINOPLE, 1453 · ESTIMATES · THOUSANDS OF MEN</text>
+</g></svg>

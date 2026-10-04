@@ -200,9 +200,9 @@ radialGradient stop`. Geometry and presentation attributes only. **Never**
 
 ## The reading
 
-`reading.md` is Markdown, 350–700 words, written for a curious adult. (A
-subject authored with tools, not by grow, writes 550–900 words with images,
-charts and tables; see §Authoring with tools.)
+`reading.md` is Markdown, written for a curious adult: 350–700 words from
+a grow job, and 550–900 from an author with tools, with images, charts and
+tables (§Authoring with tools).
 
 - The frame's title is already the pane's heading, so start with an
   opening paragraph, then sections as `##` headings (two to four of them).
@@ -254,7 +254,9 @@ both as you write.
   frames you read were placed by `names.py mark`). Four to
   eight a frame is usual. Only the first mention: a second mark of the same
   name is an error. Not in a heading, a table or an image's alt text, and
-  never inside another link. The mark opens a card listing every frame, in
+  never inside another link. A history frame names more: up to fifteen is
+  fine (sprint 049). A name mentioned only in a table cannot be marked, so
+  say it in prose too if it matters. The mark opens a card listing every frame, in
   every subject, that marks the same name, so a name that recurs is the
   one most worth marking.
 - **Use the registry first.** `names/` holds a file per name. Grep it (by
@@ -640,7 +642,18 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   `section`, `"§ 482.23"`), a `chapter` for an old or a state session law,
   and the date enacted in `published`: "Army-Navy Nurses Act of 1947, Pub.
   L. No. 80-36, 61 Stat. 41." Neither has `authors`. `container` and
-  `publisher` say where you read it (govinfo, the Caselaw Access Project). A work read in a copy (a transcript, a mirror, a later edition)
+  `publisher` say where you read it (govinfo, the Caselaw Access Project).
+  **An English act before 1800** is cited by regnal year and chapter: `code`
+  `{"volume": "1", "name": "Will. & Mar. Sess. 2"}` and `chapter` `"2"`
+  ("1 Will. & Mar. Sess. 2, c. 2"); **a foreign law** by its gazette, `code`
+  `{"name": "Reichsgesetzblatt 1935, Teil I", "page": "1146"}`. **A treaty**
+  (the Peace of Westphalia, the General Act of Berlin) has no kind of its
+  own: cite the printing you read, an `article` in the journal that
+  printed it or the `web` page of a collection (sprint 049).
+  **A passage you translate from a translation** (an Arabic letter read in a
+  German edition) is "in our English of <translator>'s German", with both
+  cited. **A letter with an approximate date** takes `published` with
+  `circa`, not `written` alone. A work read in a copy (a transcript, a mirror, a later edition)
   is cited as the work, with a `note` naming the copy you read. **When no
   official copy exists anywhere** (a military handbook found only on an
   enthusiasts' site), cite the work with the mirror's `url` and `"mirror":

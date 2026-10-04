@@ -1,0 +1,61 @@
+{
+	"title": "The books most often copied among the Dead Sea Scrolls",
+	"description": "Bar chart of the number of manuscripts of each book identified among the Dead Sea Scrolls, for the eight most copied: Psalms 39, Deuteronomy 33, 1 Enoch 25, Genesis 24, Isaiah 22, Jubilees 21, Exodus 18, Leviticus 17. 1 Enoch and Jubilees, highlighted, are outside the later Jewish canon. Data: Wikipedia, Dead Sea Scrolls, after VanderKam and Flint.",
+	"heading": "COPIES FOUND AT QUMRAN · MOST-COPIED BOOKS",
+	"unit": "",
+	"width": 560,
+	"height": 300,
+	"barWidth": 46,
+	"axis": {
+		"max": 40,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"],
+			[40, "40"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Psalms",
+			"value": 39
+		},
+		{
+			"label": "Deut.",
+			"value": 33
+		},
+		{
+			"label": "1 Enoch",
+			"sublabel": "outside",
+			"value": 25,
+			"highlight": true
+		},
+		{
+			"label": "Genesis",
+			"value": 24
+		},
+		{
+			"label": "Isaiah",
+			"value": 22
+		},
+		{
+			"label": "Jubilees",
+			"sublabel": "outside",
+			"value": 21,
+			"highlight": true
+		},
+		{
+			"label": "Exodus",
+			"value": 18
+		},
+		{
+			"label": "Lev.",
+			"value": 17
+		}
+	],
+	"source": {
+		"container": "Drawn for kloom from Wikipedia's list of biblical books among the Dead Sea Scrolls, after VanderKam and Flint",
+		"url": "https://en.wikipedia.org/w/index.php?title=Dead_Sea_Scrolls&oldid=1373755579"
+	}
+}

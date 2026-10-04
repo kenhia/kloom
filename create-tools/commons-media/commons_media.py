@@ -368,7 +368,9 @@ def to_jpeg(body, quality=85, box=None, width=None, rotate=0):
     """A JPEG of an image's bytes, any transparency composited onto white (sprint 026: a PNG with an
     alpha channel turned black when converted as it was). `rotate` turns it that many degrees
     clockwise before `box` is cut, so the box is in the upright image's pixels (sprint 033)."""
-    from PIL import Image  # Pillow: only this conversion needs it (main() runs the tool under uv for it)
+    from PIL import Image, PngImagePlugin  # Pillow: only this conversion needs it (main() runs the tool under uv for it)
+    # A scan's PNG can carry megabytes of metadata, past Pillow's 1 MB limit for a text chunk (sprint 049).
+    PngImagePlugin.MAX_TEXT_CHUNK = 64 * 1024 * 1024
     im = Image.open(io.BytesIO(body))
     if rotate:
         im = im.rotate(-rotate, expand=True)  # PIL turns anticlockwise

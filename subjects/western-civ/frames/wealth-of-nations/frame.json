@@ -1,0 +1,184 @@
+{
+	"id": "wealth-of-nations",
+	"topic": "Adam Smith's Wealth of Nations",
+	"position": {
+		"label": "AD 1776",
+		"sort": 1776
+	},
+	"scene": {
+		"headline": "We divided our",
+		"accent": "LABOR.",
+		"palette": "candle",
+		"illustration": "scene.svg",
+		"metadata": ["KIRKCALDY · GLASGOW · LONDON · ADAM SMITH", "STRAHAN AND CADELL · 9 MARCH 1776"],
+		"counter": {
+			"value": "4,800",
+			"label": "pins a day, each man's share"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/prony-tables",
+			"why": "Prony opened The Wealth of Nations at its chapter on the pin workshop and resolved to manufacture his logarithms as one manufactures pins."
+		},
+		{
+			"to": "western-civ/steam",
+			"why": "Smith and James Watt were friends at the University of Glasgow, where Watt had his workshop from 1757, and Watt's first engines went to work in 1776, the year the book came out."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Adam"
+				}
+			],
+			"publisher": "W. Strahan and T. Cadell",
+			"place": "London",
+			"published": "1776",
+			"url": "https://www.gutenberg.org/ebooks/3300",
+			"accessed": "2026-10-03",
+			"note": "Read in Project Gutenberg's text; quoted from Book I, chapters 1, 2 and 10, Book III, chapter 2, Book IV, chapters 2 and 7, and Book V, chapter 1"
+		},
+		{
+			"kind": "book",
+			"title": "The Theory of Moral Sentiments",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Adam"
+				}
+			],
+			"published": "1759",
+			"container": "Wikisource",
+			"url": "https://en.wikisource.org/wiki/The_Theory_of_Moral_Sentiments/Part_V",
+			"accessed": "2026-10-03",
+			"note": "Part V, on the Africans enslaved by Europeans"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "EPINGLE",
+			"authors": [
+				{
+					"family": "Deleyre",
+					"given": "Alexandre"
+				}
+			],
+			"container": "Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers",
+			"volume": "5",
+			"pages": "804–808",
+			"place": "Paris",
+			"published": "1755",
+			"language": "fr",
+			"url": "https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/EPINGLE",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Wealth of Nations",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Wealth_of_Nations&oldid=1376077003",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Adam Smith",
+			"url": "https://en.wikipedia.org/w/index.php?title=Adam_Smith&oldid=1377533153",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Division of labour",
+			"url": "https://en.wikipedia.org/w/index.php?title=Division_of_labour&oldid=1376302652",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Invisible hand",
+			"url": "https://en.wikipedia.org/w/index.php?title=Invisible_hand&oldid=1358921063",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Watt",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Watt&oldid=1370759179",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "media",
+			"title": "Wealth of Nations title",
+			"url": "https://commons.wikimedia.org/wiki/File:Wealth_of_Nations_title.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "wealth-title.jpg",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Adam"
+				}
+			],
+			"container": "An Inquiry into the Nature and Causes of the Wealth of Nations, vol. 2 (London: W. Strahan and T. Cadell)",
+			"published": "1776"
+		},
+		{
+			"kind": "media",
+			"title": "Nails or pins made by one worker in a day, in Adam Smith's examples (log scale)",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Adam Smith, The Wealth of Nations (1776), Book I, chapter 1",
+			"url": "https://www.gutenberg.org/ebooks/3300",
+			"accessed": "2026-10-03",
+			"licence": "MIT",
+			"file": "output.svg"
+		}
+	]
+}

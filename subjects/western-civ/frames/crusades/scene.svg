@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M30 60 L30 231"/>
+		<path pathLength="1" d="M18 72 L195 72"/>
+		<path pathLength="1" d="M67.5 60 L67.5 231"/>
+		<path pathLength="1" d="M18 109.5 L195 109.5"/>
+		<path pathLength="1" d="M105 60 L105 231"/>
+		<path pathLength="1" d="M18 147 L195 147"/>
+		<path pathLength="1" d="M142.5 60 L142.5 231"/>
+		<path pathLength="1" d="M18 184.5 L195 184.5"/>
+		<path pathLength="1" d="M180 60 L180 231"/>
+		<path pathLength="1" d="M18 222 L195 222"/>
+		<path pathLength="1" d="M232 236 L396 236"/>
+		<path pathLength="1" d="M232 176 L396 176"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 75 L177 72 L183 204 L120 219 L42 207 Z"/>
+		<path pathLength="1" d="M352 236 L352 176 L364 176 L364 236"/>
+		<path pathLength="1" d="M350 236 L348 246 L326 246 L324 236"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M132 129 L177 126 L180 198 L136.5 201 Z"/>
+		<path pathLength="1" d="M32 141 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M155 68 L163 68 L163 76 L155 76 Z"/>
+		<path pathLength="1" d="M71 209 L79 209 L79 217 L71 217 Z"/>
+		<path pathLength="1" d="M157.3 61.4 L159 65 L160.7 61.4"/>
+		<path pathLength="1" d="M159 46 L159 65"/>
+		<path pathLength="1" d="M76.7 223.6 L75 220 L73.3 223.6"/>
+		<path pathLength="1" d="M75 237 L75 220"/>
+		<path pathLength="1" d="M326.4 241 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M330.4 241 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M334.4 241 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M338.4 241 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M342.4 241 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M346.4 241 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M313 234 L313 125.6 L349 125.6 L349 234 Z"/>
+		<path pathLength="1" d="M313 208.4 L349 208.4"/>
+		<path pathLength="1" d="M313 180.8 L349 180.8"/>
+		<path pathLength="1" d="M313 153.2 L349 153.2"/>
+		<path pathLength="1" d="M313 234 L349 208.4"/>
+		<path pathLength="1" d="M349 234 L313 208.4"/>
+		<path pathLength="1" d="M316 233 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M340 233 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M349 176 L364 176"/>
+		<path pathLength="1" d="M349 161 L350.5 161.1 L351.9 161.3 L353.4 161.6 L354.7 162.1 L356.1 162.8 L357.3 163.5 L358.5 164.4 L359.6 165.4 L360.6 166.5 L361.5 167.7 L362.2 168.9 L362.9 170.3 L363.4 171.6 L363.7 173.1 L363.9 174.5 L364 176"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="159" y="41" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GODFREY</text>
+		<text x="75" y="246" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RAYMOND</text>
+		<text x="43" y="143.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TOWER OF DAVID</text>
+		<text x="156" y="163.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TEMPLE</text>
+		<text x="156" y="172.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MOUNT</text>
+		<text x="105" y="261" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">JERUSALEM, 1099 · GRID 250 M</text>
+		<text x="370" y="206" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">15 M</text>
+		<text x="331" y="260" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SIEGE TOWER · WALL</text>
+		<text x="331" y="117.6" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">15 JULY</text>
+		<text x="195" y="46" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N</text>
+		<path pathLength="1" d="M196.3 54.7 L195 52 L193.7 54.7"/>
+		<path pathLength="1" d="M195 66 L195 52"/>
+	</g>
+</svg>

@@ -1,0 +1,422 @@
+{
+	"id": "scramble-for-africa",
+	"topic": "The Scramble for Africa",
+	"position": {
+		"label": "AD 1884–1914",
+		"sort": 1884
+	},
+	"scene": {
+		"headline": "European powers carved up",
+		"accent": "AFRICA.",
+		"palette": "brick",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERLIN · CONGO · ADWA · SOUTH WEST AFRICA",
+			"GENERAL ACT OF BERLIN · 26 FEBRUARY 1885"
+		],
+		"counter": {
+			"value": "2",
+			"label": "African states still independent in 1914"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/mauveine",
+			"why": "Quinine, the preventive against malaria that made Europeans \"far less fearful of Africa\" as they conquered it, was the drug William Perkin set out to synthesize in 1856 when he made mauve instead."
+		},
+		{
+			"to": "western-civ/unification",
+			"why": "Bismarck, who made Germany, hosted the Berlin Conference that divided Africa."
+		},
+		{
+			"to": "western-civ/great-war",
+			"why": "The powers that divided Africa went to war with each other in 1914."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"title": "Africa and the colonial challenge",
+			"authors": [
+				{
+					"family": "Boahen",
+					"given": "A. Adu"
+				}
+			],
+			"container": "General History of Africa, vol. 7, Africa under Colonial Domination, 1880–1935",
+			"editors": [
+				{
+					"family": "Boahen",
+					"given": "A. Adu"
+				}
+			],
+			"pages": "1–18",
+			"publisher": "UNESCO; Heinemann; University of California Press",
+			"place": "Paris",
+			"published": "1985",
+			"url": "https://archive.org/details/unesco_general_history_africa_vii",
+			"accessed": "2026-10-03",
+			"key": true,
+			"note": "Africa in 1880 and 1914, pp. 1–2; quinine and the Maxim gun, pp. 6, 33. Read in the Internet Archive's copy"
+		},
+		{
+			"kind": "chapter",
+			"title": "African initiatives and resistance in the face of partition and conquest",
+			"authors": [
+				{
+					"family": "Ranger",
+					"given": "T. O."
+				}
+			],
+			"container": "General History of Africa, vol. 7, Africa under Colonial Domination, 1880–1935",
+			"editors": [
+				{
+					"family": "Boahen",
+					"given": "A. Adu"
+				}
+			],
+			"pages": "45–62",
+			"publisher": "UNESCO; Heinemann; University of California Press",
+			"place": "Paris",
+			"published": "1985",
+			"url": "https://archive.org/details/unesco_general_history_africa_vii",
+			"accessed": "2026-10-03",
+			"note": "Machemba's reply, pp. 48–49"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "General Act of the Conference of Berlin Concerning the Congo",
+			"container": "American Journal of International Law",
+			"volume": "3",
+			"issue": "S1",
+			"pages": "7–25",
+			"published": "1909-01",
+			"doi": "10.2307/2212022",
+			"accessed": "2026-10-03",
+			"note": "Signed at Berlin, 26 February 1885; Articles 6, 34 and 35. Read in a transcription at the Internet Archive"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Endogenous Colonial Borders: Precolonial States and Geography in the Partition of Africa",
+			"authors": [
+				{
+					"family": "Paine",
+					"given": "Jack"
+				},
+				{
+					"family": "Qiu",
+					"given": "Xiaoyan"
+				},
+				{
+					"family": "Ricart-Huguet",
+					"given": "Joan"
+				}
+			],
+			"container": "American Political Science Review",
+			"volume": "119",
+			"issue": "1",
+			"pages": "1–20",
+			"published": "2025",
+			"doi": "10.1017/S0003055424000054",
+			"accessed": "2026-10-03",
+			"note": "Published online in 2024; the features of every border, Table 1"
+		},
+		{
+			"kind": "article",
+			"title": "Artificial States",
+			"authors": [
+				{
+					"family": "Alesina",
+					"given": "Alberto"
+				},
+				{
+					"family": "Easterly",
+					"given": "William"
+				},
+				{
+					"family": "Matuszeski",
+					"given": "Janina"
+				}
+			],
+			"container": "Journal of the European Economic Association",
+			"volume": "9",
+			"issue": "2",
+			"pages": "246–77",
+			"published": "2011",
+			"citedIn": "Endogenous Colonial Borders: Precolonial States and Geography in the Partition of Africa"
+		},
+		{
+			"kind": "chapter",
+			"title": "A Geographical Analysis of Boundaries in Inter-Tropical Africa",
+			"authors": [
+				{
+					"family": "Barbour",
+					"given": "K. M."
+				}
+			],
+			"container": "Essays on African Population",
+			"editors": [
+				{
+					"family": "Barbour",
+					"given": "K. M."
+				},
+				{
+					"family": "Prothero",
+					"given": "R. M."
+				}
+			],
+			"pages": "303–23",
+			"publisher": "Frederick A. Praeger",
+			"published": "1961",
+			"citedIn": "Endogenous Colonial Borders: Precolonial States and Geography in the Partition of Africa"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Correspondence and Report from His Majesty's Consul at Boma Respecting the Administration of the Independent State of the Congo",
+			"authors": [
+				{
+					"family": "Casement",
+					"given": "Roger"
+				}
+			],
+			"number": "Africa No. 1 (1904), Cd. 1933",
+			"publisher": "His Majesty's Stationery Office",
+			"place": "London",
+			"published": "1904",
+			"url": "https://www.gutenberg.org/ebooks/50573",
+			"accessed": "2026-10-03",
+			"note": "Read in Project Gutenberg's transcription"
+		},
+		{
+			"kind": "web",
+			"title": "Foreign Minister Maas on the conclusion of negotiations with Namibia",
+			"publisher": "Federal Foreign Office",
+			"container": "Auswärtiges Amt, Newsroom",
+			"published": "2021-05-28",
+			"url": "https://www.auswaertiges-amt.de/en/newsroom/news/-/2463598",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "King Leopold's Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa",
+			"authors": [
+				{
+					"family": "Hochschild",
+					"given": "Adam"
+				}
+			],
+			"published": "1998",
+			"citedIn": "Atrocities in the Congo Free State"
+		},
+		{
+			"kind": "chapter",
+			"title": "Du reflux à la croissance démographique : comment la démographie congolaise a-t-elle été influencée par la colonisation ?",
+			"authors": [
+				{
+					"family": "Sanderson",
+					"given": "Jean-Paul"
+				}
+			],
+			"container": "Le Congo colonial : Une histoire en questions",
+			"editors": [
+				{
+					"family": "Goddeeris",
+					"given": "Idesbald"
+				},
+				{
+					"family": "Lauro",
+					"given": "Amandine"
+				},
+				{
+					"family": "Vanthemsche",
+					"given": "Guy"
+				}
+			],
+			"publisher": "Renaissance du Livre",
+			"published": "2020",
+			"language": "fr",
+			"citedIn": "Atrocities in the Congo Free State"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Scramble for Africa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Scramble_for_Africa&oldid=1376647971",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Berlin Conference",
+			"url": "https://en.wikipedia.org/w/index.php?title=Berlin_Conference&oldid=1369494326",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Congo Free State",
+			"url": "https://en.wikipedia.org/w/index.php?title=Congo_Free_State&oldid=1376593749",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atrocities in the Congo Free State",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atrocities_in_the_Congo_Free_State&oldid=1376485199",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Battle of Adwa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Battle_of_Adwa&oldid=1377090931",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maji Maji Rebellion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maji_Maji_Rebellion&oldid=1370627418",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Herero and Nama genocide",
+			"url": "https://en.wikipedia.org/w/index.php?title=Herero_and_Nama_genocide&oldid=1373679661",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maxim gun",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maxim_gun&oldid=1377819202",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Congo Reform Association",
+			"url": "https://en.wikipedia.org/w/index.php?title=Congo_Reform_Association&oldid=1362266864",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02"
+		},
+		{
+			"kind": "media",
+			"title": "Kongokonferenz",
+			"authors": [
+				{
+					"family": "Roessler",
+					"given": "Adalbert von"
+				}
+			],
+			"container": "Über Land und Meer, vol. 53, no. 14, p. 308",
+			"url": "https://commons.wikimedia.org/wiki/File:Kongokonferenz.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "berlin-conference.jpg",
+			"published": "1884"
+		},
+		{
+			"kind": "media",
+			"title": "Partie de l'Afrique équatoriale pour suivre les travaux de la conférence de Berlin",
+			"authors": [
+				{
+					"family": "Desbuissons",
+					"given": "Édouard"
+				}
+			],
+			"container": "Bibliothèque nationale de France",
+			"publisher": "Lemercier",
+			"place": "Paris",
+			"url": "https://commons.wikimedia.org/wiki/File:Partie_de_l%27Afrique_%C3%A9quatoriale_pour_suivre_les_travaux_de_la_conf%C3%A9rence_de_Berlin_-_par_E._Desbuissons_-_btv1b84393600.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "congo-map-1885.jpg",
+			"published": "1885"
+		},
+		{
+			"kind": "media",
+			"title": "Share of Africa's borders running along a parallel or a meridian, by study",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Paine, Qiu and Ricart-Huguet, American Political Science Review (2024)",
+			"doi": "10.1017/S0003055424000054",
+			"accessed": "2026-10-03",
+			"licence": "MIT",
+			"file": "straight-lines.svg"
+		}
+	]
+}

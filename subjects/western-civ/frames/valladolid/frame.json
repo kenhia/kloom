@@ -1,0 +1,427 @@
+{
+	"id": "valladolid",
+	"topic": "Conquest and the Valladolid debate",
+	"position": {
+		"label": "AD 1492–1551",
+		"sort": 1550
+	},
+	"scene": {
+		"headline": "Spain put its own conquest on",
+		"accent": "TRIAL.",
+		"palette": "fresco",
+		"illustration": "scene.svg",
+		"metadata": ["VALLADOLID · LAS CASAS · SEPÚLVEDA", "HISPANIOLA · TENOCHTITLAN · CAJAMARCA"],
+		"counter": {
+			"value": "90%",
+			"label": "of the Americas' people lost within a century, by one estimate"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/voyages",
+			"why": "Magellan sailed for the Spanish crown in 1519, the year Cortés landed in Mexico, and his voyage's reading ends on the century of conquest it opened, catastrophic for the peoples on the far shores."
+		},
+		{
+			"to": "western-civ/abolition",
+			"why": "Las Casas's proposal of 1516 to bring Africans to the Indies stands at the start of the Atlantic slave trade that the abolitionists fought."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Aquí se contiene una disputa, o controversia, entre el obispo don fray Bartolomé de las Casas … y el doctor Ginés de Sepúlveda",
+			"authors": [
+				{
+					"family": "Las Casas",
+					"given": "Bartolomé de"
+				}
+			],
+			"place": "Seville",
+			"published": "1552",
+			"language": "es",
+			"url": "https://archive.org/details/aquisecontienevn00casa",
+			"accessed": "2026-10-03",
+			"note": "The \"Argumento\" (leaves a ii–a iii) tells how the junta sat; read in the John Carter Brown Library's copy"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Valladolid debate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Valladolid_debate&oldid=1372190197",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Earth system impacts of the European arrival and Great Dying in the Americas after 1492",
+			"authors": [
+				{
+					"family": "Koch",
+					"given": "Alexander"
+				},
+				{
+					"family": "Brierley",
+					"given": "Chris"
+				},
+				{
+					"family": "Maslin",
+					"given": "Mark M."
+				},
+				{
+					"family": "Lewis",
+					"given": "Simon L."
+				}
+			],
+			"container": "Quaternary Science Reviews",
+			"volume": "207",
+			"pages": "13–36",
+			"published": "2019-03",
+			"doi": "10.1016/j.quascirev.2018.12.004",
+			"accessed": "2026-10-03",
+			"read": "abstract",
+			"note": "60.5 million in 1492 (interquartile range 44.8–78.2 million); 90 percent lost within a century"
+		},
+		{
+			"kind": "book",
+			"title": "Historia de las Indias",
+			"authors": [
+				{
+					"family": "Las Casas",
+					"given": "Bartolomé de"
+				}
+			],
+			"editors": [
+				{
+					"name": "Marqués de la Fuensanta del Valle"
+				},
+				{
+					"family": "Sancho Rayón",
+					"given": "José"
+				}
+			],
+			"volume": "3",
+			"place": "Madrid",
+			"publisher": "Imprenta de Miguel Ginesta",
+			"published": "1875",
+			"language": "es",
+			"url": "https://www.gutenberg.org/ebooks/53171",
+			"accessed": "2026-10-03",
+			"note": "Book III, chapter 4: Montesinos's sermon of December 1511"
+		},
+		{
+			"kind": "book",
+			"title": "Historia de las Indias",
+			"authors": [
+				{
+					"family": "Las Casas",
+					"given": "Bartolomé de"
+				}
+			],
+			"editors": [
+				{
+					"name": "Marqués de la Fuensanta del Valle"
+				},
+				{
+					"family": "Sancho Rayón",
+					"given": "José"
+				}
+			],
+			"volume": "4",
+			"place": "Madrid",
+			"publisher": "Imprenta de Miguel Ginesta",
+			"published": "1876",
+			"language": "es",
+			"url": "https://www.gutenberg.org/ebooks/56283",
+			"accessed": "2026-10-03",
+			"note": "Book III, chapter 102: the advice to bring African slaves, and his regret"
+		},
+		{
+			"kind": "book",
+			"title": "The Spanish Conquest in America, and Its Relation to the History of Slavery and to the Government of Colonies",
+			"authors": [
+				{
+					"family": "Helps",
+					"given": "Arthur"
+				}
+			],
+			"volume": "1",
+			"place": "London",
+			"publisher": "John W. Parker and Son",
+			"published": "1855",
+			"pages": "379–382",
+			"url": "https://archive.org/details/spanishconquest01helpgoog",
+			"accessed": "2026-10-03",
+			"note": "The Requerimiento in full, in Helps's translation"
+		},
+		{
+			"kind": "book",
+			"title": "The Journal of Christopher Columbus (During His First Voyage, 1492–93)",
+			"authors": [
+				{
+					"family": "Columbus",
+					"given": "Christopher"
+				}
+			],
+			"translators": [
+				{
+					"family": "Markham",
+					"given": "Clements R."
+				}
+			],
+			"place": "London",
+			"publisher": "Hakluyt Society",
+			"published": "1893",
+			"url": "https://archive.org/details/journalofchristo00colu_0",
+			"accessed": "2026-10-03",
+			"note": "Entries of 11 and 14 October 1492, from Las Casas's abstract"
+		},
+		{
+			"kind": "book",
+			"title": "Politics: A Treatise on Government",
+			"authors": [
+				{
+					"name": "Aristotle"
+				}
+			],
+			"translators": [
+				{
+					"family": "Ellis",
+					"given": "William"
+				}
+			],
+			"publisher": "Project Gutenberg",
+			"url": "https://www.gutenberg.org/ebooks/6762",
+			"accessed": "2026-10-03",
+			"note": "Book I, chapter 5 (1254b): slaves by nature"
+		},
+		{
+			"kind": "article",
+			"title": "A genetic history of the pre-contact Caribbean",
+			"authors": [
+				{
+					"family": "Fernandes",
+					"given": "Daniel M."
+				},
+				{
+					"family": "Sirak",
+					"given": "Kendra A."
+				},
+				{
+					"family": "Ringbauer",
+					"given": "Harald"
+				},
+				{
+					"family": "Sedig",
+					"given": "Jakob"
+				},
+				{
+					"family": "Rohland",
+					"given": "Nadin"
+				},
+				{
+					"family": "Cheronet",
+					"given": "Olivia"
+				},
+				{
+					"family": "Mah",
+					"given": "Matthew"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "590",
+			"pages": "103–110",
+			"published": "2021",
+			"doi": "10.1038/s41586-020-03053-2",
+			"accessed": "2026-10-03",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bartolomé de las Casas",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bartolom%C3%A9_de_las_Casas&oldid=1377288925",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Juan Ginés de Sepúlveda",
+			"url": "https://en.wikipedia.org/w/index.php?title=Juan_Gin%C3%A9s_de_Sep%C3%BAlveda&oldid=1373274719",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spanish Requirement of 1513",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spanish_Requirement_of_1513&oldid=1378378964",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antonio de Montesinos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antonio_de_Montesinos&oldid=1359497805",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Laws of Burgos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Laws_of_Burgos&oldid=1367308248",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "New Laws",
+			"url": "https://en.wikipedia.org/w/index.php?title=New_Laws&oldid=1366305827",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Encomienda",
+			"url": "https://en.wikipedia.org/w/index.php?title=Encomienda&oldid=1377480589",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Population history of the Indigenous peoples of the Americas",
+			"url": "https://en.wikipedia.org/w/index.php?title=Population_history_of_the_Indigenous_peoples_of_the_Americas&oldid=1377454832",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Taíno",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ta%C3%ADno&oldid=1377925416",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fall of Tenochtitlan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fall_of_Tenochtitlan&oldid=1371683304",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spanish conquest of the Inca Empire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spanish_conquest_of_the_Inca_Empire&oldid=1378020748",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atlantic slave trade",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atlantic_slave_trade&oldid=1378375277",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Bartolomé de las Casas (1552) Disputa o controversia con Ginés de Sepúlveda",
+			"url": "https://commons.wikimedia.org/wiki/File:Bartolom%C3%A9_de_las_Casas_(1552)_Disputa_o_controversia_con_Gin%C3%A9s_de_Sep%C3%BAlveda.png",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "disputa-1552.jpg",
+			"container": "Biblioteca Virtual Miguel de Cervantes",
+			"published": "1552"
+		}
+	]
+}

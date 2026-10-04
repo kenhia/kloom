@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M150 200.8 L300 200.8"/>
+		<path pathLength="1" d="M150 139.7 L300 139.7"/>
+		<path pathLength="1" d="M193.7 90 L193.7 240"/>
+		<path pathLength="1" d="M231.3 90 L231.3 240"/>
+		<path pathLength="1" d="M163 210 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M226.8 131.5 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M250 262 L294 262"/>
+		<path pathLength="1" d="M250 259 L250 265"/>
+		<path pathLength="1" d="M272 259 L272 265"/>
+		<path pathLength="1" d="M294 259 L294 265"/>
+		<path pathLength="1" d="M40 70 L40 40"/>
+		<path pathLength="1" d="M42.2 44.5 L40 40 L37.8 44.5"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M175 210 L238.8 131.5"/>
+		<path pathLength="1" d="M170 210 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M233.8 131.5 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M10 138 L146 138 L146 234 L10 234 Z"/>
+		<path pathLength="1" d="M146 200 L163 210"/>
+		<path pathLength="1" d="M15 150 L61 150 L61 166 L15 166 Z"/>
+		<path pathLength="1" d="M95 150 L141 150 L141 166 L95 166 Z"/>
+		<path pathLength="1" d="M38 180 L118 180 L118 196 L38 196 Z"/>
+		<path pathLength="1" d="M15 210 L61 210 L61 226 L15 226 Z"/>
+		<path pathLength="1" d="M95 210 L141 210 L141 226 L95 226 Z"/>
+		<path pathLength="1" d="M38 166 L64 180"/>
+		<path pathLength="1" d="M60 179.8 L64 180 L61.7 176.8"/>
+		<path pathLength="1" d="M118 166 L92 180"/>
+		<path pathLength="1" d="M94.3 176.8 L92 180 L96 179.8"/>
+		<path pathLength="1" d="M61 218 L95 218"/>
+		<path pathLength="1" d="M258 40 L392 40 L392 116 L258 116 Z"/>
+		<path pathLength="1" d="M258 100 L250.8 131.5"/>
+		<path pathLength="1" d="M266 52 L312 52 L312 68 L266 68 Z"/>
+		<path pathLength="1" d="M338 52 L384 52 L384 68 L338 68 Z"/>
+		<path pathLength="1" d="M300 88 L352 88 L352 104 L300 104 Z"/>
+		<path pathLength="1" d="M312 60 L338 60"/>
+		<path pathLength="1" d="M315.6 58.3 L312 60 L315.6 61.7"/>
+		<path pathLength="1" d="M334.4 61.7 L338 60 L334.4 58.3"/>
+		<path pathLength="1" d="M289 68 L314 88"/>
+		<path pathLength="1" d="M361 68 L338 88"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="38" y="160.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EMPEROR</text>
+		<text x="118" y="160.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FRANCE</text>
+		<text x="78" y="190.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NUNCIO · VENICE</text>
+		<text x="38" y="220.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SPAIN</text>
+		<text x="118" y="220.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DUTCH</text>
+		<text x="289" y="62.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EMPEROR</text>
+		<text x="361" y="62.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SWEDEN</text>
+		<text x="326" y="98.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ESTATES</text>
+		<text x="191" y="226" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MÜNSTER</text>
+		<text x="222.8" y="117.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OSNABRÜCK</text>
+		<text x="214.9" y="174.8" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">46 KM</text>
+		<text x="272" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">20 KM</text>
+		<text x="40" y="32" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N</text>
+	</g>
+</svg>

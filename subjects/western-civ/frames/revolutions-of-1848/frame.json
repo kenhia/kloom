@@ -1,0 +1,343 @@
+{
+	"id": "revolutions-of-1848",
+	"topic": "The revolutions of 1848",
+	"position": {
+		"label": "AD 1848",
+		"sort": 1848
+	},
+	"scene": {
+		"headline": "Europe rose all at",
+		"accent": "ONCE.",
+		"palette": "candle",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PALERMO · PARIS · VIENNA · BERLIN · MILAN · FRANKFURT",
+			"THE SPRINGTIME OF THE PEOPLES"
+		],
+		"counter": {
+			"value": "585",
+			"label": "deputies elected to Frankfurt, one per 50,000 people"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Revolutions of 1848",
+			"url": "https://en.wikipedia.org/w/index.php?title=Revolutions_of_1848&oldid=1372038790",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frankfurt National Assembly",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frankfurt_National_Assembly&oldid=1352034971",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Grundrechte des deutschen Volkes",
+			"url": "https://de.wikipedia.org/w/index.php?title=Grundrechte_des_deutschen_Volkes&oldid=253288908",
+			"language": "de",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-02-13",
+			"key": true,
+			"note": "The Basic Rights of 27 December 1848, summarized in the table; Grimm's proposal quoted in our translation"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Communist Manifesto",
+			"authors": [
+				{
+					"family": "Marx",
+					"given": "Karl"
+				},
+				{
+					"family": "Engels",
+					"given": "Friedrich"
+				}
+			],
+			"editors": [
+				{
+					"family": "Engels",
+					"given": "Friedrich"
+				}
+			],
+			"edition": "English ed. of 1888",
+			"place": "London",
+			"published": "1888",
+			"url": "https://www.gutenberg.org/ebooks/61",
+			"accessed": "2026-10-03",
+			"note": "Read in Project Gutenberg's text of the 1888 English edition"
+		},
+		{
+			"kind": "article",
+			"title": "Universal Suffrage as Counter-Revolution? Electoral Mobilisation under the Second Republic in France, 1848–1851",
+			"authors": [
+				{
+					"family": "Crook",
+					"given": "Malcolm"
+				}
+			],
+			"container": "Journal of Historical Sociology",
+			"volume": "28",
+			"issue": "1",
+			"pages": "49–66",
+			"published": "2015",
+			"doi": "10.1111/johs.12035",
+			"accessed": "2026-10-03",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "French Revolution of 1848",
+			"url": "https://en.wikipedia.org/w/index.php?title=French_Revolution_of_1848&oldid=1371699361",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "June Days uprising",
+			"url": "https://en.wikipedia.org/w/index.php?title=June_Days_uprising&oldid=1367993757",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1848 French presidential election",
+			"url": "https://en.wikipedia.org/w/index.php?title=1848_French_presidential_election&oldid=1345295316",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Victor Schœlcher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Victor_Sch%C5%93lcher&oldid=1377893620",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hans Kudlich",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hans_Kudlich&oldid=1346055139",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frederick William IV",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frederick_William_IV&oldid=1358633136",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Communist Manifesto",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Communist_Manifesto&oldid=1377435306",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "St. Paul's Church, Frankfurt",
+			"url": "https://en.wikipedia.org/w/index.php?title=St._Paul's_Church,_Frankfurt&oldid=1371622591",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sicilian revolution of 1848",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sicilian_revolution_of_1848&oldid=1370738410",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Five Days of Milan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Five_Days_of_Milan&oldid=1376359496",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hungarian Revolution of 1848",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hungarian_Revolution_of_1848&oldid=1370623076",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Revolutions of 1848 in the Austrian Empire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Revolutions_of_1848_in_the_Austrian_Empire&oldid=1374511059",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "German revolutions of 1848–1849",
+			"url": "https://en.wikipedia.org/w/index.php?title=German_revolutions_of_1848%E2%80%931849&oldid=1370946290",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "media",
+			"title": "The day of 1848 on which revolution broke out in six European cities",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Wikipedia, Revolutions of 1848",
+			"url": "https://en.wikipedia.org/w/index.php?title=Revolutions_of_1848&oldid=1372038790",
+			"accessed": "2026-10-03",
+			"licence": "MIT",
+			"file": "spread.svg"
+		},
+		{
+			"kind": "media",
+			"title": "Frankfurt Nationalversammlung 1848",
+			"authors": [
+				{
+					"family": "Elliott",
+					"given": "Ludwig von"
+				}
+			],
+			"container": "Historisches Museum Frankfurt",
+			"published": "1848",
+			"url": "https://commons.wikimedia.org/wiki/File:Frankfurt_Nationalversammlung_1848.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "frankfurt-assembly.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/french-revolution",
+			"why": "The Paris crowds of 1848 took up the words and the republic of 1789."
+		},
+		{
+			"to": "western-civ/unification",
+			"why": "German and Italian unity came after 1848, made by the revolutions' enemies."
+		},
+		{
+			"to": "western-civ/haitian-revolution",
+			"why": "France abolished slavery in its remaining colonies on 27 April 1848."
+		}
+	]
+}

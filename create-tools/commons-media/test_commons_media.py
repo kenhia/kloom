@@ -128,6 +128,18 @@ class Jpeg(unittest.TestCase):
         self.assertGreater(min(out.getpixel((1, 1))), 250)
 
 
+    def test_reads_a_png_with_a_large_text_chunk(self):
+        # A Commons scan of Beethoven's Ninth carried metadata past Pillow's 1 MB default (sprint 049).
+        try:
+            from PIL import Image, PngImagePlugin
+        except ImportError:
+            self.skipTest('Pillow is not installed (uv run installs it)')
+        info = PngImagePlugin.PngInfo()
+        info.add_itxt('XML:com.adobe.xmp', 'x' * (2 * 1024 * 1024), zip=True)
+        png = io.BytesIO()
+        Image.new('RGB', (4, 4), (255, 255, 255)).save(png, 'PNG', pnginfo=info)
+        self.assertEqual(Image.open(io.BytesIO(cm.to_jpeg(png.getvalue()))).format, 'JPEG')
+
 def fixture(name):
     """A real Keeping Watch file's Commons metadata, wikitext and catalogue record (sprint 030), kept
     so the institutional patterns are tested without the network."""

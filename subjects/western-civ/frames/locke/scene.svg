@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M96 150 a104 104 0 1 0 208 0 a104 104 0 1 0 -208 0"/>
+		<path pathLength="1" d="M80 150 a120 120 0 1 0 240 0 a120 120 0 1 0 -240 0"/>
+		<path pathLength="1" d="M72 150 L328 150"/>
+		<path pathLength="1" d="M200 22 L200 278"/>
+		<path pathLength="1" d="M200 150 L200 46"/>
+		<path pathLength="1" d="M200 150 L298.9 117.9"/>
+		<path pathLength="1" d="M200 150 L261.1 234.1"/>
+		<path pathLength="1" d="M200 150 L138.9 234.1"/>
+		<path pathLength="1" d="M200 150 L101.1 117.9"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M166 150 a34 34 0 1 0 68 0 a34 34 0 1 0 -68 0"/>
+		<path pathLength="1" d="M191 46 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M289.9 117.9 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M252.1 234.1 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M129.9 234.1 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M92.1 117.9 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M216.3 47.3 L220.3 48 L224.3 48.9 L228.2 49.9 L232.1 51.1 L236 52.4 L239.8 53.9 L243.5 55.6 L247.2 57.3 L250.8 59.3 L254.3 61.3 L257.8 63.5 L261.1 65.9 L264.4 68.3 L267.5 70.9 L270.6 73.6 L273.5 76.5 L276.4 79.4 L279.1 82.5 L281.7 85.6 L284.1 88.9 L286.5 92.2 L288.7 95.7 L290.7 99.2 L292.7 102.8"/>
+		<path pathLength="1" d="M288.6 99.9 L292.7 102.8 L292.4 97.8"/>
+		<path pathLength="1" d="M302.7 133.7 L303.3 137.8 L303.7 141.8 L303.9 145.9 L304 150 L303.9 154.1 L303.7 158.2 L303.3 162.2 L302.7 166.3 L302 170.3 L301.1 174.3 L300.1 178.2 L298.9 182.1 L297.6 186 L296.1 189.8 L294.4 193.5 L292.7 197.2 L290.7 200.8 L288.7 204.3 L286.5 207.8 L284.1 211.1 L281.7 214.4 L279.1 217.5 L276.4 220.6 L273.5 223.5"/>
+		<path pathLength="1" d="M275 218.8 L273.5 223.5 L278.2 221.7"/>
+		<path pathLength="1" d="M247.2 242.7 L243.5 244.4 L239.8 246.1 L236 247.6 L232.1 248.9 L228.2 250.1 L224.3 251.1 L220.3 252 L216.3 252.7 L212.2 253.3 L208.2 253.7 L204.1 253.9 L200 254 L195.9 253.9 L191.8 253.7 L187.8 253.3 L183.7 252.7 L179.7 252 L175.7 251.1 L171.8 250.1 L167.9 248.9 L164 247.6 L160.2 246.1 L156.5 244.4 L152.8 242.7"/>
+		<path pathLength="1" d="M157.8 242.6 L152.8 242.7 L155.9 246.5"/>
+		<path pathLength="1" d="M126.5 223.5 L123.6 220.6 L120.9 217.5 L118.3 214.4 L115.9 211.1 L113.5 207.8 L111.3 204.3 L109.3 200.8 L107.3 197.2 L105.6 193.5 L103.9 189.8 L102.4 186 L101.1 182.1 L99.9 178.2 L98.9 174.3 L98 170.3 L97.3 166.3 L96.7 162.2 L96.3 158.2 L96.1 154.1 L96 150 L96.1 145.9 L96.3 141.8 L96.7 137.8 L97.3 133.7"/>
+		<path pathLength="1" d="M98.9 138.5 L97.3 133.7 L94.6 137.9"/>
+		<path pathLength="1" d="M107.3 102.8 L109.3 99.2 L111.3 95.7 L113.5 92.2 L115.9 88.9 L118.3 85.6 L120.9 82.5 L123.6 79.4 L126.5 76.5 L129.4 73.6 L132.5 70.9 L135.6 68.3 L138.9 65.9 L142.2 63.5 L145.7 61.3 L149.2 59.3 L152.8 57.3 L156.5 55.6 L160.2 53.9 L164 52.4 L167.9 51.1 L171.8 49.9 L175.7 48.9 L179.7 48 L183.7 47.3"/>
+		<path pathLength="1" d="M179.7 50.3 L183.7 47.3 L178.9 46"/>
+		<path pathLength="1" d="M200 59 L200 68"/>
+		<path pathLength="1" d="M286.5 121.9 L278 124.7"/>
+		<path pathLength="1" d="M253.5 223.6 L248.2 216.3"/>
+		<path pathLength="1" d="M146.5 223.6 L151.8 216.3"/>
+		<path pathLength="1" d="M113.5 121.9 L122 124.7"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="200" y="144" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIVES</text>
+		<text x="200" y="153" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIBERTIES</text>
+		<text x="200" y="162" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ESTATES</text>
+		<text x="200" y="20" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STATE OF NATURE</text>
+		<text x="200" y="29" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">§ 4</text>
+		<text x="312.9" y="113.9" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LABOR · PROPERTY</text>
+		<text x="312.9" y="122.9" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">§ 27</text>
+		<text x="273.1" y="250.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CONSENT</text>
+		<text x="273.1" y="259.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">§ 95</text>
+		<text x="126.9" y="250.1" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LEGISLATIVE IN TRUST</text>
+		<text x="126.9" y="259.1" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">§ 149</text>
+		<text x="87.1" y="113.9" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BREACH OF TRUST</text>
+		<text x="87.1" y="122.9" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">§ 222</text>
+		<text x="200" y="292" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SECOND TREATISE · POWER RETURNS TO THE PEOPLE</text>
+	</g>
+</svg>

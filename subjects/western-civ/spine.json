@@ -9,39 +9,116 @@
 		},
 		{
 			"id": "antiquity",
-			"title": "Antiquity",
+			"title": "The ancient world",
 			"labelKind": "date",
-			"palette": "parchment",
-			"frames": ["writing", "greek-inquiry", "eratosthenes", "pantheon"]
+			"palette": "marble",
+			"frames": [
+				"writing",
+				"hammurabi",
+				"hebrew-bible",
+				"athenian-democracy",
+				"greek-tragedy",
+				"socrates",
+				"greek-inquiry",
+				"alexander",
+				"eratosthenes",
+				"augustus",
+				"pantheon"
+			]
+		},
+		{
+			"id": "late-antiquity",
+			"title": "Late antiquity",
+			"labelKind": "date",
+			"palette": "porphyry",
+			"frames": ["early-christianity", "constantine", "fall-of-the-west", "justinian"]
 		},
 		{
 			"id": "middle-ages",
 			"title": "The long middle",
 			"labelKind": "date",
 			"palette": "parchment",
-			"frames": ["scriptorium", "magna-carta"]
+			"frames": [
+				"scriptorium",
+				"house-of-wisdom",
+				"crusades",
+				"gothic-cathedral",
+				"magna-carta",
+				"aquinas",
+				"black-death"
+			]
 		},
 		{
 			"id": "rebirth",
 			"title": "Rebirth",
 			"labelKind": "date",
-			"palette": "parchment",
+			"palette": "fresco",
 			"frames": [
+				"humanism",
+				"renaissance-painting",
 				"florence-dome",
 				"printing-press",
+				"machiavelli"
+			]
+		},
+		{
+			"id": "reformation",
+			"title": "Reformation and new worlds",
+			"labelKind": "date",
+			"palette": "fresco",
+			"frames": [
 				"erasmus-greek-nt",
 				"ninety-five-theses",
 				"voyages",
+				"valladolid",
 				"shakespeare",
-				"royal-society"
+				"westphalia"
+			]
+		},
+		{
+			"id": "enlightenment",
+			"title": "Reason and revolution",
+			"labelKind": "date",
+			"palette": "candle",
+			"frames": [
+				"royal-society",
+				"locke",
+				"encyclopedie",
+				"wealth-of-nations",
+				"american-revolution",
+				"abolition",
+				"french-revolution"
 			]
 		},
 		{
 			"id": "machines",
-			"title": "Machines and fields",
+			"title": "Machines and the masses",
 			"labelKind": "date",
-			"palette": "parchment",
-			"frames": ["steam", "faraday-induction", "maxwell"]
+			"palette": "brick",
+			"frames": [
+				"steam",
+				"beethoven-ninth",
+				"faraday-induction",
+				"serial-novel",
+				"factory-city",
+				"unification",
+				"maxwell",
+				"scramble-for-africa"
+			]
+		},
+		{
+			"id": "modern",
+			"title": "The modern world",
+			"labelKind": "date",
+			"palette": "steel",
+			"frames": [
+				"rite-of-spring",
+				"great-war",
+				"second-world-war",
+				"holocaust",
+				"udhr",
+				"fall-of-the-wall"
+			]
 		},
 		{
 			"id": "code-and-cosmos",

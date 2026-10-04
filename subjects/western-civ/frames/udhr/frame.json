@@ -1,0 +1,267 @@
+{
+	"id": "udhr",
+	"topic": "The Universal Declaration",
+	"position": {
+		"label": "AD 1945–1948",
+		"sort": 1948
+	},
+	"scene": {
+		"headline": "Born free and equal in",
+		"accent": "DIGNITY.",
+		"palette": "steel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · PALAIS DE CHAILLOT · 10 DECEMBER 1948",
+			"ROOSEVELT · CASSIN · CHANG · MALIK · HUMPHREY · MEHTA"
+		],
+		"counter": {
+			"value": "48–0",
+			"label": "the vote in Paris, with eight abstentions"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Universal Declaration of Human Rights",
+			"authors": [
+				{
+					"name": "United Nations General Assembly"
+				}
+			],
+			"container": "United Nations",
+			"publisher": "United Nations",
+			"published": "1948-12-10",
+			"url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+			"accessed": "2026-10-03",
+			"note": "Resolution 217 A (III); Articles 1 and 3 and the preamble are quoted from it"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "History of the Declaration",
+			"container": "United Nations",
+			"publisher": "United Nations",
+			"url": "https://www.un.org/en/about-us/udhr/history-of-the-declaration",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "Drafters of the Declaration",
+			"container": "United Nations",
+			"publisher": "United Nations",
+			"url": "https://www.un.org/en/about-us/udhr/drafters-of-the-declaration",
+			"accessed": "2026-10-03",
+			"note": "Hansa Mehta's \"all human beings\""
+		},
+		{
+			"kind": "web",
+			"title": "Charter of the United Nations",
+			"authors": [
+				{
+					"name": "United Nations"
+				}
+			],
+			"container": "United Nations",
+			"publisher": "United Nations",
+			"published": "1945-06-26",
+			"url": "https://www.un.org/en/about-us/un-charter/full-text",
+			"accessed": "2026-10-03",
+			"note": "The preamble and Article 68 are quoted from it"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "On the Adoption of the Universal Declaration of Human Rights",
+			"authors": [
+				{
+					"family": "Roosevelt",
+					"given": "Eleanor"
+				}
+			],
+			"container": "American Rhetoric",
+			"published": "1948-12-09",
+			"url": "https://www.americanrhetoric.com/speeches/eleanorrooseveltdeclarationhumanrights.htm",
+			"accessed": "2026-10-03",
+			"note": "Her speech to the General Assembly in Paris, read in American Rhetoric's transcription"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Universal Declaration of Human Rights",
+			"url": "https://en.wikipedia.org/w/index.php?title=Universal_Declaration_of_Human_Rights&oldid=1376139589",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charter of the United Nations",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charter_of_the_United_Nations&oldid=1377819198",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "René Cassin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ren%C3%A9_Cassin&oldid=1347268826",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Peters Humphrey",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Peters_Humphrey&oldid=1372503937",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "P. C. Chang",
+			"url": "https://en.wikipedia.org/w/index.php?title=P._C._Chang&oldid=1365299395",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Malik",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Malik&oldid=1368533610",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hansa Mehta",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hansa_Mehta&oldid=1376495391",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "International Covenant on Economic, Social and Cultural Rights",
+			"url": "https://en.wikipedia.org/w/index.php?title=International_Covenant_on_Economic,_Social_and_Cultural_Rights&oldid=1354460654",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "International Covenant on Civil and Political Rights",
+			"url": "https://en.wikipedia.org/w/index.php?title=International_Covenant_on_Civil_and_Political_Rights&oldid=1378061409",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "International Bill of Human Rights",
+			"url": "https://en.wikipedia.org/w/index.php?title=International_Bill_of_Human_Rights&oldid=1325696764",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "European Convention on Human Rights",
+			"url": "https://en.wikipedia.org/w/index.php?title=European_Convention_on_Human_Rights&oldid=1377938490",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "media",
+			"title": "Palais de Chaillot where the UN General Assembly is Being Held",
+			"url": "https://commons.wikimedia.org/wiki/File:Palais_de_Chaillot_where_the_UN_General_Assembly_is_Being_Held_-_DPLA_-_38cdd2964f7bb99e95f51a6936bb3acd.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "chaillot.jpg",
+			"container": "Photographs of Marshall Plan Programs, Exhibits, and Personnel, 1948–1967, National Archives and Records Administration",
+			"number": "NAID 19999523",
+			"published": "1951-11",
+			"circa": true,
+			"note": "A US government photograph of the Marshall Plan's programs; dated by the photographs filed beside it"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/magna-carta",
+			"why": "Eleanor Roosevelt told the General Assembly she hoped the Declaration would become \"the international Magna Carta of all men everywhere\"."
+		},
+		{
+			"to": "ai/constitutional-ai",
+			"why": "Anthropic's published constitution of 2023 named the Universal Declaration of Human Rights among the sources of the principles its model was trained to follow."
+		}
+	]
+}

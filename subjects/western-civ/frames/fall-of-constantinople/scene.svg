@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M14 190 L390 190"/>
+		<path pathLength="1" d="M14 167 L390 167"/>
+		<path pathLength="1" d="M14 144 L390 144"/>
+		<path pathLength="1" d="M14 121 L390 121"/>
+		<path pathLength="1" d="M14 98 L390 98"/>
+		<path pathLength="1" d="M14 236 L122 236"/>
+		<path pathLength="1" d="M24 254.4 L116 254.4"/>
+		<path pathLength="1" d="M24 245.2 L24 263.6"/>
+		<path pathLength="1" d="M116 245.2 L116 263.6"/>
+		<path pathLength="1" d="M16 190 L16 236"/>
+		<path pathLength="1" d="M198 190 L198 150.9"/>
+		<path pathLength="1" d="M319.2 190 L319.2 134.8"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M14 190 L24 190 L33.2 236 L106.8 236 L116 190 L116 183.1 L119.7 183.1 L119.7 190 L208 190"/>
+		<path pathLength="1" d="M208 190 L208 150.9 L210.8 150.9 L210.8 147.7 L214.4 147.7 L214.4 150.9 L217.2 150.9 L217.2 190"/>
+		<path pathLength="1" d="M217.2 190 L286.2 190"/>
+		<path pathLength="1" d="M286.2 190 L286.2 134.8 L290.8 134.8 L290.8 131.1 L295.4 131.1 L295.4 134.8 L300 134.8 L300 131.1 L304.6 131.1 L304.6 134.8 L309.2 134.8 L309.2 190"/>
+		<path pathLength="1" d="M309.2 190 L390 190"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M203.4 150.9 L203.4 130.2 L226.4 130.2 L226.4 150.9"/>
+		<path pathLength="1" d="M277 134.8 L277 107.2 L323 107.2 L323 134.8"/>
+		<path pathLength="1" d="M286.2 176.2 L309.2 176.2"/>
+		<path pathLength="1" d="M286.2 162.4 L309.2 162.4"/>
+		<path pathLength="1" d="M286.2 148.6 L309.2 148.6"/>
+		<path pathLength="1" d="M14 167 L18.9 163.6 L23.7 160.3 L28.5 157.3 L33.4 154.4 L38.2 151.7 L43.1 149.2 L47.9 146.8 L52.8 144.6 L57.6 142.6 L62.5 140.8 L67.3 139.1 L72.2 137.6 L77.1 136.3 L81.9 135.2 L86.8 134.2 L91.6 133.4 L96.5 132.8 L101.3 132.3 L106.1 132.1 L111 132 L115.9 132.1 L120.7 132.3 L125.5 132.8 L130.4 133.4 L135.2 134.2 L140.1 135.2 L145 136.3 L149.8 137.6 L154.7 139.1 L159.5 140.8 L164.3 142.6 L169.2 144.6 L174 146.8 L178.9 149.2 L183.8 151.7 L188.6 154.4 L193.5 157.3 L198.3 160.3 L203.2 163.6 L208 167"/>
+		<path pathLength="1" d="M203.1 166.2 L208 167 L205.6 162.6"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="70" y="265.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MOAT 20 M</text>
+		<text x="13" y="216" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10</text>
+		<text x="195" y="173.4" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8.5</text>
+		<text x="322.2" y="165.4" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">12</text>
+		<text x="212.6" y="208.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OUTER</text>
+		<text x="297.7" y="208.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">INNER</text>
+		<text x="251.7" y="180.8" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PERIBOLOS</text>
+		<text x="30" y="40" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WEST</text>
+		<text x="380" y="40" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CITY</text>
+		<text x="200" y="282" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THEODOSIAN LAND WALLS · SECTION · METERS</text>
+	</g>
+</svg>

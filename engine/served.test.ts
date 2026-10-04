@@ -22,13 +22,13 @@ describe('a served subject', () => {
 		const head = subjectHeadOf(subject);
 		expect(around(head, 'greek-inquiry')).toEqual([
 			'greek-inquiry',
+			'alexander',
+			'socrates',
 			'eratosthenes',
-			'writing',
-			'pantheon',
-			'prometheus'
+			'greek-tragedy'
 		]);
 		// At the start of the spine, only what is there.
-		expect(around(head, 'prometheus')).toEqual(['prometheus', 'writing', 'greek-inquiry']);
+		expect(around(head, 'prometheus')).toEqual(['prometheus', 'writing', 'hammurabi']);
 		// A trail's frame, on its trail.
 		expect(around(head, 'royal-cubit', 1)).toEqual(['royal-cubit', 'harrison-chronometer']);
 		expect(around(head, 'nope')).toEqual([]);

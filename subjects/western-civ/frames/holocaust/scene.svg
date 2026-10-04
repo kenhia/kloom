@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 232 L40 46"/>
+		<path pathLength="1" d="M76.3 232 L76.3 46"/>
+		<path pathLength="1" d="M112.7 232 L112.7 46"/>
+		<path pathLength="1" d="M149 232 L149 46"/>
+		<path pathLength="1" d="M185.3 232 L185.3 46"/>
+		<path pathLength="1" d="M221.7 232 L221.7 46"/>
+		<path pathLength="1" d="M258 232 L258 46"/>
+		<path pathLength="1" d="M40 220.3 L258 220.3"/>
+		<path pathLength="1" d="M40 162.2 L258 162.2"/>
+		<path pathLength="1" d="M40 104.1 L258 104.1"/>
+		<path pathLength="1" d="M40 46 L258 46"/>
+		<path pathLength="1" d="M278 252 L392 252"/>
+		<path pathLength="1" d="M278 252 L282 252"/>
+		<path pathLength="1" d="M278 192 L282 192"/>
+		<path pathLength="1" d="M278 132 L282 132"/>
+		<path pathLength="1" d="M278 72 L282 72"/>
+		<path pathLength="1" d="M280 252 L280 72"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M61.9 95 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M64.9 95 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M182.7 67.4 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M185.7 67.4 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M238.7 136.2 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M241.7 136.2 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M233.8 198.7 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M236.8 198.7 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M202.6 149.4 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M205.6 149.4 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M78.3 218.2 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0"/>
+		<path pathLength="1" d="M81.3 218.2 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M290 246.1 L306 246.1 L306 252 L290 252 Z"/>
+		<path pathLength="1" d="M316 147.7 L332 147.7 L332 252 L316 252 Z"/>
+		<path pathLength="1" d="M342 227.7 L358 227.7 L358 252 L342 252 Z"/>
+		<path pathLength="1" d="M368 80.7 L384 80.7 L384 252 L368 252 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M146.9 88.2 L151.9 88.2 L151.9 93.2 L146.9 93.2 Z"/>
+		<path pathLength="1" d="M90.4 115.6 L95.4 115.6 L95.4 120.6 L90.4 120.6 Z"/>
+		<path pathLength="1" d="M107.9 214.3 L112.9 214.3 L112.9 219.3 L107.9 219.3 Z"/>
+		<path pathLength="1" d="M40 46 L258 46 L258 232 L40 232 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="58.4" y="98" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CHEŁMNO</text>
+		<text x="187.2" y="58.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TREBLINKA</text>
+		<text x="235.2" y="139.2" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SOBIBÓR</text>
+		<text x="238.3" y="212.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BEŁŻEC</text>
+		<text x="199.1" y="152.4" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MAJDANEK</text>
+		<text x="82.8" y="209.2" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AUSCHWITZ</text>
+		<text x="155.4" y="93.7" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WARSAW</text>
+		<text x="98.9" y="121.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ŁÓDŹ</text>
+		<text x="116.4" y="219.8" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KRAKÓW</text>
+		<text x="37" y="223.3" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">50°N</text>
+		<text x="37" y="107.1" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">52°N</text>
+		<text x="76.3" y="243" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">19°E</text>
+		<text x="149" y="243" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">21°E</text>
+		<text x="221.7" y="243" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">23°E</text>
+		<text x="298" y="263" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">L</text>
+		<text x="324" y="263" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="350" y="263" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S</text>
+		<text x="376" y="263" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">T</text>
+		<text x="276" y="195" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">250K</text>
+		<text x="276" y="135" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">500K</text>
+		<text x="276" y="75" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">750K</text>
+		<text x="334" y="50" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HÖFLE TELEGRAM</text>
+		<text x="334" y="60" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TO 31 DEC 1942</text>
+		<text x="149" y="34" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KILLING CENTERS · OCCUPIED POLAND</text>
+	</g>
+</svg>

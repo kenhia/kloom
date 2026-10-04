@@ -1,0 +1,279 @@
+{
+	"id": "fall-of-constantinople",
+	"topic": "The fall of Constantinople",
+	"position": {
+		"label": "AD 1453",
+		"sort": 1453
+	},
+	"scene": {
+		"headline": "The second Rome",
+		"accent": "FELL.",
+		"palette": "marble",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CONSTANTINOPLE · MEHMED II · CONSTANTINE XI",
+			"6 APRIL – 29 MAY 1453 · THEODOSIAN WALLS · ORBAN'S BOMBARD"
+		],
+		"counter": {
+			"value": "1,479",
+			"label": "years from Augustus to the fall, by one count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "The History of the Decline and Fall of the Roman Empire, Volume 6",
+			"authors": [
+				{
+					"family": "Gibbon",
+					"given": "Edward"
+				}
+			],
+			"published": "1788",
+			"url": "https://www.gutenberg.org/ebooks/736",
+			"accessed": "2026-10-03",
+			"note": "Chapter 68, on Sphrantzes's count, the ships carried overland and Hagia Sophia",
+			"key": true,
+			"publisher": "Strahan and Cadell",
+			"place": "London"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fall of Constantinople",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fall_of_Constantinople&oldid=1377926741",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Walls of Constantinople",
+			"url": "https://en.wikipedia.org/w/index.php?title=Walls_of_Constantinople&oldid=1377846097",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Constantine XI Palaiologos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Constantine_XI_Palaiologos&oldid=1376864949",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mehmed II",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mehmed_II&oldid=1375657631",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hagia Sophia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hagia_Sophia&oldid=1377416690",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Byzantines",
+			"url": "https://en.wikipedia.org/w/index.php?title=Byzantines&oldid=1377959317",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Byzantine Empire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Byzantine_Empire&oldid=1378142908",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ottoman Empire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ottoman_Empire&oldid=1375893091",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Manuel Chrysoloras",
+			"url": "https://en.wikipedia.org/w/index.php?title=Manuel_Chrysoloras&oldid=1359663533",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Argyropoulos",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Argyropoulos&oldid=1367785101",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bessarion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bessarion&oldid=1375986402",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Biblioteca Marciana",
+			"url": "https://en.wikipedia.org/w/index.php?title=Biblioteca_Marciana&oldid=1377787555",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Greek scholars in the Renaissance",
+			"url": "https://en.wikipedia.org/w/index.php?title=Greek_scholars_in_the_Renaissance&oldid=1369931245",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "media",
+			"title": "Le siège de Constantinople",
+			"authors": [
+				{
+					"family": "Le Tavernier",
+					"given": "Jean"
+				}
+			],
+			"published": "1455",
+			"circa": true,
+			"container": "Bertrandon de la Broquière, Advis directif pour faire le passage d'oultre-mer, Bibliothèque nationale de France, MS Français 9087",
+			"url": "https://commons.wikimedia.org/wiki/File:Siege_of_Constantinople_BnF_MS_Fr_9087.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "siege.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "How big were the armies at Constantinople in 1453?",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Wikipedia, Fall of Constantinople",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fall_of_Constantinople&oldid=1377926741",
+			"accessed": "2026-10-03",
+			"licence": "MIT",
+			"file": "armies.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/gunpowder",
+			"why": "The gunpowder Chinese alchemists found, which had reached Europe by the thirteenth century, fed the Ottoman bombards that breached Constantinople's walls in 1453."
+		},
+		{
+			"to": "physics/archimedes",
+			"why": "Archimedes' works survive in a copy made in Constantinople around 950, one of the Byzantine manuscripts through which Greek learning reached the West."
+		},
+		{
+			"to": "mathematics/zeno",
+			"why": "John Argyropoulos, the Byzantine scholar who copied Simplicius's commentary in Florence in 1441, fled after 1453 and taught Greek in Florence from 1456."
+		},
+		{
+			"to": "western-civ/augustus",
+			"why": "The Roman state Augustus founded in 27 BC ended with the last emperor on the walls in 1453."
+		},
+		{
+			"to": "western-civ/justinian",
+			"why": "Mehmed II made Justinian's Hagia Sophia a mosque."
+		}
+	]
+}

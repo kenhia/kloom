@@ -1,0 +1,400 @@
+{
+	"id": "factory-city",
+	"topic": "The factory and the industrial city",
+	"position": {
+		"label": "AD 1830–1850",
+		"sort": 1845
+	},
+	"scene": {
+		"headline": "The hands lived by the",
+		"accent": "BELL.",
+		"palette": "brick",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MANCHESTER · ANCOATS · LITTLE IRELAND",
+			"SPINNING MULE · LINE SHAFT · FACTORY ACTS"
+		],
+		"counter": {
+			"value": "17",
+			"label": "average age at death, Manchester laborers' families, 1842"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/steam",
+			"why": "The rotative engines Boulton and Watt built to turn wheels are what moved cotton spinning off the rivers and into Manchester's mills."
+		},
+		{
+			"to": "nursing/farr",
+			"why": "Chadwick's average ages at death made Manchester's laborers look short-lived mostly through their children's deaths; Farr's rates at the same ages, which the nursing frame works through, still counted Manchester among the unhealthiest towns."
+		},
+		{
+			"to": "western-civ/abolition",
+			"why": "Lancashire's mills spun cotton grown by the enslaved in the American South."
+		},
+		{
+			"to": "western-civ/revolutions-of-1848",
+			"why": "Engels's Manchester led to the Communist Manifesto of 1848."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Condition of the Working-Class in England in 1844",
+			"authors": [
+				{
+					"family": "Engels",
+					"given": "Friedrich"
+				}
+			],
+			"translators": [
+				{
+					"family": "Kelley",
+					"given": "Florence"
+				}
+			],
+			"publisher": "Swan Sonnenschein",
+			"place": "London",
+			"published": "1892",
+			"url": "https://www.gutenberg.org/ebooks/17306",
+			"accessed": "2026-10-03",
+			"note": "Little Ireland, and the mill rules and fines; read in Project Gutenberg's text of the 1892 edition"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report to Her Majesty's Principal Secretary of State for the Home Department, from the Poor Law Commissioners, on an Inquiry into the Sanitary Condition of the Labouring Population of Great Britain",
+			"authors": [
+				{
+					"family": "Chadwick",
+					"given": "Edwin"
+				}
+			],
+			"publisher": "W. Clowes and Sons for Her Majesty's Stationery Office",
+			"place": "London",
+			"published": "1842",
+			"url": "https://archive.org/details/b21365143",
+			"accessed": "2026-10-03",
+			"note": "The average ages at death by class are on p. 157, the children's deaths on p. 158"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cotton mill",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cotton_mill&oldid=1376172392",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22",
+			"key": true
+		},
+		{
+			"kind": "report",
+			"title": "Manchester's population over time",
+			"publisher": "Manchester City Council",
+			"number": "Public Intelligence A20",
+			"url": "https://www.manchester.gov.uk/download/downloads/id/25393/a20_1086-2016_manchester_population.pdf",
+			"accessed": "2026-10-03",
+			"note": "Census counts, 1801–2011; read in the Wayback Machine's copy"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cottonopolis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cottonopolis&oldid=1362432939",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of Manchester",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_Manchester&oldid=1374345226",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spinning mule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spinning_mule&oldid=1363499799",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Water frame",
+			"url": "https://en.wikipedia.org/w/index.php?title=Water_frame&oldid=1373678844",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Factory Acts",
+			"url": "https://en.wikipedia.org/w/index.php?title=Factory_Acts&oldid=1377077045",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Factories Act 1847",
+			"url": "https://en.wikipedia.org/w/index.php?title=Factories_Act_1847&oldid=1370001889",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Condition of the Working Class in England",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Condition_of_the_Working_Class_in_England&oldid=1364073323",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Friedrich Engels",
+			"url": "https://en.wikipedia.org/w/index.php?title=Friedrich_Engels&oldid=1378370788",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1826–1837 cholera pandemic",
+			"url": "https://en.wikipedia.org/w/index.php?title=1826%E2%80%931837_cholera_pandemic&oldid=1358251305",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1846–1860 cholera pandemic",
+			"url": "https://en.wikipedia.org/w/index.php?title=1846%E2%80%931860_cholera_pandemic&oldid=1376350189",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edwin Chadwick",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edwin_Chadwick&oldid=1369995483",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Farr",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Farr&oldid=1353191664",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Local board of health",
+			"url": "https://en.wikipedia.org/w/index.php?title=Local_board_of_health&oldid=1360919602",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-24"
+		},
+		{
+			"kind": "article",
+			"title": "The Rising Standard of Living in England, 1800–1850",
+			"authors": [
+				{
+					"family": "Hartwell",
+					"given": "R. M."
+				}
+			],
+			"container": "The Economic History Review",
+			"volume": "13",
+			"issue": "3",
+			"pages": "397–416",
+			"published": "1961",
+			"doi": "10.1111/j.1468-0289.1961.tb02127.x",
+			"accessed": "2026-10-03",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"title": "Pessimism Perpetuated: Real Wages and the Standard of Living in Britain during and after the Industrial Revolution",
+			"authors": [
+				{
+					"family": "Feinstein",
+					"given": "Charles H."
+				}
+			],
+			"container": "The Journal of Economic History",
+			"volume": "58",
+			"issue": "3",
+			"pages": "625–658",
+			"published": "1998-09",
+			"doi": "10.1017/S0022050700021100",
+			"accessed": "2026-10-03",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Industrial Revolution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Industrial_Revolution&oldid=1377441838",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lancashire Cotton Famine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lancashire_Cotton_Famine&oldid=1345467013",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-26",
+			"key": true
+		},
+		{
+			"kind": "letter",
+			"title": "To the Workingmen of Manchester, England",
+			"authors": [
+				{
+					"family": "Lincoln",
+					"given": "Abraham"
+				}
+			],
+			"recipients": [
+				{
+					"name": "The workingmen of Manchester"
+				}
+			],
+			"written": "1863-01-19",
+			"container": "Collected Works of Abraham Lincoln",
+			"volume": "6",
+			"pages": "63–65",
+			"editors": [
+				{
+					"family": "Basler",
+					"given": "Roy P."
+				}
+			],
+			"publisher": "Rutgers University Press",
+			"place": "New Brunswick, NJ",
+			"published": "1953",
+			"url": "https://quod.lib.umich.edu/l/lincoln/lincoln6/1:117?rgn=div1;view=fulltext",
+			"accessed": "2026-10-03",
+			"note": "Read in the Wayback Machine's copy of the University of Michigan's text"
+		},
+		{
+			"kind": "media",
+			"title": "Average age at death by class, Manchester and Rutland, as Chadwick printed it in 1842",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chadwick, Report on the Sanitary Condition of the Labouring Population of Great Britain (1842), p. 157",
+			"url": "https://archive.org/details/b21365143/page/n192",
+			"accessed": "2026-10-03",
+			"licence": "MIT",
+			"file": "age-at-death.svg"
+		}
+	]
+}

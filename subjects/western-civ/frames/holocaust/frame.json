@@ -1,0 +1,427 @@
+{
+	"id": "holocaust",
+	"topic": "The Holocaust",
+	"position": {
+		"label": "AD 1933–1945",
+		"sort": 1941
+	},
+	"scene": {
+		"headline": "Nazi Germany set out to murder a",
+		"accent": "PEOPLE.",
+		"palette": "steel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERLIN · WANNSEE · AUSCHWITZ · TREBLINKA",
+			"NUREMBERG LAWS · EINSATZGRUPPEN · KILLING CENTERS"
+		],
+		"counter": {
+			"value": "6,000,000",
+			"label": "Jews murdered, about"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "How Many People did the Nazis Murder?",
+			"container": "Holocaust Encyclopedia",
+			"publisher": "United States Holocaust Memorial Museum",
+			"authors": [
+				{
+					"name": "United States Holocaust Memorial Museum"
+				}
+			],
+			"published": "2023-09-26",
+			"url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+			"accessed": "2026-10-03",
+			"note": "The counts by method and by group, and how they were calculated"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Protocol of Meeting [the Wannsee Protocol], 20 January 1942",
+			"authors": [
+				{
+					"name": "Reich Security Main Office"
+				}
+			],
+			"translators": [
+				{
+					"name": "House of the Wannsee Conference"
+				}
+			],
+			"publisher": "House of the Wannsee Conference",
+			"place": "Berlin",
+			"url": "https://www.ghwk.de/fileadmin/Redaktion/PDF/Konferenz/Protokolle/240305_Protokoll_Englisch.pdf",
+			"accessed": "2026-10-03",
+			"note": "The surviving 16th copy, transcribed and translated; quoted from it"
+		},
+		{
+			"kind": "statute",
+			"title": "Law for the Protection of German Blood and German Honor of 15 September 1935",
+			"code": {
+				"name": "Reichsgesetzblatt 1935, Teil I",
+				"page": "1146"
+			},
+			"published": "1935-09-15",
+			"container": "Nazi Conspiracy and Aggression, vol. 4, document 2000-PS (translation)",
+			"publisher": "Avalon Project, Yale Law School",
+			"url": "https://avalon.law.yale.edu/imt/2000-ps.asp",
+			"accessed": "2026-10-03",
+			"note": "Translated for the Office of the United States Chief of Counsel, 1946"
+		},
+		{
+			"kind": "statute",
+			"title": "The Reich Citizenship Law of 15 Sept 1935",
+			"code": {
+				"name": "Reichsgesetzblatt 1935, Teil I",
+				"page": "1146"
+			},
+			"published": "1935-09-15",
+			"container": "Nazi Conspiracy and Aggression, vol. 4, document 1416-PS (translation)",
+			"publisher": "Avalon Project, Yale Law School",
+			"url": "https://avalon.law.yale.edu/imt/1416-ps.asp",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "article",
+			"title": "A New Document on the Deportation and Murder of Jews during \"Einsatz Reinhardt\" 1942",
+			"authors": [
+				{
+					"family": "Witte",
+					"given": "Peter"
+				},
+				{
+					"family": "Tyas",
+					"given": "Stephen"
+				}
+			],
+			"container": "Holocaust and Genocide Studies",
+			"volume": "15",
+			"issue": "3",
+			"pages": "468–486",
+			"published": "2001",
+			"doi": "10.1093/hgs/15.3.468",
+			"accessed": "2026-10-03",
+			"read": "record"
+		},
+		{
+			"kind": "web",
+			"title": "FAQs: Central Database of Shoah Victims' Names",
+			"publisher": "Yad Vashem",
+			"container": "Yad Vashem",
+			"url": "https://www.yadvashem.org/archive/hall-of-names/database/faq.html",
+			"accessed": "2026-10-03",
+			"note": "Hilberg's 5.1 million, Leschinsky's 5.95 million, and the later ranges"
+		},
+		{
+			"kind": "web",
+			"title": "FAQs",
+			"publisher": "Yad Vashem",
+			"container": "The Holocaust Resource Center",
+			"url": "https://www.yadvashem.org/holocaust/faqs.html",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "Documenting History: Eisenhower and the Holocaust",
+			"publisher": "National Park Service",
+			"container": "Eisenhower National Historic Site",
+			"url": "https://www.nps.gov/articles/000/eisenhower-and-the-holocaust.htm",
+			"accessed": "2026-10-03",
+			"note": "Eisenhower's letter to Marshall of 15 April 1945, quoted"
+		},
+		{
+			"kind": "book",
+			"title": "If This Is a Man",
+			"authors": [
+				{
+					"family": "Levi",
+					"given": "Primo"
+				}
+			],
+			"translators": [
+				{
+					"family": "Woolf",
+					"given": "Stuart"
+				}
+			],
+			"publisher": "Orion Press",
+			"place": "New York",
+			"published": "1959",
+			"url": "https://archive.org/details/ifthisisaman011063mbp",
+			"accessed": "2026-10-03",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets, for the one sentence quoted"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Holocaust",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Holocaust&oldid=1376446924",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Höfle telegram",
+			"url": "https://en.wikipedia.org/w/index.php?title=H%C3%B6fle_telegram&oldid=1377420313",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wannsee Conference",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wannsee_Conference&oldid=1376370075",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nuremberg Laws",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nuremberg_Laws&oldid=1378015614",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kristallnacht",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kristallnacht&oldid=1374804347",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Babi Yar",
+			"url": "https://en.wikipedia.org/w/index.php?title=Babi_Yar&oldid=1373783455",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Einsatzgruppen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Einsatzgruppen&oldid=1371371113",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aktion T4",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aktion_T4&oldid=1377594650",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Law for the Restoration of the Professional Civil Service",
+			"url": "https://en.wikipedia.org/w/index.php?title=Law_for_the_Restoration_of_the_Professional_Civil_Service&oldid=1357518497",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Extermination camp",
+			"url": "https://en.wikipedia.org/w/index.php?title=Extermination_camp&oldid=1373564457",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Raul Hilberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Raul_Hilberg&oldid=1377610948",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "USC Shoah Foundation",
+			"url": "https://en.wikipedia.org/w/index.php?title=USC_Shoah_Foundation&oldid=1373397707",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Primo Levi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Primo_Levi&oldid=1372013262",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Warsaw Ghetto Uprising",
+			"url": "https://en.wikipedia.org/w/index.php?title=Warsaw_Ghetto_Uprising&oldid=1378069961",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rescue of the Danish Jews",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rescue_of_the_Danish_Jews&oldid=1377166643",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Raphael Lemkin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Raphael_Lemkin&oldid=1376145925",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genocide Convention",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genocide_Convention&oldid=1378018795",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "media",
+			"title": "Reichsgesetzblatt 1935, Teil I, page 1146: the Reich Citizenship Law and the Law for the Protection of German Blood and German Honor",
+			"url": "https://commons.wikimedia.org/wiki/File:Blutschutzgesetz_v.15.9.1935_-_RGBl_I_1146gesamt.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "nuremberg-laws.jpg",
+			"container": "Reichsgesetzblatt",
+			"published": "1935-09-16",
+			"note": "An official German gazette (PD-GermanGov)"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/bombe",
+			"why": "The Höfle telegram, the SS's own count of the Jews murdered in Operation Reinhard's camps in 1942, was enciphered on the Enigma and read at Bletchley Park, then filed unrecognized until 2001."
+		},
+		{
+			"to": "mathematics/noether",
+			"why": "Emmy Noether lost her right to teach under the Nazi civil-service law of April 1933, the first of the anti-Jewish laws that led to the Holocaust."
+		},
+		{
+			"to": "blood/race-serology",
+			"why": "The serologist Ludwik Hirszfeld, whose blood-group 'race index' German race scientists took up, was dismissed as a 'non-Aryan' and forced into the Warsaw Ghetto in 1941."
+		},
+		{
+			"to": "western-civ/udhr",
+			"why": "The Genocide Convention was adopted the day before the Universal Declaration."
+		}
+	]
+}

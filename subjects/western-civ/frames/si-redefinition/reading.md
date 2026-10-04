@@ -10,7 +10,7 @@ The [meter](kloom:e/metre) had left its bar behind in 1960. The kilogram could n
 of a method precise enough. Its definition was the **[International Prototype
 of the Kilogram](kloom:e/international-prototype-of-the-kilogram)**, made in London in 1879 by **Johnson Matthey** and ratified
 as _the_ kilogram by the first General Conference on Weights and Measures
-(CGPM) in 1889. It is a cylinder of platinum with 10 per cent iridium, about
+(CGPM) in 1889. It is a cylinder of platinum with 10 percent iridium, about
 39 millimeters high and as wide, kept under nested bell jars in a basement
 vault at the **Pavillon de Breteuil** in Saint-Cloud, the seat of the
 [International Bureau of Weights and Measures](kloom:e/international-bureau-of-weights-and-measures) (BIPM). Opening the vault took

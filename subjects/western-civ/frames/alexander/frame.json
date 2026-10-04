@@ -1,0 +1,251 @@
+{
+	"id": "alexander",
+	"topic": "Alexander and the Hellenistic world",
+	"position": {
+		"label": "334–323 BC",
+		"sort": -334
+	},
+	"scene": {
+		"headline": "Greek reached the",
+		"accent": "INDUS.",
+		"palette": "marble",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PELLA · BABYLON · ALEXANDRIA · AI-KHANOUM",
+			"ALEXANDER III OF MACEDON · THE SUCCESSOR KINGDOMS"
+		],
+		"counter": {
+			"value": "14,500",
+			"label": "kilometers of his route in straight legs, by our arithmetic"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/eratosthenes",
+			"why": "Eratosthenes was one of the chief librarians of the Library of Alexandria, the Ptolemies' library in the city Alexander laid out."
+		},
+		{
+			"to": "mathematics/euclid-elements",
+			"why": "Euclid wrote the Elements in Alexandria, the Greek city Alexander founded on the coast of Egypt, under the first Ptolemies."
+		},
+		{
+			"to": "physics/archimedes",
+			"why": "Archimedes sent his Method from Syracuse to Eratosthenes, the librarian at Alexandria, the center of Hellenistic learning."
+		},
+		{
+			"to": "chemistry/alexandrian-alchemy",
+			"why": "Greek, spread by Alexander's conquests, was still the language of Egypt's workshops six centuries later, when the first alchemists wrote their recipes and stills in it."
+		},
+		{
+			"to": "western-civ/hebrew-bible",
+			"why": "The Hebrew Bible was translated into Greek at Alexandria under Ptolemy II."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Anabasis of Alexander",
+			"authors": [
+				{
+					"name": "Arrian"
+				}
+			],
+			"translators": [
+				{
+					"family": "Chinnock",
+					"given": "E. J."
+				}
+			],
+			"publisher": "Hodder and Stoughton",
+			"place": "London",
+			"published": "1884",
+			"url": "https://www.gutenberg.org/ebooks/46976",
+			"accessed": "2026-10-03",
+			"note": "Read in Project Gutenberg's copy: Tyre (book 2), the founding of Alexandria (book 3), Coenus at the Hyphasis (book 5) and the feast at Opis (book 7)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Alexandria: Library of Dreams",
+			"authors": [
+				{
+					"family": "Bagnall",
+					"given": "Roger S."
+				}
+			],
+			"container": "Proceedings of the American Philosophical Society",
+			"volume": "146",
+			"issue": "4",
+			"pages": "348–362",
+			"published": "2002-12",
+			"url": "http://archive.nyu.edu/handle/2451/28263",
+			"accessed": "2026-10-03",
+			"note": "The ancient figures for the Library's size and the suspects in its destruction; read in the author's copy in NYU's Faculty Digital Archive"
+		},
+		{
+			"kind": "book",
+			"title": "The Attic Nights",
+			"authors": [
+				{
+					"name": "Aulus Gellius"
+				}
+			],
+			"translators": [
+				{
+					"family": "Rolfe",
+					"given": "J. C."
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1927",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/7*.html",
+			"accessed": "2026-10-03",
+			"note": "Book 7, chapter 17: the 700,000 volumes"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alexander the Great",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alexander_the_Great&oldid=1378259908",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wars of Alexander the Great",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wars_of_Alexander_the_Great&oldid=1378345934",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Diadochi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diadochi&oldid=1366264028",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hellenistic period",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hellenistic_period&oldid=1377976747",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Koine Greek",
+			"url": "https://en.wikipedia.org/w/index.php?title=Koine_Greek&oldid=1376988198",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ai-Khanoum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ai-Khanoum&oldid=1365229269",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Library of Alexandria",
+			"url": "https://en.wikipedia.org/w/index.php?title=Library_of_Alexandria&oldid=1375844031",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mouseion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mouseion&oldid=1368628319",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alexander Mosaic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alexander_Mosaic&oldid=1365101791",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-20"
+		},
+		{
+			"kind": "media",
+			"title": "Alexander Mosaic",
+			"url": "https://commons.wikimedia.org/wiki/File:Alexander_Mosaic_(6000_x_3730).jpg",
+			"accessed": "2026-10-03",
+			"licence": "CC BY-SA 2.0",
+			"file": "alexander-mosaic.jpg",
+			"authors": [
+				{
+					"name": "Lucas"
+				}
+			],
+			"container": "House of the Faun, Pompeii; National Archaeological Museum, Naples",
+			"published": "2015"
+		}
+	]
+}

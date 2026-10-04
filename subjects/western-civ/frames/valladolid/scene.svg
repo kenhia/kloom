@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M120 26 L120 176"/>
+		<path pathLength="1" d="M173 26 L173 176"/>
+		<path pathLength="1" d="M226 26 L226 176"/>
+		<path pathLength="1" d="M296 26 L296 176"/>
+		<path pathLength="1" d="M349 26 L349 176"/>
+		<path pathLength="1" d="M380 26 L380 176"/>
+		<path pathLength="1" d="M120 40 L380 40"/>
+		<path pathLength="1" d="M120 68 L380 68"/>
+		<path pathLength="1" d="M120 96 L380 96"/>
+		<path pathLength="1" d="M120 124 L380 124"/>
+		<path pathLength="1" d="M120 152 L380 152"/>
+		<path pathLength="1" d="M120 220 L120 272"/>
+		<path pathLength="1" d="M120 268 L120 272"/>
+		<path pathLength="1" d="M160 268 L160 272"/>
+		<path pathLength="1" d="M200 268 L200 272"/>
+		<path pathLength="1" d="M240 268 L240 272"/>
+		<path pathLength="1" d="M280 268 L280 272"/>
+		<path pathLength="1" d="M320 268 L320 272"/>
+		<path pathLength="1" d="M360 268 L360 272"/>
+		<path pathLength="1" d="M120 270 L360 270"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M120 176 L380 176"/>
+		<path pathLength="1" d="M120 176 L120 181"/>
+		<path pathLength="1" d="M173 176 L173 181"/>
+		<path pathLength="1" d="M226 176 L226 181"/>
+		<path pathLength="1" d="M296 176 L296 181"/>
+		<path pathLength="1" d="M349 176 L349 181"/>
+		<path pathLength="1" d="M380 176 L380 181"/>
+		<path pathLength="1" d="M156.5 40 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M192 68 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M341 96 L358 96"/>
+		<path pathLength="1" d="M341 91 L341 101"/>
+		<path pathLength="1" d="M358 91 L358 101"/>
+		<path pathLength="1" d="M298.6 124 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M287.6 152 L330.2 152"/>
+		<path pathLength="1" d="M287.6 147 L287.6 157"/>
+		<path pathLength="1" d="M330.2 147 L330.2 157"/>
+		<path pathLength="1" d="M307.4 152 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M120 226 L362 226 L362 236 L120 236 Z"/>
+		<path pathLength="1" d="M120 252 L144.2 252 L144.2 262 L120 262 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M168.4 226 L168.4 236"/>
+		<path pathLength="1" d="M192.6 226 L192.6 236"/>
+		<path pathLength="1" d="M216.8 226 L216.8 236"/>
+		<path pathLength="1" d="M241 226 L241 236"/>
+		<path pathLength="1" d="M265.2 226 L265.2 236"/>
+		<path pathLength="1" d="M289.4 226 L289.4 236"/>
+		<path pathLength="1" d="M313.6 226 L313.6 236"/>
+		<path pathLength="1" d="M337.8 226 L337.8 236"/>
+		<path pathLength="1" d="M144.2 236 L144.2 252"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="112" y="42.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KROEBER 1939</text>
+		<text x="112" y="70.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ROSENBLAT 1954</text>
+		<text x="112" y="98.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DOBYNS 1966</text>
+		<text x="112" y="126.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DENEVAN 1992</text>
+		<text x="112" y="154.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">KOCH 2019</text>
+		<text x="120" y="190" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5</text>
+		<text x="173" y="190" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10</text>
+		<text x="226" y="190" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">20</text>
+		<text x="296" y="190" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">50</text>
+		<text x="349" y="190" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">100</text>
+		<text x="380" y="190" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">150</text>
+		<text x="112" y="234" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1492</text>
+		<text x="112" y="259" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BY 1600</text>
+		<text x="366" y="234" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">60.5 M</text>
+		<text x="148.2" y="259" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">6 M</text>
+		<text x="112" y="272" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="250" y="18" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE AMERICAS IN 1492 · MILLIONS</text>
+	</g>
+</svg>

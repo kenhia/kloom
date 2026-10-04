@@ -1,0 +1,248 @@
+{
+	"id": "twelve-tables",
+	"topic": "The Twelve Tables",
+	"position": {
+		"label": "c. 451–450 BC",
+		"sort": -450
+	},
+	"scene": {
+		"headline": "We hung the law in the",
+		"accent": "FORUM.",
+		"palette": "marble",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ROME · THE DECEMVIRS · TWELVE BRONZE TABLETS",
+			"TABLE III · THIRTY DAYS · SIXTY DAYS · THREE MARKET DAYS"
+		],
+		"counter": {
+			"value": "60",
+			"label": "days a judgment debtor could be held in bonds"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"title": "The Twelve Tables",
+			"translators": [
+				{
+					"family": "Thatcher",
+					"given": "Oliver J."
+				}
+			],
+			"published": "1901",
+			"url": "https://sourcebooks.fordham.edu/ancient/12tables.asp",
+			"accessed": "2026-10-03",
+			"note": "Read in Fordham's Ancient History Sourcebook, modernized by J. S. Arkenberg; Tables I and III are quoted from it",
+			"key": true,
+			"container": "The Library of Original Sources, vol. 3, The Roman World",
+			"publisher": "University Research Extension Co.",
+			"place": "Milwaukee"
+		},
+		{
+			"kind": "book",
+			"title": "The History of Rome, Book 3",
+			"authors": [
+				{
+					"name": "Livy"
+				}
+			],
+			"translators": [
+				{
+					"family": "Roberts",
+					"given": "Canon"
+				}
+			],
+			"published": "1912",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=3:chapter=31",
+			"accessed": "2026-10-03",
+			"note": "Chapters 31–34 and 57, read in the Perseus Digital Library",
+			"key": true,
+			"publisher": "E. P. Dutton",
+			"place": "New York"
+		},
+		{
+			"kind": "book",
+			"title": "Gai Institutiones, or Institutes of Roman Law",
+			"authors": [
+				{
+					"name": "Gaius"
+				}
+			],
+			"translators": [
+				{
+					"family": "Poste",
+					"given": "Edward"
+				}
+			],
+			"published": "1904",
+			"url": "https://archive.org/details/gaiinstitutiones00gaiuuoft",
+			"accessed": "2026-10-03",
+			"note": "Book 4, §§ 11–16, on the actions of the law",
+			"key": true,
+			"edition": "4th ed.",
+			"publisher": "Clarendon Press",
+			"place": "Oxford"
+		},
+		{
+			"kind": "book",
+			"title": "Institutionum commentarius quartus",
+			"authors": [
+				{
+					"name": "Gaius"
+				}
+			],
+			"url": "https://www.thelatinlibrary.com/gaius4.html",
+			"accessed": "2026-10-03",
+			"language": "la",
+			"container": "The Latin Library"
+		},
+		{
+			"kind": "book",
+			"title": "Noctes Atticae, Book 20",
+			"authors": [
+				{
+					"name": "Aulus Gellius"
+				}
+			],
+			"url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Gellius/20*.html",
+			"accessed": "2026-10-03",
+			"language": "la",
+			"container": "LacusCurtius",
+			"note": "Chapter 1, §§ 45–52; the translations are ours"
+		},
+		{
+			"kind": "book",
+			"title": "De legibus, Book 2",
+			"authors": [
+				{
+					"name": "Cicero"
+				}
+			],
+			"url": "https://www.thelatinlibrary.com/cicero/leg2.shtml",
+			"accessed": "2026-10-03",
+			"language": "la",
+			"container": "The Latin Library",
+			"note": "§ 59; the translations are ours"
+		},
+		{
+			"kind": "book",
+			"title": "The Histories, Book 6",
+			"authors": [
+				{
+					"name": "Polybius"
+				}
+			],
+			"translators": [
+				{
+					"family": "Shuckburgh",
+					"given": "Evelyn S."
+				}
+			],
+			"published": "1889",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=6:chapter=11",
+			"accessed": "2026-10-03",
+			"note": "Chapters 11–18",
+			"publisher": "Macmillan",
+			"place": "London"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Twelve Tables",
+			"url": "https://en.wikipedia.org/w/index.php?title=Twelve_Tables&oldid=1378336890",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Decemviri",
+			"url": "https://en.wikipedia.org/w/index.php?title=Decemviri&oldid=1342153226",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nexum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nexum&oldid=1376979097",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lex Poetelia Papiria",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lex_Poetelia_Papiria&oldid=1174598927",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2023-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Constitution of the Roman Republic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Constitution_of_the_Roman_Republic&oldid=1374223640",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Institutes (Gaius)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Institutes_(Gaius)&oldid=1374128314",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/hammurabi",
+			"why": "Both laws were set up in public to be read: Hammurabi's stele told a wronged man to stand before it, and Livy says the Twelve Tables were engraved in bronze and exhibited in the Forum."
+		},
+		{
+			"to": "western-civ/athenian-democracy",
+			"why": "Livy says the Romans sent to Athens to copy Solon's laws before writing the Tables."
+		},
+		{
+			"to": "western-civ/justinian",
+			"why": "Gaius's commentary on the Twelve Tables reached the Corpus Juris Civilis in excerpts."
+		}
+	]
+}

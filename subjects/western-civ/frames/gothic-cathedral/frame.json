@@ -1,0 +1,367 @@
+{
+	"id": "gothic-cathedral",
+	"topic": "The Gothic cathedral",
+	"position": {
+		"label": "AD 1144",
+		"sort": 1144
+	},
+	"scene": {
+		"headline": "We made walls of",
+		"accent": "GLASS.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SAINT-DENIS · CHARTRES · AMIENS · BEAUVAIS",
+			"POINTED ARCH · RIB VAULT · FLYING BUTTRESS"
+		],
+		"counter": {
+			"value": "42.3 m",
+			"label": "from floor to vault at Amiens"
+		}
+	},
+	"asOf": "2026-10-03",
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Oeuvres complètes de Suger",
+			"authors": [
+				{
+					"name": "Suger"
+				}
+			],
+			"editors": [
+				{
+					"family": "Lecoy de la Marche",
+					"given": "Albert"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Veuve de Jules Renouard",
+			"published": "1867",
+			"language": "la",
+			"url": "https://archive.org/details/oeuvrescompltes00marcgoog",
+			"accessed": "2026-10-03",
+			"note": "Latin text of De administratione and De consecratione: the door verses, pp. 188–89; three years and three months, p. 190; the windows, p. 225. Translations in the reading are ours"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Fabric Rolls of York Minster",
+			"editors": [
+				{
+					"family": "Raine",
+					"given": "James"
+				}
+			],
+			"container": "Publications of the Surtees Society",
+			"volume": "35",
+			"place": "Durham",
+			"publisher": "Surtees Society",
+			"published": "1859",
+			"url": "https://archive.org/details/fabricrollsofyor00yorkrich",
+			"accessed": "2026-10-03",
+			"note": "The lodge inventory, pp. 18–19; the masons' ordinance of 1370, pp. 181–83"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Beauvais Cathedral: The Ambition, Collapse and Legacy of Gothic Engineering",
+			"authors": [
+				{
+					"family": "Rodríguez Elizalde",
+					"given": "Rubén"
+				}
+			],
+			"container": "Heritage",
+			"volume": "8",
+			"issue": "6",
+			"pages": "203",
+			"published": "2025-06-02",
+			"doi": "10.3390/heritage8060203",
+			"accessed": "2026-10-03",
+			"note": "Heyman's, Wolfe and Mark's and Murray's explanations of the collapse of 1284"
+		},
+		{
+			"kind": "letter",
+			"title": "To Serenus, Bishop of Massilia",
+			"authors": [
+				{
+					"name": "Gregory I"
+				}
+			],
+			"recipients": [
+				{
+					"name": "Serenus of Marseille"
+				}
+			],
+			"written": "600",
+			"circa": true,
+			"translators": [
+				{
+					"family": "Barmby",
+					"given": "James"
+				}
+			],
+			"container": "Nicene and Post-Nicene Fathers, Second Series",
+			"volume": "13",
+			"place": "Buffalo, NY",
+			"publisher": "Christian Literature Publishing",
+			"published": "1898",
+			"url": "https://www.newadvent.org/fathers/360211013.htm",
+			"accessed": "2026-10-03",
+			"note": "Book XI, letter 13; read in New Advent's copy"
+		},
+		{
+			"kind": "article",
+			"title": "Was art really the 'book of the illiterate'?",
+			"authors": [
+				{
+					"family": "Duggan",
+					"given": "Lawrence G."
+				}
+			],
+			"container": "Word & Image",
+			"volume": "5",
+			"issue": "3",
+			"pages": "227–51",
+			"published": "1989-07",
+			"doi": "10.1080/02666286.1989.10435406",
+			"accessed": "2026-10-03",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gothic architecture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gothic_architecture&oldid=1378117462",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chartres Cathedral",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chartres_Cathedral&oldid=1378097927",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Notre-Dame fire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Notre-Dame_fire&oldid=1376053682",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Suger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Suger&oldid=1378143041",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Basilica of Saint-Denis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Basilica_of_Saint-Denis&oldid=1377879339",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Flying buttress",
+			"url": "https://en.wikipedia.org/w/index.php?title=Flying_buttress&oldid=1366818064",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rib vault",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rib_vault&oldid=1375923291",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Amiens Cathedral",
+			"url": "https://en.wikipedia.org/w/index.php?title=Amiens_Cathedral&oldid=1354366427",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cathédrale Notre-Dame d'Amiens",
+			"url": "https://fr.wikipedia.org/w/index.php?title=Cath%C3%A9drale_Notre-Dame_d'Amiens&oldid=238906684",
+			"language": "fr",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert of Luzarches",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_of_Luzarches&oldid=1232824569",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-07-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert de Luzarches",
+			"url": "https://fr.wikipedia.org/w/index.php?title=Robert_de_Luzarches&oldid=239900914",
+			"language": "fr",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Beauvais Cathedral",
+			"url": "https://en.wikipedia.org/w/index.php?title=Beauvais_Cathedral&oldid=1367240368",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Villard de Honnecourt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Villard_de_Honnecourt&oldid=1350746206",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Poor Man's Bible",
+			"url": "https://en.wikipedia.org/w/index.php?title=Poor_Man's_Bible&oldid=1347363438",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-06"
+		},
+		{
+			"kind": "media",
+			"title": "System of buttresses at the Reims cathedral",
+			"authors": [
+				{
+					"name": "Villard de Honnecourt"
+				}
+			],
+			"container": "Portfolio of Villard de Honnecourt, Bibliothèque nationale de France, MS Fr 19093",
+			"number": "LCCN 2006681060",
+			"published": "1230",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:System_of_buttresses_at_the_Reims_cathedral_LCCN2006681060.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "villard-reims.jpg",
+			"note": "A photograph of the manuscript page, from the Library of Congress"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/florence-dome",
+			"why": "Florence's builders would not use the flying buttresses that hold up the French cathedrals, so Brunelleschi had to raise his dome without them."
+		},
+		{
+			"to": "making/westminster-hall",
+			"why": "The engineer Robert Mark tested both medieval structures with scale models: the choir of Beauvais, to find why its vault fell in 1284, and the hammerbeam roof of Westminster Hall."
+		},
+		{
+			"to": "western-civ/crusades",
+			"why": "Amiens's relic, a head said to be John the Baptist's, was loot from the Fourth Crusade's sack of Constantinople, and it drew the pilgrims who paid for the new cathedral."
+		}
+	]
+}

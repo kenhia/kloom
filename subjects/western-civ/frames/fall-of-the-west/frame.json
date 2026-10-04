@@ -1,0 +1,410 @@
+{
+	"id": "fall-of-the-west",
+	"topic": "The fall of the Western Empire",
+	"position": {
+		"label": "AD 410–476",
+		"sort": 410
+	},
+	"scene": {
+		"headline": "Rome itself was",
+		"accent": "TAKEN.",
+		"palette": "porphyry",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ROME · RAVENNA · CONSTANTINOPLE",
+			"ALARIC · AUGUSTINE · ODOACER · ROMULUS AUGUSTULUS"
+		],
+		"counter": {
+			"value": "800",
+			"label": "years since Rome had last fallen to an enemy, almost"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/scriptorium",
+			"why": "Cassiodorus, who had served the Gothic king of Italy after the western empire ended, founded the monastery of Vivarium, where monks copied the books that carried Latin learning through."
+		},
+		{
+			"to": "nursing/monastic-infirmary",
+			"why": "Benedict wrote his Rule around 530 in an Italy ruled by Goths, and the monasteries it organized were among the institutions that outlasted the western empire."
+		},
+		{
+			"to": "western-civ/pantheon",
+			"why": "The Pantheon's reading says the skill of building like Rome faded in the West when the empire broke up; Ward-Perkins' evidence of mortared walls and tiled roofs giving way to wood and thatch is the same loss in ordinary houses."
+		},
+		{
+			"to": "western-civ/justinian",
+			"why": "In the East the empire went on, and Justinian put its law in order."
+		},
+		{
+			"to": "western-civ/early-christianity",
+			"why": "After 410 pagans blamed Christianity for Rome's fall, and Augustine wrote the City of God in reply."
+		}
+	],
+	"citations": [
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "To Principia (Letter 127)",
+			"authors": [
+				{
+					"name": "Jerome"
+				}
+			],
+			"recipients": [
+				{
+					"name": "Principia"
+				}
+			],
+			"written": "412",
+			"translators": [
+				{
+					"family": "Fremantle",
+					"given": "W. H."
+				}
+			],
+			"container": "Nicene and Post-Nicene Fathers, Second Series",
+			"volume": "6",
+			"publisher": "Christian Literature Publishing Co.",
+			"place": "Buffalo, NY",
+			"published": "1893",
+			"url": "https://www.newadvent.org/fathers/3001127.htm",
+			"accessed": "2026-10-03",
+			"note": "The sack and Marcella's death, sections 12–14; read in New Advent's copy"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The City of God",
+			"authors": [
+				{
+					"name": "Augustine of Hippo"
+				}
+			],
+			"translators": [
+				{
+					"family": "Dods",
+					"given": "Marcus"
+				}
+			],
+			"publisher": "T. & T. Clark",
+			"place": "Edinburgh",
+			"published": "1871",
+			"url": "https://www.gutenberg.org/ebooks/45304",
+			"accessed": "2026-10-03",
+			"note": "Volume I, with the editor's preface quoting Retractations II.43 and giving the dates 413–426; Book XIV.28 read in New Advent's copy of the same translation"
+		},
+		{
+			"kind": "book",
+			"title": "The History of the Decline and Fall of the Roman Empire, Volume 3",
+			"authors": [
+				{
+					"family": "Gibbon",
+					"given": "Edward"
+				}
+			],
+			"edition": "Milman ed.",
+			"url": "https://www.gutenberg.org/ebooks/733",
+			"accessed": "2026-10-03",
+			"published": "1781",
+			"note": "Chapter 36 (Odoacer and the Senate's letter to Zeno, after Malchus) and chapter 38 (\"immoderate greatness\")"
+		},
+		{
+			"kind": "book",
+			"title": "The History of the Decline and Fall of the Roman Empire, Volume 6",
+			"authors": [
+				{
+					"family": "Gibbon",
+					"given": "Edward"
+				}
+			],
+			"edition": "Milman ed.",
+			"url": "https://www.gutenberg.org/ebooks/736",
+			"accessed": "2026-10-03",
+			"published": "1788",
+			"note": "Chapter 71: \"the triumph of barbarism and religion\""
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Interview with Bryan Ward-Perkins on the Fall of Rome",
+			"authors": [
+				{
+					"family": "Yerxa",
+					"given": "Donald A."
+				}
+			],
+			"container": "Historically Speaking",
+			"volume": "7",
+			"issue": "4",
+			"pages": "31–33",
+			"published": "2006-03",
+			"doi": "10.1353/hsp.2006.0074",
+			"url": "https://www.bu.edu/historic/hs/perkins.pdf",
+			"accessed": "2026-10-03",
+			"note": "Ward-Perkins' evidence from roofs, houses, pottery and graffiti, in his words"
+		},
+		{
+			"kind": "book",
+			"title": "The Fall of Rome and the End of Civilization",
+			"authors": [
+				{
+					"family": "Ward-Perkins",
+					"given": "Bryan"
+				}
+			],
+			"publisher": "Oxford University Press",
+			"place": "Oxford",
+			"published": "2005",
+			"url": "https://archive.org/details/fallofromeendofc0000brya",
+			"accessed": "2026-10-03",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets: cattle size \"fell back to prehistoric levels\"; post-Roman Britain without coinage and with only hand-shaped pots"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Review of The Fall of the Roman Empire, by Peter Heather, and The Fall of Rome and the End of Civilization, by Bryan Ward-Perkins",
+			"authors": [
+				{
+					"family": "O'Donnell",
+					"given": "James J."
+				}
+			],
+			"container": "Bryn Mawr Classical Review 2005.07.69",
+			"published": "2005-07",
+			"url": "https://bmcr.brynmawr.edu/2005/2005.07.69/",
+			"accessed": "2026-10-03",
+			"note": "Both sides of the debate, and the 476 date as a sixth-century choice made in Constantinople"
+		},
+		{
+			"kind": "web",
+			"title": "Empire and Development: The Fall of the Roman West",
+			"authors": [
+				{
+					"family": "Heather",
+					"given": "Peter"
+				}
+			],
+			"container": "History & Policy",
+			"published": "2005",
+			"url": "https://historyandpolicy.org/policy-papers/papers/empire-and-development-the-fall-of-the-roman-west/",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "How Rome Fell",
+			"authors": [
+				{
+					"family": "Frum",
+					"given": "David"
+				}
+			],
+			"container": "davidfrum.com",
+			"url": "https://davidfrum.com/article/how-rome-fell",
+			"accessed": "2026-10-03",
+			"note": "A review of Ward-Perkins: cattle bones showing livestock shrinking after Rome"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Fall of the Western Roman Empire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fall_of_the_Western_Roman_Empire&oldid=1376462033",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Historiography of the fall of the Western Roman Empire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Historiography_of_the_fall_of_the_Western_Roman_Empire&oldid=1370477084",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sack of Rome (410)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sack_of_Rome_(410)&oldid=1370729678",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The City of God",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_City_of_God&oldid=1364523486",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Romulus Augustulus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Romulus_Augustulus&oldid=1376062728",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Odoacer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Odoacer&oldid=1373258846",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Julius Nepos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Julius_Nepos&oldid=1374653059",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marcellinus Comes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marcellinus_Comes&oldid=1341430709",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peter Brown (historian)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peter_Brown_(historian)&oldid=1376921938",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Breviary of Alaric",
+			"url": "https://en.wikipedia.org/w/index.php?title=Breviary_of_Alaric&oldid=1352288583",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Visigothic Code",
+			"url": "https://en.wikipedia.org/w/index.php?title=Visigothic_Code&oldid=1352288964",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cassiodorus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cassiodorus&oldid=1371402694",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "media",
+			"title": "Romulus Augustulus, RIC X 3419",
+			"url": "https://commons.wikimedia.org/wiki/File:Romulus_Augustulus,_RIC_X_3419.jpg",
+			"accessed": "2026-10-03",
+			"licence": "CC BY-SA 2.5",
+			"file": "tremissis-romulus.jpg",
+			"authors": [
+				{
+					"name": "Classical Numismatic Group"
+				}
+			],
+			"container": "Gold tremissis, Mediolanum (Milan) mint, RIC X 3419",
+			"published": "475",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "Odovacar, tremissis in the name of Zeno, RIC X 3610",
+			"url": "https://commons.wikimedia.org/wiki/File:ODOACRE_-_RIC_X_3610_-_77001055.jpg",
+			"accessed": "2026-10-03",
+			"licence": "CC BY-SA 2.5",
+			"file": "tremissis-zeno.jpg",
+			"authors": [
+				{
+					"name": "Classical Numismatic Group"
+				}
+			],
+			"container": "Gold tremissis, Mediolanum (Milan) mint, struck 476–491",
+			"published": "476",
+			"circa": true
+		}
+	]
+}

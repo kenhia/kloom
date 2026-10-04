@@ -1,0 +1,16 @@
+{
+	"id": "revolutions",
+	"title": "Revolutions",
+	"anchor": "french-revolution",
+	"spine": {
+		"segments": [
+			{
+				"id": "revs",
+				"title": "1688 to 1848",
+				"labelKind": "date",
+				"palette": "candle",
+				"frames": ["glorious-revolution", "haitian-revolution", "revolutions-of-1848"]
+			}
+		]
+	}
+}

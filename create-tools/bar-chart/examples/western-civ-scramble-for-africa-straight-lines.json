@@ -1,0 +1,25 @@
+{
+	"title": "Share of Africa's borders running along a parallel or a meridian, by study",
+	"description": "Bar chart. Alesina, Easterly and Matuszeski (2011): 80 percent of African borders follow lines of latitude and longitude. Barbour (1961): 44 percent are parallels or meridians. Paine, Qiu and Ricart-Huguet (2024): such lines are the main feature of 18 percent of bilateral borders. Barbour and Alesina are as Paine and colleagues quote them.",
+	"heading": "BORDERS ON A PARALLEL OR MERIDIAN · %",
+	"unit": "%",
+	"axis": {
+		"max": 100,
+		"ticks": [
+			[0, "0"],
+			[25, "25%"],
+			[50, "50%"],
+			[75, "75%"],
+			[100, "100%"]
+		]
+	},
+	"bars": [
+		{ "label": "Alesina", "sublabel": "2011", "value": 80 },
+		{ "label": "Barbour", "sublabel": "1961", "value": 44 },
+		{ "label": "Paine", "sublabel": "2024", "value": 18, "highlight": true }
+	],
+	"source": {
+		"container": "Paine, Qiu and Ricart-Huguet, American Political Science Review (2024)",
+		"doi": "10.1017/S0003055424000054"
+	}
+}

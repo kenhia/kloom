@@ -1,0 +1,16 @@
+{
+	"id": "rome",
+	"title": "Rome, from Republic to Byzantium",
+	"anchor": "augustus",
+	"spine": {
+		"segments": [
+			{
+				"id": "republic",
+				"title": "The Republic and after",
+				"labelKind": "date",
+				"palette": "marble",
+				"frames": ["twelve-tables", "cicero", "fall-of-constantinople"]
+			}
+		]
+	}
+}

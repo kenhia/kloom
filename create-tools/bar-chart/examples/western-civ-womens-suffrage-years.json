@@ -1,0 +1,35 @@
+{
+	"title": "Years from Seneca Falls to women's suffrage",
+	"description": "Bar chart of the years from the Seneca Falls convention of 1848 to the vote for women, by our arithmetic from the dates of each country's law. New Zealand 1893, 45 years. Finland 1906, 58. Norway 1913, 65. United Kingdom 1918, for women over thirty with a property qualification, 70. United States 1920, 72. United Kingdom 1928, for all women at twenty-one, 80. France 1944, 96. Switzerland 1971, federal elections, 123.",
+	"heading": "YEARS AFTER SENECA FALLS, 1848",
+	"unit": "",
+	"width": 560,
+	"height": 300,
+	"barWidth": 44,
+	"axis": {
+		"max": 130,
+		"ticks": [
+			[0, "0"],
+			[25, "25"],
+			[50, "50"],
+			[75, "75"],
+			[100, "100"],
+			[125, "125"]
+		]
+	},
+	"bars": [
+		{ "label": "NZ", "sublabel": "1893", "value": 45 },
+		{ "label": "Finland", "sublabel": "1906", "value": 58 },
+		{ "label": "Norway", "sublabel": "1913", "value": 65 },
+		{ "label": "UK 30+", "sublabel": "1918", "value": 70 },
+		{ "label": "US", "sublabel": "1920", "value": 72, "highlight": true },
+		{ "label": "UK all", "sublabel": "1928", "value": 80 },
+		{ "label": "France", "sublabel": "1944", "value": 96 },
+		{ "label": "Swiss", "sublabel": "1971", "value": 123 }
+	],
+	"source": {
+		"container": "Dates from NZHistory's world suffrage timeline (Ministry for Culture and Heritage)",
+		"url": "https://nzhistory.govt.nz/politics/womens-suffrage/world-suffrage-timeline",
+		"accessed": "2026-10-03"
+	}
+}

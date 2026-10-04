@@ -1,0 +1,309 @@
+{
+	"id": "athenian-democracy",
+	"topic": "Athenian democracy",
+	"position": {
+		"label": "508 BC",
+		"sort": -508
+	},
+	"scene": {
+		"headline": "We chose our rulers by",
+		"accent": "LOT.",
+		"palette": "marble",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ATHENS · THE PNYX · THE AGORA · CLEISTHENES",
+			"ASSEMBLY · COUNCIL OF 500 · KLEROTERION · OSTRAKA"
+		],
+		"counter": {
+			"value": "1 in 9",
+			"label": "people of Attica who could vote, about, by our arithmetic"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Athenian Constitution",
+			"authors": [
+				{
+					"name": "Aristotle"
+				}
+			],
+			"translators": [
+				{
+					"family": "Kenyon",
+					"given": "Frederic G."
+				}
+			],
+			"published": "1891",
+			"url": "https://www.gutenberg.org/ebooks/26095",
+			"accessed": "2026-10-03",
+			"note": "Read in Project Gutenberg's text; the reforms are in chapters 20–22, pay in 62, the courts' allotment in 63–66"
+		},
+		{
+			"kind": "book",
+			"title": "History of the Peloponnesian War",
+			"authors": [
+				{
+					"name": "Thucydides"
+				}
+			],
+			"translators": [
+				{
+					"family": "Crawley",
+					"given": "Richard"
+				}
+			],
+			"published": "1874",
+			"url": "https://www.gutenberg.org/ebooks/7142",
+			"accessed": "2026-10-03",
+			"note": "Pericles' funeral oration is in Book 2, chapters 35–46"
+		},
+		{
+			"kind": "book",
+			"title": "The Polity of the Athenians",
+			"authors": [
+				{
+					"name": "Pseudo-Xenophon"
+				}
+			],
+			"translators": [
+				{
+					"family": "Dakyns",
+					"given": "H. G."
+				}
+			],
+			"url": "https://www.gutenberg.org/ebooks/1178",
+			"accessed": "2026-10-03",
+			"note": "The 'Old Oligarch', printed among Xenophon's works"
+		},
+		{
+			"kind": "book",
+			"title": "The Republic",
+			"authors": [
+				{
+					"name": "Plato"
+				}
+			],
+			"translators": [
+				{
+					"family": "Jowett",
+					"given": "Benjamin"
+				}
+			],
+			"published": "1871",
+			"url": "https://www.gutenberg.org/ebooks/1497",
+			"accessed": "2026-10-03",
+			"note": "Book VIII, 558c"
+		},
+		{
+			"kind": "chapter",
+			"title": "Life of Aristides",
+			"authors": [
+				{
+					"name": "Plutarch"
+				}
+			],
+			"translators": [
+				{
+					"family": "Perrin",
+					"given": "Bernadotte"
+				}
+			],
+			"container": "Plutarch's Lives, vol. 2",
+			"edition": "Loeb Classical Library ed.",
+			"published": "1914",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Aristides*.html",
+			"accessed": "2026-10-03",
+			"note": "Read on LacusCurtius; the ostracism and the illiterate voter are in chapter 7"
+		},
+		{
+			"kind": "web",
+			"title": "I 3967: Kleroterion",
+			"publisher": "American School of Classical Studies at Athens",
+			"container": "Agora Excavations",
+			"url": "https://agora.ascsa.net/id/agora/object/i%203967",
+			"accessed": "2026-10-03",
+			"note": "Read in the Wayback Machine's copy of 2022"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Athenian democracy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Athenian_democracy&oldid=1377809967",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cleisthenes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cleisthenes&oldid=1356361012",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kleroterion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kleroterion&oldid=1375988766",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ostracism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ostracism&oldid=1362809108",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Deme",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deme&oldid=1335607423",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pnyx",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pnyx&oldid=1364974801",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Metic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Metic&oldid=1371269242",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Slavery in ancient Greece",
+			"url": "https://en.wikipedia.org/w/index.php?title=Slavery_in_ancient_Greece&oldid=1365500239",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Constitution of the Athenians (Aristotle)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Constitution_of_the_Athenians_(Aristotle)&oldid=1329002976",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pericles's Funeral Oration",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pericles's_Funeral_Oration&oldid=1376577327",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "Kleroterion, Ancient Agora Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:AGMA_Kleroterion_1.jpg",
+			"accessed": "2026-10-03",
+			"licence": "CC BY 2.0",
+			"file": "kleroterion.jpg",
+			"authors": [
+				{
+					"family": "Mollerus",
+					"given": "Sharon"
+				}
+			],
+			"container": "Ancient Agora Museum, Athens",
+			"published": "2009-03-14"
+		},
+		{
+			"kind": "media",
+			"title": "Ostraka against Themistocles, Ancient Agora Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:AGMA_The_Ostracism_of_Themistocles.jpg",
+			"accessed": "2026-10-03",
+			"licence": "CC BY 2.0",
+			"file": "ostraka.jpg",
+			"authors": [
+				{
+					"family": "Mollerus",
+					"given": "Sharon"
+				}
+			],
+			"container": "Ancient Agora Museum, Athens",
+			"published": "2009-03-14"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/greek-tragedy",
+			"why": "Athena founds a citizens' court in the Eumenides, and the city's rich paid for the tragic choruses."
+		}
+	]
+}

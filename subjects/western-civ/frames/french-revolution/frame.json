@@ -1,0 +1,381 @@
+{
+	"id": "french-revolution",
+	"topic": "The French Revolution",
+	"position": {
+		"label": "AD 1789–1799",
+		"sort": 1789
+	},
+	"scene": {
+		"headline": "Subjects became",
+		"accent": "CITIZENS.",
+		"palette": "candle",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · VERSAILLES · ROBESPIERRE · NAPOLEON",
+			"ESTATES-GENERAL · NATIONAL ASSEMBLY · CONVENTION"
+		],
+		"counter": {
+			"value": "16,594",
+			"label": "death sentences carried out in the Terror, by Greer's count"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/metre-survey",
+			"why": "The decimal measures the Revolution made law rest on the meridian survey from Dunkirk to Barcelona that Delambre and Méchain carried through the Revolution and the Terror."
+		},
+		{
+			"to": "chemistry/lavoisier",
+			"why": "Antoine Lavoisier, who remade chemistry in the year the Bastille fell and sat on the commission that made the metric system, was guillotined in the Terror as a former tax farmer."
+		},
+		{
+			"to": "computing/prony-tables",
+			"why": "Revolutionary France's decimal measures, the hundred-grade right angle among them, set Gaspard de Prony to manufacturing logarithm tables by the division of labor."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Declaration of Human and Civic Rights of 26 August 1789",
+			"publisher": "Conseil constitutionnel",
+			"container": "Conseil constitutionnel",
+			"url": "https://www.conseil-constitutionnel.fr/en/declaration-of-human-and-civic-rights-of-26-august-1789",
+			"accessed": "2026-10-03",
+			"note": "The English translation quoted for articles 1, 3, 6 and 16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "French Revolution",
+			"url": "https://en.wikipedia.org/w/index.php?title=French_Revolution&oldid=1376576100",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reign of Terror",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reign_of_Terror&oldid=1377298138",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Law of 22 Prairial Year II (10 June 1794)",
+			"container": "Liberty, Equality, Fraternity: Exploring the French Revolution",
+			"publisher": "Roy Rosenzweig Center for History and New Media and American Social History Project",
+			"translators": [
+				{
+					"family": "Stewart",
+					"given": "John Hall"
+				}
+			],
+			"url": "https://revolution.chnm.org/d/439",
+			"accessed": "2026-10-03",
+			"note": "Stewart's translation of 1951; the Tribunal's procedure before and after the law"
+		},
+		{
+			"kind": "web",
+			"title": "The Law of Suspects",
+			"container": "Liberty, Equality, Fraternity: Exploring the French Revolution",
+			"publisher": "Roy Rosenzweig Center for History and New Media and American Social History Project",
+			"url": "https://revolution.chnm.org/d/417",
+			"accessed": "2026-10-03",
+			"note": "Translated from Duvergier's Collection complète des lois, vol. 6"
+		},
+		{
+			"kind": "web",
+			"title": "Olympe de Gouges, The Declaration of the Rights of Woman (September 1791)",
+			"container": "Liberty, Equality, Fraternity: Exploring the French Revolution",
+			"publisher": "Roy Rosenzweig Center for History and New Media and American Social History Project",
+			"translators": [
+				{
+					"family": "Hunt",
+					"given": "Lynn"
+				}
+			],
+			"url": "https://revolution.chnm.org/d/293",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "The Incidence of the Terror during the French Revolution: A Statistical Interpretation",
+			"authors": [
+				{
+					"family": "Greer",
+					"given": "Donald"
+				}
+			],
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1935",
+			"citedIn": "Reign of Terror"
+		},
+		{
+			"kind": "book",
+			"title": "Reflections on the Revolution in France",
+			"authors": [
+				{
+					"family": "Burke",
+					"given": "Edmund"
+				}
+			],
+			"published": "1790",
+			"url": "https://www.gutenberg.org/ebooks/15679",
+			"accessed": "2026-10-03",
+			"note": "Read in The Works of the Right Honourable Edmund Burke, vol. 3 (Project Gutenberg)"
+		},
+		{
+			"kind": "book",
+			"title": "Rights of Man",
+			"authors": [
+				{
+					"family": "Paine",
+					"given": "Thomas"
+				}
+			],
+			"published": "1791",
+			"url": "https://www.gutenberg.org/ebooks/3742",
+			"accessed": "2026-10-03",
+			"note": "Read in The Writings of Thomas Paine, vol. 2 (Project Gutenberg)"
+		},
+		{
+			"kind": "book",
+			"title": "The Old Regime and the Revolution",
+			"authors": [
+				{
+					"family": "Tocqueville",
+					"given": "Alexis de"
+				}
+			],
+			"translators": [
+				{
+					"family": "Bonner",
+					"given": "John"
+				}
+			],
+			"publisher": "Harper & Brothers",
+			"place": "New York",
+			"published": "1856",
+			"pages": "214",
+			"url": "https://archive.org/details/cu31924014201044/page/n225",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Declaration of the Rights of Man and of the Citizen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Declaration_of_the_Rights_of_Man_and_of_the_Citizen&oldid=1375474466",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Estates General of 1789",
+			"url": "https://en.wikipedia.org/w/index.php?title=Estates_General_of_1789&oldid=1375588196",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tennis Court Oath",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tennis_Court_Oath&oldid=1377143981",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Storming of the Bastille",
+			"url": "https://en.wikipedia.org/w/index.php?title=Storming_of_the_Bastille&oldid=1377738528",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Execution of Louis XVI",
+			"url": "https://en.wikipedia.org/w/index.php?title=Execution_of_Louis_XVI&oldid=1373172133",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Law of Suspects",
+			"url": "https://en.wikipedia.org/w/index.php?title=Law_of_Suspects&oldid=1375729855",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Revolutionary Tribunal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Revolutionary_Tribunal&oldid=1365422433",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Law of 22 Prairial",
+			"url": "https://en.wikipedia.org/w/index.php?title=Law_of_22_Prairial&oldid=1292334880",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-05-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Olympe de Gouges",
+			"url": "https://en.wikipedia.org/w/index.php?title=Olympe_de_Gouges&oldid=1376652538",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "French Republican calendar",
+			"url": "https://en.wikipedia.org/w/index.php?title=French_Republican_calendar&oldid=1376080890",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Coup of 18 Brumaire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Coup_of_18_Brumaire&oldid=1377191154",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Historiography of the French Revolution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Historiography_of_the_French_Revolution&oldid=1378201399",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "François Furet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Furet&oldid=1378082634",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "media",
+			"title": "Déclaration des droits de l'homme et du citoyen",
+			"authors": [
+				{
+					"family": "Le Barbier",
+					"given": "Jean-Jacques-François"
+				}
+			],
+			"container": "Musée Carnavalet, Paris, P809",
+			"published": "1789",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "drm-1789.jpg",
+			"note": "Oil on wood, after a model by Le Barbier, in the museum's record"
+		}
+	]
+}

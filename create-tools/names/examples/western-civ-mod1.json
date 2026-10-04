@@ -1,0 +1,53 @@
+{
+	"western-civ/rite-of-spring": [
+		["Théâtre des Champs-Élysées", "theatre-des-champs-elysees"],
+		["Paris", "paris"],
+		["Ballets Russes", "ballets-russes"],
+		["Sergei Diaghilev", "sergei-diaghilev"],
+		["_The Rite of Spring_", "the-rite-of-spring"],
+		["Igor Stravinsky", "igor-stravinsky"],
+		["Vaslav Nijinsky", "vaslav-nijinsky"],
+		["Nicholas Roerich", "nicholas-roerich"],
+		["Pierre Monteux", "pierre-monteux"],
+		["Carl Van Vechten", "carl-van-vechten"],
+		["Arnold Schoenberg", "arnold-schoenberg"],
+		["Pablo Picasso", "pablo-picasso"],
+		["Georges Braque", "georges-braque"],
+		["James Joyce", "james-joyce"],
+		["T. S. Eliot", "t-s-eliot"]
+	],
+	"western-civ/great-war": [
+		["Sarajevo", "sarajevo"],
+		["Gavrilo Princip", "gavrilo-princip"],
+		["Archduke Franz Ferdinand", "archduke-franz-ferdinand-of-austria"],
+		["Austria-Hungary", "austria-hungary"],
+		["assassination of Archduke Franz Ferdinand", "assassination-of-archduke-franz-ferdinand"],
+		["First World War", "world-war-i"],
+		["July Crisis", "july-crisis"],
+		["Fritz Fischer", "fritz-fischer-historian"],
+		["Christopher Clark", "christopher-clark"],
+		["Battle of the Somme", "battle-of-the-somme"],
+		["Haber process", "haber-process"],
+		["Ottoman Empire", "ottoman-empire"],
+		["Armenian genocide", "armenian-genocide"],
+		["Spanish flu", "spanish-flu"],
+		["Treaty of Versailles", "treaty-of-versailles"]
+	],
+	"western-civ/second-world-war": [
+		["Nazi Germany", "nazi-germany"],
+		["Soviet Union", "soviet-union"],
+		["Second World War", "world-war-ii"],
+		["Adolf Hitler", "adolf-hitler"],
+		["Munich Agreement", "munich-agreement"],
+		["Molotov–Ribbentrop Pact", "molotov-ribbentrop-pact"],
+		["Operation Barbarossa", "operation-barbarossa"],
+		["Pearl Harbor", "attack-on-pearl-harbor"],
+		["Willow Run", "willow-run"],
+		["Ford Motor Company", "ford-motor-company"],
+		["Bletchley Park", "bletchley-park"],
+		["Enigma", "enigma-machine"],
+		["Lend-Lease", "lend-lease"],
+		["the Holocaust", "the-holocaust"],
+		["Nuremberg trials", "nuremberg-trials"]
+	]
+}

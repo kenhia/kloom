@@ -1,0 +1,68 @@
+{
+	"title": "Enslaved people as a share of each state's population in the first US census, 1790",
+	"description": "Bar chart of the share of each state's people the census of 1790 counted as slaves, from the census return, and for South Carolina, whose line the printed return leaves blank, from the census's later totals. South Carolina 43.0 percent, Virginia 39.1, Georgia 35.5, Maryland 32.2, North Carolina 25.5, Kentucky 16.9, Delaware 15.0, New York 6.3, New Jersey 6.2; the United States as a whole 17.8 percent, 697,697 of 3,929,326. The shares are this frame's arithmetic from the counts.",
+	"heading": "COUNTED AS SLAVES, 1790 · PERCENT OF EACH STATE",
+	"unit": "%",
+	"width": 520,
+	"height": 300,
+	"barWidth": 34,
+	"axis": {
+		"max": 50,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"],
+			[40, "40"],
+			[50, "50"]
+		]
+	},
+	"bars": [
+		{
+			"label": "SC",
+			"value": 43.0
+		},
+		{
+			"label": "VA",
+			"value": 39.1
+		},
+		{
+			"label": "GA",
+			"value": 35.5
+		},
+		{
+			"label": "MD",
+			"value": 32.2
+		},
+		{
+			"label": "NC",
+			"value": 25.5
+		},
+		{
+			"label": "KY",
+			"value": 16.9
+		},
+		{
+			"label": "DE",
+			"value": 15.0
+		},
+		{
+			"label": "NY",
+			"value": 6.3
+		},
+		{
+			"label": "NJ",
+			"value": 6.2
+		},
+		{
+			"label": "US",
+			"value": 17.8,
+			"highlight": true
+		}
+	],
+	"source": {
+		"container": "US Census Bureau, Return of the Whole Number of Persons within the Several Districts of the United States (1791); South Carolina from Wikipedia, 1790 United States census",
+		"url": "https://www.census.gov/library/publications/1793/dec/number-of-persons.html",
+		"accessed": "2026-10-03"
+	}
+}

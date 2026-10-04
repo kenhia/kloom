@@ -18,6 +18,114 @@
 			"accent": "#b3261e",
 			"line": "#3a3024",
 			"counterpart": "night"
+		},
+		"marble": {
+			"scheme": "light",
+			"background": "#f2efe9",
+			"ink": "#1f1d1a",
+			"muted": "#5d5850",
+			"accent": "#9c3d1f",
+			"line": "#2c2925",
+			"counterpart": "basalt"
+		},
+		"basalt": {
+			"scheme": "dark",
+			"background": "#141413",
+			"ink": "#ebe7df",
+			"muted": "#a8a297",
+			"accent": "#d98a5f",
+			"line": "#cfc9bd",
+			"counterpart": "marble"
+		},
+		"porphyry": {
+			"scheme": "dark",
+			"background": "#1b1018",
+			"ink": "#efe3ea",
+			"muted": "#b7a3b0",
+			"accent": "#d9a84e",
+			"line": "#d6c3cf",
+			"counterpart": "alabaster"
+		},
+		"alabaster": {
+			"scheme": "light",
+			"background": "#f6f1ec",
+			"ink": "#24161f",
+			"muted": "#5f4b58",
+			"accent": "#7a2462",
+			"line": "#2f1f2a",
+			"counterpart": "porphyry"
+		},
+		"fresco": {
+			"scheme": "light",
+			"background": "#f3eadc",
+			"ink": "#2a1f17",
+			"muted": "#64554a",
+			"accent": "#2f5d8a",
+			"line": "#33281f",
+			"counterpart": "lapis"
+		},
+		"lapis": {
+			"scheme": "dark",
+			"background": "#0e1424",
+			"ink": "#e8e9ee",
+			"muted": "#a3aac0",
+			"accent": "#e0b252",
+			"line": "#c5cbdc",
+			"counterpart": "fresco"
+		},
+		"candle": {
+			"scheme": "dark",
+			"background": "#15120d",
+			"ink": "#efe6d4",
+			"muted": "#ada28c",
+			"accent": "#f0c060",
+			"line": "#d8ccb4",
+			"counterpart": "broadsheet"
+		},
+		"broadsheet": {
+			"scheme": "light",
+			"background": "#f4f1e8",
+			"ink": "#1c1a16",
+			"muted": "#57534a",
+			"accent": "#1f4e79",
+			"line": "#28251f",
+			"counterpart": "candle"
+		},
+		"brick": {
+			"scheme": "light",
+			"background": "#f1ebe4",
+			"ink": "#221a17",
+			"muted": "#5e514b",
+			"accent": "#9e3220",
+			"line": "#2d2420",
+			"counterpart": "soot"
+		},
+		"soot": {
+			"scheme": "dark",
+			"background": "#121314",
+			"ink": "#e4e5e3",
+			"muted": "#a0a39f",
+			"accent": "#e0784e",
+			"line": "#c6c8c4",
+			"counterpart": "brick"
+		},
+		"steel": {
+			"scheme": "dark",
+			"background": "#11151a",
+			"ink": "#e3e8ed",
+			"muted": "#9ea8b3",
+			"accent": "#c9b26a",
+			"line": "#c2cad3",
+			"counterpart": "newsprint"
+		},
+		"newsprint": {
+			"scheme": "light",
+			"background": "#efeeea",
+			"ink": "#1a1b1d",
+			"muted": "#53565c",
+			"accent": "#8f1f2c",
+			"line": "#26282b",
+			"counterpart": "steel"
 		}
 	}
 }

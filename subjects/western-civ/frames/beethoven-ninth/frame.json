@@ -1,0 +1,292 @@
+{
+	"id": "beethoven-ninth",
+	"topic": "Beethoven's Ninth Symphony",
+	"position": {
+		"label": "AD 1824",
+		"sort": 1824
+	},
+	"scene": {
+		"headline": "We sang the ode to",
+		"accent": "JOY.",
+		"palette": "brick",
+		"illustration": "scene.svg",
+		"metadata": [
+			"VIENNA · THEATER AM KÄRNTNERTOR · 7 MAY 1824",
+			"BEETHOVEN · SCHILLER · UMLAUF · UNGER"
+		],
+		"counter": {
+			"value": "940",
+			"label": "bars in the choral finale"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Life of Ludwig van Beethoven, Volume III",
+			"authors": [
+				{
+					"family": "Thayer",
+					"given": "Alexander Wheelock"
+				}
+			],
+			"editors": [
+				{
+					"family": "Krehbiel",
+					"given": "Henry Edward"
+				}
+			],
+			"publisher": "The Beethoven Association",
+			"place": "New York",
+			"published": "1921",
+			"pages": "163–166",
+			"url": "https://archive.org/details/lifeofludwigvanb03thay",
+			"accessed": "2026-10-03",
+			"note": "The rehearsals, the concert bill and Unger turning Beethoven, with Thalberg's account in a note"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Preface",
+			"authors": [
+				{
+					"family": "Albrecht",
+					"given": "Theodore"
+				}
+			],
+			"container": "Beethoven's Ninth Symphony: Rehearsing and Performing Its 1824 Premiere",
+			"publisher": "Boydell Press",
+			"place": "Woodbridge",
+			"published": "2024",
+			"doi": "10.1017/9781837651566",
+			"url": "https://www.cambridge.org/core/books/beethovens-ninth-symphony/preface/270BF035CC907A28A13B110B98755CCA",
+			"accessed": "2026-10-03",
+			"read": "excerpt",
+			"note": "The received story of the premiere, \"two rehearsals\" among it, listed as myth"
+		},
+		{
+			"kind": "chapter",
+			"title": "Rehearsals and Confusion",
+			"authors": [
+				{
+					"family": "Albrecht",
+					"given": "Theodore"
+				}
+			],
+			"container": "Beethoven's Ninth Symphony: Rehearsing and Performing Its 1824 Premiere",
+			"publisher": "Boydell Press",
+			"place": "Woodbridge",
+			"published": "2024",
+			"url": "https://www.cambridge.org/core/books/beethovens-ninth-symphony/rehearsals-and-confusion/E25996BF7035FA0151009FCF25F4DC63",
+			"accessed": "2026-10-03",
+			"read": "excerpt"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Symphony No. 9 (Beethoven)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Symphony_No._9_(Beethoven)&oldid=1378365757",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"title": "Beethoven: Symphony No. 9",
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Nicholas"
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1993",
+			"doi": "10.1017/CBO9780511611612",
+			"accessed": "2026-10-03",
+			"citedIn": "Symphony No. 9 (Beethoven)"
+		},
+		{
+			"kind": "report",
+			"title": "An Analytical Study of Paradox and Structural Dualism in the Music of Ludwig van Beethoven",
+			"authors": [
+				{
+					"family": "Graf",
+					"given": "Benjamin S."
+				}
+			],
+			"publisher": "University of North Texas",
+			"place": "Denton",
+			"published": "2016",
+			"number": "PhD dissertation",
+			"url": "https://digital.library.unt.edu/ark:/67531/metadc849697/",
+			"accessed": "2026-10-03",
+			"note": "Chapter 6 gives the first movement's bars"
+		},
+		{
+			"kind": "book",
+			"title": "Beethoven and His Nine Symphonies",
+			"authors": [
+				{
+					"family": "Grove",
+					"given": "George"
+				}
+			],
+			"publisher": "Novello, Ewer and Co.",
+			"place": "London",
+			"published": "1896",
+			"url": "https://archive.org/details/beethovenhisnine00grovuoft",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "chapter",
+			"title": "An die Freude",
+			"authors": [
+				{
+					"family": "Schiller",
+					"given": "Friedrich"
+				}
+			],
+			"container": "Thalia",
+			"volume": "1",
+			"issue": "2",
+			"pages": "1–5",
+			"publisher": "Georg Joachim Göschen",
+			"place": "Leipzig",
+			"published": "1786",
+			"language": "de",
+			"url": "https://de.wikisource.org/wiki/An_die_Freude_(Schiller)",
+			"accessed": "2026-10-03",
+			"note": "Read in Wikisource's transcription of the first printing"
+		},
+		{
+			"kind": "chapter",
+			"title": "An die Freude",
+			"authors": [
+				{
+					"family": "Schiller",
+					"given": "Friedrich"
+				}
+			],
+			"container": "Gedichte, Zweiter Theil",
+			"edition": "3rd ed.",
+			"pages": "121–127",
+			"publisher": "Siegfried Lebrecht Crusius",
+			"place": "Leipzig",
+			"published": "1808",
+			"language": "de",
+			"url": "https://de.wikisource.org/wiki/Ode_an_die_Freude",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ode to Joy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ode_to_Joy&oldid=1375673953",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ludwig van Beethoven",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ludwig_van_Beethoven&oldid=1375816694",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anton Schindler",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anton_Schindler&oldid=1374737207",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "article",
+			"title": "Shannon, Beethoven, and the Compact Disc",
+			"authors": [
+				{
+					"family": "Schouhamer Immink",
+					"given": "Kees A."
+				}
+			],
+			"container": "IEEE Information Theory Society Newsletter",
+			"volume": "57",
+			"issue": "4",
+			"pages": "42–46",
+			"published": "2007-12",
+			"url": "https://www.itsoc.org/sites/default/files/2021-03/itNL1207.pdf",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "European anthem",
+			"publisher": "European Union",
+			"container": "european-union.europa.eu",
+			"url": "https://european-union.europa.eu/principles-countries-history/symbols/european-anthem_en",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anthem of Europe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anthem_of_Europe&oldid=1373040610",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "media",
+			"title": "Ninth Symphony original",
+			"url": "https://commons.wikimedia.org/wiki/File:Ninth_Symphony_original.png",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "ninth-autograph.jpg",
+			"authors": [
+				{
+					"family": "Beethoven",
+					"given": "Ludwig van"
+				}
+			],
+			"container": "Staatsbibliothek zu Berlin, autograph score of the Symphony No. 9",
+			"published": "1824",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/fall-of-the-wall",
+			"why": "Bernstein conducted the Ninth in Berlin at Christmas 1989, singing \"Freiheit\" for \"Freude\"."
+		}
+	]
+}

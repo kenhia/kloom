@@ -1,0 +1,32 @@
+{
+	"title": "Roman citizens counted at the census, 70/69 BC to AD 14",
+	"description": "Bar chart. 910,000 citizens counted in 70/69 BC; 4,063,000 in 28 BC; 4,233,000 in 8 BC; 4,937,000 in AD 14, the three counts Augustus gives in his Res Gestae, chapter 8.",
+	"heading": "ROMAN CITIZENS ON THE CENSUS ROLL · MILLIONS",
+	"unit": "M",
+	"axis": {
+		"max": 6,
+		"ticks": [
+			[0, "0"],
+			[2, "2M"],
+			[4, "4M"],
+			[6, "6M"]
+		]
+	},
+	"bars": [
+		{ "label": "70/69 BC", "sublabel": "Republic", "value": 0.91, "display": "0.91M" },
+		{
+			"label": "28 BC",
+			"sublabel": "Augustus",
+			"value": 4.063,
+			"display": "4.06M",
+			"highlight": true
+		},
+		{ "label": "8 BC", "sublabel": "Augustus", "value": 4.233, "display": "4.23M" },
+		{ "label": "AD 14", "sublabel": "Augustus", "value": 4.937, "display": "4.94M" }
+	],
+	"source": {
+		"container": "Res Gestae Divi Augusti 8; Demography of the Roman Empire, Wikipedia",
+		"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/2*.html",
+		"accessed": "2026-10-03"
+	}
+}

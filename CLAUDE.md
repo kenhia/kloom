@@ -296,6 +296,12 @@ Sprint 048 HUD polish: one fast tooltip for every HUD icon (`use:tooltip`,
 400 ms, on keyboard focus too, Esc dismisses; no HUD `title`s), and Zoom
 drawing, the frame's drawing full-screen (Z, or the expand-corners icon
 between Map and What's new; `just hud-check`).
+Sprint 049 western-civ at full weight: 72 frames, up from 25 (law,
+faith, philosophy, art, music, politics and empire around the myth-to-cosmos
+arc; trails for Rome, Revolutions and the idea of rights), a palette pair
+per era, 60 connections out to the other subjects, written by 17 parallel
+authors; author-subject gained §Extending a subject, and `names.py add`
+and the test setup's checking copies work again.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

@@ -1,0 +1,342 @@
+{
+	"id": "crusades",
+	"topic": "The Crusades",
+	"position": {
+		"label": "AD 1095–1291",
+		"sort": 1095
+	},
+	"scene": {
+		"headline": "They took the",
+		"accent": "CROSS.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CLERMONT · MAINZ · JERUSALEM · CONSTANTINOPLE · ACRE",
+			"URBAN II · SALADIN · THE MILITARY ORDERS"
+		],
+		"counter": {
+			"value": "85,000",
+			"label": "marks owed to Venice for the Fourth Crusade's fleet"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Urban II (1088–1099): Speech at Council of Clermont, 1095, Six Versions of the Speech",
+			"authors": [
+				{
+					"family": "Halsall",
+					"given": "Paul"
+				}
+			],
+			"container": "Internet Medieval Sourcebook",
+			"publisher": "Fordham University",
+			"url": "https://sourcebooks.fordham.edu/source/urban2-5vers.asp",
+			"accessed": "2026-10-03",
+			"note": "Fulcher in Thatcher and McNeal's translation (1905), Robert the Monk in Munro's (1895), the Gesta and Baldric in Krey's (1921)"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Select Historical Documents of the Middle Ages",
+			"translators": [
+				{
+					"family": "Henderson",
+					"given": "Ernest F."
+				}
+			],
+			"place": "London",
+			"publisher": "George Bell and Sons",
+			"published": "1910",
+			"pages": "333–336",
+			"url": "https://sourcebooks.fordham.edu/source/eugene3-2cde.asp",
+			"accessed": "2026-10-03",
+			"note": "Eugenius III's bull Quantum praedecessores, 1 December 1145; read in the Internet Medieval Sourcebook's copy, which misdates it 1154"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Memoirs or Chronicle of the Fourth Crusade and the Conquest of Constantinople",
+			"authors": [
+				{
+					"name": "Geoffrey of Villehardouin"
+				}
+			],
+			"translators": [
+				{
+					"family": "Marzials",
+					"given": "Frank T."
+				}
+			],
+			"place": "London",
+			"publisher": "J. M. Dent",
+			"published": "1908",
+			"url": "https://sourcebooks.fordham.edu/basis/villehardouin.asp",
+			"accessed": "2026-10-03",
+			"note": "The Venetian contract and the 34,000 marks still owed; read in the Internet Medieval Sourcebook's copy"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Crusaders in Mainz, May 27, 1096",
+			"authors": [
+				{
+					"name": "Solomon bar Samson"
+				}
+			],
+			"container": "The Jew in the Medieval World: A Source Book, 315–1791",
+			"translators": [
+				{
+					"family": "Marcus",
+					"given": "Jacob R."
+				}
+			],
+			"place": "New York",
+			"publisher": "Jewish Publication Society",
+			"published": "1938",
+			"pages": "115–120",
+			"url": "https://sourcebooks.fordham.edu/source/1096jews-mainz.asp",
+			"accessed": "2026-10-03",
+			"note": "Read in the Internet Medieval Sourcebook's copy"
+		},
+		{
+			"kind": "book",
+			"title": "The First Crusade: The Accounts of Eyewitnesses and Participants",
+			"translators": [
+				{
+					"family": "Krey",
+					"given": "August C."
+				}
+			],
+			"place": "Princeton",
+			"publisher": "Princeton University Press",
+			"published": "1921",
+			"pages": "256–262",
+			"url": "https://sourcebooks.fordham.edu/source/cde-jlem.asp",
+			"accessed": "2026-10-03",
+			"note": "The Gesta Francorum and Raymond of Aguilers on the fall of Jerusalem; read in the Internet Medieval Sourcebook's copy"
+		},
+		{
+			"kind": "book",
+			"title": "The Damascus Chronicle of the Crusades",
+			"authors": [
+				{
+					"name": "Ibn al-Qalanisi"
+				}
+			],
+			"translators": [
+				{
+					"family": "Gibb",
+					"given": "H. A. R."
+				}
+			],
+			"place": "London",
+			"publisher": "Luzac",
+			"published": "1932",
+			"pages": "48",
+			"url": "https://archive.org/details/damascuschronicl00ibna",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "article",
+			"title": "Crusading as an Act of Love",
+			"authors": [
+				{
+					"family": "Riley-Smith",
+					"given": "Jonathan"
+				}
+			],
+			"container": "History",
+			"volume": "65",
+			"pages": "177–192",
+			"published": "1980-06",
+			"doi": "10.1111/j.1468-229x.1980.tb01939.x",
+			"accessed": "2026-10-03",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Crusades",
+			"url": "https://en.wikipedia.org/w/index.php?title=Crusades&oldid=1375946654",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Council of Clermont",
+			"url": "https://en.wikipedia.org/w/index.php?title=Council_of_Clermont&oldid=1364147206",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Historiography of the Crusades",
+			"url": "https://en.wikipedia.org/w/index.php?title=Historiography_of_the_Crusades&oldid=1374331914",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "First Crusade",
+			"url": "https://en.wikipedia.org/w/index.php?title=First_Crusade&oldid=1375884246",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rhineland massacres",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rhineland_massacres&oldid=1376844344",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Siege of Jerusalem (1099)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Siege_of_Jerusalem_(1099)&oldid=1372961988",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Indulgence",
+			"url": "https://en.wikipedia.org/w/index.php?title=Indulgence&oldid=1373614565",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quantum praedecessores",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quantum_praedecessores&oldid=1336915458",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fourth Crusade",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fourth_Crusade&oldid=1373017910",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Siege of Jerusalem (1187)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Siege_of_Jerusalem_(1187)&oldid=1374460975",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sack of Constantinople",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sack_of_Constantinople&oldid=1376867676",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Siege of Acre (1291)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Siege_of_Acre_(1291)&oldid=1377108254",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/hospitallers",
+			"why": "The Hospital of Saint John, founded to care for sick pilgrims in Jerusalem, became one of the two great military orders that garrisoned the crusader states."
+		},
+		{
+			"to": "western-civ/ninety-five-theses",
+			"why": "Urban II's remission of all penance for the journey to Jerusalem was the first plenary indulgence on record, of the kind Leo X granted in 1515 and Luther attacked."
+		},
+		{
+			"to": "western-civ/fall-of-constantinople",
+			"why": "The Fourth Crusade sacked Constantinople in 1204, and the city never recovered its strength before 1453."
+		}
+	]
+}

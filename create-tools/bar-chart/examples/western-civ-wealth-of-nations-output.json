@@ -1,0 +1,35 @@
+{
+	"title": "Nails or pins made by one worker in a day, in Adam Smith's examples (log scale)",
+	"description": "Bar chart on a logarithmic scale of what one worker made in a day in the examples of The Wealth of Nations (1776), Book I, chapter 1: a common smith who has never made nails, two or three hundred (250, the middle of the range); a smith used to making nails but not a nailer, eight hundred or a thousand (900); boys who have made nothing but nails, upwards of 2,300; and a man's share in a pin workshop of ten, 4,800 pins.",
+	"heading": "MADE BY ONE WORKER IN A DAY · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"width": 520,
+	"height": 300,
+	"barWidth": 60,
+	"axis": {
+		"min": 30,
+		"max": 30000,
+		"ticks": [
+			[100, "100"],
+			[1000, "1,000"],
+			[10000, "10,000"]
+		]
+	},
+	"bars": [
+		{ "label": "smith", "sublabel": "new to nails", "value": 250, "display": "250" },
+		{ "label": "smith", "sublabel": "used to nails", "value": 900, "display": "900" },
+		{ "label": "boys", "sublabel": "only nails", "value": 2300, "display": "2,300" },
+		{
+			"label": "pin shop",
+			"sublabel": "one man's share",
+			"value": 4800,
+			"display": "4,800",
+			"highlight": true
+		}
+	],
+	"source": {
+		"container": "Adam Smith, The Wealth of Nations (1776), Book I, chapter 1",
+		"url": "https://www.gutenberg.org/ebooks/3300"
+	}
+}

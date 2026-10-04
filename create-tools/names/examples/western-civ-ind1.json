@@ -1,0 +1,54 @@
+{
+	"western-civ/beethoven-ninth": [
+		["Theater am Kärntnertor", "theater-am-karntnertor"],
+		["Vienna", "vienna"],
+		["Ludwig van Beethoven", "ludwig-van-beethoven"],
+		["Johann Nepomuk Mälzel", "johann-nepomuk-maelzel"],
+		["Caroline Unger", "caroline-unger"],
+		["Anton Schindler", "anton-schindler"],
+		["Symphony No. 9", "symphony-no-9-beethoven"],
+		["sonata form", "sonata-form"],
+		["Friedrich Schiller", "friedrich-schiller"],
+		["Ode to Joy", "ode-to-joy"],
+		["Council of Europe", "council-of-europe"],
+		["European Union", "european-union"],
+		["Berlin Wall", "berlin-wall"],
+		["Leonard Bernstein", "leonard-bernstein"],
+		["compact disc", "compact-disc"]
+	],
+	"western-civ/serial-novel": [
+		["London", "london"],
+		["Chapman & Hall", "chapman-and-hall"],
+		["Charles Dickens", "charles-dickens"],
+		["Robert Seymour", "robert-seymour-illustrator"],
+		["John Forster", "john-forster-biographer"],
+		["_The Pickwick Papers_", "the-pickwick-papers"],
+		["Hablot Knight Browne", "hablot-knight-browne"],
+		["W. H. Smith", "whsmith"],
+		["_Oliver Twist_", "oliver-twist"],
+		["Poor Law Amendment Act", "poor-law-amendment-act-1834"],
+		["_Hard Times_", "hard-times-novel"],
+		["_Don Quixote_", "don-quixote"],
+		["_Robinson Crusoe_", "robinson-crusoe"]
+	],
+	"western-civ/factory-city": [
+		["Richard Arkwright", "richard-arkwright"],
+		["Manchester", "manchester"],
+		["Cottonopolis", "cottonopolis"],
+		["Friedrich Engels", "friedrich-engels"],
+		[
+			"_The Condition of the Working Class in England_",
+			"the-condition-of-the-working-class-in-england"
+		],
+		["Karl Marx", "karl-marx"],
+		["spinning mule", "spinning-mule"],
+		["water frame", "water-frame"],
+		["Factory Acts", "factory-acts"],
+		["Little Ireland", "little-ireland"],
+		["Edwin Chadwick", "edwin-chadwick"],
+		["William Farr", "william-farr"],
+		["American Civil War", "american-civil-war"],
+		["Lancashire Cotton Famine", "lancashire-cotton-famine"],
+		["Abraham Lincoln", "abraham-lincoln"]
+	]
+}

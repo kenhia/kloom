@@ -30,8 +30,8 @@ ancient sources give 252,000, a figure that divides neatly by sixty.
 
 That depends on the length of a stadion, and nobody knows for certain which
 one he used. With the common Attic stadion of roughly 185 meters, 250,000
-stadia comes to about 46,000 kilometers, some 15 per cent too large; with
-some shorter estimates it lands within a few per cent of the true 40,000. His
+stadia comes to about 46,000 kilometers, some 15 percent too large; with
+some shorter estimates it lands within a few percent of the true 40,000. His
 assumptions were not quite right either: Syene is not exactly on the Tropic,
 nor exactly due south of Alexandria.
 

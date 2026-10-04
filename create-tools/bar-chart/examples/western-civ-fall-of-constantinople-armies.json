@@ -1,0 +1,61 @@
+{
+	"title": "How big were the armies at Constantinople in 1453?",
+	"description": "Bar chart of estimates in thousands of men: Nicolò Barbaro 160; Jacopo Tedaldi 200; George Sphrantzes 200; Isidore of Kiev 300; Leonard of Chios 300; a modern estimate from Ottoman records, 50 to 80; and the defenders, under 8. Data: Wikipedia, Fall of Constantinople.",
+	"heading": "CONSTANTINOPLE, 1453 · ESTIMATES · THOUSANDS OF MEN",
+	"unit": "",
+	"axis": {
+		"max": 350,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Barbaro",
+			"sublabel": "eyewitness",
+			"value": 160
+		},
+		{
+			"label": "Tedaldi",
+			"sublabel": "eyewitness",
+			"value": 200
+		},
+		{
+			"label": "Sphrantzes",
+			"sublabel": "eyewitness",
+			"value": 200
+		},
+		{
+			"label": "Isidore",
+			"sublabel": "eyewitness",
+			"value": 300
+		},
+		{
+			"label": "Leonard",
+			"sublabel": "eyewitness",
+			"value": 300
+		},
+		{
+			"label": "Modern",
+			"sublabel": "Ottoman records",
+			"value": 80,
+			"display": "50–80",
+			"highlight": true
+		},
+		{
+			"label": "Defenders",
+			"sublabel": "all told",
+			"value": 8,
+			"display": "<8"
+		}
+	],
+	"barWidth": 44,
+	"width": 620,
+	"source": {
+		"container": "Wikipedia, Fall of Constantinople",
+		"url": "https://en.wikipedia.org/w/index.php?title=Fall_of_Constantinople&oldid=1377926741"
+	}
+}

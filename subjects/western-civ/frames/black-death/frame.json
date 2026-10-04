@@ -1,0 +1,536 @@
+{
+	"id": "black-death",
+	"topic": "The Black Death",
+	"position": {
+		"label": "AD 1347–1351",
+		"sort": 1347
+	},
+	"scene": {
+		"headline": "Then came the great",
+		"accent": "MORTALITY.",
+		"palette": "parchment",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAFFA · MESSINA · FLORENCE · SIENA · STRASBOURG",
+			"YERSINIA PESTIS · THE PESTILENCE"
+		],
+		"counter": {
+			"value": "25–60%",
+			"label": "of Europe's people dead, as estimates range"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"accessed": "2026-10-03",
+			"key": true,
+			"title": "Biological Warfare at the 1346 Siege of Caffa",
+			"authors": [
+				{
+					"family": "Wheelis",
+					"given": "Mark"
+				}
+			],
+			"container": "Emerging Infectious Diseases",
+			"volume": "8",
+			"issue": "9",
+			"pages": "971–75",
+			"published": "2002-09",
+			"doi": "10.3201/eid0809.010536",
+			"note": "De Mussis's account, in Rosemary Horrox's translation, and a chronology of the plague's arrival"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Decameron of Giovanni Boccaccio",
+			"authors": [
+				{
+					"family": "Boccaccio",
+					"given": "Giovanni"
+				}
+			],
+			"translators": [
+				{
+					"family": "Payne",
+					"given": "John"
+				}
+			],
+			"place": "London",
+			"publisher": "Villon Society",
+			"published": "1886",
+			"url": "https://www.gutenberg.org/ebooks/23700",
+			"accessed": "2026-10-03",
+			"note": "The introduction to the first day; read in Project Gutenberg's copy"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Source Problems in English History",
+			"editors": [
+				{
+					"family": "White",
+					"given": "Albert Beebe"
+				},
+				{
+					"family": "Notestein",
+					"given": "Wallace"
+				}
+			],
+			"place": "New York",
+			"publisher": "Harper & Brothers",
+			"published": "1915",
+			"url": "https://sourcebooks.fordham.edu/seth/ordinance-labourers.asp",
+			"accessed": "2026-10-03",
+			"note": "The Ordinance of Labourers (1349) and the Statute of Labourers (1351), read in the Internet Medieval Sourcebook's copies"
+		},
+		{
+			"kind": "book",
+			"title": "The Enforcement of the Statutes of Labourers during the First Decade after the Black Death, 1349–1359",
+			"authors": [
+				{
+					"family": "Putnam",
+					"given": "Bertha Haven"
+				}
+			],
+			"place": "New York",
+			"publisher": "Columbia University",
+			"published": "1908",
+			"url": "https://archive.org/details/enforcementofsta00putnrich",
+			"accessed": "2026-10-03",
+			"note": "The conclusion, pp. 219–21"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Jew in the Medieval World: A Source Book, 315–1791",
+			"authors": [
+				{
+					"family": "Marcus",
+					"given": "Jacob R."
+				}
+			],
+			"place": "New York",
+			"publisher": "Jewish Publication Society",
+			"published": "1938",
+			"pages": "43–48",
+			"url": "https://sourcebooks.fordham.edu/jewish/1348-jewsblackdeath.asp",
+			"accessed": "2026-10-03",
+			"note": "Jacob von Königshofen on the Strasbourg massacre; read in the Internet Jewish History Sourcebook's copy"
+		},
+		{
+			"kind": "article",
+			"accessed": "2026-10-03",
+			"title": "Distinct Clones of Yersinia pestis Caused the Black Death",
+			"authors": [
+				{
+					"family": "Haensch",
+					"given": "Stephanie"
+				},
+				{
+					"family": "Bianucci",
+					"given": "Raffaella"
+				},
+				{
+					"family": "Signoli",
+					"given": "Michel"
+				},
+				{
+					"family": "Rajerison",
+					"given": "Minoarisoa"
+				},
+				{
+					"family": "Schultz",
+					"given": "Michael"
+				},
+				{
+					"family": "Kacki",
+					"given": "Sacha"
+				},
+				{
+					"family": "Vermunt",
+					"given": "Marco"
+				}
+			],
+			"etAl": true,
+			"container": "PLoS Pathogens",
+			"volume": "6",
+			"issue": "10",
+			"pages": "e1001134",
+			"published": "2010-10-07",
+			"doi": "10.1371/journal.ppat.1001134",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"accessed": "2026-10-03",
+			"title": "A Draft Genome of Yersinia pestis from Victims of the Black Death",
+			"authors": [
+				{
+					"family": "Bos",
+					"given": "Kirsten I."
+				},
+				{
+					"family": "Schuenemann",
+					"given": "Verena J."
+				},
+				{
+					"family": "Golding",
+					"given": "G. Brian"
+				},
+				{
+					"family": "Burbano",
+					"given": "Hernán A."
+				},
+				{
+					"family": "Waglechner",
+					"given": "Nicholas"
+				},
+				{
+					"family": "Coombes",
+					"given": "Brian K."
+				},
+				{
+					"family": "McPhee",
+					"given": "Joseph B."
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "478",
+			"issue": "7370",
+			"pages": "506–10",
+			"published": "2011-10-12",
+			"doi": "10.1038/nature10549",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"accessed": "2026-10-03",
+			"title": "The Source of the Black Death in Fourteenth-Century Central Eurasia",
+			"authors": [
+				{
+					"family": "Spyrou",
+					"given": "Maria A."
+				},
+				{
+					"family": "Musralina",
+					"given": "Lyazzat"
+				},
+				{
+					"family": "Gnecchi Ruscone",
+					"given": "Guido A."
+				},
+				{
+					"family": "Kocher",
+					"given": "Arthur"
+				},
+				{
+					"family": "Borbone",
+					"given": "Pier-Giorgio"
+				},
+				{
+					"family": "Khartanovich",
+					"given": "Valeri I."
+				},
+				{
+					"family": "Buzhilova",
+					"given": "Alexandra"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "606",
+			"issue": "7915",
+			"pages": "718–24",
+			"published": "2022-06-15",
+			"doi": "10.1038/s41586-022-04800-3",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"accessed": "2026-10-03",
+			"title": "Human Ectoparasites and the Spread of Plague in Europe during the Second Pandemic",
+			"authors": [
+				{
+					"family": "Dean",
+					"given": "Katharine R."
+				},
+				{
+					"family": "Krauer",
+					"given": "Fabienne"
+				},
+				{
+					"family": "Walløe",
+					"given": "Lars"
+				},
+				{
+					"family": "Lingjærde",
+					"given": "Ole Christian"
+				},
+				{
+					"family": "Bramanti",
+					"given": "Barbara"
+				},
+				{
+					"family": "Stenseth",
+					"given": "Nils Chr."
+				},
+				{
+					"family": "Schmid",
+					"given": "Boris V."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "115",
+			"issue": "6",
+			"pages": "1304–9",
+			"published": "2018-01-16",
+			"doi": "10.1073/pnas.1715640115",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Black Death",
+			"url": "https://en.wikipedia.org/w/index.php?title=Black_Death&oldid=1377102371",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Persecution of Jews during the Black Death",
+			"url": "https://en.wikipedia.org/w/index.php?title=Persecution_of_Jews_during_the_Black_Death&oldid=1377046476",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Second plague pandemic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Second_plague_pandemic&oldid=1377046139",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Siege of Caffa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Siege_of_Caffa&oldid=1377987007",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gabriel de Mussis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gabriel_de_Mussis&oldid=1348575651",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yersinia pestis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yersinia_pestis&oldid=1378333270",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Decameron",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Decameron&oldid=1372831921",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Agnolo di Tura",
+			"url": "https://en.wikipedia.org/w/index.php?title=Agnolo_di_Tura&oldid=1355774120",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ordinance of Labourers 1349",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ordinance_of_Labourers_1349&oldid=1344764421",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Statute of Labourers 1351",
+			"url": "https://en.wikipedia.org/w/index.php?title=Statute_of_Labourers_1351&oldid=1376105272",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peasants' Revolt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peasants'_Revolt&oldid=1378210039",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Black Death in England",
+			"url": "https://en.wikipedia.org/w/index.php?title=Black_Death_in_England&oldid=1377044914",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Strasbourg massacre",
+			"url": "https://en.wikipedia.org/w/index.php?title=Strasbourg_massacre&oldid=1366186565",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Flagellant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Flagellant&oldid=1377517123",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quarantine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quarantine&oldid=1376372667",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "media",
+			"title": "Decameron, fol. 1r, in Boccaccio's hand",
+			"authors": [
+				{
+					"family": "Boccaccio",
+					"given": "Giovanni"
+				}
+			],
+			"container": "Staatsbibliothek zu Berlin",
+			"number": "Ms. Hamilton 90",
+			"published": "1370",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Boccaccio,_Giovanni_Decameron_Ms._Ham._90_1370_1_r.png",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "decameron-autograph.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/merton-calculators",
+			"why": "The plague killed Thomas Bradwardine, the first of the Merton Calculators, in 1349, soon after he became archbishop of Canterbury."
+		},
+		{
+			"to": "nursing/mills-school",
+			"why": "The Alexian brothers began among the men who nursed and buried plague victims in the Low Countries in the fourteenth century."
+		},
+		{
+			"to": "blood/humours",
+			"why": "De Mussis explained the plague's swellings as \"coagulating humours\", in the humoral medicine that went back to the Hippocratic On the Nature of Man."
+		}
+	]
+}

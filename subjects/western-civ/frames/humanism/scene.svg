@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M120 29 L123.5 30.9 M126.2 32.3 L129.7 34.2 M132.3 35.6 L135.9 37.5 M138.5 38.9 L142 40.8 M144.7 42.2 L148.2 44.1 M150.9 45.5 L154.4 47.4 M157 48.8 L160.6 50.7 M163.2 52.1 L166.7 54 M169.4 55.4 L172.9 57.3 M175.5 58.7 L179.1 60.6 M181.7 62 L185.2 63.9 M187.9 65.3 L191.4 67.2 M194.1 68.6 L197.6 70.5 M200.2 71.9 L203.8 73.8 M206.4 75.2 L209.9 77.1 M212.6 78.6 L216.1 80.4 M218.7 81.9 L222.3 83.7 M224.9 85.2 L228.4 87 M231.1 88.5 L234.6 90.4 M237.3 91.8 L240.8 93.7 M243.4 95.1 L247 97 M249.6 98.4 L253.1 100.3 M255.8 101.7 L259.3 103.6 M261.9 105 L265.5 106.9 M268.1 108.3 L271.6 110.2 M274.3 111.6 L277.8 113.5 M280.5 114.9 L284 116.8 M286.6 118.2 L290 120"/>
+		<path pathLength="1" d="M24 24 L36 24"/>
+		<path pathLength="1" d="M24 74 L36 74"/>
+		<path pathLength="1" d="M24 120 L36 120"/>
+		<path pathLength="1" d="M24 180 L36 180"/>
+		<path pathLength="1" d="M30 24 L30 180"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M100 24 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M170 74 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M170 120 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M290 124 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M49 126 L71 126 L71 154 L49 154 Z"/>
+		<path pathLength="1" d="M52 126 L52 154"/>
+		<path pathLength="1" d="M139 166 L161 166 L161 194 L139 194 Z"/>
+		<path pathLength="1" d="M142 166 L142 194"/>
+		<path pathLength="1" d="M199 166 L221 166 L221 194 L199 194 Z"/>
+		<path pathLength="1" d="M202 166 L202 194"/>
+		<path pathLength="1" d="M289 182 L311 182 L311 210 L289 210 Z"/>
+		<path pathLength="1" d="M292 182 L292 210"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M104 32 L64 124"/>
+		<path pathLength="1" d="M63.8 120 L64 124 L67 121.4"/>
+		<path pathLength="1" d="M119 29 L171 70"/>
+		<path pathLength="1" d="M167.1 69.1 L171 70 L169.2 66.4"/>
+		<path pathLength="1" d="M180 84 L180 108"/>
+		<path pathLength="1" d="M178.3 104.4 L180 108 L181.7 104.4"/>
+		<path pathLength="1" d="M175 129 L154 164"/>
+		<path pathLength="1" d="M154.4 160 L154 164 L157.3 161.8"/>
+		<path pathLength="1" d="M185 129 L206 164"/>
+		<path pathLength="1" d="M202.7 161.8 L206 164 L205.6 160"/>
+		<path pathLength="1" d="M300 134 L300 180"/>
+		<path pathLength="1" d="M298.3 176.4 L300 180 L301.7 176.4"/>
+		<path pathLength="1" d="M286.1 214 L246.3 239 M287.7 214.6 L252.5 239.9 M289.7 215.1 L260.1 240.6 M292 215.5 L269 241.2 M294.5 215.8 L278.8 241.6 M297.2 215.9 L289.2 241.9 M300 216 L300 242 M302.8 215.9 L310.8 241.9 M305.5 215.8 L321.2 241.6 M308 215.5 L331 241.2 M310.3 215.1 L339.9 240.6 M312.3 214.6 L347.5 239.9 M313.9 214 L353.7 239"/>
+		<path pathLength="1" d="M284 254 L316 254 L316 272 L284 272 Z"/>
+		<path pathLength="1" d="M300 244 L300 254"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="110" y="27" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Ω</text>
+		<text x="180" y="77" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ΩI</text>
+		<text x="180" y="123" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Ψ</text>
+		<text x="300" y="127" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">π</text>
+		<text x="62" y="143" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="152" y="183" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Q</text>
+		<text x="212" y="183" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S</text>
+		<text x="302" y="199" font-size="8" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">L</text>
+		<text x="306" y="116" font-size="8" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">?</text>
+		<text x="180" y="208" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IX C.</text>
+		<text x="60" y="166" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C. 825</text>
+		<text x="342" y="128" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">POGGIO 1417</text>
+		<text x="345" y="200" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NICCOLI</text>
+		<text x="338" y="225" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">50+</text>
+		<text x="300" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BRESCIA 1473</text>
+		<text x="110" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DE RERUM NATURA</text>
+	</g>
+</svg>

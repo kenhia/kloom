@@ -1,0 +1,324 @@
+{
+	"id": "locke",
+	"topic": "Locke's Two Treatises",
+	"position": {
+		"label": "AD 1689",
+		"sort": 1689
+	},
+	"scene": {
+		"headline": "We gave our power in",
+		"accent": "TRUST.",
+		"palette": "candle",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · JOHN LOCKE · SHAFTESBURY",
+			"TWO TREATISES OF GOVERNMENT · A LETTER CONCERNING TOLERATION"
+		],
+		"counter": {
+			"value": "3 of 200",
+			"label": "tracts on the Revolution, 1689–94, that mention Locke"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/royal-society",
+			"why": "Locke, a physician and experimental philosopher, was elected a Fellow of the Royal Society in 1668, three years after its Philosophical Transactions began."
+		},
+		{
+			"to": "chemistry/boyle",
+			"why": "Before he wrote on government, Locke worked with Robert Boyle at Oxford as a physician and experimental philosopher."
+		},
+		{
+			"to": "physics/principia",
+			"why": "In exile in Holland Locke read Newton's Principia and asked Huygens whether its mathematics could be trusted; his Essay calls him \"the incomparable Mr. Newton\"."
+		},
+		{
+			"to": "western-civ/american-revolution",
+			"why": "Locke's \"long train of abuses\" and government by consent reappear in the Declaration of Independence."
+		},
+		{
+			"to": "western-civ/glorious-revolution",
+			"why": "Locke published the Two Treatises in 1689 to defend King William's title \"in the consent of the people\"."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Two Treatises of Government",
+			"authors": [
+				{
+					"family": "Locke",
+					"given": "John"
+				}
+			],
+			"publisher": "A. Millar et al.",
+			"place": "London",
+			"published": "1764",
+			"edition": "6th ed.",
+			"url": "https://www.gutenberg.org/ebooks/7370",
+			"accessed": "2026-10-03",
+			"note": "The Second Treatise read in Project Gutenberg's text; §§ 4, 6, 27, 49, 95, 123, 149, 222 and 225 are quoted from it"
+		},
+		{
+			"kind": "book",
+			"title": "Two Treatises of Government (1764)/Book I/Chapter 1",
+			"authors": [
+				{
+					"family": "Locke",
+					"given": "John"
+				}
+			],
+			"container": "Wikisource",
+			"published": "1764",
+			"url": "https://en.wikisource.org/wiki/Two_Treatises_of_Government_(1764)/Book_I/Chapter_1",
+			"accessed": "2026-10-03",
+			"note": "The First Treatise's opening sentence on slavery; the preface is quoted from the same edition"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Letter Concerning Toleration",
+			"authors": [
+				{
+					"family": "Locke",
+					"given": "John"
+				}
+			],
+			"translators": [
+				{
+					"family": "Popple",
+					"given": "William"
+				}
+			],
+			"published": "1689",
+			"container": "Wikisource",
+			"url": "https://en.wikisource.org/wiki/A_Letter_Concerning_Toleration",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "The Fundamental Constitutions of Carolina: March 1, 1669",
+			"container": "The Avalon Project",
+			"publisher": "Yale Law School Lillian Goldman Law Library",
+			"url": "https://avalon.law.yale.edu/17th_century/nc05.asp",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "John Locke",
+			"authors": [
+				{
+					"family": "Uzgalis",
+					"given": "William"
+				}
+			],
+			"container": "Stanford Encyclopedia of Philosophy",
+			"editors": [
+				{
+					"family": "Zalta",
+					"given": "Edward N."
+				}
+			],
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2022-07-07",
+			"url": "https://plato.stanford.edu/entries/locke/",
+			"accessed": "2026-10-03",
+			"note": "Locke's life, the dating of the Treatises to the Exclusion Crisis, Boyle, Newton and Huygens, and the debate over slavery"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Locke's Political Philosophy",
+			"authors": [
+				{
+					"family": "Tuckness",
+					"given": "Alex"
+				}
+			],
+			"container": "Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2020-10-06",
+			"url": "https://plato.stanford.edu/entries/locke-political/",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "article",
+			"title": "John Locke, Carolina, and the Two Treatises of Government",
+			"authors": [
+				{
+					"family": "Armitage",
+					"given": "David"
+				}
+			],
+			"container": "Political Theory",
+			"volume": "32",
+			"issue": "5",
+			"pages": "602–627",
+			"published": "2004",
+			"doi": "10.1177/0090591704267122",
+			"accessed": "2026-10-03",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Locke, Natural Law, and New World Slavery",
+			"authors": [
+				{
+					"family": "Farr",
+					"given": "James"
+				}
+			],
+			"container": "Political Theory",
+			"volume": "36",
+			"issue": "4",
+			"pages": "495–522",
+			"published": "2008",
+			"doi": "10.1177/0090591708317899",
+			"accessed": "2026-10-03",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Slavery, Sovereignty, and “Inheritable Blood”: Reconsidering John Locke and the Origins of American Slavery",
+			"authors": [
+				{
+					"family": "Brewer",
+					"given": "Holly"
+				}
+			],
+			"container": "The American Historical Review",
+			"volume": "122",
+			"issue": "4",
+			"pages": "1038–1078",
+			"published": "2017",
+			"doi": "10.1093/ahr/122.4.1038",
+			"accessed": "2026-10-03",
+			"read": "record",
+			"note": "Its argument as Wikipedia's article on Locke summarizes it"
+		},
+		{
+			"kind": "web",
+			"title": "Declaration of Independence: A Transcription",
+			"publisher": "National Archives",
+			"url": "https://www.archives.gov/founding-docs/declaration-transcript",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Two Treatises of Government",
+			"url": "https://en.wikipedia.org/w/index.php?title=Two_Treatises_of_Government&oldid=1378376975",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Locke",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Locke&oldid=1376505268",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A Letter Concerning Toleration",
+			"url": "https://en.wikipedia.org/w/index.php?title=A_Letter_Concerning_Toleration&oldid=1376867055",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Exclusion Crisis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Exclusion_Crisis&oldid=1355363048",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fundamental Constitutions of Carolina",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fundamental_Constitutions_of_Carolina&oldid=1378079546",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Royal African Company",
+			"url": "https://en.wikipedia.org/w/index.php?title=Royal_African_Company&oldid=1376496363",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "List of officials and shareholders in the Royal African Company, 1672",
+			"url": "https://en.wikipedia.org/w/index.php?title=List_of_officials_and_shareholders_in_the_Royal_African_Company,_1672&oldid=1307225683",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-22"
+		},
+		{
+			"kind": "media",
+			"title": "Title page of John Locke, Two Treatises of Government (London, 1690)",
+			"url": "https://commons.wikimedia.org/wiki/File:Title_page_of_John_Locke,_Two_Treatises_of_Government_(London,_1690)_LCCN2002710224.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "two-treatises.jpg",
+			"authors": [
+				{
+					"family": "Locke",
+					"given": "John"
+				}
+			],
+			"container": "Library of Congress, Prints and Photographs Division",
+			"number": "LCCN 2002710224",
+			"published": "1690"
+		}
+	]
+}

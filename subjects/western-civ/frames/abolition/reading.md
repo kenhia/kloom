@@ -1,0 +1,36 @@
+Between 1501 and 1866 the **[Atlantic slave trade](kloom:e/atlantic-slave-trade)** carried an estimated 12.5 million people out of Africa, and about 10.7 million of them survived the crossing to be sold in the Americas. These are the estimates of the Trans-Atlantic Slave Trade Database, now SlaveVoyages, built from the records of some 35,000 voyages. About one in seven died on the way, in the **[Middle Passage](kloom:e/middle-passage)**. British ships carried roughly a third of them, about 3.5 million people. A boy who said he had been taken from his village in what is now Nigeria described the hold of the ship that carried him to Barbados:
+
+> The closeness of the place, and the heat of the climate, added to the number in the ship, which was so crowded that each had scarcely room to turn himself, almost suffocated us. … The shrieks of the women, and the groans of the dying, rendered the whole a scene of horror almost inconceivable.
+
+He was **[Olaudah Equiano](kloom:e/olaudah-equiano)**. He bought his own freedom in 1766, and in 1789 published in London his _Interesting Narrative_, which went through nine editions in his lifetime. In 1999 the scholar Vincent Carretta found a baptism record and a ship's muster that give his birthplace as Carolina, and argued that the African childhood was told for effect; other historians, finding much of the book confirmed elsewhere, still accept it. Either way the _Narrative_ was one enslaved man's testimony set before a reading public, and it sold.
+
+## A machine of persuasion
+
+On 22 May 1787 twelve men, nine of them Quakers, met at a printer's shop in George Yard, London, and formed the **[Society for Effecting the Abolition of the Slave Trade](kloom:e/society-for-effecting-the-abolition-of-the-slave-trade)**. They aimed at the trade first, not slavery itself. **[Thomas Clarkson](kloom:e/thomas-clarkson)**, who had written a prize essay at Cambridge on whether it was lawful to make slaves of others against their will, rode to Bristol and Liverpool to gather evidence: he took down sailors' accounts, collected muster rolls and bought the handcuffs, leg-shackles and thumbscrews the ships carried. The potter **[Josiah Wedgwood](kloom:e/josiah-wedgwood)** joined the committee that summer. Its methods, most of them as Clarkson's _History_ of 1808 records them:
+
+| When    | What                       | How it worked                                                                                                   |
+| ------- | -------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| 1787    | A seal                     | A kneeling African in chains, and the words "Am I not a Man and a Brother?"                                     |
+| 1787–88 | Wedgwood's cameo           | The seal in jasperware; Clarkson alone received 500 to give away, worn on snuffboxes, bracelets and hairpins    |
+| 1788    | Petitions                  | Over a hundred reached the House of Commons                                                                     |
+| 1788–89 | The print of the _Brookes_ | A real ship drawn to scale with its people; it made "an instantaneous impression of horror upon all who saw it" |
+| 1791–92 | The sugar boycott          | "No fewer than three hundred thousand persons had abandoned the use of sugar", by Clarkson's count on tour      |
+| 1792    | More petitions             | Manchester alone sent 10,639 names; totals given for the year run from 100,000 to 400,000                       |
+
+## The ship drawn to scale
+
+In 1788 Parliament debated Sir William Dolben's bill to limit how many people a ship could carry, proposed at five to every three tons of burden. The London committee took the measurements of the Liverpool ship **[_Brookes_](kloom:e/brooks-1781-ship)** that a naval officer, Captain Parrey, had laid before the Commons: a lower deck 100 feet long and 25 feet across, 5 feet high, with shelves 6 feet deep along its sides. It allowed each man a space 6 feet by 1 foot 4 inches, each woman 5 feet by 1 foot 4, and each child less, and drew them in. Only 450 would fit. The act, Clarkson worked out, let her carry 454. (The Gutenberg text of his _History_ prints "one hundred and fifty-four", which his own sum shows to be a slip.) Before the act, the print says, she had carried 609. The plate draws her deck to the same measurements, with one man's allowance.
+
+![The abolitionists' print of the slave ship Brookes: a long section of the hull and two plans of its lower deck, packed from stern to bow with rows of small figures of men, women and children lying side by side, with smaller cross sections and deck plans below](brookes.jpg)
+
+**[William Wilberforce](kloom:e/william-wilberforce)**, the campaign's voice in the Commons, feared that regulating the trade would make it look respectable. His bill to abolish it lost in 1791 by 163 votes to 88.
+
+## The acts
+
+Resistance did not wait for Parliament. Enslaved people in Saint-Domingue rose in 1791, and the trail _Revolutions_ follows them to Haiti. In Britain, Wilberforce's bill finally carried the Commons by 283 votes to 16, and the **[Slave Trade Act 1807](kloom:e/slave-trade-act-1807)** ended the British trade from 1 May 1807. The United States banned imports from 1808. Slavery itself went on. Up to 60,000 of Jamaica's 300,000 enslaved people struck and rose at Christmas 1831 under **[Samuel Sharpe](kloom:e/samuel-sharpe)**; about 500 of them, Sharpe among them, were killed in the fighting or executed after it. Parliament then passed the **[Slavery Abolition Act 1833](kloom:e/slavery-abolition-act-1833)** for most of the **[British Empire](kloom:e/british-empire)**. It freed only children under six on 1 August 1834; the rest became "apprentices", owing 45 hours of unpaid work a week until 1838. It paid £20 million, about 40 percent of a year's government spending, to the owners for their loss. The people they had owned received nothing. University College London's _Legacies of British Slavery_ database traces the claims, and finds about half the money paid to owners living in Britain. The United States abolished slavery by the **[Thirteenth Amendment](kloom:e/thirteenth-amendment-to-the-united-states-constitution)** in December 1865, and Brazil, the last in the Americas, by the **[Lei Áurea](kloom:e/lei-aurea)** of 13 May 1888.
+
+## Conscience or interest?
+
+At the centenary of the 1833 act, historians such as Reginald Coupland told abolition as a triumph of conscience. In _Capitalism and Slavery_ (1944) **[Eric Williams](kloom:e/eric-williams)**, later the first prime minister of Trinidad and Tobago, argued that the West Indian sugar economy was already in decline and that abolition followed the interests of a new industrial Britain. Seymour Drescher answered in _Econocide_ (1977) that the slave economy was not in decline in 1807, and that abolition came from the moral outrage of a public that petitioned and boycotted. Williams himself counted the risings of the enslaved, from Haiti to Jamaica, among the causes, and the argument continues.
+
+Abolition in France came and went with its revolution, the next frame.

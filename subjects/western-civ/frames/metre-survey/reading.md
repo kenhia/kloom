@@ -43,8 +43,8 @@ caught yellow fever and died at Castellón de la Plana in 1804. The historian
 
 The error barely mattered, because once the bar existed the bar was the
 meter, not the Earth. In 1875 the **[Metre Convention](kloom:e/metre-convention)** made the meter an
-international unit, and in 1889 a new prototype of 90 per cent platinum and
-10 per cent iridium, with an X-shaped cross-section, replaced the old one,
+international unit, and in 1889 a new prototype of 90 percent platinum and
+10 percent iridium, with an X-shaped cross-section, replaced the old one,
 with calibrated copies sent to the signatory nations. In 1960 the meter was
 redefined as 1,650,763.73 wavelengths of a line of krypton-86, and in 1983
 as the distance light travels in a vacuum in 1/299,792,458 of a second.

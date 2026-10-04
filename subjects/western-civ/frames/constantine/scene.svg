@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M200 118 L200 274"/>
+		<path pathLength="1" d="M47.1 266 L352.9 266"/>
+		<path pathLength="1" d="M145.5 280 L254.5 280"/>
+		<path pathLength="1" d="M145.5 276 L145.5 284"/>
+		<path pathLength="1" d="M254.5 276 L254.5 284"/>
+		<path pathLength="1" d="M358.9 266 L358.9 128"/>
+		<path pathLength="1" d="M354.9 266 L362.9 266"/>
+		<path pathLength="1" d="M354.9 128 L362.9 128"/>
+		<path pathLength="1" d="M254.5 128 L358.9 128"/>
+		<path pathLength="1" d="M131.7 153.9 L200 128 L268.3 153.9"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M55.1 266 L55.1 217.7 L100.3 206.2 L100.3 194.7 L145.5 183.2 L145.5 148.7 L200 128 L254.5 148.7 L254.5 183.2 L299.7 194.7 L299.7 206.2 L344.9 217.7 L344.9 266"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M145.5 148.7 L254.5 148.7"/>
+		<path pathLength="1" d="M200 148.7 L200 128"/>
+		<path pathLength="1" d="M200 148.7 L172.7 138.4"/>
+		<path pathLength="1" d="M200 148.7 L227.3 138.4"/>
+		<path pathLength="1" d="M55.1 217.7 L100.3 217.7"/>
+		<path pathLength="1" d="M344.9 217.7 L299.7 217.7"/>
+		<path pathLength="1" d="M100.3 194.7 L145.5 194.7"/>
+		<path pathLength="1" d="M299.7 194.7 L254.5 194.7"/>
+		<path pathLength="1" d="M100.3 266 L100.3 222.3"/>
+		<path pathLength="1" d="M97.3 222.3 L103.3 222.3"/>
+		<path pathLength="1" d="M97.3 266 L103.3 266"/>
+		<path pathLength="1" d="M145.5 266 L145.5 222.3"/>
+		<path pathLength="1" d="M142.5 222.3 L148.5 222.3"/>
+		<path pathLength="1" d="M142.5 266 L148.5 266"/>
+		<path pathLength="1" d="M254.5 266 L254.5 222.3"/>
+		<path pathLength="1" d="M251.5 222.3 L257.5 222.3"/>
+		<path pathLength="1" d="M251.5 266 L257.5 266"/>
+		<path pathLength="1" d="M299.7 266 L299.7 222.3"/>
+		<path pathLength="1" d="M296.7 222.3 L302.7 222.3"/>
+		<path pathLength="1" d="M296.7 266 L302.7 266"/>
+		<path pathLength="1" d="M145.5 222.3 L145.5 183.2"/>
+		<path pathLength="1" d="M254.5 222.3 L254.5 183.2"/>
+		<path pathLength="1" d="M143.5 155.6 L147.5 155.6 L147.5 169.4 L143.5 169.4 Z"/>
+		<path pathLength="1" d="M252.5 155.6 L256.5 155.6 L256.5 169.4 L252.5 169.4 Z"/>
+		<path pathLength="1" d="M167.8 229.2 L167.9 226.4 L168.3 223.6 L168.9 220.9 L169.7 218.2 L170.8 215.6 L172.1 213.1 L173.6 210.7 L175.3 208.5 L177.2 206.4 L179.3 204.5 L181.5 202.8 L183.9 201.3 L186.4 200 L189 198.9 L191.7 198.1 L194.4 197.5 L197.2 197.1 L200 197 L202.8 197.1 L205.6 197.5 L208.3 198.1 L211 198.9 L213.6 200 L216.1 201.3 L218.5 202.8 L220.7 204.5 L222.8 206.4 L224.7 208.5 L226.4 210.7 L227.9 213.1 L229.2 215.6 L230.3 218.2 L231.1 220.9 L231.7 223.6 L232.1 226.4 L232.2 229.2"/>
+		<path pathLength="1" d="M167.8 229.2 L167.8 266"/>
+		<path pathLength="1" d="M232.2 229.2 L232.2 266"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="200" y="292" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NAVE · TRUSS SPAN 23.7 M</text>
+		<text x="362.9" y="197" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">≈30 M</text>
+		<text x="100.3" y="188.2" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AISLES</text>
+		<text x="200" y="18" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OLD ST. PETER'S · SECTION</text>
+	</g>
+</svg>
