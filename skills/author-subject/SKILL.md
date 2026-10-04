@@ -18,6 +18,33 @@ fetch can't reach; give it to every author.
 `docs/design.md` §Content model is the schema, and `create-tools/README.md`
 names the tools.
 
+## Extending a subject
+
+Sprint 049 grew western-civ from its 25-frame proof of concept to 72 by
+this procedure, and most of it applies as written. What differs:
+
+- **Every existing id is kept**: names, connections, bookmarks, notes and
+  kept answers point at them. Frames may move between segments, and the
+  plan lists them with no `part`. Record the before (`names.py density`,
+  `names.py reach`) as for a new subject.
+- **The old frames are not the bar** if they were written before the
+  tools (350–700 words, no images): say so in the brief, and write the
+  hand frame as for a new subject.
+- **Re-palette the old frames** to their new sections in the same commit
+  as the plan; a palette is presentation, so no `edits`.
+- **Read every old reading's last sentence** once the spine changes: one
+  that names "the next frame" may now point at the wrong one. A wording
+  fix is not an `edits` entry; a correction an author finds in an old
+  frame is, in the same commit as the fix.
+- **The old frames' names were described from the old frames' angle**
+  (`french-revolution` "which also swept away the old units of measure"):
+  list the subject's own names for widening at step 4.
+- **Authors may store connections to the old frames**, which are
+  committed; give them the full list of frames with the unwritten ones
+  marked as planned (`.scratch/049/frames.txt`).
+- **Tests that pin the subject's shape** (its palettes, its trails, the
+  frames around one) change with it.
+
 ## 1. Plan
 
 Decide the whole shape before writing a frame.
@@ -35,8 +62,9 @@ Decide the whole shape before writing a frame.
   anchor. Prefer a trail over a `category` segment when the topic is a
   detour a reader may skip; prefer a segment when every reader needs it
   in order.
-- **Scale.** Match the depth asked for, not a count. For scale, western-civ
-  has 16 main-spine frames and one trail; ai has 41 and four trails.
+- **Scale.** Match the depth asked for, not a count. For scale, the
+  subjects run 62 to 72 frames, a main spine of 40 to 58 and three to seven
+  trails (western-civ, 58 and five; ai, 41 and four).
 - Write the plan as `create-tools/subject-plan/<subject>.json`: the shape of
   `spine.json` plus `trails`, a `palette` on every segment (its section's,
   below), and a `frames` entry for every frame with its
@@ -192,8 +220,11 @@ Things authors working at once cannot see, so the brief settles them:
 - **Each frame's palette.** It is its section's, in the plan and quoted
   in the brief, so a section stays one palette however its frames are
   shared out.
-- **Accents and images** must not repeat across the subject. Tell authors
-  to grep before choosing and again before reporting, and settle clashes
+- **Accents and images** must not repeat across the subject. Have
+  authors claim an accent before writing, a line `ACCENT part frame` in
+  one shared file (`.scratch/<subject>/accents.txt`), the first claim
+  winning: grepping alone let four clashes through in sprint 049, each
+  found only when another author's frame went live. Settle clashes
   at review: in sprint 015 two authors chose FREE within minutes, and in
   sprint 030 CLOCK was committed while another author still held it in a
   draft. The later author changes theirs; tell them while they are still
@@ -259,12 +290,21 @@ Things authors working at once cannot see, so the brief settles them:
   part due to commit earlier has already drafted a name the plan gives to a
   later one, the earlier draft stands, the listed owner borrows it, and the
   plan's `owners` is changed to match, so `names.py drafts` passes again
-  (sprint 030: two names drafted twice that way). A name the plan does not
+  (sprint 030: two names drafted twice that way). **A name the plan does
+  not list, drafted by a part due to commit later**, is borrowed all the
+  same: the reviewer adds that draft to the registry with the earlier
+  part, without `home` (sprint 049's `edward-gibbon`). An owner drafts a
+  name only if a frame of its own marks it; one that no spec marks is
+  dropped before commit. Give the brief's checking command every owner's
+  drafts directory, not a placeholder. A name the plan does not
   list goes to the part chiefly about it, its home, unless an earlier part
   already drafted it. Authors run `names.py drafts <subject>` before
   drafting a name the plan does not list, pass every drafts directory to
   `--complete` and `mark --check`, and check with `--only <their frames>`
   so no one else's half-written frame fails them.
+  An author's copy grows as the reviewer commits other parts, so a later
+  commit (a clashing accent) can fail a frame that passed: check again
+  just before reporting.
   They write contact sheets to their own `--png`, never run
   `subject_plan.py` on the live subject, and never commit. Name their
   Prettier and plate commands by frame (`npx prettier --write

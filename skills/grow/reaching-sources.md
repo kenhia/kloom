@@ -208,13 +208,20 @@ never a person, and wait when a site tells you to.
     - cite with `"read": "excerpt"` and a `note` saying it was read through
       the Internet Archive's full-text search snippets;
     - quote only the words a snippet shows, never a sentence it cuts off;
-- **JSTOR** answers a script with a challenge page, and its `10.2307/N`
-  DOIs do not resolve through Crossref. Cite a JSTOR-only article by its
+- **JSTOR** answers a script with a challenge page, and most of its
+  `10.2307/N` DOIs do not resolve through Crossref; some do, where the
+  publisher registered them (the _American Journal of International
+  Law_'s, through Cambridge, sprint 049), so try `doi.org` before choosing. Cite a JSTOR-only article by its
   stable url, `https://www.jstor.org/stable/N`, with no check; the `N` is
   the DOI's suffix, which a citing page (AcaWiki, a reference list) often
   gives (sprint 029). Never cite PhilPapers' record of it instead.
 - **Wikisource** and **Project Gutenberg** hold many old books and
-  documents in clean text.
+  documents in clean text. Another language's Wikisource comes through its
+  MediaWiki API (`fr.wikisource.org/w/api.php?action=parse&page=…`), which
+  served the whole first edition of the _Encyclopédie_, the _Archives
+  parlementaires_' decrees and Schiller's _Thalia_ text page by page
+  (sprint 049). English Wikisource's 1911 _Britannica_ is a citable
+  public-domain source for nineteenth-century history.
 - **HAL** (French open archive): an `oa_url` of the form
   `hal.science/…/file/….pdf` answers a script with a JavaScript challenge;
   `https://hal.science/<hal-id>/document` serves the PDF itself. Check the
@@ -230,6 +237,56 @@ never a person, and wait when a site tells you to.
   a large PDF can be cut off at 1 MB; try an earlier timestamp (sprint 028).
   With nineteen authors at work it answered 429 at once; requests about
   fifteen seconds apart got through (sprint 030).
+
+## History, law and the humanities (sprint 049)
+
+- **Ancient and old texts in free translations**: Project Gutenberg
+  (Jowett's Plato, Church and Brodribb's Tacitus, Kenyon's _Constitution
+  of the Athenians_, Morshead's Aeschylus), LacusCurtius (the Loeb
+  translations now public domain, and Latin originals) and the Perseus
+  Digital Library served every ancient frame. Loeb's and Harvard
+  University Press's own pages refuse a script.
+- **Check a translation's date before quoting it at length.** Yale's
+  Avalon Project mixes old translations with modern ones still in
+  copyright (its Twelve Tables is the 1961 translation; Thatcher's 1901
+  one is on Fordham). Fordham's Internet History Sourcebooks have pages
+  that answer 500, a few machine translations (its Renan), and some wrong
+  dates in their headings (Eugenius III's bull of 1145 as 1154): cite each
+  work, with a `note` naming the page you read it on.
+  A guessed `sourcebooks.fordham.edu/source/….asp` url answers 500; take
+  the links from the section indexes (`sbook1r.asp`, `sbook1w.asp`).
+- **Old translations of medieval documents** (Rashdall 1895, Putnam 1908,
+  Raine 1859) are whole on the Internet Archive and Gutenberg.
+- **Humanities journals** have no abstract in Crossref or OpenAlex: cite
+  an article you could not read with `read: "record"`.
+- **Wikipedia's search API** (`list=search`) answered a bare User-Agent
+  with something that was not JSON; one naming the project's url works.
+- **Laws and records**: legislation.gov.uk holds English acts in force
+  with their original text; British History Online the _Statutes of the
+  Realm_; Persée the _Archives parlementaires_; Liberty, Equality,
+  Fraternity (`revolution.chnm.org/d/<n>`) French revolutionary laws in
+  named translations; the Census Bureau the 1790 returns as PDF.
+- **Behind a challenge, with a Wayback `id_` copy that works**:
+  `nytimes.com`, `quod.lib.umich.edu` (Lincoln's _Collected Works_),
+  `nzhistory.govt.nz`, berlin.de's Wall pages (moved to the Berlin Wall
+  Foundation), the ASCSA Agora database, the German History in Documents
+  and Images (`ghdi.ghi-dc.org`, broken certificate, then 404), Founders
+  Online, and `manchester.gov.uk`'s PDFs (ask the availability API for a
+  real timestamp first).
+- **JavaScript applications with empty Wayback copies**: SlaveVoyages and
+  UNESCO's `unesdoc`. Cite what quotes them, with `citedIn`; UNESCO's
+  open _General History of Africa_ is whole on the Internet Archive.
+- **Music scores**: IMSLP sits behind a JavaScript gate; the Internet
+  Archive holds many public-domain scores whole (_The Rite of Spring_'s
+  1921 printing as `lesacreduprintem00stra_0`), read with `read_source
+--png` at `--scale 6`.
+- **Cambridge Core**'s `/core/books/abs/<book>/<chapter>/` pages show a
+  chapter's opening text to a script: cite it with `read: "excerpt"`.
+- **A pirated upload** (a whole in-copyright book in the Internet Archive's
+  `opensource` collection) is never read or cited; use the lending copy's
+  search snippets, or the reviews.
+- **Coordinates** for a map plate: Wikipedia's `prop=coordinates` returns
+  ten results unless you pass `colimit=max`.
 
 ## Broken certificates
 
