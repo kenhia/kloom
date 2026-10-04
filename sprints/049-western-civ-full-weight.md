@@ -355,5 +355,12 @@ clone is at the same commit.
 - **`/api/stats`** counts western-civ at 72 frames, 14 of them in 5 trails,
   58,810 words (214 pages, by the stats' own count, which includes tables
   and captions), 48 images, 12 charts and 150 connections.
-- **The public reader site was not published.** That is `just
-publish-public`, run separately.
+- **The public reader site** was published the same day at Ken's word,
+  with `just publish-public` from `561c094`: Fly release v11, image
+  `kloom-reader:561c09481-202610041619`, replacing v10 (`3c49f08`). Every
+  `verify-public` check passed (TLS, HSTS, robots, the sign-in wall, the
+  404s for grow and for ask and keep without ask, compression, the
+  library's build `992f39`, the Fly-Client-IP overwrite). The site has two
+  notes, none detached; ask has spent $0.02 of $15 this month.
+  `pull-notes` backed up the readers' store first, to
+  `reader-20261004-1619.db`.
