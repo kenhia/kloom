@@ -1,0 +1,405 @@
+{
+	"id": "unification",
+	"topic": "Nationalism and unification",
+	"position": {
+		"label": "AD 1859–1871",
+		"sort": 1861
+	},
+	"scene": {
+		"headline": "Iron, blood and a",
+		"accent": "PLEBISCITE.",
+		"palette": "brick",
+		"illustration": "scene.svg",
+		"metadata": ["TURIN · NAPLES · BERLIN · VERSAILLES", "CAVOUR · GARIBALDI · BISMARCK"],
+		"counter": {
+			"value": "432,053 to 667",
+			"label": "Sicily's open vote for Italy, 1860"
+		}
+	},
+	"connections": [
+		{
+			"to": "nursing/red-cross",
+			"why": "The Battle of Solferino in 1859, which won Lombardy for Piedmont on the road to a united Italy, was the field that moved Henry Dunant to found the Red Cross, whose emblem was first worn in Prussia's war with Denmark in 1864."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "H.M.S. \"Hannibal\" at Palermo and Naples, during the Italian Revolution, 1859–1861",
+			"authors": [
+				{
+					"family": "Mundy",
+					"given": "Rodney"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1863",
+			"url": "https://archive.org/details/hmshannibalatpa00mundgoog",
+			"accessed": "2026-10-03",
+			"note": "The voting in Naples, pp. 256–58"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Garibaldi and the Making of Italy",
+			"authors": [
+				{
+					"family": "Trevelyan",
+					"given": "George Macaulay"
+				}
+			],
+			"publisher": "Longmans, Green",
+			"place": "London",
+			"published": "1911",
+			"url": "https://archive.org/details/garibaldiandmak00trevgoog",
+			"accessed": "2026-10-03",
+			"note": "The plebiscites of October 1860, p. 266"
+		},
+		{
+			"kind": "chapter",
+			"title": "General Instructions for the Members of Young Italy",
+			"authors": [
+				{
+					"family": "Mazzini",
+					"given": "Giuseppe"
+				}
+			],
+			"container": "Life and Writings of Joseph Mazzini, vol. 1, Autobiographical and Political",
+			"edition": "New ed.",
+			"pages": "96–97",
+			"publisher": "Smith, Elder",
+			"place": "London",
+			"published": "1890",
+			"url": "https://archive.org/details/lifewritingsofjo01mazz",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Johann Gottfried von Herder",
+			"authors": [
+				{
+					"family": "Forster",
+					"given": "Michael"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2022-05-19",
+			"url": "https://plato.stanford.edu/entries/herder/",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "Qu'est-ce qu'une nation ?",
+			"authors": [
+				{
+					"family": "Renan",
+					"given": "Ernest"
+				}
+			],
+			"edition": "2nd ed.",
+			"publisher": "Calmann Lévy",
+			"place": "Paris",
+			"published": "1882",
+			"language": "fr",
+			"url": "https://fr.wikisource.org/wiki/Qu%E2%80%99est-ce_qu%E2%80%99une_nation_%3F",
+			"accessed": "2026-10-03",
+			"note": "Read in Wikisource's transcription; quoted in our translation"
+		},
+		{
+			"kind": "book",
+			"title": "Chi l'ha detto? Tesoro di citazioni italiane e straniere",
+			"authors": [
+				{
+					"family": "Fumagalli",
+					"given": "Giuseppe"
+				}
+			],
+			"edition": "7th ed.",
+			"publisher": "Ulrico Hoepli",
+			"place": "Milan",
+			"published": "1921",
+			"language": "it",
+			"url": "https://it.wikisource.org/wiki/Chi_l%27ha_detto%3F/Parte_prima/37",
+			"accessed": "2026-10-03",
+			"note": "No. 667 quotes the preface of d'Azeglio's I miei ricordi in full"
+		},
+		{
+			"kind": "article",
+			"title": "On the Origins of Making Italy: Massimo D'Azeglio and 'Fatta l'Italia, bisogna fare gli Italiani'",
+			"authors": [
+				{
+					"family": "Hom",
+					"given": "Stephanie Malia"
+				}
+			],
+			"container": "Italian Culture",
+			"volume": "31",
+			"issue": "1",
+			"pages": "1–16",
+			"published": "2013-03",
+			"doi": "10.1179/0161462212z.00000000012",
+			"accessed": "2026-10-03",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Excerpt from Bismarck's \"Blood and Iron\" Speech (1862)",
+			"authors": [
+				{
+					"family": "Bismarck",
+					"given": "Otto von"
+				}
+			],
+			"translators": [
+				{
+					"family": "Riemer",
+					"given": "Jeremiah"
+				}
+			],
+			"container": "German History in Documents and Images",
+			"publisher": "German Historical Institute, Washington, DC",
+			"url": "https://ghdi.ghi-dc.org/sub_document.cfm?document_id=250",
+			"accessed": "2026-10-03",
+			"note": "Read in the Wayback Machine's copy"
+		},
+		{
+			"kind": "web",
+			"title": "Original and Edited Versions of the Ems Dispatch (July 13, 1870)",
+			"container": "German History in Documents and Images",
+			"publisher": "German Historical Institute, Washington, DC",
+			"url": "https://ghdi.ghi-dc.org/pdf/eng/505_Orig%20Ed%20Ems%20Dispatch_148.pdf",
+			"accessed": "2026-10-03",
+			"note": "Translation from Louis L. Snyder, Documents of German History (1958); read in the Wayback Machine's copy"
+		},
+		{
+			"kind": "book",
+			"title": "Bismarck, the Man and the Statesman: Being the Reflections and Reminiscences of Otto, Prince von Bismarck",
+			"authors": [
+				{
+					"family": "Bismarck",
+					"given": "Otto von"
+				}
+			],
+			"translators": [
+				{
+					"family": "Butler",
+					"given": "A. J."
+				}
+			],
+			"volume": "2",
+			"publisher": "Smith, Elder",
+			"place": "London",
+			"published": "1898",
+			"url": "https://archive.org/details/bismarckmanstat02bism",
+			"accessed": "2026-10-03",
+			"note": "Editing the telegram, pp. 99–100"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Schleswig-Holstein Question",
+			"authors": [
+				{
+					"family": "Phillips",
+					"given": "Walter Alison"
+				}
+			],
+			"container": "Encyclopædia Britannica",
+			"edition": "11th ed.",
+			"volume": "24",
+			"published": "1911",
+			"url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Schleswig-Holstein_Question",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "article",
+			"title": "Italian as a Language of Communication in Nineteenth Century Italy and Abroad",
+			"authors": [
+				{
+					"family": "Colombo",
+					"given": "Michele"
+				},
+				{
+					"family": "Kinder",
+					"given": "John J."
+				}
+			],
+			"container": "Italica",
+			"volume": "89",
+			"issue": "1",
+			"pages": "109–21",
+			"published": "2012",
+			"citedIn": "Italian language"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Unification of Italy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Unification_of_Italy&oldid=1375777170",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Unification of Germany",
+			"url": "https://en.wikipedia.org/w/index.php?title=Unification_of_Germany&oldid=1375330501",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Expedition of the Thousand",
+			"url": "https://en.wikipedia.org/w/index.php?title=Expedition_of_the_Thousand&oldid=1374748136",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ems dispatch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ems_dispatch&oldid=1359645913",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Proclamation of the German Empire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Proclamation_of_the_German_Empire&oldid=1377299279",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hall of Mirrors",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hall_of_Mirrors&oldid=1378016230",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Germanisation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Germanisation&oldid=1368702285",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Italian language",
+			"url": "https://en.wikipedia.org/w/index.php?title=Italian_language&oldid=1377668436",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plebisciti risorgimentali",
+			"url": "https://it.wikipedia.org/w/index.php?title=Plebisciti_risorgimentali&oldid=152688682",
+			"language": "it",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Massimo d'Azeglio",
+			"url": "https://en.wikipedia.org/w/index.php?title=Massimo_d'Azeglio&oldid=1373146216",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Otto von Bismarck",
+			"url": "https://en.wikipedia.org/w/index.php?title=Otto_von_Bismarck&oldid=1376052602",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "Votazione del plebiscito a Napoli",
+			"container": "Emporio pittoresco",
+			"url": "https://commons.wikimedia.org/wiki/File:Napoli_plebiscito_1860.png",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "plebiscite-naples.jpg",
+			"published": "1860",
+			"note": "Published in the Milanese illustrated weekly Emporio pittoresco in 1860"
+		}
+	]
+}
