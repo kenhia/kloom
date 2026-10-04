@@ -103,7 +103,14 @@
 			"title": "The modern world",
 			"labelKind": "date",
 			"palette": "steel",
-			"frames": ["rite-of-spring", "great-war", "second-world-war"]
+			"frames": [
+				"rite-of-spring",
+				"great-war",
+				"second-world-war",
+				"holocaust",
+				"udhr",
+				"fall-of-the-wall"
+			]
 		},
 		{
 			"id": "code-and-cosmos",

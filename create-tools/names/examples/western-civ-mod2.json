@@ -1,0 +1,46 @@
+{
+	"western-civ/holocaust": [
+		["Adolf Hitler", "adolf-hitler"],
+		["Nazi Germany", "nazi-germany"],
+		["the Holocaust", "the-holocaust"],
+		["Nuremberg Laws", "nuremberg-laws"],
+		["Kristallnacht", "kristallnacht"],
+		["Aktion T4", "aktion-t4"],
+		["Einsatzgruppen", "einsatzgruppen"],
+		["Wannsee Conference", "wannsee-conference"],
+		["Bletchley Park", "bletchley-park"],
+		["Nuremberg trials", "nuremberg-trials"],
+		["Primo Levi", "primo-levi"],
+		["Auschwitz", "auschwitz-concentration-camp"],
+		["Warsaw Ghetto", "warsaw-ghetto"],
+		["Raphael Lemkin", "raphael-lemkin"],
+		["Genocide Convention", "genocide-convention"]
+	],
+	"western-civ/udhr": [
+		["Charter of the United Nations", "charter-of-the-united-nations"],
+		["United Nations", "united-nations"],
+		["Paris", "paris"],
+		["Universal Declaration of Human Rights", "universal-declaration-of-human-rights"],
+		["Eleanor Roosevelt", "eleanor-roosevelt"],
+		["P. C. Chang", "p-c-chang"],
+		["Charles Malik", "charles-malik"],
+		["John Peters Humphrey", "john-peters-humphrey"],
+		["René Cassin", "rene-cassin"],
+		["Hansa Mehta", "hansa-mehta"],
+		["Genocide Convention", "genocide-convention"],
+		["European Convention on Human Rights", "european-convention-on-human-rights"],
+		["Cold War", "cold-war"],
+		["Magna Carta", "magna-carta"]
+	],
+	"western-civ/fall-of-the-wall": [
+		["Berlin", "berlin"],
+		["Berlin Wall", "berlin-wall"],
+		["Cold War", "cold-war"],
+		["Soviet Union", "soviet-union"],
+		["NATO", "nato"],
+		["Warsaw Pact", "warsaw-pact"],
+		["Mikhail Gorbachev", "mikhail-gorbachev"],
+		["Günter Schabowski", "gunter-schabowski"],
+		["German reunification", "german-reunification"]
+	]
+}

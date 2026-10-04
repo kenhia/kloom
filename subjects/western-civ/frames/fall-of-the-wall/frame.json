@@ -1,0 +1,289 @@
+{
+	"id": "fall-of-the-wall",
+	"topic": "The fall of the Berlin Wall",
+	"position": {
+		"label": "AD 1961–1989",
+		"sort": 1989
+	},
+	"scene": {
+		"headline": "The gates stood",
+		"accent": "OPEN.",
+		"palette": "steel",
+		"illustration": "scene.svg",
+		"metadata": ["BERLIN · BORNHOLMER STRASSE · LEIPZIG", "13 AUGUST 1961 · 9 NOVEMBER 1989"],
+		"counter": {
+			"value": "140",
+			"label": "people killed at the Wall, at least"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Berlin Wall",
+			"container": "Stiftung Berliner Mauer",
+			"publisher": "Berlin Wall Foundation",
+			"url": "https://www.stiftung-berliner-mauer.de/en/topics/berlin-wall",
+			"accessed": "2026-10-03",
+			"note": "The border strip, the towers, the white inner faces and the order to shoot"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Victims at the Berlin Wall",
+			"container": "Stiftung Berliner Mauer",
+			"publisher": "Berlin Wall Foundation",
+			"url": "https://www.stiftung-berliner-mauer.de/en/topics/victims-berlin-wall",
+			"accessed": "2026-10-03",
+			"note": "At least 140 dead, 1961–1989"
+		},
+		{
+			"kind": "web",
+			"title": "Border regime",
+			"container": "Berlin.de: Berlin Wall",
+			"publisher": "Senate Chancellery of Berlin",
+			"url": "https://www.berlin.de/mauer/en/history/construction-of-the-berlin-wall/border-regime/",
+			"accessed": "2026-10-03",
+			"note": "Read in the Wayback Machine's copy; the content has moved to the Berlin Wall Foundation"
+		},
+		{
+			"kind": "web",
+			"title": "9. November 1989, 18.00 Uhr: Schabowskis Auftritt",
+			"authors": [
+				{
+					"family": "Hertle",
+					"given": "Hans-Hermann"
+				}
+			],
+			"container": "Chronik der Mauer",
+			"url": "https://www.chronik-der-mauer.de/material/180368/hans-hermann-hertle-9-november-1989-18-00-uhr-schabowskis-auftritt",
+			"accessed": "2026-10-03",
+			"language": "de",
+			"key": true,
+			"note": "The transcript of the press conference; Schabowski's answer is translated from it"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Berlin Wall",
+			"url": "https://en.wikipedia.org/w/index.php?title=Berlin_Wall&oldid=1377202610",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fall of the Berlin Wall",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fall_of_the_Berlin_Wall&oldid=1374725469",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fulton Speech",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fulton_Speech&oldid=1363700444",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Berlin Blockade",
+			"url": "https://en.wikipedia.org/w/index.php?title=Berlin_Blockade&oldid=1378286993",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "NATO",
+			"url": "https://en.wikipedia.org/w/index.php?title=NATO&oldid=1375820124",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Warsaw Pact",
+			"url": "https://en.wikipedia.org/w/index.php?title=Warsaw_Pact&oldid=1377295994",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cuban Missile Crisis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cuban_Missile_Crisis&oldid=1373637342",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cold War",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cold_War&oldid=1377999579",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pan-European Picnic",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pan-European_Picnic&oldid=1369913913",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Monday demonstrations in East Germany",
+			"url": "https://en.wikipedia.org/w/index.php?title=Monday_demonstrations_in_East_Germany&oldid=1366382811",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Günter Schabowski",
+			"url": "https://en.wikipedia.org/w/index.php?title=G%C3%BCnter_Schabowski&oldid=1378202041",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "German reunification",
+			"url": "https://en.wikipedia.org/w/index.php?title=German_reunification&oldid=1375585175",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dissolution of the Soviet Union",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dissolution_of_the_Soviet_Union&oldid=1378066038",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The End of History and the Last Man",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_End_of_History_and_the_Last_Man&oldid=1375632757",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "media",
+			"title": "East Berlin Death Strip seen from Axel Springer Building 1984",
+			"url": "https://commons.wikimedia.org/wiki/File:East_Berlin_Death_Strip_seen_from_Axel_Springer_Building_1984.jpg",
+			"accessed": "2026-10-03",
+			"licence": "CC BY-SA 3.0",
+			"file": "death-strip-1984.jpg",
+			"authors": [
+				{
+					"family": "Garrigues",
+					"given": "George"
+				}
+			],
+			"published": "1984-08"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/fusion",
+			"why": "After the first Soviet atomic test of 1949 the United States built the hydrogen bomb, first exploded as Ivy Mike in 1952: the arms race that stood behind the Cold War's divided Berlin."
+		},
+		{
+			"to": "western-civ/moon-landing",
+			"why": "Kennedy set the Moon as America's goal in 1961, the year the Wall went up, in a Cold War rivalry that had reached space with Sputnik in 1957."
+		}
+	]
+}
