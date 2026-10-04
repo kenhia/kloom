@@ -42,5 +42,5 @@ are exactly five such solids and no more. Two thousand years after Plato,
 [Platonic solids](kloom:e/platonic-solid). He failed, and in failing found the laws of planetary motion
 that Newton would explain.
 
-"We asked" is the whole of it. The next frame shows what happened when the
-asking turned into measuring.
+"We asked" is the whole of it. The frame on Eratosthenes shows what happened
+when the asking turned into measuring.
