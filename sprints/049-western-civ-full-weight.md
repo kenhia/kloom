@@ -338,3 +338,22 @@ tools-test`, `just reader-gate`, every mark spec with `--check
   subject covers. Now that it covers law, faith, art and empire as well as
   science, one would help on the start screen. It is Ken's line to write,
   so it is left.
+
+## Deployed
+
+2026-10-04, to the service on kai, by `just deploy` (`.sprint-deploy`'s
+`recipe: deploy`) from merged `main` at `07b04c55` (PR #56). The content
+clone is at the same commit.
+
+- **The deploy's own verify:** all ten checks `ok` (both doors, write
+  gating, reader-data and notes gating, a frame's body from the library,
+  compression). `DEPLOYED` reads `07b04c551`.
+- **This sprint's work, live on both doors (:4890 and :4891), each 200:**
+  `/western-civ`, `/western-civ/hammurabi` (its page carries "We set the
+  law in STONE."), `/western-civ/fall-of-constantinople` (a trail frame),
+  `/western-civ/holocaust`, and `/media/western-civ/hammurabi/hammurabi-columns.jpg`.
+- **`/api/stats`** counts western-civ at 72 frames, 14 of them in 5 trails,
+  58,810 words (214 pages, by the stats' own count, which includes tables
+  and captions), 48 images, 12 charts and 150 connections.
+- **The public reader site was not published.** That is `just
+publish-public`, run separately.
