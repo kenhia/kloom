@@ -1,0 +1,34 @@
+{
+	"title": "Christians in the Roman Empire at 40 percent growth a decade, AD 40–350 (log scale)",
+	"description": "Bar chart on a logarithmic scale of Rodney Stark's projection of the number of Christians, starting from 1,000 in AD 40 and growing 40 percent a decade, worked through by kloom. AD 40, 1,000; 100, 7,530; 150, 40,500; 200, 218,000; 250, 1.17 million; 300, 6.3 million; 350, 33.9 million. A model, not a count: no one counted early Christians.",
+	"heading": "CHRISTIANS AT 40% A DECADE · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"width": 480,
+	"height": 300,
+	"barWidth": 40,
+	"axis": {
+		"min": 100,
+		"max": 1000000000,
+		"ticks": [
+			[100, "100"],
+			[10000, "10⁴"],
+			[1000000, "10⁶"],
+			[100000000, "10⁸"]
+		]
+	},
+	"bars": [
+		{ "label": "AD 40", "value": 1000, "display": "1,000" },
+		{ "label": "100", "value": 7530, "display": "7.5k" },
+		{ "label": "150", "value": 40496, "display": "40k" },
+		{ "label": "200", "value": 217795, "display": "218k" },
+		{ "label": "250", "value": 1171356, "display": "1.2M", "highlight": true },
+		{ "label": "300", "value": 6299832, "display": "6.3M" },
+		{ "label": "350", "value": 33882008, "display": "34M" }
+	],
+	"source": {
+		"container": "Rodney Stark, The Rise of Christianity (Princeton University Press, 1996), Table 1.1, worked through by kloom",
+		"doi": "10.1515/9780691214290",
+		"accessed": "2026-10-03"
+	}
+}

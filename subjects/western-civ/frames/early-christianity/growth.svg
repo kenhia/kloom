@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Christians in the Roman Empire at 40 percent growth a decade, AD 40–350 (log scale)</title>
+<desc id="d">Bar chart on a logarithmic scale of Rodney Stark's projection of the number of Christians, starting from 1,000 in AD 40 and growing 40 percent a decade, worked through by kloom. AD 40, 1,000; 100, 7,530; 150, 40,500; 200, 218,000; 250, 1.17 million; 300, 6.3 million; 350, 33.9 million. A model, not a count: no one counted early Christians.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">100</text>
+<line x1="64" x2="460" y1="188.9" y2="188.9" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="192.9" text-anchor="end">10⁴</text>
+<line x1="64" x2="460" y1="127.7" y2="127.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="131.7" text-anchor="end">10⁶</text>
+<line x1="64" x2="460" y1="66.6" y2="66.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="70.6" text-anchor="end">10⁸</text>
+</g>
+<rect x="72.3" y="219.4" width="40" height="30.6" fill-opacity="0.85"/>
+<text x="92.3" y="213.4" text-anchor="middle">1,000</text>
+<text x="92.3" y="266" text-anchor="middle">AD 40</text>
+<rect x="128.9" y="192.6" width="40" height="57.4" fill-opacity="0.85"/>
+<text x="148.9" y="186.6" text-anchor="middle">7.5k</text>
+<text x="148.9" y="266" text-anchor="middle">100</text>
+<rect x="185.4" y="170.3" width="40" height="79.7" fill-opacity="0.85"/>
+<text x="205.4" y="164.3" text-anchor="middle">40k</text>
+<text x="205.4" y="266" text-anchor="middle">150</text>
+<rect x="242.0" y="148.0" width="40" height="102.0" fill-opacity="0.85"/>
+<text x="262.0" y="142.0" text-anchor="middle">218k</text>
+<text x="262.0" y="266" text-anchor="middle">200</text>
+<rect x="298.6" y="125.6" width="40" height="124.4" class="accent" fill="currentColor"/>
+<text x="318.6" y="119.6" text-anchor="middle">1.2M</text>
+<text x="318.6" y="266" text-anchor="middle">250</text>
+<rect x="355.1" y="103.3" width="40" height="146.7" fill-opacity="0.85"/>
+<text x="375.1" y="97.3" text-anchor="middle">6.3M</text>
+<text x="375.1" y="266" text-anchor="middle">300</text>
+<rect x="411.7" y="80.9" width="40" height="169.1" fill-opacity="0.85"/>
+<text x="431.7" y="74.9" text-anchor="middle">34M</text>
+<text x="431.7" y="266" text-anchor="middle">350</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">CHRISTIANS AT 40% A DECADE · LOG SCALE</text>
+</g></svg>

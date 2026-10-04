@@ -1,0 +1,478 @@
+{
+	"id": "constantine",
+	"topic": "Constantine and Christian Rome",
+	"position": {
+		"label": "AD 312–337",
+		"sort": 312
+	},
+	"scene": {
+		"headline": "By this sign,",
+		"accent": "CONQUER.",
+		"palette": "porphyry",
+		"illustration": "scene.svg",
+		"metadata": ["MILVIAN BRIDGE · NICAEA · CONSTANTINOPLE", "LABARUM · CREED · BASILICA"],
+		"counter": {
+			"value": "250+",
+			"label": "bishops at Nicaea, by Eusebius's count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "chapter",
+			"title": "Of the Manner in Which the Persecutors Died",
+			"authors": [
+				{
+					"name": "Lactantius"
+				}
+			],
+			"translators": [
+				{
+					"family": "Fletcher",
+					"given": "William"
+				}
+			],
+			"container": "Ante-Nicene Fathers, vol. 7",
+			"editors": [
+				{
+					"family": "Roberts",
+					"given": "Alexander"
+				},
+				{
+					"family": "Donaldson",
+					"given": "James"
+				},
+				{
+					"family": "Coxe",
+					"given": "A. Cleveland"
+				}
+			],
+			"publisher": "Christian Literature Publishing Co.",
+			"place": "Buffalo, NY",
+			"published": "1886",
+			"url": "https://www.newadvent.org/fathers/0705.htm",
+			"accessed": "2026-10-03",
+			"key": true,
+			"note": "The dream before the battle, chapter 44; the letter of Licinius, chapter 48"
+		},
+		{
+			"kind": "chapter",
+			"title": "Life of Constantine",
+			"authors": [
+				{
+					"name": "Eusebius of Caesarea"
+				}
+			],
+			"translators": [
+				{
+					"family": "Richardson",
+					"given": "Ernest Cushing"
+				}
+			],
+			"container": "Nicene and Post-Nicene Fathers, Second Series, vol. 1",
+			"editors": [
+				{
+					"family": "Schaff",
+					"given": "Philip"
+				},
+				{
+					"family": "Wace",
+					"given": "Henry"
+				}
+			],
+			"publisher": "Christian Literature Publishing Co.",
+			"place": "Buffalo, NY",
+			"published": "1890",
+			"url": "https://www.newadvent.org/fathers/25021.htm",
+			"accessed": "2026-10-03",
+			"key": true,
+			"note": "The vision, book 1, chapters 28–31; Nicaea, book 3, chapters 6–18; the fifty Bibles, book 4, chapter 36"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Nicene Creed and canons of the First Council of Nicaea",
+			"authors": [
+				{
+					"name": "First Council of Nicaea"
+				}
+			],
+			"translators": [
+				{
+					"family": "Percival",
+					"given": "Henry R."
+				}
+			],
+			"container": "Nicene and Post-Nicene Fathers, Second Series, vol. 14",
+			"editors": [
+				{
+					"family": "Schaff",
+					"given": "Philip"
+				},
+				{
+					"family": "Wace",
+					"given": "Henry"
+				}
+			],
+			"publisher": "Christian Literature Publishing Co.",
+			"place": "Buffalo, NY",
+			"published": "1900",
+			"url": "https://www.newadvent.org/fathers/3801.htm",
+			"accessed": "2026-10-03",
+			"key": true
+		},
+		{
+			"kind": "chapter",
+			"title": "Church History, Book I",
+			"authors": [
+				{
+					"name": "Socrates Scholasticus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Zenos",
+					"given": "A. C."
+				}
+			],
+			"container": "Nicene and Post-Nicene Fathers, Second Series, vol. 2",
+			"editors": [
+				{
+					"family": "Schaff",
+					"given": "Philip"
+				},
+				{
+					"family": "Wace",
+					"given": "Henry"
+				}
+			],
+			"publisher": "Christian Literature Publishing Co.",
+			"place": "Buffalo, NY",
+			"published": "1890",
+			"url": "https://www.newadvent.org/fathers/26011.htm",
+			"accessed": "2026-10-03",
+			"note": "Chapter 8"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Constantine the Great",
+			"url": "https://en.wikipedia.org/w/index.php?title=Constantine_the_Great&oldid=1376297560",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "First Council of Nicaea",
+			"url": "https://en.wikipedia.org/w/index.php?title=First_Council_of_Nicaea&oldid=1375381409",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edict of Milan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edict_of_Milan&oldid=1375409291",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Battle of the Milvian Bridge",
+			"url": "https://en.wikipedia.org/w/index.php?title=Battle_of_the_Milvian_Bridge&oldid=1375342258",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Constantine the Great and Christianity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Constantine_the_Great_and_Christianity&oldid=1377537376",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Religious policies of Constantine the Great",
+			"url": "https://en.wikipedia.org/w/index.php?title=Religious_policies_of_Constantine_the_Great&oldid=1371052541",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edict of Thessalonica",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edict_of_Thessalonica&oldid=1361422549",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-27",
+			"note": "Quoted in Latin, translated by kloom"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theodosius I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theodosius_I&oldid=1377840833",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Old St. Peter's Basilica",
+			"url": "https://en.wikipedia.org/w/index.php?title=Old_St._Peter's_Basilica&oldid=1376837736",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "List of ancient Greek and Roman roofs",
+			"url": "https://en.wikipedia.org/w/index.php?title=List_of_ancient_Greek_and_Roman_roofs&oldid=1354354584",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Basilica",
+			"url": "https://en.wikipedia.org/w/index.php?title=Basilica&oldid=1376820163",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Archbasilica of Saint John Lateran",
+			"url": "https://en.wikipedia.org/w/index.php?title=Archbasilica_of_Saint_John_Lateran&oldid=1378091657",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of Constantinople",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_Constantinople&oldid=1375487376",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Basil of Caesarea",
+			"url": "https://en.wikipedia.org/w/index.php?title=Basil_of_Caesarea&oldid=1370285856",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lactantius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lactantius&oldid=1374148825",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "De mortibus persecutorum",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_mortibus_persecutorum&oldid=1373392176",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Labarum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Labarum&oldid=1361422471",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chi Rho",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chi_Rho&oldid=1376066287",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nicene Creed",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicene_Creed&oldid=1372935758",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arius&oldid=1374382082",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Petersdom",
+			"url": "https://de.wikipedia.org/w/index.php?title=Petersdom&oldid=270809404",
+			"language": "de",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "Rare follis of Constantine I",
+			"authors": [
+				{
+					"name": "Classical Numismatic Group"
+				}
+			],
+			"url": "https://commons.wikimedia.org/wiki/File:Rare_follis_of_Constantine_I.jpg",
+			"accessed": "2026-10-03",
+			"licence": "CC BY-SA 2.5",
+			"file": "labarum-follis.jpg",
+			"container": "Classical Numismatic Group; bronze follis struck at Constantinople, AD 327, RIC VII 19"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/scriptorium",
+			"why": "Constantine ordered fifty Bibles for his new city's churches, written on parchment by professional copyists, the craft the monastic scriptoria later carried on."
+		},
+		{
+			"to": "nursing/basiliad",
+			"why": "The quarrel Nicaea did not settle ran on into the 370s, when Basil of Caesarea, builder of the Basileias, defied the Arian emperor Valens's prefect."
+		}
+	]
+}

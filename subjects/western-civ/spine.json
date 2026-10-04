@@ -27,6 +27,13 @@
 			]
 		},
 		{
+			"id": "late-antiquity",
+			"title": "Late antiquity",
+			"labelKind": "date",
+			"palette": "porphyry",
+			"frames": ["early-christianity", "constantine"]
+		},
+		{
 			"id": "middle-ages",
 			"title": "The long middle",
 			"labelKind": "date",

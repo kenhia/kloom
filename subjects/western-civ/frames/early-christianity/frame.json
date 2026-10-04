@@ -1,0 +1,526 @@
+{
+	"id": "early-christianity",
+	"topic": "The rise of Christianity",
+	"position": {
+		"label": "c. AD 30–250",
+		"sort": 50
+	},
+	"scene": {
+		"headline": "A faith that spread by",
+		"accent": "LETTER.",
+		"palette": "porphyry",
+		"illustration": "scene.svg",
+		"metadata": [
+			"JERUSALEM · ANTIOCH · CORINTH · ROME",
+			"PAUL'S LETTERS · HOUSE CHURCHES · KOINE GREEK"
+		],
+		"counter": {
+			"value": "1,500",
+			"label": "widows and poor fed by the church of Rome, 251"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Holy Bible, King James Version",
+			"published": "1611",
+			"url": "https://www.gutenberg.org/ebooks/10",
+			"accessed": "2026-10-03",
+			"note": "1 Corinthians 15:4; Romans 16:1–5; Galatians 3:28; Matthew 25:36. Read in Project Gutenberg's text"
+		},
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "To the Emperor Trajan (Letters 10.96)",
+			"authors": [
+				{
+					"name": "Pliny the Younger"
+				}
+			],
+			"recipients": [
+				{
+					"name": "Trajan"
+				}
+			],
+			"container": "Letters of Pliny",
+			"translators": [
+				{
+					"family": "Melmoth",
+					"given": "William"
+				}
+			],
+			"editors": [
+				{
+					"family": "Bosanquet",
+					"given": "F. C. T."
+				}
+			],
+			"url": "https://www.gutenberg.org/ebooks/2811",
+			"accessed": "2026-10-03",
+			"note": "Numbered XCVII in this edition; Trajan's reply follows it"
+		},
+		{
+			"kind": "letter",
+			"title": "Trajan to Pliny (Letters 10.97)",
+			"authors": [
+				{
+					"name": "Trajan"
+				}
+			],
+			"recipients": [
+				{
+					"name": "Pliny the Younger"
+				}
+			],
+			"container": "Letters of Pliny",
+			"translators": [
+				{
+					"family": "Melmoth",
+					"given": "William"
+				}
+			],
+			"editors": [
+				{
+					"family": "Bosanquet",
+					"given": "F. C. T."
+				}
+			],
+			"url": "https://www.gutenberg.org/ebooks/2811",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "The Annals",
+			"authors": [
+				{
+					"name": "Tacitus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Church",
+					"given": "Alfred John"
+				},
+				{
+					"family": "Brodribb",
+					"given": "William Jackson"
+				}
+			],
+			"published": "1876",
+			"container": "Perseus Digital Library",
+			"publisher": "Tufts University",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=15:chapter=44",
+			"accessed": "2026-10-03",
+			"note": "Book 15, chapter 44"
+		},
+		{
+			"kind": "book",
+			"title": "The Antiquities of the Jews",
+			"authors": [
+				{
+					"name": "Flavius Josephus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Whiston",
+					"given": "William"
+				}
+			],
+			"published": "1737",
+			"url": "https://www.gutenberg.org/ebooks/2848",
+			"accessed": "2026-10-03",
+			"note": "Book 18, chapter 3, section 3; book 20, chapter 9, section 1"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Passion of the Holy Martyrs Perpetua and Felicitas",
+			"authors": [
+				{
+					"name": "Perpetua"
+				}
+			],
+			"translators": [
+				{
+					"family": "Wallis",
+					"given": "R. E."
+				}
+			],
+			"container": "Ante-Nicene Fathers, vol. 3",
+			"editors": [
+				{
+					"family": "Roberts",
+					"given": "Alexander"
+				},
+				{
+					"family": "Donaldson",
+					"given": "James"
+				},
+				{
+					"family": "Coxe",
+					"given": "A. Cleveland"
+				}
+			],
+			"publisher": "Christian Literature Publishing Co.",
+			"place": "Buffalo, NY",
+			"published": "1885",
+			"url": "https://www.newadvent.org/fathers/0324.htm",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Epistle of Ignatius to the Smyrnaeans",
+			"authors": [
+				{
+					"name": "Ignatius of Antioch"
+				}
+			],
+			"translators": [
+				{
+					"family": "Roberts",
+					"given": "Alexander"
+				},
+				{
+					"family": "Donaldson",
+					"given": "James"
+				}
+			],
+			"container": "Ante-Nicene Fathers, vol. 1",
+			"editors": [
+				{
+					"family": "Roberts",
+					"given": "Alexander"
+				},
+				{
+					"family": "Donaldson",
+					"given": "James"
+				},
+				{
+					"family": "Coxe",
+					"given": "A. Cleveland"
+				}
+			],
+			"publisher": "Christian Literature Publishing Co.",
+			"place": "Buffalo, NY",
+			"published": "1885",
+			"url": "https://www.newadvent.org/fathers/0109.htm",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "chapter",
+			"title": "Church History, Book VI",
+			"authors": [
+				{
+					"name": "Eusebius of Caesarea"
+				}
+			],
+			"translators": [
+				{
+					"family": "McGiffert",
+					"given": "Arthur Cushman"
+				}
+			],
+			"container": "Nicene and Post-Nicene Fathers, Second Series, vol. 1",
+			"editors": [
+				{
+					"family": "Schaff",
+					"given": "Philip"
+				},
+				{
+					"family": "Wace",
+					"given": "Henry"
+				}
+			],
+			"publisher": "Christian Literature Publishing Co.",
+			"place": "Buffalo, NY",
+			"published": "1890",
+			"url": "https://www.newadvent.org/fathers/250106.htm",
+			"accessed": "2026-10-03",
+			"key": true,
+			"note": "Cornelius's letter on the church of Rome, chapter 43"
+		},
+		{
+			"kind": "book",
+			"title": "The Rise of Christianity: A Sociologist Reconsiders History",
+			"authors": [
+				{
+					"family": "Stark",
+					"given": "Rodney"
+				}
+			],
+			"publisher": "Princeton University Press",
+			"place": "Princeton, NJ",
+			"published": "1996",
+			"doi": "10.1515/9780691214290",
+			"accessed": "2026-10-03",
+			"read": "excerpt",
+			"note": "Table 1.1 (40 percent a decade), read through the Internet Archive's full-text search snippets"
+		},
+		{
+			"kind": "chapter",
+			"title": "Counting Romans and Christians",
+			"authors": [
+				{
+					"family": "Robinson",
+					"given": "Thomas A."
+				}
+			],
+			"container": "Who Were the First Christians? Dismantling the Urban Thesis",
+			"publisher": "Oxford University Press",
+			"place": "New York",
+			"published": "2017",
+			"doi": "10.1093/acprof:oso/9780190620547.003.0003",
+			"accessed": "2026-10-03",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Historical Jesus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Historical_Jesus&oldid=1378287116",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Historiography of the Christianization of the Roman Empire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Historiography_of_the_Christianization_of_the_Roman_Empire&oldid=1367051094",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pauline epistles",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pauline_epistles&oldid=1378175085",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul the Apostle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_the_Apostle&oldid=1374534540",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Josephus on Jesus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Josephus_on_Jesus&oldid=1374250184",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Persecution of Christians in the Roman Empire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Persecution_of_Christians_in_the_Roman_Empire&oldid=1376609420",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Decian persecution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Decian_persecution&oldid=1361422245",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Diocletianic Persecution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diocletianic_Persecution&oldid=1377800079",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pliny the Younger on Christians",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pliny_the_Younger_on_Christians&oldid=1369024119",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Development of the New Testament canon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Development_of_the_New_Testament_canon&oldid=1376186597",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Papyrus 46",
+			"url": "https://en.wikipedia.org/w/index.php?title=Papyrus_46&oldid=1373221744",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Codex",
+			"url": "https://en.wikipedia.org/w/index.php?title=Codex&oldid=1376317735",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Perpetua and Felicity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Perpetua_and_Felicity&oldid=1376670223",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Epistle to the Romans",
+			"url": "https://en.wikipedia.org/w/index.php?title=Epistle_to_the_Romans&oldid=1378304133",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "First Epistle to the Thessalonians",
+			"url": "https://en.wikipedia.org/w/index.php?title=First_Epistle_to_the_Thessalonians&oldid=1375685745",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "media",
+			"title": "Papyrus 46, fol. 158r: the end of Ephesians and the beginning of Galatians",
+			"url": "https://commons.wikimedia.org/wiki/File:Ann_Arbor,_University_of_Michigan_P.Mich.inv._6238_(Papyrus_46)_fol._158r_Eph_6,_20%E2%80%93Gal_1,_8.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "p46-galatians.jpg",
+			"container": "University of Michigan Library, P.Mich.inv. 6238",
+			"published": "200",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "Christians in the Roman Empire at 40 percent growth a decade, AD 40–350 (log scale)",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Rodney Stark, The Rise of Christianity (Princeton University Press, 1996), Table 1.1, worked through by kloom",
+			"doi": "10.1515/9780691214290",
+			"accessed": "2026-10-03",
+			"licence": "MIT",
+			"file": "growth.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/basiliad",
+			"why": "The Gospel's \"I was sick, and ye visited me\" became a rule of Christian life, and Basil's hospital at Caesarea was built on it, its monks serving the sick \"as if they were brothers of the Lord\"."
+		},
+		{
+			"to": "nursing/monastic-infirmary",
+			"why": "Benedict's chapter on the sick, the founding text of the Western infirmary, quotes the same Gospel verse, \"I was sick, and you visited Me\", that early Christians made a rule of life."
+		}
+	]
+}
