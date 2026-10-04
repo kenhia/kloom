@@ -1,0 +1,53 @@
+{
+	"western-civ/hebrew-bible": [
+		["Nebuchadnezzar II", "nebuchadnezzar-ii"],
+		["Jerusalem", "jerusalem"],
+		["Babylon", "babylon"],
+		["Cyrus the Great", "cyrus-the-great"],
+		["Achaemenid Empire", "achaemenid-empire"],
+		["Babylonian captivity", "babylonian-captivity"],
+		["Hebrew Bible", "hebrew-bible"],
+		["Judaism", "judaism"],
+		["Ten Commandments", "ten-commandments"],
+		["Covenant Code", "covenant-code"],
+		["Code of Hammurabi", "code-of-hammurabi"],
+		["eye for an eye", "eye-for-an-eye"],
+		["Septuagint", "septuagint"],
+		["Dead Sea Scrolls", "dead-sea-scrolls"],
+		["Isaiah Scroll", "isaiah-scroll"]
+	],
+	"western-civ/athenian-democracy": [
+		["Athens", "athens"],
+		["Aristotle", "aristotle"],
+		["Cleisthenes", "cleisthenes"],
+		["Athenian democracy", "athenian-democracy"],
+		["ancient Greece", "ancient-greece"],
+		["Assembly", "ecclesia-ancient-greece"],
+		["Pnyx", "pnyx"],
+		["kleroterion", "kleroterion"],
+		["Pericles", "pericles"],
+		["ostracism", "ostracism"],
+		["Aristides", "aristides"],
+		["Themistocles", "themistocles"],
+		["metics", "metic"],
+		["Thucydides", "thucydides"],
+		["Plato", "plato"]
+	],
+	"western-civ/greek-tragedy": [
+		["Dionysia", "dionysia"],
+		["Aeschylus", "aeschylus"],
+		["Oresteia", "oresteia"],
+		["Sophocles", "sophocles"],
+		["Euripides", "euripides"],
+		["Greek tragedy", "greek-tragedy"],
+		["satyr play", "satyr-play"],
+		["choregos", "choregos"],
+		["Pericles", "pericles"],
+		["Theatre of Dionysus", "theatre-of-dionysus"],
+		["Aristotle", "aristotle"],
+		["Orestes", "orestes"],
+		["Athena", "athena"],
+		["Areopagus", "areopagus"],
+		["_Prometheus Bound_", "prometheus-bound"]
+	]
+}

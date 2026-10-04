@@ -1,0 +1,343 @@
+{
+	"id": "hebrew-bible",
+	"topic": "The Hebrew Bible",
+	"position": {
+		"label": "c. 600–400 BC",
+		"sort": -587
+	},
+	"scene": {
+		"headline": "A people kept its",
+		"accent": "SCRIPTURE.",
+		"palette": "marble",
+		"illustration": "scene.svg",
+		"metadata": ["JERUSALEM · BABYLON · ALEXANDRIA · QUMRAN", "TORAH · PROPHETS · WRITINGS"],
+		"counter": {
+			"value": "1,000",
+			"label": "years older than the oldest Hebrew Bibles known before 1947, about"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Holy Bible, King James Version",
+			"published": "1611",
+			"url": "https://www.gutenberg.org/ebooks/10",
+			"accessed": "2026-10-03",
+			"note": "Read in Project Gutenberg's text; quoted from 2 Kings 24:14, 25:8–9; Jeremiah 52:28–30; Exodus 20:2–13, 21:2–32; Isaiah 44:6; Amos 1:1, 2:6, 5:21–24"
+		},
+		{
+			"kind": "book",
+			"title": "The Code of Hammurabi",
+			"authors": [
+				{
+					"name": "Hammurabi"
+				}
+			],
+			"translators": [
+				{
+					"family": "King",
+					"given": "L. W."
+				}
+			],
+			"published": "1910",
+			"url": "https://avalon.law.yale.edu/ancient/hamcode.asp",
+			"accessed": "2026-10-03",
+			"note": "Read in the Avalon Project's copy (Yale Law School); laws 117, 196, 199, 251 and 252 are quoted from it"
+		},
+		{
+			"kind": "book",
+			"title": "The Letter of Aristeas",
+			"translators": [
+				{
+					"family": "Thackeray",
+					"given": "H. St. J."
+				}
+			],
+			"publisher": "Society for Promoting Christian Knowledge",
+			"place": "London",
+			"published": "1917",
+			"url": "https://archive.org/details/theletterofarist00unknuoft",
+			"accessed": "2026-10-03",
+			"note": "The seventy-two days are in § 307"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hebrew Bible",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hebrew_Bible&oldid=1376547531",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dead Sea Scrolls",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dead_Sea_Scrolls&oldid=1373755579",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Documentary hypothesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Documentary_hypothesis&oldid=1378380067",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Babylonian captivity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Babylonian_captivity&oldid=1376895304",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Siege of Jerusalem (587 BC)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Siege_of_Jerusalem_(587_BC)&oldid=1374666521",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jehoiachin's Rations Tablets",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jehoiachin's_Rations_Tablets&oldid=1369484447",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cyrus Cylinder",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cyrus_Cylinder&oldid=1378371429",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Covenant Code",
+			"url": "https://en.wikipedia.org/w/index.php?title=Covenant_Code&oldid=1251175640",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-10-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Book of Isaiah",
+			"url": "https://en.wikipedia.org/w/index.php?title=Book_of_Isaiah&oldid=1377045859",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Book of Amos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Book_of_Amos&oldid=1366153063",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Synagogue",
+			"url": "https://en.wikipedia.org/w/index.php?title=Synagogue&oldid=1368006155",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Septuagint",
+			"url": "https://en.wikipedia.org/w/index.php?title=Septuagint&oldid=1378234414",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isaiah Scroll",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isaiah_Scroll&oldid=1359191166",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vulgate",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vulgate&oldid=1375860928",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Code of Hammurabi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Code_of_Hammurabi&oldid=1378337092",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Inventing God's Law: How the Covenant Code of the Bible Used and Revised the Laws of Hammurabi",
+			"authors": [
+				{
+					"family": "Wright",
+					"given": "David P."
+				}
+			],
+			"publisher": "Oxford University Press",
+			"place": "Oxford",
+			"published": "2009",
+			"citedIn": "Code of Hammurabi"
+		},
+		{
+			"kind": "book",
+			"title": "The Dead Sea Scrolls",
+			"authors": [
+				{
+					"family": "Burrows",
+					"given": "Millar"
+				}
+			],
+			"published": "1955",
+			"citedIn": "Dead Sea Scrolls"
+		},
+		{
+			"kind": "media",
+			"title": "Great Isaiah Scroll, column of chapter 53",
+			"url": "https://commons.wikimedia.org/wiki/File:Great_Isaiah_Scroll_Ch53.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "isaiah-scroll.jpg",
+			"container": "Isaiah Scroll (1QIsaᵃ), Israel Museum, Jerusalem; photograph by Ardon Bar Hama",
+			"published": "125 BC",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "The books most often copied among the Dead Sea Scrolls",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Drawn for kloom from Wikipedia's list of biblical books among the Dead Sea Scrolls, after VanderKam and Flint",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dead_Sea_Scrolls&oldid=1373755579",
+			"accessed": "2026-10-03",
+			"licence": "MIT",
+			"file": "qumran-copies.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/hammurabi",
+			"why": "The Covenant Code of Exodus 21–23 rules on the same cases as Hammurabi's laws 117 to 252, the debt slave, the eye put out and the goring ox, in the same if-then form, but with different penalties."
+		},
+		{
+			"to": "western-civ/gutenberg-bible",
+			"why": "The Gutenberg Bible printed Jerome's Latin Vulgate, whose Old Testament Jerome translated from the Hebrew Bible rather than from the Greek Septuagint."
+		},
+		{
+			"to": "chemistry/iron-gall-ink",
+			"why": "The Dead Sea Scrolls are written in carbon ink made from lamp soot, the older ink that iron gall ink later displaced in Europe's manuscripts."
+		}
+	]
+}

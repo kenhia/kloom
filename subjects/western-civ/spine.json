@@ -12,7 +12,16 @@
 			"title": "The ancient world",
 			"labelKind": "date",
 			"palette": "marble",
-			"frames": ["writing", "hammurabi", "greek-inquiry", "eratosthenes", "pantheon"]
+			"frames": [
+				"writing",
+				"hammurabi",
+				"hebrew-bible",
+				"athenian-democracy",
+				"greek-tragedy",
+				"greek-inquiry",
+				"eratosthenes",
+				"pantheon"
+			]
 		},
 		{
 			"id": "middle-ages",

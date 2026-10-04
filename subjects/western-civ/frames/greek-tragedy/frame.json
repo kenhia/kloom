@@ -1,0 +1,281 @@
+{
+	"id": "greek-tragedy",
+	"topic": "Aeschylus and Greek tragedy",
+	"position": {
+		"label": "458 BC",
+		"sort": -458
+	},
+	"scene": {
+		"headline": "Even the gods called a",
+		"accent": "JURY.",
+		"palette": "marble",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ATHENS · THE CITY DIONYSIA · AESCHYLUS",
+			"AGAMEMNON · LIBATION BEARERS · EUMENIDES"
+		],
+		"counter": {
+			"value": "7",
+			"label": "plays of Aeschylus that survive whole, of 70 to 90"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The House of Atreus: Being the Agamemnon, the Libation Bearers, and the Furies",
+			"authors": [
+				{
+					"name": "Aeschylus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Morshead",
+					"given": "E. D. A."
+				}
+			],
+			"published": "1881",
+			"url": "https://www.gutenberg.org/ebooks/8604",
+			"accessed": "2026-10-03",
+			"note": "Read in Project Gutenberg's text; Athena founds the court and casts her vote in The Eumenides, lines 681–753"
+		},
+		{
+			"kind": "book",
+			"title": "The Poetics",
+			"authors": [
+				{
+					"name": "Aristotle"
+				}
+			],
+			"translators": [
+				{
+					"family": "Butcher",
+					"given": "S. H."
+				}
+			],
+			"published": "1895",
+			"url": "https://www.gutenberg.org/ebooks/1974",
+			"accessed": "2026-10-03",
+			"note": "The actors and the iambic line are in chapter 4"
+		},
+		{
+			"kind": "book",
+			"title": "The Ten Books on Architecture",
+			"authors": [
+				{
+					"name": "Vitruvius"
+				}
+			],
+			"translators": [
+				{
+					"family": "Morgan",
+					"given": "Morris Hicky"
+				}
+			],
+			"place": "Cambridge, MA",
+			"publisher": "Harvard University Press",
+			"published": "1914",
+			"url": "https://www.gutenberg.org/ebooks/20239",
+			"accessed": "2026-10-03",
+			"note": "Greek theaters, Book V, chapter 7; the plate's construction"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oresteia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oresteia&oldid=1378191137",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aeschylus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aeschylus&oldid=1367255413",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dionysia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dionysia&oldid=1372188166",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theatre of Dionysus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theatre_of_Dionysus&oldid=1373613252",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Choregos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Choregos&oldid=1300513016",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Greek tragedy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Greek_tragedy&oldid=1372977783",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theatre of ancient Greece",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theatre_of_ancient_Greece&oldid=1377543017",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Areopagus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Areopagus&oldid=1374239289",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sophocles",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sophocles&oldid=1377652005",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Euripides",
+			"url": "https://en.wikipedia.org/w/index.php?title=Euripides&oldid=1376466523",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lycurgus of Athens",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lycurgus_of_Athens&oldid=1364521038",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Prometheus Bound",
+			"url": "https://en.wikipedia.org/w/index.php?title=Prometheus_Bound&oldid=1372888665",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "media",
+			"title": "The Pronomos vase, drawn for Griechische Vasenmalerei",
+			"url": "https://commons.wikimedia.org/wiki/File:Griechische_Vasenmalerei,_Taflen_-_A._Furtwangler,_K_Reichhold.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "pronomos-vase.jpg",
+			"authors": [
+				{
+					"family": "Furtwängler",
+					"given": "Adolf"
+				},
+				{
+					"family": "Reichhold",
+					"given": "Karl"
+				}
+			],
+			"container": "Griechische Vasenmalerei; the vase is in the Museo Archeologico Nazionale, Naples, 81673",
+			"published": "1932",
+			"note": "Drawn by Karl Reichhold, who died in 1923"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/prometheus",
+			"why": "Prometheus Bound, the tragedy in which the chained Titan lists the arts he gave people, is one of the seven plays that survive under Aeschylus's name, though his authorship of it is disputed."
+		}
+	]
+}
