@@ -149,3 +149,23 @@ reader-gate`, every mark spec `--check --placed`, and the spelling check
 - None filed. The italic-caption heuristic in `american.py` (a capital in
   an italic span reads as a title) met one caption; a caption convention
   is a design question only if it recurs.
+
+## Deployed
+
+2026-10-04, to the service on kai, by `just deploy` (`.sprint-deploy`'s
+`recipe: deploy`) from merged `main` at `ca7ac02b` (PR #57). The recipe's
+own checks passed: both doors read, the tailnet door refuses an anonymous
+write and keeps reader data and notes from an anonymous read, the ssh
+door reads and writes, a frame's body comes from the library, pages go
+compressed; library `ff6ee8`, content `ca7ac02b`.
+
+Verified live at `https://kai.encke-wahoo.ts.net:4890`: `westphalia`'s
+key source renders as a treaty ("…, Holy Roman Empire–France, October 24,
+1648"); `haber-bosch`'s chart heading reads PERCENT; and the contents
+panel in `blood/hepatitis` opens inside the window at every width from
+700 to 1280 (left edge 8 to 89 px, where it was −35 to −146). `just
+hud-check` is a dev-server check: on the live tailnet door a headless
+browser has no reader, so it has no bookmarks button and stops there.
+
+Not published to the public reader site: `just publish-public` is a
+separate step.
