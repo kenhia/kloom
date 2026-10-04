@@ -113,3 +113,23 @@ min(44rem, 64dvh))/2 − gap, 20rem)`. A fixed `vw` width truncated "History
 - Ken signed off on the look in the session (2026-10-03), on kai's dev
   servers with 10 and 24 subjects: "Scroll bar looks great. Drop-down for
   mobile works!" The rail stays hidden when the list does not scroll.
+
+## Deployed
+
+2026-10-04, `just deploy` (the `.sprint-deploy` recipe) to the service on kai
+from merged `main` (`33b24fa`, PR #54). Every `verify` check passed (both
+doors, the write gate, reader data, the library, compression).
+
+What this sprint changed, checked live on the tailnet door
+(`kai.encke-wahoo.ts.net:4890/ai`) in Chromium:
+
+- The page carries the elevator (rail, carets, listbox) and the picker. The
+  list says "History of Western Civilization", with no subtitle spans.
+- At 1280×800 the title "The History and Current State of AI" is one line at
+  53.7px. The listbox is shown, the picker is not, and the list does not
+  meet the title.
+- At 390×844 the picker is shown and the listbox is not. The title wraps in
+  two lines at the 24px floor, as decision 2 allows.
+
+The public reader site (kloom.kenhiatt.us) is not published by this ship. It
+goes out at Ken's word with `just publish-public`.
