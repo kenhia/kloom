@@ -1,0 +1,294 @@
+{
+	"id": "socrates",
+	"topic": "The trial of Socrates",
+	"position": {
+		"label": "399 BC",
+		"sort": -399
+	},
+	"scene": {
+		"headline": "We condemned the",
+		"accent": "GADFLY.",
+		"palette": "marble",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ATHENS · THE KING ARCHON'S PORCH · THE PRISON",
+			"SOCRATES · MELETUS · PLATO · XENOPHON"
+		],
+		"counter": {
+			"value": "280 of 500",
+			"label": "jurors who found him guilty, on Plato's numbers"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/greek-inquiry",
+			"why": "Plato, who wrote Socrates' defense and his death, went on to build the cosmos out of five regular solids in the Timaeus."
+		},
+		{
+			"to": "physics/aristotle-motion",
+			"why": "Aristotle founded his school in the Lyceum, the gymnasium where Socrates had talked, and gave his lectures on motion there."
+		},
+		{
+			"to": "mathematics/zeno",
+			"why": "Plato's Parmenides opens with a very young Socrates in the audience as Zeno reads his arguments in Athens, a meeting historians doubt."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Apology",
+			"authors": [
+				{
+					"name": "Plato"
+				}
+			],
+			"translators": [
+				{
+					"family": "Jowett",
+					"given": "Benjamin"
+				}
+			],
+			"publisher": "Project Gutenberg",
+			"url": "https://www.gutenberg.org/ebooks/1656",
+			"accessed": "2026-10-03",
+			"note": "Jowett's translation, first published 1871; the cross-examination of Meletus, the gadfly and the vote (36a) are quoted from it"
+		},
+		{
+			"kind": "book",
+			"title": "Phaedo",
+			"authors": [
+				{
+					"name": "Plato"
+				}
+			],
+			"translators": [
+				{
+					"family": "Jowett",
+					"given": "Benjamin"
+				}
+			],
+			"publisher": "Project Gutenberg",
+			"url": "https://www.gutenberg.org/ebooks/1658",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "Euthyphro",
+			"authors": [
+				{
+					"name": "Plato"
+				}
+			],
+			"translators": [
+				{
+					"family": "Jowett",
+					"given": "Benjamin"
+				}
+			],
+			"publisher": "Project Gutenberg",
+			"url": "https://www.gutenberg.org/ebooks/1642",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "The Apology",
+			"authors": [
+				{
+					"name": "Xenophon"
+				}
+			],
+			"translators": [
+				{
+					"family": "Dakyns",
+					"given": "H. G."
+				}
+			],
+			"publisher": "Project Gutenberg",
+			"url": "https://www.gutenberg.org/ebooks/1171",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Lives of Eminent Philosophers",
+			"authors": [
+				{
+					"name": "Diogenes Laertius"
+				}
+			],
+			"translators": [
+				{
+					"family": "Hicks",
+					"given": "R. D."
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1925",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0258%3Abook%3D2%3Achapter%3D5",
+			"accessed": "2026-10-03",
+			"note": "Book 2, chapters 40–42: the affidavit and the votes"
+		},
+		{
+			"kind": "book",
+			"title": "Against Timarchus",
+			"authors": [
+				{
+					"name": "Aeschines"
+				}
+			],
+			"translators": [
+				{
+					"family": "Adams",
+					"given": "Charles Darwin"
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1919",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0002%3Aspeech%3D1%3Asection%3D173",
+			"accessed": "2026-10-03",
+			"note": "Section 173"
+		},
+		{
+			"kind": "book",
+			"title": "Politics",
+			"authors": [
+				{
+					"name": "Aristotle"
+				}
+			],
+			"translators": [
+				{
+					"family": "Jowett",
+					"given": "Benjamin"
+				}
+			],
+			"publisher": "The Internet Classics Archive",
+			"url": "https://classics.mit.edu/Aristotle/politics.3.three.html",
+			"accessed": "2026-10-03",
+			"note": "Book 3, part 7, the six constitutions"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Socrates",
+			"authors": [
+				{
+					"family": "Nails",
+					"given": "Debra"
+				},
+				{
+					"family": "Monoson",
+					"given": "S. Sara"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"editors": [
+				{
+					"family": "Zalta",
+					"given": "Edward N."
+				},
+				{
+					"family": "Nodelman",
+					"given": "Uri"
+				}
+			],
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2022-05-26",
+			"url": "https://plato.stanford.edu/entries/socrates/",
+			"accessed": "2026-10-03",
+			"note": "The procedure of the trial, its timing and the reasons for the death vote"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Trial of Socrates",
+			"url": "https://en.wikipedia.org/w/index.php?title=Trial_of_Socrates&oldid=1377883389",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thirty Tyrants",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thirty_Tyrants&oldid=1375724179",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Platonic Academy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Platonic_Academy&oldid=1376650076",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lyceum (classical)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lyceum_(classical)&oldid=1367617589",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Death of Socrates",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Death_of_Socrates&oldid=1365320768",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "media",
+			"title": "The Death of Socrates",
+			"url": "https://commons.wikimedia.org/wiki/File:The_Death_of_Socrates_MET_DT40.jpg",
+			"accessed": "2026-10-03",
+			"licence": "CC0",
+			"file": "death-of-socrates.jpg",
+			"authors": [
+				{
+					"family": "David",
+					"given": "Jacques-Louis"
+				}
+			],
+			"container": "The Metropolitan Museum of Art, 31.45",
+			"published": "1787"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"western-civ/augustus": [
+		["Actium", "battle-of-actium"],
+		["Marcus Agrippa", "marcus-vipsanius-agrippa"],
+		["Mark Antony", "mark-antony"],
+		["Cleopatra", "cleopatra"],
+		["Julius Caesar", "julius-caesar"],
+		["Augustus", "augustus"],
+		["Roman Empire", "roman-empire"],
+		["Roman Republic", "roman-republic"],
+		["Rome", "rome"],
+		["Temple of Augustus and Rome", "temple-of-augustus-and-rome"],
+		["_Res Gestae Divi Augusti_", "res-gestae-divi-augusti"],
+		["Tacitus", "tacitus"],
+		["Cicero", "cicero"],
+		["Battle of the Teutoburg Forest", "battle-of-the-teutoburg-forest"],
+		["Pax Romana", "pax-romana"]
+	],
+	"western-civ/socrates": [
+		["Socrates", "socrates"],
+		["Athens", "athens"],
+		["Meletus", "meletus"],
+		["Plato", "plato"],
+		["Lyceum", "lyceum-classical"],
+		["_Apology_", "apology-plato"],
+		["Xenophon", "xenophon"],
+		["_Phaedo_", "phaedo"],
+		["Thirty Tyrants", "thirty-tyrants"],
+		["Critias", "critias"],
+		["Alcibiades", "alcibiades"],
+		["Aeschines", "aeschines"],
+		["Academy", "platonic-academy"],
+		["Aristotle", "aristotle"],
+		["_Politics_", "politics-aristotle"]
+	],
+	"western-civ/alexander": [
+		["Alexander the Great", "alexander-the-great"],
+		["Aristotle", "aristotle"],
+		["Achaemenid Empire", "achaemenid-empire"],
+		["Babylon", "babylon"],
+		["Arrian", "arrian"],
+		["Darius III", "darius-iii"],
+		["Diadochi", "diadochi"],
+		["Ptolemaic Kingdom", "ptolemaic-kingdom"],
+		["Seleucid Empire", "seleucid-empire"],
+		["Antigonid dynasty", "antigonid-dynasty"],
+		["Hellenistic", "hellenistic-period"],
+		["Koine", "koine-greek"],
+		["Ai-Khanoum", "ai-khanoum"],
+		["Alexandria", "alexandria"],
+		["Library of Alexandria", "library-of-alexandria"]
+	]
+}
