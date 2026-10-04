@@ -3,7 +3,7 @@
  * means, given where focus is. The shell listens on the window and acts on
  * the answer.
  *
- * S, T, B, N, A, O, C, R, M, D and W are the shortcuts out of the box, and
+ * S, T, B, N, A, O, C, R, M, Z, D and W are the shortcuts out of the box, and
  * the reader can rebind each, modifiers included, or turn it off (korg 3363,
  * 3493): the keymap is theirs, from the keyboard shortcuts dialog. A binding
  * with no Alt, Ctrl or Meta is a character key, so WCAG 2.1.4 applies: it
@@ -30,6 +30,7 @@ export type PageKey =
 	| 'contents'
 	| 'back'
 	| 'map'
+	| 'zoom'
 	| 'random'
 	| 'anywhere'
 	| 'to-spine';
@@ -45,6 +46,7 @@ export type Shortcut =
 	| 'contents'
 	| 'back'
 	| 'map'
+	| 'zoom'
 	| 'random'
 	| 'anywhere';
 
@@ -59,6 +61,7 @@ export const SHORTCUTS: { action: Shortcut; label: string; key: string }[] = [
 	{ action: 'contents', label: 'open the contents', key: 'c' },
 	{ action: 'back', label: 'go back after a jump', key: 'r' },
 	{ action: 'map', label: 'open the map', key: 'm' },
+	{ action: 'zoom', label: 'zoom the drawing', key: 'z' },
 	{ action: 'random', label: 'go to a random frame in this subject', key: 'd' },
 	{ action: 'anywhere', label: 'go to a random frame anywhere', key: 'w' }
 ];

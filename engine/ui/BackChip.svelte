@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { BackStop } from '../navigation';
+	import { tooltip } from './tooltip';
 
 	/**
 	 * "↩ Back to <frame> · <subject>" (docs/design.md §Connections): shown in
@@ -26,7 +27,7 @@
 <button
 	type="button"
 	class="back"
-	title="{said}{key ? ` (${key})` : ''}"
+	use:tooltip={`${said}${key ? ` (${key})` : ''}`}
 	aria-label={said}
 	onclick={onback}
 >

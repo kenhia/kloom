@@ -97,6 +97,10 @@
 	</ul>
 
 	<h2 id="buttons">The buttons</h2>
+	<p>
+		Rest the pointer on a button, or move to it with <kbd>Tab</kbd>, and its name appears under it,
+		with its key if it has one. <kbd>Esc</kbd> hides the name again.
+	</p>
 	<p>Over the picture, in a row along the top:</p>
 	<ul class="buttons">
 		<li>
@@ -112,6 +116,14 @@
 		<li>
 			{@render icon('map')}
 			<span><strong>Map</strong>: how this frame connects to others (<a href="#map">more</a>).</span
+			>
+		</li>
+		<li>
+			{@render icon('zoom')}
+			<span
+				><strong>Zoom drawing</strong>, or <kbd>Z</kbd>: the frame's drawing, as big as the screen,
+				to see its detail. <kbd>Z</kbd> again, <kbd>Esc</kbd>, the × or a click beside the drawing
+				closes it.</span
 			>
 		</li>
 		<li>

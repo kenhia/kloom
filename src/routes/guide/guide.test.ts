@@ -17,6 +17,7 @@ const text = (html: string) =>
 const ICONS: IconName[] = [
 	'contents',
 	'map',
+	'zoom',
 	'bookmark',
 	'bookmarks',
 	'my-notes',

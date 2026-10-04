@@ -47,6 +47,8 @@
 	import Settings from './Settings.svelte';
 	import IconButton from './IconButton.svelte';
 	import SpinePane from './SpinePane.svelte';
+	import { tooltip } from './tooltip';
+	import ZoomDrawing from './ZoomDrawing.svelte';
 	import Splitter from './Splitter.svelte';
 
 	interface Props {
@@ -301,6 +303,16 @@
 			refocus: () => mapButton?.focus()
 		});
 	}
+	/** Zoom drawing (§Zoom drawing, korg 3539): the frame's drawing full-screen, when it has one. */
+	let zoomEl = $state<ReturnType<typeof ZoomDrawing>>();
+	const zoomTip = $derived(
+		frame.svg
+			? `Zoom drawing${shown(keys.zoom) ? ` (${shown(keys.zoom)})` : ''}`
+			: 'Zoom drawing: this frame has no drawing'
+	);
+	function zoom() {
+		if (frame.svg) zoomEl?.open();
+	}
 	const branches = $derived(new Set(trail ? [] : subject.trails.map((t) => t.anchor)));
 	const marked = $derived(bookmarks?.marked ?? new Set<string>());
 	/** Notes per frame, for the marks and the tab. */
@@ -540,6 +552,7 @@
 				contents: 'contents',
 				back: 'back',
 				map: 'map',
+				zoom: 'zoom',
 				random: 'random',
 				anywhere: 'anywhere'
 			}[s.action]
@@ -783,6 +796,10 @@
 				if (!onmap) return;
 				openMap();
 				break;
+			case 'zoom':
+				if (!frame.svg) return;
+				zoom();
+				break;
 			case 'random':
 			case 'anywhere':
 				if (!onrandom) return;
@@ -860,7 +877,7 @@
 				{#if onrandom}
 					<IconButton
 						label="Random frame in this subject"
-						title={shown(keys.random)
+						tip={shown(keys.random)
 							? `Random frame in this subject (${shown(keys.random)})`
 							: 'Random frame in this subject'}
 						onclick={() => random('subject')}
@@ -882,7 +899,7 @@
 				{#if onmap}
 					<IconButton
 						label="Map"
-						title={shown(keys.map) ? `Map (${shown(keys.map)})` : 'Map'}
+						tip={shown(keys.map) ? `Map (${shown(keys.map)})` : 'Map'}
 						aria-haspopup="dialog"
 						bind:this={mapButton}
 						onclick={openMap}
@@ -890,13 +907,23 @@
 						<Icon name="map" />
 					</IconButton>
 				{/if}
+				<IconButton
+					class="zoom-drawing"
+					label="Zoom drawing"
+					tip={zoomTip}
+					aria-haspopup="dialog"
+					aria-disabled={frame.svg ? undefined : 'true'}
+					onclick={zoom}
+				>
+					<Icon name="zoom" />
+				</IconButton>
 				{#if onchangelog}
 					<!-- What's new (§What's new): a count of the frames new to the reader here. -->
 					<button
 						type="button"
 						class="icon-badged"
 						aria-haspopup="dialog"
-						title={fresh?.frames.size
+						use:tooltip={fresh?.frames.size
 							? `What's new: ${fresh.frames.size} new to you here`
 							: "What's new"}
 						bind:this={changelogButton}
@@ -919,6 +946,7 @@
 						ontoggle={toggleMark}
 						onjump={goTo}
 						onremove={bookmarks.onremove}
+						key={shown(keys.bookmark)}
 					/>
 				{/if}
 				{#if myNotes}
@@ -926,6 +954,15 @@
 				{/if}
 			{/snippet}
 		</SpinePane>
+		{#if frame.svg}
+			<ZoomDrawing
+				svg={frame.svg}
+				label="Drawing: {frame.topic}"
+				palette={palettes.scene}
+				zoomKey={keys.zoom}
+				bind:this={zoomEl}
+			/>
+		{/if}
 
 		<div class="tab-row" bind:this={tabRowEl}>
 			{#if tabs.length > 1}
@@ -963,7 +1000,7 @@
 				{#if onrandom}
 					<IconButton
 						label="Random frame anywhere"
-						title={shown(keys.anywhere)
+						tip={shown(keys.anywhere)
 							? `Random frame anywhere in the library (${shown(keys.anywhere)})`
 							: 'Random frame anywhere in the library'}
 						onclick={() => random('library')}
@@ -975,7 +1012,7 @@
 					<IconButton
 						class="home"
 						label="Home"
-						title="Home: the start screen"
+						tip="Home: the start screen"
 						bind:this={homeButton}
 						onclick={goHome}
 					>

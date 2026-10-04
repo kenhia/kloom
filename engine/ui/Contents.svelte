@@ -145,7 +145,7 @@
 <div class="contents" bind:this={root}>
 	<IconButton
 		label="Contents"
-		title={key ? `Contents (${key})` : 'Contents'}
+		tip={key ? `Contents (${key})` : 'Contents'}
 		aria-expanded={open}
 		aria-controls="{id}-panel"
 		bind:this={opener}

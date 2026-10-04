@@ -16,6 +16,7 @@
 		type NotesFilter
 	} from '../my-notes';
 	import { readingText } from './reading-text';
+	import { tooltip } from './tooltip';
 
 	interface Props {
 		offer: MyNotesOffer;
@@ -194,7 +195,7 @@
 	type="button"
 	class="icon opener"
 	aria-haspopup="dialog"
-	title={`My notes${key ? ` (${key})` : ''}${unseenSaid ? `: ${offer.unseen} new` : ''}`}
+	use:tooltip={`My notes${key ? ` (${key})` : ''}${unseenSaid ? `: ${offer.unseen} new` : ''}`}
 	onclick={show}
 >
 	<!-- A page with lines and a corner turned: the reader's own writing. -->

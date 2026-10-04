@@ -83,6 +83,18 @@ const text = (html: string) =>
 		.replace(/\s+/g, ' ');
 /** Visible text as it reads: a tag boundary before punctuation adds no space. */
 const said = (html: string) => text(html).replace(/ ([,:.;])/g, '$1');
+/**
+ * Where the icon button named `name` (its visually hidden label) opens, and
+ * its opening tag: the HUD's tooltips are drawn in the browser, so the page
+ * names a button only as assistive technology hears it (korg 3540).
+ */
+function buttonNamed(body: string, name: string): { at: number; tag: string } {
+	const label = `<span class="visually-hidden">${name}</span>`;
+	const end = body.indexOf(label);
+	if (end < 0) return { at: -1, tag: '' };
+	const at = body.lastIndexOf('<button', end);
+	return { at, tag: body.slice(at, body.indexOf('>', at) + 1) };
+}
 
 describe('the shell', () => {
 	it('titles the page after the subject', () => {
@@ -167,10 +179,10 @@ describe('the shell', () => {
 		expect(page().body).toMatch(/<button type="submit"[^>]*>\s*Ask\s*<\/button>/);
 	});
 
-	it('says in the hint bar that S, T, C, M, D and W act from the spine or narrative only', () => {
+	it('says in the hint bar that S, T, C, M, Z, D and W act from the spine or narrative only', () => {
 		const hint = said(page().body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
 		expect(hint).toContain(
-			'S sync, T trail, C contents, M map, D random and W anywhere, in the spine or narrative'
+			'S sync, T trail, C contents, M map, Z zoom, D random and W anywhere, in the spine or narrative'
 		);
 	});
 
@@ -508,7 +520,7 @@ describe('reader data on the page', () => {
 		const body = withReader({});
 		const toggle = body.match(/<button[^>]*aria-pressed="false"[^>]*>[\s\S]*?<\/button>/)![0];
 		expect(text(toggle)).toContain('Bookmark this frame');
-		expect(toggle).toContain('title="Bookmark this frame (B)"');
+		expect(toggle).not.toContain('title=');
 		const list = body.match(/<button[^>]*aria-expanded="false"[^>]*>[\s\S]*?Bookmarks \(0\)/)![0];
 		const panel = list.match(/aria-controls="([^"]+)"/)![1];
 		expect(body).toMatch(new RegExp(`<div[^>]*id="${panel}"[^>]*data-own-keys[^>]*hidden`));
@@ -595,10 +607,17 @@ describe('reader data on the page', () => {
 describe('the map', () => {
 	it('opens from the spine, beside the contents, and from the start screen', () => {
 		const { body } = page();
-		const button = body.match(/<button[^>]*title="Map \(M\)"[^>]*>/)![0];
-		expect(button).toContain('aria-haspopup="dialog"');
-		expect(body.indexOf('title="Map (M)"')).toBeGreaterThan(body.indexOf('title="Contents (C)"'));
-		expect(body.indexOf('title="Map (M)"')).toBeLessThan(body.indexOf('class="index'));
+		const map = buttonNamed(body, 'Map');
+		expect(map.tag).toContain('aria-haspopup="dialog"');
+		expect(map.at).toBeGreaterThan(buttonNamed(body, 'Contents').at);
+		expect(map.at).toBeLessThan(body.indexOf('class="index'));
+		// Zoom drawing (korg 3539) comes next, between the map and What's new.
+		const zoom = buttonNamed(body, 'Zoom drawing');
+		expect(zoom.at).toBeGreaterThan(map.at);
+		expect(zoom.tag).toContain('aria-haspopup="dialog"');
+		const fresh = body.indexOf('<span class="visually-hidden">What\'s new');
+		expect(fresh).toBeGreaterThan(zoom.at);
+		expect(body).toMatch(/<dialog[^>]*class="zoom[^"]*"[^>]*data-own-keys/);
 		expect(body).toMatch(/<button[^>]*class="map-button[^>]*>\s*Map of the library/);
 		// A closed modal until it is opened; the page stands its keys down inside it.
 		expect(body).toMatch(/<dialog[^>]*class="map [^"]*"[^>]*data-own-keys/);
@@ -608,7 +627,7 @@ describe('the map', () => {
 
 describe('the table of contents', () => {
 	const panelOf = (body: string) => {
-		const button = body.match(/<button[^>]*title="Contents \(C\)"[^>]*>/)![0];
+		const button = buttonNamed(body, 'Contents').tag;
 		const id = button.match(/aria-controls="([^"]+)"/)![1];
 		const at = body.indexOf(`id="${id}"`);
 		return {
@@ -623,8 +642,8 @@ describe('the table of contents', () => {
 		expect(button).toContain('aria-expanded="false"');
 		expect(panel).toMatch(/^<div[^>]*role="group"[^>]*data-own-keys[^>]*hidden/);
 		const spine = body.indexOf('aria-label="Spine"');
-		expect(body.indexOf('title="Contents (C)"')).toBeGreaterThan(spine);
-		expect(body.indexOf('title="Contents (C)"')).toBeLessThan(body.indexOf('class="index'));
+		expect(buttonNamed(body, 'Contents').at).toBeGreaterThan(spine);
+		expect(buttonNamed(body, 'Contents').at).toBeLessThan(body.indexOf('class="index'));
 		const reader = render(Page, {
 			props: {
 				data: {
@@ -637,9 +656,7 @@ describe('the table of contents', () => {
 				}
 			} as never
 		}).body;
-		expect(reader.indexOf('title="Contents (C)"')).toBeLessThan(
-			reader.indexOf('Bookmark this frame')
-		);
+		expect(buttonNamed(reader, 'Contents').at).toBeLessThan(reader.indexOf('Bookmark this frame'));
 	});
 
 	it('lists every frame under its segment, linked, with the current one marked', () => {
@@ -820,13 +837,13 @@ describe('the reader’s keys', () => {
 
 	it('name the reader’s keys in the help, and leave out one turned off', () => {
 		const h = hint(shell({ sync: 'y', trail: 'off' }));
-		expect(h).toContain('Y sync and C contents, in the spine or narrative');
+		expect(h).toContain('Y sync, C contents and Z zoom, in the spine or narrative');
 		expect(h).not.toContain('T trail');
 	});
 
 	it('name a binding with a modifier apart, as acting anywhere (korg 3493)', () => {
 		const h = hint(shell({ contents: 'alt+c', sync: 'ctrl+shift+y' }));
-		expect(h).toContain('T trail, in the spine or narrative');
+		expect(h).toContain('T trail and Z zoom, in the spine or narrative');
 		expect(h).toContain('Ctrl+Shift+Y sync and Alt+C contents, anywhere');
 	});
 
@@ -931,7 +948,7 @@ describe('the reader’s layer on a frame', () => {
 	it('says N adds a note, in the help and on the Add button', () => {
 		const body = shell(layer());
 		expect(said(body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0])).toContain(
-			'S sync, T trail, N note, A annotate and C contents, in the spine, narrative or notes'
+			'S sync, T trail, N note, A annotate, C contents and Z zoom, in the spine, narrative or notes'
 		);
 		expect(said(body)).toContain('Add a note N');
 	});

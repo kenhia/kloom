@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Icon from './Icon.svelte';
 	import type { JumpItem } from '../reader-data';
+	import { tooltip } from './tooltip';
 
 	interface Props {
 		/** Whether the frame on the spine is bookmarked. */
@@ -11,9 +12,11 @@
 		ontoggle: () => void;
 		onjump: (frame: string) => void;
 		onremove: (item: JumpItem) => void;
+		/** The reader's key for bookmarking, as they see it written; none when turned off. */
+		key?: string | null;
 	}
 
-	let { marked, items, exportHref, ontoggle, onjump, onremove }: Props = $props();
+	let { marked, items, exportHref, ontoggle, onjump, onremove, key = null }: Props = $props();
 
 	const id = $props.id();
 	let open = $state(false);
@@ -51,7 +54,7 @@
 		type="button"
 		class="icon"
 		aria-pressed={marked}
-		title="Bookmark this frame (B)"
+		use:tooltip={key ? `Bookmark this frame (${key})` : 'Bookmark this frame'}
 		onclick={ontoggle}
 	>
 		<Icon name="bookmark" filled={marked} />
@@ -63,6 +66,7 @@
 		aria-expanded={open}
 		aria-controls="{id}-panel"
 		bind:this={opener}
+		use:tooltip={`Bookmarks (${items.length})`}
 		onclick={() => (open = !open)}
 		onkeydown={escape}
 	>

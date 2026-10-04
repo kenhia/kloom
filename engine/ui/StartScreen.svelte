@@ -509,7 +509,7 @@
 			{#if onchangelog}
 				<IconButton
 					label="What's new"
-					title="What's new: the Changelog"
+					tip="What's new: the Changelog"
 					aria-haspopup="dialog"
 					bind:this={changelogButton}
 					onclick={() => onchangelog(() => changelogButton?.focus())}

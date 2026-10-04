@@ -809,7 +809,7 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   spine, or removes its bookmark (§Reader data); N adds a note (§Notes);
   A annotates words of the reading (§Annotations); C opens the table of
   contents (§Contents); R goes back after a jump (§Connections); M opens the
-  map (§The map); D jumps to a random frame in this subject and W to a
+  map (§The map); Z shows the frame's drawing full-screen (§Zoom drawing); D jumps to a random frame in this subject and W to a
   random frame anywhere in the library (§Random); Tab moves into
   and out of the AI pane, and Esc anywhere in it returns to the spine. In the
   tabs layout, the arrows on a tab move between the tabs, and on a divider
@@ -817,7 +817,7 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
 - **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
-  T, B, N, A, O, C, R, M, D and W act only while focus is inside the spine, the narrative or the
+  T, B, N, A, O, C, R, M, Z, D and W act only while focus is inside the spine, the narrative or the
   notes. They do nothing in the AI pane, in the settings panel, in the note
   editor, or on the bare page. That holds for any binding without Alt, Ctrl
   or Meta, Shift included, since Shift with a letter is still a character
@@ -850,6 +850,62 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   from sprint 001, not polish.
 - **Trails.** Entering a trail swaps the scroller to it with a breadcrumb
   ("Main story > Printing press"); the parent spine shows a branch marker.
+
+## Tooltips
+
+Sprint 048 (korg 3540). The HUD's controls are icons, so a tooltip is their
+label to the eye, and the browser's own `title` tooltip was too slow for
+that: about two seconds, which no page can change, never on keyboard
+focus, and heard by a screen reader beside the control's own name.
+
+- **One tooltip, drawn by kloom** (`use:tooltip`, `engine/ui/tooltip.ts`;
+  timing and placement in `engine/tooltip.ts`). It shows after 400 ms on
+  hover, and at once for the next control along while one shows or has hidden
+  in the last 600 ms, as the pointer runs along the HUD. It shows on keyboard
+  focus too, never on a touch.
+- **WCAG 1.4.13.** Esc hides it, and that is all that Esc does (the page's
+  own Esc stands down). Moving the pointer onto it keeps it, it stays until
+  the pointer leaves, focus goes or the control is pressed, and it never
+  hides content the reader asked for.
+- **Says the label and the shortcut** at the reader's own binding ("Map
+  (M)", "Bookmarks (3)"), or why a control is unavailable. It is
+  `aria-hidden`: the control's name is its visually hidden label, as before.
+- **Every icon in the HUD and the corner has one**, `IconButton` by default
+  (its `label`, or a `tip` that says more), the gear, Home and About
+  included. No HUD control carries a `title`. Content keeps its `title`s
+  (images and charts in a reading, the spine's ticks).
+- **Colored from the control's palette** when it shows: `--ink` on
+  `--background`, read off the control, so it matches the scene or the
+  reading it sits in, in either mode and in the reader edition.
+
+## Zoom drawing
+
+Sprint 048 (korg 3539). A frame's drawing is drawn small in the scene; Z,
+or the HUD's Zoom drawing button between Map and What's new, shows it
+full-screen.
+
+- **The whole viewport**, in a modal `<dialog>` (`engine/ui/ZoomDrawing.svelte`)
+  on the scene's palette: the drawing in `--line` on `--background`, as in
+  the scene, its proportions kept and centered. It is vector, so it is sharp
+  at any size, labeled diagrams included. It shows whole, with no entrance.
+- **Closing.** Z again (the reader's zoom binding), Esc, the × or a click
+  beside the drawing. Focus returns where it was, the spine or the button.
+- **Scoped like every character key**: Z acts in the spine, the narrative
+  and the notes, never in the AI pane. Inside the dialog the page's keys
+  stand down (`data-own-keys`), so the arrows do not step frames behind it;
+  stepping with the zoom open was considered and left out.
+- **A frame with no drawing** (`illustration` is optional, though every frame
+  has one today) has the button marked `aria-disabled` and still focusable,
+  its tooltip saying so, and Z does nothing. So does a frame whose body has
+  not arrived yet.
+- **Named for its frame**: the dialog's label is "Drawing: <topic>". A scene
+  drawing has no alt text of its own (it is decorative in the scene), so the
+  topic names it.
+- **The icon** is four corners pushed outward (Ken, sprint 048, from three
+  offered); a magnifying glass is kept for a search to come.
+- `just hud-check` drives the tooltips and the zoom in the machine's
+  Playwright and Chromium (`create-tools/hud-check/hud_check.mjs`), so like
+  keys-check it is not part of `just check`.
 
 ## Contents
 
@@ -2101,7 +2157,7 @@ control exactly as labeled ("Scene colors", since sprint 044). Its own list
 of parts links to each.
 
 - **Icons as they look.** The shell's icons live in one component,
-  `engine/ui/Icon.svelte` (by name: contents, map, bookmark, bookmarks,
+  `engine/ui/Icon.svelte` (by name: contents, map, zoom, bookmark, bookmarks,
   my-notes, random, anywhere, home, settings, about). Every control draws
   its icon from it, and so does the guide, so a changed icon changes in
   both. The guide's test renders each icon on its own and finds it in the
