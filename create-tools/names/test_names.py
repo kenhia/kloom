@@ -256,5 +256,38 @@ class Drafts(unittest.TestCase):
         self.assertIn('already in the registry', notes[0])
 
 
+class Add(unittest.TestCase):
+    """`add` writes drafts into the registry (sprint 049: since sprint 033 a second `drafts` shadowed the
+    helper `add` read its files with, and every `add` failed with a TypeError)."""
+
+    def setUp(self):
+        self.dir = tempfile.mkdtemp()
+        self.drafts = os.path.join(self.dir, 'drafts')
+        self.registry = os.path.join(self.dir, 'names')
+        os.makedirs(self.drafts)
+        os.makedirs(self.registry)
+        with open(os.path.join(self.registry, 'babylon.json'), 'w') as fh:
+            json.dump({'id': 'babylon', 'wikidata': 'Q5684', 'name': 'Babylon', 'kind': 'place',
+                       'description': 'An ancient city.'}, fh)
+
+    def tearDown(self):
+        shutil.rmtree(self.dir)
+
+    def draft(self, name, item):
+        with open(os.path.join(self.drafts, f'{name}.json'), 'w') as fh:
+            json.dump({'id': name, 'wikidata': item, 'name': name.title(), 'kind': 'person',
+                       'description': 'Someone who matters.'}, fh)
+
+    def test_writes_a_new_name(self):
+        self.draft('hammurabi', 'Q36359')
+        self.assertEqual(names.add([self.drafts], self.registry), [])
+        self.assertTrue(os.path.exists(os.path.join(self.registry, 'hammurabi.json')))
+
+    def test_refuses_an_item_another_file_holds(self):
+        self.draft('babylon-city', 'Q5684')
+        refused = names.add([self.drafts], self.registry)
+        self.assertIn('Q5684 is already names/babylon.json', refused[0])
+
+
 if __name__ == '__main__':
     unittest.main()

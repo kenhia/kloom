@@ -298,8 +298,9 @@ def name_problems(name):
     return problems
 
 
-def drafts(paths):
-    """Every name file under the given files and directories, in order."""
+def draft_files(paths):
+    """Every name file under the given files and directories, in order. (Named apart from `drafts`, the
+    subcommand, which shadowed it from sprint 033 until sprint 049 and broke `add`.)"""
     for p in map(Path, paths):
         yield from sorted(p.glob('*.json')) if p.is_dir() else [p]
 
@@ -313,7 +314,7 @@ def add(paths, names_dir, update=False, check=False):
         if item:
             held[item] = f.stem
     refused, writes, kept = [], [], []
-    for f in drafts(paths):
+    for f in draft_files(paths):
         name = json.loads(f.read_text())
         problems = name_problems(name)
         if problems:
