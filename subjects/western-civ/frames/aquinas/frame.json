@@ -386,6 +386,14 @@
 		{
 			"to": "chemistry/jabir",
 			"why": "Gerard of Cremona, who put Aristotle's Physics into Latin at Toledo, also translated the Jabirian Book of Seventy."
+		},
+		{
+			"to": "western-civ/house-of-wisdom",
+			"why": "Much of the Arabic that Toledo's translators turned into Latin had itself been translated from Greek in Baghdad."
+		},
+		{
+			"to": "western-civ/justinian",
+			"why": "Bologna's students came to study the Digest, Justinian's anthology of Roman law, rediscovered in Italy about 1070."
 		}
 	]
 }
