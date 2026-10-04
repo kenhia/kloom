@@ -131,5 +131,13 @@ What this sprint changed, checked live on the tailnet door
 - At 390×844 the picker is shown and the listbox is not. The title wraps in
   two lines at the 24px floor, as decision 2 allows.
 
-The public reader site (kloom.kenhiatt.us) is not published by this ship. It
-goes out at Ken's word with `just publish-public`.
+The public reader site was published the same day at Ken's word:
+`just publish-public` from `4e7400b` (Fly release v9, image
+`kloom-reader:4e7400b4a-202610040408`), replacing v8 (`b78d2a0`), the
+release where Ken saw the overlap. Before it ran, `pull-notes` backed up the
+readers' store to `reader-20261004-0407.db`. Every `verify-public` check
+passed: TLS, HSTS, robots, the sign-in wall, the 404s for grow and for ask
+and keep without ask, compression, the library's build, and the
+Fly-Client-IP overwrite. One note, none detached. The start screen itself
+was not checked by eye there, because the site needs a reader's sign-in. It
+is the same build that was checked live on kai.
