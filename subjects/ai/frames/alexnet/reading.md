@@ -39,9 +39,9 @@ so that no neuron could rely on particular others. Without it, they reported,
 the network overfitted badly.
 
 The team entered as _SuperVision_. Their best entry had a top-5 error of
-**15.3 per cent**; the second-best team, using the established methods, had
+**15.3 percent**; the second-best team, using the established methods, had
 26.2. That entry was helped by extra training images from the full ImageNet;
-trained on the challenge's own data alone, SuperVision scored 16.4 per cent,
+trained on the challenge's own data alone, SuperVision scored 16.4 percent,
 which is the figure the chart below uses. The paper also made a
 prediction: "All of our experiments suggest that our results can be
 improved simply by waiting for faster GPUs and bigger datasets to become
@@ -51,14 +51,13 @@ available."
 
 The chart shows the winning top-5 error in each year of the challenge. The
 drop in 2012 was only the start. In 2013 the great majority of entries used
-deep convolutional networks, and in 2014 GoogLeNet's error of 6.7 per cent
+deep convolutional networks, and in 2014 GoogLeNet's error of 6.7 percent
 came close to that of a trained human: **Andrej Karpathy**, a co-author of
-the challenge's own report, labeled 1,500 test images himself and missed 5.1 per
-cent. In 2015 a network from
-Microsoft Research got under that, at 3.57 per cent. [Yann LeCun](kloom:e/yann-lecun) called
+the challenge's own report, labeled 1,500 test images himself and missed 5.1 percent. In 2015 a network from
+Microsoft Research got under that, at 3.57 percent. [Yann LeCun](kloom:e/yann-lecun) called
 AlexNet "an unequivocal turning point in the history of computer vision".
 
-![Bar chart: the winning top-5 error in the ImageNet challenge fell from 28.2 per cent in 2010 and 25.8 per cent in 2011 to 16.4 per cent in 2012, when AlexNet won, and then to 11.7, 6.7, 3.57, 2.99 and 2.25 per cent from 2013 to 2017](ilsvrc-top5.svg)
+![Bar chart: the winning top-5 error in the ImageNet challenge fell from 28.2 percent in 2010 and 25.8 percent in 2011 to 16.4 percent in 2012, when AlexNet won, and then to 11.7, 6.7, 3.57, 2.99 and 2.25 percent from 2013 to 2017](ilsvrc-top5.svg)
 
 | Year | Winning team          | Top-5 error |
 | ---- | --------------------- | ----------: |

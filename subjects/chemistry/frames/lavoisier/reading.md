@@ -8,7 +8,7 @@ Lavoisier weighed everything that went into an experiment and everything that ca
 
 The test case was water, an element since the Greeks. In June 1783 Lavoisier heard that Henry Cavendish had got water by burning inflammable air, and with Laplace he burned it with oxygen over mercury and got water too. In 1784, with Jean-Baptiste Meusnier, he took water apart: steam passed through a red-hot iron gun barrel lost its oxygen to the iron, and the inflammable air came out of the far end. The _Traité_ gives one run of the same kind, which the plate draws, with a tube of glass packed with a coil of iron. The water that went through lost 100 grains; the 274 grains of iron in the tube gained 85, and turned to a black oxide; 15 grains of a light, inflammable gas were collected. Water, Lavoisier concluded, is 85 parts of oxygen to 15 of the base of that gas, and he named the base **[hydrogen](kloom:e/hydrogen)**, "the generative principle of water".
 
-In modern terms, 2 H₂ + O₂ → 2 H₂O. By our arithmetic, from the atomic weights (hydrogen 1.008, oxygen 16.00), 4.03 grams of hydrogen and 32.00 of oxygen make 36.03 grams of water, so water is 88.8 per cent oxygen by weight:
+In modern terms, 2 H₂ + O₂ → 2 H₂O. By our arithmetic, from the atomic weights (hydrogen 1.008, oxygen 16.00), 4.03 grams of hydrogen and 32.00 of oxygen make 36.03 grams of water, so water is 88.8 percent oxygen by weight:
 
 | 100 parts of water | Lavoisier, 1789 | Today |
 | ------------------ | --------------: | ----: |

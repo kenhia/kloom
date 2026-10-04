@@ -75,7 +75,7 @@ and the experiments compare what they count with rates computed from
 Feynman diagrams to high order. As of September 2026 its mass is
 125.20 ± 0.11 GeV (Particle Data Group, 2025), and every coupling measured
 agrees with the Standard Model: to the W and Z and to the heaviest quark
-and lepton families within 5 to 10 per cent, with evidence above three
+and lepton families within 5 to 10 percent, with evidence above three
 standard deviations for its decay to muons. Its coupling to itself, the
 shape of the trough, is not yet measured: ATLAS allows anything from −1.2
 to 7.2 times the predicted strength.

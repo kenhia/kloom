@@ -25,12 +25,14 @@ per section, tracking its era or theme, in place of the old rule that dark
 and light alternate frame by frame), which `spine.json` keeps; it warns
 where a frame's palette differs from its section's with no `paletteWhy` on
 its entry, where a segment whose frames name palettes names none itself,
-and where a written frame differs from its plan. It exits 1 on a problem,
+and where a written frame differs from its plan. `--accents FILE` reads the
+authors' accent claims (`ACCENT part frame` a line) beside the plan's own
+`accent`s, and a clash is a problem (sprint 050). It exits 1 on a problem,
 never on a warning.
 `--complete DIR` writes the spine into a copy of the subject at
 DIR/<subject> that holds only the frames with a `frame.json` that land on a
 spine (a trail frame whose anchor is not written yet is left out, and named),
-so one author
+and counts that copy, not the live tree (sprint 050), so one author
 can validate their frames while others are mid-write. Beside it go the other
 subjects, which connections may name, and the name registry at DIR/.names,
 with any `--drafts` directories of names not yet added merged in (sprint
@@ -118,6 +120,74 @@ def plan_problems(plan, palettes, written=None):
                         ('palette', palette, (have.get('scene') or {}).get('palette'))):
                     if planned_value is not None and value != planned_value:
                         warnings.append(f'frames.{f}: the plan\'s {field} is {planned_value!r}, the frame\'s {value!r}')
+    return problems, warnings
+
+
+def accent_word(accent):
+    """An accent as engine/validate.ts compares them: capitals, no closing stop."""
+    return re.sub(r'[.!?]+$', '', str(accent).strip().upper())
+
+
+def parse_claims(text, where):
+    """An accents file's claims, `ACCENT part frame` a line, `#` a comment: ([(word, part, frame, line)], problems)."""
+    claims, problems = [], []
+    for n, line in enumerate(text.splitlines(), 1):
+        line = line.split('#', 1)[0].strip()
+        if not line:
+            continue
+        bits = line.split()
+        if len(bits) != 3:
+            problems.append(f'{where}:{n}: write "ACCENT part frame"')
+            continue
+        claims.append((accent_word(bits[0]), bits[1], bits[2], f'{where}:{n}'))
+    return claims, problems
+
+
+def accent_problems(plan, written, claims):
+    """(problems, warnings) for accents (korg 3554): the plan's `accent`s unique and worn by no other
+    written frame, and each claim in an accents file clashing with neither, nor with an earlier claim.
+
+    The plan settles an accent ahead of every claim. A frame's later claim releases its earlier one,
+    so an author who changes their mind frees the word; otherwise the first claim wins."""
+    problems, warnings = [], []
+    planned = {}
+    for _, seg in spines(plan):
+        for f in seg['frames']:
+            accent = plan.get('frames', {}).get(f, {}).get('accent')
+            if not accent:
+                continue
+            word = accent_word(accent)
+            if word in planned:
+                problems.append(f'frames.{f}: accent "{word}" is already planned for {planned[word]}')
+                continue
+            planned[word] = f
+            other = next((g for g, fr in sorted(written.items())
+                          if g != f and accent_word((fr.get('scene') or {}).get('accent', '')) == word), None)
+            if other:
+                problems.append(f'frames.{f}: accent "{word}" is already frames/{other}\'s')
+            have = (written.get(f) or {}).get('scene', {}).get('accent')
+            if have and accent_word(have) != word:
+                warnings.append(f'frames.{f}: the plan\'s accent is {word!r}, the frame\'s {accent_word(have)!r}')
+    latest = {}
+    for claim in claims:
+        latest[claim[2]] = claim
+    claimed = {}
+    for claim in claims:
+        word, part, f, at = claim
+        if latest[f] is not claim:
+            continue
+        who = f'{at}: {f} ({part}) claims "{word}"'
+        other = next((g for g, fr in sorted(written.items())
+                      if g != f and accent_word((fr.get('scene') or {}).get('accent', '')) == word), None)
+        if other:
+            problems.append(f'{who}, already frames/{other}\'s')
+        elif planned.get(word, f) != f:
+            problems.append(f'{who}, already planned for {planned[word]}')
+        elif word in claimed and claimed[word][2] != f:
+            first = claimed[word]
+            problems.append(f'{who}, claimed first for {first[2]} ({first[1]}) at line {first[3].rsplit(":", 1)[1]}')
+        else:
+            claimed.setdefault(word, claim)
     return problems, warnings
 
 
@@ -218,6 +288,8 @@ def main():
     ap.add_argument('plan')
     ap.add_argument('subject')
     ap.add_argument('--check', action='store_true')
+    ap.add_argument('--accents', metavar='FILE',
+                    help='with --check: the authors\' accent claims, "ACCENT part frame" a line; a clash is a problem')
     ap.add_argument('--complete', metavar='DIR',
                     help='write a copy holding only the finished frames to DIR/<subject>, to validate one author\'s work while others are still writing')
     ap.add_argument('--drafts', action='append', default=[], metavar='DIR',
@@ -232,6 +304,8 @@ def main():
     ap.add_argument('--stand-in', action='append', default=[], metavar='ANCHOR',
                     help='with --complete: a placeholder in the copy for a trail\'s anchor not yet written (repeatable)')
     a = ap.parse_args()
+    if a.accents and not a.check:
+        ap.error('--accents is read by --check')
     if a.stand_in and not a.complete:
         ap.error('--stand-in writes into a checking copy only: give --complete DIR')
     with open(a.plan) as fh:
@@ -296,6 +370,14 @@ def main():
                 written[f] = json.load(fh)
         problems, warnings = plan_problems(plan, palettes, written)
         problems += owner_problems(plan)
+        claims = []
+        if a.accents:
+            with open(a.accents) as fh:
+                claims, bad = parse_claims(fh.read(), a.accents)
+            problems += bad
+        more, warned = accent_problems(plan, written, claims)
+        problems += more
+        warnings += warned
         bare = [f for f in planned if f not in plan.get('frames', {})]
         if bare:
             print(f'  {len(bare)} planned frames have no topic, sort or palette in the plan')
@@ -329,6 +411,7 @@ def main():
         for f in sorted(have - placed):
             shutil.rmtree(os.path.join(frames_dir, f))
             print(f'subject_plan: left {f} out of the copy: it is on no spine yet (is its trail\'s anchor written?)')
+        have &= placed
     if a.complete:
         # A draft's home may be a frame another author has not written yet; in the copy only,
         # such a home is dropped rather than failing everyone's check (sprint 021).
@@ -342,7 +425,12 @@ def main():
                 del name['home']
                 with open(path, 'w') as fh:
                     json.dump(name, fh, ensure_ascii=False, indent='\t')
-    print(f'subject_plan: {len(planned) - len(missing)} of {len(planned)} planned frames on the spine and trails')
+    if a.complete:
+        # The copy's count, not the live tree's: three authors in sprint 049 read the live count as theirs.
+        print(f'subject_plan: the copy at {a.subject} holds {len(have)} of {len(planned)} planned frames, '
+              f'on its spine and trails')
+    else:
+        print(f'subject_plan: {len(planned) - len(missing)} of {len(planned)} planned frames on the spine and trails')
 
 
 if __name__ == '__main__':

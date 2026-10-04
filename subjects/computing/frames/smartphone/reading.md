@@ -70,17 +70,17 @@ maker could build a phone on it.
 BlackBerry fell to 23 million subscribers by March 2016, and that
 September stopped designing its own phones. The market now has two
 systems. In August 2026, by StatCounter's count of web pages viewed on mobile
-devices, 67.6 per cent came from Android and 32.4 per cent from Apple's
+devices, 67.6 percent came from Android and 32.4 percent from Apple's
 iOS.
 
 The research firm **IDC** counted 1.26 billion smartphones shipped in 2025,
-up 1.9 per cent on the year before; in the same year it counted 284.7
+up 1.9 percent on the year before; in the same year it counted 284.7
 million personal computers, desktops, laptops and workstations together.
 So about four phones were made for every PC. The GSMA, the mobile
 operators' association, counted 5.8 billion people with a mobile
-subscription in its 2026 report, about seventy per cent of the world. Not all of those
+subscription in its 2026 report, about seventy percent of the world. Not all of those
 phones are smartphones, and the phone has not simply replaced the desk:
-StatCounter measured 49.4 per cent of web traffic in August 2026 coming
+StatCounter measured 49.4 percent of web traffic in August 2026 coming
 from mobiles and 49.1 from desktops.
 
 A phone does not work alone. Its maps, mail, photographs and messages live

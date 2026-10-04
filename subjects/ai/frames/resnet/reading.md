@@ -34,7 +34,7 @@ by Sergey Ioffe and Christian Szegedy at Google, which rescales the inputs to
 each layer over every mini-batch of training examples. Ioffe and Szegedy had
 shown that it let networks train with much higher learning rates, reaching
 the same accuracy in fourteen times fewer steps, and with it they had pushed
-ImageNet top-5 error to 4.9 per cent. With batch normalization the signals in
+ImageNet top-5 error to 4.9 percent. With batch normalization the signals in
 He's plain networks did not vanish, going forward or back. The networks were
 just hard to optimize. (Why batch normalization itself works is still debated: its
 authors said it reduced shifts in each layer's inputs during training, and
@@ -57,7 +57,7 @@ and **152 layers**, eight times deeper than VGG. Even at 152 layers the
 network needed 11.3 billion multiply–add operations for an image, fewer than
 the 19.6 billion of the 19-layer VGG. On a smaller dataset, CIFAR-10, they
 trained networks of more than 100 layers and explored one of more than
-1,000. An ensemble of residual networks reached 3.57 per cent top-5 error on
+1,000. An ensemble of residual networks reached 3.57 percent top-5 error on
 the ImageNet test set and won the 2015 challenge's classification task; the
 same networks won its detection and localization tasks, and detection and
 segmentation in the COCO competition.

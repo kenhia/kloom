@@ -60,7 +60,7 @@ small steps; the table's numbers are this frame's arithmetic, not the book's.
 ## How the students fared
 
 Here the witnesses disagree. In June 1963, just after an exam whose average
-Sands put at about 65 per cent, Feynman dictated a preface into Sands's
+Sands put at about 65 percent, Feynman dictated a preface into Sands's
 Dictaphone that said, in one line, "I don't think I did very well by the
 students." A review in Caltech's _Engineering and Science_ in 1964 said that
 test results and letters to the student paper showed some freshmen were

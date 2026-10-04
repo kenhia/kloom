@@ -14,7 +14,7 @@ tasks nobody can write the reward down. In June 2017 **[Paul Christiano](kloom:e
 Amodei](kloom:e/dario-amodei)**, from OpenAI and [DeepMind](kloom:e/google-deepmind), proposed learning it instead. Show a
 person two short clips of what the agent did, ask which is better, and fit a
 _reward model_ to predict those choices; then train the agent against the
-reward model. People gave feedback on less than one per cent of the agent's
+reward model. People gave feedback on less than one percent of the agent's
 actions. With 900 such comparisons, in under an hour, a simulated robot
 called Hopper learned to do backflips, a behavior for which nobody had
 written a reward function.

@@ -16,6 +16,10 @@
 // - a frame with no drawing (its drawing stripped from /api/frame) has the
 //   button marked unavailable and Z does nothing.
 //
+// Pop-ups:
+// - the contents and bookmarks panels stay in the window at every width from
+//   700 to 1920 pixels, however many icons the HUD gains (korg 3552).
+//
 //   node create-tools/hud-check/hud_check.mjs [--url URL]
 //
 // Exits 1 on any failure.
@@ -302,6 +306,39 @@ for (const [mode, viewport] of [
 		),
 		`its tooltip says there is no drawing`
 	);
+	await context.close();
+}
+
+// ---- Pop-ups in view (korg 3552) -------------------------------------------
+// The contents and bookmarks panels hang from their HUD buttons, and every icon
+// added after them moves the buttons left: on a smaller screen the contents ran
+// off the window's left edge (sprint 050). Each stays in the window at every width
+// from a narrow laptop to a wide desktop; under 40rem each is a sheet anyway.
+for (const width of [700, 800, 900, 1024, 1280, 1440, 1920]) {
+	const context = await browser.newContext({
+		viewport: { width, height: 800 },
+		reducedMotion: 'reduce'
+	});
+	const page = await context.newPage();
+	await open(page, 'blood/hepatitis');
+	for (const [name, button, panel] of [
+		['contents', '.spine .hud .contents > button', '.spine .hud .contents .panel'],
+		['bookmarks', '.spine .hud .bookmarks button[aria-expanded]', '.spine .hud .bookmarks .panel']
+	]) {
+		const control = page.locator(button).first();
+		if (!(await control.count())) {
+			expect(false, `${width}px: the ${name} button is in the HUD`);
+			continue;
+		}
+		await control.click();
+		await page.waitForTimeout(50);
+		const box = await page.locator(panel).first().boundingBox();
+		expect(
+			box && box.x >= 0 && box.x + box.width <= width,
+			`${width}px: the ${name} panel is in the window (${box ? `${Math.round(box.x)} to ${Math.round(box.x + box.width)}` : 'not shown'})`
+		);
+		await page.keyboard.press('Escape');
+	}
 	await context.close();
 }
 

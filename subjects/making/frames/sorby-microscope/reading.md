@@ -10,15 +10,15 @@ Wikipedia's article on Sorby dates his first etched steel to 1863. The first acc
 
 The method Sorby worked out is still the method, with better materials. It is set out here as the French metallographer **[Floris Osmond](kloom:e/floris-osmond)** described it in 1904, crediting Sorby with its key steps.
 
-| Step   | What is done                                                                                               | What goes wrong                                                   |
-| ------ | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| Cut    | a flat section is made in the workshop with a saw, file, lathe or grindstone                               | only a coarse view is possible until it is polished               |
-| Grind  | the face is rubbed on emery papers laid on glass, each finer than the last                                 | loose grit wears pits instead of fine scratches                   |
-| Polish | rubbed on damp parchment dressed with rouge, fine iron oxide, until it is a mirror                         | a workshop polish serves hard steel, but spoils soft or annealed  |
-| Etch   | dilute nitric acid (Osmond used 2 or 20 per cent), or tincture of iodine, a drop to each square centimeter | the first drop is often a little too much; Osmond then diluted it |
-| Look   | light enters the tube from the side, and a glass at 45° turns it down through the lens onto the face       | two aspects of one constituent can be taken for two constituents  |
+| Step   | What is done                                                                                              | What goes wrong                                                   |
+| ------ | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| Cut    | a flat section is made in the workshop with a saw, file, lathe or grindstone                              | only a coarse view is possible until it is polished               |
+| Grind  | the face is rubbed on emery papers laid on glass, each finer than the last                                | loose grit wears pits instead of fine scratches                   |
+| Polish | rubbed on damp parchment dressed with rouge, fine iron oxide, until it is a mirror                        | a workshop polish serves hard steel, but spoils soft or annealed  |
+| Etch   | dilute nitric acid (Osmond used 2 or 20 percent), or tincture of iodine, a drop to each square centimeter | the first drop is often a little too much; Osmond then diluted it |
+| Look   | light enters the tube from the side, and a glass at 45° turns it down through the lens onto the face      | two aspects of one constituent can be taken for two constituents  |
 
-The etch is the trick. The acid eats the iron without much dissolving the hard compound of iron and carbon, and it marks where one crystal meets the next, so the grains and what they hold stand out. Polishing on parchment does something similar on its own, Osmond found, because the hard parts wear more slowly: 500 to 2,000 strokes back and forth were usually enough. Today's etchant is nital, nitric acid in alcohol, which must be kept weak: above about 10 per cent it can explode.
+The etch is the trick. The acid eats the iron without much dissolving the hard compound of iron and carbon, and it marks where one crystal meets the next, so the grains and what they hold stand out. Polishing on parchment does something similar on its own, Osmond found, because the hard parts wear more slowly: 500 to 2,000 strokes back and forth were usually enough. Today's etchant is nital, nitric acid in alcohol, which must be kept weak: above about 10 percent it can explode.
 
 ## The pearly constituent
 

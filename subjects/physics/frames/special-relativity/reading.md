@@ -58,7 +58,7 @@ off energy _L_ as light, Einstein showed, its mass goes down by _L_/_c_²:
 the **[equivalence of mass and energy](kloom:e/mass-energy-equivalence)**. He suggested radium salts might test
 it. He wrote it in words and letters, not as _E_ = _mc_², a form he used
 from 1907. In 1933 the energy released when protons split lithium-7 nuclei
-confirmed it to within half a per cent.
+confirmed it to within half a percent.
 
 ## Spacetime
 

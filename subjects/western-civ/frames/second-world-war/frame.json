@@ -62,9 +62,10 @@
 			"note": "Table 1-6, war production of the great powers, 1939 to August 1945; read in the author's own copy"
 		},
 		{
-			"kind": "web",
+			"kind": "treaty",
 			"key": true,
 			"title": "Secret Additional Protocol to the Treaty of Nonaggression between Germany and the Union of Soviet Socialist Republics",
+			"parties": ["Germany", "Union of Soviet Socialist Republics"],
 			"container": "The Avalon Project, Yale Law School",
 			"published": "1939-08-23",
 			"url": "https://avalon.law.yale.edu/20th_century/addsepro.asp",

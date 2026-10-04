@@ -302,6 +302,15 @@ arc; trails for Rome, Revolutions and the idea of rights), a palette pair
 per era, 60 connections out to the other subjects, written by 17 parallel
 authors; author-subject gained §Extending a subject, and `names.py add`
 and the test setup's checking copies work again.
+Sprint 050 the author-subject tools tuned from western-civ's run (korg
+3554): accent claims enforced by `subject_plan.py --check --accents`,
+`names.py drafts` refusing a draft no spec marks and `lookup
+--write-draft`, `commons_media` reading DPLA, BnF and organisations,
+`contact_sheet` warning of text off a plate's edge, `plates.py` `dashed`,
+`read_source --crop`, and a `treaty` citation kind and statute `citeAs`
+(`regnal`, `gazette`); the spelling gate taught phrases ("per cent", 356
+respelled); and HUD pop-ups kept in the window (`use:inView`, checked by
+`just hud-check`).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

@@ -21,7 +21,7 @@ Wintrobe's larger idea was to combine the three measurements of the red cells, t
 
 - mean corpuscular volume (MCV) = packed cells in ml per liter of blood ÷ red cells in millions per µL, in cubic microns (now femtoliters);
 - mean corpuscular hemoglobin (MCH) = hemoglobin in g per liter ÷ red cells in millions, in micromicrograms (now picograms);
-- mean corpuscular hemoglobin concentration (MCHC) = hemoglobin in g per 100 ml ÷ packed cells in ml per 100 ml × 100, in per cent.
+- mean corpuscular hemoglobin concentration (MCHC) = hemoglobin in g per 100 ml ÷ packed cells in ml per 100 ml × 100, in percent.
 
 Its normal ranges were 82–92, 27–31 and 32–36. Two invented patients, worked by our arithmetic:
 
@@ -37,7 +37,7 @@ Its normal ranges were 82–92, 27–31 and 32–36. Two invented patients, work
 
 Both are anemic, and the indices say they are anemic in different ways. Small cells short of hemoglobin, low MCV and MCH, point to iron deficiency or thalassemia; large cells, a high MCV, to a shortage of vitamin B₁₂ or folate. That distinction decides the treatment, and Wintrobe drew it from three tests that any laboratory could do.
 
-The manual added a warning that the indices are only as good as the measurements under them. "An error in red-cell count of 500,000 can obviously give a misleading value for mean corpuscular volume," it said, and "unless the technical work is of high quality it is better not to attempt to calculate" them. The hand count, the frame before last, was good to about ±8 per cent, and by our arithmetic a count 8 per cent too low makes the MCV about 9 per cent too high.
+The manual added a warning that the indices are only as good as the measurements under them. "An error in red-cell count of 500,000 can obviously give a misleading value for mean corpuscular volume," it said, and "unless the technical work is of high quality it is better not to attempt to calculate" them. The hand count, the frame before last, was good to about ±8 percent, and by our arithmetic a count 8 percent too low makes the MCV about 9 percent too high.
 
 ![Two thin glass capillary tubes lying on lined paper, each sealed at one end, with a dark red column of packed cells below a pale straw-colored column of plasma](microhematocrit.jpg)
 

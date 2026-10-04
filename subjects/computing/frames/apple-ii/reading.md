@@ -79,7 +79,7 @@ was the dearest, and it outlasted both.
 Apple sold about six million of the line, the IIe the most, before the last
 was discontinued in 1993; its peak year was 1983, with a million sold. In the
 first quarter of Apple's 1985 financial year, months after the Macintosh
-went on sale, the II still reportedly brought in 85 per cent of its
+went on sale, the II still reportedly brought in 85 percent of its
 hardware sales. What turned it from a
 hobby into an office machine was a program, sold on a disk for under $100,
 that no larger computer had, and that businesses bought an Apple II to run.

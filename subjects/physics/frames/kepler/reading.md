@@ -10,7 +10,7 @@ ruled astronomy since Plato: the book of 1609 that did it is subtitled
 Kepler's theory came from his first book, the _Mysterium Cosmographicum_
 of 1596. It fitted the six planets' orbits between the five [Platonic
 solids](kloom:e/platonic-solid), nested one inside another, and matched the sizes Copernicus had
-found to within about ten per cent. He hoped better observations would
+found to within about ten percent. He hoped better observations would
 make the fit exact, and sent the book to Tycho, who was looking for a
 mathematical assistant. Tycho set him to work on Mars, and died on 24
 October 1601. Two days later Kepler was imperial mathematician to the
@@ -69,7 +69,7 @@ are as the cubes of their mean distances from the Sun.
 
 The table gives the values Kepler worked with, as the Wikipedia article on
 his laws reconstructs them. The last column is the same for every planet,
-to within about three per cent. Kepler did not say why; the reason, a force
+to within about three percent. Kepler did not say why; the reason, a force
 from the Sun falling off as the square of the distance, waited for Newton
 and his contemporaries in the 1660s and after.
 

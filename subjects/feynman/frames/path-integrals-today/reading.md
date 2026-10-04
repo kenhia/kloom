@@ -39,7 +39,7 @@ integral is an ordinary integral over a very large but finite number of
 variables, with positive weights, and it can be estimated by sampling. In
 1980 **Michael Creutz** did it by Monte Carlo for a simpler version of the
 theory. Today **[lattice QCD](kloom:e/lattice-qcd)** runs on the largest supercomputers: it has
-computed the proton's mass to better than two per cent and the temperature,
+computed the proton's mass to better than two percent and the temperature,
 about 150 MeV, at which ordinary matter melts into a plasma of quarks and
 gluons.
 
@@ -49,7 +49,7 @@ and the disagreement was taken as a possible sign of new physics. The
 hardest part of the prediction is the effect of quarks and gluons. In 2025
 the physicists who make the official prediction replaced the estimate taken
 from other experiments with an average of lattice calculations, precise to
-about 0.9 per cent, and the disagreement disappeared.
+about 0.9 percent, and the disagreement disappeared.
 
 ![Bar chart: the measured magnetic anomaly of the muon minus the Standard Model prediction, in units of ten to the minus eleven. In 2021, with the hadronic term taken from other experiments, 251 plus or minus 59. In 2025, with the hadronic term from lattice QCD, 38 plus or minus 63.](muon-gap.svg)
 

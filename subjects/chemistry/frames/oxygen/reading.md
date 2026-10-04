@@ -23,7 +23,7 @@ By our arithmetic, from the atomic weights (mercury 200.6, oxygen 16.0), a molec
 |           100 g |       92.6 g |            7.4 g |      about 5.6 liters |
 |   7 g (¼ ounce) |        6.5 g |            0.5 g | about 390 milliliters |
 
-So a heap of red powder holds a surprising volume of gas. After Paris, Priestley heated a quarter of an ounce of the calx gently and collected "an ounce-measure of air", about 30 milliliters: by our arithmetic, less than a tenth of what it held. His "four and five times as good" was a fair measurement too: air is about 21 per cent oxygen, and pure oxygen holds 100 ÷ 21, about 4.8 times as much. (The lower row assumes an avoirdupois ounce; Priestley does not say which ounce he meant.)
+So a heap of red powder holds a surprising volume of gas. After Paris, Priestley heated a quarter of an ounce of the calx gently and collected "an ounce-measure of air", about 30 milliliters: by our arithmetic, less than a tenth of what it held. His "four and five times as good" was a fair measurement too: air is about 21 percent oxygen, and pure oxygen holds 100 ÷ 21, about 4.8 times as much. (The lower row assumes an avoirdupois ounce; Priestley does not say which ounce he meant.)
 
 ## Who found it first
 

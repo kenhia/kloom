@@ -49,13 +49,19 @@ PD-old-100`), since "Public domain" hides which: `PD-Art` covers only
   - **organisations** (an institution, a centre, a college, a studio of
     two partners) are written as a `name`, and the Google Art Project's
     link text and Wikidata template text are dropped from the author and
-    the title (sprint 028);
+    the title (sprint 028). Since sprint 050 a group, a trust or partners
+    are organisations too ("Classical Numismatic Group" was split into
+    family and given); a catalogue's "Family, Given" is read as a person,
+    with a role after it dropped (the BnF's "Desbuissons, Edouard
+    (1827-1908). Auteur du texte"); and a title loses a Wikidata label's
+    text (`label QS:Les,…`), a DPLA identifier (`- DPLA - <hash>`) and a
+    Library of Congress number (`LCCN…`);
   - **the date**, with `circa` for "c." or "circa", and a date BC as
     `"1504 BC"`, the form `published` takes since sprint 027 (sprint 026
     found "c. 1504 BC" written as AD 1504). A span ("1941-01-01/1945-12-31", or NARA's "between 1941 and 1945"
     since sprint 030) is written as circa its first year, with a warning to check it (sprint
     028 found one written as an exact day).
-- **Three institutions' files are read further** (sprint 033, korg 3478:
+- **Three institutions' files are read further, and NARA's through DPLA** (sprint 033, korg 3478:
   most of sprint 030's authors still rewrote these by hand, writing credit
   lines and NARA series names as authors). It reads the file page's
   wikitext, and for a Wellcome file the Collection's own catalogue record.
@@ -81,6 +87,12 @@ PD-old-100`), since "Public domain" hides which: `PD-Art` covers only
     Empire, Wellcome Collection"), no author is written, and stderr names
     the book's author, who did not make the plate.
     A media citation's `number` is set after its container in the entry.
+  - **DPLA** uploads (a `{{DPLA metadata}}` page, or `- DPLA - <hash>` in
+    the title; sprint 050), whose Artist is an agency's path and a date
+    ("Department of State. Agency for International Development.
+    1961-10/1/1979"): the author is the last unit, said on stderr with the
+    whole path, and a NARA record, as its credit line says, has NARA as
+    its container and its identifier as the `number` ("NAID 19999523").
 - **`--page N`** takes one page of a PDF or DjVu on Commons as a JPEG (a
   scanned book's plate), named `<short-name>-pN.jpg`, and cites the file
   page with `?page=N`.

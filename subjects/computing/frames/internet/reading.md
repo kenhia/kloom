@@ -89,7 +89,7 @@ sites hiding their hosts made the true number higher. The Internet
 Systems Consortium's survey changed its method in 1998 and ended in 2019,
 because it saw only the old 32-bit addresses and had become "increasingly
 misleading". Counting people instead, the International Telecommunication
-Union estimates that 6 billion were online in 2025, 74 per cent of the
+Union estimates that 6 billion were online in 2025, 74 percent of the
 world.
 
 The idea is a stack of layers, each doing one job for the layer above: a

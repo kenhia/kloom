@@ -4,7 +4,7 @@ When this happened is uncertain. Wikipedia's article on Wilm puts the discovery 
 
 ## Solution, quench, wait
 
-The Bureau of Standards study, by P. D. Merica, R. G. Waltenberg and H. Scott, set out to find the best way to do what Wilm had found by accident. Their alloy held 3 to 4.5 per cent copper, 0.4 to 1 per cent magnesium and up to 0.7 per cent manganese. The treatment they recommended, with one step from a United States Navy officer's account of 1927, is:
+The Bureau of Standards study, by P. D. Merica, R. G. Waltenberg and H. Scott, set out to find the best way to do what Wilm had found by accident. Their alloy held 3 to 4.5 percent copper, 0.4 to 1 percent magnesium and up to 0.7 percent manganese. The treatment they recommended, with one step from a United States Navy officer's account of 1927, is:
 
 | Step   | What is done                                                                     | Why                                                 |
 | ------ | -------------------------------------------------------------------------------- | --------------------------------------------------- |
@@ -21,7 +21,7 @@ What goes wrong is the heat. The more copper is dissolved, the harder the alloy 
 | ------------------ | --: | --: | --: | --: | --: | --: | --: | --: |
 | Strength (MPa)     | 184 | 275 | 322 | 328 | 307 | 308 | 319 | 260 |
 
-The figures are the means of the paper's tests on its alloy C8, converted by our arithmetic from pounds per square inch. The sheet quenched from 533 °C also stretched only 5 to 9 per cent before breaking, against 12 to 26 for the others.
+The figures are the means of the paper's tests on its alloy C8, converted by our arithmetic from pounds per square inch. The sheet quenched from 533 °C also stretched only 5 to 9 percent before breaking, against 12 to 26 for the others.
 
 ## What happens while it waits
 

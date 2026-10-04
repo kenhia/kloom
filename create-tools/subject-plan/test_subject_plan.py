@@ -3,7 +3,7 @@ import json, os, shutil, subprocess, sys, tempfile, unittest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from subject_plan import merge_drafts, owner_problems, plan_problems  # noqa: E402
+from subject_plan import accent_problems, merge_drafts, owner_problems, parse_claims, plan_problems  # noqa: E402
 
 PALETTES = {'flint', 'chalk'}
 
@@ -101,10 +101,58 @@ class Check(unittest.TestCase):
         self.assertEqual(r.returncode, 1)
         self.assertIn('problem: spine segment s: b (1) comes after a (2)', r.stderr)
 
+    def test_reads_an_accents_file(self):
+        claims = os.path.join(self.dir, 'accents.txt')
+        with open(claims, 'w') as fh:
+            fh.write('BALLOT ind2 a\nBALLOT mod2 b\n')
+        path = os.path.join(self.dir, 'plan.json')
+        with open(path, 'w') as fh:
+            json.dump(plan(), fh)
+        r = subprocess.run([sys.executable, os.path.join(HERE, 'subject_plan.py'), path,
+                            os.path.join(self.dir, 'subj'), '--check', '--accents', claims], capture_output=True, text=True)
+        self.assertEqual(r.returncode, 1)
+        self.assertIn('accents.txt:2: b (mod2) claims "BALLOT", claimed first for a (ind2) at line 1', r.stderr)
+
     def test_exits_0_on_warnings(self):
         r = self.run_check(plan({'a': {'palette': 'flint'}, 'b': {'palette': 'flint'}}))
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertIn('warning:', r.stdout)
+
+
+class Accents(unittest.TestCase):
+    """Accents claimed before writing, enforced (korg 3554: four clashes in sprint 049 found only at commit)."""
+
+    def written(self, **accents):
+        return {f: {'scene': {'accent': a}} for f, a in accents.items()}
+
+    def test_the_plans_accents_are_unique(self):
+        problems, _ = accent_problems(plan({'a': {'accent': 'Ballot.'}, 'b': {'accent': 'BALLOT'}}), {}, [])
+        self.assertEqual(problems, ['frames.b: accent "BALLOT" is already planned for a'])
+
+    def test_a_planned_accent_another_frame_wears_is_refused(self):
+        problems, _ = accent_problems(plan({'a': {'accent': 'DEAD.'}}), self.written(c='DEAD.', a='DEAD.'), [])
+        self.assertEqual(problems, ['frames.a: accent "DEAD" is already frames/c\'s'])
+
+    def test_a_written_frame_that_left_its_planned_accent_is_a_warning(self):
+        self.assertEqual(accent_problems(plan({'a': {'accent': 'DEAD.'}}), self.written(a='DOWN.'), []),
+                         ([], ['frames.a: the plan\'s accent is \'DEAD\', the frame\'s \'DOWN\'']))
+
+    def test_the_first_claim_wins(self):
+        claims, bad = parse_claims('PEOPLE. mod2 holocaust\n\n# a comment\npeople mod1 fascism\nDOWN mod1\n', 'acc.txt')
+        self.assertEqual(bad, ['acc.txt:5: write "ACCENT part frame"'])
+        problems, _ = accent_problems(plan(), {}, claims)
+        self.assertEqual(problems, ['acc.txt:4: fascism (mod1) claims "PEOPLE", claimed first for holocaust (mod2) at line 1'])
+
+    def test_a_frames_later_claim_releases_its_earlier_one(self):
+        claims, _ = parse_claims('BALLOT ind2 a\nVOTE ind2 a\nBALLOT mod1 b\n', 'acc.txt')
+        self.assertEqual(accent_problems(plan(), {}, claims), ([], []))
+
+    def test_a_claim_clashing_with_a_written_frame_or_the_plan(self):
+        claims, _ = parse_claims('DEAD x a\nOPEN x b\nOPEN x c\n', 'acc.txt')
+        problems, _ = accent_problems(plan({'c': {'accent': 'OPEN.'}}), self.written(z='DEAD.', a='DEAD'), claims)
+        # a's own written accent is no clash; z's is.
+        self.assertEqual(problems, ['acc.txt:1: a (x) claims "DEAD", already frames/z\'s',
+                                    'acc.txt:2: b (x) claims "OPEN", already planned for c'])
 
 
 class MergeDrafts(unittest.TestCase):
@@ -162,8 +210,9 @@ class CompleteWithDrafts(unittest.TestCase):
         return out, spine, r.stdout
 
     def test_without_it_a_draft_is_left_out(self):
-        _, spine, _ = self.complete()
+        _, spine, said = self.complete()
         self.assertEqual(spine, ['a', 'c'])
+        self.assertIn('holds 2 of 3 planned frames', said)  # the copy's count, not the live tree's (korg 3554)
 
     def test_with_it_the_draft_is_the_frame(self):
         out, spine, said = self.complete('--with-drafts')

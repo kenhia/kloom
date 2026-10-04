@@ -411,7 +411,7 @@ describe('citationProblems', () => {
 				authors: ['NASA']
 			})
 		).toEqual([
-			'kind must be one of web, wikipedia, book, article, chapter, report, media, letter, encyclopedia, diary, case, statute',
+			'kind must be one of web, wikipedia, book, article, chapter, report, media, letter, encyclopedia, diary, case, statute, treaty',
 			'url must be http(s)',
 			'accessed date is required, as YYYY-MM-DD',
 			'published must be YYYY, YYYY-MM or YYYY-MM-DD, a shorter year (888), or a year BC (1550 BC)',
@@ -860,6 +860,97 @@ describe('the forms from Keeping Watch (sprint 033)', () => {
 			'reporter is for a case or a statute',
 			'section is for a case or a statute'
 		]);
+	});
+
+	it('sets an English act by regnal year and a foreign law by its gazette (sprint 050)', () => {
+		const billOfRights: Citation = {
+			kind: 'statute',
+			citeAs: 'regnal',
+			title: 'Bill of Rights [1688]',
+			chapter: '2',
+			code: { volume: '1', name: 'Will. & Mar. Sess. 2' },
+			published: '1689-12-16',
+			container: 'legislation.gov.uk',
+			url: 'https://www.legislation.gov.uk/aep/WillandMarSess2/1/2',
+			accessed: '2026-10-03'
+		};
+		// The regnal year is the year: none after it.
+		expect(legalText(billOfRights)).toBe('Bill of Rights [1688], 1 Will. & Mar. Sess. 2, c. 2');
+		expect(legalText({ ...billOfRights, section: 's. 1' })).toBe(
+			'Bill of Rights [1688], 1 Will. & Mar. Sess. 2, c. 2, s. 1'
+		);
+		const gazette: Citation = {
+			kind: 'statute',
+			citeAs: 'gazette',
+			title: 'Law for the Protection of German Blood and German Honor',
+			code: { name: 'Reichsgesetzblatt 1935, Teil I', page: '1146' },
+			published: '1935-09-15',
+			url: 'https://avalon.law.yale.edu/imt/2000-ps.asp',
+			accessed: '2026-10-03'
+		};
+		expect(legalText(gazette)).toBe(
+			'Law for the Protection of German Blood and German Honor, Reichsgesetzblatt 1935, Teil I, p. 1146'
+		);
+		expect(legalText({ ...gazette, code: { name: 'Journal officiel', page: '5' } })).toBe(
+			'Law for the Protection of German Blood and German Honor, Journal officiel, p. 5 (1935)'
+		);
+		expect(citationProblems(billOfRights)).toEqual([]);
+		expect(citationProblems(gazette)).toEqual([]);
+		expect(citationProblems({ ...billOfRights, chapter: undefined, publicLaw: '80-36' })).toEqual([
+			'publicLaw is a US statute’s: an English act is cited by regnal year, a foreign law by its gazette',
+			'an act cited by regnal year needs its code ({"volume": "1", "name": "Will. & Mar. Sess. 2"}) and chapter'
+		]);
+		expect(citationProblems({ ...gazette, code: { name: 'Reichsgesetzblatt' } })).toEqual([
+			'a law cited by its gazette needs the gazette and its page in code: {"name": "…", "page": "1146"}'
+		]);
+		expect(citationProblems({ ...gazette, citeAs: 'bluebook' })).toEqual([
+			'citeAs is "regnal" (an English act) or "gazette" (a foreign law); a US statute leaves it out'
+		]);
+		expect(citationProblems({ ...frank, citeAs: 'regnal' })).toContain('citeAs is for a statute');
+	});
+
+	it('sets a treaty by its name, its parties and the day it was signed (sprint 050)', () => {
+		const westphalia: Citation = {
+			kind: 'treaty',
+			title: 'Treaty of Münster',
+			parties: ['Holy Roman Empire', 'France'],
+			published: '1648-10-24',
+			container: 'The Avalon Project',
+			publisher: 'Lillian Goldman Law Library, Yale Law School',
+			url: 'https://avalon.law.yale.edu/17th_century/westphal.asp',
+			accessed: '2026-10-03'
+		};
+		expect(chicagoText(westphalia)).toBe(
+			'Treaty of Münster, Holy Roman Empire–France, October 24, 1648. The Avalon Project. ' +
+				'Lillian Goldman Law Library, Yale Law School. Accessed October 3, 2026. ' +
+				'https://avalon.law.yale.edu/17th_century/westphal.asp.'
+		);
+		expect(
+			legalText({ ...westphalia, code: { volume: '1', name: 'Consol. T.S.', page: '271' } })
+		).toBe('Treaty of Münster, Holy Roman Empire–France, October 24, 1648, 1 Consol. T.S. 271');
+		expect(citationProblems(westphalia)).toEqual([]);
+		// A treaty among many states names none.
+		const geneva = {
+			...westphalia,
+			title: 'Geneva Convention',
+			parties: undefined,
+			published: '1864-08-22'
+		};
+		expect(legalText(geneva)).toBe('Geneva Convention, August 22, 1864');
+		expect(citationProblems(geneva)).toEqual([]);
+		expect(
+			citationProblems({
+				...westphalia,
+				parties: ['France'],
+				published: undefined,
+				authors: [{ name: 'France' }]
+			})
+		).toEqual([
+			'parties are two or more, as text; a treaty among many states leaves them out',
+			'a treaty needs the date it was signed, in published',
+			'a treaty names no authors: its parties go in parties'
+		]);
+		expect(citationProblems({ ...web, parties: ['A', 'B'] })).toContain('parties is for a treaty');
 	});
 
 	it('says when only a work’s catalogue record was read', () => {

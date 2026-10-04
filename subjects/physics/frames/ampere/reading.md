@@ -48,7 +48,7 @@ It was tested ninety years later. In 1915 Albert Einstein and Wander de
 Haas reversed the magnetism of a hanging iron bar and measured the twist it
 gave the bar, the **[Einstein–de Haas effect](kloom:e/einstein-de-haas-effect)**, and published the result as "experimental proof of the
 existence of Ampère's molecular currents". Their number fitted charges
-circling in orbits, to within 3 per cent. It was wrong: later experiments,
+circling in orbits, to within 3 percent. It was wrong: later experiments,
 by 1918, found about twice the ratio, a g-factor close to 2, which was
 explained only after the electron was found in 1925 to have a _spin_.
 Iron's magnetism comes chiefly from that, not from anything going round.

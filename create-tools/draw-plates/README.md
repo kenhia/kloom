@@ -8,7 +8,8 @@ showing, in the style docs/design.md §Illustrations describes.
   on in order. `kind` is `'thin'` (construction lines: 0.6 wide, 55%
   opacity), `'mid'` (secondary detail) or the default, the object at full
   weight. Then add paths with `line`, `lines` (many polylines as one
-  stroke), `circle`, `ellipse`, `arc`, `curve` (raw path data) and `text` (a
+  stroke), `dashed` (a polyline as dashes, one path, for a hypothetical
+  link or a projection; `dash` and `gap` in units, sprint 050), `circle`, `ellipse`, `arc`, `curve` (raw path data) and `text` (a
   small monospace label that fades in; write it as plain text, since `&`, `<`
   and `>` are escaped for you). `wire` draws a convex solid's
   wireframe from its vertices, and `SOLIDS` holds the five Platonic solids.
@@ -43,6 +44,10 @@ function}`, where a function returns its `D`, so several authors can draw
   plates at `--scale 2.5` made a PNG over 4,000 pixels wide that the image
   reader shrank past reading, and four of sprint 028's authors cropped by
   hand); `--per-plate` and `--one-sheet` ask for either at any count.
+  It warns, on stderr, of text that runs off a plate's or a chart's edge
+  and by about how far, estimated as `bar_chart.py` estimates a chart's
+  (monospace at 0.6 em; a turned label is not estimated). Sprint 050 found
+  two plates in the AI subject with a label off the edge that way.
   `test_contact_sheet.py` is its test.
 - `western_civ.py`: the 17 western-civ plates, one function per frame. It
   is the worked example: the Pantheon section, the globe with its route,

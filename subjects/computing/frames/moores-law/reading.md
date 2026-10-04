@@ -56,8 +56,7 @@ same, only smaller and faster:
 | Power per circuit                        | 1/κ²      |
 | Power per unit area                      | 1         |
 
-The last line is the one that mattered. Shrink the features by 30 per
-cent, κ about 1.4, and a chip holds twice as many transistors, each faster,
+The last line is the one that mattered. Shrink the features by 30 percent, κ about 1.4, and a chip holds twice as many transistors, each faster,
 for the same power per square millimeter. For thirty years each new
 generation of chips was denser, faster and no hotter than the last, and
 cheaper per transistor too.

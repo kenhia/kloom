@@ -19,15 +19,15 @@ The paper Rayleigh and Ramsay read to the Royal Society in January 1895 gives th
 | Air, by hot iron (1893)                |             2.3100 |
 | Air, by ferrous hydroxide (1894)       |             2.3102 |
 
-By our arithmetic, "atmospheric nitrogen" is heavier by 0.0112 grams in 2.2990, or 0.49 per cent. Suppose it is ordinary nitrogen with a fraction _f_ of a gas whose density, on the hydrogen scale, is 19.9 (the figure the same paper found for **[argon](kloom:e/argon)**) against nitrogen's 14. Then
+By our arithmetic, "atmospheric nitrogen" is heavier by 0.0112 grams in 2.2990, or 0.49 percent. Suppose it is ordinary nitrogen with a fraction _f_ of a gas whose density, on the hydrogen scale, is 19.9 (the figure the same paper found for **[argon](kloom:e/argon)**) against nitrogen's 14. Then
 
 14 × (1 − _f_) + 19.9 × _f_ = 14 × 2.3102 ÷ 2.2990 = 14.068,
 
-so _f_ = 0.068 ÷ 5.9, about 1.2 per cent. Their yield, extracting the gas outright, was between 0.99 and 1.11 per cent. Today argon is 0.934 per cent of air against nitrogen's 78.08, which by our arithmetic is 1.18 per cent of what Rayleigh called atmospheric nitrogen.
+so _f_ = 0.068 ÷ 5.9, about 1.2 percent. Their yield, extracting the gas outright, was between 0.99 and 1.11 percent. Today argon is 0.934 percent of air against nitrogen's 78.08, which by our arithmetic is 1.18 percent of what Rayleigh called atmospheric nitrogen.
 
 ## A lazy gas
 
-The heavier gas had been seen once before. In 1785 **[Henry Cavendish](kloom:e/henry-cavendish)** sparked air with extra oxygen over alkali until its nitrogen was used up, and was left with "a small bubble" of not more than a hundred and twentieth of it. Rayleigh and Ramsay repeated his experiment, and Ramsay also soaked up the nitrogen with red-hot magnesium. Both left about one per cent of a gas that nothing would make combine. They named it argon, from the Greek for idle, and had it by August 1894.
+The heavier gas had been seen once before. In 1785 **[Henry Cavendish](kloom:e/henry-cavendish)** sparked air with extra oxygen over alkali until its nitrogen was used up, and was left with "a small bubble" of not more than a hundred and twentieth of it. Rayleigh and Ramsay repeated his experiment, and Ramsay also soaked up the nitrogen with red-hot magnesium. Both left about one percent of a gas that nothing would make combine. They named it argon, from the Greek for idle, and had it by August 1894.
 
 Argon broke the periodic table. The speed of sound in it showed its molecules were single atoms, so its atomic weight was about 40: more than potassium's 39.1, the next element up. The paper wondered whether "the periodic classification of the elements is complete", and whether argon belonged in an eighth group, after chlorine. "Argon must not be deemed rare," Rayleigh said later. "A large hall may easily contain a greater weight of it than a man can carry."
 

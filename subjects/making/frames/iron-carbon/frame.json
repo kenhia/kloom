@@ -259,7 +259,7 @@
 	"connections": [
 		{
 			"to": "chemistry/bessemer-steel",
-			"why": "The diagram's top line is Bessemer's problem: iron with 4 per cent carbon is liquid near 1,150 °C and iron with almost none only near 1,540 °C, so a converter burning out the carbon must heat itself as it goes."
+			"why": "The diagram's top line is Bessemer's problem: iron with 4 percent carbon is liquid near 1,150 °C and iron with almost none only near 1,540 °C, so a converter burning out the carbon must heat itself as it goes."
 		},
 		{
 			"to": "chemistry/gibbs-free-energy",

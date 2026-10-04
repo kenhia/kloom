@@ -26,7 +26,7 @@ The counts differ with the source and the model of the computer:
 
 The flights carried Block II, whose flat-packs each held two gates. The
 purchases were large for so young an industry. Tomayko writes that by the
-summer of 1963, 60 per cent of all the microcircuits made in the United
+summer of 1963, 60 percent of all the microcircuits made in the United
 States were going into Apollo prototypes; the museum says the program
 bought about 200,000 at $20 to $30 each and was the largest user of
 integrated circuits through 1965, when the Minuteman II missile overtook
@@ -70,7 +70,7 @@ for its state. The lunar module had eight.
 On 20 July 1969, during [Apollo 11](kloom:e/apollo-11)'s powered descent, the lunar module's
 computer raised program alarm **1202**, then another 1202, a 1201 and two
 more 1202s.
-The rendezvous radar, left on for an abort, was stealing about 13 per cent
+The rendezvous radar, left on for an abort, was stealing about 13 percent
 of the computer's time through a fault in its interface; when **[Buzz
 Aldrin](kloom:e/buzz-aldrin)** asked for an extra display, the guidance job could not finish
 before its next start, copies piled up, and the Executive ran out of core

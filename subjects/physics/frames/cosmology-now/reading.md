@@ -27,8 +27,7 @@ and 2013, in its final analysis of 2018.
 | _Derived:_ share of dark energy, ΩΛ       | 0.685              |
 
 From the first two and H₀, by our own arithmetic, ordinary matter is about
-5 per cent of the universe's energy today and dark matter about 26 per
-cent; dark energy is the rest. Everything else, the Hubble constant and
+5 percent of the universe's energy today and dark matter about 26 percent; dark energy is the rest. Everything else, the Hubble constant and
 the age included, is derived: a prediction of the model from the early
 universe for what we should measure nearby today.
 

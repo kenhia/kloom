@@ -79,7 +79,7 @@ The successor was ready long before. **[IPv6](kloom:e/ipv6)**, first specified i
 directly, so the two run side by side. Google counts the share of its
 users arriving over IPv6.
 
-![Bar chart: the share of users reaching Google over IPv6 each September rose from 0.2 per cent in 2010 to 3.9 in 2014, 21.7 in 2018, 38.3 in 2022 and 47.7 in 2026](ipv6-share.svg)
+![Bar chart: the share of users reaching Google over IPv6 each September rose from 0.2 percent in 2010 to 3.9 in 2014, 21.7 in 2018, 38.3 in 2022 and 47.7 in 2026](ipv6-share.svg)
 
 | September | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 | 2022 | 2024 | 2026 |
 | --------- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -87,7 +87,7 @@ users arriving over IPv6.
 
 The figures are averages of Google's daily series over the first 27 days of
 each September. Weekends run higher, when people are on home and mobile
-networks: 50.99 per cent on Saturday 26 September 2026, 45.87 on Monday
+networks: 50.99 percent on Saturday 26 September 2026, 45.87 on Monday
 the 14th. Fifteen years after the addresses ran out, about half of
 Google's users still reach it over the old protocol. What IP delivers is packets, some of them lost; a
 reliable conversation is built on top of it, by [TCP](kloom:e/transmission-control-protocol).

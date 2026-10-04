@@ -12,13 +12,13 @@ Their idea is in a single sentence of the paper: to see whether the antibody glo
 
 The paper sets the method out exactly, and the antiglobulin tests that came after it kept its order:
 
-| Stage     | Coombs, Mourant and Race, 1945                                                                                                                                                                                                            |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sensitize | Two drops of a 2 per cent suspension of washed red cells of a chosen Rh type and two drops of the serum under test, in a 50 × 7 mm tube, with controls of inert serum and of saline; cap the tubes and incubate at 37 °C for half an hour |
-| Look      | Draw a little of the settled cells onto a slide; if they are already clumped, the serum holds an ordinary antibody and the test stops                                                                                                     |
-| Wash      | Wash the cells three times in saline and make them up again to 2 per cent in two drops                                                                                                                                                    |
-| Add       | An equal volume of rabbit anti-human-globulin serum, absorbed with A, B and O cells and diluted, usually 1 in 8                                                                                                                           |
-| Read      | Incubate at 37 °C for half an hour to an hour, until the cells have settled, and read the clumping by eye and under the microscope, graded from +++ to none                                                                               |
+| Stage     | Coombs, Mourant and Race, 1945                                                                                                                                                                                                           |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sensitize | Two drops of a 2 percent suspension of washed red cells of a chosen Rh type and two drops of the serum under test, in a 50 × 7 mm tube, with controls of inert serum and of saline; cap the tubes and incubate at 37 °C for half an hour |
+| Look      | Draw a little of the settled cells onto a slide; if they are already clumped, the serum holds an ordinary antibody and the test stops                                                                                                    |
+| Wash      | Wash the cells three times in saline and make them up again to 2 percent in two drops                                                                                                                                                    |
+| Add       | An equal volume of rabbit anti-human-globulin serum, absorbed with A, B and O cells and diluted, usually 1 in 8                                                                                                                          |
+| Read      | Incubate at 37 °C for half an hour to an hour, until the cells have settled, and read the clumping by eye and under the microscope, graded from +++ to none                                                                              |
 
 The clumping often appeared within minutes of adding the rabbit serum. The three sera they tried worked up to a dilution of 1 in 64; serum from six rabbits that had never been immunized clumped nothing. A sensitized cell, they found, clumped more strongly in the second stage the weaker its reaction in the first. They thanked Mrs M. E. Adair, who made the rabbit antisera.
 

@@ -29,7 +29,7 @@ They examined 500 to 1,000 people of each nation and tabulated sixteen. Two rows
 | Annamese | 22.4 | 28.4 | 7.2 | 42.0 | 500    | 0.8           | 0.83                  |
 | Indians  | 19.0 | 41.2 | 8.5 | 31.3 | 1,000  | 0.5           | 0.55                  |
 
-_Seven of the sixteen rows of their Table II, in per cent. The index is theirs; the last column is ours._
+_Seven of the sixteen rows of their Table II, in percent. The index is theirs; the last column is ours._
 
 Treating AB as A and B meeting by chance, they added it to each: the English carry A in 43.4 + 3.0 = 46.4% and B in 7.2 + 3.0 = 10.2%. "In order to designate these relationships by a number we will call the proportion of A to B the biochemical race-index": 46.4 ÷ 10.2 ≈ 4.5 for the English, 27.5 ÷ 49.7 ≈ 0.55 for the Indians. Our arithmetic agrees with their printed index everywhere but the Balkans, where their table gives about 2.3 and their figure prints 2.5 to 2.6. They called an index of 2.5 or more "European", 1 to 2 "intermediate" and 1 or less "Asio-African", and proposed two "biochemical races", A arising in northern Europe and B in India, mixing where they met.
 

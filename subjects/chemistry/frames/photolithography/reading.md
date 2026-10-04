@@ -28,7 +28,7 @@ That was the problem in 1979, when **[IBM](kloom:e/ibm)** wanted to print with d
 | bake, repeated | Ar–O–CO–O–C(CH₃)₃ + H⁺ → Ar–OH + CO₂ + CH₂=C(CH₃)₂ + H⁺ |
 | development    | the phenol, Ar–OH, dissolves in aqueous base            |
 
-The acid comes out of each reaction as it went in, so one proton frees many phenols. By our arithmetic from the atomic weights, each repeat unit, C₁₃H₁₆O₃ (220), falls to C₈H₈O (120): the exposed film sheds 45 per cent of its mass as carbon dioxide and isobutene. The team measured it at 100 to 200 times more sensitive. IBM was making its 1-megabit memory chips with it at Burlington, Vermont, by 1986, once it had learned to keep the coated wafers in filtered air, since something in the factory's air spoiled the surface.
+The acid comes out of each reaction as it went in, so one proton frees many phenols. By our arithmetic from the atomic weights, each repeat unit, C₁₃H₁₆O₃ (220), falls to C₈H₈O (120): the exposed film sheds 45 percent of its mass as carbon dioxide and isobutene. The team measured it at 100 to 200 times more sensitive. IBM was making its 1-megabit memory chips with it at Burlington, Vermont, by 1986, once it had learned to keep the coated wafers in filtered air, since something in the factory's air spoiled the surface.
 
 ## Shorter light
 

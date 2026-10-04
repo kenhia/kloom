@@ -45,7 +45,7 @@ The plate draws what changed in December 2024. [Google](kloom:e/google)'s 105-qu
 and 49 data qubits, with measure qubits between them checking for errors.
 Each step up in size cut the logical error rate by a factor of 2.14, the
 first clear sign in hardware of the suppression the threshold theorem
-promises. The largest patch, 101 qubits in all, failed 0.143 per cent of
+promises. The largest patch, 101 qubits in all, failed 0.143 percent of
 the time per cycle and outlived its best physical qubit by a factor of
 2.4. Critics pointed out that deep algorithms need error rates around one
 in a million.

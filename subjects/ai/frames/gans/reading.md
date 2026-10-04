@@ -63,7 +63,7 @@ the bodies of actors in pornographic videos. Reddit banned the forum in
 February 2018. The face-swapping tools themselves were mostly built on
 _autoencoders_, networks that compress a face and rebuild it, but GANs were the
 turning point that made highly realistic fake images and video possible. A 2019 report by the
-company Deeptrace estimated that 96 per cent of deepfakes online were
+company Deeptrace estimated that 96 percent of deepfakes online were
 pornographic. California passed laws that October against non-consensual
 deepfake pornography and against manipulated videos of candidates close to
 an election.

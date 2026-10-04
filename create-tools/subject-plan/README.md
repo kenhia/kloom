@@ -25,6 +25,14 @@ npx prettier --write subjects/ai
   were in the brief's prose, where nothing checked them, and two names
   were drafted twice). `--check` refuses an owner that is not a part of
   the plan, and `names.py drafts <subject>` checks the drafts against it.
+  A frame's entry may name its `accent` too, the word the lead settles
+  for it, and `--check --accents FILE` reads the authors' claims, `ACCENT
+part frame` a line (`#` a comment): it exits 1 on a word claimed twice,
+  claimed when the plan gives it to another frame, or worn by another
+  written frame, and on a planned accent another frame wears; the first
+  claim wins, and a frame's later claim releases its earlier one (sprint
+  050: four clashes in sprint 049 were found only when a second frame went
+  live).
 - Running it writes `spine.json` and the trail files holding **only the
   frames whose directories have a `frame.json`**. It leaves out an empty
   segment, and a trail whose anchor or every frame is missing. So the

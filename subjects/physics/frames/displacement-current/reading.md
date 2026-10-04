@@ -77,7 +77,7 @@ was 310,740 kilometers a second. **[Hippolyte Fizeau](kloom:e/hippolyte-fizeau)*
 | Fizeau's light, as Fizeau published it          |      ~315,300 |
 | The speed of light today                        |   299,792.458 |
 
-The two differ by about 1.3 per cent (the arithmetic, and the conversion
+The two differ by about 1.3 percent (the arithmetic, and the conversion
 of Fizeau's published figure, are ours). Maxwell wrote to Faraday on 19
 October 1861 that "this coincidence is not merely numerical," and in the
 paper, in italics: "we can scarcely avoid the inference that light

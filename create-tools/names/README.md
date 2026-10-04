@@ -49,7 +49,12 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   warning. A
   title with no article prints `missing`. Ids spell a Greek letter ("π" is
   `pi`) and a bare number in words (Wikipedia's "0" is `zero`), since
-  sprint 027.
+  sprint 027. `--write-draft DIR` writes a draft name file per title it
+  found into DIR, its `id`, `wikidata` and `name` from the lookup and its
+  `kind` and `description` left empty for you, so `add` refuses it until
+  they are written; a missing, ambiguous or warned-of title, or a draft
+  already there, is not written (sprint 050: one of sprint 049's authors
+  typed a Wikidata id by hand, and wrong).
 - **`add`** writes name files (files, or directories of them) into the
   registry. A new name is written, tab-indented as Prettier leaves the
   repo's JSON. A name already there is left alone unless `--update`. A
@@ -109,7 +114,11 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   id, or one item under two ids) and on a draft by a part the plan's
   `owners` does not give it to (`--plan`, by default
   `create-tools/subject-plan/<subject>.json`). Drafts already in the
-  registry are counted in a note: those have been added. Run it before a
+  registry are counted in a note: those have been added. A draft no spec
+  marks is a problem once its part's spec
+  (`create-tools/names/examples/<subject>-<part>.json`) exists, and a note
+  before then (sprint 050: sprint 049's `late2` drafted a name and never
+  marked it, and nothing caught it). Run it before a
   brief goes out and before each commit (sprint 033: sprint 030's authors
   found owners by grepping `.scratch/names/*`, and two names were drafted
   twice because the brief's owner list and the commit order disagreed).

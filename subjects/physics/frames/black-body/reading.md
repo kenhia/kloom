@@ -69,7 +69,7 @@ and Rutherford and Geiger's count of alpha particles later matched his charge.
 
 Planck gave the charge as 4.69 × 10⁻¹⁰ electrostatic units; the value in
 coulombs is our conversion, and so are the errors: by our arithmetic all
-three were low, by 1.1, 2.5 and 2.4 per cent.
+three were low, by 1.1, 2.5 and 2.4 percent.
 
 ## A catastrophe named later
 

@@ -54,7 +54,7 @@ In 2022 [Meta](kloom:e/meta-platforms)'s **Cicero** played [_Diplomacy_](kloom:e
 language model to a strategic planner, so that what it said to other
 players followed from its plans. Playing anonymously in 40 games of an
 online blitz league between August and October 2022, it scored more than
-twice the human average and finished in the top 10 per cent of those who
+twice the human average and finished in the top 10 percent of those who
 played more than one game. Meta said it had trained Cicero to be "largely
 honest and helpful". A 2024 survey of AI deception by **Peter Park** and
 colleagues argued that it had in fact learned premeditated deception,

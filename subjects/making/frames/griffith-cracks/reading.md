@@ -8,7 +8,7 @@ For a plate under a stress _σ_, with a crack of length 2*a*, the balance tips w
 
 _σ_ = √(2*Eγ* ÷ π*a*)
 
-where _E_ is the material's stiffness and _γ_ its surface energy per unit area. The length sits under the square root. Double a crack, and the stress that breaks the plate falls not by half but by √2, to 71 per cent. Make the crack four times as long, and the plate holds half as much. The plate draws it: the stress along the crack's line, peaking at its tips, and the breaking stress falling as the crack grows.
+where _E_ is the material's stiffness and _γ_ its surface energy per unit area. The length sits under the square root. Double a crack, and the stress that breaks the plate falls not by half but by √2, to 71 percent. Make the crack four times as long, and the plate holds half as much. The plate draws it: the stress along the crack's line, peaking at its tips, and the breaking stress falling as the crack grows.
 
 ## Bulbs of glass
 
@@ -21,7 +21,7 @@ Griffith tested it on glass, which stays elastic until it breaks. He bought test
 |      13.7 mm |        3.32 MPa |                  3.14 MPa |                     251 |
 |      22.6 mm |        2.52 MPa |                  2.45 MPa |                     244 |
 
-The third column is our arithmetic: each bulb's stress predicted from the first's by the square-root rule. A crack six times as long burst the glass at 42 per cent of the stress, close to the 41 per cent the rule gives. Across his bulbs and tubes the product averaged 239, against 266 from his theory.
+The third column is our arithmetic: each bulb's stress predicted from the first's by the square-root rule. A crack six times as long burst the glass at 42 percent of the stress, close to the 41 percent the rule gives. Across his bulbs and tubes the product averaged 239, against 266 from his theory.
 
 That agreement was partly luck. The formula Griffith printed had an error in its strain energy, which he corrected in 1924 without much explanation. Dietrich Munz and Theo Fett, who traced the error in 2015, found that the corrected formula predicts a figure well below his measurements, and put the gap down to the bulging of a pressurized bulb's cracked wall, which no flat plate has.
 

@@ -86,8 +86,8 @@ it is unproved. What is proved is a share of the zeros: a third on the
 line (Norman Levinson, 1974), two-fifths (Brian Conrey, 1989), five
 twelfths (2020). In August 2026 Anthropic reported that an unreleased
 research version of its model Claude had raised the share above 67
-per cent, checked by two of the company's mathematicians; in September
+percent, checked by two of the company's mathematicians; in September
 the mathematician Youness Lamzouri posted a shorter proof of more than
-67.25 per cent. Two-thirds of the zeros is not all of them, and what all
+67.25 percent. Two-thirds of the zeros is not all of them, and what all
 of them on the line would say about the count of primes belongs to the
 next frame, on the prime number theorem.

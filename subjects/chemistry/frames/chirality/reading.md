@@ -12,7 +12,7 @@ He was lucky: fewer than one racemic compound in ten crystallizes as separate le
 
 ## Reading the rotation
 
-A polarimeter measures the angle, _α_, through which a solution turns polarized light. It grows with the length of the tube, _l_ (in decimeters), and the concentration, _c_ (in grams per milliliter), so chemists divide both out and quote the _specific rotation_, [α] = _α_ / (_l_ × _c_). The European Union's specification for food-grade tartaric acid puts it between +11.5° and +13.5° for a 20 per cent solution in yellow sodium light. Take +12°. By our arithmetic, for that solution in a one-decimeter tube:
+A polarimeter measures the angle, _α_, through which a solution turns polarized light. It grows with the length of the tube, _l_ (in decimeters), and the concentration, _c_ (in grams per milliliter), so chemists divide both out and quote the _specific rotation_, [α] = _α_ / (_l_ × _c_). The European Union's specification for food-grade tartaric acid puts it between +11.5° and +13.5° for a 20 percent solution in yellow sodium light. Take +12°. By our arithmetic, for that solution in a one-decimeter tube:
 
 | In the tube                 | Specific rotation | Angle read |
 | --------------------------- | ----------------: | ---------: |

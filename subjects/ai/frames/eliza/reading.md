@@ -78,7 +78,7 @@ take pride in.
 ELIZA's source code was lost for more than fifty years. In 2021 it was found
 in Weizenbaum's papers in the MIT archives, with the DOCTOR script attached,
 and in December 2024 Rupert Lane and several other engineers ran it again
-on an emulated 7094, rebuilt from about 96 per cent of the 1965 code, and reproduced the
+on an emulated 7094, rebuilt from about 96 percent of the 1965 code, and reproduced the
 paper's conversations almost exactly.
 
 ELIZA lived entirely in words. At the [Stanford Research Institute](kloom:e/sri-international) in Menlo

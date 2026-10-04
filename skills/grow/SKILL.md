@@ -353,7 +353,7 @@ knowledge is not a source.
   `YYYY-MM` or `YYYY-MM-DD`; a shorter year for a work before AD 1000
   (`"888"`, no leading zero); or a year BC (`"1550 BC"`). The kinds are
   `web`, `wikipedia`, `book`, `article`, `chapter`, `report`, `media`,
-  `letter`, `encyclopedia`, `diary`, `case` and `statute`. A **`diary`** entry is the diary
+  `letter`, `encyclopedia`, `diary`, `case`, `statute` and `treaty`. A **`diary`** entry is the diary
   as `title`, the entry's date as `written` (required), and the edition's
   `editors`, `place`, `publisher` and `published`: "Pepys, Samuel. Diary
   entry, November 14, 1666, in _The Diary of Samuel Pepys_, edited by
@@ -544,8 +544,10 @@ add` writes name files and refuses one whose Wikidata ID the registry
 - **Read the primary source.** Many papers are PDFs, and older ones are
   scans with no text layer. `uv run create-tools/read-source/read_source.py
 paper.pdf` prints the text and names the scanned pages; `--png DIR
---pages …` renders those pages to read as images. Don't improvise a PDF
-  reader. Read the Wikipedia revision you cite, too: `wiki-cite --text
+--pages …` renders those pages to read as images, and says each page's
+  size in pixels at its `--scale`; `--crop L,T,R,B` cuts a region of the
+  page, the box in those pixels, so measure it on a page rendered at the
+  same scale (sprint 050). Don't improvise a PDF reader. Read the Wikipedia revision you cite, too: `wiki-cite --text
 DIR` writes its text. When a site refuses a script, or a paper is closed,
   **`skills/grow/reaching-sources.md`** gathers the routes the earlier
   subjects found: OpenAlex for an open copy (through `create-tools/openalex`,
@@ -562,7 +564,8 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
 - **Look at every chart before it goes live**:
   `contact_sheet.py <subject> <frame> --charts` shows a frame's charts in
   its palette. `bar_chart.py` refuses a heading or labels that will not
-  fit; a chart drawn by hand gets no such check.
+  fit, and `contact_sheet.py` warns of any text in a plate or a chart
+  drawn by hand that runs off its edge, by about how far (sprint 050).
 - **"Public domain" on Commons is a claim to check**: a photograph from a
   national laboratory run under contract (Brookhaven, LIGO) is not a US
   government work, a `PD-USGov` tag can sit on a photograph nobody in
@@ -643,13 +646,21 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   and the date enacted in `published`: "Army-Navy Nurses Act of 1947, Pub.
   L. No. 80-36, 61 Stat. 41." Neither has `authors`. `container` and
   `publisher` say where you read it (govinfo, the Caselaw Access Project).
-  **An English act before 1800** is cited by regnal year and chapter: `code`
-  `{"volume": "1", "name": "Will. & Mar. Sess. 2"}` and `chapter` `"2"`
-  ("1 Will. & Mar. Sess. 2, c. 2"); **a foreign law** by its gazette, `code`
-  `{"name": "Reichsgesetzblatt 1935, Teil I", "page": "1146"}`. **A treaty**
-  (the Peace of Westphalia, the General Act of Berlin) has no kind of its
-  own: cite the printing you read, an `article` in the journal that
-  printed it or the `web` page of a collection (sprint 049).
+  **An English act cited by regnal year** is a `statute` with `"citeAs":
+"regnal"`, `code` `{"volume": "1", "name": "Will. & Mar. Sess. 2"}` and
+  `chapter` `"2"`: "1 Will. & Mar. Sess. 2, c. 2", the regnal year its
+  year. **A foreign law** is one with `"citeAs": "gazette"` and the gazette
+  and page in `code`, `{"name": "Reichsgesetzblatt 1935, Teil I", "page":
+"1146"}`: "…, Reichsgesetzblatt 1935, Teil I, p. 1146". Neither takes a
+  `publicLaw`. **A treaty** is a `treaty`: its name, its `parties` when
+  there are two or three (`["Holy Roman Empire", "France"]`; a treaty
+  among many states leaves them out), the date signed in `published`, and
+  a treaty series in `code` when you have one (`{"volume": "1", "name":
+"Consol. T.S.", "page": "271"}`): "Treaty of Westphalia, Holy Roman
+  Empire–France, October 24, 1648." `container` and `publisher` say where
+  you read it (the Avalon Project). A treaty read in a journal or a volume
+  that printed it, with its pages, may be cited as that `article` or
+  `chapter` (sprint 050; 049 wrote these as workarounds).
   **A passage you translate from a translation** (an Arabic letter read in a
   German edition) is "in our English of <translator>'s German", with both
   cited. **A letter with an approximate date** takes `published` with

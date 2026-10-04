@@ -2,6 +2,7 @@
 	import Icon from './Icon.svelte';
 	import type { JumpItem } from '../reader-data';
 	import { tooltip } from './tooltip';
+	import { inView } from './inView';
 
 	interface Props {
 		/** Whether the frame on the spine is bookmarked. */
@@ -82,6 +83,7 @@
 		aria-labelledby="{id}-title"
 		data-own-keys
 		hidden={!open}
+		use:inView
 	>
 		<p id="{id}-title" class="title">Bookmarks</p>
 		{#if items.length}

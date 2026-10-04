@@ -1,4 +1,4 @@
-Ozone, O₃, is a poison at the ground and a shield in the stratosphere, where it absorbs 97 to 99 per cent of the sun's middle ultraviolet before it reaches us. There is not much of it. The British Antarctic Survey's rule of thumb is that a column of air holds on average 300 Dobson units of ozone, which, brought down to sea-level pressure, would make a layer 3 millimeters thick. In the 1980s we found that our own chemicals were thinning it, most of all each spring over Antarctica, and that the **[ozone depletion](kloom:e/ozone-depletion)** we had caused could be stopped.
+Ozone, O₃, is a poison at the ground and a shield in the stratosphere, where it absorbs 97 to 99 percent of the sun's middle ultraviolet before it reaches us. There is not much of it. The British Antarctic Survey's rule of thumb is that a column of air holds on average 300 Dobson units of ozone, which, brought down to sea-level pressure, would make a layer 3 millimeters thick. In the 1980s we found that our own chemicals were thinning it, most of all each spring over Antarctica, and that the **[ozone depletion](kloom:e/ozone-depletion)** we had caused could be stopped.
 
 ## Chapman's cycle
 
@@ -49,7 +49,7 @@ The aerosol and halocarbon industries disputed it; a DuPont chairman called ozon
 | 2015 |                         139 |
 | 2020 |                         150 |
 
-The story often told, and repeated in Wikipedia, is that the software of NASA's Nimbus 7 satellite threw the low values out as errors. The NASA team's own account, as the climate scientist Gavin Schmidt set it out in 2017, is that readings below 180 Dobson units were flagged, not discarded; that the team noticed the flood of flags in the October 1983 data, and by December 1984 was confident enough to submit a conference abstract; and that it had doubted the values because ground data from the South Pole showed about 300. Farman, in his own telling, said NASA was flagging some seventy per cent of the October data "but no-one was looking at it".
+The story often told, and repeated in Wikipedia, is that the software of NASA's Nimbus 7 satellite threw the low values out as errors. The NASA team's own account, as the climate scientist Gavin Schmidt set it out in 2017, is that readings below 180 Dobson units were flagged, not discarded; that the team noticed the flood of flags in the October 1983 data, and by December 1984 was confident enough to submit a conference abstract; and that it had doubted the values because ground data from the South Pole showed about 300. Farman, in his own telling, said NASA was flagging some seventy percent of the October data "but no-one was looking at it".
 
 ![Two satellite maps of the southern hemisphere in false color, 1979 and 2008: in 2008 a deep purple region of low ozone covers all of Antarctica](hole-2008.jpg)
 

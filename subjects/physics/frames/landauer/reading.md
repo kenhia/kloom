@@ -62,7 +62,7 @@ _kT_ ln 2. In their fuller account of 2015 a fit to the slow runs gave
 less than the bound, a few even took heat in: the principle holds for
 the average, as the second law does. A feedback trap at Simon Fraser
 University in 2014 and nanomagnets at Berkeley in 2016 gave results that
-agreed with the bound; the nanomagnet flip took about 44 per cent more.
+agreed with the bound; the nanomagnet flip took about 44 percent more.
 
 Not everyone accepts the argument. The philosopher of science John
 Norton has called it circular, a consequence assumed rather than

@@ -267,6 +267,69 @@ class Drafts(unittest.TestCase):
         self.assertIn('already in the registry', notes[0])
 
 
+class DraftsUnmarked(unittest.TestCase):
+    """A draft no spec marks (korg 3554: in sprint 049 late2 drafted a name and never marked it)."""
+
+    def setUp(self):
+        self.dir = tempfile.mkdtemp()
+        self.specs = os.path.join(self.dir, 'specs')
+        os.makedirs(self.specs)
+        for part, name in (('one', 'marked'), ('one', 'forgotten'), ('two', 'early')):
+            os.makedirs(os.path.join(self.dir, f'subj-{part}'), exist_ok=True)
+            with open(os.path.join(self.dir, f'subj-{part}', f'{name}.json'), 'w') as fh:
+                json.dump({'id': name, 'wikidata': f'Q{len(name)}{part}'}, fh)
+        # Part one has a spec; part two has not written one yet.
+        with open(os.path.join(self.specs, 'subj-one.json'), 'w') as fh:
+            json.dump({'subj/a': [['Marked', 'marked']]}, fh)
+
+    def tearDown(self):
+        shutil.rmtree(self.dir)
+
+    def test_a_draft_its_parts_spec_does_not_mark_is_a_problem(self):
+        _, problems, notes = names.drafts('subj', self.dir, specs=self.specs)
+        self.assertEqual(problems, ['forgotten is drafted by one, and no spec marks it: '
+                                    'add it to a spec, or drop the draft'])
+        self.assertIn('early is drafted by two, which has no spec yet (subj-two.json)', notes)
+
+    def test_another_parts_spec_marking_it_is_enough(self):
+        with open(os.path.join(self.specs, 'shared.json'), 'w') as fh:
+            json.dump({'subj/b': [['forgotten', 'forgotten']]}, fh)
+        _, problems, _ = names.drafts('subj', self.dir, specs=self.specs)
+        self.assertEqual(problems, [])
+
+
+class WriteDraft(unittest.TestCase):
+    """`lookup --write-draft DIR` (korg 3554): no Wikidata id typed by hand."""
+
+    def setUp(self):
+        self.dir = tempfile.mkdtemp()
+
+    def tearDown(self):
+        shutil.rmtree(self.dir)
+
+    def test_writes_a_skeleton_add_refuses_until_it_is_written(self):
+        row = {'id': 'edward-gibbon', 'wikidata': 'Q312627', 'name': 'Edward Gibbon',
+               'description': 'English historian (1737-1794)', 'first_line': 'Edward Gibbon was...'}
+        said = names.write_drafts({'Edward Gibbon': row, 'Mercury': {'ambiguous': 'Mercury', 'page': 'Mercury'}},
+                                  self.dir, doubtful={'Nobody'})
+        with open(os.path.join(self.dir, 'edward-gibbon.json')) as fh:
+            draft = json.load(fh)
+        self.assertEqual((draft['id'], draft['wikidata'], draft['name']), ('edward-gibbon', 'Q312627', 'Edward Gibbon'))
+        self.assertEqual(said, [f'wrote {self.dir}/edward-gibbon.json', 'Mercury: ambiguous, not written'])
+        # Kind and description are the author's to write; add refuses the skeleton until they are.
+        self.assertEqual(names.name_problems(draft), ['description is required', f'kind must be one of {", ".join(names.KINDS)}'])
+
+    def test_leaves_a_draft_already_there_and_a_doubtful_row(self):
+        path = os.path.join(self.dir, 'edward-gibbon.json')
+        with open(path, 'w') as fh:
+            fh.write('{"kept": true}')
+        row = {'id': 'edward-gibbon', 'wikidata': 'Q312627', 'name': 'Edward Gibbon'}
+        said = names.write_drafts({'Edward Gibbon': row, 'Gibbon': {**row, 'id': 'gibbon'}}, self.dir, doubtful={'Gibbon'})
+        self.assertEqual(said, [f'{path} is already there, left alone', 'Gibbon: warned of, not written'])
+        with open(path) as fh:
+            self.assertEqual(json.load(fh), {'kept': True})
+
+
 class Add(unittest.TestCase):
     """`add` writes drafts into the registry (sprint 049: since sprint 033 a second `drafts` shadowed the
     helper `add` read its files with, and every `add` failed with a TypeError)."""

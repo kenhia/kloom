@@ -20,7 +20,7 @@ people at its peak in June 1944, and spent nearly two billion dollars.
 ## Two roads, and two factories
 
 The physics set the shape of the project. Only uranium-235 splits readily
-with slow neutrons, and it is 0.71 per cent of natural uranium. One road to
+with slow neutrons, and it is 0.71 percent of natural uranium. One road to
 a bomb was to separate it from uranium-238, chemically identical, by its
 weight. At **Oak Ridge**, in Tennessee, the
 project built electromagnetic separators, the calutrons of the Y-12 plant,
@@ -79,7 +79,7 @@ Man fissioned about one kilogram of its 6.2 kilograms of plutonium. Little
 Boy carried 64 kilograms of uranium; its yield, never measured directly,
 has been estimated at anything from 12 to 16.6 kilotons, with 15 the usual
 figure. By our own arithmetic, taking Fat Man's 21 kilotons per kilogram,
-that is about seven-tenths of a kilogram fissioned, near one per cent.
+that is about seven-tenths of a kilogram fissioned, near one percent.
 
 How many the bombs killed is not known exactly; records were lost and
 methods differ. Estimates of the dead by the end of 1945 run from about 90,000 to 166,000 in

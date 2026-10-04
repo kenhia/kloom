@@ -86,9 +86,8 @@ could pass by manipulating symbols it did not understand, so passing could
 not show that a machine thinks. The Loebner Prize ran contests from 1991 to
 2019; its first winner succeeded partly by imitating human typing errors. In a preprint of March 2025, Cameron Jones and Benjamin Bergen
 reported randomized three-party tests with five-minute conversations: told
-to adopt a human persona, GPT-4.5 was picked as the human 73 per
-cent of the time, more often than the real humans, while [ELIZA](kloom:e/eliza) managed 23
-per cent. They called it the first empirical evidence that an artificial
+to adopt a human persona, GPT-4.5 was picked as the human 73 percent of the time, more often than the real humans, while [ELIZA](kloom:e/eliza) managed 23
+percent. They called it the first empirical evidence that an artificial
 system passes a standard three-party Turing test. Whether that shows
 thinking is exactly the question Searle's argument says the test cannot
 settle.

@@ -22,7 +22,7 @@ The measure of a theory of the bond is whether it gets the bond's energy and len
 | James and Coolidge, 1933                  |          4.722 |           0.74 |
 | Measured                                  |           4.72 |         0.7395 |
 
-The first calculation found two-thirds of the bond: 3.14 of 4.72 is 67 per cent, by our arithmetic. Hubert James and Albert Coolidge used a wave function of up to thirteen terms, whose gain came mainly from one term in the distance between the two electrons, and matched the measurement within their own estimate of error, 0.013 eV. The plate draws the first and last curves, each rebuilt by our arithmetic as a Morse curve from its depth, its length and its vibration in Pauling and Wilson's table.
+The first calculation found two-thirds of the bond: 3.14 of 4.72 is 67 percent, by our arithmetic. Hubert James and Albert Coolidge used a wave function of up to thirteen terms, whose gain came mainly from one term in the distance between the two electrons, and matched the measurement within their own estimate of error, 0.013 eV. The plate draws the first and last curves, each rebuilt by our arithmetic as a Morse curve from its depth, its length and its vibration in Pauling and Wilson's table.
 
 A molecule never lies still at the bottom of its well. In 2018 a team in Amsterdam, Zurich and Hefei measured the energy needed to split hydrogen from its lowest vibrating state to about one part in a billion: 36,118.07 cm⁻¹ for the para form, by our arithmetic from their figures, which is 4.478 eV, about a quarter of a volt less than the well is deep. Theory and experiment still check each other on this one molecule.
 

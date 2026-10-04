@@ -49,7 +49,7 @@ noise _N_, the capacity is _W_ log₂ (1 + _P_/_N_) bits a second.
 The same paper applied the measure to English. Letters do not come
 equally often and do not follow one another freely, so English carries
 fewer bits a letter than its alphabet could: its redundancy, Shannon
-estimated, was roughly 50 per cent. In 1951 he measured it another way,
+estimated, was roughly 50 percent. In 1951 he measured it another way,
 by asking people to guess a text one letter at a time. With a hundred
 letters of context, English came to something like one bit a letter.
 The same guessing game, scored by the same logarithm, is how language

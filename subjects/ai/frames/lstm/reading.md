@@ -56,8 +56,7 @@ For a decade LSTM was mostly a research tool. Then it began to win. In 2009 an
 LSTM network trained by **Alex Graves**'s team won an international
 competition in connected handwriting recognition, the first time a recurrent
 network had won such a contest. In 2013 Graves, **Abdel-rahman Mohamed** and
-[Geoffrey Hinton](kloom:e/geoffrey-hinton) used LSTM to reach a record phoneme error rate of 17.7 per
-cent on TIMIT, a standard benchmark of recorded speech.
+[Geoffrey Hinton](kloom:e/geoffrey-hinton) used LSTM to reach a record phoneme error rate of 17.7 percent on TIMIT, a standard benchmark of recorded speech.
 
 Industry followed. In September 2015 [Google](kloom:e/google)'s speech team described the new
 acoustic models behind voice search: LSTM recurrent networks, trained with a
@@ -65,7 +64,7 @@ method called _connectionist temporal classification_, that were "more
 accurate, robust to noise, and faster to respond". A year later Google
 published its neural machine translation system, a deep LSTM network with
 eight encoder and eight decoder layers, which it reported cut translation
-errors by an average of 60 per cent against its previous phrase-based system,
+errors by an average of 60 percent against its previous phrase-based system,
 as judged by human raters on a set of simple
 sentences. For a few years LSTMs sat inside much of the
 speech recognition and translation that people used every day.

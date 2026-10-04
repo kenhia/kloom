@@ -10,14 +10,22 @@ Lighthill report, the Mark I Perceptron manual.
 uv run create-tools/read-source/read_source.py paper.pdf                  # every page's text
 uv run create-tools/read-source/read_source.py https://arxiv.org/pdf/1706.03762 --pages 1-3
 uv run create-tools/read-source/read_source.py scan.pdf --pages 2-4 --png .scratch/pages
+uv run create-tools/read-source/read_source.py scan.pdf --pages 3 --png .scratch/pages --crop 120,80,900,700
 ```
 
 - **Text.** Each page prints under `--- page N ---`. A page with less than
   20 characters in its text layer is reported as a scan. The summary on
   stderr names the scanned pages in the form `--pages` takes.
 - **Scans.** `--png DIR` writes `DIR/page-NNN.png` (144 dpi; `--scale 1`
-  for 72, `3` for 216). Read those images; put them in `.scratch/`, which is
-  git-ignored, not in a frame.
+  for 72, `3` for 216), and says each page's size in pixels at that scale.
+  Read those images; put them in `.scratch/`, which is git-ignored, not in
+  a frame.
+- **A region.** `--crop L,T,R,B` with `--png` writes only that box of each
+  page, `DIR/page-NNN-crop.png`, the box in the pixels of the page at the
+  same `--scale`; a box past the page is refused with the page's size
+  (sprint 050: an author in sprint 049 measured a box on a render at one
+  scale and cut it from another). `commons_media.py crop` then scales a
+  crop for a frame and writes it as a JPEG.
 - **URLs** are fetched into memory, never saved. Some archives refuse a
   script: DTIC answers 403. Download the file in a browser and pass the path.
 

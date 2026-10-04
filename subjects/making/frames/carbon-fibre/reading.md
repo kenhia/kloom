@@ -39,4 +39,4 @@ Rolls-Royce licensed the Farnborough process and chose carbon fiber, which it ca
 
 ![A Rolls-Royce RB211 engine on a stand in a museum hangar, its metal fan blades visible inside the polished intake](rb211.jpg)
 
-Japanese makers took the lead in PAN fiber from the late 1960s. As of September 2026 the **[Boeing 787](kloom:e/boeing-787-dreamliner)** is, by Boeing's account, 50 per cent composite by weight, and the Airbus A350's airframe 53 per cent. The fiber that failed a bird test now makes the A350's wings. This frame ends the Materials science trail, which began from the steel of the Japanese sword.
+Japanese makers took the lead in PAN fiber from the late 1960s. As of September 2026 the **[Boeing 787](kloom:e/boeing-787-dreamliner)** is, by Boeing's account, 50 percent composite by weight, and the Airbus A350's airframe 53 percent. The fiber that failed a bird test now makes the A350's wings. This frame ends the Materials science trail, which began from the steel of the Japanese sword.

@@ -8,15 +8,15 @@ The disease was new in the 1920s, on the prairies of North Dakota and Alberta. C
 
 Nothing chemical showed whether an extract held the poison, so the laboratory had to measure it in animals, which took five years to get right. Howell's method for prothrombin was too imprecise, the clotting time of whole blood too variable, and rabbits differed widely in how they responded to the standard dose of 50 grams of spoiled hay. In 1938 Link's student Harold Campbell adapted Armand Quick's one-stage method, the test the trail's frame on the **[prothrombin time](kloom:e/prothrombin-time)** describes. As Link set it out:
 
-| Step     | Campbell's bioassay, 1938                                                  |
-| -------- | -------------------------------------------------------------------------- |
-| Animals  | rabbits from a colony bred and reared to be susceptible                    |
-| Prepare  | fast the rabbit 24 to 36 hours before feeding it anything under test       |
-| Dose     | feed the hay, extract or fraction under test                               |
-| Bleed    | draw blood and test the plasma promptly                                    |
-| Test     | the one-stage clotting time of _diluted_ plasma, at 12.5 and 8.34 per cent |
-| Read     | against the same rabbit's own normal plasma                                |
-| Standard | each rabbit's response to 50 grams of spoiled hay                          |
+| Step     | Campbell's bioassay, 1938                                                 |
+| -------- | ------------------------------------------------------------------------- |
+| Animals  | rabbits from a colony bred and reared to be susceptible                   |
+| Prepare  | fast the rabbit 24 to 36 hours before feeding it anything under test      |
+| Dose     | feed the hay, extract or fraction under test                              |
+| Bleed    | draw blood and test the plasma promptly                                   |
+| Test     | the one-stage clotting time of _diluted_ plasma, at 12.5 and 8.34 percent |
+| Read     | against the same rabbit's own normal plasma                               |
+| Standard | each rabbit's response to 50 grams of spoiled hay                         |
 
 By our arithmetic those dilutions are one part plasma in eight and one in twelve. Comparing every animal with itself removed much of the variation between rabbits. One rabbit, known as Bess Campbell, served for about 200 assays over five years.
 

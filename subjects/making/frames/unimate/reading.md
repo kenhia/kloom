@@ -29,6 +29,6 @@ That makes accuracy a matter of reach. An angle that is off by a little puts the
 
 ## What followed
 
-Engelberger was a showman, and a Unimate putted a golf ball and conducted the band on Johnny Carson's _Tonight Show_. Sales at home were slow. In October 1968 **[Kawasaki](kloom:e/kawasaki-heavy-industries)**'s aircraft company announced a partnership with Unimation to build Unimates in Japan, where they were put on the jobs nobody wanted, welding above all, and by the mid-1980s, _Spectrum_ says, Japan had nearly 70 per cent of the world's robots. General Motors, its first customer, put 28 of them on a spot-welding line at Lordstown, Ohio, in 1970, where they became part of a bitter strike over the line's speed.
+Engelberger was a showman, and a Unimate putted a golf ball and conducted the band on Johnny Carson's _Tonight Show_. Sales at home were slow. In October 1968 **[Kawasaki](kloom:e/kawasaki-heavy-industries)**'s aircraft company announced a partnership with Unimation to build Unimates in Japan, where they were put on the jobs nobody wanted, welding above all, and by the mid-1980s, _Spectrum_ says, Japan had nearly 70 percent of the world's robots. General Motors, its first customer, put 28 of them on a spot-welding line at Lordstown, Ohio, in 1970, where they became part of a bitter strike over the line's speed.
 
 A Unimate learned a path by being led through it. The next segment turns to machines that were told one in numbers instead: numerical control.

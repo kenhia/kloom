@@ -48,7 +48,7 @@ and the Planck constant.
 | Measured from the lines, as Bohr quoted it   | 3.290 × 10¹⁵  |
 | Calculated today from the same constants     | 3.2898 × 10¹⁵ |
 
-His value, about 6 per cent low by our arithmetic, was within the errors of
+His value, about 6 percent low by our arithmetic, was within the errors of
 the constants he had, and he said so. The **[Rydberg constant](kloom:e/rydberg-constant)** calculated
 from today's values of _e_, _m_ and _h_ agrees with the lines. The paper added two smaller triumphs. Only 12 Balmer lines could
 be seen in laboratory tubes but 33 in some stars: the high orbits are huge,

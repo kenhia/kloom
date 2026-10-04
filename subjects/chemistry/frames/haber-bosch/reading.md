@@ -10,7 +10,7 @@ Where it settles is a tug of war that **[Le Chatelier's principle](kloom:e/le-ch
 
 Then he went to the limit of his compressor, 200 atmospheres. Haber published his measurements as an equation for the equilibrium, and it can be worked for any temperature and pressure. By our arithmetic from his equation, treating the gases as ideal, a mixture of three parts hydrogen to one of nitrogen settles at:
 
-![Bar chart of the share of ammonia at equilibrium at 200 atmospheres: 62.8 per cent at 300 °C, 49.1 at 350, 36.3 at 400, 25.6 at 450, 17.6 at 500, 12.0 at 550 and 8.2 at 600](equilibrium.svg)
+![Bar chart of the share of ammonia at equilibrium at 200 atmospheres: 62.8 percent at 300 °C, 49.1 at 350, 36.3 at 400, 25.6 at 450, 17.6 at 500, 12.0 at 550 and 8.2 at 600](equilibrium.svg)
 
 | At 200 atm | 300 °C | 350 °C | 400 °C | 450 °C | 500 °C | 550 °C | 600 °C |
 | ---------- | -----: | -----: | -----: | -----: | -----: | -----: | -----: |
@@ -22,7 +22,7 @@ And at 450 °C, as the pressure rises:
 | ---------- | ----: | -----: | -----: | ------: | ------: | ------: | --------: |
 | ammonia, % |   0.2 |    2.2 |    6.1 |    16.2 |    25.6 |    32.0 |      52.4 |
 
-At 300 °C the yield would be nearly two-thirds, if any catalyst worked there; none did. Haber's osmium and uranium worked at 500–600 °C, where the yield at 200 atmospheres is between 8 and 18 per cent. The trade-off is the whole design: a temperature hot enough for the catalyst, a pressure high enough to pay for the heat, and a loop that takes the ammonia out, cools it to a liquid and sends the unused gas round again. Haber's apparatus, built with his assistant Robert Le Rossignol, did all three, and passed the heat of the outgoing gas to the incoming.
+At 300 °C the yield would be nearly two-thirds, if any catalyst worked there; none did. Haber's osmium and uranium worked at 500–600 °C, where the yield at 200 atmospheres is between 8 and 18 percent. The trade-off is the whole design: a temperature hot enough for the catalyst, a pressure high enough to pay for the heat, and a loop that takes the ammonia out, cools it to a liquid and sends the unused gas round again. Haber's apparatus, built with his assistant Robert Le Rossignol, did all three, and passed the heat of the outgoing gas to the incoming.
 
 ## Drop by drop
 

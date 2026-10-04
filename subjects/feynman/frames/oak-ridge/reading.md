@@ -3,7 +3,7 @@ Tennessee, the secret town of [Oak Ridge](kloom:e/oak-ridge-tennessee). At its *
 for the Army by Tennessee Eastman, the calutrons separated uranium-235
 electromagnetically, and chemical departments recovered and purified the
 product between stages. Y-12 sent its first few hundred grams, enriched to
-13 to 15 per cent, to Los Alamos in March 1944. The Army kept the two
+13 to 15 percent, to Los Alamos in March 1944. The Army kept the two
 sites apart: Oak Ridge was not to know what the uranium was for, nor Los
 Alamos how the plant worked.
 

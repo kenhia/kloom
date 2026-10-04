@@ -12,7 +12,7 @@ Inside the source, a generator fires drops of molten **[tin](kloom:e/tin)** abou
 
 ## Why mirrors
 
-Glass absorbs this light, and so does air, so there can be no lenses and the whole light path is a vacuum. Every surface that steers the light is a mirror, and a single polished surface reflects only about one per cent of it. So each mirror is coated with about a hundred alternating layers of molybdenum and silicon, each a few nanometers thick, and the faint reflections from all the boundaries add up in step. **[Bragg's law](kloom:e/braggs-law)** sets the spacing: a pair of layers must be half a wavelength deep, so that light from each boundary travels exactly one wavelength further than light from the one above. At 13.5 nm that is about 6.8 nm a pair, by our arithmetic. Zeiss gets about 70 per cent back from each mirror, and the losses multiply:
+Glass absorbs this light, and so does air, so there can be no lenses and the whole light path is a vacuum. Every surface that steers the light is a mirror, and a single polished surface reflects only about one percent of it. So each mirror is coated with about a hundred alternating layers of molybdenum and silicon, each a few nanometers thick, and the faint reflections from all the boundaries add up in step. **[Bragg's law](kloom:e/braggs-law)** sets the spacing: a pair of layers must be half a wavelength deep, so that light from each boundary travels exactly one wavelength further than light from the one above. At 13.5 nm that is about 6.8 nm a pair, by our arithmetic. Zeiss gets about 70 percent back from each mirror, and the losses multiply:
 
 | Light has met                      | Reflections | Left (0.70ⁿ) |
 | ---------------------------------- | ----------: | -----------: |

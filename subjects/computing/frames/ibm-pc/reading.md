@@ -81,7 +81,7 @@ never seen it, writing new code to match, at a cost of about $1 million.
 Compaq sold 53,000 in its first year, for $111 million. From 1984 Phoenix
 Technologies licensed such a BIOS to anyone.
 
-Sales ran up to 800 per cent over IBM's forecasts, at times 40,000 machines a
+Sales ran up to 800 percent over IBM's forecasts, at times 40,000 machines a
 month, and 753 software packages were on sale within a year. On 3 January
 1983 _Time_ gave its cover not to a person of the year but to a **Machine of
 the Year**. IBM's history says the PC was named; _Time_'s choice was the

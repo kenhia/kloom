@@ -28,7 +28,7 @@ The plate draws the line from the bottle to the pool to the final container. Eve
 
 ## What went wrong
 
-Sterility was the hard part. Pools that grew nothing at three days grew bacteria later, and on 14 November 1940 a cable from England reported eight contaminated bottles, all from August, before the rules were tightened. The Blood Transfusion Betterment Association had called Drew back from Howard in September as its full-time medical supervisor, and under him the central laboratory at Presbyterian rechecked every pool: of 836 control bottles tested from October to December, 16 were contaminated. Of the 6,151 liters made, 521 were lost to contamination, 8.5 per cent, and 151 donations were discarded for syphilis. The Army's later history drew the lesson that blood must be collected in a completely closed system.
+Sterility was the hard part. Pools that grew nothing at three days grew bacteria later, and on 14 November 1940 a cable from England reported eight contaminated bottles, all from August, before the rules were tightened. The Blood Transfusion Betterment Association had called Drew back from Howard in September as its full-time medical supervisor, and under him the central laboratory at Presbyterian rechecked every pool: of 836 control bottles tested from October to December, 16 were contaminated. Of the 6,151 liters made, 521 were lost to contamination, 8.5 percent, and 151 donations were discarded for syphilis. The Army's later history drew the lesson that blood must be collected in a completely closed system.
 
 ## Dried plasma
 

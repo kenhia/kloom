@@ -1,4 +1,4 @@
-Iron comes out of the blast furnace full of carbon, and what it is good for depends on how much carbon it keeps. **[Pig iron](kloom:e/pig-iron)**, as the furnace gives it, holds about 4 per cent, with some silicon: it melts easily and casts well, and it snaps under a hammer. Take nearly all the carbon out and it is soft, tough wrought iron. In between lies **[steel](kloom:e/steel)**, strong and springy, which in the 1850s was made in small crucibles and cost about £40 a ton. **[Henry Bessemer](kloom:e/henry-bessemer)** found a way to make it by the ton in twenty minutes, by blowing cold air through molten iron, and with no fuel at all.
+Iron comes out of the blast furnace full of carbon, and what it is good for depends on how much carbon it keeps. **[Pig iron](kloom:e/pig-iron)**, as the furnace gives it, holds about 4 percent, with some silicon: it melts easily and casts well, and it snaps under a hammer. Take nearly all the carbon out and it is soft, tough wrought iron. In between lies **[steel](kloom:e/steel)**, strong and springy, which in the 1850s was made in small crucibles and cost about £40 a ton. **[Henry Bessemer](kloom:e/henry-bessemer)** found a way to make it by the ton in twenty minutes, by blowing cold air through molten iron, and with no fuel at all.
 
 | Metal        | Carbon, by weight  | Its character                  |
 | ------------ | ------------------ | ------------------------------ |
@@ -7,7 +7,7 @@ Iron comes out of the blast furnace full of carbon, and what it is good for depe
 | Cast iron    | over about 2.1%    | melts easily, brittle          |
 | Pig iron     | typically 3.8–4.7% | the blast furnace's product    |
 
-Wikipedia's article on steel puts wrought iron under 0.1 per cent carbon; its article on wrought iron says under 0.05.
+Wikipedia's article on steel puts wrought iron under 0.1 percent carbon; its article on wrought iron says under 0.05.
 
 ## Iron without fuel
 
@@ -15,13 +15,13 @@ Bessemer was an inventor of machines, not a metallurgist. In his telling, the wo
 
 ![A vertical section through Bessemer's first fixed converter, a firebrick-lined box on a stone base, with flames and sparks rising through the charge and striking a plate hung above the mouth](vertical-converter.png)
 
-The paper describes a firebrick cylinder three feet across and five high, with five clay nozzles near the bottom for the blast. Molten iron was run in, the metal boiled and was "tossed violently about", and after fifteen or twenty minutes a great flame roared from the mouth. Bessemer had assumed that crude iron held about 5 per cent of carbon, and that carbon "cannot exist at a white heat in the presence of oxygen" without burning. The burning was the fuel: his apparatus turned 7 hundredweight of pig iron into malleable iron in thirty minutes, where a puddling furnace made 4½ in two hours.
+The paper describes a firebrick cylinder three feet across and five high, with five clay nozzles near the bottom for the blast. Molten iron was run in, the metal boiled and was "tossed violently about", and after fifteen or twenty minutes a great flame roared from the mouth. Bessemer had assumed that crude iron held about 5 percent of carbon, and that carbon "cannot exist at a white heat in the presence of oxygen" without burning. The burning was the fuel: his apparatus turned 7 hundredweight of pig iron into malleable iron in thirty minutes, where a puddling furnace made 4½ in two hours.
 
 In America, **[William Kelly](kloom:e/william-kelly-inventor)**, an ironmaster at Eddyville, Kentucky, wrote to _Scientific American_ that he had blown air through iron for years, and won a priority patent in 1857. The claim is still argued; Kelly's process seems to have been the less developed.
 
 ## Where the heat comes from
 
-Bessemer's paper says the carbon burned to "carbonic acid gas", carbon dioxide. It does not, inside the metal. Henry Marion Howe, writing the _Encyclopædia Britannica_'s article on iron and steel in 1911, explains that the carbon burns there only to carbon monoxide, which by itself would not keep the charge hot enough, and that the heat of the process was set by the pig iron's silicon, about 1¼ per cent. By our arithmetic, from standard enthalpies of formation (carbon monoxide −110.5, carbon dioxide −393.5, quartz −910.9 kJ per mole), for a tonne of pig iron of 4 per cent carbon and 1¼ per cent silicon, a composition we chose as typical:
+Bessemer's paper says the carbon burned to "carbonic acid gas", carbon dioxide. It does not, inside the metal. Henry Marion Howe, writing the _Encyclopædia Britannica_'s article on iron and steel in 1911, explains that the carbon burns there only to carbon monoxide, which by itself would not keep the charge hot enough, and that the heat of the process was set by the pig iron's silicon, about 1¼ percent. By our arithmetic, from standard enthalpies of formation (carbon monoxide −110.5, carbon dioxide −393.5, quartz −910.9 kJ per mole), for a tonne of pig iron of 4 percent carbon and 1¼ percent silicon, a composition we chose as typical:
 
 | What burns   | Reaction          | From one tonne of pig iron    | Heat released |
 | ------------ | ----------------- | ----------------------------- | ------------: |
@@ -29,7 +29,7 @@ Bessemer's paper says the carbon burned to "carbonic acid gas", carbon dioxide. 
 | Carbon       | 2 C + O₂ → 2 CO   | 40 kg, into 93 kg of gas      |        368 MJ |
 | At the mouth | 2 CO + O₂ → 2 CO₂ | the flame, in the open air    |        942 MJ |
 
-Kilogram for kilogram, silicon gives three and a half times the heat of carbon burned to monoxide, and all of it stays in the metal. Seven-tenths of carbon's heat escapes in the flame the blower watched to judge the end of the blow. The oxygen for all of it, 68 kilograms, comes from about 225 cubic meters of air. The heat has to rise as the carbon goes: iron with 4 per cent of carbon is liquid near 1,150 °C, and pure iron melts at about 1,540 °C. The plate draws that climb on the iron–carbon diagram.
+Kilogram for kilogram, silicon gives three and a half times the heat of carbon burned to monoxide, and all of it stays in the metal. Seven-tenths of carbon's heat escapes in the flame the blower watched to judge the end of the blow. The oxygen for all of it, 68 kilograms, comes from about 225 cubic meters of air. The heat has to rise as the carbon goes: iron with 4 percent of carbon is liquid near 1,150 °C, and pure iron melts at about 1,540 °C. The plate draws that climb on the iron–carbon diagram.
 
 ## The phosphorus problem
 

@@ -17,7 +17,7 @@ An identical twin's marrow carries no foreign tissue type, so it isolates the qu
 | Collect  | into Hanks' solution with 0.1 mg of heparin per mL                                 |
 | Filter   | through stainless steel screens                                                    |
 | Count    | 0.92 × 10⁹ nucleated marrow cells                                                  |
-| Store    | frozen in 15 per cent glycerol at −80 °C, then thawed and the glycerol removed     |
+| Store    | frozen in 15 percent glycerol at −80 °C, then thawed and the glycerol removed      |
 | Give     | into a vein, like a transfusion                                                    |
 
 A second harvest of 20 aspirations six days later gave 0.35 × 10⁹ cells, infused fresh. Both patients' blood recovered promptly, which showed that infused marrow could replace marrow destroyed by radiation. The leukemia came back within months. Radiation alone would not cure it.
@@ -34,4 +34,4 @@ In November 1968 **[Robert A. Good](kloom:e/robert-a-good)** in Minnesota transp
 
 The _EBMT Handbook_ of 2019, from the European Society for Blood and Marrow Transplantation, describes the operation much as Cooperstown did it, refined. Marrow comes from the back of the pelvis, the posterior iliac crests, usually under general anesthesia, in aspirations of under 5 mL each so that blood does not dilute it, into a bag of ACD anticoagulant. The target is at least 3 × 10⁸ nucleated cells per kilogram of the recipient, and the harvest should not exceed 20 mL per kilogram of the donor. For a 70-kg adult that is 2.1 × 10¹⁰ cells, by our arithmetic, some sixteen times what the twins gave in 1958. The donor in the photograph, a Navy sailor, was matched to an unknown patient through the Defense Department's marrow donor program.
 
-Graft-versus-host disease reaches the blood bank too: a transfusion's living white cells can cause it, more often when donor and recipient are closely related, so blood for patients at risk is irradiated or its white cells removed first. And most stem cells are no longer taken from bone: the handbook puts peripheral blood at 70 to 95 per cent of transplants, collected by the machine the frame after next describes.
+Graft-versus-host disease reaches the blood bank too: a transfusion's living white cells can cause it, more often when donor and recipient are closely related, so blood for patients at risk is irradiated or its white cells removed first. And most stem cells are no longer taken from bone: the handbook puts peripheral blood at 70 to 95 percent of transplants, collected by the machine the frame after next describes.

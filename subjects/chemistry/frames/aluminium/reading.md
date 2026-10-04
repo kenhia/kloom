@@ -8,7 +8,7 @@ A story says that the Emperor served his most honored guests with aluminum cutle
 
 ![An engraving of six men in coats and hats on a wooden platform high in the air, one of them setting a small pointed metal cap on top of a tall stone pyramid, with rigging and a pulley block behind](capstone.jpg)
 
-On 6 December 1884, as _Harper's Weekly_ drew it, the **Washington Monument** was finished with a pyramid of aluminum, 100 ounces of it, about 2.8 kilograms, cast in Philadelphia by William Frishmuth, the largest piece of the metal yet cast. It was put on display at Tiffany's in New York before it went up. An analysis in 1934 found it 97.87 per cent pure.
+On 6 December 1884, as _Harper's Weekly_ drew it, the **Washington Monument** was finished with a pyramid of aluminum, 100 ounces of it, about 2.8 kilograms, cast in Philadelphia by William Frishmuth, the largest piece of the metal yet cast. It was put on display at Tiffany's in New York before it went up. An analysis in 1934 found it 97.87 percent pure.
 
 ## A woodshed at Oberlin
 
@@ -41,6 +41,6 @@ A modern cell carries 100,000 to 300,000 amperes, the Wikipedia article says, at
 | Faraday's charge at 4 V, by our sum |       11.9 |
 | A typical smelter                   |      15.37 |
 
-The article gives the minimum as 6.23 kWh and common practice as 15.37. The rest goes as heat, which keeps the bath molten. The same article on recycling says that remelting scrap takes about 5 per cent of that energy: the electrons are paid for once, when the oxygen is taken away, and a can melted down never needs them again.
+The article gives the minimum as 6.23 kWh and common practice as 15.37. The rest goes as heat, which keeps the bath molten. The same article on recycling says that remelting scrap takes about 5 percent of that energy: the electrons are paid for once, when the oxygen is taken away, and a can melted down never needs them again.
 
 Hall's first cell failed because silicon came out of the clay. The next frame is that element, purified further than anything else we make.

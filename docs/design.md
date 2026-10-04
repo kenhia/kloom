@@ -174,7 +174,7 @@ baked into the engine.
     links the URL that was read, so a Wikipedia source links its pinned
     revision, not the live article.
   - Fields: `kind` (`web`, `wikipedia`, `book`, `article`, `chapter`,
-    `report`, `media`, `letter`, `encyclopedia`, `diary`, `case`, `statute`), `title`, `url` and/or `doi`, `accessed`
+    `report`, `media`, `letter`, `encyclopedia`, `diary`, `case`, `statute`, `treaty`), `title`, `url` and/or `doi`, `accessed`
     (`YYYY-MM-DD`), and optionally `key`, `note` (a key source's remark in
     the Sources list: a page, why it matters), `authors` (`{family,
 given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
@@ -286,6 +286,24 @@ page?}`: the session laws or the code it is in), the year left out
       here may have the DOI alone. `bar_chart.py` prints the citation.
       A media citation's `number` (a NARA or Navy identifier, an image
       number) follows its container.
+  - **Forms from western-civ** (sprint 050, korg 3554): a statute that is
+    not a US one says how it is cited, in `citeAs`. `"regnal"` is an
+    English act by regnal year and chapter, its `code` the regnal year
+    and the statute's `chapter`: "Bill of Rights [1688], 1 Will. & Mar.
+    Sess. 2, c. 2", no year after it. `"gazette"` is a foreign law by the
+    gazette that printed it, its `code` the gazette and page:
+    "…, Reichsgesetzblatt 1935, Teil I, p. 1146", the year after it unless
+    the name or gazette says it. Neither takes a `publicLaw`. A **`treaty`**
+    is its name, its `parties` joined by an en dash (left out for a treaty
+    among many states), the date signed, which it needs, in `published`,
+    and a treaty series in `code` when it has one: "Treaty of Westphalia:
+    …, Holy Roman Empire–France, October 24, 1648." No authors; where it
+    was read follows, as for a statute. Sprint 049's workarounds were
+    moved: the four statutes in `glorious-revolution` and `holocaust`, and
+    six treaties cited as `web` pages (Westphalia, Versailles twice, the
+    secret protocol of 1939, Geneva 1864, Hague X). Two treaties read in
+    a journal and a volume with their pages stay `article` and
+    `chapter`. A change of form, not of source: no `edits` entry.
   - A `media` citation may credit an image by its en.wikipedia.org file
     page (`/wiki/File:…`) without a revision: it is an image's page, not
     an article (sprint 027).
@@ -937,6 +955,15 @@ listed and `engine/ui/Contents.svelte` draws it.
   current frame, scrolled to the middle of the list. Picking a frame goes
   there (into its trail if it is on one), closes the list and returns focus
   to the button, so the shortcuts still act.
+- **In the window, wherever its button is** (sprint 050, korg 3552). The
+  panel hangs from its button's right edge, and every HUD icon added to
+  the right of it moves that edge left: on a smaller screen the list ran
+  past the window's left edge. Every HUD pop-up (the contents, the
+  bookmarks) carries `use:inView` (`engine/ui/inView.ts`), which moves it
+  sideways just enough to stay in the window when it opens or the window
+  resizes, and `just hud-check` opens each at seven widths from 700 to
+  1920 pixels and fails one outside the window. A new HUD pop-up takes the
+  action and a line in that check.
 - **Nested lists, not a treeview.** Each segment is a list labelled by its
   title, and each trail a list under a disclosure button. A treeview would
   make every entry an option to arrow through and announce as a tree, but

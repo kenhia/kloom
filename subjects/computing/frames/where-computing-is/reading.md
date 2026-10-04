@@ -64,10 +64,10 @@ efficient; in the four years since Frontier it has not improved: the
 newest leader, built of processors alone, draws 42 megawatts.
 
 All the world's data centers together used about 415 terawatt-hours of
-electricity in 2024, around 1.5 per cent of the world's consumption, by the
+electricity in 2024, around 1.5 percent of the world's consumption, by the
 International Energy Agency's estimate. In April 2026 the agency put 2025
-at 485 TWh, up 17 per cent, with AI-focused data centers up 50 per cent,
-and expected about 950 TWh by 2030, some 3 per cent of the world's demand.
+at 485 TWh, up 17 percent, with AI-focused data centers up 50 percent,
+and expected about 950 TWh by 2030, some 3 percent of the world's demand.
 The chips, clusters and power of AI itself are a subject of their own.
 
 ## How far down

@@ -49,8 +49,8 @@ autobiography of 1950 told the work as proof of the **[photon](kloom:e/photon)**
 them: Millikan tested an equation and rejected its physics.
 
 The graph shows where his number came from: the slope times his own value
-of the electron's charge, from his oil drops. That charge was 0.6 per cent
-too low, and his _h_ is 0.85 per cent below today's; most of the gap is
+of the electron's charge, from his oil drops. That charge was 0.6 percent
+too low, and his _h_ is 0.85 percent below today's; most of the gap is
 the charge. The comparison is ours.
 
 | Quantity          | Millikan, 1916   | Fixed exactly in 2019  |
@@ -73,7 +73,7 @@ only on the angle. **[Compton scattering](kloom:e/compton-scattering)** is a col
 momentum _h_/_λ_ strikes an electron, gives it some energy and bounces off
 with less. The plate draws it to scale for a quantum as energetic as the
 electron's own rest mass, where the wavelength doubles at 90°; for
-Compton's X-rays, of about 17 keV, the shift at 90° is about 3 per cent, by
+Compton's X-rays, of about 17 keV, the shift at 90° is about 3 percent, by
 our arithmetic. Bohr, Kramers and Slater tried once more in 1924 to keep
 light a wave, with energy conserved only on average; within a year,
 experiments found it conserved in each collision.

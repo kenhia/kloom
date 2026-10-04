@@ -12,7 +12,7 @@ Salt had been the chemist's way to throw a protein out of solution. Cohn replace
 | IV-4     |     40% | 5.8 |       −5 °C | the remaining alpha and beta globulins                                        |
 | V        |     40% | 4.8 |       −5 °C | albumin, near its isoelectric point                                           |
 
-Fraction IV-1 was taken out after II + III by lowering the ethanol again, a later refinement. The figures for the first four come from Cohn's 1948 history, which quotes his 1946 paper; for Fraction V he wrote only "near its isoelectric point", and the pH 4.8 is Wikipedia's and his 1940 report's range of 4.4 to 4.8. The ethanol is per cent by volume and the pH as measured at 25 °C, as Cohn specified.
+Fraction IV-1 was taken out after II + III by lowering the ethanol again, a later refinement. The figures for the first four come from Cohn's 1948 history, which quotes his 1946 paper; for Fraction V he wrote only "near its isoelectric point", and the pH 4.8 is Wikipedia's and his 1940 report's range of 4.4 to 4.8. The ethanol is percent by volume and the pH as measured at 25 °C, as Cohn specified.
 
 ![Bar chart of grams of protein per liter of plasma in each Cohn fraction: I 3.4, II plus III 19.0, IV-1 5.1, IV-4 5.8, V 31.5, VI 1.0](fractions.svg)
 
@@ -30,7 +30,7 @@ More than half the protein of plasma is albumin, and most of it ends in Fraction
 
 ## Why albumin
 
-Albumin carries about 80 per cent of the osmotic pull that holds water in the blood vessels, Cohn wrote, and it is the most soluble, least viscous and most stable of the plasma proteins. That made it small to carry. By his measurements a gram of albumin held 18 mL of fluid in the circulation, so 100 mL of a 25 per cent solution was recommended as the equal of 500 mL of plasma. The Army-Navy package held three cans, each with 100 mL of albumin and the tubing to give it by gravity; the box floated, which the Navy liked, and the can was a standard Navy can for the priming charge of explosives.
+Albumin carries about 80 percent of the osmotic pull that holds water in the blood vessels, Cohn wrote, and it is the most soluble, least viscous and most stable of the plasma proteins. That made it small to carry. By his measurements a gram of albumin held 18 mL of fluid in the circulation, so 100 mL of a 25 percent solution was recommended as the equal of 500 mL of plasma. The Army-Navy package held three cans, each with 100 mL of albumin and the tubing to give it by gravity; the box floated, which the Navy liked, and the can was a standard Navy can for the priming charge of explosives.
 
 ![A small glass bottle of albumin lying beside coiled rubber tubing and needle guards, lit against a dark background](army-navy-albumin.jpg)
 
