@@ -167,5 +167,11 @@ panel in `blood/hepatitis` opens inside the window at every width from
 hud-check` is a dev-server check: on the live tailnet door a headless
 browser has no reader, so it has no bookmarks button and stops there.
 
-Not published to the public reader site: `just publish-public` is a
-separate step.
+Published to the public reader site, kloom.kenhiatt.us (Fly app
+`kloom-reader`), the same day by `just publish-public` from `main` at
+`a06f4741` (this sprint's merge and its deploy record): release v12,
+image `kloom-reader:a06f4741a-202610041848`, library `b656fa`.
+`verify-public` passed every check (sign-in gating and deep links,
+HSTS, http to https, grow, ask and keep 404 for a reader without ask,
+compressed pages, the library's build named, Fly's client address);
+ask spend $0.05 of $15 this month; 5 notes, none detached.
