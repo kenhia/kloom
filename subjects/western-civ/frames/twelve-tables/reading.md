@@ -1,0 +1,33 @@
+Early in the fifth century BC the law of **[Rome](kloom:e/rome)** was not written down. It was known and applied by patricians, the old families, and the **[plebeians](kloom:e/plebeians)**, the rest of the citizens, had to take their word for it. The historian **[Livy](kloom:e/livy)**, writing four centuries later, tells how the **[tribunes of the plebs](kloom:e/tribune-of-the-plebs)** demanded a written law year after year, until in 454 BC, by his dating, the two orders agreed to one. Three envoys were sent to Athens "to make a copy of the famous laws of **[Solon](kloom:e/solon)**", and in 451 BC, after their return, ten men, the **[decemviri](kloom:e/decemviri)**, were given power over the state for a year to write the law. They set out ten tables in an assembly and told the citizens, in Canon Roberts's translation of Livy, to "turn over each separate item in their minds" and propose amendments. A second board added two more, and the laws, Livy says, "were engraved in brass and publicly exhibited". These were the **[Twelve Tables](kloom:e/twelve-tables)**.
+
+Livy wrote long after, and modern historians doubt the embassy to Athens; some think the Romans went no further than the Greek cities of southern Italy. But Greek law did leave a mark. **[Cicero](kloom:e/cicero)** says that the Tables' limits on funerals ("Do no more than this. Do not smooth the pyre with an axe") were "carried over, more or less, from the laws of Solon", in our translation. Like **[Hammurabi](kloom:e/hammurabi)**'s stele thirteen centuries before, the Tables were set up where anyone could read them.
+
+## Calling a man to court
+
+The first table opens with how a lawsuit began. In the translation in Oliver Thatcher's _Library of Original Sources_ (1901):
+
+> If anyone summons a man before the magistrate, he must go. If the man summoned does not go, let the one summoning him call the bystanders to witness and then take him by force. If he shirks or runs away, let the summoner lay hands on him. If illness or old age is the hindrance, let the summoner provide a team.
+
+Then came a _legis actio_, an "action of the law": set words and gestures before the magistrate. The jurist **[Gaius](kloom:e/gaius-jurist)**, writing about AD 160, explains that the forms followed the statute's words so closely that a man who sued for his "vines" being cut down lost his case, because the Tables spoke of "trees". He sets out the commonest form, the wager, step by step (Edward Poste's translation, 1904):
+
+| Step        | What was said and done                                                                                                                         |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| The claim   | The claimant holds a wand, grasps the thing (a slave, say) and says: "This man I claim as mine by due acquisition, by the law of the Quirites" |
+| The counter | The other party says and does the same                                                                                                         |
+| The order   | The magistrate: "Both claimants quit your hold"                                                                                                |
+| The wager   | Each challenges the other to stake 500 asses, or 50 if the thing is worth under 1,000; the loser's stake goes to the state                     |
+| The judge   | A private judge is appointed to hear the case and decide whose wager was just                                                                  |
+
+## Thirty days, sixty days, three market days
+
+The third table says what happened to a man who lost and could not pay. In Thatcher's translation, he "shall have thirty days to pay it in. After that forcible seizure of his person is allowed." Unless someone stood surety for him, the creditor was to "take him home and fasten him in stocks or fetters", of at least fifteen pounds' weight, and, if he could not feed himself, "give him a pound of meal daily". Then, says the writer **[Aulus Gellius](kloom:e/aulus-gellius)**, who quotes the text, he was held for sixty days and brought before the praetor on three successive market days while his debt was proclaimed. On the third he was put to death or "sold abroad, across the Tiber" (our translation). If he owed several creditors, the table allowed a worse end: "On the third market day let them divide his body among them. If they cut more or less than each one's share it shall be no crime."
+
+Gellius has a jurist explain that the cruelty was meant to frighten debtors into paying: "I have neither read nor heard that anyone was ever cut up in the old days" (our translation). A separate bondage, _nexum_, in which a borrower pledged his own person, was abolished in 326 BC, Livy says; some modern scholars doubt it existed as the sources describe.
+
+## A text we rebuild
+
+The bronze is gone, perhaps destroyed when the Gauls burned Rome early in the fourth century BC, and no copy survives. Cicero learned the Tables as a boy "as a required chant", he says, "which no one learns now" (our translation). What we have are quotations in later writers, in Latin already modernized. The order of the tables is a modern guess, made by Jacques Godefroy in 1616 and Heinrich Dirksen in 1824, and every translation's numbering, this one's included, is theirs; in 1996 Michael Crawford's edition rearranged it again.
+
+What grew around the Tables was the Republic's constitution. The Greek historian **[Polybius](kloom:e/polybius)**, describing it as it stood in 216 BC, found three parts: two consuls who commanded, a **[Senate](kloom:e/roman-senate)** that held the treasury, and the people's assemblies, which alone passed laws and judged capital cases, with the tribunes able to stop the Senate meeting at all. "No one could say for certain, not even a native," he wrote, in Evelyn Shuckburgh's translation, "whether the constitution as a whole were an aristocracy or democracy or despotism."
+
+Livy called the Tables "the source of all public and private jurisprudence", and jurists began from them. Gaius wrote six books on them, and his _Institutes_, lost until **[Barthold Georg Niebuhr](kloom:e/barthold-georg-niebuhr)** found them under a later text in a Verona manuscript in 1816, are where we read the old actions. Excerpts from his commentary went into the **[Corpus Juris Civilis](kloom:e/corpus-juris-civilis)**, in which Justinian gathered Roman law nearly a thousand years after the Tables, as the frame on Justinian tells. The next frame comes to the last generation of the Republic the Tables began, in the life of Cicero.

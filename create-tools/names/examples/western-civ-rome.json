@@ -1,0 +1,48 @@
+{
+	"western-civ/twelve-tables": [
+		["Rome", "rome"],
+		["plebeians", "plebeians"],
+		["Livy", "livy"],
+		["tribunes of the plebs", "tribune-of-the-plebs"],
+		["Solon", "solon"],
+		["decemviri", "decemviri"],
+		["Twelve Tables", "twelve-tables"],
+		["Cicero", "cicero"],
+		["Hammurabi", "hammurabi"],
+		["Gaius", "gaius-jurist"],
+		["Aulus Gellius", "aulus-gellius"],
+		["Polybius", "polybius"],
+		["Senate", "roman-senate"],
+		["Barthold Georg Niebuhr", "barthold-georg-niebuhr"],
+		["Corpus Juris Civilis", "corpus-juris-civilis"]
+	],
+	"western-civ/cicero": [
+		["Cicero", "cicero"],
+		["Catiline", "catiline"],
+		["Sallust", "sallust"],
+		["Julius Caesar", "julius-caesar"],
+		["cursus honorum", "cursus-honorum"],
+		["Livy", "livy"],
+		["Publius Clodius Pulcher", "publius-clodius-pulcher"],
+		["Pompey", "pompey"],
+		["Mark Antony", "mark-antony"],
+		["Petrarch", "petrarch"]
+	],
+	"western-civ/fall-of-constantinople": [
+		["Mehmed II", "mehmed-ii"],
+		["Constantinople", "constantinople"],
+		["Constantine XI Palaiologos", "constantine-xi-palaiologos"],
+		["Byzantine Empire", "byzantine-empire"],
+		["Theodosian Walls", "walls-of-constantinople"],
+		["Orban", "orban-ironmaster"],
+		["Edward Gibbon", "edward-gibbon"],
+		["George Sphrantzes", "george-sphrantzes"],
+		["Janissaries", "janissary"],
+		["Hagia Sophia", "hagia-sophia"],
+		["Ottoman Empire", "ottoman-empire"],
+		["Manuel Chrysoloras", "manuel-chrysoloras"],
+		["Bessarion", "bessarion"],
+		["Augustus", "augustus"],
+		["fall of Constantinople", "fall-of-constantinople"]
+	]
+}
