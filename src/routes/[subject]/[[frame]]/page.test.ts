@@ -204,6 +204,39 @@ describe('the subject list', () => {
 		);
 	});
 
+	it('lists titles without a leading "The " or the subject’s subtitle; the big title keeps both', () => {
+		const { body } = render(Page, {
+			props: {
+				data: {
+					...served(),
+					subjects: [subjects[0], { ...subjects[1], subtitle: 'from myth to the modern world' }],
+					ai: { askModels, askWeb: 'allow', growModels }
+				}
+			} as never
+		});
+		const at = body.indexOf('role="listbox"');
+		const list = body.slice(at, body.indexOf('</div></div>', at));
+		expect(text(list)).toContain('History of Western Civilization');
+		expect(list).not.toContain('The History of Western Civilization');
+		expect(list).not.toContain('from myth to the modern world');
+		expect(body).toContain('The History of Western Civilization</h2>');
+		expect(text(body)).toContain('from myth to the modern world');
+	});
+
+	it('offers the same subjects in a picker for a narrow screen, this one selected', () => {
+		const { body } = page();
+		const picker = body.match(
+			/<select class="picker[^"]*" aria-label="Subjects"[\s\S]*?<\/select>/
+		)![0];
+		const options = [...picker.matchAll(/<option value="([^"]+)"([^>]*)>([^<]*)</g)];
+		expect(options.map((o) => o[1])).toEqual(['ai', 'western-civ']);
+		expect(options.find((o) => o[1] === 'western-civ')![2]).toContain('selected');
+		expect(options.map((o) => o[3])).toEqual([
+			'History and Current State of AI',
+			'History of Western Civilization'
+		]);
+	});
+
 	it('draws the selected subject’s illustrations in a ring around the loom', () => {
 		const { body } = page();
 		const ring = body.slice(body.indexOf('class="ring'), body.indexOf('class="copy'));
@@ -504,6 +537,7 @@ describe('reader data on the page', () => {
 		expect(text(body.slice(at0, body.indexOf('<h2', at0)))).toMatch(
 			/History and Current State of AI\s*2 new/
 		);
+		expect(body).toMatch(/<option value="ai"[^>]*>History and Current State of AI · 2 new</);
 		// The selection is this subject: Begin says what is new in it.
 		expect(text(body)).toContain('1 new since you started');
 		// Nothing is new without a reader, or in a subject not started.
@@ -538,7 +572,11 @@ describe('reader data on the page', () => {
 		expect(offers).not.toContain('href="/ai/alexnet"');
 		const at = body.indexOf('role="listbox"');
 		const list = body.slice(at, body.indexOf('<h2', at));
-		expect(text(list)).toMatch(/History and Current State of AI\s*Last read/);
+		// An open book, said in words to a screen reader; in words in the picker.
+		expect(list).toMatch(
+			/History and Current State of AI<\/span>(<!--[^>]*-->)*<span class="last[^"]*">(<!--[^>]*-->\s*)*<svg[\s\S]*?<span class="visually-hidden">Last read<\/span>/
+		);
+		expect(body).toMatch(/<option value="ai"[^>]*>History and Current State of AI — last read</);
 		// Offered, not forced: Begin is still first.
 		expect(body.indexOf('class="begin')).toBeLessThan(body.indexOf('class="resume'));
 	});

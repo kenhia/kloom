@@ -110,12 +110,15 @@
 
 	const listed = $derived(
 		data.subjects.map((s) => {
-			const n = news?.fresh[s.id]?.length ?? 0;
-			const note = [
-				...(data.readerData?.last?.subject === s.id ? ['Last read'] : []),
-				...(n ? [`${n} new`] : [])
-			].join(' · ');
-			return { id: s.id, title: s.title, subtitle: s.subtitle, note: note || undefined };
+			const fresh = news?.fresh[s.id]?.length ?? 0;
+			const last = data.readerData?.last?.subject === s.id;
+			return {
+				id: s.id,
+				title: s.title,
+				subtitle: s.subtitle,
+				...(last ? { last } : {}),
+				...(fresh ? { fresh } : {})
+			};
 		})
 	);
 
