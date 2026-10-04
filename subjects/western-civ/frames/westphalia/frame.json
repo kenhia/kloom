@@ -1,0 +1,282 @@
+{
+	"id": "westphalia",
+	"topic": "The Peace of Westphalia",
+	"position": {
+		"label": "AD 1648",
+		"sort": 1648
+	},
+	"scene": {
+		"headline": "After thirty years we made",
+		"accent": "PEACE.",
+		"palette": "fresco",
+		"illustration": "scene.svg",
+		"metadata": ["MÜNSTER · OSNABRÜCK · 1643–1648", "THE EMPEROR · FRANCE · SWEDEN · THE ESTATES"],
+		"counter": {
+			"value": "109",
+			"label": "delegations, never all in one room"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/ninety-five-theses",
+			"why": "Luther's protest of 1517 opened the split between Catholics and Lutherans that the Peace of Augsburg tried to settle in 1555 and the Peace of Westphalia settled in 1648."
+		},
+		{
+			"to": "physics/kepler",
+			"why": "Kepler did his work inside the wars of religion: Ferdinand II's purge of Protestant teachers sent him from Graz to Prague, and in 1626, in the Thirty Years' War, the siege of Linz burned the shop printing his tables."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Treaty of Westphalia; October 24, 1648: Peace Treaty between the Holy Roman Emperor and the King of France and their Respective Allies",
+			"container": "The Avalon Project",
+			"publisher": "Lillian Goldman Law Library, Yale Law School",
+			"published": "1648-10-24",
+			"url": "https://avalon.law.yale.edu/17th_century/westphal.asp",
+			"accessed": "2026-10-03",
+			"note": "The treaty of Münster in English; the preamble, Articles II, LXIII and LXV are quoted"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Peace of Westphalia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peace_of_Westphalia&oldid=1377270172",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Westfälischer Friede",
+			"url": "https://de.wikipedia.org/w/index.php?title=Westf%C3%A4lischer_Friede&oldid=271012755",
+			"language": "de",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Thirty Years' War",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thirty_Years'_War&oldid=1377507885",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Socio-Economic Relations of Warfare and the Military Mortality Crises of the Thirty Years' War",
+			"authors": [
+				{
+					"family": "Outram",
+					"given": "Quentin"
+				}
+			],
+			"container": "Medical History",
+			"volume": "45",
+			"issue": "2",
+			"pages": "151–184",
+			"published": "2001-04",
+			"doi": "10.1017/s0025727300067703",
+			"accessed": "2026-10-03",
+			"note": "Franz's estimates and their critics, pp. 152–153; read in PubMed Central's scan, PMC1044352"
+		},
+		{
+			"kind": "article",
+			"title": "Sovereignty, International Relations, and the Westphalian Myth",
+			"authors": [
+				{
+					"family": "Osiander",
+					"given": "Andreas"
+				}
+			],
+			"container": "International Organization",
+			"volume": "55",
+			"issue": "2",
+			"pages": "251–287",
+			"published": "2001",
+			"doi": "10.1162/00208180151140577",
+			"accessed": "2026-10-03",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Westphalian system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Westphalian_system&oldid=1375763594",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peace of Augsburg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peace_of_Augsburg&oldid=1365933171",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cuius regio, eius religio",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cuius_regio,_eius_religio&oldid=1367878002",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "St. Bartholomew's Day massacre",
+			"url": "https://en.wikipedia.org/w/index.php?title=St._Bartholomew's_Day_massacre&oldid=1376363315",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edict of Nantes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edict_of_Nantes&oldid=1373767749",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Defenestrations of Prague",
+			"url": "https://en.wikipedia.org/w/index.php?title=Defenestrations_of_Prague&oldid=1377295004",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johannes Kepler",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johannes_Kepler&oldid=1377345228",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peace of Münster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peace_of_M%C3%BCnster&oldid=1366909391",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A Letter Concerning Toleration",
+			"url": "https://en.wikipedia.org/w/index.php?title=A_Letter_Concerning_Toleration&oldid=1376867055",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Upper Austrian peasant war of 1626",
+			"url": "https://en.wikipedia.org/w/index.php?title=Upper_Austrian_peasant_war_of_1626&oldid=1370752539",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "media",
+			"title": "The Ratification of the Treaty of Münster",
+			"authors": [
+				{
+					"family": "ter Borch",
+					"given": "Gerard"
+				}
+			],
+			"url": "https://commons.wikimedia.org/wiki/File:Westfaelischer_Friede_in_Muenster_(Gerard_Terborch_1648).jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "munster-oath.jpg",
+			"container": "National Gallery, London",
+			"number": "NG896",
+			"published": "1648"
+		}
+	]
+}

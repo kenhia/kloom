@@ -58,7 +58,14 @@
 			"title": "Reformation and new worlds",
 			"labelKind": "date",
 			"palette": "fresco",
-			"frames": ["erasmus-greek-nt", "ninety-five-theses", "voyages", "shakespeare"]
+			"frames": [
+				"erasmus-greek-nt",
+				"ninety-five-theses",
+				"voyages",
+				"valladolid",
+				"shakespeare",
+				"westphalia"
+			]
 		},
 		{
 			"id": "enlightenment",
