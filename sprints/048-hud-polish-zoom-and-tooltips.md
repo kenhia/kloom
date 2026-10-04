@@ -134,3 +134,15 @@ hidden "Bookmarks (N)" label.
   bookmarks, and the check expects a reader's page.
 - **The public reader site was not published.** That is `just
   publish-public`, run separately.
+
+I published the public reader site the same day at Ken's word, with `just
+publish-public` from `3c49f08`. That is Fly release v10, image
+`kloom-reader:3c49f08e1-202610040554`, and it replaces v9 (`4e7400b`).
+Every `verify-public` check passed: TLS, HSTS, robots, the sign-in wall, the
+404s for grow and for ask and keep without ask, compression, the library's
+build, and the Fly-Client-IP overwrite. The site has one note, none detached.
+Ask has spent $0.02 of $15 this month. `pull-notes` backed up the readers'
+store after the publish, not before as in 047, to `reader-20261004-0556.db`;
+the volume survives a deploy either way. Nobody checked the tooltips and zoom
+by eye on the site, because it needs a reader's sign-in. It is the same code
+`hud-check` passed on kai.
