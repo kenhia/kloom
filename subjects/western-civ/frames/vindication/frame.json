@@ -1,0 +1,177 @@
+{
+	"id": "vindication",
+	"topic": "Wollstonecraft's Vindication",
+	"position": {
+		"label": "AD 1792",
+		"sort": 1792
+	},
+	"scene": {
+		"headline": "She claimed the rights of",
+		"accent": "WOMAN.",
+		"palette": "broadsheet",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · J. JOHNSON · ST. PAUL'S CHURCH YARD",
+			"MARY WOLLSTONECRAFT · JANUARY 1792"
+		],
+		"counter": {
+			"value": "8",
+			"label": "the age at which Talleyrand's plan sent girls home from school"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Vindication of the Rights of Woman: With Strictures on Political and Moral Subjects",
+			"authors": [
+				{
+					"family": "Wollstonecraft",
+					"given": "Mary"
+				}
+			],
+			"place": "London",
+			"publisher": "J. Johnson",
+			"published": "1792",
+			"url": "https://www.gutenberg.org/ebooks/3420",
+			"accessed": "2026-10-03",
+			"note": "Read in Project Gutenberg's eBook #3420, which does not name the edition it follows; the dedication, chapter 12 and the passages quoted"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Rapport sur l'instruction publique, fait au nom du Comité de Constitution à l'Assemblée nationale, les 10, 11 et 19 septembre 1791",
+			"authors": [
+				{
+					"family": "Talleyrand-Périgord",
+					"given": "Charles Maurice de"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Imprimerie nationale",
+			"published": "1791",
+			"language": "fr",
+			"url": "https://www.gutenberg.org/ebooks/26336",
+			"accessed": "2026-10-03",
+			"note": "Read in Project Gutenberg's eBook #26336, from the Bibliothèque nationale's copy; \"Éducation des femmes\", article 1"
+		},
+		{
+			"kind": "book",
+			"title": "Les Droits de la femme. À la reine",
+			"authors": [
+				{
+					"family": "Gouges",
+					"given": "Olympe de"
+				}
+			],
+			"place": "Paris",
+			"published": "1791",
+			"language": "fr",
+			"url": "https://fr.wikisource.org/wiki/D%C3%A9claration_des_droits_de_la_femme_et_de_la_citoyenne",
+			"container": "Wikisource",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mary Wollstonecraft",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mary_Wollstonecraft&oldid=1375562955",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A Vindication of the Rights of Woman",
+			"url": "https://en.wikipedia.org/w/index.php?title=A_Vindication_of_the_Rights_of_Woman&oldid=1351336066",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A Vindication of the Rights of Men",
+			"url": "https://en.wikipedia.org/w/index.php?title=A_Vindication_of_the_Rights_of_Men&oldid=1372979728",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Declaration of the Rights of Woman and of the Female Citizen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Declaration_of_the_Rights_of_Woman_and_of_the_Female_Citizen&oldid=1374988241",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Olympe de Gouges",
+			"url": "https://en.wikipedia.org/w/index.php?title=Olympe_de_Gouges&oldid=1376652538",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Memoirs of the Author of A Vindication of the Rights of Woman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Memoirs_of_the_Author_of_A_Vindication_of_the_Rights_of_Woman&oldid=1374597629",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "media",
+			"title": "A Vindication of the Rights of Woman, title page of the first edition",
+			"url": "https://commons.wikimedia.org/wiki/File:A_Vindication_of_the_Rights_of_Woman_title_page.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "vindication-title.jpg",
+			"authors": [
+				{
+					"family": "Wollstonecraft",
+					"given": "Mary"
+				}
+			],
+			"container": "New York Public Library",
+			"published": "1792"
+		}
+	]
+}

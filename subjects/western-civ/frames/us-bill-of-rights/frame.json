@@ -1,0 +1,321 @@
+{
+	"id": "us-bill-of-rights",
+	"topic": "The US Bill of Rights",
+	"position": {
+		"label": "AD 1789–1791",
+		"sort": 1791
+	},
+	"scene": {
+		"headline": "We wrote the rights",
+		"accent": "DOWN.",
+		"palette": "broadsheet",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW YORK · FEDERAL HALL · JAMES MADISON",
+			"TWELVE ARTICLES PROPOSED · TEN RATIFIED 15 DECEMBER 1791"
+		],
+		"counter": {
+			"value": "10 of 12",
+			"label": "articles ratified in 1791"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Bill of Rights: A Transcription",
+			"container": "America's Founding Documents",
+			"publisher": "National Archives and Records Administration",
+			"url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+			"accessed": "2026-10-03",
+			"note": "The 1789 joint resolution's twelve articles, and the ten as ratified; the First and Fourth are quoted from it"
+		},
+		{
+			"kind": "web",
+			"title": "The Bill of Rights: How Did it Happen?",
+			"container": "America's Founding Documents",
+			"publisher": "National Archives and Records Administration",
+			"url": "https://www.archives.gov/founding-docs/bill-of-rights/how-did-it-happen",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "The Bill of Rights: How Was it Made?",
+			"container": "America's Founding Documents",
+			"publisher": "National Archives and Records Administration",
+			"url": "https://www.archives.gov/founding-docs/bill-of-rights/how-was-it-made",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "The Constitution: Amendments 11–27",
+			"container": "America's Founding Documents",
+			"publisher": "National Archives and Records Administration",
+			"url": "https://www.archives.gov/founding-docs/amendments-11-27",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "Press Kits: Charters of Freedom Re-encasement Project",
+			"publisher": "National Archives and Records Administration",
+			"url": "https://www.archives.gov/press/press-kits/charters.html",
+			"accessed": "2026-10-03",
+			"note": "Iron gall ink on parchment; the argon-filled encasements"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Speech in the House of Representatives, 8 June 1789",
+			"authors": [
+				{
+					"family": "Madison",
+					"given": "James"
+				}
+			],
+			"container": "The Founders' Constitution",
+			"editors": [
+				{
+					"family": "Kurland",
+					"given": "Philip B."
+				},
+				{
+					"family": "Lerner",
+					"given": "Ralph"
+				}
+			],
+			"volume": "1",
+			"pages": "ch. 14, doc. 50",
+			"publisher": "University of Chicago Press",
+			"place": "Chicago",
+			"published": "1987",
+			"url": "https://press-pubs.uchicago.edu/founders/documents/v1ch14s50.html",
+			"accessed": "2026-10-03",
+			"note": "From The Papers of James Madison, 12:196–209"
+		},
+		{
+			"kind": "letter",
+			"title": "James Madison to Thomas Jefferson",
+			"authors": [
+				{
+					"family": "Madison",
+					"given": "James"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Jefferson",
+					"given": "Thomas"
+				}
+			],
+			"written": "1788-10-17",
+			"container": "The Founders' Constitution",
+			"volume": "1",
+			"pages": "ch. 14, doc. 47",
+			"publisher": "University of Chicago Press",
+			"published": "1987",
+			"url": "https://press-pubs.uchicago.edu/founders/documents/v1ch14s47.html",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "letter",
+			"title": "James Madison to George Eve",
+			"authors": [
+				{
+					"family": "Madison",
+					"given": "James"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Eve",
+					"given": "George"
+				}
+			],
+			"written": "1789-01-02",
+			"container": "The Founders' Constitution",
+			"volume": "1",
+			"pages": "ch. 14, doc. 48",
+			"publisher": "University of Chicago Press",
+			"published": "1987",
+			"url": "https://press-pubs.uchicago.edu/founders/documents/v1ch14s48.html",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "letter",
+			"title": "Thomas Jefferson to James Madison",
+			"authors": [
+				{
+					"family": "Jefferson",
+					"given": "Thomas"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Madison",
+					"given": "James"
+				}
+			],
+			"written": "1787-12-20",
+			"container": "The Founders' Constitution",
+			"volume": "1",
+			"pages": "ch. 14, doc. 30",
+			"publisher": "University of Chicago Press",
+			"published": "1987",
+			"url": "https://press-pubs.uchicago.edu/founders/documents/v1ch14s30.html",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Federalist No. 84",
+			"authors": [
+				{
+					"family": "Hamilton",
+					"given": "Alexander"
+				}
+			],
+			"container": "The Federalist Papers",
+			"publisher": "The Avalon Project, Yale Law School",
+			"published": "1788",
+			"url": "https://avalon.law.yale.edu/18th_century/fed84.asp",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "statute",
+			"title": "Bill of Rights",
+			"chapter": "2",
+			"code": {
+				"volume": "1",
+				"name": "W. & M. Sess. 2"
+			},
+			"published": "1689",
+			"container": "The Avalon Project",
+			"publisher": "Yale Law School",
+			"url": "https://avalon.law.yale.edu/17th_century/england.asp",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United States Bill of Rights",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_States_Bill_of_Rights&oldid=1373495643",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Twenty-seventh Amendment to the United States Constitution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Twenty-seventh_Amendment_to_the_United_States_Constitution&oldid=1357750483",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Incorporation of the Bill of Rights",
+			"url": "https://en.wikipedia.org/w/index.php?title=Incorporation_of_the_Bill_of_Rights&oldid=1371566638",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anti-Federalists",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anti-Federalists&oldid=1377875037",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Due process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Due_process&oldid=1373064623",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Barron v. Baltimore",
+			"url": "https://en.wikipedia.org/w/index.php?title=Barron_v._Baltimore&oldid=1375921109",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dred Scott v. Sandford",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dred_Scott_v._Sandford&oldid=1378024949",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "media",
+			"title": "Senate Revisions to House Proposed Amendments to the U.S. Constitution",
+			"url": "https://commons.wikimedia.org/wiki/File:Senate_Revisions_to_House_Proposed_Amendments_to_the_U.S._Constitution_-_DPLA_-_38dee369c6f314fbd7fd3825ad58842a_(page_1).jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "senate-revisions.jpg",
+			"authors": [
+				{
+					"name": "United States Senate"
+				}
+			],
+			"container": "Records of the U.S. Senate, National Archives (Center for Legislative Archives)",
+			"published": "1789-09-09"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/magna-carta",
+			"why": "The Fifth Amendment's \"due process of law\" descends from Magna Carta's \"law of the land\", restated in those words by an English statute of 1354."
+		},
+		{
+			"to": "chemistry/iron-gall-ink",
+			"why": "The Bill of Rights that Congress kept is written in iron gall ink on parchment, and lies in argon for the reason the ink's chemistry explains."
+		}
+	]
+}

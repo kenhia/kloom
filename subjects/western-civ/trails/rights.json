@@ -1,0 +1,16 @@
+{
+	"id": "rights",
+	"title": "The idea of rights",
+	"anchor": "magna-carta",
+	"spine": {
+		"segments": [
+			{
+				"id": "rights-seg",
+				"title": "Rights written down",
+				"labelKind": "date",
+				"palette": "broadsheet",
+				"frames": ["us-bill-of-rights", "vindication", "womens-suffrage"]
+			}
+		]
+	}
+}

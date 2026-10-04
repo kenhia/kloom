@@ -1,0 +1,56 @@
+{
+	"western-civ/us-bill-of-rights": [
+		["Constitution of the United States", "constitution-of-the-united-states"],
+		["George Mason", "george-mason"],
+		["Anti-Federalists", "anti-federalists"],
+		["Alexander Hamilton", "alexander-hamilton"],
+		["Thomas Jefferson", "thomas-jefferson"],
+		["James Madison", "james-madison"],
+		["Bill of Rights", "united-states-bill-of-rights"],
+		["George Washington", "george-washington"],
+		["Magna Carta", "magna-carta"],
+		["Bill of Rights 1689", "bill-of-rights-1689"],
+		["Virginia Declaration of Rights", "virginia-declaration-of-rights"],
+		["_Barron v. Baltimore_", "barron-v-baltimore"],
+		["_Dred Scott v. Sandford_", "dred-scott-v-sandford"],
+		["Fourteenth Amendment", "fourteenth-amendment-to-the-united-states-constitution"]
+	],
+	"western-civ/vindication": [
+		["Joseph Johnson", "joseph-johnson-publisher"],
+		["_A Vindication of the Rights of Woman_", "a-vindication-of-the-rights-of-woman"],
+		["Mary Wollstonecraft", "mary-wollstonecraft"],
+		["Edmund Burke", "edmund-burke"],
+		["_Reflections on the Revolution in France_", "reflections-on-the-revolution-in-france"],
+		["_A Vindication of the Rights of Men_", "a-vindication-of-the-rights-of-men"],
+		["Talleyrand", "charles-maurice-de-talleyrand-perigord"],
+		["William Godwin", "william-godwin"],
+		["Mary Shelley", "mary-shelley"],
+		[
+			"_Memoirs of the Author of A Vindication of the Rights of Woman_",
+			"memoirs-of-the-author-of-a-vindication-of-the-rights-of-woman"
+		],
+		["Millicent Garrett Fawcett", "millicent-fawcett"],
+		["Olympe de Gouges", "olympe-de-gouges"],
+		[
+			"_Declaration of the Rights of Woman and of the Female Citizen_",
+			"declaration-of-the-rights-of-woman-and-of-the-female-citizen"
+		]
+	],
+	"western-civ/womens-suffrage": [
+		["Seneca Falls", "seneca-falls-convention"],
+		["Elizabeth Cady Stanton", "elizabeth-cady-stanton"],
+		["Lucretia Mott", "lucretia-mott"],
+		["Declaration of Sentiments", "declaration-of-sentiments"],
+		["Frederick Douglass", "frederick-douglass"],
+		["Women's suffrage", "womens-suffrage"],
+		["Kate Sheppard", "kate-sheppard"],
+		["Emmeline Pankhurst", "emmeline-pankhurst"],
+		["Women's Social and Political Union", "womens-social-and-political-union"],
+		["Cat and Mouse Act", "prisoners-temporary-discharge-for-ill-health-act-1913"],
+		["Emily Wilding Davison", "emily-davison"],
+		["Susan B. Anthony", "susan-b-anthony"],
+		["Ida B. Wells", "ida-b-wells"],
+		["Nineteenth Amendment", "nineteenth-amendment-to-the-united-states-constitution"],
+		["Mary Eliza Mahoney", "mary-eliza-mahoney"]
+	]
+}
