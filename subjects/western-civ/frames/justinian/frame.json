@@ -1,0 +1,389 @@
+{
+	"id": "justinian",
+	"topic": "Justinian's code and Byzantium",
+	"position": {
+		"label": "AD 529–537",
+		"sort": 529
+	},
+	"scene": {
+		"headline": "We put the law in",
+		"accent": "ORDER.",
+		"palette": "porphyry",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CONSTANTINOPLE · JUSTINIAN · TRIBONIAN · THEODORA",
+			"CORPUS JURIS CIVILIS · HAGIA SOPHIA"
+		],
+		"counter": {
+			"value": "1 in 20",
+			"label": "of the old jurists' lines kept in the Digest, by our arithmetic"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/pantheon",
+			"why": "Hagia Sophia's dome stands on four piers and four pendentives where the Pantheon's stands on a solid drum of wall: two ways Roman builders put a dome over a room."
+		},
+		{
+			"to": "mathematics/apollonius-conics",
+			"why": "Eutocius of Ascalon, whose commentary kept the first four books of the Conics alive in Greek, dedicated it to Anthemius of Tralles, the geometer who designed Hagia Sophia."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Digest of Justinian, Volume 1",
+			"authors": [
+				{
+					"name": "Justinian I"
+				}
+			],
+			"translators": [
+				{
+					"family": "Monro",
+					"given": "Charles Henry"
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1904",
+			"url": "https://archive.org/details/digestofjustinia01monruoft",
+			"accessed": "2026-10-03",
+			"note": "The constitution Tanta (December 16, 533), sections 1, 10, 12 and 21, and Digest 1.1.10"
+		},
+		{
+			"kind": "book",
+			"title": "The Institutes of Justinian",
+			"authors": [
+				{
+					"name": "Justinian I"
+				}
+			],
+			"translators": [
+				{
+					"family": "Moyle",
+					"given": "J. B."
+				}
+			],
+			"edition": "5th ed.",
+			"publisher": "Clarendon Press",
+			"place": "Oxford",
+			"published": "1913",
+			"url": "https://www.gutenberg.org/ebooks/5983",
+			"accessed": "2026-10-03",
+			"note": "Book I, titles 1 and 3"
+		},
+		{
+			"kind": "book",
+			"title": "History of the Wars, Books I and II: The Persian War",
+			"authors": [
+				{
+					"name": "Procopius"
+				}
+			],
+			"translators": [
+				{
+					"family": "Dewing",
+					"given": "H. B."
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "William Heinemann",
+			"place": "London",
+			"published": "1914",
+			"url": "https://www.gutenberg.org/ebooks/16764",
+			"accessed": "2026-10-03",
+			"note": "The Nika riots and Theodora's speech, I.24; the plague in Constantinople, II.22–23"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Buildings",
+			"authors": [
+				{
+					"name": "Procopius"
+				}
+			],
+			"translators": [
+				{
+					"family": "Dewing",
+					"given": "H. B."
+				},
+				{
+					"family": "Downey",
+					"given": "Glanville"
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1940",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Buildings/1A*.html",
+			"accessed": "2026-10-03",
+			"note": "Hagia Sophia, I.1.22–78: the four piers, the arches and the \"four triangles\"; read in LacusCurtius's copy"
+		},
+		{
+			"kind": "web",
+			"title": "Eutocius of Ascalon",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"published": "1999-04",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eutocius/",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "Anthemius of Tralles",
+			"authors": [
+				{
+					"family": "O'Connor",
+					"given": "J. J."
+				},
+				{
+					"family": "Robertson",
+					"given": "E. F."
+				}
+			],
+			"container": "MacTutor History of Mathematics Archive",
+			"publisher": "University of St Andrews",
+			"published": "1999-04",
+			"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Anthemius/",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Justinian I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Justinian_I&oldid=1378015133",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Corpus Juris Civilis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Corpus_Juris_Civilis&oldid=1368278354",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Digest (Roman law)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Digest_(Roman_law)&oldid=1360640399",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tribonian",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tribonian&oldid=1368584096",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Hagia Sophia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hagia_Sophia&oldid=1377416690",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nika riots",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nika_riots&oldid=1372483923",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Procopius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Procopius&oldid=1375269074",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theodora (wife of Justinian I)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theodora_(wife_of_Justinian_I)&oldid=1377813020",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anthemius of Tralles",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anthemius_of_Tralles&oldid=1357030417",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isidore of Miletus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isidore_of_Miletus&oldid=1333553521",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isidore the Younger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isidore_the_Younger&oldid=1278411344",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-03-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plague of Justinian",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plague_of_Justinian&oldid=1375374597",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Byzantine Empire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Byzantine_Empire&oldid=1378142908",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Littera Florentina",
+			"url": "https://en.wikipedia.org/w/index.php?title=Littera_Florentina&oldid=1340048082",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Irnerius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Irnerius&oldid=1360108591",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-19"
+		},
+		{
+			"kind": "media",
+			"title": "Littera Florentina (Codex Florentinus), fol. 25v: Digest 1.5.1–4, on the status of persons",
+			"url": "https://commons.wikimedia.org/wiki/File:Florence,_Biblioteca_Medicea_Laurenziana_Ms_Littera_Florentina_(Codex_Florentinus)_fol._25v_Digest_discussing_that_all_men_are_either_free_or_slaves_1.5.1-4.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "digest-page.jpg",
+			"container": "Biblioteca Medicea Laurenziana, Florence",
+			"published": "550",
+			"circa": true
+		}
+	]
+}
