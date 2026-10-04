@@ -1,0 +1,250 @@
+{
+	"id": "glorious-revolution",
+	"topic": "The Glorious Revolution",
+	"position": {
+		"label": "AD 1688–1689",
+		"sort": 1688
+	},
+	"asOf": "2026-10-03",
+	"scene": {
+		"headline": "We read the king our",
+		"accent": "RIGHTS.",
+		"palette": "candle",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TORBAY · WHITEHALL · WILLIAM AND MARY",
+			"THE DECLARATION OF RIGHT · 13 FEBRUARY 1689"
+		],
+		"counter": {
+			"value": "13",
+			"label": "rights declared in the Bill of Rights"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/magna-carta",
+			"why": "The Bill of Rights presented itself as restating ancient liberties, in the tradition seventeenth-century lawyers had read into Magna Carta, and both bound the English Crown in writing and reached the US Bill of Rights."
+		}
+	],
+	"citations": [
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "Bill of Rights [1688]",
+			"chapter": "2",
+			"code": {
+				"volume": "1",
+				"name": "Will. & Mar. Sess. 2"
+			},
+			"published": "1689-12-16",
+			"container": "legislation.gov.uk",
+			"publisher": "The National Archives",
+			"url": "https://www.legislation.gov.uk/aep/WillandMarSess2/1/2",
+			"accessed": "2026-10-03",
+			"note": "The charges against James and the thirteen rights, quoted from the text in force"
+		},
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "An Act for Exempting their Majestyes Protestant Subjects dissenting from the Church of England from the Penalties of certaine Lawes",
+			"chapter": "18",
+			"code": {
+				"volume": "1",
+				"name": "Will. & Mar."
+			},
+			"published": "1689-05-24",
+			"container": "Statutes of the Realm, vol. 6, 1685–94",
+			"publisher": "British History Online",
+			"url": "https://www.british-history.ac.uk/statutes-realm/vol6/pp74-76",
+			"accessed": "2026-10-03",
+			"note": "The Toleration Act, as printed by the Record Commission in 1819"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Glorious Revolution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Glorious_Revolution&oldid=1377775481",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"title": "The History of England from the Accession of James the Second",
+			"volume": "2",
+			"authors": [
+				{
+					"family": "Macaulay",
+					"given": "Thomas Babington"
+				}
+			],
+			"place": "London",
+			"publisher": "Longman, Brown, Green, and Longmans",
+			"published": "1848",
+			"url": "https://www.gutenberg.org/ebooks/2439",
+			"accessed": "2026-10-03",
+			"note": "Read in Project Gutenberg's text; chapter 10 describes 13 February 1689"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "1688: The First Modern Revolution",
+			"authors": [
+				{
+					"family": "Knights",
+					"given": "Mark"
+				}
+			],
+			"container": "Reviews in History",
+			"number": "884",
+			"publisher": "Institute of Historical Research",
+			"published": "2010-03",
+			"url": "https://reviews.history.ac.uk/review/884/",
+			"accessed": "2026-10-03",
+			"note": "A review of Steve Pincus, 1688: The First Modern Revolution (Yale University Press, 2009)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bill of Rights 1689",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bill_of_Rights_1689&oldid=1370173259",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Toleration Act 1688",
+			"url": "https://en.wikipedia.org/w/index.php?title=Toleration_Act_1688&oldid=1366878994",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Convention Parliament (1689)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Convention_Parliament_(1689)&oldid=1367964029",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Williamite War in Ireland",
+			"url": "https://en.wikipedia.org/w/index.php?title=Williamite_War_in_Ireland&oldid=1376650085",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Massacre of Glencoe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Massacre_of_Glencoe&oldid=1372231433",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Whig history",
+			"url": "https://en.wikipedia.org/w/index.php?title=Whig_history&oldid=1372257436",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Two Treatises of Government",
+			"url": "https://en.wikipedia.org/w/index.php?title=Two_Treatises_of_Government&oldid=1378376975",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "The Virginia Declaration of Rights",
+			"container": "The Avalon Project",
+			"publisher": "Yale Law School, Lillian Goldman Law Library",
+			"published": "1776-06-12",
+			"url": "https://avalon.law.yale.edu/18th_century/virginia.asp",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "web",
+			"title": "The Bill of Rights: A Transcription",
+			"container": "America's Founding Documents",
+			"publisher": "National Archives",
+			"url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "media",
+			"title": "The Bill of Rights Ratified at the Revolution by King William, and Queen Mary, Previous to their Coronation",
+			"url": "https://commons.wikimedia.org/wiki/File:Samuel_Wale,_The_Bill_of_Rights_Ratified_at_the_Revolution_by_King_William,_and_Queen_Mary,_Previous_to_their_Coronation_(1783).jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "bill-of-rights-wale.jpg",
+			"authors": [
+				{
+					"family": "Wale",
+					"given": "Samuel"
+				}
+			],
+			"engravers": [
+				{
+					"name": "Carey"
+				}
+			],
+			"publisher": "Alexander Hogg",
+			"place": "London",
+			"published": "1783"
+		}
+	]
+}
