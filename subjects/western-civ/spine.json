@@ -9,9 +9,9 @@
 		},
 		{
 			"id": "antiquity",
-			"title": "Antiquity",
+			"title": "The ancient world",
 			"labelKind": "date",
-			"palette": "parchment",
+			"palette": "marble",
 			"frames": ["writing", "greek-inquiry", "eratosthenes", "pantheon"]
 		},
 		{
@@ -25,22 +25,28 @@
 			"id": "rebirth",
 			"title": "Rebirth",
 			"labelKind": "date",
-			"palette": "parchment",
-			"frames": [
-				"florence-dome",
-				"printing-press",
-				"erasmus-greek-nt",
-				"ninety-five-theses",
-				"voyages",
-				"shakespeare",
-				"royal-society"
-			]
+			"palette": "fresco",
+			"frames": ["florence-dome", "printing-press"]
+		},
+		{
+			"id": "reformation",
+			"title": "Reformation and new worlds",
+			"labelKind": "date",
+			"palette": "fresco",
+			"frames": ["erasmus-greek-nt", "ninety-five-theses", "voyages", "shakespeare"]
+		},
+		{
+			"id": "enlightenment",
+			"title": "Reason and revolution",
+			"labelKind": "date",
+			"palette": "candle",
+			"frames": ["royal-society"]
 		},
 		{
 			"id": "machines",
-			"title": "Machines and fields",
+			"title": "Machines and the masses",
 			"labelKind": "date",
-			"palette": "parchment",
+			"palette": "brick",
 			"frames": ["steam", "faraday-induction", "maxwell"]
 		},
 		{

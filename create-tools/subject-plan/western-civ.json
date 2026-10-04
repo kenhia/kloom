@@ -1,0 +1,638 @@
+{
+	"spine": {
+		"segments": [
+			{
+				"id": "myth",
+				"title": "Myth",
+				"labelKind": "category",
+				"palette": "night",
+				"frames": ["prometheus"]
+			},
+			{
+				"id": "antiquity",
+				"title": "The ancient world",
+				"labelKind": "date",
+				"palette": "marble",
+				"frames": [
+					"writing",
+					"hammurabi",
+					"hebrew-bible",
+					"athenian-democracy",
+					"greek-tragedy",
+					"socrates",
+					"greek-inquiry",
+					"alexander",
+					"eratosthenes",
+					"augustus",
+					"pantheon"
+				]
+			},
+			{
+				"id": "late-antiquity",
+				"title": "Late antiquity",
+				"labelKind": "date",
+				"palette": "porphyry",
+				"frames": ["early-christianity", "constantine", "fall-of-the-west", "justinian"]
+			},
+			{
+				"id": "middle-ages",
+				"title": "The long middle",
+				"labelKind": "date",
+				"palette": "parchment",
+				"frames": [
+					"scriptorium",
+					"house-of-wisdom",
+					"crusades",
+					"gothic-cathedral",
+					"magna-carta",
+					"aquinas",
+					"black-death"
+				]
+			},
+			{
+				"id": "rebirth",
+				"title": "Rebirth",
+				"labelKind": "date",
+				"palette": "fresco",
+				"frames": [
+					"humanism",
+					"renaissance-painting",
+					"florence-dome",
+					"printing-press",
+					"machiavelli"
+				]
+			},
+			{
+				"id": "reformation",
+				"title": "Reformation and new worlds",
+				"labelKind": "date",
+				"palette": "fresco",
+				"frames": [
+					"erasmus-greek-nt",
+					"ninety-five-theses",
+					"voyages",
+					"valladolid",
+					"shakespeare",
+					"westphalia"
+				]
+			},
+			{
+				"id": "enlightenment",
+				"title": "Reason and revolution",
+				"labelKind": "date",
+				"palette": "candle",
+				"frames": [
+					"royal-society",
+					"locke",
+					"encyclopedie",
+					"wealth-of-nations",
+					"american-revolution",
+					"abolition",
+					"french-revolution"
+				]
+			},
+			{
+				"id": "machines",
+				"title": "Machines and the masses",
+				"labelKind": "date",
+				"palette": "brick",
+				"frames": [
+					"steam",
+					"beethoven-ninth",
+					"faraday-induction",
+					"serial-novel",
+					"factory-city",
+					"unification",
+					"maxwell",
+					"scramble-for-africa"
+				]
+			},
+			{
+				"id": "modern",
+				"title": "The modern world",
+				"labelKind": "date",
+				"palette": "steel",
+				"frames": [
+					"rite-of-spring",
+					"great-war",
+					"second-world-war",
+					"holocaust",
+					"udhr",
+					"fall-of-the-wall"
+				]
+			},
+			{
+				"id": "code-and-cosmos",
+				"title": "Code and cosmos",
+				"labelKind": "date",
+				"palette": "night",
+				"frames": ["dna", "moon-landing", "jwst"]
+			}
+		]
+	},
+	"trails": [
+		{
+			"id": "measure",
+			"title": "The measure of things",
+			"anchor": "eratosthenes",
+			"spine": {
+				"segments": [
+					{
+						"id": "bodies",
+						"title": "Bodies and rods",
+						"labelKind": "date",
+						"palette": "parchment",
+						"frames": ["royal-cubit"]
+					},
+					{
+						"id": "earth-and-sky",
+						"title": "Earth and sky",
+						"labelKind": "date",
+						"palette": "parchment",
+						"frames": ["harrison-chronometer", "metre-survey"]
+					},
+					{
+						"id": "constants",
+						"title": "Constants",
+						"labelKind": "date",
+						"palette": "night",
+						"frames": ["si-redefinition"]
+					}
+				]
+			}
+		},
+		{
+			"id": "printing",
+			"title": "The printing press",
+			"anchor": "printing-press",
+			"spine": {
+				"segments": [
+					{
+						"id": "mainz",
+						"title": "Mainz",
+						"labelKind": "date",
+						"palette": "parchment",
+						"frames": ["gutenberg-bible"]
+					}
+				]
+			}
+		},
+		{
+			"id": "rome",
+			"title": "Rome, from Republic to Byzantium",
+			"anchor": "augustus",
+			"spine": {
+				"segments": [
+					{
+						"id": "republic",
+						"title": "The Republic and after",
+						"labelKind": "date",
+						"palette": "marble",
+						"frames": ["twelve-tables", "cicero", "fall-of-constantinople"]
+					}
+				]
+			}
+		},
+		{
+			"id": "revolutions",
+			"title": "Revolutions",
+			"anchor": "french-revolution",
+			"spine": {
+				"segments": [
+					{
+						"id": "revs",
+						"title": "1688 to 1848",
+						"labelKind": "date",
+						"palette": "candle",
+						"frames": ["glorious-revolution", "haitian-revolution", "revolutions-of-1848"]
+					}
+				]
+			}
+		},
+		{
+			"id": "rights",
+			"title": "The idea of rights",
+			"anchor": "magna-carta",
+			"spine": {
+				"segments": [
+					{
+						"id": "rights-seg",
+						"title": "Rights written down",
+						"labelKind": "date",
+						"palette": "broadsheet",
+						"frames": ["us-bill-of-rights", "vindication", "womens-suffrage"]
+					}
+				]
+			}
+		}
+	],
+	"owners": {},
+	"frames": {
+		"prometheus": {
+			"topic": "The myth of Prometheus",
+			"palette": "night"
+		},
+		"writing": {
+			"topic": "Cuneiform and the first writing",
+			"palette": "marble",
+			"sort": -3200
+		},
+		"hammurabi": {
+			"topic": "The Code of Hammurabi",
+			"palette": "marble",
+			"sort": -1753,
+			"part": "hand"
+		},
+		"hebrew-bible": {
+			"topic": "The Hebrew Bible",
+			"palette": "marble",
+			"sort": -587,
+			"part": "ant1"
+		},
+		"athenian-democracy": {
+			"topic": "Athenian democracy",
+			"palette": "marble",
+			"sort": -508,
+			"part": "ant1"
+		},
+		"greek-tragedy": {
+			"topic": "Aeschylus and Greek tragedy",
+			"palette": "marble",
+			"sort": -458,
+			"part": "ant1"
+		},
+		"socrates": {
+			"topic": "The trial of Socrates",
+			"palette": "marble",
+			"sort": -399,
+			"part": "ant2"
+		},
+		"greek-inquiry": {
+			"topic": "Greek natural philosophy",
+			"palette": "marble",
+			"sort": -360
+		},
+		"alexander": {
+			"topic": "Alexander and the Hellenistic world",
+			"palette": "marble",
+			"sort": -334,
+			"part": "ant2"
+		},
+		"eratosthenes": {
+			"topic": "Eratosthenes measures the Earth",
+			"palette": "marble",
+			"sort": -240
+		},
+		"augustus": {
+			"topic": "Augustus and the Roman Empire",
+			"palette": "marble",
+			"sort": -27,
+			"part": "ant2"
+		},
+		"pantheon": {
+			"topic": "The Pantheon and Roman concrete",
+			"palette": "marble",
+			"sort": 126
+		},
+		"early-christianity": {
+			"topic": "The rise of Christianity",
+			"palette": "porphyry",
+			"sort": 50,
+			"part": "late1"
+		},
+		"constantine": {
+			"topic": "Constantine and Christian Rome",
+			"palette": "porphyry",
+			"sort": 312,
+			"part": "late1"
+		},
+		"fall-of-the-west": {
+			"topic": "The fall of the Western Empire",
+			"palette": "porphyry",
+			"sort": 410,
+			"part": "late2"
+		},
+		"justinian": {
+			"topic": "Justinian's code and Byzantium",
+			"palette": "porphyry",
+			"sort": 529,
+			"part": "late2"
+		},
+		"scriptorium": {
+			"topic": "Monastic scriptoria",
+			"palette": "parchment",
+			"sort": 800
+		},
+		"house-of-wisdom": {
+			"topic": "Baghdad's House of Wisdom",
+			"palette": "parchment",
+			"sort": 830,
+			"part": "mid1"
+		},
+		"crusades": {
+			"topic": "The Crusades",
+			"palette": "parchment",
+			"sort": 1095,
+			"part": "mid1"
+		},
+		"gothic-cathedral": {
+			"topic": "The Gothic cathedral",
+			"palette": "parchment",
+			"sort": 1144,
+			"part": "mid2"
+		},
+		"magna-carta": {
+			"topic": "Magna Carta",
+			"palette": "parchment",
+			"sort": 1215
+		},
+		"aquinas": {
+			"topic": "Aquinas and the medieval university",
+			"palette": "parchment",
+			"sort": 1265,
+			"part": "mid2"
+		},
+		"black-death": {
+			"topic": "The Black Death",
+			"palette": "parchment",
+			"sort": 1347,
+			"part": "mid2"
+		},
+		"humanism": {
+			"topic": "Renaissance humanism",
+			"palette": "fresco",
+			"sort": 1341,
+			"part": "reb1"
+		},
+		"renaissance-painting": {
+			"topic": "Painting from Giotto to Michelangelo",
+			"palette": "fresco",
+			"sort": 1425,
+			"part": "reb1"
+		},
+		"florence-dome": {
+			"topic": "Brunelleschi's dome in Florence",
+			"palette": "fresco",
+			"sort": 1436
+		},
+		"printing-press": {
+			"topic": "Gutenberg's printing press",
+			"palette": "fresco",
+			"sort": 1440
+		},
+		"machiavelli": {
+			"topic": "Machiavelli's The Prince",
+			"palette": "fresco",
+			"sort": 1513,
+			"part": "reb1"
+		},
+		"erasmus-greek-nt": {
+			"topic": "Erasmus's Greek New Testament",
+			"palette": "fresco",
+			"sort": 1516
+		},
+		"ninety-five-theses": {
+			"topic": "Luther's Ninety-five Theses",
+			"palette": "fresco",
+			"sort": 1517
+		},
+		"voyages": {
+			"topic": "Magellan's circumnavigation",
+			"palette": "fresco",
+			"sort": 1522
+		},
+		"valladolid": {
+			"topic": "Conquest and the Valladolid debate",
+			"palette": "fresco",
+			"sort": 1550,
+			"part": "ref1"
+		},
+		"shakespeare": {
+			"topic": "Shakespeare's First Folio",
+			"palette": "fresco",
+			"sort": 1623
+		},
+		"westphalia": {
+			"topic": "The Peace of Westphalia",
+			"palette": "fresco",
+			"sort": 1648,
+			"part": "ref1"
+		},
+		"royal-society": {
+			"topic": "Philosophical Transactions",
+			"palette": "candle",
+			"sort": 1665
+		},
+		"locke": {
+			"topic": "Locke's Two Treatises",
+			"palette": "candle",
+			"sort": 1689,
+			"part": "enl1"
+		},
+		"encyclopedie": {
+			"topic": "Diderot's Encyclopédie",
+			"palette": "candle",
+			"sort": 1751,
+			"part": "enl1"
+		},
+		"wealth-of-nations": {
+			"topic": "Adam Smith's Wealth of Nations",
+			"palette": "candle",
+			"sort": 1776,
+			"part": "enl1"
+		},
+		"american-revolution": {
+			"topic": "The American Revolution",
+			"palette": "candle",
+			"sort": 1776,
+			"part": "enl2"
+		},
+		"abolition": {
+			"topic": "The abolition of slavery",
+			"palette": "candle",
+			"sort": 1787,
+			"part": "enl2"
+		},
+		"french-revolution": {
+			"topic": "The French Revolution",
+			"palette": "candle",
+			"sort": 1789,
+			"part": "enl2"
+		},
+		"steam": {
+			"topic": "Watt's steam engine",
+			"palette": "brick",
+			"sort": 1776
+		},
+		"beethoven-ninth": {
+			"topic": "Beethoven's Ninth Symphony",
+			"palette": "brick",
+			"sort": 1824,
+			"part": "ind1"
+		},
+		"faraday-induction": {
+			"topic": "Faraday's electromagnetic induction",
+			"palette": "brick",
+			"sort": 1831
+		},
+		"serial-novel": {
+			"topic": "Dickens and the serial novel",
+			"palette": "brick",
+			"sort": 1836,
+			"part": "ind1"
+		},
+		"factory-city": {
+			"topic": "The factory and the industrial city",
+			"palette": "brick",
+			"sort": 1845,
+			"part": "ind1"
+		},
+		"unification": {
+			"topic": "Nationalism and unification",
+			"palette": "brick",
+			"sort": 1861,
+			"part": "ind2"
+		},
+		"maxwell": {
+			"topic": "Maxwell's electromagnetic theory",
+			"palette": "brick",
+			"sort": 1865
+		},
+		"scramble-for-africa": {
+			"topic": "The Scramble for Africa",
+			"palette": "brick",
+			"sort": 1884,
+			"part": "ind2"
+		},
+		"rite-of-spring": {
+			"topic": "The Rite of Spring",
+			"palette": "steel",
+			"sort": 1913,
+			"part": "mod1"
+		},
+		"great-war": {
+			"topic": "The First World War",
+			"palette": "steel",
+			"sort": 1914,
+			"part": "mod1"
+		},
+		"second-world-war": {
+			"topic": "The Second World War",
+			"palette": "steel",
+			"sort": 1939,
+			"part": "mod1"
+		},
+		"holocaust": {
+			"topic": "The Holocaust",
+			"palette": "steel",
+			"sort": 1941,
+			"part": "mod2"
+		},
+		"udhr": {
+			"topic": "The Universal Declaration",
+			"palette": "steel",
+			"sort": 1948,
+			"part": "mod2"
+		},
+		"fall-of-the-wall": {
+			"topic": "The fall of the Berlin Wall",
+			"palette": "steel",
+			"sort": 1989,
+			"part": "mod2"
+		},
+		"dna": {
+			"topic": "The double helix",
+			"palette": "night",
+			"sort": 1953
+		},
+		"moon-landing": {
+			"topic": "The Apollo 11 Moon landing",
+			"palette": "night",
+			"sort": 1969
+		},
+		"jwst": {
+			"topic": "The James Webb Space Telescope",
+			"palette": "night",
+			"sort": 2022
+		},
+		"royal-cubit": {
+			"topic": "The Egyptian royal cubit",
+			"palette": "parchment",
+			"sort": -2600
+		},
+		"harrison-chronometer": {
+			"topic": "Harrison's marine chronometer",
+			"palette": "parchment",
+			"sort": 1761
+		},
+		"metre-survey": {
+			"topic": "Surveying the meter",
+			"palette": "parchment",
+			"sort": 1792
+		},
+		"si-redefinition": {
+			"topic": "The 2019 redefinition of the SI",
+			"palette": "night",
+			"sort": 2019
+		},
+		"gutenberg-bible": {
+			"topic": "The Gutenberg Bible",
+			"palette": "parchment",
+			"sort": 1455
+		},
+		"twelve-tables": {
+			"topic": "The Twelve Tables",
+			"palette": "marble",
+			"sort": -450,
+			"part": "rome"
+		},
+		"cicero": {
+			"topic": "Cicero and the end of the Republic",
+			"palette": "marble",
+			"sort": -63,
+			"part": "rome"
+		},
+		"fall-of-constantinople": {
+			"topic": "The fall of Constantinople",
+			"palette": "marble",
+			"sort": 1453,
+			"part": "rome"
+		},
+		"glorious-revolution": {
+			"topic": "The Glorious Revolution",
+			"palette": "candle",
+			"sort": 1688,
+			"part": "revs"
+		},
+		"haitian-revolution": {
+			"topic": "The Haitian Revolution",
+			"palette": "candle",
+			"sort": 1791,
+			"part": "revs"
+		},
+		"revolutions-of-1848": {
+			"topic": "The revolutions of 1848",
+			"palette": "candle",
+			"sort": 1848,
+			"part": "revs"
+		},
+		"us-bill-of-rights": {
+			"topic": "The US Bill of Rights",
+			"palette": "broadsheet",
+			"sort": 1791,
+			"part": "rights"
+		},
+		"vindication": {
+			"topic": "Wollstonecraft's Vindication",
+			"palette": "broadsheet",
+			"sort": 1792,
+			"part": "rights"
+		},
+		"womens-suffrage": {
+			"topic": "Women's suffrage",
+			"palette": "broadsheet",
+			"sort": 1848,
+			"part": "rights"
+		}
+	}
+}
