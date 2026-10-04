@@ -1,0 +1,316 @@
+{
+	"id": "humanism",
+	"topic": "Renaissance humanism",
+	"position": {
+		"label": "AD 1341–1440",
+		"sort": 1341
+	},
+	"scene": {
+		"headline": "We wrote letters to the",
+		"accent": "DEAD.",
+		"palette": "fresco",
+		"illustration": "scene.svg",
+		"metadata": ["ROME · VERONA · ST GALL · FLORENCE", "PETRARCH · POGGIO · NICCOLI · VALLA"],
+		"counter": {
+			"value": "800",
+			"label": "manuscripts in Niccoli's library"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/scriptorium",
+			"why": "The humanists' new book hand was a revival of the Caroline minuscule of Charlemagne's scribes, which they took for ancient Roman writing, and the oldest copy of Lucretius they recovered came from a Carolingian scriptorium."
+		},
+		{
+			"to": "western-civ/erasmus-greek-nt",
+			"why": "Erasmus learned Greek from the grammar Chrysoloras brought to Florence, and his collation of manuscripts to recover the original text was the humanists' method turned on the New Testament."
+		},
+		{
+			"to": "chemistry/four-elements",
+			"why": "The atomists' own books are lost; their atoms and void reached the Renaissance chiefly through Lucretius's poem, which Poggio Bracciolini found in a German monastery in 1417."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Petrarch's Letters to Classical Authors",
+			"authors": [
+				{
+					"name": "Petrarch"
+				}
+			],
+			"translators": [
+				{
+					"family": "Cosenza",
+					"given": "Mario Emilio"
+				}
+			],
+			"publisher": "University of Chicago Press",
+			"place": "Chicago",
+			"published": "1910",
+			"url": "https://www.gutenberg.org/ebooks/47859",
+			"note": "The letters to Cicero (Fam. XXIV.3) and Livy; Poggio's letter to Guarino of 16 December 1416 is translated in the notes",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Treatise of Lorenzo Valla on the Donation of Constantine",
+			"authors": [
+				{
+					"family": "Valla",
+					"given": "Lorenzo"
+				}
+			],
+			"translators": [
+				{
+					"family": "Coleman",
+					"given": "Christopher B."
+				}
+			],
+			"publisher": "Yale University Press",
+			"place": "New Haven",
+			"published": "1922",
+			"url": "https://archive.org/details/treatiseoflorenz00valluoft",
+			"note": "Latin text and translation; Coleman's introduction lists the Donation's eighth-century words",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Renaissance humanism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Renaissance_humanism&oldid=1378094952",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Petrarch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Petrarch&oldid=1374832419",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Poggio Bracciolini",
+			"url": "https://en.wikipedia.org/w/index.php?title=Poggio_Bracciolini&oldid=1375121876",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "De rerum natura",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_rerum_natura&oldid=1376876978",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lorenzo Valla",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lorenzo_Valla&oldid=1378085190",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Donation of Constantine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Donation_of_Constantine&oldid=1377848193",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Manuel Chrysoloras",
+			"url": "https://en.wikipedia.org/w/index.php?title=Manuel_Chrysoloras&oldid=1359663533",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Niccolò de' Niccoli",
+			"url": "https://en.wikipedia.org/w/index.php?title=Niccol%C3%B2_de'_Niccoli&oldid=1376899617",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Humanist minuscule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Humanist_minuscule&oldid=1364931402",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "House of Medici",
+			"url": "https://en.wikipedia.org/w/index.php?title=House_of_Medici&oldid=1376138571",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Swerve",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Swerve&oldid=1323186658",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Civilization of the Renaissance in Italy",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Civilization_of_the_Renaissance_in_Italy&oldid=1335421224",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Simone Martini",
+			"url": "https://en.wikipedia.org/w/index.php?title=Simone_Martini&oldid=1345142672",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-24"
+		},
+		{
+			"kind": "book",
+			"title": "The Civilisation of the Renaissance in Italy",
+			"authors": [
+				{
+					"family": "Burckhardt",
+					"given": "Jacob"
+				}
+			],
+			"translators": [
+				{
+					"family": "Middlemore",
+					"given": "S. G. C."
+				}
+			],
+			"publisher": "George Allen & Unwin",
+			"place": "London",
+			"url": "https://www.gutenberg.org/ebooks/2074",
+			"note": "Middlemore's translation of 1878, read in Project Gutenberg's text of a later printing",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "The Renaissance of the Twelfth Century",
+			"authors": [
+				{
+					"family": "Haskins",
+					"given": "Charles Homer"
+				}
+			],
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1927",
+			"url": "https://archive.org/details/renaissanceoftw00char",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "media",
+			"title": "Petrarch's Virgil, title page",
+			"url": "https://commons.wikimedia.org/wiki/File:Simone_Martini_-_Petrarch%27s_Virgil,_title_page_-_WGA21445.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "petrarch-virgil.jpg",
+			"authors": [
+				{
+					"family": "Martini",
+					"given": "Simone"
+				}
+			],
+			"container": "Biblioteca Ambrosiana, Milan, A 79 inf.",
+			"published": "1336",
+			"circa": true
+		}
+	]
+}

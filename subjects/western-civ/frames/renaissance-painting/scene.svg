@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 250 L130 140"/>
+		<path pathLength="1" d="M56.7 250 L130 140"/>
+		<path pathLength="1" d="M93.3 250 L130 140"/>
+		<path pathLength="1" d="M130 250 L130 140"/>
+		<path pathLength="1" d="M166.7 250 L130 140"/>
+		<path pathLength="1" d="M203.3 250 L130 140"/>
+		<path pathLength="1" d="M240 250 L130 140"/>
+		<path pathLength="1" d="M20 140 L240 140"/>
+		<path pathLength="1" d="M262 195 L396.3 195"/>
+		<path pathLength="1" d="M262 195 L335.3 250"/>
+		<path pathLength="1" d="M262 195 L353.7 250"/>
+		<path pathLength="1" d="M262 195 L372 250"/>
+		<path pathLength="1" d="M262 195 L390.3 250"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M20 40 L240 40 L240 250 L20 250 Z"/>
+		<path pathLength="1" d="M47.5 222.5 L212.5 222.5"/>
+		<path pathLength="1" d="M64 206 L196 206"/>
+		<path pathLength="1" d="M75 195 L185 195"/>
+		<path pathLength="1" d="M82.9 187.1 L177.1 187.1"/>
+		<path pathLength="1" d="M88.8 181.2 L171.2 181.2"/>
+		<path pathLength="1" d="M93.3 176.7 L166.7 176.7"/>
+		<path pathLength="1" d="M97 173 L163 173"/>
+		<path pathLength="1" d="M100 170 L160 170"/>
+		<path pathLength="1" d="M102.5 167.5 L157.5 167.5"/>
+		<path pathLength="1" d="M104.6 165.4 L155.4 165.4"/>
+		<path pathLength="1" d="M258 250 L396.3 250"/>
+		<path pathLength="1" d="M317 250 L317 181"/>
+		<path pathLength="1" d="M262 250 L262 195"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M20 250 L240 140"/>
+		<path pathLength="1" d="M127.5 140 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M237.5 140 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M313 236.2 L321 236.2"/>
+		<path pathLength="1" d="M313 228 L321 228"/>
+		<path pathLength="1" d="M313 222.5 L321 222.5"/>
+		<path pathLength="1" d="M313 218.6 L321 218.6"/>
+		<path pathLength="1" d="M20 250 L20 255"/>
+		<path pathLength="1" d="M56.7 250 L56.7 255"/>
+		<path pathLength="1" d="M93.3 250 L93.3 255"/>
+		<path pathLength="1" d="M130 250 L130 255"/>
+		<path pathLength="1" d="M166.7 250 L166.7 255"/>
+		<path pathLength="1" d="M203.3 250 L203.3 255"/>
+		<path pathLength="1" d="M240 250 L240 255"/>
+		<path pathLength="1" d="M317 250 L317 254"/>
+		<path pathLength="1" d="M335.3 250 L335.3 254"/>
+		<path pathLength="1" d="M353.7 250 L353.7 254"/>
+		<path pathLength="1" d="M372 250 L372 254"/>
+		<path pathLength="1" d="M390.3 250 L390.3 254"/>
+		<path pathLength="1" d="M259.5 195 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="130" y="134" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CENTRIC POINT</text>
+		<text x="236" y="132" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DISTANCE</text>
+		<text x="130" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GROUND LINE · 6 BRACCIA</text>
+		<text x="130" y="34" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE WINDOW</text>
+		<text x="260" y="187" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EYE</text>
+		<text x="319" y="177" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PICTURE</text>
+		<text x="330" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SIDE · 1/2</text>
+	</g>
+</svg>

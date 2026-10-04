@@ -45,7 +45,13 @@
 			"title": "Rebirth",
 			"labelKind": "date",
 			"palette": "fresco",
-			"frames": ["florence-dome", "printing-press"]
+			"frames": [
+				"humanism",
+				"renaissance-painting",
+				"florence-dome",
+				"printing-press",
+				"machiavelli"
+			]
 		},
 		{
 			"id": "reformation",

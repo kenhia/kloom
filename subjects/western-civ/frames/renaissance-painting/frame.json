@@ -1,0 +1,368 @@
+{
+	"id": "renaissance-painting",
+	"topic": "Painting from Giotto to Michelangelo",
+	"position": {
+		"label": "AD 1305–1512",
+		"sort": 1425
+	},
+	"scene": {
+		"headline": "We painted through a",
+		"accent": "WINDOW.",
+		"palette": "fresco",
+		"illustration": "scene.svg",
+		"metadata": ["PADUA · FLORENCE · ROME", "GIOTTO · MASACCIO · ALBERTI · MICHELANGELO"],
+		"counter": {
+			"value": "570",
+			"label": "days of fresco on the Sistine ceiling, about"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/perspective",
+			"why": "Alberti's window, the centric point and the diagonal that proves the floor are the painter's side of the construction whose geometry Desargues and Poncelet turned into projective geometry."
+		},
+		{
+			"to": "western-civ/florence-dome",
+			"why": "Brunelleschi, who raised Florence's dome without centering, is credited with the first demonstration of linear perspective, and Alberti dedicated On Painting to him."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Of Painting",
+			"authors": [
+				{
+					"family": "Alberti",
+					"given": "Leon Battista"
+				}
+			],
+			"translators": [
+				{
+					"family": "Leoni",
+					"given": "James"
+				}
+			],
+			"container": "The Architecture of Leon Batista Alberti, in Ten Books; Of Painting, in Three Books; and of Statuary, in One Book",
+			"place": "London",
+			"published": "1755",
+			"url": "https://archive.org/details/bim_eighteenth-century_the-architecture-of-leon_alberti-leone-battista_1755/page/n403",
+			"accessed": "2026-10-03",
+			"note": "Book I: the window, the centric point and the proof by the diagonal; Leoni translated Cosimo Bartoli's Italian"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Book of the Art of Cennino Cennini",
+			"authors": [
+				{
+					"family": "Cennini",
+					"given": "Cennino"
+				}
+			],
+			"translators": [
+				{
+					"family": "Herringham",
+					"given": "Christiana J."
+				}
+			],
+			"publisher": "George Allen",
+			"place": "London",
+			"published": "1899",
+			"url": "https://archive.org/details/bookartcenninoc00herrgoog",
+			"note": "Chapter 104 on the apprenticeship; the day's plaster in fresco",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sistine Chapel ceiling",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sistine_Chapel_ceiling&oldid=1377789359",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Scrovegni Chapel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Scrovegni_Chapel&oldid=1368418246",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Giotto",
+			"url": "https://en.wikipedia.org/w/index.php?title=Giotto&oldid=1376363402",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Holy Trinity (Masaccio)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Holy_Trinity_(Masaccio)&oldid=1377514947",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "De pictura",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_pictura&oldid=1352291326",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lives of the Most Excellent Painters, Sculptors, and Architects",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lives_of_the_Most_Excellent_Painters,_Sculptors,_and_Architects&oldid=1360021632",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fresco",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fresco&oldid=1372789331",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ultramarine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ultramarine&oldid=1377885679",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blue in culture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blue_in_culture&oldid=1368481828",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leonardo da Vinci",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leonardo_da_Vinci&oldid=1377616629",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cennino Cennini",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cennino_Cennini&oldid=1371501001",
+			"accessed": "2026-10-03",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "book",
+			"title": "Lives of the Most Eminent Painters, Sculptors and Architects, vol. 9",
+			"authors": [
+				{
+					"family": "Vasari",
+					"given": "Giorgio"
+				}
+			],
+			"translators": [
+				{
+					"family": "de Vere",
+					"given": "Gaston du C."
+				}
+			],
+			"publisher": "Medici Society",
+			"place": "London",
+			"published": "1915",
+			"url": "https://www.gutenberg.org/ebooks/32362",
+			"note": "The life of Michelangelo; volume 1 (1912) has Giotto's circle and volume 2 (1912) Masaccio's Trinity",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "Lives of the Most Eminent Painters, Sculptors and Architects, vol. 2",
+			"authors": [
+				{
+					"family": "Vasari",
+					"given": "Giorgio"
+				}
+			],
+			"translators": [
+				{
+					"family": "de Vere",
+					"given": "Gaston du C."
+				}
+			],
+			"publisher": "Medici Society",
+			"place": "London",
+			"published": "1912",
+			"url": "https://www.gutenberg.org/ebooks/25759",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "Lives of the Most Eminent Painters, Sculptors and Architects, vol. 1",
+			"authors": [
+				{
+					"family": "Vasari",
+					"given": "Giorgio"
+				}
+			],
+			"translators": [
+				{
+					"family": "de Vere",
+					"given": "Gaston du C."
+				}
+			],
+			"publisher": "Macmillan and the Medici Society",
+			"place": "London",
+			"published": "1912",
+			"url": "https://www.gutenberg.org/ebooks/25326",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "The Divine Comedy",
+			"authors": [
+				{
+					"family": "Alighieri",
+					"given": "Dante"
+				}
+			],
+			"translators": [
+				{
+					"family": "Longfellow",
+					"given": "Henry Wadsworth"
+				}
+			],
+			"url": "https://www.gutenberg.org/ebooks/1004",
+			"note": "Purgatorio XI, 94–96",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "The Sonnets of Michael Angelo Buonarroti and Tommaso Campanella",
+			"authors": [
+				{
+					"family": "Buonarroti",
+					"given": "Michelangelo"
+				}
+			],
+			"translators": [
+				{
+					"family": "Symonds",
+					"given": "John Addington"
+				}
+			],
+			"publisher": "Smith, Elder, & Co.",
+			"place": "London",
+			"published": "1878",
+			"url": "https://archive.org/details/sonnetsofmichael00michrich",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "book",
+			"title": "Literary Remains of Albrecht Dürer",
+			"authors": [
+				{
+					"family": "Conway",
+					"given": "William Martin"
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "1889",
+			"url": "https://archive.org/details/literaryremainso00conw",
+			"note": "Dürer's letters to Jakob Heller, 1508",
+			"accessed": "2026-10-03"
+		},
+		{
+			"kind": "media",
+			"title": "Holy Trinity",
+			"url": "https://commons.wikimedia.org/wiki/File:Masaccio_-_Trinity_-_WGA14208.jpg",
+			"accessed": "2026-10-03",
+			"licence": "Public domain",
+			"file": "masaccio-trinity.jpg",
+			"authors": [
+				{
+					"name": "Masaccio"
+				}
+			],
+			"container": "Santa Maria Novella, Florence",
+			"published": "1426",
+			"circa": true
+		}
+	]
+}

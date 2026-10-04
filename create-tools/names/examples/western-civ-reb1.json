@@ -1,0 +1,51 @@
+{
+	"western-civ/humanism": [
+		["Petrarch", "petrarch"],
+		["Cicero", "cicero"],
+		["Renaissance humanism", "renaissance-humanism"],
+		["Florence", "florence"],
+		["Coluccio Salutati", "coluccio-salutati"],
+		["Manuel Chrysoloras", "manuel-chrysoloras"],
+		["Poggio Bracciolini", "poggio-bracciolini"],
+		["Lucretius", "lucretius"],
+		["_De rerum natura_", "de-rerum-natura"],
+		["Niccolò de' Niccoli", "niccolo-de-niccoli"],
+		["House of Medici", "house-of-medici"],
+		["Humanist minuscule", "humanist-minuscule"],
+		["Donation of Constantine", "donation-of-constantine"],
+		["Lorenzo Valla", "lorenzo-valla"],
+		["Jacob Burckhardt", "jacob-burckhardt"]
+	],
+	"western-civ/renaissance-painting": [
+		["Giotto", "giotto"],
+		["Scrovegni Chapel", "scrovegni-chapel"],
+		["Filippo Brunelleschi", "filippo-brunelleschi"],
+		["Masaccio", "masaccio"],
+		["Holy Trinity", "holy-trinity-masaccio"],
+		["Giorgio Vasari", "giorgio-vasari"],
+		["Leon Battista Alberti", "leon-battista-alberti"],
+		["_De pictura_", "de-pictura"],
+		["Cennino Cennini", "cennino-cennini"],
+		["fresco", "fresco"],
+		["Ultramarine", "ultramarine"],
+		["Leonardo da Vinci", "leonardo-da-vinci"],
+		["Michelangelo", "michelangelo"],
+		["Sistine Chapel ceiling", "sistine-chapel-ceiling"],
+		["The Creation of Adam", "the-creation-of-adam"]
+	],
+	"western-civ/machiavelli": [
+		["Republic of Florence", "republic-of-florence"],
+		["Niccolò Machiavelli", "niccolo-machiavelli"],
+		["House of Medici", "house-of-medici"],
+		["Pope Leo X", "pope-leo-x"],
+		["Francesco Vettori", "francesco-vettori"],
+		["The Prince", "the-prince"],
+		["Cicero", "cicero"],
+		["Cesare Borgia", "cesare-borgia"],
+		["Pope Alexander VI", "pope-alexander-vi"],
+		["_Discourses on Livy_", "discourses-on-livy"],
+		["Livy", "livy"],
+		["Index of Forbidden Books", "index-librorum-prohibitorum"],
+		["Jean-Jacques Rousseau", "jean-jacques-rousseau"]
+	]
+}
