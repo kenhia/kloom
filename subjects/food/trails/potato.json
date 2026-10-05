@@ -1,0 +1,16 @@
+{
+	"id": "potato",
+	"title": "The potato",
+	"anchor": "columbian-exchange",
+	"spine": {
+		"segments": [
+			{
+				"id": "potato-seg",
+				"title": "From the Andes to the chip",
+				"labelKind": "date",
+				"palette": "hayrick",
+				"frames": ["chuno", "parmentier", "potato-blight", "frozen-fries"]
+			}
+		]
+	}
+}

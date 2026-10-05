@@ -1,0 +1,36 @@
+{
+	"title": "Uses of the United States potato crop, 2025",
+	"description": "Bar chart of the main uses of the 2025 United States potato crop, in millions of hundredweight: frozen french fries 159.7, fresh table stock 101.5, chips and shoestrings 58.3, dehydrated products 42.1, seed sold 18.7 and other frozen products 13.4, out of total production of 417.6. Data: USDA National Agricultural Statistics Service, Potatoes 2025 Summary, September 2026.",
+	"heading": "2025 US POTATO CROP · MILLION CWT",
+	"unit": "",
+	"axis": {
+		"max": 180,
+		"ticks": [
+			[0, "0"],
+			[60, "60"],
+			[120, "120"],
+			[180, "180"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Fries",
+			"sublabel": "frozen",
+			"value": 159.7,
+			"display": "159.7",
+			"highlight": true
+		},
+		{ "label": "Table", "sublabel": "fresh", "value": 101.5, "display": "101.5" },
+		{ "label": "Chips", "sublabel": "", "value": 58.3 },
+		{ "label": "Dried", "sublabel": "", "value": 42.1 },
+		{ "label": "Seed", "sublabel": "sold", "value": 18.7 },
+		{ "label": "Other", "sublabel": "frozen", "value": 13.4 }
+	],
+	"barWidth": 48,
+	"width": 480,
+	"source": {
+		"container": "USDA National Agricultural Statistics Service, Potatoes 2025 Summary (September 2026)",
+		"url": "https://esmis.nal.usda.gov/concern/publications/fx719m44h",
+		"accessed": "2026-10-04"
+	}
+}

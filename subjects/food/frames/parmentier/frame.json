@@ -1,0 +1,250 @@
+{
+	"id": "parmentier",
+	"topic": "Parmentier and the potato in Europe",
+	"position": {
+		"label": "1772",
+		"sort": 1772
+	},
+	"scene": {
+		"headline": "Europe had to be",
+		"accent": "PERSUADED.",
+		"palette": "hayrick",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PRUSSIA · BESANÇON · PARIS · LES SABLONS",
+			"PARMENTIER · FREDERICK II · ADAM SMITH"
+		],
+		"counter": {
+			"value": "3×",
+			"label": "food per acre, potatoes over wheat, by Adam Smith's reckoning"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/columbian-exchange",
+			"why": "Nunn and Qian's estimate that the potato accounts for 12 percent of the growth in Old World population measures the gain Smith and Parmentier argued for: more people fed from the same land."
+		},
+		{
+			"to": "food/irish-famine",
+			"why": "Smith held up potato-fed Irish laborers as proof of the root's goodness; seventy years later the dependence of Ireland's poorest third on it turned one disease into famine."
+		},
+		{
+			"to": "western-civ/wealth-of-nations",
+			"why": "The Wealth of Nations reckoned that an acre of potatoes gave three times the solid food of an acre of wheat, the arithmetic behind Europe's eighteenth-century campaigns for the potato."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Examen chymique des pommes de terre",
+			"authors": [
+				{
+					"family": "Parmentier",
+					"given": "Antoine-Augustin"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Didot le jeune",
+			"published": "1773",
+			"language": "fr",
+			"url": "https://archive.org/details/examenchymiqued00parmgoog/page/n217",
+			"accessed": "2026-10-04",
+			"note": "His wartime diet of potatoes, pp. 184–185"
+		},
+		{
+			"kind": "book",
+			"title": "Mémoire qui a remporté le prix des arts, au jugement de l'Académie des sciences, belles-lettres et arts de Besançon",
+			"authors": [
+				{
+					"family": "Parmentier",
+					"given": "Antoine-Augustin"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Knapen & Delaguette",
+			"published": "1773",
+			"language": "fr",
+			"url": "https://archive.org/details/BIUSante_pharma_012200x01",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Observations on Such Nutritive Vegetables as May Be Substituted in the Place of Ordinary Food, in Times of Scarcity",
+			"authors": [
+				{
+					"family": "Parmentier",
+					"given": "Antoine-Augustin"
+				}
+			],
+			"place": "London",
+			"publisher": "J. Murray",
+			"published": "1783",
+			"url": "https://archive.org/details/observationsonsu00parm",
+			"accessed": "2026-10-04",
+			"note": "An English translation of his prize essay as enlarged in 1781; the officer's ruse is on pp. 8–9"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Traité sur la culture et les usages des pommes de terre, de la patate, et du topinambour",
+			"authors": [
+				{
+					"family": "Parmentier",
+					"given": "Antoine-Augustin"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Barrois l'aîné",
+			"published": "1789",
+			"language": "fr",
+			"url": "https://archive.org/details/b28767329",
+			"accessed": "2026-10-04",
+			"note": "Les Sablons and Grenelle, pp. 6–7"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kartoffelbefehl",
+			"url": "https://de.wikipedia.org/w/index.php?title=Kartoffelbefehl&oldid=270862552",
+			"language": "de",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"title": "Sammlung der in dem souverainen Herzogthum Schlesien und dessen incorporirten Grafschaft Glatz publicirten Edicte, Patente, Ordnungen, Band 6",
+			"authors": [
+				{
+					"family": "Lipius",
+					"given": "Andreas Martin"
+				}
+			],
+			"place": "Breslau",
+			"publisher": "Korn und Gambert",
+			"published": "1763",
+			"language": "de",
+			"citedIn": "Kartoffelbefehl",
+			"note": "Prints the circular of 24 March 1756, p. 350"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "War of the Bavarian Succession",
+			"url": "https://en.wikipedia.org/w/index.php?title=War_of_the_Bavarian_Succession&oldid=1371468535",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antoine-Augustin Parmentier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antoine-Augustin_Parmentier&oldid=1373409565",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antoine Parmentier",
+			"url": "https://fr.wikipedia.org/w/index.php?title=Antoine_Parmentier&oldid=237376890",
+			"language": "fr",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-27"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Promoting Potatoes in Eighteenth-Century Europe",
+			"authors": [
+				{
+					"family": "Earle",
+					"given": "Rebecca"
+				}
+			],
+			"container": "Eighteenth-Century Studies",
+			"volume": "51",
+			"issue": "2",
+			"pages": "147–162",
+			"published": "2017",
+			"doi": "10.1353/ecs.2017.0057",
+			"url": "https://wrap.warwick.ac.uk/89714/",
+			"accessed": "2026-10-04",
+			"note": "Read in the author's accepted version"
+		},
+		{
+			"kind": "article",
+			"title": "De la vie et des ouvrages d'Antoine-Augustin Parmentier",
+			"authors": [
+				{
+					"family": "Virey",
+					"given": "Julien-Joseph"
+				}
+			],
+			"container": "Bulletin de Pharmacie et des Sciences Accessoires",
+			"volume": "2",
+			"pages": "60–61",
+			"published": "1814",
+			"language": "fr",
+			"citedIn": "Promoting Potatoes in Eighteenth-Century Europe"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Adam"
+				}
+			],
+			"place": "London",
+			"publisher": "W. Strahan and T. Cadell",
+			"published": "1776",
+			"url": "https://www.gutenberg.org/ebooks/3300",
+			"accessed": "2026-10-04",
+			"note": "Book I, chapter XI, on the produce of potatoes and wheat"
+		},
+		{
+			"kind": "media",
+			"title": "Portrait d'Antoine Parmentier (1737–1813), agronome et philanthrope",
+			"url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Dumont_-_Portrait_d%27Antoine_Parmentier_(1737-1813),_agronome_et_philanthrope_-_P1504_-_Mus%C3%A9e_Carnavalet.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "parmentier.jpg",
+			"authors": [
+				{
+					"family": "Dumont",
+					"given": "François"
+				}
+			],
+			"published": "1812",
+			"container": "Musée Carnavalet, Paris"
+		}
+	]
+}
