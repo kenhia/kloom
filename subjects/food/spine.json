@@ -86,7 +86,15 @@
 			"title": "The table",
 			"labelKind": "date",
 			"palette": "linen",
-			"frames": ["supermarket", "fast-food", "julia-child", "ultra-processed"]
+			"frames": [
+				"restaurant",
+				"fannie-farmer",
+				"escoffier",
+				"supermarket",
+				"fast-food",
+				"julia-child",
+				"ultra-processed"
+			]
 		}
 	]
 }

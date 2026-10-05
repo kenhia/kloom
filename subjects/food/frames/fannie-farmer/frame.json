@@ -1,0 +1,237 @@
+{
+	"id": "fannie-farmer",
+	"topic": "Fannie Farmer's level measures",
+	"position": {
+		"label": "1896",
+		"sort": 1896
+	},
+	"scene": {
+		"headline": "She struck the cup",
+		"accent": "LEVEL.",
+		"palette": "linen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BOSTON · BOSTON COOKING SCHOOL · LITTLE, BROWN",
+			"FANNIE MERRITT FARMER · TIN CUP · CASE KNIFE"
+		],
+		"counter": {
+			"value": "3,000",
+			"label": "copies printed first, at her expense"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Boston Cooking-School Cook Book",
+			"authors": [
+				{
+					"family": "Farmer",
+					"given": "Fannie Merritt"
+				}
+			],
+			"place": "Boston",
+			"publisher": "Little, Brown, and Company",
+			"published": "1896",
+			"url": "https://archive.org/details/bostoncookingsc00collgoog",
+			"accessed": "2026-10-04",
+			"note": "How to Measure, pp. 27–29; the biscuit, p. 70"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Farmer, Fannie Merritt",
+			"container": "Feeding America: The Historic American Cookbook Project",
+			"publisher": "Michigan State University Libraries",
+			"url": "http://digital.lib.msu.edu/projects/cookbooks/html/authors/author_farmer.html",
+			"accessed": "2026-10-04",
+			"note": "Read in the Wayback Machine's copy of April 2010"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Mrs. Lincoln's Boston Cook Book: What to Do and What Not to Do in Cooking",
+			"authors": [
+				{
+					"family": "Lincoln",
+					"given": "Mary J."
+				}
+			],
+			"place": "Boston",
+			"publisher": "Roberts Brothers",
+			"published": "1884",
+			"url": "https://archive.org/details/b20416994",
+			"accessed": "2026-10-04",
+			"note": "Measuring, pp. 28–30"
+		},
+		{
+			"kind": "book",
+			"title": "American Cookery",
+			"authors": [
+				{
+					"family": "Simmons",
+					"given": "Amelia"
+				}
+			],
+			"place": "Hartford",
+			"publisher": "Hudson & Goodwin",
+			"published": "1796",
+			"url": "https://www.gutenberg.org/ebooks/12815",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "The Book of Household Management",
+			"authors": [
+				{
+					"family": "Beeton",
+					"given": "Isabella"
+				}
+			],
+			"place": "London",
+			"publisher": "S. O. Beeton",
+			"published": "1861",
+			"url": "https://www.gutenberg.org/ebooks/10136",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Food and Cookery for the Sick and Convalescent",
+			"authors": [
+				{
+					"family": "Farmer",
+					"given": "Fannie Merritt"
+				}
+			],
+			"place": "Boston",
+			"publisher": "Little, Brown, and Company",
+			"published": "1904",
+			"url": "https://archive.org/details/cu31924003510124",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Notes on Nursing: What It Is, and What It Is Not",
+			"authors": [
+				{
+					"family": "Nightingale",
+					"given": "Florence"
+				}
+			],
+			"published": "1859",
+			"url": "https://www.gutenberg.org/ebooks/12439",
+			"accessed": "2026-10-04",
+			"note": "Read in D. Appleton's New York printing of 1898"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fannie Farmer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fannie_Farmer&oldid=1372793277",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Boston Cooking-School Cook Book",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Boston_Cooking-School_Cook_Book&oldid=1366155760",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Boston Cooking School",
+			"url": "https://en.wikipedia.org/w/index.php?title=Boston_Cooking_School&oldid=1321601093",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mary Johnson Bailey Lincoln",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mary_Johnson_Bailey_Lincoln&oldid=1371394825",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isabella Beeton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isabella_Beeton&oldid=1376272313",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "American Cookery",
+			"url": "https://en.wikipedia.org/w/index.php?title=American_Cookery&oldid=1363935066",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-13"
+		},
+		{
+			"kind": "media",
+			"title": "Measuring-cups, with tablespoon and teaspoon",
+			"container": "The Boston Cooking-School Cook Book (1896), p. 28",
+			"url": "https://archive.org/details/bostoncookingsc00collgoog/page/n63",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "measuring-cups.jpg",
+			"published": "1896",
+			"note": "Published in the US in 1896"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/notes-on-nursing",
+			"why": "Fannie Farmer's book on cooking for the sick (1904) took its epigraph from Notes on Nursing, Nightingale's line that good sick cookery will save the digestion half its work."
+		},
+		{
+			"to": "nursing/licensure",
+			"why": "The first nurse registration act, North Carolina's of 1903, examined nurses in invalid cookery; Farmer's book of 1904 opened by saying invalid cookery should be the basis of every trained nurse's education."
+		},
+		{
+			"to": "western-civ/metre-survey",
+			"why": "Isabella Beeton's Book of Household Management (1861) pointed cooks to the French metric system, its meter one forty-millionth of a meridian, the length the meridian survey had measured."
+		}
+	]
+}
