@@ -1,0 +1,266 @@
+{
+	"id": "sugar-slavery",
+	"topic": "Sugar and slavery",
+	"position": {
+		"label": "1640s",
+		"sort": 1640
+	},
+	"scene": {
+		"headline": "Europe's sugar was grown in",
+		"accent": "BONDAGE.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": ["BARBADOS · BRAZIL · SAINT-DOMINGUE", "MILL · FIVE COPPERS · CURING HOUSE"],
+		"counter": {
+			"value": "12,500,000",
+			"label": "people carried out of Africa, 1501–1866"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A True & Exact History of the Island of Barbados",
+			"authors": [
+				{
+					"family": "Ligon",
+					"given": "Richard"
+				}
+			],
+			"place": "London",
+			"publisher": "Humphrey Moseley",
+			"published": "1657",
+			"doi": "10.5962/bhl.title.53639",
+			"url": "https://archive.org/details/trueexacthistory00ligo",
+			"accessed": "2026-10-04",
+			"note": "Servants and slaves are on pp. 43–44, sugar-making on pp. 84–92"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African",
+			"authors": [
+				{
+					"family": "Equiano",
+					"given": "Olaudah"
+				}
+			],
+			"place": "London",
+			"published": "1789",
+			"url": "https://www.gutenberg.org/ebooks/15399",
+			"accessed": "2026-10-04",
+			"note": "Read in Project Gutenberg's text; Barbados's sixteen years are in chapter 5"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of Barbados",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_Barbados&oldid=1368569649",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "The Columbian Exchange: A History of Disease, Food, and Ideas",
+			"authors": [
+				{
+					"family": "Nunn",
+					"given": "Nathan"
+				},
+				{
+					"family": "Qian",
+					"given": "Nancy"
+				}
+			],
+			"container": "Journal of Economic Perspectives",
+			"volume": "24",
+			"issue": "2",
+			"pages": "163–188",
+			"published": "2010",
+			"doi": "10.1257/jep.24.2.163",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Sweetness and Power: The Place of Sugar in Modern History",
+			"authors": [
+				{
+					"family": "Mintz",
+					"given": "Sidney W."
+				}
+			],
+			"place": "New York",
+			"publisher": "Viking",
+			"published": "1985",
+			"citedIn": "The Columbian Exchange: A History of Disease, Food, and Ideas"
+		},
+		{
+			"kind": "book",
+			"title": "Sweet Negotiations: Sugar, Slavery, and Plantation Agriculture in Early Barbados",
+			"authors": [
+				{
+					"family": "Menard",
+					"given": "Russell R."
+				}
+			],
+			"place": "Charlottesville",
+			"publisher": "University of Virginia Press",
+			"published": "2006",
+			"url": "https://openalex.org/W1707762395",
+			"read": "record",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "The Slave Trade and British Capital Formation in the Eighteenth Century: A Comment on the Williams Thesis",
+			"authors": [
+				{
+					"family": "Engerman",
+					"given": "Stanley L."
+				}
+			],
+			"container": "Business History Review",
+			"volume": "46",
+			"issue": "4",
+			"pages": "430–443",
+			"published": "1972",
+			"citedIn": "Capitalism and Slavery"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atlantic slave trade",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atlantic_slave_trade&oldid=1378375277",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of sugar",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_sugar&oldid=1373539292",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of São Tomé and Príncipe",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe&oldid=1354797193",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sugar plantations in the Caribbean",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sugar_plantations_in_the_Caribbean&oldid=1358072696",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Capitalism and Slavery",
+			"url": "https://en.wikipedia.org/w/index.php?title=Capitalism_and_Slavery&oldid=1341902916",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Ligon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Ligon&oldid=1357575413",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sidney Mintz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sidney_Mintz&oldid=1372512696",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "media",
+			"title": "The Superficies or Platt Forme of the Ingenio That Grinds or Squeezes the Canes Which Make the Sugar",
+			"authors": [
+				{
+					"family": "Ligon",
+					"given": "Richard"
+				}
+			],
+			"container": "Ligon, A True & Exact History of the Island of Barbados, Getty Research Institute copy, Internet Archive",
+			"published": "1657",
+			"url": "https://archive.org/details/trueexacthistory00ligo/page/n123",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"note": "Engraved plate published in London in 1657",
+			"file": "ingenio-plan.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/abolition",
+			"why": "Equiano, whose account of Barbados this frame quotes, was carried there on a slave ship; abolition's reading tells how his Narrative and a sugar boycott of some 300,000 people turned Britain against the trade."
+		},
+		{
+			"to": "western-civ/haitian-revolution",
+			"why": "Saint-Domingue grew about 40 percent of the sugar France and Britain imported in 1789, on a death rate that kept its planters buying Africans, until the enslaved rose there in 1791."
+		},
+		{
+			"to": "western-civ/wealth-of-nations",
+			"why": "Adam Smith judged slave labor the dearest of any, and said sugar and tobacco planting could afford the expense of it."
+		}
+	]
+}

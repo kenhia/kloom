@@ -1,0 +1,255 @@
+{
+	"id": "columbian-exchange",
+	"topic": "The Columbian Exchange",
+	"position": {
+		"label": "1493",
+		"sort": 1493
+	},
+	"scene": {
+		"headline": "The crops of two worlds were",
+		"accent": "SWAPPED.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HISPANIOLA · THE ATLANTIC · AFRO-EURASIA",
+			"MAIZE · POTATO · CASSAVA · WHEAT · SUGARCANE"
+		],
+		"counter": {
+			"value": "1 in 4",
+			"label": "of Old World growth, 1700–1900, by one estimate"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Columbian Exchange: A History of Disease, Food, and Ideas",
+			"authors": [
+				{
+					"family": "Nunn",
+					"given": "Nathan"
+				},
+				{
+					"family": "Qian",
+					"given": "Nancy"
+				}
+			],
+			"container": "Journal of Economic Perspectives",
+			"volume": "24",
+			"issue": "2",
+			"pages": "163–188",
+			"published": "2010",
+			"doi": "10.1257/jep.24.2.163",
+			"accessed": "2026-10-04",
+			"note": "The consumption figures for 2000 are its Table 2"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Columbian Exchange: Plants, Animals, and Disease between the Old and New Worlds",
+			"authors": [
+				{
+					"family": "Crosby",
+					"given": "Alfred W."
+				}
+			],
+			"container": "TeacherServe, National Humanities Center",
+			"published": "2001-12",
+			"url": "http://nationalhumanitiescenter.org/tserve/nattrans/ntecoindian/essays/columbianb.htm",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "The Potato's Contribution to Population and Urbanization: Evidence from a Historical Experiment",
+			"authors": [
+				{
+					"family": "Nunn",
+					"given": "Nathan"
+				},
+				{
+					"family": "Qian",
+					"given": "Nancy"
+				}
+			],
+			"container": "Quarterly Journal of Economics",
+			"volume": "126",
+			"issue": "2",
+			"pages": "593–650",
+			"published": "2011",
+			"doi": "10.1093/qje/qjr009",
+			"read": "abstract",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Earth System Impacts of the European Arrival and Great Dying in the Americas after 1492",
+			"authors": [
+				{
+					"family": "Koch",
+					"given": "Alexander"
+				},
+				{
+					"family": "Brierley",
+					"given": "Chris"
+				},
+				{
+					"family": "Maslin",
+					"given": "Mark M."
+				},
+				{
+					"family": "Lewis",
+					"given": "Simon L."
+				}
+			],
+			"container": "Quaternary Science Reviews",
+			"volume": "207",
+			"pages": "13–36",
+			"published": "2019",
+			"doi": "10.1016/j.quascirev.2018.12.004",
+			"read": "abstract",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Of Maize and Men: The Effect of a New World Crop on Population and Economic Growth in China",
+			"authors": [
+				{
+					"family": "Chen",
+					"given": "Shuo"
+				},
+				{
+					"family": "Kung",
+					"given": "James Kai-sing"
+				}
+			],
+			"container": "Journal of Economic Growth",
+			"volume": "21",
+			"issue": "1",
+			"pages": "71–99",
+			"published": "2016",
+			"doi": "10.1007/s10887-016-9125-8",
+			"read": "abstract",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Maize and Precolonial Africa",
+			"authors": [
+				{
+					"family": "Cherniwchan",
+					"given": "Jevan"
+				},
+				{
+					"family": "Moreno-Cruz",
+					"given": "Juan"
+				}
+			],
+			"container": "Journal of Development Economics",
+			"volume": "136",
+			"pages": "137–150",
+			"published": "2019",
+			"doi": "10.1016/j.jdeveco.2018.10.008",
+			"read": "abstract",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Reassessing 1492",
+			"authors": [
+				{
+					"family": "Crosby",
+					"given": "Alfred W."
+				}
+			],
+			"container": "American Quarterly",
+			"volume": "41",
+			"issue": "4",
+			"pages": "661–669",
+			"published": "1989",
+			"citedIn": "The Columbian Exchange: A History of Disease, Food, and Ideas"
+		},
+		{
+			"kind": "book",
+			"title": "We People Here: Nahuatl Accounts of the Conquest of Mexico",
+			"editors": [
+				{
+					"family": "Lockhart",
+					"given": "James"
+				}
+			],
+			"translators": [
+				{
+					"family": "Lockhart",
+					"given": "James"
+				}
+			],
+			"place": "Berkeley",
+			"publisher": "University of California Press",
+			"published": "1993",
+			"citedIn": "The Columbian Exchange: Plants, Animals, and Disease between the Old and New Worlds"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Columbian exchange",
+			"url": "https://en.wikipedia.org/w/index.php?title=Columbian_exchange&oldid=1377443364",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Voyages of Christopher Columbus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Voyages_of_Christopher_Columbus&oldid=1378497164",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pellagra",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pellagra&oldid=1375630063",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cassava",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cassava&oldid=1377181370",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/valladolid",
+			"why": "Valladolid's reading tabulates the estimates of how many people lived in the Americas in 1492 and the dying that followed, the disease that crossed in this exchange."
+		}
+	]
+}

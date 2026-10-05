@@ -19,7 +19,15 @@
 			"title": "Grain and empire",
 			"labelKind": "date",
 			"palette": "amphora",
-			"frames": ["egypt-grain", "annona", "ever-normal-granary", "open-fields", "chinampas"]
+			"frames": [
+				"egypt-grain",
+				"annona",
+				"ever-normal-granary",
+				"open-fields",
+				"chinampas",
+				"columbian-exchange",
+				"sugar-slavery"
+			]
 		}
 	]
 }
