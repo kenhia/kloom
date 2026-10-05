@@ -1,0 +1,16 @@
+{
+	"id": "bread",
+	"title": "Bread",
+	"anchor": "oldest-bread",
+	"spine": {
+		"segments": [
+			{
+				"id": "bread-seg",
+				"title": "A loaf through time",
+				"labelKind": "date",
+				"palette": "barley",
+				"frames": ["pompeii-bakery", "assize-of-bread", "sliced-bread", "chorleywood"]
+			}
+		]
+	}
+}

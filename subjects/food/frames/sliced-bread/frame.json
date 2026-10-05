@@ -1,0 +1,163 @@
+{
+	"id": "sliced-bread",
+	"topic": "Sliced bread",
+	"position": { "label": "1928", "sort": 1928 },
+	"asOf": "2026-10-04",
+	"scene": {
+		"headline": "The loaf came",
+		"accent": "SLICED.",
+		"palette": "barley",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CHILLICOTHE, MISSOURI · OTTO ROHWEDDER",
+			"ENDLESS BANDS · WAXED PAPER · ENRICHED FLOUR"
+		],
+		"counter": { "value": "49", "label": "days sliced bread was banned in 1943" }
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Machine for Slicing an Entire Loaf of Bread at a Single Operation. US Patent 1,867,377",
+			"authors": [{ "family": "Rohwedder", "given": "Otto F." }],
+			"container": "Google Patents",
+			"published": "1932-07-12",
+			"url": "https://patents.google.com/patent/US1867377A/en",
+			"accessed": "2026-10-04",
+			"note": "Filed November 26, 1928"
+		},
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "Food Distribution Order No. 1: Manufacture and Sale of Bread and Rolls",
+			"code": { "volume": "7", "name": "Fed. Reg.", "page": "11105" },
+			"published": "1942-12-29",
+			"container": "Federal Register",
+			"publisher": "govinfo",
+			"url": "https://www.govinfo.gov/content/pkg/FR-1942-12-31/pdf/FR-1942-12-31.pdf",
+			"accessed": "2026-10-04",
+			"note": "The ban on slicing, and \"All white bread shall be enriched\""
+		},
+		{
+			"kind": "statute",
+			"title": "Wheat Flour and Related Products; Definitions and Standards of Identity",
+			"code": { "volume": "6", "name": "Fed. Reg.", "page": "2574" },
+			"published": "1941-05-27",
+			"container": "Federal Register",
+			"publisher": "govinfo",
+			"url": "https://www.govinfo.gov/content/pkg/FR-1941-05-27/pdf/FR-1941-05-27.pdf",
+			"accessed": "2026-10-04",
+			"note": "The findings of fact and the first standard for enriched flour"
+		},
+		{
+			"kind": "statute",
+			"title": "Enriched flour",
+			"code": { "volume": "21", "name": "C.F.R." },
+			"section": "§ 137.165",
+			"published": "2026-09-01",
+			"container": "Electronic Code of Federal Regulations",
+			"url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-137/subpart-B/section-137.165",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Effectiveness of Food Fortification in the United States: The Case of Pellagra",
+			"authors": [
+				{ "family": "Park", "given": "Y. K." },
+				{ "family": "Sempos", "given": "C. T." },
+				{ "family": "Barton", "given": "C. N." },
+				{ "family": "Vanderveen", "given": "J. E." },
+				{ "family": "Yetley", "given": "E. A." }
+			],
+			"container": "American Journal of Public Health",
+			"volume": "90",
+			"issue": "5",
+			"pages": "727–738",
+			"published": "2000-05",
+			"doi": "10.2105/AJPH.90.5.727",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Sliced Bread Put Back on Sale; Housewives' Thumbs Safe Again",
+			"container": "The New York Times",
+			"pages": "16",
+			"published": "1943-03-06",
+			"citedIn": "Sliced bread"
+		},
+		{
+			"kind": "letter",
+			"title": "Ready-Sliced Bread Favored",
+			"authors": [{ "family": "Forrester", "given": "Sue" }],
+			"recipients": [{ "name": "The New York Times" }],
+			"container": "The New York Times",
+			"pages": "18",
+			"published": "1943-01-26",
+			"citedIn": "Sliced bread"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Sliced bread",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sliced_bread&oldid=1359602790",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Otto Frederick Rohwedder",
+			"url": "https://en.wikipedia.org/w/index.php?title=Otto_Frederick_Rohwedder&oldid=1347989446",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wonder Bread",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wonder_Bread&oldid=1354234633",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Toaster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Toaster&oldid=1371143315",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pellagra",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pellagra&oldid=1375630063",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "media",
+			"title": "Machine for Slicing an Entire Loaf of Bread at a Single Operation, sheet 2, figs. 4 and 5",
+			"authors": [{ "family": "Rohwedder", "given": "Otto F." }],
+			"container": "US Patent 1,867,377",
+			"published": "1932-07-12",
+			"url": "https://patents.google.com/patent/US1867377A/en",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "slicer-patent.jpg",
+			"note": "A United States patent drawing; cropped to the figures"
+		}
+	]
+}
