@@ -15,8 +15,20 @@
 		]
 	},
 	"bars": [
-		{ "label": "ULTRA", "sublabel": "week 1", "value": 3099, "display": "3,099", "highlight": true },
-		{ "label": "ULTRA", "sublabel": "week 2", "value": 2865, "display": "2,865", "highlight": true },
+		{
+			"label": "ULTRA",
+			"sublabel": "week 1",
+			"value": 3099,
+			"display": "3,099",
+			"highlight": true
+		},
+		{
+			"label": "ULTRA",
+			"sublabel": "week 2",
+			"value": 2865,
+			"display": "2,865",
+			"highlight": true
+		},
 		{ "label": "UNPROC.", "sublabel": "week 1", "value": 2555, "display": "2,555" },
 		{ "label": "UNPROC.", "sublabel": "week 2", "value": 2486, "display": "2,486" }
 	],

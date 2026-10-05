@@ -278,7 +278,9 @@ both as you write.
 
   The `id` is the English Wikipedia article's title, lower case, with
   dashes (`Johann Tetzel` → `johann-tetzel`). `kind` is `person`, `place`,
-  `org`, `artifact`, `idea` or `event`. The `description` is one plain
+  `org`, `artifact`, `idea` or `event`: a people (the Hadza, the Inuit) is
+  an `org`, and a species, a crop, a food or a chemical (einkorn, beer,
+  ammonia) an `idea`, as the registry files them. The `description` is one plain
   sentence on what it is and why it matters, for any subject's reader: it
   is shared, so say what the thing is, not what it did in your frame
   (every new subject has had to widen a dozen or more names written from
@@ -329,8 +331,10 @@ knowledge is not a source.
   …"), or cite the work that quotes it. When the original has no url or
   doi of its own (a 1667 book, a 1910 paper known only from a reference
   list or a PubMed record), cite it with neither, and with no `accessed`:
-  its `citedIn` must then name, by its title, a work this frame cites with
-  a url or doi, and validation checks that it does. Such a citation is
+  its `citedIn` must then name, by its whole title, a work this frame
+  cites with a url or doi, and validation checks that it does (a short
+  title fails). A citation with `citedIn` that does have a url or doi
+  keeps its `accessed`, like any other (sprint 051). Such a citation is
   never `key`. **A paper you read only in part** carries `read`:
   `"abstract"` ("Read in its abstract"), `"first-page"` (an old letter a
   journal shows only the opening of: "Read in its first page"),
@@ -584,9 +588,10 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
 - **The subject's voice holds for arithmetic too**: "by our arithmetic",
   not "by my".
 - **Readings run 550–900 words of prose, and every one scrolls.** Tables,
-  headings and alt text are not counted
+  headings and alt text are not counted, and list items are
   (`create-tools/subject-plan/prose_words.py` counts them this way, for a
-  subject, a frame or a draft). They use images, charts and tables where
+  subject, a frame or a draft): a numbered list of steps costs words that
+  the same steps in a table do not (sprint 051). They use images, charts and tables where
   those carry information.
 - **Look at every image before you use it.** Commons licences, dates,
   authors and even file names are what uploaders typed, and some are
