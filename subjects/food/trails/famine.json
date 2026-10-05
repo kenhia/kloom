@@ -1,0 +1,16 @@
+{
+	"id": "famine",
+	"title": "Famine",
+	"anchor": "irish-famine",
+	"spine": {
+		"segments": [
+			{
+				"id": "famine-seg",
+				"title": "Supply and entitlement",
+				"labelKind": "date",
+				"palette": "amphora",
+				"frames": ["great-famine-1315", "famine-1876"]
+			}
+		]
+	}
+}

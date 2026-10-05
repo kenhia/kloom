@@ -1,0 +1,208 @@
+{
+	"id": "famine-1876",
+	"topic": "India's famine of 1876–78",
+	"position": {
+		"label": "1876–78",
+		"sort": 1876
+	},
+	"scene": {
+		"headline": "The Raj saved rupees; millions",
+		"accent": "STARVED.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MADRAS · BOMBAY · MYSORE · HYDERABAD",
+			"LYTTON · TEMPLE · THE FAMINE COMMISSION OF 1880"
+		],
+		"counter": {
+			"value": "5,250,000",
+			"label": "excess deaths in British provinces, the official count"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/wealth-of-nations",
+			"why": "India's government refused to interfere with the grain trade in 1876–78, on the doctrine Smith set out in The Wealth of Nations that famine comes only from governments meddling with a dearth."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Famine Campaign in Southern India (Madras and Bombay Presidencies and Province of Mysore), 1876–1878, vol. 1",
+			"authors": [
+				{
+					"family": "Digby",
+					"given": "William"
+				}
+			],
+			"publisher": "Longmans, Green, and Co.",
+			"place": "London",
+			"published": "1878",
+			"url": "https://archive.org/details/faminecampaignin01digbuoft",
+			"accessed": "2026-10-04",
+			"note": "The Government of India's motto opposite the preface; rice landed at Madras, pp. 27–28; the instructions to Temple, pp. 50–51; the ration debate, pp. 85–86; the canal wage and the death returns, pp. 121–122"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Indian Famine Commission, Part I: Famine Relief",
+			"authors": [
+				{
+					"name": "Indian Famine Commission"
+				}
+			],
+			"publisher": "Her Majesty's Stationery Office",
+			"place": "London",
+			"number": "C.-2591",
+			"published": "1880",
+			"url": "https://archive.org/details/FamineCommission",
+			"accessed": "2026-10-04",
+			"note": "Deaths, para. 81, p. 28; the principles of relief, para. 112; Caird and Sullivan's dissent"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Provisional Famine Code",
+			"authors": [
+				{
+					"name": "Government of India, Revenue and Agricultural Department"
+				}
+			],
+			"publisher": "Government of India",
+			"published": "1883",
+			"url": "https://archive.org/details/wbsl.8811",
+			"accessed": "2026-10-04",
+			"note": "Reports, sections 2, 22 and 107; wages and rations, sections 126–131"
+		},
+		{
+			"kind": "book",
+			"title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Adam"
+				}
+			],
+			"publisher": "W. Strahan and T. Cadell",
+			"place": "London",
+			"published": "1776",
+			"url": "https://www.gutenberg.org/ebooks/3300",
+			"accessed": "2026-10-04",
+			"note": "Book IV, chapter 5, the digression on the corn trade"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Great Famine of 1876–1878",
+			"url": "https://en.wikipedia.org/w/index.php?title=Great_Famine_of_1876%E2%80%931878&oldid=1375751084",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Late Victorian Holocausts",
+			"url": "https://en.wikipedia.org/w/index.php?title=Late_Victorian_Holocausts&oldid=1369685269",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Indian Famine Codes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Indian_Famine_Codes&oldid=1360192834",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Bulwer-Lytton, 1st Earl of Lytton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Bulwer-Lytton,_1st_Earl_of_Lytton&oldid=1375202783",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sir Richard Temple, 1st Baronet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sir_Richard_Temple,_1st_Baronet&oldid=1378323681",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Late Victorian Holocausts: El Niño Famines and the Making of the Third World",
+			"authors": [
+				{
+					"family": "Davis",
+					"given": "Mike"
+				}
+			],
+			"publisher": "Verso",
+			"place": "London",
+			"published": "2001",
+			"citedIn": "Great Famine of 1876–1878"
+		},
+		{
+			"kind": "article",
+			"title": "Apocalypse Then",
+			"authors": [
+				{
+					"family": "Sen",
+					"given": "Amartya"
+				}
+			],
+			"container": "New York Review of Books",
+			"published": "2001-02-08",
+			"citedIn": "Late Victorian Holocausts"
+		},
+		{
+			"kind": "media",
+			"title": "Grain Bags on Madras Beach, February 1877",
+			"url": "https://commons.wikimedia.org/wiki/File:GrainFamineMadras.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "madras-beach.jpg",
+			"engravers": [
+				{
+					"family": "Pearson"
+				}
+			],
+			"container": "William Digby, The Famine Campaign in Southern India, vol. 1, facing p. 28",
+			"published": "1878"
+		}
+	]
+}
