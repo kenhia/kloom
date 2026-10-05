@@ -1,0 +1,56 @@
+{
+	"food/chocolate": [
+		["Mayo-Chinchipe", "mayo-chinchipe"],
+		["_Theobroma cacao_", "theobroma-cacao"],
+		["Mesoamerica", "mesoamerica"],
+		["Maya", "maya-civilization"],
+		["Aztec Empire", "aztec-empire"],
+		["Soconusco", "soconusco"],
+		["Thomas Gage", "thomas-gage-priest"],
+		["metate", "metate"],
+		["Codex Tudela", "codex-tudela"],
+		["chocolate", "chocolate"],
+		["Coenraad Johannes van Houten", "coenraad-johannes-van-houten"],
+		["J. S. Fry & Sons", "j-s-fry-and-sons"],
+		["São Tomé", "sao-tome-island"],
+		["Henry Nevinson", "henry-nevinson"],
+		["Cadbury", "cadbury"]
+	],
+	"food/coffeehouse": [
+		["coffee", "coffee"],
+		["Sufi", "sufism"],
+		["Mecca", "mecca"],
+		["Cairo", "cairo"],
+		["Ottoman Empire", "ottoman-empire"],
+		["Pasqua Rosée", "pasqua-rosee"],
+		["London", "london"],
+		["Lloyd's Coffee House", "lloyds-coffee-house"],
+		["Abraham de Moivre", "abraham-de-moivre"],
+		["Charles II", "charles-ii-of-england"],
+		["Dutch East India Company", "dutch-east-india-company"],
+		["Java", "java"],
+		["Saint-Domingue", "saint-domingue"],
+		["Jürgen Habermas", "jurgen-habermas"],
+		[
+			"_The Structural Transformation of the Public Sphere_",
+			"the-structural-transformation-of-the-public-sphere"
+		]
+	],
+	"food/tea-and-opium": [
+		["tea", "tea"],
+		["Canton System", "canton-system"],
+		["Qing dynasty", "qing-dynasty"],
+		["Cohong", "cohong"],
+		["East India Company", "east-india-company"],
+		["opium", "opium"],
+		["Calcutta", "kolkata"],
+		["Daoguang Emperor", "daoguang-emperor"],
+		["Lin Zexu", "lin-zexu"],
+		["Queen Victoria", "queen-victoria"],
+		["First Opium War", "first-opium-war"],
+		["Treaty of Nanking", "treaty-of-nanking"],
+		["Hong Kong", "hong-kong"],
+		["Robert Fortune", "robert-fortune"],
+		["Assam tea", "assam-tea"]
+	]
+}

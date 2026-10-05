@@ -1,0 +1,211 @@
+{
+	"id": "coffeehouse",
+	"topic": "Coffee and the coffeehouse",
+	"position": {
+		"label": "1652",
+		"sort": 1652
+	},
+	"scene": {
+		"headline": "Coffee kept us",
+		"accent": "AWAKE.",
+		"palette": "saffron",
+		"illustration": "scene.svg",
+		"metadata": [
+			"YEMEN · MECCA · CAIRO · ISTANBUL · LONDON",
+			"ST MICHAEL'S ALLEY · LLOYD'S · SAINT-DOMINGUE"
+		],
+		"counter": {
+			"value": "70,000,000",
+			"label": "pounds of coffee a year from Saint-Domingue before 1789"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/normal-distribution",
+			"why": "Abraham de Moivre, who found the normal curve as the limit of coin tosses, made his living as a tutor in London's coffeehouses, the penny universities this frame describes."
+		},
+		{
+			"to": "western-civ/haitian-revolution",
+			"why": "Saint-Domingue, whose enslaved people rose in 1791, grew half or more of the world's coffee, by the method its planter Laborie set down in 1798."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "All About Coffee",
+			"authors": [
+				{
+					"family": "Ukers",
+					"given": "William H."
+				}
+			],
+			"place": "New York",
+			"publisher": "Tea and Coffee Trade Journal Company",
+			"published": "1922",
+			"url": "https://www.gutenberg.org/ebooks/28500",
+			"accessed": "2026-10-04",
+			"note": "The Mecca ban of 1511, the London coffeehouses and the proclamation of 1675, with their documents"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Coffee Planter of Saint Domingo",
+			"authors": [
+				{
+					"family": "Laborie",
+					"given": "P. J."
+				}
+			],
+			"place": "London",
+			"publisher": "T. Cadell and W. Davies",
+			"published": "1798",
+			"pages": "47–61",
+			"url": "https://archive.org/details/coffeeplanterofs00labo",
+			"accessed": "2026-10-04",
+			"note": "The preparation of coffee, step by step"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Reproduction of Canonical Silences: Re-reading Habermas in the Context of Slavery and the Slave Trade",
+			"authors": [
+				{
+					"family": "Willems",
+					"given": "Wendy"
+				}
+			],
+			"container": "Communication, Culture and Critique",
+			"volume": "16",
+			"issue": "1",
+			"pages": "17–24",
+			"published": "2023",
+			"doi": "10.1093/ccc/tcac047",
+			"accessed": "2026-10-04",
+			"note": "Read in the author's open copy at LSE Research Online"
+		},
+		{
+			"kind": "article",
+			"title": "'A Parcel of Muddling Muckworms': Revisiting Habermas and the English Coffee-Houses",
+			"authors": [
+				{
+					"family": "Laurier",
+					"given": "Eric"
+				},
+				{
+					"family": "Philo",
+					"given": "Chris"
+				}
+			],
+			"container": "Social & Cultural Geography",
+			"volume": "8",
+			"issue": "2",
+			"pages": "259–281",
+			"published": "2007-04",
+			"doi": "10.1080/14649360701360212",
+			"accessed": "2026-10-04",
+			"note": "Read in the authors' draft of 2005 at the University of Edinburgh's repository"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of coffee",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_coffee&oldid=1378354395",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pasqua Rosée",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pasqua_Ros%C3%A9e&oldid=1352444618",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lloyd's Coffee House",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lloyd's_Coffee_House&oldid=1371089037",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Abraham de Moivre",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abraham_de_Moivre&oldid=1374261488",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Structural Transformation of the Public Sphere",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Structural_Transformation_of_the_Public_Sphere&oldid=1317088871",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tea in the United Kingdom",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tea_in_the_United_Kingdom&oldid=1377883974",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "The Vertue of the Coffee Drink",
+			"authors": [
+				{
+					"family": "Rosée",
+					"given": "Pasqua"
+				}
+			],
+			"container": "Handbill, British Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:The_Vertue_of_the_COFFEE_Drink.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "vertue-of-coffee.jpg",
+			"published": "1652"
+		}
+	]
+}
