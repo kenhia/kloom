@@ -1,0 +1,282 @@
+{
+	"id": "banda-nutmeg",
+	"topic": "Nutmeg and the Banda Islands",
+	"position": {
+		"label": "1621",
+		"sort": 1621
+	},
+	"scene": {
+		"headline": "The Company killed for",
+		"accent": "NUTMEG.",
+		"palette": "saffron",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BANDA ISLANDS · MALUKU",
+			"DUTCH EAST INDIA COMPANY · JAN PIETERSZOON COEN · THE PERKEN"
+		],
+		"counter": {
+			"value": "1,000",
+			"label": "Bandanese left of some 15,000"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/voyages",
+			"why": "Magellan's fleet sailed for the Spice Islands, the only source of cloves and nutmeg; a century later the Dutch East India Company took the nutmeg islands of Banda by force."
+		}
+	],
+	"citations": [
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "Letter to the Heeren XVII",
+			"authors": [
+				{
+					"family": "Coen",
+					"given": "Jan Pieterszoon"
+				}
+			],
+			"recipients": [
+				{
+					"name": "Heeren XVII of the Dutch East India Company"
+				}
+			],
+			"written": "1621-05-06",
+			"container": "Jan Pietersz. Coen: Bescheiden omtrent zijn bedrijf in Indië",
+			"editors": [
+				{
+					"family": "Colenbrander",
+					"given": "H. T."
+				}
+			],
+			"volume": "1",
+			"pages": "625–638",
+			"place": "'s-Gravenhage",
+			"publisher": "Martinus Nijhoff",
+			"published": "1919",
+			"language": "nl",
+			"url": "https://archive.org/details/janpieterszcoenb01coen",
+			"accessed": "2026-10-04",
+			"note": "The decision to empty Banda, and the 789 deported, are on pp. 630–631"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Pioneers and Perkeniers: The Banda Islands in the 17th Century",
+			"authors": [
+				{
+					"family": "Loth",
+					"given": "Vincent C."
+				}
+			],
+			"container": "Cakalele",
+			"volume": "6",
+			"pages": "13–35",
+			"published": "1995",
+			"url": "http://hdl.handle.net/10125/4207",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Colonisation and Cultivation: Nutmeg Production, Labour and Ecology on the Banda Islands before and after the Conquest of 1621",
+			"authors": [
+				{
+					"family": "Miske",
+					"given": "S. J."
+				}
+			],
+			"container": "Journal of Southeast Asian Studies",
+			"volume": "56",
+			"issue": "1–2",
+			"pages": "98–123",
+			"published": "2025",
+			"doi": "10.1017/S0022463425100787",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "chapter",
+			"title": "Genocide in the Spice Islands: The Dutch East India Company and the Destruction of the Banda Archipelago Civilisation in 1621",
+			"authors": [
+				{
+					"family": "Dhont",
+					"given": "Frank"
+				}
+			],
+			"container": "The Cambridge World History of Genocide, Vol. 2",
+			"editors": [
+				{
+					"family": "Blackhawk",
+					"given": "Ned"
+				},
+				{
+					"family": "Kiernan",
+					"given": "Ben"
+				},
+				{
+					"family": "Madley",
+					"given": "Benjamin"
+				},
+				{
+					"family": "Taylor",
+					"given": "Rebe"
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "2023",
+			"pages": "186–214",
+			"doi": "10.1017/9781108765480.009",
+			"read": "abstract",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "A Pepper Acquiring Nutmeg: Pierre Poivre, the French Spice Quest and the Role of Mediators in Southeast Asia, 1740s to 1770s",
+			"authors": [
+				{
+					"family": "Brixius",
+					"given": "Dorit"
+				}
+			],
+			"container": "Proceedings of the Western Society for French History",
+			"volume": "43",
+			"published": "2015",
+			"url": "http://hdl.handle.net/2027/spo.0642292.0043.006",
+			"accessed": "2026-10-04",
+			"note": "Read through the Wayback Machine's copy"
+		},
+		{
+			"kind": "book",
+			"title": "Indonesian Banda: Colonialism and Its Aftermath in the Nutmeg Islands",
+			"authors": [
+				{
+					"family": "Hanna",
+					"given": "Willard A."
+				}
+			],
+			"place": "Philadelphia",
+			"publisher": "Institute for the Study of Human Issues",
+			"published": "1978",
+			"citedIn": "Nutmeg"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Banda Islands",
+			"url": "https://en.wikipedia.org/w/index.php?title=Banda_Islands&oldid=1374268490",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dutch conquest of the Banda Islands",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dutch_conquest_of_the_Banda_Islands&oldid=1371966664",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nutmeg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nutmeg&oldid=1375616977",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Run (island)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Run_(island)&oldid=1364196348",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Treaty of Breda (1667)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Treaty_of_Breda_(1667)&oldid=1367904118",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre Poivre",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre_Poivre&oldid=1372478052",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "media",
+			"title": "Fort Hollandia on Lonthor",
+			"url": "https://commons.wikimedia.org/wiki/File:AMH-4729-NA_Fort_Hollandia_on_Lonthor.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "lonthor-perken.jpg",
+			"authors": [
+				{
+					"family": "Graaff",
+					"given": "Isaac de"
+				}
+			],
+			"container": "Nationaal Archief, The Hague",
+			"number": "NL-HaNA_4.VEL_1366",
+			"published": "1690",
+			"circa": true
+		},
+		{
+			"kind": "media",
+			"title": "Mace from the Banda Islands a year, before and after the conquest of 1621",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Miske, \"Colonisation and cultivation,\" Journal of Southeast Asian Studies 56 (2025), Figure 3 and Table 3",
+			"doi": "10.1017/S0022463425100787",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "mace.svg"
+		}
+	]
+}

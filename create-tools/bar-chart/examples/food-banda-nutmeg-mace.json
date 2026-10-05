@@ -1,0 +1,36 @@
+{
+	"title": "Mace from the Banda Islands a year, before and after the conquest of 1621",
+	"description": "Bar chart of estimates of the mace the Banda Islands yielded in a year, in thousands of Amsterdam pounds (about 494 grams each), as compiled and converted by Miske (2025). Tomé Pires, about 1515: 275 to 330 thousand. Andrés de Urdaneta, 1537: 137.5 thousand. Gijsels, for the years before 1621, as Miske converts his figures: 367.5 thousand. The Dutch East India Company's exports, averaged over 1630 to 1634: 195 thousand. The colonial figure is exports, not the harvest.",
+	"heading": "MACE A YEAR · THOUSAND AMSTERDAM POUNDS",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 64,
+	"axis": {
+		"max": 400,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"],
+			[400, "400"]
+		]
+	},
+	"bars": [
+		{ "label": "Pires", "sublabel": "c. 1515", "value": 302.5, "display": "275–330" },
+		{ "label": "Urdaneta", "sublabel": "1537", "value": 137.5, "display": "137.5" },
+		{ "label": "Gijsels", "sublabel": "pre-1621", "value": 367.5, "display": "367.5" },
+		{
+			"label": "VOC exports",
+			"sublabel": "1630–34",
+			"value": 195,
+			"display": "195",
+			"highlight": true
+		}
+	],
+	"source": {
+		"container": "Miske, \"Colonisation and cultivation,\" Journal of Southeast Asian Studies 56 (2025), Figure 3 and Table 3",
+		"doi": "10.1017/S0022463425100787",
+		"accessed": "2026-10-04"
+	}
+}

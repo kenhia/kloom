@@ -1,0 +1,32 @@
+{
+	"food/spice-routes": [
+		["Vasco da Gama", "vasco-da-gama"],
+		["Calicut", "kozhikode"],
+		["spice trade", "spice-trade"],
+		["black pepper", "black-pepper"],
+		["Malabar Coast", "malabar-coast"],
+		["Muziris", "muziris"],
+		["_Periplus of the Erythraean Sea_", "periplus-of-the-erythraean-sea"],
+		["Pliny the Elder", "pliny-the-elder"],
+		["Roman Empire", "roman-empire"],
+		["monsoon", "monsoon"],
+		["Mamluk Sultanate", "mamluk-sultanate"],
+		["Alexandria", "alexandria"],
+		["Republic of Venice", "republic-of-venice"],
+		["Estado da Índia", "portuguese-india"],
+		["cartaz", "cartaz"]
+	],
+	"food/banda-nutmeg": [
+		["nutmeg", "nutmeg"],
+		["Banda Islands", "banda-islands"],
+		["Dutch East India Company", "dutch-east-india-company"],
+		["Run", "run-island"],
+		["Jan Pieterszoon Coen", "jan-pieterszoon-coen"],
+		["Lonthor", "banda-besar"],
+		["Treaty of Breda", "treaty-of-breda-1667"],
+		["New Amsterdam", "new-amsterdam"],
+		["spice trade", "spice-trade"],
+		["Pierre Poivre", "pierre-poivre"],
+		["Moluccas", "maluku-islands"]
+	]
+}

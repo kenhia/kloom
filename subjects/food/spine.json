@@ -28,6 +28,13 @@
 				"columbian-exchange",
 				"sugar-slavery"
 			]
+		},
+		{
+			"id": "spice-and-trade",
+			"title": "Spice, tea and trade",
+			"labelKind": "date",
+			"palette": "saffron",
+			"frames": ["spice-routes", "banda-nutmeg"]
 		}
 	]
 }

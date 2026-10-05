@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M14 26 L14 221"/>
+		<path pathLength="1" d="M64 26 L64 221"/>
+		<path pathLength="1" d="M114 26 L114 221"/>
+		<path pathLength="1" d="M164 26 L164 221"/>
+		<path pathLength="1" d="M214 26 L214 221"/>
+		<path pathLength="1" d="M264 26 L264 221"/>
+		<path pathLength="1" d="M14 41 L264 41"/>
+		<path pathLength="1" d="M14 91 L264 91"/>
+		<path pathLength="1" d="M14 141 L264 141"/>
+		<path pathLength="1" d="M14 191 L264 191"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M26.7 41.2 L28.1 43.9 M28.9 45.7 L30.2 48.4 M31.1 50.2 L32.4 52.9 M33.3 54.7 L34.6 57.4 M35.4 59.2 L36.7 61.9 M37.6 63.7 L38.9 66.4 M39.8 68.2 L41.1 70.9 M41.9 72.7 L43.2 75.4 M44.1 77.2 L45.4 79.9 M46.3 81.7 L47.6 84.4 M48.4 86.2 L49.7 88.9 M50.6 90.7 L51.9 93.4 M52.8 95.2 L54 97.9 M54.9 99.7 L56.2 102.4 M57.1 104.2 L58.4 106.9 M59.2 108.7 L60.5 111.5 M61.5 113.2 L63.9 115 M65.5 116.2 L67.8 118.1 M69.4 119.3 L71.8 121.2 M73.3 122.4 L75.7 124.2 M77.3 125.5 L79.6 127.3 M80.5 128.8 L80 131.8 M80.4 133 L83.4 132.9 M85.4 132.9 L88.4 132.8 M90.4 132.7 L93.4 132.7 M95.4 132.6 L98.4 132.5 M100.4 132.5 L103.4 132.4 M105.4 132.3 L108.4 132.2 M110.4 132.2 L113.4 132.1 M115.4 132 L118.4 132 M120.4 131.9 L118.8 134.5 M117.8 136.2 L116.2 138.8 M115.2 140.5 L113.6 143 M112.6 144.7 L111 147.3 M110 149 L108.4 151.6 M107.4 153.3 L105.8 155.9 M104.8 157.6 L103.3 160.1 M102.2 161.8 L100.7 164.4 M99.6 166.1 L98.1 168.7 M97 170.4 L95.5 173 M94.4 174.7 L92.9 177.2 M91.8 178.9 L90.7 180.8 L90.1 181.4 M88.7 182.8 L86.6 184.9 M85.2 186.4 L83.1 188.5 M81.7 189.9 L79.6 192 M78.2 193.5 L76.1 195.6 M74.6 197 L72.5 199.1 M71.1 200.6 L69 202.7 M67.6 204.1 L65.5 206.2 M64.4 207.9 L63.6 210.7 M63 212.7 L62.1 215.5 M61.6 217.4 L60.7 220.3"/>
+		<path pathLength="1" d="M26.7 41.2 L28.6 43.5 M29.8 45.1 L31.7 47.4 M32.9 49 L34.8 51.4 M36 52.9 L37.9 55.3 M39.1 56.9 L41 59.2 M42.2 60.8 L44 63.2 M45.3 64.7 L47.1 67.1 M48.4 68.7 L50.2 71 M51.5 72.6 L53.3 75 M54.5 76.5 L56.4 78.9 M57.6 80.5 L59.5 82.8 M60.4 84.6 L61.7 87.3 M62.5 89.1 L63.8 91.8 M64.7 93.6 L65.9 96.4 M66.8 98.2 L68 100.9 M68.9 102.7 L70.1 105.4 M71 107.3 L72.2 110 M73.1 111.8 L74.3 114.5 M75.2 116.3 L76.4 119 M77.3 120.9 L78.6 123.6 M79.4 125.4 L80.6 128.1 L80.7 128.1 M82.6 127.8 L85.6 127.5 M87.6 127.2 L89.2 127 L90.5 126.5 M92.4 125.8 L95.2 124.8 M97.1 124.1 L99.9 123 M101.8 122.3 L104.6 121.3 M106.4 120.6 L109.2 119.4 M111.1 118.7 L113.8 117.5 M115.7 116.8 L118.5 115.6 M120.3 114.9 L123.1 113.7 M124.9 113 L125.2 112.8 L127.2 111 M128.7 109.7 L130.9 107.6 M132.4 106.3 L134.6 104.3 M136.1 102.9 L138.3 100.9 M139.7 99.5 L142 97.5 M143.4 96.2 L145.6 94.1 M147.1 92.8 L149.3 90.8 M150.8 89.4 L153 87.4 M154.5 86 L156.7 84 M158.2 82.7 L160.4 80.6 M161.9 79.3 L162.9 78.4 L161.5 77.4 M160 76.1 L157.6 74.3 M156 73 L154.6 70.4 M153.6 68.7 L152.1 66 M151.1 64.3 L149.7 61.7 M148.7 59.9 L147.2 57.3 M146.4 55.7 L149.3 56.3 M151.3 56.7 L154.2 57.3 M156.2 57.7 L159.1 58.3 M161.1 58.7 L164 59.4 M166 59.8 L168.9 60.4 M170.8 60.8 L173.8 61.4 M175.7 61.8 L178.7 62.4 M180.6 62.8 L183.6 63.5 M185.5 63.9 L188.5 64.5 M190.4 64.9 L193.4 65.5 M195.3 65.9 L198.3 66.5 M199.9 67.6 L202 69.7 M203.3 71.2 L205.4 73.3 M206.8 74.8 L208.9 76.9 M210.3 78.4 L212.3 80.5 M213.7 82 L215.8 84.1 M217.2 85.6 L218.9 87.4 L219.3 87.7 M220.8 89 L223.1 91 M224.6 92.3 L226.9 94.3 M228.4 95.6 L228.4 95.6 L229.2 98.5 M229.7 100.4 L230.4 103.3 M231 105.2 L231.7 108.1 M232.2 110.1 L233 113 M233.8 114.8 L235 117.5 M235.8 119.4 L237.1 122.1 M237.9 123.9 L239.2 126.6 M240 128.4 L241.3 131.2 M242.1 133 L242.9 134.8 L243.3 135.7 M244 137.6 L245.1 140.2 L245.2 140.4 M246.3 142 L247.9 144.6 M248.9 146.3 L250.6 148.8 M251.6 150.5 L251.7 150.6 L253.9 148.7 M255.4 147.4 L257.7 145.4 M259.2 144.1 L260 143.5 L260.4 141.5 M260.9 139.6 L261.6 136.7 M262 134.7 L262.7 131.8 M263.1 129.8 L263.8 126.9"/>
+		<path pathLength="1" d="M13.5 35 L15.3 34.3 M16.7 35 L17.7 36.7 M18.8 38.4 L19.8 40.1 M21.4 40.9 L23.4 41 M25.4 41.1 L26.7 41.2"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M41.3 71.5 L59.3 97.5 L82.2 127.2"/>
+		<path pathLength="1" d="M82.2 127.2 L130 112 L245.1 140.2"/>
+		<path pathLength="1" d="M239.2 141.5 L245.1 140.2 L240.5 136.4"/>
+		<path pathLength="1" d="M64.7 207.1 L242.9 134.8"/>
+		<path pathLength="1" d="M238.9 139.2 L242.9 134.8 L236.9 134.4"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M234.6 117.2 L230.9 118.8 M228.1 120 L224.5 121.6 M221.7 122.9 L218.1 124.5 M215.3 125.7 L211.7 127.3 M208.9 128.5 L205.3 130.1 M202.5 131.4 L198.9 133 M196.1 134.2 L192.5 135.8 M189.7 137 L186.1 138.6 M183.3 139.8 L179.7 141.5 M176.9 142.7 L173.3 144.3 M170.5 145.5 L166.9 147.1 M164.1 148.3 L160.5 150 M157.7 151.2 L154.1 152.8 M151.3 154 L147.7 155.6 M144.9 156.8 L141.3 158.4 M138.5 159.7 L134.9 161.3 M132.1 162.5 L128.5 164.1 M125.7 165.3 L122.1 166.9 M119.3 168.2 L115.7 169.8 M112.9 171 L109.3 172.6 M106.5 173.8 L102.8 175.4 M100.1 176.6 L96.4 178.3 M93.7 179.5 L90.7 180.8"/>
+		<path pathLength="1" d="M93.9 177 L90.7 180.8 L95.7 181"/>
+		<path pathLength="1" d="M11.1 35 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M38.9 71.5 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M79.8 127.2 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M242.7 140.2 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M62.3 207.1 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+		<path pathLength="1" d="M240.5 134.8 a2.4 2.4 0 1 0 4.8 0 a2.4 2.4 0 1 0 -4.8 0"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M284 122 a50 50 0 1 0 100 0 a50 50 0 1 0 -100 0"/>
+		<path pathLength="1" d="M334 76 L334 68"/>
+		<path pathLength="1" d="M357 82.2 L361 75.2"/>
+		<path pathLength="1" d="M373.8 99 L380.8 95"/>
+		<path pathLength="1" d="M380 122 L388 122"/>
+		<path pathLength="1" d="M373.8 145 L380.8 149"/>
+		<path pathLength="1" d="M357 161.8 L361 168.8"/>
+		<path pathLength="1" d="M334 168 L334 176"/>
+		<path pathLength="1" d="M311 161.8 L307 168.8"/>
+		<path pathLength="1" d="M294.2 145 L287.2 149"/>
+		<path pathLength="1" d="M288 122 L280 122"/>
+		<path pathLength="1" d="M294.2 99 L287.2 95"/>
+		<path pathLength="1" d="M311 82.2 L307 75.2"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M284 122 a50 50 0 1 0 100 0 a50 50 0 1 0 -100 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M345.9 91 L336 100.9"/>
+		<path pathLength="1" d="M337.4 97.1 L336 100.9 L339.8 99.6"/>
+		<path pathLength="1" d="M358 98 L348.1 107.9"/>
+		<path pathLength="1" d="M349.5 104.1 L348.1 107.9 L351.9 106.5"/>
+		<path pathLength="1" d="M358.6 115 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M358.6 129 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M351.6 141.1 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M336 153 L345.9 143.1"/>
+		<path pathLength="1" d="M344.6 146.9 L345.9 143.1 L342.2 144.4"/>
+		<path pathLength="1" d="M322.1 153 L332 143.1"/>
+		<path pathLength="1" d="M330.6 146.9 L332 143.1 L328.2 144.4"/>
+		<path pathLength="1" d="M310 146 L319.9 136.1"/>
+		<path pathLength="1" d="M318.5 139.9 L319.9 136.1 L316.1 137.5"/>
+		<path pathLength="1" d="M303 133.9 L312.9 124"/>
+		<path pathLength="1" d="M311.6 127.8 L312.9 124 L309.1 125.4"/>
+		<path pathLength="1" d="M306.4 115 a1.5 1.5 0 1 0 3 0 a1.5 1.5 0 1 0 -3 0"/>
+		<path pathLength="1" d="M319.9 98 L310 107.9"/>
+		<path pathLength="1" d="M311.3 104.1 L310 107.9 L313.7 106.5"/>
+		<path pathLength="1" d="M332 91 L322.1 100.9"/>
+		<path pathLength="1" d="M323.4 97.1 L322.1 100.9 L325.8 99.6"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="350" y="64.6" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">J</text>
+		<text x="377.8" y="80.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">F</text>
+		<text x="393.9" y="108.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">M</text>
+		<text x="393.9" y="140.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="377.8" y="168.3" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">M</text>
+		<text x="350" y="184.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">J</text>
+		<text x="318" y="184.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">J</text>
+		<text x="290.2" y="168.3" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="274.1" y="140.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">S</text>
+		<text x="274.1" y="108.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">O</text>
+		<text x="290.2" y="80.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">N</text>
+		<text x="318" y="64.6" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">D</text>
+		<text x="334" y="202" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WIND OVER THE</text>
+		<text x="334" y="212" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARABIAN SEA</text>
+		<text x="334" y="118" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NE</text>
+		<text x="334" y="132" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SW</text>
+		<text x="19.5" y="31" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ALEXANDRIA</text>
+		<text x="47.3" y="74.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BERENICE</text>
+		<text x="78.2" y="138.2" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OCELIS</text>
+		<text x="241.1" y="154.2" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MUZIRIS</text>
+		<text x="246.9" y="126.8" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CALICUT</text>
+		<text x="69.7" y="217.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MALINDI</text>
+		<text x="130" y="104" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ROME · 40 DAYS</text>
+		<text x="178" y="184" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OUT · 23 DAYS</text>
+		<text x="116" y="150" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BACK ·</text>
+		<text x="116" y="159" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">~3 MONTHS</text>
+		<text x="140" y="288" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COASTS SCHEMATIC · 10° GRID</text>
+	</g>
+</svg>
