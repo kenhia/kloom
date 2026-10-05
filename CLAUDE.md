@@ -311,6 +311,13 @@ Sprint 050 the author-subject tools tuned from western-civ's run (korg
 (`regnal`, `gazette`); the spelling gate taught phrases ("per cent", 356
 respelled); and HUD pop-ups kept in the window (`use:inView`, checked by
 `just hud-check`).
+Sprint 051 the eleventh subject, `subjects/food`, _Daily Bread_ (65
+frames: eight dated segments from fire and foraging to the table, four
+trails: the first drinks, bread, the potato, famine), written by 24
+parallel authors and committed as each reported, with borrowed names
+brought in by the earlier part; `subject_plan.py --complete` leaving out
+unfinished drafts, `names.py drafts --part`, and the biology subject's
+pending links on korg 3543.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
