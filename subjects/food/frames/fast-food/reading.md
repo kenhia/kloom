@@ -1,0 +1,30 @@
+In 1940 **[Richard and Maurice McDonald](kloom:e/richard-and-maurice-mcdonald)**, two brothers from New Hampshire, opened a drive-in at Fourteenth and E Streets in **[San Bernardino, California](kloom:e/san-bernardino-california)**. It sold barbecue among twenty-five items, served to cars by twenty carhops, and by 1948 it took more than $200,000 a year. Carhops were slow and hard to keep; the cooks, Richard McDonald remembered, courted the carhops and, when snubbed, dawdled over their orders; dishes and cutlery were broken or stolen; and teenagers made the lot a hangout that kept families away. In the autumn of 1948 they closed the restaurant for three months and rebuilt how it worked. They reopened in December 1948 with a new system, and **[McDonald's](kloom:e/mcdonalds)** became the restaurant that made **[fast food](kloom:e/fast-food)** an industry.
+
+## The Speedee Service System
+
+The brothers fired the carhops and served everything through windows at the front, where customers walked up, ordered, paid and carried the food away. Plates and silverware gave way to paper wrappers and cups, so no one washed dishes. The menu fell to nine items: a **[hamburger](kloom:e/hamburger)** at fifteen cents, a cheeseburger, three soft drinks in one twelve-ounce size, milk, coffee, potato chips and pie. **[French fries](kloom:e/french-fries)** replaced the chips in 1949. "Our whole concept was based on speed, lower prices, and volume," Richard McDonald said later. They called it the Speedee Service System, and its aim, in the sources the historian Kathleen Toerpe drew on, was to fill an order "in 20 seconds rather than 20 minutes."
+
+Toerpe writes that the brothers, long admirers of **[Henry Ford](kloom:e/henry-ford)**, deliberately took his principles of standardization, the **[assembly line](kloom:e/assembly-line)** and the division of labor into their kitchen, and a _BusinessWeek_ story of July 1949 was headed "Eating on Assembly Line at California Drive-In." Nobody cooked to order. Burgers went on the grill ahead of time, by a forecast of how many each hour would sell, and the crowd was large enough that none waited more than a few minutes. Each worker did one job and passed the work on. In John Love's history of the company, the crew was nine men:
+
+| Crew           | Men | The job                                     |
+| -------------- | --: | ------------------------------------------- |
+| Window men     |   3 | Take the order and the money, hand out food |
+| Grill man      |   1 | Cook the patties                            |
+| Bun men        |   2 | Dress and wrap the burgers                  |
+| French fry man |   1 | Fry the potatoes                            |
+| Shake man      |   1 | Make the milkshakes                         |
+| Cleanup man    |   1 | Keep the kitchen and lot clean              |
+
+In the journalist **[Eric Schlosser](kloom:e/eric-schlosser)**'s telling, one person grilled the hamburger and another "dressed" it, so that a worker had to be taught only one task and skilled short-order cooks were no longer needed. The shakes came later: by 1954 the restaurant had bought eight mixers. The plate draws such a kitchen in plan, with the path of an order through it. It is schematic, set out from the stations these histories name, not from a surviving drawing.
+
+## Ray Kroc and the franchise
+
+When the brothers planned a new red-and-white building in 1952, with two yellow arches through its roof, they drew its kitchen full size in chalk on the tennis court behind their house, marking where every piece of equipment would stand. They sold a few franchises themselves. Then in 1954 **[Ray Kroc](kloom:e/ray-kroc)**, who sold the Prince Castle Multimixer, came to see why one restaurant had bought eight of his machines. He became the brothers' agent for franchises and opened his own McDonald's in **[Des Plaines, Illinois](kloom:e/des-plaines-illinois)**, in April 1955. Kroc was, he later wrote, "carried away by the thought of McDonald's drive-ins proliferating like rabbits with eight Multimixers in each one."
+
+Kroc's **[franchising](kloom:e/franchising)** sold a whole system, not a recipe. His early licensees paid a $950 fee and 1.9 percent of their sales, of which 0.5 went to the brothers, and every restaurant had to be identical in its building, layout, procedures and menu. **[Harry J. Sonneborn](kloom:e/harry-j-sonneborn)**, his finance man, had the company own or lease the land under each restaurant and rent it to the operator, which brought in more than the fees. In 1961 Kroc bought the brothers out for $2.7 million. At the end of 2025 there were 45,356 McDonald's restaurants in more than 100 countries, about 95 percent of them run by franchisees. They were not the first: White Castle had sold small, cheap hamburgers fast from a short menu since 1921, but McDonald's made the method a system that could be copied anywhere.
+
+## What it cost
+
+Fast food reached back to the farm. A chain that sells the same burger and the same fries everywhere needs beef and potatoes made to one specification, in enormous amounts. Schlosser's **[_Fast Food Nation_](kloom:e/fast-food-nation)** (2001) followed that demand to the ranches and the meatpacking plants, and to the minimum-wage kitchens. The frozen french fry has its own frame, on the potato's trail.
+
+On health the evidence is divided. In the CARDIA study, an association rather than a proof, young American adults who ate at fast-food restaurants more than twice a week gained 4.5 kilograms more over fifteen years than those who went less than once, and their insulin resistance rose twice as much. Janet Currie and her colleagues found that a fast-food restaurant within a tenth of a mile of a school raised obesity among its ninth graders by 5.2 percent. Michael Anderson and David Matsa, using the building of rural Interstate highways as a natural experiment, found no causal link between eating out and obesity: diners ate less at other meals. During 2013–2016, 36.6 percent of American adults ate fast food on a given day. The next frame turns from the counter to the home kitchen, with Julia Child.

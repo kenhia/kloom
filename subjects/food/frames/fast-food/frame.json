@@ -1,0 +1,324 @@
+{
+	"id": "fast-food",
+	"topic": "McDonald's and fast food",
+	"position": {
+		"label": "1948",
+		"sort": 1948
+	},
+	"asOf": "2026-10-04",
+	"scene": {
+		"headline": "The kitchen became a",
+		"accent": "LINE.",
+		"palette": "linen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SAN BERNARDINO · RICHARD AND MAURICE McDONALD",
+			"NINE ITEMS · SELF-SERVICE · SPEEDEE SERVICE SYSTEM"
+		],
+		"counter": {
+			"value": "15¢",
+			"label": "a hamburger, December 1948"
+		}
+	},
+	"connections": [
+		{
+			"to": "making/assembly-line",
+			"why": "The McDonald brothers took Ford's principles of the assembly line and the division of labor, worked out at Highland Park in 1913, into a hamburger kitchen in 1948."
+		},
+		{
+			"to": "food/frozen-fries",
+			"why": "McDonald's, whose system demanded the same fries in every restaurant, became the frozen fry's great customer after Kroc's handshake with Simplot in the mid-1960s."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Small Fry, Big Spender: McDonald's and the Rise of a Children's Consumer Culture, 1955–1985",
+			"authors": [
+				{
+					"family": "Toerpe",
+					"given": "Kathleen D."
+				}
+			],
+			"publisher": "Loyola University Chicago",
+			"place": "Chicago",
+			"number": "PhD diss.",
+			"published": "1994-05",
+			"url": "https://ecommons.luc.edu/luc_diss/3457/",
+			"accessed": "2026-10-04",
+			"note": "Chapter 1 tells the 1948 conversion and Kroc's first franchises from the company's archives"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "McDonald's",
+			"url": "https://en.wikipedia.org/w/index.php?title=McDonald's&oldid=1378019643",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of McDonald's",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_McDonald's&oldid=1367001859",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard and Maurice McDonald",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_and_Maurice_McDonald&oldid=1369794793",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ray Kroc",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ray_Kroc&oldid=1377280919",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fast food",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fast_food&oldid=1375572699",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fast Food Nation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fast_Food_Nation&oldid=1371717358",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "article",
+			"title": "Eating on Assembly Line at California Drive-In",
+			"container": "BusinessWeek",
+			"published": "1949-07-23",
+			"pages": "23",
+			"citedIn": "Small Fry, Big Spender: McDonald's and the Rise of a Children's Consumer Culture, 1955–1985"
+		},
+		{
+			"kind": "book",
+			"title": "McDonald's: Behind the Arches",
+			"authors": [
+				{
+					"family": "Love",
+					"given": "John F."
+				}
+			],
+			"publisher": "Bantam Books",
+			"place": "Toronto and New York",
+			"published": "1986",
+			"url": "https://archive.org/details/mcdonaldsbehinda0000love",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets: the nine-man crew and the chalk plan on the tennis court"
+		},
+		{
+			"kind": "book",
+			"title": "Grinding It Out: The Making of McDonald's",
+			"authors": [
+				{
+					"family": "Kroc",
+					"given": "Ray"
+				},
+				{
+					"family": "Anderson",
+					"given": "Robert"
+				}
+			],
+			"publisher": "Henry Regnery",
+			"place": "Chicago",
+			"published": "1977",
+			"url": "https://archive.org/details/grindingitoutmak0000kroc",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Quoted as Toerpe gives it (p. 71), checked in the Internet Archive's full-text search snippets"
+		},
+		{
+			"kind": "book",
+			"title": "Fast Food Nation: The Dark Side of the All-American Meal",
+			"authors": [
+				{
+					"family": "Schlosser",
+					"given": "Eric"
+				}
+			],
+			"publisher": "Houghton Mifflin",
+			"place": "Boston",
+			"published": "2001",
+			"url": "https://archive.org/details/fastfoodnationda0000schl",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets: the division of labor in the 1948 kitchen"
+		},
+		{
+			"kind": "article",
+			"title": "Fast-Food Habits, Weight Gain, and Insulin Resistance (the CARDIA Study): 15-Year Prospective Analysis",
+			"authors": [
+				{
+					"family": "Pereira",
+					"given": "Mark A."
+				},
+				{
+					"family": "Kartashov",
+					"given": "Alex I."
+				},
+				{
+					"family": "Ebbeling",
+					"given": "Cara B."
+				},
+				{
+					"family": "Van Horn",
+					"given": "Linda"
+				},
+				{
+					"family": "Slattery",
+					"given": "Martha L."
+				},
+				{
+					"family": "Jacobs",
+					"given": "David R."
+				},
+				{
+					"family": "Ludwig",
+					"given": "David S."
+				}
+			],
+			"container": "The Lancet",
+			"volume": "365",
+			"issue": "9453",
+			"pages": "36–42",
+			"published": "2005",
+			"doi": "10.1016/S0140-6736(04)17663-0",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Effect of Fast Food Restaurants on Obesity and Weight Gain",
+			"authors": [
+				{
+					"family": "Currie",
+					"given": "Janet"
+				},
+				{
+					"family": "DellaVigna",
+					"given": "Stefano"
+				},
+				{
+					"family": "Moretti",
+					"given": "Enrico"
+				},
+				{
+					"family": "Pathania",
+					"given": "Vikram"
+				}
+			],
+			"container": "American Economic Journal: Economic Policy",
+			"volume": "2",
+			"issue": "3",
+			"pages": "32–63",
+			"published": "2010",
+			"doi": "10.1257/pol.2.3.32",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Are Restaurants Really Supersizing America?",
+			"authors": [
+				{
+					"family": "Anderson",
+					"given": "Michael L."
+				},
+				{
+					"family": "Matsa",
+					"given": "David A."
+				}
+			],
+			"container": "American Economic Journal: Applied Economics",
+			"volume": "3",
+			"issue": "1",
+			"pages": "152–188",
+			"published": "2011",
+			"doi": "10.1257/app.3.1.152",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Fast Food Consumption Among Adults in the United States, 2013–2016",
+			"authors": [
+				{
+					"family": "Fryar",
+					"given": "Cheryl D."
+				},
+				{
+					"family": "Hughes",
+					"given": "Jeffery P."
+				},
+				{
+					"family": "Herrick",
+					"given": "Kirsten A."
+				},
+				{
+					"family": "Ahluwalia",
+					"given": "Namanjeet"
+				}
+			],
+			"publisher": "National Center for Health Statistics",
+			"place": "Hyattsville, MD",
+			"number": "NCHS Data Brief No. 322",
+			"published": "2018-10",
+			"url": "https://www.cdc.gov/nchs/data/databriefs/db322-h.pdf",
+			"accessed": "2026-10-04"
+		}
+	]
+}

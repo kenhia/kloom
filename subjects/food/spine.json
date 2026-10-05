@@ -80,6 +80,13 @@
 				"gm-crops",
 				"hunger-now"
 			]
+		},
+		{
+			"id": "the-table",
+			"title": "The table",
+			"labelKind": "date",
+			"palette": "linen",
+			"frames": ["supermarket", "fast-food"]
 		}
 	]
 }
