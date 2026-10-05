@@ -238,5 +238,11 @@
 			"licence": "MIT",
 			"file": "grain-exports.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "food/holodomor",
+			"why": "In both famines the state took grain on planned or claimed harvests and kept exporting it while villages starved."
+		}
 	]
 }

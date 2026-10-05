@@ -472,6 +472,14 @@
 		{
 			"to": "chemistry/leblanc-solvay",
 			"why": "Salt was taxed as a food almost everywhere; when Britain's salt tax went at the end of 1824, the Leblanc process could turn the same salt into soda on an industrial scale."
+		},
+		{
+			"to": "food/sugar-slavery",
+			"why": "The salt cod Europe's markets refused went to the Caribbean, where the sugar plantations used it to feed the people they held in slavery."
+		},
+		{
+			"to": "food/refrigeration",
+			"why": "Salted food fed armies, navies and cities until refrigeration."
 		}
 	]
 }

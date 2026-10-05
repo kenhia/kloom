@@ -29,6 +29,14 @@
 		{
 			"to": "nursing/lister",
 			"why": "Lister built antiseptic surgery on the same work of Pasteur's that gave pasteurization: that putrefaction and spoilage are caused by living germs, which can be killed."
+		},
+		{
+			"to": "food/appert-canning",
+			"why": "Pasteur granted that Nicolas Appert had first proposed keeping wine by heating it, decades before Pasteur's own patent of 1865."
+		},
+		{
+			"to": "food/first-herds",
+			"why": "The cattle's tuberculosis bacillus, found by 1902 in children who had died of the disease, was the strongest argument for heating milk."
 		}
 	],
 	"citations": [

@@ -236,5 +236,11 @@
 			"number": "LC-DIG-ppmsc-00232",
 			"published": "1938-06"
 		}
+	],
+	"connections": [
+		{
+			"to": "food/tractor",
+			"why": "Tractors let a Plains family break more ground, and later pushed tenant families off it."
+		}
 	]
 }

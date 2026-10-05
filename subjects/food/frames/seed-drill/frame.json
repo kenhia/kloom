@@ -19,7 +19,12 @@
 			"label": "seeds sown broadcast for each plant that grew"
 		}
 	},
-	"connections": [],
+	"connections": [
+		{
+			"to": "food/four-course",
+			"why": "What raised yields first, the seed drill's reading argues, was not the drill but a rotation: turnips and clover."
+		}
+	],
 	"citations": [
 		{
 			"kind": "book",

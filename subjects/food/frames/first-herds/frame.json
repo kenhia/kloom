@@ -1,7 +1,10 @@
 {
 	"id": "first-herds",
 	"topic": "Sheep, goats, cattle and milk",
-	"position": { "label": "c. 8500 BC", "sort": -8500 },
+	"position": {
+		"label": "c. 8500 BC",
+		"sort": -8500
+	},
 	"scene": {
 		"headline": "We made milk into",
 		"accent": "CHEESE.",
@@ -11,12 +14,19 @@
 			"GANJ DAREH · ZAGROS · UPPER EUPHRATES · KUYAVIA",
 			"SHEEP · GOATS · CATTLE · PIGS · MILK"
 		],
-		"counter": { "value": "80", "label": "wild cows behind today's humpless cattle" }
+		"counter": {
+			"value": "80",
+			"label": "wild cows behind today's humpless cattle"
+		}
 	},
 	"connections": [
 		{
 			"to": "making/neolithic-wells",
 			"why": "The Linear Pottery farmers who brought cattle into central Europe and built its timber-lined wells also strained curds from whey in pottery sieves, the oldest cheese making known in northern Europe."
+		},
+		{
+			"to": "food/catalhoyuk",
+			"why": "Çatalhöyük lived on the new crops and the new herds: sheep and goats were its main meat, and cattle were herded only later."
 		}
 	],
 	"citations": [
@@ -24,7 +34,12 @@
 			"kind": "article",
 			"key": true,
 			"title": "Domestication and Early Agriculture in the Mediterranean Basin: Origins, Diffusion, and Impact",
-			"authors": [{ "family": "Zeder", "given": "Melinda A." }],
+			"authors": [
+				{
+					"family": "Zeder",
+					"given": "Melinda A."
+				}
+			],
 			"container": "Proceedings of the National Academy of Sciences",
 			"volume": "105",
 			"issue": "33",
@@ -38,8 +53,14 @@
 			"kind": "article",
 			"title": "The Initial Domestication of Goats (Capra hircus) in the Zagros Mountains 10,000 Years Ago",
 			"authors": [
-				{ "family": "Zeder", "given": "Melinda A." },
-				{ "family": "Hesse", "given": "Brian" }
+				{
+					"family": "Zeder",
+					"given": "Melinda A."
+				},
+				{
+					"family": "Hesse",
+					"given": "Brian"
+				}
 			],
 			"container": "Science",
 			"volume": "287",
@@ -54,12 +75,30 @@
 			"kind": "article",
 			"title": "Modern Taurine Cattle Descended from Small Number of Near-Eastern Founders",
 			"authors": [
-				{ "family": "Bollongino", "given": "Ruth" },
-				{ "family": "Burger", "given": "Joachim" },
-				{ "family": "Powell", "given": "Adam" },
-				{ "family": "Mashkour", "given": "Marjan" },
-				{ "family": "Vigne", "given": "Jean-Denis" },
-				{ "family": "Thomas", "given": "Mark G." }
+				{
+					"family": "Bollongino",
+					"given": "Ruth"
+				},
+				{
+					"family": "Burger",
+					"given": "Joachim"
+				},
+				{
+					"family": "Powell",
+					"given": "Adam"
+				},
+				{
+					"family": "Mashkour",
+					"given": "Marjan"
+				},
+				{
+					"family": "Vigne",
+					"given": "Jean-Denis"
+				},
+				{
+					"family": "Thomas",
+					"given": "Mark G."
+				}
 			],
 			"container": "Molecular Biology and Evolution",
 			"volume": "29",
@@ -74,13 +113,34 @@
 			"kind": "article",
 			"title": "Earliest Date for Milk Use in the Near East and Southeastern Europe Linked to Cattle Herding",
 			"authors": [
-				{ "family": "Evershed", "given": "Richard P." },
-				{ "family": "Payne", "given": "Sebastian" },
-				{ "family": "Sherratt", "given": "Andrew" },
-				{ "family": "Copley", "given": "Mark S." },
-				{ "family": "Coolidge", "given": "Jennifer" },
-				{ "family": "Urem-Kotsu", "given": "Duska" },
-				{ "family": "Kotsakis", "given": "Kostas" }
+				{
+					"family": "Evershed",
+					"given": "Richard P."
+				},
+				{
+					"family": "Payne",
+					"given": "Sebastian"
+				},
+				{
+					"family": "Sherratt",
+					"given": "Andrew"
+				},
+				{
+					"family": "Copley",
+					"given": "Mark S."
+				},
+				{
+					"family": "Coolidge",
+					"given": "Jennifer"
+				},
+				{
+					"family": "Urem-Kotsu",
+					"given": "Duska"
+				},
+				{
+					"family": "Kotsakis",
+					"given": "Kostas"
+				}
 			],
 			"etAl": true,
 			"container": "Nature",
@@ -96,13 +156,34 @@
 			"kind": "article",
 			"title": "Earliest Evidence for Cheese Making in the Sixth Millennium BC in Northern Europe",
 			"authors": [
-				{ "family": "Salque", "given": "Mélanie" },
-				{ "family": "Bogucki", "given": "Peter I." },
-				{ "family": "Pyzel", "given": "Joanna" },
-				{ "family": "Sobkowiak-Tabaka", "given": "Iwona" },
-				{ "family": "Grygiel", "given": "Ryszard" },
-				{ "family": "Szmyt", "given": "Marzena" },
-				{ "family": "Evershed", "given": "Richard P." }
+				{
+					"family": "Salque",
+					"given": "Mélanie"
+				},
+				{
+					"family": "Bogucki",
+					"given": "Peter I."
+				},
+				{
+					"family": "Pyzel",
+					"given": "Joanna"
+				},
+				{
+					"family": "Sobkowiak-Tabaka",
+					"given": "Iwona"
+				},
+				{
+					"family": "Grygiel",
+					"given": "Ryszard"
+				},
+				{
+					"family": "Szmyt",
+					"given": "Marzena"
+				},
+				{
+					"family": "Evershed",
+					"given": "Richard P."
+				}
 			],
 			"container": "Nature",
 			"volume": "493",
@@ -118,13 +199,34 @@
 			"key": true,
 			"title": "Dairying, Diseases and the Evolution of Lactase Persistence in Europe",
 			"authors": [
-				{ "family": "Evershed", "given": "Richard P." },
-				{ "family": "Davey Smith", "given": "George" },
-				{ "family": "Roffet-Salque", "given": "Mélanie" },
-				{ "family": "Timpson", "given": "Adrian" },
-				{ "family": "Diekmann", "given": "Yoan" },
-				{ "family": "Lyon", "given": "Matthew S." },
-				{ "family": "Cramp", "given": "Lucy J. E." }
+				{
+					"family": "Evershed",
+					"given": "Richard P."
+				},
+				{
+					"family": "Davey Smith",
+					"given": "George"
+				},
+				{
+					"family": "Roffet-Salque",
+					"given": "Mélanie"
+				},
+				{
+					"family": "Timpson",
+					"given": "Adrian"
+				},
+				{
+					"family": "Diekmann",
+					"given": "Yoan"
+				},
+				{
+					"family": "Lyon",
+					"given": "Matthew S."
+				},
+				{
+					"family": "Cramp",
+					"given": "Lucy J. E."
+				}
 			],
 			"etAl": true,
 			"container": "Nature",
@@ -140,13 +242,34 @@
 			"kind": "article",
 			"title": "Measles Virus and Rinderpest Virus Divergence Dated to the Sixth Century BCE",
 			"authors": [
-				{ "family": "Düx", "given": "Ariane" },
-				{ "family": "Lequime", "given": "Sebastian" },
-				{ "family": "Patrono", "given": "Livia Victoria" },
-				{ "family": "Vrancken", "given": "Bram" },
-				{ "family": "Boral", "given": "Sengül" },
-				{ "family": "Gogarten", "given": "Jan F." },
-				{ "family": "Hilbig", "given": "Antonia" }
+				{
+					"family": "Düx",
+					"given": "Ariane"
+				},
+				{
+					"family": "Lequime",
+					"given": "Sebastian"
+				},
+				{
+					"family": "Patrono",
+					"given": "Livia Victoria"
+				},
+				{
+					"family": "Vrancken",
+					"given": "Bram"
+				},
+				{
+					"family": "Boral",
+					"given": "Sengül"
+				},
+				{
+					"family": "Gogarten",
+					"given": "Jan F."
+				},
+				{
+					"family": "Hilbig",
+					"given": "Antonia"
+				}
 			],
 			"etAl": true,
 			"container": "Science",
@@ -162,13 +285,34 @@
 			"kind": "article",
 			"title": "A New Evolutionary Scenario for the Mycobacterium tuberculosis Complex",
 			"authors": [
-				{ "family": "Brosch", "given": "Roland" },
-				{ "family": "Gordon", "given": "Stephen V." },
-				{ "family": "Marmiesse", "given": "Magali" },
-				{ "family": "Brodin", "given": "Priscille" },
-				{ "family": "Buchrieser", "given": "Carmen" },
-				{ "family": "Eiglmeier", "given": "Karin" },
-				{ "family": "Garnier", "given": "T." }
+				{
+					"family": "Brosch",
+					"given": "Roland"
+				},
+				{
+					"family": "Gordon",
+					"given": "Stephen V."
+				},
+				{
+					"family": "Marmiesse",
+					"given": "Magali"
+				},
+				{
+					"family": "Brodin",
+					"given": "Priscille"
+				},
+				{
+					"family": "Buchrieser",
+					"given": "Carmen"
+				},
+				{
+					"family": "Eiglmeier",
+					"given": "Karin"
+				},
+				{
+					"family": "Garnier",
+					"given": "T."
+				}
 			],
 			"etAl": true,
 			"container": "Proceedings of the National Academy of Sciences",
@@ -184,13 +328,34 @@
 			"kind": "article",
 			"title": "Crop Manuring and Intensive Land Management by Europe's First Farmers",
 			"authors": [
-				{ "family": "Bogaard", "given": "Amy" },
-				{ "family": "Fraser", "given": "Rebecca" },
-				{ "family": "Heaton", "given": "Tim H. E." },
-				{ "family": "Wallace", "given": "Michael P." },
-				{ "family": "Vaiglova", "given": "Petra" },
-				{ "family": "Charles", "given": "Michael" },
-				{ "family": "Jones", "given": "Glynis" }
+				{
+					"family": "Bogaard",
+					"given": "Amy"
+				},
+				{
+					"family": "Fraser",
+					"given": "Rebecca"
+				},
+				{
+					"family": "Heaton",
+					"given": "Tim H. E."
+				},
+				{
+					"family": "Wallace",
+					"given": "Michael P."
+				},
+				{
+					"family": "Vaiglova",
+					"given": "Petra"
+				},
+				{
+					"family": "Charles",
+					"given": "Michael"
+				},
+				{
+					"family": "Jones",
+					"given": "Glynis"
+				}
 			],
 			"etAl": true,
 			"container": "Proceedings of the National Academy of Sciences",
@@ -208,7 +373,11 @@
 			"title": "Lactase persistence",
 			"url": "https://en.wikipedia.org/w/index.php?title=Lactase_persistence&oldid=1369975612",
 			"accessed": "2026-10-04",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-08-18"
@@ -218,7 +387,11 @@
 			"title": "Lactose intolerance",
 			"url": "https://en.wikipedia.org/w/index.php?title=Lactose_intolerance&oldid=1376401851",
 			"accessed": "2026-10-04",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-09-24"
@@ -228,7 +401,11 @@
 			"title": "Secondary products revolution",
 			"url": "https://en.wikipedia.org/w/index.php?title=Secondary_products_revolution&oldid=1325001129",
 			"accessed": "2026-10-04",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2025-11-30"
@@ -238,7 +415,11 @@
 			"title": "Ganj Dareh",
 			"url": "https://en.wikipedia.org/w/index.php?title=Ganj_Dareh&oldid=1369639028",
 			"accessed": "2026-10-04",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-08-16"

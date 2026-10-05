@@ -331,6 +331,10 @@
 		{
 			"to": "food/irish-famine",
 			"why": "The potato blight in Ireland in 1845 turned Peel to repeal, which split his party and brought down the government that had begun Ireland's relief."
+		},
+		{
+			"to": "food/malthus",
+			"why": "In the argument over the Corn Laws, Thomas Malthus took the landlords' side."
 		}
 	]
 }

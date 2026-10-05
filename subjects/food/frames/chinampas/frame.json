@@ -24,6 +24,10 @@
 		{
 			"to": "western-civ/valladolid",
 			"why": "Valladolid's frame tells how Cortés and his Tlaxcalan allies took Tenochtitlan in 1521 after smallpox had swept the city; this frame follows what that conquest did to the lake fields that fed it."
+		},
+		{
+			"to": "food/maize",
+			"why": "Maize, domesticated from teosinte in Mexico, was the chinampas' first crop."
 		}
 	],
 	"citations": [

@@ -127,5 +127,11 @@
 			],
 			"published": "2014-04-27"
 		}
+	],
+	"connections": [
+		{
+			"to": "food/founder-crops",
+			"why": "The Natufians of Shubayqa baked wild einkorn into bread some 4,000 years before it and the other founder crops were domesticated."
+		}
 	]
 }

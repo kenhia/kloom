@@ -20,6 +20,14 @@
 		{
 			"to": "chemistry/haber-bosch",
 			"why": "The four-course rotation fed wheat on nitrogen that bacteria in clover's roots fixed slowly from the air; the Haber–Bosch process fixed it in a factory and lifted the limit that clover had set on yields."
+		},
+		{
+			"to": "food/open-fields",
+			"why": "The turnip took the place of the bare fallow, the year in three when a field of the old rotation rested."
+		},
+		{
+			"to": "food/fertilizer",
+			"why": "Before synthetic fertilizer, clover's nitrogen fixation was how a rotation fed nitrogen to wheat and barley; Haber's ammonia lifted that limit."
 		}
 	],
 	"citations": [

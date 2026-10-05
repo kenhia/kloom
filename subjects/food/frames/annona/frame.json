@@ -321,6 +321,10 @@
 		{
 			"to": "western-civ/fall-of-the-west",
 			"why": "When the Vandals took Carthage in 439, the western empire lost most of the African grain that had fed Rome."
+		},
+		{
+			"to": "food/egypt-grain",
+			"why": "After Augustus took Egypt in 30 BC, the Nile's grain fed Rome: four months of the year, in the speech Josephus wrote for Agrippa II."
 		}
 	]
 }

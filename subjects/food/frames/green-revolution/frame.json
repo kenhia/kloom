@@ -20,6 +20,14 @@
 		{
 			"to": "chemistry/haber-bosch",
 			"why": "The dwarf wheats were bred to turn heavy doses of nitrogen fertilizer into grain, and the Haber–Bosch process makes almost all of the world's synthetic nitrogen, about 70 percent of it for fertilizer."
+		},
+		{
+			"to": "food/fertilizer",
+			"why": "The semi-dwarf wheats were bred to turn heavy doses of nitrogen fertilizer into grain without falling over."
+		},
+		{
+			"to": "food/rice",
+			"why": "IR8, the Green Revolution's semi-dwarf rice, was released by the International Rice Research Institute in 1966."
 		}
 	],
 	"citations": [

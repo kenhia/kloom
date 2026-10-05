@@ -20,6 +20,14 @@
 		{
 			"to": "chemistry/enzymes",
 			"why": "Pasteur's studies of beer made living yeast the agent of fermentation; Buchner later fermented sugar with juice pressed out of brewer's yeast."
+		},
+		{
+			"to": "food/pasteurization",
+			"why": "Pasteur, who kept wine by heating it, turned to beer and its ferments in his Études sur la bière of 1876."
+		},
+		{
+			"to": "food/refrigeration",
+			"why": "Carl von Linde's refrigerating machines, first built for the Spaten brewery, let lager be brewed in summer."
 		}
 	],
 	"citations": [

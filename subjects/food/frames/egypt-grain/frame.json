@@ -230,6 +230,10 @@
 		{
 			"to": "western-civ/royal-cubit",
 			"why": "Egypt measured the Nile's flood in cubits, from the Palermo Stone's records to the nilometers by which officials forecast the harvest and set its taxes."
+		},
+		{
+			"to": "food/founder-crops",
+			"why": "Egypt's basins were sown with emmer and barley, two of the Fertile Crescent's founder crops."
 		}
 	]
 }

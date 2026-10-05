@@ -250,6 +250,14 @@
 		{
 			"to": "western-civ/valladolid",
 			"why": "Valladolid's reading tabulates the estimates of how many people lived in the Americas in 1492 and the dying that followed, the disease that crossed in this exchange."
+		},
+		{
+			"to": "food/maize",
+			"why": "Maize crossed the Atlantic without the lime cooking of the Americas, and where the poor ate little else, pellagra followed."
+		},
+		{
+			"to": "food/chinampas",
+			"why": "The smallpox that struck the Aztec capital in 1520 came with the Exchange; the conquest that followed drained the lake the chinampas were built in."
 		}
 	]
 }
