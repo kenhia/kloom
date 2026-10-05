@@ -56,7 +56,15 @@
 			"title": "Keeping food",
 			"labelKind": "date",
 			"palette": "frost",
-			"frames": ["salt", "lind-scurvy", "appert-canning", "pasteurization", "refrigeration"]
+			"frames": [
+				"salt",
+				"lind-scurvy",
+				"appert-canning",
+				"pasteurization",
+				"refrigeration",
+				"pure-food",
+				"birdseye"
+			]
 		}
 	]
 }

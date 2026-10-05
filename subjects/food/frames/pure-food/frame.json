@@ -1,0 +1,369 @@
+{
+	"id": "pure-food",
+	"topic": "Adulteration and pure food laws",
+	"position": {
+		"label": "1820–1906",
+		"sort": 1906
+	},
+	"scene": {
+		"headline": "There was death in the",
+		"accent": "POT.",
+		"palette": "frost",
+		"illustration": "scene.svg",
+		"metadata": ["LONDON · WASHINGTON · CHICAGO", "ACCUM · HASSALL · WILEY · SINCLAIR"],
+		"counter": {
+			"value": "31 of 34",
+			"label": "London coffees found cut with chicory"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/prontosil",
+			"why": "The Pure Food and Drug Act of 1906 policed labels only; after Elixir Sulfanilamide killed more than a hundred people in 1937, the Federal Food, Drug, and Cosmetic Act of 1938 replaced it and made firms show a new drug was safe before selling it."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Treatise on Adulterations of Food, and Culinary Poisons",
+			"authors": [
+				{
+					"family": "Accum",
+					"given": "Fredrick"
+				}
+			],
+			"place": "Philadelphia",
+			"publisher": "Ab'm Small",
+			"published": "1820",
+			"url": "https://www.gutenberg.org/ebooks/19031",
+			"accessed": "2026-10-04",
+			"note": "Read in Project Gutenberg's text of the Philadelphia edition, the same year as the London first; the alum test is in the chapter on bread"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Food and Its Adulterations; Comprising the Reports of the Analytical Sanitary Commission of \"The Lancet\" for the Years 1851 to 1854 Inclusive",
+			"authors": [
+				{
+					"family": "Hassall",
+					"given": "Arthur Hill"
+				}
+			],
+			"place": "London",
+			"publisher": "Longman, Brown, Green, and Longmans",
+			"published": "1855",
+			"url": "https://archive.org/details/fooditsadulterat00hassrich",
+			"accessed": "2026-10-04",
+			"note": "Coffee and chicory under the microscope, and the first series of 34 coffees"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Influence of Food Preservatives and Artificial Colors on Digestion and Health. I. Boric Acid and Borax",
+			"authors": [
+				{
+					"family": "Wiley",
+					"given": "H. W."
+				}
+			],
+			"number": "Bureau of Chemistry Bulletin No. 84, Part I",
+			"place": "Washington",
+			"publisher": "U.S. Department of Agriculture",
+			"published": "1904",
+			"url": "https://archive.org/details/influenceoffoodp84wile",
+			"accessed": "2026-10-04",
+			"note": "The plan of the hygienic table, the pledge, and the conclusions on borax"
+		},
+		{
+			"kind": "report",
+			"title": "Influence of Food Preservatives and Artificial Colors on Digestion and Health. V. Formaldehyde",
+			"authors": [
+				{
+					"family": "Wiley",
+					"given": "H. W."
+				}
+			],
+			"number": "Bureau of Chemistry Bulletin No. 84, Part V",
+			"place": "Washington",
+			"publisher": "U.S. Department of Agriculture",
+			"published": "1908-12-23",
+			"url": "https://archive.org/details/influenceoffoodp84wile_3",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "An Act For preventing the manufacture, sale, or transportation of adulterated or misbranded or poisonous or deleterious foods, drugs, medicines, and liquors, and for regulating traffic therein, and for other purposes",
+			"publicLaw": "59-384",
+			"chapter": "3915",
+			"code": {
+				"volume": "34",
+				"name": "Stat.",
+				"page": "768"
+			},
+			"published": "1906-06-30",
+			"container": "United States Statutes at Large",
+			"publisher": "govinfo",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-34/pdf/STATUTE-34-Pg768.pdf",
+			"accessed": "2026-10-04",
+			"note": "The Pure Food and Drug Act; section 7 defines adulterated food"
+		},
+		{
+			"kind": "statute",
+			"title": "Sale of Food and Drugs Act 1875",
+			"citeAs": "regnal",
+			"chapter": "63",
+			"code": {
+				"volume": "38 & 39",
+				"name": "Vict."
+			},
+			"published": "1875-08-11",
+			"container": "legislation.gov.uk",
+			"publisher": "The National Archives",
+			"url": "https://www.legislation.gov.uk/ukpga/Vict/38-39/63/contents/enacted",
+			"accessed": "2026-10-04",
+			"note": "Sections 6 and 10, as enacted"
+		},
+		{
+			"kind": "book",
+			"title": "The Jungle",
+			"authors": [
+				{
+					"family": "Sinclair",
+					"given": "Upton"
+				}
+			],
+			"place": "New York",
+			"publisher": "Doubleday, Page & Co.",
+			"published": "1906",
+			"url": "https://www.gutenberg.org/ebooks/140",
+			"accessed": "2026-10-04",
+			"note": "The sausage passage is in chapter 14"
+		},
+		{
+			"kind": "article",
+			"title": "What Life Means to Me",
+			"authors": [
+				{
+					"family": "Sinclair",
+					"given": "Upton"
+				}
+			],
+			"container": "Cosmopolitan",
+			"published": "1906-10",
+			"pages": "594",
+			"citedIn": "Wikipedia, \"The Jungle\""
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Determinants of Progressive Era Reform: The Pure Food and Drugs Act of 1906",
+			"authors": [
+				{
+					"family": "Law",
+					"given": "Marc T."
+				},
+				{
+					"family": "Libecap",
+					"given": "Gary D."
+				}
+			],
+			"number": "NBER Working Paper 10984",
+			"publisher": "National Bureau of Economic Research",
+			"place": "Cambridge, MA",
+			"published": "2004-12",
+			"doi": "10.3386/w10984",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "The Politics of Purity: Harvey Washington Wiley and the Origins of Federal Food Policy",
+			"authors": [
+				{
+					"family": "Coppin",
+					"given": "Clayton"
+				},
+				{
+					"family": "High",
+					"given": "Jack"
+				}
+			],
+			"place": "Ann Arbor",
+			"publisher": "University of Michigan Press",
+			"published": "1999",
+			"doi": "10.3998/mpub.16349",
+			"read": "record",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "Part I: The 1906 Food and Drugs Act and Its Enforcement",
+			"authors": [
+				{
+					"name": "U.S. Food and Drug Administration"
+				}
+			],
+			"container": "FDA History",
+			"publisher": "U.S. Food and Drug Administration",
+			"published": "2019-04-24",
+			"url": "https://www.fda.gov/about-fda/changes-science-law-and-regulatory-authorities/part-i-1906-food-and-drugs-act-and-its-enforcement",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Friedrich Accum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Friedrich_Accum&oldid=1371995988",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arthur Hill Hassall",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arthur_Hill_Hassall&oldid=1322473921",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1858 Bradford sweets poisoning",
+			"url": "https://en.wikipedia.org/w/index.php?title=1858_Bradford_sweets_poisoning&oldid=1377339942",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sale of Food and Drugs Act 1875",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sale_of_Food_and_Drugs_Act_1875&oldid=1367382174",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harvey Washington Wiley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harvey_Washington_Wiley&oldid=1378467138",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pure Food and Drug Act",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pure_Food_and_Drug_Act&oldid=1322663667",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Federal Meat Inspection Act",
+			"url": "https://en.wikipedia.org/w/index.php?title=Federal_Meat_Inspection_Act&oldid=1358245507",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Jungle",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Jungle&oldid=1378066059",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Food and Drug Administration",
+			"url": "https://en.wikipedia.org/w/index.php?title=Food_and_Drug_Administration&oldid=1377081339",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "A Treatise on Adulterations of Food, and Culinary Poisons, front cover",
+			"url": "https://commons.wikimedia.org/wiki/File:A_Treatise_on_Adulterations_of_Food,_and_Culinary_Poisons_-_DPLA_-_6eedaae0dac0846f13f2a75e234b29fa_(page_1).jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "accum-cover.jpg",
+			"authors": [
+				{
+					"family": "Accum",
+					"given": "Friedrich Christian"
+				}
+			],
+			"container": "Science History Institute",
+			"published": "1820"
+		},
+		{
+			"kind": "media",
+			"title": "Wiley & Poison Squad (FDA001)",
+			"url": "https://commons.wikimedia.org/wiki/File:Wiley_%26_Poison_Squad_(FDA001)_(6946958227).jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "poison-squad.jpg",
+			"container": "FDA History Office, U.S. Food and Drug Administration",
+			"published": "1903",
+			"circa": true,
+			"note": "A US government work; dated from the trials, which ran from 1902"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"food/pure-food": [
+		["Friedrich Accum", "friedrich-accum"],
+		["alum", "alum"],
+		["Arthur Hill Hassall", "arthur-hill-hassall"],
+		["_The Lancet_", "the-lancet"],
+		["Harvey Washington Wiley", "harvey-washington-wiley"],
+		["United States Department of Agriculture", "united-states-department-of-agriculture"],
+		["borax", "borax"],
+		["formaldehyde", "formaldehyde"],
+		["Upton Sinclair", "upton-sinclair"],
+		["_The Jungle_", "the-jungle"],
+		["Theodore Roosevelt", "theodore-roosevelt"],
+		["Federal Meat Inspection Act", "federal-meat-inspection-act"],
+		["Pure Food and Drug Act", "pure-food-and-drug-act"],
+		["Food and Drug Administration", "food-and-drug-administration"],
+		["Federal Food, Drug, and Cosmetic Act", "federal-food-drug-and-cosmetic-act"]
+	],
+	"food/birdseye": [
+		["Clarence Birdseye", "clarence-birdseye"],
+		["United States Department of Agriculture", "united-states-department-of-agriculture"],
+		["Labrador", "labrador"],
+		["Inuit", "inuit"],
+		["Gloucester, Massachusetts", "gloucester-massachusetts"],
+		["calcium chloride", "calcium-chloride"],
+		["ammonia", "ammonia"],
+		["Goldman Sachs", "goldman-sachs"],
+		["General Foods", "general-foods"],
+		["Springfield, Massachusetts", "springfield-massachusetts"],
+		["Birds Eye", "birds-eye"],
+		["refrigerators", "refrigerator"],
+		["cold chain", "cold-chain"],
+		["frozen meal", "frozen-meal"]
+	]
+}
