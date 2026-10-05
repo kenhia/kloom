@@ -1,0 +1,437 @@
+{
+	"id": "open-fields",
+	"topic": "The heavy plow and the open fields",
+	"position": {
+		"label": "c. 800–1350",
+		"sort": 800
+	},
+	"scene": {
+		"headline": "We plowed in",
+		"accent": "STRIPS.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAROLINGIAN MANORS · DOMESDAY ENGLAND",
+			"COULTER · SHARE · MOLDBOARD · THREE FIELDS"
+		],
+		"counter": {
+			"value": "8",
+			"label": "oxen to a Domesday plow team"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/black-death",
+			"why": "The Black Death's labor shortage, which western-civ follows through the wages the Statute of Labourers set for reapers and threshers, began to break up the open fields as richer farmers gathered strips and grain gave way to sheep."
+		},
+		{
+			"to": "making/wind-sawmill",
+			"why": "The windmill that ground medieval grain from the 1180s is the machine Cornelis Corneliszoon fitted with a crankshaft in the 1590s to saw timber."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Walter of Henley's Husbandry, together with an Anonymous Husbandry, Seneschaucie, and Robert Grosseteste's Rules",
+			"authors": [
+				{
+					"name": "Walter of Henley"
+				}
+			],
+			"translators": [
+				{
+					"family": "Lamond",
+					"given": "Elizabeth"
+				}
+			],
+			"place": "London",
+			"publisher": "Longmans, Green, and Co.",
+			"published": "1890",
+			"url": "https://archive.org/details/walterofhenleysh00henluoft",
+			"accessed": "2026-10-04",
+			"note": "Plowing an acre on p. 9, costs and the threefold yield on p. 19, the expected yields on p. 71"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Capitulary De Villis",
+			"container": "Readings in European History",
+			"volume": "1",
+			"editors": [
+				{
+					"family": "Robinson",
+					"given": "James Harvey"
+				}
+			],
+			"translators": [
+				{
+					"family": "Robinson",
+					"given": "James Harvey"
+				}
+			],
+			"place": "Boston",
+			"publisher": "Ginn and Company",
+			"published": "1904",
+			"pages": "137–139",
+			"url": "https://sourcebooks.fordham.edu/source/carol-devillis.asp",
+			"accessed": "2026-10-04",
+			"note": "Read in the Internet Medieval Sourcebook's transcription"
+		},
+		{
+			"kind": "chapter",
+			"title": "Polyptyque de Villeneuve-St. Georges",
+			"container": "A Source Book for Medieval Economic History",
+			"editors": [
+				{
+					"family": "Cave",
+					"given": "Roy C."
+				},
+				{
+					"family": "Coulson",
+					"given": "Herbert H."
+				}
+			],
+			"place": "Milwaukee",
+			"publisher": "Bruce Publishing",
+			"published": "1936",
+			"pages": "43–44",
+			"url": "https://sourcebooks.fordham.edu/source/800irminon.asp",
+			"accessed": "2026-10-04",
+			"note": "From Guérard's edition of the polyptych; read in the Internet Medieval Sourcebook's modernized transcription"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Roman to Early Medieval Cereal Farming in the Rhineland: Weeds, Tillage, and the Spread of the Mouldboard Plough",
+			"authors": [
+				{
+					"family": "Hamerow",
+					"given": "Helena"
+				},
+				{
+					"family": "Zerl",
+					"given": "Tanja"
+				},
+				{
+					"family": "Kropp",
+					"given": "Claus"
+				},
+				{
+					"family": "Bogaard",
+					"given": "Amy"
+				}
+			],
+			"container": "Landscape History",
+			"volume": "44",
+			"issue": "2",
+			"pages": "5–13",
+			"published": "2023",
+			"doi": "10.1080/01433768.2023.2284544",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "An Integrated Bioarchaeological Approach to the Medieval 'Agricultural Revolution': A Case Study from Stafford, England, c. AD 800–1200",
+			"authors": [
+				{
+					"family": "Hamerow",
+					"given": "Helena"
+				},
+				{
+					"family": "Bogaard",
+					"given": "Amy"
+				},
+				{
+					"family": "Charles",
+					"given": "Michael"
+				},
+				{
+					"family": "Forster",
+					"given": "Emily"
+				},
+				{
+					"family": "Holmes",
+					"given": "Matilda"
+				},
+				{
+					"family": "McKerracher",
+					"given": "Mark"
+				},
+				{
+					"family": "Neil",
+					"given": "Samantha"
+				}
+			],
+			"etAl": true,
+			"container": "European Journal of Archaeology",
+			"published": "2020",
+			"doi": "10.1017/eaa.2020.6",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Technical Determinism: The Stirrup and the Plough",
+			"authors": [
+				{
+					"family": "Sawyer",
+					"given": "P. H."
+				},
+				{
+					"family": "Hilton",
+					"given": "R. H."
+				}
+			],
+			"container": "Past & Present",
+			"volume": "24",
+			"pages": "90–100",
+			"published": "1963",
+			"doi": "10.1093/past/24.1.90",
+			"accessed": "2026-10-04",
+			"citedIn": "Lynn Townsend White Jr."
+		},
+		{
+			"kind": "book",
+			"title": "Medieval Technology and Social Change",
+			"authors": [
+				{
+					"name": "Lynn White Jr."
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Oxford University Press",
+			"published": "1962",
+			"citedIn": "Lynn Townsend White Jr."
+		},
+		{
+			"kind": "article",
+			"title": "Cereal Yields on the Sussex Estates of Battle Abbey during the Later Middle Ages",
+			"authors": [
+				{
+					"family": "Brandon",
+					"given": "P. F."
+				}
+			],
+			"container": "The Economic History Review",
+			"volume": "25",
+			"published": "1972",
+			"citedIn": "Open-field system"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Open-field system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Open-field_system&oldid=1373687636",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plough",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plough&oldid=1378409125",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ridge and furrow",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ridge_and_furrow&oldid=1372866300",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Three-field system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Three-field_system&oldid=1347626094",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carruca",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carruca&oldid=1370630250",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ard (plough)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ard_(plough)&oldid=1350756046",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Capitulare de villis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Capitulare_de_villis&oldid=1334619250",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Polyptych of Irminon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Polyptych_of_Irminon&oldid=1182904794",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2023-11-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lynn Townsend White Jr.",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lynn_Townsend_White_Jr.&oldid=1378502105",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Domesday Book",
+			"url": "https://en.wikipedia.org/w/index.php?title=Domesday_Book&oldid=1375122180",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Watermill",
+			"url": "https://en.wikipedia.org/w/index.php?title=Watermill&oldid=1376990395",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Windmill",
+			"url": "https://en.wikipedia.org/w/index.php?title=Windmill&oldid=1368600344",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Walter of Henley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Walter_of_Henley&oldid=1357715963",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Laxton, Nottinghamshire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Laxton,_Nottinghamshire&oldid=1363695156",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-11"
+		},
+		{
+			"kind": "media",
+			"title": "Très Riches Heures du duc de Berry, folio 3 verso: March (detail)",
+			"url": "https://commons.wikimedia.org/wiki/File:Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_mars.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "berry-march.jpg",
+			"authors": [
+				{
+					"name": "Limbourg brothers and Barthélemy d'Eyck"
+				}
+			],
+			"container": "Très Riches Heures du duc de Berry, Musée Condé, Chantilly",
+			"published": "1412",
+			"circa": true,
+			"note": "Cropped to the plowing"
+		}
+	]
+}

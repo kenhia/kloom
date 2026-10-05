@@ -1,0 +1,372 @@
+{
+	"id": "chinampas",
+	"topic": "The chinampas of Tenochtitlan",
+	"position": {
+		"label": "1325–1521",
+		"sort": 1325
+	},
+	"asOf": "2026-10-04",
+	"scene": {
+		"headline": "We farmed the",
+		"accent": "LAKE.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TENOCHTITLAN · LAKE TEXCOCO · XOCHIMILCO",
+			"MUD · WATER PLANTS · AHUEJOTE WILLOWS · CANALS"
+		],
+		"counter": {
+			"value": "60,000",
+			"label": "traders a day at Tlatelolco, by Cortés's count"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/valladolid",
+			"why": "Valladolid's frame tells how Cortés and his Tlaxcalan allies took Tenochtitlan in 1521 after smallpox had swept the city; this frame follows what that conquest did to the lake fields that fed it."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Chinampas: An Urban Farming Model of the Aztecs and a Potential Solution for Modern Megalopolis",
+			"authors": [
+				{
+					"family": "Ebel",
+					"given": "Roland"
+				}
+			],
+			"container": "HortTechnology",
+			"volume": "30",
+			"issue": "1",
+			"pages": "13–19",
+			"published": "2020",
+			"doi": "10.21273/HORTTECH04310-19",
+			"accessed": "2026-10-04",
+			"note": "Construction, canals, crops and today's Xochimilco; read in the author's accepted copy"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Basin of Mexico: Critical Environmental Issues and Sustainability",
+			"authors": [
+				{
+					"family": "Ezcurra",
+					"given": "Exequiel"
+				},
+				{
+					"family": "Mazari-Hiriart",
+					"given": "Marisa"
+				},
+				{
+					"family": "Pisanty",
+					"given": "Irene"
+				},
+				{
+					"family": "Aguilar",
+					"given": "Adrián Guillermo"
+				}
+			],
+			"place": "Tokyo",
+			"publisher": "United Nations University Press",
+			"published": "1999",
+			"url": "https://collections.unu.edu/eserv/UNU:2389/nLib9280810219.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Letters of Cortés: The Five Letters of Relation from Fernando Cortés to the Emperor Charles V",
+			"volume": "1",
+			"authors": [
+				{
+					"family": "Cortés",
+					"given": "Hernán"
+				}
+			],
+			"translators": [
+				{
+					"family": "MacNutt",
+					"given": "Francis Augustus"
+				}
+			],
+			"place": "New York",
+			"publisher": "G. P. Putnam's Sons",
+			"published": "1908",
+			"url": "https://archive.org/details/lettersofcorts01cortuoft",
+			"accessed": "2026-10-04",
+			"note": "The market, in the second letter, pp. 257–258"
+		},
+		{
+			"kind": "book",
+			"title": "The True History of the Conquest of New Spain",
+			"volume": "2",
+			"authors": [
+				{
+					"family": "Díaz del Castillo",
+					"given": "Bernal"
+				}
+			],
+			"translators": [
+				{
+					"family": "Maudslay",
+					"given": "Alfred Percival"
+				}
+			],
+			"place": "London",
+			"publisher": "Hakluyt Society",
+			"published": "1910",
+			"url": "https://archive.org/details/truehistoryofcon2242dazd",
+			"accessed": "2026-10-04",
+			"note": "The market at Tlatelolco, pp. 70–73"
+		},
+		{
+			"kind": "article",
+			"title": "Settlement Pattern and Chinampa Agriculture at Tenochtitlan",
+			"authors": [
+				{
+					"family": "Calnek",
+					"given": "Edward E."
+				}
+			],
+			"container": "American Antiquity",
+			"volume": "37",
+			"issue": "1",
+			"pages": "104–115",
+			"published": "1972",
+			"url": "https://www.jstor.org/stable/278892",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Chinampa Agriculture, Surplus Production, and Political Change at Xaltocan, Mexico",
+			"authors": [
+				{
+					"family": "Morehart",
+					"given": "Christopher T."
+				}
+			],
+			"container": "Ancient Mesoamerica",
+			"volume": "27",
+			"issue": "1",
+			"pages": "183–196",
+			"published": "2016",
+			"doi": "10.1017/S0956536116000109",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Chronology and Collapse of Pre-Aztec Raised Field (Chinampa) Agriculture in the Northern Basin of Mexico",
+			"authors": [
+				{
+					"family": "Morehart",
+					"given": "Christopher T."
+				},
+				{
+					"family": "Frederick",
+					"given": "Charles"
+				}
+			],
+			"container": "Antiquity",
+			"volume": "88",
+			"issue": "340",
+			"pages": "531–548",
+			"published": "2014",
+			"doi": "10.1017/S0003598X00101164",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Chinampa Agriculture in the World Natural and Cultural Heritage Zone in Xochimilco, Tláhuac and Milpa Alta",
+			"container": "Globally Important Agricultural Heritage Systems",
+			"publisher": "Food and Agriculture Organization of the United Nations",
+			"url": "https://www.fao.org/giahs/giahsaroundtheworld/designated-sites/latin-america-and-the-caribbean/chinampa-agriculture-in-the-world-natural-and-cultural-heritage-zone-in-xochimilco-tlahuac-and-milpa-alta/en/",
+			"accessed": "2026-10-04",
+			"note": "Read in the Internet Archive's copy of April 2024; the page has since moved"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chinampa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chinampa&oldid=1377818181",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aztecs",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aztecs&oldid=1374300065",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tenochtitlan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tenochtitlan&oldid=1377746652",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Codex Mendoza",
+			"url": "https://en.wikipedia.org/w/index.php?title=Codex_Mendoza&oldid=1373341018",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tlatelolco (altepetl)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tlatelolco_(altepetl)&oldid=1378550487",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lake Texcoco",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lake_Texcoco&oldid=1366281031",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lake Xochimilco",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lake_Xochimilco&oldid=1366284877",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Valley of Mexico",
+			"url": "https://en.wikipedia.org/w/index.php?title=Valley_of_Mexico&oldid=1368669206",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fall of Tenochtitlan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fall_of_Tenochtitlan&oldid=1371683304",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cocoliztli epidemics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cocoliztli_epidemics&oldid=1378555585",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Xochimilco",
+			"url": "https://en.wikipedia.org/w/index.php?title=Xochimilco&oldid=1378285959",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Salix bonplandiana",
+			"url": "https://en.wikipedia.org/w/index.php?title=Salix_bonplandiana&oldid=1322085186",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-14"
+		},
+		{
+			"kind": "media",
+			"title": "Codex Mendoza, folio 60r",
+			"url": "https://commons.wikimedia.org/wiki/File:Codex_Mendoza_folio_60r.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "mendoza-60r.jpg",
+			"container": "Codex Mendoza, MS. Arch. Selden. A. 1, Bodleian Library, Oxford",
+			"published": "1541",
+			"circa": true
+		}
+	]
+}

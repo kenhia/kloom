@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M14 150 L386 150"/>
+		<path pathLength="1" d="M120 166 L124 166 M127 166 L131 166 M134 166 L138 166 M141 166 L145 166 M148 166 L152 166 M155 166 L159 166 M162 166 L166 166 M169 166 L173 166 M176 166 L180 166 M183 166 L187 166 M190 166 L194 166 M197 166 L201 166 M204 166 L208 166 M211 166 L215 166 M218 166 L222 166 M225 166 L229 166 M232 166 L236 166 M239 166 L243 166 M246 166 L250 166 M253 166 L257 166 M260 166 L264 166 M267 166 L271 166 M274 166 L278 166 M281 166 L285 166 M288 166 L292 166 M295 166 L299 166"/>
+		<path pathLength="1" d="M88 98 L88 156"/>
+		<path pathLength="1" d="M58 128 L118 128"/>
+		<path pathLength="1" d="M150 60 L162 166"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M66 128 a22 22 0 1 0 44 0 a22 22 0 1 0 -44 0"/>
+		<path pathLength="1" d="M52 104 L262 82"/>
+		<path pathLength="1" d="M52 109 L262 87"/>
+		<path pathLength="1" d="M88 128 L98 100"/>
+		<path pathLength="1" d="M148 96 L160 162 L165 160 L154 95"/>
+		<path pathLength="1" d="M162 166 L246 166"/>
+		<path pathLength="1" d="M162 166 L186 159 L188 166"/>
+		<path pathLength="1" d="M214 166 L214 88"/>
+		<path pathLength="1" d="M186 159 L240 124 L250 132 L246 166"/>
+		<path pathLength="1" d="M240 166 L312 56"/>
+		<path pathLength="1" d="M250 164 L322 62"/>
+		<path pathLength="1" d="M312 56 L322 62"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M88 128 L110 128"/>
+		<path pathLength="1" d="M88 128 L103.6 143.6"/>
+		<path pathLength="1" d="M88 128 L88 150"/>
+		<path pathLength="1" d="M88 128 L72.4 143.6"/>
+		<path pathLength="1" d="M88 128 L66 128"/>
+		<path pathLength="1" d="M88 128 L72.4 112.4"/>
+		<path pathLength="1" d="M88 128 L88 106"/>
+		<path pathLength="1" d="M88 128 L103.6 112.4"/>
+		<path pathLength="1" d="M52 106 L22 108"/>
+		<path pathLength="1" d="M26.3 105.5 L22 108 L26.6 109.9"/>
+		<path pathLength="1" d="M193 156.2 L201 150.2"/>
+		<path pathLength="1" d="M206 147.5 L214 141.5"/>
+		<path pathLength="1" d="M219 138.8 L227 132.8"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M14 236 L96 236"/>
+		<path pathLength="1" d="M96 256 L386 256"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M14 236 L96 236 L96 256 L126 256"/>
+		<path pathLength="1" d="M156 256 L177.2 234.8 L163.1 220.6 L141.9 241.9 Z"/>
+		<path pathLength="1" d="M186 256 L207.2 234.8 L193.1 220.6 L171.9 241.9 Z"/>
+		<path pathLength="1" d="M216 256 L237.2 234.8 L223.1 220.6 L201.9 241.9 Z"/>
+		<path pathLength="1" d="M246 256 L267.2 234.8 L253.1 220.6 L231.9 241.9 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M160.2 251.8 L163.1 254.6"/>
+		<path pathLength="1" d="M165.5 246.5 L168.4 249.3"/>
+		<path pathLength="1" d="M170.8 241.2 L173.7 244"/>
+		<path pathLength="1" d="M190.2 251.8 L193.1 254.6"/>
+		<path pathLength="1" d="M195.5 246.5 L198.4 249.3"/>
+		<path pathLength="1" d="M200.8 241.2 L203.7 244"/>
+		<path pathLength="1" d="M220.2 251.8 L223.1 254.6"/>
+		<path pathLength="1" d="M225.5 246.5 L228.4 249.3"/>
+		<path pathLength="1" d="M230.8 241.2 L233.7 244"/>
+		<path pathLength="1" d="M250.2 251.8 L253.1 254.6"/>
+		<path pathLength="1" d="M255.5 246.5 L258.4 249.3"/>
+		<path pathLength="1" d="M260.8 241.2 L263.7 244"/>
+		<path pathLength="1" d="M96 222 L96 232"/>
+		<path pathLength="1" d="M94.3 228.4 L96 232 L97.7 228.4"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="150" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COULTER</text>
+		<text x="176" y="178" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SHARE</text>
+		<text x="272" y="140" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MOLDBOARD</text>
+		<text x="88" y="180" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WHEELS</text>
+		<text x="330" y="52" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HANDLES</text>
+		<text x="120" y="82" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BEAM</text>
+		<text x="22" y="98" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TO THE OXEN</text>
+		<text x="55" y="228" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">UNPLOWED</text>
+		<text x="111" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OPEN</text>
+		<text x="111" y="277" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FURROW</text>
+		<text x="268" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SLICES TURNED, SOD UNDER</text>
+		<text x="200" y="292" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE FURROW IN SECTION · SLICE 3 WIDE BY 2 DEEP</text>
+		<text x="200" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE HEAVY PLOW IN ELEVATION</text>
+	</g>
+</svg>
