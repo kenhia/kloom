@@ -1,0 +1,45 @@
+{
+	"food/restaurant": [
+		["Denis Diderot", "denis-diderot"],
+		["_Encyclopédie_", "encyclopedie"],
+		["Paris", "paris"],
+		["restaurant", "restaurant"],
+		["Francis William Blagdon", "francis-william-blagdon"],
+		["Jean Anthelme Brillat-Savarin", "jean-anthelme-brillat-savarin"],
+		["Antoine Beauvilliers", "antoine-beauvilliers"],
+		["Palais-Royal", "palais-royal"],
+		["French Revolution", "french-revolution"],
+		["Louis-Sébastien Mercier", "louis-sebastien-mercier"],
+		["Grimod de La Reynière", "grimod-de-la-reyniere"]
+	],
+	"food/fannie-farmer": [
+		["Boston Cooking School", "boston-cooking-school"],
+		["Fannie Farmer", "fannie-farmer"],
+		["_The Boston Cooking-School Cook Book_", "the-boston-cooking-school-cook-book"],
+		["Amelia Simmons", "amelia-simmons"],
+		["Isabella Beeton", "isabella-beeton"],
+		["_Book of Household Management_", "mrs-beetons-book-of-household-management"],
+		["Mary Johnson Bailey Lincoln", "mary-johnson-bailey-lincoln"],
+		["measuring cup", "measuring-cup"],
+		["Florence Nightingale", "florence-nightingale"],
+		["_Notes on Nursing_", "notes-on-nursing"],
+		["Harvard Medical School", "harvard-medical-school"]
+	],
+	"food/escoffier": [
+		["Auguste Escoffier", "auguste-escoffier"],
+		["Franco-Prussian War", "franco-prussian-war"],
+		["César Ritz", "cesar-ritz"],
+		["Richard D'Oyly Carte", "richard-doyly-carte"],
+		["Savoy Hotel", "savoy-hotel"],
+		["London", "london"],
+		["Paris", "paris"],
+		["brigade de cuisine", "kitchen-brigade"],
+		["Frederick Winslow Taylor", "frederick-winslow-taylor"],
+		["Ritz Paris", "hotel-ritz-paris"],
+		["Carlton Hotel", "carlton-hotel-london"],
+		["_Le guide culinaire_", "le-guide-culinaire"],
+		["Marie-Antoine Carême", "marie-antoine-careme"],
+		["French mother sauces", "french-mother-sauces"],
+		["Service à la russe", "service-a-la-russe"]
+	]
+}

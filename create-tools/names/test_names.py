@@ -26,6 +26,8 @@ class Slug(unittest.TestCase):
     def test_keeps_the_old_rules(self):
         self.assertEqual(names.slug('Hellmann–Feynman theorem'), 'hellmann-feynman-theorem')
         self.assertEqual(names.slug("Moore's law"), 'moores-law')
+        # the dotless ı has no decomposition, and was dropped: Nevalı Çori was neval-cori (sprint 051)
+        self.assertEqual(names.slug('Nevalı Çori'), 'nevali-cori')
 
 
 class Lookup(unittest.TestCase):
@@ -265,6 +267,15 @@ class Drafts(unittest.TestCase):
             json.dump({'id': 'red-cross', 'wikidata': 'Q2'}, fh)
         _, _, notes = names.drafts('nursing', self.dir, None, {'red-cross': Path(registry) / 'red-cross.json'})
         self.assertIn('already in the registry', notes[0])
+
+    def test_one_part_sees_its_own_drafts_and_problems(self):
+        # sprint 051: with 24 parts at once, every author's run failed on another part's problem.
+        result = names.drafts('nursing', self.dir, {'owners': {'red-cross': 'nightingale'}})
+        rows, problems, _ = names.for_part(*result, 'nightingale')
+        self.assertEqual({r['id'] for r in rows}, {'florence-nightingale', 'scutari'})
+        self.assertEqual(len(problems), 3)  # its name drafted twice, the item under two ids, its owned name
+        rows, problems, _ = names.for_part(*names.drafts('nursing', self.dir), 'nobody')
+        self.assertEqual((rows, problems), ([], []))
 
 
 class DraftsUnmarked(unittest.TestCase):

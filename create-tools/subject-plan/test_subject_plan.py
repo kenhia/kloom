@@ -178,6 +178,38 @@ class MergeDrafts(unittest.TestCase):
         finally:
             shutil.rmtree(root)
 
+    def test_leaves_out_an_unfinished_draft_and_says_so(self):
+        # sprint 051: a borrowed owner's draft straight from `lookup --write-draft`, its kind and
+        # description still empty, failed every borrower's copy on the registry's schema.
+        root = tempfile.mkdtemp()
+        try:
+            a, names = os.path.join(root, 'a'), os.path.join(root, 'names')
+            for d in (a, names):
+                os.makedirs(d)
+            with open(os.path.join(a, 'half.json'), 'w') as fh:
+                json.dump({'id': 'half', 'kind': '', 'description': ''}, fh)
+            with open(os.path.join(a, 'done.json'), 'w') as fh:
+                json.dump({'id': 'done', 'kind': 'idea', 'description': 'A thing.'}, fh)
+            out = merge_drafts([a], names)
+            self.assertEqual(os.listdir(names), ['done.json'])
+            self.assertEqual(len(out), 1)
+            self.assertIn('half.json', out[0])
+            self.assertIn('unfinished', out[0])
+        finally:
+            shutil.rmtree(root)
+
+    def test_a_missing_directory_is_said_not_a_crash(self):
+        # sprint 051: an owner's drafts directory that did not exist yet raised FileNotFoundError.
+        root = tempfile.mkdtemp()
+        try:
+            names = os.path.join(root, 'names')
+            os.makedirs(names)
+            out = merge_drafts([os.path.join(root, 'nobody')], names)
+            self.assertEqual(len(out), 1)
+            self.assertIn('no drafts directory', out[0])
+        finally:
+            shutil.rmtree(root)
+
 
 class CompleteWithDrafts(unittest.TestCase):
     """--complete --with-drafts (sprint 029): a frame.json.draft goes into the copy as frame.json."""

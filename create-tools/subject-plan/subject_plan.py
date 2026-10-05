@@ -268,14 +268,27 @@ def write(path, value):
 def merge_drafts(dirs, names):
     """Copy each drafts directory's name files into `names`, in order. Two directories holding
     one id differently is said, not hidden: the last passed wins, and in sprint 028 a draft
-    lost its `home` that way without a word. Returns the warnings."""
+    lost its `home` that way without a word. A draft whose `kind` or `description` is still
+    empty (straight from `lookup --write-draft`) is left out and named, since it would fail the
+    copy's registry for every borrower (sprint 051), and so is a directory not made yet.
+    Returns the warnings."""
     seen, out = {}, []
     for d in dirs:
+        if not os.path.isdir(d):
+            out.append(f'no drafts directory {d} yet; nothing merged from it')
+            continue
         for f in sorted(os.listdir(d)):
             if not f.endswith('.json'):
                 continue
             with open(os.path.join(d, f)) as fh:
                 body = fh.read()
+            try:
+                draft = json.loads(body)
+            except ValueError:
+                draft = {}
+            if isinstance(draft, dict) and any(k in draft and not draft[k] for k in ('kind', 'description')):
+                out.append(f'{f} in {d} is unfinished (no kind or description yet); the copy leaves it out')
+                continue
             if f in seen and seen[f][1] != body:
                 out.append(f'{f} is drafted in both {seen[f][0]} and {d}; the copy holds {d}\'s')
             seen[f] = (d, body)

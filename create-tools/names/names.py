@@ -100,7 +100,7 @@ def get(url, tries=5):
 
 # Letters NFKD does not take apart into a base letter and an accent.
 LETTERS = str.maketrans({'Ø': 'O', 'ø': 'o', 'Æ': 'AE', 'æ': 'ae', 'Œ': 'OE', 'œ': 'oe', 'ß': 'ss',
-                         'Ł': 'L', 'ł': 'l', 'Đ': 'D', 'đ': 'd', 'Þ': 'Th', 'þ': 'th', 'ð': 'd'})
+                         'Ł': 'L', 'ł': 'l', 'Đ': 'D', 'đ': 'd', 'Þ': 'Th', 'þ': 'th', 'ð': 'd', 'ı': 'i'})
 
 
 # Greek letters, spelled: "Leibniz formula for π" is leibniz-formula-for-pi, not -for (sprint 024).
@@ -134,7 +134,7 @@ def lookup(titles):
         query = urllib.parse.urlencode({
             'action': 'query', 'prop': 'pageprops|extracts|categories',
             'ppprop': 'wikibase_item|wikibase-shortdesc|disambiguation',
-            'exintro': 1, 'explaintext': 1, 'exsentences': 1, 'exlimit': 'max',
+            'exintro': 1, 'explaintext': 1, 'exchars': 300, 'exlimit': 'max',
             'clcategories': SET_INDEX, 'cllimit': 'max',
             'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
         })
@@ -470,6 +470,7 @@ def main():
     dr.add_argument('--dir', default='.scratch/names', help='where the drafts directories are')
     dr.add_argument('--names', default='names', help='the registry directory')
     dr.add_argument('--json', action='store_true', help='one JSON line per draft')
+    dr.add_argument('--part', help="only this part's drafts, and the problems and notes that touch it")
     dn = sub.add_parser('density', help='names and connections per frame, by subject')
     dn.add_argument('--root', default='subjects', help='the subjects directory')
     dn.add_argument('--json', action='store_true', help='one JSON line per subject')
@@ -516,6 +517,8 @@ def main():
         plan = json.loads(plan_path.read_text()) if plan_path.exists() else None
         registry = {f.stem: f for f in Path(args.names).glob('*.json')} if Path(args.names).is_dir() else {}
         rows, problems, notes = drafts(args.subject, args.dir, plan, registry)
+        if args.part:
+            rows, problems, notes = for_part(rows, problems, notes, args.part)
         for r in rows:
             print(json.dumps(r) if args.json else f"{r['id']} | {r['wikidata']} | {r['home'] or '-'} | {r['part']}")
         if plan is None:
@@ -637,6 +640,17 @@ def drafts(subject, drafts_dir, plan=None, registry=None, specs=SPECS):
             unspecced.add(r['part'])
             notes.append(f"{r['id']} is drafted by {r['part']}, which has no spec yet ({prefix}{r['part']}.json)")
     return rows, problems, notes
+
+
+def for_part(rows, problems, notes, part):
+    """`drafts --part`: one part's drafts, and the problems and notes that touch it, by its name or
+    a name it drafted (sprint 051: with 24 parts at once, every author's run failed on another's)."""
+    mine = [r for r in rows if r['part'] == part]
+    words = {part} | {r['id'] for r in mine} | {r['wikidata'] for r in mine if r['wikidata']}
+
+    def touches(line):
+        return any(re.search(rf'(?<![\w-]){re.escape(w)}(?![\w-])', line) for w in words)
+    return mine, [p for p in problems if touches(p)], [n for n in notes if touches(n)]
 
 
 def mark_spec(args):

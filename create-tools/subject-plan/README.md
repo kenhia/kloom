@@ -62,7 +62,10 @@ part frame` a line (`#` a comment): it exits 1 on a word claimed twice,
   connections arrived in sprint 017, a copy without them failed every
   author). Where two drafts directories hold one id differently, the last
   passed wins and a warning names both (sprint 028, where a draft lost its
-  `home` that way unseen). `--only FRAME …` keeps only those frames and the ones already
+  `home` that way unseen). A draft whose `kind` or `description` is still
+  empty, as `lookup --write-draft` leaves it, is left out of the copy and
+  named, and so is a drafts directory not made yet: one owner's unfinished
+  draft failed every borrower's copy in sprint 051. `--only FRAME …` keeps only those frames and the ones already
   committed, so another author's half-written frame cannot fail this
   one's check, and a draft's `home` on a frame not in the copy is dropped
   (sprint 021). `--with-drafts` puts each frame's `frame.json.draft` into
