@@ -112,3 +112,23 @@ key in chat on 2026-10-05. This sprint builds those decisions.
 ## Follow-ups
 
 None.
+
+## Deployed
+
+2026-10-05, from merged `main` (`d2857b7`, PR #60) by `just deploy` (the
+`.sprint-deploy` recipe) to the kai service. The recipe's door checks all
+passed: tailnet and ssh doors read, the anonymous write was refused, reader
+data and notes were kept from anonymous reads, frame bodies came from the
+library, and pages were compressed. It reported `deployed d2857b7d6`.
+
+Verified live:
+
+- The help bar on both doors (`127.0.0.1:4891` and
+  `kai.encke-wahoo.ts.net:4890`) reads "PgUp PgDn section" and names Q ask,
+  H home and G settings. The old "Tab into and out of the AI pane" is gone.
+- `KLOOM_URL=http://127.0.0.1:4891 just focus-check` against the running
+  service passed 30/30, including the five new cases: Q, Send, H, G with
+  Esc, and PageUp/PageDown.
+
+The public reader site was not published. `just publish-public` is a
+separate step.
