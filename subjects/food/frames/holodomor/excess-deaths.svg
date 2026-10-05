@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="t d">
+<title id="t">Excess deaths in the famine of 1932–1934 per 1,000 people, in Soviet Ukraine, Russia and their hardest-hit regions</title>
+<desc id="d">Bar chart, excess deaths per 1,000 people, 1932–1934. Kyiv oblast 200.3, Kharkiv oblast 191.4, Soviet Ukraine as a whole 133.3; Volga German ASSR 207.5, Krasnodar krai 141.2, Saratov oblast 132.0, the Russian republic as a whole 32.0. Data: Levchuk et al., Nationalities Papers, 2020.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="500" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="500" y1="207.2" y2="207.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="211.2" text-anchor="end">50</text>
+<line x1="64" x2="500" y1="164.4" y2="164.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="168.4" text-anchor="end">100</text>
+<line x1="64" x2="500" y1="121.6" y2="121.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="125.6" text-anchor="end">150</text>
+<line x1="64" x2="500" y1="78.8" y2="78.8" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="82.8" text-anchor="end">200</text>
+<line x1="64" x2="500" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">250</text>
+</g>
+<rect x="75.1" y="78.5" width="40" height="171.5" fill-opacity="0.85"/>
+<text x="95.1" y="72.5" text-anchor="middle">200</text>
+<text x="95.1" y="266" text-anchor="middle">Kyiv</text>
+<text x="95.1" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">oblast</text>
+<rect x="137.4" y="86.2" width="40" height="163.8" fill-opacity="0.85"/>
+<text x="157.4" y="80.2" text-anchor="middle">191</text>
+<text x="157.4" y="266" text-anchor="middle">Kharkiv</text>
+<text x="157.4" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">oblast</text>
+<rect x="199.7" y="135.9" width="40" height="114.1" class="accent" fill="currentColor"/>
+<text x="219.7" y="129.9" text-anchor="middle">133</text>
+<text x="219.7" y="266" text-anchor="middle">Ukraine</text>
+<text x="219.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">all</text>
+<rect x="262.0" y="72.4" width="40" height="177.6" fill-opacity="0.85"/>
+<text x="282.0" y="66.4" text-anchor="middle">208</text>
+<text x="282.0" y="266" text-anchor="middle">Volga</text>
+<text x="282.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Germans</text>
+<rect x="324.3" y="129.1" width="40" height="120.9" fill-opacity="0.85"/>
+<text x="344.3" y="123.1" text-anchor="middle">141</text>
+<text x="344.3" y="266" text-anchor="middle">Krasnodar</text>
+<text x="344.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">krai</text>
+<rect x="386.6" y="137.0" width="40" height="113.0" fill-opacity="0.85"/>
+<text x="406.6" y="131.0" text-anchor="middle">132</text>
+<text x="406.6" y="266" text-anchor="middle">Saratov</text>
+<text x="406.6" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">oblast</text>
+<rect x="448.9" y="222.6" width="40" height="27.4" class="accent" fill="currentColor"/>
+<text x="468.9" y="216.6" text-anchor="middle">32</text>
+<text x="468.9" y="266" text-anchor="middle">Russia</text>
+<text x="468.9" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">all</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">EXCESS DEATHS PER 1,000 PEOPLE · 1932–34</text>
+</g></svg>

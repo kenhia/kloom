@@ -1,0 +1,32 @@
+{
+	"title": "China's grain exports, 1957–1962, in million tonnes",
+	"description": "Bar chart, gross grain exports in million tonnes: 1957, 2.09; 1958, 2.89; 1959, 4.16; 1960, 2.72; 1961, 1.36; 1962, 1.03. Exports peaked in 1959, the first year of the famine. Data: China Statistical Yearbook 1981, as tabulated by Fan, Xiong and Zhou.",
+	"heading": "GRAIN EXPORTS · MILLION TONNES",
+	"unit": "",
+	"axis": {
+		"max": 5,
+		"ticks": [
+			[0, "0"],
+			[1, "1"],
+			[2, "2"],
+			[3, "3"],
+			[4, "4"],
+			[5, "5"]
+		]
+	},
+	"bars": [
+		{ "label": "1957", "value": 2.09, "display": "2.09" },
+		{ "label": "1958", "value": 2.885, "display": "2.89" },
+		{ "label": "1959", "value": 4.155, "display": "4.16", "highlight": true },
+		{ "label": "1960", "value": 2.72, "display": "2.72", "highlight": true },
+		{ "label": "1961", "value": 1.355, "display": "1.36" },
+		{ "label": "1962", "value": 1.03, "display": "1.03" }
+	],
+	"barWidth": 44,
+	"width": 480,
+	"source": {
+		"container": "China Statistical Yearbook (1981), table 1 in Fan, Xiong and Zhou, \"Information Distortion in Hierarchical Organizations: A Study of China's Great Famine\" (2016)",
+		"url": "https://wxiong.mycpanel.princeton.edu/papers/Famine.pdf",
+		"accessed": "2026-10-04"
+	}
+}

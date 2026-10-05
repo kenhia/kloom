@@ -1,0 +1,203 @@
+{
+	"id": "bengal-1943",
+	"topic": "The Bengal famine of 1943",
+	"position": {
+		"label": "1943",
+		"sort": 1943
+	},
+	"scene": {
+		"headline": "Bengal starved as rice outran",
+		"accent": "WAGES.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BENGAL · CALCUTTA · BIRBHUM",
+			"WAR · DENIAL · CYCLONE · BROWN SPOT · ENTITLEMENT"
+		],
+		"counter": {
+			"value": "24",
+			"label": "a day's wage in rice, May 1943 (Dec 1941 = 100)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Starvation and Exchange Entitlements: A General Approach and Its Application to the Great Bengal Famine",
+			"authors": [
+				{
+					"family": "Sen",
+					"given": "Amartya"
+				}
+			],
+			"container": "Cambridge Journal of Economics",
+			"volume": "1",
+			"issue": "1",
+			"pages": "33–59",
+			"published": "1977-03",
+			"doi": "10.1093/oxfordjournals.cje.a035349",
+			"accessed": "2026-10-04",
+			"note": "Food availability, table 2, and the Sriniketan wage and rice series, table 4; read in a course copy"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report on Bengal",
+			"authors": [
+				{
+					"name": "Famine Inquiry Commission"
+				}
+			],
+			"publisher": "Manager of Publications, Government of India",
+			"place": "Delhi",
+			"published": "1945",
+			"url": "https://archive.org/details/in.ernet.dli.2015.206311",
+			"accessed": "2026-10-04",
+			"note": "The denial policy, the cyclone and the aman crop, the conclusions and the toll of 1.5 million"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bengal famine of 1943",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bengal_famine_of_1943&oldid=1377017570",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Making Famine History",
+			"authors": [
+				{
+					"family": "Ó Gráda",
+					"given": "Cormac"
+				}
+			],
+			"container": "Journal of Economic Literature",
+			"volume": "45",
+			"issue": "1",
+			"pages": "5–38",
+			"published": "2007",
+			"doi": "10.1257/jel.45.1.5",
+			"accessed": "2026-10-04",
+			"note": "Bengal, 1942–44, in section 4.2; read in the author's copy at University College Dublin"
+		},
+		{
+			"kind": "book",
+			"title": "Poverty and Famines: An Essay on Entitlement and Deprivation",
+			"authors": [
+				{
+					"family": "Sen",
+					"given": "Amartya"
+				}
+			],
+			"publisher": "Clarendon Press",
+			"place": "Oxford",
+			"published": "1981",
+			"doi": "10.1093/0198284632.001.0001",
+			"accessed": "2026-10-04",
+			"read": "record"
+		},
+		{
+			"kind": "web",
+			"title": "Amartya Sen – Biographical",
+			"authors": [
+				{
+					"family": "Sen",
+					"given": "Amartya"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1998",
+			"url": "https://www.nobelprize.org/prizes/economic-sciences/1998/sen/biographical/",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Churchill's Secret War: The British Empire and the Ravaging of India during World War II",
+			"authors": [
+				{
+					"family": "Mukerjee",
+					"given": "Madhusree"
+				}
+			],
+			"publisher": "Basic Books",
+			"place": "New York",
+			"published": "2010",
+			"citedIn": "Bengal famine of 1943"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Famine Inquiry Commission",
+			"url": "https://en.wikipedia.org/w/index.php?title=Famine_Inquiry_Commission&oldid=1334547157",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Churchill's Secret War",
+			"url": "https://en.wikipedia.org/w/index.php?title=Churchill's_Secret_War&oldid=1335417468",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Amartya Sen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Amartya_Sen&oldid=1376638725",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "media",
+			"title": "Cochliobolus miyabeanus",
+			"url": "https://commons.wikimedia.org/wiki/File:Cochliobolus_miyabeanus.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC BY 3.0 us",
+			"file": "brown-spot.jpg",
+			"authors": [
+				{
+					"family": "Groth",
+					"given": "Donald"
+				}
+			],
+			"container": "Louisiana State University AgCenter, Bugwood.org",
+			"number": "5410673",
+			"published": "2010-02-05"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/second-world-war",
+			"why": "The Bengal famine was a famine of the Second World War: Japan's conquest of Burma cut off Bengal's rice, fear of invasion took its boats, and the War Cabinet kept shipping for the war rather than for grain."
+		}
+	]
+}

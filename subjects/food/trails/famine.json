@@ -9,7 +9,13 @@
 				"title": "Supply and entitlement",
 				"labelKind": "date",
 				"palette": "amphora",
-				"frames": ["great-famine-1315", "famine-1876"]
+				"frames": [
+					"great-famine-1315",
+					"famine-1876",
+					"holodomor",
+					"bengal-1943",
+					"great-chinese-famine"
+				]
 			}
 		]
 	}

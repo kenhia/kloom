@@ -1,0 +1,327 @@
+{
+	"id": "holodomor",
+	"topic": "The Holodomor",
+	"position": {
+		"label": "1932–33",
+		"sort": 1932
+	},
+	"scene": {
+		"headline": "Stalin's quotas took even the",
+		"accent": "SPIKELETS.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SOVIET UKRAINE · KUBAN · KAZAKHSTAN",
+			"QUOTAS · BLACKLISTS · THE LAW OF 7 AUGUST 1932"
+		],
+		"counter": {
+			"value": "3.9 million",
+			"label": "excess deaths in Soviet Ukraine, 1932–34"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Stalin and the Soviet Famine of 1932–33: A Reply to Ellman",
+			"authors": [
+				{
+					"family": "Davies",
+					"given": "R. W."
+				},
+				{
+					"family": "Wheatcroft",
+					"given": "Stephen G."
+				}
+			],
+			"container": "Europe-Asia Studies",
+			"volume": "58",
+			"issue": "4",
+			"pages": "625–633",
+			"published": "2006-06",
+			"doi": "10.1080/09668130600652217",
+			"accessed": "2026-10-04",
+			"note": "The 1932 plans and collections, exports and the case against deliberate starvation, pp. 626–629; read in a course copy at the University of Oslo"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Regional 1932–1933 Famine Losses: A Comparative Analysis of Ukraine and Russia",
+			"authors": [
+				{
+					"family": "Levchuk",
+					"given": "Nataliia"
+				},
+				{
+					"family": "Wolowyna",
+					"given": "Oleh"
+				},
+				{
+					"family": "Rudnytskyi",
+					"given": "Omelian"
+				},
+				{
+					"family": "Kovbasiuk",
+					"given": "Alla"
+				},
+				{
+					"family": "Kulyk",
+					"given": "Natalia"
+				}
+			],
+			"container": "Nationalities Papers",
+			"volume": "48",
+			"issue": "3",
+			"pages": "492–512",
+			"published": "2020",
+			"doi": "10.1017/nps.2019.55",
+			"accessed": "2026-10-04",
+			"note": "Excess deaths by region, table 1"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Holodomor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Holodomor&oldid=1378468042",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "report",
+			"title": "Investigation of the Ukrainian Famine, 1932–1933: Report to Congress",
+			"authors": [
+				{
+					"name": "Commission on the Ukraine Famine"
+				}
+			],
+			"publisher": "U.S. Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1988",
+			"url": "https://archive.org/details/investigation-of-the-ukrainian-famine-1932-1933-report-to-congress",
+			"accessed": "2026-10-04",
+			"note": "The blacklisting of December 1932 and the law of 7 August 1932 in its executive summary and chapter 2"
+		},
+		{
+			"kind": "web",
+			"title": "Постановление ЦИК и СНК СССР от 7 августа 1932 года «Об охране имущества государственных предприятий, колхозов и кооперации и укреплении общественной (социалистической) собственности»",
+			"container": "Wikisource",
+			"publisher": "Wikimedia Foundation",
+			"published": "1932-08-07",
+			"language": "ru",
+			"url": "https://ru.wikisource.org/w/index.php?title=%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%A6%D0%98%D0%9A_%D0%B8_%D0%A1%D0%9D%D0%9A_%D0%A1%D0%A1%D0%A1%D0%A0_%D0%BE%D1%82_07.08.1932_%D0%BE%D0%B1_%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B5_%D0%B8%D0%BC%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D1%85_%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9,_%D0%BA%D0%BE%D0%BB%D1%85%D0%BE%D0%B7%D0%BE%D0%B2_%D0%B8_%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&oldid=4926409",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "Директива ЦК ВКП(б) и СНК СССР от 22 января 1933 года № 65/ш «в связи с массовым выездом крестьян за пределы Украины»",
+			"authors": [
+				{
+					"family": "Molotov",
+					"given": "V. M."
+				},
+				{
+					"family": "Stalin",
+					"given": "I."
+				}
+			],
+			"container": "Wikisource",
+			"publisher": "Wikimedia Foundation",
+			"published": "1933-01-22",
+			"language": "ru",
+			"url": "https://ru.wikisource.org/w/index.php?title=%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0_%D0%A6%D0%9A_%D0%92%D0%9A%D0%9F(%D0%B1)_%D0%B8_%D0%A1%D0%9D%D0%9A_%D0%A1%D0%A1%D0%A1%D0%A0_%D0%BE%D1%82_22.01.1933_%E2%84%96_65/%D1%88&oldid=4844608",
+			"accessed": "2026-10-04",
+			"note": "With the Ukrainian Central Committee's directive of 23 January 1933 on railway tickets"
+		},
+		{
+			"kind": "article",
+			"title": "Russia in Grip of Famine",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Gareth"
+				}
+			],
+			"container": "Morning Post",
+			"published": "1933-03-30",
+			"url": "https://www.garethjones.org/soviet_articles/russia_in_grip_of_famine.htm",
+			"accessed": "2026-10-04",
+			"note": "Read in the transcription on garethjones.org"
+		},
+		{
+			"kind": "article",
+			"title": "Russians Hungry, But Not Starving",
+			"authors": [
+				{
+					"family": "Duranty",
+					"given": "Walter"
+				}
+			],
+			"container": "The New York Times",
+			"published": "1933-03-31",
+			"pages": "13",
+			"citedIn": "Walter Duranty"
+		},
+		{
+			"kind": "article",
+			"title": "Stalin, Grain Stocks and the Famine of 1932–1933",
+			"authors": [
+				{
+					"family": "Davies",
+					"given": "R. W."
+				},
+				{
+					"family": "Tauger",
+					"given": "Mark B."
+				},
+				{
+					"family": "Wheatcroft",
+					"given": "Stephen G."
+				}
+			],
+			"container": "Slavic Review",
+			"volume": "54",
+			"issue": "3",
+			"pages": "642–657",
+			"published": "1995",
+			"citedIn": "Holodomor"
+		},
+		{
+			"kind": "chapter",
+			"title": "Soviet Genocide in the Ukraine",
+			"authors": [
+				{
+					"family": "Lemkin",
+					"given": "Raphael"
+				}
+			],
+			"container": "Holodomor: Reflections on the Great Famine of 1932–1933 in Soviet Ukraine",
+			"editors": [
+				{
+					"family": "Luciuk",
+					"given": "Lubomyr Y."
+				},
+				{
+					"family": "Grekul",
+					"given": "Lisa"
+				}
+			],
+			"publisher": "Kashtan Press",
+			"place": "Kingston, ON",
+			"published": "2008",
+			"pages": "235–242",
+			"citedIn": "Holodomor"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Holodomor genocide question",
+			"url": "https://en.wikipedia.org/w/index.php?title=Holodomor_genocide_question&oldid=1376550976",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Law of Spikelets",
+			"url": "https://en.wikipedia.org/w/index.php?title=Law_of_Spikelets&oldid=1332310898",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kazakh famine of 1930–1933",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kazakh_famine_of_1930%E2%80%931933&oldid=1376005914",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Walter Duranty",
+			"url": "https://en.wikipedia.org/w/index.php?title=Walter_Duranty&oldid=1378509909",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gareth Jones (journalist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gareth_Jones_(journalist)&oldid=1367840999",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Collectivization in the Soviet Union",
+			"url": "https://en.wikipedia.org/w/index.php?title=Collectivization_in_the_Soviet_Union&oldid=1374104869",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "media",
+			"title": "Excess deaths in the famine of 1932–1934 per 1,000 people, in Soviet Ukraine, Russia and their hardest-hit regions",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Levchuk et al., \"Regional 1932–1933 Famine Losses,\" Nationalities Papers 48, no. 3 (2020), table 1",
+			"doi": "10.1017/nps.2019.55",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "excess-deaths.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/holocaust",
+			"why": "Raphael Lemkin, who named genocide in the wake of the Holocaust, called the Soviet destruction of Ukraine a genocide in 1953, and whether the Holodomor meets the Genocide Convention's definition is still argued."
+		}
+	]
+}

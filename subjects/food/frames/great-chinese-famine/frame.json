@@ -1,0 +1,242 @@
+{
+	"id": "great-chinese-famine",
+	"topic": "The Great Chinese Famine",
+	"position": {
+		"label": "1959–61",
+		"sort": 1959
+	},
+	"scene": {
+		"headline": "The state took grain that was never",
+		"accent": "GROWN.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CHINA · ANHUI · HENAN · SICHUAN",
+			"GREAT LEAP FORWARD · COMMUNES · PROCUREMENT ON CLAIMED HARVESTS"
+		],
+		"counter": {
+			"value": "375",
+			"label": "million tonnes of grain announced for 1958; 200 were grown"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Institutional Causes of China's Great Famine, 1959–61",
+			"authors": [
+				{
+					"family": "Meng",
+					"given": "Xin"
+				},
+				{
+					"family": "Qian",
+					"given": "Nancy"
+				},
+				{
+					"family": "Yared",
+					"given": "Pierre"
+				}
+			],
+			"publisher": "National Bureau of Economic Research",
+			"place": "Cambridge, MA",
+			"number": "Working Paper 16361",
+			"published": "2010",
+			"doi": "10.3386/w16361",
+			"accessed": "2026-10-04",
+			"note": "The procurement system, sections 2 and 5; published in the Review of Economic Studies in 2015"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Communique of the Eighth Plenary Session of the Eighth Central Committee of the Chinese Communist Party",
+			"container": "Peking Review",
+			"volume": "2",
+			"issue": "35",
+			"pages": "5–6",
+			"published": "1959-09-01",
+			"url": "https://www.marxists.org/subject/china/peking-review/1959/PR1959-35.pdf",
+			"accessed": "2026-10-04",
+			"note": "The 1958 harvest cut to 250 million tonnes, p. 5"
+		},
+		{
+			"kind": "article",
+			"title": "Communique on the Development of the National Economy in 1958",
+			"authors": [
+				{
+					"name": "State Statistical Bureau"
+				}
+			],
+			"container": "Peking Review",
+			"volume": "2",
+			"issue": "16",
+			"pages": "34",
+			"published": "1959-04-21",
+			"url": "https://www.marxists.org/subject/china/peking-review/1959/PR1959-16.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Report on the Draft National Economic Plan for 1959",
+			"authors": [
+				{
+					"family": "Li",
+					"given": "Fu-chun"
+				}
+			],
+			"container": "Peking Review",
+			"volume": "2",
+			"issue": "17",
+			"pages": "17",
+			"published": "1959-04-29",
+			"url": "https://www.marxists.org/subject/china/peking-review/1959/PR1959-17.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Report on the Draft 1960 National Economic Plan",
+			"authors": [
+				{
+					"family": "Li",
+					"given": "Fu-chun"
+				}
+			],
+			"container": "Peking Review",
+			"volume": "3",
+			"issue": "14",
+			"pages": "5–6",
+			"published": "1960-04-05",
+			"url": "https://www.marxists.org/subject/china/peking-review/1960/PR1960-14.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "report",
+			"title": "Information Distortion in Hierarchical Organizations: A Study of China's Great Famine",
+			"authors": [
+				{
+					"family": "Fan",
+					"given": "Ziying"
+				},
+				{
+					"family": "Xiong",
+					"given": "Wei"
+				},
+				{
+					"family": "Zhou",
+					"given": "Li-An"
+				}
+			],
+			"publisher": "Princeton University",
+			"number": "Working paper, preliminary draft",
+			"published": "2016-02",
+			"url": "https://wxiong.mycpanel.princeton.edu/papers/Famine.pdf",
+			"accessed": "2026-10-04",
+			"note": "Grain exports, table 1, and provincial over-reporting in 1958, table 2"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Making Famine History",
+			"authors": [
+				{
+					"family": "Ó Gráda",
+					"given": "Cormac"
+				}
+			],
+			"container": "Journal of Economic Literature",
+			"volume": "45",
+			"issue": "1",
+			"pages": "5–38",
+			"published": "2007",
+			"doi": "10.1257/jel.45.1.5",
+			"accessed": "2026-10-04",
+			"note": "China 1959–61, section 4.3; read in the author's copy at University College Dublin"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Great Chinese Famine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Great_Chinese_Famine&oldid=1378239656",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Great Leap Forward",
+			"url": "https://en.wikipedia.org/w/index.php?title=Great_Leap_Forward&oldid=1377777403",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lushan Conference",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lushan_Conference&oldid=1360761349",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yang Jisheng (journalist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yang_Jisheng_(journalist)&oldid=1355414363",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-21"
+		},
+		{
+			"kind": "web",
+			"title": "Resolution on Certain Questions in the History of Our Party since the Founding of the People's Republic of China",
+			"authors": [
+				{
+					"name": "Communist Party of China"
+				}
+			],
+			"container": "Marxists Internet Archive",
+			"published": "1981-06-27",
+			"url": "https://www.marxists.org/subject/china/documents/cpc/history/01.htm",
+			"accessed": "2026-10-04",
+			"note": "Adopted by the Sixth Plenary Session of the Eleventh Central Committee; the official English translation"
+		},
+		{
+			"kind": "media",
+			"title": "China's grain exports, 1957–1962, in million tonnes",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "China Statistical Yearbook (1981), table 1 in Fan, Xiong and Zhou, \"Information Distortion in Hierarchical Organizations: A Study of China's Great Famine\" (2016)",
+			"url": "https://wxiong.mycpanel.princeton.edu/papers/Famine.pdf",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "grain-exports.svg"
+		}
+	]
+}
