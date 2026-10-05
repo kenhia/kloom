@@ -71,7 +71,15 @@
 			"title": "The modern harvest",
 			"labelKind": "date",
 			"palette": "nitrogen",
-			"frames": ["fertilizer", "vitamins", "tractor", "dust-bowl", "green-revolution"]
+			"frames": [
+				"fertilizer",
+				"vitamins",
+				"tractor",
+				"dust-bowl",
+				"green-revolution",
+				"gm-crops",
+				"hunger-now"
+			]
 		}
 	]
 }

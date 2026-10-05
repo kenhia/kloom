@@ -1,0 +1,220 @@
+{
+	"id": "gm-crops",
+	"topic": "Genetically modified crops",
+	"position": {
+		"label": "1994",
+		"sort": 1994
+	},
+	"scene": {
+		"headline": "We moved a",
+		"accent": "GENE.",
+		"palette": "nitrogen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CALGENE · DAVIS, CALIFORNIA · FLAVR SAVR",
+			"AGROBACTERIUM · GENE GUN · BT · GLYPHOSATE"
+		],
+		"counter": {
+			"value": "190,400,000",
+			"label": "hectares of GM crops in 2019"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/pcr",
+			"why": "Every genetically modified crop is an event identified by the DNA at its junction with the plant genome, and food is tested for it with the polymerase chain reaction, primers spanning that junction."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Genetically Engineered Crops: Experiences and Prospects",
+			"authors": [
+				{
+					"name": "National Academies of Sciences, Engineering, and Medicine"
+				}
+			],
+			"publisher": "The National Academies Press",
+			"place": "Washington, DC",
+			"published": "2016",
+			"doi": "10.17226/23395",
+			"url": "https://nap.nationalacademies.org/read/23395/chapter/2",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Read in its executive summary and summary; the quotations are from those"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Flavr Savr",
+			"url": "https://en.wikipedia.org/w/index.php?title=Flavr_Savr&oldid=1368455863",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genetically modified crops",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genetically_modified_crops&oldid=1377909275",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "The Case of the FLAVR SAVR Tomato",
+			"authors": [
+				{
+					"family": "Bruening",
+					"given": "G."
+				},
+				{
+					"family": "Lyons",
+					"given": "J. M."
+				}
+			],
+			"container": "California Agriculture",
+			"volume": "54",
+			"issue": "4",
+			"pages": "6–7",
+			"published": "2000-07",
+			"doi": "10.3733/ca.v054n04p6",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Read on its page 7: the introduction on 21 May 1994, and Zeneca's paste"
+		},
+		{
+			"kind": "report",
+			"title": "Biotech Crops Drive Socio-Economic Development and Sustainable Environment in the New Frontier",
+			"number": "ISAAA Brief 55-2019",
+			"authors": [
+				{
+					"name": "ISAAA"
+				}
+			],
+			"publisher": "International Service for the Acquisition of Agri-biotech Applications",
+			"published": "2019",
+			"url": "https://www.isaaa.org/resources/publications/briefs/55/executivesummary/default.asp",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Read in its executive summary"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Agrobacterium tumefaciens",
+			"url": "https://en.wikipedia.org/w/index.php?title=Agrobacterium_tumefaciens&oldid=1376835628",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gene gun",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gene_gun&oldid=1320762637",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Detection of genetically modified organisms",
+			"url": "https://en.wikipedia.org/w/index.php?title=Detection_of_genetically_modified_organisms&oldid=1365659384",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Golden rice",
+			"url": "https://en.wikipedia.org/w/index.php?title=Golden_rice&oldid=1374816022",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Agricultural Biotechnology in the Courts: Judicial Opinions and Commentary",
+			"authors": [
+				{
+					"family": "Kershen",
+					"given": "Drew L."
+				}
+			],
+			"container": "Frontiers in Bioengineering and Biotechnology",
+			"volume": "13",
+			"pages": "1592675",
+			"published": "2025-08-11",
+			"doi": "10.3389/fbioe.2025.1592675",
+			"accessed": "2026-10-04",
+			"note": "Its account of the Golden Rice case in the Philippines, to May 2025"
+		},
+		{
+			"kind": "case",
+			"title": "Bowman v. Monsanto Co.",
+			"reporter": {
+				"volume": "569",
+				"name": "U.S.",
+				"page": "278"
+			},
+			"published": "2013-05-13",
+			"url": "https://static.case.law/us/569/html/0278-01.html",
+			"container": "Caselaw Access Project",
+			"publisher": "Harvard Law School Library",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Golden Rice",
+			"url": "https://commons.wikimedia.org/wiki/File:Golden_Rice.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC BY 2.0",
+			"file": "golden-rice.jpg",
+			"authors": [
+				{
+					"name": "International Rice Research Institute (IRRI)"
+				}
+			],
+			"container": "International Rice Research Institute, Flickr",
+			"published": "2011-02-15"
+		}
+	]
+}

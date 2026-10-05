@@ -1,0 +1,92 @@
+{
+	"title": "Prevalence of undernourishment in the world, 2001–2025",
+	"description": "Bar chart of the share of the world's population estimated to be undernourished, every second year: 2001, 13.0 percent; 2003, 12.9; 2005, 12.1; 2007, 10.0; 2009, 9.0; 2011, 8.2; 2013, 7.7; 2015, 8.0; 2017, 7.2; 2019, 7.5; 2021, 8.6; 2023, 8.5; 2025, 7.8 (a nowcast). Data: FAOSTAT Suite of Food Security Indicators, annual values, as revised for The State of Food Security and Nutrition in the World 2026.",
+	"heading": "WORLD · PREVALENCE OF UNDERNOURISHMENT · %",
+	"unit": "%",
+	"axis": {
+		"max": 16,
+		"ticks": [
+			[0, "0"],
+			[4, "4"],
+			[8, "8"],
+			[12, "12"],
+			[16, "16"]
+		]
+	},
+	"width": 600,
+	"height": 300,
+	"barWidth": 28,
+	"bars": [
+		{
+			"label": "2001",
+			"value": 13.0,
+			"display": "13.0"
+		},
+		{
+			"label": "2003",
+			"value": 12.9,
+			"display": "12.9"
+		},
+		{
+			"label": "2005",
+			"value": 12.1,
+			"display": "12.1"
+		},
+		{
+			"label": "2007",
+			"value": 10.0,
+			"display": "10.0"
+		},
+		{
+			"label": "2009",
+			"value": 9.0,
+			"display": "9.0"
+		},
+		{
+			"label": "2011",
+			"value": 8.2,
+			"display": "8.2"
+		},
+		{
+			"label": "2013",
+			"value": 7.7,
+			"display": "7.7"
+		},
+		{
+			"label": "2015",
+			"value": 8.0,
+			"display": "8.0"
+		},
+		{
+			"label": "2017",
+			"value": 7.2,
+			"display": "7.2"
+		},
+		{
+			"label": "2019",
+			"value": 7.5,
+			"display": "7.5"
+		},
+		{
+			"label": "2021",
+			"value": 8.6,
+			"display": "8.6"
+		},
+		{
+			"label": "2023",
+			"value": 8.5,
+			"display": "8.5"
+		},
+		{
+			"label": "2025",
+			"value": 7.8,
+			"display": "7.8",
+			"highlight": true
+		}
+	],
+	"source": {
+		"container": "FAOSTAT, Suite of Food Security Indicators (FAO, July 2026 release), annual values",
+		"url": "https://www.fao.org/faostat/en/#data/FS",
+		"accessed": "2026-10-04"
+	}
+}
