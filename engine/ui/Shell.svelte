@@ -9,7 +9,7 @@
 	import { contentsOf, openTrails } from '../contents';
 	import { clamp, indexLabel, stops, WheelGate, type BackStop, type SyncMode } from '../navigation';
 	import { AHEAD, PENDING, type ServedBody } from '../served';
-	import { keyName, modified, onMac, pageKey, SHORTCUTS, tabKey, type Binding } from '../keys';
+	import { keyName, onMac, pageKey, SHORTCUTS, tabKey, type Binding } from '../keys';
 	import { marksText, type FrameMarks } from '../marks';
 	import {
 		bounds,
@@ -539,8 +539,6 @@
 				((s.action !== 'random' && s.action !== 'anywhere') || onrandom)
 		).map((s) => ({
 			action: s.action,
-			/** Alt, Ctrl or Meta held: it acts anywhere, not only in the panes (WCAG 2.1.4). */
-			anywhere: modified(keys[s.action]!),
 			key: shown(keys[s.action])!,
 			label: {
 				sync: 'sync',
@@ -559,15 +557,13 @@
 		}))
 	);
 
-	/** The hints in two runs, the scoped ones and those that act anywhere, each with its joins. */
-	const hintRuns = $derived(
-		[hints.filter((h) => !h.anywhere), hints.filter((h) => h.anywhere)].map((run) =>
-			run.map((h, i) => ({
-				...h,
-				/** What comes before it: nothing, a comma, or "and" before the last. */
-				lead: i === 0 ? '' : i === run.length - 1 ? ' and ' : ', '
-			}))
-		)
+	/** The hints with their joins. */
+	const hintRun = $derived(
+		hints.map((h, i) => ({
+			...h,
+			/** What comes before it: nothing, a comma, or "and" before the last. */
+			lead: i === 0 ? '' : i === hints.length - 1 ? ' and ' : ', '
+		}))
 	);
 
 	const linksOffer = $derived<LinksOffer | null>(
@@ -648,13 +644,14 @@
 		markNote = on ? `Bookmarked: ${titleOf(frame)}` : `Bookmark removed: ${titleOf(frame)}`;
 	}
 
-	// Coming forward (the start screen closed): the spine takes focus, or Home
-	// does when that is where the reader went to the start screen from.
+	// Coming forward (the start screen closed, or the shell mounting begun: a
+	// deep link, another subject opened from the list): the spine takes focus,
+	// or Home does when the reader went home from it and Esc only closed it.
 	let wasActive: boolean | undefined;
 	let homeButton = $state<IconButton>();
 	let fromHome = false;
 	$effect(() => {
-		if (active && wasActive === false) {
+		if (active && !wasActive) {
 			if (fromHome) homeButton?.focus();
 			else slider?.focus();
 			fromHome = false;
@@ -665,6 +662,11 @@
 	function goHome() {
 		fromHome = true;
 		onhome?.();
+	}
+
+	/** Begin or a resume closed the start screen: reading starts, so the spine takes focus. */
+	export function reading() {
+		fromHome = false;
 	}
 
 	// While following, the pin tracks the spine, so turning following off
@@ -1096,15 +1098,10 @@
 
 	<p id="ai-hint" class="hint">
 		<kbd>←</kbd><kbd>→</kbd> spine · <kbd>↑</kbd><kbd>↓</kbd> narrative
-		{#if hintRuns[0].length}
+		{#if hintRun.length}
 			·
 			<!-- prettier-ignore -->
-			<span>{#each hintRuns[0] as h (h.action)}{h.lead}<kbd>{h.key}</kbd>&nbsp;{h.label}{/each}, in the spine{layer ? ', narrative or notes' : ' or narrative'}</span>
-		{/if}
-		{#if hintRuns[1].length}
-			·
-			<!-- prettier-ignore -->
-			<span>{#each hintRuns[1] as h (h.action)}{h.lead}<kbd>{h.key}</kbd>&nbsp;{h.label}{/each}, anywhere</span>
+			<span>{#each hintRun as h (h.action)}{h.lead}<kbd>{h.key}</kbd>&nbsp;{h.label}{/each}</span>
 		{/if}
 		{#if hasAi}· <kbd>Tab</kbd> into and out of the AI pane{/if} · <kbd>Esc</kbd> back to the spine ·
 		drag a divider, or focus it and use the arrows

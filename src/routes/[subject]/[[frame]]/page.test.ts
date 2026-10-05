@@ -179,11 +179,10 @@ describe('the shell', () => {
 		expect(page().body).toMatch(/<button type="submit"[^>]*>\s*Ask\s*<\/button>/);
 	});
 
-	it('says in the hint bar that S, T, C, M, Z, D and W act from the spine or narrative only', () => {
+	it('names S, T, C, M, Z, D and W in the hint bar, acting anywhere but a text box (korg 3564)', () => {
 		const hint = said(page().body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
-		expect(hint).toContain(
-			'S sync, T trail, C contents, M map, Z zoom, D random and W anywhere, in the spine or narrative'
-		);
+		expect(hint).toContain('S sync, T trail, C contents, M map, Z zoom, D random and W anywhere ·');
+		expect(hint).not.toContain('in the spine');
 	});
 
 	it('opens on a start screen, with the shell inert behind it', () => {
@@ -837,14 +836,13 @@ describe('the reader’s keys', () => {
 
 	it('name the reader’s keys in the help, and leave out one turned off', () => {
 		const h = hint(shell({ sync: 'y', trail: 'off' }));
-		expect(h).toContain('Y sync, C contents and Z zoom, in the spine or narrative');
+		expect(h).toContain('Y sync, C contents and Z zoom ·');
 		expect(h).not.toContain('T trail');
 	});
 
-	it('name a binding with a modifier apart, as acting anywhere (korg 3493)', () => {
+	it('name a binding with a modifier among the rest, since every one acts anywhere (korg 3564)', () => {
 		const h = hint(shell({ contents: 'alt+c', sync: 'ctrl+shift+y' }));
-		expect(h).toContain('T trail and Z zoom, in the spine or narrative');
-		expect(h).toContain('Ctrl+Shift+Y sync and Alt+C contents, anywhere');
+		expect(h).toContain('Ctrl+Shift+Y sync, T trail, Alt+C contents and Z zoom ·');
 	});
 
 	it('keep the settings pop-up to settings, with the shortcuts a button away', () => {
@@ -948,7 +946,7 @@ describe('the reader’s layer on a frame', () => {
 	it('says N adds a note, in the help and on the Add button', () => {
 		const body = shell(layer());
 		expect(said(body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0])).toContain(
-			'S sync, T trail, N note, A annotate, C contents and Z zoom, in the spine, narrative or notes'
+			'S sync, T trail, N note, A annotate, C contents and Z zoom ·'
 		);
 		expect(said(body)).toContain('Add a note N');
 	});

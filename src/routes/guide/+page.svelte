@@ -444,8 +444,9 @@
 		{/each}
 	</ul>
 	<p>
-		These letters work while you are in the picture, the reading or the notes. You can change them
-		in Settings, under Keyboard shortcuts…. Out of the box they are:
+		These letters work anywhere on the page except while you type in a box or have a dialog open.
+		You can change them, or turn any of them off, in Settings, under Keyboard shortcuts…. Out of the
+		box they are:
 	</p>
 	<ul class="keys">
 		{#each SHORTCUTS as s (s.action)}

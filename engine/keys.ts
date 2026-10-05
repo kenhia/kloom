@@ -94,9 +94,6 @@ export const DEFAULT_KEYS = Object.fromEntries(
 	SHORTCUTS.map((s) => [s.action, plain(s.key)])
 ) as Keymap;
 
-/** Alt, Ctrl or Meta held: the binding is not a character key (WCAG 2.1.4). */
-export const modified = (b: Binding) => b.alt || b.ctrl || b.meta;
-
 const BINDABLE = /^([a-z0-9]|f([1-9]|1[0-2]))$/;
 
 /**
@@ -285,9 +282,6 @@ export interface KeyTarget {
 export const OWN_KEYS =
 	'input[type="text"], input[type="search"], textarea, select, [contenteditable="true"], [data-own-keys]';
 
-/** Where the character shortcuts act. */
-export const SHORTCUT_PANES = '.spine, .narrative, .notes';
-
 /** The shortcut a press is bound to: exact modifiers first, then Shift let off. */
 function shortcutOf(p: Press, keys: Keymap): Shortcut | null {
 	const b = bindingOf(p);
@@ -309,7 +303,8 @@ export function pageKey(
 	if (p.key === 'Escape' && !held && within('.ai')) return 'to-spine';
 	if (within(OWN_KEYS)) return null;
 	const action = shortcutOf(p, keys);
-	if (action) return held || within(SHORTCUT_PANES) ? action : null;
+	// Anywhere else in the shell: 2.1.4 is met by turning a key off or moving it.
+	if (action) return action;
 	// The fixed keys stand down under a modifier: Alt+← is the browser's Back.
 	if (held) return null;
 	switch (p.key) {

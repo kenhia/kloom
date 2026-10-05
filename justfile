@@ -276,6 +276,23 @@ home-check:
     fi
     node create-tools/home-check/home_check.mjs --url "$url"
 
+# Focus and the character shortcuts (korg 3561-3564): after every way into
+# the reading (a deep link, Begin on this subject or another, Enter on the
+# list, a resume, Home then Esc) and after a click on the scene or a
+# paragraph, Z opens the drawing; Enter anywhere on the start screen begins;
+# Z in the AI box types (same Playwright and dev server as scene-fit)
+focus-check:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    url="${KLOOM_URL:-http://localhost:5415}"
+    if ! curl -sf -o /dev/null "$url/"; then
+        node_modules/.bin/vite dev --host 127.0.0.1 --port 5415 --strictPort >/dev/null 2>&1 &
+        server=$!
+        trap 'kill $server' EXIT
+        for _ in $(seq 60); do curl -sf -o /dev/null "$url/" && break; sleep 0.5; done
+    fi
+    node create-tools/focus-check/focus_check.mjs --url "$url"
+
 # The HUD (korg 3540, 3539): every icon's tooltip on hover and keyboard
 # focus, quickly and with no native title, Esc dismissing it; and Zoom
 # drawing, Z or the button to open, Z, Esc, the × or the backdrop to close,

@@ -41,8 +41,8 @@ describe('page keys', () => {
 		expect(pageKey('ArrowDown', settingsSelect)).toBeNull();
 	});
 
-	it('acts on S, T, B, N, A, O, C, R, M, Z, D and W only in the spine, the narrative or the notes (WCAG 2.1.4)', () => {
-		for (const t of [slider, reading, gear, notes]) {
+	it('acts on S, T, B, N, A, O, C, R, M, Z, D and W anywhere but a text field or a control that owns its keys (korg 3564)', () => {
+		for (const t of [slider, reading, gear, notes, sendButton, body, null]) {
 			expect(pageKey('n', t)).toBe('note');
 			expect(pageKey('N', t)).toBe('note');
 			expect(pageKey('s', t)).toBe('sync');
@@ -61,7 +61,7 @@ describe('page keys', () => {
 			expect(pageKey('d', t)).toBe('random');
 			expect(pageKey('W', t)).toBe('anywhere');
 		}
-		for (const t of [askBox, sendButton, settingsSelect, body, null]) {
+		for (const t of [askBox, settingsSelect]) {
 			expect(pageKey('s', t)).toBeNull();
 			expect(pageKey('t', t)).toBeNull();
 			expect(pageKey('b', t)).toBeNull();
@@ -83,7 +83,7 @@ describe('page keys', () => {
 		expect(pageKey('s', slider, keys)).toBeNull();
 		expect(pageKey('b', slider, keys)).toBeNull();
 		expect(pageKey('t', slider, keys)).toBe('trail');
-		// Still scoped: a remapped key types in the AI pane.
+		// A remapped key still types in the AI pane's text box.
 		expect(pageKey('y', askBox, keys)).toBeNull();
 	});
 
@@ -178,13 +178,12 @@ describe('bindings with modifiers (korg 3493)', () => {
 		expect(pageKey('y', slider, keys)).toBeNull();
 	});
 
-	it('keeps an unmodified binding scoped, and lets a modified one act page-wide (WCAG 2.1.4)', () => {
+	it('acts on a modified binding and a Shift one alike outside the panes', () => {
 		const keys = { ...DEFAULT_KEYS, map: b('alt+m'), sync: b('shift+y') };
 		for (const t of [sendButton, body, null]) {
 			expect(pageKey(alt('m', 'KeyM'), t, keys)).toBe('map');
-			expect(pageKey({ key: 'Y', shiftKey: true }, t, keys)).toBeNull();
+			expect(pageKey({ key: 'Y', shiftKey: true }, t, keys)).toBe('sync');
 		}
-		expect(pageKey('n', sendButton)).toBeNull();
 	});
 
 	it('never takes a modified binding from a text field or a control that owns its keys', () => {
