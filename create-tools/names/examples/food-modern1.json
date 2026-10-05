@@ -1,0 +1,49 @@
+{
+	"food/fertilizer": [
+		["Fritz Haber", "fritz-haber"],
+		["Vaclav Smil", "vaclav-smil"],
+		["Carl Bosch", "carl-bosch"],
+		["Justus von Liebig", "justus-von-liebig"],
+		["Liebig's law of the minimum", "liebigs-law-of-the-minimum"],
+		["nitrogen fixation", "nitrogen-fixation"],
+		["fertilizer", "fertilizer"],
+		["guano", "guano"],
+		["Chincha Islands", "chincha-islands"],
+		["sodium nitrate", "sodium-nitrate"],
+		["War of the Pacific", "war-of-the-pacific"],
+		["William Crookes", "william-crookes"],
+		["First World War", "world-war-i"],
+		["Haber process", "haber-process"],
+		["dead zones", "dead-zone-ecology"]
+	],
+	"food/vitamins": [
+		["beriberi", "thiamine-deficiency"],
+		["Christiaan Eijkman", "christiaan-eijkman"],
+		["Batavia", "batavia-dutch-east-indies"],
+		["Gerrit Grijns", "gerrit-grijns"],
+		["Frederick Gowland Hopkins", "frederick-gowland-hopkins"],
+		["Casimir Funk", "casimir-funk"],
+		["scurvy", "scurvy"],
+		["vitamins", "vitamin"],
+		["Elmer McCollum", "elmer-mccollum"],
+		["Henrik Dam", "henrik-dam"],
+		["vitamin K", "vitamin-k"],
+		["Dorothy Hodgkin", "dorothy-hodgkin"],
+		["Pellagra", "pellagra"],
+		["Joseph Goldberger", "joseph-goldberger"],
+		["enriched flour", "enriched-flour"]
+	],
+	"food/tractor": [
+		["tractor", "tractor"],
+		["Henry Ford", "henry-ford"],
+		["Fordson", "fordson"],
+		["Department of Agriculture", "united-states-department-of-agriculture"],
+		["traction engines", "traction-engine"],
+		["John Froelich", "john-froelich"],
+		["Eugene Farkas", "eugene-farkas"],
+		["Model T", "ford-model-t"],
+		["River Rouge", "ford-river-rouge-complex"],
+		["Harry Ferguson", "harry-ferguson"],
+		["three-point hitch", "three-point-hitch"]
+	]
+}

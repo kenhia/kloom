@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M10 262 L390 262"/>
+		<path pathLength="1" d="M220 236 L215 235.3 M212.1 234.9 L207.1 234.2 M204.2 233.8 L199.2 233.1 M196.2 232.7 L191.3 232 M188.3 231.6 L183.4 230.9 M180.4 230.5 L175.4 229.8 M172.5 229.4 L167.5 228.7 M164.5 228.3 L159.6 227.6 M156.6 227.2 L151.7 226.5 M148.7 226.1 L143.7 225.4 M140.8 225 L135.8 224.3 M132.8 223.9 L127.9 223.2 M124.9 222.8 L120 222.1 M117 221.7 L112 221 M109.1 220.6 L104.1 219.9 M101.1 219.5 L96.2 218.8 M93.2 218.4 L88.3 217.7 M85.3 217.3 L80.3 216.6 M77.4 216.2 L72.4 215.5 M69.4 215.1 L64.5 214.4 M61.5 214 L56.6 213.3 M53.6 212.9 L48.6 212.2 M45.7 211.8 L42.3 211.3"/>
+		<path pathLength="1" d="M214 182 L209.1 182.8 M206.1 183.3 L201.2 184.2 M198.2 184.7 L193.3 185.5 M190.3 186 L185.4 186.9 M182.5 187.4 L177.5 188.2 M174.6 188.7 L169.6 189.6 M166.7 190.1 L161.8 190.9 M158.8 191.4 L153.9 192.3 M150.9 192.8 L146 193.6 M143 194.1 L138.1 195 M135.1 195.5 L130.2 196.3 M127.3 196.8 L122.3 197.7 M119.4 198.2 L114.4 199 M111.5 199.5 L106.6 200.3 M103.6 200.8 L98.7 201.7 M95.7 202.2 L90.8 203 M87.8 203.5 L82.9 204.4 M79.9 204.9 L75 205.7 M72.1 206.2 L67.1 207.1 M64.2 207.6 L59.2 208.4 M56.3 208.9 L51.4 209.8 M48.4 210.3 L43.5 211.1"/>
+		<path pathLength="1" d="M150 130 L150 268"/>
+		<path pathLength="1" d="M52 202 L52 268"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M88 200 a62 62 0 1 0 124 0 a62 62 0 1 0 -124 0"/>
+		<path pathLength="1" d="M136 200 a14 14 0 1 0 28 0 a14 14 0 1 0 -28 0"/>
+		<path pathLength="1" d="M26 236 a26 26 0 1 0 52 0 a26 26 0 1 0 -52 0"/>
+		<path pathLength="1" d="M45 236 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M30 170 L30 204 L86 204 L86 170 Z"/>
+		<path pathLength="1" d="M86 176 L114 164 L180 160"/>
+		<path pathLength="1" d="M156 150 L186 150"/>
+		<path pathLength="1" d="M170 150 L180 160"/>
+		<path pathLength="1" d="M220 236 L292 246"/>
+		<path pathLength="1" d="M214 182 L296 168"/>
+		<path pathLength="1" d="M150 200 L220 236"/>
+		<path pathLength="1" d="M180 160 L214 182"/>
+		<path pathLength="1" d="M296 168 L292 246 L318 252 L330 284 L352 284"/>
+		<path pathLength="1" d="M296 168 L318 252"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M190 158 L242 150"/>
+		<path pathLength="1" d="M242 150 L256 241"/>
+		<path pathLength="1" d="M39.3 211.3 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M330 284 L209.2 253.5"/>
+		<path pathLength="1" d="M214.1 252.5 L209.2 253.5 L213 256.7"/>
+		<path pathLength="1" d="M150 234 L150 258"/>
+		<path pathLength="1" d="M147.8 253.5 L150 258 L152.2 253.5"/>
+		<path pathLength="1" d="M236 266 L230 274"/>
+		<path pathLength="1" d="M252 266 L246 274"/>
+		<path pathLength="1" d="M268 266 L262 274"/>
+		<path pathLength="1" d="M284 266 L278 274"/>
+		<path pathLength="1" d="M300 266 L294 274"/>
+		<path pathLength="1" d="M316 266 L310 274"/>
+		<path pathLength="1" d="M332 266 L326 274"/>
+		<path pathLength="1" d="M348 266 L342 274"/>
+		<path pathLength="1" d="M364 266 L358 274"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="286" y="138" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TOP LINK SENSES THE DRAFT</text>
+		<text x="326" y="232" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LOWER LINKS</text>
+		<text x="42.3" y="167.3" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LINES MEET</text>
+		<path pathLength="1" d="M42.3 173.3 L42.3 205.3"/>
+		<text x="366" y="296" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PLOW</text>
+		<text x="120" y="280" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MORE WEIGHT ON THE REAR WHEELS</text>
+		<text x="200" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THREE-POINT HITCH · SIDE ELEVATION · SCHEMATIC</text>
+	</g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="t d">
+<title id="t">World agricultural use of nitrogen fertilizer, 1961 to 2024</title>
+<desc id="d">Bar chart of nitrogen used in agriculture worldwide, in millions of tonnes of nitrogen: 11.5 in 1961, 31.6 in 1970, 60.6 in 1980, 77.2 in 1990, 81.0 in 2000, 101.3 in 2010, 115.0 in 2020 and 115.2 in 2024. Data: FAOSTAT, Fertilizers by Nutrient, World.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="500" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="500" y1="184.2" y2="184.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="188.2" text-anchor="end">40</text>
+<line x1="64" x2="500" y1="118.3" y2="118.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="122.3" text-anchor="end">80</text>
+<line x1="64" x2="500" y1="52.5" y2="52.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="56.5" text-anchor="end">120</text>
+</g>
+<rect x="71.2" y="231.1" width="40" height="18.9" class="accent" fill="currentColor"/>
+<text x="91.2" y="225.1" text-anchor="middle">11.5</text>
+<text x="91.2" y="266" text-anchor="middle">1961</text>
+<rect x="125.8" y="198.0" width="40" height="52.0" fill-opacity="0.85"/>
+<text x="145.8" y="192.0" text-anchor="middle">31.6</text>
+<text x="145.8" y="266" text-anchor="middle">1970</text>
+<rect x="180.2" y="150.2" width="40" height="99.8" fill-opacity="0.85"/>
+<text x="200.2" y="144.2" text-anchor="middle">60.6</text>
+<text x="200.2" y="266" text-anchor="middle">1980</text>
+<rect x="234.8" y="122.9" width="40" height="127.1" fill-opacity="0.85"/>
+<text x="254.8" y="116.9" text-anchor="middle">77.2</text>
+<text x="254.8" y="266" text-anchor="middle">1990</text>
+<rect x="289.2" y="116.7" width="40" height="133.3" fill-opacity="0.85"/>
+<text x="309.2" y="110.7" text-anchor="middle">81.0</text>
+<text x="309.2" y="266" text-anchor="middle">2000</text>
+<rect x="343.8" y="83.2" width="40" height="166.8" fill-opacity="0.85"/>
+<text x="363.8" y="77.2" text-anchor="middle">101.3</text>
+<text x="363.8" y="266" text-anchor="middle">2010</text>
+<rect x="398.2" y="60.7" width="40" height="189.3" fill-opacity="0.85"/>
+<text x="418.2" y="54.7" text-anchor="middle">115.0</text>
+<text x="418.2" y="266" text-anchor="middle">2020</text>
+<rect x="452.8" y="60.4" width="40" height="189.6" fill-opacity="0.85"/>
+<text x="472.8" y="54.4" text-anchor="middle">115.2</text>
+<text x="472.8" y="266" text-anchor="middle">2024</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">NITROGEN USED ON THE WORLD'S FARMS · MILLION TONNES N</text>
+</g></svg>

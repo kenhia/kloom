@@ -65,6 +65,13 @@
 				"pure-food",
 				"birdseye"
 			]
+		},
+		{
+			"id": "modern-harvest",
+			"title": "The modern harvest",
+			"labelKind": "date",
+			"palette": "nitrogen",
+			"frames": ["fertilizer", "vitamins", "tractor"]
 		}
 	]
 }
