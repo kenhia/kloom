@@ -283,3 +283,29 @@ tools-test`, `just reader-gate`, every mark spec with `--check
 - korg 3543 (biology): the pending links, as a comment.
 - **Publishing**: food is not in `publish.json`, so the public reader
   site will not carry it until Ken adds it; that is his call.
+
+## Deployed
+
+2026-10-05, to the service on kai, by `just deploy` (`.sprint-deploy`'s
+`recipe: deploy`) from merged `main` at `254645fb` (PR #58). The content
+clone is at the same commit.
+
+- **The deploy's own verify:** all ten checks `ok` (both doors, write
+  gating, reader-data and notes gating, a frame's body from the library,
+  compression). `DEPLOYED` reads `254645fbf`.
+- **This sprint's work, live on both doors (:4890 and :4891), each 200:**
+  `/food`, `/food/oldest-bread` (its page carries FARMED.),
+  `/food/bengal-1943` (a trail frame), `/food/frozen-fries`, and
+  `/media/food/oldest-bread/black-desert.jpg`.
+- **`/api/stats`** counts food as _Daily Bread_, "how humanity learned to
+  feed itself": 65 frames, 16 of them in 4 trails, 61,161 words (222
+  pages, by the stats' own count, which includes tables and captions), 56
+  images, 13 charts and 125 connections.
+- **The public reader site** was published the same day at Ken's word,
+  with food added to `publish.json`, by `just publish-public` from
+  `254645fb`: Fly release v13, image `kloom-reader:254645fbf-202610050532`,
+  staged with 11 subjects and 1,645 media files. Every `verify-public`
+  check passed (TLS, HSTS, robots, the sign-in wall, the 404s for grow and
+  for ask and keep without ask, compression, the library's build `1071b4`,
+  the Fly-Client-IP overwrite). The site has five notes, none detached;
+  ask has spent $0.05 of $15 this month.
