@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M100 22 L100 208"/>
+		<path pathLength="1" d="M290 22 L290 208"/>
+		<path pathLength="1" d="M20 208 L380 208"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M66 130 L65 131 L63.8 132.2 L62.2 133.6 L60.5 135.2 L58.7 137 L57 139 L55.4 141 L54 143 L52.7 145.1 L51.3 147.4 L50 149.8 L48.8 152.2 L47.7 154.8 L46.8 157.5 L46.2 160.2 L46 163 L46.1 165.9 L46.5 169 L47.1 172.2 L48 175.5 L49.1 178.8 L50.5 182 L52.1 185.1 L54 188 L56.4 190.9 L59.4 193.8 L62.9 196.7 L66.5 199.6 L70.1 202.2 L73.3 204.5 L76 206.5 L78 208 L122 208 L124 206.5 L126.7 204.5 L129.9 202.2 L133.5 199.6 L137.1 196.7 L140.6 193.8 L143.6 190.9 L146 188 L147.9 185.1 L149.5 182 L150.9 178.8 L152 175.5 L152.9 172.2 L153.5 169 L153.9 165.9 L154 163 L153.8 160.2 L153.2 157.5 L152.3 154.8 L151.2 152.2 L150 149.8 L148.7 147.4 L147.3 145.1 L146 143 L144.6 141 L143 139 L141.3 137 L139.5 135.2 L137.8 133.6 L136.2 132.2 L135 131 L134 130"/>
+		<path pathLength="1" d="M76 58 L75.7 58.8 L75.3 59.8 L74.9 61 L74.4 62.4 L73.8 63.9 L73.2 65.7 L72.6 67.7 L72 70 L71.2 72.6 L70.3 75.5 L69.3 78.6 L68.2 82 L67.3 85.5 L66.6 89 L66.1 92.6 L66 96 L66.2 99.5 L66.7 103.2 L67.4 107.1 L68.4 110.9 L69.5 114.6 L70.8 118.1 L72.3 121.3 L74 124 L76.1 126.3 L78.6 128.4 L81.5 130.2 L84.5 131.8 L87.4 133.1 L90.1 134.2 L92.4 135.2 L94 136 L106 136 L107.6 135.2 L109.9 134.2 L112.6 133.1 L115.5 131.8 L118.5 130.2 L121.4 128.4 L123.9 126.3 L126 124 L127.7 121.3 L129.2 118.1 L130.5 114.6 L131.6 110.9 L132.6 107.1 L133.3 103.2 L133.8 99.5 L134 96 L133.9 92.6 L133.4 89 L132.7 85.5 L131.8 82 L130.7 78.6 L129.7 75.5 L128.8 72.6 L128 70 L127.4 67.7 L126.8 65.7 L126.2 63.9 L125.6 62.4 L125.1 61 L124.7 59.8 L124.3 58.8 L124 58"/>
+		<path pathLength="1" d="M250 80 L249.6 81.2 L249.2 82.7 L248.6 84.5 L248 86.5 L247.2 88.8 L246.3 91.5 L245.3 94.6 L244 98 L242.3 101.9 L240.2 106.3 L237.9 111.2 L235.4 116.3 L233 121.7 L230.8 127.1 L229.1 132.6 L228 138 L227.4 143.5 L226.9 149.4 L226.8 155.4 L227 161.4 L227.6 167.4 L228.6 173 L230 178.3 L232 183 L234.9 187.3 L238.8 191.2 L243.4 194.9 L248.2 198.3 L253.1 201.3 L257.6 204 L261.3 206.2 L264 208 L316 208 L318.7 206.2 L322.4 204 L326.9 201.3 L331.8 198.3 L336.6 194.9 L341.2 191.2 L345.1 187.3 L348 183 L350 178.3 L351.4 173 L352.4 167.4 L353 161.4 L353.2 155.4 L353.1 149.4 L352.6 143.5 L352 138 L350.9 132.6 L349.2 127.1 L347 121.7 L344.6 116.3 L342.1 111.2 L339.8 106.3 L337.7 101.9 L336 98 L334.7 94.6 L333.7 91.5 L332.8 88.8 L332 86.5 L331.4 84.5 L330.8 82.7 L330.4 81.2 L330 80"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M100 142 L100 146"/>
+		<path pathLength="1" d="M100 151 L100 155"/>
+		<path pathLength="1" d="M100 160 L100 164"/>
+		<path pathLength="1" d="M100 169 L100 173"/>
+		<path pathLength="1" d="M56 168 L144 168"/>
+		<path pathLength="1" d="M70 76 L130 76"/>
+		<path pathLength="1" d="M74.8 80 a1.2 1.2 0 1 0 2.4 0 a1.2 1.2 0 1 0 -2.4 0"/>
+		<path pathLength="1" d="M81.8 80 a1.2 1.2 0 1 0 2.4 0 a1.2 1.2 0 1 0 -2.4 0"/>
+		<path pathLength="1" d="M88.8 80 a1.2 1.2 0 1 0 2.4 0 a1.2 1.2 0 1 0 -2.4 0"/>
+		<path pathLength="1" d="M95.8 80 a1.2 1.2 0 1 0 2.4 0 a1.2 1.2 0 1 0 -2.4 0"/>
+		<path pathLength="1" d="M102.8 80 a1.2 1.2 0 1 0 2.4 0 a1.2 1.2 0 1 0 -2.4 0"/>
+		<path pathLength="1" d="M109.8 80 a1.2 1.2 0 1 0 2.4 0 a1.2 1.2 0 1 0 -2.4 0"/>
+		<path pathLength="1" d="M116.8 80 a1.2 1.2 0 1 0 2.4 0 a1.2 1.2 0 1 0 -2.4 0"/>
+		<path pathLength="1" d="M123.8 80 a1.2 1.2 0 1 0 2.4 0 a1.2 1.2 0 1 0 -2.4 0"/>
+		<path pathLength="1" d="M240.9 108 L339.1 108"/>
+		<path pathLength="1" d="M244.9 111 L247.9 112"/>
+		<path pathLength="1" d="M249.9 113 L252.9 114"/>
+		<path pathLength="1" d="M254.9 115 L257.9 116"/>
+		<path pathLength="1" d="M259.9 112 L262.9 113"/>
+		<path pathLength="1" d="M264.9 114 L267.9 115"/>
+		<path pathLength="1" d="M269.9 111 L272.9 112"/>
+		<path pathLength="1" d="M274.9 113 L277.9 114"/>
+		<path pathLength="1" d="M279.9 115 L282.9 116"/>
+		<path pathLength="1" d="M284.9 112 L287.9 113"/>
+		<path pathLength="1" d="M289.9 114 L292.9 115"/>
+		<path pathLength="1" d="M294.9 111 L297.9 112"/>
+		<path pathLength="1" d="M299.9 113 L302.9 114"/>
+		<path pathLength="1" d="M304.9 115 L307.9 116"/>
+		<path pathLength="1" d="M309.9 112 L312.9 113"/>
+		<path pathLength="1" d="M314.9 114 L317.9 115"/>
+		<path pathLength="1" d="M319.9 111 L322.9 112"/>
+		<path pathLength="1" d="M324.9 113 L327.9 114"/>
+		<path pathLength="1" d="M329.9 115 L332.9 116"/>
+		<path pathLength="1" d="M242 28 L270 160"/>
+		<path pathLength="1" d="M246 28 L274 160"/>
+		<path pathLength="1" d="M334 28 L306 160"/>
+		<path pathLength="1" d="M338 28 L310 160"/>
+		<path pathLength="1" d="M232 94 L248.9 111"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M10 236 L58 236 L58 254 L10 254 Z"/>
+		<path pathLength="1" d="M65.3 236 L113.3 236 L113.3 254 L65.3 254 Z"/>
+		<path pathLength="1" d="M120.6 236 L168.6 236 L168.6 254 L120.6 254 Z"/>
+		<path pathLength="1" d="M175.9 236 L223.9 236 L223.9 254 L175.9 254 Z"/>
+		<path pathLength="1" d="M231.2 236 L279.2 236 L279.2 254 L231.2 254 Z"/>
+		<path pathLength="1" d="M286.5 236 L334.5 236 L334.5 254 L286.5 254 Z"/>
+		<path pathLength="1" d="M341.8 236 L389.8 236 L389.8 254 L341.8 254 Z"/>
+		<path pathLength="1" d="M58 245 L65.3 245"/>
+		<path pathLength="1" d="M61.7 246.7 L65.3 245 L61.7 243.3"/>
+		<path pathLength="1" d="M113.3 245 L120.6 245"/>
+		<path pathLength="1" d="M117 246.7 L120.6 245 L117 243.3"/>
+		<path pathLength="1" d="M168.6 245 L175.9 245"/>
+		<path pathLength="1" d="M172.3 246.7 L175.9 245 L172.3 243.3"/>
+		<path pathLength="1" d="M223.9 245 L231.2 245"/>
+		<path pathLength="1" d="M227.6 246.7 L231.2 245 L227.6 243.3"/>
+		<path pathLength="1" d="M279.2 245 L286.5 245"/>
+		<path pathLength="1" d="M282.9 246.7 L286.5 245 L282.9 243.3"/>
+		<path pathLength="1" d="M334.5 245 L341.8 245"/>
+		<path pathLength="1" d="M338.2 246.7 L341.8 245 L338.2 243.3"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="34" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BAPPIR</text>
+		<text x="89.3" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MALT</text>
+		<text x="144.6" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MASH</text>
+		<text x="199.9" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COOL</text>
+		<text x="255.2" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WORT</text>
+		<text x="310.5" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FERMENT</text>
+		<text x="365.8" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FILTER</text>
+		<text x="100" y="18" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FERMENTING VAT</text>
+		<text x="100" y="222" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COLLECTOR VAT</text>
+		<text x="290" y="222" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">UNFILTERED BEER</text>
+		<text x="230" y="92" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HULLS AND YEAST</text>
+		<text x="200" y="274" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE HYMN TO NINKASI, LINES 13-48</text>
+	</g>
+</svg>
