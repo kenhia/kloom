@@ -1,0 +1,52 @@
+{
+	"food/egypt-grain": [
+		["Nile", "nile"],
+		["emmer", "emmer"],
+		["barley", "barley"],
+		["nilometer", "nilometer"],
+		["Pliny the Elder", "pliny-the-elder"],
+		["Mark Lehner", "mark-lehner"],
+		["Giza pyramid complex", "giza-pyramid-complex"],
+		["bread", "bread"],
+		["beer", "beer"],
+		["Ancient Egypt", "ancient-egypt"],
+		["Meketre", "meketre"],
+		["Rhind Mathematical Papyrus", "rhind-mathematical-papyrus"],
+		["Famine Stela", "famine-stela"],
+		["Djoser", "djoser"]
+	],
+	"food/annona": [
+		["Gaius Gracchus", "gaius-gracchus"],
+		["Rome", "rome"],
+		["Cicero", "cicero"],
+		["Publius Clodius Pulcher", "publius-clodius-pulcher"],
+		["Julius Caesar", "julius-caesar"],
+		["Augustus", "augustus"],
+		["_Res Gestae Divi Augusti_", "res-gestae-divi-augusti"],
+		["_cura annonae_", "cura-annonae"],
+		["Josephus", "josephus"],
+		["Claudius", "claudius"],
+		["Ostia Antica", "ostia-antica"],
+		["Portus", "portus"],
+		["Trajan", "trajan"],
+		["Monte Testaccio", "monte-testaccio"],
+		["Juvenal", "juvenal"]
+	],
+	"food/ever-normal-granary": [
+		["Emperor Xuan", "emperor-xuan-of-han"],
+		["Han dynasty", "han-dynasty"],
+		["Book of Han", "book-of-han"],
+		["Liu Hui", "liu-hui"],
+		["_Nine Chapters on the Mathematical Art_", "the-nine-chapters-on-the-mathematical-art"],
+		["ever-normal granary", "buffer-stock-scheme"],
+		["Li Kui", "li-kui-legalist"],
+		["Guanzi", "guanzi-text"],
+		["Emperor Yuan of Han", "emperor-yuan-of-han"],
+		["Qing dynasty", "qing-dynasty"],
+		["Henry A. Wallace", "henry-a-wallace"],
+		["Columbia University", "columbia-university"],
+		["United States Department of Agriculture", "united-states-department-of-agriculture"],
+		["Agricultural Adjustment Act of 1938", "agricultural-adjustment-act-of-1938"],
+		["Commodity Credit Corporation", "commodity-credit-corporation"]
+	]
+}

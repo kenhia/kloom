@@ -1,0 +1,326 @@
+{
+	"id": "annona",
+	"topic": "Rome's grain dole and Ostia",
+	"position": {
+		"label": "123 BC",
+		"sort": -123
+	},
+	"scene": {
+		"headline": "Rome put its citizens on the",
+		"accent": "DOLE.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": ["ROME · OSTIA · PORTUS", "GRAIN FROM SICILY, AFRICA AND EGYPT · CURA ANNONAE"],
+		"counter": {
+			"value": "200,000",
+			"label": "citizens on Augustus's grain list"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Cura annonae",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cura_annonae&oldid=1369994183",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Civil Wars",
+			"authors": [
+				{
+					"name": "Appian"
+				}
+			],
+			"translators": [
+				{
+					"family": "White",
+					"given": "Horace"
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1913",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/1*.html",
+			"accessed": "2026-10-04",
+			"note": "Book 1, chapter 21: Gaius Gracchus's grain law"
+		},
+		{
+			"kind": "web",
+			"title": "Periochae, Book 60",
+			"authors": [
+				{
+					"name": "Livy"
+				}
+			],
+			"container": "The Latin Library",
+			"url": "https://www.thelatinlibrary.com/livy/liv.per60.shtml",
+			"accessed": "2026-10-04",
+			"language": "la",
+			"note": "The grain law's price, in our translation"
+		},
+		{
+			"kind": "chapter",
+			"title": "Caius Gracchus",
+			"authors": [
+				{
+					"name": "Plutarch"
+				}
+			],
+			"translators": [
+				{
+					"family": "Perrin",
+					"given": "Bernadotte"
+				}
+			],
+			"container": "Plutarch’s Lives, vol. 10",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1921",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caius_Gracchus*.html",
+			"accessed": "2026-10-04",
+			"note": "Chapters 5–6: the grain law and the public granaries"
+		},
+		{
+			"kind": "book",
+			"title": "Tusculan Disputations",
+			"authors": [
+				{
+					"name": "Cicero"
+				}
+			],
+			"translators": [
+				{
+					"family": "Yonge",
+					"given": "C. D."
+				}
+			],
+			"publisher": "Harper & Brothers",
+			"place": "New York",
+			"published": "1877",
+			"url": "https://www.gutenberg.org/ebooks/14988",
+			"accessed": "2026-10-04",
+			"note": "Book 3, chapter 20: Piso and the grain law"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Lives of the Caesars",
+			"authors": [
+				{
+					"name": "Suetonius"
+				}
+			],
+			"translators": [
+				{
+					"family": "Rolfe",
+					"given": "J. C."
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1914",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius*.html",
+			"accessed": "2026-10-04",
+			"note": "Julius 41 and Claudius 18–20 (read at the Claudius page too)"
+		},
+		{
+			"kind": "book",
+			"title": "Res Gestae Divi Augusti",
+			"authors": [
+				{
+					"name": "Augustus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Shipley",
+					"given": "Frederick W."
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1924",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/1*.html",
+			"accessed": "2026-10-04",
+			"note": "Chapters 5 and 15"
+		},
+		{
+			"kind": "book",
+			"title": "Roman History",
+			"authors": [
+				{
+					"name": "Cassius Dio"
+				}
+			],
+			"translators": [
+				{
+					"family": "Cary",
+					"given": "Earnest"
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1917",
+			"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/55*.html",
+			"accessed": "2026-10-04",
+			"note": "Book 55, chapter 10: the list limited to 200,000"
+		},
+		{
+			"kind": "book",
+			"title": "The Wars of the Jews",
+			"authors": [
+				{
+					"name": "Flavius Josephus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Whiston",
+					"given": "William"
+				}
+			],
+			"url": "https://www.gutenberg.org/ebooks/2850",
+			"accessed": "2026-10-04",
+			"note": "Book 2, chapter 16: Agrippa's speech on Africa's and Egypt's grain; read at Project Gutenberg",
+			"published": "1737"
+		},
+		{
+			"kind": "chapter",
+			"title": "Satire 10",
+			"authors": [
+				{
+					"name": "Juvenal"
+				}
+			],
+			"translators": [
+				{
+					"family": "Ramsay",
+					"given": "G. G."
+				}
+			],
+			"container": "Juvenal and Persius",
+			"edition": "Loeb Classical Library ed.",
+			"publisher": "Harvard University Press",
+			"place": "Cambridge, MA",
+			"published": "1918",
+			"url": "https://www.tertullian.org/fathers/juvenal_satires_10.htm",
+			"accessed": "2026-10-04",
+			"note": "Lines 77–81, bread and games"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Portus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Portus&oldid=1368097380",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Porto (città antica)",
+			"url": "https://it.wikipedia.org/w/index.php?title=Porto_(citt%C3%A0_antica)&oldid=143407798",
+			"language": "it",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-02-03",
+			"note": "The basin's sides of 358 meters"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Monte Testaccio",
+			"url": "https://en.wikipedia.org/w/index.php?title=Monte_Testaccio&oldid=1365547804",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Piazzale delle Corporazioni",
+			"url": "https://en.wikipedia.org/w/index.php?title=Piazzale_delle_Corporazioni&oldid=1358927986",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Horreum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Horreum&oldid=1376926052",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "media",
+			"title": "Ostia, piazzale delle corporazioni, mosaici, nave e moggio 01",
+			"url": "https://commons.wikimedia.org/wiki/File:Ostia,_piazzale_delle_corporazioni,_mosaici,_nave_e_moggio_01.JPG",
+			"accessed": "2026-10-04",
+			"licence": "CC BY-SA 3.0",
+			"file": "ship-mosaic.jpg",
+			"authors": [
+				{
+					"name": "Sailko"
+				}
+			],
+			"container": "Piazzale delle Corporazioni, Ostia Antica",
+			"published": "2015-10-25"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/augustus",
+			"why": "Augustus took charge of Rome's grain supply in 22 BC and fixed the dole at about 200,000 citizens; Tacitus said he won over the populace \"with cheap corn\"."
+		},
+		{
+			"to": "western-civ/cicero",
+			"why": "Clodius, who drove Cicero into exile in 58 BC, made Rome's grain dole free in the same tribunate."
+		},
+		{
+			"to": "western-civ/fall-of-the-west",
+			"why": "When the Vandals took Carthage in 439, the western empire lost most of the African grain that had fed Rome."
+		}
+	]
+}

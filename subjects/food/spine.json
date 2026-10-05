@@ -13,6 +13,13 @@
 			"labelKind": "date",
 			"palette": "barley",
 			"frames": ["gobekli-tepe", "founder-crops", "first-herds", "catalhoyuk", "maize", "rice"]
+		},
+		{
+			"id": "grain-and-empire",
+			"title": "Grain and empire",
+			"labelKind": "date",
+			"palette": "amphora",
+			"frames": ["egypt-grain", "annona", "ever-normal-granary"]
 		}
 	]
 }
